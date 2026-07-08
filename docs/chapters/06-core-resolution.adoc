@@ -1,7 +1,76 @@
-// Chapter 06 — Core Resolution Mechanics
-// 3d6 + attribute + skill + modifiers, success tiers, crits, fumbles, always-hit
-
 [#chapter-core-resolution]
 = Core Resolution Mechanics
 
-[PLACEHOLDER: The 3d6 roll explained. Weak (1-6), Standard (7-12), Strong (13-18+) tiers. Critical hits (3×6) and fumbles (3×1). Always-hit philosophy. Difficulty, modifiers, opposed rolls. Three worked examples. Probability sidebar.]
+The heart of Heroes of Legend is a simple roll: *3d6 + modifiers*.
+
+== The Core Roll
+
+*3d6 + Attribute Modifier + Skill Bonus + Game Modifiers*
+
+[%header,cols="1,1,3"]
+|===
+| Total | Tier | Meaning
+| 1–6 | *Weak* | Partial success or complication
+| 7–12 | *Standard* | Full success, expected outcome
+| 13–18+ | *Strong* | Exceptional success, bonus effect
+|===
+
+With 3d6, results cluster around 10-11 — your skill matters more than chance.
+
+== Critical Hits (Three 6s)
+
+Automatic *Strong* result. Roll d6 for bonus:
+
+[%header,cols="1,4"]
+|===
+| d6 | Bonus
+| 1 | *Maximum Damage* — all dice roll max
+| 2 | *Devastating Blow* — inflict stunned, prone, or disarmed
+| 3 | *Moment of Glory* — bonus action or free move
+| 4 | *Second Wind* — recover 2 HP or regain one ability
+| 5 | *Inspired Strike* — ally gains advantage vs target
+| 6 | *Narrative Flourish* — describe something epic
+|===
+
+== Fumbles (Three 1s)
+
+Automatic failure. Roll d6 for complication:
+
+[%header,cols="1,4"]
+|===
+| d6 | Complication
+| 1 | *Weapon Trouble* — drop/jam, action to recover
+| 2 | *Friendly Fire* — nearest ally takes Weak damage
+| 3 | *Off Balance* — next attack vs you has advantage
+| 4 | *Equipment Damage* — armor/weapon degrades one step
+| 5 | *Spell Backfire* — take Weak damage from own magic
+| 6 | *Narrative Complication* — scene worsens
+|===
+
+== Attacks Always Hit
+
+No attack roll. Your 3d6 determines damage tier:
+
+*Weak:* Roll weapon's Weak damage +
+*Standard:* Roll weapon's Standard damage +
+*Strong:* Roll weapon's Strong damage +
+
+== Difficulty Modifiers
+
+[%header,cols="1,3"]
+|===
+| +4 | Trivial task
+| +2 | Easier than normal
+| +0 | Standard challenge
+| -2 | Harder than normal
+| -4 | Very difficult
+| -6 | Near-impossible
+|===
+
+== Worked Examples
+
+*Kael (Brawn +2, Longsword +2) attacks a goblin.* Rolls 4+3+5=12, +2+2=16. *Strong!* Longsword Strong: 3d8+2 = 17 damage.
+
+*Lyra (Knowledge +2) identifies a rune. Difficulty -2.* Rolls 2+4+4=10, +2-2=10. *Standard.* She knows it's Old Elvish — a warding glyph.
+
+*Roric swings at a troll. 6, 6, 6!* *Critical!* Bonus roll: 4 — Second Wind (+2 HP). Strong damage: 26.
