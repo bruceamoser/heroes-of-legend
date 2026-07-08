@@ -1,0 +1,7 @@
+// Chapter 15 — Equipment
+// Weapons, gear, kits, encumbrance
+
+[#chapter-equipment]
+= Equipment
+
+[PLACEHOLDER: Weapon tables with dice prerequisites and W/S/S damage. Starting kits per class. Adventuring gear. Tools and kits. Mounts and vehicles. Services. Slot-based encumbrance system. Quick-reference tables.]

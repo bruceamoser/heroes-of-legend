@@ -1,0 +1,7 @@
+// Chapter 14 — Social Conflict
+// Social resolution, influence, reputation
+
+[#chapter-social-conflict]
+= Social Conflict
+
+[PLACEHOLDER: Social interaction rules. NPC attitude and influence system. Extended social conflicts. Deception and detection. Reputation system. Social abilities and talents.]

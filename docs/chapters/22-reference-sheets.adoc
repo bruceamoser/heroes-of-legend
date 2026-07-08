@@ -1,0 +1,11 @@
+// Chapter 22 — Quick Reference Sheets
+// Printable table aids
+
+[#chapter-reference-sheets]
+= Quick Reference Sheets
+
+// PLACEHOLDER — Content to be written in Issue #94:
+// Core resolution table, combat actions, conditions, skill list, dice types,
+// spells, weapons, armor, character creation checklist, and level progression.
+// Each designed to fit 1-2 printable pages.
+

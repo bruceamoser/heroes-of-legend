@@ -1,0 +1,7 @@
+// Chapter 10 — Magic System
+// How magic works: always-fires, spell chains, limitations, arcane vs divine
+
+[#chapter-magic-system]
+= Magic System
+
+[PLACEHOLDER: Always-fires philosophy. Spell chains (Novice → Adept → Master). Dice prerequisites for spells. Casting procedure. Weak/Standard/Strong spell effects. Limitations (per-encounter, per-session). Arcane vs divine distinction. Cantrips and rituals. Worked examples.]

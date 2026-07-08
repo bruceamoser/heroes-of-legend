@@ -1,0 +1,7 @@
+// Chapter 02 — Character Creation
+// Step-by-step guide to building a hero
+
+[#chapter-character-creation]
+= Creating Your Hero
+
+[PLACEHOLDER: Ten-step character creation process. Quick-start and deep creation paths. Backstory tables. Worked example.]

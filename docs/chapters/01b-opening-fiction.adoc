@@ -1,0 +1,7 @@
+// Chapter 01b — Opening Fiction
+// A short narrative piece establishing the game's tone
+
+[#chapter-opening-fiction]
+= Opening Fiction
+
+[PLACEHOLDER: 2-4 page narrative fiction piece. Generic fantasy. Shows heroes using unique abilities. Demonstrates dice types through narrative without naming mechanics.]

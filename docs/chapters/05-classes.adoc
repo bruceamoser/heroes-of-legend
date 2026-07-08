@@ -1,0 +1,7 @@
+// Chapter 05 — Classes
+// Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced
+
+[#chapter-classes]
+= Classes
+
+[PLACEHOLDER: Eight class entries. Each with narrative flavor, starting dice, class feature, DP cost table, class talents, and progression table. Class comparison quick-reference.]

@@ -1,0 +1,7 @@
+// Chapter 03 — Attributes
+// Brawn, Fortitude, Agility, Guile, Knowledge, Reason
+
+[#chapter-attributes]
+= Attributes
+
+[PLACEHOLDER: Six attributes (-2 to +2). Each with description, mechanical domain, and narrative examples. Derived statistics table.]

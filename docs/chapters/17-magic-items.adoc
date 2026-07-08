@@ -1,0 +1,7 @@
+// Chapter 17 — Magic Items
+// Magic weapons, armor, wondrous items, artifacts
+
+[#chapter-magic-items]
+= Magic Items
+
+[PLACEHOLDER: Magic item overview. Attunement (if any). Magic weapons (enhanced W/S/S). Magic armor (enhanced DR). Wondrous items. Rings, rods, staves. Scrolls and potions. Artifacts. Magic item tables by rarity. Dice type interactions.]
