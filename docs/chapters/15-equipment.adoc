@@ -1,7 +1,45 @@
-// Chapter 15 — Equipment
-// Weapons, gear, kits, encumbrance
-
 [#chapter-equipment]
 = Equipment
 
-[PLACEHOLDER: Weapon tables with dice prerequisites and W/S/S damage. Starting kits per class. Adventuring gear. Tools and kits. Mounts and vehicles. Services. Slot-based encumbrance system. Quick-reference tables.]
+== Weapons
+Every weapon has Weak, Standard, and Strong damage values.
+
+[%header,cols="3,1,1,5"]
+|===
+| Weapon | Category | Dice Req | Damage (W/S/St)
+| Dagger | Blades | 1 Blade | 1d4 / 1d6 / 1d8
+| Shortsword | Blades | 1 Blade | 1d6 / 1d8 / 1d10
+| Longsword | Blades | 2 Blades | 1d8 / 2d8 / 3d8
+| Greatsword | Great Weapons | 2 Great Weapons | 2d6 / 3d6 / 4d6
+| Handaxe | Axes | 1 Axe | 1d6 / 1d8 / 1d10
+| Battleaxe | Axes | 2 Axes | 1d8 / 2d8 / 3d8
+| Greataxe | Great Weapons | 2 Axes | 1d12 / 2d12 / 3d12
+| Spear | Polearms | 1 Polearm | 1d6 / 1d8 / 1d10
+| Halberd | Polearms | 2 Polearms | 1d10 / 2d10 / 3d10
+| Shortbow | Archery | 1 Archery | 1d6 / 1d8 / 1d10
+| Longbow | Archery | 2 Archery | 1d8 / 2d8 / 3d8
+| Crossbow | Archery | 2 Archery | 1d10 / 2d10 / 3d10
+| Unarmed | — | — | 1 / 1d4 / 1d6
+|===
+
+Properties: *Versatile* (two-handed for +1 die size), *Finesse* (add AG to damage), *Reach* (10 ft range), *Thrown* (range 20/60).
+
+== Armor
+Armor provides damage reduction (DR) — subtract from incoming physical damage.
+
+[%header,cols="3,1,1"]
+|===
+| Armor | Dice Req | DR
+| Padded | — | -1
+| Leather | — | -2
+| Studded Leather | 1 Armor | -2
+| Chain Shirt | 1 Armor | -3
+| Breastplate | 2 Armor | -4
+| Chain Mail | 2 Armor | -5
+| Plate | 3 Armor | -6
+|===
+
+Shields: *Buckler* (1 Protection, +1 DR), *Shield* (1 Protection, +2 DR), *Tower Shield* (2 Protection, +3 DR, provides half cover).
+
+== Encumbrance
+Slot-based system. You have 10 + (Brawn × 5) slots. Most items take 1 slot. Armor takes 2-4 slots. Two-handed weapons take 2 slots.

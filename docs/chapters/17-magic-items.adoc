@@ -1,7 +1,20 @@
-// Chapter 17 — Magic Items
-// Magic weapons, armor, wondrous items, artifacts
-
 [#chapter-magic-items]
 = Magic Items
 
-[PLACEHOLDER: Magic item overview. Attunement (if any). Magic weapons (enhanced W/S/S). Magic armor (enhanced DR). Wondrous items. Rings, rods, staves. Scrolls and potions. Artifacts. Magic item tables by rarity. Dice type interactions.]
+Magic items enhance heroes and may grant dice types.
+
+[%header,cols="3,2,4"]
+|===
+| Item | Rarity | Effect
+| *+1 Weapon* | Uncommon | +1 damage to all tiers
+| *Flame Tongue* | Rare | +1d6 fire, requires 1 Fire die
+| *Shield +1* | Uncommon | +1 DR
+| *Cloak of Elvenkind* | Uncommon | Advantage on Stealth
+| *Ring of Protection* | Rare | +1 DR, +1 to all saves
+| *Staff of Power* | Very Rare | +2 to spell damage tiers
+| *Deck of Many Things* | Legendary | Draw a card, fate unfolds
+|===
+
+Attunement: A character may attune to 3 magic items at a time. Artifacts do not count against this limit.
+
+Dice Type Items: Some items grant temporary dice while attuned. A *Fire Opal* grants 1 Fire die. A *Blade Master's Gauntlet* grants 1 Blade die. These count toward prerequisite requirements.

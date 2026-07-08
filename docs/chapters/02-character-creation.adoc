@@ -1,7 +1,48 @@
-// Chapter 02 — Character Creation
-// Step-by-step guide to building a hero
-
 [#chapter-character-creation]
 = Creating Your Hero
 
-[PLACEHOLDER: Ten-step character creation process. Quick-start and deep creation paths. Backstory tables. Worked example.]
+Ten steps to build your hero. Quick path: ~15 minutes. Deep path: ~45 minutes with backstory.
+
+== Step 1: Concept
+Who is your hero? A grizzled warrior? A scholarly mage? A charming rogue? Write one sentence.
+
+== Step 2: Attributes
+Distribute 3 points across Brawn, Fortitude, Agility, Guile, Knowledge, Reason. Each starts at +0. Max +2, min -2.
+
+== Step 3: Ancestry
+Choose Human, Elf, Dwarf, or Halfling. Record your dice and trait. See xref:chapters/04-ancestries-cultures.adoc[Ancestries].
+
+== Step 4: Culture
+Choose your upbringing within your ancestry. Grants a +1 skill bonus.
+
+== Step 5: Class
+Choose from Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, or Unbalanced. Record your starting dice, signature ability, and favored skills. See xref:chapters/05-classes.adoc[Classes].
+
+== Step 6: Spend Starting DP
+You have 3 DP. Spend on skills (1/2/4 DP for Novice/Adept/Master) or talents.
+
+== Step 7: Equipment
+Receive your class starting kit. Record weapons (with W/S/S damage) and armor (with DR). See xref:chapters/15-equipment.adoc[Equipment].
+
+== Step 8: Derived Stats
+HP = 10 + (Fortitude × 2). Initiative = Agility modifier. Movement = 30 ft. Carry = 10 + (Brawn × 5) slots.
+
+== Step 9: Backstory
+Roll or choose: Motivation, Trinket, Personality Trait.
+
+[%header,cols="1,3"]
+|===
+| d6 | Motivation
+| 1 | *Glory:* You seek fame and recognition
+| 2 | *Gold:* Wealth drives your adventures
+| 3 | *Justice:* You right wrongs wherever you find them
+| 4 | *Knowledge:* You crave secrets and lost lore
+| 5 | *Protection:* You defend those who cannot defend themselves
+| 6 | *Redemption:* You seek to atone for a past failure
+|===
+
+== Step 10: Name
+Choose a name fitting your ancestry and culture. Welcome to Heroes of Legend.
+
+== Worked Example
+Makeva builds a rogue. *Step 1:* Charming sneak-thief. *Step 2:* Agility +1, Guile +1, Brawn +1. *Step 3:* Halfling (Animal die, Lucky). *Step 4:* Riverfolk (Acrobatics bonus). *Step 5:* Odd (3 dice: Archery, Animal, Water). *Step 6:* Stealth Novice (1 DP), Deception Novice (1 DP), Lucky talent Novice (1 DP). *Step 7:* Shortbow, leather armor, thieves' tools. *Step 8:* HP 10, Init +1, 30 ft, 15 slots. *Step 9:* Motivation — Gold. Trinket — a silver coin that always lands on its edge. *Step 10:* Makeva Quickfoot.

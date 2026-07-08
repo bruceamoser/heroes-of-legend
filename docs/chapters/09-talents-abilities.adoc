@@ -1,7 +1,43 @@
-// Chapter 09 — Talents & Abilities
-// Talent framework, DP costs, dice prerequisites, general and class talents
-
 [#chapter-talents-abilities]
 = Talents & Abilities
 
-[PLACEHOLDER: Talent/ability framework. 1/2/4 DP for Novice/Adept/Master. Dice prerequisites. General talent catalog (10-15). Class talent catalog (16-24). Ability chains explanation (leads into magic). DA guidelines for custom talents.]
+Talents are passive benefits. Abilities are active powers. Both are purchased with Development Points.
+
+== DP Costs
+[%header,cols="1,1,3"]
+|===
+| Tier | DP Cost | Description
+| *Novice* | 1 DP | Basic competency
+| *Adept* | 2 DP | Advanced mastery (requires Novice)
+| *Master* | 4 DP | Legendary expertise (requires Adept)
+|===
+
+== General Talents
+Available to all classes.
+
+[%header,cols="2,1,4"]
+|===
+| Talent | Tier | Effect
+| *Tough* | Novice | +2 max HP
+| *Alert* | Novice | +2 initiative
+| *Lucky* | Novice | Reroll one 1 per session
+| *Skill Focus* | Novice | +1 to one skill (stacks with tier bonus)
+| *Die Collector* | Adept | Gain one additional generic die
+| *Iron Will* | Adept | +2 to all saves vs fear and charm
+| *Combat Reflexes* | Adept | One extra reaction per round
+| *Die Master* | Master | One specific die counts as 2 for prerequisites
+|===
+
+== Class Talents
+Each class has 2-3 exclusive talents.
+
+*Protector:* *Shield Wall* (Adept) — adjacent allies gain +1 DR. *Unbreakable* (Master) — once per session, ignore all damage from one attack.
+
+*Blade:* *Weapon Focus* (Adept) — +1 damage with chosen weapon category. *Death Blow* (Master) — on Critical, deal maximum Strong damage + roll critical bonus twice.
+
+*Arcanist:* *Spell Weaver* (Adept) — maintain two concentration spells. *Arcane Reservoir* (Master) — once per session, cast a Master spell twice.
+
+*Shepherd:* *Blessed Touch* (Adept) — healing spells always use Standard effect minimum. *Divine Intervention* (Master) — once per session, prevent an ally's death.
+
+== Ability Chains
+Abilities (including spells) follow the same Novice → Adept → Master chain structure. See xref:chapters/10-magic-system.adoc[Magic System] for spell chains.

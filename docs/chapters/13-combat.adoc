@@ -1,7 +1,62 @@
-// Chapter 13 — Combat
-// Initiative, action economy, always-hit damage, conditions, dying
-
 [#chapter-combat]
 = Combat
 
-[PLACEHOLDER: Fast cinematic combat. Initiative, turn structure, action economy. Always-hit procedure. Damage and resistance. Conditions reference. Movement, cover, mounted/underwater. Dying mechanic (adapted from original fun dying rules). Combat examples.]
+Combat in Heroes of Legend is fast and cinematic. Every swing matters.
+
+== Initiative
+At combat start, each participant rolls 1d6 + Agility modifier. Highest goes first. Ties: higher Agility wins, then roll-off.
+
+== The Combat Round
+On your turn, take one *Standard Action* and one *Move Action*, plus any number of *Free Actions* and one *Reaction* per round.
+
+[%header,cols="2,4"]
+|===
+| Action | Examples
+| *Standard* | Attack, cast spell, use ability, dash, help, hide
+| *Move* | Move up to speed, stand up, mount/dismount
+| *Bonus* | Class features, quick items (conditional)
+| *Reaction* | Opportunity attack, shield block (1/round)
+| *Free* | Talk, drop item, gesture (unlimited)
+|===
+
+== Making an Attack
+Attacks always hit. Roll 3d6 + modifiers to determine damage tier:
+- *Weak:* Roll weapon's Weak damage (glancing blow)
+- *Standard:* Roll weapon's Standard damage (solid hit)
+- *Strong:* Roll weapon's Strong damage (devastating strike)
+- *Critical:* Maximize Strong damage + critical bonus
+
+== Damage Types
+*Physical:* Slashing, Piercing, Bludgeoning
+*Elemental:* Fire, Cold, Lightning, Acid, Poison
+*Magical:* Force, Radiant, Necrotic, Psychic
+
+== Conditions
+[%header,cols="2,4,3"]
+|===
+| Condition | Effect | Ends
+| *Blinded* | Attacks reduced one tier | Source duration
+| *Charmed* | Cannot attack charmer | Save ends
+| *Deafened* | Perception disadvantage | Source duration
+| *Frightened* | Cannot approach source | Save ends
+| *Grappled* | Speed 0 | Escape action
+| *Incapacitated* | No actions | Source duration
+| *Invisible* | Cannot be targeted directly | Attack/action ends
+| *Paralyzed* | Incapacitated + auto-crit if hit | Save ends
+| *Poisoned* | Disadvantage on attacks | Save ends
+| *Prone* | Melee adv vs you, ranged disadv | Stand up (move)
+| *Restrained* | Speed 0, attack disadv | Escape action
+| *Stunned* | Incapacitated + cannot move | Save ends
+| *Unconscious* | Incapacitated + prone + unaware | Healing or save
+|===
+
+== Dying
+At 0 HP, you fall unconscious. Each round, roll 3d6:
+- *Strong (13+):* Stabilize at 1 HP
+- *Standard (7-12):* Remain unconscious, stable
+- *Weak (1-6):* Take 1 wound, continue dying
+- *Fumble (3×1):* Death
+- *Critical (3×6):* Regain consciousness at half HP
+
+== Cover
+*Half cover:* -1 to attacker's roll. *Three-quarters cover:* -3. *Full cover:* Cannot be targeted.
