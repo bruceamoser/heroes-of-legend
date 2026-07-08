@@ -1,7 +1,22 @@
-// Chapter 19 — GM Guidance
-// Running the game, encounter building, worldbuilding, optional rules
-
 [#chapter-gm-guidance]
 = Dungeon Architect's Guide
 
-[PLACEHOLDER: DA philosophy and pacing. Scene management. Difficulty guidelines. Encounter building (combat, social, exploration). Treasure and reward pacing. NPC creation. Worldbuilding guidance. Adjudicating rules. Player dynamics. Campaign structure. Optional rules.]
+Advice for running Heroes of Legend at your table.
+
+== Scene Management
+Each scene should have a clear goal, conflict, and consequence. If nothing interesting can happen, skip to the next scene.
+
+== Setting Difficulty
+Modifiers guide the table. +4 for trivial, +0 for standard, -4 for very difficult. Don't call for rolls when the outcome isn't in doubt.
+
+== Encounter Building
+Balance encounters by comparing total party dice types to total enemy threat. A standard encounter matches the party's total. Hard encounters have 1.5×. Deadly encounters have 2×.
+
+== Treasure Pacing
+Award 1-2 magic items per level. Gold should feel meaningful — parties should choose between gear, reveling, and reputation investments.
+
+== NPC Creation
+Quick NPC: assign one attribute at +1, one at -1, the rest at 0. Give them one skill at Adept (+2). That's enough for most interactions.
+
+== Optional Rules
+*Gritty Realism:* Short rest = 8 hours, long rest = 1 week. *Heroic Mode:* +1 DP per level. *Dice Crafting:* Allow players to combine 2 generic dice into 1 specific die at level 10+.

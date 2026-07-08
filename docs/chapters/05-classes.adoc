@@ -1,7 +1,75 @@
-// Chapter 05 — Classes
-// Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced
-
 [#chapter-classes]
 = Classes
 
-[PLACEHOLDER: Eight class entries. Each with narrative flavor, starting dice, class feature, DP cost table, class talents, and progression table. Class comparison quick-reference.]
+Your class is your hero's calling — the role you play in the adventuring party.
+
+== Class Overview
+
+[%header,cols="2,3,3,3"]
+|===
+| Class | Role | Primary Dice | Signature
+| *Protector* | Tank, defender | Armor, Protection | Damage reduction aura
+| *Blade* | Melee striker | Blades, Axes, Polearms, Great Weapons | Bonus damage on Strong
+| *Arcanist* | Arcane caster | Fire, Wind, Energy, Water, Earth | Cantrip mastery
+| *Shepherd* | Divine caster | Protection, Animal, Energy | Bonus healing
+| *Intellect* | Knowledge expert | (flexible, 3 of any) | Skill expertise
+| *Odd* | Wildcard | (3 of any, different categories) | Random bonus
+| *Leader* | Support | Protection, Energy | Ally buffs
+| *Unbalanced* | High-risk | 2 opposing pairs | Corruption mechanic
+|===
+
+== The Protector
+*"Stand behind me."*
+
+Front-line defender. Gains 2 Armor and 2 Protection dice. Signature: *Bulwark* — allies within 10 ft reduce incoming damage by 1. Favored skills: Athletics, Intimidation, Melee Combat, Endurance, Resilience (1 DP each).
+
+== The Blade
+*"I am the weapon."*
+
+Melee damage dealer. Gains 3 dice from Blades, Axes, Polearms, or Great Weapons. Signature: *Lethal Strike* — on a Strong hit, add +1d6 damage. Favored skills: Melee Combat, Acrobatics, Ranged Combat (1 DP each).
+
+== The Arcanist
+*"Fire answers to me."*
+
+Arcane spellcaster. Gains 4 dice from Elemental or Energy types. Signature: *Cantrip Adept* — may use two cantrips per turn. Favored skills: Arcana, Alchemy (1 DP each).
+
+== The Shepherd
+*"The light guides my hand."*
+
+Divine healer and protector. Gains 2 Protection, 2 Animal dice. Signature: *Healing Hands* — add +1d4 to all healing effects. Favored skills: Survival, Nature, Religion, Medicine (1 DP each).
+
+== The Intellect
+*"I've read about this."*
+
+Knowledge and skill expert. Gains 3 dice of any type (flexible). Signature: *Expertise* — one skill treats its tier as one higher. Favored skills: History, Investigation (1 DP each).
+
+== The Odd
+*"I have a trick for that."*
+
+Unpredictable wildcard. Gains 3 dice from different categories. Signature: *Wildcard* — once per session, roll on a d6 table for a random bonus. Favored skills: Stealth, Sleight of Hand, Streetwise (1 DP each).
+
+== The Leader
+*"Together, we are unstoppable."*
+
+Party support and buffing. Gains 2 Protection, 1 Energy, 1 any. Signature: *Inspiring Word* — as an action, grant one ally +2 on their next roll. Favored skills: Persuasion, Resilience (1 DP each).
+
+== The Unbalanced
+*"Power has a price."*
+
+High-risk, high-reward. Gains 2 dice from one type and 2 from its opposite (e.g., 2 Fire + 2 Water). Signature: *Edge of Chaos* — on a Strong hit, deal +2d6 damage but gain 1 Corruption. Favored skills: Melee Combat, Deception, Insight, Arcana (1 DP each).
+
+== Progression
+
+[%header,cols="1,4"]
+|===
+| Level | Gain
+| 1 | Class signature, starting dice, 3 DP
+| 2 | 2 DP
+| 3 | Progression die, 2 DP
+| 4 | Attribute increase, 2 DP
+| 5 | Class feature upgrade, 3 DP
+| 6 | Progression die, 2 DP
+| 8 | Attribute increase, 2 DP
+| 10 | Class capstone, 3 DP
+| 12+ | Attribute increase every 4 levels, progression die every 3 levels, 2 DP/level
+|===

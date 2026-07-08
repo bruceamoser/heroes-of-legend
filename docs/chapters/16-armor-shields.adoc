@@ -1,7 +1,23 @@
-// Chapter 16 — Armor & Shields
-// Armor dice, damage reduction, shield mechanics
-
 [#chapter-armor-shields]
 = Armor & Shields
 
-[PLACEHOLDER: Armor table with dice requirements and damage reduction. Shield mechanics (active/passive). Donning and doffing. Armor degradation (optional). Magic armor scaling.]
+Armor reduces damage. Shields block actively.
+
+[%header,cols="3,1,1,2"]
+|===
+| Armor | Dice | DR | Stealth
+| Padded | — | -1 | —
+| Leather | — | -2 | —
+| Studded Leather | 1 Armor | -2 | —
+| Chain Shirt | 1 Armor | -3 | Disadv
+| Breastplate | 2 Armor | -4 | —
+| Half Plate | 2 Armor | -4 | Disadv
+| Chain Mail | 2 Armor | -5 | Disadv
+| Plate | 3 Armor | -6 | Disadv
+|===
+
+== Shields
+*Buckler:* 1 Protection, +1 DR. *Shield:* 1 Protection, +2 DR. *Tower Shield:* 2 Protection, +3 DR, half cover. Shield Block reaction: reduce one attack's damage tier by one step.
+
+== Donning & Doffing
+Light armor: 1 minute. Medium: 5 minutes. Heavy: 10 minutes. Shield: 1 action.

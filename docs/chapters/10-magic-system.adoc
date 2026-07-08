@@ -1,7 +1,46 @@
-// Chapter 10 — Magic System
-// How magic works: always-fires, spell chains, limitations, arcane vs divine
-
 [#chapter-magic-system]
 = Magic System
 
-[PLACEHOLDER: Always-fires philosophy. Spell chains (Novice → Adept → Master). Dice prerequisites for spells. Casting procedure. Weak/Standard/Strong spell effects. Limitations (per-encounter, per-session). Arcane vs divine distinction. Cantrips and rituals. Worked examples.]
+In Heroes of Legend, magic always fires. No spell slots. No mana pool. When you cast, the magic happens — the question is how powerful the effect will be.
+
+== Always Fires
+You do not roll to cast. You roll to determine effect strength. Every spell has Weak, Standard, and Strong outcomes.
+
+== Spell Chains
+Spells are organized into chains — three tiers of increasing power:
+
+[%header,cols="2,1,1,3"]
+|===
+| Chain | Novice | Adept | Master
+| Fire Magic | Firebolt | Fireball | Volcanic Eruption
+| Ice Magic | Ray of Frost | Ice Storm | Cone of Cold
+| Lightning | Shocking Grasp | Lightning Bolt | Chain Lightning
+| Healing | Cure Wounds | Prayer of Healing | Mass Heal
+| Protection | Shield | Magic Circle | Globe of Invulnerability
+| Charm | Charm Person | Suggestion | Dominate Person
+| Illusion | Minor Illusion | Mirror Image | Greater Invisibility
+| Necromancy | Chill Touch | Animate Dead | Finger of Death
+| Divination | Detect Magic | Clairvoyance | True Seeing
+| Transmutation | Enlarge/Reduce | Polymorph | Time Stop
+|===
+
+== Dice Prerequisites
+[%header,cols="2,1,2,5"]
+|===
+| Spell | Tier | Dice Req | Effect Range
+| Firebolt | Novice | 1 Fire | W: 1d6 / S: 1d8 / St: 1d10+ignite
+| Fireball | Adept | 2 Fire+1 Energy | W: 3d6(5ft) / S: 5d6(15ft) / St: 7d6(20ft)
+| Volcanic Eruption | Master | 3 Fire+2 Earth+1 Energy | W: 6d6(20ft) / S: 10d6(30ft) / St: 14d6(40ft)+terrain
+|===
+
+== Cantrips
+Cantrips require no dice prerequisites. Every caster knows all cantrips in their tradition (arcane or divine).
+
+== Arcane vs Divine
+*Arcane* (Arcanist): Fire, Wind, Water, Earth, Energy spells. Manipulates natural forces.
+*Divine* (Shepherd): Protection, Animal, Energy spells. Channels higher power. Focus on healing, warding, and radiant damage.
+
+== Limitations
+*Per-Encounter:* Powerful spells (Adept+) may only be used once per combat.
+*Per-Session:* Master-tier spells are once per session.
+*Concentration:* Some ongoing spells require concentration — you cannot cast another concentration spell while one is active.

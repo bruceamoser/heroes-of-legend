@@ -1,23 +1,33 @@
-// Chapter 01 — Introduction
-// Welcome to Heroes of Legend
-
 [#chapter-introduction]
 = Introduction
 
-*Heroes of Legend* is a fantasy tabletop roleplaying game built on a custom *3d6 + modifiers* system with tiered success. Grab your swords, stow your spell books, and prepare for adventure.
+*Heroes of Legend* is a fantasy tabletop roleplaying game. You and your friends create heroes, embark on adventures, and tell epic stories together. One player — the Dungeon Architect — presents challenges. Everyone else controls a hero and decides how to respond.
 
-== What Is a TTRPG?
+== What You Need
+- This book
+- Three six-sided dice (3d6) per player
+- A character sheet (pencil and paper or digital)
+- Friends and imagination
 
-[PLACEHOLDER: Explanation of tabletop roleplaying games for new players.]
-
-== Core Concepts
-
-[PLACEHOLDER: Brief overview of the 3d6 system, attributes, dice types, and always-hit philosophy.]
+== Core Mechanic
+Roll *3d6 + Attribute + Skill + Modifiers*. Results of 1-6 are Weak, 7-12 are Standard, and 13-18+ are Strong. Three natural 6s is a Critical. Three natural 1s is a Fumble.
 
 == How to Use This Book
-
-[PLACEHOLDER: Chapter roadmap — Part I through VI explained.]
+- *New players:* Start with chapter 2 — character creation
+- *DAs:* Chapters 3-8 cover core mechanics. Chapter 19 is your guide
+- *Reference:* Chapters 11-12 (spells), 15-17 (equipment), 20 (monsters)
 
 == Example of Play
+*DA:* "The goblin chieftain raises his rusted axe. What do you do?"
 
-[PLACEHOLDER: One-page narrative example showing the game in action.]
+*Kael:* "I draw my longsword and strike!"
+
+*DA:* "Roll 3d6."
+
+*Kael:* rolls "4, 3, 5 — that's 12, plus my Brawn +2 and Longsword skill +2 makes 16! Strong hit!"
+
+*DA:* "Roll Strong damage."
+
+*Kael:* "3d8+2... 15 damage!"
+
+*DA:* "Your blade cleaves through the chieftain's leather armor. He staggers, bleeding. The remaining goblins hesitate — their leader is broken."

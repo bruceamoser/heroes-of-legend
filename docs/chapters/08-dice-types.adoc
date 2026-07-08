@@ -41,7 +41,7 @@ Your class grants specific dice types at creation:
 |===
 | Class | Starting Dice
 | Protector | 2 Armor, 2 Protection
-| Blade | 3 Blades (or 2 in Axes/Polearms/Great Weapons)
+| Blade | 3 Blades
 | Arcanist | 2 Fire, 1 Energy, 1 Wind (or any 4 elemental)
 | Shepherd | 2 Protection, 2 Animal
 | Intellect | 3 of any type (flexible)

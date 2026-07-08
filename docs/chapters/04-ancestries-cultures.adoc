@@ -1,7 +1,28 @@
-// Chapter 04 — Ancestries & Cultures
-// Human, Elf, Dwarf, Halfling
-
 [#chapter-ancestries]
 = Ancestries & Cultures
 
-[PLACEHOLDER: Four ancestries with traits, cultures, starting dice, and example names. Mixed ancestry optional rules. Comparison table.]
+Four ancestries inhabit the world of Heroes of Legend.
+
+[%header,cols="2,2,3,3"]
+|===
+| Ancestry | Dice | Trait | Cultures
+| *Human* | +1 Generic | *Versatile:* +1 DP at creation | Imperial, Nomadic, Coastal
+| *Elf* | 1 Wind or Water | *Keen Senses:* +1 to perception | High Elf, Wood Elf, Dark Elf
+| *Dwarf* | 1 Earth or Fire | *Sturdy:* +2 max HP | Mountain, Deep, Hill
+| *Halfling* | 1 Animal | *Lucky:* reroll one 1/session | Riverfolk, Burrower, Wanderer
+|===
+
+== Human
+Ambitious and adaptable. Humans receive one extra Generic die and one extra DP at character creation. Choose from Imperial (bonus Persuasion), Nomadic (bonus Survival), or Coastal (bonus Athletics) culture.
+
+== Elf
+Ancient and mystical. Elves receive either a Wind die (speed, storms, precision) or a Water die (ice, healing, adaptation). *Keen Senses:* +1 bonus to all perception-related rolls. Cultures: High Elf (bonus Arcana), Wood Elf (bonus Stealth), Dark Elf (bonus Deception).
+
+== Dwarf
+Sturdy and crafty. Dwarves receive either an Earth die (stability, endurance) or a Fire die (forge-craft, passion). *Sturdy:* +2 maximum HP. Cultures: Mountain (bonus Crafting), Deep (bonus Resilience), Hill (bonus History).
+
+== Halfling
+Lucky and nimble. Halflings receive an Animal die. *Lucky:* once per session, reroll one natural 1. Cultures: Riverfolk (bonus Acrobatics), Burrower (bonus Stealth), Wanderer (bonus Streetwise).
+
+== Mixed Ancestry
+Optional: half-elves, half-dwarves, etc. Choose one ancestry's dice and the other's trait.
