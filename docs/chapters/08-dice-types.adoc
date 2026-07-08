@@ -1,7 +1,91 @@
-// Chapter 08 — Dice Types
-// Full catalog, taxonomy, acquisition, prerequisites
-
 [#chapter-dice-types]
 = Dice Types
 
-[PLACEHOLDER: Complete dice type catalog with taxonomy. Acquisition rules (starting, class, progression, items). Prerequisite system for skills, abilities, and talents. Generic dice rules. Worked examples.]
+The dice type system is Heroes of Legend's signature mechanic. Characters don't just gain skills — they collect *dice* representing their mastery of elements, weapons, and arcane forces.
+
+== What Are Dice Types?
+
+A dice type represents a domain of expertise or power your hero has attuned to. They are prerequisites for skills, abilities, and talents. You don't roll these dice — they're symbolic of your character's growing mastery.
+
+*Example:* A warrior with 3 Blade dice has spent years mastering swords. A mage with 3 Fire dice has deep attunement to flame. A ranger with 2 Animal dice has bonded with the wild.
+
+== The Dice Taxonomy
+
+[%header,cols="2,1,4"]
+|===
+| Category | Dice Type | Represents
+.5+| *Elemental* | *Fire* | Flame, heat, passion, destruction
+| *Earth* | Stone, stability, endurance, crafting
+| *Wind* | Air, speed, storms, precision
+| *Water* | Ice, flow, healing, adaptation
+.5+| *Weapon* | *Blades* | Swords, daggers — finesse and precision
+| *Axes* | Axes, cleavers — brutal chopping power
+| *Polearms* | Spears, halberds — reach and control
+| *Great Weapons* | Two-handed swords, mauls — crushing force
+| *Archery* | Bows, crossbows — ranged precision
+.2+| *Defense* | *Protection* | Shields, warding, guarding allies
+| *Armor* | Heavy armor proficiency, damage soaking
+.1+| *Primal* | *Animal* | Beasts, nature, shapeshifting, instinct
+.1+| *Arcane* | *Energy* | Raw magical force, metamagic, spellcraft
+|===
+
+== Acquiring Dice Types
+
+=== Starting Dice
+All characters begin with *3 Generic Dice*. Generic dice can be used as prerequisites for any basic skill or novice-level ability, but cannot meet requirements for Adept or Master tiers.
+
+=== Class Dice
+Your class grants specific dice types at creation:
+
+[%header,cols="2,4"]
+|===
+| Class | Starting Dice
+| Protector | 2 Armor, 2 Protection
+| Blade | 3 Blades (or 2 in Axes/Polearms/Great Weapons)
+| Arcanist | 2 Fire, 1 Energy, 1 Wind (or any 4 elemental)
+| Shepherd | 2 Protection, 2 Animal
+| Intellect | 3 of any type (flexible)
+| Odd | 3 of any type, must be from different categories
+| Leader | 2 Protection, 1 Energy, 1 any
+| Unbalanced | 2 of one type, 2 of its opposite (Fire/Water or Earth/Wind)
+|===
+
+=== Progression
+At levels 3, 6, 9, 12, 15, and 18, gain one additional dice type of your choice. Class-favored dice (those your class grants at creation) are always available. Cross-class dice may require narrative justification or story events.
+
+=== Magic Items
+Rare magic items may grant temporary or permanent dice types while attuned or wielded.
+
+== Dice as Prerequisites
+
+Skills, abilities, and talents require specific dice types as prerequisites:
+
+[%header,cols="3,2,1"]
+|===
+| Skill/Ability | Dice Required | Tier
+| Longsword | 2 Blades | Adept
+| Dagger | 1 Blade | Novice
+| Greataxe | 2 Axes | Adept
+| Fireball | 2 Fire + 1 Energy | Adept
+| Volcanic Eruption | 3 Fire + 2 Earth + 1 Energy | Master
+| Chain Mail | 2 Armor | Novice
+| Shield Block | 1 Protection | Novice
+| Animal Companion | 2 Animal | Adept
+| Magic Missile | 1 Energy | Novice
+| Counterspell | 2 Energy + 1 Reason | Adept
+|===
+
+=== Generic Dice Substitution
+A Generic die can substitute for any specific type at the *Novice* tier only. For Adept or Master abilities, you must have the specific dice types listed.
+
+== Worked Example
+
+*Building a Spell Chain: Fire Magic*
+
+Kael, an Arcanist, wants to master fire magic. At creation, he has 2 Fire dice and 1 Energy die from his class.
+
+- *Novice (Firebolt):* Requires 1 Fire die. Kael qualifies immediately.
+- *Adept (Fireball):* Requires 2 Fire + 1 Energy. Kael qualifies — he has exactly what's needed.
+- *Master (Volcanic Eruption):* Requires 3 Fire + 2 Earth + 1 Energy. Kael needs 1 more Fire die and 2 Earth dice. He'll need to earn these through level progression or find a magic item.
+
+At level 3, Kael gains his first progression die. He chooses Fire (now 3 Fire). At level 6, he gains another — Earth. At level 9, another Earth (now 2 Earth). At level 12, he finally has 3 Fire + 2 Earth + 1 Energy and can purchase Volcanic Eruption. This progression took 12 levels — Master-tier magic is earned, not given.
