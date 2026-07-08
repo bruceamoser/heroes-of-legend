@@ -1,0 +1,7 @@
+// Chapter 09 — Talents & Abilities
+// Talent framework, DP costs, dice prerequisites, general and class talents
+
+[#chapter-talents-abilities]
+= Talents & Abilities
+
+[PLACEHOLDER: Talent/ability framework. 1/2/4 DP for Novice/Adept/Master. Dice prerequisites. General talent catalog (10-15). Class talent catalog (16-24). Ability chains explanation (leads into magic). DA guidelines for custom talents.]

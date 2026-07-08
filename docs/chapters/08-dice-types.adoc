@@ -1,0 +1,7 @@
+// Chapter 08 — Dice Types
+// Full catalog, taxonomy, acquisition, prerequisites
+
+[#chapter-dice-types]
+= Dice Types
+
+[PLACEHOLDER: Complete dice type catalog with taxonomy. Acquisition rules (starting, class, progression, items). Prerequisite system for skills, abilities, and talents. Generic dice rules. Worked examples.]

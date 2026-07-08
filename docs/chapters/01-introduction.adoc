@@ -1,0 +1,23 @@
+// Chapter 01 — Introduction
+// Welcome to Heroes of Legend
+
+[#chapter-introduction]
+= Introduction
+
+*Heroes of Legend* is a fantasy tabletop roleplaying game built on a custom *3d6 + modifiers* system with tiered success. Grab your swords, stow your spell books, and prepare for adventure.
+
+== What Is a TTRPG?
+
+[PLACEHOLDER: Explanation of tabletop roleplaying games for new players.]
+
+== Core Concepts
+
+[PLACEHOLDER: Brief overview of the 3d6 system, attributes, dice types, and always-hit philosophy.]
+
+== How to Use This Book
+
+[PLACEHOLDER: Chapter roadmap — Part I through VI explained.]
+
+== Example of Play
+
+[PLACEHOLDER: One-page narrative example showing the game in action.]

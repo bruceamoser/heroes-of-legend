@@ -1,0 +1,7 @@
+// Chapter 20 — Bestiary
+// Monsters, NPCs, creature creation rules
+
+[#chapter-bestiary]
+= Bestiary
+
+[PLACEHOLDER: Reading stat blocks. Challenge rating system. Beasts, Monstrosities, Fey (Seelie & Unseelie), Undead, Dragons, Humanoids (NPC templates). Monster creation guidelines. Quick-reference tables by CR, environment, and type.]

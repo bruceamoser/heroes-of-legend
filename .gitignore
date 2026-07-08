@@ -1,0 +1,24 @@
+# Dependencies
+.venv/
+__pycache__/
+*.pyc
+
+# Build artifacts
+starter-kit/
+starter-kit.zip
+build/
+
+# Extracted reference (generated, not source)
+source-doc/extracted/
+
+# IDE
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tooling
+tools/
+.playwright-mcp/

@@ -1,0 +1,7 @@
+// Chapter 21 — Glossary
+// Alphabetical reference of all game terms
+
+[#chapter-glossary]
+= Glossary
+
+[PLACEHOLDER: A-Z listing of every mechanical term with concise definitions and chapter cross-references.]

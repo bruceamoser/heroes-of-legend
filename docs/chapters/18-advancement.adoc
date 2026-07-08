@@ -1,0 +1,7 @@
+// Chapter 18 — Advancement
+// Levels, DP, group reputation, titles
+
+[#chapter-advancement]
+= Advancement
+
+[PLACEHOLDER: Gaining levels (1-20). Earning and spending DP. Class progression tables for all 8 classes. Group reputation system. Titles and honorifics. Milestone advancement alternative. Reveling (legendary parties). Retirement and legacy.]

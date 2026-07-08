@@ -1,0 +1,15 @@
+// Chapter 23 — License
+// Legal framework
+
+[#chapter-license]
+= License
+
+[PLACEHOLDER: Open Game License or Creative Commons statement. Product Identity declaration. Open Game Content declaration. Third-party attributions (fonts, art).]
+
+'''
+
+== Open Game License Version 1.0a
+
+[PLACEHOLDER: Full OGL 1.0a text or custom license to be added in Issue #95.]
+
+'''

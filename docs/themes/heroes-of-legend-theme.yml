@@ -1,0 +1,24 @@
+# Heroes of Legend — asciidoctor-pdf theme
+# Style: Fantasy tome (stub — full design deferred to Issue #3)
+# Palette: aged parchment, dark brown ink, deep red accents
+extends: default
+
+base:
+  font-color: '#3a2a1a'
+  background-color: '#f4e4c1'
+  font-size: 10
+  line-height: 1.5
+
+page:
+  background-color: '#f4e4c1'
+  margin: [22mm, 20mm, 24mm, 20mm]
+  size: LETTER
+
+heading:
+  h1-font-color: '#8b0000'
+  h2-font-color: '#5a3a1a'
+
+table:
+  head-background-color: '#5a3a1a'
+  head-font-color: '#f4e4c1'
+  body-stripe-background-color: '#efe0c0'

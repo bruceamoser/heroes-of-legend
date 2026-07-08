@@ -1,0 +1,7 @@
+// Chapter 13 — Combat
+// Initiative, action economy, always-hit damage, conditions, dying
+
+[#chapter-combat]
+= Combat
+
+[PLACEHOLDER: Fast cinematic combat. Initiative, turn structure, action economy. Always-hit procedure. Damage and resistance. Conditions reference. Movement, cover, mounted/underwater. Dying mechanic (adapted from original fun dying rules). Combat examples.]

@@ -1,0 +1,7 @@
+// Chapter 16 — Armor & Shields
+// Armor dice, damage reduction, shield mechanics
+
+[#chapter-armor-shields]
+= Armor & Shields
+
+[PLACEHOLDER: Armor table with dice requirements and damage reduction. Shield mechanics (active/passive). Donning and doffing. Armor degradation (optional). Magic armor scaling.]

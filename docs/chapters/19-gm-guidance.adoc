@@ -1,0 +1,7 @@
+// Chapter 19 — GM Guidance
+// Running the game, encounter building, worldbuilding, optional rules
+
+[#chapter-gm-guidance]
+= Dungeon Architect's Guide
+
+[PLACEHOLDER: DA philosophy and pacing. Scene management. Difficulty guidelines. Encounter building (combat, social, exploration). Treasure and reward pacing. NPC creation. Worldbuilding guidance. Adjudicating rules. Player dynamics. Campaign structure. Optional rules.]

@@ -1,0 +1,7 @@
+// Chapter 07 — Skills
+// Skill list, novice/adept/master tiers, DP costs, class cost matrix
+
+[#chapter-skills]
+= Skills
+
+[PLACEHOLDER: Complete skill list (~20 skills) with attribute associations, dice prerequisites, and descriptions. Novice (+1), Adept (+2), Master (+3) tiers. Class DP cost matrix. Skill usage rules and examples.]

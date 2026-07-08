@@ -1,0 +1,7 @@
+// Chapter 06 — Core Resolution Mechanics
+// 3d6 + attribute + skill + modifiers, success tiers, crits, fumbles, always-hit
+
+[#chapter-core-resolution]
+= Core Resolution Mechanics
+
+[PLACEHOLDER: The 3d6 roll explained. Weak (1-6), Standard (7-12), Strong (13-18+) tiers. Critical hits (3×6) and fumbles (3×1). Always-hit philosophy. Difficulty, modifiers, opposed rolls. Three worked examples. Probability sidebar.]

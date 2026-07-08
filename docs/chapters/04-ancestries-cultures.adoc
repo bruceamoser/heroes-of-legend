@@ -1,0 +1,7 @@
+// Chapter 04 — Ancestries & Cultures
+// Human, Elf, Dwarf, Halfling
+
+[#chapter-ancestries]
+= Ancestries & Cultures
+
+[PLACEHOLDER: Four ancestries with traits, cultures, starting dice, and example names. Mixed ancestry optional rules. Comparison table.]
