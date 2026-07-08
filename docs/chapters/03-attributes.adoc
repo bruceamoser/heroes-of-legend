@@ -1,7 +1,59 @@
-// Chapter 03 — Attributes
-// Brawn, Fortitude, Agility, Guile, Knowledge, Reason
-
 [#chapter-attributes]
 = Attributes
 
-[PLACEHOLDER: Six attributes (-2 to +2). Each with description, mechanical domain, and narrative examples. Derived statistics table.]
+Six attributes define your hero's innate capabilities.
+
+[%header,cols="1,1,2,4"]
+|===
+| Attribute | Abbr | Domain | Sample Skills
+| *Brawn* | BR | Physical strength, melee power | Athletics, Intimidation, Melee
+| *Fortitude* | FO | Endurance, health, resilience | Endurance, Survival, Resilience
+| *Agility* | AG | Speed, reflexes, coordination | Acrobatics, Stealth, Ranged
+| *Guile* | GU | Cunning, deception, finesse | Deception, Persuasion, Streetwise
+| *Knowledge* | KN | Education, lore, memory | Arcana, History, Investigation
+| *Reason* | RE | Logic, problem-solving, magic | Alchemy, Crafting, Medicine
+|===
+
+== Attribute Scores
+
+[%header,cols="1,1,2"]
+|===
+| Score | Modifier | Description
+| -2 | -2 | Severely deficient
+| -1 | -1 | Below average
+| +0 | +0 | Average human
+| +1 | +1 | Above average
+| +2 | +2 | Exceptional (Olympic-level)
+|===
+
+== Starting Attributes
+
+Distribute *3 points* across your six attributes at character creation. No attribute may exceed +2 or go below -2. All attributes start at +0 before points are spent.
+
+*Example:* Makeva builds a charismatic rogue. She puts +1 in Agility, +1 in Guile, +1 in Brawn. Agility +1, Brawn +1, Guile +1, Fortitude +0, Knowledge +0, Reason +0.
+
+At levels 4, 8, 12, 16, and 20, you may increase one attribute by +1 (maximum +2).
+
+== Derived Statistics
+
+[%header,cols="2,3"]
+|===
+| *Health Points* | 10 + (Fortitude modifier × 2)
+| *Initiative* | Agility modifier (added to initiative roll)
+| *Movement* | 30 ft. Modified by Brawn (heavy armor reduces)
+| *Carrying Capacity* | 10 + (Brawn × 5) slots
+|===
+
+== Attribute Descriptions
+
+*Brawn (BR):* Raw physical power. Governs melee damage, athletic feats, carrying capacity, and feats of strength. A hero with Brawn +2 can bend iron bars; one with Brawn -2 struggles with heavy doors.
+
+*Fortitude (FO):* Physical resilience and endurance. Determines your Health Points, resistance to poison and disease, and ability to endure harsh environments. Fortitude is your body's armor against the world.
+
+*Agility (AG):* Speed, reflexes, and coordination. Affects initiative, movement, dodging, stealth, and ranged combat. Agility is precision — the difference between a clean strike and a wild swing.
+
+*Guile (GU):* Cunning, charm, and social grace. Governs deception, persuasion, street smarts, and disguise. Guile is the art of winning without fighting — or fighting dirty.
+
+*Knowledge (KN):* Education, memory, and information. Governs arcane lore, history, investigation, and creature identification. Knowledge is what you've learned; Reason is what you do with it.
+
+*Reason (RE):* Logic, deduction, and magical aptitude. Governs spellcasting effectiveness, alchemy, crafting, and problem-solving. Reason is the spark that turns knowledge into power.
