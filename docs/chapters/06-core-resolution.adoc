@@ -17,6 +17,12 @@ The heart of Heroes of Legend is a simple roll: *3d6 + modifiers*.
 
 With 3d6, results cluster around 10-11 — your skill matters more than chance.
 
+[NOTE]
+.Designer's Note — Why 3d6?
+====
+A single twenty-sided die is swingy. Every result is equally likely — the difference between a 1 and a 20 is pure luck. Three six-sided dice create a bell curve. Most rolls cluster around 10-11, which means your character's training — their attribute modifiers, their skill bonuses, their Disciplines — matters more than random chance. When you roll an 18, it *feels* special because it *is* special (about 1 in 216 rolls). The same goes for a 3. This system makes heroes feel competent at the things they've trained for, while leaving room for moments of extraordinary triumph and catastrophic failure.
+====
+
 == Critical Hits (Three 6s)
 
 Automatic *Strong* result. Roll d6 for bonus:
