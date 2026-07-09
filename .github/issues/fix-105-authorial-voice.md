@@ -74,3 +74,17 @@ Where Neon Relic says "rolling dice when it is not necessary is the most common 
 ## Status Log — 2026-07-09
 
 **AWAITING DECISION.** Bruce needs to pick an authorial persona before any chapter rewrite work can begin. Five persona options presented in the issue body. No default — this is a creative choice that sets the tone for the entire rulebook.
+
+
+---
+## Decision — 2026-07-09
+
+**RESOLVED.** Persona chosen: **"Enthusiastic Guide"** — informal but authoritative, like a middle school teacher who knows their subject cold.
+
+- Conversational, not textbook
+- States rules clearly, doesn't hedge
+- Explains *why* behind mechanics
+- Makes you want to play
+- Never condescending
+
+This voice drives all chapter rewrites from this point forward.

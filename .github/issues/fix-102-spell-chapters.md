@@ -69,3 +69,8 @@ Organize by element/school:
 ## Status Log — 2026-07-09
 
 **BLOCKED.** Waiting on #110 (Master Discipline requirements) and #107 (DP economy) before spell chain design can begin. ~300 D&D 5e spells to adapt into Novice→Adept→Master chains. Largest remaining content task.
+
+---
+## Scope Revision — 2026-07-09
+
+**Reduced from ~300 to ~100 iconic spells.** Start small, get balance right, expand later. Top 100 most recognizable D&D SRD spells adapted into Novice→Adept→Master chains.

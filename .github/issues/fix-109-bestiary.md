@@ -57,3 +57,8 @@ Use flat damage values consistent with Critical Fix #1:
 - 3 creatures per category (one low-CR, one mid-CR, one high-CR).
 - All stat blocks use flat damage values.
 - PR #89 closed.
+
+---
+## Scope Revision — 2026-07-09
+
+**Expanding from 30 to ~75 iconic creatures.** Initial 30 done (PR #89). Now scaling up to the creatures every fantasy TTRPG expects before niche entries. Same 10 categories, deeper rosters.
