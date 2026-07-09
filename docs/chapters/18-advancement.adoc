@@ -40,3 +40,10 @@ Spend gold on legendary parties to boost reputation. 100 gp = +1 reputation for 
 
 == Titles
 Earned titles grant mechanical benefits. Examples: *Dragonslayer* (+1 damage vs dragons), *Knight of the Realm* (free lodging at any inn), *Archmage* (one free Adept spell chain).
+
+== Retraining
+At each level, you may exchange one skill rank or talent purchase for another of equal or lower DP cost. The DA may require narrative justification — finding a trainer, spending downtime, or a story event that prompts the change.
+
+*Example:* At level 5, Kael realizes he never uses his Novice Intimidation. He retrains it to Novice Athletics (both 1 DP). He spends a session training with Roric, the party's Protector, to justify the change.
+
+> *Why this exists:* Players make choices at level 1 without knowing how the game actually plays. Retraining lets them correct early mistakes without feeling stuck. It also means a character's build can evolve with the story.
