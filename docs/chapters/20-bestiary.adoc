@@ -15,49 +15,49 @@ Monsters use the same rules as heroes — attributes, skills, and W/S/S damage.
 
 == Beasts
 
-*Wolf (Challenge ½):* HP 8, DR 0. Bite: 1d6/1d8/1d10. Pack Tactics: +1 to attacks when an ally is adjacent.
+*Wolf (Challenge ½):* HP 8, DR 0. Bite: 2/3/4. Pack Tactics: +1 to attacks when an ally is adjacent.
 
-*Dire Wolf (Challenge 1):* HP 14, DR 1. Bite: 1d8/2d8/3d8. Pack Tactics: +1 when ally adjacent. Knockdown: on Strong hit, target must succeed Agility check or be knocked Prone.
+*Dire Wolf (Challenge 1):* HP 14, DR 1. Bite: 3/4/6. Pack Tactics: +1 when ally adjacent. Knockdown: on Strong hit, target must succeed Agility check or be knocked Prone.
 
-*Bear (Challenge 2):* HP 20, DR 2. Claw: 1d8/2d8/3d8. Bite: 1d10/2d10/3d10. Multiattack: may make both Claw and Bite as one Standard Action.
+*Bear (Challenge 2):* HP 20, DR 2. Claw: 3/4/6. Bite: 4/5/7. Multiattack: may make both Claw and Bite as one Standard Action.
 
 *Giant Spider (Challenge 1):* HP 10, DR 0. Bite: 1d4/1d6/1d8 + poison (Fortitude save or Poisoned condition). Web (Recharge): ranged attack that Restrains target on hit.
 
 *Swarm of Rats (Challenge ¼):* HP 5, DR 0. Bites: automatic 1 damage to all in space. Immune to single-target attacks. Vulnerable to area effects (damage tier +1).
 
-*Dire Boar (Challenge 2):* HP 18, DR 2. Gore: 1d10/2d10/3d10. Charge: if it moves 20+ ft before attacking, damage tier +1. Relentless: when reduced to 0 HP, make Fortitude save; on Strong, stays at 1 HP.
+*Dire Boar (Challenge 2):* HP 18, DR 2. Gore: 4/5/7. Charge: if it moves 20+ ft before attacking, damage tier +1. Relentless: when reduced to 0 HP, make Fortitude save; on Strong, stays at 1 HP.
 
 == Humanoids (NPCs)
 
-*Bandit (Challenge ¼):* HP 4, DR 0. Shortsword: 1d6/1d8/1d10. Shortbow: 1d6/1d8/1d10. Pack Tactics.
+*Bandit (Challenge ¼):* HP 4, DR 0. Shortsword: 2/3/4. Shortbow: 2/3/4. Pack Tactics.
 
-*Guard (Challenge ½):* HP 8, DR 1 (chain shirt). Spear: 1d6/1d8/1d10. Shield: +1 DR.
+*Guard (Challenge ½):* HP 8, DR 1 (chain shirt). Spear: 2/3/4. Shield: +1 DR.
 
-*Cultist (Challenge ½):* HP 6, DR 0. Dagger: 1d4/1d6/1d8. Dark Bolt: 1d6/1d8/1d10 necrotic (range 60 ft). Fanatical: immune to Frightened.
+*Cultist (Challenge ½):* HP 6, DR 0. Dagger: 1/2/3. Dark Bolt: 2/3/4 necrotic (range 60 ft). Fanatical: immune to Frightened.
 
-*Knight (Challenge 3):* HP 20, DR 4 (plate). Longsword: 1d8/2d8/3d8. Shield Block reaction. Leadership: allies within 10 ft gain +1 to attacks.
+*Knight (Challenge 3):* HP 20, DR 4 (plate). Longsword: 2/3/5. Shield Block reaction. Leadership: allies within 10 ft gain +1 to attacks.
 
-*Archmage (Challenge 6):* HP 14, DR 2. Dagger: 1d4/1d6/1d8. Firebolt: 1d6/1d8/1d10 (at will). Fireball: 3d6/5d6/7d6 (3/day). Counterspell: reaction to negate a spell. Magical Ward: +2 DR vs spells.
+*Archmage (Challenge 6):* HP 14, DR 2. Dagger: 1/2/3. Firebolt: 2/3/5 (at will). Fireball: 6/9/12 (3/day). Counterspell: reaction to negate a spell. Magical Ward: +2 DR vs spells.
 
 == Undead
 
-*Skeleton (Challenge ¼):* HP 5, DR 0. Shortsword: 1d6/1d8/1d10. Shortbow: 1d6/1d8/1d10. Vulnerable (Bludgeoning): damage tier +1 vs bludgeoning. Undead Nature: immune to poison and charm.
+*Skeleton (Challenge ¼):* HP 5, DR 0. Shortsword: 2/3/4. Shortbow: 2/3/4. Vulnerable (Bludgeoning): damage tier +1 vs bludgeoning. Undead Nature: immune to poison and charm.
 
-*Zombie (Challenge ½):* HP 12, DR 1. Slam: 1d6/1d8/1d10. Undead Fortitude: when reduced to 0 HP, roll Fortitude. On Strong, stays at 1 HP. Slow: always acts last in initiative.
+*Zombie (Challenge ½):* HP 12, DR 1. Slam: 2/3/4. Undead Fortitude: when reduced to 0 HP, roll Fortitude. On Strong, stays at 1 HP. Slow: always acts last in initiative.
 
-*Ghoul (Challenge 1):* HP 10, DR 0. Claw: 1d6/1d8/1d10. Bite: 1d8/2d8/3d8. Paralyzing Touch: on Strong claw hit, target must make Fortitude save or be Paralyzed for 1 round.
+*Ghoul (Challenge 1):* HP 10, DR 0. Claw: 1d6/1d8/1d10. Bite: 3/4/6. Paralyzing Touch: on Strong claw hit, target must make Fortitude save or be Paralyzed for 1 round.
 
-*Wraith (Challenge 3):* HP 12, DR 3 (non-magical). Life Drain: 1d8/2d8/3d8 necrotic. Incorporeal: half damage from non-magical physical attacks. Create Specter: humanoid killed by Life Drain rises as a specter under the wraith's control at next sunset.
+*Wraith (Challenge 3):* HP 12, DR 3 (non-magical). Life Drain: 3/5/7 necrotic. Incorporeal: half damage from non-magical physical attacks. Create Specter: humanoid killed by Life Drain rises as a specter under the wraith's control at next sunset.
 
-*Lich (Challenge 10):* HP 30, DR 4. Paralyzing Touch: 2d6/3d6/4d6 cold + Paralyzed (Fortitude save). Disrupt Life: 3d6/5d6/7d6 necrotic (30 ft radius, 1/day). Spellcasting: as 10th-level Arcanist. Phylactery: reforms in 1d10 days if phylactery survives.
+*Lich (Challenge 10):* HP 30, DR 4. Paralyzing Touch: 4/6/9 cold + Paralyzed (Fortitude save). Disrupt Life: 5/8/11 necrotic (30 ft radius, 1/day). Spellcasting: as 10th-level Arcanist. Phylactery: reforms in 1d10 days if phylactery survives.
 
 == Monstrosities
 
-*Owlbear (Challenge 2):* HP 16, DR 1. Claw: 1d8/2d8/3d8. Bite: 1d10/2d10/3d10. Blood Frenzy: when below half HP, all attacks at damage tier +1.
+*Owlbear (Challenge 2):* HP 16, DR 1. Claw: 3/4/6. Bite: 4/5/7. Blood Frenzy: when below half HP, all attacks at damage tier +1.
 
-*Basilisk (Challenge 3):* HP 14, DR 2. Bite: 1d8/2d8/3d8 + poison. Petrifying Gaze: creatures within 30 ft must make Fortitude save or be Restrained. Fail twice: Petrified.
+*Basilisk (Challenge 3):* HP 14, DR 2. Bite: 3/4/6 + poison. Petrifying Gaze: creatures within 30 ft must make Fortitude save or be Restrained. Fail twice: Petrified.
 
-*Chimera (Challenge 5):* HP 25, DR 2. Bite: 2d6/3d6/4d6. Claw: 1d10/2d10/3d10. Fire Breath: 4d6/6d6/8d6 (15 ft cone, Recharge). Multiattack: Bite + Claw + breath if available. Three heads: cannot be surprised.
+*Chimera (Challenge 5):* HP 25, DR 2. Bite: 4/6/9. Claw: 4/5/7. Fire Breath: 6/9/12 (15 ft cone, Recharge). Multiattack: Bite + Claw + breath if available. Three heads: cannot be surprised.
 
 == Fey
 
@@ -65,37 +65,37 @@ Monsters use the same rules as heroes — attributes, skills, and W/S/S damage.
 
 *Dryad (Challenge 1):* HP 10, DR 0. Club: 1d6/1d8/1d10. Charm: one humanoid within 30 ft must make Guile save or be Charmed (1/day). Tree Stride: teleport between trees within 60 ft. Treebound: takes 1d6 damage per round when more than 300 ft from its bonded tree.
 
-*Green Hag (Challenge 3):* HP 16, DR 2. Claw: 1d8/2d8/3d8. Illusory Appearance: appears as any humanoid. Vicious Mockery: 1d6/2d6/3d6 psychic + disadvantage on next attack (at will). Coven Magic: when 3 hags are within 30 ft, they share spellcasting.
+*Green Hag (Challenge 3):* HP 16, DR 2. Claw: 3/4/6. Illusory Appearance: appears as any humanoid. Vicious Mockery: 2/4/6 psychic + disadvantage on next attack (at will). Coven Magic: when 3 hags are within 30 ft, they share spellcasting.
 
 == Dragons
 
-*Wyrmling (Challenge 3):* HP 15, DR 3. Bite: 1d8/2d8/3d8. Breath Weapon: 3d6/5d6/7d6 (15 ft cone, Recharge). Choose color: Red (fire), Blue (lightning), Green (poison), Black (acid), White (cold).
+*Wyrmling (Challenge 3):* HP 15, DR 3. Bite: 3/4/6. Breath Weapon: 5/8/11 (15 ft cone, Recharge). Choose color: Red (fire), Blue (lightning), Green (poison), Black (acid), White (cold).
 
-*Young Dragon (Challenge 6):* HP 30, DR 4. Bite: 2d8/3d8/4d8. Claw: 1d10/2d10/3d10. Breath Weapon: 5d6/7d6/9d6 (30 ft cone, Recharge). Multiattack: Bite + 2 Claws. Frightful Presence: creatures within 60 ft must save vs Frightened.
+*Young Dragon (Challenge 6):* HP 30, DR 4. Bite: 5/7/10. Claw: 4/5/7. Breath Weapon: 8/11/15 (30 ft cone, Recharge). Multiattack: Bite + 2 Claws. Frightful Presence: creatures within 60 ft must save vs Frightened.
 
-*Ancient Dragon (Challenge 12):* HP 60, DR 6. Bite: 3d8/4d8/5d8. Claw: 2d10/3d10/4d10. Tail: 2d8/3d8/4d8 (15 ft reach). Breath Weapon: 10d6/14d6/18d6 (60 ft cone, Recharge). Multiattack: Bite + 2 Claws + Tail. Frightful Presence. Legendary Resistance (3/day): automatically succeed a failed save.
+*Ancient Dragon (Challenge 12):* HP 60, DR 6. Bite: 7/10/14. Claw: 5/7/10. Tail: 5/7/10 (15 ft reach). Breath Weapon: 15/21/28 (60 ft cone, Recharge). Multiattack: Bite + 2 Claws + Tail. Frightful Presence. Legendary Resistance (3/day): automatically succeed a failed save.
 
 == Elementals
 
-*Fire Elemental (Challenge 4):* HP 20, DR 2. Slam: 1d10/2d10/3d10 fire. Touch: creatures touching or hitting the elemental take 1d6 fire. Water Vulnerability: takes 1d6 cold damage when splashed with water.
+*Fire Elemental (Challenge 4):* HP 20, DR 2. Slam: 4/5/7 fire. Touch: creatures touching or hitting the elemental take 2 fire. Water Vulnerability: takes 2 cold damage when splashed with water.
 
-*Water Elemental (Challenge 4):* HP 22, DR 2. Slam: 1d10/2d10/3d10 bludgeoning. Whelm: target must make Brawn save or be Grappled and take 1d6/2d6/3d6 bludgeoning each round. Freeze: when hit by cold damage, speed halved for 1 round.
+*Water Elemental (Challenge 4):* HP 22, DR 2. Slam: 4/5/7 bludgeoning. Whelm: target must make Brawn save or be Grappled and take 1d6/2d6/3d6 bludgeoning each round. Freeze: when hit by cold damage, speed halved for 1 round.
 
 == Giants
 
-*Hill Giant (Challenge 5):* HP 30, DR 2. Greatclub: 2d8/3d8/4d8. Rock: 2d6/3d6/4d6 (range 60/240). Slow-Witted: disadvantage on Knowledge, Reason, and Guile saves.
+*Hill Giant (Challenge 5):* HP 30, DR 2. Greatclub: 5/7/10. Rock: 4/6/9 (range 60/240). Slow-Witted: disadvantage on Knowledge, Reason, and Guile saves.
 
-*Stone Giant (Challenge 7):* HP 35, DR 4. Greatclub: 2d10/3d10/4d10. Rock: 3d6/4d6/5d6 (range 60/240). Stone Camouflage: advantage on Stealth in rocky terrain.
+*Stone Giant (Challenge 7):* HP 35, DR 4. Greatclub: 2d10/3d10/4d10. Rock: 6/9/12 (range 60/240). Stone Camouflage: advantage on Stealth in rocky terrain.
 
 == Extraplanar
 
-*Vrock (Demon, Challenge 6):* HP 25, DR 3. Claw: 1d10/2d10/3d10. Bite: 1d8/2d8/3d8. Spores (Recharge): all within 15 ft take 2d6/3d6/4d6 poison. Stunning Screech (1/day): all within 30 ft must make Fortitude save or be Stunned for 1 round. Magic Resistance: advantage on saves vs spells.
+*Vrock (Demon, Challenge 6):* HP 25, DR 3. Claw: 4/5/7. Bite: 3/4/6. Spores (Recharge): all within 15 ft take 4/6/9 poison poison. Stunning Screech (1/day): all within 30 ft must make Fortitude save or be Stunned for 1 round. Magic Resistance: advantage on saves vs spells.
 
-*Barbed Devil (Challenge 5):* HP 22, DR 4. Claw: 1d8/2d8/3d8 + 1d6 fire. Tail: 1d10/2d10/3d10 piercing. Barbed Hide: creatures grappling or hitting with melee take 1d6 piercing. Magic Resistance: advantage on saves vs spells.
+*Barbed Devil (Challenge 5):* HP 22, DR 4. Claw: 3/4/6 + 2 fire. Tail: 4/5/7 piercing. Barbed Hide: creatures grappling or hitting with melee take 2 piercing. Magic Resistance: advantage on saves vs spells.
 
 == Oozes
 
-*Gelatinous Cube (Challenge 3):* HP 20, DR 1. Pseudopod: 1d8/2d8/3d8 acid. Engulf: moves into a creature's space — target must make Agility save or be Engulfed (Restrained + 2d6/3d6/4d6 acid per round). Transparent: requires Standard Investigation check to notice when motionless.
+*Gelatinous Cube (Challenge 3):* HP 20, DR 1. Pseudopod: 3/4/6 acid. Engulf: moves into target space — Restrained + 4/6/9 acid per round acid per round). Transparent: requires Standard Investigation check to notice when motionless.
 
 == Encounter Building
 
