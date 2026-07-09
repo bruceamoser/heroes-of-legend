@@ -16,7 +16,7 @@ Blinded (tier -1), Charmed (can't attack), Frightened (can't approach), Grappled
 == Damage Types
 Physical: Slashing, Piercing, Bludgeoning | Elemental: Fire, Cold, Lightning, Acid, Poison | Magical: Force, Radiant, Necrotic, Psychic
 
-== Dice Type Catalog
+== Discipline Catalog
 Elemental: Fire, Earth, Wind, Water | Weapon: Blades, Axes, Polearms, Great Weapons, Archery | Defense: Protection, Armor | Primal: Animal | Arcane: Energy
 
 == Character Creation Checklist

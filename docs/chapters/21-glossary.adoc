@@ -15,7 +15,7 @@
 
 *DR:* Damage Reduction — subtracted from incoming physical damage.
 
-*Dice Type:* Prerequisite resource representing mastery of a domain. E.g., Fire die, Blade die.
+*Discipline:* Prerequisite resource representing mastery of a domain. E.g., Fire Discipline, Blade Discipline.
 
 *Fumble:* Three natural 1s on 3d6. Automatic failure + complication.
 

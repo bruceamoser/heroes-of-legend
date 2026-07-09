@@ -37,14 +37,14 @@ This project is in the **core rules design phase**. The goal is to produce a com
 - **Attacks always hit** — weapons/spells have Weak/Standard/Strong damage values
 - **Skills:** +1 (Novice), +2 (Adept), +3 (Master) — purchased with DP
 - **Talents/Abilities:** 1 DP (Novice), 2 DP (Adept), 4 DP (Master)
-- **Dice types** serve as prerequisites for skills and abilities
+- **Disciplines** serve as prerequisites for skills and abilities
 - **No spell slots, no mana** — magic always fires
 
-### 3. Dice Type System
-- Characters collect dice types (Fire, Earth, Wind, Water, Animal, Protection, Armor, Energy, Blades, Archery, Axes, Polearms, Great Weapons, etc.)
+### 3. Discipline System
+- Characters collect Disciplines (Fire, Earth, Wind, Water, Animal, Protection, Armor, Energy, Blades, Archery, Axes, Polearms, Great Weapons, etc.)
 - All characters start with 3 generic dice
-- Classes grant specific dice types
-- Skills and abilities require specific dice types as prerequisites
+- Classes grant specific Disciplines
+- Skills and abilities require specific Disciplines as prerequisites
 - This is the game's unique mechanical identity — preserve its integrity
 
 ### 4. D&D 5e Spell Adaptation
@@ -153,7 +153,7 @@ Infrastructure → Core Mechanics → Dice Types → Skills/Talents → Characte
 
 Key dependency chains within epics:
 1. **Core mechanics:** #12 (3d6 resolution) → #15 (write chapter 06)
-2. **Dice types:** #20 (catalog) → #21 (taxonomy) → #22 (acquisition) → #23 (prerequisites) → #24 (write chapter 08)
+2. **Disciplines:** #20 (catalog) → #21 (taxonomy) → #22 (acquisition) → #23 (prerequisites) → #24 (write chapter 08)
 3. **Magic:** #50 (system) → #51 (spell catalog) → #53-57 (spell chains) → #58 (write chapter 11)
 4. **Character creation:** #11 (attributes) → #40 (creation flow) → #41-44 (chapters)
 
