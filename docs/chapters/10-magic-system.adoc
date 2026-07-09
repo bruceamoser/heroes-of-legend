@@ -28,9 +28,9 @@ Spells are organized into chains — three tiers of increasing power:
 [%header,cols="2,1,2,5"]
 |===
 | Spell | Tier | Dice Req | Effect Range
-| Firebolt | Novice | 1 Fire | W: 1d6 / S: 1d8 / St: 1d10+ignite
-| Fireball | Adept | 2 Fire+1 Energy | W: 3d6(5ft) / S: 5d6(15ft) / St: 7d6(20ft)
-| Volcanic Eruption | Master | 3 Fire+2 Earth+1 Energy | W: 6d6(20ft) / S: 10d6(30ft) / St: 14d6(40ft)+terrain
+| Firebolt | Novice | 1 Fire | W: 2 / S: 3 / St: 5 + ignite
+| Fireball | Adept | 2 Fire+1 Energy | W: 6 (5ft) / S: 9 (15ft) / St: 12 (20ft)
+| Volcanic Eruption | Master | 3 Fire+2 Earth+1 Energy | W: 9 (20ft) / S: 15 (30ft) / St: 21 (40ft) + terrain hazard
 |===
 
 == Cantrips

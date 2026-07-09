@@ -57,9 +57,9 @@ Automatic failure. Roll d6 for complication:
 
 No attack roll. Your 3d6 determines damage tier:
 
-*Weak:* Roll weapon's Weak damage +
-*Standard:* Roll weapon's Standard damage +
-*Strong:* Roll weapon's Strong damage +
+*Weak:* Apply weapon's Weak damage value +
+*Standard:* Apply weapon's Standard damage value +
+*Strong:* Apply weapon's Strong damage value +
 
 == Difficulty Modifiers
 

@@ -21,10 +21,10 @@ On your turn, take one *Standard Action* and one *Move Action*, plus any number 
 
 == Making an Attack
 Attacks always hit. Roll 3d6 + modifiers to determine damage tier:
-- *Weak:* Roll weapon's Weak damage (glancing blow)
-- *Standard:* Roll weapon's Standard damage (solid hit)
-- *Strong:* Roll weapon's Strong damage (devastating strike)
-- *Critical:* Maximize Strong damage + critical bonus
+- *Weak:* Apply weapon's Weak damage value (glancing blow)
+- *Standard:* Apply weapon's Standard damage value (solid hit)
+- *Strong:* Apply weapon's Strong damage value (devastating strike)
+- *Critical:* Apply maximum Strong damage + critical bonus
 
 == Damage Types
 *Physical:* Slashing, Piercing, Bludgeoning
