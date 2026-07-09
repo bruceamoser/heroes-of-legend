@@ -79,7 +79,7 @@ Monsters use the same rules as heroes — attributes, skills, and W/S/S damage.
 
 *Fire Elemental (Challenge 4):* HP 20, DR 2. Slam: 4/5/7 fire. Touch: creatures touching or hitting the elemental take 2 fire. Water Vulnerability: takes 2 cold damage when splashed with water.
 
-*Water Elemental (Challenge 4):* HP 22, DR 2. Slam: 4/5/7 bludgeoning. Whelm: target must make Brawn save or be Grappled and take 1d6/2d6/3d6 bludgeoning each round. Freeze: when hit by cold damage, speed halved for 1 round.
+*Water Elemental (Challenge 4):* HP 22, DR 2. Slam: 4/5/7 bludgeoning. Whelm: target must make Brawn save or be Grappled and take 2/4/6 bludgeoning each round. Freeze: when hit by cold damage, speed halved for 1 round.
 
 == Giants
 

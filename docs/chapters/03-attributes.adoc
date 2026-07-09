@@ -46,7 +46,7 @@ At levels 4, 8, 12, 16, and 20, you may increase one attribute by +1 (maximum +2
 
 == Attribute Descriptions
 
-*Brawn (BR):* Raw physical power. Governs melee damage, athletic feats, carrying capacity, and feats of strength. A hero with Brawn +2 can bend iron bars; one with Brawn -2 struggles with heavy doors.
+*Brawn (BR):* Raw physical power. Governs your ability to land powerful blows — higher Brawn pushes your 3d6 roll toward Strong tiers, which means higher damage. Also governs athletic feats, carrying capacity, and feats of strength. A hero with Brawn +2 can bend iron bars; one with Brawn -2 struggles with heavy doors.
 
 *Fortitude (FO):* Physical resilience and endurance. Determines your Health Points, resistance to poison and disease, and ability to endure harsh environments. Fortitude is your body's armor against the world.
 

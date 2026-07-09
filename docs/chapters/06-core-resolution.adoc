@@ -75,7 +75,7 @@ No attack roll. Your 3d6 determines damage tier:
 
 == Worked Examples
 
-*Kael (Brawn +2, Longsword +2) attacks a goblin.* Rolls 4+3+5=12, +2+2=16. *Strong!* Longsword Strong: 3d8+2 = 17 damage.
+*Kael (Brawn +2, Longsword skill +2) attacks a goblin.* Rolls 4+3+5=12, +2+2=16. *Strong!* Longsword Strong damage: 5. The goblin has no armor — *5 damage*.
 
 *Lyra (Knowledge +2) identifies a rune. Difficulty -2.* Rolls 2+4+4=10, +2-2=10. *Standard.* She knows it's Old Elvish — a warding glyph.
 
