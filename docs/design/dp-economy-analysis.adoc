@@ -1,0 +1,259 @@
+= DP Economy Analysis
+:imagesdir: ../assets/images
+
+== System Assumptions
+
+[cols="1,2", options="header"]
+|===
+| Parameter | Value
+| Levels | 1–10
+| Adept abilities unlock | Level 3
+| Master abilities unlock | Level 7
+| Starting HP | 10 + Fortitude + Knowledge
+| HP per level after 1st | +Fortitude (minimum 1)
+| Starting Attributes | 3 points, range -2 to +2
+| Starting General Disciplines | 3
+| Skill DP costs | Novice 1, Adept 2, Master 3
+| Ability DP costs | Novice 1, Adept 2, Master 4
+| First level | Double DP
+|===
+
+== Budget Comparison (6 Characters × 4 Budgets)
+
+.All values: total DP spent at level 10
+[cols="1,>4,>4,>4,>4,>4,>4,>4", options="header"]
+|===
+| Budget | L1 DP | Total DP | Borin | Kara | Lyra | Vex | Thalia | Pip
+| 8 | 16 | 88 | 31 | 27 | 32 | 30 | 33 | 33
+| 12 | 24 | 132 | 31 | 27 | 32 | 30 | 33 | 33
+| 14 | 28 | 154 | 31 | 27 | 32 | 30 | 33 | 33
+| 16 | 32 | 176 | 31 | 27 | 32 | 30 | 33 | 33
+|===
+
+NOTE: Spend is identical across budgets because the build plans don't change — only the DP pool changes.
+
+== Key Finding
+
+All 6 characters spend **27–33 DP** on their focused builds (2 Master skills, 1 Master ability chain, 1-2 secondary chains, plus utility). This is 31–38% of budget 8 — and only 15–25% of budgets 12+.
+
+At budget 8, characters have **55–61 unspent DP** by level 10 — room to double their breadth without running out.
+
+At budget 12+, the surplus becomes absurd (99–149 DP). Characters would need to buy 3× more abilities than planned just to spend their points.
+
+== Recommendation: 8 DP/Level
+
+[quote]
+____
+8 DP per level (16 at level 1, 88 total over 10 levels) gives players enough to build a focused character with room for flavor picks, without drowning in unspent points.
+____
+
+- At 8 DP, a character can max 2 skills ($1 + 2 + 3 = 6$ DP each) and complete 2 ability chains ($1 + 2 + 4 = 7$ DP each) for ~26 DP — leaving 62 DP for secondary skills, utility abilities, and niche picks.
+- At 12+ DP, the surplus is so large that DP stops being a meaningful constraint — every character ends up broadly competent, undermining specialization.
+- **First-level double DP (16)** lets new characters buy 3-4 Novice skills and 2-3 Novice abilities, which is exactly what a level 1 adventurer should have.
+
+== Sample Character Builds (Budget 8)
+
+See the following pages for detailed per-level breakdowns of all 6 characters.
+
+=== Borin — Dwarf Fighter (Sword & Board)
+
+[cols="2,3,2,2,2,2,2", options="header"]
+|===
+| Attribute | Value | | Attribute | Value
+| Brawn | +2 | | Guile | -1
+| Fortitude | +2 | | Knowledge | 0
+| Agility | 0 | | Reason | 0
+|===
+
+- *HP:* 12 (L1) → 30 (L10)
+- *Disciplines:* Blade, Armor, Protection, Earth, Heavy Weapon + 3 General
+
+.Build Plan
+[cols="1,6,>2,>2", options="header"]
+|===
+| Level | Purchases | DP Used | Total Spent
+| 1 | Melee (Blade) N, Athletics N, Endurance N, Intimidation N, Shield Block N | 5 | 5
+| 2 | Power Attack N, Second Wind N | 2 | 7
+| 3 | Melee (Blade) A | 2 | 9
+| 4 | Athletics A, Power Attack A | 4 | 13
+| 5 | Endurance A, Shield Block A | 4 | 17
+| 6 | Iron Will N | 1 | 18
+| 7 | Melee (Blade) M, Bulwark Stance N | 4 | 22
+| 8 | Athletics M, Power Attack M | 7 | 29
+| 9 | Bulwark Stance A | 2 | 31
+| 10 | — | 0 | 31
+|===
+
+*31/88 DP spent (35%).* 57 DP available for expansion — could add ranged combat, social skills, crafting, or a second fighting style.
+
+=== Kara — Human Fighter (Great Weapon)
+
+[cols="2,3,2,2,2,2,2", options="header"]
+|===
+| Attribute | Value | | Attribute | Value
+| Brawn | +2 | | Guile | -1
+| Fortitude | +1 | | Knowledge | -1
+| Agility | +1 | | Reason | +1
+|===
+
+- *HP:* 10 (L1) → 19 (L10)
+- *Disciplines:* Blade, Heavy Weapon, Armor, General, Axe + 3 General
+
+.Build Plan
+[cols="1,6,>2,>2", options="header"]
+|===
+| Level | Purchases | DP Used | Total Spent
+| 1 | Melee (Heavy Weapon) N, Athletics N, Intimidation N, Cleave N | 4 | 4
+| 2 | Survival N, Mighty Blow N | 2 | 6
+| 3 | Melee (Heavy Weapon) A, Battle Cry N | 3 | 9
+| 4 | Athletics A, Cleave A | 4 | 13
+| 5 | Intimidation A | 2 | 15
+| 6 | Mighty Blow A | 2 | 17
+| 7 | Melee (Heavy Weapon) M, Juggernaut N | 4 | 21
+| 8 | Cleave M | 4 | 25
+| 9 | Juggernaut A | 2 | 27
+| 10 | — | 0 | 27
+|===
+
+*27/88 DP spent (31%).*
+
+=== Lyra — Halfling Thief (Infiltrator)
+
+[cols="2,3,2,2,2,2,2", options="header"]
+|===
+| Attribute | Value | | Attribute | Value
+| Brawn | -1 | | Guile | +2
+| Fortitude | 0 | | Knowledge | 0
+| Agility | +2 | | Reason | 0
+|===
+
+- *HP:* 10 (L1) → 10 (L10)
+- *Disciplines:* Guile, Stealth, Archery + 3 General
+
+.Build Plan
+[cols="1,6,>2,>2", options="header"]
+|===
+| Level | Purchases | DP Used | Total Spent
+| 1 | Stealth N, Lockpicking N, Perception N, Sneak Attack N | 4 | 4
+| 2 | Acrobatics N, Pickpocket N | 2 | 6
+| 3 | Stealth A, Evasion N | 3 | 9
+| 4 | Lockpicking A, Sneak Attack A | 4 | 13
+| 5 | Perception A, Shadow Step N | 3 | 16
+| 6 | Acrobatics A | 2 | 18
+| 7 | Stealth M, Evasion A | 5 | 23
+| 8 | Sneak Attack M | 4 | 27
+| 9 | Perception M, Shadow Step A | 5 | 32
+| 10 | — | 0 | 32
+|===
+
+*32/88 DP spent (36%).*
+
+=== Vex — Elf Thief (Swashbuckler)
+
+[cols="2,3,2,2,2,2,2", options="header"]
+|===
+| Attribute | Value | | Attribute | Value
+| Brawn | 0 | | Guile | +2
+| Fortitude | -1 | | Knowledge | 0
+| Agility | +2 | | Reason | 0
+|===
+
+- *HP:* 9 (L1) → 9 (L10)
+- *Disciplines:* Blade, Guile, Acrobatics, Wind, Charm + 3 General
+
+.Build Plan
+[cols="1,6,>2,>2", options="header"]
+|===
+| Level | Purchases | DP Used | Total Spent
+| 1 | Melee (Blade) N, Acrobatics N, Charm N, Riposte N | 4 | 4
+| 2 | Perception N, Duelist Stance N | 2 | 6
+| 3 | Melee (Blade) A, Dazzling Flourish N | 3 | 9
+| 4 | Charm A, Riposte A | 4 | 13
+| 5 | Acrobatics A, Disarming Strike N | 3 | 16
+| 6 | — | 0 | 16
+| 7 | Melee (Blade) M, Dazzling Flourish A | 5 | 21
+| 8 | Riposte M | 4 | 25
+| 9 | Acrobatics M, Disarming Strike A | 5 | 30
+| 10 | — | 0 | 30
+|===
+
+*30/88 DP spent (34%).*
+
+=== Thalia — High Elf Wizard (Evoker)
+
+[cols="2,3,2,2,2,2,2", options="header"]
+|===
+| Attribute | Value | | Attribute | Value
+| Brawn | -2 | | Guile | 0
+| Fortitude | 0 | | Knowledge | +2
+| Agility | 0 | | Reason | +2
+|===
+
+- *HP:* 12 (L1) → 12 (L10)
+- *Disciplines:* Fire, Energy, Knowledge + 3 General
+
+[NOTE]
+====
+Wizards spend more DP than other classes because each spell is a separate ability purchase (unlike fighters who get ongoing value from weapon skills). This is intentional — wizards trade breadth for depth in their spell chains.
+====
+
+.Build Plan
+[cols="1,6,>2,>2", options="header"]
+|===
+| Level | Purchases | DP Used | Total Spent
+| 1 | Arcana N, Fire Magic N, Investigation N, Firebolt N (1 DP), Magic Missile N (1 DP) | 5 | 5
+| 2 | Perception N, Mage Armor N (1 DP) | 2 | 7
+| 3 | Arcana A, Fireball A (2 DP) | 4 | 11
+| 4 | Investigation A, Lightning Bolt A (2 DP) | 4 | 15
+| 5 | Fire Magic A, Counterspell A (2 DP) | 4 | 19
+| 6 | — | 0 | 19
+| 7 | Arcana M, Volcanic Eruption M (4 DP) | 7 | 26
+| 8 | Chain Lightning M (4 DP) | 4 | 30
+| 9 | Fire Magic M | 3 | 33
+| 10 | — | 0 | 33
+|===
+
+*33/88 DP spent (38%).* Two full spell chains at Master plus a utility ability — this is a complete evoker.
+
+=== Pip — Gnome Wizard (Controller)
+
+[cols="2,3,2,2,2,2,2", options="header"]
+|===
+| Attribute | Value | | Attribute | Value
+| Brawn | -2 | | Guile | 0
+| Fortitude | 0 | | Knowledge | +2
+| Agility | +1 | | Reason | +2
+|===
+
+- *HP:* 12 (L1) → 12 (L10)
+- *Disciplines:* Wind, Water, Knowledge, Energy + 3 General
+
+.Build Plan
+[cols="1,6,>2,>2", options="header"]
+|===
+| Level | Purchases | DP Used | Total Spent
+| 1 | Arcana N, Wind Magic N, Investigation N, Gust N (1 DP), Frost Ray N (1 DP) | 5 | 5
+| 2 | Water Magic N, Fog Cloud N (1 DP) | 2 | 7
+| 3 | Arcana A, Wind Wall A (2 DP) | 4 | 11
+| 4 | Ice Storm A (2 DP) | 2 | 13
+| 5 | Wind Magic A, Water Magic A | 4 | 17
+| 6 | Fly A (2 DP) | 2 | 19
+| 7 | Arcana M, Cyclone M (4 DP) | 7 | 26
+| 8 | Blizzard M (4 DP) | 4 | 30
+| 9 | Wind Magic M | 3 | 33
+| 10 | — | 0 | 33
+|===
+
+*33/88 DP spent (38%).* Wind/Ice controller with flight utility — complete and thematic.
+
+== Remaining Questions for Bruce
+
+1. **HP at levels 2–10:** Currently modeled as +Fortitude per level (min 1). This means low-Fortitude characters barely gain HP (Thalia goes from 12 to 12 — literally zero). Should there be a flat floor? (e.g., +1 HP minimum regardless of Fortitude, or +Fortitude + 1)
+
+2. **DP on odd levels?** Do you gain DP at EVERY level or only even levels? (Model assumes every level.)
+
+3. **Master ability cost:** 4 DP for a Master ability is double the Adept cost. Is this intentional? It means a full spell chain costs $1 + 2 + 4 = 7$ DP — more than maxing a skill ($1 + 2 + 3 = 6$ DP).
+
+4. **General Disciplines:** Do the 3 starting General Disciplines become typed Disciplines at character creation, or do they remain "wildcard" slots that can be assigned later?
+
+5. **Ancestry/background disciplines:** Do these stack with class disciplines for meeting prerequisites, or are they siloed?

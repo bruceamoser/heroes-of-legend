@@ -72,3 +72,12 @@ Option 3: Range -1 to +1
 4. **Ability/talent costs** — confirm Novice=1DP, Adept=2DP, Master=4DP.
 
 These numbers define the entire character progression curve. Without them, Chapters 07 and 09 are placeholder stubs.
+
+---
+## Analysis — 2026-07-09
+
+**Recommendation: 8 DP/level** (16 at L1, 88 total). Full analysis at `docs/design/dp-economy-analysis.adoc`.
+
+6 characters modeled across 4 budgets. All spend 27-33 DP on focused builds. Budget 8 leaves ~55 DP for expansion — meaningful choice without drowning in points. Budget 12+ creates absurd surplus.
+
+Adept@L3, Master@L7 confirmed. Double DP at L1 confirmed. 5 open questions for Bruce in the analysis doc.
