@@ -48,3 +48,16 @@ Add to Chapter 18 (Advancement) or new section:
 2. Include at minimum one table and one example per subsystem
 3. Add cross-references to relevant chapters
 4. Build and verify
+
+
+---
+## Decision Log — 2026-07-09
+
+**RESOLVED.** All 5 subsystems added.
+
+- **Exploration:** Travel pace, navigation, foraging, hazards in Chapter 19.
+- **Crafting:** Materials, tools, DCs, crafting time in Chapter 19.
+- **Resource Management:** Rations, water, ammunition tracking in Chapter 19.
+- **Corruption:** Dark magic / cursed item corruption mechanic in Chapter 18.
+- **Social Conflict:** Structured social encounters with disposition and influence in Chapter 18.
+- PR #88 closed (combined with fix #108).

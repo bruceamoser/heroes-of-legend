@@ -106,3 +106,16 @@ A creature automatically checks morale when:
 - Each subsystem has at least one example
 - All subsystems cross-reference to relevant conditions in chapter 13
 - Builds without errors
+
+
+---
+## Decision Log — 2026-07-09
+
+**RESOLVED.** All 5 subsystems added to Chapter 13.
+
+- **Surprise:** Ambushers get +2 on initiative; surprised creatures can't take reactions until first turn ends.
+- **Grappling:** Opposed 3d6 + Brawn roll; grappled creature has Speed 0, attacks at disadvantage.
+- **Two-Weapon Fighting:** Off-hand attack as bonus action; requires 2 matching weapon Disciplines; off-hand uses Weak damage only.
+- **Non-Lethal Damage:** Declare before attack; if damage would reduce to 0 HP, target is unconscious (stable).
+- **Morale:** GM rolls 3d6 when half enemies fall or leader dies; DC based on creature intelligence.
+- PR #86 closed.

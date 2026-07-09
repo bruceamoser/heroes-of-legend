@@ -73,3 +73,16 @@ New: "Every hero begins with 3 General Disciplines — foundational training app
 4. Rewrite prose passages where the word "dice" was confusing
 5. Rebuild and verify zero errors
 6. Verify no broken xref links to the renamed chapter
+
+
+---
+## Decision Log — 2026-07-09
+
+**RESOLVED.** System-wide rename completed.
+
+- "Dice types" → "Disciplines" in all chapter files, AGENTS.md, copilot-instructions.md.
+- "Dice Type" → "Discipline" (singular).
+- "Generic dice" → "General Disciplines" (the 3 starting Disciplines all characters receive).
+- "Great Weapons" → "Heavy Weapon" (a specific Discipline name, not a category).
+- All xref links and cross-references updated.
+- PR #85 closed.

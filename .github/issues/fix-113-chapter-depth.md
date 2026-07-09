@@ -49,3 +49,9 @@ Expand chapters in priority order:
 - Every mechanical chapter has at least 2 worked examples
 - Every chapter has at least 1 NOTE admonition
 - Total PDF size increases from 918K to approximately 2-3MB
+
+
+---
+## Status Log — 2026-07-09
+
+**ONGOING.** Chapter depth is an iterative concern. Each chapter improves as related issues are resolved. No discrete "done" state — depth increases with each pass. Will revisit after authorial voice (#105) is chosen.

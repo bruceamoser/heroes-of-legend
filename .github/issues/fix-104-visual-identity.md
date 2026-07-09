@@ -79,3 +79,16 @@ Add themed styling for NOTE, TIP, WARNING blocks:
 6. Update master document to use SVG dividers and stamps
 7. Rebuild and visually review the PDF
 8. Iterate on colors, spacing, font sizes
+
+
+---
+## Decision Log — 2026-07-09
+
+**Font decision made.** Remaining visual elements deferred.
+
+- **Font chosen: Almendra** (OFL, medieval fantasy display serif, 4 weights). Set as base font-family for body text and headings.
+- Tables retain **Liberation Sans** for legibility at 9pt.
+- Six fonts were compared in a side-by-side PDF (`starter-kit/font-comparison.pdf`): Liberation Serif, EB Garamond, Cardo, Linux Libertine, Almendra, Pirata One.
+- Bruce selected Almendra (page 1 of the comparison PDF).
+- SVG decorative elements (chapter dividers, stamps, title page, corner ornaments) → **deferred to later visual polish pass.**
+- Pirata One (gothic blackletter) downloaded and available for chapter titles if desired later.

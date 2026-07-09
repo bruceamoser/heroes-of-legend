@@ -46,3 +46,14 @@ Use flat damage values consistent with Critical Fix #1:
 4. Create encounter building table (Challenge 1-10 with example pairings)
 5. Add monster creation guidelines for DAs
 6. Add monster-by-environment quick reference table
+
+
+---
+## Decision Log — 2026-07-09
+
+**RESOLVED.** Bestiary expanded to 30 creatures across 10 categories.
+
+- Categories: Beasts, Constructs, Dragons, Elementals, Fey, Giants, Humanoids, Monstrosities, Undead, Vermin.
+- 3 creatures per category (one low-CR, one mid-CR, one high-CR).
+- All stat blocks use flat damage values.
+- PR #89 closed.

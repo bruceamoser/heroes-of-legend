@@ -68,3 +68,9 @@ Where Neon Relic says "rolling dice when it is not necessary is the most common 
 - At least one editorial aside (warning/opinion) per chapter
 - Varied sentence rhythm (mix of short punch and longer atmospheric)
 - The voice is consistent across all 23 chapters
+
+
+---
+## Status Log — 2026-07-09
+
+**AWAITING DECISION.** Bruce needs to pick an authorial persona before any chapter rewrite work can begin. Five persona options presented in the issue body. No default — this is a creative choice that sets the tone for the entire rulebook.

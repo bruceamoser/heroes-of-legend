@@ -38,3 +38,9 @@ Add to Chapter 15 (Equipment) or Chapter 19:
 2. Write faction, stronghold, and mount sections (1-2 pages each)
 3. Add to appropriate chapters or create new appendices
 4. Build and verify
+
+
+---
+## Status Log — 2026-07-09
+
+**DEFERRED.** Sample adventure, factions, and stronghold rules are moderate priority. Not blocking core rules. Will address after spell chapters and voice rewrite.

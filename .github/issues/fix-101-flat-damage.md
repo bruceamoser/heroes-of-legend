@@ -65,3 +65,18 @@ Every example that shows damage being rolled must be rewritten to show flat dama
 5. Update monster stat blocks in chapter 20
 6. Update all worked examples
 7. Rebuild and verify zero errors
+
+
+---
+## Decision Log — 2026-07-09
+
+**RESOLVED.** All damage converted to flat values.
+
+- All weapon damage is now flat W/S/S (e.g., Longsword: 2/3/5)
+- **Brawn is factored into the 3d6 attack roll**, NOT added to damage. Higher Brawn = higher tier = higher damage from the flat value column.
+- Finesse weapons use Agility on the 3d6 roll instead of Brawn.
+- "Great Weapons" Discipline renamed to **Heavy Weapon** Discipline.
+- Weapons may require multiple Disciplines (e.g., Longsword: 1 Blade + 1 Heavy Weapon; Halberd: 1 Polearm + 1 Axe).
+- Final weapon table confirmed in Chapter 15.
+- All bestiary damage, spell damage, and worked examples updated.
+- PR #90 closed.

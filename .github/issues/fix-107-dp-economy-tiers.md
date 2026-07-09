@@ -59,3 +59,16 @@ Option 2: Cap at +3
 Option 3: Range -1 to +1
   +2: W 1.9%  | S 48.1% | St 50.0%  ← Same as current +2 but max attainable is lower
 ```
+
+
+---
+## Status Log — 2026-07-09
+
+**AWAITING DECISION.** Bruce needs to provide:
+
+1. **DP per level** — how many Development Points characters earn each level.
+2. **Target tier distribution** — what % of rolls should be Weak/Standard/Strong at low, mid, and high levels.
+3. **Skill cost structure** — confirm Novice=1DP, Adept=2DP, Master=3DP or propose alternatives.
+4. **Ability/talent costs** — confirm Novice=1DP, Adept=2DP, Master=4DP.
+
+These numbers define the entire character progression curve. Without them, Chapters 07 and 09 are placeholder stubs.

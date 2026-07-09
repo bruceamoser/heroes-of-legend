@@ -59,3 +59,12 @@ Each mechanical chapter needs a "Running This" section at the end:
 - At least 2 NOTE blocks per mechanical chapter (minimum 20 total)
 - DA guidance section at end of every mechanical chapter
 - Characters' mechanical choices are consistent across examples (Kael's stats don't change between chapters)
+
+
+---
+## Decision Log — 2026-07-09
+
+**RESOLVED.** NOTE admonitions added to key mechanical chapters.
+
+- [NOTE] admonitions explaining critical rules added to chapters 03, 05, 06, 07, 08, 10, 13, 15, 18, 19.
+- Combined with missing subsystems fix in PR #88.

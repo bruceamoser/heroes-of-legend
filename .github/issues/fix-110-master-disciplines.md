@@ -40,3 +40,16 @@ Allow Master spells that accept alternative Discipline combinations:
 3. Update Discipline prerequisite tables in chapters 08 and 10
 4. Update spell prerequisite listings in chapters 11 and 12
 5. Update the worked example in chapter 08 (Kael's spell chain progression)
+
+
+---
+## Status Log — 2026-07-09
+
+**AWAITING DECISION.** Bruce needs to choose how Master-tier abilities are unlocked:
+
+- **Option A:** 3 matching Disciplines (e.g., 3 Fire for Master Fire spells)
+- **Option B:** 4 matching Disciplines (tighter gate, later access)
+- **Option C:** Level-gated (e.g., Master unlocks at level 7 regardless of Disciplines)
+- **Option D:** Hybrid (2 matching Disciplines + level 5 minimum)
+
+This gates all high-level spell/ability progression. Must be decided before spell chapters can be written.

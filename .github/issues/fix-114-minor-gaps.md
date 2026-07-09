@@ -49,3 +49,14 @@ narrative justification (finding a trainer, time spent practicing).
 3. Define shield block in chapter 16
 4. Add retraining rules to chapter 18
 5. Rebuild and verify
+
+
+---
+## Decision Log — 2026-07-09
+
+**RESOLVED.** All minor gaps fixed.
+
+- **Shield block:** Defined as a reaction — add +2 to AC against one attack.
+- **Retraining rules:** Added to Chapter 07 — can retrain one skill/ability per level at no DP cost.
+- **Design philosophy NOTE:** Added to Chapter 01 explaining the "always-hit" philosophy.
+- PR #87 closed.
