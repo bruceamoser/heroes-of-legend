@@ -50,6 +50,62 @@ Attacks always hit. Roll 3d6 + modifiers to determine damage tier:
 | *Unconscious* | Incapacitated + prone + unaware | Healing or save
 |===
 
+== Surprise
+When one side catches the other unaware, the ambushing side gains *initiative advantage*: they act first in the first round, regardless of initiative rolls. Surprised targets suffer a -2 penalty to their 3d6 roll on the first round — they're reacting, not acting.
+
+To determine surprise, the ambushing side rolls Stealth opposed by the target's passive Insight (Knowledge score + 7). On Standard or Strong success, surprise is achieved.
+
+> *DA Guidance:* Don't let the party surprise every encounter just because the rogue has high Stealth. Surprise requires genuine tactical advantage — darkness, distraction, or terrain. Walking up to a guard in plain sight and saying "I hide" isn't surprise.
+
+== Grappling
+To initiate a grapple, make a Brawn (Athletics) roll opposed by the target's Brawn (Athletics) or Agility (Acrobatics).
+
+[%header,cols="1,4"]
+|===
+| Result | Effect
+| *Weak* | You grab hold but don't control. Target is Grappled but can still act.
+| *Standard* | Firm hold. Target is Grappled and Restrained.
+| *Strong* | Complete control. Target is Grappled, Restrained, and you may move them at half speed.
+|===
+
+While grappling, you may use your Standard Action to:
+- *Pin:* Force another opposed roll. Strong adds Incapacitated.
+- *Throw:* End the grapple. Target is knocked Prone adjacent and takes Weak unarmed damage.
+- *Choke:* Target begins suffocating (can hold breath for Fortitude + 2 rounds).
+
+> *A grappling creature can still fight back.* The Grappled condition only prevents movement — a grappled spellcaster can still cast. The Restrained condition imposes disadvantage on attacks but doesn't prevent them.
+
+== Two-Weapon Fighting
+When wielding a weapon in each hand, you may attack with both as a single Standard Action. The off-hand weapon deals damage one tier lower (Strong→Standard, Standard→Weak, Weak→1 damage).
+
+The off-hand weapon must have the *Light* property (Dagger, Shortsword, Handaxe) unless you have the *Dual Wielder* talent, which removes this restriction.
+
+*Example:* Kael wields a longsword (primary) and a shortsword (off-hand). His 3d6 result is Standard for the primary (3 damage) and Weak for the off-hand (2 damage). Total: 5 damage.
+
+== Non-Lethal Attacks
+When you reduce a creature to 0 HP with a melee attack, you may declare the blow non-lethal. The creature falls Unconscious but stable at 0 HP instead of dying. Ranged attacks and spells cannot be made non-lethal unless the spell specifically allows it (e.g., *Sleep*).
+
+> *Why this matters:* Prisoners have information. Killing the only goblin who knows the dungeon layout means you're wandering blind. Sometimes the most powerful thing you can do is leave someone alive.
+
+== Morale
+NPCs and monsters don't fight to the death by default. When a creature faces overwhelming odds, the DA may call for a Morale Check. The creature rolls 3d6 (no modifiers):
+
+[%header,cols="1,4"]
+|===
+| Result | Behavior
+| *Strong (13+)* | Stands firm. Gains +1 on its next attack.
+| *Standard (7-12)* | Wavers but stays. Disadvantage on its next attack.
+| *Weak (1-6)* | Flees or surrenders.
+|===
+
+A creature automatically checks morale when:
+- Reduced below half HP for the first time
+- Its leader is defeated
+- Half its group has fallen
+- The party demonstrates overwhelming force (DA discretion)
+
+> *DA Guidance:* Use morale to keep combat from becoming a slog. When the goblins' leader falls and three of their friends are down, the remaining two should break and run — not fight to 0 HP while the party mops up. Morale makes combat feel dynamic and saves table time.
+
 == Dying
 At 0 HP, you fall unconscious. Each round, roll 3d6:
 - *Strong (13+):* Stabilize at 1 HP
