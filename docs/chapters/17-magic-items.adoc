@@ -1,7 +1,7 @@
 [#chapter-magic-items]
 = Magic Items
 
-Magic items enhance heroes and may grant dice types.
+Magic items enhance heroes and may grant Disciplines.
 
 [%header,cols="3,2,4"]
 |===
@@ -17,4 +17,4 @@ Magic items enhance heroes and may grant dice types.
 
 Attunement: A character may attune to 3 magic items at a time. Artifacts do not count against this limit.
 
-Dice Type Items: Some items grant temporary dice while attuned. A *Fire Opal* grants 1 Fire die. A *Blade Master's Gauntlet* grants 1 Blade die. These count toward prerequisite requirements.
+Discipline Items: Some items grant temporary dice while attuned. A *Fire Opal* grants 1 Fire die. A *Blade Master's Gauntlet* grants 1 Blade die. These count toward prerequisite requirements.

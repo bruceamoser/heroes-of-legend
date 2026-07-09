@@ -1,7 +1,7 @@
 [#chapter-advancement]
 = Advancement
 
-Heroes grow through experience, gaining Development Points, dice types, and reputation.
+Heroes grow through experience, gaining Development Points, Disciplines, and reputation.
 
 == Gaining Levels
 Levels are earned through adventure milestones. The DA awards levels when the party achieves significant goals. Expected pace: 1 level per 2-3 sessions.
@@ -12,7 +12,7 @@ At each level, gain 2-3 DP to spend on skills, talents, and abilities.
 [%header,cols="1,1,2"]
 |===
 | Level | DP | Other Gains
-| 1 | 3 | Class signature, starting dice
+| 1 | 3 | Class signature, Starting Disciplines
 | 2 | 2 | —
 | 3 | 2 | Progression die
 | 4 | 2 | Attribute increase (+1, max +2)
@@ -20,7 +20,7 @@ At each level, gain 2-3 DP to spend on skills, talents, and abilities.
 | 6-20 | 2/level | Progression die every 3 levels, attribute every 4
 |===
 
-Total DP at level 20: 41. Total progression dice: 6. Total attribute increases: 5.
+Total DP at level 20: 41. Total Progression Disciplines: 6. Total attribute increases: 5.
 
 == Group Reputation
 The party's renown grows with their deeds. Reputation affects NPC attitudes, quest availability, and title eligibility.

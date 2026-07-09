@@ -55,11 +55,11 @@ See `docs/design/implementation-plan.md` for the full plan, dependency graph, an
 - **Critical:** Three natural 6s | **Fumble:** Three natural 1s
 - **Attacks always hit** — weapons/spells have Weak/Standard/Strong damage values
 
-### Dice Type System
+### Discipline System
 - Skills, abilities, and talents have dice type prerequisites
-- Classes grant specific dice types
+- Classes grant specific Disciplines
 - All characters start with 3 generic dice
-- Dice types: Fire, Earth, Wind, Water, Animal, Protection, Armor, Energy, Blades, Archery, Axes, Polearms, Great Weapons, etc.
+- Disciplines: Fire, Earth, Wind, Water, Animal, Protection, Armor, Energy, Blades, Archery, Axes, Polearms, Great Weapons, etc.
 
 ### Magic
 - No spell slots, no mana — magic always fires

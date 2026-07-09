@@ -1,11 +1,11 @@
-[#chapter-dice-types]
-= Dice Types
+[#chapter-disciplines]
+= Disciplines
 
-The dice type system is Heroes of Legend's signature mechanic. Characters don't just gain skills — they collect *dice* representing their mastery of elements, weapons, and arcane forces.
+The Discipline system is Heroes of Legend's signature mechanic. Characters don't just gain skills — they earn *Disciplines* representing their mastery of elements, weapons, and arcane forces.
 
-== What Are Dice Types?
+== What Are Disciplines?
 
-A dice type represents a domain of expertise or power your hero has attuned to. They are prerequisites for skills, abilities, and talents. You don't roll these dice — they're symbolic of your character's growing mastery.
+A Discipline represents a domain of expertise or power your hero has attuned to. They are prerequisites for skills, abilities, and talents. You don't roll these Disciplines — they're symbolic of your character's growing mastery.
 
 *Example:* A warrior with 3 Blade dice has spent years mastering swords. A mage with 3 Fire dice has deep attunement to flame. A ranger with 2 Animal dice has bonded with the wild.
 
@@ -13,7 +13,7 @@ A dice type represents a domain of expertise or power your hero has attuned to. 
 
 [%header,cols="2,1,4"]
 |===
-| Category | Dice Type | Represents
+| Category | Discipline | Represents
 .5+| *Elemental* | *Fire* | Flame, heat, passion, destruction
 | *Earth* | Stone, stability, endurance, crafting
 | *Wind* | Air, speed, storms, precision
@@ -29,17 +29,17 @@ A dice type represents a domain of expertise or power your hero has attuned to. 
 .1+| *Arcane* | *Energy* | Raw magical force, metamagic, spellcraft
 |===
 
-== Acquiring Dice Types
+== Acquiring Disciplines
 
-=== Starting Dice
-All characters begin with *3 Generic Dice*. Generic dice can be used as prerequisites for any basic skill or novice-level ability, but cannot meet requirements for Adept or Master tiers.
+=== Starting Disciplines
+All characters begin with *3 General Disciplines*. General Disciplines can be used as prerequisites for any basic skill or novice-level ability, but cannot meet requirements for Adept or Master tiers.
 
 === Class Dice
-Your class grants specific dice types at creation:
+Your class grants specific Disciplines at creation:
 
 [%header,cols="2,4"]
 |===
-| Class | Starting Dice
+| Class | Starting Disciplines
 | Protector | 2 Armor, 2 Protection
 | Blade | 3 Blades
 | Arcanist | 2 Fire, 1 Energy, 1 Wind (or any 4 elemental)
@@ -51,14 +51,14 @@ Your class grants specific dice types at creation:
 |===
 
 === Progression
-At levels 3, 6, 9, 12, 15, and 18, gain one additional dice type of your choice. Class-favored dice (those your class grants at creation) are always available. Cross-class dice may require narrative justification or story events.
+At levels 3, 6, 9, 12, 15, and 18, gain one additional Discipline of your choice. Class-favored dice (those your class grants at creation) are always available. Cross-class dice may require narrative justification or story events.
 
 === Magic Items
-Rare magic items may grant temporary or permanent dice types while attuned or wielded.
+Rare magic items may grant temporary or permanent Disciplines while attuned or wielded.
 
-== Dice as Prerequisites
+== Disciplines as Prerequisites
 
-Skills, abilities, and talents require specific dice types as prerequisites:
+Skills, abilities, and talents require specific Disciplines as prerequisites:
 
 [%header,cols="3,2,1"]
 |===
@@ -75,8 +75,8 @@ Skills, abilities, and talents require specific dice types as prerequisites:
 | Counterspell | 2 Energy + 1 Reason | Adept
 |===
 
-=== Generic Dice Substitution
-A Generic die can substitute for any specific type at the *Novice* tier only. For Adept or Master abilities, you must have the specific dice types listed.
+=== General Disciplines Substitution
+A Generic die can substitute for any specific type at the *Novice* tier only. For Adept or Master abilities, you must have the specific Disciplines listed.
 
 == Worked Example
 
@@ -88,4 +88,4 @@ Kael, an Arcanist, wants to master fire magic. At creation, he has 2 Fire dice a
 - *Adept (Fireball):* Requires 2 Fire + 1 Energy. Kael qualifies — he has exactly what's needed.
 - *Master (Volcanic Eruption):* Requires 3 Fire + 2 Earth + 1 Energy. Kael needs 1 more Fire die and 2 Earth dice. He'll need to earn these through level progression or find a magic item.
 
-At level 3, Kael gains his first progression die. He chooses Fire (now 3 Fire). At level 6, he gains another — Earth. At level 9, another Earth (now 2 Earth). At level 12, he finally has 3 Fire + 2 Earth + 1 Energy and can purchase Volcanic Eruption. This progression took 12 levels — Master-tier magic is earned, not given.
+At level 3, Kael gains his first Progression Discipline. He chooses Fire (now 3 Fire). At level 6, he gains another — Earth. At level 9, another Earth (now 2 Earth). At level 12, he finally has 3 Fire + 2 Earth + 1 Energy and can purchase Volcanic Eruption. This progression took 12 levels — Master-tier magic is earned, not given.

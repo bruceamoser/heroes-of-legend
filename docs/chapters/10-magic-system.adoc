@@ -24,7 +24,7 @@ Spells are organized into chains — three tiers of increasing power:
 | Transmutation | Enlarge/Reduce | Polymorph | Time Stop
 |===
 
-== Dice Prerequisites
+== Discipline Prerequisites
 [%header,cols="2,1,2,5"]
 |===
 | Spell | Tier | Dice Req | Effect Range
@@ -34,7 +34,7 @@ Spells are organized into chains — three tiers of increasing power:
 |===
 
 == Cantrips
-Cantrips require no dice prerequisites. Every caster knows all cantrips in their tradition (arcane or divine).
+Cantrips require no Discipline prerequisites. Every caster knows all cantrips in their tradition (arcane or divine).
 
 == Arcane vs Divine
 *Arcane* (Arcanist): Fire, Wind, Water, Earth, Energy spells. Manipulates natural forces.

@@ -16,7 +16,7 @@ Choose Human, Elf, Dwarf, or Halfling. Record your dice and trait. See xref:chap
 Choose your upbringing within your ancestry. Grants a +1 skill bonus.
 
 == Step 5: Class
-Choose from Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, or Unbalanced. Record your starting dice, signature ability, and favored skills. See xref:chapters/05-classes.adoc[Classes].
+Choose from Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, or Unbalanced. Record your Starting Disciplines, signature ability, and favored skills. See xref:chapters/05-classes.adoc[Classes].
 
 == Step 6: Spend Starting DP
 You have 3 DP. Spend on skills (1/2/4 DP for Novice/Adept/Master) or talents.

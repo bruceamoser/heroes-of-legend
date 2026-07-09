@@ -57,7 +57,7 @@ include::chapters/06-core-resolution.adoc[leveloffset=+1]
 
 include::chapters/07-skills.adoc[leveloffset=+1]
 
-include::chapters/08-dice-types.adoc[leveloffset=+1]
+include::chapters/08-disciplines.adoc[leveloffset=+1]
 
 include::chapters/09-talents-abilities.adoc[leveloffset=+1]
 
