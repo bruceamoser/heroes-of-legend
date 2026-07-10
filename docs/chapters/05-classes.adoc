@@ -46,9 +46,10 @@ Add +1 to your Protection Value for the round. At higher levels, this bonus
 increases.
 *Favored Skills (X1):* Athletics, Endurance, Intimidation,
 Melee Combat, Resilience
-*Favored Disciplines (X1):* Armor, Protection
-*Out of Class (X3):* Elemental Disciplines (Fire, Earth, Wind, Water) and
-Energy. You're a wall, not a wizard.
+*Favored Disciplines (X1):* Armor, Protection, Blades, Axes, Polearms,
+Heavy Weapon, Unarmed
+*Out of Class (X3):* All Elemental (Fire, Earth, Wind, Water), Energy,
+Life, Religion, Plants, Mind, Summon. You're a wall, not a wizard.
 
 [NOTE]
 ====
@@ -76,9 +77,10 @@ attacking with blades. Gain the *Precise Stab* ability -- bonus
 damage when exploiting an opening.
 *Favored Skills (X1):* Acrobatics, Deception, Perception,
 Sleight of Hand, Stealth
-*Favored Disciplines (X1):* Blades, Archery
-*Out of Class (X3):* Armor, Heavy Weapon, Elemental, and Energy. You're
-precision, not brute force.
+*Favored Disciplines (X1):* Blades, Archery, Unarmed
+*Out of Class (X3):* Armor, Heavy Weapon, Axes, and all magical Disciplines
+(Fire, Earth, Wind, Water, Energy, Life, Religion, Plants, Mind, Summon).
+You're precision, not brute force -- and certainly not magic.
 
 [NOTE]
 ====
@@ -107,10 +109,11 @@ that increases your Evasion by +1 for the round. At higher levels, this
 shield grows stronger. Once per round.
 *Favored Skills (X1):* Alchemy, Arcana, History, Investigation,
 Lore (any)
-*Favored Disciplines (X1):* Energy and all Elemental types
-(Fire, Earth, Wind, Water). Magic is what you do.
-*Out of Class (X3):* Armor, Heavy Weapon, and Axes. You didn't spend
-decades studying the arcane to wear plate mail.
+*Favored Disciplines (X1):* Energy and all Elemental types (Fire, Earth,
+Wind, Water), Mind, Summon. Magic is what you do.
+*Out of Class (X3):* All weapons (Blades, Axes, Polearms, Archery, Heavy
+Weapon, Unarmed), Armor, Protection, Religion. You didn't spend decades
+studying the arcane to swing a sword.
 
 [NOTE]
 ====
@@ -139,9 +142,9 @@ beyond death's reach fear your presence.
 affects only undead creatures within your presence. Your faith burns what
 should not walk.
 *Favored Skills (X1):* Medicine, Nature, Religion, Survival
-*Favored Disciplines (X1):* Protection, Animal
-*Out of Class (X3):* Elemental Disciplines and Energy. Your power flows
-from faith, not formulas.
+*Favored Disciplines (X1):* Protection, Animal, Life, Religion, Plants
+*Out of Class (X3):* Elemental Disciplines, Heavy Weapon, Axes, Polearms,
+Archery, Armor, Summon. Your power flows from faith, not formulas.
 
 [NOTE]
 ====
@@ -169,10 +172,9 @@ weight, guiding allies through the darkest times.
 checks. This increases at higher levels.
 *Favored Skills (X1):* History, Investigation, Lore (any
 three), Medicine, Arcana
-*Favored Disciplines (X1):* All Disciplines cost X1 for you. The
-Intellect's gift is breadth -- you study everything.
-*Out of Class (X3):* None. Your mind is your weapon; no path is closed
-to you.
+*Favored Disciplines (X1):* Energy, Mind
+*Out of Class (X3):* Armor, Heavy Weapon, Axes, Unarmed. Your mind is your
+weapon -- you've never needed to throw a punch.
 
 [NOTE]
 ====
@@ -233,9 +235,9 @@ companions toward a brighter future. In your presence, unity flourishes.
 grant one ally who witnessed it a +2 bonus on their next roll. Your
 actions inspire greatness in others.
 *Favored Skills (X1):* Persuasion, Resilience, Perception, Insight
-*Favored Disciplines (X1):* Protection, Energy
-*Out of Class (X3):* Elemental Disciplines. You lead from the front, not
-from a spellbook.
+*Favored Disciplines (X1):* Protection, Blades, Polearms, Energy
+*Out of Class (X3):* Elemental Disciplines, Plants, Summon. You lead from
+the front, not from a spellbook.
 
 [NOTE]
 ====
@@ -265,9 +267,9 @@ roll on a d6 backlash table -- self-damage, a fleeting condition, or an
 environmental surge that affects everyone, friend and foe alike.
 *Favored Skills (X1):* Arcana, Deception, Insight, Intimidation,
 Melee Combat
-*Favored Disciplines (X1):* Your two opposing Elemental types.
-*Out of Class (X3):* Armor and Protection. Armor is for people who fear
-what's inside them. You don't.
+*Favored Disciplines (X1):* Your two opposing Elemental types, plus Energy.
+*Out of Class (X3):* Armor, Protection, and all weapons. Armor is for
+people who fear what's inside them. You don't.
 
 [NOTE]
 ====
@@ -313,20 +315,32 @@ more.
 [%header,cols="2,1,1,1,1,1,1,1,1"]
 |===
 | Discipline | Protector | Blade | Arcanist | Shepherd | Intellect | Odd | Leader | Unbalanced
-| *Fire* | X3 | X3 | X1 | X3 | X1 | X1 | X3 | X2^†^
-| *Earth* | X3 | X3 | X1 | X3 | X1 | X1 | X3 | X2^†^
-| *Wind* | X3 | X3 | X1 | X3 | X1 | X1 | X3 | X2^†^
-| *Water* | X3 | X3 | X1 | X3 | X1 | X1 | X3 | X2^†^
-| *Energy* | X3 | X3 | X1 | X3 | X1 | X1 | X1 | X2
-| *Blades* | X2 | X1 | X2 | X2 | X1 | X1 | X2 | X2
-| *Axes* | X2 | X2 | X3 | X2 | X1 | X1 | X2 | X2
-| *Polearms* | X2 | X2 | X2 | X2 | X1 | X1 | X2 | X2
-| *Archery* | X2 | X1 | X2 | X2 | X1 | X1 | X2 | X2
-| *Heavy Weapon* | X2 | X3 | X3 | X2 | X1 | X1 | X2 | X2
-| *Unarmed* | X2 | X2 | X2 | X2 | X1 | X1 | X2 | X2
-| *Protection* | X1 | X2 | X2 | X1 | X1 | X1 | X1 | X3
-| *Armor* | X1 | X3 | X3 | X2 | X1 | X1 | X2 | X3
-| *Animal* | X2 | X2 | X2 | X1 | X1 | X1 | X2 | X2
+.5+^.^| *Elemental*
+| *Fire* | X3 | X3 | X1 | X3 | X2 | X1 | X3 | X1^†^
+| *Earth* | X3 | X3 | X1 | X3 | X2 | X1 | X3 | X1^†^
+| *Wind* | X3 | X3 | X1 | X3 | X2 | X1 | X3 | X1^†^
+| *Water* | X3 | X3 | X1 | X3 | X2 | X1 | X3 | X1^†^
+.6+^.^| *Weapon*
+| *Blades* | X1 | X1 | X3 | X2 | X2 | X1 | X1 | X3
+| *Axes* | X1 | X3 | X3 | X3 | X3 | X1 | X2 | X3
+| *Polearms* | X1 | X2 | X3 | X3 | X2 | X1 | X1 | X3
+| *Archery* | X2 | X1 | X3 | X3 | X2 | X1 | X2 | X3
+| *Heavy Weapon* | X1 | X3 | X3 | X3 | X3 | X1 | X2 | X3
+| *Unarmed* | X1 | X1 | X3 | X2 | X3 | X1 | X2 | X3
+.2+^.^| *Defense*
+| *Protection* | X1 | X2 | X3 | X1 | X2 | X1 | X1 | X3
+| *Armor* | X1 | X3 | X3 | X3 | X3 | X1 | X2 | X3
+.2+^.^| *Primal*
+| *Animal* | X2 | X3 | X2 | X1 | X2 | X1 | X2 | X3
+| *Plants* | X3 | X3 | X2 | X1 | X2 | X1 | X3 | X3
+.2+^.^| *Arcane*
+| *Energy* | X3 | X3 | X1 | X2 | X1 | X1 | X1 | X1
+| *Summon* | X3 | X3 | X1 | X3 | X2 | X1 | X3 | X2
+.2+^.^| *Divine*
+| *Life* | X3 | X3 | X2 | X1 | X2 | X1 | X2 | X3
+| *Religion* | X3 | X3 | X3 | X1 | X2 | X1 | X2 | X3
+.1+^.^| *Mental*
+| *Mind* | X3 | X3 | X1 | X2 | X1 | X1 | X2 | X2
 |===
 
 ^†^ Unbalanced: pick two opposing Elemental types at Level 1 -- those
