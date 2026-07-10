@@ -319,8 +319,8 @@ you even buy the ability. That's the brake on out-of-class magic, not the
 ability cost itself.
 
 *Skills* follow the same X1/X2/X3 structure. A Protector pays 3 DP for
-Arcana Novice -- learnable, but expensive. The full skill cost matrix is
-in <<chapter-skills>>.
+Arcana Novice -- learnable, but expensive. Each skill's X1/X2/X3 classes
+are listed on its card in <<chapter-skills>>.
 
 [%header,cols="2,1,1,1,1,1,1,1,1"]
 |===
