@@ -172,7 +172,7 @@ weight, guiding allies through the darkest times.
 checks. This increases at higher levels.
 *Favored Skills (X1):* History, Investigation, Lore (any
 three), Medicine, Arcana
-*Favored Disciplines (X1):* Energy, Mind
+*Favored Disciplines (X1):* Energy, Mind, Life, Religion, Plants
 *Out of Class (X3):* Armor, Heavy Weapon, Axes, Unarmed. Your mind is your
 weapon -- you've never needed to throw a punch.
 
@@ -206,9 +206,11 @@ divine ability. You ignore prerequisite Disciplines for these two (level
 requirements still apply). You need no arcane focus or holy symbol.
 *Favored Skills (X1):* Sleight of Hand, Stealth, Streetwise,
 Deception, Acrobatics
-*Favored Disciplines (X1):* All Disciplines cost X1 for you. The Odd's
-gift is unpredictability -- no path is denied to you.
-*Out of Class (X3):* None. You're weird. Weird works.
+*Favored Disciplines (X1):* None. Everything is X2.
+*Out of Class (X3):* None. The Odd gets no cost breaks -- and no forbidden
+paths. You pay the same moderate price for everything. Your real power is
+*Eccentric Spellcasting*: free abilities that ignore prerequisites. You
+don't need cheap Disciplines when you can skip them entirely.
 
 [NOTE]
 ====
@@ -315,25 +317,25 @@ more.
 [%header,cols="2,1,1,1,1,1,1,1,1"]
 |===
 | Discipline | Protector | Blade | Arcanist | Shepherd | Intellect | Odd | Leader | Unbalanced
-| *Fire* | X3 | X3 | X1 | X3 | X2 | X1 | X3 | X1^†^
-| *Earth* | X3 | X3 | X1 | X3 | X2 | X1 | X3 | X1^†^
-| *Wind* | X3 | X3 | X1 | X3 | X2 | X1 | X3 | X1^†^
-| *Water* | X3 | X3 | X1 | X3 | X2 | X1 | X3 | X1^†^
-| *Energy* | X3 | X3 | X1 | X2 | X1 | X1 | X1 | X1
-| *Blades* | X1 | X1 | X3 | X2 | X2 | X1 | X1 | X3
-| *Axes* | X1 | X3 | X3 | X3 | X3 | X1 | X2 | X3
-| *Polearms* | X1 | X2 | X3 | X3 | X2 | X1 | X1 | X3
-| *Archery* | X2 | X1 | X3 | X3 | X2 | X1 | X2 | X3
-| *Heavy Weapon* | X1 | X3 | X3 | X3 | X3 | X1 | X2 | X3
-| *Unarmed* | X1 | X1 | X3 | X2 | X3 | X1 | X2 | X3
-| *Protection* | X1 | X2 | X3 | X1 | X2 | X1 | X1 | X3
-| *Armor* | X1 | X3 | X3 | X3 | X3 | X1 | X2 | X3
-| *Animal* | X2 | X3 | X2 | X1 | X2 | X1 | X2 | X3
-| *Plants* | X3 | X3 | X2 | X1 | X2 | X1 | X3 | X3
-| *Summon* | X3 | X3 | X1 | X3 | X2 | X1 | X3 | X2
-| *Life* | X3 | X3 | X2 | X1 | X2 | X1 | X2 | X3
-| *Religion* | X3 | X3 | X3 | X1 | X2 | X1 | X2 | X3
-| *Mind* | X3 | X3 | X1 | X2 | X1 | X1 | X2 | X2
+| *Fire* | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^†^
+| *Earth* | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^†^
+| *Wind* | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^†^
+| *Water* | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^†^
+| *Energy* | X3 | X3 | X1 | X2 | X1 | X2 | X1 | X1
+| *Blades* | X1 | X1 | X3 | X2 | X2 | X2 | X1 | X3
+| *Axes* | X1 | X3 | X3 | X3 | X3 | X2 | X2 | X3
+| *Polearms* | X1 | X2 | X3 | X3 | X2 | X2 | X1 | X3
+| *Archery* | X2 | X1 | X3 | X3 | X2 | X2 | X2 | X3
+| *Heavy Weapon* | X1 | X3 | X3 | X3 | X3 | X2 | X2 | X3
+| *Unarmed* | X1 | X1 | X3 | X2 | X3 | X2 | X2 | X3
+| *Protection* | X1 | X2 | X3 | X1 | X2 | X2 | X1 | X3
+| *Armor* | X1 | X3 | X3 | X3 | X3 | X2 | X2 | X3
+| *Animal* | X2 | X3 | X2 | X1 | X2 | X2 | X2 | X3
+| *Plants* | X3 | X3 | X2 | X1 | X1 | X2 | X3 | X3
+| *Summon* | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X2
+| *Life* | X3 | X3 | X2 | X1 | X1 | X2 | X2 | X3
+| *Religion* | X3 | X3 | X3 | X1 | X1 | X2 | X2 | X3
+| *Mind* | X3 | X3 | X1 | X2 | X1 | X2 | X2 | X2
 |===
 
 ^†^ Unbalanced: pick two opposing Elemental types at Level 1 -- those
