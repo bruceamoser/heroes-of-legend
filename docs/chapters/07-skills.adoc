@@ -59,336 +59,336 @@ chapter. X1 classes pay the lowest cost; X3 pay the highest.
 
 [#skill-blades-fighting]
 === Blades Fighting
-*Attr:* Brawn · *Disc:* Blades  ·  *X1:* Protector, Blade, Leader  ·  *X2:* Intellect, Shepherd, Odd  ·  *X3:* Arcanist, Unbalanced
+*Brawn · Blades*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Riposte* — When a melee attack against you scores a Weak hit, counterattack. Disc: Blades (2).
-| *Master* | +3 | *Flurry* — Second melee attack this turn at −2. Disc: Blades (3).
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Protector, Blade, Leader | Intellect, Shepherd, Odd | Arcanist, Unbalanced | —
+| *Adept* | +2 | — | — | — | *Riposte* — Counterattack when missed in melee. Disc: Blades (2).
+| *Master* | +3 | — | — | — | *Flurry* — Second melee attack at −2. Disc: Blades (3).
 |===
 
 [#skill-axe-fighting]
 === Axe Fighting
-*Attr:* Brawn · *Disc:* Axes  ·  *X1:* Protector  ·  *X2:* Leader, Odd  ·  *X3:* Blade, Arcanist, Shepherd, Intellect, Unbalanced
+*Brawn · Axes*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Cleave* — When you drop a foe to 0 HP, carry remaining damage to an adjacent enemy. Disc: Axes (2).
-| *Master* | +3 | *Sunder* — Next axe attack this turn ignores 2 DR. Disc: Axes (3).
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Protector | Leader, Odd | Blade, Arcanist, Shepherd, Intellect, Unbalanced | —
+| *Adept* | +2 | — | — | — | *Cleave* — Drop a foe to 0 HP, carry remaining damage to adjacent enemy. Disc: Axes (2).
+| *Master* | +3 | — | — | — | *Sunder* — Next axe attack ignores 2 DR. Disc: Axes (3).
 |===
 
 [#skill-polearms-fighting]
 === Polearms Fighting
-*Attr:* Brawn · *Disc:* Polearms  ·  *X1:* Protector, Leader  ·  *X2:* Blade, Intellect, Odd  ·  *X3:* Arcanist, Shepherd, Unbalanced
+*Brawn · Polearms*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Brace* — Set vs charge. If charged before next turn, your attack auto-deals Strong damage. Disc: Polearms (2).
-| *Master* | +3 | *Sweep* — Attack all adjacent foes with one roll. Disc: Polearms (3).
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Protector, Leader | Blade, Intellect, Odd | Arcanist, Shepherd, Unbalanced | —
+| *Adept* | +2 | — | — | — | *Brace* — Set vs charge. If charged before next turn, attack auto-deals Strong damage. Disc: Polearms (2).
+| *Master* | +3 | — | — | — | *Sweep* — Attack all adjacent foes with one roll. Disc: Polearms (3).
 |===
 
 [#skill-heavy-weapon-fighting]
 === Heavy Weapon Fighting
-*Attr:* Brawn · *Disc:* Heavy Weapon  ·  *X1:* Protector  ·  *X2:* Leader, Odd  ·  *X3:* Blade, Arcanist, Shepherd, Intellect, Unbalanced
+*Brawn · Heavy Weapon*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Crushing Blow* — On Standard+ hit, knock target prone. Disc: Heavy Weapon (2).
-| *Master* | +3 | *Grand Slam* — Attack all creatures in a 10-ft cone with one roll. Disc: Heavy Weapon (3).
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Protector | Leader, Odd | Blade, Arcanist, Shepherd, Intellect, Unbalanced | —
+| *Adept* | +2 | — | — | — | *Crushing Blow* — On Standard+ hit, knock target prone. Disc: Heavy Weapon (2).
+| *Master* | +3 | — | — | — | *Grand Slam* — Attack all creatures in 10-ft cone with one roll. Disc: Heavy Weapon (3).
 |===
 
 [#skill-unarmed-fighting]
 === Unarmed Fighting
-*Attr:* Brawn · *Disc:* Unarmed  ·  *X1:* Protector, Blade, Unbalanced  ·  *X2:* Shepherd, Odd, Leader  ·  *X3:* Arcanist, Intellect
+*Brawn · Unarmed*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Throw* — While grappling, hurl target 10 ft. Target lands prone, takes Weak unarmed damage. Disc: Unarmed (2).
-| *Master* | +3 | *Stunning Strike* — On Strong unarmed hit, target is Stunned until end of its next turn. Disc: Unarmed (3).
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Protector, Blade, Unbalanced | Shepherd, Odd, Leader | Arcanist, Intellect | —
+| *Adept* | +2 | — | — | — | *Throw* — While grappling, hurl target 10 ft. Lands prone, takes Weak unarmed damage. Disc: Unarmed (2).
+| *Master* | +3 | — | — | — | *Stunning Strike* — On Strong unarmed hit, target Stunned until end of its next turn. Disc: Unarmed (3).
 |===
 
 [#skill-bow-fighting]
 === Bow Fighting
-*Attr:* Agility · *Disc:* Archery  ·  *X1:* Blade  ·  *X2:* Protector, Intellect, Odd, Leader, Unbalanced  ·  *X3:* Arcanist, Shepherd
+*Agility · Archery*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Pin Down* — Target you hit with a bow has disadvantage on attacks until it moves 5 ft. Disc: Archery (2).
-| *Master* | +3 | *Twin Shot* — Fire second arrow at same target at −2. Disc: Archery (3).
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Blade | Protector, Intellect, Odd, Leader, Unbalanced | Arcanist, Shepherd | —
+| *Adept* | +2 | — | — | — | *Pin Down* — Target hit with bow has disadvantage on attacks until it moves 5 ft. Disc: Archery (2).
+| *Master* | +3 | — | — | — | *Twin Shot* — Fire second arrow at same target at −2. Disc: Archery (3).
 |===
 
 [#skill-thrown-weapon]
 === Thrown Weapon
-*Attr:* Agility · *Disc:* Blades or Archery  ·  *X1:* Blade  ·  *X2:* Protector, Shepherd, Intellect, Odd, Leader, Unbalanced  ·  *X3:* Arcanist
+*Agility · Blades or Archery*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Ricochet* — Thrown weapon bounces to second target within 10 ft for half damage. Disc: Blades (1) or Archery (1).
-| *Master* | +3 | *Crippling Throw* — On Standard+ hit, target's movement halved until end of its next turn. Disc: Blades (2) or Archery (2).
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Blade | Protector, Shepherd, Intellect, Odd, Leader, Unbalanced | Arcanist | —
+| *Adept* | +2 | — | — | — | *Ricochet* — Bounces to second target within 10 ft for half damage. Disc: Blades (1) or Archery (1).
+| *Master* | +3 | — | — | — | *Crippling Throw* — On Standard+ hit, target's movement halved until end of its next turn. Disc: Blades (2) or Archery (2).
 |===
 
 [#skill-crossbow-fighting]
 === Crossbow Fighting
-*Attr:* Agility · *Disc:* Archery  ·  *X1:* —  ·  *X2:* Protector, Blade, Shepherd, Intellect, Odd, Leader, Unbalanced  ·  *X3:* Arcanist
+*Agility · Archery*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Steady Aim* — Next crossbow shot ignores cover penalties. Disc: Archery (1).
-| *Master* | +3 | *Penetrating Bolt* — Bolt pierces target; creature behind takes half damage. Disc: Archery (2).
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | — | Protector, Blade, Shepherd, Intellect, Odd, Leader, Unbalanced | Arcanist | —
+| *Adept* | +2 | — | — | — | *Steady Aim* — Next crossbow shot ignores cover penalties. Disc: Archery (1).
+| *Master* | +3 | — | — | — | *Penetrating Bolt* — Bolt pierces target; creature behind takes half damage. Disc: Archery (2).
 |===
 
 [#skill-athletics]
 === Athletics
-*Attr:* Brawn · *Disc:* —  ·  *X1:* Protector  ·  *X2:* Blade, Shepherd, Intellect, Odd, Leader, Unbalanced  ·  *X3:* Arcanist
+*Brawn · —*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Powerful Leap* — Double jump distance this turn.
-| *Master* | +3 | *Unstoppable* — Ignore difficult terrain and cannot be slowed this turn.
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Protector | Blade, Shepherd, Intellect, Odd, Leader, Unbalanced | Arcanist | —
+| *Adept* | +2 | — | — | — | *Powerful Leap* — Double jump distance this turn.
+| *Master* | +3 | — | — | — | *Unstoppable* — Ignore difficult terrain and cannot be slowed this turn.
 |===
 
 [#skill-endurance]
 === Endurance
-*Attr:* Fortitude · *Disc:* —  ·  *X1:* Protector  ·  *X2:* Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced  ·  *X3:* —
+*Fortitude · —*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Shake It Off* — Automatically succeed on a save vs poison or disease.
-| *Master* | +3 | *Second Wind* — Regain HP equal to Fortitude + level. Once per combat.
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Protector | Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced | — | —
+| *Adept* | +2 | — | — | — | *Shake It Off* — Automatically succeed on a save vs poison or disease.
+| *Master* | +3 | — | — | — | *Second Wind* — Regain HP equal to Fortitude + level. Once per combat.
 |===
 
 [#skill-survival]
 === Survival
-*Attr:* Fortitude · *Disc:* Animal  ·  *X1:* Shepherd  ·  *X2:* Protector, Blade, Arcanist, Intellect, Odd, Leader, Unbalanced  ·  *X3:* —
+*Fortitude · Animal*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Tracker's Eye* — Learn direction and distance of a creature that passed within the last hour. Disc: Animal (1).
-| *Master* | +3 | *Ambush* — Become hidden. Remain hidden until you attack, cast, or move. Disc: Animal (2).
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Shepherd | Protector, Blade, Arcanist, Intellect, Odd, Leader, Unbalanced | — | —
+| *Adept* | +2 | — | — | — | *Tracker's Eye* — Learn direction and distance of a creature that passed within the last hour. Disc: Animal (1).
+| *Master* | +3 | — | — | — | *Ambush* — Become hidden. Remain hidden until you attack, cast, or move. Disc: Animal (2).
 |===
 
 [#skill-resilience]
 === Resilience
-*Attr:* Fortitude · *Disc:* —  ·  *X1:* Protector, Leader  ·  *X2:* Blade, Arcanist, Shepherd, Intellect, Odd, Unbalanced  ·  *X3:* —
+*Fortitude · —*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Iron Will* — Reroll a failed save vs fear or charm.
-| *Master* | +3 | *Unbroken* — Ignore one condition (Frightened, Poisoned, or Stunned) for 1 round.
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Protector, Leader | Blade, Arcanist, Shepherd, Intellect, Odd, Unbalanced | — | —
+| *Adept* | +2 | — | — | — | *Iron Will* — Reroll a failed save vs fear or charm.
+| *Master* | +3 | — | — | — | *Unbroken* — Ignore one condition (Frightened, Poisoned, or Stunned) for 1 round.
 |===
 
 [#skill-acrobatics]
 === Acrobatics
-*Attr:* Agility · *Disc:* —  ·  *X1:* Blade, Odd  ·  *X2:* Protector, Arcanist, Shepherd, Intellect, Leader, Unbalanced  ·  *X3:* —
+*Agility · —*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Tumble* — Move through an enemy's space without provoking.
-| *Master* | +3 | *Evasion* — On successful save vs area effect, take no damage instead of half.
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Blade, Odd | Protector, Arcanist, Shepherd, Intellect, Leader, Unbalanced | — | —
+| *Adept* | +2 | — | — | — | *Tumble* — Move through an enemy's space without provoking.
+| *Master* | +3 | — | — | — | *Evasion* — On successful save vs area effect, take no damage instead of half.
 |===
 
 [#skill-stealth]
 === Stealth
-*Attr:* Agility · *Disc:* —  ·  *X1:* Blade, Odd  ·  *X2:* Protector, Shepherd, Intellect, Leader, Unbalanced  ·  *X3:* Arcanist
+*Agility · —*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Vanish* — Attempt Stealth check to hide even while observed.
-| *Master* | +3 | *Shadow Step* — Move 20 ft to any shadow or concealed position you can see. No opportunity attacks.
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Blade, Odd | Protector, Shepherd, Intellect, Leader, Unbalanced | Arcanist | —
+| *Adept* | +2 | — | — | — | *Vanish* — Attempt Stealth check to hide even while observed.
+| *Master* | +3 | — | — | — | *Shadow Step* — Move 20 ft to any shadow or concealed position. No opportunity attacks.
 |===
 
 [#skill-sleight-of-hand]
 === Sleight of Hand
-*Attr:* Agility · *Disc:* —  ·  *X1:* Blade, Odd  ·  *X2:* Protector, Arcanist, Shepherd, Intellect, Leader, Unbalanced  ·  *X3:* —
+*Agility · —*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Quick Draw* — Draw and use an item as part of the same maneuver.
-| *Master* | +3 | *Disarm* — Opposed check to knock held item from target's grasp.
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Blade, Odd | Protector, Arcanist, Shepherd, Intellect, Leader, Unbalanced | — | —
+| *Adept* | +2 | — | — | — | *Quick Draw* — Draw and use an item as part of the same maneuver.
+| *Master* | +3 | — | — | — | *Disarm* — Opposed check to knock held item from target's grasp.
 |===
 
 [#skill-deception]
 === Deception
-*Attr:* Guile · *Disc:* —  ·  *X1:* Blade, Odd, Unbalanced  ·  *X2:* Protector, Arcanist, Shepherd, Intellect, Leader  ·  *X3:* —
+*Guile · —*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Feint* — Next attack against you before your next turn is at disadvantage.
-| *Master* | +3 | *Double Bluff* — On Standard+ Deception check, target believes your lie for 1 minute, no further checks.
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Blade, Odd, Unbalanced | Protector, Arcanist, Shepherd, Intellect, Leader | — | —
+| *Adept* | +2 | — | — | — | *Feint* — Next attack against you before your next turn is at disadvantage.
+| *Master* | +3 | — | — | — | *Double Bluff* — On Standard+ Deception check, target believes lie for 1 minute, no further checks.
 |===
 
 [#skill-persuasion]
 === Persuasion
-*Attr:* Guile · *Disc:* —  ·  *X1:* Leader  ·  *X2:* Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Unbalanced  ·  *X3:* —
+*Guile · —*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Rally* — One ally within 30 ft loses Frightened.
-| *Master* | +3 | *Command* — One ally within 30 ft takes an immediate move action.
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Leader | Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Unbalanced | — | —
+| *Adept* | +2 | — | — | — | *Rally* — One ally within 30 ft loses Frightened.
+| *Master* | +3 | — | — | — | *Command* — One ally within 30 ft takes an immediate move action.
 |===
 
 [#skill-streetwise]
 === Streetwise
-*Attr:* Guile · *Disc:* —  ·  *X1:* Odd  ·  *X2:* Protector, Blade, Arcanist, Shepherd, Intellect, Leader, Unbalanced  ·  *X3:* —
+*Guile · —*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Contacts* — Once per session, "know a person" who can provide info, shelter, or a small favor.
-| *Master* | +3 | *Read the Room* — Instantly assess social power dynamics: who holds authority, who is lying, where the exits are.
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Odd | Protector, Blade, Arcanist, Shepherd, Intellect, Leader, Unbalanced | — | —
+| *Adept* | +2 | — | — | — | *Contacts* — Once per session, "know a person" for info, shelter, or a small favor.
+| *Master* | +3 | — | — | — | *Read the Room* — Instantly assess social power dynamics: authority, lies, exits.
 |===
 
 [#skill-arcana]
 === Arcana
-*Attr:* Knowledge · *Disc:* Energy  ·  *X1:* Arcanist, Intellect, Unbalanced  ·  *X2:* Shepherd, Odd, Leader  ·  *X3:* Protector, Blade
+*Knowledge · Energy*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Identify Spell* — Learn a spell being cast within 60 ft: name, tier, and school. Disc: Energy (1).
-| *Master* | +3 | *Counterspell* — Reaction + your maneuver. Arcana check vs 7 + spell tier to disrupt casting within 60 ft. Disc: Energy (2).
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Arcanist, Intellect, Unbalanced | Shepherd, Odd, Leader | Protector, Blade | —
+| *Adept* | +2 | — | — | — | *Identify Spell* — Learn spell being cast within 60 ft: name, tier, school. Disc: Energy (1).
+| *Master* | +3 | — | — | — | *Counterspell* — Reaction + maneuver. Arcana check vs 7 + spell tier to disrupt casting. Disc: Energy (2).
 |===
 
 [#skill-history]
 === History
-*Attr:* Knowledge · *Disc:* —  ·  *X1:* Arcanist, Intellect  ·  *X2:* Protector, Blade, Shepherd, Odd, Leader, Unbalanced  ·  *X3:* —
+*Knowledge · —*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Lore Recall* — Recall a relevant historical fact, legend, or piece of ancient knowledge about the current situation.
-| *Master* | +3 | *Known Weakness* — DA reveals one vulnerability, resistance, or special ability of a creature known to legend.
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Arcanist, Intellect | Protector, Blade, Shepherd, Odd, Leader, Unbalanced | — | —
+| *Adept* | +2 | — | — | — | *Lore Recall* — Recall a relevant historical fact, legend, or piece of ancient knowledge.
+| *Master* | +3 | — | — | — | *Known Weakness* — DA reveals one vulnerability, resistance, or special ability of a creature known to legend.
 |===
 
 [#skill-investigation]
 === Investigation
-*Attr:* Knowledge · *Disc:* —  ·  *X1:* Arcanist, Intellect  ·  *X2:* Protector, Blade, Shepherd, Odd, Leader, Unbalanced  ·  *X3:* —
+*Knowledge · —*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Eye for Detail* — Automatically spot one hidden clue, secret door, or concealed creature in the area.
-| *Master* | +3 | *Deduction* — DA provides one coherent insight connecting evidence you have gathered.
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Arcanist, Intellect | Protector, Blade, Shepherd, Odd, Leader, Unbalanced | — | —
+| *Adept* | +2 | — | — | — | *Eye for Detail* — Automatically spot one hidden clue, secret door, or concealed creature.
+| *Master* | +3 | — | — | — | *Deduction* — DA provides one coherent insight connecting gathered evidence.
 |===
 
 [#skill-nature]
 === Nature
-*Attr:* Knowledge · *Disc:* Animal  ·  *X1:* Shepherd  ·  *X2:* Arcanist, Intellect, Odd, Unbalanced  ·  *X3:* Protector, Blade, Leader
+*Knowledge · Animal*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Beast Lore* — Identify a creature's type, typical abilities, and vulnerabilities. Disc: Animal (1).
-| *Master* | +3 | *Commune* — Speak with a natural beast for 1 minute. It understands you and may answer simple questions. Disc: Animal (2).
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Shepherd | Arcanist, Intellect, Odd, Unbalanced | Protector, Blade, Leader | —
+| *Adept* | +2 | — | — | — | *Beast Lore* — Identify creature's type, abilities, and vulnerabilities. Disc: Animal (1).
+| *Master* | +3 | — | — | — | *Commune* — Speak with a natural beast for 1 minute. Disc: Animal (2).
 |===
 
 [#skill-religion]
 === Religion
-*Attr:* Knowledge · *Disc:* Religion  ·  *X1:* Shepherd  ·  *X2:* Intellect, Odd, Leader, Unbalanced  ·  *X3:* Protector, Blade, Arcanist
+*Knowledge · Religion*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Blessing* — One ally within 30 ft gains +1 on all rolls until start of your next turn.
-| *Master* | +3 | *Smite* — Next attack this turn deals bonus radiant damage equal to your Knowledge.
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Shepherd | Intellect, Odd, Leader, Unbalanced | Protector, Blade, Arcanist | —
+| *Adept* | +2 | — | — | — | *Blessing* — One ally within 30 ft gains +1 on all rolls until start of your next turn.
+| *Master* | +3 | — | — | — | *Smite* — Next attack deals bonus radiant damage equal to your Knowledge.
 |===
 
 [#skill-alchemy]
 === Alchemy
-*Attr:* Reason · *Disc:* —  ·  *X1:* Arcanist  ·  *X2:* Shepherd, Intellect, Odd, Unbalanced  ·  *X3:* Protector, Blade, Leader
+*Reason · —*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Quick Mix* — Identify a potion, poison, or substance by taste/smell. Quickly mix a simple remedy.
-| *Master* | +3 | *Alchemical Bomb* — Hurl explosive at a point within 30 ft. 2d6 elemental damage (fire/acid/frost) in 10-ft radius.
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Arcanist | Shepherd, Intellect, Odd, Unbalanced | Protector, Blade, Leader | —
+| *Adept* | +2 | — | — | — | *Quick Mix* — Identify a potion, poison, or substance by taste/smell. Quickly mix a simple remedy.
+| *Master* | +3 | — | — | — | *Alchemical Bomb* — Hurl explosive up to 30 ft. 2d6 elemental (fire/acid/frost) in 10-ft radius.
 |===
 
 [#skill-crafting]
 === Crafting
-*Attr:* Reason · *Disc:* —  ·  *X1:* —  ·  *X2:* Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced  ·  *X3:* —
+*Reason · —*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Field Repair* — Temporarily restore a broken weapon, armor, or tool for the encounter.
-| *Master* | +3 | *Jury-Rig* — Improvise a simple trap, barricade, or mechanical device. Lasts until end of scene.
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | — | Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced | — | —
+| *Adept* | +2 | — | — | — | *Field Repair* — Temporarily restore a broken weapon, armor, or tool for the encounter.
+| *Master* | +3 | — | — | — | *Jury-Rig* — Improvise a simple trap, barricade, or device. Lasts until end of scene.
 |===
 
 [#skill-medicine]
 === Medicine
-*Attr:* Reason · *Disc:* Animal  ·  *X1:* Shepherd, Intellect  ·  *X2:* Protector, Blade, Arcanist, Odd, Leader, Unbalanced  ·  *X3:* —
+*Reason · Animal*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Field Dressing* — Adjacent ally stabilizes (if dying) or regains 1d6 HP. Disc: Animal (1).
-| *Master* | +3 | *Battlefield Surgery* — Remove one condition from adjacent ally, or heal 3d6 HP. Disc: Animal (2).
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Shepherd, Intellect | Protector, Blade, Arcanist, Odd, Leader, Unbalanced | — | —
+| *Adept* | +2 | — | — | — | *Field Dressing* — Adjacent ally stabilizes (if dying) or regains 1d6 HP. Disc: Animal (1).
+| *Master* | +3 | — | — | — | *Battlefield Surgery* — Remove one condition from adjacent ally, or heal 3d6 HP. Disc: Animal (2).
 |===
 
 [#skill-insight]
 === Insight
-*Attr:* Reason · *Disc:* —  ·  *X1:* Unbalanced  ·  *X2:* Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader  ·  *X3:* —
+*Reason · —*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Read Intent* — Learn the target's next intended action (attack, flee, cast, negotiate).
-| *Master* | +3 | *Perfect Counter* — Choose a creature. Its next attack against you is at disadvantage.
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Unbalanced | Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader | — | —
+| *Adept* | +2 | — | — | — | *Read Intent* — Learn target's next intended action (attack, flee, cast, negotiate).
+| *Master* | +3 | — | — | — | *Perfect Counter* — Choose a creature. Its next attack against you is at disadvantage.
 |===
 
 [#skill-intimidation]
 === Intimidation
-*Attr:* Brawn · *Disc:* —  ·  *X1:* Protector, Unbalanced  ·  *X2:* Blade, Shepherd, Intellect, Odd, Leader  ·  *X3:* Arcanist
+*Brawn · —*
 
-[%header,cols="1,1,5"]
+[%header,cols="1,1,2,2,2,4"]
 |===
-| Tier | Bonus | Maneuver
-| *Novice* | +1 | —
-| *Adept* | +2 | *Menacing Glare* — One foe within 30 ft must make an immediate Morale Check.
-| *Master* | +3 | *Terrifying Presence* — All foes within 30 ft make a Morale Check at disadvantage.
+| Tier | Bonus | X1 | X2 | X3 | Maneuver
+| *Novice* | +1 | Protector, Unbalanced | Blade, Shepherd, Intellect, Odd, Leader | Arcanist | —
+| *Adept* | +2 | — | — | — | *Menacing Glare* — One foe within 30 ft must make an immediate Morale Check.
+| *Master* | +3 | — | — | — | *Terrifying Presence* — All foes within 30 ft make a Morale Check at disadvantage.
 |===
