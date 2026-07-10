@@ -7,27 +7,27 @@ ways to face the darkness. Pick the one that makes you grin.
 
 [NOTE]
 ====
-*Classes Shape, Don't Limit*
+*Classes Shape Costs, Not Limits*
 
-Your class gives you starting Disciplines, a signature ability, and
-guidance on what you're good at. It does not restrict what skills or
-abilities you can buy -- only what comes easily. A Protector who studies
-Arcana is unusual. That's the point. Be unusual.
+Your class gives you a Discipline, a signature ability, and cheaper access
+to certain skills and Disciplines. It does not restrict what you can buy --
+only what comes easily. A Protector who studies Arcana pays more for it.
+That's the point. Be unusual -- just know it'll cost you.
 ====
 
 == Class Overview
 
-[%header,cols="2,2,3,3"]
+[%header,cols="2,2,2,3"]
 |===
-| Class | Role | Starting Disciplines | Signature
-| *Protector* | Tank, defender | Armor(2), Protection(2) | *Bastion* -- defensive stance
-| *Blade* | Assassin, precision | Blades [Light](3) | *Swift Blade* + *Precise Stab*
-| *Arcanist* | Arcane caster | Elemental/Energy(4) | *Arcane Shield* -- protective ward
-| *Shepherd* | Divine guide | Protection(2), Animal(2) | *Turn Undead* -- divine banishment
-| *Intellect* | Scholar, strategist | Any(3) | *Knowledge Is Power* -- Knowledge +1
-| *Odd* | Chaos wildcard | Any, different categories(3) | *Eccentric Spellcasting* -- free spells
-| *Leader* | Front-line commander | Protection(2), Energy(1), Any(1) | *Lead by Example* -- inspire allies
-| *Unbalanced* | High-risk power | Opposing pair(2+2) | *Edge of Chaos* -- bonus damage + backlash
+| Class | Role | L1 Discipline | Signature
+| *Protector* | Tank, defender | Armor | *Bastion* -- defensive stance
+| *Blade* | Assassin, precision | Blades | *Swift Blade* + *Precise Stab*
+| *Arcanist* | Arcane caster | Energy | *Arcane Shield*
+| *Shepherd* | Divine guide | Protection | *Turn Undead*
+| *Intellect* | Scholar, strategist | Any one | *Knowledge Is Power*
+| *Odd* | Chaos wildcard | Any one (different category) | *Eccentric Spellcasting*
+| *Leader* | Commander | Protection | *Lead by Example*
+| *Unbalanced* | High-risk power | Any Elemental | *Edge of Chaos*
 |===
 
 == The Protector
@@ -40,11 +40,17 @@ the enemies you slay but in the allies who walk away unharmed because you
 stood in the gap. You pursue ever-better ways to fortify your resilience while
 keeping the ability to strike back when needed.
 
-*Starting Disciplines:* Armor (2), Protection (2)
-*Signature -- Bastion:* Spend your mobility purely on defense, and add +1 to
-your Protection Value for the round. At higher levels, this increases.
-*Favored Skills (1 DP each):* Athletics, Endurance, Intimidation, Melee
-Combat, Resilience
+*Class Discipline (L1):* Armor (1)
+*Signature -- Bastion:* Spend your movement to enter a defensive stance.
+Add +1 to your Protection Value for the round. At higher levels, this bonus
+increases.
+*L2 Class Discipline:* Protection (1)
+*L3 Class Discipline:* Armor or Protection (your choice)
+*Favored Skills (standard cost):* Athletics, Endurance, Intimidation,
+Melee Combat, Resilience
+*Favored Disciplines (standard cost):* Armor, Protection
+*Costs More:* Elemental Disciplines (Fire, Earth, Wind, Water) and Energy
+cost +1 DP per rank. You're a wall, not a wizard.
 
 [NOTE]
 ====
@@ -66,12 +72,17 @@ weapons. Keyed to Guile, you weave through the battlefield, striking with
 calculated precision -- each strike as effective as it is lethal. You are
 the shadow on the wall, the final face your enemies see.
 
-*Starting Disciplines:* Blades [Light] (3)
+*Class Discipline (L1):* Blades (1)
 *Signature -- Swift Blade:* You may use Agility instead of Brawn when
-attacking with light blades. Gain the *Precise Stab* ability -- bonus
+attacking with blades. Gain the *Precise Stab* ability -- bonus
 damage when exploiting an opening.
-*Favored Skills (1 DP each):* Acrobatics, Deception, Perception, Sleight
-of Hand, Stealth
+*L2 Class Discipline:* Blades (deepen to rank 2)
+*L3 Class Discipline:* Archery or Blades (your choice)
+*Favored Skills (standard cost):* Acrobatics, Deception, Perception,
+Sleight of Hand, Stealth
+*Favored Disciplines (standard cost):* Blades, Archery
+*Costs More:* Armor, Heavy Weapon, and Elemental Disciplines cost +1 DP
+per rank. You're precision, not brute force.
 
 [NOTE]
 ====
@@ -94,13 +105,18 @@ with deep understanding, summoning energies that shimmer with potential.
 Every spell fires. Every single one. The question is never *if* -- only
 how well.
 
-*Starting Disciplines:* Four from Fire, Wind, Water, Earth, or Energy
-(in any combination).
+*Class Discipline (L1):* Energy (1)
 *Signature -- Arcane Shield:* As a free action, raise a protective ward
-that increases your Evasion and Protection Value by +1 for the round.
-At higher levels, this shield grows stronger. Once per round.
-*Favored Skills (1 DP each):* Alchemy, Arcana, History, Investigation,
+that increases your Evasion by +1 for the round. At higher levels, this
+shield grows stronger. Once per round.
+*L2 Class Discipline:* Fire, Earth, Wind, or Water (1)
+*L3 Class Discipline:* Any Elemental or Energy (1)
+*Favored Skills (standard cost):* Alchemy, Arcana, History, Investigation,
 Lore (any)
+*Favored Disciplines (standard cost):* Energy and all Elemental types
+(Fire, Earth, Wind, Water). Magic is what you do.
+*Costs More:* Armor, Heavy Weapon, and Axes cost +1 DP per rank. You
+didn't spend decades studying the arcane to wear plate mail.
 
 [NOTE]
 ====
@@ -124,11 +140,16 @@ the right course in the murkiest of situations, offering light in darkness.
 You also stand as a bulwark against the undead -- creatures that have slipped
 beyond death's reach fear your presence.
 
-*Starting Disciplines:* Protection (2), Animal (2)
+*Class Discipline (L1):* Protection (1)
 *Signature -- Turn Undead:* Call down divine energy that ignores armor and
 affects only undead creatures within your presence. Your faith burns what
 should not walk.
-*Favored Skills (1 DP each):* Medicine, Nature, Religion, Survival
+*L2 Class Discipline:* Animal (1)
+*L3 Class Discipline:* Protection or Animal (your choice)
+*Favored Skills (standard cost):* Medicine, Nature, Religion, Survival
+*Favored Disciplines (standard cost):* Protection, Animal
+*Costs More:* Elemental Disciplines and Energy cost +1 DP per rank. Your
+power flows from faith, not formulas.
 
 [NOTE]
 ====
@@ -151,12 +172,16 @@ acumen and strategic planning, you outmaneuver foes with calculated
 precision, turning their own weaknesses against them. Your words carry
 weight, guiding allies through the darkest times.
 
-*Starting Disciplines:* Any three (your choice, reflecting your fields
-of study).
+*Class Discipline (L1):* Any one (your choice, reflecting your field)
 *Signature -- Knowledge Is Power:* Gain +1 to all Knowledge-based skill
 checks. This increases at higher levels.
-*Favored Skills (1 DP each):* History, Investigation, Lore (any three),
-Medicine, Arcana
+*L2 Class Discipline:* Any one (your choice)
+*L3 Class Discipline:* Any one (your choice)
+*Favored Skills (standard cost):* History, Investigation, Lore (any
+three), Medicine, Arcana
+*Favored Disciplines (standard cost):* All Disciplines cost the standard
+rate for you. The Intellect's gift is breadth -- you study everything.
+*Costs More:* Nothing. Your mind is your weapon; no path is closed to you.
 
 [NOTE]
 ====
@@ -180,13 +205,19 @@ unconventional gestures, bizarre weapons wielded with deadly precision,
 strange powers that defy explanation. Your adversaries never know what to
 expect. Sometimes, neither do you.
 
-*Starting Disciplines:* Any three, each from a *different category*
-(e.g., one Elemental, one Weapon, one Guile).
-*Signature -- Eccentric Spellcasting:* You gain one arcane spell and one
-divine prayer. You ignore prerequisite Disciplines for these (level
-requirements still apply). You need no arcane focus or holy symbol to cast.
-*Favored Skills (1 DP each):* Sleight of Hand, Stealth, Streetwise,
+*Class Discipline (L1):* Any one, from a *different category* than your
+ancestry and culture Disciplines (e.g., if you already have Weapon and
+Defense, take an Elemental or Energy).
+*Signature -- Eccentric Spellcasting:* Choose one arcane ability and one
+divine ability. You ignore prerequisite Disciplines for these two (level
+requirements still apply). You need no arcane focus or holy symbol.
+*L2 Class Discipline:* Any one (different category from L1)
+*L3 Class Discipline:* Any one (different category from L1 and L2)
+*Favored Skills (standard cost):* Sleight of Hand, Stealth, Streetwise,
 Deception, Acrobatics
+*Favored Disciplines (standard cost):* All Disciplines cost the standard
+rate. The Odd's gift is unpredictability -- no path is denied to you.
+*Costs More:* Nothing. You're weird. Weird works.
 
 [NOTE]
 ====
@@ -208,12 +239,16 @@ recognizing and nurturing the potential within each member of your group.
 Driven by a clear vision and unwavering commitment, you guide your
 companions toward a brighter future. In your presence, unity flourishes.
 
-*Starting Disciplines:* Protection (2), Energy (1), Any (1)
+*Class Discipline (L1):* Protection (1)
 *Signature -- Lead by Example:* When you land a telling blow on an enemy,
 grant one ally who witnessed it a +2 bonus on their next roll. Your
 actions inspire greatness in others.
-*Favored Skills (1 DP each):* Persuasion, Resilience, Perception,
-Insight
+*L2 Class Discipline:* Energy (1)
+*L3 Class Discipline:* Protection, Energy, or Any one (your choice)
+*Favored Skills (standard cost):* Persuasion, Resilience, Perception, Insight
+*Favored Disciplines (standard cost):* Protection, Energy
+*Costs More:* Elemental Disciplines cost +1 DP per rank. You lead from
+the front, not from a spellbook.
 
 [NOTE]
 ====
@@ -237,13 +272,18 @@ frenzy with ferocious abandon, your fighting style as unpredictable as
 your personality. You thrive on the chaos of combat, reveling in the
 uncertainty of the fray.
 
-*Starting Disciplines:* Two from one type, two from its opposite
-(e.g., Fire 2 + Water 2, or Earth 2 + Wind 2).
+*Class Discipline (L1):* Any one Elemental (Fire, Earth, Wind, or Water)
 *Signature -- Edge of Chaos:* On a Strong hit, deal +4 bonus damage but
 roll on a d6 backlash table -- self-damage, a fleeting condition, or an
 environmental surge that affects everyone, friend and foe alike.
-*Favored Skills (1 DP each):* Arcana, Deception, Insight, Intimidation,
+*L2 Class Discipline:* An Elemental type opposing your L1 choice
+(e.g., Fire + Water, Earth + Wind)
+*L3 Class Discipline:* Either of your two Elemental types (your choice)
+*Favored Skills (standard cost):* Arcana, Deception, Insight, Intimidation,
 Melee Combat
+*Favored Disciplines (standard cost):* Your two opposing Elemental types.
+*Costs More:* Armor and Protection cost +1 DP per rank. Armor is for
+people who fear what's inside them. You don't.
 
 [NOTE]
 ====
@@ -264,22 +304,49 @@ Development Points. Spend them all -- they don't carry over.
 [%header,cols="1,6"]
 |===
 | Level | What You Gain
-| *1* | Class signature, Starting Disciplines, 8 DP (Novice only)
-| *2* | 8 DP
-| *3* | Progression Discipline, *Adept tier unlocked*, 8 DP
+| *1* | Class Discipline (1 rank) + Signature ability, 8 DP (Novice tier only)
+| *2* | Second Class Discipline, 8 DP
+| *3* | Third Class Discipline, *Adept tier unlocked*, 8 DP
 | *4* | +1 to one Attribute (max +2), 8 DP
 | *5* | 8 DP
-| *6* | Progression Discipline, 8 DP
+| *6* | 8 DP
 | *7* | *Master tier unlocked*, 8 DP
 | *8* | +1 to one Attribute (max +2), 8 DP
-| *9* | Progression Discipline, 8 DP
+| *9* | 8 DP
 | *10* | Class capstone ability, 8 DP
-| *11+* | 8 DP/level. Attribute increase every 4 levels. Progression Discipline every 3 levels.
+| *11+* | 8 DP/level. Attribute increase every 4 levels.
 |===
 
-*Progression Disciplines:* Every 3 levels (3, 6, 9, 12...), you gain one
-new Discipline of any type. This is how you qualify for Adept and Master
-abilities that require deeper Discipline investment.
+*Class Disciplines:* At Levels 1, 2, and 3, your class grants you one
+Discipline rank each level (see your class entry for the specific
+types). These represent your formal training. After Level 3, you earn
+additional Disciplines by purchasing them with DP.
 
-*Adept abilities unlock at Level 3.* Master abilities unlock at Level 7.
-Until then, buy Novice skills and abilities -- you'll deepen them later.
+*Tier Gates:* Adept abilities unlock at Level 3. Master abilities
+unlock at Level 7. Until then, buy Novice skills and abilities --
+you'll deepen them later.
+
+== Favored Costs
+
+Your class makes some things cheaper. Skills listed as *Favored* cost the
+standard rate. Everything else costs +1 DP more.
+
+Disciplines listed as *Favored* cost the standard rate (1 DP for first
+rank, 2 DP for second, 4 DP for third). Disciplines your class actively
+discourages cost +1 DP per rank.
+
+This is how your class shapes your hero -- not by forbidding anything,
+but by making your natural path the affordable one.
+
+[%header,cols="2,3,3"]
+|===
+| Class | Favored Disciplines (standard cost) | Costs +1 DP/rank
+| *Protector* | Armor, Protection | Elemental, Energy
+| *Blade* | Blades, Archery | Armor, Heavy Weapon, Elemental
+| *Arcanist* | Energy, all Elemental | Armor, Heavy Weapon, Axes
+| *Shepherd* | Protection, Animal | Elemental, Energy
+| *Intellect* | All (standard for everything) | --
+| *Odd* | All (standard for everything) | --
+| *Leader* | Protection, Energy | Elemental
+| *Unbalanced* | Two opposing Elemental | Armor, Protection
+|===

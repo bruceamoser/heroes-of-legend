@@ -122,7 +122,7 @@ anything -- those unlock later, through experience.
 |===
 | Purchase | Cost | Notes
 | *Skill (Novice)* | 1 DP | +1 bonus to that skill. Adept (2 DP) unlocks at Level 3. Master (3 DP) at Level 7.
-| *Talent/Ability (Novice)* | 1 DP | Grants a single Novice-tier ability. Adept (2 DP) unlocks at Level 3. Master (4 DP) at Level 7.
+| *Ability (Novice)* | 1 DP | Grants a single Novice-tier ability — martial, magical, or talent. Adept (2 DP) unlocks at Level 3. Master (4 DP) at Level 7.
 | *Discipline (first rank)* | 1 DP | Your first rank in a given Discipline type. No level gate -- if you have the points, you've earned the training.
 | *Discipline (second rank)* | 2 DP | Deepening the same type. Stacking ranks unlocks stronger abilities later.
 | *Discipline (third rank)* | 4 DP | Mastery. Expensive, but three ranks in Fire means you're throwing serious flame.
@@ -155,24 +155,27 @@ Now your hero finds their calling. This is where they become exceptional.
 |===
 | Class | Role | Vibe
 | *Protector* | Tank, defender | "Stand behind me."
-| *Blade* | Assassin, precision striker | "Strike once. Strike true."
-| *Arcanist* | Arcane spellcaster | "Fire answers to me."
-| *Shepherd* | Divine healer | "The light guides my hand."
-| *Intellect* | Knowledge expert | "I've read about this."
-| *Odd* | Unpredictable wildcard | "I have a trick for that."
-| *Leader* | Party support | "Together, we are unstoppable."
-| *Unbalanced* | High-risk, high-reward | "Power has a price."
+| *Blade* | Assassin, precision | "Strike once. Strike true."
+| *Arcanist* | Arcane caster | "Fire answers to me."
+| *Shepherd* | Divine guide | "The light guides my hand."
+| *Intellect* | Scholar, strategist | "I've read about this."
+| *Odd* | Chaos wildcard | "I have a trick for that."
+| *Leader* | Commander | "Together, we are unstoppable."
+| *Unbalanced* | High-risk power | "Power has a price."
 |===
 
-Record your Starting Disciplines, signature ability, and favored skills.
-See xref:chapters/05-classes.adoc[Classes] for the full class writeups.
+Record your Class Discipline (one rank), signature ability, and favored
+skills. Each class also grants a second Discipline at Level 2 and a third
+at Level 3. See xref:chapters/05-classes.adoc[Classes] for full writeups,
+including favored costs.
 
 === Step 7: Spend Class DP
 
 You have *8 DP* for your class training. Again: spend every one. This is
-where you buy combat skills, magic abilities, class talents, and the
-Disciplines your class demands. Your class lists favored skills that cost
-1 DP each -- lean into those.
+where you buy skills and abilities — combat techniques, spells, and
+talents are all just abilities with different flavors. Your class lists
+favored skills and Disciplines that cost the standard rate; everything
+else costs +1 DP more. Lean into what your class does best.
 
 Adept-tier skills and abilities unlock at Level 3. Master-tier at Level 7.
 At Level 1, everything you buy is Novice. That's fine. Novice means
