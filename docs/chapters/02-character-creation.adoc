@@ -67,18 +67,18 @@ adaptable cultures.
 3+^.^| *Human*
 | Imperial | Persuasion or History | Any one (free)
 | Nomadic | Survival or Animal Handling | Animal + Archery
-| Coastal | Athletics or Navigation | Water + Polearms
+| Coastal | Athletics or Navigation | Polearms + Animal
 3+^.^| *Elf*
 | High Elf | Arcana or History | Energy + Blades
 | Wood Elf | Stealth or Nature | Animal + Archery
 | Twilight Elf | Deception or Insight | Water + Blades
 3+^.^| *Dwarf*
-| Mountain | Craft or Athletics | Earth + Armor
-| Deep | Resilience or Lore | Earth + Axes
+| Mountain | Craft or Athletics | Armor + Axes
+| Deep | Resilience or Lore | Axes + Protection
 | Hill | History or Persuasion | Any one (free)
 3+^.^| *Halfling*
-| Riverfolk | Acrobatics or Sleight of Hand | Water + Blades
-| Burrower | Stealth or Survival | Earth + Protection
+| Riverfolk | Acrobatics or Sleight of Hand | Blades + Animal
+| Burrower | Stealth or Survival | Protection + Blades
 | Wanderer | Streetwise or Performance | Any one (free)
 |===
 

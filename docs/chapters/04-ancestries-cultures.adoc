@@ -110,7 +110,7 @@ adaptability. Pick the one that fits your story.
 | Culture | Skill Bonus | Disciplines | You Grew Up...
 | *Imperial* | Persuasion or History | Any one (free choice) | In the heart of an empire. Politics, protocol, and the art of getting what you want with a smile. Imperial education is broad -- you found your own path.
 | *Nomadic* | Survival or Animal Handling | Animal + Archery | Following the herds, reading the stars. You can start a fire in a monsoon and never get lost. Bow and beast are your birthright.
-| *Coastal* | Athletics or Navigation | Water + Polearms | Salt in your hair, sand between your toes. You swim before you walk, and you've been throwing a harpoon since you could stand.
+| *Coastal* | Athletics or Navigation | Polearms + Animal | Salt in your hair, sand between your toes. You swim before you walk, and you've been throwing a harpoon since you could stand. The sea provides -- fish, trade, and the occasional raider to fend off with a spear.
 |===
 
 === Elf Cultures
@@ -128,8 +128,8 @@ adaptability. Pick the one that fits your story.
 [%header,cols="1,3,3,4"]
 |===
 | Culture | Skill Bonus | Disciplines | You Grew Up...
-| *Mountain* | Craft or Athletics | Earth + Armor | In the high peaks, where the air is thin and the stone is stubborn. You forge steel and wear it like a second skin.
-| *Deep* | Resilience or Lore | Earth + Axes | In halls carved miles beneath the surface. Darkness is comforting. The deep stone endures, and your axe has never known sunlight.
+| *Mountain* | Craft or Athletics | Armor + Axes | In the high peaks, where the air is thin and the stone is stubborn. You forge steel and wear it like a second skin. Your axe is an heirloom; your armor, a resume.
+| *Deep* | Resilience or Lore | Axes + Protection | In halls carved miles beneath the surface. Darkness is comforting. You fight in tight tunnels where there's no room for fancy footwork -- just your axe, your shield-arm, and the stone at your back.
 | *Hill* | History or Persuasion | Any one (free choice) | In the foothills, trading with surface folk. You're the dwarf who explains dwarves to everyone else -- you've picked up a little of everything.
 |===
 
@@ -138,7 +138,7 @@ adaptability. Pick the one that fits your story.
 [%header,cols="1,3,3,4"]
 |===
 | Culture | Skill Bonus | Disciplines | You Grew Up...
-| *Riverfolk* | Acrobatics or Sleight of Hand | Water + Blades | On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm, and your blade is as quick as the current.
-| *Burrower* | Stealth or Survival | Earth + Protection | In cozy tunnels beneath the hills, hidden from big folk and their big problems. The earth shelters you, and you return the favor.
+| *Riverfolk* | Acrobatics or Sleight of Hand | Blades + Animal | On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm, and your blade is as quick as the current. The river rats and otters are practically family.
+| *Burrower* | Stealth or Survival | Protection + Blades | In cozy tunnels beneath the hills, hidden from big folk and their big problems. You know every root, every mushroom, every hidden exit. When trouble comes knocking, your blade is ready and your home is your fortress.
 | *Wanderer* | Streetwise or Performance | Any one (free choice) | On the road, in the caravans, telling stories for supper. Home is wherever you hang your hat. You've learned a little of everything.
 |===
