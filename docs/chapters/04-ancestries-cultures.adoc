@@ -1,28 +1,141 @@
 [#chapter-ancestries]
 = Ancestries & Cultures
 
-Four ancestries inhabit the world of Heroes of Legend.
+Your hero comes from somewhere. They have a people, a homeland, a way of
+life that shaped them before they ever picked up a sword. Ancestry is who
+you're born as. Culture is how you were raised. Together, they're the
+first chapter of your hero's story.
 
-[%header,cols="2,2,3,3"]
+[NOTE]
+====
+*Ancestry Is Flavor, Not Fate*
+
+A dwarf raised by elves is different from a dwarf raised in the mountain
+holds. Your ancestry gives you a Discipline and a trait -- your biology,
+essentially. Your culture gives you skills and perspective -- your
+upbringing. You can mix any ancestry with any culture. The gruff mountain
+dwarf raised by halfling riverfolk is not only allowed, it's *interesting*.
+====
+
+== The Four Ancestries
+
+[%header,cols="1,2,3,3"]
 |===
-| Ancestry | Dice | Trait | Cultures
-| *Human* | +1 Generic | *Versatile:* +1 DP at creation | Imperial, Nomadic, Coastal
-| *Elf* | 1 Wind or Water | *Keen Senses:* +1 to perception | High Elf, Wood Elf, Dark Elf
-| *Dwarf* | 1 Earth or Fire | *Sturdy:* +2 max HP | Mountain, Deep, Hill
-| *Halfling* | 1 Animal | *Lucky:* reroll one 1/session | Riverfolk, Burrower, Wanderer
+| Ancestry | Discipline | Trait | You're Probably...
+| *Human* | Any one | *Versatile:* +1 DP at Level 0 | Ambitious, adaptable, everywhere
+| *Elf* | Wind or Water | *Keen Senses:* +1 to all Perception checks | Ancient, graceful, a little haunted
+| *Dwarf* | Earth or Fire | *Sturdy:* +2 maximum HP | Resilient, tradition-bound, impossible to move
+| *Halfling* | Animal or any Guile | *Lucky:* reroll one 3d6 per session | Quick, cheerful, underestimated
 |===
 
-== Human
-Ambitious and adaptable. Humans receive one extra Generic die and one extra DP at character creation. Choose from Imperial (bonus Persuasion), Nomadic (bonus Survival), or Coastal (bonus Athletics) culture.
+=== Human
 
-== Elf
-Ancient and mystical. Elves receive either a Wind die (speed, storms, precision) or a Water die (ice, healing, adaptation). *Keen Senses:* +1 bonus to all perception-related rolls. Cultures: High Elf (bonus Arcana), Wood Elf (bonus Stealth), Dark Elf (bonus Deception).
+*"We're not the strongest or the fastest. But we're still here, aren't we?"*
 
-== Dwarf
-Sturdy and crafty. Dwarves receive either an Earth die (stability, endurance) or a Fire die (forge-craft, passion). *Sturdy:* +2 maximum HP. Cultures: Mountain (bonus Crafting), Deep (bonus Resilience), Hill (bonus History).
+Humans are the most numerous and most varied of the ancestries. They build
+empires and burn them down. They forget history and rediscover it. What
+they lack in specialization they make up for in sheer adaptability -- a
+human can be anything, and usually is.
 
-== Halfling
-Lucky and nimble. Halflings receive an Animal die. *Lucky:* once per session, reroll one natural 1. Cultures: Riverfolk (bonus Acrobatics), Burrower (bonus Stealth), Wanderer (bonus Streetwise).
+Humans receive one Discipline of any type and one extra Development Point
+at Level 0. They're the only ancestry with no fixed Discipline -- that
+flexibility is the human superpower.
 
-== Mixed Ancestry
-Optional: half-elves, half-dwarves, etc. Choose one ancestry's dice and the other's trait.
+*Common human names:* Aldric, Brenna, Corwin, Della, Egon, Marta, Oswin, Petra, Rolf, Sigrid.
+
+=== Elf
+
+*"The trees remember your great-grandfather. So do we."*
+
+Elves live long enough to see mountains erode. They carry the weight of
+ancient pacts, forgotten wars, and songs written before human beings
+discovered fire. This makes them patient, precise, and occasionally
+insufferable at dinner parties.
+
+Elves receive one Wind Discipline (speed, storms, precision) or Water
+Discipline (ice, healing, adaptation). Their *Keen Senses* grant a
+permanent +1 bonus to all Perception checks -- those pointed ears aren't
+just decorative.
+
+*Common elf names:* Aelindra, Caerwyn, Elowen, Faelan, Illyria, Lirael,
+Orin, Sylvara, Theron, Vaelith.
+
+=== Dwarf
+
+*"Measure twice. Strike once. Bury deep."*
+
+Dwarves are built like the mountains they call home -- solid, enduring,
+and extremely difficult to move once they've made up their minds. They
+invented metallurgy, perfected stonework, and hold grudges longer than
+most civilizations last.
+
+Dwarves receive one Earth Discipline (stability, endurance, stone) or
+Fire Discipline (forge-craft, passion, destruction). Their *Sturdy*
+constitution grants +2 maximum HP -- that's two more hits they can shrug
+off with a grunt.
+
+*Common dwarf names:* Baldrek, Darin, Gorma, Haldra, Kazrik, Morin,
+Naldra, Rurik, Thaldrin, Ulfgar.
+
+=== Halfling
+
+*"Big things come in small packages. Also: breakfast, second breakfast, and elevenses."*
+
+Halflings are small, quick, and possessed of an almost supernatural luck
+that makes other ancestries quietly furious. They don't build empires.
+They build communities, feast halls, and improbably comfortable burrows.
+They're underestimated constantly, which suits them perfectly.
+
+Halflings receive one Animal Discipline or any Guile-category Discipline
+(Deception, Stealth, Streetwise). Their *Lucky* trait lets them reroll
+one entire 3d6 roll per game session -- not just one die, the whole roll.
+Use it when it matters.
+
+*Common halfling names:* Bramble, Cora, Dabney, Eglantine, Finn, Lottie,
+Makeva, Nettle, Pip, Rufus, Tansy.
+
+== Cultures
+
+Your culture is how you were raised. It grants a *+1 bonus* to one skill
+listed below -- pick the one that fits your character's story. You also
+gain one trinket reflecting your upbringing.
+
+=== Human Cultures
+
+[%header,cols="1,3,5"]
+|===
+| Culture | Skill Bonus | You Grew Up...
+| *Imperial* | Persuasion or History | In the heart of an empire. Politics, protocol, and the art of getting what you want with a smile.
+| *Nomadic* | Survival or Animal Handling | Following the herds, reading the stars. You can start a fire in a monsoon and never get lost.
+| *Coastal* | Athletics or Navigation | Salt in your hair, sand between your toes. You swim before you walk, sail before you ride.
+|===
+
+=== Elf Cultures
+
+[%header,cols="1,3,5"]
+|===
+| Culture | Skill Bonus | You Grew Up...
+| *High Elf* | Arcana or History | Among spires of crystal and libraries of starlight. Magic is breathing. History is yesterday.
+| *Wood Elf* | Stealth or Nature | In forests so ancient the trees have opinions. You move like wind through leaves.
+| *Twilight Elf* | Deception or Insight | In the places between light and shadow. Your people walked away from the sun long ago. You see better in darkness than most see in daylight.
+|===
+
+=== Dwarf Cultures
+
+[%header,cols="1,3,5"]
+|===
+| Culture | Skill Bonus | You Grew Up...
+| *Mountain* | Craft or Athletics | In the high peaks, where the air is thin and the stone is stubborn. You can forge anything. You can climb anything.
+| *Deep* | Resilience or Lore | In halls carved miles beneath the surface. Darkness is comforting. Silence is companionable. You've never seen the sky and you're fine with that.
+| *Hill* | History or Persuasion | In the foothills, trading with surface folk. You're the dwarf who explains dwarves to everyone else.
+|===
+
+=== Halfling Cultures
+
+[%header,cols="1,3,5"]
+|===
+| Culture | Skill Bonus | You Grew Up...
+| *Riverfolk* | Acrobatics or Sleight of Hand | On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm and pick a pocket without breaking eye contact.
+| *Burrower* | Stealth or Survival | In cozy tunnels beneath the hills, hidden from big folk and their big problems. You know every root, every mushroom, every hidden exit.
+| *Wanderer* | Streetwise or Performance | On the road, in the caravans, telling stories for supper. Home is wherever you hang your hat -- and you have a lot of hats.
+|===
