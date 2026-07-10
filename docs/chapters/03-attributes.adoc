@@ -37,16 +37,19 @@ you interesting.
 
 == Creating Your Hero
 
-You have *3 points* to distribute across your six attributes. Every attribute
-starts at +0. Raising one to +1 costs one point. Raising it to +2 costs two
-points total. You can go into negatives to get more points -- dropping an
-attribute to -1 gives you an extra point to spend elsewhere. No attribute may
-go below -2 or above +2.
+Your six attribute scores must total *exactly +3*. Every attribute starts at
++0. Raising one to +1 costs one point from your pool. Raising it to +2 costs
+two points total. If you need more points, you can drop an attribute into the
+negatives -- each -1 gives you an extra point. But the final sum across all
+six must be +3. No attribute may go below -2 or above +2.
+
+A quick way to check: add up all six modifiers. They should equal 3. If they
+don't, adjust until they do.
 
 *Example:* Makeva wants a charming rogue. She puts +1 in Agility (nimble
 fingers), +1 in Guile (silver tongue), and +1 in Brawn (can handle herself in
-a scrap). That's three points. Her final spread: Brawn +1, Fortitude +0,
-Agility +1, Guile +1, Knowledge +0, Reason +0. She's quick, persuasive, and
+a scrap). Her final spread: Brawn +1, Fortitude +0, Agility +1, Guile +1,
+Knowledge +0, Reason +0. Sum: +1+0+1+1+0+0 = +3. She's quick, persuasive, and
 can throw a punch -- but she's no scholar and no tank. That's a choice. Choices
 make characters.
 

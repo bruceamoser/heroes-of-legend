@@ -7,7 +7,7 @@ Ten steps to build your hero. Quick path: ~15 minutes. Deep path: ~45 minutes wi
 Who is your hero? A grizzled warrior? A scholarly mage? A charming rogue? Write one sentence.
 
 == Step 2: Attributes
-Distribute 3 points across Brawn, Fortitude, Agility, Guile, Knowledge, Reason. Each starts at +0. Max +2, min -2.
+Assign scores across Brawn, Fortitude, Agility, Guile, Knowledge, Reason that total exactly +3. Each starts at +0. Max +2, min -2. See xref:chapters/03-attributes.adoc[Attributes].
 
 == Step 3: Ancestry
 Choose Human, Elf, Dwarf, or Halfling. Record your dice and trait. See xref:chapters/04-ancestries-cultures.adoc[Ancestries].
