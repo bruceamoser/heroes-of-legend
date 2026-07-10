@@ -298,33 +298,20 @@ wrong, you're the one who knows what to do with wrong.
 
 == Progression
 
-All classes advance on the same schedule. At each level, you gain 8
-Development Points. Spend them all -- they don't carry over.
+Every level, you gain *8 Development Points*. Spend them all -- they don't
+carry over.
 
-[%header,cols="1,6"]
-|===
-| Level | What You Gain
-| *1* | Class Discipline (1 rank) + Signature ability, 8 DP (Novice tier only)
-| *2* | Second Class Discipline, 8 DP
-| *3* | Third Class Discipline, *Adept tier unlocked*, 8 DP
-| *4* | +1 to one Attribute (max +2), 8 DP
-| *5* | 8 DP
-| *6* | 8 DP
-| *7* | *Master tier unlocked*, 8 DP
-| *8* | +1 to one Attribute (max +2), 8 DP
-| *9* | 8 DP
-| *10* | Class capstone ability, 8 DP
-| *11+* | 8 DP/level. Attribute increase every 4 levels.
-|===
-
-*Class Disciplines:* At Levels 1, 2, and 3, your class grants you one
-Discipline rank each level (see your class entry for the specific
-types). These represent your formal training. After Level 3, you earn
+At Levels *1, 2, and 3*, your class grants you one Discipline rank each
+level (see your class entry for which types). After Level 3, you earn
 additional Disciplines by purchasing them with DP.
 
-*Tier Gates:* Adept abilities unlock at Level 3. Master abilities
-unlock at Level 7. Until then, buy Novice skills and abilities --
-you'll deepen them later.
+*Adept* abilities unlock at Level 3. *Master* abilities unlock at Level 7.
+Until then, everything you buy is Novice.
+
+Every 4 levels (4, 8, 12, 16, 20), increase one attribute by +1 (max +2).
+At Level 10, you gain your class capstone ability.
+
+That's the whole system. Eight points, every level, your choices.
 
 == Favored Costs
 
