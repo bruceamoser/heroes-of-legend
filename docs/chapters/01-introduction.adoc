@@ -28,8 +28,19 @@ you like. Something to write on.
 *Friends.* Two to five is the sweet spot. One of you will be the DA. The rest
 are heroes. Rotate who DAs if you want — the game works either way.
 
-That's it. No miniatures required. No battle mat. No hundred-dollar sourcebooks.
-Just you, your friends, three dice, and your imagination. The rest is optional.
+That's it. No miniatures required. No battle mat. No hundred-dollar
+sourcebooks. Just you, your friends, some dice, and your imagination.
+The rest is optional.
+
+[NOTE]
+.Combat Is Tactical
+====
+We do recommend some graph paper or a gridded surface. Combat in *Heroes of
+Legend* is tactical — positioning matters, cover matters, who's standing next
+to whom matters. A quick sketch of the battlefield helps everyone see the
+fight. But if you prefer to run combat in your head — the "theater of the
+mind" — the rules work fine either way.
+====
 
 == How to Read This Book (Depending on Who You Are)
 
