@@ -87,20 +87,63 @@ full descriptions of each culture.
 
 === Step 5: Spend Background DP
 
-You have *8 + Knowledge + Fortitude* Development Points. Spend every last
-one -- they don't carry over. Buy:
+Your hero didn't spring from the earth fully formed. They had a life
+before this -- years of work, study, mistakes, and hard-won lessons. That
+life is what Background DP represents.
 
-- *Skills:* 1 DP (Novice), 2 DP (Adept), 3 DP (Master)
-- *Disciplines:* 1 DP each (first of a type), 2 DP (second), 4 DP (third)
-- *Talents/Abilities:* 1 DP (Novice), 2 DP (Adept), 4 DP (Master)
+You have *8 + Knowledge + Fortitude* Development Points to spend.
+
+[NOTE]
+====
+*Why Knowledge and Fortitude?*
+
+*Knowledge* measures education and capacity to learn. *Fortitude*
+measures stamina -- how much training your body could endure before it
+gave out. Together, they represent how much you absorbed from your
+upbringing.
+
+A farm kid with +2 Fortitude learned through years of grueling physical
+labor. A temple scholar with +2 Knowledge learned through decades of
+study. A character with both advantages is exceptional. A character with
+neither had a harder start -- and hard starts make the best stories.
+====
+
+These points represent your *entire life* before Level 1. They do not
+carry over into your class training. Spend every last one. Unspent
+Background DP is potential you never realized -- lessons you could have
+learned but didn't.
+
+*What You Can Buy*
+
+At Level 1, you are a *Novice*. You cannot buy Adept or Master tier
+anything -- those unlock later, through experience.
+
+[%header,cols="2,1,3"]
+|===
+| Purchase | Cost | Notes
+| *Skill (Novice)* | 1 DP | +1 bonus to that skill. Adept (2 DP) unlocks at Level 3. Master (3 DP) at Level 7.
+| *Talent/Ability (Novice)* | 1 DP | Grants a single Novice-tier ability. Adept (2 DP) unlocks at Level 3. Master (4 DP) at Level 7.
+| *Discipline (first rank)* | 1 DP | Your first rank in a given Discipline type. No level gate -- if you have the points, you've earned the training.
+| *Discipline (second rank)* | 2 DP | Deepening the same type. Stacking ranks unlocks stronger abilities later.
+| *Discipline (third rank)* | 4 DP | Mastery. Expensive, but three ranks in Fire means you're throwing serious flame.
+|===
 
 These represent everything your hero learned growing up. A farm kid might
-have Athletics and Animal Handling. A temple acolyte might have Religion
-and Medicine. A street thief might have Stealth and Sleight of Hand. Make
-it make sense for your concept.
+take Athletics and Animal Handling. A temple acolyte might take Religion
+and Medicine. A street thief might take Stealth and Sleight of Hand. Make
+it make sense for your concept -- the DA will notice.
 
-All characters start with *3 General Disciplines* -- these are wildcards
-you can assign to any type. Your ancestry and culture may grant more.
+*General Disciplines*
+
+All characters begin with *3 General Disciplines*. These are wildcards:
+you assign each one to any Discipline type you choose, right now, for
+free. They represent natural aptitude -- the things you were born with,
+not the things you trained for.
+
+Your ancestry and culture also grant Disciplines (see Steps 3 and 4).
+Between General, ancestry, and culture, a starting hero typically has 5-7
+Disciplines before spending a single DP. That's your foundation. Spend
+your Background DP to build on it.
 
 == Phase Two: Class (Level 1)
 
