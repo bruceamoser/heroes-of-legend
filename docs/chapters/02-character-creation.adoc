@@ -56,10 +56,34 @@ full details.
 
 === Step 4: Culture
 
-Your upbringing within your ancestry -- noble, street urchin, merchant,
-nomad, soldier, scholar. Grants a +1 bonus to one skill of your choice
-that fits the background. A street kid gets Stealth. A noble gets
-Persuasion. You get the idea.
+Your upbringing within your ancestry. Each culture grants a +1 bonus to
+one skill of your choice from its two options, plus either *two specific
+Disciplines* that define its traditions, or *one free Discipline* for
+adaptable cultures.
+
+[%header,cols="1,2,3"]
+|===
+| Culture | Skill Bonus | Disciplines
+3+^.^| *Human*
+| Imperial | Persuasion or History | Any one (free)
+| Nomadic | Survival or Animal Handling | Wind + Animal
+| Coastal | Athletics or Navigation | Water + Wind
+3+^.^| *Elf*
+| High Elf | Arcana or History | Energy + Wind
+| Wood Elf | Stealth or Nature | Animal + Earth
+| Twilight Elf | Deception or Insight | Water + Energy
+3+^.^| *Dwarf*
+| Mountain | Craft or Athletics | Earth + Armor
+| Deep | Resilience or Lore | Earth + Fire
+| Hill | History or Persuasion | Any one (free)
+3+^.^| *Halfling*
+| Riverfolk | Acrobatics or Sleight of Hand | Water + Wind
+| Burrower | Stealth or Survival | Earth + Protection
+| Wanderer | Streetwise or Performance | Any one (free)
+|===
+
+See xref:chapters/04-ancestries-cultures.adoc[Ancestries & Cultures] for
+full descriptions of each culture.
 
 === Step 5: Spend Background DP
 

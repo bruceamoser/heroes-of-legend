@@ -97,47 +97,48 @@ Makeva, Nettle, Pip, Rufus, Tansy.
 
 == Cultures
 
-Your culture is how you were raised. It's not just flavor — it's mechanical
-identity. Each culture grants two things: a *+1 skill bonus* AND a unique
-*benefit* that sets it apart from every other culture. Pick the one that
-fits your story.
+Your culture is how you were raised. It's not just flavor -- it's the skills
+and Disciplines that shaped your hero before they ever held a sword. Each
+culture grants a *+1 skill bonus* and either *two specific Disciplines*
+that define its traditions, or *one free Discipline* for cultures built on
+adaptability. Pick the one that fits your story.
 
 === Human Cultures
 
-[%header,cols="1,3,4,4"]
+[%header,cols="1,3,3,4"]
 |===
-| Culture | Skill Bonus | Benefit | You Grew Up...
-| *Imperial* | Persuasion or History | +1 Development Point | In the heart of an empire. Politics, protocol, and the art of getting what you want with a smile. Education was not optional.
-| *Nomadic* | Survival or Animal Handling | Bonus Discipline (Wind or Animal) | Following the herds, reading the stars. You can start a fire in a monsoon and never get lost. The open sky is your ceiling.
-| *Coastal* | Athletics or Navigation | *Sea Legs* trait: ignore difficult terrain on ships, docks, and shorelines | Salt in your hair, sand between your toes. You swim before you walk, sail before you ride.
+| Culture | Skill Bonus | Disciplines | You Grew Up...
+| *Imperial* | Persuasion or History | Any one (free choice) | In the heart of an empire. Politics, protocol, and the art of getting what you want with a smile. Imperial education is broad -- you found your own path.
+| *Nomadic* | Survival or Animal Handling | Wind + Animal | Following the herds, reading the stars. You can start a fire in a monsoon and never get lost. The open sky is your teacher.
+| *Coastal* | Athletics or Navigation | Water + Wind | Salt in your hair, sand between your toes. You swim before you walk, sail before you ride. Sea and storm are in your blood.
 |===
 
 === Elf Cultures
 
-[%header,cols="1,3,4,4"]
+[%header,cols="1,3,3,4"]
 |===
-| Culture | Skill Bonus | Benefit | You Grew Up...
-| *High Elf* | Arcana or History | Bonus Discipline (Energy) | Among spires of crystal and libraries of starlight. Magic is breathing. History is yesterday.
-| *Wood Elf* | Stealth or Nature | *Forest Walk* trait: ignore difficult terrain in forests and woodlands | In forests so ancient the trees have opinions. You move like wind through leaves.
-| *Twilight Elf* | Deception or Insight | *Darkvision* trait: see in total darkness as if dim light, 60 ft range | In the places between light and shadow. Your people walked away from the sun long ago.
+| Culture | Skill Bonus | Disciplines | You Grew Up...
+| *High Elf* | Arcana or History | Energy + Wind | Among spires of crystal and libraries of starlight. Raw magic flows through your education, and elven grace sharpens it to a point.
+| *Wood Elf* | Stealth or Nature | Animal + Earth | In forests so ancient the trees have opinions. You run with beasts and feel the roots beneath your feet.
+| *Twilight Elf* | Deception or Insight | Water + Energy | In the places between light and shadow. Your people walked away from the sun long ago. Flowing darkness and cold magic are your inheritance.
 |===
 
 === Dwarf Cultures
 
-[%header,cols="1,3,4,4"]
+[%header,cols="1,3,3,4"]
 |===
-| Culture | Skill Bonus | Benefit | You Grew Up...
-| *Mountain* | Craft or Athletics | +2 maximum HP | In the high peaks, where the air is thin and the stone is stubborn. You can forge anything. You can climb anything. You can take a hit that would fold a horse.
-| *Deep* | Resilience or Lore | *Darkvision* trait: see in total darkness as if dim light, 60 ft range | In halls carved miles beneath the surface. Darkness is comforting. Silence is companionable. You've never seen the sky and you're fine with that.
-| *Hill* | History or Persuasion | +1 Development Point | In the foothills, trading with surface folk. You're the dwarf who explains dwarves to everyone else — and gets paid for it.
+| Culture | Skill Bonus | Disciplines | You Grew Up...
+| *Mountain* | Craft or Athletics | Earth + Armor | In the high peaks, where the air is thin and the stone is stubborn. You forge steel and wear it like a second skin.
+| *Deep* | Resilience or Lore | Earth + Fire | In halls carved miles beneath the surface. Darkness is comforting. The deep stone endures, and the forge-fire never dies.
+| *Hill* | History or Persuasion | Any one (free choice) | In the foothills, trading with surface folk. You're the dwarf who explains dwarves to everyone else -- you've picked up a little of everything.
 |===
 
 === Halfling Cultures
 
-[%header,cols="1,3,4,4"]
+[%header,cols="1,3,3,4"]
 |===
-| Culture | Skill Bonus | Benefit | You Grew Up...
-| *Riverfolk* | Acrobatics or Sleight of Hand | *Riverborn* trait: swim speed 30 ft, hold breath twice as long | On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm and pick a pocket without breaking eye contact.
-| *Burrower* | Stealth or Survival | *Burrow-sense* trait: detect movement through ground within 10 ft | In cozy tunnels beneath the hills, hidden from big folk and their big problems. You know every root, every mushroom, every hidden exit. The earth tells you who's coming.
-| *Wanderer* | Streetwise or Performance | +1 Development Point | On the road, in the caravans, telling stories for supper. Home is wherever you hang your hat -- and you have a lot of hats. You've learned a little of everything.
+| Culture | Skill Bonus | Disciplines | You Grew Up...
+| *Riverfolk* | Acrobatics or Sleight of Hand | Water + Wind | On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm. River and breeze are your allies.
+| *Burrower* | Stealth or Survival | Earth + Protection | In cozy tunnels beneath the hills, hidden from big folk and their big problems. The earth shelters you, and you return the favor.
+| *Wanderer* | Streetwise or Performance | Any one (free choice) | On the road, in the caravans, telling stories for supper. Home is wherever you hang your hat. You've learned a little of everything.
 |===
