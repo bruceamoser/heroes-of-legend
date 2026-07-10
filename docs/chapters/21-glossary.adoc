@@ -21,7 +21,7 @@
 
 *Generic Die:* A die that can substitute for any specific type at Novice tier.
 
-*HP:* Health Points -- 10 + (Fortitude × 2).
+*HP:* Health Points -- 10 + Brawn.
 
 *Master:* Skill tier granting +3 bonus. Costs 4 DP.
 

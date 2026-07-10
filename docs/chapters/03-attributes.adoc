@@ -58,11 +58,11 @@ the +2 maximum). Your hero grows as they adventure.
 
 == What Your Attributes Give You
 
-*Health Points at Level 1:* 10 + Fortitude + Knowledge. This is your staying
-power -- how many hits you can take before you go down. A dwarf with Fortitude
-+2 and Knowledge -1 starts with 11 HP. A gnome wizard with Fortitude -1 and
-Knowledge +2 starts with 11 HP. Different paths, same number. After level 1,
-you gain your Fortitude modifier in HP each level (minimum 1).
+*Health Points at Level 1:* 10 + Brawn. This is your staying
+power -- how many hits you can take before you go down. A dwarf with Brawn
++2 starts with 12 HP. A slight fae-touched wanderer with Brawn -1 starts
+with 9 HP. Brawn is muscle, bone, and sheer physical resilience. After
+Level 1, you gain your Brawn modifier in HP each level (minimum 1).
 
 *Initiative:* Your Agility modifier. Quick people go first. That's not a rule
 of the game -- that's a rule of the universe.
