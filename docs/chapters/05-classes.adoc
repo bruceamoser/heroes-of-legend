@@ -315,31 +315,24 @@ more.
 [%header,cols="2,1,1,1,1,1,1,1,1"]
 |===
 | Discipline | Protector | Blade | Arcanist | Shepherd | Intellect | Odd | Leader | Unbalanced
-.5+^.^| *Elemental*
 | *Fire* | X3 | X3 | X1 | X3 | X2 | X1 | X3 | X1^†^
 | *Earth* | X3 | X3 | X1 | X3 | X2 | X1 | X3 | X1^†^
 | *Wind* | X3 | X3 | X1 | X3 | X2 | X1 | X3 | X1^†^
 | *Water* | X3 | X3 | X1 | X3 | X2 | X1 | X3 | X1^†^
-.6+^.^| *Weapon*
+| *Energy* | X3 | X3 | X1 | X2 | X1 | X1 | X1 | X1
 | *Blades* | X1 | X1 | X3 | X2 | X2 | X1 | X1 | X3
 | *Axes* | X1 | X3 | X3 | X3 | X3 | X1 | X2 | X3
 | *Polearms* | X1 | X2 | X3 | X3 | X2 | X1 | X1 | X3
 | *Archery* | X2 | X1 | X3 | X3 | X2 | X1 | X2 | X3
 | *Heavy Weapon* | X1 | X3 | X3 | X3 | X3 | X1 | X2 | X3
 | *Unarmed* | X1 | X1 | X3 | X2 | X3 | X1 | X2 | X3
-.2+^.^| *Defense*
 | *Protection* | X1 | X2 | X3 | X1 | X2 | X1 | X1 | X3
 | *Armor* | X1 | X3 | X3 | X3 | X3 | X1 | X2 | X3
-.2+^.^| *Primal*
 | *Animal* | X2 | X3 | X2 | X1 | X2 | X1 | X2 | X3
 | *Plants* | X3 | X3 | X2 | X1 | X2 | X1 | X3 | X3
-.2+^.^| *Arcane*
-| *Energy* | X3 | X3 | X1 | X2 | X1 | X1 | X1 | X1
 | *Summon* | X3 | X3 | X1 | X3 | X2 | X1 | X3 | X2
-.2+^.^| *Divine*
 | *Life* | X3 | X3 | X2 | X1 | X2 | X1 | X2 | X3
 | *Religion* | X3 | X3 | X3 | X1 | X2 | X1 | X2 | X3
-.1+^.^| *Mental*
 | *Mind* | X3 | X3 | X1 | X2 | X1 | X1 | X2 | X2
 |===
 
