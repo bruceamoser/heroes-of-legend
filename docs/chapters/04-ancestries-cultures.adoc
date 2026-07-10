@@ -23,9 +23,9 @@ dwarf raised by halfling riverfolk is not only allowed, it's *interesting*.
 |===
 | Ancestry | Discipline | Trait | You're Probably...
 | *Human* | Any one | *Versatile:* +1 DP at Level 0 | Ambitious, adaptable, everywhere
-| *Elf* | Wind or Water | *Fae Blood:* immune to magical sleep, advantage on saves vs charm | Ancient, graceful, a little haunted
-| *Dwarf* | Earth or Fire | *Sturdy:* +2 maximum HP | Resilient, tradition-bound, impossible to move
-| *Halfling* | Animal or any Guile | *Lucky:* add one boon to any roll, once per session | Quick, cheerful, underestimated
+| *Elf* | Archery or Blades | *Elven Grace:* once per session, reroll one die of your 3d6 roll | Ancient, graceful, a little haunted
+| *Dwarf* | Axes or Armor | *Sturdy:* +2 maximum HP | Resilient, tradition-bound, impossible to move
+| *Halfling* | Animal or Blades | *Lucky:* add one boon to any roll, once per session | Quick, cheerful, underestimated
 |===
 
 === Human
@@ -52,10 +52,10 @@ ancient pacts, forgotten wars, and songs written before human beings
 discovered fire. This makes them patient, precise, and occasionally
 insufferable at dinner parties.
 
-Elves receive one Wind Discipline (speed, storms, precision) or Water
-Discipline (ice, healing, adaptation). Their *Fae Blood* makes them
-immune to magical sleep effects and grants advantage on saves against
-being charmed -- the old magic runs deep, and it protects its own.
+Elves receive one Archery Discipline (bow, precision, ranged mastery) or
+Blades Discipline (sword, finesse, dueling). Their *Elven Grace* lets
+them reroll one die of their 3d6 roll, once per session -- centuries of
+practice distill into a single perfect moment.
 
 *Common elf names:* Aelindra, Caerwyn, Elowen, Faelan, Illyria, Lirael,
 Orin, Sylvara, Theron, Vaelith.
@@ -69,8 +69,8 @@ and extremely difficult to move once they've made up their minds. They
 invented metallurgy, perfected stonework, and hold grudges longer than
 most civilizations last.
 
-Dwarves receive one Earth Discipline (stability, endurance, stone) or
-Fire Discipline (forge-craft, passion, destruction). Their *Sturdy*
+Dwarves receive one Axes Discipline (brutal chopping, cleaving power) or
+Armor Discipline (heavy armor, damage soaking). Their *Sturdy*
 constitution grants +2 maximum HP -- that's two more hits they can shrug
 off with a grunt.
 
@@ -86,11 +86,11 @@ that makes other ancestries quietly furious. They don't build empires.
 They build communities, feast halls, and improbably comfortable burrows.
 They're underestimated constantly, which suits them perfectly.
 
-Halflings receive one Animal Discipline or any Guile-category Discipline
-(Deception, Stealth, Streetwise). Their *Lucky* trait lets them add one
-boon (an extra d6) to any 3d6 roll, once per session. When the moment is
-desperate and the odds are against you, the universe cuts you a break.
-That's not luck. That's being a halfling.
+Halflings receive one Animal Discipline (beasts, nature, instinct) or
+Blades Discipline (daggers, short swords, quick strikes). Their *Lucky*
+trait lets them add one boon (an extra d6) to any 3d6 roll, once per
+session. When the moment is desperate and the odds are against you, the
+universe cuts you a break. That's not luck. That's being a halfling.
 
 *Common halfling names:* Bramble, Cora, Dabney, Eglantine, Finn, Lottie,
 Makeva, Nettle, Pip, Rufus, Tansy.
@@ -109,8 +109,8 @@ adaptability. Pick the one that fits your story.
 |===
 | Culture | Skill Bonus | Disciplines | You Grew Up...
 | *Imperial* | Persuasion or History | Any one (free choice) | In the heart of an empire. Politics, protocol, and the art of getting what you want with a smile. Imperial education is broad -- you found your own path.
-| *Nomadic* | Survival or Animal Handling | Wind + Animal | Following the herds, reading the stars. You can start a fire in a monsoon and never get lost. The open sky is your teacher.
-| *Coastal* | Athletics or Navigation | Water + Wind | Salt in your hair, sand between your toes. You swim before you walk, sail before you ride. Sea and storm are in your blood.
+| *Nomadic* | Survival or Animal Handling | Animal + Archery | Following the herds, reading the stars. You can start a fire in a monsoon and never get lost. Bow and beast are your birthright.
+| *Coastal* | Athletics or Navigation | Water + Polearms | Salt in your hair, sand between your toes. You swim before you walk, and you've been throwing a harpoon since you could stand.
 |===
 
 === Elf Cultures
@@ -118,9 +118,9 @@ adaptability. Pick the one that fits your story.
 [%header,cols="1,3,3,4"]
 |===
 | Culture | Skill Bonus | Disciplines | You Grew Up...
-| *High Elf* | Arcana or History | Energy + Wind | Among spires of crystal and libraries of starlight. Raw magic flows through your education, and elven grace sharpens it to a point.
-| *Wood Elf* | Stealth or Nature | Animal + Earth | In forests so ancient the trees have opinions. You run with beasts and feel the roots beneath your feet.
-| *Twilight Elf* | Deception or Insight | Water + Energy | In the places between light and shadow. Your people walked away from the sun long ago. Flowing darkness and cold magic are your inheritance.
+| *High Elf* | Arcana or History | Energy + Blades | Among spires of crystal and libraries of starlight. Raw magic flows through your education, and the blade dances in your hand.
+| *Wood Elf* | Stealth or Nature | Animal + Archery | In forests so ancient the trees have opinions. You run with beasts, and your arrows find their mark before your prey knows you're there.
+| *Twilight Elf* | Deception or Insight | Water + Blades | In the places between light and shadow. Your people walked away from the sun long ago, mastering the blade in darkness as cold and fluid as deep water.
 |===
 
 === Dwarf Cultures
@@ -129,7 +129,7 @@ adaptability. Pick the one that fits your story.
 |===
 | Culture | Skill Bonus | Disciplines | You Grew Up...
 | *Mountain* | Craft or Athletics | Earth + Armor | In the high peaks, where the air is thin and the stone is stubborn. You forge steel and wear it like a second skin.
-| *Deep* | Resilience or Lore | Earth + Fire | In halls carved miles beneath the surface. Darkness is comforting. The deep stone endures, and the forge-fire never dies.
+| *Deep* | Resilience or Lore | Earth + Axes | In halls carved miles beneath the surface. Darkness is comforting. The deep stone endures, and your axe has never known sunlight.
 | *Hill* | History or Persuasion | Any one (free choice) | In the foothills, trading with surface folk. You're the dwarf who explains dwarves to everyone else -- you've picked up a little of everything.
 |===
 
@@ -138,7 +138,7 @@ adaptability. Pick the one that fits your story.
 [%header,cols="1,3,3,4"]
 |===
 | Culture | Skill Bonus | Disciplines | You Grew Up...
-| *Riverfolk* | Acrobatics or Sleight of Hand | Water + Wind | On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm. River and breeze are your allies.
+| *Riverfolk* | Acrobatics or Sleight of Hand | Water + Blades | On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm, and your blade is as quick as the current.
 | *Burrower* | Stealth or Survival | Earth + Protection | In cozy tunnels beneath the hills, hidden from big folk and their big problems. The earth shelters you, and you return the favor.
 | *Wanderer* | Streetwise or Performance | Any one (free choice) | On the road, in the caravans, telling stories for supper. Home is wherever you hang your hat. You've learned a little of everything.
 |===

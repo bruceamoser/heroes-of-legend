@@ -46,9 +46,9 @@ Choose your species. Each grants a Discipline and a trait:
 |===
 | Ancestry | Discipline | Trait
 | *Human* | Any one | *Versatile:* +1 DP at Level 0
-| *Elf* | Wind or Water | *Fae Blood:* immune to magical sleep, advantage vs charm
-| *Dwarf* | Earth or Fire | *Sturdy:* +2 maximum HP
-| *Halfling* | Animal or any Guile | *Lucky:* add one boon to any roll, once per session
+| *Elf* | Archery or Blades | *Elven Grace:* once per session, reroll one die
+| *Dwarf* | Axes or Armor | *Sturdy:* +2 maximum HP
+| *Halfling* | Animal or Blades | *Lucky:* add one boon to any roll, once per session
 |===
 
 See xref:chapters/04-ancestries-cultures.adoc[Ancestries & Cultures] for
@@ -66,18 +66,18 @@ adaptable cultures.
 | Culture | Skill Bonus | Disciplines
 3+^.^| *Human*
 | Imperial | Persuasion or History | Any one (free)
-| Nomadic | Survival or Animal Handling | Wind + Animal
-| Coastal | Athletics or Navigation | Water + Wind
+| Nomadic | Survival or Animal Handling | Animal + Archery
+| Coastal | Athletics or Navigation | Water + Polearms
 3+^.^| *Elf*
-| High Elf | Arcana or History | Energy + Wind
-| Wood Elf | Stealth or Nature | Animal + Earth
-| Twilight Elf | Deception or Insight | Water + Energy
+| High Elf | Arcana or History | Energy + Blades
+| Wood Elf | Stealth or Nature | Animal + Archery
+| Twilight Elf | Deception or Insight | Water + Blades
 3+^.^| *Dwarf*
 | Mountain | Craft or Athletics | Earth + Armor
-| Deep | Resilience or Lore | Earth + Fire
+| Deep | Resilience or Lore | Earth + Axes
 | Hill | History or Persuasion | Any one (free)
 3+^.^| *Halfling*
-| Riverfolk | Acrobatics or Sleight of Hand | Water + Wind
+| Riverfolk | Acrobatics or Sleight of Hand | Water + Blades
 | Burrower | Stealth or Survival | Earth + Protection
 | Wanderer | Streetwise or Performance | Any one (free)
 |===
