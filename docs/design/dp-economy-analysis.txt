@@ -1,11 +1,11 @@
 HEROES OF LEGEND — DP ECONOMY ANALYSIS
-Two-Phase Character Creation at Level 1
+Character Creation: Level 0 → Level 1
 ============================================================
 
 SYSTEM RULES (confirmed)
 -----------------------
 - 10 levels of play. Adept abilities unlock at Level 3, Master at Level 7.
-- Everyone starts at Level 1. No Level 0.
+- Character development starts at Level 0. Play starts at Level 1.
 - Disciplines: Prerequisites. Purchased for 1 DP each.
 - Skills: Rolled with 3d6. Novice +1 (1 DP), Adept +2 (2 DP), Master +3 (3 DP).
 - Abilities: Special powers/spells. Novice 1 DP, Adept 2 DP, Master 4 DP.
@@ -15,9 +15,9 @@ SYSTEM RULES (confirmed)
 - All characters start with 3 General Disciplines.
 - Class, Ancestry, and Background each grant additional Disciplines.
 
-TWO-PHASE LEVEL 1 CREATION
---------------------------
-Phase 1 — Ancestry & Background ("Early Life"):
+CHARACTER CREATION: LEVEL 0 → LEVEL 1
+-------------------------------------
+Level 0 — Ancestry & Background ("Early Life"):
   DP = 8 + Knowledge modifier + Fortitude modifier.
   Example: Knowledge +2, Fortitude +1 → 8 + 2 + 1 = 11 DP.
   Example: Knowledge -1, Fortitude -2 → 8 - 1 - 2 = 5 DP.
@@ -27,14 +27,14 @@ Phase 1 — Ancestry & Background ("Early Life"):
   You CANNOT bank DP. Use it or lose it. No Adept or Master purchases
   (those gates haven't opened yet).
 
-Phase 2 — Choose Your Class:
+Level 1 — Choose Your Class:
   DP = 8 (flat). You've chosen your path — now train in it.
   Buy class-specific skills, abilities, and Disciplines.
-  Unspent DP from this phase CAN be banked to Level 2.
+  Unspent DP CAN be banked to Level 2. This is when PLAY begins.
 
-After both phases, your Level 1 character is complete. Levels 2+ get 8 DP each.
+After Level 0 + Level 1, your character is complete. Levels 2+ get 8 DP each.
 
-Total Level 1 DP = (8 + Knowledge + Fortitude) + 8 = 16 + Knowledge + Fortitude.
+Total creation DP = Level 0 (8+K+F) + Level 1 (8) = 16 + Knowledge + Fortitude.
 
 
 ============================================================
@@ -45,7 +45,7 @@ Concept: Walking fortress. Longsword + shield, heavy armor, never goes down.
 Attributes: Brawn +2, Fortitude +2, Agility 0, Guile -1, Knowledge -1, Reason -1
 HP: 10 + 2 + (-1) = 11 at L1. Gains +2/level. L5 HP: 11 + 8 = 19.
 
-PHASE 1 — Early Life: Dwarven Soldier
+LEVEL 0 — Early Life: Dwarven Soldier
 --------------------------------------
 DP: 8 + Fortitude(+2) + Knowledge(-1) = 9 DP. MUST SPEND ALL.
 
@@ -62,12 +62,12 @@ Craft (Smithing) N (skill)     1 DP    [dwarven craftsmanship]
 Shield Block N (ability)       1 DP    [militia shield training]
 Earth Discipline (2nd)         1 DP    [deeper connection to stone]
                                  ---
-Phase 1 spent:                 9 DP    (0 remaining — all used)
+Level 0 spent:                 9 DP    (0 remaining — all used)
 
-Disciplines after Phase 1: Earth(2), General(3)
+Disciplines after Level 0: Earth(2), General(3)
 (Class Disciplines not yet granted — no class yet!)
 
-PHASE 2 — Choose Class: Fighter
+LEVEL 1 — Choose Class: Fighter
 ---------------------------------
 DP: 8 DP (flat). Can bank unspent.
 
@@ -79,12 +79,12 @@ Power Attack N (ability)       1 DP    [requires Blade 1]
 Armor Discipline (2nd)         1 DP    [for Plate armor later]
 Second Wind N (ability)        1 DP    [combat endurance]
                                  ---
-Phase 2 spent:                 4 DP    (4 DP banked to Level 2)
+Level 1 spent:                 4 DP    (4 DP banked to Level 2)
 
-Disciplines after Phase 2: Blade(1), Armor(2), Protection(1), Earth(2),
+Disciplines after Level 1: Blade(1), Armor(2), Protection(1), Earth(2),
                            Heavy Weapon(1), General(3)
 
-LEVEL 1 TOTAL: Phase 1 (9 DP) + Phase 2 (4 DP) = 13 DP spent. 4 DP banked.
+LEVEL 1 COMPLETE: Phase 1 (9 DP) + Phase 2 (4 DP) = 13 DP spent. 4 DP banked.
 
 LEVEL 2 — 12 DP available (4 banked + 8 new)
 --------------------------------------------
@@ -138,7 +138,7 @@ Concept: Greatsword berserker. One big weapon, charges in, cleaves through.
 Attributes: Brawn +2, Fortitude +1, Agility +1, Guile -1, Knowledge -1, Reason 0
 HP: 10 + 1 + (-1) = 10 at L1. Gains +1/level. L5 HP: 10 + 4 = 14.
 
-PHASE 1 — Early Life: Barbarian Nomad
+LEVEL 0 — Early Life: Barbarian Nomad
 --------------------------------------
 DP: 8 + Fortitude(+1) + Knowledge(-1) = 8 DP. MUST SPEND ALL.
 
@@ -154,12 +154,12 @@ Cleave N (ability)             1 DP    [ learned on raiding parties ]
 Axe Discipline (2nd)           1 DP    [ tribe's weapon of choice ]
 Battle Cry N (ability)         1 DP    [ ancestral war shout ]
                                  ---
-Phase 1 spent:                 8 DP    (0 remaining)
+Level 0 spent:                 8 DP    (0 remaining)
 
-Disciplines after Phase 1: Axe(2), General(4)
+Disciplines after Level 0: Axe(2), General(4)
 (Background grants Axe; ancestry Human grants +1 General)
 
-PHASE 2 — Choose Class: Fighter
+LEVEL 1 — Choose Class: Fighter
 ---------------------------------
 DP: 8 DP (flat).
 
@@ -170,9 +170,9 @@ Heavy Weapon Discipline (2nd)  1 DP
 Heavy Weapon Fighting N (skill)1 DP
 Mighty Blow N (ability)        1 DP
                                  ---
-Phase 2 spent:                 3 DP    (5 DP banked to Level 2)
+Level 1 spent:                 3 DP    (5 DP banked to Level 2)
 
-Disciplines after Phase 2: Blade(1), Heavy Weapon(2), Armor(1), Axe(2), General(4)
+Disciplines after Level 1: Blade(1), Heavy Weapon(2), Armor(1), Axe(2), General(4)
 → Greatsword unlocked! (1 Blade + 2 Heavy Weapon) ✓
 
 LEVEL 2 — 13 DP available (5 banked + 8 new)
@@ -214,7 +214,7 @@ Concept: Ghost. Never seen, never caught. Shortbow + sneak attack.
 Attributes: Brawn -1, Fortitude 0, Agility +2, Guile +2, Knowledge -1, Reason 0
 HP: 10 + 0 + (-1) = 9 at L1. Gains +1/level (Fort min 1). L5 HP: 9 + 4 = 13.
 
-PHASE 1 — Early Life: Street Urchin
+LEVEL 0 — Early Life: Street Urchin
 ------------------------------------
 DP: 8 + Fortitude(0) + Knowledge(-1) = 7 DP. MUST SPEND ALL.
 
@@ -229,12 +229,12 @@ Acrobatics N (skill)           1 DP    [ rooftop chases ]
 Lore (Underworld) N (skill)    1 DP    [ knows the guilds ]
 Guile Discipline (3rd)         1 DP    [ survival instinct honed sharp ]
                                  ---
-Phase 1 spent:                 7 DP    (0 remaining)
+Level 0 spent:                 7 DP    (0 remaining)
 
-Disciplines after Phase 1: Guile(3), General(3)
+Disciplines after Level 0: Guile(3), General(3)
 (Ancestry Halfling gives Guile; Background Criminal gives Stealth)
 
-PHASE 2 — Choose Class: Thief
+LEVEL 1 — Choose Class: Thief
 ------------------------------
 DP: 8 DP (flat).
 
@@ -244,7 +244,7 @@ Sneak Attack N (ability)       1 DP    [requires Stealth 1]
 Shortbow Fighting N (skill)    1 DP
 Shadow Step N (ability)        1 DP    [requires Stealth 2]
                                  ---
-Phase 2 spent:                 3 DP    (5 DP banked)
+Level 1 spent:                 3 DP    (5 DP banked)
 
 LEVEL 2 — 13 DP available
 -------------------------
@@ -286,7 +286,7 @@ Concept: Duelist. Rapier + smirk. Performance art with a blade.
 Attributes: Brawn 0, Fortitude -1, Agility +2, Guile +2, Knowledge 0, Reason -1
 HP: 10 + (-1) + 0 = 9 at L1. Gains +1/level (Fort min 1). L5 HP: 9 + 4 = 13.
 
-PHASE 1 — Early Life: Wandering Performer
+LEVEL 0 — Early Life: Wandering Performer
 ------------------------------------------
 DP: 8 + Fortitude(-1) + Knowledge(0) = 7 DP. MUST SPEND ALL.
 
@@ -301,12 +301,12 @@ Riposte N (ability)            1 DP    [ first blood in a tavern brawl ]
 Lore (Nobility) N (skill)      1 DP    [ knows which lords to flatter ]
 Wind Discipline (2nd)          1 DP    [ elven grace ]
                                  ---
-Phase 1 spent:                 7 DP    (0 remaining)
+Level 0 spent:                 7 DP    (0 remaining)
 
-Disciplines after Phase 1: Wind(2), General(3)
+Disciplines after Level 0: Wind(2), General(3)
 (Ancestry Elf gives Wind; Background Entertainer gives Charm)
 
-PHASE 2 — Choose Class: Thief
+LEVEL 1 — Choose Class: Thief
 ------------------------------
 DP: 8 DP (flat).
 
@@ -318,9 +318,9 @@ Blade Fighting N (skill)       1 DP
 Duelist Stance N (ability)     1 DP    [requires Blade 1]
 Dazzling Flourish N (ability)  1 DP    [requires Charm 1]
                                  ---
-Phase 2 spent:                 4 DP    (4 DP banked)
+Level 1 spent:                 4 DP    (4 DP banked)
 
-Disciplines after Phase 2: Blade(2), Guile(1), Acrobatics(1), Wind(2),
+Disciplines after Level 1: Blade(2), Guile(1), Acrobatics(1), Wind(2),
                            Charm(1), General(3)
 
 LEVEL 2 — 12 DP available
@@ -363,11 +363,11 @@ Plus: Magic Missile → Lightning Bolt → Chain Lightning.
 Attributes: Brawn -2, Fortitude 0, Agility 0, Guile 0, Knowledge +2, Reason +2
 HP: 10 + 0 + 2 = 12 at L1. Gains +1/level (Fort min 1). L5 HP: 12 + 4 = 16.
 
-PHASE 1 — Early Life: Arcane Prodigy
+LEVEL 0 — Early Life: Arcane Prodigy
 -------------------------------------
 DP: 8 + Fortitude(0) + Knowledge(+2) = 10 DP. MUST SPEND ALL.
 
-Knowledge pays off in Phase 1. Thalia was a studious child — always reading,
+Knowledge pays off in Level 0. Thalia was a studious child — always reading,
 always experimenting. Her high Knowledge gives her more early-life DP than
 any fighter. But she's frail — that's the trade.
 
@@ -382,18 +382,18 @@ Fire Discipline (3rd)          1 DP    [ innate fire affinity, pre-class ]
 Knowledge Discipline (3rd)     1 DP    [ academic intensity ]
 Energy Discipline (2nd)        1 DP    [ studied the elements broadly ]
                                  ---
-Phase 1 spent:                 10 DP   (0 remaining)
+Level 0 spent:                 10 DP   (0 remaining)
 
-NOTE: Thalia bought THREE Disciplines in Phase 1 — Fire(3rd), Knowledge(3rd),
+NOTE: Thalia bought THREE Disciplines in Level 0 — Fire(3rd), Knowledge(3rd),
 Energy(2nd). Her high Knowledge gave her 10 DP, and she used it to load up on
 magical Disciplines. She already has Fire(3) before even choosing Wizard!
 → Fireball requires Fire 2: ✓ already met.
 → Volcanic Eruption requires Fire 3: ✓ already met.
 
-Disciplines after Phase 1: Fire(3), Knowledge(3), Energy(2), General(3)
+Disciplines after Level 0: Fire(3), Knowledge(3), Energy(2), General(3)
 (Ancestry High Elf: Fire; Background Sage: Knowledge)
 
-PHASE 2 — Choose Class: Wizard
+LEVEL 1 — Choose Class: Wizard
 -------------------------------
 DP: 8 DP (flat).
 
@@ -402,7 +402,7 @@ Class grants: Fire(1)→now Fire(4), Energy(1)→now Energy(3), Knowledge(1)→n
 Fire Magic N (skill)           1 DP
 Magic Missile N (ability)      1 DP    [requires Energy 1]
                                  ---
-Phase 2 spent:                 2 DP    (6 DP banked — wizard training is fast)
+Level 1 spent:                 2 DP    (6 DP banked — wizard training is fast)
 
 LEVEL 2 — 14 DP available (6 banked + 8 new)
 --------------------------------------------
@@ -439,7 +439,7 @@ Abilities:   Firebolt N, Fireball A, Magic Missile N, Lightning Bolt A,
 DP spent:    28 of 48 (58%) — 20 DP banked
 
 NOTE: Thalia spends more than any martial (58% vs ~46%). The Knowledge
-bonus DP in Phase 1 is powerful — it loaded her with Disciplines early,
+bonus DP in Level 0 is powerful — it loaded her with Disciplines early,
 letting her skip prerequisite buys and go straight to spells. This is
 the wizard advantage: Knowledge = faster arcane progression.
 
@@ -456,7 +456,7 @@ Frost Ray→Ice Storm→Blizzard. Chess player with the weather.
 Attributes: Brawn -2, Fortitude -1, Agility +1, Guile 0, Knowledge +2, Reason +2
 HP: 10 + (-1) + 2 = 11 at L1. Gains +1/level (Fort min 1). L5 HP: 11 + 4 = 15.
 
-PHASE 1 — Early Life: Curious Tinkerer
+LEVEL 0 — Early Life: Curious Tinkerer
 ---------------------------------------
 DP: 8 + Fortitude(-1) + Knowledge(+2) = 9 DP. MUST SPEND ALL.
 
@@ -473,14 +473,14 @@ Water Discipline (2nd)         1 DP    [ from studying ice ]
 Knowledge Discipline (3rd)     1 DP    [ gnomish scholarship ]
 Energy Discipline (2nd)        1 DP    [ general elemental theory ]
                                  ---
-Phase 1 spent:                 9 DP    (0 remaining)
+Level 0 spent:                 9 DP    (0 remaining)
 
-Disciplines after Phase 1: Wind(2), Water(2), Knowledge(3), Energy(2), General(3)
+Disciplines after Level 0: Wind(2), Water(2), Knowledge(3), Energy(2), General(3)
 (Ancestry Gnome: Energy; Background Scholar: Knowledge)
 → Wind Wall requires Wind 2: ✓ pre-met!
 → Ice Storm requires Water 2: ✓ pre-met!
 
-PHASE 2 — Choose Class: Wizard
+LEVEL 1 — Choose Class: Wizard
 -------------------------------
 DP: 8 DP (flat).
 
@@ -490,7 +490,7 @@ Wind Magic N (skill)           1 DP
 Water Magic N (skill)          1 DP
 Fog Cloud N (ability)          1 DP
                                  ---
-Phase 2 spent:                 3 DP    (5 DP banked)
+Level 1 spent:                 3 DP    (5 DP banked)
 
 LEVEL 2 — 13 DP available
 -------------------------
@@ -501,8 +501,8 @@ Spent:                         4 DP    Cumulative: 16 DP (9 banked)
 
 LEVEL 3 — 17 DP available (Adept unlock)
 ----------------------------------------
-Wind Wall A (ability)          2 DP    [requires Wind 2 — met in Phase 1!]
-Ice Storm A (ability)          2 DP    [requires Water 2 — met in Phase 1!]
+Wind Wall A (ability)          2 DP    [requires Wind 2 — met in Level 0!]
+Ice Storm A (ability)          2 DP    [requires Water 2 — met in Level 0!]
 Investigation A (skill)        2 DP
                                  ---
 Spent:                         6 DP    Cumulative: 22 DP (11 banked)
@@ -546,7 +546,7 @@ Pip (Wizard)       9/8=17    26      22       54%     Wind/ice controller
 KEY INSIGHTS
 ------------
 1. Knowledge modifier directly affects Phase 1 DP. High Knowledge characters
-   (wizards) get 9-10 DP in Phase 1 vs 7-8 for low Knowledge (fighters).
+   (wizards) get 9-10 DP in Level 0 vs 7-8 for low Knowledge (fighters).
    This creates organic differentiation — smart characters learn more
    before specializing.
 
@@ -557,7 +557,7 @@ KEY INSIGHTS
    that the system mandates.
 
 3. Wizards benefit most from high Knowledge. Thalia loaded up on Fire(3)
-   and Energy(2) Disciplines in Phase 1 — completely skipping prerequisite
+   and Energy(2) Disciplines in Level 0 — completely skipping prerequisite
    buys that would have cost DP later. This is the wizard's reward for
    investing in Knowledge.
 
@@ -565,7 +565,7 @@ KEY INSIGHTS
    7-9 DP vs Borin's 9. This is the cost of being fragile — you spent
    your youth studying or performing, not building endurance.
 
-5. Phase 2 DP can be banked. Most characters bank 3-6 DP from Phase 2,
+5. Phase 2 DP can be banked. Most characters bank 3-6 DP from Level 1,
    giving them a head start on Level 2 Adept upgrades.
 
 6. Budget 8 DP/level works. No character is starved. The spread is 46-58%
