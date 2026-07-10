@@ -53,3 +53,15 @@ Allow Master spells that accept alternative Discipline combinations:
 - **Option D:** Hybrid (2 matching Disciplines + level 5 minimum)
 
 This gates all high-level spell/ability progression. Must be decided before spell chapters can be written.
+
+---
+## Decision — 2026-07-09
+
+**RESOLVED.** Discipline cost scales with depth. No arbitrary prerequisite gates.
+
+- 1st of a type: 1 DP
+- 2nd of a type: 2 DP  
+- 3rd of a type: 4 DP
+- Total for 3 matching: 7 DP (same as a full spell chain)
+
+Natural progression reaches Master (3 matching) by Level 6 for a focused caster. The escalating cost IS the gate — you could rush it earlier but sacrifice everything else. Breadth is cheap (1 DP per new type), depth is expensive (4 DP for 3rd).
