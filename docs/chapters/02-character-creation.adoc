@@ -45,10 +45,10 @@ Choose your species. Each grants a Discipline and a trait:
 [%header,cols="1,2,3"]
 |===
 | Ancestry | Discipline | Trait
-| *Human* | Any one | *Versatile:* +1 bonus skill at Level 0
-| *Elf* | Wind or Animal | *Keen Senses:* +1 Perception
-| *Dwarf* | Earth or Armor | *Stubborn:* advantage on Fortitude saves
-| *Halfling* | Animal or Guile (any) | *Lucky:* reroll one 3d6 per session
+| *Human* | Any one | *Versatile:* +1 DP at Level 0
+| *Elf* | Wind or Water | *Fae Blood:* immune to magical sleep, advantage vs charm
+| *Dwarf* | Earth or Fire | *Sturdy:* +2 maximum HP
+| *Halfling* | Animal or any Guile | *Lucky:* add one boon to any roll, once per session
 |===
 
 See xref:chapters/04-ancestries-cultures.adoc[Ancestries & Cultures] for
@@ -177,7 +177,7 @@ has an exit strategy.
 Fortitude +0, Knowledge +0, Reason +0. Sum = +3. ✓
 
 *Step 3 -- Ancestry:* Halfling. Gains an Animal Discipline and the
-*Lucky* trait (reroll one 3d6 per session).
+*Lucky* trait (add one boon to any roll, once per session).
 
 *Step 4 -- Culture:* Riverfolk. +1 bonus to Acrobatics (she grew up
 scrambling across rigging and wet docks).

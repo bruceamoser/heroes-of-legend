@@ -23,9 +23,9 @@ dwarf raised by halfling riverfolk is not only allowed, it's *interesting*.
 |===
 | Ancestry | Discipline | Trait | You're Probably...
 | *Human* | Any one | *Versatile:* +1 DP at Level 0 | Ambitious, adaptable, everywhere
-| *Elf* | Wind or Water | *Keen Senses:* +1 to all Perception checks | Ancient, graceful, a little haunted
+| *Elf* | Wind or Water | *Fae Blood:* immune to magical sleep, advantage on saves vs charm | Ancient, graceful, a little haunted
 | *Dwarf* | Earth or Fire | *Sturdy:* +2 maximum HP | Resilient, tradition-bound, impossible to move
-| *Halfling* | Animal or any Guile | *Lucky:* reroll one 3d6 per session | Quick, cheerful, underestimated
+| *Halfling* | Animal or any Guile | *Lucky:* add one boon to any roll, once per session | Quick, cheerful, underestimated
 |===
 
 === Human
@@ -53,9 +53,9 @@ discovered fire. This makes them patient, precise, and occasionally
 insufferable at dinner parties.
 
 Elves receive one Wind Discipline (speed, storms, precision) or Water
-Discipline (ice, healing, adaptation). Their *Keen Senses* grant a
-permanent +1 bonus to all Perception checks -- those pointed ears aren't
-just decorative.
+Discipline (ice, healing, adaptation). Their *Fae Blood* makes them
+immune to magical sleep effects and grants advantage on saves against
+being charmed -- the old magic runs deep, and it protects its own.
 
 *Common elf names:* Aelindra, Caerwyn, Elowen, Faelan, Illyria, Lirael,
 Orin, Sylvara, Theron, Vaelith.
@@ -87,9 +87,10 @@ They build communities, feast halls, and improbably comfortable burrows.
 They're underestimated constantly, which suits them perfectly.
 
 Halflings receive one Animal Discipline or any Guile-category Discipline
-(Deception, Stealth, Streetwise). Their *Lucky* trait lets them reroll
-one entire 3d6 roll per game session -- not just one die, the whole roll.
-Use it when it matters.
+(Deception, Stealth, Streetwise). Their *Lucky* trait lets them add one
+boon (an extra d6) to any 3d6 roll, once per session. When the moment is
+desperate and the odds are against you, the universe cuts you a break.
+That's not luck. That's being a halfling.
 
 *Common halfling names:* Bramble, Cora, Dabney, Eglantine, Finn, Lottie,
 Makeva, Nettle, Pip, Rufus, Tansy.
