@@ -1,48 +1,220 @@
 [#chapter-character-creation]
 = Creating Your Hero
 
-Ten steps to build your hero. Quick path: ~15 minutes. Deep path: ~45 minutes with backstory.
+Building a hero takes about twenty minutes if you know what you want, or a
+pleasant hour if you're still exploring. Either way, you'll end up with
+someone worth playing. Here's how it works.
 
-== Step 1: Concept
-Who is your hero? A grizzled warrior? A scholarly mage? A charming rogue? Write one sentence.
+[NOTE]
+====
+*Two-Phase Creation*
 
-== Step 2: Attributes
-Assign scores across Brawn, Fortitude, Agility, Guile, Knowledge, Reason that total exactly +3. Each starts at +0. Max +2, min -2. See xref:chapters/03-attributes.adoc[Attributes].
+Heroes of Legend uses a two-phase creation system. You build your hero's
+background first (Level 0 -- who they were before adventure called), then
+layer on their class training (Level 1 -- who they've become). Each phase
+has its own pool of Development Points. You spend them all or lose them --
+no banking. This isn't a spreadsheet. It's a story.
+====
 
-== Step 3: Ancestry
-Choose Human, Elf, Dwarf, or Halfling. Record your dice and trait. See xref:chapters/04-ancestries-cultures.adoc[Ancestries].
+== Phase One: Background (Level 0)
 
-== Step 4: Culture
-Choose your upbringing within your ancestry. Grants a +1 skill bonus.
+This is who your hero was *before* they picked up a sword or opened a
+spellbook. Every hero comes from somewhere.
 
-== Step 5: Class
-Choose from Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, or Unbalanced. Record your Starting Disciplines, signature ability, and favored skills. See xref:chapters/05-classes.adoc[Classes].
+=== Step 1: Concept
 
-== Step 6: Spend Starting DP
-You have 3 DP. Spend on skills (1/2/4 DP for Novice/Adept/Master) or talents.
+Who is your hero, in one sentence? Not their stats. Not their class. Their
+*deal*. A disgraced knight seeking redemption. A fae-touched herbalist who
+talks to bees. A dwarven smith who's never seen the sun and really, really
+wants to. Write it down. Everything else flows from this.
 
-== Step 7: Equipment
-Receive your class starting kit. Record weapons (with W/S/S damage) and armor (with DR). See xref:chapters/15-equipment.adoc[Equipment].
+=== Step 2: Attributes
 
-== Step 8: Derived Stats
-HP = 10 + (Fortitude × 2). Initiative = Agility modifier. Movement = 30 ft. Carry = 10 + (Brawn × 5) slots.
+Assign scores to your six attributes that total *exactly +3*:
 
-== Step 9: Backstory
-Roll or choose: Motivation, Trinket, Personality Trait.
+*Brawn, Fortitude, Agility, Guile, Knowledge, Reason*
+
+Each starts at +0. Max +2, min -2. Drop one into the negatives to fund a
+strength elsewhere -- but the sum across all six must be 3. See
+xref:chapters/03-attributes.adoc[Attributes] for the full breakdown.
+
+=== Step 3: Ancestry
+
+Choose your species. Each grants a Discipline die and a trait:
+
+[%header,cols="1,2,3"]
+|===
+| Ancestry | Discipline | Trait
+| *Human* | Any one | *Versatile:* +1 bonus skill at Level 0
+| *Elf* | Wind or Animal | *Keen Senses:* +1 Perception
+| *Dwarf* | Earth or Armor | *Stubborn:* advantage on Fortitude saves
+| *Halfling* | Animal or Guile (any) | *Lucky:* reroll one 3d6 per session
+|===
+
+See xref:chapters/04-ancestries-cultures.adoc[Ancestries & Cultures] for
+full details.
+
+=== Step 4: Culture
+
+Your upbringing within your ancestry -- noble, street urchin, merchant,
+nomad, soldier, scholar. Grants a +1 bonus to one skill of your choice
+that fits the background. A street kid gets Stealth. A noble gets
+Persuasion. You get the idea.
+
+=== Step 5: Spend Background DP
+
+You have *8 + Knowledge + Fortitude* Development Points. Spend every last
+one -- they don't carry over. Buy:
+
+- *Skills:* 1 DP (Novice), 2 DP (Adept), 3 DP (Master)
+- *Disciplines:* 1 DP each (first of a type), 2 DP (second), 4 DP (third)
+- *Talents/Abilities:* 1 DP (Novice), 2 DP (Adept), 4 DP (Master)
+
+These represent everything your hero learned growing up. A farm kid might
+have Athletics and Animal Handling. A temple acolyte might have Religion
+and Medicine. A street thief might have Stealth and Sleight of Hand. Make
+it make sense for your concept.
+
+All characters start with *3 General Disciplines* -- these are wildcards
+you can assign to any type. Your ancestry and culture may grant more.
+
+== Phase Two: Class (Level 1)
+
+Now your hero finds their calling. This is where they become exceptional.
+
+=== Step 6: Choose Your Class
+
+[%header,cols="1,2,3"]
+|===
+| Class | Role | Vibe
+| *Protector* | Tank, defender | "Stand behind me."
+| *Blade* | Assassin, precision striker | "Strike once. Strike true."
+| *Arcanist* | Arcane spellcaster | "Fire answers to me."
+| *Shepherd* | Divine healer | "The light guides my hand."
+| *Intellect* | Knowledge expert | "I've read about this."
+| *Odd* | Unpredictable wildcard | "I have a trick for that."
+| *Leader* | Party support | "Together, we are unstoppable."
+| *Unbalanced* | High-risk, high-reward | "Power has a price."
+|===
+
+Record your Starting Disciplines, signature ability, and favored skills.
+See xref:chapters/05-classes.adoc[Classes] for the full class writeups.
+
+=== Step 7: Spend Class DP
+
+You have *8 DP* for your class training. Again: spend every one. This is
+where you buy combat skills, magic abilities, class talents, and the
+Disciplines your class demands. Your class lists favored skills that cost
+1 DP each -- lean into those.
+
+Adept-tier skills and abilities unlock at Level 3. Master-tier at Level 7.
+At Level 1, everything you buy is Novice. That's fine. Novice means
+you're trained. You'll deepen later.
+
+=== Step 8: Equipment
+
+Receive your class starting kit. Record weapons with their Weak, Standard,
+and Strong damage values. Record armor with its Damage Reduction. See
+xref:chapters/15-equipment.adoc[Equipment].
+
+=== Step 9: Derived Stats
 
 [%header,cols="1,3"]
 |===
-| d6 | Motivation
-| 1 | *Glory:* You seek fame and recognition
-| 2 | *Gold:* Wealth drives your adventures
-| 3 | *Justice:* You right wrongs wherever you find them
-| 4 | *Knowledge:* You crave secrets and lost lore
-| 5 | *Protection:* You defend those who cannot defend themselves
-| 6 | *Redemption:* You seek to atone for a past failure
+| Stat | Formula
+| *Health Points* | 10 + Fortitude + Knowledge (at Level 1)
+| *HP per Level* | +Fortitude (minimum 1) each level after first
+| *Initiative* | Agility modifier
+| *Movement* | 30 ft (reduced by heavy armor)
+| *Carry Slots* | 10 + (Brawn × 5)
 |===
 
-== Step 10: Name
-Choose a name fitting your ancestry and culture. Welcome to Heroes of Legend.
+=== Step 10: Backstory Touches
 
-== Worked Example
-Makeva builds a rogue. *Step 1:* Charming sneak-thief. *Step 2:* Agility +1, Guile +1, Brawn +1. *Step 3:* Halfling (Animal die, Lucky). *Step 4:* Riverfolk (Acrobatics bonus). *Step 5:* Odd (3 dice: Archery, Animal, Water). *Step 6:* Stealth Novice (1 DP), Deception Novice (1 DP), Lucky talent Novice (1 DP). *Step 7:* Shortbow, leather armor, thieves' tools. *Step 8:* HP 10, Init +1, 30 ft, 15 slots. *Step 9:* Motivation -- Gold. Trinket -- a silver coin that always lands on its edge. *Step 10:* Makeva Quickfoot.
+Roll or choose from the tables below. These are hooks for your DA -- and
+for you.
+
+.Motivations (d6)
+[%header,cols="1,3"]
+|===
+| d6 | Why You Adventure
+| 1 | *Glory:* You want songs sung about you.
+| 2 | *Gold:* Wealth opens every door.
+| 3 | *Justice:* Wrongs will be righted. By you.
+| 4 | *Knowledge:* Secrets are the real treasure.
+| 5 | *Protection:* Someone has to stand between the darkness and the innocent.
+| 6 | *Redemption:* You're running from something. Or toward forgiveness.
+|===
+
+.Trinkets (d6)
+[%header,cols="1,3"]
+|===
+| d6 | The Thing You Carry
+| 1 | A key that doesn't fit any lock you've found. Yet.
+| 2 | A locket with a portrait of someone you've never met.
+| 3 | A coin that always lands on its edge.
+| 4 | A letter, unopened. The seal is your family crest.
+| 5 | A smooth stone that hums faintly at midnight.
+| 6 | A child's drawing of you. You don't recognize the child.
+|===
+
+=== Step 11: Name
+
+Choose a name fitting your ancestry and culture. Say it out loud. Does it
+feel right? Good. Welcome to Heroes of Legend.
+
+== Worked Example: Makeva Quickfoot
+
+Let's build a character from scratch so you can see how the pieces fit
+together.
+
+*Step 1 -- Concept:* Charming sneak-thief with a heart of tarnished gold.
+Grew up on the docks, talks her way into places she shouldn't be, always
+has an exit strategy.
+
+*Step 2 -- Attributes (total must be +3):* Agility +1 (nimble), Guile +1
+(silver tongue), Brawn +1 (can throw a punch when the talking stops).
+Fortitude +0, Knowledge +0, Reason +0. Sum = +3. ✓
+
+*Step 3 -- Ancestry:* Halfling. Gains an Animal Discipline die and the
+*Lucky* trait (reroll one 3d6 per session).
+
+*Step 4 -- Culture:* Riverfolk. +1 bonus to Acrobatics (she grew up
+scrambling across rigging and wet docks).
+
+*Step 5 -- Background DP (8 + Knowledge 0 + Fortitude 0 = 8 DP):*
+- Stealth Novice (1 DP) -- she's good at not being seen
+- Deception Novice (1 DP) -- she's better at being believed
+- Sleight of Hand Novice (1 DP) -- quick fingers, quicker pockets
+- Perception Novice (1 DP) -- reading a room keeps you alive
+- Streetwise Novice (1 DP) -- knows every fence in the harbor district
+- Acrobatics Novice (1 DP) -- never met a rooftop she couldn't cross
+- Water Discipline (1 DP) -- the river's in her blood
+- Lucky talent, Novice (1 DP) -- some people are just born fortunate
+Total: 8 DP. All spent. ✓
+Disciplines: Animal(1), Water(1), General(3)
+
+*Step 6 -- Class:* Odd. Gains 3 dice from different categories (Archery,
+Animal, Water). Signature: *Wildcard* -- once per session, roll a d6 table
+for a random bonus.
+
+*Step 7 -- Class DP (8 DP):*
+- Archery Discipline (1 DP)
+- Ranged Combat Novice (1 DP, favored)
+- Stealth → Adept (2 DP)
+- Deception → Adept (2 DP)
+- Evasion Novice (1 DP)
+- Dirty Fighting Novice (1 DP)
+Total: 8 DP. All spent. ✓
+
+*Step 8 -- Equipment:* Shortbow (W/S/S: 2/4/7), dagger (1/3/5), leather
+armor (DR 2), thieves' tools, 20 arrows.
+
+*Step 9 -- Derived Stats:* HP 10 (10 + Fort 0 + Know 0). Initiative +1.
+Movement 30 ft. Carry 15 slots.
+
+*Step 10 -- Backstory:* Motivation -- Gold (she's saving for something,
+she won't say what). Trinket -- a silver coin that always lands on its edge.
+
+*Step 11 -- Name:* Makeva Quickfoot. Her friends call her Mak. Her enemies
+don't call her anything -- they never saw her coming.
