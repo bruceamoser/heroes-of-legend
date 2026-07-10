@@ -1,11 +1,11 @@
 [#chapter-disciplines]
 = Disciplines
 
-The Discipline system is Heroes of Legend's signature mechanic. Characters don't just gain skills — they earn *Disciplines* representing their mastery of elements, weapons, and arcane forces.
+The Discipline system is Heroes of Legend's signature mechanic. Characters don't just gain skills -- they earn *Disciplines* representing their mastery of elements, weapons, and arcane forces.
 
 == What Are Disciplines?
 
-A Discipline represents a domain of expertise or power your hero has attuned to. They are prerequisites for skills, abilities, and talents. You don't roll these Disciplines — they're symbolic of your character's growing mastery.
+A Discipline represents a domain of expertise or power your hero has attuned to. They are prerequisites for skills, abilities, and talents. You don't roll these Disciplines -- they're symbolic of your character's growing mastery.
 
 *Example:* A warrior with 3 Blade Disciplines has spent years mastering swords. A mage with 3 Fire Disciplines has deep attunement to flame. A ranger with 2 Animal Disciplines has bonded with the wild.
 
@@ -18,12 +18,12 @@ A Discipline represents a domain of expertise or power your hero has attuned to.
 | *Earth* | Stone, stability, endurance, crafting
 | *Wind* | Air, speed, storms, precision
 | *Water* | Ice, flow, healing, adaptation
-.6+| *Weapon* | *Blades* | Swords, daggers — finesse and precision
-| *Axes* | Axes, cleavers — brutal chopping power
-| *Polearms* | Spears, halberds — reach and control
-| *Archery* | Bows, crossbows — ranged precision
-| *Heavy Weapon* | Greatswords, greataxes, mauls — two-handed power
-| *Unarmed* | Fists, gauntlets, grappling — close-quarters combat
+.6+| *Weapon* | *Blades* | Swords, daggers -- finesse and precision
+| *Axes* | Axes, cleavers -- brutal chopping power
+| *Polearms* | Spears, halberds -- reach and control
+| *Archery* | Bows, crossbows -- ranged precision
+| *Heavy Weapon* | Greatswords, greataxes, mauls -- two-handed power
+| *Unarmed* | Fists, gauntlets, grappling -- close-quarters combat
 .2+| *Defense* | *Protection* | Shields, warding, guarding allies
 | *Armor* | Heavy armor proficiency, damage soaking
 .1+| *Primal* | *Animal* | Beasts, nature, shapeshifting, instinct
@@ -86,7 +86,7 @@ A Generic die can substitute for any specific type at the *Novice* tier only. Fo
 Kael, an Arcanist, wants to master fire magic. At creation, he has 2 Fire dice and 1 Energy die from his class.
 
 - *Novice (Firebolt):* Requires 1 Fire die. Kael qualifies immediately.
-- *Adept (Fireball):* Requires 2 Fire + 1 Energy. Kael qualifies — he has exactly what's needed.
+- *Adept (Fireball):* Requires 2 Fire + 1 Energy. Kael qualifies -- he has exactly what's needed.
 - *Master (Volcanic Eruption):* Requires 3 Fire + 2 Earth + 1 Energy. Kael needs 1 more Fire die and 2 Earth dice. He'll need to earn these through level progression or find a magic item.
 
-At level 3, Kael gains his first Progression Discipline. He chooses Fire (now 3 Fire). At level 6, he gains another — Earth. At level 9, another Earth (now 2 Earth). At level 12, he finally has 3 Fire + 2 Earth + 1 Energy and can purchase Volcanic Eruption. This progression took 12 levels — Master-tier magic is earned, not given.
+At level 3, Kael gains his first Progression Discipline. He chooses Fire (now 3 Fire). At level 6, he gains another -- Earth. At level 9, another Earth (now 2 Earth). At level 12, he finally has 3 Fire + 2 Earth + 1 Energy and can purchase Volcanic Eruption. This progression took 12 levels -- Master-tier magic is earned, not given.

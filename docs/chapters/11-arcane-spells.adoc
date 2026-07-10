@@ -1,4 +1,4 @@
-// Chapter 11 — Arcane Spells
+// Chapter 11 -- Arcane Spells
 // D&D 5e PHB spells adapted as ability chains
 
 [#chapter-arcane-spells]

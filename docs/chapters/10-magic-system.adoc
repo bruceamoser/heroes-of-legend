@@ -1,13 +1,13 @@
 [#chapter-magic-system]
 = Magic System
 
-In Heroes of Legend, magic always fires. No spell slots. No mana pool. When you cast, the magic happens — the question is how powerful the effect will be.
+In Heroes of Legend, magic always fires. No spell slots. No mana pool. When you cast, the magic happens -- the question is how powerful the effect will be.
 
 == Always Fires
 You do not roll to cast. You roll to determine effect strength. Every spell has Weak, Standard, and Strong outcomes.
 
 == Spell Chains
-Spells are organized into chains — three tiers of increasing power:
+Spells are organized into chains -- three tiers of increasing power:
 
 [%header,cols="2,1,1,3"]
 |===
@@ -43,4 +43,4 @@ Cantrips require no Discipline prerequisites. Every caster knows all cantrips in
 == Limitations
 *Per-Encounter:* Powerful spells (Adept+) may only be used once per combat.
 *Per-Session:* Master-tier spells are once per session.
-*Concentration:* Some ongoing spells require concentration — you cannot cast another concentration spell while one is active.
+*Concentration:* Some ongoing spells require concentration -- you cannot cast another concentration spell while one is active.

@@ -18,28 +18,28 @@ Skills represent what your hero has learned to do.
 [%header,cols="2,1,1,4"]
 |===
 | Skill | Attr | Dice | Description
-| *Athletics* | BR | — | Climbing, swimming, jumping, feats of strength
-| *Intimidation* | BR | — | Frightening foes, coercion through force
+| *Athletics* | BR | - | Climbing, swimming, jumping, feats of strength
+| *Intimidation* | BR | - | Frightening foes, coercion through force
 | *Melee Combat* | BR | Blades/Axes/etc. | Fighting with melee weapons
-| *Endurance* | FO | — | Resisting fatigue, holding breath, forced marches
+| *Endurance* | FO | - | Resisting fatigue, holding breath, forced marches
 | *Survival* | FO | Animal | Tracking, foraging, navigating wilderness
-| *Resilience* | FO | — | Resisting poison, disease, extreme temperatures
-| *Acrobatics* | AG | — | Balancing, tumbling, escaping restraints
-| *Stealth* | AG | — | Sneaking, hiding, moving silently
+| *Resilience* | FO | - | Resisting poison, disease, extreme temperatures
+| *Acrobatics* | AG | - | Balancing, tumbling, escaping restraints
+| *Stealth* | AG | - | Sneaking, hiding, moving silently
 | *Ranged Combat* | AG | Archery | Fighting with bows and crossbows
-| *Sleight of Hand* | AG | — | Pickpocketing, lockpicking, legerdemain
-| *Deception* | GU | — | Lying, bluffing, disguising intent
-| *Persuasion* | GU | — | Diplomacy, negotiation, charm
-| *Streetwise* | GU | — | Gathering information, underworld contacts
+| *Sleight of Hand* | AG | - | Pickpocketing, lockpicking, legerdemain
+| *Deception* | GU | - | Lying, bluffing, disguising intent
+| *Persuasion* | GU | - | Diplomacy, negotiation, charm
+| *Streetwise* | GU | - | Gathering information, underworld contacts
 | *Arcana* | KN | Energy | Magical knowledge, spell identification
-| *History* | KN | — | Lore, legends, past events
-| *Investigation* | KN | — | Searching, deducing, finding clues
+| *History* | KN | - | Lore, legends, past events
+| *Investigation* | KN | - | Searching, deducing, finding clues
 | *Nature* | KN | Animal | Plants, animals, natural phenomena
-| *Religion* | KN | — | Gods, rituals, divine lore
-| *Alchemy* | RE | — | Brewing potions, identifying substances
-| *Crafting* | RE | — | Smithing, woodworking, creating items
+| *Religion* | KN | - | Gods, rituals, divine lore
+| *Alchemy* | RE | - | Brewing potions, identifying substances
+| *Crafting* | RE | - | Smithing, woodworking, creating items
 | *Medicine* | RE | Animal | Healing, diagnosis, first aid
-| *Insight* | RE | — | Reading people, detecting lies, intuition
+| *Insight* | RE | - | Reading people, detecting lies, intuition
 |===
 
 == Class DP Cost Matrix

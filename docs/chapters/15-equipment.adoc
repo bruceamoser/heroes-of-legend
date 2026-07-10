@@ -2,12 +2,12 @@
 = Equipment
 
 == Weapons
-Every weapon has fixed Weak, Standard, and Strong damage values. No damage dice — the 3d6 roll already determined how well you struck.
+Every weapon has fixed Weak, Standard, and Strong damage values. No damage dice -- the 3d6 roll already determined how well you struck.
 
 [%header,cols="3,2,3"]
 |===
 | Weapon | Disciplines Required | Damage (W/S/St)
-| Unarmed | — | 1 / 1 / 2
+| Unarmed | - | 1 / 1 / 2
 | Dagger | 1 Blade | 1 / 2 / 3
 | Shortsword | 2 Blades | 2 / 3 / 4
 | Longsword | 1 Blade, 1 Heavy Weapon | 2 / 3 / 5
@@ -23,29 +23,29 @@ Every weapon has fixed Weak, Standard, and Strong damage values. No damage dice 
 |===
 
 [NOTE]
-.Discipline Combinations — Build Your Fighting Style
+.Discipline Combinations -- Build Your Fighting Style
 ====
-Weapons don't just require more of the same Discipline — they require specific combinations. A Longsword needs *Blade training AND Heavy Weapon training*. A Halberd needs *Polearm AND Axe*. This means your Discipline choices define your fighting style. A warrior with 2 Blades and 1 Heavy Weapon can wield a Shortsword with precision or a Longsword with power — but a Greatsword (1 Blade + 2 Heavy Weapons) requires deeper investment in the Heavy Weapon path.
+Weapons don't just require more of the same Discipline -- they require specific combinations. A Longsword needs *Blade training AND Heavy Weapon training*. A Halberd needs *Polearm AND Axe*. This means your Discipline choices define your fighting style. A warrior with 2 Blades and 1 Heavy Weapon can wield a Shortsword with precision or a Longsword with power -- but a Greatsword (1 Blade + 2 Heavy Weapons) requires deeper investment in the Heavy Weapon path.
 
 *Heavy Weapon* Discipline represents training with large, two-handed weapons that rely on momentum and raw force rather than finesse. It gates access to the highest damage tiers.
 ====
 
 *Properties:*
-- *Versatile* — +1 damage when wielded two-handed (Longsword only)
-- *Finesse* — may use Agility modifier instead of Brawn on the 3d6 attack roll
-- *Reach* — can attack targets 10 ft away (Spear, Halberd)
-- *Thrown* — can be thrown (range 20/60 ft: Dagger, Handaxe, Spear)
-- *Light* — can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe)
-- *Loading* — requires a Bonus Action to reload between shots (Crossbow only)
+- *Versatile* -- +1 damage when wielded two-handed (Longsword only)
+- *Finesse* -- may use Agility modifier instead of Brawn on the 3d6 attack roll
+- *Reach* -- can attack targets 10 ft away (Spear, Halberd)
+- *Thrown* -- can be thrown (range 20/60 ft: Dagger, Handaxe, Spear)
+- *Light* -- can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe)
+- *Loading* -- requires a Bonus Action to reload between shots (Crossbow only)
 
 == Armor
-Armor provides damage reduction (DR) — subtract from incoming physical damage.
+Armor provides damage reduction (DR) -- subtract from incoming physical damage.
 
 [%header,cols="3,1,1"]
 |===
 | Armor | Dice Req | DR
-| Padded | — | -1
-| Leather | — | -2
+| Padded | - | -1
+| Leather | - | -2
 | Studded Leather | 1 Armor | -2
 | Chain Shirt | 1 Armor | -3
 | Breastplate | 2 Armor | -4

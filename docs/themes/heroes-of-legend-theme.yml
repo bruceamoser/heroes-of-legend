@@ -1,5 +1,5 @@
-# Heroes of Legend — asciidoctor-pdf theme
-# Style: Fantasy tome — aged parchment, dark brown ink, deep red accents
+# Heroes of Legend -- asciidoctor-pdf theme
+# Style: Fantasy tome -- aged parchment, dark brown ink, deep red accents
 # Based on structural patterns from Neon Relic theme
 
 extends: default
@@ -54,9 +54,9 @@ header:
 footer:
   height: 12mm
   recto:
-    center-content: '*Heroes of Legend* — Core Rules'
+    center-content: '*Heroes of Legend* -- Core Rules'
   verso:
-    center-content: '*Heroes of Legend* — Core Rules'
+    center-content: '*Heroes of Legend* -- Core Rules'
 
 heading:
   h1-font-size: 22

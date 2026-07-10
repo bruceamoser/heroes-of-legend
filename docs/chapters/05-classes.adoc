@@ -1,7 +1,7 @@
 [#chapter-classes]
 = Classes
 
-Your class is your hero's calling — the role you play in the adventuring party.
+Your class is your hero's calling -- the role you play in the adventuring party.
 
 == Class Overview
 
@@ -21,18 +21,18 @@ Your class is your hero's calling — the role you play in the adventuring party
 == The Protector
 *"Stand behind me."*
 
-Front-line defender. Gains 2 Armor and 2 Protection dice. Signature: *Bulwark* — allies within 10 ft reduce incoming damage by 1. Favored skills: Athletics, Intimidation, Melee Combat, Endurance, Resilience (1 DP each).
+Front-line defender. Gains 2 Armor and 2 Protection dice. Signature: *Bulwark* -- allies within 10 ft reduce incoming damage by 1. Favored skills: Athletics, Intimidation, Melee Combat, Endurance, Resilience (1 DP each).
 
 == The Blade
 *"Strike once. Strike true. Strike last."*
 
 Precision assassin. The Blade is the shadow on the wall, the final face
-their enemies see. They master finesse over force — wielding light blades
+their enemies see. They master finesse over force -- wielding light blades
 with surgical precision, exploiting vulnerabilities in armor and anatomy
 alike. Where the Protector holds the line, the Blade ends the threat
 before the line is needed.
 
-Gains 3 dice from Blades (Light Blades). Signature: *Swift Blade* — you
+Gains 3 dice from Blades (Light Blades). Signature: *Swift Blade* -- you
 may use Agility instead of Brawn when attacking with light blades, and
 gain the *Precise Stab* ability. Favored skills: Acrobatics, Stealth,
 Sleight of Hand, Deception, Perception (1 DP each).
@@ -41,7 +41,7 @@ Sleight of Hand, Deception, Perception (1 DP each).
 ====
 *The Blade's Mindset*
 
-A Blade doesn't trade blows — they choose the moment, the angle, the
+A Blade doesn't trade blows -- they choose the moment, the angle, the
 vulnerability, and then they strike once. If the fight is fair, you've
 already made a mistake. Use positioning, surprise, and your allies'
 distractions to create openings. Your damage comes from precision, not
@@ -51,32 +51,32 @@ how hard you swing.
 == The Arcanist
 *"Fire answers to me."*
 
-Arcane spellcaster. Gains 4 dice from Elemental or Energy types. Signature: *Cantrip Adept* — may use two cantrips per turn. Favored skills: Arcana, Alchemy (1 DP each).
+Arcane spellcaster. Gains 4 dice from Elemental or Energy types. Signature: *Cantrip Adept* -- may use two cantrips per turn. Favored skills: Arcana, Alchemy (1 DP each).
 
 == The Shepherd
 *"The light guides my hand."*
 
-Divine healer and protector. Gains 2 Protection, 2 Animal dice. Signature: *Healing Hands* — add +1d4 to all healing effects. Favored skills: Survival, Nature, Religion, Medicine (1 DP each).
+Divine healer and protector. Gains 2 Protection, 2 Animal dice. Signature: *Healing Hands* -- add +1d4 to all healing effects. Favored skills: Survival, Nature, Religion, Medicine (1 DP each).
 
 == The Intellect
 *"I've read about this."*
 
-Knowledge and skill expert. Gains 3 dice of any type (flexible). Signature: *Expertise* — one skill treats its tier as one higher. Favored skills: History, Investigation (1 DP each).
+Knowledge and skill expert. Gains 3 dice of any type (flexible). Signature: *Expertise* -- one skill treats its tier as one higher. Favored skills: History, Investigation (1 DP each).
 
 == The Odd
 *"I have a trick for that."*
 
-Unpredictable wildcard. Gains 3 dice from different categories. Signature: *Wildcard* — once per session, roll on a d6 table for a random bonus. Favored skills: Stealth, Sleight of Hand, Streetwise (1 DP each).
+Unpredictable wildcard. Gains 3 dice from different categories. Signature: *Wildcard* -- once per session, roll on a d6 table for a random bonus. Favored skills: Stealth, Sleight of Hand, Streetwise (1 DP each).
 
 == The Leader
 *"Together, we are unstoppable."*
 
-Party support and buffing. Gains 2 Protection, 1 Energy, 1 any. Signature: *Inspiring Word* — as an action, grant one ally +2 on their next roll. Favored skills: Persuasion, Resilience (1 DP each).
+Party support and buffing. Gains 2 Protection, 1 Energy, 1 any. Signature: *Inspiring Word* -- as an action, grant one ally +2 on their next roll. Favored skills: Persuasion, Resilience (1 DP each).
 
 == The Unbalanced
 *"Power has a price."*
 
-High-risk, high-reward. Gains 2 dice from one type and 2 from its opposite (e.g., 2 Fire + 2 Water). Signature: *Edge of Chaos* — on a Strong hit, deal +2d6 damage but gain 1 Corruption. Favored skills: Melee Combat, Deception, Insight, Arcana (1 DP each).
+High-risk, high-reward. Gains 2 dice from one type and 2 from its opposite (e.g., 2 Fire + 2 Water). Signature: *Edge of Chaos* -- on a Strong hit, deal +2d6 damage but gain 1 Corruption. Favored skills: Melee Combat, Deception, Insight, Arcana (1 DP each).
 
 == Progression
 

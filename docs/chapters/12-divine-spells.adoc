@@ -1,4 +1,4 @@
-// Chapter 12 — Divine Spells
+// Chapter 12 -- Divine Spells
 // Divine prayer chains for Shepherd and divine casters
 
 [#chapter-divine-spells]

@@ -15,10 +15,10 @@ Bruce A. Moser
 [.lead]
 _"Grab your swords. Stow your spell books. Adventure awaits."_
 
-— _Heroes of Legend_
+-- _Heroes of Legend_
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  FRONT MATTER — Copyright, Credits, Legal
+//  FRONT MATTER -- Copyright, Credits, Legal
 // ─────────────────────────────────────────────────────────────────────────────
 
 include::chapters/00-front-matter.adoc[]
@@ -26,7 +26,7 @@ include::chapters/00-front-matter.adoc[]
 <<<
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  PART I — INTRODUCTION
+//  PART I -- INTRODUCTION
 // ─────────────────────────────────────────────────────────────────────────────
 
 include::chapters/01-introduction.adoc[leveloffset=+1]
@@ -34,7 +34,7 @@ include::chapters/01-introduction.adoc[leveloffset=+1]
 include::chapters/01b-opening-fiction.adoc[leveloffset=+1]
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  PART II — CHARACTER CREATION
+//  PART II -- CHARACTER CREATION
 // ─────────────────────────────────────────────────────────────────────────────
 
 <<<
@@ -48,7 +48,7 @@ include::chapters/04-ancestries-cultures.adoc[leveloffset=+1]
 include::chapters/05-classes.adoc[leveloffset=+1]
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  PART III — CORE MECHANICS
+//  PART III -- CORE MECHANICS
 // ─────────────────────────────────────────────────────────────────────────────
 
 <<<
@@ -62,7 +62,7 @@ include::chapters/08-disciplines.adoc[leveloffset=+1]
 include::chapters/09-talents-abilities.adoc[leveloffset=+1]
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  PART IV — MAGIC
+//  PART IV -- MAGIC
 // ─────────────────────────────────────────────────────────────────────────────
 
 <<<
@@ -74,7 +74,7 @@ include::chapters/11-arcane-spells.adoc[leveloffset=+1]
 include::chapters/12-divine-spells.adoc[leveloffset=+1]
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  PART V — COMBAT & EQUIPMENT
+//  PART V -- COMBAT & EQUIPMENT
 // ─────────────────────────────────────────────────────────────────────────────
 
 <<<
@@ -90,7 +90,7 @@ include::chapters/16-armor-shields.adoc[leveloffset=+1]
 include::chapters/17-magic-items.adoc[leveloffset=+1]
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  PART VI — WORLD & GM
+//  PART VI -- WORLD & GM
 // ─────────────────────────────────────────────────────────────────────────────
 
 <<<

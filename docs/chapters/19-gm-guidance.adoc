@@ -13,7 +13,7 @@ Modifiers guide the table. +4 for trivial, +0 for standard, -4 for very difficul
 Balance encounters by comparing total party Disciplines to total enemy threat. A standard encounter matches the party's total. Hard encounters have 1.5×. Deadly encounters have 2×.
 
 == Treasure Pacing
-Award 1-2 magic items per level. Gold should feel meaningful — parties should choose between gear, reveling, and reputation investments.
+Award 1-2 magic items per level. Gold should feel meaningful -- parties should choose between gear, reveling, and reputation investments.
 
 == NPC Creation
 Quick NPC: assign one attribute at +1, one at -1, the rest at 0. Give them one skill at Adept (+2). That's enough for most interactions.
@@ -39,7 +39,7 @@ Overland travel uses a simple pace system. Each day, the party covers distance b
 
 *Camping:* A long rest requires 8 hours of rest including sleep. Characters on watch may make Perception checks at -2 (tired eyes).
 
-> *DA Guidance:* Travel is a pacing tool. Use it to build atmosphere — the oppressive silence of a swamp, the howling wind on a mountain pass. Skip travel entirely when the journey isn't the story. "After three days on the road, you arrive at the gates of Thornwall" is perfectly valid.
+> *DA Guidance:* Travel is a pacing tool. Use it to build atmosphere -- the oppressive silence of a swamp, the howling wind on a mountain pass. Skip travel entirely when the journey isn't the story. "After three days on the road, you arrive at the gates of Thornwall" is perfectly valid.
 
 == Crafting
 Characters with appropriate tools and skills can craft items during downtime.
@@ -65,18 +65,18 @@ Keeping track of supplies adds tension to exploration.
 
 *Light:* Torches last 1 hour and illuminate 30 ft. Lanterns last 6 hours per flask of oil. Total darkness imposes -4 to any roll requiring sight.
 
-*Optional — Resource Dice:* For tables that prefer abstraction, use a Resource Die (d12→d10→d8→d6→d4→Depleted). Roll after each use; on a 1, the die steps down.
+*Optional -- Resource Dice:* For tables that prefer abstraction, use a Resource Die (d12→d10→d8→d6→d4→Depleted). Roll after each use; on a 1, the die steps down.
 
 == Corruption
-Proximity to dark magic, forbidden knowledge, and horrific events can corrupt a hero's spirit. The Unbalanced class embraces this — but any character can be affected.
+Proximity to dark magic, forbidden knowledge, and horrific events can corrupt a hero's spirit. The Unbalanced class embraces this -- but any character can be affected.
 
 *Gaining Corruption:* The DA awards +1 Corruption for witnessing supernatural horrors, using forbidden artifacts, or making desperate bargains. The Unbalanced class gains Corruption as part of their class mechanic.
 
-*Corruption Threshold:* 10 + Fortitude modifier. When a character reaches their threshold, they gain a permanent affliction (DA chooses based on the source — nightmares, physical mutation, madness). At 15+, the character becomes unplayable.
+*Corruption Threshold:* 10 + Fortitude modifier. When a character reaches their threshold, they gain a permanent affliction (DA chooses based on the source -- nightmares, physical mutation, madness). At 15+, the character becomes unplayable.
 
 *Recovery:* 1 Corruption fades per week of rest. Atonement quests, divine intervention, or rare magic can remove larger amounts.
 
-> *Why this exists:* Corruption gives weight to dark choices. When the party debates whether to read the forbidden tome, the cost is real — not abstract. It also gives the Unbalanced class a mechanical identity: they walk the edge willingly.
+> *Why this exists:* Corruption gives weight to dark choices. When the party debates whether to read the forbidden tome, the cost is real -- not abstract. It also gives the Unbalanced class a mechanical identity: they walk the edge willingly.
 
 == Social Conflict (Extended)
 For high-stakes negotiations, interrogations, or trials, use extended social conflict.

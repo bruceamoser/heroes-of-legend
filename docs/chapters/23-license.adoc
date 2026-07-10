@@ -1,4 +1,4 @@
-// Chapter 23 — License
+// Chapter 23 -- License
 // Legal framework
 
 [#chapter-license]

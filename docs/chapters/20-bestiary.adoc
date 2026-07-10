@@ -1,7 +1,7 @@
 [#chapter-bestiary]
 = Bestiary
 
-Monsters use the same rules as heroes — attributes, skills, and W/S/S damage.
+Monsters use the same rules as heroes -- attributes, skills, and W/S/S damage.
 
 == Reading a Stat Block
 [%header,cols="1,3"]
@@ -95,7 +95,7 @@ Monsters use the same rules as heroes — attributes, skills, and W/S/S damage.
 
 == Oozes
 
-*Gelatinous Cube (Challenge 3):* HP 20, DR 1. Pseudopod: 3/4/6 acid. Engulf: moves into target space — Restrained + 4/6/9 acid per round acid per round). Transparent: requires Standard Investigation check to notice when motionless.
+*Gelatinous Cube (Challenge 3):* HP 20, DR 1. Pseudopod: 3/4/6 acid. Engulf: moves into target space -- Restrained + 4/6/9 acid per round acid per round). Transparent: requires Standard Investigation check to notice when motionless.
 
 == Encounter Building
 

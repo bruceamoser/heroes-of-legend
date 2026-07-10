@@ -1,4 +1,4 @@
-// Chapter 00 — Front Matter
+// Chapter 00 -- Front Matter
 // Copyright, credits, and legal notices
 
 [discrete]
@@ -6,7 +6,7 @@
 
 [.text-center]
 *Heroes of Legend* +
-Core Rules — First Edition
+Core Rules -- First Edition
 
 Version 0.1.0 (Draft)
 

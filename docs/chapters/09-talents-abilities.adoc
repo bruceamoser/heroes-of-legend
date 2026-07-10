@@ -31,13 +31,13 @@ Available to all classes.
 == Class Talents
 Each class has 2-3 exclusive talents.
 
-*Protector:* *Shield Wall* (Adept) — adjacent allies gain +1 DR. *Unbreakable* (Master) — once per session, ignore all damage from one attack.
+*Protector:* *Shield Wall* (Adept) -- adjacent allies gain +1 DR. *Unbreakable* (Master) -- once per session, ignore all damage from one attack.
 
-*Blade:* *Weapon Focus* (Adept) — +1 damage with chosen weapon category. *Death Blow* (Master) — on Critical, deal maximum Strong damage + roll critical bonus twice.
+*Blade:* *Weapon Focus* (Adept) -- +1 damage with chosen weapon category. *Death Blow* (Master) -- on Critical, deal maximum Strong damage + roll critical bonus twice.
 
-*Arcanist:* *Spell Weaver* (Adept) — maintain two concentration spells. *Arcane Reservoir* (Master) — once per session, cast a Master spell twice.
+*Arcanist:* *Spell Weaver* (Adept) -- maintain two concentration spells. *Arcane Reservoir* (Master) -- once per session, cast a Master spell twice.
 
-*Shepherd:* *Blessed Touch* (Adept) — healing spells always use Standard effect minimum. *Divine Intervention* (Master) — once per session, prevent an ally's death.
+*Shepherd:* *Blessed Touch* (Adept) -- healing spells always use Standard effect minimum. *Divine Intervention* (Master) -- once per session, prevent an ally's death.
 
 == Ability Chains
 Abilities (including spells) follow the same Novice → Adept → Master chain structure. See xref:chapters/10-magic-system.adoc[Magic System] for spell chains.
