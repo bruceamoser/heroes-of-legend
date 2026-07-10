@@ -7,10 +7,10 @@ Skills represent what your hero has learned to do.
 
 [%header,cols="1,1,2,4"]
 |===
-| Tier | Bonus | DP Cost (Favored) | DP Cost (Cross-Class)
-| *Novice* | +1 | 1 DP | 2-4 DP
-| *Adept* | +2 | 2 DP | 3-6 DP
-| *Master* | +3 | 4 DP | 6-8 DP
+| Tier | Bonus | DP Cost (X1) | DP Cost (X2)
+| *Novice* | +1 | 1 DP | 2 DP
+| *Adept* | +2 | 2 DP | 4 DP
+| *Master* | +3 | 3 DP | 6 DP
 |===
 
 == Skill List
@@ -20,13 +20,19 @@ Skills represent what your hero has learned to do.
 | Skill | Attr | Dice | Description
 | *Athletics* | BR | - | Climbing, swimming, jumping, feats of strength
 | *Intimidation* | BR | - | Frightening foes, coercion through force
-| *Melee Combat* | BR | Blades/Axes/etc. | Fighting with melee weapons
+| *Blades Fighting* | BR | Blades | Fighting with swords, daggers, and light blades
+| *Axe Fighting* | BR | Axes | Fighting with axes, hatchets, and cleaving weapons
+| *Polearms Fighting* | BR | Polearms | Fighting with spears, halberds, and reach weapons
+| *Heavy Weapon Fighting* | BR | Heavy Weapon | Fighting with greatswords, mauls, and massive weapons
+| *Unarmed Fighting* | BR | Unarmed | Fists, grappling, and improvised brawling
 | *Endurance* | FO | - | Resisting fatigue, holding breath, forced marches
 | *Survival* | FO | Animal | Tracking, foraging, navigating wilderness
 | *Resilience* | FO | - | Resisting poison, disease, extreme temperatures
 | *Acrobatics* | AG | - | Balancing, tumbling, escaping restraints
 | *Stealth* | AG | - | Sneaking, hiding, moving silently
-| *Ranged Combat* | AG | Archery | Fighting with bows and crossbows
+| *Bow Fighting* | AG | Archery | Fighting with longbows and shortbows
+| *Thrown Weapon* | AG | - | Fighting with throwing knives, axes, and javelins
+| *Crossbow Fighting* | AG | - | Fighting with crossbows
 | *Sleight of Hand* | AG | - | Pickpocketing, lockpicking, legerdemain
 | *Deception* | GU | - | Lying, bluffing, disguising intent
 | *Persuasion* | GU | - | Diplomacy, negotiation, charm
@@ -47,26 +53,32 @@ Skills represent what your hero has learned to do.
 [%header,cols="3,1,1,1,1,1,1,1,1"]
 |===
 | Skill | Protector | Blade | Arcanist | Shepherd | Intellect | Odd | Leader | Unbalanced
-| Athletics | 1 | 2 | 3 | 2 | 2 | 2 | 2 | 2
-| Intimidation | 1 | 2 | 3 | 3 | 2 | 2 | 2 | 2
-| Melee Combat | 1 | 1 | 3 | 2 | 2 | 2 | 2 | 1
-| Endurance | 1 | 2 | 3 | 2 | 2 | 2 | 2 | 2
-| Survival | 2 | 2 | 3 | 1 | 2 | 2 | 2 | 2
-| Resilience | 1 | 2 | 3 | 2 | 2 | 2 | 1 | 2
-| Acrobatics | 2 | 1 | 3 | 3 | 2 | 1 | 2 | 2
-| Stealth | 3 | 2 | 3 | 3 | 3 | 1 | 3 | 2
-| Ranged Combat | 2 | 1 | 3 | 3 | 2 | 2 | 2 | 2
-| Sleight of Hand | 3 | 2 | 3 | 3 | 2 | 1 | 3 | 2
-| Deception | 3 | 3 | 2 | 2 | 2 | 2 | 2 | 1
-| Persuasion | 2 | 3 | 2 | 2 | 2 | 2 | 1 | 2
-| Streetwise | 3 | 3 | 3 | 2 | 2 | 1 | 2 | 2
-| Arcana | 4 | 3 | 1 | 2 | 2 | 2 | 3 | 1
-| History | 3 | 3 | 2 | 2 | 1 | 2 | 2 | 2
-| Investigation | 3 | 3 | 2 | 2 | 1 | 2 | 2 | 2
-| Nature | 3 | 3 | 2 | 1 | 2 | 2 | 3 | 2
-| Religion | 3 | 4 | 2 | 1 | 2 | 2 | 2 | 2
-| Alchemy | 4 | 4 | 1 | 2 | 2 | 2 | 3 | 2
-| Crafting | 3 | 2 | 2 | 2 | 2 | 2 | 3 | 2
-| Medicine | 3 | 4 | 3 | 1 | 2 | 2 | 2 | 2
-| Insight | 2 | 3 | 2 | 2 | 2 | 2 | 2 | 1
+| Athletics | 1 | 2 | 2 | 2 | 2 | 2 | 2 | 2
+| Intimidation | 1 | 2 | 2 | 2 | 2 | 2 | 2 | 2
+| Blades Fighting | 1 | 1 | 2 | 2 | 2 | 2 | 1 | 2
+| Axe Fighting | 1 | 2 | 2 | 2 | 2 | 2 | 2 | 2
+| Polearms Fighting | 1 | 2 | 2 | 2 | 2 | 2 | 1 | 2
+| Heavy Weapon Fighting | 1 | 2 | 2 | 2 | 2 | 2 | 2 | 2
+| Unarmed Fighting | 1 | 1 | 2 | 2 | 2 | 2 | 2 | 1
+| Endurance | 1 | 2 | 2 | 2 | 2 | 2 | 2 | 2
+| Survival | 2 | 2 | 2 | 1 | 2 | 2 | 2 | 2
+| Resilience | 1 | 2 | 2 | 2 | 2 | 2 | 1 | 2
+| Acrobatics | 2 | 1 | 2 | 2 | 2 | 1 | 2 | 2
+| Stealth | 2 | 1 | 2 | 2 | 2 | 1 | 2 | 2
+| Bow Fighting | 2 | 1 | 2 | 2 | 2 | 2 | 2 | 2
+| Thrown Weapon | 2 | 1 | 2 | 2 | 2 | 2 | 2 | 2
+| Crossbow Fighting | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2
+| Sleight of Hand | 2 | 1 | 2 | 2 | 2 | 1 | 2 | 2
+| Deception | 2 | 1 | 2 | 2 | 2 | 1 | 2 | 1
+| Persuasion | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2
+| Streetwise | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2
+| Arcana | 2 | 2 | 1 | 2 | 1 | 2 | 2 | 1
+| History | 2 | 2 | 1 | 2 | 1 | 2 | 2 | 2
+| Investigation | 2 | 2 | 1 | 2 | 1 | 2 | 2 | 2
+| Nature | 2 | 2 | 2 | 1 | 2 | 2 | 2 | 2
+| Religion | 2 | 2 | 2 | 1 | 2 | 2 | 2 | 2
+| Alchemy | 2 | 2 | 1 | 2 | 2 | 2 | 2 | 2
+| Crafting | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2
+| Medicine | 2 | 2 | 2 | 1 | 1 | 2 | 2 | 2
+| Insight | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 1
 |===

@@ -274,7 +274,7 @@ for a random bonus.
 
 *Step 7 -- Class DP (8 DP):*
 - Archery Discipline (1 DP)
-- Ranged Combat Novice (1 DP, favored)
+- Bow Fighting Novice (1 DP, favored)
 - Stealth → Adept (2 DP)
 - Deception → Adept (2 DP)
 - Evasion Novice (1 DP)
