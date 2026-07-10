@@ -7,8 +7,8 @@ you'll remember for years. This is a game about rolling dice and making
 choices — but mostly it's about sitting around a table with your friends and
 saying, "Remember that time Kael charged the dragon?"
 
-Here's how it works. You create a hero — a Protector, a Blade, an Arcanist, or
-something entirely your own. One player takes on the role of the Dungeon
+Here's how it works. You create a hero — a Protector, a Blade, an Arcanist, or one of five other
+classes — each with their own way of approaching the world. One player takes on the role of the Dungeon
 Architect (DA for short). The DA describes the world. You decide what your
 hero does. The dice tell you how it goes. That's it. That's the whole game.
 Everything else is details — and this book is full of them, because the
@@ -100,9 +100,11 @@ the fight. You're not waiting to "hit"; you're waiting to land the blow that
 
 == Example of Play
 
-Kael is a dwarf Blade. Lyra is a halfling Odd. Their DA, Morgan, has been
-running them through a goblin-infested ruin for the past hour. They've just
-kicked down the door to the chieftain's chamber.
+Kael is a dwarf Blade — a melee striker who lives for the moment steel meets
+bone. Lyra is a halfling Odd — an unpredictable wildcard whose enemies never
+know what she'll do next (and neither do her friends, honestly). Their DA,
+Morgan, has been running them through a goblin-infested ruin for the past hour.
+They've just kicked down the door to the chieftain's chamber.
 
 *Morgan (DA):* "The goblin chieftain rises from his throne of salvaged shields.
 He's easily seven feet of scar tissue and bad decisions. He raises a rusted axe
