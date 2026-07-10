@@ -9,7 +9,7 @@ Your class is your hero's calling — the role you play in the adventuring party
 |===
 | Class | Role | Primary Dice | Signature
 | *Protector* | Tank, defender | Armor, Protection | Damage reduction aura
-| *Blade* | Melee striker | Blades, Axes, Polearms, Great Weapons | Bonus damage on Strong
+| *Blade* | Assassin, precision striker | Blades (Light Blades) | Swift Blade (Agility-based attacks)
 | *Arcanist* | Arcane caster | Fire, Wind, Energy, Water, Earth | Cantrip mastery
 | *Shepherd* | Divine caster | Protection, Animal, Energy | Bonus healing
 | *Intellect* | Knowledge expert | (flexible, 3 of any) | Skill expertise
@@ -24,9 +24,29 @@ Your class is your hero's calling — the role you play in the adventuring party
 Front-line defender. Gains 2 Armor and 2 Protection dice. Signature: *Bulwark* — allies within 10 ft reduce incoming damage by 1. Favored skills: Athletics, Intimidation, Melee Combat, Endurance, Resilience (1 DP each).
 
 == The Blade
-*"I am the weapon."*
+*"Strike once. Strike true. Strike last."*
 
-Melee damage dealer. Gains 3 dice from Blades, Axes, Polearms, or Great Weapons. Signature: *Lethal Strike* — on a Strong hit, add +1d6 damage. Favored skills: Melee Combat, Acrobatics, Ranged Combat (1 DP each).
+Precision assassin. The Blade is the shadow on the wall, the final face
+their enemies see. They master finesse over force — wielding light blades
+with surgical precision, exploiting vulnerabilities in armor and anatomy
+alike. Where the Protector holds the line, the Blade ends the threat
+before the line is needed.
+
+Gains 3 dice from Blades (Light Blades). Signature: *Swift Blade* — you
+may use Agility instead of Brawn when attacking with light blades, and
+gain the *Precise Stab* ability. Favored skills: Acrobatics, Stealth,
+Sleight of Hand, Deception, Perception (1 DP each).
+
+[NOTE]
+====
+*The Blade's Mindset*
+
+A Blade doesn't trade blows — they choose the moment, the angle, the
+vulnerability, and then they strike once. If the fight is fair, you've
+already made a mistake. Use positioning, surprise, and your allies'
+distractions to create openings. Your damage comes from precision, not
+how hard you swing.
+====
 
 == The Arcanist
 *"Fire answers to me."*

@@ -100,8 +100,9 @@ the fight. You're not waiting to "hit"; you're waiting to land the blow that
 
 == Example of Play
 
-Kael is a dwarf Blade — a melee striker who lives for the moment steel meets
-bone. Lyra is a halfling Odd — an unpredictable wildcard whose enemies never
+Kael is a dwarf Blade — a shadow on the wall, the last face his enemies
+see. He strikes with precision, not fury, and his light blades find the gaps
+in any armor. Lyra is a halfling Odd — an unpredictable wildcard whose enemies never
 know what she'll do next (and neither do her friends, honestly). Their DA,
 Morgan, has been running them through a goblin-infested ruin for the past hour.
 They've just kicked down the door to the chieftain's chamber.
