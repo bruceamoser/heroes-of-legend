@@ -269,9 +269,14 @@ roll on a d6 backlash table -- self-damage, a fleeting condition, or an
 environmental surge that affects everyone, friend and foe alike.
 *Favored Skills (X1):* Arcana, Deception, Insight, Intimidation,
 Melee Combat
-*Favored Disciplines (X1):* Your two opposing Elemental types, plus Energy.
-*Out of Class (X3):* Armor, Protection, and all weapons. Armor is for
-people who fear what's inside them. You don't.
+*Favored Disciplines (X1):* Your two opposing Elemental types, plus Energy
+and Unarmed.
+*Out of Class (X3):* The two Elemental types you didn't pick, all other
+weapons, Armor, and Protection. You channel chaos through your body and
+your spells -- everything else is a distraction.
+
+From Animal, Plants, Summon, Life, Religion, and Mind, pick 2 to be X1,
+2 to be X2, and 2 to be X3. The chaos bends where you choose.
 
 [NOTE]
 ====
@@ -316,7 +321,7 @@ more.
 
 [%header,cols="2,1,1,1,1,1,1,1,1"]
 |===
-| Discipline | Protector | Blade | Arcanist | Shepherd | Intellect | Odd^‡^ | Leader | Unbalanced^†^
+| Discipline | Protector | Blade | Arcanist | Shepherd | Intellect | Odd^§^ | Leader | Unbalanced^†^
 | *Fire* | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^†^
 | *Earth* | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^†^
 | *Wind* | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^†^
@@ -327,19 +332,23 @@ more.
 | *Polearms* | X1 | X2 | X3 | X3 | X2 | X2 | X1 | X3
 | *Archery* | X2 | X1 | X3 | X3 | X2 | X2 | X2 | X3
 | *Heavy Weapon* | X1 | X3 | X3 | X3 | X3 | X2 | X2 | X3
-| *Unarmed* | X1 | X1 | X3 | X2 | X3 | X2 | X2 | X3
+| *Unarmed* | X1 | X1 | X3 | X2 | X3 | X2 | X2 | X1
 | *Protection* | X1 | X2 | X3 | X1 | X2 | X2 | X1 | X3
 | *Armor* | X1 | X3 | X3 | X3 | X3 | X2 | X2 | X3
-| *Animal* | X2 | X3 | X2 | X1 | X2 | X2 | X2 | X3
-| *Plants* | X3 | X3 | X2 | X1 | X1 | X2 | X3 | X3
-| *Summon* | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X2
-| *Life* | X3 | X3 | X2 | X1 | X1 | X2 | X2 | X3
-| *Religion* | X3 | X3 | X3 | X1 | X1 | X2 | X2 | X3
-| *Mind* | X3 | X3 | X1 | X2 | X1 | X2 | X2 | X2
+| *Animal* | X2 | X3 | X2 | X1 | X2 | X2 | X2 | ‡
+| *Plants* | X3 | X3 | X2 | X1 | X1 | X2 | X3 | ‡
+| *Summon* | X3 | X3 | X1 | X3 | X2 | X2 | X3 | ‡
+| *Life* | X3 | X3 | X2 | X1 | X1 | X2 | X2 | ‡
+| *Religion* | X3 | X3 | X3 | X1 | X1 | X2 | X2 | ‡
+| *Mind* | X3 | X3 | X1 | X2 | X1 | X2 | X2 | ‡
 |===
 
-^†^ Unbalanced: pick two opposing Elemental types at Level 1 -- those
-become X1. The other two remain X2.
+^†^ Unbalanced Elemental: pick two opposing types at Level 1 -- those
+become X1. The other two become *X3*.
 
-^‡^ Odd: pick 3 Disciplines at Level 1 -- those become X1. Everything else
-is X2. No X3 restrictions -- the Odd can make anything work.
+^‡^ Unbalanced: from Animal, Plants, Summon, Life, Religion, and Mind --
+pick 2 to be X1, 2 to be X2, and 2 to be X3. You decide where the chaos
+bends in your favor.
+
+^§^ Odd: pick 3 Disciplines at Level 1 -- those become X1. Everything else
+is X2. No X3 restrictions.
