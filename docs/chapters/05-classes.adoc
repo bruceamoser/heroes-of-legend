@@ -44,11 +44,11 @@ keeping the ability to strike back when needed.
 *Signature -- Bastion:* Spend your movement to enter a defensive stance.
 Add +1 to your Protection Value for the round. At higher levels, this bonus
 increases.
-*Favored Skills (standard cost):* Athletics, Endurance, Intimidation,
+*Favored Skills (X1):* Athletics, Endurance, Intimidation,
 Melee Combat, Resilience
-*Favored Disciplines (standard cost):* Armor, Protection
-*Costs More:* Elemental Disciplines (Fire, Earth, Wind, Water) and Energy
-cost +1 DP per rank. You're a wall, not a wizard.
+*Favored Disciplines (X1):* Armor, Protection
+*Out of Class (X3):* Elemental Disciplines (Fire, Earth, Wind, Water) and
+Energy. You're a wall, not a wizard.
 
 [NOTE]
 ====
@@ -74,11 +74,11 @@ the shadow on the wall, the final face your enemies see.
 *Signature -- Swift Blade:* You may use Agility instead of Brawn when
 attacking with blades. Gain the *Precise Stab* ability -- bonus
 damage when exploiting an opening.
-*Favored Skills (standard cost):* Acrobatics, Deception, Perception,
+*Favored Skills (X1):* Acrobatics, Deception, Perception,
 Sleight of Hand, Stealth
-*Favored Disciplines (standard cost):* Blades, Archery
-*Costs More:* Armor, Heavy Weapon, and Elemental Disciplines cost +1 DP
-per rank. You're precision, not brute force.
+*Favored Disciplines (X1):* Blades, Archery
+*Out of Class (X3):* Armor, Heavy Weapon, Elemental, and Energy. You're
+precision, not brute force.
 
 [NOTE]
 ====
@@ -105,12 +105,12 @@ how well.
 *Signature -- Arcane Shield:* As a free action, raise a protective ward
 that increases your Evasion by +1 for the round. At higher levels, this
 shield grows stronger. Once per round.
-*Favored Skills (standard cost):* Alchemy, Arcana, History, Investigation,
+*Favored Skills (X1):* Alchemy, Arcana, History, Investigation,
 Lore (any)
-*Favored Disciplines (standard cost):* Energy and all Elemental types
+*Favored Disciplines (X1):* Energy and all Elemental types
 (Fire, Earth, Wind, Water). Magic is what you do.
-*Costs More:* Armor, Heavy Weapon, and Axes cost +1 DP per rank. You
-didn't spend decades studying the arcane to wear plate mail.
+*Out of Class (X3):* Armor, Heavy Weapon, and Axes. You didn't spend
+decades studying the arcane to wear plate mail.
 
 [NOTE]
 ====
@@ -138,10 +138,10 @@ beyond death's reach fear your presence.
 *Signature -- Turn Undead:* Call down divine energy that ignores armor and
 affects only undead creatures within your presence. Your faith burns what
 should not walk.
-*Favored Skills (standard cost):* Medicine, Nature, Religion, Survival
-*Favored Disciplines (standard cost):* Protection, Animal
-*Costs More:* Elemental Disciplines and Energy cost +1 DP per rank. Your
-power flows from faith, not formulas.
+*Favored Skills (X1):* Medicine, Nature, Religion, Survival
+*Favored Disciplines (X1):* Protection, Animal
+*Out of Class (X3):* Elemental Disciplines and Energy. Your power flows
+from faith, not formulas.
 
 [NOTE]
 ====
@@ -167,11 +167,12 @@ weight, guiding allies through the darkest times.
 *Class Discipline (L1):* Any one (your choice, reflecting your field)
 *Signature -- Knowledge Is Power:* Gain +1 to all Knowledge-based skill
 checks. This increases at higher levels.
-*Favored Skills (standard cost):* History, Investigation, Lore (any
+*Favored Skills (X1):* History, Investigation, Lore (any
 three), Medicine, Arcana
-*Favored Disciplines (standard cost):* All Disciplines cost the standard
-rate for you. The Intellect's gift is breadth -- you study everything.
-*Costs More:* Nothing. Your mind is your weapon; no path is closed to you.
+*Favored Disciplines (X1):* All Disciplines cost X1 for you. The
+Intellect's gift is breadth -- you study everything.
+*Out of Class (X3):* None. Your mind is your weapon; no path is closed
+to you.
 
 [NOTE]
 ====
@@ -201,11 +202,11 @@ Defense, take an Elemental or Energy).
 *Signature -- Eccentric Spellcasting:* Choose one arcane ability and one
 divine ability. You ignore prerequisite Disciplines for these two (level
 requirements still apply). You need no arcane focus or holy symbol.
-*Favored Skills (standard cost):* Sleight of Hand, Stealth, Streetwise,
+*Favored Skills (X1):* Sleight of Hand, Stealth, Streetwise,
 Deception, Acrobatics
-*Favored Disciplines (standard cost):* All Disciplines cost the standard
-rate. The Odd's gift is unpredictability -- no path is denied to you.
-*Costs More:* Nothing. You're weird. Weird works.
+*Favored Disciplines (X1):* All Disciplines cost X1 for you. The Odd's
+gift is unpredictability -- no path is denied to you.
+*Out of Class (X3):* None. You're weird. Weird works.
 
 [NOTE]
 ====
@@ -231,10 +232,10 @@ companions toward a brighter future. In your presence, unity flourishes.
 *Signature -- Lead by Example:* When you land a telling blow on an enemy,
 grant one ally who witnessed it a +2 bonus on their next roll. Your
 actions inspire greatness in others.
-*Favored Skills (standard cost):* Persuasion, Resilience, Perception, Insight
-*Favored Disciplines (standard cost):* Protection, Energy
-*Costs More:* Elemental Disciplines cost +1 DP per rank. You lead from
-the front, not from a spellbook.
+*Favored Skills (X1):* Persuasion, Resilience, Perception, Insight
+*Favored Disciplines (X1):* Protection, Energy
+*Out of Class (X3):* Elemental Disciplines. You lead from the front, not
+from a spellbook.
 
 [NOTE]
 ====
@@ -262,11 +263,11 @@ uncertainty of the fray.
 *Signature -- Edge of Chaos:* On a Strong hit, deal +4 bonus damage but
 roll on a d6 backlash table -- self-damage, a fleeting condition, or an
 environmental surge that affects everyone, friend and foe alike.
-*Favored Skills (standard cost):* Arcana, Deception, Insight, Intimidation,
+*Favored Skills (X1):* Arcana, Deception, Insight, Intimidation,
 Melee Combat
-*Favored Disciplines (standard cost):* Your two opposing Elemental types.
-*Costs More:* Armor and Protection cost +1 DP per rank. Armor is for
-people who fear what's inside them. You don't.
+*Favored Disciplines (X1):* Your two opposing Elemental types.
+*Out of Class (X3):* Armor and Protection. Armor is for people who fear
+what's inside them. You don't.
 
 [NOTE]
 ====
@@ -287,27 +288,38 @@ carry over. That's it.
 *Adept* abilities unlock at Level 3. *Master* abilities unlock at Level 7.
 Until then, everything you buy is Novice.
 
-== Favored Costs
+== Costs
 
-Your class makes some things cheaper. Skills listed as *Favored* cost the
-standard rate. Everything else costs +1 DP more.
+Everything you buy has a cost multiplier based on your class:
 
-Disciplines listed as *Favored* cost the standard rate (1 DP for first
-rank, 2 DP for second, 4 DP for third). Disciplines your class actively
-discourages cost +1 DP per rank.
+[%header,cols="3,1,1,1"]
+|===
+| | X1 (Favored) | X2 (Neutral) | X3 (Out of Class)
+| *Skill* (N / A / M) | 1 / 2 / 3 DP | 2 / 4 / 6 DP | 3 / 6 / 9 DP
+| *Discipline* (1st / 2nd / 3rd rank) | 1 / 2 / 4 DP | 2 / 4 / 8 DP | 3 / 6 / 12 DP
+| *Ability* (N / A / M) | 1 / 2 / 4 DP | 1 / 2 / 4 DP | 1 / 2 / 4 DP
+|===
 
-This is how your class shapes your hero -- not by forbidding anything,
-but by making your natural path the affordable one.
+*Abilities always cost 1/2/4 DP* regardless of class. Their real gate is
+Discipline prerequisites. A Fireball needs 2 Fire + 1 Energy -- if those
+Disciplines cost you X3, you're paying 9 DP just for the prereqs before
+you even buy the ability. That's the brake on out-of-class magic, not the
+ability cost itself.
+
+*Skills* use X1 (listed in your class entry) and X2 (everything else).
+No class has X3 skills -- anyone can learn anything, it just costs more.
 
 [%header,cols="2,3,3"]
 |===
-| Class | Favored Disciplines (standard cost) | Costs +1 DP/rank
+| Class | Favored Disciplines (X1) | Out of Class (X3)
 | *Protector* | Armor, Protection | Elemental, Energy
-| *Blade* | Blades, Archery | Armor, Heavy Weapon, Elemental
+| *Blade* | Blades, Archery | Armor, Heavy Weapon, Elemental, Energy
 | *Arcanist* | Energy, all Elemental | Armor, Heavy Weapon, Axes
 | *Shepherd* | Protection, Animal | Elemental, Energy
-| *Intellect* | All (standard for everything) | --
-| *Odd* | All (standard for everything) | --
+| *Intellect* | All (X1 for everything) | --
+| *Odd* | All (X1 for everything) | --
 | *Leader* | Protection, Energy | Elemental
 | *Unbalanced* | Two opposing Elemental | Armor, Protection
 |===
+
+Everything not listed as X1 or X3 is *X2* -- learnable, but at double cost.
