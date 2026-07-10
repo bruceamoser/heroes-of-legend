@@ -206,11 +206,11 @@ divine ability. You ignore prerequisite Disciplines for these two (level
 requirements still apply). You need no arcane focus or holy symbol.
 *Favored Skills (X1):* Sleight of Hand, Stealth, Streetwise,
 Deception, Acrobatics
-*Favored Disciplines (X1):* None. Everything is X2.
-*Out of Class (X3):* None. The Odd gets no cost breaks -- and no forbidden
-paths. You pay the same moderate price for everything. Your real power is
-*Eccentric Spellcasting*: free abilities that ignore prerequisites. You
-don't need cheap Disciplines when you can skip them entirely.
+*Favored Disciplines (X1):* Pick 3 Disciplines of your choice at Level 1.
+Everything else is X2.
+*Out of Class (X3):* None. The Odd can make anything work -- you just
+don't get cost breaks on everything. Your real power is *Eccentric
+Spellcasting*: free abilities that ignore prerequisites.
 
 [NOTE]
 ====
@@ -316,7 +316,7 @@ more.
 
 [%header,cols="2,1,1,1,1,1,1,1,1"]
 |===
-| Discipline | Protector | Blade | Arcanist | Shepherd | Intellect | Odd | Leader | Unbalanced
+| Discipline | Protector | Blade | Arcanist | Shepherd | Intellect | Odd^‡^ | Leader | Unbalanced^†^
 | *Fire* | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^†^
 | *Earth* | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^†^
 | *Wind* | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^†^
@@ -340,3 +340,6 @@ more.
 
 ^†^ Unbalanced: pick two opposing Elemental types at Level 1 -- those
 become X1. The other two remain X2.
+
+^‡^ Odd: pick 3 Disciplines at Level 1 -- those become X1. Everything else
+is X2. No X3 restrictions -- the Odd can make anything work.
