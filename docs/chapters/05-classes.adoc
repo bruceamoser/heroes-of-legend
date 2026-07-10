@@ -1,95 +1,285 @@
 [#chapter-classes]
 = Classes
 
-Your class is your hero's calling -- the role you play in the adventuring party.
+Your class is your hero's calling. It's not a job -- it's who you are when
+the torches gutter and the door slams shut behind you. Eight classes. Eight
+ways to face the darkness. Pick the one that makes you grin.
+
+[NOTE]
+====
+*Classes Shape, Don't Limit*
+
+Your class gives you starting Disciplines, a signature ability, and
+guidance on what you're good at. It does not restrict what skills or
+abilities you can buy -- only what comes easily. A Protector who studies
+Arcana is unusual. That's the point. Be unusual.
+====
 
 == Class Overview
 
-[%header,cols="2,3,3,3"]
+[%header,cols="2,2,3,3"]
 |===
-| Class | Role | Primary Dice | Signature
-| *Protector* | Tank, defender | Armor, Protection | Damage reduction aura
-| *Blade* | Assassin, precision striker | Blades (Light Blades) | Swift Blade (Agility-based attacks)
-| *Arcanist* | Arcane caster | Fire, Wind, Energy, Water, Earth | Cantrip mastery
-| *Shepherd* | Divine caster | Protection, Animal, Energy | Bonus healing
-| *Intellect* | Knowledge expert | (flexible, 3 of any) | Skill expertise
-| *Odd* | Wildcard | (3 of any, different categories) | Random bonus
-| *Leader* | Support | Protection, Energy | Ally buffs
-| *Unbalanced* | High-risk | 2 opposing pairs | Corruption mechanic
+| Class | Role | Starting Disciplines | Signature
+| *Protector* | Tank, defender | Armor(2), Protection(2) | *Bastion* -- defensive stance
+| *Blade* | Assassin, precision | Blades [Light](3) | *Swift Blade* + *Precise Stab*
+| *Arcanist* | Arcane caster | Elemental/Energy(4) | *Arcane Shield* -- protective ward
+| *Shepherd* | Divine guide | Protection(2), Animal(2) | *Turn Undead* -- divine banishment
+| *Intellect* | Scholar, strategist | Any(3) | *Knowledge Is Power* -- Knowledge +1
+| *Odd* | Chaos wildcard | Any, different categories(3) | *Eccentric Spellcasting* -- free spells
+| *Leader* | Front-line commander | Protection(2), Energy(1), Any(1) | *Lead by Example* -- inspire allies
+| *Unbalanced* | High-risk power | Opposing pair(2+2) | *Edge of Chaos* -- bonus damage + backlash
 |===
 
 == The Protector
 *"Stand behind me."*
 
-Front-line defender. Gains 2 Armor and 2 Protection dice. Signature: *Bulwark* -- allies within 10 ft reduce incoming damage by 1. Favored skills: Athletics, Intimidation, Melee Combat, Endurance, Resilience (1 DP each).
+The Protector stands at the vanguard, using body and armor as a shield for
+those in their care. You are the anchor -- built on Brawn and Fortitude,
+trained to absorb blows that would fell lesser heroes. Your pride is not in
+the enemies you slay but in the allies who walk away unharmed because you
+stood in the gap. You pursue ever-better ways to fortify your resilience while
+keeping the ability to strike back when needed.
+
+*Starting Disciplines:* Armor (2), Protection (2)
+*Signature -- Bastion:* Spend your mobility purely on defense, and add +1 to
+your Protection Value for the round. At higher levels, this increases.
+*Favored Skills (1 DP each):* Athletics, Endurance, Intimidation, Melee
+Combat, Resilience
+
+[NOTE]
+====
+*The Protector's Mindset*
+
+You're not "the boring one." You're the reason the Blade gets to do their
+job without dying. Position yourself between the monster and the squishy
+people. Make the DA attack you -- you can take it. When you raise your
+shield, everyone behind it breathes easier.
+====
 
 == The Blade
 *"Strike once. Strike true. Strike last."*
 
-Precision assassin. The Blade is the shadow on the wall, the final face
-their enemies see. They master finesse over force -- wielding light blades
-with surgical precision, exploiting vulnerabilities in armor and anatomy
-alike. Where the Protector holds the line, the Blade ends the threat
-before the line is needed.
+The Blade masters the art of finesse and precision, favoring the swift
+elegance of light blades. Your expertise lies in meticulously placed
+stabs, exploiting vulnerabilities with the sharpness and agility of your
+weapons. Keyed to Guile, you weave through the battlefield, striking with
+calculated precision -- each strike as effective as it is lethal. You are
+the shadow on the wall, the final face your enemies see.
 
-Gains 3 dice from Blades (Light Blades). Signature: *Swift Blade* -- you
-may use Agility instead of Brawn when attacking with light blades, and
-gain the *Precise Stab* ability. Favored skills: Acrobatics, Stealth,
-Sleight of Hand, Deception, Perception (1 DP each).
+*Starting Disciplines:* Blades [Light] (3)
+*Signature -- Swift Blade:* You may use Agility instead of Brawn when
+attacking with light blades. Gain the *Precise Stab* ability -- bonus
+damage when exploiting an opening.
+*Favored Skills (1 DP each):* Acrobatics, Deception, Perception, Sleight
+of Hand, Stealth
 
 [NOTE]
 ====
 *The Blade's Mindset*
 
 A Blade doesn't trade blows -- they choose the moment, the angle, the
-vulnerability, and then they strike once. If the fight is fair, you've
-already made a mistake. Use positioning, surprise, and your allies'
-distractions to create openings. Your damage comes from precision, not
-how hard you swing.
+vulnerability, then strike once. If the fight is fair, you've already
+made a mistake. Use positioning, surprise, and your allies' distractions
+to create openings. Your damage comes from precision, not brute force.
 ====
 
 == The Arcanist
 *"Fire answers to me."*
 
-Arcane spellcaster. Gains 4 dice from Elemental or Energy types. Signature: *Cantrip Adept* -- may use two cantrips per turn. Favored skills: Arcana, Alchemy (1 DP each).
+The Arcanist delves into the mysteries of arcane energies, mastering their
+manipulation to bend the fabric of reality. Your focus is harnessing these
+powerful forces, channeling them into spells that devastate foes and alter
+the course of battle. Keyed to Knowledge, you weave complex incantations
+with deep understanding, summoning energies that shimmer with potential.
+Every spell fires. Every single one. The question is never *if* -- only
+how well.
+
+*Starting Disciplines:* Four from Fire, Wind, Water, Earth, or Energy
+(in any combination).
+*Signature -- Arcane Shield:* As a free action, raise a protective ward
+that increases your Evasion and Protection Value by +1 for the round.
+At higher levels, this shield grows stronger. Once per round.
+*Favored Skills (1 DP each):* Alchemy, Arcana, History, Investigation,
+Lore (any)
+
+[NOTE]
+====
+*Magic Always Fires*
+
+There are no spell slots. No mana. No "I'm out of spells." Your magic
+always goes off. Weak hit? The spell still fires -- just not as hard.
+This changes everything about playing a caster. You're never useless.
+You're never out of options.
+====
 
 == The Shepherd
 *"The light guides my hand."*
 
-Divine healer and protector. Gains 2 Protection, 2 Animal dice. Signature: *Healing Hands* -- add +1d4 to all healing effects. Favored skills: Survival, Nature, Religion, Medicine (1 DP each).
+The Shepherd stands as a beacon of guidance, providing moral direction and
+harnessing divine energies to aid allies. Your path is one of enlightenment --
+using a deep connection to the divine to inspire and protect those around
+you. Through word and deed, you channel power into abilities that heal,
+shield, and uplift your companions. Keyed to Reason, your wisdom discerns
+the right course in the murkiest of situations, offering light in darkness.
+You also stand as a bulwark against the undead -- creatures that have slipped
+beyond death's reach fear your presence.
+
+*Starting Disciplines:* Protection (2), Animal (2)
+*Signature -- Turn Undead:* Call down divine energy that ignores armor and
+affects only undead creatures within your presence. Your faith burns what
+should not walk.
+*Favored Skills (1 DP each):* Medicine, Nature, Religion, Survival
+
+[NOTE]
+====
+*Healing Matters*
+
+Healing in Heroes of Legend is precious. HP recovery is slow outside of
+magic. A Shepherd in the party changes the calculus of every fight. Your
+allies will love you. The DA will have to work harder to threaten them.
+====
 
 == The Intellect
 *"I've read about this."*
 
-Knowledge and skill expert. Gains 3 dice of any type (flexible). Signature: *Expertise* -- one skill treats its tier as one higher. Favored skills: History, Investigation (1 DP each).
+The Intellect embodies cerebral prowess and scholarly mastery. Your path is
+a relentless pursuit of knowledge -- delving into ancient tomes, unlocking
+the mysteries of the universe. With a mind as sharp as a finely honed blade,
+you navigate the world through logic and reason. Keyed to Knowledge, you are
+not defined by brute strength but by cunning and foresight. Through tactical
+acumen and strategic planning, you outmaneuver foes with calculated
+precision, turning their own weaknesses against them. Your words carry
+weight, guiding allies through the darkest times.
+
+*Starting Disciplines:* Any three (your choice, reflecting your fields
+of study).
+*Signature -- Knowledge Is Power:* Gain +1 to all Knowledge-based skill
+checks. This increases at higher levels.
+*Favored Skills (1 DP each):* History, Investigation, Lore (any three),
+Medicine, Arcana
+
+[NOTE]
+====
+*Stop and Think*
+
+The Intellect's secondary ability lets you spend your mobility for the
+turn to harness pure mental power -- gaining insight, revealing weaknesses,
+or uncovering hidden information. You may not move, but you see what no
+one else can.
+====
 
 == The Odd
 *"I have a trick for that."*
 
-Unpredictable wildcard. Gains 3 dice from different categories. Signature: *Wildcard* -- once per session, roll on a d6 table for a random bonus. Favored skills: Stealth, Sleight of Hand, Streetwise (1 DP each).
+The Odd embodies eccentricity and peculiarity. With a demeanor that dances on
+the edge of madness and a style that defies convention, you bring chaos
+and unpredictability to every encounter. Keyed to Guile, your appearance is
+striking -- mismatched clothing, bizarre accessories, an unusual hairstyle.
+In battle, you are a whirlwind of unorthodox tactics: spells with
+unconventional gestures, bizarre weapons wielded with deadly precision,
+strange powers that defy explanation. Your adversaries never know what to
+expect. Sometimes, neither do you.
+
+*Starting Disciplines:* Any three, each from a *different category*
+(e.g., one Elemental, one Weapon, one Guile).
+*Signature -- Eccentric Spellcasting:* You gain one arcane spell and one
+divine prayer. You ignore prerequisite Disciplines for these (level
+requirements still apply). You need no arcane focus or holy symbol to cast.
+*Favored Skills (1 DP each):* Sleight of Hand, Stealth, Streetwise,
+Deception, Acrobatics
+
+[NOTE]
+====
+*You're Also Scary*
+
+Once per scene, the Odd can contort their body, speak in tongues, cackle,
+or otherwise terrify a target they can see. It's unsettling. It's
+effective. It's very, very you.
+====
 
 == The Leader
 *"Together, we are unstoppable."*
 
-Party support and buffing. Gains 2 Protection, 1 Energy, 1 any. Signature: *Inspiring Word* -- as an action, grant one ally +2 on their next roll. Favored skills: Persuasion, Resilience (1 DP each).
+The Leader is a beacon of courage on the battlefield, leading from the
+front lines with valor and resolve. Keyed to Reason, your stirring speeches
+and tactical acumen rally allies to action, instilling confidence even in
+the face of adversity. Beyond command, you serve as mentor and confidant,
+recognizing and nurturing the potential within each member of your group.
+Driven by a clear vision and unwavering commitment, you guide your
+companions toward a brighter future. In your presence, unity flourishes.
+
+*Starting Disciplines:* Protection (2), Energy (1), Any (1)
+*Signature -- Lead by Example:* When you land a telling blow on an enemy,
+grant one ally who witnessed it a +2 bonus on their next roll. Your
+actions inspire greatness in others.
+*Favored Skills (1 DP each):* Persuasion, Resilience, Perception,
+Insight
+
+[NOTE]
+====
+*Battle Cry*
+
+The Leader's secondary ability is *Battle Cry* -- a thunderous shout that
+grants all allies within earshot a momentary surge of courage. Fear
+effects are suppressed. Morale is restored. The party remembers why they
+follow you.
+====
 
 == The Unbalanced
-*"Power has a price."*
+*"Power has a price. I'm willing to pay."*
 
-High-risk, high-reward. Gains 2 dice from one type and 2 from its opposite (e.g., 2 Fire + 2 Water). Signature: *Edge of Chaos* -- on a Strong hit, deal +2d6 damage but gain 1 Corruption. Favored skills: Melee Combat, Deception, Insight, Arcana (1 DP each).
+The Unbalanced is a wild card -- embodying chaos and unpredictability in
+every action. Your demeanor is marked by erratic energy, veering between
+bouts of laughter and brooding intensity. Behind your unpredictable facade
+lies a mind that operates on its own unique wavelength, calculating the
+odds even as you appear to embrace madness. In battle, you unleash pent-up
+frenzy with ferocious abandon, your fighting style as unpredictable as
+your personality. You thrive on the chaos of combat, reveling in the
+uncertainty of the fray.
+
+*Starting Disciplines:* Two from one type, two from its opposite
+(e.g., Fire 2 + Water 2, or Earth 2 + Wind 2).
+*Signature -- Edge of Chaos:* On a Strong hit, deal +4 bonus damage but
+roll on a d6 backlash table -- self-damage, a fleeting condition, or an
+environmental surge that affects everyone, friend and foe alike.
+*Favored Skills (1 DP each):* Arcana, Deception, Insight, Intimidation,
+Melee Combat
+
+[NOTE]
+====
+*Embrace the Chaos*
+
+You're not broken. You're balanced on a knife's edge between opposing
+forces, and that tension is your source of power. When it works, you're
+the most dangerous person in the room. When it doesn't -- well, that's
+entertaining too. The party keeps you around because when everything goes
+wrong, you're the one who knows what to do with wrong.
+====
 
 == Progression
 
-[%header,cols="1,4"]
+All classes advance on the same schedule. At each level, you gain 8
+Development Points. Spend them all -- they don't carry over.
+
+[%header,cols="1,6"]
 |===
-| Level | Gain
-| 1 | Class signature, Starting Disciplines, 3 DP
-| 2 | 2 DP
-| 3 | Progression die, 2 DP
-| 4 | Attribute increase, 2 DP
-| 5 | Class feature upgrade, 3 DP
-| 6 | Progression die, 2 DP
-| 8 | Attribute increase, 2 DP
-| 10 | Class capstone, 3 DP
-| 12+ | Attribute increase every 4 levels, Progression Discipline every 3 levels, 2 DP/level
+| Level | What You Gain
+| *1* | Class signature, Starting Disciplines, 8 DP (Novice only)
+| *2* | 8 DP
+| *3* | Progression Discipline, *Adept tier unlocked*, 8 DP
+| *4* | +1 to one Attribute (max +2), 8 DP
+| *5* | 8 DP
+| *6* | Progression Discipline, 8 DP
+| *7* | *Master tier unlocked*, 8 DP
+| *8* | +1 to one Attribute (max +2), 8 DP
+| *9* | Progression Discipline, 8 DP
+| *10* | Class capstone ability, 8 DP
+| *11+* | 8 DP/level. Attribute increase every 4 levels. Progression Discipline every 3 levels.
 |===
+
+*Progression Disciplines:* Every 3 levels (3, 6, 9, 12...), you gain one
+new Discipline of any type. This is how you qualify for Adept and Master
+abilities that require deeper Discipline investment.
+
+*Adept abilities unlock at Level 3.* Master abilities unlock at Level 7.
+Until then, buy Novice skills and abilities -- you'll deepen them later.
