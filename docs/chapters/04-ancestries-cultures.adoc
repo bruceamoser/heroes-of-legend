@@ -96,46 +96,47 @@ Makeva, Nettle, Pip, Rufus, Tansy.
 
 == Cultures
 
-Your culture is how you were raised. It grants a *+1 bonus* to one skill
-listed below -- pick the one that fits your character's story. You also
-gain one trinket reflecting your upbringing.
+Your culture is how you were raised. It's not just flavor — it's mechanical
+identity. Each culture grants two things: a *+1 skill bonus* AND a unique
+*benefit* that sets it apart from every other culture. Pick the one that
+fits your story.
 
 === Human Cultures
 
-[%header,cols="1,3,5"]
+[%header,cols="1,3,4,4"]
 |===
-| Culture | Skill Bonus | You Grew Up...
-| *Imperial* | Persuasion or History | In the heart of an empire. Politics, protocol, and the art of getting what you want with a smile.
-| *Nomadic* | Survival or Animal Handling | Following the herds, reading the stars. You can start a fire in a monsoon and never get lost.
-| *Coastal* | Athletics or Navigation | Salt in your hair, sand between your toes. You swim before you walk, sail before you ride.
+| Culture | Skill Bonus | Benefit | You Grew Up...
+| *Imperial* | Persuasion or History | +1 Development Point | In the heart of an empire. Politics, protocol, and the art of getting what you want with a smile. Education was not optional.
+| *Nomadic* | Survival or Animal Handling | Bonus Discipline (Wind or Animal) | Following the herds, reading the stars. You can start a fire in a monsoon and never get lost. The open sky is your ceiling.
+| *Coastal* | Athletics or Navigation | *Sea Legs* trait: ignore difficult terrain on ships, docks, and shorelines | Salt in your hair, sand between your toes. You swim before you walk, sail before you ride.
 |===
 
 === Elf Cultures
 
-[%header,cols="1,3,5"]
+[%header,cols="1,3,4,4"]
 |===
-| Culture | Skill Bonus | You Grew Up...
-| *High Elf* | Arcana or History | Among spires of crystal and libraries of starlight. Magic is breathing. History is yesterday.
-| *Wood Elf* | Stealth or Nature | In forests so ancient the trees have opinions. You move like wind through leaves.
-| *Twilight Elf* | Deception or Insight | In the places between light and shadow. Your people walked away from the sun long ago. You see better in darkness than most see in daylight.
+| Culture | Skill Bonus | Benefit | You Grew Up...
+| *High Elf* | Arcana or History | Bonus Discipline (Energy) | Among spires of crystal and libraries of starlight. Magic is breathing. History is yesterday.
+| *Wood Elf* | Stealth or Nature | *Forest Walk* trait: ignore difficult terrain in forests and woodlands | In forests so ancient the trees have opinions. You move like wind through leaves.
+| *Twilight Elf* | Deception or Insight | *Darkvision* trait: see in total darkness as if dim light, 60 ft range | In the places between light and shadow. Your people walked away from the sun long ago.
 |===
 
 === Dwarf Cultures
 
-[%header,cols="1,3,5"]
+[%header,cols="1,3,4,4"]
 |===
-| Culture | Skill Bonus | You Grew Up...
-| *Mountain* | Craft or Athletics | In the high peaks, where the air is thin and the stone is stubborn. You can forge anything. You can climb anything.
-| *Deep* | Resilience or Lore | In halls carved miles beneath the surface. Darkness is comforting. Silence is companionable. You've never seen the sky and you're fine with that.
-| *Hill* | History or Persuasion | In the foothills, trading with surface folk. You're the dwarf who explains dwarves to everyone else.
+| Culture | Skill Bonus | Benefit | You Grew Up...
+| *Mountain* | Craft or Athletics | +2 maximum HP | In the high peaks, where the air is thin and the stone is stubborn. You can forge anything. You can climb anything. You can take a hit that would fold a horse.
+| *Deep* | Resilience or Lore | *Darkvision* trait: see in total darkness as if dim light, 60 ft range | In halls carved miles beneath the surface. Darkness is comforting. Silence is companionable. You've never seen the sky and you're fine with that.
+| *Hill* | History or Persuasion | +1 Development Point | In the foothills, trading with surface folk. You're the dwarf who explains dwarves to everyone else — and gets paid for it.
 |===
 
 === Halfling Cultures
 
-[%header,cols="1,3,5"]
+[%header,cols="1,3,4,4"]
 |===
-| Culture | Skill Bonus | You Grew Up...
-| *Riverfolk* | Acrobatics or Sleight of Hand | On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm and pick a pocket without breaking eye contact.
-| *Burrower* | Stealth or Survival | In cozy tunnels beneath the hills, hidden from big folk and their big problems. You know every root, every mushroom, every hidden exit.
-| *Wanderer* | Streetwise or Performance | On the road, in the caravans, telling stories for supper. Home is wherever you hang your hat -- and you have a lot of hats.
+| Culture | Skill Bonus | Benefit | You Grew Up...
+| *Riverfolk* | Acrobatics or Sleight of Hand | *Riverborn* trait: swim speed 30 ft, hold breath twice as long | On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm and pick a pocket without breaking eye contact.
+| *Burrower* | Stealth or Survival | *Burrow-sense* trait: detect movement through ground within 10 ft | In cozy tunnels beneath the hills, hidden from big folk and their big problems. You know every root, every mushroom, every hidden exit. The earth tells you who's coming.
+| *Wanderer* | Streetwise or Performance | +1 Development Point | On the road, in the caravans, telling stories for supper. Home is wherever you hang your hat -- and you have a lot of hats. You've learned a little of everything.
 |===

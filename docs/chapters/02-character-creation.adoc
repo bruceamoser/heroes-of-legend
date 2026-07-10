@@ -40,7 +40,7 @@ xref:chapters/03-attributes.adoc[Attributes] for the full breakdown.
 
 === Step 3: Ancestry
 
-Choose your species. Each grants a Discipline die and a trait:
+Choose your species. Each grants a Discipline and a trait:
 
 [%header,cols="1,2,3"]
 |===
@@ -176,7 +176,7 @@ has an exit strategy.
 (silver tongue), Brawn +1 (can throw a punch when the talking stops).
 Fortitude +0, Knowledge +0, Reason +0. Sum = +3. ✓
 
-*Step 3 -- Ancestry:* Halfling. Gains an Animal Discipline die and the
+*Step 3 -- Ancestry:* Halfling. Gains an Animal Discipline and the
 *Lucky* trait (reroll one 3d6 per session).
 
 *Step 4 -- Culture:* Riverfolk. +1 bonus to Acrobatics (she grew up
@@ -194,7 +194,7 @@ scrambling across rigging and wet docks).
 Total: 8 DP. All spent. ✓
 Disciplines: Animal(1), Water(1), General(3)
 
-*Step 6 -- Class:* Odd. Gains 3 dice from different categories (Archery,
+*Step 6 -- Class:* Odd. Gains 3 Disciplines from different categories (Archery,
 Animal, Water). Signature: *Wildcard* -- once per session, roll a d6 table
 for a random bonus.
 
