@@ -84,3 +84,516 @@ Skills represent what your hero has learned to do.
 |===
 
 ^§^ Odd: no X3 skills — everything not listed as favored is X2.
+
+== Skill Maneuvers
+
+When you reach *Adept* or *Master* rank in a skill, you unlock a maneuver
+that only that skill provides. Skill maneuvers are more powerful than basic
+maneuvers -- they're why you invest in skills beyond Novice.
+
+Each maneuver costs your Maneuver for the turn. Adept maneuvers require a
+specific Discipline; Master maneuvers require a higher rank.
+
+[#skill-blades-fighting]
+=== Blades Fighting
+*Attribute:* Brawn · *Discipline:* Blades
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Protector, Blade, Leader | Intellect, Shepherd, Odd | Arcanist, Unbalanced
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Riposte* — When a melee attack against you scores a Weak hit, you may use your maneuver to make an immediate counterattack. Requires Blades (2).
+| *Master* | +3 | *Flurry* — Use your maneuver to make a second melee attack this turn at −2. Requires Blades (3).
+|===
+
+[#skill-axe-fighting]
+=== Axe Fighting
+*Attribute:* Brawn · *Discipline:* Axes
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Protector | Leader, Odd | Blade, Arcanist, Shepherd, Intellect, Unbalanced
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Cleave* — When you drop a foe to 0 HP, use your maneuver to carry the remaining damage to an adjacent enemy. Requires Axes (2).
+| *Master* | +3 | *Sunder* — Use your maneuver. Your next axe attack this turn ignores 2 points of Damage Reduction. Requires Axes (3).
+|===
+
+[#skill-polearms-fighting]
+=== Polearms Fighting
+*Attribute:* Brawn · *Discipline:* Polearms
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Protector, Leader | Blade, Intellect, Odd | Arcanist, Shepherd, Unbalanced
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Brace* — Use your maneuver to set your polearm against a charge. If a creature charges you before your next turn, your attack against it automatically deals Strong damage. Requires Polearms (2).
+| *Master* | +3 | *Sweep* — Use your maneuver to attack all adjacent foes with a single roll. Apply the result to each target. Requires Polearms (3).
+|===
+
+[#skill-heavy-weapon-fighting]
+=== Heavy Weapon Fighting
+*Attribute:* Brawn · *Discipline:* Heavy Weapon
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Protector | Leader, Odd | Blade, Arcanist, Shepherd, Intellect, Unbalanced
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Crushing Blow* — Use your maneuver. On a Standard or Strong hit with a heavy weapon this turn, the target is knocked prone. Requires Heavy Weapon (2).
+| *Master* | +3 | *Grand Slam* — Use your maneuver to attack all creatures in a 10-foot cone before you. One damage roll applies to all. Requires Heavy Weapon (3).
+|===
+
+[#skill-unarmed-fighting]
+=== Unarmed Fighting
+*Attribute:* Brawn · *Discipline:* Unarmed
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Protector, Blade, Unbalanced | Shepherd, Odd, Leader | Arcanist, Intellect
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Throw* — While grappling a target, use your maneuver to hurl them up to 10 feet. The target lands prone and takes Weak unarmed damage. Requires Unarmed (2).
+| *Master* | +3 | *Stunning Strike* — Use your maneuver. On a Strong hit with an unarmed attack this turn, the target is Stunned until the end of its next turn. Requires Unarmed (3).
+|===
+
+[#skill-bow-fighting]
+=== Bow Fighting
+*Attribute:* Agility · *Discipline:* Archery
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Blade | Protector, Intellect, Odd, Leader, Unbalanced | Arcanist, Shepherd
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Pin Down* — Use your maneuver. Choose a target you hit with a bow this turn. It has disadvantage on attacks until it moves at least 5 feet. Requires Archery (2).
+| *Master* | +3 | *Twin Shot* — Use your maneuver to fire a second arrow at the same target at −2. Requires Archery (3).
+|===
+
+[#skill-thrown-weapon]
+=== Thrown Weapon
+*Attribute:* Agility · *Discipline:* None (Blades or Archery recommended)
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Blade | Protector, Shepherd, Intellect, Odd, Leader, Unbalanced | Arcanist
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Ricochet* — Use your maneuver. Your thrown weapon bounces to a second target within 10 feet of the first, dealing half damage (rounded down). Requires Blades (1) or Archery (1).
+| *Master* | +3 | *Crippling Throw* — Use your maneuver. On a Standard or Strong hit with a thrown weapon this turn, the target's movement is halved until the end of its next turn. Requires Blades (2) or Archery (2).
+|===
+
+[#skill-crossbow-fighting]
+=== Crossbow Fighting
+*Attribute:* Agility · *Discipline:* None (Archery recommended)
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| — | Protector, Blade, Shepherd, Intellect, Odd, Leader, Unbalanced | Arcanist
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Steady Aim* — Use your maneuver. Your next crossbow shot this turn ignores cover penalties. Requires Archery (1).
+| *Master* | +3 | *Penetrating Bolt* — Use your maneuver. Your crossbow bolt pierces through the target. If it deals damage, the creature directly behind the target takes half that damage. Requires Archery (2).
+|===
+
+[#skill-athletics]
+=== Athletics
+*Attribute:* Brawn · *Discipline:* None
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Protector | Blade, Shepherd, Intellect, Odd, Leader, Unbalanced | Arcanist
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Powerful Leap* — Use your maneuver to double your jump distance this turn. No requirement.
+| *Master* | +3 | *Unstoppable* — Use your maneuver. This turn, you ignore difficult terrain and cannot be slowed by any effect. No requirement.
+|===
+
+[#skill-endurance]
+=== Endurance
+*Attribute:* Fortitude · *Discipline:* None
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Protector | Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced | —
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Shake It Off* — Use your maneuver to automatically succeed on a saving throw against poison or disease. No requirement.
+| *Master* | +3 | *Second Wind* — Use your maneuver to regain HP equal to your Fortitude score + your level. Once per combat. No requirement.
+|===
+
+[#skill-survival]
+=== Survival
+*Attribute:* Fortitude · *Discipline:* Animal
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Shepherd | Protector, Blade, Arcanist, Intellect, Odd, Leader, Unbalanced | —
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Tracker's Eye* — Use your maneuver. Learn the direction and approximate distance of a creature that passed through the area within the last hour. Requires Animal (1).
+| *Master* | +3 | *Ambush* — Use your maneuver and movement to become hidden. You remain hidden until you attack, cast a spell, or move from your position. Requires Animal (2).
+|===
+
+[#skill-resilience]
+=== Resilience
+*Attribute:* Fortitude · *Discipline:* None
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Protector, Leader | Blade, Arcanist, Shepherd, Intellect, Odd, Unbalanced | —
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Iron Will* — Use your maneuver to reroll a failed saving throw against fear or charm. No requirement.
+| *Master* | +3 | *Unbroken* — Use your maneuver. Ignore one condition (Frightened, Poisoned, or Stunned) for 1 round. No requirement.
+|===
+
+[#skill-acrobatics]
+=== Acrobatics
+*Attribute:* Agility · *Discipline:* None
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Blade, Odd | Protector, Arcanist, Shepherd, Intellect, Leader, Unbalanced | —
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Tumble* — Use your maneuver to move through an enemy's space without provoking an opportunity attack. No requirement.
+| *Master* | +3 | *Evasion* — When you succeed on a save to halve damage from an area effect, use your maneuver to take no damage instead. No requirement.
+|===
+
+[#skill-stealth]
+=== Stealth
+*Attribute:* Agility · *Discipline:* None
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Blade, Odd | Protector, Shepherd, Intellect, Leader, Unbalanced | Arcanist
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Vanish* — Use your maneuver to attempt a Stealth check to hide even while observed. No requirement.
+| *Master* | +3 | *Shadow Step* — Use your maneuver to move up to 20 feet to any shadow or concealed position you can see. This movement does not provoke opportunity attacks. No requirement.
+|===
+
+[#skill-sleight-of-hand]
+=== Sleight of Hand
+*Attribute:* Agility · *Discipline:* None
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Blade, Odd | Protector, Arcanist, Shepherd, Intellect, Leader, Unbalanced | —
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Quick Draw* — Use your maneuver to draw and use an item (potion, scroll, tool) as part of the same maneuver. No requirement.
+| *Master* | +3 | *Disarm* — Use your maneuver. Make an opposed Sleight of Hand vs Brawn check. On success, you knock one held item from the target's grasp. No requirement.
+|===
+
+[#skill-deception]
+=== Deception
+*Attribute:* Guile · *Discipline:* None
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Blade, Odd, Unbalanced | Protector, Arcanist, Shepherd, Intellect, Leader | —
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Feint* — Use your maneuver. The next attack against you before your next turn is made at disadvantage. No requirement.
+| *Master* | +3 | *Double Bluff* — Use your maneuver. On a Standard or Strong Deception check, the target believes your lie for 1 minute without requiring further checks. No requirement.
+|===
+
+[#skill-persuasion]
+=== Persuasion
+*Attribute:* Guile · *Discipline:* None
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Leader | Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Unbalanced | —
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Rally* — Use your maneuver. One ally within 30 feet immediately loses the Frightened condition. No requirement.
+| *Master* | +3 | *Command* — Use your maneuver. One ally within 30 feet may immediately take a move action. No requirement.
+|===
+
+[#skill-streetwise]
+=== Streetwise
+*Attribute:* Guile · *Discipline:* None
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Odd | Protector, Blade, Arcanist, Shepherd, Intellect, Leader, Unbalanced | —
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Contacts* — Once per session, use your maneuver to "know a person" who can provide information, shelter, or a small favor. No requirement.
+| *Master* | +3 | *Read the Room* — Use your maneuver. Instantly assess the power dynamics of any social situation -- who holds authority, who is lying, and where the exits are. No requirement.
+|===
+
+[#skill-arcana]
+=== Arcana
+*Attribute:* Knowledge · *Discipline:* Energy
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Arcanist, Intellect, Unbalanced | Shepherd, Odd, Leader | Protector, Blade
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Identify Spell* — Use your maneuver to identify a spell being cast within 60 feet. You learn its name, tier, and school. Requires Energy (1).
+| *Master* | +3 | *Counterspell* — When a creature within 60 feet casts a spell, use your reaction (and your maneuver for the round) to attempt to disrupt it. Make an Arcana check against 7 + the spell's tier. On success, the spell fizzles. Requires Energy (2).
+|===
+
+[#skill-history]
+=== History
+*Attribute:* Knowledge · *Discipline:* None
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Arcanist, Intellect | Protector, Blade, Shepherd, Odd, Leader, Unbalanced | —
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Lore Recall* — Use your maneuver to recall a relevant historical fact, legend, or piece of ancient knowledge about the current situation. No requirement.
+| *Master* | +3 | *Known Weakness* — Use your maneuver. The DA reveals one vulnerability, resistance, or special ability of a creature you can identify from legend or history. No requirement.
+|===
+
+[#skill-investigation]
+=== Investigation
+*Attribute:* Knowledge · *Discipline:* None
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Arcanist, Intellect | Protector, Blade, Shepherd, Odd, Leader, Unbalanced | —
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Eye for Detail* — Use your maneuver to automatically spot one hidden clue, secret door, or concealed creature in the area. No requirement.
+| *Master* | +3 | *Deduction* — Use your maneuver to piece together scattered clues. The DA provides one coherent insight connecting evidence you have gathered. No requirement.
+|===
+
+[#skill-nature]
+=== Nature
+*Attribute:* Knowledge · *Discipline:* Animal
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Shepherd | Arcanist, Intellect, Odd, Unbalanced | Protector, Blade, Leader
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Beast Lore* — Use your maneuver to identify a creature's type, typical abilities, and vulnerabilities. Requires Animal (1).
+| *Master* | +3 | *Commune* — Use your maneuver to speak with a natural beast for up to 1 minute. The beast may not be friendly, but it understands you and may answer simple questions. Requires Animal (2).
+|===
+
+[#skill-religion]
+=== Religion
+*Attribute:* Knowledge · *Discipline:* None (Religion recommended)
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Shepherd | Intellect, Odd, Leader, Unbalanced | Protector, Blade, Arcanist
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Blessing* — Use your maneuver. One ally within 30 feet gains +1 on all rolls until the start of your next turn. No requirement.
+| *Master* | +3 | *Smite* — Use your maneuver. Your next attack this turn deals bonus radiant damage equal to your Knowledge score. No requirement.
+|===
+
+[#skill-alchemy]
+=== Alchemy
+*Attribute:* Reason · *Discipline:* None
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Arcanist | Shepherd, Intellect, Odd, Unbalanced | Protector, Blade, Leader
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Quick Mix* — Use your maneuver to identify a potion, poison, or alchemical substance by taste or smell. You may also quickly mix a simple remedy (antidote, smelling salts). No requirement.
+| *Master* | +3 | *Alchemical Bomb* — Use your maneuver to hurl an explosive mixture at a point within 30 feet. All creatures in a 10-foot radius take 2d6 elemental damage (your choice of fire, acid, or frost). No requirement.
+|===
+
+[#skill-crafting]
+=== Crafting
+*Attribute:* Reason · *Discipline:* None
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| — | Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced | —
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Field Repair* — Use your maneuver to temporarily restore a broken weapon, piece of armor, or tool for the remainder of the encounter. No requirement.
+| *Master* | +3 | *Jury-Rig* — Use your maneuver to improvise a simple trap, barricade, or mechanical device from materials at hand. It lasts until the end of the scene. No requirement.
+|===
+
+[#skill-medicine]
+=== Medicine
+*Attribute:* Reason · *Discipline:* Animal
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Shepherd, Intellect | Protector, Blade, Arcanist, Odd, Leader, Unbalanced | —
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Field Dressing* — Use your maneuver. One adjacent ally either stabilizes (if dying) or regains 1d6 HP. Requires Animal (1).
+| *Master* | +3 | *Battlefield Surgery* — Use your maneuver. Remove one condition from an adjacent ally, or heal them for 3d6 HP. Requires Animal (2).
+|===
+
+[#skill-insight]
+=== Insight
+*Attribute:* Reason · *Discipline:* None
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Unbalanced | Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader | —
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Read Intent* — Use your maneuver. Learn the target's next intended action (attack, flee, cast, negotiate). No requirement.
+| *Master* | +3 | *Perfect Counter* — Use your maneuver. Choose one creature you can see. The next attack it makes against you before your next turn is at disadvantage. No requirement.
+|===
+
+[#skill-intimidation]
+=== Intimidation
+*Attribute:* Brawn · *Discipline:* None
+
+[%header,cols="1,1,1"]
+|===
+| X1 | X2 | X3
+| Protector, Unbalanced | Blade, Shepherd, Intellect, Odd, Leader | Arcanist
+|===
+
+[%header,cols="1,1,3"]
+|===
+| Tier | Bonus | Maneuver
+| *Novice* | +1 | None. No requirement.
+| *Adept* | +2 | *Menacing Glare* — Use your maneuver. One foe within 30 feet that can see you must make an immediate Morale Check. No requirement.
+| *Master* | +3 | *Terrifying Presence* — Use your maneuver. All foes within 30 feet that can see you must make a Morale Check at disadvantage. No requirement.
+|===

@@ -7,17 +7,50 @@ Combat in Heroes of Legend is fast and cinematic. Every swing matters.
 At combat start, each participant rolls 1d6 + Agility modifier. Highest goes first. Ties: higher Agility wins, then roll-off.
 
 == The Combat Round
-On your turn, take one *Standard Action* and one *Move Action*, plus any number of *Free Actions* and one *Reaction* per round.
+On your turn, you get one *Action*, one *Movement*, and one *Maneuver*.
+You may also use one *Reaction* per round and any number of *Free* actions.
 
-[%header,cols="2,4"]
+[%header,cols="2,2,4"]
 |===
-| Action | Examples
-| *Standard* | Attack, cast spell, use ability, dash, help, hide
-| *Move* | Move up to speed, stand up, mount/dismount
-| *Bonus* | Class features, quick items (conditional)
-| *Reaction* | Opportunity attack, shield block (1/round)
-| *Free* | Talk, drop item, gesture (unlimited)
+| Resource | Per Turn | What You Can Do
+| *Action* | 1 | Attack, cast a spell, activate an ability, Dash (double move)
+| *Movement* | 1 | Move up to your Speed. Break up before/after Action and Maneuver.
+| *Maneuver* | 1 | Basic maneuvers (Defend, Shove, etc.) or skill-granted maneuvers
+| *Reaction* | 1/round | Opportunity attack, shield block, triggered abilities
+| *Free* | Unlimited | Talk, drop item, draw a weapon, gesture
 |===
+
+[NOTE]
+====
+*Trading Down, Never Up*
+
+You may trade your *Action* for an extra *Movement* or *Maneuver* -- but
+never the reverse. You cannot trade a Maneuver for a second Action.
+====
+
+=== Basic Maneuvers
+
+Every character knows these maneuvers. They cost your Maneuver for the
+turn and require no skill or Discipline.
+
+[%header,cols="2,5"]
+|===
+| Maneuver | Effect
+| *Defend* | +2 Protection Value until your next turn.
+| *Disengage* | Move 5 ft without provoking opportunity attacks.
+| *Aid* | Ally within 30 ft gains +2 on their next roll before your next turn.
+| *Shove* | Opposed Brawn vs Brawn/Agility. Push target 5 ft (10 ft on Strong).
+| *Grapple* | Initiate a grapple (see <<Grappling>>).
+| *Command* | A companion, familiar, or mount under your control takes an extra move.
+| *Catch Breath* | Regain HP equal to your Fortitude score (min 1). Once per combat.
+| *Search* | Active Investigation check to spot a hidden creature or clue.
+| *Stand Up* | Rise from prone.
+| *Use Item* | Drink a potion, apply a salve, or activate a simple device.
+|===
+
+Skill-granted maneuvers are listed on each skill's card in
+<<chapter-skills>>. They are typically more powerful than basic maneuvers
+and require Adept or Master rank in the skill.
 
 == Making an Attack
 Attacks always hit. Roll 3d6 + modifiers to determine damage tier:
