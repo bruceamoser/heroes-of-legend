@@ -48,7 +48,7 @@ Choose your species. Each grants a Discipline and a trait:
 | *Human* | Any one | *Versatile:* +1 DP at Level 0
 | *Elf* | Archery or Blades | *Elven Grace:* once per session, reroll one die
 | *Dwarf* | Axes or Armor | *Sturdy:* +2 maximum HP
-| *Halfling* | Animal or Blades | *Lucky:* add one boon to any roll, once per session
+| *Halfling* | Blades or Archery | *Lucky:* add one boon to any roll, once per session
 |===
 
 See xref:chapters/04-ancestries-cultures.adoc[Ancestries & Cultures] for
@@ -66,8 +66,8 @@ adaptable cultures.
 | Culture | Skill Bonus | Disciplines
 3+^.^| *Human*
 | Imperial | Persuasion or History | Any one (free)
-| Nomadic | Survival or Animal Handling | Animal + Archery
-| Coastal | Athletics or Navigation | Polearms + Animal
+| Nomadic | Survival or Animal Handling | Archery + Polearms
+| Coastal | Athletics or Navigation | Polearms + Protection
 3+^.^| *Elf*
 | High Elf | Arcana or History | Energy + Blades
 | Wood Elf | Stealth or Nature | Animal + Archery
@@ -77,7 +77,7 @@ adaptable cultures.
 | Deep | Resilience or Lore | Axes + Protection
 | Hill | History or Persuasion | Any one (free)
 3+^.^| *Halfling*
-| Riverfolk | Acrobatics or Sleight of Hand | Blades + Animal
+| Riverfolk | Acrobatics or Sleight of Hand | Blades + Archery
 | Burrower | Stealth or Survival | Protection + Blades
 | Wanderer | Streetwise or Performance | Any one (free)
 |===

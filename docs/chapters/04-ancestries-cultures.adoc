@@ -25,7 +25,7 @@ dwarf raised by halfling riverfolk is not only allowed, it's *interesting*.
 | *Human* | Any one | *Versatile:* +1 DP at Level 0 | Ambitious, adaptable, everywhere
 | *Elf* | Archery or Blades | *Elven Grace:* once per session, reroll one die of your 3d6 roll | Ancient, graceful, a little haunted
 | *Dwarf* | Axes or Armor | *Sturdy:* +2 maximum HP | Resilient, tradition-bound, impossible to move
-| *Halfling* | Animal or Blades | *Lucky:* add one boon to any roll, once per session | Quick, cheerful, underestimated
+| *Halfling* | Blades or Archery | *Lucky:* add one boon to any roll, once per session | Quick, cheerful, underestimated
 |===
 
 === Human
@@ -86,8 +86,9 @@ that makes other ancestries quietly furious. They don't build empires.
 They build communities, feast halls, and improbably comfortable burrows.
 They're underestimated constantly, which suits them perfectly.
 
-Halflings receive one Animal Discipline (beasts, nature, instinct) or
-Blades Discipline (daggers, short swords, quick strikes). Their *Lucky*
+Halflings receive one Blades Discipline (daggers, short swords, quick
+strikes) or Archery Discipline (slings, thrown weapons, ranged
+precision). Their *Lucky*
 trait lets them add one boon (an extra d6) to any 3d6 roll, once per
 session. When the moment is desperate and the odds are against you, the
 universe cuts you a break. That's not luck. That's being a halfling.
@@ -109,8 +110,8 @@ adaptability. Pick the one that fits your story.
 |===
 | Culture | Skill Bonus | Disciplines | You Grew Up...
 | *Imperial* | Persuasion or History | Any one (free choice) | In the heart of an empire. Politics, protocol, and the art of getting what you want with a smile. Imperial education is broad -- you found your own path.
-| *Nomadic* | Survival or Animal Handling | Animal + Archery | Following the herds, reading the stars. You can start a fire in a monsoon and never get lost. Bow and beast are your birthright.
-| *Coastal* | Athletics or Navigation | Polearms + Animal | Salt in your hair, sand between your toes. You swim before you walk, and you've been throwing a harpoon since you could stand. The sea provides -- fish, trade, and the occasional raider to fend off with a spear.
+| *Nomadic* | Survival or Animal Handling | Archery + Polearms | Following the herds, reading the stars. You can start a fire in a monsoon and never get lost. Bow for the hunt, lance for the fight.
+| *Coastal* | Athletics or Navigation | Polearms + Protection | Salt in your hair, sand between your toes. You swim before you walk. Harpoon in hand, shield on arm -- the sea provides, but it also threatens.
 |===
 
 === Elf Cultures
@@ -138,7 +139,7 @@ adaptability. Pick the one that fits your story.
 [%header,cols="1,3,3,4"]
 |===
 | Culture | Skill Bonus | Disciplines | You Grew Up...
-| *Riverfolk* | Acrobatics or Sleight of Hand | Blades + Animal | On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm, and your blade is as quick as the current. The river rats and otters are practically family.
+| *Riverfolk* | Acrobatics or Sleight of Hand | Blades + Archery | On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm. Dagger close, sling far -- you're ready for whatever comes down the river.
 | *Burrower* | Stealth or Survival | Protection + Blades | In cozy tunnels beneath the hills, hidden from big folk and their big problems. You know every root, every mushroom, every hidden exit. When trouble comes knocking, your blade is ready and your home is your fortress.
 | *Wanderer* | Streetwise or Performance | Any one (free choice) | On the road, in the caravans, telling stories for supper. Home is wherever you hang your hat. You've learned a little of everything.
 |===
