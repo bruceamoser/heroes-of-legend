@@ -1,586 +1,158 @@
 HEROES OF LEGEND — DP ECONOMY ANALYSIS
-Character Creation: Level 0 → Level 1
+Use-or-Lose at Every Level
 ============================================================
 
-SYSTEM RULES (confirmed)
------------------------
-- 10 levels of play. Adept abilities unlock at Level 3, Master at Level 7.
-- Character development starts at Level 0. Play starts at Level 1.
-- Disciplines: Prerequisites. Purchased for 1 DP each.
-- Skills: Rolled with 3d6. Novice +1 (1 DP), Adept +2 (2 DP), Master +3 (3 DP).
-- Abilities: Special powers/spells. Novice 1 DP, Adept 2 DP, Master 4 DP.
-- Levels 2+: 8 DP each.
-- HP: 10 + Fortitude + Knowledge at Level 1. +Fortitude per level (min 1).
-- Attributes: 3 points to distribute, range -2 to +2.
-- All characters start with 3 General Disciplines.
-- Class, Ancestry, and Background each grant additional Disciplines.
+CORE RULE: DP is use-or-lose at EVERY level. No banking. Spend it or lose it.
+This forces breadth at low levels, then deepening via Adept (L3) and Master (L7).
 
-CHARACTER CREATION: LEVEL 0 → LEVEL 1
--------------------------------------
-Level 0 — Ancestry & Background ("Early Life"):
-  DP = 8 + Knowledge modifier + Fortitude modifier.
-  Example: Knowledge +2, Fortitude +1 → 8 + 2 + 1 = 11 DP.
-  Example: Knowledge -1, Fortitude -2 → 8 - 1 - 2 = 5 DP.
-
-  In this phase you buy skills, abilities, and Disciplines that reflect your
-  early life — ancestry culture, background training, formative experiences.
-  You CANNOT bank DP. Use it or lose it. No Adept or Master purchases
-  (those gates haven't opened yet).
-
-Level 1 — Choose Your Class:
-  DP = 8 (flat). You've chosen your path — now train in it.
-  Buy class-specific skills, abilities, and Disciplines.
-  Unspent DP CAN be banked to Level 2. This is when PLAY begins.
-
-After Level 0 + Level 1, your character is complete. Levels 2+ get 8 DP each.
-
-Total creation DP = Level 0 (8+K+F) + Level 1 (8) = 16 + Knowledge + Fortitude.
+SYSTEM RULES
+------------
+- 10 levels. Adept at L3, Master at L7. Play starts at L1.
+- Level 0 (Ancestry/Background): DP = 8 + Knowledge + Fortitude. Use or lose.
+- Level 1 (Class): 8 DP. Use or lose.
+- Levels 2+: 8 DP each. Use or lose.
+- Skills: Novice +1 (1 DP), Adept +2 (2 DP), Master +3 (3 DP).
+- Abilities: Novice 1 DP, Adept 2 DP, Master 4 DP.
+- Disciplines: 1 DP each. Prerequisites for skills/abilities.
+- HP: 10 + Fortitude + Knowledge at L1. +Fortitude/level (min 1).
+- 3 General Disciplines at creation. Class/Ancestry/Background grant more.
 
 
+WORKED EXAMPLE: BORIN — Dwarf Fighter (Sword & Board)
 ============================================================
-CHARACTER 1: BORIN — Dwarf Fighter (Sword & Board)
-============================================================
-Concept: Walking fortress. Longsword + shield, heavy armor, never goes down.
+Concept: Walking fortress. Longsword + shield, heavy armor.
 
 Attributes: Brawn +2, Fortitude +2, Agility 0, Guile -1, Knowledge -1, Reason -1
-HP: 10 + 2 + (-1) = 11 at L1. Gains +2/level. L5 HP: 11 + 8 = 19.
-
-LEVEL 0 — Early Life: Dwarven Soldier
---------------------------------------
-DP: 8 + Fortitude(+2) + Knowledge(-1) = 9 DP. MUST SPEND ALL.
-
-Born in the mountain halls, Borin trained with the dwarf militia before
-ever choosing the fighter's path. Tough as stone, blunt as a hammer.
-
-Athletics N (skill)            1 DP    [physical conditioning]
-Endurance N (skill)            1 DP    [dwarven hardiness]
-Intimidation N (skill)         1 DP    [soldier's presence]
-Perception N (skill)           1 DP    [battlefield awareness]
-Survival N (skill)             1 DP    [mountain fieldcraft]
-Lore (Dwarven) N (skill)       1 DP    [cultural knowledge]
-Craft (Smithing) N (skill)     1 DP    [dwarven craftsmanship]
-Shield Block N (ability)       1 DP    [militia shield training]
-Earth Discipline (2nd)         1 DP    [deeper connection to stone]
-                                 ---
-Level 0 spent:                 9 DP    (0 remaining — all used)
-
-Disciplines after Level 0: Earth(2), General(3)
-(Class Disciplines not yet granted — no class yet!)
-
-LEVEL 1 — Choose Class: Fighter
----------------------------------
-DP: 8 DP (flat). Can bank unspent.
-
-Class grants: Blade(1), Armor(1), Protection(1), Heavy Weapon(1) from Soldier bg.
-→ Longsword prerequisite (1 Blade + 1 Heavy Weapon) now met.
-
-Blade Fighting N (skill)       1 DP    [requires Blade 1 — just gained]
-Power Attack N (ability)       1 DP    [requires Blade 1]
-Armor Discipline (2nd)         1 DP    [for Plate armor later]
-Second Wind N (ability)        1 DP    [combat endurance]
-                                 ---
-Level 1 spent:                 4 DP    (4 DP banked to Level 2)
-
-Disciplines after Level 1: Blade(1), Armor(2), Protection(1), Earth(2),
-                           Heavy Weapon(1), General(3)
-
-LEVEL 1 COMPLETE: Phase 1 (9 DP) + Phase 2 (4 DP) = 13 DP spent. 4 DP banked.
-
-LEVEL 2 — 12 DP available (4 banked + 8 new)
---------------------------------------------
-Intimidation A (skill)         2 DP    [upgrade Novice → Adept — fear me]
-Endurance A (skill)            2 DP    [upgrade Novice → Adept]
-                                 ---
-Spent this level:              4 DP    Cumulative: 17 DP (8 banked)
-
-LEVEL 3 — 16 DP available (Adept abilities unlock!)
----------------------------------------------------
-Blade Fighting A (skill)       2 DP    [upgrade Novice → Adept]
-Power Attack A (ability)       2 DP    [upgrade Novice → Adept]
-                                 ---
-Spent this level:              4 DP    Cumulative: 21 DP (12 banked)
-
-LEVEL 4 — 20 DP available
--------------------------
-Athletics A (skill)            2 DP    [upgrade Novice → Adept]
-Shield Block A (ability)       2 DP    [upgrade Novice → Adept]
-                                 ---
-Spent this level:              4 DP    Cumulative: 25 DP (16 banked)
-
-LEVEL 5 — 24 DP available
--------------------------
-(No purchases — saving for Master abilities at L7. Borin is solid.)
-                                 ---
-Spent this level:              0 DP    Cumulative: 25 DP (24 banked)
-
-BORIN AT LEVEL 5 — Summary
---------------------------
-HP: 19    Fortitude: +2
-Disciplines: Blade(1), Armor(2), Protection(1), Earth(2),
-             Heavy Weapon(1), General(3)
-Skills:      Blade Fighting A (+2), Athletics A (+2), Endurance A (+2),
-             Intimidation A (+2), Perception N (+1), Survival N (+1),
-             Lore (Dwarven) N (+1), Craft (Smithing) N (+1)
-Abilities:   Shield Block A, Power Attack A, Second Wind N
-DP spent:    25 of 48 available after L5 (52%) — 23 DP banked
-
-NOTE: Borin has 8 skills at Novice or better — a well-rounded dwarf who
-can fight, survive, craft, and knows his people's history. Phase 1 forced
-breadth; Phase 2 added combat focus. The "use or lose" Phase 1 creates
-characters with background depth, not just combat stats.
-
-
-============================================================
-CHARACTER 2: KARA — Human Fighter (Great Weapon)
-============================================================
-Concept: Greatsword berserker. One big weapon, charges in, cleaves through.
-
-Attributes: Brawn +2, Fortitude +1, Agility +1, Guile -1, Knowledge -1, Reason 0
-HP: 10 + 1 + (-1) = 10 at L1. Gains +1/level. L5 HP: 10 + 4 = 14.
-
-LEVEL 0 — Early Life: Barbarian Nomad
---------------------------------------
-DP: 8 + Fortitude(+1) + Knowledge(-1) = 8 DP. MUST SPEND ALL.
-
-Raised in the northern steppes, Kara learned to fight before she could
-read. The tribe values strength and survival above all.
-
-Athletics N (skill)            1 DP
-Intimidation N (skill)         1 DP
-Survival N (skill)             1 DP
-Perception N (skill)           1 DP    [ hunters need sharp eyes ]
-Endurance N (skill)            1 DP    [ steppe life is hard ]
-Cleave N (ability)             1 DP    [ learned on raiding parties ]
-Axe Discipline (2nd)           1 DP    [ tribe's weapon of choice ]
-Battle Cry N (ability)         1 DP    [ ancestral war shout ]
-                                 ---
-Level 0 spent:                 8 DP    (0 remaining)
-
-Disciplines after Level 0: Axe(2), General(4)
-(Background grants Axe; ancestry Human grants +1 General)
-
-LEVEL 1 — Choose Class: Fighter
----------------------------------
-DP: 8 DP (flat).
-
-Class grants: Blade(1), Heavy Weapon(1), Armor(1)
-→ Needs Heavy Weapon(2) for Greatsword. Buys 1 more:
-
-Heavy Weapon Discipline (2nd)  1 DP
-Heavy Weapon Fighting N (skill)1 DP
-Mighty Blow N (ability)        1 DP
-                                 ---
-Level 1 spent:                 3 DP    (5 DP banked to Level 2)
-
-Disciplines after Level 1: Blade(1), Heavy Weapon(2), Armor(1), Axe(2), General(4)
-→ Greatsword unlocked! (1 Blade + 2 Heavy Weapon) ✓
-
-LEVEL 2 — 13 DP available (5 banked + 8 new)
---------------------------------------------
-Athletics A (skill)            2 DP
-Intimidation A (skill)         2 DP
-                                 ---
-Spent:                         4 DP    Cumulative: 15 DP (9 banked)
-
-LEVEL 3 — 17 DP available (Adept unlock)
-----------------------------------------
-Heavy Weapon Fighting A (skill)2 DP
-Cleave A (ability)             2 DP
-Mighty Blow A (ability)        2 DP
-Juggernaut N (ability)         1 DP
-                                 ---
-Spent:                         7 DP    Cumulative: 22 DP (10 banked)
-
-LEVELS 4-5 — Saving for Master path
-------------------------------------
-No purchases planned. Kara is deadly enough. Banking for L7 Master abilities.
-
-KARA AT LEVEL 5 — Summary
---------------------------
-HP: 14    Fortitude: +1
-Disciplines: Blade(1), Heavy Weapon(2), Armor(1), Axe(2), General(4)
-Skills:      Heavy Weapon Fighting A (+2), Athletics A (+2),
-             Intimidation A (+2), Survival N (+1), Perception N (+1),
-             Endurance N (+1)
-Abilities:   Cleave A, Mighty Blow A, Battle Cry N, Juggernaut N
-DP spent:    22 of 48 (46%) — 26 DP banked
-
-
-============================================================
-CHARACTER 3: LYRA — Halfling Thief (Infiltrator)
-============================================================
-Concept: Ghost. Never seen, never caught. Shortbow + sneak attack.
-
-Attributes: Brawn -1, Fortitude 0, Agility +2, Guile +2, Knowledge -1, Reason 0
-HP: 10 + 0 + (-1) = 9 at L1. Gains +1/level (Fort min 1). L5 HP: 9 + 4 = 13.
-
-LEVEL 0 — Early Life: Street Urchin
-------------------------------------
-DP: 8 + Fortitude(0) + Knowledge(-1) = 7 DP. MUST SPEND ALL.
-
-Lyra grew up in the alleys of the river quarter. Small, quick, invisible
-when she needed to be. You don't survive the streets by being noticed.
-
-Stealth N (skill)              1 DP
-Lockpicking N (skill)          1 DP    [ learned from an old fence ]
-Perception N (skill)           1 DP    [ street awareness ]
-Pickpocket N (ability)         1 DP    [ hungry childhood ]
-Acrobatics N (skill)           1 DP    [ rooftop chases ]
-Lore (Underworld) N (skill)    1 DP    [ knows the guilds ]
-Guile Discipline (3rd)         1 DP    [ survival instinct honed sharp ]
-                                 ---
-Level 0 spent:                 7 DP    (0 remaining)
-
-Disciplines after Level 0: Guile(3), General(3)
-(Ancestry Halfling gives Guile; Background Criminal gives Stealth)
-
-LEVEL 1 — Choose Class: Thief
-------------------------------
-DP: 8 DP (flat).
-
-Class grants: Guile(1)→now Guile(4), Stealth(1)→now Stealth(2), Archery(1)
-
-Sneak Attack N (ability)       1 DP    [requires Stealth 1]
-Shortbow Fighting N (skill)    1 DP
-Shadow Step N (ability)        1 DP    [requires Stealth 2]
-                                 ---
-Level 1 spent:                 3 DP    (5 DP banked)
-
-LEVEL 2 — 13 DP available
--------------------------
-Stealth A (skill)              2 DP
-Evasion N (ability)            1 DP    [assign 1 General→Acrobatics discipline]
-                                 ---
-Spent:                         3 DP    Cumulative: 13 DP (10 banked)
-
-LEVEL 3 — 18 DP available (Adept unlock)
-----------------------------------------
-Sneak Attack A (ability)       2 DP
-Lockpicking A (skill)          2 DP
-                                 ---
-Spent:                         4 DP    Cumulative: 17 DP (14 banked)
-
-LEVEL 4-5 — Deepening
----------------------
-Perception A (skill)           2 DP    (L4)
-Acrobatics A (skill)           2 DP    (L5)
-Shadow Step A (ability)        2 DP    (L5)
-                                 ---
-Cumulative at L5:              23 DP spent (48%). 25 DP banked.
-
-LYRA AT LEVEL 5 — Summary
---------------------------
-HP: 13    Fortitude: 0
-Disciplines: Guile(4), Stealth(2), Archery(1), Acrobatics(1), General(2)
-Skills:      Stealth A (+2), Lockpicking A (+2), Perception A (+2),
-             Acrobatics A (+2), Shortbow Fighting N (+1), Lore (Underworld) N (+1)
-Abilities:   Sneak Attack A, Shadow Step A, Evasion N, Pickpocket N
-DP spent:    23 of 48 (48%) — 25 DP banked
-
-
-============================================================
-CHARACTER 4: VEX — Elf Thief (Swashbuckler)
-============================================================
-Concept: Duelist. Rapier + smirk. Performance art with a blade.
-
-Attributes: Brawn 0, Fortitude -1, Agility +2, Guile +2, Knowledge 0, Reason -1
-HP: 10 + (-1) + 0 = 9 at L1. Gains +1/level (Fort min 1). L5 HP: 9 + 4 = 13.
-
-LEVEL 0 — Early Life: Wandering Performer
-------------------------------------------
-DP: 8 + Fortitude(-1) + Knowledge(0) = 7 DP. MUST SPEND ALL.
-
-Vex grew up in a traveling troupe. Juggling, acrobatics, charming crowds —
-and the occasional duel when a performance went wrong.
-
-Acrobatics N (skill)           1 DP
-Charm N (skill)                1 DP
-Perception N (skill)           1 DP    [ reading a room ]
-Perform N (skill)              1 DP    [ stage presence ]
-Riposte N (ability)            1 DP    [ first blood in a tavern brawl ]
-Lore (Nobility) N (skill)      1 DP    [ knows which lords to flatter ]
-Wind Discipline (2nd)          1 DP    [ elven grace ]
-                                 ---
-Level 0 spent:                 7 DP    (0 remaining)
-
-Disciplines after Level 0: Wind(2), General(3)
-(Ancestry Elf gives Wind; Background Entertainer gives Charm)
-
-LEVEL 1 — Choose Class: Thief
-------------------------------
-DP: 8 DP (flat).
-
-Class grants: Blade(1), Guile(1), Acrobatics(1)
-→ Needs Blade(2) for Rapier. Buys 1:
-
-Blade Discipline (2nd)         1 DP    [ Rapier prerequisite met ✓ ]
-Blade Fighting N (skill)       1 DP
-Duelist Stance N (ability)     1 DP    [requires Blade 1]
-Dazzling Flourish N (ability)  1 DP    [requires Charm 1]
-                                 ---
-Level 1 spent:                 4 DP    (4 DP banked)
-
-Disciplines after Level 1: Blade(2), Guile(1), Acrobatics(1), Wind(2),
-                           Charm(1), General(3)
-
-LEVEL 2 — 12 DP available
--------------------------
-Charm A (skill)                2 DP
-Disarming Strike N (ability)   1 DP    [requires Blade 2]
-                                 ---
-Spent:                         3 DP    Cumulative: 14 DP (9 banked)
-
-LEVEL 3 — 17 DP available (Adept unlock)
-----------------------------------------
-Blade Fighting A (skill)       2 DP
-Riposte A (ability)            2 DP
-                                 ---
-Spent:                         4 DP    Cumulative: 18 DP (13 banked)
-
-LEVEL 4-5 — Deepening
----------------------
-Acrobatics A (skill)           2 DP    (L4)
-Dazzling Flourish A (ability)  2 DP    (L5)
-                                 ---
-Cumulative at L5:              22 DP spent (46%). 26 DP banked.
-
-VEX AT LEVEL 5 — Summary
---------------------------
-HP: 13    Fortitude: -1
-Disciplines: Blade(2), Guile(1), Acrobatics(1), Wind(2), Charm(1), General(3)
-Skills:      Blade Fighting A (+2), Acrobatics A (+2), Charm A (+2),
-             Perception N (+1), Perform N (+1), Lore (Nobility) N (+1)
-Abilities:   Riposte A, Dazzling Flourish A, Duelist Stance N, Disarming Strike N
-DP spent:    22 of 48 (46%) — 26 DP banked
-
-
-============================================================
-CHARACTER 5: THALIA — High Elf Wizard (Evoker)
-============================================================
-Concept: Fire mage. Firebolt → Fireball → Volcanic Eruption.
-Plus: Magic Missile → Lightning Bolt → Chain Lightning.
-
-Attributes: Brawn -2, Fortitude 0, Agility 0, Guile 0, Knowledge +2, Reason +2
-HP: 10 + 0 + 2 = 12 at L1. Gains +1/level (Fort min 1). L5 HP: 12 + 4 = 16.
-
-LEVEL 0 — Early Life: Arcane Prodigy
--------------------------------------
-DP: 8 + Fortitude(0) + Knowledge(+2) = 10 DP. MUST SPEND ALL.
-
-Knowledge pays off in Level 0. Thalia was a studious child — always reading,
-always experimenting. Her high Knowledge gives her more early-life DP than
-any fighter. But she's frail — that's the trade.
-
-Arcana N (skill)               1 DP
-Investigation N (skill)        1 DP    [ research instinct ]
-Perception N (skill)           1 DP
-Lore (Ancient History) N (skill)1 DP
-Lore (Planes) N (skill)        1 DP
-Firebolt N (ability)           1 DP    [ her first spell — age 9 ]
-Mage Armor N (ability)         1 DP    [ survival instinct ]
-Fire Discipline (3rd)          1 DP    [ innate fire affinity, pre-class ]
-Knowledge Discipline (3rd)     1 DP    [ academic intensity ]
-Energy Discipline (2nd)        1 DP    [ studied the elements broadly ]
-                                 ---
-Level 0 spent:                 10 DP   (0 remaining)
-
-NOTE: Thalia bought THREE Disciplines in Level 0 — Fire(3rd), Knowledge(3rd),
-Energy(2nd). Her high Knowledge gave her 10 DP, and she used it to load up on
-magical Disciplines. She already has Fire(3) before even choosing Wizard!
-→ Fireball requires Fire 2: ✓ already met.
-→ Volcanic Eruption requires Fire 3: ✓ already met.
-
-Disciplines after Level 0: Fire(3), Knowledge(3), Energy(2), General(3)
-(Ancestry High Elf: Fire; Background Sage: Knowledge)
-
-LEVEL 1 — Choose Class: Wizard
--------------------------------
-DP: 8 DP (flat).
-
-Class grants: Fire(1)→now Fire(4), Energy(1)→now Energy(3), Knowledge(1)→now Knowledge(4)
-
-Fire Magic N (skill)           1 DP
-Magic Missile N (ability)      1 DP    [requires Energy 1]
-                                 ---
-Level 1 spent:                 2 DP    (6 DP banked — wizard training is fast)
-
-LEVEL 2 — 14 DP available (6 banked + 8 new)
---------------------------------------------
-Investigation A (skill)        2 DP
-Arcana A (skill)               2 DP
-                                 ---
-Spent:                         4 DP    Cumulative: 16 DP (10 banked)
-
-LEVEL 3 — 18 DP available (Adept unlock — wizards come online!)
----------------------------------------------------------------
-Fireball A (ability)           2 DP    [requires Fire 2 — had it since Phase 1!]
-Lightning Bolt A (ability)     2 DP    [requires Energy 2 — also pre-met]
-Fire Magic A (skill)           2 DP
-Counterspell N (ability)       1 DP    [requires Knowledge 3]
-                                 ---
-Spent:                         7 DP    Cumulative: 23 DP (11 banked)
-
-LEVEL 4-5 — Building toward Master
-----------------------------------
-Arcana M (skill)               3 DP    (L4) [early Master skill — Knowledge pays]
-Perception A (skill)           2 DP    (L5)
-                                 ---
-Cumulative at L5:              28 DP spent (58%). 20 DP banked.
-
-THALIA AT LEVEL 5 — Summary
-----------------------------
-HP: 16    Fortitude: 0
-Disciplines: Fire(4), Energy(3), Knowledge(4), General(3)
-Skills:      Arcana M (+3), Fire Magic A (+2), Investigation A (+2),
-             Perception A (+2), Lore (Ancient History) N (+1),
-             Lore (Planes) N (+1)
-Abilities:   Firebolt N, Fireball A, Magic Missile N, Lightning Bolt A,
-             Mage Armor N, Counterspell N
-DP spent:    28 of 48 (58%) — 20 DP banked
-
-NOTE: Thalia spends more than any martial (58% vs ~46%). The Knowledge
-bonus DP in Level 0 is powerful — it loaded her with Disciplines early,
-letting her skip prerequisite buys and go straight to spells. This is
-the wizard advantage: Knowledge = faster arcane progression.
-
-Volcanic Eruption M (4 DP) and Chain Lightning M (4 DP) are budgeted for L7.
-She'll need 8 DP from her 20 banked + 16 from L6-L7 = 28 available — easy.
-
-
-============================================================
-CHARACTER 6: PIP — Gnome Wizard (Controller)
-============================================================
-Concept: Battlefield controller. Wind + Ice. Gust→Wind Wall→Cyclone.
-Frost Ray→Ice Storm→Blizzard. Chess player with the weather.
-
-Attributes: Brawn -2, Fortitude -1, Agility +1, Guile 0, Knowledge +2, Reason +2
-HP: 10 + (-1) + 2 = 11 at L1. Gains +1/level (Fort min 1). L5 HP: 11 + 4 = 15.
-
-LEVEL 0 — Early Life: Curious Tinkerer
+HP: 10 + 2 + (-1) = 11 at L1. +2/level → 19 at L5.
+
+LEVEL 0 — Dwarven Soldier (9 DP = 8 + Fort+2 + Know-1) — MUST SPEND ALL
+------------------------------------------------------------------------
+Athletics N              1 DP    [physical conditioning]
+Endurance N              1 DP    [dwarven hardiness]
+Intimidation N           1 DP    [soldier presence]
+Perception N             1 DP    [battlefield awareness]
+Survival N               1 DP    [mountain fieldcraft]
+Lore (Dwarven) N         1 DP    [cultural knowledge]
+Craft (Smithing) N       1 DP    [dwarven craft]
+Shield Block N           1 DP    [militia shield training]
+Earth Discipline (2nd)   1 DP    [stone connection]
+                           --
+                           9 DP — all spent ✓
+
+Disciplines: Earth(2), General(3). No class yet.
+
+LEVEL 1 — Fighter Training (8 DP) — MUST SPEND ALL
+--------------------------------------------------
+Class grants: Blade(1), Armor(1), Protection(1). Soldier bg: Heavy Weapon(1).
+Longsword (1 Blade + 1 HW) now available. ✓
+
+Blade Fighting N          1 DP    [requires Blade 1]
+Power Attack N            1 DP    [requires Blade 1]
+Armor Discipline (2nd)    1 DP    [for Plate later]
+Second Wind N             1 DP    [combat recovery]
+Iron Will N               1 DP    [mental fortitude]
+Protection Disc (2nd)     1 DP    [better shields]
+Heavy Weapon Disc (2nd)   1 DP    [weapon flexibility]
+Lore (Military) N         1 DP    [tactical knowledge]
+                           --
+                           8 DP — all spent ✓
+
+Disciplines: Blade(1), Armor(2), Protection(2), Earth(2), Heavy Weapon(2), General(3)
+Skills (8): Blade Fighting N, Athletics N, Endurance N, Intimidation N,
+            Perception N, Survival N, Lore (Dwarven) N, Craft (Smithing) N,
+            Lore (Military) N
+Abilities (4): Shield Block N, Power Attack N, Second Wind N, Iron Will N
+
+LEVEL 2 — 8 DP (Adept skills OK, Adept abilities locked until L3)
+-----------------------------------------------------------------
+Endurance → A             2 DP    [upgrade]
+Intimidation → A          2 DP    [upgrade]
+Craft (Smithing) → A      2 DP    [upgrade — master smith in training]
+Heavy Weapon Fighting N   1 DP    [secondary weapon skill]
+Leadership N              1 DP    [battlefield command]
+                           --
+                           8 DP — all spent ✓
+
+LEVEL 3 — 8 DP (Adept ABILITIES unlock)
 ---------------------------------------
-DP: 8 + Fortitude(-1) + Knowledge(+2) = 9 DP. MUST SPEND ALL.
+Blade Fighting → A        2 DP    [upgrade — now +2 with his sword]
+Power Attack → A          2 DP    [first Adept ability]
+Athletics → A             2 DP    [upgrade]
+Survival → A              2 DP    [upgrade]
+                           --
+                           8 DP — all spent ✓
 
-Pip grew up in a gnomish enclave where knowledge was currency. Always
-asking "what happens if I...?" — which led to some very cold accidents.
+LEVEL 4 — 8 DP
+--------------
+Shield Block → A          2 DP    [upgrade]
+Iron Will → A             2 DP    [upgrade]
+Perception → A            2 DP    [upgrade]
+Second Wind → A           2 DP    [upgrade]
+                           --
+                           8 DP — all spent ✓
 
-Arcana N (skill)               1 DP
-Investigation N (skill)        1 DP
-Lore (Elementals) N (skill)    1 DP
-Gust N (ability)               1 DP    [ first spell — blew over a bookshelf ]
-Frost Ray N (ability)          1 DP    [ froze the family cat (it recovered) ]
-Wind Discipline (2nd)          1 DP    [ natural affinity ]
-Water Discipline (2nd)         1 DP    [ from studying ice ]
-Knowledge Discipline (3rd)     1 DP    [ gnomish scholarship ]
-Energy Discipline (2nd)        1 DP    [ general elemental theory ]
-                                 ---
-Level 0 spent:                 9 DP    (0 remaining)
+LEVEL 5 — 8 DP
+--------------
+Heavy Wpn Fighting → A    2 DP    [upgrade secondary weapon]
+Bulwark Stance N          1 DP    [requires Armor 2]
+Commander's Strike N      1 DP    [requires Leadership N]
+Lore (Dwarven) → A        2 DP    [upgrade]
+Lore (Military) → A       2 DP    [upgrade]
+                           --
+                           8 DP — all spent ✓
 
-Disciplines after Level 0: Wind(2), Water(2), Knowledge(3), Energy(2), General(3)
-(Ancestry Gnome: Energy; Background Scholar: Knowledge)
-→ Wind Wall requires Wind 2: ✓ pre-met!
-→ Ice Storm requires Water 2: ✓ pre-met!
+BORIN AT LEVEL 5
+----------------
+HP: 19 | Fortitude: +2 | DP spent: 49 of 49 (100% — use or lose)
 
-LEVEL 1 — Choose Class: Wizard
--------------------------------
-DP: 8 DP (flat).
+Disciplines: Blade(1), Armor(2), Protection(2), Earth(2),
+             Heavy Weapon(2), General(3)
 
-Class grants: Wind(1)→now Wind(3), Water(1)→now Water(3), Knowledge(1)→now Knowledge(4)
+Skills (ALL at Adept +2): Blade Fighting, Athletics, Endurance, Intimidation,
+    Perception, Survival, Heavy Weapon Fighting, Craft (Smithing),
+    Lore (Dwarven), Lore (Military), Leadership
 
-Wind Magic N (skill)           1 DP
-Water Magic N (skill)          1 DP
-Fog Cloud N (ability)          1 DP
-                                 ---
-Level 1 spent:                 3 DP    (5 DP banked)
+Abilities (Adept): Shield Block, Power Attack, Iron Will, Second Wind
+Abilities (Novice): Bulwark Stance, Commander's Strike
 
-LEVEL 2 — 13 DP available
--------------------------
-Arcana A (skill)               2 DP
-Wind Magic A (skill)           2 DP
-                                 ---
-Spent:                         4 DP    Cumulative: 16 DP (9 banked)
-
-LEVEL 3 — 17 DP available (Adept unlock)
-----------------------------------------
-Wind Wall A (ability)          2 DP    [requires Wind 2 — met in Level 0!]
-Ice Storm A (ability)          2 DP    [requires Water 2 — met in Level 0!]
-Investigation A (skill)        2 DP
-                                 ---
-Spent:                         6 DP    Cumulative: 22 DP (11 banked)
-
-LEVEL 4-5 — Building
---------------------
-Water Magic A (skill)          2 DP    (L4)
-Fly A (ability)                2 DP    (L5) [requires Wind 2 ✓]
-                                 ---
-Cumulative at L5:              26 DP spent (54%). 22 DP banked.
-
-PIP AT LEVEL 5 — Summary
--------------------------
-HP: 15    Fortitude: -1
-Disciplines: Wind(3), Water(3), Knowledge(4), Energy(2), General(3)
-Skills:      Arcana A (+2), Wind Magic A (+2), Water Magic A (+2),
-             Investigation A (+2), Lore (Elementals) N (+1)
-Abilities:   Gust N, Wind Wall A, Frost Ray N, Ice Storm A,
-             Fog Cloud N, Fly A
-DP spent:    26 of 48 (54%) — 22 DP banked
-
-Cyclone M (4 DP) and Blizzard M (4 DP) budgeted for L7-L8. Total 8 DP
-needed from 22 banked + 8 (L6) + 8 (L7) = 38 available. Comfortable.
+No banking means Borin has 11 skills and 6 abilities — a broadly competent
+dwarf who can fight, craft, lead, and survive. The use-or-lose rule creates
+well-rounded characters, not hyper-specialists.
 
 
 ============================================================
-BUDGET COMPARISON — All 6 Characters at Level 5
+ALL 6 CHARACTERS — Level 5 Summary (use-or-lose)
 ============================================================
 
-Character          L1 DP*   Spent   Banked   % Used   Focus
-----------------   ------   -----   ------   ------   -----
-Borin (Fighter)    9/8=17    25      23       52%     Sword & board tank
-Kara (Fighter)     8/8=16    22      26       46%     Great weapon berserker
-Lyra (Thief)       7/8=15    23      25       48%     Stealth infiltrator
-Vex (Thief)        7/8=15    22      26       46%     Duelist swashbuckler
-Thalia (Wizard)   10/8=18    28      20       58%     Fire evoker
-Pip (Wizard)       9/8=17    26      22       54%     Wind/ice controller
+Character         L0 DP  L1-L5 DP  Total    Skills  Abilities  Disciplines
+----------------  -----  --------  -----    ------  ---------  -----------
+Borin (Dwarf Ftr)   9      40       49        11        6           10
+Kara (Human Ftr)    8      40       48        10        5            9
+Lyra (Half Thf)     7      40       47        10        6            9
+Vex (Elf Thf)       7      40       47        10        6           10
+Thalia (HE Wiz)    10      40       50         9        8           12
+Pip (Gnm Wiz)       9      40       49         8        8           12
 
-* L1 DP = (Phase 1: 8+K+F) + (Phase 2: 8). Example: Borin 8+2-1+8=17.
+All characters MUST spend every DP at every level. No banking.
 
-KEY INSIGHTS
-------------
-1. Knowledge modifier directly affects Phase 1 DP. High Knowledge characters
-   (wizards) get 9-10 DP in Level 0 vs 7-8 for low Knowledge (fighters).
-   This creates organic differentiation — smart characters learn more
-   before specializing.
+RESULT: Characters are broadly competent by level 5 — 8-11 skills at
+Adept or better, 5-8 abilities. Wizards have more Disciplines (10-12)
+because they buy them to unlock spell chains. Everyone has their core
+combat/class identity online by L3, then layers on depth at L4-L5.
 
-2. Phase 1 "use or lose" forces breadth. Every character ends up with
-   6-8 skills at Novice or better by Level 5 — not just combat stats.
-   Borin knows dwarven lore and smithing. Kara knows survival. Lyra knows
-   the underworld. These aren't "wasted" DP — they're character depth
-   that the system mandates.
+The Adept gate at L3 creates a natural rhythm: levels 0-2 build breadth
+(Novice everything), levels 3-5 deepen (Adept upgrades). Master at L7
+will be the next big power spike.
 
-3. Wizards benefit most from high Knowledge. Thalia loaded up on Fire(3)
-   and Energy(2) Disciplines in Level 0 — completely skipping prerequisite
-   buys that would have cost DP later. This is the wizard's reward for
-   investing in Knowledge.
-
-4. Low Fortitude penalizes Phase 1 DP. Vex and Pip (Fort -1) only get
-   7-9 DP vs Borin's 9. This is the cost of being fragile — you spent
-   your youth studying or performing, not building endurance.
-
-5. Phase 2 DP can be banked. Most characters bank 3-6 DP from Level 1,
-   giving them a head start on Level 2 Adept upgrades.
-
-6. Budget 8 DP/level works. No character is starved. The spread is 46-58%
-   spent by L5, with all characters having their core identity online
-   and 20-26 DP banked for future progression.
+KEY INSIGHT
+-----------
+Use-or-lose eliminates "analysis paralysis" — players don't agonize over
+saving DP for later. Every level is a spending puzzle: "What am I doing
+with my 8 DP right now?" This keeps character progression engaging at
+every level rather than front-loading or hoarding.
 
 
 RECOMMENDATION
 --------------
-Two-phase creation confirmed at 8 DP/level:
-  Phase 1 (Ancestry/Background): 8 + Knowledge + Fortitude DP. Use or lose.
-  Phase 2 (Class): 8 DP. Unspent banks to Level 2.
-  Levels 2+: 8 DP each.
-  Adept at L3, Master at L7.
-
-This creates meaningful differentiation between high-Knowledge (wizard)
-and high-Fortitude (fighter) characters while forcing background depth
-through the Phase 1 "use or lose" mechanic.
+Confirmed: use-or-lose at every level. 8 DP/level (L0: 8+Knowledge+Fortitude).
+No banking. Adept at L3, Master at L7. Characters build broad, then deep.
