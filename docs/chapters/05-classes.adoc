@@ -44,8 +44,6 @@ keeping the ability to strike back when needed.
 *Signature -- Bastion:* Spend your movement to enter a defensive stance.
 Add +1 to your Protection Value for the round. At higher levels, this bonus
 increases.
-*L2 Class Discipline:* Protection (1)
-*L3 Class Discipline:* Armor or Protection (your choice)
 *Favored Skills (standard cost):* Athletics, Endurance, Intimidation,
 Melee Combat, Resilience
 *Favored Disciplines (standard cost):* Armor, Protection
@@ -76,8 +74,6 @@ the shadow on the wall, the final face your enemies see.
 *Signature -- Swift Blade:* You may use Agility instead of Brawn when
 attacking with blades. Gain the *Precise Stab* ability -- bonus
 damage when exploiting an opening.
-*L2 Class Discipline:* Blades (deepen to rank 2)
-*L3 Class Discipline:* Archery or Blades (your choice)
 *Favored Skills (standard cost):* Acrobatics, Deception, Perception,
 Sleight of Hand, Stealth
 *Favored Disciplines (standard cost):* Blades, Archery
@@ -109,8 +105,6 @@ how well.
 *Signature -- Arcane Shield:* As a free action, raise a protective ward
 that increases your Evasion by +1 for the round. At higher levels, this
 shield grows stronger. Once per round.
-*L2 Class Discipline:* Fire, Earth, Wind, or Water (1)
-*L3 Class Discipline:* Any Elemental or Energy (1)
 *Favored Skills (standard cost):* Alchemy, Arcana, History, Investigation,
 Lore (any)
 *Favored Disciplines (standard cost):* Energy and all Elemental types
@@ -144,8 +138,6 @@ beyond death's reach fear your presence.
 *Signature -- Turn Undead:* Call down divine energy that ignores armor and
 affects only undead creatures within your presence. Your faith burns what
 should not walk.
-*L2 Class Discipline:* Animal (1)
-*L3 Class Discipline:* Protection or Animal (your choice)
 *Favored Skills (standard cost):* Medicine, Nature, Religion, Survival
 *Favored Disciplines (standard cost):* Protection, Animal
 *Costs More:* Elemental Disciplines and Energy cost +1 DP per rank. Your
@@ -175,8 +167,6 @@ weight, guiding allies through the darkest times.
 *Class Discipline (L1):* Any one (your choice, reflecting your field)
 *Signature -- Knowledge Is Power:* Gain +1 to all Knowledge-based skill
 checks. This increases at higher levels.
-*L2 Class Discipline:* Any one (your choice)
-*L3 Class Discipline:* Any one (your choice)
 *Favored Skills (standard cost):* History, Investigation, Lore (any
 three), Medicine, Arcana
 *Favored Disciplines (standard cost):* All Disciplines cost the standard
@@ -211,8 +201,6 @@ Defense, take an Elemental or Energy).
 *Signature -- Eccentric Spellcasting:* Choose one arcane ability and one
 divine ability. You ignore prerequisite Disciplines for these two (level
 requirements still apply). You need no arcane focus or holy symbol.
-*L2 Class Discipline:* Any one (different category from L1)
-*L3 Class Discipline:* Any one (different category from L1 and L2)
 *Favored Skills (standard cost):* Sleight of Hand, Stealth, Streetwise,
 Deception, Acrobatics
 *Favored Disciplines (standard cost):* All Disciplines cost the standard
@@ -243,8 +231,6 @@ companions toward a brighter future. In your presence, unity flourishes.
 *Signature -- Lead by Example:* When you land a telling blow on an enemy,
 grant one ally who witnessed it a +2 bonus on their next roll. Your
 actions inspire greatness in others.
-*L2 Class Discipline:* Energy (1)
-*L3 Class Discipline:* Protection, Energy, or Any one (your choice)
 *Favored Skills (standard cost):* Persuasion, Resilience, Perception, Insight
 *Favored Disciplines (standard cost):* Protection, Energy
 *Costs More:* Elemental Disciplines cost +1 DP per rank. You lead from
@@ -276,9 +262,6 @@ uncertainty of the fray.
 *Signature -- Edge of Chaos:* On a Strong hit, deal +4 bonus damage but
 roll on a d6 backlash table -- self-damage, a fleeting condition, or an
 environmental surge that affects everyone, friend and foe alike.
-*L2 Class Discipline:* An Elemental type opposing your L1 choice
-(e.g., Fire + Water, Earth + Wind)
-*L3 Class Discipline:* Either of your two Elemental types (your choice)
 *Favored Skills (standard cost):* Arcana, Deception, Insight, Intimidation,
 Melee Combat
 *Favored Disciplines (standard cost):* Your two opposing Elemental types.
@@ -299,19 +282,10 @@ wrong, you're the one who knows what to do with wrong.
 == Progression
 
 Every level, you gain *8 Development Points*. Spend them all -- they don't
-carry over.
-
-At Levels *1, 2, and 3*, your class grants you one Discipline rank each
-level (see your class entry for which types). After Level 3, you earn
-additional Disciplines by purchasing them with DP.
+carry over. That's it.
 
 *Adept* abilities unlock at Level 3. *Master* abilities unlock at Level 7.
 Until then, everything you buy is Novice.
-
-Every 4 levels (4, 8, 12, 16, 20), increase one attribute by +1 (max +2).
-At Level 10, you gain your class capstone ability.
-
-That's the whole system. Eight points, every level, your choices.
 
 == Favored Costs
 

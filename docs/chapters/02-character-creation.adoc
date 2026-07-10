@@ -164,9 +164,8 @@ Now your hero finds their calling. This is where they become exceptional.
 | *Unbalanced* | High-risk power | "Power has a price."
 |===
 
-Record your Class Discipline (one rank), signature ability, and favored
-skills. Each class also grants a second Discipline at Level 2 and a third
-at Level 3. See xref:chapters/05-classes.adoc[Classes] for full writeups,
+Record your Class Discipline (one rank) and signature ability.
+See xref:chapters/05-classes.adoc[Classes] for full writeups,
 including favored costs.
 
 === Step 7: Spend Class DP
