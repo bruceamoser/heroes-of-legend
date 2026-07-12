@@ -52,7 +52,7 @@ These are the pillars of the system. Every design decision flows from them.
 ### The Core Roll
 - **3d6 + Attribute Modifier + Skill Bonus + Game Modifiers**
 - **Attributes:** Brawn, Fortitude, Agility, Guile, Knowledge, Reason — range **-2 to +2**
-- **Success tiers:** Weak (1–6), Standard (7–12), Strong (13–18+)
+- **Success tiers:** Weak (1–8), Standard (9–14), Strong (15–18+)
 - **Critical:** Three natural 6s — automatic Strong success with bonus effect
 - **Fumble:** Three natural 1s — automatic failure with complication
 - **Attacks always hit** — weapons and spells have distinct Weak/Standard/Strong damage values
@@ -152,20 +152,85 @@ Always read upstream chapters before working on downstream ones. A change to cha
 
 ---
 
-## Workflow
+## Mandatory Workflow
 
-For all substantive work, follow this cycle:
+**Every change to this project MUST follow this gated workflow. No exceptions.**
+
+### Rule 1: No Issue, No Work
+- Every task MUST have a corresponding GitHub issue BEFORE any work begins.
+- If a user asks for work that has no issue, create one first using the `create-issue` skill.
+- The issue must exist, be numbered, and be referenced in all subsequent steps.
+
+### Rule 2: Bite-Sized Issues
+- Issues MUST be small enough to complete in one focused session.
+- Large tasks MUST be broken into multiple bite-sized issues.
+- If an issue description exceeds ~200 words or covers multiple unrelated changes, split it.
+- Use the Orchestrator mode for decomposition when tasks are complex.
+
+### Rule 3: Always Create Pull Requests
+- Every change MUST go through a pull request. Never commit directly to `main`.
+- Use the `create-pr` skill for proper PR format and workflow.
+- Branch naming: `issue/<N>-<slug>` (e.g., `issue/94-typography-overhaul`).
+
+### Rule 4: Independent Review Required
+- PRs MUST be reviewed independently of the work that created them.
+- Use the `review-pr` skill for systematic review before merging.
+- Review checks: mechanical correctness, cross-references, build verification, terminology consistency.
+- Do NOT merge a PR until it has been reviewed and approved.
+
+### Rule 5: Always Squash Merge
+- All PRs MUST be squash merged into `main`.
+- Use the `squash-merge` skill for proper cleanup (delete branch, verify closure).
+- PR description MUST include `Closes #N` for each issue being resolved.
+
+### Rule 6: Self-Improving Skills
+- When a skill or agent instruction is wrong, incomplete, or missing details needed to perform a task correctly, UPDATE it.
+- After completing work, reflect: did any skill produce incorrect output? Did any instruction lead to a mistake? Fix it immediately.
+- Skills are living documents. Each use is an opportunity to improve them.
+
+### Complete Workflow Chain
 
 ```
-PLAN → RESEARCH → DRAFT → REVIEW → SAVE → NEXT
+ISSUE → BRANCH → IMPLEMENT → PR → REVIEW → SQUASH MERGE → CLOSE
+   │        │          │        │       │          │           │
+   │        │          │        │       │          │           └── Issue auto-closed via "Closes #N"
+   │        │          │        │       │          └── squash-merge skill
+   │        │          │        │       └── review-pr skill (independent)
+   │        │          │        └── create-pr skill
+   │        │          └── Code/Content/Chapter modes
+   │        └── git checkout -b issue/<N>-<slug>
+   └── create-issue skill (bite-sized)
 ```
 
-1. **PLAN** — Read the issue, identify affected chapters, state your approach
-2. **RESEARCH** — Read all affected chapters and upstream dependencies, consult reference files
-3. **DRAFT** — Write or edit the chapter content, update cross-references
-4. **REVIEW** — Checklist against the original goal, identify gaps, fix them, build to validate
-5. **SAVE** — Commit with conventional format: `feat(#N): summary` or `design(#N): summary`
-6. **NEXT** — Move to the next issue in the critical path
+### Modes Quick Reference
+
+| Mode | Slug | Use For |
+|------|------|---------|
+| 🪃 Orchestrator | `orchestrator` | Breaking down complex tasks, delegating to specialists |
+| 💻 Code | `code` | Writing/modifying code, style files, configuration, build fixes |
+| ❓ Ask | `ask` | Research, reading files, answering questions (no changes) |
+| 🪲 Debug | `debug` | Troubleshooting, investigating errors, root cause analysis |
+| 🏗️ Architect | `architect` | Planning, designing, strategizing before implementation |
+| 📖 Chapter Editor | `chapter-editor` | Drafting, editing, restructuring chapter content |
+| 🎲 Mechanics Designer | `mechanics-designer` | Designing rules, balancing numbers, probability analysis |
+| ✨ Spell Designer | `spell-designer` | Creating spell chains, stat blocks, damage values |
+| ⚔️ Content Designer | `content-designer` | Classes, ancestries, monsters, weapons, magic items |
+| 📜 Lore Writer | `lore-writer` | Fiction, flavor text, setting prose, NPC descriptions |
+| 🔍 Reviewer | `reviewer` | Pre-commit review, cross-reference audit, rule gap analysis |
+| 📐 Layout Formatter | `layout-formatter` | Quarto markdown formatting, tables, callouts, final layout |
+| ✍️ Copy Writer | `copy-writer` | Rules explanations, worked examples, player-facing prose |
+| 🔄 GitHub Coordinator | `github-coordinator` | Issues, branches, PRs, reviews, squash merges |
+
+### Key Files
+
+| File | Purpose |
+|------|---------|
+| `quarto-book/chapters/*.qmd` | Chapter source files (canonical content) |
+| `quarto-book/_extensions/heroes-of-legend/style.typ` | Typst stylesheet (layout, fonts, typography) |
+| `quarto-book/_quarto.yml` | Quarto configuration |
+| `quarto-book/_brand.yml` | Brand/theme settings |
+| `.github/copilot-instructions.md` | **This file** — agent instructions |
+| `.roo/skills/*/SKILL.md` | Skill definitions |
 
 ---
 
