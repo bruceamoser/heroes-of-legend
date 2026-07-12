@@ -11,6 +11,16 @@ description: Create a well-formed GitHub issue for the Heroes of Legend rulebook
 - Proposing a design change or new mechanic
 - Creating a task for yourself or another agent
 
+## Bite-Sized Issue Rule
+
+Issues MUST be small enough to complete in one focused session. If a task spans multiple unrelated changes, split it into multiple issues. A well-formed issue:
+- Addresses ONE concern (typography, or bestiary, or table formatting — not all three)
+- Can be completed in a single implementation session
+- Has a clear, testable Definition of Done
+- References specific files and line numbers where possible
+
+If an issue description exceeds ~200 words, it is probably too large and should be split.
+
 ## Issue Template
 
 ### Feature / Content Issue

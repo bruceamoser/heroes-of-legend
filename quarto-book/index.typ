@@ -449,479 +449,479 @@
 )
 
 
-// ═══════════════════════════════════════════════════════════════════════════
-// Heroes of Legend — "Battle-Scarred Tome" Theme
-// A dark, grounded medieval fantasy aesthetic.
-// Aged parchment, dark brown ink, ornamental flourishes.
-// Voice: Direct, commanding, battle-scarred mentor.
-// ═══════════════════════════════════════════════════════════════════════════
-
-// ── Typst Universe Package Imports ──────────────────────────────────────────
-// See docs/typst-packages.md for details on each package.
-#import "@preview/booktabs:0.0.4": *
-#import "@preview/beautitled:0.2.7": *
-#import "@preview/iconify:0.5.3": icon, provide-icons
-
-// iconify setup — download game-icons collection for fantasy/TTRPG icons:
-// 1. Download: https://github.com/iconify/icon-sets/raw/master/json/game-icons.json
-// 2. Save to: quarto-book/_extensions/heroes-of-legend/game-icons.json
-// 3. Uncomment and configure:
-//   #provide-icons(json("game-icons.json"))
-// 4. Usage: #icon("game-icons:flame") or #icon("game-icons:crossed-swords")
-//
-// Browse icons: https://icones.js.org/collection/game-icons
-
-// Future: Replace emoji fallbacks with iconify icons in callout definitions
-// Example: icon("game-icons:info") instead of 📝 for note callouts
-
-// ── Font Configuration ───────────────────────────────────────────────────────
-// Body: Alegreya (calligraphic, literary, designed for long reading)
-// Headings: Almendra (fantasy calligraphic, more readable than IM Fell English)
-// Mono: Libertinus Mono (bundled with Typst)
-//
-// To install fonts for Typst/Quarto:
-//   1. Download from https://fonts.google.com/?query=alegreya
-//      and https://fonts.google.com/?query=almendra
-//   2. Install system-wide (Windows: right-click → Install for all users)
-//   3. Or place .ttf/.otf files in quarto-book/fonts/ directory
-//
-// Fallback stack ensures compilation even if premium fonts are missing.
-#let body-font-stack    = ("Alegreya", "Crimson Text", "EB Garamond", "Libertinus Serif")
-#let heading-font-stack = ("Almendra", "IM Fell English", "Cinzel", "Crimson Text")
-#let mono-font-stack    = ("Libertinus Mono", "Cascadia Code", "Consolas")
-
-// ── Color Palette ────────────────────────────────────────────────────────────
-// Aged parchment & dark ink — no faux aging, just confident medieval tone.
-
-// Page & Background
-#let page-bg       = rgb("#f4e4c1")  // aged parchment
-#let sidebar-bg    = rgb("#faf3e0")  // lighter parchment for sidebars
-#let code-bg       = rgb("#fdfaf0")  // very light parchment for stat blocks
-
-// Text & Ink
-#let text-color    = rgb("#3d2b1f")  // dark brown ink — body text
-#let muted         = rgb("#7a6e5e")  // muted brown for footnotes, page numbers
-#let heading-color = rgb("#8b0000")  // deep red-brown — chapter/section headings
-
-// Accent & Decorative
-#let gold          = rgb("#c9a84c")  // antique gold — decorative elements
-#let gold-dim      = rgb("#8a6a2a")  // warm brown gold — borders, rules
-#let link-color    = rgb("#8a6a2a")  // warm brown — cross-references, links
-
-// Table & Border
-#let table-border  = rgb("#5c4033")  // medium brown — table borders
-#let table-header  = rgb("#5c4033")  // medium brown — table header bg
-#let table-stripe  = rgb("#faf3e0")  // lighter parchment — alternating rows
-#let border-color  = rgb("#5c4033")  // medium brown — general borders
-
-// Admonition Backgrounds
-#let note-bg       = rgb("#fef9e7")  // pale amber — NOTE
-#let tip-bg        = rgb("#f0f7e6")  // pale green — TIP
-#let warning-bg    = rgb("#fdf0ed")  // pale red — WARNING
-
-// Admonition Border Colors
-#let note-border   = rgb("#8a6a2a")  // warm brown
-#let tip-border    = rgb("#4a7c3f")  // forest green
-#let warning-border = rgb("#8b0000") // deep red-brown
-
-// Surface (legacy compat)
-#let surface       = rgb("#f5f1ea")
-#let surface-alt   = rgb("#ede7dd")
-#let callout-bg    = rgb("#faf3e0")
-
-// ── Unicode Icon Fallbacks ───────────────────────────────────────────────────
-// Quarto generates fa-*() for Font Awesome icons. Typst doesn't ship FA.
-// These unicode fallbacks provide medieval-appropriate symbols.
-#let fa-info()                = [📝]
-#let fa-warning()             = [⚠]
-#let fa-exclamation()         = [❗]
-#let fa-exclamation-triangle()= [⚠]
-#let fa-lightbulb()           = [💡]
-#let fa-check()               = [✓]
-#let fa-times()               = [✗]
-#let fa-star()                = [★]
-#let fa-book()                = [📖]
-#let fa-gear()                = [⚙]
-#let fa-cube()                = [📦]
-#let fa-bolt()                = [⚡]
-#let fa-shield()              = [🛡]
-#let fa-fire()                = [🔥]
-#let fa-snowflake()           = [❄]
-#let fa-bomb()                = [💣]
-
-// ── Page Setup ──────────────────────────────────────────────────────────────
-#set page(
-  paper: "us-letter",
-  fill: page-bg,
-  margin: (top: 0.95in, bottom: 1.0in, left: 1.15in, right: 1.15in),
-  // ── Header ─────────────────────────────────────────────────────────────
-  // Chapter name left-aligned, small caps, with thin ornamental rule beneath.
-  // Falls back to "Heroes of Legend" when no chapter heading is on the page.
-  header: [
-    #set text(size: 7.5pt, fill: muted, font: body-font-stack)
-    #grid(
-      columns: (1fr, 1fr),
-      align(left)[
-        #set text(weight: "bold", tracking: 0.8pt)
-        #smallcaps[Heroes of Legend]
-      ],
-      align(right)[
-        #context counter(page).display()
-      ],
-    )
-    #v(3pt)
-    #line(
-      start: (0%, 0pt),
-      end: (100%, 0pt),
-      stroke: 0.4pt + gold-dim,
-    )
-  ],
-  // ── Footer ─────────────────────────────────────────────────────────────
-  // Centered page number with decorative dashes: "— 42 —"
-  footer: [
-    #set text(size: 7.5pt, fill: muted, font: body-font-stack)
-    #align(center)[
-      — #context counter(page).display() —
-    ]
-  ],
-  numbering: none, // we provide custom footer
-)
-
-// Force warm page fill — overrides any template defaults.
-#show page: it => {
-  set page(fill: page-bg)
-  it
-}
-
-// ── Text ────────────────────────────────────────────────────────────────────
-#set text(
-  font: body-font-stack,
-  size: 11.5pt,
-  fill: text-color,
-  ligatures: true,
-  hyphenate: true,
-  lang: "en",
-)
-
-#set par(
-  justify: true,
-  leading: 0.95em,
-  first-line-indent: 0pt,
-  spacing: 0.7em,
-)
-
-// ── Headings (powered by beautitled) ────────────────────────────────────────
-// 19 print-friendly heading styles with matching TOC designs.
-// Current style: "titled" — boxed sections with floating labels.
-// Other strong candidates: "vintage" (book ornaments), "scholarly" (centered rules).
-// See docs/typst-packages.md for full style catalog.
-
-#beautitled-setup(
-  style: "vintage",
-  chapter-pagebreak: true,
-  show-part-number: true,
-  show-chapter-number: true,
-  show-section-number: false,
-  show-subsection-number: false,
-  part-fullpage: true,
-)
-#show: beautitled-init
-#preset-english()
-#theme-warm()  // Orange/brown tones — matches our parchment + dark ink palette
-
-// Override beautitled heading fonts to use our fantasy font stack.
-// beautitled applies its own font choices; we restore ours after init.
-#show heading: set text(font: heading-font-stack)
-#show heading.where(level: 1): set text(font: heading-font-stack)
-#show heading.where(level: 2): set text(font: heading-font-stack)
-
-// ── Tables (booktabs functions available) ───────────────────────────────────
-// booktabs provides toprule(), midrule(), bottomrule(), cmidrule().
-// Issue #96: Replaced uniform cell borders with booktabs-style rules.
-// Top/bottom rules: 1.2pt. Midrule after header: 0.8pt per header cell.
-// No vertical rules. No horizontal rules between data rows.
-// Tables auto-size columns to content via columns: auto (the Typst default).
-// Tables are wrapped in unbreakable blocks so they stay intact on one page.
-// Header rows repeat if a table must break across pages.
-
-#set table(
-  stroke: none,
-  inset: (x: 7pt, y: 5pt),
-  columns: auto,
-  fill: (_, y) => {
-    if y == 0 { return table-header }
-    if calc.rem(y, 2) == 1 { return table-stripe }
-    return page-bg
-  },
-)
-
-// Booktabs-style rules: thick toprule above, thick bottomrule below.
-// Midrule is drawn at the bottom of each header cell (see header cell show rule).
-// Tables are wrapped in unbreakable blocks to prevent mid-table page breaks.
-#show table: it => {
-  v(4pt)
-  line(stroke: 1.2pt + table-border, start: (0%, 0pt), end: (100%, 0pt))
-  v(2pt)
-  block(breakable: false, it)
-  v(2pt)
-  line(stroke: 1.2pt + table-border, start: (0%, 0pt), end: (100%, 0pt))
-  v(4pt)
-}
-
-// Header cells: parchment text on dark brown, bold, with midrule line below
-#show table.cell.where(y: 0): it => {
-  set text(fill: rgb("#f4e4c1"), weight: "bold", size: 9.5pt, font: body-font-stack)
-  stack(
-    dir: ttb,
-    spacing: 0pt,
-    it,
-    v(1pt),
-    line(stroke: 0.8pt + table-border, start: (0%, 0pt), end: (100%, 0pt)),
-  )
-}
-
-// Body text
-#show table.cell: set text(size: 9pt, font: body-font-stack)
-
-// ── Links & Cross-References ────────────────────────────────────────────────
-#show link: set text(fill: link-color)
-
-// ── Emphasis & Strong ───────────────────────────────────────────────────────
-#show emph: it => { set text(style: "italic"); it }
-#show strong: set text(weight: "bold")
-
-// ── Block Quotes ────────────────────────────────────────────────────────────
-// Like marginalia in a medieval manuscript: warm background, thick left border.
-#show quote: it => {
-  set text(fill: text-color, size: 10pt, font: body-font-stack)
-  block(
-    fill: sidebar-bg,
-    inset: (left: 14pt, right: 10pt, top: 10pt, bottom: 10pt),
-    stroke: (left: 4pt + heading-color),
-    radius: 2pt,
-    it
-  )
-}
-
-// ── Code / Raw Blocks ───────────────────────────────────────────────────────
-// Very light parchment — looks like a stat block or scroll inset.
-#show raw.where(block: true): it => {
-  set text(size: 9pt, font: mono-font-stack, fill: text-color)
-  block(
-    fill: code-bg,
-    inset: 10pt,
-    stroke: 0.5pt + table-border,
-    radius: 3pt,
-    it
-  )
-}
-
-// Inline code
-#show raw.where(block: false): it => {
-  set text(font: mono-font-stack, size: 9.5pt, fill: text-color)
-  box(
-    fill: code-bg,
-    inset: (x: 3pt, y: 1pt),
-    stroke: 0.3pt + table-border,
-    radius: 2pt,
-    it
-  )
-}
-
-// ── Admonition / Callout Styling ────────────────────────────────────────────
-// Medieval marginalia feel: thick left border, pale background, unicode icon.
-// Pandoc generates: #callout(body:, title:, type:, appearance:, icon:, ...)
-//
-// NOTE: Quarto's orange-book template may generate callouts with different
-// argument shapes. We define a robust callout that handles multiple forms.
-
-#let callout(body: [], title: "Note", type: "note", appearance: "simple", icon: true, background_color: none, icon_color: black, body_background_color: white, ..rest) = {
-  // Determine colors based on type
-  let colors = (
-    note: (fill: note-bg, stroke: note-border, icon: [📝], label: "NOTE"),
-    tip: (fill: tip-bg, stroke: tip-border, icon: [💡], label: "TIP"),
-    warning: (fill: warning-bg, stroke: warning-border, icon: [⚠], label: "WARNING"),
-    important: (fill: warning-bg, stroke: warning-border, icon: [❗], label: "IMPORTANT"),
-    caution: (fill: warning-bg, stroke: warning-border, icon: [⚠], label: "CAUTION"),
-  )
-  let c = colors.at(type, default: colors.note)
-
-  // If title is empty or default, use the type label
-  let display-title = if title == none or title == [] or title == [Note] {
-    c.label
-  } else {
-    title
-  }
-
-  block(
-    breakable: false,
-    fill: c.fill,
-    stroke: (left: 4pt + c.stroke),
-    width: 100%,
-    radius: 2pt,
-    inset: (left: 12pt, right: 10pt, top: 8pt, bottom: 8pt),
-    [
-      // Title row with icon
-      #set text(fill: text-color, weight: "bold", size: 10pt, font: body-font-stack)
-      #box[#c.icon #display-title]
-      #v(0.3em)
-      // Body content
-      #set text(fill: text-color, weight: "regular", size: 10pt, font: body-font-stack)
-      #body
-    ]
-  )
-  v(0.6em)
-}
-
-// ── Part Divider Pages ──────────────────────────────────────────────────────
-// Full-bleed part title with ornamental divider.
-// Quarto generates #part[Part Title] for book part divisions.
-#let part(body) = {
-  pagebreak()
-  v(35%)
-  align(center, {
-    // Part label
-    set text(size: 12pt, fill: muted, weight: "regular", font: body-font-stack, tracking: 3pt)
-    [PART]
-    v(0.5em)
-    // Part title
-    set text(size: 28pt, fill: heading-color, weight: "bold", font: heading-font-stack)
-    body
-  })
-  v(1.5em)
-  // Decorative divider: thick gold rule flanked by thin rules
-  align(center, {
-    line(start: (25%, 0pt), end: (75%, 0pt), stroke: 0.4pt + gold-dim)
-    v(4pt)
-    line(start: (30%, 0pt), end: (70%, 0pt), stroke: 1.5pt + gold)
-    v(4pt)
-    line(start: (25%, 0pt), end: (75%, 0pt), stroke: 0.4pt + gold-dim)
-  })
-  pagebreak()
-}
-
-// ── Horizontal Rule ─────────────────────────────────────────────────────────
-// Ornamental section break: centered diamond flanked by rules.
-#let horizontalrule = {
-  v(0.8em)
-  align(center, {
-    line(start: (0%, 0pt), end: (42%, 0pt), stroke: 0.5pt + gold-dim)
-    // Diamond ornament
-    [#set text(size: 8pt, fill: gold-dim); ◆]
-    line(start: (0%, 0pt), end: (42%, 0pt), stroke: 0.5pt + gold-dim)
-  })
-  v(0.8em)
-}
-
-// Usage from .qmd files:
-// ```{=typst}
-// #horizontalrule
-// ```
-
-// SVG asset usage guide:
-// - #image("assets/svg/chapter-stamp.svg", width: 3em)  — decorative stamp for chapter titles
-// - #image("assets/svg/divider-rule.svg", width: 100%)   — alternative ornamental divider
-// - #image("assets/svg/drop-cap-T.svg", width: 2em)      — drop cap for chapter openings
-// - #image("assets/svg/ornament-corner.svg", width: 1.5em) — corner ornament for boxes
-// - #image("assets/svg/part-divider.svg", width: 100%)    — part page decorative divider
-// - #image("assets/svg/placeholder-section.svg", width: 80%) — placeholder for section art
-// - #image("assets/svg/title-page.svg", width: 100%)      — title page decoration
-
-// ── Lists ───────────────────────────────────────────────────────────────────
-#set list(
-  indent: 1.5em,
-  body-indent: 0.5em,
-  spacing: 0.3em,
-)
-
-// ── Tighten up footnote styling ─────────────────────────────────────────────
-#show footnote: set text(size: 8.5pt, fill: muted, font: body-font-stack)
-
-// ── No forced blank pages ───────────────────────────────────────────────────
-// orange-book forces chapters onto recto (right-hand) pages, creating blanks.
-// Allow page breaks but suppress only recto/verso forced breaks so parts and
-// chapters still start on fresh pages.
-#show pagebreak: it => {
-  if it.to == "recto" or it.to == "verso" {
-    pagebreak()
-  } else {
-    it
-  }
-}
-
-// ── Title Page Groundwork ────────────────────────────────────────────────────
-// Defined as a reusable function. Call via:
-//   #titlepage()
-// in a .qmd file or template.
-//
-// Lays the groundwork with ornamental double-border frame, heraldic motif
-// placeholder, and display font for the title.
-// Full decorative implementation (precise positioning, SVG motif) deferred.
-#let titlepage(body: none) = {
-  set page(fill: page-bg)
-  v(15%)
-  align(center)[
-    // Outer ornamental border
-    #block(
-      width: 82%,
-      fill: none,
-      stroke: (paint: gold-dim, thickness: 1.5pt),
-      radius: 3pt,
-      inset: 10pt,
-    )[
-      // Inner ornamental border
-      #block(
-        width: 100%,
-        fill: none,
-        stroke: (paint: gold, thickness: 0.6pt),
-        radius: 2pt,
-        inset: 24pt,
-      )[
-        // Heraldic motif placeholder
-        #v(1em)
-        #align(center)[#text(size: 48pt, fill: gold-dim)[❖]]
-        #v(1.5em)
-        // Title
-        #align(center)[#text(size: 30pt, fill: heading-color, weight: "bold", font: heading-font-stack)[Heroes of Legend]]
-        #v(0.5em)
-        // Subtitle
-        #align(center)[#text(size: 14pt, fill: muted, font: body-font-stack, style: "italic")[Core Rules — First Edition]]
-        #v(2em)
-        // Author
-        #align(center)[#text(size: 11pt, fill: text-color, font: body-font-stack)[Bruce A. Moser]]
-        #v(3em)
-        // Decorative rule
-        #align(center)[#line(start: (25%, 0pt), end: (75%, 0pt), stroke: 0.6pt + gold-dim)]
-        #v(1em)
-        // Tagline
-        #align(center)[#text(size: 9.5pt, fill: muted, font: body-font-stack, style: "italic")["Grab your swords. Stow your spell books. Adventure awaits."]]
-      ]
-    ]
-  ]
-  pagebreak()
-}
-
-// === Marginalia (Margin Notes) ===
-// Future enhancement: Add margin notes for rules reminders, cross-references,
-// and "Veteran Adventurer" asides.
-//
-// Typst supports margin notes via #set page(margin: (inside: 1.5in, outside: 1in))
-// with asymmetric margins for book-style layouts.
-//
-// For now, use callout blocks for designer notes and cross-references.
-// When marginalia package is available, consider these locations:
-//   - Core resolution reminders in ch06 margins
-//   - DP cost references in ch07 skill cards
-//   - Combat action summaries in ch13
-//   - DA tips in ch19 GM guidance
-
-// ── Small Caps Utility ──────────────────────────────────────────────────────
-// TODO(#94): Replace faux small caps with OpenType smcp when Crimson Text supports it
-// Current implementation uses reduced-size uppercase as a fallback
-#let smallcaps(body) = {
-  set text(tracking: 1.5pt, size: 0.85em)
-  upper(body)
-}
+// ═══════════════════════════════════════════════════════════════════════════
+// Heroes of Legend — "Battle-Scarred Tome" Theme
+// A dark, grounded medieval fantasy aesthetic.
+// Aged parchment, dark brown ink, ornamental flourishes.
+// Voice: Direct, commanding, battle-scarred mentor.
+// ═══════════════════════════════════════════════════════════════════════════
+
+// ── Typst Universe Package Imports ──────────────────────────────────────────
+// See docs/typst-packages.md for details on each package.
+#import "@preview/booktabs:0.0.4": *
+#import "@preview/beautitled:0.2.7": *
+#import "@preview/iconify:0.5.3": icon, provide-icons
+
+// iconify setup — download game-icons collection for fantasy/TTRPG icons:
+// 1. Download: https://github.com/iconify/icon-sets/raw/master/json/game-icons.json
+// 2. Save to: quarto-book/_extensions/heroes-of-legend/game-icons.json
+// 3. Uncomment and configure:
+//   #provide-icons(json("game-icons.json"))
+// 4. Usage: #icon("game-icons:flame") or #icon("game-icons:crossed-swords")
+//
+// Browse icons: https://icones.js.org/collection/game-icons
+
+// Future: Replace emoji fallbacks with iconify icons in callout definitions
+// Example: icon("game-icons:info") instead of 📝 for note callouts
+
+// ── Font Configuration ───────────────────────────────────────────────────────
+// Body: Alegreya (calligraphic, literary, designed for long reading)
+// Headings: Almendra (fantasy calligraphic, more readable than IM Fell English)
+// Mono: Libertinus Mono (bundled with Typst)
+//
+// To install fonts for Typst/Quarto:
+//   1. Download from https://fonts.google.com/?query=alegreya
+//      and https://fonts.google.com/?query=almendra
+//   2. Install system-wide (Windows: right-click → Install for all users)
+//   3. Or place .ttf/.otf files in quarto-book/fonts/ directory
+//
+// Fallback stack ensures compilation even if premium fonts are missing.
+#let body-font-stack    = ("Alegreya", "Crimson Text", "EB Garamond", "Libertinus Serif")
+#let heading-font-stack = ("Almendra", "IM Fell English", "Cinzel", "Crimson Text")
+#let mono-font-stack    = ("Libertinus Mono", "Cascadia Code", "Consolas")
+
+// ── Color Palette ────────────────────────────────────────────────────────────
+// Aged parchment & dark ink — no faux aging, just confident medieval tone.
+
+// Page & Background
+#let page-bg       = rgb("#f4e4c1")  // aged parchment
+#let sidebar-bg    = rgb("#faf3e0")  // lighter parchment for sidebars
+#let code-bg       = rgb("#fdfaf0")  // very light parchment for stat blocks
+
+// Text & Ink
+#let text-color    = rgb("#3d2b1f")  // dark brown ink — body text
+#let muted         = rgb("#7a6e5e")  // muted brown for footnotes, page numbers
+#let heading-color = rgb("#8b0000")  // deep red-brown — chapter/section headings
+
+// Accent & Decorative
+#let gold          = rgb("#c9a84c")  // antique gold — decorative elements
+#let gold-dim      = rgb("#8a6a2a")  // warm brown gold — borders, rules
+#let link-color    = rgb("#8a6a2a")  // warm brown — cross-references, links
+
+// Table & Border
+#let table-border  = rgb("#5c4033")  // medium brown — table borders
+#let table-header  = rgb("#5c4033")  // medium brown — table header bg
+#let table-stripe  = rgb("#faf3e0")  // lighter parchment — alternating rows
+#let border-color  = rgb("#5c4033")  // medium brown — general borders
+
+// Admonition Backgrounds
+#let note-bg       = rgb("#fef9e7")  // pale amber — NOTE
+#let tip-bg        = rgb("#f0f7e6")  // pale green — TIP
+#let warning-bg    = rgb("#fdf0ed")  // pale red — WARNING
+
+// Admonition Border Colors
+#let note-border   = rgb("#8a6a2a")  // warm brown
+#let tip-border    = rgb("#4a7c3f")  // forest green
+#let warning-border = rgb("#8b0000") // deep red-brown
+
+// Surface (legacy compat)
+#let surface       = rgb("#f5f1ea")
+#let surface-alt   = rgb("#ede7dd")
+#let callout-bg    = rgb("#faf3e0")
+
+// ── Unicode Icon Fallbacks ───────────────────────────────────────────────────
+// Quarto generates fa-*() for Font Awesome icons. Typst doesn't ship FA.
+// These unicode fallbacks provide medieval-appropriate symbols.
+#let fa-info()                = [📝]
+#let fa-warning()             = [⚠]
+#let fa-exclamation()         = [❗]
+#let fa-exclamation-triangle()= [⚠]
+#let fa-lightbulb()           = [💡]
+#let fa-check()               = [✓]
+#let fa-times()               = [✗]
+#let fa-star()                = [★]
+#let fa-book()                = [📖]
+#let fa-gear()                = [⚙]
+#let fa-cube()                = [📦]
+#let fa-bolt()                = [⚡]
+#let fa-shield()              = [🛡]
+#let fa-fire()                = [🔥]
+#let fa-snowflake()           = [❄]
+#let fa-bomb()                = [💣]
+
+// ── Page Setup ──────────────────────────────────────────────────────────────
+#set page(
+  paper: "us-letter",
+  fill: page-bg,
+  margin: (top: 0.95in, bottom: 1.0in, left: 1.15in, right: 1.15in),
+  // ── Header ─────────────────────────────────────────────────────────────
+  // Chapter name left-aligned, small caps, with thin ornamental rule beneath.
+  // Falls back to "Heroes of Legend" when no chapter heading is on the page.
+  header: [
+    #set text(size: 7.5pt, fill: muted, font: body-font-stack)
+    #grid(
+      columns: (1fr, 1fr),
+      align(left)[
+        #set text(weight: "bold", tracking: 0.8pt)
+        #smallcaps[Heroes of Legend]
+      ],
+      align(right)[
+        #context counter(page).display()
+      ],
+    )
+    #v(3pt)
+    #line(
+      start: (0%, 0pt),
+      end: (100%, 0pt),
+      stroke: 0.4pt + gold-dim,
+    )
+  ],
+  // ── Footer ─────────────────────────────────────────────────────────────
+  // Centered page number with decorative dashes: "— 42 —"
+  footer: [
+    #set text(size: 7.5pt, fill: muted, font: body-font-stack)
+    #align(center)[
+      — #context counter(page).display() —
+    ]
+  ],
+  numbering: none, // we provide custom footer
+)
+
+// Force warm page fill — overrides any template defaults.
+#show page: it => {
+  set page(fill: page-bg)
+  it
+}
+
+// ── Text ────────────────────────────────────────────────────────────────────
+#set text(
+  font: body-font-stack,
+  size: 11.5pt,
+  fill: text-color,
+  ligatures: true,
+  hyphenate: true,
+  lang: "en",
+)
+
+#set par(
+  justify: true,
+  leading: 0.95em,
+  first-line-indent: 0pt,
+  spacing: 0.7em,
+)
+
+// ── Headings (powered by beautitled) ────────────────────────────────────────
+// 19 print-friendly heading styles with matching TOC designs.
+// Current style: "titled" — boxed sections with floating labels.
+// Other strong candidates: "vintage" (book ornaments), "scholarly" (centered rules).
+// See docs/typst-packages.md for full style catalog.
+
+#beautitled-setup(
+  style: "vintage",
+  chapter-pagebreak: true,
+  show-part-number: true,
+  show-chapter-number: true,
+  show-section-number: false,
+  show-subsection-number: false,
+  part-fullpage: true,
+)
+#show: beautitled-init
+#preset-english()
+#theme-warm()  // Orange/brown tones — matches our parchment + dark ink palette
+
+// Override beautitled heading fonts to use our fantasy font stack.
+// beautitled applies its own font choices; we restore ours after init.
+#show heading: set text(font: heading-font-stack)
+#show heading.where(level: 1): set text(font: heading-font-stack)
+#show heading.where(level: 2): set text(font: heading-font-stack)
+
+// ── Tables (booktabs functions available) ───────────────────────────────────
+// booktabs provides toprule(), midrule(), bottomrule(), cmidrule().
+// Issue #96: Replaced uniform cell borders with booktabs-style rules.
+// Top/bottom rules: 1.2pt. Midrule after header: 0.8pt per header cell.
+// No vertical rules. No horizontal rules between data rows.
+// Tables auto-size columns to content via columns: auto (the Typst default).
+// Tables are wrapped in unbreakable blocks so they stay intact on one page.
+// Header rows repeat if a table must break across pages.
+
+#set table(
+  stroke: none,
+  inset: (x: 7pt, y: 5pt),
+  columns: auto,
+  fill: (_, y) => {
+    if y == 0 { return table-header }
+    if calc.rem(y, 2) == 1 { return table-stripe }
+    return page-bg
+  },
+)
+
+// Booktabs-style rules: thick toprule above, thick bottomrule below.
+// Midrule is drawn at the bottom of each header cell (see header cell show rule).
+// Tables are wrapped in unbreakable blocks to prevent mid-table page breaks.
+#show table: it => {
+  v(4pt)
+  line(stroke: 1.2pt + table-border, start: (0%, 0pt), end: (100%, 0pt))
+  v(2pt)
+  block(breakable: false, it)
+  v(2pt)
+  line(stroke: 1.2pt + table-border, start: (0%, 0pt), end: (100%, 0pt))
+  v(4pt)
+}
+
+// Header cells: parchment text on dark brown, bold, with midrule line below
+#show table.cell.where(y: 0): it => {
+  set text(fill: rgb("#f4e4c1"), weight: "bold", size: 9.5pt, font: body-font-stack)
+  stack(
+    dir: ttb,
+    spacing: 0pt,
+    it,
+    v(1pt),
+    line(stroke: 0.8pt + table-border, start: (0%, 0pt), end: (100%, 0pt)),
+  )
+}
+
+// Body text
+#show table.cell: set text(size: 9pt, font: body-font-stack)
+
+// ── Links & Cross-References ────────────────────────────────────────────────
+#show link: set text(fill: link-color)
+
+// ── Emphasis & Strong ───────────────────────────────────────────────────────
+#show emph: it => { set text(style: "italic"); it }
+#show strong: set text(weight: "bold")
+
+// ── Block Quotes ────────────────────────────────────────────────────────────
+// Like marginalia in a medieval manuscript: warm background, thick left border.
+#show quote: it => {
+  set text(fill: text-color, size: 10pt, font: body-font-stack)
+  block(
+    fill: sidebar-bg,
+    inset: (left: 14pt, right: 10pt, top: 10pt, bottom: 10pt),
+    stroke: (left: 4pt + heading-color),
+    radius: 2pt,
+    it
+  )
+}
+
+// ── Code / Raw Blocks ───────────────────────────────────────────────────────
+// Very light parchment — looks like a stat block or scroll inset.
+#show raw.where(block: true): it => {
+  set text(size: 9pt, font: mono-font-stack, fill: text-color)
+  block(
+    fill: code-bg,
+    inset: 10pt,
+    stroke: 0.5pt + table-border,
+    radius: 3pt,
+    it
+  )
+}
+
+// Inline code
+#show raw.where(block: false): it => {
+  set text(font: mono-font-stack, size: 9.5pt, fill: text-color)
+  box(
+    fill: code-bg,
+    inset: (x: 3pt, y: 1pt),
+    stroke: 0.3pt + table-border,
+    radius: 2pt,
+    it
+  )
+}
+
+// ── Admonition / Callout Styling ────────────────────────────────────────────
+// Medieval marginalia feel: thick left border, pale background, unicode icon.
+// Pandoc generates: #callout(body:, title:, type:, appearance:, icon:, ...)
+//
+// NOTE: Quarto's orange-book template may generate callouts with different
+// argument shapes. We define a robust callout that handles multiple forms.
+
+#let callout(body: [], title: "Note", type: "note", appearance: "simple", icon: true, background_color: none, icon_color: black, body_background_color: white, ..rest) = {
+  // Determine colors based on type
+  let colors = (
+    note: (fill: note-bg, stroke: note-border, icon: [📝], label: "NOTE"),
+    tip: (fill: tip-bg, stroke: tip-border, icon: [💡], label: "TIP"),
+    warning: (fill: warning-bg, stroke: warning-border, icon: [⚠], label: "WARNING"),
+    important: (fill: warning-bg, stroke: warning-border, icon: [❗], label: "IMPORTANT"),
+    caution: (fill: warning-bg, stroke: warning-border, icon: [⚠], label: "CAUTION"),
+  )
+  let c = colors.at(type, default: colors.note)
+
+  // If title is empty or default, use the type label
+  let display-title = if title == none or title == [] or title == [Note] {
+    c.label
+  } else {
+    title
+  }
+
+  block(
+    breakable: false,
+    fill: c.fill,
+    stroke: (left: 4pt + c.stroke),
+    width: 100%,
+    radius: 2pt,
+    inset: (left: 12pt, right: 10pt, top: 8pt, bottom: 8pt),
+    [
+      // Title row with icon
+      #set text(fill: text-color, weight: "bold", size: 10pt, font: body-font-stack)
+      #box[#c.icon #display-title]
+      #v(0.3em)
+      // Body content
+      #set text(fill: text-color, weight: "regular", size: 10pt, font: body-font-stack)
+      #body
+    ]
+  )
+  v(0.6em)
+}
+
+// ── Part Divider Pages ──────────────────────────────────────────────────────
+// Full-bleed part title with ornamental divider.
+// Quarto generates #part[Part Title] for book part divisions.
+#let part(body) = {
+  pagebreak()
+  v(35%)
+  align(center, {
+    // Part label
+    set text(size: 12pt, fill: muted, weight: "regular", font: body-font-stack, tracking: 3pt)
+    [PART]
+    v(0.5em)
+    // Part title
+    set text(size: 28pt, fill: heading-color, weight: "bold", font: heading-font-stack)
+    body
+  })
+  v(1.5em)
+  // Decorative divider: thick gold rule flanked by thin rules
+  align(center, {
+    line(start: (25%, 0pt), end: (75%, 0pt), stroke: 0.4pt + gold-dim)
+    v(4pt)
+    line(start: (30%, 0pt), end: (70%, 0pt), stroke: 1.5pt + gold)
+    v(4pt)
+    line(start: (25%, 0pt), end: (75%, 0pt), stroke: 0.4pt + gold-dim)
+  })
+  pagebreak()
+}
+
+// ── Horizontal Rule ─────────────────────────────────────────────────────────
+// Ornamental section break: centered diamond flanked by rules.
+#let horizontalrule = {
+  v(0.8em)
+  align(center, {
+    line(start: (0%, 0pt), end: (42%, 0pt), stroke: 0.5pt + gold-dim)
+    // Diamond ornament
+    [#set text(size: 8pt, fill: gold-dim); ◆]
+    line(start: (0%, 0pt), end: (42%, 0pt), stroke: 0.5pt + gold-dim)
+  })
+  v(0.8em)
+}
+
+// Usage from .qmd files:
+// ```{=typst}
+// #horizontalrule
+// ```
+
+// SVG asset usage guide:
+// - #image("assets/svg/chapter-stamp.svg", width: 3em)  — decorative stamp for chapter titles
+// - #image("assets/svg/divider-rule.svg", width: 100%)   — alternative ornamental divider
+// - #image("assets/svg/drop-cap-T.svg", width: 2em)      — drop cap for chapter openings
+// - #image("assets/svg/ornament-corner.svg", width: 1.5em) — corner ornament for boxes
+// - #image("assets/svg/part-divider.svg", width: 100%)    — part page decorative divider
+// - #image("assets/svg/placeholder-section.svg", width: 80%) — placeholder for section art
+// - #image("assets/svg/title-page.svg", width: 100%)      — title page decoration
+
+// ── Lists ───────────────────────────────────────────────────────────────────
+#set list(
+  indent: 1.5em,
+  body-indent: 0.5em,
+  spacing: 0.3em,
+)
+
+// ── Tighten up footnote styling ─────────────────────────────────────────────
+#show footnote: set text(size: 8.5pt, fill: muted, font: body-font-stack)
+
+// ── No forced blank pages ───────────────────────────────────────────────────
+// orange-book forces chapters onto recto (right-hand) pages, creating blanks.
+// Allow page breaks but suppress only recto/verso forced breaks so parts and
+// chapters still start on fresh pages.
+#show pagebreak: it => {
+  if it.to == "recto" or it.to == "verso" {
+    pagebreak()
+  } else {
+    it
+  }
+}
+
+// ── Title Page Groundwork ────────────────────────────────────────────────────
+// Defined as a reusable function. Call via:
+//   #titlepage()
+// in a .qmd file or template.
+//
+// Lays the groundwork with ornamental double-border frame, heraldic motif
+// placeholder, and display font for the title.
+// Full decorative implementation (precise positioning, SVG motif) deferred.
+#let titlepage(body: none) = {
+  set page(fill: page-bg)
+  v(15%)
+  align(center)[
+    // Outer ornamental border
+    #block(
+      width: 82%,
+      fill: none,
+      stroke: (paint: gold-dim, thickness: 1.5pt),
+      radius: 3pt,
+      inset: 10pt,
+    )[
+      // Inner ornamental border
+      #block(
+        width: 100%,
+        fill: none,
+        stroke: (paint: gold, thickness: 0.6pt),
+        radius: 2pt,
+        inset: 24pt,
+      )[
+        // Heraldic motif placeholder
+        #v(1em)
+        #align(center)[#text(size: 48pt, fill: gold-dim)[❖]]
+        #v(1.5em)
+        // Title
+        #align(center)[#text(size: 30pt, fill: heading-color, weight: "bold", font: heading-font-stack)[Heroes of Legend]]
+        #v(0.5em)
+        // Subtitle
+        #align(center)[#text(size: 14pt, fill: muted, font: body-font-stack, style: "italic")[Core Rules — First Edition]]
+        #v(2em)
+        // Author
+        #align(center)[#text(size: 11pt, fill: text-color, font: body-font-stack)[Bruce A. Moser]]
+        #v(3em)
+        // Decorative rule
+        #align(center)[#line(start: (25%, 0pt), end: (75%, 0pt), stroke: 0.6pt + gold-dim)]
+        #v(1em)
+        // Tagline
+        #align(center)[#text(size: 9.5pt, fill: muted, font: body-font-stack, style: "italic")["Grab your swords. Stow your spell books. Adventure awaits."]]
+      ]
+    ]
+  ]
+  pagebreak()
+}
+
+// === Marginalia (Margin Notes) ===
+// Future enhancement: Add margin notes for rules reminders, cross-references,
+// and "Veteran Adventurer" asides.
+//
+// Typst supports margin notes via #set page(margin: (inside: 1.5in, outside: 1in))
+// with asymmetric margins for book-style layouts.
+//
+// For now, use callout blocks for designer notes and cross-references.
+// When marginalia package is available, consider these locations:
+//   - Core resolution reminders in ch06 margins
+//   - DP cost references in ch07 skill cards
+//   - Combat action summaries in ch13
+//   - DA tips in ch19 GM guidance
+
+// ── Small Caps Utility ──────────────────────────────────────────────────────
+// TODO(#94): Replace faux small caps with OpenType smcp when Crimson Text supports it
+// Current implementation uses reduced-size uppercase as a fallback
+#let smallcaps(body) = {
+  set text(tracking: 1.5pt, size: 0.85em)
+  upper(body)
+}
 // Reset Quarto's custom figure counters at each chapter (level-1 heading).
 // Orange-book only resets kind:image and kind:table, but Quarto uses custom kinds.
 // This list is generated dynamically from crossref.categories.
@@ -953,7 +953,7 @@ Core Rules, First Edition
 = Introduction
 <sec-chapter-introduction>
 #figure([
-#box(image("chapters/../assets/images/page003-img002.jpeg", width: 60.0%))
+#box(image("chapters/../../assets/images/page003-img002.jpeg", width: 60.0%))
 ], caption: figure.caption(
 position: bottom, 
 [
@@ -973,9 +973,21 @@ Here's how it works. You create a hero --- a Protector, a Blade, an Arcanist, or
 
 So take a breath. You don't need to understand it all at once. This book is built to be read in pieces --- crack it open at the table when you need a rule, flip through it on the couch when you're dreaming up your next character, or read it cover to cover if that's your style. However you approach it, you're in good company. Thousands of players have sat where you're sitting now, about to discover what happens when you roll three dice and everything changes.
 
+== What Is a Roleplaying Game?
+<what-is-a-roleplaying-game>
+Before we get to dice and character sheets, let's talk about what you're actually about to do.
+
+A roleplaying game is collaborative storytelling with rules. You and your friends sit around a table --- or a video call, or a blanket fort, I don't judge --- and together you tell the story of a band of heroes. One of you is the #strong[Dungeon Architect] (the DA). The DA describes the world: the crumbling tower on the horizon, the suspicious innkeeper who definitely knows more than she's saying, the dragon whose shadow just passed overhead. The DA plays everyone who isn't a hero --- allies, villains, monsters, the mysterious stranger brooding in the corner of the tavern. Everyone else plays a #strong[hero] they created, a character with their own skills, flaws, ambitions, and terrible ideas.
+
+When your hero tries something risky --- swinging a sword at a goblin, talking your way past a guard, climbing a cliff in the rain --- you roll dice to find out what happens. The dice tell you whether you pulled it off cleanly, barely scraped by, or failed in a way that makes the story more interesting. That's the key: there's no winning and no losing in this game. There's just the story you all built together, and whether it was a story worth telling. Some sessions end in triumph. Some end in tragedy. The best ones end with everyone at the table saying, "Remember when…?"
+
+Everything else in this book --- the rules, the spells, the weapons, the monsters --- those are just tools. They're here to give structure to the story, to make sure the dice mean something, to help the DA keep the world feeling real. But the game isn't in the book. The game is at your table, when someone says "I have a terrible idea" and everyone else leans in.
+
 #pagebreak()
 == What You Actually Need
 <what-you-actually-need>
+Think of me as your guide. I've been running tables for thirty years, and I'm going to walk you through everything you need to know.
+
 Pull up a chair. Let me tell you what you #emph[actually] need to play this game. I've been running tables for thirty years, and I've seen players show up with custom dice towers, hand-painted miniatures, and leather-bound notebooks that cost more than my first sword. You know what the best sessions all had in common? None of that stuff.
 
 You need this book. Everything you need to play is in these pages --- the rules, the spells, the monsters, the advice. It's heavy enough to flatten a goblin if you throw it, but I'd recommend reading it instead.
@@ -1027,7 +1039,7 @@ This isn't a manual. It's a companion. You don't read it once and put it on a sh
 
 #pagebreak()
 #figure([
-#box(image("chapters/../assets/images/page003-img003.jpeg", width: 60.0%))
+#box(image("chapters/../../assets/images/page003-img003.jpeg", width: 60.0%))
 ], caption: figure.caption(
 position: bottom, 
 [
@@ -1113,13 +1125,13 @@ Kael is a dwarf Blade --- a shadow on the wall, the last face his enemies see. H
 
 #emph[Kael grabs three dice. The table goes quiet. He shakes them in his hand --- everyone has their ritual --- and lets them fly.]
 
-#emph[Kael rolls:] "Four, three, five. That's twelve. My Brawn is +2, and I've got Blade Fighting at Adept, so that's another +2. Total is sixteen."
+#emph[Kael rolls:] "Four, three, five. That's twelve. My Brawn is +2, and I've got Blades Fighting at Adept, so that's another +2. Total is sixteen."
 
 #strong[Morgan:] "Sixteen is Strong. Your longsword's Strong damage is 5."
 
-#strong[Kael:] "The goblin has no armor. That's 5 damage straight through."
+#strong[Morgan:] "Crude leather armor. That's 5, reduced to 4."
 
-#strong[Morgan:] "Your blade cleaves through the chieftain's crude leather armor like it isn't there. He staggers backward, eyes wide --- nobody's made him bleed in years. The remaining goblins go quiet. Their champion just took a hit that would have killed any of them. For one breath, the whole room is still."
+#strong[Morgan:] "Your blade finds its mark. The chieftain staggers backward, eyes wide --- nobody's made him bleed in years. The remaining goblins go quiet. Their champion just took a hit that would have killed any of them. For one breath, the whole room is still."
 
 #strong[Lyra:] "While he's distracted and everyone's staring at Kael, I want to slip behind the throne and check for anything valuable. Or explosive. Ideally both."
 
@@ -1206,66 +1218,6 @@ brand-color.background
 #callout(
 body: 
 [
-You know what slows combat down more than anything? Rolling to hit, then rolling damage, then adding modifiers, then rolling again because someone cast a buff. Round after round. Four players, five monsters, two rolls each per attack --- the math multiplies fast.
-
-In #emph[Heroes of Legend], weapons and spells have fixed damage values for Weak, Standard, and Strong outcomes. One roll tells you everything. You rolled a 16? That's Strong. Your longsword does 5 Strong damage. Subtract armor. Done. Next player.
-
-This speeds up combat without sacrificing tactical depth. The interesting decisions --- positioning, maneuver choice, which enemy to target, whether to use an ability --- those are still there. We just cut out the arithmetic that wasn't adding fun. You get more combat in less time. That means more story, more exploration, more moments that aren't about arithmetic.
-
-]
-, 
-title: 
-[
-Flat Damage: One Roll Per Attack
-]
-, 
-background_color: 
-brand-color-background.primary
-, 
-icon_color: 
-brand-color.primary
-, 
-icon: 
-fa-info()
-, 
-body_background_color: 
-brand-color.background
-)
-]
-#block[
-#callout(
-body: 
-[
-The old model says fighters can't learn magic and wizards can't swing swords. We think that's boring. Under the Discipline system, anyone can learn anything --- it just costs more if it's outside your class's wheelhouse.
-
-A Protector who wants to throw a fireball needs to buy Fire and Energy Disciplines at triple cost. It'll take them levels to get there. But they #emph[can] get there. That's the difference between "no" and "yes, but expensive." Your class gives you a starting point and cheaper access to certain paths. It doesn't build walls.
-
-We've seen what this does at the table. Characters develop in unexpected directions. The Blade who dabbles in Illusion magic. The Arcanist who learns to use a longsword --- badly, but determinedly. These aren't "broken builds." They're stories. And stories are why we're all here.
-
-]
-, 
-title: 
-[
-Disciplines: No Class-Locked Skills
-]
-, 
-background_color: 
-brand-color-background.primary
-, 
-icon_color: 
-brand-color.primary
-, 
-icon: 
-fa-info()
-, 
-body_background_color: 
-brand-color.background
-)
-]
-#block[
-#callout(
-body: 
-[
 I've played a wizard in a system with spell slots. The party fought through six encounters. I was conservative with my spells, hoarding them for the final battle. We reached the boss. Everyone looked at me. I opened my mouth and said the least heroic words ever uttered at a gaming table: "I'm out of spell slots."
 
 That's not a character moment. That's a scheduling error.
@@ -1294,6 +1246,34 @@ body_background_color:
 brand-color.background
 )
 ]
+#block[
+#callout(
+body: 
+[
+Two more design choices worth noting. #strong[Flat damage] means one roll tells you everything --- no separate damage dice, no arithmetic slowdown. The combat chapter (#strong[?\@sec-chapter-combat]) covers this in full. #strong[Disciplines] mean no class-locked skills: anyone can learn anything, it just costs more outside your wheelhouse. The disciplines chapter (#ref(<sec-chapter-disciplines>, supplement: [Chapter])) explains the full system.
+
+]
+, 
+title: 
+[
+Flat Damage & Disciplines: Speed and Freedom
+]
+, 
+background_color: 
+brand-color-background.primary
+, 
+icon_color: 
+brand-color.primary
+, 
+icon: 
+fa-info()
+, 
+body_background_color: 
+brand-color.background
+)
+]
+These are the big ideas. The rest of the book explains how they work in practice.
+
 = The Last Ember
 <sec-chapter-opening-fiction>
 #figure([
@@ -1959,7 +1939,7 @@ The party is trapped in a collapsing tomb. The stone door is grinding shut, they
 
 The door shudders. Roric's muscles cord, his boots skid on the stone, and the door #emph[stops.] He's holding it open through sheer strength. "Go!" The party scrambles through. Roric releases the door and dives after them as it slams shut. Everyone is alive because the dwarf was strong enough to say "not today."
 
-#strong[If he'd rolled Weak (6 or less):] The door closes halfway. Roric is stuck on the wrong side. The party has a new problem, and a new rescue mission.
+#strong[If he'd rolled Weak (8 or less):] The door closes halfway. Roric is stuck on the wrong side. The party has a new problem, and a new rescue mission.
 
 === Fortitude in Play
 <fortitude-in-play>
@@ -1969,9 +1949,9 @@ Lyra, the halfling Odd, has been bitten by a venomous spider. The venom is worki
 
 She feels the venom burn in her veins, but her body fights it off. She's woozy. She's sweating. She's going to have a spectacular bruise. But she's not poisoned, and she's still standing. Her Fortitude isn't exceptional, but it's enough. Sometimes enough is all you need.
 
-#strong[If she'd rolled Strong (13+):] She shrugs it off completely. The spider's venom sack was nearly empty. She doesn't even feel it. The DA describes her as "annoyingly fine."
+#strong[If she'd rolled Strong (15+):] She shrugs it off completely. The spider's venom sack was nearly empty. She doesn't even feel it. The DA describes her as "annoyingly fine."
 
-#strong[If she'd rolled Weak (1-6):] The Poisoned condition kicks in, disadvantage on all attacks. She's in trouble. The party needs to end this fight fast or get her an antidote.
+#strong[If she'd rolled Weak (1-8):] The Poisoned condition kicks in, disadvantage on all attacks. She's in trouble. The party needs to end this fight fast or get her an antidote.
 
 === Agility in Play
 <agility-in-play>
@@ -1981,7 +1961,7 @@ Kael needs to cross a crumbling bridge over a chasm. The stone is cracked, the d
 
 He moves like a cat. Foot to stone, weight shifting, never stopping. He's across in seconds. He doesn't even look back, because he knows he made it look easy, and that's the point.
 
-#strong[If he'd rolled Weak (1-6):] A stone crumbles under his foot. He catches himself on the edge, his fingers are the only thing between him and the abyss. The DA gives the party one round to save him before he falls. The scene just escalated.
+#strong[If he'd rolled Weak (1-8):] A stone crumbles under his foot. He catches himself on the edge, his fingers are the only thing between him and the abyss. The DA gives the party one round to save him before he falls. The scene just escalated.
 
 === Guile in Play
 <guile-in-play>
@@ -1993,7 +1973,7 @@ Ser Aldric, the party's Leader, needs to talk his way past a checkpoint manned b
 
 The guard hesitates. Then nods. "Crown business. Right. Move along." He waves them through. Aldric's Guile just saved the party an hour of bureaucracy and a night in a holding cell.
 
-#strong[If he'd rolled Weak (1-6):] The guard's eyes narrow. "Crown business, you say? Let's see your writ." The party doesn't have one. The situation is now worse than if Aldric had said nothing. A bad lie is worse than no lie at all.
+#strong[If he'd rolled Weak (1-8):] The guard's eyes narrow. "Crown business, you say? Let's see your writ." The party doesn't have one. The situation is now worse than if Aldric had said nothing. A bad lie is worse than no lie at all.
 
 === Knowledge in Play
 <knowledge-in-play>
@@ -2005,7 +1985,7 @@ The party discovers an ancient mural in a sunken temple. It depicts a battle bet
 
 The party now has critical information, and a terrifying choice. All because the Intellect knew her history.
 
-#strong[If she'd rolled Weak (1-6):] "It's a battle scene. Very old. Could be religious, could be historical, I'd need more time to be sure." The party proceeds without the warning. The sealed door gets opened. The Void Spawn gets released. The Knowledge check that failed just became the party's next three sessions.
+#strong[If she'd rolled Weak (1-8):] "It's a battle scene. Very old. Could be religious, could be historical, I'd need more time to be sure." The party proceeds without the warning. The sealed door gets opened. The Void Spawn gets released. The Knowledge check that failed just became the party's next three sessions.
 
 === Reason in Play
 <reason-in-play>
@@ -2015,7 +1995,7 @@ Zara, the party's Arcanist, is trying to disable an ancient magical ward blockin
 
 She doesn't just disable the ward, she #emph[understands] it. "The outer layer is a deterrent, flash and noise. The inner layer is the real threat. Dispel the inner layer first, and the outer layer collapses on its own." She traces the correct sigils in the air. The ward flickers, hums, and fades. The door opens. Clean. Professional. Reason at work.
 
-#strong[If she'd rolled Weak (1-6):] The ward triggers. A blast of force throws Zara across the room. She takes 2 damage and the ward is still active, now glowing brighter, pulsing with renewed energy. The party knows the ward is dangerous. They don't know how to disarm it. Reason failed, and now they need a new plan.
+#strong[If she'd rolled Weak (1-8):] The ward triggers. A blast of force throws Zara across the room. She takes 2 damage and the ward is still active, now glowing brighter, pulsing with renewed energy. The party knows the ward is dangerous. They don't know how to disarm it. Reason failed, and now they need a new plan.
 
 = Ancestry Is Flavor, Not Fate
 <ancestry-is-flavor-not-fate>
@@ -2946,7 +2926,7 @@ brand-color.background
 #pagebreak()
 == Worked Examples
 <worked-examples>
-#strong[Kael the Blade attacks the goblin chieftain.] Kael's Brawn is +2 and his Blade Fighting skill is Adept (+2). He rolls 4+3+5=12, then adds +2+2=16. #emph[Strong!] His longsword deals 5 Strong damage. The chieftain's crude leather gives Armor 1, so he takes 4 damage. The chieftain roars, he felt that one.
+#strong[Kael the Blade attacks the goblin chieftain.] Kael's Brawn is +2 and his Blades Fighting skill is Adept (+2). He rolls 4+3+5=12, then adds +2+2=16. #emph[Strong!] His longsword deals 5 Strong damage. The chieftain's crude leather gives Armor 1, so he takes 4 damage. The chieftain roars, he felt that one.
 
 #strong[Lyra the Intellect identifies an ancient rune.] Knowledge +2, no skill, difficulty -2 (it's very old and partially worn). She rolls 2+4+4=10, adds +2 for Knowledge, subtracts 2 for difficulty, total 10. #emph[Standard.] She recognizes it as Old Elvish, a warding glyph meant to keep something #emph[in], not out. That's concerning.
 
@@ -6591,9 +6571,9 @@ When a creature faces overwhelming odds, the DA calls for a #strong[Morale Check
   align: (auto,auto,),
   table.header([Result], [Behavior],),
   table.hline(),
-  [#strong[Strong (13+)]], [Stands firm. Gains +1 on its next attack.],
-  [#strong[Standard (7-12)]], [Wavers but stays. Disadvantage on its next attack.],
-  [#strong[Weak (1-6)]], [Flees or surrenders. Fight's over for this one.],
+  [#strong[Strong (15+)]], [Stands firm. Gains +1 on its next attack.],
+  [#strong[Standard (9-14)]], [Wavers but stays. Disadvantage on its next attack.],
+  [#strong[Weak (1-8)]], [Flees or surrenders. Fight's over for this one.],
 )
 A creature automatically checks morale when:
 
@@ -6618,9 +6598,9 @@ At 0 HP, you fall Unconscious. Each round on your turn, roll 3d6 with no modifie
   align: (auto,auto,),
   table.header([Result], [Outcome],),
   table.hline(),
-  [#strong[Strong (13+)]], [You stabilize at 1 HP. You're back in the fight, barely.],
-  [#strong[Standard (7-12)]], [You remain unconscious but stable. Not getting worse.],
-  [#strong[Weak (1-6)]], [Take 1 wound. You're still dying.],
+  [#strong[Strong (15+)]], [You stabilize at 1 HP. You're back in the fight, barely.],
+  [#strong[Standard (9-14)]], [You remain unconscious but stable. Not getting worse.],
+  [#strong[Weak (1-8)]], [Take 1 wound. You're still dying.],
   [#strong[Fumble (3-1)]], [Death. The table goes quiet.],
   [#strong[Critical (3-6)]], [You snap awake at half HP. Someone up there likes you.],
 )
@@ -6705,7 +6685,7 @@ Roric has been waiting. The Knight is focused on Kael. The cultists are clustere
 
 Rolls 3d6 + Brawn (+2) + Heavy Weapon Fighting Novice (+1). Rolls 3, 3, 2 = 8 + 3 = 11. #strong[Standard.] Warhammer Standard damage: 4. Knight's armor: DR 4. 4 - 4 = 0 damage. The hammer rings off the Knight's breastplate. Sparks. No blood. But Roric's not done.
 
-"Maneuver: I'm using #strong[Menacing Glare] from Intimidation Adept." The Knight must make a Morale Check. The DA rolls for the Knight: 3d6. Rolls 2, 1, 4 = 7. #strong[Standard.] The Knight wavers, disadvantage on his next attack.
+"Maneuver: I'm using #strong[Menacing Glare] from Intimidation Adept." The Knight must make a Morale Check. The DA rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. #strong[Standard.] The Knight wavers, disadvantage on his next attack.
 
 #strong[End of Round 1.] The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 0). The cultists dealt 3 to Lyra. The Knight dealt 1 to Kael (reduced from 2 by Shield Block). Nobody is down. Everyone is engaged. The next round will be decisive.
 
@@ -9266,7 +9246,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 #strong[Fumble:] Three natural 1s on 3d6. Automatic failure plus a complication. About a 1-in-200 chance. The table groans.
 
-#strong[Success Tier:] The three bands of outcome: Weak (1-6), Standard (7-12), Strong (13-18+). Every roll lands in one of these.
+#strong[Success Tier:] The three bands of outcome: Weak (1-8), Standard (9-14), Strong (15-18+). Every roll lands in one of these.
 
 #strong[Weak:] Partial success or success with complication. You get what you wanted, barely, or at a cost.
 

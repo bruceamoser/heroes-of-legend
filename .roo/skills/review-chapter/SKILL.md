@@ -60,3 +60,13 @@ Run `cd quarto-book && ./build.sh` (or `.\build.ps1`). Report all errors and war
 
 #### 💡 Suggestions
 [Nice-to-have improvements with rationale.]
+
+### 5. CREATE GITHUB ISSUES
+
+Every finding at 🔴 **Critical** and 🟡 **Major** severity **MUST** become a GitHub issue. 🔵 **Minor** findings may be batched into a single "Polish" issue. 💡 **Suggestions** should be filed as issues if they represent actionable improvements.
+
+- Use the `create-issue` skill for each issue.
+- Follow the bite-sized issue rule: **one concern per issue**.
+- Each issue must include: specific file paths, line numbers, severity, and the relevant section of the report.
+
+> **Chat reports are ephemeral. GitHub issues are the permanent record. If it isn't an issue, the finding doesn't exist.**

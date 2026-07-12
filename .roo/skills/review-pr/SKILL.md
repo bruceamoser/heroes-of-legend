@@ -71,5 +71,17 @@ description: Review a pull request for the Heroes of Legend rulebook. Use when r
 4. Run the build: `cd quarto-book && ./build.sh`
 5. Work through the checklist above.
 6. Post the review using the response template.
-7. If approved, proceed to `squash-merge` skill.
-8. If changes needed, request them and re-review after updates.
+7. **Create GitHub issues** for findings that won't be fixed in this PR (see [GitHub Issue Creation](#github-issue-creation) below).
+8. If approved, proceed to `squash-merge` skill.
+9. If changes needed, request them and re-review after updates.
+
+### GitHub Issue Creation
+
+Every finding at **Critical** and **Major** severity **MUST** become a GitHub issue. **Minor** findings may be batched into a single "Polish" issue. **Suggestions** should be filed as issues if they represent actionable improvements.
+
+- Use the `create-issue` skill for each issue.
+- Follow the bite-sized issue rule: **one concern per issue**.
+- Each issue must include: specific file paths, line numbers, severity, and the relevant section of the review.
+- If the PR itself introduces a new problem, create an issue referencing the PR number.
+
+> **Chat reports are ephemeral. GitHub issues are the permanent record. If it isn't an issue, the finding doesn't exist.**

@@ -49,6 +49,18 @@ Run `cd quarto-book && ./build.sh` (or `.\build.ps1`) and capture all warnings. 
 | 03-attributes.qmd | @sec-combat | References downstream chapter |
 ```
 
+### 6. CREATE GITHUB ISSUES
+
+Every broken or missing cross-reference found in the audit **MUST** become a GitHub issue.
+
+- **Structural problems** (missing chapters, circular references, wrong-direction references) each get their own issue.
+- **Minor fixes** (typos, formatting, single broken links) may be batched into a single "Xref Cleanup" issue.
+- Use the `create-issue` skill for each issue.
+- Follow the bite-sized issue rule: **one concern per issue** for structural problems.
+- Each issue must include: the source chapter, the `@sec-` reference string, the nature of the problem, and the audit report section.
+
+> **Chat reports are ephemeral. GitHub issues are the permanent record. If it isn't an issue, the finding doesn't exist.**
+
 ## Common Issues
 - **Renumbered chapter:** All `@sec-` references still use old number.
 - **Copy-paste error:** Reference from one chapter left when copying content.
