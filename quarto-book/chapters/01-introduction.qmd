@@ -112,7 +112,7 @@ Kael is a dwarf Blade — a shadow on the wall, the last face his enemies see. H
 
 **Morgan:** "Sixteen is Strong. Your longsword's Strong damage is 5."
 
-**Kael:** "The goblin has no armor. That's 5 damage straight through."
+**Morgan:** "The goblin has no armor. That's 5 damage straight through."
 
 **Morgan:** "Your blade cleaves through the chieftain's crude leather armor like it isn't there. He staggers backward, eyes wide — nobody's made him bleed in years. The remaining goblins go quiet. Their champion just took a hit that would have killed any of them. For one breath, the whole room is still."
 
