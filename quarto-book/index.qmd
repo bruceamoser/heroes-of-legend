@@ -1,6 +1,6 @@
----
+﻿---
 title: "Heroes of Legend"
-subtitle: "Core Rules — First Edition"
+subtitle: "Core Rules, First Edition"
 author: "Bruce A. Moser"
 date: today
 toc: false
@@ -9,7 +9,7 @@ toc: false
 ::: {.centered}
 _"Grab your swords. Stow your spell books. Adventure awaits."_
 
-— *Heroes of Legend*
+*Heroes of Legend*
 :::
 
 \newpage

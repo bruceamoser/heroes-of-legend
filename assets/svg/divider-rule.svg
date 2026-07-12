@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 30" width="800" height="30">
+  <!--
+    divider-rule.svg — Horizontal section divider for Heroes of Legend
+    Design: Centered diamond flanked by thin ornamental lines.
+    Palette: Dark brown ink (#3d2b1f) on aged parchment (#f4e4c1)
+  -->
+  <defs>
+    <style>
+      .ink { stroke: #3d2b1f; fill: none; }
+      .ink-fill { fill: #3d2b1f; }
+      .gold { stroke: #8a6a2a; fill: none; }
+      .gold-fill { fill: #8a6a2a; }
+      .parchment { fill: #f4e4c1; }
+    </style>
+  </defs>
+
+  <!-- Background (transparent in practice; parchment for preview) -->
+  <rect width="800" height="30" fill="none" />
+
+  <!-- Left ornamental rule: thin line with small diamond terminus -->
+  <line x1="10" y1="15" x2="330" y2="15" class="ink" stroke-width="0.8" />
+  <!-- Small diamond at left end -->
+  <polygon points="10,15 16,11 22,15 16,19" class="ink-fill" />
+
+  <!-- Right ornamental rule -->
+  <line x1="470" y1="15" x2="790" y2="15" class="ink" stroke-width="0.8" />
+  <!-- Small diamond at right end -->
+  <polygon points="790,15 784,11 778,15 784,19" class="ink-fill" />
+
+  <!-- Center ornament: layered diamond with inner detail -->
+  <!-- Outer diamond -->
+  <polygon points="400,5 415,15 400,25 385,15" class="ink" stroke-width="1.2" />
+  <!-- Inner diamond (gold accent) -->
+  <polygon points="400,9 409,15 400,21 391,15" class="gold" stroke-width="0.8" />
+  <!-- Center dot -->
+  <circle cx="400" cy="15" r="2" class="gold-fill" />
+
+  <!-- Thin decorative rings flanking center -->
+  <circle cx="370" cy="15" r="3" class="ink" stroke-width="0.5" />
+  <circle cx="430" cy="15" r="3" class="ink" stroke-width="0.5" />
+
+  <!-- Tiny ornamental dots along rules -->
+  <circle cx="280" cy="15" r="1.2" class="ink-fill" />
+  <circle cx="310" cy="15" r="1.2" class="ink-fill" />
+  <circle cx="490" cy="15" r="1.2" class="ink-fill" />
+  <circle cx="520" cy="15" r="1.2" class="ink-fill" />
+</svg>

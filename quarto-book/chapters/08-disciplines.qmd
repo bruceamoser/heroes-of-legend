@@ -1,12 +1,26 @@
 # Disciplines {#sec-chapter-disciplines}
 
-The Discipline system is Heroes of Legend's signature mechanic. Characters don't just gain skills — they earn *Disciplines* representing their mastery of elements, weapons, and arcane forces.
+![Illo 15: Disciplines Art](../assets/images/page036-img024.jpeg){width="60%"}
+
+*Illustration 15 — Disciplines chapter art (Shepherd class). Placeholder; final art TBD. Dimensions: 1024×1024.*
+
+{{< pagebreak >}}
+
+Disciplines are the signature mechanic of *Heroes of Legend.* They're how the game knows what your hero has mastered. Not just skills, *domains of power.* Fire. Blades. Protection. The forces and forms your character has attuned to through training, study, or sheer stubborn repetition.
+
+Here's the important part: **Disciplines are prerequisites, not rolls.** You don't roll your Fire Discipline. You don't add your Blades Discipline to an attack. Disciplines are the gate, you need them to *unlock* skills, abilities, and talents. Once you've got them, they represent permanent mastery. No expiration. No forgetting.
+
+{{< pagebreak >}}
 
 ## What Are Disciplines?
 
-A Discipline represents a domain of expertise or power your hero has attuned to. They are prerequisites for skills, abilities, and talents. You don't roll these Disciplines — they're symbolic of your character's growing mastery.
+A Discipline represents a domain of expertise or power your hero has internalized. It's the difference between "I picked up a sword once" and "I've trained with blades for ten years." Between "I read a book about fire" and "Fire answers when I call."
 
-**Example:** A warrior with 3 Blade Disciplines has spent years mastering swords. A mage with 3 Fire Disciplines has deep attunement to flame. A ranger with 2 Animal Disciplines has bonded with the wild.
+**Example:** A warrior with 3 Blade Disciplines has spent years mastering swords, every angle, every grip, every weakness in every guard. A mage with 3 Fire Disciplines doesn't just cast flames, they *understand* flame, the way a shipwright understands wood. A ranger with 2 Animal Disciplines has bonded with the wild in ways city-folk will never comprehend.
+
+You don't roll Disciplines. You *collect* them. They're permanent markers on your character sheet that say: "I've earned this."
+
+{{< pagebreak >}}
 
 ## The Discipline Taxonomy
 
@@ -16,26 +30,30 @@ A Discipline represents a domain of expertise or power your hero has attuned to.
 | | **Earth** | Stone, stability, endurance, crafting |
 | | **Wind** | Air, speed, storms, precision |
 | | **Water** | Ice, flow, healing, adaptation |
-| **Weapon** | **Blades** | Swords, daggers — finesse and precision |
-| | **Axes** | Axes, cleavers — brutal chopping power |
-| | **Polearms** | Spears, halberds — reach and control |
-| | **Archery** | Bows, crossbows — ranged precision |
-| | **Heavy Weapon** | Greatswords, greataxes, mauls — two-handed power |
-| | **Unarmed** | Fists, gauntlets, grappling — close-quarters combat |
+| **Weapon** | **Blades** | Swords, daggers, finesse and precision |
+| | **Axes** | Axes, cleavers, brutal chopping power |
+| | **Polearms** | Spears, halberds, reach and control |
+| | **Archery** | Bows, crossbows, ranged precision |
+| | **Heavy Weapon** | Greatswords, greataxes, mauls, two-handed power |
+| | **Unarmed** | Fists, gauntlets, grappling, close-quarters combat |
 | **Defense** | **Protection** | Shields, warding, guarding allies |
 | | **Armor** | Heavy armor proficiency, damage soaking |
 | **Primal** | **Animal** | Beasts, nature, shapeshifting, instinct |
 | **Arcane** | **Energy** | Raw magical force, metamagic, spellcraft |
 
+Fourteen Disciplines. Five categories. Your hero's path through them defines everything they can do.
+
+{{< pagebreak >}}
+
 ## Acquiring Disciplines
 
 ### Starting Disciplines
 
-All characters begin with *3 General Disciplines*. General Disciplines can be used as prerequisites for any basic skill or novice-level ability, but cannot meet requirements for Adept or Master tiers.
+Every character begins with **3 General Disciplines.** These are flexible, they can substitute for any specific Discipline at the Novice tier. Need 1 Fire for a Firebolt? A General Discipline covers it. Need 2 Fire for a Fireball? That's Adept, you need the real thing. General Disciplines get you started, but they won't carry you to mastery.
 
 ### Class Disciplines
 
-Your class grants specific Disciplines at creation:
+Your class hands you specific Disciplines at creation. These are your foundation, what your training, tradition, or sheer talent has already taught you:
 
 | Class | Starting Disciplines |
 |-------|---------------------|
@@ -50,27 +68,17 @@ Your class grants specific Disciplines at creation:
 
 ### Progression
 
-At levels 3, 6, 9, 12, 15, and 18, gain one additional Discipline of your choice. Class-favored Disciplines (those your class grants at creation) are always available. Cross-class Disciplines may require narrative justification or story events.
+At levels 3, 6, 9, 12, 15, and 18, you gain one additional Discipline of your choice. Class-favored Disciplines, the ones your class gave you at creation, are always available. Cross-class Disciplines may require narrative justification or story events. Want your Blade to pick up Fire? Make it a story. Find a mentor. Touch a primordial flame. Earn it.
 
 ### Magic Items
 
-Rare magic items may grant temporary or permanent Disciplines while attuned or wielded.
+Rare magic items may grant temporary or permanent Disciplines while attuned or wielded. A *Sword of the Phoenix* might grant +1 Fire Discipline in your hands. Set it down, lose the power. These items are treasures, and the DA should make you work for them.
+
+{{< pagebreak >}}
 
 ## Disciplines as Prerequisites
 
-Skills, abilities, and talents require specific Disciplines as prerequisites:
-
-| Skill/Ability | Discipline Required | Tier |
-|--------------|-------------------|------|
-| Longsword | 2 Blades | Adept |
-| Dagger | 1 Blade | Novice |
-| Greataxe | 2 Axes | Adept |
-| Fireball | 2 Fire + 1 Energy | Adept |
-| Volcanic Eruption | 3 Fire + 2 Earth + 1 Energy | Master |
-
-## Disciplines as Prerequisites
-
-Skills, abilities, and talents require specific Disciplines as prerequisites:
+Skills, abilities, and talents require specific Disciplines before you can learn them. No Disciplines, no purchase. It's that simple.
 
 | Skill/Ability | Disciplines Required | Tier |
 |--------------|---------------------|------|
@@ -78,7 +86,7 @@ Skills, abilities, and talents require specific Disciplines as prerequisites:
 | Dagger | 1 Blade | Novice |
 | Greataxe | 2 Axes | Adept |
 | Fireball | 2 Fire + 1 Energy | Adept |
-| Volcanic Eruption | 3 Fire + 2 Earth + 1 Energy | Master |
+| Volcanic Eruption | 3 Fire + 1 Earth | Master |
 | Chain Mail | 2 Armor | Novice |
 | Shield Block | 1 Protection | Novice |
 | Animal Companion | 2 Animal | Adept |
@@ -87,16 +95,26 @@ Skills, abilities, and talents require specific Disciplines as prerequisites:
 
 ### General Disciplines Substitution
 
-A General Discipline can substitute for any specific type at the *Novice* tier only. For Adept or Master abilities, you must have the specific Disciplines listed.
+General Disciplines substitute for specific Disciplines at Novice tier (1:1). At Master tier, two General Disciplines may substitute for one specific Discipline (2:1). General Disciplines cannot substitute at the Adept tier.
 
-## Worked Example
+Need 1 Fire for Firebolt? A General covers it. Need 2 Fire for Fireball at Adept? You need the real thing, no substitutions. Need 3 Fire and 1 Earth for Volcanic Eruption but you only have 3 Fire? Two Generals stand in for that Earth, and the volcano answers. General gets you in the door. Adept demands commitment. Master rewards cleverness, but charges double for shortcuts.
 
-**Building a Spell Chain: Fire Magic**
+{{< pagebreak >}}
 
-Kael, an Arcanist, wants to master fire magic. At creation, he has 2 Fire Disciplines and 1 Energy Discipline from his class.
+## Worked Example: Building a Fire Mage
 
-- **Novice (Firebolt):** Requires 1 Fire Discipline. Kael qualifies immediately.
-- **Adept (Fireball):** Requires 2 Fire + 1 Energy. Kael qualifies — he has exactly what's needed.
-- **Master (Volcanic Eruption):** Requires 3 Fire + 2 Earth + 1 Energy. Kael needs 1 more Fire Discipline and 2 Earth Disciplines. He'll need to earn these through level progression or find a magic item.
+Kael wants to burn the world. He's an Arcanist, his class gives him 2 Fire and 1 Energy at creation, plus 3 General Disciplines.
 
-At level 3, Kael gains his first Progression Discipline. He chooses Fire (now 3 Fire). At level 6, he gains another — Earth. At level 9, another Earth (now 2 Earth). At level 12, he finally has 3 Fire + 2 Earth + 1 Energy and can purchase Volcanic Eruption. This progression took 12 levels — Master-tier magic is earned, not given.
+**Novice (Firebolt):** Requires 1 Fire. Kael has 2 Fire. He qualifies without even touching his Generals. Firebolt is his immediately.
+
+**Adept (Fireball):** Requires 2 Fire + 1 Energy. Kael has exactly that, 2 Fire, 1 Energy. He qualifies at creation. Most casters need levels to reach Adept. Arcanists start closer to the flame.
+
+**Master (Volcanic Eruption):** Requires 3 Fire + 1 Earth. Kael's got 2 Fire and 1 Energy, he needs 1 more Fire and 1 Earth. Under the old system, this took twelve levels. Now? Two paths open to him.
+
+*Path of the Patient:* At level 3, Kael takes Fire, now 3 Fire, 1 Energy. At level 6, he takes Earth, now 3 Fire, 1 Earth, 1 Energy. He qualifies for Volcanic Eruption at level 6, with all three General Disciplines still in his pocket for other pursuits. He could branch into Protection for defense, Animal for a familiar, or bank them for cross-class talents. Six levels to master volcanic fury, and he's still got room to grow.
+
+*Path of the Specialist:* At level 3, Kael takes Fire, now 3 Fire, 1 Energy. He needs 1 Earth. At the Master tier, two General Disciplines substitute for one specific Discipline. Kael spends 2 of his 3 Generals to cover the Earth requirement. He qualifies for Volcanic Eruption at level 3, but he's burned most of his flexibility getting there fast.
+
+Two paths. Same destination. One leaves you options. The other gets you there first. Both are valid. Both are *earned.*
+
+That's the Discipline system working as intended. Master spells should be achievable before your campaign's final act, but they should still mean something when you cast them. A level 6 Volcanic Eruption says "I committed to this." A level 3 Volcanic Eruption says "I committed to this *and nothing else.*" Either way, when Kael calls down the mountain's fury, everyone at the table knows he paid for it.

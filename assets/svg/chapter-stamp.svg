@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!--
+    chapter-stamp.svg — Circular chapter number stamp for Heroes of Legend
+    Design: Concentric ornamental circles with Roman numeral placeholder.
+    Looks like a wax seal or woodcut stamp — used at chapter openings.
+    Palette: Dark brown (#3d2b1f), gold accent (#8a6a2a), parchment (#f4e4c1)
+  -->
+  <defs>
+    <style>
+      .ink { stroke: #3d2b1f; fill: none; }
+      .ink-fill { fill: #3d2b1f; }
+      .gold { stroke: #8a6a2a; fill: none; }
+      .gold-fill { fill: #8a6a2a; }
+      .parchment { fill: #f4e4c1; }
+      .light-stroke { stroke: #5c4033; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Outer ring (thick, like a wax seal edge) -->
+  <circle cx="60" cy="60" r="55" class="ink" stroke-width="3" />
+  <circle cx="60" cy="60" r="52" class="light-stroke" stroke-width="0.5" />
+
+  <!-- Ornamental dot ring -->
+  <g class="ink-fill">
+    <circle cx="60" cy="8" r="1.5" />
+    <circle cx="85.4" cy="10.5" r="1.5" />
+    <circle cx="104.6" cy="20.4" r="1.5" />
+    <circle cx="112" cy="40" r="1.5" />
+    <circle cx="112" cy="60" r="1.5" />
+    <circle cx="112" cy="80" r="1.5" />
+    <circle cx="104.6" cy="99.6" r="1.5" />
+    <circle cx="85.4" cy="109.5" r="1.5" />
+    <circle cx="60" cy="112" r="1.5" />
+    <circle cx="34.6" cy="109.5" r="1.5" />
+    <circle cx="15.4" cy="99.6" r="1.5" />
+    <circle cx="8" cy="80" r="1.5" />
+    <circle cx="8" cy="60" r="1.5" />
+    <circle cx="8" cy="40" r="1.5" />
+    <circle cx="15.4" cy="20.4" r="1.5" />
+    <circle cx="34.6" cy="10.5" r="1.5" />
+  </g>
+
+  <!-- Middle ornamental ring -->
+  <circle cx="60" cy="60" r="46" class="gold" stroke-width="1.2" />
+
+  <!-- Inner ring with sawtooth/gear pattern -->
+  <circle cx="60" cy="60" r="40" class="ink" stroke-width="0.8" />
+
+  <!-- Ornamental corner flourishes (four quadrants) -->
+  <g class="ink" stroke-width="0.6">
+    <!-- Top flourish -->
+    <path d="M45,20 Q55,18 60,18 Q65,18 75,20" />
+    <!-- Bottom flourish -->
+    <path d="M45,100 Q55,102 60,102 Q65,102 75,100" />
+    <!-- Left flourish -->
+    <path d="M20,45 Q18,55 18,60 Q18,65 20,75" />
+    <!-- Right flourish -->
+    <path d="M100,45 Q102,55 102,60 Q102,65 100,75" />
+  </g>
+
+  <!-- Inner circle -->
+  <circle cx="60" cy="60" r="34" class="light-stroke" stroke-width="0.5" />
+
+  <!-- Roman numeral placeholder: "I" (Chapter One default) -->
+  <!-- This should be replaced per-chapter; "I" is the template default -->
+  <text x="60" y="69" text-anchor="middle" font-family="serif" font-size="36"
+        font-weight="bold" fill="#3d2b1f" letter-spacing="2">I</text>
+
+  <!-- Subtle gold accent dots flanking the numeral -->
+  <circle cx="42" cy="60" r="1.8" class="gold-fill" />
+  <circle cx="78" cy="60" r="1.8" class="gold-fill" />
+</svg>
