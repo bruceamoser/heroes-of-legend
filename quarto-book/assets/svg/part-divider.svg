@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" width="800" height="80">
+  <!--
+    part-divider.svg — Full-width part/chapter divider for Heroes of Legend
+    Design: A central shield-and-swords motif flanked by horizontal rules with
+    ornamental termini. Used between major sections of the rulebook.
+    Palette: Dark brown (#3d2b1f), gold (#8a6a2a), medium brown (#5c4033)
+  -->
+  <defs>
+    <style>
+      .ink { stroke: #3d2b1f; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-fill { fill: #3d2b1f; }
+      .gold { stroke: #8a6a2a; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .gold-fill { fill: #8a6a2a; }
+      .mid { stroke: #5c4033; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect width="800" height="80" fill="none" />
+
+  <!-- Left horizontal rule -->
+  <line x1="10" y1="40" x2="310" y2="40" class="ink" stroke-width="1.2" />
+
+  <!-- Right horizontal rule -->
+  <line x1="490" y1="40" x2="790" y2="40" class="ink" stroke-width="1.2" />
+
+  <!-- Left terminus: ornamental knot -->
+  <circle cx="10" cy="40" r="4" class="ink" stroke-width="1" />
+  <circle cx="10" cy="40" r="2" class="gold-fill" />
+
+  <!-- Right terminus: ornamental knot -->
+  <circle cx="790" cy="40" r="4" class="ink" stroke-width="1" />
+  <circle cx="790" cy="40" r="2" class="gold-fill" />
+
+  <!-- Flanking diamonds on horizontal rules -->
+  <polygon points="270,40 274,36 278,40 274,44" class="ink-fill" />
+  <polygon points="522,40 526,36 530,40 526,44" class="ink-fill" />
+
+  <!-- Central shield motif -->
+  <!-- Shield outline -->
+  <path d="M400,10 L440,10 L440,40 Q440,65 400,72 Q360,65 360,40 L360,10 Z"
+        class="ink" stroke-width="2" />
+
+  <!-- Shield inner line -->
+  <path d="M400,15 L434,15 L434,40 Q434,60 400,66 Q366,60 366,40 L366,15 Z"
+        class="mid" stroke-width="0.7" />
+
+  <!-- Crossed swords behind shield -->
+  <!-- Left sword -->
+  <line x1="340" y1="60" x2="460" y2="20" class="mid" stroke-width="1.5" />
+  <!-- Right sword -->
+  <line x1="460" y1="60" x2="340" y2="20" class="mid" stroke-width="1.5" />
+
+  <!-- Left sword hilt -->
+  <line x1="345" y1="57" x2="335" y2="63" class="ink" stroke-width="1.5" />
+  <!-- Right sword hilt -->
+  <line x1="455" y1="57" x2="465" y2="63" class="ink" stroke-width="1.5" />
+
+  <!-- Sword pommels -->
+  <circle cx="333" cy="65" r="2.5" class="gold-fill" />
+  <circle cx="467" cy="65" r="2.5" class="gold-fill" />
+
+  <!-- Shield emblem: simplified dragon/wyvern shape -->
+  <!-- Body -->
+  <path d="M390,50 Q395,38 400,32 Q405,38 410,50"
+        class="ink-fill" />
+  <!-- Wings -->
+  <path d="M395,42 L385,35 L392,42" class="ink-fill" />
+  <path d="M405,42 L415,35 L408,42" class="ink-fill" />
+  <!-- Tail -->
+  <path d="M400,50 Q400,58 395,62 Q390,64 392,62 Q396,58 400,50"
+        class="ink-fill" />
+
+  <!-- Star above shield -->
+  <polygon points="400,4 402,8 406,8 403,11 404,15 400,12 396,15 397,11 394,8 398,8"
+           class="gold-fill" />
+
+  <!-- Small ornamental dots along rules -->
+  <circle cx="230" cy="40" r="1.5" class="mid-fill" />
+  <circle cx="190" cy="40" r="1.5" class="mid-fill" />
+  <circle cx="150" cy="40" r="1.5" class="mid-fill" />
+  <circle cx="570" cy="40" r="1.5" class="mid-fill" />
+  <circle cx="610" cy="40" r="1.5" class="mid-fill" />
+  <circle cx="650" cy="40" r="1.5" class="mid-fill" />
+</svg>

@@ -1,34 +1,103 @@
-# Dungeon Architect's Guide {#sec-chapter-gm-guidance}
+﻿# Dungeon Architect's Guide {#sec-chapter-gm-guidance}
 
-Advice for running Heroes of Legend at your table.
+![Illo 26: GM Guidance Art](../assets/images/page103-img042.jpeg){width="60%"}
+
+*Illustration 26 — GM guidance chapter art (Titles / GM section). Placeholder; final art TBD. Dimensions: 1024×1024.*
+
+{{< pagebreak >}}
+
+So you're the Dungeon Architect. You've read the rules, you've helped your players build their heroes, and now everyone's looking at you, waiting for the world to appear. No pressure.
+
+This chapter is written for you. Not as a manual — you don't need a manual, you need a fellow DA who's been behind the screen for thirty years and has the scar tissue to prove it. I've run sessions that collapsed into chaos. I've run sessions where the party spent three hours debating door hinges and loved every minute. I've run sessions where a single dice roll changed the entire campaign. Here's what I've learned: the rules serve the story. Your job isn't to enforce them. Your job is to use them to make the story better.
+
+Everything in this chapter is advice. Take what works. Ignore what doesn't. Your table is different from mine. Your players are different from mine. The only metric that matters is whether everyone at your table — including you — is having a good time. If they are, you're doing it right, even if you're doing it differently than this book suggests.
+
+{{< pagebreak >}}
 
 ## Scene Management
 
-Each scene should have a clear goal, conflict, and consequence. If nothing interesting can happen, skip to the next scene.
+A scene is a unit of story. It has a beginning (the party enters the throne room), a middle (they negotiate with the baron), and an end (the baron agrees to send troops, or throws them in the dungeon). Your job is to recognize when a scene has done its work and move on.
+
+**Start late, leave early.** Don't narrate the party walking through six empty corridors to reach the throne room. "After an hour of winding through the castle's lower halls, you're announced at the entrance to the great hall." Cut to the action. Similarly, when the negotiation concludes, don't roleplay the guards escorting the party back to the gate. "The baron's steward shows you to your rooms. You'll march at dawn." Scene over. Next.
+
+**Every scene should earn its place at the table.** Ask yourself: does this scene advance the plot, reveal character, or raise the stakes? If it does none of those things, cut it. Your players won't miss what they never saw, but they will remember the session that dragged because you insisted on roleplaying every shopkeeper interaction.
+
+**Use scene framing to control pace.** After a tense combat, give the party a quiet scene — a campfire conversation, a victory toast at the tavern. After three quiet scenes, hit them with something urgent. Pace isn't about speed. It's about rhythm. Fast, slow, fast, slow. Your players' attention spans will thank you.
+
+**When in doubt, ask the table.** "Do you want to play out the journey, or shall we cut to the gates of Thornwall?" Sometimes players want the quiet scenes. Sometimes they want to get to the action. You're not a mind reader. Ask. It's not breaking immersion; it's respecting everyone's time.
+
+{{< pagebreak >}}
 
 ## Setting Difficulty
 
-Modifiers guide the table. +4 for trivial, +0 for standard, −4 for very difficult. Don't call for rolls when the outcome isn't in doubt.
+The difficulty modifier is the simplest tool in your kit, and the one new DAs misuse most often. Here's how to wield it well.
+
+**The baseline is +0.** Standard difficulty means the task is a fair test of the hero's abilities. Picking a standard lock. Climbing a wall with handholds. Lying to a guard who has no reason to suspect you. When the fiction says "this is what the skill was made for," the modifier is +0. Don't add penalties just because you want the roll to be harder. The bell curve makes Standard results the most common outcome, and that's intentional — competent heroes succeed at competent tasks.
+
+**Add bonuses when the situation favors the hero.** The guard is distracted (+2). The lock is rusty and half-broken (+2). The wall has plenty of handholds and the hero has a rope (+4). Generous bonuses make players feel smart for setting up advantages. If the rogue spent ten minutes creating a distraction before attempting the lock, reward that. The dice should reflect the fiction, not override it.
+
+**Add penalties when the situation fights back.** It's pitch dark (-2). The guard just watched his partner get stabbed and he's on high alert (-2). The lock is dwarven masterwork, the wall is sheer ice, the lie is being told to the king's spymaster (-4). Penalties make the world feel dangerous without making it feel unfair. The players should know *why* the roll is harder. "The lock is dwarven masterwork" is information. "-4 because I said so" is frustration.
+
+**The golden rule: don't call for rolls when the outcome isn't in doubt.** The barbarian with Brawn +2 wants to kick down a normal wooden door? It breaks. No roll. The ranger with Survival Adept wants to find edible berries in a temperate forest? They find them. No roll. Rolling dice when there's nothing at stake drains tension from the moments that *do* matter. Save the dice for when the table is leaning forward, waiting to see what happens.
+
+{{< pagebreak >}}
 
 ## Encounter Building
 
-Balance encounters by comparing total party Disciplines to total enemy threat. A standard encounter matches the party's total. Hard encounters have 1.5×. Deadly encounters have 2×.
+Balancing combat encounters is more art than science, but the numbers give you a starting point. Here's how to think about it.
+
+**The basic math:** Compare total party Disciplines to total enemy threat. A standard encounter — the kind the party should win while expending some resources and taking some damage — matches the party's total Discipline count. A hard encounter has about 1.5 times that. A deadly encounter has double. But these are guidelines, not guarantees. Terrain, surprise, and player cleverness will swing fights further than any formula.
+
+**Action economy is everything.** Four goblins (four actions per round) are more dangerous than one ogre with the same total HP (one action per round). The side with more actions controls the board. When building encounters, count actions, not just hit points. A solo boss needs legendary actions or multiattack to keep up. A swarm of minions needs low HP so they drop fast and the action economy swings back toward the party.
+
+**Vary your encounter design.** Not every fight should be "kill all enemies." Mix in objectives: protect the ritual circle for three rounds, stop the cultist from reaching the alarm bell, escape the collapsing temple before the ceiling comes down. Objectives force players to make choices beyond "which enemy do I attack?" and those choices are where memorable combat lives.
+
+**Use waves.** Don't put every enemy on the board at the start of combat. Have reinforcements arrive on round 2 or 3. This lets you adjust difficulty on the fly — if the party is struggling, the reinforcements never show. If they're steamrolling, more enemies pour through the door. Waves also keep combat from feeling static. The board changes. New threats appear. Players have to adapt.
+
+**Know when to end it.** When the outcome is certain — the last two goblins are surrounded, wounded, and outnumbered — don't play out two more rounds of cleanup. The goblins surrender or flee. Move to the aftermath. Combat is a pacing tool, not a punishment.
+
+{{< pagebreak >}}
 
 ## Treasure Pacing
 
-Award 1–2 magic items per level. Gold should feel meaningful — parties should choose between gear, reveling, and reputation investments.
+Treasure is the reward system. It's how the game says "you did something impressive, here's what you get." Pace it well and your players will chase every lead, explore every corner, and take risks they'd otherwise avoid. Pace it poorly and treasure becomes either meaningless or frustrating.
+
+**Magic items: 1–2 per level, per party.** Not per character — per party. At level 3, the party of four should have found maybe three to six magic items total, and at least one of those should be consumable (a potion, a scroll, a single-use charm). Permanent items should feel significant. A +1 sword at level 2 is a big deal. By level 10, the party should have found maybe one Very Rare item and a handful of Rares. Legendary items are campaign capstones — the whole party should remember the session where they earned one.
+
+**Gold should create choices.** If the party has enough gold to buy everything they want, gold stops mattering. If they're constantly broke, they stop caring about rewards. The sweet spot is where the party has to choose: do we upgrade the fighter's armor, or commission that potion of water breathing for the sunken temple? Do we spend our gold on a stronghold, or on bribing the city council? Choices create stories. "We bought plate armor" is a transaction. "We spent our last copper bribing the harbor master to look the other way while we smuggled the refugees out" is a story.
+
+**Consumables are your secret weapon.** Potions, scrolls, and single-use magic items are the easiest treasure to hand out because they don't permanently shift the party's power level. A potion of flight solves one encounter brilliantly. Boots of flight solve every encounter forever. Be generous with consumables. Be stingy with permanents. Your future self, trying to challenge a party that can all fly, will thank you.
+
+**Let players use their treasure creatively.** If the party wants to spend their gold on a tavern, let them. The tavern becomes a story engine — rumors, rivals, arson, the health inspector who's actually a vampire. If they want to commission a custom magic item, work with them on the design. Make them quest for the rare component. The best treasure isn't found in a hoard; it's built over a campaign.
+
+{{< pagebreak >}}
 
 ## NPC Creation
 
-Quick NPC: assign one attribute at +1, one at −1, the rest at 0. Give them one skill at Adept (+2). That's enough for most interactions.
+You don't need a full character sheet for every shopkeeper the party meets. Here's how to build NPCs fast, and how to make the ones who matter feel real.
+
+**The quick method:** Assign one attribute at +1 (their strength), one at -1 (their weakness), and the rest at 0. Give them one skill at Adept (+2) that defines their role — the blacksmith has Craft, the guard captain has Intimidation, the courtier has Persuasion. That's enough for most interactions. The party doesn't need to know the apothecary's Brawn score. They need to know she can identify poisons and she has a dry sense of humor.
+
+**Give every NPC a want and a fear.** The guard captain *wants* a quiet shift, and *fears* anything that'll mean paperwork. The merchant *wants* to sell the cursed amulet before it activates again, and *fears* the party finding out why it's so cheap. A want and a fear take ten seconds to invent and give you everything you need to roleplay the NPC reactively. When the party does something unexpected — and they always will — you don't need to consult a stat block. You just ask: what does this person want, and what are they afraid of? The answer tells you how they respond.
+
+**Recycle and remix.** The helpful innkeeper from two towns ago? She's now the nervous apothecary with a different name and a different voice. The party won't notice. They interact with dozens of NPCs. You're the only one tracking them all. Save your creative energy for the NPCs who matter — the recurring villain, the patron, the rival adventuring party. Everyone else can be built from templates.
+
+**Make the important ones specific.** The baron doesn't just "sit on a throne." He sits on a throne made from the hull of the ship that brought his ancestors to this land. The assassin doesn't just "wear black." She wears a silk scarf over the lower half of her face, and her eyes are the color of old coins. One specific detail makes an NPC memorable. Two makes them vivid. Three is showing off.
+
+{{< pagebreak >}}
 
 ## Optional Rules
 
-**Gritty Realism:** Short rest = 8 hours, long rest = 1 week.
+Every table is different. These rules let you tune the game's tone without breaking anything. Try one at a time. See how your group reacts. The game works fine without any of them — these are seasoning, not ingredients.
 
-**Heroic Mode:** +1 DP per level.
+**Gritty Realism:** Short rests take 8 hours. Long rests take 1 full week of downtime. Use this when you want travel and exploration to feel grueling, when every resource decision matters, and when the party should dread the journey as much as the destination. Don't use this for dungeon crawls — the pace will grind to a halt. Gritty realism works best in campaigns where combat is rare but consequential, and where the tension comes from attrition over days, not minutes.
 
-**Discipline Crafting:** Allow players to combine 2 General Disciplines into 1 specific Discipline at level 10+.
+**Heroic Mode:** The party gains +1 Development Point per level. They'll have more skills, more talents, more abilities at every stage of the game. Use this for smaller parties (2–3 players) who need the extra power to handle standard encounters, or for groups who love character customization and want more toys to play with. Don't use this with optimization-heavy groups unless you're prepared for the party to punch above their weight consistently.
+
+**Discipline Crafting:** At level 10+, characters may combine 2 General Disciplines into 1 specific Discipline of their choice. This represents years of focused training paying off — the generalist finally specializing. It's a late-game option for characters who've been sitting on General Disciplines and want to unlock Master-tier abilities in a specific domain. Limit this to once per character, or at most once per tier (levels 10, 15, 20). It's meant to enable character evolution, not to let players respec their entire build.
+
+
+{{< pagebreak >}}
 
 ## Exploration & Travel
 
@@ -41,13 +110,15 @@ Overland travel uses a simple pace system. Each day, the party covers distance b
 | Mountain/Swamp | 12 miles | 18 miles |
 | Desert/Tundra | 15 miles | 21 miles |
 
-**Navigation:** Each day, one character makes a Survival (Knowledge or Survival skill) roll. Standard result: stay on course. Weak result: veer off course (1d6 extra hours). Strong result: find a shortcut (−2 hours).
+**Navigation:** Each day, one character makes a Survival (Knowledge or Survival skill) roll. Standard result: stay on course. Weak result: veer off course (1d6 extra hours). Strong result: find a shortcut (-2 hours).
 
 **Random Encounters:** Roll 1d6 each day and night. On a 1, an encounter occurs. DA chooses or rolls from environment-specific tables.
 
-**Camping:** A long rest requires 8 hours of rest including sleep. Characters on watch may make Perception checks at −2 (tired eyes).
+**Camping:** A long rest requires 8 hours of rest including sleep. Characters on watch may make Perception checks at -2 (tired eyes).
 
-> **DA Guidance:** Travel is a pacing tool. Use it to build atmosphere — the oppressive silence of a swamp, the howling wind on a mountain pass. Skip travel entirely when the journey isn't the story. "After three days on the road, you arrive at the gates of Thornwall" is perfectly valid.
+> **DA Guidance:** Travel is a pacing tool. Use it to build atmosphere, the oppressive silence of a swamp, the howling wind on a mountain pass. Skip travel entirely when the journey isn't the story. "After three days on the road, you arrive at the gates of Thornwall" is perfectly valid.
+
+{{< pagebreak >}}
 
 ## Crafting
 
@@ -55,7 +126,7 @@ Characters with appropriate tools and skills can craft items during downtime.
 
 | Result | Outcome |
 |--------|---------|
-| **Weak** | Item is functional but flawed. −1 to its primary use. |
+| **Weak** | Item is functional but flawed. -1 to its primary use. |
 | **Standard** | Item crafted as intended. Takes normal time. |
 | **Strong** | Masterwork quality. +1 bonus or half the normal time. |
 
@@ -65,29 +136,35 @@ Characters with appropriate tools and skills can craft items during downtime.
 
 **Magic Items:** Require specific Disciplines, rare components, and a formula. Takes 1 week per tier (Novice/Adept/Master).
 
+{{< pagebreak >}}
+
 ## Resource Management
 
 Keeping track of supplies adds tension to exploration.
 
-**Rations:** 1 per day per character. Without food, make a Fortitude (Endurance) roll each day. Standard result: function normally. Weak result: −1 to all rolls from fatigue.
+**Rations:** 1 per day per character. Without food, make a Fortitude (Endurance) roll each day. Standard result: function normally. Weak result: -1 to all rolls from fatigue.
 
 **Ammunition:** A quiver holds 20 arrows or bolts. After combat, recover half on a Standard+ Survival roll. On a Weak result, recover only 1d4.
 
-**Light:** Torches last 1 hour and illuminate 30 ft. Lanterns last 6 hours per flask of oil. Total darkness imposes −4 to any roll requiring sight.
+**Light:** Torches last 1 hour and illuminate 30 ft. Lanterns last 6 hours per flask of oil. Total darkness imposes -4 to any roll requiring sight.
 
-**Optional — Resource Dice:** For tables that prefer abstraction, use a Resource Die (d12→d10→d8→d6→d4→Depleted). Roll after each use; on a 1, the die steps down.
+**Optional, Resource Dice:** For tables that prefer abstraction, use a Resource Die (d12?d10?d8?d6?d4?Depleted). Roll after each use; on a 1, the die steps down.
+
+{{< pagebreak >}}
 
 ## Corruption
 
-Proximity to dark magic, forbidden knowledge, and horrific events can corrupt a hero's spirit. The Unbalanced class embraces this — but any character can be affected.
+Proximity to dark magic, forbidden knowledge, and horrific events can corrupt a hero's spirit. The Unbalanced class embraces this, but any character can be affected.
 
 **Gaining Corruption:** The DA awards +1 Corruption for witnessing supernatural horrors, using forbidden artifacts, or making desperate bargains. The Unbalanced class gains Corruption as part of their class mechanic.
 
-**Corruption Threshold:** 10 + Fortitude modifier. When a character reaches their threshold, they gain a permanent affliction (DA chooses based on the source — nightmares, physical mutation, madness). At 15+, the character becomes unplayable.
+**Corruption Threshold:** 10 + Fortitude modifier. When a character reaches their threshold, they gain a permanent affliction (DA chooses based on the source, nightmares, physical mutation, madness). At 15+, the character becomes unplayable.
 
 **Recovery:** 1 Corruption fades per week of rest. Atonement quests, divine intervention, or rare magic can remove larger amounts.
 
-> **Why this exists:** Corruption gives weight to dark choices. When the party debates whether to read the forbidden tome, the cost is real — not abstract. It also gives the Unbalanced class a mechanical identity: they walk the edge willingly.
+> **Why this exists:** Corruption gives weight to dark choices. When the party debates whether to read the forbidden tome, the cost is real, not abstract. It also gives the Unbalanced class a mechanical identity: they walk the edge willingly.
+
+{{< pagebreak >}}
 
 ## Social Conflict (Extended)
 
@@ -104,3 +181,305 @@ Each round, one side makes a social skill roll (Persuasion, Deception, or Intimi
 | **Fumble** | You offend or reveal weakness. Opponent gains 2 successes. |
 
 **Stakes must be declared before the conflict begins.** "If I win, the guard lets us pass. If you win, we're arrested." This keeps social encounters from becoming endless persuasion checks.
+
+{{< pagebreak >}}
+
+{{< pagebreak >}}
+
+## Sample Adventure: The Sunken Vault
+
+This is a starter adventure for level 1 characters. It teaches the core mechanics, skill checks, combat, and the success tier system, through play. Run it as your group's first session, or drop it into an ongoing campaign when the party passes through a river valley. Expected play time: 3-4 hours.
+
+::: {.callout-tip}
+## For First-Time DAs
+This adventure is built to teach *you* as much as your players. Each scene calls out which rules it introduces. Read the whole thing once before you run it. Then trust the system, the dice will do the work.
+:::
+
+### Adventure Hook
+
+The village of **Thornwell** sits in the crook of the Greenwash River, a quiet farming community that's seen better days. Three weeks ago, an old dam upriver burst during a spring storm. The floodwaters carved a new channel through the valley, and exposed something that wasn't meant to be found. A stone doorway, sunk into the riverbank, covered in glyphs nobody in Thornwell can read. Livestock has gone missing. Something comes out at night and leaves wet footprints on the doorsteps. The village elder is desperate.
+
+**Read Aloud:**
+
+> *"Thornwell wasn't much to look at before the dam broke. Now it's less. Half the fields are mud. The mill wheel doesn't turn. And every morning, old Marta finds another sheep gone from her pasture, not eaten, not dragged off. Just gone. The tracks lead to the river. The tracks always lead to the river."*
+
+The hook lands when the party arrives in Thornwell, whether they're passing through, answering a call for help, or chasing their own rumors of forgotten treasure. The elder approaches them within the hour. Strangers with weapons are rare in Thornwell. Strangers with weapons are exactly what Thornwell needs.
+
+### Scene 1: The Village
+
+**Introduces:** Social interaction, gathering information, skill checks with consequences.
+
+The party meets **Elder Tamrin**, a weathered woman in her sixties with hands like oak roots and eyes that have stopped being surprised by bad news. She offers the party 50 gp and the village's gratitude to investigate the exposed ruin and put a stop to whatever's prowling the night. She can be negotiated with, a Strong social result bumps the reward to 75 gp or secures a bonus (healing salves, torches, a mule).
+
+**What the villagers know (Standard Knowledge or Persuasion check):**
+
+- The doorway appeared after the dam burst. It's old, older than any settlement in the valley. (Standard)
+- The glyphs glow faintly blue at night. One of the farm boys touched them and his hand went numb for a day. (Standard)
+- Three villagers have gone missing in the past two weeks, always at night, always near the river. (Standard)
+- Before the dam was built, the elders used to warn children away from that bend in the river. Called it "the sinking ground." (Strong)
+- There's a hermit living in the hills, old **Corvus**, who used to trade in old books and strange maps. He might know something about the glyphs. (Strong)
+
+::: {.callout-tip}
+## Running Social Scenes
+Don't let this turn into an interrogation. Have Elder Tamrin offer tea. Have a child stare at the party's weapons. Have the village drunk insist the ruin is "a dragon's tooth" and try to sell them lucky charms. Social scenes teach players that talking is just as valid as stabbing, and often more useful.
+:::
+
+**Treasure opportunity:** If the party helps round up the missing livestock (Survival or Animal Handling, Standard), a farmer gifts them a healing poultice (heals 3 HP, one use).
+
+### Scene 2: The Approach
+
+**Introduces:** Skill challenges, success tier consequences, teamwork.
+
+Reaching the temple requires navigating a half-mile of flood-ravaged terrain. The riverbank has collapsed into a maze of mud flats, standing pools, and unstable ground. It's not dangerous enough to kill anyone, but how well the party handles this approach determines what kind of shape they're in when they reach the vault.
+
+Run this as a group skill challenge. Each character makes one skill check. They describe what they're doing, you assign the skill and difficulty. The party needs 3 successes before 2 failures.
+
+| Task | Skill | Difficulty |
+|------|-------|------------|
+| Pick the safest path through the mud flats | Survival (Knowledge) | Standard |
+| Spot unstable ground before someone steps on it | Perception (Knowledge or Reason) | Standard |
+| Wade the flooded sections without losing gear | Athletics (Brawn) | Standard |
+| Climb the collapsed riverbank to the door | Athletics (Brawn) | Standard (Harder, -2 if already wet) |
+| Read the flow of the new channel to find a ford | Nature (Knowledge) | Standard |
+
+**Results by tier:**
+
+| Result | Consequence |
+|--------|------------|
+| **Weak** | You make it, but at a cost. Lose 1d3 HP (slip, twisted ankle, swallowed river water). Or lose a piece of minor gear in the mud. |
+| **Standard** | Clean crossing. You're where you need to be. |
+| **Strong** | You find an advantage, a dry path, a shortcut, a stable ledge. The next character gains +2 on their check. |
+
+**Party outcome:**
+
+- **3+ successes before 2 failures:** The party arrives dry, together, and alert. No penalties going into Scene 3.
+- **2 failures:** The party arrives mud-splattered and separated. Each character loses 1d3 HP from minor injuries. The DA gets one "complication token" to use in Scene 3, a sudden collapse, a rising water level, an enemy reinforcement.
+- **3+ failures (exhausted all attempts):** The party arrives soaked, bruised, and loud. Each character loses 1d6 HP. The vault's guardians are alerted. They get a surprise round in Scene 3. Yeah, it's harsh. Welcome to adventuring.
+
+::: {.callout-warning}
+## The First Failure Matters
+When the first check comes up Weak, narrate it vividly: *"Your boot sinks into what looked like solid ground. Mud the consistency of cold porridge swallows you to the knee. You wrench free, but you've lost your waterskin, and your dignity."* This teaches players that Weak results aren't "nothing happens." They're "something happens, and it's not what you wanted."
+:::
+
+### Scene 3: The Flooded Vault
+
+**Introduces:** Combat basics, always-hit attacks, initiative, damage tiers, basic maneuvers, morale.
+
+The stone door stands half-open, pried apart by the floodwaters. Beyond it, a broad chamber stretches into darkness. Ankle-deep water covers the floor. The walls are carved with faded reliefs, figures in robes, hands raised, faces worn smooth by centuries of current. Four stone sarcophagi line the walls. Three of them are open. The water ripples, though there's no wind.
+
+**Read Aloud:**
+
+> *"The vault door groans as you push it wide enough to slip through. The air inside is cold and wet and tastes of copper. Your torchlight catches the walls, figures in robes, their carved faces watching you with blank stone eyes. Water shimmers across the floor, dark as tea, hiding whatever lies beneath. The silence is the wrong kind of silence. The kind that's listening."*
+
+Four **Drowned Guardians** rise from the water when the party enters the central chamber. They're corpses in rusted chain, animated by whatever old magic lingers here. They don't speak. They don't breathe. They just stand up out of the shallow water and start walking toward the nearest living thing.
+
+::: {.callout-note}
+## Enemy Stat Blocks
+**Drowned Guardian (Challenge 1/2):** HP 6, DR 1 (rusted chain). Rusted Sword: 2/3/4 slashing. Slam: 1/2/3 bludgeoning. Waterlogged: moves at half speed on dry ground, normal speed in water. Undead Nature: immune to poison and charm. Vulnerable (Fire): damage tier +1 vs fire. Morale: mindless, fights until destroyed.
+:::
+
+**Tactics:** The guardians spread out, one per party member if possible. They're slow but relentless, they don't flank, they don't retreat, they just keep coming. If a guardian is reduced to 0 HP, it collapses into the water with a splash. On the next round, roll 1d6. On a 5-6, it rises again at 1 HP (the water heals them). The party needs to either destroy all four in quick succession or figure out that dragging a body out of the water stops the regeneration.
+
+**Environmental hazard:** Any character who ends their turn in the water must make an Agility check (Standard) or the current knocks them Prone. The water is only ankle-deep, falling in it is embarrassing, not dangerous. But Prone in combat is bad. Remember that standing up costs a Maneuver (@sec-chapter-combat).
+
+**Teaching moment:** After the first round, pause and point out what just happened. "You all hit. Every attack connected. The question was how hard, and you saw the difference between a Weak scratch and a Strong blow. Now it's round two. What are you going to do differently?"
+
+::: {.callout-tip}
+## Running This Fight
+This is your players' first combat. Narrate every hit. "Your blade skips off the rusted chain, Weak, 2 damage, but you've got its attention." "You drive your sword through its midsection, Standard, 3 damage. Water pours from the wound." Make the always-hit system feel visceral. They're not missing, they're carving through enemies. The tension is in *how fast* they can put them down.
+:::
+
+**After the fight:** The water stills. One of the sealed sarcophagi has an inscription the party can now examine (Knowledge or Reason, Standard), it's a warning in Old Imperial: *"Here lies Kelvath, Warden of the Seal. May his rest be undisturbed. May the seal hold eternal."* The name "Kelvath" will matter in Scene 4.
+
+### Scene 4: The Inner Sanctum
+
+**Introduces:** Combined skill + combat encounters, traps, puzzles, boss fights.
+
+Beyond the main chamber, a short passage descends deeper. The water drains away here, channeled into grooves in the floor that glow with faint blue light. The passage opens into a circular sanctum. In the center, a stone pedestal holds a crystal sphere the size of a human head. The sphere pulses with the same blue light as the floor grooves. Around the pedestal, a ring of runes covers the floor, an active warding seal. And standing before the pedestal, one hand resting on the crystal, is **Kelvath, the Drowned Warden.**
+
+**Read Aloud:**
+
+> *"The sanctum is a perfect circle, maybe forty feet across. The walls rise into darkness, you can't see the ceiling. The only light comes from the floor, blue lines tracing geometric patterns that all converge on a central pedestal. The crystal on that pedestal pulses like a heartbeat. And the figure beside it, a corpse in ornate armor, wearing a circlet of tarnished silver, turns its head toward you. Water drips from its beard. Its eyes are blue glass, and they see you."*
+
+**Kelvath, the Drowned Warden (Challenge 2):** HP 18, DR 3 (ancient plate). Warden's Blade: 3/4/6 slashing. Water Bolt: 2/3/5 cold (range 30 ft, at will). Tidal Surge (Recharge 5-6): all creatures within 15 ft take 2/4/6 cold and must make Brawn check (Standard) or be pushed 10 ft and knocked Prone. Undead Nature: immune to poison and charm. Seal-Bound: Kelvath cannot move more than 20 ft from the crystal pedestal. If the seal is broken, he loses this restriction, and gains +1 to all damage.
+
+**The Warding Seal:** The glowing runes around the pedestal are a magical seal, one that's been holding Kelvath here for three centuries. It's failing. The crystal is cracked. The seal will break on its own in 1d4+1 rounds (roll secretly at the start of combat). When it breaks, Kelvath's Seal-Bound restriction ends, and the sanctum begins to flood (water rises 1 ft per round thereafter).
+
+**The party has options:**
+
+1. **Fight Kelvath while the seal holds.** He's restricted to 20 ft from the pedestal, so ranged attackers can stay safe, but his Water Bolt outranges most spells and bows. This is a tactical puzzle: how do you use his tether against him?
+
+2. **Disable the seal early.** A character can reach the pedestal (move + Maneuver) and attempt an Arcana or Reason check (Hard, -2). Strong: the seal stabilizes for the remainder of the fight. Standard: the seal holds but the attempt costs you, the crystal lashes out, dealing 1d6 cold damage to the character. Weak: the seal shatters immediately. Oops.
+
+3. **Break the crystal.** The crystal has HP 10 and DR 2. Destroying it ends the seal, frees Kelvath from his tether, and causes the chamber to flood rapidly (2 ft per round). But it also removes the blue glow, and Kelvath's Water Bolt loses 1 damage tier without the crystal powering it. Choices.
+
+::: {.callout-tip}
+## Running Combined Encounters
+This is where the game shines. One character fights Kelvath. Another works the seal. A third keeps the party alive. This isn't "combat or puzzle", it's both, simultaneously. Encourage players to narrate quick. "I'm holding him off, work faster!" is a complete turn. Keep the pace up. The flooding clock creates tension; don't let it become a bookkeeping exercise.
+:::
+
+**Morale:** Kelvath doesn't flee. He's been waiting three hundred years for someone to break the seal or put him down. He fights with grim purpose, not rage, not hunger, just duty worn down to a nub. When he reaches 0 HP, he lowers his blade, inclines his head once, a soldier's salute, and collapses into water that washes away into the glowing grooves.
+
+**Read Aloud:**
+
+> *"The warden's body hits the water and dissolves, armor, blade, circlet, all of it flowing into the blue-lit channels like ink into a stream. The crystal pulses once, twice, and goes dark. The groaning of ancient stone fills the chamber. This place is coming down. Time to run."*
+
+If the party stays, the ceiling begins to collapse. They have 3 rounds to escape. Each round, a character must make an Agility check (Standard) to dodge falling debris or take 1d6 damage. The flooded vault in Scene 3 is now waist-deep and rising fast. Getting out is a sprint, not a fight.
+
+### Conclusion
+
+The party emerges from the vault, wet, exhausted, and alive. Behind them, the stone doorway collapses into the river with a sound like a giant exhaling. The glyphs go dark. Whatever was down there is done.
+
+**Treasure:** If the party searched the sanctum before fleeing (or if they go back later after the water recedes), they find:
+- Kelvath's circlet, a **Circlet of the Warden** (magic item: once per day, grants +2 to a saving throw against being moved, knocked prone, or restrained by water, wind, or earth effects)
+- 120 gp in old imperial coin (worth double to a collector, standard to a merchant)
+- A **Waterlogged Spell Scroll**, contains one Novice spell of the DA's choice from the Arcane or Divine list
+
+**Advancement:** Completing "The Sunken Vault" is a milestone. The party advances to level 2. They've learned the core mechanics. They're ready for what comes next.
+
+**Hooks for Continuing:**
+
+- The dam that burst wasn't an accident. Someone blew it. The hermit Corvus might know who, or what, wanted the vault opened.
+- The crystal sphere wasn't just a prison. It was a key. Maps in the sanctum show four more vaults along the river. Kelvath was only one of five wardens.
+- Back in Thornwell, Elder Tamrin has news: a rider arrived from the Baron's court while the party was in the vault. The Baron is offering a bounty on "river-spawned undead." And the bounty just doubled.
+- One of the sarcophagi in the main chamber had a seal matching the party's warlock's pendant. Or the cleric's holy symbol. Or the fighter's family crest. The DA picks which character. The next adventure is personal.
+
+::: {.callout-note}
+## Design Notes
+*The Sunken Vault* teaches the game in layers. Scene 1 is social mechanics. Scene 2 is skill checks and success tiers. Scene 3 is combat basics. Scene 4 is the advanced course, combined encounters, tactical choice, and environmental pressure. By the time the party crawls out of that river, your players understand how *Heroes of Legend* works. They may not understand *why* they're covered in mud and grinning like fools. That part comes later.
+:::
+
+{{< pagebreak >}}
+
+![Illo 27: GM Guidance Second Art](../assets/images/page106-img043.jpeg){width="60%"}
+
+*Illustration 27 — GM guidance chapter second art (Bestiary cover). Placeholder; final art TBD. Dimensions: 584×584.*
+
+{{< pagebreak >}}
+
+## Faction System {#sec-faction-system}
+
+Factions make your world breathe. When the party leaves town, the Argent Circle doesn't freeze in place, they're researching, recruiting, scheming. This system tracks the party's standing with the powers that shape your world, and it gives them meaningful choices between adventures.
+
+### The Reputation Track
+
+Every faction rates the party on a seven-point scale. This number moves, sometimes slowly, sometimes in a single session when the party does something spectacular or catastrophic.
+
+| Reputation | Standing | What It Means |
+|------------|----------|---------------|
+| -3 | **Hostile** | The faction actively works against you. Bounties, assassins, sabotage. |
+| -2 | **Suspicious** | You're watched. Doors close when you approach. Prices double. |
+| -1 | **Unfriendly** | They'd rather not deal with you. Cold shoulders, curt answers. |
+| 0 | **Neutral** | You're strangers. Standard prices, standard treatment. |
+| +1 | **Friendly** | You've done right by them. 10% discount on faction services. Access to faction-exclusive quests. |
+| +2 | **Trusted** | You're one of the family. 25% discount. Access to restricted areas and secret information. |
+| +3 | **Allied** | The faction would go to war for you. Followers, stronghold support, unique faction boons. |
+
+### Gaining and Losing Reputation
+
+Reputation changes when the party's actions align with, or against, a faction's interests. The DA assigns the shift based on significance. A minor favor isn't worth a full point. Handing the faction a legendary artifact might be worth two.
+
+| Action | Reputation Change |
+|--------|-------------------|
+| Complete a faction-issued quest | +1 |
+| Defeat a faction's declared enemy | +1 |
+| Make a significant donation (100+ gp or equivalent) | +1 |
+| Critical success on a social roll with faction leadership (natural 6,6,6) | +2 |
+| Publicly champion the faction's cause | +1 |
+| Oppose the faction's stated goals | -1 |
+| Harm or kill a faction member | -2 |
+| Critical failure on a social roll with faction leadership (natural 1,1,1) | -1 |
+| Betray the faction's trust (sell secrets, break a pact) | -3 (immediate Hostile) |
+
+**The floor and ceiling:** Reputation can't drop below -3 or rise above +3 without extraordinary circumstances. At -3, a faction has already decided you're the enemy, they're acting on it. At +3, they've already opened their vaults and their hearts, you'd need to save their entire order from annihilation to earn more.
+
+::: {.callout-tip}
+## Reputation as Story Engine
+Don't let reputation become a spreadsheet. When the party hits Friendly with the Iron Pact, describe the mercenary captain buying them drinks. When they drop to Unfriendly with the Shadow Guild, describe the feeling of being watched from rooftops. Reputation isn't just a number, it's how the world reacts to the party's choices. Make them *feel* it.
+:::
+
+### Reputation Benefits
+
+Your standing with a faction determines what doors open, and which ones slam shut.
+
+**Friendly (+1):**
+- 10% discount on the faction's goods and services
+- Access to faction-exclusive quests and rumors
+- The faction will vouch for you with one allied group
+
+**Trusted (+2):**
+- 25% discount on the faction's goods and services
+- Access to restricted areas (arcane libraries, military barracks, hidden sanctuaries)
+- The faction shares secret information, monster weaknesses, political plots, rival movements
+- You may call in one significant favor per adventure (safe house, false identity, armed escort)
+
+**Allied (+3):**
+- 50% discount on the faction's goods and services
+- You attract 1d4 followers from the faction's ranks
+- The faction provides stronghold support, guards, scholars, craftspeople
+- Faction-specific boon (see example factions below)
+- The faction will take significant risks for you, including military support
+
+**Hostile (-3):**
+- The faction actively opposes you
+- Bounty hunters, assassins, and saboteurs target the party
+- Faction-aligned NPCs refuse to deal with you
+- The DA should make this cost *felt*, not every session, but often enough that the party considers making amends
+
+### Between-Session Faction Actions
+
+At the end of each session, each player chooses one faction action. This represents what their character does during downtime, the days or weeks between adventures. You can't take the same action twice in a row. Mix it up.
+
+| Action | Effect |
+|--------|--------|
+| **Gather Information** | Learn one rumor or piece of intelligence about a threat, location, or rival faction. The DA provides a concrete lead for the next session. |
+| **Secure Resources** | Gain one consumable item appropriate to the faction (healing potion from a divine order, acid vial from a thieves' guild, scroll from a mage circle). |
+| **Spread Influence** | Improve your reputation with one related faction by +1 (max +2). The Argent Circle puts in a good word for you with the Iron Pact. |
+| **Train** | Gain a +1 bonus to one skill for the next session only. Represents intense preparation for a specific challenge. |
+| **Rest and Recover** | Recover from one condition or affliction that would normally persist between sessions. The faction's healers, sages, or spiritual advisors tend to you. |
+| **Fortify Position** | If you have a stronghold, improve its defenses for the next session. If attacked, the stronghold gains +5 temporary HP. |
+
+::: {.callout-warning}
+## Action Economy Matters
+Faction actions happen *between* sessions. They're not a replacement for in-game roleplay, they're what happens during the weeks your character spends waiting for the next adventure hook. If a player says "I want to Gather Information" and the DA has nothing prepared, it's fine to make a note and deliver the intel at the start of next session. Don't hold up the game for a faction action.
+:::
+
+### Example Factions
+
+Here are three factions you can drop into any campaign. Each has goals, methods, and a unique boon for Allied parties. Customize the names to fit your world.
+
+#### The Argent Circle
+
+*"Knowledge is the only currency that doesn't devalue."*
+
+Scholars, mages, and keepers of forbidden lore. The Argent Circle maintains libraries in a dozen cities and secret archives in a dozen more. They believe knowledge should be preserved, not necessarily shared. Their members wear silver rings etched with a spiral pattern, the symbol of eternity and the pursuit of truth.
+
+**Goals:** Recover lost texts and artifacts. Contain dangerous knowledge. Oppose those who would destroy libraries or suppress learning.
+
+**Methods:** Research, espionage, careful negotiation. The Circle doesn't fight wars, they fund them, spy on them, and write the histories afterward.
+
+**Allied Boon, Arcane Patronage:** Once per adventure, you may request a Novice spell scroll from the Circle's archives. Delivery takes 1d3 days. At higher levels, the DA may allow Adept scrolls for especially significant services.
+
+#### The Iron Pact
+
+*"The monsters don't care about your politics. We don't either."*
+
+Mercenaries, monster hunters, and frontier wardens. The Iron Pact maintains chapterhouses along the wild edges of civilization, mountain passes, haunted forests, undermountain gates. They fight the things that go bump in the night so farmers can sleep. They're not romantic about it. It's a job.
+
+**Goals:** Hunt dangerous creatures. Protect frontier settlements. Recruit capable fighters. Get paid.
+
+**Methods:** Direct action. Iron Pact members favor overwhelming force and careful preparation. They research a monster's weakness, equip accordingly, and strike hard. They have no patience for glory hounds or lone wolves, the Pact fights as a unit or not at all.
+
+**Allied Boon, Pact Armory:** Once per adventure, you may requisition one weapon or suit of armor from the Pact's stores (value up to 200 gp). It must be returned after the mission or paid for at half price.
+
+#### The Shadow Guild
+
+*"The truth lives in the dark. We just happen to live there too."*
+
+Thieves, spies, and information brokers. The Shadow Guild doesn't exist, officially. Its members don't wear symbols or speak the Guild's name in public. But if you need a door opened, a secret uncovered, or a problem made to disappear, you find them. Or they find you.
+
+**Goals:** Control the flow of information. Protect the underworld's neutrality. Eliminate threats to the Guild's anonymity.
+
+**Methods:** Infiltration, blackmail, theft, and the careful cultivation of informants. The Guild rarely kills, dead bodies attract attention, and attention is bad for business. They prefer leverage.
+
+**Allied Boon, Shadow Network:** Once per adventure, you may call in a favor to learn one closely guarded secret about an NPC, location, or organization. The DA provides a concrete, actionable piece of intelligence. The Guild never reveals its sources.

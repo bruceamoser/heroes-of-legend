@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!--
+    title-page.svg — Heraldic compass-rose motif for Heroes of Legend title page
+    Design: An eight-pointed compass rose / heraldic star within a shield outline.
+    Suggests adventure, exploration, and the four cardinal directions.
+    Palette: Dark brown (#3d2b1f), gold (#8a6a2a), medium brown (#5c4033)
+  -->
+  <defs>
+    <style>
+      .ink { stroke: #3d2b1f; fill: none; }
+      .ink-fill { fill: #3d2b1f; }
+      .gold { stroke: #8a6a2a; fill: none; }
+      .gold-fill { fill: #8a6a2a; }
+      .mid { stroke: #5c4033; fill: none; }
+      .mid-fill { fill: #5c4033; }
+    </style>
+  </defs>
+
+  <!-- Outer shield / heater shape -->
+  <path d="M100,10 L160,10 Q180,10 180,30 L180,100
+           Q180,160 100,195
+           Q20,160 20,100 L20,30
+           Q20,10 40,10 Z"
+        class="ink" stroke-width="2.5" />
+
+  <!-- Inner shield line -->
+  <path d="M100,20 L152,20 Q168,20 168,34 L168,98
+           Q168,152 100,182
+           Q32,152 32,98 L32,34
+           Q32,20 48,20 Z"
+        class="mid" stroke-width="0.8" />
+
+  <!-- Compass rose: eight-pointed star -->
+  <!-- Cardinal points (N, S, E, W) — longer -->
+  <polygon points="100,40 108,92 100,88 92,92" class="ink-fill" />
+  <polygon points="100,160 108,108 100,112 92,108" class="ink-fill" />
+  <polygon points="40,100 92,92 88,100 92,108" class="ink-fill" />
+  <polygon points="160,100 108,92 112,100 108,108" class="ink-fill" />
+
+  <!-- Intercardinal points (NE, SE, SW, NW) — shorter -->
+  <polygon points="142,42 108,92 112,88 138,50" class="mid-fill" />
+  <polygon points="142,158 108,108 112,112 138,150" class="mid-fill" />
+  <polygon points="58,42 92,92 88,88 62,50" class="mid-fill" />
+  <polygon points="58,158 92,108 88,112 62,150" class="mid-fill" />
+
+  <!-- Center boss -->
+  <circle cx="100" cy="100" r="10" class="gold-fill" />
+  <circle cx="100" cy="100" r="6" class="ink-fill" />
+  <circle cx="100" cy="100" r="3" class="gold-fill" />
+
+  <!-- Cardinal direction markers (small diamonds at tips) -->
+  <polygon points="100,32 103,38 100,44 97,38" class="gold-fill" />
+  <polygon points="100,168 103,162 100,156 97,162" class="gold-fill" />
+  <polygon points="32,100 38,97 44,100 38,103" class="gold-fill" />
+  <polygon points="168,100 162,97 156,100 162,103" class="gold-fill" />
+
+  <!-- Ornamental rings around center -->
+  <circle cx="100" cy="100" r="22" class="mid" stroke-width="0.5" />
+  <circle cx="100" cy="100" r="26" class="ink" stroke-width="0.5" />
+</svg>

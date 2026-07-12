@@ -1,24 +1,58 @@
 # Heroes of Legend — Brand Definition
-# Controls Quarto's orange-book Typst template colors
+# "Battle-Scarred Tome" visual identity
+# Aged parchment, dark brown ink, antique gold accents.
+# Controls Quarto's orange-book Typst template colors.
 
 color:
   palette:
-    primary: "#8b1a2a"        # crimson — headings, links, accents
-    secondary: "#c4a43a"      # gold — decorative elements
-    tertiary: "#2d2a26"       # charcoal — body text
-    background: "#fdfcf8"     # warm off-white page
-    surface: "#f5f1ea"        # subtle warm surface
-    light: "#f7f3ec"          # callout background
+    # ── Page & Background ──────────────────────────────────────────────
+    background:    "#f4e4c1"   # aged parchment — page fill
+    sidebar-bg:    "#faf3e0"   # lighter parchment — sidebars, callouts
+    code-bg:       "#fdfaf0"   # very light parchment — stat blocks
+
+    # ── Text & Ink ─────────────────────────────────────────────────────
+    foreground:    "#3d2b1f"   # dark brown ink — body text
+    muted:         "#7a6e5e"   # muted brown — footnotes, page numbers
+    primary:       "#8b0000"   # deep red-brown — headings, emphasis
+    secondary:     "#c9a84c"   # antique gold — decorative elements
+    tertiary:      "#8a6a2a"   # warm brown gold — borders, rules, links
+
+    # ── Table & Border ─────────────────────────────────────────────────
+    table-border:  "#5c4033"   # medium brown — table borders
+    table-header:  "#5c4033"   # medium brown — table header background
+    table-stripe:  "#faf3e0"   # lighter parchment — alternating rows
+
+    # ── Admonition Backgrounds ─────────────────────────────────────────
+    note-bg:       "#fef9e7"   # pale amber — NOTE callouts
+    tip-bg:        "#f0f7e6"   # pale green — TIP callouts
+    warning-bg:    "#fdf0ed"   # pale red — WARNING callouts
+
+    # ── Admonition Borders ─────────────────────────────────────────────
+    note-border:   "#8a6a2a"   # warm brown — NOTE left border
+    tip-border:    "#4a7c3f"   # forest green — TIP left border
+    warning-border: "#8b0000"   # deep red-brown — WARNING left border
+
+    # ── Surface (legacy compat) ────────────────────────────────────────
+    surface:       "#f5f1ea"   # subtle warm surface
+    light:         "#faf3e0"   # callout background
+    callout-bg:    "#faf3e0"   # callout background
 
 typography:
   fonts:
+    - family: Crimson Text
+      source: system
+    - family: IM Fell English
+      source: system
     - family: Libertinus Serif
       source: system
   base:
-    family: Libertinus Serif
+    family: Crimson Text
     size: 10.5pt
     line-height: 1.55
   headings:
-    family: Libertinus Serif
+    family: IM Fell English
     weight: bold
     color: primary
+  monospace:
+    family: Libertinus Mono
+    size: 9pt

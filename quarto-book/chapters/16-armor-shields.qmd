@@ -1,38 +1,126 @@
 # Armor & Shields {#sec-chapter-armor-shields}
 
-Armor reduces damage. Shields block actively.
+![Illo 23: Armor Illustration](../assets/images/page101-img039.png){width="60%"}
 
-| Armor | Discipline | DR | Stealth |
-|-------|-----------|-----|---------|
-| Padded | — | −1 | — |
-| Leather | — | −2 | — |
-| Studded Leather | 1 Armor | −2 | — |
-| Chain Shirt | 1 Armor | −3 | Disadv |
-| Breastplate | 2 Armor | −4 | — |
-| Half Plate | 2 Armor | −4 | Disadv |
-| Chain Mail | 2 Armor | −5 | Disadv |
-| Plate | 3 Armor | −6 | Disadv |
+*Illustration 23 — Armor & shields chapter art (Magic items / armor). Placeholder; final art TBD. Dimensions: 1024×1024.*
+
+{{< pagebreak >}}
+
+Armor isn't about avoiding hits. Hits happen, that's the always-hit rule in action. Armor is about surviving them. Every point of Damage Reduction is one more swing you can take before you go down. Choose wisely.
+
+Shields are different. They don't reduce damage passively, they give you a reaction that downgrades an incoming hit. Armor says "I can take it." A shield says "You'll have to do better than that."
+
+{{< pagebreak >}}
+
+## How Armor Works
+
+When you take physical damage, subtract your Damage Reduction (DR) from the damage value. The remainder is what you actually lose from your HP. Simple.
+
+**Example:** Kael wears leather armor (DR 2). A goblin's shortsword hits him for Weak damage (2). 2 - 2 = 0. The blade scrapes off his hardened leather pauldron. He feels the impact. He doesn't feel the steel.
+
+If the goblin lands a Standard hit (3 damage), Kael takes 1 HP. The armor didn't stop it, but it turned a solid hit into a scratch.
+
+{{< pagebreak >}}
+
+## Armor Table
+
+| Armor | Discipline | DR | Stealth | Notes |
+|-------|-----------|-----|---------|-------|
+| **Padded** |, | -1 |, | Quilted layers. Cheap, uncomfortable, better than nothing. |
+| **Leather** |, | -2 |, | Boiled and shaped. The adventuring standard. |
+| **Studded Leather** | 1 Armor | -2 |, | Leather reinforced with rivets. Light and quiet, the rogue's choice. |
+| **Chain Shirt** | 1 Armor | -3 | Disadv | Worn under clothing. Flexible, concealable, noisy when you move. |
+| **Breastplate** | 2 Armor | -4 |, | Solid chest protection. Leaves arms free for spellcasting. |
+| **Half Plate** | 2 Armor | -4 | Disadv | Plates on vitals, chain everywhere else. The pragmatic heavy option. |
+| **Chain Mail** | 2 Armor | -5 | Disadv | Full-body rings. Loud. Heavy. Effective. |
+| **Plate** | 3 Armor | -6 | Disadv | The pinnacle of protection. When you absolutely need to be the last one standing. |
+
+### Armor and Spellcasting
+
+Armor interferes with the precise gestures and somatic control that spellcasting demands. The heavier the armor, the harder it is to channel magic through your body.
+
+| Armor Type | Spellcasting Penalty |
+|-----------|---------------------|
+| Padded, Leather, Studded Leather | None, full mobility, full casting |
+| Chain Shirt | -1 to spell attack rolls |
+| Breastplate | -1 to spell attack rolls |
+| Half Plate, Chain Mail | -2 to spell attack rolls |
+| Plate | -3 to spell attack rolls |
+
+::: {.callout-note}
+## The Arcanist in Armor
+
+Yes, you can put your Arcanist in Plate. It'll cost you, 3 Armor Discipline ranks at likely X3 cost, plus the armor itself. And you'll cast every spell at -3. Is it worth it?
+
+For most casters: no. You're spending DP to make yourself worse at your primary job. But for a specific build, the battle mage who wades into melee, the front-line Shepherd who heals under fire, a Breastplate (no Stealth penalty, only -1 to casting) might save your life more often than it costs you a spell tier.
+
+The game doesn't forbid any combination. It just makes you pay for unusual choices. That's the Discipline philosophy in one sentence.
+:::
+
+{{< pagebreak >}}
 
 ## Shields
 
-**Buckler:** 1 Protection, +1 DR.
+A shield is an active defense. You're not just wearing it, you're using it. When an attack comes in, you can throw the shield in its path.
 
-**Shield:** 1 Protection, +2 DR.
+**Buckler:** 1 Protection, +1 DR. Small, strapped to the forearm. Leaves your hand free for a second weapon or a wand.
 
-**Tower Shield:** 2 Protection, +3 DR, half cover.
+**Shield:** 1 Protection, +2 DR. The standard. Wood and iron, carried in the off hand.
 
-### Shield Block (Reaction)
-
-When you are hit by an attack, you may use your reaction to interpose your shield. Reduce the damage tier by one step: **Strong → Standard, Standard → Weak, Weak → 1 damage.** You must be wielding a shield and be aware of the attack.
+**Tower Shield:** 2 Protection, +3 DR, half cover. A portable wall. You move at -5 ft speed while carrying it. You can plant it as a maneuver to grant three-quarters cover to one ally directly behind you.
 
 ### Shield Block (Reaction)
 
-When you are hit by an attack, you may use your reaction to interpose your shield. Reduce the damage tier by one step: **Strong → Standard, Standard → Weak, Weak → 1 damage.** You must be wielding a shield and be aware of the attack.
+When you are hit by an attack, you may use your reaction to interpose your shield. Reduce the damage tier by one step: **Strong ? Standard, Standard ? Weak, Weak ? 1 damage.** You must be wielding a shield and be aware of the attack.
 
-Shield Block cannot reduce damage below 1. It can be used against melee attacks, ranged attacks, and spell attacks — anything you can see coming.
+Shield Block cannot reduce damage below 1. It can be used against melee attacks, ranged attacks, and spell attacks, anything you can see coming.
 
 > **DA Guidance:** Let the player declare Shield Block after hearing the damage tier result, not before. This makes shields feel active and tactical rather than just a passive DR bonus.
+
+{{< pagebreak >}}
+
+## Worked Example: Choosing Your Armor
+
+Roric is building a dwarf Protector at Level 1. He has Brawn +2, Fortitude +1, and the Armor Discipline from his class. He wants to be the party's wall. Here's how he weighs his options:
+
+**Option A, Chain Mail (DR 5, 2 Armor Disc):** He has the Discipline requirement. He pays 1 DP for Armor (2), his class favors it at X1. Total DR: 5. He's a fortress. Downside: Stealth disadvantage, and spellcasters in the party can't rely on him for quiet infiltration.
+
+**Option B, Breastplate + Shield (DR 4 + Shield Block):** Breastplate needs 2 Armor Discipline, he has that. Shield adds +2 DR and the Shield Block reaction. Total passive DR: 6. Plus he can react to downgrade one hit per round. This is the tank build. The shield costs extra coin, but coin is replaceable. Heroes aren't.
+
+**Option C, Plate (DR 6, 3 Armor Disc):** At Level 1, he can't afford Armor (3), that's 4 DP even at X1. But he plans for it. At Level 3, he'll buy the third rank and commission a suit of plate. For now, he takes Option B.
+
+Roric goes with Option B. The Breastplate + Shield gives him DR 6, a Shield Block reaction, and he can still move at full speed. At Level 3, he'll reassess. But for now, he's exactly where he needs to be: between the monsters and his friends.
+
+{{< pagebreak >}}
+
+## Worked Example: Shield Block in Combat
+
+Roric is holding a choke point against three goblins. He's got his Shield (DR +2) and Chain Mail (DR 5). Total DR: 7. The goblins aren't getting through easily.
+
+**Goblin 1 attacks:** The DA rolls. Standard hit, 3 damage. Roric's DR 7 absorbs it completely. The goblin's blade bounces off his pauldron with a sad *ping.*
+
+**Goblin 2 attacks:** Strong hit, 5 damage. DR 7 absorbs it. Roric doesn't flinch.
+
+**Goblin 3 attacks:** The DA rolls a Critical, three 6s. The goblin's crude spear finds a gap in Roric's armor. Strong damage (5) plus a critical bonus. Total incoming: 7 damage.
+
+**Roric's player:** "Shield Block."
+
+He spends his reaction. The damage tier drops: Critical ? Strong. The critical bonus is negated, the shield caught the spear point before it could twist. Damage is now 5 (Strong only). DR 7 absorbs it. The spear slams into Roric's shield, splintering the haft. Roric grunts. The goblin stares at his broken weapon in disbelief.
+
+That's the power of a shield. Without it, Roric takes 7 damage, over half his HP. With it, he takes nothing, and the goblin is now unarmed.
+
+{{< pagebreak >}}
 
 ## Donning & Doffing
 
 Light armor: 1 minute. Medium: 5 minutes. Heavy: 10 minutes. Shield: 1 action.
+
+You won't always have time to suit up. If the party is ambushed while camping, the Protector fights in whatever they were sleeping in. Plan accordingly, or invest in the **Endurance** skill, because sleeping in chain mail is exactly as unpleasant as it sounds.
+
+::: {.callout-note}
+## Armor Isn't Just Numbers
+
+The best armor in the game won't save you from a bad position. DR reduces damage, it doesn't make you invincible. Five goblins all attacking the same target will eventually wear down even a Plate-armored Protector through sheer volume of Weak hits.
+
+Use cover. Use positioning. Use the fact that you're harder to kill than everyone else to *control where the fight happens.* The Protector's real armor isn't steel, it's standing in the right place at the right time.
+:::

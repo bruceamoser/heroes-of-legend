@@ -1,11 +1,15 @@
+﻿---
+title: "Heroes of Legend"
 ---
-title: ""
----
+
+```{=typst}
+#titlepage()
+```
 
 ::: {.centered}
 
-**Heroes of Legend**  
-Core Rules — First Edition
+**Heroes of Legend**
+Core Rules, First Edition
 
 Version 0.1.0 (Draft)
 
@@ -15,14 +19,14 @@ Version 0.1.0 (Draft)
 
 *Playtesters:* [TBD]
 
-*Layout and Design:* [TBD]  
-*Cover Art:* [TBD]  
-*Interior Art:* Bruce A. Moser  
+*Layout and Design:* [TBD]
+*Cover Art:* [TBD]
+*Interior Art:* Bruce A. Moser
 *Editing:* [TBD]
 
 ---
 
-© 2024–2026 Bruce A. Moser. All rights reserved.
+(c) 2024-2026 Bruce A. Moser. All rights reserved.
 
 No part of this publication may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the author, except for brief quotations in reviews and certain other noncommercial uses permitted by copyright law.
 
@@ -32,3 +36,61 @@ First printing: [TBD]
 Printed in [TBD]
 
 :::
+
+{{< pagebreak >}}
+
+![Illo 1: Cover Art](../assets/images/page001-img001.png){width="60%"}
+
+*Illustration 1 — Cover art for Heroes of Legend. Placeholder; final art TBD. Dimensions: 1308×1693.*
+
+{{< pagebreak >}}
+
+## Credits
+
+**Game Design & Development:** Bruce A. Moser
+
+**Writing:** Bruce A. Moser
+
+**Interior Illustrations:** Bruce A. Moser
+
+**Playtest Coordination:** [TBD]
+
+**Additional Design Contributions:** [TBD]
+
+**Special Thanks:** The playtest groups who broke the game in ways we never expected and made it better every time. The convention DAs who ran *Heroes of Legend* for strangers and came back with stories. And every player who looked at a rule and said, "What if I tried this instead?", you're why this book exists.
+
+{{< pagebreak >}}
+
+## Table of Contents
+
+*Detailed table of contents to be generated from chapter headings during layout. Chapters are:*
+
+1. Introduction
+2. Creating Your Hero
+3. Attributes
+4. Ancestries & Cultures
+5. Classes
+6. Core Resolution
+7. Skills
+8. Disciplines
+9. Talents & Abilities
+10. Magic System
+11. Arcane Spells
+12. Divine Spells
+13. Combat
+14. Social Conflict
+15. Equipment
+16. Armor & Shields
+17. Magic Items
+18. Advancement
+19. GM Guidance
+20. Bestiary
+21. Glossary
+22. Quick Reference Sheets
+23. License
+
+{{< pagebreak >}}
+
+## Dedication
+
+*For everyone who ever rolled dice in a basement, a kitchen, a convention hall, or a voice call with friends a thousand miles away. The table is wherever you bring it.*

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!--
+    placeholder-section.svg — Decorative empty frame for future illustrations
+    Design: An ornamental border like an illuminated manuscript panel awaiting its miniature.
+    Double-ruled frame with corner flourishes and subtle "Illustration forthcoming" text.
+    Palette: Dark brown (#3d2b1f), gold (#8a6a2a), medium brown (#5c4033), parchment (#f4e4c1)
+  -->
+  <defs>
+    <style>
+      .ink { stroke: #3d2b1f; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-fill { fill: #3d2b1f; }
+      .gold { stroke: #8a6a2a; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .gold-fill { fill: #8a6a2a; }
+      .mid { stroke: #5c4033; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .mid-fill { fill: #5c4033; }
+      .parchment { fill: #faf3e0; }
+      .text { fill: #5c4033; font-family: serif; font-size: 11px; font-style: italic; }
+    </style>
+  </defs>
+
+  <!-- Background fill (lighter parchment for the panel interior) -->
+  <rect x="0" y="0" width="400" height="300" class="parchment" />
+
+  <!-- Outer border: double rule -->
+  <rect x="8" y="8" width="384" height="284" class="ink" stroke-width="2" />
+  <rect x="14" y="14" width="372" height="272" class="mid" stroke-width="0.8" />
+
+  <!-- Inner ornamental line -->
+  <rect x="20" y="20" width="360" height="260" class="gold" stroke-width="0.5" stroke-dasharray="8,4" />
+
+  <!-- Corner flourishes -->
+
+  <!-- Top-left corner -->
+  <g class="ink" stroke-width="1.2">
+    <path d="M8,8 L28,8 L8,28 Z" />
+    <!-- Inner corner detail -->
+    <path d="M14,14 L28,14 L14,28 Z" class="mid" stroke-width="0.6" />
+  </g>
+  <!-- Top-left curl -->
+  <path d="M8,28 Q16,16 28,8" class="gold" stroke-width="1" />
+  <circle cx="14" cy="14" r="3" class="gold-fill" />
+
+  <!-- Top-right corner -->
+  <g class="ink" stroke-width="1.2">
+    <path d="M392,8 L372,8 L392,28 Z" />
+    <path d="M386,14 L372,14 L386,28 Z" class="mid" stroke-width="0.6" />
+  </g>
+  <path d="M392,28 Q384,16 372,8" class="gold" stroke-width="1" />
+  <circle cx="386" cy="14" r="3" class="gold-fill" />
+
+  <!-- Bottom-left corner -->
+  <g class="ink" stroke-width="1.2">
+    <path d="M8,292 L28,292 L8,272 Z" />
+    <path d="M14,286 L28,286 L14,272 Z" class="mid" stroke-width="0.6" />
+  </g>
+  <path d="M8,272 Q16,284 28,292" class="gold" stroke-width="1" />
+  <circle cx="14" cy="286" r="3" class="gold-fill" />
+
+  <!-- Bottom-right corner -->
+  <g class="ink" stroke-width="1.2">
+    <path d="M392,292 L372,292 L392,272 Z" />
+    <path d="M386,286 L372,286 L386,272 Z" class="mid" stroke-width="0.6" />
+  </g>
+  <path d="M392,272 Q384,284 372,292" class="gold" stroke-width="1" />
+  <circle cx="386" cy="286" r="3" class="gold-fill" />
+
+  <!-- Midpoint ornaments on each side -->
+  <!-- Top center -->
+  <circle cx="200" cy="8" r="3" class="ink-fill" />
+  <circle cx="200" cy="8" r="1.5" class="gold-fill" />
+  <path d="M185,8 Q192,4 200,8 Q208,4 215,8" class="mid" stroke-width="0.6" />
+
+  <!-- Bottom center -->
+  <circle cx="200" cy="292" r="3" class="ink-fill" />
+  <circle cx="200" cy="292" r="1.5" class="gold-fill" />
+  <path d="M185,292 Q192,296 200,292 Q208,296 215,292" class="mid" stroke-width="0.6" />
+
+  <!-- Left center -->
+  <circle cx="8" cy="150" r="3" class="ink-fill" />
+  <circle cx="8" cy="150" r="1.5" class="gold-fill" />
+
+  <!-- Right center -->
+  <circle cx="392" cy="150" r="3" class="ink-fill" />
+  <circle cx="392" cy="150" r="1.5" class="gold-fill" />
+
+  <!-- Central placeholder text -->
+  <text x="200" y="148" text-anchor="middle" class="text" font-size="13" letter-spacing="2">
+    ILLUSTRATION
+  </text>
+  <text x="200" y="166" text-anchor="middle" class="text" font-size="11" letter-spacing="1">
+    forthcoming
+  </text>
+
+  <!-- Decorative line above and below text -->
+  <line x1="120" y1="130" x2="280" y2="130" class="mid" stroke-width="0.5" />
+  <line x1="120" y1="178" x2="280" y2="178" class="mid" stroke-width="0.5" />
+
+  <!-- Small diamond ornaments flanking text lines -->
+  <polygon points="110,130 113,127 116,130 113,133" class="ink-fill" />
+  <polygon points="284,130 287,127 290,130 287,133" class="ink-fill" />
+  <polygon points="110,178 113,175 116,178 113,181" class="ink-fill" />
+  <polygon points="284,178 287,175 290,178 287,181" class="ink-fill" />
+</svg>
