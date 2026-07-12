@@ -1,160 +1,195 @@
 # Heroes of Legend — AI Copilot Instructions
 
-## Project Overview
+## What We're Building
 
-**Heroes of Legend** is a fantasy tabletop RPG (TTRPG) built on a custom **3d6 + modifiers** system with tiered success. This project is a **ground-up redesign** of an earlier playtest game — the original PDF is reference only, not a template.
+**Heroes of Legend** is a fantasy tabletop RPG (TTRPG) rulebook. We're writing a complete core rulebook as Quarto Markdown (`.qmd`) chapter files, assembled and built to a gorgeous PDF via **Quarto + Typst**.
 
-This project is in the **core rules design phase**. The goal is to produce a complete core rulebook as AsciiDoc chapter files, assembled and built to PDF via `asciidoctor-pdf`.
+This is a **book-writing project**, not a software project. Every file we touch is prose, rules text, tables, and formatting — not code. Think of yourself as a collaborative editor, game designer, and technical writer rolled into one.
 
-## Designer
-
-- **Bruce** — Lead designer and system architect
-
-## Key Files
-
-| File | Role |
-|------|------|
-| `docs/heroes-of-legend.adoc` | Master AsciiDoc document — includes all chapters to produce the full PDF. |
-| `docs/chapters/*.adoc` | Individual chapter files. **The source of truth** for all game mechanics. Design changes go here. |
-| `docs/design/implementation-plan.md` | Full implementation plan, chapter dependency graph, and issue tree. |
-| `docs/themes/heroes-of-legend-theme.yml` | asciidoctor-pdf theme — fantasy tome aesthetic. |
-| `source-doc/Heros of Legend-Playtest-v15.1.pdf` | Original playtest PDF. Read-only reference. |
-| `source-doc/extracted/playtest.md` | Extracted markdown from original PDF. Read-only reference. |
-| `assets/images/` | Extracted + new artwork for the rulebook. |
-| `assets/svg/` | Decorative SVG elements (chapter dividers, stamps, etc.). |
-
-## Design Principles
-
-### 1. Chapter Files Are Authoritative
-- `docs/chapters/*.adoc` files are the canonical documents.
-- All mechanics, classes, spells, equipment, and setting details go into the chapter files.
-
-### 2. New System Mechanics (Non-Negotiable)
-- **Core roll:** 3d6 + Attribute Modifier + Skill Bonus + Game Modifiers
-- **Attributes:** Brawn, Fortitude, Agility, Guile, Knowledge, Reason — range -2 to +2
-- **Success tiers:** Weak (1-6), Standard (7-12), Strong (13-18+)
-- **Critical:** Three natural 6s | **Fumble:** Three natural 1s
-- **Attacks always hit** — weapons/spells have Weak/Standard/Strong damage values
-- **Skills:** +1 (Novice), +2 (Adept), +3 (Master) — purchased with DP
-- **Talents/Abilities:** 1 DP (Novice), 2 DP (Adept), 4 DP (Master)
-- **Disciplines** serve as prerequisites for skills and abilities
-- **No spell slots, no mana** — magic always fires
-
-### 3. Discipline System
-- Characters collect Disciplines (Fire, Earth, Wind, Water, Animal, Protection, Armor, Energy, Blades, Archery, Axes, Polearms, Great Weapons, etc.)
-- All characters start with 3 generic dice
-- Classes grant specific Disciplines
-- Skills and abilities require specific Disciplines as prerequisites
-- This is the game's unique mechanical identity — preserve its integrity
-
-### 4. D&D 5e Spell Adaptation
-- Reproduce core PHB spells (~300) as ability chains
-- Each chain has three tiers: Novice → Adept → Master
-- Example: Firebolt (Novice) → Fireball (Adept) → Volcanic Eruption (Master)
-- Spells always fire — Weak/Standard/Strong outcomes replace saving throws
-- Use SRD spell names where possible for legal safety
-
-### 5. Tone and Setting
-- **Generic fantasy** — flexible, not tied to a specific world
-- **Heroic adventure** — players are exceptional individuals, not grim survivors
-- **Accessible but deep** — quick to start, rewarding to master
-
-### 6. Document Formatting
-- Use proper AsciiDoc syntax with tables, cross-references, and admonitions
-- Prefer tables for mechanical data (stats, skills, equipment, spells)
-- Use `[NOTE]` admonitions for important rules clarifications
-- Use `xref:` for all cross-chapter references
-- Use `*bold*` for game terms on first use
-
-### 7. Build & Reference Model
-- The Neon Relic project (`../neon-relic/`) is the reference implementation for build pipeline and AsciiDoc patterns
-- Study its `build.sh`, `neon-relic-theme.yml`, and chapter files for conventions
-- Do NOT copy Neon Relic content — only its structure and patterns
-
-## Mandatory Agent Workflow
-
-**ALL agents MUST follow the workflow defined in `docs/WORKFLOW.md` at every turn.**
-
-```
-GRAB → RESEARCH → IMPLEMENT → REVIEW → COMMIT → NEXT
-```
-
-1. **GRAB** — Assign issue, read affected files, state plan
-2. **RESEARCH** — Audit existing work, consult sources, evaluate system/mechanics/flavor holistically, comment findings
-3. **IMPLEMENT** — Surgical changes, full implementation, update xrefs
-4. **REVIEW** — Checklist against original goal, identify gaps, fix gaps
-5. **COMMIT** — `feat(#N): summary`, branch, PR, squash merge
-6. **NEXT** — Next issue in critical path
-
-Read the full workflow: `docs/WORKFLOW.md`
+- **Lead designer:** Bruce — final authority on all design decisions.
+- **Phase:** Core rules design — writing and polishing the full rulebook.
+- **Canonical source:** `quarto-book/chapters/*.qmd` — all rules, mechanics, and prose live here.
+- **Build:** `cd quarto-book && ./build.sh` (or `.\build.ps1` on Windows) produces `_output/heroes-of-legend-core-rules.pdf`.
 
 ---
 
-## Agent Behavioral Guidelines
+## The Rulebook at a Glance
 
-These principles govern how agents operate in this repo. They bias toward caution over speed. For trivial tasks, use judgment.
+| Chapter | File | Content |
+|---------|------|---------|
+| 00 | `00-front-matter.qmd` | Credits, table of contents |
+| 01 | `01-introduction.qmd` | What is a TTRPG, how to use this book |
+| 01b | `01b-opening-fiction.qmd` | Opening fiction vignette |
+| 02 | `02-character-creation.qmd` | Step-by-step character creation |
+| 03 | `03-attributes.qmd` | Brawn, Fortitude, Agility, Guile, Knowledge, Reason |
+| 04 | `04-ancestries-cultures.qmd` | Ancestries and cultures |
+| 05 | `05-classes.qmd` | Character classes |
+| 06 | `06-core-resolution.qmd` | 3d6 resolution, success tiers |
+| 07 | `07-skills.qmd` | Skills and skill system |
+| 08 | `08-disciplines.qmd` | Discipline catalog and system |
+| 09 | `09-talents-abilities.qmd` | Talents and abilities |
+| 10 | `10-magic-system.qmd` | How magic works |
+| 11 | `11-arcane-spells.qmd` | Arcane spell catalog (~150 spells) |
+| 12 | `12-divine-spells.qmd` | Divine spell catalog (~150 spells) |
+| 13 | `13-combat.qmd` | Combat rules |
+| 14 | `14-social-conflict.qmd` | Social conflict system |
+| 15 | `15-equipment.qmd` | Weapons, gear, adventuring equipment |
+| 16 | `16-armor-shields.qmd` | Armor and shields |
+| 17 | `17-magic-items.qmd` | Magic items |
+| 18 | `18-advancement.qmd` | Leveling, DP, progression |
+| 19 | `19-gm-guidance.qmd` | GM advice and tools |
+| 20 | `20-bestiary.qmd` | Monster stat blocks |
+| 21 | `21-glossary.qmd` | Glossary of terms |
+| 22 | `22-reference-sheets.qmd` | Quick-reference sheets |
+| 23 | `23-license.qmd` | OGL / license |
 
-### 1. Think Before Writing
-- State your assumptions explicitly. If uncertain, ask Bruce.
+---
+
+## Core Game Mechanics (Non-Negotiable)
+
+These are the pillars of the system. Every design decision flows from them.
+
+### The Core Roll
+- **3d6 + Attribute Modifier + Skill Bonus + Game Modifiers**
+- **Attributes:** Brawn, Fortitude, Agility, Guile, Knowledge, Reason — range **-2 to +2**
+- **Success tiers:** Weak (1–6), Standard (7–12), Strong (13–18+)
+- **Critical:** Three natural 6s — automatic Strong success with bonus effect
+- **Fumble:** Three natural 1s — automatic failure with complication
+- **Attacks always hit** — weapons and spells have distinct Weak/Standard/Strong damage values
+- **No spell slots, no mana** — magic always fires; outcomes replace saving throws
+
+### Skills
+- +1 (Novice), +2 (Adept), +3 (Master) — purchased with Development Points (DP)
+- Class determines DP cost per skill
+
+### Talents & Abilities
+- 1 DP (Novice), 2 DP (Adept), 4 DP (Master)
+- Organized as three-tier chains, same as spells
+
+### Disciplines
+- This is the game's **unique mechanical identity** — preserve its integrity
+- Disciplines are keywords like Fire, Earth, Wind, Water, Animal, Protection, Armor, Energy, Blades, Archery, Axes, Polearms, Great Weapons
+- All characters start with 3 General Disciplines
+- Classes grant specific Disciplines
+- Skills and abilities require specific Disciplines as prerequisites
+
+### Spell Design
+- ~300 D&D 5e spells adapted as three-tier ability chains
+- Each chain: Novice → Adept → Master (e.g., Firebolt → Fireball → Volcanic Eruption)
+- Use SRD spell names where possible for legal safety
+- Spells always fire — Weak/Standard/Strong outcomes replace saving throws
+
+---
+
+## Writing Style Guide
+
+### Tone
+- **Heroic adventure** — players are exceptional individuals, not grim survivors
+- **Generic fantasy** — flexible, not tied to a specific world
+- **Accessible but deep** — quick to start, rewarding to master
+- **Player-facing** — write rules as if explaining to a new player
+- **Confident, not academic** — authoritative but warm
+
+### Prose Rules
+1. **Clarity over cleverness.** If a rule takes 200 words and could take 50, rewrite it.
+2. **One concept per paragraph.** Don't bundle unrelated rules together.
+3. **Examples are mandatory.** Every major mechanic needs at least one worked example.
+4. **Active voice.** "You roll 3d6" not "3d6 are rolled."
+5. **Bold game terms on first use.** `**Brawn**`, `**Discipline**`, `**Success Tier**`
+
+### Formatting
+- **Tables** for mechanical data (stats, skills, equipment, spells, DP costs)
+- **Callout blocks** for important rules clarifications:
+  ```markdown
+  :::{.callout-note}
+  ## Optional Rule: Cinematic Damage
+  If you want larger-than-life combat...
+  :::
+  ```
+- **Cross-references** use Quarto syntax: `@sec-chapter-combat`, `@sec-magic-system`
+- **Spell stat blocks** follow the pattern in existing chapters 11 and 12
+- **Monster stat blocks** follow the pattern in chapter 20
+
+---
+
+## Working with Chapters
+
+### Reading Order Matters
+Respect the chapter dependency chain:
+```
+Core Mechanics (06) → Disciplines (08) → Skills (07) → Magic (10) → Spells (11,12) → Combat (13) → Equipment (15,16) → GM Tools (19)
+```
+
+Always read upstream chapters before working on downstream ones. A change to chapter 06 (core resolution) affects everything.
+
+### Editing a Chapter
+1. Read the full chapter first — don't skim
+2. Read any upstream chapters it depends on
+3. Check GitHub issues for related tasks and dependencies
+4. Make surgical changes — don't "improve" adjacent chapters
+5. Update cross-references your changes break
+6. Build to validate: `cd quarto-book && ./build.sh`
+
+### Creating a New Chapter
+1. Study an existing chapter for conventions (chapter 06 is a good model)
+2. Start with the chapter outline
+3. Write rules, then examples, then flavor
+4. Add all cross-references to related chapters
+5. Register the chapter in `quarto-book/_quarto.yml`
+6. Build and fix all warnings
+
+---
+
+## Reference Files
+
+| File | Use |
+|------|-----|
+| `quarto-book/_quarto.yml` | Book structure, chapter ordering, Typst settings |
+| `quarto-book/_extensions/heroes-of-legend/template.typ` | PDF theme — fantasy tome aesthetic |
+| `source-doc/Heros of Legend-Playtest-v15.1.pdf` | Original playtest (read-only historical reference) |
+| `source-doc/playtest-full.txt` | Extracted playtest text (searchable reference) |
+| `assets/images/` | Artwork for the rulebook |
+
+---
+
+## Workflow
+
+For all substantive work, follow this cycle:
+
+```
+PLAN → RESEARCH → DRAFT → REVIEW → SAVE → NEXT
+```
+
+1. **PLAN** — Read the issue, identify affected chapters, state your approach
+2. **RESEARCH** — Read all affected chapters and upstream dependencies, consult reference files
+3. **DRAFT** — Write or edit the chapter content, update cross-references
+4. **REVIEW** — Checklist against the original goal, identify gaps, fix them, build to validate
+5. **SAVE** — Commit with conventional format: `feat(#N): summary` or `design(#N): summary`
+6. **NEXT** — Move to the next issue in the critical path
+
+---
+
+## Behavioral Guidelines
+
+### Think Before Writing
+- State assumptions. If uncertain, ask Bruce.
 - If multiple mechanical interpretations exist, present them — don't pick silently.
 - If a simpler rule design exists, say so. Push back when warranted.
-- If a dependency or interaction is unclear, stop. Name what's confusing. Ask.
+- If a dependency is unclear, stop and ask.
 
-### 2. Simplicity First
-- No mechanics beyond what the issue or plan calls for.
-- No "flexibility" or "future-proofing" that wasn't requested.
+### Simplicity First
+- No mechanics beyond what the task calls for.
+- No "future-proofing" that wasn't requested.
 - No edge-case handling for impossible scenarios.
-- If a rule explanation runs 200 words and could be 50, rewrite it.
 - Ask: "Would a player understand this on first read?" If no, simplify.
 
-### 3. Surgical Changes
+### Surgical Edits
 - Don't "improve" adjacent chapters, prose, or formatting.
 - Don't refactor mechanics that aren't broken.
-- Match existing AsciiDoc style and cross-reference conventions.
 - If you notice an unrelated inconsistency, mention it — don't fix it silently.
-- Update `xref:` links that YOUR changes broke. Don't fix pre-existing broken xrefs unless asked.
-- Every changed line should trace directly to the issue being worked.
+- Every changed line should trace directly to the task.
 
-### 4. Goal-Driven Execution
-- "Write chapter 06" → "Chapter covers all 5 resolution scenarios, has 3 worked examples, builds without AsciiDoc errors"
-- "Add spell chain" → "Spell has Novice/Adept/Master tiers, correct dice prerequisites, Weak/Standard/Strong damage values, and cross-references the magic system chapter"
-- For multi-step tasks, state a brief plan:
-  1. Read affected chapters → verify: understand all dependencies
-  2. Draft changes → verify: matches design principles and issue scope
-  3. Validate build → verify: asciidoctor-pdf succeeds, output renders correctly
-  4. Commit → verify: conventional commit format, references issue number
-
-## Issue Workflow
-
-Follow the standard workflow from AGENTS.md:
-
-### 1. Branch
-- Create from `main` named `issue/<number>-<short-description>`
-
-### 2. Work
-- Read the issue description and all related issues
-- Read affected chapter files before making changes
-- Follow the Design Principles above
-- For cross-chapter issues, update every affected chapter
-
-### 3. Commit & PR
-- Commit with: `feat(#<number>): <short summary>` or `design(#<number>): <summary>`
-- PR targets `main`, references `Closes #<number>`
-
-### 4. Merge
-- Squash merge preferred
-- Delete branch after merge
-
-## Dependency Chain (Critical Path)
-
-```
-Infrastructure → Core Mechanics → Dice Types → Skills/Talents → Character Creation → Magic → Combat/Equipment → GM Tools → Polish
-```
-
-Key dependency chains within epics:
-1. **Core mechanics:** #12 (3d6 resolution) → #15 (write chapter 06)
-2. **Disciplines:** #20 (catalog) → #21 (taxonomy) → #22 (acquisition) → #23 (prerequisites) → #24 (write chapter 08)
-3. **Magic:** #50 (system) → #51 (spell catalog) → #53-57 (spell chains) → #58 (write chapter 11)
-4. **Character creation:** #11 (attributes) → #40 (creation flow) → #41-44 (chapters)
-
-Respect these chains — resolve upstream issues before downstream ones.
+### Goal-Driven
+Define success criteria before starting:
+- "Write resolution chapter" → "Chapter covers all success tiers, has 3 worked examples, builds clean"
+- "Add spell chain" → "Spell has Novice/Adept/Master tiers, correct Discipline prerequisites, Weak/Standard/Strong damage, cross-references magic chapter"

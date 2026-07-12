@@ -1,0 +1,85 @@
+# Introduction {#sec-chapter-introduction}
+
+Welcome to *Heroes of Legend*. If you're holding this book, you're about to do something remarkable: build a hero, step into their boots, and tell stories you'll remember for years. This is a game about rolling dice and making choices — but mostly it's about sitting around a table with your friends and saying, "Remember that time Kael charged the dragon?"
+
+Here's how it works. You create a hero — a Protector, a Blade, an Arcanist, or one of five other classes — each with their own way of approaching the world. One player takes on the role of the Dungeon Architect (DA for short). The DA describes the world. You decide what your hero does. The dice tell you how it goes. That's it. That's the whole game. Everything else is details — and this book is full of them, because the details are where the magic lives.
+
+## What You Actually Need
+
+**This book.** Everything you need to play is in these pages.
+
+**Three to six six-sided dice.** The kind you'd find in any board game. You need three for a standard roll, but boons and banes can add more — six will cover any situation the game throws at you.
+
+**A character sheet.** Pencil and paper, a printed form, a digital app — whatever you like. Something to write on.
+
+**Friends.** Two to five is the sweet spot. One of you will be the DA. The rest are heroes. Rotate who DAs if you want — the game works either way.
+
+That's it. No miniatures required. No battle mat. No hundred-dollar sourcebooks. Just you, your friends, some dice, and your imagination. The rest is optional.
+
+::: {.callout-note}
+## Combat Is Tactical
+
+We do recommend some graph paper or a gridded surface. Combat in *Heroes of Legend* is tactical — positioning matters, cover matters, who's standing next to whom matters. A quick sketch of the battlefield helps everyone see the fight. But if you prefer to run combat in your head — the "theater of the mind" — the rules work fine either way.
+:::
+
+## How to Read This Book (Depending on Who You Are)
+
+**If you're a new player:** Start with @sec-chapter-character-creation. It walks you through creating a character step by step. Everything from "what do my stats mean?" to "can I buy a horse?" @sec-chapter-attributes through @sec-chapter-disciplines explain how the rules work. You don't need to memorize them — just read them once so you know where to look later.
+
+**If you're the Dungeon Architect:** Read @sec-chapter-attributes through @sec-chapter-disciplines to understand the mechanics, then jump to @sec-chapter-gm-guidance. That's your chapter — it covers building adventures, running monsters, handing out rewards, and keeping the game moving. Then skim the equipment and spell chapters so you know what your players can do.
+
+**If you just want to see what this game is about:** Read this chapter. Then read the example of play below. If it makes you want to grab some dice and friends, we've done our job.
+
+## The Core Mechanic (in One Sentence)
+
+Roll three six-sided dice. Add your hero's relevant attribute. Add your skill bonus if you have one. The DA may add a modifier for difficulty. Your total tells you what happens:
+
+**Weak (1–6):** You pull it off, but just barely. The lock clicks open as the guard rounds the corner. You climb the wall but your rope frays. You hit the goblin but it's a glancing blow.
+
+**Standard (7–12):** Solid, professional work. The spell fires clean. The blade finds its mark. The lie lands. This is what trained competence looks like.
+
+**Strong (13–18+):** You make it look easy. The crowd gasps. The enemy reels. This is the moment you'll be talking about after the session is over.
+
+Three natural 6s is a **Critical** — automatic Strong plus a bonus effect. Three natural 1s is a **Fumble** — automatic failure with a twist.
+
+That's the engine. Everything else in this book — skills, spells, equipment, monsters — hangs on that one roll. Master it and you've mastered the game.
+
+## A Note About Hitting Things
+
+In *Heroes of Legend*, attacks always hit. Always. When you swing your sword or hurl a firebolt, you connect. The question isn't *whether* you hit — it's *how hard.* Your 3d6 roll determines whether you deal Weak, Standard, or Strong damage. This keeps combat fast, cinematic, and lethal. Nobody whiffs three rounds in a row while the table checks their phones. Something always happens.
+
+::: {.callout-note}
+## Why Always-Hit?
+
+Think about your favorite fantasy fight scenes. How often does the hero swing and completely miss? Almost never. They clash, they parry, they take glancing blows — but contact happens. The always-hit rule means every round advances the fight. You're not waiting to "hit"; you're waiting to land the blow that *ends* it.
+:::
+
+## Example of Play
+
+Kael is a dwarf Blade — a shadow on the wall, the last face his enemies see. He strikes with precision, not fury, and his light blades find the gaps in any armor. Lyra is a halfling Odd — an unpredictable wildcard whose enemies never know what she'll do next (and neither do her friends, honestly). Their DA, Morgan, has been running them through a goblin-infested ruin for the past hour. They've just kicked down the door to the chieftain's chamber.
+
+**Morgan (DA):** "The goblin chieftain rises from his throne of salvaged shields. He's easily seven feet of scar tissue and bad decisions. He raises a rusted axe the size of your torso and bellows something in Goblin that probably isn't a compliment. What do you do?"
+
+**Kael:** "I draw my longsword and step forward. 'You're in my spot.' I strike."
+
+**Morgan:** "Roll 3d6."
+
+*Kael rolls:* "Four, three, five — that's twelve. My Brawn is +2, and I've got Blade Fighting at Adept, so that's another +2. Total is sixteen."
+
+**Morgan:** "Sixteen is Strong. Your longsword's Strong damage is 5."
+
+**Kael:** "The goblin has no armor, so that's 5 damage straight through."
+
+**Morgan:** "Your blade cleaves through the chieftain's crude leather armor like it isn't there. He staggers backward, eyes wide — nobody's made him bleed in years. The remaining goblins go quiet. Their champion just took a hit that would have killed any of them."
+
+**Lyra:** "While he's distracted, I want to slip behind the throne and check for anything valuable. Or explosive. Ideally both."
+
+**Morgan:** "Give me a Stealth roll. The goblins are watching Kael, so I'll say Standard difficulty — no modifier."
+
+*Lyra rolls:* "Five, four, six — that's fifteen. Agility +2, Stealth Adept +2. Nineteen total."
+
+**Morgan:** "Strong. You ghost past the goblin guards like you were never there. Behind the throne you find a locked chest. Also, what looks like a half-empty keg of something that smells powerfully flammable."
+
+**Kael:** "I like where this is going."
+
+This is *Heroes of Legend.* Every roll drives the story forward. Every success tier changes the scene. And sometimes — just sometimes — you find an explosive keg behind the boss's chair.

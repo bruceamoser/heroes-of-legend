@@ -1,0 +1,7 @@
+# Divine Spells {#sec-chapter-divine-spells}
+
+::: {.callout-warning}
+## Placeholder
+
+Complete divine spell catalog (~60–80 prayers). Healing & Restoration, Protection & Warding, Holy Light & Radiance, Blessings & Boons, Divine Wrath, Spirit & Communion. Quick-reference tables.
+:::

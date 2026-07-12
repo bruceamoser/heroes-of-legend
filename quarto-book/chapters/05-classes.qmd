@@ -1,0 +1,248 @@
+# Classes {#sec-chapter-classes}
+
+Your class is your hero's calling. It's not a job — it's who you are when the torches gutter and the door slams shut behind you. Eight classes. Eight ways to face the darkness. Pick the one that makes you grin.
+
+::: {.callout-note}
+## Classes Shape Costs, Not Limits
+
+Your class gives you a Discipline, a signature ability, and cheaper access to certain skills and Disciplines. It does not restrict what you can buy — only what comes easily. A Protector who studies Arcana pays more for it. That's the point. Be unusual — just know it'll cost you.
+:::
+
+## Class Overview
+
+| Class | Role | L1 Discipline | Signature |
+|-------|------|--------------|-----------|
+| **Protector** | Tank, defender | Armor | **Bastion** — defensive stance |
+| **Blade** | Assassin, precision | Blades | **Swift Blade** + **Precise Stab** |
+| **Arcanist** | Arcane caster | Energy | **Arcane Shield** |
+| **Shepherd** | Divine guide | Protection | **Turn Undead** |
+| **Intellect** | Scholar, strategist | Any one | **Knowledge Is Power** |
+| **Odd** | Chaos wildcard | Any one (different category) | **Eccentric Spellcasting** |
+| **Leader** | Commander | Protection | **Lead by Example** |
+| **Unbalanced** | High-risk power | Any Elemental | **Edge of Chaos** |
+
+## The Protector
+
+*"Stand behind me."*
+
+The Protector stands at the vanguard, using body and armor as a shield for those in their care. You are the anchor — built on Brawn and Fortitude, trained to absorb blows that would fell lesser heroes. Your pride is not in the enemies you slay but in the allies who walk away unharmed because you stood in the gap. You pursue ever-better ways to fortify your resilience while keeping the ability to strike back when needed.
+
+**Class Discipline (L1):** Armor (1)
+
+**Signature — Bastion:** Spend your movement to enter a defensive stance. Add +1 to your Protection Value for the round. At higher levels, this bonus increases.
+
+**Favored Skills (X1):** Athletics, Endurance, Intimidation, Resilience, Blades Fighting, Axe Fighting, Polearms Fighting, Heavy Weapon Fighting, Unarmed Fighting
+
+**Favored Disciplines (X1):** Armor, Protection, Blades, Axes, Polearms, Heavy Weapon, Unarmed
+
+**Out of Class (X3):** All Elemental (Fire, Earth, Wind, Water), Energy, Life, Religion, Plants, Mind, Summon. You're a wall, not a wizard.
+
+::: {.callout-note}
+## The Protector's Mindset
+
+You're not "the boring one." You're the reason the Blade gets to do their job without dying. Position yourself between the monster and the squishy people. Make the DA attack you — you can take it. When you raise your shield, everyone behind it breathes easier.
+:::
+
+## The Blade
+
+*"Strike once. Strike true. Strike last."*
+
+The Blade masters the art of finesse and precision, favoring the swift elegance of light blades. Your expertise lies in meticulously placed stabs, exploiting vulnerabilities with the sharpness and agility of your weapons. Keyed to Guile, you weave through the battlefield, striking with calculated precision — each strike as effective as it is lethal. You are the shadow on the wall, the final face your enemies see.
+
+**Class Discipline (L1):** Blades (1)
+
+**Signature — Swift Blade:** You may use Agility instead of Brawn when attacking with blades. Gain the **Precise Stab** ability — bonus damage when exploiting an opening.
+
+**Favored Skills (X1):** Acrobatics, Deception, Perception, Sleight of Hand, Stealth, Blades Fighting, Bow Fighting, Thrown Weapon, Unarmed Fighting
+
+**Favored Disciplines (X1):** Blades, Archery, Unarmed
+
+**Out of Class (X3):** Armor, Heavy Weapon, Axes, and all magical Disciplines (Fire, Earth, Wind, Water, Energy, Life, Religion, Plants, Mind, Summon). You're precision, not brute force — and certainly not magic.
+
+::: {.callout-note}
+## The Blade's Mindset
+
+A Blade doesn't trade blows — they choose the moment, the angle, the vulnerability, then strike once. If the fight is fair, you've already made a mistake. Use positioning, surprise, and your allies' distractions to create openings. Your damage comes from precision, not brute force.
+:::
+
+## The Arcanist
+
+*"Fire answers to me."*
+
+The Arcanist delves into the mysteries of arcane energies, mastering their manipulation to bend the fabric of reality. Your focus is harnessing these powerful forces, channeling them into spells that devastate foes and alter the course of battle. Keyed to Knowledge, you weave complex incantations with deep understanding, summoning energies that shimmer with potential. Every spell fires. Every single one. The question is never *if* — only how well.
+
+**Class Discipline (L1):** Energy (1)
+
+**Signature — Arcane Shield:** As a free action, raise a protective ward that increases your Evasion by +1 for the round. At higher levels, this shield grows stronger. Once per round.
+
+**Favored Skills (X1):** Alchemy, Arcana, History, Investigation, Lore (any)
+
+**Favored Disciplines (X1):** Energy and all Elemental types (Fire, Earth, Wind, Water), Mind, Summon. Magic is what you do.
+
+**Out of Class (X3):** All weapons (Blades, Axes, Polearms, Archery, Heavy Weapon, Unarmed), Armor, Protection, Religion. You didn't spend decades studying the arcane to swing a sword.
+
+::: {.callout-note}
+## Magic Always Fires
+
+There are no spell slots. No mana. No "I'm out of spells." Your magic always goes off. Weak hit? The spell still fires — just not as hard. This changes everything about playing a caster. You're never useless. You're never out of options.
+:::
+
+## The Shepherd
+
+*"The light guides my hand."*
+
+The Shepherd stands as a beacon of guidance, providing moral direction and harnessing divine energies to aid allies. Your path is one of enlightenment — using a deep connection to the divine to inspire and protect those around you. Through word and deed, you channel power into abilities that heal, shield, and uplift your companions. Keyed to Reason, your wisdom discerns the right course in the murkiest of situations, offering light in darkness. You also stand as a bulwark against the undead — creatures that have slipped beyond death's reach fear your presence.
+
+**Class Discipline (L1):** Protection (1)
+
+**Signature — Turn Undead:** Call down divine energy that ignores armor and affects only undead creatures within your presence. Your faith burns what should not walk.
+
+**Favored Skills (X1):** Medicine, Nature, Religion, Survival
+
+**Favored Disciplines (X1):** Protection, Animal, Life, Religion, Plants
+
+**Out of Class (X3):** Elemental Disciplines, Heavy Weapon, Axes, Polearms, Archery, Armor, Summon. Your power flows from faith, not formulas.
+
+::: {.callout-note}
+## Healing Matters
+
+Healing in Heroes of Legend is precious. HP recovery is slow outside of magic. A Shepherd in the party changes the calculus of every fight. Your allies will love you. The DA will have to work harder to threaten them.
+:::
+
+## The Intellect
+
+*"I've read about this."*
+
+The Intellect embodies cerebral prowess and scholarly mastery. Your path is a relentless pursuit of knowledge — delving into ancient tomes, unlocking the mysteries of the universe. With a mind as sharp as a finely honed blade, you navigate the world through logic and reason. Keyed to Knowledge, you are not defined by brute strength but by cunning and foresight. Through tactical acumen and strategic planning, you outmaneuver foes with calculated precision, turning their own weaknesses against them. Your words carry weight, guiding allies through the darkest times.
+
+**Class Discipline (L1):** Any one (your choice, reflecting your field)
+
+**Signature — Knowledge Is Power:** Gain +1 to all Knowledge-based skill checks. This increases at higher levels.
+
+**Favored Skills (X1):** History, Investigation, Lore (any three), Medicine, Arcana
+
+**Favored Disciplines (X1):** Energy, Mind, Life, Religion, Plants
+
+**Out of Class (X3):** Armor, Heavy Weapon, Axes, Unarmed. Your mind is your weapon — you've never needed to throw a punch.
+
+::: {.callout-note}
+## Stop and Think
+
+The Intellect's secondary ability lets you spend your mobility for the turn to harness pure mental power — gaining insight, revealing weaknesses, or uncovering hidden information. You may not move, but you see what no one else can.
+:::
+
+## The Odd
+
+*"I have a trick for that."*
+
+The Odd embodies eccentricity and peculiarity. With a demeanor that dances on the edge of madness and a style that defies convention, you bring chaos and unpredictability to every encounter. Keyed to Guile, your appearance is striking — mismatched clothing, bizarre accessories, an unusual hairstyle. In battle, you are a whirlwind of unorthodox tactics: spells with unconventional gestures, bizarre weapons wielded with deadly precision, strange powers that defy explanation. Your adversaries never know what to expect. Sometimes, neither do you.
+
+**Class Discipline (L1):** Any one, from a **different category** than your ancestry and culture Disciplines (e.g., if you already have Weapon and Defense, take an Elemental or Energy).
+
+**Signature — Eccentric Spellcasting:** Choose one arcane ability and one divine ability. You ignore prerequisite Disciplines for these two (level requirements still apply). You need no arcane focus or holy symbol.
+
+**Favored Skills (X1):** Sleight of Hand, Stealth, Streetwise, Deception, Acrobatics
+
+**Favored Disciplines (X1):** Pick 3 Disciplines of your choice at Level 1. Everything else is X2.
+
+**Out of Class (X3):** None. The Odd can make anything work — you just don't get cost breaks on everything. Your real power is *Eccentric Spellcasting*: free abilities that ignore prerequisites.
+
+::: {.callout-note}
+## You're Also Scary
+
+Once per scene, the Odd can contort their body, speak in tongues, cackle, or otherwise terrify a target they can see. It's unsettling. It's effective. It's very, very you.
+:::
+
+## The Leader
+
+*"Together, we are unstoppable."*
+
+The Leader is a beacon of courage on the battlefield, leading from the front lines with valor and resolve. Keyed to Reason, your stirring speeches and tactical acumen rally allies to action, instilling confidence even in the face of adversity. Beyond command, you serve as mentor and confidant, recognizing and nurturing the potential within each member of your group. Driven by a clear vision and unwavering commitment, you guide your companions toward a brighter future. In your presence, unity flourishes.
+
+**Class Discipline (L1):** Protection (1)
+
+**Signature — Lead by Example:** When you land a telling blow on an enemy, grant one ally who witnessed it a +2 bonus on their next roll. Your actions inspire greatness in others.
+
+**Favored Skills (X1):** Persuasion, Resilience, Perception, Insight, Blades Fighting, Polearms Fighting
+
+**Favored Disciplines (X1):** Protection, Blades, Polearms, Energy
+
+**Out of Class (X3):** Elemental Disciplines, Plants, Summon. You lead from the front, not from a spellbook.
+
+::: {.callout-note}
+## Battle Cry
+
+The Leader's secondary ability is **Battle Cry** — a thunderous shout that grants all allies within earshot a momentary surge of courage. Fear effects are suppressed. Morale is restored. The party remembers why they follow you.
+:::
+
+## The Unbalanced
+
+*"Power has a price. I'm willing to pay."*
+
+The Unbalanced is a wild card — embodying chaos and unpredictability in every action. Your demeanor is marked by erratic energy, veering between bouts of laughter and brooding intensity. Behind your unpredictable facade lies a mind that operates on its own unique wavelength, calculating the odds even as you appear to embrace madness. In battle, you unleash pent-up frenzy with ferocious abandon, your fighting style as unpredictable as your personality. You thrive on the chaos of combat, reveling in the uncertainty of the fray.
+
+**Class Discipline (L1):** Any one Elemental (Fire, Earth, Wind, or Water)
+
+**Signature — Edge of Chaos:** On a Strong hit, deal +4 bonus damage but roll on a d6 backlash table — self-damage, a fleeting condition, or an environmental surge that affects everyone, friend and foe alike.
+
+**Favored Skills (X1):** Arcana, Deception, Insight, Intimidation, Unarmed Fighting
+
+**Favored Disciplines (X1):** Your two opposing Elemental types, plus Energy and Unarmed.
+
+**Out of Class (X3):** The two Elemental types you didn't pick, all other weapons, Armor, and Protection. You channel chaos through your body and your spells — everything else is a distraction.
+
+From Animal, Plants, Summon, Life, Religion, and Mind, pick 2 to be X1, 2 to be X2, and 2 to be X3. The chaos bends where you choose.
+
+::: {.callout-note}
+## Embrace the Chaos
+
+You're not broken. You're balanced on a knife's edge between opposing forces, and that tension is your source of power. When it works, you're the most dangerous person in the room. When it doesn't — well, that's entertaining too. The party keeps you around because when everything goes wrong, you're the one who knows what to do with wrong.
+:::
+
+## Progression
+
+Every level, you gain **8 Development Points**. Spend them all — they don't carry over. That's it.
+
+**Adept** abilities unlock at Level 3. **Master** abilities unlock at Level 7. Until then, everything you buy is Novice.
+
+## Costs
+
+Everything you buy has a cost multiplier based on your class:
+
+| | X1 (Favored) | X2 (Neutral) | X3 (Out of Class) |
+|---|-------------|-------------|-------------------|
+| **Skill** (N / A / M) | 1 / 2 / 3 DP | 2 / 4 / 6 DP | 3 / 6 / 9 DP |
+| **Discipline** (1st / 2nd / 3rd rank) | 1 / 2 / 4 DP | 2 / 4 / 8 DP | 3 / 6 / 12 DP |
+| **Ability** (N / A / M) | 1 / 2 / 4 DP | 1 / 2 / 4 DP | 1 / 2 / 4 DP |
+
+**Abilities always cost 1/2/4 DP** regardless of class. Their real gate is Discipline prerequisites. A Fireball needs 2 Fire + 1 Energy — if those Disciplines cost you X3, you're paying 9 DP just for the prereqs before you even buy the ability. That's the brake on out-of-class magic, not the ability cost itself.
+
+**Skills** follow the same X1/X2/X3 structure. A Protector pays 3 DP for Arcana Novice — learnable, but expensive. Each skill's X1/X2/X3 classes are listed on its card in @sec-chapter-skills.
+
+| Discipline | Protector | Blade | Arcanist | Shepherd | Intellect | Odd^§^ | Leader | Unbalanced^†^ |
+|-----------|----------|-------|----------|----------|----------|-------|--------|---------------|
+| **Fire** | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^†^ |
+| **Earth** | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^†^ |
+| **Wind** | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^†^ |
+| **Water** | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^†^ |
+| **Energy** | X3 | X3 | X1 | X2 | X1 | X2 | X1 | X1 |
+| **Blades** | X1 | X1 | X3 | X2 | X2 | X2 | X1 | X3 |
+| **Axes** | X1 | X3 | X3 | X3 | X3 | X2 | X2 | X3 |
+| **Polearms** | X1 | X2 | X3 | X3 | X2 | X2 | X1 | X3 |
+| **Archery** | X2 | X1 | X3 | X3 | X2 | X2 | X2 | X3 |
+| **Heavy Weapon** | X1 | X3 | X3 | X3 | X3 | X2 | X2 | X3 |
+| **Unarmed** | X1 | X1 | X3 | X2 | X3 | X2 | X2 | X1 |
+| **Protection** | X1 | X2 | X3 | X1 | X2 | X2 | X1 | X3 |
+| **Armor** | X1 | X3 | X3 | X3 | X3 | X2 | X2 | X3 |
+| **Animal** | X2 | X3 | X2 | X1 | X2 | X2 | X2 | ‡ |
+| **Plants** | X3 | X3 | X2 | X1 | X1 | X2 | X3 | ‡ |
+| **Summon** | X3 | X3 | X1 | X3 | X2 | X2 | X3 | ‡ |
+| **Life** | X3 | X3 | X2 | X1 | X1 | X2 | X2 | ‡ |
+| **Religion** | X3 | X3 | X3 | X1 | X1 | X2 | X2 | ‡ |
+| **Mind** | X3 | X3 | X1 | X2 | X1 | X2 | X2 | ‡ |
+
+^†^ Unbalanced Elemental: pick two opposing types at Level 1 — those become X1. The other two become **X3**.
+
+^‡^ Unbalanced: from Animal, Plants, Summon, Life, Religion, and Mind — pick 2 to be X1, 2 to be X2, and 2 to be X3. You decide where the chaos bends in your favor.
+
+^§^ Odd: pick 3 Disciplines at Level 1 — those become X1. Everything else is X2. No X3 restrictions.

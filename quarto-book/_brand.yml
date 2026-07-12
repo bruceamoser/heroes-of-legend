@@ -1,0 +1,24 @@
+# Heroes of Legend — Brand Definition
+# Controls Quarto's orange-book Typst template colors
+
+color:
+  palette:
+    primary: "#8b1a2a"        # crimson — headings, links, accents
+    secondary: "#c4a43a"      # gold — decorative elements
+    tertiary: "#2d2a26"       # charcoal — body text
+    background: "#fdfcf8"     # warm off-white page
+    surface: "#f5f1ea"        # subtle warm surface
+    light: "#f7f3ec"          # callout background
+
+typography:
+  fonts:
+    - family: Libertinus Serif
+      source: system
+  base:
+    family: Libertinus Serif
+    size: 10.5pt
+    line-height: 1.55
+  headings:
+    family: Libertinus Serif
+    weight: bold
+    color: primary

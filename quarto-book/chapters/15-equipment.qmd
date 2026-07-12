@@ -1,0 +1,58 @@
+# Equipment {#sec-chapter-equipment}
+
+## Weapons
+
+Every weapon has fixed Weak, Standard, and Strong damage values. No damage dice — the 3d6 roll already determined how well you struck.
+
+| Weapon | Disciplines Required | Damage (W/S/St) |
+|--------|---------------------|-----------------|
+| Unarmed | — | 1 / 1 / 2 |
+| Dagger | 1 Blade | 1 / 2 / 3 |
+| Shortsword | 2 Blades | 2 / 3 / 4 |
+| Longsword | 1 Blade, 1 Heavy Weapon | 2 / 3 / 5 |
+| Greatsword | 1 Blade, 2 Heavy Weapons | 3 / 5 / 8 |
+| Handaxe | 1 Axe | 2 / 3 / 5 |
+| Battleaxe | 1 Axe, 1 Heavy Weapon | 3 / 4 / 6 |
+| Greataxe | 1 Axe, 2 Heavy Weapons | 3 / 5 / 8 |
+| Spear | 1 Polearm | 2 / 3 / 4 |
+| Halberd | 1 Polearm, 1 Axe | 3 / 5 / 7 |
+| Shortbow | 1 Archery | 2 / 3 / 4 |
+| Longbow | 2 Archery | 3 / 4 / 6 |
+| Crossbow | 1 Archery, 1 Heavy Weapon | 3 / 5 / 7 |
+
+::: {.callout-note}
+## Discipline Combinations — Build Your Fighting Style
+
+Weapons don't just require more of the same Discipline — they require specific combinations. A Longsword needs *Blade training AND Heavy Weapon training*. A Halberd needs *Polearm AND Axe*. This means your Discipline choices define your fighting style. A warrior with 2 Blades and 1 Heavy Weapon can wield a Shortsword with precision or a Longsword with power — but a Greatsword (1 Blade + 2 Heavy Weapons) requires deeper investment in the Heavy Weapon path.
+
+**Heavy Weapon** Discipline represents training with large, two-handed weapons that rely on momentum and raw force rather than finesse. It gates access to the highest damage tiers.
+:::
+
+**Properties:**
+
+- **Versatile** — +1 damage when wielded two-handed (Longsword only)
+- **Finesse** — may use Agility modifier instead of Brawn on the 3d6 attack roll
+- **Reach** — can attack targets 10 ft away (Spear, Halberd)
+- **Thrown** — can be thrown (range 20/60 ft: Dagger, Handaxe, Spear)
+- **Light** — can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe)
+- **Loading** — requires a Bonus Action to reload between shots (Crossbow only)
+
+## Armor
+
+Armor provides damage reduction (DR) — subtract from incoming physical damage.
+
+| Armor | Discipline Req | DR |
+|-------|---------------|-----|
+| Padded | — | −1 |
+| Leather | — | −2 |
+| Studded Leather | 1 Armor | −2 |
+| Chain Shirt | 1 Armor | −3 |
+| Breastplate | 2 Armor | −4 |
+| Chain Mail | 2 Armor | −5 |
+| Plate | 3 Armor | −6 |
+
+Shields: **Buckler** (1 Protection, +1 DR), **Shield** (1 Protection, +2 DR), **Tower Shield** (2 Protection, +3 DR, provides half cover).
+
+## Encumbrance
+
+Slot-based system. You have 10 + (Brawn × 5) slots. Most items take 1 slot. Armor takes 2–4 slots. Two-handed weapons take 2 slots.

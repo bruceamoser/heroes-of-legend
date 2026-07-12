@@ -1,0 +1,68 @@
+project:
+  type: book
+  output-dir: _output
+
+book:
+  title: "Heroes of Legend"
+  subtitle: "Core Rules"
+  author: "Bruce A. Moser"
+  date: today
+  chapters:
+    - index.qmd
+    - part: "Introduction"
+      chapters:
+        - chapters/01-introduction.qmd
+        - chapters/01b-opening-fiction.qmd
+    - part: "Character Creation"
+      chapters:
+        - chapters/02-character-creation.qmd
+        - chapters/03-attributes.qmd
+        - chapters/04-ancestries-cultures.qmd
+        - chapters/05-classes.qmd
+    - part: "Core Mechanics"
+      chapters:
+        - chapters/06-core-resolution.qmd
+        - chapters/07-skills.qmd
+        - chapters/08-disciplines.qmd
+        - chapters/09-talents-abilities.qmd
+    - part: "Magic"
+      chapters:
+        - chapters/10-magic-system.qmd
+        - chapters/11-arcane-spells.qmd
+        - chapters/12-divine-spells.qmd
+    - part: "Combat & Equipment"
+      chapters:
+        - chapters/13-combat.qmd
+        - chapters/14-social-conflict.qmd
+        - chapters/15-equipment.qmd
+        - chapters/16-armor-shields.qmd
+        - chapters/17-magic-items.qmd
+    - part: "World & GM"
+      chapters:
+        - chapters/18-advancement.qmd
+        - chapters/19-gm-guidance.qmd
+        - chapters/20-bestiary.qmd
+    - part: "Appendices"
+      chapters:
+        - chapters/21-glossary.qmd
+        - chapters/22-reference-sheets.qmd
+        - chapters/23-license.qmd
+
+format:
+  typst:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    papersize: us-letter
+    margin:
+      top: 25mm
+      bottom: 28mm
+      left: 22mm
+      right: 22mm
+    font-family: "Libertinus Serif"
+    font-size: 10.5pt
+    smart: false
+    include-before-body: _extensions/heroes-of-legend/style.typ
+
+crossref:
+  chapters: true

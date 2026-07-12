@@ -1,0 +1,17 @@
+---
+title: "Heroes of Legend"
+subtitle: "Core Rules — First Edition"
+author: "Bruce A. Moser"
+date: today
+toc: false
+---
+
+::: {.centered}
+_"Grab your swords. Stow your spell books. Adventure awaits."_
+
+— *Heroes of Legend*
+:::
+
+\newpage
+
+<!-- Front matter content is in chapters/00-front-matter.qmd -->

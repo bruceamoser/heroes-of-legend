@@ -1,0 +1,17 @@
+# License {#sec-chapter-license}
+
+::: {.callout-warning}
+## Placeholder
+
+Open Game License or Creative Commons statement. Product Identity declaration. Open Game Content declaration. Third-party attributions (fonts, art).
+:::
+
+---
+
+## Open Game License Version 1.0a
+
+::: {.callout-warning}
+## Placeholder
+
+Full OGL 1.0a text or custom license to be added in Issue #95.
+:::

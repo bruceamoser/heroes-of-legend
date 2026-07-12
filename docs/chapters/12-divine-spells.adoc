@@ -1,7 +1,0 @@
-// Chapter 12 -- Divine Spells
-// Divine prayer chains for Shepherd and divine casters
-
-[#chapter-divine-spells]
-= Divine Spells
-
-[PLACEHOLDER: Complete divine spell catalog (~60-80 prayers). Healing & Restoration, Protection & Warding, Holy Light & Radiance, Blessings & Boons, Divine Wrath, Spirit & Communion. Quick-reference tables.]

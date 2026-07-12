@@ -1,0 +1,42 @@
+# Talents & Abilities {#sec-chapter-talents-abilities}
+
+Talents are passive benefits. Abilities are active powers. Both are purchased with Development Points.
+
+## DP Costs
+
+| Tier | DP Cost | Description |
+|------|---------|-------------|
+| **Novice** | 1 DP | Basic competency |
+| **Adept** | 2 DP | Advanced mastery (requires Novice) |
+| **Master** | 4 DP | Legendary expertise (requires Adept) |
+
+## General Talents
+
+Available to all classes.
+
+| Talent | Tier | Effect |
+|--------|------|--------|
+| **Tough** | Novice | +2 max HP |
+| **Alert** | Novice | +2 initiative |
+| **Lucky** | Novice | Reroll one 1 per session |
+| **Skill Focus** | Novice | +1 to one skill (stacks with tier bonus) |
+| **Discipline Collector** | Adept | Gain one additional General Discipline |
+| **Iron Will** | Adept | +2 to all saves vs fear and charm |
+| **Combat Reflexes** | Adept | One extra reaction per round |
+| **Discipline Master** | Master | One specific Discipline counts as 2 for prerequisites |
+
+## Class Talents
+
+Each class has 2–3 exclusive talents.
+
+**Protector:** **Shield Wall** (Adept) — adjacent allies gain +1 DR. **Unbreakable** (Master) — once per session, ignore all damage from one attack.
+
+**Blade:** **Weapon Focus** (Adept) — +1 damage with chosen weapon category. **Death Blow** (Master) — on Critical, deal maximum Strong damage + roll critical bonus twice.
+
+**Arcanist:** **Spell Weaver** (Adept) — maintain two concentration spells. **Arcane Reservoir** (Master) — once per session, cast a Master spell twice.
+
+**Shepherd:** **Blessed Touch** (Adept) — healing spells always use Standard effect minimum. **Divine Intervention** (Master) — once per session, prevent an ally's death.
+
+## Ability Chains
+
+Abilities (including spells) follow the same Novice → Adept → Master chain structure. See @sec-chapter-magic-system for spell chains.

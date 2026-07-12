@@ -1,0 +1,154 @@
+# Combat {#sec-chapter-combat}
+
+Combat in Heroes of Legend is fast and cinematic. Every swing matters.
+
+## Initiative
+
+At combat start, each participant rolls 1d6 + Agility modifier. Highest goes first. Ties: higher Agility wins, then roll-off.
+
+## The Combat Round
+
+On your turn, you get one *Action*, one *Movement*, and one *Maneuver*. You may also use one *Reaction* per round and any number of *Free* actions.
+
+| Resource | Per Turn | What You Can Do |
+|----------|----------|-----------------|
+| **Action** | 1 | Attack, cast a spell, activate an ability, Dash (double move) |
+| **Movement** | 1 | Move up to your Speed. Break up before/after Action and Maneuver. |
+| **Maneuver** | 1 | Basic maneuvers (Defend, Shove, etc.) or skill-granted maneuvers |
+| **Reaction** | 1/round | Opportunity attack, shield block, triggered abilities |
+| **Free** | Unlimited | Talk, drop item, draw a weapon, gesture |
+
+::: {.callout-note}
+## Trading Down, Never Up
+
+You may trade your *Action* for an extra *Movement* or *Maneuver* — but never the reverse. You cannot trade a Maneuver for a second Action.
+:::
+
+### Basic Maneuvers
+
+Every character knows these maneuvers. They cost your Maneuver for the turn and require no skill or Discipline.
+
+| Maneuver | Effect |
+|----------|--------|
+| **Defend** | +2 Protection Value until your next turn. |
+| **Disengage** | Move 5 ft without provoking opportunity attacks. |
+| **Aid** | Ally within 30 ft gains +2 on their next roll before your next turn. |
+| **Shove** | Opposed Brawn vs Brawn/Agility. Push target 5 ft (10 ft on Strong). |
+| **Grapple** | Initiate a grapple (see @sec-grappling). |
+| **Command** | A companion, familiar, or mount under your control takes an extra move. |
+| **Catch Breath** | Regain HP equal to your Fortitude score (min 1). Once per combat. |
+| **Search** | Active Investigation check to spot a hidden creature or clue. |
+| **Stand Up** | Rise from prone. |
+| **Use Item** | Drink a potion, apply a salve, or activate a simple device. |
+
+Skill-granted maneuvers are listed on each skill's card in @sec-chapter-skills. They are typically more powerful than basic maneuvers and require Adept or Master rank in the skill.
+
+## Making an Attack
+
+Attacks always hit. Roll 3d6 + modifiers to determine damage tier:
+
+- **Weak:** Apply weapon's Weak damage value (glancing blow)
+- **Standard:** Apply weapon's Standard damage value (solid hit)
+- **Strong:** Apply weapon's Strong damage value (devastating strike)
+- **Critical:** Apply maximum Strong damage + critical bonus
+
+## Damage Types
+
+**Physical:** Slashing, Piercing, Bludgeoning
+
+**Elemental:** Fire, Cold, Lightning, Acid, Poison
+
+**Magical:** Force, Radiant, Necrotic, Psychic
+
+## Conditions
+
+| Condition | Effect | Ends |
+|-----------|--------|------|
+| **Blinded** | Attacks reduced one tier | Source duration |
+| **Charmed** | Cannot attack charmer | Save ends |
+| **Deafened** | Perception disadvantage | Source duration |
+| **Frightened** | Cannot approach source | Save ends |
+| **Grappled** | Speed 0 | Escape action |
+| **Incapacitated** | No actions | Source duration |
+| **Invisible** | Cannot be targeted directly | Attack/action ends |
+| **Paralyzed** | Incapacitated + auto-crit if hit | Save ends |
+| **Poisoned** | Disadvantage on attacks | Save ends |
+| **Prone** | Melee adv vs you, ranged disadv | Stand up (move) |
+| **Restrained** | Speed 0, attack disadv | Escape action |
+| **Stunned** | Incapacitated + cannot move | Save ends |
+| **Unconscious** | Incapacitated + prone + unaware | Healing or save |
+
+## Surprise
+
+When one side catches the other unaware, the ambushing side gains *initiative advantage*: they act first in the first round, regardless of initiative rolls. Surprised targets suffer a -2 penalty to their 3d6 roll on the first round — they're reacting, not acting.
+
+To determine surprise, the ambushing side rolls Stealth opposed by the target's passive Insight (Knowledge score + 7). On Standard or Strong success, surprise is achieved.
+
+> **DA Guidance:** Don't let the party surprise every encounter just because the rogue has high Stealth. Surprise requires genuine tactical advantage — darkness, distraction, or terrain. Walking up to a guard in plain sight and saying "I hide" isn't surprise.
+
+## Grappling {#sec-grappling}
+
+To initiate a grapple, make a Brawn (Athletics) roll opposed by the target's Brawn (Athletics) or Agility (Acrobatics).
+
+| Result | Effect |
+|--------|--------|
+| **Weak** | You grab hold but don't control. Target is Grappled but can still act. |
+| **Standard** | Firm hold. Target is Grappled and Restrained. |
+| **Strong** | Complete control. Target is Grappled, Restrained, and you may move them at half speed. |
+
+While grappling, you may use your Standard Action to:
+
+- **Pin:** Force another opposed roll. Strong adds Incapacitated.
+- **Throw:** End the grapple. Target is knocked Prone adjacent and takes Weak unarmed damage.
+- **Choke:** Target begins suffocating (can hold breath for Fortitude + 2 rounds).
+
+> *A grappling creature can still fight back.* The Grappled condition only prevents movement — a grappled spellcaster can still cast. The Restrained condition imposes disadvantage on attacks but doesn't prevent them.
+
+## Two-Weapon Fighting
+
+When wielding a weapon in each hand, you may attack with both as a single Standard Action. The off-hand weapon deals damage one tier lower (Strong→Standard, Standard→Weak, Weak→1 damage).
+
+The off-hand weapon must have the **Light** property (Dagger, Shortsword, Handaxe) unless you have the **Dual Wielder** talent, which removes this restriction.
+
+**Example:** Kael wields a longsword (primary) and a shortsword (off-hand). His 3d6 result is Standard for the primary (3 damage) and Weak for the off-hand (2 damage). Total: 5 damage.
+
+## Non-Lethal Attacks
+
+When you reduce a creature to 0 HP with a melee attack, you may declare the blow non-lethal. The creature falls Unconscious but stable at 0 HP instead of dying. Ranged attacks and spells cannot be made non-lethal unless the spell specifically allows it (e.g., *Sleep*).
+
+> *Why this matters:* Prisoners have information. Killing the only goblin who knows the dungeon layout means you're wandering blind. Sometimes the most powerful thing you can do is leave someone alive.
+
+## Morale
+
+NPCs and monsters don't fight to the death by default. When a creature faces overwhelming odds, the DA may call for a Morale Check. The creature rolls 3d6 (no modifiers):
+
+| Result | Behavior |
+|--------|----------|
+| **Strong (13+)** | Stands firm. Gains +1 on its next attack. |
+| **Standard (7–12)** | Wavers but stays. Disadvantage on its next attack. |
+| **Weak (1–6)** | Flees or surrenders. |
+
+A creature automatically checks morale when:
+
+- Reduced below half HP for the first time
+- Its leader is defeated
+- Half its group has fallen
+- The party demonstrates overwhelming force (DA discretion)
+
+> *DA Guidance:* Use morale to keep combat from becoming a slog. When the goblins' leader falls and three of their friends are down, the remaining two should break and run — not fight to 0 HP while the party mops up. Morale makes combat feel dynamic and saves table time.
+
+## Dying
+
+At 0 HP, you fall unconscious. Each round, roll 3d6:
+
+| Result | Outcome |
+|--------|---------|
+| **Strong (13+)** | Stabilize at 1 HP |
+| **Standard (7–12)** | Remain unconscious, stable |
+| **Weak (1–6)** | Take 1 wound, continue dying |
+| **Fumble (3×1)** | Death |
+| **Critical (3×6)** | Regain consciousness at half HP |
+
+## Cover
+
+**Half cover:** −1 to attacker's roll. **Three-quarters cover:** −3. **Full cover:** Cannot be targeted.

@@ -1,7 +1,0 @@
-// Chapter 11 -- Arcane Spells
-// D&D 5e PHB spells adapted as ability chains
-
-[#chapter-arcane-spells]
-= Arcane Spells
-
-[PLACEHOLDER: Complete arcane spell catalog (~150 spells). Organized by chain: Elemental (Fire, Ice, Lightning, Acid), Force & Energy, Control & Enchantment, Illusion, Conjuration & Summoning, Transmutation, Divination. Each spell: Novice/Adept/Master tier, Discipline prerequisites, Weak/Standard/Strong effects, chain lineage. Quick-reference tables.]

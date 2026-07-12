@@ -1,0 +1,66 @@
+# Attributes {#sec-chapter-attributes}
+
+Your hero is defined by six numbers. Don't let that fool you — those six numbers will determine whether you bend iron bars, talk your way past the guards, or accidentally set the tavern on fire. They're simple. They're powerful. They're where your hero begins.
+
+Here's what each attribute does, in plain language:
+
+| Attribute | Abbr | What It Governs |
+|-----------|------|-----------------|
+| **Brawn** | BR | Hitting harder, lifting heavy things, looking imposing |
+| **Fortitude** | FO | Staying alive, resisting poison, marching through blizzards |
+| **Agility** | AG | Moving fast, dodging, picking locks, shooting straight |
+| **Guile** | GU | Lying convincingly, charming nobles, picking pockets |
+| **Knowledge** | KN | Remembering lore, identifying monsters, speaking ancient languages |
+| **Reason** | RE | Solving puzzles, casting spells, crafting potions |
+
+## Your Attribute Scores
+
+Attributes range from -2 to +2. Most ordinary people sit at +0. Heroes are different — you have strengths, and you have weaknesses. That's what makes you interesting.
+
+| Score | Modifier | What It Means |
+|-------|----------|---------------|
+| -2 | -2 | A genuine liability. The barbarian who can't read. The wizard who gets winded climbing stairs. |
+| -1 | -1 | Below average. Not your thing. You manage, barely. |
+| +0 | +0 | Competent. Normal. You can handle yourself. |
+| +1 | +1 | Talented. This is a strength. People notice. |
+| +2 | +2 | Exceptional. Olympic-level. The thing you're known for. |
+
+## Creating Your Hero
+
+Your six attribute scores must total *exactly +3*. Every attribute starts at +0. Raising one to +1 costs one point from your pool. Raising it to +2 costs two points total. If you need more points, you can drop an attribute into the negatives — each -1 gives you an extra point. But the final sum across all six must be +3. No attribute may go below -2 or above +2.
+
+A quick way to check: add up all six modifiers. They should equal 3. If they don't, adjust until they do.
+
+**Example:** Makeva wants a charming rogue. She puts +1 in Agility (nimble fingers), +1 in Guile (silver tongue), and +1 in Brawn (can handle herself in a scrap). Her final spread: Brawn +1, Fortitude +0, Agility +1, Guile +1, Knowledge +0, Reason +0. Sum: +1+0+1+1+0+0 = +3. She's quick, persuasive, and can throw a punch — but she's no scholar and no tank. That's a choice. Choices make characters.
+
+At levels 4, 8, 12, 16, and 20, you may increase one attribute by +1 (up to the +2 maximum). Your hero grows as they adventure.
+
+## What Your Attributes Give You
+
+**Health Points at Level 1:** 10 + Brawn. This is your staying power — how many hits you can take before you go down. A dwarf with Brawn +2 starts with 12 HP. A slight fae-touched wanderer with Brawn -1 starts with 9 HP. Brawn is muscle, bone, and sheer physical resilience. After Level 1, you gain your Brawn modifier in HP each level (minimum 1).
+
+**Initiative:** Your Agility modifier. Quick people go first. That's not a rule of the game — that's a rule of the universe.
+
+**Movement:** 30 feet per round for most heroes. Heavy armor and some conditions will slow you down.
+
+**Carrying Capacity:** 10 + (Brawn × 5) inventory slots. Stronger heroes carry more. The party's tank is also the party's pack mule.
+
+## The Six Attributes, in Detail
+
+**Brawn (BR):** This is the "lift the portcullis, bend the bars, arm-wrestle the ogre" attribute. When you swing a weapon, Brawn pushes your 3d6 roll toward the Strong tier — better Brawn means more damage, not because it adds to the damage number, but because it helps you land the telling blow. Brawn also determines how much you can carry and how far you can throw things. Like goblins. Or allies.
+
+**Fortitude (FO):** Your body's refusal to quit. Fortitude sets your Health Points, helps you shake off poison, and keeps you upright when the blizzard hits. It's the attribute you don't think about until you need it — and then it's the only one that matters. A hero with Fortitude +2 can drink the dwarven ale that puts everyone else under the table.
+
+**Agility (AG):** Speed, grace, precision. Agility gets you up the wall, through the window, and out the other side before the guards finish their card game. It governs ranged combat, stealth, lockpicking, and acrobatics. It also determines who acts first when swords come out. High Agility heroes dance through fights; low Agility heroes wade through them.
+
+**Guile (GU):** The art of winning without fighting. Guile covers deception, persuasion, intimidation, and every variety of social maneuvering. It's the difference between "Let me in" and "I'm the health inspector, you really want to open this door." A hero with Guile +2 doesn't need to draw their weapon because they already convinced you to put yours down.
+
+**Knowledge (KN):** What you know. Ancient history, arcane theory, monster weaknesses, noble lineages, the price of saffron in three different ports. Knowledge is the scholar's attribute — it governs lore, investigation, and identifying creatures. It also helps determine your starting Health Points and your early-life Development Points. Smart heroes live longer.
+
+**Reason (RE):** What you *do* with what you know. Reason is the engine behind spellcasting, alchemy, crafting, and puzzle-solving. Knowledge tells you that trolls fear fire; Reason tells you how to make some. A wizard with Reason +2 doesn't just know spells — they understand *why* spells work, which makes them devastatingly effective.
+
+::: {.callout-note}
+## Attributes Are Your Story
+
+Your attribute spread isn't just numbers — it's the first sentence of your hero's biography. Brawn +2, Knowledge −1? You grew up working, not reading. Guile +2, Fortitude −1? You survived on wit, not toughness. Every combination suggests a different life. Lean into it. The mechanics will follow.
+:::
