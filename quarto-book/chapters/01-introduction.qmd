@@ -74,7 +74,7 @@ This isn't a manual. It's a companion. You don't read it once and put it on a sh
 
 All right. Roll up your sleeves. This is the engine that drives everything.
 
-In *Heroes of Legend*, whenever you attempt something with risk — swinging a sword, casting a spell, talking your way past a guard, climbing a crumbling wall while something with too many teeth chases you — you reach for three six-sided dice. You roll them. You add your hero's relevant **attribute**. You add your **skill** bonus if you have one. The DA may add or subtract a modifier for difficulty. Then you look at the total. That number tells you what happens. That's it. That's the whole game, right there, in one sentence.
+In *Heroes of Legend*, whenever you attempt something with risk — swinging a sword, casting a spell, talking your way past a guard, climbing a crumbling wall while something with too many teeth chases you — you reach for three six-sided dice. You roll them. You add your hero's relevant **attribute** (see @sec-chapter-attributes). You add your **skill** bonus if you have one. The DA may add or subtract a modifier for difficulty. Then you look at the total. That number tells you what happens. That's it. That's the whole game, right there, in one sentence.
 
 But numbers without context are just arithmetic. Here's what those totals *feel* like at the table:
 
@@ -102,7 +102,7 @@ This is not how most games work. In most games, you roll to see *if* you hit. If
 
 In *Heroes of Legend*, the question isn't *whether* you hit. It's *how hard.* Your 3d6 roll determines the damage tier — Weak, Standard, or Strong. A Weak hit is a glancing blow that still draws blood. A Standard hit is a solid strike. A Strong hit is the kind of blow that makes the enemy reconsider every choice that led them to this moment. Something always happens. Every swing advances the fight. Every round, the board changes.
 
-This keeps combat fast, cinematic, and dangerous. You can't stack armor so high that goblins can't touch you. Every attack lands. Armor reduces damage instead of preventing hits — the knight in plate mail still gets knocked around, they just stay standing longer. Combat becomes about who's left standing, not about who finally rolled high enough to participate.
+This keeps combat fast, cinematic, and dangerous. You can't stack armor so high that goblins can't touch you. Every attack lands. Armor reduces damage instead of preventing hits (see @sec-chapter-armor-shields) — the knight in plate mail still gets knocked around, they just stay standing longer. Combat becomes about who's left standing, not about who finally rolled high enough to participate.
 
 ::: {.callout-tip}
 ## Why Always-Hit?
@@ -126,7 +126,7 @@ Kael is a dwarf Blade — a shadow on the wall, the last face his enemies see. H
 
 *Kael grabs three dice. The table goes quiet. He shakes them in his hand — everyone has their ritual — and lets them fly.*
 
-*Kael rolls:* "Four, three, five. That's twelve. My **Brawn** is +2, and I've got Blades Fighting at **Adept**, so that's another +2. Total is sixteen."
+*Kael rolls:* "Four, three, five. That's twelve. My **Brawn** is +2, and I've got Blades Fighting at **Adept** (see @sec-chapter-skills), so that's another +2. Total is sixteen."
 
 **Morgan:** "Sixteen is Strong. Your longsword's Strong damage is 5."
 
@@ -176,7 +176,7 @@ This also means fights are inherently dangerous. You can't stack AC so high that
 
 A twenty-sided die doesn't care about your backstory. Every number from 1 to 20 has exactly the same 5% chance — your legendary swordsman with +12 to hit has the same odds of rolling a natural 1 as the farmer who's never held a blade. That's not how competence works in stories, and it shouldn't be how it works in games.
 
-Three six-sided dice create a bell curve. Most rolls land between 9 and 12. That means your attributes, your skills, your Disciplines — the things you *chose* for your character — matter more than the dice. A master thief almost always sneaks past the guards. A legendary blacksmith almost never ruins the sword. When the dice *do* produce triple 1s or triple 6s, it means something, because it only happens about once every 200 rolls.
+Three six-sided dice create a bell curve. Most rolls land between 9 and 12. That means your attributes, your skills, your Disciplines (see @sec-chapter-disciplines) — the things you *chose* for your character — matter more than the dice. A master thief almost always sneaks past the guards. A legendary blacksmith almost never ruins the sword. When the dice *do* produce triple 1s or triple 6s, it means something, because it only happens about once every 200 rolls.
 
 We ran the math. We ran the playtests — dozens of them, with hundreds of players, over thousands of rolls. The 3d6 curve makes GMing easier too: you can set difficulty modifiers knowing the dice will cluster around the middle, not swing wildly from "godlike" to "incompetent" on consecutive turns. Consistency is the friend of good storytelling. The dice support the fiction instead of fighting it.
 
@@ -192,7 +192,7 @@ That's not a character moment. That's a scheduling error.
 
 In *Heroes of Legend*, magic always fires. No mana. No slots. No "sorry, I used my good spell already." When you cast, the spell goes off. The roll determines whether it's a Weak sputter, a Standard blast, or a Strong inferno. You're never useless. You're never out of options. Your fire burns until *you* decide it stops.
 
-Adept and Master spells have per-encounter and per-session limits, not because we want you counting gas, but because Master-tier effects reshape the battlefield. Those limits are about spotlight management, not resource attrition. When you unleash *Volcanic Eruption*, it should be a moment everyone remembers — not something you do three times before lunch.
+Adept and Master spells have per-encounter and per-session limits (see @sec-chapter-magic-system), not because we want you counting gas, but because Master-tier effects reshape the battlefield. Those limits are about spotlight management, not resource attrition. When you unleash *Volcanic Eruption*, it should be a moment everyone remembers — not something you do three times before lunch.
 
 :::
 
