@@ -103,7 +103,7 @@ The party is trapped in a collapsing tomb. The stone door is grinding shut, they
 
 The door shudders. Roric's muscles cord, his boots skid on the stone, and the door *stops.* He's holding it open through sheer strength. "Go!" The party scrambles through. Roric releases the door and dives after them as it slams shut. Everyone is alive because the dwarf was strong enough to say "not today."
 
-**If he'd rolled Weak (6 or less):** The door closes halfway. Roric is stuck on the wrong side. The party has a new problem, and a new rescue mission.
+**If he'd rolled Weak (8 or less):** The door closes halfway. Roric is stuck on the wrong side. The party has a new problem, and a new rescue mission.
 
 ### Fortitude in Play
 
@@ -113,9 +113,9 @@ Lyra, the halfling Odd, has been bitten by a venomous spider. The venom is worki
 
 She feels the venom burn in her veins, but her body fights it off. She's woozy. She's sweating. She's going to have a spectacular bruise. But she's not poisoned, and she's still standing. Her Fortitude isn't exceptional, but it's enough. Sometimes enough is all you need.
 
-**If she'd rolled Strong (13+):** She shrugs it off completely. The spider's venom sack was nearly empty. She doesn't even feel it. The DA describes her as "annoyingly fine."
+**If she'd rolled Strong (15+):** She shrugs it off completely. The spider's venom sack was nearly empty. She doesn't even feel it. The DA describes her as "annoyingly fine."
 
-**If she'd rolled Weak (1-6):** The Poisoned condition kicks in, disadvantage on all attacks. She's in trouble. The party needs to end this fight fast or get her an antidote.
+**If she'd rolled Weak (1-8):** The Poisoned condition kicks in, disadvantage on all attacks. She's in trouble. The party needs to end this fight fast or get her an antidote.
 
 ### Agility in Play
 
@@ -125,7 +125,7 @@ Kael needs to cross a crumbling bridge over a chasm. The stone is cracked, the d
 
 He moves like a cat. Foot to stone, weight shifting, never stopping. He's across in seconds. He doesn't even look back, because he knows he made it look easy, and that's the point.
 
-**If he'd rolled Weak (1-6):** A stone crumbles under his foot. He catches himself on the edge, his fingers are the only thing between him and the abyss. The DA gives the party one round to save him before he falls. The scene just escalated.
+**If he'd rolled Weak (1-8):** A stone crumbles under his foot. He catches himself on the edge, his fingers are the only thing between him and the abyss. The DA gives the party one round to save him before he falls. The scene just escalated.
 
 ### Guile in Play
 
@@ -137,7 +137,7 @@ Ser Aldric, the party's Leader, needs to talk his way past a checkpoint manned b
 
 The guard hesitates. Then nods. "Crown business. Right. Move along." He waves them through. Aldric's Guile just saved the party an hour of bureaucracy and a night in a holding cell.
 
-**If he'd rolled Weak (1-6):** The guard's eyes narrow. "Crown business, you say? Let's see your writ." The party doesn't have one. The situation is now worse than if Aldric had said nothing. A bad lie is worse than no lie at all.
+**If he'd rolled Weak (1-8):** The guard's eyes narrow. "Crown business, you say? Let's see your writ." The party doesn't have one. The situation is now worse than if Aldric had said nothing. A bad lie is worse than no lie at all.
 
 ### Knowledge in Play
 
@@ -149,7 +149,7 @@ The party discovers an ancient mural in a sunken temple. It depicts a battle bet
 
 The party now has critical information, and a terrifying choice. All because the Intellect knew her history.
 
-**If she'd rolled Weak (1-6):** "It's a battle scene. Very old. Could be religious, could be historical, I'd need more time to be sure." The party proceeds without the warning. The sealed door gets opened. The Void Spawn gets released. The Knowledge check that failed just became the party's next three sessions.
+**If she'd rolled Weak (1-8):** "It's a battle scene. Very old. Could be religious, could be historical, I'd need more time to be sure." The party proceeds without the warning. The sealed door gets opened. The Void Spawn gets released. The Knowledge check that failed just became the party's next three sessions.
 
 ### Reason in Play
 
@@ -159,4 +159,4 @@ Zara, the party's Arcanist, is trying to disable an ancient magical ward blockin
 
 She doesn't just disable the ward, she *understands* it. "The outer layer is a deterrent, flash and noise. The inner layer is the real threat. Dispel the inner layer first, and the outer layer collapses on its own." She traces the correct sigils in the air. The ward flickers, hums, and fades. The door opens. Clean. Professional. Reason at work.
 
-**If she'd rolled Weak (1-6):** The ward triggers. A blast of force throws Zara across the room. She takes 2 damage and the ward is still active, now glowing brighter, pulsing with renewed energy. The party knows the ward is dangerous. They don't know how to disarm it. Reason failed, and now they need a new plan.
+**If she'd rolled Weak (1-8):** The ward triggers. A blast of force throws Zara across the room. She takes 2 damage and the ward is still active, now glowing brighter, pulsing with renewed energy. The party knows the ward is dangerous. They don't know how to disarm it. Reason failed, and now they need a new plan.

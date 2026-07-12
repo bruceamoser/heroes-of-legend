@@ -28,7 +28,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Fumble:** Three natural 1s on 3d6. Automatic failure plus a complication. About a 1-in-200 chance. The table groans.
 
-**Success Tier:** The three bands of outcome: Weak (1-6), Standard (7-12), Strong (13-18+). Every roll lands in one of these.
+**Success Tier:** The three bands of outcome: Weak (1-8), Standard (9-14), Strong (15-18+). Every roll lands in one of these.
 
 **Weak:** Partial success or success with complication. You get what you wanted, barely, or at a cost.
 

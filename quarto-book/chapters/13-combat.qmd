@@ -196,9 +196,9 @@ When a creature faces overwhelming odds, the DA calls for a **Morale Check.** Th
 
 | Result | Behavior |
 |--------|----------|
-| **Strong (13+)** | Stands firm. Gains +1 on its next attack. |
-| **Standard (7-12)** | Wavers but stays. Disadvantage on its next attack. |
-| **Weak (1-6)** | Flees or surrenders. Fight's over for this one. |
+| **Strong (15+)** | Stands firm. Gains +1 on its next attack. |
+| **Standard (9-14)** | Wavers but stays. Disadvantage on its next attack. |
+| **Weak (1-8)** | Flees or surrenders. Fight's over for this one. |
 
 A creature automatically checks morale when:
 
@@ -219,9 +219,9 @@ At 0 HP, you fall Unconscious. Each round on your turn, roll 3d6 with no modifie
 
 | Result | Outcome |
 |--------|---------|
-| **Strong (13+)** | You stabilize at 1 HP. You're back in the fight, barely. |
-| **Standard (7-12)** | You remain unconscious but stable. Not getting worse. |
-| **Weak (1-6)** | Take 1 wound. You're still dying. |
+| **Strong (15+)** | You stabilize at 1 HP. You're back in the fight, barely. |
+| **Standard (9-14)** | You remain unconscious but stable. Not getting worse. |
+| **Weak (1-8)** | Take 1 wound. You're still dying. |
 | **Fumble (3-1)** | Death. The table goes quiet. |
 | **Critical (3-6)** | You snap awake at half HP. Someone up there likes you. |
 
@@ -297,7 +297,7 @@ Roric has been waiting. The Knight is focused on Kael. The cultists are clustere
 
 Rolls 3d6 + Brawn (+2) + Heavy Weapon Fighting Novice (+1). Rolls 3, 3, 2 = 8 + 3 = 11. **Standard.** Warhammer Standard damage: 4. Knight's armor: DR 4. 4 - 4 = 0 damage. The hammer rings off the Knight's breastplate. Sparks. No blood. But Roric's not done.
 
-"Maneuver: I'm using **Menacing Glare** from Intimidation Adept." The Knight must make a Morale Check. The DA rolls for the Knight: 3d6. Rolls 2, 1, 4 = 7. **Standard.** The Knight wavers, disadvantage on his next attack.
+"Maneuver: I'm using **Menacing Glare** from Intimidation Adept." The Knight must make a Morale Check. The DA rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. **Standard.** The Knight wavers, disadvantage on his next attack.
 
 **End of Round 1.** The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 0). The cultists dealt 3 to Lyra. The Knight dealt 1 to Kael (reduced from 2 by Shield Block). Nobody is down. Everyone is engaged. The next round will be decisive.
 

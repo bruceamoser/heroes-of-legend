@@ -17,7 +17,7 @@ Heroes of Legend is a ground-up redesign of an earlier playtest game. It uses a 
 ## Core Mechanics
 
 - **Roll:** 3d6 + Attribute + Skill + Modifiers
-- **Success Tiers:** Weak (1-6) | Standard (7-12) | Strong (13-18+)
+- **Success Tiers:** Weak (1-8) | Standard (9-14) | Strong (15-18+)
 - **Critical:** Three natural 6s | **Fumble:** Three natural 1s
 - **Attacks always hit** — weapons have W/S/S damage values
 - **No spell slots** — magic always fires
