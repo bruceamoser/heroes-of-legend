@@ -12,6 +12,16 @@ Here's how it works. You create a hero — a Protector, a Blade, an Arcanist, or
 
 So take a breath. You don't need to understand it all at once. This book is built to be read in pieces — crack it open at the table when you need a rule, flip through it on the couch when you're dreaming up your next character, or read it cover to cover if that's your style. However you approach it, you're in good company. Thousands of players have sat where you're sitting now, about to discover what happens when you roll three dice and everything changes.
 
+## What Is a Roleplaying Game?
+
+Before we get to dice and character sheets, let's talk about what you're actually about to do.
+
+A roleplaying game is collaborative storytelling with rules. You and your friends sit around a table — or a video call, or a blanket fort, I don't judge — and together you tell the story of a band of heroes. One of you is the **Dungeon Architect** (the DA). The DA describes the world: the crumbling tower on the horizon, the suspicious innkeeper who definitely knows more than she's saying, the dragon whose shadow just passed overhead. The DA plays everyone who isn't a hero — allies, villains, monsters, the mysterious stranger brooding in the corner of the tavern. Everyone else plays a **hero** they created, a character with their own skills, flaws, ambitions, and terrible ideas.
+
+When your hero tries something risky — swinging a sword at a goblin, talking your way past a guard, climbing a cliff in the rain — you roll dice to find out what happens. The dice tell you whether you pulled it off cleanly, barely scraped by, or failed in a way that makes the story more interesting. That's the key: there's no winning and no losing in this game. There's just the story you all built together, and whether it was a story worth telling. Some sessions end in triumph. Some end in tragedy. The best ones end with everyone at the table saying, "Remember when…?"
+
+Everything else in this book — the rules, the spells, the weapons, the monsters — those are just tools. They're here to give structure to the story, to make sure the dice mean something, to help the DA keep the world feeling real. But the game isn't in the book. The game is at your table, when someone says "I have a terrible idea" and everyone else leans in.
+
 {{< pagebreak >}}
 
 ## What You Actually Need
