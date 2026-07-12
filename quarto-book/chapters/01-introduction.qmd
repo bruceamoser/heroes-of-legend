@@ -16,6 +16,9 @@ That's it. That's the whole game. Everything else is details, and this book is f
 
 So take a breath. You don't need to understand it all at once. This book is built to be read in pieces — crack it open at the table when you need a rule, flip through it on the couch when you're dreaming up your next character, or read it cover to cover if that's your style. However you approach it, you're in good company. Thousands of players have sat where you're sitting now, about to discover what happens when you roll three dice and everything changes.
 
+<!-- Rationale: Emotional hook — a hero party shot that establishes the game's aspirational fantasy and group dynamic before the rules begin. -->
+![Placeholder: A party of four adventurers at the threshold of an ancient temple doorway, about to step into darkness. Warm torchlight from within, cool moonlight from behind.](assets/images/placeholder-hero-party.png)
+
 ## What Is a Roleplaying Game?
 
 Before we get to dice and character sheets, let's talk about what you're actually about to do.
@@ -43,6 +46,9 @@ You need something to write on and something to write with. A printed character 
 You need friends. Two to five is the sweet spot. One of you will be the DA — the architect of dungeons, the voice of villains, the arbiter of "can I try to jump that?" The rest are heroes, each with their own goals, fears, and terrible ideas that somehow work out. Rotate who DAs if you want; the game works either way. Some of the best campaigns I've run started because someone else needed a break and I said, "Hand me the screen."
 
 That's the list. No miniatures required. No battle mat. No hundred-dollar sourcebooks. Just you, your friends, some dice, and your imagination. Everything else is optional — and the options are wonderful, don't get me wrong. I've got a closet full of miniatures I painted myself. But you don't *need* them. You never did.
+
+<!-- Rationale: Entry-level reassurance — a flat-lay of minimal materials reinforces the low-barrier-to-entry message and makes new players feel welcome. -->
+![Placeholder: A flat-lay of the minimal play materials — rulebook open, three dice, a pencil, and a character sheet with handwritten notes. Warm kitchen-table lighting.](assets/images/placeholder-minimal-kit.png)
 
 ::: {.callout-important}
 ## Combat Is Tactical
@@ -90,6 +96,9 @@ That's the engine. Everything else in this book — skills, spells, equipment, m
 
 Now go grab three dice. Roll them. Look at the numbers. Imagine adding your best attribute — the thing your hero is *exceptional* at. That's a Strong. Now imagine adding nothing, just raw luck. That's probably a Standard. Now imagine rolling three ones. That's the universe laughing at you. It happens to everyone. Even heroes.
 
+<!-- Rationale: Visual learning aid — a bell-curve diagram with color-coded success tiers gives players a memorable mental model of the core resolution system. -->
+![Placeholder: A diagram of the 3d6 probability bell curve with the three success tiers color-coded beneath — Weak (1–8) in amber, Standard (9–14) in green, Strong (15–18+) in gold.](assets/images/placeholder-bell-curve.png)
+
 {{< pagebreak >}}
 
 ## A Note About Hitting Things
@@ -134,6 +143,9 @@ Kael is a dwarf Blade — a shadow on the wall, the last face his enemies see. H
 
 **Morgan:** "Your blade finds its mark. The chieftain staggers backward, eyes wide — nobody's made him bleed in years. The remaining goblins go quiet. Their champion just took a hit that would have killed any of them. For one breath, the whole room is still."
 
+<!-- Rationale: Immersion anchor — a dice close-up showing the exact roll from the example grounds the abstract mechanic in a real, tactile player moment. -->
+![Placeholder: A close-up shot of three six-sided dice on a wooden table showing 4, 3, and 5 — the exact roll from the example.](assets/images/placeholder-dice-closeup.png)
+
 **Lyra:** "While he's distracted and everyone's staring at Kael, I want to slip behind the throne and check for anything valuable. Or explosive. Ideally both."
 
 **Morgan:** "Give me a Stealth roll. The goblins are watching Kael, so I'll say Standard difficulty, no modifier."
@@ -153,6 +165,9 @@ This is *Heroes of Legend.* Every roll drives the story forward. Every success t
 {{< pagebreak >}}
 
 ![](../../assets/svg/divider-rule.svg)
+
+<!-- Rationale: Tone transition — a behind-the-scenes desk shot signals the shift from in-world mentor voice to designer commentary. -->
+![Placeholder: A behind-the-scenes illustration — a desk covered with playtest notes, hand-drawn probability tables, scratched-out mechanic ideas, coffee cups, and a scattering of dice.](assets/images/placeholder-designers-desk.png)
 
 ## Design Justifications: Why We Built It This Way {#sec-design-justifications}
 
@@ -207,3 +222,6 @@ Two more design choices worth noting. **Flat damage** means one roll tells you e
 These are the big ideas. The rest of the book explains how they work in practice.
 
 Ready to begin? Turn to @sec-chapter-character-creation and build your first hero. The dice are waiting.
+
+<!-- Rationale: Closing grace note — a small decorative vignette provides a visual exhale at chapter's end and signals a natural reading pause. -->
+![Placeholder: A small decorative vignette — a closed rulebook with dice resting on top, a candle burning low, and a character sheet peeking out from beneath.](assets/images/placeholder-chapter-close.png)
