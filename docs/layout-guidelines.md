@@ -521,9 +521,9 @@ For layout needs beyond Quarto Markdown, use raw Typst blocks:
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1–6) | [What happens on Weak success] |
-| Standard (7–12) | [What happens on Standard success] |
-| Strong (13–18+) | [What happens on Strong success] |
+| Weak (1–8) | [What happens on Weak success] |
+| Standard (9–14) | [What happens on Standard success] |
+| Strong (15–18+) | [What happens on Strong success] |
 ```
 
 Repeat for Adept and Master tiers. Add chain header:
@@ -561,7 +561,7 @@ Repeat for Adept and Master tiers. Add chain header:
 
 **Attacks:**
 
-| Attack | Weak (1–6) | Standard (7–12) | Strong (13–18+) |
+| Attack | Weak (1–8) | Standard (9–14) | Strong (15–18+) |
 |--------|------------|-----------------|-----------------|
 | [Name] | XdY damage | XdY damage | XdY + [effect] |
 ```

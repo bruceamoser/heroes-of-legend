@@ -8,7 +8,8 @@
 - **Canonical source:** `quarto-book/chapters/*.qmd`
 - **Build:** `cd quarto-book && ./build.sh` (or `.\build.ps1`)
 - **Lead designer:** Bruce — final authority on all decisions.
-- **Workflow:** PLAN → RESEARCH → DRAFT → REVIEW → SAVE → NEXT (see `quarto-book/_extensions/` for build details)
+- **Workflow:** ISSUE → BRANCH → IMPLEMENT → PR → REVIEW → SQUASH MERGE → CLOSE
+- **Rules:** No issue = no work. Bite-sized issues. Always PR. Independent review. Squash merge. Update skills.
 
 ## Core Mechanics (Quick Reference)
 
@@ -16,7 +17,7 @@
 |----------|------|
 | Core roll | 3d6 + Attribute + Skill + Modifiers |
 | Attributes | Brawn, Fortitude, Agility, Guile, Knowledge, Reason (−2 to +2) |
-| Success tiers | Weak (1–6), Standard (7–12), Strong (13–18+) |
+| Success tiers | Weak (1–8), Standard (9–14), Strong (15–18+) |
 | Critical | Three natural 6s |
 | Fumble | Three natural 1s |
 | Attacks | Always hit — Weak/Standard/Strong damage |
