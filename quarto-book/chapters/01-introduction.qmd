@@ -146,6 +146,8 @@ This is *Heroes of Legend.* Every roll drives the story forward. Every success t
 
 {{< pagebreak >}}
 
+![](../../assets/svg/divider-rule.svg)
+
 ## Design Justifications: Why We Built It This Way {#sec-design-justifications}
 
 *The following notes are written in a different voice — call it the boots-off-the-table register. You've just met the Mentor. Now meet the designer. These are the reasons behind the rules, the math we ran, the playtests we held, and the arguments we had at three in the morning that ended with someone shouting "but what if attacks ALWAYS hit?" and everyone else going quiet.*
