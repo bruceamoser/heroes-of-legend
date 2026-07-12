@@ -176,30 +176,6 @@ We ran the math. We ran the playtests — dozens of them, with hundreds of playe
 
 ::: {.callout-note}
 
-### Flat Damage: One Roll Per Attack
-
-You know what slows combat down more than anything? Rolling to hit, then rolling damage, then adding modifiers, then rolling again because someone cast a buff. Round after round. Four players, five monsters, two rolls each per attack — the math multiplies fast.
-
-In *Heroes of Legend*, weapons and spells have fixed damage values for Weak, Standard, and Strong outcomes. One roll tells you everything. You rolled a 16? That's Strong. Your longsword does 5 Strong damage. Subtract armor. Done. Next player.
-
-This speeds up combat without sacrificing tactical depth. The interesting decisions — positioning, maneuver choice, which enemy to target, whether to use an ability — those are still there. We just cut out the arithmetic that wasn't adding fun. You get more combat in less time. That means more story, more exploration, more moments that aren't about arithmetic.
-
-:::
-
-::: {.callout-note}
-
-### Disciplines: No Class-Locked Skills
-
-The old model says fighters can't learn magic and wizards can't swing swords. We think that's boring. Under the Discipline system, anyone can learn anything — it just costs more if it's outside your class's wheelhouse.
-
-A Protector who wants to throw a fireball needs to buy Fire and Energy Disciplines at triple cost. It'll take them levels to get there. But they *can* get there. That's the difference between "no" and "yes, but expensive." Your class gives you a starting point and cheaper access to certain paths. It doesn't build walls.
-
-We've seen what this does at the table. Characters develop in unexpected directions. The Blade who dabbles in Illusion magic. The Arcanist who learns to use a longsword — badly, but determinedly. These aren't "broken builds." They're stories. And stories are why we're all here.
-
-:::
-
-::: {.callout-note}
-
 ### No Spell Slots: Magic Always Fires
 
 I've played a wizard in a system with spell slots. The party fought through six encounters. I was conservative with my spells, hoarding them for the final battle. We reached the boss. Everyone looked at me. I opened my mouth and said the least heroic words ever uttered at a gaming table: "I'm out of spell slots."
@@ -211,3 +187,13 @@ In *Heroes of Legend*, magic always fires. No mana. No slots. No "sorry, I used 
 Adept and Master spells have per-encounter and per-session limits, not because we want you counting gas, but because Master-tier effects reshape the battlefield. Those limits are about spotlight management, not resource attrition. When you unleash *Volcanic Eruption*, it should be a moment everyone remembers — not something you do three times before lunch.
 
 :::
+
+::: {.callout-note}
+
+### Flat Damage & Disciplines: Speed and Freedom
+
+Two more design choices worth noting. **Flat damage** means one roll tells you everything — no separate damage dice, no arithmetic slowdown. The combat chapter (@sec-chapter-combat) covers this in full. **Disciplines** mean no class-locked skills: anyone can learn anything, it just costs more outside your wheelhouse. The disciplines chapter (@sec-chapter-disciplines) explains the full system.
+
+:::
+
+These are the big ideas. The rest of the book explains how they work in practice.
