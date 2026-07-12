@@ -62,6 +62,17 @@ One thing, though. I do recommend some graph paper or a gridded surface. Combat 
 
 This isn't a manual. It's a companion. You don't read it once and put it on a shelf; you keep it at your elbow during sessions, dog-ear the pages you need most, and discover new things every time you crack it open. Here's how to start, depending on who you are and what you need right now.
 
+::: {.callout-tip}
+## Played Another RPG Before? Here's What's Different.
+- **No d20.** We use 3d6. Your skills and attributes matter more than your luck.
+- **Attacks always hit.** The roll determines damage, not whether you connect.
+- **No spell slots. No mana.** Magic always fires. Your roll determines the outcome.
+- **No class restrictions.** Anyone can learn anything — your class just makes some things cheaper.
+- **Armor reduces damage**, it doesn't make you harder to hit.
+
+The rest will feel familiar. Jump to @sec-chapter-character-creation to start building.
+:::
+
 **Never Done This Before? Start Here.** If you've never rolled a d20 in your life: start with @sec-chapter-character-creation. It walks you through building a character step by step, from "what do my stats mean?" to "can I buy a horse?" After that, read @sec-chapter-attributes through @sec-chapter-disciplines. You don't need to memorize anything. Just read them once so you know where to look when the DA says "make a Fortitude save" and you need to know what that means. The rules will stick through play, not through study. Your first session, you'll look things up constantly. That's normal. By your fifth session, you'll be explaining grappling to the new player at the table. That's normal too.
 
 **If you're the Dungeon Architect** — the one who's going to run the game — you've got a slightly longer reading list. Start with @sec-chapter-attributes through @sec-chapter-disciplines to understand the mechanics. Then jump to @sec-chapter-gm-guidance. That chapter is written for you: it covers building adventures, running monsters, handing out rewards, and keeping the game moving when the party decides to ignore your carefully prepared dungeon and open a bakery instead. (It happens. It always happens. There's advice for that.) After that, skim the equipment and spell chapters so you know what your players can do. You don't need to memorize every spell. You just need to know that *someone* at the table can cast *Water Breathing*, so maybe don't hang your entire adventure on "they can't cross the lake."
@@ -99,6 +110,15 @@ Now go grab three dice. Roll them. Look at the numbers. Imagine adding your best
 <!-- Rationale: Visual learning aid — a bell-curve diagram with color-coded success tiers gives players a memorable mental model of the core resolution system. -->
 ![Placeholder: A diagram of the 3d6 probability bell curve with the three success tiers color-coded beneath — Weak (1–8) in amber, Standard (9–14) in green, Strong (15–18+) in gold.](assets/images/placeholder-bell-curve.png)
 
+::: {.callout-important}
+## The Only Rule You Need to Memorize
+1. **Roll 3d6** whenever you attempt something risky.
+2. **Add** your attribute modifier + skill bonus + any DA modifiers.
+3. **Check the total:** 1–8 = Weak, 9–14 = Standard, 15–18+ = Strong.
+
+That's the entire game engine. Come back to this box whenever you're unsure what to do.
+:::
+
 {{< pagebreak >}}
 
 ## A Note About Hitting Things
@@ -112,6 +132,13 @@ This is not how most games work. In most games, you roll to see *if* you hit. If
 In *Heroes of Legend*, the question isn't *whether* you hit. It's *how hard.* Your 3d6 roll determines the damage tier — Weak, Standard, or Strong. A Weak hit is a glancing blow that still draws blood. A Standard hit is a solid strike. A Strong hit is the kind of blow that makes the enemy reconsider every choice that led them to this moment. Something always happens. Every swing advances the fight. Every round, the board changes.
 
 This keeps combat fast, cinematic, and dangerous. You can't stack armor so high that goblins can't touch you. Every attack lands. Armor reduces damage instead of preventing hits (see @sec-chapter-armor-shields) — the knight in plate mail still gets knocked around, they just stay standing longer. Combat becomes about who's left standing, not about who finally rolled high enough to participate.
+
+::: {.callout-important}
+## Armor = Damage Reduction
+In *Heroes of Legend*, armor doesn't make you harder to hit — every attack connects. Instead, armor subtracts from incoming damage. A goblin's club (Standard damage 3) bounces harmlessly off plate armor (Armor 3). But a dragon's claws (Strong damage 8) still gets 5 through.
+
+Full armor rules: @sec-chapter-armor-shields.
+:::
 
 ::: {.callout-tip}
 ## Why Always-Hit?
@@ -221,7 +248,14 @@ Two more design choices worth noting. **Flat damage** means one roll tells you e
 
 These are the big ideas. The rest of the book explains how they work in practice.
 
-Ready to begin? Turn to @sec-chapter-character-creation and build your first hero. The dice are waiting.
+::: {.callout-tip}
+## Ready to Begin?
+- **New player?** Turn to @sec-chapter-character-creation and build your first hero.
+- **New GM?** Skim @sec-chapter-attributes through @sec-chapter-disciplines, then dig into @sec-chapter-gm-guidance.
+- **Just browsing?** Read the opening story in the next chapter to meet Kael and his companions in action.
+
+However you proceed, welcome to the table. The dice are waiting.
+:::
 
 <!-- Rationale: Closing grace note — a small decorative vignette provides a visual exhale at chapter's end and signals a natural reading pause. -->
 ![Placeholder: A small decorative vignette — a closed rulebook with dice resting on top, a candle burning low, and a character sheet peeking out from beneath.](assets/images/placeholder-chapter-close.png)
