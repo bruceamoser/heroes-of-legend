@@ -1,6 +1,6 @@
 # Introduction {#sec-chapter-introduction}
 
-![Illo 2: Opening Chapter Art](../assets/images/page003-img002.jpeg){width="60%"}
+![Illo 2: Opening Chapter Art](../../assets/images/page003-img002.jpeg){width="60%"}
 
 *Illustration 2 — Opening chapter decorative art. Placeholder; final art TBD. Dimensions: 185×185.*
 
@@ -48,7 +48,7 @@ This isn't a manual. It's a companion. You don't read it once and put it on a sh
 
 {{< pagebreak >}}
 
-![Illo 3: Introduction Second Art](../assets/images/page003-img003.jpeg){width="60%"}
+![Illo 3: Introduction Second Art](../../assets/images/page003-img003.jpeg){width="60%"}
 
 *Illustration 3 — Credits page art. Placeholder; final art TBD. Dimensions: 1024×1024.*
 
