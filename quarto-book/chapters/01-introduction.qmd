@@ -35,7 +35,7 @@ Everything else in this book, the rules, the spells, the weapons, the monsters, 
 
 Think of me as your guide. I've been running tables for thirty years, and I'm going to walk you through everything you need to know.
 
-Pull up a chair. Let me tell you what you *actually* need to play this game. I've been running tables for thirty years, and I've seen players show up with custom dice towers, hand-painted miniatures, and leather-bound notebooks that cost more than my first sword. You know what the best sessions all had in common? None of that stuff.
+Pull up a chair. Let me tell you what you *actually* need to play this game. I've seen players show up with custom dice towers, hand-painted miniatures, and leather-bound notebooks that cost more than my first sword. You know what the best sessions all had in common? None of that stuff.
 
 You need this book. Everything you need to play is in these pages: the rules, the spells, the monsters, the advice. It's heavy enough to flatten a goblin if you throw it, but I'd recommend reading it instead.
 
@@ -198,15 +198,15 @@ This is *Heroes of Legend.* Every roll drives the story forward. Every success t
 
 ## Design Justifications: Why We Built It This Way {#sec-design-justifications}
 
-*The following notes are written in a different voice: call it the boots-off-the-table register. You've just met the Mentor. Now meet the designer. These are the reasons behind the rules, the math we ran, the playtests we held, and the arguments we had at three in the morning that ended with someone shouting "but what if attacks ALWAYS hit?" and everyone else going quiet.*
+Before we move on, let me explain why the game works the way it does. These aren't just rules I made up — they're choices I made after watching thousands of sessions at hundreds of tables. Every mechanic in this book exists because I saw something not working at a real table, with real players, and thought: we can do better.
 
 ::: {.callout-note}
 
 ### Always-Hit: Something Always Happens
 
-I've played casters who spent entire sessions saying "I miss." Not "I fail": "I *miss*." As in, nothing happened. The turn ended. Next player. That's not drama. That's dead air at the table while someone checks their phone.
+I've watched casters spend entire sessions saying "I miss." Not "I fail": "I *miss*." As in, nothing happened. The turn ended. Next player. That's not drama. That's dead air at the table while someone checks their phone.
 
-So we made a rule: attacks always connect. Always. You swing, you cast, you fire: something happens. The roll doesn't ask *whether* you hit. It asks *how hard.* Weak damage is a glancing blow, a near-miss that still draws blood, a spell that clips the target instead of engulfing them. The fiction stays alive. Combat keeps moving. Nobody's turn is wasted.
+So here's the rule: attacks always connect. Always. You swing, you cast, you fire: something happens. The roll doesn't ask *whether* you hit. It asks *how hard.* Weak damage is a glancing blow, a near-miss that still draws blood, a spell that clips the target instead of engulfing them. The fiction stays alive. Combat keeps moving. Nobody's turn is wasted.
 
 This also means fights are inherently dangerous. You can't stack AC so high that goblins need a natural 20 to touch you. Every attack lands. Armor reduces damage instead of preventing hits, which means the knight in plate mail still gets knocked around, they just stay standing longer. The goblins are always a threat. The dragon is always terrifying. Combat doesn't become a solved equation; it stays a fight.
 
@@ -220,7 +220,7 @@ A twenty-sided die doesn't care about your backstory. Every number from 1 to 20 
 
 Three six-sided dice create a bell curve. Most rolls land between 9 and 12. That means your attributes, your skills, your Disciplines (see @sec-chapter-disciplines), the things you *chose* for your character, matter more than the dice. A master thief almost always sneaks past the guards. A legendary blacksmith almost never ruins the sword. When the dice *do* produce triple 1s or triple 6s, it means something, because it only happens about once every 200 rolls.
 
-We ran the math. We ran the playtests: dozens of them, with hundreds of players, over thousands of rolls. The 3d6 curve makes GMing easier too: you can set difficulty modifiers knowing the dice will cluster around the middle, not swing wildly from "godlike" to "incompetent" on consecutive turns. Consistency is the friend of good storytelling. The dice support the fiction instead of fighting it.
+Here's what thousands of rolls across hundreds of sessions have taught me: the 3d6 curve makes running the game easier. You can set difficulty modifiers knowing the dice will cluster around the middle, not swing wildly from "godlike" to "incompetent" on consecutive turns. Consistency is the friend of good storytelling. The dice support the fiction instead of fighting it.
 
 :::
 
@@ -242,7 +242,7 @@ Adept and Master spells have per-encounter and per-session limits (see @sec-chap
 
 ### Flat Damage & Disciplines: Speed and Freedom
 
-Two more design choices worth noting. **Flat damage** means one roll tells you everything: no separate damage dice, no arithmetic slowdown. The combat chapter (@sec-chapter-combat) covers this in full. **Disciplines** mean no class-locked skills: anyone can learn anything, it just costs more outside your wheelhouse. The disciplines chapter (@sec-chapter-disciplines) explains the full system.
+Two more things worth understanding. **Flat damage** means one roll tells you everything: no separate damage dice, no arithmetic slowdown. The combat chapter (@sec-chapter-combat) covers this in full. **Disciplines** mean no class-locked skills: anyone can learn anything, it just costs more outside your wheelhouse. The disciplines chapter (@sec-chapter-disciplines) explains the full system.
 
 :::
 
