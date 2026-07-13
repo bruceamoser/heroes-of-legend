@@ -156,7 +156,7 @@
   justify: true,
   leading: 0.95em,
   first-line-indent: 0pt,
-  spacing: 0.7em,
+  spacing: 1.2em,
 )
 
 // ── Headings (powered by beautitled) ────────────────────────────────────────
