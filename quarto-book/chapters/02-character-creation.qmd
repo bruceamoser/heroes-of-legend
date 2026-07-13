@@ -124,11 +124,21 @@ Costs below are **X1 (Favored)**, your class may multiply these. See @sec-chapte
 
 These represent everything your hero learned growing up. A farm kid might take Athletics and Animal Handling. A temple acolyte might take Religion and Medicine. A street thief might take Stealth and Sleight of Hand. Make it make sense for your concept, the DA will notice.
 
-**General Disciplines**
+**How You Gain Disciplines**
 
-All characters begin with **3 General Disciplines**. These are wildcards: you assign each one to any Discipline type you choose, right now, for free. They represent natural aptitude, the things you were born with, not the things you trained for.
+Disciplines are not free. Every Discipline your hero possesses comes from a specific source, earned through bloodline, upbringing, training, or hard-won experience. There are no wildcards handed out at creation:
 
-Your ancestry and culture also grant Disciplines (see Steps 3 and 4). Between General, ancestry, and culture, a starting hero typically has 5-7 Disciplines before spending a single DP. That's your foundation. Spend your Background DP to build on it.
+- **Ancestry** (Step 3): Your species grants one Discipline reflecting innate traits of your bloodline. See @tbl-ancestries.
+
+- **Culture** (Step 4): Your upbringing grants one or two Disciplines depending on your culture's traditions. See the culture table in Step 4.
+
+- **Background DP** (Step 5): You may spend Development Points to purchase additional Disciplines at 1 DP for a first rank, 2 DP for a second, or 4 DP for a third. This represents skills and knowledge earned during your life before adventuring.
+
+- **Class** (Phase Two): Your class grants specific Disciplines tied to its training and traditions. See @sec-chapter-classes for each class's starting Disciplines.
+
+
+
+Between ancestry, culture, and class, a starting hero typically has 4-6 Disciplines before spending a single DP. Spend your Background DP to build on that foundation.
 
 {{< pagebreak >}}
 
@@ -237,7 +247,6 @@ Let's build a character from scratch so you can see how the pieces fit together.
 - Lucky talent, Novice (1 DP), some people are just born fortunate
 
 Total: 8 DP. All spent. ?  
-Disciplines: Animal(1), Water(1), General(3)
 
 **Step 6, Class:** Odd. Gains 3 Disciplines from different categories (Archery, Animal, Water). Signature: **Wildcard**, once per session, roll a d6 table for a random bonus.
 
