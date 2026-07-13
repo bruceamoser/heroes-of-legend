@@ -306,7 +306,7 @@
     stroke: (left: 4pt + c.stroke),
     width: 100%,
     radius: 2pt,
-    inset: (left: 12pt, right: 10pt, top: 8pt, bottom: 8pt),
+    inset: (left: 12pt, right: 10pt, top: 8pt, bottom: 14pt),
     [
       // Title row with icon
       #set text(fill: text-color, weight: "bold", size: 10pt, font: body-font-stack)
