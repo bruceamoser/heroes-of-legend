@@ -6,7 +6,7 @@
 
 ![Illo 19: Divine Spells Art](../assets/images/page040-img028.jpeg){width="60%"}
 
-*Illustration 19 � Divine spells chapter art (Unbalanced class). Placeholder; final art TBD. Dimensions: 1024�1024.*
+*Illustration 19 — Divine spells chapter art (Unbalanced class). Placeholder; final art TBD. Dimensions: 1024×1024.*
 
 {{< pagebreak >}}
 
@@ -536,7 +536,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 
 ![Illo 35: Divine Spells Midpoint](../assets/svg/placeholder-section.svg){width="60%"}
 
-*Illustration 35 � Divine spells chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400�300.*
+*Illustration 35 — Divine spells chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
 
 {{< pagebreak >}}
 
