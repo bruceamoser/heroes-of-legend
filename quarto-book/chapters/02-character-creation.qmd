@@ -156,16 +156,16 @@ Now your hero finds their calling. This is where they become exceptional.
 
 : Table 2.2: Classes at a Glance {#tbl-classes}
 
-| Class | Role | Vibe |
-|-------|------|------|
-| **Protector** | Tank, defender | "Stand behind me." |
-| **Blade** | Assassin, precision | "Strike once. Strike true." |
-| **Arcanist** | Arcane caster | "Fire answers to me." |
-| **Shepherd** | Divine guide | "The light guides my hand." |
-| **Intellect** | Scholar, strategist | "I've read about this." |
-| **Odd** | Chaos wildcard | "I have a trick for that." |
-| **Leader** | Commander | "Together, we are unstoppable." |
-| **Unbalanced** | High-risk power | "Power has a price." |
+| Class | Role | Discipline | Vibe |
+|-------|------|------------|------|
+| **Protector** | Tank, defender | Armor | "Stand behind me." |
+| **Blade** | Assassin, precision | Blades | "Strike once. Strike true." |
+| **Arcanist** | Arcane caster | Energy | "Fire answers to me." |
+| **Shepherd** | Divine guide | Protection | "The light guides my hand." |
+| **Intellect** | Scholar, strategist | Any one | "I've read about this." |
+| **Odd** | Chaos wildcard | Any one (different category) | "I have a trick for that." |
+| **Leader** | Commander | Protection | "Together, we are unstoppable." |
+| **Unbalanced** | High-risk power | Any Elemental | "Power has a price." |
 
 Record your Class Discipline (one rank) and signature ability. See @sec-chapter-classes for full writeups, including favored costs.
 

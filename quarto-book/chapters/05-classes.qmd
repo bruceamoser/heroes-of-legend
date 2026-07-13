@@ -25,7 +25,7 @@ Your class gives you a Discipline, a signature ability, and cheaper access to ce
 | Class | Role | L1 Discipline | Signature |
 |-------|------|--------------|-----------|
 | **Protector** | Tank, defender | Armor | **Bastion**, defensive stance |
-| **Blade** | Assassin, precision | Blades | **Swift Blade** + **Precise Stab** |
+| **Blade** | Assassin, precision | Blades | **Swift Blade** |
 | **Arcanist** | Arcane caster | Energy | **Arcane Shield** |
 | **Shepherd** | Divine guide | Protection | **Turn Undead** |
 | **Intellect** | Scholar, strategist | Any one | **Knowledge Is Power** |
@@ -49,7 +49,7 @@ The Protector stands at the vanguard, using body and armor as a shield for those
 
 **Favored Disciplines (X1):** Armor, Protection, Blades, Axes, Polearms, Heavy Weapon, Unarmed
 
-**Out of Class (X3):** All Elemental (Fire, Earth, Wind, Water), Energy, Life, Religion, Plants, Mind, Summon. You're a wall, not a wizard.
+**Out of Class (X3):** See the Discipline cost tables at the end of this chapter for out-of-class costs. You're a wall, not a wizard.
 
 ::: {.callout-note}
 ## The Protector's Mindset
@@ -73,7 +73,7 @@ The Blade masters the art of finesse and precision, favoring the swift elegance 
 
 **Favored Disciplines (X1):** Blades, Archery, Unarmed
 
-**Out of Class (X3):** Armor, Heavy Weapon, Axes, and all magical Disciplines (Fire, Earth, Wind, Water, Energy, Life, Religion, Plants, Mind, Summon). You're precision, not brute force, and certainly not magic.
+**Out of Class (X3):** See the Discipline cost tables at the end of this chapter. You're precision, not brute force, and certainly not magic.
 
 ::: {.callout-note}
 ## The Blade's Mindset
@@ -103,7 +103,7 @@ The Arcanist delves into the mysteries of arcane energies, mastering their manip
 
 **Favored Disciplines (X1):** Energy and all Elemental types (Fire, Earth, Wind, Water), Mind, Summon. Magic is what you do.
 
-**Out of Class (X3):** All weapons (Blades, Axes, Polearms, Archery, Heavy Weapon, Unarmed), Armor, Protection, Religion. You didn't spend decades studying the arcane to swing a sword.
+**Out of Class (X3):** See the Discipline cost tables at the end of this chapter. You didn't spend decades studying the arcane to swing a sword.
 
 ::: {.callout-note}
 ## Magic Always Fires
@@ -127,7 +127,7 @@ The Shepherd stands as a beacon of guidance, providing moral direction and harne
 
 **Favored Disciplines (X1):** Protection, Animal, Life, Religion, Plants
 
-**Out of Class (X3):** Elemental Disciplines, Heavy Weapon, Axes, Polearms, Archery, Armor, Summon. Your power flows from faith, not formulas.
+**Out of Class (X3):** See the Discipline cost tables at the end of this chapter. Your power flows from faith, not formulas.
 
 ::: {.callout-note}
 ## Healing Matters
@@ -151,7 +151,7 @@ The Intellect embodies cerebral prowess and scholarly mastery. Your path is a re
 
 **Favored Disciplines (X1):** Energy, Mind, Life, Religion, Plants
 
-**Out of Class (X3):** Armor, Heavy Weapon, Axes, Unarmed. Your mind is your weapon, you've never needed to throw a punch.
+**Out of Class (X3):** See the Discipline cost tables at the end of this chapter. Your mind is your weapon, you've never needed to throw a punch.
 
 ::: {.callout-note}
 ## Stop and Think
@@ -175,7 +175,7 @@ The Odd embodies eccentricity and peculiarity. With a demeanor that dances on th
 
 **Favored Disciplines (X1):** Pick 3 Disciplines of your choice at Level 1. Everything else is X2.
 
-**Out of Class (X3):** None. The Odd can make anything work, you just don't get cost breaks on everything. Your real power is *Eccentric Spellcasting*: free abilities that ignore prerequisites.
+**Out of Class (X3):** None. The Odd has no X3 restrictions; everything not chosen as X1 defaults to X2. Your real power is *Eccentric Spellcasting*: free abilities that ignore prerequisites.
 
 ::: {.callout-note}
 ## You're Also Scary
@@ -199,7 +199,7 @@ The Leader is a beacon of courage on the battlefield, leading from the front lin
 
 **Favored Disciplines (X1):** Protection, Blades, Polearms, Energy
 
-**Out of Class (X3):** Elemental Disciplines, Plants, Summon. You lead from the front, not from a spellbook.
+**Out of Class (X3):** See the Discipline cost tables at the end of this chapter. You lead from the front, not from a spellbook.
 
 ::: {.callout-note}
 ## Battle Cry
@@ -229,7 +229,7 @@ The Unbalanced is a wild card, embodying chaos and unpredictability in every act
 
 **Favored Disciplines (X1):** Your two opposing Elemental types, plus Energy and Unarmed.
 
-**Out of Class (X3):** The two Elemental types you didn't pick, all other weapons, Armor, and Protection. You channel chaos through your body and your spells, everything else is a distraction.
+**Out of Class (X3):** The two Elemental types you didn't pick, plus most weapons, Armor, and Protection. See the Discipline cost tables below. You channel chaos through your body and your spells, everything else is a distraction.
 
 From Animal, Plants, Summon, Life, Religion, and Mind, pick 2 to be X1, 2 to be X2, and 2 to be X3. The chaos bends where you choose.
 
@@ -253,8 +253,8 @@ You gain Development Points each level (see @sec-chapter-advancement for the ful
 
 Everything you buy has a cost multiplier based on your class:
 
-| | X1 (Favored) | X2 (Neutral) | X3 (Out of Class) |
-|---|-------------|-------------|-------------------|
+| Purchase | X1 (Favored) | X2 (Neutral) | X3 (Out of Class) |
+|----------|-------------|-------------|-------------------|
 | **Skill** (N / A / M) | 1 / 2 / 3 DP | 2 / 4 / 6 DP | 3 / 6 / 9 DP |
 | **Discipline** (1st / 2nd / 3rd rank) | 1 / 2 / 4 DP | 2 / 4 / 8 DP | 3 / 6 / 12 DP |
 | **Ability** (N / A / M) | 1 / 2 / 4 DP | 1 / 2 / 4 DP | 1 / 2 / 4 DP |
@@ -263,7 +263,7 @@ Everything you buy has a cost multiplier based on your class:
 
 **Skills** follow the same X1/X2/X3 structure. A Protector pays 3 DP for Arcana Novice, learnable, but expensive. Each skill's X1/X2/X3 classes are listed on its card in @sec-chapter-skills.
 
-**Table 5.X: Weapon & Defense Discipline Costs**
+**Table 5.1: Weapon & Defense Discipline Costs**
 
 | Discipline | Protector | Blade | Arcanist | Shepherd | Intellect | Odd^*^ | Leader | Unbalanced^*^ |
 |-----------|----------|-------|----------|----------|----------|-------|--------|---------------|
@@ -276,7 +276,7 @@ Everything you buy has a cost multiplier based on your class:
 | **Protection** | X1 | X2 | X3 | X1 | X2 | X2 | X1 | X3 |
 | **Armor** | X1 | X3 | X3 | X3 | X3 | X2 | X2 | X3 |
 
-**Table 5.X: Magic & Support Discipline Costs**
+**Table 5.2: Magic & Support Discipline Costs**
 
 | Discipline | Protector | Blade | Arcanist | Shepherd | Intellect | Odd^*^ | Leader | Unbalanced^*^ |
 |-----------|----------|-------|----------|----------|----------|-------|--------|---------------|
