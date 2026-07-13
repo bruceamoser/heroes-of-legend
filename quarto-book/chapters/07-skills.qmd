@@ -109,6 +109,7 @@ Kael spends his reaction. He makes an immediate melee attack against the captain
 | **Endurance** | FO |, | Resisting fatigue, holding breath, forced marches |
 | **Survival** | FO | Animal | Tracking, foraging, navigating wilderness |
 | **Resilience** | FO |, | Resisting poison, disease, extreme temperatures |
+| **Defense** | FO | Armor | Dodging, blocking, and personal defense |
 | **Acrobatics** | AG |, | Balancing, tumbling, escaping restraints |
 | **Stealth** | AG |, | Sneaking, hiding, moving silently |
 | **Bow Fighting** | AG | Archery | Fighting with longbows and shortbows |

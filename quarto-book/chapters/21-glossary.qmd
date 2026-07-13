@@ -58,7 +58,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Discipline:** A prerequisite resource representing mastery of a domain. Disciplines come in types: Elemental (Fire, Earth, Wind, Water), Weapon (Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed), Defense (Protection, Armor), Primal (Animal, Plants), Arcane (Energy), Divine (Life, Religion), and Esoteric (Mind, Summon).
 
-**General Discipline:** A wildcard Discipline that can substitute for any specific type at Novice tier. All characters begin with 3 General Disciplines.
+**General Discipline:** A wildcard Discipline earned through talents and progression. Can substitute for any specific Discipline type at Novice tier (1:1) or Master tier (2:1). Cannot substitute at Adept tier.
 
 **HP (Health Points):** How much damage you can take before falling unconscious. Starting HP = 10 + Brawn. Gain Brawn modifier HP each level (minimum 1).
 

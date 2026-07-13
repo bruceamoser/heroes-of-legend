@@ -110,29 +110,29 @@ Your culture is how you were raised. It's not just flavor, it's the skills and D
 | Culture | Skill Bonus | Disciplines | You Grew Up... |
 |---------|------------|-------------|----------------|
 | **Imperial** | Persuasion or History | Any one (free choice) | In the heart of an empire. Politics, protocol, and the art of getting what you want with a smile. Imperial education is broad, you found your own path. |
-| **Nomadic** | Survival or Animal Handling | Archery + Polearms | Following the herds, reading the stars. You can start a fire in a monsoon and never get lost. Bow for the hunt, lance for the fight. |
-| **Coastal** | Athletics or Navigation | Polearms + Protection | Salt in your hair, sand between your toes. You swim before you walk. Harpoon in hand, shield on arm, the sea provides, but it also threatens. |
+| **Nomadic** | Survival or Animal Handling | Archery or Polearms | Following the herds, reading the stars. You can start a fire in a monsoon and never get lost. Bow for the hunt, lance for the fight. |
+| **Coastal** | Athletics or Navigation | Polearms or Protection | Salt in your hair, sand between your toes. You swim before you walk. Harpoon in hand, shield on arm, the sea provides, but it also threatens. |
 
 ### Elf Cultures
 
 | Culture | Skill Bonus | Disciplines | You Grew Up... |
 |---------|------------|-------------|----------------|
-| **High Elf** | Arcana or History | Energy + Blades | Among spires of crystal and libraries of starlight. Raw magic flows through your education, and the blade dances in your hand. |
-| **Wood Elf** | Stealth or Nature | Animal + Archery | In forests so ancient the trees have opinions. You run with beasts, and your arrows find their mark before your prey knows you're there. |
-| **Twilight Elf** | Deception or Insight | Water + Blades | In the places between light and shadow. Your people walked away from the sun long ago, mastering the blade in darkness as cold and fluid as deep water. |
+| **High Elf** | Arcana or History | Energy or Blades | Among spires of crystal and libraries of starlight. Raw magic flows through your education, and the blade dances in your hand. |
+| **Wood Elf** | Stealth or Nature | Animal or Archery | In forests so ancient the trees have opinions. You run with beasts, and your arrows find their mark before your prey knows you're there. |
+| **Twilight Elf** | Deception or Insight | Water or Blades | In the places between light and shadow. Your people walked away from the sun long ago, mastering the blade in darkness as cold and fluid as deep water. |
 
 ### Dwarf Cultures
 
 | Culture | Skill Bonus | Disciplines | You Grew Up... |
 |---------|------------|-------------|----------------|
-| **Mountain** | Craft or Athletics | Armor + Axes | In the high peaks, where the air is thin and the stone is stubborn. You forge steel and wear it like a second skin. Your axe is an heirloom; your armor, a resume. |
-| **Deep** | Resilience or Lore | Axes + Protection | In halls carved miles beneath the surface. Darkness is comforting. You fight in tight tunnels where there's no room for fancy footwork, just your axe, your shield-arm, and the stone at your back. |
+| **Mountain** | Craft or Athletics | Armor or Axes | In the high peaks, where the air is thin and the stone is stubborn. You forge steel and wear it like a second skin. Your axe is an heirloom; your armor, a resume. |
+| **Deep** | Resilience or Lore | Axes or Protection | In halls carved miles beneath the surface. Darkness is comforting. You fight in tight tunnels where there's no room for fancy footwork, just your axe, your shield-arm, and the stone at your back. |
 | **Hill** | History or Persuasion | Any one (free choice) | In the foothills, trading with surface folk. You're the dwarf who explains dwarves to everyone else, you've picked up a little of everything. |
 
 ### Halfling Cultures
 
 | Culture | Skill Bonus | Disciplines | You Grew Up... |
 |---------|------------|-------------|----------------|
-| **Riverfolk** | Acrobatics or Sleight of Hand | Blades + Archery | On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm. Dagger close, sling far, you're ready for whatever comes down the river. |
-| **Burrower** | Stealth or Survival | Protection + Blades | In cozy tunnels beneath the hills, hidden from big folk and their big problems. You know every root, every mushroom, every hidden exit. When trouble comes knocking, your blade is ready and your home is your fortress. |
+| **Riverfolk** | Acrobatics or Sleight of Hand | Blades or Archery | On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm. Dagger close, sling far, you're ready for whatever comes down the river. |
+| **Burrower** | Stealth or Survival | Protection or Blades | In cozy tunnels beneath the hills, hidden from big folk and their big problems. You know every root, every mushroom, every hidden exit. When trouble comes knocking, your blade is ready and your home is your fortress. |
 | **Wanderer** | Streetwise or Performance | Any one (free choice) | On the road, in the caravans, telling stories for supper. Home is wherever you hang your hat. You've learned a little of everything. |

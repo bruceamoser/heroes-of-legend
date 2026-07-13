@@ -53,7 +53,7 @@ Fourteen Disciplines. Five categories. Your hero's path through them defines eve
 
 ### Starting Disciplines
 
-Every character begins with **3 General Disciplines.** These are flexible, they can substitute for any specific Discipline at the Novice tier. Need 1 Fire for a Firebolt? A General Discipline covers it. Need 2 Fire for a Fireball? That's Adept, you need the real thing. General Disciplines get you started, but they won't carry you to mastery.
+Your starting Disciplines come from your ancestry (1), your culture (2), and your class (see the Class Disciplines table below). General Disciplines are wildcards earned through talents and progression; they can substitute for any specific Discipline at the Novice tier. Need 1 Fire for a Firebolt? A General Discipline covers it. Need 2 Fire for a Fireball? That's Adept, you need the real thing. General Disciplines get you started, but they won't carry you to mastery.
 
 ### Class Disciplines
 
@@ -107,7 +107,7 @@ Need 1 Fire for Firebolt? A General covers it. Need 2 Fire for Fireball at Adept
 
 ## Worked Example: Building a Fire Mage
 
-Kael wants to burn the world. He's an Arcanist, his class gives him 2 Fire and 1 Energy at creation, plus 3 General Disciplines.
+Kael wants to burn the world. He's an Arcanist, his class gives him 2 Fire and 1 Energy at creation. His ancestry and culture grant additional Disciplines as well.
 
 **Novice (Firebolt):** Requires 1 Fire. Kael has 2 Fire. He qualifies without even touching his Generals. Firebolt is his immediately.
 
@@ -115,9 +115,9 @@ Kael wants to burn the world. He's an Arcanist, his class gives him 2 Fire and 1
 
 **Master (Volcanic Eruption):** Requires 3 Fire + 1 Earth. Kael's got 2 Fire and 1 Energy, he needs 1 more Fire and 1 Earth. Under the old system, this took twelve levels. Now? Two paths open to him.
 
-*Path of the Patient:* At level 3, Kael takes Fire, now 3 Fire, 1 Energy. At level 6, he takes Earth, now 3 Fire, 1 Earth, 1 Energy. He qualifies for Volcanic Eruption at level 6, with all three General Disciplines still in his pocket for other pursuits. He could branch into Protection for defense, Animal for a familiar, or bank them for cross-class talents. Six levels to master volcanic fury, and he's still got room to grow.
+*Path of the Patient:* At level 3, Kael takes Fire, now 3 Fire, 1 Energy. At level 6, he takes Earth, now 3 Fire, 1 Earth, 1 Energy. He qualifies for Volcanic Eruption at level 6, with any General Disciplines he's earned still available for other pursuits. He could branch into Protection for defense, Animal for a familiar, or bank them for cross-class talents. Six levels to master volcanic fury, and he's still got room to grow.
 
-*Path of the Specialist:* At level 3, Kael takes Fire, now 3 Fire, 1 Energy. He needs 1 Earth. At the Master tier, two General Disciplines substitute for one specific Discipline. Kael spends 2 of his 3 Generals to cover the Earth requirement. He qualifies for Volcanic Eruption at level 3, but he's burned most of his flexibility getting there fast.
+*Path of the Specialist:* At level 3, Kael takes Fire, now 3 Fire, 1 Energy. He needs 1 Earth. At the Master tier, two General Disciplines substitute for one specific Discipline. Kael spends 2 General Disciplines to cover the Earth requirement. He qualifies for Volcanic Eruption at level 3, but he's burned most of his flexibility getting there fast.
 
 Two paths. Same destination. One leaves you options. The other gets you there first. Both are valid. Both are *earned.*
 
