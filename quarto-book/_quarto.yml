@@ -54,13 +54,6 @@ format:
     toc-depth: 2
     number-sections: false
     papersize: us-letter
-    margin:
-      top: 25mm
-      bottom: 28mm
-      left: 22mm
-      right: 22mm
-    font-family: "Crimson Text"
-    font-size: 10.5pt
     smart: false
     include-before-body: _extensions/heroes-of-legend/style.typ
 

@@ -181,8 +181,6 @@
 // Override beautitled heading fonts to use our fantasy font stack.
 // beautitled applies its own font choices; we restore ours after init.
 #show heading: set text(font: heading-font-stack)
-#show heading.where(level: 1): set text(font: heading-font-stack)
-#show heading.where(level: 2): set text(font: heading-font-stack)
 
 // ── Tables (booktabs functions available) ───────────────────────────────────
 // booktabs provides toprule(), midrule(), bottomrule(), cmidrule().
