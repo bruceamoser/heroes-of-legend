@@ -124,6 +124,13 @@
   lang: "en",
 )
 
+#set par(
+  justify: true,
+  leading: 0.95em,
+  first-line-indent: 0pt,
+  spacing: 1.2em,
+)
+
 #set page(
   paper: "us-letter",
   margin: (
