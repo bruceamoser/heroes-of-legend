@@ -4,9 +4,9 @@
 #label("sec-chapter-ancestries")
 ```
 
-![Illo 8: Ancestries Art](../assets/images/page016-img017.jpeg){width="60%"}
+<!-- Rationale: Chapter opener at 80% width — ancestries gathered around a campfire, establishing the fantasy of diverse peoples sharing stories before the rules detail each one. -->
+![Placeholder: A gathering of different ancestries around a campfire: human, elf, dwarf, and beastfolk representatives sharing stories.](../assets/images/placeholder-ch04-ancestries.png){width=80%}
 
-*Illustration 8 — Ancestries & cultures chapter art. Placeholder; final art TBD. Dimensions: 1024×1024.*
 
 {{< pagebreak >}}
 
@@ -95,9 +95,9 @@ Halflings receive one Blades Discipline (daggers, short swords, quick strikes) o
 
 {{< pagebreak >}}
 
-![Illo 9: Ancestries Art Second](../assets/images/page016-img018.png){width="60%"}
+<!-- Rationale: Mid-chapter visual break at 60% width — two figures exchanging a greeting, highlighting cultural diversity within the same ancestry. -->
+![Placeholder: Two figures from different cultures exchanging a traditional greeting, highlighting cultural diversity within the same ancestry.](../assets/images/placeholder-ch04-ancestries-second.png){width=60%}
 
-*Illustration 9 — Ancestries & cultures second art. Placeholder; final art TBD. Dimensions: 681×1024.*
 
 {{< pagebreak >}}
 
