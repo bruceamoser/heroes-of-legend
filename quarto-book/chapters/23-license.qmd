@@ -1,4 +1,8 @@
-﻿# License {#sec-chapter-license}
+# License {#sec-chapter-license}
+
+```{=typst}
+#label("sec-chapter-license")
+```
 
 ![Illo 32: License](../assets/svg/placeholder-section.svg){width="60%"}
 

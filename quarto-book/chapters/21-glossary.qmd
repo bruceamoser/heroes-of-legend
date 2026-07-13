@@ -1,4 +1,8 @@
-﻿# Glossary {#sec-chapter-glossary}
+# Glossary {#sec-chapter-glossary}
+
+```{=typst}
+#label("sec-chapter-glossary")
+```
 
 ![Illo 30: Glossary Art](../assets/images/page111-img046.jpeg){width="60%"}
 

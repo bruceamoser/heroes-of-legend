@@ -1,4 +1,8 @@
-﻿# Equipment {#sec-chapter-equipment}
+# Equipment {#sec-chapter-equipment}
+
+```{=typst}
+#label("sec-chapter-equipment")
+```
 
 ![Illo 22: Equipment Art](../assets/images/page095-img037.jpeg){width="60%"}
 

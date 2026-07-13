@@ -1,4 +1,8 @@
-﻿# Quick Reference Sheets {#sec-chapter-reference-sheets}
+# Quick Reference Sheets {#sec-chapter-reference-sheets}
+
+```{=typst}
+#label("sec-chapter-reference-sheets")
+```
 
 ![Illo 31: Reference Sheets](../assets/svg/placeholder-section.svg){width="60%"}
 

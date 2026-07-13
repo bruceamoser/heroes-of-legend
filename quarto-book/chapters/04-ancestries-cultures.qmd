@@ -1,4 +1,8 @@
-﻿# Ancestries & Cultures {#sec-chapter-ancestries}
+# Ancestries & Cultures {#sec-chapter-ancestries}
+
+```{=typst}
+#label("sec-chapter-ancestries")
+```
 
 ![Illo 8: Ancestries Art](../assets/images/page016-img017.jpeg){width="60%"}
 

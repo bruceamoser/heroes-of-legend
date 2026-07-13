@@ -1,4 +1,8 @@
-﻿# Bestiary {#sec-chapter-bestiary}
+# Bestiary {#sec-chapter-bestiary}
+
+```{=typst}
+#label("sec-chapter-bestiary")
+```
 
 ![Illo 28: Bestiary Art](../assets/images/page106-img044.jpeg){width="60%"}
 

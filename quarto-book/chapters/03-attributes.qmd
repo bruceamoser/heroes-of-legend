@@ -1,4 +1,8 @@
-﻿# Attributes {#sec-chapter-attributes}
+# Attributes {#sec-chapter-attributes}
+
+```{=typst}
+#label("sec-chapter-attributes")
+```
 
 ![Illo 7: Attributes Art](../assets/images/page015-img016.jpeg){width="60%"}
 

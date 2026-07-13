@@ -1,8 +1,12 @@
-﻿# Divine Spells {#sec-chapter-divine-spells}
+# Divine Spells {#sec-chapter-divine-spells}
+
+```{=typst}
+#label("sec-chapter-divine-spells")
+```
 
 ![Illo 19: Divine Spells Art](../assets/images/page040-img028.jpeg){width="60%"}
 
-*Illustration 19 — Divine spells chapter art (Unbalanced class). Placeholder; final art TBD. Dimensions: 1024×1024.*
+*Illustration 19 � Divine spells chapter art (Unbalanced class). Placeholder; final art TBD. Dimensions: 1024�1024.*
 
 {{< pagebreak >}}
 
@@ -14,7 +18,7 @@ Divine magic doesn't throw fireballs. It doesn't dissolve armor or dominate mind
 
 This chapter contains every divine spell in the game. Shepherds use them. Some Leaders use them. Anyone who's ever knelt before something greater and felt it kneel back.
 
-*See @sec-chapter-magic-system for how spellcasting works.*
+*See `@sec-chapter-magic-system`{=typst} for how spellcasting works.*
 
 {{< pagebreak >}}
 
@@ -121,7 +125,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 Healing is the heart of divine magic. It's why Shepherds are welcomed in every village, why armies march with a healer in every company, why the dying gasp prayers to gods they've never worshipped before. Healing magic knits flesh, purges poison, and, at its highest reaches, calls souls back from the threshold. It's not flashy. It's not destructive. It's the reason your party is still alive.
 
-*See @sec-chapter-magic-system for how spellcasting works.*
+*See `@sec-chapter-magic-system`{=typst} for how spellcasting works.*
 
 ### Heal Wounds Chain
 **Disciplines:** Water
@@ -355,7 +359,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 
 Protection magic is the shield arm of the divine. It wards the innocent, guards the faithful, and draws lines across the battlefield that evil cannot cross. Protection spells don't hurt the enemy, they make the enemy's efforts irrelevant. A fireball that never lands. A sword that never connects. A demon that reaches for your ally and finds only light.
 
-*See @sec-chapter-magic-system for how spellcasting works.*
+*See `@sec-chapter-magic-system`{=typst} for how spellcasting works.*
 
 ### Shield of Faith Chain
 **Disciplines:** Protection
@@ -532,7 +536,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 
 ![Illo 35: Divine Spells Midpoint](../assets/svg/placeholder-section.svg){width="60%"}
 
-*Illustration 35 — Divine spells chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
+*Illustration 35 � Divine spells chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400�300.*
 
 {{< pagebreak >}}
 
@@ -540,7 +544,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 
 Divination is the magic of knowing. It sees what's hidden, identifies what's unknown, and sometimes, at its highest reaches, peers into what hasn't happened yet. Diviners are the party's eyes and ears. They find the trap before it triggers. They read the villain's plans in ancient texts. They ask questions of beings who were old when the world was young, and they get answers.
 
-*See @sec-chapter-magic-system for how spellcasting works.*
+*See `@sec-chapter-magic-system`{=typst} for how spellcasting works.*
 
 ### Detect Magic Chain
 **Disciplines:** Energy

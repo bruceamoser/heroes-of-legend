@@ -1,5 +1,9 @@
 # Introduction {#sec-chapter-introduction}
 
+```{=typst}
+#label("sec-chapter-introduction")
+```
+
 ![Illo 2: Opening Chapter Art](../assets/images/page003-img002.jpeg){width="60%"}
 
 *Illustration 2: Opening chapter decorative art. Placeholder; final art TBD. Dimensions: 185×185.*
@@ -70,12 +74,12 @@ This isn't a manual. It's a companion. You don't read it once and put it on a sh
 - **No class restrictions.** Anyone can learn anything: your class just makes some things cheaper.
 - **Armor reduces damage**, it doesn't make you harder to hit.
 
-The rest will feel familiar. Jump to @sec-chapter-character-creation to start building.
+The rest will feel familiar. Jump to ``@sec-chapter-character-creation`{=typst}`{=typst} to start building.
 :::
 
-**Never Done This Before? Start Here.** If you've never rolled a d20 in your life: start with @sec-chapter-character-creation. It walks you through building a character step by step, from "what do my stats mean?" to "can I buy a horse?" After that, read @sec-chapter-attributes through @sec-chapter-disciplines. You don't need to memorize anything. Just read them once so you know where to look when the DA says "make a Fortitude save" and you need to know what that means. The rules will stick through play, not through study. Your first session, you'll look things up constantly. That's normal. By your fifth session, you'll be explaining grappling to the new player at the table. That's normal too.
+**Never Done This Before? Start Here.** If you've never rolled a d20 in your life: start with ``@sec-chapter-character-creation`{=typst}`{=typst}. It walks you through building a character step by step, from "what do my stats mean?" to "can I buy a horse?" After that, read `@sec-chapter-attributes`{=typst} through `@sec-chapter-disciplines`{=typst}. You don't need to memorize anything. Just read them once so you know where to look when the DA says "make a Fortitude save" and you need to know what that means. The rules will stick through play, not through study. Your first session, you'll look things up constantly. That's normal. By your fifth session, you'll be explaining grappling to the new player at the table. That's normal too.
 
-**If you're the Dungeon Architect**, the one who's going to run the game, you've got a slightly longer reading list. Start with @sec-chapter-attributes through @sec-chapter-disciplines to understand the mechanics. Then jump to @sec-chapter-gm-guidance. That chapter is written for you: it covers building adventures, running monsters, handing out rewards, and keeping the game moving when the party decides to ignore your carefully prepared dungeon and open a bakery instead. (It happens. It always happens. There's advice for that.) After that, skim the equipment and spell chapters so you know what your players can do. You don't need to memorize every spell. You just need to know that *someone* at the table can cast *Water Breathing*, so maybe don't hang your entire adventure on "they can't cross the lake."
+**If you're the Dungeon Architect**, the one who's going to run the game, you've got a slightly longer reading list. Start with `@sec-chapter-attributes`{=typst} through `@sec-chapter-disciplines`{=typst} to understand the mechanics. Then jump to `@sec-chapter-gm-guidance`{=typst}. That chapter is written for you: it covers building adventures, running monsters, handing out rewards, and keeping the game moving when the party decides to ignore your carefully prepared dungeon and open a bakery instead. (It happens. It always happens. There's advice for that.) After that, skim the equipment and spell chapters so you know what your players can do. You don't need to memorize every spell. You just need to know that *someone* at the table can cast *Water Breathing*, so maybe don't hang your entire adventure on "they can't cross the lake."
 
 **If you just want to see what this game is about**, if you're browsing, curious, trying to decide whether to bring this to your table, read this chapter. Then read the example of play below. If it makes you want to grab some dice, call your friends, and find out what happens when Kael kicks down the door, we've done our job. Welcome aboard.
 
@@ -91,7 +95,7 @@ The rest will feel familiar. Jump to @sec-chapter-character-creation to start bu
 
 All right. Roll up your sleeves. This is the engine that drives everything.
 
-In *Heroes of Legend*, whenever you attempt something with risk: swinging a sword, casting a spell, talking your way past a guard, climbing a crumbling wall while something with too many teeth chases you, you reach for three six-sided dice. You roll them. You add your hero's relevant **attribute** (see @sec-chapter-attributes). You add your **skill** bonus if you have one. The DA may add or subtract a modifier for difficulty. Then you look at the total. That number tells you what happens. That's it. That's the whole game, right there, in one sentence.
+In *Heroes of Legend*, whenever you attempt something with risk: swinging a sword, casting a spell, talking your way past a guard, climbing a crumbling wall while something with too many teeth chases you, you reach for three six-sided dice. You roll them. You add your hero's relevant **attribute** (see `@sec-chapter-attributes`{=typst}). You add your **skill** bonus if you have one. The DA may add or subtract a modifier for difficulty. Then you look at the total. That number tells you what happens. That's it. That's the whole game, right there, in one sentence.
 
 But numbers without context are just arithmetic. Here's what those totals *feel* like at the table:
 
@@ -131,13 +135,13 @@ This is not how most games work. In most games, you roll to see *if* you hit. If
 
 In *Heroes of Legend*, the question isn't *whether* you hit. It's *how hard.* Your 3d6 roll determines the damage tier: Weak, Standard, or Strong. A Weak hit is a glancing blow that still draws blood. A Standard hit is a solid strike. A Strong hit is the kind of blow that makes the enemy reconsider every choice that led them to this moment. Something always happens. Every swing advances the fight. Every round, the board changes.
 
-This keeps combat fast, cinematic, and dangerous. You can't stack armor so high that goblins can't touch you. Every attack lands. Armor reduces damage instead of preventing hits (see @sec-chapter-armor-shields). The knight in plate mail still gets knocked around, they just stay standing longer. Combat becomes about who's left standing, not about who finally rolled high enough to participate.
+This keeps combat fast, cinematic, and dangerous. You can't stack armor so high that goblins can't touch you. Every attack lands. Armor reduces damage instead of preventing hits (see `@sec-chapter-armor-shields`{=typst}). The knight in plate mail still gets knocked around, they just stay standing longer. Combat becomes about who's left standing, not about who finally rolled high enough to participate.
 
 ::: {.callout-important}
 ## Armor = Damage Reduction
 In *Heroes of Legend*, armor doesn't make you harder to hit: every attack connects. Instead, armor subtracts from incoming damage. A goblin's club (Standard damage 3) bounces harmlessly off plate armor (Armor 3). But a dragon's claws (Strong damage 8) still gets 5 through.
 
-Full armor rules: @sec-chapter-armor-shields.
+Full armor rules: `@sec-chapter-armor-shields`{=typst}.
 :::
 
 ::: {.callout-tip}
@@ -162,7 +166,7 @@ Kael is a dwarf Blade: a shadow on the wall, the last face his enemies see. He s
 
 *Kael grabs three dice. The table goes quiet. He shakes them in his hand, everyone has their ritual, and lets them fly.*
 
-*Kael rolls:* "Four, three, five. That's twelve. My **Brawn** is +2, and I've got Blades Fighting at **Adept** (see @sec-chapter-skills), so that's another +2. Total is sixteen."
+*Kael rolls:* "Four, three, five. That's twelve. My **Brawn** is +2, and I've got Blades Fighting at **Adept** (see `@sec-chapter-skills`{=typst}), so that's another +2. Total is sixteen."
 
 **Morgan:** "Sixteen is Strong. Your longsword's Strong damage is 5."
 
@@ -218,7 +222,7 @@ This also means fights are inherently dangerous. You can't stack AC so high that
 
 A twenty-sided die doesn't care about your backstory. Every number from 1 to 20 has exactly the same 5% chance: your legendary swordsman with +12 to hit has the same odds of rolling a natural 1 as the farmer who's never held a blade. That's not how competence works in stories, and it shouldn't be how it works in games.
 
-Three six-sided dice create a bell curve. Most rolls land between 9 and 12. That means your attributes, your skills, your Disciplines (see @sec-chapter-disciplines), the things you *chose* for your character, matter more than the dice. A master thief almost always sneaks past the guards. A legendary blacksmith almost never ruins the sword. When the dice *do* produce triple 1s or triple 6s, it means something, because it only happens about once every 200 rolls.
+Three six-sided dice create a bell curve. Most rolls land between 9 and 12. That means your attributes, your skills, your Disciplines (see `@sec-chapter-disciplines`{=typst}), the things you *chose* for your character, matter more than the dice. A master thief almost always sneaks past the guards. A legendary blacksmith almost never ruins the sword. When the dice *do* produce triple 1s or triple 6s, it means something, because it only happens about once every 200 rolls.
 
 Here's what thousands of rolls across hundreds of sessions have taught me: the 3d6 curve makes running the game easier. You can set difficulty modifiers knowing the dice will cluster around the middle, not swing wildly from "godlike" to "incompetent" on consecutive turns. Consistency is the friend of good storytelling. The dice support the fiction instead of fighting it.
 
@@ -234,7 +238,7 @@ That's not a character moment. That's a scheduling error.
 
 In *Heroes of Legend*, magic always fires. No mana. No slots. No "sorry, I used my good spell already." When you cast, the spell goes off. The roll determines whether it's a Weak sputter, a Standard blast, or a Strong inferno. You're never useless. You're never out of options. Your fire burns until *you* decide it stops.
 
-Adept and Master spells have per-encounter and per-session limits (see @sec-chapter-magic-system), not because we want you counting gas, but because Master-tier effects reshape the battlefield. Those limits are about spotlight management, not resource attrition. When you unleash *Volcanic Eruption*, it should be a moment everyone remembers, not something you do three times before lunch.
+Adept and Master spells have per-encounter and per-session limits (see `@sec-chapter-magic-system`{=typst}), not because we want you counting gas, but because Master-tier effects reshape the battlefield. Those limits are about spotlight management, not resource attrition. When you unleash *Volcanic Eruption*, it should be a moment everyone remembers, not something you do three times before lunch.
 
 :::
 
@@ -242,7 +246,7 @@ Adept and Master spells have per-encounter and per-session limits (see @sec-chap
 
 ### Flat Damage & Disciplines: Speed and Freedom
 
-Two more things worth understanding. **Flat damage** means one roll tells you everything: no separate damage dice, no arithmetic slowdown. The combat chapter (@sec-chapter-combat) covers this in full. **Disciplines** mean no class-locked skills: anyone can learn anything, it just costs more outside your wheelhouse. The disciplines chapter (@sec-chapter-disciplines) explains the full system.
+Two more things worth understanding. **Flat damage** means one roll tells you everything: no separate damage dice, no arithmetic slowdown. The combat chapter (`@sec-chapter-combat`{=typst}) covers this in full. **Disciplines** mean no class-locked skills: anyone can learn anything, it just costs more outside your wheelhouse. The disciplines chapter (`@sec-chapter-disciplines`{=typst}) explains the full system.
 
 :::
 
@@ -250,8 +254,8 @@ These are the big ideas. The rest of the book explains how they work in practice
 
 ::: {.callout-tip}
 ## Ready to Begin?
-- **New player?** Turn to @sec-chapter-character-creation and build your first hero.
-- **New GM?** Skim @sec-chapter-attributes through @sec-chapter-disciplines, then dig into @sec-chapter-gm-guidance.
+- **New player?** Turn to ``@sec-chapter-character-creation`{=typst}`{=typst} and build your first hero.
+- **New GM?** Skim `@sec-chapter-attributes`{=typst} through `@sec-chapter-disciplines`{=typst}, then dig into `@sec-chapter-gm-guidance`{=typst}.
 - **Just browsing?** Read the opening story in the next chapter to meet Kael and his companions in action.
 
 However you proceed, welcome to the table. The dice are waiting.

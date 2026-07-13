@@ -1,4 +1,8 @@
-﻿# Magic Items {#sec-chapter-magic-items}
+# Magic Items {#sec-chapter-magic-items}
+
+```{=typst}
+#label("sec-chapter-magic-items")
+```
 
 ![Illo 24: Magic Items Art](../assets/images/page102-img040.jpeg){width="60%"}
 

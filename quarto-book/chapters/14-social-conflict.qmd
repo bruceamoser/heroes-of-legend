@@ -1,5 +1,9 @@
 # Social Conflict {#sec-chapter-social-conflict}
 
+```{=typst}
+#label("sec-chapter-social-conflict")
+```
+
 ![Illo 21: Social Conflict Art](../assets/images/page079-img030.jpeg){width="60%"}
 
 *Illustration 21 — Social conflict chapter art (Basic Mechanics). Placeholder; final art TBD. Dimensions: 579×557.*

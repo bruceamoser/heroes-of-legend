@@ -1,8 +1,12 @@
-﻿# Creating Your Hero {#sec-chapter-character-creation}
+# Creating Your Hero {#sec-chapter-character-creation}
+
+```{=typst}
+#label("sec-chapter-character-creation")
+```
 
 ![Illo 5: Character Creation](../assets/images/page014-img014.jpeg){width="60%"}
 
-*Illustration 5 — Character creation chapter art. Placeholder; final art TBD. Dimensions: 1024×1024.*
+*Illustration 5 � Character creation chapter art. Placeholder; final art TBD. Dimensions: 1024�1024.*
 
 {{< pagebreak >}}
 
@@ -46,7 +50,7 @@ Assign scores to your six attributes that total *exactly +3*:
 
 **Brawn, Fortitude, Agility, Guile, Knowledge, Reason**
 
-Each starts at +0. Max +2, min -2. Drop one into the negatives to fund a strength elsewhere, but the sum across all six must be 3. See @sec-chapter-attributes for the full breakdown.
+Each starts at +0. Max +2, min -2. Drop one into the negatives to fund a strength elsewhere, but the sum across all six must be 3. See `@sec-chapter-attributes`{=typst} for the full breakdown.
 
 ### Step 3: Ancestry
 
@@ -61,7 +65,7 @@ Choose your species. Each grants a Discipline and a trait:
 | **Dwarf** | Axes or Armor | **Sturdy:** +2 maximum HP |
 | **Halfling** | Blades or Archery | **Lucky:** add one boon to any roll, once per session |
 
-See @sec-chapter-ancestries for full details.
+See `@sec-chapter-ancestries`{=typst} for full details.
 
 ### Step 4: Culture
 
@@ -86,7 +90,7 @@ Your upbringing within your ancestry. Each culture grants a +1 bonus to one skil
 | Burrower | Stealth or Survival | Protection + Blades |
 | Wanderer | Streetwise or Performance | Any one (free) |
 
-See @sec-chapter-ancestries for full descriptions of each culture.
+See `@sec-chapter-ancestries`{=typst} for full descriptions of each culture.
 
 ### Step 5: Spend Background DP
 
@@ -108,7 +112,7 @@ These points represent your **entire life** before Level 1. They do not carry ov
 
 At Level 1, you are a **Novice**. You cannot buy Adept or Master tier anything, those unlock later, through experience.
 
-Costs below are **X1 (Favored)**, your class may multiply these. See @sec-chapter-classes for your class's multipliers. Abilities are always 1/2/4 DP regardless of class.
+Costs below are **X1 (Favored)**, your class may multiply these. See `@sec-chapter-classes`{=typst} for your class's multipliers. Abilities are always 1/2/4 DP regardless of class.
 
 | Purchase | Cost (X1) | Notes |
 |----------|----------|-------|
@@ -130,7 +134,7 @@ Your ancestry and culture also grant Disciplines (see Steps 3 and 4). Between Ge
 
 ![Illo 6: Character Creation Second](../assets/images/page015-img015.jpeg){width="60%"}
 
-*Illustration 6 — Character creation second art. Placeholder; final art TBD. Dimensions: 679×679.*
+*Illustration 6 � Character creation second art. Placeholder; final art TBD. Dimensions: 679�679.*
 
 {{< pagebreak >}}
 
@@ -153,7 +157,7 @@ Now your hero finds their calling. This is where they become exceptional.
 | **Leader** | Commander | "Together, we are unstoppable." |
 | **Unbalanced** | High-risk power | "Power has a price." |
 
-Record your Class Discipline (one rank) and signature ability. See @sec-chapter-classes for full writeups, including favored costs.
+Record your Class Discipline (one rank) and signature ability. See `@sec-chapter-classes`{=typst} for full writeups, including favored costs.
 
 ### Step 7: Spend Class DP
 
@@ -163,7 +167,7 @@ Adept-tier skills and abilities unlock at Level 3. Master-tier at Level 7. At Le
 
 ### Step 8: Equipment
 
-Receive your class starting kit. Record weapons with their Weak, Standard, and Strong damage values. Record armor with its Damage Reduction. See @sec-chapter-equipment.
+Receive your class starting kit. Record weapons with their Weak, Standard, and Strong damage values. Record armor with its Damage Reduction. See `@sec-chapter-equipment`{=typst}.
 
 ### Step 9: Derived Stats
 
