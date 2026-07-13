@@ -58,8 +58,57 @@ Armor reduces incoming damage, every point of Armor subtracts 1 from the damage 
 Think about your favorite movie battle. The hero never stands there missing for six seconds while the audience checks their phones. Every exchange advances the fight, a clash, a parry, a glancing blow, a telling strike. That's what always-hit delivers. Combat moves fast. Every round, something changes. Your 3d6 roll isn't "do I hit?", it's "how much does this hurt?"
 :::
 
-{{< pagebreak >}}
+## Players Make All Rolls
 
+In *Heroes of Legend*, the players roll the dice. Always. The DA never touches them.
+
+This isn't about fairness or trust. It's about engagement. When the goblin swings at you, *you* roll to see if you dodge. When the dragon breathes fire, *you* roll to see if you dive behind the pillar in time. The DA describes the threat. You describe your response. The dice tell you how it went.
+
+### How Defense Rolls Work
+
+When an NPC or monster attacks your hero, you make a **Defense Roll**:
+
+**3d6 + Agility modifier + Defense skill bonus − NPC Challenge**
+
+- **Agility** is your reaction speed, your footwork, your instinct to duck.
+- **Defense skill** (Fortitude) represents your training in dodging, blocking, and personal defense. See @sec-skills for the full skill description.
+- **NPC Challenge** is a penalty the DA applies. A goblin might be −1 (barely a threat). A dragon might be −6 (good luck). The DA tells you the number before you roll.
+
+### Reading the Defense Result
+
+Your Defense Roll uses the same success tiers as every other roll, but the outcome is reversed:
+
+| Your Defense Roll | NPC Attack Outcome | Damage You Take |
+|-------------------|-------------------|-----------------|
+| **Strong (15+)** | You read the attack perfectly. Sidestep, parry, shield block. | NPC's **Weak** damage |
+| **Standard (9-14)** | You get your guard up but it's not clean. A glancing blow. | NPC's **Standard** damage |
+| **Weak (1-8)** | You're caught flat-footed. The blow lands solid. | NPC's **Strong** damage |
+
+The NPC's stat block lists three damage values: Weak, Standard, and Strong. The DA reads the value that matches your defense result. You rolled well? The goblin barely scratches you. You rolled poorly? That goblin found a gap in your armor.
+
+This reversal is intentional. When you attack, a high roll means you hit hard. When you defend, a high roll means *they* hit soft. The dice don't change. Your relationship to them does.
+
+### Why This Works
+
+**Players stay engaged.** You're not waiting for the DA to roll dice and tell you what happened. You're rolling, reacting, making choices. Every attack against you is a moment of tension where *your* roll determines the outcome.
+
+**NPCs become simpler.** The DA doesn't need attack bonuses for every monster. The NPC's skill is expressed as a single Challenge number that modifies the player's roll. The DA describes the attack, sets the penalty, and the player rolls.
+
+**The math is the same.** A goblin with +1 to attack and a hero with +2 Defense produces the same probability distribution whether the goblin rolls or the hero rolls. The only difference is whose hands are on the dice, and we'd rather those hands belong to the players.
+
+### Defense Roll Example
+
+A goblin lunges at Kael with a rusty shortsword. The DA says: "The goblin's attack is Challenge −1. Roll Defense."
+
+Kael has Agility +1 and no Defense skill. He rolls 3d6 + 1 (Agility) − 1 (goblin's Challenge) = 3d6 + 0.
+
+He rolls 4, 3, 5 = 12. **Standard.** The goblin's Standard damage is 3. Kael's leather armor (DR 2) reduces it to 1. The goblin's blade scrapes across his ribs — shallow, painful, but not dangerous.
+
+Later, a Knight of the Iron Circle attacks Kael. "Challenge −3," the DA says. Kael rolls 3d6 + 1 − 3 = 3d6 − 2. He rolls 2, 3, 2 = 7 − 2 = 5. **Weak.** The Knight's Strong damage is 6. Kael's armor reduces it to 4. That one hurt.
+
+If Kael had invested in the Defense skill (+2 at Adept), his roll against the Knight would have been 3d6 + 1 + 2 − 3 = 3d6 + 0, giving him a much better chance of turning that blow aside.
+
+{{< pagebreak >}}
 ## Critical Hits (Three Natural 6s)
 
 Three sixes. The dice come up 6, 6, 6. The table erupts. You just rolled a Critical.

@@ -92,8 +92,39 @@ This also means fights are inherently dangerous. You can't stack AC so high that
 The math supports it too. With the 3d6 bell curve, Weak results cluster around the middle just like everything else. A typical attack lands Standard or Weak, consistent, predictable, but never wasted. Combat moves. The tension comes from *who's still standing*, not from *who finally rolled high enough to participate.*
 :::
 
-{{< pagebreak >}}
+## Who Rolls: Players Make All Rolls
 
+The DA never touches the dice in *Heroes of Legend*. This is not a suggestion. It is the rules. Players roll for their attacks, their spells, their skill checks, and crucially, for their defense against every attack made against them. The full explanation is in @sec-chapter-core-resolution. Here is how it works at the table.
+
+### Defending Against NPC Attacks
+
+When an enemy attacks you, the DA describes the attack and gives you the enemy's **Challenge** rating, a penalty to your roll. You make a **Defense Roll**:
+
+**3d6 + Agility modifier + Defense skill bonus − NPC Challenge**
+
+| Your Defense Roll | What Happens | Damage You Take |
+|-------------------|-------------|-----------------|
+| **Strong (15+)** | You dodge, parry, or block the worst of it. | NPC's **Weak** damage |
+| **Standard (9-14)** | You take a glancing blow. | NPC's **Standard** damage |
+| **Weak (1-8)** | The blow lands solid. You were flat-footed. | NPC's **Strong** damage |
+
+The NPC's stat block lists three damage values: Strong, Standard, and Weak, representing the attack's potential. Your defense roll determines which value applies. Roll well? The goblin barely scratches you. Roll poorly? That goblin found the gap in your armor.
+
+### Why NPC Damage Is Reversed
+
+When you attack, a high roll means you hit hard (Strong damage). When you defend, a high roll means *they* hit soft (Weak damage). The dice work the same way, but your relationship to them flips. This reversal is the mechanical price of keeping the dice in the players' hands, and it keeps the math identical to a traditional system where the DA rolls for monsters. The only difference is whose hands are on the dice, and we would rather those hands belong to the players.
+
+### Quick Reference: Defense Roll Modifiers
+
+| Modifier | Source |
+|----------|--------|
+| +2 | **Defend** maneuver (one round) |
+| +1 to +3 | **Cover** (half to three-quarters) |
+| +2 | **Shield** bonus |
+| −1 to −6 | **NPC Challenge** (DA sets based on enemy skill) |
+| −2 | **Surprised** (first round only) |
+
+{{< pagebreak >}}
 ## Damage Types
 
 Not all wounds are created equal. A slash bleeds. A burn blisters. A psychic assault leaves no mark on the body but the mind remembers. Damage types exist so the fiction and the mechanics speak the same language — when the troll's flesh sizzles at the touch of your firebolt, the rules should reflect that.
@@ -281,19 +312,20 @@ Kael uses his Maneuver: **Riposte** is ready if the Knight swings at him.
 
 The Knight assesses the threat. The Blade just drew blood. The Protector is a wall. The Odd is in the back. Tactical decision: kill the one who can actually hurt him.
 
-"I attack the Blade." Rolls for the Knight. Longsword: 3d6 + Brawn (+2). Rolls 6, 3, 2 = 11 + 2 = 13. **Standard.** Longsword Standard damage: 4. Kael's leather armor: DR 2. 4 - 2 = 2 damage. Kael drops from 11 HP to 9 HP.
+"I attack the Blade," the DA announces. "The Knight's longsword comes around in a brutal arc. Challenge −3. Kael, roll Defense."
 
-"Shield Block," Kael declares, spending his reaction. The Knight's Standard drops to Weak: 3 damage - DR 2 = 1 damage. Kael drops to 10 HP instead of 9. The Knight's blade skids off Kael's raised buckler.
+Kael has Agility +1 and no Defense skill. He rolls 3d6 + 1 − 3 = 3d6 − 2. Rolls 5, 3, 2 = 10 − 2 = 8. **Weak.** The Knight's Strong damage: 5. Kael's leather armor: DR 2. 5 − 2 = 3 damage. Kael drops from 11 HP to 8 HP.
 
+"Shield Block!" Kael declares, spending his reaction. The Knight's Strong damage drops to Standard: 4 damage − DR 2 = 2 damage. Kael drops to 9 HP instead of 8. The Knight's blade skids off Kael's raised buckler.
 "Riposte!" Kael spends his reaction, wait. He already used his reaction for Shield Block. He gets one reaction per round. No Riposte. The Knight's attack stands, and Kael's counter never comes. That's the tradeoff. Shield Block saved him HP. Riposte would have cost him HP but dealt damage back. Kael chose survival.
 
 **Round 1, Cultists' Turn:**
 
 Cultist 1 stands up from Prone (uses half his movement). Cultist 2, still standing, hurls a **Dark Bolt** at Lyra, the one who knocked his friend down.
 
-Rolls 3d6 + Guile (+1). Rolls 2, 5, 5 = 12 + 1 = 13. **Standard.** Dark Bolt Standard damage: 3 necrotic. Lyra has no armor. She takes 3 damage. The bolt of shadow slams into her shoulder, cold and wrong. She drops to 7 HP.
+"The cultist snarls and hurls a bolt of crackling darkness. Challenge −1. Lyra, roll Defense."
 
-**Round 1, Roric's Turn:**
+Lyra has Agility +2 and no Defense skill. She rolls 3d6 + 2 − 1 = 3d6 + 1. Rolls 3, 4, 4 = 11 + 1 = 12. **Standard.** Dark Bolt Standard damage: 3 necrotic. Lyra has no armor. She takes 3 damage. The bolt of shadow slams into her shoulder, cold and wrong. She drops to 7 HP.
 
 Roric has been waiting. The Knight is focused on Kael. The cultists are clustered. Time to be the Protector.
 
@@ -303,7 +335,7 @@ Rolls 3d6 + Brawn (+2) + Heavy Weapon Fighting Novice (+1). Rolls 3, 3, 2 = 8 + 
 
 "Maneuver: I'm using **Menacing Glare** from Intimidation Adept." The Knight must make a Morale Check. The DA rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. **Standard.** The Knight wavers, disadvantage on his next attack.
 
-**End of Round 1.** The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 0). The cultists dealt 3 to Lyra. The Knight dealt 1 to Kael (reduced from 2 by Shield Block). Nobody is down. Everyone is engaged. The next round will be decisive.
+**End of Round 1.** The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 0). The cultists dealt 3 to Lyra. The Knight dealt 2 to Kael (reduced from 3 by Shield Block). Nobody is down. Everyone is engaged. The next round will be decisive.
 
 **Round 2, Lyra's Turn:**
 
@@ -331,7 +363,7 @@ The Knight has taken 3 damage, not much, but he's down to 17 HP from 20. Both cu
 
 Knight rolls 3d6: 3, 2, 1 = 6. **Weak.** The Knight lowers his sword. "Enough," he growls. "You fight well. The Iron Circle withdraws." He drags the wounded cultist to his feet. They retreat into the shadows of the temple.
 
-The party could press the attack, but Lyra is at 7 HP, Kael is at 10, and the Knight might have reinforcements. They let them go.
+The party could press the attack, but Lyra is at 7 HP, Kael is at 9, and the Knight might have reinforcements. They let them go.
 
 **Total combat time at the table:** About 8 minutes. Two full rounds. Everyone acted. Damage was exchanged. The Knight broke on morale. The story advanced. That's *Heroes of Legend* combat.
 
