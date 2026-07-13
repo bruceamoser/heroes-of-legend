@@ -4,9 +4,9 @@
 #label("sec-chapter-skills")
 ```
 
-![Illo 14: Skills Art](../assets/images/page035-img023.jpeg){width="60%"}
+<!-- Rationale: Chapter opener at 80% width — an arcanist multi-tasking, showing the breadth of skills available to heroes in a single evocative image. -->
+![Placeholder: An arcanist studying an ancient scroll while simultaneously picking a lock, showing the breadth of skills available to heroes.](../assets/images/placeholder-ch07-skills.png){width=80%}
 
-*Illustration 14 — Skills chapter art (Arcanist class). Placeholder; final art TBD. Dimensions: 1024×1024.*
 
 {{< pagebreak >}}
 

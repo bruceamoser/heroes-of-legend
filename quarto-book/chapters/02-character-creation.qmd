@@ -4,9 +4,9 @@
 #label("sec-chapter-character-creation")
 ```
 
-![Illo 5: Character Creation](../assets/images/page014-img014.jpeg){width="60%"}
+<!-- Rationale: Chapter opener at 80% width — establishes the character creation journey with an aspirational hero lineup that invites readers to imagine their own character. -->
+![Placeholder: A diverse lineup of heroic silhouettes standing before a character sheet unfurled like a scroll, each figure suggesting a different class choice.](../assets/images/placeholder-ch02-character-creation.png){width=80%}
 
-*Illustration 5 � Character creation chapter art. Placeholder; final art TBD. Dimensions: 1024�1024.*
 
 {{< pagebreak >}}
 
@@ -142,9 +142,9 @@ Between ancestry, culture, and class, a starting hero typically has 4-6 Discipli
 
 {{< pagebreak >}}
 
-![Illo 6: Character Creation Second](../assets/images/page015-img015.jpeg){width="60%"}
+<!-- Rationale: Mid-chapter visual break at 60% width — reinforces the hands-on character building process with an intimate tabletop scene. -->
+![Placeholder: A close-up of a player’s hands arranging ancestry and culture cards on a table, building a character backstory.](../assets/images/placeholder-ch02-creation-second.png){width=60%}
 
-*Illustration 6 � Character creation second art. Placeholder; final art TBD. Dimensions: 679�679.*
 
 {{< pagebreak >}}
 

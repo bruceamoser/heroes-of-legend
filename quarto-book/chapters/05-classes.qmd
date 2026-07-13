@@ -4,9 +4,9 @@
 #label("sec-chapter-classes")
 ```
 
-![Illo 10: Classes Art](../assets/images/page017-img019.jpeg){width="60%"}
+<!-- Rationale: Chapter opener at 80% width — the six core classes in iconic poses, establishing class identity and inviting players to imagine their hero’s calling. -->
+![Placeholder: A lineup of the six core classes in iconic poses: Warrior, Rogue, Scholar, Arcanist, Shepherd, and Protector.](../assets/images/placeholder-ch05-classes.png){width=80%}
 
-*Illustration 10 � Classes chapter art (Culture art). Placeholder; final art TBD. Dimensions: 1024�1024.*
 
 {{< pagebreak >}}
 
@@ -83,9 +83,9 @@ A Blade doesn't trade blows, they choose the moment, the angle, the vulnerabilit
 
 {{< pagebreak >}}
 
-![Illo 11: Classes Second Art](../assets/images/page031-img020.jpeg){width="60%"}
+<!-- Rationale: Mid-chapter visual break at 60% width — three adventurers in action poses showing class roles in combat. -->
+![Placeholder: Three adventurers in action poses: a Protector shielding allies, a Warrior charging forward, and an Arcanist casting from behind.](../assets/images/placeholder-ch05-classes-second.png){width=60%}
 
-*Illustration 11 � Classes chapter second art (Roles intro). Placeholder; final art TBD. Dimensions: 832�1024.*
 
 {{< pagebreak >}}
 
@@ -209,9 +209,9 @@ The Leader's secondary ability is **Battle Cry**, a thunderous shout that grants
 
 {{< pagebreak >}}
 
-![Illo 12: Classes Third Art](../assets/images/page033-img021.jpeg){width="60%"}
+<!-- Rationale: Mid-chapter visual break at 60% width — a Protector standing firm against a monstrous foe, illustrating the class’s defensive role. -->
+![Placeholder: A Protector class hero standing firm against a monstrous foe, shield raised, light emanating from their defensive stance.](../assets/images/placeholder-ch05-classes-third.png){width=60%}
 
-*Illustration 12 � Classes chapter third art (Protector class). Placeholder; final art TBD. Dimensions: 1024�1024.*
 
 {{< pagebreak >}}
 
