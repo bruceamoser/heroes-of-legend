@@ -243,7 +243,7 @@ You're not broken. You're balanced on a knife's edge between opposing forces, an
 
 ## Progression
 
-You gain Development Points each level (see `@sec-chapter-advancement`{=typst} for the full progression). Spend them all, they don't carry over.
+You gain Development Points each level (see @sec-chapter-advancement for the full progression). Spend them all, they don't carry over.
 
 **Adept** abilities unlock at Level 3. **Master** abilities unlock at Level 7. Until then, everything you buy is Novice.
 
@@ -261,7 +261,7 @@ Everything you buy has a cost multiplier based on your class:
 
 **Abilities always cost 1/2/4 DP** regardless of class. Their real gate is Discipline prerequisites. A Fireball needs 2 Fire + 1 Energy, if those Disciplines cost you X3, you're paying 9 DP just for the prereqs before you even buy the ability. That's the brake on out-of-class magic, not the ability cost itself.
 
-**Skills** follow the same X1/X2/X3 structure. A Protector pays 3 DP for Arcana Novice, learnable, but expensive. Each skill's X1/X2/X3 classes are listed on its card in `@sec-chapter-skills`{=typst}.
+**Skills** follow the same X1/X2/X3 structure. A Protector pays 3 DP for Arcana Novice, learnable, but expensive. Each skill's X1/X2/X3 classes are listed on its card in @sec-chapter-skills.
 
 **Table 5.X: Weapon & Defense Discipline Costs**
 

@@ -134,7 +134,7 @@ Once per session, each character can take one stronghold action during downtime.
 | Action | Effect |
 |--------|--------|
 | **Craft** | Reduce the time required to craft one item by half. The stronghold's facilities, forge, library, chapel, provide the tools and space. |
-| **Recruit** | Gain 1d3 temporary followers for the next adventure. They're hirelings, not heroes, use the Guard or Bandit stat block from `@sec-chapter-bestiary`{=typst}. They follow reasonable orders but won't sacrifice themselves. |
+| **Recruit** | Gain 1d3 temporary followers for the next adventure. They're hirelings, not heroes, use the Guard or Bandit stat block from @sec-chapter-bestiary. They follow reasonable orders but won't sacrifice themselves. |
 | **Research** | Study a known monster, location, or magical phenomenon. Gain +2 on all Knowledge and Reason checks related to the subject for the next session. The DA provides one concrete piece of intelligence. |
 | **Rest** | Full recovery of HP and removal of one condition or affliction. Additionally, gain temporary HP equal to your level for the next session. Real beds and hot meals make a difference. |
 | **Fortify** | Improve the stronghold's defenses. The stronghold gains +10 temporary HP and attackers suffer -2 on rolls to breach the walls until the end of the next session. Stacks with the Fortify faction action. |
@@ -150,7 +150,7 @@ When your reputation reaches Allied (+3) with a faction, or when your Group Repu
 | Heroic reputation (10+) | 1d6 followers drawn by your legend |
 | Stronghold established | 2d4 followers as staff and garrison |
 
-**Followers use simple NPC stat blocks** (Guard, Bandit, Cultist, see `@sec-chapter-bestiary`{=typst}). They maintain the stronghold, handle mundane tasks, and provide minor mechanical benefits:
+**Followers use simple NPC stat blocks** (Guard, Bandit, Cultist, see @sec-chapter-bestiary). They maintain the stronghold, handle mundane tasks, and provide minor mechanical benefits:
 
 - **Garrison soldiers:** +1 to stronghold defense rolls for every 5 soldiers stationed.
 - **Scholars and sages:** Reduce Research action time by half (stack with the stronghold's Research benefit).
