@@ -6,19 +6,19 @@
 
 ![Illo 25: Advancement Art](../assets/images/page103-img041.png){width="60%"}
 
-*Illustration 25 � Advancement chapter art (Titles). Placeholder; final art TBD. Dimensions: 572�572.*
+*Illustration 25 — Advancement chapter art (Titles). Placeholder; final art TBD. Dimensions: 572×572.*
 
 {{< pagebreak >}}
 
-Your hero doesn't stay the same person who kicked down their first door. Every adventure leaves a mark � a new technique mastered, a spell perfected, a scar that tells a story. Advancement in *Heroes of Legend* isn't about filling an XP bar. It's about your hero becoming more of who they already are, or surprising everyone by becoming someone new.
+Your hero doesn't stay the same person who kicked down their first door. Every adventure leaves a mark — a new technique mastered, a spell perfected, a scar that tells a story. Advancement in *Heroes of Legend* isn't about filling an XP bar. It's about your hero becoming more of who they already are, or surprising everyone by becoming someone new.
 
-This chapter covers the mechanics: when you level, what you gain, and how to spend what you've earned. The stories behind those gains � the mentor who trained you, the ancient text you deciphered, the near-death experience that unlocked something dormant � those are yours to tell.
+This chapter covers the mechanics: when you level, what you gain, and how to spend what you've earned. The stories behind those gains — the mentor who trained you, the ancient text you deciphered, the near-death experience that unlocked something dormant — those are yours to tell.
 
 {{< pagebreak >}}
 
 ## Gaining Levels
 
-Levels are earned through adventure milestones, not experience points. When the party achieves something significant � defeats a major enemy, completes a quest, resolves a story arc � the DA awards a level. There's no tracking individual goblin kills. There's no calculating CR budgets. The story says "you've earned this," and you level up.
+Levels are earned through adventure milestones, not experience points. When the party achieves something significant — defeats a major enemy, completes a quest, resolves a story arc — the DA awards a level. There's no tracking individual goblin kills. There's no calculating CR budgets. The story says "you've earned this," and you level up.
 
 The expected pace is roughly one level every two to three sessions. At that rate, a weekly group reaches level 20 in about a year of play. Some tables move faster. Some move slower. The pace that's right for your group is the pace where leveling feels earned, not automatic. When the party hits a new level and the table goes "yes!", you're doing it right. When they barely notice, you're leveling too fast. When they're frustrated, too slow. Adjust.
 
@@ -28,7 +28,7 @@ The expected pace is roughly one level every two to three sessions. At that rate
 - Achieves a personal character goal (the Blade avenges their master, the Intellect deciphers the lost codex)
 - Survives an ordeal that changes them (the dungeon that killed two hirelings, the negotiation that averted a war)
 
-The DA decides. There's no formula. Trust your instincts � you know when the party has earned it.
+The DA decides. There's no formula. Trust your instincts — you know when the party has earned it.
 
 {{< pagebreak >}}
 
@@ -36,7 +36,7 @@ The DA decides. There's no formula. Trust your instincts � you know when the p
 
 Development Points are the currency of growth. You spend them to buy skills, talents, and abilities. Every level gives you a fresh infusion, and every point spent is a choice about who your hero is becoming.
 
-At each level, you gain 3�4 DP, with larger awards at milestone levels (1, 5, 10, 15, 20). The table below shows the full progression. Budget wisely � DP don't carry over between levels, so spend every point before you level again. Unspent DP is potential left on the table.
+At each level, you gain 3–4 DP, with larger awards at milestone levels (1, 5, 10, 15, 20). The table below shows the full progression. Budget wisely — DP don't carry over between levels, so spend every point before you level again. Unspent DP is potential left on the table.
 
 | Level | DP | Other Gains |
 |-------|-----|-------------|

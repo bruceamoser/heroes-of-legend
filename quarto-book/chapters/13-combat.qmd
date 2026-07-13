@@ -6,7 +6,7 @@
 
 ![Illo 20: Combat Art](../assets/images/page075-img029.jpeg){width="60%"}
 
-*Illustration 20 � Combat chapter art (Character traits / combat). Placeholder; final art TBD. Dimensions: 1024�1024.*
+*Illustration 20 — Combat chapter art (Character traits / combat). Placeholder; final art TBD. Dimensions: 1024×1024.*
 
 {{< pagebreak >}}
 
@@ -22,7 +22,7 @@ When blades come out, everyone rolls. **1d6 + Agility modifier.** Highest goes f
 
 That's it. No convoluted surprise rounds. No phases. Roll, sort, go.
 
-Initiative is simple by design. Combat already has enough moving parts � action economy, maneuvers, reactions, cover, conditions. You don't need a complex initiative system on top of all that. You need to know who's up next so you can plan your turn while the goblins are swinging. The 1d6 keeps things moving and gives Agility heroes a consistent edge without letting them monopolize the first round. The quick always go first. Sometimes the lucky go first too. That's combat.
+Initiative is simple by design. Combat already has enough moving parts — action economy, maneuvers, reactions, cover, conditions. You don't need a complex initiative system on top of all that. You need to know who's up next so you can plan your turn while the goblins are swinging. The 1d6 keeps things moving and gives Agility heroes a consistent edge without letting them monopolize the first round. The quick always go first. Sometimes the lucky go first too. That's combat.
 
 {{< pagebreak >}}
 
@@ -96,15 +96,15 @@ The math supports it too. With the 3d6 bell curve, Weak results cluster around t
 
 ## Damage Types
 
-Not all wounds are created equal. A slash bleeds. A burn blisters. A psychic assault leaves no mark on the body but the mind remembers. Damage types exist so the fiction and the mechanics speak the same language � when the troll's flesh sizzles at the touch of your firebolt, the rules should reflect that.
+Not all wounds are created equal. A slash bleeds. A burn blisters. A psychic assault leaves no mark on the body but the mind remembers. Damage types exist so the fiction and the mechanics speak the same language — when the troll's flesh sizzles at the touch of your firebolt, the rules should reflect that.
 
-**Physical:** Slashing, Piercing, Bludgeoning. These are the bread and butter of combat. Swords slash, arrows pierce, hammers bludgeon. Most armor protects against all three equally, but some creatures care deeply about the distinction � skeletons laugh at piercing arrows but crumble under bludgeoning maces.
+**Physical:** Slashing, Piercing, Bludgeoning. These are the bread and butter of combat. Swords slash, arrows pierce, hammers bludgeon. Most armor protects against all three equally, but some creatures care deeply about the distinction — skeletons laugh at piercing arrows but crumble under bludgeoning maces.
 
-**Elemental:** Fire, Cold, Lightning, Acid, Poison. The primal forces, channeled through magic or alchemy. Elemental damage bypasses most physical armor entirely, but many creatures have natural resistances � fire elementals shrug off flames, frost giants wade through blizzards.
+**Elemental:** Fire, Cold, Lightning, Acid, Poison. The primal forces, channeled through magic or alchemy. Elemental damage bypasses most physical armor entirely, but many creatures have natural resistances — fire elementals shrug off flames, frost giants wade through blizzards.
 
-**Magical:** Force, Radiant, Necrotic, Psychic. The esoteric damage types. Force is raw magical energy, the wizard's hammer. Radiant is divine light, the shepherd's fire. Necrotic is death made manifest, the unbalancing touch. Psychic attacks the mind directly � the brain has no armor.
+**Magical:** Force, Radiant, Necrotic, Psychic. The esoteric damage types. Force is raw magical energy, the wizard's hammer. Radiant is divine light, the shepherd's fire. Necrotic is death made manifest, the unbalancing touch. Psychic attacks the mind directly — the brain has no armor.
 
-Resistances and vulnerabilities modify damage of specific types. A creature resistant to Fire takes half damage from your Firebolt (round down). A creature vulnerable to Slashing takes double from your longsword. The DA will tell you when it matters � part of the game's fun is discovering, through play, that the shambling horror in the swamp stops regenerating when you hit it with fire.
+Resistances and vulnerabilities modify damage of specific types. A creature resistant to Fire takes half damage from your Firebolt (round down). A creature vulnerable to Slashing takes double from your longsword. The DA will tell you when it matters — part of the game's fun is discovering, through play, that the shambling horror in the swamp stops regenerating when you hit it with fire.
 
 {{< pagebreak >}}
 
@@ -186,7 +186,7 @@ The off-hand weapon must have the **Light** property (Dagger, Shortsword, Handax
 
 Not every enemy needs to die. When you reduce a creature to 0 HP with a melee attack, you can pull the blow. Declare it non-lethal. The creature falls Unconscious but stable at 0 HP instead of bleeding out. They'll wake up with a headache and, hopefully, a newfound appreciation for answering questions.
 
-Ranged attacks and spells can't be made non-lethal � arrows and fireballs don't do "gentle." You can't ask a lightning bolt to hold back. Unless the spell specifically says otherwise (like *Sleep*), assume ranged and magic are lethal. If you want prisoners, put the bow away and draw steel.
+Ranged attacks and spells can't be made non-lethal — arrows and fireballs don't do "gentle." You can't ask a lightning bolt to hold back. Unless the spell specifically says otherwise (like *Sleep*), assume ranged and magic are lethal. If you want prisoners, put the bow away and draw steel.
 
 > *Why this matters:* Prisoners have information. Killing the only goblin who knows the dungeon layout means you're wandering blind. The cultist you spared might know the villain's true name. The bandit leader, once disarmed and facing a choice between talking and bleeding, becomes your best source of intelligence. Sometimes the most powerful thing you can do is leave someone alive, and talking. The dead don't negotiate.
 
@@ -235,7 +235,7 @@ An ally can stabilize you with a Medicine check (Standard difficulty) or any hea
 
 ## Cover
 
-Use the terrain. A pillar, a flipped table, a crouching ally � anything between you and incoming fire helps. Cover is free armor. It doesn't cost a Maneuver, doesn't require a skill, doesn't use an Action. It just requires you to think about where you're standing before the arrows start flying.
+Use the terrain. A pillar, a flipped table, a crouching ally — anything between you and incoming fire helps. Cover is free armor. It doesn't cost a Maneuver, doesn't require a skill, doesn't use an Action. It just requires you to think about where you're standing before the arrows start flying.
 
 | Cover | Attacker Penalty |
 |-------|-----------------|
@@ -251,7 +251,7 @@ Positioning matters. If you're standing in the open trading shots with archers, 
 
 ![Illo 36: Combat Midpoint](../assets/svg/placeholder-section.svg){width="60%"}
 
-*Illustration 36 � Combat chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400�300.*
+*Illustration 36 — Combat chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
 
 {{< pagebreak >}}
 

@@ -6,15 +6,15 @@
 
 ![Illo 26: GM Guidance Art](../assets/images/page103-img042.jpeg){width="60%"}
 
-*Illustration 26 � GM guidance chapter art (Titles / GM section). Placeholder; final art TBD. Dimensions: 1024�1024.*
+*Illustration 26 — GM guidance chapter art (Titles / GM section). Placeholder; final art TBD. Dimensions: 1024×1024.*
 
 {{< pagebreak >}}
 
 So you're the Dungeon Architect. You've read the rules, you've helped your players build their heroes, and now everyone's looking at you, waiting for the world to appear. No pressure.
 
-This chapter is written for you. Not as a manual � you don't need a manual, you need a fellow DA who's been behind the screen for thirty years and has the scar tissue to prove it. I've run sessions that collapsed into chaos. I've run sessions where the party spent three hours debating door hinges and loved every minute. I've run sessions where a single dice roll changed the entire campaign. Here's what I've learned: the rules serve the story. Your job isn't to enforce them. Your job is to use them to make the story better.
+This chapter is written for you. Not as a manual — you don't need a manual, you need a fellow DA who's been behind the screen for thirty years and has the scar tissue to prove it. I've run sessions that collapsed into chaos. I've run sessions where the party spent three hours debating door hinges and loved every minute. I've run sessions where a single dice roll changed the entire campaign. Here's what I've learned: the rules serve the story. Your job isn't to enforce them. Your job is to use them to make the story better.
 
-Everything in this chapter is advice. Take what works. Ignore what doesn't. Your table is different from mine. Your players are different from mine. The only metric that matters is whether everyone at your table � including you � is having a good time. If they are, you're doing it right, even if you're doing it differently than this book suggests.
+Everything in this chapter is advice. Take what works. Ignore what doesn't. Your table is different from mine. Your players are different from mine. The only metric that matters is whether everyone at your table — including you — is having a good time. If they are, you're doing it right, even if you're doing it differently than this book suggests.
 
 {{< pagebreak >}}
 
@@ -26,7 +26,7 @@ A scene is a unit of story. It has a beginning (the party enters the throne room
 
 **Every scene should earn its place at the table.** Ask yourself: does this scene advance the plot, reveal character, or raise the stakes? If it does none of those things, cut it. Your players won't miss what they never saw, but they will remember the session that dragged because you insisted on roleplaying every shopkeeper interaction.
 
-**Use scene framing to control pace.** After a tense combat, give the party a quiet scene � a campfire conversation, a victory toast at the tavern. After three quiet scenes, hit them with something urgent. Pace isn't about speed. It's about rhythm. Fast, slow, fast, slow. Your players' attention spans will thank you.
+**Use scene framing to control pace.** After a tense combat, give the party a quiet scene — a campfire conversation, a victory toast at the tavern. After three quiet scenes, hit them with something urgent. Pace isn't about speed. It's about rhythm. Fast, slow, fast, slow. Your players' attention spans will thank you.
 
 **When in doubt, ask the table.** "Do you want to play out the journey, or shall we cut to the gates of Thornwall?" Sometimes players want the quiet scenes. Sometimes they want to get to the action. You're not a mind reader. Ask. It's not breaking immersion; it's respecting everyone's time.
 
@@ -36,7 +36,7 @@ A scene is a unit of story. It has a beginning (the party enters the throne room
 
 The difficulty modifier is the simplest tool in your kit, and the one new DAs misuse most often. Here's how to wield it well.
 
-**The baseline is +0.** Standard difficulty means the task is a fair test of the hero's abilities. Picking a standard lock. Climbing a wall with handholds. Lying to a guard who has no reason to suspect you. When the fiction says "this is what the skill was made for," the modifier is +0. Don't add penalties just because you want the roll to be harder. The bell curve makes Standard results the most common outcome, and that's intentional � competent heroes succeed at competent tasks.
+**The baseline is +0.** Standard difficulty means the task is a fair test of the hero's abilities. Picking a standard lock. Climbing a wall with handholds. Lying to a guard who has no reason to suspect you. When the fiction says "this is what the skill was made for," the modifier is +0. Don't add penalties just because you want the roll to be harder. The bell curve makes Standard results the most common outcome, and that's intentional — competent heroes succeed at competent tasks.
 
 **Add bonuses when the situation favors the hero.** The guard is distracted (+2). The lock is rusty and half-broken (+2). The wall has plenty of handholds and the hero has a rope (+4). Generous bonuses make players feel smart for setting up advantages. If the rogue spent ten minutes creating a distraction before attempting the lock, reward that. The dice should reflect the fiction, not override it.
 
@@ -50,15 +50,15 @@ The difficulty modifier is the simplest tool in your kit, and the one new DAs mi
 
 Balancing combat encounters is more art than science, but the numbers give you a starting point. Here's how to think about it.
 
-**The basic math:** Compare total party Disciplines to total enemy threat. A standard encounter � the kind the party should win while expending some resources and taking some damage � matches the party's total Discipline count. A hard encounter has about 1.5 times that. A deadly encounter has double. But these are guidelines, not guarantees. Terrain, surprise, and player cleverness will swing fights further than any formula.
+**The basic math:** Compare total party Disciplines to total enemy threat. A standard encounter — the kind the party should win while expending some resources and taking some damage — matches the party's total Discipline count. A hard encounter has about 1.5 times that. A deadly encounter has double. But these are guidelines, not guarantees. Terrain, surprise, and player cleverness will swing fights further than any formula.
 
 **Action economy is everything.** Four goblins (four actions per round) are more dangerous than one ogre with the same total HP (one action per round). The side with more actions controls the board. When building encounters, count actions, not just hit points. A solo boss needs legendary actions or multiattack to keep up. A swarm of minions needs low HP so they drop fast and the action economy swings back toward the party.
 
 **Vary your encounter design.** Not every fight should be "kill all enemies." Mix in objectives: protect the ritual circle for three rounds, stop the cultist from reaching the alarm bell, escape the collapsing temple before the ceiling comes down. Objectives force players to make choices beyond "which enemy do I attack?" and those choices are where memorable combat lives.
 
-**Use waves.** Don't put every enemy on the board at the start of combat. Have reinforcements arrive on round 2 or 3. This lets you adjust difficulty on the fly � if the party is struggling, the reinforcements never show. If they're steamrolling, more enemies pour through the door. Waves also keep combat from feeling static. The board changes. New threats appear. Players have to adapt.
+**Use waves.** Don't put every enemy on the board at the start of combat. Have reinforcements arrive on round 2 or 3. This lets you adjust difficulty on the fly — if the party is struggling, the reinforcements never show. If they're steamrolling, more enemies pour through the door. Waves also keep combat from feeling static. The board changes. New threats appear. Players have to adapt.
 
-**Know when to end it.** When the outcome is certain � the last two goblins are surrounded, wounded, and outnumbered � don't play out two more rounds of cleanup. The goblins surrender or flee. Move to the aftermath. Combat is a pacing tool, not a punishment.
+**Know when to end it.** When the outcome is certain — the last two goblins are surrounded, wounded, and outnumbered — don't play out two more rounds of cleanup. The goblins surrender or flee. Move to the aftermath. Combat is a pacing tool, not a punishment.
 
 {{< pagebreak >}}
 
@@ -66,13 +66,13 @@ Balancing combat encounters is more art than science, but the numbers give you a
 
 Treasure is the reward system. It's how the game says "you did something impressive, here's what you get." Pace it well and your players will chase every lead, explore every corner, and take risks they'd otherwise avoid. Pace it poorly and treasure becomes either meaningless or frustrating.
 
-**Magic items: 1�2 per level, per party.** Not per character � per party. At level 3, the party of four should have found maybe three to six magic items total, and at least one of those should be consumable (a potion, a scroll, a single-use charm). Permanent items should feel significant. A +1 sword at level 2 is a big deal. By level 10, the party should have found maybe one Very Rare item and a handful of Rares. Legendary items are campaign capstones � the whole party should remember the session where they earned one.
+**Magic items: 1–2 per level, per party.** Not per character — per party. At level 3, the party of four should have found maybe three to six magic items total, and at least one of those should be consumable (a potion, a scroll, a single-use charm). Permanent items should feel significant. A +1 sword at level 2 is a big deal. By level 10, the party should have found maybe one Very Rare item and a handful of Rares. Legendary items are campaign capstones — the whole party should remember the session where they earned one.
 
 **Gold should create choices.** If the party has enough gold to buy everything they want, gold stops mattering. If they're constantly broke, they stop caring about rewards. The sweet spot is where the party has to choose: do we upgrade the fighter's armor, or commission that potion of water breathing for the sunken temple? Do we spend our gold on a stronghold, or on bribing the city council? Choices create stories. "We bought plate armor" is a transaction. "We spent our last copper bribing the harbor master to look the other way while we smuggled the refugees out" is a story.
 
 **Consumables are your secret weapon.** Potions, scrolls, and single-use magic items are the easiest treasure to hand out because they don't permanently shift the party's power level. A potion of flight solves one encounter brilliantly. Boots of flight solve every encounter forever. Be generous with consumables. Be stingy with permanents. Your future self, trying to challenge a party that can all fly, will thank you.
 
-**Let players use their treasure creatively.** If the party wants to spend their gold on a tavern, let them. The tavern becomes a story engine � rumors, rivals, arson, the health inspector who's actually a vampire. If they want to commission a custom magic item, work with them on the design. Make them quest for the rare component. The best treasure isn't found in a hoard; it's built over a campaign.
+**Let players use their treasure creatively.** If the party wants to spend their gold on a tavern, let them. The tavern becomes a story engine — rumors, rivals, arson, the health inspector who's actually a vampire. If they want to commission a custom magic item, work with them on the design. Make them quest for the rare component. The best treasure isn't found in a hoard; it's built over a campaign.
 
 {{< pagebreak >}}
 
@@ -80,11 +80,11 @@ Treasure is the reward system. It's how the game says "you did something impress
 
 You don't need a full character sheet for every shopkeeper the party meets. Here's how to build NPCs fast, and how to make the ones who matter feel real.
 
-**The quick method:** Assign one attribute at +1 (their strength), one at -1 (their weakness), and the rest at 0. Give them one skill at Adept (+2) that defines their role � the blacksmith has Craft, the guard captain has Intimidation, the courtier has Persuasion. That's enough for most interactions. The party doesn't need to know the apothecary's Brawn score. They need to know she can identify poisons and she has a dry sense of humor.
+**The quick method:** Assign one attribute at +1 (their strength), one at -1 (their weakness), and the rest at 0. Give them one skill at Adept (+2) that defines their role — the blacksmith has Craft, the guard captain has Intimidation, the courtier has Persuasion. That's enough for most interactions. The party doesn't need to know the apothecary's Brawn score. They need to know she can identify poisons and she has a dry sense of humor.
 
-**Give every NPC a want and a fear.** The guard captain *wants* a quiet shift, and *fears* anything that'll mean paperwork. The merchant *wants* to sell the cursed amulet before it activates again, and *fears* the party finding out why it's so cheap. A want and a fear take ten seconds to invent and give you everything you need to roleplay the NPC reactively. When the party does something unexpected � and they always will � you don't need to consult a stat block. You just ask: what does this person want, and what are they afraid of? The answer tells you how they respond.
+**Give every NPC a want and a fear.** The guard captain *wants* a quiet shift, and *fears* anything that'll mean paperwork. The merchant *wants* to sell the cursed amulet before it activates again, and *fears* the party finding out why it's so cheap. A want and a fear take ten seconds to invent and give you everything you need to roleplay the NPC reactively. When the party does something unexpected — and they always will — you don't need to consult a stat block. You just ask: what does this person want, and what are they afraid of? The answer tells you how they respond.
 
-**Recycle and remix.** The helpful innkeeper from two towns ago? She's now the nervous apothecary with a different name and a different voice. The party won't notice. They interact with dozens of NPCs. You're the only one tracking them all. Save your creative energy for the NPCs who matter � the recurring villain, the patron, the rival adventuring party. Everyone else can be built from templates.
+**Recycle and remix.** The helpful innkeeper from two towns ago? She's now the nervous apothecary with a different name and a different voice. The party won't notice. They interact with dozens of NPCs. You're the only one tracking them all. Save your creative energy for the NPCs who matter — the recurring villain, the patron, the rival adventuring party. Everyone else can be built from templates.
 
 **Make the important ones specific.** The baron doesn't just "sit on a throne." He sits on a throne made from the hull of the ship that brought his ancestors to this land. The assassin doesn't just "wear black." She wears a silk scarf over the lower half of her face, and her eyes are the color of old coins. One specific detail makes an NPC memorable. Two makes them vivid. Three is showing off.
 
@@ -92,13 +92,13 @@ You don't need a full character sheet for every shopkeeper the party meets. Here
 
 ## Optional Rules
 
-Every table is different. These rules let you tune the game's tone without breaking anything. Try one at a time. See how your group reacts. The game works fine without any of them � these are seasoning, not ingredients.
+Every table is different. These rules let you tune the game's tone without breaking anything. Try one at a time. See how your group reacts. The game works fine without any of them — these are seasoning, not ingredients.
 
-**Gritty Realism:** Short rests take 8 hours. Long rests take 1 full week of downtime. Use this when you want travel and exploration to feel grueling, when every resource decision matters, and when the party should dread the journey as much as the destination. Don't use this for dungeon crawls � the pace will grind to a halt. Gritty realism works best in campaigns where combat is rare but consequential, and where the tension comes from attrition over days, not minutes.
+**Gritty Realism:** Short rests take 8 hours. Long rests take 1 full week of downtime. Use this when you want travel and exploration to feel grueling, when every resource decision matters, and when the party should dread the journey as much as the destination. Don't use this for dungeon crawls — the pace will grind to a halt. Gritty realism works best in campaigns where combat is rare but consequential, and where the tension comes from attrition over days, not minutes.
 
-**Heroic Mode:** The party gains +1 Development Point per level. They'll have more skills, more talents, more abilities at every stage of the game. Use this for smaller parties (2�3 players) who need the extra power to handle standard encounters, or for groups who love character customization and want more toys to play with. Don't use this with optimization-heavy groups unless you're prepared for the party to punch above their weight consistently.
+**Heroic Mode:** The party gains +1 Development Point per level. They'll have more skills, more talents, more abilities at every stage of the game. Use this for smaller parties (2–3 players) who need the extra power to handle standard encounters, or for groups who love character customization and want more toys to play with. Don't use this with optimization-heavy groups unless you're prepared for the party to punch above their weight consistently.
 
-**Discipline Crafting:** At level 10+, characters may combine 2 General Disciplines into 1 specific Discipline of their choice. This represents years of focused training paying off � the generalist finally specializing. It's a late-game option for characters who've been sitting on General Disciplines and want to unlock Master-tier abilities in a specific domain. Limit this to once per character, or at most once per tier (levels 10, 15, 20). It's meant to enable character evolution, not to let players respec their entire build.
+**Discipline Crafting:** At level 10+, characters may combine 2 General Disciplines into 1 specific Discipline of their choice. This represents years of focused training paying off — the generalist finally specializing. It's a late-game option for characters who've been sitting on General Disciplines and want to unlock Master-tier abilities in a specific domain. Limit this to once per character, or at most once per tier (levels 10, 15, 20). It's meant to enable character evolution, not to let players respec their entire build.
 
 
 {{< pagebreak >}}
@@ -357,7 +357,7 @@ The party emerges from the vault, wet, exhausted, and alive. Behind them, the st
 
 ![Illo 27: GM Guidance Second Art](../assets/images/page106-img043.jpeg){width="60%"}
 
-*Illustration 27 � GM guidance chapter second art (Bestiary cover). Placeholder; final art TBD. Dimensions: 584�584.*
+*Illustration 27 — GM guidance chapter second art (Bestiary cover). Placeholder; final art TBD. Dimensions: 584×584.*
 
 {{< pagebreak >}}
 

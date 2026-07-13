@@ -6,7 +6,7 @@
 
 ![Illo 18: Arcane Spells Art](../assets/images/page039-img027.jpeg){width="60%"}
 
-*Illustration 18 � Arcane spells chapter art (Leader class). Placeholder; final art TBD. Dimensions: 1024�1024.*
+*Illustration 18 — Arcane spells chapter art (Leader class). Placeholder; final art TBD. Dimensions: 1024×1024.*
 
 {{< pagebreak >}}
 
@@ -814,7 +814,7 @@ Acid is the patient element. It doesn't explode. It doesn't freeze. It *eats.* A
 
 ![Illo 34: Arcane Spells Midpoint](../assets/svg/placeholder-section.svg){width="60%"}
 
-*Illustration 34 � Arcane spells chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400�300.*
+*Illustration 34 — Arcane spells chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
 
 {{< pagebreak >}}
 
