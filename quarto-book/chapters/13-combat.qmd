@@ -63,7 +63,7 @@ These maneuvers are free for everyone. No skill required. No Discipline check. J
 | **Stand Up** | Rise from prone. |
 | **Use Item** | Drink a potion, apply a salve, or activate a simple device. |
 
-Skill-granted maneuvers are listed on each skill's card in `@sec-chapter-skills`{=typst}. They're typically more powerful than basics and require Adept or Master rank. You earn those. They're not free.
+Skill-granted maneuvers are listed on each skill's card in @sec-chapter-skills. They're typically more powerful than basics and require Adept or Master rank. You earn those. They're not free.
 
 {{< pagebreak >}}
 
@@ -76,7 +76,7 @@ Roll 3d6 + modifiers. The total determines your damage tier:
 - **Weak:** Glancing blow. Apply the weapon's Weak damage value.
 - **Standard:** Solid hit. Apply Standard damage.
 - **Strong:** Devastating strike. Apply Strong damage.
-- **Critical (three 6s):** Maximum Strong damage plus a bonus effect from the Critical table (`@sec-chapter-core-resolution`{=typst}).
+- **Critical (three 6s):** Maximum Strong damage plus a bonus effect from the Critical table (@sec-chapter-core-resolution).
 
 That's one roll. No separate damage dice. No "did I hit?" anxiety. Roll once, read the damage, move on.
 

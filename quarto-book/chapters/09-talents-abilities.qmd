@@ -14,7 +14,7 @@ Listen up. Talents are what you *are*. Abilities are what you *do*. One's always
 
 Talents are passive. They modify your numbers, bend the rules in your favor, or grant you something you didn't have before. You buy them once and they just *work*, no activation, no maneuver cost, no "is it my turn yet?" They're the reason the Protector takes one more hit than everyone else and the Blade's crits leave a smoking crater.
 
-Abilities are active. Spells, combat techniques, signature class powers, anything you have to *decide* to use. You spend your Action or Maneuver, the ability fires, something happens. Abilities follow the same Novice ? Adept ? Master chain as everything else in this game. See `@sec-chapter-magic-system`{=typst} for spell chains specifically.
+Abilities are active. Spells, combat techniques, signature class powers, anything you have to *decide* to use. You spend your Action or Maneuver, the ability fires, something happens. Abilities follow the same Novice ? Adept ? Master chain as everything else in this game. See @sec-chapter-magic-system for spell chains specifically.
 
 {{< pagebreak >}}
 
@@ -129,7 +129,7 @@ That's the power of talent chains. Spell Weaver keeps her battlefield control ru
 
 ## Ability Chains
 
-Abilities (including spells) follow the same Novice ? Adept ? Master chain structure. See `@sec-chapter-magic-system`{=typst} for spell chains. The key distinction: **talents are always on; abilities must be activated.** A Protector with Shield Wall doesn't "activate" it, allies within reach just get +1 DR. A Blade using Precise Stab must spend their Maneuver and declare the ability. Know which is which before the dice hit the table.
+Abilities (including spells) follow the same Novice ? Adept ? Master chain structure. See @sec-chapter-magic-system for spell chains. The key distinction: **talents are always on; abilities must be activated.** A Protector with Shield Wall doesn't "activate" it, allies within reach just get +1 DR. A Blade using Precise Stab must spend their Maneuver and declare the ability. Know which is which before the dice hit the table.
 
 ::: {.callout-note}
 ## The Trap of "Buy Everything"

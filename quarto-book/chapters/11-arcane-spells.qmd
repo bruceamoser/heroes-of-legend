@@ -18,7 +18,7 @@ Arcane magic is the art of telling the universe to sit down and shut up, and mak
 
 This chapter contains every arcane spell in the game. They're organized by element, then by chain. Each chain is a path: Novice to Adept to Master. Walk it. Earn it. Then set the world on fire.
 
-*See `@sec-chapter-magic-system`{=typst} for how spellcasting works.*
+*See @sec-chapter-magic-system for how spellcasting works.*
 
 {{< pagebreak >}}
 
@@ -210,7 +210,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 Fire is the element of first resort and last resort. It burns. It spreads. It doesn't ask permission and it doesn't apologize. Fire mages aren't subtle, they're *effective.* Every fire chain starts with a single flame and ends with a conflagration that reshapes the battlefield. If you're going to walk this path, invest in fire resistance. Your allies will thank you.
 
-*See `@sec-chapter-magic-system`{=typst} for how spellcasting works.*
+*See @sec-chapter-magic-system for how spellcasting works.*
 
 ### Firebolt Chain
 **Disciplines:** Fire
@@ -389,7 +389,7 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 
 Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays.* It locks down terrain, freezes enemies in place, and makes the battlefield yours at the speed of dropping temperature. Ice mages don't need to be the fastest person in the room. By the time the fight starts, nobody else can move.
 
-*See `@sec-chapter-magic-system`{=typst} for how spellcasting works.*
+*See @sec-chapter-magic-system for how spellcasting works.*
 
 ### Frost Ray Chain
 **Disciplines:** Water
@@ -568,7 +568,7 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 
 Lightning doesn't ask. Lightning doesn't warn. One moment there's air, the next, there's a white-hot line burned across your vision and the smell of ozone where your enemy used to be. Lightning mages are fast, loud, and merciless. Their spells leap from target to target like the universe is playing favorites. If fire is a hammer, lightning is a scalpel made of thunder.
 
-*See `@sec-chapter-magic-system`{=typst} for how spellcasting works.*
+*See @sec-chapter-magic-system for how spellcasting works.*
 
 ### Lightning Bolt Chain
 **Disciplines:** Wind
@@ -692,7 +692,7 @@ Lightning doesn't ask. Lightning doesn't warn. One moment there's air, the next,
 
 Acid is the patient element. It doesn't explode. It doesn't freeze. It *eats.* Acid magic corrodes armor, dissolves barriers, and keeps hurting long after the initial splash. Acid mages are methodical. They don't need to kill you this round, they just need the acid to finish its work before you finish yours. Spoiler: it will.
 
-*See `@sec-chapter-magic-system`{=typst} for how spellcasting works.*
+*See @sec-chapter-magic-system for how spellcasting works.*
 
 ### Caustic Spray Chain
 **Disciplines:** Earth
@@ -822,7 +822,7 @@ Acid is the patient element. It doesn't explode. It doesn't freeze. It *eats.* A
 
 Force magic is will made manifest. No fire, no ice, no lightning, just pure telekinetic energy hitting with the subtlety of a falling keep. Force spells bypass elemental resistance. They shatter barriers. They move objects and creatures with the same casual disregard for physics. Force mages don't burn you or freeze you. They just *move* you, often through a wall.
 
-*See `@sec-chapter-magic-system`{=typst} for how spellcasting works.*
+*See @sec-chapter-magic-system for how spellcasting works.*
 
 ### Magic Missile Chain
 **Disciplines:** Energy
@@ -1001,7 +1001,7 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 
 Illusion magic is the art of the lie that becomes truth. You don't burn the enemy, you make them burn their own allies. You don't become invisible, you convince the light that you were never there. Illusionists don't win fights with power. They win by making the enemy fight the wrong battle.
 
-*See `@sec-chapter-magic-system`{=typst} for how spellcasting works.*
+*See @sec-chapter-magic-system for how spellcasting works.*
 
 ### Phantasmal Image Chain
 **Disciplines:** Energy
@@ -1125,7 +1125,7 @@ Illusion magic is the art of the lie that becomes truth. You don't burn the enem
 
 Charm magic is the whisper that becomes a command. It doesn't burn. It doesn't freeze. It simply makes the enemy *agree* with you. Against a charmed foe, the deadliest sword arm in the realm becomes a hand offering you a cup of tea. Charm mages are diplomats, interrogators, and puppet-masters. They win conflicts without leaving scorch marks, but the scars they leave run deeper.
 
-*See `@sec-chapter-magic-system`{=typst} for how spellcasting works.*
+*See @sec-chapter-magic-system for how spellcasting works.*
 
 ### Befriend Chain
 **Disciplines:** Energy
@@ -1249,7 +1249,7 @@ Charm magic is the whisper that becomes a command. It doesn't burn. It doesn't f
 
 Necromancy is the magic of the threshold, the doorway between life and death, and what happens when you hold it open. It drains life. It raises corpses. It reminds the living that their time is borrowed. Necromancers are feared for good reason. The power they wield is not evil by nature, but it's damn easy to use it that way.
 
-*See `@sec-chapter-magic-system`{=typst} for how spellcasting works.*
+*See @sec-chapter-magic-system for how spellcasting works.*
 
 ### Vampiric Touch Chain
 **Disciplines:** Energy
@@ -1372,7 +1372,7 @@ Necromancy is the magic of the threshold, the doorway between life and death, an
 
 Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It speeds the body beyond natural limits. It turns skin to stone and stone to diamond. Transmuters are engineers of the physical form. They don't destroy, they transform. What emerges from their magic is stronger, faster, and harder than what went in.
 
-*See `@sec-chapter-magic-system`{=typst} for how spellcasting works.*
+*See @sec-chapter-magic-system for how spellcasting works.*
 
 ### Haste Chain
 **Disciplines:** Energy

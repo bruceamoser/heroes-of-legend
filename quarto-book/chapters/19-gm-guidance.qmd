@@ -284,7 +284,7 @@ Four **Drowned Guardians** rise from the water when the party enters the central
 
 **Tactics:** The guardians spread out, one per party member if possible. They're slow but relentless, they don't flank, they don't retreat, they just keep coming. If a guardian is reduced to 0 HP, it collapses into the water with a splash. On the next round, roll 1d6. On a 5-6, it rises again at 1 HP (the water heals them). The party needs to either destroy all four in quick succession or figure out that dragging a body out of the water stops the regeneration.
 
-**Environmental hazard:** Any character who ends their turn in the water must make an Agility check (Standard) or the current knocks them Prone. The water is only ankle-deep, falling in it is embarrassing, not dangerous. But Prone in combat is bad. Remember that standing up costs a Maneuver (`@sec-chapter-combat`{=typst}).
+**Environmental hazard:** Any character who ends their turn in the water must make an Agility check (Standard) or the current knocks them Prone. The water is only ankle-deep, falling in it is embarrassing, not dangerous. But Prone in combat is bad. Remember that standing up costs a Maneuver (@sec-chapter-combat).
 
 **Teaching moment:** After the first round, pause and point out what just happened. "You all hit. Every attack connected. The question was how hard, and you saw the difference between a Weak scratch and a Strong blow. Now it's round two. What are you going to do differently?"
 
