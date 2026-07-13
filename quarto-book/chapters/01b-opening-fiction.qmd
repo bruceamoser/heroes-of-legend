@@ -1,5 +1,9 @@
 # The Last Ember {#sec-chapter-opening-fiction}
 
+```{=typst}
+#label("sec-chapter-opening-fiction")
+```
+
 ![Illo 4: Opening Fiction](../assets/images/page008-img004.jpeg){width="60%"}
 
 *Illustration 4: Opening fiction header art (Player's Scene). Placeholder; final art TBD. Dimensions: 1024×1024.*

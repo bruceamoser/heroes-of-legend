@@ -1,4 +1,8 @@
-﻿# Skills {#sec-chapter-skills}
+# Skills {#sec-chapter-skills}
+
+```{=typst}
+#label("sec-chapter-skills")
+```
 
 ![Illo 14: Skills Art](../assets/images/page035-img023.jpeg){width="60%"}
 

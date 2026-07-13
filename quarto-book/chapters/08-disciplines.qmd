@@ -1,5 +1,9 @@
 # Disciplines {#sec-chapter-disciplines}
 
+```{=typst}
+#label("sec-chapter-disciplines")
+```
+
 ![Illo 15: Disciplines Art](../assets/images/page036-img024.jpeg){width="60%"}
 
 *Illustration 15 — Disciplines chapter art (Shepherd class). Placeholder; final art TBD. Dimensions: 1024×1024.*

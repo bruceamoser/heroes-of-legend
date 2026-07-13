@@ -1,5 +1,9 @@
 # Magic System {#sec-chapter-magic-system}
 
+```{=typst}
+#label("sec-chapter-magic-system")
+```
+
 ![Illo 17: Magic System Art](../assets/images/page038-img026.jpeg){width="60%"}
 
 *Illustration 17 — Magic system chapter art (Odd class). Placeholder; final art TBD. Dimensions: 680×989.*

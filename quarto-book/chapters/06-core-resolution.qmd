@@ -1,4 +1,8 @@
-﻿# Core Resolution Mechanics {#sec-chapter-core-resolution}
+# Core Resolution Mechanics {#sec-chapter-core-resolution}
+
+```{=typst}
+#label("sec-chapter-core-resolution")
+```
 
 ![Illo 13: Core Resolution Art](../assets/images/page034-img022.jpeg){width="60%"}
 

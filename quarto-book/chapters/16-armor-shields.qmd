@@ -1,5 +1,9 @@
 # Armor & Shields {#sec-chapter-armor-shields}
 
+```{=typst}
+#label("sec-chapter-armor-shields")
+```
+
 ![Illo 23: Armor Illustration](../assets/images/page101-img039.png){width="60%"}
 
 *Illustration 23 — Armor & shields chapter art (Magic items / armor). Placeholder; final art TBD. Dimensions: 1024×1024.*
