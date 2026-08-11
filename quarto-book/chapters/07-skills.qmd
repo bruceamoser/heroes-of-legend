@@ -99,35 +99,35 @@ Kael spends his reaction. He makes an immediate melee attack against the captain
 
 | Skill | Attr | Discipline | Description |
 |-------|------|-----------|-------------|
-| **Athletics** | BR |, | Climbing, swimming, jumping, feats of strength |
-| **Intimidation** | BR |, | Frightening foes, coercion through force |
+| **Athletics** | BR | — | Climbing, swimming, jumping, feats of strength |
+| **Intimidation** | BR | — | Frightening foes, coercion through force |
 | **Blades Fighting** | BR | Blades | Fighting with swords, daggers, and light blades |
 | **Axe Fighting** | BR | Axes | Fighting with axes, hatchets, and cleaving weapons |
 | **Polearms Fighting** | BR | Polearms | Fighting with spears, halberds, and reach weapons |
 | **Heavy Weapon Fighting** | BR | Heavy Weapon | Fighting with greatswords, mauls, and massive weapons |
 | **Unarmed Fighting** | BR | Unarmed | Fists, grappling, and improvised brawling |
-| **Endurance** | FO |, | Resisting fatigue, holding breath, forced marches |
+| **Endurance** | FO | — | Resisting fatigue, holding breath, forced marches |
 | **Survival** | FO | Animal | Tracking, foraging, navigating wilderness |
-| **Resilience** | FO |, | Resisting poison, disease, extreme temperatures |
+| **Resilience** | FO | — | Resisting poison, disease, extreme temperatures |
 | **Defense** | FO | Armor | Dodging, blocking, and personal defense |
-| **Acrobatics** | AG |, | Balancing, tumbling, escaping restraints |
-| **Stealth** | AG |, | Sneaking, hiding, moving silently |
+| **Acrobatics** | AG | — | Balancing, tumbling, escaping restraints |
+| **Stealth** | AG | — | Sneaking, hiding, moving silently |
 | **Bow Fighting** | AG | Archery | Fighting with longbows and shortbows |
-| **Thrown Weapon** | AG |, | Fighting with throwing knives, axes, and javelins |
-| **Crossbow Fighting** | AG |, | Fighting with crossbows |
-| **Sleight of Hand** | AG |, | Pickpocketing, lockpicking, legerdemain |
-| **Deception** | GU |, | Lying, bluffing, disguising intent |
-| **Persuasion** | GU |, | Diplomacy, negotiation, charm |
-| **Streetwise** | GU |, | Gathering information, underworld contacts |
+| **Thrown Weapon** | AG | Blades or Archery | Fighting with throwing knives, axes, and javelins |
+| **Crossbow Fighting** | AG | Archery | Fighting with crossbows |
+| **Sleight of Hand** | AG | — | Pickpocketing, lockpicking, legerdemain |
+| **Deception** | GU | — | Lying, bluffing, disguising intent |
+| **Persuasion** | GU | — | Diplomacy, negotiation, charm |
+| **Streetwise** | GU | — | Gathering information, underworld contacts |
 | **Arcana** | KN | Energy | Magical knowledge, spell identification |
-| **History** | KN |, | Lore, legends, past events |
-| **Investigation** | KN |, | Searching, deducing, finding clues |
+| **History** | KN | — | Lore, legends, past events |
+| **Investigation** | KN | — | Searching, deducing, finding clues |
 | **Nature** | KN | Animal | Plants, animals, natural phenomena |
-| **Religion** | KN |, | Gods, rituals, divine lore |
-| **Alchemy** | RE |, | Brewing potions, identifying substances |
-| **Crafting** | RE |, | Smithing, woodworking, creating items |
+| **Religion** | KN | Religion | Gods, rituals, divine lore |
+| **Alchemy** | RE | — | Brewing potions, identifying substances |
+| **Crafting** | RE | — | Smithing, woodworking, creating items |
 | **Medicine** | RE | Animal | Healing, diagnosis, first aid |
-| **Insight** | RE |, | Reading people, detecting lies, intuition |
+| **Insight** | RE | — | Reading people, detecting lies, intuition |
 
 {{< pagebreak >}}
 
@@ -218,7 +218,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Master** | +3 |, |, |, | **Penetrating Bolt**, Bolt pierces target; creature behind takes half damage. Disc: Archery (2). |
 
 ### Athletics
-*Brawn - , *
+*Brawn*
 
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
@@ -227,7 +227,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Master** | +3 |, |, |, | **Unstoppable**, Ignore difficult terrain and cannot be slowed this turn. |
 
 ### Endurance
-*Fortitude - , *
+*Fortitude*
 
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
@@ -245,7 +245,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Master** | +3 |, |, |, | **Ambush**, Become hidden. Remain hidden until you attack, cast, or move. Disc: Animal (2). |
 
 ### Resilience
-*Fortitude - , *
+*Fortitude*
 
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
@@ -254,7 +254,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Master** | +3 |, |, |, | **Unbroken**, Ignore one condition (Frightened, Poisoned, or Stunned) for 1 round. |
 
 ### Acrobatics
-*Agility - , *
+*Agility*
 
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
@@ -263,7 +263,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Master** | +3 |, |, |, | **Evasion**, On successful save vs area effect, take no damage instead of half. |
 
 ### Stealth
-*Agility - , *
+*Agility*
 
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
@@ -272,7 +272,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Master** | +3 |, |, |, | **Shadow Step**, Move 20 ft to any shadow or concealed position. No opportunity attacks. |
 
 ### Sleight of Hand
-*Agility - , *
+*Agility*
 
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
@@ -281,7 +281,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Master** | +3 |, |, |, | **Disarm**, Opposed check to knock held item from target's grasp. |
 
 ### Deception
-*Guile - , *
+*Guile*
 
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
@@ -290,7 +290,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Master** | +3 |, |, |, | **Double Bluff**, On Standard+ Deception check, target believes lie for 1 minute, no further checks. |
 
 ### Persuasion
-*Guile - , *
+*Guile*
 
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
@@ -299,7 +299,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Master** | +3 |, |, |, | **Command**, One ally within 30 ft takes an immediate move action. |
 
 ### Streetwise
-*Guile - , *
+*Guile*
 
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
@@ -317,7 +317,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Master** | +3 |, |, |, | **Counterspell**, Reaction + maneuver. Arcana check vs 7 + spell tier to disrupt casting. Disc: Energy (2). |
 
 ### History
-*Knowledge - , *
+*Knowledge*
 
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
@@ -326,7 +326,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Master** | +3 |, |, |, | **Known Weakness**, DA reveals one vulnerability, resistance, or special ability of a creature known to legend. |
 
 ### Investigation
-*Knowledge - , *
+*Knowledge*
 
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
@@ -353,7 +353,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Master** | +3 |, |, |, | **Smite**, Next attack deals bonus radiant damage equal to your Knowledge. |
 
 ### Alchemy
-*Reason - , *
+*Reason*
 
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
@@ -362,7 +362,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Master** | +3 |, |, |, | **Alchemical Bomb**, Hurl explosive up to 30 ft. 2d6 elemental (fire/acid/frost) in 10-ft radius. |
 
 ### Crafting
-*Reason - , *
+*Reason*
 
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
@@ -380,7 +380,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Master** | +3 |, |, |, | **Battlefield Surgery**, Remove one condition from adjacent ally, or heal 3d6 HP. Disc: Animal (2). |
 
 ### Insight
-*Reason - , *
+*Reason*
 
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
@@ -389,7 +389,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Master** | +3 |, |, |, | **Perfect Counter**, Choose a creature. Its next attack against you is at disadvantage. |
 
 ### Intimidation
-*Brawn - , *
+*Brawn*
 
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
