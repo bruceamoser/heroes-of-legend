@@ -60,7 +60,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **General Discipline:** A wildcard Discipline earned through talents and progression. Can substitute for any specific Discipline type at Novice tier (1:1) or Master tier (2:1). Cannot substitute at Adept tier.
 
-**HP (Health Points):** How much damage you can take before falling unconscious. Starting HP = 10 + Brawn. Gain Brawn modifier HP each level (minimum 1).
+**HP (Health Points):** How much damage you can take before falling unconscious. Starting HP = 10 + Fortitude + Knowledge. Gain Fortitude modifier HP each level (minimum 1).
 
 **Level:** Your hero's experience tier, from 1 to 20. Higher levels unlock Adept (Level 3) and Master (Level 7) abilities and grant attribute increases every 4 levels.
 
