@@ -469,3 +469,49 @@
   set text(tracking: 1.5pt, size: 0.85em)
   upper(body)
 }
+
+// ── Geometry Re-assertion (Quarto >= 1.10 orange-book template) ─────────────
+// Quarto's current book template wraps the document in orange-book's book(),
+// which re-applies paper size "a4", its own margins, header and footer AFTER
+// the setup above (Typst: set rules inside show rules win over content rules).
+// Re-assert the full theme geometry from inside the body so it wins.
+#let hol-geometry(body) = {
+  set page(
+    paper: "us-letter",
+    fill: page-bg,
+    margin: (top: 0.95in, bottom: 1.0in, left: 1.15in, right: 1.15in),
+    // ── Header ─────────────────────────────────────────────────────────────
+    // Chapter name left-aligned, small caps, with thin ornamental rule beneath.
+    // Falls back to "Heroes of Legend" when no chapter heading is on the page.
+    header: [
+      #set text(size: 7.5pt, fill: muted, font: body-font-stack)
+      #grid(
+        columns: (1fr, 1fr),
+        align(left)[
+          #set text(weight: "bold", tracking: 0.8pt)
+          #smallcaps[Heroes of Legend]
+        ],
+        align(right)[
+          #context counter(page).display()
+        ],
+      )
+      #v(3pt)
+      #line(
+        start: (0%, 0pt),
+        end: (100%, 0pt),
+        stroke: 0.4pt + gold-dim,
+      )
+    ],
+    // ── Footer ─────────────────────────────────────────────────────────────
+    // Centered page number with decorative dashes: "— 42 —"
+    footer: [
+      #set text(size: 7.5pt, fill: muted, font: body-font-stack)
+      #align(center)[
+        — #context counter(page).display() —
+      ]
+    ],
+    numbering: none, // we provide custom footer
+  )
+  body
+}
+#show: hol-geometry

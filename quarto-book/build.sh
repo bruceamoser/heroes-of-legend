@@ -5,7 +5,7 @@ set -e
 
 REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
 OUTPUT_DIR="$REPO_ROOT/_output"
-OUTPUT_PDF="$OUTPUT_DIR/heroes-of-legend-core-rules.pdf"
+OUTPUT_PDF="$OUTPUT_DIR/Heroes-of-Legend.pdf"
 
 QUARTO=$(which quarto 2>/dev/null || true)
 

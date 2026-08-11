@@ -71,7 +71,7 @@ When an NPC or monster attacks your hero, you make a **Defense Roll**:
 **3d6 + Agility modifier + Defense skill bonus − NPC Challenge**
 
 - **Agility** is your reaction speed, your footwork, your instinct to duck.
-- **Defense skill** (Fortitude) represents your training in dodging, blocking, and personal defense. See @sec-skills for the full skill description.
+- **Defense skill** (Fortitude) represents your training in dodging, blocking, and personal defense. See @sec-chapter-skills for the full skill description.
 - **NPC Challenge** is a penalty the DA applies. A goblin might be −1 (barely a threat). A dragon might be −6 (good luck). The DA tells you the number before you roll.
 
 ### Reading the Defense Result

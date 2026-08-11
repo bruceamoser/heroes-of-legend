@@ -54,6 +54,7 @@ format:
     toc-depth: 2
     number-sections: false
     papersize: us-letter
+    template: _extensions/heroes-of-legend/template-book.typ
     smart: false
     include-before-body: _extensions/heroes-of-legend/style.typ
 
