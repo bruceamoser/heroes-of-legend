@@ -227,7 +227,7 @@ Ranged attacks and spells can't be made non-lethal — arrows and fireballs don'
 
 NPCs and monsters don't fight to the death by default. Most creatures want to *live.* When the fight turns against them, they break. Use morale to keep combat short and believable.
 
-When a creature faces overwhelming odds, the DA calls for a **Morale Check.** The creature rolls 3d6 with no modifiers:
+When a creature faces overwhelming odds, the DA calls for a **Morale Check** and designates a player to roll for the creature. That player rolls 3d6 with no modifiers:
 
 | Result | Behavior |
 |--------|----------|
@@ -256,11 +256,41 @@ At 0 HP, you fall Unconscious. Each round on your turn, roll 3d6 with no modifie
 |--------|---------|
 | **Strong (15+)** | You stabilize at 1 HP. You're back in the fight, barely. |
 | **Standard (9-14)** | You remain unconscious but stable. Not getting worse. |
-| **Weak (1-8)** | Take 1 wound. You're still dying. |
+| **Weak (1-8)** | You're still dying. The end draws nearer. |
 | **Fumble (3-1)** | Death. The table goes quiet. |
 | **Critical (3-6)** | You snap awake at half HP. Someone up there likes you. |
 
 An ally can stabilize you with a Medicine check (Standard difficulty) or any healing effect. Once stable, you're unconscious at 0 HP but no longer rolling to survive.
+
+### Wounds
+
+Some injuries don't fade when the healing potion wears off. Wounds are the lasting consequences of combat — the broken ribs, the tendon that never healed right, the scar that aches when rain is coming. They linger after HP is restored and they shape who your hero becomes.
+
+**Triggering a Wound.** The first time a character drops below half their maximum HP (round down) during an encounter, they take a wound and must roll on the Wound Table. This triggers once per encounter — subsequent drops below half HP in the same fight do not cause additional wounds. The body can only break so many times before it stops bending.
+
+**The Wound Table (D666).** The wound roll uses a special notation: D666. Roll 3d6, then sort the dice in ascending order. The lowest die is the HUNDREDS digit. The middle die is the TENS. The highest die is the ONES. A roll of [1] [3] [5] reads as 135. A roll of [2] [4] [6] reads as 246. The table below gives the result — ranges are listed as three-digit numbers in D666 notation.
+
+: Table 13.3: Wound Table (D666) {#tbl-wound-table}
+
+| D666 | Wound | Effect |
+|------|-------|--------|
+| 111 | **Lucky Scrape** | A glancing blow that leaves a dramatic but harmless scar. You look like you survived something terrible. +1 on your next social roll with anyone impressed by scars. No mechanical penalty. |
+| 112–199 | **Bruised Rib** | Something cracked but didn't break. −1 on your next Brawn-based roll from the sharp ache. Fades after that roll. |
+| 200–265 | **Blood in the Eyes** | A scalp wound bleeds into your vision. −1 on your next attack roll until you spend a Maneuver to wipe it clear. |
+| 222 | **Marked** | The wound leaves a mark that doesn't look natural. Animals growl at you. Superstitious folk make signs against evil. No mechanical penalty, but the DA now has a permanent hook. |
+| 266–299 | **Twisted Ankle** | Your footing betrays you. Speed reduced by 5 ft for the remainder of the encounter. |
+| 300–365 | **Deep Gash** | A wound that won't stop bleeding. Take 1 damage at the start of each turn until you or an ally spends an Action and makes a Standard Medicine check to bind it. |
+| 333 | **Scarred** | Three parallel gashes — too clean, too deliberate. The scar tissue tingles whenever that type of creature is within 60 feet. You've gained an instinctive danger sense for whatever gave you that scar. A narrative gift from the DA. |
+| 366–432 | **Wrenched Shoulder** | A joint screams every time you lift your weapon. Bane on attack rolls for the remainder of the encounter. |
+| 433–499 | **Cracked Ribs** | Breathing hurts. Laughing hurts. Living hurts. Bane on all physical rolls until the end of the encounter. |
+| 500–565 | **Broken Bone** | Your arm, leg, or collarbone snaps — you hear it before you feel it. The limb is unusable until you receive a Standard Medicine check and take a long rest. −1 to all checks using that limb. |
+| 555 | **Karmic Wound** | By every right this should have killed you. The blade slipped between vital organs. The fall was broken by exactly the right patch of mud. No additional effect beyond the wound itself. Someone up there likes you. Or wants you alive for something worse. The DA knows which. |
+| 566–599 | **Punctured Lung** | You're breathing, but every word costs. You cannot speak more than five words per round. Spellcasting requires a Fortitude check (Standard) to force the breath through. Lasts until a long rest or a Hard Medicine check. |
+| 600–633 | **Crippling Blow** | A tendon severed, a joint destroyed. The affected limb is useless. Permanent until a Master-rank Medicine check or powerful healing magic restores it. If it's a leg, you need a crutch. If it's an arm, learn to fight one-handed. |
+| 634–665 | **Shattered Spirit** | The wound is grievous, but the real damage is deeper. You gain a persistent condition chosen by the DA: haunted by the moment, gripped by phantom pain, or convinced you're already dead. All rolls suffer a Bane until you take a full day of rest in safety. |
+| 666 | **Death** | The dice have spoken. No saves. No stabilization. No last words. Your story ends here. The D666 table's capstone is not a negotiation. Close your character sheet. |
+
+**Healing Wounds.** Wounds persist after HP is restored — you can be at full health and still favor a cracked rib. Wounds heal at a rate of 1 per long rest. A Standard Medicine check made by you or an ally during a rest heals 1 additional wound. The body mends slowly, and some hurts never fully fade. That's the price of the life you chose.
 
 {{< pagebreak >}}
 
@@ -333,7 +363,7 @@ Roric has been waiting. The Knight is focused on Kael. The cultists are clustere
 
 Rolls 3d6 + Brawn (+2) + Heavy Weapon Fighting Novice (+1). Rolls 3, 3, 2 = 8 + 3 = 11. **Standard.** Warhammer Standard damage: 4. Knight's armor: DR 4. 4 - 4 = 0 damage. The hammer rings off the Knight's breastplate. Sparks. No blood. But Roric's not done.
 
-"Maneuver: I'm using **Menacing Glare** from Intimidation Adept." The Knight must make a Morale Check. The DA rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. **Standard.** The Knight wavers, a Bane on his next attack.
+"Maneuver: I'm using **Menacing Glare** from Intimidation Adept." The Knight must make a Morale Check. Lyra rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. **Standard.** The Knight wavers, a Bane on his next attack.
 
 **End of Round 1.** The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 0). The cultists dealt 3 to Lyra. The Knight dealt 2 to Kael (reduced from 3 by Shield Block). Nobody is down. Everyone is engaged. The next round will be decisive.
 
@@ -361,7 +391,7 @@ Kael uses his Maneuver to **Flurry** (Master maneuver, but wait, Kael is only Ad
 
 The Knight has taken 3 damage, not much, but he's down to 17 HP from 20. Both cultists are bloodied. One is at 1 HP. The party is coordinated and the Protector hasn't even been hit yet. The DA calls for a Morale Check.
 
-Knight rolls 3d6: 3, 2, 1 = 6. **Weak.** The Knight lowers his sword. "Enough," he growls. "You fight well. The Iron Circle withdraws." He drags the wounded cultist to his feet. They retreat into the shadows of the temple.
+Roric rolls for the Knight: 3, 2, 1 = 6. **Weak.** The Knight lowers his sword. "Enough," he growls. "You fight well. The Iron Circle withdraws." He drags the wounded cultist to his feet. They retreat into the shadows of the temple.
 
 The party could press the attack, but Lyra is at 7 HP, Kael is at 9, and the Knight might have reinforcements. They let them go.
 

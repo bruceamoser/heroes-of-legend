@@ -97,7 +97,7 @@ The Arcanist delves into the mysteries of arcane energies, mastering their manip
 
 **Class Discipline (L1):** Energy (1)
 
-**Signature, Arcane Shield:** As a free action, raise a protective ward that increases your Evasion by +1 for the round. At higher levels, this shield grows stronger. Once per round.
+**Signature, Arcane Shield:** As a free action, raise a protective ward that increases your defense roll by +1 for the round. At higher levels, this shield grows stronger. Once per round.
 
 **Favored Skills (X1):** Alchemy, Arcana, History, Investigation, Lore (any)
 
