@@ -21,7 +21,7 @@ Here's what each attribute does, in plain language:
 | **Agility** | AG | Moving fast, dodging, picking locks, shooting straight |
 | **Guile** | GU | Lying convincingly, charming nobles, picking pockets |
 | **Knowledge** | KN | Remembering lore, identifying monsters, speaking ancient languages |
-| **Reason** | RE | Solving puzzles, casting spells, crafting potions |
+| **Reason** | RE | Solving puzzles, divine spellcasting, crafting potions |
 
 {{< pagebreak >}}
 
@@ -83,9 +83,9 @@ At levels 4, 8, 12, 16, and 20, you may increase one attribute by +1 (up to the 
 
 **Guile (GU):** The art of winning without fighting. Guile covers deception, persuasion, intimidation, and every variety of social maneuvering. It's the difference between "Let me in" and "I'm the health inspector, you really want to open this door." A hero with Guile +2 doesn't need to draw their weapon because they already convinced you to put yours down.
 
-**Knowledge (KN):** What you know. Ancient history, arcane theory, monster weaknesses, noble lineages, the price of saffron in three different ports. Knowledge is the scholar's attribute, it governs lore, investigation, and identifying creatures. It also helps determine your starting Health Points and your early-life Development Points. Smart heroes live longer.
+**Knowledge (KN):** What you know. Ancient history, arcane theory, monster weaknesses, noble lineages, the price of saffron in three different ports. Knowledge is the scholar's attribute and the engine behind arcane spellcasting — it governs lore, investigation, and identifying creatures. It also helps determine your starting Health Points and your early-life Development Points. Smart heroes live longer.
 
-**Reason (RE):** What you *do* with what you know. Reason is the engine behind spellcasting, alchemy, crafting, and puzzle-solving. Knowledge tells you that trolls fear fire; Reason tells you how to make some. A wizard with Reason +2 doesn't just know spells, they understand *why* spells work, which makes them devastatingly effective.
+**Reason (RE):** What you *do* with what you know. Reason is the engine behind divine spellcasting, alchemy, crafting, and puzzle-solving. Knowledge tells you that trolls fear fire; Reason tells you how to make some. A shepherd with Reason +2 doesn't just channel divine power, they understand *why* the gods listen, which makes them devastatingly effective.
 
 ::: {.callout-note}
 ## Attributes Are Your Story
@@ -157,10 +157,10 @@ The party now has critical information, and a terrifying choice. All because the
 
 ### Reason in Play
 
-Zara, the party's Arcanist, is trying to disable an ancient magical ward blocking the temple's inner sanctum. The ward is complex, layers of protective energy woven together over centuries.
+Zara, a Shepherd of the wild gods, prays for divine guidance in a corrupted temple. The air is heavy with malice, and her party needs to know what lurks beyond the next door.
 
-**The roll:** 3d6 + Reason (+2) + Arcana Adept (+2). Zara rolls 1, 6, 5 = 12 + 4 = 16. **Strong.**
+**The roll:** 3d6 + Reason (+2) + Religion Novice (+1). Zara rolls 1, 6, 5 = 12 + 3 = 15. **Strong.**
 
-She doesn't just disable the ward, she *understands* it. "The outer layer is a deterrent, flash and noise. The inner layer is the real threat. Dispel the inner layer first, and the outer layer collapses on its own." She traces the correct sigils in the air. The ward flickers, hums, and fades. The door opens. Clean. Professional. Reason at work.
+She doesn't just sense danger — she receives a vision: three cultists around a blood altar, the High Priest at the center with a blade, a hidden door behind the tapestry. Every threat mapped. Every detail clear. Reason channels divine insight, and the gods speak plainly.
 
-**If she'd rolled Weak (1-8):** The ward triggers. A blast of force throws Zara across the room. She takes 2 damage and the ward is still active, now glowing brighter, pulsing with renewed energy. The party knows the ward is dangerous. They don't know how to disarm it. Reason failed, and now they need a new plan.
+**If she'd rolled Weak (1-8):** The vision is murky, fragmented. She senses malice but can't tell how many or where. The party proceeds blind, bracing for whatever waits. Reason asked, but the answer came in riddles.
