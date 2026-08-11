@@ -296,7 +296,7 @@ Lyra sees the cultists chanting, they're building toward something. She decides 
 
 "I cast *Gust* at the cultists. Wind Discipline, Novice."
 
-She rolls 3d6 + Knowledge (+1) + no skill. Rolls 3, 4, 4 = 11 + 1 = 12. **Standard.** The gust slams into both cultists, they must make Fortitude saves or be knocked Prone. Cultist 1 fails (rolls 4). Cultist 2 passes (rolls 10). One cultist goes sprawling, his chant broken. Lyra spends her Maneuver to Defend, +2 Protection Value.
+She rolls 3d6 + Knowledge (+2) + no skill. Rolls 3, 4, 4 = 11 + 2 = 13. **Standard.** The gust slams into both cultists, they must make Fortitude saves or be knocked Prone. Cultist 1 fails (rolls 4). Cultist 2 passes (rolls 10). One cultist goes sprawling, his chant broken. Lyra spends her Maneuver to Defend, +2 Protection Value.
 
 **Round 1, Kael's Turn:**
 
@@ -343,7 +343,7 @@ Lyra's shoulder burns from the Dark Bolt, but she's an Odd, when things go wrong
 
 "I cast *Spark* at the standing cultist. Fire Discipline, Novice. Then I use my Odd ability, **Wildcard.**"
 
-Spark roll: 3d6 + Knowledge (+1). Rolls 6, 6, 1 = 13 + 1 = 14. **Strong.** Spark Strong damage: 4 fire. Cultist has no armor. 4 damage straight through. The cultist screams as fire catches his robes.
+Spark roll: 3d6 + Knowledge (+2). Rolls 6, 6, 1 = 13 + 2 = 15. **Strong.** Spark Strong damage: 4 fire. Cultist has no armor. 4 damage straight through. The cultist screams as fire catches his robes.
 
 Wildcard: Lyra rolls a d6 on the chaos table, 4. "Enemies within 15 ft take 1 damage." The Knight and both cultists are within range. Each takes 1 damage. The Knight's armor reduces it to 0, but the cultists both take it. The standing cultist has now taken 5 damage, he's at 1 HP.
 
