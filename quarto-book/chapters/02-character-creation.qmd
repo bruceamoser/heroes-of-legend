@@ -103,7 +103,7 @@ You have **8 + Knowledge + Fortitude** Development Points to spend.
 
 **Knowledge** measures education and capacity to learn. **Fortitude** measures stamina, how much training your body could endure before it gave out. Together, they represent how much you absorbed from your upbringing.
 
-A farm kid with +2 Fortitude learned through years of grueling physical labor. A temple scholar with +2 Knowledge learned through decades of study. A character with both advantages is exceptional. A character with neither had a harder start, and hard starts make the best stories.
+A farm kid with +2 Fortitude learned through years of grueling physical labor. A temple scholar with +2 Knowledge learned through decades of study. A character with both is exceptional. A character with neither had a harder start, and hard starts make the best stories.
 :::
 
 These points represent your **entire life** before Level 1. They do not carry over into your class training. Spend every last one. Unspent Background DP is potential you never realized, lessons you could have learned but didn't.

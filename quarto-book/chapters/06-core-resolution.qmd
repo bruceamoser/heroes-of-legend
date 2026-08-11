@@ -30,6 +30,8 @@ That's it. Roll three dice. Add the relevant number from your character sheet. A
 | 9-14 | **Standard** | Clean success. Expected outcome. Professional work. This is what competence looks like, the lock clicks, the arrow flies true, the ancient text yields its secrets. |
 | 15-18+ | **Strong** | You crushed it. The thing you were trying to do? You did it so well that something extra happens. Extra damage. Bonus information. The crowd applauds. This is why you trained. |
 
+**Totals of Zero or Less:** If your final roll total is 0 or less, the result is Weak — and the DA adds one complication, fail-forward with teeth. The lock opens but the guard is now awake and standing behind the door. Your blade draws blood, then snaps at the hilt. The spell fires, then arcs back and singes a nearby ally.
+
 ::: {.callout-note}
 ## Why 3d6? A Designer's Note
 
@@ -37,6 +39,18 @@ A single twenty-sided die is a fickle god. Every number from 1 to 20 is equally 
 
 Three six-sided dice create a bell curve. Most rolls land between 9 and 12. That means your training, your attributes, your skill bonuses, your Disciplines, matters *more* than the dice. A master thief almost always sneaks past the guard. A legendary blacksmith almost never ruins the blade. When the dice do produce a 3 or an 18, it *means* something, because it only happens about once every 200 rolls. This system makes your choices matter more than your luck. We think that's how it should be.
 :::
+
+## Boons and Banes
+
+Some situations shift the odds without changing the modifier. A **Boon** means you roll 4d6 and keep the highest three — your odds of a Strong result improve, your odds of a Fumble are nearly zero. A **Bane** means you roll 4d6 and keep the *lowest* three — you're fighting the dice, and even a Standard result feels like a victory.
+
+Boons come from clever positioning, magical aid, or a Critical effect that inspires an ally. Banes come from conditions, curses, and poor circumstances. The DA decides when the fiction warrants either, as a guideline: a Boon is worth roughly +2 on the roll, but it reshapes the probability curve rather than shifting it, making extreme failure nearly impossible.
+
+## Opposed Rolls
+
+When two characters act directly against one another — a grapple, a shove, a disguise versus a guard's scrutiny, a lie versus someone's instinct that they're being played — both sides roll. **Higher tier wins. If tiers match, the higher total wins. If both tier and total are identical, the defender — the non-initiating party — wins the tie.**
+
+There is no margin math. If Kael rolls a 14 (Standard) to grapple a cultist who rolls a 7 (Weak), Kael wins with a Standard result. The opposed-rolls rule also governs Stealth versus passive Insight for surprise (@sec-chapter-combat), and social contests where both sides are actively working against each other (@sec-chapter-social-conflict). Wherever the book says "opposed," this is the rule.
 
 {{< pagebreak >}}
 
@@ -121,7 +135,7 @@ Critical hits are automatic *Strong* results. Then roll a d6 for your bonus:
 | 2 | **Devastating Blow.** Target is stunned, prone, or disarmed, your choice. |
 | 3 | **Moment of Glory.** Take a bonus action or free move immediately. |
 | 4 | **Second Wind.** Recover 3 HP or regain one expended ability. |
-| 5 | **Inspired Strike.** One ally gains advantage on their next attack against this target. |
+| 5 | **Inspired Strike.** One ally gains a Boon on their next attack against this target. |
 | 6 | **Narrative Flourish.** Describe something epic. The DA makes it matter. |
 
 Critical hits happen about once every 216 rolls. When they do, they should feel like a lightning strike. Let the player describe it. Let the table celebrate. This is why we play.
@@ -138,7 +152,7 @@ Fumbles are automatic failures. Then roll a d6 for the complication:
 |----|-------------|
 | 1 | **Weapon Trouble.** Drop your weapon or jam your bow. Takes an action to fix. |
 | 2 | **Friendly Fire.** Nearest ally takes Weak damage from your wild swing. |
-| 3 | **Off Balance.** The next attack against you has advantage. |
+| 3 | **Off Balance.** The next attack against you has a Boon. |
 | 4 | **Gear Damage.** Armor degrades one step. Shield cracks. Bowstring snaps. |
 | 5 | **Spell Backfire.** Take your spell's Weak damage yourself. Magic is fickle. |
 | 6 | **Narrative Twist.** The DA introduces an unexpected complication. Be creative. |
