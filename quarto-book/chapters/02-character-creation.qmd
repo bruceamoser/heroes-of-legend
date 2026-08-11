@@ -185,8 +185,8 @@ Receive your class starting kit. Record weapons with their Weak, Standard, and S
 
 | Stat | Formula |
 |------|---------|
-| **Health Points** | 10 + Brawn (at Level 1) |
-| **HP per Level** | +Brawn (minimum 1) each level after first |
+| **Health Points** | 10 + Fortitude + Knowledge (at Level 1) |
+| **HP per Level** | +Fortitude (minimum 1) each level after first |
 | **Initiative** | Agility modifier |
 | **Movement** | 30 ft (reduced by heavy armor) |
 | **Carry Slots** | 10 + (Brawn x 5) |
