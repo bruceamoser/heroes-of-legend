@@ -76,15 +76,15 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 |-----------|--------|------|
 | **Blinded** | Attacks reduced one tier | Source duration |
 | **Charmed** | Cannot attack charmer | Save ends |
-| **Deafened** | Perception disadvantage | Source duration |
+| **Deafened** | Perception Bane | Source duration |
 | **Frightened** | Cannot approach source | Save ends |
 | **Grappled** | Speed 0 | Escape action |
 | **Incapacitated** | No actions | Source duration |
 | **Invisible** | Cannot be targeted directly | Attack/action ends |
 | **Paralyzed** | Incapacitated + auto-crit if hit | Save ends |
-| **Poisoned** | Disadvantage on attacks | Save ends |
-| **Prone** | Melee adv vs you, ranged disadv | Stand up (move) |
-| **Restrained** | Speed 0, attack disadv | Escape action |
+| **Poisoned** | Bane on attacks | Save ends |
+| **Prone** | Melee Boon vs you, ranged Bane | Stand up (move) |
+| **Restrained** | Speed 0, attack Bane | Escape action |
 | **Stunned** | Incapacitated + cannot move | Save ends |
 | **Unconscious** | Incapacitated + prone + unaware | Healing or save |
 
@@ -93,7 +93,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | Result | Behavior |
 |--------|----------|
 | **Strong (15+)** | Stands firm. +1 on next attack. |
-| **Standard (9-14)** | Wavers. Disadvantage on next attack. |
+| **Standard (9-14)** | Wavers. Bane on its next attack. |
 | **Weak (1-8)** | Flees or surrenders. |
 
 **Auto-triggers:** Below half HP, leader defeated, half group fallen, overwhelming force.
@@ -246,11 +246,11 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | Padded | -1 |, |, |
 | Leather | -2 |, |, |
 | Studded Leather | -2 |, | 1 Armor |
-| Chain Shirt | -3 | Disadv | 1 Armor |
+| Chain Shirt | -3 | Bane | 1 Armor |
 | Breastplate | -4 |, | 2 Armor |
-| Half Plate | -4 | Disadv | 2 Armor |
-| Chain Mail | -5 | Disadv | 2 Armor |
-| Plate | -6 | Disadv | 3 Armor |
+| Half Plate | -4 | Bane | 2 Armor |
+| Chain Mail | -5 | Bane | 2 Armor |
+| Plate | -6 | Bane | 3 Armor |
 
 | Shield | PV | DR Bonus |
 |--------|-----|----------|

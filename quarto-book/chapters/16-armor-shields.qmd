@@ -33,11 +33,11 @@ If the goblin lands a Standard hit (3 damage), Kael takes 1 HP. The armor didn't
 | **Padded** |, | -1 |, | Quilted layers. Cheap, uncomfortable, better than nothing. |
 | **Leather** |, | -2 |, | Boiled and shaped. The adventuring standard. |
 | **Studded Leather** | 1 Armor | -2 |, | Leather reinforced with rivets. Light and quiet, the rogue's choice. |
-| **Chain Shirt** | 1 Armor | -3 | Disadv | Worn under clothing. Flexible, concealable, noisy when you move. |
+| **Chain Shirt** | 1 Armor | -3 | Bane | Worn under clothing. Flexible, concealable, noisy when you move. |
 | **Breastplate** | 2 Armor | -4 |, | Solid chest protection. Leaves arms free for spellcasting. |
-| **Half Plate** | 2 Armor | -4 | Disadv | Plates on vitals, chain everywhere else. The pragmatic heavy option. |
-| **Chain Mail** | 2 Armor | -5 | Disadv | Full-body rings. Loud. Heavy. Effective. |
-| **Plate** | 3 Armor | -6 | Disadv | The pinnacle of protection. When you absolutely need to be the last one standing. |
+| **Half Plate** | 2 Armor | -4 | Bane | Plates on vitals, chain everywhere else. The pragmatic heavy option. |
+| **Chain Mail** | 2 Armor | -5 | Bane | Full-body rings. Loud. Heavy. Effective. |
+| **Plate** | 3 Armor | -6 | Bane | The pinnacle of protection. When you absolutely need to be the last one standing. |
 
 ### Armor and Spellcasting
 
@@ -87,7 +87,7 @@ Shield Block cannot reduce damage below 1. It can be used against melee attacks,
 
 Roric is building a dwarf Protector at Level 1. He has Brawn +2, Fortitude +1, and the Armor Discipline from his class. He wants to be the party's wall. Here's how he weighs his options:
 
-**Option A, Chain Mail (DR 5, 2 Armor Disc):** He has the Discipline requirement. He pays 1 DP for Armor (2), his class favors it at X1. Total DR: 5. He's a fortress. Downside: Stealth disadvantage, and spellcasters in the party can't rely on him for quiet infiltration.
+**Option A, Chain Mail (DR 5, 2 Armor Disc):** He has the Discipline requirement. He pays 1 DP for Armor (2), his class favors it at X1. Total DR: 5. He's a fortress. Downside: Stealth Bane, and spellcasters in the party can't rely on him for quiet infiltration.
 
 **Option B, Breastplate + Shield (DR 4 + Shield Block):** Breastplate needs 2 Armor Discipline, he has that. Shield adds +2 DR and the Shield Block reaction. Total passive DR: 6. Plus he can react to downgrade one hit per round. This is the tank build. The shield costs extra coin, but coin is replaceable. Heroes aren't.
 

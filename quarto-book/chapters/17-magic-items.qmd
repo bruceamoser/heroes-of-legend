@@ -34,7 +34,7 @@ Every magic item follows a simple format:
 | **+1 Weapon** | Uncommon | +1 damage to all tiers. The classic. Boring but reliable. |
 | **Flame Tongue** | Rare | +1d6 fire damage on hit. Requires 1 Fire Discipline. |
 | **Shield +1** | Uncommon | +1 DR while wielded. |
-| **Cloak of Elvenkind** | Uncommon | Advantage on Stealth checks. The cloak shifts color to match its surroundings. |
+| **Cloak of Elvenkind** | Uncommon | Boon on Stealth checks. The cloak shifts color to match its surroundings. |
 | **Ring of Protection** | Rare | +1 DR, +1 to all saves. Simple. Powerful. |
 | **Staff of Power** | Very Rare | +2 to spell damage tiers. Weak becomes Standard. Standard becomes Strong. Strong becomes devastating. |
 | **Deck of Many Things** | Legendary | Draw a card. Fate unfolds. Some cards grant wishes. Some steal your soul. The deck has ended more campaigns than any dragon. |
@@ -121,7 +121,7 @@ A broad leather belt with a buckle of carved mountain stone. It's heavier than i
 
 **Always On:** Your Brawn score is treated as +3 for the purposes of carrying capacity, lifting, and breaking objects. Your Brawn modifier for attack and damage rolls is unchanged.
 
-**Always On:** You have advantage on Brawn checks to grapple, shove, or resist being moved.
+**Always On:** You have Boon on Brawn checks to grapple, shove, or resist being moved.
 
 ### Horn of the Dawn
 
@@ -134,7 +134,7 @@ A spiral horn carved from the tooth of some great celestial beast. When blown, i
 | Success Tier | Effect |
 |-------------|--------|
 | **Weak** | All allies within 60 ft lose the Frightened condition. |
-| **Standard** | All allies lose Frightened. Undead within 60 ft have disadvantage on their next attack. |
+| **Standard** | All allies lose Frightened. Undead within 60 ft have Bane on their next attack. |
 | **Strong** | All allies lose Frightened and gain +1 on their next roll. Undead within 60 ft take 3 radiant damage. |
 
 ### Mirror of Echoing Eyes
@@ -234,7 +234,7 @@ A dagger with a blade so dark it seems to absorb light. When you hold it, your o
 | Success Tier | Effect |
 |-------------|--------|
 | **Weak** | You teleport to the shadow but the dagger doesn't return to your hand, it's embedded in the surface. You must retrieve it. |
-| **Standard** | Clean teleport. The dagger returns to your hand. Until the end of your next turn, your next attack with Shadow Thorn has advantage. |
+| **Standard** | Clean teleport. The dagger returns to your hand. Until the end of your next turn, your next attack with Shadow Thorn has Boon. |
 | **Strong** | Clean teleport plus you become Invisible until you attack or take an obvious action. The dagger returns to your hand. |
 
 ### Sunbow
@@ -259,7 +259,7 @@ A longbow of pale golden wood, warm to the touch. When drawn, the string hums wi
 
 A shield of silvered steel inlaid with faintly glowing runes. The runes pulse softly when magic is near, a heartbeat of warning against the arcane.
 
-**Always On:** +2 DR (as a standard shield). You have advantage on all saving throws against spells and magical effects.
+**Always On:** +2 DR (as a standard shield). You have Boon on all saving throws against spells and magical effects.
 
 **Reaction, Spell Catch (once per encounter):** When a single-target spell targets you or an ally within 5 ft, you may interpose the shield. The spell is absorbed into the shield's runes and has no effect.
 
@@ -363,7 +363,7 @@ A cloak of deep blue leather, smooth and faintly slick to the touch. When submer
 
 **Always On:** While underwater, you gain a swimming Speed of 40 ft and can breathe water as easily as air. The cloak provides no protection against cold, pressure, or the things that hunt in the deep, it only makes you *belong* there.
 
-**Always On:** You have advantage on all Agility checks made to swim, dive, or escape grappling creatures underwater.
+**Always On:** You have Boon on all Agility checks made to swim, dive, or escape grappling creatures underwater.
 
 {{< pagebreak >}}
 

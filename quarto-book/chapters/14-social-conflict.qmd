@@ -101,7 +101,7 @@ The party needs passage through the Ironwood, a dense forest controlled by the T
 
 **Lyra:** "I soften my voice. 'We're not them. Whoever hurt your people, we're hunting the same kind of monster.' Persuasion, using the Insight lead."
 
-*Lyra rolls:* 3d6 + Guile (+1) + Persuasion (no skill, just attribute). DA gives +1 for the Insight advantage. Result: 3, 6, 5 = 14 + 2 = 16. **Strong.**
+*Lyra rolls:* 3d6 + Guile (+1) + Persuasion (no skill, just attribute). DA gives +1 for the Insight Boon. Result: 3, 6, 5 = 14 + 2 = 16. **Strong.**
 
 **The DA:** "The lieutenant stares at Lyra for a long moment. Then he nods once, a single, sharp motion. 'Warden. I'll guide them myself.' Two successes."
 

@@ -196,7 +196,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
 | **Novice** | +1 | Blade | Protector, Intellect, Odd, Leader, Unbalanced | Arcanist, Shepherd |, |
-| **Adept** | +2 |, |, |, | **Pin Down**, Target hit with bow has disadvantage on attacks until it moves 5 ft. Disc: Archery (2). |
+| **Adept** | +2 |, |, |, | **Pin Down**, Target hit with bow has Bane on attacks until it moves 5 ft. Disc: Archery (2). |
 | **Master** | +3 |, |, |, | **Twin Shot**, Fire second arrow at same target at -2. Disc: Archery (3). |
 
 ### Thrown Weapon
@@ -286,7 +286,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
 |------|-------|----|----|----|----------|
 | **Novice** | +1 | Blade, Odd, Unbalanced | Protector, Arcanist, Shepherd, Intellect, Leader |, |, |
-| **Adept** | +2 |, |, |, | **Feint**, Next attack against you before your next turn is at disadvantage. |
+| **Adept** | +2 |, |, |, | **Feint**, Next attack against you before your next turn is at Bane. |
 | **Master** | +3 |, |, |, | **Double Bluff**, On Standard+ Deception check, target believes lie for 1 minute, no further checks. |
 
 ### Persuasion
@@ -386,7 +386,7 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 |------|-------|----|----|----|----------|
 | **Novice** | +1 | Unbalanced | Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader |, |, |
 | **Adept** | +2 |, |, |, | **Read Intent**, Learn target's next intended action (attack, flee, cast, negotiate). |
-| **Master** | +3 |, |, |, | **Perfect Counter**, Choose a creature. Its next attack against you is at disadvantage. |
+| **Master** | +3 |, |, |, | **Perfect Counter**, Choose a creature. Its next attack against you is at Bane. |
 
 ### Intimidation
 *Brawn*
@@ -395,4 +395,4 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 |------|-------|----|----|----|----------|
 | **Novice** | +1 | Protector, Unbalanced | Blade, Shepherd, Intellect, Odd, Leader | Arcanist |, |
 | **Adept** | +2 |, |, |, | **Menacing Glare**, One foe within 30 ft must make an immediate Morale Check. |
-| **Master** | +3 |, |, |, | **Terrifying Presence**, All foes within 30 ft make a Morale Check at disadvantage. |
+| **Master** | +3 |, |, |, | **Terrifying Presence**, All foes within 30 ft make a Morale Check at Bane. |
