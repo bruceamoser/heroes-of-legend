@@ -104,7 +104,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 |--------|---------|
 | **Strong (15+)** | Stabilize at 1 HP |
 | **Standard (9-14)** | Unconscious, stable |
-| **Weak (1-8)** | Take 1 wound |
+| **Weak (1-8)** | You're still dying. The end draws nearer. |
 | **Fumble (3-1)** | Death |
 | **Critical (3-6)** | Wake at half HP |
 
