@@ -110,24 +110,30 @@ Kael spends his reaction. He makes an immediate melee attack against the captain
 | **Survival** | FO | Animal | Tracking, foraging, navigating wilderness |
 | **Resilience** | FO | — | Resisting poison, disease, extreme temperatures |
 | **Defense** | FO | Armor | Dodging, blocking, and personal defense |
+| **Animal Handling** | FO | Animal | Calming, riding, and working with beasts |
 | **Acrobatics** | AG | — | Balancing, tumbling, escaping restraints |
 | **Stealth** | AG | — | Sneaking, hiding, moving silently |
 | **Bow Fighting** | AG | Archery | Fighting with longbows and shortbows |
 | **Thrown Weapon** | AG | Blades or Archery | Fighting with throwing knives, axes, and javelins |
 | **Crossbow Fighting** | AG | Archery | Fighting with crossbows |
 | **Sleight of Hand** | AG | — | Pickpocketing, lockpicking, legerdemain |
+| **Thievery** | AG | — | Picking pockets, disabling traps, lockpicking |
 | **Deception** | GU | — | Lying, bluffing, disguising intent |
 | **Persuasion** | GU | — | Diplomacy, negotiation, charm |
 | **Streetwise** | GU | — | Gathering information, underworld contacts |
+| **Performance** | GU | — | Music, oratory, entertaining crowds |
 | **Arcana** | KN | Energy | Magical knowledge, spell identification |
 | **History** | KN | — | Lore, legends, past events |
 | **Investigation** | KN | — | Searching, deducing, finding clues |
 | **Nature** | KN | Animal | Plants, animals, natural phenomena |
 | **Religion** | KN | Religion | Gods, rituals, divine lore |
+| **Lore** | KN | — | Legends, heraldry, esoteric knowledge |
 | **Alchemy** | RE | — | Brewing potions, identifying substances |
-| **Crafting** | RE | — | Smithing, woodworking, creating items |
+| **Craft** | RE | — | Smithing, woodworking, making things |
 | **Medicine** | RE | Animal | Healing, diagnosis, first aid |
 | **Insight** | RE | — | Reading people, detecting lies, intuition |
+| **Perception** | RE | — | Spotting, noticing, sensing danger |
+| **Navigation** | RE | — | Wayfinding, maps, reading the land |
 
 {{< pagebreak >}}
 
@@ -361,7 +367,8 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Adept** | +2 |, |, |, | **Quick Mix**, Identify a potion, poison, or substance by taste/smell. Quickly mix a simple remedy. |
 | **Master** | +3 |, |, |, | **Alchemical Bomb**, Hurl explosive up to 30 ft. 2d6 elemental (fire/acid/frost) in 10-ft radius. |
 
-### Crafting
+### Craft {#sec-skill-craft}
+
 *Reason*
 
 | Tier | Bonus | X1 | X2 | X3 | Maneuver |
@@ -396,3 +403,63 @@ DP costs per tier are shown in @sec-skill-tiers at the top of this chapter. X1 c
 | **Novice** | +1 | Protector, Unbalanced | Blade, Shepherd, Intellect, Odd, Leader | Arcanist |, |
 | **Adept** | +2 |, |, |, | **Menacing Glare**, One foe within 30 ft must make an immediate Morale Check. |
 | **Master** | +3 |, |, |, | **Terrifying Presence**, All foes within 30 ft make a Morale Check at Bane. |
+
+### Perception {#sec-skill-perception}
+
+*Reason*
+
+| Tier | Bonus | X1 | X2 | X3 | Maneuver |
+|------|-------|----|----|----|----------|
+| **Novice** | +1 | Blade, Leader | Protector, Arcanist, Shepherd, Intellect, Odd, Unbalanced |, |, |
+| **Adept** | +2 |, |, |, | **Eagle Eye**, On Standard+ Perception check, the DA reveals one hidden detail others missed. |
+| **Master** | +3 |, |, |, | **Uncanny Awareness**, You cannot be surprised. You always act in the first round of combat. |
+
+### Lore {#sec-skill-lore}
+
+*Knowledge*
+
+| Tier | Bonus | X1 | X2 | X3 | Maneuver |
+|------|-------|----|----|----|----------|
+| **Novice** | +1 | Arcanist, Intellect | Protector, Blade, Shepherd, Odd, Leader, Unbalanced |, |, |
+| **Adept** | +2 |, |, |, | **Esoteric Knowledge**, Recite a relevant legend, heraldic lineage, or obscure fact. DA may grant Boon on a related check. |
+| **Master** | +3 |, |, |, | **True Name**, After observing a creature for one round, identify its true nature or a hidden weakness. |
+
+### Animal Handling {#sec-skill-animal-handling}
+
+*Fortitude - Animal*
+
+| Tier | Bonus | X1 | X2 | X3 | Maneuver |
+|------|-------|----|----|----|----------|
+| **Novice** | +1 | Shepherd | Protector, Blade, Arcanist, Intellect, Odd, Leader, Unbalanced |, |, |
+| **Adept** | +2 |, |, |, | **Soothing Voice**, Calm a hostile or frightened beast within 30 ft. It will not attack for 1 round. Disc: Animal (1). |
+| **Master** | +3 |, |, |, | **Beast Bond**, Your mount or animal companion gains +2 on its next attack or skill check. Disc: Animal (2). |
+
+### Navigation {#sec-skill-navigation}
+
+*Reason*
+
+| Tier | Bonus | X1 | X2 | X3 | Maneuver |
+|------|-------|----|----|----|----------|
+| **Novice** | +1 |, | Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced |, |, |
+| **Adept** | +2 |, |, |, | **True North**, You always know which way is north and can retrace any path you have traveled. |
+| **Master** | +3 |, |, |, | **Pathfinder's Instinct**, Once per session, the DA reveals the safest route to a known destination within one day's travel. |
+
+### Performance {#sec-skill-performance}
+
+*Guile*
+
+| Tier | Bonus | X1 | X2 | X3 | Maneuver |
+|------|-------|----|----|----|----------|
+| **Novice** | +1 |, | Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced |, |, |
+| **Adept** | +2 |, |, |, | **Captivate**, One creature within 30 ft that can see and hear you must save vs Guile or be Distracted until end of your next turn. |
+| **Master** | +3 |, |, |, | **Inspire Greatness**, All allies within 30 ft who can hear you gain +1 on their next roll. |
+
+### Thievery {#sec-skill-thievery}
+
+*Agility*
+
+| Tier | Bonus | X1 | X2 | X3 | Maneuver |
+|------|-------|----|----|----|----------|
+| **Novice** | +1 | Blade, Odd | Protector, Arcanist, Shepherd, Intellect, Leader, Unbalanced |, |, |
+| **Adept** | +2 |, |, |, | **Quick Hands**, Pick a lock or disarm a trap as a maneuver instead of an action. |
+| **Master** | +3 |, |, |, | **Shadow's Touch**, On successful lockpick or trap disarm, attempt a second such action immediately at -2. |
