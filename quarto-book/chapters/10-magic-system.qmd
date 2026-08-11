@@ -53,11 +53,11 @@ Every chain follows the same logic: Novice is your workhorse, Adept is your heav
 
 ## Discipline Prerequisites
 
-Spells don't care about your level. They care about your **Disciplines.** Want to throw a Fireball? You need 2 Fire and 1 Energy, not "level 5 wizard." The Discipline system follows a clean doubling progression: **Novice spells require 1 Discipline, Adept require 2, Master require 4.** A dedicated caster can reach Adept spells at creation and Master spells by level 6, or even level 3, if they're willing to pay the General premium.
+Spell tiers have **level gates** in addition to Discipline prerequisites. **Adept-tier spells require character level 3. Master-tier spells require level 7.** Novice spells have no level gate. Discipline prerequisites still govern *which* Adept and Master options you can buy when the gate opens. Want to throw a Fireball at level 3? You need 2 Fire and 1 Energy. At level 7, Volcanic Eruption requires 3 Fire and 1 Earth. The Discipline system follows a clean doubling progression: **Novice spells require 1 Discipline, Adept require 2, Master require 4.**
 
 At the Master tier, one additional rule applies: **no single Discipline type may exceed 3.** Every Master spell blends at least two types. Volcanic Eruption isn't just "more fire", it's fire and earth working together. This ensures Master spells represent broad magical mastery, not narrow specialization.
 
-General Disciplines follow a tiered substitution rule: at Novice, one General substitutes for one specific Discipline (1:1). At Master, two General Disciplines substitute for one specific Discipline (2:1). General Disciplines cannot substitute at the Adept tier. This means a clever caster can reach Master spells early by burning General Disciplines, but it's expensive, and those Generals won't be available for other pursuits.
+General Disciplines follow a tiered substitution rule: at Novice, one General substitutes for one specific Discipline (1:1). At Master, two General Disciplines substitute for one specific Discipline (2:1). General Disciplines cannot substitute at the Adept tier. With level gates in place, a clever caster can have their Master prerequisites lined up by level 3 using General Disciplines, but they still must hit level 7 before the Master tier unlocks — and those Generals won't be available for other pursuits.
 
 | Spell | Tier | Discipline Req | Effect Range (W / S / St) |
 |-------|------|---------------|--------------------------|
