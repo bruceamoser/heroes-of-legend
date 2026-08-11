@@ -227,7 +227,7 @@ Ranged attacks and spells can't be made non-lethal — arrows and fireballs don'
 
 NPCs and monsters don't fight to the death by default. Most creatures want to *live.* When the fight turns against them, they break. Use morale to keep combat short and believable.
 
-When a creature faces overwhelming odds, the DA calls for a **Morale Check.** The creature rolls 3d6 with no modifiers:
+When a creature faces overwhelming odds, the DA calls for a **Morale Check** and designates a player to roll for the creature. That player rolls 3d6 with no modifiers:
 
 | Result | Behavior |
 |--------|----------|
@@ -261,6 +261,14 @@ At 0 HP, you fall Unconscious. Each round on your turn, roll 3d6 with no modifie
 | **Critical (3-6)** | You snap awake at half HP. Someone up there likes you. |
 
 An ally can stabilize you with a Medicine check (Standard difficulty) or any healing effect. Once stable, you're unconscious at 0 HP but no longer rolling to survive.
+
+### Wounds
+
+Your character sheet has **3 wound boxes.** Wounds represent lasting injuries that accumulate over a fight and linger beyond it. They are not the same as HP — HP recovers quickly; wounds do not.
+
+**Taking Wounds.** When you drop to 0 HP, mark 1 wound box. The Dying table's Weak result (1–8) also marks 1 wound. If you mark your third wound box, you fall unconscious and begin dying per the rules above — if you are already dying, the third wound is fatal: you die as on a Fumble result.
+
+**Healing Wounds.** Wounds heal 1 per long rest. A successful Medicine check (Standard difficulty) during a rest heals 1 additional wound. Wounds heal after HP is restored.
 
 {{< pagebreak >}}
 
@@ -333,7 +341,7 @@ Roric has been waiting. The Knight is focused on Kael. The cultists are clustere
 
 Rolls 3d6 + Brawn (+2) + Heavy Weapon Fighting Novice (+1). Rolls 3, 3, 2 = 8 + 3 = 11. **Standard.** Warhammer Standard damage: 4. Knight's armor: DR 4. 4 - 4 = 0 damage. The hammer rings off the Knight's breastplate. Sparks. No blood. But Roric's not done.
 
-"Maneuver: I'm using **Menacing Glare** from Intimidation Adept." The Knight must make a Morale Check. The DA rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. **Standard.** The Knight wavers, a Bane on his next attack.
+"Maneuver: I'm using **Menacing Glare** from Intimidation Adept." The Knight must make a Morale Check. Lyra rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. **Standard.** The Knight wavers, a Bane on his next attack.
 
 **End of Round 1.** The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 0). The cultists dealt 3 to Lyra. The Knight dealt 2 to Kael (reduced from 3 by Shield Block). Nobody is down. Everyone is engaged. The next round will be decisive.
 
@@ -361,7 +369,7 @@ Kael uses his Maneuver to **Flurry** (Master maneuver, but wait, Kael is only Ad
 
 The Knight has taken 3 damage, not much, but he's down to 17 HP from 20. Both cultists are bloodied. One is at 1 HP. The party is coordinated and the Protector hasn't even been hit yet. The DA calls for a Morale Check.
 
-Knight rolls 3d6: 3, 2, 1 = 6. **Weak.** The Knight lowers his sword. "Enough," he growls. "You fight well. The Iron Circle withdraws." He drags the wounded cultist to his feet. They retreat into the shadows of the temple.
+Roric rolls for the Knight: 3, 2, 1 = 6. **Weak.** The Knight lowers his sword. "Enough," he growls. "You fight well. The Iron Circle withdraws." He drags the wounded cultist to his feet. They retreat into the shadows of the temple.
 
 The party could press the attack, but Lyra is at 7 HP, Kael is at 9, and the Knight might have reinforcements. They let them go.
 

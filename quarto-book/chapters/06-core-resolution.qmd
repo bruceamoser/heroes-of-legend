@@ -133,7 +133,7 @@ Critical hits are automatic *Strong* results. Then roll a d6 for your bonus:
 |----|-----------------|
 | 1 | **Maximum Damage.** Deal the weapon's Strong damage twice. |
 | 2 | **Devastating Blow.** Target is stunned, prone, or disarmed, your choice. |
-| 3 | **Moment of Glory.** Take a bonus action or free move immediately. |
+| 3 | **Moment of Glory.** Take a Maneuver or free move immediately. |
 | 4 | **Second Wind.** Recover 3 HP or regain one expended ability. |
 | 5 | **Inspired Strike.** One ally gains a Boon on their next attack against this target. |
 | 6 | **Narrative Flourish.** Describe something epic. The DA makes it matter. |

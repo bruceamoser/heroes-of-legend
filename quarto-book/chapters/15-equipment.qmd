@@ -51,7 +51,7 @@ Weapons don't just require more of the same Discipline, they require specific co
 - **Reach**, can attack targets 10 ft away (Spear, Halberd)
 - **Thrown**, can be thrown (range 20/60 ft: Dagger, Handaxe, Spear)
 - **Light**, can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe)
-- **Loading**, requires a Bonus Action to reload between shots (Crossbow only)
+- **Loading**, requires a Maneuver to reload between shots (Crossbow only)
 
 {{< pagebreak >}}
 
