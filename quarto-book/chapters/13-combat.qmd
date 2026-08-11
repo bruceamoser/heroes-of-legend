@@ -157,7 +157,7 @@ Conditions are the status effects that change how a creature behaves in combat. 
 | **Paralyzed** | Incapacitated + auto-crit if hit | Save ends |
 | **Poisoned** | Bane on attacks | Save ends |
 | **Prone** | Melee Boon vs you, ranged Bane | Stand up (move) |
-| **Restrained** | Speed 0, attack disadv | Escape action |
+| **Restrained** | Speed 0, attack Bane | Escape action |
 | **Stunned** | Incapacitated + cannot move | Save ends |
 | **Unconscious** | Incapacitated + prone + unaware | Healing or save |
 

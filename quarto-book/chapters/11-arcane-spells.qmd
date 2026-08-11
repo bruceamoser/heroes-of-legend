@@ -58,7 +58,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 |---------|--------|
 | Weak (1-8) | Two dim orbs. Light radius halved. They flicker. |
 | Standard (9-14) | Four bright orbs or one glowing shape. Full control of movement. |
-| Strong (15-18+) | The lights are dazzling. One creature of your choice within the light radius has disadvantage on its next attack. |
+| Strong (15-18+) | The lights are dazzling. One creature of your choice within the light radius has Bane on its next attack. |
 
 *Better than a torch. Worse than a fireball. But they don't go out in the rain, and they'll follow you down any hole you're stupid enough to climb into.*
 
@@ -75,7 +75,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 |---------|--------|
 | Weak (1-8) | 1d4 ice damage. Liquid chills but doesn't freeze. |
 | Standard (9-14) | 1d6 ice damage. Liquid freezes solid. |
-| Strong (15-18+) | 1d6+2 ice damage. Target's next physical action has disadvantage as cold numbs their limbs. |
+| Strong (15-18+) | 1d6+2 ice damage. Target's next physical action has Bane as cold numbs their limbs. |
 
 *The first spell every ice mage learns. Touch a lock. Touch a rope. Touch a throat. Cold solves problems heat can't.*
 
@@ -355,7 +355,7 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | 2d6 damage (half fire, half radiant) in a 5-foot radius. |
-| Standard (9-14) | 4d6 damage (half fire, half radiant) in a 10-foot radius. Undead and fiends have disadvantage on any save against it. |
+| Standard (9-14) | 4d6 damage (half fire, half radiant) in a 10-foot radius. Undead and fiends have Bane on any save against it. |
 | Strong (15-18+) | 6d6 damage in a 15-foot radius. Undead and fiends take the full damage as radiant. The column persists for 1 round, damaging anyone who enters. |
 
 *The gods don't have a monopoly on holy fire. When an arcanist calls down Flame Strike, they're making a point: "I don't need a deity. I have physics." The undead don't appreciate the distinction.*
@@ -441,7 +441,7 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | 2d6 ice damage per round in a 20-foot radius. Light obscurement. |
-| Standard (9-14) | 3d6 ice damage per round in a 40-foot radius. Heavy obscurement, attacks into or out of the storm have disadvantage. Difficult terrain. |
+| Standard (9-14) | 3d6 ice damage per round in a 40-foot radius. Heavy obscurement, attacks into or out of the storm have Bane. Difficult terrain. |
 | Strong (15-18+) | 4d6 ice damage per round in a 50-foot radius. Total obscurement within the storm. Creatures ending their turn inside must make a Fortitude check or gain 1 level of exhaustion from the cold. |
 
 *Blizzard is not a strike. It's a siege. You drop it on the enemy formation and watch them freeze, stumble, and die. You can maintain concentration and move it. A 40-foot radius of "you don't want to be here" that follows your will. Ice magic's final answer to the question "how do I control the entire battlefield?"*
@@ -462,7 +462,7 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | 1d6 ice damage. The target shivers but functions normally. |
-| Standard (9-14) | 2d6 ice damage. The target's next attack has disadvantage as numbness sets in. |
+| Standard (9-14) | 2d6 ice damage. The target's next attack has Bane as numbness sets in. |
 | Strong (15-18+) | 3d6 ice damage. The target is immobilized until the end of its next turn, frozen in place, unable to move. |
 
 *Touch-range ice. Dangerous to deliver, devastating when it lands. When the enemy Blade closes distance and expects an easy kill, Chill Touch reminds them that mages have teeth at every range.*
@@ -551,7 +551,7 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | +2 Armor. Melee attackers take 1d6 ice damage. Speed reduced by 5 feet. |
-| Standard (9-14) | +3 Armor. Melee attackers take 2d6 ice damage. You are immune to cold damage. Fire attacks against you have disadvantage, the ice fights back. |
+| Standard (9-14) | +3 Armor. Melee attackers take 2d6 ice damage. You are immune to cold damage. Fire attacks against you have Bane, the ice fights back. |
 | Strong (15-18+) | +4 Armor. Melee attackers take 3d6 ice damage. Cold immunity. Fire resistance. Once during the spell's duration, you can shatter the Aegis as a reaction to negate all damage from one attack, the armor explodes outward, dealing 4d6 ice damage to all creatures within 10 feet. |
 
 *You want to know what it feels like to be untouchable? Cast Frozen Aegis. Walk into the middle of the enemy formation. Watch them break their weapons on you. Watch their breath freeze in their lungs. You're not avoiding the fight, you're the terrain now.*
@@ -642,7 +642,7 @@ Lightning doesn't ask. Lightning doesn't warn. One moment there's air, the next,
 |---------|--------|
 | Weak (1-8) | 1d4 lightning damage to one creature entering or starting its turn in the field. |
 | Standard (9-14) | 1d6 lightning damage to any creature entering or starting its turn within 10 feet of you. |
-| Strong (15-18+) | 1d6 lightning damage in the aura. Creatures damaged have disadvantage on attacks against you while they remain in the field, their muscles won't cooperate. |
+| Strong (15-18+) | 1d6 lightning damage in the aura. Creatures damaged have Bane on attacks against you while they remain in the field, their muscles won't cooperate. |
 
 *Close-range insurance. Static Field says "the area around me is not safe for you." It won't stop a determined enemy, but it'll make them pay for every step. Good for mages who find themselves surrounded more often than they'd like.*
 
@@ -841,7 +841,7 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 |---------|--------|
 | Weak (1-8) | 1 missile. 1d4+1 force damage. |
 | Standard (9-14) | 3 missiles. Each deals 1d4+1 force damage. Can target different creatures or the same one. |
-| Strong (15-18+) | 5 missiles. Each deals 1d4+1 force damage. One target of your choice struck by at least two missiles is staggered, its next attack has disadvantage. |
+| Strong (15-18+) | 5 missiles. Each deals 1d4+1 force damage. One target of your choice struck by at least two missiles is staggered, its next attack has Bane. |
 
 *The reliability spell. When the enemy has cover. When they're invisible. When they're running away and you're out of clever ideas. Magic Missile doesn't care about any of that. It cares about one thing: hitting what you point at. It's never let a mage down.*
 
@@ -913,7 +913,7 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 |---------|--------|
 | Weak (1-8) | Target levitates 5 feet. Unwilling creatures get a Reason check to resist. Duration 1 minute. |
 | Standard (9-14) | Target levitates up to 20 feet per round. Objects up to 500 pounds. Unwilling creatures get a Standard Reason check. Duration 10 minutes. |
-| Strong (15-18+) | As Standard, but unwilling creatures have disadvantage on the resistance check. You can move the target horizontally as well, 10 feet per round. |
+| Strong (15-18+) | As Standard, but unwilling creatures have Bane on the resistance check. You can move the target horizontally as well, 10 feet per round. |
 
 *Flight at the speed of thought. Yours, not theirs. Levitate an enemy melee fighter and they're a pinata. Levitate yourself and you're a sniper nest. Levitate the heavy gate and your party walks through. This spell is limited only by your creativity and your concentration.*
 
@@ -930,7 +930,7 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 |---------|--------|
 | Weak (1-8) | Move up to 250 pounds. 20 feet per round. Unwilling creatures get a Standard Reason check. |
 | Standard (9-14) | Move up to 1,000 pounds. 30 feet per round. Unwilling creatures get a Hard Reason check. You may use the held creature as a weapon, slam it into another target for 4d6 force damage to both. |
-| Strong (15-18+) | Move up to 2,000 pounds. 60 feet per round. Unwilling creatures have disadvantage on the check. You may restrain a held creature in place, it cannot move or act physically until it breaks free. You may also manipulate held objects with the precision of your own hands, pull levers, open chests, write letters. |
+| Strong (15-18+) | Move up to 2,000 pounds. 60 feet per round. Unwilling creatures have Bane on the check. You may restrain a held creature in place, it cannot move or act physically until it breaks free. You may also manipulate held objects with the precision of your own hands, pull levers, open chests, write letters. |
 
 *This is the spell that makes you wonder why you ever bothered with fire. Pick up the enemy commander. Hold them thirty feet in the air. Shake them. Ask if they'd like to reconsider their life choices. Telekinesis is not just combat magic, it's problem-solving magic. Every locked door, every pit trap, every heavy object between you and your goal is now subject to your will.*
 
@@ -1020,7 +1020,7 @@ Illusion magic is the art of the lie that becomes truth. You don't burn the enem
 |---------|--------|
 | Weak (1-8) | The image is slightly off, wrong shadows, odd proportions. Anyone within 10 feet notices automatically. |
 | Standard (9-14) | Convincing static image. Physical inspection (touching it) reveals the illusion. Creatures must make a Reason check to disbelieve at a distance. |
-| Strong (15-18+) | The image is perfect, it even casts appropriate shadows and reflects ambient light correctly. Reason checks to disbelieve have disadvantage. |
+| Strong (15-18+) | The image is perfect, it even casts appropriate shadows and reflects ambient light correctly. Reason checks to disbelieve have Bane. |
 
 *The first lie every illusionist tells. Minor Image is a box that isn't there, a wall that doesn't exist, a hole that's just floor. Will it fool a dragon? Probably not. Will it fool the goblin guard who's been on shift for eight hours and just wants his dinner? Almost certainly.*
 
@@ -1037,7 +1037,7 @@ Illusion magic is the art of the lie that becomes truth. You don't burn the enem
 |---------|--------|
 | Weak (1-8) | One sense is convincing. Others are absent or crude. 10-foot cube. Duration 1 minute. |
 | Standard (9-14) | Full sensory illusion. 20-foot cube. Reacts to stimuli according to a simple script you set. Creatures must physically interact to automatically disbelieve. Duration 10 minutes. |
-| Strong (15-18+) | As Standard, but the illusion is interactive, it responds plausibly to unexpected events for 1 round before the script breaks. Creatures disbelieving have disadvantage on the Reason check. |
+| Strong (15-18+) | As Standard, but the illusion is interactive, it responds plausibly to unexpected events for 1 round before the script breaks. Creatures disbelieving have Bane on the Reason check. |
 
 *Now you're not just lying, you're directing a play with the enemy as the audience. Major Image can be anything: a false army, a friendly face, a bottomless pit where the floor used to be. The enemy won't know what's real until they touch it, and by then, your Blade is already behind them.*
 
@@ -1074,8 +1074,8 @@ Illusion magic is the art of the lie that becomes truth. You don't burn the enem
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | Attacks against you have a -1 penalty. The blur is noticeable, enemies know something is off. |
-| Standard (9-14) | Attacks against you have disadvantage. Your position is known, you're just hard to hit. |
-| Strong (15-18+) | Disadvantage on attacks against you. The first attack that misses you each round automatically targets an adjacent creature of your choice instead. |
+| Standard (9-14) | Attacks against you have Bane. Your position is known, you're just hard to hit. |
+| Strong (15-18+) | Bane on attacks against you. The first attack that misses you each round automatically targets an adjacent creature of your choice instead. |
 
 *Not invisibility, something almost better. Blur makes you a frustrating target without making you an unseen one. Enemies know where you are. They just can't land the hit. And when their axe passes through your afterimage and buries itself in the goblin next to you? That's not your problem.*
 
@@ -1090,8 +1090,8 @@ Illusion magic is the art of the lie that becomes truth. You don't burn the enem
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | The target is translucent rather than fully invisible. Stealth checks have advantage. Duration 1 minute. |
-| Standard (9-14) | Full invisibility. Attacks against the invisible creature have disadvantage. The invisibility breaks if the target attacks or casts a spell. Duration 1 hour. |
+| Weak (1-8) | The target is translucent rather than fully invisible. Stealth checks have Boon. Duration 1 minute. |
+| Standard (9-14) | Full invisibility. Attacks against the invisible creature have Bane. The invisibility breaks if the target attacks or casts a spell. Duration 1 hour. |
 | Strong (15-18+) | As Standard, but the invisibility persists through one attack or spell cast. The target flickers back into visibility for a moment, then fades again. Only a second offensive action breaks the spell fully. |
 
 *The classic. Touch the rogue. Watch them disappear. Wait for the screaming to start from the enemy backline. Invisibility doesn't win fights, it wins fights before they start. Reconnaissance. Ambushes. The kind of positioning that turns a fair fight into an execution.*
@@ -1108,7 +1108,7 @@ Illusion magic is the art of the lie that becomes truth. You don't burn the enem
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | Invisibility that persists through movement and non-offensive actions. Breaks on attack. Duration 30 seconds (5 rounds). |
-| Standard (9-14) | Full invisibility. Does not break on attack or spellcasting. Attacks from invisibility have advantage. Enemies attacking the target have disadvantage. Duration 1 minute. |
+| Standard (9-14) | Full invisibility. Does not break on attack or spellcasting. Attacks from invisibility have Boon. Enemies attacking the target have Bane. Duration 1 minute. |
 | Strong (15-18+) | As Standard, but attacks from invisibility are automatic Strong results against unaware targets. The target is also silenced, no footfalls, no breathing, no verbal spell components audible to others. |
 
 *This is the spell that makes assassins weep with envy. One minute of absolute invisibility. Attack, and you stay hidden. Cast, and the magic has no visible origin. You're not a combatant anymore, you're a poltergeist with a grudge and a very sharp knife. Greater Invisibility doesn't tilt the odds. It throws the odds out the window and replaces them with certainty.*
@@ -1144,7 +1144,7 @@ Charm magic is the whisper that becomes a command. It doesn't burn. It doesn't f
 |---------|--------|
 | Weak (1-8) | The target is merely cordial. They'll hear you out but offer no special treatment. |
 | Standard (9-14) | The target treats you as a friend for 1 hour. They'll offer reasonable assistance and won't attack you. They get a Reason check if you ask for something dangerous. |
-| Strong (15-18+) | The target is genuinely charmed. They'll go out of their way to help. Reason checks to resist unreasonable requests have disadvantage. |
+| Strong (15-18+) | The target is genuinely charmed. They'll go out of their way to help. Reason checks to resist unreasonable requests have Bane. |
 
 *The spell that opens more doors than any battering ram. Befriend doesn't enslave, it just makes the world a little friendlier. The guard who was going to report you is now the guard who "didn't see anything." The merchant who was going to gouge you now offers the "friends and family" price. Use it wisely. Friendships forged by magic don't survive the spell's expiration.*
 
@@ -1161,7 +1161,7 @@ Charm magic is the whisper that becomes a command. It doesn't burn. It doesn't f
 |---------|--------|
 | Weak (1-8) | The suggestion must be something the target was already inclined to do. Duration 1 hour. |
 | Standard (9-14) | The target follows any reasonable-sounding suggestion for up to 8 hours or until the task is complete. Obviously harmful suggestions automatically fail. The target gets a Reason check to resist if the suggestion conflicts with their core values. |
-| Strong (15-18+) | The target follows the suggestion with enthusiasm. They'll rationalize away minor contradictions. Duration extends to 24 hours. The Reason check to resist has disadvantage. |
+| Strong (15-18+) | The target follows the suggestion with enthusiasm. They'll rationalize away minor contradictions. Duration extends to 24 hours. The Reason check to resist has Bane. |
 
 *The voice that sounds like their own better judgment. Suggestion doesn't overpower the will, it sidesteps it entirely. The target thinks obeying was their idea. This is the spell that turns enemies into assets, guards into escorts, and hostile witnesses into character references.*
 
@@ -1177,8 +1177,8 @@ Charm magic is the whisper that becomes a command. It doesn't burn. It doesn't f
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | You control the target's movement for 1 round. They cannot take actions you don't command, but they can resist commands that are directly self-destructive. |
-| Standard (9-14) | Full control for 1 minute. You dictate movement, actions, and speech. The target gets a Reason check to resist each round. Directly suicidal commands grant advantage on the check. |
-| Strong (15-18+) | Full control for 1 minute. The target's Reason checks have disadvantage. You can force them to attack allies, reveal secrets, or take actions against their nature. When the spell ends, the target has no memory of what they did under your control. |
+| Standard (9-14) | Full control for 1 minute. You dictate movement, actions, and speech. The target gets a Reason check to resist each round. Directly suicidal commands grant Boon on the check. |
+| Strong (15-18+) | Full control for 1 minute. The target's Reason checks have Bane. You can force them to attack allies, reveal secrets, or take actions against their nature. When the spell ends, the target has no memory of what they did under your control. |
 
 *This is the dark side of charm magic. Dominate doesn't persuade, it possesses. You reach into a creature's mind, take the wheel, and drive them wherever you want. In combat, you turn the enemy's strongest fighter against their own side. Outside combat, you have a key that opens any mouth and any door. The ethical implications are between you and whatever gods you answer to.*
 
@@ -1216,7 +1216,7 @@ Charm magic is the whisper that becomes a command. It doesn't burn. It doesn't f
 |---------|--------|
 | Weak (1-8) | 1d4 creatures in the area are affected for 1 round. Random behavior: attack nearest creature, flee, or do nothing. |
 | Standard (9-14) | All creatures in a 15-foot radius are affected for 1 minute. Each round, each affected creature rolls 1d6: 1-2 attack nearest creature, 3-4 flee from nearest creature, 5-6 act normally. Reason check each round to shake it off. |
-| Strong (15-18+) | As Standard, but the radius is 25 feet. Affected creatures have disadvantage on the Reason check. The first round automatically produces the worst possible result for each creature. |
+| Strong (15-18+) | As Standard, but the radius is 25 feet. Affected creatures have Bane on the Reason check. The first round automatically produces the worst possible result for each creature. |
 
 *Battlefield chaos in a can. Confusion doesn't kill anyone itself, it makes the enemy kill each other. Drop it on the enemy formation and watch their carefully planned tactics dissolve into a bar brawl. The ogre attacks the goblin. The commander flees from her own standard-bearer. The archer shoots the ceiling. Somewhere, a god of trickery is laughing.*
 
@@ -1285,7 +1285,7 @@ Necromancy is the magic of the threshold, the doorway between life and death, an
 |---------|--------|
 | Weak (1-8) | 2d6 necrotic damage per touch. Heal for half. Spell lasts 3 rounds. |
 | Standard (9-14) | 4d6 necrotic damage per touch. Heal for half. You can make one touch attack each round for 1 minute. |
-| Strong (15-18+) | 6d6 necrotic damage per touch. Heal for half. Each successful touch also weakens the target, it has disadvantage on its next attack. You gain +1 Armor (stacks up to +3) as stolen vitality shields you. |
+| Strong (15-18+) | 6d6 necrotic damage per touch. Heal for half. Each successful touch also weakens the target, it has Bane on its next attack. You gain +1 Armor (stacks up to +3) as stolen vitality shields you. |
 
 *The spell that makes you a monster, in the best possible way. Vampiric Touch turns you into a melee threat that gets stronger as the fight goes on. Every round, you hurt them and heal yourself. The math of attrition bends in your favor. Your allies may look at you differently afterward. Let them. You're still standing.*
 
@@ -1300,7 +1300,7 @@ Necromancy is the magic of the threshold, the doorway between life and death, an
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 4d6 necrotic damage. Target is sickened, disadvantage on attacks for 1 round. |
+| Weak (1-8) | 4d6 necrotic damage. Target is sickened, Bane on attacks for 1 round. |
 | Standard (9-14) | 8d6 necrotic damage. A humanoid killed by this damage rises at the start of your next turn as a zombie permanently under your control (max 1 zombie from this spell at a time). |
 | Strong (15-18+) | 12d6 necrotic damage. A creature killed rises as a zombie. You may have up to 3 Finger of Death zombies at once. The zombie retains the base physical stats it had in life. |
 
@@ -1408,7 +1408,7 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 |---------|--------|
 | Weak (1-8) | Target gains +1 action per round (attack or move only). Speed +10. Duration 3 rounds. No crash. |
 | Standard (9-14) | Speed doubled. +2 Armor (time to dodge). One additional action per round, attack, move, or use an object. Duration 1 minute. When the spell ends, the target loses its next action (crash). |
-| Strong (15-18+) | As Standard, but speed tripled. The additional action can be anything except casting a spell of Adept tier or higher. The target's attacks have advantage against creatures that haven't acted yet this round. Crash is only a lost reaction. |
+| Strong (15-18+) | As Standard, but speed tripled. The additional action can be anything except casting a spell of Adept tier or higher. The target's attacks have Boon against creatures that haven't acted yet this round. Crash is only a lost reaction. |
 
 *The best buff in the game, bar none. Haste turns your Blade into a food processor. Your Protector into a wall that's everywhere at once. Yourself into a problem that's already solved by the time the enemy realizes there's a problem. The crash at the end is real, but if the fight's not over by then, you used Haste wrong.*
 
@@ -1527,7 +1527,7 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 | Ice Storm | Adept | Ice | 2 Water, 1 Wind | 3d6 ice + 1d6 bludgeoning, 20-ft radius, slippery terrain |
 | Blizzard | Master | Ice | 3 Water, 1 Wind | 3d6 ice/round, 40-ft radius, heavy obscurement |
 | | | | | |
-| Chill Touch | Novice | Ice | 1 Water | 2d6 ice, touch, disadvantage on next attack |
+| Chill Touch | Novice | Ice | 1 Water | 2d6 ice, touch, Bane on next attack |
 | Freeze Solid | Adept | Ice | 2 Water, 1 Energy | Restrain + 2d6 ice, ongoing damage |
 | Glacial Prison | Master | Ice | 3 Water, 1 Energy | Imprison in ice, 4d6 initial + 2d6/round |
 | | | | | |
@@ -1567,7 +1567,7 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 | Major Image | Adept | Illusion | 2 Energy, 1 Wind | Full sensory illusion, 20-ft cube, can move |
 | Phantasmal Force | Master | Illusion | 3 Energy, 1 Wind | Psychic assault, 4d6/round, target believes illusion |
 | | | | | |
-| Blur | Novice | Illusion | 1 Energy | Disadvantage on attacks against you |
+| Blur | Novice | Illusion | 1 Energy | Bane on attacks against you |
 | Invisibility | Adept | Illusion | 2 Energy, 1 Wind | Invisible 1 hour, breaks on attack |
 | Greater Invisibility | Master | Illusion | 3 Energy, 1 Wind | Invisible 1 minute, stays invisible while attacking |
 | | | | | |

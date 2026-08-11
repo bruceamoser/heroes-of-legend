@@ -119,7 +119,7 @@ She feels the venom burn in her veins, but her body fights it off. She's woozy. 
 
 **If she'd rolled Strong (15+):** She shrugs it off completely. The spider's venom sack was nearly empty. She doesn't even feel it. The DA describes her as "annoyingly fine."
 
-**If she'd rolled Weak (1-8):** The Poisoned condition kicks in, disadvantage on all attacks. She's in trouble. The party needs to end this fight fast or get her an antidote.
+**If she'd rolled Weak (1-8):** The Poisoned condition kicks in, Bane on all attacks. She's in trouble. The party needs to end this fight fast or get her an antidote.
 
 ### Agility in Play
 

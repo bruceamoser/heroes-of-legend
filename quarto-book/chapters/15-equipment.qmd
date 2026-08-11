@@ -94,7 +94,7 @@ The general store doesn't sell magic swords. It sells rope, rations, and the tho
 | **Backpack** | 2 gp | 2* | Holds up to 30 slots of gear. Items stored inside don't count against your encumbrance, but the backpack itself takes 2 slots on your person. Retrieving a stored item takes a Maneuver. |
 | **Bedroll** | 1 gp | 2 | A warm bedroll and blanket. Required for a full rest in the wild. Without one, you recover half HP (rounded down) from rest. |
 | **Chalk (5 pieces)** | 5 cp | 0 | Mark walls, leave signals, draw ritual circles. Breaks easily. Costs nothing. |
-| **Crowbar** | 2 gp | 1 | Advantage on Brawn checks to force open doors, chests, or grates. Makes a loud noise, no subtlety. Can be used as an improvised weapon (1/1/2 damage). |
+| **Crowbar** | 2 gp | 1 | Boon on Brawn checks to force open doors, chests, or grates. Makes a loud noise, no subtlety. Can be used as an improvised weapon (1/1/2 damage). |
 | **Fishing Tackle** | 1 gp | 1 | Hook, line, and tackle. With a body of water and 1 hour, make a Knowledge check (Standard 9-14) to catch enough fish to feed one person for the day. On a Strong result, feed two. |
 | **Grappling Hook** | 2 gp | 1 | Hooks onto ledges, branches, or battlements. Attach a rope and throw, range 30 ft. Requires a Brawn or Agility check (Standard) to set securely. |
 | **Hammer** | 1 gp | 1 | Drives pitons, breaks things, nails doors shut. Can be used as an improvised weapon (1/1/2 damage). |
@@ -141,7 +141,7 @@ Mounts use a simplified stat block, HP, Speed, carrying capacity, and any specia
 | **Warhorse** | 400 gp | 35 | 50 ft | 500 lbs | Trained for combat. Does not require Animal Handling checks to control in battle. |
 | **Pony** | 30 gp | 15 | 40 ft | 200 lbs | Suitable for Small riders only. Can navigate narrow tunnels and dense forest without penalty. |
 | **Riding Dog** | 50 gp | 12 | 40 ft | 100 lbs | Keen Smell: +2 to tracking checks made with the dog's assistance. Suitable for Small riders only. |
-| **Draft Horse** | 50 gp | 25 | 40 ft | 800 lbs | Built for hauling, not riding. Disadvantage on any check involving speed or agility. |
+| **Draft Horse** | 50 gp | 25 | 40 ft | 800 lbs | Built for hauling, not riding. Bane on any check involving speed or agility. |
 | **Camel** | 100 gp | 22 | 50 ft | 500 lbs | Desert Adapted: no penalties for heat or sand. Can go 5 days without water. |
 | **Mule** | 8 gp | 15 | 30 ft | 400 lbs | Stubborn: once per session, may reroll a failed check to resist being moved, frightened, or coerced. |
 

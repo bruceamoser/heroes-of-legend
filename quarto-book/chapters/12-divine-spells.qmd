@@ -41,7 +41,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 |---------|--------|
 | Weak (1-8) | The target gains +1 on the next skill check they make within 1 minute. |
 | Standard (9-14) | +2 on the next skill check within 1 minute. |
-| Strong (15-18+) | +2 on the next skill check. If that check succeeds, the target also gains advantage on their next check within the same minute, the blessing compounds. |
+| Strong (15-18+) | +2 on the next skill check. If that check succeeds, the target also gains Boon on their next check within the same minute, the blessing compounds. |
 
 *The simplest prayer. The most reliable help. When your ally is about to attempt something stupid and heroic, give them Guidance. It won't make the stupid part less stupid, but it might make the heroic part work.*
 
@@ -58,7 +58,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 |---------|--------|
 | Weak (1-8) | Dim light in a 10-foot radius. Duration 10 minutes. |
 | Standard (9-14) | Bright light in a 20-foot radius, dim for another 20 feet. Duration 1 hour. |
-| Strong (15-18+) | As Standard, but undead and fiends in the bright light have disadvantage on attacks, the radiance burns them with its mere presence. |
+| Strong (15-18+) | As Standard, but undead and fiends in the bright light have Bane on attacks, the radiance burns them with its mere presence. |
 
 *Not a torch. Not a lantern. Light is a piece of dawn you can carry in your pocket. Use it to banish shadows. Use it to blind things that hate the sun. Use it to remind your party that even in the deepest dark, someone brought the day with them.*
 
@@ -108,7 +108,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | One minor effect. It's obviously supernatural but not overwhelming. |
-| Standard (9-14) | Three simultaneous effects. Your presence is unmistakably divine. Bystanders who aren't actively hostile are awed, social checks against them have advantage. |
+| Standard (9-14) | Three simultaneous effects. Your presence is unmistakably divine. Bystanders who aren't actively hostile are awed, social checks against them have Boon. |
 | Strong (15-18+) | Your display is terrifying or awe-inspiring (your choice). Hostile creatures of Novice tier or lower must make a Reason check or flee for 1 round. The ground actually shakes. The fire actually roars. |
 
 *The calling card of divine power. When you need a crowd's attention. When you need a bandit chief to reconsider their life choices. When you need everyone in the room to understand that you speak for something bigger than yourself. Thaumaturgy doesn't win arguments, but it makes sure everyone listens.*
@@ -144,7 +144,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 |---------|--------|
 | Weak (1-8) | Restore 1d6+1 HP. The wound closes but leaves a scar. |
 | Standard (9-14) | Restore 2d6+2 HP. Bleeding stops immediately. |
-| Strong (15-18+) | Restore 3d6+3 HP. The healing is so complete that minor scars fade and the target feels a surge of vitality, gain advantage on their next physical action. |
+| Strong (15-18+) | Restore 3d6+3 HP. The healing is so complete that minor scars fade and the target feels a surge of vitality, gain Boon on their next physical action. |
 
 *The spell that says "not today." Heal Wounds won't bring back the dead, but it'll keep the living on their feet. In a game where every hit connects, healing isn't optional, it's survival. Learn this spell. Love this spell. Your party will love you for it.*
 
@@ -161,7 +161,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 |---------|--------|
 | Weak (1-8) | Restore 2d6+2 HP. End one minor condition (dazed, deafened, sickened). |
 | Standard (9-14) | Restore 4d6+4 HP. End one major condition (blinded, paralyzed, poisoned) or one disease. |
-| Strong (15-18+) | Restore 6d6+6 HP. End one major condition AND one minor condition, or end two major conditions. The target also gains advantage on Fortitude checks for the next hour. |
+| Strong (15-18+) | Restore 6d6+6 HP. End one major condition AND one minor condition, or end two major conditions. The target also gains Boon on Fortitude checks for the next hour. |
 
 *Healing-plus. Restoration is what you cast when Heal Wounds isn't enough, when the poison is in their blood and their eyes have gone glassy. It's the difference between "they'll live" and "they'll fight." In the middle of combat, that difference is everything.*
 
@@ -214,7 +214,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | Remove one curse or magical compulsion of Novice tier. The target is shaken, disadvantage on their next action. |
+| Weak (1-8) | Remove one curse or magical compulsion of Novice tier. The target is shaken, Bane on their next action. |
 | Standard (9-14) | Remove one curse, possession, or magical compulsion of Adept tier or lower. Remove all poisons and diseases. |
 | Strong (15-18+) | As Standard, but the cleansing is so complete that the target becomes immune to the removed effect for 24 hours, the same curse cannot re-afflict them. The target also heals 2d6 HP from the purifying energy. |
 
@@ -231,9 +231,9 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | The target returns to life with 1 HP. They are disoriented, disadvantage on all actions for 1 hour. They remember fragments of what lay beyond. |
+| Weak (1-8) | The target returns to life with 1 HP. They are disoriented, Bane on all actions for 1 hour. They remember fragments of what lay beyond. |
 | Standard (9-14) | The target returns with HP equal to half their maximum. They are weak but functional. They remember being dead, the memory will never fully fade. |
-| Strong (15-18+) | The target returns at full HP. They bring something back with them, a fragment of knowledge from beyond, a vision of what's coming, a name they shouldn't know. The DA decides what they learned. They also gain advantage on death-related checks for the next week, death has lost its mystery. |
+| Strong (15-18+) | The target returns at full HP. They bring something back with them, a fragment of knowledge from beyond, a vision of what's coming, a name they shouldn't know. The DA decides what they learned. They also gain Boon on death-related checks for the next week, death has lost its mystery. |
 
 *The ultimate divine spell. Resurrection is why people pray. It's why kings keep Shepherds at their side. It's why your party will drag your body through three levels of dungeon rather than leave you behind. Casting it costs you, not in mana, but in something deeper. The gods notice when you reach past death. They always notice.*
 
@@ -286,7 +286,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | Target regains 5 HP per round for 3 rounds. They have advantage on death checks. |
+| Weak (1-8) | Target regains 5 HP per round for 3 rounds. They have Boon on death checks. |
 | Standard (9-14) | Target regains 10 HP per round for 1 hour. They are immune to poison, disease, and necrotic damage. If reduced to 0 HP, they automatically stabilize and continue regenerating, only a killing blow that deals more than 20 damage in a single hit can truly kill them. |
 | Strong (15-18+) | As Standard, but the target also radiates an aura of vitality, all allies within 15 feet regain 3 HP per round. The target's maximum HP increases by 20 for the duration. They are, for all practical purposes, immortal for the next hour. |
 
@@ -326,7 +326,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 |---------|--------|
 | Weak (1-8) | Remove one condition: blinded, deafened, or paralyzed. The condition fades over 1 round rather than instantly. |
 | Standard (9-14) | Remove one condition instantly: blinded, deafened, paralyzed, or petrified. Target can act immediately. |
-| Strong (15-18+) | Remove any one condition (including stunned, unconscious from non-lethal sources). The target gains advantage on checks against that condition type for 24 hours, it won't take hold again easily. |
+| Strong (15-18+) | Remove any one condition (including stunned, unconscious from non-lethal sources). The target gains Boon on checks against that condition type for 24 hours, it won't take hold again easily. |
 
 *The surgical strike of divine magic. Remove Affliction doesn't heal HP, it solves specific, devastating problems. The medusa's gaze. The banshee's wail. The ghoul's paralytic claws. When a party member is locked down and the enemy is closing in, this spell doesn't just help, it changes the math entirely.*
 
@@ -395,7 +395,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 |---------|--------|
 | Weak (1-8) | Enemies must make a Reason check to target the protected creature. Attacks that succeed deal -2 damage. Duration 3 rounds. |
 | Standard (9-14) | Enemies must make a Reason check to target the creature. On failure, they must choose a different target or lose the attack. On success, damage is halved. Duration 1 minute. |
-| Strong (15-18+) | As Standard, but the Reason check has disadvantage. Undead and fiends automatically fail, they cannot approach within 10 feet of the target. If the protected creature attacks, the spell ends. |
+| Strong (15-18+) | As Standard, but the Reason check has Bane. Undead and fiends automatically fail, they cannot approach within 10 feet of the target. If the protected creature attacks, the spell ends. |
 
 *"Don't hit me" in spell form. Sanctuary is for the non-combatant caught in combat, the scholar you're escorting, the wounded ally you're stabilizing, yourself when you need one round to get a Mass Heal off. It's not invisibility. It's something stranger, the divine assertion that this person is not part of the fight, and the fight should look elsewhere.*
 
@@ -412,7 +412,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 |---------|--------|
 | Weak (1-8) | All allies within 20 feet gain +2 Armor. Duration 3 rounds. |
 | Standard (9-14) | All allies within 30 feet gain +2 Armor and resistance to necrotic and radiant damage. At the start of each ally's turn, they regain 2 HP. Enemies entering the Aegis take 2d6 radiant damage. Duration 1 minute. |
-| Strong (15-18+) | As Standard, but the radius is 40 feet. Allies also have advantage on Fortitude and Reason checks. Enemies inside the Aegis at the start of their turn take 3d6 radiant damage. The Aegis moves with you. Undead and fiends cannot enter, they burn at the boundary. |
+| Strong (15-18+) | As Standard, but the radius is 40 feet. Allies also have Boon on Fortitude and Reason checks. Enemies inside the Aegis at the start of their turn take 3d6 radiant damage. The Aegis moves with you. Undead and fiends cannot enter, they burn at the boundary. |
 
 *The ultimate protective spell. Holy Aegis turns the battlefield into sacred ground. Your party fights inside a bubble of divine favor, healing every round, resisting dark magic, and watching enemies burst into flame just for getting too close. When you raise the Aegis, you're not just protecting your allies. You're consecrating the battlefield. This ground is yours now. The enemy is trespassing.*
 
@@ -467,7 +467,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 |---------|--------|
 | Weak (1-8) | Allies within 15 feet deal +1d4 radiant damage on weapon attacks. Duration 3 rounds. |
 | Standard (9-14) | Allies within 30 feet deal +1d6 radiant damage on weapon attacks (+2d6 vs. undead/fiends). Allies also emit dim light in a 10-foot radius, darkness effects within the mantle are suppressed. Duration 1 minute. |
-| Strong (15-18+) | As Standard, but the bonus is +2d6 radiant (+3d6 vs. undead/fiends). The first time each ally hits an enemy during the duration, that enemy is marked with divine light, attacks against marked enemies have advantage for 1 round. The battlefield is bathed in holy radiance. |
+| Strong (15-18+) | As Standard, but the bonus is +2d6 radiant (+3d6 vs. undead/fiends). The first time each ally hits an enemy during the duration, that enemy is marked with divine light, attacks against marked enemies have Boon for 1 round. The battlefield is bathed in holy radiance. |
 
 *Your party is now an army of the divine. Crusader's Mantle turns every ally into a holy warrior, their weapons burn with sacred fire, their presence banishes darkness, and the enemy formation becomes a shooting gallery of illuminated targets. When the paladin order rides to war, this is the spell their high priest casts before the charge. Nothing survives the charge.*
 
@@ -503,8 +503,8 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | The circle hedges out creatures of one type. They have disadvantage on attacks against creatures inside. Duration 10 minutes. |
-| Standard (9-14) | Creatures of the chosen type cannot enter the circle, cannot attack across it, and have disadvantage on spells cast into it. Inside creatures have +2 Armor against attacks from outside. Duration 1 hour. |
+| Weak (1-8) | The circle hedges out creatures of one type. They have Bane on attacks against creatures inside. Duration 10 minutes. |
+| Standard (9-14) | Creatures of the chosen type cannot enter the circle, cannot attack across it, and have Bane on spells cast into it. Inside creatures have +2 Armor against attacks from outside. Duration 1 hour. |
 | Strong (15-18+) | As Standard, but the circle also prevents teleportation and planar travel into or out of the area. Creatures of the chosen type inside when the circle is cast are trapped, they cannot leave. Duration 2 hours. |
 
 *The summoner's nightmare. Magic Circle is for when you know what's hunting you and need a guaranteed safe zone. Camp inside one when the werewolves are prowling. Trap a demon inside one while you negotiate. Cast one around the ritual altar before the cultists finish their spell. The circle doesn't judge. It just holds.*
@@ -650,8 +650,8 @@ Divination is the magic of knowing. It sees what's hidden, identifies what's unk
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | The target has advantage on initiative rolls and cannot be surprised for 1 hour. They sense danger a heartbeat before it arrives. |
-| Standard (9-14) | For 8 hours: advantage on all attack rolls, checks, and initiative. Enemies have disadvantage on attacks against the target. The target cannot be surprised. Once during the duration, the target may declare that they foresaw a specific event and automatically succeed on one check related to it. |
+| Weak (1-8) | The target has Boon on initiative rolls and cannot be surprised for 1 hour. They sense danger a heartbeat before it arrives. |
+| Standard (9-14) | For 8 hours: Boon on all attack rolls, checks, and initiative. Enemies have Bane on attacks against the target. The target cannot be surprised. Once during the duration, the target may declare that they foresaw a specific event and automatically succeed on one check related to it. |
 | Strong (15-18+) | As Standard, but the target also gains a single moment of perfect clarity, once during the duration, they may ask the DA one question about an immediate future event (within the next minute) and receive a truthful answer of up to 25 words. The target also knows the exact moment the spell will end, down to the second. They feel time running out. |
 
 *The ultimate divination. Foresight doesn't show the future, it makes the future a known quantity. For eight hours, one member of your party is operating on information the enemy doesn't have: what's about to happen. They dodge attacks before they're thrown. They find traps before they're set. They make decisions with the confidence of someone who's already seen how this plays out. This is the spell that turns a hero into a legend, and a legend into a prophecy.*
@@ -763,7 +763,7 @@ Divination is the magic of knowing. It sees what's hidden, identifies what's unk
 | | | | | |
 | See Invisible | Novice | Divination | 1 Energy | See invisible creatures, 60-ft range |
 | True Seeing | Adept | Divination | 2 Energy, 1 Water | See through illusions, shapechangers, 1 hour |
-| Foresight | Master | Divination | 3 Energy, 1 Water | Advantage on everything, 8 hours |
+| Foresight | Master | Divination | 3 Energy, 1 Water | Boon on everything, 8 hours |
 | | | | | |
 | Augury | Novice | Divination | 1 Energy | Omen: Weal/Woe for planned action |
 | Divination | Adept | Divination | 2 Energy, 1 Water | Direct answer to one question |

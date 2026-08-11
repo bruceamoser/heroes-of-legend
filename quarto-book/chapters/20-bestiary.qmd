@@ -67,7 +67,7 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
 
 **Bugbear (Challenge 1):** HP 12, DR 1 (hide). Morningstar: 3/4/6 bludgeoning. Reach 10 ft. Brute: +1 damage tier against targets that haven't acted yet this combat. Natural Stealth: +1 to Guile (Stealth) checks. Surprise Attack: on the first round of combat, the bugbear's first attack that hits deals damage one tier higher.
 
-**Goblin Shaman (Challenge 1):** HP 8, DR 0. Staff: 1/2/3 bludgeoning. Hex Bolt: 2/4/6 necrotic (range 60 ft). Hex (Recharge): one target within 30 ft must make a Guile save or suffer disadvantage on its next attack roll. Goblin Cunning: can use a Maneuver to Disengage. Darkvision: 60 ft.
+**Goblin Shaman (Challenge 1):** HP 8, DR 0. Staff: 1/2/3 bludgeoning. Hex Bolt: 2/4/6 necrotic (range 60 ft). Hex (Recharge): one target within 30 ft must make a Guile save or suffer Bane on its next attack roll. Goblin Cunning: can use a Maneuver to Disengage. Darkvision: 60 ft.
 
 {{< pagebreak >}}
 
@@ -121,7 +121,7 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
 
 **Dryad (Challenge 1):** HP 10, DR 0. Club: 1d6/1d8/1d10. Charm: one humanoid within 30 ft must make Guile save or be Charmed (1/day). Tree Stride: teleport between trees within 60 ft. Treebound: takes 1d6 damage per round when more than 300 ft from its bonded tree.
 
-**Green Hag (Challenge 3):** HP 16, DR 2. Claw: 3/4/6. Illusory Appearance: appears as any humanoid. Vicious Mockery: 2/4/6 psychic + disadvantage on next attack (at will). Coven Magic: when 3 hags are within 30 ft, they share spellcasting.
+**Green Hag (Challenge 3):** HP 16, DR 2. Claw: 3/4/6. Illusory Appearance: appears as any humanoid. Vicious Mockery: 2/4/6 psychic + Bane on next attack (at will). Coven Magic: when 3 hags are within 30 ft, they share spellcasting.
 
 {{< pagebreak >}}
 
@@ -145,19 +145,19 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
 
 ## Giants
 
-**Hill Giant (Challenge 5):** HP 30, DR 2. Greatclub: 5/7/10. Rock: 4/6/9 (range 60/240). Slow-Witted: disadvantage on Knowledge, Reason, and Guile saves.
+**Hill Giant (Challenge 5):** HP 30, DR 2. Greatclub: 5/7/10. Rock: 4/6/9 (range 60/240). Slow-Witted: Bane on Knowledge, Reason, and Guile saves.
 
-**Stone Giant (Challenge 7):** HP 35, DR 4. Greatclub: 2d10/3d10/4d10. Rock: 6/9/12 (range 60/240). Stone Camouflage: advantage on Stealth in rocky terrain.
+**Stone Giant (Challenge 7):** HP 35, DR 4. Greatclub: 2d10/3d10/4d10. Rock: 6/9/12 (range 60/240). Stone Camouflage: Boon on Stealth in rocky terrain.
 
-**Ogre (Challenge 2):** HP 20, DR 2 (thick hide). Greatclub: 4/5/7 bludgeoning. Rock: 3/4/6 bludgeoning (range 30/90). Reach 10 ft. Slow-Witted: disadvantage on Knowledge, Reason, and Guile saves. Hulking Brute: the ogre deals +1 damage tier to objects and structures.
+**Ogre (Challenge 2):** HP 20, DR 2 (thick hide). Greatclub: 4/5/7 bludgeoning. Rock: 3/4/6 bludgeoning (range 30/90). Reach 10 ft. Slow-Witted: Bane on Knowledge, Reason, and Guile saves. Hulking Brute: the ogre deals +1 damage tier to objects and structures.
 
 {{< pagebreak >}}
 
 ## Extraplanar
 
-**Vrock (Demon, Challenge 6):** HP 25, DR 3. Claw: 4/5/7. Bite: 3/4/6. Spores (Recharge): all within 15 ft take 4/6/9 poison. Stunning Screech (1/day): all within 30 ft must make Fortitude save or be Stunned for 1 round. Magic Resistance: advantage on saves vs spells.
+**Vrock (Demon, Challenge 6):** HP 25, DR 3. Claw: 4/5/7. Bite: 3/4/6. Spores (Recharge): all within 15 ft take 4/6/9 poison. Stunning Screech (1/day): all within 30 ft must make Fortitude save or be Stunned for 1 round. Magic Resistance: Boon on saves vs spells.
 
-**Barbed Devil (Challenge 5):** HP 22, DR 4. Claw: 3/4/6 + 2 fire. Tail: 4/5/7 piercing. Barbed Hide: creatures grappling or hitting with melee take 2 piercing. Magic Resistance: advantage on saves vs spells.
+**Barbed Devil (Challenge 5):** HP 22, DR 4. Claw: 3/4/6 + 2 fire. Tail: 4/5/7 piercing. Barbed Hide: creatures grappling or hitting with melee take 2 piercing. Magic Resistance: Boon on saves vs spells.
 
 {{< pagebreak >}}
 
@@ -191,13 +191,13 @@ HP 25, DR 3 (regenerates). Attributes: Brawn +2, Fortitude +2, Agility -1, Guile
 
 HP 14, DR 1. Attributes: Agility +2, Guile +1, others +0.
 
-**Shadow Claw:** 3/4/6 necrotic. Target's shadow is torn, disadvantage on Stealth until the end of the encounter.
+**Shadow Claw:** 3/4/6 necrotic. Target's shadow is torn, Bane on Stealth until the end of the encounter.
 
 **Merge with Shadow (Maneuver, at will):** If in dim light or darkness, the stalker becomes Invisible until it attacks or enters bright light.
 
 **Shadow Leap (Maneuver, Recharge):** Teleport up to 60 ft to any area of dim light or darkness.
 
-**Light Vulnerability:** While in bright light, all attacks against the stalker are at advantage, and its damage tier is reduced by one.
+**Light Vulnerability:** While in bright light, all attacks against the stalker are at Boon, and its damage tier is reduced by one.
 
 ### Treant (Challenge 5)
 
@@ -229,7 +229,7 @@ HP 40, DR 5 (plate + unholy). Attributes: Brawn +2, Fortitude +1, Guile +1, othe
 
 **Marshal Undead:** Undead allies within 30 ft gain +1 to all attack rolls.
 
-**Unholy Resilience:** The Death Knight has advantage on all saves against spells and magical effects.
+**Unholy Resilience:** The Death Knight has Boon on all saves against spells and magical effects.
 
 **Soulbind:** When the Death Knight reaches 0 HP, its soul retreats into its armor. It reforms at full HP in 1d4 rounds unless the armor is destroyed (HP 15, DR 6) or a Shepherd uses Turn Undead on the armor.
 
