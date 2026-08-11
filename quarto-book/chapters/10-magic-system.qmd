@@ -59,7 +59,7 @@ Spell tiers have **level gates** in addition to Discipline prerequisites. **Adep
 
 At the Master tier, one additional rule applies: **no single Discipline type may exceed 3.** Every Master spell blends at least two types. Volcanic Eruption isn't just "more fire", it's fire and earth working together. This ensures Master spells represent broad magical mastery, not narrow specialization.
 
-General Disciplines follow a tiered substitution rule: at Novice, one General substitutes for one specific Discipline (1:1). At Master, two General Disciplines substitute for one specific Discipline (2:1). General Disciplines cannot substitute at the Adept tier. With level gates in place, a clever caster can have their Master prerequisites lined up by level 3 using General Disciplines, but they still must hit level 7 before the Master tier unlocks — and those Generals won't be available for other pursuits.
+General Disciplines substitute for specific Disciplines at Novice tier only (1:1). General Disciplines cannot substitute at the Adept or Master tier. With level gates in place, Adept unlocks at level 3 and Master at level 7, giving you time to earn the specific Disciplines each tier demands.
 
 | Spell | Tier | Discipline Req | Effect Range (W / S / St) |
 |-------|------|---------------|--------------------------|

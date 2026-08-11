@@ -43,9 +43,14 @@ You don't roll Disciplines. You *collect* them. They're permanent markers on you
 | **Defense** | **Protection** | Shields, warding, guarding allies |
 | | **Armor** | Heavy armor proficiency, damage soaking |
 | **Primal** | **Animal** | Beasts, nature, shapeshifting, instinct |
+| | **Plants** | Flora, growth, thorns, verdant magic |
 | **Arcane** | **Energy** | Raw magical force, metamagic, spellcraft |
+| **Divine** | **Life** | Healing, vitality, living things |
+| | **Religion** | Faith, blessings, holy power |
+| **Esoteric** | **Mind** | Psionics, illusions, mental influence |
+| | **Summon** | Calling, binding, conjuring creatures |
 
-Fourteen Disciplines. Five categories. Your hero's path through them defines everything they can do.
+Nineteen Disciplines. Seven categories. Your hero's path through them defines everything they can do.
 
 {{< pagebreak >}}
 
@@ -99,9 +104,9 @@ Skills, abilities, and talents require specific Disciplines before you can learn
 
 ### General Disciplines Substitution
 
-General Disciplines substitute for specific Disciplines at Novice tier (1:1). At Master tier, two General Disciplines may substitute for one specific Discipline (2:1). General Disciplines cannot substitute at the Adept tier.
+General Disciplines substitute for specific Disciplines at Novice tier only (1:1). General Disciplines cannot substitute at the Adept or Master tier.
 
-Need 1 Fire for Firebolt? A General covers it. Need 2 Fire for Fireball at Adept? You need the real thing, no substitutions. Need 3 Fire and 1 Earth for Volcanic Eruption but you only have 3 Fire? Two Generals stand in for that Earth, and the volcano answers. General gets you in the door. Adept demands commitment. Master rewards cleverness, but charges double for shortcuts.
+Need 1 Fire for Firebolt? A General covers it. Need 2 Fire for Fireball at Adept? You need the real thing, no substitutions. Need 3 Fire and 1 Earth for Volcanic Eruption? You need every one of those Disciplines the hard way. General gets you in the door. Beyond that, you walk through on your own.
 
 {{< pagebreak >}}
 
@@ -113,12 +118,10 @@ Kael wants to burn the world. He's an Arcanist, his class gives him 2 Fire and 1
 
 **Adept (Fireball):** Requires 2 Fire + 1 Energy. Kael has exactly that, 2 Fire, 1 Energy. But the Adept tier requires level 3, so he must wait. Most casters need several levels to reach Adept. Arcanists start closer to the flame and qualify as soon as the gate opens.
 
-**Master (Volcanic Eruption):** Requires 3 Fire + 1 Earth. Kael's got 2 Fire and 1 Energy, he needs 1 more Fire and 1 Earth. Under the old system, this took twelve levels. Now? Two paths open to him.
+**Master (Volcanic Eruption):** Requires 3 Fire + 1 Earth. Kael starts with 2 Fire and 1 Energy, so he needs 1 more Fire and 1 Earth. With level gates in place, Adept unlocks at level 3 and Master at level 7. Kael has time to prepare.
 
-*Path of the Patient:* At level 3, Kael takes Fire (now 3 Fire, 1 Energy). At level 6, he takes Earth (now 3 Fire, 1 Earth, 1 Energy). When the Master tier unlocks at level 7, he qualifies for Volcanic Eruption with any General Disciplines he's earned still available for other pursuits. He could branch into Protection for defense, Animal for a familiar, or bank them for cross-class talents. Seven levels to master volcanic fury, and he's still got room to grow.
+At level 3, Kael takes Fire (now 3 Fire, 1 Energy). At level 6, he takes Earth (now 3 Fire, 1 Earth, 1 Energy). When the Master tier unlocks at level 7, he qualifies for Volcanic Eruption — and any General Disciplines he's earned are still available for other pursuits. He could branch into Protection for defense, Animal for a familiar, or bank them for cross-class talents.
 
-*Path of the Specialist:* At level 3, Kael takes Fire (now 3 Fire, 1 Energy). He needs 1 Earth. At the Master tier, two General Disciplines substitute for one specific Discipline. Kael spends 2 General Disciplines to cover the Earth requirement. When the Master tier unlocks at level 7, he qualifies for Volcanic Eruption — but he's burned most of his flexibility getting there fast.
+Seven levels to master volcanic fury. Generals got him started. Disciplines got him to Master. No shortcuts. No wildcards. Just the path, walked one step at a time.
 
-Two paths. Same destination. One conserves options. The other commits resources early. Both reach Volcanic Eruption at level 7, the moment the Master gate opens. Both are valid. Both are *earned.*
-
-That's the Discipline system working as intended. Master spells should be achievable before your campaign's final act, but they should still mean something when you cast them. A level 7 Volcanic Eruption with Generals intact says "I built for this." A level 7 Volcanic Eruption funded by General Disciplines says "I sacrificed for this." Either way, when Kael calls down the mountain's fury, everyone at the table knows he paid for it.
+That's the Discipline system working as intended. Master spells should be achievable before your campaign's final act, but they should still mean something when you cast them. A level 7 Volcanic Eruption says "I built for this." When Kael calls down the mountain's fury, everyone at the table knows he paid for it.
