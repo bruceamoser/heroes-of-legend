@@ -3,11 +3,6 @@
 __pycache__/
 *.pyc
 
-# Build artifacts
-starter-kit/
-starter-kit.zip
-build/
-
 # Extracted reference (generated, not source)
 source-doc/extracted/
 
