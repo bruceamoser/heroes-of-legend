@@ -26,12 +26,12 @@ Heroes of Legend is a ground-up redesign of an earlier playtest game. It uses a 
 
 ## Quick Build
 
-Requires [Quarto](https://quarto.org/docs/get-started/) (Typst engine included).
+Requires [Quarto](https://quarto.org/docs/get-started/) **1.10+** (the build uses the orange-book Typst book template; a vendored template shim enforces the US-Letter theme geometry).
 
 ```bash
 cd quarto-book
 ./build.sh                 # Linux/macOS — or .\build.ps1 on Windows
-# Output: quarto-book/_output/heroes-of-legend-core-rules.pdf
+# Output: quarto-book/_output/Heroes-of-Legend.pdf
 ```
 
 ## Repository Layout
