@@ -196,35 +196,47 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 
 | Level | DP Gained | Milestones |
 |-------|-----------|------------|
-| 1 | 3 DP (class) + 8 DP (background) | Class, signature ability |
-| 2 | 2 DP |, |
-| 3 | 2 DP | Adept abilities unlock. +1 Discipline rank. |
-| 4 | 2 DP | +1 Attribute (max +2) |
-| 5 | 3 DP | Class feature |
-| 6 | 2 DP | +1 Discipline rank |
-| 7 | 2 DP | Master abilities unlock |
-| 8 | 2 DP | +1 Attribute (max +2) |
-| 9 | 2 DP | +1 Discipline rank |
-| 10 | 2 DP | Class feature |
-| 11-20 | 2 DP/level | Discipline every 3 levels. Attribute every 4 levels. |
+| 1 | 4 DP (class) + 8 DP (background) | Class, signature ability |
+| 2 | 3 DP |, |
+| 3 | 3 DP | Adept abilities unlock. +1 Discipline rank. |
+| 4 | 3 DP | +1 Attribute (max +2) |
+| 5 | 4 DP | Class feature |
+| 6 | 3 DP | +1 Discipline rank |
+| 7 | 3 DP | Master abilities unlock |
+| 8 | 3 DP | +1 Attribute (max +2) |
+| 9 | 3 DP | +1 Discipline rank |
+| 10 | 3 DP | Class feature |
+
+Total DP by level 10: 32 advancement DP (plus 8 background DP = 40 total).
 
 {{< pagebreak >}}
 
 ## DP Cost Reference
 
-| Purchase | X1 (Favored) | X2 (Neutral) | X3 (Out of Class) |
-|----------|-------------|-------------|-------------------|
-| Skill (Novice) | 1 DP | 2 DP | 3 DP |
-| Skill (Adept) | 2 DP | 4 DP | 6 DP |
-| Skill (Master) | 3 DP | 6 DP | 9 DP |
-| Discipline (1st rank) | 1 DP | 2 DP | 3 DP |
-| Discipline (2nd rank) | 2 DP | 4 DP | 6 DP |
-| Discipline (3rd rank) | 4 DP | 8 DP | 12 DP |
-| Ability (Novice) | 1 DP | 1 DP | 1 DP |
-| Ability (Adept) | 2 DP | 2 DP | 2 DP |
-| Ability (Master) | 4 DP | 4 DP | 4 DP |
+Cards (skills, abilities, spells) cost a flat rate regardless of class:
 
-**Abilities always cost 1/2/4 DP** regardless of class. Their real gate is Discipline prerequisites.
+| Purchase | DP Cost |
+|----------|---------|
+| Skill (Novice) | 2 DP |
+| Skill (Adept) | 4 DP |
+| Skill (Master) | 8 DP |
+| Ability (Novice) | 2 DP |
+| Ability (Adept) | 4 DP |
+| Ability (Master) | 8 DP |
+| No-prereq basic (Novice) | 2 DP |
+
+Disciplines cost different amounts depending on your class's cost structure for that discipline:
+
+| Structure | Rank 1 | Rank 2 | Rank 3 | Meaning |
+|-----------|--------|--------|--------|---------|
+| **Home** | 1 DP | 2 DP | 4 DP | Favored — core to the class |
+| **Adjacent** | 2 DP | 4 DP | 8 DP | Related but not core |
+| **Foreign** | 3 DP | 6 DP | 12 DP | Unrelated to the class |
+| **Opposed** | 4 DP | 8 DP | 16 DP | Antithetical to the class |
+
+See your class's Discipline Cost Table in @sec-chapter-classes for per-discipline costs.
+
+The total cost of a card = its flat card DP cost + the sum of the discipline rank costs for each required discipline.
 
 {{< pagebreak >}}
 

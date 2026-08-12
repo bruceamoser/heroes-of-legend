@@ -55,16 +55,16 @@ Every chain follows the same logic: Novice is your workhorse, Adept is your heav
 
 ## Discipline Prerequisites
 
-Spell tiers have **level gates** in addition to Discipline prerequisites. **Adept-tier spells require character level 3. Master-tier spells require level 7.** Novice spells have no level gate. Discipline prerequisites still govern *which* Adept and Master options you can buy when the gate opens. Want to throw a Fireball at level 3? You need 2 Fire and 1 Energy. At level 7, Volcanic Eruption requires 3 Fire and 1 Earth. The Discipline system follows a clean doubling progression: **Novice spells require 1 Discipline, Adept require 2, Master require 4.**
+Spell tiers have **level gates** in addition to Discipline prerequisites. **Adept-tier spells require character level 3. Master-tier spells require level 7.** Novice spells have no level gate. Discipline prerequisites still govern *which* Adept and Master options you can buy when the gate opens. Want to throw a Fireball at level 3? You need 2 Fire. At level 7, Volcanic Eruption requires 2 Fire and 1 Earth. The Discipline system follows a clean progression: **Novice spells require 1 Discipline, Adept require 2, Master require 3.**
 
 At the Master tier, one additional rule applies: **no single Discipline type may exceed 3.** Every Master spell blends at least two types. Volcanic Eruption isn't just "more fire", it's fire and earth working together. This ensures Master spells represent broad magical mastery, not narrow specialization.
 
-General Disciplines substitute for specific Disciplines at Novice tier only (1:1). General Disciplines cannot substitute at the Adept or Master tier. With level gates in place, Adept unlocks at level 3 and Master at level 7, giving you time to earn the specific Disciplines each tier demands.
+There are no wildcard Discipline substitutions. Every Discipline requirement must be met with the specific Discipline named on the card. With level gates in place, Adept unlocks at level 3 and Master at level 7, giving you time to earn the specific Disciplines each tier demands.
 
 | Spell | Tier | Discipline Req | Effect Range (W / S / St) |
 |-------|------|---------------|--------------------------|
 | Firebolt | Novice | 1 Fire | W: 2 / S: 3 / St: 5 + ignite |
-| Fireball | Adept | 2 Fire + 1 Energy | W: 6 (5ft) / S: 9 (15ft) / St: 12 (20ft) |
+| Fireball | Adept | 2 Fire | W: 6 (5ft) / S: 9 (15ft) / St: 12 (20ft) |
 | Volcanic Eruption | Master | 3 Fire + 1 Earth | W: 9 (20ft) / S: 15 (30ft) / St: 21 (40ft) + terrain hazard |
 
 Look at that jump from Firebolt to Volcanic Eruption. One Discipline. Two Disciplines. Four Disciplines. Novice spells are tools. Adept spells are weapons. Master spells are *events.* The Discipline requirements make sure you earn the difference, but they don't make you wait half a campaign to do it.

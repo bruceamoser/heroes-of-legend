@@ -98,8 +98,6 @@ Every table is different. These rules let you tune the game's tone without break
 
 **Heroic Mode:** The party gains +1 Development Point per level. They'll have more skills, more talents, more abilities at every stage of the game. Use this for smaller parties (2–3 players) who need the extra power to handle standard encounters, or for groups who love character customization and want more toys to play with. Don't use this with optimization-heavy groups unless you're prepared for the party to punch above their weight consistently.
 
-**Discipline Crafting:** At level 10+, characters may combine 2 General Disciplines into 1 specific Discipline of their choice. This represents years of focused training paying off — the generalist finally specializing. It's a late-game option for characters who've been sitting on General Disciplines and want to unlock Master-tier abilities in a specific domain. Limit this to once per character, or at most once per tier (levels 10, 15, 20). It's meant to enable character evolution, not to let players respec their entire build.
-
 
 {{< pagebreak >}}
 
@@ -498,13 +496,13 @@ Every mechanical element in *Heroes of Legend* follows one of three card formats
 
 Spells are the most structured. Every spell card answers the same questions in the same order.
 
-**Format:** `Name | Tier | Discipline Req | Range | Duration | Effect (W/S/St) | Narrative link to next tier`
+**Format:** `Name | Tier (DP Cost) | Discipline Req | Range | Duration | Effect (W/S/St) | Narrative link to next tier`
 
 | Field | Description |
 |-------|-------------|
 | **Name** | The spell's name. Always capitalized, always unique within its chain. |
-| **Tier** | Novice, Adept, or Master. Determines damage budget, DP cost, and level gate. |
-| **Discipline Req** | The Disciplines required to learn this spell. e.g. "1 Fire" or "2 Fire, 1 Energy". |
+| **Tier (DP Cost)** | Novice (2 DP), Adept (4 DP), or Master (8 DP). Flat cost regardless of class. |
+| **Discipline Req** | The Disciplines required to learn this spell. e.g. "1 Fire" or "2 Fire, 1 Energy". Max 3 ranks. |
 | **Range** | How far the spell reaches: Touch, 30 ft, 60 ft, Self (15-ft cone), etc. |
 | **Duration** | How long the spell lasts: Instantaneous, Concentration up to 1 minute, 1 hour, etc. |
 | **Effect (W/S/St)** | What happens on a Weak, Standard, or Strong result. Damage uses the budget table (@sec-damage-budget). |
@@ -512,7 +510,7 @@ Spells are the most structured. Every spell card answers the same questions in t
 
 **Example (Fireball):**
 
-> **Fireball (Adept).** Disc: 2 Fire, 1 Energy. Range: 100 ft. Duration: Instantaneous. W: 6 fire damage in 10-ft radius. S: 9 fire damage in 15-ft radius, flammable objects ignite. St: 12 fire damage in 20-ft radius, targets near center take +3 damage.
+> **Fireball (Adept, 4 DP).** Disc: 2 Fire. Range: 100 ft. Duration: Instantaneous. W: 6 fire damage in 10-ft radius. S: 9 fire damage in 15-ft radius, flammable objects ignite. St: 12 fire damage in 20-ft radius, targets near center take +3 damage.
 >
 > *This is the spell that ends encounters and starts wars. When you cast Fireball, the battlefield changes. So does your reputation.*
 
@@ -520,35 +518,43 @@ Spells are the most structured. Every spell card answers the same questions in t
 
 Class abilities are more varied than spells, but they all follow a simpler format. Where spells have ranges and durations, abilities have triggers and effects.
 
-**Format:** `Name | Tier | Discipline Req | Trigger | Effect (W/S/St)`
+**Format:** `Name | Tier (DP Cost) | Discipline Req | Trigger | Effect (W/S/St)`
 
 | Field | Description |
 |-------|-------------|
 | **Name** | The ability's name. |
-| **Tier** | Novice, Adept, or Master. |
-| **Discipline Req** | Disciplines required to purchase this ability. |
+| **Tier (DP Cost)** | Novice (2 DP), Adept (4 DP), or Master (8 DP). |
+| **Discipline Req** | Disciplines required to purchase this ability. "No prereq" for basic utility abilities. |
 | **Trigger** | When the ability can be used: "When you attack", "As a maneuver", "When an ally drops to 0 HP", etc. |
 | **Effect (W/S/St)** | What happens. Damaging abilities key to the damage budget (@sec-damage-budget). |
 
 **Example (Shadow Strike):**
 
-> **Shadow Strike (Adept).** Disc: 2 Blades, 1 Mind. Trigger: When you attack from Vanish invisibility. Effect: The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene.
+> **Shadow Strike (Adept, 4 DP).** Disc: 2 Blades, 1 Mind. Trigger: When you attack from Vanish invisibility. Effect: The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene.
+
+### No-Prereq Basics
+
+Some Novice-level cards have no Discipline requirement and cost only the flat card price (2 DP). These are minor tricks, cantrips, and basic utility skills anyone can pick up:
+
+> **Spark (Novice, 2 DP).** No prereq. Range: Touch. Duration: Instantaneous. W: Create a flicker of flame, enough to light a candle or pipe. S: Ignite a torch or small campfire. St: The flame catches quickly and cleanly — bonus on your next fire-related roll.
+
+No-prereq cards are Novice only. Adept and Master cards always require Disciplines.
 
 ### Ancestry Gift Card
 
 Ancestry gifts are the simplest. They have no Discipline requirement (they're inherited, not learned), and they're rarely damaging, so the W/S/St breakdown is usually replaced by a flat effect.
 
-**Format:** `Name | Tier (Novice/Adept/Master) | Effect`
+**Format:** `Name | Tier (DP Cost) | Effect`
 
 | Field | Description |
 |-------|-------------|
 | **Name** | The gift's name. |
-| **Tier** | Novice, Adept, or Master. Master-tier gifts are rare. |
+| **Tier (DP Cost)** | Novice (2 DP), Adept (4 DP), or Master (8 DP). Master-tier gifts are rare. |
 | **Effect** | What the gift does. If it deals damage, it keys to the damage budget. Otherwise, a flat description. |
 
 **Example (Die Hard):**
 
-> **Die Hard (Novice).** When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session.
+> **Die Hard (Novice, 2 DP).** When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session.
 
 ::: {.callout-tip}
 ## Designing Your Own Content
