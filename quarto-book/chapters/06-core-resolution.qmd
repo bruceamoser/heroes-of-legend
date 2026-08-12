@@ -64,6 +64,8 @@ Your 3d6 attack roll determines the damage tier:
 **Standard:** Apply the Standard damage value.
 **Strong:** Apply the Strong damage value. Add any critical effects.
 
+These damage values come from the damage budget table (@sec-damage-budget). There is no separate damage roll: the outcome tier of your attack roll is your damage tier. Roll once, resolve everything.
+
 Armor reduces incoming damage, every point of Armor subtracts 1 from the damage you take (minimum 1 damage from any hit). A goblin with no armor takes the full 5 from a Strong longsword strike. A knight in plate armor (Armor 3) would only take 2 from that same blow.
 
 ::: {.callout-tip}
