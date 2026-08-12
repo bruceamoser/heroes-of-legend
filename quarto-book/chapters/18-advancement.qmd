@@ -41,15 +41,15 @@ At each level, you gain 3–4 DP, with larger awards at milestone levels (1, 5).
 | Level | DP | Other Gains |
 |-------|-----|-------------|
 | 1 | 4 | Class signature, Starting Disciplines |
-| 2 | 3 |, |
+| 2 | 3 | |
 | 3 | 3 | Progression Discipline. Adept abilities unlock. |
 | 4 | 3 | Attribute increase (+1, max +2) |
-| 5 | 4 | Class feature upgrade |
+| 5 | 4 | DP windfall |
 | 6 | 3 | Progression Discipline |
 | 7 | 3 | Master abilities unlock |
 | 8 | 3 | Attribute increase (+1, max +2) |
 | 9 | 3 | Progression Discipline |
-| 10 | 3 | Class feature upgrade |
+| 10 | 3 | |
 
 Total DP by level 10: 32. Total Progression Disciplines: 3. Total attribute increases: 2.
 
@@ -91,7 +91,7 @@ Earned titles grant mechanical benefits. Examples: **Dragonslayer** (+1 damage v
 
 At each level, you may exchange one skill rank or talent purchase for another of equal or lower DP cost. The DA may require narrative justification, finding a trainer, spending downtime, or a story event that prompts the change.
 
-**Example:** At level 5, Kael realizes he never uses his Novice Intimidation. He retrains it to Novice Athletics (both 1 DP). He spends a session training with Roric, the party's Protector, to justify the change.
+**Example:** At level 5, Kael realizes he never uses his Novice Intimidation. He retrains it to Novice Athletics (both 2 DP). He spends a session training with Roric, the party's Protector, to justify the change.
 
 > **Why this exists:** Players make choices at level 1 without knowing how the game actually plays. Retraining lets them correct early mistakes without feeling stuck. It also means a character's build can evolve with the story.
 
@@ -177,7 +177,7 @@ Spend gold to expand your stronghold's capabilities. Each upgrade requires the b
 | **Workshop** | 350 gp | Any stronghold | +2 to Craft actions for gear, tools, and non-magical items. Crafting time reduced by one-third. |
 | **Walls (Reinforced)** | 500 gp | Any stronghold | Stronghold HP increased by 25. Attackers suffer -2 on all rolls to breach, climb, or bypass walls. |
 | **Secondary Stronghold Type** | 800 gp | Base stronghold established | Add the benefits of a second stronghold type. A Fortified Keep with a Library has both martial training grounds and arcane reference works. |
-| **Teleportation Circle** | 1,500 gp | Wizard's Tower, caster level 10+ | Permanent teleportation circle. Connects to one other circle you've attuned to. priceless when the orc army is three days away and you need reinforcements *now*. |
+| **Teleportation Circle** | 1,500 gp | Wizard's Tower, character level 10+ | Permanent teleportation circle. Connects to one other circle you've attuned to. priceless when the orc army is three days away and you need reinforcements *now*. |
 | **Vault** | 500 gp | Any stronghold | Secure storage with magical wards. Items stored here cannot be scryed upon. +4 to rolls against theft or tampering. |
 
 **Upkeep:** Strongholds cost 5% of their total value in gold per month for maintenance, staff wages, and supplies. A 1,000 gp stronghold costs 50 gp per month. If the party can't pay, the stronghold degrades, lose one upgrade per month of neglect, starting with the most expensive.
