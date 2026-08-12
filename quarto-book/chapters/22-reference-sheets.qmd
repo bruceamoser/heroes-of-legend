@@ -59,7 +59,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 
 | Maneuver | Effect |
 |----------|--------|
-| **Defend** | +2 Protection Value until your next turn |
+| **Defend** | +2 to your Defense roll until your next turn |
 | **Disengage** | Move 5 ft without provoking opportunity attacks |
 | **Aid** | Ally within 30 ft gains +2 on their next roll |
 | **Shove** | Opposed Brawn check. Push 5 ft (10 ft on Strong) |
@@ -139,10 +139,16 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 |-------|------|---------|
 | **Athletics** | BR | Climb, swim, jump |
 | **Intimidation** | BR | Frighten, coerce |
-| **Blades Fighting** | BR | Swords, daggers |
-| **Axe Fighting** | BR | Axes, cleaving |
-| **Polearms Fighting** | BR | Spears, reach |
-| **Heavy Weapon Fighting** | BR | Greatswords, mauls |
+| **Small Blades** | BR | Daggers, knives, short blades |
+| **Long Blades** | BR | Swords, longswords, arming swords |
+| **Great Blades** | BR | Greatswords, two-handed blades |
+| **Small Hammers** | BR | Maces, clubs, light hammers |
+| **Long Hammers** | BR | Warhammers, military hammers |
+| **Great Hammers** | BR | Mauls, massive crushing weapons |
+| **Small Axes** | BR | Hand axes, hatchets |
+| **Long Axes** | BR | Battle axes, war axes |
+| **Great Axes** | BR | Greataxes, massive cleaving weapons |
+| **Polearms** | BR | Spears, halberds, reach weapons |
 | **Unarmed Fighting** | BR | Fists, grappling |
 | **Endurance** | FO | Fatigue, breath-holding |
 | **Survival** | FO | Track, forage, navigate |
@@ -269,7 +275,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 
 ## Encounter Building Quick-Reference
 
-| Difficulty | Challenge Budget | Example (Level 4 party) |
+| Difficulty | Challenge Budget | Example (Level 3 party) |
 |-----------|-----------------|------------------------|
 | Easy | × party level | 4 Wolves (C½ each) |
 | Standard | ×2 party level | 1 Knight (C3) + 2 Guards (C½) |
@@ -297,4 +303,4 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 | Shield | 1 | +2 |
 | Tower Shield | 2 | +3 |
 
-**Defense summary:** Armor grants DR (passive damage reduction). Protection Value (PV) is a defensive stance bonus (from Bastion, Arcane Shield, or Defend). Shields grant a DR bonus and the Shield Block reaction.
+**Defense summary:** Armor grants DR (passive damage reduction). Protection Value (PV) is a defensive stance bonus (from Bastion or Arcane Shield). Shields grant a DR bonus and the Shield Block reaction.
