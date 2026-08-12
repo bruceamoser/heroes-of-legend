@@ -12,7 +12,7 @@
 
 Talents are passive. They change your numbers or grant a standing benefit, and they are always on. Abilities are active. Spells, weapon maneuvers, and class powers must be activated to use. Both use the card format below.
 
-Every card lists its Disciplines, Action, Range, and Keywords. The Novice effect appears as Weak, Standard, and Strong outcomes. Adept and Master additions follow. A card costs DP by tier: Novice 2 DP, Adept 4 DP, Master 8 DP. See @sec-chapter-disciplines for tier, Discipline, and cost rules. See @sec-chapter-magic-system for spell chains.
+Every card lists its Disciplines, Action, Range, and Keywords. The Novice effect appears as Weak, Standard, and Strong outcomes. Adept and Master additions follow. A card costs DP by tier: Novice 2 DP, Adept 4 DP, Master 8 DP. See @sec-chapter-disciplines for tier, Discipline, and cost rules. See @sec-chapter-magic-system for casting rules.
 
 Bonuses from different talents stack. The same talent cannot be taken more than once.
 
@@ -334,7 +334,7 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 
 **Adept:** Counterattack for 6/9/12.
 
-**Master:** Counterattack for 12.
+**Master:** Counterattack for 9/15/21.
 
 ### Power Strike (Weapon Maneuver)
 
