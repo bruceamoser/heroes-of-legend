@@ -153,7 +153,7 @@ Humans are adaptable. Their gifts lean into that versatility, letting them dabbl
 |------|------|--------|
 | **Fast Learner** | Novice | Once per session, you may use a skill you don't have at Novice (+1) for a single check. |
 | **Die Hard** | Novice | When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session. |
-| **Jack of All Trades** | Adept | You may purchase one skill at X1 cost regardless of your class's normal multiplier. This applies to one skill, chosen when you buy the gift. |
+| **Jack of All Trades** | Adept | You may gain one skill at Novice rank for free. Choose the skill when you buy this gift. |
 | **Second Wind** | Adept | Once per scene, as a maneuver, you may regain 6 HP. |
 | **Indomitable** | Master | Once per session, when you fail a Fortitude or Reason check, you may succeed instead. Describe how sheer human stubbornness carried you through. |
 
@@ -178,7 +178,7 @@ Dwarves are forged, not born. Their gifts reflect stone, steel, and the kind of 
 | **Stonecunning** | Novice | You have Boon on Investigation and Craft checks involving stonework, masonry, or underground construction. You know when a wall has been moved. |
 | **Dwarven Resilience** | Novice | You have Boon on Fortitude checks to resist poison. Alcohol doesn't count. |
 | **Grudge-Bearer** | Novice | Once per session, when an enemy damages you, you may mark that enemy. For the rest of the encounter, you have +1 on attack rolls against them. |
-| **Forge-Trained** | Adept | You may treat any non-magical weapon or armor you wield as if it were one quality tier higher (worn becomes standard, standard becomes fine). This represents dwarven maintenance, not magic. |
+| **Forge-Trained** | Adept | Non-magical weapons you maintain deal +1 damage (flat); non-magical armor you maintain grants +1 DR. This represents maintenance, not magic. |
 | **Unyielding** | Adept | When an effect would push, pull, or knock you prone, you may choose to be unaffected. Once per scene. |
 
 ### Halfling Gifts

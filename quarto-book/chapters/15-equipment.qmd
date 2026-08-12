@@ -6,7 +6,7 @@
 
 ![Illo 22: Equipment Art](../assets/images/page095-img037.jpeg){width="60%"}
 
-*Illustration 22 — Equipment chapter art (Health & healing). Placeholder; final art TBD. Dimensions: 713×693.*
+*Illustration 22 — Equipment chapter art. Placeholder; final art TBD. Dimensions: 713×693.*
 
 {{< pagebreak >}}
 
@@ -22,24 +22,27 @@ Every weapon has fixed Weak, Standard, and Strong damage values. No damage dice,
 
 | Weapon | Disciplines Required | Damage (W/S/St) |
 |--------|---------------------|-----------------|
-| Unarmed |, | 1 / 1 / 2 |
-| Dagger | 1 Blade | 1 / 2 / 3 |
+| Unarmed | None | 1 / 1 / 2 |
+| Dagger | 1 Blades | 1 / 2 / 3 |
 | Shortsword | 2 Blades | 2 / 3 / 4 |
-| Longsword | 1 Blade, 1 Heavy Weapon | 2 / 3 / 5 |
-| Greatsword | 1 Blade, 2 Heavy Weapons | 3 / 5 / 8 |
-| Handaxe | 1 Axe | 2 / 3 / 5 |
-| Battleaxe | 1 Axe, 1 Heavy Weapon | 3 / 4 / 6 |
-| Greataxe | 1 Axe, 2 Heavy Weapons | 3 / 5 / 8 |
-| Spear | 1 Polearm | 2 / 3 / 4 |
-| Halberd | 1 Polearm, 1 Axe | 3 / 5 / 7 |
+| Longsword | 2 Blades | 2 / 3 / 5 |
+| Greatsword | 2 Blades + 1 Heavy Weapon | 3 / 5 / 8 |
+| Handaxe | 1 Axes | 2 / 3 / 5 |
+| Battleaxe | 1 Axes | 3 / 4 / 6 |
+| Greataxe | 2 Axes + 1 Heavy Weapon | 3 / 5 / 8 |
+| Mace | 1 Heavy Weapon | 1 / 2 / 3 |
+| Warhammer | 2 Heavy Weapon | 2 / 3 / 5 |
+| Maul | 3 Heavy Weapon | 3 / 5 / 8 |
+| Spear | 1 Polearms | 2 / 3 / 4 |
+| Halberd | 1 Polearms + 1 Axes | 3 / 5 / 7 |
 | Shortbow | 1 Archery | 2 / 3 / 4 |
-| Longbow | 2 Archery | 3 / 4 / 6 |
-| Crossbow | 1 Archery, 1 Heavy Weapon | 3 / 5 / 7 |
+| Longbow | 1 Archery | 3 / 4 / 6 |
+| Crossbow | 1 Archery + 1 Heavy Weapon | 3 / 5 / 7 |
 
 ::: {.callout-note}
 ## Discipline Combinations, Build Your Fighting Style
 
-Weapons don't just require more of the same Discipline, they require specific combinations. A Longsword needs *Blade training AND Heavy Weapon training*. A Halberd needs *Polearm AND Axe*. This means your Discipline choices define your fighting style. A warrior with 2 Blades and 1 Heavy Weapon can wield a Shortsword with precision or a Longsword with power, but a Greatsword (1 Blade + 2 Heavy Weapons) requires deeper investment in the Heavy Weapon path.
+Weapons don't just require more of the same Discipline, they require specific combinations. A Longsword needs *2 Blades*. A Greatsword needs *2 Blades + 1 Heavy Weapon*. This means your Discipline choices define your fighting style. A warrior with 2 Blades can wield a Longsword with precision, but a Greatsword (2 Blades + 1 Heavy Weapon) requires deeper investment in the Heavy Weapon path.
 
 **Heavy Weapon** Discipline represents training with large, two-handed weapons that rely on momentum and raw force rather than finesse. It gates access to the highest damage tiers.
 :::
@@ -61,13 +64,14 @@ Armor provides damage reduction (DR), subtract from incoming physical damage.
 
 | Armor | Discipline Req | DR |
 |-------|---------------|-----|
-| Padded |, | -1 |
-| Leather |, | -2 |
-| Studded Leather | 1 Armor | -2 |
-| Chain Shirt | 1 Armor | -3 |
-| Breastplate | 2 Armor | -4 |
-| Chain Mail | 2 Armor | -5 |
-| Plate | 3 Armor | -6 |
+| Padded | None | 1 |
+| Leather | None | 2 |
+| Studded Leather | 1 Armor | 2 |
+| Chain Shirt | 1 Armor | 3 |
+| Breastplate | 2 Armor | 4 |
+| Half Plate | 2 Armor | 4 |
+| Chain Mail | 2 Armor | 5 |
+| Plate | 3 Armor | 6 |
 
 Shields: **Buckler** (1 Protection, +1 DR), **Shield** (1 Protection, +2 DR), **Tower Shield** (2 Protection, +3 DR, provides half cover).
 
@@ -101,7 +105,7 @@ The general store doesn't sell magic swords. It sells rope, rations, and the tho
 | **Healer's Kit** | 5 gp | 1 | Bandages, salves, and splints. 10 uses. When you stabilize a dying creature or restore HP during a short rest, add +1 HP per use expended. Without a kit, you can't use the Medicine skill to restore HP during rests. |
 | **Ink & Pen** | 10 gp | 0 | Write letters, copy maps, forge documents. The ink lasts for roughly 20 pages. The pen is a quill, replace it when the cat gets it. |
 | **Lantern (hooded)** | 5 gp | 1 | Bright light 30 ft, dim light 30 ft. The hood can be closed to reduce light to a 5-ft radius, useful for stealth. Burns for 6 hours per flask of oil. |
-| **Manacles** | 2 gp | 1 | Restrains a creature of Small or Medium size. Escape requires an Agility check (Strong 17-20) or a Brawn check (Strong 17-20) to break. Without the key, they're not coming off quietly. |
+| **Manacles** | 2 gp | 1 | Restrains a creature of Small or Medium size. Escape requires an Agility check (Strong 15+) or a Brawn check (Strong 15+) to break. Without the key, they're not coming off quietly. |
 | **Mirror (steel)** | 5 gp | 0 | Polished steel, not glass, it won't shatter when the fireball hits. Useful for looking around corners, signaling with reflected light, and confirming you're not a vampire. |
 | **Oil (flask)** | 1 sp | 1 | Fuel for lanterns (6 hours). Can be thrown and ignited as an improvised attack, 2 fire damage on hit, and the target takes 1 ongoing fire damage until they spend an action to put it out. |
 | **Parchment (5 sheets)** | 1 gp | 0 | Blank parchment. Maps, letters, wanted posters with your face on them, parchment is the medium of adventure. |
@@ -137,7 +141,7 @@ Mounts use a simplified stat block, HP, Speed, carrying capacity, and any specia
 
 | Mount | Cost | HP | Speed | Carry | Special |
 |-------|------|-----|-------|-------|---------|
-| **Riding Horse** | 75 gp | 20 | 60 ft | 400 lbs |, |
+| **Riding Horse** | 75 gp | 20 | 60 ft | 400 lbs | — |
 | **Warhorse** | 400 gp | 35 | 50 ft | 500 lbs | Trained for combat. Does not require Animal Handling checks to control in battle. |
 | **Pony** | 30 gp | 15 | 40 ft | 200 lbs | Suitable for Small riders only. Can navigate narrow tunnels and dense forest without penalty. |
 | **Riding Dog** | 50 gp | 12 | 40 ft | 100 lbs | Keen Smell: +2 to tracking checks made with the dog's assistance. Suitable for Small riders only. |
@@ -162,7 +166,7 @@ Fighting from horseback isn't just "combat but taller." It changes the geometry 
 |---------------|---------------|
 | Weak | Standard |
 | Standard | Strong |
-| Strong | Strong + 1d6 |
+| Strong | Strong + 3 |
 
 The charge must be in a straight line, no zigzagging through trees. The mount must have a clear path. The target must be within reach at the end of the movement. The mount can continue moving after the attack if it has movement remaining. A warhorse at full gallop with a lance is the closest thing to a thunderbolt you'll ever ride.
 
@@ -170,7 +174,7 @@ The charge must be in a straight line, no zigzagging through trees. The mount mu
 
 **Fighting from a Moving Mount:** Ranged attacks made from a moving mount suffer a -2 penalty. The horse's gait throws off your aim. If you have Animal Handling at Adept or higher, this penalty is reduced to -1. At Master rank, you ignore it entirely, you could thread an arrow through a keyhole at full gallop.
 
-**Mount Death:** When your mount drops to 0 HP, it collapses. You're coming off. Make an Agility check (Standard 9-14) or take 1d6 falling damage and land Prone. On a Strong result, you leap clear and land on your feet, no damage, no Prone, all style.
+**Mount Death:** When your mount drops to 0 HP, it collapses. You're coming off. Make an Agility check (Standard 9-14) or take 3 damage and land Prone. On a Strong result, you leap clear and land on your feet, no damage, no Prone, all style.
 
 **Dismounting:** Costs half your movement in normal circumstances. Emergency dismount (throwing yourself clear) is a free action but requires the same Agility check as mount death, you're choosing to take the risk before the horse goes down.
 
