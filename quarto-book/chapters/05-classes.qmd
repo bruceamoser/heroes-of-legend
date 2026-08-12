@@ -24,15 +24,15 @@ Your class gives you a Discipline, a signature ability, and cheaper access to ce
 
 | Class | Role | L1 Discipline | Signature |
 |-------|------|--------------|-----------|
-| **Protector** | Tank, defender | Armor | **Bastion**, defensive stance |
-| **Blade** | Assassin, precision | Blades | **Swift Blade** |
-| **Arcanist** | Arcane caster | Energy | **Arcane Shield** |
-| **Shepherd** | Divine guide | Protection | **Turn Undead** |
-| **Intellect** | Scholar, strategist | Any one | **Knowledge Is Power** |
-| **Odd** | Chaos wildcard | Any one (different category) | **Eccentric Spellcasting** |
-| **Leader** | Commander | Tactics | **Lead by Example** |
-| **Unbalanced** | High-risk power | Any Elemental | **Edge of Chaos** |
-| **Shadow** | Sneak thief, infiltrator | Stealth | **Vanish** |
+| **Protector** | Tank, defender | Armor (1) + 1 any Weapon | **Bastion**, defensive stance |
+| **Blade** | Assassin, precision | Blades (1) + Stealth (1) | **Swift Blade** |
+| **Arcanist** | Arcane caster | Energy (1) + Fire (1) | **Arcane Shield** |
+| **Shepherd** | Divine guide | Protection (1) + Animal (1) | **Turn Undead** |
+| **Intellect** | Scholar, strategist | Any one (1) + Lore (1) | **Knowledge Is Power** |
+| **Odd** | Chaos wildcard | Any one, different category (1) + 1 any, different category | **Eccentric Spellcasting** |
+| **Leader** | Commander | Tactics (1) + Protection (1) | **Lead by Example** |
+| **Unbalanced** | High-risk power | Any Elemental (1) + 1 opposing Elemental (1) | **Edge of Chaos** |
+| **Shadow** | Sneak thief, infiltrator | Stealth (1) + Sleight (1) | **Vanish** |
 
 {{< pagebreak >}}
 
@@ -42,7 +42,7 @@ Your class gives you a Discipline, a signature ability, and cheaper access to ce
 
 The Protector stands at the vanguard, using body and armor as a shield for those in their care. You are the anchor, built on Brawn and Fortitude, trained to absorb blows that would fell lesser heroes. Your pride is not in the enemies you slay but in the allies who walk away unharmed because you stood in the gap. You pursue ever-better ways to fortify your resilience while keeping the ability to strike back when needed.
 
-**Class Discipline (L1):** Armor (1)
+**Class Discipline (L1):** Armor (1) + 1 any Weapon
 
 **Signature, Bastion:** Spend your movement to enter a defensive stance. Add +1 to your Protection Value for the round. At higher levels, this bonus increases.
 
@@ -79,7 +79,7 @@ You're not "the boring one." You're the reason the Blade gets to do their job wi
 
 The Blade masters the art of finesse and precision, favoring the swift elegance of light blades. Your expertise lies in meticulously placed stabs, exploiting vulnerabilities with the sharpness and agility of your weapons. Keyed to Guile, you weave through the battlefield, striking with calculated precision, each strike as effective as it is lethal. You are the shadow on the wall, the final face your enemies see.
 
-**Class Discipline (L1):** Blades (1)
+**Class Discipline (L1):** Blades (1) + Stealth (1)
 
 **Signature, Swift Blade:** You may use Agility instead of Brawn when attacking with blades. Gain the **Precise Stab** ability, bonus damage when exploiting an opening.
 
@@ -122,11 +122,11 @@ A Blade doesn't trade blows, they choose the moment, the angle, the vulnerabilit
 
 The Arcanist delves into the mysteries of arcane energies, mastering their manipulation to bend the fabric of reality. Your focus is harnessing these powerful forces, channeling them into spells that devastate foes and alter the course of battle. Keyed to Knowledge, you weave complex incantations with deep understanding, summoning energies that shimmer with potential. Every spell fires. Every single one. The question is never *if*, only how well.
 
-**Class Discipline (L1):** Energy (1)
+**Class Discipline (L1):** Energy (1) + Fire (1)
 
-**Signature, Arcane Shield:** As a free action, raise a protective ward that increases your defense roll by +1 for the round. At higher levels, this shield grows stronger. Once per round.
+**Signature, Arcane Shield:** As a free action, raise a protective ward that gives +1 to your Protection Value for the round. At higher levels, this shield grows stronger. Once per round.
 
-**Favored Skills:** Alchemy, Arcana, History, Investigation, Lore (any)
+**Favored Skills:** Alchemy, Arcana, History, Investigation, Lore
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -159,7 +159,7 @@ There are no spell slots. No mana. No "I'm out of spells." Your magic always goe
 
 The Shepherd stands as a beacon of guidance, providing moral direction and harnessing divine energies to aid allies. Your path is one of enlightenment, using a deep connection to the divine to inspire and protect those around you. Through word and deed, you channel power into abilities that heal, shield, and uplift your companions. Keyed to Reason, your wisdom discerns the right course in the murkiest of situations, offering light in darkness. You also stand as a bulwark against the undead, creatures that have slipped beyond death's reach fear your presence.
 
-**Class Discipline (L1):** Protection (1)
+**Class Discipline (L1):** Protection (1) + Animal (1)
 
 **Signature, Turn Undead:** Call down divine energy that ignores armor and affects only undead creatures within your presence. Your faith burns what should not walk.
 
@@ -196,11 +196,11 @@ Healing in Heroes of Legend is precious. HP recovery is slow outside of magic. A
 
 The Intellect embodies cerebral prowess and scholarly mastery. Your path is a relentless pursuit of knowledge, delving into ancient tomes, unlocking the mysteries of the universe. With a mind as sharp as a finely honed blade, you navigate the world through logic and reason. Keyed to Knowledge, you are not defined by brute strength but by cunning and foresight. Through tactical acumen and strategic planning, you outmaneuver foes with calculated precision, turning their own weaknesses against them. Your words carry weight, guiding allies through the darkest times.
 
-**Class Discipline (L1):** Any one (your choice, reflecting your field)
+**Class Discipline (L1):** Any one (1) + Lore (1)
 
 **Signature, Knowledge Is Power:** Gain +1 to all Knowledge-based skill checks. This increases at higher levels.
 
-**Favored Skills:** History, Investigation, Lore (any three), Medicine, Arcana
+**Favored Skills:** History, Investigation, Lore, Medicine, Arcana
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -233,7 +233,7 @@ The Intellect's secondary ability lets you spend your mobility for the turn to h
 
 The Odd embodies eccentricity and peculiarity. With a demeanor that dances on the edge of madness and a style that defies convention, you bring chaos and unpredictability to every encounter. Keyed to Guile, your appearance is striking, mismatched clothing, bizarre accessories, an unusual hairstyle. In battle, you are a whirlwind of unorthodox tactics: spells with unconventional gestures, bizarre weapons wielded with deadly precision, strange powers that defy explanation. Your adversaries never know what to expect. Sometimes, neither do you.
 
-**Class Discipline (L1):** Any one, from a **different category** than your ancestry and culture Disciplines (e.g., if you already have Weapon and Defense, take an Elemental or Energy).
+**Class Discipline (L1):** Any one, different category (1) + 1 any, different category. The two picks must be from different categories relative to each other.
 
 **Signature, Eccentric Spellcasting:** Choose one arcane ability and one divine ability. You ignore prerequisite Disciplines for these two (level requirements still apply). You need no arcane focus or holy symbol.
 
@@ -272,7 +272,7 @@ Once per scene, the Odd can contort their body, speak in tongues, cackle, or oth
 
 The Leader is a beacon of courage on the battlefield, leading from the front lines with valor and resolve. Keyed to Reason, your stirring speeches and tactical acumen rally allies to action, instilling confidence even in the face of adversity. Beyond command, you serve as mentor and confidant, recognizing and nurturing the potential within each member of your group. Driven by a clear vision and unwavering commitment, you guide your companions toward a brighter future. In your presence, unity flourishes.
 
-**Class Discipline (L1):** Tactics (1)
+**Class Discipline (L1):** Tactics (1) + Protection (1)
 
 **Signature, Lead by Example:** When you land a telling blow on an enemy, grant one ally who witnessed it a +2 bonus on their next roll. Your actions inspire greatness in others.
 
@@ -315,7 +315,7 @@ The Leader's secondary ability is **Battle Cry**, a thunderous shout that grants
 
 The Unbalanced is a wild card, embodying chaos and unpredictability in every action. Your demeanor is marked by erratic energy, veering between bouts of laughter and brooding intensity. Behind your unpredictable facade lies a mind that operates on its own unique wavelength, calculating the odds even as you appear to embrace madness. In battle, you unleash pent-up frenzy with ferocious abandon, your fighting style as unpredictable as your personality. You thrive on the chaos of combat, reveling in the uncertainty of the fray.
 
-**Class Discipline (L1):** Any one Elemental (Fire, Earth, Wind, or Water)
+**Class Discipline (L1):** Any Elemental (1) + 1 opposing Elemental (1)
 
 **Signature, Edge of Chaos:** On a Strong hit, deal +4 bonus damage but roll on a d6 backlash table, self-damage, a fleeting condition, or an environmental surge that affects everyone, friend and foe alike.
 
@@ -329,10 +329,10 @@ Choose two opposing Elemental Disciplines at Level 1 (Fire/Water or Earth/Wind).
 |------------|------|------------|------|
 | Fire | 1/2/4 or 4/8/16* | Protection | 4/8/16 |
 | Earth | 1/2/4 or 4/8/16* | Armor | 4/8/16 |
-| Wind | 1/2/4 or 4/8/16* | Animal | 2/4/8 |
-| Water | 1/2/4 or 4/8/16* | Plants | 2/4/8 |
+| Wind | 1/2/4 or 4/8/16* | Animal | 1/2/4 |
+| Water | 1/2/4 or 4/8/16* | Plants | 1/2/4 |
 | Blades | 4/8/16 | Energy | 1/2/4 |
-| Axes | 4/8/16 | Life | 3/6/12 |
+| Axes | 4/8/16 | Life | 2/4/8 |
 | Polearms | 4/8/16 | Religion | 3/6/12 |
 | Archery | 4/8/16 | Mind | 3/6/12 |
 | Heavy Weapon | 4/8/16 | Summon | 2/4/8 |
@@ -358,7 +358,7 @@ You're not broken. You're balanced on a knife's edge between opposing forces, an
 
 The Shadow is the ghost in the room, the whisper no one heard, the hand that lifts a key from a guard's belt while the guard is still wearing it. Where the Blade wins by stabbing first, the Shadow wins by never being seen at all. You are keyed to Agility and Guile in equal measure, a creature of silence and misdirection. Doors open for you. Traps disarm themselves at your touch. Identities are costumes you wear and discard. Your fighting style is dirty, fast, and never, ever fair. If the fight is fair, you've already made two mistakes, and you're already gone.
 
-**Class Discipline (L1):** Stealth (1)
+**Class Discipline (L1):** Stealth (1) + Sleight (1)
 
 **Signature, Vanish:** As a maneuver, you may attempt to disappear from sight. Make a Stealth check. On Standard+, you become invisible until the end of your next turn or until you attack. On Weak, you gain concealment instead (attacks against you have Bane). This is not magic, this is being very good at not being noticed.
 
@@ -386,11 +386,11 @@ The Shadow is the ghost in the room, the whisper no one heard, the hand that lif
 ::: {.callout-note}
 ## The Stealth Economy
 
-The Shadow doesn't trade blows. The Shadow's entire game is about controlling who can see them and who can't. Your turn is spend Maneuver to Vanish, move into position behind the enemy caster, then on your next turn, strike from invisibility with advantage. If things go wrong, you have getaway tools: caltrops, smoke bombs, a disguise kit, and a network of contacts who owe you favors.
+The Shadow doesn't trade blows. The Shadow's entire game is about controlling who can see them and who can't. Your turn is spend Maneuver to Vanish, move into position behind the enemy caster, then on your next turn, strike from invisibility with a Boon. If things go wrong, you have getaway tools: caltrops, smoke bombs, a disguise kit, and a network of contacts who owe you favors.
 
 Your damage doesn't come from brute force. It comes from never being where the enemy is looking. When the Blade needs three rounds to carve through a knight's armor, the Shadow needs one round, one lockpick, and the knight's potion of healing quietly removed from his belt while he was too busy watching the Protector. You win by making the fight unfair. And you make it unfair before anyone knows you're there.
 
-**Starting Kit:** Two daggers (W/S/S: 1/2/3), throwing knives (6, 1/2/3), leather armor (DR 2), thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1, creates 10-ft radius heavy concealment for 1 round), 15 sp.
+**Starting Kit:** Two daggers (W/S/St: 1/2/3), throwing knives (6, 1/2/3), leather armor (DR 2), thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1, creates 10-ft radius heavy concealment for 1 round), 15 sp.
 :::
 
 {{< pagebreak >}}
@@ -421,7 +421,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
 | **Arcane Feedback** | Novice | 1 Energy | When you cast a spell and roll Strong | The spell's secondary target takes half the primary target's damage. |
-| **Spell Echo** | Adept | 2 Energy, 1 Mind | When an enemy within 30 ft casts a spell | You may immediately cast the same spell at Novice tier, regardless of your own Disciplines. Once per scene. |
+| **Spell Echo** | Adept | 1 Energy, 1 Mind | When an enemy within 30 ft casts a spell | You may immediately cast the same spell at Novice tier, regardless of your own Disciplines. Once per scene. |
 | **Overchannel** | Master | 2 Energy, 1 Fire | When you cast a Master spell | The spell deals +1 damage tier (use the row one step above on the damage budget). After casting, you gain 1 Corruption. |
 
 **Intellect**
@@ -430,7 +430,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 |---------|------|----------|---------|--------|
 | **Tactical Insight** | Novice | 1 Tactics | At the start of combat | Name one enemy weakness. All allies gain +1 on attacks against that enemy type for the encounter. |
 | **Field Study** | Novice | 1 Lore | When you fail a Knowledge-based skill check | You may reroll it. Once per scene. |
-| **Leverage** | Adept | 2 Tactics, 1 Lore | When an ally misses an attack | The ally may reroll the miss. If the reroll hits, it deals +3 bonus damage. Once per scene. |
+| **Leverage** | Adept | 1 Tactics, 1 Lore | When an ally misses an attack | The ally may reroll the miss. If the reroll hits, it deals +3 bonus damage. Once per scene. |
 | **Perfect Recall** | Master | 2 Mind, 1 Energy | When you need information from a scene you participated in | The DA must tell you the exact words, layout, or sequence of events, to the limit of your own perception at the time. Once per session. |
 
 {{< pagebreak >}}
@@ -442,7 +442,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
 | **Bolstering Prayer** | Novice | 1 Protection | As an action | One ally within 30 ft gains Boon on their next roll. |
-| **Sanctified Ground** | Adept | 2 Protection, 1 Religion | As an action | Consecrate a 15-ft radius for 1 minute. Undead inside take 6 radiant damage per round. Allies heal 1 HP at the start of their turn. |
+| **Sanctified Ground** | Adept | 1 Protection, 1 Religion | As an action | Consecrate a 15-ft radius for 1 minute. Undead inside take 6 radiant damage per round. Allies heal 1 HP at the start of their turn. |
 | **Divine Intervention** | Master | 2 Protection, 1 Religion | When an ally drops to 0 HP | The ally instead drops to 1 HP and gains 10 temporary HP. The DA narrates what intervened. Once per session. |
 
 **Leader**
@@ -451,7 +451,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 |---------|------|----------|---------|--------|
 | **Rallying Cry** | Novice | 1 Protection | As a maneuver | All allies who can hear you gain +2 on their next initiative roll or remove one Fear effect. |
 | **Read the Room** | Novice | 1 Tactics | At the start of combat | Name one enemy weakness. All allies gain +1 on attacks against that enemy for the encounter. |
-| **Coordinated Strike** | Adept | 2 Protection, 1 Blades | When you hit an enemy | The next ally to attack that enemy before your next turn deals +1 damage tier. |
+| **Coordinated Strike** | Adept | 1 Protection, 1 Blades | When you hit an enemy | The next ally to attack that enemy before your next turn deals +1 damage tier. |
 | **Last Stand** | Master | 2 Protection, 1 Energy | When you are reduced to 0 HP | You remain standing for 1 additional round. All allies within sight gain +2 on all rolls and immunity to Fear for that round. |
 
 {{< pagebreak >}}
@@ -464,7 +464,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 |---------|------|----------|---------|--------|
 | **Precise Stab** | Novice | 1 Blades | When you attack a target that hasn't acted yet this combat | Deal +3 damage. |
 | **Cut Purse** | Novice | 1 Sleight | When you succeed on a Sleight check against a target | You may also steal one small item they carry without them noticing. Once per scene. |
-| **Eviscerate** | Adept | 2 Blades, 1 Archery | When you hit the same target twice in one turn | The second hit automatically deals Strong damage (12 per the damage budget). Once per scene. |
+| **Eviscerate** | Adept | 1 Blades, 1 Archery | When you hit the same target twice in one turn | The second hit automatically deals Strong damage (12 per the damage budget). Once per scene. |
 | **Death Mark** | Master | 2 Blades, 1 Archery | When you reduce a target to 0 HP | You may immediately make a free attack against another target within reach at +1 damage tier. |
 
 **Shadow**
@@ -475,7 +475,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | **Slip Away** | Novice | 1 Stealth | As a maneuver | Move up to half your speed without provoking reactions, if you end your movement in concealment. |
 | **Pick** | Novice | 1 Sleight | As an action | Open one mundane lock or disarm one simple trap. |
 | **Shadow Strike** | Adept | 1 Stealth, 1 Sleight | When you attack from Vanish invisibility | The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene. |
-| **Ghost** | Master | 1 Stealth, 1 Mind | When you Vanish successfully on a Strong stealth result | You may remain invisible until the end of the encounter or until you attack. Your first attack from this extended Vanish deals +1 damage tier. Once per session. |
+| **Ghost** | Master | 2 Stealth, 1 Mind | When you Vanish successfully on a Strong stealth result | You may remain invisible until the end of the encounter or until you attack. Your first attack from this extended Vanish deals +1 damage tier. Once per session. |
 
 {{< pagebreak >}}
 
@@ -486,7 +486,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
 | **Interpose** | Novice | 1 Protection | When an adjacent ally is attacked | You take the hit instead. You may roll Defense to reduce the damage. |
-| **Immovable** | Adept | 2 Armor, 1 Protection | When an effect would push, pull, or knock you prone | You are unaffected. If the effect also dealt damage, reduce it by your Armor value. |
+| **Immovable** | Adept | 1 Armor, 1 Protection | When an effect would push, pull, or knock you prone | You are unaffected. If the effect also dealt damage, reduce it by your Armor value. |
 | **Hold the Line** | Master | 2 Protection, 1 Armor | As an action | For 1 minute, you cannot be moved by any effect short of a deity. Enemies adjacent to you at the start of their turn are rooted (speed 0) until they leave your reach. |
 
 **Unbalanced**
@@ -494,7 +494,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
 | **Exploit Chaos** | Novice | 1 Energy | When you roll on the Edge of Chaos backlash table | You may roll twice and pick either result. |
-| **Volatile Surge** | Adept | 2 Energy, 1 Fire | When you cast a spell and roll Strong | The spell's area of effect doubles. Enemies in the expanded zone take half damage. Allies in the expanded zone take 1d4 backlash. |
+| **Volatile Surge** | Adept | 1 Energy, 1 Fire | When you cast a spell and roll Strong | The spell's area of effect doubles. Enemies in the expanded zone take half damage. Allies in the expanded zone take 2 damage. |
 | **Unmake** | Master | 2 Energy, 1 Fire | When you reduce a target to 0 HP with a spell | The target disintegrates as per the Disintegrate spell (no body, no resurrection short of Master-tier divine). You gain 2 Corruption. |
 
 {{< pagebreak >}}
@@ -548,10 +548,10 @@ There are four cost structures, showing the price for rank 1 / rank 2 / rank 3:
 | **Unarmed** | 1/2/4 | 1/2/4 | 4/8/16 | 3/6/12 | 4/8/16 | 2/4/8 | 2/4/8 | 1/2/4 | 2/4/8 |
 | **Protection** | 1/2/4 | 3/6/12 | 4/8/16 | 1/2/4 | 2/4/8 | 2/4/8 | 1/2/4 | 4/8/16 | 4/8/16 |
 | **Armor** | 1/2/4 | 4/8/16 | 4/8/16 | 4/8/16 | 4/8/16 | 2/4/8 | 2/4/8 | 4/8/16 | 4/8/16 |
-| **Animal** | 3/6/12 | 4/8/16 | 2/4/8 | 1/2/4 | 2/4/8 | 2/4/8 | 3/6/12 | 2/4/8 | 4/8/16 |
-| **Plants** | 4/8/16 | 4/8/16 | 2/4/8 | 1/2/4 | 1/2/4 | 2/4/8 | 4/8/16 | 2/4/8 | 4/8/16 |
+| **Animal** | 3/6/12 | 4/8/16 | 2/4/8 | 1/2/4 | 2/4/8 | 2/4/8 | 3/6/12 | 1/2/4 | 4/8/16 |
+| **Plants** | 4/8/16 | 4/8/16 | 2/4/8 | 1/2/4 | 1/2/4 | 2/4/8 | 4/8/16 | 1/2/4 | 4/8/16 |
 | **Energy** | 4/8/16 | 4/8/16 | 1/2/4 | 2/4/8 | 1/2/4 | 2/4/8 | 1/2/4 | 1/2/4 | 4/8/16 |
-| **Life** | 4/8/16 | 4/8/16 | 2/4/8 | 1/2/4 | 1/2/4 | 2/4/8 | 2/4/8 | 3/6/12 | 4/8/16 |
+| **Life** | 4/8/16 | 4/8/16 | 2/4/8 | 1/2/4 | 1/2/4 | 2/4/8 | 2/4/8 | 2/4/8 | 4/8/16 |
 | **Religion** | 4/8/16 | 4/8/16 | 4/8/16 | 1/2/4 | 1/2/4 | 2/4/8 | 2/4/8 | 3/6/12 | 4/8/16 |
 | **Mind** | 4/8/16 | 4/8/16 | 1/2/4 | 2/4/8 | 1/2/4 | 2/4/8 | 3/6/12 | 3/6/12 | 1/2/4 |
 | **Summon** | 4/8/16 | 4/8/16 | 1/2/4 | 4/8/16 | 2/4/8 | 2/4/8 | 4/8/16 | 2/4/8 | 4/8/16 |
