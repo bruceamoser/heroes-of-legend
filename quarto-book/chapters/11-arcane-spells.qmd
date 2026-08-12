@@ -29,189 +29,99 @@ Cantrips are minor spells. The magic you learn before you learn *real* magic. Th
 They won't win a fight by themselves. But they'll start one, end one, or change the terms of one. Never underestimate a caster who knows exactly what their cantrips can do.
 
 ### Arcane Mark (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Permanent until dispelled
-**Target:** One surface or object
+**Disciplines:** None · **Action:** Action · **Range:** Touch (Permanent until dispelled) · **Keywords:** None
 
-**Description:** You inscribe your personal sigil, invisible to normal sight, onto any surface. The mark is unique to you. It can be made visible with a word, and it glows under magical detection.
+**Weak:** The mark is faint. Detection spells reveal it, but the image is blurry.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The mark is faint. Detection spells reveal it, but the image is blurry. |
-| Standard (9-14) | Clean, permanent mark. Visible on command, unmistakably yours. |
-| Strong (15-18+) | The mark is flawless. You may also sense when any creature touches it within 100 feet for the next 24 hours. |
+**Standard:** Clean, permanent mark. Visible on command, unmistakably yours.
 
-*Your signature on the world. Some mages use it to claim territory. Some to leave messages. Some to remind an enemy who burned their house down.*
+**Strong:** The mark is flawless. You may also sense when any creature touches it within 100 feet for the next 24 hours.
 
 ### Dancing Lights (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** 60 feet
-**Duration:** Concentration, up to 1 minute
-**Target:** Up to 4 points in range
+**Disciplines:** None · **Action:** Action · **Range:** 60 ft (Concentration, up to 1 minute) · **Keywords:** Bane
 
-**Description:** You create up to four torch-bright orbs of light that hover and move at your command. Each sheds light in a 10-foot radius. You can combine them into a single glowing humanoid shape.
+**Weak:** Two dim orbs. Light radius halved. They flicker.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Two dim orbs. Light radius halved. They flicker. |
-| Standard (9-14) | Four bright orbs or one glowing shape. Full control of movement. |
-| Strong (15-18+) | The lights are dazzling. One creature of your choice within the light radius has Bane on its next attack. |
+**Standard:** Four bright orbs or one glowing shape. Full control of movement.
 
-*Better than a torch. Worse than a fireball. But they don't go out in the rain, and they'll follow you down any hole you're stupid enough to climb into.*
+**Strong:** The lights are dazzling. One creature of your choice within the light radius has Bane on its next attack.
 
 ### Frost Touch (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Instantaneous
-**Target:** One creature or object
+**Disciplines:** None · **Action:** Action · **Range:** Touch · **Keywords:** Bane
 
-**Description:** Your hand erupts in freezing cold. A creature you touch takes 3 cold damage. A liquid you touch freezes solid in a 1-foot cube for 1 minute. A small object becomes brittle.
+**Weak:** 1 cold damage. Liquid chills but doesn't freeze.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | 1 cold damage. Liquid chills but doesn't freeze. |
-| Standard (9-14) | 3 cold damage. Liquid freezes solid. |
-| Strong (15-18+) | 5 cold damage. Target's next physical action has Bane as cold numbs their limbs. |
+**Standard:** 3 cold damage. Liquid freezes solid.
 
-*The first spell every ice mage learns. Touch a lock. Touch a rope. Touch a throat. Cold solves problems heat can't.*
+**Strong:** 5 cold damage. Target's next physical action has Bane as cold numbs their limbs.
 
 ### Ghost Sound (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** 30 feet
-**Duration:** Concentration, up to 1 minute
-**Target:** One point in range
+**Disciplines:** None · **Action:** Action · **Range:** 30 ft (Concentration, up to 1 minute) · **Keywords:** None
 
-**Description:** You create a sound that originates from a point you choose, footsteps, a whispered voice, a door slamming, a growl. The sound can be as quiet as a breath or as loud as a scream.
+**Weak:** One brief, obvious sound. Anyone listening gets a Reason check to recognize it as magical.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | One brief, obvious sound. Anyone listening gets a Reason check to recognize it as magical. |
-| Standard (9-14) | Sustained or repeating sounds. Believable enough to distract or mislead. |
-| Strong (15-18+) | Complex audio, a full sentence in a recognizable voice, or a soundscape (approaching guards, a wolf pack circling). |
+**Standard:** Sustained or repeating sounds. Believable enough to distract or mislead.
 
-*The oldest trick in the book. Still works. Guards have been chasing phantom footsteps since the first wizard figured out this spell, and guards will be chasing them long after you're dust.*
+**Strong:** Complex audio, a full sentence in a recognizable voice, or a soundscape (approaching guards, a wolf pack circling).
 
 ### Mage Hand (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** 30 feet
-**Duration:** Concentration, up to 1 minute
-**Target:** One unattended object up to 10 pounds
+**Disciplines:** None · **Action:** Action · **Range:** 30 ft (Concentration, up to 1 minute) · **Keywords:** None
 
-**Description:** A spectral, floating hand appears at a point you choose. It can manipulate objects, open doors, pull levers, or deliver items. The hand can't attack or activate magic items.
+**Weak:** The hand is clumsy. Fine manipulation fails. Objects may be dropped.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The hand is clumsy. Fine manipulation fails. Objects may be dropped. |
-| Standard (9-14) | Precise control. The hand can turn keys, pour liquids, or lift up to 10 pounds. |
-| Strong (15-18+) | The hand is preternaturally deft. It can pick pockets, disarm simple traps, or deliver a potion to an ally's lips mid-combat. |
+**Standard:** Precise control. The hand can turn keys, pour liquids, or lift up to 10 pounds.
 
-*You will use this spell more than any other. You will open things you shouldn't open. You will touch things you shouldn't touch. You will learn. Or you won't.*
+**Strong:** The hand is preternaturally deft. It can pick pockets, disarm simple traps, or deliver a potion to an ally's lips mid-combat.
 
 ### Prestidigitation (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** 10 feet
-**Duration:** Up to 1 hour
-**Target:** See below
+**Disciplines:** None · **Action:** Action · **Range:** 10 ft (Up to 1 hour) · **Keywords:** None
 
-**Description:** The workhorse of minor magic. You may produce one of the following effects at a time: light or snuff a candle, clean or soil an object, chill or warm a drink, create a harmless sensory effect (a shower of sparks, a faint breeze, a whisper of perfume), or color a small object for 1 hour. You can have up to three non-instantaneous effects active at once.
+**Weak:** One effect. It's crude, the sparks are dull, the cleaning is smeary.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | One effect. It's crude, the sparks are dull, the cleaning is smeary. |
-| Standard (9-14) | Up to three simultaneous effects. Each works exactly as intended. |
-| Strong (15-18+) | Your effects are especially vivid or lasting. The perfume lingers for hours. The sparks are bright enough to briefly distract. The cleaning removes stains that have been there for years. |
+**Standard:** Up to three simultaneous effects. Each works exactly as intended.
 
-*It's what separates wizards from lantern-bearers. Anyone can throw fire. Making a goblin warlord's dinner taste like ashes from thirty feet away? That's art.*
+**Strong:** Your effects are especially vivid or lasting. The perfume lingers for hours. The sparks are bright enough to briefly distract. The cleaning removes stains that have been there for years.
 
 ### Spark (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** 30 feet
-**Duration:** Instantaneous
-**Target:** One flammable object
+**Disciplines:** None · **Action:** Action · **Range:** 30 ft · **Keywords:** None
 
-**Description:** You snap your fingers and produce a pinpoint of intense heat. It ignites one flammable object that isn't being worn or carried, paper, dry wood, oil, cloth, gunpowder.
+**Weak:** The object smolders. It may catch fire after 1 round if left alone.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The object smolders. It may catch fire after 1 round if left alone. |
-| Standard (9-14) | Immediate ignition. The object catches fire and burns normally. |
-| Strong (15-18+) | The flame leaps. Adjacent flammable objects also catch fire. |
+**Standard:** Immediate ignition. The object catches fire and burns normally.
 
-*Every Pyromancer's first spell. Also their last, if they're not careful about where they point it. Fire doesn't care about your intentions. Fire cares about what's flammable.*
+**Strong:** The flame leaps. Adjacent flammable objects also catch fire.
 
 ### Static Shock (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** 30 feet
-**Duration:** Instantaneous
-**Target:** One creature
+**Disciplines:** None · **Action:** Action · **Range:** 30 ft · **Keywords:** None
 
-**Description:** A spark of electricity arcs from your fingertip to the target. Deals 3 lightning damage. Metal-armored targets take +1 damage.
+**Weak:** 1 lightning damage. The target feels a tingle.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | 1 lightning damage. The target feels a tingle. |
-| Standard (9-14) | 3 lightning damage. +1 vs. metal armor. |
-| Strong (15-18+) | 5 lightning damage. The spark chains to one additional target within 10 feet for half damage. |
+**Standard:** 3 lightning damage. +1 vs. metal armor.
 
-*The crackle before the storm. Doesn't look like much. Hurts more than it looks. Aim for the one in plate.*
+**Strong:** 5 lightning damage. The spark chains to one additional target within 10 feet for half damage.
 
 ### Acid Splash (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** 30 feet
-**Duration:** Instantaneous
-**Target:** One creature or object
+**Disciplines:** None · **Action:** Action · **Range:** 30 ft · **Keywords:** None
 
-**Description:** You hurl a glob of corrosive acid. Deals 3 acid damage. Against objects, the acid ignores 1 point of hardness.
+**Weak:** 1 acid damage. The acid sizzles weakly.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | 1 acid damage. The acid sizzles weakly. |
-| Standard (9-14) | 3 acid damage. Ignores 1 hardness against objects. |
-| Strong (15-18+) | 5 acid damage. The acid clings, target takes 5 additional acid damage at the start of its next turn. |
+**Standard:** 3 acid damage. Ignores 1 hardness against objects.
 
-*Not flashy. Not dramatic. But acid doesn't care how thick your armor is. It finds the gaps. It always finds the gaps.*
+**Strong:** 5 acid damage. The acid clings, target takes 5 additional acid damage at the start of its next turn.
 
 ### Whisper (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** 120 feet
-**Duration:** Instantaneous
-**Target:** One creature you can see
+**Disciplines:** None · **Action:** Action · **Range:** 120 ft · **Keywords:** None
 
-**Description:** You send a short message, up to 25 words, directly into the mind of a creature you can see. The target recognizes you as the sender if it knows you. The target cannot reply.
+**Weak:** The message is garbled. Key words may be lost.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The message is garbled. Key words may be lost. |
-| Standard (9-14) | Clear message. 25 words, perfectly delivered. |
-| Strong (15-18+) | The message carries emotional weight, urgency, calm, menace. The target understands not just the words but the intent behind them. |
+**Standard:** Clear message. 25 words, perfectly delivered.
 
-*No hand signals. No shouting across a crowded room. Just your voice in their skull. Use it to coordinate. Use it to intimidate. Use it to remind the DA's villain that you know exactly where they sleep.*
-
-```{=typst}
-#horizontalrule
-```
-
-{{< pagebreak >}}
-
-{{< pagebreak >}}
+**Strong:** The message carries emotional weight, urgency, calm, menace. The target understands not just the words but the intent behind them.
 
 ## Arcane Spells
 
-### Ember Lance
-
-**Ember Lance — Arcane Spell**
-1 Fire · Action · 30 ft · Piercing, Recurring
+### Ember Lance (Arcane Spell)
+**Disciplines:** 1 Fire · **Action:** Action · **Range:** 30 ft · **Keywords:** Piercing, Recurring
 
 **Weak:** 2 fire damage.
 
@@ -223,10 +133,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 fire damage, Piercing 3; leaves a burning patch (Recurring 2, 3 rounds).
 
-### Brimstone Burst
-
-**Brimstone Burst — Arcane Spell**
-2 Fire · Action · 20-ft radius · Recurring
+### Brimstone Burst (Arcane Spell)
+**Disciplines:** 2 Fire · **Action:** Action · **Range:** 20-ft radius · **Keywords:** Recurring
 
 **Weak:** 2 fire damage to all in the radius.
 
@@ -238,10 +146,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 fire damage to all; the ground burns (Recurring 4, 2 rounds).
 
-### Wall of Cinders
-
-**Wall of Cinders — Arcane Spell**
-2 Fire · Action · 30-ft wall
+### Wall of Cinders (Arcane Spell)
+**Disciplines:** 2 Fire · **Action:** Action · **Range:** 30-ft wall · **Keywords:** None
 
 **Weak:** 2 fire damage to creatures passing through.
 
@@ -253,10 +159,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 fire damage to passers; the wall lasts 3 rounds.
 
-### Burning Volley
-
-**Burning Volley — Arcane Spell**
-1 Fire · Action · 60 ft
+### Burning Volley (Arcane Spell)
+**Disciplines:** 1 Fire · **Action:** Action · **Range:** 60 ft · **Keywords:** None
 
 **Weak:** 2 fire damage, split across three lances.
 
@@ -268,10 +172,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 fire damage, split across five lances.
 
-### Frostbite Shard
-
-**Frostbite Shard — Arcane Spell**
-1 Cold · Action · 30 ft · Slowed, Frozen
+### Frostbite Shard (Arcane Spell)
+**Disciplines:** 1 Cold · **Action:** Action · **Range:** 30 ft · **Keywords:** Slowed, Frozen
 
 **Weak:** 2 cold damage.
 
@@ -283,10 +185,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 cold damage; Frozen on Strong.
 
-### Rime Storm
-
-**Rime Storm — Arcane Spell**
-2 Cold · Action · 15-ft radius · Slowed, Frozen
+### Rime Storm (Arcane Spell)
+**Disciplines:** 2 Cold · **Action:** Action · **Range:** 15-ft radius · **Keywords:** Slowed, Frozen
 
 **Weak:** 2 cold damage.
 
@@ -298,10 +198,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 cold damage; Frozen on Strong.
 
-### Glacial Prison
-
-**Glacial Prison — Arcane Spell**
-2 Cold · Action · 30 ft · Restrained, Frozen
+### Glacial Prison (Arcane Spell)
+**Disciplines:** 2 Cold · **Action:** Action · **Range:** 30 ft · **Keywords:** Restrained, Frozen
 
 **Weak:** 2 cold damage.
 
@@ -313,10 +211,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 cold damage; Frozen instead of Restrained.
 
-### Storm Javelin
-
-**Storm Javelin — Arcane Spell**
-1 Lightning · Action · 60 ft · Bane
+### Storm Javelin (Arcane Spell)
+**Disciplines:** 1 Lightning · **Action:** Action · **Range:** 60 ft · **Keywords:** Bane
 
 **Weak:** 2 lightning damage.
 
@@ -328,10 +224,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 lightning damage; arcs to one adjacent target for half.
 
-### Forked Sky
-
-**Forked Sky — Arcane Spell**
-2 Lightning · Action · 30 ft
+### Forked Sky (Arcane Spell)
+**Disciplines:** 2 Lightning · **Action:** Action · **Range:** 30 ft · **Keywords:** None
 
 **Weak:** 2 lightning damage, split across three arcs.
 
@@ -343,10 +237,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 lightning damage, split across five arcs.
 
-### Static Field
-
-**Static Field — Arcane Spell**
-2 Lightning · Action · 10-ft radius
+### Static Field (Arcane Spell)
+**Disciplines:** 2 Lightning · **Action:** Action · **Range:** 10-ft radius · **Keywords:** None
 
 **Weak:** 2 lightning damage to all adjacent targets.
 
@@ -358,10 +250,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 lightning damage; 15-ft radius.
 
-### Corrosive Spit
-
-**Corrosive Spit — Arcane Spell**
-1 Acid · Action · 30 ft · DR
+### Corrosive Spit (Arcane Spell)
+**Disciplines:** 1 Acid · **Action:** Action · **Range:** 30 ft · **Keywords:** DR
 
 **Weak:** 2 acid damage.
 
@@ -373,10 +263,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 acid damage, DR reduced by 3.
 
-### Caustic Mist
-
-**Caustic Mist — Arcane Spell**
-2 Acid · Action · 15-ft radius · Bane on sight
+### Caustic Mist (Arcane Spell)
+**Disciplines:** 2 Acid · **Action:** Action · **Range:** 15-ft radius · **Keywords:** Bane on sight
 
 **Weak:** 2 acid damage.
 
@@ -388,10 +276,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 acid damage; the mist lasts 2 rounds.
 
-### Venom Lance
-
-**Venom Lance — Arcane Spell**
-1 Poison · Action · 30 ft · Bane
+### Venom Lance (Arcane Spell)
+**Disciplines:** 1 Poison · **Action:** Action · **Range:** 30 ft · **Keywords:** Bane
 
 **Weak:** 2 poison damage.
 
@@ -403,10 +289,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 poison damage.
 
-### Tremor
-
-**Tremor — Arcane Spell**
-2 Earth · Action · 10-ft radius · Prone
+### Tremor (Arcane Spell)
+**Disciplines:** 2 Earth · **Action:** Action · **Range:** 10-ft radius · **Keywords:** Prone
 
 **Weak:** 2 bludgeoning damage.
 
@@ -418,10 +302,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 bludgeoning damage; 15-ft radius.
 
-### Gust
-
-**Gust — Arcane Spell**
-1 Wind · Action · 30 ft · Prone
+### Gust (Arcane Spell)
+**Disciplines:** 1 Wind · **Action:** Action · **Range:** 30 ft · **Keywords:** Prone
 
 **Weak:** No damage; push the target 5 ft.
 
@@ -439,10 +321,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 {{< pagebreak >}}
 
-### Wind Wall
-
-**Wind Wall — Arcane Spell**
-2 Wind · Action · 30-ft wall · Bane
+### Wind Wall (Arcane Spell)
+**Disciplines:** 2 Wind · **Action:** Action · **Range:** 30-ft wall · **Keywords:** Bane
 
 **Weak:** Missile attacks through the wall have Bane.
 
@@ -454,10 +334,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** The wall lasts 3 rounds; 9/15/21 bludgeoning damage to passers.
 
-### Force Dart
-
-**Force Dart — Arcane Spell**
-1 Energy · Action · 60 ft
+### Force Dart (Arcane Spell)
+**Disciplines:** 1 Energy · **Action:** Action · **Range:** 60 ft · **Keywords:** None
 
 **Weak:** 2 force damage; never misses (the tier is still rolled).
 
@@ -469,10 +347,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 force damage, three darts.
 
-### Force Wave
-
-**Force Wave — Arcane Spell**
-2 Energy · Action · 15-ft cone · Prone
+### Force Wave (Arcane Spell)
+**Disciplines:** 2 Energy · **Action:** Action · **Range:** 15-ft cone · **Keywords:** Prone
 
 **Weak:** 2 force damage; push targets 5 ft.
 
@@ -484,10 +360,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 force damage.
 
-### Ward of Iron
-
-**Ward of Iron — Arcane Spell**
-1 Energy · Reaction · self · DR
+### Ward of Iron (Arcane Spell)
+**Disciplines:** 1 Energy · **Action:** Reaction · **Range:** self · **Keywords:** DR
 
 **Weak:** +2 DR against one attack.
 
@@ -499,10 +373,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 DR against one attack; reflects 3 damage.
 
-### Unseen Hand
-
-**Unseen Hand — Arcane Spell**
-1 Energy · Action · 30 ft · Restrained
+### Unseen Hand (Arcane Spell)
+**Disciplines:** 1 Energy · **Action:** Action · **Range:** 30 ft · **Keywords:** Restrained
 
 **Weak:** Lift 10 lb for 1 turn.
 
@@ -514,10 +386,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** Lift 200 lb; can hold a creature still (Restrained).
 
-### Silver Tongue
-
-**Silver Tongue — Arcane Spell**
-1 Mind · Action · 30 ft · Bane, Boon
+### Silver Tongue (Arcane Spell)
+**Disciplines:** 1 Mind · **Action:** Action · **Range:** 30 ft · **Keywords:** Bane, Boon
 
 **Weak:** The target has Bane against your social checks for 1 scene.
 
@@ -527,10 +397,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** The target is friendly and you gain Boon on social checks against them.
 
-### Daze
-
-**Daze — Arcane Spell**
-1 Mind · Action · 30 ft
+### Daze (Arcane Spell)
+**Disciplines:** 1 Mind · **Action:** Action · **Range:** 30 ft · **Keywords:** None
 
 **Weak:** The target loses its Maneuver.
 
@@ -542,10 +410,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** Three targets.
 
-### Phantasmal Image
-
-**Phantasmal Image — Arcane Spell**
-2 Mind · Action · 30 ft · Bane
+### Phantasmal Image (Arcane Spell)
+**Disciplines:** 2 Mind · **Action:** Action · **Range:** 30 ft · **Keywords:** Bane
 
 **Weak:** The illusion lasts 1 turn.
 
@@ -553,10 +419,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Strong:** The illusion lasts 3 turns; those who fail a Reason check have Bane.
 
-### Fade
-
-**Fade — Arcane Spell**
-1 Mind · Action · self · Boon
+### Fade (Arcane Spell)
+**Disciplines:** 1 Mind · **Action:** Action · **Range:** self · **Keywords:** Boon
 
 **Weak:** Boon on Stealth for 1 turn.
 
@@ -566,10 +430,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** Allies within 5 ft also gain the effect.
 
-### Mind Crown
-
-**Mind Crown — Arcane Spell**
-2 Mind · Action · 30 ft, 1 scene
+### Mind Crown (Arcane Spell)
+**Disciplines:** 2 Mind · **Action:** Action · **Range:** 30 ft, 1 scene · **Keywords:** None
 
 **Weak:** The target follows one simple command (Reason resists).
 
@@ -577,10 +439,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Strong:** The target follows your commands for the full scene.
 
-### Eldritch Sight
-
-**Eldritch Sight — Arcane Spell**
-1 Energy · Action · self
+### Eldritch Sight (Arcane Spell)
+**Disciplines:** 1 Energy · **Action:** Action · **Range:** self · **Keywords:** None
 
 **Weak:** Reveal 1 clue about magic.
 
@@ -590,10 +450,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** Identify any magical effect.
 
-### Flicker Step
-
-**Flicker Step — Arcane Spell**
-1 Energy · Maneuver · self · Boon, Bane
+### Flicker Step (Arcane Spell)
+**Disciplines:** 1 Energy · **Action:** Maneuver · **Range:** self · **Keywords:** Boon, Bane
 
 **Weak:** Teleport 5 ft.
 
@@ -605,10 +463,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** Teleport 60 ft; Bane on attacks against you for 1 turn.
 
-### Soul Drain
-
-**Soul Drain — Arcane Spell**
-1 Energy · Action · 30 ft
+### Soul Drain (Arcane Spell)
+**Disciplines:** 1 Energy · **Action:** Action · **Range:** 30 ft · **Keywords:** None
 
 **Weak:** 2 necrotic damage; heal half the damage.
 
@@ -620,10 +476,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** 9/15/21 necrotic damage; heal half the damage; slay at 0 HP.
 
-### March of Bones
-
-**March of Bones — Arcane Spell**
-2 Energy · Action · 30 ft · Boon
+### March of Bones (Arcane Spell)
+**Disciplines:** 2 Energy · **Action:** Action · **Range:** 30 ft · **Keywords:** Boon
 
 **Weak:** Raise 1 skeleton for 1 scene.
 
@@ -635,10 +489,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Master:** Raise 6 skeletons; their attacks have Boon.
 
-### Touch of the Grave
-
-**Touch of the Grave — Arcane Spell**
-2 Energy · Action · touch · Unconscious
+### Touch of the Grave (Arcane Spell)
+**Disciplines:** 2 Energy · **Action:** Action · **Range:** touch · **Keywords:** Unconscious
 
 **Weak:** 2 necrotic damage.
 
