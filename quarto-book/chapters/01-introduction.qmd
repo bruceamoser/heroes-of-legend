@@ -139,7 +139,7 @@ This keeps combat fast, cinematic, and dangerous. You can't stack armor so high 
 
 ::: {.callout-important}
 ## Armor = Damage Reduction
-In *Heroes of Legend*, armor doesn't make you harder to hit: every attack connects. Instead, armor subtracts from incoming damage. A goblin's club (Standard damage 3) bounces harmlessly off plate armor (Armor 3). But a dragon's claws (Strong damage 8) still gets 5 through.
+In *Heroes of Legend*, armor doesn't make you harder to hit: every attack connects. Instead, armor subtracts from incoming damage down to a minimum of 1 per hit. A goblin's club (Standard damage 3) against plate armor (DR 6) still deals minimum 1 damage — every blow finds a gap. A Young Dragon's claws (Standard damage 5) fare the same against that steel shell, though its Strong damage would be another matter entirely.
 
 Full armor rules: @sec-chapter-armor-shields.
 :::
