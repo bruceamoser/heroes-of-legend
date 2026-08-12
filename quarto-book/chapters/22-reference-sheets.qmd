@@ -23,8 +23,8 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | **Weak** | 1-8 | Partial success or success with complication |
 | **Standard** | 9-14 | Full, clean success |
 | **Strong** | 15-18+ | Exceptional success. Bonus effect. |
-| **Critical** | 3-6 (natural) | Automatic Strong + special outcome |
-| **Fumble** | 3-1 (natural) | Automatic failure + complication |
+| **Critical** | Three natural 6s | Automatic Strong + special outcome |
+| **Fumble** | Three natural 1s | Automatic failure + complication |
 
 {{< pagebreak >}}
 
@@ -76,15 +76,20 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 |-----------|--------|------|
 | **Blinded** | Attacks reduced one tier | Source duration |
 | **Charmed** | Cannot attack charmer | Save ends |
+| **Dazed** | Can take only one action type per turn (Action, Move, or Maneuver) | Save ends |
+| **Dazzled** | Perception checks at Bane, cannot benefit from Boon on sight-based rolls | Source duration |
 | **Deafened** | Perception Bane | Source duration |
 | **Frightened** | Cannot approach source | Save ends |
+| **Frozen** | Incapacitated and takes 2 cold damage per round | Save ends |
 | **Grappled** | Speed 0 | Escape action |
 | **Incapacitated** | No actions | Source duration |
 | **Invisible** | Cannot be targeted directly | Attack/action ends |
 | **Paralyzed** | Incapacitated + auto-crit if hit | Save ends |
+| **Petrified** | Turned to stone, incapacitated, DR +5, immune to non-magical damage | Special |
 | **Poisoned** | Bane on attacks | Save ends |
 | **Prone** | Melee Boon vs you, ranged Bane | Stand up (move) |
 | **Restrained** | Speed 0, attack Bane | Escape action |
+| **Slowed** | Speed halved, cannot take Reactions | Source duration |
 | **Stunned** | Incapacitated + cannot move | Save ends |
 | **Unconscious** | Incapacitated + prone + unaware | Healing or save |
 
@@ -105,8 +110,8 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | **Strong (15+)** | Stabilize at 1 HP |
 | **Standard (9-14)** | Unconscious, stable |
 | **Weak (1-8)** | You're still dying. The end draws nearer. |
-| **Fumble (3-1)** | Death |
-| **Critical (3-6)** | Wake at half HP |
+| **Fumble (Three natural 1s)** | Death |
+| **Critical (Three natural 6s)** | Wake at half HP |
 
 ### Cover
 
@@ -171,8 +176,10 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | **Weapon** | Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed |
 | **Defense** | Protection, Armor |
 | **Primal** | Animal, Plants |
+| **Subterfuge** | Stealth, Sleight |
 | **Arcane** | Energy |
 | **Divine** | Life, Religion |
+| **Knowledge** | Lore, Tactics |
 | **Esoteric** | Mind, Summon |
 
 {{< pagebreak >}}
@@ -196,8 +203,8 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 
 | Level | DP Gained | Milestones |
 |-------|-----------|------------|
-| 1 | 4 DP (class) + 8 DP (background) | Class, signature ability |
-| 2 | 3 DP |, |
+| 1 | 4 DP | Class, signature ability |
+| 2 | 3 DP | — |
 | 3 | 3 DP | Adept abilities unlock. +1 Discipline rank. |
 | 4 | 3 DP | +1 Attribute (max +2) |
 | 5 | 4 DP | Class feature |
@@ -240,14 +247,26 @@ The total cost of a card = its flat card DP cost + the sum of the discipline ran
 
 {{< pagebreak >}}
 
+## Damage Budget
+
+All spells, abilities, and monster attacks use flat damage values. No damage dice. The hit/casting roll IS the damage roll.
+
+| Tier | Weak | Standard | Strong |
+|------|------|----------|--------|
+| **Novice** (C1–2) | 2 | 4 | 6 |
+| **Adept** (C3–6) | 6 | 9 | 12 |
+| **Master** (C7+) | 9 | 15 | 21 |
+
+{{< pagebreak >}}
+
 ## Encounter Building Quick-Reference
 
 | Difficulty | Challenge Budget | Example (Level 4 party) |
 |-----------|-----------------|------------------------|
-| Easy | 1 - party level | 4 Wolves (C- each) |
-| Standard | 2 - party level | 1 Knight (C3) + 2 Guards (C-) |
-| Hard | 3 - party level | 1 Young Dragon (C6) + 4 Cultists (C-) |
-| Deadly | 4+ - party level | 1 Ancient Dragon (C12) |
+| Easy | × party level | 4 Wolves (C½ each) |
+| Standard | ×2 party level | 1 Knight (C3) + 2 Guards (C½) |
+| Hard | ×3 party level | 1 Young Dragon (C6) + 4 Cultists (C½) |
+| Deadly | ×4+ party level | 1 Ancient Dragon (C12) |
 
 {{< pagebreak >}}
 
@@ -255,14 +274,14 @@ The total cost of a card = its flat card DP cost + the sum of the discipline ran
 
 | Armor | DR | Stealth | Disc Req |
 |-------|-----|---------|----------|
-| Padded | -1 |, |, |
-| Leather | -2 |, |, |
-| Studded Leather | -2 |, | 1 Armor |
-| Chain Shirt | -3 | Bane | 1 Armor |
-| Breastplate | -4 |, | 2 Armor |
-| Half Plate | -4 | Bane | 2 Armor |
-| Chain Mail | -5 | Bane | 2 Armor |
-| Plate | -6 | Bane | 3 Armor |
+| Padded | 1 | — | — |
+| Leather | 2 | — | — |
+| Studded Leather | 2 | — | 1 Armor |
+| Chain Shirt | 3 | Bane | 1 Armor |
+| Breastplate | 4 | — | 2 Armor |
+| Half Plate | 4 | Bane | 2 Armor |
+| Chain Mail | 5 | Bane | 2 Armor |
+| Plate | 6 | Bane | 3 Armor |
 
 | Shield | PV | DR Bonus |
 |--------|-----|----------|

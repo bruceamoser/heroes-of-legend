@@ -50,7 +50,7 @@ The difficulty modifier is the simplest tool in your kit, and the one new DAs mi
 
 Balancing combat encounters is more art than science, but the numbers give you a starting point. Here's how to think about it.
 
-**The basic math:** Compare total party Disciplines to total enemy threat. A standard encounter — the kind the party should win while expending some resources and taking some damage — matches the party's total Discipline count. A hard encounter has about 1.5 times that. A deadly encounter has double. But these are guidelines, not guarantees. Terrain, surprise, and player cleverness will swing fights further than any formula.
+**The basic math:** Encounter difficulty uses a simple multiplier against party level. **Easy** encounters use a challenge budget of **×1 party level** — a quick fight that costs few resources. **Standard** encounters use **×2 party level** — the party should win while expending some resources. **Hard** encounters use **×3 party level** — expect significant resource drain and possible casualties. **Deadly** encounters use **×4+ party level** — character death is a real possibility. These are guidelines, not guarantees. Terrain, surprise, and player cleverness will swing fights further than any formula.
 
 **Action economy is everything.** Four goblins (four actions per round) are more dangerous than one ogre with the same total HP (one action per round). The side with more actions controls the board. When building encounters, count actions, not just hit points. A solo boss needs legendary actions or multiattack to keep up. A swarm of minions needs low HP so they drop fast and the action economy swings back toward the party.
 
@@ -90,11 +90,23 @@ You don't need a full character sheet for every shopkeeper the party meets. Here
 
 {{< pagebreak >}}
 
-## Optional Rules
+## Resting
 
-Every table is different. These rules let you tune the game's tone without breaking anything. Try one at a time. See how your group reacts. The game works fine without any of them — these are seasoning, not ingredients.
+Short rests take 1 hour and have no default mechanical effect — they provide narrative space to bandage wounds and regroup, but confer no automatic HP recovery or healing.
 
-**Gritty Realism:** Short rests take 8 hours. Long rests take 1 full week of downtime. Use this when you want travel and exploration to feel grueling, when every resource decision matters, and when the party should dread the journey as much as the destination. Don't use this for dungeon crawls — the pace will grind to a halt. Gritty realism works best in campaigns where combat is rare but consequential, and where the tension comes from attrition over days, not minutes.
+**Long rest (8 hours):** A full night's sleep provides the following benefits:
+- Recover HP equal to your level.
+- Heal 1 wound.
+- A character may attempt a Medicine check (Standard) to heal 1 additional wound (for themselves or an ally).
+- A long rest cannot be taken more than once per 24 hours.
+
+The long rest is the primary recovery mechanic in *Heroes of Legend*. Party resources, exploration pace, and adventure design all calibrate around it.
+
+### Rest Variants
+
+Every table is different. These variants let you tune the game's tone without breaking anything. Try one at a time. See how your group reacts. The game works fine without any of them — these are seasoning, not ingredients.
+
+**Gritty Realism:** Short rests take 8 hours (instead of the default 1 hour). Long rests take 1 full week of downtime (instead of the default 8 hours). Use this when you want travel and exploration to feel grueling, when every resource decision matters, and when the party should dread the journey as much as the destination. Don't use this for dungeon crawls — the pace will grind to a halt. Gritty realism works best in campaigns where combat is rare but consequential, and where the tension comes from attrition over days, not minutes.
 
 **Heroic Mode:** The party gains +1 Development Point per level. They'll have more skills, more talents, more abilities at every stage of the game. Use this for smaller parties (2–3 players) who need the extra power to handle standard encounters, or for groups who love character customization and want more toys to play with. Don't use this with optimization-heavy groups unless you're prepared for the party to punch above their weight consistently.
 
@@ -112,11 +124,11 @@ Overland travel uses a simple pace system. Each day, the party covers distance b
 | Mountain/Swamp | 12 miles | 18 miles |
 | Desert/Tundra | 15 miles | 21 miles |
 
-**Navigation:** Each day, one character makes a Survival (Knowledge or Survival skill) roll. Standard result: stay on course. Weak result: veer off course (1d6 extra hours). Strong result: find a shortcut (-2 hours).
+**Navigation:** Each day, one character makes a Survival (Knowledge) roll. Standard result: stay on course. Weak result: veer off course (1d6 extra hours). Strong result: find a shortcut (-2 hours).
 
 **Random Encounters:** Roll 1d6 each day and night. On a 1, an encounter occurs. DA chooses or rolls from environment-specific tables.
 
-**Camping:** A long rest requires 8 hours of rest including sleep. Characters on watch may make Perception checks at -2 (tired eyes).
+**Camping:** A long rest follows the standard rules (see Resting above): 8 hours of rest including sleep, recovering 1 HP per level and healing 1 wound (plus 1 additional wound with a Standard Medicine check). Characters on watch may make Perception checks at -2 (tired eyes).
 
 > **DA Guidance:** Travel is a pacing tool. Use it to build atmosphere, the oppressive silence of a swamp, the howling wind on a mountain pass. Skip travel entirely when the journey isn't the story. "After three days on the road, you arrive at the gates of Thornwall" is perfectly valid.
 
@@ -150,7 +162,7 @@ Keeping track of supplies adds tension to exploration.
 
 **Light:** Torches last 1 hour and illuminate 30 ft. Lanterns last 6 hours per flask of oil. Total darkness imposes -4 to any roll requiring sight.
 
-**Optional, Resource Dice:** For tables that prefer abstraction, use a Resource Die (d12?d10?d8?d6?d4?Depleted). Roll after each use; on a 1, the die steps down.
+**Optional, Resource Dice:** For tables that prefer abstraction, use a Resource Die (d12→d10→d8→d6→d4→Depleted). Roll after each use; on a 1, the die steps down.
 
 {{< pagebreak >}}
 
@@ -248,15 +260,15 @@ Run this as a group skill challenge. Each character makes one skill check. They 
 
 | Result | Consequence |
 |--------|------------|
-| **Weak** | You make it, but at a cost. Lose 1d3 HP (slip, twisted ankle, swallowed river water). Or lose a piece of minor gear in the mud. |
+| **Weak** | You make it, but at a cost. Lose 2 HP (slip, twisted ankle, swallowed river water). Or lose a piece of minor gear in the mud. |
 | **Standard** | Clean crossing. You're where you need to be. |
 | **Strong** | You find an advantage, a dry path, a shortcut, a stable ledge. The next character gains +2 on their check. |
 
 **Party outcome:**
 
 - **3+ successes before 2 failures:** The party arrives dry, together, and alert. No penalties going into Scene 3.
-- **2 failures:** The party arrives mud-splattered and separated. Each character loses 1d3 HP from minor injuries. The DA gets one "complication token" to use in Scene 3, a sudden collapse, a rising water level, an enemy reinforcement.
-- **3+ failures (exhausted all attempts):** The party arrives soaked, bruised, and loud. Each character loses 1d6 HP. The vault's guardians are alerted. They get a surprise round in Scene 3. Yeah, it's harsh. Welcome to adventuring.
+- **2 failures:** The party arrives mud-splattered and separated. Each character loses 2 HP from minor injuries. The DA gets one "complication token" to use in Scene 3, a sudden collapse, a rising water level, an enemy reinforcement.
+- **3+ failures (exhausted all attempts):** The party arrives soaked, bruised, and loud. Each character loses 4 HP. The vault's guardians are alerted. They get a surprise round in Scene 3. Yeah, it's harsh. Welcome to adventuring.
 
 ::: {.callout-warning}
 ## The First Failure Matters
@@ -311,7 +323,7 @@ Beyond the main chamber, a short passage descends deeper. The water drains away 
 
 1. **Fight Kelvath while the seal holds.** He's restricted to 20 ft from the pedestal, so ranged attackers can stay safe, but his Water Bolt outranges most spells and bows. This is a tactical puzzle: how do you use his tether against him?
 
-2. **Disable the seal early.** A character can reach the pedestal (move + Maneuver) and attempt an Arcana or Reason check (Hard, -2). Strong: the seal stabilizes for the remainder of the fight. Standard: the seal holds but the attempt costs you, the crystal lashes out, dealing 1d6 cold damage to the character. Weak: the seal shatters immediately. Oops.
+2. **Disable the seal early.** A character can reach the pedestal (move + Maneuver) and attempt an Arcana or Reason check (Hard, -2). Strong: the seal stabilizes for the remainder of the fight. Standard: the seal holds but the attempt costs you, the crystal lashes out, dealing 4 cold damage to the character. Weak: the seal shatters immediately. Oops.
 
 3. **Break the crystal.** The crystal has HP 10 and DR 2. Destroying it ends the seal, frees Kelvath from his tether, and causes the chamber to flood rapidly (2 ft per round). But it also removes the blue glow, and Kelvath's Water Bolt loses 1 damage tier without the crystal powering it. Choices.
 
@@ -326,7 +338,7 @@ This is where the game shines. One character fights Kelvath. Another works the s
 
 > *"The warden's body hits the water and dissolves, armor, blade, circlet, all of it flowing into the blue-lit channels like ink into a stream. The crystal pulses once, twice, and goes dark. The groaning of ancient stone fills the chamber. This place is coming down. Time to run."*
 
-If the party stays, the ceiling begins to collapse. They have 3 rounds to escape. Each round, a character must make an Agility check (Standard) to dodge falling debris or take 1d6 damage. The flooded vault in Scene 3 is now waist-deep and rising fast. Getting out is a sprint, not a fight.
+If the party stays, the ceiling begins to collapse. They have 3 rounds to escape. Each round, a character must make an Agility check (Standard) to dodge falling debris or take 4 damage. The flooded vault in Scene 3 is now waist-deep and rising fast. Getting out is a sprint, not a fight.
 
 ### Conclusion
 
@@ -530,7 +542,7 @@ Class abilities are more varied than spells, but they all follow a simpler forma
 
 **Example (Shadow Strike):**
 
-> **Shadow Strike (Adept, 4 DP).** Disc: 2 Blades, 1 Mind. Trigger: When you attack from Vanish invisibility. Effect: The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene.
+> **Shadow Strike (Adept, 4 DP).** Disc: 1 Stealth, 1 Sleight. Trigger: When you attack from Vanish invisibility. Effect: The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene.
 
 ### No-Prereq Basics
 
