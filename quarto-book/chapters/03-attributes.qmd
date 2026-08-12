@@ -57,7 +57,7 @@ A quick way to check: add up all six modifiers. They should equal 3. If they don
 
 **Example:** Makeva wants a charming rogue. She puts +1 in Agility (nimble fingers), +1 in Guile (silver tongue), and +1 in Brawn (can handle herself in a scrap). Her final spread: Brawn +1, Fortitude +0, Agility +1, Guile +1, Knowledge +0, Reason +0. Sum: +1+0+1+1+0+0 = +3. She's quick, persuasive, and can throw a punch, but she's no scholar and no tank. That's a choice. Choices make characters.
 
-At levels 4, 8, 12, 16, and 20, you may increase one attribute by +1 (up to the +2 maximum). Your hero grows as they adventure.
+At levels 4 and 8, you may increase one attribute by +1 (up to the +2 maximum). Your hero grows as they adventure.
 
 {{< pagebreak >}}
 
