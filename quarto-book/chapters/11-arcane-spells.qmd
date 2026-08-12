@@ -1642,7 +1642,7 @@ Wind magic is the art of motion. It doesn't destroy, it *relocates.* It doesn't 
 
 {{< pagebreak >}}
 
-## Force Bolt Chain
+### Force Bolt Chain
 
 **Disciplines:** Energy
 *Raw kinetic force beyond the finesse of Magic Missile. No seeking. No subtlety. Just pure, concentrated impact.*
