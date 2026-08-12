@@ -37,7 +37,7 @@ Divine cantrips are minor blessings, small miracles that cost nothing and ask no
 They won't turn the tide of battle. They'll steady a shaky hand, light a dark corridor, and remind the dying that someone is still fighting for them. Sometimes that's enough.
 
 ### Guidance (Cantrip)
-**Disciplines:** None
+**No prereq**
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Concentration, up to 1 minute
@@ -54,7 +54,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 *The simplest prayer. The most reliable help. When your ally is about to attempt something stupid and heroic, give them Guidance. It won't make the stupid part less stupid, but it might make the heroic part work.*
 
 ### Light (Cantrip)
-**Disciplines:** None
+**No prereq**
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** 1 hour
@@ -71,7 +71,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 *Not a torch. Not a lantern. Light is a piece of dawn you can carry in your pocket. Use it to banish shadows. Use it to blind things that hate the sun. Use it to remind your party that even in the deepest dark, someone brought the day with them.*
 
 ### Resistance (Cantrip)
-**Disciplines:** None
+**No prereq**
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Concentration, up to 1 minute
@@ -88,7 +88,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 *When you know the wyvern's sting is coming. When the crypt's air tastes of old death. When the evil wizard's finger is pointing at your Protector. Resistance won't make you immune, but it might make you survive.*
 
 ### Virtue (Cantrip)
-**Disciplines:** None
+**No prereq**
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** 1 minute
@@ -105,7 +105,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 *A breath of borrowed courage. Virtue is the spell you cast on the ally who's about to do something brave and probably fatal. It won't make them invincible, but it'll make them feel invincible. Sometimes that's the same thing.*
 
 ### Thaumaturgy (Cantrip)
-**Disciplines:** None
+**No prereq**
 **Casting Time:** 1 action
 **Range:** 30 feet
 **Duration:** Up to 1 minute
@@ -157,7 +157,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *The spell that says "not today." Heal Wounds won't bring back the dead, but it'll keep the living on their feet. In a game where every hit connects, healing isn't optional, it's survival. Learn this spell. Love this spell. Your party will love you for it.*
 
 #### Restoration (Adept)
-**Disciplines:** 2 Water, 1 Protection
+**Disciplines:** 2 Water
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Instantaneous
@@ -174,7 +174,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *Healing-plus. Restoration is what you cast when Heal Wounds isn't enough, when the poison is in their blood and their eyes have gone glassy. It's the difference between "they'll live" and "they'll fight." In the middle of combat, that difference is everything.*
 
 #### Mass Heal (Master)
-**Disciplines:** 3 Water, 1 Protection
+**Disciplines:** 2 Water, 1 Protection
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Instantaneous
@@ -212,7 +212,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *Not as dramatic as a heal, but sometimes more important. The well in the plague village. The feast the suspicious baron laid out. The dagger your rogue just picked up that's whispering her name. Purify is the answer. Clean water and clean food have saved more lives than any battle spell ever will.*
 
 #### Cleanse (Adept)
-**Disciplines:** 2 Water, 1 Protection
+**Disciplines:** 2 Water
 **Casting Time:** 1 minute
 **Range:** Touch
 **Duration:** Instantaneous
@@ -229,7 +229,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *When the curse has taken root. When the ghost is wearing your friend's face. When the charm spell has been running for days and nobody remembers who the real person is anymore. Cleanse is the reset button. It's brutal, the target will feel every moment of the purification, but they'll be themselves again when it's done.*
 
 #### Resurrection (Master)
-**Disciplines:** 3 Water, 1 Protection
+**Disciplines:** 2 Water, 1 Protection
 **Casting Time:** 1 hour
 **Range:** Touch
 **Duration:** Instantaneous
@@ -267,7 +267,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *Healing over time. Bolster is for the Protector who's holding the line while everyone else escapes. For the Blade who's dueling the enemy champion. For anyone who needs to stay upright just a little longer. It won't outpace a dragon's breath, but it'll turn a dozen small cuts from fatal to forgettable.*
 
 #### Regeneration (Adept)
-**Disciplines:** 2 Water, 1 Protection
+**Disciplines:** 2 Water
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Concentration, up to 1 minute
@@ -284,7 +284,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *When Bolster isn't enough. Regeneration is the spell you cast on the ally who's already down, already bleeding out, already halfway to the grave. It doesn't just heal, it rebuilds. Watch their eyes flutter open. Watch their hand grow back. Watch the enemy's expression change from triumph to horror.*
 
 #### True Life (Master)
-**Disciplines:** 3 Water, 1 Protection
+**Disciplines:** 2 Water, 1 Protection
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** 1 hour
@@ -322,7 +322,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *The smallest healing spell. Not for wounds, for everything else. The nausea after the poison trap. The ringing ears after the thunderclap. The creeping dread after the third near-death experience this hour. Soothe is the spell you cast when an ally just needs a moment. A breath. A reminder that they're not alone.*
 
 #### Remove Affliction (Adept)
-**Disciplines:** 2 Water, 1 Protection
+**Disciplines:** 2 Water
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Instantaneous
@@ -339,7 +339,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *The surgical strike of divine magic. Remove Affliction doesn't heal HP, it solves specific, devastating problems. The medusa's gaze. The banshee's wail. The ghoul's paralytic claws. When a party member is locked down and the enemy is closing in, this spell doesn't just help, it changes the math entirely.*
 
 #### Miracle Cure (Master)
-**Disciplines:** 3 Water, 1 Protection
+**Disciplines:** 2 Water, 1 Protection
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Instantaneous
@@ -377,7 +377,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *The spell that says "not yet." Revivify is for the ally who just went down, the hero who took one hit too many, the moment when the healer was one second too slow. You have one minute. One minute to reach the body, touch the cooling skin, and refuse to accept what just happened. One minute is enough.*
 
 #### Raise Dead (Adept)
-**Disciplines:** 2 Water, 1 Protection
+**Disciplines:** 2 Water
 **Casting Time:** 1 hour
 **Range:** Touch
 **Duration:** Instantaneous
@@ -394,7 +394,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *Death is patient, but it can be argued with. Raise Dead is the argument. An hour of prayer, an intact body, and a soul that hasn't been gone more than ten days. The dead don't always want to come back. The living don't always get a choice. Some doors, once opened, are hard to close again.*
 
 #### True Resurrection (Master)
-**Disciplines:** 3 Water, 1 Protection
+**Disciplines:** 2 Water, 1 Protection
 **Casting Time:** 1 hour
 **Range:** Touch
 **Duration:** Instantaneous
@@ -446,7 +446,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *The bread and butter of divine protection. Shield of Faith is simple, reliable, and always welcome. Cast it on your Protector to make an iron wall into a mythic one. Cast it on your Blade to let them fight with reckless abandon. Cast it on yourself, you're the healer, and the enemy knows it.*
 
 #### Sanctuary (Adept)
-**Disciplines:** 2 Protection, 1 Energy
+**Disciplines:** 2 Protection
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Concentration, up to 1 minute
@@ -463,7 +463,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *"Don't hit me" in spell form. Sanctuary is for the non-combatant caught in combat, the scholar you're escorting, the wounded ally you're stabilizing, yourself when you need one round to get a Mass Heal off. It's not invisibility. It's something stranger, the divine assertion that this person is not part of the fight, and the fight should look elsewhere.*
 
 #### Holy Aegis (Master)
-**Disciplines:** 3 Protection, 1 Energy
+**Disciplines:** 2 Protection, 1 Energy
 **Casting Time:** 1 action
 **Range:** Self (30-foot radius)
 **Duration:** Concentration, up to 1 minute
@@ -501,7 +501,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *The spell that makes everyone better. Bless isn't flashy, but a +1 on every attack roll across three party members adds up fast. Over a five-round combat, that's fifteen attacks, and fifteen chances for the blessing to turn a Weak into a Standard, or a Standard into a Strong. Your party won't notice the difference. The enemy will.*
 
 #### Divine Favor (Adept)
-**Disciplines:** 2 Protection, 1 Energy
+**Disciplines:** 2 Protection
 **Casting Time:** 1 action
 **Range:** Self
 **Duration:** Concentration, up to 1 minute
@@ -518,7 +518,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *For the Shepherd who needs to wade into melee. For the Leader who wants to lead from the front. Divine Favor turns a support caster into a holy terror. Your mace isn't just a mace anymore, it's a delivery system for divine judgment. The undead don't just fear you. They burn at your approach.*
 
 #### Crusader's Mantle (Master)
-**Disciplines:** 3 Protection, 1 Energy
+**Disciplines:** 2 Protection, 1 Energy
 **Casting Time:** 1 action
 **Range:** Self (30-foot radius)
 **Duration:** Concentration, up to 1 minute
@@ -556,7 +556,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *The spell that lets you sleep through the night. Ward the camp perimeter. Ward the dungeon door behind you. Ward the treasure chest before you open it. Knowledge is power, and knowing something is coming before it arrives is the difference between a prepared party and a total party kill.*
 
 #### Magic Circle (Adept)
-**Disciplines:** 2 Protection, 1 Energy
+**Disciplines:** 2 Protection
 **Casting Time:** 1 minute
 **Range:** Touch
 **Duration:** 1 hour
@@ -573,7 +573,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *The summoner's nightmare. Magic Circle is for when you know what's hunting you and need a guaranteed safe zone. Camp inside one when the werewolves are prowling. Trap a demon inside one while you negotiate. Cast one around the ritual altar before the cultists finish their spell. The circle doesn't judge. It just holds.*
 
 #### Divine Barrier (Master)
-**Disciplines:** 3 Protection, 1 Energy
+**Disciplines:** 2 Protection, 1 Energy
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Concentration, up to 1 minute
@@ -611,7 +611,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *A single strike. A single prayer. Holy Strike is the simplest expression of divine wrath: you hit something, and your god hits it too. Use it when you need to remind the enemy that you're not just a healer. Use it when the zombie shambles too close. Use it when the demon thinks you're an easy target because you're wearing robes instead of plate. They'll learn.*
 
 #### Smite (Adept)
-**Disciplines:** 2 Protection, 1 Energy
+**Disciplines:** 2 Protection
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Instantaneous
@@ -628,7 +628,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *Smite is why the undead fear Shepherds more than they fear warriors. A sword can hurt a skeleton. A Smite unmakes it. The spell channels the fundamental opposition between divine light and unholy existence. Against living foes it burns. Against the undead, it obliterates. This is the spell you cast when you want the vampire to know it picked the wrong crypt to haunt.*
 
 #### Divine Judgment (Master)
-**Disciplines:** 3 Protection, 1 Energy
+**Disciplines:** 2 Protection, 1 Energy
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Instantaneous
@@ -666,7 +666,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *A bolt of light and a promise. Guiding Bolt hits hard enough to matter, but its real value is the gift it gives your allies: a glowing target that even the clumsiest Protector can't miss. Fire it early in the fight. Watch your party's accuracy improve. The bolt is the message. The glow is the gift.*
 
 #### Radiant Beam (Adept)
-**Disciplines:** 2 Energy, 1 Water
+**Disciplines:** 2 Energy
 **Casting Time:** 1 action
 **Range:** 60-foot line
 **Duration:** Instantaneous
@@ -683,7 +683,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *A laser of divine fury. Radiant Beam is for when the enemy formation is lined up like they're asking for it, when the hallway is full of zombies and you want it to be full of ash instead, when the invisible assassin is somewhere in that general direction and you'd rather they weren't. Line up your shot. Let the light do the rest.*
 
 #### Pillar of Light (Master)
-**Disciplines:** 3 Energy, 1 Water
+**Disciplines:** 2 Energy, 1 Water
 **Casting Time:** 1 action
 **Range:** 120 feet
 **Duration:** Concentration, up to 1 minute
@@ -721,7 +721,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *The defining spell of the Shepherd. Turn Undead is why the crypt full of skeletons isn't a fight, it's a routing of the enemy before steel is drawn. Present your symbol. Speak the words. Watch the dead run. They know what you represent. They've been running from it since the first grave was dug and the first prayer was spoken over it. You are not their enemy. You are their antithesis.*
 
 #### Banish (Adept)
-**Disciplines:** 2 Protection, 1 Energy
+**Disciplines:** 2 Protection
 **Casting Time:** 1 action
 **Range:** 30 feet
 **Duration:** Concentration, up to 1 minute
@@ -738,7 +738,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *The spell that answers "go back where you came from." Banishment removes one creature from the fight entirely. Not dead, not injured, just gone. The demon who was about to eviscerate your Protector? Spending the next minute in a featureless gray void, alone with its thoughts. The ghost that's been haunting the manor for three centuries? Back to the ethereal plane, and the door is locked behind it. Banishment doesn't win fights. It postpones them. But sometimes postponement is all you need.*
 
 #### Soul Prison (Master)
-**Disciplines:** 3 Protection, 1 Energy
+**Disciplines:** 2 Protection, 1 Energy
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Permanent until dispelled
@@ -776,7 +776,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *Not a wall. Not a ward. Something subtler. Consecrate makes ground feel safe in a way that goes deeper than tactics. The undead feel it in their bones and hesitate. Your party feels it in their hearts and rests easier. Cast it around your camp before you sleep. Cast it over the mass grave before you enter the dungeon. Cast it on the altar the cultists were using, and watch them scramble to find somewhere else to pray.*
 
 #### Hallow (Adept)
-**Disciplines:** 2 Protection, 1 Water
+**Disciplines:** 2 Protection
 **Casting Time:** 1 hour
 **Range:** Touch
 **Duration:** Permanent until dispelled
@@ -793,7 +793,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *This is why temples feel different. Hallow is the spell that builds sanctuaries. Once cast, the ground belongs to the divine. The undead cannot cross the boundary. Fear slides off the faithful like water. Healing works better here, as if the ground itself wants you to survive. Cast it on the orphanage the vampire has been stalking. Cast it on the village green where the ghosts gather at midnight. Cast it on your own headquarters, and sleep soundly for the first time in years.*
 
 #### Sanctified Ground (Master)
-**Disciplines:** 3 Protection, 1 Water
+**Disciplines:** 2 Protection, 1 Water
 **Casting Time:** 1 hour
 **Range:** Touch
 **Duration:** Permanent until dispelled
@@ -851,7 +851,7 @@ Divination is the magic of knowing. It sees what's hidden, identifies what's unk
 *The spell that saves parties from cursed swords and trapped altars. Detect Magic is never a wasted cast. That suspicious throne? Glowing with necromancy, don't sit. That plain dagger in the trash heap? Radiating Adept-tier enchantment, grab it. Knowledge is survival. This spell gives you knowledge.*
 
 #### Identify (Adept)
-**Disciplines:** 2 Energy, 1 Water
+**Disciplines:** 2 Energy
 **Casting Time:** 1 minute (or 1 hour for complex items)
 **Range:** Touch
 **Duration:** Instantaneous
@@ -868,7 +868,7 @@ Divination is the magic of knowing. It sees what's hidden, identifies what's unk
 *The spell that answers "what does this do?" Identify turns mysterious loot into known assets. That glowing sword? Now you know it's a Flame Tongue, command word "ignis," 3 charges, bursts into fire on command. That ring the villain was wearing? Cursed, don't put it on until you've cast Cleanse. Knowledge isn't just power. It's insurance.*
 
 #### Legend Lore (Master)
-**Disciplines:** 3 Energy, 1 Water
+**Disciplines:** 2 Energy, 1 Water
 **Casting Time:** 10 minutes
 **Range:** Self
 **Duration:** Instantaneous
@@ -906,7 +906,7 @@ Divination is the magic of knowing. It sees what's hidden, identifies what's unk
 *The counter to invisibility. When the assassin strikes from nowhere. When the treasure vault has a guardian nobody can see. When the ghost won't show itself. See Invisible removes the advantage of being unseen. The invisible rogue smirking in the corner? You're looking right at them. Wave.*
 
 #### True Seeing (Adept)
-**Disciplines:** 2 Energy, 1 Water
+**Disciplines:** 2 Energy
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Concentration, up to 1 hour
@@ -923,7 +923,7 @@ Divination is the magic of knowing. It sees what's hidden, identifies what's unk
 *The truth, the whole truth, and nothing but. True Seeing is the spell that strips away every layer of deception. The disguised assassin. The illusory wall. The polymorphed dragon pretending to be a merchant. One touch, one hour, and your party's scout becomes a lie detector with perfect vision. The villain's schemes look a lot less clever when you can see every thread.*
 
 #### Foresight (Master)
-**Disciplines:** 3 Energy, 1 Water
+**Disciplines:** 2 Energy, 1 Water
 **Casting Time:** 1 minute
 **Range:** Touch
 **Duration:** 8 hours
@@ -961,7 +961,7 @@ Divination is the magic of knowing. It sees what's hidden, identifies what's unk
 *The spell for when you're standing at a crossroads, literally or figuratively. Augury won't solve your problems, but it'll tell you which path leads to glory and which leads to a very compressed expiration. Cast it before opening doors. Cast it before accepting quests. Cast it before trusting the smiling stranger. The gods see farther than you do. Let them.*
 
 #### Divination (Adept)
-**Disciplines:** 2 Energy, 1 Water
+**Disciplines:** 2 Energy
 **Casting Time:** 1 action (ritual: 10 minutes)
 **Range:** Self
 **Duration:** Instantaneous
@@ -978,7 +978,7 @@ Divination is the magic of knowing. It sees what's hidden, identifies what's unk
 *Direct answers to direct questions. Divination is the investigator's best friend and the DA's worst nightmare. "Who murdered the king?" "Where is the artifact hidden?" "What is the villain's true name?" You get one question. Make it count. The answer will be true, which doesn't mean you'll like it.*
 
 #### Commune (Master)
-**Disciplines:** 3 Energy, 1 Water
+**Disciplines:** 2 Energy, 1 Water
 **Casting Time:** 1 minute
 **Range:** Self
 **Duration:** 1 minute (3 questions)
@@ -1006,68 +1006,68 @@ Divination is the magic of knowing. It sees what's hidden, identifies what's unk
 
 | Spell | Tier | Category | Disciplines | Summary |
 |-------|------|----------|-------------|---------|
-| Guidance | Cantrip | Blessing | None | +2 on next skill check |
-| Light | Cantrip | Blessing | None | Bright light 20-ft radius, 1 hour |
-| Resistance | Cantrip | Blessing | None | +2 on next Fortitude check |
-| Virtue | Cantrip | Blessing | None | 3 temp HP, 1 minute |
-| Thaumaturgy | Cantrip | Blessing | None | Minor divine displays and omens |
+| Guidance | Cantrip | Blessing | No prereq | +2 on next skill check |
+| Light | Cantrip | Blessing | No prereq | Bright light 20-ft radius, 1 hour |
+| Resistance | Cantrip | Blessing | No prereq | +2 on next Fortitude check |
+| Virtue | Cantrip | Blessing | No prereq | 3 temp HP, 1 minute |
+| Thaumaturgy | Cantrip | Blessing | No prereq | Minor divine displays and omens |
 | | | | | |
 | Heal Wounds | Novice | Healing | 1 Water | Touch, restore 4 HP |
-| Restoration | Adept | Healing | 2 Water, 1 Protection | Restore 9 HP, cure one condition |
-| Mass Heal | Master | Healing | 3 Water, 1 Protection | Up to 6 targets, 15 HP each |
+| Restoration | Adept | Healing | 2 Water | Restore 9 HP, cure one condition |
+| Mass Heal | Master | Healing | 2 Water, 1 Protection | Up to 6 targets, 15 HP each |
 | | | | | |
 | Purify | Novice | Healing | 1 Water | Cleanse poison, disease, or 5-ft cube |
-| Cleanse | Adept | Healing | 2 Water, 1 Protection | Remove curses, possession, compulsion |
-| Resurrection | Master | Healing | 3 Water, 1 Protection | Return dead creature to life |
+| Cleanse | Adept | Healing | 2 Water | Remove curses, possession, compulsion |
+| Resurrection | Master | Healing | 2 Water, 1 Protection | Return dead creature to life |
 | | | | | |
 | Bolster | Novice | Healing | 1 Water | Ongoing 2 HP/round, 1 minute |
-| Regeneration | Adept | Healing | 2 Water, 1 Protection | 5 HP/round, regrow limbs, 1 minute |
-| True Life | Master | Healing | 3 Water, 1 Protection | 10 HP/round, near-immortal, 1 hour |
+| Regeneration | Adept | Healing | 2 Water | 5 HP/round, regrow limbs, 1 minute |
+| True Life | Master | Healing | 2 Water, 1 Protection | 10 HP/round, near-immortal, 1 hour |
 | | | | | |
 | Soothe | Novice | Healing | 1 Water | Remove minor condition, restore 4 HP |
-| Remove Affliction | Adept | Healing | 2 Water, 1 Protection | Cure blindness, deafness, paralysis |
-| Miracle Cure | Master | Healing | 3 Water, 1 Protection | Cure any condition, including permanent |
+| Remove Affliction | Adept | Healing | 2 Water | Cure blindness, deafness, paralysis |
+| Miracle Cure | Master | Healing | 2 Water, 1 Protection | Cure any condition, including permanent |
 | | | | | |
 | Revivify | Novice | Healing | 1 Water | Return creature dead <1 min to life, 4 HP |
-| Raise Dead | Adept | Healing | 2 Water, 1 Protection | Return creature dead <10 days to life, 9 HP |
-| True Resurrection | Master | Healing | 3 Water, 1 Protection | Full resurrection within 100 years, no body needed |
+| Raise Dead | Adept | Healing | 2 Water | Return creature dead <10 days to life, 9 HP |
+| True Resurrection | Master | Healing | 2 Water, 1 Protection | Full resurrection within 100 years, no body needed |
 | | | | | |
 | Shield of Faith | Novice | Protection | 1 Protection | +2 Armor, 10 minutes |
-| Sanctuary | Adept | Protection | 2 Protection, 1 Energy | Enemies must check to attack target |
-| Holy Aegis | Master | Protection | 3 Protection, 1 Energy | 30-ft aura, +2 Armor, 2 HP/round to allies |
+| Sanctuary | Adept | Protection | 2 Protection | Enemies must check to attack target |
+| Holy Aegis | Master | Protection | 2 Protection, 1 Energy | 30-ft aura, +2 Armor, 2 HP/round to allies |
 | | | | | |
 | Bless | Novice | Protection | 1 Protection | 3 allies, +1 attacks and Reason checks |
-| Divine Favor | Adept | Protection | 2 Protection, 1 Energy | Self, +4 radiant on weapon attacks |
-| Crusader's Mantle | Master | Protection | 3 Protection, 1 Energy | Allies in 30 ft, +4 radiant on attacks |
+| Divine Favor | Adept | Protection | 2 Protection | Self, +4 radiant on weapon attacks |
+| Crusader's Mantle | Master | Protection | 2 Protection, 1 Energy | Allies in 30 ft, +4 radiant on attacks |
 | | | | | |
 | Ward | Novice | Protection | 1 Protection | Alarm glyph on doorway, 8 hours |
-| Magic Circle | Adept | Protection | 2 Protection, 1 Energy | 10-ft circle, blocks creature type, 1 hour |
-| Divine Barrier | Master | Protection | 3 Protection, 1 Energy | 30-ft wall or 20-ft dome, blocks all |
+| Magic Circle | Adept | Protection | 2 Protection | 10-ft circle, blocks creature type, 1 hour |
+| Divine Barrier | Master | Protection | 2 Protection, 1 Energy | 30-ft wall or 20-ft dome, blocks all |
 | | | | | |
 | Holy Strike | Novice | Radiant | 1 Protection | Melee strike, 4 radiant damage, marks target |
-| Smite | Adept | Radiant | 2 Protection, 1 Energy | 9 radiant damage, extra vs. undead/fiends |
-| Divine Judgment | Master | Radiant | 3 Protection, 1 Energy | 15 radiant damage, column of holy fire |
+| Smite | Adept | Radiant | 2 Protection | 9 radiant damage, extra vs. undead/fiends |
+| Divine Judgment | Master | Radiant | 2 Protection, 1 Energy | 15 radiant damage, column of holy fire |
 | | | | | |
 | Guiding Bolt | Novice | Radiant | 1 Energy | 4 radiant damage, Boon on next ally attack |
-| Radiant Beam | Adept | Radiant | 2 Energy, 1 Water | 9 radiant damage in 60-ft line |
-| Pillar of Light | Master | Radiant | 3 Energy, 1 Water | 15 radiant damage in 10-ft radius, persists |
+| Radiant Beam | Adept | Radiant | 2 Energy | 9 radiant damage in 60-ft line |
+| Pillar of Light | Master | Radiant | 2 Energy, 1 Water | 15 radiant damage in 10-ft radius, persists |
 | | | | | |
 | Turn Undead | Novice | Protection | 1 Protection | Undead flee for 1 minute |
-| Banish | Adept | Protection | 2 Protection, 1 Energy | Remove extraplanar creature from reality, 1 min |
-| Soul Prison | Master | Protection | 3 Protection, 1 Energy | Trap creature in permanent divine stasis |
+| Banish | Adept | Protection | 2 Protection | Remove extraplanar creature from reality, 1 min |
+| Soul Prison | Master | Protection | 2 Protection, 1 Energy | Trap creature in permanent divine stasis |
 | | | | | |
 | Consecrate | Novice | Protection | 1 Protection | Bless 20-ft radius area, 24 hours |
-| Hallow | Adept | Protection | 2 Protection, 1 Water | Permanently sanctify 60-ft radius area |
-| Sanctified Ground | Master | Protection | 3 Protection, 1 Water | 300-ft radius holy fortress, permanent |
+| Hallow | Adept | Protection | 2 Protection | Permanently sanctify 60-ft radius area |
+| Sanctified Ground | Master | Protection | 2 Protection, 1 Water | 300-ft radius holy fortress, permanent |
 | | | | | |
 | Detect Magic | Novice | Divination | 1 Energy | See magical auras, 30-ft radius |
-| Identify | Adept | Divination | 2 Energy, 1 Water | Learn all item properties and curses |
-| Legend Lore | Master | Divination | 3 Energy, 1 Water | Learn legendary history of named subject |
+| Identify | Adept | Divination | 2 Energy | Learn all item properties and curses |
+| Legend Lore | Master | Divination | 2 Energy, 1 Water | Learn legendary history of named subject |
 | | | | | |
 | See Invisible | Novice | Divination | 1 Energy | See invisible creatures, 60-ft range |
-| True Seeing | Adept | Divination | 2 Energy, 1 Water | See through illusions, shapechangers, 1 hour |
-| Foresight | Master | Divination | 3 Energy, 1 Water | Boon on everything, 8 hours |
+| True Seeing | Adept | Divination | 2 Energy | See through illusions, shapechangers, 1 hour |
+| Foresight | Master | Divination | 2 Energy, 1 Water | Boon on everything, 8 hours |
 | | | | | |
 | Augury | Novice | Divination | 1 Energy | Omen: Weal/Woe for planned action |
-| Divination | Adept | Divination | 2 Energy, 1 Water | Direct answer to one question |
-| Commune | Master | Divination | 3 Energy, 1 Water | Speak directly with deity, 3 questions |
+| Divination | Adept | Divination | 2 Energy | Direct answer to one question |
+| Commune | Master | Divination | 2 Energy, 1 Water | Speak directly with deity, 3 questions |
