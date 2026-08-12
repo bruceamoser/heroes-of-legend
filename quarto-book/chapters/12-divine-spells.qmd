@@ -18,14 +18,6 @@ Divine magic doesn't throw fireballs. It doesn't dissolve armor or dominate mind
 
 This chapter contains every divine spell in the game. Shepherds use them. Some Leaders use them. Anyone who's ever knelt before something greater and felt it kneel back.
 
-::: {.callout-note}
-## How Divine Spell Chains Work
-
-Like arcane spells (@sec-chapter-arcane-spells), divine spells are **thematic chains**, one growing concept expressed at Novice, Adept, and Master. The **Heal Wounds chain** is Heal Wounds (N) / Restoration (A) / Mass Heal (M), the shepherd's touch grows from one ally to the whole party as the caster's faith deepens. The **Ward chain** is Ward (N) / Magic Circle (A) / Divine Barrier (M), from a door alarm to a fortress of holy light.
-
-Every divine spell chain follows the damage and healing budgets appropriate to its tier. Where arcane chains burn and blast, divine chains heal and protect. The ladder is the same; the direction is different. Read the chains like roads. The Novice entry is where you start. The Master entry is where you're going. The people you keep alive along the way are why you walk the path at all.
-:::
-
 *See @sec-chapter-magic-system for how spellcasting works.*
 
 {{< pagebreak >}}
@@ -37,1043 +29,308 @@ Divine cantrips are minor blessings, small miracles that cost nothing and ask no
 They won't turn the tide of battle. They'll steady a shaky hand, light a dark corridor, and remind the dying that someone is still fighting for them. Sometimes that's enough.
 
 ### Guidance (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Concentration, up to 1 minute
-**Target:** One creature
+**Disciplines:** None · **Action:** Action · **Range:** Touch (Concentration, up to 1 minute) · **Keywords:** Boon
 
-**Description:** You lay a hand on an ally and whisper a prayer. For the next minute, they feel the presence of something greater, a steadying hand on their shoulder, a whisper of confidence at the back of their mind.
+**Weak:** The target gains +1 on the next skill check they make within 1 minute.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The target gains +1 on the next skill check they make within 1 minute. |
-| Standard (9-14) | +2 on the next skill check within 1 minute. |
-| Strong (15-18+) | +2 on the next skill check. If that check succeeds, the target also gains Boon on their next check within the same minute, the blessing compounds. |
+**Standard:** +2 on the next skill check within 1 minute.
 
-*The simplest prayer. The most reliable help. When your ally is about to attempt something stupid and heroic, give them Guidance. It won't make the stupid part less stupid, but it might make the heroic part work.*
+**Strong:** +2 on the next skill check. If that check succeeds, the target also gains Boon on their next check within the same minute, the blessing compounds.
 
 ### Light (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** 1 hour
-**Target:** One object
+**Disciplines:** None · **Action:** Action · **Range:** Touch (1 hour) · **Keywords:** Bane
 
-**Description:** You touch an object and it begins to glow with pure, steady radiance, not fire, not magic-light, but something closer to daylight. The light is warm on allies and harsh on creatures of darkness.
+**Weak:** Dim light in a 10-foot radius. Duration 10 minutes.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Dim light in a 10-foot radius. Duration 10 minutes. |
-| Standard (9-14) | Bright light in a 20-foot radius, dim for another 20 feet. Duration 1 hour. |
-| Strong (15-18+) | As Standard, but undead and fiends in the bright light have Bane on attacks, the radiance burns them with its mere presence. |
+**Standard:** Bright light in a 20-foot radius, dim for another 20 feet. Duration 1 hour.
 
-*Not a torch. Not a lantern. Light is a piece of dawn you can carry in your pocket. Use it to banish shadows. Use it to blind things that hate the sun. Use it to remind your party that even in the deepest dark, someone brought the day with them.*
+**Strong:** As Standard, but undead and fiends in the bright light have Bane on attacks, the radiance burns them with its mere presence.
 
 ### Resistance (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Concentration, up to 1 minute
-**Target:** One creature
+**Disciplines:** None · **Action:** Action · **Range:** Touch (Concentration, up to 1 minute) · **Keywords:** None
 
-**Description:** A shimmering shield of divine energy settles over the target, thin as a prayer, strong as faith. It turns aside the first touch of poison, the first lick of flame, the first whisper of dark magic.
+**Weak:** +1 on the target's next Fortitude check within 1 minute.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | +1 on the target's next Fortitude check within 1 minute. |
-| Standard (9-14) | +2 on the next Fortitude check. If the check is against poison, disease, or necrotic damage, the bonus is +3. |
-| Strong (15-18+) | +2 on the next Fortitude check. The target also reduces the first instance of poison, disease, or necrotic damage they take within the duration by 3. |
+**Standard:** +2 on the next Fortitude check. If the check is against poison, disease, or necrotic damage, the bonus is +3.
 
-*When you know the wyvern's sting is coming. When the crypt's air tastes of old death. When the evil wizard's finger is pointing at your Protector. Resistance won't make you immune, but it might make you survive.*
+**Strong:** +2 on the next Fortitude check. The target also reduces the first instance of poison, disease, or necrotic damage they take within the duration by 3.
 
 ### Virtue (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** 1 minute
-**Target:** One creature
+**Disciplines:** None · **Action:** Action · **Range:** Touch (1 minute) · **Keywords:** None
 
-**Description:** You speak a word of divine encouragement over an ally. For the next minute, a faint glow suffuses their skin, the physical manifestation of borrowed vitality. It won't save them from a killing blow, but it might keep them standing long enough to deliver one.
+**Weak:** The target gains 2 temporary HP for 1 minute.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The target gains 2 temporary HP for 1 minute. |
-| Standard (9-14) | 3 temporary HP for 1 minute. If these temporary HP absorb a hit, the attacker takes 1 radiant damage, the light bites back. |
-| Strong (15-18+) | 4 temporary HP for 1 minute. Attacker takes 2 radiant on contact. The target also feels a surge of confidence, immune to fear for the duration. |
+**Standard:** 3 temporary HP for 1 minute. If these temporary HP absorb a hit, the attacker takes 1 radiant damage, the light bites back.
 
-*A breath of borrowed courage. Virtue is the spell you cast on the ally who's about to do something brave and probably fatal. It won't make them invincible, but it'll make them feel invincible. Sometimes that's the same thing.*
+**Strong:** 4 temporary HP for 1 minute. Attacker takes 2 radiant on contact. The target also feels a surge of confidence, immune to fear for the duration.
 
 ### Thaumaturgy (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** 30 feet
-**Duration:** Up to 1 minute
-**Target:** See below
+**Disciplines:** None · **Action:** Action · **Range:** 30 ft (Up to 1 minute) · **Keywords:** Boon
 
-**Description:** A display of minor divine power, the kind that makes mortals kneel and skeptics reconsider. You may produce one of the following effects: your voice booms three times louder, you cause flames to flicker or brighten, the ground trembles faintly, an unseen wind stirs, or your eyes blaze with inner light. These are signs and portents. Use them accordingly.
+**Weak:** One minor effect. It's obviously supernatural but not overwhelming.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | One minor effect. It's obviously supernatural but not overwhelming. |
-| Standard (9-14) | Three simultaneous effects. Your presence is unmistakably divine. Bystanders who aren't actively hostile are awed, social checks against them have Boon. |
-| Strong (15-18+) | Your display is terrifying or awe-inspiring (your choice). Hostile creatures of Novice tier or lower must make a Reason check or flee for 1 round. The ground actually shakes. The fire actually roars. |
+**Standard:** Three simultaneous effects. Your presence is unmistakably divine. Bystanders who aren't actively hostile are awed, social checks against them have Boon.
 
-*The calling card of divine power. When you need a crowd's attention. When you need a bandit chief to reconsider their life choices. When you need everyone in the room to understand that you speak for something bigger than yourself. Thaumaturgy doesn't win arguments, but it makes sure everyone listens.*
+**Strong:** Your display is terrifying or awe-inspiring (your choice). Hostile creatures of Novice tier or lower must make a Reason check or flee for 1 round. The ground actually shakes. The fire actually roars.
 
-```{=typst}
-#horizontalrule
-```
-
-{{< pagebreak >}}
-
-{{< pagebreak >}}
-
-## Healing Chains
-
-Healing is the heart of divine magic. It's why Shepherds are welcomed in every village, why armies march with a healer in every company, why the dying gasp prayers to gods they've never worshipped before. Healing magic knits flesh, purges poison, and, at its highest reaches, calls souls back from the threshold. It's not flashy. It's not destructive. It's the reason your party is still alive.
+## Life Spells
 
 *See @sec-chapter-magic-system for how spellcasting works.*
 
-### Heal Wounds Chain
-**Disciplines:** Life
-*The fundamental healing chain. Touch them. Heal them. Send them back into the fight.*
-
-#### Heal Wounds (Novice)
-**Disciplines:** 1 Life
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Instantaneous
-**Target:** One creature
-
-**Description:** Your hands glow with warm, golden light as you channel divine energy into the target. Flesh knits. Blood stops flowing. Pain recedes. This is the first miracle every healer learns, and it never stops being one.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Restore 2 HP. The wound closes but leaves a scar. |
-| Standard (9-14) | Restore 4 HP. Bleeding stops immediately. |
-| Strong (15-18+) | Restore 6 HP. The healing is so complete that minor scars fade and the target feels a surge of vitality, gain Boon on their next physical action. |
-
-*The spell that says "not today." Heal Wounds won't bring back the dead, but it'll keep the living on their feet. In a game where every hit connects, healing isn't optional, it's survival. Learn this spell. Love this spell. Your party will love you for it.*
-
-#### Restoration (Adept)
-**Disciplines:** 2 Life
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Instantaneous
-**Target:** One creature
-
-**Description:** A deeper healing, more than flesh and blood. Restoration purges what ails the body and mind: disease, poison, blindness, paralysis. It doesn't just close wounds. It makes the target whole.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Restore 6 HP. End one minor condition (dazed, deafened, sickened). |
-| Standard (9-14) | Restore 9 HP. End one major condition (blinded, paralyzed, poisoned) or one disease. |
-| Strong (15-18+) | Restore 12 HP. End one major condition AND one minor condition, or end two major conditions. The target also gains Boon on Fortitude checks for the next hour. |
-
-*Healing-plus. Restoration is what you cast when Heal Wounds isn't enough, when the poison is in their blood and their eyes have gone glassy. It's the difference between "they'll live" and "they'll fight." In the middle of combat, that difference is everything.*
-
-#### Mass Heal (Master)
-**Disciplines:** 2 Life, 1 Protection
-**Casting Time:** 1 action
-**Range:** 60 feet
-**Duration:** Instantaneous
-**Target:** Up to 6 creatures
-
-**Description:** Divine light erupts from you in a wave, washing over every ally in range. Wounds close simultaneously. The dying gasp and sit up. The broken rise and reach for their weapons. This isn't healing, it's a second wind for the entire party, delivered by the hand of a god who isn't done with them yet.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Up to 3 creatures restore 9 HP each. |
-| Standard (9-14) | Up to 6 creatures restore 15 HP each. One condition removed from each target. |
-| Strong (15-18+) | Up to 6 creatures restore 21 HP each. All minor conditions removed. One major condition removed per target. Creatures at 0 HP who receive this healing immediately stand up and can act on their next turn. |
-
-*The spell that turns a TPK into a victory. Mass Heal is the panic button for when everything has gone wrong, when three party members are down and the other two are one hit away. One cast. Six allies. Enough healing to reset the entire fight. This is why gods made healers. This is why healers are never the first target, because the enemy knows what happens if they leave you standing.*
-
-### Purify Chain
-**Disciplines:** Life
-*Cleanse corruption. Purge affliction. Restore what was lost.*
-
-#### Purify (Novice)
-**Disciplines:** 1 Life
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Instantaneous
-**Target:** One creature, object, or 5-foot cube
-
-**Description:** Divine light scours corruption from the target. Poisoned food becomes wholesome. Tainted water runs clear. A festering wound cleans itself. The spell doesn't heal, it cleanses. What was befouled is made pure.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Purify one dose of weak poison or spoiled food. A festering wound stops worsening. |
-| Standard (9-14) | Purify a 5-foot cube of food, water, or air. Remove one disease or poison from a creature. Cleanse a cursed object of minor enchantment. |
-| Strong (15-18+) | Purify a 10-foot cube. Remove one disease and one poison simultaneously. A cursed object of Adept tier or lower is cleansed, the curse breaks. |
-
-*Not as dramatic as a heal, but sometimes more important. The well in the plague village. The feast the suspicious baron laid out. The dagger your rogue just picked up that's whispering her name. Purify is the answer. Clean water and clean food have saved more lives than any battle spell ever will.*
-
-#### Cleanse (Adept)
-**Disciplines:** 2 Life
-**Casting Time:** 1 minute
-**Range:** Touch
-**Duration:** Instantaneous
-**Target:** One creature
-
-**Description:** A deeper purification, this spell reaches into the target's very essence and burns away what shouldn't be there. Curses unravel. Possession breaks. Magical compulsions shatter like glass. The target may feel like they've been scrubbed from the inside out. They have.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Remove one curse or magical compulsion of Novice tier. The target is shaken, Bane on their next action. |
-| Standard (9-14) | Remove one curse, possession, or magical compulsion of Adept tier or lower. Remove all poisons and diseases. |
-| Strong (15-18+) | As Standard, but the cleansing is so complete that the target becomes immune to the removed effect for 24 hours, the same curse cannot re-afflict them. The target also heals 12 HP from the purifying energy. |
-
-*When the curse has taken root. When the ghost is wearing your friend's face. When the charm spell has been running for days and nobody remembers who the real person is anymore. Cleanse is the reset button. It's brutal, the target will feel every moment of the purification, but they'll be themselves again when it's done.*
-
-#### Resurrection (Master)
-**Disciplines:** 2 Life, 1 Protection
-**Casting Time:** 1 hour
-**Range:** Touch
-**Duration:** Instantaneous
-**Target:** One dead creature
-
-**Description:** You reach across the threshold between life and death and pull someone back. The soul, departed, drifting, already turning toward whatever comes next, hears your call and answers. The body knits. The heart beats. The eyes open. This is not healing. This is reversal. The universe does not approve, but the universe doesn't get a vote.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The target returns to life with 1 HP. They are disoriented, Bane on all actions for 1 hour. They remember fragments of what lay beyond. |
-| Standard (9-14) | The target returns with HP equal to half their maximum. They are weak but functional. They remember being dead, the memory will never fully fade. |
-| Strong (15-18+) | The target returns at full HP. They bring something back with them, a fragment of knowledge from beyond, a vision of what's coming, a name they shouldn't know. The DA decides what they learned. They also gain Boon on death-related checks for the next week, death has lost its mystery. |
-
-*The ultimate divine spell. Resurrection is why people pray. It's why kings keep Shepherds at their side. It's why your party will drag your body through three levels of dungeon rather than leave you behind. Casting it costs you, not in mana, but in something deeper. The gods notice when you reach past death. They always notice.*
-
-### Bolster Chain
-**Disciplines:** Life
-*Ongoing healing. Keep them standing. Keep them fighting.*
-
-#### Bolster (Novice)
-**Disciplines:** 1 Life
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Concentration, up to 1 minute
-**Target:** One creature
-
-**Description:** You infuse the target with a trickle of ongoing divine vitality. It's not a burst of healing, it's a steady stream. Small wounds close as they open. Fatigue burns away. For the next minute, the target is just a little bit harder to put down.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Target regains 1 HP at the start of each turn for 2 rounds. |
-| Standard (9-14) | Target regains 1 HP at the start of each turn for 4 rounds. |
-| Strong (15-18+) | Target regains 1 HP at the start of each turn for 4 rounds. Additionally, the first time they drop to 0 HP during the duration, they immediately regain 2 HP and stay standing. |
-
-*Healing over time. Bolster is for the Protector who's holding the line while everyone else escapes. For the Blade who's dueling the enemy champion. For anyone who needs to stay upright just a little longer. It won't outpace a dragon's breath, but it'll turn a dozen small cuts from fatal to forgettable.*
-
-#### Regeneration (Adept)
-**Disciplines:** 2 Life
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Concentration, up to 1 minute
-**Target:** One creature
-
-**Description:** The target's body awakens to its own capacity for healing, accelerated a hundredfold. Flesh crawls as it knits. Severed blood vessels reconnect. Even shattered bone begins to grind back into place. The target isn't just being healed, they're being *remade* in real time.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Target regains 2 HP per round for 3 rounds. Bleeding stops. |
-| Standard (9-14) | Target regains 3 HP per round for 3 rounds. Lost fingers or minor appendages begin to regrow, fully restored by the spell's end. |
-| Strong (15-18+) | Target regains 4 HP per round for 3 rounds. A lost limb regrows over the duration. The target cannot die from hit point loss while Regeneration is active, they stabilize at 0 HP and continue to heal. |
-
-*Regeneration works from the inside out. Flesh knits. Bone fuses. What was broken becomes whole again. Not patched. Rebuilt to the original spec. Watch their eyes flutter open. Watch their hand grow back. Watch the enemy's expression change from triumph to horror.*
-
-#### True Life (Master)
-**Disciplines:** 2 Life, 1 Protection
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** 1 hour
-**Target:** One creature
-
-**Description:** You pour so much divine vitality into the target that death itself becomes a temporary inconvenience. For the next hour, the target heals faster than they can be hurt. Their body glows faintly. Their blood shimmers. They are, for a short time, more alive than anyone in the room, and life, true life, does not go gently.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Target regains 3 HP per round for 3 rounds. They have Boon on death checks. |
-| Standard (9-14) | Target regains 5 HP per round for 3 rounds. For the duration, they are immune to poison, disease, and necrotic damage. If reduced to 0 HP, they automatically stabilize and continue regenerating, only a killing blow that deals 21 or more damage in a single hit can truly kill them. |
-| Strong (15-18+) | Target regains 7 HP per round for 3 rounds. The target also radiates an aura of vitality, all allies within 15 feet regain 3 HP per round. The target is immune to poison, disease, and necrotic damage. The target's maximum HP increases by 20 for the duration. If reduced to 0 HP, they automatically stabilize and continue regenerating, only a killing blow that deals 21 or more damage in a single hit can truly kill them. |
-
-*This is what the gods give their chosen. True Life is not a combat spell, it's a declaration. For one hour, one creature in your party is functionally unkillable. Send them into the dragon's jaws. Send them through the trapped corridor. Send them to hold the bridge against a hundred foes. They'll be standing when it's over. They'll be standing, and they'll be smiling.*
-
-### Remove Affliction Chain
-**Disciplines:** Life
-*Target specific ailments. Cure the incurable.*
-
-#### Soothe (Novice)
-**Disciplines:** 1 Life
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Instantaneous
-**Target:** One creature
-
-**Description:** Your touch calms the body's rebellion. Pain fades. Muscles unclench. The mind quiets. Soothe doesn't cure disease or close wounds, it simply tells the body that everything is going to be all right. And for a little while, the body believes it.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Remove one minor condition (dazed, sickened, frightened). Restore 2 HP. |
-| Standard (9-14) | Remove one minor condition. Restore 4 HP. The target feels genuinely comforted, they know, somehow, that someone is looking out for them. |
-| Strong (15-18+) | Remove up to two minor conditions. Restore 6 HP. The target gains temporary immunity to the removed conditions for 10 minutes, their body remembers the calm. |
-
-*The smallest healing spell. Not for wounds, for everything else. The nausea after the poison trap. The ringing ears after the thunderclap. The creeping dread after the third near-death experience this hour. Soothe is the spell you cast when an ally just needs a moment. A breath. A reminder that they're not alone.*
-
-#### Remove Affliction (Adept)
-**Disciplines:** 2 Life
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Instantaneous
-**Target:** One creature
+### Mending Touch (Divine Spell)
 
-**Description:** You name the affliction and it flees. Blindness peels away from the eyes. Deafness cracks and falls silent. Paralysis releases its grip. The target is not healed in the traditional sense, they are *freed.* Whatever held them is gone, banished by the authority of the divine.
+**Disciplines:** 1 Life · **Action:** Action · **Range:** Touch · **Keywords:** Bane
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Remove one condition: blinded, deafened, or paralyzed. The condition fades over 1 round rather than instantly. |
-| Standard (9-14) | Remove one condition instantly: blinded, deafened, paralyzed, or petrified. Target can act immediately. |
-| Strong (15-18+) | Remove any one condition (including stunned, unconscious from non-lethal sources). The target gains Boon on checks against that condition type for 24 hours, it won't take hold again easily. |
+**Weak:** Restore 2 HP.
 
-*Hit points aren't the issue. Remove Affliction answers the problem hit points can't touch: paralysis, blindness, the conditions that turn a hero into a bystander. When a party member is locked down and the enemy is closing in, this spell changes the math entirely.*
+**Standard:** Restore 4 HP.
 
-#### Miracle Cure (Master)
-**Disciplines:** 2 Life, 1 Protection
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Instantaneous
-**Target:** One creature
+**Strong:** Restore 6 HP and remove one Bane from the target.
 
-**Description:** You don't cast this spell, you pray it. And something answers. The incurable is cured. The permanent becomes temporary. The congenital defect present since birth unravels in a wash of golden light. This is the spell for things that aren't supposed to be fixable. The universe makes an exception.
+**Adept:** Restore 6/9/12 HP.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Remove one long-term condition (blindness, deafness, a lingering curse). The effect is permanent but the target is exhausted, gain 1 level of exhaustion that fades after a long rest. |
-| Standard (9-14) | Cure one condition normally considered permanent: congenital blindness, a birth defect, a curse passed through bloodlines. Also restores 15 HP and removes all temporary conditions. |
-| Strong (15-18+) | As Standard, but the miracle also cures one condition the target didn't know they had, a latent disease, a dormant curse, a genetic weakness. The target also gains a permanent +1 to Fortitude checks against the cured condition type. They've been touched by something holy, and it left a mark. |
+**Master:** Restore 9/15/21 HP; the healed target gains +2 on their next save.
 
-*The spell you cast when everything else has failed. When the curse has a name older than the kingdom. When the disease laughs at Restoration. When the child was born blind and the parents have spent their life savings on healers who shook their heads. Miracle Cure is why people believe. It's why they journey to distant temples and kneel before forgotten altars. Sometimes, just sometimes, someone kneels back.*
+### Restoration (Divine Spell)
 
-### Revivify Chain
-**Disciplines:** Life
-*Death is not a wall. It is a door, and the divine holds the key.*
+**Disciplines:** 2 Life · **Action:** Action · **Range:** Touch · **Keywords:** Condition
 
-#### Revivify (Novice)
-**Disciplines:** 1 Life
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Instantaneous
-**Target:** One creature that died within the last minute
-
-**Description:** The soul hasn't gone far yet. It's still tethered to the body by the last fraying threads of mortality. You grab those threads and pull. The target's heart lurches. Their lungs fill with air they shouldn't be breathing. Their eyes snap open. This isn't resurrection, not really. This is catching someone before they fall all the way down.
+**Weak:** Restore 6 HP.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The target returns to life with 2 HP. They are disoriented and suffer Bane on all actions for 1 minute. |
-| Standard (9-14) | The target returns to life with 4 HP. They are shaken but functional and can act on their next turn. |
-| Strong (15-18+) | The target returns to life with 6 HP. The brush with death was so brief that they retain no disorientation, they can act immediately as if nothing happened. |
-
-*The spell that says "not yet." Revivify is for the ally who just went down, the hero who took one hit too many, the moment when the healer was one second too slow. You have one minute. One minute to reach the body, touch the cooling skin, and refuse to accept what just happened. One minute is enough.*
+**Standard:** Restore 9 HP.
 
-#### Raise Dead (Adept)
-**Disciplines:** 2 Life
-**Casting Time:** 1 hour
-**Range:** Touch
-**Duration:** Instantaneous
-**Target:** One creature that died within the last 10 days
-
-**Description:** The soul has traveled farther now. It has tasted what lies beyond and found it, if not welcoming, at least familiar. Calling it back is not a request. It is a demand, backed by divine authority and the weight of unfinished business. The body must be mostly intact. The soul must be willing. The caster must be certain that what they are doing is right.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The target returns with 6 HP and one level of exhaustion that fades after a long rest. They remember fragments of the afterlife, the memory may haunt or comfort them. |
-| Standard (9-14) | The target returns with 9 HP. Any non-magical diseases or poisons that killed them are cured. They know, with absolute certainty, that someone wanted them back badly enough to reach past death. |
-| Strong (15-18+) | The target returns with 12 HP. Their fatal wounds close completely. They bring back a clear memory, a face they saw, a message they heard, a warning or a comfort from the other side. The DA decides what they learned. |
+**Strong:** Restore 12 HP and end one condition on the target.
 
-*Death has its own will, but it can be overruled. Some souls resist the call. Some doors are harder to open than others. But the door exists, and Raise Dead is the key.*
-
-#### True Resurrection (Master)
-**Disciplines:** 2 Life, 1 Protection
-**Casting Time:** 1 hour
-**Range:** Touch
-**Duration:** Instantaneous
-**Target:** One creature that died within the last century
+**Adept:** Restore 6/9/12 HP.
 
-**Description:** You don't need a body. You don't need the soul to be nearby. You speak a name, and the universe remembers. Flesh forms from dust. Blood calls to blood across the gulf between worlds. The soul, wherever it has gone, whatever judgment it has faced, whatever peace it has found, is recalled. This is not healing. This is not even resurrection in the traditional sense. This is the divine assertion that death is not final, that the story is not over, that someone, somewhere, has decided that you are not done yet.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The target returns with half their maximum HP but no memory of the afterlife. They feel a profound sense of dislocation and have Bane on social checks for 24 hours, they are not quite themselves yet. |
-| Standard (9-14) | The target returns at full HP with all memories intact. Any diseases, curses, or conditions that afflicted them in life are cured. Missing limbs are restored. They have seen the other side, and they will never be quite the same. |
-| Strong (15-18+) | As Standard, but the resurrection is so powerful that the target returns with a permanent gift: +1 to a single Attribute of their choice, the divine spark left something behind. They also retain a clear vision from the afterlife, a truth, a name, a prophecy. The DA decides the content. Their eyes are subtly different now, the door between life and death is thinner for them than for anyone else. |
+**Master:** Restore 9/15/21 HP and end all conditions on the target.
 
-*The spell that makes death a temporary condition. True Resurrection is why gods are feared as much as they are loved. You can call back anyone who died in the last hundred years, no body required, no soul too far gone. Kings who were assassinated. Heroes who fell in forgotten wars. Loved ones who died before their time. The power to reverse death is the power to rewrite history. Use it carefully. The gods are watching.*
-
-::: {.callout-note}
-## Returning the Dead Is Outside the Budget
-
-Resurrection and True Resurrection do not follow the healing budget table. Returning the dead is a narrative ritual, not a combat heal. Treat the HP a returned soul regains as a story beat, not a number on the table.
-:::
+### Tide of Life (Divine Spell)
 
-```{=typst}
-#horizontalrule
-```
-
-{{< pagebreak >}}
-
-{{< pagebreak >}}
+**Disciplines:** 2 Life · **Action:** Action · **Range:** 30 ft · **Keywords:** Healing
 
-## Protection Chains
-
-Protection magic is the shield arm of the divine. It wards the innocent, guards the faithful, and draws lines across the battlefield that evil cannot cross. Protection spells don't hurt the enemy, they make the enemy's efforts irrelevant. A fireball that never lands. A sword that never connects. A demon that reaches for your ally and finds only light.
-
-*See @sec-chapter-magic-system for how spellcasting works.*
-
-### Shield of Faith Chain
-**Disciplines:** Protection
-*Personal and targeted protection. The divine shield.*
-
-#### Shield of Faith (Novice)
-**Disciplines:** 1 Protection
-**Casting Time:** 1 action
-**Range:** 30 feet
-**Duration:** Concentration, up to 10 minutes
-**Target:** One creature
-
-**Description:** A shimmering field of divine energy envelops the target, turning aside blows with whispered prayers. Blades skid off invisible barriers. Arrows curve in flight. The target isn't wearing armor, they're wearing faith.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | +1 Armor for 1 minute. |
-| Standard (9-14) | +2 Armor for 10 minutes. The first attack that hits the target each round has its damage reduced by 1. |
-| Strong (15-18+) | +2 Armor for 10 minutes. Damage reduction applies to all attacks. Against undead and fiends, the bonus increases to +3 Armor, they recoil from the divine light. |
-
-*The bread and butter of divine protection. Shield of Faith is simple, reliable, and always welcome. Cast it on your Protector to make an iron wall into a mythic one. Cast it on your Blade to let them fight with reckless abandon. Cast it on yourself, you're the healer, and the enemy knows it.*
-
-#### Sanctuary (Adept)
-**Disciplines:** 2 Protection
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Concentration, up to 1 minute
-**Target:** One creature
-
-**Description:** The target is wrapped in an aura of profound peace. Enemies find their eyes sliding away, their attacks hesitating, their will to harm evaporating. They *can* attack the protected creature, but every fiber of their being tells them not to. Those who push through find their blows strangely weak.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Enemies must make a Reason check to target the protected creature. Attacks that succeed deal -2 damage. Duration 3 rounds. |
-| Standard (9-14) | Enemies must make a Reason check to target the creature. On failure, they must choose a different target or lose the attack. On success, damage is halved. Duration 1 minute. |
-| Strong (15-18+) | As Standard, but the Reason check has Bane. Undead and fiends automatically fail, they cannot approach within 10 feet of the target. If the protected creature attacks, the spell ends. |
-
-*"Don't hit me" in spell form. Sanctuary is for the non-combatant caught in combat, the scholar you're escorting, the wounded ally you're stabilizing, yourself when you need one round to get a Mass Heal off. It's not invisibility. It's something stranger, the divine assertion that this person is not part of the fight, and the fight should look elsewhere.*
-
-#### Holy Aegis (Master)
-**Disciplines:** 2 Protection, 1 Energy
-**Casting Time:** 1 action
-**Range:** Self (30-foot radius)
-**Duration:** Concentration, up to 1 minute
-**Target:** All allies within 30 feet
-
-**Description:** You raise your holy symbol and a dome of radiant light erupts outward, sheltering every ally in range. Inside the Aegis, the air is calm. Outside, the storm of battle rages, but it cannot cross the threshold. Enemies may enter, but they pay for every step. Allies within are shielded, healed, and blessed.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | All allies within 20 feet gain +2 Armor. Duration 3 rounds. |
-| Standard (9-14) | All allies within 30 feet gain +2 Armor and resistance to necrotic and radiant damage. At the start of each ally's turn, they regain 3 HP. Enemies entering the Aegis take 15 radiant damage. Duration 1 minute. |
-| Strong (15-18+) | As Standard, but the radius is 40 feet. Allies also have Boon on Fortitude and Reason checks. Enemies inside the Aegis at the start of their turn take 21 radiant damage. The Aegis moves with you. Undead and fiends cannot enter, they burn at the boundary. |
-
-*The ultimate protective spell. Holy Aegis turns the battlefield into sacred ground. Your party fights inside a bubble of divine favor, healing every round, resisting dark magic, and watching enemies burst into flame just for getting too close. When you raise the Aegis, you're not just protecting your allies. You're consecrating the battlefield. This ground is yours now. The enemy is trespassing.*
-
-### Bless Chain
-**Disciplines:** Protection
-*Enhance your allies. Bless their efforts. Make them more than they were.*
-
-#### Bless (Novice)
-**Disciplines:** 1 Protection
-**Casting Time:** 1 action
-**Range:** 30 feet
-**Duration:** Concentration, up to 1 minute
-**Target:** Up to 3 creatures
-
-**Description:** You speak a benediction over your allies, and something listens. For the next minute, their hands are steadier, their aim truer, their minds clearer. A divine whisper guides their strikes and guards their thoughts.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | 1 ally gains +1 on attack rolls for 1 minute. |
-| Standard (9-14) | Up to 3 allies gain +1 on all attack rolls and Reason checks for 1 minute. |
-| Strong (15-18+) | Up to 3 allies gain +1 on attack rolls, Reason checks, and Fortitude checks. Additionally, the first time each ally rolls a Weak result during the duration, they may reroll, the blessing intervenes. |
-
-*The spell that makes everyone better. Bless isn't flashy, but a +1 on every attack roll across three party members adds up fast. Over a five-round combat, that's fifteen attacks, and fifteen chances for the blessing to turn a Weak into a Standard, or a Standard into a Strong. Your party won't notice the difference. The enemy will.*
-
-#### Divine Favor (Adept)
-**Disciplines:** 2 Protection
-**Casting Time:** 1 action
-**Range:** Self
-**Duration:** Concentration, up to 1 minute
-**Target:** Self
-
-**Description:** You become the instrument of divine wrath, or divine mercy, depending on what's needed. Your weapon glows with holy light. Your strikes burn with radiant fire. For one minute, you are not just a caster. You are a warrior blessed by something greater, and everything you hit is going to feel it.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Your weapon attacks deal +6 radiant damage. Duration 3 rounds. |
-| Standard (9-14) | Your weapon attacks deal +9 radiant damage. Duration 1 minute. |
-| Strong (15-18+) | Your weapon attacks deal +12 radiant damage. Once during the duration, you may declare an attack a "divine strike", it automatically hits at the Strong tier. |
-
-*For the Shepherd who needs to wade into melee. For the Leader who wants to lead from the front. Divine Favor turns a support caster into a holy terror. Your mace isn't just a mace anymore, it's a delivery system for divine judgment. The undead don't just fear you. They burn at your approach.*
-
-#### Crusader's Mantle (Master)
-**Disciplines:** 2 Protection, 1 Energy
-**Casting Time:** 1 action
-**Range:** Self (30-foot radius)
-**Duration:** Concentration, up to 1 minute
-**Target:** All allies within 30 feet
-
-**Description:** Divine wrath settles over you like a cloak and extends to every ally nearby. Weapons burst into flame, not ordinary fire, but holy radiance that sears the wicked and leaves the innocent untouched. Your party becomes a holy shock force: every strike blessed, every arrow sanctified, every blade a burning testament.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Allies within 15 feet deal +9 radiant damage on weapon attacks. Duration 3 rounds. |
-| Standard (9-14) | Allies within 30 feet deal +15 radiant damage on weapon attacks. Allies also emit dim light in a 10-foot radius, darkness effects within the mantle are suppressed. Duration 1 minute. |
-| Strong (15-18+) | As Standard, but the bonus is +21 radiant. The first time each ally hits an enemy during the duration, that enemy is marked with divine light, attacks against marked enemies have Boon for 1 round. The battlefield is bathed in holy radiance. |
-
-*Your party is now an army of the divine. Crusader's Mantle turns every ally into a holy warrior, their weapons burn with sacred fire, their presence banishes darkness, and the enemy formation becomes a shooting gallery of illuminated targets. When the paladin order rides to war, this is the spell their high priest casts before the charge. Nothing survives the charge.*
-
-### Ward Chain
-**Disciplines:** Religion
-*Static protections. Glyphs. Circles. Barriers that hold.*
-
-#### Ward (Novice)
-**Disciplines:** 1 Religion
-**Casting Time:** 1 minute
-**Range:** Touch
-**Duration:** 8 hours
-**Target:** One doorway, container, or 10-foot square
-
-**Description:** You trace a glyph of protection onto a threshold. When a creature of a type you specify crosses it, the ward triggers, a flash of light, a clap of thunder, a silent alarm in your mind. The ward doesn't stop intruders. It announces them. And you'll be ready.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The ward triggers with a faint glow visible within 30 feet. You know it triggered if you're within 100 feet. Duration 1 hour. |
-| Standard (9-14) | You specify a creature type (undead, humanoid, beast, etc.). When such a creature crosses, you receive a mental alert if within 1 mile. The creature is briefly outlined in silver light, visible to all. Duration 8 hours. |
-| Strong (15-18+) | As Standard, but you may specify up to three creature types or one specific individual you've met. The ward also deals 6 radiant damage to the triggering creature. |
-
-*The spell that lets you sleep through the night. Ward the camp perimeter. Ward the dungeon door behind you. Ward the treasure chest before you open it. Knowledge is power, and knowing something is coming before it arrives is the difference between a prepared party and a total party kill.*
-
-#### Magic Circle (Adept)
-**Disciplines:** 2 Religion
-**Casting Time:** 1 minute
-**Range:** Touch
-**Duration:** 1 hour
-**Target:** 10-foot radius circle
-
-**Description:** You inscribe a circle of protection on the ground, chalk, salt, or pure divine light. Creatures of a type you specify cannot cross the boundary. They cannot attack creatures inside. Their magic fizzles at the edge. The circle is a statement: this space is not yours, and you are not welcome here.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The circle hedges out creatures of one type. They have Bane on attacks against creatures inside. Duration 10 minutes. |
-| Standard (9-14) | Creatures of the chosen type cannot enter the circle, cannot attack across it, and have Bane on spells cast into it. Inside creatures have +2 Armor against attacks from outside. Duration 1 hour. |
-| Strong (15-18+) | As Standard, but the circle also prevents teleportation and planar travel into or out of the area. Creatures of the chosen type inside when the circle is cast are trapped, they cannot leave. Duration 2 hours. |
-
-*The summoner's nightmare. Magic Circle is for when you know what's hunting you and need a guaranteed safe zone. Camp inside one when the werewolves are prowling. Trap a demon inside one while you negotiate. Cast one around the ritual altar before the cultists finish their spell. The circle is not a courtroom. It's a cage.*
-
-#### Divine Barrier (Master)
-**Disciplines:** 2 Religion, 1 Energy
-**Casting Time:** 1 action
-**Range:** 60 feet
-**Duration:** Concentration, up to 1 minute
-**Target:** A 20-foot radius dome or 30-foot wall
-
-**Description:** A wall of solid divinity, not force, not magic, but something purer, seals the battlefield. The barrier is opaque to evil, transparent to the faithful. Enemy spells shatter against it. Enemy creatures burn at its touch. Your allies pass through freely, their weapons trailing holy light as they emerge.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | A 15-foot wall or 10-foot dome. Blocks physical attacks and Novice-tier spells. +2 Armor to allies behind it. Undead and fiends touching it take 9 radiant damage. Duration 3 rounds. |
-| Standard (9-14) | A 30-foot wall or 20-foot dome. Blocks all attacks and spells of Adept tier or lower. Undead and fiends touching it take 15 radiant damage. Allies inside have resistance to all damage from outside sources. Duration 1 minute. |
-| Strong (15-18+) | As Standard, but the barrier also blocks Master-tier spells, nothing crosses without your permission. Allies inside regenerate 6 HP per round. Undead and fiends touching it take 21 radiant damage. Enemies of a type you specify are blinded while inside or adjacent to the barrier. The dome can encompass structures. |
-
-*The final word in protective magic. Divine Barrier doesn't just shield, it divides the world into "safe" and "not safe" with absolute clarity. Drop it over your party when the dragon breathes. Seal a building against the zombie horde. Create a hemisphere of "no" that even the most powerful enemy magic cannot penetrate. When the Divine Barrier goes up, the fight changes. Your side just became the winning side.*
-
-### Smite Chain
-**Disciplines:** Protection
-*Channel divine wrath through mortal steel. Every blow a prayer, every wound a judgment.*
-
-#### Holy Strike (Novice)
-**Disciplines:** 1 Protection
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Instantaneous
-**Target:** One creature
-
-**Description:** You lay your hand on a weapon, or on your own fist, and it ignites with white-hot radiance. The next strike carries the weight of divine condemnation. The target doesn't just feel the physical blow. They feel the attention of something vast and displeased focused entirely on them for one searing instant.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The attack deals 2 radiant damage. The target faintly glows for 1 round, visible even in darkness. |
-| Standard (9-14) | The attack deals 4 radiant damage. The target is marked with divine light, the next attack against them by any ally has Boon. |
-| Strong (15-18+) | The attack deals 6 radiant damage. The target is marked as Standard, and if they are undead or a fiend, they must make a Reason check or flee for 1 round, the light burns them with holy terror. |
-
-*A single strike. A single prayer. Holy Strike is the simplest expression of divine wrath: you hit something, and your god hits it too. Use it when you need to remind the enemy that you're not just a healer. Use it when the zombie shambles too close. Use it when the demon thinks you're an easy target because you're wearing robes instead of plate. They'll learn.*
-
-#### Smite (Adept)
-**Disciplines:** 2 Protection
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Instantaneous
-**Target:** One creature
-
-**Description:** You raise your holy symbol high and bring it down like a hammer. A bolt of searing radiance follows the motion, striking the target with the full weight of divine judgment. The blow is not physical, no blade touches skin, but the target feels it in their soul. The wicked are unmade. The righteous are merely reminded of their place.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The target takes 6 radiant damage. If they are undead or a fiend, they also have Bane on their next attack. |
-| Standard (9-14) | The target takes 9 radiant damage. Undead and fiends are Dazed for 1 round, the holy light overwhelms their senses. |
-| Strong (15-18+) | The target takes 12 radiant damage. Undead and fiends are Blinded for 1 round as the radiance sears their vision. Additionally, all allies who can see the Smite regain 3 HP, the display of divine power bolsters their spirits. |
-
-*Smite is why the undead fear Shepherds more than they fear warriors. A sword can hurt a skeleton. A Smite unmakes it. The spell channels the fundamental opposition between divine light and unholy existence. Against living foes it burns. Against the undead, it obliterates. This is the spell you cast when you want the vampire to know it picked the wrong crypt to haunt.*
-
-#### Divine Judgment (Master)
-**Disciplines:** 2 Protection, 1 Energy
-**Casting Time:** 1 action
-**Range:** 60 feet
-**Duration:** Instantaneous
-**Target:** One creature
-
-**Description:** You speak a word of condemnation in the language of heaven, and the target learns what it feels like to be weighed by a god. A column of white fire descends from above, or erupts from below, or simply appears, and the target is caught at its center. The fire doesn't burn flesh. It burns sin. The target feels every wrong they've ever committed in the span of a heartbeat. The guilty collapse. The innocent walk free, shaken but unscathed.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The target takes 9 radiant damage. If the target has committed murder, betrayal, or similar moral crimes within the last year, the damage is 15 instead, the judgment finds them guilty. |
-| Standard (9-14) | The target takes 15 radiant damage. The target is Blinded for 1 round and all illusions or shapechanging effects on them are dispelled, nothing hides from judgment. |
-| Strong (15-18+) | The target takes 21 radiant damage. Undead and fiends must make a Reason check or be Paralyzed for 1 round, frozen by the weight of divine scrutiny. All allies within 30 feet who witness the judgment gain Boon on their next attack, the display of divine righteousness is inspiring. |
-
-*The spell that asks "what have you done?" and demands an answer. Divine Judgment doesn't just deal damage, it makes a statement. The villain who has slaughtered villages, the traitor who sold their kingdom, the necromancer who has defiled a thousand graves, when the column of light hits them, they know. Everyone watching knows. This is not combat. This is a verdict. And the verdict is guilty.*
-
-### Guiding Bolt Chain
-**Disciplines:** Energy
-*Radiant light that sears the wicked and illuminates the path to victory.*
-
-#### Guiding Bolt (Novice)
-**Disciplines:** 1 Energy
-**Casting Time:** 1 action
-**Range:** 60 feet
-**Duration:** Instantaneous
-**Target:** One creature
-
-**Description:** A brilliant bolt of divine light streaks from your outstretched hand toward the target, leaving a trail of shimmering afterglow. The bolt doesn't just burn. It illuminates. The target glows with residual radiance, making them a beacon for every ally who needs to know where to aim.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The target takes 2 radiant damage and glows faintly until the end of your next turn, visible even in darkness. |
-| Standard (9-14) | The target takes 4 radiant damage. The next attack against the target by any ally has Boon, the afterglow guides their aim. |
-| Strong (15-18+) | The target takes 6 radiant damage. The target is outlined in silver light for 1 round, granting Boon on all attacks against them, and they cannot benefit from invisibility or concealment during that time. |
-
-*A bolt of light and a promise. Guiding Bolt hits hard enough to matter, but its real value is the gift it gives your allies: a glowing target that even the clumsiest Protector can't miss. Fire it early in the fight. Watch your party's accuracy improve. The bolt is the message. The glow is the gift.*
-
-#### Radiant Beam (Adept)
-**Disciplines:** 2 Energy
-**Casting Time:** 1 action
-**Range:** 60-foot line
-**Duration:** Instantaneous
-**Target:** All creatures in a 5-foot-wide line
-
-**Description:** You extend both hands and a searing beam of divine radiance pours forth, cutting through the battlefield like a blade of pure sunlight. Everything in its path burns. Shadows are banished. Invisible things become briefly, terribly visible as the light passes through them.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Each creature in the line takes 6 radiant damage. Invisible creatures in the line become visible for 1 round as the light clings to them. |
-| Standard (9-14) | Each creature in the line takes 9 radiant damage. The beam dispels magical darkness in its path. Undead and fiends in the line are also outlined in silver light for 1 round, granting Boon on attacks against them. |
-| Strong (15-18+) | Each creature in the line takes 12 radiant damage. The beam continues through cover and barriers of Adept tier or lower, nothing physical stops divine light. Creatures reduced to 0 HP by this beam are disintegrated, reduced to fine ash. |
-
-*A laser of divine fury. Radiant Beam is for when the enemy formation is lined up like they're asking for it, when the hallway is full of zombies and you want it to be full of ash instead, when the invisible assassin is somewhere in that general direction and you'd rather they weren't. Line up your shot. Let the light do the rest.*
-
-#### Pillar of Light (Master)
-**Disciplines:** 2 Energy, 1 Water
-**Casting Time:** 1 action
-**Range:** 120 feet
-**Duration:** Concentration, up to 1 minute
-**Target:** 10-foot radius, 40-foot-high cylinder
-
-**Description:** You point at a spot on the battlefield, and heaven answers. A massive column of divine radiance descends from the sky, or erupts from the ground, or simply *is*, a cylinder of pure holy light forty feet high. Everything inside burns. Everything outside watches in awe. The pillar remains where you placed it, a stationary monument to divine displeasure that your enemies must navigate around or die trying to pass through.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Creatures in the area take 9 radiant damage. The pillar lasts 3 rounds. The area is brightly lit and creatures inside cannot benefit from invisibility. |
-| Standard (9-14) | Creatures in the area take 15 radiant damage. The pillar lasts 1 minute. Creatures that end their turn inside the pillar take the damage again. The pillar blocks line of sight, enemies on the other side of it cannot target your party without moving. |
-| Strong (15-18+) | As Standard, but the initial damage is 21. Allies within 30 feet of the pillar regain 4 HP at the start of each turn, the proximity to divine light is restorative. Undead and fiends that start their turn within 30 feet of the pillar take 9 radiant damage, they cannot abide its presence. |
-
-*Call down the sun. Pillar of Light turns a patch of battlefield into a holy kill zone. Enemies inside burn every round. Allies nearby are healed by its presence. Undead don't just burn, they flee, because standing near a Pillar of Light feels, to them, like standing on the surface of a star. Place it on the enemy formation. Place it between your party and the charging horde. Place it on the altar where the cultists are completing their ritual. The pillar doesn't judge. It just burns.*
-
-### Turn Unholy Chain
-**Disciplines:** Religion
-*The authority of the divine compels the unholy to flee, to bow, or to burn.*
-
-#### Turn Unholy (Novice)
-**Disciplines:** 1 Religion
-**Casting Time:** 1 action
-**Range:** 30 feet
-**Duration:** Instantaneous (fleeing: 1 minute)
-**Target:** All undead within range
-
-**Description:** You present your holy symbol and speak a word of command in the language of the divine, and every undead creature within range feels it. Not as sound. As authority. The dead recognize the voice that spoke the world into being, and they recoil. Those who can flee, do. Those who cannot, cower. The power isn't yours. You're just the mouthpiece.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Undead within 15 feet must make a Reason check or be Turned for 1 minute. Turned creatures must use their movement to flee from you and cannot approach within 15 feet. |
-| Standard (9-14) | Undead within 30 feet must make a Reason check with Bane or be Turned. Turned creatures flee for 1 minute. If they cannot flee, they cower and have Bane on all actions. |
-| Strong (15-18+) | As Standard, but undead of Novice tier automatically fail the check, the power is too much for lesser dead. Additionally, Turned undead take 6 radiant damage when the effect begins, the divine command physically hurts them. |
-
-*The defining spell of the Shepherd. Turn Unholy is why the crypt full of skeletons isn't a fight, it's a routing of the enemy before steel is drawn. Present your symbol. Speak the words. Watch the dead run. They know what you represent. They've been running from it since the first grave was dug and the first prayer was spoken over it. You are not their enemy. You are their antithesis.*
-
-#### Banish (Adept)
-**Disciplines:** 2 Religion
-**Casting Time:** 1 action
-**Range:** 30 feet
-**Duration:** Concentration, up to 1 minute
-**Target:** One extraplanar creature (undead, fiend, celestial, elemental, fey)
-
-**Description:** You point at a creature that does not belong in this world, a demon, a ghost, an angel that has overstayed its welcome, a fey tormenting mortals for sport, and you remind the universe that this thing is a guest, not a resident. The universe agrees. The creature flickers, fades, and is temporarily removed from existence, shunted back to its home plane or into a demiplane of harmless stasis. It is not dead. It is evicted.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The target is Banished for 3 rounds. It returns to the space it left, or the nearest unoccupied space. It is disoriented upon return, Bane on its next action. |
-| Standard (9-14) | The target is Banished for 1 minute. While Banished, it is incapacitated in a harmless demiplane. When it returns, it takes 9 radiant damage, the boundary between worlds does not welcome it back kindly. |
-| Strong (15-18+) | As Standard, but the target takes 12 radiant damage upon banishment, crossing the boundary burns it badly. If the target is a fiend or undead native to another plane and the Banishment lasts the full minute, it does not return, it is trapped on its home plane. |
-
-*Banishment buys time. The fight isn't over. It's deferred. But in a world where a single round can change everything, a minute of absence is a minute of victory.*
-
-#### Soul Prison (Master)
-**Disciplines:** 2 Religion, 1 Energy
-**Casting Time:** 1 action
-**Range:** 60 feet
-**Duration:** Permanent until dispelled
-**Target:** One creature at 0 HP or one extraplanar creature
-
-**Description:** You speak the target's true name, or as close to it as you can get, and the divine imprisons them. A creature at death's door is sealed within its own body, unable to die, unable to act, suspended in a perfect stasis that lasts until you or another divine caster releases them. An extraplanar creature is similarly bound, ripped from this reality and sealed in a prison of divine light. This is not a spell you cast lightly. It is a spell you cast when nothing else will serve, when the enemy is too dangerous to kill and too dangerous to let go.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The target is imprisoned for 24 hours. During this time, they are in stasis: they do not age, breathe, or require sustenance. They are aware of their imprisonment but cannot act. The prison is a faintly glowing outline of divine light visible to all. |
-| Standard (9-14) | The target is imprisoned until a condition you specify is met: "until the rightful king returns," "until this temple is restored," "until someone speaks your true name with forgiveness in their heart." The prison is invisible to normal sight but glows brilliantly under Detect Magic. |
-| Strong (15-18+) | As Standard, but you may also bind the creature to a specific location, "this crypt," "the throne room of the palace," "the circle of standing stones on the eastern moor." If the creature is moved from that location, the prison reasserts and drags it back within 24 hours. The prison is permanent and can only be broken by a Master-tier divine caster speaking the release clause. |
-
-*The spell you cast when you want something to stop being a problem forever. Soul Prison is the answer to the demon that can't be killed, the lich whose phylactery you can't find, the traitor whose death would make them a martyr. You don't destroy them. You put them somewhere the world can forget about them. Centuries pass. The prison holds. The world moves on. And somewhere, in a crypt that nobody visits, something waits for a forgiveness that will never come.*
-
-### Consecrate Chain
-**Disciplines:** Protection
-*Claim the ground. Bless the earth. Make the battlefield holy.*
-
-#### Consecrate (Novice)
-**Disciplines:** 1 Protection
-**Casting Time:** 10 minutes
-**Range:** Touch
-**Duration:** 24 hours
-**Target:** 20-foot radius area
-
-**Description:** You walk the boundary of a campsite, a shrine, a grave, and as you walk, you mark it as sacred. The ground within becomes hallowed in a quiet, subtle way. Undead find it uncomfortable. The faithful find it comforting. Blessings cast within the area last a little longer, and curses struggle to take root. This is the first spell every temple acolyte learns: how to make a place feel like it belongs to the divine.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The area is Consecrated for 1 hour. Undead within the area have Bane on attack rolls. |
-| Standard (9-14) | The area is Consecrated for 24 hours. Undead have Bane on all actions within the area. Healing spells cast within the area restore +2 HP. |
-| Strong (15-18+) | As Standard, but for 24 hours. Additionally, any creature that dies within the Consecrated area cannot be raised as undead, the ground rejects the corruption. Allies who complete a long rest within the area regain 1 additional HP per character level. |
-
-*Not a wall. Not a ward. Something subtler. Consecrate makes ground feel safe in a way that goes deeper than tactics. The undead feel it in their bones and hesitate. Your party feels it in their hearts and rests easier. Cast it around your camp before you sleep. Cast it over the mass grave before you enter the dungeon. Cast it on the altar the cultists were using, and watch them scramble to find somewhere else to pray.*
-
-#### Hallow (Adept)
-**Disciplines:** 2 Protection
-**Casting Time:** 1 hour
-**Range:** Touch
-**Duration:** Permanent until dispelled
-**Target:** 60-foot radius area
-
-**Description:** You don't just bless the ground. You change it. Hallow makes a place permanently sacred, a patch of the mortal world that the divine has claimed and will not relinquish. The spell takes an hour of prayer, ritual, and the investment of something personal, a memory, a vow, a sacrifice of something you value. When it's done, the ground remembers. Temples are built on Hallowed ground. So are tombs. So are the places where someone once performed a miracle and the world never forgot.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The area is Hallowed for 1 week. Undead cannot enter the area. Creatures inside gain +2 Armor against attacks from undead and fiends originating outside the area. |
-| Standard (9-14) | The area is permanently Hallowed. Undead and fiends cannot enter. Creatures inside are immune to fear and possession. Healing received within the area is increased by +3 HP per instance. |
-| Strong (15-18+) | As Standard, permanently Hallowed. Additionally, you designate one extra effect that applies within the area: all creatures have Boon on Fortitude checks, or all enemies have Bane on attack rolls, or the area is permanently bathed in dim light that harms undead as if it were sunlight. The Hallow can only be dispelled by a Master-tier caster performing an opposing ritual lasting 24 hours, the divine does not give up ground easily. |
-
-*This is why temples feel different. Hallow is the spell that builds sanctuaries. Once cast, the ground belongs to the divine. The undead cannot cross the boundary. Fear slides off the faithful like water. Healing works better here, as if the ground itself wants you to survive. Cast it on the orphanage the vampire has been stalking. Cast it on the village green where the ghosts gather at midnight. Cast it on your own headquarters, and sleep soundly for the first time in years.*
-
-#### Sanctified Ground (Master)
-**Disciplines:** 2 Protection, 1 Water
-**Casting Time:** 1 hour
-**Range:** Touch
-**Duration:** Permanent until dispelled
-**Target:** 300-foot radius area
-
-**Description:** You claim a fortress, a cathedral, a valley, a battlefield. You make it not just holy, but militant. Sanctified Ground becomes actively hostile to the enemies of your faith. The ground itself fights for your allies. The air burns the lungs of fiends. The light heals the wounds of the righteous. This is not a blessing. This is a declaration of war against the unholy, written in divine fire across the landscape. Any enemy who steps onto Sanctified Ground has declared themselves an enemy of whatever power you serve. The power takes that personally.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The area (120-foot radius) is Sanctified for 1 week. Enemies within have Bane on all actions. Allies have +1 Armor. Undead and fiends entering the area take 9 radiant damage. |
-| Standard (9-14) | The area (300-foot radius) is permanently Sanctified. Enemies have Bane on all actions. Allies have +2 Armor and regain 3 HP at the start of each turn. Undead and fiends entering take 15 radiant damage and must make a Reason check each round or flee. Teleportation into the area by enemies automatically fails. |
-| Strong (15-18+) | As Standard, permanently Sanctified across the full radius. Additionally, once per day, you may designate one creature within the Sanctified area as "condemned." For the next hour, that creature takes 21 radiant damage at the start of each of its turns while it remains within the area. The ground itself hates them. The divine has passed judgment. There is no appeal. |
-
-*The ultimate territorial spell. Sanctified Ground turns a fortress into a holy death trap for anything that opposes your faith. Enemies fight at a disadvantage. Allies heal just by standing there. Undead burn just by crossing the threshold. And if there's one creature your god especially dislikes, you can mark them for destruction, and the ground will eat them alive. This is what the high priest casts when the army of darkness is three days away and the walls won't hold. The walls don't need to hold. The ground will do the fighting.*
-
-```{=typst}
-#horizontalrule
-```
-
-{{< pagebreak >}}
-
-{{< pagebreak >}}
-
-![Illo 35: Divine Spells Midpoint](../assets/svg/placeholder-section.svg){width="60%"}
-
-*Illustration 35: Divine spells chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
-
-{{< pagebreak >}}
-
-## Divination Chains
-
-Divination is the magic of knowing. It sees what's hidden, identifies what's unknown, and sometimes, at its highest reaches, peers into what hasn't happened yet. Diviners are the party's eyes and ears. They find the trap before it triggers. They read the villain's plans in ancient texts. They ask questions of beings who were old when the world was young, and they get answers.
-
-*See @sec-chapter-magic-system for how spellcasting works.*
-
-### Detect Magic Chain
-**Disciplines:** Energy
-*Sense magical energies. Identify enchantments. Uncover hidden lore.*
-
-#### Detect Magic (Novice)
-**Disciplines:** 1 Energy
-**Casting Time:** 1 action
-**Range:** Self (30-foot radius)
-**Duration:** Concentration, up to 10 minutes
-**Target:** Self (sensory aura)
-
-**Description:** Your eyes film over with silver light. For the duration, magical auras become visible, glowing halos around enchanted objects, colored mist trailing from active spells, dark stains where curses linger. You see magic the way others see color: obvious, informative, and everywhere once you know how to look.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | You sense the presence of magic within 30 feet. No details, just "something is magical nearby." Duration 1 minute. |
-| Standard (9-14) | You see magical auras within 30 feet. You can identify the school or general type of magic (fire, illusion, necromancy, divine, etc.). Duration 10 minutes. |
-| Strong (15-18+) | As Standard, but you also sense the relative strength of each aura (Novice/Adept/Master tier) and whether it's beneficial, harmful, or neutral. You can concentrate on one aura to learn its specific spell name if you've encountered it before. |
-
-*The spell that saves parties from cursed swords and trapped altars. Detect Magic is never a wasted cast. That suspicious throne? Glowing with necromancy, don't sit. That plain dagger in the trash heap? Radiating Adept-tier enchantment, grab it. Knowledge is survival. This spell gives you knowledge.*
-
-#### Identify (Adept)
-**Disciplines:** 2 Energy
-**Casting Time:** 1 minute (or 1 hour for complex items)
-**Range:** Touch
-**Duration:** Instantaneous
-**Target:** One object or creature
-
-**Description:** You hold an object, close your eyes, and *listen.* The magic within speaks to you, its name, its purpose, its command word, its history. Curses reveal themselves reluctantly. Artifacts share their secrets eagerly. By the time you open your eyes, you know the item better than its creator did.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Learn the item's basic properties and whether it's cursed. No command words or detailed history. |
-| Standard (9-14) | Learn all properties, command words, number of charges (if any), and the item's name and creator. Identify curses and how to break them. For artifacts with complex histories, you receive flashes of key events. |
-| Strong (15-18+) | As Standard, but you also learn one secret about the item that even its creator may not have known, a hidden property, a dormant power, a destiny tied to the item. The DA decides what this secret is. |
-
-*The spell that answers "what does this do?" Identify turns mysterious loot into known assets. That glowing sword? Now you know it's a Flame Tongue, command word "ignis," 3 charges, bursts into fire on command. That ring the villain was wearing? Cursed, don't put it on until you've cast Cleanse. Knowledge isn't just power. It's insurance.*
-
-#### Legend Lore (Master)
-**Disciplines:** 2 Energy, 1 Water
-**Casting Time:** 10 minutes
-**Range:** Self
-**Duration:** Instantaneous
-**Target:** One creature, object, or location you can name
-
-**Description:** You don't just identify, you *remember.* The universe holds memories of everything that ever mattered, and this spell gives you access. You speak a name, a person, a place, an artifact, and the universe tells you its story. Not everything. But enough. The important parts. The parts that were legendary.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | You receive 2 significant facts about the subject, public knowledge or commonly known legends. |
-| Standard (9-14) | You receive a full account of the subject's legendary history: its creation, its major deeds, its famous wielders or inhabitants, its known powers and weaknesses. If the subject has ever been the focus of a prophecy, you learn the gist of it. |
-| Strong (15-18+) | As Standard, but you also learn one piece of information that has been deliberately hidden, forgotten, or erased from history, the true name of the demon bound in the sword, the location of the lich's phylactery, the identity of the traitor who brought down the ancient kingdom. |
-
-*The spell that solves mysteries. Legend Lore is why ancient libraries still matter, you can cast it on any named thing, anywhere, and learn what the world knows about it. The villain's true name. The artifact's hidden weakness. The dungeon's original purpose. When the party is stuck, when the clues have run dry, when the only way forward is through a door that requires a password lost to time, cast Legend Lore. The universe remembers. Now you do too.*
-
-### True Seeing Chain
-**Disciplines:** Energy
-*See through deception. Pierce illusion. Witness truth.*
-
-#### See Invisible (Novice)
-**Disciplines:** 1 Energy
-**Casting Time:** 1 action
-**Range:** Self
-**Duration:** Concentration, up to 10 minutes
-**Target:** Self
-
-**Description:** Your eyes flicker with silver fire. Invisible creatures become visible, not solid, but outlined in faint luminescence, like heat shimmer on a cold day. Hidden doors glow. Ethereal watchers are revealed. Nothing can hide from you by simply not being there.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | You sense the presence of invisible creatures within 30 feet but cannot pinpoint their location. Duration 1 minute. |
-| Standard (9-14) | Invisible creatures and objects within 60 feet are visible to you as translucent outlines. Hidden doors and secret compartments glow faintly. Duration 10 minutes. |
-| Strong (15-18+) | As Standard, but you also see into the Ethereal Plane, creatures phasing through walls, ghosts lurking between worlds. You can target ethereal creatures with spells as if they were material. |
-
-*The counter to invisibility. When the assassin strikes from nowhere. When the treasure vault has a guardian nobody can see. When the ghost won't show itself. See Invisible removes the advantage of being unseen. The invisible rogue smirking in the corner? You're looking right at them. Wave.*
-
-#### True Seeing (Adept)
-**Disciplines:** 2 Energy
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Concentration, up to 1 hour
-**Target:** One creature
-
-**Description:** The target's eyes open, truly open, for the first time. Illusions become transparent. Shapechangers writhe between forms, their true shape burning through the false one like fire through paper. Hidden truths reveal themselves in glowing script only the target can read. For one hour, the target sees the world as it actually is, and it is never quite the same afterward.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Target sees through illusions of Novice tier. Shapechangers flicker, their true form is visible in peripheral vision. Duration 10 minutes. |
-| Standard (9-14) | All illusions and visual deceptions of Adept tier or lower are transparent. Shapechangers are seen in their true form. Secret doors and hidden compartments glow. Magical darkness is merely dim. Duration 1 hour. |
-| Strong (15-18+) | As Standard, but Master-tier illusions are also transparent. The target sees the true alignment of creatures as a faint aura. The target automatically knows when someone is lying, not what the truth is, but that the words are false. |
-
-*The truth, the whole truth, and nothing but. True Seeing is the spell that strips away every layer of deception. The disguised assassin. The illusory wall. The polymorphed dragon pretending to be a merchant. One touch, one hour, and your party's scout becomes a lie detector with perfect vision. The villain's schemes look a lot less clever when you can see every thread.*
-
-#### Foresight (Master)
-**Disciplines:** 2 Energy, 1 Water
-**Casting Time:** 1 minute
-**Range:** Touch
-**Duration:** 8 hours
-**Target:** One creature
-
-**Description:** You touch an ally and give them the one thing no amount of training can provide: a glimpse of what's coming. For the next eight hours, the target experiences flashes of precognition, they know where the axe will fall before the swing begins, they feel the trap trigger before their foot lands, they hear the lie before it's spoken. The future whispers to them, and they listen.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The target has Boon on initiative rolls and cannot be surprised for 1 hour. They sense danger a heartbeat before it arrives. |
-| Standard (9-14) | For 8 hours: Boon on all attack rolls, checks, and initiative. Enemies have Bane on attacks against the target. The target cannot be surprised. Once during the duration, the target may declare that they foresaw a specific event and automatically succeed on one check related to it. |
-| Strong (15-18+) | As Standard, but the target also gains a single moment of perfect clarity, once during the duration, they may ask the DA one question about an immediate future event (within the next minute) and receive a truthful answer of up to 25 words. The target also knows the exact moment the spell will end, down to the second. They feel time running out. |
-
-*The ultimate divination. Foresight doesn't show the future, it makes the future a known quantity. For eight hours, one member of your party is operating on information the enemy doesn't have: what's about to happen. They dodge attacks before they're thrown. They find traps before they're set. They make decisions with the confidence of someone who's already seen how this plays out. This is the spell that turns a hero into a legend, and a legend into a prophecy.*
-
-### Commune Chain
-**Disciplines:** Energy
-*Ask questions. Get answers. Speak to powers beyond mortal ken.*
-
-#### Augury (Novice)
-**Disciplines:** 1 Energy
-**Casting Time:** 1 minute
-**Range:** Self
-**Duration:** Instantaneous
-**Target:** Self
-
-**Description:** You cast the bones, read the entrails, or simply close your eyes and listen. You pose a question about a course of action you plan to take within the next 30 minutes, and the divine sends back a sign: Weal (good fortune), Woe (ill fortune), Weal and Woe (mixed), or Nothing (the outcome is too uncertain or the question too vague).
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | You receive a one-word omen: Weal, Woe, or Nothing. It may be cryptic. |
-| Standard (9-14) | You receive a clear omen with a brief accompanying vision or sensation, a flash of fire for danger, a sense of peace for safety. You understand the general nature of the outcome. |
-| Strong (15-18+) | The omen is detailed. You also learn which aspect of the plan carries the greatest risk or reward, "the left passage leads to treasure, but the guardian is awake." |
-
-*The spell for when you're standing at a crossroads, literally or figuratively. Augury won't solve your problems, but it'll tell you which path leads to glory and which leads to a very compressed expiration. Cast it before opening doors. Cast it before accepting quests. Cast it before trusting the smiling stranger. The gods see farther than you do. Let them.*
-
-#### Divination (Adept)
-**Disciplines:** 2 Energy
-**Casting Time:** 1 action (ritual: 10 minutes)
-**Range:** Self
-**Duration:** Instantaneous
-**Target:** Self
-
-**Description:** You ask a single question and receive a direct answer, not a cryptic omen, not a vision, but words. A short phrase. A name. A location. The answer comes from a divine source: your deity, their servants, or the accumulated wisdom of the faithful who came before. The source knows more than you do, but it is not omniscient. It can be wrong, but it almost never is.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | You receive a short, possibly cryptic answer of 1-3 words. It's accurate but may lack context. |
-| Standard (9-14) | You receive a direct answer of up to 10 words. It addresses your question specifically and truthfully, to the best of the divine source's knowledge. |
-| Strong (15-18+) | You receive an answer of up to 25 words, plus relevant context the source thinks you should know, "The lich's phylactery is in the crypt beneath the old temple. It's guarded by a death knight who was once the lich's son. He can be redeemed." |
-
-*Direct answers to direct questions. Divination is the investigator's best friend and the DA's worst nightmare. "Who murdered the king?" "Where is the artifact hidden?" "What is the villain's true name?" You get one question. Make it count. The answer will be true, which doesn't mean you'll like it.*
-
-#### Commune (Master)
-**Disciplines:** 2 Energy, 1 Water
-**Casting Time:** 1 minute
-**Range:** Self
-**Duration:** 1 minute (3 questions)
-**Target:** Self
-
-**Description:** You open a direct channel to your deity, or to one of their senior servants. Your eyes roll back. Your voice doubles, triples, becomes a chorus. For one minute, you are the mouthpiece of a god. You may ask three questions before the connection fades. The entity on the other end answers truthfully, it is a god, or close enough, but it speaks in its own voice, with its own agenda, and it may choose to tell you more than you asked.
-
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | You reach a lesser servant, an angel, a spirit guide, a saint. Two questions. Answers are brief and literal. The servant cannot lie, but may omit. |
-| Standard (9-14) | Direct communion with your deity or their archangel equivalent. Three questions. Answers are truthful and complete to the entity's knowledge. The entity may offer unsolicited advice or warnings, it has its own concerns. |
-| Strong (15-18+) | As Standard, but the connection is unusually clear. You may ask five questions. The entity is favorably disposed and answers with enthusiasm, offering insights beyond your questions. After the communion ends, you retain a lingering connection, once in the next 24 hours, you may ask one additional question as if casting Divination. |
-
-*You speak with a god. Not pray to one, speak with one. Commune is the pinnacle of divine magic: direct access to a being of incomprehensible power and knowledge. The answers you receive will be true. They may also be terrifying. They may reveal things you weren't ready to know. The gods don't see the world the way mortals do. When you ask "how do we defeat the dark lord," and the god answers "you don't, but your daughter will," you'll understand why most Shepherds use this spell sparingly. Some truths are too heavy to carry.*
-
-```{=typst}
-#horizontalrule
-```
-
-{{< pagebreak >}}
-
-{{< pagebreak >}}
-
-## Divine Spell Quick Reference
-
-| Spell | Tier | Category | Disciplines | Summary |
-|-------|------|----------|-------------|---------|
-| Guidance | Cantrip | Blessing | No prereq | +2 on next skill check |
-| Light | Cantrip | Blessing | No prereq | Bright light 20-ft radius, 1 hour |
-| Resistance | Cantrip | Blessing | No prereq | +2 on next Fortitude check |
-| Virtue | Cantrip | Blessing | No prereq | 3 temp HP, 1 minute |
-| Thaumaturgy | Cantrip | Blessing | No prereq | Minor divine displays and omens |
-| | | | | |
-| Heal Wounds | Novice | Healing | 1 Life | Touch, restore 4 HP |
-| Restoration | Adept | Healing | 2 Life | Restore 9 HP, cure one condition |
-| Mass Heal | Master | Healing | 2 Life, 1 Protection | Up to 6 targets, 15 HP each |
-| | | | | |
-| Purify | Novice | Healing | 1 Life | Cleanse poison, disease, or 5-ft cube |
-| Cleanse | Adept | Healing | 2 Life | Remove curses, possession, compulsion |
-| Resurrection | Master | Healing | 2 Life, 1 Protection | Return dead creature to life |
-| | | | | |
-| Bolster | Novice | Healing | 1 Life | Ongoing 1 HP/round, brief duration |
-| Regeneration | Adept | Healing | 2 Life | 3 HP/round, regrow limbs, brief duration |
-| True Life | Master | Healing | 2 Life, 1 Protection | 5 HP/round, near-immortal, brief duration |
-| | | | | |
-| Soothe | Novice | Healing | 1 Life | Remove minor condition, restore 4 HP |
-| Remove Affliction | Adept | Healing | 2 Life | Cure blindness, deafness, paralysis |
-| Miracle Cure | Master | Healing | 2 Life, 1 Protection | Cure any condition, including permanent |
-| | | | | |
-| Revivify | Novice | Healing | 1 Life | Return creature dead <1 min to life, 4 HP |
-| Raise Dead | Adept | Healing | 2 Life | Return creature dead <10 days to life, 9 HP |
-| True Resurrection | Master | Healing | 2 Life, 1 Protection | Full resurrection within 100 years, no body needed |
-| | | | | |
-| Shield of Faith | Novice | Protection | 1 Protection | +2 Armor, 10 minutes |
-| Sanctuary | Adept | Protection | 2 Protection | Enemies must check to attack target |
-| Holy Aegis | Master | Protection | 2 Protection, 1 Energy | 30-ft aura, +2 Armor, 3 HP/round to allies |
-| | | | | |
-| Bless | Novice | Protection | 1 Protection | 3 allies, +1 attacks and Reason checks |
-| Divine Favor | Adept | Protection | 2 Protection | Self, +9 radiant on weapon attacks |
-| Crusader's Mantle | Master | Protection | 2 Protection, 1 Energy | Allies in 30 ft, +15 radiant on attacks |
-| | | | | |
-| Ward | Novice | Protection | 1 Religion | Alarm glyph on doorway, 8 hours |
-| Magic Circle | Adept | Protection | 2 Religion | 10-ft circle, blocks creature type, 1 hour |
-| Divine Barrier | Master | Protection | 2 Religion, 1 Energy | 30-ft wall or 20-ft dome, blocks all |
-| | | | | |
-| Holy Strike | Novice | Radiant | 1 Protection | Melee strike, 4 radiant damage, marks target |
-| Smite | Adept | Radiant | 2 Protection | 9 radiant damage, extra vs. undead/fiends |
-| Divine Judgment | Master | Radiant | 2 Protection, 1 Energy | 15 radiant damage, column of holy fire |
-| | | | | |
-| Guiding Bolt | Novice | Radiant | 1 Energy | 4 radiant damage, Boon on next ally attack |
-| Radiant Beam | Adept | Radiant | 2 Energy | 9 radiant damage in 60-ft line |
-| Pillar of Light | Master | Radiant | 2 Energy, 1 Water | 15 radiant damage in 10-ft radius, persists |
-| | | | | |
-| Turn Unholy | Novice | Protection | 1 Religion | Undead flee for 1 minute |
-| Banish | Adept | Protection | 2 Religion | Remove extraplanar creature from reality, 1 min |
-| Soul Prison | Master | Protection | 2 Religion, 1 Energy | Trap creature in permanent divine stasis |
-| | | | | |
-| Consecrate | Novice | Protection | 1 Protection | Bless 20-ft radius area, 24 hours |
-| Hallow | Adept | Protection | 2 Protection | Permanently sanctify 60-ft radius area |
-| Sanctified Ground | Master | Protection | 2 Protection, 1 Water | 300-ft radius holy fortress, permanent |
-| | | | | |
-| Detect Magic | Novice | Divination | 1 Energy | See magical auras, 30-ft radius |
-| Identify | Adept | Divination | 2 Energy | Learn all item properties and curses |
-| Legend Lore | Master | Divination | 2 Energy, 1 Water | Learn legendary history of named subject |
-| | | | | |
-| See Invisible | Novice | Divination | 1 Energy | See invisible creatures, 60-ft range |
-| True Seeing | Adept | Divination | 2 Energy | See through illusions, shapechangers, 1 hour |
-| Foresight | Master | Divination | 2 Energy, 1 Water | Boon on everything, 8 hours |
-| | | | | |
-| Augury | Novice | Divination | 1 Energy | Omen: Weal/Woe for planned action |
-| Divination | Adept | Divination | 2 Energy | Direct answer to one question |
-| Commune | Master | Divination | 2 Energy, 1 Water | Speak directly with deity, 3 questions |
+**Weak:** Restore 2 HP to each ally in range.
+
+**Standard:** Restore 4 HP to each ally in range.
+
+**Strong:** Restore 6 HP to each ally in range.
+
+**Adept:** Restore 6/9/12 HP to each ally in range.
+
+**Master:** Restore 9/15/21 HP to each ally in range.
+
+### Flesh Renewal (Divine Spell)
+
+**Disciplines:** 2 Life · **Action:** Action · **Range:** Touch, 3 rounds · **Keywords:** Recurring
+
+**Weak:** Recurring 2 healing per round for 3 rounds (6 total).
+
+**Standard:** Recurring 3 healing per round for 3 rounds (9 total).
+
+**Strong:** Recurring 4 healing per round for 3 rounds (12 total).
+
+**Adept:** 6/9/12 healing total over 3 rounds.
+
+**Master:** 9/15/21 healing total over 3 rounds; regrow a limb over a day.
+
+### Soulmend (Divine Spell)
+
+**Disciplines:** 2 Life · **Action:** Action · **Range:** Touch · **Keywords:** Wound
+
+**Weak:** Restore 2 HP.
+
+**Standard:** Restore 4 HP.
+
+**Strong:** Restore 6 HP; a target at 0 HP rises to 1 HP without a Wound.
+
+**Adept:** Restore 6/9/12 HP.
+
+**Master:** Restore 9/15/21 HP; return a creature that died within the last minute to life.
+
+## Protection Spells
+
+### Ward of Faith (Divine Spell)
+
+**Disciplines:** 1 Protection · **Action:** Action · **Range:** Touch · **Keywords:** DR
+
+**Weak:** The target gains +2 DR for 1 turn.
+
+**Standard:** The target gains +3 DR for 2 turns.
+
+**Strong:** The target gains +4 DR for 3 turns; an attacker that hits the target takes 2 damage.
+
+**Adept:** The target gains 6/9/12 DR for 1/2/3 turns.
+
+**Master:** The target gains 9/15/21 DR for 1/2/3 turns.
+
+### Sanctuary (Divine Spell)
+
+**Disciplines:** 1 Protection · **Action:** Action · **Range:** 30 ft · **Keywords:** Bane
+
+**Weak:** Attacks against the target have Bane for 1 turn.
+
+**Standard:** Attacks against the target have Bane for 2 turns.
+
+**Strong:** Attacks against the target have Bane for 3 turns; the target cannot be targeted.
+
+**Adept:** Attacks against the target have Bane for 6/9/12 turns.
+
+**Master:** Attacks against the target have Bane for 9/15/21 turns.
+
+### Hallowed Ground (Divine Spell)
+
+**Disciplines:** 2 Protection · **Action:** Action · **Range:** 20-ft radius · **Keywords:** DR, Recurring
+
+**Weak:** Allies inside gain +2 DR.
+
+**Standard:** Allies inside gain +3 DR.
+
+**Strong:** Allies inside gain +4 DR; undead inside take Recurring 3 damage.
+
+**Adept:** Allies inside gain 6/9/12 DR.
+
+**Master:** Allies inside gain 9/15/21 DR; undead inside take Recurring 9 damage.
+
+### Sacred Barrier (Divine Spell)
+
+**Disciplines:** 2 Protection · **Action:** Action · **Range:** 30-ft wall · **Keywords:** Bane
+
+**Weak:** Missile attacks across the barrier have Bane.
+
+**Standard:** Missile attacks are blocked for 2 rounds.
+
+**Strong:** Missile attacks are blocked for 3 rounds; creatures that touch the barrier are pushed back.
+
+**Adept:** Creatures passing through the barrier take 6/9/12 radiant damage.
+
+**Master:** Creatures passing through the barrier take 9/15/21 radiant damage.
+
+## Religion Spells
+
+### Holy Strike (Divine Spell)
+
+**Disciplines:** 1 Religion · **Action:** Action · **Range:** 30 ft · **Keywords:** Radiant
+
+**Weak:** 2 radiant damage.
+
+**Standard:** 4 radiant damage.
+
+**Strong:** 6 radiant damage; undead take +3.
+
+**Adept:** 6/9/12 radiant damage; undead take +6.
+
+**Master:** 9/15/21 radiant damage; undead take +9.
+
+### Righteous Blow (Divine Spell)
+
+**Disciplines:** 1 Religion · **Action:** Action · **Range:** Touch · **Keywords:** Boon, Bane
+
+**Weak:** 2 radiant damage.
+
+**Standard:** 4 radiant damage; Boon on your next attack.
+
+**Strong:** 6 radiant damage; the target has Bane on its next attack.
+
+**Adept:** 6/9/12 radiant damage.
+
+**Master:** 9/15/21 radiant damage.
+
+### Divine Judgment (Divine Spell)
+
+**Disciplines:** 2 Religion · **Action:** Action · **Range:** 30 ft · **Keywords:** Radiant
+
+**Weak:** 6 radiant damage.
+
+**Standard:** 9 radiant damage.
+
+**Strong:** 12 radiant damage; undead and fiends take +3.
+
+**Adept:** 6/9/12 radiant damage.
+
+**Master:** 9/15/21 radiant damage.
+
+### Pillar of Light (Divine Spell)
+
+**Disciplines:** 2 Religion · **Action:** Action · **Range:** 30-ft column · **Keywords:** Radiant
+
+**Weak:** 9 radiant damage.
+
+**Standard:** 15 radiant damage.
+
+**Strong:** 21 radiant damage.
+
+Allies in the light regain 3 HP.
+
+### Radiant Beam (Divine Spell)
+
+**Disciplines:** 1 Religion · **Action:** Action · **Range:** 60-ft line · **Keywords:** Radiant
+
+**Weak:** 2 radiant damage.
+
+**Standard:** 4 radiant damage.
+
+**Strong:** 6 radiant damage; undead take +3.
+
+**Adept:** 6/9/12 radiant damage.
+
+**Master:** 9/15/21 radiant damage.
+
+### Turn Unholy (Divine Spell)
+
+**Disciplines:** 1 Religion · **Action:** Action · **Range:** 30-ft cone · **Keywords:** Morale check, Bane
+
+**Weak:** Undead in the cone must make a Morale check or flee for 1 turn.
+
+**Standard:** Undead in the cone must make a Morale check or flee for 2 turns.
+
+**Strong:** Undead in the cone must make a Morale check with Bane or flee for 3 turns.
+
+**Adept:** Undead and fiends in the cone must make a Morale check or flee for 6/9/12 turns.
+
+**Master:** Undead and fiends in the cone must make a Morale check or flee for 9/15/21 turns; undead are destroyed at 0 HP.
+
+### Banish (Divine Spell)
+
+**Disciplines:** 2 Religion · **Action:** Action · **Range:** 30 ft · **Keywords:** Extraplanar
+
+**Weak:** An extraplanar target is sent away for 1 turn.
+
+**Standard:** An extraplanar target is sent away for 2 turns.
+
+**Strong:** An extraplanar target is sent away for 3 turns; it cannot return this scene.
+
+**Adept:** An extraplanar target is sent away for 6/9/12 turns.
+
+**Master:** An extraplanar target is sent away for 9/15/21 turns.
+
+## Animal Spells
+
+### Beast Tongue (Divine Spell)
+
+**Disciplines:** 1 Animal · **Action:** Action · **Range:** 30 ft · **Keywords:** Boon
+
+**Weak:** One beast obeys a simple command for 1 turn.
+
+**Standard:** One beast obeys a simple command for 1 scene.
+
+**Strong:** One beast obeys a simple command for 1 scene; you gain Boon on Animal checks.
+
+**Adept:** Two beasts obey a simple command.
+
+**Master:** Five beasts obey a simple command for 1 hour.
+
+## Plant Spells
+
+### Briar Wall (Divine Spell)
+
+**Disciplines:** 2 Plants · **Action:** Action · **Range:** 30-ft wall · **Keywords:** Slowed, Restrained
+
+**Weak:** Creatures passing through take 2 piercing damage.
+
+**Standard:** Creatures passing through take 4 piercing damage and are Slowed.
+
+**Strong:** Creatures passing through take 6 piercing damage and are Restrained.
+
+**Adept:** Creatures passing through take 6/9/12 piercing damage.
+
+**Master:** Creatures passing through take 9/15/21 piercing damage.
