@@ -38,16 +38,53 @@ Spells don't exist in isolation. They're organized into **chains**, three-tier p
 
 | Chain | Novice | Adept | Master |
 |-------|--------|-------|--------|
-| Fire Magic | Firebolt | Fireball | Volcanic Eruption |
-| Ice Magic | Ray of Frost | Ice Storm | Cone of Cold |
-| Lightning | Shocking Grasp | Lightning Bolt | Chain Lightning |
-| Healing | Cure Wounds | Prayer of Healing | Mass Heal |
-| Protection | Shield | Magic Circle | Globe of Invulnerability |
-| Charm | Charm Person | Suggestion | Dominate Person |
-| Illusion | Minor Illusion | Mirror Image | Greater Invisibility |
-| Necromancy | Chill Touch | Animate Dead | Finger of Death |
-| Divination | Detect Magic | Clairvoyance | True Seeing |
-| Transmutation | Enlarge/Reduce | Polymorph | Time Stop |
+| **Arcane Chains** | | | |
+| Firebolt | Firebolt | Fireball | Inferno |
+| Burning Hands | Burning Hands | Wall of Fire | Volcanic Eruption |
+| Scorching Ray | Scorching Ray | Flame Strike | Meteor Swarm |
+| Frost Ray | Frost Ray | Ice Storm | Blizzard |
+| Chill Touch | Chill Touch | Freeze Solid | Glacial Prison |
+| Frost Armor | Frost Armor | Ice Shield | Frozen Aegis |
+| Shock | Shock | Lightning Bolt | Chain Lightning |
+| Static Field | Static Field | Thunderclap | Storm Call |
+| Acid Splash | Acid Splash, Greater | Caustic Spray | Dissolve |
+| Corrode | Corrode | Melt Armor | Acid Pit |
+| Magic Missile | Magic Missile | Force Lance | Disintegrate |
+| Push | Push | Levitate | Telekinesis |
+| Shield | Shield | Arcane Barrier | Prismatic Wall |
+| Minor Image | Minor Image | Major Image | Phantasmal Force |
+| Blur | Blur | Invisibility | Greater Invisibility |
+| Befriend | Befriend | Suggestion | Dominate |
+| Daze | Daze | Confusion | Mass Confusion |
+| Vampiric Touch | Chill Touch, Greater | Vampiric Touch | Finger of Death |
+| Animate Dead | Raise Skeleton | Animate Dead | Create Undead |
+| Enhance | Enhance | Haste | Time Stop |
+| Stone Skin | Stone Skin | Iron Body | Diamond Form |
+| Stone Spikes | Stone Spikes | Earthquake | Fissure |
+| Gust | Gust | Wind Wall | Whirlwind |
+| Force Bolt | Force Bolt | Force Wave | Force Crush |
+| Cause Fear | Cause Fear | Fear | Phantasmal Killer |
+| Arcane Ward | Arcane Ward | Spell Shield | Spell Turning |
+| Summon Familiar | Summon Familiar | Conjure Elemental | Planar Binding |
+| Cloak of Shadow | Cloak of Shadow | Shadow Step | Shadow Form |
+| Arcane Blade | Arcane Blade | Elemental Weapon | Blade of Disaster |
+| Burden | Burden | Crushing Force | Reverse Gravity |
+| **Divine Chains** | | | |
+| Heal Wounds | Heal Wounds | Restoration | Mass Heal |
+| Purify | Purify | Cleanse | Resurrection |
+| Bolster | Bolster | Regeneration | True Life |
+| Soothe | Soothe | Remove Affliction | Miracle Cure |
+| Revivify | Revivify | Raise Dead | True Resurrection |
+| Shield of Faith | Shield of Faith | Sanctuary | Holy Aegis |
+| Bless | Bless | Divine Favor | Crusader's Mantle |
+| Ward | Ward | Magic Circle | Divine Barrier |
+| Holy Strike | Holy Strike | Smite | Divine Judgment |
+| Guiding Bolt | Guiding Bolt | Radiant Beam | Pillar of Light |
+| Turn Undead | Turn Undead | Banish | Soul Prison |
+| Consecrate | Consecrate | Hallow | Sanctified Ground |
+| Detect Magic | Detect Magic | Identify | Legend Lore |
+| See Invisible | See Invisible | True Seeing | Foresight |
+| Augury | Augury | Divination | Commune |
 
 Every chain follows the same logic: Novice is your workhorse, Adept is your heavy hitter, Master is your "everyone remember where we parked the horses" moment.
 
@@ -63,11 +100,11 @@ There are no wildcard Discipline substitutions. Every Discipline requirement mus
 
 | Spell | Tier | Discipline Req | Effect Range (W / S / St) |
 |-------|------|---------------|--------------------------|
-| Firebolt | Novice | 1 Fire | W: 2 / S: 3 / St: 5 + ignite |
-| Fireball | Adept | 2 Fire | W: 6 (5ft) / S: 9 (15ft) / St: 12 (20ft) |
-| Volcanic Eruption | Master | 3 Fire + 1 Earth | W: 9 (20ft) / S: 15 (30ft) / St: 21 (40ft) + terrain hazard |
+| Firebolt | Novice | 1 Fire | W: 2 / S: 4 / St: 6 + ignite |
+| Fireball | Adept | 2 Fire | W: 6 (10ft) / S: 9 (15ft) / St: 12 (20ft) |
+| Volcanic Eruption | Master | 2 Fire + 1 Earth | W: 9 (20ft) / S: 15 (30ft) / St: 21 (40ft) + terrain hazard |
 
-Look at that jump from Firebolt to Volcanic Eruption. One Discipline. Two Disciplines. Four Disciplines. Novice spells are tools. Adept spells are weapons. Master spells are *events.* The Discipline requirements make sure you earn the difference, but they don't make you wait half a campaign to do it.
+Look at that jump from Firebolt to Volcanic Eruption. One. Two. Three. Novice spells are tools. Adept spells are weapons. Master spells are *events.* The Discipline requirements make sure you earn the difference, but they don't make you wait half a campaign to do it.
 
 {{< pagebreak >}}
 

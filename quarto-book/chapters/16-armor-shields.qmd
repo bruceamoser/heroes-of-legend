@@ -30,14 +30,14 @@ If the goblin lands a Standard hit (3 damage), Kael takes 1 HP. The armor didn't
 
 | Armor | Discipline | DR | Stealth | Notes |
 |-------|-----------|-----|---------|-------|
-| **Padded** |, | -1 |, | Quilted layers. Cheap, uncomfortable, better than nothing. |
-| **Leather** |, | -2 |, | Boiled and shaped. The adventuring standard. |
-| **Studded Leather** | 1 Armor | -2 |, | Leather reinforced with rivets. Light and quiet, the rogue's choice. |
-| **Chain Shirt** | 1 Armor | -3 | Bane | Worn under clothing. Flexible, concealable, noisy when you move. |
-| **Breastplate** | 2 Armor | -4 |, | Solid chest protection. Leaves arms free for spellcasting. |
-| **Half Plate** | 2 Armor | -4 | Bane | Plates on vitals, chain everywhere else. The pragmatic heavy option. |
-| **Chain Mail** | 2 Armor | -5 | Bane | Full-body rings. Loud. Heavy. Effective. |
-| **Plate** | 3 Armor | -6 | Bane | The pinnacle of protection. When you absolutely need to be the last one standing. |
+| **Padded** | None | 1 | — | Quilted layers. Cheap, uncomfortable, better than nothing. |
+| **Leather** | None | 2 | — | Boiled and shaped. The adventuring standard. |
+| **Studded Leather** | 1 Armor | 2 | — | Leather reinforced with rivets. Light and quiet, the rogue's choice. |
+| **Chain Shirt** | 1 Armor | 3 | Bane | Worn under clothing. Flexible, concealable, noisy when you move. |
+| **Breastplate** | 2 Armor | 4 | — | Solid chest protection. Leaves arms free for spellcasting. |
+| **Half Plate** | 2 Armor | 4 | Bane | Plates on vitals, chain everywhere else. The pragmatic heavy option. |
+| **Chain Mail** | 2 Armor | 5 | Bane | Full-body rings. Loud. Heavy. Effective. |
+| **Plate** | 3 Armor | 6 | Bane | The pinnacle of protection. When you absolutely need to be the last one standing. |
 
 ### Armor and Spellcasting
 
@@ -54,7 +54,7 @@ Armor interferes with the precise gestures and somatic control that spellcasting
 ::: {.callout-note}
 ## The Arcanist in Armor
 
-Yes, you can put your Arcanist in Plate. It'll cost you, 3 Armor Discipline ranks at likely X3 cost, plus the armor itself. And you'll cast every spell at -3. Is it worth it?
+Yes, you can put your Arcanist in Plate. It'll cost you, 3 Armor Discipline ranks at Foreign/Opposed cost (3/6/12 or 4/8/16), plus the armor itself. And you'll cast every spell at -3. Is it worth it?
 
 For most casters: no. You're spending DP to make yourself worse at your primary job. But for a specific build, the battle mage who wades into melee, the front-line Shepherd who heals under fire, a Breastplate (no Stealth penalty, only -1 to casting) might save your life more often than it costs you a spell tier.
 
@@ -87,11 +87,11 @@ Shield Block cannot reduce damage below 1. It can be used against melee attacks,
 
 Roric is building a dwarf Protector at Level 1. He has Brawn +2, Fortitude +1, and the Armor Discipline from his class. He wants to be the party's wall. Here's how he weighs his options:
 
-**Option A, Chain Mail (DR 5, 2 Armor Disc):** He has the Discipline requirement. He pays 1 DP for Armor (2), his class favors it at X1. Total DR: 5. He's a fortress. Downside: Stealth Bane, and spellcasters in the party can't rely on him for quiet infiltration.
+**Option A, Chain Mail (DR 5, 2 Armor Disc):** He has the Discipline requirement. He pays 2 DP for Armor (2), his class favors it at Home cost (1/2/4). Total DR: 5. He's a fortress. Downside: Stealth Bane, and spellcasters in the party can't rely on him for quiet infiltration.
 
 **Option B, Breastplate + Shield (DR 4 + Shield Block):** Breastplate needs 2 Armor Discipline, he has that. Shield adds +2 DR and the Shield Block reaction. Total passive DR: 6. Plus he can react to downgrade one hit per round. This is the tank build. The shield costs extra coin, but coin is replaceable. Heroes aren't.
 
-**Option C, Plate (DR 6, 3 Armor Disc):** At Level 1, he can't afford Armor (3), that's 4 DP even at X1. But he plans for it. At Level 3, he'll buy the third rank and commission a suit of plate. For now, he takes Option B.
+**Option C, Plate (DR 6, 3 Armor Disc):** At Level 1, he can't afford Armor (3), that's 4 DP even at Home cost. But he plans for it. At Level 3, he'll buy the third rank and commission a suit of plate. For now, he takes Option B.
 
 Roric goes with Option B. The Breastplate + Shield gives him DR 6, a Shield Block reaction, and he can still move at full speed. At Level 3, he'll reassess. But for now, he's exactly where he needs to be: between the monsters and his friends.
 
@@ -101,15 +101,15 @@ Roric goes with Option B. The Breastplate + Shield gives him DR 6, a Shield Bloc
 
 Roric is holding a choke point against three goblins. He's got his Shield (DR +2) and Chain Mail (DR 5). Total DR: 7. The goblins aren't getting through easily.
 
-**Goblin 1 attacks:** The DA rolls. Standard hit, 3 damage. Roric's DR 7 absorbs it completely. The goblin's blade bounces off his pauldron with a sad *ping.*
+**Goblin 1 attacks:** The DA rolls. Standard hit, 3 damage. Roric's DR 7 soaks all but the minimum — 1 damage gets through. The goblin's blade dings off his pauldron with a sad *ping.*
 
-**Goblin 2 attacks:** Strong hit, 5 damage. DR 7 absorbs it. Roric doesn't flinch.
+**Goblin 2 attacks:** Strong hit, 4 damage. DR 7 soaks all but 1. Roric doesn't flinch.
 
-**Goblin 3 attacks:** The DA rolls a Critical, three 6s. The goblin's crude spear finds a gap in Roric's armor. Strong damage (5) plus a critical bonus. Total incoming: 7 damage.
+**Goblin 3 attacks:** The DA rolls a Critical, three 6s. The goblin's crude spear finds a gap in Roric's armor. Strong damage (4) plus a critical bonus. Total incoming: 7 damage.
 
 **Roric's player:** "Shield Block."
 
-He spends his reaction. The damage tier drops: Critical ? Strong. The critical bonus is negated, the shield caught the spear point before it could twist. Damage is now 5 (Strong only). DR 7 absorbs it. The spear slams into Roric's shield, splintering the haft. Roric grunts. The goblin stares at his broken weapon in disbelief.
+He spends his reaction. The damage tier drops: Critical ? Strong. The critical bonus is negated, the shield caught the spear point before it could twist. Damage is now 5 (Strong only). DR 7 soaks all but 1. The spear slams into Roric's shield, splintering the haft. Roric grunts. The goblin stares at his broken weapon in disbelief.
 
 That's the power of a shield. Without it, Roric takes 7 damage, over half his HP. With it, he takes nothing, and the goblin is now unarmed.
 
