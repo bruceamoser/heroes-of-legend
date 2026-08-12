@@ -49,8 +49,12 @@ You don't roll Disciplines. You *collect* them. They're permanent markers on you
 | | **Religion** | Faith, blessings, holy power |
 | **Esoteric** | **Mind** | Psionics, illusions, mental influence |
 | | **Summon** | Calling, binding, conjuring creatures |
+| **Subterfuge** | **Stealth** | Hiding, moving unseen, ambush, silence |
+| | **Sleight** | Locks, traps, pockets, delicate theft |
+| **Knowledge** | **Lore** | Scholarship, history, arcana, ancient secrets |
+| | **Tactics** | Strategy, command, reading the battlefield |
 
-Nineteen Disciplines. Seven categories. Your hero's path through them defines everything they can do.
+Twenty-three Disciplines. Nine categories. Your hero's path through them defines everything they can do.
 
 {{< pagebreak >}}
 
@@ -66,15 +70,17 @@ Your class hands you specific Disciplines at creation. These are your foundation
 
 | Class | Starting Disciplines |
 |-------|---------------------|
-| Protector | 2 Armor, 2 Protection |
-| Blade | 3 Blades |
-| Arcanist | 2 Fire, 1 Energy, 1 Wind (or any 4 elemental) |
-| Shepherd | 2 Protection, 2 Animal |
-| Intellect | 3 of any type (flexible) |
-| Odd | 3 of any type, must be from different categories |
-| Leader | 2 Protection, 1 Energy, 1 any |
-| Unbalanced | 2 of one type, 2 of its opposite (Fire/Water or Earth/Wind) |
-| Shadow | 2 Blades, 1 Mind |
+| Protector | 1 any Weapon + 1 Armor |
+| Blade | 1 Blades + 1 Stealth |
+| Arcanist | 1 Fire + 1 Energy |
+| Shepherd | 1 Protection + 1 Animal |
+| Intellect | 1 Lore + 1 any |
+| Odd | 2 of any type, different categories |
+| Leader | 1 Tactics + 1 Protection |
+| Unbalanced | 1 Fire + 1 Water (or Earth/Wind) |
+| Shadow | 1 Stealth + 1 Sleight |
+
+Starting disciplines are always rank 1 in distinct disciplines. You may not spend both picks on the same discipline to start with rank 2. Depth comes from progression picks at levels 3, 6, and 9.
 
 ### Progression
 
@@ -174,15 +180,13 @@ See @sec-chapter-arcane-spells and @sec-chapter-divine-spells for the full spell
 
 ## Worked Example: Building a Fire Mage
 
-Kael wants to burn the world. He's an Arcanist, his class gives him 2 Fire and 1 Energy at creation. His ancestry and culture grant additional Disciplines as well.
+Kael wants to burn the world. He's an Arcanist — his class gives him 1 Fire and 1 Energy at creation. His ancestry and culture grant additional Disciplines as well.
 
-**Novice (Firebolt):** Requires 1 Fire. Kael has 2 Fire. He qualifies immediately. Firebolt costs 2 DP (flat card cost), and his Arcanist home cost for Fire rank 1 was already paid at creation. Firebolt is his on day one.
+**Novice (Firebolt):** Requires 1 Fire. Kael has 1 Fire. He qualifies immediately. Firebolt costs 2 DP (flat card cost), and his Arcanist home cost for Fire rank 1 was already paid at creation. Firebolt is his on day one.
 
-**Adept (Fireball):** Requires 2 Fire. Kael has 2 Fire. But the Adept tier requires level 3, so he must wait. Most casters need several levels to reach Adept. Arcanists start closer to the flame and qualify as soon as the gate opens.
+**Adept (Fireball):** Requires 2 Fire. Kael has 1 Fire, so he needs one more. At level 3 he takes Fire (now 2 Fire) and buys Fireball the moment the Adept gate opens. Most casters need several levels to reach Adept. Arcanists walk a shorter path to the flame.
 
-**Master (Volcanic Eruption):** Requires 3 Fire + 1 Earth. Kael starts with 2 Fire and 1 Energy, so he needs 1 more Fire and 1 Earth. With level gates in place, Adept unlocks at level 3 and Master at level 7. Kael has time to prepare.
-
-At level 3, Kael takes Fire (now 3 Fire, 1 Energy). At level 6, he takes Earth (now 3 Fire, 1 Earth, 1 Energy). When the Master tier unlocks at level 7, he qualifies for Volcanic Eruption. He could branch into Protection for defense, Animal for a familiar, or continue deepening his elemental mastery.
+**Master (Volcanic Eruption):** Requires 2 Fire + 1 Earth. Kael has 2 Fire and 1 Energy after level 3, so he needs Earth. At level 6 he takes Earth (now 2 Fire, 1 Earth, 1 Energy). When the Master tier unlocks at level 7, he qualifies for Volcanic Eruption. He could branch into Protection for defense, Animal for a familiar, or continue deepening his elemental mastery.
 
 Seven levels to master volcanic fury. Disciplines got him to Master. No shortcuts. No wildcards. Just the path, walked one step at a time.
 
