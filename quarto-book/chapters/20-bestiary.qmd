@@ -53,9 +53,9 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
 
 **Cultist (Challenge 1/2):** HP 6, DR 0. Dagger: 1/2/3. Dark Bolt: 2/3/4 necrotic (range 60 ft). Fanatical: immune to Frightened.
 
-**Knight (Challenge 3):** HP 20, DR 4 (plate). Longsword: 2/3/5. Shield Block reaction. Leadership: allies within 10 ft gain +1 to attacks.
+**Knight (Challenge 3):** HP 20, DR 4 (plate). Longsword: 6/9/12. Shield Block reaction. Leadership: allies within 10 ft gain +1 to attacks.
 
-**Archmage (Challenge 6):** HP 14, DR 2. Dagger: 1/2/3. Firebolt: 2/3/5 (at will). Fireball: 6/9/12 (3/day). Counterspell: reaction to negate a spell. Magical Ward: +2 DR vs spells.
+**Archmage (Challenge 6):** HP 14, DR 2. Dagger: 1/2/3. Firebolt: 2/3/5 (at will). Fireball: 6/9/12 (once per encounter). Counterspell: reaction to negate a spell. Magical Ward: +2 DR vs spells.
 
 {{< pagebreak >}}
 
@@ -147,7 +147,7 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
 
 **Hill Giant (Challenge 5):** HP 30, DR 2. Greatclub: 5/7/10. Rock: 4/6/9 (range 60/240). Slow-Witted: Bane on Knowledge, Reason, and Guile saves.
 
-**Stone Giant (Challenge 7):** HP 35, DR 4. Greatclub: 2d10/3d10/4d10. Rock: 6/9/12 (range 60/240). Stone Camouflage: Boon on Stealth in rocky terrain.
+**Stone Giant (Challenge 7):** HP 35, DR 4. Greatclub: 9/15/21. Rock: 6/9/12 (range 60/240). Stone Camouflage: Boon on Stealth in rocky terrain.
 
 **Ogre (Challenge 2):** HP 20, DR 2 (thick hide). Greatclub: 4/5/7 bludgeoning. Rock: 3/4/6 bludgeoning (range 30/90). Reach 10 ft. Slow-Witted: Bane on Knowledge, Reason, and Guile saves. Hulking Brute: the ogre deals +1 damage tier to objects and structures.
 
@@ -169,7 +169,7 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
 
 ## Shapechangers
 
-**Doppelganger (Challenge 3):** HP 14, DR 0. Slam: 2/3/4 bludgeoning. Shapechange: as an action, the doppelganger can assume the appearance of any Medium humanoid it has seen. Its attributes and attacks remain unchanged, but it gains the target's voice and mannerisms. Creatures can make a Guile (Investigation) check opposed by the doppelganger's Guile (Deception) to see through the disguise. Mind Reading (Recharge): the doppelganger learns the surface thoughts of one creature within 30 ft. The target may make a Guile save to resist. Ambusher: +1 damage tier against surprised targets. Deceptive: +1 to Guile (Deception) checks.
+**Doppelganger (Challenge 3):** HP 14, DR 1. Slam: 6/9/12 bludgeoning. Shapechange: as an action, the doppelganger can assume the appearance of any Medium humanoid it has seen. Its attributes and attacks remain unchanged, but it gains the target's voice and mannerisms. Creatures can make a Guile (Investigation) check opposed by the doppelganger's Guile (Deception) to see through the disguise. Mind Reading (Recharge): the doppelganger learns the surface thoughts of one creature within 30 ft. The target may make a Guile save to resist. Ambusher: +1 damage tier against surprised targets. Deceptive: +1 to Guile (Deception) checks.
 
 {{< pagebreak >}}
 
@@ -239,23 +239,26 @@ HP 40, DR 5 (plate + unholy). Attributes: Brawn +2, Fortitude +1, Guile +1, othe
 
 | Difficulty | Challenge Budget | Example (4 players) |
 |-----------|-----------------|-------------------|
-| Easy | 1 - party level | 4 Wolves (Challenge 1/2 each) |
-| Standard | 2 - party level | 1 Knight (C3) + 2 Guards (C- each) |
-| Hard | 3 - party level | 1 Young Dragon (C6) + 4 Cultists (C-) |
-| Deadly | 4+ - party level | 1 Ancient Dragon (C12) or 1 Lich (C10) + minions |
+| Easy | × party level | 4 Wolves (C½ each) |
+| Standard | ×2 party level | 1 Knight (C3) + 2 Guards (C½ each) |
+| Hard | ×3 party level | 1 Young Dragon (C6) + 4 Cultists (C½) |
+| Deadly | ×4+ party level | 1 Ancient Dragon (C12) or 1 Lich (C10) + minions |
 
 {{< pagebreak >}}
 
 ## Creating Monsters
 
-Assign attributes (-2 to +2), give 1-3 attacks with W/S/S damage, add 1-2 abilities. HP = 5 - desired challenge. DR = 0-6 based on natural armor.
+Assign attributes (-2 to +2), give 1-3 attacks with W/S/S damage per the damage budget (@sec-damage-budget), add 1-2 abilities. HP = 5 × Challenge. DR = Challenge ÷ 2 (round down), based on natural armor (max 6).
 
 **Quick Monster Template:**
 
 1. Choose type (Beast, Undead, etc.)
 2. Set Challenge (1-12)
-3. HP = 5 - Challenge, DR = Challenge 1/2 2 (round down)
-4. Choose 1-2 attacks with W/S/S damage (W = d6 x Challenge x 2, S = d8-Challenge-2, St = d10-Challenge-2)
+3. HP = 5 × Challenge, DR = Challenge ÷ 2 (round down)
+4. Choose 1-2 attacks with W/S/S damage per the damage budget, scaled by Challenge:
+   - C1–2 (Novice): W:2 / S:4 / St:6
+   - C3–6 (Adept): W:6 / S:9 / St:12
+   - C7+ (Master): W:9 / S:15 / St:21
 5. Add 1 signature ability from its type
 
 ::: {.callout-note}
