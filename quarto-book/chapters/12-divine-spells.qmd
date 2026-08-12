@@ -29,105 +29,57 @@ Divine cantrips are minor blessings, small miracles that cost nothing and ask no
 They won't turn the tide of battle. They'll steady a shaky hand, light a dark corridor, and remind the dying that someone is still fighting for them. Sometimes that's enough.
 
 ### Guidance (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Concentration, up to 1 minute
-**Target:** One creature
+**Disciplines:** None · **Action:** Action · **Range:** Touch (Concentration, up to 1 minute) · **Keywords:** Boon
 
-**Description:** You lay a hand on an ally and whisper a prayer. For the next minute, they feel the presence of something greater, a steadying hand on their shoulder, a whisper of confidence at the back of their mind.
+**Weak:** The target gains +1 on the next skill check they make within 1 minute.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The target gains +1 on the next skill check they make within 1 minute. |
-| Standard (9-14) | +2 on the next skill check within 1 minute. |
-| Strong (15-18+) | +2 on the next skill check. If that check succeeds, the target also gains Boon on their next check within the same minute, the blessing compounds. |
+**Standard:** +2 on the next skill check within 1 minute.
 
-*The simplest prayer. The most reliable help. When your ally is about to attempt something stupid and heroic, give them Guidance. It won't make the stupid part less stupid, but it might make the heroic part work.*
+**Strong:** +2 on the next skill check. If that check succeeds, the target also gains Boon on their next check within the same minute, the blessing compounds.
 
 ### Light (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** 1 hour
-**Target:** One object
+**Disciplines:** None · **Action:** Action · **Range:** Touch (1 hour) · **Keywords:** Bane
 
-**Description:** You touch an object and it begins to glow with pure, steady radiance, not fire, not magic-light, but something closer to daylight. The light is warm on allies and harsh on creatures of darkness.
+**Weak:** Dim light in a 10-foot radius. Duration 10 minutes.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | Dim light in a 10-foot radius. Duration 10 minutes. |
-| Standard (9-14) | Bright light in a 20-foot radius, dim for another 20 feet. Duration 1 hour. |
-| Strong (15-18+) | As Standard, but undead and fiends in the bright light have Bane on attacks, the radiance burns them with its mere presence. |
+**Standard:** Bright light in a 20-foot radius, dim for another 20 feet. Duration 1 hour.
 
-*Not a torch. Not a lantern. Light is a piece of dawn you can carry in your pocket. Use it to banish shadows. Use it to blind things that hate the sun. Use it to remind your party that even in the deepest dark, someone brought the day with them.*
+**Strong:** As Standard, but undead and fiends in the bright light have Bane on attacks, the radiance burns them with its mere presence.
 
 ### Resistance (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** Concentration, up to 1 minute
-**Target:** One creature
+**Disciplines:** None · **Action:** Action · **Range:** Touch (Concentration, up to 1 minute) · **Keywords:** None
 
-**Description:** A shimmering shield of divine energy settles over the target, thin as a prayer, strong as faith. It turns aside the first touch of poison, the first lick of flame, the first whisper of dark magic.
+**Weak:** +1 on the target's next Fortitude check within 1 minute.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | +1 on the target's next Fortitude check within 1 minute. |
-| Standard (9-14) | +2 on the next Fortitude check. If the check is against poison, disease, or necrotic damage, the bonus is +3. |
-| Strong (15-18+) | +2 on the next Fortitude check. The target also reduces the first instance of poison, disease, or necrotic damage they take within the duration by 3. |
+**Standard:** +2 on the next Fortitude check. If the check is against poison, disease, or necrotic damage, the bonus is +3.
 
-*When you know the wyvern's sting is coming. When the crypt's air tastes of old death. When the evil wizard's finger is pointing at your Protector. Resistance won't make you immune, but it might make you survive.*
+**Strong:** +2 on the next Fortitude check. The target also reduces the first instance of poison, disease, or necrotic damage they take within the duration by 3.
 
 ### Virtue (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** Touch
-**Duration:** 1 minute
-**Target:** One creature
+**Disciplines:** None · **Action:** Action · **Range:** Touch (1 minute) · **Keywords:** None
 
-**Description:** You speak a word of divine encouragement over an ally. For the next minute, a faint glow suffuses their skin, the physical manifestation of borrowed vitality. It won't save them from a killing blow, but it might keep them standing long enough to deliver one.
+**Weak:** The target gains 2 temporary HP for 1 minute.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | The target gains 2 temporary HP for 1 minute. |
-| Standard (9-14) | 3 temporary HP for 1 minute. If these temporary HP absorb a hit, the attacker takes 1 radiant damage, the light bites back. |
-| Strong (15-18+) | 4 temporary HP for 1 minute. Attacker takes 2 radiant on contact. The target also feels a surge of confidence, immune to fear for the duration. |
+**Standard:** 3 temporary HP for 1 minute. If these temporary HP absorb a hit, the attacker takes 1 radiant damage, the light bites back.
 
-*A breath of borrowed courage. Virtue is the spell you cast on the ally who's about to do something brave and probably fatal. It won't make them invincible, but it'll make them feel invincible. Sometimes that's the same thing.*
+**Strong:** 4 temporary HP for 1 minute. Attacker takes 2 radiant on contact. The target also feels a surge of confidence, immune to fear for the duration.
 
 ### Thaumaturgy (Cantrip)
-**No prereq**
-**Casting Time:** 1 action
-**Range:** 30 feet
-**Duration:** Up to 1 minute
-**Target:** See below
+**Disciplines:** None · **Action:** Action · **Range:** 30 ft (Up to 1 minute) · **Keywords:** Boon
 
-**Description:** A display of minor divine power, the kind that makes mortals kneel and skeptics reconsider. You may produce one of the following effects: your voice booms three times louder, you cause flames to flicker or brighten, the ground trembles faintly, an unseen wind stirs, or your eyes blaze with inner light. These are signs and portents. Use them accordingly.
+**Weak:** One minor effect. It's obviously supernatural but not overwhelming.
 
-| Outcome | Effect |
-|---------|--------|
-| Weak (1-8) | One minor effect. It's obviously supernatural but not overwhelming. |
-| Standard (9-14) | Three simultaneous effects. Your presence is unmistakably divine. Bystanders who aren't actively hostile are awed, social checks against them have Boon. |
-| Strong (15-18+) | Your display is terrifying or awe-inspiring (your choice). Hostile creatures of Novice tier or lower must make a Reason check or flee for 1 round. The ground actually shakes. The fire actually roars. |
+**Standard:** Three simultaneous effects. Your presence is unmistakably divine. Bystanders who aren't actively hostile are awed, social checks against them have Boon.
 
-*The calling card of divine power. When you need a crowd's attention. When you need a bandit chief to reconsider their life choices. When you need everyone in the room to understand that you speak for something bigger than yourself. Thaumaturgy doesn't win arguments, but it makes sure everyone listens.*
-
-```{=typst}
-#horizontalrule
-```
-
-{{< pagebreak >}}
-
-{{< pagebreak >}}
+**Strong:** Your display is terrifying or awe-inspiring (your choice). Hostile creatures of Novice tier or lower must make a Reason check or flee for 1 round. The ground actually shakes. The fire actually roars.
 
 ## Life Spells
 
 *See @sec-chapter-magic-system for how spellcasting works.*
 
-**Mending Touch — Divine Spell**
+### Mending Touch (Divine Spell)
 
-1 Life · Action · Touch · Bane
+**Disciplines:** 1 Life · **Action:** Action · **Range:** Touch · **Keywords:** Bane
 
 **Weak:** Restore 2 HP.
 
@@ -139,9 +91,9 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Master:** Restore 9/15/21 HP; the healed target gains +2 on their next save.
 
-**Restoration — Divine Spell**
+### Restoration (Divine Spell)
 
-2 Life · Action · Touch · Condition
+**Disciplines:** 2 Life · **Action:** Action · **Range:** Touch · **Keywords:** Condition
 
 **Weak:** Restore 6 HP.
 
@@ -153,9 +105,9 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Master:** Restore 9/15/21 HP and end all conditions on the target.
 
-**Tide of Life — Divine Spell**
+### Tide of Life (Divine Spell)
 
-2 Life · Action · 30 ft · Healing
+**Disciplines:** 2 Life · **Action:** Action · **Range:** 30 ft · **Keywords:** Healing
 
 **Weak:** Restore 2 HP to each ally in range.
 
@@ -167,9 +119,9 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Master:** Restore 9/15/21 HP to each ally in range.
 
-**Flesh Renewal — Divine Spell**
+### Flesh Renewal (Divine Spell)
 
-2 Life · Action · Touch, 3 rounds · Recurring
+**Disciplines:** 2 Life · **Action:** Action · **Range:** Touch, 3 rounds · **Keywords:** Recurring
 
 **Weak:** Recurring 2 healing per round for 3 rounds (6 total).
 
@@ -181,9 +133,9 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Master:** 9/15/21 healing total over 3 rounds; regrow a limb over a day.
 
-**Soulmend — Divine Spell**
+### Soulmend (Divine Spell)
 
-2 Life · Action · Touch · Wound
+**Disciplines:** 2 Life · **Action:** Action · **Range:** Touch · **Keywords:** Wound
 
 **Weak:** Restore 2 HP.
 
@@ -197,9 +149,9 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 ## Protection Spells
 
-**Ward of Faith — Divine Spell**
+### Ward of Faith (Divine Spell)
 
-1 Protection · Action · Touch · DR
+**Disciplines:** 1 Protection · **Action:** Action · **Range:** Touch · **Keywords:** DR
 
 **Weak:** The target gains +2 DR for 1 turn.
 
@@ -211,9 +163,9 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Master:** The target gains 9/15/21 DR for 1/2/3 turns.
 
-**Sanctuary — Divine Spell**
+### Sanctuary (Divine Spell)
 
-1 Protection · Action · 30 ft · Bane
+**Disciplines:** 1 Protection · **Action:** Action · **Range:** 30 ft · **Keywords:** Bane
 
 **Weak:** Attacks against the target have Bane for 1 turn.
 
@@ -225,9 +177,9 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Master:** Attacks against the target have Bane for 9/15/21 turns.
 
-**Hallowed Ground — Divine Spell**
+### Hallowed Ground (Divine Spell)
 
-2 Protection · Action · 20-ft radius · DR, Recurring
+**Disciplines:** 2 Protection · **Action:** Action · **Range:** 20-ft radius · **Keywords:** DR, Recurring
 
 **Weak:** Allies inside gain +2 DR.
 
@@ -239,9 +191,9 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Master:** Allies inside gain 9/15/21 DR; undead inside take Recurring 9 damage.
 
-**Sacred Barrier — Divine Spell**
+### Sacred Barrier (Divine Spell)
 
-2 Protection · Action · 30-ft wall · Bane
+**Disciplines:** 2 Protection · **Action:** Action · **Range:** 30-ft wall · **Keywords:** Bane
 
 **Weak:** Missile attacks across the barrier have Bane.
 
@@ -255,9 +207,9 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 ## Religion Spells
 
-**Holy Strike — Divine Spell**
+### Holy Strike (Divine Spell)
 
-1 Religion · Action · 30 ft · Radiant
+**Disciplines:** 1 Religion · **Action:** Action · **Range:** 30 ft · **Keywords:** Radiant
 
 **Weak:** 2 radiant damage.
 
@@ -269,9 +221,9 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Master:** 9/15/21 radiant damage; undead take +9.
 
-**Righteous Blow — Divine Spell**
+### Righteous Blow (Divine Spell)
 
-1 Religion · Action · Touch · Boon, Bane
+**Disciplines:** 1 Religion · **Action:** Action · **Range:** Touch · **Keywords:** Boon, Bane
 
 **Weak:** 2 radiant damage.
 
@@ -283,9 +235,9 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Master:** 9/15/21 radiant damage.
 
-**Divine Judgment — Divine Spell**
+### Divine Judgment (Divine Spell)
 
-2 Religion · Action · 30 ft · Radiant
+**Disciplines:** 2 Religion · **Action:** Action · **Range:** 30 ft · **Keywords:** Radiant
 
 **Weak:** 6 radiant damage.
 
@@ -297,9 +249,9 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Master:** 9/15/21 radiant damage.
 
-**Pillar of Light — Divine Spell**
+### Pillar of Light (Divine Spell)
 
-2 Religion · Action · 30-ft column · Radiant
+**Disciplines:** 2 Religion · **Action:** Action · **Range:** 30-ft column · **Keywords:** Radiant
 
 **Weak:** 9 radiant damage.
 
@@ -309,9 +261,9 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 Allies in the light regain 3 HP.
 
-**Radiant Beam — Divine Spell**
+### Radiant Beam (Divine Spell)
 
-1 Religion · Action · 60-ft line · Radiant
+**Disciplines:** 1 Religion · **Action:** Action · **Range:** 60-ft line · **Keywords:** Radiant
 
 **Weak:** 2 radiant damage.
 
@@ -323,9 +275,9 @@ Allies in the light regain 3 HP.
 
 **Master:** 9/15/21 radiant damage.
 
-**Turn Unholy — Divine Spell**
+### Turn Unholy (Divine Spell)
 
-1 Religion · Action · 30-ft cone · Morale check, Bane
+**Disciplines:** 1 Religion · **Action:** Action · **Range:** 30-ft cone · **Keywords:** Morale check, Bane
 
 **Weak:** Undead in the cone must make a Morale check or flee for 1 turn.
 
@@ -337,9 +289,9 @@ Allies in the light regain 3 HP.
 
 **Master:** Undead and fiends in the cone must make a Morale check or flee for 9/15/21 turns; undead are destroyed at 0 HP.
 
-**Banish — Divine Spell**
+### Banish (Divine Spell)
 
-2 Religion · Action · 30 ft · Extraplanar
+**Disciplines:** 2 Religion · **Action:** Action · **Range:** 30 ft · **Keywords:** Extraplanar
 
 **Weak:** An extraplanar target is sent away for 1 turn.
 
@@ -353,9 +305,9 @@ Allies in the light regain 3 HP.
 
 ## Animal Spells
 
-**Beast Tongue — Divine Spell**
+### Beast Tongue (Divine Spell)
 
-1 Animal · Action · 30 ft · Boon
+**Disciplines:** 1 Animal · **Action:** Action · **Range:** 30 ft · **Keywords:** Boon
 
 **Weak:** One beast obeys a simple command for 1 turn.
 
@@ -369,9 +321,9 @@ Allies in the light regain 3 HP.
 
 ## Plant Spells
 
-**Briar Wall — Divine Spell**
+### Briar Wall (Divine Spell)
 
-2 Plants · Action · 30-ft wall · Slowed, Restrained
+**Disciplines:** 2 Plants · **Action:** Action · **Range:** 30-ft wall · **Keywords:** Slowed, Restrained
 
 **Weak:** Creatures passing through take 2 piercing damage.
 
