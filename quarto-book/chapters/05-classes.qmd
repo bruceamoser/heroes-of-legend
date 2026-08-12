@@ -234,7 +234,7 @@ The Intellect embodies cerebral prowess and scholarly mastery. Your path is a re
 ::: {.callout-note}
 ## Stop and Think
 
-The Intellect's secondary ability is **Focused Mind**. Once per scene, as a Maneuver, you may spend your Movement to gain a Boon on your next Knowledge-based check. You may not move, but you see what no one else can.
+Focused Mind is the Intellect's secondary ability; see the table below.
 :::
 
 {{< pagebreak >}}
@@ -255,7 +255,7 @@ The Odd embodies eccentricity and peculiarity. With a demeanor that dances on th
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
-Pick 3 Disciplines as Home (1/2/4) at Level 1. Everything else is Adjacent (2/4/8). The Odd has no Opposed costs.
+Odd has no Home disciplines: every discipline costs 2/4/8 (Adjacent).
 
 | Discipline | Cost | Discipline | Cost |
 |------------|------|------------|------|
@@ -314,7 +314,7 @@ The Leader is a beacon of courage on the battlefield, leading from the front lin
 ::: {.callout-note}
 ## Battle Cry
 
-The Leader's secondary ability is **Battle Cry**, a thunderous shout that steadies the party's aim. Once per scene, as a Maneuver, every ally within 30 ft gains +1 damage tier on their next attack. The party remembers why they follow you.
+Battle Cry is the Leader's secondary ability; see the table below.
 :::
 
 {{< pagebreak >}}
@@ -333,7 +333,18 @@ The Unbalanced is a wild card, embodying chaos and unpredictability in every act
 
 **Class Discipline (L1):** Any Elemental (1) + 1 opposing Elemental (1)
 
-**Signature, Edge of Chaos:** On a Strong hit, deal +4 bonus damage but roll on a d6 backlash table, self-damage, a fleeting condition, or an environmental surge that affects everyone, friend and foe alike.
+**Signature, Edge of Chaos:** On a Strong hit, deal +4 bonus damage but roll on the d6 Backlash Table below.
+
+**Backlash Table (d6):**
+
+| d6 | Result |
+|----|--------|
+| 1 | You take 4 damage. |
+| 2 | Your next attack roll is at Bane. |
+| 3 | You lose your Maneuver this turn. |
+| 4 | The backlash lashes out: an adjacent enemy takes 3 damage of the spell's type. |
+| 5 | You take 2 damage; the target takes +2. |
+| 6 | Wild surge: the DA picks a minor random effect (a cantrip fires, a small object ignites, etc.). |
 
 **Favored Skills:** Arcana, Deception, Insight, Intimidation, Unarmed Fighting
 
@@ -341,7 +352,7 @@ The Unbalanced is a wild card, embodying chaos and unpredictability in every act
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
-Choose two opposing Elemental Disciplines at Level 1 (Fire/Water or Earth/Wind). Those become Home. The other two elements become Opposed. From Animal, Plants, Summon, Life, Religion, and Mind, pick 2 as Home (1/2/4), 2 as Adjacent (2/4/8), and 2 as Foreign (3/6/12).
+Choose two opposing Elemental Disciplines at Level 1 (Fire/Water or Earth/Wind). Those become Home. The other two elements become Opposed. Animal, Plants, and Energy are Home (1/2/4); Life and Summon are Adjacent (2/4/8); Religion and Mind are Foreign (3/6/12).
 
 | Discipline | Cost | Discipline | Cost |
 |------------|------|------------|------|
@@ -380,7 +391,7 @@ The Shadow is the ghost in the room, the whisper no one heard, the hand that lif
 
 **Signature, Vanish:** As a maneuver, you may attempt to disappear from sight. Make a Stealth check. On Standard+, you become invisible until the end of your next turn or until you attack. On Weak, you gain concealment instead (attacks against you have Bane). This is not magic, this is being very good at not being noticed.
 
-**Secondary, Shadow Stride:** Once per scene, when you Vanish successfully, you may immediately move up to 15 feet without provoking reactions. You appear in your new position when the invisibility ends, ideally behind someone who deserved it.
+**Secondary, Shadow Stride:** See the Shadow ability table below.
 
 **Favored Skills:** Stealth, Deception, Sleight of Hand, Thievery, Acrobatics, Perception, any Blades-family skill (Small, Long, or Great), Thrown Weapon
 
@@ -419,18 +430,18 @@ The nine classes cluster into four archetypes, each with its own flavor and its 
 
 | Archetype | Classes | Ability Pool | Vibe |
 |-----------|---------|-------------|------|
-| **Mage** | Arcanist, Intellect | 15-20 | Power through knowledge. Spells, wards, the right word at the right time. |
-| **Priest** | Shepherd, Leader | 15-20 | Power through faith. Healing, protection, inspiration. |
-| **Thief** | Blade, Shadow | 15-20 | Power through precision. Damage, infiltration, the unseen strike. |
-| **Fighter** | Protector, Unbalanced | 15-20 | Power through force. Defense, chaos, standing in the gap. |
+| **Mage** | Arcanist, Intellect | 8 | Power through knowledge. Spells, wards, the right word at the right time. |
+| **Priest** | Shepherd, Leader | 8 | Power through faith. Healing, protection, inspiration. |
+| **Thief** | Blade, Shadow | 8 | Power through precision. Damage, infiltration, the unseen strike. |
+| **Fighter** | Protector, Unbalanced | 6 | Power through force. Defense, chaos, standing in the gap. |
 
-The **Odd** occupies no archetype. It is the pure wildcard, its abilities sampling all four archetype flavors. The Odd's abilities are few but strange: Improvised Solution, Wrong Context, Everything At Once. More emerge as the Odd experiments. The Odd is the exception that proves the four-way rule. It doesn't fit. It's not supposed to.
+The **Odd** occupies no archetype. It is the pure wildcard, its abilities sampling all four archetype flavors. The Odd is the exception that proves the four-way rule. It doesn't fit. It's not supposed to.
 
 {{< pagebreak >}}
 
 ## Class Abilities {#sec-class-abilities}
 
-Every class has a list of abilities unique to it. These are the moves, spells, and tricks that define a hero's identity in play. Abilities are purchased using the flat card cost described in the Costs section below. Their real gate is Discipline prerequisites and level (Adept at 3, Master at 7). Every damaging ability is keyed to the damage budget table in @sec-damage-budget. The full lists are future work; what follows are SEED examples that prove the shape.
+Every class has a list of abilities unique to it. These are the moves, spells, and tricks that define a hero's identity in play. Abilities are purchased using the flat card cost described in the Costs section below. Their real gate is Discipline prerequisites and level (Adept at 3, Master at 7). Every damaging ability is keyed to the damage budget table in @sec-damage-budget. The abilities presented here define the class. Future supplements may expand them.
 
 ### Mage Abilities (Arcanist & Intellect)
 
@@ -469,7 +480,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
 | **Rallying Cry** | Novice | 1 Protection | As a maneuver | All allies who can hear you gain +2 on their next initiative roll or remove one Fear effect. |
-| **Read the Room** | Novice | 1 Tactics | At the start of combat | Name one enemy weakness. All allies gain +1 on attacks against that enemy for the encounter. |
+| **Read the Room** | Novice | 1 Tactics | As a Maneuver | Once per scene, choose one enemy; allies gain +1 damage tier against it until your next turn. |
 | **Battle Cry** | Novice | 1 Tactics | As a Maneuver | Once per scene, all allies within 30 ft gain +1 damage tier on their next attack. |
 | **Coordinated Strike** | Adept | 1 Protection, 1 Blades | When you hit an enemy | The next ally to attack that enemy before your next turn deals +1 damage tier. |
 | **Last Stand** | Master | 2 Protection, 1 Energy | When you are reduced to 0 HP | You remain standing for 1 additional round. All allies within sight gain +2 on all rolls and immunity to Fear for that round. |
@@ -492,6 +503,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 |---------|------|----------|---------|--------|
 | **Sap** | Novice | 1 Blades | When you attack a target that is unaware of you | Weak damage (2), but the target is dazed for 1 round. No roll to resist. |
 | **Slip Away** | Novice | 1 Stealth | As a maneuver | Move up to half your speed without provoking reactions, if you end your movement in concealment. |
+| **Shadow Stride** | Novice | 1 Stealth | When you Vanish successfully | Once per scene, you may immediately move up to 15 feet without provoking reactions. You appear in your new position when the invisibility ends. |
 | **Pick** | Novice | 1 Sleight | As an action | Open one mundane lock or disarm one simple trap. |
 | **Shadow Strike** | Adept | 1 Stealth, 1 Sleight | When you attack from Vanish invisibility | The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene. |
 | **Ghost** | Master | 2 Stealth, 1 Mind | When you Vanish successfully on a Strong stealth result | You may remain invisible until the end of the encounter or until you attack. Your first attack from this extended Vanish deals +1 damage tier. Once per session. |
@@ -524,7 +536,7 @@ The Odd's abilities are few but strange: Improvised Solution, Wrong Context, Eve
 
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
-| **Improvised Solution** | Novice | No prereq | When you attempt a skill check with a skill you don't have | You roll as if you had Novice (+1) in that skill. Once per scene. |
+| **Improvised Solution** | Novice | No prereq | When you attempt a skill check with a skill you don't have | You roll as if you had Novice (+1) in that skill. Once per scene. (See Quick Study and Fast Learner.) |
 | **Wrong Context** | Adept | 2 any (different types) | When an enemy declares an action | You may force the enemy to describe their action differently. If the DA deems your version plausible, the enemy's action has Bane. Once per scene. |
 | **Everything At Once** | Master | 3 any (across 3 different types) | When you take damage | Roll 1d4. 1: you gain +4 Armor for 1 round. 2: you heal 10 HP. 3: the attacker takes the damage instead. 4: both you and the attacker take the damage. Once per session. |
 

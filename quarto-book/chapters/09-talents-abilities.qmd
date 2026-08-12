@@ -39,7 +39,7 @@ You don't need to balance across all four. A Blade stacks Offense and Utility. A
 |------|---------|-------------|
 | **Novice** | 2 DP | Basic competency |
 | **Adept** | 4 DP | Advanced mastery (requires Novice) |
-| **Master** | 8 DP | Legendary expertise (requires Adept) |
+| **Master** | 8 DP | Legendary expertise |
 
 ::: {.callout-note}
 ## Talent Stacking: What Does and Doesn't Combine
@@ -60,7 +60,7 @@ Available to all classes. These are the talents any hero can pick up, regardless
 | Talent | Tier | Category | Effect |
 |--------|------|----------|--------|
 | **Alert** | Novice | Utility | +2 initiative. You react before others even register the threat. |
-| **Arcane Sensitivity** | Novice | Magic | +1 to spell attack rolls for one Discipline of your choice. You sense the flow of magic before others see it coming. |
+| **Arcane Sensitivity** | Novice | Utility | +1 to spell attack rolls for one Discipline of your choice. You sense the flow of magic before others see it coming. |
 | **Battlefield Assessment** | Novice | Utility | *Requires 1 Tactics.* Once per scene, before rolling initiative, you may learn whether any enemy in sight is weaker, equal, or stronger than you in combat. A heartbeat of observation tells you everything you need to know about whether to fight or flee. |
 | **Field Medic** | Novice | Support | When you restore HP to an ally (spell, kit, or ability), restore 1 additional HP. You've learned to stanch wounds with whatever is at hand. |
 | **Fleet-Footed** | Novice | Utility | +5 ft Speed. Whether from a lifetime in the wilds or too many close calls in narrow alleys, you move faster than your enemies expect. |
@@ -77,16 +77,16 @@ Available to all classes. These are the talents any hero can pick up, regardless
 | **Dungeon Delver** | Adept | Utility | +2 to all checks to detect traps, secret doors, and hidden mechanisms. You've learned that dungeons punish the unobservant. |
 | **Inspiring Presence** | Adept | Support | Once per encounter, as a Maneuver, one ally within 30 ft can immediately reroll a failed saving throw. They take the new result. Your confidence is contagious. |
 | **Iron Will** | Adept | Defense | +2 to all saves vs fear and charm. Your mind is a fortress. |
-| **Spell Reservoir** | Adept | Magic | *Requires Arcane Sensitivity.* Once per session, regain the use of one Novice or Adept spell you've already cast. Magic flows through you more freely than through others. |
+| **Spell Reservoir** | Adept | Utility | *Requires Arcane Sensitivity.* Once per scene, you may cast any one Novice or Adept spell you know a second time. Magic flows through you more freely than through others. |
 | **Refuse to Fall** | Master | Defense | Once per session, when you would drop to 0 HP, drop to 1 HP instead and gain temporary HP equal to your level. You refuse to fall. |
 | **Legendary Resilience** | Master | Defense | Once per session, when you fail a saving throw, you may choose to succeed instead. Your will reshapes reality in the moment it matters most. |
-| **Spell Storm** | Master | Magic | Once per session, when you cast a spell that targets a single creature, it instead targets all creatures of your choice within a 15-ft radius of the original target. You don't cast spells, you unleash them. |
+| **Spell Storm** | Master | Offense | Once per session, when you cast a spell that targets a single creature, it instead targets all creatures of your choice within a 15-ft radius of the original target. You don't cast spells, you unleash them. |
 
 ### Worked Example: Building a Talent Chain
 
 Kael is a dwarf Blade at Level 4. He's got 6 DP to spend and he wants to become harder to kill without sacrificing his damage output. Here's his thought process.
 
-**Current build:** Brawn +1, Agility +2. Long Blades (Adept). Stealth (Adept). He's got **Tough** (Novice) already, 12 HP instead of the base 10.
+**Current build:** Brawn +1, Agility +2. Long Blades (Adept). Stealth (Adept). He's got **Tough** (Novice) already, 14 HP instead of the base 10: 10 base + Sturdy 2 + Tough 2.
 
 **Option A, Defense stack:** Buy Tough → Adept. That's not how Tough works, it doesn't have an Adept version. It's a one-tier talent. Cross that off.
 
@@ -110,9 +110,9 @@ Each class has 2-3 exclusive talents. These define your class identity mechanica
 
 **Shepherd:** **Blessed Touch** (Adept), healing spells always use Standard effect minimum. **Miracle Worker** (Master), once per session, prevent an ally's death.
 
-**Intellect:** **Quick Study** (Novice), once per session, gain Novice rank in a skill you don't have for one check.
+**Intellect:** **Quick Study** (Novice), once per session, gain Novice rank in a skill you don't have for one check. (Fast Learner, the Human gift, is this same trick; see @sec-chapter-ancestries.)
 
-**Odd:** The Odd may take class talents from any class (sampling all four archetypes), but pays the listed cost and may not stack duplicates. **Chaotic Insight** (Novice), once per session, reroll any roll; the reroll uses a fresh d6.
+**Odd:** The Odd may take class talents from any class (sampling all four archetypes), but pays the listed cost and may not stack duplicates. **Chaotic Insight** (Novice), once per session, reroll any roll; reroll the entire 3d6, and the reroll uses fresh dice.
 
 **Leader:** **Rally the Troops** (Novice), once per session, all allies within 30 ft remove one Fear effect.
 

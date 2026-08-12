@@ -153,7 +153,7 @@ When your reputation reaches Allied (+3) with a faction, or when your Group Repu
 
 **Followers use simple NPC stat blocks** (Guard, Bandit, Cultist, see @sec-chapter-bestiary). They maintain the stronghold, handle mundane tasks, and provide minor mechanical benefits:
 
-- **Garrison soldiers:** +1 to stronghold defense rolls for every 5 soldiers stationed.
+- **Garrison soldiers:** +1 when the stronghold is attacked, for every 5 soldiers stationed.
 - **Scholars and sages:** Reduce Research action time by half (stack with the stronghold's Research benefit).
 - **Craftspeople:** Craft one common item (non-magical, value up to 25 gp) per session at no gold cost, just materials.
 - **Spies and informants:** Once per session, learn one rumor from a nearby settlement without spending an action.

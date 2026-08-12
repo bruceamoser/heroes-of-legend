@@ -143,7 +143,7 @@ Your culture is how you were raised. It's not just flavor, it's the skills and D
 
 Your ancestry isn't just a Discipline and a trait. It's a bloodline, and bloodlines carry gifts. These are abilities unique to each ancestry, inherited, not learned. They follow the same card format as class abilities and the same Novice/Adept/Master ladder, but they represent innate talent, not training. You can buy them with DP just like any other ability, at the same flat card cost regardless of class (see @sec-chapter-character-creation).
 
-**Rule:** No ancestry gift may out-perform a class ability at the same tier. These are flavor, not shortcuts. A Human can't out-heal a Shepherd. An Elf can't out-stab a Blade. Gifts are your birthright, not your class replacement.
+**Rule:** No ancestry gift may out-perform a class ability at the same tier. Where a gift resembles a class ability, the class ability wins. These are flavor, not shortcuts. A Human can't out-heal a Shepherd. An Elf can't out-stab a Blade. Gifts are your birthright, not your class replacement.
 
 ### Human Gifts
 
@@ -151,7 +151,7 @@ Humans are adaptable. Their gifts lean into that versatility, letting them dabbl
 
 | Gift | Tier | Effect |
 |------|------|--------|
-| **Fast Learner** | Novice | Once per session, you may use a skill you don't have at Novice (+1) for a single check. |
+| **Fast Learner** | Novice | Once per session, you may use a skill you don't have at Novice (+1) for a single check. (See Quick Study, the Intellect class talent.) |
 | **Die Hard** | Novice | When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session. Dying can wait. |
 | **Jack of All Trades** | Adept | You may gain one skill at Novice rank for free. Choose the skill when you buy this gift. Humans get by on being just good enough at just enough things. |
 | **Second Wind** | Adept | Once per scene, as a maneuver, you may regain 6 HP. |

@@ -28,9 +28,9 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Bane:** An extra d6 added to a 3d6 roll where you keep the *lowest* three. The opposite of a boon. Applied by the DA for severe disadvantage.
 
-**Critical:** Three natural 6s on 3d6. Automatic Strong success plus a bonus effect from the Critical table. About a 1-in-200 chance.
+**Critical:** Three natural 6s on 3d6. Automatic Strong success plus a bonus effect from the Critical table. About a 1 in 216 chance.
 
-**Fumble:** Three natural 1s on 3d6. Automatic failure plus a complication. About a 1-in-200 chance. The table groans.
+**Fumble:** Three natural 1s on 3d6. Automatic failure plus a complication. About a 1 in 216 chance. The table groans.
 
 **Success Tier:** The three bands of outcome: Weak (1-8), Standard (9-14), Strong (15-18+). Every roll lands in one of these.
 
@@ -39,6 +39,12 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 **Standard:** Full, clean success. The thing you attempted works as intended.
 
 **Strong:** Exceptional success. Extra effect, bonus damage, additional information, or sheer style.
+
+**Damage Budget:** The master table every damaging spell, ability, and maneuver keys to. Novice 2/4/6, Adept 6/9/12, Master 9/15/21 (Weak/Standard/Strong). See @sec-damage-budget.
+
+**Flat Damage:** Damage taken straight from the damage budget row with no attribute added. Arrows, thrown weapons, most spell chains, and all monsters use flat damage.
+
+**Attribute-Scaled Damage:** Damage that adds a keyed attribute to a base value. For spells and abilities, the base is budget − 3 plus the card's stated attribute; melee weapons add Brawn (or the attack attribute).
 
 {{< pagebreak >}}
 
@@ -50,13 +56,13 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Background:** Level 0. Your hero's life before adventuring. Governed by Background DP (8 + Knowledge + Fortitude).
 
-**Class:** Your hero's calling, Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, or Unbalanced. Determines favored skills, favored Disciplines, and signature ability.
+**Class:** Your hero's calling, Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced, or Shadow. Determines favored skills, favored Disciplines, and signature ability.
 
 **Culture:** Your upbringing within your ancestry. Grants a +1 skill bonus and either two specific Disciplines or one free Discipline.
 
 **Development Points (DP):** The currency of character creation and advancement. Spent to purchase skills, abilities, and Disciplines. Skills and abilities cost a flat rate by tier (Novice 2 DP, Adept 4 DP, Master 8 DP). Disciplines cost different amounts per class depending on their cost structure (Home, Adjacent, Foreign, Opposed).
 
-**Discipline:** A prerequisite resource representing mastery of a domain. Disciplines come in types: Elemental (Fire, Earth, Wind, Water), Weapon (Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed), Defense (Protection, Armor), Primal (Animal, Plants), Arcane (Energy), Divine (Life, Religion), and Esoteric (Mind, Summon). Each class has a cost table showing the DP price for each rank in each discipline (see @sec-chapter-classes).
+**Discipline:** A prerequisite resource representing mastery of a domain. Disciplines come in types: Elemental (Fire, Earth, Wind, Water), Weapon (Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed), Defense (Protection, Armor), Primal (Animal, Plants), Arcane (Energy), Divine (Life, Religion), Esoteric (Mind, Summon), Subterfuge (Stealth, Sleight), and Knowledge (Lore, Tactics). Each class has a cost table showing the DP price for each rank in each discipline (see @sec-chapter-classes).
 
 **HP (Health Points):** How much damage you can take before falling unconscious. Starting HP = 10 + Fortitude + Knowledge. Gain Fortitude modifier HP each level (minimum 1).
 
@@ -68,13 +74,15 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Master:** The third tier. Grants +3 bonus. Unlocks a powerful maneuver for skills. Flat cost: 8 DP. Requires Adept. Unlocks at Level 7.
 
-**Maneuver:** A special technique unlocked by Adept or Master skill rank. Spent as your Maneuver for the turn.
+**Rank:** A single step of a Discipline, from 1 to 3. Cards require Discipline ranks as prerequisites: Novice 1, Adept 2, Master 3. A hero's maximum in any single Discipline is 3 ranks.
 
 **Signature Ability:** The unique power granted by your class at Level 1. Defines your class identity mechanically.
 
-**Skill:** A trained competency. Ranges from Novice (+1) to Master (+3). Includes combat skills (Blades Fighting), knowledge skills (Arcana), social skills (Persuasion), and physical skills (Athletics).
+**Eccentric Spellcasting:** The Odd's signature ability. Choose one arcane ability and one divine ability; you ignore prerequisite Disciplines for these two (level requirements still apply) and need no arcane focus or holy symbol.
 
-**Talent:** A passive benefit purchased with DP. Always on. Does not require activation. Examples: Tough (+2 HP), Lucky (reroll one 1 per session).
+**Skill:** A trained competency. Ranges from Novice (+1) to Master (+3). Includes combat skills (Small/Long/Great Blades), knowledge skills (Arcana), social skills (Persuasion), and physical skills (Athletics).
+
+**Talent:** A passive benefit purchased with DP. Always on. Does not require activation. Examples: Tough (+2 HP), Fortune's Favor (reroll one natural 1 per session).
 
 **Trait:** An ancestry-granted special ability. Human: Versatile. Elf: Elven Grace. Dwarf: Sturdy. Halfling: Lucky.
 
@@ -84,7 +92,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Action:** The main thing you do on your turn. Attack, cast a spell, activate an ability, Dash. One per turn.
 
-**Maneuver (combat resource):** A secondary resource spent on basic maneuvers (Defend, Shove) or skill-granted maneuvers (Riposte, Cleave). One per turn.
+**Maneuver:** A secondary resource spent on basic maneuvers (Defend, Shove) or skill-granted maneuvers unlocked by Adept or Master skill rank (Riposte, Cleave). One per turn.
 
 **Movement:** How far you can move on your turn. Usually 30 ft. Can be broken up before and after your Action.
 
@@ -120,7 +128,11 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Dying:** At 0 HP, you fall Unconscious and roll 3d6 each turn to determine if you stabilize, worsen, or die.
 
-**Wounded:** Below half HP. Healing received is halved while Wounded.
+**Wounded:** Below half your maximum HP. See Wound for what happens when you drop below half HP during an encounter.
+
+**Wound:** A lasting injury from combat. The first time you drop below half your maximum HP during an encounter, you gain a Wound and roll on the Wound Table (see @sec-chapter-combat). Wounds linger after HP is restored and heal one per long rest.
+
+**Thunder:** A damage type: concussive sound and shockwaves. Part of the Elemental family alongside Fire, Cold, Lightning, Acid, and Poison.
 
 {{< pagebreak >}}
 
@@ -146,7 +158,9 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Challenge Rating (Challenge):** A measure of monster difficulty. Roughly equivalent to the level of a party that would find the monster a Standard encounter.
 
-**Difficulty Modifier:** A bonus or penalty the DA applies to a roll based on how hard the task is. Ranges from +3 (Trivial) to -6 (Nearly Impossible).
+**Challenge ½ (C½):** The minion-tier Challenge rating. Creatures at Challenge ½ (goblins, bandits, cultists) are individually weak and meant to be fought in numbers.
+
+**Difficulty Modifier:** A bonus or penalty the DA applies to a roll based on how hard the task is. Ranges from +4 (Trivial) to -6 (Nearly Impossible).
 
 **Passive Insight:** A creature's baseline ability to detect lies and hidden threats. Calculated as Knowledge score + 7.
 

@@ -61,36 +61,6 @@ Printed in TBD
 
 {{< pagebreak >}}
 
-## Table of Contents
-
-*Detailed table of contents to be generated from chapter headings during layout. Chapters are:*
-
-1. Introduction
-2. Creating Your Hero
-3. Attributes
-4. Ancestries & Cultures
-5. Classes
-6. Core Resolution
-7. Skills
-8. Disciplines
-9. Talents & Abilities
-10. Magic System
-11. Arcane Spells
-12. Divine Spells
-13. Combat
-14. Social Conflict
-15. Equipment
-16. Armor & Shields
-17. Magic Items
-18. Advancement
-19. GM Guidance
-20. Bestiary
-21. Glossary
-22. Quick Reference Sheets
-23. License
-
-{{< pagebreak >}}
-
 ## Dedication
 
 *For everyone who ever rolled dice in a basement, a kitchen, a convention hall, or a voice call with friends a thousand miles away. The table is wherever you bring it.*
