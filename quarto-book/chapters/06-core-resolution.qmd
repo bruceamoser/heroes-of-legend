@@ -118,7 +118,7 @@ A goblin lunges at Kael with a rusty shortsword. The DA says: "The goblin's atta
 
 Kael has Agility +2 and no Armor or Shields training. He rolls 3d6 + 2 (Agility) − 1 (goblin's Challenge) = 3d6 + 1.
 
-He rolls 4, 3, 5 = 13. **Standard.** The goblin's Standard damage is 3. Kael's leather armor (DR 2) reduces it to 1. The goblin's blade scrapes across his ribs — shallow, painful, but not dangerous.
+He rolls 4, 3, 5 = 13. **Standard.** The goblin's Standard damage is 3. Kael's leather armor (DR 2) reduces it to 1. The goblin's blade scrapes across his ribs: shallow, painful, but not dangerous.
 
 Later, a Knight of the Iron Circle attacks Kael. "Challenge −3," the DA says. Kael rolls 3d6 + 2 − 3 = 3d6 − 1. He rolls 2, 3, 2 = 7 − 1 = 6. **Weak.** The Knight's Strong damage is 5. Kael's armor reduces it to 3. That one hurt.
 

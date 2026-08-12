@@ -204,7 +204,7 @@ Weapons follow their own damage curve (see the Equipment chapter): daggers 1/2/3
 
 ## Worked Example: Building a Fire Mage
 
-Sera wants to burn the world. She's an Arcanist — her class gives her 1 Fire and 1 Energy at creation. Her ancestry and culture grant additional Disciplines as well.
+Sera wants to burn the world. She's an Arcanist. Her class gives her 1 Fire and 1 Energy at creation. Her ancestry and culture grant additional Disciplines as well.
 
 **Novice (Firebolt):** Requires 1 Fire. Sera has 1 Fire. She qualifies immediately. Firebolt costs 2 DP (flat card cost), and her Arcanist home cost for Fire rank 1 was already paid at creation. Firebolt is hers on day one.
 

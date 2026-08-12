@@ -250,7 +250,7 @@ Total: 8 DP. All spent.
 
 **Step 7, Class DP (8 DP):**
 
-- Improvised Solution (Novice ability, 2 DP), the Odd's own Novice ability — no prereq
+- Improvised Solution (Novice ability, 2 DP), the Odd's own Novice ability, no prereq
 - Bow Fighting Novice (2 DP)
 - Streetwise Novice (2 DP)
 - Acrobatics Novice (2 DP)

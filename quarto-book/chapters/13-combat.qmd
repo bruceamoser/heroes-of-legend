@@ -370,7 +370,7 @@ Rolls 3d6 + Brawn (+2) + Long Hammers Novice (+1). Rolls 3, 3, 2 = 8 + 3 = 11. *
 
 Lyra's shoulder burns from the Dark Bolt, but she's an Odd, when things go wrong, she gets interesting.
 
-"I cast *Firebolt* at the cultist who hit me. No Fire Discipline — my **Eccentric Spellcasting** covers it." Lyra chose Firebolt as one of her two unrestricted abilities at creation, ignoring the Fire Discipline prerequisite.
+"I cast *Firebolt* at the cultist who hit me. No Fire Discipline. My **Eccentric Spellcasting** covers it." Lyra chose Firebolt as one of her two unrestricted abilities at creation, ignoring the Fire Discipline prerequisite.
 
 Firebolt roll: 3d6 + Knowledge (+2). Rolls 6, 6, 1 = 13 + 2 = 15. **Strong.** Firebolt Strong damage: 6 fire. The cultist has no armor. 6 damage straight through. The cultist screams as fire engulfs his robes, collapsing in a heap.
 
