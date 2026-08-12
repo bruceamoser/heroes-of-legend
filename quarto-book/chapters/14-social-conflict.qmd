@@ -95,11 +95,11 @@ The party needs passage through the Ironwood, a dense forest controlled by the T
 
 **The DA:** "Roll Insight. Standard difficulty."
 
-*Lyra rolls:* 3d6 + Reason (+1) + Insight Novice (+1). Result: 5, 2, 4 = 11 + 2 = 13. **Strong.**
+*Lyra rolls:* 3d6 + Reason (+1) + Insight Novice (+1). Result: 5, 2, 4 = 11 + 2 = 13. **Standard.**
 
-**The DA:** "You catch it, a microexpression when he said 'humans.' He lost someone to human bandits. Years ago. This isn't about you. It's about old wounds. You can use that."
+**The DA:** "You catch a flicker of old anger when he said 'humans.' Something personal behind the hostility. Not just standard suspicion. You can use that."
 
-**Lyra:** "I soften my voice. 'We're not them. Whoever hurt your people, we're hunting the same kind of monster.' Persuasion, using the Insight lead."
+**Lyra:** "I soften my voice. 'Whatever happened, we're not them. We're here to stop the people who hurt yours, not add to it.' Persuasion, using the Insight lead."
 
 *Lyra rolls:* 3d6 + Guile (+1) + Persuasion (no skill, just attribute). DA gives +1 for the Insight Boon. Result: 3, 6, 5 = 14 + 2 = 16. **Strong.**
 
