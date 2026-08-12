@@ -83,7 +83,7 @@ Spend gold on legendary parties to boost reputation. 100 gp = +1 reputation for 
 
 ## Titles
 
-Earned titles grant mechanical benefits. Examples: **Dragonslayer** (+1 damage vs dragons), **Knight of the Realm** (free lodging at any inn), **Archmage** (one free Adept spell chain).
+Earned titles grant mechanical benefits. Examples: **Dragonslayer** (+1 damage vs dragons), **Knight of the Realm** (free lodging at any inn), **Archmage** (one free Adept spell).
 
 {{< pagebreak >}}
 

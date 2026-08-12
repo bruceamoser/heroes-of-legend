@@ -101,12 +101,12 @@ Skills, abilities, and talents require specific Disciplines before you can learn
 | Longsword | 2 Blades | Adept |
 | Dagger | 1 Blades | Novice |
 | Greataxe | 2 Axes + 1 Heavy Weapon | Master |
-| Fireball | 2 Fire | Adept |
-| Volcanic Eruption | 2 Fire, 1 Earth | Master |
+| Brimstone Burst | 2 Fire | Adept |
+| Pillar of Light | 2 Religion | Master |
 | Chain Mail | 2 Armor | Adept |
 | Shield Block | 1 Protection | Novice |
 | Animal Companion | 2 Animal | Adept |
-| Magic Missile | 1 Energy | Novice |
+| Force Dart | 1 Energy | Novice |
 | Counterspell | 2 Energy | Adept |
 
 ## The Discipline Ladder
@@ -139,15 +139,15 @@ Each class pays a different price for each Discipline rank depending on how alig
 The total cost of a card = its flat card DP cost + the sum of the discipline rank costs from your class's structure for each required discipline.
 
 ::: {.callout-note}
-## Worked Total-Cost Example: Firebolt vs Fireball
+## Worked Total-Cost Example: Ember Lance vs Brimstone Burst
 
 The flat card DP cost is only part of the price. You also pay rank costs for any required disciplines you do not already possess.
 
-**Firebolt (Novice, 1 Fire):**
+**Ember Lance (Novice, 1 Fire):**
 - **Protector** pays flat 2 DP + Fire rank 1 at Opposed cost (4 DP) = **6 DP total**.
 - **Arcanist** pays flat 2 DP + Fire rank 1 at Home (1 DP) = **3 DP total**.
 
-**Fireball (Adept, 2 Fire):**
+**Brimstone Burst (Adept, 2 Fire):**
 - **Fighter** (no existing Fire) pays flat 4 DP + Fire rank 1 at Opposed (4 DP) + Fire rank 2 at Opposed (8 DP) = **16 DP total**.
 - **Arcanist** (already has Fire rank 1 from creation) pays flat 4 DP + Fire rank 2 at Home (2 DP) = **6 DP total**. If the Arcanist did not have Fire rank 1 yet, the total would be flat 4 + rank 1 (1 DP) + rank 2 (2 DP) = **7 DP**.
 
@@ -189,13 +189,13 @@ Every damaging spell, ability, and maneuver in *Heroes of Legend* is built on a 
 
 There is no damage roll. The outcome of your attack or casting roll (Weak, Standard, or Strong) determines your damage from the budget table. The hit roll is the damage roll.
 
-The numbers are flat damage points. A Novice Firebolt deals 2 damage on a Weak result, 4 on Standard, 6 on Strong. An Adept Fireball deals 6/9/12. A Master Volcanic Eruption deals 9/15/21. These are flat numbers. No dice. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
+The numbers are flat damage points. A Novice Ember Lance deals 2 damage on a Weak result, 4 on Standard, 6 on Strong. An Adept Brimstone Burst deals 6/9/12. A Master card deals 9/15/21. These are flat numbers. No dice. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
 
 See @sec-chapter-arcane-spells and @sec-chapter-divine-spells for the full spell lists. See @sec-chapter-classes for class abilities keyed to this budget.
 
 Every damaging card states its expression in its damage line as either **Flat** or **Attribute-Scaled.**
 
-**Flat** damage uses the budget row exactly as listed (Novice 2/4/6, Adept 6/9/12, Master 9/15/21). Arrows, missile ammunition, thrown weapons, most spell chains, and all monsters use flat damage. No attribute is added.
+**Flat** damage uses the budget row exactly as listed (Novice 2/4/6, Adept 6/9/12, Master 9/15/21). Arrows, missile ammunition, thrown weapons, most spells, and all monsters use flat damage. No attribute is added.
 
 **Attribute-Scaled** damage adds a keyed attribute to a base value, minimum 1 damage. For spells and abilities, the base is budget − 3 (Novice 1/2/3, Adept 3/6/9, Master 6/12/18), plus the card's stated attribute (e.g. "1/2/3 + Knowledge"). Melee weapons use their listed damage values and add Brawn (Finesse weapons use Agility instead of Brawn for attack and damage; features like Swift Blade may also substitute Agility). Missile weapons and ammunition are flat.
 
@@ -208,12 +208,12 @@ Weapons follow their own damage curve (see the Equipment chapter): daggers 1/2/3
 
 Sera wants to burn the world. She's an Arcanist. Her class gives her 1 Fire and 1 Energy at creation. Her ancestry and culture grant additional Disciplines as well.
 
-**Novice (Firebolt):** Requires 1 Fire. Sera has 1 Fire. She qualifies immediately. Firebolt costs 2 DP (flat card cost), and her Arcanist home cost for Fire rank 1 was already paid at creation. Firebolt is hers on day one.
+**Novice (Ember Lance):** Requires 1 Fire. Sera has 1 Fire. She qualifies immediately. Ember Lance costs 2 DP (flat card cost), and her Arcanist home cost for Fire rank 1 was already paid at creation. Ember Lance is hers on day one.
 
-**Adept (Fireball):** Requires 2 Fire. Sera has 1 Fire, so she needs one more. At level 3 she takes Fire (now 2 Fire) and buys Fireball the moment the Adept gate opens. Most casters need several levels to reach Adept. Arcanists walk a shorter path to the flame.
+**Adept (Brimstone Burst):** Requires 2 Fire. Sera has 1 Fire, so she needs one more. At level 3 she takes Fire (now 2 Fire) and buys Brimstone Burst the moment the Adept gate opens. Most casters need several levels to reach Adept. Arcanists walk a shorter path to the flame.
 
-**Master (Volcanic Eruption):** Requires 2 Fire + 1 Earth. Sera has 2 Fire and 1 Energy after level 3, so she needs Earth. At level 6 she takes Earth (now 2 Fire, 1 Earth, 1 Energy). When the Master tier unlocks at level 7, she qualifies for Volcanic Eruption. She could branch into Protection for defense, Animal for a familiar, or continue deepening her elemental mastery.
+**Master (Ember Lance at Master rank):** Sera's Ember Lance, bought up to Master rank, deals 9/15/21 fire damage with Piercing 3 and a burning patch that deals 2 damage per round for 3 rounds. When the Master tier unlocks at level 7, she can take that rank. She could branch into Earth for a 3-Discipline Master card, Protection for defense, Animal for a familiar, or continue deepening her elemental mastery.
 
-Seven levels to master volcanic fury. Disciplines got her to Master. No shortcuts. No wildcards. Just the path, walked one step at a time.
+Seven levels to master the fire. Disciplines got her to Master. No shortcuts. No wildcards. Just the path, walked one step at a time.
 
-That's the Discipline system working as intended. Master spells should be achievable before your campaign's climax, but they should still mean something when you cast them. A level 7 Volcanic Eruption says "I built for this." When Sera calls down the mountain's fury, everyone at the table knows she paid for it.
+That's the Discipline system working as intended. Master spells should be achievable before your campaign's climax, but they should still mean something when you cast them. A Master-rank Ember Lance says "I built for this." When Sera's lance becomes a pillar of flame, everyone at the table knows she paid for it.

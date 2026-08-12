@@ -128,7 +128,7 @@ Not all wounds are created equal. A slash bleeds. A burn blisters. A psychic ass
 
 **Magical:** Force, Radiant, Necrotic, Psychic. The esoteric damage types. Force is raw magical energy, the wizard's hammer. Radiant is divine light, the shepherd's fire. Necrotic is death made manifest, the unbalancing touch. Psychic attacks the mind directly. The brain has no armor.
 
-Resistances and vulnerabilities modify damage of specific types. A creature resistant to Fire takes half damage from your Firebolt (round down). A creature vulnerable to Slashing takes double from your longsword. The DA will tell you when it matters. Part of the game's fun is discovering, through play, that the shambling horror in the swamp stops regenerating when you hit it with fire.
+Resistances and vulnerabilities modify damage of specific types. A creature resistant to Fire takes half damage from your Ember Lance (round down). A creature vulnerable to Slashing takes double from your longsword. The DA will tell you when it matters. Part of the game's fun is discovering, through play, that the shambling horror in the swamp stops regenerating when you hit it with fire.
 
 {{< pagebreak >}}
 
@@ -368,9 +368,9 @@ Rolls 3d6 + Brawn (+2) + Long Hammers Novice (+1). Rolls 3, 3, 2 = 8 + 3 = 11. *
 
 Lyra's shoulder burns from the Dark Bolt, but she's an Odd, when things go wrong, she gets interesting.
 
-"I cast *Firebolt* at the cultist who hit me. No Fire Discipline. My **Eccentric Spellcasting** covers it." Lyra chose Firebolt as one of her two unrestricted abilities at creation, ignoring the Fire Discipline prerequisite.
+"I cast *Ember Lance* at the cultist who hit me. No Fire Discipline. My **Eccentric Spellcasting** covers it." Lyra chose Ember Lance as one of her two unrestricted abilities at creation, ignoring the Fire Discipline prerequisite.
 
-Firebolt roll: 3d6 + Knowledge (+1). Rolls 6, 6, 1 = 13 + 1 = 14. **Standard.** Firebolt Standard damage: 4 fire. The cultist has no armor. 4 damage straight through. The cultist staggers, his robes smoking, badly burned but still on his feet.
+Ember Lance roll: 3d6 + Knowledge (+1). Rolls 6, 6, 1 = 13 + 1 = 14. **Standard.** Ember Lance Standard damage: 4 fire. The cultist has no armor. 4 damage straight through. The cultist staggers, his robes smoking, badly burned but still on his feet.
 
 The chaos of the blast catches: Lyra's spell may not need Fire, but the backlash from bending the rules doesn't care. The second cultist, standing too close to his wounded ally, is singed for 2 damage, now bloodied. Both cultists are hurt and angry, and now both are looking at Lyra.
 
