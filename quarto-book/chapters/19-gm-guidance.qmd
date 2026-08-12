@@ -28,7 +28,7 @@ A scene is a unit of story. It has a beginning (the party enters the throne room
 
 **Use scene framing to control pace.** After a tense combat, give the party a quiet scene — a campfire conversation, a victory toast at the tavern. After three quiet scenes, hit them with something urgent. Pace isn't about speed. It's about rhythm. Fast, slow, fast, slow. Your players' attention spans will thank you.
 
-**When in doubt, ask the table.** "Do you want to play out the journey, or shall we cut to the gates of Thornwall?" Sometimes players want the quiet scenes. Sometimes they want to get to the action. You're not a mind reader. Ask. It's not breaking immersion; it's respecting everyone's time.
+**When in doubt, ask the table.** "Do you want to play out the journey, or shall we cut to the gates of Thornwell?" Sometimes players want the quiet scenes. Sometimes they want to get to the action. You're not a mind reader. Ask. It's not breaking immersion; it's respecting everyone's time.
 
 {{< pagebreak >}}
 
@@ -72,7 +72,7 @@ Treasure is the reward system. It's how the game says "you did something impress
 
 **Consumables are your secret weapon.** Potions, scrolls, and single-use magic items are the easiest treasure to hand out because they don't permanently shift the party's power level. A potion of flight solves one encounter brilliantly. Boots of flight solve every encounter forever. Be generous with consumables. Be stingy with permanents. Your future self, trying to challenge a party that can all fly, will thank you.
 
-**Let players use their treasure creatively.** If the party wants to spend their gold on a tavern, let them. The tavern becomes a story engine — rumors, rivals, arson, the health inspector who's actually a vampire. If they want to commission a custom magic item, work with them on the design. Make them quest for the rare component. The best treasure isn't found in a hoard; it's built over a campaign.
+**Let players use their treasure creatively.** If the party wants to spend their gold on a tavern, let them. The tavern becomes a story engine — rumors, rivals, arson, the new undertaker. If they want to commission a custom magic item, work with them on the design. Make them quest for the rare component. The best treasure isn't found in a hoard; it's built over a campaign.
 
 {{< pagebreak >}}
 
@@ -124,13 +124,13 @@ Overland travel uses a simple pace system. Each day, the party covers distance b
 | Mountain/Swamp | 12 miles | 18 miles |
 | Desert/Tundra | 15 miles | 21 miles |
 
-**Navigation:** Each day, one character makes a Survival (Knowledge) roll. Standard result: stay on course. Weak result: veer off course (1d6 extra hours). Strong result: find a shortcut (-2 hours).
+**Navigation:** Each day, one character makes a Survival (Fortitude) roll. Standard result: stay on course. Weak result: veer off course (1d6 extra hours). Strong result: find a shortcut (-2 hours).
 
 **Random Encounters:** Roll 1d6 each day and night. On a 1, an encounter occurs. DA chooses or rolls from environment-specific tables.
 
 **Camping:** A long rest follows the standard rules (see Resting above): 8 hours of rest including sleep, recovering 1 HP per level and healing 1 wound (plus 1 additional wound with a Standard Medicine check). Characters on watch may make Perception checks at -2 (tired eyes).
 
-> **DA Guidance:** Travel is a pacing tool. Use it to build atmosphere, the oppressive silence of a swamp, the howling wind on a mountain pass. Skip travel entirely when the journey isn't the story. "After three days on the road, you arrive at the gates of Thornwall" is perfectly valid.
+> **DA Guidance:** Travel is a pacing tool. Use it to build atmosphere, the oppressive silence of a swamp, the howling wind on a mountain pass. Skip travel entirely when the journey isn't the story. "After three days on the road, you arrive at the gates of Thornwell" is perfectly valid.
 
 {{< pagebreak >}}
 
@@ -250,7 +250,7 @@ Run this as a group skill challenge. Each character makes one skill check. They 
 
 | Task | Skill | Difficulty |
 |------|-------|------------|
-| Pick the safest path through the mud flats | Survival (Knowledge) | Standard |
+| Pick the safest path through the mud flats | Survival (Fortitude) | Standard |
 | Spot unstable ground before someone steps on it | Perception (Knowledge or Reason) | Standard |
 | Wade the flooded sections without losing gear | Athletics (Brawn) | Standard |
 | Climb the collapsed riverbank to the door | Athletics (Brawn) | Standard (Harder, -2 if already wet) |
@@ -345,7 +345,7 @@ If the party stays, the ceiling begins to collapse. They have 3 rounds to escape
 The party emerges from the vault, wet, exhausted, and alive. Behind them, the stone doorway collapses into the river with a sound like a giant exhaling. The glyphs go dark. Whatever was down there is done.
 
 **Treasure:** If the party searched the sanctum before fleeing (or if they go back later after the water recedes), they find:
-- Kelvath's circlet, a **Circlet of the Warden** (magic item: once per day, grants +2 to a saving throw against being moved, knocked prone, or restrained by water, wind, or earth effects)
+- Kelvath's circlet, a **Circlet of the Warden** (magic item: once per day, grants +2 to a save against being moved, knocked prone, or restrained by water, wind, or earth effects)
 - 120 gp in old imperial coin (worth double to a collector, standard to a merchant)
 - A **Waterlogged Spell Scroll**, contains one Novice spell of the DA's choice from the Arcane or Divine list
 
@@ -518,7 +518,7 @@ Spells are the most structured. Every spell card answers the same questions in t
 | **Range** | How far the spell reaches: Touch, 30 ft, 60 ft, Self (15-ft cone), etc. |
 | **Duration** | How long the spell lasts: Instantaneous, Concentration up to 1 minute, 1 hour, etc. |
 | **Effect (W/S/St)** | What happens on a Weak, Standard, or Strong result. Damage uses the budget table (@sec-damage-budget). |
-| **Narrative link** | A sentence in italics that ties this spell to the next tier in the chain. Not a rule. A story bridge. |
+| **Narrative link** | A sentence in italics that captures the spell's flavor, a thematic riff, a moment of color. Not a rule. A story beat. |
 
 **Example (Fireball):**
 
