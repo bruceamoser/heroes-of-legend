@@ -32,79 +32,37 @@ One roll. Three outcomes. No separate casting check, no concentration roll, no s
 
 {{< pagebreak >}}
 
-## Spell Chains: Novice → Adept → Master
+## Spell Cards: Novice → Adept → Master
 
-Spells don't exist in isolation. They're organized into **chains**, three-tier progressions where each spell builds on the one before it. You start with the Novice version. You earn the Adept. You aspire to the Master.
+Every spell is an **individual card**. There are no chains: you buy the spell you want, when you want it. Each card carries its Disciplines requirement, Action, Range, and Keywords, then its effects in Weak, Standard, and Strong outcomes, with Adept and Master additions on top.
 
-| Chain | Novice | Adept | Master |
-|-------|--------|-------|--------|
-| **Arcane Chains** | | | |
-| Firebolt | Firebolt | Fireball | Volcanic Eruption |
-| Burning Hands | Burning Hands | Wall of Fire | Inferno |
-| Scorching Ray | Scorching Ray | Flame Strike | Meteor Swarm |
-| Frost Ray | Frost Ray | Ice Storm | Blizzard |
-| Chill Touch | Chill Touch | Freeze Solid | Glacial Prison |
-| Frost Armor | Frost Armor | Ice Shield | Frozen Aegis |
-| Shock | Shock | Lightning Bolt | Chain Lightning |
-| Static Field | Static Field | Thunderclap | Storm Call |
-| Acid Splash, Greater | Acid Splash, Greater | Caustic Spray | Dissolve |
-| Corrode | Corrode | Melt Armor | Acid Pit |
-| Magic Missile | Magic Missile | Force Lance | Disintegrate |
-| Push | Push | Levitate | Telekinesis |
-| Shield | Shield | Arcane Barrier | Prismatic Wall |
-| Minor Image | Minor Image | Major Image | Phantasmal Force |
-| Blur | Blur | Invisibility | Greater Invisibility |
-| Befriend | Befriend | Suggestion | Dominate |
-| Daze | Daze | Confusion | Mass Confusion |
-| Vampiric Touch | Vampiric Touch | Greater Vampiric Touch | Finger of Death |
-| Raise Skeleton | Raise Skeleton | Animate Dead | Create Undead |
-| Enhance | Enhance | Haste | Time Stop |
-| Stone Skin | Stone Skin | Iron Body | Diamond Form |
-| Stone Spikes | Stone Spikes | Earthquake | Fissure |
-| Gust | Gust | Wind Wall | Whirlwind |
-| Force Bolt | Force Bolt | Force Wave | Force Crush |
-| Cause Fear | Cause Fear | Fear | Phantasmal Killer |
-| Arcane Ward | Arcane Ward | Spell Shield | Spell Turning |
-| Summon Familiar | Summon Familiar | Conjure Elemental | Planar Binding |
-| Cloak of Shadow | Cloak of Shadow | Shadow Step | Shadow Form |
-| Arcane Blade | Arcane Blade | Elemental Weapon | Blade of Disaster |
-| Burden | Burden | Crushing Force | Reverse Gravity |
-| **Divine Chains** | | | |
-| Heal Wounds | Heal Wounds | Restoration | Mass Heal |
-| Purify | Purify | Cleanse | Resurrection |
-| Bolster | Bolster | Regeneration | True Life |
-| Soothe | Soothe | Remove Affliction | Miracle Cure |
-| Revivify | Revivify | Raise Dead | True Resurrection |
-| Shield of Faith | Shield of Faith | Sanctuary | Holy Aegis |
-| Bless | Bless | Divine Favor | Crusader's Mantle |
-| Ward | Ward | Magic Circle | Divine Barrier |
-| Holy Strike | Holy Strike | Smite | Divine Judgment |
-| Guiding Bolt | Guiding Bolt | Radiant Beam | Pillar of Light |
-| Turn Unholy | Turn Unholy | Banish | Soul Prison |
-| Consecrate | Consecrate | Hallow | Sanctified Ground |
-| Detect Magic | Detect Magic | Identify | Legend Lore |
-| See Invisible | See Invisible | True Seeing | Foresight |
-| Augury | Augury | Divination | Commune |
+A card is bought at one of three tiers, and the tier sets both the cost and the effect row:
 
-Every chain follows the same logic: Novice is your workhorse, Adept is your heavy hitter, Master is your "everyone remember where we parked the horses" moment.
+| Card tier | Cost | Disciplines | Effect row (W / S / St) |
+|-----------|------|-------------|--------------------------|
+| Novice | 2 DP | 1 Discipline | 2 / 4 / 6 |
+| Adept | 4 DP | 2 Disciplines | 6 / 9 / 12 |
+| Master | 8 DP | 3 Disciplines | 9 / 15 / 21 |
+
+A Novice card bought up to Adept rank uses the Adept row (6/9/12). Bought to Master rank, it uses 9/15/21. A card bought at Adept tier starts at 6/9/12 and reaches 9/15/21 at Master rank. The row is the law, no matter how the card is shaped.
 
 {{< pagebreak >}}
 
 ## Discipline Prerequisites
 
-Spell tiers have **level gates** in addition to Discipline prerequisites. **Adept-tier spells require character level 3. Master-tier spells require level 7.** Novice spells have no level gate. Discipline prerequisites still govern *which* Adept and Master options you can buy when the gate opens. Want to throw a Fireball at level 3? You need 2 Fire. At level 7, Volcanic Eruption requires 2 Fire and 1 Earth. The Discipline system follows a clean progression: **Novice spells require 1 Discipline, Adept require 2, Master require 3.**
+Spell tiers have **level gates** in addition to Discipline prerequisites. **Adept-tier spells require character level 3. Master-tier spells require level 7.** Novice spells have no level gate. Discipline prerequisites still govern *which* Adept and Master options you can buy when the gate opens. Want to throw a Brimstone Burst at level 3? You need 2 Fire. At level 7, a Master card needs 3 Disciplines, say 2 Fire and 1 Earth. The Discipline system follows a clean progression: **Novice spells require 1 Discipline, Adept require 2, Master require 3.**
 
-At the Master tier, one additional rule applies: **no single Discipline type may exceed 3.** Every Master spell blends at least two types. Volcanic Eruption isn't just "more fire", it's fire and earth working together. This ensures Master spells represent broad magical mastery, not narrow specialization.
+At the Master tier, one additional rule applies: **no single Discipline type may exceed 3.** Every Master spell blends at least two types. A Master fire spell isn't just "more fire", it's fire and earth working together. This ensures Master spells represent broad magical mastery, not narrow specialization.
 
 There are no wildcard Discipline substitutions. Every Discipline requirement must be met with the specific Discipline named on the card. With level gates in place, Adept unlocks at level 3 and Master at level 7, giving you time to earn the specific Disciplines each tier demands.
 
 | Spell | Tier | Discipline Req | Effect Range (W / S / St) |
 |-------|------|---------------|--------------------------|
-| Firebolt | Novice | 1 Fire | W: 2 / S: 4 / St: 6 + ignite |
-| Fireball | Adept | 2 Fire | W: 6 (10ft) / S: 9 (15ft) / St: 9 (20ft) +3 center |
-| Volcanic Eruption | Master | 2 Fire + 1 Earth | W: 9 (20ft) / S: 15 (30ft) / St: 21 (40ft) + terrain hazard |
+| Ember Lance | Novice | 1 Fire | W: 2 / S: 4 / St: 6, passes through |
+| Brimstone Burst | Adept | 2 Fire | W: 6 / S: 9 / St: 12, 20-ft radius |
+| Ember Lance (Master rank) | Master | 1 Fire, rank 3 | W: 9 / S: 15 / St: 21, Piercing 3 |
 
-Look at that jump from Firebolt to Volcanic Eruption. One. Two. Three. Novice spells are tools. Adept spells are weapons. Master spells are *events.* The Discipline requirements make sure you earn the difference, but they don't make you wait half a campaign to do it.
+Look at that jump from a Novice Ember Lance to a Master one. One. Two. Three. Novice spells are tools. Adept spells are weapons. Master spells are *events.* The Discipline requirements make sure you earn the difference, but they don't make you wait half a campaign to do it.
 
 {{< pagebreak >}}
 
@@ -112,7 +70,7 @@ Look at that jump from Firebolt to Volcanic Eruption. One. Two. Three. Novice sp
 
 Cantrips are the spells you learn before you learn "real" spells. Minor magic. Parlor tricks that grew teeth.
 
-Cantrips require **no Discipline prerequisites.** Every caster knows all cantrips in their tradition, arcane or divine. These are your at-will abilities, for example: *Prestidigitation, Light, Mage Hand, Thaumaturgy, Guidance.* Small effects. Infinite uses. No roll required unless the cantrip says otherwise.
+Cantrips require **no Discipline prerequisites.** Every caster knows all cantrips in their tradition, arcane or divine. These are your at-will abilities, and each tradition's full list is in its spell chapter. Small effects. Infinite uses. No roll required unless the cantrip says otherwise.
 
 They won't win a fight. They'll start one, or end one creatively.
 
@@ -134,9 +92,9 @@ Some classes blur the line. The Odd steals from both traditions. The Unbalanced 
 
 Magic is powerful. That's the point. But there are brakes. Not to frustrate you, to make your biggest spells feel like *moments.*
 
-**Per-Encounter:** Adept and Master spells can only be used once per combat. You can't chain-cast Fireball every round. Choose your moment. Make it count.
+**Per-Encounter:** Adept and Master spells can only be used once per combat. You can't drop Brimstone Burst every round. Choose your moment. Make it count.
 
-**Per-Session:** Master-tier spells are once per session. When you unleash Volcanic Eruption or Time Stop, the table should go quiet. These spells reshape encounters. They're not your default attack, they're your signature. Use them when it matters most.
+**Per-Session:** Master-tier spells are once per session. When you unleash a Master-rank Ember Lance or a Pillar of Light, the table should go quiet. These spells reshape encounters. They're not your default attack, they're your signature. Use them when it matters most.
 
 **Concentration:** Some ongoing spells, illusions, wards, enchantments, require concentration. You can only maintain one concentration spell at a time. If you take damage while concentrating, make a Fortitude save to hold the spell together. Concentration is about focus. Lose focus, lose the spell.
 
@@ -145,21 +103,21 @@ Magic is powerful. That's the point. But there are brakes. Not to frustrate you,
 
 I've seen what happens when a caster can drop their biggest spell every round. Combat becomes a fireworks display with no tension. The Blades and Protectors might as well put their dice away.
 
-The per-session limit on Master spells isn't about resource management, it's about spotlight management. When you cast Volcanic Eruption, *everyone* should remember it. That means you can't do it three times before lunch.
+The per-session limit on Master spells isn't about resource management, it's about spotlight management. When you cast a Master spell, *everyone* should remember it. That means you can't do it three times before lunch.
 
 The Veteran Adventurer
 :::
 
 {{< pagebreak >}}
 
-## Worked Example: Casting a Fireball
+## Worked Example: Casting Brimstone Burst
 
-Lyra is an Odd with 2 Fire and 1 Energy. She's facing a cluster of goblins huddled behind a barricade. Time for a Fireball.
+Lyra is an Odd with 2 Fire and 1 Energy. She's facing a cluster of goblins huddled behind a barricade. Time for a Brimstone Burst.
 
-**The roll:** Lyra's Knowledge is +1, and she has Arcana at Adept (+2). The goblins are packed tight, Standard difficulty, no modifier. She rolls 3d6: 5, 3, 4 = 12. Plus 1 (Knowledge), plus 2 (Arcana) = 15. *Strong.*
+**The roll:** Lyra's Knowledge is +1, and she has Arcana at rank 2 (+2). The goblins are packed tight, Standard difficulty, no modifier. She rolls 3d6: 5, 3, 4 = 12. Plus 1 (Knowledge), plus 2 (Arcana) = 15. *Strong.*
 
-**The effect:** Fireball's Strong damage is 9 in a 20-foot radius, with targets near the center taking +3 (12 total). Everything in that circle takes 9 fire damage, 12 near the center, unless it has resistance. The goblins have no armor and no resistance. Four goblins, nine damage each, twelve for those near the center. The barricade, wooden, dry, catches fire. The goblins' formation collapses into screaming chaos.
+**The effect:** Brimstone Burst's Strong damage is 12 in a 20-foot radius, with targets near the center taking 15. Everything in that circle takes 12 fire damage, 15 near the center, unless it has resistance. The goblins have no armor and no resistance. Four goblins, twelve damage each, fifteen for those near the center. The barricade, wooden, dry, catches fire. The goblins' formation collapses into screaming chaos.
 
-**The aftermath:** The Fireball is per-encounter. Lyra won't cast it again this fight. But she doesn't need to. She just cleared the room. Now she draws her dagger and lets the Protector handle cleanup while she looks for her next opening.
+**The aftermath:** The Brimstone Burst is per-encounter. Lyra won't cast it again this fight. But she doesn't need to. She just cleared the room. Now she draws her dagger and lets the Protector handle cleanup while she looks for her next opening.
 
 That's how magic works in *Heroes of Legend.* No "sorry, I missed." No "I'm out of mana." Just one result and a room full of consequences.

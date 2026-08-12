@@ -136,11 +136,11 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Brimstone Burst (Arcane Spell)
 **Disciplines:** 2 Fire · **Action:** Action · **Range:** 20-ft radius · **Keywords:** Recurring
 
-**Weak:** 2 fire damage to all in the radius.
+**Weak:** 6 fire damage to all in the radius.
 
-**Standard:** 4 fire damage to all; targets at the center take +2.
+**Standard:** 9 fire damage to all; targets at the center take +2.
 
-**Strong:** 6 fire damage to all; targets at the center take +3.
+**Strong:** 12 fire damage to all; targets at the center take +3.
 
 **Adept:** 6/9/12 fire damage to all, center +3.
 
@@ -149,11 +149,11 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Wall of Cinders (Arcane Spell)
 **Disciplines:** 2 Fire · **Action:** Action · **Range:** 30-ft wall · **Keywords:** None
 
-**Weak:** 2 fire damage to creatures passing through.
+**Weak:** 6 fire damage to creatures passing through.
 
-**Standard:** 4 fire damage to passers.
+**Standard:** 9 fire damage to passers.
 
-**Strong:** 6 fire damage to passers; ignites flammables.
+**Strong:** 12 fire damage to passers; ignites flammables.
 
 **Adept:** 6/9/12 fire damage to passers; the wall lasts 2 rounds.
 
@@ -188,11 +188,11 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Rime Storm (Arcane Spell)
 **Disciplines:** 2 Cold · **Action:** Action · **Range:** 15-ft radius · **Keywords:** Slowed, Frozen
 
-**Weak:** 2 cold damage.
+**Weak:** 6 cold damage.
 
-**Standard:** 4 cold damage; targets are Slowed.
+**Standard:** 9 cold damage; targets are Slowed.
 
-**Strong:** 6 cold damage; targets are Slowed for 2 rounds.
+**Strong:** 12 cold damage; targets are Slowed for 2 rounds.
 
 **Adept:** 6/9/12 cold damage.
 
@@ -201,11 +201,11 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Glacial Prison (Arcane Spell)
 **Disciplines:** 2 Cold · **Action:** Action · **Range:** 30 ft · **Keywords:** Restrained, Frozen
 
-**Weak:** 2 cold damage.
+**Weak:** 6 cold damage.
 
-**Standard:** 4 cold damage; the target is Restrained (break: Standard Athletics, once per turn).
+**Standard:** 9 cold damage; the target is Restrained (break: Standard Athletics, once per turn).
 
-**Strong:** 6 cold damage; the target is Restrained for 2 rounds.
+**Strong:** 12 cold damage; the target is Restrained for 2 rounds.
 
 **Adept:** 6/9/12 cold damage.
 
@@ -227,11 +227,11 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Forked Sky (Arcane Spell)
 **Disciplines:** 2 Lightning · **Action:** Action · **Range:** 30 ft · **Keywords:** None
 
-**Weak:** 2 lightning damage, split across three arcs.
+**Weak:** 6 lightning damage, split across three arcs.
 
-**Standard:** 4 lightning damage, split across three arcs.
+**Standard:** 9 lightning damage, split across three arcs.
 
-**Strong:** 6 lightning damage, split across three arcs.
+**Strong:** 12 lightning damage, split across three arcs.
 
 **Adept:** 6/9/12 lightning damage, split across four arcs.
 
@@ -240,11 +240,11 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Static Field (Arcane Spell)
 **Disciplines:** 2 Lightning · **Action:** Action · **Range:** 10-ft radius · **Keywords:** None
 
-**Weak:** 2 lightning damage to all adjacent targets.
+**Weak:** 6 lightning damage to all adjacent targets.
 
-**Standard:** 4 lightning damage to all adjacent.
+**Standard:** 9 lightning damage to all adjacent.
 
-**Strong:** 6 lightning damage to all adjacent; targets lose their Maneuver.
+**Strong:** 12 lightning damage to all adjacent; targets lose their Maneuver.
 
 **Adept:** 6/9/12 lightning damage to all adjacent.
 
@@ -266,11 +266,11 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Caustic Mist (Arcane Spell)
 **Disciplines:** 2 Acid · **Action:** Action · **Range:** 15-ft radius · **Keywords:** Bane on sight
 
-**Weak:** 2 acid damage.
+**Weak:** 6 acid damage.
 
-**Standard:** 4 acid damage; targets have Bane on sight.
+**Standard:** 9 acid damage; targets have Bane on sight.
 
-**Strong:** 6 acid damage; targets have Bane on sight for 2 rounds.
+**Strong:** 12 acid damage; targets have Bane on sight for 2 rounds.
 
 **Adept:** 6/9/12 acid damage.
 
@@ -292,11 +292,11 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Tremor (Arcane Spell)
 **Disciplines:** 2 Earth · **Action:** Action · **Range:** 10-ft radius · **Keywords:** Prone
 
-**Weak:** 2 bludgeoning damage.
+**Weak:** 6 bludgeoning damage.
 
-**Standard:** 4 bludgeoning damage; targets are Prone.
+**Standard:** 9 bludgeoning damage; targets are Prone.
 
-**Strong:** 6 bludgeoning damage; targets are Prone and lose their Maneuver.
+**Strong:** 12 bludgeoning damage; targets are Prone and lose their Maneuver.
 
 **Adept:** 6/9/12 bludgeoning damage.
 
@@ -350,11 +350,11 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Force Wave (Arcane Spell)
 **Disciplines:** 2 Energy · **Action:** Action · **Range:** 15-ft cone · **Keywords:** Prone
 
-**Weak:** 2 force damage; push targets 5 ft.
+**Weak:** 6 force damage; push targets 5 ft.
 
-**Standard:** 4 force damage; push targets 10 ft.
+**Standard:** 9 force damage; push targets 10 ft.
 
-**Strong:** 6 force damage; push targets 15 ft; targets are Prone.
+**Strong:** 12 force damage; push targets 15 ft; targets are Prone.
 
 **Adept:** 6/9/12 force damage.
 
@@ -492,11 +492,11 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Touch of the Grave (Arcane Spell)
 **Disciplines:** 2 Energy · **Action:** Action · **Range:** touch · **Keywords:** Unconscious
 
-**Weak:** 2 necrotic damage.
+**Weak:** 6 necrotic damage.
 
-**Standard:** 4 necrotic damage; Fortitude check or Unconscious.
+**Standard:** 9 necrotic damage; Fortitude check or Unconscious.
 
-**Strong:** 6 necrotic damage; Fortitude check or die at 0 HP.
+**Strong:** 12 necrotic damage; Fortitude check or die at 0 HP.
 
 **Adept:** 6/9/12 necrotic damage.
 

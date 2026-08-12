@@ -295,8 +295,8 @@ Total: 10 DP. All spent.
 
 **Class DP (8 DP):**
 
-- Firebolt (Novice spell, 2 DP), her first real spell
-- Burning Hands (Novice spell, 2 DP), for when they get too close
+- Ember Lance (Novice spell, 2 DP), her first real spell
+- Burning Volley (Novice spell, 2 DP), for when they get too close
 - Arcane Feedback (Novice ability, 2 DP)
 - Perception Novice (2 DP), watching fire teaches you to notice detail
 
@@ -336,7 +336,7 @@ Total: 10 DP. All spent.
 
 - Tactical Insight (Novice ability, 2 DP)
 - Small Blades Novice (2 DP), she's no duelist but she's trained
-- Magic Missile (Novice spell, 2 DP), it never misses, neither should a plan
+- Force Dart (Novice spell, 2 DP), it never misses, neither should a plan
 - Insight Novice (2 DP)
 
 Total: 8 DP. All spent.
@@ -566,7 +566,7 @@ Total: 10 DP. All spent.
 **Class DP (8 DP):**
 
 - Exploit Chaos (Novice ability, 2 DP), roll twice on backlash table
-- Firebolt (Novice spell, 2 DP)
+- Ember Lance (Novice spell, 2 DP)
 - Endurance Novice (2 DP)
 - Intimidation Novice (2 DP), chaos demands respect
 

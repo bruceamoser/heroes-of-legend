@@ -42,7 +42,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Damage Budget:** The master table every damaging spell, ability, and maneuver keys to. Novice 2/4/6, Adept 6/9/12, Master 9/15/21 (Weak/Standard/Strong). See @sec-damage-budget.
 
-**Flat Damage:** Damage taken straight from the damage budget row with no attribute added. Arrows, thrown weapons, most spell chains, and all monsters use flat damage.
+**Flat Damage:** Damage taken straight from the damage budget row with no attribute added. Arrows, thrown weapons, most spells, and all monsters use flat damage.
 
 **Attribute-Scaled Damage:** Damage that adds a keyed attribute to a base value. For spells and abilities, the base is budget − 3 plus the card's stated attribute; melee weapons add Brawn (or the attack attribute).
 
@@ -138,9 +138,9 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 ## Magic Terms
 
-**Spell:** A magical ability. Follows Novice ? Adept ? Master chain. Always fires, no spell slots, no mana.
+**Spell:** A magical ability bought as a spell card. Always fires, no spell slots, no mana.
 
-**Spell Chain:** Three linked spells (Novice, Adept, Master) sharing a theme. Example: Spark ? Firebolt ? Inferno.
+**Spell Card:** A spell in the standard card format. Every spell is an individual card with Weak, Standard, and Strong outcomes, plus optional Adept and Master additions. There are no spell chains.
 
 **Concentration Spell:** A spell that requires ongoing focus. You can maintain one (or two with Spell Weaver) at a time.
 
