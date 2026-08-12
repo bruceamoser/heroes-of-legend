@@ -48,12 +48,12 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | Resource | Per Turn | Common Uses |
 |----------|----------|-------------|
 | **Action** | 1 | Attack, cast a spell, Dash (double move), activate ability |
-| **Movement** | 1 | Move up to Speed (usually 30 ft). Break up: move ? act ? move. |
+| **Movement** | 1 | Move up to Speed (usually 30 ft). Break up: move → act → move. |
 | **Maneuver** | 1 | Basic maneuvers or skill-granted maneuvers |
 | **Reaction** | 1/round | Shield Block, opportunity attack, Counterspell, Riposte |
 | **Free** | Unlimited | Talk, draw weapon, drop item, gesture |
 
-**Trading:** Action ? Movement or Maneuver. Never Maneuver ? Action.
+**Trading:** Action → Movement or Maneuver. Never Maneuver → Action.
 
 ### Basic Maneuvers (Everyone)
 
@@ -64,7 +64,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | **Aid** | Ally within 30 ft gains +2 on their next roll |
 | **Shove** | Opposed Brawn check. Push 5 ft (10 ft on Strong) |
 | **Grapple** | Initiate a grapple (opposed Brawn check) |
-| **Command** | Companion/familiar/mount takes an extra move |
+| **Command** | Companion/familiar/mount takes an extra Movement |
 | **Catch Breath** | Regain HP equal to Fortitude (min 1). Once per combat. |
 | **Search** | Active Investigation check to spot hidden things |
 | **Stand Up** | Rise from prone |
@@ -128,7 +128,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | Category | Types |
 |----------|-------|
 | **Physical** | Slashing, Piercing, Bludgeoning |
-| **Elemental** | Fire, Cold, Lightning, Acid, Poison |
+| **Elemental** | Fire, Cold, Lightning, Acid, Poison, Thunder |
 | **Magical** | Force, Radiant, Necrotic, Psychic |
 
 {{< pagebreak >}}
@@ -147,24 +147,32 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | **Endurance** | FO | Fatigue, breath-holding |
 | **Survival** | FO | Track, forage, navigate |
 | **Resilience** | FO | Poison, disease, extremes |
+| **Armor** | FO | Wearing armor, personal defense |
+| **Shields** | FO | Blocking with shields, shield combat |
+| **Animal Handling** | FO | Calming, riding, working with beasts |
 | **Acrobatics** | AG | Balance, tumble, escape |
 | **Stealth** | AG | Sneak, hide |
 | **Bow Fighting** | AG | Longbows, shortbows |
 | **Thrown Weapon** | AG | Knives, axes, javelins |
 | **Crossbow Fighting** | AG | Crossbows |
 | **Sleight of Hand** | AG | Pickpocket, lockpick |
+| **Thievery** | AG | Disabling traps, lockpicking |
 | **Deception** | GU | Lie, bluff, disguise |
 | **Persuasion** | GU | Diplomacy, negotiate |
 | **Streetwise** | GU | Gather info, contacts |
+| **Performance** | GU | Music, oratory, entertain |
 | **Arcana** | KN | Magic knowledge |
 | **History** | KN | Lore, legends |
 | **Investigation** | KN | Search, deduce |
 | **Nature** | KN | Plants, animals |
 | **Religion** | KN | Gods, rituals |
+| **Lore** | KN | Legends, heraldry, esoteric |
 | **Alchemy** | RE | Potions, substances |
-| **Crafting** | RE | Smith, build, create |
+| **Craft** | RE | Smith, build, create |
 | **Medicine** | RE | Heal, diagnose |
 | **Insight** | RE | Read people, detect lies |
+| **Perception** | RE | Spotting, noticing, sensing danger |
+| **Navigation** | RE | Wayfinding, maps, reading the land |
 
 {{< pagebreak >}}
 
@@ -214,7 +222,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | 9 | 3 DP | +1 Discipline rank |
 | 10 | 3 DP | Class feature |
 
-Total DP by level 10: 32 advancement DP (plus 8 background DP = 40 total).
+Total DP by level 10: 32 advancement DP + 8 Class DP + background DP (8 + Knowledge + Fortitude) ≈ 50-52 career DP.
 
 {{< pagebreak >}}
 
@@ -288,3 +296,5 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 | Buckler | 1 | +1 |
 | Shield | 1 | +2 |
 | Tower Shield | 2 | +3 |
+
+**Defense summary:** Armor grants DR (passive damage reduction). Protection Value (PV) is a defensive stance bonus (from Bastion, Arcane Shield, or Defend). Shields grant a DR bonus and the Shield Block reaction.

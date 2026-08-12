@@ -29,15 +29,49 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
 
 ## Beasts
 
-**Wolf (Challenge 1/2):** HP 8, DR 0. Bite: 2/3/4. Pack Tactics: +1 to attacks when an ally is adjacent.
+### Wolf (Challenge 1/2)
 
-**Dire Wolf (Challenge 1):** HP 14, DR 1. Bite: 3/4/6. Pack Tactics: +1 when ally adjacent. Knockdown: on Strong hit, target must succeed Agility check or be knocked Prone.
+HP 8, DR 0. Attributes: Brawn 0, Fortitude 0, Agility +1, Guile 0, Knowledge 0, Reason 0.
 
-**Bear (Challenge 2):** HP 20, DR 2. Claw: 3/4/6. Bite: 4/5/7. Multiattack: may make both Claw and Bite as one Standard Action.
+**Bite:** 2/3/4.
 
-**Giant Spider (Challenge 1):** HP 10, DR 0. Bite: 2/3/5 + poison (Fortitude save or Poisoned condition). Web (Recharge): ranged attack that Restrains target on hit.
+**Pack Tactics:** +1 to attacks when an ally is adjacent.
 
-**Swarm of Rats (Challenge 1/2):** HP 5, DR 0. Bites: automatic 1 damage to all in space. Immune to single-target attacks. Vulnerable to area effects (damage tier +1).
+### Dire Wolf (Challenge 1)
+
+HP 14, DR 1. Attributes: Brawn +1, Fortitude +1, Agility 0, Guile 0, Knowledge 0, Reason 0.
+
+**Bite:** 3/4/6.
+
+**Pack Tactics:** +1 when ally adjacent.
+
+**Knockdown:** On Strong hit, target must succeed Agility check or be knocked Prone.
+
+### Bear (Challenge 2)
+
+HP 20, DR 2. Attributes: Brawn +2, Fortitude +1, Agility -1, Guile 0, Knowledge -1, Reason -1.
+
+**Claw:** 3/4/6. **Bite:** 4/5/7.
+
+**Multiattack:** May make both Claw and Bite as one Standard Action.
+
+### Giant Spider (Challenge 1)
+
+HP 10, DR 0. Attributes: Brawn 0, Fortitude 0, Agility +2, Guile 0, Knowledge 0, Reason 0.
+
+**Bite:** 2/3/5 + poison (Fortitude save or Poisoned condition).
+
+**Web (Recharge):** Ranged attack that Restrains target on hit.
+
+### Swarm of Rats (Challenge 1/2)
+
+HP 5, DR 0. Attributes: Brawn -1, Fortitude 0, Agility 0, Guile 0, Knowledge -1, Reason -1.
+
+**Bites:** Automatic 1 damage to all in space.
+
+**Immune:** Single-target attacks.
+
+**Vulnerable: Area Effects (damage tier +1).**
 
 **Stirge (Challenge 1/2):** HP 3, DR 0. Proboscis: 1/2/3 piercing + attach. On a hit, the stirge latches onto the target. While attached, it automatically deals 2 damage each round. A creature can use a Maneuver to make a Brawn check to detach the stirge. Tiny flyer, the stirge dies if it takes any damage while attached.
 
@@ -73,9 +107,9 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
 
 ## Orcs
 
-**Orc (Challenge 1/2):** HP 10, DR 1 (hide). Greataxe: 3/4/5 slashing. Javelin: 2/3/4 piercing (range 30/120). Relentless Endurance: once per day, when reduced to 0 HP, the orc can make a Fortitude save. On a Strong result, it stays at 1 HP. Aggressive: can use a Maneuver to move up to its Speed toward a visible enemy.
+**Orc (Challenge 1/2):** HP 10, DR 1 (hide). Greataxe: 3/4/5 slashing. Javelin: 2/3/4 piercing (range 30/120). Relentless: once per day, when reduced to 0 HP, the orc can make a Fortitude save. On a Strong result, it stays at 1 HP. Aggressive: can use a Maneuver to move up to its Speed toward a visible enemy.
 
-**Orc Warchief (Challenge 3):** HP 22, DR 3 (plate). Greataxe: 4/5/7 slashing. Javelin: 3/4/6 piercing (range 30/120). Multiattack: Greataxe twice. Battle Cry (Recharge): all orc allies within 30 ft gain +1 damage tier on their next attack. Relentless Endurance: as Orc. Commanding Presence: orc allies within 30 ft are immune to Frightened.
+**Orc Warchief (Challenge 3):** HP 22, DR 3 (plate). Greataxe: 4/5/7 slashing. Javelin: 3/4/6 piercing (range 30/120). Multiattack: Greataxe twice. Battle Cry (Recharge): all orc allies within 30 ft gain +1 damage tier on their next attack. Relentless: as Orc. Commanding Presence: orc allies within 30 ft are immune to Frightened.
 
 {{< pagebreak >}}
 
@@ -87,9 +121,9 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
 
 ## Undead
 
-**Skeleton (Challenge 1/2):** HP 5, DR 0. Shortsword: 2/3/4. Shortbow: 2/3/4. Vulnerable (Bludgeoning): damage tier +1 vs bludgeoning. Undead Nature: immune to poison and charm.
+**Skeleton (Challenge 1/2):** HP 5, DR 0. Shortsword: 2/3/4. Shortbow: 2/3/4. Vulnerable: Bludgeoning (damage tier +1 vs bludgeoning). Undead Nature: immune to poison and charm.
 
-**Zombie (Challenge 1/2):** HP 12, DR 1. Slam: 2/3/4. Undead Fortitude: when reduced to 0 HP, roll Fortitude. On Strong, stays at 1 HP. Slow: always acts last in initiative.
+**Zombie (Challenge 1/2):** HP 12, DR 1. Slam: 2/3/4. Relentless: when reduced to 0 HP, roll Fortitude. On Strong, stays at 1 HP. Slow: always acts last in initiative.
 
 **Ghoul (Challenge 1):** HP 10, DR 0. Claw: 2/4/6. Bite: 3/4/6. Paralyzing Touch: on Strong claw hit, target must make Fortitude save or be Paralyzed for 1 round.
 
@@ -137,7 +171,7 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
 
 ## Elementals
 
-**Fire Elemental (Challenge 4):** HP 20, DR 2. Slam: 4/5/7 fire. Touch: creatures touching or hitting the elemental take 2 fire. Water Vulnerability: takes 2 cold damage when splashed with water.
+**Fire Elemental (Challenge 4):** HP 20, DR 2. Slam: 4/5/7 fire. Touch: creatures touching or hitting the elemental take 2 fire. Vulnerable: Water (takes 2 cold damage when splashed with water).
 
 **Water Elemental (Challenge 4):** HP 22, DR 2. Slam: 4/5/7 bludgeoning. Whelm: target must make Brawn save or be Grappled and take 2/4/6 bludgeoning each round. Freeze: when hit by cold damage, speed halved for 1 round.
 
@@ -177,6 +211,8 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
 
 ### Cave Troll (Challenge 4)
 
+*Trolls don't negotiate. They digest.*
+
 HP 25, DR 3 (regenerates). Attributes: Brawn +2, Fortitude +2, Agility -1, Guile -2, Knowledge -1, Reason -1.
 
 **Claw:** 4/5/7 slashing. **Bite:** 3/4/6 piercing. **Multiattack:** Claw + Claw + Bite.
@@ -189,6 +225,8 @@ HP 25, DR 3 (regenerates). Attributes: Brawn +2, Fortitude +2, Agility -1, Guile
 
 ### Shadow Stalker (Challenge 3)
 
+*You won't see it coming. You'll feel it leave.*
+
 HP 14, DR 1. Attributes: Agility +2, Guile +1, others +0.
 
 **Shadow Claw:** 3/4/6 necrotic. Target's shadow is torn, Bane on Stealth until the end of the encounter.
@@ -197,9 +235,11 @@ HP 14, DR 1. Attributes: Agility +2, Guile +1, others +0.
 
 **Shadow Leap (Maneuver, Recharge):** Teleport up to 60 ft to any area of dim light or darkness.
 
-**Light Vulnerability:** While in bright light, all attacks against the stalker are at Boon, and its damage tier is reduced by one.
+**Vulnerable: Light.** While in bright light, all attacks against the stalker are at Boon, and its damage tier is reduced by one.
 
 ### Treant (Challenge 5)
+
+*The forest remembers what the axe forgets.*
 
 HP 35, DR 4 (bark). Attributes: Brawn +2, Fortitude +2, Agility -2, Knowledge +1, others +0.
 
@@ -207,9 +247,11 @@ HP 35, DR 4 (bark). Attributes: Brawn +2, Fortitude +2, Agility -2, Knowledge +1
 
 **Animate Trees:** As an action, the treant animates one nearby tree as a Lesser Treant (HP 10, Slam 2/3/4) that acts on the treant's initiative.
 
-**Fire Vulnerability:** Fire damage is always treated as one tier higher against the treant. The treant must make a Morale Check whenever it takes fire damage.
+**Vulnerable: Fire.** Fire damage is always treated as one tier higher against the treant. The treant must make a Morale Check whenever it takes fire damage.
 
 ### Phase Beast (Challenge 4)
+
+*Here one moment, inside your ribs the next.*
 
 HP 18, DR 2. Attributes: Agility +2, Reason +1, others +0.
 
@@ -222,6 +264,8 @@ HP 18, DR 2. Attributes: Agility +2, Reason +1, others +0.
 **Unstable:** When the phase beast is reduced to 0 HP, it explodes. All creatures within 10 ft take 4/6/9 force damage (Agility save for half).
 
 ### Death Knight (Challenge 8)
+
+*It served in life. It serves in death. It will not serve you.*
 
 HP 40, DR 5 (plate + unholy). Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
 
@@ -236,6 +280,8 @@ HP 40, DR 5 (plate + unholy). Attributes: Brawn +2, Fortitude +1, Guile +1, othe
 {{< pagebreak >}}
 
 ## Encounter Building
+
+*C½ = Challenge ½ (minion-tier).*
 
 | Difficulty | Challenge Budget | Example (4 players) |
 |-----------|-----------------|-------------------|
