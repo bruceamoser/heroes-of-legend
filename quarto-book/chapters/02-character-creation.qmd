@@ -61,9 +61,9 @@ Choose your species. Each grants a Discipline and a trait:
 | Ancestry | Discipline | Trait |
 |----------|-----------|-------|
 | **Human** | Any one | **Versatile:** +1 DP at Level 0 |
-| **Elf** | Archery or Blades | **Elven Grace:** once per session, reroll one die |
-| **Dwarf** | Axes or Armor | **Sturdy:** +2 maximum HP |
-| **Halfling** | Blades or Archery | **Lucky:** add one boon to any roll, once per session |
+| **Elf** | Any one Weapon | **Elven Grace:** once per session, reroll one die |
+| **Dwarf** | Any one Weapon | **Sturdy:** +2 maximum HP |
+| **Halfling** | Any one Weapon | **Lucky:** add one boon to any roll, once per session |
 
 See @sec-chapter-ancestries for full details.
 
@@ -302,7 +302,7 @@ Total: 10 DP. All spent.
 
 Total: 8 DP. All spent.
 
-**Equipment:** Arcane focus (crystal orb), dagger (1/2/3), scholar's robes (DR 0), component pouch, spellbook, 5 gp.
+**Equipment:** Arcane focus (crystal orb), dagger (1/2/3), scholar's robes (DR 0), focus pouch, spellbook, 5 gp.
 
 **Derived Stats:** HP 12. Initiative +0. Movement 30 ft. Carry 10 slots.
 
@@ -326,21 +326,22 @@ Total: 8 DP. All spent.
 - History Novice (2 DP, favored)
 - Investigation Novice (2 DP), the battlefield is a puzzle
 - Lore Novice (2 DP), every war has a library
+- Perception Novice (2 DP), she reads a battlefield the way others read a book
 
 Total: 10 DP. All spent.
 
-**Class:** Intellect. Gains 1 Lore, 1 any (takes Mind). Signature: **Knowledge Is Power**, +1 to all Knowledge-based skill checks.
+**Class:** Intellect. Gains 1 Lore, 1 any (takes Energy). Signature: **Knowledge Is Power**, +1 to all Knowledge-based skill checks.
 
 **Class DP (8 DP):**
 
 - Tactical Insight (Novice ability, 2 DP)
-- Blades Fighting Novice (2 DP), she's no duelist but she's trained
+- Small Blades Novice (2 DP), she's no duelist but she's trained
 - Magic Missile (Novice spell, 2 DP), it never misses, neither should a plan
 - Insight Novice (2 DP)
 
 Total: 8 DP. All spent.
 
-**Equipment:** Short sword (2/3/4), spellbook, scholar's robes (DR 0), component pouch, maps and charts, 10 gp.
+**Equipment:** Shortsword (2/3/4), spellbook, scholar's robes (DR 0), focus pouch, ink & pen, 10 gp.
 
 **Derived Stats:** HP 12 (10 + Fort 0 + Know 2). Initiative +0. Movement 30 ft. Carry 5 slots.
 
@@ -364,7 +365,7 @@ Total: 8 DP. All spent.
 - Religion Novice (2 DP, favored)
 - Persuasion Novice (2 DP)
 - Endurance Novice (2 DP)
-- Protection Discipline, rank 1 (1 DP), faith before the calling
+- Life Discipline, rank 1 (1 DP), faith before the calling
 
 Total: 9 DP. All spent.
 
@@ -399,7 +400,7 @@ Total: 8 DP. All spent.
 
 **Background DP (8 + Know -1 + Fort 0 = 7 DP + 1 Versatile = 8 DP):**
 
-- Blades Fighting Novice (2 DP, favored)
+- Long Blades Novice (2 DP, favored)
 - Athletics Novice (2 DP, favored, culture bonus already applied)
 - Persuasion Novice (2 DP)
 - Resilience Novice (2 DP)
@@ -411,13 +412,13 @@ Total: 8 DP. All spent.
 **Class DP (8 DP):**
 
 - Rallying Cry (Novice ability, 2 DP)
-- Polearms Fighting Novice (2 DP, favored)
+- Polearms Novice (2 DP, favored)
 - Perception Novice (2 DP)
 - Insight Novice (2 DP), reads a battlefield like a map
 
 Total: 8 DP. All spent.
 
-**Equipment:** Longsword (2/3/5), spear (2/3/4), chain shirt (DR 3), shield (+2 DR), captain's insignia, 10 gp.
+**Equipment:** Longsword (2/3/5), spear (2/3/4), chain shirt (DR 3), shield (+2 DR), 10 gp.
 
 **Derived Stats:** HP 9 (10 + Fort 0 + Know -1). Initiative +0. Movement 30 ft. Carry 15 slots.
 
@@ -437,24 +438,25 @@ Total: 8 DP. All spent.
 
 **Background DP (8 + Know -1 + Fort 0 = 7 DP):**
 
-- Blades Fighting Novice (2 DP, favored)
-- Acrobatics Novice (2 DP), footwork is everything
+- Small Blades Novice (2 DP, favored)
+- Insight Novice (2 DP), reading an opponent's intent
 - Stealth Novice (2 DP), striking from shadow
+- Sleight Discipline, rank 1 (1 DP, Home), misdirection comes naturally to a twilight elf
 
-Total: 6 DP. 1 DP remaining. The point is spent on story, not on the sheet.
+Total: 7 DP. All spent.
 
 **Class:** Blade. Gains 1 Blades, 1 Stealth. Signature: **Swift Blade**, use Agility instead of Brawn for blade attacks. Gains **Precise Stab**, bonus damage on opening strike.
 
 **Class DP (8 DP):**
 
-- Tumble Novice (2 DP)
+- Acrobatics Novice (2 DP), footwork is everything
 - Deception Novice (2 DP), feints win duels
 - Perception Novice (2 DP), seeing the opening before it exists
 - Sleight of Hand Novice (2 DP), a duelist's flourish is misdirection
 
 Total: 8 DP. All spent.
 
-**Equipment:** Shortsword (2/3/4), dagger (1/2/3), leather armor (DR 2), dueling cloak, 15 gp.
+**Equipment:** Shortsword (2/3/4), dagger (1/2/3), leather armor (DR 2), thieves' tools, 15 gp.
 
 **Derived Stats:** HP 9 (10 + Fort 0 + Know -1). Initiative +2. Movement 30 ft. Carry 15 slots.
 
@@ -486,7 +488,7 @@ Total: 8 DP. All spent.
 **Class DP (8 DP):**
 
 - Sap (Novice ability, 2 DP), daze unaware targets
-- Blades Fighting Novice (2 DP, favored)
+- Small Blades Novice (2 DP, favored)
 - Thrown Weapon Novice (2 DP, favored)
 - Streetwise Novice (2 DP)
 
@@ -564,13 +566,13 @@ Total: 10 DP. All spent.
 **Class DP (8 DP):**
 
 - Exploit Chaos (Novice ability, 2 DP), roll twice on backlash table
-- Static Field (Novice spell, 2 DP)
+- Firebolt (Novice spell, 2 DP)
 - Endurance Novice (2 DP)
 - Intimidation Novice (2 DP), chaos demands respect
 
 Total: 8 DP. All spent.
 
-**Equipment:** Spear (2/3/4), component pouch, scholar's robes (DR 0), six vials of "volatile reagents" (alchemist's fire, equivalent), 5 gp.
+**Equipment:** Spear (2/3/4), focus pouch, scholar's robes (DR 0), six vials of volatile reagents (alchemist's fire), 5 gp.
 
 **Derived Stats:** HP 11 (10 + Fort 0 + Know 1). Initiative +0. Movement 30 ft. Carry 15 slots.
 

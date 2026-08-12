@@ -85,11 +85,11 @@ Same skill. Same modifiers. Three different stories, all driven by the dice.
 
 Kael, a dwarf Blade, has Long Blades at Adept. His Adept maneuver is **Riposte**, when an enemy misses him in melee, he can spend his reaction to counterattack.
 
-**The fight:** Kael is squared off against a bandit captain. The captain swings. The DA rolls for the bandit's attack. Weak result: 2 damage. Kael's leather armor (DR 2) absorbs it completely. The blade scrapes off his pauldron.
+**The fight:** Kael is squared off against a bandit captain. The captain swings. The DA rolls for the bandit's attack. Weak result: 2 damage. Kael's leather armor (DR 2) reduces it to the minimum 1. The blade scrapes off his pauldron.
 
 **Kael:** "He missed. Riposte."
 
-Kael spends his reaction. He makes an immediate melee attack against the captain, 3d6 + Brawn (+1) + Long Blades (+2). He rolls 4, 5, 4 = 13 + 3 = 16. Strong. His longsword deals 5 Strong damage. The captain's armor (DR 1) reduces it to 4.
+Kael spends his reaction. He makes an immediate melee attack against the captain, 3d6 + Brawn (+1) + Long Blades (+2). He rolls 4, 5, 4 = 13 + 3 = 16. Strong. His longsword deals 5 Strong damage, plus his Brawn (+1) for 6. The captain's armor (DR 1) reduces it to 5.
 
 **The fiction:** The captain overcommitted. His blade glanced off Kael's shoulder, and before he could recover his guard, Kael's sword was already sliding between his ribs. That's Riposte. You miss, you bleed.
 
@@ -121,7 +121,7 @@ Kael spends his reaction. He makes an immediate melee attack against the captain
 | **Acrobatics** | AG | | Balancing, tumbling, escaping restraints |
 | **Stealth** | AG | | Sneaking, hiding, moving silently |
 | **Bow Fighting** | AG | Archery | Fighting with longbows and shortbows |
-| **Thrown Weapon** | AG | Blades, Axes, or Archery | Fighting with throwing knives, axes, and javelins |
+| **Thrown Weapon** | AG | Blades, Axes, or Archery | Fighting with throwing daggers, axes, and javelins |
 | **Crossbow Fighting** | AG | Archery | Fighting with crossbows |
 | **Sleight of Hand** | AG | | Pickpocketing, lockpicking, legerdemain |
 | **Thievery** | AG | | Picking pockets, disabling traps, lockpicking |
@@ -475,7 +475,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | |
-| **Adept** | +2 | 4 | **Identify Spell**, Learn spell being cast within 60 ft: name, tier, school. Disc: Energy (2). **Counterspell**, Reaction + maneuver. Arcana check vs 7 + spell tier to disrupt casting. Disc: Energy (2). |
+| **Adept** | +2 | 4 | **Identify Spell**, Learn spell being cast within 60 ft: name, tier, chain. Disc: Energy (2). **Counterspell**, Reaction + maneuver. Arcana check vs 7 + spell tier to disrupt casting. Disc: Energy (2). |
 | **Master** | +3 | 8 | |
 
 ### History {#sec-skill-history}
