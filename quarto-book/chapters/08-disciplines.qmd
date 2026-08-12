@@ -62,7 +62,7 @@ Twenty-three Disciplines. Nine categories. Your hero's path through them defines
 
 ### Starting Disciplines
 
-Your starting Disciplines come from your ancestry (1), your culture (2), and your class (see the Class Disciplines table below).
+Your starting Disciplines come from your ancestry (1), your culture (2 — or 1 for free-choice cultures), and your class (see the Class Disciplines table below).
 
 ### Class Disciplines
 
@@ -98,12 +98,12 @@ Skills, abilities, and talents require specific Disciplines before you can learn
 
 | Skill/Ability | Disciplines Required | Tier |
 |--------------|---------------------|------|
-| Longsword | 1 Blades, 1 Heavy Weapon | Adept |
+| Longsword | 2 Blades | Adept |
 | Dagger | 1 Blades | Novice |
-| Greataxe | 2 Axes | Adept |
+| Greataxe | 2 Axes + 1 Heavy Weapon | Master |
 | Fireball | 2 Fire | Adept |
 | Volcanic Eruption | 2 Fire, 1 Earth | Master |
-| Chain Mail | 1 Armor | Novice |
+| Chain Mail | 2 Armor | Adept |
 | Shield Block | 1 Protection | Novice |
 | Animal Companion | 2 Animal | Adept |
 | Magic Missile | 1 Energy | Novice |
@@ -137,6 +137,22 @@ Each class pays a different price for each Discipline rank depending on how alig
 ### Total Cost of a Card
 
 The total cost of a card = its flat card DP cost + the sum of the discipline rank costs from your class's structure for each required discipline.
+
+::: {.callout-note}
+## Worked Total-Cost Example: Firebolt vs Fireball
+
+The flat card DP cost is only part of the price. You also pay rank costs for any required disciplines you do not already possess.
+
+**Firebolt (Novice, 1 Fire):**
+- **Protector** pays flat 2 DP + Fire rank 1 at Opposed cost (4 DP) = **6 DP total**.
+- **Arcanist** pays flat 2 DP + Fire rank 1 at Home (1 DP) = **3 DP total**.
+
+**Fireball (Adept, 2 Fire):**
+- **Fighter** (no existing Fire) pays flat 4 DP + Fire rank 1 at Opposed (4 DP) + Fire rank 2 at Opposed (8 DP) = **16 DP total**.
+- **Arcanist** (already has Fire rank 1 from creation) pays flat 4 DP + Fire rank 2 at Home (2 DP) = **6 DP total**. If the Arcanist did not have Fire rank 1 yet, the total would be flat 4 + rank 1 (1 DP) + rank 2 (2 DP) = **7 DP**.
+
+The same card can cost wildly different amounts depending on your class and what you already know. Build accordingly.
+:::
 
 ### Prereq Shapes
 
@@ -174,6 +190,8 @@ There is no damage roll. The outcome of your attack or casting roll — Weak, St
 The numbers are flat damage points. A Novice Firebolt deals 2 damage on a Weak result, 4 on Standard, 6 on Strong. An Adept Fireball deals 6/9/12. A Master Volcanic Eruption deals 9/15/21. These are flat numbers — no dice. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
 
 See @sec-chapter-arcane-spells and @sec-chapter-divine-spells for the full spell lists. See @sec-chapter-classes for class abilities keyed to this budget.
+
+Weapons follow their own flat damage curve (see the Equipment chapter) — daggers 1/2/3 up to greatswords 3/5/8. This budget table governs abilities, spells, talents, and gifts; the weapon curve is the baseline for armed attacks.
 :::
 
 {{< pagebreak >}}
