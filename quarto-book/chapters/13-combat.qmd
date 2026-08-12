@@ -52,7 +52,7 @@ These maneuvers are free for everyone. No skill required. No Discipline check. J
 
 | Maneuver | Effect |
 |----------|--------|
-| **Defend** | +2 Protection Value until your next turn. |
+| **Defend** | +2 to your Defense roll until your next turn. |
 | **Disengage** | Move 5 ft without provoking opportunity attacks. |
 | **Aid** | Ally within 30 ft gains +2 on their next roll before your next turn. |
 | **Shove** | Opposed Brawn vs Brawn/Agility. Push target 5 ft (10 ft on Strong). |
@@ -120,7 +120,6 @@ When you attack, a high roll means you hit hard (Strong damage). When you defend
 |----------|--------|
 | +2 | **Defend** maneuver (one round) |
 | +1 to +3 | **Cover** (half to three-quarters) |
-| +2 | **Shield** bonus |
 | −1 to −6 | **NPC Challenge** (DA sets based on enemy skill) |
 | −2 | **Surprised** (first round only) |
 
@@ -330,7 +329,7 @@ She rolls 3d6 + Knowledge (+2) + no skill. Rolls 3, 4, 4 = 11 + 2 = 13. **Standa
 
 **Round 1, Kael's Turn:**
 
-Kael sees the Knight advancing on Roric. He moves 15 ft to flank, drawing his longsword as a free action. A small buckler is strapped to his left forearm.
+Kael sees the Knight advancing on Roric. He moves 15 ft to flank, drawing his longsword as a free action. A small buckler (+2 DR) is strapped to his left forearm.
 
 "I attack the Knight. Long Blades Adept."
 
@@ -371,11 +370,11 @@ Rolls 3d6 + Brawn (+2) + Long Hammers Novice (+1). Rolls 3, 3, 2 = 8 + 3 = 11. *
 
 Lyra's shoulder burns from the Dark Bolt, but she's an Odd, when things go wrong, she gets interesting.
 
-"I cast *Firebolt* at the cultist who hit me. Then I use my Odd ability, **Eccentric Spellcasting.**"
+"I cast *Firebolt* at the cultist who hit me. No Fire Discipline — my **Eccentric Spellcasting** covers it." Lyra chose Firebolt as one of her two unrestricted abilities at creation, ignoring the Fire Discipline prerequisite.
 
 Firebolt roll: 3d6 + Knowledge (+2). Rolls 6, 6, 1 = 13 + 2 = 15. **Strong.** Firebolt Strong damage: 6 fire. The cultist has no armor. 6 damage straight through. The cultist screams as fire engulfs his robes, collapsing in a heap.
 
-Eccentric Spellcasting: Lyra rolls a d6 on the chaos table, 4. "Enemies within 15 ft take 2 damage." The Knight and both cultists are within range. The Knight's plate armor absorbs all but the minimum 1. The remaining standing cultist takes 2 damage, now bloodied and barely standing. The downed cultist is beyond saving.
+The chaos of the blast catches: Lyra's spell may not need Fire, but the backlash from bending the rules doesn't care. The second cultist, standing too close to his screaming ally, is singed for 2 damage, now bloodied and barely standing. The downed cultist is beyond saving.
 
 **Round 2, Kael's Turn:**
 
@@ -393,7 +392,7 @@ The Knight has taken 3 damage, not much, but he's down to 17 HP from 20. One cul
 
 Roric rolls for the Knight: 3, 2, 1 = 6. **Weak.** The Knight lowers his sword. "Enough," he growls. "You fight well. The Iron Circle withdraws." He hauls the fallen cultist over his shoulder and retreats into the shadows of the temple.
 
-The party could press the attack, but Lyra is at 7 HP, Kael is at 9, and the Knight might have reinforcements. They let them go.
+The party could press the attack, but Lyra is at 7 HP, Kael is at 10, and the Knight might have reinforcements. They let them go.
 
 **Total combat time at the table:** About 8 minutes. Two full rounds. Everyone acted. Damage was exchanged. The Knight broke on morale. The story advanced. That's *Heroes of Legend* combat.
 

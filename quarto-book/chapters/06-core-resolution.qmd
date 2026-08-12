@@ -116,13 +116,13 @@ This reversal is intentional. When you attack, a high roll means you hit hard. W
 
 A goblin lunges at Kael with a rusty shortsword. The DA says: "The goblin's attack is Challenge −1. Roll Defense."
 
-Kael has Agility +1 and no Armor or Shields training. He rolls 3d6 + 1 (Agility) − 1 (goblin's Challenge) = 3d6 + 0.
+Kael has Agility +2 and no Armor or Shields training. He rolls 3d6 + 2 (Agility) − 1 (goblin's Challenge) = 3d6 + 1.
 
-He rolls 4, 3, 5 = 12. **Standard.** The goblin's Standard damage is 3. Kael's leather armor (DR 2) reduces it to 1. The goblin's blade scrapes across his ribs — shallow, painful, but not dangerous.
+He rolls 4, 3, 5 = 13. **Standard.** The goblin's Standard damage is 3. Kael's leather armor (DR 2) reduces it to 1. The goblin's blade scrapes across his ribs — shallow, painful, but not dangerous.
 
-Later, a Knight of the Iron Circle attacks Kael. "Challenge −3," the DA says. Kael rolls 3d6 + 1 − 3 = 3d6 − 2. He rolls 2, 3, 2 = 7 − 2 = 5. **Weak.** The Knight's Strong damage is 5. Kael's armor reduces it to 3. That one hurt.
+Later, a Knight of the Iron Circle attacks Kael. "Challenge −3," the DA says. Kael rolls 3d6 + 2 − 3 = 3d6 − 1. He rolls 2, 3, 2 = 7 − 1 = 6. **Weak.** The Knight's Strong damage is 5. Kael's armor reduces it to 3. That one hurt.
 
-If Kael had invested in the Armor skill (+2 at Adept), his roll against the Knight would have been 3d6 + 1 + 2 − 3 = 3d6 + 0, giving him a much better chance of turning that blow aside.
+If Kael had invested in the Armor skill (+2 at Adept), his roll against the Knight would have been 3d6 + 2 + 2 − 3 = 3d6 + 1, giving him a much better chance of turning that blow aside.
 
 {{< pagebreak >}}
 ## Critical Hits (Three Natural 6s)
@@ -188,9 +188,9 @@ Only roll when failure is interesting. If the hero has time, tools, and training
 
 ## Worked Examples
 
-**Kael the Blade attacks the goblin chieftain.** Kael's Brawn is +2 and his Long Blades skill is Adept (+2). He rolls 4+3+5=12, then adds +2+2=16. *Strong!* His longsword deals 5 Strong damage. The chieftain's crude leather gives Armor 1, so he takes 4 damage. The chieftain roars, he felt that one.
+**Kael the Blade attacks the goblin chieftain.** Kael's Brawn is +1 and his Long Blades skill is Adept (+2). He rolls 4+3+5=12, then adds +1+2=15. *Strong!* His longsword deals 5 Strong damage. The chieftain's crude leather gives Armor 1, so he takes 4 damage. The chieftain roars, he felt that one.
 
-**Lyra the Intellect identifies an ancient rune.** Knowledge +2, no skill, difficulty -2 (it's very old and partially worn). She rolls 2+4+4=10, adds +2 for Knowledge, subtracts 2 for difficulty, total 10. *Standard.* She recognizes it as Old Elvish, a warding glyph meant to keep something *in*, not out. That's concerning.
+**Lyra the Odd identifies an ancient rune.** Knowledge +1, no skill, difficulty -2 (it's very old and partially worn). She rolls 2+4+4=10, adds +1 for Knowledge, subtracts 2 for difficulty, total 9. *Standard.* She recognizes it as Old Elvish, a warding glyph meant to keep something *in*, not out. That's concerning.
 
 **Roric the Protector charges the troll.** Rolls 6, 6, 6. The table erupts. *Critical!* Bonus roll: 4, Second Wind, recover 4 HP. Strong damage from his greataxe: 8. The troll's tough hide (DR 3) reduces it to 5. Still, five damage in one swing, and Roric gets his breath back. The troll's expression changes from hunger to concern.
 

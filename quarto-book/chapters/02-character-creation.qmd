@@ -159,15 +159,15 @@ Now your hero finds their calling. This is where they become exceptional.
 
 | Class | Role | Discipline | Vibe |
 |-------|------|------------|------|
-| **Protector** | Tank, defender | Armor | "Stand behind me." |
-| **Blade** | Assassin, precision | Blades | "Strike once. Strike true." |
-| **Arcanist** | Arcane caster | Energy | "Fire answers to me." |
-| **Shepherd** | Divine guide | Protection | "The light guides my hand." |
-| **Intellect** | Scholar, strategist | Any one | "I've read about this." |
-| **Odd** | Chaos wildcard | Any one (different category) | "I have a trick for that." |
-| **Leader** | Commander | Tactics | "Together, we are unstoppable." |
-| **Unbalanced** | High-risk power | Any Elemental | "Power has a price." |
-| **Shadow** | Sneak thief, infiltrator | Stealth | "You never saw me." |
+| **Protector** | Tank, defender | Armor + any Weapon | "Stand behind me." |
+| **Blade** | Assassin, precision | Blades + Stealth | "Strike once. Strike true." |
+| **Arcanist** | Arcane caster | Fire + Energy | "Fire answers to me." |
+| **Shepherd** | Divine guide | Protection + Animal | "The light guides my hand." |
+| **Intellect** | Scholar, strategist | Lore + any one | "I've read about this." |
+| **Odd** | Chaos wildcard | Any two, different categories | "I have a trick for that." |
+| **Leader** | Commander | Tactics + Protection | "Together, we are unstoppable." |
+| **Unbalanced** | High-risk power | Fire + Water (or Earth/Wind) | "Power has a price." |
+| **Shadow** | Sneak thief, infiltrator | Stealth + Sleight | "You never saw me." |
 
 Record your Class Discipline (one rank) and signature ability. See @sec-chapter-classes for full writeups, including favored costs.
 
@@ -231,7 +231,7 @@ Let's build a character from scratch so you can see how the pieces fit together.
 
 **Step 1, Concept:** Charming sneak-thief with a heart of tarnished gold. Grew up on the docks, talks her way into places she shouldn't be, always has an exit strategy.
 
-**Step 2, Attributes (total must be +3):** Agility +1 (nimble), Guile +1 (silver tongue), Brawn +1 (can throw a punch when the talking stops). Fortitude +0, Knowledge +0, Reason +0. Sum = +3. ?
+**Step 2, Attributes (total must be +3):** Agility +1 (nimble), Guile +1 (silver tongue), Brawn +1 (can throw a punch when the talking stops). Fortitude +0, Knowledge +0, Reason +0. Sum = +3.
 
 **Step 3, Ancestry:** Halfling. Gains one Blades or Archery Discipline and the **Lucky** trait (add one boon to any roll, once per session).
 
@@ -244,18 +244,18 @@ Let's build a character from scratch so you can see how the pieces fit together.
 - Sleight of Hand Novice (2 DP), quick fingers, quicker pockets
 - Perception Novice (2 DP), reading a room keeps you alive
 
-Total: 8 DP. All spent. ?
+Total: 8 DP. All spent.
 
 **Step 6, Class:** Odd. Gains 2 Disciplines from different categories (Blades and Water). Signature: **Eccentric Spellcasting**, ignore prerequisite Disciplines for two chosen abilities (one arcane, one divine); level gates still apply.
 
 **Step 7, Class DP (8 DP):**
 
-- Sap (Novice ability, 2 DP), daze unaware targets — Blades prereq already met
+- Improvised Solution (Novice ability, 2 DP), the Odd's own Novice ability — no prereq
 - Bow Fighting Novice (2 DP)
 - Streetwise Novice (2 DP)
 - Acrobatics Novice (2 DP)
 
-Total: 8 DP. All spent. ?
+Total: 8 DP. All spent.
 
 **Step 8, Equipment:** Shortbow (W/S/S: 2/3/4), dagger (1/2/3), leather armor (DR 2), thieves' tools, 20 arrows.
 
@@ -417,7 +417,7 @@ Total: 8 DP. All spent.
 
 Total: 8 DP. All spent.
 
-**Equipment:** Longsword (2/3/5), spear (2/3/4), chain shirt (DR 3), shield (+1 Protection Value), captain's insignia, 10 gp.
+**Equipment:** Longsword (2/3/5), spear (2/3/4), chain shirt (DR 3), shield (+2 DR), captain's insignia, 10 gp.
 
 **Derived Stats:** HP 9 (10 + Fort 0 + Know -1). Initiative +0. Movement 30 ft. Carry 15 slots.
 
@@ -531,7 +531,7 @@ Total: 9 DP. All spent.
 
 Total: 8 DP. All spent.
 
-**Equipment:** Battleaxe (3/4/6), chain mail (DR 5), shield (+1 PV), smith's tools, 10 gp.
+**Equipment:** Battleaxe (3/4/6), chain mail (DR 5), shield (+2 DR), smith's tools, 10 gp.
 
 **Derived Stats:** HP 13 (10 + Fort 1 + Know 0 + Sturdy 2). Initiative -1. Movement 20 ft (heavy armor + dwarf). Carry 20 slots.
 

@@ -110,17 +110,27 @@ Each class has 2-3 exclusive talents. These define your class identity mechanica
 
 **Shepherd:** **Blessed Touch** (Adept), healing spells always use Standard effect minimum. **Miracle Worker** (Master), once per session, prevent an ally's death.
 
+**Intellect:** **Quick Study** (Novice), once per session, gain Novice rank in a skill you don't have for one check.
+
+**Odd:** The Odd may take class talents from any class (sampling all four archetypes), but pays the listed cost and may not stack duplicates. **Chaotic Insight** (Novice), once per session, reroll any roll; the reroll uses a fresh d6.
+
+**Leader:** **Rally the Troops** (Novice), once per session, all allies within 30 ft remove one Fear effect.
+
+**Unbalanced:** **Dangerous Gambit** (Novice), once per scene, +1 damage tier on a roll of 16+.
+
+**Shadow:** **Trap Sense** (Novice), Boon on checks to detect traps.
+
 ### Worked Example: When Class Talents Combine
 
 Lyra is a halfling Odd, Level 7. She took **Spell Weaver** (Adept) at Level 5, she can now maintain two concentration spells at once. At Level 7, she buys **Arcane Reservoir** (Master) for 8 DP.
 
 Here's how a tough fight plays out:
 
-**Round 1:** Lyra casts *Wall of Wind* (Adept, concentration), a barrier of howling air that deflects arrows and slows enemies. Then she casts *Haste* (Adept, concentration) on Kael. Two concentration spells, both running, because Spell Weaver says so. Kael now has an extra Action each turn and ranged attacks against the party are at -2.
+**Round 1:** Lyra casts *Wind Wall* (Adept, concentration), a barrier of howling air that deflects arrows and slows enemies. Then she casts *Haste* (Adept, concentration) on Kael. Two concentration spells, both running, because Spell Weaver says so. Kael now has an extra Action each turn and ranged attacks against the party are at -2.
 
-**Round 3:** The DA drops a Young Dragon on the party. It breathes lightning. The party is scattered, wounded, and the Wall of Wind won't stop a dragon's breath.
+**Round 3:** The DA drops a Young Dragon on the party. It breathes lightning. The party is scattered, wounded, and the Wind Wall won't stop a dragon's breath.
 
-Lyra activates **Arcane Reservoir.** She casts *Chain Lightning* (Master), her most devastating spell. It fires. Strong result: 21 damage to the dragon, 9 to every creature within 15 feet of it. Then Arcane Reservoir kicks in: she casts it *again*. Second roll: Standard, 15 more damage. The dragon has taken 36 damage in one turn from one caster.
+Lyra activates **Arcane Reservoir.** She casts *Chain Lightning* (Master), her most devastating spell. It fires. Strong result: 21 damage to the dragon, arcing to 6 secondary targets for 21 each. Then Arcane Reservoir kicks in: she casts it *again*. Second roll: Standard, 15 more damage. The dragon has taken 36 damage in one turn from one caster.
 
 That's the power of talent chains. Spell Weaver keeps her battlefield control running. Arcane Reservoir doubles her biggest gun. She spent 12 DP across two levels to build this combo. Every point paid off in that moment.
 
