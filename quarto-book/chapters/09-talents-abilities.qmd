@@ -63,8 +63,10 @@ Available to all classes. These are the talents any hero can pick up, regardless
 |--------|------|----------|--------|
 | **Alert** | Novice | Utility | +2 initiative. You react before others even register the threat. |
 | **Arcane Sensitivity** | Novice | Magic | +1 to spell attack rolls for one Discipline of your choice. You sense the flow of magic before others see it coming. |
+| **Battlefield Assessment** | Novice | Utility | *Requires 1 Tactics.* Once per scene, before rolling initiative, you may learn whether any enemy in sight is weaker, equal, or stronger than you in combat. A heartbeat of observation tells you everything you need to know about whether to fight or flee. |
 | **Field Medic** | Novice | Support | When you restore HP to an ally (spell, kit, or ability), restore 1 additional HP. You've learned to stanch wounds with whatever is at hand. |
 | **Fleet-Footed** | Novice | Utility | +5 ft Speed. Whether from a lifetime in the wilds or too many close calls in narrow alleys, you move faster than your enemies expect. |
+| **Linguist** | Novice | Utility | *Requires 1 Lore.* You may read and speak one additional language per rank of Lore you possess. Every tongue you learn opens a door that was closed before. |
 | **Lucky** | Novice | Utility | Reroll one natural 1 per session. Fate favors you, or you're just too stubborn to fail. |
 | **Shield Bearer** | Novice | Defense | +1 DR while wielding a shield. This is training, not enchantment, it stacks with magic shield bonuses. |
 | **Skill Focus** | Novice | Utility | +1 to one skill (stacks with tier bonus). Pick your specialty and own it. |
