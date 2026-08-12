@@ -144,6 +144,8 @@ Every damaging spell, ability, and maneuver in *Heroes of Legend* is built on a 
 ::: {.callout-note}
 ## How to Read the Budget
 
+There is no damage roll. The outcome of your attack or casting roll — Weak, Standard, or Strong — determines your damage from the budget table. The hit roll is the damage roll.
+
 The numbers are flat damage points. A Novice Firebolt deals 2 damage on a Weak result, 4 on Standard, 6 on Strong. An Adept Fireball deals 6/9/12. A Master Volcanic Eruption deals 9/15/21. These are flat numbers — no dice. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
 
 See @sec-chapter-arcane-spells and @sec-chapter-divine-spells for the full spell lists. See @sec-chapter-classes for class abilities keyed to this budget.
