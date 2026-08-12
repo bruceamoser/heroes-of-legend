@@ -39,8 +39,8 @@ When you attempt something with a meaningful chance of failure and consequence, 
 | **Weak** | 1-8 | You succeed, but there's a cost, complication, or reduced effect. |
 | **Standard** | 9-14 | Clean success. You do the thing you set out to do. |
 | **Strong** | 15-18+ | Exceptional success. Extra effect, bonus information, or added style. |
-| **Critical** | 3-6 | Automatic Strong plus a special outcome. The table erupts. |
-| **Fumble** | 3-1 | Automatic failure with a serious complication. |
+| **Critical** | Three natural 6s | Automatic Strong plus a special outcome. The table erupts. |
+| **Fumble** | Three natural 1s | Automatic failure with a serious complication. |
 
 ### Difficulty Modifiers
 
@@ -106,10 +106,10 @@ Kael spends his reaction. He makes an immediate melee attack against the captain
 | **Great Blades** | BR | Blades, Heavy | Fighting with greatswords and two-handed blades |
 | **Small Hammers** | BR | Heavy | Fighting with maces, clubs, and light hammers |
 | **Long Hammers** | BR | Heavy | Fighting with warhammers and military hammers |
-| **Great Hammers** | BR | Heavy, Blades | Fighting with mauls and massive crushing weapons |
+| **Great Hammers** | BR | 3 Heavy Weapon | Fighting with mauls and massive crushing weapons |
 | **Small Axes** | BR | Axes | Fighting with hand axes and hatchets |
 | **Long Axes** | BR | Axes | Fighting with battle axes and war axes |
-| **Great Axes** | BR | Axes, Heavy | Fighting with greataxes and massive cleaving weapons |
+| **Great Axes** | BR | 2 Axes + 1 Heavy Weapon | Fighting with greataxes and massive cleaving weapons |
 | **Polearms** | BR | Polearms | Fighting with spears, halberds, and reach weapons |
 | **Unarmed Fighting** | BR | Unarmed | Fists, grappling, and improvised brawling |
 | **Endurance** | FO | — | Resisting fatigue, holding breath, forced marches |
@@ -175,7 +175,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
-| **Adept** | +2 | 4 | **Riposte**, When an enemy misses you in melee, spend your reaction to counterattack. Disc: Blades (3). |
+| **Adept** | +2 | 4 | **Riposte**, When an enemy misses you in melee, spend your reaction to counterattack. Disc: 2 Blades. |
 | **Master** | +3 | 8 | **Flurry**, Make a second melee attack at -2. Disc: Blades (3). |
 
 ### Great Blades {#sec-skill-great-blades}
@@ -187,7 +187,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
-| **Adept** | +2 | 4 | **Power Strike**, On Standard+ hit, push target 5 ft away. Disc: Blades (2) + Heavy (1). |
+| **Adept** | +2 | 4 | **Power Strike**, On Standard+ hit, push target 5 ft away. Disc: 1 Blades + 1 Heavy Weapon. |
 | **Master** | +3 | 8 | **Whirlwind**, Attack all adjacent foes with one roll at -2. Disc: Blades (2) + Heavy (1). |
 
 ### Small Hammers {#sec-skill-small-hammers}
@@ -211,7 +211,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
-| **Adept** | +2 | 4 | **Crushing Blow**, On Standard+ hit, knock target prone. Disc: Heavy (3). |
+| **Adept** | +2 | 4 | **Crushing Blow**, On Standard+ hit, knock target prone. Disc: 2 Heavy Weapon. |
 | **Master** | +3 | 8 | **Shatter**, Next hammer attack ignores 3 DR. Disc: Heavy (3). |
 
 ### Great Hammers {#sec-skill-great-hammers}
@@ -223,14 +223,14 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
-| **Adept** | +2 | 4 | **Ground Pound**, Slam ground. All adjacent foes save vs Fortitude or fall prone. Disc: Heavy (2). |
-| **Master** | +3 | 8 | **Grand Slam**, Attack all creatures in 10-ft cone with one roll. Disc: Heavy (3). |
+| **Adept** | +2 | 4 | — |
+| **Master** | +3 | 8 | **Grand Slam**, Attack all creatures in 10-ft cone with one roll. Disc: 3 Heavy Weapon. |
 
 ### Small Axes {#sec-skill-small-axes}
 
 *Brawn - Axes*
 
-**Prereq:** Disciplines: 2 Axes + 1 Heavy
+**Prereq:** Disciplines: 1 Axes
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
@@ -247,20 +247,20 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
-| **Adept** | +2 | 4 | **Cleave**, When you drop a foe to 0 HP, carry remaining damage to an adjacent enemy. Disc: Axes (3). |
+| **Adept** | +2 | 4 | **Cleave**, When you drop a foe to 0 HP, carry remaining damage to an adjacent enemy. Disc: 2 Axes. |
 | **Master** | +3 | 8 | **Sunder**, Next axe attack ignores 2 DR. Disc: Axes (3). |
 
 ### Great Axes {#sec-skill-great-axes}
 
 *Brawn - Axes*
 
-**Prereq:** Disciplines: 1 Axes
+**Prereq:** Disciplines: 2 Axes + 1 Heavy Weapon
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
 | **Adept** | +2 | 4 | **Reaping Swing**, Attack two adjacent foes with one roll at -1 per target. Disc: Axes (2). |
-| **Master** | +3 | 8 | **Executioner's Cut**, On Strong hit, double the attack's damage dice. Disc: Axes (2) + Heavy (1). |
+| **Master** | +3 | 8 | **Executioner's Cut**, On Strong hit, the attack deals +1 damage tier. Disc: Axes (2) + Heavy (1). |
 
 ### Polearms {#sec-skill-polearms}
 
@@ -312,7 +312,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 ### Thrown Weapon {#sec-skill-thrown-weapon}
 
-*Agility - Blades or Archery*
+*Agility - Blades, Axes, or Archery*
 
 **Prereq:** Disciplines: 1 Blades, Axes, or Archery
 
@@ -379,8 +379,8 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
-| **Adept** | +2 | 4 | **Tracker's Eye**, Learn direction and distance of a creature that passed within the last hour. Disc: Animal (1). |
-| **Master** | +3 | 8 | **Ambush**, Become hidden. Remain hidden until you attack, cast, or move. Disc: Animal (2). |
+| **Adept** | +2 | 4 | **Tracker's Eye**, Learn direction and distance of a creature that passed within the last hour. Disc: Animal (2). |
+| **Master** | +3 | 8 | **Ambush**, Become hidden. Remain hidden until you attack, cast, or move. Disc: Animal (3). |
 
 ### Resilience {#sec-skill-resilience}
 
@@ -475,8 +475,8 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
-| **Adept** | +2 | 4 | **Identify Spell**, Learn spell being cast within 60 ft: name, tier, school. Disc: Energy (1). |
-| **Master** | +3 | 8 | **Counterspell**, Reaction + maneuver. Arcana check vs 7 + spell tier to disrupt casting. Disc: Energy (2). |
+| **Adept** | +2 | 4 | **Identify Spell**, Learn spell being cast within 60 ft: name, tier, school. Disc: Energy (2). **Counterspell**, Reaction + maneuver. Arcana check vs 7 + spell tier to disrupt casting. Disc: Energy (2). |
+| **Master** | +3 | 8 | — |
 
 ### History {#sec-skill-history}
 
@@ -511,8 +511,8 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
-| **Adept** | +2 | 4 | **Beast Lore**, Identify creature's type, abilities, and vulnerabilities. Disc: Animal (1). |
-| **Master** | +3 | 8 | **Commune**, Speak with a natural beast for 1 minute. Disc: Animal (2). |
+| **Adept** | +2 | 4 | **Beast Lore**, Identify creature's type, abilities, and vulnerabilities. Disc: Animal (2). |
+| **Master** | +3 | 8 | **Commune**, Speak with a natural beast for 1 minute. Disc: Animal (3). |
 
 ### Religion {#sec-skill-religion}
 
@@ -536,7 +536,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
 | **Adept** | +2 | 4 | **Quick Mix**, Identify a potion, poison, or substance by taste/smell. Quickly mix a simple remedy. |
-| **Master** | +3 | 8 | **Alchemical Bomb**, Hurl explosive up to 30 ft. 2d6 elemental (fire/acid/frost) in 10-ft radius. |
+| **Master** | +3 | 8 | **Alchemical Bomb**, Hurl explosive up to 30 ft. Deals 6/9/12 elemental (fire/acid/frost) damage in 10-ft radius based on success tier. |
 
 ### Craft {#sec-skill-craft}
 
@@ -559,8 +559,8 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
-| **Adept** | +2 | 4 | **Field Dressing**, Adjacent ally stabilizes (if dying) or regains 1d6 HP. Disc: Animal (1). |
-| **Master** | +3 | 8 | **Battlefield Surgery**, Remove one condition from adjacent ally, or heal 3d6 HP. Disc: Animal (2). |
+| **Adept** | +2 | 4 | **Field Dressing**, Adjacent ally stabilizes (if dying) or regains 4 HP. Disc: Animal (2). |
+| **Master** | +3 | 8 | **Battlefield Surgery**, Remove one condition from adjacent ally, or heal 12 HP. Disc: Animal (3). |
 
 ### Insight {#sec-skill-insight}
 
@@ -619,8 +619,8 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
-| **Adept** | +2 | 4 | **Soothing Voice**, Calm a hostile or frightened beast within 30 ft. It will not attack for 1 round. Disc: Animal (1). |
-| **Master** | +3 | 8 | **Beast Bond**, Your mount or animal companion gains +2 on its next attack or skill check. Disc: Animal (2). |
+| **Adept** | +2 | 4 | **Soothing Voice**, Calm a hostile or frightened beast within 30 ft. It will not attack for 1 round. Disc: Animal (2). |
+| **Master** | +3 | 8 | **Beast Bond**, Your mount or animal companion gains +2 on its next attack or skill check. Disc: Animal (3). |
 
 ### Navigation {#sec-skill-navigation}
 
