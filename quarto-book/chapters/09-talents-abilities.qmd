@@ -14,7 +14,7 @@ Listen up. Talents are what you *are*. Abilities are what you *do*. One's always
 
 Talents are passive. They modify your numbers, bend the rules in your favor, or grant you something you didn't have before. You buy them once and they just *work*, no activation, no maneuver cost, no "is it my turn yet?" They're the reason the Protector takes one more hit than everyone else and the Blade's crits leave a smoking crater.
 
-Abilities are active. Spells, combat techniques, signature class powers, anything you have to *decide* to use. You spend your Action or Maneuver, the ability fires, something happens. Abilities follow the same Novice ? Adept ? Master chain as everything else in this game. See @sec-chapter-magic-system for spell chains specifically.
+Abilities are active. Spells, combat techniques, signature class powers, anything you have to *decide* to use. You spend your Action or Maneuver, the ability fires, something happens. Abilities follow the same Novice → Adept → Master chain as everything else in this game. See @sec-chapter-magic-system for spell chains specifically.
 
 {{< pagebreak >}}
 
@@ -27,7 +27,7 @@ Before you start spending DP, know what you're buying. Talents fall into four bu
 | **Defense** | Staying alive. HP, DR, saves, resistances. | Tough, Iron Will, Unbreakable |
 | **Offense** | Hitting harder. Bonus damage, extra attacks, critical effects. | Weapon Focus, Death Blow, Spell Weaver |
 | **Utility** | Breaking the rules. Extra actions, rerolls, resource recovery. | Lucky, Combat Reflexes, Arcane Reservoir |
-| **Support** | Helping allies. Healing boosts, protection auras, buffs. | Shield Wall, Blessed Touch, Divine Intervention |
+| **Support** | Helping allies. Healing boosts, protection auras, buffs. | Shield Wall, Blessed Touch, Miracle Worker |
 
 You don't need to balance across all four. A Blade stacks Offense and Utility. A Protector stacks Defense and Support. That's how it should be, lean into what your class does.
 
@@ -37,9 +37,9 @@ You don't need to balance across all four. A Blade stacks Offense and Utility. A
 
 | Tier | DP Cost | Description |
 |------|---------|-------------|
-| **Novice** | 1 DP | Basic competency |
-| **Adept** | 2 DP | Advanced mastery (requires Novice) |
-| **Master** | 4 DP | Legendary expertise (requires Adept) |
+| **Novice** | 2 DP | Basic competency |
+| **Adept** | 4 DP | Advanced mastery (requires Novice) |
+| **Master** | 8 DP | Legendary expertise (requires Adept) |
 
 ::: {.callout-note}
 ## Talent Stacking: What Does and Doesn't Combine
@@ -49,8 +49,6 @@ Bonuses from **different-named talents** always stack. Tough (+2 HP) plus Iron W
 Bonuses from the **same talent taken multiple times** do *not* stack unless the talent explicitly says so. You can't buy Tough three times for +6 HP. One and done.
 
 Bonuses from a talent **plus a skill or item** stack freely. Skill Focus (+1 to Stealth) stacks with your Stealth skill bonus (+1/+2/+3) and with any magic item bonus. The game assumes you'll stack. Build accordingly.
-
-The one exception: **Discipline Master** (Master talent). It makes one Discipline count as *two* for meeting prerequisites. This doesn't stack with itself, you can't take it twice for the same Discipline to make it count as three. But you *can* take it for different Disciplines. A high-level Arcanist might have Discipline Master (Fire) and Discipline Master (Energy), meeting the prerequisites for spells that would otherwise be out of reach.
 :::
 
 {{< pagebreak >}}
@@ -75,27 +73,26 @@ Available to all classes. These are the talents any hero can pick up, regardless
 | **Brutal Critical** | Adept | Offense | On a Strong attack result, add +2 damage. Your strikes find gaps in armor that others miss. |
 | **Bulwark** | Adept | Defense | *Requires Shield Bearer.* When you take the Defend action, adjacent allies gain +1 DR until the start of your next turn. You don't just protect yourself, you hold the line. |
 | **Combat Reflexes** | Adept | Utility | One extra reaction per round. While others hesitate, you act. |
-| **Discipline Collector** | Adept | Utility | Gain one additional Discipline rank of your choice, paid at your class's cost for that discipline. Your training has been broader than most. |
+| **Discipline Collector** | Adept | Utility | Gain one additional Discipline rank of your choice, paid at your class's cost for that discipline. This cannot raise a discipline above 3 ranks, and it does not count as a progression pick. Your training has been broader than most. |
 | **Dungeon Delver** | Adept | Utility | +2 to all checks to detect traps, secret doors, and hidden mechanisms. You've learned that dungeons punish the unobservant. |
 | **Inspiring Presence** | Adept | Support | Once per encounter, as a Maneuver, one ally within 30 ft can immediately reroll a failed saving throw. They take the new result. Your confidence is contagious. |
 | **Iron Will** | Adept | Defense | +2 to all saves vs fear and charm. Your mind is a fortress. |
 | **Spell Reservoir** | Adept | Magic | *Requires Arcane Sensitivity.* Once per session, regain the use of one Novice or Adept spell you've already cast. Magic flows through you more freely than through others. |
-| **Discipline Master** | Master | Utility | One specific Discipline counts as 2 for prerequisites. You haven't just mastered a discipline, you've transcended its normal limits. |
-| **Indomitable** | Master | Defense | Once per session, when you would drop to 0 HP, drop to 1 HP instead and gain temporary HP equal to your level. You refuse to fall. |
+| **Refuse to Fall** | Master | Defense | Once per session, when you would drop to 0 HP, drop to 1 HP instead and gain temporary HP equal to your level. You refuse to fall. |
 | **Legendary Resilience** | Master | Defense | Once per session, when you fail a saving throw, you may choose to succeed instead. Your will reshapes reality in the moment it matters most. |
 | **Spell Storm** | Master | Magic | Once per session, when you cast a spell that targets a single creature, it instead targets all creatures of your choice within a 15-ft radius of the original target. You don't cast spells, you unleash them. |
 
 ### Worked Example: Building a Talent Chain
 
-Kael is a dwarf Blade at Level 4. He's got 3 DP to spend and he wants to become harder to kill without sacrificing his damage output. Here's his thought process.
+Kael is a dwarf Blade at Level 4. He's got 6 DP to spend and he wants to become harder to kill without sacrificing his damage output. Here's his thought process.
 
-**Current build:** Brawn +1, Agility +2. Blades Fighting (Adept). Stealth (Adept). He's got **Tough** (Novice) already, 12 HP instead of the base 10.
+**Current build:** Brawn +1, Agility +2. Long Blades (Adept). Stealth (Adept). He's got **Tough** (Novice) already, 12 HP instead of the base 10.
 
-**Option A, Defense stack:** Buy Tough ? Adept. That's not how Tough works, it doesn't have an Adept version. It's a one-tier talent. Cross that off.
+**Option A, Defense stack:** Buy Tough → Adept. That's not how Tough works, it doesn't have an Adept version. It's a one-tier talent. Cross that off.
 
-**Option B, Offense:** Buy **Weapon Focus** (Adept, Blade class talent). +1 damage with blades. Cost: 2 DP. Remaining: 1 DP. He could grab **Alert** (Novice) for +2 initiative, going first means one less attack coming his way.
+**Option B, Offense:** Buy **Weapon Focus** (Adept, Blade class talent). +1 damage with blades. Cost: 4 DP. Remaining: 2 DP. He could grab **Alert** (Novice) for +2 initiative, going first means one less attack coming his way.
 
-**Option C, Utility:** Buy **Combat Reflexes** (Adept) for 2 DP. A second reaction per round means two opportunity attacks or two Shield Blocks. Then **Lucky** (Novice) for 1 DP, reroll one natural 1 per session.
+**Option C, Utility:** Buy **Combat Reflexes** (Adept) for 4 DP. A second reaction per round means two opportunity attacks or two Shield Blocks. Then **Lucky** (Novice) for 2 DP, reroll one natural 1 per session.
 
 He goes with Option B. The +1 damage from Weapon Focus applies every single attack, forever. Combined with Alert, he's hitting harder *and* sooner. At the table, that +1 from Weapon Focus turns a Weak (2 damage) into what would've been a borderline Standard (3 damage), and over a whole session, those extra points add up.
 
@@ -111,11 +108,11 @@ Each class has 2-3 exclusive talents. These define your class identity mechanica
 
 **Arcanist:** **Spell Weaver** (Adept), maintain two concentration spells. **Arcane Reservoir** (Master), once per session, cast a Master spell twice.
 
-**Shepherd:** **Blessed Touch** (Adept), healing spells always use Standard effect minimum. **Divine Intervention** (Master), once per session, prevent an ally's death.
+**Shepherd:** **Blessed Touch** (Adept), healing spells always use Standard effect minimum. **Miracle Worker** (Master), once per session, prevent an ally's death.
 
 ### Worked Example: When Class Talents Combine
 
-Lyra is a halfling Odd, Level 7. She took **Spell Weaver** (Adept) at Level 5, she can now maintain two concentration spells at once. At Level 7, she buys **Arcane Reservoir** (Master) for 4 DP.
+Lyra is a halfling Odd, Level 7. She took **Spell Weaver** (Adept) at Level 5, she can now maintain two concentration spells at once. At Level 7, she buys **Arcane Reservoir** (Master) for 8 DP.
 
 Here's how a tough fight plays out:
 
@@ -123,15 +120,15 @@ Here's how a tough fight plays out:
 
 **Round 3:** The DA drops a Young Dragon on the party. It breathes lightning. The party is scattered, wounded, and the Wall of Wind won't stop a dragon's breath.
 
-Lyra activates **Arcane Reservoir.** She casts *Chain Lightning* (Master), her most devastating spell. It fires. Strong result: 12 damage to the dragon, 6 to every creature within 15 feet of it. Then Arcane Reservoir kicks in: she casts it *again*. Second roll: Standard, 8 more damage. The dragon has taken 20 damage in one turn from one caster.
+Lyra activates **Arcane Reservoir.** She casts *Chain Lightning* (Master), her most devastating spell. It fires. Strong result: 21 damage to the dragon, 9 to every creature within 15 feet of it. Then Arcane Reservoir kicks in: she casts it *again*. Second roll: Standard, 15 more damage. The dragon has taken 36 damage in one turn from one caster.
 
-That's the power of talent chains. Spell Weaver keeps her battlefield control running. Arcane Reservoir doubles her biggest gun. She spent 6 DP across two levels to build this combo. Every point paid off in that moment.
+That's the power of talent chains. Spell Weaver keeps her battlefield control running. Arcane Reservoir doubles her biggest gun. She spent 12 DP across two levels to build this combo. Every point paid off in that moment.
 
 {{< pagebreak >}}
 
 ## Ability Chains
 
-Abilities (including spells) follow the same Novice ? Adept ? Master chain structure. See @sec-chapter-magic-system for spell chains. The key distinction: **talents are always on; abilities must be activated.** A Protector with Shield Wall doesn't "activate" it, allies within reach just get +1 DR. A Blade using Precise Stab must spend their Maneuver and declare the ability. Know which is which before the dice hit the table.
+Abilities (including spells) follow the same Novice → Adept → Master chain structure. See @sec-chapter-magic-system for spell chains. The key distinction: **talents are always on; abilities must be activated.** A Protector with Shield Wall doesn't "activate" it, allies within reach just get +1 DR. A Blade's Precise Stab triggers automatically on a successful attack, no Maneuver required. Know which is which before the dice hit the table.
 
 ::: {.callout-note}
 ## The Trap of "Buy Everything"
@@ -140,5 +137,5 @@ New players see the talent list and want it all. Here's the hard truth: a hero w
 
 Pick a direction. If you're building a damage-dealer, stack Offense. Weapon Focus + Death Blow + Lucky (to fish for crits). If you're the party's shield, stack Defense. Tough + Iron Will + Unbreakable. The DP economy rewards focus. A scattered build is a weak build.
 
-That said, one Utility talent is almost always worth it. **Lucky** (1 DP) has saved more heroes than any other single purchase. **Combat Reflexes** (2 DP) doubles your reactions. **Skill Focus** (1 DP) can turn a dabbler into a specialist. Grab one, then get back to your core build.
+That said, one Utility talent is almost always worth it. **Lucky** (2 DP) has saved more heroes than any other single purchase. **Combat Reflexes** (4 DP) doubles your reactions. **Skill Focus** (2 DP) can turn a dabbler into a specialist. Grab one, then get back to your core build.
 :::
