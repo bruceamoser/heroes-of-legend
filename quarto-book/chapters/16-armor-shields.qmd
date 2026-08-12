@@ -6,7 +6,7 @@
 
 ![Illo 23: Armor Illustration](../assets/images/page101-img039.png){width="60%"}
 
-*Illustration 23: Armor & shields chapter art (Magic items / armor). Placeholder; final art TBD. Dimensions: 1024×1024.*
+*Illustration 23: Armor & shields chapter art (Armor & shields). Placeholder; final art TBD. Dimensions: 1024×1024.*
 
 {{< pagebreak >}}
 
@@ -20,7 +20,7 @@ Shields are different. They don't reduce damage passively, they give you a react
 
 When you take physical damage, subtract your Damage Reduction (DR) from the damage value. The remainder is what you actually lose from your HP. Simple.
 
-**Example:** Kael wears leather armor (DR 2). A goblin's shortsword hits him for Weak damage (2). 2 - 2 = 0. The blade scrapes off his hardened leather pauldron. He feels the impact. He doesn't feel the steel.
+**Example:** Kael wears leather armor (DR 2). A goblin's shortsword hits him for Weak damage (2). 2 - 2 = 0, but damage never drops below 1, so Kael takes 1 damage. The blade scrapes off his hardened leather pauldron. He feels the sting. He doesn't feel the steel.
 
 If the goblin lands a Standard hit (3 damage), Kael takes 1 HP. The armor didn't stop it, but it turned a solid hit into a scratch.
 
@@ -75,7 +75,7 @@ A shield is an active defense. You're not just wearing it, you're using it. When
 
 ### Shield Block (Reaction)
 
-When you are hit by an attack, you may use your reaction to interpose your shield. Reduce the damage tier by one step: **Strong ? Standard, Standard ? Weak, Weak ? 1 damage.** You must be wielding a shield and be aware of the attack.
+When you are hit by an attack, you may use your reaction to interpose your shield. Reduce the damage tier by one step: **Strong → Standard, Standard → Weak, Weak → 1 damage.** You must be wielding a shield and be aware of the attack.
 
 Shield Block cannot reduce damage below 1. It can be used against melee attacks, ranged attacks, and spell attacks, anything you can see coming.
 
@@ -109,7 +109,7 @@ Roric is holding a choke point against three goblins. He's got his Shield (DR +2
 
 **Roric's player:** "Shield Block."
 
-He spends his reaction. The damage tier drops: Critical ? Strong. The critical bonus is negated, the shield caught the spear point before it could twist. Damage is now 5 (Strong only). DR 7 soaks all but 1. The spear slams into Roric's shield, splintering the haft. Roric grunts. The goblin stares at his broken weapon in disbelief.
+He spends his reaction. The damage tier drops: Critical → Strong. The critical bonus is negated, the shield caught the spear point before it could twist. Damage is now 5 (Strong only). DR 7 soaks all but 1. The spear slams into Roric's shield, splintering the haft. Roric grunts. The goblin stares at his broken weapon in disbelief.
 
 That's the power of a shield. Without it, Roric takes 7 damage, over half his HP. With it, he takes nothing, and the goblin is now unarmed.
 
@@ -117,7 +117,7 @@ That's the power of a shield. Without it, Roric takes 7 damage, over half his HP
 
 ## Donning & Doffing
 
-Light armor: 1 minute. Medium: 5 minutes. Heavy: 10 minutes. Shield: 1 action.
+Light armor (Padded, Leather, Studded Leather): 1 minute. Medium armor (Chain Shirt, Breastplate, Half Plate, Chain Mail): 5 minutes. Heavy armor (Plate): 10 minutes. Shield: 1 action.
 
 You won't always have time to suit up. If the party is ambushed while camping, the Protector fights in whatever they were sleeping in. Plan accordingly, or invest in the **Endurance** skill, because sleeping in chain mail is exactly as unpleasant as it sounds.
 

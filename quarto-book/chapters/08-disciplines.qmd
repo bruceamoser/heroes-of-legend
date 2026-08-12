@@ -166,6 +166,8 @@ The number of disciplines required is fixed by tier (1/2/3). The *composition* o
 
 A card requiring 1 Fire is Novice. A card requiring 2 Fire is Adept. A card requiring 3 Fire is Master. A card requiring 2 Fire + 1 Earth is Master (total 3 ranks). A hero's maximum in any single discipline is 3 ranks.
 
+Tier shapes describe CARDS. Weapon-skill entries may list their own weapon prereqs (Small 1, Long 2, Great 2+1 or 3); the card's tier is separate from the entry requirement.
+
 ### No-Prereq Basics
 
 Some basic Novice cards (cantrips, basic utility skills) have **no Discipline requirement** and cost only the flat card price (2 DP). These represent minor talents anyone can pick up: a spark of flame too small to harm, a knack for reading a room, a trick of sleight of hand. Adept and Master cards **always** require Disciplines. There are no shortcuts to real power.
@@ -195,7 +197,7 @@ Every damaging card states its expression in its damage line as either **Flat** 
 
 **Flat** damage uses the budget row exactly as listed (Novice 2/4/6, Adept 6/9/12, Master 9/15/21). Arrows, missile ammunition, thrown weapons, most spell chains, and all monsters use flat damage. No attribute is added.
 
-**Attribute-Scaled** damage adds a keyed attribute to a base value, minimum 1 damage. For spells and abilities, the base is budget − 3 (Novice 1/2/3, Adept 3/6/9, Master 6/12/18), plus the card's stated attribute (e.g. "1/2/3 + Knowledge"). Melee weapons use their listed damage values and add Brawn (or the attack attribute; features like Swift Blade may substitute Agility). Missile weapons and ammunition are flat.
+**Attribute-Scaled** damage adds a keyed attribute to a base value, minimum 1 damage. For spells and abilities, the base is budget − 3 (Novice 1/2/3, Adept 3/6/9, Master 6/12/18), plus the card's stated attribute (e.g. "1/2/3 + Knowledge"). Melee weapons use their listed damage values and add Brawn (Finesse weapons use Agility instead of Brawn for attack and damage; features like Swift Blade may also substitute Agility). Missile weapons and ammunition are flat.
 
 Weapons follow their own damage curve (see the Equipment chapter): daggers 1/2/3 up to greatswords 3/5/8, plus Brawn for melee weapons.
 :::

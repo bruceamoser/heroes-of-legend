@@ -12,7 +12,7 @@
 
 Your hero is going to need gear. A sword, some armor, a rope, a torch, a bedroll, and probably a ten-foot pole because someone at the table has read about pit traps. Equipment is the stuff between your hero and a bad day. Choose it well.
 
-The tables in this chapter list weapons by damage tier, armor by damage reduction, and adventuring gear by utility and cost. Prices are in gold pieces (gp), the standard currency of the realms. A laborer earns about 1 gp a month. Prices vary by region and availability; the DA sets the cost in their world. Keep that in mind when you're haggling with the blacksmith. You're not just buying gear, you're spending someone's annual salary.
+The tables in this chapter list weapons by damage tier, armor by damage reduction, and adventuring gear by utility. Prices are in gold pieces (gp), the standard currency of the realms. A laborer earns about 1 gp a month. Prices vary by region and availability; the DA sets the cost in their world. Keep that in mind when you're haggling with the blacksmith. You're not just buying gear, you're spending someone's annual salary.
 
 {{< pagebreak >}}
 
@@ -20,28 +20,34 @@ The tables in this chapter list weapons by damage tier, armor by damage reductio
 
 Every weapon has fixed Weak, Standard, and Strong damage values. Melee weapons add your Brawn (or another attack attribute via features like Swift Blade) to every damage result. The 3d6 attack roll already determined how well you struck. No separate damage dice.
 
-| Weapon | Disciplines Required | Damage (W/S/St) | Attribute |
-|--------|---------------------|-----------------|-----------|
-| Unarmed | None | 1 / 1 / 2 | + Brawn |
-| Dagger | 1 Blades | 1 / 2 / 3 | + Brawn |
-| Shortsword | 2 Blades | 2 / 3 / 4 | + Brawn |
-| Longsword | 2 Blades | 2 / 3 / 5 | + Brawn |
-| Greatsword | 2 Blades + 1 Heavy Weapon | 3 / 5 / 8 | + Brawn |
-| Handaxe | 1 Axes | 2 / 3 / 5 | + Brawn |
-| Battleaxe | 1 Axes | 3 / 4 / 6 | + Brawn |
-| Greataxe | 2 Axes + 1 Heavy Weapon | 3 / 5 / 8 | + Brawn |
-| Mace | 1 Heavy Weapon | 1 / 2 / 3 | + Brawn |
-| Warhammer | 2 Heavy Weapon | 2 / 3 / 5 | + Brawn |
-| Maul | 3 Heavy Weapon | 3 / 5 / 8 | + Brawn |
-| Spear | 1 Polearms | 2 / 3 / 4 | + Brawn |
-| Halberd | 1 Polearms + 1 Axes | 3 / 5 / 7 | + Brawn |
-| Shortbow | 1 Archery | 2 / 3 / 4 | |
-| Longbow | 1 Archery | 3 / 4 / 6 | |
-| Crossbow | 1 Archery + 1 Heavy Weapon | 3 / 5 / 7 | |
+| Weapon | Disciplines Required | Damage (W/S/St) | Attribute | Cost |
+|--------|---------------------|-----------------|-----------|------|
+| Unarmed | None | 1 / 1 / 2 | + Brawn | |
+| Dagger | 1 Blades | 1 / 2 / 3 | + Brawn or Agility (Finesse) | |
+| Shortsword | 1 Blades | 2 / 3 / 4 | + Brawn or Agility (Finesse) | |
+| Longsword | 2 Blades | 2 / 3 / 5 | + Brawn | |
+| Greatsword | 2 Blades + 1 Heavy Weapon | 3 / 5 / 8 | + Brawn | |
+| Handaxe | 1 Axes | 2 / 3 / 5 | + Brawn | |
+| Battleaxe | 2 Axes | 3 / 4 / 6 | + Brawn | |
+| Greataxe | 2 Axes + 1 Heavy Weapon | 3 / 5 / 8 | + Brawn | |
+| Mace | 1 Heavy Weapon | 1 / 2 / 3 | + Brawn | |
+| Warhammer | 2 Heavy Weapon | 2 / 3 / 5 | + Brawn | |
+| Maul | 3 Heavy Weapon | 3 / 5 / 8 | + Brawn | |
+| Spear | 1 Polearms | 2 / 3 / 4 | + Brawn | |
+| Halberd | 1 Polearms | 3 / 5 / 7 | + Brawn | |
+| Throwing Dagger | 1 Blades or 1 Archery | 1 / 2 / 3 | + Brawn or Agility (Finesse) | 2 gp |
+| Shortbow | 1 Archery | 2 / 3 / 4 | | |
+| Longbow | 1 Archery | 3 / 4 / 6 | | |
+| Crossbow | 1 Archery | 3 / 5 / 7 | | |
+
+::: {.callout-note}
+## Kit Weapons
+Your class starting kit assumes training with its gear: you can wield kit weapons regardless of Discipline prerequisites (skills still matter for maneuvers).
+:::
 
 ::: {.callout-note}
 ## Melee Damage
-Melee weapons add your Brawn to every damage result (minimum 1). Features like the Blade's Swift Blade may substitute Agility. Missile weapons and ammunition deal their listed flat damage.
+Melee weapons add your Brawn to every damage result (minimum 1). Finesse weapons use Agility instead of Brawn for attack and damage, and features like the Blade's Swift Blade may substitute Agility. Missile weapons and ammunition deal their listed flat damage.
 :::
 
 ::: {.callout-note}
@@ -55,7 +61,7 @@ Weapons don't just require more of the same Discipline, they require specific co
 **Properties:**
 
 - **Versatile**, +1 damage when wielded two-handed (Longsword only)
-- **Finesse**, may use Agility modifier instead of Brawn on the 3d6 attack roll
+- **Finesse**, use Agility instead of Brawn for attack and damage (Dagger, Shortsword, Throwing Dagger)
 - **Reach**, can attack targets 10 ft away (Spear, Halberd)
 - **Thrown**, can be thrown (range 20/60 ft: Dagger, Handaxe, Spear)
 - **Light**, can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe)
@@ -102,14 +108,21 @@ The general store doesn't sell magic swords. It sells rope, rations, and the tho
 
 | Item | Cost | Slots | Notes |
 |------|------|-------|-------|
+| **Arcane Focus** | 10 gp | 0 | A wand, rod, orb, or crystal that channels arcane power. Used to cast arcane spells. |
+| **Arrows (quiver of 20)** | 1 gp | 1 | Ammunition for shortbows and longbows. |
 | **Backpack** | 2 gp | 2* | Holds up to 30 slots of gear. Items stored inside don't count against your encumbrance, but the backpack itself takes 2 slots on your person. Retrieving a stored item takes a Maneuver. |
 | **Bedroll** | 1 gp | 2 | A warm bedroll and blanket. Required for a full rest in the wild. Without one, you recover half HP (rounded down) from rest. |
+| **Bolts (quiver of 20)** | 1 gp | 1 | Ammunition for crossbows. |
+| **Caltrops (bag)** | 1 gp | 1 | Scatter across a 5-ft square as a maneuver. A creature moving through must make an Agility check (Standard) or take 1 damage and halve its speed until the end of its next turn. |
 | **Chalk (5 pieces)** | 5 cp | 0 | Mark walls, leave signals, draw ritual circles. Breaks easily. Costs nothing. |
 | **Crowbar** | 2 gp | 1 | Boon on Brawn checks to force open doors, chests, or grates. Makes a loud noise, no subtlety. Can be used as an improvised weapon (1/1/2 damage). |
+| **Disguise Kit** | 25 gp | 1 | Cosmetics, dyes, and false hair. Required for Deception checks to hold a disguise over time. |
 | **Fishing Tackle** | 1 gp | 1 | Hook, line, and tackle. With a body of water and 1 hour, make a Knowledge check (Standard 9-14) to catch enough fish to feed one person for the day. On a Strong result, feed two. |
+| **Focus Pouch** | 5 gp | 1 | A belt pouch of the small focuses a caster relies on. Spells need no material components. |
 | **Grappling Hook** | 2 gp | 1 | Hooks onto ledges, branches, or battlements. Attach a rope and throw, range 30 ft. Requires a Brawn or Agility check (Standard) to set securely. |
 | **Hammer** | 1 gp | 1 | Drives pitons, breaks things, nails doors shut. Can be used as an improvised weapon (1/1/2 damage). |
 | **Healer's Kit** | 5 gp | 1 | Bandages, salves, and splints. 10 uses. When you stabilize a dying creature or restore HP during a short rest, add +1 HP per use expended. Without a kit, you can't use the Medicine skill to restore HP during rests. |
+| **Holy Symbol** | 5 gp | 0 | A pendant, emblem, or reliquary that channels divine power. Used to cast divine spells. |
 | **Ink & Pen** | 10 gp | 0 | Write letters, copy maps, forge documents. The ink lasts for roughly 20 pages. The pen is a quill, replace it when the cat gets it. |
 | **Lantern (hooded)** | 5 gp | 1 | Bright light 30 ft, dim light 30 ft. The hood can be closed to reduce light to a 5-ft radius, useful for stealth. Burns for 6 hours per flask of oil. |
 | **Manacles** | 2 gp | 1 | Restrains a creature of Small or Medium size. Escape requires an Agility check (Strong 15+) or a Brawn check (Strong 15+) to break. Without the key, they're not coming off quietly. |
@@ -123,17 +136,21 @@ The general store doesn't sell magic swords. It sells rope, rations, and the tho
 | **Rope, Silk (50 ft)** | 10 gp | 1 | Lightweight and strong. Supports 700 lbs. Half the bulk of hemp rope. Quieter when uncoiled, no rough fibers scraping against stone. |
 | **Sack (large)** | 1 sp | 1* | A coarse sack that holds 1 cubic foot or 30 lbs of material. The sack takes 1 slot but its contents don't count, until it tears. One sharp edge and your loot is on the floor. |
 | **Shovel** | 2 gp | 2 | Digs graves, trenches, and latrines. Buries treasure. Unearths treasure. The shovel has seen more adventuring than most bards. |
+| **Smith's Tools** | 5 gp | 2 | Forge tools. Required for Craft checks to make or repair metal items. |
+| **Smoke Bomb** | 5 gp | 0 | Throw up to 20 ft. Creates a 10-ft radius of heavy concealment for 1 round. |
+| **Spellbook** | 25 gp | 2 | A mage's book of spells. Required to record and prepare arcane spells. |
 | **Spyglass** | 100 gp | 1 | Magnifies distant objects. Reduce the difficulty of visual Perception checks at long range by one tier (Strong becomes Standard, Standard becomes Weak). Objects beyond 1 mile are still indistinct. |
 | **Tent (2-person)** | 2 gp | 3 | Canvas shelter. Keeps rain off, holds heat. Sleeping in a tent during severe weather negates the exhaustion penalty for exposure. Two people can squeeze in, three if you're very good friends. |
 | **Thieves' Tools** | 25 gp | 1 | Lockpicks, files, and tension wrenches in a leather roll. Required for lockpicking and disabling mechanical traps. Without these, you can't make Thievery checks to pick locks. If you break a pick (fumble), replacement picks cost 5 gp. |
 | **Torch (bundle of 3)** | 1 sp | 1 | Bright light 15 ft, dim light 15 ft. Burns for 1 hour. Can be used as an improvised weapon, 1 fire damage on hit. Wind, rain, or being dropped in water extinguishes. |
+| **Volatile Reagents (alchemist's fire)** | 10 gp | 1 | A vial of unstable chemicals. Thrown as an improvised attack, 2 fire damage on hit, plus 1 ongoing fire damage until the target spends an action to put it out. |
 | **Waterskin** | 2 sp | 1 | Holds a half-gallon of water. One day without water: -1 to all rolls. Two days: -2. Three days: you're dying. In hot climates or heavy exertion, double the consumption rate. |
 
 **Coins and Encumbrance:** 100 coins of any denomination take 1 slot. A pouch holds up to 50 coins slot-free. A sack holds up to 300 coins before it tears. After your first dragon hoard, invest in a wagon.
 
 ::: {.callout-note}
 ## Starting Gear
-A new hero begins with 50 gp to purchase equipment. Most adventurers start with a backpack, bedroll, waterskin, 3 days of rations, a torch bundle, and weapons appropriate to their fighting style. The rest is personal taste, some carry chalk and parchment, others carry a crowbar and a bad attitude. Both are valid.
+New heroes take their class's starting kit (see @sec-chapter-classes); the DA may grant extra coin at campaign start.
 :::
 
 {{< pagebreak >}}
