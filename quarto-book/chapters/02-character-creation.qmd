@@ -166,6 +166,7 @@ Now your hero finds their calling. This is where they become exceptional.
 | **Odd** | Chaos wildcard | Any one (different category) | "I have a trick for that." |
 | **Leader** | Commander | Protection | "Together, we are unstoppable." |
 | **Unbalanced** | High-risk power | Any Elemental | "Power has a price." |
+| **Shadow** | Sneak thief, infiltrator | Blades | "You never saw me." |
 
 Record your Class Discipline (one rank) and signature ability. See @sec-chapter-classes for full writeups, including favored costs.
 
@@ -268,3 +269,348 @@ Total: 8 DP. All spent. ?
 **Step 10, Backstory:** Motivation, Gold (she's saving for something, she won't say what). Trinket, a silver coin that always lands on its edge.
 
 **Step 11, Name:** Makeva Quickfoot. Her friends call her Mak. Her enemies don't call her anything, they never saw her coming.
+
+{{< pagebreak >}}
+
+## Build Templates {#sec-build-templates}
+
+The eight worked examples below show how the same system produces wildly different heroes. Two per archetype. Follow the DP math, watch how Disciplines snowball, and see how every choice pays for itself.
+
+### Mage: Arcanist
+
+**Concept:** Fire-obsessed scholar who believes every problem is a fuel source.
+
+**Attributes (sum = +3):** Knowledge +2 (studied the flame), Reason +1 (understands what fire wants), Brawn +0, Fortitude +0, Agility +0, Guile +0. Sum = +3.
+
+**Ancestry:** Human. Any one Discipline (takes Fire). **Versatile:** +1 DP at Level 0.
+
+**Culture:** Imperial. +1 to Arcana (studied under imperial mage-council). Free Discipline: Energy.
+
+**Background DP (8 + Know 2 + Fort 0 = 10 DP):**
+
+- Arcana Novice (1 DP, favored)
+- History Novice (1 DP, favored)
+- Investigation Novice (1 DP)
+- Perception Novice (1 DP)
+- Fire Discipline, 2nd rank (2 DP), she's earned her second flame
+- Energy Discipline, 2nd rank (2 DP), raw force refined
+- Alchemy Novice (1 DP), fire needs fuel, fuel is chemistry
+- Lucky talent Novice (1 DP, from Human Versatile)
+
+Total: 10 DP. All spent.
+
+**Class:** Arcanist. Gains 2 Fire, 1 Energy, 1 Wind (or 4 elemental). Signature: **Arcane Shield**, free action, +1 defense for the round.
+
+**Class DP (8 DP):**
+
+- Firebolt (Novice spell, 1 DP), her first real spell
+- Burning Hands (Novice spell, 1 DP), for when they get too close
+- Arcane Feedback (Novice ability, 1 DP)
+- Endurance Novice (1 DP), a mage who can't run is a dead mage
+- Insight Novice (1 DP)
+- Fire Discipline, 3rd rank (2 DP), she can feel the inferno calling
+
+Total: 7 DP. Spent.
+
+**Equipment:** Arcane focus (crystal orb), dagger (1/2/3), scholar's robes (DR 0), component pouch, spellbook, 5 gp.
+
+**Derived Stats:** HP 10. Initiative +0. Movement 30 ft. Carry 10 slots.
+
+**Backstory:** Motivation, Knowledge (she wants to read the Book of First Flame). Trinket, a smooth stone that hums faintly at midnight. **Name:** Sera Ashvein.
+
+---
+
+### Mage: Intellect
+
+**Concept:** Battlefield analyst who wins fights by knowing exactly where everyone should stand.
+
+**Attributes (sum = +3):** Knowledge +2 (encyclopedic recall), Reason +1 (sees patterns others miss), Guile +1 (sells her plans well), Brawn -1 (books are heavy, she's not), Fortitude +0, Agility +0. Sum = +3.
+
+**Ancestry:** Elf. Archery or Blades (takes Blades). **Elven Grace:** once per session, reroll one die.
+
+**Culture:** High Elf. +1 to History (grew up in crystal libraries). Disciplines: Energy + Blades.
+
+**Background DP (8 + Know 2 + Fort 0 = 10 DP):**
+
+- Arcana Novice (1 DP, favored)
+- History Novice (1 DP, favored)
+- Investigation Novice (1 DP)
+- Persuasion Novice (1 DP), planning means convincing
+- Perception Novice (1 DP)
+- Keen Senses gift Novice (1 DP), always-on Boon on sight/hearing
+- Mind Discipline (1 DP), the battlefield is a chessboard
+- Mind Discipline, 2nd rank (2 DP), she sees three moves ahead
+
+Total: 9 DP. 1 DP left for later.
+
+**Class:** Intellect. Any one Discipline (takes Mind, 3rd rank). Signature: **Knowledge Is Power**, +1 to all Knowledge-based skill checks.
+
+**Class DP (8 DP):**
+
+- Tactical Insight (Novice ability, 1 DP)
+- Blades Fighting Novice (1 DP), she's no duelist but she's trained
+- Medicine Novice (1 DP)
+- Energy Discipline (1 DP), raw magic for when plans fail
+- Magic Missile (Novice spell, 1 DP), it never misses, neither should a plan
+- Insight Novice (1 DP)
+
+Total: 6 DP. 2 DP banked for Adept abilities at Level 3.
+
+**Equipment:** Short sword (2/3/4), spellbook, scholar's robes (DR 0), component pouch, maps and charts, 10 gp.
+
+**Derived Stats:** HP 12 (10 + Fort 0 + Know 2). Initiative +0. Movement 30 ft. Carry 10 slots.
+
+**Backstory:** Motivation, Justice (she watched a bad plan get good people killed). Trinket, a letter, unopened, with her family crest. **Name:** Lirael Warpmind.
+
+{{< pagebreak >}}
+
+### Priest: Shepherd
+
+**Concept:** Field medic who believes everyone deserves one more chance, even the enemy.
+
+**Attributes (sum = +3):** Reason +2 (faith is a kind of knowledge), Fortitude +1 (carries the wounded), Guile +1 (knows what to say at the deathbed), Brawn -1 (lets others do the heavy lifting), Knowledge +0, Agility +0. Sum = +3.
+
+**Ancestry:** Dwarf. Axes or Armor (takes Armor). **Sturdy:** +2 maximum HP.
+
+**Culture:** Hill. +1 to Persuasion (the dwarf who explains dwarves). Free Discipline: Protection.
+
+**Background DP (8 + Know 0 + Fort 1 = 9 DP):**
+
+- Medicine Novice (1 DP, favored)
+- Religion Novice (1 DP, favored)
+- Persuasion Novice (1 DP)
+- Endurance Novice (1 DP)
+- Water Discipline (1 DP), the healing element
+- Heal Wounds (Novice spell, 1 DP), the reason they call her
+- Bolstering Prayer (Novice ability, 1 DP)
+
+Total: 7 DP. 2 DP saved.
+
+**Class:** Shepherd. Gains 2 Protection, 2 Animal. Signature: **Turn Undead**, divine energy ignores armor, affects only undead.
+
+**Class DP (8 DP):**
+
+- Protection Discipline, 3rd rank (2 DP), her faith deepens
+- Soothe (Novice spell, 1 DP)
+- Purify (Novice spell, 1 DP)
+- Religion Discipline (1 DP), faith through study
+- Resilience Novice (1 DP)
+
+Total: 6 DP. 2 DP banked.
+
+**Equipment:** Mace (2/3/4), holy symbol, chain shirt (DR 3), healer's kit, 5 gp.
+
+**Derived Stats:** HP 13 (10 + Fort 1 + Know 0 + Sturdy 2). Initiative +0. Movement 25 ft (dwarf). Carry 15 slots.
+
+**Backstory:** Motivation, Protection (she lost a patient once, never again). Trinket, a key that doesn't fit any lock she's found. **Name:** Haldra Ironhymn.
+
+---
+
+### Priest: Leader
+
+**Concept:** Former mercenary captain who traded her company for a cause.
+
+**Attributes (sum = +3):** Reason +2 (commands respect), Brawn +1 (leads from the front), Guile +1 (reads a room like a map), Knowledge -1 (never had time for books), Fortitude +0, Agility +0. Sum = +3.
+
+**Ancestry:** Human. Any one Discipline (takes Blades). **Versatile:** +1 DP at Level 0.
+
+**Culture:** Coastal. +1 to Athletics (climbed rigging before she could walk). Disciplines: Polearms + Protection.
+
+**Background DP (8 + Know -1 + Fort 0 = 7 DP + 1 Versatile = 8 DP):**
+
+- Blades Fighting Novice (1 DP, favored)
+- Athletics Novice (1 DP, favored, culture bonus already applied)
+- Persuasion Novice (1 DP)
+- Intimidation Novice (1 DP)
+- Resilience Novice (1 DP)
+- Protection Discipline, 2nd rank (2 DP)
+
+Total: 7 DP. 1 DP banked.
+
+**Class:** Leader. Gains 2 Protection, 1 Energy, 1 any (takes Blades). Signature: **Lead by Example**, on a telling blow, grant one ally +2 on their next roll.
+
+**Class DP (8 DP):**
+
+- Rallying Cry (Novice ability, 1 DP)
+- Polearms Fighting Novice (1 DP, favored)
+- Blades Discipline, 2nd rank (1 DP), sharpened steel, sharpened leadership
+- Perception Novice (1 DP)
+- Insight Novice (1 DP)
+- Fast Learner gift Novice (1 DP), borrow any skill once per session
+
+Total: 6 DP. 2 DP banked.
+
+**Equipment:** Longsword (2/4/5), spear (2/3/5), chain shirt (DR 3), shield (+1 Protection Value), captain's insignia, 10 gp.
+
+**Derived Stats:** HP 9 (10 + Fort 0 + Know -1). Initiative +0. Movement 30 ft. Carry 15 slots.
+
+**Backstory:** Motivation, Redemption (she gave bad orders once). Trinket, a coin that always lands on its edge. **Name:** Marta Shieldsworn.
+
+{{< pagebreak >}}
+
+### Thief: Blade
+
+**Concept:** Duelist who treats combat like poetry and every scar like a stanza.
+
+**Attributes (sum = +3):** Agility +2 (faster than you), Guile +1 (reads tells), Brawn +1 (follow-through), Knowledge -1 (books are for people who can't fight), Fortitude +0, Reason +0. Sum = +3.
+
+**Ancestry:** Elf. Archery or Blades (takes Blades). **Elven Grace:** once per session, reroll one die.
+
+**Culture:** Twilight Elf. +1 to Deception (grew up in the half-light). Disciplines: Water + Blades.
+
+**Background DP (8 + Know -1 + Fort 0 = 7 DP):**
+
+- Blades Fighting Novice (1 DP, favored)
+- Acrobatics Novice (1 DP), footwork is everything
+- Stealth Novice (1 DP), striking from shadow
+- Deception Novice (1 DP), a feint is a lie with your blade
+- Perception Novice (1 DP)
+- Fey Step gift Novice (1 DP), reposition without stepping
+
+Total: 6 DP. 1 DP banked.
+
+**Class:** Blade. Gains 3 Blades. Signature: **Swift Blade**, use Agility instead of Brawn for blade attacks. Gains **Precise Stab**, bonus damage on opening strike.
+
+**Class DP (8 DP):**
+
+- Blades Discipline, 3rd rank (2 DP), she is the blade now
+- Precise Stab (Novice ability, 1 DP)
+- Blades Discipline, 2nd rank (1 DP), deepening the edge
+- Acrobatics Adept (2 DP, from 65 at 2 DP after Novice 1 DP)
+- Evasion Novice (1 DP)
+
+Total: 7 DP. 1 DP banked.
+
+**Equipment:** Rapier (2/3/4), dagger (1/2/3), leather armor (DR 2), dueling cloak, 15 gp.
+
+**Derived Stats:** HP 9 (10 + Fort 0 + Know -1). Initiative +2. Movement 30 ft. Carry 15 slots.
+
+**Backstory:** Motivation, Glory (she wants her name in every dueling hall from here to the elven court). Trinket, a locket with a portrait of someone she's never met. **Name:** Vaelith Nightblade.
+
+---
+
+### Thief: Shadow
+
+**Concept:** Ghost in the machine. No one sees her. No one hears her. The treasure is already gone.
+
+**Attributes (sum = +3):** Agility +2 (vanishes like smoke), Guile +1 (becomes anyone), Brawn +0, Fortitude +0, Knowledge +0, Reason +0. Sum = +3.
+
+**Ancestry:** Halfling. Blades or Archery (takes Blades). **Lucky:** add one boon to any roll, once per session.
+
+**Culture:** Burrower. +1 to Stealth (grew up in tunnels under the hills). Disciplines: Protection + Blades.
+
+**Background DP (8 + Know 0 + Fort 0 = 8 DP):**
+
+- Stealth Novice (1 DP, favored, culture bonus already applied)
+- Thievery Novice (1 DP), locks and traps
+- Sleight of Hand Novice (1 DP)
+- Deception Novice (1 DP)
+- Perception Novice (1 DP)
+- Acrobatics Novice (1 DP)
+- Naturally Stealthy gift Novice (1 DP), Boon when hiding behind big folk
+
+Total: 7 DP. 1 DP banked.
+
+**Class:** Shadow. Gains 2 Blades, 1 Mind. Signature: **Vanish**, spend maneuver to turn invisible until end of next turn or until attacking.
+
+**Class DP (8 DP):**
+
+- Sap (Novice ability, 1 DP), daze unaware targets
+- Blades Fighting Novice (1 DP, favored)
+- Thrown Weapon Novice (1 DP, favored)
+- Streetwise Novice (1 DP)
+- Thievery Adept (2 DP, upgrading from Novice)
+- Thievery Discipline cost (implicit from class)
+
+Total: 6 DP. 2 DP banked.
+
+**Equipment:** Two daggers (1/2/3), throwing knives (6, 1/2/3), leather armor (DR 2), thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1), 15 sp.
+
+**Derived Stats:** HP 10. Initiative +2. Movement 25 ft (halfling). Carry 10 slots.
+
+**Backstory:** Motivation, Gold (she's saving for a ship, and a new name, and an island where nobody asks questions). Trinket, a key that doesn't fit any lock. Yet. **Name:** Pip Quickfoot. Makeva's cousin. The family reunions are legendary.
+
+{{< pagebreak >}}
+
+### Fighter: Protector
+
+**Concept:** Walking fortress who measures her worth in allies still standing.
+
+**Attributes (sum = +3):** Brawn +2 (the wall), Fortitude +1 (the foundation), Reason +1 (knows where to stand), Agility -1 (doesn't need to dodge), Guile +0, Knowledge +0. Sum = +3.
+
+**Ancestry:** Dwarf. Axes or Armor (takes Armor). **Sturdy:** +2 maximum HP.
+
+**Culture:** Mountain. +1 to Craft (forged her first shield at twelve). Disciplines: Armor + Axes.
+
+**Background DP (8 + Know 0 + Fort 1 = 9 DP):**
+
+- Endurance Novice (1 DP, favored)
+- Athletics Novice (1 DP, favored)
+- Craft Novice (1 DP, favored, culture bonus already applied)
+- Resilience Novice (1 DP)
+- Intimidation Novice (1 DP)
+- Axes Fighting Novice (1 DP)
+- Dwarven Resilience gift Novice (1 DP)
+
+Total: 7 DP. 2 DP banked.
+
+**Class:** Protector. Gains 2 Armor, 2 Protection. Signature: **Bastion**, spend movement to enter defensive stance, +1 Protection Value.
+
+**Class DP (8 DP):**
+
+- Interpose (Novice ability, 1 DP), take the hit for an adjacent ally
+- Armor Discipline, 3rd rank (2 DP), a mountain in plate
+- Axes Discipline (1 DP)
+- Dwarven Resilience usage (already purchased in background)
+- Protection Discipline, 3rd rank (2 DP)
+
+Total: 6 DP. 2 DP banked.
+
+**Equipment:** Battle axe (2/4/5), chain mail (DR 4), shield (+1 PV), smith's tools, 10 gp.
+
+**Derived Stats:** HP 14 (10 + Fort 1 + Know 0 + Sturdy 2). Initiative -1. Movement 20 ft (heavy armor + dwarf). Carry 25 slots.
+
+**Backstory:** Motivation, Protection (her clan's hold fell, she's building something new). Trinket, a child's drawing of her. She doesn't recognize the child. **Name:** Gorma Anvilshield.
+
+---
+
+### Fighter: Unbalanced
+
+**Concept:** Chaos-forged battle mage who laughs at the backlash table.
+
+**Attributes (sum = +3):** Brawn +1 (channeling chaos hurts), Knowledge +1 (studied the forbidden), Guile +1 (sells chaos as strategy), Fortitude +0, Agility +0, Reason +0. Sum = +3.
+
+**Ancestry:** Human. Any one Discipline (takes Fire). **Versatile:** +1 DP at Level 0.
+
+**Culture:** Nomadic. +1 to Survival (raised on the steppe). Disciplines: Archery + Polearms.
+
+**Background DP (8 + Know 1 + Fort 0 = 9 DP + 1 Versatile = 10 DP):**
+
+- Arcana Novice (1 DP)
+- Survival Novice (1 DP, favored)
+- Intimidation Novice (1 DP)
+- Unarmed Fighting Novice (1 DP)
+- Fire Discipline, 2nd rank (2 DP)
+- Wind Discipline (1 DP)
+- Die Hard gift Novice (1 DP)
+
+Total: 8 DP. 2 DP banked.
+
+**Class:** Unbalanced. Gains 2 Fire, 2 Water (opposing types). Signature: **Edge of Chaos**, on Strong hit, +4 bonus damage but roll d6 backlash.
+
+**Class DP (8 DP):**
+
+- Exploit Chaos (Novice ability, 1 DP), roll twice on backlash table
+- Fire Discipline, 3rd rank (2 DP), she *is* the wildfire
+- Water Discipline (2 DP already from class; uses for spells)
+- Ice Shield (Adept spell, requires 2 Water + 1 Protection; still needs Protection)
+- Static Field (Novice spell, 1 DP)
+- Endurance Novice (1 DP)
+
+Total: 5 DP. 3 DP banked toward Protection for Ice Shield.
+
+**Equipment:** Quarterstaff (1/2/3), component pouch, scholar's robes (DR 0), six vials of "volatile reagents" (alchemist's fire, equivalent), 5 gp.
+
+**Derived Stats:** HP 11 (10 + Fort 0 + Know 1). Initiative +0. Movement 30 ft. Carry 15 slots.
+
+**Backstory:** Motivation, Knowledge (she wants to understand why the backlash table exists at all). Trinket, a key that doesn't fit any lock. Yet. **Name:** Corwin Ash-Walker.

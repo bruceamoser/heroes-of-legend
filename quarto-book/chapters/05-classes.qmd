@@ -4,13 +4,13 @@
 #label("sec-chapter-classes")
 ```
 
-<!-- Rationale: Chapter opener at 80% width — the eight core classes in iconic poses, establishing class identity and inviting players to imagine their hero's calling. -->
-![Placeholder: A lineup of the eight core classes in iconic poses: Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, and Unbalanced.](../assets/images/placeholder-ch05-classes.png){width=80%}
+<!-- Rationale: Chapter opener at 80% width — the nine core classes in iconic poses, establishing class identity and inviting players to imagine their hero's calling. -->
+![Placeholder: A lineup of the nine core classes in iconic poses: Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced, and Shadow.](../assets/images/placeholder-ch05-classes.png){width=80%}
 
 
 {{< pagebreak >}}
 
-Your class is your hero's calling. It's not a job, it's who you are when the torches gutter and the door slams shut behind you. Eight classes. Eight ways to face the darkness. Pick the one that makes you grin.
+Your class is your hero's calling. It's not a job, it's who you are when the torches gutter and the door slams shut behind you. Nine classes. Nine ways to face the darkness. Pick the one that makes you grin.
 
 ::: {.callout-note}
 ## Classes Shape Costs, Not Limits
@@ -32,6 +32,7 @@ Your class gives you a Discipline, a signature ability, and cheaper access to ce
 | **Odd** | Chaos wildcard | Any one (different category) | **Eccentric Spellcasting** |
 | **Leader** | Commander | Protection | **Lead by Example** |
 | **Unbalanced** | High-risk power | Any Elemental | **Edge of Chaos** |
+| **Shadow** | Sneak thief, infiltrator | Blades | **Vanish** |
 
 {{< pagebreak >}}
 
@@ -241,6 +242,147 @@ You're not broken. You're balanced on a knife's edge between opposing forces, an
 
 {{< pagebreak >}}
 
+## The Shadow
+
+*"You never saw me."*
+
+The Shadow is the ghost in the room, the whisper no one heard, the hand that lifts a key from a guard's belt while the guard is still wearing it. Where the Blade wins by stabbing first, the Shadow wins by never being seen at all. You are keyed to Agility and Guile in equal measure, a creature of silence and misdirection. Doors open for you. Traps disarm themselves at your touch. Identities are costumes you wear and discard. Your fighting style is dirty, fast, and never, ever fair. If the fight is fair, you've already made two mistakes, and you're already gone.
+
+**Class Discipline (L1):** Blades (1)
+
+**Signature, Vanish:** As a maneuver, you may attempt to disappear from sight. Make a Stealth check. On Standard+, you become invisible until the end of your next turn or until you attack. On Weak, you gain concealment instead (attacks against you have Bane). This is not magic, this is being very good at not being noticed.
+
+**Secondary, Shadow Step:** Once per scene, when you Vanish successfully, you may immediately move up to 15 feet without provoking reactions. You appear in your new position when the invisibility ends, ideally behind someone who deserved it.
+
+**Favored Skills (X1):** Stealth, Deception, Sleight of Hand, Thievery, Acrobatics, Perception, Blades Fighting, Thrown Weapon
+
+**Favored Disciplines (X1):** Blades, Archery, Mind
+
+**Out of Class (X3):** Armor, Protection, Heavy Weapon, Axes, Polearms, Fire, Earth, Energy. You're small, quiet, and subtle. Plate mail and fireballs are for other people.
+
+::: {.callout-note}
+## The Stealth Economy
+
+The Shadow doesn't trade blows. The Shadow's entire game is about controlling who can see them and who can't. Your turn is spend Maneuver to Vanish, move into position behind the enemy caster, then on your next turn, strike from invisibility with advantage. If things go wrong, you have getaway tools: caltrops, smoke bombs, a disguise kit, and a network of contacts who owe you favors.
+
+Your damage doesn't come from brute force. It comes from never being where the enemy is looking. When the Blade needs three rounds to carve through a knight's armor, the Shadow needs one round, one lockpick, and the knight's potion of healing quietly removed from his belt while he was too busy watching the Protector. You win by making the fight unfair. And you make it unfair before anyone knows you're there.
+
+**Starting Kit:** Two daggers (W/S/S: 1/2/3), throwing knives (6, 1/2/3), leather armor (DR 2), thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1, creates 10-ft radius heavy concealment for 1 round), 15 sp.
+:::
+
+{{< pagebreak >}}
+
+## Class Archetypes {#sec-class-archetypes}
+
+The nine classes cluster into four archetypes, each with its own flavor and its own pool of class abilities. These aren't subclasses, they're families. A Protector and an Unbalanced feel different at the table, but they both solve problems with force. An Arcanist and an Intellect feel different, but they both solve problems with knowledge.
+
+| Archetype | Classes | Ability Pool | Vibe |
+|-----------|---------|-------------|------|
+| **Mage** | Arcanist, Intellect | 15-20 | Power through knowledge. Spells, wards, the right word at the right time. |
+| **Priest** | Shepherd, Leader | 15-20 | Power through faith. Healing, protection, inspiration. |
+| **Thief** | Blade, Shadow | 15-20 | Power through precision. Damage, infiltration, the unseen strike. |
+| **Fighter** | Protector, Unbalanced | 15-20 | Power through force. Defense, chaos, standing in the gap. |
+
+The **Odd** occupies no archetype. It is the pure wildcard, a deliberately chaotic set of ~10 class abilities that samples all four archetype flavors. A fighter trick here, a mage trick there, a thief trick, a priest trick, and a few things nobody else can do. The Odd is the exception that proves the four-way rule. It doesn't fit. It's not supposed to.
+
+{{< pagebreak >}}
+
+## Class Abilities {#sec-class-abilities}
+
+Every class has a list of abilities unique to it. These are the moves, spells, and tricks that define a hero's identity in play. Abilities are purchased just like skills: 1 DP for Novice, 2 DP for Adept, 4 DP for Master. Their real gate is Discipline prerequisites and level (Adept at 3, Master at 7). Every damaging ability is keyed to the damage budget table in @sec-damage-budget. The full lists are future work; what follows are SEED examples that prove the shape.
+
+### Mage Abilities (Arcanist & Intellect)
+
+**Arcanist**
+
+| Ability | Tier | Disc Req | Trigger | Effect |
+|---------|------|----------|---------|--------|
+| **Arcane Feedback** | Novice | 1 Energy | When you cast a spell and roll Strong | The spell's secondary target takes half the primary target's damage. |
+| **Spell Echo** | Adept | 2 Energy, 1 Mind | When an enemy within 30 ft casts a spell | You may immediately cast the same spell at Novice tier, regardless of your own Disciplines. Once per scene. |
+| **Overchannel** | Master | 3 Energy, 1 Fire | When you cast a Master spell | The spell deals +1 damage tier (use the row one step above on the damage budget). After casting, you gain 1 Corruption. |
+
+**Intellect**
+
+| Ability | Tier | Disc Req | Trigger | Effect |
+|---------|------|----------|---------|--------|
+| **Tactical Insight** | Novice | 1 Mind | At the start of combat | Name one enemy weakness. All allies gain +1 on attacks against that enemy type for the encounter. |
+| **Leverage** | Adept | 2 Mind, 1 Energy | When an ally misses an attack | The ally may reroll the miss. If the reroll hits, it deals +3 bonus damage. Once per scene. |
+| **Perfect Recall** | Master | 3 Mind, 1 Energy | When you need information from a scene you participated in | The DA must tell you the exact words, layout, or sequence of events, to the limit of your own perception at the time. Once per session. |
+
+{{< pagebreak >}}
+
+### Priest Abilities (Shepherd & Leader)
+
+**Shepherd**
+
+| Ability | Tier | Disc Req | Trigger | Effect |
+|---------|------|----------|---------|--------|
+| **Bolstering Prayer** | Novice | 1 Protection | As an action | One ally within 30 ft gains Boon on their next roll. |
+| **Sanctified Ground** | Adept | 2 Protection, 1 Religion | As an action | Consecrate a 15-ft radius for 1 minute. Undead inside take 6 radiant damage per round. Allies heal 1 HP at the start of their turn. |
+| **Divine Intervention** | Master | 3 Protection, 1 Religion | When an ally drops to 0 HP | The ally instead drops to 1 HP and gains 10 temporary HP. The DA narrates what intervened. Once per session. |
+
+**Leader**
+
+| Ability | Tier | Disc Req | Trigger | Effect |
+|---------|------|----------|---------|--------|
+| **Rallying Cry** | Novice | 1 Protection | As a maneuver | All allies who can hear you gain +2 on their next initiative roll or remove one Fear effect. |
+| **Coordinated Strike** | Adept | 2 Protection, 1 Blades | When you hit an enemy | The next ally to attack that enemy before your next turn deals +1 damage tier. |
+| **Last Stand** | Master | 3 Protection, 1 Energy | When you are reduced to 0 HP | You remain standing for 1 additional round. All allies within sight gain +2 on all rolls and immunity to Fear for that round. |
+
+{{< pagebreak >}}
+
+### Thief Abilities (Blade & Shadow)
+
+**Blade**
+
+| Ability | Tier | Disc Req | Trigger | Effect |
+|---------|------|----------|---------|--------|
+| **Precise Stab** | Novice | 1 Blades | When you attack a target that hasn't acted yet this combat | Deal +3 damage. |
+| **Eviscerate** | Adept | 2 Blades, 1 Archery | When you hit the same target twice in one turn | The second hit automatically deals Strong damage (12 per the damage budget). Once per scene. |
+| **Death Mark** | Master | 3 Blades, 1 Archery | When you reduce a target to 0 HP | You may immediately make a free attack against another target within reach at +1 damage tier. |
+
+**Shadow**
+
+| Ability | Tier | Disc Req | Trigger | Effect |
+|---------|------|----------|---------|--------|
+| **Sap** | Novice | 1 Blades | When you attack a target that is unaware of you | Weak damage (2), but the target is dazed for 1 round. No roll to resist. |
+| **Shadow Strike** | Adept | 2 Blades, 1 Mind | When you attack from Vanish invisibility | The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene. |
+| **Ghost** | Master | 3 Blades, 1 Mind | When you Vanish successfully on a Strong stealth result | You may remain invisible until the end of the encounter or until you attack. Your first attack from this extended Vanish deals +1 damage tier. Once per session. |
+
+{{< pagebreak >}}
+
+### Fighter Abilities (Protector & Unbalanced)
+
+**Protector**
+
+| Ability | Tier | Disc Req | Trigger | Effect |
+|---------|------|----------|---------|--------|
+| **Interpose** | Novice | 1 Protection | When an adjacent ally is attacked | You take the hit instead. You may roll Defense to reduce the damage. |
+| **Immovable** | Adept | 2 Armor, 1 Protection | When an effect would push, pull, or knock you prone | You are unaffected. If the effect also dealt damage, reduce it by your Armor value. |
+| **Hold the Line** | Master | 3 Protection, 1 Armor | As an action | For 1 minute, you cannot be moved by any effect short of a deity. Enemies adjacent to you at the start of their turn are rooted (speed 0) until they leave your reach. |
+
+**Unbalanced**
+
+| Ability | Tier | Disc Req | Trigger | Effect |
+|---------|------|----------|---------|--------|
+| **Exploit Chaos** | Novice | 1 Energy | When you roll on the Edge of Chaos backlash table | You may roll twice and pick either result. |
+| **Volatile Surge** | Adept | 2 Energy, 1 Fire | When you cast a spell and roll Strong | The spell's area of effect doubles. Enemies in the expanded zone take half damage. Allies in the expanded zone take 1d4 backlash. |
+| **Unmake** | Master | 3 Energy, 1 Fire | When you reduce a target to 0 HP with a spell | The target disintegrates as per the Disintegrate spell (no body, no resurrection short of Master-tier divine). You gain 2 Corruption. |
+
+{{< pagebreak >}}
+
+### Odd Abilities
+
+The Odd's ~10 abilities are a deliberately chaotic set sampling all four archetypes. They ignore Discipline prerequisites for their two free spells from **Eccentric Spellcasting**, but their Odd class abilities still require Disciplines.
+
+| Ability | Tier | Disc Req | Trigger | Effect |
+|---------|------|----------|---------|--------|
+| **Improvised Solution** | Novice | 1 Guile (any) | When you attempt a skill check with a skill you don't have | You roll as if you had Novice (+1) in that skill. Once per scene. |
+| **Wrong Context** | Adept | 2 any (different types) | When an enemy declares an action | You may force the enemy to describe their action differently. If the DA deems your version plausible, the enemy's action has Bane. Once per scene. |
+| **Everything At Once** | Master | 3 any (across 3 different types) | When you take damage | Roll 1d4. 1: you gain +4 Armor for 1 round. 2: you heal 10 HP. 3: the attacker takes the damage instead. 4: both you and the attacker take the damage. Once per session. |
+
+{{< pagebreak >}}
+
 ## Progression
 
 You gain Development Points each level (see @sec-chapter-advancement for the full progression). Spend them all, they don't carry over.
@@ -265,32 +407,32 @@ Everything you buy has a cost multiplier based on your class:
 
 **Table 5.1: Weapon & Defense Discipline Costs**
 
-| Discipline | Protector | Blade | Arcanist | Shepherd | Intellect | Odd^*^ | Leader | Unbalanced^*^ |
-|-----------|----------|-------|----------|----------|----------|-------|--------|---------------|
-| **Blades** | X1 | X1 | X3 | X2 | X2 | X2 | X1 | X3 |
-| **Axes** | X1 | X3 | X3 | X3 | X3 | X2 | X2 | X3 |
-| **Polearms** | X1 | X2 | X3 | X3 | X2 | X2 | X1 | X3 |
-| **Archery** | X2 | X1 | X3 | X3 | X2 | X2 | X2 | X3 |
-| **Heavy Weapon** | X1 | X3 | X3 | X3 | X3 | X2 | X2 | X3 |
-| **Unarmed** | X1 | X1 | X3 | X2 | X3 | X2 | X2 | X1 |
-| **Protection** | X1 | X2 | X3 | X1 | X2 | X2 | X1 | X3 |
-| **Armor** | X1 | X3 | X3 | X3 | X3 | X2 | X2 | X3 |
+| Discipline | Protector | Blade | Arcanist | Shepherd | Intellect | Odd^*^ | Leader | Unbalanced^*^ | Shadow |
+|-----------|----------|-------|----------|----------|----------|-------|--------|---------------|--------|
+| **Blades** | X1 | X1 | X3 | X2 | X2 | X2 | X1 | X3 | X1 |
+| **Axes** | X1 | X3 | X3 | X3 | X3 | X2 | X2 | X3 | X3 |
+| **Polearms** | X1 | X2 | X3 | X3 | X2 | X2 | X1 | X3 | X3 |
+| **Archery** | X2 | X1 | X3 | X3 | X2 | X2 | X2 | X3 | X1 |
+| **Heavy Weapon** | X1 | X3 | X3 | X3 | X3 | X2 | X2 | X3 | X3 |
+| **Unarmed** | X1 | X1 | X3 | X2 | X3 | X2 | X2 | X1 | X2 |
+| **Protection** | X1 | X2 | X3 | X1 | X2 | X2 | X1 | X3 | X3 |
+| **Armor** | X1 | X3 | X3 | X3 | X3 | X2 | X2 | X3 | X3 |
 
 **Table 5.2: Magic & Support Discipline Costs**
 
-| Discipline | Protector | Blade | Arcanist | Shepherd | Intellect | Odd^*^ | Leader | Unbalanced^*^ |
-|-----------|----------|-------|----------|----------|----------|-------|--------|---------------|
-| **Fire** | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^*^ |
-| **Earth** | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^*^ |
-| **Wind** | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^*^ |
-| **Water** | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^*^ |
-| **Energy** | X3 | X3 | X1 | X2 | X1 | X2 | X1 | X1 |
-| **Animal** | X2 | X3 | X2 | X1 | X2 | X2 | X2 | -- |
-| **Plants** | X3 | X3 | X2 | X1 | X1 | X2 | X3 | -- |
-| **Summon** | X3 | X3 | X1 | X3 | X2 | X2 | X3 | -- |
-| **Life** | X3 | X3 | X2 | X1 | X1 | X2 | X2 | -- |
-| **Religion** | X3 | X3 | X3 | X1 | X1 | X2 | X2 | -- |
-| **Mind** | X3 | X3 | X1 | X2 | X1 | X2 | X2 | -- |
+| Discipline | Protector | Blade | Arcanist | Shepherd | Intellect | Odd^*^ | Leader | Unbalanced^*^ | Shadow |
+|-----------|----------|-------|----------|----------|----------|-------|--------|---------------|--------|
+| **Fire** | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^*^ | X3 |
+| **Earth** | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^*^ | X3 |
+| **Wind** | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^*^ | X3 |
+| **Water** | X3 | X3 | X1 | X3 | X2 | X2 | X3 | X1^*^ | X3 |
+| **Energy** | X3 | X3 | X1 | X2 | X1 | X2 | X1 | X1 | X3 |
+| **Animal** | X2 | X3 | X2 | X1 | X2 | X2 | X2 | -- | X3 |
+| **Plants** | X3 | X3 | X2 | X1 | X1 | X2 | X3 | -- | X3 |
+| **Summon** | X3 | X3 | X1 | X3 | X2 | X2 | X3 | -- | X3 |
+| **Life** | X3 | X3 | X2 | X1 | X1 | X2 | X2 | -- | X3 |
+| **Religion** | X3 | X3 | X3 | X1 | X1 | X2 | X2 | -- | X3 |
+| **Mind** | X3 | X3 | X1 | X2 | X1 | X2 | X2 | -- | X1 |
 
 ^*^ Unbalanced Elemental: pick two opposing types at Level 1, those become X1. The other two become **X3**.
 

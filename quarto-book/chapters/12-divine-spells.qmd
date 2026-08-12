@@ -18,6 +18,14 @@ Divine magic doesn't throw fireballs. It doesn't dissolve armor or dominate mind
 
 This chapter contains every divine spell in the game. Shepherds use them. Some Leaders use them. Anyone who's ever knelt before something greater and felt it kneel back.
 
+::: {.callout-note}
+## How Divine Spell Chains Work
+
+Like arcane spells (@sec-chapter-arcane-spells), divine spells are **thematic chains**, one growing concept expressed at Novice, Adept, and Master. The **Heal Wounds chain** is Heal Wounds (N) / Restoration (A) / Mass Heal (M), the shepherd's touch grows from one ally to the whole party as the caster's faith deepens. The **Ward chain** is Ward (N) / Magic Circle (A) / Divine Barrier (M), from a door alarm to a fortress of holy light.
+
+Every divine spell chain follows the damage and healing budgets appropriate to its tier. Where arcane chains burn and blast, divine chains heal and protect. The ladder is the same; the direction is different. Read the chains like roads. The Novice entry is where you start. The Master entry is where you're going. The people you keep alive along the way are why you walk the path at all.
+:::
+
 *See @sec-chapter-magic-system for how spellcasting works.*
 
 {{< pagebreak >}}

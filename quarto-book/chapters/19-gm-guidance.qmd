@@ -487,3 +487,73 @@ Thieves, spies, and information brokers. The Shadow Guild doesn't exist, officia
 **Methods:** Infiltration, blackmail, theft, and the careful cultivation of informants. The Guild rarely kills, dead bodies attract attention, and attention is bad for business. They prefer leverage.
 
 **Allied Boon, Shadow Network:** Once per adventure, you may call in a favor to learn one closely guarded secret about an NPC, location, or organization. The DA provides a concrete, actionable piece of intelligence. The Guild never reveals its sources.
+
+{{< pagebreak >}}
+
+## Card Templates {#sec-card-templates}
+
+Every mechanical element in *Heroes of Legend* follows one of three card formats. These are the shapes all content fits into, whether you're reading a published spell, building your own, or checking a player's ability at the table. Learn these shapes. They're the grammar of the game.
+
+### Spell Card
+
+Spells are the most structured. Every spell card answers the same questions in the same order.
+
+**Format:** `Name | Tier | Discipline Req | Range | Duration | Effect (W/S/St) | Narrative link to next tier`
+
+| Field | Description |
+|-------|-------------|
+| **Name** | The spell's name. Always capitalized, always unique within its chain. |
+| **Tier** | Novice, Adept, or Master. Determines damage budget, DP cost, and level gate. |
+| **Discipline Req** | The Disciplines required to learn this spell. e.g. "1 Fire" or "2 Fire, 1 Energy". |
+| **Range** | How far the spell reaches: Touch, 30 ft, 60 ft, Self (15-ft cone), etc. |
+| **Duration** | How long the spell lasts: Instantaneous, Concentration up to 1 minute, 1 hour, etc. |
+| **Effect (W/S/St)** | What happens on a Weak, Standard, or Strong result. Damage uses the budget table (@sec-damage-budget). |
+| **Narrative link** | A sentence in italics that ties this spell to the next tier in the chain. Not a rule. A story bridge. |
+
+**Example (Fireball):**
+
+> **Fireball (Adept).** Disc: 2 Fire, 1 Energy. Range: 100 ft. Duration: Instantaneous. W: 6 fire damage in 10-ft radius. S: 9 fire damage in 15-ft radius, flammable objects ignite. St: 12 fire damage in 20-ft radius, targets near center take +3 damage.
+>
+> *This is the spell that ends encounters and starts wars. When you cast Fireball, the battlefield changes. So does your reputation.*
+
+### Ability Card
+
+Class abilities are more varied than spells, but they all follow a simpler format. Where spells have ranges and durations, abilities have triggers and effects.
+
+**Format:** `Name | Tier | Discipline Req | Trigger | Effect (W/S/St)`
+
+| Field | Description |
+|-------|-------------|
+| **Name** | The ability's name. |
+| **Tier** | Novice, Adept, or Master. |
+| **Discipline Req** | Disciplines required to purchase this ability. |
+| **Trigger** | When the ability can be used: "When you attack", "As a maneuver", "When an ally drops to 0 HP", etc. |
+| **Effect (W/S/St)** | What happens. Damaging abilities key to the damage budget (@sec-damage-budget). |
+
+**Example (Shadow Strike):**
+
+> **Shadow Strike (Adept).** Disc: 2 Blades, 1 Mind. Trigger: When you attack from Vanish invisibility. Effect: The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene.
+
+### Ancestry Gift Card
+
+Ancestry gifts are the simplest. They have no Discipline requirement (they're inherited, not learned), and they're rarely damaging, so the W/S/St breakdown is usually replaced by a flat effect.
+
+**Format:** `Name | Tier (Novice/Adept/Master) | Effect`
+
+| Field | Description |
+|-------|-------------|
+| **Name** | The gift's name. |
+| **Tier** | Novice, Adept, or Master. Master-tier gifts are rare. |
+| **Effect** | What the gift does. If it deals damage, it keys to the damage budget. Otherwise, a flat description. |
+
+**Example (Die Hard):**
+
+> **Die Hard (Novice).** When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session.
+
+::: {.callout-tip}
+## Designing Your Own Content
+
+When you create a new spell, ability, or gift, start with the template. Fill in every field. If you can't fill a field, your design isn't done. Then check your damage numbers against the budget table (@sec-damage-budget). If the numbers don't match, adjust them. The table is the balance. The template is the form. Together, they ensure your creation plays well with everything else in the book.
+:::
+
+{{< pagebreak >}}
