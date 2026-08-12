@@ -32,7 +32,7 @@ That's it. One roll. Three outcomes. No separate casting check, no concentration
 
 {{< pagebreak >}}
 
-## Spell Chains: Novice ? Adept ? Master
+## Spell Chains: Novice → Adept → Master
 
 Spells don't exist in isolation. They're organized into **chains**, three-tier progressions where each spell builds on the one before it. You start with the Novice version. You earn the Adept. You aspire to the Master.
 
@@ -47,7 +47,7 @@ Spells don't exist in isolation. They're organized into **chains**, three-tier p
 | Frost Armor | Frost Armor | Ice Shield | Frozen Aegis |
 | Shock | Shock | Lightning Bolt | Chain Lightning |
 | Static Field | Static Field | Thunderclap | Storm Call |
-| Acid Splash | Acid Splash, Greater | Caustic Spray | Dissolve |
+| Acid Splash, Greater | Acid Splash, Greater | Caustic Spray | Dissolve |
 | Corrode | Corrode | Melt Armor | Acid Pit |
 | Magic Missile | Magic Missile | Force Lance | Disintegrate |
 | Push | Push | Levitate | Telekinesis |
@@ -56,7 +56,7 @@ Spells don't exist in isolation. They're organized into **chains**, three-tier p
 | Blur | Blur | Invisibility | Greater Invisibility |
 | Befriend | Befriend | Suggestion | Dominate |
 | Daze | Daze | Confusion | Mass Confusion |
-| Vampiric Touch | Chill Touch, Greater | Vampiric Touch | Finger of Death |
+| Vampiric Touch | Vampiric Touch | Greater Vampiric Touch | Finger of Death |
 | Animate Dead | Raise Skeleton | Animate Dead | Create Undead |
 | Enhance | Enhance | Haste | Time Stop |
 | Stone Skin | Stone Skin | Iron Body | Diamond Form |
@@ -112,7 +112,7 @@ Look at that jump from Firebolt to Volcanic Eruption. One. Two. Three. Novice sp
 
 Cantrips are the spells you learn before you learn "real" spells. Minor magic. Parlor tricks that grew teeth.
 
-Cantrips require **no Discipline prerequisites.** Every caster knows all cantrips in their tradition, arcane or divine. These are your at-will abilities: *Prestidigitation, Light, Mage Hand, Thaumaturgy, Guidance.* Small effects. Infinite uses. No roll required unless the cantrip says otherwise.
+Cantrips require **no Discipline prerequisites.** Every caster knows all cantrips in their tradition, arcane or divine. These are your at-will abilities, for example: *Prestidigitation, Light, Mage Hand, Thaumaturgy, Guidance.* Small effects. Infinite uses. No roll required unless the cantrip says otherwise.
 
 They won't win a fight. They'll start one, or end one creatively. Never underestimate a caster who knows exactly what their cantrips can do.
 

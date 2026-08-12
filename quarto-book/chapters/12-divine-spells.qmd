@@ -262,7 +262,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 |---------|--------|
 | Weak (1-8) | Target regains 1 HP at the start of each turn for 2 rounds. |
 | Standard (9-14) | Target regains 1 HP at the start of each turn for 4 rounds. |
-| Strong (15-18+) | Target regains 1 HP at the start of each turn for 2 rounds. Additionally, the first time they drop to 0 HP during the duration, they immediately regain 4 HP and stay standing. |
+| Strong (15-18+) | Target regains 1 HP at the start of each turn for 4 rounds. Additionally, the first time they drop to 0 HP during the duration, they immediately regain 4 HP and stay standing. |
 
 *Healing over time. Bolster is for the Protector who's holding the line while everyone else escapes. For the Blade who's dueling the enemy champion. For anyone who needs to stay upright just a little longer. It won't outpace a dragon's breath, but it'll turn a dozen small cuts from fatal to forgettable.*
 
@@ -281,7 +281,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 | Standard (9-14) | Target regains 3 HP per round for 3 rounds. Lost fingers or minor appendages begin to regrow, fully restored by the spell's end. |
 | Strong (15-18+) | Target regains 4 HP per round for 3 rounds. A lost limb regrows over the duration. The target cannot die from hit point loss while Regeneration is active, they stabilize at 0 HP and continue to heal. |
 
-*When Bolster isn't enough. Regeneration is the spell you cast on the ally who's already down, already bleeding out, already halfway to the grave. It doesn't just heal, it rebuilds. Watch their eyes flutter open. Watch their hand grow back. Watch the enemy's expression change from triumph to horror.*
+*Regeneration works from the inside out. Flesh knits. Bone fuses. What was broken becomes whole again. Not patched. Rebuilt to the original spec. Watch their eyes flutter open. Watch their hand grow back. Watch the enemy's expression change from triumph to horror.*
 
 #### True Life (Master)
 **Disciplines:** 2 Life, 1 Protection
@@ -336,7 +336,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 | Standard (9-14) | Remove one condition instantly: blinded, deafened, paralyzed, or petrified. Target can act immediately. |
 | Strong (15-18+) | Remove any one condition (including stunned, unconscious from non-lethal sources). The target gains Boon on checks against that condition type for 24 hours, it won't take hold again easily. |
 
-*The surgical strike of divine magic. Remove Affliction doesn't heal HP, it solves specific, devastating problems. The medusa's gaze. The banshee's wail. The ghoul's paralytic claws. When a party member is locked down and the enemy is closing in, this spell doesn't just help, it changes the math entirely.*
+*Hit points aren't the issue. Remove Affliction answers the problem hit points can't touch: paralysis, blindness, the conditions that turn a hero into a bystander. When a party member is locked down and the enemy is closing in, this spell changes the math entirely.*
 
 #### Miracle Cure (Master)
 **Disciplines:** 2 Life, 1 Protection
@@ -391,7 +391,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 | Standard (9-14) | The target returns with 9 HP. Any non-magical diseases or poisons that killed them are cured. They know, with absolute certainty, that someone wanted them back badly enough to reach past death. |
 | Strong (15-18+) | The target returns with 12 HP. Their fatal wounds close completely. They bring back a clear memory, a face they saw, a message they heard, a warning or a comfort from the other side. The DA decides what they learned. |
 
-*Death is patient, but it can be argued with. Raise Dead is the argument. An hour of prayer, an intact body, and a soul that hasn't been gone more than ten days. The dead don't always want to come back. The living don't always get a choice. Some doors, once opened, are hard to close again.*
+*Death has its own will, but it can be overruled. Some souls resist the call. Some doors are harder to open than others. But the door exists, and Raise Dead is the key.*
 
 #### True Resurrection (Master)
 **Disciplines:** 2 Life, 1 Protection
@@ -570,7 +570,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 | Standard (9-14) | Creatures of the chosen type cannot enter the circle, cannot attack across it, and have Bane on spells cast into it. Inside creatures have +2 Armor against attacks from outside. Duration 1 hour. |
 | Strong (15-18+) | As Standard, but the circle also prevents teleportation and planar travel into or out of the area. Creatures of the chosen type inside when the circle is cast are trapped, they cannot leave. Duration 2 hours. |
 
-*The summoner's nightmare. Magic Circle is for when you know what's hunting you and need a guaranteed safe zone. Camp inside one when the werewolves are prowling. Trap a demon inside one while you negotiate. Cast one around the ritual altar before the cultists finish their spell. The circle doesn't judge. It just holds.*
+*The summoner's nightmare. Magic Circle is for when you know what's hunting you and need a guaranteed safe zone. Camp inside one when the werewolves are prowling. Trap a demon inside one while you negotiate. Cast one around the ritual altar before the cultists finish their spell. The circle is not a courtroom. It's a cage.*
 
 #### Divine Barrier (Master)
 **Disciplines:** 2 Religion, 1 Energy
@@ -735,7 +735,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 | Standard (9-14) | The target is Banished for 1 minute. While Banished, it is incapacitated in a harmless demiplane. When it returns, it takes 9 radiant damage, the boundary between worlds does not welcome it back kindly. |
 | Strong (15-18+) | As Standard, but the target takes 12 radiant damage upon banishment and upon return, crossing the boundary twice burns it badly. If the target is a fiend or undead native to another plane and the Banishment lasts the full minute, it does not return, it is trapped on its home plane. |
 
-*The spell that answers "go back where you came from." Banishment removes one creature from the fight entirely. Not dead, not injured, just gone. The demon who was about to eviscerate your Protector? Spending the next minute in a featureless gray void, alone with its thoughts. The ghost that's been haunting the manor for three centuries? Back to the ethereal plane, and the door is locked behind it. Banishment doesn't win fights. It postpones them. But sometimes postponement is all you need.*
+*Banishment buys time. The fight isn't over. It's deferred. But in a world where a single round can change everything, a minute of absence is a minute of victory.*
 
 #### Soul Prison (Master)
 **Disciplines:** 2 Religion, 1 Energy
