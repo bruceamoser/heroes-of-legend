@@ -73,7 +73,7 @@ Available to all classes. These are the talents any hero can pick up, regardless
 | **Brutal Critical** | Adept | Offense | On a Strong attack result, add +2 damage. Your strikes find gaps in armor that others miss. |
 | **Bulwark** | Adept | Defense | *Requires Shield Bearer.* When you take the Defend action, adjacent allies gain +1 DR until the start of your next turn. You don't just protect yourself, you hold the line. |
 | **Combat Reflexes** | Adept | Utility | One extra reaction per round. While others hesitate, you act. |
-| **Discipline Collector** | Adept | Utility | Gain one additional General Discipline. Your training has been broader than most. |
+| **Discipline Collector** | Adept | Utility | Gain one additional Discipline rank of your choice, paid at your class's cost for that discipline. Your training has been broader than most. |
 | **Dungeon Delver** | Adept | Utility | +2 to all checks to detect traps, secret doors, and hidden mechanisms. You've learned that dungeons punish the unobservant. |
 | **Inspiring Presence** | Adept | Support | Once per encounter, as a Maneuver, one ally within 30 ft can immediately reroll a failed saving throw. They take the new result. Your confidence is contagious. |
 | **Iron Will** | Adept | Defense | +2 to all saves vs fear and charm. Your mind is a fortress. |

@@ -58,7 +58,7 @@ Nineteen Disciplines. Seven categories. Your hero's path through them defines ev
 
 ### Starting Disciplines
 
-Your starting Disciplines come from your ancestry (1), your culture (2), and your class (see the Class Disciplines table below). General Disciplines are wildcards earned through talents and progression; they can substitute for any specific Discipline at the Novice tier. Need 1 Fire for a Firebolt? A General Discipline covers it. Need 2 Fire for a Fireball? That's Adept, you need the real thing. General Disciplines get you started, but they won't carry you to mastery.
+Your starting Disciplines come from your ancestry (1), your culture (2), and your class (see the Class Disciplines table below).
 
 ### Class Disciplines
 
@@ -78,7 +78,7 @@ Your class hands you specific Disciplines at creation. These are your foundation
 
 ### Progression
 
-At levels 3, 6, 9, 12, 15, and 18, you gain one additional Discipline of your choice. Class-favored Disciplines, the ones your class gave you at creation, are always available. Cross-class Disciplines may require narrative justification or story events. Want your Blade to pick up Fire? Make it a story. Find a mentor. Touch a primordial flame. Earn it.
+At levels 3, 6, and 9, you gain one additional Discipline of your choice. Class-favored Disciplines, the ones your class gave you at creation, are always available. Cross-class Disciplines may require narrative justification or story events. Want your Blade to pick up Fire? Make it a story. Find a mentor. Touch a primordial flame. Earn it.
 
 ### Magic Items
 
@@ -92,42 +92,61 @@ Skills, abilities, and talents require specific Disciplines before you can learn
 
 | Skill/Ability | Disciplines Required | Tier |
 |--------------|---------------------|------|
-| Longsword | 1 Blade, 1 Heavy Weapon | Adept |
-| Dagger | 1 Blade | Novice |
-| Greataxe | 1 Axe, 2 Heavy Weapons | Adept |
-| Fireball | 2 Fire + 1 Energy | Adept |
-| Volcanic Eruption | 3 Fire + 1 Earth | Master |
-| Chain Mail | 2 Armor | Novice |
+| Longsword | 1 Blades, 1 Heavy Weapon | Adept |
+| Dagger | 1 Blades | Novice |
+| Greataxe | 2 Axes | Adept |
+| Fireball | 2 Fire | Adept |
+| Volcanic Eruption | 2 Fire, 1 Earth | Master |
+| Chain Mail | 1 Armor | Novice |
 | Shield Block | 1 Protection | Novice |
 | Animal Companion | 2 Animal | Adept |
 | Magic Missile | 1 Energy | Novice |
-| Counterspell | 2 Energy + 1 Reason | Adept |
-
-### General Disciplines Substitution
-
-General Disciplines substitute for specific Disciplines at Novice tier only (1:1). General Disciplines cannot substitute at the Adept or Master tier.
-
-Need 1 Fire for Firebolt? A General covers it. Need 2 Fire for Fireball at Adept? You need the real thing, no substitutions. Need 3 Fire and 1 Earth for Volcanic Eruption? You need every one of those Disciplines the hard way. General gets you in the door. Beyond that, you walk through on your own.
-
-{{< pagebreak >}}
+| Counterspell | 2 Energy | Adept |
 
 ## The Discipline Ladder
 
-Every ability, skill, and spell follows a three-tier ladder. The higher you climb, the more Disciplines you need, the bigger the payoff.
+Every card (spell, ability, skill) follows a three-tier ladder. The higher you climb, the more Disciplines you need, the bigger the payoff. The tier of a card equals the number of Disciplines it requires as prerequisites: Novice = 1, Adept = 2, Master = 3.
 
-| Tier | DP Cost (any class) | Discipline Requirement | Level Gate | General Subs OK? |
-|------|---------------------|------------------------|------------|-------------------|
-| **Novice** | 1 DP | 1 specific Discipline | None (Level 1) | Yes (1:1) |
-| **Adept** | 2–3 DP | 2 Disciplines across 2 types (one at 2, one at 1) | Level 3 | No |
-| **Master** | 3-4 DP | 3-4 Disciplines across 2+ types (no single type > 3) | Level 7 | No |
+### Card Costs (Flat)
 
-**Novice** is your foundation. One Discipline, one DP, you're in the door. Any class can buy any Novice ability at 1 DP regardless of their favored costs (see @sec-chapter-classes). General Disciplines can stand in for specific ones at this tier, a General covers 1 Fire for Firebolt.
+Cards cost Development Points at a flat rate regardless of class:
 
-**Adept** requires two Disciplines across two types, a main type at 2 ranks and a supporting type at 1 rank (e.g. 2 Fire + 1 Energy for Fireball, or 2 Water + 1 Wind for Ice Storm). The point is depth: you've moved past dabbling into real investment. Level 3 is the gate; you've earned enough field experience to handle the real power.
+| Tier | Card DP Cost | Discipline Prerequisites | Level Gate |
+|------|-------------|------------------------|------------|
+| **Novice** | 2 DP | 1 rank in any one Discipline | None (Level 1) |
+| **Adept** | 4 DP | 2 Discipline ranks (see shapes below) | Level 3 |
+| **Master** | 8 DP | 3 Discipline ranks (see shapes below) | Level 7 |
 
-**Master** demands three to four Disciplines across at least two types, and no single type can count for more than 3. A spell requiring 3 Fire + 1 Earth is Master. One requiring 4 Fire alone is not, there's no such thing as a one-trick Master. The ladder enforces breadth at the top. Level 7 is the gate. By the time you're casting Master spells, you've been through enough to know when *not* to use them.
+### Discipline Rank Costs (Per Class)
 
-**General Disciplines** are your wildcards. They substitute 1:1 for specific Disciplines at Novice tier only. Two Generals don't make an Adept. Three Generals don't make a Master. Generals get you started and can fill in odd gaps in the mid-game, but the upper tiers require the real thing, earned through class training, progression, or story events. See "General Disciplines Substitution" below.
+Each class pays a different price for each Discipline rank depending on how aligned that discipline is with the class's identity. See @sec-chapter-classes for each class's Discipline cost table. The four cost structures are:
+
+| Cost Structure | Rank 1 | Rank 2 | Rank 3 | Meaning |
+|---------------|--------|--------|--------|---------|
+| **Home** | 1 DP | 2 DP | 4 DP | Favored — core to the class identity |
+| **Adjacent** | 2 DP | 4 DP | 8 DP | Related but not core |
+| **Foreign** | 3 DP | 6 DP | 12 DP | Unrelated to the class |
+| **Opposed** | 4 DP | 8 DP | 16 DP | Out of class — antithetical to the class |
+
+### Total Cost of a Card
+
+The total cost of a card = its flat card DP cost + the sum of the discipline rank costs from your class's structure for each required discipline.
+
+### Prereq Shapes
+
+The number of disciplines required is fixed by tier (1/2/3). The *composition* of those disciplines has shapes:
+
+| Tier | Disciplines Required | Possible Shapes |
+|------|---------------------|-----------------|
+| **Novice** | 1 | 1 of any discipline |
+| **Adept** | 2 | 2 different, or 2 ranks in the same discipline |
+| **Master** | 3 | 3 different, or 2 same + 1 different, or 3 same |
+
+A card requiring 1 Fire is Novice. A card requiring 2 Fire is Adept. A card requiring 3 Fire is Master. A card requiring 2 Fire + 1 Earth is Master (total 3 ranks). A hero's maximum in any single discipline is 3 ranks.
+
+### No-Prereq Basics
+
+Some basic Novice cards (cantrips, basic utility skills) have **no Discipline requirement** and cost only the flat card price (2 DP). These represent minor talents anyone can pick up — a spark of flame too small to harm, a knack for reading a room, a trick of sleight of hand. Adept and Master cards **always** require Disciplines. There are no shortcuts to real power.
 
 {{< pagebreak >}}
 
@@ -139,7 +158,7 @@ Every damaging spell, ability, and maneuver in *Heroes of Legend* is built on a 
 |------|------------------------|-----------------------------------|
 | **Novice** | 1 Discipline | 2 / 4 / 6 |
 | **Adept** | 2 Disciplines | 6 / 9 / 12 |
-| **Master** | 3-4 Disciplines | 9 / 15 / 21 |
+| **Master** | 3 Disciplines | 9 / 15 / 21 |
 
 ::: {.callout-note}
 ## How to Read the Budget
@@ -157,14 +176,14 @@ See @sec-chapter-arcane-spells and @sec-chapter-divine-spells for the full spell
 
 Kael wants to burn the world. He's an Arcanist, his class gives him 2 Fire and 1 Energy at creation. His ancestry and culture grant additional Disciplines as well.
 
-**Novice (Firebolt):** Requires 1 Fire. Kael has 2 Fire. He qualifies without even touching his Generals. Firebolt is his immediately.
+**Novice (Firebolt):** Requires 1 Fire. Kael has 2 Fire. He qualifies immediately. Firebolt costs 2 DP (flat card cost), and his Arcanist home cost for Fire rank 1 was already paid at creation. Firebolt is his on day one.
 
-**Adept (Fireball):** Requires 2 Fire + 1 Energy. Kael has exactly that, 2 Fire, 1 Energy. But the Adept tier requires level 3, so he must wait. Most casters need several levels to reach Adept. Arcanists start closer to the flame and qualify as soon as the gate opens.
+**Adept (Fireball):** Requires 2 Fire. Kael has 2 Fire. But the Adept tier requires level 3, so he must wait. Most casters need several levels to reach Adept. Arcanists start closer to the flame and qualify as soon as the gate opens.
 
 **Master (Volcanic Eruption):** Requires 3 Fire + 1 Earth. Kael starts with 2 Fire and 1 Energy, so he needs 1 more Fire and 1 Earth. With level gates in place, Adept unlocks at level 3 and Master at level 7. Kael has time to prepare.
 
-At level 3, Kael takes Fire (now 3 Fire, 1 Energy). At level 6, he takes Earth (now 3 Fire, 1 Earth, 1 Energy). When the Master tier unlocks at level 7, he qualifies for Volcanic Eruption — and any General Disciplines he's earned are still available for other pursuits. He could branch into Protection for defense, Animal for a familiar, or bank them for cross-class talents.
+At level 3, Kael takes Fire (now 3 Fire, 1 Energy). At level 6, he takes Earth (now 3 Fire, 1 Earth, 1 Energy). When the Master tier unlocks at level 7, he qualifies for Volcanic Eruption. He could branch into Protection for defense, Animal for a familiar, or continue deepening his elemental mastery.
 
-Seven levels to master volcanic fury. Generals got him started. Disciplines got him to Master. No shortcuts. No wildcards. Just the path, walked one step at a time.
+Seven levels to master volcanic fury. Disciplines got him to Master. No shortcuts. No wildcards. Just the path, walked one step at a time.
 
-That's the Discipline system working as intended. Master spells should be achievable before your campaign's final act, but they should still mean something when you cast them. A level 7 Volcanic Eruption says "I built for this." When Kael calls down the mountain's fury, everyone at the table knows he paid for it.
+That's the Discipline system working as intended. Master spells should be achievable before your campaign's climax, but they should still mean something when you cast them. A level 7 Volcanic Eruption says "I built for this." When Kael calls down the mountain's fury, everyone at the table knows he paid for it.

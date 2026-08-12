@@ -44,7 +44,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 ## Character Terms
 
-**Ability:** An active power purchased with DP. Spells, combat techniques, and signature class powers are all abilities. Must be activated to use. Follows Novice/Adept/Master chain.
+**Ability:** An active power purchased with DP. Spells, combat techniques, and signature class powers are all abilities. Must be activated to use. Follows Novice/Adept/Master chain with flat costs (2/4/8 DP).
 
 **Ancestry:** Your species, Human, Elf, Dwarf, or Halfling. Grants one Discipline and one trait.
 
@@ -54,21 +54,19 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Culture:** Your upbringing within your ancestry. Grants a +1 skill bonus and either two specific Disciplines or one free Discipline.
 
-**Development Points (DP):** The currency of character creation and advancement. Spent to purchase skills, abilities, and Disciplines. Different classes pay different costs (X1, X2, X3) for different purchases.
+**Development Points (DP):** The currency of character creation and advancement. Spent to purchase skills, abilities, and Disciplines. Skills and abilities cost a flat rate by tier (Novice 2 DP, Adept 4 DP, Master 8 DP). Disciplines cost different amounts per class depending on their cost structure (Home, Adjacent, Foreign, Opposed).
 
-**Discipline:** A prerequisite resource representing mastery of a domain. Disciplines come in types: Elemental (Fire, Earth, Wind, Water), Weapon (Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed), Defense (Protection, Armor), Primal (Animal, Plants), Arcane (Energy), Divine (Life, Religion), and Esoteric (Mind, Summon).
-
-**General Discipline:** A wildcard Discipline earned through talents and progression. Can substitute for any specific Discipline type at Novice tier only (1:1). Cannot substitute at Adept or Master tier.
+**Discipline:** A prerequisite resource representing mastery of a domain. Disciplines come in types: Elemental (Fire, Earth, Wind, Water), Weapon (Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed), Defense (Protection, Armor), Primal (Animal, Plants), Arcane (Energy), Divine (Life, Religion), and Esoteric (Mind, Summon). Each class has a cost table showing the DP price for each rank in each discipline (see @sec-chapter-classes).
 
 **HP (Health Points):** How much damage you can take before falling unconscious. Starting HP = 10 + Fortitude + Knowledge. Gain Fortitude modifier HP each level (minimum 1).
 
-**Level:** Your hero's experience tier, from 1 to 20. Higher levels unlock Adept (Level 3) and Master (Level 7) abilities and grant attribute increases every 4 levels.
+**Level:** Your hero's experience tier, from 1 to 10. Higher levels unlock Adept (Level 3) and Master (Level 7) abilities and grant attribute increases every 4 levels.
 
-**Novice:** The first tier of any skill or ability. Grants +1 bonus. Costs 1 DP at X1.
+**Novice:** The first tier of any skill or ability. Grants +1 bonus. Flat cost: 2 DP.
 
-**Adept:** The second tier. Grants +2 bonus. Unlocks a maneuver for skills. Costs 2 DP at X1. Requires Novice. Unlocks at Level 3.
+**Adept:** The second tier. Grants +2 bonus. Unlocks a maneuver for skills. Flat cost: 4 DP. Requires Novice. Unlocks at Level 3.
 
-**Master:** The third tier. Grants +3 bonus. Unlocks a powerful maneuver for skills. Costs 4 DP at X1. Requires Adept. Unlocks at Level 7.
+**Master:** The third tier. Grants +3 bonus. Unlocks a powerful maneuver for skills. Flat cost: 8 DP. Requires Adept. Unlocks at Level 7.
 
 **Maneuver:** A special technique unlocked by Adept or Master skill rank. Spent as your Maneuver for the turn.
 

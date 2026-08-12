@@ -25,9 +25,9 @@ If you've built a few heroes and you're tired of counting DP, here's your speed 
 
 1. **Attributes:** Spread +2, +1, +1, +0, +0, -1 (sum = +3). Put the +2 in your class's primary attribute.
 2. **Ancestry & Culture:** Pick any combo that fits your concept. Write down the Discipline and trait.
-3. **Background DP:** Take 8 + Knowledge + Fortitude DP. Buy 3-4 Novice skills and 1-2 Novice abilities. Spend every point.
+3. **Background DP:** Take 8 + Knowledge + Fortitude DP. Buy 2-3 Novice skills and 1 Novice ability. Spend every point.
 4. **Class:** Pick your class. Record the class Discipline and signature ability.
-5. **Class DP:** 8 DP. Buy 2-3 favored skills at Novice and 1-2 more abilities. Spend every point.
+5. **Class DP:** 8 DP. Buy 2-3 Novice skills or abilities. Spend every point.
 6. **Equipment:** Take the class starting kit. Don't optimize, the first adventure will give you better gear anyway.
 7. **Name & Backstory:** Roll one Motivation and one Trinket from the tables below. Make up a name. Done.
 
@@ -112,21 +112,23 @@ These points represent your **entire life** before Level 1. They do not carry ov
 
 At Level 1, you are a **Novice**. You cannot buy Adept or Master tier anything, those unlock later, through experience.
 
-Costs below are **X1 (Favored)**, your class may multiply these. See @sec-chapter-classes for your class's multipliers. Abilities are always 1/2/4 DP regardless of class.
+Costs below are at **Home (Favored)** rates. Your class may change these based on the Discipline cost table in @sec-chapter-classes. Cards (skills, abilities, spells) cost a flat 2/4/8 DP regardless of class — their real gate is Discipline prerequisites.
 
-| Purchase | Cost (X1) | Notes |
+| Purchase | Base Cost | Notes |
 |----------|----------|-------|
-| **Skill (Novice)** | 1 DP | +1 bonus. Adept (2 DP) at Level 3. Master (3 DP) at Level 7. |
-| **Ability (Novice)** | 1 DP | Martial, magical, or talent, all abilities follow 1/2/4 DP. Adept at Level 3. Master at Level 7. |
-| **Discipline (first rank)** | 1 DP | First rank in a given type. No level gate. |
-| **Discipline (second rank)** | 2 DP | Deepening the same type. Stacks for ability prereqs. |
-| **Discipline (third rank)** | 4 DP | Mastery. Three ranks in Fire = serious flame. |
+| **Skill (Novice)** | 2 DP | +1 bonus. Adept (4 DP) at Level 3. Master (8 DP) at Level 7. |
+| **Ability (Novice)** | 2 DP | Martial, magical, or talent. Adept at Level 3 (4 DP). Master at Level 7 (8 DP). |
+| **Discipline (first rank)** | per class table | First rank in a given type. See @sec-chapter-classes for your costs. |
+| **Discipline (second rank)** | per class table | Deepening the same type. Stacks for ability prereqs (max 3). |
+| **Discipline (third rank)** | per class table | Mastery. Three ranks in Fire = serious flame. |
+
+No-prereq Novice basics (cantrips, basic utility skills) cost 2 DP with no Discipline requirement. See @sec-chapter-disciplines for the full rules.
 
 These represent everything your hero learned growing up. A farm kid might take Athletics and Animal Handling. A temple acolyte might take Religion and Medicine. A street thief might take Stealth and Sleight of Hand. Make it make sense for your concept, the DA will notice.
 
 **How You Gain Disciplines**
 
-Disciplines are not free. Every Discipline your hero possesses comes from a specific source, earned through bloodline, upbringing, training, or hard-won experience. There are no wildcards handed out at creation:
+Disciplines are not free. Every Discipline your hero possesses comes from a specific source, earned through bloodline, upbringing, training, or hard-won experience:
 
 - **Ancestry** (Step 3): Your species grants one Discipline reflecting innate traits of your bloodline. See @tbl-ancestries.
 
@@ -172,7 +174,7 @@ Record your Class Discipline (one rank) and signature ability. See @sec-chapter-
 
 ### Step 7: Spend Class DP
 
-You have **8 DP** for your class training. Again: spend every one. This is where you buy skills and abilities, combat techniques, spells, and talents are all just abilities with different flavors. Your class lists favored skills (X1) and favored Disciplines (X1); everything else costs X2 or X3. Abilities always cost 1/2/4 DP, their real gate is Discipline prerequisites. Lean into what your class does best.
+You have **8 DP** for your class training. Again: spend every one. This is where you buy skills and abilities, combat techniques, spells, and talents are all just abilities with different flavors. Your class lists favored skills and a Discipline cost table; everything else follows the cost structures in @sec-chapter-classes. Cards always cost 2/4/8 DP, their real gate is Discipline prerequisites. Lean into what your class does best.
 
 Adept-tier skills and abilities unlock at Level 3. Master-tier at Level 7. At Level 1, everything you buy is Novice. That's fine. Novice means you're trained. You'll deepen later.
 
@@ -238,27 +240,21 @@ Let's build a character from scratch so you can see how the pieces fit together.
 
 **Step 5, Background DP (8 + Knowledge 0 + Fortitude 0 = 8 DP):**
 
-- Stealth Novice (1 DP), she's good at not being seen
-- Deception Novice (1 DP), she's better at being believed
-- Sleight of Hand Novice (1 DP), quick fingers, quicker pockets
-- Perception Novice (1 DP), reading a room keeps you alive
-- Streetwise Novice (1 DP), knows every fence in the harbor district
-- Acrobatics Novice (1 DP), never met a rooftop she couldn't cross
-- Water Discipline (1 DP), the river's in her blood
-- Lucky talent, Novice (1 DP), some people are just born fortunate
+- Stealth Novice (2 DP), she's good at not being seen
+- Deception Novice (2 DP), she's better at being believed
+- Sleight of Hand Novice (2 DP), quick fingers, quicker pockets
+- Perception Novice (2 DP), reading a room keeps you alive
 
-Total: 8 DP. All spent. ?  
+Total: 8 DP. All spent. ?
 
-**Step 6, Class:** Odd. Gains 3 Disciplines from different categories (Archery, Animal, Water). Signature: **Wildcard**, once per session, roll a d6 table for a random bonus.
+**Step 6, Class:** Odd. Gains 3 Disciplines from different categories (Blades, Protection, Water). Signature: **Wildcard**, once per session, roll a d6 table for a random bonus.
 
 **Step 7, Class DP (8 DP):**
 
-- Archery Discipline (1 DP)
-- Bow Fighting Novice (1 DP, favored)
-- Stealth ? Adept (2 DP)
-- Deception ? Adept (2 DP)
-- Evasion Novice (1 DP)
-- Dirty Fighting Novice (1 DP)
+- Sap (Novice ability, 2 DP), daze unaware targets — Blades prereq already met
+- Bow Fighting Novice (2 DP)
+- Streetwise Novice (2 DP)
+- Acrobatics Novice (2 DP)
 
 Total: 8 DP. All spent. ?
 
@@ -288,14 +284,11 @@ The eight worked examples below show how the same system produces wildly differe
 
 **Background DP (8 + Know 2 + Fort 0 = 10 DP):**
 
-- Arcana Novice (1 DP, favored)
-- History Novice (1 DP, favored)
-- Investigation Novice (1 DP)
-- Perception Novice (1 DP)
+- Arcana Novice (2 DP, favored)
+- History Novice (2 DP, favored)
 - Fire Discipline, 2nd rank (2 DP), she's earned her second flame
 - Energy Discipline, 2nd rank (2 DP), raw force refined
-- Alchemy Novice (1 DP), fire needs fuel, fuel is chemistry
-- Lucky talent Novice (1 DP, from Human Versatile)
+- Alchemy Novice (2 DP), fire needs fuel, fuel is chemistry
 
 Total: 10 DP. All spent.
 
@@ -303,14 +296,12 @@ Total: 10 DP. All spent.
 
 **Class DP (8 DP):**
 
-- Firebolt (Novice spell, 1 DP), her first real spell
-- Burning Hands (Novice spell, 1 DP), for when they get too close
-- Arcane Feedback (Novice ability, 1 DP)
-- Endurance Novice (1 DP), a mage who can't run is a dead mage
-- Insight Novice (1 DP)
+- Firebolt (Novice spell, 2 DP), her first real spell
+- Burning Hands (Novice spell, 2 DP), for when they get too close
+- Arcane Feedback (Novice ability, 2 DP)
 - Fire Discipline, 3rd rank (2 DP), she can feel the inferno calling
 
-Total: 7 DP. Spent.
+Total: 8 DP. All spent.
 
 **Equipment:** Arcane focus (crystal orb), dagger (1/2/3), scholar's robes (DR 0), component pouch, spellbook, 5 gp.
 
@@ -332,29 +323,24 @@ Total: 7 DP. Spent.
 
 **Background DP (8 + Know 2 + Fort 0 = 10 DP):**
 
-- Arcana Novice (1 DP, favored)
-- History Novice (1 DP, favored)
-- Investigation Novice (1 DP)
-- Persuasion Novice (1 DP), planning means convincing
-- Perception Novice (1 DP)
-- Keen Senses gift Novice (1 DP), always-on Boon on sight/hearing
-- Mind Discipline (1 DP), the battlefield is a chessboard
+- Arcana Novice (2 DP, favored)
+- History Novice (2 DP, favored)
+- Persuasion Novice (2 DP), planning means convincing
+- Mind Discipline (1 DP), the battlefield is a chessboard — Home cost
 - Mind Discipline, 2nd rank (2 DP), she sees three moves ahead
 
-Total: 9 DP. 1 DP left for later.
+Total: 9 DP. 1 DP remaining (bank nothing — spend in Class DP).
 
 **Class:** Intellect. Any one Discipline (takes Mind, 3rd rank). Signature: **Knowledge Is Power**, +1 to all Knowledge-based skill checks.
 
 **Class DP (8 DP):**
 
-- Tactical Insight (Novice ability, 1 DP)
-- Blades Fighting Novice (1 DP), she's no duelist but she's trained
-- Medicine Novice (1 DP)
-- Energy Discipline (1 DP), raw magic for when plans fail
-- Magic Missile (Novice spell, 1 DP), it never misses, neither should a plan
-- Insight Novice (1 DP)
+- Tactical Insight (Novice ability, 2 DP)
+- Blades Fighting Novice (2 DP), she's no duelist but she's trained
+- Magic Missile (Novice spell, 2 DP), it never misses, neither should a plan
+- Insight Novice (2 DP)
 
-Total: 6 DP. 2 DP banked for Adept abilities at Level 3.
+Total: 8 DP. All spent.
 
 **Equipment:** Short sword (2/3/4), spellbook, scholar's robes (DR 0), component pouch, maps and charts, 10 gp.
 
@@ -376,27 +362,24 @@ Total: 6 DP. 2 DP banked for Adept abilities at Level 3.
 
 **Background DP (8 + Know 0 + Fort 1 = 9 DP):**
 
-- Medicine Novice (1 DP, favored)
-- Religion Novice (1 DP, favored)
-- Persuasion Novice (1 DP)
-- Endurance Novice (1 DP)
-- Water Discipline (1 DP), the healing element
-- Heal Wounds (Novice spell, 1 DP), the reason they call her
-- Bolstering Prayer (Novice ability, 1 DP)
+- Medicine Novice (2 DP, favored)
+- Religion Novice (2 DP, favored)
+- Persuasion Novice (2 DP)
+- Endurance Novice (2 DP)
+- Protection Discipline, rank 1 (1 DP), faith before the calling
 
-Total: 7 DP. 2 DP saved.
+Total: 9 DP. All spent.
 
 **Class:** Shepherd. Gains 2 Protection, 2 Animal. Signature: **Turn Undead**, divine energy ignores armor, affects only undead.
 
 **Class DP (8 DP):**
 
 - Protection Discipline, 3rd rank (2 DP), her faith deepens
-- Soothe (Novice spell, 1 DP)
-- Purify (Novice spell, 1 DP)
-- Religion Discipline (1 DP), faith through study
-- Resilience Novice (1 DP)
+- Heal Wounds (Novice spell, 2 DP)
+- Purify (Novice spell, 2 DP)
+- Resilience Novice (2 DP)
 
-Total: 6 DP. 2 DP banked.
+Total: 8 DP. All spent.
 
 **Equipment:** Mace (2/3/4), holy symbol, chain shirt (DR 3), healer's kit, 5 gp.
 
@@ -418,27 +401,24 @@ Total: 6 DP. 2 DP banked.
 
 **Background DP (8 + Know -1 + Fort 0 = 7 DP + 1 Versatile = 8 DP):**
 
-- Blades Fighting Novice (1 DP, favored)
-- Athletics Novice (1 DP, favored, culture bonus already applied)
-- Persuasion Novice (1 DP)
-- Intimidation Novice (1 DP)
-- Resilience Novice (1 DP)
-- Protection Discipline, 2nd rank (2 DP)
+- Blades Fighting Novice (2 DP, favored)
+- Athletics Novice (2 DP, favored, culture bonus already applied)
+- Persuasion Novice (2 DP)
+- Resilience Novice (2 DP)
 
-Total: 7 DP. 1 DP banked.
+Total: 8 DP. All spent.
 
 **Class:** Leader. Gains 2 Protection, 1 Energy, 1 any (takes Blades). Signature: **Lead by Example**, on a telling blow, grant one ally +2 on their next roll.
 
 **Class DP (8 DP):**
 
-- Rallying Cry (Novice ability, 1 DP)
-- Polearms Fighting Novice (1 DP, favored)
-- Blades Discipline, 2nd rank (1 DP), sharpened steel, sharpened leadership
-- Perception Novice (1 DP)
-- Insight Novice (1 DP)
-- Fast Learner gift Novice (1 DP), borrow any skill once per session
+- Rallying Cry (Novice ability, 2 DP)
+- Polearms Fighting Novice (2 DP, favored)
+- Blades Discipline, 2nd rank (1 DP, Home)
+- Perception Novice (2 DP)
+- Remainder: 1 DP banked toward Adept
 
-Total: 6 DP. 2 DP banked.
+Total: 7 DP. 1 DP banked.
 
 **Equipment:** Longsword (2/4/5), spear (2/3/5), chain shirt (DR 3), shield (+1 Protection Value), captain's insignia, 10 gp.
 
@@ -460,26 +440,23 @@ Total: 6 DP. 2 DP banked.
 
 **Background DP (8 + Know -1 + Fort 0 = 7 DP):**
 
-- Blades Fighting Novice (1 DP, favored)
-- Acrobatics Novice (1 DP), footwork is everything
-- Stealth Novice (1 DP), striking from shadow
-- Deception Novice (1 DP), a feint is a lie with your blade
-- Perception Novice (1 DP)
-- Fey Step gift Novice (1 DP), reposition without stepping
+- Blades Fighting Novice (2 DP, favored)
+- Acrobatics Novice (2 DP), footwork is everything
+- Stealth Novice (2 DP), striking from shadow
 
-Total: 6 DP. 1 DP banked.
+Total: 6 DP. 1 DP remaining — not enough for another full Novice rank. The point is spent on story, not on the sheet.
+
+Total: 6 DP. 1 DP remaining — enough to begin a new skill, but 1 DP doesn't buy a full Novice rank. The point is lost.
 
 **Class:** Blade. Gains 3 Blades. Signature: **Swift Blade**, use Agility instead of Brawn for blade attacks. Gains **Precise Stab**, bonus damage on opening strike.
 
 **Class DP (8 DP):**
 
-- Blades Discipline, 3rd rank (2 DP), she is the blade now
-- Precise Stab (Novice ability, 1 DP)
-- Blades Discipline, 2nd rank (1 DP), deepening the edge
-- Acrobatics Adept (2 DP, from 65 at 2 DP after Novice 1 DP)
-- Evasion Novice (1 DP)
+- Precise Stab (Novice ability, 2 DP)
+- Acrobatics Adept (4 DP), upgrading from Novice
+- Evasion Novice (2 DP)
 
-Total: 7 DP. 1 DP banked.
+Total: 8 DP. All spent.
 
 **Equipment:** Rapier (2/3/4), dagger (1/2/3), leather armor (DR 2), dueling cloak, 15 gp.
 
@@ -501,28 +478,23 @@ Total: 7 DP. 1 DP banked.
 
 **Background DP (8 + Know 0 + Fort 0 = 8 DP):**
 
-- Stealth Novice (1 DP, favored, culture bonus already applied)
-- Thievery Novice (1 DP), locks and traps
-- Sleight of Hand Novice (1 DP)
-- Deception Novice (1 DP)
-- Perception Novice (1 DP)
-- Acrobatics Novice (1 DP)
-- Naturally Stealthy gift Novice (1 DP), Boon when hiding behind big folk
+- Stealth Novice (2 DP, favored, culture bonus already applied)
+- Thievery Novice (2 DP), locks and traps
+- Sleight of Hand Novice (2 DP)
+- Deception Novice (2 DP)
 
-Total: 7 DP. 1 DP banked.
+Total: 8 DP. All spent.
 
 **Class:** Shadow. Gains 2 Blades, 1 Mind. Signature: **Vanish**, spend maneuver to turn invisible until end of next turn or until attacking.
 
 **Class DP (8 DP):**
 
-- Sap (Novice ability, 1 DP), daze unaware targets
-- Blades Fighting Novice (1 DP, favored)
-- Thrown Weapon Novice (1 DP, favored)
-- Streetwise Novice (1 DP)
-- Thievery Adept (2 DP, upgrading from Novice)
-- Thievery Discipline cost (implicit from class)
+- Sap (Novice ability, 2 DP), daze unaware targets
+- Blades Fighting Novice (2 DP, favored)
+- Thrown Weapon Novice (2 DP, favored)
+- Streetwise Novice (2 DP)
 
-Total: 6 DP. 2 DP banked.
+Total: 8 DP. All spent.
 
 **Equipment:** Two daggers (1/2/3), throwing knives (6, 1/2/3), leather armor (DR 2), thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1), 15 sp.
 
@@ -544,27 +516,23 @@ Total: 6 DP. 2 DP banked.
 
 **Background DP (8 + Know 0 + Fort 1 = 9 DP):**
 
-- Endurance Novice (1 DP, favored)
-- Athletics Novice (1 DP, favored)
-- Craft Novice (1 DP, favored, culture bonus already applied)
-- Resilience Novice (1 DP)
-- Intimidation Novice (1 DP)
-- Axes Fighting Novice (1 DP)
-- Dwarven Resilience gift Novice (1 DP)
+- Endurance Novice (2 DP, favored)
+- Athletics Novice (2 DP, favored)
+- Craft Novice (2 DP, favored, culture bonus already applied)
+- Resilience Novice (2 DP)
 
-Total: 7 DP. 2 DP banked.
+Total: 8 DP. 1 DP remaining.
 
 **Class:** Protector. Gains 2 Armor, 2 Protection. Signature: **Bastion**, spend movement to enter defensive stance, +1 Protection Value.
 
 **Class DP (8 DP):**
 
-- Interpose (Novice ability, 1 DP), take the hit for an adjacent ally
+- Interpose (Novice ability, 2 DP), take the hit for an adjacent ally
 - Armor Discipline, 3rd rank (2 DP), a mountain in plate
-- Axes Discipline (1 DP)
-- Dwarven Resilience usage (already purchased in background)
+- Axes Discipline, rank 1 (1 DP, Home)
 - Protection Discipline, 3rd rank (2 DP)
 
-Total: 6 DP. 2 DP banked.
+Total: 7 DP. 1 DP banked.
 
 **Equipment:** Battle axe (2/4/5), chain mail (DR 4), shield (+1 PV), smith's tools, 10 gp.
 
@@ -586,28 +554,24 @@ Total: 6 DP. 2 DP banked.
 
 **Background DP (8 + Know 1 + Fort 0 = 9 DP + 1 Versatile = 10 DP):**
 
-- Arcana Novice (1 DP)
-- Survival Novice (1 DP, favored)
-- Intimidation Novice (1 DP)
-- Unarmed Fighting Novice (1 DP)
-- Fire Discipline, 2nd rank (2 DP)
-- Wind Discipline (1 DP)
-- Die Hard gift Novice (1 DP)
+- Arcana Novice (2 DP)
+- Survival Novice (2 DP, favored)
+- Unarmed Fighting Novice (2 DP)
+- Fire Discipline, 2nd rank (2 DP, Home)
+- Wind Discipline, rank 1 (1 DP, Home)
 
-Total: 8 DP. 2 DP banked.
+Total: 9 DP. 1 DP banked.
 
 **Class:** Unbalanced. Gains 2 Fire, 2 Water (opposing types). Signature: **Edge of Chaos**, on Strong hit, +4 bonus damage but roll d6 backlash.
 
 **Class DP (8 DP):**
 
-- Exploit Chaos (Novice ability, 1 DP), roll twice on backlash table
+- Exploit Chaos (Novice ability, 2 DP), roll twice on backlash table
 - Fire Discipline, 3rd rank (2 DP), she *is* the wildfire
-- Water Discipline (2 DP already from class; uses for spells)
-- Ice Shield (Adept spell, requires 2 Water + 1 Protection; still needs Protection)
-- Static Field (Novice spell, 1 DP)
-- Endurance Novice (1 DP)
+- Static Field (Novice spell, 2 DP)
+- Endurance Novice (2 DP)
 
-Total: 5 DP. 3 DP banked toward Protection for Ice Shield.
+Total: 8 DP. All spent.
 
 **Equipment:** Quarterstaff (1/2/3), component pouch, scholar's robes (DR 0), six vials of "volatile reagents" (alchemist's fire, equivalent), 5 gp.
 

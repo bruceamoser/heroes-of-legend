@@ -20,7 +20,7 @@ This chapter covers the mechanics: when you level, what you gain, and how to spe
 
 Levels are earned through adventure milestones, not experience points. When the party achieves something significant — defeats a major enemy, completes a quest, resolves a story arc — the DA awards a level. There's no tracking individual goblin kills. There's no calculating CR budgets. The story says "you've earned this," and you level up.
 
-The expected pace is roughly one level every two to three sessions. At that rate, a weekly group reaches level 20 in about a year of play. Some tables move faster. Some move slower. The pace that's right for your group is the pace where leveling feels earned, not automatic. When the party hits a new level and the table goes "yes!", you're doing it right. When they barely notice, you're leveling too fast. When they're frustrated, too slow. Adjust.
+The expected pace is roughly one level every two to three sessions. At that rate, a weekly group reaches level 10 in about half a year of play. Some tables move faster. Some move slower. The pace that's right for your group is the pace where leveling feels earned, not automatic. When the party hits a new level and the table goes "yes!", you're doing it right. When they barely notice, you're leveling too fast. When they're frustrated, too slow. Adjust.
 
 **Milestone examples:** The DA awards a level when the party:
 - Defeats a boss or major antagonist
@@ -36,25 +36,26 @@ The DA decides. There's no formula. Trust your instincts — you know when the p
 
 Development Points are the currency of growth. You spend them to buy skills, talents, and abilities. Every level gives you a fresh infusion, and every point spent is a choice about who your hero is becoming.
 
-At each level, you gain 3–4 DP, with larger awards at milestone levels (1, 5, 10, 15, 20). The table below shows the full progression. Budget wisely — DP don't carry over between levels, so spend every point before you level again. Unspent DP is potential left on the table.
+At each level, you gain 3–4 DP, with larger awards at milestone levels (1, 5). The table below shows the full progression. Budget wisely — DP don't carry over between levels, so spend every point before you level again. Unspent DP is potential left on the table.
 
 | Level | DP | Other Gains |
 |-------|-----|-------------|
 | 1 | 4 | Class signature, Starting Disciplines |
 | 2 | 3 |, |
-| 3 | 3 | Progression Discipline |
+| 3 | 3 | Progression Discipline. Adept abilities unlock. |
 | 4 | 3 | Attribute increase (+1, max +2) |
 | 5 | 4 | Class feature upgrade |
-| 6-14 | 3/level | Progression Discipline every 3 levels, attribute every 4 |
-| 15 | 4 | Class feature upgrade |
-| 16-19 | 3/level | Progression Discipline every 3 levels, attribute every 4 |
-| 20 | 4 | Capstone |
+| 6 | 3 | Progression Discipline |
+| 7 | 3 | Master abilities unlock |
+| 8 | 3 | Attribute increase (+1, max +2) |
+| 9 | 3 | Progression Discipline |
+| 10 | 3 | Class feature upgrade |
 
-Total DP at level 20: 64. Total Progression Disciplines: 6. Total attribute increases: 5.
+Total DP by level 10: 32. Total Progression Disciplines: 3. Total attribute increases: 2.
 
 <!-- Advancement is purely DP-based. Classes do not have feature upgrades; progression
      is driven by player choice through Development Points. The table above shows
-     total DP gain per level, not preset class features. At levels 5, 10, 15, and 20,
+     total DP gain per level, not preset class features. At levels 5 and 10,
      players have accumulated enough DP to reach meaningful new ability tiers through
      their own purchasing decisions. -->
 
