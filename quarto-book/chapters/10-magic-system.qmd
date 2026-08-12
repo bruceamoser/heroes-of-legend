@@ -57,7 +57,7 @@ Spells don't exist in isolation. They're organized into **chains**, three-tier p
 | Befriend | Befriend | Suggestion | Dominate |
 | Daze | Daze | Confusion | Mass Confusion |
 | Vampiric Touch | Vampiric Touch | Greater Vampiric Touch | Finger of Death |
-| Animate Dead | Raise Skeleton | Animate Dead | Create Undead |
+| Raise Skeleton | Raise Skeleton | Animate Dead | Create Undead |
 | Enhance | Enhance | Haste | Time Stop |
 | Stone Skin | Stone Skin | Iron Body | Diamond Form |
 | Stone Spikes | Stone Spikes | Earthquake | Fissure |
@@ -101,7 +101,7 @@ There are no wildcard Discipline substitutions. Every Discipline requirement mus
 | Spell | Tier | Discipline Req | Effect Range (W / S / St) |
 |-------|------|---------------|--------------------------|
 | Firebolt | Novice | 1 Fire | W: 2 / S: 4 / St: 6 + ignite |
-| Fireball | Adept | 2 Fire | W: 6 (10ft) / S: 9 (15ft) / St: 12 (20ft) |
+| Fireball | Adept | 2 Fire | W: 6 (10ft) / S: 9 (15ft) / St: 9 (20ft) +3 center |
 | Volcanic Eruption | Master | 2 Fire + 1 Earth | W: 9 (20ft) / S: 15 (30ft) / St: 21 (40ft) + terrain hazard |
 
 Look at that jump from Firebolt to Volcanic Eruption. One. Two. Three. Novice spells are tools. Adept spells are weapons. Master spells are *events.* The Discipline requirements make sure you earn the difference, but they don't make you wait half a campaign to do it.
@@ -158,7 +158,7 @@ Lyra is an Odd with 2 Fire and 1 Energy. She's facing a cluster of goblins huddl
 
 **The roll:** Lyra's Knowledge is +1, and she has Arcana at Adept (+2). The goblins are packed tight, Standard difficulty, no modifier. She rolls 3d6: 5, 3, 4 = 12. Plus 1 (Knowledge), plus 2 (Arcana) = 15. *Strong.*
 
-**The effect:** Fireball's Strong damage is 12 in a 20-foot radius. Everything in that circle takes 12 fire damage unless it has resistance. The goblins have no armor and no resistance. Four goblins, twelve damage each. The barricade, wooden, dry, catches fire. The goblins' formation collapses into screaming chaos.
+**The effect:** Fireball's Strong damage is 9 in a 20-foot radius, with targets near the center taking +3 (12 total). Everything in that circle takes 9 fire damage, 12 near the center, unless it has resistance. The goblins have no armor and no resistance. Four goblins, nine damage each, twelve for those near the center. The barricade, wooden, dry, catches fire. The goblins' formation collapses into screaming chaos.
 
 **The aftermath:** The Fireball is per-encounter. Lyra won't cast it again this fight. But she doesn't need to. She just cleared the room. Now she draws her dagger and lets the Protector handle cleanup while she looks for her next opening.
 

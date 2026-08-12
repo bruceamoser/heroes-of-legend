@@ -109,9 +109,9 @@ A silver chalice that never tarnishes. Liquid poured into it glows with a soft g
 
 | Success Tier | Effect |
 |-------------|--------|
-| **Weak** | You regain 2 HP. One ally within 30 ft regains 2 HP. |
-| **Standard** | You regain 4 HP. Up to three allies within 30 ft each regain 3 HP. |
-| **Strong** | You regain 6 HP. All allies within 30 ft regain 5 HP and lose one condition of their choice. |
+| **Weak** | You regain 2 HP. |
+| **Standard** | You regain 2 HP. One ally within 30 ft regains 2 HP. |
+| **Strong** | You regain 2 HP. Up to two allies within 30 ft each regain 2 HP and lose one condition of their choice. |
 
 ### Titan's Girdle
 
@@ -135,7 +135,7 @@ A spiral horn carved from the tooth of some great celestial beast. When blown, i
 |-------------|--------|
 | **Weak** | All allies within 60 ft lose the Frightened condition. |
 | **Standard** | All allies lose Frightened. Undead within 60 ft have Bane on their next attack. |
-| **Strong** | All allies lose Frightened and gain +1 on their next roll. Undead within 60 ft take 3 radiant damage. |
+| **Strong** | All allies lose Frightened and gain +1 on their next roll. Undead within 60 ft take 6 radiant damage. |
 
 ### Mirror of Echoing Eyes
 
@@ -251,7 +251,7 @@ A longbow of pale golden wood, warm to the touch. When drawn, the string hums wi
 |-------------|--------|
 | **Weak** | Creatures in the radius are Dazzled (-1 to attack rolls) until end of your next turn. No damage. |
 | **Standard** | 2 radiant damage to all creatures in radius. Creatures that fail their save are Blinded until end of your next turn. |
-| **Strong** | 4 radiant damage. Creatures are Blinded (no save) until end of your next turn. Undead take +1 damage tier. |
+| **Strong** | 6 radiant damage. Creatures are Blinded (no save) until end of your next turn. Undead take +1 damage tier. |
 
 ### Spellguard Shield
 
