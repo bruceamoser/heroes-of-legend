@@ -306,7 +306,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
 | **Tactical Insight** | Novice | 1 Mind | At the start of combat | Name one enemy weakness. All allies gain +1 on attacks against that enemy type for the encounter. |
-| **Leverage** | Adept | 2 Mind, 1 Energy | When an ally misses an attack | The ally may reroll the miss. If the reroll hits, it deals +1d6 bonus damage. Once per scene. |
+| **Leverage** | Adept | 2 Mind, 1 Energy | When an ally misses an attack | The ally may reroll the miss. If the reroll hits, it deals +3 bonus damage. Once per scene. |
 | **Perfect Recall** | Master | 3 Mind, 1 Energy | When you need information from a scene you participated in | The DA must tell you the exact words, layout, or sequence of events, to the limit of your own perception at the time. Once per session. |
 
 {{< pagebreak >}}
@@ -318,7 +318,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
 | **Bolstering Prayer** | Novice | 1 Protection | As an action | One ally within 30 ft gains Boon on their next roll. |
-| **Sanctified Ground** | Adept | 2 Protection, 1 Religion | As an action | Consecrate a 15-ft radius for 1 minute. Undead inside take 2d6 radiant damage per round. Allies heal 1 HP at the start of their turn. |
+| **Sanctified Ground** | Adept | 2 Protection, 1 Religion | As an action | Consecrate a 15-ft radius for 1 minute. Undead inside take 6 radiant damage per round. Allies heal 1 HP at the start of their turn. |
 | **Divine Intervention** | Master | 3 Protection, 1 Religion | When an ally drops to 0 HP | The ally instead drops to 1 HP and gains 10 temporary HP. The DA narrates what intervened. Once per session. |
 
 **Leader**
@@ -337,16 +337,16 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
-| **Precise Stab** | Novice | 1 Blades | When you attack a target that hasn't acted yet this combat | Deal +1d6 damage. |
-| **Eviscerate** | Adept | 2 Blades, 1 Archery | When you hit the same target twice in one turn | The second hit automatically deals Strong damage (6d6 per the damage budget). Once per scene. |
-| **Death Mark** | Master | 3 Blades | When you reduce a target to 0 HP | You may immediately make a free attack against another target within reach at +1 damage tier. |
+| **Precise Stab** | Novice | 1 Blades | When you attack a target that hasn't acted yet this combat | Deal +3 damage. |
+| **Eviscerate** | Adept | 2 Blades, 1 Archery | When you hit the same target twice in one turn | The second hit automatically deals Strong damage (12 per the damage budget). Once per scene. |
+| **Death Mark** | Master | 3 Blades, 1 Archery | When you reduce a target to 0 HP | You may immediately make a free attack against another target within reach at +1 damage tier. |
 
 **Shadow**
 
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
-| **Sap** | Novice | 1 Blades | When you attack a target that is unaware of you | Weak damage (2d6), but the target is dazed for 1 round. No roll to resist. |
-| **Shadow Strike** | Adept | 2 Blades, 1 Mind | When you attack from Vanish invisibility | The attack automatically hits at the Strong tier (9d6 per the damage budget). Once per scene. |
+| **Sap** | Novice | 1 Blades | When you attack a target that is unaware of you | Weak damage (2), but the target is dazed for 1 round. No roll to resist. |
+| **Shadow Strike** | Adept | 2 Blades, 1 Mind | When you attack from Vanish invisibility | The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene. |
 | **Ghost** | Master | 3 Blades, 1 Mind | When you Vanish successfully on a Strong stealth result | You may remain invisible until the end of the encounter or until you attack. Your first attack from this extended Vanish deals +1 damage tier. Once per session. |
 
 {{< pagebreak >}}
@@ -379,7 +379,7 @@ The Odd's ~10 abilities are a deliberately chaotic set sampling all four archety
 |---------|------|----------|---------|--------|
 | **Improvised Solution** | Novice | 1 Guile (any) | When you attempt a skill check with a skill you don't have | You roll as if you had Novice (+1) in that skill. Once per scene. |
 | **Wrong Context** | Adept | 2 any (different types) | When an enemy declares an action | You may force the enemy to describe their action differently. If the DA deems your version plausible, the enemy's action has Bane. Once per scene. |
-| **Everything At Once** | Master | 3 any (across 3 different types) | When you take damage | Roll 1d4. 1: you gain +4 Armor for 1 round. 2: you heal 3d6 HP. 3: the attacker takes the damage instead. 4: both you and the attacker take the damage. Once per session. |
+| **Everything At Once** | Master | 3 any (across 3 different types) | When you take damage | Roll 1d4. 1: you gain +4 Armor for 1 round. 2: you heal 10 HP. 3: the attacker takes the damage instead. 4: both you and the attacker take the damage. Once per session. |
 
 {{< pagebreak >}}
 

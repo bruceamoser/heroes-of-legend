@@ -512,7 +512,7 @@ Spells are the most structured. Every spell card answers the same questions in t
 
 **Example (Fireball):**
 
-> **Fireball (Adept).** Disc: 2 Fire, 1 Energy. Range: 100 ft. Duration: Instantaneous. W: 2d6 fire in 10-ft radius. S: 4d6 fire in 15-ft radius, flammable objects ignite. St: 6d6 fire in 20-ft radius, targets near center take +1d6.
+> **Fireball (Adept).** Disc: 2 Fire, 1 Energy. Range: 100 ft. Duration: Instantaneous. W: 6 fire damage in 10-ft radius. S: 9 fire damage in 15-ft radius, flammable objects ignite. St: 12 fire damage in 20-ft radius, targets near center take +3 damage.
 >
 > *This is the spell that ends encounters and starts wars. When you cast Fireball, the battlefield changes. So does your reputation.*
 
@@ -532,7 +532,7 @@ Class abilities are more varied than spells, but they all follow a simpler forma
 
 **Example (Shadow Strike):**
 
-> **Shadow Strike (Adept).** Disc: 2 Blades, 1 Mind. Trigger: When you attack from Vanish invisibility. Effect: The attack automatically hits at the Strong tier (9d6 per the damage budget). Once per scene.
+> **Shadow Strike (Adept).** Disc: 2 Blades, 1 Mind. Trigger: When you attack from Vanish invisibility. Effect: The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene.
 
 ### Ancestry Gift Card
 

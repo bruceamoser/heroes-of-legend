@@ -118,12 +118,12 @@ Every ability, skill, and spell follows a three-tier ladder. The higher you clim
 | Tier | DP Cost (any class) | Discipline Requirement | Level Gate | General Subs OK? |
 |------|---------------------|------------------------|------------|-------------------|
 | **Novice** | 1 DP | 1 specific Discipline | None (Level 1) | Yes (1:1) |
-| **Adept** | 2 DP | 2 Disciplines (may differ in type) | Level 3 | No |
+| **Adept** | 2–3 DP | 2 Disciplines across 2 types (one at 2, one at 1) | Level 3 | No |
 | **Master** | 3-4 DP | 3-4 Disciplines across 2+ types (no single type > 3) | Level 7 | No |
 
 **Novice** is your foundation. One Discipline, one DP, you're in the door. Any class can buy any Novice ability at 1 DP regardless of their favored costs (see @sec-chapter-classes). General Disciplines can stand in for specific ones at this tier, a General covers 1 Fire for Firebolt.
 
-**Adept** requires two Disciplines. They might be two ranks of the same type (2 Fire for Flame Strike) or two different types (2 Fire + 1 Energy for Fireball, 2 Water + 1 Wind for Ice Storm). The point is depth: you've moved past dabbling into real investment. Level 3 is the gate; you've earned enough field experience to handle the real power.
+**Adept** requires two Disciplines across two types, a main type at 2 ranks and a supporting type at 1 rank (e.g. 2 Fire + 1 Energy for Fireball, or 2 Water + 1 Wind for Ice Storm). The point is depth: you've moved past dabbling into real investment. Level 3 is the gate; you've earned enough field experience to handle the real power.
 
 **Master** demands three to four Disciplines across at least two types, and no single type can count for more than 3. A spell requiring 3 Fire + 1 Earth is Master. One requiring 4 Fire alone is not, there's no such thing as a one-trick Master. The ladder enforces breadth at the top. Level 7 is the gate. By the time you're casting Master spells, you've been through enough to know when *not* to use them.
 
@@ -144,9 +144,7 @@ Every damaging spell, ability, and maneuver in *Heroes of Legend* is built on a 
 ::: {.callout-note}
 ## How to Read the Budget
 
-The numbers are damage dice rolled on a hit, always-hit means the question is never *if*, only *how hard*. A Novice Firebolt deals 2d6 on a Weak result, 4d6 on Standard, 6d6 on Strong. An Adept Fireball deals 6d6/9d6/12d6. A Master Volcanic Eruption deals 9d6/15d6/21d6.
-
-Abilities, combat maneuvers, and ancestry gifts all reference this same budget. A Novice class ability that deals damage uses the 2/4/6 line. An Adept Blade maneuver uses 6/9/12. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
+The numbers are flat damage points. A Novice Firebolt deals 2 damage on a Weak result, 4 on Standard, 6 on Strong. An Adept Fireball deals 6/9/12. A Master Volcanic Eruption deals 9/15/21. These are flat numbers — no dice. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
 
 See @sec-chapter-arcane-spells and @sec-chapter-divine-spells for the full spell lists. See @sec-chapter-classes for class abilities keyed to this budget.
 :::

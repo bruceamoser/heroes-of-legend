@@ -154,7 +154,7 @@ Humans are adaptable. Their gifts lean into that versatility, letting them dabbl
 | **Fast Learner** | Novice | Once per session, you may use a skill you don't have at Novice (+1) for a single check. |
 | **Die Hard** | Novice | When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session. |
 | **Jack of All Trades** | Adept | You may purchase one skill at X1 cost regardless of your class's normal multiplier. This applies to one skill, chosen when you buy the gift. |
-| **Second Wind** | Adept | Once per scene, as a maneuver, you may regain 1d6+2 HP. |
+| **Second Wind** | Adept | Once per scene, as a maneuver, you may regain 6 HP. |
 | **Indomitable** | Master | Once per session, when you fail a Fortitude or Reason check, you may succeed instead. Describe how sheer human stubbornness carried you through. |
 
 ### Elf Gifts
@@ -190,5 +190,5 @@ Halflings survive because the universe likes them. Their gifts reflect luck, cha
 | **Naturally Stealthy** | Novice | You have Boon on Stealth checks made to hide behind creatures at least one size larger than you. Which is most of them. |
 | **Halfling Charm** | Novice | Once per scene, when you fail a Persuasion or Deception check, you may reroll it. The universe gives small, cheerful people a second chance. |
 | **Burrow-Sense** | Novice | You always know which way is north and can estimate depth underground (how far beneath the surface you are). |
-| **Second Breakfast** | Adept | Once per day, during a short rest, you may prepare a meal so satisfying that all allies who eat it regain an additional 1d6 HP. This is not magic. This is cooking. |
+| **Second Breakfast** | Adept | Once per day, during a short rest, you may prepare a meal so satisfying that all allies who eat it regain an additional 4 HP. This is not magic. This is cooking. |
 | **Impossible Luck** | Adept | You may use your Lucky trait twice per session instead of once. |
