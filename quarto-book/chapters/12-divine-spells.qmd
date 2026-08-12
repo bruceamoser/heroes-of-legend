@@ -699,11 +699,11 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 
 *Call down the sun. Pillar of Light turns a patch of battlefield into a holy kill zone. Enemies inside burn every round. Allies nearby are healed by its presence. Undead don't just burn, they flee, because standing near a Pillar of Light feels, to them, like standing on the surface of a star. Place it on the enemy formation. Place it between your party and the charging horde. Place it on the altar where the cultists are completing their ritual. The pillar doesn't judge. It just burns.*
 
-### Turn Undead Chain
+### Turn Unholy Chain
 **Disciplines:** Religion
 *The authority of the divine compels the unholy to flee, to bow, or to burn.*
 
-#### Turn Undead (Novice)
+#### Turn Unholy (Novice)
 **Disciplines:** 1 Religion
 **Casting Time:** 1 action
 **Range:** 30 feet
@@ -718,7 +718,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 | Standard (9-14) | Undead within 30 feet must make a Reason check with Bane or be Turned. Turned creatures flee for 1 minute. If they cannot flee, they cower and have Bane on all actions. |
 | Strong (15-18+) | As Standard, but undead of Novice tier automatically fail the check, the power is too much for lesser dead. Additionally, Turned undead take 6 radiant damage when the effect begins, the divine command physically hurts them. |
 
-*The defining spell of the Shepherd. Turn Undead is why the crypt full of skeletons isn't a fight, it's a routing of the enemy before steel is drawn. Present your symbol. Speak the words. Watch the dead run. They know what you represent. They've been running from it since the first grave was dug and the first prayer was spoken over it. You are not their enemy. You are their antithesis.*
+*The defining spell of the Shepherd. Turn Unholy is why the crypt full of skeletons isn't a fight, it's a routing of the enemy before steel is drawn. Present your symbol. Speak the words. Watch the dead run. They know what you represent. They've been running from it since the first grave was dug and the first prayer was spoken over it. You are not their enemy. You are their antithesis.*
 
 #### Banish (Adept)
 **Disciplines:** 2 Religion
@@ -1052,7 +1052,7 @@ Divination is the magic of knowing. It sees what's hidden, identifies what's unk
 | Radiant Beam | Adept | Radiant | 2 Energy | 9 radiant damage in 60-ft line |
 | Pillar of Light | Master | Radiant | 2 Energy, 1 Water | 15 radiant damage in 10-ft radius, persists |
 | | | | | |
-| Turn Undead | Novice | Protection | 1 Religion | Undead flee for 1 minute |
+| Turn Unholy | Novice | Protection | 1 Religion | Undead flee for 1 minute |
 | Banish | Adept | Protection | 2 Religion | Remove extraplanar creature from reality, 1 min |
 | Soul Prison | Master | Protection | 2 Religion, 1 Energy | Trap creature in permanent divine stasis |
 | | | | | |

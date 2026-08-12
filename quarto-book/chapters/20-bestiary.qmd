@@ -109,7 +109,7 @@ HP 5, DR 0. Attributes: Brawn -1, Fortitude 0, Agility 0, Guile 0, Knowledge -1,
 
 **Orc (Challenge 1/2):** HP 10, DR 1 (hide). Greataxe: 3/4/5 slashing. Javelin: 2/3/4 piercing (range 30/120). Relentless: once per day, when reduced to 0 HP, the orc can make a Fortitude save. On a Strong result, it stays at 1 HP. Aggressive: can use a Maneuver to move up to its Speed toward a visible enemy.
 
-**Orc Warchief (Challenge 3):** HP 22, DR 3 (plate). Greataxe: 4/5/7 slashing. Javelin: 3/4/6 piercing (range 30/120). Multiattack: Greataxe twice. Battle Cry (Recharge): all orc allies within 30 ft gain +1 damage tier on their next attack. Relentless: as Orc. Commanding Presence: orc allies within 30 ft are immune to Frightened.
+**Orc Warchief (Challenge 3):** HP 22, DR 3 (plate). Greataxe: 4/5/7 slashing. Javelin: 3/4/6 piercing (range 30/120). Multiattack: Greataxe twice. War Cry (Recharge): all orc allies within 30 ft gain +1 damage tier on their next attack. Relentless: as Orc. Commanding Presence: orc allies within 30 ft are immune to Frightened.
 
 {{< pagebreak >}}
 

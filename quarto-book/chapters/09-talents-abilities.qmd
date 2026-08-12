@@ -26,7 +26,7 @@ Before you start spending DP, know what you're buying. Talents fall into four bu
 |----------|----------------|---------|
 | **Defense** | Staying alive. HP, DR, saves, resistances. | Tough, Iron Will, Unbreakable |
 | **Offense** | Hitting harder. Bonus damage, extra attacks, critical effects. | Weapon Focus, Death Blow, Spell Weaver |
-| **Utility** | Breaking the rules. Extra actions, rerolls, resource recovery. | Lucky, Combat Reflexes, Arcane Reservoir |
+| **Utility** | Breaking the rules. Extra actions, rerolls, resource recovery. | Fortune's Favor, Combat Reflexes, Arcane Reservoir |
 | **Support** | Helping allies. Healing boosts, protection auras, buffs. | Shield Wall, Blessed Touch, Miracle Worker |
 
 You don't need to balance across all four. A Blade stacks Offense and Utility. A Protector stacks Defense and Support. That's how it should be, lean into what your class does.
@@ -65,7 +65,7 @@ Available to all classes. These are the talents any hero can pick up, regardless
 | **Field Medic** | Novice | Support | When you restore HP to an ally (spell, kit, or ability), restore 1 additional HP. You've learned to stanch wounds with whatever is at hand. |
 | **Fleet-Footed** | Novice | Utility | +5 ft Speed. Whether from a lifetime in the wilds or too many close calls in narrow alleys, you move faster than your enemies expect. |
 | **Linguist** | Novice | Utility | *Requires 1 Lore.* You may read and speak one additional language per rank of Lore you possess. Every tongue you learn opens a door that was closed before. |
-| **Lucky** | Novice | Utility | Reroll one natural 1 per session. Fate favors you, or you're just too stubborn to fail. |
+| **Fortune's Favor** | Novice | Utility | Reroll one natural 1 per session. Fate favors you, or you're just too stubborn to fail. |
 | **Shield Bearer** | Novice | Defense | +1 DR while wielding a shield. This is training, not enchantment, it stacks with magic shield bonuses. |
 | **Skill Focus** | Novice | Utility | +1 to one skill (stacks with tier bonus). Pick your specialty and own it. |
 | **Tough** | Novice | Defense | +2 max HP. You can take a hit that would drop anyone else. |
@@ -92,7 +92,7 @@ Kael is a dwarf Blade at Level 4. He's got 6 DP to spend and he wants to become 
 
 **Option B, Offense:** Buy **Weapon Focus** (Adept, Blade class talent). +1 damage with blades. Cost: 4 DP. Remaining: 2 DP. He could grab **Alert** (Novice) for +2 initiative, going first means one less attack coming his way.
 
-**Option C, Utility:** Buy **Combat Reflexes** (Adept) for 4 DP. A second reaction per round means two opportunity attacks or two Shield Blocks. Then **Lucky** (Novice) for 2 DP, reroll one natural 1 per session.
+**Option C, Utility:** Buy **Combat Reflexes** (Adept) for 4 DP. A second reaction per round means two opportunity attacks or two Shield Blocks. Then **Fortune's Favor** (Novice) for 2 DP, reroll one natural 1 per session.
 
 He goes with Option B. The +1 damage from Weapon Focus applies every single attack, forever. Combined with Alert, he's hitting harder *and* sooner. At the table, that +1 from Weapon Focus turns a Weak (2 damage) into what would've been a borderline Standard (3 damage), and over a whole session, those extra points add up.
 
@@ -145,7 +145,7 @@ Abilities (including spells) follow the same Novice → Adept → Master chain s
 
 New players see the talent list and want it all. Here's the hard truth: a hero with twelve Novice talents spread across four categories is worse than a hero with three focused Adept talents that reinforce each other.
 
-Pick a direction. If you're building a damage-dealer, stack Offense. Weapon Focus + Death Blow + Lucky (to fish for crits). If you're the party's shield, stack Defense. Tough + Iron Will + Unbreakable. The DP economy rewards focus. A scattered build is a weak build.
+Pick a direction. If you're building a damage-dealer, stack Offense. Weapon Focus + Death Blow + Fortune's Favor (to fish for crits). If you're the party's shield, stack Defense. Tough + Iron Will + Unbreakable. The DP economy rewards focus. A scattered build is a weak build.
 
-That said, one Utility talent is almost always worth it. **Lucky** (2 DP) has saved more heroes than any other single purchase. **Combat Reflexes** (4 DP) doubles your reactions. **Skill Focus** (2 DP) can turn a dabbler into a specialist. Grab one, then get back to your core build.
+That said, one Utility talent is almost always worth it. **Fortune's Favor** (2 DP) has saved more heroes than any other single purchase. **Combat Reflexes** (4 DP) doubles your reactions. **Skill Focus** (2 DP) can turn a dabbler into a specialist. Grab one, then get back to your core build.
 :::

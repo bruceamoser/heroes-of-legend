@@ -91,7 +91,7 @@ Leather gloves crackling with trapped lightning. Your fingers leave faint arcs o
 
 **Always On:** Unarmed attacks deal lightning damage instead of physical.
 
-**Activated, Call Lightning (Action, once per encounter):** You point at a creature within 60 ft. A bolt of lightning descends from above.
+**Activated, Storm Bolt (Action, once per encounter):** You point at a creature within 60 ft. A bolt of lightning descends from above.
 
 | Success Tier | Effect |
 |-------------|--------|
@@ -229,7 +229,7 @@ A dagger with a blade so dark it seems to absorb light. When you hold it, your o
 
 **Always On:** +1 damage to all tiers. Attacks with Shadow Thorn ignore 1 point of DR from non-magical armor.
 
-**Activated, Shadow Step (Maneuver, once per encounter):** You throw the dagger at a shadow within 60 ft and step through. You vanish from your position and reappear where the dagger lands.
+**Activated, Dagger Step (Maneuver, once per encounter):** You throw the dagger at a shadow within 60 ft and step through. You vanish from your position and reappear where the dagger lands.
 
 | Success Tier | Effect |
 |-------------|--------|
