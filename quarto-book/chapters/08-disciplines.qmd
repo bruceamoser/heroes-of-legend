@@ -191,7 +191,13 @@ The numbers are flat damage points. A Novice Firebolt deals 2 damage on a Weak r
 
 See @sec-chapter-arcane-spells and @sec-chapter-divine-spells for the full spell lists. See @sec-chapter-classes for class abilities keyed to this budget.
 
-Weapons follow their own flat damage curve (see the Equipment chapter) — daggers 1/2/3 up to greatswords 3/5/8. This budget table governs abilities, spells, talents, and gifts; the weapon curve is the baseline for armed attacks.
+Every damaging card states its expression in its damage line as either **Flat** or **Attribute-Scaled.**
+
+**Flat** damage uses the budget row exactly as listed (Novice 2/4/6, Adept 6/9/12, Master 9/15/21). Arrows, missile ammunition, thrown weapons, most spell chains, and all monsters use flat damage — no attribute is added.
+
+**Attribute-Scaled** damage adds a keyed attribute to a base value, minimum 1 damage. For spells and abilities, the base is budget − 3 (Novice 1/2/3, Adept 3/6/9, Master 6/12/18), plus the card's stated attribute (e.g. "1/2/3 + Knowledge"). Melee weapons use their listed damage values and add Brawn (or the attack attribute — features like Swift Blade may substitute Agility). Missile weapons and ammunition are flat.
+
+Weapons follow their own damage curve (see the Equipment chapter): daggers 1/2/3 up to greatswords 3/5/8, plus Brawn for melee weapons.
 :::
 
 {{< pagebreak >}}
