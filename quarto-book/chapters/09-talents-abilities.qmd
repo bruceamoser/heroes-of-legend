@@ -10,142 +10,566 @@
 
 {{< pagebreak >}}
 
-Listen up. Talents are what you *are*. Abilities are what you *do*. One's always on, the other you have to activate. Both cost Development Points. Both define your hero. Don't confuse them.
+Talents are passive. They change your numbers or grant a standing benefit, and they are always on. Abilities are active. Spells, weapon maneuvers, and class powers must be activated to use. Both use the card format below.
 
-Talents are passive. They modify your numbers, bend the rules in your favor, or grant you something you didn't have before. You buy them once and they just *work*, no activation, no maneuver cost, no "is it my turn yet?" They're the reason the Protector takes one more hit than everyone else and the Blade's crits leave a smoking crater.
+Every card lists its Disciplines, Action, Range, and Keywords. The Novice effect appears as Weak, Standard, and Strong outcomes. Adept and Master additions follow. A card costs DP by tier: Novice 2 DP, Adept 4 DP, Master 8 DP. See @sec-chapter-disciplines for tier, Discipline, and cost rules. See @sec-chapter-magic-system for casting rules.
 
-Abilities are active. Spells, combat techniques, signature class powers, anything you have to *decide* to use. You spend your Action or Maneuver, the ability fires, something happens. Abilities follow the same Novice → Adept → Master chain as everything else in this game. See @sec-chapter-magic-system for spell chains specifically.
-
-{{< pagebreak >}}
-
-## Talent Categories
-
-Before you start spending DP, know what you're buying. Talents fall into four buckets. Each one answers a different question about your hero.
-
-| Category | What It Governs | Example |
-|----------|----------------|---------|
-| **Defense** | Staying alive. HP, DR, saves, resistances. | Tough, Iron Will, Unbreakable |
-| **Offense** | Hitting harder. Bonus damage, extra attacks, critical effects. | Weapon Focus, Death Blow, Spell Weaver |
-| **Utility** | Breaking the rules. Extra actions, rerolls, resource recovery. | Fortune's Favor, Combat Reflexes, Arcane Reservoir |
-| **Support** | Helping allies. Healing boosts, protection auras, buffs. | Shield Wall, Blessed Touch, Miracle Worker |
-
-You don't need to balance across all four. A Blade stacks Offense and Utility. A Protector stacks Defense and Support. That's how it should be, lean into what your class does.
+Bonuses from different talents stack. The same talent cannot be taken more than once.
 
 {{< pagebreak >}}
 
-## DP Costs
+## Talents
 
-| Tier | DP Cost | Description |
-|------|---------|-------------|
-| **Novice** | 2 DP | Basic competency |
-| **Adept** | 4 DP | Advanced mastery (requires Novice) |
-| **Master** | 8 DP | Legendary expertise |
+The talents below are general. Any class may take any of them.
 
-::: {.callout-note}
-## Talent Stacking: What Does and Doesn't Combine
+### Fortune's Favor (Talent)
 
-Bonuses from **different-named talents** always stack. Tough (+2 HP) plus Iron Will (+2 to fear/charm saves), no conflict, both apply.
+**Disciplines:** None · **Action:** Reaction · **Range:** Self · **Keywords:** Reroll
 
-Bonuses from the **same talent taken multiple times** do *not* stack unless the talent explicitly says so. You can't buy Tough three times for +6 HP. One and done.
+**Weak:** Once per session, reroll one natural 1.
 
-Bonuses from a talent **plus a skill or item** stack freely. Skill Focus (+1 to Stealth) stacks with your Stealth skill bonus (+1/+2/+3) and with any magic item bonus. The game assumes you'll stack. Build accordingly.
-:::
+**Standard:** Once per session, reroll one natural 1 or 2.
+
+**Strong:** Once per session, reroll one natural 1, 2, or 3.
+
+**Adept:** Once per scene, reroll one natural 1 or 2.
+
+**Master:** Once per scene, reroll any one die.
+
+### Combat Reflexes (Talent)
+
+**Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Reaction
+
+**Weak:** You gain one extra Reaction per round.
+
+**Standard:** You gain one extra Reaction per round.
+
+**Strong:** You gain one extra Reaction per round.
+
+**Adept:** You gain one extra Reaction per round and +1 Initiative.
+
+**Master:** You gain two extra Reactions per round.
+
+### Tough (Talent)
+
+**Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** HP
+
+**Weak:** +2 maximum HP.
+
+**Standard:** +2 maximum HP.
+
+**Strong:** +2 maximum HP.
+
+**Adept:** +4 maximum HP.
+
+**Master:** +6 maximum HP.
+
+### Weapon Focus (Talent)
+
+**Disciplines:** 1 chosen weapon Discipline · **Action:** Passive · **Range:** Self · **Keywords:** Damage
+
+**Weak:** +1 damage with the chosen weapon Discipline.
+
+**Standard:** +1 damage with the chosen weapon Discipline.
+
+**Strong:** +1 damage with the chosen weapon Discipline.
+
+**Adept:** +2 damage with the chosen weapon Discipline.
+
+**Master:** +3 damage with the chosen weapon Discipline.
+
+### Skill Focus (Talent)
+
+**Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Skill
+
+**Weak:** +1 to one skill you choose.
+
+**Standard:** +1 to one skill you choose.
+
+**Strong:** +1 to one skill you choose.
+
+**Adept:** +2 to one skill you choose.
+
+**Master:** +3 to one skill you choose.
+
+### Iron Will (Talent)
+
+**Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Save
+
+**Weak:** +1 to saves against fear and charm.
+
+**Standard:** +1 to saves against fear and charm.
+
+**Strong:** +1 to saves against fear and charm.
+
+**Adept:** +2 to saves against fear and charm.
+
+**Master:** +3 to saves against fear and charm.
+
+### Bulwark (Talent)
+
+**Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** DR, Defend
+
+**Weak:** When you take the Defend maneuver, one adjacent ally gains +1 DR until the start of your next turn.
+
+**Standard:** When you take the Defend maneuver, adjacent allies gain +1 DR until the start of your next turn.
+
+**Strong:** When you take the Defend maneuver, adjacent allies gain +2 DR until the start of your next turn.
+
+**Adept:** When you take the Defend maneuver, allies within 10 ft gain +2 DR until the start of your next turn.
+
+**Master:** When you take the Defend maneuver, allies within 10 ft gain +3 DR until the start of your next turn.
+
+### Refuse to Fall (Talent)
+
+**Disciplines:** None · **Action:** Reaction · **Range:** Self · **Keywords:** HP
+
+**Weak:** When you drop to 0 HP, drop to 1 HP instead. Once per session.
+
+**Standard:** When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to your level. Once per session.
+
+**Strong:** When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to twice your level. Once per session.
+
+**Adept:** You may use this twice per session.
+
+**Master:** You may use this once per scene.
+
+### Death Blow (Talent)
+
+**Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Critical, Damage
+
+**Weak:** On a Critical, add +2 damage.
+
+**Standard:** On a Critical, add +4 damage.
+
+**Strong:** On a Critical, add +6 damage.
+
+**Adept:** On a Critical, add +9 damage.
+
+**Master:** On a Critical, deal maximum Strong damage and roll the critical bonus twice.
+
+### Arcane Reservoir (Talent)
+
+**Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Spell
+
+**Weak:** Once per session, cast a Novice spell you know a second time in the same turn.
+
+**Standard:** Once per session, cast an Adept spell you know a second time in the same turn.
+
+**Strong:** Once per session, cast a Master spell you know a second time in the same turn.
+
+**Adept:** Once per scene, cast a Novice or Adept spell you know a second time in the same turn.
+
+**Master:** Once per scene, cast a Master spell you know a second time in the same turn.
+
+### Miracle Worker (Talent)
+
+**Disciplines:** None · **Action:** Reaction · **Range:** 30 ft · **Keywords:** Healing
+
+**Weak:** When an ally within 30 ft drops to 0 HP, they drop to 1 HP instead. Once per session.
+
+**Standard:** When an ally within 30 ft drops to 0 HP, they drop to 1 HP instead. Once per session.
+
+**Strong:** When an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP. Once per session.
+
+**Adept:** Once per scene, when an ally within 30 ft drops to 0 HP, they drop to 1 HP instead.
+
+**Master:** Once per scene, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP.
+
+### Arcane Sensitivity (Talent)
+
+**Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Spell
+
+**Weak:** +1 to spell rolls for one Discipline you choose.
+
+**Standard:** +1 to spell rolls for one Discipline you choose.
+
+**Strong:** +1 to spell rolls for one Discipline you choose.
+
+**Adept:** +2 to spell rolls for one Discipline you choose.
+
+**Master:** +3 to spell rolls for one Discipline you choose.
+
+### Spell Reservoir (Talent)
+
+**Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Spell
+
+**Weak:** Once per scene, cast a Novice spell you know a second time.
+
+**Standard:** Once per scene, cast a Novice spell you know a second time.
+
+**Strong:** Once per scene, cast an Adept spell you know a second time.
+
+**Adept:** Once per scene, cast a Novice or Adept spell you know a second time.
+
+**Master:** Once per scene, cast any spell you know a second time.
+
+### Spell Storm (Talent)
+
+**Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Spell, Area
+
+**Weak:** Once per session, a single-target spell you cast also hits one other target within 10 ft.
+
+**Standard:** Once per session, a single-target spell you cast hits all targets you choose within 15 ft.
+
+**Strong:** Once per session, a single-target spell you cast hits all targets you choose within 15 ft.
+
+**Adept:** Once per scene, a single-target spell you cast hits all targets you choose within 15 ft.
+
+**Master:** Once per scene, a single-target spell you cast hits all targets you choose within 20 ft.
+
+### Linguist (Talent)
+
+**Disciplines:** 1 Lore · **Action:** Passive · **Range:** Self · **Keywords:** Language
+
+**Weak:** You read and speak one additional language.
+
+**Standard:** You read and speak one additional language.
+
+**Strong:** You read and speak one additional language.
+
+**Adept:** You read and speak one additional language per rank of Lore you have.
+
+**Master:** You read, write, and speak one additional language per rank of Lore you have.
+
+### Battlefield Assessment (Talent)
+
+**Disciplines:** 1 Tactics · **Action:** Action · **Range:** Sight · **Keywords:** Tactics
+
+**Weak:** Once per scene, learn whether one enemy in sight is weaker, equal, or stronger than you.
+
+**Standard:** Once per scene, learn the relative strength of every enemy in sight.
+
+**Strong:** Once per scene, learn the relative strength of every enemy in sight and their highest attribute.
+
+**Adept:** Once per scene, learn the relative strength of every enemy in sight and their highest attribute.
+
+**Master:** Once per scene, learn the relative strength of every enemy in sight, their highest attribute, and one damage resistance or vulnerability.
+
+### Quick Study (Talent)
+
+**Disciplines:** None · **Action:** Free · **Range:** Self · **Keywords:** Skill
+
+**Weak:** Once per session, use a skill you do not have at Novice (+1) for one check.
+
+**Standard:** Once per session, use a skill you do not have at Novice (+1) for one check.
+
+**Strong:** Once per session, use a skill you do not have at Novice (+1) for one check.
+
+**Adept:** Once per scene, use a skill you do not have at Novice (+1) for one check.
+
+**Master:** Once per scene, use a skill you do not have at Adept (+2) for one check.
+
+### Chaotic Insight (Talent)
+
+**Disciplines:** None · **Action:** Reaction · **Range:** Self · **Keywords:** Reroll
+
+**Weak:** Once per session, reroll any roll you just made, using fresh dice.
+
+**Standard:** Once per session, reroll any roll you just made, using fresh dice.
+
+**Strong:** Once per session, reroll any roll you just made, using fresh dice.
+
+**Adept:** Once per scene, reroll any roll you just made, using fresh dice.
+
+**Master:** Once per scene, reroll any roll you just made, using fresh dice with a Boon.
+
+### Rally the Troops (Talent)
+
+**Disciplines:** None · **Action:** Maneuver · **Range:** 30 ft · **Keywords:** Frightened
+
+**Weak:** Once per session, one ally within 30 ft removes one Frightened condition.
+
+**Standard:** Once per session, all allies within 30 ft remove one Frightened condition.
+
+**Strong:** Once per session, all allies within 30 ft remove one Frightened condition and gain a Boon on their next roll.
+
+**Adept:** Once per scene, all allies within 30 ft remove one Frightened condition.
+
+**Master:** Once per scene, all allies within 30 ft remove one Frightened or Dazed condition.
+
+### Dangerous Gambit (Talent)
+
+**Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Damage
+
+**Weak:** Once per scene, when you roll 16 or higher, increase the damage tier of the result by one.
+
+**Standard:** Once per scene, when you roll 15 or higher, increase the damage tier of the result by one.
+
+**Strong:** Once per scene, when you roll 14 or higher, increase the damage tier of the result by one.
+
+**Adept:** Once per scene, when you roll 14 or higher, increase the damage tier of the result by one.
+
+**Master:** Twice per scene, when you roll 14 or higher, increase the damage tier of the result by one.
+
+### Trap Sense (Talent)
+
+**Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Boon, Traps
+
+**Weak:** Boon on checks to detect traps.
+
+**Standard:** Boon on checks to detect traps.
+
+**Strong:** Boon on checks to detect and disarm traps.
+
+**Adept:** Boon on checks to detect and disarm traps.
+
+**Master:** Boon on checks to detect and disarm traps, and you cannot be surprised by a trap.
 
 {{< pagebreak >}}
 
-## General Talents
+## Weapon Maneuvers
 
-Available to all classes. These are the talents any hero can pick up, regardless of calling. They're bread-and-butter, not flashy, but reliable.
+Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each is gated by weapon Disciplines. See @sec-chapter-combat for Action, Maneuver, and Reaction rules.
 
-| Talent | Tier | Category | Effect |
-|--------|------|----------|--------|
-| **Alert** | Novice | Utility | +2 initiative. You react before others even register the threat. |
-| **Arcane Sensitivity** | Novice | Utility | +1 to spell attack rolls for one Discipline of your choice. You sense the flow of magic before others see it coming. |
-| **Battlefield Assessment** | Novice | Utility | *Requires 1 Tactics.* Once per scene, before rolling initiative, you may learn whether any enemy in sight is weaker, equal, or stronger than you in combat. A heartbeat of observation tells you everything you need to know about whether to fight or flee. |
-| **Field Medic** | Novice | Support | When you restore HP to an ally (spell, kit, or ability), restore 1 additional HP. You've learned to stanch wounds with whatever is at hand. |
-| **Fleet-Footed** | Novice | Utility | +5 ft Speed. Whether from a lifetime in the wilds or too many close calls in narrow alleys, you move faster than your enemies expect. |
-| **Linguist** | Novice | Utility | *Requires 1 Lore.* You may read and speak one additional language per rank of Lore you possess. Every tongue you learn opens a door that was closed before. |
-| **Fortune's Favor** | Novice | Utility | Reroll one natural 1 per session. Fate favors you, or you're just too stubborn to fail. |
-| **Shield Bearer** | Novice | Defense | +1 DR while wielding a shield. This is training, not enchantment, it stacks with magic shield bonuses. |
-| **Skill Focus** | Novice | Utility | +1 to one skill (stacks with tier bonus). Pick your specialty and own it. |
-| **Tough** | Novice | Defense | +2 max HP. You can take a hit that would drop anyone else. |
-| **Weapon Training** | Novice | Offense | +1 damage with one specific weapon (e.g., longsword, greataxe, shortbow). Narrower than Weapon Focus but available to any class. |
-| **Brutal Critical** | Adept | Offense | On a Strong attack result, add +2 damage. Your strikes find gaps in armor that others miss. |
-| **Bulwark** | Adept | Defense | *Requires Shield Bearer.* When you take the Defend action, adjacent allies gain +1 DR until the start of your next turn. You don't just protect yourself, you hold the line. |
-| **Combat Reflexes** | Adept | Utility | One extra reaction per round. While others hesitate, you act. |
-| **Discipline Collector** | Adept | Utility | Gain one additional Discipline rank of your choice, paid at your class's cost for that discipline. This cannot raise a discipline above 3 ranks, and it does not count as a progression pick. Your training has been broader than most. |
-| **Dungeon Delver** | Adept | Utility | +2 to all checks to detect traps, secret doors, and hidden mechanisms. You've learned that dungeons punish the unobservant. |
-| **Inspiring Presence** | Adept | Support | Once per encounter, as a Maneuver, one ally within 30 ft can immediately reroll a failed saving throw. They take the new result. Your confidence is contagious. |
-| **Iron Will** | Adept | Defense | +2 to all saves vs fear and charm. Your mind is a fortress. |
-| **Spell Reservoir** | Adept | Utility | *Requires Arcane Sensitivity.* Once per scene, you may cast any one Novice or Adept spell you know a second time. Magic flows through you more freely than through others. |
-| **Refuse to Fall** | Master | Defense | Once per session, when you would drop to 0 HP, drop to 1 HP instead and gain temporary HP equal to your level. You refuse to fall. |
-| **Legendary Resilience** | Master | Defense | Once per session, when you fail a saving throw, you may choose to succeed instead. Your will reshapes reality in the moment it matters most. |
-| **Spell Storm** | Master | Offense | Once per session, when you cast a spell that targets a single creature, it instead targets all creatures of your choice within a 15-ft radius of the original target. You don't cast spells, you unleash them. |
+### Riposte (Weapon Maneuver)
 
-### Worked Example: Building a Talent Chain
+**Disciplines:** 2 Blades · **Action:** Reaction · **Range:** Melee · **Keywords:** Counterattack
 
-Kael is a dwarf Blade at Level 4. He's got 6 DP to spend and he wants to become harder to kill without sacrificing his damage output. Here's his thought process.
+**Weak:** When an enemy deals Weak damage to you, counterattack for 3.
 
-**Current build:** Brawn +1, Agility +2. Long Blades (Adept). Stealth (Adept). He's got **Tough** (Novice) already, 14 HP instead of the base 10: 10 base + Sturdy 2 + Tough 2.
+**Standard:** When an enemy deals Weak damage to you, counterattack for 6.
 
-**Option A, Defense stack:** Buy Tough → Adept. That's not how Tough works, it doesn't have an Adept version. It's a one-tier talent. Cross that off.
+**Strong:** When an enemy deals Weak damage to you, counterattack for 9.
 
-**Option B, Offense:** Buy **Weapon Focus** (Adept, Blade class talent). +1 damage with blades. Cost: 4 DP. Remaining: 2 DP. He could grab **Alert** (Novice) for +2 initiative, going first means one less attack coming his way.
+**Adept:** Counterattack for 6/9/12.
 
-**Option C, Utility:** Buy **Combat Reflexes** (Adept) for 4 DP. A second reaction per round means two opportunity attacks or two Shield Blocks. Then **Fortune's Favor** (Novice) for 2 DP, reroll one natural 1 per session.
+**Master:** Counterattack for 9/15/21.
 
-He goes with Option B. The +1 damage from Weapon Focus applies every single attack, forever. Combined with Alert, he's hitting harder *and* sooner. At the table, that +1 from Weapon Focus turns a Weak (2 damage) into what would've been a borderline Standard (3 damage), and over a whole session, those extra points add up.
+### Power Strike (Weapon Maneuver)
 
-{{< pagebreak >}}
+**Disciplines:** 2 Blades · **Action:** Action · **Range:** Melee · **Keywords:** Damage
 
-## Class Talents
+**Weak:** One weapon attack gains +2 damage.
 
-Each class has 2-3 exclusive talents. These define your class identity mechanically, you can't get them any other way.
+**Standard:** One weapon attack gains +4 damage.
 
-**Protector:** **Shield Wall** (Adept), adjacent allies gain +1 DR. **Unbreakable** (Master), once per session, ignore all damage from one attack.
+**Strong:** One weapon attack gains +6 damage.
 
-**Blade:** **Weapon Focus** (Adept), +1 damage with chosen weapon category. **Death Blow** (Master), on Critical, deal maximum Strong damage + roll critical bonus twice.
+**Adept:** One weapon attack gains +6/9/12 damage.
 
-**Arcanist:** **Spell Weaver** (Adept), maintain two concentration spells. **Arcane Reservoir** (Master), once per session, cast a Master spell twice.
+**Master:** One weapon attack gains +9/15/21 damage.
 
-**Shepherd:** **Blessed Touch** (Adept), healing spells always use Standard effect minimum. **Miracle Worker** (Master), once per session, prevent an ally's death.
+### Cyclone (Weapon Maneuver)
 
-**Intellect:** **Quick Study** (Novice), once per session, gain Novice rank in a skill you don't have for one check. (Fast Learner, the Human gift, is this same trick; see @sec-chapter-ancestries.)
+**Disciplines:** 3 Blades · **Action:** Action · **Range:** Melee · **Keywords:** Area
 
-**Odd:** The Odd may take class talents from any class (sampling all four archetypes), but pays the listed cost and may not stack duplicates. **Chaotic Insight** (Novice), once per session, reroll any roll; reroll the entire 3d6, and the reroll uses fresh dice.
+**Weak:** Hit all adjacent enemies for weapon damage -2.
 
-**Leader:** **Rally the Troops** (Novice), once per session, all allies within 30 ft remove one Fear effect.
+**Standard:** Hit all adjacent enemies for weapon damage -1.
 
-**Unbalanced:** **Dangerous Gambit** (Novice), once per scene, +1 damage tier on a roll of 16+.
+**Strong:** Hit all adjacent enemies for full weapon damage.
 
-**Shadow:** **Trap Sense** (Novice), Boon on checks to detect traps.
+**Adept:** Hit all adjacent enemies for full weapon damage.
 
-### Worked Example: When Class Talents Combine
+**Master:** Hit all adjacent enemies for full weapon damage; a Strong result knocks them Prone.
 
-Lyra is a halfling Odd, Level 7. She took **Spell Weaver** (Adept) at Level 5, she can now maintain two concentration spells at once. At Level 7, she buys **Arcane Reservoir** (Master) for 8 DP.
+### Cleave (Weapon Maneuver)
 
-Here's how a tough fight plays out:
+**Disciplines:** 2 Axes · **Action:** Action · **Range:** Melee · **Keywords:** Chain
 
-**Round 1:** Lyra casts *Wind Wall* (Adept, concentration), a barrier of howling air that deflects arrows and slows enemies. Then she casts *Haste* (Adept, concentration) on Kael. Two concentration spells, both running, because Spell Weaver says so. Kael now has an extra Action each turn and ranged attacks against the party are at -2.
+**Weak:** Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage.
 
-**Round 3:** The DA drops a Young Dragon on the party. It breathes lightning. The party is scattered, wounded, and the Wind Wall won't stop a dragon's breath.
+**Standard:** Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage.
 
-Lyra activates **Arcane Reservoir.** She casts *Chain Lightning* (Master), her most devastating spell. It fires. Strong result: 21 damage to the dragon, arcing to 6 secondary targets for 21 each. Then Arcane Reservoir kicks in: she casts it *again*. Second roll: Standard, 15 more damage. The dragon has taken 36 damage in one turn from one caster.
+**Strong:** Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage.
 
-That's the power of talent chains. Spell Weaver keeps her battlefield control running. Arcane Reservoir doubles her biggest gun. She spent 12 DP across two levels to build this combo. Every point paid off in that moment.
+**Adept:** The follow-up may chain to a second adjacent enemy if that one also drops.
 
-{{< pagebreak >}}
+**Master:** The follow-up may chain to every adjacent enemy that drops, one after another.
 
-## Ability Chains
+### Pinpoint Strike (Weapon Maneuver)
 
-Abilities (including spells) follow the same Novice → Adept → Master chain structure. See @sec-chapter-magic-system for spell chains. The key distinction: **talents are always on; abilities must be activated.** A Protector with Shield Wall doesn't "activate" it, allies within reach just get +1 DR. A Blade's Precise Stab triggers automatically on a successful attack, no Maneuver required. Know which is which before the dice hit the table.
+**Disciplines:** 1 Blades · **Action:** Action · **Range:** Melee · **Keywords:** Piercing, Damage
 
-::: {.callout-note}
-## The Trap of "Buy Everything"
+**Weak:** One weapon attack gains +2 damage and Piercing 1.
 
-New players see the talent list and want it all. Here's the hard truth: a hero with twelve Novice talents spread across four categories is worse than a hero with three focused Adept talents that reinforce each other.
+**Standard:** One weapon attack gains +4 damage and Piercing 2.
 
-Pick a direction. If you're building a damage-dealer, stack Offense. Weapon Focus + Death Blow + Fortune's Favor (to fish for crits). If you're the party's shield, stack Defense. Tough + Iron Will + Unbreakable. The DP economy rewards focus. A scattered build is a weak build.
+**Strong:** One weapon attack gains +6 damage and Piercing 3.
 
-That said, one Utility talent is almost always worth it. **Fortune's Favor** (2 DP) has saved more heroes than any other single purchase. **Combat Reflexes** (4 DP) doubles your reactions. **Skill Focus** (2 DP) can turn a dabbler into a specialist. Grab one, then get back to your core build.
-:::
+**Adept:** One weapon attack gains +6/9/12 damage and Piercing 1/2/3.
+
+**Master:** One weapon attack gains +9/15/21 damage and Piercing 1/2/3.
+
+### Shield Block (Weapon Maneuver)
+
+**Disciplines:** 2 Armor · **Action:** Reaction · **Range:** Self · **Keywords:** DR
+
+**Weak:** Reduce one attack against you by your shield DR + 2.
+
+**Standard:** Reduce one attack against you by your shield DR + 4.
+
+**Strong:** Reduce one attack against you by your shield DR + 6.
+
+**Adept:** Reduce one attack against you by your shield DR + 6/9/12.
+
+**Master:** Reduce one attack against you by your shield DR + 9; the attacker takes 2 damage.
+
+### Shield Bash (Weapon Maneuver)
+
+**Disciplines:** 2 Armor · **Action:** Maneuver · **Range:** Melee · **Keywords:** Prone, Push
+
+**Weak:** Deal 1 damage and push the target 5 ft.
+
+**Standard:** Deal 2 damage and push the target 5 ft.
+
+**Strong:** Deal 3 damage and push the target 5 ft; the target is Prone.
+
+**Adept:** Deal 2/4/6 damage and push the target 5 ft; a Strong result Prone.
+
+**Master:** Deal 3/6/9 damage and push the target 5 ft; a Strong result Prone and the target loses its Maneuver.
+
+### Parry (Weapon Maneuver)
+
+**Disciplines:** 2 Blades · **Action:** Reaction · **Range:** Self · **Keywords:** DR, Counterattack
+
+**Weak:** +2 DR against one attack.
+
+**Standard:** +4 DR against one attack.
+
+**Strong:** +6 DR against one attack and counterattack for 2 damage.
+
+**Adept:** +6/9/12 DR against one attack; a Strong result counterattack for 2.
+
+**Master:** +9/15/21 DR against one attack; a Strong result counterattack for 4.
+
+### Disarm (Weapon Maneuver)
+
+**Disciplines:** 2 Blades · **Action:** Maneuver · **Range:** Melee · **Keywords:** Bane
+
+**Weak:** The target keeps its grip.
+
+**Standard:** The target's next attack with that weapon is at Bane.
+
+**Strong:** The target drops the weapon.
+
+**Adept:** The target's next two attacks with that weapon are at Bane; a Strong result drops the weapon.
+
+**Master:** The target's next two attacks with that weapon are at Bane; a Strong result drops the weapon 10 ft away.
+
+### Trip (Weapon Maneuver)
+
+**Disciplines:** 2 Polearms · **Action:** Maneuver · **Range:** Melee · **Keywords:** Prone
+
+**Weak:** The target is Prone.
+
+**Standard:** The target is Prone and loses its Maneuver.
+
+**Strong:** The target is Prone and loses its Action.
+
+**Adept:** On Strong, the target is Prone and loses its Action and Maneuver.
+
+**Master:** On Standard, the target is Prone and loses its Action; on Strong, the target is Prone and loses its Action and Maneuver.
+
+### Charge (Weapon Maneuver)
+
+**Disciplines:** 2 Heavy Weapon · **Action:** Action · **Range:** Melee · **Keywords:** Movement, Damage
+
+**Weak:** Move up to your Speed and make one attack with +2 damage.
+
+**Standard:** Move up to your Speed and make one attack with +4 damage.
+
+**Strong:** Move up to your Speed and make one attack with +6 damage.
+
+**Adept:** Move up to your Speed and make one attack with +6/9/12 damage.
+
+**Master:** Move up to your Speed and make one attack with +9/15/21 damage.
+
+### Brace (Weapon Maneuver)
+
+**Disciplines:** 2 Polearms · **Action:** Reaction · **Range:** Self · **Keywords:** DR
+
+**Weak:** +2 DR against a charge; the attacker takes 3 damage.
+
+**Standard:** +2 DR against a charge; the attacker takes 6 damage.
+
+**Strong:** +2 DR against a charge; the attacker takes 9 damage.
+
+**Adept:** +2 DR against a charge; the attacker takes 6/9/12 damage.
+
+**Master:** +2 DR against a charge; the attacker takes 9/15/21 damage.
+
+### Dual Strike (Weapon Maneuver)
+
+**Disciplines:** 1 Blades · **Action:** Action · **Range:** Melee · **Keywords:** Two attacks
+
+**Weak:** Two attacks, each dealing 2 damage (4 total).
+
+**Standard:** Two attacks, each dealing 3 damage (6 total).
+
+**Strong:** Two attacks, each dealing 4 damage (8 total).
+
+**Adept:** Two attacks for 6/9/12 damage total.
+
+**Master:** Two attacks for 9/15/21 damage total.
+
+### Crushing Blow (Weapon Maneuver)
+
+**Disciplines:** 2 Heavy Weapon · **Action:** Action · **Range:** Melee · **Keywords:** Damage, Prone
+
+**Weak:** One weapon attack gains +2 damage.
+
+**Standard:** One weapon attack gains +4 damage.
+
+**Strong:** One weapon attack gains +6 damage; the target is Prone.
+
+**Adept:** One weapon attack gains +6/9/12 damage; a Strong result Prone.
+
+**Master:** One weapon attack gains +9/15/21 damage; a Strong result Prone.
+
+### Executioner's Cut (Weapon Maneuver)
+
+**Disciplines:** 2 Axes · **Action:** Action · **Range:** Melee · **Keywords:** Damage, Wounded
+
+**Weak:** +3 damage against a wounded target.
+
+**Standard:** +3 damage against a wounded target.
+
+**Strong:** +3 damage against a wounded target.
+
+**Adept:** +6 damage against a wounded target.
+
+**Master:** +9 damage against a wounded target.
+
+### Throw (Weapon Maneuver)
+
+**Disciplines:** 1 Archery · **Action:** Action · **Range:** 30 ft · **Keywords:** Ranged
+
+**Weak:** Throw a weapon up to 30 ft at full damage, +1.
+
+**Standard:** Throw a weapon up to 30 ft at full damage, +2.
+
+**Strong:** Throw a weapon up to 30 ft at full damage, +3.
+
+**Adept:** Throw a weapon up to 60 ft at full damage, +1/+2/+3.
+
+**Master:** Throw a weapon up to 90 ft at full damage, +1/+2/+3.
+
+### Overrun (Weapon Maneuver)
+
+**Disciplines:** 2 Heavy Weapon · **Action:** Action · **Range:** Melee · **Keywords:** Movement, Prone
+
+**Weak:** Move through one enemy's space.
+
+**Standard:** Move through one enemy's space.
+
+**Strong:** Move through one enemy's space; it falls Prone.
+
+**Adept:** Move through one enemy's space; on Standard or Strong, it falls Prone.
+
+**Master:** Move through up to two enemies' spaces; on Standard or Strong, they fall Prone.
+
+### Renewal (Weapon Maneuver)
+
+**Disciplines:** 1 Protection · **Action:** Maneuver, once per scene · **Range:** Self · **Keywords:** Healing
+
+**Weak:** Regain 2 HP.
+
+**Standard:** Regain 4 HP.
+
+**Strong:** Regain 6 HP.
+
+**Adept:** Regain 6/9/12 HP.
+
+**Master:** Regain 9/15/21 HP.
