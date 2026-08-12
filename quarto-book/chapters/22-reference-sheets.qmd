@@ -6,7 +6,7 @@
 
 ![Illo 31: Reference Sheets](../assets/svg/placeholder-section.svg){width="60%"}
 
-*Illustration 31 — Reference sheets chapter placeholder. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
+*Illustration 31: Reference sheets chapter placeholder. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
 
 {{< pagebreak >}}
 
@@ -212,7 +212,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | Level | DP Gained | Milestones |
 |-------|-----------|------------|
 | 1 | 4 DP | Class, signature ability |
-| 2 | 3 DP | — |
+| 2 | 3 DP | |
 | 3 | 3 DP | Adept abilities unlock. +1 Discipline rank. |
 | 4 | 3 DP | +1 Attribute (max +2) |
 | 5 | 4 DP | Class feature |
@@ -244,7 +244,7 @@ Disciplines cost different amounts depending on your class's cost structure for 
 
 | Structure | Rank 1 | Rank 2 | Rank 3 | Meaning |
 |-----------|--------|--------|--------|---------|
-| **Home** | 1 DP | 2 DP | 4 DP | Favored — core to the class |
+| **Home** | 1 DP | 2 DP | 4 DP | Favored: core to the class |
 | **Adjacent** | 2 DP | 4 DP | 8 DP | Related but not core |
 | **Foreign** | 3 DP | 6 DP | 12 DP | Unrelated to the class |
 | **Opposed** | 4 DP | 8 DP | 16 DP | Antithetical to the class |
@@ -282,11 +282,11 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 
 | Armor | DR | Stealth | Disc Req |
 |-------|-----|---------|----------|
-| Padded | 1 | — | — |
-| Leather | 2 | — | — |
-| Studded Leather | 2 | — | 1 Armor |
+| Padded | 1 | | |
+| Leather | 2 | | |
+| Studded Leather | 2 | | 1 Armor |
 | Chain Shirt | 3 | Bane | 1 Armor |
-| Breastplate | 4 | — | 2 Armor |
+| Breastplate | 4 | | 2 Armor |
 | Half Plate | 4 | Bane | 2 Armor |
 | Chain Mail | 5 | Bane | 2 Armor |
 | Plate | 6 | Bane | 3 Armor |

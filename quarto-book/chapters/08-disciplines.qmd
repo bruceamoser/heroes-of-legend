@@ -4,7 +4,7 @@
 #label("sec-chapter-disciplines")
 ```
 
-<!-- Rationale: Chapter opener at 80% width — a shepherd tending magical creatures in a peaceful glade, representing the discipline of care and guidance. -->
+<!-- Rationale: Chapter opener at 80% width: a shepherd tending magical creatures in a peaceful glade, representing the discipline of care and guidance. -->
 ![Placeholder: A shepherd tending to magical creatures in a peaceful glade, representing the discipline of care and guidance.](../assets/images/placeholder-ch08-disciplines.png){width=80%}
 
 
@@ -22,7 +22,7 @@ A Discipline represents a domain of expertise or power your hero has internalize
 
 **Example:** A warrior with 3 Blade Disciplines has spent years mastering swords, every angle, every grip, every weakness in every guard. A mage with 3 Fire Disciplines doesn't just cast flames, they *understand* flame, the way a shipwright understands wood. A ranger with 2 Animal Disciplines has bonded with the wild in ways city-folk will never comprehend.
 
-You don't roll Disciplines. You *collect* them. They're permanent markers on your character sheet that say: "I've earned this."
+You *collect* them. They're permanent markers on your character sheet that say: "I've earned this."
 
 {{< pagebreak >}}
 
@@ -62,7 +62,7 @@ Twenty-three Disciplines. Nine categories. Your hero's path through them defines
 
 ### Starting Disciplines
 
-Your starting Disciplines come from your ancestry (1), your culture (2 — or 1 for free-choice cultures), and your class (see the Class Disciplines table below).
+Your starting Disciplines come from your ancestry (1), your culture (2, or 1 for free-choice cultures), and your class (see the Class Disciplines table below).
 
 ### Class Disciplines
 
@@ -129,10 +129,10 @@ Each class pays a different price for each Discipline rank depending on how alig
 
 | Cost Structure | Rank 1 | Rank 2 | Rank 3 | Meaning |
 |---------------|--------|--------|--------|---------|
-| **Home** | 1 DP | 2 DP | 4 DP | Favored — core to the class identity |
+| **Home** | 1 DP | 2 DP | 4 DP | Favored: core to the class identity |
 | **Adjacent** | 2 DP | 4 DP | 8 DP | Related but not core |
 | **Foreign** | 3 DP | 6 DP | 12 DP | Unrelated to the class |
-| **Opposed** | 4 DP | 8 DP | 16 DP | Out of class — antithetical to the class |
+| **Opposed** | 4 DP | 8 DP | 16 DP | Out of class: antithetical to the class |
 
 ### Total Cost of a Card
 
@@ -168,7 +168,7 @@ A card requiring 1 Fire is Novice. A card requiring 2 Fire is Adept. A card requ
 
 ### No-Prereq Basics
 
-Some basic Novice cards (cantrips, basic utility skills) have **no Discipline requirement** and cost only the flat card price (2 DP). These represent minor talents anyone can pick up — a spark of flame too small to harm, a knack for reading a room, a trick of sleight of hand. Adept and Master cards **always** require Disciplines. There are no shortcuts to real power.
+Some basic Novice cards (cantrips, basic utility skills) have **no Discipline requirement** and cost only the flat card price (2 DP). These represent minor talents anyone can pick up: a spark of flame too small to harm, a knack for reading a room, a trick of sleight of hand. Adept and Master cards **always** require Disciplines. There are no shortcuts to real power.
 
 {{< pagebreak >}}
 
@@ -185,17 +185,17 @@ Every damaging spell, ability, and maneuver in *Heroes of Legend* is built on a 
 ::: {.callout-note}
 ## How to Read the Budget
 
-There is no damage roll. The outcome of your attack or casting roll — Weak, Standard, or Strong — determines your damage from the budget table. The hit roll is the damage roll.
+There is no damage roll. The outcome of your attack or casting roll (Weak, Standard, or Strong) determines your damage from the budget table. The hit roll is the damage roll.
 
-The numbers are flat damage points. A Novice Firebolt deals 2 damage on a Weak result, 4 on Standard, 6 on Strong. An Adept Fireball deals 6/9/12. A Master Volcanic Eruption deals 9/15/21. These are flat numbers — no dice. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
+The numbers are flat damage points. A Novice Firebolt deals 2 damage on a Weak result, 4 on Standard, 6 on Strong. An Adept Fireball deals 6/9/12. A Master Volcanic Eruption deals 9/15/21. These are flat numbers. No dice. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
 
 See @sec-chapter-arcane-spells and @sec-chapter-divine-spells for the full spell lists. See @sec-chapter-classes for class abilities keyed to this budget.
 
 Every damaging card states its expression in its damage line as either **Flat** or **Attribute-Scaled.**
 
-**Flat** damage uses the budget row exactly as listed (Novice 2/4/6, Adept 6/9/12, Master 9/15/21). Arrows, missile ammunition, thrown weapons, most spell chains, and all monsters use flat damage — no attribute is added.
+**Flat** damage uses the budget row exactly as listed (Novice 2/4/6, Adept 6/9/12, Master 9/15/21). Arrows, missile ammunition, thrown weapons, most spell chains, and all monsters use flat damage. No attribute is added.
 
-**Attribute-Scaled** damage adds a keyed attribute to a base value, minimum 1 damage. For spells and abilities, the base is budget − 3 (Novice 1/2/3, Adept 3/6/9, Master 6/12/18), plus the card's stated attribute (e.g. "1/2/3 + Knowledge"). Melee weapons use their listed damage values and add Brawn (or the attack attribute — features like Swift Blade may substitute Agility). Missile weapons and ammunition are flat.
+**Attribute-Scaled** damage adds a keyed attribute to a base value, minimum 1 damage. For spells and abilities, the base is budget − 3 (Novice 1/2/3, Adept 3/6/9, Master 6/12/18), plus the card's stated attribute (e.g. "1/2/3 + Knowledge"). Melee weapons use their listed damage values and add Brawn (or the attack attribute; features like Swift Blade may substitute Agility). Missile weapons and ammunition are flat.
 
 Weapons follow their own damage curve (see the Equipment chapter): daggers 1/2/3 up to greatswords 3/5/8, plus Brawn for melee weapons.
 :::

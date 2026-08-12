@@ -6,7 +6,7 @@
 
 ![Illo 18: Arcane Spells Art](../assets/images/page039-img027.jpeg){width="60%"}
 
-*Illustration 18 — Arcane spells chapter art (Leader class). Placeholder; final art TBD. Dimensions: 1024×1024.*
+*Illustration 18: Arcane spells chapter art (Leader class). Placeholder; final art TBD. Dimensions: 1024×1024.*
 
 {{< pagebreak >}}
 
@@ -138,7 +138,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 | Standard (9-14) | Up to three simultaneous effects. Each works exactly as intended. |
 | Strong (15-18+) | Your effects are especially vivid or lasting. The perfume lingers for hours. The sparks are bright enough to briefly distract. The cleaning removes stains that have been there for years. |
 
-*This is the spell that separates wizards from lantern-bearers. Anyone can throw fire. Making a goblin warlord's dinner taste like ashes from thirty feet away? That's art.*
+*It's what separates wizards from lantern-bearers. Anyone can throw fire. Making a goblin warlord's dinner taste like ashes from thirty feet away? That's art.*
 
 ### Spark (Cantrip)
 **No prereq**
@@ -258,7 +258,7 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 | Standard (9-14) | 9 fire damage in a 15-foot radius. Flammable objects ignite. The heat is visible from a mile away at night. |
 | Strong (15-18+) | 9 fire damage in a 20-foot radius. Targets near the center take +3. The ground smolders for 1 minute. |
 
-*This is the spell that ends encounters and starts wars. When you cast Fireball, the battlefield changes. So does your reputation. Aim carefully. Your allies are flammable too.*
+*Fireball ends encounters and starts wars. When you cast it, the battlefield changes. So does your reputation. Aim carefully. Your allies are flammable too.*
 
 #### Volcanic Eruption (Master)
 **Disciplines:** 2 Fire, 1 Earth
@@ -330,7 +330,7 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 | Standard (9-14) | 12 fire damage + 3 bludgeoning from falling debris in a 20-foot radius. Area becomes difficult terrain for 1 minute. |
 | Strong (15-18+) | 17 fire damage + 4 bludgeoning in a 25-foot radius. The area becomes lava field, 4 fire damage per round to anyone standing in it. Creatures knocked prone by the shockwave. |
 
-*This is the spell that reshapes battlefields. Fire meets Energy in a column that turns stone to lava and air to inferno. When you cast Inferno, the ground beneath your feet is no longer ground. It's a weapon, and it burns for you.*
+*It reshapes battlefields. Fire meets Energy in a column that turns stone to lava and air to inferno. When you cast Inferno, the ground beneath your feet is no longer ground. It's a weapon, and it burns for you.*
 
 ### Scorching Ray Chain
 **Disciplines:** Fire
@@ -633,7 +633,7 @@ Lightning doesn't ask. Lightning doesn't warn. One moment there's air, the next,
 | Standard (9-14) | Primary: 15 lightning damage. Arcs to 4 secondary targets for 15 each. |
 | Strong (15-18+) | Primary: 21 lightning damage. Arcs to 6 secondary targets for 21 each. The primary target is stunned for 1 round. |
 
-*This is the spell that makes lightning mages grin. One bolt. Seven targets. The enemy formation goes from "tactical positioning" to "screaming chaos" in the time it takes to blink. Chain Lightning doesn't just hurt, it humiliates. The enemy commander watches his entire front line convulse simultaneously.*
+*Chain Lightning makes lightning mages grin. One bolt. Seven targets. The enemy formation goes from "tactical positioning" to "screaming chaos" in the time it takes to blink. Chain Lightning doesn't just hurt, it humiliates. The enemy commander watches his entire front line convulse simultaneously.*
 
 ### Static Field Chain
 **Disciplines:** Wind
@@ -824,7 +824,7 @@ Acid is the patient element. It doesn't explode. It doesn't freeze. It *eats.* A
 
 ![Illo 34: Arcane Spells Midpoint](../assets/svg/placeholder-section.svg){width="60%"}
 
-*Illustration 34 — Arcane spells chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
+*Illustration 34: Arcane spells chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
 
 {{< pagebreak >}}
 
@@ -942,7 +942,7 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 | Standard (9-14) | Move up to 1,000 pounds. 30 feet per round. Unwilling creatures get a Hard Reason check. You may use the held creature as a weapon, slam it into another target for 15 force damage to both. |
 | Strong (15-18+) | Move up to 2,000 pounds. 60 feet per round. Unwilling creatures have Bane on the check. You may restrain a held creature in place, it cannot move or act physically until it breaks free. You may also manipulate held objects with the precision of your own hands, pull levers, open chests, write letters. |
 
-*This is the spell that makes you wonder why you ever bothered with fire. Pick up the enemy commander. Hold them thirty feet in the air. Shake them. Ask if they'd like to reconsider their life choices. Telekinesis is not just combat magic, it's problem-solving magic. Every locked door, every pit trap, every heavy object between you and your goal is now subject to your will.*
+*Telekinesis makes you wonder why you ever bothered with fire. Pick up the enemy commander. Hold them thirty feet in the air. Shake them. Ask if they'd like to reconsider their life choices. Telekinesis is not just combat magic, it's problem-solving magic. Every locked door, every pit trap, every heavy object between you and your goal is now subject to your will.*
 
 ### Shield Chain
 **Disciplines:** Energy

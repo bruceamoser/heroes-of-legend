@@ -6,7 +6,7 @@
 
 ![Illo 30: Glossary Art](../assets/images/page111-img046.jpeg){width="60%"}
 
-*Illustration 30 — Glossary / appendices chapter art (Final page art). Placeholder; final art TBD. Dimensions: 1024×1024.*
+*Illustration 30: Glossary / appendices chapter art (Final page art). Placeholder; final art TBD. Dimensions: 1024×1024.*
 
 {{< pagebreak >}}
 
@@ -44,7 +44,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 ## Character Terms
 
-**Ability:** An active power purchased with DP. Spells, combat techniques, and signature class powers are all abilities. Must be activated to use. Follows Novice/Adept/Master chain with flat costs (2/4/8 DP).
+**Ability:** An active power purchased with DP. Spells, combat techniques, and signature class powers are all abilities. Must be activated to use. Follows Novice/Adept/Master chain with a flat DP cost by tier.
 
 **Ancestry:** Your species, Human, Elf, Dwarf, or Halfling. Grants one Discipline and one trait.
 
@@ -110,7 +110,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Morale Check:** A 3d6 roll (no modifiers) to determine whether an NPC or monster flees, wavers, or stands firm.
 
-**Initiative:** 1d6 + Agility modifier. Determines turn order in combat.
+**Initiative:** 3d6 + Agility modifier. Determines turn order in combat.
 
 **Surprise:** When one side catches the other unaware. Surprised creatures take -2 on their first roll. Determined by Stealth vs passive Insight.
 

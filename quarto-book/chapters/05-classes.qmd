@@ -4,7 +4,7 @@
 #label("sec-chapter-classes")
 ```
 
-<!-- Rationale: Chapter opener at 80% width — the nine core classes in iconic poses, establishing class identity and inviting players to imagine their hero's calling. -->
+<!-- Rationale: Chapter opener at 80% width: the nine core classes in iconic poses, establishing class identity and inviting players to imagine their hero's calling. -->
 ![Placeholder: A lineup of the nine core classes in iconic poses: Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced, and Shadow.](../assets/images/placeholder-ch05-classes.png){width=80%}
 
 
@@ -34,6 +34,8 @@ Your class gives you a Discipline, a signature ability, and cheaper access to ce
 | **Unbalanced** | High-risk power | Any Elemental (1) + 1 opposing Elemental (1) | **Edge of Chaos** |
 | **Shadow** | Sneak thief, infiltrator | Stealth (1) + Sleight (1) | **Vanish** |
 
+Favored skills that name a weapon family, Blades, Axes, or Hammers, mean any skill in that family (Small, Long, or Great). See @sec-chapter-skills for the full skill list.
+
 {{< pagebreak >}}
 
 ## The Protector
@@ -44,9 +46,11 @@ The Protector stands at the vanguard, using body and armor as a shield for those
 
 **Class Discipline (L1):** Armor (1) + 1 any Weapon
 
-**Signature, Bastion:** Spend your movement to enter a defensive stance. Add +1 to your Protection Value for the round. At higher levels, this bonus increases.
+**Signature, Bastion:** Spend your movement to enter a defensive stance. Add +1 to your Protection Value for the round.
 
-**Favored Skills:** Athletics, Endurance, Intimidation, Resilience, Blades skills, Axes skills, Polearms, Hammers skills, Armor, Shields, Unarmed Fighting
+**Favored Skills:** Athletics, Endurance, Intimidation, Resilience, any Blades-family skill (Small, Long, or Great), any Axes-family skill (Small, Long, or Great), Polearms, any Hammers-family skill (Small, Long, or Great), Armor, Shields, Unarmed Fighting
+
+**Starting Kit:** Battleaxe (3/4/6), chain mail (DR 5), shield (+2 DR), smith's tools, 10 gp.
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -83,7 +87,9 @@ The Blade masters the art of finesse and precision, favoring the swift elegance 
 
 **Signature, Swift Blade:** You may use Agility instead of Brawn when attacking with blades. Gain the **Precise Stab** ability, bonus damage when exploiting an opening.
 
-**Favored Skills:** Acrobatics, Deception, Perception, Sleight of Hand, Stealth, Blades skills, Bow Fighting, Thrown Weapon, Unarmed Fighting
+**Favored Skills:** Acrobatics, Deception, Perception, Sleight of Hand, Stealth, any Blades-family skill (Small, Long, or Great), Bow Fighting, Thrown Weapon, Unarmed Fighting
+
+**Starting Kit:** Shortsword (2/3/4), dagger (1/2/3), leather armor (DR 2), thieves' tools, 15 gp.
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -110,7 +116,7 @@ A Blade doesn't trade blows, they choose the moment, the angle, the vulnerabilit
 
 {{< pagebreak >}}
 
-<!-- Rationale: Mid-chapter visual break at 60% width — three adventurers in action poses showing class roles in combat. -->
+<!-- Rationale: Mid-chapter visual break at 60% width: three adventurers in action poses showing class roles in combat. -->
 ![Placeholder: Three adventurers in action poses: a Protector shielding allies, a Warrior charging forward, and an Arcanist casting from behind.](../assets/images/placeholder-ch05-classes-second.png){width=60%}
 
 
@@ -124,9 +130,11 @@ The Arcanist delves into the mysteries of arcane energies, mastering their manip
 
 **Class Discipline (L1):** Energy (1) + Fire (1)
 
-**Signature, Arcane Shield:** As a free action, raise a protective ward that gives +1 to your Protection Value for the round. At higher levels, this shield grows stronger. Once per round.
+**Signature, Arcane Shield:** As a free action, raise a protective ward that gives +1 to your Protection Value for the round. Once per round.
 
 **Favored Skills:** Alchemy, Arcana, History, Investigation, Lore
+
+**Starting Kit:** Arcane focus, dagger (1/2/3), scholar's robes (DR 0), component pouch, spellbook, 5 gp.
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -165,6 +173,8 @@ The Shepherd stands as a beacon of guidance, providing moral direction and harne
 
 **Favored Skills:** Medicine, Nature, Religion, Survival
 
+**Starting Kit:** Shortsword (2/3/4), holy symbol, chain shirt (DR 3), healer's kit, 5 gp.
+
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
 | Discipline | Cost | Discipline | Cost |
@@ -198,9 +208,11 @@ The Intellect embodies cerebral prowess and scholarly mastery. Your path is a re
 
 **Class Discipline (L1):** Any one (1) + Lore (1)
 
-**Signature, Knowledge Is Power:** Gain +1 to all Knowledge-based skill checks. This increases at higher levels.
+**Signature, Knowledge Is Power:** Gain +1 to all Knowledge-based skill checks.
 
 **Favored Skills:** History, Investigation, Lore, Medicine, Arcana
+
+**Starting Kit:** Shortsword (2/3/4), spellbook, scholar's robes (DR 0), component pouch, ink & pen, 10 gp.
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -239,6 +251,8 @@ The Odd embodies eccentricity and peculiarity. With a demeanor that dances on th
 
 **Favored Skills:** Sleight of Hand, Stealth, Streetwise, Deception, Acrobatics
 
+**Starting Kit:** Shortbow (2/3/4), dagger (1/2/3), leather armor (DR 2), thieves' tools, 20 arrows.
+
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
 Pick 3 Disciplines as Home (1/2/4) at Level 1. Everything else is Adjacent (2/4/8). The Odd has no Opposed costs.
@@ -276,7 +290,9 @@ The Leader is a beacon of courage on the battlefield, leading from the front lin
 
 **Signature, Lead by Example:** When you land a telling blow on an enemy, grant one ally who witnessed it a +2 bonus on their next roll. Your actions inspire greatness in others.
 
-**Favored Skills:** Persuasion, Resilience, Perception, Insight, Blades skills, Polearms
+**Favored Skills:** Persuasion, Resilience, Perception, Insight, any Blades-family skill (Small, Long, or Great), Polearms
+
+**Starting Kit:** Longsword (2/3/5), spear (2/3/4), chain shirt (DR 3), shield (+2 DR), 10 gp.
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -303,7 +319,7 @@ The Leader's secondary ability is **Battle Cry**, a thunderous shout that steadi
 
 {{< pagebreak >}}
 
-<!-- Rationale: Mid-chapter visual break at 60% width — a Protector standing firm against a monstrous foe, illustrating the class’s defensive role. -->
+<!-- Rationale: Mid-chapter visual break at 60% width: a Protector standing firm against a monstrous foe, illustrating the class’s defensive role. -->
 ![Placeholder: A Protector class hero standing firm against a monstrous foe, shield raised, light emanating from their defensive stance.](../assets/images/placeholder-ch05-classes-third.png){width=60%}
 
 
@@ -321,9 +337,11 @@ The Unbalanced is a wild card, embodying chaos and unpredictability in every act
 
 **Favored Skills:** Arcana, Deception, Insight, Intimidation, Unarmed Fighting
 
+**Starting Kit:** Spear (2/3/4), component pouch, scholar's robes (DR 0), six vials of volatile reagents, 5 gp.
+
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
-Choose two opposing Elemental Disciplines at Level 1 (Fire/Water or Earth/Wind). Those become Home. The other two elements become Opposed.
+Choose two opposing Elemental Disciplines at Level 1 (Fire/Water or Earth/Wind). Those become Home. The other two elements become Opposed. From Animal, Plants, Summon, Life, Religion, and Mind, pick 2 as Home (1/2/4), 2 as Adjacent (2/4/8), and 2 as Foreign (3/6/12).
 
 | Discipline | Cost | Discipline | Cost |
 |------------|------|------------|------|
@@ -340,9 +358,9 @@ Choose two opposing Elemental Disciplines at Level 1 (Fire/Water or Earth/Wind).
 | Sleight | 4/8/16 | Lore | 4/8/16 |
 | Tactics | 3/6/12 | | |
 
-\* Pick two opposing elements as Home (1/2/4); the other two become Opposed (4/8/16).
+\* See the Unbalanced entry above for how these costs are assigned.
 
-From Animal, Plants, Summon, Life, Religion, and Mind, pick 2 to be Home (1/2/4), 2 to be Adjacent (2/4/8), and 2 to be Foreign (3/6/12). The costs above show a default distribution; you decide where the chaos bends in your favor.
+The table shows a default distribution; you decide where the chaos bends in your favor.
 
 ::: {.callout-note}
 ## Embrace the Chaos
@@ -364,7 +382,7 @@ The Shadow is the ghost in the room, the whisper no one heard, the hand that lif
 
 **Secondary, Shadow Stride:** Once per scene, when you Vanish successfully, you may immediately move up to 15 feet without provoking reactions. You appear in your new position when the invisibility ends, ideally behind someone who deserved it.
 
-**Favored Skills:** Stealth, Deception, Sleight of Hand, Thievery, Acrobatics, Perception, Blades skills, Thrown Weapon
+**Favored Skills:** Stealth, Deception, Sleight of Hand, Thievery, Acrobatics, Perception, any Blades-family skill (Small, Long, or Great), Thrown Weapon
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -412,7 +430,7 @@ The **Odd** occupies no archetype. It is the pure wildcard, its abilities sampli
 
 ## Class Abilities {#sec-class-abilities}
 
-Every class has a list of abilities unique to it. These are the moves, spells, and tricks that define a hero's identity in play. Abilities are purchased using the flat card cost: 2 DP for Novice, 4 DP for Adept, 8 DP for Master. Their real gate is Discipline prerequisites and level (Adept at 3, Master at 7). Every damaging ability is keyed to the damage budget table in @sec-damage-budget. The full lists are future work; what follows are SEED examples that prove the shape.
+Every class has a list of abilities unique to it. These are the moves, spells, and tricks that define a hero's identity in play. Abilities are purchased using the flat card cost described in the Costs section below. Their real gate is Discipline prerequisites and level (Adept at 3, Master at 7). Every damaging ability is keyed to the damage budget table in @sec-damage-budget. The full lists are future work; what follows are SEED examples that prove the shape.
 
 ### Mage Abilities (Arcanist & Intellect)
 
@@ -528,10 +546,10 @@ There are four cost structures, showing the price for rank 1 / rank 2 / rank 3:
 
 | Structure | Rank 1 | Rank 2 | Rank 3 | Meaning |
 |-----------|--------|--------|--------|---------|
-| **Home** | 1 DP | 2 DP | 4 DP | Favored — core to the class identity |
+| **Home** | 1 DP | 2 DP | 4 DP | Favored: core to the class identity |
 | **Adjacent** | 2 DP | 4 DP | 8 DP | Related but not core |
 | **Foreign** | 3 DP | 6 DP | 12 DP | Unrelated to the class |
-| **Opposed** | 4 DP | 8 DP | 16 DP | Out of class — antithetical to the class |
+| **Opposed** | 4 DP | 8 DP | 16 DP | Out of class: antithetical to the class |
 
 ### Comprehensive Cost Table
 
@@ -561,6 +579,6 @@ There are four cost structures, showing the price for rank 1 / rank 2 / rank 3:
 | **Lore** | 4/8/16 | 4/8/16 | 2/4/8 | 2/4/8 | 1/2/4 | 2/4/8 | 2/4/8 | 4/8/16 | 4/8/16 |
 | **Tactics** | 2/4/8 | 2/4/8 | 4/8/16 | 3/6/12 | 1/2/4 | 2/4/8 | 1/2/4 | 3/6/12 | 3/6/12 |
 
-\* Odd: pick 3 Disciplines as Home (1/2/4) at Level 1. Everything else is Adjacent (2/4/8). No Opposed costs.
+\* Odd: see the Odd entry above for how these costs are assigned.
 
-† Unbalanced: pick two opposing Elementals as Home (1/2/4); the other two become Opposed (4/8/16). From Animal, Plants, Summon, Life, Religion, and Mind, pick 2 as Home, 2 as Adjacent, and 2 as Foreign.
+† Unbalanced: see the Unbalanced entry above for how these costs are assigned.

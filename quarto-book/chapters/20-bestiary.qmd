@@ -6,7 +6,7 @@
 
 ![Illo 28: Bestiary Art](../assets/images/page106-img044.jpeg){width="60%"}
 
-*Illustration 28 — Bestiary chapter art (Bestiary cover). Placeholder; final art TBD. Dimensions: 503×503.*
+*Illustration 28: Bestiary chapter art (Bestiary cover). Placeholder; final art TBD. Dimensions: 503×503.*
 
 {{< pagebreak >}}
 
@@ -115,7 +115,7 @@ HP 5, DR 0. Attributes: Brawn -1, Fortitude 0, Agility 0, Guile 0, Knowledge -1,
 
 ![Illo 29: Bestiary Second Art](../assets/images/page108-img045.jpeg){width="60%"}
 
-*Illustration 29 — Bestiary chapter second art (Beast art). Placeholder; final art TBD. Dimensions: 654×654.*
+*Illustration 29: Bestiary chapter second art (Beast art). Placeholder; final art TBD. Dimensions: 654×654.*
 
 {{< pagebreak >}}
 

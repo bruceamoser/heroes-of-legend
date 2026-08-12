@@ -4,7 +4,7 @@
 #label("sec-chapter-skills")
 ```
 
-<!-- Rationale: Chapter opener at 80% width — an arcanist multi-tasking, showing the breadth of skills available to heroes in a single evocative image. -->
+<!-- Rationale: Chapter opener at 80% width: an arcanist multi-tasking, showing the breadth of skills available to heroes in a single evocative image. -->
 ![Placeholder: An arcanist studying an ancient scroll while simultaneously picking a lock, showing the breadth of skills available to heroes.](../assets/images/placeholder-ch07-skills.png){width=80%}
 
 
@@ -12,7 +12,7 @@
 
 Skills represent what your hero has learned to do. When the dice hit the table, your skill bonus is what separates "I tried" from "I succeeded." Every hero picks up skills in their background and class training. The ones you invest in define how you solve problems, with a blade, with a spell, with a silver tongue, or with your fists.
 
-Here's the core loop: the DA calls for a roll. You grab 3d6. You add the attribute that matches what you're attempting. Then you add your skill bonus, +1 for Novice, +2 for Adept, +3 for Master. The DA adds or subtracts for difficulty. Compare the total to the success tiers. Something happens. Always.
+Here's the core loop: the DA calls for a roll. You grab 3d6. You add the attribute that matches what you're attempting. Then you add your skill bonus, +1 for Novice, +2 for Adept, +3 for Master. The DA adds or subtracts for difficulty. Compare the total to the success tiers.
 
 {{< pagebreak >}}
 
@@ -26,7 +26,7 @@ Skills come in three tiers. Higher tiers mean bigger bonuses and unlock maneuver
 | **Adept** | +2 | 4 DP |
 | **Master** | +3 | 8 DP |
 
-All skills cost the same for every class: Novice 2 DP, Adept 4 DP, Master 8 DP. Your real gate into weapon skills is Discipline prerequisites. Basic utility skills have no prerequisites at Novice — you can pick them up for 2 DP and grow from there.
+All skills cost the same for every class: Novice 2 DP, Adept 4 DP, Master 8 DP. Your real gate into weapon skills is Discipline prerequisites. Basic utility skills have no prerequisites at Novice. You can pick them up for 2 DP and grow from there.
 
 {{< pagebreak >}}
 
@@ -39,7 +39,7 @@ When you attempt something with a meaningful chance of failure and consequence, 
 | **Weak** | 1-8 | You succeed, but there's a cost, complication, or reduced effect. |
 | **Standard** | 9-14 | Clean success. You do the thing you set out to do. |
 | **Strong** | 15-18+ | Exceptional success. Extra effect, bonus information, or added style. |
-| **Critical** | Three natural 6s | Automatic Strong plus a special outcome. The table erupts. |
+| **Critical** | Three natural 6s | Automatic Strong plus a special outcome. |
 | **Fumble** | Three natural 1s | Automatic failure with a serious complication. |
 
 ### Difficulty Modifiers
@@ -60,7 +60,7 @@ The DA sets difficulty based on how hard the task is in the fiction. These numbe
 
 If there's no consequence for failure and no pressure, don't roll dice. Just tell the story.
 
-The barbarian with Brawn +2 wants to kick down a normal wooden door? It breaks. No roll. The ranger with Survival Adept wants to find edible berries in a temperate forest? They find them. No roll. Rolling dice when there's nothing at stake drains tension from the moments that *do* matter.
+The brawler with Brawn +2 wants to kick down a normal wooden door? It breaks. No roll. The woodsman with Survival Adept wants to find edible berries in a temperate forest? They find them. No roll. Rolling dice when there's nothing at stake drains tension from the moments that *do* matter.
 
 Roll when failure is interesting. Roll when the outcome is uncertain. Roll when the table is leaning forward, waiting to see what happens. Never roll just because the rules say there's a skill for it. The rules serve the story, not the other way around.
 :::
@@ -85,13 +85,13 @@ Same skill. Same modifiers. Three different stories, all driven by the dice.
 
 Kael, a dwarf Blade, has Long Blades at Adept. His Adept maneuver is **Riposte**, when an enemy misses him in melee, he can spend his reaction to counterattack.
 
-**The fight:** Kael is squared off against a bandit captain. The captain swings, the DA rolls for the bandit's attack. Weak result: 2 damage. Kael's leather armor (DR 2) absorbs it completely. The blade scrapes off his pauldron.
+**The fight:** Kael is squared off against a bandit captain. The captain swings. The DA rolls for the bandit's attack. Weak result: 2 damage. Kael's leather armor (DR 2) absorbs it completely. The blade scrapes off his pauldron.
 
 **Kael:** "He missed. Riposte."
 
 Kael spends his reaction. He makes an immediate melee attack against the captain, 3d6 + Brawn (+1) + Long Blades (+2). He rolls 4, 5, 4 = 13 + 3 = 16. Strong. His longsword deals 5 Strong damage. The captain's armor (DR 1) reduces it to 4.
 
-**The fiction:** The captain overcommitted. His blade glanced off Kael's shoulder, and before he could recover his guard, Kael's sword was already sliding between his ribs. That's Riposte, you miss, you bleed.
+**The fiction:** The captain overcommitted. His blade glanced off Kael's shoulder, and before he could recover his guard, Kael's sword was already sliding between his ribs. That's Riposte. You miss, you bleed.
 
 {{< pagebreak >}}
 
@@ -99,8 +99,8 @@ Kael spends his reaction. He makes an immediate melee attack against the captain
 
 | Skill | Attr | Discipline | Description |
 |-------|------|-----------|-------------|
-| **Athletics** | BR | — | Climbing, swimming, jumping, feats of strength |
-| **Intimidation** | BR | — | Frightening foes, coercion through force |
+| **Athletics** | BR | | Climbing, swimming, jumping, feats of strength |
+| **Intimidation** | BR | | Frightening foes, coercion through force |
 | **Small Blades** | BR | Blades | Fighting with daggers, knives, and short blades |
 | **Long Blades** | BR | Blades | Fighting with swords, longswords, and arming swords |
 | **Great Blades** | BR | Blades, Heavy | Fighting with greatswords and two-handed blades |
@@ -112,47 +112,47 @@ Kael spends his reaction. He makes an immediate melee attack against the captain
 | **Great Axes** | BR | 2 Axes + 1 Heavy Weapon | Fighting with greataxes and massive cleaving weapons |
 | **Polearms** | BR | Polearms | Fighting with spears, halberds, and reach weapons |
 | **Unarmed Fighting** | BR | Unarmed | Fists, grappling, and improvised brawling |
-| **Endurance** | FO | — | Resisting fatigue, holding breath, forced marches |
+| **Endurance** | FO | | Resisting fatigue, holding breath, forced marches |
 | **Survival** | FO | Animal | Tracking, foraging, navigating wilderness |
-| **Resilience** | FO | — | Resisting poison, disease, extreme temperatures |
+| **Resilience** | FO | | Resisting poison, disease, extreme temperatures |
 | **Armor** | FO | Armor | Wearing and maneuvering in armor, personal defense |
 | **Shields** | FO | Protection | Blocking with shields, shield combat techniques |
 | **Animal Handling** | FO | Animal | Calming, riding, and working with beasts |
-| **Acrobatics** | AG | — | Balancing, tumbling, escaping restraints |
-| **Stealth** | AG | — | Sneaking, hiding, moving silently |
+| **Acrobatics** | AG | | Balancing, tumbling, escaping restraints |
+| **Stealth** | AG | | Sneaking, hiding, moving silently |
 | **Bow Fighting** | AG | Archery | Fighting with longbows and shortbows |
 | **Thrown Weapon** | AG | Blades, Axes, or Archery | Fighting with throwing knives, axes, and javelins |
 | **Crossbow Fighting** | AG | Archery | Fighting with crossbows |
-| **Sleight of Hand** | AG | — | Pickpocketing, lockpicking, legerdemain |
-| **Thievery** | AG | — | Picking pockets, disabling traps, lockpicking |
-| **Deception** | GU | — | Lying, bluffing, disguising intent |
-| **Persuasion** | GU | — | Diplomacy, negotiation, charm |
-| **Streetwise** | GU | — | Gathering information, underworld contacts |
-| **Performance** | GU | — | Music, oratory, entertaining crowds |
+| **Sleight of Hand** | AG | | Pickpocketing, lockpicking, legerdemain |
+| **Thievery** | AG | | Picking pockets, disabling traps, lockpicking |
+| **Deception** | GU | | Lying, bluffing, disguising intent |
+| **Persuasion** | GU | | Diplomacy, negotiation, charm |
+| **Streetwise** | GU | | Gathering information, underworld contacts |
+| **Performance** | GU | | Music, oratory, entertaining crowds |
 | **Arcana** | KN | Energy | Magical knowledge, spell identification |
-| **History** | KN | — | Lore, legends, past events |
-| **Investigation** | KN | — | Searching, deducing, finding clues |
+| **History** | KN | | Lore, legends, past events |
+| **Investigation** | KN | | Searching, deducing, finding clues |
 | **Nature** | KN | Animal or Plants | Plants, animals, natural phenomena |
 | **Religion** | KN | Religion | Gods, rituals, divine lore |
-| **Lore** | KN | — | Legends, heraldry, esoteric knowledge |
-| **Alchemy** | RE | — | Brewing potions, identifying substances |
-| **Craft** | RE | — | Smithing, woodworking, making things |
+| **Lore** | KN | | Legends, heraldry, esoteric knowledge |
+| **Alchemy** | RE | | Brewing potions, identifying substances |
+| **Craft** | RE | | Smithing, woodworking, making things |
 | **Medicine** | RE | Animal | Healing, diagnosis, first aid |
-| **Insight** | RE | — | Reading people, detecting lies, intuition |
-| **Perception** | RE | — | Spotting, noticing, sensing danger |
-| **Navigation** | RE | — | Wayfinding, maps, reading the land |
+| **Insight** | RE | | Reading people, detecting lies, intuition |
+| **Perception** | RE | | Spotting, noticing, sensing danger |
+| **Navigation** | RE | | Wayfinding, maps, reading the land |
 
 {{< pagebreak >}}
 
 ![Illo 33: Skills Midpoint](../assets/svg/placeholder-section.svg){width="60%"}
 
-*Illustration 33 — Skills chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
+*Illustration 33: Skills chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
 
 {{< pagebreak >}}
 
 ## Skill Cards
 
-Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Master each unlock a maneuver, powered by your Maneuver for the turn. Every skill costs the same for every class: Novice 2 DP, Adept 4 DP, Master 8 DP. Your real gate into weapon skills is Discipline prerequisites.
+Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Master each unlock a maneuver, powered by your Maneuver for the turn. Every skill costs the same for every class (Novice 2 DP, Adept 4 DP, Master 8 DP; see the Skill Tiers table above). Your real gate into weapon skills is Discipline prerequisites.
 
 ### Small Blades {#sec-skill-small-blades}
 
@@ -162,7 +162,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Pinpoint Strike**, On Standard+ hit, target Bleeds (1 damage/round for 3 rounds). Disc: Blades (2). |
 | **Master** | +3 | 8 | **Artery Sever**, On Strong hit, target takes 2 Bleed damage/round until healed. Disc: Blades (3). |
 
@@ -174,7 +174,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Riposte**, When an enemy misses you in melee, spend your reaction to counterattack. Disc: 2 Blades. |
 | **Master** | +3 | 8 | **Flurry**, Make a second melee attack at -2. Disc: Blades (3). |
 
@@ -186,7 +186,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Power Strike**, On Standard+ hit, push target 5 ft away. Disc: 1 Blades + 1 Heavy Weapon. |
 | **Master** | +3 | 8 | **Cyclone**, Attack all adjacent foes with one roll at -2. Disc: Blades (2) + Heavy (1). |
 
@@ -198,7 +198,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Staggering Blow**, On Standard+ hit, target has Bane on its next attack. Disc: Heavy (2). |
 | **Master** | +3 | 8 | **Skullcracker**, On Strong hit, target is Stunned until end of its next turn. Disc: Heavy (3). |
 
@@ -210,7 +210,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Crushing Blow**, On Standard+ hit, knock target prone. Disc: 2 Heavy Weapon. |
 | **Master** | +3 | 8 | **Shatter**, Next hammer attack ignores 3 DR. Disc: Heavy (3). |
 
@@ -222,8 +222,8 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
-| **Adept** | +2 | 4 | — |
+| **Novice** | +1 | 2 | |
+| **Adept** | +2 | 4 | |
 | **Master** | +3 | 8 | **Grand Slam**, Attack all creatures in 10-ft cone with one roll. Disc: 3 Heavy Weapon. |
 
 ### Small Axes {#sec-skill-small-axes}
@@ -234,7 +234,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Quick Throw**, Draw and throw an axe as a single maneuver. Also functions in melee. Disc: Axes (2). |
 | **Master** | +3 | 8 | **Limb Strike**, On Standard+ hit, target's speed is halved until end of its next turn. Disc: Axes (3). |
 
@@ -246,7 +246,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Cleave**, When you drop a foe to 0 HP, carry remaining damage to an adjacent enemy. Disc: 2 Axes. |
 | **Master** | +3 | 8 | **Sunder**, Next axe attack ignores 2 DR. Disc: Axes (3). |
 
@@ -258,7 +258,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Reaping Swing**, Attack two adjacent foes with one roll at -1 per target. Disc: Axes (2). |
 | **Master** | +3 | 8 | **Executioner's Cut**, On Strong hit, the attack deals +1 damage tier. Disc: Axes (2) + Heavy (1). |
 
@@ -270,7 +270,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Brace**, Set vs charge. If charged before your next turn, attack auto-deals Strong damage. Disc: Polearms (2). |
 | **Master** | +3 | 8 | **Sweep**, Attack all adjacent foes with one roll. Disc: Polearms (3). |
 
@@ -282,7 +282,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Throw**, While grappling, hurl target 10 ft. Lands prone, takes Weak unarmed damage. Disc: Unarmed (2). |
 | **Master** | +3 | 8 | **Stunning Strike**, On Strong unarmed hit, target Stunned until end of its next turn. Disc: Unarmed (3). |
 
@@ -294,7 +294,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Pin Down**, Target hit with bow has Bane on attacks until it moves 5 ft. Disc: Archery (2). |
 | **Master** | +3 | 8 | **Twin Shot**, Fire a second arrow at the same target at -2. Disc: Archery (3). |
 
@@ -306,7 +306,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Steady Aim**, Next crossbow shot ignores cover penalties. Disc: Archery (2). |
 | **Master** | +3 | 8 | **Penetrating Bolt**, Bolt pierces target; creature behind takes half damage. Disc: Archery (3). |
 
@@ -318,7 +318,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Ricochet**, Bounces to a second target within 10 ft for half damage. Disc: Blades (2) or Axes (2) or Archery (2). |
 | **Master** | +3 | 8 | **Crippling Throw**, On Standard+ hit, target's movement is halved until end of its next turn. Disc: Blades (3) or Axes (3) or Archery (3). |
 
@@ -330,7 +330,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Fortify**, Gain +1 DR until start of your next turn. Disc: Armor (2). |
 | **Master** | +3 | 8 | **Impenetrable**, Once per scene, as a reaction, an ally within 5 ft gains +5 DR against one attack. Disc: Armor (3). |
 
@@ -342,7 +342,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Shield Bash**, On Standard+ hit, target is pushed 5 ft back. Disc: Protection (2). |
 | **Master** | +3 | 8 | **Phalanx**, Adjacent allies cannot be flanked while you hold a shield. Disc: Protection (3). |
 
@@ -354,7 +354,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Powerful Leap**, Double jump distance this turn. |
 | **Master** | +3 | 8 | **Unstoppable**, Ignore difficult terrain and cannot be slowed this turn. |
 
@@ -366,7 +366,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Shake It Off**, Automatically succeed on a save vs poison or disease. |
 | **Master** | +3 | 8 | **Renewal**, Regain HP equal to Fortitude + level. Once per combat. |
 
@@ -378,7 +378,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Tracker's Eye**, Learn direction and distance of a creature that passed within the last hour. Disc: Animal (2). |
 | **Master** | +3 | 8 | **Ambush**, Become hidden. Remain hidden until you attack, cast, or move. Disc: Animal (3). |
 
@@ -390,7 +390,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Steel Mind**, Reroll a failed save vs fear or charm. |
 | **Master** | +3 | 8 | **Steadfast**, Ignore one condition (Frightened, Poisoned, or Stunned) for 1 round. |
 
@@ -402,7 +402,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Tumble**, Move through an enemy's space without provoking. |
 | **Master** | +3 | 8 | **Evasion**, On successful save vs area effect, take no damage instead of half. |
 
@@ -414,7 +414,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Veil**, Attempt Stealth check to hide even while observed. |
 | **Master** | +3 | 8 | **Ghost Step**, Move 20 ft to any shadow or concealed position. No opportunity attacks. |
 
@@ -426,7 +426,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Quick Draw**, Draw and use an item as part of the same maneuver. |
 | **Master** | +3 | 8 | **Disarm**, Opposed check to knock held item from target's grasp. |
 
@@ -438,7 +438,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Feint**, Next attack against you before your next turn is at Bane. |
 | **Master** | +3 | 8 | **Double Bluff**, On Standard+ Deception check, target believes lie for 1 minute, no further checks. |
 
@@ -450,7 +450,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Rally**, One ally within 30 ft loses Frightened. |
 | **Master** | +3 | 8 | **Order**, One ally within 30 ft takes an immediate move action. |
 
@@ -462,7 +462,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Contacts**, Once per session, "know a person" for info, shelter, or a small favor. |
 | **Master** | +3 | 8 | **Read the Crowd**, Instantly assess social power dynamics: authority, lies, exits. |
 
@@ -474,9 +474,9 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Identify Spell**, Learn spell being cast within 60 ft: name, tier, school. Disc: Energy (2). **Counterspell**, Reaction + maneuver. Arcana check vs 7 + spell tier to disrupt casting. Disc: Energy (2). |
-| **Master** | +3 | 8 | — |
+| **Master** | +3 | 8 | |
 
 ### History {#sec-skill-history}
 
@@ -486,7 +486,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Lore Recall**, Recall a relevant historical fact, legend, or piece of ancient knowledge. |
 | **Master** | +3 | 8 | **Known Weakness**, DA reveals one vulnerability, resistance, or special ability of a creature known to legend. |
 
@@ -498,7 +498,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Eye for Detail**, Automatically spot one hidden clue, secret door, or concealed creature. |
 | **Master** | +3 | 8 | **Deduction**, DA provides one coherent insight connecting gathered evidence. |
 
@@ -510,7 +510,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Beast Lore**, Identify creature's type, abilities, and vulnerabilities. Disc: Animal (2). |
 | **Master** | +3 | 8 | **Wild Counsel**, Speak with a natural beast for 1 minute. Disc: Animal (3). |
 
@@ -522,7 +522,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Benediction**, One ally within 30 ft gains +1 on all rolls until start of your next turn. |
 | **Master** | +3 | 8 | **Righteous Blow**, Next attack deals bonus radiant damage equal to your Knowledge. |
 
@@ -534,7 +534,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Quick Mix**, Identify a potion, poison, or substance by taste/smell. Quickly mix a simple remedy. |
 | **Master** | +3 | 8 | **Alchemical Bomb**, Hurl explosive up to 30 ft. Deals 6/9/12 elemental (fire/acid/frost) damage in 10-ft radius based on success tier. |
 
@@ -546,7 +546,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Field Repair**, Temporarily restore a broken weapon, armor, or tool for the encounter. |
 | **Master** | +3 | 8 | **Jury-Rig**, Improvise a simple trap, barricade, or device. Lasts until end of scene. |
 
@@ -558,7 +558,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Field Dressing**, Adjacent ally stabilizes (if dying) or regains 4 HP. Disc: Animal (2). |
 | **Master** | +3 | 8 | **Battlefield Surgery**, Remove one condition from adjacent ally, or heal 12 HP. Disc: Animal (3). |
 
@@ -570,7 +570,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Read Intent**, Learn target's next intended action (attack, flee, cast, negotiate). |
 | **Master** | +3 | 8 | **Perfect Counter**, Choose a creature. Its next attack against you is at Bane. |
 
@@ -582,7 +582,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Menacing Glare**, One foe within 30 ft must make an immediate Morale Check. |
 | **Master** | +3 | 8 | **Terrifying Presence**, All foes within 30 ft make a Morale Check at Bane. |
 
@@ -594,7 +594,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Eagle Eye**, On Standard+ Perception check, the DA reveals one hidden detail others missed. |
 | **Master** | +3 | 8 | **Uncanny Awareness**, You cannot be surprised. You always act in the first round of combat. |
 
@@ -606,7 +606,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Esoteric Knowledge**, Recite a relevant legend, heraldic lineage, or obscure fact. DA may grant Boon on a related check. |
 | **Master** | +3 | 8 | **True Name**, After observing a creature for one round, identify its true nature or a hidden weakness. |
 
@@ -618,7 +618,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Soothing Voice**, Calm a hostile or frightened beast within 30 ft. It will not attack for 1 round. Disc: Animal (2). |
 | **Master** | +3 | 8 | **Beast Bond**, Your mount or animal companion gains +2 on its next attack or skill check. Disc: Animal (3). |
 
@@ -630,7 +630,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **True North**, You always know which way is north and can retrace any path you have traveled. |
 | **Master** | +3 | 8 | **Pathfinder's Instinct**, Once per session, the DA reveals the safest route to a known destination within one day's travel. |
 
@@ -642,7 +642,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Captivate**, One creature within 30 ft that can see and hear you must save vs Guile or be Distracted until end of your next turn. |
 | **Master** | +3 | 8 | **Inspire Greatness**, All allies within 30 ft who can hear you gain +1 on their next roll. |
 
@@ -654,6 +654,6 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
-| **Novice** | +1 | 2 | — |
+| **Novice** | +1 | 2 | |
 | **Adept** | +2 | 4 | **Quick Hands**, Pick a lock or disarm a trap as a maneuver instead of an action. |
 | **Master** | +3 | 8 | **Shadow's Touch**, On successful lockpick or trap disarm, attempt a second such action immediately at -2. |

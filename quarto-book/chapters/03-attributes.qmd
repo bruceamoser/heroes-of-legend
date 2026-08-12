@@ -4,7 +4,7 @@
 #label("sec-chapter-attributes")
 ```
 
-<!-- Rationale: Chapter opener at 80% width — six iconic figures embody the six core attributes, giving each attribute a visual identity before the rules explain them. -->
+<!-- Rationale: Chapter opener at 80% width: six iconic figures embody the six core attributes, giving each attribute a visual identity before the rules explain them. -->
 ![Placeholder: Six iconic figures embodying the attributes: Brawn (warrior), Fortitude (dwarf), Agility (elf archer), Guile (rogue), Knowledge (scholar), Reason (wizard).](../assets/images/placeholder-ch03-attributes.png){width=80%}
 
 
@@ -40,9 +40,7 @@ Attributes range from -2 to +2. Most ordinary people sit at +0. Heroes are diffe
 ::: {.callout-note}
 ## The Bell Curve: Why -2 to +2 Is the Sweet Spot
 
-With 3d6, most rolls land between 9 and 12. That's the bell curve at work, the dice cluster around the middle. A +1 bonus shifts the entire curve. A +2 bonus is enormous.
-
-Compare this to a d20 system, where a +1 is just 5%. On 3d6, a +1 bonus is worth about 12.5% at the center of the curve, more than double the impact. This means every attribute point matters. Every skill rank matters. You feel the difference between Brawn +1 and Brawn +2 every single session.
+With 3d6, most rolls land between 9 and 12. That's the bell curve at work, the dice cluster around the middle. A +1 bonus shifts the entire curve, and a single point on 3d6 is worth far more than it would be on a flat single-die system. A +2 bonus is enormous. Every attribute point matters. Every skill rank matters. You feel the difference between Brawn +1 and Brawn +2 every single session. For why the game rolls three dice at all, see @sec-chapter-core-resolution.
 
 The -2 to +2 range keeps the math tight. A hero with Brawn +2 and a hero with Brawn -1 are only 3 points apart on the same roll, but those 3 points on a bell curve are the difference between "I contribute regularly" and "I'm a liability in a fight." The range is narrow, but the impact is wide. That's intentional.
 :::
@@ -65,7 +63,7 @@ At levels 4 and 8, you may increase one attribute by +1 (up to the +2 maximum). 
 
 **Health Points at Level 1:** 10 + Fortitude + Knowledge. This is your staying power, how many hits you can take before you go down. A dwarf with Fortitude +2 and Knowledge +0 starts with 14 HP (10 base + 2 Fortitude + 2 Sturdy). A slight fae-touched wanderer with Fortitude -1 and Knowledge +0 starts with 9 HP. Fortitude is your body's durability; Knowledge is the education that helped you survive your early years. After Level 1, you gain your Fortitude modifier in HP each level (minimum 1).
 
-**Initiative:** Your Agility modifier. Quick people go first. That's not a rule of the game, that's a rule of the universe.
+**Initiative:** 3d6 + your Agility modifier. Quick people go first. That's not a rule of the game, that's a rule of the universe.
 
 **Movement:** 30 feet per round for most heroes. Heavy armor and some conditions will slow you down.
 
@@ -83,7 +81,7 @@ At levels 4 and 8, you may increase one attribute by +1 (up to the +2 maximum). 
 
 **Guile (GU):** The art of winning without fighting. Guile covers deception, persuasion, intimidation, and every variety of social maneuvering. It's the difference between "Let me in" and "I'm the health inspector, you really want to open this door." A hero with Guile +2 doesn't need to draw their weapon because they already convinced you to put yours down.
 
-**Knowledge (KN):** What you know. Ancient history, arcane theory, monster weaknesses, noble lineages, the price of saffron in three different ports. Knowledge is the scholar's attribute and the engine behind arcane spellcasting — it governs lore, investigation, and identifying creatures. It also helps determine your starting Health Points and your early-life Development Points. Smart heroes live longer.
+**Knowledge (KN):** What you know. Ancient history, arcane theory, monster weaknesses, noble lineages, the price of saffron in three different ports. Knowledge is the scholar's attribute and the engine behind arcane spellcasting. It governs lore, investigation, and identifying creatures. It also helps determine your starting Health Points and your early-life Development Points. Smart heroes live longer.
 
 **Reason (RE):** What you *do* with what you know. Reason is the engine behind divine spellcasting, alchemy, crafting, and puzzle-solving. Knowledge tells you that trolls fear fire; Reason tells you how to make some. A shepherd with Reason +2 doesn't just channel divine power, they understand *why* the gods listen, which makes them devastatingly effective.
 
@@ -161,6 +159,6 @@ Zara, a Shepherd of the wild gods, prays for divine guidance in a corrupted temp
 
 **The roll:** 3d6 + Reason (+2) + Religion Novice (+1). Zara rolls 1, 6, 5 = 12 + 3 = 15. **Strong.**
 
-She doesn't just sense danger — she receives a vision: three cultists around a blood altar, the High Priest at the center with a blade, a hidden door behind the tapestry. Every threat mapped. Every detail clear. Reason channels divine insight, and the gods speak plainly.
+She doesn't just sense danger. She receives a vision: three cultists around a blood altar, the High Priest at the center with a blade, a hidden door behind the tapestry. Every threat mapped. Every detail clear. Reason channels divine insight, and the gods speak plainly.
 
 **If she'd rolled Weak (1-8):** The vision is murky, fragmented. She senses malice but can't tell how many or where. The party proceeds blind, bracing for whatever waits. Reason asked, but the answer came in riddles.
