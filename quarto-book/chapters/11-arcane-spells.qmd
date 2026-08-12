@@ -239,7 +239,7 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 |---------|--------|
 | Weak (1-8) | 2 fire damage. The bolt singes but doesn't catch. |
 | Standard (9-14) | 4 fire damage. Flammable objects ignite. |
-| Strong (15-18+) | 6 fire damage. The target catches fire, taking 1 ongoing fire damage at the start of each turn until an action is spent putting it out. |
+| Strong (15-18+) | 6 fire damage. The target catches fire. |
 
 *Your first real spell. Not a cantrip. Not a trick. This is the moment you stop being someone who knows magic and start being a mage.*
 
@@ -273,7 +273,7 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 |---------|--------|
 | Weak (1-8) | 9 fire damage in a 20-foot radius. The column falters. |
 | Standard (9-14) | 12 fire damage in a 30-foot radius. Targets in the center 10 feet take +3. Structures take +1 damage tier. |
-| Strong (15-18+) | 21 fire damage in a 40-foot radius. The area becomes a hazard for 1 minute, any creature entering or ending its turn there takes 5 fire damage. The ground is molten glass. |
+| Strong (15-18+) | 21 fire damage in a 40-foot radius. The area becomes a hazard for 1 minute, any creature entering or ending its turn there takes 9 fire damage. The ground is molten glass. |
 
 *When the Arcanist who taught you Firebolt sees you cast Volcanic Eruption, they won't be proud. They'll be terrified. Good. That's the idea.*
 
@@ -328,7 +328,7 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 |---------|--------|
 | Weak (1-8) | 9 fire damage in a 15-foot radius. The ground cracks but doesn't fully breach. |
 | Standard (9-14) | 12 fire damage + 3 bludgeoning from falling debris in a 20-foot radius. Area becomes difficult terrain for 1 minute. |
-| Strong (15-18+) | 17 fire damage + 4 bludgeoning in a 25-foot radius. The area becomes lava field, 4 fire damage per round to anyone standing in it. Creatures knocked prone by the shockwave. |
+| Strong (15-18+) | 17 fire damage + 4 bludgeoning in a 25-foot radius. The area becomes lava field, 6 fire damage per round to anyone standing in it. Creatures knocked prone by the shockwave. |
 
 *It reshapes battlefields. Fire meets Energy in a column that turns stone to lava and air to inferno. When you cast Inferno, the ground beneath your feet is no longer ground. It's a weapon, and it burns for you.*
 
@@ -435,7 +435,7 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 |---------|--------|
 | Weak (1-8) | 6 cold damage in a 10-foot radius. Light snowfall, no terrain effect. |
 | Standard (9-14) | 6 cold damage + 3 bludgeoning in a 20-foot radius. Area becomes slippery, creatures moving through it must make an Agility check or fall prone. |
-| Strong (15-18+) | 9 cold damage + 3 bludgeoning. The ice layer is thick, the area is difficult terrain for 1 minute, and creatures starting their turn there take 3 ongoing cold damage. |
+| Strong (15-18+) | 9 cold damage + 3 bludgeoning. The ice layer is thick, the area is difficult terrain for 1 minute, and creatures starting their turn there take 4 ongoing cold damage. |
 
 *The sky doesn't care about your plans. Ice Storm is weather weaponized. It doesn't discriminate, doesn't hesitate, and doesn't stop until everything in the circle is frozen, prone, and reconsidering their life choices.*
 
@@ -506,7 +506,7 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | Target is restrained in a shell of ice. 9 cold damage. Breakable with a Standard Brawn check. |
-| Standard (9-14) | Target is imprisoned, restrained, blinded, silenced. 15 cold damage initially, 4 ongoing per round. Breaking free requires a Hard Brawn check (two successes needed). |
+| Standard (9-14) | Target is imprisoned, restrained, blinded, silenced. 15 cold damage initially, 4 ongoing per round for up to 3 rounds. Breaking free requires a Hard Brawn check (two successes needed). |
 | Strong (15-18+) | Target is perfectly sealed. Takes 21 cold damage. Cannot take actions, cannot be targeted by allies, frozen in stasis. Breaking free requires three Hard Brawn checks. The prison has 30 HP and can be shattered by allies with attacks. |
 
 *This is what the old ice holds. Not just cold, stillness. The Glacial Prison doesn't just trap an enemy. It removes them from the fight entirely. One moment the enemy warlord is rallying her troops. The next, she's a statue in a block of ice older than her bloodline. Finish the fight. Deal with her later.*
@@ -527,8 +527,8 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | +1 Armor for 1 minute. The ice is patchy. |
-| Standard (9-14) | +2 Armor for 1 minute. Creatures striking you in melee take 1 cold damage from the numbing cold. |
-| Strong (15-18+) | +2 Armor for 1 minute. Melee attackers take 2 cold damage. You gain resistance to fire damage while the armor holds, the ice absorbs the heat before it reaches you. |
+| Standard (9-14) | +2 Armor for 1 minute. Creatures striking you in melee take 2 cold damage from the numbing cold. |
+| Strong (15-18+) | +2 Armor for 1 minute. Melee attackers take 3 cold damage. You gain resistance to fire damage while the armor holds, the ice absorbs the heat before it reaches you. |
 
 *Armor that bites back. Frost Armor is for the mage who plans to get hit and wants the enemy to regret it. It won't stop a greataxe, but it'll make the greataxe-wielder think twice about swinging again.*
 
@@ -560,9 +560,9 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | +2 Armor. Melee attackers take 3 cold damage. Speed reduced by 5 feet. |
-| Standard (9-14) | +3 Armor. Melee attackers take 5 cold damage. You are immune to cold damage. Fire attacks against you have Bane, the ice fights back. |
-| Strong (15-18+) | +4 Armor. Melee attackers take 7 cold damage. Cold immunity. Fire resistance. Once during the spell's duration, you can shatter the Aegis as a reaction to negate all damage from one attack, the armor explodes outward, dealing 12 cold damage to all creatures within 10 feet. |
+| Weak (1-8) | +2 Armor. Melee attackers take 2 cold damage. Speed reduced by 5 feet. |
+| Standard (9-14) | +3 Armor. Melee attackers take 4 cold damage. You are immune to cold damage. Fire attacks against you have Bane, the ice fights back. |
+| Strong (15-18+) | +4 Armor. Melee attackers take 6 cold damage. Cold immunity. Fire resistance. Once during the spell's duration, you can shatter the Aegis as a reaction to negate all damage from one attack, the armor explodes outward, dealing 15 cold damage to all creatures within 10 feet. |
 
 *You want to know what it feels like to be untouchable? Cast Frozen Aegis. Walk into the middle of the enemy formation. Watch them break their weapons on you. Watch their breath freeze in their lungs. You're not avoiding the fight, you're the terrain now.*
 
@@ -686,7 +686,7 @@ Lightning doesn't ask. Lightning doesn't warn. One moment there's air, the next,
 |---------|--------|
 | Weak (1-8) | Storm forms. One lightning strike per round: 9 lightning damage to one target. 30-foot radius. |
 | Standard (9-14) | One strike per round: 15 lightning damage to one target within the storm, plus 4 thunder to all within 10 feet of the strike. 50-foot radius. |
-| Strong (15-18+) | Two strikes per round. Each: 21 lightning to primary + 5 thunder to adjacent. You choose targets. The entire storm area is difficult terrain from wind and rain. Flying creatures are grounded. |
+| Strong (15-18+) | Two strikes per round. Each: 21 lightning to primary + 6 thunder to adjacent. You choose targets. The entire storm area is difficult terrain from wind and rain. Flying creatures are grounded. |
 
 *You don't throw lightning anymore. You become the storm. Every round for up to a minute, you pick someone in that 50-foot circle and the sky deletes them. The enemy can't formation up. They can't take cover. They can't fly over it. Storm Call is area denial on a divine scale, and you're the god holding the thunderbolts.*
 
@@ -721,7 +721,7 @@ Acid is the patient element. It doesn't explode. It doesn't freeze. It *eats.* A
 |---------|--------|
 | Weak (1-8) | 2 acid damage. The acid sizzles and fades. |
 | Standard (9-14) | 4 acid damage. Target takes 2 ongoing acid damage at the start of its next turn. |
-| Strong (15-18+) | 6 acid damage. Ongoing damage is 2 for 2 rounds. Armor's effectiveness is reduced by 1 until repaired. |
+| Strong (15-18+) | 6 acid damage. Armor's effectiveness is reduced by 1 until repaired. |
 
 *The first real acid spell. It's not the initial splash you should fear, it's what the acid does in the seconds after. While the enemy is still figuring out where you hit them, the acid is already three layers deeper.*
 
@@ -737,8 +737,8 @@ Acid is the patient element. It doesn't explode. It doesn't freeze. It *eats.* A
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | 6 acid damage in a 15-foot cone. |
-| Standard (9-14) | 9 acid damage in a 30-foot cone. Targets take 3 ongoing damage for 2 rounds. |
-| Strong (15-18+) | 12 acid damage in a 30-foot cone. Ongoing damage is 4 for 3 rounds. Armor effectiveness reduced by 2 until repaired. |
+| Standard (9-14) | 6 acid damage in a 30-foot cone. Targets take 3 ongoing damage for 1 round. |
+| Strong (15-18+) | 9 acid damage in a 30-foot cone. Ongoing damage is 3 for 1 round. Armor effectiveness reduced by 2 until repaired. |
 
 *For when one target isn't enough. Caustic Spray is the "I hate everything in this general direction" spell. It's messy. It's cruel. It'll ruin the furniture. But when a formation of armored soldiers is advancing on your position, "messy and cruel" is exactly what you need.*
 
@@ -793,7 +793,7 @@ Acid is the patient element. It doesn't explode. It doesn't freeze. It *eats.* A
 |---------|--------|
 | Weak (1-8) | Target's armor loses 1 point of effectiveness. 6 acid damage to the wearer. |
 | Standard (9-14) | Armor loses 2 points. 9 acid damage. The armor is visibly ruined, straps melt, plates warp. |
-| Strong (15-18+) | Armor loses 3 points (minimum 0). 12 acid damage. If armor reaches 0, the target takes an additional 12 as the acid reaches bare skin. Armor must be fully replaced. |
+| Strong (15-18+) | Armor loses 3 points (minimum 0). 9 acid damage. If armor reaches 0, the target takes an additional 3 as the acid reaches bare skin. Armor must be fully replaced. |
 
 *The great equalizer. That knight in full plate with Armor 4? Now they have Armor 1 and second-degree acid burns. Melt Armor doesn't just hurt, it changes the math of the entire fight. Your Blade will thank you. The knight won't.*
 
@@ -868,7 +868,7 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 |---------|--------|
 | Weak (1-8) | 6 force damage. Target is pushed 5 feet. |
 | Standard (9-14) | 9 force damage. Target is pushed 15 feet. If it strikes a solid surface, add 3. |
-| Strong (15-18+) | 12 force damage. Target is pushed 30 feet. Striking a surface adds 5 and knocks the target prone. If pushed off a ledge, standard falling damage applies on top. |
+| Strong (15-18+) | 9 force damage. Target is pushed 30 feet. Striking a surface adds 3 and knocks the target prone. If pushed off a ledge, standard falling damage applies on top. |
 
 *Force Lance turns the environment into a weapon. A push isn't just displacement, it's an opportunity. That enemy caster on the battlement? They're not on the battlement anymore. That ogre in front of the stone pillar? The ogre and the pillar are now one. Permanently.*
 
@@ -1025,7 +1025,7 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 |---------|--------|
 | Weak (1-8) | 2 force damage. The bolt glances off, but the target feels it. |
 | Standard (9-14) | 4 force damage. The target is staggered, its next attack has a -1 penalty as it recovers from the impact. |
-| Strong (15-18+) | 6 force damage. The target is knocked back 5 feet. If it strikes a solid surface, it takes an additional 2 force damage. |
+| Strong (15-18+) | 6 force damage. The target is knocked back 5 feet. |
 
 *The unsubtle cousin of Magic Missile. Force Bolt doesn't seek. It doesn't curve. It flies straight and hits hard. But where Magic Missile is reliable, Force Bolt is brutal. You're not carefully placing darts. You're throwing a punch made of will, and the universe is the one getting hit.*
 
@@ -1058,8 +1058,8 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | 9 force damage. The target is restrained until the end of its next turn as the force grips them. |
-| Standard (9-14) | 15 force damage. The target is restrained and takes 5 ongoing force damage at the start of each of its turns until it breaks free with a Hard Brawn check. Armor is reduced by 1 from the crushing. |
-| Strong (15-18+) | 21 force damage. The target is restrained, blinded (pressure on the eyes), and silenced (pressure on the throat). Ongoing damage is 7 per round. Breaking free requires a Near-Impossible Brawn check. Non-magical armor is destroyed. The target cannot speak or cast. Non-magical armor is destroyed. |
+| Standard (9-14) | 15 force damage. The target is restrained and takes 6 ongoing force damage at the start of each of its turns until it breaks free with a Hard Brawn check. Armor is reduced by 1 from the crushing. |
+| Strong (15-18+) | 21 force damage. The target is restrained, blinded (pressure on the eyes), and silenced (pressure on the throat). Ongoing damage is 6 per round. Breaking free requires a Near-Impossible Brawn check. Non-magical armor is destroyed. The target cannot speak or cast. |
 
 *This is what force magic looks like when it stops pulling punches. Force Crush doesn't throw. It doesn't push. It squeezes. You're not hitting them with force, you're wrapping force around them and tightening until something gives. Usually, it's them. The spell is brutal, efficient, and deeply personal. You feel them struggle. You feel them stop.*
 
@@ -1536,9 +1536,9 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | +3 Armor. Unarmed strikes deal 2 bludgeoning. Speed halved. Duration 3 rounds. |
-| Standard (9-14) | +4 Armor. Unarmed strikes deal 4 bludgeoning. Resistance to fire, ice, and lightning. Immune to poison and disease. Speed halved. You weigh 500 pounds, wooden floors may not support you. Duration 1 minute. |
-| Strong (15-18+) | +5 Armor. Unarmed strikes deal 6. Resistance to all elemental damage. Immune to poison, disease, and critical hits. Speed is normal, the iron is somehow weightless to you. You can punch through stone walls. |
+| Weak (1-8) | +3 Armor. Unarmed strikes deal 6 bludgeoning. Speed halved. Duration 3 rounds. |
+| Standard (9-14) | +4 Armor. Unarmed strikes deal 9 bludgeoning. Resistance to fire, ice, and lightning. Immune to poison and disease. Speed halved. You weigh 500 pounds, wooden floors may not support you. Duration 1 minute. |
+| Strong (15-18+) | +5 Armor. Unarmed strikes deal 12. Resistance to all elemental damage. Immune to poison, disease, and critical hits. Speed is normal, the iron is somehow weightless to you. You can punch through stone walls. |
 
 *Iron Body turns you into a problem the enemy doesn't want to solve. Not because they can't hurt you, but because every attempt costs them more than it costs you.*
 
@@ -1555,7 +1555,7 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 |---------|--------|
 | Weak (1-8) | +4 Armor. Unarmed strikes deal 9. Resistance to all damage. Speed halved. Duration 3 rounds. |
 | Standard (9-14) | +5 Armor. Unarmed strikes deal 15. Resistance to all damage. Immune to critical hits and precision damage. Spells of Adept tier or lower reflect off you, the caster takes the effect instead. Duration 1 minute. |
-| Strong (15-18+) | +6 Armor. Unarmed strikes deal 21. Immunity to all damage except force. Spells of any tier that target only you are reflected. Your body emits bright light in a 30-foot radius, undead and fiends in the light take 4 radiant damage per round. You can walk through walls by crystallizing and recrystallizing on the other side. |
+| Strong (15-18+) | +6 Armor. Unarmed strikes deal 21. Immunity to all damage except force. Spells of any tier that target only you are reflected. Your body emits bright light in a 30-foot radius, undead and fiends in the light take 6 radiant damage per round. You can walk through walls by crystallizing and recrystallizing on the other side. |
 
 *This is what perfection looks like. Diamond Form is the ultimate defensive transmutation, your body becomes the hardest substance in creation, and magic itself bounces off your crystalline skin. For one minute, you're not a combatant. You're a force of nature. The enemy can't hurt you, can't spell you, can't stop you. When the diamond mage walks into the room, the room changes. Usually by evacuating.*
 
@@ -1590,7 +1590,7 @@ Earth magic is the magic of patience and inevitability. Stone doesn't burn. Ston
 |---------|--------|
 | Weak (1-8) | 2 bludgeoning damage to creatures in the area when cast. The spikes are sparse, creatures can navigate them with care. |
 | Standard (9-14) | 4 bludgeoning damage to creatures in the area when cast. Spikes persist for 1 minute. Creatures entering or moving through the area take 2 bludgeoning damage per 5 feet moved. Area is difficult terrain. |
-| Strong (15-18+) | 6 bludgeoning damage to creatures in the area when cast. Spikes persist for 1 minute. Any creature knocked prone in the area takes an additional 3 bludgeoning damage as the spikes find flesh. |
+| Strong (15-18+) | 6 bludgeoning damage to creatures in the area when cast. Spikes persist for 1 minute. |
 
 *Your first real earth spell. It doesn't chase. It doesn't seek. It waits. Drop it in a doorway. Drop it under the enemy formation. Let them bleed for every inch. Earth magic rewards positioning, and Stone Spikes rewards it with interest.*
 
@@ -1624,7 +1624,7 @@ Earth magic is the magic of patience and inevitability. Stone doesn't burn. Ston
 |---------|--------|
 | Weak (1-8) | 30-foot line, 10 feet wide, 20 feet deep. 9 bludgeoning damage to creatures falling in. The chasm is permanent. |
 | Standard (9-14) | 60-foot line, 15 feet wide, 40 feet deep. 15 bludgeoning damage to creatures falling in. Creatures within 10 feet of the edge must make an Agility check or fall in. The fissure cuts through non-magical structures. |
-| Strong (15-18+) | 80-foot line, 20 feet wide, 60 feet deep. 21 bludgeoning damage to creatures falling in. Creatures within 20 feet of the edge must make a Hard Agility check or fall in. The fissure cuts through magical structures of Adept tier or lower. Lava seeps from the bottom, dealing 5 fire damage per round to anyone inside. |
+| Strong (15-18+) | 80-foot line, 20 feet wide, 60 feet deep. 21 bludgeoning damage to creatures falling in. Creatures within 20 feet of the edge must make a Hard Agility check or fall in. The fissure cuts through magical structures of Adept tier or lower. Lava seeps from the bottom, dealing 9 fire damage per round to anyone inside. |
 
 *The spell that splits battlefields. Fissure doesn't just damage, it divides. You draw a line between the enemy and their reinforcements. Between the villain and their escape route. Between your party and whatever's chasing them. The crack in the ground is permanent. The tactical implications are permanent. Earth magic's parting gift to anyone who thought the ground was neutral.*
 
@@ -1692,8 +1692,8 @@ Wind magic is the art of motion. It doesn't destroy, it *relocates.* It doesn't 
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | 10-foot radius whirlwind. 9 bludgeoning damage per round to creatures inside. Creatures ending their turn inside are flung 15 feet in a random direction and knocked prone. |
-| Standard (9-14) | 15-foot radius. 15 bludgeoning damage per round. Creatures must make a Brawn check to resist being pulled 10 feet toward the center each round. Creatures flung take an additional 5 damage if they strike a solid surface. |
-| Strong (15-18+) | 20-foot radius. 21 bludgeoning damage per round. Brawn checks to resist the pull have Bane. The whirlwind picks up debris that deals 4 slashing damage to all creatures within 20 feet of its edge. You can move the whirlwind 20 feet per round as part of your action. |
+| Standard (9-14) | 15-foot radius. 12 bludgeoning damage per round. Creatures must make a Brawn check to resist being pulled 10 feet toward the center each round. Creatures flung take an additional 3 damage if they strike a solid surface. |
+| Strong (15-18+) | 20-foot radius. 21 bludgeoning damage per round. Brawn checks to resist the pull have Bane. The whirlwind picks up debris that deals 6 slashing damage to all creatures within 20 feet of its edge. You can move the whirlwind 20 feet per round as part of your action. |
 
 *The wind mage's masterpiece. Whirlwind isn't just damage, it's chaos. Enemies are picked up, spun around, and deposited somewhere else with considerably less dignity and considerably more bruising. The formation collapses. The careful positioning unravels. And through it all, you stand at the center of the calm, directing the storm with a finger.*
 
@@ -1898,9 +1898,9 @@ Summoning is the magic of calling. You don't create. You don't transform. You re
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | Bind a creature of CR 3 or lower for one task of up to 24 hours. The creature obeys the letter of the command but may exploit loopholes. It cannot harm you directly. |
-| Standard (9-14) | Bind a creature of CR 5 or lower for one month of service. It must obey any command that isn't directly self-destructive. It can be given a standing order it will follow until completed. It may attempt a Reason check once per week to break free. |
-| Strong (15-18+) | Bind a creature of CR 7 or lower for a year and a day of service. It serves loyally unless you give it a command that violates its fundamental nature. It will interpret your commands in good faith. It can be assigned to guard a location, serve as an advisor, or fight at your side. Breaking the binding requires a ritual that takes at least a full day. |
+| Weak (1-8) | Bind a creature of Challenge 3 or lower for one task of up to 24 hours. The creature obeys the letter of the command but may exploit loopholes. It cannot harm you directly. |
+| Standard (9-14) | Bind a creature of Challenge 5 or lower for one month of service. It must obey any command that isn't directly self-destructive. It can be given a standing order it will follow until completed. It may attempt a Reason check once per week to break free. |
+| Strong (15-18+) | Bind a creature of Challenge 7 or lower for a year and a day of service. It serves loyally unless you give it a command that violates its fundamental nature. It will interpret your commands in good faith. It can be assigned to guard a location, serve as an advisor, or fight at your side. Breaking the binding requires a ritual that takes at least a full day. |
 
 *This is how summoners become legendary. Planar Binding is not a combat spell. It's a campaign spell. You bind something from beyond the material plane and it works for you for a month, a year, forever. The demon lord's lieutenant? Now she's your bodyguard. The angel who refused to help? Now they don't have a choice. The line between summoner and slave-master is thin, and Planar Binding walks it with both feet. Use it carefully. Bound things remember. And bindings, eventually, break.*
 
@@ -2019,9 +2019,9 @@ An arcane weapon is a spell you can hold. It's a blade of force, a hammer of fir
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | The weapon deals +2 damage of your chosen element (fire, ice, or lightning) on each hit. It sheds dim light in a 10-foot radius. Duration 3 rounds. |
-| Standard (9-14) | The weapon deals +4 elemental damage per hit. On a Strong attack result, the element flares: fire ignites the target (1 ongoing), ice slows (speed halved 1 round), lightning stuns (no reaction). Duration 1 minute. |
-| Strong (15-18+) | The weapon deals +6 elemental damage per hit. The elemental effect triggers on any hit, not just Strong results. The weapon's damage type counts as both its base type and the element (whichever is more advantageous). Once during the duration, you can unleash the element in a 15-foot cone dealing 6 damage of that element to all creatures in the area. |
+| Weak (1-8) | The weapon deals +6 damage of your chosen element (fire, ice, or lightning) on each hit. It sheds dim light in a 10-foot radius. Duration 3 rounds. |
+| Standard (9-14) | The weapon deals +9 elemental damage per hit. On a Strong attack result, the element flares: fire ignites the target (2 ongoing), ice slows (speed halved 1 round), lightning stuns (no reaction). Duration 1 minute. |
+| Strong (15-18+) | The weapon deals +12 elemental damage per hit. The elemental effect triggers on any hit, not just Strong results. The weapon's damage type counts as both its base type and the element (whichever is more advantageous). Once during the duration, you can unleash the element in a 15-foot cone dealing 6 damage of that element to all creatures in the area. |
 
 *Give this to your Blade. Watch their eyes light up. Watch the enemy's eyes go wide. Elemental Weapon takes a mundane problem (someone needs stabbing) and applies a magical solution (the stabbing now comes with fire). It turns every swing into a light show. It turns your frontline fighter into a walking spell delivery system. And if you cast it on your own Arcane Blade, you've got a weapon that's equal parts sword and spell, and you're about to ruin someone's entire day.*
 
@@ -2153,9 +2153,9 @@ Gravity is the oldest magic in the universe, and the most patient. It doesn't bu
 | Freeze Solid | Adept | Ice | 2 Water | Restrain + 9 ice, ongoing damage |
 | Glacial Prison | Master | Ice | 2 Water, 1 Energy | Imprison in ice, 15 initial + 4 ongoing/round |
 | | | | | |
-| Frost Armor | Novice | Ice | 1 Water | +2 Armor, melee attackers take 1 ice |
+| Frost Armor | Novice | Ice | 1 Water | +2 Armor, melee attackers take 2 ice |
 | Ice Shield | Adept | Ice | 2 Water | Reaction: reduce damage by 9, +2 Armor for round |
-| Frozen Aegis | Master | Ice | 2 Water, 1 Protection | +3 Armor, cold immunity, can shatter for 12 AoE |
+| Frozen Aegis | Master | Ice | 2 Water, 1 Protection | +3 Armor, cold immunity, can shatter for 15 AoE |
 | | | | | |
 | Shock | Novice | Lightning | 1 Wind | 4 lightning, touch, dazes target |
 | Lightning Bolt | Adept | Lightning | 2 Wind | 9 lightning in 60-ft line |
@@ -2166,7 +2166,7 @@ Gravity is the oldest magic in the universe, and the most patient. It doesn't bu
 | Storm Call | Master | Lightning | 2 Wind, 1 Energy | 15 lightning strike/round, 50-ft radius storm |
 | | | | | |
 | Acid Splash, Greater | Novice | Acid | 1 Earth | 4 acid, 2 ongoing |
-| Caustic Spray | Adept | Acid | 2 Earth | 9 acid in 30-ft cone, 3 ongoing |
+| Caustic Spray | Adept | Acid | 2 Earth | 6 acid in 30-ft cone, 3 ongoing |
 | Dissolve | Master | Acid | 2 Earth, 1 Energy | 15 acid, destroys armor, leaves acid pool |
 | | | | | |
 | Corrode | Novice | Acid | 1 Earth | Destroy small object, reduce armor by 1 |
@@ -2218,7 +2218,7 @@ Gravity is the oldest magic in the universe, and the most patient. It doesn't bu
 | Time Stop | Master | Transmutation | 2 Energy, 1 Wind | Freeze time for 1d4+1 rounds |
 | | | | | |
 | Stone Skin | Novice | Transmutation | 1 Energy | +2 Armor, resist non-magical physical |
-| Iron Body | Adept | Transmutation | 2 Energy | +4 Armor, 4 unarmed, elemental resist |
+| Iron Body | Adept | Transmutation | 2 Energy | +4 Armor, 9 unarmed, elemental resist |
 | Diamond Form | Master | Transmutation | 2 Energy, 1 Earth | +5 Armor, reflect spells, near-invulnerable |
 | | | | | |
 | Stone Spikes | Novice | Earth | 1 Earth | 4 bludgeoning damage in 10-ft radius, persistent spikes |
@@ -2227,7 +2227,7 @@ Gravity is the oldest magic in the universe, and the most patient. It doesn't bu
 | | | | | |
 | Gust | Novice | Wind | 1 Wind | Push target 10 ft or knock prone |
 | Wind Wall | Adept | Wind | 2 Wind | 30-ft wind wall, blocks arrows, 6 damage on pass-through |
-| Whirlwind | Master | Wind | 2 Wind, 1 Energy | 15 bludgeoning/round in 15-ft radius, flings creatures |
+| Whirlwind | Master | Wind | 2 Wind, 1 Energy | 12 bludgeoning/round in 15-ft radius, flings creatures |
 | | | | | |
 | Cause Fear | Novice | Fear | 1 Energy | Frighten target, Bane on attacks, must retreat |
 | Fear | Adept | Fear | 2 Energy | 30-ft cone of terror, creatures flee for 1 minute |
@@ -2246,7 +2246,7 @@ Gravity is the oldest magic in the universe, and the most patient. It doesn't bu
 | Shadow Form | Master | Shadow | 2 Energy, 1 Wind | Become living shadow, immune to non-magical damage |
 | | | | | |
 | Arcane Blade | Novice | Weapon | 1 Energy | Conjure magic weapon, deals 4 force, uses casting stat |
-| Elemental Weapon | Adept | Weapon | 2 Energy | Weapon deals +4 elemental damage, secondary effects |
+| Elemental Weapon | Adept | Weapon | 2 Energy | Weapon deals +9 elemental damage, secondary effects |
 | Blade of Disaster | Master | Weapon | 2 Energy, 1 Wind | 15 force blade, ignores armor, severs objects |
 | | | | | |
 | Burden | Novice | Gravity | 1 Energy | Double target's weight, halve speed, Bane on attacks |

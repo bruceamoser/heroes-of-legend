@@ -522,7 +522,7 @@ Spells are the most structured. Every spell card answers the same questions in t
 
 **Example (Fireball):**
 
-> **Fireball (Adept, 4 DP).** Disc: 2 Fire. Range: 100 ft. Duration: Instantaneous. W: 6 fire damage in 10-ft radius. S: 9 fire damage in 15-ft radius, flammable objects ignite. St: 12 fire damage in 20-ft radius, targets near center take +3 damage.
+> **Fireball (Adept, 4 DP).** Disc: 2 Fire. Range: 100 ft. Duration: Instantaneous. W: 6 fire damage in 10-ft radius. S: 9 fire damage in 15-ft radius, flammable objects ignite. St: 9 fire damage in 20-ft radius, targets near center take +3 damage.
 >
 > *This is the spell that ends encounters and starts wars. When you cast Fireball, the battlefield changes. So does your reputation.*
 
@@ -548,7 +548,7 @@ Class abilities are more varied than spells, but they all follow a simpler forma
 
 Some Novice-level cards have no Discipline requirement and cost only the flat card price (2 DP). These are minor tricks, cantrips, and basic utility skills anyone can pick up:
 
-> **Spark (Novice, 2 DP).** No prereq. Range: Touch. Duration: Instantaneous. W: Create a flicker of flame, enough to light a candle or pipe. S: Ignite a torch or small campfire. St: The flame catches quickly and cleanly, a bonus on your next fire-related roll.
+> **Spark (Novice, 2 DP).** No prereq. Range: 30 ft. Duration: Instantaneous. W: The object smolders, it may catch fire after 1 round. S: Immediate ignition, the object catches fire and burns normally. St: The flame leaps, adjacent flammable objects also catch fire.
 
 No-prereq cards are Novice only. Adept and Master cards always require Disciplines.
 

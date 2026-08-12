@@ -262,7 +262,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 |---------|--------|
 | Weak (1-8) | Target regains 1 HP at the start of each turn for 2 rounds. |
 | Standard (9-14) | Target regains 1 HP at the start of each turn for 4 rounds. |
-| Strong (15-18+) | Target regains 1 HP at the start of each turn for 4 rounds. Additionally, the first time they drop to 0 HP during the duration, they immediately regain 4 HP and stay standing. |
+| Strong (15-18+) | Target regains 1 HP at the start of each turn for 4 rounds. Additionally, the first time they drop to 0 HP during the duration, they immediately regain 2 HP and stay standing. |
 
 *Healing over time. Bolster is for the Protector who's holding the line while everyone else escapes. For the Blade who's dueling the enemy champion. For anyone who needs to stay upright just a little longer. It won't outpace a dragon's breath, but it'll turn a dozen small cuts from fatal to forgettable.*
 
@@ -295,8 +295,8 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | Target regains 3 HP per round for 3 rounds. They have Boon on death checks. |
-| Standard (9-14) | Target regains 5 HP per round for 3 rounds. For the duration, they are immune to poison, disease, and necrotic damage. If reduced to 0 HP, they automatically stabilize and continue regenerating, only a killing blow that deals more than 20 damage in a single hit can truly kill them. |
-| Strong (15-18+) | Target regains 7 HP per round for 3 rounds. The target also radiates an aura of vitality, all allies within 15 feet regain 3 HP per round. The target is immune to poison, disease, and necrotic damage. The target's maximum HP increases by 20 for the duration. If reduced to 0 HP, they automatically stabilize and continue regenerating, only a killing blow that deals more than 20 damage in a single hit can truly kill them. |
+| Standard (9-14) | Target regains 5 HP per round for 3 rounds. For the duration, they are immune to poison, disease, and necrotic damage. If reduced to 0 HP, they automatically stabilize and continue regenerating, only a killing blow that deals 21 or more damage in a single hit can truly kill them. |
+| Strong (15-18+) | Target regains 7 HP per round for 3 rounds. The target also radiates an aura of vitality, all allies within 15 feet regain 3 HP per round. The target is immune to poison, disease, and necrotic damage. The target's maximum HP increases by 20 for the duration. If reduced to 0 HP, they automatically stabilize and continue regenerating, only a killing blow that deals 21 or more damage in a single hit can truly kill them. |
 
 *This is what the gods give their chosen. True Life is not a combat spell, it's a declaration. For one hour, one creature in your party is functionally unkillable. Send them into the dragon's jaws. Send them through the trapped corridor. Send them to hold the bridge against a hundred foes. They'll be standing when it's over. They'll be standing, and they'll be smiling.*
 
@@ -387,7 +387,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | The target returns with 2 HP and one level of exhaustion that fades after a long rest. They remember fragments of the afterlife, the memory may haunt or comfort them. |
+| Weak (1-8) | The target returns with 6 HP and one level of exhaustion that fades after a long rest. They remember fragments of the afterlife, the memory may haunt or comfort them. |
 | Standard (9-14) | The target returns with 9 HP. Any non-magical diseases or poisons that killed them are cured. They know, with absolute certainty, that someone wanted them back badly enough to reach past death. |
 | Strong (15-18+) | The target returns with 12 HP. Their fatal wounds close completely. They bring back a clear memory, a face they saw, a message they heard, a warning or a comfort from the other side. The DA decides what they learned. |
 
@@ -409,6 +409,12 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 | Strong (15-18+) | As Standard, but the resurrection is so powerful that the target returns with a permanent gift: +1 to a single Attribute of their choice, the divine spark left something behind. They also retain a clear vision from the afterlife, a truth, a name, a prophecy. The DA decides the content. Their eyes are subtly different now, the door between life and death is thinner for them than for anyone else. |
 
 *The spell that makes death a temporary condition. True Resurrection is why gods are feared as much as they are loved. You can call back anyone who died in the last hundred years, no body required, no soul too far gone. Kings who were assassinated. Heroes who fell in forgotten wars. Loved ones who died before their time. The power to reverse death is the power to rewrite history. Use it carefully. The gods are watching.*
+
+::: {.callout-note}
+## Returning the Dead Is Outside the Budget
+
+Resurrection and True Resurrection do not follow the healing budget table. Returning the dead is a narrative ritual, not a combat heal. Treat the HP a returned soul regains as a story beat, not a number on the table.
+:::
 
 ```{=typst}
 #horizontalrule
@@ -474,7 +480,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | All allies within 20 feet gain +2 Armor. Duration 3 rounds. |
-| Standard (9-14) | All allies within 30 feet gain +2 Armor and resistance to necrotic and radiant damage. At the start of each ally's turn, they regain 2 HP. Enemies entering the Aegis take 15 radiant damage. Duration 1 minute. |
+| Standard (9-14) | All allies within 30 feet gain +2 Armor and resistance to necrotic and radiant damage. At the start of each ally's turn, they regain 3 HP. Enemies entering the Aegis take 15 radiant damage. Duration 1 minute. |
 | Strong (15-18+) | As Standard, but the radius is 40 feet. Allies also have Boon on Fortitude and Reason checks. Enemies inside the Aegis at the start of their turn take 21 radiant damage. The Aegis moves with you. Undead and fiends cannot enter, they burn at the boundary. |
 
 *The ultimate protective spell. Holy Aegis turns the battlefield into sacred ground. Your party fights inside a bubble of divine favor, healing every round, resisting dark magic, and watching enemies burst into flame just for getting too close. When you raise the Aegis, you're not just protecting your allies. You're consecrating the battlefield. This ground is yours now. The enemy is trespassing.*
@@ -511,9 +517,9 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | Your weapon attacks deal +2 radiant damage. Duration 3 rounds. |
-| Standard (9-14) | Your weapon attacks deal +4 radiant damage. Undead and fiends take +6 instead. Duration 1 minute. |
-| Strong (15-18+) | Your weapon attacks deal +6 radiant damage (+9 vs. undead/fiends). Once during the duration, you may declare an attack a "divine strike", it automatically hits at the Strong tier. |
+| Weak (1-8) | Your weapon attacks deal +6 radiant damage. Duration 3 rounds. |
+| Standard (9-14) | Your weapon attacks deal +9 radiant damage. Duration 1 minute. |
+| Strong (15-18+) | Your weapon attacks deal +12 radiant damage. Once during the duration, you may declare an attack a "divine strike", it automatically hits at the Strong tier. |
 
 *For the Shepherd who needs to wade into melee. For the Leader who wants to lead from the front. Divine Favor turns a support caster into a holy terror. Your mace isn't just a mace anymore, it's a delivery system for divine judgment. The undead don't just fear you. They burn at your approach.*
 
@@ -528,9 +534,9 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | Allies within 15 feet deal +2 radiant damage on weapon attacks. Duration 3 rounds. |
-| Standard (9-14) | Allies within 30 feet deal +4 radiant damage on weapon attacks (+6 vs. undead/fiends). Allies also emit dim light in a 10-foot radius, darkness effects within the mantle are suppressed. Duration 1 minute. |
-| Strong (15-18+) | As Standard, but the bonus is +6 radiant (+9 vs. undead/fiends). The first time each ally hits an enemy during the duration, that enemy is marked with divine light, attacks against marked enemies have Boon for 1 round. The battlefield is bathed in holy radiance. |
+| Weak (1-8) | Allies within 15 feet deal +9 radiant damage on weapon attacks. Duration 3 rounds. |
+| Standard (9-14) | Allies within 30 feet deal +15 radiant damage on weapon attacks. Allies also emit dim light in a 10-foot radius, darkness effects within the mantle are suppressed. Duration 1 minute. |
+| Strong (15-18+) | As Standard, but the bonus is +21 radiant. The first time each ally hits an enemy during the duration, that enemy is marked with divine light, attacks against marked enemies have Boon for 1 round. The battlefield is bathed in holy radiance. |
 
 *Your party is now an army of the divine. Crusader's Mantle turns every ally into a holy warrior, their weapons burn with sacred fire, their presence banishes darkness, and the enemy formation becomes a shooting gallery of illuminated targets. When the paladin order rides to war, this is the spell their high priest casts before the charge. Nothing survives the charge.*
 
@@ -585,7 +591,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 |---------|--------|
 | Weak (1-8) | A 15-foot wall or 10-foot dome. Blocks physical attacks and Novice-tier spells. +2 Armor to allies behind it. Undead and fiends touching it take 9 radiant damage. Duration 3 rounds. |
 | Standard (9-14) | A 30-foot wall or 20-foot dome. Blocks all attacks and spells of Adept tier or lower. Undead and fiends touching it take 15 radiant damage. Allies inside have resistance to all damage from outside sources. Duration 1 minute. |
-| Strong (15-18+) | As Standard, but the barrier also blocks Master-tier spells, nothing crosses without your permission. Allies inside regenerate 5 HP per round. Undead and fiends touching it take 21 radiant damage. Enemies of a type you specify are blinded while inside or adjacent to the barrier. The dome can encompass structures. |
+| Strong (15-18+) | As Standard, but the barrier also blocks Master-tier spells, nothing crosses without your permission. Allies inside regenerate 6 HP per round. Undead and fiends touching it take 21 radiant damage. Enemies of a type you specify are blinded while inside or adjacent to the barrier. The dome can encompass structures. |
 
 *The final word in protective magic. Divine Barrier doesn't just shield, it divides the world into "safe" and "not safe" with absolute clarity. Drop it over your party when the dragon breathes. Seal a building against the zombie horde. Create a hemisphere of "no" that even the most powerful enemy magic cannot penetrate. When the Divine Barrier goes up, the fight changes. Your side just became the winning side.*
 
@@ -623,7 +629,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 |---------|--------|
 | Weak (1-8) | The target takes 6 radiant damage. If they are undead or a fiend, they also have Bane on their next attack. |
 | Standard (9-14) | The target takes 9 radiant damage. Undead and fiends are Dazed for 1 round, the holy light overwhelms their senses. |
-| Strong (15-18+) | The target takes 12 radiant damage. Undead and fiends are Blinded for 1 round as the radiance sears their vision. Additionally, all allies who can see the Smite regain 2 HP, the display of divine power bolsters their spirits. |
+| Strong (15-18+) | The target takes 12 radiant damage. Undead and fiends are Blinded for 1 round as the radiance sears their vision. Additionally, all allies who can see the Smite regain 3 HP, the display of divine power bolsters their spirits. |
 
 *Smite is why the undead fear Shepherds more than they fear warriors. A sword can hurt a skeleton. A Smite unmakes it. The spell channels the fundamental opposition between divine light and unholy existence. Against living foes it burns. Against the undead, it obliterates. This is the spell you cast when you want the vampire to know it picked the wrong crypt to haunt.*
 
@@ -695,7 +701,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 |---------|--------|
 | Weak (1-8) | Creatures in the area take 9 radiant damage. The pillar lasts 3 rounds. The area is brightly lit and creatures inside cannot benefit from invisibility. |
 | Standard (9-14) | Creatures in the area take 15 radiant damage. The pillar lasts 1 minute. Creatures that end their turn inside the pillar take the damage again. The pillar blocks line of sight, enemies on the other side of it cannot target your party without moving. |
-| Strong (15-18+) | As Standard, but the initial damage is 21. Allies within 30 feet of the pillar regain 3 HP at the start of each turn, the proximity to divine light is restorative. Undead and fiends that start their turn within 30 feet of the pillar take 6 radiant damage, they cannot abide its presence. |
+| Strong (15-18+) | As Standard, but the initial damage is 21. Allies within 30 feet of the pillar regain 4 HP at the start of each turn, the proximity to divine light is restorative. Undead and fiends that start their turn within 30 feet of the pillar take 9 radiant damage, they cannot abide its presence. |
 
 *Call down the sun. Pillar of Light turns a patch of battlefield into a holy kill zone. Enemies inside burn every round. Allies nearby are healed by its presence. Undead don't just burn, they flee, because standing near a Pillar of Light feels, to them, like standing on the surface of a star. Place it on the enemy formation. Place it between your party and the charging horde. Place it on the altar where the cultists are completing their ritual. The pillar doesn't judge. It just burns.*
 
@@ -733,7 +739,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 |---------|--------|
 | Weak (1-8) | The target is Banished for 3 rounds. It returns to the space it left, or the nearest unoccupied space. It is disoriented upon return, Bane on its next action. |
 | Standard (9-14) | The target is Banished for 1 minute. While Banished, it is incapacitated in a harmless demiplane. When it returns, it takes 9 radiant damage, the boundary between worlds does not welcome it back kindly. |
-| Strong (15-18+) | As Standard, but the target takes 12 radiant damage upon banishment and upon return, crossing the boundary twice burns it badly. If the target is a fiend or undead native to another plane and the Banishment lasts the full minute, it does not return, it is trapped on its home plane. |
+| Strong (15-18+) | As Standard, but the target takes 12 radiant damage upon banishment, crossing the boundary burns it badly. If the target is a fiend or undead native to another plane and the Banishment lasts the full minute, it does not return, it is trapped on its home plane. |
 
 *Banishment buys time. The fight isn't over. It's deferred. But in a world where a single round can change everything, a minute of absence is a minute of victory.*
 
@@ -770,7 +776,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | The area is Consecrated for 1 hour. Undead within the area have Bane on attack rolls. |
-| Standard (9-14) | The area is Consecrated for 24 hours. Undead have Bane on all actions within the area. Healing spells cast within the area restore +1 HP. |
+| Standard (9-14) | The area is Consecrated for 24 hours. Undead have Bane on all actions within the area. Healing spells cast within the area restore +2 HP. |
 | Strong (15-18+) | As Standard, but for 24 hours. Additionally, any creature that dies within the Consecrated area cannot be raised as undead, the ground rejects the corruption. Allies who complete a long rest within the area regain 1 additional HP per character level. |
 
 *Not a wall. Not a ward. Something subtler. Consecrate makes ground feel safe in a way that goes deeper than tactics. The undead feel it in their bones and hesitate. Your party feels it in their hearts and rests easier. Cast it around your camp before you sleep. Cast it over the mass grave before you enter the dungeon. Cast it on the altar the cultists were using, and watch them scramble to find somewhere else to pray.*
@@ -787,7 +793,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | The area is Hallowed for 1 week. Undead cannot enter the area. Creatures inside gain +2 Armor against attacks from undead and fiends originating outside the area. |
-| Standard (9-14) | The area is permanently Hallowed. Undead and fiends cannot enter. Creatures inside are immune to fear and possession. Healing received within the area is increased by +2 HP per instance. |
+| Standard (9-14) | The area is permanently Hallowed. Undead and fiends cannot enter. Creatures inside are immune to fear and possession. Healing received within the area is increased by +3 HP per instance. |
 | Strong (15-18+) | As Standard, permanently Hallowed. Additionally, you designate one extra effect that applies within the area: all creatures have Boon on Fortitude checks, or all enemies have Bane on attack rolls, or the area is permanently bathed in dim light that harms undead as if it were sunlight. The Hallow can only be dispelled by a Master-tier caster performing an opposing ritual lasting 24 hours, the divine does not give up ground easily. |
 
 *This is why temples feel different. Hallow is the spell that builds sanctuaries. Once cast, the ground belongs to the divine. The undead cannot cross the boundary. Fear slides off the faithful like water. Healing works better here, as if the ground itself wants you to survive. Cast it on the orphanage the vampire has been stalking. Cast it on the village green where the ghosts gather at midnight. Cast it on your own headquarters, and sleep soundly for the first time in years.*
@@ -803,8 +809,8 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | The area (120-foot radius) is Sanctified for 1 week. Enemies within have Bane on all actions. Allies have +1 Armor. Undead and fiends entering the area take 6 radiant damage. |
-| Standard (9-14) | The area (300-foot radius) is permanently Sanctified. Enemies have Bane on all actions. Allies have +2 Armor and regain 2 HP at the start of each turn. Undead and fiends entering take 12 radiant damage and must make a Reason check each round or flee. Teleportation into the area by enemies automatically fails. |
+| Weak (1-8) | The area (120-foot radius) is Sanctified for 1 week. Enemies within have Bane on all actions. Allies have +1 Armor. Undead and fiends entering the area take 9 radiant damage. |
+| Standard (9-14) | The area (300-foot radius) is permanently Sanctified. Enemies have Bane on all actions. Allies have +2 Armor and regain 3 HP at the start of each turn. Undead and fiends entering take 15 radiant damage and must make a Reason check each round or flee. Teleportation into the area by enemies automatically fails. |
 | Strong (15-18+) | As Standard, permanently Sanctified across the full radius. Additionally, once per day, you may designate one creature within the Sanctified area as "condemned." For the next hour, that creature takes 21 radiant damage at the start of each of its turns while it remains within the area. The ground itself hates them. The divine has passed judgment. There is no appeal. |
 
 *The ultimate territorial spell. Sanctified Ground turns a fortress into a holy death trap for anything that opposes your faith. Enemies fight at a disadvantage. Allies heal just by standing there. Undead burn just by crossing the threshold. And if there's one creature your god especially dislikes, you can mark them for destruction, and the ground will eat them alive. This is what the high priest casts when the army of darkness is three days away and the walls won't hold. The walls don't need to hold. The ground will do the fighting.*
@@ -1034,11 +1040,11 @@ Divination is the magic of knowing. It sees what's hidden, identifies what's unk
 | | | | | |
 | Shield of Faith | Novice | Protection | 1 Protection | +2 Armor, 10 minutes |
 | Sanctuary | Adept | Protection | 2 Protection | Enemies must check to attack target |
-| Holy Aegis | Master | Protection | 2 Protection, 1 Energy | 30-ft aura, +2 Armor, 2 HP/round to allies |
+| Holy Aegis | Master | Protection | 2 Protection, 1 Energy | 30-ft aura, +2 Armor, 3 HP/round to allies |
 | | | | | |
 | Bless | Novice | Protection | 1 Protection | 3 allies, +1 attacks and Reason checks |
-| Divine Favor | Adept | Protection | 2 Protection | Self, +4 radiant on weapon attacks |
-| Crusader's Mantle | Master | Protection | 2 Protection, 1 Energy | Allies in 30 ft, +4 radiant on attacks |
+| Divine Favor | Adept | Protection | 2 Protection | Self, +9 radiant on weapon attacks |
+| Crusader's Mantle | Master | Protection | 2 Protection, 1 Energy | Allies in 30 ft, +15 radiant on attacks |
 | | | | | |
 | Ward | Novice | Protection | 1 Religion | Alarm glyph on doorway, 8 hours |
 | Magic Circle | Adept | Protection | 2 Religion | 10-ft circle, blocks creature type, 1 hour |
