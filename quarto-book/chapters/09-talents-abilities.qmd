@@ -86,7 +86,7 @@ Available to all classes. These are the talents any hero can pick up, regardless
 
 Kael is a dwarf Blade at Level 4. He's got 6 DP to spend and he wants to become harder to kill without sacrificing his damage output. Here's his thought process.
 
-**Current build:** Brawn +1, Agility +2. Blades Fighting (Adept). Stealth (Adept). He's got **Tough** (Novice) already, 12 HP instead of the base 10.
+**Current build:** Brawn +1, Agility +2. Long Blades (Adept). Stealth (Adept). He's got **Tough** (Novice) already, 12 HP instead of the base 10.
 
 **Option A, Defense stack:** Buy Tough → Adept. That's not how Tough works, it doesn't have an Adept version. It's a one-tier talent. Cross that off.
 
