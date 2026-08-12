@@ -508,23 +508,26 @@ Every mechanical element in *Heroes of Legend* follows one of three card formats
 
 Spells are the most structured. Every spell card answers the same questions in the same order.
 
-**Format:** `Name | Tier (DP Cost) | Discipline Req | Range | Duration | Effect (W/S/St) | Narrative link to next tier`
+**Format:** `### Name (Spell)` then a single field line: `**Disciplines:** N Type · **Action:** Action/Reaction/Maneuver · **Range:** Touch/30 ft/area · **Keywords:** ...` then **Weak:**, **Standard:**, **Strong:** outcomes, then optional **Adept:** and **Master:** additions.
 
 | Field | Description |
 |-------|-------------|
-| **Name** | The spell's name. Always capitalized, always unique within its chain. |
-| **Tier (DP Cost)** | Novice (2 DP), Adept (4 DP), or Master (8 DP). Flat cost regardless of class. |
-| **Discipline Req** | The Disciplines required to learn this spell. e.g. "1 Fire" or "2 Fire, 1 Energy". Max 3 ranks. |
-| **Range** | How far the spell reaches: Touch, 30 ft, 60 ft, Self (15-ft cone), etc. |
-| **Duration** | How long the spell lasts: Instantaneous, Concentration up to 1 minute, 1 hour, etc. |
-| **Effect (W/S/St)** | What happens on a Weak, Standard, or Strong result. Damage uses the budget table (@sec-damage-budget). |
-| **Narrative link** | A sentence in italics that captures the spell's flavor, a thematic riff, a moment of color. Not a rule. A story beat. |
+| **Disciplines** | The Disciplines required to learn this spell. e.g. "1 Fire" or "2 Fire". A card's tier is set by its discipline count: 1 = Novice, 2 = Adept, 3+ = Master. Max 3 ranks per type. |
+| **Action** | What it costs from the turn economy: Action, Maneuver, or Reaction. |
+| **Range** | How far the spell reaches: Touch, 30 ft, 60 ft, Self (15-ft cone), 20-ft radius, etc. |
+| **Keywords** | Mechanics the card interacts with: Bane, Boon, Prone, Slowed, Piercing, DR, and so on. |
+| **Weak / Standard / Strong** | What happens on each result. Damage uses the budget table (@sec-damage-budget): 2/4/6, 6/9/12, or 9/15/21 by tier. |
+| **Adept / Master** | Additions when the card is bought up to Adept or Master rank. |
 
-**Example (Fireball):**
+**Example (Brimstone Burst):**
 
-> **Fireball (Adept, 4 DP).** Disc: 2 Fire. Range: 100 ft. Duration: Instantaneous. W: 6 fire damage in 10-ft radius. S: 9 fire damage in 15-ft radius, flammable objects ignite. St: 9 fire damage in 20-ft radius, targets near center take +3 damage.
->
-> *This is the spell that ends encounters and starts wars. When you cast Fireball, the battlefield changes. So does your reputation.*
+> ### Brimstone Burst (Arcane Spell)
+> **Disciplines:** 2 Fire · **Action:** Action · **Range:** 20-ft radius · **Keywords:** Area
+> **Weak:** 6 fire damage to all in the radius.
+> **Standard:** 9 fire damage to all; targets at the center take +2.
+> **Strong:** 12 fire damage to all; targets at the center take +3.
+
+> *This is the spell that ends encounters and starts wars. When you cast Brimstone Burst, the battlefield changes. So does your reputation.*
 
 ### Ability Card
 

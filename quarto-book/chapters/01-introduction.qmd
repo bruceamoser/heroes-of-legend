@@ -219,7 +219,7 @@ That's not a character moment. That's a scheduling error.
 
 In *Heroes of Legend*, magic always fires. No mana. No slots. No "sorry, I used my good spell already." When you cast, the spell goes off. The roll determines whether it's a Weak sputter, a Standard blast, or a Strong inferno. You're never useless. You're never out of options. Your fire burns until *you* decide it stops.
 
-Adept and Master spells have per-encounter and per-session limits (see @sec-chapter-magic-system), not because we want you counting gas, but because Master-tier effects reshape the battlefield. Those limits are about spotlight management, not resource attrition. When you unleash *Volcanic Eruption*, it should be a moment everyone remembers, not something you do three times before lunch.
+Adept and Master spells have per-encounter and per-session limits (see @sec-chapter-magic-system), not because we want you counting gas, but because Master-tier effects reshape the battlefield. Those limits are about spotlight management, not resource attrition. When you unleash a Master spell, it should be a moment everyone remembers, not something you do three times before lunch.
 
 :::
 
