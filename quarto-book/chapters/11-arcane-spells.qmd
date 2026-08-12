@@ -79,13 +79,13 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 **Duration:** Instantaneous
 **Target:** One creature or object
 
-**Description:** Your hand erupts in freezing cold. A creature you touch takes 1d6 ice damage. A liquid you touch freezes solid in a 1-foot cube for 1 minute. A small object becomes brittle.
+**Description:** Your hand erupts in freezing cold. A creature you touch takes 3 ice damage. A liquid you touch freezes solid in a 1-foot cube for 1 minute. A small object becomes brittle.
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 1d4 ice damage. Liquid chills but doesn't freeze. |
-| Standard (9-14) | 1d6 ice damage. Liquid freezes solid. |
-| Strong (15-18+) | 1d6+2 ice damage. Target's next physical action has Bane as cold numbs their limbs. |
+| Weak (1-8) | 1 ice damage. Liquid chills but doesn't freeze. |
+| Standard (9-14) | 3 ice damage. Liquid freezes solid. |
+| Strong (15-18+) | 5 ice damage. Target's next physical action has Bane as cold numbs their limbs. |
 
 *The first spell every ice mage learns. Touch a lock. Touch a rope. Touch a throat. Cold solves problems heat can't.*
 
@@ -164,13 +164,13 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 **Duration:** Instantaneous
 **Target:** One creature
 
-**Description:** A spark of electricity arcs from your fingertip to the target. Deals 1d6 lightning damage. Metal-armored targets take +1 damage.
+**Description:** A spark of electricity arcs from your fingertip to the target. Deals 3 lightning damage. Metal-armored targets take +1 damage.
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 1d4 lightning damage. The target feels a tingle. |
-| Standard (9-14) | 1d6 lightning damage. +1 vs. metal armor. |
-| Strong (15-18+) | 1d6+2 lightning damage. The spark chains to one additional target within 10 feet for half damage. |
+| Weak (1-8) | 1 lightning damage. The target feels a tingle. |
+| Standard (9-14) | 3 lightning damage. +1 vs. metal armor. |
+| Strong (15-18+) | 5 lightning damage. The spark chains to one additional target within 10 feet for half damage. |
 
 *The crackle before the storm. Doesn't look like much. Hurts more than it looks. Aim for the one in plate.*
 
@@ -181,13 +181,13 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 **Duration:** Instantaneous
 **Target:** One creature or object
 
-**Description:** You hurl a glob of corrosive acid. Deals 1d6 acid damage. Against objects, the acid ignores 1 point of hardness.
+**Description:** You hurl a glob of corrosive acid. Deals 3 acid damage. Against objects, the acid ignores 1 point of hardness.
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 1d4 acid damage. The acid sizzles weakly. |
-| Standard (9-14) | 1d6 acid damage. Ignores 1 hardness against objects. |
-| Strong (15-18+) | 1d6+2 acid damage. The acid clings, target takes 1d4 additional acid damage at the start of its next turn. |
+| Weak (1-8) | 1 acid damage. The acid sizzles weakly. |
+| Standard (9-14) | 3 acid damage. Ignores 1 hardness against objects. |
+| Strong (15-18+) | 5 acid damage. The acid clings, target takes 5 additional acid damage at the start of its next turn. |
 
 *Not flashy. Not dramatic. But acid doesn't care how thick your armor is. It finds the gaps. It always finds the gaps.*
 
@@ -237,9 +237,9 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 1d6 fire damage. The bolt singes but doesn't catch. |
-| Standard (9-14) | 2d6 fire damage. Flammable objects ignite. |
-| Strong (15-18+) | 3d6 fire damage. The target catches fire, taking 1d4 ongoing fire damage at the start of each turn until an action is spent putting it out. |
+| Weak (1-8) | 2 fire damage. The bolt singes but doesn't catch. |
+| Standard (9-14) | 4 fire damage. Flammable objects ignite. |
+| Strong (15-18+) | 6 fire damage. The target catches fire, taking 1 ongoing fire damage at the start of each turn until an action is spent putting it out. |
 
 *Your first real spell. Not a cantrip. Not a trick. This is the moment you stop being someone who knows magic and start being a mage.*
 
@@ -254,9 +254,9 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 2d6 fire damage in a 10-foot radius. Flames sputter at the edges. |
-| Standard (9-14) | 4d6 fire damage in a 15-foot radius. Flammable objects ignite. The heat is visible from a mile away at night. |
-| Strong (15-18+) | 6d6 fire damage in a 20-foot radius. Targets near the center take +1d6. The ground smolders for 1 minute. |
+| Weak (1-8) | 6 fire damage in a 10-foot radius. Flames sputter at the edges. |
+| Standard (9-14) | 9 fire damage in a 15-foot radius. Flammable objects ignite. The heat is visible from a mile away at night. |
+| Strong (15-18+) | 12 fire damage in a 20-foot radius. Targets near the center take +12. The ground smolders for 1 minute. |
 
 *This is the spell that ends encounters and starts wars. When you cast Fireball, the battlefield changes. So does your reputation. Aim carefully. Your allies are flammable too.*
 
@@ -271,9 +271,9 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 3d6 fire damage in a 20-foot radius. The column falters. |
-| Standard (9-14) | 6d6 fire damage in a 30-foot radius. Targets in the center 10 feet take +2d6. Structures take double damage. |
-| Strong (15-18+) | 9d6 fire damage in a 40-foot radius. The area becomes a hazard for 1 minute, any creature entering or ending its turn there takes 2d6 fire damage. The ground is molten glass. |
+| Weak (1-8) | 9 fire damage in a 20-foot radius. The column falters. |
+| Standard (9-14) | 15 fire damage in a 30-foot radius. Targets in the center 10 feet take +4. Structures take double damage. |
+| Strong (15-18+) | 21 fire damage in a 40-foot radius. The area becomes a hazard for 1 minute, any creature entering or ending its turn there takes 5 fire damage. The ground is molten glass. |
 
 *When the Arcanist who taught you Firebolt sees you cast Inferno, they won't be proud. They'll be terrified. Good. That's the idea.*
 
@@ -292,9 +292,9 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 1d3 fire damage to all targets in the cone. The flames are thin. |
-| Standard (9-14) | 1d6 fire damage to all targets in a 15-foot cone. Flammable objects ignite. |
-| Strong (15-18+) | 2d6 fire damage to all targets in a 15-foot cone. Targets at the edge still take half damage. |
+| Weak (1-8) | 2 fire damage to all targets in the cone. The flames are thin. |
+| Standard (9-14) | 4 fire damage to all targets in a 15-foot cone. Flammable objects ignite. |
+| Strong (15-18+) | 6 fire damage to all targets in a 15-foot cone. Targets at the edge still take half damage. |
 
 *For when subtlety has failed. For when the goblins are in your face and your Protector is on the other side of the room. For when "get away from me" needs to be a statement of fact, not a request.*
 
@@ -309,9 +309,9 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | The wall is 20 feet long, 10 feet high. 2d6 fire damage to creatures passing through. |
-| Standard (9-14) | 40-foot wall, 15 feet high. 3d6 fire damage to creatures entering or starting their turn inside. Creatures within 10 feet of the hot side take 1d6. |
-| Strong (15-18+) | 60-foot wall, 20 feet high. 4d6 to those inside. The wall arcs into a ring or corridor shape of your choice. |
+| Weak (1-8) | The wall is 20 feet long, 10 feet high. 6 fire damage to creatures passing through. |
+| Standard (9-14) | 40-foot wall, 15 feet high. 9 fire damage to creatures entering or starting their turn inside. Creatures within 10 feet of the hot side take 2. |
+| Strong (15-18+) | 60-foot wall, 20 feet high. 12 to those inside. The wall arcs into a ring or corridor shape of your choice. |
 
 *Fire doesn't just destroy, it divides. A Wall of Fire is a battlefield editor. It says: "This side is yours. That side is pain." Place it well and the enemy has to choose between burning and retreating. Either way, you win.*
 
@@ -326,9 +326,9 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 3d6 fire damage in a 15-foot radius. The ground cracks but doesn't fully breach. |
-| Standard (9-14) | 4d6 fire damage + 1d6 bludgeoning from falling debris in a 20-foot radius. Area becomes difficult terrain for 1 minute. |
-| Strong (15-18+) | 6d6 fire damage + 2d6 bludgeoning in a 25-foot radius. The area becomes lava field, 2d6 fire damage per round to anyone standing in it. Creatures knocked prone by the shockwave. |
+| Weak (1-8) | 9 fire damage in a 15-foot radius. The ground cracks but doesn't fully breach. |
+| Standard (9-14) | 15 fire damage + 5 bludgeoning from falling debris in a 20-foot radius. Area becomes difficult terrain for 1 minute. |
+| Strong (15-18+) | 21 fire damage + 7 bludgeoning in a 25-foot radius. The area becomes lava field, 4 fire damage per round to anyone standing in it. Creatures knocked prone by the shockwave. |
 
 *This is what happens when Fire meets Earth. A Master-tier spell that doesn't just burn the battlefield, it remakes it. When you cast Volcanic Eruption, the terrain is yours for the rest of the fight. Plan accordingly.*
 
@@ -347,9 +347,9 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | One ray. 1d6 fire damage. |
-| Standard (9-14) | Two rays. Each deals 1d8 fire damage. |
-| Strong (15-18+) | Three rays. Each deals 1d8 fire damage. |
+| Weak (1-8) | One ray. 2 fire damage. |
+| Standard (9-14) | Two rays. Each deals 2 fire damage. |
+| Strong (15-18+) | Three rays. Each deals 2 fire damage. |
 
 *Why burn one thing when you can burn several? Scorching Ray is efficiency dressed in flame. Two goblins, two rays, one very surprised goblin chieftain wondering where his escorts went.*
 
@@ -364,9 +364,9 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 2d6 damage (half fire, half radiant) in a 5-foot radius. |
-| Standard (9-14) | 4d6 damage (half fire, half radiant) in a 10-foot radius. Undead and fiends have Bane on any save against it. |
-| Strong (15-18+) | 6d6 damage in a 15-foot radius. Undead and fiends take the full damage as radiant. The column persists for 1 round, damaging anyone who enters. |
+| Weak (1-8) | 6 damage (half fire, half radiant) in a 5-foot radius. |
+| Standard (9-14) | 9 damage (half fire, half radiant) in a 10-foot radius. Undead and fiends have Bane on any save against it. |
+| Strong (15-18+) | 12 damage in a 15-foot radius. Undead and fiends take the full damage as radiant. The column persists for 1 round, damaging anyone who enters. |
 
 *The gods don't have a monopoly on holy fire. When an arcanist calls down Flame Strike, they're making a point: "I don't need a deity. I have physics." The undead don't appreciate the distinction.*
 
@@ -381,9 +381,9 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | Two meteors. Each deals 3d6 fire + 1d6 bludgeoning in a 15-foot radius. |
-| Standard (9-14) | Four meteors. Each deals 4d6 fire + 2d6 bludgeoning in a 20-foot radius. |
-| Strong (15-18+) | Four meteors. Each deals 6d6 fire + 3d6 bludgeoning in a 25-foot radius. Overlapping damage stacks. Structures are obliterated. |
+| Weak (1-8) | Two meteors. Each deals 7 fire + 2 bludgeoning in a 15-foot radius. |
+| Standard (9-14) | Four meteors. Each deals 12 fire + 3 bludgeoning in a 20-foot radius. |
+| Strong (15-18+) | Four meteors. Each deals 17 fire + 4 bludgeoning in a 25-foot radius. Overlapping damage stacks. Structures are obliterated. |
 
 *When someone asks "what's the biggest spell you know," this is the answer. Four rocks from the sky. Each one a Fireball's angry older brother. You can target them anywhere you can see. Four problems. Four solutions. One very quiet battlefield afterward.*
 
@@ -416,9 +416,9 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 1d6 ice damage. Target's speed is unaffected. |
-| Standard (9-14) | 2d6 ice damage. Target's speed is halved until the end of its next turn. |
-| Strong (15-18+) | 3d6 ice damage. Target's speed is reduced to 5 feet until the end of its next turn. |
+| Weak (1-8) | 2 ice damage. Target's speed is unaffected. |
+| Standard (9-14) | 4 ice damage. Target's speed is halved until the end of its next turn. |
+| Strong (15-18+) | 6 ice damage. Target's speed is reduced to 5 feet until the end of its next turn. |
 
 *Heat is fast. Cold is patient. A Frost Ray doesn't just hurt, it reminds the target that they're meat, and meat freezes. Aim for the legs. A frozen enemy is a solved problem.*
 
@@ -433,9 +433,9 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 2d6 ice damage in a 10-foot radius. Light snowfall, no terrain effect. |
-| Standard (9-14) | 3d6 ice damage + 1d6 bludgeoning in a 20-foot radius. Area becomes slippery, creatures moving through it must make an Agility check or fall prone. |
-| Strong (15-18+) | 4d6 ice damage + 2d6 bludgeoning. The ice layer is thick, the area is difficult terrain for 1 minute, and creatures starting their turn there take 1d4 ongoing ice damage. |
+| Weak (1-8) | 6 ice damage in a 10-foot radius. Light snowfall, no terrain effect. |
+| Standard (9-14) | 9 ice damage + 3 bludgeoning in a 20-foot radius. Area becomes slippery, creatures moving through it must make an Agility check or fall prone. |
+| Strong (15-18+) | 12 ice damage + 4 bludgeoning. The ice layer is thick, the area is difficult terrain for 1 minute, and creatures starting their turn there take 3 ongoing ice damage. |
 
 *The sky doesn't care about your plans. Ice Storm is weather weaponized. It doesn't discriminate, doesn't hesitate, and doesn't stop until everything in the circle is frozen, prone, and reconsidering their life choices.*
 
@@ -450,9 +450,9 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 2d6 ice damage per round in a 20-foot radius. Light obscurement. |
-| Standard (9-14) | 3d6 ice damage per round in a 40-foot radius. Heavy obscurement, attacks into or out of the storm have Bane. Difficult terrain. |
-| Strong (15-18+) | 4d6 ice damage per round in a 50-foot radius. Total obscurement within the storm. Creatures ending their turn inside must make a Fortitude check or gain 1 level of exhaustion from the cold. |
+| Weak (1-8) | 9 ice damage per round in a 20-foot radius. Light obscurement. |
+| Standard (9-14) | 15 ice damage per round in a 40-foot radius. Heavy obscurement, attacks into or out of the storm have Bane. Difficult terrain. |
+| Strong (15-18+) | 21 ice damage per round in a 50-foot radius. Total obscurement within the storm. Creatures ending their turn inside must make a Fortitude check or gain 1 level of exhaustion from the cold. |
 
 *Blizzard is not a strike. It's a siege. You drop it on the enemy formation and watch them freeze, stumble, and die. You can maintain concentration and move it. A 40-foot radius of "you don't want to be here" that follows your will. Ice magic's final answer to the question "how do I control the entire battlefield?"*
 
@@ -471,9 +471,9 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 1d6 ice damage. The target shivers but functions normally. |
-| Standard (9-14) | 2d6 ice damage. The target's next attack has Bane as numbness sets in. |
-| Strong (15-18+) | 3d6 ice damage. The target is immobilized until the end of its next turn, frozen in place, unable to move. |
+| Weak (1-8) | 2 ice damage. The target shivers but functions normally. |
+| Standard (9-14) | 4 ice damage. The target's next attack has Bane as numbness sets in. |
+| Strong (15-18+) | 6 ice damage. The target is immobilized until the end of its next turn, frozen in place, unable to move. |
 
 *Touch-range ice. Dangerous to deliver, devastating when it lands. When the enemy Blade closes distance and expects an easy kill, Chill Touch reminds them that mages have teeth at every range.*
 
@@ -488,9 +488,9 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | The target is restrained for 1 round. 1d6 ice damage. |
-| Standard (9-14) | The target is restrained and takes 2d6 ice damage. At the start of each of its turns while restrained, it takes 1d6 additional ice damage. It may attempt a Brawn check to break free. |
-| Strong (15-18+) | The target is fully encased in ice, restrained, blinded, and takes 3d6 ice damage. Ongoing damage is 2d6 per turn. Breaking free requires a Hard Brawn check, and each attempt causes 1d6 damage from the cracking ice. |
+| Weak (1-8) | The target is restrained for 1 round. 6 ice damage. |
+| Standard (9-14) | The target is restrained and takes 9 ice damage. At the start of each of its turns while restrained, it takes 3 additional ice damage. It may attempt a Brawn check to break free. |
+| Strong (15-18+) | The target is fully encased in ice, restrained, blinded, and takes 12 ice damage. Ongoing damage is 4 per turn. Breaking free requires a Hard Brawn check, and each attempt causes 4 damage from the cracking ice. |
 
 *The moment a charging ogre realizes it can't move its legs. Ice doesn't negotiate. Ice doesn't care about momentum, rage, or how many villages you've destroyed. Ice says "stop," and you stop.*
 
@@ -505,9 +505,9 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | Target is restrained in a shell of ice. 3d6 ice damage. Breakable with a Standard Brawn check. |
-| Standard (9-14) | Target is imprisoned, restrained, blinded, silenced. 4d6 ice damage initially, 2d6 per round. Breaking free requires a Hard Brawn check (two successes needed). |
-| Strong (15-18+) | Target is perfectly sealed. Takes 6d6 ice damage. Cannot take actions, cannot be targeted by allies, frozen in stasis. Breaking free requires three Hard Brawn checks. The prison has 30 HP and can be shattered by allies with attacks. |
+| Weak (1-8) | Target is restrained in a shell of ice. 9 ice damage. Breakable with a Standard Brawn check. |
+| Standard (9-14) | Target is imprisoned, restrained, blinded, silenced. 15 ice damage initially, 4 ongoing per round. Breaking free requires a Hard Brawn check (two successes needed). |
+| Strong (15-18+) | Target is perfectly sealed. Takes 21 ice damage. Cannot take actions, cannot be targeted by allies, frozen in stasis. Breaking free requires three Hard Brawn checks. The prison has 30 HP and can be shattered by allies with attacks. |
 
 *This is what the old ice holds. Not just cold, stillness. The Glacial Prison doesn't just trap an enemy. It removes them from the fight entirely. One moment the enemy warlord is rallying her troops. The next, she's a statue in a block of ice older than her bloodline. Finish the fight. Deal with her later.*
 
@@ -527,8 +527,8 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | +1 Armor for 1 minute. The ice is patchy. |
-| Standard (9-14) | +2 Armor for 1 minute. Creatures striking you in melee take 1d4 ice damage from the numbing cold. |
-| Strong (15-18+) | +2 Armor for 1 minute. Melee attackers take 1d6 ice damage. You gain resistance to fire damage while the armor holds, the ice absorbs the heat before it reaches you. |
+| Standard (9-14) | +2 Armor for 1 minute. Creatures striking you in melee take 1 ice damage from the numbing cold. |
+| Strong (15-18+) | +2 Armor for 1 minute. Melee attackers take 2 ice damage. You gain resistance to fire damage while the armor holds, the ice absorbs the heat before it reaches you. |
 
 *Armor that bites back. Frost Armor is for the mage who plans to get hit and wants the enemy to regret it. It won't stop a greataxe, but it'll make the greataxe-wielder think twice about swinging again.*
 
@@ -543,9 +543,9 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | Reduce the triggering attack's damage by 1d6. Shield shatters. |
-| Standard (9-14) | Reduce damage by 2d6. The shield persists for the round, +2 Armor against all subsequent attacks until your next turn. |
-| Strong (15-18+) | Reduce damage by 3d6. Shield persists with +3 Armor. Anyone striking you in melee while the shield is up takes 2d4 ice damage. |
+| Weak (1-8) | Reduce the triggering attack's damage by 6. Shield shatters. |
+| Standard (9-14) | Reduce damage by 9. The shield persists for the round, +2 Armor against all subsequent attacks until your next turn. |
+| Strong (15-18+) | Reduce damage by 12. Shield persists with +3 Armor. Anyone striking you in melee while the shield is up takes 3 ice damage. |
 
 *The difference between a dead mage and a mage who needs a new robe. Ice Shield is a reaction, you cast it when the axe is already swinging. It's the spell that turns a killing blow into a chipped blade and a very surprised enemy.*
 
@@ -560,9 +560,9 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | +2 Armor. Melee attackers take 1d6 ice damage. Speed reduced by 5 feet. |
-| Standard (9-14) | +3 Armor. Melee attackers take 2d6 ice damage. You are immune to cold damage. Fire attacks against you have Bane, the ice fights back. |
-| Strong (15-18+) | +4 Armor. Melee attackers take 3d6 ice damage. Cold immunity. Fire resistance. Once during the spell's duration, you can shatter the Aegis as a reaction to negate all damage from one attack, the armor explodes outward, dealing 4d6 ice damage to all creatures within 10 feet. |
+| Weak (1-8) | +2 Armor. Melee attackers take 3 ice damage. Speed reduced by 5 feet. |
+| Standard (9-14) | +3 Armor. Melee attackers take 5 ice damage. You are immune to cold damage. Fire attacks against you have Bane, the ice fights back. |
+| Strong (15-18+) | +4 Armor. Melee attackers take 7 ice damage. Cold immunity. Fire resistance. Once during the spell's duration, you can shatter the Aegis as a reaction to negate all damage from one attack, the armor explodes outward, dealing 12 ice damage to all creatures within 10 feet. |
 
 *You want to know what it feels like to be untouchable? Cast Frozen Aegis. Walk into the middle of the enemy formation. Watch them break their weapons on you. Watch their breath freeze in their lungs. You're not avoiding the fight, you're the terrain now.*
 
@@ -595,9 +595,9 @@ Lightning doesn't ask. Lightning doesn't warn. One moment there's air, the next,
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 1d6 lightning damage. Target flinches but acts normally. |
-| Standard (9-14) | 2d6 lightning damage. Metal-armored targets take +2 damage. Target's next reaction is unavailable, nerves are jangling. |
-| Strong (15-18+) | 3d6 lightning damage. Target is dazed, it can take either an action or a move on its next turn, not both. |
+| Weak (1-8) | 2 lightning damage. Target flinches but acts normally. |
+| Standard (9-14) | 4 lightning damage. Metal-armored targets take +2 damage. Target's next reaction is unavailable, nerves are jangling. |
+| Strong (15-18+) | 6 lightning damage. Target is dazed, it can take either an action or a move on its next turn, not both. |
 
 *Touch-range lightning. The riskiest delivery method for the most reliable disabling effect. When the enemy Blade closes the gap and thinks they've got you dead to rights, grab their helmet. Show them what dead to rights actually means.*
 
@@ -612,9 +612,9 @@ Lightning doesn't ask. Lightning doesn't warn. One moment there's air, the next,
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 2d6 lightning damage in a 30-foot line. |
-| Standard (9-14) | 4d6 lightning damage in a 60-foot line. Metal-armored targets take +1d6. |
-| Strong (15-18+) | 6d6 lightning damage in an 80-foot line. The bolt pierces through the first target and continues, no cover benefits. Targets in metal armor are stunned for 1 round. |
+| Weak (1-8) | 6 lightning damage in a 30-foot line. |
+| Standard (9-14) | 9 lightning damage in a 60-foot line. Metal-armored targets take +9. |
+| Strong (15-18+) | 12 lightning damage in an 80-foot line. The bolt pierces through the first target and continues, no cover benefits. Targets in metal armor are stunned for 1 round. |
 
 *The line is both the spell's strength and its weakness. A fireball hits a circle, easy to aim, messy at the edges. A Lightning Bolt hits exactly what's in front of you and nothing else. Position yourself. Line up the shot. Let the thunder do the rest.*
 
@@ -629,9 +629,9 @@ Lightning doesn't ask. Lightning doesn't warn. One moment there's air, the next,
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | Primary: 3d6 lightning damage. Arcs to 2 secondary targets for 1d6 each. |
-| Standard (9-14) | Primary: 6d6 lightning damage. Arcs to 4 secondary targets for 3d6 each. |
-| Strong (15-18+) | Primary: 9d6 lightning damage. Arcs to 6 secondary targets for 4d6 each. The primary target is stunned for 1 round. Metal-armored secondary targets take +1d6. |
+| Weak (1-8) | Primary: 9 lightning damage. Arcs to 2 secondary targets for 9 each. |
+| Standard (9-14) | Primary: 15 lightning damage. Arcs to 4 secondary targets for 15 each. |
+| Strong (15-18+) | Primary: 21 lightning damage. Arcs to 6 secondary targets for 21 each. The primary target is stunned for 1 round. Metal-armored secondary targets take +21. |
 
 *This is the spell that makes lightning mages grin. One bolt. Seven targets. The enemy formation goes from "tactical positioning" to "screaming chaos" in the time it takes to blink. Chain Lightning doesn't just hurt, it humiliates. The enemy commander watches his entire front line convulse simultaneously.*
 
@@ -650,9 +650,9 @@ Lightning doesn't ask. Lightning doesn't warn. One moment there's air, the next,
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 1d4 lightning damage to one creature entering or starting its turn in the field. |
-| Standard (9-14) | 1d6 lightning damage to any creature entering or starting its turn within 10 feet of you. |
-| Strong (15-18+) | 1d6 lightning damage in the aura. Creatures damaged have Bane on attacks against you while they remain in the field, their muscles won't cooperate. |
+| Weak (1-8) | 2 lightning damage to one creature entering or starting its turn in the field. |
+| Standard (9-14) | 4 lightning damage to any creature entering or starting its turn within 10 feet of you. |
+| Strong (15-18+) | 6 lightning damage in the aura. Creatures damaged have Bane on attacks against you while they remain in the field, their muscles won't cooperate. |
 
 *Close-range insurance. Static Field says "the area around me is not safe for you." It won't stop a determined enemy, but it'll make them pay for every step. Good for mages who find themselves surrounded more often than they'd like.*
 
@@ -667,9 +667,9 @@ Lightning doesn't ask. Lightning doesn't warn. One moment there's air, the next,
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 2d6 sonic damage in a 10-foot radius. Creatures are pushed 5 feet back. |
-| Standard (9-14) | 3d6 sonic damage in a 20-foot radius. Creatures are pushed 10 feet and deafened for 1 round. |
-| Strong (15-18+) | 4d6 sonic damage in a 25-foot radius. Creatures are pushed 15 feet, deafened for 1 minute, and knocked prone. Fragile objects in the area shatter. |
+| Weak (1-8) | 6 sonic damage in a 10-foot radius. Creatures are pushed 5 feet back. |
+| Standard (9-14) | 9 sonic damage in a 20-foot radius. Creatures are pushed 10 feet and deafened for 1 round. |
+| Strong (15-18+) | 12 sonic damage in a 25-foot radius. Creatures are pushed 15 feet, deafened for 1 minute, and knocked prone. Fragile objects in the area shatter. |
 
 *When they've surrounded you. When the Protector is down. When the only way out is through. Thunderclap clears your immediate vicinity with extreme prejudice. It's not elegant. It's not subtle. It's a hammer made of noise, and everyone within twenty feet is a nail.*
 
@@ -684,9 +684,9 @@ Lightning doesn't ask. Lightning doesn't warn. One moment there's air, the next,
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | Storm forms. One lightning strike per round: 2d6 lightning damage to one target. 30-foot radius. |
-| Standard (9-14) | One strike per round: 4d6 lightning damage to one target within the storm, plus 2d6 sonic to all within 10 feet of the strike. 50-foot radius. |
-| Strong (15-18+) | Two strikes per round. Each: 4d6 lightning to primary + 2d6 sonic to adjacent. You choose targets. The entire storm area is difficult terrain from wind and rain. Flying creatures are grounded. |
+| Weak (1-8) | Storm forms. One lightning strike per round: 9 lightning damage to one target. 30-foot radius. |
+| Standard (9-14) | One strike per round: 15 lightning damage to one target within the storm, plus 4 sonic to all within 10 feet of the strike. 50-foot radius. |
+| Strong (15-18+) | Two strikes per round. Each: 21 lightning to primary + 5 sonic to adjacent. You choose targets. The entire storm area is difficult terrain from wind and rain. Flying creatures are grounded. |
 
 *You don't throw lightning anymore. You become the storm. Every round for up to a minute, you pick someone in that 50-foot circle and the sky deletes them. The enemy can't formation up. They can't take cover. They can't fly over it. Storm Call is area denial on a divine scale, and you're the god holding the thunderbolts.*
 
@@ -719,9 +719,9 @@ Acid is the patient element. It doesn't explode. It doesn't freeze. It *eats.* A
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 1d6 acid damage. The acid sizzles and fades. |
-| Standard (9-14) | 2d6 acid damage. Target takes 1d4 ongoing acid damage at the start of its next turn. |
-| Strong (15-18+) | 3d6 acid damage. Ongoing damage is 1d6 and persists for 2 rounds. Armor's effectiveness is reduced by 1 until repaired. |
+| Weak (1-8) | 2 acid damage. The acid sizzles and fades. |
+| Standard (9-14) | 4 acid damage. Target takes 2 ongoing acid damage at the start of its next turn. |
+| Strong (15-18+) | 6 acid damage. Ongoing damage is 2 for 2 rounds. Armor's effectiveness is reduced by 1 until repaired. |
 
 *The first real acid spell. It's not the initial splash you should fear, it's what the acid does in the seconds after. While the enemy is still figuring out where you hit them, the acid is already three layers deeper.*
 
@@ -736,9 +736,9 @@ Acid is the patient element. It doesn't explode. It doesn't freeze. It *eats.* A
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 2d6 acid damage in a 15-foot cone. |
-| Standard (9-14) | 3d6 acid damage in a 30-foot cone. Targets take 1d4 ongoing damage for 2 rounds. |
-| Strong (15-18+) | 4d6 acid damage in a 30-foot cone. Ongoing damage is 1d6 for 3 rounds. Armor effectiveness reduced by 2 until repaired. |
+| Weak (1-8) | 6 acid damage in a 15-foot cone. |
+| Standard (9-14) | 9 acid damage in a 30-foot cone. Targets take 3 ongoing damage for 2 rounds. |
+| Strong (15-18+) | 12 acid damage in a 30-foot cone. Ongoing damage is 4 for 3 rounds. Armor effectiveness reduced by 2 until repaired. |
 
 *For when one target isn't enough. Caustic Spray is the "I hate everything in this general direction" spell. It's messy. It's cruel. It'll ruin the furniture. But when a formation of armored soldiers is advancing on your position, "messy and cruel" is exactly what you need.*
 
@@ -753,9 +753,9 @@ Acid is the patient element. It doesn't explode. It doesn't freeze. It *eats.* A
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 4d6 acid damage. Target's armor is reduced by 2 permanently until magically repaired. |
-| Standard (9-14) | 6d6 acid damage. Target loses any non-magical damage resistance for 1 minute. Armor reduced by 3. Acid pool (10-foot radius) deals 2d6 to anyone entering it. |
-| Strong (15-18+) | 9d6 acid damage. Target is partially dissolved, lose a limb, a weapon, or a piece of armor (DA's choice based on context). Acid pool is 15-foot radius, deals 3d6 per round, persists 1 minute. |
+| Weak (1-8) | 9 acid damage. Target's armor is reduced by 2 permanently until magically repaired. |
+| Standard (9-14) | 15 acid damage. Target loses any non-magical damage resistance for 1 minute. Armor reduced by 3. Acid pool (10-foot radius) deals 15 to anyone entering it. |
+| Strong (15-18+) | 21 acid damage. Target is partially dissolved, lose a limb, a weapon, or a piece of armor (DA's choice based on context). Acid pool is 15-foot radius, deals 21 per round, persists 1 minute. |
 
 *Dissolve is not a combat spell. It's a statement. You're telling the target that they are temporary, that their armor, their flesh, their very form is just a suggestion, and you've decided to revoke it. The pool it leaves behind ensures nobody else wants to stand where they stood.*
 
@@ -791,9 +791,9 @@ Acid is the patient element. It doesn't explode. It doesn't freeze. It *eats.* A
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | Target's armor loses 1 point of effectiveness. 1d6 acid damage to the wearer. |
-| Standard (9-14) | Armor loses 2 points. 2d6 acid damage. The armor is visibly ruined, straps melt, plates warp. |
-| Strong (15-18+) | Armor loses 3 points (minimum 0). 3d6 acid damage. If armor reaches 0, the target takes an additional 2d6 as the acid reaches bare skin. Armor must be fully replaced. |
+| Weak (1-8) | Target's armor loses 1 point of effectiveness. 6 acid damage to the wearer. |
+| Standard (9-14) | Armor loses 2 points. 9 acid damage. The armor is visibly ruined, straps melt, plates warp. |
+| Strong (15-18+) | Armor loses 3 points (minimum 0). 12 acid damage. If armor reaches 0, the target takes an additional 12 as the acid reaches bare skin. Armor must be fully replaced. |
 
 *The great equalizer. That knight in full plate with Armor 4? Now they have Armor 1 and second-degree acid burns. Melt Armor doesn't just hurt, it changes the math of the entire fight. Your Blade will thank you. The knight won't.*
 
@@ -808,9 +808,9 @@ Acid is the patient element. It doesn't explode. It doesn't freeze. It *eats.* A
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 10-foot radius, 10 feet deep. 2d6 acid damage per round to creatures inside. Climbing out requires a Standard Agility check. |
-| Standard (9-14) | 15-foot radius, 20 feet deep. 3d6 acid damage per round. Walls are coated, climbing checks are Hard. Creatures inside also lose 1 Armor per round from corrosion. |
-| Strong (15-18+) | 20-foot radius, 30 feet deep. 4d6 acid damage per round. Climbing is Near-Impossible without magic or flight. Armor loss is 2 per round. The pit also dissolves non-magical weapons and shields dropped into it. |
+| Weak (1-8) | 10-foot radius, 10 feet deep. 9 acid damage per round to creatures inside. Climbing out requires a Standard Agility check. |
+| Standard (9-14) | 15-foot radius, 20 feet deep. 15 acid damage per round. Walls are coated, climbing checks are Hard. Creatures inside also lose 1 Armor per round from corrosion. |
+| Strong (15-18+) | 20-foot radius, 30 feet deep. 21 acid damage per round. Climbing is Near-Impossible without magic or flight. Armor loss is 2 per round. The pit also dissolves non-magical weapons and shields dropped into it. |
 
 *The battlefield now has a hole full of death. Acid Pit is terrain control taken to its logical extreme. Drop it under the enemy's heavy hitters and watch them try to climb out while their armor dissolves around them. Some spells kill. Acid Pit makes the enemy wish they were dead.*
 
@@ -849,9 +849,9 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 1 missile. 1d4+1 force damage. |
-| Standard (9-14) | 3 missiles. Each deals 1d4+1 force damage. Can target different creatures or the same one. |
-| Strong (15-18+) | 5 missiles. Each deals 1d4+1 force damage. One target of your choice struck by at least two missiles is staggered, its next attack has Bane. |
+| Weak (1-8) | 1 missile. 2 force damage. |
+| Standard (9-14) | 3 missiles. Each deals 2 force damage. Can target different creatures or the same one. |
+| Strong (15-18+) | 5 missiles. Each deals 2 force damage. One target of your choice struck by at least two missiles is staggered, its next attack has Bane. |
 
 *The reliability spell. When the enemy has cover. When they're invisible. When they're running away and you're out of clever ideas. Magic Missile doesn't care about any of that. It cares about one thing: hitting what you point at. It's never let a mage down.*
 
@@ -866,9 +866,9 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 2d6 force damage. Target is pushed 5 feet. |
-| Standard (9-14) | 4d6 force damage. Target is pushed 15 feet. If it strikes a solid surface, add 1d6. |
-| Strong (15-18+) | 6d6 force damage. Target is pushed 30 feet. Striking a surface adds 2d6 and knocks the target prone. If pushed off a ledge, standard falling damage applies on top. |
+| Weak (1-8) | 6 force damage. Target is pushed 5 feet. |
+| Standard (9-14) | 9 force damage. Target is pushed 15 feet. If it strikes a solid surface, add 3. |
+| Strong (15-18+) | 12 force damage. Target is pushed 30 feet. Striking a surface adds 5 and knocks the target prone. If pushed off a ledge, standard falling damage applies on top. |
 
 *Force Lance turns the environment into a weapon. A push isn't just displacement, it's an opportunity. That enemy caster on the battlement? They're not on the battlement anymore. That ogre in front of the stone pillar? The ogre and the pillar are now one. Permanently.*
 
@@ -883,9 +883,9 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 4d6 force damage. The target's outermost layer (clothing, skin, armor surface) is dusted. |
-| Standard (9-14) | 8d6 force damage. A creature reduced to 0 HP by this damage is disintegrated, dust, no body, no resurrection short of a Master-tier divine spell. A 10-foot cube of non-magical matter is instantly destroyed. |
-| Strong (15-18+) | 12d6 force damage. Disintegration as above. A 15-foot cube of matter destroyed. Magical barriers and wards of Adept tier or lower are automatically broken by the ray. |
+| Weak (1-8) | 9 force damage. The target's outermost layer (clothing, skin, armor surface) is dusted. |
+| Standard (9-14) | 15 force damage. A creature reduced to 0 HP by this damage is disintegrated, dust, no body, no resurrection short of a Master-tier divine spell. A 10-foot cube of non-magical matter is instantly destroyed. |
+| Strong (15-18+) | 21 force damage. Disintegration as above. A 15-foot cube of matter destroyed. Magical barriers and wards of Adept tier or lower are automatically broken by the ray. |
 
 *The final word in an argument. Disintegrate doesn't wound. It deletes. There is no body to bury. There is no armor to loot. There is a thin layer of dust and the smell of ozone. When you cast this spell, you're not fighting anymore. You're editing reality.*
 
@@ -939,7 +939,7 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | Move up to 250 pounds. 20 feet per round. Unwilling creatures get a Standard Reason check. |
-| Standard (9-14) | Move up to 1,000 pounds. 30 feet per round. Unwilling creatures get a Hard Reason check. You may use the held creature as a weapon, slam it into another target for 4d6 force damage to both. |
+| Standard (9-14) | Move up to 1,000 pounds. 30 feet per round. Unwilling creatures get a Hard Reason check. You may use the held creature as a weapon, slam it into another target for 15 force damage to both. |
 | Strong (15-18+) | Move up to 2,000 pounds. 60 feet per round. Unwilling creatures have Bane on the check. You may restrain a held creature in place, it cannot move or act physically until it breaks free. You may also manipulate held objects with the precision of your own hands, pull levers, open chests, write letters. |
 
 *This is the spell that makes you wonder why you ever bothered with fire. Pick up the enemy commander. Hold them thirty feet in the air. Shake them. Ask if they'd like to reconsider their life choices. Telekinesis is not just combat magic, it's problem-solving magic. Every locked door, every pit trap, every heavy object between you and your goal is now subject to your will.*
@@ -961,7 +961,7 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 |---------|--------|
 | Weak (1-8) | +1 Armor against the triggering attack only. |
 | Standard (9-14) | +2 Armor until your next turn. Negates Magic Missile entirely. |
-| Strong (15-18+) | +3 Armor until your next turn. Negates Magic Missile. The attacker takes 1d4 force feedback, the shield pushes back. |
+| Strong (15-18+) | +3 Armor until your next turn. Negates Magic Missile. The attacker takes 2 force feedback, the shield pushes back. |
 
 *When you see the axe coming and your life flashes before your eyes. Shield is a reaction, it's the spell that says "no" to a hit that already landed. Every force mage learns it. Every force mage uses it. It saves lives. It ends killing blows. It makes enemy Blades weep with frustration.*
 
@@ -993,9 +993,9 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | Wall has 3 layers (fire, ice, lightning). Each deals 2d6 damage of its type to creatures passing through. 20-foot wall. |
-| Standard (9-14) | Wall has 5 layers (fire, ice, lightning, acid, force). Each deals 3d6. 30-foot wall. Creatures passing through are also blinded for 1 round. |
-| Strong (15-18+) | Full 7-layer wall (fire, ice, lightning, acid, force, necrotic, radiant). Each deals 4d6. Creatures passing through must make a Fortitude check for each layer or suffer that layer's secondary effect (burned, frozen, shocked, corroded, crushed, drained, blinded). The wall can be shaped as a 15-foot sphere. |
+| Weak (1-8) | Wall has 3 layers (fire, ice, lightning). Each deals 3 damage of its type to creatures passing through. 20-foot wall. |
+| Standard (9-14) | Wall has 5 layers (fire, ice, lightning, acid, force). Each deals 5. 30-foot wall. Creatures passing through are also blinded for 1 round. |
+| Strong (15-18+) | Full 7-layer wall (fire, ice, lightning, acid, force, necrotic, radiant). Each deals 7. Creatures passing through must make a Fortitude check for each layer or suffer that layer's secondary effect (burned, frozen, shocked, corroded, crushed, drained, blinded). The wall can be shaped as a 15-foot sphere. |
 
 *The wall at the end of the world. Prismatic Wall is not a barrier, it's a test. A test that almost everything fails. Seven layers of escalating magical destruction. Even if something survives the fire and the ice, the necrotic layer drains its life and the radiant layer burns what's left. This is the spell you cast when you need to say "this side is mine, that side is death, and the conversation is over."*
 
@@ -1062,9 +1062,9 @@ Illusion magic is the art of the lie that becomes truth. You don't burn the enem
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 2d6 psychic damage per round. The illusion is static, a wall of fire, a pit. The target can attempt a Reason check each round to break free. |
-| Standard (9-14) | 4d6 psychic damage per round. The illusion is dynamic and responds to the target's actions. Reason checks are Hard. The target acts as if the illusion is completely real, it will avoid phantom hazards, fight phantom enemies, and ignore actual threats. |
-| Strong (15-18+) | 6d6 psychic damage per round. The illusion is a full sensory takeover. The target is effectively blinded and deafened to the real world. Reason checks are Near-Impossible. The target may attack allies it perceives as monsters or flee from imaginary threats. |
+| Weak (1-8) | 9 psychic damage per round. The illusion is static, a wall of fire, a pit. The target can attempt a Reason check each round to break free. |
+| Standard (9-14) | 15 psychic damage per round. The illusion is dynamic and responds to the target's actions. Reason checks are Hard. The target acts as if the illusion is completely real, it will avoid phantom hazards, fight phantom enemies, and ignore actual threats. |
+| Strong (15-18+) | 21 psychic damage per round. The illusion is a full sensory takeover. The target is effectively blinded and deafened to the real world. Reason checks are Near-Impossible. The target may attack allies it perceives as monsters or flee from imaginary threats. |
 
 *This is not a trick. This is an invasion. You're inside their head, building a nightmare tailored to their fears, and their own brain is doing the damage for you. Phantasmal Force turns an enemy's strongest asset, their mind, into a weapon pointed at their own throat.*
 
@@ -1243,7 +1243,7 @@ Charm magic is the whisper that becomes a command. It doesn't burn. It doesn't f
 |---------|--------|
 | Weak (1-8) | 2d6 creatures in a 20-foot radius affected by Confusion (as the Adept spell) for 1d4 rounds. |
 | Standard (9-14) | All creatures in a 30-foot radius affected for 1 minute. Confusion effects. Additionally, affected creatures cannot communicate, their speech comes out as gibberish. Spellcasters in the area must make a Reason check to cast. |
-| Strong (15-18+) | All creatures in a 40-foot radius affected. Confusion effects. No communication. Spellcasting requires a Hard Reason check. At the start of each round, one affected creature of your choice suffers a hallucination so vivid it takes 4d6 psychic damage. |
+| Strong (15-18+) | All creatures in a 40-foot radius affected. Confusion effects. No communication. Spellcasting requires a Hard Reason check. At the start of each round, one affected creature of your choice suffers a hallucination so vivid it takes 21 psychic damage. |
 
 *An entire enemy formation, reduced to screaming chaos. Mass Confusion is the spell that ends battles before the bloodshed begins. When the enemy can't tell their allies from their nightmares, your party doesn't need to fight, they just need to wait. Cleanup, not combat. The hard part is convincing your Blade not to wade in and start swinging anyway.*
 
@@ -1276,9 +1276,9 @@ Necromancy is the magic of the threshold, the doorway between life and death, an
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 1d6 necrotic damage. You regain 1 HP. |
-| Standard (9-14) | 2d6 necrotic damage. You regain HP equal to half the damage dealt (round up). |
-| Strong (15-18+) | 3d6 necrotic damage. You regain HP equal to the damage dealt. Excess healing becomes temporary HP that lasts 1 minute. |
+| Weak (1-8) | 2 necrotic damage. You regain 1 HP. |
+| Standard (9-14) | 4 necrotic damage. You regain HP equal to half the damage dealt (round up). |
+| Strong (15-18+) | 6 necrotic damage. You regain HP equal to the damage dealt. Excess healing becomes temporary HP that lasts 1 minute. |
 
 *Touch of the grave. Chill Touch is a necromancer's first taste of the transaction: their life for yours. It's a dangerous spell, you have to be close enough to touch. But when you're wounded and the enemy is in your face, swapping some of their vitality for yours feels less like dark magic and more like justice.*
 
@@ -1293,9 +1293,9 @@ Necromancy is the magic of the threshold, the doorway between life and death, an
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 2d6 necrotic damage per touch. Heal for half. Spell lasts 3 rounds. |
-| Standard (9-14) | 4d6 necrotic damage per touch. Heal for half. You can make one touch attack each round for 1 minute. |
-| Strong (15-18+) | 6d6 necrotic damage per touch. Heal for half. Each successful touch also weakens the target, it has Bane on its next attack. You gain +1 Armor (stacks up to +3) as stolen vitality shields you. |
+| Weak (1-8) | 6 necrotic damage per touch. Heal for half. Spell lasts 3 rounds. |
+| Standard (9-14) | 9 necrotic damage per touch. Heal for half. You can make one touch attack each round for 1 minute. |
+| Strong (15-18+) | 12 necrotic damage per touch. Heal for half. Each successful touch also weakens the target, it has Bane on its next attack. You gain +1 Armor (stacks up to +3) as stolen vitality shields you. |
 
 *The spell that makes you a monster, in the best possible way. Vampiric Touch turns you into a melee threat that gets stronger as the fight goes on. Every round, you hurt them and heal yourself. The math of attrition bends in your favor. Your allies may look at you differently afterward. Let them. You're still standing.*
 
@@ -1310,9 +1310,9 @@ Necromancy is the magic of the threshold, the doorway between life and death, an
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 4d6 necrotic damage. Target is sickened, Bane on attacks for 1 round. |
-| Standard (9-14) | 8d6 necrotic damage. A humanoid killed by this damage rises at the start of your next turn as a zombie permanently under your control (max 1 zombie from this spell at a time). |
-| Strong (15-18+) | 12d6 necrotic damage. A creature killed rises as a zombie. You may have up to 3 Finger of Death zombies at once. The zombie retains the base physical stats it had in life. |
+| Weak (1-8) | 9 necrotic damage. Target is sickened, Bane on attacks for 1 round. |
+| Standard (9-14) | 15 necrotic damage. A humanoid killed by this damage rises at the start of your next turn as a zombie permanently under your control (max 1 zombie from this spell at a time). |
+| Strong (15-18+) | 21 necrotic damage. A creature killed rises as a zombie. You may have up to 3 Finger of Death zombies at once. The zombie retains the base physical stats it had in life. |
 
 *The signature spell of necromancy. Finger of Death doesn't just kill, it recruits. Every enemy you drop with this spell becomes another soldier in your growing army. The BBEG's most loyal lieutenant? Now she's your most loyal lieutenant. She's not happy about it. She doesn't get a vote.*
 
@@ -1364,9 +1364,9 @@ Necromancy is the magic of the threshold, the doorway between life and death, an
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | 2 ghouls. 25 HP each. Claw attack (2d6 slashing + paralysis on Strong). Simple commands. Permanent. |
-| Standard (9-14) | 3 ghouls or 1 wight. Ghouls as above. Wight: 40 HP, longsword (4d6 slashing), life drain touch (3d6 necrotic, heals wight). Intelligent enough for tactical commands. Permanent. |
-| Strong (15-18+) | 3 wights or 1 wraith. Wights as above. Wraith: 50 HP, incorporeal, touch deals 4d6 necrotic + 1d6 Constitution damage. Can phase through walls. Intelligent and malevolent. Permanent. |
+| Weak (1-8) | 2 ghouls. 25 HP each. Claw attack (9 slashing + paralysis on Strong). Simple commands. Permanent. |
+| Standard (9-14) | 3 ghouls or 1 wight. Ghouls as above. Wight: 40 HP, longsword (15 slashing), life drain touch (15 necrotic, heals wight). Intelligent enough for tactical commands. Permanent. |
+| Strong (15-18+) | 3 wights or 1 wraith. Wights as above. Wraith: 50 HP, incorporeal, touch deals 21 necrotic + 21 Constitution damage. Can phase through walls. Intelligent and malevolent. Permanent. |
 
 *This is the spell that makes kingdoms nervous. Create Undead gives you permanent, intelligent, self-directed minions. They don't expire at dawn. They don't forget their orders. They wait in the dark, forever, for your command. Use this spell carefully. The dead remember who made them, and they're patient.*
 
@@ -1471,9 +1471,9 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | +3 Armor. Unarmed strikes deal 2d6 bludgeoning. Speed halved. Duration 3 rounds. |
-| Standard (9-14) | +4 Armor. Unarmed strikes deal 3d6 bludgeoning. Resistance to fire, ice, and lightning. Immune to poison and disease. Speed halved. You weigh 500 pounds, wooden floors may not support you. Duration 1 minute. |
-| Strong (15-18+) | +5 Armor. Unarmed strikes deal 4d6. Resistance to all elemental damage. Immune to poison, disease, and critical hits. Speed is normal, the iron is somehow weightless to you. You can punch through stone walls. |
+| Weak (1-8) | +3 Armor. Unarmed strikes deal 3 bludgeoning. Speed halved. Duration 3 rounds. |
+| Standard (9-14) | +4 Armor. Unarmed strikes deal 5 bludgeoning. Resistance to fire, ice, and lightning. Immune to poison and disease. Speed halved. You weigh 500 pounds, wooden floors may not support you. Duration 1 minute. |
+| Strong (15-18+) | +5 Armor. Unarmed strikes deal 7. Resistance to all elemental damage. Immune to poison, disease, and critical hits. Speed is normal, the iron is somehow weightless to you. You can punch through stone walls. |
 
 *You are now the party's Protector, regardless of what your character sheet says. Iron Body doesn't make you harder to hurt. It makes hurting you a bad idea. Walk into melee. Let them swing. When their blades shatter and their spells fizzle, smile with your iron teeth and remind them why transmuters don't need bodyguards.*
 
@@ -1488,9 +1488,9 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | +4 Armor. Unarmed strikes deal 3d6. Resistance to all damage. Speed halved. Duration 3 rounds. |
-| Standard (9-14) | +5 Armor. Unarmed strikes deal 4d6. Resistance to all damage. Immune to critical hits and precision damage. Spells of Adept tier or lower reflect off you, the caster takes the effect instead. Duration 1 minute. |
-| Strong (15-18+) | +6 Armor. Unarmed strikes deal 5d6. Immunity to all damage except force. Spells of any tier that target only you are reflected. Your body emits bright light in a 30-foot radius, undead and fiends in the light take 2d6 radiant damage per round. You can walk through walls by crystallizing and recrystallizing on the other side. |
+| Weak (1-8) | +4 Armor. Unarmed strikes deal 9. Resistance to all damage. Speed halved. Duration 3 rounds. |
+| Standard (9-14) | +5 Armor. Unarmed strikes deal 15. Resistance to all damage. Immune to critical hits and precision damage. Spells of Adept tier or lower reflect off you, the caster takes the effect instead. Duration 1 minute. |
+| Strong (15-18+) | +6 Armor. Unarmed strikes deal 21. Immunity to all damage except force. Spells of any tier that target only you are reflected. Your body emits bright light in a 30-foot radius, undead and fiends in the light take 4 radiant damage per round. You can walk through walls by crystallizing and recrystallizing on the other side. |
 
 *This is what perfection looks like. Diamond Form is the ultimate defensive transmutation, your body becomes the hardest substance in creation, and magic itself bounces off your crystalline skin. For one minute, you're not a combatant. You're a force of nature. The enemy can't hurt you, can't spell you, can't stop you. When the diamond mage walks into the room, the room changes. Usually by evacuating.*
 
@@ -1502,64 +1502,681 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 
 {{< pagebreak >}}
 
+{{< pagebreak >}}
+
+## Earth Chains
+
+Earth magic is the magic of patience and inevitability. Stone doesn't burn. Stone doesn't bend. Stone waits, and then it falls, and everything in its path is reminded that the ground beneath their feet is not a floor, it's a weapon. Earth mages don't chase the enemy. They make the enemy come to them, then they bury them.
+
+*See @sec-chapter-magic-system for how spellcasting works.*
+
+### Stone Spikes Chain
+**Disciplines:** Earth
+*The fundamental earth chain. From jagged floor to shaking ground to splitting earth.*
+
+#### Stone Spikes (Novice)
+**Disciplines:** 1 Earth
+**Casting Time:** 1 action
+**Range:** 60 feet
+**Duration:** 1 minute
+**Target:** 10-foot radius
+
+**Description:** The ground erupts in a field of razor-sharp stone spikes. Anything moving through the area gets torn up. Anything standing still when the spikes erupt gets a very pointed lesson in geology.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | 2 earth damage to creatures in the area when cast. The spikes are sparse, creatures can navigate them with care. |
+| Standard (9-14) | 4 earth damage to creatures in the area when cast. Spikes persist for 1 minute. Creatures entering or moving through the area take 2 earth damage per 5 feet moved. Area is difficult terrain. |
+| Strong (15-18+) | 6 earth damage to creatures in the area when cast. Spikes persist for 1 minute. Any creature knocked prone in the area takes an additional 3 earth damage as the spikes find flesh. |
+
+*Your first real earth spell. It doesn't chase. It doesn't seek. It waits. Drop it in a doorway. Drop it under the enemy formation. Let them bleed for every inch. Earth magic rewards positioning, and Stone Spikes rewards it with interest.*
+
+#### Earthquake (Adept)
+**Disciplines:** 2 Earth, 1 Energy
+**Casting Time:** 1 action
+**Range:** 100 feet
+**Duration:** Concentration, up to 1 minute
+**Target:** 30-foot radius
+
+**Description:** The ground bucks and heaves like a wounded animal. Cracks split the earth. Structures groan and collapse. Anyone standing in the area is thrown off their feet, battered by debris, and reminded that the planet is not as solid as they've been led to believe.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | 6 earth damage in a 20-foot radius. Creatures are knocked prone on a failed Agility check. Cracks appear but don't fully split. Duration 3 rounds. |
+| Standard (9-14) | 9 earth damage per round in a 30-foot radius. Creatures must make an Agility check each round or be knocked prone. Structures take double damage. Fissures open in the ground, 10 feet deep. Duration 1 minute. |
+| Strong (15-18+) | 12 earth damage per round in a 40-foot radius. Creatures have Bane on Agility checks to stay standing. Fissures are 20 feet deep and creatures falling in take additional falling damage. Structures within the radius automatically collapse on a Strong result. |
+
+*Earthquake is area denial on a geological scale. You drop it on the enemy fortification and watch the walls come down. You drop it on the charging cavalry and watch the horses panic and the riders tumble into cracks that weren't there a moment ago. When the ground is your weapon, there is no safe place to stand.*
+
+#### Fissure (Master)
+**Disciplines:** 3 Earth, 1 Energy
+**Casting Time:** 1 action
+**Range:** 150 feet
+**Duration:** Instantaneous (terrain permanent)
+**Target:** A line 60 feet long, 10 feet wide
+
+**Description:** You point at the ground and the world splits open. A chasm yawns where there was solid earth. Anything standing on the line falls. Anything on the edges scrambles. The crack doesn't close. The landscape is permanently altered. You've drawn a line on the map, and the map will never be the same.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | 30-foot line, 10 feet wide, 20 feet deep. 9 earth damage to creatures falling in. The chasm is permanent. |
+| Standard (9-14) | 60-foot line, 15 feet wide, 40 feet deep. 15 earth damage to creatures falling in. Creatures within 10 feet of the edge must make an Agility check or fall in. The fissure cuts through non-magical structures. |
+| Strong (15-18+) | 80-foot line, 20 feet wide, 60 feet deep. 21 earth damage to creatures falling in. Creatures within 20 feet of the edge must make a Hard Agility check or fall in. The fissure cuts through magical structures of Adept tier or lower. Lava seeps from the bottom, dealing 5 fire damage per round to anyone inside. |
+
+*The spell that splits battlefields. Fissure doesn't just damage, it divides. You draw a line between the enemy and their reinforcements. Between the villain and their escape route. Between your party and whatever's chasing them. The crack in the ground is permanent. The tactical implications are permanent. Earth magic's final answer to the question "how do I control the entire battlefield?"*
+
+```{=typst}
+#horizontalrule
+```
+
+{{< pagebreak >}}
+
+{{< pagebreak >}}
+
+## Wind Chains
+
+Wind magic is the art of motion. It doesn't destroy, it *relocates.* It doesn't burn, it *blows out.* Wind mages control the space between things: the distance between an archer and their target, the footing of a charging knight, the trajectory of a falling ally. Fire mages burn the world. Wind mages move it around until it looks the way they want.
+
+*See @sec-chapter-magic-system for how spellcasting works.*
+
+### Gust Chain
+**Disciplines:** Wind
+*The fundamental wind chain. From a shove of air to a howling gale that reshapes the battlefield.*
+
+#### Gust (Novice)
+**Disciplines:** 1 Wind
+**Casting Time:** 1 action
+**Range:** 30 feet
+**Duration:** Instantaneous
+**Target:** One creature or object up to 100 pounds
+
+**Description:** A concentrated blast of wind slams into your target. It's not enough to kill. It's enough to move. And sometimes, moving is all you need.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | Target is pushed 5 feet. Small unattended objects (papers, cloaks, torches) are scattered. |
+| Standard (9-14) | Target is pushed 10 feet or knocked prone (your choice). Objects up to 100 pounds are blown 15 feet. |
+| Strong (15-18+) | Target is pushed 20 feet and knocked prone. You may also extinguish all non-magical flames within 15 feet of the target or fan existing flames to double their radius for 1 round. |
+
+*The first lesson of wind magic: you don't need to hurt something to beat it. Gravity does the hurting for you. Gust is a geometry spell. Ledges, pits, campfires, unstable bridges, the battlefield is full of weapons waiting for a nudge. Be the nudge.*
+
+#### Wind Wall (Adept)
+**Disciplines:** 2 Wind, 1 Energy
+**Casting Time:** 1 action
+**Range:** 60 feet
+**Duration:** Concentration, up to 1 minute
+**Target:** A wall up to 30 feet long, 10 feet high, 5 feet thick
+
+**Description:** A roaring curtain of wind springs into existence. Arrows curve around it. Gases and clouds dissipate on contact. Small creatures that try to pass through get flung backward like they've been swatted by an invisible giant. The wall howls. The wall *judges.*
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | 15-foot wall, 10 feet high. Ranged attacks through the wall have Bane. Small flying creatures cannot pass. |
+| Standard (9-14) | 30-foot wall. Ranged attacks through the wall automatically miss (non-magical ammunition). Creatures passing through take 6 bludgeoning damage and are pushed back 10 feet. Gas, fog, and smoke cannot cross. |
+| Strong (15-18+) | 50-foot wall. As Standard, plus creatures attempting to pass through take 9 bludgeoning and are knocked prone on the far side. The wall can be shaped into a ring up to 15 feet in diameter. |
+
+*The archer's nightmare. Wind Wall says "this direction is closed." Put it between your party and the enemy archers. Put it across a bridge. Put it in front of a charging formation and watch them stumble as their momentum meets a wall of angry air. Wind magic doesn't kill. It frustrates. And frustration wins fights.*
+
+#### Whirlwind (Master)
+**Disciplines:** 3 Wind, 1 Energy
+**Casting Time:** 1 action
+**Range:** 100 feet
+**Duration:** Concentration, up to 1 minute
+**Target:** 15-foot radius, 40 feet high
+
+**Description:** A tornado touches down where you point. It's not the full fury of nature, but it's close enough. Creatures are sucked in, spun around, and flung out like dice from a cup. Debris becomes shrapnel. The battlefield becomes a blender.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | 10-foot radius whirlwind. 9 bludgeoning damage per round to creatures inside. Creatures ending their turn inside are flung 15 feet in a random direction and knocked prone. |
+| Standard (9-14) | 15-foot radius. 15 bludgeoning damage per round. Creatures must make a Brawn check to resist being pulled 10 feet toward the center each round. Creatures flung take an additional 5 damage if they strike a solid surface. |
+| Strong (15-18+) | 20-foot radius. 21 bludgeoning damage per round. Brawn checks to resist the pull have Bane. The whirlwind picks up debris that deals 4 slashing damage to all creatures within 20 feet of its edge. You can move the whirlwind 20 feet per round as part of your action. |
+
+*The wind mage's masterpiece. Whirlwind isn't just damage, it's chaos. Enemies are picked up, spun around, and deposited somewhere else with considerably less dignity and considerably more bruising. The formation collapses. The careful positioning unravels. And through it all, you stand at the center of the calm, directing the storm with a finger.*
+
+```{=typst}
+#horizontalrule
+```
+
+{{< pagebreak >}}
+
+{{< pagebreak >}}
+
+### Force Bolt Chain
+
+**Disciplines:** Energy
+*Raw kinetic force beyond the finesse of Magic Missile. No seeking. No subtlety. Just pure, concentrated impact.*
+
+#### Force Bolt (Novice)
+**Disciplines:** 1 Energy
+**Casting Time:** 1 action
+**Range:** 60 feet
+**Duration:** Instantaneous
+**Target:** One creature
+
+**Description:** A fist-sized bolt of pure kinetic energy slams into the target. No fire, no ice, just force. It's the simplest expression of magical will: the universe said no, and you disagreed.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | 2 force damage. The bolt glances off, but the target feels it. |
+| Standard (9-14) | 4 force damage. The target is staggered, its next attack has a -1 penalty as it recovers from the impact. |
+| Strong (15-18+) | 6 force damage. The target is knocked back 5 feet. If it strikes a solid surface, it takes an additional 2 force damage. |
+
+*The unsubtle cousin of Magic Missile. Force Bolt doesn't seek. It doesn't curve. It flies straight and hits hard. But where Magic Missile is reliable, Force Bolt is brutal. You're not carefully placing darts. You're throwing a punch made of will, and the universe is the one getting hit.*
+
+#### Force Wave (Adept)
+**Disciplines:** 2 Energy
+**Casting Time:** 1 action
+**Range:** Self (20-foot cone)
+**Duration:** Instantaneous
+**Target:** All creatures in a 20-foot cone
+
+**Description:** You thrust both hands forward and a wave of telekinetic force erupts outward. It's a shockwave without the sound, a battering ram the size of a house. Everything in front of you gets flattened, scattered, and reconsidered.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | 6 force damage in a 10-foot cone. Creatures are pushed 5 feet. |
+| Standard (9-14) | 9 force damage in a 20-foot cone. Creatures are pushed 10 feet and knocked prone. Loose objects in the area are scattered to the edges of the cone. |
+| Strong (15-18+) | 12 force damage in a 25-foot cone. Creatures are pushed 15 feet, knocked prone, and stunned for 1 round as their brains rattle in their skulls. Fragile structures in the area (wooden doors, windows, furniture) are destroyed. |
+
+*For when they've surrounded you. For when subtlety has failed. For when the only message that will land is "everyone in front of me is now horizontal." Force Wave doesn't negotiate. It doesn't discriminate. It doesn't apologize. It just clears the room.*
+
+#### Force Crush (Master)
+**Disciplines:** 3 Energy, 1 Earth
+**Casting Time:** 1 action
+**Range:** 60 feet
+**Duration:** Instantaneous
+**Target:** One creature or object
+
+**Description:** You close your fist and an invisible vice of telekinetic force closes around the target. The pressure is absolute. Armor crumples. Bones crack. The air is forced from their lungs. When you open your hand, what's left of them drops to the ground.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | 9 force damage. The target is restrained until the end of its next turn as the force grips them. |
+| Standard (9-14) | 15 force damage. The target is restrained and takes 5 ongoing force damage at the start of each of its turns until it breaks free with a Hard Brawn check. Armor is reduced by 1 from the crushing. |
+| Strong (15-18+) | 21 force damage. The target is restrained, blinded (pressure on the eyes), and silenced (pressure on the throat). Ongoing damage is 7 per round. Breaking free requires a Near-Impossible Brawn check. Non-magical armor is destroyed. The target cannot speak or cast spells with verbal components. |
+
+*This is what force magic looks like when it stops pulling punches. Force Crush doesn't throw. It doesn't push. It squeezes. You're not hitting them with force, you're wrapping force around them and tightening until something gives. Usually, it's them. The spell is brutal, efficient, and deeply personal. You feel them struggle. You feel them stop.*
+
+```{=typst}
+#horizontalrule
+```
+
+{{< pagebreak >}}
+
+{{< pagebreak >}}
+
+## Fear Chains
+
+Fear magic is the art of the flinch. It doesn't draw blood. It doesn't break bones. It breaks the thing behind the eyes, the part that says "I can win this." Fear mages don't fight the enemy. They make the enemy fight themselves, and the enemy always loses that fight.
+
+*See @sec-chapter-magic-system for how spellcasting works.*
+
+### Cause Fear Chain
+**Disciplines:** Energy
+*The fundamental fear chain. From a whisper of doubt to a scream that unravels armies.*
+
+#### Cause Fear (Novice)
+**Disciplines:** 1 Energy
+**Casting Time:** 1 action
+**Range:** 30 feet
+**Duration:** Concentration, up to 1 minute
+**Target:** One creature
+
+**Description:** You reach into the target's mind and find the thing they're most afraid of. Then you show it to them. It's not real. They know it's not real. Their body doesn't care. Their heart is already racing. Their hands are already shaking. They're already backing away.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | The target is shaken, -1 on attacks for 1 round. |
+| Standard (9-14) | The target is frightened. It has Bane on attacks and must use its move to retreat from you each round. It gets a Reason check each round to shake it off. Duration 1 minute. |
+| Strong (15-18+) | The target is terrified. Bane on attacks and checks. It must flee from you by the fastest available means. If cornered, it cowers and cannot act. Reason checks to resist have Bane. |
+
+*The first fear spell. It won't kill anyone. It'll just make them not want to be anywhere near you. Drop it on the enemy commander. Drop it on the charging ogre. Drop it on anyone whose confidence is their primary weapon. Fear doesn't need to hurt. It just needs to be believed.*
+
+#### Fear (Adept)
+**Disciplines:** 2 Energy, 1 Wind
+**Casting Time:** 1 action
+**Range:** Self (30-foot cone)
+**Duration:** Instantaneous (fear persists 1 minute)
+**Target:** All creatures in a 30-foot cone
+
+**Description:** You open your mouth and what comes out isn't a sound, it's pure terror given voice. Every creature in the cone experiences their worst fear simultaneously. Weapons drop. Bladders empty. Courage evaporates. The ones in the back are already running. The ones in the front wish they were.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | Creatures in a 15-foot cone are shaken for 1 round. -1 on attacks and checks. |
+| Standard (9-14) | Creatures in a 30-foot cone are frightened for 1 minute. Bane on attacks, must flee from you. They drop whatever they're holding. Reason check each round to recover. |
+| Strong (15-18+) | As Standard, but creatures are terrified and have Bane on the Reason check to recover. Creatures that fail their first Reason check take 6 psychic damage as their own mind turns against them. |
+
+*The spell that ends charges. Fear doesn't discriminate. The veteran knight and the fresh conscript both have something they're afraid of, and you just showed it to both of them at the same time. The cone isn't a weapon. It's a door, and behind the door is everything the enemy has ever had a nightmare about.*
+
+#### Phantasmal Killer (Master)
+**Disciplines:** 3 Energy, 1 Wind
+**Casting Time:** 1 action
+**Range:** 60 feet
+**Duration:** Concentration, up to 1 minute
+**Target:** One creature
+
+**Description:** You don't just show them their fear. You give it teeth. You give it claws. You give it their mother's voice and their father's disappointed stare. The nightmare becomes flesh, visible only to the target, and it wants them dead. And because their mind believes it, their body believes it, and belief is fatal.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | The target is frightened and takes 9 psychic damage. The killer form is indistinct, a shape in the corner of their eye. Reason check each round to disbelieve. |
+| Standard (9-14) | The target is terrified and takes 15 psychic damage per round. The killer is vivid and relentless. The target attacks the phantasm (which cannot be harmed) unless it passes a Hard Reason check each round. Allies of the target cannot see the killer and cannot convince the target it isn't real. |
+| Strong (15-18+) | As Standard, but psychic damage is 21 per round. The Reason check is Near-Impossible. The phantasm takes the form of the target's deepest, most specific fear, tailored by your knowledge of the target if you have any. If the target dies from this damage, their heart stops from pure terror, and their face freezes in an expression that will haunt whoever finds the body. |
+
+*This is fear magic's final form. Not a trick, not a scare, an assassination performed by the target's own psyche. Phantasmal Killer is personal. It's intimate. It's cruel. You're not attacking their body. You're attacking the one thing they can't armor, can't dodge, and can't outrun: their own mind. When it's over, there's no wound to explain. Just a corpse with a face full of terror and a heart that forgot how to beat.*
+
+```{=typst}
+#horizontalrule
+```
+
+{{< pagebreak >}}
+
+{{< pagebreak >}}
+
+## Arcane Ward Chains
+
+Arcane wards are the shield before the sword. They don't hurt the enemy. They make hurting you a losing proposition. Ward mages are the quiet ones at the back of the party who everyone ignores until the dragon's breath washes over the group and everyone except the ward mage is on fire. Then they're the most popular person in the room.
+
+*See @sec-chapter-magic-system for how spellcasting works.*
+
+### Arcane Ward Chain
+**Disciplines:** Energy
+*Layered magical defense. From a personal bubble to a fortress of reflected magic.*
+
+#### Arcane Ward (Novice)
+**Disciplines:** 1 Energy
+**Casting Time:** 1 action
+**Range:** Touch
+**Duration:** 10 minutes
+**Target:** One creature
+
+**Description:** You weave a shimmering layer of protective magic around the target. It's invisible until struck, then it flares for an instant, absorbing the blow before fading. Think of it as armor made of math. It's not heavy. It's not restrictive. It's just there, and when something hits it, it's suddenly very busy being somewhere else.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | The ward has 2 absorption. The next 2 points of damage the target takes are negated, then the ward fades. |
+| Standard (9-14) | The ward has 4 absorption. Absorbs damage from any source. When it breaks, the excess damage carries over to the target. Duration 10 minutes or until depleted. |
+| Strong (15-18+) | The ward has 6 absorption. As Standard, plus the first attack that breaks the ward causes a flash of light, the attacker has Bane on its next attack as it blinks away the glare. |
+
+*Insurance. Pure, simple, magical insurance. You cast Arcane Ward on yourself before the dungeon. You cast it on the Protector before the boss fight. You cast it on the rogue before they try to disarm a trap they probably shouldn't be touching. It won't stop a determined enemy, but it'll buy you one more round. And one more round is all a good party needs.*
+
+#### Spell Shield (Adept)
+**Disciplines:** 2 Energy, 1 Protection
+**Casting Time:** 1 reaction (when you or an ally within 30 feet is targeted by a spell)
+**Range:** 30 feet
+**Duration:** Instantaneous
+**Target:** One creature
+
+**Description:** A lattice of counter-spell energy springs up between the target and an incoming spell. The hostile magic hits the lattice and shatters, its energy dispersed into harmless sparkles and the faint smell of ozone. You don't just block the spell. You unmake it.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | The triggering spell's effect is reduced. Area spells shrink by half radius. Damage spells deal half damage. Debilitating effects grant the target Boon on any check to resist. |
+| Standard (9-14) | The triggering spell is negated entirely if it's Adept tier or lower. Novice spells are reflected back at the caster. The shield leaves a residual glow, the target has +2 on checks against the next magical effect within 1 round. |
+| Strong (15-18+) | The spell is negated regardless of tier (even Master). It is reflected back at the caster. The target gains +2 Armor against all magical damage for 1 round, and you regain 1 use of a Novice-tier spell slot. The shield's feedback loop didn't just block, it harvested. |
+
+*The reason ward mages are feared by other casters. Spell Shield is a reaction. You cast it when the Fireball is already in the air, when the Dominate is already reaching for your ally's mind. And then the Fireball isn't in the air anymore. And the Dominate is suddenly very interested in the caster who sent it. There's no better feeling in magic than watching an enemy caster's spell turn around and bite them.*
+
+#### Spell Turning (Master)
+**Disciplines:** 3 Energy, 1 Protection
+**Casting Time:** 1 action
+**Range:** Self
+**Duration:** Concentration, up to 1 minute
+**Target:** Self
+
+**Description:** You surround yourself with a shimmering sphere of reflective magic. Spells that target you don't just fail. They bounce. They ricochet back at their caster with full force. For the duration, you are a mirror. The enemy's magic becomes your weapon, and every caster on the battlefield learns very quickly to point their spells somewhere else.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | Spells of Novice tier or lower that target you are reflected back at the caster. 3 charges, then the sphere fades. Duration 3 rounds. |
+| Standard (9-14) | Spells of Adept tier or lower are reflected. Area spells that include you in their radius are negated for you only. 5 charges. You may choose to let beneficial spells through without consuming a charge. Duration 1 minute. |
+| Strong (15-18+) | Spells of any tier are reflected. Area spells have their center point shifted to the caster's location instead of yours. Unlimited charges for the duration. When the spell ends, any remaining charges detonate in a harmless but spectacular light show, and every caster within 100 feet knows exactly what you just did. |
+
+*This is the spell that makes enemy mages retire. Spell Turning doesn't just protect you, it punishes anyone who tries to magic you. The enemy Arcanist winds up their biggest spell and you just smile. They cast. The spell hits your sphere. The sphere considers the spell for a moment, finds it wanting, and sends it back with a note that says "try again." The look on their face when their own Disintegrate comes home is worth every discipline point you spent to get here.*
+
+```{=typst}
+#horizontalrule
+```
+
+{{< pagebreak >}}
+
+{{< pagebreak >}}
+
+## Summoning Chains
+
+Summoning is the magic of calling. You don't create. You don't transform. You reach across the boundaries between worlds, between planes, between the living and the not-living, and you pull something through. Summoners are never alone. They're never outnumbered. They're never out of options. They just need a minute, and something from somewhere else will arrive to solve the problem.
+
+*See @sec-chapter-magic-system for how spellcasting works.*
+
+### Summon Familiar Chain
+**Disciplines:** Energy
+*From a watchful spirit to an elemental ally to a bound planar entity.*
+
+#### Summon Familiar (Novice)
+**Disciplines:** 1 Energy
+**Casting Time:** 1 hour
+**Range:** 10 feet
+**Duration:** Permanent until dismissed or the familiar dies
+**Target:** An unoccupied space within range
+
+**Description:** You call a minor spirit and bind it into the form of a small animal, a cat, an owl, a raven, a spider, a snake. The familiar is intelligent, telepathically linked to you, and utterly loyal. It can't fight, not really, but it can watch, listen, and deliver touch spells from a safe distance while you stay very far away.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | The familiar arrives but is skittish. It can relay simple impressions (danger, food, light, dark) telepathically within 30 feet. |
+| Standard (9-14) | A loyal familiar of your chosen form. Telepathic link within 100 feet. You can see through its eyes and hear through its ears as an action. It can deliver touch-range spells you cast. It has 5 HP and uses your Proficiency for any checks it makes. |
+| Strong (15-18+) | As Standard, but the familiar is particularly clever. It can speak one language you know. It can use the Help action to grant Boon to an ally within 5 feet. It can carry objects up to 5 pounds. Its bond to you is strong enough that if it dies, it can be resummoned after a long rest without expending resources. |
+
+*Your first companion from beyond. The familiar won't win fights. It will, however, scout the next room, watch your back while you sleep, and deliver a Vampiric Touch to an enemy while you're thirty feet away and pretending to be harmless. Treat it well. It's not a tool. It's a friend who happens to be made of spirit-stuff and moonlight.*
+
+#### Conjure Elemental (Adept)
+**Disciplines:** 2 Energy, 1 Earth
+**Casting Time:** 1 minute
+**Range:** 30 feet
+**Duration:** Concentration, up to 1 hour
+**Target:** An unoccupied space within range
+
+**Description:** You open a doorway to an elemental plane and call something through. Fire, earth, water, or air, you choose the element. What answers is a being of raw elemental fury, bound to your will for the duration. It's not friendly. It's not tame. It's a piece of a hurricane or a volcano given form, and it's very confused about why it's here. But it will fight for you, because the binding says so.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | A lesser elemental appears. 25 HP. Its attacks deal 6 damage of its element. It follows simple commands. If you lose concentration, it turns hostile instead of vanishing. Duration 10 minutes. |
+| Standard (9-14) | A full elemental appears. 50 HP. Attacks deal 9 damage. It can follow tactical commands and act independently to fulfill your intent. If concentration breaks, it vanishes. Duration 1 hour. |
+| Strong (15-18+) | A greater elemental. 75 HP. Attacks deal 12 damage of its element + a secondary effect (fire ignites, ice slows, lightning stuns, earth knocks prone). It fights with intelligence and can use one special ability of its element (a fire elemental's immolation aura, an air elemental's whirlwind). If concentration breaks, it vanishes rather than turning hostile. |
+
+*Your first real army. An elemental isn't subtle. It's a walking natural disaster that happens to be on your side. Drop a fire elemental into the enemy camp. Send an earth elemental through the fortress wall. Put an air elemental between your party and the incoming arrows. The elemental doesn't care about tactics. It cares about the binding, and the binding says "do what the mage says."*
+
+#### Planar Binding (Master)
+**Disciplines:** 3 Energy, 1 Earth
+**Casting Time:** 1 hour
+**Range:** 30 feet
+**Duration:** Permanent until broken
+**Target:** One elemental, fey, fiend, or celestial
+
+**Description:** You don't summon. You *bind.* You call a creature from another plane, something intelligent, something powerful, and you trap it in a circle of your will. It must serve. It can negotiate. It can bargain. It can plead. But at the end of the hour, it either agrees to your terms or it stays in that circle until the stars burn out. Most creatures choose to serve.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | Bind a creature of CR 3 or lower for one task of up to 24 hours. The creature obeys the letter of the command but may exploit loopholes. It cannot harm you directly. |
+| Standard (9-14) | Bind a creature of CR 5 or lower for one month of service. It must obey any command that isn't directly self-destructive. It can be given a standing order it will follow until completed. It may attempt a Reason check once per week to break free. |
+| Strong (15-18+) | Bind a creature of CR 7 or lower for a year and a day of service. It serves loyally unless you give it a command that violates its fundamental nature. It will interpret your commands in good faith. It can be assigned to guard a location, serve as an advisor, or fight at your side. Breaking the binding requires a ritual that takes at least a full day. |
+
+*This is how summoners become legendary. Planar Binding is not a combat spell. It's a campaign spell. You bind something from beyond the material plane and it works for you for a month, a year, forever. The demon lord's lieutenant? Now she's your bodyguard. The angel who refused to help? Now they don't have a choice. The line between summoner and slave-master is thin, and Planar Binding walks it with both feet. Use it carefully. Bound things remember. And bindings, eventually, break.*
+
+```{=typst}
+#horizontalrule
+```
+
+{{< pagebreak >}}
+
+{{< pagebreak >}}
+
+## Shadow Chains
+
+Shadow magic is the art of the space between. Not darkness, darkness is just the absence of light. Shadow is the presence of something else, something that lives in the gaps between what's real and what's almost real. Shadow mages don't hide. They step sideways, into a world that's one degree removed from this one, and when they step back, they're somewhere else entirely.
+
+*See @sec-chapter-magic-system for how spellcasting works.*
+
+### Cloak of Shadow Chain
+**Disciplines:** Energy
+*From dimming the light to walking between worlds to becoming the darkness itself.*
+
+#### Cloak of Shadow (Novice)
+**Disciplines:** 1 Energy
+**Casting Time:** 1 action
+**Range:** Self
+**Duration:** Concentration, up to 10 minutes
+**Target:** Self
+
+**Description:** Shadows gather around you like a living cloak. They don't make you invisible, but they make you *less.* Less noticeable. Less memorable. Less there. Light seems to slide off you. Eyes seem to skip past you. You're not hiding. You're just not worth noticing.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | Stealth checks have +1. The shadows are thin, bright light diminishes the effect. Duration 1 minute. |
+| Standard (9-14) | Stealth checks have Boon. You can attempt to hide even when only lightly obscured. Creatures that saw you hide must make a Reason check to remember exactly where you were. Duration 10 minutes. |
+| Strong (15-18+) | As Standard, plus you can meld into an existing shadow large enough to contain you. While melded, you can't move but are invisible and silent. You can remain melded for up to 1 minute or until you take an action. |
+
+*The first shadow spell. It won't make you a ghost. It'll make you a maybe. "Was someone standing there a moment ago?" "Probably just the light." By the time they finish the thought, you're somewhere else, and the only evidence you were ever there is a shadow that's slightly darker than it should be.*
+
+#### Shadow Step (Adept)
+**Disciplines:** 2 Energy, 1 Wind
+**Casting Time:** 1 bonus action
+**Range:** 60 feet
+**Duration:** Instantaneous
+**Target:** Self
+
+**Description:** You step into one shadow and out of another. The space between is cold, silent, and very, very brief. One moment you're here. The next, you're there. Anyone watching sees the shadows flicker and you're just... somewhere else. It's not teleportation. It's taking a shortcut through somewhere that doesn't quite exist.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | Teleport 20 feet to a shadow you can see. The transition is disorienting, your next action has -1. |
+| Standard (9-14) | Teleport 60 feet to any shadow you can see or have seen within the last minute. You arrive silently. You have Boon on your next attack before the end of your turn, striking from an unexpected angle. |
+| Strong (15-18+) | Teleport 100 feet to any shadow you've ever seen in the current location. You may bring one willing creature within 5 feet with you. Both of you arrive with Boon on your next attack. You can use this to escape grapples, restraints, and non-magical bonds automatically. |
+
+*The spell that makes shadow mages impossible to pin down. Enemy has you cornered? There's a shadow under their boot. Trapped in a cell? There's a shadow in the corner. Falling off a cliff? There's a shadow on the cliff face if you're quick enough. Shadow Step doesn't just move you. It redefines what "here" and "there" mean, and it makes the enemy's careful positioning completely irrelevant.*
+
+#### Shadow Form (Master)
+**Disciplines:** 3 Energy, 1 Wind
+**Casting Time:** 1 action
+**Range:** Self
+**Duration:** Concentration, up to 1 minute
+**Target:** Self
+
+**Description:** You stop being a creature that casts shadows and become a shadow that happens to look like a creature. Your body loses its edges. Light passes through you. Weapons pass through you. You slide along walls and under doors. You are a two-dimensional piece of darkness with a will and a purpose, and solid matter is just a suggestion you've decided to ignore.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | You become a shadow. You can move through spaces as narrow as 1 inch. You have resistance to non-magical damage. You cannot attack or cast spells while in shadow form. Duration 3 rounds. |
+| Standard (9-14) | Shadow form. You can move through any gap, along walls, and across ceilings. Immune to non-magical damage. You can make one attack per round while in shadow form, your strikes emerge from the target's own shadow. Spells of Novice tier can still be cast. Duration 1 minute. |
+| Strong (15-18+) | Full shadow form. Immune to all damage except radiant and force. You can cast any spell while in shadow form. You can attempt to possess a creature's shadow, forcing them to mimic your movements (Hard Reason check to resist). You can travel through the Shadowfell, effectively teleporting up to 1 mile by spending 1 round in the in-between. Duration 1 minute. |
+
+*This is what the darkness has been saving for you. Shadow Form doesn't make you harder to hit. It makes hitting you conceptually difficult. Swords pass through darkness. Arrows find no purchase in shadow. Spells lose their target because their target has stopped being a thing and started being an absence. For one minute, you're not a combatant on the battlefield. You're a patch of darkness that the enemy's nightmares forgot to warn them about.*
+
+```{=typst}
+#horizontalrule
+```
+
+{{< pagebreak >}}
+
+{{< pagebreak >}}
+
+## Arcane Weapon Chains
+
+An arcane weapon is a spell you can hold. It's a blade of force, a hammer of fire, a spear of lightning given physical form. Weapon mages don't stand in the back and throw spells. They wade into melee with a sword made of pure magic and remind everyone that the line between "wizard" and "warrior" is a suggestion, not a rule.
+
+*See @sec-chapter-magic-system for how spellcasting works.*
+
+### Arcane Blade Chain
+**Disciplines:** Energy
+*Conjure a weapon of magic. Enhance it with element. Forge it into a blade that cuts through reality itself.*
+
+#### Arcane Blade (Novice)
+**Disciplines:** 1 Energy
+**Casting Time:** 1 action
+**Range:** Self
+**Duration:** 1 minute
+**Target:** Self
+
+**Description:** A weapon of shimmering force materializes in your hand. It can be any melee weapon shape you choose, a sword, an axe, a spear. It weighs nothing. It never dulls. It doesn't need to be drawn from a sheath, it just is, and when you swing it, it cuts with magical precision that steel can't match.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | The blade deals 2 force damage. It flickers but holds. Duration 3 rounds. |
+| Standard (9-14) | The blade deals 4 force damage. You use your spellcasting attribute for attack rolls instead of Brawn or Agility. It counts as magical for overcoming resistance. Duration 1 minute. |
+| Strong (15-18+) | The blade deals 4 force damage and gains one property of your choice: reach (10-foot range), thrown (20/40 feet, returns after attack), or finesse (can use Agility for damage). Duration 1 minute. |
+
+*Your first weapon that isn't a weapon. Arcane Blade is for the mage who's tired of being squishy. For the Arcanist who wants to look the enemy Blade in the eye and say "you and me, right now, and I brought my own sword." It's not as powerful as a Fireball. But Fireball doesn't let you parry. Fireball doesn't let you feel the impact run up your arm when you connect. Fireball is a spell. This is a statement.*
+
+#### Elemental Weapon (Adept)
+**Disciplines:** 2 Energy, 1 Fire
+**Casting Time:** 1 action
+**Range:** Touch
+**Duration:** Concentration, up to 1 minute
+**Target:** One weapon
+
+**Description:** You infuse a weapon (your Arcane Blade, your ally's sword, a random chair leg) with elemental fury. Flames wreathe the blade. Lightning crackles along the edge. Frost crusts the hilt. The weapon doesn't just hurt. It burns, it shocks, it freezes. Every swing is a spell and a strike at the same time.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | The weapon deals +3 damage of your chosen element (fire, ice, or lightning) on each hit. It sheds dim light in a 10-foot radius. Duration 3 rounds. |
+| Standard (9-14) | The weapon deals +6 elemental damage per hit. On a Strong attack result, the element flares: fire ignites the target (1 ongoing), ice slows (speed halved 1 round), lightning stuns (no reaction). Duration 1 minute. |
+| Strong (15-18+) | The weapon deals +9 elemental damage per hit. The elemental effect triggers on any hit, not just Strong results. The weapon's damage type counts as both its base type and the element (whichever is more advantageous). Once during the duration, you can unleash the element in a 15-foot cone dealing 6 damage of that element to all creatures in the area. |
+
+*Give this to your Blade. Watch their eyes light up. Watch the enemy's eyes go wide. Elemental Weapon takes a mundane problem (someone needs stabbing) and applies a magical solution (the stabbing now comes with fire). It turns every swing into a light show. It turns your frontline fighter into a walking spell delivery system. And if you cast it on your own Arcane Blade, you've got a weapon that's equal parts sword and spell, and you're about to ruin someone's entire day.*
+
+#### Blade of Disaster (Master)
+**Disciplines:** 3 Energy, 1 Wind
+**Casting Time:** 1 action
+**Range:** Self
+**Duration:** Concentration, up to 1 minute
+**Target:** Self
+
+**Description:** You call into existence a blade that isn't made of matter, isn't made of force, isn't made of anything that exists in the normal sense. It's a planar rift shaped like a sword. It cuts through armor, flesh, bone, reality itself, with equal indifference. The blade hums with wrongness. Things it cuts don't just die. They come apart at the seams, and the seams don't always go back together.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | The blade deals 9 force damage. It ignores 2 points of Armor. It can damage ethereal creatures and objects as if they were solid. Duration 3 rounds. |
+| Standard (9-14) | The blade deals 15 force damage. Ignores all Armor. Critical hits on natural 16-18 (expanded threat range). A creature killed by the blade cannot be resurrected by Novice or Adept spells, the death is too fundamental. Duration 1 minute. |
+| Strong (15-18+) | The blade deals 21 force damage. Ignores Armor and damage resistance of any kind. Hits automatically sever one non-magical object the target is holding or wearing (your choice). On a Strong attack result, the target must make a Fortitude check or lose a limb (DA's choice, context-dependent). The blade leaves wounds that resist magical healing, any healing on the target is halved until the end of its next long rest. |
+
+*This is the weapon at the end of everything. Blade of Disaster isn't a spell you cast lightly. It's a declaration. You're not fighting anymore. You're ending things. Every swing is a small apocalypse. Every hit is a reminder that the universe is mostly empty space held together by rules, and you've decided the rules don't apply to this particular sword. When you dismiss the blade, it leaves a faint scar in the air where it was, a line of nothing that takes a few seconds to heal. Even reality needs a moment to recover from what you just did.*
+
+```{=typst}
+#horizontalrule
+```
+
+{{< pagebreak >}}
+
+{{< pagebreak >}}
+
+## Gravity Chains
+
+Gravity is the oldest magic in the universe, and the most patient. It doesn't burn. It doesn't freeze. It just waits, and pulls, and never gets tired. Gravity mages don't throw things at the enemy. They make the enemy heavy. They make the ceiling the floor. They make the air itself press down like a fist the size of the sky. Gravity magic is subtle until it isn't, and when it stops being subtle, everyone within a hundred feet finds out what they really weigh.
+
+*See @sec-chapter-magic-system for how spellcasting works.*
+
+### Burden Chain
+**Disciplines:** Energy
+*From extra weight to crushing pressure to inverting the fundamental forces that hold the world together.*
+
+#### Burden (Novice)
+**Disciplines:** 1 Energy
+**Casting Time:** 1 action
+**Range:** 30 feet
+**Duration:** Concentration, up to 1 minute
+**Target:** One creature or object
+
+**Description:** You point, and the target suddenly weighs twice as much as it did a moment ago. Armor becomes a prison. Weapons become anchors. The charging enemy becomes a staggering mess trying to figure out why their own body has betrayed them. Gravity doesn't need to hurt. It just needs to be heavier than you are.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | The target's weight increases by half. Speed reduced by 5 feet. Attacks have -1. Duration 3 rounds. |
+| Standard (9-14) | Weight doubled. Speed halved. Attacks have Bane. Flying creatures are grounded. The target cannot jump or climb. Duration 1 minute. |
+| Strong (15-18+) | Weight tripled. Speed reduced to 5 feet. Attacks have Bane. The target is knocked prone and cannot stand until the spell ends. Flying creatures take 4 bludgeoning damage as they crash to the ground. |
+
+*The first gravity spell. It's not flashy. It's not destructive. It's just physics, weaponized. Cast Burden on the enemy knight in full plate and watch them sink to their knees. Cast it on the fleeing messenger and watch their sprint become a stagger. Cast it on the flying creature and watch the sky reject them. Gravity is patient. Be patient with it.*
+
+#### Crushing Force (Adept)
+**Disciplines:** 2 Energy, 1 Earth
+**Casting Time:** 1 action
+**Range:** 60 feet
+**Duration:** Concentration, up to 1 minute
+**Target:** 10-foot radius
+
+**Description:** You designate an area and gravity there becomes *angry.* Everything in the zone is pressed down as if a giant's hand is pushing from above. Bones creak. Armor deforms. Creatures are flattened to the ground, struggling to breathe, struggling to move, struggling to exist in a space where the universe has decided they weigh a thousand pounds.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | 5-foot radius. Creatures take 6 force damage and are slowed (speed halved, no reactions). Duration 3 rounds. |
+| Standard (9-14) | 10-foot radius. Creatures take 9 force damage per round. They are restrained (cannot move, attacks have Bane). Flying creatures are crushed to the ground and take double damage for the first round. Duration 1 minute. |
+| Strong (15-18+) | 15-foot radius. 12 force damage per round. Creatures are restrained and must make a Fortitude check each round or be incapacitated, unable to take actions at all. Objects in the area take double damage. Fragile structures (wooden floors, furniture) collapse. |
+
+*Gravity stops being patient. Crushing Force is an area of "you don't get to move anymore." Drop it on the enemy formation. Drop it in a doorway. Drop it on the bridge the enemy is trying to cross and watch the bridge decide it would rather be somewhere else. Everything in that circle is now subject to a gravitational field that wants them flat, and gravity always gets what it wants.*
+
+#### Reverse Gravity (Master)
+**Disciplines:** 3 Energy, 1 Earth
+**Casting Time:** 1 action
+**Range:** 100 feet
+**Duration:** Concentration, up to 1 minute
+**Target:** 20-foot radius cylinder, 40 feet high
+
+**Description:** You point up, and the universe shrugs and says "fine, that way is down now." Everything in the area falls upward. Creatures tumble into the sky, arms flailing, dignity abandoned. Objects become projectiles. The ground becomes the ceiling. And when you stop concentrating, everything falls back down. The fall up is disorienting. The fall down is terminal.
+
+| Outcome | Effect |
+|---------|--------|
+| Weak (1-8) | 15-foot radius, 30 feet high. Creatures fall upward 20 feet, taking 9 bludgeoning if they strike a ceiling. When the spell ends, they fall back down for standard falling damage. Duration 3 rounds. |
+| Standard (9-14) | 20-foot radius, 40 feet high. Creatures fall upward to the top of the cylinder (40 feet) and hover there, unable to move, taking 15 force damage per round from the gravitational stress. When the spell ends, they fall for full falling damage. Ranged attacks from within the zone have Bane, projectiles curve unpredictably. Duration 1 minute. |
+| Strong (15-18+) | 30-foot radius, 60 feet high. Creatures are hurled to the top in one round and pinned there, restrained and incapacitated. 21 force damage per round. You may release individual creatures from the effect, letting them fall early. Creatures that strike a solid surface on the way up take double damage. When concentration ends, you choose whether creatures fall or are lowered gently. |
+
+*This is the spell that makes gravity mages unforgettable. Reverse Gravity doesn't just damage, it rewrites the battlefield's relationship with down. The enemy formation becomes a cloud of flailing bodies forty feet in the air. The archers on the battlement fall up into the sky. The carefully organized battlefield becomes chaos in three dimensions. When you cast Reverse Gravity, you're not fighting the enemy anymore. You're fighting the concept of "ground," and you're winning.*
+
+```{=typst}
+#horizontalrule
+```
+
+{{< pagebreak >}}
+
+{{< pagebreak >}}
 ## Arcane Spell Quick Reference
 
 | Spell | Tier | Category | Disciplines | Summary |
 |-------|------|----------|-------------|---------|
 | Arcane Mark | Cantrip | Universal | None | Inscribe permanent invisible sigil |
 | Dancing Lights | Cantrip | Universal | None | Create up to 4 moving light orbs |
-| Frost Touch | Cantrip | Ice | None | Touch deals 1d6 ice, freezes liquids |
+| Frost Touch | Cantrip | Ice | None | Touch deals 3 ice, freezes liquids |
 | Ghost Sound | Cantrip | Illusion | None | Create sounds from a distance |
 | Mage Hand | Cantrip | Force | None | Spectral hand manipulates objects |
 | Prestidigitation | Cantrip | Universal | None | Minor magical tricks and effects |
 | Spark | Cantrip | Fire | None | Ignite flammable objects at range |
-| Static Shock | Cantrip | Lightning | None | 1d6 lightning, +1 vs. metal armor |
-| Acid Splash | Cantrip | Acid | None | 1d6 acid, ignores 1 hardness |
+| Static Shock | Cantrip | Lightning | None | 3 lightning, +1 vs. metal armor |
+| Acid Splash | Cantrip | Acid | None | 3 acid, ignores 1 hardness |
 | Whisper | Cantrip | Universal | None | Send 25-word mental message |
 | | | | | |
-| Firebolt | Novice | Fire | 1 Fire | 2d6 fire, ignites objects |
-| Fireball | Adept | Fire | 2 Fire, 1 Energy | 4d6 fire in 15-ft radius |
-| Inferno | Master | Fire | 3 Fire, 1 Energy | 6d6 fire in 30-ft radius, terrain hazard |
+| Firebolt | Novice | Fire | 1 Fire | 4 fire, ignites objects |
+| Fireball | Adept | Fire | 2 Fire, 1 Energy | 9 fire in 15-ft radius |
+| Inferno | Master | Fire | 3 Fire, 1 Energy | 15 fire in 30-ft radius, terrain hazard |
 | | | | | |
-| Burning Hands | Novice | Fire | 1 Fire | 1d6 fire in 15-ft cone |
-| Wall of Fire | Adept | Fire | 2 Fire, 1 Energy | 3d6 fire, 40-ft wall, concentration |
-| Volcanic Eruption | Master | Fire | 3 Fire, 1 Earth | 4d6 fire + 1d6 bludgeoning, 20-ft radius, lava field |
+| Burning Hands | Novice | Fire | 1 Fire | 4 fire in 15-ft cone |
+| Wall of Fire | Adept | Fire | 2 Fire, 1 Energy | 9 fire, 40-ft wall, concentration |
+| Volcanic Eruption | Master | Fire | 3 Fire, 1 Earth | 15 fire + 5 bludgeoning, 20-ft radius, lava field |
 | | | | | |
-| Scorching Ray | Novice | Fire | 1 Fire | Two rays, 1d8 fire each |
-| Flame Strike | Adept | Fire | 2 Fire, 1 Energy | 4d6 (half radiant) in 10-ft radius |
-| Meteor Swarm | Master | Fire | 3 Fire, 1 Earth | Four 20-ft meteors, 4d6 fire + 2d6 bludgeoning each |
+| Scorching Ray | Novice | Fire | 1 Fire | Two rays, 2 fire each |
+| Flame Strike | Adept | Fire | 2 Fire, 1 Energy | 9 (half radiant) in 10-ft radius |
+| Meteor Swarm | Master | Fire | 3 Fire, 1 Earth | Four 20-ft meteors, 12 fire + 3 bludgeoning each |
 | | | | | |
-| Frost Ray | Novice | Ice | 1 Water | 2d6 ice, slows target |
-| Ice Storm | Adept | Ice | 2 Water, 1 Wind | 3d6 ice + 1d6 bludgeoning, 20-ft radius, slippery terrain |
-| Blizzard | Master | Ice | 3 Water, 1 Wind | 3d6 ice/round, 40-ft radius, heavy obscurement |
+| Frost Ray | Novice | Ice | 1 Water | 4 ice, slows target |
+| Ice Storm | Adept | Ice | 2 Water, 1 Wind | 9 ice + 3 bludgeoning, 20-ft radius, slippery terrain |
+| Blizzard | Master | Ice | 3 Water, 1 Wind | 15 ice/round, 40-ft radius, heavy obscurement |
 | | | | | |
-| Chill Touch | Novice | Ice | 1 Water | 2d6 ice, touch, Bane on next attack |
-| Freeze Solid | Adept | Ice | 2 Water, 1 Energy | Restrain + 2d6 ice, ongoing damage |
-| Glacial Prison | Master | Ice | 3 Water, 1 Energy | Imprison in ice, 4d6 initial + 2d6/round |
+| Chill Touch | Novice | Ice | 1 Water | 4 ice, touch, Bane on next attack |
+| Freeze Solid | Adept | Ice | 2 Water, 1 Energy | Restrain + 9 ice, ongoing damage |
+| Glacial Prison | Master | Ice | 3 Water, 1 Energy | Imprison in ice, 15 initial + 4 ongoing/round |
 | | | | | |
-| Frost Armor | Novice | Ice | 1 Water | +2 Armor, melee attackers take 1d4 ice |
-| Ice Shield | Adept | Ice | 2 Water, 1 Protection | Reaction: reduce damage by 2d6, +2 Armor for round |
-| Frozen Aegis | Master | Ice | 3 Water, 1 Protection | +3 Armor, cold immunity, can shatter for 4d6 AoE |
+| Frost Armor | Novice | Ice | 1 Water | +2 Armor, melee attackers take 1 ice |
+| Ice Shield | Adept | Ice | 2 Water, 1 Protection | Reaction: reduce damage by 9, +2 Armor for round |
+| Frozen Aegis | Master | Ice | 3 Water, 1 Protection | +3 Armor, cold immunity, can shatter for 12 AoE |
 | | | | | |
-| Shock | Novice | Lightning | 1 Wind | 2d6 lightning, touch, dazes target |
-| Lightning Bolt | Adept | Lightning | 2 Wind, 1 Energy | 4d6 lightning in 60-ft line |
-| Chain Lightning | Master | Lightning | 3 Wind, 1 Energy | 6d6 primary + 3d6 to 4 secondary targets |
+| Shock | Novice | Lightning | 1 Wind | 4 lightning, touch, dazes target |
+| Lightning Bolt | Adept | Lightning | 2 Wind, 1 Energy | 9 lightning in 60-ft line |
+| Chain Lightning | Master | Lightning | 3 Wind, 1 Energy | 15 primary, 5 to 4 secondary targets |
 | | | | | |
-| Static Field | Novice | Lightning | 1 Wind | 1d6 lightning aura, 10-ft radius |
-| Thunderclap | Adept | Lightning | 2 Wind, 1 Energy | 3d6 sonic in 20-ft radius, pushes + deafens |
-| Storm Call | Master | Lightning | 3 Wind, 1 Energy | 4d6 lightning strike/round, 50-ft radius storm |
+| Static Field | Novice | Lightning | 1 Wind | 4 lightning aura, 10-ft radius |
+| Thunderclap | Adept | Lightning | 2 Wind, 1 Energy | 9 sonic in 20-ft radius, pushes + deafens |
+| Storm Call | Master | Lightning | 3 Wind, 1 Energy | 15 lightning strike/round, 50-ft radius storm |
 | | | | | |
-| Acid Splash, Greater | Novice | Acid | 1 Earth | 2d6 acid, 1d4 ongoing |
-| Caustic Spray | Adept | Acid | 2 Earth, 1 Energy | 3d6 acid in 30-ft cone, ongoing damage |
-| Dissolve | Master | Acid | 3 Earth, 1 Energy | 6d6 acid, destroys armor, leaves acid pool |
+| Acid Splash, Greater | Novice | Acid | 1 Earth | 4 acid, 2 ongoing |
+| Caustic Spray | Adept | Acid | 2 Earth, 1 Energy | 9 acid in 30-ft cone, 3 ongoing |
+| Dissolve | Master | Acid | 3 Earth, 1 Energy | 15 acid, destroys armor, leaves acid pool |
 | | | | | |
 | Corrode | Novice | Acid | 1 Earth | Destroy small object, reduce armor by 1 |
-| Melt Armor | Adept | Acid | 2 Earth, 1 Energy | Reduce armor by 2, 2d6 acid to wearer |
-| Acid Pit | Master | Acid | 3 Earth, 1 Energy | 15-ft pit, 3d6 acid/round, dissolves armor |
+| Melt Armor | Adept | Acid | 2 Earth, 1 Energy | Reduce armor by 2, 9 acid to wearer |
+| Acid Pit | Master | Acid | 3 Earth, 1 Energy | 15-ft pit, 15 acid/round, dissolves armor |
 | | | | | |
-| Magic Missile | Novice | Force | 1 Energy | 3 missiles, 1d4+1 force each, never misses |
-| Force Lance | Adept | Force | 2 Energy | 4d6 force, pushes target 15 ft |
-| Disintegrate | Master | Force | 3 Energy, 1 Fire | 8d6 force, turns target to dust |
+| Magic Missile | Novice | Force | 1 Energy | 3 missiles, 2 force each, never misses |
+| Force Lance | Adept | Force | 2 Energy | 9 force, pushes target 15 ft |
+| Disintegrate | Master | Force | 3 Energy, 1 Fire | 15 force, turns target to dust |
 | | | | | |
 | Push | Novice | Force | 1 Energy | Push target 10 ft or knock prone |
 | Levitate | Adept | Force | 2 Energy, 1 Wind | Float target up to 20 ft/round |
@@ -1567,11 +2184,11 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 | | | | | |
 | Shield | Novice | Force | 1 Energy | Reaction: +2 Armor for 1 round |
 | Arcane Barrier | Adept | Force | 2 Energy, 1 Protection | 30 HP force wall, 15-ft square or 10-ft dome |
-| Prismatic Wall | Master | Force | 3 Energy, 1 Protection | 7-layer wall, 3d6/layer, blocks everything |
+| Prismatic Wall | Master | Force | 3 Energy, 1 Protection | 7-layer wall, 5/layer, blocks everything |
 | | | | | |
 | Minor Image | Novice | Illusion | 1 Energy | Static visual illusion, 5-ft cube |
 | Major Image | Adept | Illusion | 2 Energy, 1 Wind | Full sensory illusion, 20-ft cube, can move |
-| Phantasmal Force | Master | Illusion | 3 Energy, 1 Wind | Psychic assault, 4d6/round, target believes illusion |
+| Phantasmal Force | Master | Illusion | 3 Energy, 1 Wind | Psychic assault, 15/round, target believes illusion |
 | | | | | |
 | Blur | Novice | Illusion | 1 Energy | Bane on attacks against you |
 | Invisibility | Adept | Illusion | 2 Energy, 1 Wind | Invisible 1 hour, breaks on attack |
@@ -1585,9 +2202,9 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 | Confusion | Adept | Charm | 2 Energy, 1 Wind | Creatures in 15-ft radius act randomly |
 | Mass Confusion | Master | Charm | 3 Energy, 1 Wind | 30-ft radius, confusion + no communication |
 | | | | | |
-| Chill Touch, Greater | Novice | Necromancy | 1 Energy | 2d6 necrotic, heal half damage |
-| Vampiric Touch | Adept | Necromancy | 2 Energy, 1 Water | 4d6 necrotic/round, heal half, concentration |
-| Finger of Death | Master | Necromancy | 3 Energy, 1 Water | 8d6 necrotic, killed targets rise as zombies |
+| Chill Touch, Greater | Novice | Necromancy | 1 Energy | 4 necrotic, heal half damage |
+| Vampiric Touch | Adept | Necromancy | 2 Energy, 1 Water | 9 necrotic/round, heal half, concentration |
+| Finger of Death | Master | Necromancy | 3 Energy, 1 Water | 15 necrotic, killed targets rise as zombies |
 | | | | | |
 | Raise Skeleton | Novice | Necromancy | 1 Energy | Animate 1 skeleton for 1 hour |
 | Animate Dead | Adept | Necromancy | 2 Energy, 1 Earth | Raise up to 3 skeletons/zombies for 24 hours |
@@ -1598,5 +2215,41 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 | Time Stop | Master | Transmutation | 3 Energy, 1 Wind | Freeze time for 1d4+1 rounds |
 | | | | | |
 | Stone Skin | Novice | Transmutation | 1 Energy | +2 Armor, resist non-magical physical |
-| Iron Body | Adept | Transmutation | 2 Energy, 1 Earth | +4 Armor, 3d6 unarmed, elemental resist |
+| Iron Body | Adept | Transmutation | 2 Energy, 1 Earth | +4 Armor, 5 unarmed, elemental resist |
 | Diamond Form | Master | Transmutation | 3 Energy, 1 Earth | +5 Armor, reflect spells, near-invulnerable |
+| | | | | |
+| Stone Spikes | Novice | Earth | 1 Earth | 4 earth damage in 10-ft radius, persistent spikes |
+| Earthquake | Adept | Earth | 2 Earth, 1 Energy | 9 earth/round in 30-ft radius, knocks prone, fissures |
+| Fissure | Master | Earth | 3 Earth, 1 Energy | 15 earth to creatures falling in, permanent chasm |
+| | | | | |
+| Gust | Novice | Wind | 1 Wind | Push target 10 ft or knock prone |
+| Wind Wall | Adept | Wind | 2 Wind, 1 Energy | 30-ft wind wall, blocks arrows, 6 damage on pass-through |
+| Whirlwind | Master | Wind | 3 Wind, 1 Energy | 15 bludgeoning/round in 15-ft radius, flings creatures |
+| | | | | |
+| Force Bolt | Novice | Force | 1 Energy | 4 force, staggers target |
+| Force Wave | Adept | Force | 2 Energy | 9 force in 20-ft cone, pushes and knocks prone |
+| Force Crush | Master | Force | 3 Energy, 1 Earth | 15 force, restrains, ongoing crushing damage |
+| | | | | |
+| Cause Fear | Novice | Fear | 1 Energy | Frighten target, Bane on attacks, must retreat |
+| Fear | Adept | Fear | 2 Energy, 1 Wind | 30-ft cone of terror, creatures flee for 1 minute |
+| Phantasmal Killer | Master | Fear | 3 Energy, 1 Wind | 15 psychic/round, target's worst fear made real |
+| | | | | |
+| Arcane Ward | Novice | Ward | 1 Energy | 4 absorption ward, negates damage until depleted |
+| Spell Shield | Adept | Ward | 2 Energy, 1 Protection | Reaction: negate or reflect incoming spell |
+| Spell Turning | Master | Ward | 3 Energy, 1 Protection | Reflect spells back at caster for 1 minute |
+| | | | | |
+| Summon Familiar | Novice | Summoning | 1 Energy | Summon loyal spirit animal, telepathic link |
+| Conjure Elemental | Adept | Summoning | 2 Energy, 1 Earth | Summon elemental (25-75 HP), attacks deal 9 damage |
+| Planar Binding | Master | Summoning | 3 Energy, 1 Earth | Bind planar creature to service, permanent |
+| | | | | |
+| Cloak of Shadow | Novice | Shadow | 1 Energy | Boon on Stealth, hide in shadows, meld into darkness |
+| Shadow Step | Adept | Shadow | 2 Energy, 1 Wind | Bonus action: teleport 60 ft between shadows |
+| Shadow Form | Master | Shadow | 3 Energy, 1 Wind | Become living shadow, immune to non-magical damage |
+| | | | | |
+| Arcane Blade | Novice | Weapon | 1 Energy | Conjure magic weapon, deals 4 force, uses casting stat |
+| Elemental Weapon | Adept | Weapon | 2 Energy, 1 Fire | Weapon deals +6 elemental damage, secondary effects |
+| Blade of Disaster | Master | Weapon | 3 Energy, 1 Wind | 15 force blade, ignores armor, severs objects |
+| | | | | |
+| Burden | Novice | Gravity | 1 Energy | Double target's weight, halve speed, Bane on attacks |
+| Crushing Force | Adept | Gravity | 2 Energy, 1 Earth | 9 force/round in 10-ft radius, restrains creatures |
+| Reverse Gravity | Master | Gravity | 3 Energy, 1 Earth | 15 force/round, creatures fall upward 40 feet |
