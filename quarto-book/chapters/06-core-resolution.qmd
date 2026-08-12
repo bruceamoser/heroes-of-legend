@@ -4,7 +4,7 @@
 #label("sec-chapter-core-resolution")
 ```
 
-<!-- Rationale: Chapter opener at 80% width — three dice tumbling with glowing success-tier trails, visually introducing the core mechanic before the rules explain it. -->
+<!-- Rationale: Chapter opener at 80% width: three dice tumbling with glowing success-tier trails, visually introducing the core mechanic before the rules explain it. -->
 ![Placeholder: Three six-sided dice tumbling through the air in slow motion, each showing a different face, with glowing trails representing success tiers.](../assets/images/placeholder-ch06-core-resolution.png){width=80%}
 
 
@@ -30,25 +30,25 @@ That's it. Roll three dice. Add the relevant number from your character sheet. A
 | 9-14 | **Standard** | Clean success. Expected outcome. Professional work. This is what competence looks like, the lock clicks, the arrow flies true, the ancient text yields its secrets. |
 | 15-18+ | **Strong** | You crushed it. The thing you were trying to do? You did it so well that something extra happens. Extra damage. Bonus information. The crowd applauds. This is why you trained. |
 
-**Totals of Zero or Less:** If your final roll total is 0 or less, the result is Weak — and the DA adds one complication, fail-forward with teeth. The lock opens but the guard is now awake and standing behind the door. Your blade draws blood, then snaps at the hilt. The spell fires, then arcs back and singes a nearby ally.
+**Totals of Zero or Less:** If your final roll total is 0 or less, the result is Weak, and the DA adds one complication, fail-forward with teeth. The lock opens but the guard is now awake and standing behind the door. Your blade draws blood, then snaps at the hilt. The spell fires, then arcs back and singes a nearby ally.
 
 ::: {.callout-note}
 ## Why 3d6? A Designer's Note
 
 A single twenty-sided die is a fickle god. Every number from 1 to 20 is equally likely, your carefully built character with +7 to Stealth has the same 5% chance of rolling a 1 as the clumsy ogre in plate mail. That's not how skill works in stories, and it shouldn't be how it works in games.
 
-Three six-sided dice create a bell curve. Most rolls land between 9 and 12. That means your training, your attributes, your skill bonuses, your Disciplines, matters *more* than the dice. A master thief almost always sneaks past the guard. A legendary blacksmith almost never ruins the blade. When the dice do produce a 3 or an 18, it *means* something, because it only happens about once every 200 rolls. This system makes your choices matter more than your luck. We think that's how it should be.
+Three six-sided dice create a bell curve. Most rolls land between 9 and 12. That means your training, your attributes, your skill bonuses, and your Disciplines all matter *more* than the dice. A master thief almost always sneaks past the guard. A legendary blacksmith almost never ruins the blade. When the dice do produce a 3 or an 18, it *means* something, because it almost never happens. This system makes your choices matter more than your luck. I think that's how it should be.
 :::
 
 ## Boons and Banes
 
-Some situations shift the odds without changing the modifier. A **Boon** means you roll 4d6 and keep the highest three — your odds of a Strong result improve, your odds of a Fumble are nearly zero. A **Bane** means you roll 4d6 and keep the *lowest* three — you're fighting the dice, and even a Standard result feels like a victory.
+Some situations shift the odds without changing the modifier. A **Boon** means you roll 4d6 and keep the highest three. Your odds of a Strong result improve, your odds of a Fumble are nearly zero. A **Bane** means you roll 4d6 and keep the *lowest* three. You're fighting the dice, and even a Standard result feels like a victory.
 
 Boons come from clever positioning, magical aid, or a Critical effect that inspires an ally. Banes come from conditions, curses, and poor circumstances. The DA decides when the fiction warrants either, as a guideline: a Boon is worth roughly +2 on the roll, but it reshapes the probability curve rather than shifting it, making extreme failure nearly impossible.
 
 ## Opposed Rolls
 
-When two characters act directly against one another — a grapple, a shove, a disguise versus a guard's scrutiny, a lie versus someone's instinct that they're being played — both sides roll. **Higher tier wins. If tiers match, the higher total wins. If both tier and total are identical, the defender — the non-initiating party — wins the tie.**
+When two characters act directly against one another (a grapple, a shove, a disguise versus a guard's scrutiny, a lie versus someone's instinct that they're being played), both sides roll. **Higher tier wins. If tiers match, the higher total wins. If both tier and total are identical, the defender, the non-initiating party, wins the tie.**
 
 There is no margin math. If Kael rolls a 14 (Standard) to grapple a cultist who rolls a 7 (Weak), Kael wins with a Standard result. The opposed-rolls rule also governs Stealth versus passive Insight for surprise (@sec-chapter-combat), and social contests where both sides are actively working against each other (@sec-chapter-social-conflict). Wherever the book says "opposed," this is the rule.
 
@@ -140,7 +140,7 @@ Critical hits are automatic *Strong* results. Then roll a d6 for your bonus:
 | 5 | **Inspired Strike.** One ally gains a Boon on their next attack against this target. |
 | 6 | **Narrative Flourish.** Describe something epic. The DA makes it matter. |
 
-Critical hits happen about once every 216 rolls. When they do, they should feel like a lightning strike. Let the player describe it. Let the table celebrate. This is why we play.
+Critical hits are rare. When they do, they should feel like a lightning strike. Let the player describe it. Let the table celebrate. This is why we play.
 
 {{< pagebreak >}}
 
@@ -192,6 +192,6 @@ Only roll when failure is interesting. If the hero has time, tools, and training
 
 **Lyra the Odd identifies an ancient rune.** Knowledge +1, no skill, difficulty -2 (it's very old and partially worn). She rolls 2+4+4=10, adds +1 for Knowledge, subtracts 2 for difficulty, total 9. *Standard.* She recognizes it as Old Elvish, a warding glyph meant to keep something *in*, not out. That's concerning.
 
-**Roric the Protector charges the troll.** Rolls 6, 6, 6. The table erupts. *Critical!* Bonus roll: 4, Second Wind, recover 4 HP. Strong damage from his greataxe: 8. The troll's tough hide (DR 3) reduces it to 5. Still, five damage in one swing, and Roric gets his breath back. The troll's expression changes from hunger to concern.
+**Roric the Protector charges the troll.** Rolls 6, 6, 6. *Critical!* Bonus roll: 4, Second Wind, recover 4 HP. Strong damage from his greataxe: 8. The troll's tough hide (DR 3) reduces it to 5. Still, five damage in one swing, and Roric gets his breath back. The troll's expression changes from hunger to concern.
 
 **Makeva the Odd tries to pick a lock while guards approach.** Agility +1, Sleight of Hand Adept (+2), but it's dark (-2 difficulty) and she's rushing (-2 more). Total modifier: +1+2-2-2 = -1. She rolls 3+3+5=11, minus 1 = 10. *Standard.* The lock clicks open just as the guards' torchlight rounds the corner. She slips through the door and eases it shut behind her. Close. Very close.

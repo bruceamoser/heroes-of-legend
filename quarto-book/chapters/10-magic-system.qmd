@@ -6,7 +6,7 @@
 
 ![Illo 17: Magic System Art](../assets/images/page038-img026.jpeg){width="60%"}
 
-*Illustration 17 — Magic system chapter art (Odd class). Placeholder; final art TBD. Dimensions: 680×989.*
+*Illustration 17: Magic system chapter art (Odd class). Placeholder; final art TBD. Dimensions: 680×989.*
 
 {{< pagebreak >}}
 
@@ -26,7 +26,7 @@ Every spell in this game has three outcomes built right into its stat block:
 - **Standard:** Clean, expected result. Professional spellwork. This is what the spell was designed to do, and you did it.
 - **Strong:** The magic surges. Extra damage, bonus effects, wider areas. The spell doesn't just work, it *dominates.* This is why you became a caster.
 
-That's it. One roll. Three outcomes. No separate casting check, no concentration roll, no spell failure percentage.
+One roll. Three outcomes. No separate casting check, no concentration roll, no spell failure percentage.
 
 **Arcane spells** roll 3d6 + Knowledge + relevant skill. **Divine spells** roll 3d6 + Reason + relevant skill. Read the result. Magic happens.
 
@@ -114,7 +114,7 @@ Cantrips are the spells you learn before you learn "real" spells. Minor magic. P
 
 Cantrips require **no Discipline prerequisites.** Every caster knows all cantrips in their tradition, arcane or divine. These are your at-will abilities, for example: *Prestidigitation, Light, Mage Hand, Thaumaturgy, Guidance.* Small effects. Infinite uses. No roll required unless the cantrip says otherwise.
 
-They won't win a fight. They'll start one, or end one creatively. Never underestimate a caster who knows exactly what their cantrips can do.
+They won't win a fight. They'll start one, or end one creatively.
 
 {{< pagebreak >}}
 
@@ -162,4 +162,4 @@ Lyra is an Odd with 2 Fire and 1 Energy. She's facing a cluster of goblins huddl
 
 **The aftermath:** The Fireball is per-encounter. Lyra won't cast it again this fight. But she doesn't need to. She just cleared the room. Now she draws her dagger and lets the Protector handle cleanup while she looks for her next opening.
 
-That's how magic works in *Heroes of Legend.* No "sorry, I missed." No "I'm out of mana." Just one roll, one result, and a room full of consequences.
+That's how magic works in *Heroes of Legend.* No "sorry, I missed." No "I'm out of mana." Just one result and a room full of consequences.

@@ -6,19 +6,19 @@
 
 ![Illo 22: Equipment Art](../assets/images/page095-img037.jpeg){width="60%"}
 
-*Illustration 22 — Equipment chapter art. Placeholder; final art TBD. Dimensions: 713×693.*
+*Illustration 22: Equipment chapter art. Placeholder; final art TBD. Dimensions: 713×693.*
 
 {{< pagebreak >}}
 
 Your hero is going to need gear. A sword, some armor, a rope, a torch, a bedroll, and probably a ten-foot pole because someone at the table has read about pit traps. Equipment is the stuff between your hero and a bad day. Choose it well.
 
-The tables in this chapter list weapons by damage tier, armor by damage reduction, and adventuring gear by utility and cost. Prices are in gold pieces (gp), the standard currency of the realms. A laborer earns about 1 gp a month. A suit of plate armor costs more than most villagers see in a lifetime. Keep that in mind when you're haggling with the blacksmith — you're not just buying gear, you're spending someone's annual salary.
+The tables in this chapter list weapons by damage tier, armor by damage reduction, and adventuring gear by utility and cost. Prices are in gold pieces (gp), the standard currency of the realms. A laborer earns about 1 gp a month. Prices vary by region and availability; the DA sets the cost in their world. Keep that in mind when you're haggling with the blacksmith. You're not just buying gear, you're spending someone's annual salary.
 
 {{< pagebreak >}}
 
 ## Weapons
 
-Every weapon has fixed Weak, Standard, and Strong damage values. Melee weapons add your Brawn (or another attack attribute via features like Swift Blade) to every damage result. The 3d6 attack roll already determined how well you struck — no separate damage dice.
+Every weapon has fixed Weak, Standard, and Strong damage values. Melee weapons add your Brawn (or another attack attribute via features like Swift Blade) to every damage result. The 3d6 attack roll already determined how well you struck. No separate damage dice.
 
 | Weapon | Disciplines Required | Damage (W/S/St) | Attribute |
 |--------|---------------------|-----------------|-----------|
@@ -35,9 +35,9 @@ Every weapon has fixed Weak, Standard, and Strong damage values. Melee weapons a
 | Maul | 3 Heavy Weapon | 3 / 5 / 8 | + Brawn |
 | Spear | 1 Polearms | 2 / 3 / 4 | + Brawn |
 | Halberd | 1 Polearms + 1 Axes | 3 / 5 / 7 | + Brawn |
-| Shortbow | 1 Archery | 2 / 3 / 4 | — |
-| Longbow | 1 Archery | 3 / 4 / 6 | — |
-| Crossbow | 1 Archery + 1 Heavy Weapon | 3 / 5 / 7 | — |
+| Shortbow | 1 Archery | 2 / 3 / 4 | |
+| Longbow | 1 Archery | 3 / 4 / 6 | |
+| Crossbow | 1 Archery + 1 Heavy Weapon | 3 / 5 / 7 | |
 
 ::: {.callout-note}
 ## Melee Damage
@@ -78,6 +78,8 @@ Armor provides damage reduction (DR), subtract from incoming physical damage.
 | Chain Mail | 2 Armor | 5 |
 | Plate | 3 Armor | 6 |
 
+Full table with Stealth column: see @sec-chapter-armor-shields.
+
 Shields: **Buckler** (1 Protection, +1 DR), **Shield** (1 Protection, +2 DR), **Tower Shield** (2 Protection, +3 DR, provides half cover).
 
 {{< pagebreak >}}
@@ -90,7 +92,7 @@ Slot-based system. You have 10 + (Brawn x 5) slots. Most items take 1 slot. Armo
 
 ![Illo 37: Equipment Midpoint](../assets/svg/placeholder-section.svg){width="60%"}
 
-*Illustration 37 — Equipment chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
+*Illustration 37: Equipment chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
 
 {{< pagebreak >}}
 
@@ -146,7 +148,7 @@ Mounts use a simplified stat block, HP, Speed, carrying capacity, and any specia
 
 | Mount | Cost | HP | Speed | Carry | Special |
 |-------|------|-----|-------|-------|---------|
-| **Riding Horse** | 75 gp | 20 | 60 ft | 400 lbs | — |
+| **Riding Horse** | 75 gp | 20 | 60 ft | 400 lbs | |
 | **Warhorse** | 400 gp | 35 | 50 ft | 500 lbs | Trained for combat. Does not require Animal Handling checks to control in battle. |
 | **Pony** | 30 gp | 15 | 40 ft | 200 lbs | Suitable for Small riders only. Can navigate narrow tunnels and dense forest without penalty. |
 | **Riding Dog** | 50 gp | 12 | 40 ft | 100 lbs | Keen Smell: +2 to tracking checks made with the dog's assistance. Suitable for Small riders only. |

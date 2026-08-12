@@ -4,7 +4,7 @@
 #label("sec-chapter-character-creation")
 ```
 
-<!-- Rationale: Chapter opener at 80% width — establishes the character creation journey with an aspirational hero lineup that invites readers to imagine their own character. -->
+<!-- Rationale: Chapter opener at 80% width: establishes the character creation journey with an aspirational hero lineup that invites readers to imagine their own character. -->
 ![Placeholder: A diverse lineup of heroic silhouettes standing before a character sheet unfurled like a scroll, each figure suggesting a different class choice.](../assets/images/placeholder-ch02-character-creation.png){width=80%}
 
 
@@ -112,7 +112,7 @@ These points represent your **entire life** before Level 1. They do not carry ov
 
 At Level 1, you are a **Novice**. You cannot buy Adept or Master tier anything, those unlock later, through experience.
 
-Costs below are at **Home (Favored)** rates. Your class may change these based on the Discipline cost table in @sec-chapter-classes. Cards (skills, abilities, spells) cost a flat 2/4/8 DP regardless of class — their real gate is Discipline prerequisites.
+Costs below are at **Home (Favored)** rates. Your class may change these based on the Discipline cost table in @sec-chapter-classes. Cards (skills, abilities, spells) cost a flat 2/4/8 DP regardless of class. Their real gate is Discipline prerequisites.
 
 | Purchase | Base Cost | Notes |
 |----------|----------|-------|
@@ -143,7 +143,7 @@ Between ancestry, culture, and class, a starting hero typically has 4-6 Discipli
 
 {{< pagebreak >}}
 
-<!-- Rationale: Mid-chapter visual break at 60% width — reinforces the hands-on character building process with an intimate tabletop scene. -->
+<!-- Rationale: Mid-chapter visual break at 60% width: reinforces the hands-on character building process with an intimate tabletop scene. -->
 ![Placeholder: A close-up of a player’s hands arranging ancestry and culture cards on a table, building a character backstory.](../assets/images/placeholder-ch02-creation-second.png){width=60%}
 
 
@@ -173,7 +173,7 @@ Record your Class Discipline (one rank) and signature ability. See @sec-chapter-
 
 ### Step 7: Spend Class DP
 
-You have **8 DP** for your class training. Again: spend every one. This is where you buy skills and abilities, combat techniques, spells, and talents are all just abilities with different flavors. Your class lists favored skills and a Discipline cost table; everything else follows the cost structures in @sec-chapter-classes. Cards always cost 2/4/8 DP, their real gate is Discipline prerequisites. Lean into what your class does best.
+You have **8 DP** for your class training. Again: spend every one. This is where you buy skills and abilities, combat techniques, spells, and talents are all just abilities with different flavors. Your class lists favored skills and a Discipline cost table; everything else follows the cost structures in @sec-chapter-classes. Cards cost 2/4/8 DP regardless of class (see above). Lean into what your class does best.
 
 Adept-tier skills and abilities unlock at Level 3. Master-tier at Level 7. At Level 1, everything you buy is Novice. That's fine. Novice means you're trained. You'll deepen later.
 
@@ -189,7 +189,7 @@ Receive your class starting kit. Record weapons with their Weak, Standard, and S
 |------|---------|
 | **Health Points** | 10 + Fortitude + Knowledge (at Level 1) |
 | **HP per Level** | +Fortitude (minimum 1) each level after first |
-| **Initiative** | Agility modifier |
+| **Initiative** | 3d6 + Agility modifier |
 | **Movement** | 30 ft (reduced by heavy armor) |
 | **Carry Slots** | 10 + (Brawn x 5) |
 
@@ -261,7 +261,7 @@ Total: 8 DP. All spent.
 
 **Step 9, Derived Stats:** HP 10 (10 + Fort 0 + Know 0). Initiative +1. Movement 30 ft. Carry 15 slots.
 
-**Step 10, Backstory:** Motivation, Gold (she's saving for something, she won't say what). Trinket, a silver coin that always lands on its edge.
+**Step 10, Backstory:** Motivation, Gold (she's saving for something, she won't say what). Trinket, a smooth stone that hums faintly at midnight.
 
 **Step 11, Name:** Makeva Quickfoot. Her friends call her Mak. Her enemies don't call her anything, they never saw her coming.
 
@@ -441,7 +441,7 @@ Total: 8 DP. All spent.
 - Acrobatics Novice (2 DP), footwork is everything
 - Stealth Novice (2 DP), striking from shadow
 
-Total: 6 DP. 1 DP remaining — the point is spent on story, not on the sheet.
+Total: 6 DP. 1 DP remaining. The point is spent on story, not on the sheet.
 
 **Class:** Blade. Gains 1 Blades, 1 Stealth. Signature: **Swift Blade**, use Agility instead of Brawn for blade attacks. Gains **Precise Stab**, bonus damage on opening strike.
 
@@ -574,4 +574,4 @@ Total: 8 DP. All spent.
 
 **Derived Stats:** HP 11 (10 + Fort 0 + Know 1). Initiative +0. Movement 30 ft. Carry 15 slots.
 
-**Backstory:** Motivation, Knowledge (she wants to understand why the backlash table exists at all). Trinket, a key that doesn't fit any lock. Yet. **Name:** Corwin Ash-Walker.
+**Backstory:** Motivation, Knowledge (she wants to understand why the backlash table exists at all). Trinket, a locket with a portrait of someone he's never met. **Name:** Corwin Ash-Walker.

@@ -6,7 +6,7 @@
 
 ![Illo 24: Magic Items Art](../assets/images/page102-img040.jpeg){width="60%"}
 
-*Illustration 24 — Magic items chapter art. Placeholder; final art TBD. Dimensions: 654×654.*
+*Illustration 24: Magic items chapter art. Placeholder; final art TBD. Dimensions: 654×654.*
 
 {{< pagebreak >}}
 
@@ -43,7 +43,7 @@ Every magic item follows a simple format:
 
 ![Illo 38: Magic Items Midpoint](../assets/svg/placeholder-section.svg){width="60%"}
 
-*Illustration 38 — Magic items chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
+*Illustration 38: Magic items chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
 
 {{< pagebreak >}}
 
@@ -287,7 +287,7 @@ A nondescript leather satchel, slightly larger than a coin purse. The interior i
 
 **Always On:** The bag can hold up to 500 pounds of gear while weighing only 15 pounds regardless of contents. Items placed inside must fit through the bag's opening (roughly 2 feet in diameter). Retrieving an item requires a Maneuver, the bag always produces the item you're thinking of, but you do have to reach in and find it.
 
-**Warning:** Piercing or tearing the bag from the inside destroys it and scatters its contents across the Astral Plane. Don't put the Immovable Rod in the Bag of Holding. Don't put the Bag of Holding in another Bag of Holding. These things have been tried. The craters are still there.
+**Warning:** Piercing or tearing the bag from the inside destroys it and scatters its contents across the Astral Plane. Don't put the Immovable Rod in the Bag of Holding. Don't put the Bag of Holding in another Bag of Holding.
 
 ### Rope of Climbing
 
@@ -345,7 +345,7 @@ A glass vial filled with a shimmering red liquid that catches the light like liq
 
 A crystalline vial containing a swirling, iridescent vapor that never settles. The glass is warm against your skin. When you shake it, the vapor inside roils like a tiny storm. Drinking it feels like swallowing lightning.
 
-**Activated, Drink (Maneuver):** You drink the elixir. Choose acid, cold, fire, or lightning. You exhale a 30-ft cone of that energy type. The effect resolves immediately, you can't hold it in. Trust us, people have tried.
+**Activated, Drink (Maneuver):** You drink the elixir. Choose acid, cold, fire, or lightning. You exhale a 30-ft cone of that energy type. The effect resolves immediately, you can't hold it in.
 
 | Success Tier | Effect |
 |-------------|--------|

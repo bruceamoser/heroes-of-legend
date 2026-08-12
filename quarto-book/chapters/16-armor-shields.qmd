@@ -6,7 +6,7 @@
 
 ![Illo 23: Armor Illustration](../assets/images/page101-img039.png){width="60%"}
 
-*Illustration 23 — Armor & shields chapter art (Magic items / armor). Placeholder; final art TBD. Dimensions: 1024×1024.*
+*Illustration 23: Armor & shields chapter art (Magic items / armor). Placeholder; final art TBD. Dimensions: 1024×1024.*
 
 {{< pagebreak >}}
 
@@ -30,11 +30,11 @@ If the goblin lands a Standard hit (3 damage), Kael takes 1 HP. The armor didn't
 
 | Armor | Discipline | DR | Stealth | Notes |
 |-------|-----------|-----|---------|-------|
-| **Padded** | None | 1 | — | Quilted layers. Cheap, uncomfortable, better than nothing. |
-| **Leather** | None | 2 | — | Boiled and shaped. The adventuring standard. |
-| **Studded Leather** | 1 Armor | 2 | — | Leather reinforced with rivets. Light and quiet, the rogue's choice. |
+| **Padded** | None | 1 | | Quilted layers. Cheap, uncomfortable, better than nothing. |
+| **Leather** | None | 2 | | Boiled and shaped. The adventuring standard. |
+| **Studded Leather** | 1 Armor | 2 | | Leather reinforced with rivets. Light and quiet, the rogue's choice. |
 | **Chain Shirt** | 1 Armor | 3 | Bane | Worn under clothing. Flexible, concealable, noisy when you move. |
-| **Breastplate** | 2 Armor | 4 | — | Solid chest protection. Leaves arms free for spellcasting. |
+| **Breastplate** | 2 Armor | 4 | | Solid chest protection. Leaves arms free for spellcasting. |
 | **Half Plate** | 2 Armor | 4 | Bane | Plates on vitals, chain everywhere else. The pragmatic heavy option. |
 | **Chain Mail** | 2 Armor | 5 | Bane | Full-body rings. Loud. Heavy. Effective. |
 | **Plate** | 3 Armor | 6 | Bane | The pinnacle of protection. When you absolutely need to be the last one standing. |
@@ -101,7 +101,7 @@ Roric goes with Option B. The Breastplate + Shield gives him DR 6, a Shield Bloc
 
 Roric is holding a choke point against three goblins. He's got his Shield (DR +2) and Chain Mail (DR 5). Total DR: 7. The goblins aren't getting through easily.
 
-**Goblin 1 attacks:** The DA rolls. Standard hit, 3 damage. Roric's DR 7 soaks all but the minimum — 1 damage gets through. The goblin's blade dings off his pauldron with a sad *ping.*
+**Goblin 1 attacks:** The DA rolls. Standard hit, 3 damage. Roric's DR 7 soaks all but the minimum. One damage gets through. The goblin's blade dings off his pauldron with a sad *ping.*
 
 **Goblin 2 attacks:** Strong hit, 4 damage. DR 7 soaks all but 1. Roric doesn't flinch.
 
