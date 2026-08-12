@@ -39,7 +39,7 @@ Cantrips are minor spells. The magic you learn before you learn *real* magic. Th
 They won't win a fight by themselves. But they'll start one, end one, or change the terms of one. Never underestimate a caster who knows exactly what their cantrips can do.
 
 ### Arcane Mark (Cantrip)
-**Disciplines:** None
+**No prereq**
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Permanent until dispelled
@@ -56,7 +56,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Your signature on the world. Some mages use it to claim territory. Some to leave messages. Some to remind an enemy who burned their house down.*
 
 ### Dancing Lights (Cantrip)
-**Disciplines:** None
+**No prereq**
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Concentration, up to 1 minute
@@ -73,7 +73,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Better than a torch. Worse than a fireball. But they don't go out in the rain, and they'll follow you down any hole you're stupid enough to climb into.*
 
 ### Frost Touch (Cantrip)
-**Disciplines:** None
+**No prereq**
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Instantaneous
@@ -90,7 +90,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *The first spell every ice mage learns. Touch a lock. Touch a rope. Touch a throat. Cold solves problems heat can't.*
 
 ### Ghost Sound (Cantrip)
-**Disciplines:** None
+**No prereq**
 **Casting Time:** 1 action
 **Range:** 30 feet
 **Duration:** Concentration, up to 1 minute
@@ -107,7 +107,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *The oldest trick in the book. Still works. Guards have been chasing phantom footsteps since the first wizard figured out this spell, and guards will be chasing them long after you're dust.*
 
 ### Mage Hand (Cantrip)
-**Disciplines:** None
+**No prereq**
 **Casting Time:** 1 action
 **Range:** 30 feet
 **Duration:** Concentration, up to 1 minute
@@ -124,7 +124,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *You will use this spell more than any other. You will open things you shouldn't open. You will touch things you shouldn't touch. You will learn. Or you won't.*
 
 ### Prestidigitation (Cantrip)
-**Disciplines:** None
+**No prereq**
 **Casting Time:** 1 action
 **Range:** 10 feet
 **Duration:** Up to 1 hour
@@ -141,7 +141,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *This is the spell that separates wizards from lantern-bearers. Anyone can throw fire. Making a goblin warlord's dinner taste like ashes from thirty feet away? That's art.*
 
 ### Spark (Cantrip)
-**Disciplines:** None
+**No prereq**
 **Casting Time:** 1 action
 **Range:** 30 feet
 **Duration:** Instantaneous
@@ -158,7 +158,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Every Pyromancer's first spell. Also their last, if they're not careful about where they point it. Fire doesn't care about your intentions. Fire cares about what's flammable.*
 
 ### Static Shock (Cantrip)
-**Disciplines:** None
+**No prereq**
 **Casting Time:** 1 action
 **Range:** 30 feet
 **Duration:** Instantaneous
@@ -175,7 +175,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *The crackle before the storm. Doesn't look like much. Hurts more than it looks. Aim for the one in plate.*
 
 ### Acid Splash (Cantrip)
-**Disciplines:** None
+**No prereq**
 **Casting Time:** 1 action
 **Range:** 30 feet
 **Duration:** Instantaneous
@@ -192,7 +192,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Not flashy. Not dramatic. But acid doesn't care how thick your armor is. It finds the gaps. It always finds the gaps.*
 
 ### Whisper (Cantrip)
-**Disciplines:** None
+**No prereq**
 **Casting Time:** 1 action
 **Range:** 120 feet
 **Duration:** Instantaneous
@@ -244,7 +244,7 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 *Your first real spell. Not a cantrip. Not a trick. This is the moment you stop being someone who knows magic and start being a mage.*
 
 #### Fireball (Adept)
-**Disciplines:** 2 Fire, 1 Energy
+**Disciplines:** 2 Fire
 **Casting Time:** 1 action
 **Range:** 100 feet
 **Duration:** Instantaneous
@@ -261,7 +261,7 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 *This is the spell that ends encounters and starts wars. When you cast Fireball, the battlefield changes. So does your reputation. Aim carefully. Your allies are flammable too.*
 
 #### Inferno (Master)
-**Disciplines:** 3 Fire, 1 Energy
+**Disciplines:** 2 Fire, 1 Energy
 **Casting Time:** 1 action
 **Range:** 150 feet
 **Duration:** Instantaneous
@@ -299,7 +299,7 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 *For when subtlety has failed. For when the goblins are in your face and your Protector is on the other side of the room. For when "get away from me" needs to be a statement of fact, not a request.*
 
 #### Wall of Fire (Adept)
-**Disciplines:** 2 Fire, 1 Energy
+**Disciplines:** 2 Fire
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Concentration, up to 1 minute
@@ -316,7 +316,7 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 *Fire doesn't just destroy, it divides. A Wall of Fire is a battlefield editor. It says: "This side is yours. That side is pain." Place it well and the enemy has to choose between burning and retreating. Either way, you win.*
 
 #### Volcanic Eruption (Master)
-**Disciplines:** 3 Fire, 1 Earth
+**Disciplines:** 2 Fire, 1 Earth
 **Casting Time:** 1 action
 **Range:** 100 feet
 **Duration:** Instantaneous (terrain persists 1 minute)
@@ -354,7 +354,7 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 *Why burn one thing when you can burn several? Scorching Ray is efficiency dressed in flame. Two goblins, two rays, one very surprised goblin chieftain wondering where his escorts went.*
 
 #### Flame Strike (Adept)
-**Disciplines:** 2 Fire, 1 Energy
+**Disciplines:** 2 Fire
 **Casting Time:** 1 action
 **Range:** 80 feet
 **Duration:** Instantaneous
@@ -371,7 +371,7 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 *The gods don't have a monopoly on holy fire. When an arcanist calls down Flame Strike, they're making a point: "I don't need a deity. I have physics." The undead don't appreciate the distinction.*
 
 #### Meteor Swarm (Master)
-**Disciplines:** 3 Fire, 1 Earth
+**Disciplines:** 2 Fire, 1 Earth
 **Casting Time:** 1 action
 **Range:** 200 feet
 **Duration:** Instantaneous
@@ -423,7 +423,7 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 *Heat is fast. Cold is patient. A Frost Ray doesn't just hurt, it reminds the target that they're meat, and meat freezes. Aim for the legs. A frozen enemy is a solved problem.*
 
 #### Ice Storm (Adept)
-**Disciplines:** 2 Water, 1 Wind
+**Disciplines:** 2 Water
 **Casting Time:** 1 action
 **Range:** 100 feet
 **Duration:** Instantaneous (ice persists 1 minute)
@@ -440,7 +440,7 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 *The sky doesn't care about your plans. Ice Storm is weather weaponized. It doesn't discriminate, doesn't hesitate, and doesn't stop until everything in the circle is frozen, prone, and reconsidering their life choices.*
 
 #### Blizzard (Master)
-**Disciplines:** 3 Water, 1 Wind
+**Disciplines:** 2 Water, 1 Wind
 **Casting Time:** 1 action
 **Range:** 150 feet
 **Duration:** Concentration, up to 1 minute
@@ -478,7 +478,7 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 *Touch-range ice. Dangerous to deliver, devastating when it lands. When the enemy Blade closes distance and expects an easy kill, Chill Touch reminds them that mages have teeth at every range.*
 
 #### Freeze Solid (Adept)
-**Disciplines:** 2 Water, 1 Energy
+**Disciplines:** 2 Water
 **Casting Time:** 1 action
 **Range:** 30 feet
 **Duration:** Concentration, up to 1 minute
@@ -495,7 +495,7 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 *The moment a charging ogre realizes it can't move its legs. Ice doesn't negotiate. Ice doesn't care about momentum, rage, or how many villages you've destroyed. Ice says "stop," and you stop.*
 
 #### Glacial Prison (Master)
-**Disciplines:** 3 Water, 1 Energy
+**Disciplines:** 2 Water, 1 Energy
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Concentration, up to 1 minute
@@ -533,7 +533,7 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 *Armor that bites back. Frost Armor is for the mage who plans to get hit and wants the enemy to regret it. It won't stop a greataxe, but it'll make the greataxe-wielder think twice about swinging again.*
 
 #### Ice Shield (Adept)
-**Disciplines:** 2 Water, 1 Protection
+**Disciplines:** 2 Water
 **Casting Time:** 1 reaction (when hit by an attack)
 **Range:** Self
 **Duration:** Instantaneous (shield lasts 1 round)
@@ -550,7 +550,7 @@ Ice magic is control dressed as destruction. Fire burns and moves on, ice *stays
 *The difference between a dead mage and a mage who needs a new robe. Ice Shield is a reaction, you cast it when the axe is already swinging. It's the spell that turns a killing blow into a chipped blade and a very surprised enemy.*
 
 #### Frozen Aegis (Master)
-**Disciplines:** 3 Water, 1 Protection
+**Disciplines:** 2 Water, 1 Protection
 **Casting Time:** 1 action
 **Range:** Self
 **Duration:** Concentration, up to 1 minute
@@ -602,7 +602,7 @@ Lightning doesn't ask. Lightning doesn't warn. One moment there's air, the next,
 *Touch-range lightning. The riskiest delivery method for the most reliable disabling effect. When the enemy Blade closes the gap and thinks they've got you dead to rights, grab their helmet. Show them what dead to rights actually means.*
 
 #### Lightning Bolt (Adept)
-**Disciplines:** 2 Wind, 1 Energy
+**Disciplines:** 2 Wind
 **Casting Time:** 1 action
 **Range:** Self (60-foot line)
 **Duration:** Instantaneous
@@ -619,7 +619,7 @@ Lightning doesn't ask. Lightning doesn't warn. One moment there's air, the next,
 *The line is both the spell's strength and its weakness. A fireball hits a circle, easy to aim, messy at the edges. A Lightning Bolt hits exactly what's in front of you and nothing else. Position yourself. Line up the shot. Let the thunder do the rest.*
 
 #### Chain Lightning (Master)
-**Disciplines:** 3 Wind, 1 Energy
+**Disciplines:** 2 Wind, 1 Energy
 **Casting Time:** 1 action
 **Range:** 100 feet
 **Duration:** Instantaneous
@@ -657,7 +657,7 @@ Lightning doesn't ask. Lightning doesn't warn. One moment there's air, the next,
 *Close-range insurance. Static Field says "the area around me is not safe for you." It won't stop a determined enemy, but it'll make them pay for every step. Good for mages who find themselves surrounded more often than they'd like.*
 
 #### Thunderclap (Adept)
-**Disciplines:** 2 Wind, 1 Energy
+**Disciplines:** 2 Wind
 **Casting Time:** 1 action
 **Range:** Self (20-foot radius)
 **Duration:** Instantaneous
@@ -674,7 +674,7 @@ Lightning doesn't ask. Lightning doesn't warn. One moment there's air, the next,
 *When they've surrounded you. When the Protector is down. When the only way out is through. Thunderclap clears your immediate vicinity with extreme prejudice. It's not elegant. It's not subtle. It's a hammer made of noise, and everyone within twenty feet is a nail.*
 
 #### Storm Call (Master)
-**Disciplines:** 3 Wind, 1 Energy
+**Disciplines:** 2 Wind, 1 Energy
 **Casting Time:** 1 action
 **Range:** 200 feet
 **Duration:** Concentration, up to 1 minute
@@ -726,7 +726,7 @@ Acid is the patient element. It doesn't explode. It doesn't freeze. It *eats.* A
 *The first real acid spell. It's not the initial splash you should fear, it's what the acid does in the seconds after. While the enemy is still figuring out where you hit them, the acid is already three layers deeper.*
 
 #### Caustic Spray (Adept)
-**Disciplines:** 2 Earth, 1 Energy
+**Disciplines:** 2 Earth
 **Casting Time:** 1 action
 **Range:** Self (30-foot cone)
 **Duration:** Instantaneous
@@ -743,7 +743,7 @@ Acid is the patient element. It doesn't explode. It doesn't freeze. It *eats.* A
 *For when one target isn't enough. Caustic Spray is the "I hate everything in this general direction" spell. It's messy. It's cruel. It'll ruin the furniture. But when a formation of armored soldiers is advancing on your position, "messy and cruel" is exactly what you need.*
 
 #### Dissolve (Master)
-**Disciplines:** 3 Earth, 1 Energy
+**Disciplines:** 2 Earth, 1 Energy
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Instantaneous (acid pool persists 1 minute)
@@ -781,7 +781,7 @@ Acid is the patient element. It doesn't explode. It doesn't freeze. It *eats.* A
 *Locked door? Rusted mechanism? Enemy in plate mail who thinks they're invincible? Corrode is the answer. It's not flashy, but it solves problems that fire and lightning can't touch. Every party needs someone who can dissolve a lock.*
 
 #### Melt Armor (Adept)
-**Disciplines:** 2 Earth, 1 Energy
+**Disciplines:** 2 Earth
 **Casting Time:** 1 action
 **Range:** 30 feet
 **Duration:** Instantaneous
@@ -798,7 +798,7 @@ Acid is the patient element. It doesn't explode. It doesn't freeze. It *eats.* A
 *The great equalizer. That knight in full plate with Armor 4? Now they have Armor 1 and second-degree acid burns. Melt Armor doesn't just hurt, it changes the math of the entire fight. Your Blade will thank you. The knight won't.*
 
 #### Acid Pit (Master)
-**Disciplines:** 3 Earth, 1 Energy
+**Disciplines:** 2 Earth, 1 Energy
 **Casting Time:** 1 action
 **Range:** 100 feet
 **Duration:** Concentration, up to 1 minute
@@ -873,7 +873,7 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 *Force Lance turns the environment into a weapon. A push isn't just displacement, it's an opportunity. That enemy caster on the battlement? They're not on the battlement anymore. That ogre in front of the stone pillar? The ogre and the pillar are now one. Permanently.*
 
 #### Disintegrate (Master)
-**Disciplines:** 3 Energy, 1 Fire
+**Disciplines:** 2 Energy, 1 Fire
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Instantaneous
@@ -911,7 +911,7 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 *The first lesson of force magic: you don't need to hurt something to neutralize it. Gravity does the hurting for you. Push is a geometry spell. Master the geometry of the battlefield, and you'll kill more enemies with ledges and pits than you ever will with fireballs.*
 
 #### Levitate (Adept)
-**Disciplines:** 2 Energy, 1 Wind
+**Disciplines:** 2 Energy
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Concentration, up to 10 minutes
@@ -928,7 +928,7 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 *Flight at the speed of thought. Yours, not theirs. Levitate an enemy melee fighter and they're a pinata. Levitate yourself and you're a sniper nest. Levitate the heavy gate and your party walks through. This spell is limited only by your creativity and your concentration.*
 
 #### Telekinesis (Master)
-**Disciplines:** 3 Energy, 1 Wind
+**Disciplines:** 2 Energy, 1 Wind
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Concentration, up to 10 minutes
@@ -966,7 +966,7 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 *When you see the axe coming and your life flashes before your eyes. Shield is a reaction, it's the spell that says "no" to a hit that already landed. Every force mage learns it. Every force mage uses it. It saves lives. It ends killing blows. It makes enemy Blades weep with frustration.*
 
 #### Arcane Barrier (Adept)
-**Disciplines:** 2 Energy, 1 Protection
+**Disciplines:** 2 Energy
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Concentration, up to 1 minute
@@ -983,7 +983,7 @@ Force magic is will made manifest. No fire, no ice, no lightning, just pure tele
 *Cover on demand. Arcane Barrier is a portable wall, drop it between your party and the incoming arrow storm. Drop it in a doorway to seal a room. Drop it as a dome over a downed ally while the healer works. Force magic's answer to "we need a Protector right now."*
 
 #### Prismatic Wall (Master)
-**Disciplines:** 3 Energy, 1 Protection
+**Disciplines:** 2 Energy, 1 Protection
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Concentration, up to 10 minutes
@@ -1035,7 +1035,7 @@ Illusion magic is the art of the lie that becomes truth. You don't burn the enem
 *The first lie every illusionist tells. Minor Image is a box that isn't there, a wall that doesn't exist, a hole that's just floor. Will it fool a dragon? Probably not. Will it fool the goblin guard who's been on shift for eight hours and just wants his dinner? Almost certainly.*
 
 #### Major Image (Adept)
-**Disciplines:** 2 Energy, 1 Wind
+**Disciplines:** 2 Energy
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Concentration, up to 10 minutes
@@ -1052,7 +1052,7 @@ Illusion magic is the art of the lie that becomes truth. You don't burn the enem
 *Now you're not just lying, you're directing a play with the enemy as the audience. Major Image can be anything: a false army, a friendly face, a bottomless pit where the floor used to be. The enemy won't know what's real until they touch it, and by then, your Blade is already behind them.*
 
 #### Phantasmal Force (Master)
-**Disciplines:** 3 Energy, 1 Wind
+**Disciplines:** 2 Energy, 1 Wind
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Concentration, up to 1 minute
@@ -1090,7 +1090,7 @@ Illusion magic is the art of the lie that becomes truth. You don't burn the enem
 *Not invisibility, something almost better. Blur makes you a frustrating target without making you an unseen one. Enemies know where you are. They just can't land the hit. And when their axe passes through your afterimage and buries itself in the goblin next to you? That's not your problem.*
 
 #### Invisibility (Adept)
-**Disciplines:** 2 Energy, 1 Wind
+**Disciplines:** 2 Energy
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Concentration, up to 1 hour
@@ -1107,7 +1107,7 @@ Illusion magic is the art of the lie that becomes truth. You don't burn the enem
 *The classic. Touch the rogue. Watch them disappear. Wait for the screaming to start from the enemy backline. Invisibility doesn't win fights, it wins fights before they start. Reconnaissance. Ambushes. The kind of positioning that turns a fair fight into an execution.*
 
 #### Greater Invisibility (Master)
-**Disciplines:** 3 Energy, 1 Wind
+**Disciplines:** 2 Energy, 1 Wind
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Concentration, up to 1 minute
@@ -1159,7 +1159,7 @@ Charm magic is the whisper that becomes a command. It doesn't burn. It doesn't f
 *The spell that opens more doors than any battering ram. Befriend doesn't enslave, it just makes the world a little friendlier. The guard who was going to report you is now the guard who "didn't see anything." The merchant who was going to gouge you now offers the "friends and family" price. Use it wisely. Friendships forged by magic don't survive the spell's expiration.*
 
 #### Suggestion (Adept)
-**Disciplines:** 2 Energy, 1 Wind
+**Disciplines:** 2 Energy
 **Casting Time:** 1 action
 **Range:** 30 feet
 **Duration:** Concentration, up to 8 hours
@@ -1176,7 +1176,7 @@ Charm magic is the whisper that becomes a command. It doesn't burn. It doesn't f
 *The voice that sounds like their own better judgment. Suggestion doesn't overpower the will, it sidesteps it entirely. The target thinks obeying was their idea. This is the spell that turns enemies into assets, guards into escorts, and hostile witnesses into character references.*
 
 #### Dominate (Master)
-**Disciplines:** 3 Energy, 1 Wind
+**Disciplines:** 2 Energy, 1 Wind
 **Casting Time:** 1 action
 **Range:** 30 feet
 **Duration:** Concentration, up to 1 minute
@@ -1214,7 +1214,7 @@ Charm magic is the whisper that becomes a command. It doesn't burn. It doesn't f
 *A moment of mental silence in the middle of a fight. Daze doesn't hurt. It doesn't last. But in combat, a single missed action is the difference between victory and a body on the floor. Time it right, when the enemy caster is about to unleash, when the enemy Blade has your healer cornered, and Daze is as deadly as any fireball.*
 
 #### Confusion (Adept)
-**Disciplines:** 2 Energy, 1 Wind
+**Disciplines:** 2 Energy
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Concentration, up to 1 minute
@@ -1231,7 +1231,7 @@ Charm magic is the whisper that becomes a command. It doesn't burn. It doesn't f
 *Battlefield chaos in a can. Confusion doesn't kill anyone itself, it makes the enemy kill each other. Drop it on the enemy formation and watch their carefully planned tactics dissolve into a bar brawl. The ogre attacks the goblin. The commander flees from her own standard-bearer. The archer shoots the ceiling. Somewhere, a god of trickery is laughing.*
 
 #### Mass Confusion (Master)
-**Disciplines:** 3 Energy, 1 Wind
+**Disciplines:** 2 Energy, 1 Wind
 **Casting Time:** 1 action
 **Range:** 100 feet
 **Duration:** Concentration, up to 1 minute
@@ -1283,7 +1283,7 @@ Necromancy is the magic of the threshold, the doorway between life and death, an
 *Touch of the grave. Chill Touch is a necromancer's first taste of the transaction: their life for yours. It's a dangerous spell, you have to be close enough to touch. But when you're wounded and the enemy is in your face, swapping some of their vitality for yours feels less like dark magic and more like justice.*
 
 #### Vampiric Touch (Adept)
-**Disciplines:** 2 Energy, 1 Water
+**Disciplines:** 2 Energy
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Concentration, up to 1 minute
@@ -1300,7 +1300,7 @@ Necromancy is the magic of the threshold, the doorway between life and death, an
 *The spell that makes you a monster, in the best possible way. Vampiric Touch turns you into a melee threat that gets stronger as the fight goes on. Every round, you hurt them and heal yourself. The math of attrition bends in your favor. Your allies may look at you differently afterward. Let them. You're still standing.*
 
 #### Finger of Death (Master)
-**Disciplines:** 3 Energy, 1 Water
+**Disciplines:** 2 Energy, 1 Water
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Instantaneous
@@ -1338,7 +1338,7 @@ Necromancy is the magic of the threshold, the doorway between life and death, an
 *Your first soldier. Raise Skeleton gives you an extra pair of bony hands, a flanking partner, a trap-tester, a silent sentry who doesn't need to sleep. It won't win fights on its own, but it'll take hits meant for you. And there's something to be said for sending a skeleton through every doorway first.*
 
 #### Animate Dead (Adept)
-**Disciplines:** 2 Energy, 1 Earth
+**Disciplines:** 2 Energy
 **Casting Time:** 1 minute
 **Range:** Touch
 **Duration:** 24 hours
@@ -1355,7 +1355,7 @@ Necromancy is the magic of the threshold, the doorway between life and death, an
 *Now you have a squad. Animate Dead turns a fresh battlefield into a recruitment drive. Three bodies become three soldiers. They don't complain. They don't need pay. They don't question orders. The living have limits. The dead have your permission.*
 
 #### Create Undead (Master)
-**Disciplines:** 3 Energy, 1 Earth
+**Disciplines:** 2 Energy, 1 Earth
 **Casting Time:** 1 hour
 **Duration:** Permanent until destroyed
 **Target:** Up to 3 corpses
@@ -1406,7 +1406,7 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 *The first transmutation most mages learn. Enhance doesn't transform, it optimizes. Your Blade hits a little harder. Your Protector holds the line a little longer. Your own legs carry you a little faster when it's time to not be where the dragon is breathing.*
 
 #### Haste (Adept)
-**Disciplines:** 2 Energy, 1 Wind
+**Disciplines:** 2 Energy
 **Casting Time:** 1 action
 **Range:** 30 feet
 **Duration:** Concentration, up to 1 minute
@@ -1423,7 +1423,7 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 *The best buff in the game, bar none. Haste turns your Blade into a food processor. Your Protector into a wall that's everywhere at once. Yourself into a problem that's already solved by the time the enemy realizes there's a problem. The crash at the end is real, but if the fight's not over by then, you used Haste wrong.*
 
 #### Time Stop (Master)
-**Disciplines:** 3 Energy, 1 Wind
+**Disciplines:** 2 Energy, 1 Wind
 **Casting Time:** 1 action
 **Range:** Self
 **Duration:** 2-5 rounds of apparent time
@@ -1461,7 +1461,7 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 *Armor for the naked mage. Stone Skin is the spell you cast before the fight starts, when you know you're walking into a storm of steel. You're harder to hurt, harder to move, harder to kill. The enemy will break their weapons on you, and you'll still be standing when they run out of sharp things.*
 
 #### Iron Body (Adept)
-**Disciplines:** 2 Energy, 1 Earth
+**Disciplines:** 2 Energy
 **Casting Time:** 1 action
 **Range:** Self
 **Duration:** Concentration, up to 1 minute
@@ -1478,7 +1478,7 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 *You are now the party's Protector, regardless of what your character sheet says. Iron Body doesn't make you harder to hurt. It makes hurting you a bad idea. Walk into melee. Let them swing. When their blades shatter and their spells fizzle, smile with your iron teeth and remind them why transmuters don't need bodyguards.*
 
 #### Diamond Form (Master)
-**Disciplines:** 3 Energy, 1 Earth
+**Disciplines:** 2 Energy, 1 Earth
 **Casting Time:** 1 action
 **Range:** Self
 **Duration:** Concentration, up to 1 minute
@@ -1532,7 +1532,7 @@ Earth magic is the magic of patience and inevitability. Stone doesn't burn. Ston
 *Your first real earth spell. It doesn't chase. It doesn't seek. It waits. Drop it in a doorway. Drop it under the enemy formation. Let them bleed for every inch. Earth magic rewards positioning, and Stone Spikes rewards it with interest.*
 
 #### Earthquake (Adept)
-**Disciplines:** 2 Earth, 1 Energy
+**Disciplines:** 2 Earth
 **Casting Time:** 1 action
 **Range:** 100 feet
 **Duration:** Concentration, up to 1 minute
@@ -1549,7 +1549,7 @@ Earth magic is the magic of patience and inevitability. Stone doesn't burn. Ston
 *Earthquake is area denial on a geological scale. You drop it on the enemy fortification and watch the walls come down. You drop it on the charging cavalry and watch the horses panic and the riders tumble into cracks that weren't there a moment ago. When the ground is your weapon, there is no safe place to stand.*
 
 #### Fissure (Master)
-**Disciplines:** 3 Earth, 1 Energy
+**Disciplines:** 2 Earth, 1 Energy
 **Casting Time:** 1 action
 **Range:** 150 feet
 **Duration:** Instantaneous (terrain permanent)
@@ -1601,7 +1601,7 @@ Wind magic is the art of motion. It doesn't destroy, it *relocates.* It doesn't 
 *The first lesson of wind magic: you don't need to hurt something to beat it. Gravity does the hurting for you. Gust is a geometry spell. Ledges, pits, campfires, unstable bridges, the battlefield is full of weapons waiting for a nudge. Be the nudge.*
 
 #### Wind Wall (Adept)
-**Disciplines:** 2 Wind, 1 Energy
+**Disciplines:** 2 Wind
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Concentration, up to 1 minute
@@ -1618,7 +1618,7 @@ Wind magic is the art of motion. It doesn't destroy, it *relocates.* It doesn't 
 *The archer's nightmare. Wind Wall says "this direction is closed." Put it between your party and the enemy archers. Put it across a bridge. Put it in front of a charging formation and watch them stumble as their momentum meets a wall of angry air. Wind magic doesn't kill. It frustrates. And frustration wins fights.*
 
 #### Whirlwind (Master)
-**Disciplines:** 3 Wind, 1 Energy
+**Disciplines:** 2 Wind, 1 Energy
 **Casting Time:** 1 action
 **Range:** 100 feet
 **Duration:** Concentration, up to 1 minute
@@ -1682,7 +1682,7 @@ Wind magic is the art of motion. It doesn't destroy, it *relocates.* It doesn't 
 *For when they've surrounded you. For when subtlety has failed. For when the only message that will land is "everyone in front of me is now horizontal." Force Wave doesn't negotiate. It doesn't discriminate. It doesn't apologize. It just clears the room.*
 
 #### Force Crush (Master)
-**Disciplines:** 3 Energy, 1 Earth
+**Disciplines:** 2 Energy, 1 Earth
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Instantaneous
@@ -1734,7 +1734,7 @@ Fear magic is the art of the flinch. It doesn't draw blood. It doesn't break bon
 *The first fear spell. It won't kill anyone. It'll just make them not want to be anywhere near you. Drop it on the enemy commander. Drop it on the charging ogre. Drop it on anyone whose confidence is their primary weapon. Fear doesn't need to hurt. It just needs to be believed.*
 
 #### Fear (Adept)
-**Disciplines:** 2 Energy, 1 Wind
+**Disciplines:** 2 Energy
 **Casting Time:** 1 action
 **Range:** Self (30-foot cone)
 **Duration:** Instantaneous (fear persists 1 minute)
@@ -1751,7 +1751,7 @@ Fear magic is the art of the flinch. It doesn't draw blood. It doesn't break bon
 *The spell that ends charges. Fear doesn't discriminate. The veteran knight and the fresh conscript both have something they're afraid of, and you just showed it to both of them at the same time. The cone isn't a weapon. It's a door, and behind the door is everything the enemy has ever had a nightmare about.*
 
 #### Phantasmal Killer (Master)
-**Disciplines:** 3 Energy, 1 Wind
+**Disciplines:** 2 Energy, 1 Wind
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Concentration, up to 1 minute
@@ -1803,7 +1803,7 @@ Arcane wards are the shield before the sword. They don't hurt the enemy. They ma
 *Insurance. Pure, simple, magical insurance. You cast Arcane Ward on yourself before the dungeon. You cast it on the Protector before the boss fight. You cast it on the rogue before they try to disarm a trap they probably shouldn't be touching. It won't stop a determined enemy, but it'll buy you one more round. And one more round is all a good party needs.*
 
 #### Spell Shield (Adept)
-**Disciplines:** 2 Energy, 1 Protection
+**Disciplines:** 2 Energy
 **Casting Time:** 1 reaction (when you or an ally within 30 feet is targeted by a spell)
 **Range:** 30 feet
 **Duration:** Instantaneous
@@ -1820,7 +1820,7 @@ Arcane wards are the shield before the sword. They don't hurt the enemy. They ma
 *The reason ward mages are feared by other casters. Spell Shield is a reaction. You cast it when the Fireball is already in the air, when the Dominate is already reaching for your ally's mind. And then the Fireball isn't in the air anymore. And the Dominate is suddenly very interested in the caster who sent it. There's no better feeling in magic than watching an enemy caster's spell turn around and bite them.*
 
 #### Spell Turning (Master)
-**Disciplines:** 3 Energy, 1 Protection
+**Disciplines:** 2 Energy, 1 Protection
 **Casting Time:** 1 action
 **Range:** Self
 **Duration:** Concentration, up to 1 minute
@@ -1872,7 +1872,7 @@ Summoning is the magic of calling. You don't create. You don't transform. You re
 *Your first companion from beyond. The familiar won't win fights. It will, however, scout the next room, watch your back while you sleep, and deliver a Vampiric Touch to an enemy while you're thirty feet away and pretending to be harmless. Treat it well. It's not a tool. It's a friend who happens to be made of spirit-stuff and moonlight.*
 
 #### Conjure Elemental (Adept)
-**Disciplines:** 2 Energy, 1 Earth
+**Disciplines:** 2 Energy
 **Casting Time:** 1 minute
 **Range:** 30 feet
 **Duration:** Concentration, up to 1 hour
@@ -1889,7 +1889,7 @@ Summoning is the magic of calling. You don't create. You don't transform. You re
 *Your first real army. An elemental isn't subtle. It's a walking natural disaster that happens to be on your side. Drop a fire elemental into the enemy camp. Send an earth elemental through the fortress wall. Put an air elemental between your party and the incoming arrows. The elemental doesn't care about tactics. It cares about the binding, and the binding says "do what the mage says."*
 
 #### Planar Binding (Master)
-**Disciplines:** 3 Energy, 1 Earth
+**Disciplines:** 2 Energy, 1 Earth
 **Casting Time:** 1 hour
 **Range:** 30 feet
 **Duration:** Permanent until broken
@@ -1941,7 +1941,7 @@ Shadow magic is the art of the space between. Not darkness, darkness is just the
 *The first shadow spell. It won't make you a ghost. It'll make you a maybe. "Was someone standing there a moment ago?" "Probably just the light." By the time they finish the thought, you're somewhere else, and the only evidence you were ever there is a shadow that's slightly darker than it should be.*
 
 #### Shadow Step (Adept)
-**Disciplines:** 2 Energy, 1 Wind
+**Disciplines:** 2 Energy
 **Casting Time:** 1 bonus action
 **Range:** 60 feet
 **Duration:** Instantaneous
@@ -1958,7 +1958,7 @@ Shadow magic is the art of the space between. Not darkness, darkness is just the
 *The spell that makes shadow mages impossible to pin down. Enemy has you cornered? There's a shadow under their boot. Trapped in a cell? There's a shadow in the corner. Falling off a cliff? There's a shadow on the cliff face if you're quick enough. Shadow Step doesn't just move you. It redefines what "here" and "there" mean, and it makes the enemy's careful positioning completely irrelevant.*
 
 #### Shadow Form (Master)
-**Disciplines:** 3 Energy, 1 Wind
+**Disciplines:** 2 Energy, 1 Wind
 **Casting Time:** 1 action
 **Range:** Self
 **Duration:** Concentration, up to 1 minute
@@ -2010,7 +2010,7 @@ An arcane weapon is a spell you can hold. It's a blade of force, a hammer of fir
 *Your first weapon that isn't a weapon. Arcane Blade is for the mage who's tired of being squishy. For the Arcanist who wants to look the enemy Blade in the eye and say "you and me, right now, and I brought my own sword." It's not as powerful as a Fireball. But Fireball doesn't let you parry. Fireball doesn't let you feel the impact run up your arm when you connect. Fireball is a spell. This is a statement.*
 
 #### Elemental Weapon (Adept)
-**Disciplines:** 2 Energy, 1 Fire
+**Disciplines:** 2 Energy
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Concentration, up to 1 minute
@@ -2027,7 +2027,7 @@ An arcane weapon is a spell you can hold. It's a blade of force, a hammer of fir
 *Give this to your Blade. Watch their eyes light up. Watch the enemy's eyes go wide. Elemental Weapon takes a mundane problem (someone needs stabbing) and applies a magical solution (the stabbing now comes with fire). It turns every swing into a light show. It turns your frontline fighter into a walking spell delivery system. And if you cast it on your own Arcane Blade, you've got a weapon that's equal parts sword and spell, and you're about to ruin someone's entire day.*
 
 #### Blade of Disaster (Master)
-**Disciplines:** 3 Energy, 1 Wind
+**Disciplines:** 2 Energy, 1 Wind
 **Casting Time:** 1 action
 **Range:** Self
 **Duration:** Concentration, up to 1 minute
@@ -2079,7 +2079,7 @@ Gravity is the oldest magic in the universe, and the most patient. It doesn't bu
 *The first gravity spell. It's not flashy. It's not destructive. It's just physics, weaponized. Cast Burden on the enemy knight in full plate and watch them sink to their knees. Cast it on the fleeing messenger and watch their sprint become a stagger. Cast it on the flying creature and watch the sky reject them. Gravity is patient. Be patient with it.*
 
 #### Crushing Force (Adept)
-**Disciplines:** 2 Energy, 1 Earth
+**Disciplines:** 2 Energy
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Concentration, up to 1 minute
@@ -2096,7 +2096,7 @@ Gravity is the oldest magic in the universe, and the most patient. It doesn't bu
 *Gravity stops being patient. Crushing Force is an area of "you don't get to move anymore." Drop it on the enemy formation. Drop it in a doorway. Drop it on the bridge the enemy is trying to cross and watch the bridge decide it would rather be somewhere else. Everything in that circle is now subject to a gravitational field that wants them flat, and gravity always gets what it wants.*
 
 #### Reverse Gravity (Master)
-**Disciplines:** 3 Energy, 1 Earth
+**Disciplines:** 2 Energy, 1 Earth
 **Casting Time:** 1 action
 **Range:** 100 feet
 **Duration:** Concentration, up to 1 minute
@@ -2123,133 +2123,133 @@ Gravity is the oldest magic in the universe, and the most patient. It doesn't bu
 
 | Spell | Tier | Category | Disciplines | Summary |
 |-------|------|----------|-------------|---------|
-| Arcane Mark | Cantrip | Universal | None | Inscribe permanent invisible sigil |
-| Dancing Lights | Cantrip | Universal | None | Create up to 4 moving light orbs |
-| Frost Touch | Cantrip | Ice | None | Touch deals 3 ice, freezes liquids |
-| Ghost Sound | Cantrip | Illusion | None | Create sounds from a distance |
-| Mage Hand | Cantrip | Force | None | Spectral hand manipulates objects |
-| Prestidigitation | Cantrip | Universal | None | Minor magical tricks and effects |
-| Spark | Cantrip | Fire | None | Ignite flammable objects at range |
-| Static Shock | Cantrip | Lightning | None | 3 lightning, +1 vs. metal armor |
-| Acid Splash | Cantrip | Acid | None | 3 acid, ignores 1 hardness |
-| Whisper | Cantrip | Universal | None | Send 25-word mental message |
+| Arcane Mark | Cantrip | Universal | No prereq | Inscribe permanent invisible sigil |
+| Dancing Lights | Cantrip | Universal | No prereq | Create up to 4 moving light orbs |
+| Frost Touch | Cantrip | Ice | No prereq | Touch deals 3 ice, freezes liquids |
+| Ghost Sound | Cantrip | Illusion | No prereq | Create sounds from a distance |
+| Mage Hand | Cantrip | Force | No prereq | Spectral hand manipulates objects |
+| Prestidigitation | Cantrip | Universal | No prereq | Minor magical tricks and effects |
+| Spark | Cantrip | Fire | No prereq | Ignite flammable objects at range |
+| Static Shock | Cantrip | Lightning | No prereq | 3 lightning, +1 vs. metal armor |
+| Acid Splash | Cantrip | Acid | No prereq | 3 acid, ignores 1 hardness |
+| Whisper | Cantrip | Universal | No prereq | Send 25-word mental message |
 | | | | | |
 | Firebolt | Novice | Fire | 1 Fire | 4 fire, ignites objects |
-| Fireball | Adept | Fire | 2 Fire, 1 Energy | 9 fire in 15-ft radius |
-| Inferno | Master | Fire | 3 Fire, 1 Energy | 15 fire in 30-ft radius, terrain hazard |
+| Fireball | Adept | Fire | 2 Fire | 9 fire in 15-ft radius |
+| Inferno | Master | Fire | 2 Fire, 1 Energy | 15 fire in 30-ft radius, terrain hazard |
 | | | | | |
 | Burning Hands | Novice | Fire | 1 Fire | 4 fire in 15-ft cone |
-| Wall of Fire | Adept | Fire | 2 Fire, 1 Energy | 9 fire, 40-ft wall, concentration |
-| Volcanic Eruption | Master | Fire | 3 Fire, 1 Earth | 15 fire + 5 bludgeoning, 20-ft radius, lava field |
+| Wall of Fire | Adept | Fire | 2 Fire | 9 fire, 40-ft wall, concentration |
+| Volcanic Eruption | Master | Fire | 2 Fire, 1 Earth | 15 fire + 5 bludgeoning, 20-ft radius, lava field |
 | | | | | |
 | Scorching Ray | Novice | Fire | 1 Fire | Two rays, 2 fire each |
-| Flame Strike | Adept | Fire | 2 Fire, 1 Energy | 9 (half radiant) in 10-ft radius |
-| Meteor Swarm | Master | Fire | 3 Fire, 1 Earth | Four 20-ft meteors, 12 fire + 3 bludgeoning each |
+| Flame Strike | Adept | Fire | 2 Fire | 9 (half radiant) in 10-ft radius |
+| Meteor Swarm | Master | Fire | 2 Fire, 1 Earth | Four 20-ft meteors, 12 fire + 3 bludgeoning each |
 | | | | | |
 | Frost Ray | Novice | Ice | 1 Water | 4 ice, slows target |
-| Ice Storm | Adept | Ice | 2 Water, 1 Wind | 9 ice + 3 bludgeoning, 20-ft radius, slippery terrain |
-| Blizzard | Master | Ice | 3 Water, 1 Wind | 15 ice/round, 40-ft radius, heavy obscurement |
+| Ice Storm | Adept | Ice | 2 Water | 9 ice + 3 bludgeoning, 20-ft radius, slippery terrain |
+| Blizzard | Master | Ice | 2 Water, 1 Wind | 15 ice/round, 40-ft radius, heavy obscurement |
 | | | | | |
 | Chill Touch | Novice | Ice | 1 Water | 4 ice, touch, Bane on next attack |
-| Freeze Solid | Adept | Ice | 2 Water, 1 Energy | Restrain + 9 ice, ongoing damage |
-| Glacial Prison | Master | Ice | 3 Water, 1 Energy | Imprison in ice, 15 initial + 4 ongoing/round |
+| Freeze Solid | Adept | Ice | 2 Water | Restrain + 9 ice, ongoing damage |
+| Glacial Prison | Master | Ice | 2 Water, 1 Energy | Imprison in ice, 15 initial + 4 ongoing/round |
 | | | | | |
 | Frost Armor | Novice | Ice | 1 Water | +2 Armor, melee attackers take 1 ice |
-| Ice Shield | Adept | Ice | 2 Water, 1 Protection | Reaction: reduce damage by 9, +2 Armor for round |
-| Frozen Aegis | Master | Ice | 3 Water, 1 Protection | +3 Armor, cold immunity, can shatter for 12 AoE |
+| Ice Shield | Adept | Ice | 2 Water | Reaction: reduce damage by 9, +2 Armor for round |
+| Frozen Aegis | Master | Ice | 2 Water, 1 Protection | +3 Armor, cold immunity, can shatter for 12 AoE |
 | | | | | |
 | Shock | Novice | Lightning | 1 Wind | 4 lightning, touch, dazes target |
-| Lightning Bolt | Adept | Lightning | 2 Wind, 1 Energy | 9 lightning in 60-ft line |
-| Chain Lightning | Master | Lightning | 3 Wind, 1 Energy | 15 primary, 5 to 4 secondary targets |
+| Lightning Bolt | Adept | Lightning | 2 Wind | 9 lightning in 60-ft line |
+| Chain Lightning | Master | Lightning | 2 Wind, 1 Energy | 15 primary, 5 to 4 secondary targets |
 | | | | | |
 | Static Field | Novice | Lightning | 1 Wind | 4 lightning aura, 10-ft radius |
-| Thunderclap | Adept | Lightning | 2 Wind, 1 Energy | 9 sonic in 20-ft radius, pushes + deafens |
-| Storm Call | Master | Lightning | 3 Wind, 1 Energy | 15 lightning strike/round, 50-ft radius storm |
+| Thunderclap | Adept | Lightning | 2 Wind | 9 sonic in 20-ft radius, pushes + deafens |
+| Storm Call | Master | Lightning | 2 Wind, 1 Energy | 15 lightning strike/round, 50-ft radius storm |
 | | | | | |
 | Acid Splash, Greater | Novice | Acid | 1 Earth | 4 acid, 2 ongoing |
-| Caustic Spray | Adept | Acid | 2 Earth, 1 Energy | 9 acid in 30-ft cone, 3 ongoing |
-| Dissolve | Master | Acid | 3 Earth, 1 Energy | 15 acid, destroys armor, leaves acid pool |
+| Caustic Spray | Adept | Acid | 2 Earth | 9 acid in 30-ft cone, 3 ongoing |
+| Dissolve | Master | Acid | 2 Earth, 1 Energy | 15 acid, destroys armor, leaves acid pool |
 | | | | | |
 | Corrode | Novice | Acid | 1 Earth | Destroy small object, reduce armor by 1 |
-| Melt Armor | Adept | Acid | 2 Earth, 1 Energy | Reduce armor by 2, 9 acid to wearer |
-| Acid Pit | Master | Acid | 3 Earth, 1 Energy | 15-ft pit, 15 acid/round, dissolves armor |
+| Melt Armor | Adept | Acid | 2 Earth | Reduce armor by 2, 9 acid to wearer |
+| Acid Pit | Master | Acid | 2 Earth, 1 Energy | 15-ft pit, 15 acid/round, dissolves armor |
 | | | | | |
 | Magic Missile | Novice | Force | 1 Energy | 3 missiles, 2 force each, never misses |
 | Force Lance | Adept | Force | 2 Energy | 9 force, pushes target 15 ft |
-| Disintegrate | Master | Force | 3 Energy, 1 Fire | 15 force, turns target to dust |
+| Disintegrate | Master | Force | 2 Energy, 1 Fire | 15 force, turns target to dust |
 | | | | | |
 | Push | Novice | Force | 1 Energy | Push target 10 ft or knock prone |
-| Levitate | Adept | Force | 2 Energy, 1 Wind | Float target up to 20 ft/round |
-| Telekinesis | Master | Force | 3 Energy, 1 Wind | Move up to 1,000 lbs, 30 ft/round |
+| Levitate | Adept | Force | 2 Energy | Float target up to 20 ft/round |
+| Telekinesis | Master | Force | 2 Energy, 1 Wind | Move up to 1,000 lbs, 30 ft/round |
 | | | | | |
 | Shield | Novice | Force | 1 Energy | Reaction: +2 Armor for 1 round |
-| Arcane Barrier | Adept | Force | 2 Energy, 1 Protection | 30 HP force wall, 15-ft square or 10-ft dome |
-| Prismatic Wall | Master | Force | 3 Energy, 1 Protection | 7-layer wall, 5/layer, blocks everything |
+| Arcane Barrier | Adept | Force | 2 Energy | 30 HP force wall, 15-ft square or 10-ft dome |
+| Prismatic Wall | Master | Force | 2 Energy, 1 Protection | 7-layer wall, 5/layer, blocks everything |
 | | | | | |
 | Minor Image | Novice | Illusion | 1 Energy | Static visual illusion, 5-ft cube |
-| Major Image | Adept | Illusion | 2 Energy, 1 Wind | Full sensory illusion, 20-ft cube, can move |
-| Phantasmal Force | Master | Illusion | 3 Energy, 1 Wind | Psychic assault, 15/round, target believes illusion |
+| Major Image | Adept | Illusion | 2 Energy | Full sensory illusion, 20-ft cube, can move |
+| Phantasmal Force | Master | Illusion | 2 Energy, 1 Wind | Psychic assault, 15/round, target believes illusion |
 | | | | | |
 | Blur | Novice | Illusion | 1 Energy | Bane on attacks against you |
-| Invisibility | Adept | Illusion | 2 Energy, 1 Wind | Invisible 1 hour, breaks on attack |
-| Greater Invisibility | Master | Illusion | 3 Energy, 1 Wind | Invisible 1 minute, stays invisible while attacking |
+| Invisibility | Adept | Illusion | 2 Energy | Invisible 1 hour, breaks on attack |
+| Greater Invisibility | Master | Illusion | 2 Energy, 1 Wind | Invisible 1 minute, stays invisible while attacking |
 | | | | | |
 | Befriend | Novice | Charm | 1 Energy | Target treats you as friend for 1 hour |
-| Suggestion | Adept | Charm | 2 Energy, 1 Wind | Target follows reasonable command, up to 8 hours |
-| Dominate | Master | Charm | 3 Energy, 1 Wind | Full control of target for 1 minute |
+| Suggestion | Adept | Charm | 2 Energy | Target follows reasonable command, up to 8 hours |
+| Dominate | Master | Charm | 2 Energy, 1 Wind | Full control of target for 1 minute |
 | | | | | |
 | Daze | Novice | Charm | 1 Energy | Target loses next action |
-| Confusion | Adept | Charm | 2 Energy, 1 Wind | Creatures in 15-ft radius act randomly |
-| Mass Confusion | Master | Charm | 3 Energy, 1 Wind | 30-ft radius, confusion + no communication |
+| Confusion | Adept | Charm | 2 Energy | Creatures in 15-ft radius act randomly |
+| Mass Confusion | Master | Charm | 2 Energy, 1 Wind | 30-ft radius, confusion + no communication |
 | | | | | |
 | Chill Touch, Greater | Novice | Necromancy | 1 Energy | 4 necrotic, heal half damage |
-| Vampiric Touch | Adept | Necromancy | 2 Energy, 1 Water | 9 necrotic/round, heal half, concentration |
-| Finger of Death | Master | Necromancy | 3 Energy, 1 Water | 15 necrotic, killed targets rise as zombies |
+| Vampiric Touch | Adept | Necromancy | 2 Energy | 9 necrotic/round, heal half, concentration |
+| Finger of Death | Master | Necromancy | 2 Energy, 1 Water | 15 necrotic, killed targets rise as zombies |
 | | | | | |
 | Raise Skeleton | Novice | Necromancy | 1 Energy | Animate 1 skeleton for 1 hour |
-| Animate Dead | Adept | Necromancy | 2 Energy, 1 Earth | Raise up to 3 skeletons/zombies for 24 hours |
-| Create Undead | Master | Necromancy | 3 Energy, 1 Earth | Create permanent ghouls, wights, or wraith |
+| Animate Dead | Adept | Necromancy | 2 Energy | Raise up to 3 skeletons/zombies for 24 hours |
+| Create Undead | Master | Necromancy | 2 Energy, 1 Earth | Create permanent ghouls, wights, or wraith |
 | | | | | |
 | Enhance | Novice | Transmutation | 1 Energy | +1 to two physical attributes, 1 minute |
-| Haste | Adept | Transmutation | 2 Energy, 1 Wind | Double speed, +1 action/round, 1 minute |
-| Time Stop | Master | Transmutation | 3 Energy, 1 Wind | Freeze time for 1d4+1 rounds |
+| Haste | Adept | Transmutation | 2 Energy | Double speed, +1 action/round, 1 minute |
+| Time Stop | Master | Transmutation | 2 Energy, 1 Wind | Freeze time for 1d4+1 rounds |
 | | | | | |
 | Stone Skin | Novice | Transmutation | 1 Energy | +2 Armor, resist non-magical physical |
-| Iron Body | Adept | Transmutation | 2 Energy, 1 Earth | +4 Armor, 5 unarmed, elemental resist |
-| Diamond Form | Master | Transmutation | 3 Energy, 1 Earth | +5 Armor, reflect spells, near-invulnerable |
+| Iron Body | Adept | Transmutation | 2 Energy | +4 Armor, 5 unarmed, elemental resist |
+| Diamond Form | Master | Transmutation | 2 Energy, 1 Earth | +5 Armor, reflect spells, near-invulnerable |
 | | | | | |
 | Stone Spikes | Novice | Earth | 1 Earth | 4 earth damage in 10-ft radius, persistent spikes |
-| Earthquake | Adept | Earth | 2 Earth, 1 Energy | 9 earth/round in 30-ft radius, knocks prone, fissures |
-| Fissure | Master | Earth | 3 Earth, 1 Energy | 15 earth to creatures falling in, permanent chasm |
+| Earthquake | Adept | Earth | 2 Earth | 9 earth/round in 30-ft radius, knocks prone, fissures |
+| Fissure | Master | Earth | 2 Earth, 1 Energy | 15 earth to creatures falling in, permanent chasm |
 | | | | | |
 | Gust | Novice | Wind | 1 Wind | Push target 10 ft or knock prone |
-| Wind Wall | Adept | Wind | 2 Wind, 1 Energy | 30-ft wind wall, blocks arrows, 6 damage on pass-through |
-| Whirlwind | Master | Wind | 3 Wind, 1 Energy | 15 bludgeoning/round in 15-ft radius, flings creatures |
+| Wind Wall | Adept | Wind | 2 Wind | 30-ft wind wall, blocks arrows, 6 damage on pass-through |
+| Whirlwind | Master | Wind | 2 Wind, 1 Energy | 15 bludgeoning/round in 15-ft radius, flings creatures |
 | | | | | |
 | Force Bolt | Novice | Force | 1 Energy | 4 force, staggers target |
 | Force Wave | Adept | Force | 2 Energy | 9 force in 20-ft cone, pushes and knocks prone |
-| Force Crush | Master | Force | 3 Energy, 1 Earth | 15 force, restrains, ongoing crushing damage |
+| Force Crush | Master | Force | 2 Energy, 1 Earth | 15 force, restrains, ongoing crushing damage |
 | | | | | |
 | Cause Fear | Novice | Fear | 1 Energy | Frighten target, Bane on attacks, must retreat |
-| Fear | Adept | Fear | 2 Energy, 1 Wind | 30-ft cone of terror, creatures flee for 1 minute |
-| Phantasmal Killer | Master | Fear | 3 Energy, 1 Wind | 15 psychic/round, target's worst fear made real |
+| Fear | Adept | Fear | 2 Energy | 30-ft cone of terror, creatures flee for 1 minute |
+| Phantasmal Killer | Master | Fear | 2 Energy, 1 Wind | 15 psychic/round, target's worst fear made real |
 | | | | | |
 | Arcane Ward | Novice | Ward | 1 Energy | 4 absorption ward, negates damage until depleted |
-| Spell Shield | Adept | Ward | 2 Energy, 1 Protection | Reaction: negate or reflect incoming spell |
-| Spell Turning | Master | Ward | 3 Energy, 1 Protection | Reflect spells back at caster for 1 minute |
+| Spell Shield | Adept | Ward | 2 Energy | Reaction: negate or reflect incoming spell |
+| Spell Turning | Master | Ward | 2 Energy, 1 Protection | Reflect spells back at caster for 1 minute |
 | | | | | |
 | Summon Familiar | Novice | Summoning | 1 Energy | Summon loyal spirit animal, telepathic link |
-| Conjure Elemental | Adept | Summoning | 2 Energy, 1 Earth | Summon elemental (25-75 HP), attacks deal 9 damage |
-| Planar Binding | Master | Summoning | 3 Energy, 1 Earth | Bind planar creature to service, permanent |
+| Conjure Elemental | Adept | Summoning | 2 Energy | Summon elemental (25-75 HP), attacks deal 9 damage |
+| Planar Binding | Master | Summoning | 2 Energy, 1 Earth | Bind planar creature to service, permanent |
 | | | | | |
 | Cloak of Shadow | Novice | Shadow | 1 Energy | Boon on Stealth, hide in shadows, meld into darkness |
-| Shadow Step | Adept | Shadow | 2 Energy, 1 Wind | Bonus action: teleport 60 ft between shadows |
-| Shadow Form | Master | Shadow | 3 Energy, 1 Wind | Become living shadow, immune to non-magical damage |
+| Shadow Step | Adept | Shadow | 2 Energy | Bonus action: teleport 60 ft between shadows |
+| Shadow Form | Master | Shadow | 2 Energy, 1 Wind | Become living shadow, immune to non-magical damage |
 | | | | | |
 | Arcane Blade | Novice | Weapon | 1 Energy | Conjure magic weapon, deals 4 force, uses casting stat |
-| Elemental Weapon | Adept | Weapon | 2 Energy, 1 Fire | Weapon deals +6 elemental damage, secondary effects |
-| Blade of Disaster | Master | Weapon | 3 Energy, 1 Wind | 15 force blade, ignores armor, severs objects |
+| Elemental Weapon | Adept | Weapon | 2 Energy | Weapon deals +6 elemental damage, secondary effects |
+| Blade of Disaster | Master | Weapon | 2 Energy, 1 Wind | 15 force blade, ignores armor, severs objects |
 | | | | | |
 | Burden | Novice | Gravity | 1 Energy | Double target's weight, halve speed, Bane on attacks |
-| Crushing Force | Adept | Gravity | 2 Energy, 1 Earth | 9 force/round in 10-ft radius, restrains creatures |
-| Reverse Gravity | Master | Gravity | 3 Energy, 1 Earth | 15 force/round, creatures fall upward 40 feet |
+| Crushing Force | Adept | Gravity | 2 Energy | 9 force/round in 10-ft radius, restrains creatures |
+| Reverse Gravity | Master | Gravity | 2 Energy, 1 Earth | 15 force/round, creatures fall upward 40 feet |
