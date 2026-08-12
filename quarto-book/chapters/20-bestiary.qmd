@@ -35,7 +35,7 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
 
 **Bear (Challenge 2):** HP 20, DR 2. Claw: 3/4/6. Bite: 4/5/7. Multiattack: may make both Claw and Bite as one Standard Action.
 
-**Giant Spider (Challenge 1):** HP 10, DR 0. Bite: 1d4/1d6/1d8 + poison (Fortitude save or Poisoned condition). Web (Recharge): ranged attack that Restrains target on hit.
+**Giant Spider (Challenge 1):** HP 10, DR 0. Bite: 2/3/5 + poison (Fortitude save or Poisoned condition). Web (Recharge): ranged attack that Restrains target on hit.
 
 **Swarm of Rats (Challenge 1/2):** HP 5, DR 0. Bites: automatic 1 damage to all in space. Immune to single-target attacks. Vulnerable to area effects (damage tier +1).
 
@@ -91,7 +91,7 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
 
 **Zombie (Challenge 1/2):** HP 12, DR 1. Slam: 2/3/4. Undead Fortitude: when reduced to 0 HP, roll Fortitude. On Strong, stays at 1 HP. Slow: always acts last in initiative.
 
-**Ghoul (Challenge 1):** HP 10, DR 0. Claw: 1d6/1d8/1d10. Bite: 3/4/6. Paralyzing Touch: on Strong claw hit, target must make Fortitude save or be Paralyzed for 1 round.
+**Ghoul (Challenge 1):** HP 10, DR 0. Claw: 2/4/6. Bite: 3/4/6. Paralyzing Touch: on Strong claw hit, target must make Fortitude save or be Paralyzed for 1 round.
 
 **Wraith (Challenge 3):** HP 12, DR 3 (non-magical). Life Drain: 3/5/7 necrotic. Incorporeal: half damage from non-magical physical attacks. Create Specter: humanoid killed by Life Drain rises as a specter under the wraith's control at next sunset.
 
@@ -119,7 +119,7 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
 
 **Pixie (Challenge 1/2):** HP 2, DR 0. Tiny. Invisible: permanently invisible. Confusion Touch: on hit, target rolls Weak on its next action. Pixie Dust: once per day, grant one creature flight for 1 minute.
 
-**Dryad (Challenge 1):** HP 10, DR 0. Club: 1d6/1d8/1d10. Charm: one humanoid within 30 ft must make Guile save or be Charmed (1/day). Tree Stride: teleport between trees within 60 ft. Treebound: takes 1d6 damage per round when more than 300 ft from its bonded tree.
+**Dryad (Challenge 1):** HP 10, DR 0. Club: 2/4/6. Charm: one humanoid within 30 ft must make Guile save or be Charmed (1/day). Tree Stride: teleport between trees within 60 ft. Treebound: takes 3 damage per round when more than 300 ft from its bonded tree.
 
 **Green Hag (Challenge 3):** HP 16, DR 2. Claw: 3/4/6. Illusory Appearance: appears as any humanoid. Vicious Mockery: 2/4/6 psychic + Bane on next attack (at will). Coven Magic: when 3 hags are within 30 ft, they share spellcasting.
 

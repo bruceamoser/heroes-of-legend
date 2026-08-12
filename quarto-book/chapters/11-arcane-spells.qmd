@@ -1488,10 +1488,6 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 #horizontalrule
 ```
 
-<!-- TODO(#96): Arcane Spell Quick Reference may overflow page width at 9pt.
-     Consider: (a) reducing Summary column to keywords only,
-     (b) using landscape page orientation, or (c) splitting into elemental sub-tables -->
-
 {{< pagebreak >}}
 
 {{< pagebreak >}}

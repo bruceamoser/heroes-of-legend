@@ -17,12 +17,12 @@ Version 0.1.0 (Draft)
 
 *Written by* Bruce A. Moser
 
-*Playtesters:* [TBD]
+*Playtesters:* —
 
-*Layout and Design:* [TBD]
-*Cover Art:* [TBD]
+*Layout and Design:* —
+*Cover Art:* —
 *Interior Art:* Bruce A. Moser
-*Editing:* [TBD]
+*Editing:* —
 
 ---
 
@@ -32,8 +32,8 @@ No part of this publication may be reproduced, distributed, or transmitted in an
 
 ISBN: [To be assigned]
 
-First printing: [TBD]  
-Printed in [TBD]
+First printing: —  
+Printed in —
 
 :::
 
@@ -53,9 +53,9 @@ Printed in [TBD]
 
 **Interior Illustrations:** Bruce A. Moser
 
-**Playtest Coordination:** [TBD]
+**Playtest Coordination:** —
 
-**Additional Design Contributions:** [TBD]
+**Additional Design Contributions:** —
 
 **Special Thanks:** The playtest groups who broke the game in ways we never expected and made it better every time. The convention DAs who ran *Heroes of Legend* for strangers and came back with stories. And every player who looked at a rule and said, "What if I tried this instead?", you're why this book exists.
 

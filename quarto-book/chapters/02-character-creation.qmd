@@ -261,7 +261,7 @@ Total: 8 DP. All spent. ?
 
 Total: 8 DP. All spent. ?
 
-**Step 8, Equipment:** Shortbow (W/S/S: 2/4/7), dagger (1/3/5), leather armor (DR 2), thieves' tools, 20 arrows.
+**Step 8, Equipment:** Shortbow (W/S/S: 2/3/4), dagger (1/2/3), leather armor (DR 2), thieves' tools, 20 arrows.
 
 **Step 9, Derived Stats:** HP 10 (10 + Fort 0 + Know 0). Initiative +1. Movement 30 ft. Carry 15 slots.
 

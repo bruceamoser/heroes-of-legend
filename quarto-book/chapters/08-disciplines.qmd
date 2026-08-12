@@ -91,9 +91,9 @@ Skills, abilities, and talents require specific Disciplines before you can learn
 
 | Skill/Ability | Disciplines Required | Tier |
 |--------------|---------------------|------|
-| Longsword | 2 Blades | Adept |
+| Longsword | 1 Blade, 1 Heavy Weapon | Adept |
 | Dagger | 1 Blade | Novice |
-| Greataxe | 2 Axes | Adept |
+| Greataxe | 1 Axe, 2 Heavy Weapons | Adept |
 | Fireball | 2 Fire + 1 Energy | Adept |
 | Volcanic Eruption | 3 Fire + 1 Earth | Master |
 | Chain Mail | 2 Armor | Novice |
