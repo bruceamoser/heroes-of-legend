@@ -41,9 +41,9 @@ The rules support any combination. The stories are yours to tell. Pick what exci
 | Ancestry | Discipline | Trait | You're Probably... |
 |----------|-----------|-------|-------------------|
 | **Human** | Any one | **Versatile:** +1 DP at Level 0 | Ambitious, adaptable, everywhere |
-| **Elf** | Archery or Blades | **Elven Grace:** once per session, reroll one die of your 3d6 roll | Ancient, graceful, a little haunted |
-| **Dwarf** | Axes or Armor | **Sturdy:** +2 maximum HP | Resilient, tradition-bound, impossible to move |
-| **Halfling** | Blades or Archery | **Lucky:** add one boon to any roll, once per session | Quick, cheerful, underestimated |
+| **Elf** | Any one Weapon | **Elven Grace:** once per session, reroll one die of your 3d6 roll | Ancient, graceful, a little haunted |
+| **Dwarf** | Any one Weapon | **Sturdy:** +2 maximum HP | Resilient, tradition-bound, impossible to move |
+| **Halfling** | Any one Weapon | **Lucky:** add one boon to any roll, once per session | Quick, cheerful, underestimated |
 
 ### Human
 
@@ -65,7 +65,7 @@ Elves live long enough to see mountains erode. They carry the weight of ancient 
 
 An elf who's walked the world for three centuries has seen every trick, every betrayal, every miracle twice. They don't rush. They don't panic. When the party is scrambling and the torches are guttering and everyone's yelling at once, the elf is the one leaning against the wall, waiting for the right moment. That moment always comes. Elves have the patience to wait for it.
 
-Elves receive one Archery Discipline (bow, precision, ranged mastery) or Blades Discipline (sword, finesse, dueling). Their **Elven Grace** lets them reroll one die of their 3d6 roll, once per session, centuries of practice distill into a single perfect moment.
+Elves receive one Discipline of your choice from the Weapon category (Blades, Axes, Polearms, Archery, Heavy Weapon, or Unarmed). Their **Elven Grace** lets them reroll one die of their 3d6 roll, once per session, centuries of practice distill into a single perfect moment.
 
 *Common elf names:* Aelindra, Caerwyn, Elowen, Faelan, Illyria, Lirael, Orin, Sylvara, Theron, Vaelith.
 
@@ -77,7 +77,7 @@ Dwarves are built like the mountains they call home, solid, enduring, and extrem
 
 Here's what you need to know about fighting alongside a dwarf: they will not retreat. They will not break. You can drop a ceiling on them and they'll crawl out of the rubble, dust off their beard, and ask if that's the best you've got. That +2 HP from Sturdy isn't just a number, it's a statement. Dwarves are harder to kill because they refuse to die.
 
-Dwarves receive one Axes Discipline (brutal chopping, cleaving power) or Armor Discipline (heavy armor, damage soaking). Their **Sturdy** constitution grants +2 maximum HP, that's two more hits they can shrug off with a grunt.
+Dwarves receive one Discipline of your choice from the Weapon category (Blades, Axes, Polearms, Archery, Heavy Weapon, or Unarmed). Their **Sturdy** constitution grants +2 maximum HP, that's two more hits they can shrug off with a grunt.
 
 *Common dwarf names:* Baldrek, Darin, Gorma, Haldra, Kazrik, Morin, Naldra, Rurik, Thaldrin, Ulfgar.
 
@@ -89,7 +89,7 @@ Halflings are small, quick, and possessed of an almost supernatural luck that ma
 
 I've watched a halfling pick a lock with a hairpin while a guard stood three feet away. I've seen a halfling talk a crime lord into retirement over a shared pipe and a bottle of something questionable. Halflings survive because the universe looks at them and thinks "what harm could they possibly do?", and by the time the universe realizes its mistake, the halfling is already three miles away with your wallet.
 
-Halflings receive one Blades Discipline (daggers, short swords, quick strikes) or Archery Discipline (slings, thrown weapons, ranged precision). Their **Lucky** trait lets them add one boon (an extra d6) to any 3d6 roll, once per session. When the moment is desperate and the odds are against you, the universe cuts you a break. That's not luck. That's being a halfling.
+Halflings receive one Discipline of your choice from the Weapon category (Blades, Axes, Polearms, Archery, Heavy Weapon, or Unarmed). Their **Lucky** trait lets them add one boon (an extra d6) to any 3d6 roll, once per session. When the moment is desperate and the odds are against you, the universe cuts you a break. That's not luck. That's being a halfling.
 
 *Common halfling names:* Bramble, Cora, Dabney, Eglantine, Finn, Lottie, Makeva, Nettle, Pip, Rufus, Tansy.
 
