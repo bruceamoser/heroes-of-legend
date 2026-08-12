@@ -39,8 +39,8 @@ Spells don't exist in isolation. They're organized into **chains**, three-tier p
 | Chain | Novice | Adept | Master |
 |-------|--------|-------|--------|
 | **Arcane Chains** | | | |
-| Firebolt | Firebolt | Fireball | Inferno |
-| Burning Hands | Burning Hands | Wall of Fire | Volcanic Eruption |
+| Firebolt | Firebolt | Fireball | Volcanic Eruption |
+| Burning Hands | Burning Hands | Wall of Fire | Inferno |
 | Scorching Ray | Scorching Ray | Flame Strike | Meteor Swarm |
 | Frost Ray | Frost Ray | Ice Storm | Blizzard |
 | Chill Touch | Chill Touch | Freeze Solid | Glacial Prison |
