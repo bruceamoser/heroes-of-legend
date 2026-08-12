@@ -182,7 +182,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 *Brawn - Blades*
 
-**Prereq:** Disciplines: 1 Blades + 1 Heavy
+**Prereq:** Disciplines: 2 Blades + 1 Heavy
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
@@ -218,19 +218,19 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 
 *Brawn - Heavy*
 
-**Prereq:** Disciplines: 1 Heavy
+**Prereq:** Disciplines: 3 Heavy
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
 | **Adept** | +2 | 4 | **Ground Pound**, Slam ground. All adjacent foes save vs Fortitude or fall prone. Disc: Heavy (2). |
-| **Master** | +3 | 8 | **Grand Slam**, Attack all creatures in 10-ft cone with one roll. Disc: Heavy (3) or Heavy (2) + Blades (1). |
+| **Master** | +3 | 8 | **Grand Slam**, Attack all creatures in 10-ft cone with one roll. Disc: Heavy (3). |
 
 ### Small Axes {#sec-skill-small-axes}
 
 *Brawn - Axes*
 
-**Prereq:** Disciplines: 1 Axes
+**Prereq:** Disciplines: 2 Axes + 1 Heavy
 
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
