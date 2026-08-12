@@ -136,11 +136,11 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *See @sec-chapter-magic-system for how spellcasting works.*
 
 ### Heal Wounds Chain
-**Disciplines:** Water
+**Disciplines:** Life
 *The fundamental healing chain. Touch them. Heal them. Send them back into the fight.*
 
 #### Heal Wounds (Novice)
-**Disciplines:** 1 Water
+**Disciplines:** 1 Life
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Instantaneous
@@ -157,7 +157,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *The spell that says "not today." Heal Wounds won't bring back the dead, but it'll keep the living on their feet. In a game where every hit connects, healing isn't optional, it's survival. Learn this spell. Love this spell. Your party will love you for it.*
 
 #### Restoration (Adept)
-**Disciplines:** 2 Water
+**Disciplines:** 2 Life
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Instantaneous
@@ -174,7 +174,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *Healing-plus. Restoration is what you cast when Heal Wounds isn't enough, when the poison is in their blood and their eyes have gone glassy. It's the difference between "they'll live" and "they'll fight." In the middle of combat, that difference is everything.*
 
 #### Mass Heal (Master)
-**Disciplines:** 2 Water, 1 Protection
+**Disciplines:** 2 Life, 1 Protection
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Instantaneous
@@ -191,11 +191,11 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *The spell that turns a TPK into a victory. Mass Heal is the panic button for when everything has gone wrong, when three party members are down and the other two are one hit away. One cast. Six allies. Enough healing to reset the entire fight. This is why gods made healers. This is why healers are never the first target, because the enemy knows what happens if they leave you standing.*
 
 ### Purify Chain
-**Disciplines:** Water
+**Disciplines:** Life
 *Cleanse corruption. Purge affliction. Restore what was lost.*
 
 #### Purify (Novice)
-**Disciplines:** 1 Water
+**Disciplines:** 1 Life
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Instantaneous
@@ -212,7 +212,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *Not as dramatic as a heal, but sometimes more important. The well in the plague village. The feast the suspicious baron laid out. The dagger your rogue just picked up that's whispering her name. Purify is the answer. Clean water and clean food have saved more lives than any battle spell ever will.*
 
 #### Cleanse (Adept)
-**Disciplines:** 2 Water
+**Disciplines:** 2 Life
 **Casting Time:** 1 minute
 **Range:** Touch
 **Duration:** Instantaneous
@@ -229,7 +229,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *When the curse has taken root. When the ghost is wearing your friend's face. When the charm spell has been running for days and nobody remembers who the real person is anymore. Cleanse is the reset button. It's brutal, the target will feel every moment of the purification, but they'll be themselves again when it's done.*
 
 #### Resurrection (Master)
-**Disciplines:** 2 Water, 1 Protection
+**Disciplines:** 2 Life, 1 Protection
 **Casting Time:** 1 hour
 **Range:** Touch
 **Duration:** Instantaneous
@@ -246,11 +246,11 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *The ultimate divine spell. Resurrection is why people pray. It's why kings keep Shepherds at their side. It's why your party will drag your body through three levels of dungeon rather than leave you behind. Casting it costs you, not in mana, but in something deeper. The gods notice when you reach past death. They always notice.*
 
 ### Bolster Chain
-**Disciplines:** Water
+**Disciplines:** Life
 *Ongoing healing. Keep them standing. Keep them fighting.*
 
 #### Bolster (Novice)
-**Disciplines:** 1 Water
+**Disciplines:** 1 Life
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Concentration, up to 1 minute
@@ -260,14 +260,14 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | Target regains 1 HP at the start of each turn for 3 rounds. |
-| Standard (9-14) | Target regains 2 HP at the start of each turn for 1 minute (10 rounds). |
-| Strong (15-18+) | Target regains 3 HP per round for 1 minute. Additionally, the first time they drop to 0 HP during the duration, they immediately regain 4 HP and stay standing. |
+| Weak (1-8) | Target regains 1 HP at the start of each turn for 2 rounds. |
+| Standard (9-14) | Target regains 1 HP at the start of each turn for 4 rounds. |
+| Strong (15-18+) | Target regains 1 HP at the start of each turn for 2 rounds. Additionally, the first time they drop to 0 HP during the duration, they immediately regain 4 HP and stay standing. |
 
 *Healing over time. Bolster is for the Protector who's holding the line while everyone else escapes. For the Blade who's dueling the enemy champion. For anyone who needs to stay upright just a little longer. It won't outpace a dragon's breath, but it'll turn a dozen small cuts from fatal to forgettable.*
 
 #### Regeneration (Adept)
-**Disciplines:** 2 Water
+**Disciplines:** 2 Life
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Concentration, up to 1 minute
@@ -277,14 +277,14 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | Target regains 3 HP per round for 3 rounds. Bleeding stops. |
-| Standard (9-14) | Target regains 5 HP per round for 1 minute. Lost fingers or minor appendages begin to regrow, fully restored by the spell's end. |
-| Strong (15-18+) | Target regains 8 HP per round for 1 minute. A lost limb regrows over the duration. The target cannot die from hit point loss while Regeneration is active, they stabilize at 0 HP and continue to heal. |
+| Weak (1-8) | Target regains 2 HP per round for 3 rounds. Bleeding stops. |
+| Standard (9-14) | Target regains 3 HP per round for 3 rounds. Lost fingers or minor appendages begin to regrow, fully restored by the spell's end. |
+| Strong (15-18+) | Target regains 4 HP per round for 3 rounds. A lost limb regrows over the duration. The target cannot die from hit point loss while Regeneration is active, they stabilize at 0 HP and continue to heal. |
 
 *When Bolster isn't enough. Regeneration is the spell you cast on the ally who's already down, already bleeding out, already halfway to the grave. It doesn't just heal, it rebuilds. Watch their eyes flutter open. Watch their hand grow back. Watch the enemy's expression change from triumph to horror.*
 
 #### True Life (Master)
-**Disciplines:** 2 Water, 1 Protection
+**Disciplines:** 2 Life, 1 Protection
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** 1 hour
@@ -294,18 +294,18 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | Target regains 5 HP per round for 3 rounds. They have Boon on death checks. |
-| Standard (9-14) | Target regains 10 HP per round for 1 hour. They are immune to poison, disease, and necrotic damage. If reduced to 0 HP, they automatically stabilize and continue regenerating, only a killing blow that deals more than 20 damage in a single hit can truly kill them. |
-| Strong (15-18+) | As Standard, but the target also radiates an aura of vitality, all allies within 15 feet regain 3 HP per round. The target's maximum HP increases by 20 for the duration. They are, for all practical purposes, immortal for the next hour. |
+| Weak (1-8) | Target regains 3 HP per round for 3 rounds. They have Boon on death checks. |
+| Standard (9-14) | Target regains 5 HP per round for 3 rounds. For the duration, they are immune to poison, disease, and necrotic damage. If reduced to 0 HP, they automatically stabilize and continue regenerating, only a killing blow that deals more than 20 damage in a single hit can truly kill them. |
+| Strong (15-18+) | Target regains 7 HP per round for 3 rounds. The target also radiates an aura of vitality, all allies within 15 feet regain 3 HP per round. The target is immune to poison, disease, and necrotic damage. The target's maximum HP increases by 20 for the duration. If reduced to 0 HP, they automatically stabilize and continue regenerating, only a killing blow that deals more than 20 damage in a single hit can truly kill them. |
 
 *This is what the gods give their chosen. True Life is not a combat spell, it's a declaration. For one hour, one creature in your party is functionally unkillable. Send them into the dragon's jaws. Send them through the trapped corridor. Send them to hold the bridge against a hundred foes. They'll be standing when it's over. They'll be standing, and they'll be smiling.*
 
 ### Remove Affliction Chain
-**Disciplines:** Water
+**Disciplines:** Life
 *Target specific ailments. Cure the incurable.*
 
 #### Soothe (Novice)
-**Disciplines:** 1 Water
+**Disciplines:** 1 Life
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Instantaneous
@@ -315,14 +315,14 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | Remove one minor condition (dazed, sickened, frightened). Restore 1 HP. |
+| Weak (1-8) | Remove one minor condition (dazed, sickened, frightened). Restore 2 HP. |
 | Standard (9-14) | Remove one minor condition. Restore 4 HP. The target feels genuinely comforted, they know, somehow, that someone is looking out for them. |
 | Strong (15-18+) | Remove up to two minor conditions. Restore 6 HP. The target gains temporary immunity to the removed conditions for 10 minutes, their body remembers the calm. |
 
 *The smallest healing spell. Not for wounds, for everything else. The nausea after the poison trap. The ringing ears after the thunderclap. The creeping dread after the third near-death experience this hour. Soothe is the spell you cast when an ally just needs a moment. A breath. A reminder that they're not alone.*
 
 #### Remove Affliction (Adept)
-**Disciplines:** 2 Water
+**Disciplines:** 2 Life
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Instantaneous
@@ -339,7 +339,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *The surgical strike of divine magic. Remove Affliction doesn't heal HP, it solves specific, devastating problems. The medusa's gaze. The banshee's wail. The ghoul's paralytic claws. When a party member is locked down and the enemy is closing in, this spell doesn't just help, it changes the math entirely.*
 
 #### Miracle Cure (Master)
-**Disciplines:** 2 Water, 1 Protection
+**Disciplines:** 2 Life, 1 Protection
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Instantaneous
@@ -356,11 +356,11 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 *The spell you cast when everything else has failed. When the curse has a name older than the kingdom. When the disease laughs at Restoration. When the child was born blind and the parents have spent their life savings on healers who shook their heads. Miracle Cure is why people believe. It's why they journey to distant temples and kneel before forgotten altars. Sometimes, just sometimes, someone kneels back.*
 
 ### Revivify Chain
-**Disciplines:** Water
+**Disciplines:** Life
 *Death is not a wall. It is a door, and the divine holds the key.*
 
 #### Revivify (Novice)
-**Disciplines:** 1 Water
+**Disciplines:** 1 Life
 **Casting Time:** 1 action
 **Range:** Touch
 **Duration:** Instantaneous
@@ -370,14 +370,14 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | The target returns to life with 1 HP. They are disoriented and suffer Bane on all actions for 1 minute. |
+| Weak (1-8) | The target returns to life with 2 HP. They are disoriented and suffer Bane on all actions for 1 minute. |
 | Standard (9-14) | The target returns to life with 4 HP. They are shaken but functional and can act on their next turn. |
 | Strong (15-18+) | The target returns to life with 6 HP. The brush with death was so brief that they retain no disorientation, they can act immediately as if nothing happened. |
 
 *The spell that says "not yet." Revivify is for the ally who just went down, the hero who took one hit too many, the moment when the healer was one second too slow. You have one minute. One minute to reach the body, touch the cooling skin, and refuse to accept what just happened. One minute is enough.*
 
 #### Raise Dead (Adept)
-**Disciplines:** 2 Water
+**Disciplines:** 2 Life
 **Casting Time:** 1 hour
 **Range:** Touch
 **Duration:** Instantaneous
@@ -387,14 +387,14 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | The target returns with 1 HP and one level of exhaustion that fades after a long rest. They remember fragments of the afterlife, the memory may haunt or comfort them. |
+| Weak (1-8) | The target returns with 2 HP and one level of exhaustion that fades after a long rest. They remember fragments of the afterlife, the memory may haunt or comfort them. |
 | Standard (9-14) | The target returns with 9 HP. Any non-magical diseases or poisons that killed them are cured. They know, with absolute certainty, that someone wanted them back badly enough to reach past death. |
 | Strong (15-18+) | The target returns with 12 HP. Their fatal wounds close completely. They bring back a clear memory, a face they saw, a message they heard, a warning or a comfort from the other side. The DA decides what they learned. |
 
 *Death is patient, but it can be argued with. Raise Dead is the argument. An hour of prayer, an intact body, and a soul that hasn't been gone more than ten days. The dead don't always want to come back. The living don't always get a choice. Some doors, once opened, are hard to close again.*
 
 #### True Resurrection (Master)
-**Disciplines:** 2 Water, 1 Protection
+**Disciplines:** 2 Life, 1 Protection
 **Casting Time:** 1 hour
 **Range:** Touch
 **Duration:** Instantaneous
@@ -535,11 +535,11 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *Your party is now an army of the divine. Crusader's Mantle turns every ally into a holy warrior, their weapons burn with sacred fire, their presence banishes darkness, and the enemy formation becomes a shooting gallery of illuminated targets. When the paladin order rides to war, this is the spell their high priest casts before the charge. Nothing survives the charge.*
 
 ### Ward Chain
-**Disciplines:** Protection
+**Disciplines:** Religion
 *Static protections. Glyphs. Circles. Barriers that hold.*
 
 #### Ward (Novice)
-**Disciplines:** 1 Protection
+**Disciplines:** 1 Religion
 **Casting Time:** 1 minute
 **Range:** Touch
 **Duration:** 8 hours
@@ -556,7 +556,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *The spell that lets you sleep through the night. Ward the camp perimeter. Ward the dungeon door behind you. Ward the treasure chest before you open it. Knowledge is power, and knowing something is coming before it arrives is the difference between a prepared party and a total party kill.*
 
 #### Magic Circle (Adept)
-**Disciplines:** 2 Protection
+**Disciplines:** 2 Religion
 **Casting Time:** 1 minute
 **Range:** Touch
 **Duration:** 1 hour
@@ -573,7 +573,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *The summoner's nightmare. Magic Circle is for when you know what's hunting you and need a guaranteed safe zone. Camp inside one when the werewolves are prowling. Trap a demon inside one while you negotiate. Cast one around the ritual altar before the cultists finish their spell. The circle doesn't judge. It just holds.*
 
 #### Divine Barrier (Master)
-**Disciplines:** 2 Protection, 1 Energy
+**Disciplines:** 2 Religion, 1 Energy
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Concentration, up to 1 minute
@@ -583,9 +583,9 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 
 | Outcome | Effect |
 |---------|--------|
-| Weak (1-8) | A 15-foot wall or 10-foot dome. Blocks physical attacks and Novice-tier spells. +2 Armor to allies behind it. Duration 3 rounds. |
-| Standard (9-14) | A 30-foot wall or 20-foot dome. Blocks all attacks and spells of Adept tier or lower. Undead and fiends touching it take 12 radiant damage. Allies inside have resistance to all damage from outside sources. Duration 1 minute. |
-| Strong (15-18+) | As Standard, but the barrier also blocks Master-tier spells, nothing crosses without your permission. Allies inside regenerate 5 HP per round. Enemies of a type you specify are blinded while inside or adjacent to the barrier. The dome can encompass structures. |
+| Weak (1-8) | A 15-foot wall or 10-foot dome. Blocks physical attacks and Novice-tier spells. +2 Armor to allies behind it. Undead and fiends touching it take 9 radiant damage. Duration 3 rounds. |
+| Standard (9-14) | A 30-foot wall or 20-foot dome. Blocks all attacks and spells of Adept tier or lower. Undead and fiends touching it take 15 radiant damage. Allies inside have resistance to all damage from outside sources. Duration 1 minute. |
+| Strong (15-18+) | As Standard, but the barrier also blocks Master-tier spells, nothing crosses without your permission. Allies inside regenerate 5 HP per round. Undead and fiends touching it take 21 radiant damage. Enemies of a type you specify are blinded while inside or adjacent to the barrier. The dome can encompass structures. |
 
 *The final word in protective magic. Divine Barrier doesn't just shield, it divides the world into "safe" and "not safe" with absolute clarity. Drop it over your party when the dragon breathes. Seal a building against the zombie horde. Create a hemisphere of "no" that even the most powerful enemy magic cannot penetrate. When the Divine Barrier goes up, the fight changes. Your side just became the winning side.*
 
@@ -622,8 +622,8 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | The target takes 6 radiant damage. If they are undead or a fiend, they also have Bane on their next attack. |
-| Standard (9-14) | The target takes 9 radiant damage. Undead and fiends take 12 damage instead and are Dazed for 1 round, the holy light overwhelms their senses. |
-| Strong (15-18+) | The target takes 12 radiant damage (18 vs. undead/fiends). The target is Blinded for 1 round as the radiance sears their vision. Additionally, all allies who can see the Smite regain 2 HP, the display of divine power bolsters their spirits. |
+| Standard (9-14) | The target takes 9 radiant damage. Undead and fiends are Dazed for 1 round, the holy light overwhelms their senses. |
+| Strong (15-18+) | The target takes 12 radiant damage. Undead and fiends are Blinded for 1 round as the radiance sears their vision. Additionally, all allies who can see the Smite regain 2 HP, the display of divine power bolsters their spirits. |
 
 *Smite is why the undead fear Shepherds more than they fear warriors. A sword can hurt a skeleton. A Smite unmakes it. The spell channels the fundamental opposition between divine light and unholy existence. Against living foes it burns. Against the undead, it obliterates. This is the spell you cast when you want the vampire to know it picked the wrong crypt to haunt.*
 
@@ -639,8 +639,8 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | The target takes 9 radiant damage. If the target has committed murder, betrayal, or similar moral crimes within the last year, the damage is 15 instead, the judgment finds them guilty. |
-| Standard (9-14) | The target takes 15 radiant damage. Undead and fiends take 21 damage instead. The target is Blinded for 1 round and all illusions or shapechanging effects on them are dispelled, nothing hides from judgment. |
-| Strong (15-18+) | The target takes 21 radiant damage (30 vs. undead/fiends). The target must make a Reason check or be Paralyzed for 1 round, frozen by the weight of divine scrutiny. All allies within 30 feet who witness the judgment gain Boon on their next attack, the display of divine righteousness is inspiring. |
+| Standard (9-14) | The target takes 15 radiant damage. The target is Blinded for 1 round and all illusions or shapechanging effects on them are dispelled, nothing hides from judgment. |
+| Strong (15-18+) | The target takes 21 radiant damage. Undead and fiends must make a Reason check or be Paralyzed for 1 round, frozen by the weight of divine scrutiny. All allies within 30 feet who witness the judgment gain Boon on their next attack, the display of divine righteousness is inspiring. |
 
 *The spell that asks "what have you done?" and demands an answer. Divine Judgment doesn't just deal damage, it makes a statement. The villain who has slaughtered villages, the traitor who sold their kingdom, the necromancer who has defiled a thousand graves, when the column of light hits them, they know. Everyone watching knows. This is not combat. This is a verdict. And the verdict is guilty.*
 
@@ -677,8 +677,8 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | Each creature in the line takes 6 radiant damage. Invisible creatures in the line become visible for 1 round as the light clings to them. |
-| Standard (9-14) | Each creature in the line takes 9 radiant damage. The beam dispels magical darkness in its path. Undead and fiends in the line take 12 damage instead. |
-| Strong (15-18+) | Each creature in the line takes 12 radiant damage (18 vs. undead/fiends). The beam continues through cover and barriers of Adept tier or lower, nothing physical stops divine light. Creatures reduced to 0 HP by this beam are disintegrated, reduced to fine ash. |
+| Standard (9-14) | Each creature in the line takes 9 radiant damage. The beam dispels magical darkness in its path. Undead and fiends in the line are also outlined in silver light for 1 round, granting Boon on attacks against them. |
+| Strong (15-18+) | Each creature in the line takes 12 radiant damage. The beam continues through cover and barriers of Adept tier or lower, nothing physical stops divine light. Creatures reduced to 0 HP by this beam are disintegrated, reduced to fine ash. |
 
 *A laser of divine fury. Radiant Beam is for when the enemy formation is lined up like they're asking for it, when the hallway is full of zombies and you want it to be full of ash instead, when the invisible assassin is somewhere in that general direction and you'd rather they weren't. Line up your shot. Let the light do the rest.*
 
@@ -694,17 +694,17 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 | Outcome | Effect |
 |---------|--------|
 | Weak (1-8) | Creatures in the area take 9 radiant damage. The pillar lasts 3 rounds. The area is brightly lit and creatures inside cannot benefit from invisibility. |
-| Standard (9-14) | Creatures in the area take 15 radiant damage (21 vs. undead/fiends). The pillar lasts 1 minute. Creatures that end their turn inside the pillar take the damage again. The pillar blocks line of sight, enemies on the other side of it cannot target your party without moving. |
-| Strong (15-18+) | As Standard, but the initial damage is 21 (30 vs. undead/fiends). Allies within 30 feet of the pillar regain 3 HP at the start of each turn, the proximity to divine light is restorative. Undead and fiends that start their turn within 30 feet of the pillar take 6 radiant damage, they cannot abide its presence. |
+| Standard (9-14) | Creatures in the area take 15 radiant damage. The pillar lasts 1 minute. Creatures that end their turn inside the pillar take the damage again. The pillar blocks line of sight, enemies on the other side of it cannot target your party without moving. |
+| Strong (15-18+) | As Standard, but the initial damage is 21. Allies within 30 feet of the pillar regain 3 HP at the start of each turn, the proximity to divine light is restorative. Undead and fiends that start their turn within 30 feet of the pillar take 6 radiant damage, they cannot abide its presence. |
 
 *Call down the sun. Pillar of Light turns a patch of battlefield into a holy kill zone. Enemies inside burn every round. Allies nearby are healed by its presence. Undead don't just burn, they flee, because standing near a Pillar of Light feels, to them, like standing on the surface of a star. Place it on the enemy formation. Place it between your party and the charging horde. Place it on the altar where the cultists are completing their ritual. The pillar doesn't judge. It just burns.*
 
 ### Turn Undead Chain
-**Disciplines:** Protection
+**Disciplines:** Religion
 *The authority of the divine compels the unholy to flee, to bow, or to burn.*
 
 #### Turn Undead (Novice)
-**Disciplines:** 1 Protection
+**Disciplines:** 1 Religion
 **Casting Time:** 1 action
 **Range:** 30 feet
 **Duration:** Instantaneous (fleeing: 1 minute)
@@ -721,7 +721,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *The defining spell of the Shepherd. Turn Undead is why the crypt full of skeletons isn't a fight, it's a routing of the enemy before steel is drawn. Present your symbol. Speak the words. Watch the dead run. They know what you represent. They've been running from it since the first grave was dug and the first prayer was spoken over it. You are not their enemy. You are their antithesis.*
 
 #### Banish (Adept)
-**Disciplines:** 2 Protection
+**Disciplines:** 2 Religion
 **Casting Time:** 1 action
 **Range:** 30 feet
 **Duration:** Concentration, up to 1 minute
@@ -738,7 +738,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 *The spell that answers "go back where you came from." Banishment removes one creature from the fight entirely. Not dead, not injured, just gone. The demon who was about to eviscerate your Protector? Spending the next minute in a featureless gray void, alone with its thoughts. The ghost that's been haunting the manor for three centuries? Back to the ethereal plane, and the door is locked behind it. Banishment doesn't win fights. It postpones them. But sometimes postponement is all you need.*
 
 #### Soul Prison (Master)
-**Disciplines:** 2 Protection, 1 Energy
+**Disciplines:** 2 Religion, 1 Energy
 **Casting Time:** 1 action
 **Range:** 60 feet
 **Duration:** Permanent until dispelled
@@ -1012,25 +1012,25 @@ Divination is the magic of knowing. It sees what's hidden, identifies what's unk
 | Virtue | Cantrip | Blessing | No prereq | 3 temp HP, 1 minute |
 | Thaumaturgy | Cantrip | Blessing | No prereq | Minor divine displays and omens |
 | | | | | |
-| Heal Wounds | Novice | Healing | 1 Water | Touch, restore 4 HP |
-| Restoration | Adept | Healing | 2 Water | Restore 9 HP, cure one condition |
-| Mass Heal | Master | Healing | 2 Water, 1 Protection | Up to 6 targets, 15 HP each |
+| Heal Wounds | Novice | Healing | 1 Life | Touch, restore 4 HP |
+| Restoration | Adept | Healing | 2 Life | Restore 9 HP, cure one condition |
+| Mass Heal | Master | Healing | 2 Life, 1 Protection | Up to 6 targets, 15 HP each |
 | | | | | |
-| Purify | Novice | Healing | 1 Water | Cleanse poison, disease, or 5-ft cube |
-| Cleanse | Adept | Healing | 2 Water | Remove curses, possession, compulsion |
-| Resurrection | Master | Healing | 2 Water, 1 Protection | Return dead creature to life |
+| Purify | Novice | Healing | 1 Life | Cleanse poison, disease, or 5-ft cube |
+| Cleanse | Adept | Healing | 2 Life | Remove curses, possession, compulsion |
+| Resurrection | Master | Healing | 2 Life, 1 Protection | Return dead creature to life |
 | | | | | |
-| Bolster | Novice | Healing | 1 Water | Ongoing 2 HP/round, 1 minute |
-| Regeneration | Adept | Healing | 2 Water | 5 HP/round, regrow limbs, 1 minute |
-| True Life | Master | Healing | 2 Water, 1 Protection | 10 HP/round, near-immortal, 1 hour |
+| Bolster | Novice | Healing | 1 Life | Ongoing 1 HP/round, brief duration |
+| Regeneration | Adept | Healing | 2 Life | 3 HP/round, regrow limbs, brief duration |
+| True Life | Master | Healing | 2 Life, 1 Protection | 5 HP/round, near-immortal, brief duration |
 | | | | | |
-| Soothe | Novice | Healing | 1 Water | Remove minor condition, restore 4 HP |
-| Remove Affliction | Adept | Healing | 2 Water | Cure blindness, deafness, paralysis |
-| Miracle Cure | Master | Healing | 2 Water, 1 Protection | Cure any condition, including permanent |
+| Soothe | Novice | Healing | 1 Life | Remove minor condition, restore 4 HP |
+| Remove Affliction | Adept | Healing | 2 Life | Cure blindness, deafness, paralysis |
+| Miracle Cure | Master | Healing | 2 Life, 1 Protection | Cure any condition, including permanent |
 | | | | | |
-| Revivify | Novice | Healing | 1 Water | Return creature dead <1 min to life, 4 HP |
-| Raise Dead | Adept | Healing | 2 Water | Return creature dead <10 days to life, 9 HP |
-| True Resurrection | Master | Healing | 2 Water, 1 Protection | Full resurrection within 100 years, no body needed |
+| Revivify | Novice | Healing | 1 Life | Return creature dead <1 min to life, 4 HP |
+| Raise Dead | Adept | Healing | 2 Life | Return creature dead <10 days to life, 9 HP |
+| True Resurrection | Master | Healing | 2 Life, 1 Protection | Full resurrection within 100 years, no body needed |
 | | | | | |
 | Shield of Faith | Novice | Protection | 1 Protection | +2 Armor, 10 minutes |
 | Sanctuary | Adept | Protection | 2 Protection | Enemies must check to attack target |
@@ -1040,9 +1040,9 @@ Divination is the magic of knowing. It sees what's hidden, identifies what's unk
 | Divine Favor | Adept | Protection | 2 Protection | Self, +4 radiant on weapon attacks |
 | Crusader's Mantle | Master | Protection | 2 Protection, 1 Energy | Allies in 30 ft, +4 radiant on attacks |
 | | | | | |
-| Ward | Novice | Protection | 1 Protection | Alarm glyph on doorway, 8 hours |
-| Magic Circle | Adept | Protection | 2 Protection | 10-ft circle, blocks creature type, 1 hour |
-| Divine Barrier | Master | Protection | 2 Protection, 1 Energy | 30-ft wall or 20-ft dome, blocks all |
+| Ward | Novice | Protection | 1 Religion | Alarm glyph on doorway, 8 hours |
+| Magic Circle | Adept | Protection | 2 Religion | 10-ft circle, blocks creature type, 1 hour |
+| Divine Barrier | Master | Protection | 2 Religion, 1 Energy | 30-ft wall or 20-ft dome, blocks all |
 | | | | | |
 | Holy Strike | Novice | Radiant | 1 Protection | Melee strike, 4 radiant damage, marks target |
 | Smite | Adept | Radiant | 2 Protection | 9 radiant damage, extra vs. undead/fiends |
@@ -1052,9 +1052,9 @@ Divination is the magic of knowing. It sees what's hidden, identifies what's unk
 | Radiant Beam | Adept | Radiant | 2 Energy | 9 radiant damage in 60-ft line |
 | Pillar of Light | Master | Radiant | 2 Energy, 1 Water | 15 radiant damage in 10-ft radius, persists |
 | | | | | |
-| Turn Undead | Novice | Protection | 1 Protection | Undead flee for 1 minute |
-| Banish | Adept | Protection | 2 Protection | Remove extraplanar creature from reality, 1 min |
-| Soul Prison | Master | Protection | 2 Protection, 1 Energy | Trap creature in permanent divine stasis |
+| Turn Undead | Novice | Protection | 1 Religion | Undead flee for 1 minute |
+| Banish | Adept | Protection | 2 Religion | Remove extraplanar creature from reality, 1 min |
+| Soul Prison | Master | Protection | 2 Religion, 1 Energy | Trap creature in permanent divine stasis |
 | | | | | |
 | Consecrate | Novice | Protection | 1 Protection | Bless 20-ft radius area, 24 hours |
 | Hallow | Adept | Protection | 2 Protection | Permanently sanctify 60-ft radius area |
