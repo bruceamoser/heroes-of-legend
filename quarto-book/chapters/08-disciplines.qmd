@@ -204,14 +204,14 @@ Weapons follow their own damage curve (see the Equipment chapter): daggers 1/2/3
 
 ## Worked Example: Building a Fire Mage
 
-Kael wants to burn the world. He's an Arcanist — his class gives him 1 Fire and 1 Energy at creation. His ancestry and culture grant additional Disciplines as well.
+Sera wants to burn the world. She's an Arcanist. Her class gives her 1 Fire and 1 Energy at creation. Her ancestry and culture grant additional Disciplines as well.
 
-**Novice (Firebolt):** Requires 1 Fire. Kael has 1 Fire. He qualifies immediately. Firebolt costs 2 DP (flat card cost), and his Arcanist home cost for Fire rank 1 was already paid at creation. Firebolt is his on day one.
+**Novice (Firebolt):** Requires 1 Fire. Sera has 1 Fire. She qualifies immediately. Firebolt costs 2 DP (flat card cost), and her Arcanist home cost for Fire rank 1 was already paid at creation. Firebolt is hers on day one.
 
-**Adept (Fireball):** Requires 2 Fire. Kael has 1 Fire, so he needs one more. At level 3 he takes Fire (now 2 Fire) and buys Fireball the moment the Adept gate opens. Most casters need several levels to reach Adept. Arcanists walk a shorter path to the flame.
+**Adept (Fireball):** Requires 2 Fire. Sera has 1 Fire, so she needs one more. At level 3 she takes Fire (now 2 Fire) and buys Fireball the moment the Adept gate opens. Most casters need several levels to reach Adept. Arcanists walk a shorter path to the flame.
 
-**Master (Volcanic Eruption):** Requires 2 Fire + 1 Earth. Kael has 2 Fire and 1 Energy after level 3, so he needs Earth. At level 6 he takes Earth (now 2 Fire, 1 Earth, 1 Energy). When the Master tier unlocks at level 7, he qualifies for Volcanic Eruption. He could branch into Protection for defense, Animal for a familiar, or continue deepening his elemental mastery.
+**Master (Volcanic Eruption):** Requires 2 Fire + 1 Earth. Sera has 2 Fire and 1 Energy after level 3, so she needs Earth. At level 6 she takes Earth (now 2 Fire, 1 Earth, 1 Energy). When the Master tier unlocks at level 7, she qualifies for Volcanic Eruption. She could branch into Protection for defense, Animal for a familiar, or continue deepening her elemental mastery.
 
-Seven levels to master volcanic fury. Disciplines got him to Master. No shortcuts. No wildcards. Just the path, walked one step at a time.
+Seven levels to master volcanic fury. Disciplines got her to Master. No shortcuts. No wildcards. Just the path, walked one step at a time.
 
-That's the Discipline system working as intended. Master spells should be achievable before your campaign's climax, but they should still mean something when you cast them. A level 7 Volcanic Eruption says "I built for this." When Kael calls down the mountain's fury, everyone at the table knows he paid for it.
+That's the Discipline system working as intended. Master spells should be achievable before your campaign's climax, but they should still mean something when you cast them. A level 7 Volcanic Eruption says "I built for this." When Sera calls down the mountain's fury, everyone at the table knows she paid for it.
