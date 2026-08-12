@@ -46,7 +46,7 @@ The Protector stands at the vanguard, using body and armor as a shield for those
 
 **Signature, Bastion:** Spend your movement to enter a defensive stance. Add +1 to your Protection Value for the round. At higher levels, this bonus increases.
 
-**Favored Skills (X1):** Athletics, Endurance, Intimidation, Resilience, Blades Fighting, Axe Fighting, Polearms Fighting, Heavy Weapon Fighting, Unarmed Fighting
+**Favored Skills:** Athletics, Endurance, Intimidation, Resilience, Blades skills, Axes skills, Polearms, Hammers skills, Armor, Shields, Unarmed Fighting
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -81,7 +81,7 @@ The Blade masters the art of finesse and precision, favoring the swift elegance 
 
 **Signature, Swift Blade:** You may use Agility instead of Brawn when attacking with blades. Gain the **Precise Stab** ability, bonus damage when exploiting an opening.
 
-**Favored Skills (X1):** Acrobatics, Deception, Perception, Sleight of Hand, Stealth, Blades Fighting, Bow Fighting, Thrown Weapon, Unarmed Fighting
+**Favored Skills:** Acrobatics, Deception, Perception, Sleight of Hand, Stealth, Blades skills, Bow Fighting, Thrown Weapon, Unarmed Fighting
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -122,7 +122,7 @@ The Arcanist delves into the mysteries of arcane energies, mastering their manip
 
 **Signature, Arcane Shield:** As a free action, raise a protective ward that increases your defense roll by +1 for the round. At higher levels, this shield grows stronger. Once per round.
 
-**Favored Skills (X1):** Alchemy, Arcana, History, Investigation, Lore (any)
+**Favored Skills:** Alchemy, Arcana, History, Investigation, Lore (any)
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -157,7 +157,7 @@ The Shepherd stands as a beacon of guidance, providing moral direction and harne
 
 **Signature, Turn Undead:** Call down divine energy that ignores armor and affects only undead creatures within your presence. Your faith burns what should not walk.
 
-**Favored Skills (X1):** Medicine, Nature, Religion, Survival
+**Favored Skills:** Medicine, Nature, Religion, Survival
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -192,7 +192,7 @@ The Intellect embodies cerebral prowess and scholarly mastery. Your path is a re
 
 **Signature, Knowledge Is Power:** Gain +1 to all Knowledge-based skill checks. This increases at higher levels.
 
-**Favored Skills (X1):** History, Investigation, Lore (any three), Medicine, Arcana
+**Favored Skills:** History, Investigation, Lore (any three), Medicine, Arcana
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -227,7 +227,7 @@ The Odd embodies eccentricity and peculiarity. With a demeanor that dances on th
 
 **Signature, Eccentric Spellcasting:** Choose one arcane ability and one divine ability. You ignore prerequisite Disciplines for these two (level requirements still apply). You need no arcane focus or holy symbol.
 
-**Favored Skills (X1):** Sleight of Hand, Stealth, Streetwise, Deception, Acrobatics
+**Favored Skills:** Sleight of Hand, Stealth, Streetwise, Deception, Acrobatics
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -264,7 +264,7 @@ The Leader is a beacon of courage on the battlefield, leading from the front lin
 
 **Signature, Lead by Example:** When you land a telling blow on an enemy, grant one ally who witnessed it a +2 bonus on their next roll. Your actions inspire greatness in others.
 
-**Favored Skills (X1):** Persuasion, Resilience, Perception, Insight, Blades Fighting, Polearms Fighting
+**Favored Skills:** Persuasion, Resilience, Perception, Insight, Blades skills, Polearms
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -305,7 +305,7 @@ The Unbalanced is a wild card, embodying chaos and unpredictability in every act
 
 **Signature, Edge of Chaos:** On a Strong hit, deal +4 bonus damage but roll on a d6 backlash table, self-damage, a fleeting condition, or an environmental surge that affects everyone, friend and foe alike.
 
-**Favored Skills (X1):** Arcana, Deception, Insight, Intimidation, Unarmed Fighting
+**Favored Skills:** Arcana, Deception, Insight, Intimidation, Unarmed Fighting
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -348,7 +348,7 @@ The Shadow is the ghost in the room, the whisper no one heard, the hand that lif
 
 **Secondary, Shadow Step:** Once per scene, when you Vanish successfully, you may immediately move up to 15 feet without provoking reactions. You appear in your new position when the invisibility ends, ideally behind someone who deserved it.
 
-**Favored Skills (X1):** Stealth, Deception, Sleight of Hand, Thievery, Acrobatics, Perception, Blades Fighting, Thrown Weapon
+**Favored Skills:** Stealth, Deception, Sleight of Hand, Thievery, Acrobatics, Perception, Blades skills, Thrown Weapon
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
