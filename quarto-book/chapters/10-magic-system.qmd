@@ -112,7 +112,7 @@ Look at that jump from Firebolt to Volcanic Eruption. One. Two. Three. Novice sp
 
 Cantrips are the spells you learn before you learn "real" spells. Minor magic. Parlor tricks that grew teeth.
 
-Cantrips require **no Discipline prerequisites.** Every caster knows all cantrips in their tradition, arcane or divine. These are your at-will abilities — for example, *Prestidigitation, Light, Mage Hand, Thaumaturgy, Guidance.* Small effects. Infinite uses. No roll required unless the cantrip says otherwise.
+Cantrips require **no Discipline prerequisites.** Every caster knows all cantrips in their tradition, arcane or divine. These are your at-will abilities, for example: *Prestidigitation, Light, Mage Hand, Thaumaturgy, Guidance.* Small effects. Infinite uses. No roll required unless the cantrip says otherwise.
 
 They won't win a fight. They'll start one, or end one creatively. Never underestimate a caster who knows exactly what their cantrips can do.
 

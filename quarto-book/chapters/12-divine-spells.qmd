@@ -281,7 +281,7 @@ Healing is the heart of divine magic. It's why Shepherds are welcomed in every v
 | Standard (9-14) | Target regains 3 HP per round for 3 rounds. Lost fingers or minor appendages begin to regrow, fully restored by the spell's end. |
 | Strong (15-18+) | Target regains 4 HP per round for 3 rounds. A lost limb regrows over the duration. The target cannot die from hit point loss while Regeneration is active, they stabilize at 0 HP and continue to heal. |
 
-*Regeneration works from the inside out. Flesh knits. Bone fuses. What was broken becomes whole again — not patched, rebuilt to the original spec. Watch their eyes flutter open. Watch their hand grow back. Watch the enemy's expression change from triumph to horror.*
+*Regeneration works from the inside out. Flesh knits. Bone fuses. What was broken becomes whole again. Not patched. Rebuilt to the original spec. Watch their eyes flutter open. Watch their hand grow back. Watch the enemy's expression change from triumph to horror.*
 
 #### True Life (Master)
 **Disciplines:** 2 Life, 1 Protection
@@ -735,7 +735,7 @@ Protection magic is the shield arm of the divine. It wards the innocent, guards 
 | Standard (9-14) | The target is Banished for 1 minute. While Banished, it is incapacitated in a harmless demiplane. When it returns, it takes 9 radiant damage, the boundary between worlds does not welcome it back kindly. |
 | Strong (15-18+) | As Standard, but the target takes 12 radiant damage upon banishment and upon return, crossing the boundary twice burns it badly. If the target is a fiend or undead native to another plane and the Banishment lasts the full minute, it does not return, it is trapped on its home plane. |
 
-*Banishment buys time. The fight isn't over — it's deferred. But in a world where a single round can change everything, a minute of absence is a minute of victory.*
+*Banishment buys time. The fight isn't over. It's deferred. But in a world where a single round can change everything, a minute of absence is a minute of victory.*
 
 #### Soul Prison (Master)
 **Disciplines:** 2 Religion, 1 Energy

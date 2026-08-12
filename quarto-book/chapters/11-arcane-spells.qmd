@@ -330,7 +330,7 @@ Fire is the element of first resort and last resort. It burns. It spreads. It do
 | Standard (9-14) | 12 fire damage + 3 bludgeoning from falling debris in a 20-foot radius. Area becomes difficult terrain for 1 minute. |
 | Strong (15-18+) | 17 fire damage + 4 bludgeoning in a 25-foot radius. The area becomes lava field, 4 fire damage per round to anyone standing in it. Creatures knocked prone by the shockwave. |
 
-*This is the spell that reshapes battlefields. Fire meets Energy in a column that turns stone to lava and air to inferno. When you cast Inferno, the ground beneath your feet is no longer ground — it's a weapon, and it burns for you.*
+*This is the spell that reshapes battlefields. Fire meets Energy in a column that turns stone to lava and air to inferno. When you cast Inferno, the ground beneath your feet is no longer ground. It's a weapon, and it burns for you.*
 
 ### Scorching Ray Chain
 **Disciplines:** Fire
@@ -1540,7 +1540,7 @@ Transmutation is the magic of becoming. It reshapes flesh, bone, and steel. It s
 | Standard (9-14) | +4 Armor. Unarmed strikes deal 4 bludgeoning. Resistance to fire, ice, and lightning. Immune to poison and disease. Speed halved. You weigh 500 pounds, wooden floors may not support you. Duration 1 minute. |
 | Strong (15-18+) | +5 Armor. Unarmed strikes deal 6. Resistance to all elemental damage. Immune to poison, disease, and critical hits. Speed is normal, the iron is somehow weightless to you. You can punch through stone walls. |
 
-*Iron Body turns you into a problem the enemy doesn't want to solve — not because they can't hurt you, but because every attempt costs them more than it costs you.*
+*Iron Body turns you into a problem the enemy doesn't want to solve. Not because they can't hurt you, but because every attempt costs them more than it costs you.*
 
 #### Diamond Form (Master)
 **Disciplines:** 2 Energy, 1 Earth
@@ -1661,7 +1661,7 @@ Wind magic is the art of motion. It doesn't destroy, it *relocates.* It doesn't 
 | Standard (9-14) | Target is pushed 10 feet or knocked prone (your choice). Objects up to 100 pounds are blown 15 feet. |
 | Strong (15-18+) | Target is pushed 20 feet and knocked prone. You may also extinguish all non-magical flames within 15 feet of the target or fan existing flames to double their radius for 1 round. |
 
-*Wind magic starts where force magic ends. You're not shoving, you're redirecting. The battlefield is full of weapons that just need a nudge — ledges, campfires, unstable bridges, enemies standing too close to any of the above. Be the nudge.*
+*Wind magic starts where force magic ends. You're not shoving, you're redirecting. The battlefield is full of weapons that just need a nudge: ledges, campfires, unstable bridges, enemies standing too close to any of the above. Be the nudge.*
 
 #### Wind Wall (Adept)
 **Disciplines:** 2 Wind
