@@ -18,26 +18,31 @@ The tables in this chapter list weapons by damage tier, armor by damage reductio
 
 ## Weapons
 
-Every weapon has fixed Weak, Standard, and Strong damage values. No damage dice, the 3d6 roll already determined how well you struck.
+Every weapon has fixed Weak, Standard, and Strong damage values. Melee weapons add your Brawn (or another attack attribute via features like Swift Blade) to every damage result. The 3d6 attack roll already determined how well you struck — no separate damage dice.
 
-| Weapon | Disciplines Required | Damage (W/S/St) |
-|--------|---------------------|-----------------|
-| Unarmed | None | 1 / 1 / 2 |
-| Dagger | 1 Blades | 1 / 2 / 3 |
-| Shortsword | 2 Blades | 2 / 3 / 4 |
-| Longsword | 2 Blades | 2 / 3 / 5 |
-| Greatsword | 2 Blades + 1 Heavy Weapon | 3 / 5 / 8 |
-| Handaxe | 1 Axes | 2 / 3 / 5 |
-| Battleaxe | 1 Axes | 3 / 4 / 6 |
-| Greataxe | 2 Axes + 1 Heavy Weapon | 3 / 5 / 8 |
-| Mace | 1 Heavy Weapon | 1 / 2 / 3 |
-| Warhammer | 2 Heavy Weapon | 2 / 3 / 5 |
-| Maul | 3 Heavy Weapon | 3 / 5 / 8 |
-| Spear | 1 Polearms | 2 / 3 / 4 |
-| Halberd | 1 Polearms + 1 Axes | 3 / 5 / 7 |
-| Shortbow | 1 Archery | 2 / 3 / 4 |
-| Longbow | 1 Archery | 3 / 4 / 6 |
-| Crossbow | 1 Archery + 1 Heavy Weapon | 3 / 5 / 7 |
+| Weapon | Disciplines Required | Damage (W/S/St) | Attribute |
+|--------|---------------------|-----------------|-----------|
+| Unarmed | None | 1 / 1 / 2 | + Brawn |
+| Dagger | 1 Blades | 1 / 2 / 3 | + Brawn |
+| Shortsword | 2 Blades | 2 / 3 / 4 | + Brawn |
+| Longsword | 2 Blades | 2 / 3 / 5 | + Brawn |
+| Greatsword | 2 Blades + 1 Heavy Weapon | 3 / 5 / 8 | + Brawn |
+| Handaxe | 1 Axes | 2 / 3 / 5 | + Brawn |
+| Battleaxe | 1 Axes | 3 / 4 / 6 | + Brawn |
+| Greataxe | 2 Axes + 1 Heavy Weapon | 3 / 5 / 8 | + Brawn |
+| Mace | 1 Heavy Weapon | 1 / 2 / 3 | + Brawn |
+| Warhammer | 2 Heavy Weapon | 2 / 3 / 5 | + Brawn |
+| Maul | 3 Heavy Weapon | 3 / 5 / 8 | + Brawn |
+| Spear | 1 Polearms | 2 / 3 / 4 | + Brawn |
+| Halberd | 1 Polearms + 1 Axes | 3 / 5 / 7 | + Brawn |
+| Shortbow | 1 Archery | 2 / 3 / 4 | — |
+| Longbow | 1 Archery | 3 / 4 / 6 | — |
+| Crossbow | 1 Archery + 1 Heavy Weapon | 3 / 5 / 7 | — |
+
+::: {.callout-note}
+## Melee Damage
+Melee weapons add your Brawn to every damage result (minimum 1). Features like the Blade's Swift Blade may substitute Agility. Missile weapons and ammunition deal their listed flat damage.
+:::
 
 ::: {.callout-note}
 ## Discipline Combinations, Build Your Fighting Style
