@@ -447,7 +447,7 @@ Total: 6 DP. 1 DP remaining — the point is spent on story, not on the sheet.
 
 **Class DP (8 DP):**
 
-- Evasion Novice (2 DP)
+- Tumble Novice (2 DP)
 - Deception Novice (2 DP), feints win duels
 - Perception Novice (2 DP), seeing the opening before it exists
 - Sleight of Hand Novice (2 DP), a duelist's flourish is misdirection

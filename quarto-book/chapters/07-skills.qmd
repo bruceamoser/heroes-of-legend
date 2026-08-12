@@ -163,7 +163,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
-| **Adept** | +2 | 4 | **Precision Strike**, On Standard+ hit, target Bleeds (1 damage/round for 3 rounds). Disc: Blades (2). |
+| **Adept** | +2 | 4 | **Pinpoint Strike**, On Standard+ hit, target Bleeds (1 damage/round for 3 rounds). Disc: Blades (2). |
 | **Master** | +3 | 8 | **Artery Sever**, On Strong hit, target takes 2 Bleed damage/round until healed. Disc: Blades (3). |
 
 ### Long Blades {#sec-skill-long-blades}
@@ -188,7 +188,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
 | **Adept** | +2 | 4 | **Power Strike**, On Standard+ hit, push target 5 ft away. Disc: 1 Blades + 1 Heavy Weapon. |
-| **Master** | +3 | 8 | **Whirlwind**, Attack all adjacent foes with one roll at -2. Disc: Blades (2) + Heavy (1). |
+| **Master** | +3 | 8 | **Cyclone**, Attack all adjacent foes with one roll at -2. Disc: Blades (2) + Heavy (1). |
 
 ### Small Hammers {#sec-skill-small-hammers}
 
@@ -332,7 +332,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
 | **Adept** | +2 | 4 | **Fortify**, Gain +1 DR until start of your next turn. Disc: Armor (2). |
-| **Master** | +3 | 8 | **Bulwark**, All adjacent allies gain +1 DR until start of your next turn. Disc: Armor (3). |
+| **Master** | +3 | 8 | **Impenetrable**, Once per scene, as a reaction, an ally within 5 ft gains +5 DR against one attack. Disc: Armor (3). |
 
 ### Shields {#sec-skill-shields}
 
@@ -368,7 +368,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
 | **Adept** | +2 | 4 | **Shake It Off**, Automatically succeed on a save vs poison or disease. |
-| **Master** | +3 | 8 | **Second Wind**, Regain HP equal to Fortitude + level. Once per combat. |
+| **Master** | +3 | 8 | **Renewal**, Regain HP equal to Fortitude + level. Once per combat. |
 
 ### Survival {#sec-skill-survival}
 
@@ -391,8 +391,8 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
-| **Adept** | +2 | 4 | **Iron Will**, Reroll a failed save vs fear or charm. |
-| **Master** | +3 | 8 | **Unbroken**, Ignore one condition (Frightened, Poisoned, or Stunned) for 1 round. |
+| **Adept** | +2 | 4 | **Steel Mind**, Reroll a failed save vs fear or charm. |
+| **Master** | +3 | 8 | **Steadfast**, Ignore one condition (Frightened, Poisoned, or Stunned) for 1 round. |
 
 ### Acrobatics {#sec-skill-acrobatics}
 
@@ -415,8 +415,8 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
-| **Adept** | +2 | 4 | **Vanish**, Attempt Stealth check to hide even while observed. |
-| **Master** | +3 | 8 | **Shadow Step**, Move 20 ft to any shadow or concealed position. No opportunity attacks. |
+| **Adept** | +2 | 4 | **Veil**, Attempt Stealth check to hide even while observed. |
+| **Master** | +3 | 8 | **Ghost Step**, Move 20 ft to any shadow or concealed position. No opportunity attacks. |
 
 ### Sleight of Hand {#sec-skill-sleight-of-hand}
 
@@ -452,7 +452,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
 | **Adept** | +2 | 4 | **Rally**, One ally within 30 ft loses Frightened. |
-| **Master** | +3 | 8 | **Command**, One ally within 30 ft takes an immediate move action. |
+| **Master** | +3 | 8 | **Order**, One ally within 30 ft takes an immediate move action. |
 
 ### Streetwise {#sec-skill-streetwise}
 
@@ -464,7 +464,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
 | **Adept** | +2 | 4 | **Contacts**, Once per session, "know a person" for info, shelter, or a small favor. |
-| **Master** | +3 | 8 | **Read the Room**, Instantly assess social power dynamics: authority, lies, exits. |
+| **Master** | +3 | 8 | **Read the Crowd**, Instantly assess social power dynamics: authority, lies, exits. |
 
 ### Arcana {#sec-skill-arcana}
 
@@ -512,7 +512,7 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
 | **Adept** | +2 | 4 | **Beast Lore**, Identify creature's type, abilities, and vulnerabilities. Disc: Animal (2). |
-| **Master** | +3 | 8 | **Commune**, Speak with a natural beast for 1 minute. Disc: Animal (3). |
+| **Master** | +3 | 8 | **Wild Counsel**, Speak with a natural beast for 1 minute. Disc: Animal (3). |
 
 ### Religion {#sec-skill-religion}
 
@@ -523,8 +523,8 @@ Each skill card shows the *Novice*, *Adept*, and *Master* tiers. Adept and Maste
 | Tier | Bonus | DP Cost | Maneuver |
 |------|-------|---------|----------|
 | **Novice** | +1 | 2 | — |
-| **Adept** | +2 | 4 | **Blessing**, One ally within 30 ft gains +1 on all rolls until start of your next turn. |
-| **Master** | +3 | 8 | **Smite**, Next attack deals bonus radiant damage equal to your Knowledge. |
+| **Adept** | +2 | 4 | **Benediction**, One ally within 30 ft gains +1 on all rolls until start of your next turn. |
+| **Master** | +3 | 8 | **Righteous Blow**, Next attack deals bonus radiant damage equal to your Knowledge. |
 
 ### Alchemy {#sec-skill-alchemy}
 
