@@ -74,6 +74,7 @@ Your class hands you specific Disciplines at creation. These are your foundation
 | Odd | 3 of any type, must be from different categories |
 | Leader | 2 Protection, 1 Energy, 1 any |
 | Unbalanced | 2 of one type, 2 of its opposite (Fire/Water or Earth/Wind) |
+| Shadow | 2 Blades, 1 Mind |
 
 ### Progression
 
@@ -107,6 +108,48 @@ Skills, abilities, and talents require specific Disciplines before you can learn
 General Disciplines substitute for specific Disciplines at Novice tier only (1:1). General Disciplines cannot substitute at the Adept or Master tier.
 
 Need 1 Fire for Firebolt? A General covers it. Need 2 Fire for Fireball at Adept? You need the real thing, no substitutions. Need 3 Fire and 1 Earth for Volcanic Eruption? You need every one of those Disciplines the hard way. General gets you in the door. Beyond that, you walk through on your own.
+
+{{< pagebreak >}}
+
+## The Discipline Ladder
+
+Every ability, skill, and spell follows a three-tier ladder. The higher you climb, the more Disciplines you need, the bigger the payoff.
+
+| Tier | DP Cost (any class) | Discipline Requirement | Level Gate | General Subs OK? |
+|------|---------------------|------------------------|------------|-------------------|
+| **Novice** | 1 DP | 1 specific Discipline | None (Level 1) | Yes (1:1) |
+| **Adept** | 2 DP | 2 Disciplines (may differ in type) | Level 3 | No |
+| **Master** | 3-4 DP | 3-4 Disciplines across 2+ types (no single type > 3) | Level 7 | No |
+
+**Novice** is your foundation. One Discipline, one DP, you're in the door. Any class can buy any Novice ability at 1 DP regardless of their favored costs (see @sec-chapter-classes). General Disciplines can stand in for specific ones at this tier, a General covers 1 Fire for Firebolt.
+
+**Adept** requires two Disciplines. They might be two ranks of the same type (2 Fire for Flame Strike) or two different types (2 Fire + 1 Energy for Fireball, 2 Water + 1 Wind for Ice Storm). The point is depth: you've moved past dabbling into real investment. Level 3 is the gate; you've earned enough field experience to handle the real power.
+
+**Master** demands three to four Disciplines across at least two types, and no single type can count for more than 3. A spell requiring 3 Fire + 1 Earth is Master. One requiring 4 Fire alone is not, there's no such thing as a one-trick Master. The ladder enforces breadth at the top. Level 7 is the gate. By the time you're casting Master spells, you've been through enough to know when *not* to use them.
+
+**General Disciplines** are your wildcards. They substitute 1:1 for specific Disciplines at Novice tier only. Two Generals don't make an Adept. Three Generals don't make a Master. Generals get you started and can fill in odd gaps in the mid-game, but the upper tiers require the real thing, earned through class training, progression, or story events. See "General Disciplines Substitution" below.
+
+{{< pagebreak >}}
+
+## Damage Budget {#sec-damage-budget}
+
+Every damaging spell, ability, and maneuver in *Heroes of Legend* is built on a single table. This is the balance spine. Spells are the guide; everything else keys off them.
+
+| Tier | Discipline Requirement | Damage (Weak / Standard / Strong) |
+|------|------------------------|-----------------------------------|
+| **Novice** | 1 Discipline | 2 / 4 / 6 |
+| **Adept** | 2 Disciplines | 6 / 9 / 12 |
+| **Master** | 3-4 Disciplines | 9 / 15 / 21 |
+
+::: {.callout-note}
+## How to Read the Budget
+
+The numbers are damage dice rolled on a hit, always-hit means the question is never *if*, only *how hard*. A Novice Firebolt deals 2d6 on a Weak result, 4d6 on Standard, 6d6 on Strong. An Adept Fireball deals 6d6/9d6/12d6. A Master Volcanic Eruption deals 9d6/15d6/21d6.
+
+Abilities, combat maneuvers, and ancestry gifts all reference this same budget. A Novice class ability that deals damage uses the 2/4/6 line. An Adept Blade maneuver uses 6/9/12. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
+
+See @sec-chapter-arcane-spells and @sec-chapter-divine-spells for the full spell lists. See @sec-chapter-classes for class abilities keyed to this budget.
+:::
 
 {{< pagebreak >}}
 

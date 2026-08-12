@@ -18,6 +18,16 @@ Arcane magic is the art of telling the universe to sit down and shut up, and mak
 
 This chapter contains every arcane spell in the game. They're organized by element, then by chain. Each chain is a path: Novice to Adept to Master. Walk it. Earn it. Then set the world on fire.
 
+::: {.callout-note}
+## How Spell Chains Work
+
+Spells in *Heroes of Legend* are **thematic chains**, not independent purchases. A single spell eats up three spells: one growing concept expressed at Novice, Adept, and Master. Each entry is narratively linked to the one before it. A fire mage doesn't buy "Firebolt" and "Fireball" and "Inferno" as separate spells. They buy the **Firebolt chain**, and it grows with them.
+
+Famous spells sit at their natural tier. The **Fire chain** is Firebolt (N) / Fireball (A) / Volcanic Eruption (M). The **Ice chain** is Frost Ray (N) / Ice Storm (A) / Blizzard (M). A Master lightning mage isn't just casting a bigger Shock, they're calling down **Storm Call**, a spell that wouldn't make sense at Novice and would be underwhelming at Master if it were just a damage bump.
+
+Every spell chain in this chapter follows this structure. Every spell chain keyed to the damage budget table (@sec-damage-budget). Read the chains like they're roads. The Novice entry is where you start. The Master entry is where you're going. Everything in between is the path you walk.
+:::
+
 *See @sec-chapter-magic-system for how spellcasting works.*
 
 {{< pagebreak >}}

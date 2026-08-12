@@ -136,3 +136,59 @@ Your culture is how you were raised. It's not just flavor, it's the skills and D
 | **Riverfolk** | Acrobatics or Sleight of Hand | Blades or Archery | On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm. Dagger close, sling far, you're ready for whatever comes down the river. |
 | **Burrower** | Stealth or Survival | Protection or Blades | In cozy tunnels beneath the hills, hidden from big folk and their big problems. You know every root, every mushroom, every hidden exit. When trouble comes knocking, your blade is ready and your home is your fortress. |
 | **Wanderer** | Streetwise or Performance | Any one (free choice) | On the road, in the caravans, telling stories for supper. Home is wherever you hang your hat. You've learned a little of everything. |
+
+{{< pagebreak >}}
+
+## Ancestry Gifts {#sec-ancestry-gifts}
+
+Your ancestry isn't just a Discipline and a trait. It's a bloodline, and bloodlines carry gifts. These are abilities unique to each ancestry, inherited, not learned. They follow the same card format as class abilities and the same Novice/Adept/Master ladder, but they represent innate talent, not training. You can buy them with DP just like any other ability: 1/2/4 DP regardless of class.
+
+**Rule:** No ancestry gift may out-perform a class ability at the same tier. These are flavor, not shortcuts. A Human can't out-heal a Shepherd. An Elf can't out-stab a Blade. Gifts are your birthright, not your class replacement.
+
+### Human Gifts
+
+Humans are adaptable. Their gifts lean into that versatility, letting them dabble, borrow, and survive situations they weren't built for.
+
+| Gift | Tier | Effect |
+|------|------|--------|
+| **Fast Learner** | Novice | Once per session, you may use a skill you don't have at Novice (+1) for a single check. |
+| **Die Hard** | Novice | When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session. |
+| **Jack of All Trades** | Adept | You may purchase one skill at X1 cost regardless of your class's normal multiplier. This applies to one skill, chosen when you buy the gift. |
+| **Second Wind** | Adept | Once per scene, as a maneuver, you may regain 1d6+2 HP. |
+| **Indomitable** | Master | Once per session, when you fail a Fortitude or Reason check, you may succeed instead. Describe how sheer human stubbornness carried you through. |
+
+### Elf Gifts
+
+Elves carry centuries of memory in their blood. Their gifts are precise, patient, and just a little bit unfair.
+
+| Gift | Tier | Effect |
+|------|------|--------|
+| **Keen Senses** | Novice | You have Boon on Perception checks involving sight or hearing. This is always on. |
+| **Fey Step** | Novice | Once per scene, as a maneuver, you may teleport 10 feet to a location you can see. The air shimmers silver where you stood. |
+| **Trance** | Novice | You do not sleep. Instead, you enter a meditative trance for 4 hours. You remain aware of your surroundings during this time. |
+| **Long Memory** | Adept | Once per session, you may declare that you've seen something like this before and recall a useful detail. The DA provides one fact about the current situation that your centuries of experience would reasonably include. |
+| **Ancestral Grace** | Adept | You may use your Elven Grace trait twice per session instead of once. |
+
+### Dwarf Gifts
+
+Dwarves are forged, not born. Their gifts reflect stone, steel, and the kind of stubbornness that makes mountains look flexible.
+
+| Gift | Tier | Effect |
+|------|------|--------|
+| **Stonecunning** | Novice | You have Boon on Investigation and Craft checks involving stonework, masonry, or underground construction. You know when a wall has been moved. |
+| **Dwarven Resilience** | Novice | You have Boon on Fortitude checks to resist poison. Alcohol doesn't count. |
+| **Grudge-Bearer** | Novice | Once per session, when an enemy damages you, you may mark that enemy. For the rest of the encounter, you have +1 on attack rolls against them. |
+| **Forge-Trained** | Adept | You may treat any non-magical weapon or armor you wield as if it were one quality tier higher (worn becomes standard, standard becomes fine). This represents dwarven maintenance, not magic. |
+| **Unyielding** | Adept | When an effect would push, pull, or knock you prone, you may choose to be unaffected. Once per scene. |
+
+### Halfling Gifts
+
+Halflings survive because the universe likes them. Their gifts reflect luck, charm, and the art of being underestimated.
+
+| Gift | Tier | Effect |
+|------|------|--------|
+| **Naturally Stealthy** | Novice | You have Boon on Stealth checks made to hide behind creatures at least one size larger than you. Which is most of them. |
+| **Halfling Charm** | Novice | Once per scene, when you fail a Persuasion or Deception check, you may reroll it. The universe gives small, cheerful people a second chance. |
+| **Burrow-Sense** | Novice | You always know which way is north and can estimate depth underground (how far beneath the surface you are). |
+| **Second Breakfast** | Adept | Once per day, during a short rest, you may prepare a meal so satisfying that all allies who eat it regain an additional 1d6 HP. This is not magic. This is cooking. |
+| **Impossible Luck** | Adept | You may use your Lucky trait twice per session instead of once. |
