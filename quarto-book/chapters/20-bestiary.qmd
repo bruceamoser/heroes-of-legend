@@ -55,7 +55,7 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
 
 **Knight (Challenge 3):** HP 20, DR 4 (plate). Longsword: 6/9/12. Shield Block reaction. Leadership: allies within 10 ft gain +1 to attacks.
 
-**Archmage (Challenge 6):** HP 14, DR 2. Dagger: 1/2/3. Firebolt: 2/3/5 (at will). Fireball: 6/9/12 (once per encounter). Counterspell: reaction to negate a spell. Magical Ward: +2 DR vs spells.
+**Archmage (Challenge 6):** HP 14, DR 2. Dagger: 1/2/3. Firebolt: 2/4/6 (at will). Fireball: 6/9/12 (once per encounter). Counterspell: reaction to negate a spell. Magical Ward: +2 DR vs spells.
 
 {{< pagebreak >}}
 
