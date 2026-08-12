@@ -72,7 +72,7 @@ Treasure is the reward system. It's how the game says "you did something impress
 
 **Consumables are your secret weapon.** Potions, scrolls, and single-use magic items are the easiest treasure to hand out because they don't permanently shift the party's power level. A potion of flight solves one encounter brilliantly. Boots of flight solve every encounter forever. Be generous with consumables. Be stingy with permanents. Your future self, trying to challenge a party that can all fly, will thank you.
 
-**Let players use their treasure creatively.** If the party wants to spend their gold on a tavern, let them. The tavern becomes a story engine — rumors, rivals, arson, the new undertaker. If they want to commission a custom magic item, work with them on the design. Make them quest for the rare component. The best treasure isn't found in a hoard; it's built over a campaign.
+**Let players use their treasure creatively.** If the party wants to spend their gold on a tavern, let them. The tavern becomes a story engine: rumors, rivals, arson, the new undertaker. If they want to commission a custom magic item, work with them on the design. Make them quest for the rare component. The best treasure isn't found in a hoard; it's built over a campaign.
 
 {{< pagebreak >}}
 
