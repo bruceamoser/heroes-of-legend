@@ -32,11 +32,11 @@ Every magic item follows a simple format:
 | Item | Rarity | Effect |
 |------|--------|--------|
 | **+1 Weapon** | Uncommon | +1 damage to all tiers. The classic. Boring but reliable. |
-| **Flame Tongue** | Rare | +1d6 fire damage on hit. Requires 1 Fire Discipline. |
+| **Flame Tongue** | Rare | +2 fire damage. Requires 1 Fire Discipline. |
 | **Shield +1** | Uncommon | +1 DR while wielded. |
 | **Cloak of Elvenkind** | Uncommon | Boon on Stealth checks. The cloak shifts color to match its surroundings. |
 | **Ring of Protection** | Rare | +1 DR, +1 to all saves. Simple. Powerful. |
-| **Staff of Power** | Very Rare | +2 to spell damage tiers. Weak becomes Standard. Standard becomes Strong. Strong becomes devastating. |
+| **Staff of Power** | Very Rare | +2 damage (flat) to spell damage. |
 | **Deck of Many Things** | Legendary | Draw a card. Fate unfolds. Some cards grant wishes. Some steal your soul. The deck has ended more campaigns than any dragon. |
 
 {{< pagebreak >}}
@@ -95,9 +95,9 @@ Leather gloves crackling with trapped lightning. Your fingers leave faint arcs o
 
 | Success Tier | Effect |
 |-------------|--------|
-| **Weak** | 3 lightning damage. Target's hair stands on end. They know they were targeted. |
-| **Standard** | 5 lightning damage. Target must make a Fortitude save or lose their reaction. |
-| **Strong** | 8 lightning damage. Target is Stunned until end of your next turn. |
+| **Weak** | 2 lightning damage. Target's hair stands on end. They know they were targeted. |
+| **Standard** | 4 lightning damage. Target must make a Fortitude save or lose their reaction. |
+| **Strong** | 6 lightning damage. Target is Stunned until end of your next turn. |
 
 ### Chalice of Shared Mercy
 
@@ -173,9 +173,9 @@ A cloak of crimson scales. When danger threatens, the scales ignite, wrapping th
 
 | Success Tier | Effect |
 |-------------|--------|
-| **Weak** | 3 fire damage. The creature is singed and angry. |
-| **Standard** | 5 fire damage. The creature must succeed on a Morale Check or back away. |
-| **Strong** | 8 fire damage. The creature is Blinded until end of its next turn. |
+| **Weak** | 6 fire damage. The creature is singed and angry. |
+| **Standard** | 9 fire damage. The creature must succeed on a Morale Check or back away. |
+| **Strong** | 12 fire damage. The creature is Blinded until end of its next turn. |
 
 ### Locket of the Final Word
 
@@ -217,9 +217,9 @@ A massive hammer with a head of clouded silver. When it strikes, the air cracks 
 
 | Success Tier | Effect |
 |-------------|--------|
-| **Weak** | 3 thunder damage. Creatures in the cone are pushed 5 ft away from you. |
-| **Standard** | 5 thunder damage. Creatures are pushed 10 ft and must make a Fortitude save or be knocked Prone. |
-| **Strong** | 8 thunder damage. Creatures are pushed 15 ft, knocked Prone, and Stunned until end of your next turn. |
+| **Weak** | 6 thunder damage. Creatures in the cone are pushed 5 ft away from you. |
+| **Standard** | 9 thunder damage. Creatures are pushed 10 ft and must make a Fortitude save or be knocked Prone. |
+| **Strong** | 12 thunder damage. Creatures are pushed 15 ft, knocked Prone, and Stunned until end of your next turn. |
 
 ### Shadow Thorn
 
@@ -250,8 +250,8 @@ A longbow of pale golden wood, warm to the touch. When drawn, the string hums wi
 | Success Tier | Effect |
 |-------------|--------|
 | **Weak** | Creatures in the radius are Dazzled (-1 to attack rolls) until end of your next turn. No damage. |
-| **Standard** | 3 radiant damage to all creatures in radius. Creatures that fail their save are Blinded until end of your next turn. |
-| **Strong** | 5 radiant damage. Creatures are Blinded (no save) until end of your next turn. Undead take double damage. |
+| **Standard** | 2 radiant damage to all creatures in radius. Creatures that fail their save are Blinded until end of your next turn. |
+| **Strong** | 4 radiant damage. Creatures are Blinded (no save) until end of your next turn. Undead take +1 damage tier. |
 
 ### Spellguard Shield
 
@@ -265,7 +265,7 @@ A shield of silvered steel inlaid with faintly glowing runes. The runes pulse so
 
 | Success Tier | Effect |
 |-------------|--------|
-| **Weak** | The spell is negated but the shield's runes go dark, you cannot use Spell Catch again until you finish a long rest. |
+| **Weak** | The spell is negated but the shield's runes go dark, you cannot use Spell Catch again for the rest of the session. |
 | **Standard** | The spell is negated. The shield stores one charge of the spell's energy, your next attack deals +2 damage of the absorbed spell's damage type. |
 | **Strong** | The spell is negated and reflected back at the caster. They suffer the spell's Weak effect. |
 
@@ -275,7 +275,7 @@ A shield of silvered steel inlaid with faintly glowing runes. The runes pulse so
 
 Full plate armor forged from star-metal, black iron veined with silver that gleams like captured constellations. It's impossibly heavy, impossibly strong, and it has turned aside blows that should have felled giants.
 
-**Always On:** DR 7 (Plate is normally 6). Any critical hit scored against you becomes a normal hit instead, roll damage as if the attack had scored a Standard success. This does not prevent fumble effects against you.
+**Always On:** DR 7 (Plate is normally 6). Any critical hit scored against you becomes a normal hit instead, the attack deals Standard damage. This does not prevent fumble effects against you.
 
 **Always On:** You have resistance to non-magical bludgeoning, piercing, and slashing damage from creatures of Large size or smaller.
 
@@ -334,10 +334,10 @@ A glass vial filled with a shimmering red liquid that catches the light like liq
 | Success Tier | Effect |
 |-------------|--------|
 | **Weak** | Restore 2 HP. |
-| **Standard** | Restore 5 HP. |
-| **Strong** | Restore 8 HP and lose one condition of your choice. |
+| **Standard** | Restore 4 HP. |
+| **Strong** | Restore 6 HP and lose one condition of your choice. |
 
-**Variants:** Greater Healing (Rare, 5/10/15 HP), Superior Healing (Very Rare, 10/20/30 HP). These follow the same W/S/S pattern and count as consumables. Greater potions are thick as syrup and glow with inner light. Superior potions are nearly black and taste of nothing at all, the absence of pain, bottled.
+**Variants:** Greater Healing (Rare, 6/9/12 HP), Superior Healing (Very Rare, 9/15/21 HP). These follow the same W/S/S pattern and count as consumables. Greater potions are thick as syrup and glow with inner light. Superior potions are nearly black and taste of nothing at all, the absence of pain, bottled.
 
 ### Elixir of Dragon's Breath
 
@@ -349,9 +349,9 @@ A crystalline vial containing a swirling, iridescent vapor that never settles. T
 
 | Success Tier | Effect |
 |-------------|--------|
-| **Weak** | 3 damage of the chosen type to all creatures in the cone. |
-| **Standard** | 5 damage. Creatures that fail an Agility save take full damage; those that succeed take half. |
-| **Strong** | 8 damage. Creatures that fail an Agility save take full damage and suffer an ongoing 2 damage of the chosen type for 1 minute (Fortitude save ends). Those that succeed take half and suffer no ongoing effect. |
+| **Weak** | 2 damage of the chosen type to all creatures in the cone. |
+| **Standard** | 4 damage. Creatures that fail an Agility save take full damage; those that succeed take half. |
+| **Strong** | 6 damage. Creatures that fail an Agility save take full damage and suffer an ongoing 2 damage of the chosen type for 1 minute (Fortitude save ends). Those that succeed take half and suffer no ongoing effect. |
 
 The elixir's potency fades after 24 hours once opened. An unopened vial keeps indefinitely, some have been found in dragon hoards centuries old, still swirling, still waiting.
 
@@ -369,7 +369,7 @@ A cloak of deep blue leather, smooth and faintly slick to the touch. When submer
 
 ## Attunement
 
-A character may attune to **3 magic items** at a time. Artifacts do not count against this limit. Attuning to an item requires a short rest, you're bonding with the item's magic, not just picking it up.
+A character may attune to **3 magic items** at a time. Artifacts do not count against this limit. Attuning to an item requires a brief period of focus, bonding with the item's magic rather than simply picking it up.
 
 ::: {.callout-note}
 ## Attunement Is a Choice, Not a Limit
@@ -404,8 +404,7 @@ The DA controls the flow of magic items. A good rule of thumb:
 
 - **Levels 1-3:** One Uncommon item per hero. Potions, scrolls, and a single +1 weapon for the party.
 - **Levels 4-6:** Two Uncommon, one Rare per hero. Discipline items start appearing.
-- **Levels 7-10:** Mostly Rare, one Very Rare for the party. Items with W/S/S effects become available.
-- **Levels 11+:** Very Rare and Legendary items. These should feel earned, quest rewards, not shop purchases.
+- **Levels 7-10:** Mostly Rare, one Very Rare for the party. Very Rare and Legendary items. Items with W/S/S effects become available. These should feel earned, quest rewards, not shop purchases.
 
 Magic items aren't in every treasure hoard. When the party finds one, it should matter. The Blade who's been using the same longsword for five levels unsheathes a Flame Tongue for the first time, that's a moment. Milk it.
 :::
