@@ -80,7 +80,7 @@ Spells don't exist in isolation. They're organized into **chains**, three-tier p
 | Ward | Ward | Magic Circle | Divine Barrier |
 | Holy Strike | Holy Strike | Smite | Divine Judgment |
 | Guiding Bolt | Guiding Bolt | Radiant Beam | Pillar of Light |
-| Turn Undead | Turn Undead | Banish | Soul Prison |
+| Turn Unholy | Turn Unholy | Banish | Soul Prison |
 | Consecrate | Consecrate | Hallow | Sanctified Ground |
 | Detect Magic | Detect Magic | Identify | Legend Lore |
 | See Invisible | See Invisible | True Seeing | Foresight |
