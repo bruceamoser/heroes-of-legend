@@ -13,7 +13,7 @@ Rules:
 | # | Chapter | Status | Findings | PRs / Issues | Notes |
 |---|---------|--------|----------|--------------|-------|
 | 1 | 00-front-matter | reviewed | 8 (4 fixed / 4 resolved via layout PR) | PR #263 + #264 | front matter orphaned from build; wired via index.qmd include; #264: single title page, epigraph deduped+centered, version tied to build date, cover figure numbering suppressed |
-| 2 | 01-introduction | pending | | | |
+| 2 | 01-introduction | reviewed | 10 fixed (canon example, stale spell, figure captions, heading levels, spell-limit wording, author trims) + 6 swept cross-chapter | PR #265 + #271-#275 | #265: Example of Play rewritten to #256 canon (13 Standard; no Long Blades skill), Water Breathing removed (no such spell), Illo 2/3 caption-syntax dropped (figure numbering 8→6), ### callouts → ## (book convention), spell-limit wording matched ch10, redundant cross-ref trimmed. #256 stale-skill sweep closed umbrella #266: ch02 builds (#274), ch05 favored lists (#271), ch13 combat example (#272), ch22 reference table 42→20 rows (#273), whole-book one-cell leftovers ch04/ch15/ch19/ch20/ch21 (#275). NOTE for ch07's day: ch07 header says "The 18 Skills" but the table lists 20 rows — count wording needs reconciliation. |
 | 3 | 01b-opening-fiction | pending | | | |
 | 4 | 02-character-creation | pending | | | |
 | 5 | 03-attributes | pending | | | |
