@@ -66,7 +66,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | **Grapple** | Initiate a grapple (opposed Brawn check) |
 | **Command** | Companion/familiar/mount takes an extra Movement |
 | **Catch Breath** | Regain HP equal to Fortitude (min 1). Once per combat. |
-| **Search** | Active Investigation check to spot hidden things |
+| **Search** | Active Perception check to spot hidden things |
 | **Stand Up** | Rise from prone |
 | **Use Item** | Drink a potion, apply a salve, activate a device |
 
@@ -138,47 +138,25 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | Skill | Attr | Key Use |
 |-------|------|---------|
 | **Athletics** | BR | Climb, swim, jump |
-| **Intimidation** | BR | Frighten, coerce |
-| **Small Blades** | BR | Daggers, knives, short blades |
-| **Long Blades** | BR | Swords, longswords, arming swords |
-| **Great Blades** | BR | Greatswords, two-handed blades |
-| **Small Hammers** | BR | Maces, clubs, light hammers |
-| **Long Hammers** | BR | Warhammers, military hammers |
-| **Great Hammers** | BR | Mauls, massive crushing weapons |
-| **Small Axes** | BR | Hand axes, hatchets |
-| **Long Axes** | BR | Battle axes, war axes |
-| **Great Axes** | BR | Greataxes, massive cleaving weapons |
-| **Polearms** | BR | Spears, halberds, reach weapons |
-| **Unarmed Fighting** | BR | Fists, grappling |
-| **Endurance** | FO | Fatigue, breath-holding |
-| **Survival** | FO | Track, forage, navigate |
-| **Resilience** | FO | Poison, disease, extremes |
-| **Armor** | FO | Wearing armor, personal defense |
-| **Shields** | FO | Blocking with shields, shield combat |
-| **Animal Handling** | FO | Calming, riding, working with beasts |
 | **Acrobatics** | AG | Balance, tumble, escape |
-| **Stealth** | AG | Sneak, hide |
-| **Bow Fighting** | AG | Longbows, shortbows |
-| **Thrown Weapon** | AG | Knives, axes, javelins |
-| **Crossbow Fighting** | AG | Crossbows |
-| **Sleight of Hand** | AG | Pickpocket, lockpick |
-| **Thievery** | AG | Disabling traps, lockpicking |
-| **Deception** | GU | Lie, bluff, disguise |
-| **Persuasion** | GU | Diplomacy, negotiate |
-| **Streetwise** | GU | Gather info, contacts |
-| **Performance** | GU | Music, oratory, entertain |
-| **Arcana** | KN | Magic knowledge |
-| **History** | KN | Lore, legends |
-| **Investigation** | KN | Search, deduce |
-| **Nature** | KN | Plants, animals |
-| **Religion** | KN | Gods, rituals |
+| **Endurance** | FO | Fatigue, breath-holding, marches |
+| **Survival** | FO | Track, forage, navigate |
 | **Lore** | KN | Legends, heraldry, esoteric |
-| **Alchemy** | RE | Potions, substances |
-| **Craft** | RE | Smith, build, create |
-| **Medicine** | RE | Heal, diagnose |
+| **History** | KN | Past events, kingdoms, lineages |
+| **Arcana** | KN | Magical knowledge, spell ID |
+| **Nature** | KN | Plants, animals, phenomena |
+| **Religion** | KN | Gods, rituals, divine lore |
+| **Medicine** | RE | Healing, diagnosis, first aid |
+| **Persuasion** | GU | Diplomacy, negotiation, charm |
 | **Insight** | RE | Read people, detect lies |
-| **Perception** | RE | Spotting, noticing, sensing danger |
-| **Navigation** | RE | Wayfinding, maps, reading the land |
+| **Deception** | GU | Lie, bluff, disguise |
+| **Performance** | GU | Music, oratory, entertain |
+| **Stealth** | AG | Sneak, hide, move silently |
+| **Sleight of Hand** | AG | Pickpocket, legerdemain |
+| **Thievery** | AG | Disable traps, pick locks |
+| **Perception** | RE | Spot, notice, sense danger |
+| **Craft** | RE | Smith, build, make things |
+| **Alchemy** | RE | Brew potions, identify substances |
 
 {{< pagebreak >}}
 
