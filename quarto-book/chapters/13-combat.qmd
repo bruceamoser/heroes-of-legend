@@ -59,7 +59,7 @@ These maneuvers are free for everyone. No skill required. No Discipline check. J
 | **Grapple** | Initiate a grapple (see @sec-grappling). |
 | **Command** | A companion, familiar, or mount under your control takes an extra move. |
 | **Catch Breath** | Regain HP equal to your Fortitude score (min 1). Once per combat. |
-| **Search** | Active Investigation check to spot a hidden creature or clue. |
+| **Search** | Active Perception check to spot a hidden creature or clue. |
 | **Stand Up** | Rise from prone. |
 | **Use Item** | Drink a potion, apply a salve, or activate a simple device. |
 
@@ -330,11 +330,11 @@ She rolls 3d6 + Knowledge (+1) + no skill. Rolls 3, 4, 4 = 11 + 1 = 12. **Standa
 
 Kael sees the Knight advancing on Roric. He moves 15 ft to flank, drawing his longsword as a free action. A small buckler (+2 DR) is strapped to his left forearm.
 
-"I attack the Knight. Long Blades Adept."
+"I attack the Knight."
 
-Rolls 3d6 + Brawn (+1) + Long Blades (+2). Rolls 5, 4, 5 = 14 + 3 = 17. **Strong.** Longsword Strong damage: 5, plus Brawn +1 = 6. Knight's plate armor: DR 4. 6 - 4 = 2 damage. The blade finds a gap at the Knight's gorget, a thin line of blood. Not a killing blow, but the Knight knows Kael can hurt him.
+Rolls 3d6 + Brawn (+1). Rolls 5, 4, 5 = 14 + 1 = 15. **Strong.** Longsword Strong damage: 5, plus Brawn +1 = 6. Knight's plate armor: DR 4. 6 - 4 = 2 damage. The blade finds a gap at the Knight's gorget, a thin line of blood. Not a killing blow, but the Knight knows Kael can hurt him.
 
-Kael keeps his **Reaction** ready. His Long Blades Adept maneuver **Riposte** lets him spend his Reaction to counterattack when an enemy deals Weak damage to him.
+Kael keeps his **Reaction** ready. His **Riposte** weapon maneuver (2 Blades) lets him spend his Reaction to counterattack when an enemy deals Weak damage to him.
 
 **Round 1, Knight's Turn:**
 
@@ -358,7 +358,7 @@ Roric has been waiting. The Knight is focused on Kael. The cultists are clustere
 
 "I move to engage the Knight. Attack with my warhammer."
 
-Rolls 3d6 + Brawn (+2) + Long Hammers Novice (+1). Rolls 3, 3, 2 = 8 + 3 = 11. **Standard.** Warhammer Standard damage: 3, plus Brawn +2 = 5. Knight's armor: DR 4. 5 − 4 = 1 damage. The hammer rings off the Knight's breastplate, but the force behind it still draws a grunt. Roric's not done.
+Rolls 3d6 + Brawn (+2). Rolls 3, 3, 2 = 8 + 2 = 10. **Standard.** Warhammer Standard damage: 3, plus Brawn +2 = 5. Knight's armor: DR 4. 5 − 4 = 1 damage. The hammer rings off the Knight's breastplate, but the force behind it still draws a grunt. Roric's not done.
 
 "Maneuver: I'm using **Menacing Glare** from Intimidation Adept." The Knight must make a Morale Check. Lyra rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. **Standard.** The Knight wavers, a Bane on his next attack.
 
@@ -380,7 +380,7 @@ The Knight is wavering from Roric's Menacing Glare. Kael sees the opening.
 
 "Attack the Knight again."
 
-Rolls 3d6 + Brawn (+1) + Long Blades (+2). Rolls 4, 6, 5 = 15 + 3 = 18. **Strong.** Longsword Strong damage: 5, plus Brawn +1 = 6. Knight's DR: 4. 6 - 4 = 2 damage. Total damage on Knight: 5 (3 from Round 1 + 2 now). The blade slips under the Knight's pauldron, deeper this time. The Knight grunts.
+Rolls 3d6 + Brawn (+1). Rolls 4, 6, 5 = 15 + 1 = 16. **Strong.** Longsword Strong damage: 5, plus Brawn +1 = 6. Knight's DR: 4. 6 - 4 = 2 damage. Total damage on Knight: 5 (3 from Round 1 + 2 now). The blade slips under the Knight's pauldron, deeper this time. The Knight grunts.
 
 Kael uses his Maneuver to **Flurry** (Master maneuver, but wait, Kael is only Adept. He can't use Flurry). He uses **Defend** instead, +2 to his Defense roll. Smart. He's the Knight's target and he knows it.
 
