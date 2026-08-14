@@ -14,4 +14,8 @@ _"Grab your swords. Stow your spell books. Adventure awaits."_
 
 \newpage
 
-<!-- Front matter content is in chapters/00-front-matter.qmd -->
+```{=typst}
+#titlepage()
+```
+
+{{< include chapters/00-front-matter.qmd >}}
