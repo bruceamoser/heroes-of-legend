@@ -59,7 +59,7 @@ These maneuvers are free for everyone. No skill required. No Discipline check. J
 | **Grapple** | Initiate a grapple (see @sec-grappling). |
 | **Command** | A companion, familiar, or mount under your control takes an extra move. |
 | **Catch Breath** | Regain HP equal to your Fortitude score (min 1). Once per combat. |
-| **Search** | Active Investigation check to spot a hidden creature or clue. |
+| **Search** | Active Perception check to spot a hidden creature or clue. |
 | **Stand Up** | Rise from prone. |
 | **Use Item** | Drink a potion, apply a salve, or activate a simple device. |
 
