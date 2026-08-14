@@ -12,7 +12,7 @@ Rules:
 
 | # | Chapter | Status | Findings | PRs / Issues | Notes |
 |---|---------|--------|----------|--------------|-------|
-| 1 | 00-front-matter | reviewed | 8 (4 fixed / 4 open) | PR #263 | front matter orphaned from build; wired via index.qmd include (titlepage + copyright + cover art + Credits + Dedication now render); alt text + em-dash fixes; 4 layout/design questions -> decisions-pending |
+| 1 | 00-front-matter | reviewed | 8 (4 fixed / 4 resolved via layout PR) | PR #263 + #264 | front matter orphaned from build; wired via index.qmd include; #264: single title page, epigraph deduped+centered, version tied to build date, cover figure numbering suppressed |
 | 2 | 01-introduction | pending | | | |
 | 3 | 01b-opening-fiction | pending | | | |
 | 4 | 02-character-creation | pending | | | |
