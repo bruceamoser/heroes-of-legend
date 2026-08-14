@@ -432,7 +432,7 @@
         #align(center)[#text(size: 30pt, fill: heading-color, weight: "bold", font: heading-font-stack)[Heroes of Legend]]
         #v(0.5em)
         // Subtitle
-        #align(center)[#text(size: 14pt, fill: muted, font: body-font-stack, style: "italic")[Core Rules — First Edition]]
+        #align(center)[#text(size: 14pt, fill: muted, font: body-font-stack, style: "italic")[Core Rules, First Edition]]
         #v(2em)
         // Author
         #align(center)[#text(size: 11pt, fill: text-color, font: body-font-stack)[Bruce A. Moser]]

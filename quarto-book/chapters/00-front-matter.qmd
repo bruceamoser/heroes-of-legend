@@ -1,12 +1,3 @@
-﻿---
-title: "Heroes of Legend"
----
-
-```{=typst}
-#titlepage()
-```
-
-::: {.centered}
 
 **Heroes of Legend**
 Core Rules, First Edition
@@ -35,11 +26,10 @@ ISBN: [To be assigned]
 First printing: TBD
 Printed in TBD
 
-:::
 
 {{< pagebreak >}}
 
-![Illo 1: Cover Art](../assets/images/page001-img001.png){width="60%"}
+![Illustration 1: Cover Art](assets/images/page001-img001.png){width="60%"}
 
 *Illustration 1: Cover art for Heroes of Legend. Placeholder; final art TBD. Dimensions: 1308×1693.*
 
