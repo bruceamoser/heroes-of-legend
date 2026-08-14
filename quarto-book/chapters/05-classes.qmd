@@ -34,7 +34,7 @@ Your class gives you a Discipline, a signature ability, and cheaper access to ce
 | **Unbalanced** | High-risk power | Any Elemental (1) + 1 opposing Elemental (1) | **Edge of Chaos** |
 | **Shadow** | Sneak thief, infiltrator | Stealth (1) + Sleight (1) | **Vanish** |
 
-Favored skills that name a weapon family, Blades, Axes, or Hammers, mean any skill in that family (Small, Long, or Great). See @sec-chapter-skills for the full skill list.
+See @sec-chapter-skills for the full skill list.
 
 {{< pagebreak >}}
 
@@ -48,7 +48,7 @@ The Protector stands at the vanguard, using body and armor as a shield for those
 
 **Signature, Bastion:** Spend your movement to enter a defensive stance. Add +1 to your Protection Value for the round.
 
-**Favored Skills:** Athletics, Endurance, Intimidation, Resilience, any Blades-family skill (Small, Long, or Great), any Axes-family skill (Small, Long, or Great), Polearms, any Hammers-family skill (Small, Long, or Great), Armor, Shields, Unarmed Fighting
+**Favored Skills:** Athletics, Endurance, Survival, Perception, Persuasion, Medicine
 
 **Starting Kit:** Battleaxe (3/4/6), chain mail (DR 5), shield (+2 DR), smith's tools, 10 gp.
 
@@ -87,7 +87,7 @@ The Blade masters the art of finesse and precision, favoring the swift elegance 
 
 **Signature, Swift Blade:** You may use Agility instead of Brawn when attacking with blades. Gain the **Precise Stab** ability, bonus damage when exploiting an opening.
 
-**Favored Skills:** Acrobatics, Deception, Perception, Sleight of Hand, Stealth, any Blades-family skill (Small, Long, or Great), Bow Fighting, Thrown Weapon, Unarmed Fighting
+**Favored Skills:** Acrobatics, Deception, Perception, Sleight of Hand, Stealth, Thievery
 
 **Starting Kit:** Shortsword (2/3/4), dagger (1/2/3), leather armor (DR 2), thieves' tools, 15 gp.
 
@@ -132,7 +132,7 @@ The Arcanist delves into the mysteries of arcane energies, mastering their manip
 
 **Signature, Arcane Shield:** As a free action, raise a protective ward that gives +1 to your Protection Value for the round. Once per round.
 
-**Favored Skills:** Alchemy, Arcana, History, Investigation, Lore
+**Favored Skills:** Alchemy, Arcana, History, Lore, Nature
 
 **Starting Kit:** Arcane focus, dagger (1/2/3), scholar's robes (DR 0), component pouch, spellbook, 5 gp.
 
@@ -210,7 +210,7 @@ The Intellect embodies cerebral prowess and scholarly mastery. Your path is a re
 
 **Signature, Knowledge Is Power:** Gain +1 to all Knowledge-based skill checks.
 
-**Favored Skills:** History, Investigation, Lore, Medicine, Arcana
+**Favored Skills:** History, Lore, Medicine, Arcana, Perception
 
 **Starting Kit:** Shortsword (2/3/4), spellbook, scholar's robes (DR 0), component pouch, ink & pen, 10 gp.
 
@@ -249,7 +249,7 @@ The Odd embodies eccentricity and peculiarity. With a demeanor that dances on th
 
 **Signature, Eccentric Spellcasting:** Choose one arcane ability and one divine ability. You ignore prerequisite Disciplines for these two (level requirements still apply). You need no arcane focus or holy symbol.
 
-**Favored Skills:** Sleight of Hand, Stealth, Streetwise, Deception, Acrobatics
+**Favored Skills:** Sleight of Hand, Stealth, Deception, Acrobatics, Performance
 
 **Starting Kit:** Shortbow (2/3/4), dagger (1/2/3), leather armor (DR 2), thieves' tools, 20 arrows.
 
@@ -290,7 +290,7 @@ The Leader is a beacon of courage on the battlefield, leading from the front lin
 
 **Signature, Lead by Example:** When you land a telling blow on an enemy, grant one ally who witnessed it a +2 bonus on their next roll. Your actions inspire greatness in others.
 
-**Favored Skills:** Persuasion, Resilience, Perception, Insight, any Blades-family skill (Small, Long, or Great), Polearms
+**Favored Skills:** Persuasion, Perception, Insight, Survival, Endurance
 
 **Starting Kit:** Longsword (2/3/5), spear (2/3/4), chain shirt (DR 3), shield (+2 DR), 10 gp.
 
@@ -346,7 +346,7 @@ The Unbalanced is a wild card, embodying chaos and unpredictability in every act
 | 5 | You take 2 damage; the target takes +2. |
 | 6 | Wild surge: the DA picks a minor random effect (a cantrip fires, a small object ignites, etc.). |
 
-**Favored Skills:** Arcana, Deception, Insight, Intimidation, Unarmed Fighting
+**Favored Skills:** Arcana, Deception, Insight, Perception, Acrobatics
 
 **Starting Kit:** Spear (2/3/4), component pouch, scholar's robes (DR 0), six vials of volatile reagents, 5 gp.
 
@@ -393,7 +393,7 @@ The Shadow is the ghost in the room, the whisper no one heard, the hand that lif
 
 **Secondary, Shadow Stride:** See the Shadow ability table below.
 
-**Favored Skills:** Stealth, Deception, Sleight of Hand, Thievery, Acrobatics, Perception, any Blades-family skill (Small, Long, or Great), Thrown Weapon
+**Favored Skills:** Stealth, Deception, Sleight of Hand, Thievery, Acrobatics, Perception
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
