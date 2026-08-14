@@ -4,7 +4,7 @@
 #label("sec-chapter-introduction")
 ```
 
-![Illo 2: Opening Chapter Art](../assets/images/page003-img002.jpeg){width="60%"}
+![](../assets/images/page003-img002.jpeg){width="60%"}
 
 *Illustration 2: Opening chapter decorative art. Placeholder; final art TBD. Dimensions: 185×185.*
 
@@ -47,7 +47,7 @@ You need dice. Three to six six-sided dice, the kind you'd find in any board gam
 
 You need something to write on and something to write with. A printed character sheet, a notebook, the back of a napkin: I've seen heroes born on all three. Your character sheet is where your hero lives when they're not in your head. Treat it with respect. Update your hit points. Track your gear. Future you will thank present you when the DA asks if anyone remembered to bring rope and you can point to your inventory and say, "Right here."
 
-You need friends. Two to five is the sweet spot. One of you will be the DA: the architect of dungeons, the voice of villains, the arbiter of "can I try to jump that?" The rest are heroes, each with their own goals, fears, and terrible ideas that somehow work out. Rotate who DAs if you want; the game works either way. Some of the best campaigns I've run started because someone else needed a break and I said, "Hand me the screen."
+You need friends. Two to five is the sweet spot. One of you will be the DA: the architect of dungeons, the voice of villains, the arbiter of "can I try to jump that?" The rest are heroes, each with their own goals, fears, and wild ideas that somehow work out. Rotate who DAs if you want; the game works either way. Some of the best campaigns I've run started because someone else needed a break and I said, "Hand me the screen."
 
 That's the list. No miniatures required. No battle mat. No hundred-dollar sourcebooks. Just you, your friends, some dice, and your imagination. Everything else is optional. And the options are wonderful, don't get me wrong. I've got a closet full of miniatures I painted myself. But you don't *need* them. You never did.
 
@@ -79,13 +79,13 @@ The rest will feel familiar. Jump to @sec-chapter-character-creation to start bu
 
 **Never Done This Before? Start Here.** If you've never rolled a d20 in your life: start with @sec-chapter-character-creation. It walks you through building a character step by step, from "what do my stats mean?" to "can I buy a horse?" After that, read @sec-chapter-attributes through @sec-chapter-disciplines. You don't need to memorize anything. Just read them once so you know where to look when the DA says "make a Fortitude save" and you need to know what that means. The rules will stick through play, not through study. Your first session, you'll look things up constantly. That's normal. By your fifth session, you'll be explaining grappling to the new player at the table. That's normal too.
 
-**If you're the Dungeon Architect**, the one who's going to run the game, you've got a slightly longer reading list. Start with @sec-chapter-attributes through @sec-chapter-disciplines to understand the mechanics. Then jump to @sec-chapter-gm-guidance. That chapter is written for you: it covers building adventures, running monsters, handing out rewards, and keeping the game moving when the party decides to ignore your carefully prepared dungeon and open a bakery instead. (It happens. It always happens. There's advice for that.) After that, skim the equipment and spell chapters so you know what your players can do. You don't need to memorize every spell. You just need to know that *someone* at the table can cast *Water Breathing*, so maybe don't hang your entire adventure on "they can't cross the lake."
+**If you're the Dungeon Architect**, the one who's going to run the game, you've got a slightly longer reading list. Start with @sec-chapter-attributes through @sec-chapter-disciplines to understand the mechanics. Then jump to @sec-chapter-gm-guidance. That chapter is written for you: it covers building adventures, running monsters, handing out rewards, and keeping the game moving when the party decides to ignore your carefully prepared dungeon and open a bakery instead. (It happens. It always happens. There's advice for that.) After that, skim the equipment and spell chapters so you know what your players can do. You don't need to memorize every spell. You just need to know that *someone* at the table can always surprise you, so maybe don't hang your entire adventure on "they can't cross the lake."
 
 **If you just want to see what this game is about**, if you're browsing, curious, trying to decide whether to bring this to your table, read this chapter. Then read the example of play below. If it makes you want to grab some dice, call your friends, and find out what happens when Kael charges in, we've done our job. Welcome aboard.
 
 {{< pagebreak >}}
 
-![Illo 3: Introduction Second Art](../assets/images/page003-img003.jpeg){width="60%"}
+![](../assets/images/page003-img003.jpeg){width="60%"}
 
 *Illustration 3: Credits page art. Placeholder; final art TBD. Dimensions: 1024×1024.*
 
@@ -137,8 +137,6 @@ In *Heroes of Legend*, every swing connects. Your 3d6 roll determines the damage
 
 This keeps combat fast, cinematic, and dangerous. You can't stack armor so high that goblins can't touch you. Every attack lands. Armor reduces damage instead of preventing hits (see @sec-chapter-armor-shields). The knight in plate mail still gets knocked around, they just stay standing longer. Combat becomes about who's left standing, not about who finally rolled high enough to participate.
 
-For the full always-hit rationale, and how armor reduces damage instead of preventing hits, see @sec-chapter-core-resolution and @sec-chapter-armor-shields.
-
 {{< pagebreak >}}
 
 Enough theory. Let's see how this actually plays out at the table.
@@ -155,11 +153,11 @@ Kael is a dwarf Blade: a shadow on the wall, the last face his enemies see. He s
 
 *Kael grabs three dice. The table goes quiet. He shakes them in his hand, everyone has their ritual, and lets them fly.*
 
-*Kael rolls:* "Four, three, five. That's twelve. My **Brawn** is +1, and I've got Long Blades at **Adept** (see @sec-chapter-skills), so that's another +2. Total is fifteen."
+*Kael rolls:* "Four, three, five. That's twelve. My **Brawn** is +1. Total is thirteen."
 
-**Morgan:** "Fifteen is Strong. Your longsword's Strong damage is 5, plus your Brawn: 6."
+**Morgan:** "Thirteen is Standard. Your longsword's Standard damage is 3, plus your Brawn: 4."
 
-**Morgan:** "Crude leather armor. That's 6, reduced to 5."
+**Morgan:** "Crude leather armor. That's 4, reduced to 3."
 
 **Morgan:** "Your blade finds its mark. The chieftain staggers backward, eyes wide. Nobody's made him bleed in years. The remaining goblins go quiet. Their champion just took a hit that would have killed any of them. For one breath, the whole room is still."
 
@@ -195,7 +193,7 @@ Before we move on, let me explain why the game works the way it does. These aren
 
 ::: {.callout-note}
 
-### Always-Hit: Something Always Happens
+## Always-Hit: Something Always Happens
 
 I've watched casters spend entire sessions saying "I miss," and I built this game so that never has to happen. Attacks always connect; the roll only decides how hard. For the full rationale, and how armor reduces damage instead of preventing hits, see @sec-chapter-core-resolution.
 
@@ -203,7 +201,7 @@ I've watched casters spend entire sessions saying "I miss," and I built this gam
 
 ::: {.callout-note}
 
-### 3d6 Instead of d20: Your Training Matters More Than Your Luck
+## 3d6 Instead of d20: Your Training Matters More Than Your Luck
 
 I chose three six-sided dice over a twenty-sided die so that your attributes, skills, and Disciplines matter more than luck. For the full designer's note, see @sec-chapter-core-resolution.
 
@@ -211,7 +209,7 @@ I chose three six-sided dice over a twenty-sided die so that your attributes, sk
 
 ::: {.callout-note}
 
-### No Spell Slots: Magic Always Fires
+## No Spell Slots: Magic Always Fires
 
 I've played a wizard in a system with spell slots. The party fought through six encounters. I was conservative with my spells, hoarding them for the final battle. We reached the boss. Everyone looked at me. I opened my mouth and said the least heroic words ever uttered at a gaming table: "I'm out of spell slots."
 
@@ -219,13 +217,12 @@ That's not a character moment. That's a scheduling error.
 
 In *Heroes of Legend*, magic always fires. No mana. No slots. No "sorry, I used my good spell already." When you cast, the spell goes off. The roll determines whether it's a Weak sputter, a Standard blast, or a Strong inferno. You're never useless. You're never out of options. Your fire burns until *you* decide it stops.
 
-Adept and Master spells have per-encounter and per-session limits (see @sec-chapter-magic-system), not because we want you counting gas, but because Master-tier effects reshape the battlefield. Those limits are about spotlight management, not resource attrition. When you unleash a Master spell, it should be a moment everyone remembers, not something you do three times before lunch.
-
+Adept spells are per-encounter, and Master spells per-session (see @sec-chapter-magic-system), not because we want you counting gas, but because Master-tier effects reshape the battlefield. Those limits are about spotlight management, not resource attrition. When you unleash a Master spell, it should be a moment everyone remembers, not something you do three times before lunch.
 :::
 
 ::: {.callout-note}
 
-### Flat Damage & Disciplines: Speed and Freedom
+## Flat Damage & Disciplines: Speed and Freedom
 
 Two more things worth understanding. **Flat damage** means no separate damage dice, no arithmetic slowdown. The combat chapter (@sec-chapter-combat) covers this in full. **Disciplines** mean no class-locked skills: anyone can learn anything, it just costs more outside your wheelhouse. The disciplines chapter (@sec-chapter-disciplines) explains the full system.
 
