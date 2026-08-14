@@ -6,16 +6,14 @@ date: today
 toc: false
 ---
 
-::: {.centered}
-_"Grab your swords. Stow your spell books. Adventure awaits."_
-
-*Heroes of Legend*
-:::
+```{=typst}
+#v(30%)
+#align(center)[
+  #set text(style: "italic", size: 14pt, fill: rgb("#7a6e5e"), font: ("Alegreya", "Crimson Text", "Libertinus Serif"))
+  "Grab your swords. Stow your spell books. Adventure awaits."
+]
+```
 
 \newpage
-
-```{=typst}
-#titlepage()
-```
 
 {{< include chapters/00-front-matter.qmd >}}
