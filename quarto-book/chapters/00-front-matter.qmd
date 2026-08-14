@@ -2,7 +2,7 @@
 **Heroes of Legend**
 Core Rules, First Edition
 
-Version 0.1.0 (Draft)
+Version 0.1.0 (Draft Build {{< meta date >}})
 
 ---
 
@@ -29,7 +29,7 @@ Printed in TBD
 
 {{< pagebreak >}}
 
-![Illustration 1: Cover Art](assets/images/page001-img001.png){width="60%"}
+![](assets/images/page001-img001.png){width="60%"}
 
 *Illustration 1: Cover art for Heroes of Legend. Placeholder; final art TBD. Dimensions: 1308×1693.*
 
