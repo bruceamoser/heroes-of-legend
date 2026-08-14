@@ -197,13 +197,13 @@ HP 5, DR 0. Attributes: Brawn -1, Fortitude 0, Agility 0, Guile 0, Knowledge -1,
 
 ## Oozes
 
-**Gelatinous Cube (Challenge 3):** HP 20, DR 1. Pseudopod: 6/9/12 acid. Engulf: moves into target space, Restrained + 6/9/12 acid per round. Transparent: requires Standard Investigation check to notice when motionless.
+**Gelatinous Cube (Challenge 3):** HP 20, DR 1. Pseudopod: 6/9/12 acid. Engulf: moves into target space, Restrained + 6/9/12 acid per round. Transparent: requires Standard Perception check to notice when motionless.
 
 {{< pagebreak >}}
 
 ## Shapechangers
 
-**Doppelganger (Challenge 3):** HP 14, DR 1. Slam: 6/9/12 bludgeoning. Shapechange: as an action, the doppelganger can assume the appearance of any Medium humanoid it has seen. Its attributes and attacks remain unchanged, but it gains the target's voice and mannerisms. Creatures can make a Guile (Investigation) check opposed by the doppelganger's Guile (Deception) to see through the disguise. Mind Reading (Recharge): the doppelganger learns the surface thoughts of one creature within 30 ft. The target may make a Guile save to resist. Ambusher: +1 damage tier against surprised targets. Deceptive: +1 to Guile (Deception) checks.
+**Doppelganger (Challenge 3):** HP 14, DR 1. Slam: 6/9/12 bludgeoning. Shapechange: as an action, the doppelganger can assume the appearance of any Medium humanoid it has seen. Its attributes and attacks remain unchanged, but it gains the target's voice and mannerisms. Creatures can make a Reason (Insight) check opposed by the doppelganger's Guile (Deception) to see through the disguise. Mind Reading (Recharge): the doppelganger learns the surface thoughts of one creature within 30 ft. The target may make a Guile save to resist. Ambusher: +1 damage tier against surprised targets. Deceptive: +1 to Guile (Deception) checks.
 
 {{< pagebreak >}}
 

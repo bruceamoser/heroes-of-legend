@@ -80,7 +80,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Eccentric Spellcasting:** The Odd's signature ability. Choose one arcane ability and one divine ability; you ignore prerequisite Disciplines for these two (level requirements still apply) and need no arcane focus or holy symbol.
 
-**Skill:** A trained competency. Ranges from Novice (+1) to Master (+3). Includes combat skills (Small/Long/Great Blades), knowledge skills (Arcana), social skills (Persuasion), and physical skills (Athletics).
+**Skill:** A trained competency. Ranges from Novice (+1) to Master (+3). Includes physical skills (Athletics), knowledge skills (Arcana), social skills (Persuasion), and subterfuge skills (Stealth).
 
 **Talent:** A passive benefit purchased with DP. Always on. Does not require activation. Examples: Tough (+2 HP), Fortune's Favor (reroll one natural 1 per session).
 
