@@ -75,20 +75,20 @@ Your upbringing within your ancestry. Each culture grants a +1 bonus to one skil
 |---------|------------|-------------|
 | **Human** | | |
 | Imperial | Persuasion or History | Any one (free) |
-| Nomadic | Survival or Animal Handling | Archery + Polearms |
-| Coastal | Athletics or Navigation | Polearms + Protection |
+| Nomadic | Survival or Nature | Archery + Polearms |
+| Coastal | Athletics or Survival | Polearms + Protection |
 | **Elf** | | |
 | High Elf | Arcana or History | Energy + Blades |
 | Wood Elf | Stealth or Nature | Animal + Archery |
 | Twilight Elf | Deception or Insight | Water + Blades |
 | **Dwarf** | | |
 | Mountain | Craft or Athletics | Armor + Axes |
-| Deep | Resilience or Lore | Axes + Protection |
+| Deep | Endurance or Lore | Axes + Protection |
 | Hill | History or Persuasion | Any one (free) |
 | **Halfling** | | |
 | Riverfolk | Acrobatics or Sleight of Hand | Blades + Archery |
 | Burrower | Stealth or Survival | Protection + Blades |
-| Wanderer | Streetwise or Performance | Any one (free) |
+| Wanderer | Insight or Performance | Any one (free) |
 
 See @sec-chapter-ancestries for full descriptions of each culture.
 
@@ -123,7 +123,7 @@ Costs below are at **Home (Favored)** rates. Your class may change these based o
 
 No-prereq Novice basics (cantrips, basic utility skills) cost 2 DP with no Discipline requirement. See @sec-chapter-disciplines for the full rules.
 
-These represent everything your hero learned growing up. A farm kid might take Athletics and Animal Handling. A temple acolyte might take Religion and Medicine. A street thief might take Stealth and Sleight of Hand. Make it make sense for your concept, the DA will notice.
+These represent everything your hero learned growing up. A farm kid might take Athletics and Nature. A temple acolyte might take Religion and Medicine. A street thief might take Stealth and Sleight of Hand. Make it make sense for your concept, the DA will notice.
 
 **How You Gain Disciplines**
 
@@ -251,8 +251,8 @@ Total: 8 DP. All spent.
 **Step 7, Class DP (8 DP):**
 
 - Improvised Solution (Novice ability, 2 DP), the Odd's own Novice ability, no prereq
-- Bow Fighting Novice (2 DP)
-- Streetwise Novice (2 DP)
+- Thievery Novice (2 DP), locks and traps, and she always has an exit
+- Persuasion Novice (2 DP), she talks her way into places she shouldn't be
 - Acrobatics Novice (2 DP)
 
 Total: 8 DP. All spent.
@@ -286,7 +286,7 @@ The eight worked examples below show how the same system produces wildly differe
 - Arcana Novice (2 DP, favored)
 - History Novice (2 DP, favored)
 - Alchemy Novice (2 DP), fire needs fuel, fuel is chemistry
-- Investigation Novice (2 DP), researching ancient flame texts
+- Nature Novice (2 DP), fire is a natural force, and she studies how it behaves
 - Lore Novice (2 DP), the fire-lore of a dozen cultures
 
 Total: 10 DP. All spent.
@@ -324,7 +324,7 @@ Total: 8 DP. All spent.
 
 - Arcana Novice (2 DP, favored)
 - History Novice (2 DP, favored)
-- Investigation Novice (2 DP), the battlefield is a puzzle
+- Medicine Novice (2 DP), the body is a battlefield, and she has mapped every weak point
 - Lore Novice (2 DP), every war has a library
 - Perception Novice (2 DP), she reads a battlefield the way others read a book
 
@@ -335,7 +335,7 @@ Total: 10 DP. All spent.
 **Class DP (8 DP):**
 
 - Tactical Insight (Novice ability, 2 DP)
-- Small Blades Novice (2 DP), she's no duelist but she's trained
+- Persuasion Novice (2 DP), a good plan means nothing if no one follows it
 - Force Dart (Novice spell, 2 DP), it never misses, neither should a plan
 - Insight Novice (2 DP)
 
@@ -375,7 +375,7 @@ Total: 9 DP. All spent.
 
 - Heal Wounds (Novice spell, 2 DP)
 - Purify (Novice spell, 2 DP)
-- Resilience Novice (2 DP)
+- Insight Novice (2 DP), she reads pain, the unspoken kind a patient hides
 - Nature Novice (2 DP), she knows what grows in shadow
 
 Total: 8 DP. All spent.
@@ -400,10 +400,10 @@ Total: 8 DP. All spent.
 
 **Background DP (8 + Know -1 + Fort 0 = 7 DP + 1 Versatile = 8 DP):**
 
-- Long Blades Novice (2 DP, favored)
+- Blades Discipline, rank 2 (2 DP, Home), the longsword needs two, and she carries it
 - Athletics Novice (2 DP, favored, culture bonus already applied)
 - Persuasion Novice (2 DP)
-- Resilience Novice (2 DP)
+- Endurance Novice (2 DP), a captain marches at the head of the column
 
 Total: 8 DP. All spent.
 
@@ -412,7 +412,7 @@ Total: 8 DP. All spent.
 **Class DP (8 DP):**
 
 - Rallying Cry (Novice ability, 2 DP)
-- Polearms Novice (2 DP, favored)
+- Deception Novice (2 DP), war is deception, and a good captain knows every trick
 - Perception Novice (2 DP)
 - Insight Novice (2 DP), reads a battlefield like a map
 
@@ -438,7 +438,7 @@ Total: 8 DP. All spent.
 
 **Background DP (8 + Know -1 + Fort 0 = 7 DP):**
 
-- Small Blades Novice (2 DP, favored)
+- Performance Novice (2 DP), a duel is a performance, and every scar is a stanza
 - Insight Novice (2 DP), reading an opponent's intent
 - Stealth Novice (2 DP), striking from shadow
 - Sleight Discipline, rank 1 (1 DP, Home), misdirection comes naturally to a twilight elf
@@ -488,9 +488,9 @@ Total: 8 DP. All spent.
 **Class DP (8 DP):**
 
 - Sap (Novice ability, 2 DP), daze unaware targets
-- Small Blades Novice (2 DP, favored)
-- Thrown Weapon Novice (2 DP, favored)
-- Streetwise Novice (2 DP)
+- Perception Novice (2 DP, favored), she sees the guard before the guard sees her
+- Acrobatics Novice (2 DP, favored), out the window, over the wall, gone
+- Insight Novice (2 DP), she reads a mark before she picks a pocket
 
 Total: 8 DP. All spent.
 
@@ -517,7 +517,7 @@ Total: 8 DP. All spent.
 - Endurance Novice (2 DP, favored)
 - Athletics Novice (2 DP, favored)
 - Craft Novice (2 DP, favored, culture bonus already applied)
-- Resilience Novice (2 DP)
+- Survival Novice (2 DP), she could live off the mountain if the hold ever fell
 - Blades Discipline, rank 1 (1 DP, Home)
 
 Total: 9 DP. All spent.
@@ -527,9 +527,9 @@ Total: 9 DP. All spent.
 **Class DP (8 DP):**
 
 - Interpose (Novice ability, 2 DP), take the hit for an adjacent ally
-- Intimidation Novice (2 DP), her presence ends fights before they start
+- Persuasion Novice (2 DP), her presence ends fights before they start
 - Perception Novice (2 DP), the best shield is seeing the blow coming
-- Unarmed Fighting Novice (2 DP), when the axe is gone the fists remain
+- Insight Novice (2 DP), she knows where to stand and when the line will break
 
 Total: 8 DP. All spent.
 
@@ -555,7 +555,7 @@ Total: 8 DP. All spent.
 
 - Arcana Novice (2 DP)
 - Survival Novice (2 DP, favored)
-- Unarmed Fighting Novice (2 DP)
+- Alchemy Novice (2 DP), six vials of volatile reagents, and she knows how to make more
 - Deception Novice (2 DP), chaos wears many faces
 - Insight Novice (2 DP), knowing when the backlash is coming
 
@@ -568,7 +568,7 @@ Total: 10 DP. All spent.
 - Exploit Chaos (Novice ability, 2 DP), roll twice on backlash table
 - Ember Lance (Novice spell, 2 DP)
 - Endurance Novice (2 DP)
-- Intimidation Novice (2 DP), chaos demands respect
+- Persuasion Novice (2 DP), chaos is an easier sell when you smile
 
 Total: 8 DP. All spent.
 
