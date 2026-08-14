@@ -238,7 +238,7 @@ The party meets **Elder Tamrin**, a weathered woman in her sixties with hands li
 Don't let this turn into an interrogation. Have Elder Tamrin offer tea. Have a child stare at the party's weapons. Have the village drunk insist the ruin is "a dragon's tooth" and try to sell them lucky charms. Social scenes teach players that talking is just as valid as stabbing, and often more useful.
 :::
 
-**Treasure opportunity:** If the party helps round up the missing livestock (Survival or Animal Handling, Standard), a farmer gifts them a healing poultice (heals 3 HP, one use).
+**Treasure opportunity:** If the party helps round up the missing livestock (Survival or Nature, Standard), a farmer gifts them a healing poultice (heals 3 HP, one use).
 
 ### Scene 2: The Approach
 
