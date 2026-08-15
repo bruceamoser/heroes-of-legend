@@ -27,7 +27,7 @@ Your class gives you a Discipline, a signature ability, and cheaper access to ce
 | **Protector** | Tank, defender | Armor (1) + 1 any Weapon | **Bastion**, defensive stance |
 | **Blade** | Assassin, precision | Blades (1) + Stealth (1) | **Swift Blade** |
 | **Arcanist** | Arcane caster | Energy (1) + Fire (1) | **Arcane Shield** |
-| **Shepherd** | Divine guide | Protection (1) + Animal (1) | **Turn Undead** |
+| **Shepherd** | Divine guide | Protection (1) + Animal (1) | **Turn Unholy** |
 | **Intellect** | Scholar, strategist | Any one (1) + Lore (1) | **Knowledge Is Power** |
 | **Odd** | Chaos wildcard | Any one, different category (1) + 1 any, different category | **Eccentric Spellcasting** |
 | **Leader** | Commander | Tactics (1) + Protection (1) | **Lead by Example** |
@@ -169,11 +169,11 @@ The Shepherd stands as a beacon of guidance, providing moral direction and harne
 
 **Class Discipline (L1):** Protection (1) + Animal (1)
 
-**Signature, Turn Undead:** Call down divine energy that ignores armor and affects only undead creatures within your presence. Your faith burns what should not walk.
+**Signature, Turn Unholy:** Call down divine energy that ignores armor and affects only undead creatures within your presence. Your faith burns what should not walk.
 
 **Favored Skills:** Medicine, Nature, Religion, Survival
 
-**Starting Kit:** Shortsword (2/3/4), holy symbol, chain shirt (DR 3), healer's kit, 5 gp.
+**Starting Kit:** Shortsword (2/3/4), holy symbol, leather armor (DR 2), healer's kit, 5 gp.
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -292,7 +292,7 @@ The Leader is a beacon of courage on the battlefield, leading from the front lin
 
 **Favored Skills:** Persuasion, Perception, Insight, Survival, Endurance
 
-**Starting Kit:** Longsword (2/3/5), spear (2/3/4), chain shirt (DR 3), shield (+2 DR), 10 gp.
+**Starting Kit:** Longsword (2/3/5), spear (2/3/4), leather armor (DR 2), shield (+2 DR), 10 gp.
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -419,7 +419,7 @@ The Shadow doesn't trade blows. The Shadow's entire game is about controlling wh
 
 Your damage doesn't come from brute force. It comes from never being where the enemy is looking. When the Blade needs three rounds to carve through a knight's armor, the Shadow needs one round, one lockpick, and the knight's potion of healing quietly removed from his belt while he was too busy watching the Protector. You win by making the fight unfair. And you make it unfair before anyone knows you're there.
 
-**Starting Kit:** Two daggers (W/S/St: 1/2/3), throwing knives (6, 1/2/3), leather armor (DR 2), thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1, creates 10-ft radius heavy concealment for 1 round), 15 sp.
+**Starting Kit:** Two daggers (W/S/St: 1/2/3), throwing daggers (6, 1/2/3), leather armor (DR 2), thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1, creates 10-ft radius heavy concealment for 1 round), 15 sp.
 :::
 
 {{< pagebreak >}}
