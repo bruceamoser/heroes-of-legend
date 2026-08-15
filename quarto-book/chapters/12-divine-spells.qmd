@@ -261,6 +261,10 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 Allies in the light regain 3 HP.
 
+**Adept:** Allies in the light also gain Boon on their next roll.
+
+**Master:** Undead and fiends take one damage tier higher from the pillar.
+
 ### Radiant Beam (Divine Spell)
 
 **Disciplines:** 1 Religion · **Action:** Action · **Range:** 60-ft line · **Keywords:** Radiant
