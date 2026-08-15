@@ -25,4 +25,6 @@ How it works:
 | 13 | 15-equipment | Mount-control rules keyed to Animal Handling, which #256 removed from the skill roster | Council (Architect) | reverted 2026-08-14 | Bruce vetoed Athletics keying: mount control reverts to Survival/Nature. Revert PR #275 re-key; keep livestock roundup (Survival/Nature) and disguise-seeing (Reason/Insight) as shipped. |
 | 14 | 07-skills | ch07 header claims "The 18 Skills" but the skill table lists 20 rows | Council (EIC, flagged for ch07's day) | resolved | Ruling 2026-08-14: header updates to "The 20 Skills"; roster stands |
 
+| 15 | 06-core-resolution | Missing defensive skills: Dodge and Parry. Defense Roll currently 3d6 + Agility only; no skills feed defense; only one spell has a non-Agility defense ("Reason resists" on Mind Crown). | Bruce (design) | resolved 2026-08-14 | Ruling: add Dodge (Agility) and Parry (Brawn) Physical skills. Defense Roll: no skill = 3d6 + Agility − Challenge; Dodge = 3d6 + Agility + Dodge rank; Parry (requires weapon/shield) = 3d6 + Brawn + Parry rank. Armor/shields still reduce via DR, never add to the roll. Spells/abilities name their own defense attribute (Reason, Fortitude, etc.) per card. Roster 20 → 22. |
+
 Last updated: 2026-08-14
