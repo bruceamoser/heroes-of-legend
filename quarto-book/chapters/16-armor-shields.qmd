@@ -35,9 +35,9 @@ If the goblin lands a Standard hit (3 damage), Kael takes 1 HP. The armor didn't
 | **Studded Leather** | 1 Armor | 2 | | Leather reinforced with rivets. Light and quiet, the rogue's choice. |
 | **Chain Shirt** | 1 Armor | 3 | Bane | Worn under clothing. Flexible, concealable, noisy when you move. |
 | **Breastplate** | 2 Armor | 4 | | Solid chest protection. Leaves arms free for spellcasting. |
-| **Half Plate** | 2 Armor | 4 | Bane | Plates on vitals, chain everywhere else. The pragmatic heavy option. |
-| **Chain Mail** | 2 Armor | 5 | Bane | Full-body rings. Loud. Heavy. Effective. |
-| **Plate** | 3 Armor | 6 | Bane | The pinnacle of protection. When you absolutely need to be the last one standing. |
+| **Half Plate** | 2 Armor | 4 | Bane | Plates on vitals, chain everywhere else. The pragmatic heavy option. Reduces speed by 5 ft. |
+| **Chain Mail** | 2 Armor | 5 | Bane | Full-body rings. Loud. Heavy. Effective. Reduces speed by 5 ft. |
+| **Plate** | 3 Armor | 6 | Bane | The pinnacle of protection. When you absolutely need to be the last one standing. Reduces speed by 5 ft. |
 
 ### Armor and Spellcasting
 
@@ -46,10 +46,10 @@ Armor interferes with the precise gestures and somatic control that spellcasting
 | Armor Type | Spellcasting Penalty |
 |-----------|---------------------|
 | Padded, Leather, Studded Leather | None, full mobility, full casting |
-| Chain Shirt | -1 to spell attack rolls |
-| Breastplate | -1 to spell attack rolls |
-| Half Plate, Chain Mail | -2 to spell attack rolls |
-| Plate | -3 to spell attack rolls |
+| Chain Shirt | -1 to spell rolls |
+| Breastplate | -1 to spell rolls |
+| Half Plate, Chain Mail | -2 to spell rolls |
+| Plate | -3 to spell rolls |
 
 ::: {.callout-note}
 ## The Arcanist in Armor
