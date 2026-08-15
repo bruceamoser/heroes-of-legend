@@ -31,7 +31,7 @@ If you've built a few heroes and you're tired of counting DP, here's your speed 
 6. **Equipment:** Take the class starting kit. Don't optimize, the first adventure will give you better gear anyway.
 7. **Name & Backstory:** Roll one Motivation and one Trinket from the tables below. Make up a name. Done.
 
-You'll have a playable, effective hero in ten minutes. The nuance, the Adept maneuvers, the talent chains, the weird multiclass combos, that comes with levels. For now, you just need someone who can swing a sword and survive the first session.
+You'll have a playable, effective hero in ten minutes. The nuance, the Adept and Master upgrades, the weird multiclass combos, that comes with levels. For now, you just need someone who can swing a sword and survive the first session.
 :::
 
 {{< pagebreak >}}
@@ -133,7 +133,7 @@ Disciplines are not free. Every Discipline your hero possesses comes from a spec
 
 - **Culture** (Step 4): Your upbringing grants one or two Disciplines depending on your culture's traditions. See the culture table in Step 4.
 
-- **Background DP** (Step 5): You may spend Development Points to purchase additional Disciplines at rank 1 only. Higher ranks come from level progression, not creation. This represents skills and knowledge earned during your life before adventuring.
+- **Background DP** (Step 5): You may spend Development Points to purchase additional Disciplines at rank 1, or deepen a Discipline you already have to rank 2 (2 same). Rank costs follow your class's cost structure (see @sec-chapter-classes); the ladder shapes (see @sec-chapter-disciplines) still apply. Higher ranks come from level progression, not creation. This represents skills and knowledge earned during your life before adventuring.
 
 - **Class** (Phase Two): Your class grants specific Disciplines tied to its training and traditions. See @sec-chapter-classes for each class's starting Disciplines.
 
@@ -190,7 +190,7 @@ Receive your class starting kit. Record weapons with their Weak, Standard, and S
 | **Health Points** | 10 + Fortitude + Knowledge (at Level 1) |
 | **HP per Level** | +Fortitude (minimum 1) each level after first |
 | **Initiative** | 3d6 + Agility modifier |
-| **Movement** | 30 ft (reduced by heavy armor) |
+| **Movement** | 30 ft (Dwarves and halflings: 25 ft; heavy armor: -5 ft) |
 | **Carry Slots** | 10 + (Brawn x 5) |
 
 ### Step 10: Backstory Touches
@@ -233,7 +233,7 @@ Let's build a character from scratch so you can see how the pieces fit together.
 
 **Step 2, Attributes (total must be +3):** Agility +1 (nimble), Guile +1 (silver tongue), Brawn +1 (can throw a punch when the talking stops). Fortitude +0, Knowledge +0, Reason +0. Sum = +3.
 
-**Step 3, Ancestry:** Halfling. Gains one Blades or Archery Discipline and the **Lucky** trait (add one boon to any roll, once per session).
+**Step 3, Ancestry:** Halfling. Gains one Blades Discipline and the **Lucky** trait (add one boon to any roll, once per session).
 
 **Step 4, Culture:** Riverfolk. +1 bonus to Acrobatics (she grew up scrambling across rigging and wet docks).
 
@@ -257,7 +257,7 @@ Total: 8 DP. All spent.
 
 Total: 8 DP. All spent.
 
-**Step 8, Equipment:** Shortbow (W/S/S: 2/3/4), dagger (1/2/3), leather armor (DR 2), thieves' tools, 20 arrows.
+**Step 8, Equipment:** Shortbow (2/3/4), dagger (1/2/3), leather armor (DR 2), thieves' tools, 20 arrows.
 
 **Step 9, Derived Stats:** HP 10 (10 + Fort 0 + Know 0). Initiative +1. Movement 30 ft. Carry 15 slots.
 
@@ -291,7 +291,7 @@ The eight worked examples below show how the same system produces wildly differe
 
 Total: 10 DP. All spent.
 
-**Class:** Arcanist. Gains 1 Fire, 1 Energy. Signature: **Arcane Shield**, free action, +1 defense for the round.
+**Class:** Arcanist. Gains 1 Fire, 1 Energy. Signature: **Arcane Shield**, free action, +1 Protection Value for the round.
 
 **Class DP (8 DP):**
 
@@ -302,7 +302,7 @@ Total: 10 DP. All spent.
 
 Total: 8 DP. All spent.
 
-**Equipment:** Arcane focus (crystal orb), dagger (1/2/3), scholar's robes (DR 0), focus pouch, spellbook, 5 gp.
+**Equipment:** Arcane focus (crystal orb), dagger (1/2/3), scholar's robes (DR 0), component pouch, spellbook, 5 gp.
 
 **Derived Stats:** HP 12. Initiative +0. Movement 30 ft. Carry 10 slots.
 
@@ -316,7 +316,7 @@ Total: 8 DP. All spent.
 
 **Attributes (sum = +3):** Knowledge +2 (encyclopedic recall), Reason +1 (sees patterns others miss), Guile +1 (sells her plans well), Brawn -1 (books are heavy, she's not), Fortitude +0, Agility +0. Sum = +3.
 
-**Ancestry:** Elf. Archery or Blades (takes Blades). **Elven Grace:** once per session, reroll one die.
+**Ancestry:** Elf. Archery. **Elven Grace:** once per session, reroll one die.
 
 **Culture:** High Elf. +1 to History (grew up in crystal libraries). Disciplines: Energy + Blades.
 
@@ -330,7 +330,7 @@ Total: 8 DP. All spent.
 
 Total: 10 DP. All spent.
 
-**Class:** Intellect. Gains 1 Lore, 1 any (takes Energy). Signature: **Knowledge Is Power**, +1 to all Knowledge-based skill checks.
+**Class:** Intellect. Gains 1 Lore, 1 any (takes Tactics). Signature: **Knowledge Is Power**, +1 to all Knowledge-based skill checks.
 
 **Class DP (8 DP):**
 
@@ -341,7 +341,7 @@ Total: 10 DP. All spent.
 
 Total: 8 DP. All spent.
 
-**Equipment:** Shortsword (2/3/4), spellbook, scholar's robes (DR 0), focus pouch, ink & pen, 10 gp.
+**Equipment:** Shortsword (2/3/4), spellbook, scholar's robes (DR 0), component pouch, ink & pen, 10 gp.
 
 **Derived Stats:** HP 12 (10 + Fort 0 + Know 2). Initiative +0. Movement 30 ft. Carry 5 slots.
 
@@ -369,18 +369,18 @@ Total: 8 DP. All spent.
 
 Total: 9 DP. All spent.
 
-**Class:** Shepherd. Gains 1 Protection, 1 Animal. Signature: **Turn Undead**, divine energy ignores armor, affects only undead.
+**Class:** Shepherd. Gains 1 Protection, 1 Animal. Signature: **Turn Unholy**, divine energy ignores armor, affects only undead.
 
 **Class DP (8 DP):**
 
-- Heal Wounds (Novice spell, 2 DP)
-- Purify (Novice spell, 2 DP)
+- Mending Touch (Novice spell, 2 DP)
+- Sanctuary (Novice spell, 2 DP)
 - Insight Novice (2 DP), she reads pain, the unspoken kind a patient hides
 - Nature Novice (2 DP), she knows what grows in shadow
 
 Total: 8 DP. All spent.
 
-**Equipment:** Shortsword (2/3/4), holy symbol, chain shirt (DR 3), healer's kit, 5 gp.
+**Equipment:** Shortsword (2/3/4), holy symbol, leather armor (DR 2), healer's kit, 5 gp.
 
 **Derived Stats:** HP 13 (10 + Fort 1 + Know 0 + Sturdy 2). Initiative +0. Movement 25 ft (dwarf). Carry 5 slots.
 
@@ -401,7 +401,7 @@ Total: 8 DP. All spent.
 **Background DP (8 + Know -1 + Fort 0 = 7 DP + 1 Versatile = 8 DP):**
 
 - Blades Discipline, rank 2 (2 DP, Home), the longsword needs two, and she carries it
-- Athletics Novice (2 DP, favored, culture bonus already applied)
+- Athletics Novice (2 DP, culture bonus already applied)
 - Persuasion Novice (2 DP)
 - Endurance Novice (2 DP), a captain marches at the head of the column
 
@@ -418,7 +418,7 @@ Total: 8 DP. All spent.
 
 Total: 8 DP. All spent.
 
-**Equipment:** Longsword (2/3/5), spear (2/3/4), chain shirt (DR 3), shield (+2 DR), 10 gp.
+**Equipment:** Longsword (2/3/5), spear (2/3/4), leather armor (DR 2), shield (+2 DR), 10 gp.
 
 **Derived Stats:** HP 9 (10 + Fort 0 + Know -1). Initiative +0. Movement 30 ft. Carry 15 slots.
 
@@ -432,7 +432,7 @@ Total: 8 DP. All spent.
 
 **Attributes (sum = +3):** Agility +2 (faster than you), Guile +1 (reads tells), Brawn +1 (follow-through), Knowledge -1 (books are for people who can't fight), Fortitude +0, Reason +0. Sum = +3.
 
-**Ancestry:** Elf. Archery or Blades (takes Blades). **Elven Grace:** once per session, reroll one die.
+**Ancestry:** Elf. Archery. **Elven Grace:** once per session, reroll one die.
 
 **Culture:** Twilight Elf. +1 to Deception (grew up in the half-light). Disciplines: Water + Blades.
 
@@ -470,7 +470,7 @@ Total: 8 DP. All spent.
 
 **Attributes (sum = +3):** Agility +2 (vanishes like smoke), Guile +1 (becomes anyone), Brawn +0, Fortitude +0, Knowledge +0, Reason +0. Sum = +3.
 
-**Ancestry:** Halfling. Blades or Archery (takes Blades). **Lucky:** add one boon to any roll, once per session.
+**Ancestry:** Halfling. Blades. **Lucky:** add one boon to any roll, once per session.
 
 **Culture:** Burrower. +1 to Stealth (grew up in tunnels under the hills). Disciplines: Protection + Blades.
 
@@ -516,9 +516,9 @@ Total: 8 DP. All spent.
 
 - Endurance Novice (2 DP, favored)
 - Athletics Novice (2 DP, favored)
-- Craft Novice (2 DP, favored, culture bonus already applied)
+- Craft Novice (2 DP, culture bonus already applied)
 - Survival Novice (2 DP), she could live off the mountain if the hold ever fell
-- Blades Discipline, rank 1 (1 DP, Home)
+- Protection Discipline, rank 1 (1 DP, Home), she learned the shield-wall before the sword
 
 Total: 9 DP. All spent.
 
@@ -554,7 +554,7 @@ Total: 8 DP. All spent.
 **Background DP (8 + Know 1 + Fort 0 = 9 DP + 1 Versatile = 10 DP):**
 
 - Arcana Novice (2 DP)
-- Survival Novice (2 DP, favored)
+- Survival Novice (2 DP)
 - Alchemy Novice (2 DP), six vials of volatile reagents, and she knows how to make more
 - Deception Novice (2 DP), chaos wears many faces
 - Insight Novice (2 DP), knowing when the backlash is coming
@@ -572,8 +572,8 @@ Total: 10 DP. All spent.
 
 Total: 8 DP. All spent.
 
-**Equipment:** Spear (2/3/4), focus pouch, scholar's robes (DR 0), six vials of volatile reagents (alchemist's fire), 5 gp.
+**Equipment:** Spear (2/3/4), component pouch, scholar's robes (DR 0), six vials of volatile reagents (alchemist's fire), 5 gp.
 
 **Derived Stats:** HP 11 (10 + Fort 0 + Know 1). Initiative +0. Movement 30 ft. Carry 15 slots.
 
-**Backstory:** Motivation, Knowledge (she wants to understand why the backlash table exists at all). Trinket, a locket with a portrait of someone he's never met. **Name:** Corwin Ash-Walker.
+**Backstory:** Motivation, Knowledge (she wants to understand why the backlash table exists at all). Trinket, a locket with a portrait of someone she's never met. **Name:** Corwin Ash-Walker.
