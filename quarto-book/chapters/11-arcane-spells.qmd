@@ -419,6 +419,10 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Strong:** The illusion lasts 3 turns; those who fail a Reason check have Bane.
 
+**Adept:** The image also produces sound; those who fail their Reason check cannot tell it from the real thing for the duration.
+
+**Master:** You may create two images instead of one, or a single image that moves and acts on your turn.
+
 ### Fade (Arcane Spell)
 **Disciplines:** 1 Mind · **Action:** Action · **Range:** self · **Keywords:** Boon
 
@@ -427,6 +431,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 **Standard:** Boon on Stealth for 2 turns.
 
 **Strong:** Boon on Stealth for 3 turns; you cannot be targeted by sight.
+
+**Adept:** While faded, you may take one Stealth-based maneuver without ending the effect.
 
 **Master:** Allies within 5 ft also gain the effect.
 
@@ -439,6 +445,10 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Strong:** The target follows your commands for the full scene.
 
+**Adept:** The target obeys complex commands (up to one sentence).
+
+**Master:** The target cannot attempt its Reason resistance again; you may issue one command as a free action on your turn.
+
 ### Eldritch Sight (Arcane Spell)
 **Disciplines:** 1 Energy · **Action:** Action · **Range:** self · **Keywords:** None
 
@@ -447,6 +457,8 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 **Standard:** Reveal 2 clues about magic.
 
 **Strong:** Reveal 3 clues about magic; the sight lasts 1 scene.
+
+**Adept:** You may ask one yes/no question about the magic revealed.
 
 **Master:** Identify any magical effect.
 
