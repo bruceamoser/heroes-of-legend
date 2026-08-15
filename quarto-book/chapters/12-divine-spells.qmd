@@ -253,7 +253,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Disciplines:** 2 Religion · **Action:** Action · **Range:** 30-ft column · **Keywords:** Radiant
 
-**Weak:** 9 radiant damage.
+**Weak:** 9 radiant damage (Agility or Dodge rank resists).
 
 **Standard:** 15 radiant damage.
 
@@ -269,7 +269,7 @@ Allies in the light regain 3 HP.
 
 **Disciplines:** 1 Religion · **Action:** Action · **Range:** 60-ft line · **Keywords:** Radiant
 
-**Weak:** 2 radiant damage.
+**Weak:** 2 radiant damage (Agility or Dodge rank resists).
 
 **Standard:** 4 radiant damage.
 

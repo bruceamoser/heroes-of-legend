@@ -136,7 +136,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Brimstone Burst (Arcane Spell)
 **Disciplines:** 2 Fire · **Action:** Action · **Range:** 20-ft radius · **Keywords:** Recurring
 
-**Weak:** 6 fire damage to all in the radius.
+**Weak:** 6 fire damage to all in the radius (Agility or Dodge rank resists).
 
 **Standard:** 9 fire damage to all; targets at the center take +2.
 
@@ -188,7 +188,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Rime Storm (Arcane Spell)
 **Disciplines:** 2 Cold · **Action:** Action · **Range:** 15-ft radius · **Keywords:** Slowed, Frozen
 
-**Weak:** 6 cold damage.
+**Weak:** 6 cold damage (Agility or Dodge rank resists).
 
 **Standard:** 9 cold damage; targets are Slowed.
 
@@ -240,7 +240,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Static Field (Arcane Spell)
 **Disciplines:** 2 Lightning · **Action:** Action · **Range:** 10-ft radius · **Keywords:** None
 
-**Weak:** 6 lightning damage to all adjacent targets.
+**Weak:** 6 lightning damage to all adjacent targets (Agility or Dodge rank resists).
 
 **Standard:** 9 lightning damage to all adjacent.
 
@@ -266,7 +266,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Caustic Mist (Arcane Spell)
 **Disciplines:** 2 Acid · **Action:** Action · **Range:** 15-ft radius · **Keywords:** Bane on sight
 
-**Weak:** 6 acid damage.
+**Weak:** 6 acid damage (Agility or Dodge rank resists).
 
 **Standard:** 9 acid damage; targets have Bane on sight.
 
@@ -292,7 +292,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Tremor (Arcane Spell)
 **Disciplines:** 2 Earth · **Action:** Action · **Range:** 10-ft radius · **Keywords:** Prone
 
-**Weak:** 6 bludgeoning damage.
+**Weak:** 6 bludgeoning damage (Agility or Dodge rank resists).
 
 **Standard:** 9 bludgeoning damage; targets are Prone.
 
@@ -350,7 +350,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Force Wave (Arcane Spell)
 **Disciplines:** 2 Energy · **Action:** Action · **Range:** 15-ft cone · **Keywords:** Prone
 
-**Weak:** 6 force damage; push targets 5 ft.
+**Weak:** 6 force damage; push targets 5 ft (Agility or Dodge rank resists).
 
 **Standard:** 9 force damage; push targets 10 ft.
 
@@ -389,7 +389,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Silver Tongue (Arcane Spell)
 **Disciplines:** 1 Mind · **Action:** Action · **Range:** 30 ft · **Keywords:** Bane, Boon
 
-**Weak:** The target has Bane against your social checks for 1 scene.
+**Weak:** The target has Bane against your social checks for 1 scene (Reason resists).
 
 **Standard:** The target has Bane against your social checks for 2 turns.
 
@@ -400,7 +400,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ### Daze (Arcane Spell)
 **Disciplines:** 1 Mind · **Action:** Action · **Range:** 30 ft · **Keywords:** None
 
-**Weak:** The target loses its Maneuver.
+**Weak:** The target loses its Maneuver (Reason resists).
 
 **Standard:** The target loses its Action.
 
