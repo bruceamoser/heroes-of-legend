@@ -61,9 +61,9 @@ Choose your species. Each grants a Discipline and a trait:
 | Ancestry | Discipline | Trait |
 |----------|-----------|-------|
 | **Human** | Any one | **Versatile:** +1 DP at Level 0 |
-| **Elf** | Any one Weapon | **Elven Grace:** once per session, reroll one die |
-| **Dwarf** | Any one Weapon | **Sturdy:** +2 maximum HP |
-| **Halfling** | Any one Weapon | **Lucky:** add one boon to any roll, once per session |
+| **Elf** | Archery | **Elven Grace:** once per session, reroll one die |
+| **Dwarf** | Axes | **Sturdy:** +2 maximum HP |
+| **Halfling** | Blades | **Lucky:** add one boon to any roll, once per session |
 
 See @sec-chapter-ancestries for full details.
 
@@ -355,7 +355,7 @@ Total: 8 DP. All spent.
 
 **Attributes (sum = +3):** Reason +2 (faith is a kind of knowledge), Fortitude +1 (carries the wounded), Guile +1 (knows what to say at the deathbed), Brawn -1 (lets others do the heavy lifting), Knowledge +0, Agility +0. Sum = +3.
 
-**Ancestry:** Dwarf. Axes or Armor (takes Armor). **Sturdy:** +2 maximum HP.
+**Ancestry:** Dwarf. Axes. **Sturdy:** +2 maximum HP.
 
 **Culture:** Hill. +1 to Persuasion (the dwarf who explains dwarves). Free Discipline: Protection.
 
@@ -508,7 +508,7 @@ Total: 8 DP. All spent.
 
 **Attributes (sum = +3):** Brawn +2 (the wall), Fortitude +1 (the foundation), Reason +1 (knows where to stand), Agility -1 (doesn't need to dodge), Guile +0, Knowledge +0. Sum = +3.
 
-**Ancestry:** Dwarf. Axes or Armor (takes Armor). **Sturdy:** +2 maximum HP.
+**Ancestry:** Dwarf. Axes. **Sturdy:** +2 maximum HP.
 
 **Culture:** Mountain. +1 to Craft (forged her first shield at twelve). Disciplines: Armor + Axes.
 
