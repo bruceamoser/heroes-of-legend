@@ -92,9 +92,13 @@ The DA never touches the dice in *Heroes of Legend*. This is not a suggestion. I
 
 ### Defending Against NPC Attacks
 
-When an enemy attacks you, the DA describes the attack and gives you the enemy's **Challenge** rating, a penalty to your roll. You make a **Defense Roll**:
+When an enemy attacks you, the DA describes the attack and gives you the enemy's **Challenge** rating, a penalty to your roll. You make a **Defense Roll**. Choose the form that matches your training:
 
-**3d6 + Agility modifier + your highest Armor or Shields skill rank − NPC Challenge**
+- **No defensive skill:** 3d6 + Agility − Challenge
+- **Dodge:** 3d6 + Agility + Dodge rank − Challenge
+- **Parry:** 3d6 + Brawn + Parry rank − Challenge
+
+Parry requires a weapon or shield in hand. A shield enables Parry and grants its DR, but never adds a roll bonus.
 
 | Your Defense Roll | What Happens | Damage You Take |
 |-------------------|-------------|-----------------|
@@ -112,6 +116,8 @@ When you attack, a high roll means you hit hard (Strong damage). When you defend
 
 | Modifier | Source |
 |----------|--------|
+| +Dodge rank | **Dodge** (Agility-based) |
+| +Parry rank | **Parry** (Brawn-based, requires a weapon or shield) |
 | +2 | **Defend** maneuver (one round) |
 | +1 to +3 | **Cover** (half to three-quarters) |
 | −1 to −6 | **NPC Challenge** (DA sets based on enemy skill) |
@@ -342,7 +348,7 @@ The Knight assesses the threat. The Blade just drew blood. The Protector is a wa
 
 "I attack the Blade," the DA announces. "The Knight's longsword comes around in a brutal arc. Challenge −3. Kael, roll Defense."
 
-Kael has Agility +2 and no Defense skill. He rolls 3d6 + 2 − 3 = 3d6 − 1. Rolls 5, 3, 2 = 10 − 1 = 9. **Standard.** The Knight's Standard damage: 3. Kael's armor: leather DR 2, plus buckler DR 2, total DR 4. 3 − 4 → minimum 1 damage. Kael drops from 11 HP to 10 HP. The Knight's blade skids off Kael's raised buckler, a stinging scrape through his sleeve.
+Kael has Agility +2 and no Dodge or Parry ranks. His buckler would let him Parry, but with no Parry rank it adds no roll bonus, so he defends with raw Agility. He rolls 3d6 + 2 − 3 = 3d6 − 1. Rolls 5, 3, 2 = 10 − 1 = 9. **Standard.** The Knight's Standard damage: 3. Kael's armor: leather DR 2, plus buckler DR 2, total DR 4. 3 − 4 → minimum 1 damage. Kael drops from 11 HP to 10 HP. The Knight's blade skids off Kael's raised buckler, a stinging scrape through his sleeve.
 
 Riposte doesn't trigger: it fires only when an enemy's blow is reduced to Weak damage, and the Knight landed a Standard hit. Kael keeps his Reaction for next round.
 
@@ -352,7 +358,7 @@ Cultist 1 stands up from Prone (uses half his movement). Cultist 2, still standi
 
 "The cultist snarls and hurls a bolt of crackling darkness. Challenge −1. Lyra, roll Defense."
 
-Lyra has Agility +2 and no Defense skill. She rolls 3d6 + 2 − 1 = 3d6 + 1. Rolls 3, 4, 4 = 11 + 1 = 12. **Standard.** Dark Bolt Standard damage: 3 necrotic. Lyra has no armor. She takes 3 damage. The bolt of shadow slams into her shoulder, cold and wrong. She drops to 7 HP.
+Lyra has Agility +2 and no Dodge or Parry ranks. With no weapon or shield in hand she cannot Parry, so she defends with raw Agility. She rolls 3d6 + 2 − 1 = 3d6 + 1. Rolls 3, 4, 4 = 11 + 1 = 12. **Standard.** Dark Bolt Standard damage: 3 necrotic. Lyra has no armor. She takes 3 damage. The bolt of shadow slams into her shoulder, cold and wrong. She drops to 7 HP.
 
 Roric has been waiting. The Knight is focused on Kael. The cultists are clustered. Time to be the Protector.
 
