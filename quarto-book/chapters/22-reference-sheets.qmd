@@ -138,7 +138,9 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | Skill | Attr | Key Use |
 |-------|------|---------|
 | **Athletics** | BR | Climb, swim, jump |
+| **Parry** | BR | Blocking attacks with a weapon or shield; requires one in hand (shield enables Parry and gives DR, never a roll bonus) |
 | **Acrobatics** | AG | Balance, tumble, escape |
+| **Dodge** | AG | Getting out of the way, diving clear, avoiding area effects |
 | **Endurance** | FO | Fatigue, breath-holding, marches |
 | **Survival** | FO | Track, forage, navigate |
 | **Lore** | KN | Legends, heraldry, esoteric |
