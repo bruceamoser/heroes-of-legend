@@ -14,7 +14,7 @@ How it works:
 | 2 | all | Final balance audit (full-book budget walk) | Queue (pre-existing) | queued | Ruling 2026-08-14: fold into walkthrough days — audit each chapter on its day |
 | 3 | 07-skills | #260 weapon-skill families | Issue #260 | resolved | Ruling 2026-08-14: dispatch sweep as written (remap to Disciplines; 8 DP preserved) |
 | 4 | 02-character-creation | Dwarf build templates: armor/weapon inconsistency | Council (flagged) | resolved | Ruling 2026-08-14: template takes Axes from ancestry; culture table stands (accept 2-disc start) |
-| 5 | 09-talents-abilities | Corwin's Exploit Chaos — energy keying | Council (flagged) | resolved | Ruling 2026-08-14: key to Mind (was 1 Energy) |
+| 5 | 09-talents-abilities | Corwin's Exploit Chaos — energy keying | Council (flagged) | implemented default 2026-08-14 | Ruling 2026-08-14: keyed to Mind, but follow-up check showed Mind AND Energy are unavailable at L0 (Unbalanced starts Fire+Water; Energy is Arcane). Corwin's template buys it at creation, so it must be usable at L0. Implemented default: No prereq (matches Improvised Solution convention) — veto to revert. |
 | 6 | 11-arcane-spells | Rider gaps on 2-discipline cards (5 utility cards left Adept/Master open) | EIC pass | resolved | Ruling 2026-08-14: fill Adept/Master rows completely; riders drafted for veto in implementation wave |
 | 7 | 04-ancestries-cultures | Ancestry "any one weapon" fix — Decision 3 | Council | resolved | Ruling 2026-08-14: fixed per-ancestry weapon Discipline — Elf=Archery, Dwarf=Axes, Halfling=Blades |
 | 8 | 10-magic-system | Card inventory completeness: 48 spell inventory vs roster | Design review | resolved | Ruling 2026-08-14: 48 is the locked scope; tranche 2 proceeds against it |

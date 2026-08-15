@@ -524,7 +524,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
-| **Exploit Chaos** | Novice | 1 Energy | When you roll on the Edge of Chaos backlash table | You may roll twice and pick either result. |
+| **Exploit Chaos** | Novice | No prereq | When you roll on the Edge of Chaos backlash table | You may roll twice and pick either result. |
 | **Volatile Surge** | Adept | 1 Energy, 1 Fire | When you cast a spell and roll Strong | The spell's area of effect doubles. Enemies in the expanded zone take half damage. Allies in the expanded zone take 2 damage. |
 | **Unmake** | Master | 2 Energy, 1 Fire | When you reduce a target to 0 HP with a spell | The target disintegrates as per the Disintegrate spell (no body, no resurrection short of Master-tier divine). You gain 2 Corruption. |
 
