@@ -84,10 +84,10 @@ This isn't about fairness or trust. It's about engagement. When the goblin swing
 
 When an NPC or monster attacks your hero, you make a **Defense Roll**:
 
-**3d6 + Agility modifier + your highest Armor or Shields skill rank − NPC Challenge**
+**3d6 + Agility modifier − NPC Challenge**
 
 - **Agility** is your reaction speed, your footwork, your instinct to duck.
-- **Armor or Shields skill** represents your training in deflecting blows with your equipment. See @sec-chapter-skills for the full skill description.
+- **Armor and shields** do not add to this roll. They reduce the damage you take through Damage Reduction (DR). See @sec-chapter-armor-shields.
 - **NPC Challenge** is a penalty the DA applies. A goblin might be −1 (barely a threat). A dragon might be −6 (good luck). The DA tells you the number before you roll.
 
 ### Reading the Defense Result
@@ -116,13 +116,13 @@ This reversal is intentional. When you attack, a high roll means you hit hard. W
 
 A goblin lunges at Kael with a rusty shortsword. The DA says: "The goblin's attack is Challenge −1. Roll Defense."
 
-Kael has Agility +2 and no Armor or Shields training. He rolls 3d6 + 2 (Agility) − 1 (goblin's Challenge) = 3d6 + 1.
+Kael has Agility +2. He rolls 3d6 + 2 (Agility) − 1 (goblin's Challenge) = 3d6 + 1.
 
 He rolls 4, 3, 5 = 13. **Standard.** The goblin's Standard damage is 3. Kael's leather armor (DR 2) reduces it to 1. The goblin's blade scrapes across his ribs: shallow, painful, but not dangerous.
 
 Later, a Knight of the Iron Circle attacks Kael. "Challenge −3," the DA says. Kael rolls 3d6 + 2 − 3 = 3d6 − 1. He rolls 2, 3, 2 = 7 − 1 = 6. **Weak.** The Knight's Strong damage is 5. Kael's armor reduces it to 3. That one hurt.
 
-If Kael had invested in the Armor skill (+2 at Adept), his roll against the Knight would have been 3d6 + 2 + 2 − 3 = 3d6 + 1, giving him a much better chance of turning that blow aside.
+If Kael had trained the Armor Discipline and worn plate (DR 6), the Knight's Strong damage of 5 would have been cut to the minimum of 1. Armor never adds to your Defense Roll. It reduces whatever damage the roll lets through.
 
 {{< pagebreak >}}
 ## Critical Hits (Three Natural 6s)
