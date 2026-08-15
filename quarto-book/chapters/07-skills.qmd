@@ -97,9 +97,9 @@ Now Kael wants to shove a heavy crate off a collapsing ledge to buy the party ti
 
 {{< pagebreak >}}
 
-## The 20 Skills {#sec-skill-list}
+## The 22 Skills {#sec-skill-list}
 
-Twenty skills, grouped into five categories. Every skill shares the same three-tier bonus: Novice +1, Adept +2, Master +3. None of them have Discipline prerequisites, and none of them gate anything.
+Twenty-two skills, grouped into five categories. Every skill shares the same three-tier bonus: Novice +1, Adept +2, Master +3. None of them have Discipline prerequisites, and none of them gate anything.
 
 ### Physical
 
@@ -109,6 +109,14 @@ Twenty skills, grouped into five categories. Every skill shares the same three-t
 | **Acrobatics** | Agility | Balancing, tumbling, escaping restraints |
 | **Endurance** | Fortitude | Resisting fatigue, holding breath, forced marches |
 | **Survival** | Fortitude | Tracking, foraging, navigating wilderness |
+| **Dodge** | Agility | Getting out of the way, diving clear, avoiding area effects |
+| **Parry** | Brawn | Blocking attacks with a weapon or shield; requires one in hand |
+
+::: {.callout-note}
+## Shields and Parry
+
+A shield enables Parry (it is an implement in hand) and provides DR (damage reduction after the roll), but never adds a bonus to the Parry roll itself. The only roll bonus is the Parry skill rank.
+:::
 
 ### Knowledge
 
