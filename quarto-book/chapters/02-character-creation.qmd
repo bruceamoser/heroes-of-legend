@@ -529,7 +529,7 @@ Total: 9 DP. All spent.
 - Interpose (Novice ability, 2 DP), take the hit for an adjacent ally
 - Persuasion Novice (2 DP), her presence ends fights before they start
 - Perception Novice (2 DP), the best shield is seeing the blow coming
-- Insight Novice (2 DP), she knows where to stand and when the line will break
+- Parry Novice (2 DP), her shield turns aside the blows she will not dodge
 
 Total: 8 DP. All spent.
 
