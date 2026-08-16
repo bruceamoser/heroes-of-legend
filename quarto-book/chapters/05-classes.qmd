@@ -134,7 +134,7 @@ The Arcanist delves into the mysteries of arcane energies, mastering their manip
 
 **Favored Skills:** Alchemy, Arcana, History, Lore, Nature
 
-**Starting Kit:** Arcane focus, dagger (1/2/3), scholar's robes (DR 0), component pouch, spellbook, 5 gp.
+**Starting Kit:** Arcane focus, dagger (1/2/3), scholar's robes (DR 0), focus pouch, spellbook, 5 gp.
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -212,7 +212,7 @@ The Intellect embodies cerebral prowess and scholarly mastery. Your path is a re
 
 **Favored Skills:** History, Lore, Medicine, Arcana, Perception
 
-**Starting Kit:** Shortsword (2/3/4), spellbook, scholar's robes (DR 0), component pouch, ink & pen, 10 gp.
+**Starting Kit:** Shortsword (2/3/4), spellbook, scholar's robes (DR 0), focus pouch, ink & pen, 10 gp.
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -348,7 +348,7 @@ The Unbalanced is a wild card, embodying chaos and unpredictability in every act
 
 **Favored Skills:** Arcana, Deception, Insight, Perception, Acrobatics
 
-**Starting Kit:** Spear (2/3/4), component pouch, scholar's robes (DR 0), six vials of volatile reagents, 5 gp.
+**Starting Kit:** Spear (2/3/4), focus pouch, scholar's robes (DR 0), six vials of volatile reagents, 5 gp.
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
