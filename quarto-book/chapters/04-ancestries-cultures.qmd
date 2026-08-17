@@ -5,7 +5,7 @@
 ```
 
 <!-- Rationale: Chapter opener at 80% width: ancestries gathered around a campfire, establishing the fantasy of diverse peoples sharing stories before the rules detail each one. -->
-![Placeholder: A gathering of different ancestries around a campfire: human, elf, dwarf, and beastfolk representatives sharing stories.](../assets/images/placeholder-ch04-ancestries.png){width=80%}
+![Placeholder: A gathering of different ancestries around a campfire: human, elf, dwarf, and halfling representatives sharing stories.](../assets/images/placeholder-ch04-ancestries.png){width=80%}
 
 
 {{< pagebreak >}}
@@ -151,7 +151,7 @@ Humans are adaptable. Their gifts lean into that versatility, letting them dabbl
 
 | Gift | Tier | Effect |
 |------|------|--------|
-| **Fast Learner** | Novice | Once per session, you may use a skill you don't have at Novice (+1) for a single check. (See Quick Study, the Intellect class talent.) |
+| **Fast Learner** | Novice | Once per session, you may use a skill you don't have at Novice (+1) for a single check. (See the Quick Study talent.) |
 | **Die Hard** | Novice | When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session. Dying can wait. |
 | **Jack of All Trades** | Adept | You may gain one skill at Novice rank for free. Choose the skill when you buy this gift. Humans get by on being just good enough at just enough things. |
 | **Second Wind** | Adept | Once per scene, as a maneuver, you may regain 6 HP. |
@@ -178,7 +178,7 @@ Dwarves are forged, not born. Their gifts reflect stone, steel, and the kind of 
 | **Stonecunning** | Novice | You have Boon on Perception and Craft checks involving stonework, masonry, or underground construction. You know when a wall has been moved. |
 | **Dwarven Resilience** | Novice | You have Boon on Fortitude checks to resist poison. Alcohol doesn't count. |
 | **Grudge-Bearer** | Novice | Once per session, when an enemy damages you, you may mark that enemy. For the rest of the encounter, you have +1 on attack rolls against them. |
-| **Forge-Trained** | Adept | Non-magical weapons you maintain deal +1 damage (flat); non-magical armor you maintain grants +1 DR. This represents maintenance, not magic. |
+| **Forge-Trained** | Adept | Non-magical weapons and armor you maintain never break, dull, or rust. Maintained armor grants +1 DR. Once per scene, one maintained weapon deals +6 damage (flat) on its next hit. |
 | **Unyielding** | Adept | When an effect would push, pull, or knock you prone, you may choose to be unaffected. Once per scene. |
 
 ### Halfling Gifts
@@ -187,8 +187,8 @@ Halflings survive because the universe likes them. Their gifts reflect luck, cha
 
 | Gift | Tier | Effect |
 |------|------|--------|
-| **Naturally Stealthy** | Novice | You have Boon on Stealth checks made to hide behind creatures at least one size larger than you. Which is most of them. |
+| **Naturally Stealthy** | Novice | You have Boon on Stealth checks made to hide behind creatures larger than you. Which is most of them. |
 | **Halfling Charm** | Novice | Once per scene, when you fail a Persuasion or Deception check, you may reroll it. The universe gives small, cheerful people a second chance. |
 | **Burrow-Sense** | Novice | You always know which way is north and can estimate depth underground (how far beneath the surface you are). |
-| **Second Breakfast** | Adept | Once per day, during a short rest, you may prepare a meal so satisfying that all allies who eat it regain an additional 4 HP. This is not magic. This is cooking. |
+| **Second Breakfast** | Adept | Once per day, during a short rest, you may prepare a meal so satisfying that all allies who eat it regain an additional 6 HP. This is not magic. This is cooking. |
 | **Impossible Luck** | Adept | You may use your Lucky trait twice per session instead of once. |
