@@ -243,9 +243,9 @@ Focused Mind is the Intellect's secondary ability; see the table below.
 
 *"I have a trick for that."*
 
-The Odd embodies eccentricity and peculiarity. With a demeanor that dances on the edge of madness and a style that defies convention, you bring chaos and unpredictability to every encounter. Keyed to Guile, your appearance is striking, mismatched clothing, bizarre accessories, an unusual hairstyle. In battle, you are a whirlwind of unorthodox tactics: spells with unconventional gestures, bizarre weapons wielded with deadly precision, strange powers that defy explanation. Your adversaries never know what to expect. Sometimes, neither do you.
+The Odd embodies eccentricity and peculiarity. With a demeanor that dances on the edge of madness and a style that defies convention, you bring chaos and unpredictability to every encounter. Keyed to Guile, your appearance is striking: mismatched clothing, bizarre accessories, an unusual hairstyle. In battle, you are a whirlwind of unorthodox tactics: spells with unconventional gestures, bizarre weapons wielded with deadly precision, strange powers that defy explanation. Your adversaries never know what to expect. Sometimes, neither do you.
 
-**Class Discipline (L1):** Any one, different category (1) + 1 any, different category. The two picks must be from different categories relative to each other.
+**Class Discipline (L1):** Any one, different category (1) + 1 any, different category.
 
 **Signature, Eccentric Spellcasting:** Choose one arcane ability and one divine ability. You ignore prerequisite Disciplines for these two (level requirements still apply). You need no arcane focus or holy symbol.
 
@@ -329,7 +329,7 @@ Battle Cry is the Leader's secondary ability; see the table below.
 
 *"Power has a price. I'm willing to pay."*
 
-The Unbalanced is a wild card, embodying chaos and unpredictability in every action. Your demeanor is marked by erratic energy, veering between bouts of laughter and brooding intensity. Behind your unpredictable facade lies a mind that operates on its own unique wavelength, calculating the odds even as you appear to embrace madness. In battle, you unleash pent-up frenzy with ferocious abandon, your fighting style as unpredictable as your personality. You thrive on the chaos of combat, reveling in the uncertainty of the fray.
+The Unbalanced is a wild card, embodying chaos and unpredictability in every action. Your demeanor is marked by erratic energy, veering between bouts of laughter and brooding intensity. Behind your unpredictable facade lies a mind that operates on its own unique wavelength, calculating the odds even as you appear to embrace madness. In battle, you unleash pent-up frenzy with ferocious abandon, your fighting style, as unpredictable as your personality. You thrive on the chaos of combat, reveling in the uncertainty of the fray.
 
 **Class Discipline (L1):** Any Elemental (1) + 1 opposing Elemental (1)
 
@@ -342,7 +342,7 @@ The Unbalanced is a wild card, embodying chaos and unpredictability in every act
 | 1 | You take 4 damage. |
 | 2 | Your next attack roll is at Bane. |
 | 3 | You lose your Maneuver this turn. |
-| 4 | The backlash lashes out: an adjacent enemy takes 3 damage of the spell's type. |
+| 4 | The backlash lashes out: an adjacent enemy takes 2 damage of the spell's type. |
 | 5 | You take 2 damage; the target takes +2. |
 | 6 | Wild surge: the DA picks a minor random effect (a cantrip fires, a small object ignites, etc.). |
 
@@ -389,11 +389,13 @@ The Shadow is the ghost in the room, the whisper no one heard, the hand that lif
 
 **Class Discipline (L1):** Stealth (1) + Sleight (1)
 
-**Signature, Vanish:** As a maneuver, you may attempt to disappear from sight. Make a Stealth check. On Standard+, you become invisible until the end of your next turn or until you attack. On Weak, you gain concealment instead (attacks against you have Bane). This is not magic, this is being very good at not being noticed.
+**Signature, Vanish:** As a maneuver, you may attempt to disappear from sight. Make a Stealth check. On Standard+, you become invisible until the end of your next turn or until you attack. On Weak, you gain concealment instead (attacks against you have Bane). This is not magic; this is being very good at not being noticed.
 
 **Secondary, Shadow Stride:** See the Shadow ability table below.
 
 **Favored Skills:** Stealth, Deception, Sleight of Hand, Thievery, Acrobatics, Perception
+
+**Starting Kit:** Two daggers (W/S/St: 1/2/3), 6 throwing daggers (1/2/3), leather armor (DR 2), thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1, creates 10-ft radius heavy concealment for 1 round), 15 sp.
 
 **Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
 
@@ -418,8 +420,6 @@ The Shadow is the ghost in the room, the whisper no one heard, the hand that lif
 The Shadow doesn't trade blows. The Shadow's entire game is about controlling who can see them and who can't. Your turn is spend Maneuver to Vanish, move into position behind the enemy caster, then on your next turn, strike from invisibility with a Boon. If things go wrong, you have getaway tools: caltrops, smoke bombs, a disguise kit, and a network of contacts who owe you favors.
 
 Your damage doesn't come from brute force. It comes from never being where the enemy is looking. When the Blade needs three rounds to carve through a knight's armor, the Shadow needs one round, one lockpick, and the knight's potion of healing quietly removed from his belt while he was too busy watching the Protector. You win by making the fight unfair. And you make it unfair before anyone knows you're there.
-
-**Starting Kit:** Two daggers (W/S/St: 1/2/3), throwing daggers (6, 1/2/3), leather armor (DR 2), thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1, creates 10-ft radius heavy concealment for 1 round), 15 sp.
 :::
 
 {{< pagebreak >}}
@@ -432,7 +432,7 @@ The nine classes cluster into four archetypes, each with its own flavor and its 
 |-----------|---------|-------------|------|
 | **Mage** | Arcanist, Intellect | 8 | Power through knowledge. Spells, wards, the right word at the right time. |
 | **Priest** | Shepherd, Leader | 8 | Power through faith. Healing, protection, inspiration. |
-| **Thief** | Blade, Shadow | 8 | Power through precision. Damage, infiltration, the unseen strike. |
+| **Thief** | Blade, Shadow | 9 | Power through precision. Damage, infiltration, the unseen strike. |
 | **Fighter** | Protector, Unbalanced | 6 | Power through force. Defense, chaos, standing in the gap. |
 
 The **Odd** occupies no archetype. It is the pure wildcard, its abilities sampling all four archetype flavors. The Odd is the exception that proves the four-way rule. It doesn't fit. It's not supposed to.
@@ -460,7 +460,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | **Tactical Insight** | Novice | 1 Tactics | At the start of combat | Name one enemy weakness. All allies gain +1 on attacks against that enemy type for the encounter. |
 | **Field Study** | Novice | 1 Lore | When you fail a Knowledge-based skill check | You may reroll it. Once per scene. |
 | **Focused Mind** | Novice | 1 Lore | As a Maneuver | Once per scene, you may spend your Movement to gain a Boon on your next Knowledge-based check. |
-| **Leverage** | Adept | 1 Tactics, 1 Lore | When an ally misses an attack | The ally may reroll the miss. If the reroll hits, it deals +3 bonus damage. Once per scene. |
+| **Leverage** | Adept | 1 Tactics, 1 Lore | When an ally misses an attack | The ally may reroll the miss. If the reroll hits, it deals +2 bonus damage. Once per scene. |
 | **Perfect Recall** | Master | 2 Mind, 1 Energy | When you need information from a scene you participated in | The DA must tell you the exact words, layout, or sequence of events, to the limit of your own perception at the time. Once per session. |
 
 {{< pagebreak >}}
@@ -472,8 +472,8 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
 | **Bolstering Prayer** | Novice | 1 Protection | As an action | One ally within 30 ft gains Boon on their next roll. |
-| **Sanctified Ground** | Adept | 1 Protection, 1 Religion | As an action | Consecrate a 15-ft radius for 1 minute. Undead inside take 6 radiant damage per round. Allies heal 1 HP at the start of their turn. |
-| **Divine Intervention** | Master | 2 Protection, 1 Religion | When an ally drops to 0 HP | The ally instead drops to 1 HP and gains 10 temporary HP. The DA narrates what intervened. Once per session. |
+| **Sanctified Ground** | Adept | 1 Protection, 1 Religion | As an action | Consecrate a 15-ft radius for 1 minute. Undead inside take 6 radiant damage per round. Allies heal 2 HP at the start of their turn. |
+| **Divine Intervention** | Master | 2 Protection, 1 Religion | When an ally drops to 0 HP | The ally instead drops to 1 HP and gains 9 temporary HP. The DA narrates what intervened. Once per session. |
 
 **Leader**
 
@@ -538,7 +538,7 @@ The Odd's abilities are few but strange: Improvised Solution, Wrong Context, Eve
 |---------|------|----------|---------|--------|
 | **Improvised Solution** | Novice | No prereq | When you attempt a skill check with a skill you don't have | You roll as if you had Novice (+1) in that skill. Once per scene. (See Quick Study and Fast Learner.) |
 | **Wrong Context** | Adept | 2 any (different types) | When an enemy declares an action | You may force the enemy to describe their action differently. If the DA deems your version plausible, the enemy's action has Bane. Once per scene. |
-| **Everything At Once** | Master | 3 any (across 3 different types) | When you take damage | Roll 1d4. 1: you gain +4 Armor for 1 round. 2: you heal 10 HP. 3: the attacker takes the damage instead. 4: both you and the attacker take the damage. Once per session. |
+| **Everything At Once** | Master | 3 any (across 3 different types) | When you take damage | Roll 1d4. 1: you gain +4 Armor for 1 round. 2: you heal 9 HP. 3: the attacker takes the damage instead. 4: both you and the attacker take the damage. Once per session. |
 
 {{< pagebreak >}}
 
