@@ -138,16 +138,36 @@ Resistances and vulnerabilities modify damage of specific types. A creature resi
 
 {{< pagebreak >}}
 
+## Effects
+
+Attacks and spells can carry effects beyond damage: a shove, a slide, a trip, a lift. Effects resolve by the same roll as the damage, by the attack or casting tier, never a second roll. One roll, one tier, both outcomes. No save. Each card defines which tiers carry which effect: some push on every tier, some only on Strong, some only on Weak. Roll once, read the tier, and apply the damage and the effect together.
+
+Shared effects are named so cards reference them instead of inventing new phrasing:
+
+: Table 13.2: Shared Effects {#tbl-effects}
+
+| Effect | What It Does |
+|--------|--------------|
+| **Push X** | Move the target X feet directly away from you. |
+| **Slide X** | Move the target X feet in any direction you choose. |
+| **Trip** | The target is knocked Prone. |
+| **Lift X** | Raise the target X feet into the air. The target is Restrained while held. |
+
+{{< pagebreak >}}
+
 ## Conditions
 
 Conditions are the status effects that change how a creature behaves in combat. They come from spells, abilities, maneuvers, and environmental hazards. Each condition tells you exactly what it does and how it ends.
 
-: Table 13.2: Conditions {#tbl-conditions}
+: Table 13.3: Conditions {#tbl-conditions}
 
 | Condition | Effect | Ends |
 |-----------|--------|------|
+| **Asleep X** | Unaware for X minutes | Wakes on damage |
 | **Blinded** | Attacks reduced one tier | Source duration |
+| **Burning X** | Takes X damage per round | Save ends |
 | **Charmed** | Cannot attack charmer | Save ends |
+| **Confused X** | Attacks at Bane, cannot take Reactions | Save ends |
 | **Dazed** | Can take only one action type per turn (Action, Move, or Maneuver) | Save ends |
 | **Dazzled** | Perception checks at Bane, cannot benefit from Boon on sight-based rolls | Source duration |
 | **Deafened** | Perception Bane | Source duration |
@@ -274,7 +294,7 @@ Some injuries don't fade when the healing potion wears off. Wounds are the lasti
 
 **The Wound Table (D666).** The wound roll uses a special notation: D666. Roll 3d6, then sort the dice in ascending order. The lowest die is the HUNDREDS digit. The middle die is the TENS. The highest die is the ONES. A roll of [1] [3] [5] reads as 135. A roll of [2] [4] [6] reads as 246. The table below gives the result. Ranges are listed as three-digit numbers in D666 notation.
 
-: Table 13.3: Wound Table (D666) {#tbl-wound-table}
+: Table 13.4: Wound Table (D666) {#tbl-wound-table}
 
 | D666 | Wound | Effect |
 |------|-------|--------|
