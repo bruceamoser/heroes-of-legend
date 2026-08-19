@@ -424,7 +424,7 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 
 **Adept:** Hit all adjacent enemies for 6/9/12 damage.
 
-**Master:** Hit all adjacent enemies for 9/15/21 damage; a Strong result knocks them Prone.
+**Master:** Hit all adjacent enemies for 9/15/21 damage; a Strong result Prone.
 
 ### Cleave (Weapon Maneuver)
 
@@ -472,15 +472,15 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 
 **Disciplines:** 2 Armor · **Action:** Maneuver · **Range:** Melee · **Keywords:** Prone, Push
 
-**Weak:** Deal 1 damage and push the target 5 ft.
+**Weak:** Deal 1 damage and Push 5 ft.
 
-**Standard:** Deal 2 damage and push the target 5 ft.
+**Standard:** Deal 2 damage and Push 5 ft.
 
-**Strong:** Deal 3 damage and push the target 5 ft; the target is Prone.
+**Strong:** Deal 3 damage and Push 5 ft; the target is Prone.
 
-**Adept:** Deal 2/4/6 damage and push the target 5 ft; a Strong result Prone.
+**Adept:** Deal 2/4/6 damage and Push 5 ft; a Strong result Prone.
 
-**Master:** Deal 6/9/12 damage and push the target 5 ft; a Strong result Prone and the target loses its Maneuver.
+**Master:** Deal 6/9/12 damage and Push 5 ft; a Strong result Prone and the target loses its Maneuver.
 
 ### Parry (Weapon Maneuver)
 
@@ -616,11 +616,11 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 
 **Standard:** Move through one enemy's space.
 
-**Strong:** Move through one enemy's space; it falls Prone.
+**Strong:** Move through one enemy's space; the target is Prone.
 
-**Adept:** Move through one enemy's space; on Standard or Strong, it falls Prone.
+**Adept:** Move through one enemy's space; on Standard or Strong, the target is Prone.
 
-**Master:** Move through up to two enemies' spaces; on Standard or Strong, they fall Prone.
+**Master:** Move through up to two enemies' spaces; on Standard or Strong, the targets are Prone.
 
 ### Renewal (Weapon Maneuver)
 
