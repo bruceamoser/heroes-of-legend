@@ -187,7 +187,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 5. **Background DP:** 8 + Knowledge + Fortitude. Spend all on Novice skills and abilities.
 6. **Class:** Choose class. Record Class Discipline and signature ability.
 7. **Class DP:** 8 DP. Spend all on Novice skills and abilities.
-8. **Equipment:** Take class starting kit. Record weapon damage values and armor DR.
+8. **Equipment:** Take class starting kit. Record weapon properties and armor DR.
 9. **Derived Stats:** HP, Initiative, Speed, Carry Slots.
 10. **Backstory:** Motivation, Trinket, Name.
 
