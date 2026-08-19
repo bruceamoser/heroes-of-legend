@@ -71,7 +71,7 @@ HP 5, DR 0. Attributes: Brawn -1, Fortitude 0, Agility 0, Guile 0, Knowledge -1,
 
 **Immune:** Single-target attacks.
 
-**Vulnerable: Area Effects (damage tier +1).**
+**Vulnerable: Area Effects (takes double damage from area effects).**
 
 **Stirge (Challenge 1/2):** HP 3, DR 0. Proboscis: 2/4/6 piercing + attach. On a hit, the stirge latches onto the target. While attached, it automatically deals 2 damage each round. A creature can use a Maneuver to make a Brawn check to detach the stirge. Tiny flyer, the stirge dies if it takes any damage while attached.
 
@@ -121,7 +121,7 @@ HP 5, DR 0. Attributes: Brawn -1, Fortitude 0, Agility 0, Guile 0, Knowledge -1,
 
 ## Undead
 
-**Skeleton (Challenge 1/2):** HP 5, DR 0. Shortsword: 2/4/6. Shortbow: 2/4/6. Vulnerable: Bludgeoning (damage tier +1 vs bludgeoning). Undead Nature: immune to poison and charm.
+**Skeleton (Challenge 1/2):** HP 5, DR 0. Shortsword: 2/4/6. Shortbow: 2/4/6. Vulnerable: Bludgeoning (takes double bludgeoning damage). Undead Nature: immune to poison and charm.
 
 **Zombie (Challenge 1/2):** HP 12, DR 1. Slam: 2/4/6. Relentless: when reduced to 0 HP, roll Fortitude. On Strong, stays at 1 HP. Slow: always acts last in initiative.
 
@@ -247,7 +247,7 @@ HP 35, DR 4 (bark). Attributes: Brawn +2, Fortitude +2, Agility -2, Knowledge +1
 
 **Animate Trees:** As an action, the treant animates one nearby tree as a Lesser Treant (HP 10, Slam 2/4/6) that acts on the treant's initiative.
 
-**Vulnerable: Fire.** Fire damage is always treated as one tier higher against the treant. The treant must make a Morale Check whenever it takes fire damage.
+**Vulnerable: Fire (takes double fire damage).** The treant must make a Morale Check whenever it takes fire damage.
 
 ### Phase Beast (Challenge 4)
 
