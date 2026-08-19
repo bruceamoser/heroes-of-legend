@@ -289,7 +289,7 @@ Four **Drowned Guardians** rise from the water when the party enters the central
 
 ::: {.callout-note}
 ## Enemy Stat Blocks
-**Drowned Guardian (Challenge 1/2):** HP 6, DR 1 (rusted chain). Rusted Sword: 2/4/6 slashing. Slam: 2/4/6 bludgeoning. Waterlogged: moves at half speed on dry ground, normal speed in water. Undead Nature: immune to poison and charm. Vulnerable (Fire): damage tier +1 vs fire. Morale: mindless, fights until destroyed.
+**Drowned Guardian (Challenge 1/2):** HP 6, DR 1 (rusted chain). Rusted Sword: 2/4/6 slashing. Slam: 2/4/6 bludgeoning. Waterlogged: moves at half speed on dry ground, normal speed in water. Undead Nature: immune to poison and charm. Vulnerable (Fire): takes double fire damage. Morale: mindless, fights until destroyed.
 :::
 
 **Tactics:** The guardians spread out, one per party member if possible. They're slow but relentless, they don't flank, they don't retreat, they just keep coming. If a guardian is reduced to 0 HP, it collapses into the water with a splash. On the next round, roll 1d6. On a 5-6, it rises again at 1 HP (the water heals them). The party needs to either destroy all four in quick succession or figure out that dragging a body out of the water stops the regeneration.
