@@ -484,8 +484,15 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
 | **Bolstering Prayer** | Novice | 1 Protection | As an action | One ally within 30 ft gains Boon on their next roll. |
+| **Warding Touch** | Novice | 1 Protection | As a maneuver | One adjacent ally gains +2 DR until the start of your next turn. |
+| **Gentle Mend** | Novice | 1 Life | As an action | One ally within 30 ft heals 4 HP. Once per scene. |
+| **Beast's Watch** | Novice | 1 Animal | As a maneuver | A friendly beast you see guards one ally. The next attack against that ally has Bane. Once per scene. |
 | **Sanctified Ground** | Adept | 1 Protection, 1 Religion | As an action | Consecrate a 15-ft radius for 1 minute. Undead inside take 6 radiant damage per round. Allies heal 2 HP at the start of their turn. |
+| **Shield of Faith** | Adept | 2 Protection | As a maneuver | One ally within 30 ft gains +2 DR and cannot be moved against their will until your next turn. |
+| **Bountiful Harvest** | Adept | 1 Plants, 1 Life | As an action | Vitality blooms in a 10-ft radius. Allies inside heal 6 HP and lose one condition. Once per scene. |
 | **Divine Intervention** | Master | 2 Protection, 1 Religion | When an ally drops to 0 HP | The ally instead drops to 1 HP and gains 9 temporary HP. The DA narrates what intervened. Once per session. |
+| **Radiant Ward** | Master | 2 Protection, 1 Religion | As an action | One ally within 30 ft gains 9 temporary HP. The first enemy to strike them takes 9 radiant damage. Once per session. |
+| **Herald of the Wild** | Master | 2 Animal, 1 Life | As an action | Call a spectral beast that fights at your side for the encounter. Its first attack deals 15 damage. Once per session. |
 
 **Leader**
 
@@ -494,8 +501,13 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | **Rallying Cry** | Novice | 1 Protection | As a maneuver | All allies who can hear you gain +2 on their next initiative roll or remove one Fear effect. |
 | **Read the Room** | Novice | 1 Tactics | As a Maneuver | Once per scene, choose one enemy; allies gain +1 damage tier against it until your next turn. |
 | **Battle Cry** | Novice | 1 Tactics | As a Maneuver | Once per scene, all allies within 30 ft gain +1 damage tier on their next attack. |
+| **Form Up** | Novice | 1 Tactics | As a maneuver | One ally within 30 ft may immediately move up to half their speed without provoking reactions. Once per scene. |
 | **Coordinated Strike** | Adept | 1 Protection, 1 Blades | When you hit an enemy | The next ally to attack that enemy before your next turn deals +1 damage tier. |
+| **Flanking Order** | Adept | 2 Tactics | As a maneuver | Choose one ally. Until your next turn, that ally deals +1 damage tier against enemies adjacent to you. Once per scene. |
+| **Hold Together** | Adept | 1 Protection, 1 Tactics | When an ally within 30 ft takes damage | Reduce that damage by 6. Once per scene. |
 | **Last Stand** | Master | 2 Protection, 1 Energy | When you are reduced to 0 HP | You remain standing for 1 additional round. All allies within sight gain +2 on all rolls and immunity to Fear for that round. |
+| **Stalwart Resolve** | Master | 2 Tactics, 1 Protection | At the start of combat | Allies who can see or hear you gain immunity to Fear and +2 on Morale checks for the encounter. Once per encounter. |
+| **Seize the Moment** | Master | 2 Tactics, 1 Polearms | When an ally reduces an enemy to 0 HP | That ally immediately makes a free attack against another enemy within reach at +1 damage tier. Once per encounter. |
 
 {{< pagebreak >}}
 
@@ -555,8 +567,15 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
 | **Exploit Chaos** | Novice | No prereq | When you roll on the Edge of Chaos backlash table | You may roll twice and pick either result. |
+| **Backlash Channeling** | Novice | 1 Energy | When you take damage from your own backlash | Your next spell before the end of your next turn deals +1 damage tier. Once per turn. |
+| **Overflow** | Novice | 1 Energy | When you cast a spell and roll Strong | You take 6 damage, and that spell deals +1 damage tier. Once per turn. |
+| **Toxic Bloom** | Novice | 1 Plants | As an action | One enemy within 30 ft takes 2 damage and is Poisoned for 1 round. Once per scene. |
 | **Volatile Surge** | Adept | 1 Energy, 1 Fire | When you cast a spell and roll Strong | The spell's area of effect doubles. Enemies in the expanded zone take half damage. Allies in the expanded zone take 2 damage. |
+| **Volatile Echo** | Adept | 1 Energy, 1 Plants | When you cast a spell and roll Weak | The spell deals Standard damage instead, and one enemy adjacent to the target takes 6 damage of the spell's type. Once per scene. |
+| **Devour** | Adept | 1 Energy, 1 Animal | As an action | One enemy within 30 ft takes 6 damage, and you heal 6 HP. Once per scene. |
 | **Unmake** | Master | 2 Energy, 1 Fire | When you reduce a target to 0 HP with a spell | The target disintegrates as per the Disintegrate spell (no body, no resurrection short of Master-tier divine). You gain 2 Corruption. |
+| **Annihilate** | Master | 2 Energy, 1 Fire | As an action | One enemy within 60 ft takes 15 damage, and you gain 1 Corruption. Once per scene. |
+| **Overload** | Master | 3 Energy | When you cast a spell and roll Strong | The spell deals +1 damage tier and strikes one additional target within 30 ft for 9 damage. You gain 1 Corruption. Once per session. |
 
 {{< pagebreak >}}
 
