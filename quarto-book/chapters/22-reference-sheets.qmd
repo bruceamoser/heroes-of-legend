@@ -74,8 +74,11 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 
 | Condition | Effect | Ends |
 |-----------|--------|------|
+| **Asleep X** | Unconscious | X minutes or damage |
 | **Blinded** | Attacks reduced one tier | Source duration |
+| **Burning X** | Takes X damage per round | Save ends |
 | **Charmed** | Cannot attack charmer | Save ends |
+| **Confused X** | Attacks at Bane, cannot take Reactions | Save ends |
 | **Dazed** | Can take only one action type per turn (Action, Move, or Maneuver) | Save ends |
 | **Dazzled** | Perception checks at Bane, cannot benefit from Boon on sight-based rolls | Source duration |
 | **Deafened** | Perception Bane | Source duration |
@@ -92,6 +95,17 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | **Slowed** | Speed halved, cannot take Reactions | Source duration |
 | **Stunned** | Incapacitated + cannot move | Save ends |
 | **Unconscious** | Incapacitated + prone + unaware | Healing or save |
+
+### Effects
+
+Effects resolve by tier, never a second roll. Card text defines which tiers carry which effect. One roll resolves both damage and effect.
+
+| Effect | Meaning |
+|--------|---------|
+| **Push X** | Move the target X feet away from you |
+| **Slide X** | Move the target X feet in any direction |
+| **Trip** | The target falls Prone |
+| **Lift X** | Raise the target X feet; Restrained while held |
 
 ### Morale Checks (3d6, no modifiers)
 
@@ -130,6 +144,8 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | **Physical** | Slashing, Piercing, Bludgeoning |
 | **Elemental** | Fire, Cold, Lightning, Acid, Poison, Thunder |
 | **Magical** | Force, Radiant, Necrotic, Psychic |
+
+**Resistance** halves damage (round down). **Vulnerability** doubles damage.
 
 {{< pagebreak >}}
 
