@@ -52,7 +52,7 @@ A sword forged from a fallen star. The blade is warm to the touch and glows fain
 |-------------|--------|
 | **Weak** | 2 fire damage to all creatures in radius. |
 | **Standard** | 4 fire damage. Creatures that fail a Fortitude save are Blinded until end of your next turn. |
-| **Strong** | 6 fire damage. Creatures are Blinded (no save) and take 2 ongoing fire damage until they spend an action to put out the flames. |
+| **Strong** | 6 fire damage. Creatures are Blinded (no save) and suffer Burning 2 (save ends; spending an action to put out the flames also ends it). |
 
 ### Cloak of Elvenkind
 
@@ -354,7 +354,7 @@ A crystalline vial containing a swirling, iridescent vapor that never settles. T
 |-------------|--------|
 | **Weak** | 2 damage of the chosen type to all creatures in the cone. |
 | **Standard** | 4 damage. Creatures that fail an Agility save take full damage; those that succeed take half. |
-| **Strong** | 6 damage. Creatures that fail an Agility save take full damage and suffer an ongoing 2 damage of the chosen type for 1 minute (Fortitude save ends). Those that succeed take half and suffer no ongoing effect. |
+| **Strong** | 6 damage. Creatures that fail an Agility save take full damage and suffer Burning 2 of the chosen type (Fortitude save ends). Those that succeed take half and no Burning. |
 
 The elixir's potency fades after 24 hours once opened. An unopened vial keeps indefinitely, some have been found in dragon hoards centuries old, still swirling, still waiting.
 
