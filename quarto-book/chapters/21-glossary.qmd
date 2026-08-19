@@ -42,9 +42,9 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Damage Budget:** The master table every damaging spell, ability, and maneuver keys to. Novice 2/4/6, Adept 6/9/12, Master 9/15/21 (Weak/Standard/Strong). See @sec-damage-budget.
 
-**Flat Damage:** Damage taken straight from the damage budget row with no attribute added. Arrows, thrown weapons, most spells, and all monsters use flat damage.
+**Flat Damage:** Damage taken straight from the damage budget row with no attribute added. Arrows, thrown attacks, most spells, and all monsters use flat damage.
 
-**Attribute-Scaled Damage:** Damage that adds a keyed attribute to a base value. For spells and abilities, the base is budget − 3 plus the card's stated attribute; melee weapons add Brawn (or the attack attribute).
+**Attribute-Scaled Damage:** Damage that adds a keyed attribute to a base value. For spells and abilities, the base is budget − 3 plus the card's stated attribute; attack ability cards state their attribute: melee cards add Brawn (or Agility for Finesse), missile and thrown cards add Agility.
 
 {{< pagebreak >}}
 
@@ -104,7 +104,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Damage Reduction (DR):** Subtracted from incoming physical damage. Comes from armor, shields, and some abilities.
 
-**Damage Tier:** Weak, Standard, or Strong, determines how much damage an attack deals. Weapons and spells have fixed damage values for each tier.
+**Damage Tier:** Weak, Standard, or Strong, determines how much damage an attack deals. Ability cards and spells have fixed damage values for each tier. Weapons do not carry damage.
 
 **Protection Value (PV):** A defensive bonus from shields, the Defend maneuver, and some abilities. Adds to DR or enables Shield Block.
 
