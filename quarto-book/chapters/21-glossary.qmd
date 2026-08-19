@@ -106,6 +106,16 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Damage Tier:** Weak, Standard, or Strong, determines how much damage an attack deals. Ability cards and spells have fixed damage values for each tier. Weapons do not carry damage.
 
+**Effect:** A rider on an ability, spell, or maneuver card that does something beyond damage. Effects resolve by the roll's tier, never by a second roll. One roll resolves both damage and effect. The card text states which tiers carry which effect.
+
+**Push X:** An effect that shoves the target X feet directly away from you.
+
+**Slide X:** An effect that moves the target X feet in a direction you choose.
+
+**Trip:** An effect that knocks the target Prone.
+
+**Lift X:** An effect that raises the target X feet into the air and holds them there. The target is Restrained while held.
+
 **Protection Value (PV):** A defensive bonus from shields, the Defend maneuver, and some abilities. Adds to DR or enables Shield Block.
 
 **Shield Block:** A reaction that reduces incoming damage by one tier. Requires a shield.
@@ -115,6 +125,12 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 **Concentration:** Some spells require concentration to maintain. You can only concentrate on one spell at a time (two with the Spell Weaver talent). Taking damage may break concentration.
 
 **Condition:** A temporary status effect. Blinded, Charmed, Deafened, Frightened, Grappled, Incapacitated, Invisible, Paralyzed, Poisoned, Prone, Restrained, Stunned, Unconscious.
+
+**Burning X:** Takes X fire damage per round. Save ends.
+
+**Asleep X:** Falls asleep for X minutes. Wakes on taking damage.
+
+**Confused X:** Attacks are made with a Bane; cannot take Reactions.
 
 **Morale Check:** A 3d6 roll (no modifiers) to determine whether an NPC or monster flees, wavers, or stands firm.
 
@@ -134,6 +150,10 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Thunder:** A damage type: concussive sound and shockwaves. Part of the Elemental family alongside Fire, Cold, Lightning, Acid, and Poison.
 
+**Resistance:** Halves damage of a specific type, round down. A creature resistant to Fire takes half damage from fire attacks.
+
+**Vulnerability:** Doubles damage of a specific type. A creature vulnerable to Slashing takes double damage from slashing attacks.
+
 {{< pagebreak >}}
 
 ## Magic Terms
@@ -149,6 +169,8 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 **Holy Symbol:** An item (amulet, reliquary, sacred text) that channels divine magic. Required for some spells.
 
 **Attunement:** The bond between a hero and a magic item. Maximum 3 attuned items at a time. Artifacts don't count against this limit.
+
+**Magic Item Card:** A named, unique magic item that grants a maneuver, an action, or a passive benefit. Magic items are found, not bought, and have no price. Actions granted by a magic item roll with the user's attributes.
 
 {{< pagebreak >}}
 
