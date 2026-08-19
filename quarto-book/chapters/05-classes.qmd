@@ -494,8 +494,15 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
 | **Cut Purse** | Novice | 1 Sleight | When you succeed on a Sleight check against a target | You may also steal one small item they carry without them noticing. Once per scene. |
+| **Step Through** | Novice | 1 Stealth | When you reduce an enemy to 0 HP with a melee attack | Move up to your speed without provoking reactions. |
+| **Serrated Edge** | Novice | 1 Blades | When you hit with a blades attack on a Weak result | The target takes 2 damage at the start of its next turn. |
+| **Quick Hands** | Novice | 1 Sleight | As a maneuver | Draw, stow, or retrieve a small item without spending your action. |
 | **Eviscerate** | Adept | 1 Blades, 1 Archery | When you hit the same target twice in one turn | The second hit automatically deals Strong damage (12 per the damage budget). Once per scene. |
+| **Envenom** | Adept | 1 Blades, 1 Sleight | When you hit with a melee attack on a Weak result | The target is Slowed for 1 round and takes 6 damage at the start of its next turn. |
+| **Coup de Grace** | Adept | 2 Blades | When you hit a target that is Prone or Restrained | The attack automatically deals Strong damage (12). Once per scene. |
+| **Slippery** | Adept | 1 Stealth, 1 Unarmed | When an enemy moves adjacent to you | You may immediately move up to 10 feet without provoking reactions. |
 | **Death Mark** | Master | 2 Blades, 1 Archery | When you reduce a target to 0 HP | You may immediately make a free attack against another target within reach at +1 damage tier. |
+| **Assassin's Edge** | Master | 2 Blades, 1 Stealth | When you attack from concealment or invisibility | The attack automatically deals Strong damage (21). Once per session. |
 
 **Shadow**
 
@@ -505,8 +512,12 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | **Slip Away** | Novice | 1 Stealth | As a maneuver | Move up to half your speed without provoking reactions, if you end your movement in concealment. |
 | **Shadow Stride** | Novice | 1 Stealth | When you Vanish successfully | Once per scene, you may immediately move up to 15 feet without provoking reactions. You appear in your new position when the invisibility ends. |
 | **Pick** | Novice | 1 Sleight | As an action | Open one mundane lock or disarm one simple trap. |
+| **Cut and Run** | Novice | 1 Blades | When you hit with a melee attack | Move up to 10 feet without provoking reactions. |
 | **Shadow Strike** | Adept | 1 Stealth, 1 Sleight | When you attack from Vanish invisibility | The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene. |
+| **Smoke Veil** | Adept | 1 Stealth, 1 Sleight | As an action | Grant heavy concealment in a 10-ft radius for 1 round, then you may Vanish as part of this action. |
+| **Fade** | Adept | 1 Stealth, 1 Mind | When you are hit by an attack | You may Vanish immediately, before damage is applied. Once per scene. |
 | **Ghost** | Master | 2 Stealth, 1 Mind | When you Vanish successfully on a Strong stealth result | You may remain invisible until the end of the encounter or until you attack. Your first attack from this extended Vanish deals +1 damage tier. Once per session. |
+| **Filch** | Master | 2 Stealth, 1 Sleight | As an action | Steal one carried item from a target within 30 ft without a roll. Once per session. |
 
 {{< pagebreak >}}
 
@@ -517,8 +528,15 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
 | **Interpose** | Novice | 1 Protection | When an adjacent ally is attacked | You take the hit instead. You may roll Defense to reduce the damage. |
+| **Shield Bash** | Novice | 1 Armor | When you hit with a melee attack | On a Strong result, knock the target Prone. Once per turn. |
+| **Challenge** | Novice | 1 Protection | As a maneuver | One enemy within 30 ft has Bane on attacks that do not target you until your next turn. |
+| **Vicious Riposte** | Novice | 1 Blades | When an enemy deals Weak damage to you with a melee attack | Make a free attack against it that deals Weak damage (2). Once per turn. |
 | **Immovable** | Adept | 1 Armor, 1 Protection | When an effect would push, pull, or knock you prone | You are unaffected. If the effect also dealt damage, reduce it by your Armor value. |
+| **Bulwark** | Adept | 1 Armor, 1 Protection | As an action | You and all adjacent allies gain +2 DR until the start of your next turn. |
+| **Overrun** | Adept | 1 Heavy Weapon, 1 Unarmed | When you move and attack an enemy in the same turn | The enemy is knocked Prone before you deal damage. Once per turn. |
+| **Ironhide** | Adept | 2 Armor | When you take damage | Reduce it by your Armor value, then gain +1 DR until the start of your next turn. |
 | **Hold the Line** | Master | 2 Protection, 1 Armor | As an action | For 1 minute, you cannot be moved by any effect short of a deity. Enemies adjacent to you at the start of their turn are rooted (speed 0) until they leave your reach. |
+| **Unbreakable** | Master | 2 Armor, 1 Protection | When you are reduced to 0 HP | You instead drop to 1 HP and gain 15 temporary HP. Once per session. |
 
 **Unbalanced**
 
