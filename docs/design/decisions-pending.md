@@ -35,4 +35,4 @@ How it works:
 
 | 22 | 05-classes / 09-talents-abilities | Edge of Chaos (Unbalanced signature) — "+4 bonus damage" on a Strong hit is an off-table rider (same deviation class as Elemental Weapon/Divine Favor). On a Master Strong hit (21), total = 25. Counterbalance: the d6 Backlash Table (self-damage, banes, lose maneuver). Is the +4 rider intentional (signature trade-off: power with risk) or should it be on-row (+2 or +6)? | Council (Contrarian, ch05 day) | queued | Recommended default: leave +4 (the backlash risk is a sufficient counterbalance; it is the Unbalanced's signature trade-off). Veto to change. |
 
-Last updated: 2026-08-18
+Last updated: 2026-08-19
