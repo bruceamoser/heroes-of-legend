@@ -450,8 +450,15 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
 | **Arcane Feedback** | Novice | 1 Energy | When you cast a spell and roll Strong | The spell's secondary target takes half the primary target's damage. |
+| **Raw Force** | Novice | 1 Energy | When you cast a spell and roll Weak | The spell deals Standard damage (4 per the damage budget) instead. Once per scene. |
+| **Spellburn** | Novice | 1 Fire | When you cast a spell that deals Fire damage | The target takes 2 additional damage. Once per turn. |
+| **Disrupt** | Novice | 1 Mind | When an enemy within 30 ft casts a spell | Spend your Reaction and make a Reason check. On Standard+, the spell is countered. Once per scene. |
 | **Spell Echo** | Adept | 1 Energy, 1 Mind | When an enemy within 30 ft casts a spell | You may immediately cast the same spell at Novice tier, regardless of your own Disciplines. Once per scene. |
+| **Arcane Override** | Adept | 1 Energy, 1 Mind | When an enemy within 30 ft casts a spell that targets you | Spend your Reaction and make a Reason check. On success, you choose the spell's new target. Once per scene. |
+| **Force Nova** | Adept | 2 Energy | As an action | Force erupts in a 10-ft radius. Enemies inside take 6 damage and are pushed 5 ft. Once per scene. |
 | **Overchannel** | Master | 2 Energy, 1 Fire | When you cast a Master spell | The spell deals +1 damage tier (use the row one step above on the damage budget). After casting, you gain 1 Corruption. |
+| **Spellstorm** | Master | 2 Energy, 1 Fire | When you cast a Master spell | One additional creature within 30 ft takes 9 damage of the spell's type. Once per scene. |
+| **Spell Dominance** | Master | 2 Energy, 1 Mind | When an enemy within 30 ft casts a spell | The spell is countered, and you may cast it once at Novice tier this scene. Once per session. |
 
 **Intellect**
 
@@ -460,8 +467,13 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | **Tactical Insight** | Novice | 1 Tactics | At the start of combat | Name one enemy weakness. All allies gain +1 on attacks against that enemy type for the encounter. |
 | **Field Study** | Novice | 1 Lore | When you fail a Knowledge-based skill check | You may reroll it. Once per scene. |
 | **Focused Mind** | Novice | 1 Lore | As a Maneuver | Once per scene, you may spend your Movement to gain a Boon on your next Knowledge-based check. |
+| **Assess** | Novice | 1 Tactics | As a Maneuver | Choose one enemy. The DA reveals one resistance, weakness, or special ability it has. Once per scene. |
 | **Leverage** | Adept | 1 Tactics, 1 Lore | When an ally misses an attack | The ally may reroll the miss. If the reroll hits, it deals +2 bonus damage. Once per scene. |
+| **Deduce** | Adept | 2 Lore | When you study a creature, object, or room for one minute | The DA reveals one hidden property, trap, or vulnerability. Once per scene. |
+| **Anticipate** | Adept | 1 Mind, 1 Lore | When an enemy within 30 ft declares an attack | Name the attack's target. If you're right, that ally gains +2 DR against it. Once per scene. |
 | **Perfect Recall** | Master | 2 Mind, 1 Energy | When you need information from a scene you participated in | The DA must tell you the exact words, layout, or sequence of events, to the limit of your own perception at the time. Once per session. |
+| **Master Strategist** | Master | 2 Tactics, 1 Mind | At the start of combat | All allies gain a Boon on their first attack and on their initiative roll. Once per encounter. |
+| **Encyclopedic Mind** | Master | 2 Lore, 1 Mind | When you make a Knowledge-based check | You gain a Boon on the roll, and a Weak result counts as Standard. |
 
 {{< pagebreak >}}
 
@@ -555,8 +567,15 @@ The Odd's abilities are few but strange: Improvised Solution, Wrong Context, Eve
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
 | **Improvised Solution** | Novice | No prereq | When you attempt a skill check with a skill you don't have | You roll as if you had Novice (+1) in that skill. Once per scene. (See Quick Study and Fast Learner.) |
+| **Lucky Guess** | Novice | No prereq | When you answer a question or recall a fact you couldn't know | You guess correctly, plus one wrong detail the DA invents. Once per scene. |
+| **Improvised Weapon** | Novice | No prereq | When you attack with a random object | The attack deals Standard damage (4 per the damage budget) regardless of your roll. Once per scene. |
+| **Wrong Number** | Novice | No prereq | When you roll 3d6 | Flip one die to its opposite face, so 1 becomes 6 and 6 becomes 1. Once per scene. |
 | **Wrong Context** | Adept | 2 any (different types) | When an enemy declares an action | You may force the enemy to describe their action differently. If the DA deems your version plausible, the enemy's action has Bane. Once per scene. |
+| **Plot Twist** | Adept | 2 any (different types) | When any creature rolls a Critical or Fumble | You may swap the outcome to its opposite. Once per scene. |
+| **Serendipity** | Adept | 2 any (different types) | When you search a room or container | You find one small useful item the DA hadn't placed there. Once per scene. |
 | **Everything At Once** | Master | 3 any (across 3 different types) | When you take damage | Roll 1d4. 1: you gain +4 Armor for 1 round. 2: you heal 9 HP. 3: the attacker takes the damage instead. 4: both you and the attacker take the damage. Once per session. |
+| **One-Off Wonder** | Master | 3 any (across 3 different types) | As an action | Do one impossible but small thing of your invention, within the DA's limits. Once per session. |
+| **Break the Rules** | Master | 3 any (across 3 different types) | When a rule would stop you | You may ignore that rule for this single action. Once per session. |
 
 {{< pagebreak >}}
 
