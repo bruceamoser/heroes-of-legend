@@ -51,8 +51,8 @@ A sword forged from a fallen star. The blade is warm to the touch and glows fain
 | Success Tier | Effect |
 |-------------|--------|
 | **Weak** | 2 fire damage to all creatures in radius. |
-| **Standard** | 4 fire damage. Creatures that fail a Fortitude save are Blinded until end of your next turn. |
-| **Strong** | 6 fire damage. Creatures are Blinded (no save) and suffer Burning 2 (save ends; spending an action to put out the flames also ends it). |
+| **Standard** | 4 fire damage. Creatures that fail a Fortitude check are Blinded until end of your next turn. |
+| **Strong** | 6 fire damage. Creatures are Blinded (no check) and suffer Burning 2 (spend an action to end). |
 
 ### Cloak of Elvenkind
 
@@ -91,7 +91,7 @@ Leather gloves crackling with trapped lightning. Your fingers leave faint arcs o
 | Success Tier | Effect |
 |-------------|--------|
 | **Weak** | 2 lightning damage. Target's hair stands on end. They know they were targeted. |
-| **Standard** | 4 lightning damage. Target must make a Fortitude save or lose their reaction. |
+| **Standard** | 4 lightning damage. Target must make a Fortitude check or lose their reaction. |
 | **Strong** | 6 lightning damage. Target is Stunned until end of your next turn. |
 
 ### Chalice of Shared Mercy
@@ -205,7 +205,7 @@ A longsword with a blade of pale blue ice that never melts. Condensation beads o
 | Success Tier | Effect |
 |-------------|--------|
 | **Weak** | 2 cold damage to all creatures in radius. Ground becomes slick, creatures moving through the area must make an Agility check or fall Prone. |
-| **Standard** | 4 cold damage. Creatures that fail a Fortitude save are Slowed 5 until end of your next turn. |
+| **Standard** | 4 cold damage. Creatures that fail a Fortitude check are Slowed 5 until end of your next turn. |
 | **Strong** | 6 cold damage. Creatures are Frozen 2 until end of your next turn. The area remains difficult terrain for 1 minute. |
 
 ### Thunder Maul
@@ -221,7 +221,7 @@ A massive hammer with a head of clouded silver. When it strikes, the air cracks 
 | Success Tier | Effect |
 |-------------|--------|
 | **Weak** | 6 thunder damage. Creatures in the cone are pushed 5 ft away from you. |
-| **Standard** | 9 thunder damage. Creatures are pushed 10 ft and must make a Fortitude save or be knocked Prone. |
+| **Standard** | 9 thunder damage. Creatures are pushed 10 ft and must make a Fortitude check or be knocked Prone. |
 | **Strong** | 12 thunder damage. Creatures are pushed 15 ft, knocked Prone, and Stunned until end of your next turn. |
 
 ### Shadow Thorn
@@ -248,13 +248,13 @@ A longbow of pale golden wood, warm to the touch. When drawn, the string hums wi
 
 **Passive:** Arrows fired from the Sunbow deal radiant damage instead of physical.
 
-**Granted Action, Blinding Volley (once per encounter):** You fire an arrow that erupts in a burst of blinding light at a point within range. All creatures within 10 ft of the impact point must make a Fortitude save or be Blinded.
+**Granted Action, Blinding Volley (once per encounter):** You fire an arrow that erupts in a burst of blinding light at a point within range. All creatures within 10 ft of the impact point must make a Fortitude check or be Blinded.
 
 | Success Tier | Effect |
 |-------------|--------|
 | **Weak** | Creatures in the radius are Dazzled (-1 to attack rolls) until end of your next turn. No damage. |
-| **Standard** | 2 radiant damage to all creatures in radius. Creatures that fail their save are Blinded until end of your next turn. |
-| **Strong** | 6 radiant damage. Creatures are Blinded (no save) until end of your next turn. Undead take +1 damage tier. |
+| **Standard** | 2 radiant damage to all creatures in radius. Creatures that fail their check are Blinded until end of your next turn. |
+| **Strong** | 6 radiant damage. Creatures are Blinded (no check) until end of your next turn. Undead take +1 damage tier. |
 
 ### Spellguard Shield
 
@@ -262,7 +262,7 @@ A longbow of pale golden wood, warm to the touch. When drawn, the string hums wi
 
 A shield of silvered steel inlaid with faintly glowing runes. The runes pulse softly when magic is near, a heartbeat of warning against the arcane.
 
-**Passive:** The shield functions as a standard Shield (+2 DR). You have Boon on all saving throws against spells and magical effects.
+**Passive:** The shield functions as a standard Shield (+2 DR). You have Boon on all checks against spells and magical effects.
 
 **Granted Reaction, Spell Catch (once per encounter):** When a single-target spell targets you or an ally within 5 ft, you may interpose the shield. The spell is absorbed into the shield's runes and has no effect.
 
@@ -353,8 +353,8 @@ A crystalline vial containing a swirling, iridescent vapor that never settles. T
 | Success Tier | Effect |
 |-------------|--------|
 | **Weak** | 2 damage of the chosen type to all creatures in the cone. |
-| **Standard** | 4 damage. Creatures that fail an Agility save take full damage; those that succeed take half. |
-| **Strong** | 6 damage. Creatures that fail an Agility save take full damage and suffer Burning 2 of the chosen type (Fortitude save ends). Those that succeed take half and no Burning. |
+| **Standard** | 4 damage. Creatures that fail an Agility check take full damage; those that succeed take half. |
+| **Strong** | 6 damage. Creatures that fail an Agility check take full damage and suffer Burning 2 of the chosen type (spend an action to end). Those that succeed take half and no Burning. |
 
 The elixir's potency fades after 24 hours once opened. An unopened vial keeps indefinitely, some have been found in dragon hoards centuries old, still swirling, still waiting.
 

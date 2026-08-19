@@ -74,13 +74,13 @@ The talents below are general. Any class may take any of them.
 
 ### Iron Will (Talent)
 
-**Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Save
+**Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Check
 
-**Novice:** +1 to saves against fear and charm.
+**Novice:** +1 to checks against fear and charm.
 
-**Adept:** +2 to saves against fear and charm.
+**Adept:** +2 to checks against fear and charm.
 
-**Master:** +3 to saves against fear and charm.
+**Master:** +3 to checks against fear and charm.
 
 ### Bulwark (Talent)
 

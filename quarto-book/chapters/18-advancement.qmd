@@ -173,7 +173,7 @@ Spend gold to expand your stronghold's capabilities. Each upgrade requires the b
 |---------|------|-------------|---------|
 | **Library** | 300 gp | Wizard's Tower or any stronghold | +2 to all Research actions. Contains reference works on history, arcana, and nature. |
 | **Armory** | 400 gp | Fortified Keep or any stronghold | +2 to Craft actions for weapons and armor. Weapons stored here gain +1 damage for the first round of the next siege. |
-| **Chapel** | 300 gp | Sanctum or any stronghold | +2 to Rest actions. Allies within the stronghold may reroll one failed saving throw against fear or corruption per session. |
+| **Chapel** | 300 gp | Sanctum or any stronghold | +2 to Rest actions. Allies within the stronghold may reroll one failed check against fear or corruption per session. |
 | **Workshop** | 350 gp | Any stronghold | +2 to Craft actions for gear, tools, and non-magical items. Crafting time reduced by one-third. |
 | **Walls (Reinforced)** | 500 gp | Any stronghold | Stronghold HP increased by 25. Attackers suffer -2 on all rolls to breach, climb, or bypass walls. |
 | **Secondary Stronghold Type** | 800 gp | Base stronghold established | Add the benefits of a second stronghold type. A Fortified Keep with a Library has both martial training grounds and arcane reference works. |

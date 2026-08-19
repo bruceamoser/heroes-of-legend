@@ -89,7 +89,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Adept:** Restore 6/9/12 HP.
 
-**Master:** Restore 9/15/21 HP; the healed target gains +2 on their next save.
+**Master:** Restore 9/15/21 HP; the healed target gains +2 on their next check.
 
 ### Restoration (Divine Spell)
 

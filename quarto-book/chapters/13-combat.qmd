@@ -140,7 +140,7 @@ Resistances and vulnerabilities modify damage of specific types. A creature resi
 
 ## Effects
 
-Attacks and spells can carry effects beyond damage: a shove, a slide, a trip, a lift. Effects resolve by the same roll as the damage, by the attack or casting tier, never a second roll. One roll, one tier, both outcomes. No save. Each card defines which tiers carry which effect: some push on every tier, some only on Strong, some only on Weak. Roll once, read the tier, and apply the damage and the effect together.
+Attacks and spells can carry effects beyond damage: a shove, a slide, a trip, a lift. Effects resolve by the same roll as the damage, by the attack or casting tier, never a second roll. One roll, one tier, both outcomes. No check. Each card defines which tiers carry which effect: some push on every tier, some only on Strong, some only on Weak. Roll once, read the tier, and apply the damage and the effect together.
 
 Shared effects are named so cards reference them instead of inventing new phrasing:
 
@@ -165,25 +165,25 @@ Conditions are the status effects that change how a creature behaves in combat. 
 |-----------|--------|------|
 | **Asleep X** | Unaware for X minutes | Wakes on damage |
 | **Blinded** | Attacks reduced one tier | Source duration |
-| **Burning X** | Takes X damage per round | Save ends |
-| **Charmed** | Cannot attack charmer | Save ends |
-| **Confused X** | Attacks at Bane, cannot take Reactions | Save ends |
+| **Burning X** | Takes X damage per round | Spend an action to end |
+| **Charmed** | Cannot attack charmer | Source duration |
+| **Confused X** | Attacks at Bane, cannot take Reactions | Source duration |
 | **Dazed X** | Can take only one action type per turn, for X rounds | X rounds |
 | **Dazzled** | Perception checks at Bane, cannot benefit from Boon on sight-based rolls | Source duration |
 | **Deafened** | Perception Bane | Source duration |
-| **Frightened** | Cannot approach source | Save ends |
-| **Frozen X** | Incapacitated and takes X cold damage per round | Save ends |
+| **Frightened** | Cannot approach source | Source duration |
+| **Frozen X** | Incapacitated and takes X cold damage per round | Spend an action to end |
 | **Grappled** | Speed 0 | Escape action |
 | **Incapacitated** | No actions | Source duration |
 | **Invisible** | Cannot be targeted directly | Attack/action ends |
-| **Paralyzed** | Incapacitated + auto-crit if hit | Save ends |
+| **Paralyzed** | Incapacitated + auto-crit if hit | Source duration |
 | **Petrified** | Turned to stone, incapacitated, DR +5, immune to non-magical damage | Special |
-| **Poisoned X** | Takes X poison damage per round and attacks at Bane | Save ends |
+| **Poisoned X** | Takes X poison damage per round and attacks at Bane | Spend an action to end |
 | **Prone** | Melee Boon vs you, ranged Bane | Stand up (move) |
 | **Restrained** | Speed 0, attack Bane | Escape action |
 | **Slowed X** | Speed reduced by X feet, cannot take Reactions | Source duration |
-| **Stunned** | Incapacitated + cannot move | Save ends |
-| **Unconscious** | Incapacitated + prone + unaware | Healing or save |
+| **Stunned** | Incapacitated + cannot move | Source duration |
+| **Unconscious** | Incapacitated + prone + unaware | Healing or Medicine check |
 
 {{< pagebreak >}}
 
@@ -312,7 +312,7 @@ Some injuries don't fade when the healing potion wears off. Wounds are the lasti
 | 566–599 | **Punctured Lung** | You're breathing, but every word costs. You cannot speak more than five words per round. Spellcasting requires a Fortitude check (Standard) to force the breath through. Lasts until a long rest or a Hard Medicine check. |
 | 600–633 | **Crippling Blow** | A tendon severed, a joint destroyed. The affected limb is useless. Permanent until a Master-rank Medicine check or powerful healing magic restores it. If it's a leg, you need a crutch. If it's an arm, learn to fight one-handed. |
 | 634–665 | **Shattered Spirit** | The wound is grievous, but the real damage is deeper. You gain a persistent condition chosen by the DA: haunted by the moment, gripped by phantom pain, or convinced you're already dead. All rolls suffer a Bane until you take a full day of rest in safety. |
-| 666 | **Death** | The dice have spoken. No saves. No stabilization. No last words. Your story ends here. The D666 table's capstone is not a negotiation. Close your character sheet. |
+| 666 | **Death** | The dice have spoken. No survival rolls. No stabilization. No last words. Your story ends here. The D666 table's capstone is not a negotiation. Close your character sheet. |
 
 **Healing Wounds.** Wounds persist after HP is restored. You can be at full health and still favor a cracked rib. Wounds heal at a rate of 1 per long rest. A Standard Medicine check made by you or an ally during a rest heals 1 additional wound. The body mends slowly, and some hurts never fully fade. That's the price of the life you chose.
 
@@ -350,7 +350,7 @@ Lyra sees the cultists chanting, they're building toward something. She decides 
 
 "I cast *Gust* at the closest cultist. Wind Discipline, Novice."
 
-She rolls 3d6 + Knowledge (+1) + no skill. Rolls 3, 4, 4 = 11 + 1 = 12. **Standard.** The blast of wind slams into the cultist, knocking him Prone. No save. Gust resolves by tier. The cultist goes sprawling, his chant broken. Lyra spends her Maneuver to Defend, +2 to her Defense roll.
+She rolls 3d6 + Knowledge (+1) + no skill. Rolls 3, 4, 4 = 11 + 1 = 12. **Standard.** The blast of wind slams into the cultist, knocking him Prone. No check. Gust resolves by tier. The cultist goes sprawling, his chant broken. Lyra spends her Maneuver to Defend, +2 to her Defense roll.
 
 **Round 1, Kael's Turn:**
 

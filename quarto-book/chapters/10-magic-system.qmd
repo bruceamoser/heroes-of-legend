@@ -96,7 +96,7 @@ Magic is powerful. That's the point. But there are brakes. Not to frustrate you,
 
 **Per-Session:** Master-tier spells are once per session. When you unleash a Master-rank Ember Lance or a Pillar of Light, the table should go quiet. These spells reshape encounters. They're not your default attack, they're your signature. Use them when it matters most.
 
-**Concentration:** Some ongoing spells, illusions, wards, enchantments, require concentration. You can only maintain one concentration spell at a time. If you take damage while concentrating, make a Fortitude save to hold the spell together. Concentration is about focus. Lose focus, lose the spell.
+**Concentration:** Some ongoing spells, illusions, wards, enchantments, require concentration. You can only maintain one concentration spell at a time. If you take damage while concentrating, make a Fortitude check to hold the spell together. Concentration is about focus. Lose focus, lose the spell.
 
 ::: {.callout-note}
 ## Why Limits on Master Spells?

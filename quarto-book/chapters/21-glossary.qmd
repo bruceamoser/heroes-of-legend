@@ -126,7 +126,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Condition:** A temporary status effect. Blinded, Charmed, Deafened, Frightened, Grappled, Incapacitated, Invisible, Paralyzed, Prone, Restrained, Stunned, Unconscious.
 
-**Burning X:** Takes X fire damage per round. Save ends.
+**Burning X:** Takes X fire damage per round. Spend an action to end.
 
 **Asleep X:** Falls asleep for X minutes. Wakes on taking damage.
 
@@ -134,9 +134,9 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Dazed X:** Can take only one action type per turn, for X rounds.
 
-**Frozen X:** Incapacitated and takes X cold damage per round. Save ends.
+**Frozen X:** Incapacitated and takes X cold damage per round. Spend an action to end.
 
-**Poisoned X:** Takes X poison damage per round and attacks at Bane. Save ends.
+**Poisoned X:** Takes X poison damage per round and attacks at Bane. Spend an action to end.
 
 **Slowed X:** Speed reduced by X feet; cannot take Reactions.
 

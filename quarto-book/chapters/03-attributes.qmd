@@ -109,7 +109,7 @@ The door shudders. Roric's muscles cord, his boots skid on the stone, and the do
 
 ### Fortitude in Play
 
-Lyra, the halfling Odd, has been bitten by a venomous spider. The venom is working through her system, the DA calls for a Fortitude save.
+Lyra, the halfling Odd, has been bitten by a venomous spider. The venom is working through her system, the DA calls for a Fortitude check.
 
 **The roll:** 3d6 + Fortitude (+0). Lyra rolls 5, 2, 3 = 10. **Standard.**
 
