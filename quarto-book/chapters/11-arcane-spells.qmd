@@ -121,7 +121,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 ## Arcane Spells
 
 ### Ember Lance (Arcane Spell)
-**Disciplines:** 1 Fire · **Action:** Action · **Range:** 30 ft · **Keywords:** Piercing, Recurring
+**Disciplines:** 1 Fire · **Action:** Action · **Range:** 30 ft · **Keywords:** Piercing, Burning
 
 **Weak:** 2 fire damage.
 
@@ -131,10 +131,10 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Adept:** 6/9/12 fire damage, Piercing 2.
 
-**Master:** 9/15/21 fire damage, Piercing 3; leaves a burning patch (Recurring 2, 3 rounds).
+**Master:** 9/15/21 fire damage, Piercing 3; leaves a burning patch (Burning 2).
 
 ### Brimstone Burst (Arcane Spell)
-**Disciplines:** 2 Fire · **Action:** Action · **Range:** 20-ft radius · **Keywords:** Recurring
+**Disciplines:** 2 Fire · **Action:** Action · **Range:** 20-ft radius · **Keywords:** Burning
 
 **Weak:** 6 fire damage to all in the radius (Agility or Dodge rank resists).
 
@@ -144,7 +144,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Adept:** 6/9/12 fire damage to all, center +3.
 
-**Master:** 9/15/21 fire damage to all; the ground burns (Recurring 4, 2 rounds).
+**Master:** 9/15/21 fire damage to all; the ground burns (Burning 4).
 
 ### Wall of Cinders (Arcane Spell)
 **Disciplines:** 2 Fire · **Action:** Action · **Range:** 30-ft wall · **Keywords:** None
@@ -177,7 +177,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Weak:** 2 cold damage.
 
-**Standard:** 4 cold damage; the target's Movement is halved for 1 turn.
+**Standard:** 4 cold damage; the target is Slowed for 1 turn.
 
 **Strong:** 6 cold damage; the target is Slowed.
 
@@ -303,15 +303,15 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 **Master:** 9/15/21 bludgeoning damage; 15-ft radius.
 
 ### Gust (Arcane Spell)
-**Disciplines:** 1 Wind · **Action:** Action · **Range:** 30 ft · **Keywords:** Prone
+**Disciplines:** 1 Wind · **Action:** Action · **Range:** 30 ft · **Keywords:** Prone, Push
 
-**Weak:** No damage; push the target 5 ft.
+**Weak:** No damage; Push 5 ft.
 
-**Standard:** Push the target 10 ft.
+**Standard:** Push 10 ft.
 
-**Strong:** Push the target 15 ft; the target is Prone.
+**Strong:** Push 15 ft; the target is Prone.
 
-**Adept:** Push the target 20 ft.
+**Adept:** Push 20 ft.
 
 **Master:** Push up to three targets 30 ft.
 
@@ -348,13 +348,13 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 **Master:** 9/15/21 force damage, three darts.
 
 ### Force Wave (Arcane Spell)
-**Disciplines:** 2 Energy · **Action:** Action · **Range:** 15-ft cone · **Keywords:** Prone
+**Disciplines:** 2 Energy · **Action:** Action · **Range:** 15-ft cone · **Keywords:** Prone, Push
 
-**Weak:** 6 force damage; push targets 5 ft (Agility or Dodge rank resists).
+**Weak:** 6 force damage; Push 5 ft (Agility or Dodge rank resists).
 
-**Standard:** 9 force damage; push targets 10 ft.
+**Standard:** 9 force damage; Push 10 ft.
 
-**Strong:** 12 force damage; push targets 15 ft; targets are Prone.
+**Strong:** 12 force damage; Push 15 ft; targets are Prone.
 
 **Adept:** 6/9/12 force damage.
 
