@@ -155,9 +155,9 @@ Kael is a dwarf Blade: a shadow on the wall, the last face his enemies see. He s
 
 *Kael rolls:* "Four, three, five. That's twelve. My **Brawn** is +1. Total is thirteen."
 
-**Morgan:** "Thirteen is Standard. Your longsword's Standard damage is 3, plus your Brawn: 4."
+**Morgan:** "Thirteen is Standard. Your longsword's Standard damage is 2, plus your Brawn: 3."
 
-**Morgan:** "Crude leather armor. That's 4, reduced to 3."
+**Morgan:** "Crude leather armor. DR 1. That's 3, reduced to 2."
 
 **Morgan:** "Your blade finds its mark. The chieftain staggers backward, eyes wide. Nobody's made him bleed in years. The remaining goblins go quiet. Their champion just took a hit that would have killed any of them. For one breath, the whole room is still."
 
