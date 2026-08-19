@@ -18,7 +18,9 @@ The tables in this chapter list weapons by required Disciplines, armor by damage
 
 ## Weapons
 
-Weapons don't deal damage on their own. Your attack ability cards carry the Weak, Standard, and Strong damage values (see @sec-chapter-talents-abilities). A weapon's Disciplines gate which attack ability cards you can take, not how hard they hit. The 3d6 attack roll determines how well you struck. No separate damage dice.
+A weapon is a promise your hero makes about who they are. The longsword on the hip, the twin daggers, the greataxe that will not fit through doorways, each one says something about the person carrying it. What a weapon does not do is decide how hard you hit. Discipline is permission: the Disciplines you have trained grant the attack ability cards you can take. Equipment is possession: the weapon in your hand is just the thing that happens to be there. Cards are damage: your attack ability cards carry the Weak, Standard, and Strong values (see @sec-chapter-talents-abilities), and the 3d6 attack roll decides which one you land. No separate damage dice.
+
+Pick the weapon that fits your hero, not the one that looks best on paper. They all hit the same; you are the one doing the hitting.
 
 | Weapon | Disciplines Required | Properties | Cost |
 |--------|---------------------|-----------|------|
@@ -51,11 +53,11 @@ Melee attacks add your Brawn to the damage row on your attack ability card; Fine
 :::
 
 ::: {.callout-note}
-## Discipline Combinations, Build Your Fighting Style
+## Discipline Combinations, Name Your Style
 
-Weapons don't just require more of the same Discipline, they require specific combinations. A Longsword needs *2 Blades*. A Greatsword needs *2 Blades + 1 Heavy Weapon*. Your Discipline choices define which attack ability cards you can take, not how hard they hit. A Greatsword (2 Blades + 1 Heavy Weapon) qualifies you for heavy attack cards; a Dagger (1 Blades) does not. Your fighting style is the card ladder you can access.
+Weapons don't just require more of the same Discipline, they require specific combinations. A Longsword needs *2 Blades*. A Greatsword needs *2 Blades + 1 Heavy Weapon*. Your Discipline choices describe the kind of fighter you are, and that description decides which attack ability cards you can reach. A hero with a Greatsword is a different person than a hero with a Dagger, not a bigger number. Name the style you want, then pick the combination that says it out loud. The cards you can reach are the fighting style you have chosen.
 
-**Heavy Weapon** Discipline represents training with large, two-handed weapons that rely on momentum and raw force rather than finesse. It gates access to the heaviest attack cards.
+**Heavy Weapon** Discipline represents training with large, two-handed weapons that rely on momentum and raw force rather than finesse. It opens the heaviest attack cards.
 :::
 
 **Properties:**
