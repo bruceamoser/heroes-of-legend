@@ -73,9 +73,9 @@ Attacks always hit. Say it with me: *always hit.* When you swing your weapon or 
 
 Roll 3d6 + modifiers. The total determines your damage tier:
 
-- **Weak:** Glancing blow. Apply the weapon's Weak damage value.
-- **Standard:** Solid hit. Apply Standard damage.
-- **Strong:** Devastating strike. Apply Strong damage.
+- **Weak:** Glancing blow. Apply your attack card's Weak damage.
+- **Standard:** Solid hit. Apply your attack card's Standard damage.
+- **Strong:** Devastating strike. Apply your attack card's Strong damage.
 - **Critical (three 6s):** Maximum Strong damage plus a bonus effect from the Critical table (@sec-chapter-core-resolution).
 
 That's one roll. No separate damage dice. No "did I hit?" anxiety. Roll once, read the damage, move on.
@@ -203,7 +203,7 @@ While grappling, you may use your Action to:
 
 A blade in each hand. It looks good. It *feels* good. Here's how it works.
 
-When you wield a weapon in each hand, you may attack with both as a single Action. The off-hand weapon deals damage one tier lower:
+When you wield a weapon in each hand, you may attack with both as a single Action. The off-hand attack deals damage one tier lower:
 
 | Primary Result | Off-Hand Result |
 |---------------|-----------------|
@@ -213,7 +213,7 @@ When you wield a weapon in each hand, you may attack with both as a single Actio
 
 The off-hand weapon must have the **Light** property (Dagger, Shortsword, Handaxe) unless you have the **Dual Wielder** talent, which removes that restriction.
 
-**Example:** Kael wields a longsword (primary) and shortsword (off-hand). He rolls 3d6 and lands a Standard hit, 3 damage from the longsword. The shortsword drops a tier to Weak, 2 more damage. Total: 5. Two blades, one roll, clean result.
+**Example:** Kael wields a longsword (primary) and shortsword (off-hand). He rolls 3d6 and lands a Standard hit. His Basic Melee card deals 2 on Standard, plus Brawn +1, for 3. The off-hand attack drops a tier to Weak: 1 plus Brawn +1, for 2 more. Total: 5. Two blades, one roll, clean result.
 
 {{< pagebreak >}}
 
@@ -338,7 +338,7 @@ Kael sees the Knight advancing on Roric. He moves 15 ft to flank, drawing his lo
 
 "I attack the Knight."
 
-Rolls 3d6 + Brawn (+1). Rolls 5, 4, 5 = 14 + 1 = 15. **Strong.** Longsword Strong damage: 5, plus Brawn +1 = 6. Knight's plate armor: DR 4. 6 - 4 = 2 damage. The blade finds a gap at the Knight's gorget, a thin line of blood. Not a killing blow, but the Knight knows Kael can hurt him.
+Rolls 3d6 + Brawn (+1). Rolls 5, 4, 5 = 14 + 1 = 15. **Strong.** His Basic Melee card deals 3 on Strong, plus Brawn +1 = 4. Knight's plate armor: DR 4. 4 − 4 → minimum 1 damage. The blade finds a gap at the Knight's gorget, a thin line of blood. Not a killing blow, but the Knight knows Kael can hurt him.
 
 Kael keeps his **Reaction** ready. His **Riposte** weapon maneuver (2 Blades) lets him spend his Reaction to counterattack when an enemy deals Weak damage to him.
 
@@ -364,11 +364,11 @@ Roric has been waiting. The Knight is focused on Kael. The cultists are clustere
 
 "I move to engage the Knight. Attack with my warhammer."
 
-Rolls 3d6 + Brawn (+2). Rolls 3, 3, 2 = 8 + 2 = 10. **Standard.** Warhammer Standard damage: 3, plus Brawn +2 = 5. Knight's armor: DR 4. 5 − 4 = 1 damage. The hammer rings off the Knight's breastplate, but the force behind it still draws a grunt. Roric's not done.
+Rolls 3d6 + Brawn (+2). Rolls 3, 3, 2 = 8 + 2 = 10. **Standard.** His Basic Melee card deals 2 on Standard, plus Brawn +2 = 4. Knight's armor: DR 4. 4 − 4 → minimum 1 damage. The hammer rings off the Knight's breastplate, but the force behind it still draws a grunt. Roric's not done.
 
 "Maneuver: I'm using **Menacing Glare** from Intimidation Adept." The Knight must make a Morale Check. Lyra rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. **Standard.** The Knight wavers, a Bane on his next attack.
 
-**End of Round 1.** The party has dealt 3 total damage to the Knight (Kael's 2, Roric's 1). The cultists dealt 3 to Lyra. The Knight dealt 1 to Kael (3 − 4 armor → minimum 1). Nobody is down. Everyone is engaged. The next round will be decisive.
+**End of Round 1.** The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 1). The cultists dealt 3 to Lyra. The Knight dealt 1 to Kael (3 − 4 armor → minimum 1). Nobody is down. Everyone is engaged. The next round will be decisive.
 
 **Round 2, Lyra's Turn:**
 
@@ -386,13 +386,13 @@ The Knight is wavering from Roric's Menacing Glare. Kael sees the opening.
 
 "Attack the Knight again."
 
-Rolls 3d6 + Brawn (+1). Rolls 4, 6, 5 = 15 + 1 = 16. **Strong.** Longsword Strong damage: 5, plus Brawn +1 = 6. Knight's DR: 4. 6 - 4 = 2 damage. Total damage on Knight: 5 (3 from Round 1 + 2 now). The blade slips under the Knight's pauldron, deeper this time. The Knight grunts.
+Rolls 3d6 + Brawn (+1). Rolls 4, 6, 5 = 15 + 1 = 16. **Strong.** His Basic Melee card deals 3 on Strong, plus Brawn +1 = 4. Knight's DR: 4. 4 − 4 → minimum 1 damage. Total damage on Knight: 3 (2 from Round 1 + 1 now). The blade slips under the Knight's pauldron, another thin cut. The Knight grunts.
 
 Kael uses his Maneuver to **Flurry** (Master maneuver, but wait, Kael is only Adept. He can't use Flurry). He uses **Defend** instead, +2 to his Defense roll. Smart. He's the Knight's target and he knows it.
 
 **The Knight's Morale:**
 
-The Knight has taken 5 damage, not much, but he's down to 15 HP from 20. Both cultists are wounded but standing. The party is coordinated and the Protector hasn't even been hit yet. The DA calls for a Morale Check.
+The Knight has taken 3 damage, not much, but he's down to 17 HP from 20. Both cultists are wounded but standing. The party is coordinated and the Protector hasn't even been hit yet. The DA calls for a Morale Check.
 
 Roric rolls for the Knight: 3, 2, 1 = 6. **Weak.** The Knight lowers his sword. "Enough," he growls. "You fight well. The Iron Circle withdraws." He gathers the wounded cultists and retreats into the shadows of the temple.
 
