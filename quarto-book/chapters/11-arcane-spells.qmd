@@ -177,26 +177,26 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Weak:** 2 cold damage.
 
-**Standard:** 4 cold damage; the target is Slowed for 1 turn.
+**Standard:** 4 cold damage; the target is Slowed 5 for 1 turn.
 
-**Strong:** 6 cold damage; the target is Slowed.
+**Strong:** 6 cold damage; the target is Slowed 5.
 
 **Adept:** 6/9/12 cold damage.
 
-**Master:** 9/15/21 cold damage; Frozen on Strong.
+**Master:** 9/15/21 cold damage; Frozen 2 on Strong.
 
 ### Rime Storm (Arcane Spell)
 **Disciplines:** 2 Cold · **Action:** Action · **Range:** 15-ft radius · **Keywords:** Slowed, Frozen
 
 **Weak:** 6 cold damage (Agility or Dodge rank resists).
 
-**Standard:** 9 cold damage; targets are Slowed.
+**Standard:** 9 cold damage; targets are Slowed 5.
 
-**Strong:** 12 cold damage; targets are Slowed for 2 rounds.
+**Strong:** 12 cold damage; targets are Slowed 5 for 2 rounds.
 
 **Adept:** 6/9/12 cold damage.
 
-**Master:** 9/15/21 cold damage; Frozen on Strong.
+**Master:** 9/15/21 cold damage; Frozen 2 on Strong.
 
 ### Glacial Prison (Arcane Spell)
 **Disciplines:** 2 Cold · **Action:** Action · **Range:** 30 ft · **Keywords:** Restrained, Frozen
@@ -209,7 +209,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Adept:** 6/9/12 cold damage.
 
-**Master:** 9/15/21 cold damage; Frozen instead of Restrained.
+**Master:** 9/15/21 cold damage; Frozen 2 instead of Restrained.
 
 ### Storm Javelin (Arcane Spell)
 **Disciplines:** 1 Lightning · **Action:** Action · **Range:** 60 ft · **Keywords:** Bane

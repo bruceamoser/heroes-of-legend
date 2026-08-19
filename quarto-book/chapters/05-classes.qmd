@@ -522,7 +522,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | **Serrated Edge** | Novice | 1 Blades | When you hit with a blades attack on a Weak result | The target takes 2 damage at the start of its next turn. |
 | **Quick Hands** | Novice | 1 Sleight | As a maneuver | Draw, stow, or retrieve a small item without spending your action. |
 | **Eviscerate** | Adept | 1 Blades, 1 Archery | When you hit the same target twice in one turn | The second hit automatically deals Strong damage (12 per the damage budget). Once per scene. |
-| **Envenom** | Adept | 1 Blades, 1 Sleight | When you hit with a melee attack on a Weak result | The target is Slowed for 1 round and takes 6 damage at the start of its next turn. |
+| **Envenom** | Adept | 1 Blades, 1 Sleight | When you hit with a melee attack on a Weak result | The target is Slowed 5 for 1 round and takes 6 damage at the start of its next turn. |
 | **Coup de Grace** | Adept | 2 Blades | When you hit a target that is Prone or Restrained | The attack automatically deals Strong damage (12). Once per scene. |
 | **Slippery** | Adept | 1 Stealth, 1 Unarmed | When an enemy moves adjacent to you | You may immediately move up to 10 feet without provoking reactions. |
 | **Death Mark** | Master | 2 Blades, 1 Archery | When you reduce a target to 0 HP | You may immediately make a free attack against another target within reach at +1 damage tier. |
@@ -532,7 +532,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
-| **Sap** | Novice | 1 Blades | When you attack a target that is unaware of you | Weak damage (2), but the target is dazed for 1 round. No roll to resist. |
+| **Sap** | Novice | 1 Blades | When you attack a target that is unaware of you | Weak damage (2), but the target is Dazed 1. No roll to resist. |
 | **Slip Away** | Novice | 1 Stealth | As a maneuver | Move up to half your speed without provoking reactions, if you end your movement in concealment. |
 | **Shadow Stride** | Novice | 1 Stealth | When you Vanish successfully | Once per scene, you may immediately move up to 15 feet without provoking reactions. You appear in your new position when the invisibility ends. |
 | **Pick** | Novice | 1 Sleight | As an action | Open one mundane lock or disarm one simple trap. |
@@ -569,7 +569,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | **Exploit Chaos** | Novice | No prereq | When you roll on the Edge of Chaos backlash table | You may roll twice and pick either result. |
 | **Backlash Channeling** | Novice | 1 Energy | When you take damage from your own backlash | Your next spell before the end of your next turn deals +1 damage tier. Once per turn. |
 | **Overflow** | Novice | 1 Energy | When you cast a spell and roll Strong | You take 6 damage, and that spell deals +1 damage tier. Once per turn. |
-| **Toxic Bloom** | Novice | 1 Plants | As an action | One enemy within 30 ft takes 2 damage and is Poisoned for 1 round. Once per scene. |
+| **Toxic Bloom** | Novice | 1 Plants | As an action | One enemy within 30 ft takes 2 damage and is Poisoned 2 for 1 round. Once per scene. |
 | **Volatile Surge** | Adept | 1 Energy, 1 Fire | When you cast a spell and roll Strong | The spell's area of effect doubles. Enemies in the expanded zone take half damage. Allies in the expanded zone take 2 damage. |
 | **Volatile Echo** | Adept | 1 Energy, 1 Plants | When you cast a spell and roll Weak | The spell deals Standard damage instead, and one enemy adjacent to the target takes 6 damage of the spell's type. Once per scene. |
 | **Devour** | Adept | 1 Energy, 1 Animal | As an action | One enemy within 30 ft takes 6 damage, and you heal 6 HP. Once per scene. |

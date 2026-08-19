@@ -205,8 +205,8 @@ A longsword with a blade of pale blue ice that never melts. Condensation beads o
 | Success Tier | Effect |
 |-------------|--------|
 | **Weak** | 2 cold damage to all creatures in radius. Ground becomes slick, creatures moving through the area must make an Agility check or fall Prone. |
-| **Standard** | 4 cold damage. Creatures that fail a Fortitude save are Slowed (half Speed) until end of your next turn. |
-| **Strong** | 6 cold damage. Creatures are Frozen in place (cannot move) until end of your next turn. The area remains difficult terrain for 1 minute. |
+| **Standard** | 4 cold damage. Creatures that fail a Fortitude save are Slowed 5 until end of your next turn. |
+| **Strong** | 6 cold damage. Creatures are Frozen 2 until end of your next turn. The area remains difficult terrain for 1 minute. |
 
 ### Thunder Maul
 

@@ -331,7 +331,7 @@ Allies in the light regain 3 HP.
 
 **Weak:** Creatures passing through take 2 piercing damage.
 
-**Standard:** Creatures passing through take 4 piercing damage and are Slowed.
+**Standard:** Creatures passing through take 4 piercing damage and are Slowed 5.
 
 **Strong:** Creatures passing through take 6 piercing damage and are Restrained.
 
