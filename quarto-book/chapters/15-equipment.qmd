@@ -12,55 +12,55 @@
 
 Your hero is going to need gear. A sword, some armor, a rope, a torch, a bedroll, and probably a ten-foot pole because someone at the table has read about pit traps. Equipment is the stuff between your hero and a bad day. Choose it well.
 
-The tables in this chapter list weapons by damage tier, armor by damage reduction, and adventuring gear by utility. Prices are in gold pieces (gp), the standard currency of the realms. A laborer earns about 1 gp a month. Prices vary by region and availability; the DA sets the cost in their world. Keep that in mind when you're haggling with the blacksmith. You're not just buying gear, you're spending someone's annual salary.
+The tables in this chapter list weapons by required Disciplines, armor by damage reduction, and adventuring gear by utility. Prices are in gold pieces (gp), the standard currency of the realms. A laborer earns about 1 gp a month. Prices vary by region and availability; the DA sets the cost in their world. Keep that in mind when you're haggling with the blacksmith. You're not just buying gear, you're spending someone's annual salary.
 
 {{< pagebreak >}}
 
 ## Weapons
 
-Every weapon has fixed Weak, Standard, and Strong damage values. Melee weapons add your Brawn (or another attack attribute via features like Swift Blade) to every damage result. The 3d6 attack roll already determined how well you struck. No separate damage dice.
+Weapons don't deal damage on their own. Your attack ability cards carry the Weak, Standard, and Strong damage values (see @sec-chapter-talents-abilities). A weapon's Disciplines gate which attack ability cards you can take, not how hard they hit. The 3d6 attack roll determines how well you struck. No separate damage dice.
 
-| Weapon | Disciplines Required | Damage (W/S/St) | Attribute | Cost |
-|--------|---------------------|-----------------|-----------|------|
-| Unarmed | None | 1 / 1 / 2 | + Brawn | |
-| Dagger | 1 Blades | 1 / 2 / 3 | + Brawn or Agility (Finesse) | |
-| Shortsword | 1 Blades | 2 / 3 / 4 | + Brawn or Agility (Finesse) | |
-| Longsword | 2 Blades | 2 / 3 / 5 | + Brawn | |
-| Greatsword | 2 Blades + 1 Heavy Weapon | 3 / 5 / 8 | + Brawn | |
-| Handaxe | 1 Axes | 2 / 3 / 5 | + Brawn | |
-| Battleaxe | 2 Axes | 3 / 4 / 6 | + Brawn | |
-| Greataxe | 2 Axes + 1 Heavy Weapon | 3 / 5 / 8 | + Brawn | |
-| Mace | 1 Heavy Weapon | 1 / 2 / 3 | + Brawn | |
-| Warhammer | 2 Heavy Weapon | 2 / 3 / 5 | + Brawn | |
-| Maul | 3 Heavy Weapon | 3 / 5 / 8 | + Brawn | |
-| Spear | 1 Polearms | 2 / 3 / 4 | + Brawn | |
-| Halberd | 1 Polearms | 3 / 5 / 7 | + Brawn | |
-| Throwing Dagger | 1 Blades or 1 Archery | 1 / 2 / 3 | + Brawn or Agility (Finesse) | 2 gp |
-| Shortbow | 1 Archery | 2 / 3 / 4 | | |
-| Longbow | 1 Archery | 3 / 4 / 6 | | |
-| Crossbow | 1 Archery | 3 / 5 / 7 | | |
+| Weapon | Disciplines Required | Properties | Cost |
+|--------|---------------------|-----------|------|
+| Unarmed | None | | |
+| Dagger | 1 Blades | Finesse, Light, Thrown | |
+| Shortsword | 1 Blades | Finesse, Light | |
+| Longsword | 2 Blades | Versatile | |
+| Greatsword | 2 Blades + 1 Heavy Weapon | | |
+| Handaxe | 1 Axes | Light, Thrown | |
+| Battleaxe | 2 Axes | | |
+| Greataxe | 2 Axes + 1 Heavy Weapon | | |
+| Mace | 1 Heavy Weapon | | |
+| Warhammer | 2 Heavy Weapon | | |
+| Maul | 3 Heavy Weapon | | |
+| Spear | 1 Polearms | Reach, Thrown | |
+| Halberd | 1 Polearms | Reach | |
+| Throwing Dagger | 1 Blades or 1 Archery | Finesse, Thrown | 2 gp |
+| Shortbow | 1 Archery | | |
+| Longbow | 1 Archery | | |
+| Crossbow | 1 Archery | Loading | |
 
 ::: {.callout-note}
 ## Kit Weapons
-Your class starting kit assumes training with its gear: you can wield kit weapons regardless of Discipline prerequisites (skills still matter for maneuvers).
+Your class starting kit assumes training with its gear: you can wield kit weapons regardless of Discipline prerequisites. Attack ability cards still require their listed Disciplines, wielding a kit weapon does not grant the maneuvers that require them.
 :::
 
 ::: {.callout-note}
 ## Melee Damage
-Melee weapons add your Brawn to every damage result (minimum 1). Finesse weapons use Agility instead of Brawn for attack and damage, and features like the Blade's Swift Blade may substitute Agility. Missile weapons and ammunition deal their listed flat damage.
+Melee attacks add your Brawn to the damage row on your attack ability card; Finesse weapons use Agility instead. Missile and thrown attacks add Agility. See @sec-chapter-talents-abilities for the cards and @sec-chapter-combat for the basic attack. The weapon never changes these numbers.
 :::
 
 ::: {.callout-note}
 ## Discipline Combinations, Build Your Fighting Style
 
-Weapons don't just require more of the same Discipline, they require specific combinations. A Longsword needs *2 Blades*. A Greatsword needs *2 Blades + 1 Heavy Weapon*. This means your Discipline choices define your fighting style. A warrior with 2 Blades can wield a Longsword with precision, but a Greatsword (2 Blades + 1 Heavy Weapon) requires deeper investment in the Heavy Weapon path.
+Weapons don't just require more of the same Discipline, they require specific combinations. A Longsword needs *2 Blades*. A Greatsword needs *2 Blades + 1 Heavy Weapon*. Your Discipline choices define which attack ability cards you can take, not how hard they hit. A Greatsword (2 Blades + 1 Heavy Weapon) qualifies you for heavy attack cards; a Dagger (1 Blades) does not. Your fighting style is the card ladder you can access.
 
-**Heavy Weapon** Discipline represents training with large, two-handed weapons that rely on momentum and raw force rather than finesse. It gates access to the highest damage tiers.
+**Heavy Weapon** Discipline represents training with large, two-handed weapons that rely on momentum and raw force rather than finesse. It gates access to the heaviest attack cards.
 :::
 
 **Properties:**
 
-- **Versatile**, +1 damage when wielded two-handed (Longsword only)
+- **Versatile**, can be wielded two-handed (Longsword only)
 - **Finesse**, use Agility instead of Brawn for attack and damage (Dagger, Shortsword, Throwing Dagger)
 - **Reach**, can attack targets 10 ft away (Spear, Halberd)
 - **Thrown**, can be thrown (range 20/60 ft: Dagger, Handaxe, Spear)
