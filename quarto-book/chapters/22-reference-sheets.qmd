@@ -76,25 +76,25 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 |-----------|--------|------|
 | **Asleep X** | Unconscious | X minutes or damage |
 | **Blinded** | Attacks reduced one tier | Source duration |
-| **Burning X** | Takes X damage per round | Save ends |
-| **Charmed** | Cannot attack charmer | Save ends |
-| **Confused X** | Attacks at Bane, cannot take Reactions | Save ends |
+| **Burning X** | Takes X damage per round | Spend an action to end |
+| **Charmed** | Cannot attack charmer | Source duration |
+| **Confused X** | Attacks at Bane, cannot take Reactions | Source duration |
 | **Dazed X** | Can take only one action type per turn, for X rounds | X rounds |
 | **Dazzled** | Perception checks at Bane, cannot benefit from Boon on sight-based rolls | Source duration |
 | **Deafened** | Perception Bane | Source duration |
-| **Frightened** | Cannot approach source | Save ends |
-| **Frozen X** | Incapacitated and takes X cold damage per round | Save ends |
+| **Frightened** | Cannot approach source | Source duration |
+| **Frozen X** | Incapacitated and takes X cold damage per round | Spend an action to end |
 | **Grappled** | Speed 0 | Escape action |
 | **Incapacitated** | No actions | Source duration |
 | **Invisible** | Cannot be targeted directly | Attack/action ends |
-| **Paralyzed** | Incapacitated + auto-crit if hit | Save ends |
+| **Paralyzed** | Incapacitated + auto-crit if hit | Source duration |
 | **Petrified** | Turned to stone, incapacitated, DR +5, immune to non-magical damage | Special |
-| **Poisoned X** | Takes X poison damage per round and attacks at Bane | Save ends |
+| **Poisoned X** | Takes X poison damage per round and attacks at Bane | Spend an action to end |
 | **Prone** | Melee Boon vs you, ranged Bane | Stand up (move) |
 | **Restrained** | Speed 0, attack Bane | Escape action |
 | **Slowed X** | Speed reduced by X feet, cannot take Reactions | Source duration |
-| **Stunned** | Incapacitated + cannot move | Save ends |
-| **Unconscious** | Incapacitated + prone + unaware | Healing or save |
+| **Stunned** | Incapacitated + cannot move | Source duration |
+| **Unconscious** | Incapacitated + prone + unaware | Healing or Medicine check |
 
 ### Effects
 

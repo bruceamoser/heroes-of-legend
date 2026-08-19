@@ -345,7 +345,7 @@ If the party stays, the ceiling begins to collapse. They have 3 rounds to escape
 The party emerges from the vault, wet, exhausted, and alive. Behind them, the stone doorway collapses into the river with a sound like a giant exhaling. The glyphs go dark. Whatever was down there is done.
 
 **Treasure:** If the party searched the sanctum before fleeing (or if they go back later after the water recedes), they find:
-- Kelvath's circlet, a **Circlet of the Warden** (magic item: once per day, grants +2 to a save against being moved, knocked prone, or restrained by water, wind, or earth effects)
+- Kelvath's circlet, a **Circlet of the Warden** (magic item: once per day, grants +2 to a check against being moved, knocked prone, or restrained by water, wind, or earth effects)
 - 120 gp in old imperial coin (worth double to a collector, standard to a merchant)
 - A **Waterlogged Spell Scroll**, contains one Novice spell of the DA's choice from the Arcane or Divine list
 
