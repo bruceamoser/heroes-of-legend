@@ -451,7 +451,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 |---------|------|----------|---------|--------|
 | **Arcane Feedback** | Novice | 1 Energy | When you cast a spell and roll Strong | The spell's secondary target takes half the primary target's damage. |
 | **Raw Force** | Novice | 1 Energy | When you cast a spell and roll Weak | The spell deals Standard damage (4 per the damage budget) instead. Once per scene. |
-| **Spellburn** | Novice | 1 Fire | When you cast a spell that deals Fire damage | The target takes 2 additional damage. Once per turn. |
+| **Spellburn** | Novice | 1 Fire | When you cast a spell that deals Fire damage on a Weak result | The spell deals Standard damage instead (one row up on the damage budget). Once per turn. |
 | **Disrupt** | Novice | 1 Mind | When an enemy within 30 ft casts a spell | Spend your Reaction and make a Reason check. On Standard+, the spell is countered. Once per scene. |
 | **Spell Echo** | Adept | 1 Energy, 1 Mind | When an enemy within 30 ft casts a spell | You may immediately cast the same spell at Novice tier, regardless of your own Disciplines. Once per scene. |
 | **Arcane Override** | Adept | 1 Energy, 1 Mind | When an enemy within 30 ft casts a spell that targets you | Spend your Reaction and make a Reason check. On success, you choose the spell's new target. Once per scene. |
