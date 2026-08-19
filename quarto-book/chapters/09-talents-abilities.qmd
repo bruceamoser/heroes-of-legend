@@ -138,13 +138,13 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Critical, Damage
 
-**Weak:** On a Critical, add +2 damage.
+**Weak:** On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21).
 
-**Standard:** On a Critical, add +4 damage.
+**Standard:** On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21).
 
-**Strong:** On a Critical, add +6 damage.
+**Strong:** On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21).
 
-**Adept:** On a Critical, add +9 damage.
+**Adept:** On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21), and one adjacent enemy takes 6 damage.
 
 **Master:** On a Critical, deal maximum Strong damage and roll the critical bonus twice.
 
