@@ -59,7 +59,7 @@ HP 20, DR 2. Attributes: Brawn +2, Fortitude +1, Agility -1, Guile 0, Knowledge 
 
 HP 10, DR 0. Attributes: Brawn 0, Fortitude 0, Agility +2, Guile 0, Knowledge 0, Reason 0.
 
-**Bite:** 2/4/6 + poison (Fortitude save or Poisoned condition).
+**Bite:** 2/4/6 + poison (Fortitude save or Poisoned 2).
 
 **Web (Recharge):** Ranged attack that Restrains target on hit.
 
