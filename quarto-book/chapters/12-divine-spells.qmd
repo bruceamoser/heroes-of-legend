@@ -62,7 +62,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Standard:** 3 temporary HP for 1 minute. If these temporary HP absorb a hit, the attacker takes 1 radiant damage, the light bites back.
 
-**Strong:** 4 temporary HP for 1 minute. Attacker takes 2 radiant on contact. The target also feels a surge of confidence, immune to fear for the duration.
+**Strong:** 4 temporary HP for 1 minute. Attacker takes 2 radiant on contact. The target also feels a surge of confidence, and cannot be Frightened for the duration.
 
 ### Thaumaturgy (Cantrip)
 **Disciplines:** None · **Action:** Action · **Range:** 30 ft (Up to 1 minute) · **Keywords:** Boon
@@ -157,7 +157,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Standard:** The target gains +3 DR for 2 turns.
 
-**Strong:** The target gains +4 DR for 3 turns; an attacker that hits the target takes 2 damage.
+**Strong:** The target gains +4 DR for 3 turns; an attacker that hits the target takes 2 radiant damage.
 
 **Adept:** The target gains 6/9/12 DR for 1/2/3 turns.
 
@@ -179,17 +179,17 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 ### Hallowed Ground (Divine Spell)
 
-**Disciplines:** 2 Protection · **Action:** Action · **Range:** 20-ft radius · **Keywords:** DR, Recurring
+**Disciplines:** 2 Protection · **Action:** Action · **Range:** 20-ft radius · **Keywords:** DR, Burning
 
 **Weak:** Allies inside gain +2 DR.
 
 **Standard:** Allies inside gain +3 DR.
 
-**Strong:** Allies inside gain +4 DR; undead inside take Recurring 3 damage.
+**Strong:** Allies inside gain +4 DR; undead inside take Burning 3 radiant damage.
 
 **Adept:** Allies inside gain 6/9/12 DR.
 
-**Master:** Allies inside gain 9/15/21 DR; undead inside take Recurring 9 damage.
+**Master:** Allies inside gain 9/15/21 DR; undead inside take Burning 9 radiant damage.
 
 ### Sacred Barrier (Divine Spell)
 
@@ -199,7 +199,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Standard:** Missile attacks are blocked for 2 rounds.
 
-**Strong:** Missile attacks are blocked for 3 rounds; creatures that touch the barrier are pushed back.
+**Strong:** Missile attacks are blocked for 3 rounds; creatures that touch the barrier are pushed 5 ft.
 
 **Adept:** Creatures passing through the barrier take 6/9/12 radiant damage.
 
@@ -263,7 +263,7 @@ Allies in the light regain 3 HP.
 
 **Adept:** Allies in the light also gain Boon on their next roll.
 
-**Master:** Undead and fiends take one damage tier higher from the pillar.
+**Master:** Undead and fiends take double damage from the pillar.
 
 ### Radiant Beam (Divine Spell)
 
