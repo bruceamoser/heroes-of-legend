@@ -66,7 +66,7 @@ Your 3d6 attack roll determines the damage tier:
 
 These damage values come from the damage budget table (@sec-damage-budget). There is no separate damage roll: the outcome tier of your attack roll is your damage tier. Roll once, resolve everything.
 
-Armor reduces incoming damage, every point of Armor subtracts 1 from the damage you take (minimum 1 damage from any hit). A goblin with no armor takes the full 5 from a Strong longsword strike. A knight in plate armor (DR 6) would only take the minimum 1 damage from that same blow.
+DR (Damage Reduction) subtracts from incoming damage: each point of DR negates 1 (minimum 1 damage from any hit). A hero with Brawn +2 landing a Strong longsword strike deals 5 damage (3 Strong + 2 Brawn). A goblin with no armor takes it all. A knight in plate armor (DR 6) would only take the minimum 1.
 
 ::: {.callout-tip}
 ## Why Always-Hit Makes Better Fights
@@ -84,15 +84,15 @@ This isn't about fairness or trust. It's about engagement. When the goblin swing
 
 When an NPC or monster attacks your hero, you make a **Defense Roll**. Which formula you use depends on how you defend:
 
-1. **No defensive skill:** **3d6 + Agility modifier − NPC Challenge**
-2. **Dodge:** **3d6 + Agility modifier + Dodge rank − NPC Challenge**
-3. **Parry:** **3d6 + Brawn modifier + Parry rank − NPC Challenge**
+1. **No defensive skill:** **3d6 + Agility modifier − Challenge**
+2. **Dodge:** **3d6 + Agility modifier + Dodge rank − Challenge**
+3. **Parry:** **3d6 + Brawn modifier + Parry rank − Challenge**
 
 - **Agility** is your reaction speed, your footwork, your instinct to duck.
 - **Dodge** lets you get out of the way. It adds your Dodge rank to your Agility.
 - **Parry** lets you block with a weapon or shield, which requires one in hand. It adds your Parry rank to your Brawn. A shield enables Parry and grants DR, but it never adds a roll bonus.
 - **Armor and shields** do not add to this roll. They reduce the damage you take through Damage Reduction (DR). See @sec-chapter-armor-shields.
-- **NPC Challenge** is a penalty the DA applies. A goblin might be −1 (barely a threat). A dragon might be −6 (good luck). The DA tells you the number before you roll.
+- **Challenge** is a penalty the DA applies. A goblin might be −1 (barely a threat). A dragon might be −6 (good luck). The DA tells you the number before you roll.
 
 ### Reading the Defense Result
 
@@ -142,7 +142,7 @@ Critical hits are automatic *Strong* results. Then roll a d6 for your bonus:
 | 1 | **Maximum Damage.** Deal Strong damage, then add Strong damage again. |
 | 2 | **Devastating Blow.** Target is stunned, prone, or disarmed, your choice. |
 | 3 | **Moment of Glory.** Take a Maneuver or free move immediately. |
-| 4 | **Second Wind.** Recover 4 HP or regain one expended ability. |
+| 4 | **Second Wind.** Recover 6 HP or regain one once-per-scene ability you have used. |
 | 5 | **Inspired Strike.** One ally gains a Boon on their next attack against this target. |
 | 6 | **Narrative Flourish.** Describe something epic. The DA makes it matter. |
 
@@ -152,7 +152,7 @@ Critical hits are rare. When they do, they should feel like a lightning strike. 
 
 ## Fumbles (Three Natural 1s)
 
-Snake eyes, but worse. Three 1s. Something has gone spectacularly wrong.
+Not even snake eyes. Three 1s. Something has gone spectacularly wrong.
 
 Fumbles are automatic failures. Then roll a d6 for the complication:
 
@@ -162,7 +162,7 @@ Fumbles are automatic failures. Then roll a d6 for the complication:
 | 2 | **Friendly Fire.** Nearest ally takes Weak damage from your wild swing. |
 | 3 | **Off Balance.** The next attack against you has a Boon. |
 | 4 | **Gear Damage.** Armor degrades one step. Shield cracks. Bowstring snaps. |
-| 5 | **Spell Backfire.** Take your spell's Weak damage yourself. Magic is fickle. |
+| 5 | **Spell Backfire.** Take 2 force damage yourself, or if you're not casting, your arcane focus shatters or your weapon misfires. Magic is fickle. |
 | 6 | **Narrative Twist.** The DA introduces an unexpected complication. Be creative. |
 
 Fumbles are rare, about 1 in 216 rolls, same as criticals. They should be dramatic, memorable, and occasionally hilarious. A good fumble isn't a punishment; it's a story beat.
@@ -194,10 +194,10 @@ Only roll when failure is interesting. If the hero has time, tools, and training
 
 ## Worked Examples
 
-**Kael the Blade attacks the goblin chieftain.** Kael's Brawn is +1. He rolls 4+3+5=12, then adds +1=13. *Standard.* His longsword deals 3 Standard damage, plus his Brawn: 4. The chieftain's crude leather gives Armor 1, so he takes 3 damage. The chieftain roars, he felt that one.
+**Kael the Blade attacks the goblin chieftain.** Kael's Brawn is +1. He rolls 4+3+5=12, then adds +1=13. *Standard.* His longsword deals 2 Standard damage, plus his Brawn: 3. The chieftain's crude leather gives DR 1, so he takes 2 damage. The chieftain roars, he felt that one.
 
 **Lyra the Odd identifies an ancient rune.** Knowledge +1, no skill, difficulty -2 (it's very old and partially worn). She rolls 2+4+4=10, adds +1 for Knowledge, subtracts 2 for difficulty, total 9. *Standard.* She recognizes it as Old Elvish, a warding glyph meant to keep something *in*, not out. That's concerning.
 
-**Roric the Protector charges the troll.** Rolls 6, 6, 6. *Critical!* Bonus roll: 4, Second Wind, recover 4 HP. Strong damage from his greataxe: 8. The troll's tough hide (DR 3) reduces it to 5. Still, five damage in one swing, and Roric gets his breath back. The troll's expression changes from hunger to concern.
+**Roric the Protector charges the troll.** Rolls 6, 6, 6. *Critical!* Bonus roll: 4, Second Wind, recover 6 HP. Strong damage from his greataxe: 3 + Brawn 2 = 5. The troll's tough hide (DR 3) reduces it to 2. Still, five damage in one swing before the troll shrugs it off, and Roric gets his breath back. The troll's expression changes from hunger to concern.
 
 **Makeva the Odd tries to pick a lock while guards approach.** Agility +1, Sleight of Hand Adept (+2), but it's dark (-2 difficulty) and she's rushing (-2 more). Total modifier: +1+2-2-2 = -1. She rolls 3+3+5=11, minus 1 = 10. *Standard.* The lock clicks open just as the guards' torchlight rounds the corner. She slips through the door and eases it shut behind her. Close. Very close.
