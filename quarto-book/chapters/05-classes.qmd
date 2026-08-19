@@ -333,7 +333,7 @@ The Unbalanced is a wild card, embodying chaos and unpredictability in every act
 
 **Class Discipline (L1):** Any Elemental (1) + 1 opposing Elemental (1)
 
-**Signature, Edge of Chaos:** On a Strong hit, deal +4 bonus damage but roll on the d6 Backlash Table below.
+**Signature, Edge of Chaos:** On a Strong hit, deal +1 damage tier (one row up on the damage budget) but roll on the d6 Backlash Table below.
 
 **Backlash Table (d6):**
 
