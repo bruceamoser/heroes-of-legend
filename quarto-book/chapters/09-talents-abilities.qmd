@@ -12,7 +12,7 @@
 
 Talents are passive. They change your numbers or grant a standing benefit, and they are always on. Abilities are active. Spells, weapon maneuvers, and class powers must be activated to use. Both use the card format below.
 
-Every card lists its Disciplines, Action, Range, and Keywords. The Novice effect appears as Weak, Standard, and Strong outcomes. Adept and Master additions follow. A card costs DP by tier: Novice 2 DP, Adept 4 DP, Master 8 DP. See @sec-chapter-disciplines for tier, Discipline, and cost rules. See @sec-chapter-magic-system for casting rules.
+Every card lists its Disciplines, Action, Range, and Keywords. Active cards (abilities, spells, and weapon maneuvers) resolve on a roll: the Novice effect appears as Weak, Standard, and Strong outcomes, with Adept and Master additions following. Passive cards (talents) are always on, so they list a single Novice effect, with Adept and Master additions that improve it. A card costs DP by tier: Novice 2 DP, Adept 4 DP, Master 8 DP. See @sec-chapter-disciplines for tier, Discipline, and cost rules. See @sec-chapter-magic-system for casting rules.
 
 Bonuses from different talents stack. The same talent cannot be taken more than once.
 
@@ -26,13 +26,9 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** None · **Action:** Reaction · **Range:** Self · **Keywords:** Reroll
 
-**Weak:** Once per session, reroll one natural 1.
+**Novice:** Once per session, reroll one natural 1, 2, or 3.
 
-**Standard:** Once per session, reroll one natural 1 or 2.
-
-**Strong:** Once per session, reroll one natural 1, 2, or 3.
-
-**Adept:** Once per scene, reroll one natural 1 or 2.
+**Adept:** Once per scene, reroll one natural 1, 2, or 3.
 
 **Master:** Once per scene, reroll any one die.
 
@@ -40,11 +36,7 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Reaction
 
-**Weak:** You gain one extra Reaction per round.
-
-**Standard:** You gain one extra Reaction per round.
-
-**Strong:** You gain one extra Reaction per round.
+**Novice:** You gain one extra Reaction per round.
 
 **Adept:** You gain one extra Reaction per round and +1 Initiative.
 
@@ -54,11 +46,7 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** HP
 
-**Weak:** +2 maximum HP.
-
-**Standard:** +2 maximum HP.
-
-**Strong:** +2 maximum HP.
+**Novice:** +2 maximum HP.
 
 **Adept:** +4 maximum HP.
 
@@ -68,25 +56,17 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** 1 chosen weapon Discipline · **Action:** Passive · **Range:** Self · **Keywords:** Damage
 
-**Weak:** +1 damage tier on ability cards of the chosen weapon Discipline.
+**Novice:** +1 damage tier on ability cards of the chosen weapon Discipline.
 
-**Standard:** +1 damage tier on ability cards of the chosen weapon Discipline.
+**Adept:** +2 damage tiers on ability cards of the chosen weapon Discipline.
 
-**Strong:** +1 damage tier on ability cards of the chosen weapon Discipline.
-
-**Adept:** +1 damage tier on ability cards of the chosen weapon Discipline.
-
-**Master:** +1 damage tier on ability cards of the chosen weapon Discipline.
+**Master:** +3 damage tiers on ability cards of the chosen weapon Discipline.
 
 ### Skill Focus (Talent)
 
 **Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Skill
 
-**Weak:** +1 to one skill you choose.
-
-**Standard:** +1 to one skill you choose.
-
-**Strong:** +1 to one skill you choose.
+**Novice:** +1 to one skill you choose.
 
 **Adept:** +2 to one skill you choose.
 
@@ -96,11 +76,7 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Save
 
-**Weak:** +1 to saves against fear and charm.
-
-**Standard:** +1 to saves against fear and charm.
-
-**Strong:** +1 to saves against fear and charm.
+**Novice:** +1 to saves against fear and charm.
 
 **Adept:** +2 to saves against fear and charm.
 
@@ -110,11 +86,7 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** DR, Defend
 
-**Weak:** When you take the Defend maneuver, one adjacent ally gains +1 DR until the start of your next turn.
-
-**Standard:** When you take the Defend maneuver, adjacent allies gain +1 DR until the start of your next turn.
-
-**Strong:** When you take the Defend maneuver, adjacent allies gain +2 DR until the start of your next turn.
+**Novice:** When you take the Defend maneuver, adjacent allies gain +2 DR until the start of your next turn.
 
 **Adept:** When you take the Defend maneuver, allies within 10 ft gain +2 DR until the start of your next turn.
 
@@ -124,11 +96,7 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** None · **Action:** Reaction · **Range:** Self · **Keywords:** HP
 
-**Weak:** When you drop to 0 HP, drop to 1 HP instead. Once per session.
-
-**Standard:** When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to your level. Once per session.
-
-**Strong:** When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to twice your level. Once per session.
+**Novice:** When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to twice your level. Once per session.
 
 **Adept:** You may use this twice per session.
 
@@ -138,11 +106,7 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Critical, Damage
 
-**Weak:** On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21).
-
-**Standard:** On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21).
-
-**Strong:** On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21).
+**Novice:** On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21).
 
 **Adept:** On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21), and one adjacent enemy takes 6 damage.
 
@@ -152,39 +116,27 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Spell
 
-**Weak:** Once per session, cast a Novice spell you know a second time in the same turn.
+**Novice:** Once per session, cast a Master spell you know a second time in the same turn.
 
-**Standard:** Once per session, cast an Adept spell you know a second time in the same turn.
+**Adept:** Once per scene, cast a Master spell you know a second time in the same turn.
 
-**Strong:** Once per session, cast a Master spell you know a second time in the same turn.
-
-**Adept:** Once per scene, cast a Novice or Adept spell you know a second time in the same turn.
-
-**Master:** Once per scene, cast a Master spell you know a second time in the same turn.
+**Master:** Twice per scene, cast a Master spell you know a second time in the same turn.
 
 ### Miracle Worker (Talent)
 
 **Disciplines:** None · **Action:** Reaction · **Range:** 30 ft · **Keywords:** Healing
 
-**Weak:** When an ally within 30 ft drops to 0 HP, they drop to 1 HP instead. Once per session.
+**Novice:** When an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP. Once per session.
 
-**Standard:** When an ally within 30 ft drops to 0 HP, they drop to 1 HP instead. Once per session.
+**Adept:** Once per scene, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP.
 
-**Strong:** When an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP. Once per session.
-
-**Adept:** Once per scene, when an ally within 30 ft drops to 0 HP, they drop to 1 HP instead.
-
-**Master:** Once per scene, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP.
+**Master:** Once per scene, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain their full maximum HP.
 
 ### Arcane Sensitivity (Talent)
 
 **Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Spell
 
-**Weak:** +1 to spell rolls for one Discipline you choose.
-
-**Standard:** +1 to spell rolls for one Discipline you choose.
-
-**Strong:** +1 to spell rolls for one Discipline you choose.
+**Novice:** +1 to spell rolls for one Discipline you choose.
 
 **Adept:** +2 to spell rolls for one Discipline you choose.
 
@@ -194,11 +146,7 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Spell
 
-**Weak:** Once per scene, cast a Novice spell you know a second time.
-
-**Standard:** Once per scene, cast a Novice spell you know a second time.
-
-**Strong:** Once per scene, cast an Adept spell you know a second time.
+**Novice:** Once per scene, cast an Adept spell you know a second time.
 
 **Adept:** Once per scene, cast a Novice or Adept spell you know a second time.
 
@@ -208,11 +156,7 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Spell, Area
 
-**Weak:** Once per session, a single-target spell you cast also hits one other target within 10 ft.
-
-**Standard:** Once per session, a single-target spell you cast hits all targets you choose within 15 ft.
-
-**Strong:** Once per session, a single-target spell you cast hits all targets you choose within 15 ft.
+**Novice:** Once per session, a single-target spell you cast hits all targets you choose within 15 ft.
 
 **Adept:** Once per scene, a single-target spell you cast hits all targets you choose within 15 ft.
 
@@ -222,11 +166,7 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** 1 Lore · **Action:** Passive · **Range:** Self · **Keywords:** Language
 
-**Weak:** You read and speak one additional language.
-
-**Standard:** You read and speak one additional language.
-
-**Strong:** You read and speak one additional language.
+**Novice:** You read and speak one additional language.
 
 **Adept:** You read and speak one additional language per rank of Lore you have.
 
@@ -236,25 +176,17 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** 1 Tactics · **Action:** Action · **Range:** Sight · **Keywords:** Tactics
 
-**Weak:** Once per scene, learn whether one enemy in sight is weaker, equal, or stronger than you.
+**Novice:** Once per scene, learn the relative strength of every enemy in sight and their highest attribute.
 
-**Standard:** Once per scene, learn the relative strength of every enemy in sight.
+**Adept:** Once per scene, learn the relative strength of every enemy in sight, their highest attribute, and one damage resistance or vulnerability.
 
-**Strong:** Once per scene, learn the relative strength of every enemy in sight and their highest attribute.
-
-**Adept:** Once per scene, learn the relative strength of every enemy in sight and their highest attribute.
-
-**Master:** Once per scene, learn the relative strength of every enemy in sight, their highest attribute, and one damage resistance or vulnerability.
+**Master:** Once per scene, learn the relative strength of every enemy in sight, their highest attribute, and all of their damage resistances and vulnerabilities.
 
 ### Quick Study (Talent)
 
 **Disciplines:** None · **Action:** Free · **Range:** Self · **Keywords:** Skill
 
-**Weak:** Once per session, use a skill you do not have at Novice (+1) for one check.
-
-**Standard:** Once per session, use a skill you do not have at Novice (+1) for one check.
-
-**Strong:** Once per session, use a skill you do not have at Novice (+1) for one check.
+**Novice:** Once per session, use a skill you do not have at Novice (+1) for one check.
 
 **Adept:** Once per scene, use a skill you do not have at Novice (+1) for one check.
 
@@ -264,11 +196,7 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** None · **Action:** Reaction · **Range:** Self · **Keywords:** Reroll
 
-**Weak:** Once per session, reroll any roll you just made, using fresh dice.
-
-**Standard:** Once per session, reroll any roll you just made, using fresh dice.
-
-**Strong:** Once per session, reroll any roll you just made, using fresh dice.
+**Novice:** Once per session, reroll any roll you just made, using fresh dice.
 
 **Adept:** Once per scene, reroll any roll you just made, using fresh dice.
 
@@ -278,43 +206,31 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** None · **Action:** Maneuver · **Range:** 30 ft · **Keywords:** Frightened
 
-**Weak:** Once per session, one ally within 30 ft removes one Frightened condition.
+**Novice:** Once per session, all allies within 30 ft remove one Frightened condition and gain a Boon on their next roll.
 
-**Standard:** Once per session, all allies within 30 ft remove one Frightened condition.
+**Adept:** Once per scene, all allies within 30 ft remove one Frightened condition and gain a Boon on their next roll.
 
-**Strong:** Once per session, all allies within 30 ft remove one Frightened condition and gain a Boon on their next roll.
-
-**Adept:** Once per scene, all allies within 30 ft remove one Frightened condition.
-
-**Master:** Once per scene, all allies within 30 ft remove one Frightened or Dazed condition.
+**Master:** Once per scene, all allies within 30 ft remove one Frightened or Dazed condition and gain a Boon on their next roll.
 
 ### Dangerous Gambit (Talent)
 
 **Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Damage
 
-**Weak:** Once per scene, when you roll 16 or higher, increase the damage tier of the result by one.
+**Novice:** Once per scene, when you roll 14 or higher, increase the damage tier of the result by one.
 
-**Standard:** Once per scene, when you roll 15 or higher, increase the damage tier of the result by one.
+**Adept:** Once per scene, when you roll 12 or higher, increase the damage tier of the result by one.
 
-**Strong:** Once per scene, when you roll 14 or higher, increase the damage tier of the result by one.
-
-**Adept:** Once per scene, when you roll 14 or higher, increase the damage tier of the result by one.
-
-**Master:** Twice per scene, when you roll 14 or higher, increase the damage tier of the result by one.
+**Master:** Twice per scene, when you roll 12 or higher, increase the damage tier of the result by one.
 
 ### Trap Sense (Talent)
 
 **Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Boon, Traps
 
-**Weak:** Boon on checks to detect traps.
+**Novice:** Boon on checks to detect and disarm traps.
 
-**Standard:** Boon on checks to detect traps.
+**Adept:** Boon on checks to detect and disarm traps, and you cannot be surprised by a trap.
 
-**Strong:** Boon on checks to detect and disarm traps.
-
-**Adept:** Boon on checks to detect and disarm traps.
-
-**Master:** Boon on checks to detect and disarm traps, and you cannot be surprised by a trap.
+**Master:** Boon on checks to detect and disarm traps, you cannot be surprised by a trap, and once per scene you may reroll a failed trap-related check.
 
 {{< pagebreak >}}
 
