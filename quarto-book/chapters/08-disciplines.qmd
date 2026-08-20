@@ -12,7 +12,7 @@
 
 Disciplines are the signature mechanic of *Heroes of Legend.* They're how the game knows what your hero has mastered. Not just skills, *domains of power.* Fire. Blades. Protection. The forces and forms your character has attuned to through training, study, or sheer stubborn repetition.
 
-Here's the important part: **Disciplines are prerequisites, not rolls.** You don't roll your Fire Discipline. You don't add your Blades Discipline to an attack. Disciplines are the gate, you need them to *unlock* skills, abilities, and talents. Once you've got them, they represent permanent mastery. No expiration. No forgetting.
+Here's the important part: **Disciplines are prerequisites, not rolls.** You don't roll your Fire Discipline. You don't add your Blades Discipline to an attack. Disciplines are the gate, you need them to *unlock* abilities and spells. Skills are exempt, they have no Discipline prerequisites at all (@sec-chapter-skills). Once you've got them, they represent permanent mastery. No expiration. No forgetting.
 
 {{< pagebreak >}}
 
@@ -94,20 +94,15 @@ Rare magic items may grant temporary or permanent Disciplines while attuned or w
 
 ## Disciplines as Prerequisites
 
-Skills, abilities, and talents require specific Disciplines before you can learn them. No Disciplines, no purchase. It's that simple.
+Abilities, talents, and spells require specific Disciplines before you can learn them. No Disciplines, no purchase. It's that simple. Skills are the one exception, they have no Discipline prerequisites at all (@sec-chapter-skills).
 
-| Skill/Ability | Disciplines Required | Tier |
+| Ability/Spell | Disciplines Required | Tier |
 |--------------|---------------------|------|
-| Longsword | 2 Blades | Adept |
-| Dagger | 1 Blades | Novice |
-| Greataxe | 2 Axes + 1 Heavy Weapon | Master |
 | Brimstone Burst | 2 Fire | Adept |
-| Pillar of Light | 2 Religion | Master |
-| Chain Mail | 2 Armor | Adept |
-| Shield Block | 1 Protection | Novice |
-| Animal Companion | 2 Animal | Adept |
+| Pillar of Light | 2 Religion | Adept |
+| Shield Block | 2 Armor | Adept |
 | Force Dart | 1 Energy | Novice |
-| Counterspell | 2 Energy | Adept |
+| Beast Tongue | 1 Animal | Novice |
 
 ## The Discipline Ladder
 

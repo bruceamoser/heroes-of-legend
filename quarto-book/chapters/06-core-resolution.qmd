@@ -178,11 +178,11 @@ Not every task is created equal. The DA sets a difficulty modifier based on how 
 | Modifier | Difficulty | Description |
 |----------|-----------|-------------|
 | +4 | Trivial | You've done this a hundred times. Rolling is a formality. |
-| +2 | Easier than normal | Favorable conditions. You have the high ground. |
+| +2 | Easy | Favorable conditions. You have the high ground. |
 | +0 | Standard | A fair test of your abilities. |
-| -2 | Harder than normal | Adverse conditions. It's dark. It's raining. The guards are alert. |
-| -4 | Very difficult | You're attempting something improbable. Be ready to fail. |
-| -6 | Near-impossible | The kind of thing bards write songs about, if you pull it off. |
+| -2 | Hard | Adverse conditions. It's dark. It's raining. The guards are alert. |
+| -4 | Very Hard | You're attempting something improbable. Be ready to fail. |
+| -6 | Nearly Impossible | The kind of thing bards write songs about, if you pull it off. |
 
 ::: {.callout-note}
 ## When to Roll
@@ -194,10 +194,10 @@ Only roll when failure is interesting. If the hero has time, tools, and training
 
 ## Worked Examples
 
-**Kael the Blade attacks the goblin chieftain.** Kael's Brawn is +1. He rolls 4+3+5=12, then adds +1=13. *Standard.* His longsword deals 2 Standard damage, plus his Brawn: 3. The chieftain's crude leather gives DR 1, so he takes 2 damage. The chieftain roars, he felt that one.
+**Kael the Blade attacks the goblin chieftain.** Kael's Brawn is +1. He rolls 4+3+5=12, then adds +1=13. *Standard.* His Basic Melee card deals 2 on Standard, plus Brawn +1: 3. The chieftain's crude leather gives DR 1, so he takes 2 damage. The chieftain roars, he felt that one.
 
 **Lyra the Odd identifies an ancient rune.** Knowledge +1, no skill, difficulty -2 (it's very old and partially worn). She rolls 2+4+4=10, adds +1 for Knowledge, subtracts 2 for difficulty, total 9. *Standard.* She recognizes it as Old Elvish, a warding glyph meant to keep something *in*, not out. That's concerning.
 
 **Roric the Protector charges the troll.** Rolls 6, 6, 6. *Critical!* Bonus roll: 4, Second Wind, recover 6 HP. Strong damage from his greataxe: 3 + Brawn 2 = 5. The troll's tough hide (DR 3) reduces it to 2. Still, five damage in one swing before the troll shrugs it off, and Roric gets his breath back. The troll's expression changes from hunger to concern.
 
-**Makeva the Odd tries to pick a lock while guards approach.** Agility +1, Sleight of Hand Adept (+2), but it's dark (-2 difficulty) and she's rushing (-2 more). Total modifier: +1+2-2-2 = -1. She rolls 3+3+5=11, minus 1 = 10. *Standard.* The lock clicks open just as the guards' torchlight rounds the corner. She slips through the door and eases it shut behind her. Close. Very close.
+**Makeva the Odd tries to pick a lock while guards approach.** Agility +1, Sleight of Hand Novice (+1), but it's dark (-2 difficulty) and she's rushing (-2 more). Total modifier: +1+1-2-2 = -2. She rolls 3+3+5=11, minus 2 = 9. *Standard.* The lock clicks open just as the guards' torchlight rounds the corner. She slips through the door and eases it shut behind her. Close. Very close.

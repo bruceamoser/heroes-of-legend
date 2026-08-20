@@ -34,7 +34,7 @@ On your turn, you get three things. Use them or lose them, they don't carry over
 |----------|----------|-----------------|
 | **Action** | 1 | Attack, cast a spell, activate an ability, Dash (double move) |
 | **Movement** | 1 | Move up to your Speed. Break it up, move, act, move. |
-| **Maneuver** | 1 | Basic maneuvers (Defend, Shove, etc.) or skill-granted maneuvers |
+| **Maneuver** | 1 | Basic maneuvers (Defend, Shove, etc.) or a weapon maneuver |
 | **Reaction** | 1/round | Opportunity attack, shield block, triggered abilities |
 | **Free** | Unlimited | Talk, drop an item, draw a weapon, gesture |
 
@@ -63,7 +63,7 @@ These maneuvers are free for everyone. No skill required. No Discipline check. J
 | **Stand Up** | Rise from prone. |
 | **Use Item** | Drink a potion, apply a salve, or activate a simple device. |
 
-Skill-granted maneuvers are listed on each skill's card in @sec-chapter-skills. They're typically more powerful than basics and require Adept or Master rank. You earn those. They're not free.
+Maneuvers beyond the basics are weapon maneuvers, gated by Disciplines rather than skills. See the Weapon Maneuvers section of @sec-chapter-talents-abilities for cards like Riposte and Cleave. You earn those. They're not free.
 
 {{< pagebreak >}}
 

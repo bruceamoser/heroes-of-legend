@@ -12,7 +12,7 @@
 
 Skills represent what your hero has learned to do. When the dice hit the table, your skill bonus is what separates "I tried" from "I succeeded." Every hero picks up skills in background and class training. The ones you invest in define how you solve problems: climbing a wall, reading a room, identifying a poison, or vanishing into a crowd.
 
-Here is the core loop: the DA calls for a roll. You grab 3d6. You add the attribute that matches what you are attempting. Then you add your skill bonus, +1 for Novice, +2 for Adept, +3 for Master. The DA adds or subtracts for difficulty. Compare the total to the success tiers.
+Here is the core loop: the DA calls for a roll. You grab 3d6. You add the attribute the skill is keyed to. Then you add your skill bonus, +1 for Novice, +2 for Adept, +3 for Master. The DA adds or subtracts for difficulty. Compare the total to the success tiers.
 
 **Skills add +1/+2/+3 to rolls. Disciplines gate weapons, spells, and abilities; skills gate nothing.** If you want to swing a greatsword, you need the right weapon Disciplines (@sec-chapter-disciplines), not a skill. A skill never unlocks a weapon, a spell, or an ability. It simply adds to a roll you are already allowed to make.
 
@@ -28,7 +28,7 @@ Skills come in three tiers. Each tier raises your bonus on rolls made with that 
 | **Adept** | +2 | 4 DP |
 | **Master** | +3 | 8 DP |
 
-All skills cost the same for every class: Novice 2 DP, Adept 4 DP, Master 8 DP. Skills have no Discipline prerequisites, and they gate nothing. A Blade and an Arcanist pay the same 2 DP for Novice Athletics, and either can learn any skill on the list. Disciplines never block a skill; they gate the weapons, spells, and abilities that skills do not touch.
+All skills cost the same for every class: Novice 2 DP, Adept 4 DP, Master 8 DP. A Blade and an Arcanist pay the same 2 DP for Novice Athletics, and either can learn any skill on the list.
 
 {{< pagebreak >}}
 
@@ -71,15 +71,15 @@ Roll when failure is interesting. Roll when the outcome is uncertain. Roll when 
 
 Makeva Quickfoot, a halfling Odd, is trying to pick the lock on a merchant's strongbox while the merchant is distracted at the front of the shop.
 
-**The setup:** Makeva has Agility +1 and Thievery at Adept (+2). The DA rules this is Hard difficulty (-2), the lock is quality dwarven work, and she's working fast. Total modifiers: +1 (Agility) +2 (skill) -2 (difficulty) = +1.
+**The setup:** Makeva has Agility +1 and Thievery at Novice (+1). The DA rules this is Hard difficulty (-2): the lock is quality dwarven work, and she's working fast. Total modifiers: +1 (Agility) +1 (skill) -2 (difficulty) = 0.
 
 She rolls 3d6. Let's look at three possible outcomes:
 
-**Result A, She rolls 4, 2, 3 (total 9 + 1 = 10, Standard):** The lock clicks open with a soft *snick.* She slips the strongbox open, pockets the ledger inside, and closes it again. The merchant hasn't noticed a thing. Clean. Professional.
+**Result A, She rolls 4, 2, 3 (total 9, Standard):** The lock clicks open with a soft *snick.* She slips the strongbox open, pockets the ledger inside, and closes it again. The merchant hasn't noticed a thing. Clean. Professional.
 
-**Result B, She rolls 5, 6, 4 (total 15 + 1 = 16, Strong):** The lock practically opens itself. Not only does she get the ledger, but she spots a false bottom in the strongbox, a pouch of uncut gems the merchant wasn't declaring to the tax collector. Bonus loot, and bonus leverage if she ever needs it.
+**Result B, She rolls 5, 6, 4 (total 15, Strong):** The lock practically opens itself. Not only does she get the ledger, but she spots a false bottom in the strongbox, a pouch of uncut gems the merchant wasn't declaring to the tax collector. Bonus loot, and bonus leverage if she ever needs it.
 
-**Result C, She rolls 1, 2, 2 (total 5 + 1 = 6, Weak):** The lockpick snaps. The strongbox is still locked, and now there's a piece of metal visibly wedged in the mechanism. She got the ledger, barely, but the merchant is going to know someone tampered with his box the moment he checks it. The DA makes a note: *the town guard will be asking questions tomorrow.*
+**Result C, She rolls 1, 2, 2 (total 5, Weak):** She gets the ledger out, barely, but the lockpick snaps inside the mechanism, leaving a piece of metal visibly wedged in the lock. The DA makes a note: *the town guard will be asking questions tomorrow.*
 
 Same skill. Same modifiers. Three different stories, all driven by the dice.
 
@@ -87,7 +87,7 @@ Same skill. Same modifiers. Three different stories, all driven by the dice.
 
 Kael, a dwarf Blade, wants to put a longsword through a bandit captain. The longsword is not a skill. It is a weapon, and weapons are gated by Disciplines. Kael has 2 Blades Disciplines, which the longsword requires, so he may use it at all. His skill bonus does not enter the attack.
 
-Now Kael wants to shove a heavy crate off a collapsing ledge to buy the party time. That is Athletics. Kael has Brawn +1 and Athletics at Adept (+2). The DA sets Hard difficulty (-2). He rolls 3d6 + 1 + 2 - 2. The +2 from Athletics makes the shove far more likely to land, but it did not grant him permission to try. Any hero may attempt a skill. A Discipline decides whether you may use a weapon, spell, or ability at all.
+Now Kael wants to shove a heavy crate off a collapsing ledge to buy the party time. That is Athletics. Kael has Brawn +1 and Athletics at Novice (+1). The DA sets Hard difficulty (-2). He rolls 3d6 + 1 + 1 - 2. The +1 from Athletics makes the shove a little more likely to land, but it did not grant him permission to try. Any hero may attempt a skill. A Discipline decides whether you may use a weapon, spell, or ability at all.
 
 {{< pagebreak >}}
 

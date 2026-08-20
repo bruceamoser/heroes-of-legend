@@ -49,7 +49,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 |----------|----------|-------------|
 | **Action** | 1 | Attack, cast a spell, Dash (double move), activate ability |
 | **Movement** | 1 | Move up to Speed (usually 30 ft). Break up: move → act → move. |
-| **Maneuver** | 1 | Basic maneuvers or skill-granted maneuvers |
+| **Maneuver** | 1 | Basic maneuvers or a weapon maneuver |
 | **Reaction** | 1/round | Shield Block, opportunity attack, Counterspell, Riposte |
 | **Free** | Unlimited | Talk, draw weapon, drop item, gesture |
 

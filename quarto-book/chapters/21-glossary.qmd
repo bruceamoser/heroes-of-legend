@@ -70,9 +70,9 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Novice:** The first tier of any skill or ability. Grants +1 bonus. Flat cost: 2 DP.
 
-**Adept:** The second tier. Grants +2 bonus. Unlocks a maneuver for skills. Flat cost: 4 DP. Requires Novice. Unlocks at Level 3.
+**Adept:** The second tier. Grants +2 bonus. Flat cost: 4 DP. Requires Novice. Unlocks at Level 3.
 
-**Master:** The third tier. Grants +3 bonus. Unlocks a powerful maneuver for skills. Flat cost: 8 DP. Requires Adept. Unlocks at Level 7.
+**Master:** The third tier. Grants +3 bonus. Flat cost: 8 DP. Requires Adept. Unlocks at Level 7.
 
 **Rank:** A single step of a Discipline, from 1 to 3. Cards require Discipline ranks as prerequisites: Novice 1, Adept 2, Master 3. A hero's maximum in any single Discipline is 3 ranks.
 
@@ -92,7 +92,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Action:** The main thing you do on your turn. Attack, cast a spell, activate an ability, Dash. One per turn.
 
-**Maneuver:** A secondary resource spent on basic maneuvers (Defend, Shove) or skill-granted maneuvers unlocked by Adept or Master skill rank (Riposte, Cleave). One per turn.
+**Maneuver:** A secondary resource spent on basic maneuvers (Defend, Shove) or a weapon maneuver (Riposte, Cleave), gated by Disciplines. One per turn.
 
 **Movement:** How far you can move on your turn. Usually 30 ft. Can be broken up before and after your Action.
 
