@@ -251,7 +251,7 @@ Run this as a group skill challenge. Each character makes one skill check. They 
 | Task | Skill | Difficulty |
 |------|-------|------------|
 | Pick the safest path through the mud flats | Survival (Fortitude) | Standard |
-| Spot unstable ground before someone steps on it | Perception (Knowledge or Reason) | Standard |
+| Spot unstable ground before someone steps on it | Perception (Reason) | Standard |
 | Wade the flooded sections without losing gear | Athletics (Brawn) | Standard |
 | Climb the collapsed riverbank to the door | Athletics (Brawn) | Standard (Harder, -2 if already wet) |
 | Read the flow of the new channel to find a ford | Nature (Knowledge) | Standard |
