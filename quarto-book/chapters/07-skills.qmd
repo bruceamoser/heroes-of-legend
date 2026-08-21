@@ -22,13 +22,13 @@ Here is the core loop: the DA calls for a roll. You grab 3d6. You add the attrib
 
 Skills come in three tiers. Each tier raises your bonus on rolls made with that skill.
 
-| Tier | Bonus | DP Cost |
-|------|-------|---------|
-| **Novice** | +1 | 2 DP |
-| **Adept** | +2 | 4 DP |
-| **Master** | +3 | 8 DP |
+| Tier | Bonus | DP Cost | Level Gate |
+|------|-------|---------|------------|
+| **Novice** | +1 | 2 DP | None (Level 1) |
+| **Adept** | +2 | 4 DP | Level 3 |
+| **Master** | +3 | 8 DP | Level 7 |
 
-All skills cost the same for every class: Novice 2 DP, Adept 4 DP, Master 8 DP. A Blade and an Arcanist pay the same 2 DP for Novice Athletics, and either can learn any skill on the list.
+All skills cost the same for every class: Novice 2 DP, Adept 4 DP, Master 8 DP. A Blade and an Arcanist pay the same 2 DP for Novice Athletics, and either can learn any skill on the list. As with abilities, the higher tiers unlock as you level: Adept at Level 3, Master at Level 7. Until the gate opens, everything you buy is Novice.
 
 {{< pagebreak >}}
 
@@ -46,7 +46,7 @@ When you attempt something with a meaningful chance of failure and consequence, 
 
 ### Difficulty Modifiers
 
-The DA sets difficulty based on how hard the task is in the fiction. These numbers are subtracted from (or added to) your roll.
+The DA sets difficulty based on how hard the task actually is. A quality dwarven lock is harder than a squeaky door, and the DA adjusts the modifier to say so. These numbers are subtracted from (or added to) your roll.
 
 | Difficulty | Modifier | Example Task |
 |-----------|----------|-------------|
