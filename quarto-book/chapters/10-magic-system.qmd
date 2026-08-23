@@ -34,7 +34,7 @@ One roll. Three outcomes. No separate casting check, no concentration roll, no s
 
 ## Spell Cards: Novice → Adept → Master
 
-Every spell is an **individual card**. There are no chains: you buy the spell you want, when you want it. Each card carries its Disciplines requirement, Action, Range, and Keywords, then its effects in Weak, Standard, and Strong outcomes, with Adept and Master additions on top.
+Every spell is a single growing card. You buy it at one of three tiers, Novice, Adept, or Master, and each higher tier deepens the same spell rather than replacing it. That's the Ember Lance in the table below, a Novice spark that grows into a Master-rank lance: one spell, grown. The card carries its Disciplines requirement, Action, Range, and Keywords, then its effects in Weak, Standard, and Strong outcomes, with Adept and Master additions on top.
 
 A card is bought at one of three tiers, and the tier sets both the cost and the effect row:
 
@@ -52,7 +52,7 @@ A Novice card bought up to Adept rank uses the Adept row (6/9/12). Bought to Mas
 
 Spell tiers have **level gates** in addition to Discipline prerequisites. **Adept-tier spells require character level 3. Master-tier spells require level 7.** Novice spells have no level gate. Discipline prerequisites still govern *which* Adept and Master options you can buy when the gate opens. Want to throw a Brimstone Burst at level 3? You need 2 Fire. At level 7, a Master card needs 3 Disciplines, say 2 Fire and 1 Earth. The Discipline system follows a clean progression: **Novice spells require 1 Discipline, Adept require 2, Master require 3.**
 
-At the Master tier, one additional rule applies: **no single Discipline type may exceed 3.** Every Master spell blends at least two types. A Master fire spell isn't just "more fire", it's fire and earth working together. This ensures Master spells represent broad magical mastery, not narrow specialization.
+At the Master tier, one additional rule applies: **no single Discipline type may exceed 3.** The three ranks follow the Discipline ladder (three different, two plus one, or all three the same), so a Master spell may blend types, fire and earth working together, or commit fully to a single force. This keeps Master spells a mark of earned mastery, broad or deep, never shallow repetition.
 
 There are no wildcard Discipline substitutions. Every Discipline requirement must be met with the specific Discipline named on the card. With level gates in place, Adept unlocks at level 3 and Master at level 7, giving you time to earn the specific Disciplines each tier demands.
 
@@ -94,7 +94,7 @@ Magic is powerful. That's the point. But there are brakes. Not to frustrate you,
 
 **Per-Encounter:** Adept and Master spells can only be used once per combat. You can't drop Brimstone Burst every round. Choose your moment. Make it count.
 
-**Per-Session:** Master-tier spells are once per session. When you unleash a Master-rank Ember Lance or a Pillar of Light, the table should go quiet. These spells reshape encounters. They're not your default attack, they're your signature. Use them when it matters most.
+**Per-Session:** Master-tier spells are once per session. When you unleash Ember Lance at Master rank or a 3-Discipline Master card, the table should go quiet. These spells reshape encounters. They're not your default attack, they're your signature. Use them when it matters most.
 
 **Concentration:** Some ongoing spells, illusions, wards, enchantments, require concentration. You can only maintain one concentration spell at a time. If you take damage while concentrating, make a Fortitude check to hold the spell together. Concentration is about focus. Lose focus, lose the spell.
 
