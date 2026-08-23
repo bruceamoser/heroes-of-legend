@@ -110,7 +110,7 @@ The talents below are general. Any class may take any of them.
 
 **Adept:** On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21), and one adjacent enemy takes 6 damage.
 
-**Master:** On a Critical, deal maximum Strong damage and roll the critical bonus twice.
+**Master:** On a Critical, the attack deals maximum Strong damage (21).
 
 ### Arcane Reservoir (Talent)
 
@@ -120,7 +120,7 @@ The talents below are general. Any class may take any of them.
 
 **Adept:** Once per scene, cast a Master spell you know a second time in the same turn.
 
-**Master:** Twice per scene, cast a Master spell you know a second time in the same turn.
+**Master:** Twice per scene, cast a Master spell you know a second time in the same turn; the second cast deals one damage tier higher.
 
 ### Miracle Worker (Talent)
 
@@ -206,9 +206,9 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** None · **Action:** Maneuver · **Range:** 30 ft · **Keywords:** Frightened
 
-**Novice:** Once per session, all allies within 30 ft remove one Frightened condition and gain a Boon on their next roll.
+**Novice:** Once per session, all allies within 30 ft remove Frightened and gain a Boon on their next roll.
 
-**Adept:** Once per scene, all allies within 30 ft remove one Frightened condition and gain a Boon on their next roll.
+**Adept:** Once per scene, all allies within 30 ft remove Frightened and gain a Boon on their next roll.
 
 **Master:** Once per scene, all allies within 30 ft remove one Frightened or Dazed condition and gain a Boon on their next roll.
 
@@ -340,7 +340,7 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 
 **Adept:** Hit all adjacent enemies for 6/9/12 damage.
 
-**Master:** Hit all adjacent enemies for 9/15/21 damage; a Strong result Prone.
+**Master:** Hit all adjacent enemies for 9/15/21 damage; on a Strong result Prone.
 
 ### Cleave (Weapon Maneuver)
 
@@ -394,9 +394,9 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 
 **Strong:** Deal 3 damage and Push 5 ft; the target is Prone.
 
-**Adept:** Deal 2/4/6 damage and Push 5 ft; a Strong result Prone.
+**Adept:** Deal 2/4/6 damage and Push 5 ft; on a Strong result Prone.
 
-**Master:** Deal 6/9/12 damage and Push 5 ft; a Strong result Prone and the target loses its Maneuver.
+**Master:** Deal 6/9/12 damage and Push 5 ft; on a Strong result Prone and the target loses its Maneuver.
 
 ### Parry (Weapon Maneuver)
 
@@ -408,9 +408,9 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 
 **Strong:** +6 DR against one attack and counterattack for 2 damage.
 
-**Adept:** +6/9/12 DR against one attack; a Strong result counterattack for 2.
+**Adept:** +6/9/12 DR against one attack; on a Strong result counterattack for 2.
 
-**Master:** +9/15/21 DR against one attack; a Strong result counterattack for 4.
+**Master:** +9/15/21 DR against one attack; on a Strong result counterattack for 4.
 
 ### Disarm (Weapon Maneuver)
 
@@ -422,9 +422,9 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 
 **Strong:** The target drops the weapon.
 
-**Adept:** The target's next two attacks with that weapon are at Bane; a Strong result drops the weapon.
+**Adept:** The target's next two attacks with that weapon are at Bane; on a Strong result drops the weapon.
 
-**Master:** The target's next two attacks with that weapon are at Bane; a Strong result drops the weapon 10 ft away.
+**Master:** The target's next two attacks with that weapon are at Bane; on a Strong result drops the weapon 10 ft away.
 
 ### Trip (Weapon Maneuver)
 
@@ -492,9 +492,9 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 
 **Strong:** +1 damage tier on your next weapon attack; the target is Prone.
 
-**Adept:** +1 damage tier on your next weapon attack; a Strong result Prone.
+**Adept:** +1 damage tier on your next weapon attack; on a Strong result Prone.
 
-**Master:** +1 damage tier on your next weapon attack; a Strong result Prone.
+**Master:** +1 damage tier on your next weapon attack; on a Strong result Prone.
 
 ### Executioner's Cut (Weapon Maneuver)
 
