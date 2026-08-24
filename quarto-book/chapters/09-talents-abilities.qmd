@@ -82,7 +82,7 @@ The talents below are general. Any class may take any of them.
 
 **Master:** +3 to checks against fear and charm.
 
-### Bulwark (Talent)
+### Guarding Stance (Talent)
 
 **Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** DR, Defend
 
@@ -98,9 +98,9 @@ The talents below are general. Any class may take any of them.
 
 **Novice:** When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to twice your level. Once per session.
 
-**Adept:** You may use this twice per session.
+**Adept:** When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to twice your level. Twice per session.
 
-**Master:** You may use this once per scene.
+**Master:** When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to twice your level. Once per scene.
 
 ### Death Blow (Talent)
 
@@ -116,11 +116,11 @@ The talents below are general. Any class may take any of them.
 
 **Disciplines:** None · **Action:** Passive · **Range:** Self · **Keywords:** Spell
 
-**Novice:** Once per session, cast a Master spell you know a second time in the same turn.
+**Novice:** Once per session, cast a Master spell you know a second time.
 
-**Adept:** Once per scene, cast a Master spell you know a second time in the same turn.
+**Adept:** Once per scene, cast a Master spell you know a second time.
 
-**Master:** Twice per scene, cast a Master spell you know a second time in the same turn; the second cast deals one damage tier higher.
+**Master:** Twice per scene, cast a Master spell you know a second time; the second cast deals one damage tier higher.
 
 ### Miracle Worker (Talent)
 
@@ -384,7 +384,7 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 
 **Master:** Reduce one attack against you by your shield DR + 9; the attacker takes 2 damage.
 
-### Shield Bash (Weapon Maneuver)
+### Shield Slam (Weapon Maneuver)
 
 **Disciplines:** 2 Armor · **Action:** Maneuver · **Range:** Melee · **Keywords:** Prone, Push
 
@@ -394,9 +394,9 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 
 **Strong:** Deal 3 damage and Push 5 ft; the target is Prone.
 
-**Adept:** Deal 2/4/6 damage and Push 5 ft; on a Strong result Prone.
+**Adept:** Deal 6/9/12 damage and Push 5 ft; on a Strong result Prone.
 
-**Master:** Deal 6/9/12 damage and Push 5 ft; on a Strong result Prone and the target loses its Maneuver.
+**Master:** Deal 9/15/21 damage and Push 5 ft; on a Strong result Prone and the target loses its Maneuver.
 
 ### Parry (Weapon Maneuver)
 
@@ -524,7 +524,7 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 
 **Master:** Throw a weapon up to 90 ft at +1 damage tier.
 
-### Overrun (Weapon Maneuver)
+### Breakthrough (Weapon Maneuver)
 
 **Disciplines:** 2 Heavy Weapon · **Action:** Action · **Range:** Melee · **Keywords:** Movement, Prone
 
