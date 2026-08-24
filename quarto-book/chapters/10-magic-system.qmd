@@ -112,12 +112,12 @@ The Veteran Adventurer
 
 ## Worked Example: Casting Brimstone Burst
 
-Lyra is an Odd with 2 Fire and 1 Energy. She's facing a cluster of goblins huddled behind a barricade. Time for a Brimstone Burst.
+Sera Ashvein is the party's Arcanist, a fire-obsessed scholar. By level 3 she has 2 Fire and 1 Energy, and Brimstone Burst is the spell she bought the moment the Adept gate opened. Now she's facing a cluster of goblins huddled behind a barricade. Time for a Brimstone Burst.
 
-**The roll:** Lyra's Knowledge is +1, and she has Arcana at rank 2 (+2). The goblins are packed tight, Standard difficulty, no modifier. She rolls 3d6: 5, 3, 4 = 12. Plus 1 (Knowledge), plus 2 (Arcana) = 15. *Strong.*
+**The roll:** Sera's Knowledge is +2, and her Arcana is Novice (+1). The goblins are packed tight, Standard difficulty, no modifier. She rolls 3d6: 5, 3, 4 = 12. Plus 2 (Knowledge), plus 1 (Arcana) = 15. *Strong.*
 
 **The effect:** Brimstone Burst's Strong damage is 12 in a 20-foot radius, with targets near the center taking 15. Everything in that circle takes 12 fire damage, 15 near the center, unless it has resistance. The goblins have no armor and no resistance. Four goblins, twelve damage each, fifteen for those near the center. The barricade, wooden, dry, catches fire. The goblins' formation collapses into screaming chaos.
 
-**The aftermath:** The Brimstone Burst is per-encounter. Lyra won't cast it again this fight. But she doesn't need to. She just cleared the room. Now she draws her dagger and lets the Protector handle cleanup while she looks for her next opening.
+**The aftermath:** The Brimstone Burst is per-encounter. Sera won't cast it again this fight. But she doesn't need to. She just cleared the room. Now she draws her dagger and lets the Protector handle cleanup while she looks for her next opening.
 
 That's how magic works in *Heroes of Legend.* No "sorry, I missed." No "I'm out of mana." Just one result and a room full of consequences.
