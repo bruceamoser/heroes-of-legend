@@ -16,7 +16,7 @@ But fire's just the beginning. Ice that freezes blood in the veins. Lightning th
 
 Arcane magic is the art of telling the universe to sit down and shut up, and making it listen. You don't ask. You don't pray. You *impose.*
 
-This chapter contains every arcane spell in the game, thirty cards in all. Each card is a single spell: a Discipline, an action, a range, and an effect that scales across Weak, Standard, and Strong, then grows at Adept and Master. Key the numbers to the damage budget (@sec-damage-budget), and cast.
+This chapter contains every arcane spell in the game: ten cantrips you know from the start, and thirty spells that each grow from Novice to Master. Every spell card carries a Discipline, an action, a range, and an effect that scales across Weak, Standard, and Strong, then deepens at Adept and Master. Key the numbers to the damage budget (@sec-damage-budget), and cast.
 
 *See @sec-chapter-magic-system for how spellcasting works.*
 
@@ -173,7 +173,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 **Master:** 9/15/21 fire damage, split across five lances.
 
 ### Frostbite Shard (Arcane Spell)
-**Disciplines:** 1 Cold · **Action:** Action · **Range:** 30 ft · **Keywords:** Slowed, Frozen
+**Disciplines:** 1 Water · **Action:** Action · **Range:** 30 ft · **Keywords:** Slowed, Frozen
 
 **Weak:** 2 cold damage.
 
@@ -186,7 +186,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 **Master:** 9/15/21 cold damage; Frozen 2 on Strong.
 
 ### Rime Storm (Arcane Spell)
-**Disciplines:** 2 Cold · **Action:** Action · **Range:** 15-ft radius · **Keywords:** Slowed, Frozen
+**Disciplines:** 2 Water · **Action:** Action · **Range:** 15-ft radius · **Keywords:** Slowed, Frozen
 
 **Weak:** 6 cold damage (Agility or Dodge rank resists).
 
@@ -199,7 +199,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 **Master:** 9/15/21 cold damage; Frozen 2 on Strong.
 
 ### Glacial Prison (Arcane Spell)
-**Disciplines:** 2 Cold · **Action:** Action · **Range:** 30 ft · **Keywords:** Restrained, Frozen
+**Disciplines:** 2 Water · **Action:** Action · **Range:** 30 ft · **Keywords:** Restrained, Frozen
 
 **Weak:** 6 cold damage.
 
@@ -212,7 +212,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 **Master:** 9/15/21 cold damage; Frozen 2 instead of Restrained.
 
 ### Storm Javelin (Arcane Spell)
-**Disciplines:** 1 Lightning · **Action:** Action · **Range:** 60 ft · **Keywords:** Bane
+**Disciplines:** 1 Wind · **Action:** Action · **Range:** 60 ft · **Keywords:** Bane
 
 **Weak:** 2 lightning damage.
 
@@ -225,7 +225,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 **Master:** 9/15/21 lightning damage; arcs to one adjacent target for half.
 
 ### Forked Sky (Arcane Spell)
-**Disciplines:** 2 Lightning · **Action:** Action · **Range:** 30 ft · **Keywords:** None
+**Disciplines:** 2 Wind · **Action:** Action · **Range:** 30 ft · **Keywords:** None
 
 **Weak:** 6 lightning damage, split across three arcs.
 
@@ -238,7 +238,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 **Master:** 9/15/21 lightning damage, split across five arcs.
 
 ### Static Field (Arcane Spell)
-**Disciplines:** 2 Lightning · **Action:** Action · **Range:** 10-ft radius · **Keywords:** None
+**Disciplines:** 2 Wind · **Action:** Action · **Range:** 10-ft radius · **Keywords:** None
 
 **Weak:** 6 lightning damage to all adjacent targets (Agility or Dodge rank resists).
 
@@ -251,7 +251,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 **Master:** 9/15/21 lightning damage; 15-ft radius.
 
 ### Corrosive Spit (Arcane Spell)
-**Disciplines:** 1 Acid · **Action:** Action · **Range:** 30 ft · **Keywords:** DR
+**Disciplines:** 1 Earth · **Action:** Action · **Range:** 30 ft · **Keywords:** DR
 
 **Weak:** 2 acid damage.
 
@@ -264,7 +264,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 **Master:** 9/15/21 acid damage, DR reduced by 3.
 
 ### Caustic Mist (Arcane Spell)
-**Disciplines:** 2 Acid · **Action:** Action · **Range:** 15-ft radius · **Keywords:** Bane on sight
+**Disciplines:** 2 Earth · **Action:** Action · **Range:** 15-ft radius · **Keywords:** Bane on sight
 
 **Weak:** 6 acid damage (Agility or Dodge rank resists).
 
@@ -277,7 +277,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 **Master:** 9/15/21 acid damage; the mist lasts 2 rounds.
 
 ### Venom Lance (Arcane Spell)
-**Disciplines:** 1 Poison · **Action:** Action · **Range:** 30 ft · **Keywords:** Bane
+**Disciplines:** 1 Plants · **Action:** Action · **Range:** 30 ft · **Keywords:** Bane
 
 **Weak:** 2 poison damage.
 
