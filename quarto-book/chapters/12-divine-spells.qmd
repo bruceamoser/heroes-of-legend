@@ -155,9 +155,9 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Weak:** The target gains +2 DR for 1 turn.
 
-**Standard:** The target gains +3 DR for 2 turns.
+**Standard:** The target gains +4 DR for 2 turns.
 
-**Strong:** The target gains +4 DR for 3 turns; an attacker that hits the target takes 2 radiant damage.
+**Strong:** The target gains +6 DR for 3 turns; an attacker that hits the target takes 2 radiant damage.
 
 **Adept:** The target gains 6/9/12 DR for 1/2/3 turns.
 
@@ -181,11 +181,11 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Disciplines:** 2 Protection · **Action:** Action · **Range:** 20-ft radius · **Keywords:** DR, Burning
 
-**Weak:** Allies inside gain +2 DR.
+**Weak:** Allies inside gain +6 DR.
 
-**Standard:** Allies inside gain +3 DR.
+**Standard:** Allies inside gain +9 DR.
 
-**Strong:** Allies inside gain +4 DR; undead inside take Burning 3 radiant damage.
+**Strong:** Allies inside gain +12 DR; undead inside take Burning 3 radiant damage.
 
 **Adept:** Allies inside gain 6/9/12 DR.
 
@@ -253,17 +253,17 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 **Disciplines:** 2 Religion · **Action:** Action · **Range:** 30-ft column · **Keywords:** Radiant
 
-**Weak:** 9 radiant damage (Agility or Dodge rank resists).
+**Weak:** 6 radiant damage (Agility or Dodge rank resists).
 
-**Standard:** 15 radiant damage.
+**Standard:** 9 radiant damage.
 
-**Strong:** 21 radiant damage.
+**Strong:** 12 radiant damage.
 
 Allies in the light regain 3 HP.
 
-**Adept:** Allies in the light also gain Boon on their next roll.
+**Adept:** 6/9/12 radiant damage; allies in the light also gain Boon on their next roll.
 
-**Master:** Undead and fiends take double damage from the pillar.
+**Master:** 9/15/21 radiant damage; undead and fiends take double damage from the pillar.
 
 ### Radiant Beam (Divine Spell)
 
