@@ -26,7 +26,7 @@ Four skills carry the weight of social encounters. Know which one fits the momen
 
 **Intimidation (Brawn):** Threats and coercion. "I wasn't asking." Works fast, burns bridges faster. The Unbalanced lives here. Everyone else visits when patience runs out.
 
-**Insight (Reason):** Reading truth from lies. Catching the twitch, the hesitation, the glance at the exit. Passive Insight is your Knowledge score + 7, that's the number the DA uses when someone's lying to you and you're not actively looking for it.
+**Insight (Reason):** Reading truth from lies. Catching the twitch, the hesitation, the glance at the exit. Passive Insight is your Knowledge score + 7, that's the number the DA uses when someone's lying to you and you're not actively looking for it. When an NPC lies to you and you're not actively contesting the claim, their Deception roll is opposed by your passive Insight.
 
 {{< pagebreak >}}
 
@@ -42,6 +42,8 @@ Every NPC your party encounters has an attitude. It's the starting point for eve
 | **Allied** | Will risk themselves for you. | No roll needed for reasonable requests. They're on your side. |
 
 Attitudes shift based on your actions, both in and out of social conflict. Insult a Friendly NPC and they drop to Neutral. Save a Hostile NPC's child and they might climb to Neutral or even Friendly. The fiction drives the numbers, not the other way around.
+
+Criticals and Fumbles follow the core rules (@sec-chapter-core-resolution): three natural 6s is an automatic Strong result, three natural 1s is an automatic failure with a serious complication.
 
 {{< pagebreak >}}
 
@@ -119,7 +121,7 @@ The party needs passage through the Ironwood, a dense forest controlled by the T
 
 ## Why Run Extended Social Conflicts
 
-The single-roll approach works fine for buying a sword or asking directions. But for moments that define the story, extended conflicts give every player a chance to contribute. The Blade might read the room with Insight. The Arcanist might use Arcana to identify the magical wards on the negotiation chamber, information that becomes a bargaining chip. The Protector might just stand there looking unstoppable, giving the party's face a +1 circumstance bonus from sheer presence.
+The single-roll approach works fine for buying a sword or asking directions. But for moments that define the story, extended conflicts give every player a chance to contribute. The Blade might read the room with Insight. The Arcanist might use Arcana to identify the magical wards on the negotiation chamber, information that becomes a bargaining chip. The Protector might just stand there looking unstoppable, and the DA grants the party's face a Boon on their next social roll from sheer presence.
 
 Let the party stack their skills. Social encounters are team efforts. The person rolling Persuasion is just the one delivering the final line, everyone else is feeding them the setup.
 
@@ -128,7 +130,7 @@ Let the party stack their skills. Social encounters are team efforts. The person
 
 In a lot of games, one player builds the "party face", max Guile, max social skills, and handles every conversation while the rest of the table checks their phones. Don't let that happen.
 
-Spread the social spotlight. The dwarf with Brawn +2 and no social skills can still contribute by standing behind the negotiator, arms crossed, looking like a wall of muscle. That's worth a +1 circumstance bonus, and it keeps the dwarf's player engaged.
+Spread the social spotlight. The dwarf with Brawn +2 and no social skills can still contribute by standing behind the negotiator, arms crossed, looking like a wall of muscle. That's worth a Boon on the negotiator's next social roll, and it keeps the dwarf's player engaged.
 
 The wizard with Knowledge +2 can drop a historical reference that earns the NPC's respect. The ranger can mention a shared enemy. Everyone has something to add. Your job as DA is to ask: "What's your character doing while they talk?" The answer might not require a roll, but it should always require attention.
 :::
