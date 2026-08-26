@@ -1,0 +1,20 @@
+# Recommendation — hol-rulebook
+
+**Verdict:** REJECT. ch13 (Combat) does not hold as written and must not be published until the disposition plan below is executed and re-verified in a clean build. (a) Mechanical fixes (safe micro-PR sweep): (1) re-derive the wound-table ranges onto the 56 achievable D666 outcomes and add a stated precedence rule so no roll matches two entries (222/333/555 are each claimed by two rows, and 600-633/634-665 contain no achievable roll at all); (2) split the wound table into two parts with repeated headers, or replace the theme's unbreakable table wrapper with a breakable one, so the table renders (the built PDF clips the worst four rows on p.216); (3) delete the hard-coded 'Table 13.x:' prefixes so Quarto's auto-numbering is the sole label (doubled captions on all four tables); (4) unify the stand-up-from-prone cost across the basic-maneuvers table, the conditions table, and the worked example (currently Maneuver / movement / half movement); (5) unify the surprise wording to first roll across the modifiers table, the surprise section, and the glossary; (6) state the minimum-1 damage floor after armor as an explicit rule instead of only showing it in the example; (7) demote the three callout-wrapped H2 headings (lines 42, 84, 444) to H3 or bold so they stop polluting the TOC; (8) delete one of the double pagebreaks at lines 333/335 that inject an orphan blank page; (9) make '## Damage Types' parse as a heading (blank line after the pagebreak at line 126, currently the only one of eighteen without one) so it returns to the TOC; (10) excise the draft residue 'but wait, Kael is only Adept' at line 411; (11) fix the art caption format (stale placeholder descriptor naming a nonexistent unit). (b) Substantive cross-chapter reconciliation (dispatched pass): (1) rewrite the worked example so every NPC figure matches the authoritative sources - Knight longsword Standard 3 to 9, Cultist Dark Bolt 3 to 4, Gust Standard is a 10 ft push not Prone - and re-derive the shared party HP ledger and summary lines as one atomic edit (Kael to 5 HP, Lyra to 6 HP); (2) resolve the three phantom cards cited but defined nowhere in the book (Flurry, Menacing Glare, Dual Wielder) by adding them or replacing the affected beats with existing cards; (3) reconcile equipment DR drift: buckler +2 in the example vs +1 in the armor/equipment chapters, and plate DR 4 in the example and bestiary vs DR 6 in the armor chapter; (4) eliminate the double implementation of Cover (defense bonus +1/+3 in one place, attacker penalty -1/-3 in another, with no cross-reference); (5) define the off-hand weapon's ability modifier for Finesse weapons (Agility, not Brawn); (6) define the Choke/suffocation state and its endpoint, which no chapter currently defines; (7) cap Deep Gash bleed-out and state its behavior at 0 HP; (8) state how Bane stacks when multiple sources apply. (c) Design decisions for Bruce (flag veto-revertible in decisions-pending.md): (1) whether defense rolls get Critical/Fumble overrides (the attack and death-save tables have them, the defense table does not); (2) the mapping of fractional Challenge values to modifiers; (3) Deep Gash bleed at 0 HP (the death-save table's stability promise contradicts an unbound bleed); (4) wound-table top-end lethality, since any re-map puts the two severest non-death rows at 3/216, three times likelier than the 1/216 death row.
+
+**Confidence:** 0.95
+
+## Per-topic outcomes
+
+- t-01: rejected
+
+## Resolved (per the librarian)
+- t-01: ch13 (Combat) was reviewed by the hol-rulebook council (7 lenses, 2 rounds, 14 findings, all refute) and REJECTED as written: the engine's rejected state holds (refute 7 >= reject_quorum 4), so no blind-judge ruling was required; the chapter must not be published until the disposition plan attached in the recommendation - mechanical micro-PR sweep, substantive cross-chapter reconciliation, and the four design decisions for Bruce - is executed and re-verified in a clean build.
+
+## Dissenting views
+
+- none recorded
+
+## Rulings applied
+
+- none
