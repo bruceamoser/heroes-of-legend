@@ -80,6 +80,8 @@ Roll 3d6 + modifiers. The total determines your damage tier:
 
 That's one roll. No separate damage dice. No "did I hit?" anxiety. Roll once, read the damage, move on.
 
+Armor (DR) subtracts from the damage a hit does, but a hit always lands for at least 1 damage. Armor makes the blow land softer, not miss.
+
 ::: {.callout-note}
 ## Why Always-Hit?
 
@@ -121,7 +123,7 @@ When you attack, a high roll means you hit hard (Strong damage). When you defend
 | +2 | **Defend** maneuver (one round) |
 | +1 to +3 | **Cover** (half to three-quarters) |
 | −1 to −6 | **NPC Challenge** (DA sets based on enemy skill) |
-| −2 | **Surprised** (first round only) |
+| −2 | **Surprised** (first roll) |
 
 {{< pagebreak >}}
 
@@ -180,7 +182,7 @@ Conditions are the status effects that change how a creature behaves in combat. 
 | **Paralyzed** | Incapacitated + auto-crit if hit | Source duration |
 | **Petrified** | Turned to stone, incapacitated, DR +5, immune to non-magical damage | Special |
 | **Poisoned X** | Takes X poison damage per round and attacks at Bane | Spend an action to end |
-| **Prone** | Melee Boon vs you, ranged Bane | Stand up (move) |
+| **Prone** | Melee Boon vs you, ranged Bane | Stand up (maneuver) |
 | **Restrained** | Speed 0, attack Bane | Escape action |
 | **Slowed X** | Speed reduced by X feet, cannot take Reactions | Source duration |
 | **Stunned** | Incapacitated + cannot move | Source duration |
@@ -232,9 +234,9 @@ When you wield a weapon in each hand, you may attack with both as a single Actio
 | Standard | Weak |
 | Weak | 1 damage |
 
-The off-hand weapon must have the **Light** property (Dagger, Shortsword, Handaxe) unless you have the **Dual Wielder** talent, which removes that restriction.
+The off-hand weapon must have the **Light** property (Dagger, Shortsword, Handaxe). Two-weapon fighting uses your basic Attack action; the off-hand swing is just the same action with a second, weaker blow.
 
-**Example:** Kael wields a longsword (primary) and shortsword (off-hand). He rolls 3d6 and lands a Standard hit. His Basic Melee card deals 2 on Standard, plus Brawn +1, for 3. The off-hand attack drops a tier to Weak: 1 plus Brawn +1, for 2 more. Total: 5. Two blades, one roll, clean result.
+**Example:** Kael wields a longsword (primary) and shortsword (off-hand). He rolls 3d6 and lands a Standard hit. His Basic Melee card deals 2 on Standard, plus Brawn +1, for 3. The off-hand attack drops a tier to Weak: the shortsword is Finesse, so it adds Agility +2, 1 plus 2, for 3 more. Total: 6. Two blades, one roll, clean result.
 
 {{< pagebreak >}}
 
@@ -300,20 +302,22 @@ Some injuries don't fade when the healing potion wears off. Wounds are the lasti
 | D666 | Wound | Effect |
 |------|-------|--------|
 | 111 | **Lucky Scrape** | A glancing blow that leaves a dramatic but harmless scar. You look like you survived something terrible. +1 on your next social roll with anyone impressed by scars. No mechanical penalty. |
-| 112–199 | **Bruised Rib** | Something cracked but didn't break. −1 on your next Brawn-based roll from the sharp ache. Fades after that roll. |
-| 200–265 | **Blood in the Eyes** | A scalp wound bleeds into your vision. −1 on your next attack roll until you spend a Maneuver to wipe it clear. |
+| 112–126 | **Bruised Rib** | Something cracked but didn't break. −1 on your next Brawn-based roll from the sharp ache. Fades after that roll. |
+| 133–166 | **Blood in the Eyes** | A scalp wound bleeds into your vision. −1 on your next attack roll until you spend a Maneuver to wipe it clear. |
 | 222 | **Marked** | The wound leaves a mark that doesn't look natural. Animals growl at you. Superstitious folk make signs against evil. No mechanical penalty, but the DA now has a permanent hook. |
-| 266–299 | **Twisted Ankle** | Your footing betrays you. Speed reduced by 5 ft for the remainder of the encounter. |
-| 300–365 | **Deep Gash** | A wound that won't stop bleeding. Take 1 damage at the start of each turn until you or an ally spends an Action and makes a Standard Medicine check to bind it. |
+| 223–235 | **Twisted Ankle** | Your footing betrays you. Speed reduced by 5 ft for the remainder of the encounter. |
+| 236–266 | **Deep Gash** | A wound that won't stop bleeding. Take 1 damage at the start of each turn until you or an ally spends an Action and makes a Standard Medicine check to bind it. |
 | 333 | **Scarred** | Three parallel gashes. Too clean, too deliberate. The scar tissue tingles whenever that type of creature is within 60 feet. You've gained an instinctive danger sense for whatever gave you that scar. A narrative gift from the DA. |
-| 366–432 | **Wrenched Shoulder** | A joint screams every time you lift your weapon. Bane on attack rolls for the remainder of the encounter. |
-| 433–499 | **Cracked Ribs** | Breathing hurts. Laughing hurts. Living hurts. Bane on all physical rolls until the end of the encounter. |
-| 500–565 | **Broken Bone** | Your arm, leg, or collarbone snaps. You hear it before you feel it. The limb is unusable until you receive a Standard Medicine check and take a long rest. −1 to all checks using that limb. |
+| 334–344 | **Wrenched Shoulder** | A joint screams every time you lift your weapon. Bane on attack rolls for the remainder of the encounter. |
+| 345–356 | **Cracked Ribs** | Breathing hurts. Laughing hurts. Living hurts. Bane on all physical rolls until the end of the encounter. |
+| 366–446 | **Broken Bone** | Your arm, leg, or collarbone snaps. You hear it before you feel it. The limb is unusable until you receive a Standard Medicine check and take a long rest. −1 to all checks using that limb. |
+| 455–466 | **Punctured Lung** | You're breathing, but every word costs. You cannot speak more than five words per round. Spellcasting requires a Fortitude check (Standard) to force the breath through. Lasts until a long rest or a Hard Medicine check. |
 | 555 | **Karmic Wound** | By every right this should have killed you. The blade slipped between vital organs. The fall was broken by exactly the right patch of mud. No additional effect beyond the wound itself. Someone up there likes you. Or wants you alive for something worse. The DA knows which. |
-| 566–599 | **Punctured Lung** | You're breathing, but every word costs. You cannot speak more than five words per round. Spellcasting requires a Fortitude check (Standard) to force the breath through. Lasts until a long rest or a Hard Medicine check. |
-| 600–633 | **Crippling Blow** | A tendon severed, a joint destroyed. The affected limb is useless. Permanent until a Master-rank Medicine check or powerful healing magic restores it. If it's a leg, you need a crutch. If it's an arm, learn to fight one-handed. |
-| 634–665 | **Shattered Spirit** | The wound is grievous, but the real damage is deeper. You gain a persistent condition chosen by the DA: haunted by the moment, gripped by phantom pain, or convinced you're already dead. All rolls suffer a Bane until you take a full day of rest in safety. |
+| 556 | **Crippling Blow** | A tendon severed, a joint destroyed. The affected limb is useless. Permanent until a Master-rank Medicine check or powerful healing magic restores it. If it's a leg, you need a crutch. If it's an arm, learn to fight one-handed. |
+| 566 | **Shattered Spirit** | The wound is grievous, but the real damage is deeper. You gain a persistent condition chosen by the DA: haunted by the moment, gripped by phantom pain, or convinced you're already dead. All rolls suffer a Bane until you take a full day of rest in safety. |
 | 666 | **Death** | The dice have spoken. No survival rolls. No stabilization. No last words. Your story ends here. The D666 table's capstone is not a negotiation. Close your character sheet. |
+
+**Precedence:** A roll that matches a named triple (111, 222, 333, 555, 666) always takes that row, even when a range would also include it. Read the roll in D666 notation, lowest die first, so 2-2-2 is 222 and 1-4-6 is 146.
 
 **Healing Wounds.** Wounds persist after HP is restored. You can be at full health and still favor a cracked rib. Wounds heal at a rate of 1 per long rest. A Standard Medicine check made by you or an ally during a rest heals 1 additional wound. The body mends slowly, and some hurts never fully fade. That's the price of the life you chose.
 
@@ -349,11 +353,11 @@ Lyra sees the cultists chanting, they're building toward something. She decides 
 
 "I cast *Gust* at the closest cultist. Wind Discipline, Novice."
 
-She rolls 3d6 + Knowledge (+1) + no skill. Rolls 3, 4, 4 = 11 + 1 = 12. **Standard.** The blast of wind slams into the cultist, knocking him Prone. No check. Gust resolves by tier. The cultist goes sprawling, his chant broken. Lyra spends her Maneuver to Defend, +2 to her Defense roll.
+She rolls 3d6 + Knowledge (+1) + no skill. Rolls 3, 4, 4 = 11 + 1 = 12. **Standard.** The blast of wind slams into the cultist and shoves him 10 ft back. No check. Gust resolves by tier. The cultist stumbles off balance, his chant broken, but he stays on his feet. Lyra spends her Maneuver to Defend, +2 to her Defense roll.
 
 **Round 1, Kael's Turn:**
 
-Kael sees the Knight advancing on Roric. He moves 15 ft to flank, drawing his longsword as a free action. A small buckler (+2 DR) is strapped to his left forearm.
+Kael sees the Knight advancing on Roric. He moves 15 ft to flank, drawing his longsword as a free action. A small buckler (+1 DR) is strapped to his left forearm.
 
 "I attack the Knight."
 
@@ -367,17 +371,17 @@ The Knight assesses the threat. The Blade just drew blood. The Protector is a wa
 
 "I attack the Blade," the DA announces. "The Knight's longsword comes around in a brutal arc. Challenge −3. Kael, roll Defense."
 
-Kael has Agility +2 and no Dodge or Parry ranks. His buckler would let him Parry, but with no Parry rank it adds no roll bonus, so he defends with raw Agility. He rolls 3d6 + 2 − 3 = 3d6 − 1. Rolls 5, 3, 2 = 10 − 1 = 9. **Standard.** The Knight's Standard damage: 3. Kael's armor: leather DR 2, plus buckler DR 2, total DR 4. 3 − 4 → minimum 1 damage. Kael drops from 11 HP to 10 HP. The Knight's blade skids off Kael's raised buckler, a stinging scrape through his sleeve.
+Kael has Agility +2 and no Dodge or Parry ranks. His buckler would let him Parry, but with no Parry rank it adds no roll bonus, so he defends with raw Agility. He rolls 3d6 + 2 − 3 = 3d6 − 1. Rolls 5, 3, 2 = 10 − 1 = 9. **Standard.** The Knight's Standard damage: 9. Kael's armor: leather DR 2, plus buckler DR 1, total DR 3. 9 − 3 = 6 damage. Kael drops from 11 HP to 5 HP. The Knight's blade bites through Kael's sleeve and into his shoulder. That one lands hard.
 
 Riposte doesn't trigger: it fires only when an enemy's blow is reduced to Weak damage, and the Knight landed a Standard hit. Kael keeps his Reaction for next round.
 
 **Round 1, Cultists' Turn:**
 
-Cultist 1 stands up from Prone (uses half his movement). Cultist 2, still standing, hurls a **Dark Bolt** at Lyra, the one who knocked his friend down.
+Cultist 1, still on his feet after being shoved ten feet back, steadies himself and raises his dagger. Cultist 2 hurls a **Dark Bolt** at Lyra, the one who broke his friend's chant.
 
 "The cultist snarls and hurls a bolt of crackling darkness. Challenge −1. Lyra, roll Defense."
 
-Lyra has Agility +2 and no Dodge or Parry ranks. With no weapon or shield in hand she cannot Parry, so she defends with raw Agility. She rolls 3d6 + 2 − 1 = 3d6 + 1. Rolls 3, 4, 4 = 11 + 1 = 12. **Standard.** Dark Bolt Standard damage: 3 necrotic. Lyra has no armor. She takes 3 damage. The bolt of shadow slams into her shoulder, cold and wrong. She drops to 7 HP.
+Lyra has Agility +2 and no Dodge or Parry ranks. With no weapon or shield in hand she cannot Parry, so she defends with raw Agility. She rolls 3d6 + 2 − 1 = 3d6 + 1. Rolls 3, 4, 4 = 11 + 1 = 12. **Standard.** Dark Bolt Standard damage: 4 necrotic. Lyra has no armor. She takes 4 damage. The bolt of shadow slams into her shoulder, cold and wrong. She drops to 6 HP.
 
 Roric has been waiting. The Knight is focused on Kael. The cultists are clustered. Time to be the Protector.
 
@@ -385,9 +389,9 @@ Roric has been waiting. The Knight is focused on Kael. The cultists are clustere
 
 Rolls 3d6 + Brawn (+2). Rolls 3, 3, 2 = 8 + 2 = 10. **Standard.** His Basic Melee card deals 2 on Standard, plus Brawn +2 = 4. Knight's armor: DR 4. 4 − 4 → minimum 1 damage. The hammer rings off the Knight's breastplate, but the force behind it still draws a grunt. Roric's not done.
 
-"Maneuver: I'm using **Menacing Glare** from Intimidation Adept." The Knight must make a Morale Check. Lyra rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. **Standard.** The Knight wavers, a Bane on his next attack.
+Roric steps in, warhammer raised, and lays into the Knight. "You're outmatched. Drop it." The DA calls for a Morale Check. Lyra rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. **Standard.** The Knight wavers, a Bane on his next attack.
 
-**End of Round 1.** The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 1). The cultists dealt 3 to Lyra. The Knight dealt 1 to Kael (3 − 4 armor → minimum 1). Nobody is down. Everyone is engaged. The next round will be decisive.
+**End of Round 1.** The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 1). The cultists dealt 4 to Lyra. The Knight dealt 6 to Kael (9 − 3 armor). Nobody is down. Everyone is engaged. The next round will be decisive.
 
 **Round 2, Lyra's Turn:**
 
@@ -401,13 +405,13 @@ The chaos of the blast catches: Lyra's spell may not need Fire, but the backlash
 
 **Round 2, Kael's Turn:**
 
-The Knight is wavering from Roric's Menacing Glare. Kael sees the opening.
+The Knight is wavering from Roric's warning. Kael sees the opening.
 
 "Attack the Knight again."
 
 Rolls 3d6 + Brawn (+1). Rolls 4, 6, 5 = 15 + 1 = 16. **Strong.** His Basic Melee card deals 3 on Strong, plus Brawn +1 = 4. Knight's DR: 4. 4 − 4 → minimum 1 damage. Total damage on Knight: 3 (2 from Round 1 + 1 now). The blade slips under the Knight's pauldron, another thin cut. The Knight grunts.
 
-Kael uses his Maneuver to **Flurry** (Master maneuver, but wait, Kael is only Adept. He can't use Flurry). He uses **Defend** instead, +2 to his Defense roll. Smart. He's the Knight's target and he knows it.
+Kael uses his Maneuver for **Defend**, +2 to his Defense roll. Smart. He's the Knight's target and he knows it.
 
 **The Knight's Morale:**
 
@@ -415,7 +419,7 @@ The Knight has taken 3 damage, not much, but he's down to 17 HP from 20. Both cu
 
 Roric rolls for the Knight: 3, 2, 1 = 6. **Weak.** The Knight lowers his sword. "Enough," he growls. "You fight well. The Iron Circle withdraws." He gathers the wounded cultists and retreats into the shadows of the temple.
 
-The party could press the attack, but Lyra is at 7 HP, Kael is at 10, and the Knight might have reinforcements. They let them go.
+The party could press the attack, but Lyra is at 6 HP, Kael is at 5, and the Knight might have reinforcements. They let them go.
 
 **Total combat time at the table:** About 8 minutes. Two full rounds. Everyone acted. Damage was exchanged. The Knight broke on morale. The story advanced. That's *Heroes of Legend* combat.
 
