@@ -1,14 +1,16 @@
 # Council Review Progress
 
-Daily walkthrough (4pm ET cron "HOL Council Walkthrough"): one chapter per day, all five council lenses
-(Game Architect · Author · Editor-in-Chief · Contrarian · Layout/Design Expert).
+Daily walkthrough (4pm ET cron "HOL Council Walkthrough"): one chapter per day, full council review
+(Synod `hol-rulebook` council since 2026-08-25: core four + game-architect · author · editor-in-chief ·
+layout-expert = 7 voters, quorum 4; engine `~/repos/synod`, runbook in the synod-council-ops skill).
+Audit trail per run: `docs/design/council-runs/<chapter>-<date>/`.
 
 Rules:
 - Order = the list below, top to bottom, wave 1 first, then wave 2, etc.
 - Mechanical fixes go through micro-PRs the same day. Design concerns go to `decisions-pending.md` for Bruce.
 - This file is TRACKED — commit updates to main after every run.
 
-Last updated: 2026-08-25 (ch11 + ch12 reviewed and fixed via PRs #368/#369; next pending = ch13)
+Last updated: 2026-08-26 (ch13 reviewed via the Synod engine - first engine-driven run, REJECTED 7-0; 2 render fixes shipped via PR #370, substantive pass tracked as issue #371; next pending = ch14)
 
 ## Wave 1
 
@@ -28,7 +30,7 @@ Last updated: 2026-08-25 (ch11 + ch12 reviewed and fixed via PRs #368/#369; next
 | 12 | 10-magic-system | reviewed | 08-23: 3 fixed (spell-model alignment). 08-24: 1 fixed (worked-example canon) | PR #365 + #367 | #365 (08-23): ch10:37 "no chains" -> growing-card model, ch10:55 Master shape -> locked 3-same allowed, ch10:97 stale Master-rank/Pillar ref removed. #367 (08-24, full five-lens pass): worked example said "Lyra is an Odd with 2 Fire and 1 Energy" casting Brimstone Burst, but Brimstone Burst is 2-Fire (ch11:137) and Lyra's canon is no Fire (ch13:397 "No Fire Discipline. My Eccentric Spellcasting covers it", ch02 Odd template = Blades + Water) -> re-pointed to Sera Ashvein (Fire Arcanist; ch02 template + ch08 Fire-Mage example give 2 Fire + 1 Energy at L3, Brimstone Burst at the Adept gate); roll math re-anchored to her real stats (Knowledge +2, Arcana Novice +1): 12+2+1=15 Strong, damage text 12/15 already matches ch11 card. VERIFIED NOT: 0 damage dice (3 core 3d6 rolls only), 0 em-dashes, 0 flat riders, 0 condition residuals, 0 stale "chain" refs, headings well-formed, all @sec xrefs resolve, Arcana is a real ch07 skill (Knowledge-keyed, arcane roll = 3d6+Knowledge+skill per ch10:31), concentration used in ch11/12, "Veteran Adventurer" byline = book's licensed voice (ch23), ##-in-callout matches ch01 convention. decisions-pending #23 (Pillar of Light) resolved via #365's removal of the stale ch10 ref; the ch12:254 base-row fix still stands to be verified on ch12's day. Build exit 0 both PRs. |
 | 13 | 11-arcane-spells | reviewed | 10 fixed (9 phantom-discipline keys + 1 intro count) | PR #368 | #368: 9 cards keyed to disciplines that exist in NO chapter (Cold x3, Lightning x3, Acid x2, Poison x1 are ch13 DAMAGE types, not ch08 disciplines) remapped to valid disciplines via ch08 "Represents": Cold->Water, Lightning->Wind, Acid->Earth, Poison->Plants (all 4 flagged veto-to-revert in decisions-pending). Intro "thirty cards in all" undercounted (10 cantrips + 30 spells = 40) -> accurate. 0 damage dice / 0 em-dashes / 0 flat riders / all 30 spell rows on-budget (cantrip 1/3/5 informational per closing-audit) / Brimstone 12+3 center=15 matches locked Fireball model + ch10 example. Build exit 0. |
 | 14 | 12-divine-spells | reviewed | 3 fixed (off-budget primary rows: Pillar of Light, Ward of Faith, Hallowed Ground) | PR #369 | #369 (resolves decisions #23): Pillar of Light (2 Religion = Adept) printed the MASTER row 9/15/21 at base, sibling Divine Judgment (2 Religion Adept) prints 6/9/12 -> base 6/9/12, Adept line carries the row, Master 9/15/21 + undead-doubling rider (the "signature" now comes from the rider, not a stolen row; the 08-24 recommended default, veto to revert). Ward of Faith (1 Protection Novice) DR 2/3/4 -> 2/4/6 (matches Ward of Iron). Hallowed Ground (2 Protection Adept) DR 2/3/4 -> 6/9/12 (matches Sacred Barrier). Flagged-not-changed (secondary riders, balance for Bruce): Burning 3 undead, Pillar "regain 3 HP", undead +3 conditional riders. 0 damage dice / 0 em-dashes / 0 flat riders. Build exit 0. |
-| 15 | 13-combat | pending | | | |
+| 15 | 13-combat | reviewed (REJECTED as written) | 14 findings, 7-0 both rounds (first Synod engine run, 2026-08-25) | PR #370 + issue #371 | #370 (mechanical tier, merged): double pagebreak before midpoint art (orphan blank page) removed; '## Damage Types' blank line restored (was rendering as literal '## Damage Types' text). Issue #371 (substantive pass, dispatched next): wound table unrollable (D666 = 56 outcomes; 600-665 unreachable; 222/333/555 double-claimed) + page-overflow clip of worst 4 rows; worked example NPC damage vs bestiary (Knight 3->9, Dark Bolt 3->4, Gust Prone-on-Standard) + HP ledger; 3 phantom cards (Flurry, Menacing Glare, Dual Wielder); equipment DR drift (buckler +2 vs +1; plate 4 vs 6); Cover double-implementation (defense +1/+3 vs attacker -1/-3); off-hand Finesse adds Brawn not Agility; Choke/suffocation undefined; Deep Gash uncapped bleed; Bane stacking. Design -> decisions-pending: defense crit/fumble, fractional Challenge, Deep Gash at 0 HP, wound-table top-end lethality, doubled table captions (book-wide: ch02/ch06/ch13). Audit trail: docs/design/council-runs/ch13-combat-20260825/. |
 | 16 | 14-social-conflict | pending | | | |
 | 17 | 15-equipment | pending | | | |
 | 18 | 16-armor-shields | pending | | | |
