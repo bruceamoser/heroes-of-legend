@@ -1,0 +1,457 @@
+# Combat {#sec-chapter-combat}
+
+```{=typst}
+#label("sec-chapter-combat")
+```
+
+![Illo 20: Combat Art](../assets/images/page075-img029.jpeg){width="60%"}
+
+*Illustration 20: Combat chapter art (Character traits / combat). Placeholder; final art TBD. Dimensions: 1024×1024.*
+
+{{< pagebreak >}}
+
+Listen up. Combat in *Heroes of Legend* is fast, cinematic, and unforgiving.
+
+Attacks always hit. Every swing changes the board. Your job isn't to avoid getting hit, it's to hit them harder than they hit you, and to make sure you're still standing when the dust clears.
+
+{{< pagebreak >}}
+
+## Initiative: Who Goes First
+
+When blades come out, everyone rolls. **3d6 + Agility modifier.** Highest goes first. Ties go to the higher Agility score; if it's still tied, roll off.
+
+No convoluted surprise rounds. No phases. Roll, sort, go.
+
+Initiative is simple by design. Combat already has enough moving parts: action economy, maneuvers, reactions, cover, conditions. You don't need a complex initiative system on top of all that. You need to know who's up next so you can plan your turn while the goblins are swinging. The 3d6 keeps things moving and gives Agility heroes a consistent edge without letting them monopolize the first round. The quick always go first. Sometimes the lucky go first too. That's combat.
+
+{{< pagebreak >}}
+
+## The Combat Round
+
+On your turn, you get three things. Use them or lose them, they don't carry over.
+
+| Resource | Per Turn | What You Can Do |
+|----------|----------|-----------------|
+| **Action** | 1 | Attack, cast a spell, activate an ability, Dash (double move) |
+| **Movement** | 1 | Move up to your Speed. Break it up, move, act, move. |
+| **Maneuver** | 1 | Basic maneuvers (Defend, Shove, etc.) or a weapon maneuver |
+| **Reaction** | 1/round | Opportunity attack, shield block, triggered abilities |
+| **Free** | Unlimited | Talk, drop an item, draw a weapon, gesture |
+
+::: {.callout-important}
+## Trading Down, Never Up
+
+You can trade your **Action** for an extra **Movement** or **Maneuver**. You cannot trade a Maneuver for a second Action. You get one big thing per turn. Make it count.
+:::
+
+### Basic Maneuvers
+
+These maneuvers are free for everyone. No skill required. No Discipline check. Just something every combat-trained hero knows how to do. You spend your Maneuver for the turn and the effect happens.
+
+: Table 13.1: Basic Combat Maneuvers {#tbl-basic-maneuvers}
+
+| Maneuver | Effect |
+|----------|--------|
+| **Defend** | +2 to your Defense roll until your next turn. |
+| **Disengage** | Move 5 ft without provoking opportunity attacks. |
+| **Aid** | Ally within 30 ft gains +2 on their next roll before your next turn. |
+| **Shove** | Opposed Brawn vs Brawn/Agility. Push target 5 ft (10 ft on Strong). |
+| **Grapple** | Initiate a grapple (see @sec-grappling). |
+| **Command** | A companion, familiar, or mount under your control takes an extra move. |
+| **Catch Breath** | Regain HP equal to your Fortitude score (min 1). Once per combat. |
+| **Search** | Active Perception check to spot a hidden creature or clue. |
+| **Stand Up** | Rise from prone. |
+| **Use Item** | Drink a potion, apply a salve, or activate a simple device. |
+
+Maneuvers beyond the basics are weapon maneuvers, gated by Disciplines rather than skills. See the Weapon Maneuvers section of @sec-chapter-talents-abilities for cards like Riposte and Cleave. You earn those. They're not free.
+
+{{< pagebreak >}}
+
+## Making an Attack
+
+Attacks always hit. Say it with me: *always hit.* When you swing your weapon or hurl a spell, you connect.
+
+Roll 3d6 + modifiers. The total determines your damage tier:
+
+- **Weak:** Glancing blow. Apply your attack card's Weak damage.
+- **Standard:** Solid hit. Apply your attack card's Standard damage.
+- **Strong:** Devastating strike. Apply your attack card's Strong damage.
+- **Critical (three 6s):** Maximum Strong damage plus a bonus effect from the Critical table (@sec-chapter-core-resolution).
+
+That's one roll. No separate damage dice. No "did I hit?" anxiety. Roll once, read the damage, move on.
+
+::: {.callout-note}
+## Why Always-Hit?
+
+Every attack connects; the roll only decides how hard. For the full rationale, and how armor reduces damage instead of preventing hits, see @sec-chapter-core-resolution.
+:::
+
+## Who Rolls: Players Make All Rolls
+
+The DA never touches the dice in *Heroes of Legend*. This is not a suggestion. It is the rules. Players roll for their attacks, their spells, their skill checks, and crucially, for their defense against every attack made against them. The full explanation is in @sec-chapter-core-resolution. Here is how it works at the table.
+
+### Defending Against NPC Attacks
+
+When an enemy attacks you, the DA describes the attack and gives you the enemy's **Challenge** rating, a penalty to your roll. You make a **Defense Roll**. Choose the form that matches your training:
+
+- **No defensive skill:** 3d6 + Agility − Challenge
+- **Dodge:** 3d6 + Agility + Dodge rank − Challenge
+- **Parry:** 3d6 + Brawn + Parry rank − Challenge
+
+Parry requires a weapon or shield in hand. A shield enables Parry and grants its DR, but never adds a roll bonus.
+
+| Your Defense Roll | What Happens | Damage You Take |
+|-------------------|-------------|-----------------|
+| **Strong (15+)** | You dodge, parry, or block the worst of it. | NPC's **Weak** damage |
+| **Standard (9-14)** | You take a glancing blow. | NPC's **Standard** damage |
+| **Weak (1-8)** | The blow lands solid. You were flat-footed. | NPC's **Strong** damage |
+
+The NPC's stat block lists three damage values: Strong, Standard, and Weak, representing the attack's potential. Your defense roll determines which value applies. Roll well? The goblin barely scratches you. Roll poorly? That goblin found the gap in your armor.
+
+### Why NPC Damage Is Reversed
+
+When you attack, a high roll means you hit hard (Strong damage). When you defend, a high roll means *they* hit soft (Weak damage). The dice work the same way, but your relationship to them flips. This reversal is the mechanical price of keeping the dice in the players' hands, and it keeps the math identical to a traditional system where the DA rolls for monsters. The only difference is whose hands are on the dice, and we would rather those hands belong to the players.
+
+### Quick Reference: Defense Roll Modifiers
+
+| Modifier | Source |
+|----------|--------|
+| +Dodge rank | **Dodge** (Agility-based) |
+| +Parry rank | **Parry** (Brawn-based, requires a weapon or shield) |
+| +2 | **Defend** maneuver (one round) |
+| +1 to +3 | **Cover** (half to three-quarters) |
+| −1 to −6 | **NPC Challenge** (DA sets based on enemy skill) |
+| −2 | **Surprised** (first round only) |
+
+{{< pagebreak >}}
+## Damage Types
+
+Not all wounds are created equal. A slash bleeds. A burn blisters. A psychic assault leaves no mark on the body but the mind remembers. Damage types exist so the fiction and the mechanics speak the same language. When the troll's flesh sizzles at the touch of your firebolt, the rules should reflect that.
+
+**Physical:** Slashing, Piercing, Bludgeoning. These are the bread and butter of combat. Swords slash, arrows pierce, hammers bludgeon. Most armor protects against all three equally, but some creatures care deeply about the distinction. Skeletons laugh at piercing arrows but crumble under bludgeoning maces.
+
+**Elemental:** Fire, Cold, Lightning, Acid, Poison, Thunder. The primal forces, channeled through magic or alchemy. Elemental damage bypasses most physical armor entirely, but many creatures have natural resistances. Fire elementals shrug off flames, frost giants wade through blizzards.
+
+**Magical:** Force, Radiant, Necrotic, Psychic. The esoteric damage types. Force is raw magical energy, the wizard's hammer. Radiant is divine light, the shepherd's fire. Necrotic is death made manifest, the unbalancing touch. Psychic attacks the mind directly. The brain has no armor.
+
+Resistances and vulnerabilities modify damage of specific types. A creature resistant to Fire takes half damage from your Ember Lance (round down). A creature vulnerable to Slashing takes double from your longsword. The DA will tell you when it matters. Part of the game's fun is discovering, through play, that the shambling horror in the swamp stops regenerating when you hit it with fire.
+
+{{< pagebreak >}}
+
+## Effects
+
+Attacks and spells can carry effects beyond damage: a shove, a slide, a trip, a lift. Effects resolve by the same roll as the damage, by the attack or casting tier, never a second roll. One roll, one tier, both outcomes. No check. Each card defines which tiers carry which effect: some push on every tier, some only on Strong, some only on Weak. Roll once, read the tier, and apply the damage and the effect together.
+
+Shared effects are named so cards reference them instead of inventing new phrasing:
+
+: Table 13.2: Shared Effects {#tbl-effects}
+
+| Effect | What It Does |
+|--------|--------------|
+| **Push X** | Move the target X feet directly away from you. |
+| **Slide X** | Move the target X feet in any direction you choose. |
+| **Trip** | The target is knocked Prone. |
+| **Lift X** | Raise the target X feet into the air. The target is Restrained while held. |
+
+{{< pagebreak >}}
+
+## Conditions
+
+Conditions are the status effects that change how a creature behaves in combat. They come from spells, abilities, maneuvers, and environmental hazards. Each condition tells you exactly what it does and how it ends.
+
+: Table 13.3: Conditions {#tbl-conditions}
+
+| Condition | Effect | Ends |
+|-----------|--------|------|
+| **Asleep X** | Unaware for X minutes | Wakes on damage |
+| **Blinded** | Attacks reduced one tier | Source duration |
+| **Burning X** | Takes X damage per round | Spend an action to end |
+| **Charmed** | Cannot attack charmer | Source duration |
+| **Confused X** | Attacks at Bane, cannot take Reactions | Source duration |
+| **Dazed X** | Can take only one action type per turn, for X rounds | X rounds |
+| **Dazzled** | Perception checks at Bane, cannot benefit from Boon on sight-based rolls | Source duration |
+| **Deafened** | Perception Bane | Source duration |
+| **Frightened** | Cannot approach source | Source duration |
+| **Frozen X** | Incapacitated and takes X cold damage per round | Spend an action to end |
+| **Grappled** | Speed 0 | Escape action |
+| **Incapacitated** | No actions | Source duration |
+| **Invisible** | Cannot be targeted directly | Attack/action ends |
+| **Paralyzed** | Incapacitated + auto-crit if hit | Source duration |
+| **Petrified** | Turned to stone, incapacitated, DR +5, immune to non-magical damage | Special |
+| **Poisoned X** | Takes X poison damage per round and attacks at Bane | Spend an action to end |
+| **Prone** | Melee Boon vs you, ranged Bane | Stand up (move) |
+| **Restrained** | Speed 0, attack Bane | Escape action |
+| **Slowed X** | Speed reduced by X feet, cannot take Reactions | Source duration |
+| **Stunned** | Incapacitated + cannot move | Source duration |
+| **Unconscious** | Incapacitated + prone + unaware | Healing or Medicine check |
+
+{{< pagebreak >}}
+
+## Surprise
+
+You don't always see the fight coming. When one side catches the other flat-footed, the ambushing side acts first in the opening round, regardless of initiative rolls. Surprised targets take a -2 penalty on their first roll. They're reacting, not acting. That half-second of hesitation costs them.
+
+To determine surprise, the ambushing side rolls Stealth opposed by the target's passive Insight (Knowledge score + 7). Standard or Strong success means surprise is achieved. Weak means the target heard something, a snapped twig, a hissed whisper, and is ready.
+
+> **DA Guidance:** Don't let the party surprise every encounter just because the rogue has high Stealth. Surprise requires genuine tactical edge, darkness, distraction, or terrain. Walking up to a guard in plain sight and saying "I hide" isn't surprise. It's comedy.
+
+{{< pagebreak >}}
+
+## Grappling {#sec-grappling}
+
+Sometimes you don't want to kill them. Sometimes you want to hold them still while your friends ask questions. Or choke them out. Or throw them off a bridge. Grappling covers all of it.
+
+To initiate a grapple, make a Brawn (Athletics) roll opposed by the target's Brawn (Athletics) or Agility (Acrobatics), their choice. They'll pick whichever they're better at, obviously.
+
+| Result | Effect |
+|--------|--------|
+| **Weak** | You grab hold but don't control. Target is Grappled but can still act freely. |
+| **Standard** | Firm hold. Target is Grappled and Restrained. |
+| **Strong** | Complete control. Target is Grappled, Restrained, and you may move them at half speed. |
+
+While grappling, you may use your Action to:
+
+- **Pin:** Force another opposed roll. Strong result adds Incapacitated.
+- **Throw:** End the grapple. Target is knocked Prone adjacent to you and takes Weak unarmed damage.
+- **Choke:** Target begins suffocating. They can hold breath for Fortitude + 2 rounds before things get desperate.
+
+> *A grappled creature can still fight back.* The Grappled condition only stops movement, a grappled spellcaster can still cast. The Restrained condition imposes a Bane on attacks but doesn't prevent them. Grabbing the enemy wizard doesn't end the fight. It starts a new one.
+
+{{< pagebreak >}}
+
+## Two-Weapon Fighting
+
+A blade in each hand. It looks good. It *feels* good. Here's how it works.
+
+When you wield a weapon in each hand, you may attack with both as a single Action. The off-hand attack deals damage one tier lower:
+
+| Primary Result | Off-Hand Result |
+|---------------|-----------------|
+| Strong | Standard |
+| Standard | Weak |
+| Weak | 1 damage |
+
+The off-hand weapon must have the **Light** property (Dagger, Shortsword, Handaxe) unless you have the **Dual Wielder** talent, which removes that restriction.
+
+**Example:** Kael wields a longsword (primary) and shortsword (off-hand). He rolls 3d6 and lands a Standard hit. His Basic Melee card deals 2 on Standard, plus Brawn +1, for 3. The off-hand attack drops a tier to Weak: 1 plus Brawn +1, for 2 more. Total: 5. Two blades, one roll, clean result.
+
+{{< pagebreak >}}
+
+## Non-Lethal Attacks
+
+Not every enemy needs to die. When you reduce a creature to 0 HP with a melee attack, you can pull the blow. Declare it non-lethal. The creature falls Unconscious but stable at 0 HP instead of bleeding out. They'll wake up with a headache and, hopefully, a newfound appreciation for answering questions.
+
+Ranged attacks and spells can't be made non-lethal. Arrows and fireballs don't do "gentle." You can't ask a lightning bolt to hold back. Unless the spell specifically says otherwise (like *Sleep*), assume ranged and magic are lethal. If you want prisoners, put the bow away and draw steel.
+
+> *Why this matters:* Prisoners have information. Killing the only goblin who knows the dungeon layout means you're wandering blind. The cultist you spared might know the villain's true name. The bandit leader, once disarmed and facing a choice between talking and bleeding, becomes your best source of intelligence. Sometimes the most powerful thing you can do is leave someone alive, and talking. The dead don't negotiate.
+
+{{< pagebreak >}}
+
+## Morale
+
+NPCs and monsters don't fight to the death by default. Most creatures want to *live.* When the fight turns against them, they break. Use morale to keep combat short and believable.
+
+When a creature faces overwhelming odds, the DA calls for a **Morale Check** and designates a player to roll for the creature. That player rolls 3d6 with no modifiers:
+
+| Result | Behavior |
+|--------|----------|
+| **Strong (15+)** | Stands firm. Gains +1 on its next attack. |
+| **Standard (9-14)** | Wavers but stays. Bane on its next attack. |
+| **Weak (1-8)** | Flees or surrenders. Fight's over for this one. |
+
+A creature automatically checks morale when:
+
+- Reduced below half HP for the first time
+- Its leader is defeated
+- Half its group has fallen
+- The party demonstrates overwhelming force (DA's call)
+
+> *DA Guidance:* Use morale to keep combat from becoming a slog. When the goblins' leader falls and three of their friends are down, the remaining two should break and run, not fight to 0 HP while the party mops up. Morale makes fights feel alive and saves table time. The goblins want to go home too.
+
+{{< pagebreak >}}
+
+## Dying and Death
+
+0 HP. You're down. The world goes dark. But the story's not over, not yet.
+
+At 0 HP, you fall Unconscious. Each round on your turn, roll 3d6 with no modifiers:
+
+| Result | Outcome |
+|--------|---------|
+| **Critical (three 6s)** | You snap awake at half HP. Three natural 6s overrides all tier results. |
+| **Strong (15+)** | You stabilize at 1 HP. You're back in the fight, barely. |
+| **Standard (9-14)** | You remain unconscious but stable. Not getting worse. |
+| **Weak (1-8)** | You're still dying. The end draws nearer. |
+| **Fumble (three 1s)** | Death. Three natural 1s overrides all tier results. |
+
+An ally can stabilize you with a Medicine check (Standard difficulty) or any healing effect. Once stable, you're unconscious at 0 HP but no longer rolling to survive.
+
+### Wounds
+
+Some injuries don't fade when the healing potion wears off. Wounds are the lasting consequences of combat: the broken ribs, the tendon that never healed right, the scar that aches when rain is coming. They linger after HP is restored and they shape who your hero becomes.
+
+**Triggering a Wound.** The first time a character drops below half their maximum HP (round down) during an encounter, they take a wound and must roll on the Wound Table. This triggers once per encounter. Subsequent drops below half HP in the same fight do not cause additional wounds. The body can only break so many times before it stops bending.
+
+**The Wound Table (D666).** The wound roll uses a special notation: D666. Roll 3d6, then sort the dice in ascending order. The lowest die is the HUNDREDS digit. The middle die is the TENS. The highest die is the ONES. A roll of [1] [3] [5] reads as 135. A roll of [2] [4] [6] reads as 246. The table below gives the result. Ranges are listed as three-digit numbers in D666 notation.
+
+: Table 13.4: Wound Table (D666) {#tbl-wound-table}
+
+| D666 | Wound | Effect |
+|------|-------|--------|
+| 111 | **Lucky Scrape** | A glancing blow that leaves a dramatic but harmless scar. You look like you survived something terrible. +1 on your next social roll with anyone impressed by scars. No mechanical penalty. |
+| 112–199 | **Bruised Rib** | Something cracked but didn't break. −1 on your next Brawn-based roll from the sharp ache. Fades after that roll. |
+| 200–265 | **Blood in the Eyes** | A scalp wound bleeds into your vision. −1 on your next attack roll until you spend a Maneuver to wipe it clear. |
+| 222 | **Marked** | The wound leaves a mark that doesn't look natural. Animals growl at you. Superstitious folk make signs against evil. No mechanical penalty, but the DA now has a permanent hook. |
+| 266–299 | **Twisted Ankle** | Your footing betrays you. Speed reduced by 5 ft for the remainder of the encounter. |
+| 300–365 | **Deep Gash** | A wound that won't stop bleeding. Take 1 damage at the start of each turn until you or an ally spends an Action and makes a Standard Medicine check to bind it. |
+| 333 | **Scarred** | Three parallel gashes. Too clean, too deliberate. The scar tissue tingles whenever that type of creature is within 60 feet. You've gained an instinctive danger sense for whatever gave you that scar. A narrative gift from the DA. |
+| 366–432 | **Wrenched Shoulder** | A joint screams every time you lift your weapon. Bane on attack rolls for the remainder of the encounter. |
+| 433–499 | **Cracked Ribs** | Breathing hurts. Laughing hurts. Living hurts. Bane on all physical rolls until the end of the encounter. |
+| 500–565 | **Broken Bone** | Your arm, leg, or collarbone snaps. You hear it before you feel it. The limb is unusable until you receive a Standard Medicine check and take a long rest. −1 to all checks using that limb. |
+| 555 | **Karmic Wound** | By every right this should have killed you. The blade slipped between vital organs. The fall was broken by exactly the right patch of mud. No additional effect beyond the wound itself. Someone up there likes you. Or wants you alive for something worse. The DA knows which. |
+| 566–599 | **Punctured Lung** | You're breathing, but every word costs. You cannot speak more than five words per round. Spellcasting requires a Fortitude check (Standard) to force the breath through. Lasts until a long rest or a Hard Medicine check. |
+| 600–633 | **Crippling Blow** | A tendon severed, a joint destroyed. The affected limb is useless. Permanent until a Master-rank Medicine check or powerful healing magic restores it. If it's a leg, you need a crutch. If it's an arm, learn to fight one-handed. |
+| 634–665 | **Shattered Spirit** | The wound is grievous, but the real damage is deeper. You gain a persistent condition chosen by the DA: haunted by the moment, gripped by phantom pain, or convinced you're already dead. All rolls suffer a Bane until you take a full day of rest in safety. |
+| 666 | **Death** | The dice have spoken. No survival rolls. No stabilization. No last words. Your story ends here. The D666 table's capstone is not a negotiation. Close your character sheet. |
+
+**Healing Wounds.** Wounds persist after HP is restored. You can be at full health and still favor a cracked rib. Wounds heal at a rate of 1 per long rest. A Standard Medicine check made by you or an ally during a rest heals 1 additional wound. The body mends slowly, and some hurts never fully fade. That's the price of the life you chose.
+
+{{< pagebreak >}}
+
+## Cover
+
+Use the terrain. A pillar, a flipped table, a crouching ally. Anything between you and incoming fire helps. Cover is free armor. It doesn't cost a Maneuver, doesn't require a skill, doesn't use an Action. It just requires you to think about where you're standing before the arrows start flying.
+
+| Cover | Attacker Penalty |
+|-------|-----------------|
+| **Half cover** | -1 to attack roll |
+| **Three-quarters cover** | -3 to attack roll |
+| **Full cover** | Cannot be targeted |
+
+Positioning matters. If you're standing in the open trading shots with archers, you're doing it wrong. Get behind something. Make them work for it. The difference between a dead hero and a living one is often the pillar they hid behind during the first volley. Use the terrain. It's the one ally that never misses a session.
+
+{{< pagebreak >}}
+
+{{< pagebreak >}}
+
+![Illo 36: Combat Midpoint](../assets/svg/placeholder-section.svg){width="60%"}
+
+*Illustration 36: Combat chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
+
+{{< pagebreak >}}
+
+## Worked Example: A Full Combat Round
+
+The party faces a Knight of the Iron Circle (Challenge 3) and two Cultists (Challenge 1/2) in a torchlit temple chamber. Initiative order: Lyra (Odd) 16, Kael (Blade) 13, Knight 11, Cultists 9, Roric (Protector) 7.
+
+**Round 1, Lyra's Turn:**
+
+Lyra sees the cultists chanting, they're building toward something. She decides to disrupt them.
+
+"I cast *Gust* at the closest cultist. Wind Discipline, Novice."
+
+She rolls 3d6 + Knowledge (+1) + no skill. Rolls 3, 4, 4 = 11 + 1 = 12. **Standard.** The blast of wind slams into the cultist, knocking him Prone. No check. Gust resolves by tier. The cultist goes sprawling, his chant broken. Lyra spends her Maneuver to Defend, +2 to her Defense roll.
+
+**Round 1, Kael's Turn:**
+
+Kael sees the Knight advancing on Roric. He moves 15 ft to flank, drawing his longsword as a free action. A small buckler (+2 DR) is strapped to his left forearm.
+
+"I attack the Knight."
+
+Rolls 3d6 + Brawn (+1). Rolls 5, 4, 5 = 14 + 1 = 15. **Strong.** His Basic Melee card deals 3 on Strong, plus Brawn +1 = 4. Knight's plate armor: DR 4. 4 − 4 → minimum 1 damage. The blade finds a gap at the Knight's gorget, a thin line of blood. Not a killing blow, but the Knight knows Kael can hurt him.
+
+Kael keeps his **Reaction** ready. His **Riposte** weapon maneuver (2 Blades) lets him spend his Reaction to counterattack when an enemy deals Weak damage to him.
+
+**Round 1, Knight's Turn:**
+
+The Knight assesses the threat. The Blade just drew blood. The Protector is a wall. The Odd is in the back. Tactical decision: kill the one who can actually hurt him.
+
+"I attack the Blade," the DA announces. "The Knight's longsword comes around in a brutal arc. Challenge −3. Kael, roll Defense."
+
+Kael has Agility +2 and no Dodge or Parry ranks. His buckler would let him Parry, but with no Parry rank it adds no roll bonus, so he defends with raw Agility. He rolls 3d6 + 2 − 3 = 3d6 − 1. Rolls 5, 3, 2 = 10 − 1 = 9. **Standard.** The Knight's Standard damage: 3. Kael's armor: leather DR 2, plus buckler DR 2, total DR 4. 3 − 4 → minimum 1 damage. Kael drops from 11 HP to 10 HP. The Knight's blade skids off Kael's raised buckler, a stinging scrape through his sleeve.
+
+Riposte doesn't trigger: it fires only when an enemy's blow is reduced to Weak damage, and the Knight landed a Standard hit. Kael keeps his Reaction for next round.
+
+**Round 1, Cultists' Turn:**
+
+Cultist 1 stands up from Prone (uses half his movement). Cultist 2, still standing, hurls a **Dark Bolt** at Lyra, the one who knocked his friend down.
+
+"The cultist snarls and hurls a bolt of crackling darkness. Challenge −1. Lyra, roll Defense."
+
+Lyra has Agility +2 and no Dodge or Parry ranks. With no weapon or shield in hand she cannot Parry, so she defends with raw Agility. She rolls 3d6 + 2 − 1 = 3d6 + 1. Rolls 3, 4, 4 = 11 + 1 = 12. **Standard.** Dark Bolt Standard damage: 3 necrotic. Lyra has no armor. She takes 3 damage. The bolt of shadow slams into her shoulder, cold and wrong. She drops to 7 HP.
+
+Roric has been waiting. The Knight is focused on Kael. The cultists are clustered. Time to be the Protector.
+
+"I move to engage the Knight. Attack with my warhammer."
+
+Rolls 3d6 + Brawn (+2). Rolls 3, 3, 2 = 8 + 2 = 10. **Standard.** His Basic Melee card deals 2 on Standard, plus Brawn +2 = 4. Knight's armor: DR 4. 4 − 4 → minimum 1 damage. The hammer rings off the Knight's breastplate, but the force behind it still draws a grunt. Roric's not done.
+
+"Maneuver: I'm using **Menacing Glare** from Intimidation Adept." The Knight must make a Morale Check. Lyra rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. **Standard.** The Knight wavers, a Bane on his next attack.
+
+**End of Round 1.** The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 1). The cultists dealt 3 to Lyra. The Knight dealt 1 to Kael (3 − 4 armor → minimum 1). Nobody is down. Everyone is engaged. The next round will be decisive.
+
+**Round 2, Lyra's Turn:**
+
+Lyra's shoulder burns from the Dark Bolt, but she's an Odd, when things go wrong, she gets interesting.
+
+"I cast *Ember Lance* at the cultist who hit me. No Fire Discipline. My **Eccentric Spellcasting** covers it." Lyra chose Ember Lance as one of her two unrestricted abilities at creation, ignoring the Fire Discipline prerequisite.
+
+Ember Lance roll: 3d6 + Knowledge (+1). Rolls 6, 6, 1 = 13 + 1 = 14. **Standard.** Ember Lance Standard damage: 4 fire. The cultist has no armor. 4 damage straight through. The cultist staggers, his robes smoking, badly burned but still on his feet.
+
+The chaos of the blast catches: Lyra's spell may not need Fire, but the backlash from bending the rules doesn't care. The second cultist, standing too close to his wounded ally, is singed for 2 damage, now bloodied. Both cultists are hurt and angry, and now both are looking at Lyra.
+
+**Round 2, Kael's Turn:**
+
+The Knight is wavering from Roric's Menacing Glare. Kael sees the opening.
+
+"Attack the Knight again."
+
+Rolls 3d6 + Brawn (+1). Rolls 4, 6, 5 = 15 + 1 = 16. **Strong.** His Basic Melee card deals 3 on Strong, plus Brawn +1 = 4. Knight's DR: 4. 4 − 4 → minimum 1 damage. Total damage on Knight: 3 (2 from Round 1 + 1 now). The blade slips under the Knight's pauldron, another thin cut. The Knight grunts.
+
+Kael uses his Maneuver to **Flurry** (Master maneuver, but wait, Kael is only Adept. He can't use Flurry). He uses **Defend** instead, +2 to his Defense roll. Smart. He's the Knight's target and he knows it.
+
+**The Knight's Morale:**
+
+The Knight has taken 3 damage, not much, but he's down to 17 HP from 20. Both cultists are wounded but standing. The party is coordinated and the Protector hasn't even been hit yet. The DA calls for a Morale Check.
+
+Roric rolls for the Knight: 3, 2, 1 = 6. **Weak.** The Knight lowers his sword. "Enough," he growls. "You fight well. The Iron Circle withdraws." He gathers the wounded cultists and retreats into the shadows of the temple.
+
+The party could press the attack, but Lyra is at 7 HP, Kael is at 10, and the Knight might have reinforcements. They let them go.
+
+**Total combat time at the table:** About 8 minutes. Two full rounds. Everyone acted. Damage was exchanged. The Knight broke on morale. The story advanced. That's *Heroes of Legend* combat.
+
+{{< pagebreak >}}
+
+## Worked Example: The Ambush
+
+The party has tracked a bandit scout to a forest clearing. The bandit doesn't know they're here. The party wants him alive for questioning.
+
+**Surprise Check:** Lyra rolls Stealth: 3d6 + Agility (+2) + Stealth Adept (+2). Result: 5, 6, 4 = 15 + 4 = 19. **Strong.** The bandit's passive Insight is 7 (Knowledge 0 + 7). 19 beats 7 easily. Surprise achieved.
+
+**Round 1:** The party acts. The bandit does not.
+
+**Kael** moves 30 ft through the underbrush, drawing his shortsword. "I grapple him from behind."
+
+Grapple roll: 3d6 + Brawn (+1) + Athletics Novice (+1). Bandit opposes with Brawn (+0). Kael: 4, 3, 5 = 12 + 2 = 14. Bandit: 2, 4, 1 = 7. **Standard.** Kael has the bandit in a firm hold, Grappled and Restrained. The bandit can't move, can't reach his weapon.
+
+**Lyra** moves up, dagger drawn. "Talk. Where's your camp?"
+
+The bandit is Restrained, outnumbered four to one, and caught completely off guard. The DA rules this is an automatic Morale Check with a Bane. Bandit rolls: 1, 3, 2 = 6. **Weak.** "North! Two miles north! Old watchtower! Please don't kill me!"
+
+Combat over. One roll. The ambush worked because the party used Stealth, positioning, and overwhelming force, not because they rolled high on a damage die.
+
+::: {.callout-tip}
+## Running Combat for New Players
+
+If you're DAing for a group that's new to *Heroes of Legend*, here's how to make combat sing from the first session.
+
+**Start small.** One enemy per hero. No lieutenants, no reinforcements, no lair actions. Let the players learn the action economy, Action, Movement, Maneuver, before you add complexity.
+
+**Announce the turn order at the top of every round.** "Kael, you're up. Lyra, you're next. Then the goblins. Roric, you're after them." Players stop asking "whose turn is it?" when they can see the next hero up.
+
+**Use physical tokens for reactions.** Give each player a poker chip or a coin. When they spend their reaction, they flip it over. At the start of their turn, they flip it back. It's a visual reminder that they have one reaction per round, and it prevents the "wait, did I already use my reaction?" conversation.
+
+**Describe damage, not numbers.** "The goblin's blade skips off your pauldron, you feel the impact but no pain" is better than "You take 0 damage." The fiction matters more than the arithmetic. Players remember the time the dragon's claw sent them flying across the room. They don't remember the time they took 7 piercing damage.
+
+**End fights when they're over.** When the outcome is certain, the last two goblins are surrounded, wounded, and outnumbered, don't play out two more rounds of cleanup. The goblins surrender or flee. Move to the aftermath. Combat is a pacing tool, not a punishment.
+:::

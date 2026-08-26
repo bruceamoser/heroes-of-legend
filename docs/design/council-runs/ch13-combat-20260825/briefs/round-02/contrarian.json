@@ -1,0 +1,368 @@
+{
+ "council": "hol-rulebook",
+ "ledger_view": {
+  "open_refutes": [
+   {
+    "argument": "The chapter presents itself as a complete combat engine: attacks that always connect resolved by a single roll, all dice in player hands, tiered damage and defense, plus conditions, morale, a wound system, and two fully worked examples. The lenses should probe three layers: internal table consistency (tier bands, condition costs, wound-roll ranges), cross-chapter agreement (example card figures, costs, and prereq counts against the cards and core chapters and the standing budget conventions), and editorial hygiene (cross-references, pagebreaks, punctuation conventions). It does not hold as written. The wound table's printed ranges overlap its own special-triple rows, so one roll can match two entries; standing up is priced as a maneuver in one table, as movement in another, and as half movement in the example; and the surprise penalty applies to the first roll in one passage but the whole first round in another. A disposition plan must therefore carry a mechanical pass for those three (carve the special triples out of the ranges, pick one resource cost for standing up and align all three sites, unify the surprise wording), a substantive pass reconciling the example's damage figures and card costs against the cards chapter and the flat damage budgets, and a short design-decision list for DA-rule gaps: defense-roll criticals and fumbles, the fractional Challenge-to-penalty mapping, and stating the minimum-one damage floor as a rule rather than only showing it in the example. On the positive side, every arithmetic step in both examples checks out against the stated tier thresholds, the design rationale is consistent, and the em-dash convention is clean; the refute is scoped to targeted corrections, not a rewrite.",
+    "confidence": 0.78,
+    "evidence": [
+     {
+      "claim": "The wound table's printed ranges overlap its special-triple rows, so a single roll can match two entries.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Standing up costs a Maneuver in the basic-maneuvers table but movement in the conditions table and the worked example.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The surprise penalty is scoped to the first roll in the prose but to the first round in the modifiers table.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The minimum-one damage floor after armor appears only inside the worked example, never as a stated rule in this chapter.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The example's Basic Melee figures need reconciliation against the cards chapter and the flat damage-budget convention.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The combat example catches its own rules mistake mid-sentence, reading like an editor's note left in the text.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Attack and death-save tables define critical and fumble overrides, but the defense table defines neither, leaving defense rolls without special results.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Every arithmetic step in both worked examples checks out against the stated tier thresholds, supporting overall mechanical coherence.",
+      "source": "13-combat"
+     }
+    ],
+    "id": "f-001",
+    "role": "librarian",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "Refute: the chapter's mechanics break cross-chapter numbers and book conventions in multiple places. MECHANICAL (micro-PR cells): (1) [13-combat:371] the Knight's Standard damage is stated as 3, but the bestiary Knight block (ch20:90) lists Longsword 6/9/12, so the expected value is 9; corrected math drops Kael to 5 HP, rippling through [13-combat:391] and [13-combat:419]. (2) [13-combat:381] Dark Bolt Standard is stated as 3 necrotic; the bestiary Cultist (ch20:88) budgets 2/4/6, expected 4, so Lyra ends round 1 at 6 HP, not 7 (also lines 391 and 419). (3) [13-combat:357] the buckler is given +2 DR; the armor chapter (ch16:70) grants +1 DR, so the totals at [13-combat:371] should be DR 3. (4) [13-combat:353] Gust at Standard knocks the cultist Prone, but the spell card (ch11:310) makes Standard a 10 ft push with Prone only on Strong; the stand-up beat at [13-combat:377] is therefore invalid. (5) [13-combat:63] Stand Up costs a Maneuver while [13-combat:182] and [13-combat:377] treat standing as movement. (6) [13-combat:124] Surprised is 'first round only' while [13-combat:192] and the glossary (ch21:147) say first roll. (7) [13-combat:122] lists cover as a +1/+3 defense bonus while [13-combat:327-328] state a -1/-3 attacker penalty with no cross-reference (book convention per ch21:149, ch22:134-136). (8) [13-combat:175] Frozen imposes Incapacitated yet is ended by spending an action the victim cannot take. (9) [13-combat:176] Grappled/Restrained cite an 'Escape action' that no table defines. (10) [13-combat:303-311] wound ranges 200-265, 300-365, 500-565 numerically contain the separately listed triples 222/333/555. (11) [13-combat:441] 'damage die' is a dice remnant in a dice-free damage system. (12) [13-combat:439] claims four-to-one odds while only three party members are demonstrated. SUBSTANTIVE (dispatched pass): [13-combat:234] 'Dual Wielder', [13-combat:389] 'Menacing Glare' (also skill-rank-gated, off-model per ch05:444 and ch07:90), and [13-combat:411] 'Flurry' name cards that exist nowhere in the book; either add them to ch09 or rewrite the examples. DESIGN-DECISION (Bruce's ruling): [13-combat:361/387/409] 'plate armor: DR 4' matches the bestiary Knight (ch20:90) but contradicts the armor chapter's plate DR 6 (ch16:94, ch06:69); the example's math survives either fix because the minimum-1 floor keeps every hit at 1.",
+    "confidence": 0.92,
+    "evidence": [
+     {
+      "claim": "The Knight's Standard-tier damage in the worked example is 3, but the bestiary Knight (Challenge 3) carries Longsword 6/9/12 so Standard must be 9; with corrected buckler DR the blow deals 6 and Kael ends at 5 HP, changing lines 371, 391, 419.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Dark Bolt is budgeted 2/4/6 in the bestiary cultist entry, so a Standard hit is 4, not the 3 used here; Lyra should sit at 6 HP after round 1 and the summaries at 391 and 419 must follow.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Gust's Standard tier only pushes 10 ft per the arcane spell card; Prone arrives at Strong, so the cultist should not be knocked down and the later stand-up beat cannot happen.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The buckler grants +1 DR in the armor chapter; the example's +2 is the shield's value, so the stated DR totals must drop to 3.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Standing from Prone is movement in the conditions table and the example (half move), contradicting the basic-maneuvers table which charges a Maneuver.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Dual Wielder, Menacing Glare, and Flurry appear only in this chapter; full-book searches find no such cards, and gating an ability on a skill rank contradicts the Discipline-gating model.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The wound table ranges numerically contain the special triples listed as separate rows, so rolls of 222, 333, and 555 fall in two cells at once; ranges should exclude the triple rows.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Cover appears twice with opposite sign conventions - a +1/+3 defense bonus versus a -1/-3 attacker penalty - with no cross-reference; the book-wide convention is the attacker penalty.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The ambush epilogue credits a high roll on a damage die, but the game uses flat damage with no damage dice anywhere in the book.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The Knight wears plate at DR 4, matching the bestiary block but contradicting the armor chapter's plate DR 6; label and value must be reconciled book-wide.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Frozen imposes Incapacitated yet is ended by spending an action the victim cannot take, and the grapple conditions cite an Escape action no table defines.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Worked-math audit: Kael Strong 4 minus Knight DR 4 floors at 1 (matches); Knight Standard 9 minus Kael DR 3 equals 6 (chapter says 1); Dark Bolt Standard 4 unarmored (chapter says 3); Ember Lance Standard 4 plus 2 pass-through match the card; Basic Melee 1/2/3 plus Brawn matches the ch09 card; initiative, grapple, stealth, and morale rolls all recompute correctly.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-002",
+    "role": "game-architect",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "Evidence shows the chapter's rule framework and its cross-references largely hold: the Critical-table, always-hit, and players-roll-all references to core-resolution all resolve; Riposte's Reaction trigger, Basic Melee's 1/2/3+Brawn values, Ember Lance's Standard 4, the Light-property list, the surprise/Stealth-vs-passive-Insight formula, and the grapple rules all match their authoritative sources. But the flagship full-round worked example contradicts the bestiary on two monster stat blocks (Knight Standard damage priced at 3 vs 9 per its 6/9/12 longsword; Cultist Dark Bolt at 3 vs 4 per its 2/4/6), grants Gust a Prone effect its card reserves for Strong, adds Brawn instead of Agility to a Finesse off-hand shortsword, and rests three beats on cards the book never defines anywhere (Flurry, Menacing Glare, Dual Wielder). The D666 wound table strands its two most severe rows (600-633, 634-665) with no achievable rolls and double-claims 222, 333, and 555 across two rows each. The disposition plan must therefore rest on: a substantive rewrite of the worked example to align every number with the bestiary stat blocks and card text; a ruling on whether to add the three phantom cards or replace those beats with existing cards (e.g., Cyclone or Power Strike); a re-mapped D666 wound table where every row is reachable and no outcome is double-claimed; and mechanical unification of the cover modifiers and the stand-up-from-prone cost.",
+    "confidence": 0.88,
+    "evidence": [
+     {
+      "claim": "The worked example prices the Knight's Standard hit at 3 damage, but the bestiary stat block (20-bestiary.qmd, Knight Challenge 3) lists its longsword at 6/9/12 (Weak/Standard/Strong), so a Standard defense result should deal 9, reduced by DR 4 to 5 \u2014 not minimum-1 \u2014 which rewrites Kael's HP ledger (11 to 6, not 10) and the round's damage totals.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The example gives the Cultist's Dark Bolt 3 necrotic on Standard, but the bestiary Cultist entry (20-bestiary.qmd) lists Dark Bolt at 2/4/6 necrotic, so Standard should be 4; Lyra should drop from 10 to 6 HP, not 7.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The example has a Standard Gust roll knock the cultist Prone, but the Gust card (11-arcane-spells.qmd) pushes 10 ft on Standard and grants Prone only on Strong; the subsequent 'stands up from Prone' beat is built on that error.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The example frames Flurry as a Master maneuver Kael cannot use, yet no Flurry card exists anywhere in the book (grep of all chapters); the beat teaches a restriction on a card the book never presents.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Menacing Glare is presented as an Intimidation Adept ability that forces a Morale Check, but no such card exists in any chapter, and Intimidation is a skill (07-skills.qmd, Brawn-keyed), not a Discipline, so the morale beat has no rule backing.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The two-weapon rule says the Dual Wielder talent lifts the Light-property restriction, but no Dual Wielder talent exists in the classes or talents chapters; the restriction is unconditional as the book stands.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "D666 (three sorted dice) yields exactly 56 achievable outcomes; enumerated, the ranges 600-633 (Crippling Blow) and 634-665 (Shattered Spirit) contain zero achievable rolls \u2014 the two most severe wounds can never occur \u2014 while 222, 333, and 555 each sit inside two rows (200-265/222, 300-365/333, 500-565/555), so the table both strands its severest entries and double-claims three outcomes.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Cover is implemented twice in the same chapter with opposite signs: the defense-modifiers table grants +1 to +3 from cover, while the Cover table imposes -1/-3 on the attacker's roll; because players make all rolls and enemies never roll attacks, the two tables cannot both be applied to the same incoming attack.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The off-hand shortsword carries the Finesse property (15-equipment.qmd), so per Basic Melee the off-hand damage should add Agility (+2) rather than Brawn (+1), making the example's two-weapon total 6, not 5.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Rising from prone is costed three different ways within the chapter: a Maneuver (basic-maneuvers Stand Up), a move (conditions-table 'Stand up (move)'), and half movement (worked example), and no other chapter settles the cost.",
+      "source": "13-combat"
+     }
+    ],
+    "id": "f-003",
+    "role": "researcher",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "Refute: voice and consistency must change before this chapter stands as a publishable unit. Overall tone is on-register with the rest of the book (punchy second-person, deliberate motifs like the always-hit slogan and the roll-once refrain), and the em-dash ban is honored (no U+2014 in the file), but the chapter fails on cross-chapter naming and internal restatement. Findings: (1) Phantom references - the worked example invokes a morale maneuver gated on an Intimidation Discipline (13-combat.qmd:389, 405), but no such ability exists in the weapon-maneuvers chapter and Intimidation is a skill, not a Discipline (07-skills; 14-social-conflict.qmd:27); Flurry (13-combat.qmd:411) and the Dual Wielder talent (13-combat.qmd:234) likewise appear nowhere else in the book. Disposition: substantive if the abilities are added to 09-talents-abilities; mechanical if the examples are rewritten with existing cards. (2) Draft residue - 13-combat.qmd:411 retains a first-person editorial aside that must be excised; 13-combat.qmd:9 carries a stale art-tracker descriptor out of format with every other chapter's caption convention. Disposition: mechanical. (3) Example-vs-card value drift - a Standard Gust knocks the target Prone (13-combat.qmd:353) though the card grants Prone only on Strong (11-arcane-spells.qmd:306-311); Dark Bolt Standard damage is quoted as 3 (13-combat.qmd:381) against the bestiary's 4 (20-bestiary.qmd:88); the Knight's Standard damage is 3 (13-combat.qmd:371, 391) against the bestiary's longsword values (20-bestiary.qmd:90). Disposition: mechanical (align example numbers to the cards). (4) Equipment-value drift - the example's buckler grants +2 DR (13-combat.qmd:357, 371) but the armor and equipment chapters rate bucklers at +1 (16-armor-shields.qmd:70; 15-equipment.qmd:91); plate armor is DR 4 in the example and bestiary (13-combat.qmd:361; 20-bestiary.qmd:90) yet DR 6 in the armor chapter and core-resolution (16-armor-shields.qmd:40; 06-core-resolution.qmd:69). Disposition: mechanical for the buckler, design-decision for plate. (5) Internal restatement divergences - rising from Prone costs a Maneuver per the basic-maneuver table (13-combat.qmd:63), is listed as a movement action in the conditions table (13-combat.qmd:182), and costs half movement in the example (13-combat.qmd:377); Shove is Brawn vs Brawn/Agility here (13-combat.qmd:58) but an opposed Brawn check in the reference sheet (22-reference-sheets.qmd:65), and Grapple uses skill-qualified rolls (13-combat.qmd:204) against both bare-Brawn versions. Disposition: design-decision to pick one cost, mechanical to propagate. (6) Cross-chapter verbatim echo - 13-combat.qmd:113 closes with nearly the same sentence core-resolution closes with at 06-core-resolution.qmd:117. Disposition: mechanical (rephrase). (7) Callout-label drift - DA Guidance is bold at 13-combat.qmd:196 and italic at 13-combat.qmd:269, with unlabeled and differently labeled italics at 218 and 246; other chapters use the bold form (16-armor-shields.qmd:82; 19-gm-guidance.qmd:133). Disposition: mechanical. (8) Vacant vocabulary - the Choke option ends in flavor where a rule is needed (13-combat.qmd:216), since no suffocation rule exists anywhere in the book; non-lethal takedowns avoid bleeding out (13-combat.qmd:242), a death state the chapter's own dying rules never define. Disposition: design-decision to add suffocation, mechanical to rephrase. (9) Minor nits - one-off 'bloodied' (13-combat.qmd:401) beside 'hurt'/'wounded' (401, 415); mixed minus-sign characters (U+2212 at 123/302/303/310 vs plain hyphens at 192/327-328) and en-dash ranges in the wound table against hyphen ranges in every other table. Disposition: mechanical. Consistency that holds: Challenge naming, passive Insight formula (matches 21-glossary.qmd:195), Basic Melee and Ember Lance values, Catch Breath wording (matches 22-reference-sheets.qmd:68), initiative tie rule, and the house voice all match their authoritative chapters.",
+    "confidence": 0.93,
+    "evidence": [
+     {
+      "claim": "The worked example cites a morale maneuver gated on a Discipline that does not exist anywhere else in the book; Intimidation is a skill, and no such ability appears in the maneuvers chapter.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Flurry is invoked and then rejected in an aside that reads like a first-draft self-correction, and the maneuver is absent from the authoritative talents chapter.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The Gust example applies a Prone knockdown on a Standard result, while the spell card reserves Prone for Strong.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The example quotes a buckler granting +2 DR, twice the rating the equipment and armor chapters assign to bucklers.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The knight's plate armor is rated DR 4 here, matching the bestiary but contradicting the armor chapter's Plate value of 6.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Rising from prone is priced three different ways within the chapter: as a Maneuver, as a movement action, and as half of movement in the example.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The chapter's rationale sentence is a near-verbatim repeat of core-resolution's closing sentence.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The chapter opener's art caption carries a stale descriptor unlike the class-based descriptors used by every other chapter's captions.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The Choke grapple option ends with flavor instead of a rule, and no suffocation mechanic exists anywhere else in the book.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Non-lethal takedowns are described as avoiding a bleed-out state that the chapter's own dying rules never establish.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The DA Guidance callout is bold in one place and italic in another within the same chapter, unlike the uniform bold form used elsewhere in the book.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Cross-check against authoritative chapters: Challenge naming, passive Insight formula, Basic Melee and Ember Lance values, Catch Breath wording, initiative tie rule, and the overall register all hold; no em-dashes appear in the chapter.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-004",
+    "role": "author",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "Audited the chapter as rendered in the current build (quarto-book/_output/Heroes-of-Legend.pdf, built 2026-08-25; chapter 13 spans PDF pages 200-224). Five layout defects, in severity order:\n\n1. CRITICAL - Wound Table (chapters/13-combat.qmd:297-316): the 15-row table is taller than one page, and the theme wraps every table in an unbreakable block (style.typ:212, 'block(breakable: false, it)'), so it cannot flow to the next page. On PDF p.216 the final four rows (566-599, 600-633, 634-665, 666) collapse into a single overlapping band, are clipped by the bottom margin, and the page footer overprints the table. A GM cannot read the worst four wound results - this is the money table of the Dying and Death section. Fix: remove the unbreakable wrapper and let Typst repeat the header row on page 2 (style.typ:208-216, contradicts its own comment at line 192), or split the table into two with repeated headers at chapter [13-combat:297]. The former is the mechanical, book-wide fix.\n\n2. HIGH - Doubled table captions on all four tables (13-combat.qmd:51, 147, 162, 297): each caption hard-codes a 'Table 13.x:' label, and Quarto's crossref auto-numbering (crossref.chapters: true) prepends its own 'Table 15.x:' (15 = the chapter's rendered number). Build shows 'Table 15.4: Table 13.4: Wound Table (D666)' on p.216 and the same doubling on p.204/206/209. Fix: delete the hard-coded 'Table 13.x:' prefix from each caption line and keep only the title plus the {#tbl-...} id, so the auto number is the sole label.\n\n3. HIGH - Literal '## Damage Types' printed as body text on p.207 (13-combat.qmd:126-127): the '## Damage Types' line directly follows the pagebreak with no blank line between them, so it is not parsed as a heading - it renders in regular body type, its hashes visible. Verified visually in the build. Consequences: the section is absent from the TOC (the Chapter 15 TOC block lists 15.1-15.15 with no Damage Types entry, confirmed in build) and the heading is invisible to any cross-reference. Fix: insert a blank line between [13-combat:126] and [13-combat:127] so the heading parses; verify the TOC picks it up on rebuild.\n\n4. MEDIUM - Blank page 219 (13-combat.qmd:333 and 335): two consecutive pagebreaks (after Cover, before the midpoint placeholder figure) force a fully empty page into the build - p.219 contains only header and footer. Fix: delete one of the two pagebreak lines [13-combat:333] or [13-combat:335].\n\n5. LOW - Near-empty page 217: after the wound table consumes p.216, only the short 'Healing Wounds' paragraph lands on p.217, leaving ~80% blank before the next forced break. Symptom of defect 1; expected to self-correct once the table flows, but should be re-checked after the fix (a keep-with-previous or break adjustment may be needed at [13-combat:318-319]).\n\nItems verified as OK: chapter opener art (13-combat.qmd:7) renders cleanly at 60% width, no overflow (p.200); the placeholder midpoint figure (13-combat.qmd:337) renders as intended, pending final art; callout boxes at [13-combat:41], [13-combat:83], [13-combat:443] render with icon and title intact; zero em-dashes in the chapter, consistent with the book's em-dash law; heading hierarchy is otherwise consistent (all sections h2, sub-headings h3, no skipped levels once defect 3 is fixed).",
+    "confidence": 0.9,
+    "evidence": [
+     {
+      "claim": "Render analysis of the 2026-08-25 build output: on PDF p.216 the four final rows of the wound table (566-599 through 666) print as one overlapping, clipped band at the page foot, with the centered page folio overprinting the table; none of the four rows is legible. Confirmed both visually (page raster) and by raw text extraction, which shows the row labels and effect text interleaved in the same band.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Root cause of the wound-table failure: the theme's show rule wraps every table in an unbreakable block, so an oversized table cannot split across pages and instead overruns and clips at the page bottom. The file's own comment says header rows should repeat on page breaks, but the wrapper makes that impossible - the comment and the code contradict each other.",
+      "source": "style.typ"
+     },
+     {
+      "claim": "Render analysis: every one of the chapter's four table captions prints a doubled number, the auto-generated chapter-prefixed number followed by the author's hard-coded one, e.g. the wound table caption on p.216 and the maneuvers table caption on p.204 both show two 'Table' numbers side by side.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Source location of the doubled-caption defect: the wound table caption line hard-codes its own 'Table 13.4:' label while also carrying the crossref id that drives auto-numbering; the same pattern occurs on the three other table caption lines (51, 147, 162).",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Render analysis: PDF p.207 begins with the section title printed as plain body text with visible hash marks, in the same size and weight as the paragraph copy below it - not a styled heading. The Chapter 15 TOC block in the build lists sections 15.1 through 15.15 and contains no entry for Damage Types, confirming the heading was never parsed.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Source cause of the literal heading: the pagebreak directive at line 126 is immediately followed by the heading line at 127 with no blank line between them, which is why the heading syntax is not recognized as a heading.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Render analysis: PDF p.219 is a completely empty page (header and folio only), produced by two consecutive pagebreak directives in the source between the Cover section and the midpoint placeholder figure.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Render analysis: PDF p.217 holds only the short 'Healing Wounds' paragraph at the top with the rest of the page blank, a whitespace artifact downstream of the wound table overfilling p.216; flagged for re-check after the table fix.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Items verified acceptable in the build: the chapter opener image (line 7, 1024x1024 source) renders at 60% width with no overflow on p.200; the midpoint placeholder figure (line 337) renders as intended with its caption; the chapter contains no em-dashes, consistent with the standing em-dash law.",
+      "source": "13-combat"
+     }
+    ],
+    "id": "f-005",
+    "role": "layout-expert",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "Refute: the chapter's mechanics break cross-chapter numbers and book conventions in multiple places. MECHANICAL (micro-PR cells): (1) [13-combat:371] the Knight's Standard damage is stated as 3, but the bestiary Knight block (ch20:90) lists Longsword 6/9/12, so the expected value is 9; corrected math drops Kael to 5 HP, rippling through [13-combat:391] and [13-combat:419]. (2) [13-combat:381] Dark Bolt Standard is stated as 3 necrotic; the bestiary Cultist (ch20:88) budgets 2/4/6, expected 4, so Lyra ends round 1 at 6 HP, not 7 (also lines 391 and 419). (3) [13-combat:357] the buckler is given +2 DR; the armor chapter (ch16:70) grants +1 DR, so the totals at [13-combat:371] should be DR 3. (4) [13-combat:353] Gust at Standard knocks the cultist Prone, but the spell card (ch11:310) makes Standard a 10 ft push with Prone only on Strong; the stand-up beat at [13-combat:377] is therefore invalid. (5) [13-combat:63] Stand Up costs a Maneuver while [13-combat:182] and [13-combat:377] treat standing as movement. (6) [13-combat:124] Surprised is 'first round only' while [13-combat:192] and the glossary (ch21:147) say first roll. (7) [13-combat:122] lists cover as a +1/+3 defense bonus while [13-combat:327-328] state a -1/-3 attacker penalty with no cross-reference (book convention per ch21:149, ch22:134-136). (8) [13-combat:175] Frozen imposes Incapacitated yet is ended by spending an action the victim cannot take. (9) [13-combat:176] Grappled/Restrained cite an 'Escape action' that no table defines. (10) [13-combat:303-311] wound ranges 200-265, 300-365, 500-565 numerically contain the separately listed triples 222/333/555. (11) [13-combat:441] 'damage die' is a dice remnant in a dice-free damage system. (12) [13-combat:439] claims four-to-one odds while only three party members are demonstrated. SUBSTANTIVE (dispatched pass): [13-combat:234] 'Dual Wielder', [13-combat:389] 'Menacing Glare' (also skill-rank-gated, off-model per ch05:444 and ch07:90), and [13-combat:411] 'Flurry' name cards that exist nowhere in the book; either add them to ch09 or rewrite the examples. DESIGN-DECISION (Bruce's ruling): [13-combat:361/387/409] 'plate armor: DR 4' matches the bestiary Knight (ch20:90) but contradicts the armor chapter's plate DR 6 (ch16:94, ch06:69); the example's math survives either fix because the minimum-1 floor keeps every hit at 1.",
+    "confidence": 0.92,
+    "evidence": [
+     {
+      "claim": "The Knight's Standard-tier damage in the worked example is 3, but the bestiary Knight (Challenge 3) carries Longsword 6/9/12 so Standard must be 9; with corrected buckler DR the blow deals 6 and Kael ends at 5 HP, changing lines 371, 391, 419.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Dark Bolt is budgeted 2/4/6 in the bestiary cultist entry, so a Standard hit is 4, not the 3 used here; Lyra should sit at 6 HP after round 1 and the summaries at 391 and 419 must follow.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Gust's Standard tier only pushes 10 ft per the arcane spell card; Prone arrives at Strong, so the cultist should not be knocked down and the later stand-up beat cannot happen.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The buckler grants +1 DR in the armor chapter; the example's +2 is the shield's value, so the stated DR totals must drop to 3.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Standing from Prone is movement in the conditions table and the example (half move), contradicting the basic-maneuvers table which charges a Maneuver.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Dual Wielder, Menacing Glare, and Flurry appear only in this chapter; full-book searches find no such cards, and gating an ability on a skill rank contradicts the Discipline-gating model.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The wound table ranges numerically contain the special triples listed as separate rows, so rolls of 222, 333, and 555 fall in two cells at once; ranges should exclude the triple rows.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Cover appears twice with opposite sign conventions - a +1/+3 defense bonus versus a -1/-3 attacker penalty - with no cross-reference; the book-wide convention is the attacker penalty.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The ambush epilogue credits a high roll on a damage die, but the game uses flat damage with no damage dice anywhere in the book.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The Knight wears plate at DR 4, matching the bestiary block but contradicting the armor chapter's plate DR 6; label and value must be reconciled book-wide.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Frozen imposes Incapacitated yet is ended by spending an action the victim cannot take, and the grapple conditions cite an Escape action no table defines.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Worked-math audit: Kael Strong 4 minus Knight DR 4 floors at 1 (matches); Knight Standard 9 minus Kael DR 3 equals 6 (chapter says 1); Dark Bolt Standard 4 unarmored (chapter says 3); Ember Lance Standard 4 plus 2 pass-through match the card; Basic Melee 1/2/3 plus Brawn matches the ch09 card; initiative, grapple, stealth, and morale rolls all recompute correctly.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-006",
+    "role": "game-architect",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "The chapter's spine is mostly sound: all three external @refs resolve in the live book (Core Resolution and Talents & Abilities chapters both carry those anchors), the four numbered tables have unique, well-formed captions, no em-dashes appear, and the source file is byte-identical to quarto-book/chapters/13-combat.qmd. But it is not publishable as written on structure. Fixes: (1) [13-combat:42] [13-combat:84] [13-combat:444] - three H2 headings (Trading Down, Never Up; Why Always-Hit?; Running Combat for New Players) sit inside callout divs at lines 42, 84, 444; each will render as a top-level TOC entry equal to the real sections around it, so demote each to H3 (or bold text for the in-flow ones) - mechanical. (2) [13-combat:335] - a second pagebreak immediately after line 333 (blank line 334 between) injects an orphan blank page between Cover and the midpoint art; delete one - mechanical. (3) [13-combat:126] - the pagebreak before Damage Types is the only one of eighteen not followed by a blank line, an inconsistency that risks the raw block swallowing the heading at render; insert the blank line - mechanical. (4) [13-combat:216] - Choke sends the target into a suffocating state that is never defined anywhere in the book; smallest insertion is a suffocation rule (rounds, then damage/incapacitation) in the Conditions table or a short paragraph in Dying and Death - substantive, queued. (5) [13-combat:7] [13-combat:337] - both illustrations are placeholders marked TBD; final art must land before print - condition. (6) Minor: the four table anchors (tbl-basic-maneuvers, tbl-effects, tbl-conditions, tbl-wound-table) are never @-referenced from running text, so their labels are dead weight - either add the refs or drop the anchors - mechanical, optional. Broken: none of these misdirects a reader into a wrong number, but (1) and (2) are reader-visible defects on the printed page, which is disqualifying for this lens.",
+    "confidence": 0.86,
+    "evidence": [
+     {
+      "claim": "Three callout divs each wrap an H2 heading, so tip/rationale boxes would surface as peer sections in the table of contents: lines 42 (callout-important), 84 (callout-note), 444 (callout-tip).",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Lines 333 and 335 hold two consecutive pagebreaks around a blank line, which produces a blank page before the midpoint illustration at line 337.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "The pagebreak at line 126 is directly followed by the Damage Types heading with no separating blank line; every other pagebreak in the chapter has one.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Choke (line 216) references a suffocating state with breath-holding rounds, but no suffocation rule or condition exists in the chapter or elsewhere in the book, so the effect has no defined endpoint.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Both illustration captions (lines 7-9 and 337-339) are explicit placeholders awaiting final art, so the chapter cannot go to print without them.",
+      "source": "13-combat"
+     },
+     {
+      "claim": "Verified against the live book: sec-chapter-core-resolution resolves in 06-core-resolution.qmd, sec-chapter-talents-abilities in 09-talents-abilities.qmd, sec-grappling is self-defined at line 200; table captions 13.1-13.4 are sequential with unique anchors; zero em-dash characters found in the file; source is identical to quarto-book/chapters/13-combat.qmd.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-007",
+    "role": "editor-in-chief",
+    "stance": "refute",
+    "topic": "t-01"
+   }
+  ],
+  "positions": {
+   "t-01": {
+    "author": "refute",
+    "editor-in-chief": "refute",
+    "game-architect": "refute",
+    "layout-expert": "refute",
+    "librarian": "refute",
+    "researcher": "refute"
+   }
+  },
+  "sealed_rulings": []
+ },
+ "problem_brief": "Chapter under review: ch13 (quarto-book/chapters/13-combat.qmd), \"Combat\", 457 lines.\n\nTask: audit the chapter as a publishable unit and produce a disposition plan.\nEach member audits through their own lens (see role card) and files a finding:\n  stance support = the chapter holds on this lens as written\n  stance refute  = the chapter must change; name the fix and its scope\n\nFindings cite [file:line] in the chapter. Mechanics findings state the broken\nvalue and the expected value. Cross-chapter checks use the authoritative\nchapters as the reference, not this chapter.\n\nDisposition classes (for the librarian's synthesis):\n  mechanical    - safe to implement as a micro-PR (headings, tables, wording,\n                  em-dashes, single-cell refs, budget rows)\n  substantive   - needs a dispatched implementation pass (multi-file, new content)\n  design-decision - needs Bruce's ruling; implement the recommended default,\n                  flagged veto-revertible in decisions-pending.md\n\nStanding book conventions are in force: zero em-dashes in book text; damage\nbudgets flat at Novice 2/4/6, Adept 6/9/12, Master 9/15/21; card costs 2/4/8;\nAdept prereqs exactly 2, Master exactly 3. Violations of these conventions\nare findings, not questions.\n",
+ "role": "contrarian",
+ "round": 2,
+ "task": "For each contested topic produce at least one concrete counter-example against the leading support position, or record explicitly 'tested A, B, C \u2014 no counter-example found'. Emit findings only."
+}
