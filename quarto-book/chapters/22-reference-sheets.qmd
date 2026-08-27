@@ -168,6 +168,7 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
 | **Persuasion** | GU | Diplomacy, negotiation, charm |
 | **Insight** | RE | Read people, detect lies |
 | **Deception** | GU | Lie, bluff, disguise |
+| **Intimidation** | BR | Threats, coercion |
 | **Performance** | GU | Music, oratory, entertain |
 | **Stealth** | AG | Sneak, hide, move silently |
 | **Sleight of Hand** | AG | Pickpocket, legerdemain |

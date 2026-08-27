@@ -18,7 +18,7 @@ Social conflict covers everything from haggling with a merchant to negotiating a
 
 ## Social Skills
 
-Four skills carry the weight of social encounters. Know which one fits the moment.
+Five skills carry the weight of social encounters. Know which one fits the moment.
 
 **Deception (Guile):** Lying convincingly. False identities, forged documents, "Of course I'm supposed to be here." The Blade's favorite. The Protector's last resort.
 
@@ -27,6 +27,8 @@ Four skills carry the weight of social encounters. Know which one fits the momen
 **Intimidation (Brawn):** Threats and coercion. "I wasn't asking." Works fast, burns bridges faster. The Unbalanced lives here. Everyone else visits when patience runs out.
 
 **Insight (Reason):** Reading truth from lies. Catching the twitch, the hesitation, the glance at the exit. Passive Insight is your Knowledge score + 7, that's the number the DA uses when someone's lying to you and you're not actively looking for it. When an NPC lies to you and you're not actively contesting the claim, their Deception roll is opposed by your passive Insight.
+
+**Performance (Guile):** Music, oratory, working a room. The right song at the right moment buys more passage than a coin ever will. The Odd's stage. The Leader's secret weapon.
 
 {{< pagebreak >}}
 
@@ -49,15 +51,21 @@ Criticals and Fumbles follow the core rules (@sec-chapter-core-resolution): thre
 
 ## Extended Social Conflicts
 
-For high-stakes negotiations, convincing the king to commit troops, talking down the assassin with a blade at the queen's throat, negotiating surrender with the bandit lord, run social encounters as multi-round conflicts.
+High-stakes encounters, the negotiation with the king, the interrogation of the spy, the trial that decides a life, run as multi-round conflicts. Not one roll and a coin flip. A back-and-forth, where both sides spend points.
 
-Here's the structure:
+**Stakes must be declared before the conflict begins.** "If I win, the guard lets us pass. If you win, we're arrested." What does each side want, and what happens if the negotiation fails? Say it out loud before the first die hits the table. That's the hard bound that keeps a social conflict from becoming an endless persuasion check.
 
-1. **Set the stakes.** What does each side want? What happens if negotiations fail?
-2. **Determine attitudes.** Where does each NPC start on the attitude scale?
-3. **Round by round.** Each round, one PC makes a social skill roll. The DA roleplays the NPC's response based on the result.
-4. **First to 3 successes wins.** The conflict resolves in the winning side's favor.
-5. **Failures shift attitudes negatively.** Each failed roll pushes the NPC one step toward Hostile. At Hostile, further failures may end the conversation, or start a different kind of fight.
+**Round structure.** Each round, the party's face makes one social skill roll: Persuasion, Deception, Intimidation, or Performance. The roll is opposed by the NPC's Insight score, or the relevant attribute if the NPC is actively counter-arguing. The opposed rolls rule from the core chapter (@sec-chapter-core-resolution) decides the outcome tier: the higher tier wins the exchange, a tie on tier goes to the higher total, and a full tie goes to the NPC, the defender.
+
+| Result | Effect |
+|--------|--------|
+| **Weak** | Your argument falters. The NPC gains 1 success. |
+| **Standard** | You score a point. You gain 1 success. |
+| **Strong** | Devastating point. You gain 2 successes. |
+| **Critical** | You break through entirely. Win the conflict immediately. |
+| **Fumble** | You offend or reveal weakness. The NPC gains 2 successes. |
+
+**First to 3 successes wins.** The first side to 3 successes takes the conflict. A Weak or Fumble result is a failed roll for the party: the NPC's attitude shifts one step toward Hostile. At Hostile, further failures may end the conversation, or start a different kind of fight. A Strong result shifts the NPC one step closer to you. One shift per roll, never both.
 
 ::: {.callout-note}
 ## Failing Forward in Social Encounters
@@ -83,11 +91,11 @@ The party needs passage through the Ironwood, a dense forest controlled by the T
 
 **Aldric (the player):** "I approach the warden with open hands. 'We have no quarrel with the Thornwood. We hunt a cult that's kidnapped children from three villages. They passed this way two days ago.'"
 
-**The DA:** "The warden's expression doesn't change, but her eyes flick toward the treeline. 'Children, you say.' She's listening. Give me a Persuasion roll. Standard difficulty, she's Neutral, and your cause is sympathetic."
+**The DA:** "The warden's expression doesn't change, but her eyes flick toward the treeline. 'Children, you say.' She's listening. Give me a Persuasion roll, opposed by her Insight."
 
-*Aldric rolls:* 3d6 + Guile (+1) + Persuasion Adept (+2). Result: 4, 5, 3 = 12 + 3 = 15. **Strong.**
+*Aldric rolls:* 3d6 + Guile (+1) + Persuasion Adept (+2). Result: 4, 5, 3 = 12 + 3 = 15. **Strong.** The warden's passive Insight is 13 (Knowledge +2, base 7). 15 is Strong, 13 is Standard, and Strong beats Standard. Two successes.
 
-**The DA:** "The warden uncrosses her arms. 'We found tracks, heavy boots, dragging something. They went east, toward the old barrows. You'll need a guide. The barrows are... unsettled.' That's one success. She's shifted to Friendly."
+**The DA:** "The warden uncrosses her arms. 'We found tracks, heavy boots, dragging something. They went east, toward the old barrows. You'll need a guide. The barrows are... unsettled.' Two successes for the party, and her attitude shifts one step closer to you. Neutral to Friendly."
 
 **Round 2, The Lieutenant Objects:**
 
@@ -95,25 +103,17 @@ The party needs passage through the Ironwood, a dense forest controlled by the T
 
 **Lyra (the player):** "I step up beside Aldric. 'Lieutenant. Look at us. We're exhausted, we're armed for a fight, and we're asking permission instead of forcing our way through. Cultists don't ask.' Can I use Insight to read what's really bothering him?"
 
-**The DA:** "Roll Insight. Standard difficulty."
+**The DA:** "Roll Insight, opposed by his. He's not counter-arguing, just holding the line. His Insight is 11 (Knowledge 0, base 7)."
 
-*Lyra rolls:* 3d6 + Reason (+1) + Insight Novice (+1). Result: 5, 2, 4 = 11 + 2 = 13. **Standard.**
+*Lyra rolls:* 3d6 + Reason (+1) + Insight Novice (+1). Result: 5, 2, 4 = 11 + 2 = 13. **Standard.** 13 against his 11, both Standard, so the higher total wins. One success.
 
-**The DA:** "You catch a flicker of old anger when he said 'humans.' Something personal behind the hostility. Not just standard suspicion. You can use that."
+**The DA:** "You catch a flicker of old anger when he said 'humans.' Something personal behind the hostility. Not just standard suspicion. You can use that. Three successes. The conflict is yours."
 
-**Lyra:** "I soften my voice. 'Whatever happened, we're not them. We're here to stop the people who hurt yours, not add to it.' Persuasion, using the Insight lead."
+**The Warden's Price:**
 
-*Lyra rolls:* 3d6 + Guile (+1) + Persuasion (no skill, just attribute). DA gives +1 for the Insight Boon. Result: 3, 6, 5 = 14 + 2 = 16. **Strong.**
-
-**The DA:** "The lieutenant stares at Lyra for a long moment. Then he nods once, a single, sharp motion. 'Warden. I'll guide them myself.' Two successes."
-
-**Round 3, The Warden's Price:**
-
-**The DA:** "The warden raises a hand. 'One condition. The cult lairs in the old barrows. If you find something there that belongs to the Thornwood, an artifact, a tome, a spirit-stone, you bring it back to us. The barrows are elven graves. What's buried there is ours.'"
+**The DA:** "The warden names the guide, a sharp-eyed scout who knows the barrow roads. Then she raises a hand. 'One condition. The cult lairs in the old barrows. If you find something there that belongs to the Thornwood, an artifact, a tome, a spirit-stone, you bring it back to us. The barrows are elven graves. What's buried there is ours.'"
 
 **Aldric:** "Agreed. We're not grave robbers. You have my word."
-
-**The DA:** "She's already Friendly, and this is a reasonable request. No roll needed, she trusts you. Three successes. The conflict is won."
 
 **Outcome:** The party gains passage through the Ironwood, a guide who knows the terrain, and an ally in the Thornwood elves, all because they worked the social conflict round by round instead of rolling once and hoping for the best.
 
@@ -132,5 +132,5 @@ In a lot of games, one player builds the "party face", max Guile, max social ski
 
 Spread the social spotlight. The dwarf with Brawn +2 and no social skills can still contribute by standing behind the negotiator, arms crossed, looking like a wall of muscle. That's worth a Boon on the negotiator's next social roll, and it keeps the dwarf's player engaged.
 
-The wizard with Knowledge +2 can drop a historical reference that earns the NPC's respect. The ranger can mention a shared enemy. Everyone has something to add. Your job as DA is to ask: "What's your character doing while they talk?" The answer might not require a roll, but it should always require attention.
+The Arcanist with Knowledge +2 can drop a historical reference that earns the NPC's respect. The Protector can mention a shared enemy. Everyone has something to add. Your job as DA is to ask: "What's your character doing while they talk?" The answer might not require a roll, but it should always require attention.
 :::
