@@ -97,9 +97,9 @@ Now Kael wants to shove a heavy crate off a collapsing ledge to buy the party ti
 
 {{< pagebreak >}}
 
-## The 22 Skills {#sec-skill-list}
+## The 23 Skills {#sec-skill-list}
 
-Twenty-two skills, grouped into five categories. Every skill shares the same three-tier bonus: Novice +1, Adept +2, Master +3. None of them have Discipline prerequisites, and none of them gate anything.
+Twenty-three skills, grouped into five categories. Every skill shares the same three-tier bonus: Novice +1, Adept +2, Master +3. None of them have Discipline prerequisites, and none of them gate anything.
 
 ### Physical
 
@@ -136,6 +136,7 @@ A shield enables Parry (it is an implement in hand) and provides DR (damage redu
 | **Persuasion** | Guile | Diplomacy, negotiation, charm |
 | **Insight** | Reason | Reading people, detecting lies, intuition |
 | **Deception** | Guile | Lying, bluffing, disguising intent |
+| **Intimidation** | Brawn | Threats, coercion, making people do what you mean |
 | **Performance** | Guile | Music, oratory, entertaining crowds |
 
 ### Subterfuge

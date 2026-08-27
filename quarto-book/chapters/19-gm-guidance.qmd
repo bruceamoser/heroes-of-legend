@@ -182,21 +182,7 @@ Proximity to dark magic, forbidden knowledge, and horrific events can corrupt a 
 
 ## Social Conflict (Extended)
 
-For high-stakes negotiations, interrogations, or trials, use extended social conflict.
-
-Each round, one side makes a social skill roll (Persuasion, Deception, or Intimidation) opposed by the target's Insight or relevant attribute. The first side to 3 successes wins the conflict.
-
-| Result | Effect |
-|--------|--------|
-| **Weak** | Your argument falters. Opponent gains 1 success. |
-| **Standard** | You score a point. Gain 1 success. |
-| **Strong** | Devastating point. Gain 2 successes. |
-| **Critical** | You break through entirely. Win the conflict immediately. |
-| **Fumble** | You offend or reveal weakness. Opponent gains 2 successes. |
-
-**Stakes must be declared before the conflict begins.** "If I win, the guard lets us pass. If you win, we're arrested." This keeps social encounters from becoming endless persuasion checks.
-
-{{< pagebreak >}}
+High-stakes negotiations, interrogations, and trials run as extended social conflicts. The full rulebook lives in the social conflict chapter (@sec-chapter-social-conflict): opposed rolls, the tier-to-success table, first to 3 wins, and the stakes-declared rule. Point players there for the mechanics, and keep one reminder at the table: declare the stakes before the first die hits the table, or the scene never ends.
 
 {{< pagebreak >}}
 
