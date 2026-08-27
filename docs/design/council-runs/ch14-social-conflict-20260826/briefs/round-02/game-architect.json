@@ -1,0 +1,165 @@
+{
+ "council": "hol-rulebook",
+ "ledger_view": {
+  "open_refutes": [
+   {
+    "argument": "As a publishable unit, chapter fourteen is structurally sound: an introduction that frames negotiation as the same dice engine spending a different currency, a four-entry primer on the social proficiencies, a four-row disposition table with mechanical effects, a five-step multi-round procedure, two guidance callouts, and a three-round worked example. The section order is logical, so no re-architecture is needed. However, it fails standing-convention and cross-reference checks, so the chapter must change before publication. I name the fixes and tier them for synthesis. Mechanical tier (safe single-file micro edits, each with a broken value and expected value): [14:29] the passive reading check is defined as the Knowledge score plus a flat 7, but the proficiency table in ch07 keys the same skill to the Reason attribute, and the worked example at [14:98] rolls Reason for the very same check; expected value is the book canon of the attribute score plus 7 as used in the surprise procedure and glossary, and [14:122, 14:131] invoke a bonus label, circumstance bonus, that appears nowhere in the core chapter or the reference sheet; expected value is rewording to the modifier categories the book actually uses. Substantive tier (dispatched implementation pass, multi-file): (a) the intimidation proficiency is taught here as a core social option, and the GM chapter's extended procedure lists it in its roll trio, yet it is absent from the skill roster in ch07, the reference table in ch22, and the glossary in ch21; the fix is either to add it to every roster (ch07, ch22, ch21, and any class favored-skill lists) or to excise it from this chapter and from ch19; (b) the extended-conflict procedure here (one roll per round, no opposition, each miss slides the NPC one step toward hostile, the side reaching three successes first prevails) diverges from the GM chapter's version (an opposed check, a tier table where a weak outcome hands a success to the other side, a strong outcome is worth two, a fumble hands two, a critical ends the scene at once, and stakes are fixed before play); the fix is to pick one canon and rewrite the other file to match. Design-decision tier (needs Bruce's ruling; implement the flagged default, veto-revertible in decisions-pending.md): (c) which attribute governs the passive reading number; recommended default keeps the existing book canon of the attribute score plus 7 and rewords line 29 to match; (d) which extended procedure is canonical; recommended default keeps this chapter's simpler loop because the chapter's own worked example follows it, and trims the GM chapter to a pointer plus the stakes rule. Convention sweep: zero em-dashes are present (only hyphen-minus, 53 of them), and no damage budgets, card costs, or prerequisite counts appear in this file, so the flat 2/4/6, 6/9/12, 9/15/21 budgets and the 2/4/8 card costs are not violated here. Cross-chapter probes for the other lenses: internal consistency (the attribute split at line 29 versus line 98, and the single-roll versus opposed framing at line 15 versus the extended section), cross-chapter agreement (ch07 roster, ch06 opposed-rolls and passive-Insight canon, ch19 procedure, ch22 tables), and editorial hygiene (heading hierarchy, table alignment, the two callouts, anchor labels, and the illustration placeholder).",
+    "confidence": 0.82,
+    "evidence": [
+     {
+      "claim": "The chapter's passive reading check is pegged to the Knowledge score plus a flat seven, contradicting the proficiency table's attribute key and the chapter's own example.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "The chapter's own worked example rolls the Reason attribute for that same reading check, splitting the attribute key in two ways.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "A bonus category is named that the core chapter and reference sheet never define, and it is used twice in the guidance section.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "The intimidation proficiency is presented as a core social option, although it is missing from the skill roster, the reference table, and the glossary.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "The extended procedure resolves by the first side reaching three successes, with misses sliding the NPC down the disposition scale.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "The opening frames every social roll as a single, non-opposed check compared against fixed tiers.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "The file contains no em-dash characters, only hyphen-minus, so the zero-dash convention is not violated here.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "The book's own canon defines the passive reading number as the attribute score plus seven in the surprise procedure and in the glossary, so line 29 is the outlier that must be reworded.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-001",
+    "role": "librarian",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "I re-audited ch14 (14-social-conflict.qmd, 134 lines) against the authoritative chapters. Verdict: the chapter must change. The arithmetic in the worked example is internally correct, but the chapter invents two named skills/mechanics that the book's own source-of-truth chapters do not define, and it contradicts ch19's extended-conflict rulebook on success counts and win conditions. Defects, broken -> expected:\n\n1) PHANTOM SKILL (mechanical, single chapter): [14:27] the Social Skills section presents Intimidation (Brawn) as one of 'four skills' that drive social play. The roster in ch07 (source of truth) lists NO Intimidation row anywhere; its Social group is Persuasion (Guile), Insight (Reason), Deception (Guile), Performance (Guile). So the chapter's fourth social skill is a name that does not exist in the roster, and its Brawn attribute key has no roster entry either. Intimidation does appear in ch18 (retraining example) and ch19 (NPC quick-build) but never as a purchasable skill. Expected: either add Intimidation to the ch07 roster (substantive, book-wide) or drop it here and use a real roster skill; as written it is a phantom. Related: [14:21] says 'four skills' but the roster's actual four social skills differ (it omits Performance), so the framing is also off.\n\n2) PHANTOM MECHANIC - 'circumstance bonus' (substantive): [14:122] and [14:131] grant 'a +1 circumstance bonus' for presence/intimidation. A whole-book grep finds the phrase 'circumstance bonus' NOWHERE else in the book. ch06's resolution system offers only Boon/Bane (4d6 keep best/worst 3) and named difficulty modifiers (Trivial +4 ... Nearly Impossible -6); there is no +1 'circumstance bonus' lever. Expected: replace with a real lever - a Boon (ch06: roll 4d6, keep the highest three) - or a named difficulty shift, since a flat +1 'circumstance bonus' is not a mechanic the engine supports.\n\n3) WORKED-EXAMPLE BOON MISUSE (substantive): [14:104] Lyra's second roll is computed as 3d6 + Guile (+1) + 'Persuasion (no skill)' and the DA 'gives +1 for the Insight Boon', totaling 14 + 2 = 16 (Strong). The flat '+1 for the Boon' is not how ch06 defines a Boon: a Boon means roll 4d6 and keep the highest three, reshaping the curve ('worth roughly +2'), not a +1 flat modifier added to the total. Expected: a Boon is a 4d6-keep-3 reroll, not a +1; the stated modifier line and the +2 are mis-derived. (The 15+ Strong tier would still survive on Guile alone, but the arithmetic as printed is wrong.)\n\n4) EXTENDED-CONFLICT RULES CONTRADICT CH19 (substantive, design-decision): The chapter's extended structure [14:56-58] is 'each round one PC rolls; first to 3 successes wins; failures shift attitude'. ch19's authoritative 'Social Conflict (Extended)' [19:187-196] says each round the roll is OPPOSED by the target's Insight/attribute, and its result table is: Weak = opponent gains 1, Standard = you gain 1, Strong = you gain 2, Critical = instant win, Fumble = opponent gains 2. Two hard contradictions: (a) success value - ch14 scores every success (including Strong) as exactly 1, but ch19 scores a Strong as 2 and a Critical as an immediate win; (b) win condition - ch14 wins at '3 successes' with no Critical instant-win, while ch19 has Critical = instant win. The chapter's worked example [14:106] also counts Lyra's Strong as only '1 success' where ch19 would award 2, so the example would actually end the conflict in round 2 under ch19. Expected: align ch14 to ch19's opposed-structure result table (Strong=2, Critical=instant win) or make ch14 explicitly the 'non-opposed' variant and reconcile the win math; as written the two chapters cannot both be right. This is a design-decision: pick one extended-conflict model.\n\n5) PASSIVE INSIGHT - AGREE (support): [14:29] defines passive Insight as 'Knowledge score + 7'; ch13's surprise rule [13:197] also uses passive Insight = 'Knowledge score + 7'. The two agree, so this is clean. (Minor internal oddity, not a defect vs an authority: the active Insight skill keys to Reason in both ch07 and [14:29], yet the passive version keys to Knowledge - same skill, two attribute bases. Flag for the librarian, but ch13 matches the Knowledge+7 reading.)\n\n6) WORKED-EXAMPLE CANON - AGREE (support): [14:86] Ser Aldric (Leader) rolls 3d6 + Guile (+1) + Persuasion Adept (+2), 4/5/3=12, +3 = 15 Strong - this matches ch03's Aldric canon exactly (ch03:136, same Guile +1 / Persuasion Adept +2, a different dice draw but same build and same 15/Strong). [14:98] Lyra's Insight roll (Reason +1, Insight Novice +1, 11+2=13 Standard) and [14:104] (14+2=16 Strong) are arithmetically self-consistent and use canon-consistent attribute values (Lyra Reason +1, Guile +1). So the example's dice math and character canon HOLD; the defects are the phantom skill, the phantom 'circumstance bonus', the Boon misuse, and the ch19 contradiction.\n\nCONVENTIONS (support): zero em-dashes in the chapter (grep clean); no damage budgets, card costs, or prereq counts appear, so the standing numeric conventions are not implicated.\n\nDisposition summary for the librarian: mechanical = fix the 'four skills' framing and the phantom Intimidation line if the roster is not being expanded; substantive = (a) reconcile or remove the 'circumstance bonus' (+1) against ch06, (b) fix the Boon misuse in the worked example, (c) reconcile the extended-conflict success/win math with ch19; design-decision = choose ONE extended-social-conflict model (ch14 non-opposed 3-successes vs ch19 opposed Strong=2/Critical-instant) so both chapters agree.",
+    "confidence": 0.9,
+    "evidence": [
+     {
+      "claim": "Intimidation (Brawn) named as a core social skill, but ch07's roster has no Intimidation row (its Social group is Persuasion/Insight/Deception/Performance) -> expected: a roster-defined skill, not a phantom name with an undefined Brawn key.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "Section claims 'four skills' drive social play -> expected: match the roster's actual four social skills (which omit the invented one and include Performance).",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "Grants a +1 'circumstance bonus' for presence -> expected: a real ch06 lever (Boon = 4d6 keep best 3, or a named difficulty shift); the phrase 'circumstance bonus' appears nowhere else in the book.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "Second grant of a +1 'circumstance bonus' for the dwarf's intimidation stance -> expected: same fix as above (no such mechanic exists in ch06).",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "DA gives a flat +1 'for the Insight Boon' added to the total -> expected: a Boon per ch06 is roll 4d6 keep highest three (a curve change), not a +1 flat modifier; the printed +2 and 16 are mis-derived.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "Extended conflict: 'first to 3 successes wins', each success = 1 -> expected per ch19: roll is opposed, Strong = 2 successes, Critical = instant win; the two rulebooks cannot both hold.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "Worked example counts Lyra's Strong Persuasion as only 1 success -> expected: ch19's table awards a Strong as 2 (which would end the conflict in round 2, not round 3).",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "Passive Insight defined as Knowledge score + 7 -> expected: agrees with ch13's surprise rule (passive Insight = Knowledge + 7), so this is consistent (support-side).",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "Aldric's Persuasion roll 4/5/3 = 12, + Guile 1 + Persuasion Adept 2 = 15 Strong -> expected: arithmetic correct and matches ch03's Aldric canon (Guile +1, Persuasion Adept +2); support-side.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "Lyra's Insight roll 5/2/4 = 11, + Reason 1 + Insight Novice 1 = 13 Standard -> expected: arithmetic self-consistent and tier 9-14 = Standard; support-side.",
+      "source": "14-social-conflict"
+     }
+    ],
+    "id": "f-002",
+    "role": "researcher",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "Stress-testing every rule in the chapter with concrete counter-examples. (1) Failure is undefined. Core tiers treat Weak as a success with a cost, Standard as a clean success, and only triple-1s as an outright miss [06:29-33,45]. Yet the Hostile row says a Standard result fails [14:39], so a player totaling 13 has both succeeded per the core engine and failed per this table; a DA must silently pick one. Fix: reword the row so only Strong moves a Hostile NPC while lesser totals hold or worsen the relationship (mechanical). (2) No Fumble row exists anywhere here. The extended loop folds triple-1s into ordinary misses that shift attitude one step [14:58], and the core fumble complications are all combat-themed [06:157-166]; a natural 1-1-1 before the king is mechanically identical to a plain 8. Fix: add Fumble and Critical rows to both the attitude and extended tables, aligned with the opposed table in the GM chapter [19:189-195] (mechanical). (3) The extended loop is one-sided. Each round exactly one PC rolls [14:56], the NPC never scores, and the first-to-three clause [14:57] can therefore only crown the party; since nearly every roll lands at Weak or above, three non-fumble results are near-certain and the conflict is a rubber stamp. The GM chapter instead runs opposed rolls where a Weak result gifts the opponent a point and a Fumble gifts two [19:187-197], so the two chapters give different games and the book never says which governs. Fix: port the opposed table into this chapter and state precedence (substantive). (4) Nothing ends a deadlock. Attitude drift is the only brake, and once Hostile is reached, continued misses only possibly conclude the talk [14:58] - DA whim, not a rule. A party that keeps producing Weak results can grind indefinitely under the fail-forward guidance [14:63-69]. Fix: hard bounds - three misses lose the conflict, or reaching Hostile ends it automatically (mechanical). (5) Attitude steps are one-directional. Downward movement is specified (one step per miss [14:58]), upward movement appears only in one table cell [14:39] and the example [14:88], and the fiction-driven insult rule [14:44] can fire in the same beat as a roll-driven step with no order of operations; insult an Allied NPC and both systems trigger at once. Fix: spell out both directions and forbid double shifts in one beat (mechanical). (6) The Allied freebie is unbounded and misapplied. 'Reasonable' is never scoped [14:42], and the example banks the winning third point on a roll-free grant while the warden is only Friendly [14:114] - a privilege the table reserves for Allied [14:42], since Friendly still requires rolls for favors [14:41]. Any demand can be framed as reasonable. Fix: scope reasonable (aligned interest, low cost, single request) and correct the example so the freebie comes only from an Allied NPC or a roll is inserted (substantive). (7) Passive Insight has no social comparison target. The formula appears [14:29], and the combat chapter pits it against Stealth [13:197], but nothing here states what a passive score is checked against when someone lies in conversation; a Deception 13 versus a guard with passive 7 is unresolved. Fix: state that an active Deception roll compares against the target's passive score as its threshold, or route active social contests through the opposed-roll rule [06:51-53] (mechanical). (8) The +1 circumstance bonus is invented, uncapped, and stackable. Core resolution offers exactly two levers - difficulty modifiers [06:178-185] and Boon/Bane, the former being 4d6 keep-highest-three worth roughly +2 [06:45-47]. A flat +1 for looming presence [14:122,131] appears nowhere else and stacks without cost, unlike the Aid maneuver which spends a combat Maneuver [13:57]; a five-hero party can pile +4 onto the speaker. Fix: replace with Boon or a difficulty-modifier bonus, capped at one contribution per roll (design-decision). (9) 'Insight Boon' misuses capitalized vocabulary. The example grants a flat +1 labeled Boon [14:104], but a Boon is a defined 4d6 curve change [06:45]; a player who read core rules will demand actual 4d6. Fix: grant a true Boon or lowercase the term (mechanical). (10) Difficulty label versus applied modifier. 'Standard difficulty' [14:84] does match the +0 label in the skills chapter [07:55], so the label is consistent; but the same line calls the cause sympathetic, the GM chapter urges rewarding favorable conditions with bonuses [19:41], and the example applies none without explanation. Fix: one sentence stating sympathy is already priced into Standard, or drop the word (mechanical). Net: the chapter must change; the one-sided race, absent Fumble/Critical handling, Friendly-yet-freebie example, and invented +1 are the sharpest failures.",
+    "confidence": 0.9,
+    "evidence": [
+     {
+      "claim": "In an extended conflict only a player character ever rolls, so the opposing side can never win.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "The Hostile row treats the Standard tier as a failure, contradicting the core definition of Standard as a clean success.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "The example grants the winning third success without a roll even though the warden is only Friendly, not Allied.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "A flat plus one is labeled a Boon even though the core rules define Boon as rolling four dice and keeping the best three.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "Idle heroes each grant a plus-one circumstance bonus, a bonus type the book never defines, caps, or costs.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "Passive Insight gets a formula but no stated comparison target for detecting lies during ordinary conversation.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "Each miss shoves the NPC one step toward Hostile, but nothing says whether a Weak tier counts as that miss.",
+      "source": "14-social-conflict"
+     },
+     {
+      "claim": "Because nearly every roll lands at Weak or better, a race to three successes without an opposing scorer is trivially winnable.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Triple ones have no dedicated treatment here, so a social fumble is downgraded to a plain failure and the drama is lost.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Nothing bounds the number of rounds, so a party that keeps rolling weak can drag the scene on until the DA arbitrarily stops it.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "The example names Standard difficulty while calling the cause sympathetic, and never explains why no bonus is applied.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-003",
+    "role": "contrarian",
+    "stance": "refute",
+    "topic": "t-01"
+   }
+  ],
+  "positions": {
+   "t-01": {
+    "contrarian": "refute",
+    "librarian": "refute",
+    "researcher": "refute"
+   }
+  },
+  "sealed_rulings": []
+ },
+ "problem_brief": "Chapter under review: ch14 (quarto-book/chapters/14-social-conflict.qmd), \"Social Conflict\", 134 lines.\n\nTask: audit the chapter as a publishable unit and produce a disposition plan.\nEach member audits through their own lens (see role card) and files a finding:\n  stance support = the chapter holds on this lens as written\n  stance refute  = the chapter must change; name the fix and its scope\n\nFindings cite [file:line] in the chapter (14-social-conflict.qmd). Mechanics\nfindings state the broken value and the expected value. Cross-chapter checks\nuse the authoritative chapters as the reference, not this chapter (skill\nroster = ch07, core rules = ch06, worked-example canon = ch01/ch03, GM rules\n= ch19, reference tables = ch22).\n\nDisposition classes (for the librarian's synthesis):\n  mechanical    - safe to implement as a micro-PR (headings, tables, wording,\n                  em-dashes, single-cell refs, budget rows)\n  substantive   - needs a dispatched implementation pass (multi-file, new content)\n  design-decision - needs Bruce's ruling; implement the recommended default,\n                  flagged veto-revertible in decisions-pending.md\n\nStanding book conventions are in force: zero em-dashes in book text; damage\nbudgets flat at Novice 2/4/6, Adept 6/9/12, Master 9/15/21; card costs 2/4/8;\nAdept prereqs exactly 2, Master exactly 3. Violations of these conventions\nare findings, not questions.\n",
+ "role": "game-architect",
+ "round": 2,
+ "task": "Assess the contested topics from your role's duties. Emit findings (stance, evidence, confidence, rebutting where applicable)."
+}
