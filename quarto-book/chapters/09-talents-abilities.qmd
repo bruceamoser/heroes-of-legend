@@ -458,7 +458,7 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 
 **Disciplines:** 2 Polearms · **Action:** Reaction · **Range:** Self · **Keywords:** DR
 
-**Weak:** +2 DR against a charge; the attacker takes 2 damage.
+**Weak:** +2 DR against a charge (see Charge Attack in the Equipment chapter); the attacker takes 2 damage.
 
 **Standard:** +2 DR against a charge; the attacker takes 4 damage.
 
