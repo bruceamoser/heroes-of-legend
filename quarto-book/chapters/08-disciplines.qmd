@@ -194,7 +194,7 @@ Every damaging card states its expression in its damage line as either **Flat** 
 
 **Attribute-Scaled** damage adds a keyed attribute to a base value, minimum 1 damage. For spells and abilities, the base is budget − 3 (Novice 1/2/3, Adept 3/6/9, Master 6/12/18), plus the card's stated attribute (e.g. "1/2/3 + Knowledge"). Melee weapons use their listed damage values and add Brawn (Finesse weapons use Agility instead of Brawn for attack and damage; class features such as the Blade's Swift Blade can extend that substitution to other weapons). Missile weapons and ammunition are flat.
 
-Weapons follow their own damage curve (see the Equipment chapter): daggers 1/2/3 up to greatswords 3/5/8, plus Brawn for melee weapons.
+Weapons follow the cards, not their own curve: an attack ability card carries the damage (see the Equipment chapter for what each weapon unlocks). Melee weapons add Brawn, Finesse weapons add Agility; missile and thrown weapons are flat.
 :::
 
 {{< pagebreak >}}

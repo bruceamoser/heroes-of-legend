@@ -22,25 +22,25 @@ A weapon is a promise your hero makes about who they are. The longsword on the h
 
 Pick the weapon that fits your hero, not the one that looks best on paper. They all hit the same; you are the one doing the hitting.
 
-| Weapon | Disciplines Required | Properties | Cost |
-|--------|---------------------|-----------|------|
-| Unarmed | None | | |
-| Dagger | 1 Blades | Finesse, Light, Thrown | |
-| Shortsword | 1 Blades | Finesse, Light | |
-| Longsword | 2 Blades | Versatile | |
-| Greatsword | 2 Blades + 1 Heavy Weapon | | |
-| Handaxe | 1 Axes | Light, Thrown | |
-| Battleaxe | 2 Axes | | |
-| Greataxe | 2 Axes + 1 Heavy Weapon | | |
-| Mace | 1 Heavy Weapon | | |
-| Warhammer | 2 Heavy Weapon | | |
-| Maul | 3 Heavy Weapon | | |
-| Spear | 1 Polearms | Reach, Thrown | |
-| Halberd | 1 Polearms | Reach | |
-| Throwing Dagger | 1 Blades or 1 Archery | Finesse, Thrown | 2 gp |
-| Shortbow | 1 Archery | | |
-| Longbow | 1 Archery | | |
-| Crossbow | 1 Archery | Loading | |
+| Weapon | Disciplines Required | Properties | Range | Cost |
+|--------|---------------------|-----------|-------|------|
+| Unarmed | None | | | |
+| Dagger | 1 Blades | Finesse, Light, Thrown | 20/60 ft (thrown) | 2 gp |
+| Shortsword | 1 Blades | Finesse, Light | | 10 gp |
+| Longsword | 2 Blades | Versatile | | 15 gp |
+| Greatsword | 2 Blades + 1 Heavy Weapon | | | 30 gp |
+| Handaxe | 1 Axes | Light, Thrown | 20/60 ft (thrown) | 5 gp |
+| Battleaxe | 2 Axes | | | 10 gp |
+| Greataxe | 2 Axes + 1 Heavy Weapon | | | 30 gp |
+| Mace | 1 Heavy Weapon | | | 5 gp |
+| Warhammer | 2 Heavy Weapon | | | 10 gp |
+| Maul | 3 Heavy Weapon | | | 40 gp |
+| Spear | 1 Polearms | Reach, Thrown | 20/60 ft (thrown) | 10 gp |
+| Halberd | 1 Polearms | Reach | | 20 gp |
+| Throwing Dagger | 1 Blades or 1 Archery | Finesse, Thrown | 20/60 ft (thrown) | 2 gp |
+| Shortbow | 1 Archery | | 60/120 ft | 25 gp |
+| Longbow | 1 Archery | | 60/120 ft | 50 gp |
+| Crossbow | 1 Archery | Loading | 20/60 ft | 25 gp |
 
 ::: {.callout-note}
 ## Kit Weapons
@@ -49,7 +49,9 @@ Your class starting kit assumes training with its gear: you can wield kit weapon
 
 ::: {.callout-note}
 ## Melee Damage
-Melee attacks add your Brawn to the damage row on your attack ability card; Finesse weapons use Agility instead. Missile and thrown attacks add Agility. See @sec-chapter-talents-abilities for the cards and @sec-chapter-combat for the basic attack. The weapon never changes these numbers.
+Melee attacks add your Brawn to the damage row on your attack ability card; Finesse weapons use Agility instead. Missile and thrown attacks are flat, no attribute added. See @sec-chapter-talents-abilities for the cards and @sec-chapter-combat for the basic attack. The weapon never changes these numbers.
+
+Improvised weapons (a crowbar swung as a club, a hammer in a pinch) deal 1/1/2 + Brawn, the Basic Unarmed floor. A thrown improvised object counts as a thrown attack: 1/2/3 flat, no attribute.
 :::
 
 ::: {.callout-note}
@@ -75,16 +77,16 @@ Weapons don't just require more of the same Discipline, they require specific co
 
 Armor provides damage reduction (DR), subtract from incoming physical damage.
 
-| Armor | Discipline Req | DR |
+| Armor | Discipline | DR |
 |-------|---------------|-----|
-| Padded | None | 1 |
-| Leather | None | 2 |
-| Studded Leather | 1 Armor | 2 |
-| Chain Shirt | 1 Armor | 3 |
-| Breastplate | 2 Armor | 4 |
-| Half Plate | 2 Armor | 4 |
-| Chain Mail | 2 Armor | 5 |
-| Plate | 3 Armor | 6 |
+| **Padded** | None | 1 |
+| **Leather** | None | 2 |
+| **Studded Leather** | 1 Armor | 2 |
+| **Chain Shirt** | 1 Armor | 3 |
+| **Breastplate** | 2 Armor | 4 |
+| **Half Plate** | 2 Armor | 4 |
+| **Chain Mail** | 2 Armor | 5 |
+| **Plate** | 3 Armor | 6 |
 
 Full table with Stealth column: see @sec-chapter-armor-shields.
 
@@ -94,9 +96,11 @@ Shields: **Buckler** (1 Protection, +1 DR), **Shield** (1 Protection, +2 DR), **
 
 ## Encumbrance
 
+You're carrying your life. The question is how much of it fits on your back before the pack starts digging into your shoulders.
+
 Slot-based system. You have 10 + (Brawn x 5) slots. Most items take 1 slot. Armor takes 2-4 slots. Two-handed weapons take 2 slots.
 
-{{< pagebreak >}}
+A hero with Brawn +1 has 15 slots. A longsword (1 slot), a backpack (2 slots), a bedroll (2), a waterskin (1), torches (1), a quiver (1), and a dagger (1) is 9 slots. The remaining 6 slots cover the oddities, the spare rope, the lantern, the thing you picked up in the cellar that might be worth something.
 
 ![Illo 37: Equipment Midpoint](../assets/svg/placeholder-section.svg){width="60%"}
 
@@ -113,23 +117,23 @@ The general store doesn't sell magic swords. It sells rope, rations, and the tho
 | **Arcane Focus** | 10 gp | 0 | A wand, rod, orb, or crystal that channels arcane power. Used to cast arcane spells. |
 | **Arrows (quiver of 20)** | 1 gp | 1 | Ammunition for shortbows and longbows. |
 | **Backpack** | 2 gp | 2* | Holds up to 30 slots of gear. Items stored inside don't count against your encumbrance, but the backpack itself takes 2 slots on your person. Retrieving a stored item takes a Maneuver. |
-| **Bedroll** | 1 gp | 2 | A warm bedroll and blanket. Required for a full rest in the wild. Without one, you recover half HP (rounded down) from rest. |
+| **Bedroll** | 1 gp | 2 | A warm bedroll and blanket. Required for a long rest in the wild. Without one, you recover half the normal long rest healing, rounded down. |
 | **Bolts (quiver of 20)** | 1 gp | 1 | Ammunition for crossbows. |
-| **Caltrops (bag)** | 1 gp | 1 | Scatter across a 5-ft square as a maneuver. A creature moving through must make an Agility check (Standard) or take 1 damage and halve its speed until the end of its next turn. |
+| **Caltrops (bag)** | 1 gp | 1 | Scatter across a 5-ft square as a maneuver. A creature moving through must make an Agility check (Standard) or take 1 damage and gain Slowed 15 until the start of its next turn. |
 | **Chalk (5 pieces)** | 5 cp | 0 | Mark walls, leave signals, draw ritual circles. Breaks easily. Costs nothing. |
-| **Crowbar** | 2 gp | 1 | Boon on Brawn checks to force open doors, chests, or grates. Makes a loud noise, no subtlety. Can be used as an improvised weapon (1/1/2 damage). |
+| **Crowbar** | 2 gp | 1 | Boon on Brawn checks to force open doors, chests, or grates. Makes a loud noise, no subtlety. Can be used as an improvised weapon (1/1/2 + Brawn). |
 | **Disguise Kit** | 25 gp | 1 | Cosmetics, dyes, and false hair. Required for Deception checks to hold a disguise over time. |
 | **Fishing Tackle** | 1 gp | 1 | Hook, line, and tackle. With a body of water and 1 hour, make a Knowledge check (Standard 9-14) to catch enough fish to feed one person for the day. On a Strong result, feed two. |
 | **Focus Pouch** | 5 gp | 1 | A belt pouch of the small focuses a caster relies on. Spells need no material components. |
 | **Grappling Hook** | 2 gp | 1 | Hooks onto ledges, branches, or battlements. Attach a rope and throw, range 30 ft. Requires a Brawn or Agility check (Standard) to set securely. |
-| **Hammer** | 1 gp | 1 | Drives pitons, breaks things, nails doors shut. Can be used as an improvised weapon (1/1/2 damage). |
+| **Hammer** | 1 gp | 1 | Drives pitons, breaks things, nails doors shut. Can be used as an improvised weapon (1/1/2 + Brawn). |
 | **Healer's Kit** | 5 gp | 1 | Bandages, salves, and splints. 10 uses. When you stabilize a dying creature or restore HP during a short rest, add +1 HP per use expended. Without a kit, you can't use the Medicine skill to restore HP during rests. |
 | **Holy Symbol** | 5 gp | 0 | A pendant, emblem, or reliquary that channels divine power. Used to cast divine spells. |
 | **Ink & Pen** | 10 gp | 0 | Write letters, copy maps, forge documents. The ink lasts for roughly 20 pages. The pen is a quill, replace it when the cat gets it. |
 | **Lantern (hooded)** | 5 gp | 1 | Bright light 30 ft, dim light 30 ft. The hood can be closed to reduce light to a 5-ft radius, useful for stealth. Burns for 6 hours per flask of oil. |
 | **Manacles** | 2 gp | 1 | Restrains a creature of Small or Medium size. Escape requires an Agility check (Strong 15+) or a Brawn check (Strong 15+) to break. Without the key, they're not coming off quietly. |
 | **Mirror (steel)** | 5 gp | 0 | Polished steel, not glass, it won't shatter when the fireball hits. Useful for looking around corners, signaling with reflected light, and confirming you're not a vampire. |
-| **Oil (flask)** | 1 sp | 1 | Fuel for lanterns (6 hours). Can be thrown and ignited as an improvised attack, 2 fire damage on hit, and the target takes 1 ongoing fire damage until they spend an action to put it out. |
+| **Oil (flask)** | 1 sp | 1 | Fuel for lanterns (6 hours). Can be thrown and ignited as an improvised attack, 2 fire damage on hit, and the target gains Burning 1. A creature already on fire cannot be set alight twice; the new flask is wasted. |
 | **Parchment (5 sheets)** | 1 gp | 0 | Blank parchment. Maps, letters, wanted posters with your face on them, parchment is the medium of adventure. |
 | **Pitons (set of 10)** | 5 sp | 1 | Iron spikes for climbing or securing ropes. Each piton supports 300 lbs when properly hammered into stone. Climbing a piton-anchored rope requires no check. |
 | **Pouch (belt)** | 5 sp | 0* | Holds up to 50 coins or small items. Does not take a slot, it straps to your belt. The coins inside don't count against encumbrance. Be honest about what fits. |
@@ -144,9 +148,9 @@ The general store doesn't sell magic swords. It sells rope, rations, and the tho
 | **Spyglass** | 100 gp | 1 | Magnifies distant objects. Reduce the difficulty of visual Perception checks at long range by one tier (Strong becomes Standard, Standard becomes Weak). Objects beyond 1 mile are still indistinct. |
 | **Tent (2-person)** | 2 gp | 3 | Canvas shelter. Keeps rain off, holds heat. Sleeping in a tent during severe weather negates the exhaustion penalty for exposure. Two people can squeeze in, three if you're very good friends. |
 | **Thieves' Tools** | 25 gp | 1 | Lockpicks, files, and tension wrenches in a leather roll. Required for lockpicking and disabling mechanical traps. Without these, you can't make Thievery checks to pick locks. If you break a pick (fumble), replacement picks cost 5 gp. |
-| **Torch (bundle of 3)** | 1 sp | 1 | Bright light 15 ft, dim light 15 ft. Burns for 1 hour. Can be used as an improvised weapon, 1 fire damage on hit. Wind, rain, or being dropped in water extinguishes. |
-| **Volatile Reagents (alchemist's fire)** | 10 gp | 1 | A vial of unstable chemicals. Thrown as an improvised attack, 2 fire damage on hit, plus 1 ongoing fire damage until the target spends an action to put it out. |
-| **Waterskin** | 2 sp | 1 | Holds a half-gallon of water. One day without water: -1 to all rolls. Two days: -2. Three days: you're dying. In hot climates or heavy exertion, double the consumption rate. |
+| **Torch (bundle of 3)** | 1 sp | 1 | Bright light 15 ft, dim light 15 ft. Burns for 1 hour. Can be used as an improvised weapon, 1/1/2 + Brawn fire damage on hit. Wind, rain, or being dropped in water extinguishes. |
+| **Volatile Reagents (alchemist's fire)** | 10 gp | 1 | A vial of unstable chemicals. Thrown as an improvised attack, 2 fire damage on hit, and the target gains Burning 1. A creature already on fire cannot be set alight twice; the vial is wasted. |
+| **Waterskin** | 2 sp | 1 | Holds a half-gallon of water. One day without water: -1 to all rolls. Two days: -2. Three days: your body starts shutting down. In hot climates or heavy exertion, double the consumption rate. |
 
 **Coins and Encumbrance:** 100 coins of any denomination take 1 slot. A pouch holds up to 50 coins slot-free. A sack holds up to 300 coins before it tears. After your first dragon hoard, invest in a wagon.
 
@@ -175,7 +179,7 @@ Mounts use a simplified stat block, HP, Speed, carrying capacity, and any specia
 | **Camel** | 100 gp | 22 | 50 ft | 500 lbs | Desert Adapted: no penalties for heat or sand. Can go 5 days without water. |
 | **Mule** | 8 gp | 15 | 30 ft | 400 lbs | Stubborn: once per session, may reroll a failed check to resist being moved, frightened, or coerced. |
 
-**Mount gear:** Saddle (10 gp), saddlebags (4 gp, hold 50 lbs), bit and bridle (2 gp), barding (light: 50 gp, +1 DR to mount; heavy: 200 gp, +3 DR to mount, Speed reduced by 10 ft). Feed costs 5 cp per day per mount. Stabling at an inn costs 5 sp per night.
+**Mount gear:** Saddle (10 gp), saddlebags (4 gp, hold 50 lbs), bit and bridle (2 gp), barding (light: 50 gp, +1 DR to mount; heavy: 200 gp, +3 DR to mount, Speed reduced by 10 ft). Barded mounts remain valid targets of focused fire; sustained attacks bring even an armored warhorse down. Feed costs 5 cp per day per mount. Stabling at an inn costs 5 sp per night.
 
 ::: {.callout-note}
 ## Naming Your Mount
@@ -186,19 +190,19 @@ Give the horse a name. It'll die in session three and you'll all be genuinely up
 
 Fighting from horseback isn't just "combat but taller." It changes the geometry of the fight. Use it.
 
-**Charge Attack:** Here's the big one. When you move at least 20 feet in a straight line before making a melee attack from a mount, your damage tier increases by one step:
+**Charge Attack:** Here's the big one. When you move at least 20 feet in a straight line before making a melee attack from a mount, your attack deals +1 damage tier, the row one step up on the damage budget (see @sec-damage-budget). Strong is already the top row, so a Strong charge stays Strong.
 
 | Normal Result | Charge Result |
 |---------------|---------------|
 | Weak | Standard |
 | Standard | Strong |
-| Strong | Strong + 3 |
+| Strong | Strong |
 
-The charge must be in a straight line, no zigzagging through trees. The mount must have a clear path. The target must be within reach at the end of the movement. The mount can continue moving after the attack if it has movement remaining. A warhorse at full gallop with a lance is the closest thing to a thunderbolt you'll ever ride.
+The charge must be in a straight line, no zigzagging through trees. The mount must have a clear path. The target must be within reach at the end of the movement. The mount can continue moving after the attack if it has movement remaining. Only one charge benefit per attack, so the off-hand strike of a two-weapon fight does not also claim it. A warhorse at full gallop with a lance is the closest thing to a thunderbolt you'll ever ride.
 
-**Controlling a Mount:** You direct your mount using the Command maneuver, no roll required for trained mounts (warhorses, riding horses with riders who have Survival or Nature). For untrained mounts or in chaotic situations (explosions, dragon fear, the horse just took an arrow), the DA may require a Survival or Nature check (Standard) to keep control.
+**Controlling a Mount:** Steering is free. A trained mount (a warhorse, or a riding horse with a rider who has Survival or Nature) follows the fiction, no roll required. To make the mount do something extra beyond its normal movement, spend the Command maneuver (see @sec-chapter-combat): the mount takes an extra move. In chaotic situations (explosions, dragon fear, the horse just took an arrow), the DA may call for a Survival or Nature check (Standard) to keep control.
 
-**Fighting from a Moving Mount:** Ranged attacks made from a moving mount suffer a -2 penalty. The horse's gait throws off your aim. If you have Survival or Nature at Adept or higher, this penalty is reduced to -1. At Master rank, you ignore it entirely, you could thread an arrow through a keyhole at full gallop.
+**Fighting from a Moving Mount:** Ranged attacks made from a moving mount suffer a Bane. The horse's gait throws off your aim. If you have Survival or Nature at Adept or higher, the gait is nothing to you and the Bane is dropped. At Master rank, you ignore it entirely, you could thread an arrow through a keyhole at full gallop.
 
 **Mount Death:** When your mount drops to 0 HP, it collapses. You're coming off. Make an Agility check (Standard 9-14) or take 3 damage and land Prone. On a Strong result, you leap clear and land on your feet, no damage, no Prone, all style.
 
@@ -208,7 +212,7 @@ The charge must be in a straight line, no zigzagging through trees. The mount mu
 
 ::: {.callout-tip}
 ## The Cavalry Arrives
-A party of four on horseback charging a line of goblins is one of the great joys of this game. The charge damage boost turns a Standard hit into a Strong one, and Strong into something legendary. Encourage your players to use terrain, momentum, and positioning. A mounted combatant who stands still might as well be on foot.
+A party of four on horseback charging a line of goblins is one of the great joys of this game. The charge is the reason the section exists. Encourage your players to use terrain, momentum, and positioning. A mounted combatant who stands still might as well be on foot.
 :::
 
 ### Vehicles
@@ -217,18 +221,18 @@ Sometimes you need to move more than yourself. Trade goods, siege equipment, the
 
 | Vehicle | Cost | HP | Speed | Crew | Passengers | Cargo |
 |---------|------|-----|-------|------|------------|-------|
-| **Cart** | 50 gp | 30 | Draft animal | 1 | 3 | 500 lbs |
-| **Wagon** | 100 gp | 50 | Draft animal | 1 | 6 | 2,000 lbs |
-| **Carriage** | 300 gp | 40 | Draft animal (-2) | 1 | 4 | 200 lbs |
-| **Chariot** | 150 gp | 25 | Draft animal (-2) | 1 | 1 | 50 lbs |
-| **Small Boat** | 200 gp | 40 | Oars or sail | 2 | 4 | 500 lbs |
-| **River Barge** | 800 gp | 80 | Oars or sail | 4 | 10 | 5 tons |
-| **Coastal Ship** | 5,000 gp | 200 | Sail | 10 | 30 | 10 tons |
-| **Warship** | 10,000 gp | 300 | Sail + oars | 40 | 60 | 5 tons |
+| **Cart** | 50 gp | 30 | 40 ft (draft horse) | 1 | 3 | 500 lbs |
+| **Wagon** | 100 gp | 50 | 40 ft (draft horse) | 1 | 6 | 2,000 lbs |
+| **Carriage** | 300 gp | 40 | 20 ft (draft horse, -2) | 1 | 4 | 200 lbs |
+| **Chariot** | 150 gp | 25 | 20 ft (draft horse, -2) | 1 | 1 | 50 lbs |
+| **Small Boat** | 200 gp | 40 | 30 ft (oars), 45 ft (sail) | 2 | 4 | 500 lbs |
+| **River Barge** | 800 gp | 80 | 20 ft (oars), 35 ft (sail) | 4 | 10 | 5 tons |
+| **Coastal Ship** | 5,000 gp | 200 | 30 ft (sail) | 10 | 30 | 10 tons |
+| **Warship** | 10,000 gp | 300 | 40 ft (sail + oars) | 40 | 60 | 5 tons |
 
 **Vehicle Rules:**
 
-- **Speed:** A vehicle drawn by draft animals moves at the animal's Speed while carrying up to its listed cargo capacity. Exceeding cargo capacity halves Speed. Doubling it stops the vehicle entirely, the axle's not made of magic.
+- **Speed:** The Speed column lists the vehicle's movement, with the draft animal's contribution in parentheses. A carriage and a chariot are heavier and less maneuverable, so their draft horse effectively moves at 20 ft. Exceeding cargo capacity halves Speed. Doubling it stops the vehicle entirely, the axle's not made of magic. A boat under oars moves at its oared speed; a favorable sail moves it at its sailed speed.
 - **Crew:** The listed number is the minimum required to operate the vehicle. Half crew means Speed is halved. No crew means the vehicle drifts (water) or stops (land).
 - **Vehicle HP:** When a vehicle reaches 0 HP, it's destroyed, a cart collapses, a ship breaks apart. Repairs cost 10% of the vehicle's value per HP restored and require a craftsperson and 1 day per 5 HP.
 - **Combat on Vehicles:** Characters on a moving vehicle use the vehicle's Speed for relative positioning but act on their own initiative. The DA may call for Agility checks (Standard) to keep footing during sharp turns, collisions, or rough terrain. Falling off a wagon is embarrassing. Falling off a ship in a storm is a death sentence. Know the difference.
@@ -236,5 +240,7 @@ Sometimes you need to move more than yourself. Trade goods, siege equipment, the
 
 ::: {.callout-tip}
 ## Chases
-For vehicle vs. vehicle chases, a wagon fleeing bandits on horseback, a ship outrunning pirates, use a simple contest. Each side rolls 1d6 each round. The side with the higher Speed rating gains +1 to the roll. First side to 3 successes wins (escape or capture). On a tie, something happens, a wheel hits a rock, a sail tears, a horse stumbles. The DA narrates the complication.
+For vehicle vs. vehicle chases, a wagon fleeing bandits on horseback, a ship outrunning pirates, use a simple contest. Each round, each side rolls 1d6. The faster side adds a bonus equal to the Speed difference divided by 10 (a 60 ft horse against a 40 ft wagon is +2). The side with the higher total gains 1 success. First side to 3 successes wins, escape or capture. On a tie, something happens, a wheel hits a rock, a sail tears, a horse stumbles. The DA narrates the complication. The chase ends when one side reaches 3 successes, a vehicle is destroyed, or the DA calls it.
 :::
+
+Gear is the quiet part of the story. Your players will remember the goblins, the gold, and the horse that died in session three. They will also remember the weight of the longsword and the relief of finding oil for the lantern. Buy it well. Lose it badly. That's the adventure.
