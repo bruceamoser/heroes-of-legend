@@ -90,7 +90,7 @@ Armor provides damage reduction (DR), subtract from incoming physical damage.
 
 Full table with Stealth column: see @sec-chapter-armor-shields.
 
-Shields: **Buckler** (1 Protection, +1 DR), **Shield** (1 Protection, +2 DR), **Tower Shield** (2 Protection, +3 DR, provides half cover).
+Shields: **Buckler** (1 Protection, +1 DR), **Shield** (1 Protection, +2 DR), **Tower Shield** (2 Protection, +3 DR, provides half cover). Prices: see @sec-chapter-armor-shields.
 
 {{< pagebreak >}}
 
