@@ -100,7 +100,7 @@ Abilities, talents, and spells require specific Disciplines before you can learn
 |--------------|---------------------|------|
 | Brimstone Burst | 2 Fire | Adept |
 | Pillar of Light | 2 Religion | Adept |
-| Shield Block | 2 Armor | Adept |
+| Shield Slam | 2 Armor | Adept |
 | Force Dart | 1 Energy | Novice |
 | Beast Tongue | 1 Animal | Novice |
 
