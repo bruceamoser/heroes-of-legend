@@ -116,7 +116,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Lift X:** An effect that raises the target X feet into the air and holds them there. The target is Restrained while held.
 
-**Protection Value (PV):** A defensive bonus from shields, the Defend maneuver, and some abilities. Adds to DR or enables Shield Block.
+**Protection Value (PV):** A temporary defensive bonus from abilities such as Bastion or Arcane Shield. Adds to DR.
 
 **Shield Block:** A reaction that reduces incoming damage by one tier. Requires a shield.
 

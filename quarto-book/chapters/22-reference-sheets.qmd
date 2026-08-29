@@ -294,7 +294,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 | Chain Mail | 5 | Bane | 2 Armor |
 | Plate | 6 | Bane | 3 Armor |
 
-| Shield | PV | DR Bonus |
+| Shield | Protection Req | DR Bonus |
 |--------|-----|----------|
 | Buckler | 1 | +1 |
 | Shield | 1 | +2 |
