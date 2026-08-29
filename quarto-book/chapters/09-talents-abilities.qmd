@@ -370,20 +370,6 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 
 **Master:** +1 damage tier on your next weapon attack, and Piercing 1/2/3.
 
-### Shield Block (Weapon Maneuver)
-
-**Disciplines:** 2 Armor · **Action:** Reaction · **Range:** Self · **Keywords:** DR
-
-**Weak:** Reduce one attack against you by your shield DR + 2.
-
-**Standard:** Reduce one attack against you by your shield DR + 4.
-
-**Strong:** Reduce one attack against you by your shield DR + 6.
-
-**Adept:** Reduce one attack against you by your shield DR + 6/9/12.
-
-**Master:** Reduce one attack against you by your shield DR + 9; the attacker takes 2 damage.
-
 ### Shield Slam (Weapon Maneuver)
 
 **Disciplines:** 2 Armor · **Action:** Maneuver · **Range:** Melee · **Keywords:** Prone, Push
