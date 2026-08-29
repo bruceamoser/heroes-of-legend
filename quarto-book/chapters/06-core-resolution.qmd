@@ -118,11 +118,11 @@ This reversal is intentional. When you attack, a high roll means you hit hard. W
 
 ### Defense Roll Example
 
-A goblin lunges at Kael with a rusty shortsword. The DA says: "The goblin's attack is Challenge −1. Roll Defense."
+A goblin lunges at Kael with a rusty scimitar. The DA says: "The goblin's attack is Challenge −1. Roll Defense."
 
 Kael has Agility +2. He rolls 3d6 + 2 (Agility) − 1 (goblin's Challenge) = 3d6 + 1.
 
-He rolls 4, 3, 5 = 13. **Standard.** The goblin's Standard damage is 3. Kael's leather armor (DR 2) reduces it to 1. The goblin's blade scrapes across his ribs: shallow, painful, but not dangerous.
+He rolls 4, 3, 5 = 13. **Standard.** The goblin's Standard damage is 4. Kael's leather armor (DR 2) reduces it to 2. The goblin's blade scrapes across his ribs: shallow, painful, but not dangerous.
 
 Kael has no defensive skill in this example, so he uses the baseline formula. Had he trained Dodge, he could have rolled Agility + Dodge rank; with Parry and a weapon or shield in hand, he could have rolled Brawn + Parry rank.
 
