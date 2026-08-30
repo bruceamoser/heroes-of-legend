@@ -21,8 +21,10 @@ Magic items enhance heroes and may grant Disciplines. Some are always on. Some m
 Every magic item is a card, the same shape as a talent or ability card (see @sec-chapter-talents-abilities):
 
 - **Name:** What it's called. Every item is named and unique. There is no generic "+1 sword."
-- **Rarity:** Uncommon, Rare, Very Rare, or Legendary. Rarity governs how often these appear and what level heroes should find them.
+- **Rarity:** Uncommon, Rare, Very Rare, or Legendary (and beyond them, Artifacts, unique items of world-shaking power). Rarity governs how often these appear and what level heroes should find them.
 - **Attunement:** Whether it requires one of your three attunement slots.
+- **Type:** What the item is: a sword, a cloak, a potion, a wonder. The Type tells you what it occupies and what it interacts with.
+- **Disciplines:** The Disciplines an item grants while attuned (see Discipline Items below). These count as learned Disciplines for prerequisites.
 - **Granted Action:** What the item grants: a Maneuver, an Action, a Reaction, or a Passive. An activated power resolves with a single 3d6 roll using your attribute and skill, exactly like an ability card. One roll, one outcome. There is no separate damage roll.
 - **Weak / Standard / Strong:** The outcome rows for an activated power. Damaging powers key to the damage budget (@sec-damage-budget): Novice 2/4/6, Adept 6/9/12, Master 9/15/21.
 
@@ -36,7 +38,7 @@ Every magic item is a card, the same shape as a talent or ability card (see @sec
 
 ## Magic Items
 
-The items below are named and unique, found and never bought. Each is a card: a rarity, an attunement, and a granted action or passive. Activated powers roll once with your attribute and resolve on the Weak, Standard, or Strong row.
+Each item below is a card: a rarity, an attunement, and a granted action or passive. Activated powers roll once with your attribute and resolve on the Weak, Standard, or Strong row.
 
 ### Blade of the Last Ember
 
@@ -51,8 +53,8 @@ A sword forged from a fallen star. The blade is warm to the touch and glows fain
 | Success Tier | Effect |
 |-------------|--------|
 | **Weak** | 2 fire damage to all creatures in radius. |
-| **Standard** | 4 fire damage. Creatures that fail a Fortitude check are Blinded until end of your next turn. |
-| **Strong** | 6 fire damage. Creatures are Blinded (no check) and suffer Burning 2 (spend an action to end). |
+| **Standard** | 4 fire damage. Creatures are Blinded until end of your next turn. |
+| **Strong** | 6 fire damage. Creatures are Blinded and suffer Burning 2 (spend an action to end). |
 
 ### Cloak of Elvenkind
 
@@ -60,7 +62,7 @@ A sword forged from a fallen star. The blade is warm to the touch and glows fain
 
 A cloak of grey-green wool that shifts its shade to match the forest. When you pull up the hood, the woods forget you were ever there.
 
-**Passive:** You gain Boon on Stealth checks.
+**Passive:** While in natural surroundings (forests, hills, wilderness), you have Boon on Stealth checks.
 
 ### Veilwalker's Shroud
 
@@ -68,7 +70,7 @@ A cloak of grey-green wool that shifts its shade to match the forest. When you p
 
 A cloak woven from shadow and spider silk. When you pull the hood up, the world forgets you're there.
 
-**Passive:** You gain Boon on Stealth checks.
+**Passive:** You have Boon on Stealth checks.
 
 **Granted Maneuver, Step Between (once per encounter):** You vanish from your current position and reappear up to 30 ft away in any shadow or dimly lit area.
 
@@ -91,7 +93,7 @@ Leather gloves crackling with trapped lightning. Your fingers leave faint arcs o
 | Success Tier | Effect |
 |-------------|--------|
 | **Weak** | 2 lightning damage. Target's hair stands on end. They know they were targeted. |
-| **Standard** | 4 lightning damage. Target must make a Fortitude check or lose their reaction. |
+| **Standard** | 4 lightning damage. Target cannot take Reactions until end of your next turn. |
 | **Strong** | 6 lightning damage. Target is Stunned until end of your next turn. |
 
 ### Chalice of Shared Mercy
@@ -114,7 +116,7 @@ A silver chalice that never tarnishes. Liquid poured into it glows with a soft g
 
 A broad leather belt with a buckle of carved mountain stone. It's heavier than it looks, much heavier.
 
-**Passive:** Your Brawn score is treated as +3 for the purposes of carrying capacity, lifting, and breaking objects. Your Brawn modifier for attack and damage rolls is unchanged.
+**Passive:** You have Boon on Brawn checks to carry, lift, or break objects. Your Brawn modifier for attack and damage rolls is unchanged.
 
 **Passive:** You have Boon on Brawn checks to grapple, shove, or resist being moved.
 
@@ -128,7 +130,7 @@ A spiral horn carved from the tooth of some great celestial beast. When blown, i
 
 | Success Tier | Effect |
 |-------------|--------|
-| **Weak** | All allies within 60 ft lose the Frightened condition. |
+| **Weak** | All allies within 60 ft lose Frightened. |
 | **Standard** | All allies lose Frightened. Undead within 60 ft have Bane on their next attack. |
 | **Strong** | All allies lose Frightened and gain a Boon on their next roll. Undead within 60 ft take 6 radiant damage. |
 
@@ -180,7 +182,7 @@ A small silver locket containing a scrap of parchment. The ink on the parchment 
 
 **Granted Action, Final Word (once per campaign):** You open the locket, read the words aloud, and speak directly to the heart of one creature that can hear you.
 
-No roll. The creature's attitude shifts two steps toward Friendly. If it was Hostile, it becomes Neutral. If it was Neutral, it becomes Allied. The effect is permanent unless you betray the trust the locket creates.
+No roll. The creature's attitude shifts toward you: if it was Hostile, it becomes Neutral; if it was Neutral, it becomes Allied. The effect is permanent unless you betray the trust the locket creates.
 
 The locket crumbles to dust after use. Some words can only be spoken once.
 
@@ -190,7 +192,7 @@ The locket crumbles to dust after use. Some words can only be spoken once.
 
 A deck of cards that is sometimes twenty-two, sometimes twelve, sometimes none, depending on who is counting. Each card is a fate. Some grant wishes. Some steal your soul. The deck has ended more campaigns than any dragon.
 
-**Granted Action, Draw a Card:** You draw one card. Fate unfolds. The DA decides what the card means. There is no roll to resist; the deck does not care what you want.
+**Granted Action, Draw a Card (once per session):** You draw one card. Fate unfolds. The DA decides what the card means. There is no roll to resist; the deck does not care what you want.
 
 ### Frost Brand
 
@@ -204,8 +206,8 @@ A longsword with a blade of pale blue ice that never melts. Condensation beads o
 
 | Success Tier | Effect |
 |-------------|--------|
-| **Weak** | 2 cold damage to all creatures in radius. Ground becomes slick, creatures moving through the area must make an Agility check or fall Prone. |
-| **Standard** | 4 cold damage. Creatures that fail a Fortitude check are Slowed 5 until end of your next turn. |
+| **Weak** | 2 cold damage to all creatures in radius. The ground becomes slick, difficult terrain until end of your next turn. |
+| **Standard** | 4 cold damage. Creatures are Slowed 5 until end of your next turn. |
 | **Strong** | 6 cold damage. Creatures are Frozen 2 until end of your next turn. The area remains difficult terrain for 1 minute. |
 
 ### Thunder Maul
@@ -221,7 +223,7 @@ A massive hammer with a head of clouded silver. When it strikes, the air cracks 
 | Success Tier | Effect |
 |-------------|--------|
 | **Weak** | 6 thunder damage. Creatures in the cone are pushed 5 ft away from you. |
-| **Standard** | 9 thunder damage. Creatures are pushed 10 ft and must make a Fortitude check or be knocked Prone. |
+| **Standard** | 9 thunder damage. Creatures are pushed 10 ft and knocked Prone. |
 | **Strong** | 12 thunder damage. Creatures are pushed 15 ft, knocked Prone, and Stunned until end of your next turn. |
 
 ### Shadow Thorn
@@ -248,13 +250,13 @@ A longbow of pale golden wood, warm to the touch. When drawn, the string hums wi
 
 **Passive:** Arrows fired from the Sunbow deal radiant damage instead of physical.
 
-**Granted Action, Blinding Volley (once per encounter):** You fire an arrow that erupts in a burst of blinding light at a point within range. All creatures within 10 ft of the impact point must make a Fortitude check or be Blinded.
+**Granted Action, Blinding Volley (once per encounter):** You fire an arrow that erupts in a burst of blinding light at a point within range. All creatures within 10 ft of the impact point are caught in the burst.
 
 | Success Tier | Effect |
 |-------------|--------|
-| **Weak** | Creatures in the radius are Dazzled (-1 to attack rolls) until end of your next turn. No damage. |
-| **Standard** | 2 radiant damage to all creatures in radius. Creatures that fail their check are Blinded until end of your next turn. |
-| **Strong** | 6 radiant damage. Creatures are Blinded (no check) until end of your next turn. Undead take +1 damage tier. |
+| **Weak** | 2 radiant damage. Creatures in the radius are Dazzled until end of your next turn. |
+| **Standard** | 4 radiant damage. Creatures are Blinded until end of your next turn. |
+| **Strong** | 6 radiant damage. Creatures are Blinded until end of your next turn. Undead take +1 damage tier. |
 
 ### Spellguard Shield
 
@@ -268,7 +270,7 @@ A shield of silvered steel inlaid with faintly glowing runes. The runes pulse so
 
 | Success Tier | Effect |
 |-------------|--------|
-| **Weak** | The spell is negated but the shield's runes go dark, you cannot use Spell Catch again for the rest of the session. |
+| **Weak** | The spell is negated but the shield's runes go dark, you cannot use Spell Catch again for the rest of the encounter. |
 | **Standard** | The spell is negated. The shield stores one charge of the spell's energy, your next attack gains +1 damage tier of the absorbed spell's damage type. |
 | **Strong** | The spell is negated and reflected back at the caster. They suffer the spell's Weak effect. |
 
@@ -290,7 +292,7 @@ A nondescript leather satchel, slightly larger than a coin purse. The interior i
 
 **Passive:** The bag can hold up to 500 pounds of gear while weighing only 15 pounds regardless of contents. Items placed inside must fit through the bag's opening (roughly 2 feet in diameter). Retrieving an item requires a Maneuver, the bag always produces the item you're thinking of, but you do have to reach in and find it.
 
-**Warning:** Piercing or tearing the bag from the inside destroys it and scatters its contents across the Astral Plane. Don't put the Immovable Rod in the Bag of Holding. Don't put the Bag of Holding in another Bag of Holding.
+**Warning:** Piercing or tearing the bag from the inside destroys it and scatters its contents across the Astral Plane. Don't put the Immovable Rod in the Bag of Holding. Don't put the Bag of Holding in another Bag of Holding: the inner bag is pierced and both are destroyed, their contents scattered across the Astral Plane.
 
 ### Rope of Climbing
 
@@ -298,7 +300,7 @@ A nondescript leather satchel, slightly larger than a coin purse. The interior i
 
 Sixty feet of silken rope, fine as a finger's width and strong as steel cable. When you speak the command word, it animates, rising, coiling, and knotting itself with the patience of a trained serpent.
 
-**Granted Maneuver, Animate Rope (at will):** You speak the command word and designate a destination within 60 ft. The rope rises and fastens itself securely to that point.
+**Granted Maneuver, Animate Rope (at will):** You speak the command word and designate an inanimate destination within 60 ft. The rope rises and fastens itself securely to that point.
 
 | Success Tier | Effect |
 |-------------|--------|
@@ -322,7 +324,7 @@ A brass lantern with lenses of violet glass. When lit, its flame burns a pale bl
 
 A flat iron rod, two feet long, with a single button at one end. It looks like a piece of scaffolding that someone forgot to install. Press the button. The rod freezes in place, not braced, not wedged, just *fixed*, as if the universe has decided this particular rod belongs exactly here and nowhere else.
 
-**Granted Maneuver, Immovable (at will):** Press the button. The rod locks into its current position in space and does not move. It can support up to 8,000 pounds of weight before deactivating. A creature can force the rod to move by succeeding on a Brawn check (Strong 17-20). Press the button again to deactivate.
+**Granted Maneuver, Immovable (at will):** Press the button. The rod locks into its current position in space and does not move. It can support up to 8,000 pounds of weight before deactivating. A creature can force the rod to move by succeeding on a Brawn check (Strong 15+). Press the button again to deactivate.
 
 **Creative uses (all confirmed by playtesters who should have been taking notes instead of experimenting):** Bar a door from the wrong side. Anchor a rope in midair. Stop a wagon. Pin a giant's cloak to the floor. Hang a hammock between nothing and nothing. Attach two Immovable Rods to a shield and create an instant ladder (the party's Arcanist will call this "a ladder", they're insufferable, but they're right).
 
@@ -353,8 +355,8 @@ A crystalline vial containing a swirling, iridescent vapor that never settles. T
 | Success Tier | Effect |
 |-------------|--------|
 | **Weak** | 2 damage of the chosen type to all creatures in the cone. |
-| **Standard** | 4 damage. Creatures that fail an Agility check take full damage; those that succeed take half. |
-| **Strong** | 6 damage. Creatures that fail an Agility check take full damage and suffer Burning 2 of the chosen type (spend an action to end). Those that succeed take half and no Burning. |
+| **Standard** | 4 damage of the chosen type to all creatures in the cone. |
+| **Strong** | 6 damage. Creatures suffer Burning 2 of the chosen type (spend an action to end). |
 
 The elixir's potency fades after 24 hours once opened. An unopened vial keeps indefinitely, some have been found in dragon hoards centuries old, still swirling, still waiting.
 
@@ -372,7 +374,7 @@ A cloak of deep blue leather, smooth and faintly slick to the touch. When submer
 
 ## Attunement
 
-A character may attune to **3 magic items** at a time. Artifacts do not count against this limit. Attuning to an item requires a brief period of focus, bonding with the item's magic rather than simply picking it up.
+A character may attune to **3 magic items** at a time. Artifacts, unique items of legend beyond even Legendary rarity, do not count against this limit. Attuning to an item requires a brief period of focus, bonding with the item's magic rather than simply picking it up.
 
 ::: {.callout-note}
 ## Attunement Is a Choice, Not a Limit
@@ -388,7 +390,7 @@ One veteran's advice: keep one attunement slot flexible. Dedicate two slots to y
 
 ## Discipline Items
 
-Some items grant temporary Disciplines while attuned. Each is a named, unique card whose granted power is a Discipline. A **Fire Opal** grants 1 Fire Discipline. A **Blade Master's Gauntlet** grants 1 Blade Discipline. These count toward prerequisite requirements, they can unlock Adept and Master abilities just like purchased Disciplines.
+Some items grant temporary Disciplines while attuned. Each is a named, unique card whose granted power is a Discipline. A **Fire Opal** grants 1 Fire Discipline. A **Blade Master's Gauntlet** grants 1 Blades Discipline. These count toward prerequisite requirements, they can unlock Adept and Master abilities just like purchased Disciplines. If you stop attuning to an item, any Disciplines it granted are lost: abilities that required them cannot be used until you meet the prerequisites again.
 
 | Item | Rarity | Attunement | Discipline Granted | Notes |
 |------|--------|------------|-------------------|-------|
@@ -407,7 +409,7 @@ The DA controls the flow of magic items. A good rule of thumb:
 
 - **Levels 1-3:** One Uncommon item per hero. Potions, scrolls, and a single named Uncommon item for the party.
 - **Levels 4-6:** Two Uncommon, one Rare per hero. Discipline items start appearing.
-- **Levels 7-10:** Mostly Rare, one Very Rare for the party. Very Rare and Legendary items. Items with Weak/Standard/Strong outcomes become available. These should feel earned, quest rewards, not shop purchases.
+- **Levels 7-10:** Mostly Rare, one Very Rare for the party. Very Rare and Legendary items. These should feel earned, quest rewards, not shop purchases.
 
 Magic items aren't in every treasure hoard. When the party finds one, it should matter. The Blade who's been using the same longsword for five levels unsheathes the Blade of the Last Ember for the first time, that's a moment. Milk it.
 :::

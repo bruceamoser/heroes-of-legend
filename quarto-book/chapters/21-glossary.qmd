@@ -176,7 +176,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Holy Symbol:** An item (amulet, reliquary, sacred text) that channels divine magic. Required for some spells.
 
-**Attunement:** The bond between a hero and a magic item. Maximum 3 attuned items at a time. Artifacts don't count against this limit.
+**Attunement:** The bond between a hero and a magic item. Maximum 3 attuned items at a time. Artifacts, unique items of legend beyond even Legendary rarity, don't count against this limit.
 
 **Magic Item Card:** A named, unique magic item that grants a maneuver, an action, or a passive benefit. Magic items are found, not bought, and have no price. Actions granted by a magic item roll with the user's attributes.
 
