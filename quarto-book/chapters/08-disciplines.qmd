@@ -88,7 +88,7 @@ At levels 3, 6, and 9, you gain one additional Discipline of your choice. Class-
 
 ### Magic Items
 
-Rare magic items may grant temporary or permanent Disciplines while attuned or wielded. A *Blade of the Last Ember* grants Fire rank 1 while you wield it. Set it down, lose the power. These items are treasures, and the DA should make you work for them.
+Magic items may grant temporary Disciplines while attuned or wielded. A *Blade of the Last Ember* grants Fire rank 1 while you wield it. Set it down, lose the power. These items are treasures, and the DA should make you work for them.
 
 {{< pagebreak >}}
 
