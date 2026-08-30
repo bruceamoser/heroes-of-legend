@@ -36,7 +36,7 @@ The DA decides. There's no formula. Trust your instincts. You know when the part
 
 Development Points are the currency of growth. You spend them to buy skills, talents, and abilities. Every level gives you a fresh infusion, and every point spent is a choice about who your hero is becoming.
 
-At each level, you gain 3–4 DP, with larger awards at milestone levels (1, 5). The table below shows the full progression. Budget wisely. DP don't carry over between levels, so spend every point before you level again. Unspent DP is potential left on the table.
+At each level, you gain 3-4 DP, with larger awards at milestone levels (1, 5). The table below shows the full progression. Budget wisely. Unspent DP carries over to your next level, so saving toward a big purchase is a real strategy: a Master-tier card costs 8 DP, and a patient hero can get there.
 
 | Level | DP | Other Gains |
 |-------|-----|-------------|
@@ -53,11 +53,7 @@ At each level, you gain 3–4 DP, with larger awards at milestone levels (1, 5).
 
 Total DP by level 10: 32. Total Progression Disciplines: 3. Total attribute increases: 2.
 
-<!-- Advancement is purely DP-based. Classes do not have feature upgrades; progression
-     is driven by player choice through Development Points. The table above shows
-     total DP gain per level, not preset class features. At levels 5 and 10,
-     players have accumulated enough DP to reach meaningful new ability tiers through
-     their own purchasing decisions. -->
+> **Why this exists:** Advancement is purely DP-based. Classes do not have feature upgrades; progression is driven by player choice through Development Points. The table above shows total DP gain per level, not preset class features. Saving across levels is deliberate: the economy is built so that reaching the top tiers is a plan, not an accident.
 
 {{< pagebreak >}}
 
@@ -65,25 +61,23 @@ Total DP by level 10: 32. Total Progression Disciplines: 3. Total attribute incr
 
 The party's renown grows with their deeds. Reputation affects NPC attitudes, quest availability, and title eligibility.
 
-| Rep | Title | Effect |
-|-----|-------|--------|
+| Rep | Reputation Tier | Effect |
+|-----|-----------------|--------|
 | 1-3 | **Unknown** | Standard prices, no recognition |
 | 4-6 | **Known** | 10% discount at friendly establishments |
 | 7-9 | **Renowned** | Free room and board, audiences with nobles |
 | 10-14 | **Heroic** | Followers, stronghold, legendary quests |
 | 15+ | **Legendary** | Immortalized in song and story |
 
-{{< pagebreak >}}
+The DA awards reputation for deeds that earn renown: saving a town, toppling a tyrant, brokering a peace that holds. Reputation is also lost. Betraying the people who trust you, losing a battle badly, or abandoning allies in the field drops the party one tier. The fiction drives the number, not the other way around.
 
 ## Reveling
 
-Spend gold on legendary parties to boost reputation. 100 gp = +1 reputation for the session. Carousing may attract unwanted attention.
+Spend gold on legendary parties to boost reputation. Each hero may fund one revel per session. 100 gp = +1 reputation for the session. Carousing may attract unwanted attention, but legends are rarely made in silence.
 
-{{< pagebreak >}}
+## Earned Titles
 
-## Titles
-
-Earned titles grant mechanical benefits. Examples: **Dragonslayer** (+1 damage vs dragons), **Knight of the Realm** (free lodging at any inn), **Archmage** (one free Adept spell).
+The DA grants titles for deeds that become legend: slaying a great wyrm, brokering a lasting peace, surviving the impossible. A title is a reward, not a purchase, and it grants a mechanical benefit as long as the title fits. Examples: **Dragonslayer** (+1 damage tier vs dragons), **Knight of the Realm** (free lodging at any inn), **Archmage** (learn one Adept-tier spell card at no DP cost).
 
 {{< pagebreak >}}
 
@@ -106,9 +100,11 @@ At some point, you outgrow inn rooms and borrowed beds. You need walls that are 
 You don't buy a stronghold at the general store. You earn it, or you take it.
 
 **Requirements:**
-- **Reputation 7+** with at least one faction that has the resources to sponsor construction or cede territory (@sec-faction-system). You're not just "those adventurers who passed through last spring", you're a known quantity.
+- **Reputation:** Group Reputation **Renowned (7+)** or faction standing **Allied (+3)** with at least one faction that has the resources to sponsor construction or cede territory (@sec-faction-system). You're not just "those adventurers who passed through last spring", you're a known quantity.
 - **Gold:** 500-2,000 gp depending on size and condition. An abandoned border keep costs 500 gp and a lot of sweat. A purpose-built tower with running water and magical wards costs 2,000 gp. The price covers materials, labor, and the first month of upkeep.
 - **Location:** A suitable site. The DA determines what's available, an abandoned watchtower, a cleared dungeon you've already bled in, land granted by a grateful noble. Finding the right spot is an adventure in itself.
+
+A stronghold has **50 base HP**. Upgrades add to it, and the Fortify stronghold action grants temporary HP on top.
 
 ::: {.callout-tip}
 ## The Stronghold Quest
@@ -117,20 +113,20 @@ Acquiring a stronghold shouldn't be a shopping trip. The abandoned keep isn't em
 
 ### Class-Typed Strongholds
 
-Your stronghold reflects who you are. A Blade's fortified keep doesn't look like an Arcanist's wizard tower. The type is determined by the majority of the party, or by whoever's funding the construction.
+Your stronghold reflects who you are. A Blade's fortified keep doesn't look like an Arcanist's tower. The type is determined by the majority of the party, or by whoever's funding the construction.
 
 | Stronghold Type | Classes | Benefits |
 |-----------------|---------|----------|
 | **Fortified Keep** | Blade, Protector, any martial | +2 to combat training rolls. Can recruit 2d6 soldiers (see Followers). Armory and training grounds included. |
-| **Wizard's Tower** | Arcanist, Odd, any arcane | +2 to spell research and crafting checks. Magic item creation takes half the normal time. Library and laboratory included. |
-| **Sanctum** | Any class with divine spells | +2 to healing and divine ritual checks. Pilgrims bring 2d6 x 10 gp in offerings per month. Chapel and infirmary included. |
-| **Hidden Safehouse** | Any skilled/rogue-ish class | +2 to information gathering and Stealth checks made from the stronghold. Black market access (rare items available for purchase). Secret passages and escape routes included. |
+| **Arcanist's Tower** | Arcanist, Intellect, Odd, any arcane | +2 to spell research and crafting checks. Magic item creation takes half the normal time. Library and laboratory included. |
+| **Sanctum** | Shepherd, Leader, any class with divine spells | +2 to healing and divine ritual checks. Pilgrims bring 2d6 x 10 gp in offerings per month. Chapel and infirmary included. |
+| **Hidden Safehouse** | Shadow, any stealth-oriented class | +2 to information gathering and Stealth checks made from the stronghold. Black market access (rare items available for purchase). Secret passages and escape routes included. |
 
-**Mixed parties:** If the party includes a Blade, an Arcanist, and a cleric, they choose one primary type. The others can be added as upgrades (see Stronghold Upgrades below). A Fortified Keep with a Wizard's Tower addition is a fortress with a spire, expensive, impressive, and exactly the kind of thing that attracts dragons.
+**Mixed parties:** If the party includes a Blade, an Arcanist, and a Shepherd, they choose one primary type. The others can be added as upgrades (see Stronghold Upgrades below). A Fortified Keep with an Arcanist's Tower addition is a fortress with a spire, expensive, impressive, and exactly the kind of thing that attracts dragons.
 
 ### Stronghold Actions
 
-Once per session, each character can take one stronghold action during downtime. This represents what you're doing with your base between adventures. You can't take the same action twice in a row.
+Once per session, each character can take one stronghold action during downtime. This represents what you're doing with your base between adventures. You can't take the same action twice in a row, and a session without downtime grants no stronghold action.
 
 | Action | Effect |
 |--------|--------|
@@ -138,18 +134,20 @@ Once per session, each character can take one stronghold action during downtime.
 | **Recruit** | Gain 1d3 temporary followers for the next adventure. They're hirelings, not heroes, use the Guard or Bandit stat block from @sec-chapter-bestiary. They follow reasonable orders but won't sacrifice themselves. |
 | **Research** | Study a known monster, location, or magical phenomenon. Gain +2 on all Knowledge and Reason checks related to the subject for the next session. The DA provides one concrete piece of intelligence. |
 | **Rest** | Full recovery of HP and removal of one condition or affliction. Additionally, gain temporary HP equal to your level for the next session. Real beds and hot meals make a difference. |
-| **Fortify** | Improve the stronghold's defenses. The stronghold gains +10 temporary HP and attackers suffer -2 on rolls to breach the walls until the end of the next session. Stacks with the Fortify faction action. |
+| **Fortify** | Improve the stronghold's defenses. The stronghold gains +10 temporary HP (on top of its 50 base HP) and attackers suffer -2 on rolls to breach the walls until the end of the next session. Stacks with the Fortify Position faction action. |
 | **Train** | Gain a +2 bonus to one skill for the next session. This replaces (does not stack with) the Train faction action. Specialized facilities beat improvised practice. |
 
 ### Followers
 
-When your reputation reaches Allied (+3) with a faction, or when your Group Reputation hits Heroic (10+), you attract followers. These aren't adventurers, they're people who believe in what you're doing and want to help.
+When your faction standing reaches Allied (+3), or when your Group Reputation hits Heroic (10-14), you attract followers. These aren't adventurers, they're people who believe in what you're doing and want to help.
 
 | Source | Followers Gained |
 |--------|-----------------|
-| Allied faction | 1d4 followers from that faction's ranks |
-| Heroic reputation (10+) | 1d6 followers drawn by your legend |
-| Stronghold established | 2d4 followers as staff and garrison |
+| Allied faction | 1d4 permanent followers from that faction's ranks |
+| Heroic reputation (10-14) | 1d6 permanent followers drawn by your legend |
+| Stronghold established | 2d4 permanent followers as staff and garrison |
+
+Followers gained from the table are permanent. The Recruit stronghold action grants temporary followers for a single adventure instead.
 
 **Followers use simple NPC stat blocks** (Guard, Bandit, Cultist, see @sec-chapter-bestiary). They maintain the stronghold, handle mundane tasks, and provide minor mechanical benefits:
 
@@ -171,13 +169,13 @@ Spend gold to expand your stronghold's capabilities. Each upgrade requires the b
 
 | Upgrade | Cost | Requirements | Benefit |
 |---------|------|-------------|---------|
-| **Library** | 300 gp | Wizard's Tower or any stronghold | +2 to all Research actions. Contains reference works on history, arcana, and nature. |
-| **Armory** | 400 gp | Fortified Keep or any stronghold | +2 to Craft actions for weapons and armor. Weapons stored here gain +1 damage for the first round of the next siege. |
+| **Library** | 300 gp | Arcanist's Tower or any stronghold | +2 to all Research actions. Contains reference works on history, arcana, and nature. |
+| **Armory** | 400 gp | Fortified Keep or any stronghold | +2 to Craft actions for weapons and armor. Weapons stored here gain +1 damage tier for the first round of the next siege. |
 | **Chapel** | 300 gp | Sanctum or any stronghold | +2 to Rest actions. Allies within the stronghold may reroll one failed check against fear or corruption per session. |
 | **Workshop** | 350 gp | Any stronghold | +2 to Craft actions for gear, tools, and non-magical items. Crafting time reduced by one-third. |
-| **Walls (Reinforced)** | 500 gp | Any stronghold | Stronghold HP increased by 25. Attackers suffer -2 on all rolls to breach, climb, or bypass walls. |
-| **Secondary Stronghold Type** | 800 gp | Base stronghold established | Add the benefits of a second stronghold type. A Fortified Keep with a Library has both martial training grounds and arcane reference works. |
-| **Teleportation Circle** | 1,500 gp | Wizard's Tower, character level 10+ | Permanent teleportation circle. Connects to one other circle you've attuned to. priceless when the orc army is three days away and you need reinforcements *now*. |
+| **Walls (Reinforced)** | 500 gp | Any stronghold | Stronghold HP increased by 25 (to 75 base). Attackers suffer -2 on all rolls to breach, climb, or bypass walls. |
+| **Secondary Stronghold Type** | 800 gp | Base stronghold established | Add the benefits of a second stronghold type. A Fortified Keep with an Arcanist's Tower has both martial training grounds and arcane reference works. |
+| **Teleportation Circle** | 1,500 gp | Arcanist's Tower, character level 10+ | Permanent teleportation circle. Connects to one other circle you've attuned to. Priceless when the orc army is three days away and you need reinforcements *now*. |
 | **Vault** | 500 gp | Any stronghold | Secure storage with magical wards. Items stored here cannot be scryed upon. +4 to rolls against theft or tampering. |
 
-**Upkeep:** Strongholds cost 5% of their total value in gold per month for maintenance, staff wages, and supplies. A 1,000 gp stronghold costs 50 gp per month. If the party can't pay, the stronghold degrades, lose one upgrade per month of neglect, starting with the most expensive.
+**Upkeep:** Strongholds cost 5% of their construction cost in gold per month for maintenance, staff wages, and supplies. A 1,000 gp stronghold costs 50 gp per month. If the party can't pay, the stronghold degrades, losing one upgrade per month of neglect, starting with the most expensive.
