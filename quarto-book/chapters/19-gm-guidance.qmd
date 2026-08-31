@@ -531,7 +531,7 @@ Class abilities are more varied than spells, but they all follow a simpler forma
 | **Tier** | Novice, Adept, or Master. Cards cost 2 DP (Novice), 4 DP (Adept), or 8 DP (Master). |
 | **Discipline Req** | Disciplines required to purchase this ability. "No prereq" for basic utility abilities. |
 | **Trigger** | When the ability can be used: "When you attack", "As a maneuver", "When an ally drops to 0 HP", etc. |
-| **Effect (W/S/St)** | What happens. Damaging abilities key to the damage budget (@sec-damage-budget). |
+| **Effect** | What happens. Damaging abilities key to the damage budget (@sec-damage-budget). |
 
 **Example (Shadow Strike):**
 
