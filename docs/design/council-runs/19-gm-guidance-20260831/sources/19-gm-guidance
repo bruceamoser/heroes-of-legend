@@ -52,8 +52,6 @@ Balancing combat encounters is more art than science, but the numbers give you a
 
 **The basic math:** Encounter difficulty uses a simple multiplier against party level. **Easy** encounters use a challenge budget of **×1 party level**, a quick fight that costs few resources. **Standard** encounters use **×2 party level**, the party should win while expending some resources. **Hard** encounters use **×3 party level**, expect significant resource drain and possible casualties. **Deadly** encounters use **×4+ party level**, character death is a real possibility. These are guidelines, not guarantees. Terrain, surprise, and player cleverness will swing fights further than any formula.
 
-**What a budget buys:** a creature's Challenge is its share of the budget, a Standard (×2) encounter for a level 1 party is roughly two Challenge 1 creatures, or one Challenge 2 and a few minions. Adjust for party size: six or more heroes fight one step harder than the table suggests, three or fewer one step easier.
-
 **Action economy is everything.** Four goblins (four actions per round) are more dangerous than one ogre with the same total HP (one action per round). The side with more actions controls the board. When building encounters, count actions, not just hit points. A solo boss needs legendary actions or multiattack to keep up. A swarm of minions needs low HP so they drop fast and the action economy swings back toward the party.
 
 **Vary your encounter design.** Not every fight should be "kill all enemies." Mix in objectives: protect the ritual circle for three rounds, stop the cultist from reaching the alarm bell, escape the collapsing temple before the ceiling comes down. Objectives force players to make choices beyond "which enemy do I attack?" and those choices are where memorable combat lives.
@@ -68,9 +66,9 @@ Balancing combat encounters is more art than science, but the numbers give you a
 
 Treasure is the reward system. It's how the game says "you did something impressive, here's what you get." Pace it well and your players will chase every lead, explore every corner, and take risks they'd otherwise avoid. Pace it poorly and treasure becomes either meaningless or frustrating.
 
-**Magic items: 1–2 per level, per party.** Not per character, per party. At level 3, the party of four should have found maybe three to six magic items total, and at least one of those should be consumable (a potion, a scroll, a single-use charm). Permanent items should feel significant. A single enchanted sword at level 2 is a big deal. By level 10, the party should have found maybe one Very Rare item and a handful of Rares. Legendary items are campaign capstones. The whole party should remember the session where they earned one.
+**Magic items: 1–2 per level, per party.** Not per character, per party. At level 3, the party of four should have found maybe three to six magic items total, and at least one of those should be consumable (a potion, a scroll, a single-use charm). Permanent items should feel significant. A +1 sword at level 2 is a big deal. By level 10, the party should have found maybe one Very Rare item and a handful of Rares. Legendary items are campaign capstones. The whole party should remember the session where they earned one.
 
-**Gold should create choices.** If the party has enough gold to buy everything they want, gold stops mattering. If they're constantly broke, they stop caring about rewards. The sweet spot is where the party has to choose: do we upgrade the Protector's armor, or commission that potion of water breathing for the sunken temple? Do we spend our gold on a stronghold, or on bribing the city council? Choices create stories. "We bought plate armor" is a transaction. "We spent our last copper bribing the harbor master to look the other way while we smuggled the refugees out" is a story.
+**Gold should create choices.** If the party has enough gold to buy everything they want, gold stops mattering. If they're constantly broke, they stop caring about rewards. The sweet spot is where the party has to choose: do we upgrade the fighter's armor, or commission that potion of water breathing for the sunken temple? Do we spend our gold on a stronghold, or on bribing the city council? Choices create stories. "We bought plate armor" is a transaction. "We spent our last copper bribing the harbor master to look the other way while we smuggled the refugees out" is a story.
 
 **Consumables are your secret weapon.** Potions, scrolls, and single-use magic items are the easiest treasure to hand out because they don't permanently shift the party's power level. A potion of flight solves one encounter brilliantly. Boots of flight solve every encounter forever. Be generous with consumables. Be stingy with permanents. Your future self, trying to challenge a party that can all fly, will thank you.
 
@@ -142,9 +140,9 @@ Characters with appropriate tools and skills can craft items during downtime.
 
 | Result | Outcome |
 |--------|---------|
-| **Weak** | Item is functional but flawed. Bane on its primary use. |
+| **Weak** | Item is functional but flawed. -1 to its primary use. |
 | **Standard** | Item crafted as intended. Takes normal time. |
-| **Strong** | Masterwork quality. Boon on its primary use, or it takes half the normal time. |
+| **Strong** | Masterwork quality. +1 bonus or half the normal time. |
 
 **Time:** Crafting takes 1 day per 5 gp of the item's market value.
 
@@ -158,11 +156,11 @@ Characters with appropriate tools and skills can craft items during downtime.
 
 Keeping track of supplies adds tension to exploration.
 
-**Rations:** 1 per day per character. Without food, make an Endurance (Fortitude) roll each day. Standard result: function normally. Weak result: -1 to all rolls from fatigue.
+**Rations:** 1 per day per character. Without food, make a Fortitude (Endurance) roll each day. Standard result: function normally. Weak result: -1 to all rolls from fatigue.
 
 **Ammunition:** A quiver holds 20 arrows or bolts. After combat, recover half on a Standard+ Survival roll. On a Weak result, recover only 1d4.
 
-**Light:** Torches last 1 hour and illuminate 30 ft. Lanterns last 6 hours per flask of oil. Total darkness imposes -2 to any roll requiring sight.
+**Light:** Torches last 1 hour and illuminate 30 ft. Lanterns last 6 hours per flask of oil. Total darkness imposes -4 to any roll requiring sight.
 
 **Optional, Resource Dice:** For tables that prefer abstraction, use a Resource Die (d12→d10→d8→d6→d4→Depleted). Roll after each use; on a 1, the die steps down.
 
@@ -190,7 +188,7 @@ High-stakes negotiations, interrogations, and trials run as extended social conf
 
 ## Sample Adventure: The Sunken Vault
 
-This is a starter adventure for level 1 characters. It teaches the core mechanics, skill checks, combat, and the success tier system, through play. Run it as your group's first session, or drop it into an ongoing campaign when the party passes through a river valley. Expected play time: 3–4 hours.
+This is a starter adventure for level 1 characters. It teaches the core mechanics, skill checks, combat, and the success tier system, through play. Run it as your group's first session, or drop it into an ongoing campaign when the party passes through a river valley. Expected play time: 3-4 hours.
 
 ::: {.callout-tip}
 ## For First-Time DAs
@@ -213,7 +211,7 @@ The hook lands when the party arrives in Thornwell, whether they're passing thro
 
 The party meets **Elder Tamrin**, a weathered woman in her sixties with hands like oak roots and eyes that have stopped being surprised by bad news. She offers the party 50 gp and the village's gratitude to investigate the exposed ruin and put a stop to whatever's prowling the night. She can be negotiated with, a Strong social result bumps the reward to 75 gp or secures a bonus (healing salves, torches, a mule).
 
-**What the villagers know (Standard Arcana or Persuasion check):**
+**What the villagers know (Standard Knowledge or Persuasion check):**
 
 - The doorway appeared after the dam burst. It's old, older than any settlement in the valley. (Standard)
 - The glyphs glow faintly blue at night. One of the farm boys touched them and his hand went numb for a day. (Standard)
@@ -226,7 +224,7 @@ The party meets **Elder Tamrin**, a weathered woman in her sixties with hands li
 Don't let this turn into an interrogation. Have Elder Tamrin offer tea. Have a child stare at the party's weapons. Have the village drunk insist the ruin is "a dragon's tooth" and try to sell them lucky charms. Social scenes teach players that talking is just as valid as stabbing, and often more useful.
 :::
 
-**Treasure opportunity:** If the party helps round up the missing livestock (Survival or Nature, Standard), a farmer gifts them a healing poultice (heals 4 HP, one use).
+**Treasure opportunity:** If the party helps round up the missing livestock (Survival or Nature, Standard), a farmer gifts them a healing poultice (heals 3 HP, one use).
 
 ### Scene 2: The Approach
 
@@ -234,14 +232,14 @@ Don't let this turn into an interrogation. Have Elder Tamrin offer tea. Have a c
 
 Reaching the temple requires navigating a half-mile of flood-ravaged terrain. The riverbank has collapsed into a maze of mud flats, standing pools, and unstable ground. It's not dangerous enough to kill anyone, but how well the party handles this approach determines what kind of shape they're in when they reach the vault.
 
-Run this as a group skill challenge. Each character makes one skill check. They describe what they're doing, you assign the skill and difficulty. The party needs 3 successes. Failures stack: two failures means a rough crossing, three or more means they arrive exhausted.
+Run this as a group skill challenge. Each character makes one skill check. They describe what they're doing, you assign the skill and difficulty. The party needs 3 successes before 2 failures.
 
 | Task | Skill | Difficulty |
 |------|-------|------------|
 | Pick the safest path through the mud flats | Survival (Fortitude) | Standard |
 | Spot unstable ground before someone steps on it | Perception (Reason) | Standard |
 | Wade the flooded sections without losing gear | Athletics (Brawn) | Standard |
-| Climb the collapsed riverbank to the door | Athletics (Brawn) | Hard (-2 if already wet) |
+| Climb the collapsed riverbank to the door | Athletics (Brawn) | Standard (Harder, -2 if already wet) |
 | Read the flow of the new channel to find a ford | Nature (Knowledge) | Standard |
 
 **Results by tier:**
@@ -256,7 +254,7 @@ Run this as a group skill challenge. Each character makes one skill check. They 
 
 - **3+ successes before 2 failures:** The party arrives dry, together, and alert. No penalties going into Scene 3.
 - **2 failures:** The party arrives mud-splattered and separated. Each character loses 2 HP from minor injuries. The DA gets one "complication token" to use in Scene 3, a sudden collapse, a rising water level, an enemy reinforcement.
-- **3+ failures (exhausted all attempts):** The party arrives soaked, bruised, and loud. Each character loses 4 HP. The vault's guardians are alerted. They act first in the opening round of Scene 3 (the party is Surprised, -2 on their first rolls). Yeah, it's harsh. Welcome to adventuring.
+- **3+ failures (exhausted all attempts):** The party arrives soaked, bruised, and loud. Each character loses 4 HP. The vault's guardians are alerted. They get a surprise round in Scene 3. Yeah, it's harsh. Welcome to adventuring.
 
 ::: {.callout-warning}
 ## The First Failure Matters
@@ -288,10 +286,10 @@ Four **Drowned Guardians** rise from the water when the party enters the central
 
 ::: {.callout-tip}
 ## Running This Fight
-This is your players' first combat. Narrate every hit. "Your blade skips off the rusted chain, Weak, 2 damage after its armor, but you've got its attention." "You drive your sword through its midsection, Standard, 3 damage after its armor. Water pours from the wound." Make the always-hit system feel visceral. They're not missing, they're carving through enemies. The tension is in *how fast* they can put them down.
+This is your players' first combat. Narrate every hit. "Your blade skips off the rusted chain, Weak, 2 damage, but you've got its attention." "You drive your sword through its midsection, Standard, 3 damage. Water pours from the wound." Make the always-hit system feel visceral. They're not missing, they're carving through enemies. The tension is in *how fast* they can put them down.
 :::
 
-**After the fight:** The water stills. One of the sealed sarcophagi has an inscription the party can now examine (Arcana or Insight, Standard), it's a warning in Old Imperial: *"Here lies Kelvath, Warden of the Seal. May his rest be undisturbed. May the seal hold eternal."* The name "Kelvath" will matter in Scene 4.
+**After the fight:** The water stills. One of the sealed sarcophagi has an inscription the party can now examine (Knowledge or Reason, Standard), it's a warning in Old Imperial: *"Here lies Kelvath, Warden of the Seal. May his rest be undisturbed. May the seal hold eternal."* The name "Kelvath" will matter in Scene 4.
 
 ### Scene 4: The Inner Sanctum
 
@@ -303,15 +301,15 @@ Beyond the main chamber, a short passage descends deeper. The water drains away 
 
 > *"The sanctum is a perfect circle, maybe forty feet across. The walls rise into darkness, you can't see the ceiling. The only light comes from the floor, blue lines tracing geometric patterns that all converge on a central pedestal. The crystal on that pedestal pulses like a heartbeat. And the figure beside it, a corpse in ornate armor, wearing a circlet of tarnished silver, turns its head toward you. Water drips from its beard. Its eyes are blue glass, and they see you."*
 
-**Kelvath, the Drowned Warden (Challenge 2):** HP 18, DR 3 (ancient plate). Warden's Blade: 2/4/6 slashing. Water Bolt: 2/4/6 cold (range 30 ft, at will). Tidal Surge (Recharge 5-6): all creatures within 15 ft take 2/4/6 cold and must make Brawn check (Standard) or be pushed 10 ft and knocked Prone. Undead Nature: immune to poison and charm. Seal-Bound: Kelvath cannot move more than 10 ft from the crystal pedestal. If the seal is broken, he loses this restriction, and his attacks deal +1 damage tier.
+**Kelvath, the Drowned Warden (Challenge 2):** HP 18, DR 3 (ancient plate). Warden's Blade: 6/9/12 slashing. Water Bolt: 6/9/12 cold (range 30 ft, at will). Tidal Surge (Recharge 5-6): all creatures within 15 ft take 2/4/6 cold and must make Brawn check (Standard) or be pushed 10 ft and knocked Prone. Undead Nature: immune to poison and charm. Seal-Bound: Kelvath cannot move more than 20 ft from the crystal pedestal. If the seal is broken, he loses this restriction, and gains +1 to all damage.
 
 **The Warding Seal:** The glowing runes around the pedestal are a magical seal, one that's been holding Kelvath here for three centuries. It's failing. The crystal is cracked. The seal will break on its own in 1d4+1 rounds (roll secretly at the start of combat). When it breaks, Kelvath's Seal-Bound restriction ends, and the sanctum begins to flood (water rises 1 ft per round thereafter).
 
 **The party has options:**
 
-1. **Fight Kelvath while the seal holds.** He's tethered within 10 ft of the pedestal, so ranged attackers can keep their distance, but his Water Bolt reaches anyone who lingers. This is a tactical puzzle: how do you use his tether against him?
+1. **Fight Kelvath while the seal holds.** He's restricted to 20 ft from the pedestal, so ranged attackers can stay safe, but his Water Bolt outranges most spells and bows. This is a tactical puzzle: how do you use his tether against him?
 
-2. **Disable the seal early.** A character can reach the pedestal (move + Maneuver) and attempt an Arcana or Insight check (Hard, -2). Strong: the seal stabilizes for the remainder of the fight. Standard: the seal holds but the attempt costs you, the crystal lashes out, dealing 4 cold damage to the character. Weak: the seal shatters immediately. Oops.
+2. **Disable the seal early.** A character can reach the pedestal (move + Maneuver) and attempt an Arcana or Reason check (Hard, -2). Strong: the seal stabilizes for the remainder of the fight. Standard: the seal holds but the attempt costs you, the crystal lashes out, dealing 4 cold damage to the character. Weak: the seal shatters immediately. Oops.
 
 3. **Break the crystal.** The crystal has HP 10 and DR 2. Destroying it ends the seal, frees Kelvath from his tether, and causes the chamber to flood rapidly (2 ft per round). But it also removes the blue glow, and Kelvath's Water Bolt loses 1 damage tier without the crystal powering it. Choices.
 
@@ -344,7 +342,7 @@ The party emerges from the vault, wet, exhausted, and alive. Behind them, the st
 - The dam that burst wasn't an accident. Someone blew it. The hermit Corvus might know who, or what, wanted the vault opened.
 - The crystal sphere wasn't just a prison. It was a key. Maps in the sanctum show four more vaults along the river. Kelvath was only one of five wardens.
 - Back in Thornwell, Elder Tamrin has news: a rider arrived from the Baron's court while the party was in the vault. The Baron is offering a bounty on "river-spawned undead." And the bounty just doubled.
-- One of the sarcophagi in the main chamber had a seal matching the party's Arcanist's pendant. Or the Shepherd's holy symbol. Or the Protector's family crest. The DA picks which character. The next adventure is personal.
+- One of the sarcophagi in the main chamber had a seal matching the party's warlock's pendant. Or the cleric's holy symbol. Or the fighter's family crest. The DA picks which character. The next adventure is personal.
 
 ::: {.callout-note}
 ## Design Notes
@@ -375,7 +373,7 @@ Every faction rates the party on a seven-point scale. This number moves, sometim
 | 0 | **Neutral** | You're strangers. Standard prices, standard treatment. |
 | +1 | **Friendly** | You've done right by them. 10% discount on faction services. Access to faction-exclusive quests. |
 | +2 | **Trusted** | You're one of the family. 25% discount. Access to restricted areas and secret information. |
-| +3 | **Allied** | The faction would go to war for you. 50% discount on faction goods and services, followers, stronghold support, unique faction favors. |
+| +3 | **Allied** | The faction would go to war for you. Followers, stronghold support, unique faction boons. |
 
 ### Gaining and Losing Reputation
 
@@ -419,7 +417,7 @@ Your standing with a faction determines what doors open, and which ones slam shu
 - 50% discount on the faction's goods and services
 - You attract 1d4 followers from the faction's ranks
 - The faction provides stronghold support, guards, scholars, craftspeople
-- Faction-specific favor (see example factions below)
+- Faction-specific boon (see example factions below)
 - The faction will take significant risks for you, including military support
 
 **Hostile (-3):**
@@ -437,9 +435,9 @@ At the end of each session, each player chooses one faction action. This represe
 | **Gather Information** | Learn one rumor or piece of intelligence about a threat, location, or rival faction. The DA provides a concrete lead for the next session. |
 | **Secure Resources** | Gain one consumable item appropriate to the faction (healing potion from a divine order, acid vial from a thieves' guild, scroll from a mage circle). |
 | **Spread Influence** | Improve your reputation with one related faction by +1 (max +2). The Argent Circle puts in a good word for you with the Iron Pact. |
-| **Train** | Gain a +2 bonus to one skill for the next session only. Represents intense preparation for a specific challenge. |
+| **Train** | Gain a +1 bonus to one skill for the next session only. Represents intense preparation for a specific challenge. |
 | **Rest and Recover** | Recover from one condition or affliction that would normally persist between sessions. The faction's healers, sages, or spiritual advisors tend to you. |
-| **Fortify Position** | If you have a stronghold, improve its defenses for the next session. If attacked, the stronghold gains +10 temporary HP on top of its base HP (see @sec-strongholds). |
+| **Fortify Position** | If you have a stronghold, improve its defenses for the next session. If attacked, the stronghold gains +5 temporary HP. |
 
 ::: {.callout-warning}
 ## Action Economy Matters
@@ -450,7 +448,7 @@ Faction actions happen *between* sessions. They're not a replacement for in-game
 
 Here are three factions you can drop into any campaign. Each has goals, methods, and a unique boon for Allied parties. Customize the names to fit your world.
 
-**The Argent Circle.**
+#### The Argent Circle
 
 *"Knowledge is the only currency that doesn't devalue."*
 
@@ -460,9 +458,9 @@ Scholars, mages, and keepers of forbidden lore. The Argent Circle maintains libr
 
 **Methods:** Research, espionage, careful negotiation. The Circle doesn't fight wars, they fund them, spy on them, and write the histories afterward.
 
-**Allied Favor, Arcane Patronage:** Once per adventure, you may request a Novice spell scroll from the Circle's archives. Delivery takes 1d3 days. At higher levels, the DA may allow Adept scrolls for especially significant services.
+**Allied Boon, Arcane Patronage:** Once per adventure, you may request a Novice spell scroll from the Circle's archives. Delivery takes 1d3 days. At higher levels, the DA may allow Adept scrolls for especially significant services.
 
-**The Iron Pact.**
+#### The Iron Pact
 
 *"The monsters don't care about your politics. We don't either."*
 
@@ -472,9 +470,9 @@ Mercenaries, monster hunters, and frontier wardens. The Iron Pact maintains chap
 
 **Methods:** Direct action. Iron Pact members favor overwhelming force and careful preparation. They research a monster's weakness, equip accordingly, and strike hard. They have no patience for glory hounds or lone wolves, the Pact fights as a unit or not at all.
 
-**Allied Favor, Pact Armory:** Once per adventure, you may requisition one weapon or suit of armor from the Pact's stores (value up to 200 gp). It must be returned after the mission or paid for at half price.
+**Allied Boon, Pact Armory:** Once per adventure, you may requisition one weapon or suit of armor from the Pact's stores (value up to 200 gp). It must be returned after the mission or paid for at half price.
 
-**The Shadow Guild.**
+#### The Shadow Guild
 
 *"The truth lives in the dark. We just happen to live there too."*
 
@@ -484,7 +482,7 @@ Thieves, spies, and information brokers. The Shadow Guild doesn't exist, officia
 
 **Methods:** Infiltration, blackmail, theft, and the careful cultivation of informants. The Guild rarely kills, dead bodies attract attention, and attention is bad for business. They prefer leverage.
 
-**Allied Favor, Shadow Network:** Once per adventure, you may call in a favor to learn one closely guarded secret about an NPC, location, or organization. The DA provides a concrete, actionable piece of intelligence. The Guild never reveals its sources.
+**Allied Boon, Shadow Network:** Once per adventure, you may call in a favor to learn one closely guarded secret about an NPC, location, or organization. The DA provides a concrete, actionable piece of intelligence. The Guild never reveals its sources.
 
 {{< pagebreak >}}
 
@@ -496,7 +494,7 @@ Every mechanical element in *Heroes of Legend* follows one of three card formats
 
 Spells are the most structured. Every spell card answers the same questions in the same order.
 
-**Format:** `### Name (Cantrip | Arcane Spell | Divine Spell)` then a single field line: `**Disciplines:** N Type · **Action:** Action/Reaction/Maneuver · **Range:** Touch/30 ft/area · **Keywords:** ...` then **Weak:**, **Standard:**, **Strong:** outcomes, then optional **Adept:** and **Master:** additions.
+**Format:** `### Name (Spell)` then a single field line: `**Disciplines:** N Type · **Action:** Action/Reaction/Maneuver · **Range:** Touch/30 ft/area · **Keywords:** ...` then **Weak:**, **Standard:**, **Strong:** outcomes, then optional **Adept:** and **Master:** additions.
 
 | Field | Description |
 |-------|-------------|
@@ -509,13 +507,11 @@ Spells are the most structured. Every spell card answers the same questions in t
 
 **Example (Brimstone Burst):**
 
-> **Brimstone Burst (Arcane Spell).**
-> **Disciplines:** 2 Fire · **Action:** Action · **Range:** 20-ft radius · **Keywords:** Burning
-> **Weak:** 6 fire damage to all in the radius (Agility or Dodge rank resists).
-> **Standard:** 9 fire damage to all.
-> **Strong:** 12 fire damage to all.
-> **Adept:** 6/9/12 fire damage to all.
-> **Master:** 9/15/21 fire damage to all; the ground burns (Burning 4).
+> ### Brimstone Burst (Arcane Spell)
+> **Disciplines:** 2 Fire · **Action:** Action · **Range:** 20-ft radius · **Keywords:** Area
+> **Weak:** 6 fire damage to all in the radius.
+> **Standard:** 9 fire damage to all; targets at the center take +2.
+> **Strong:** 12 fire damage to all; targets at the center take +3.
 
 > *This is the spell that ends encounters and starts wars. When you cast Brimstone Burst, the battlefield changes. So does your reputation.*
 
@@ -523,25 +519,25 @@ Spells are the most structured. Every spell card answers the same questions in t
 
 Class abilities are more varied than spells, but they all follow a simpler format. Where spells have ranges and durations, abilities have triggers and effects.
 
-**Format:** `Name | Tier | Discipline Req | Trigger | Effect`
+**Format:** `Name | Tier (DP Cost) | Discipline Req | Trigger | Effect (W/S/St)`
 
 | Field | Description |
 |-------|-------------|
 | **Name** | The ability's name. |
-| **Tier** | Novice, Adept, or Master. Cards cost 2 DP (Novice), 4 DP (Adept), or 8 DP (Master). |
+| **Tier (DP Cost)** | Novice (2 DP), Adept (4 DP), or Master (8 DP). |
 | **Discipline Req** | Disciplines required to purchase this ability. "No prereq" for basic utility abilities. |
 | **Trigger** | When the ability can be used: "When you attack", "As a maneuver", "When an ally drops to 0 HP", etc. |
-| **Effect** | What happens. Damaging abilities key to the damage budget (@sec-damage-budget). |
+| **Effect (W/S/St)** | What happens. Damaging abilities key to the damage budget (@sec-damage-budget). |
 
 **Example (Shadow Strike):**
 
-> | **Shadow Strike** | Adept | 1 Stealth, 1 Sleight | When you attack from Vanish invisibility | The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene. |
+> **Shadow Strike (Adept, 4 DP).** Disc: 1 Stealth, 1 Sleight. Trigger: When you attack from Vanish invisibility. Effect: The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene.
 
 ### No-Prereq Basics
 
 Some Novice-level cards have no Discipline requirement and cost only the flat card price (2 DP). These are minor tricks, cantrips, and basic utility skills anyone can pick up:
 
-> **Spark (Cantrip).** **Disciplines:** None · **Action:** Action · **Range:** 30 ft · **Keywords:** None. **Weak:** The object smolders. It may catch fire after 1 round if left alone. **Standard:** Immediate ignition. The object catches fire and burns normally. **Strong:** The flame leaps. Adjacent flammable objects also catch fire.
+> **Spark (Novice, 2 DP).** No prereq. Range: 30 ft. Duration: Instantaneous. W: The object smolders, it may catch fire after 1 round. S: Immediate ignition, the object catches fire and burns normally. St: The flame leaps, adjacent flammable objects also catch fire.
 
 No-prereq cards are Novice only. Adept and Master cards always require Disciplines.
 
@@ -549,17 +545,17 @@ No-prereq cards are Novice only. Adept and Master cards always require Disciplin
 
 Ancestry gifts are the simplest. They have no Discipline requirement (they're inherited, not learned), and they're rarely damaging, so the W/S/St breakdown is usually replaced by a flat effect.
 
-**Format:** `Name | Tier | Effect`
+**Format:** `Name | Tier (DP Cost) | Effect`
 
 | Field | Description |
 |-------|-------------|
 | **Name** | The gift's name. |
-| **Tier** | Novice, Adept, or Master. Gifts cost 2/4/8 DP regardless of class. |
+| **Tier (DP Cost)** | Novice (2 DP), Adept (4 DP), or Master (8 DP). Master-tier gifts are rare. |
 | **Effect** | What the gift does. If it deals damage, it keys to the damage budget. Otherwise, a flat description. |
 
 **Example (Die Hard):**
 
-> | **Die Hard** | Novice | When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session. Dying can wait. |
+> **Die Hard (Novice, 2 DP).** When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session.
 
 ::: {.callout-tip}
 ## Designing Your Own Content

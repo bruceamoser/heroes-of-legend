@@ -138,11 +138,11 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 **Weak:** 6 fire damage to all in the radius (Agility or Dodge rank resists).
 
-**Standard:** 9 fire damage to all; targets at the center take +2.
+**Standard:** 9 fire damage to all.
 
-**Strong:** 12 fire damage to all; targets at the center take +3.
+**Strong:** 12 fire damage to all.
 
-**Adept:** 6/9/12 fire damage to all, center +3.
+**Adept:** 6/9/12 fire damage to all.
 
 **Master:** 9/15/21 fire damage to all; the ground burns (Burning 4).
 
