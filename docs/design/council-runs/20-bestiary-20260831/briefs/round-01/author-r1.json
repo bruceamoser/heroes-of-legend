@@ -1,0 +1,52 @@
+{
+  "id": "f-002",
+  "round": 1,
+  "role": "author",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Refute: ch20 does not hold on voice and consistency as written, though nothing here requires touching monster math. The Creating Monsters section (20-bestiary.qmd:295-308) states its own rules twice within nine lines and the copies disagree: the opening paragraph promises 1-3 attacks and 1-2 abilities, while the Quick Monster Template directly below caps attacks at 1-2 and abilities at a single signature entry, and the HP/DR formula appears twice with the natural-armor ceiling present only in the first copy. A GM building a monster therefore gets two conflicting construction rules from one section. The Additional Monsters section (20-bestiary.qmd:210-278) reads like a different editorial pass: it is the only place in the chapter that opens a stat block with an italic one-line tagline in a noticeably punchier register, while the other forty-plus entries are plain utility prose; the device must either be removed or applied uniformly, and the minimal edit is to remove it. Identically named abilities are worded differently between entries: Pack Tactics on the Wolf versus the Dire Wolf, Charge on the Dire Boar versus the Minotaur, and Relentless in three variants, one of which uses 'roll Fortitude' where the book standard is a Fortitude check. The same once-per-day frequency is written two ways, as the phrase and as the parenthetical shorthand. The Zombie's trait named Slow is a near-homonym of the combat chapter's Slowed X condition even though the two mechanics are unrelated, an avoidable name collision for a GM-facing book. Both illustration captions carry art-tracker residue (placeholder status and pixel dimensions) that must not reach print. Disposition: every item is a mechanical vocabulary or wording swap (canonicalize the monster-creation numbers, standardize each shared ability sentence, drop the taglines, rename the Zombie trait, strip the tracker text), with extending the tagline device to the whole chapter as the larger, conditional alternative.",
+  "evidence": [
+    {
+      "source": "20-bestiary",
+      "claim": "The Creating Monsters opening (20-bestiary.qmd:297) directs the GM to give 1-3 attacks and add 1-2 abilities, while the Quick Monster Template a few lines below (20-bestiary.qmd:304, 308) caps attacks at 1-2 and abilities at a single signature ability, so the section offers two conflicting monster-construction rules.",
+      "quote_or_excerpt": "give 1-3 attacks with W/S/S damage"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The monster HP and DR formula is printed twice in the same section (20-bestiary.qmd:297 and 20-bestiary.qmd:303) and the two copies diverge: only the first carries the natural-armor ceiling of 6, so the repeated statement of the rule is not identical.",
+      "quote_or_excerpt": "DR = Challenge ÷ 2 (round down)"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Additional Monsters entries (Cave Troll through Death Knight, 20-bestiary.qmd:212-278) each open with a one-line italic tagline in a markedly punchier register, a device used by none of the other roughly forty stat blocks in the chapter; the section therefore reads as a different editorial treatment of the same content.",
+      "quote_or_excerpt": "You won't see it coming. You'll feel it leave."
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The identically named Pack Tactics ability is phrased differently on the Wolf (20-bestiary.qmd:38) and the Dire Wolf (20-bestiary.qmd:46), and the identically named Charge ability differs between the Dire Boar (20-bestiary.qmd:78) and the Minotaur (20-bestiary.qmd:146); shared abilities should share one canonical sentence.",
+      "quote_or_excerpt": "+1 to attacks when an ally is adjacent"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "Relentless appears in three wordings across the Dire Boar (20-bestiary.qmd:78), the Orc (20-bestiary.qmd:110), and the Zombie (20-bestiary.qmd:126), the Zombie variant using the nonstandard 'roll Fortitude' where the book standard is a Fortitude check.",
+      "quote_or_excerpt": "roll Fortitude. On Strong, stays at 1 HP"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The once-per-day frequency is written as a phrase on the Orc (20-bestiary.qmd:110) and the Pixie (20-bestiary.qmd:154) but as parenthetical shorthand on the Lich, Dryad, Green Hag, and Vrock (20-bestiary.qmd:132, 156, 158, 192).",
+      "quote_or_excerpt": "once per day, when reduced to 0 HP"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Zombie trait Slow (20-bestiary.qmd:126), which makes the creature act last in initiative, is a near-homonym of the combat chapter's leveled Slowed X condition (13-combat.qmd:187), which reduces speed; two unrelated mechanics share a near-identical name, inviting misreading.",
+      "quote_or_excerpt": "Slow: always acts last in initiative"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "Both chapter-art captions (20-bestiary.qmd:9 and 20-bestiary.qmd:118) carry art-tracker residue in the form of placeholder status and pixel dimensions, which is out of book voice and would ship in print if left in place.",
+      "quote_or_excerpt": "Placeholder; final art TBD. Dimensions: 503×503"
+    }
+  ],
+  "confidence": 0.85,
+  "rebutting": []
+}

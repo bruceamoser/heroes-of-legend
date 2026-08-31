@@ -1,0 +1,42 @@
+{
+  "id": "f-001",
+  "round": 1,
+  "role": "game-architect",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "ch20 cannot ship as written: it still carries the defect classes the 2026-08-19 rulings were meant to remove, plus fresh convention breaks. The Fire Elemental (20-bestiary.qmd:174) keeps a 'Vulnerable: Water' entry that deals a flat 2 cold damage when splashed, where the half/double law requires doubled damage of a real type; Water is not among the 13 damage types, and the expected form is a doubled-damage vulnerability to a real type such as Cold. The Shadow Stalker (20-bestiary.qmd:238) labels its bright-light weakness 'Vulnerable: Light', granting Boon on attacks against it and cutting its own damage tier, which doubles nothing; Light is not a damage type, so this is a bespoke ability mislabeled with the vulnerability keyword, expected to be renamed (or converted to doubled Radiant). The Phase Beast's death burst (20-bestiary.qmd:264) resolves with an 'Agility save for half', the banned save word; expected an Agility check for half. The Water Elemental (20-bestiary.qmd:176) still phrases its freeze as 'speed halved for 1 round', and the Pixie (20-bestiary.qmd:154) makes a target 'roll Weak on its next action'; both are bespoke phrasings where ch13's leveled conditions (Slowed X, Confused X) are the canonical forms. Five stat blocks grant flat off-budget damage values: the Fire Elemental touch aura (2 fire), the Barbed Devil hide (2 piercing), the Dryad treebound drain (3 per round), the Swarm of Rats automatic 1, and the Stirge drain while attached (2 per round); the book only permits budget-row or tier-bump expressions. The Encounter Building examples (20-bestiary.qmd:288-290) also total 2, 4, and 8 budget points for a level-3 party while the Easy/Standard/Hard multipliers call for 3, 6, and 9. Every item is a mechanical vocabulary or arithmetic swap; no HP, band, or attack values change.",
+  "evidence": [
+    {
+      "source": "20-bestiary",
+      "claim": "The Phase Beast's Unstable detonation (20-bestiary.qmd:264) resolves with an Agility save for half damage, which is the banned save vocabulary; the book requires attribute checks, so this must read as an Agility check for half.",
+      "quote_or_excerpt": "Agility save for half"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Fire Elemental (20-bestiary.qmd:174) is printed as Vulnerable to Water with a flat 2 cold damage splash effect. Water is not one of the 13 damage types and the effect is not doubled damage, so the entry breaks the half/double vulnerability law; expected a real type with doubled damage, e.g. Vulnerable: Cold (takes double cold damage).",
+      "quote_or_excerpt": "takes 2 cold damage when splashed with water"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Shadow Stalker (20-bestiary.qmd:238) applies the Vulnerability keyword to a bright-light weakness that grants Boon on attacks against it and reduces its own damage tier, doubling nothing; since Light is not a damage type, this should be a separate light-sensitivity ability rather than a Vulnerability.",
+      "quote_or_excerpt": "all attacks against the stalker are at Boon"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Water Elemental's Freeze (20-bestiary.qmd:176) still uses the stale 'speed halved' phrasing where ch13's leveled Slowed X condition (speed reduced by X feet) is canonical, e.g. Slowed 15 for a 30-ft speed creature, and the Pixie's Confusion Touch (20-bestiary.qmd:154) makes a target 'roll Weak' instead of applying the ch13 Confused X condition.",
+      "quote_or_excerpt": "speed halved for 1 round"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "Five stat blocks grant flat off-budget damage: the Swarm of Rats (20-bestiary.qmd:70) deals automatic 1 damage, the Stirge (20-bestiary.qmd:76) drains 2 per round while attached, the Dryad (20-bestiary.qmd:156) takes 3 per round away from its tree, the Fire Elemental (20-bestiary.qmd:174) deals 2 fire on touch, and the Barbed Devil (20-bestiary.qmd:194) deals 2 piercing on contact; none is a budget-row or tier-bump expression, violating the zero-rider law.",
+      "quote_or_excerpt": "automatically deals 2 damage each round"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Encounter Building example rows (20-bestiary.qmd:288-290) for a level-3 party total 2, 4, and 8 budget points against the Easy/Standard/Hard multipliers of 3, 6, and 9 (4 Wolves at C1/2 = 2; Knight + 2 Guards = 4; Young Dragon + 4 Cultists = 8), so the examples should be adjusted to sum to the stated budgets, e.g. 6 Wolves, 2 Knights, and a Young Dragon plus 6 Cultists.",
+      "quote_or_excerpt": "4 Wolves (C½ each)"
+    }
+  ],
+  "confidence": 0.9,
+  "rebutting": []
+}

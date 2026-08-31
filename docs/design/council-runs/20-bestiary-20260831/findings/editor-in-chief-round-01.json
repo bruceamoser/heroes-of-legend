@@ -1,0 +1,52 @@
+{
+  "id": "f-000",
+  "round": 1,
+  "role": "editor-in-chief",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "The chapter cannot ship as the canonical stat-block reference: its own grammar section and the rest of the book never define the keywords its stat blocks lean on hardest. Recharge rides on thirteen abilities here and appears in a different, die-based form in the ch19 Kelvath block, yet no chapter defines the keyword and the Reading a Stat Block field table does not explain any frequency vocabulary (Recharge, at will, once per encounter, N/day), so a GM running these monsters cannot learn how often a gated power returns; that is a rule referenced but never defined, in the one chapter that must define it. The chapter is also structured two ways at once: ten monsters in the Beasts and Additional Monsters sections carry third-level headings while the remaining three dozen-plus entries in the other twelve sections are bold run-ins, and the Beasts section even mixes both formats within itself, so the generated navigation surfaces only a fraction of the roster. The Bear's Multiattack borrows 'Standard Action', a term no chapter defines; the combat chapter's economy speaks of Action, Maneuver, and Movement, and every other action reference in this chapter says 'as an action'. Finally, the Encounter Building section is a footnote and a table with no rule text connecting party level, the multiplier, and the sum of creature Challenges, so a reader who lands there has to reverse-engineer the procedure. The load-bearing gap is Recharge: stat-block grammar without a definition, and the book's only stat-block chapter is exactly where it must be supplied.",
+  "evidence": [
+    {
+      "source": "20-bestiary",
+      "claim": "Thirteen stat-block abilities in this chapter carry the Recharge keyword (Web, Hex, War Cry, Fire Breath, the three dragon Breath Weapons, Spores, Mind Reading, Shadow Leap, Rooted Grasp, Blink, Hellfire Orb) and none of them or any other passage says when the ability becomes usable again; the Reading a Stat Block table's six fields (Name, Attributes, HP, DR, Attacks, Abilities) cover no frequency keyword at all.",
+      "quote_or_excerpt": "**Web (Recharge):** Ranged attack that Restrains target on hit."
+    },
+    {
+      "source": "quarto-book/chapters/19-gm-guidance.qmd",
+      "claim": "The one other stat block in the book writes the same keyword with a recovery range: Tidal Surge is gated 'Recharge 5-6', which implies a die roll that the bare Recharge form never states; the two stat-block chapters disagree on what the keyword means, and this chapter is the canonical home for stat blocks.",
+      "quote_or_excerpt": "Tidal Surge (Recharge 5-6)"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "Exactly ten monsters in two sections use third-level headings (five in Beasts, five in Additional Monsters) while every other monster, more than three dozen entries across twelve sections, is a bold run-in, so the book's generated navigation lists only the ten headed entries and a reader cannot jump to the Lich, the Doppelganger, or the Gelatinous Cube from the contents.",
+      "quote_or_excerpt": "### Wolf (Challenge 1/2)"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The split is visible inside a single section: the Beasts section heads its first five entries (Wolf through Swarm of Rats) as third-level headings and then prints Stirge and Dire Boar as bold run-ins immediately after, so the heading level does not track any content distinction.",
+      "quote_or_excerpt": "**Stirge (Challenge 1/2):** HP 3, DR 0."
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Bear's Multiattack is the only action reference in the book that says 'Standard Action'; every other action reference in this chapter says 'as an action' or names a Maneuver, and the combat chapter's economy never uses the term, so it is vocabulary with no definition anywhere in the rulebook.",
+      "quote_or_excerpt": "as one Standard Action"
+    },
+    {
+      "source": "quarto-book/chapters/13-combat.qmd",
+      "claim": "The combat chapter defines the turn economy as Action, Movement, and Maneuver, and its tables label basic maneuvers like Disengage, confirming that 'Standard Action' is not part of the game's action vocabulary.",
+      "quote_or_excerpt": "Move 5 ft without provoking opportunity attacks"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The frequency grammar is split three ways inside the chapter: at will, once per encounter (Brimstone Burst), and per-day counts (Disrupt Life, Charm, Stunning Screech, Legendary Resistance), none of which the Reading a Stat Block section explains.",
+      "quote_or_excerpt": "Brimstone Burst: 6/9/12 (once per encounter)"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Encounter Building section consists of a footnote defining C½ and a four-row table; no sentence states that the budget equals the party level times the multiplier or that creature Challenges are summed to fill it, so the procedure a DA needs to build an encounter is missing from the section that exists for that purpose.",
+      "quote_or_excerpt": "| Difficulty | Challenge Budget | Example (Level 3 party) |"
+    }
+  ],
+  "confidence": 0.9,
+  "rebutting": []
+}

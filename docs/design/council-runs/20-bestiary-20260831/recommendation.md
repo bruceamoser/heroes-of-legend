@@ -1,0 +1,20 @@
+# Recommendation — hol-rulebook
+
+**Verdict:** REJECTED 7-0: ch20 is not publishable as-is. Ship the disposition as ONE atomic ch20 PR (no other chapter needs touching). MECHANICAL (micro-PR): (1) Phase Beast 264 'Agility save for half' -> 'Agility check for half' (save ban); (2) Water Elemental 176 'speed halved for 1 round' -> 'Slowed 10 for 1 round' (leveled-condition vocabulary); (3) Barbed Devil 194 'Claw: 6/9/12 + 2 fire' -> 'Claw: 6/9/12 slashing' (zero-rider law; the flat +2 makes 8/11/14, not rows); (4) encounter examples 288-291 re-totalled to the ×-multiplier budgets (Easy x1=3: 6 Wolves C½; Standard x2=6: 1 Knight C3 + 6 Guards C½; Hard x3=9: 1 Young Dragon C6 + 6 Cultists C½; Deadly x4=12 unchanged) so the sums match ch19's 'Challenge is its share of the budget' ruling; (5) Recharge defined in Reading a Stat Block (frequency row: 'Recharge: roll 1d6 at the start of the monster's turn; on a 5-6 the ability is ready again') and ch19:306 'Recharge 5-6' reconciled to the same form; (6) stat-block grammar unified by PROMOTING all ~39 bold run-in entries to the headed line-per-ability form (### Monster (Challenge N) heading + stat line + one ability per line, matching the 10 already-headed entries and the book's spell-card convention; attributes default to 0 per Reading a Stat Block, no arrays invented); (7) Creating Monsters self-contradiction fixed: 1-3 attacks and 1-2 abilities stated once, template matches the body numbers, DR formula appears once with the 'max 6' ceiling; (8) quick template 'Set Challenge (1-12)' -> '(1/2-12)' so C½ minions are producible; (9) Lich 132 '1d10 days' -> '1d4+1 days' (allowed duration die); (10) Bear 54 'as one Standard Action' -> 'as an action' (no chapter defines Standard Action); (11) five italic taglines stripped from Additional Monsters (voice consistency; none of the other ~40 entries use them); (12) Bugbear 102 'Natural Stealth: +1 to Guile (Stealth) checks' -> Agility key (ch07:146 keys Stealth to Agility); (13) art-tracker residue stripped from both illustration captions (Placeholder; final art TBD. Dimensions: ...); (14) Zombie 126 'roll Fortitude' -> 'make a Fortitude check' and trait renamed 'Slow' -> 'Shambling' (avoids collision with the Slowed condition); (15) Dire Wolf 44 'Pack Tactics: +1 when ally adjacent' -> full text; (16) range dashes unified to en-dash in Creating Monsters (1-3 -> 1–3, 1-2 -> 1–2, 1/2-12 -> 1/2–12); (17) pagebreak reflow so sparse sections (intro p.319, Dire Boar p.322, Oozes/Shapechangers pp.334-335) no longer strand alone on near-empty pages, verified via pdftotext. DESIGN-FLAVORED (implemented default, veto-revertible): (18) flat +1 attack/check bonuses converted to Boon: Wolf/Dire Wolf/Bandit Pack Tactics -> 'Boon on attacks when an ally is adjacent', Knight Leadership -> 'allies within 10 ft have Boon on attacks', Death Knight Marshal Undead -> 'undead allies within 30 ft have Boon on attack rolls', Bugbear Natural Stealth -> 'Boon on Stealth checks', Doppelganger Deceptive -> 'Boon on Deception checks' (ch17 #384 precedent); (19) DR guidance gains the HP-style hedge: 'DR = Challenge ÷ 2 (round down), max 6, adjust to taste' so the printed natural-armor values are not unexplained; (20) Shadow Stalker 'Vulnerable: Light' renamed 'Light Sensitivity' (its effect grants Boon and cuts a damage tier rather than doubling damage). CONSIDERED AND KEPT (no change, vetoable): Swarm auto 1 damage and contact-damage floors (2 fire/2 piercing) are Basic-floor/row values; Fire Elemental 'Vulnerable: Water' is a self-defining bespoke trait; Pixie Confusion Touch stays bespoke (it forces a Weak outcome, not the Confused condition); Archmage at-will 2/4/6, Paralyzed/Stunned 1-round durations are compliant (one-tier-lower secondaries; source durations). Substantive: none (no new content, no multi-file rewrite).
+
+**Confidence:** 0.9
+
+## Per-topic outcomes
+
+- t-01: rejected
+
+## Resolved (per the librarian)
+- t-01: rejected (7-0 unanimous refute, no rebuttals, no impasse, no judge)
+
+## Dissenting views
+
+- none recorded
+
+## Rulings applied
+
+- none

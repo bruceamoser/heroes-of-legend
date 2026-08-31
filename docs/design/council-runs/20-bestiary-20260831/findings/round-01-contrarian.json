@@ -1,0 +1,47 @@
+{
+  "id": "f-000",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "The chapter cannot ship as the canonical home for stat blocks and monster creation: its design-authority section and its own stat blocks contradict each other and the locked conventions. [264] The only resistance roll in the chapter is written as an 'Agility save', exactly the vocabulary the standing convention bans in favor of attribute checks. [176] The Water Elemental's Freeze uses 'speed halved for 1 round', the stale phrasing the conventions replaced with the numbered leveled condition, while the same chapter writes 'Poisoned 2' correctly at line 62, so the chapter is inconsistent with itself. [102,184,206] Two modifier systems run in parallel: Natural Stealth and Deceptive grant flat +1 to checks and Pack Tactics, Leadership, and Marshal Undead grant flat +1 to attacks, while Stone Camouflage, Magic Resistance, and the Shadow Stalker's light vulnerability express the same kinds of effects as Boon/Bane, so a GM cannot know which system is canonical when building monsters; the Bandit's Pack Tactics at line 84 is a dangling reference with no effect text. [297] The Creating Monsters rule sets DR by a formula that more than a dozen natural-armor stat blocks in the same chapter ignore (Dire Wolf C1 prints DR 1 against a formula value of 0, Green Hag C3 prints 2 against 1, Wyrmling C3 prints 3 against 1), and only HP carries the adjust-to-taste hedge, so the printed DRs are neither formula-conformant nor declared hand-tuned. [302] The Quick Monster Template limits Challenge to 1-12 yet the chapter prints Challenge 1/2 monsters throughout and its own encounter table defines that as the minion tier, so the template cannot produce the chapter's own creatures. [132] The Lich's phylactery roll uses 1d10 days, outside the book's allowed dice. Tested and clean: no em-dashes, all printed damage rows conform to their challenge bands, attributes stay within the ceiling, class names match ch05, Morale Check is a defined mechanic (13:257), and Surprised uses ch13 vocabulary.",
+  "evidence": [
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "Line 264 is the chapter's only resistance roll and it uses the banned 'save' vocabulary; the standing convention requires attribute checks, so this must read 'Agility check for half'.",
+      "quote_or_excerpt": "Agility save for half"
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "Line 176 Freeze uses the stale 'speed halved' phrasing the conventions replaced with the numbered leveled condition Slowed X (defined at 13:187); the chapter itself uses the correct form 'Poisoned 2' at line 62.",
+      "quote_or_excerpt": "speed halved for 1 round"
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "Natural Stealth (line 102) and Deceptive (line 206) grant flat +1 to skill checks while Stone Camouflage (line 184) grants Boon on Stealth for the same kind of effect; the chapter's own Boon/Bane usage (lines 104, 186, 192, 194, 232, 238) makes the flat +1s drift from the core modifier system.",
+      "quote_or_excerpt": "+1 to Guile (Stealth) checks"
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "Pack Tactics (lines 38, 46), Leadership (line 90), and Marshal Undead (line 274) grant flat +1 to attacks or attack rolls while the same chapter expresses attack modifiers as Bane (line 104) and Boon (line 238); the Bandit's 'Pack Tactics.' at line 84 has no effect text at all.",
+      "quote_or_excerpt": "+1 to attacks when an ally is adjacent."
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "The Creating Monsters DR formula (line 297) is contradicted by the chapter's own natural-armor stat blocks: Dire Wolf (C1) prints DR 1 against formula 0, Green Hag (C3) prints 2 against 1, Wyrmling (C3) prints 3 against 1; only HP carries an 'adjust to taste' hedge, so the printed DRs are neither formula-conformant nor declared hand-tuned.",
+      "quote_or_excerpt": "DR = Challenge ÷ 2 (round down), based on natural armor (max 6)"
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "The Quick Monster Template restricts Challenge to 1-12 (line 302), which excludes the Challenge 1/2 monsters printed throughout the chapter (Wolf, Goblin, Bandit, Orc, Skeleton, Zombie, Pixie, and more) and the encounter table's own minion tier defined at line 284.",
+      "quote_or_excerpt": "Set Challenge (1-12)"
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "The Lich's phylactery roll (line 132) uses 1d10 days, outside the allowed dice (1d4/1d6 random behavior, 1d4+1 duration dice); the Death Knight's 1d4 rounds at line 278 is likewise a plain duration die outside the stated 1d4+1 form.",
+      "quote_or_excerpt": "reforms in 1d10 days if phylactery survives"
+    }
+  ],
+  "confidence": 0.85,
+  "rebutting": []
+}

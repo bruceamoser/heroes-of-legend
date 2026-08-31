@@ -1,0 +1,97 @@
+{
+  "id": "f-000",
+  "round": 1,
+  "role": "researcher",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "The chapter does not hold under the standing conventions and cannot ship as written; the defects cluster in stat-block vocabulary, two off-band stat blocks, and encounter-table arithmetic. The clearest single breach is the Phase Beast's death burst at 20-bestiary.qmd:264, which demands an Agility save, the one word the book's resistance vocabulary bans (resistance is always an attribute check). The Archmage at line 92 is rated Challenge 6, yet its at-will Dagger and Ember Lance sit on the 2/4/6 row, a full band below the 6/9/12 the chapter's own creation rules (lines 304-307) lock for C3-6; only the once-per-encounter Brimstone Burst reaches the correct row, the same band defect the ch19 council flagged in Kelvath, inverted. The Barbed Devil's claw at line 194 bolts a flat +2 fire bonus onto a 6/9/12 row, and its Barbed Hide, the Fire Elemental's Touch, and its water vulnerability deal static 2s, none of which is a permitted damage form (budget row, basic-card floor, or +1 damage tier bump). Condition vocabulary drifts into bespoke phrasing: Water Elemental Freeze (line 176) halves speed for a round where the leveled form is Slowed with a number; the Ghoul (line 128) and Vrock (line 192) apply Paralyzed and Stunned for one round, while ch13's condition table ends both at source duration and gives its leveled conditions a number. Two abilities grant flat +1 check bonuses where the convention is Boon/Bane: the Bugbear's Natural Stealth (line 102) also mis-keys Stealth to Guile although ch07 keys it to Agility, and the Doppelganger's Deceptive (line 206) adds +1 to Guile (Deception) checks. The Lich's phylactery (line 132) reforms in 1d10 days, a die outside the allowed set of 1d4/1d6 random behavior and 1d4+1 duration dice. The Encounter Building examples (lines 288-291) do not sum to the stated budgets for a level-3 party under the chapter's own footnote that C½ equals Challenge ½: four Wolves total 2 against an Easy budget of 3, one Knight plus two Guards total 4 against a Standard budget of 6, and one Young Dragon plus four Cultists total 8 against a Hard budget of 9. Smaller items: the Zombie's Relentless (line 126) says to roll Fortitude instead of making a Fortitude check like every sibling block, and the Dryad's Treebound (line 156) deals a flat 3 matching no budget row. On the support side, the chapter holds the em-dash law (zero violations), names the nine classes correctly (Arcanist, Shepherd), and nearly every other stat block conforms to its band with proper attribute-check phrasing; those strengths do not offset the violations above.",
+  "evidence": [
+    {
+      "source": "20-bestiary",
+      "claim": "The Phase Beast's Unstable death burst uses 'save' vocabulary, which the book's resistance convention bans; resistance is expressed as attribute checks ('Fortitude check', 'Guile check'), so the line should read as an Agility check for half damage.",
+      "quote_or_excerpt": "**Unstable:** When the phase beast is reduced to 0 HP, it explodes. All creatures within 10 ft take 6/9/12 force damage (Agility save for half)."
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Archmage is Challenge 6, so its effective primary (the at-will attacks) must use the C3-6 row 6/9/12 per the chapter's own creation bands; its Dagger and Ember Lance sit a full band lower at 2/4/6, with only the once-per-encounter Brimstone Burst on the correct row.",
+      "quote_or_excerpt": "**Archmage (Challenge 6):** HP 14, DR 2. Dagger: 2/4/6. Ember Lance: 2/4/6 (at will). Brimstone Burst: 6/9/12 (once per encounter). Counterspell: reaction to negate a spell."
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The chapter's monster-creation rules lock the damage rows to challenge bands, stating C3-6 (Adept) as W:6 / S:9 / St:12, which is the reference the Archmage's 2/4/6 at-will attacks violate.",
+      "quote_or_excerpt": "- C3–6 (Adept): W:6 / S:9 / St:12"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Barbed Devil's claw bolts a flat '+2 fire' bonus onto a 6/9/12 budget row, a damage rider the book only permits as a budget row, a basic-card floor, or a '+1 damage tier' bump.",
+      "quote_or_excerpt": "**Barbed Devil (Challenge 5):** HP 22, DR 4. Claw: 6/9/12 + 2 fire. Tail: 6/9/12 piercing."
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "Contact and vulnerability effects deal static damage amounts (2 fire, 2 cold, 2 piercing) that are not W/S/S rows and act as flat riders outside the attack model.",
+      "quote_or_excerpt": "Touch: creatures touching or hitting the elemental take 2 fire. Vulnerable: Water (takes 2 cold damage when splashed with water)."
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "'Speed halved for 1 round' is the bespoke phrasing the book's convention replaces with a leveled condition; the canonical form is Slowed with a number (Slowed X), which ch13 defines as a speed reduction in feet.",
+      "quote_or_excerpt": "Freeze: when hit by cold damage, speed halved for 1 round."
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Ghoul imposes Paralyzed with a fixed 'for 1 round' duration, but ch13's condition table ends Paralyzed at 'Source duration' and gives no 'for 1 round' form; the bespoke duration phrasing is stale vocabulary.",
+      "quote_or_excerpt": "Paralyzing Touch: on Strong claw hit, target must make a Fortitude check or be Paralyzed for 1 round."
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Vrock's Stunning Screech imposes Stunned 'for 1 round', repeating the bespoke fixed-duration phrasing; ch13's condition table ends Stunned at 'Source duration'.",
+      "quote_or_excerpt": "Stunning Screech (1/day): all within 30 ft must make a Fortitude check or be Stunned for 1 round."
+    },
+    {
+      "source": "quarto-book/chapters/13-combat.qmd",
+      "claim": "The combat chapter's condition table ends both Paralyzed and Stunned at 'Source duration' and reserves numbered durations for its leveled conditions, confirming that 'for 1 round' is not the canonical phrasing for these conditions.",
+      "quote_or_excerpt": "| **Stunned** | Incapacitated + cannot move | Source duration |"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Bugbear's Natural Stealth is a flat '+1' check rider where the convention is Boon/Bane, and it mis-keys the Stealth skill to Guile; the expected form is Boon on Agility (Stealth) checks.",
+      "quote_or_excerpt": "Natural Stealth: +1 to Guile (Stealth) checks."
+    },
+    {
+      "source": "quarto-book/chapters/07-skills.qmd",
+      "claim": "The skills chapter keys Stealth to Agility, not Guile, so 'Guile (Stealth)' is a mis-keyed check.",
+      "quote_or_excerpt": "| **Stealth** | Agility | Sneaking, hiding, moving silently |"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Doppelganger's Deceptive grants a flat '+1' to Guile (Deception) checks where the convention requires Boon/Bane phrasing; the skill key itself is correct per ch07 (Deception keys to Guile).",
+      "quote_or_excerpt": "Deceptive: +1 to Guile (Deception) checks."
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Lich's phylactery reformation uses a 1d10 die, which is outside the book's allowed dice set (1d4/1d6 random behavior, 1d4+1 duration dice); expected a 1d4+1 or 1d6-based duration.",
+      "quote_or_excerpt": "Phylactery: reforms in 1d10 days if phylactery survives."
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The encounter table's own footnote defines C½ as Challenge ½, the premise for the example arithmetic.",
+      "quote_or_excerpt": "C½ = Challenge ½ (minion-tier)."
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "Under that definition, the three worked examples do not sum to the stated budgets for a level-3 party: four Wolves total 2 against an Easy budget of 3, one Knight plus two Guards total 4 against a Standard budget of 6, and one Young Dragon plus four Cultists total 8 against a Hard budget of 9.",
+      "quote_or_excerpt": "| Easy | × party level | 4 Wolves (C½ each) |\n| Standard | ×2 party level | 1 Knight (C3) + 2 Guards (C½ each) |\n| Hard | ×3 party level | 1 Young Dragon (C6) + 4 Cultists (C½) |"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Zombie's Relentless drops the word 'check', reading 'roll Fortitude', while the Dire Boar, Orc, and every other Relentless entry say 'make a Fortitude check'; the phrasing is inconsistent within the chapter.",
+      "quote_or_excerpt": "Relentless: when reduced to 0 HP, roll Fortitude. On Strong, stays at 1 HP."
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Dryad's Treebound deals a flat 3 damage per round, a value on no budget row (2/4/6, 6/9/12, 9/15/21), repeating the off-budget flat-value pattern the ch19 audit flagged.",
+      "quote_or_excerpt": "Treebound: takes 3 damage per round when more than 300 ft from its bonded tree."
+    }
+  ],
+  "confidence": 0.9,
+  "rebutting": []
+}

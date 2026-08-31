@@ -1,0 +1,42 @@
+{
+  "id": "f-000",
+  "round": 1,
+  "role": "layout-expert",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "The chapter does not render as one uniform reference grammar: only ten stat blocks are set as headed blocks with one ability per line, while the remaining thirty-plus blocks are inline bold paragraph walls, and both grammars sit side by side inside the Beasts section. On the built page the paragraph-wall entries become wrapped four-to-six-line runs whose ability names surface mid-paragraph, so a GM cannot scan to an ability, which breaks the chapter's own stat-block-readability promise and the reference-sheet usability bar. Typography also drifts inside Creating Monsters, where numeric ranges mix plain hyphens with en-dashes against the book's en-dash range convention, and forced page breaks strand sparse content on otherwise blank pages. All fixes are mechanical: promote every stat block to the headed line-per-ability form, unify range dashes, and reflow the near-empty pages.",
+  "evidence": [
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "The Beasts section opens with five stat blocks set as third-level headings, then switches to inline bold paragraph leads for Stirge and Dire Boar, so a single section renders two different stat-block grammars.",
+      "quote_or_excerpt": "**Stirge (Challenge 1/2):** HP 3, DR 0."
+    },
+    {
+      "source": "build output: quarto-book/_output/Heroes-of-Legend.pdf (Bestiary pages)",
+      "claim": "On the built page the bold-lead entries render as wrapped four-to-six-line paragraphs with no heading ornament and no line break between abilities, while headed entries get a distinct glyph; the Doppelganger's Ambusher and Deceptive land at the tail of a six-line run, unreachable by scanning.",
+      "quote_or_excerpt": "Ambusher: +1 damage tier against surprised targets."
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "The Quick Monster Template uses hyphenated ranges for attack and ability counts and for the Challenge bound, while the challenge-band rows immediately below use en-dashes; ch13 and ch19 use en-dashes for ranges, so the section is internally split and drifts from book convention.",
+      "quote_or_excerpt": "give 1-3 attacks with W/S/S damage"
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "The band rows directly under the template steps express the same kind of numeric span with en-dashes, proving the hyphen/en-dash split is within one section.",
+      "quote_or_excerpt": "C1–2 (Novice): W:2 / S:4 / St:6"
+    },
+    {
+      "source": "build output: quarto-book/_output/Heroes-of-Legend.pdf (Bestiary pages)",
+      "claim": "Forced page breaks strand sparse content on near-empty pages: the three-line intro paragraph alone on p.319, Dire Boar alone on p.322, and the single-monster Oozes and Shapechangers sections alone on pp.334-335, each page mostly whitespace.",
+      "quote_or_excerpt": "Dire Boar (Challenge 2): HP 18, DR 2."
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "The chapter promises stat blocks read like character sheets, i.e. one uniform grammar; the paragraph-wall blocks contradict that promise on the page.",
+      "quote_or_excerpt": "If you can read a character sheet, you can read a stat block."
+    }
+  ],
+  "confidence": 0.9,
+  "rebutting": []
+}
