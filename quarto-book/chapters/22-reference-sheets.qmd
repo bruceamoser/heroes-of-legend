@@ -6,7 +6,7 @@
 
 ![Illo 31: Reference Sheets](../assets/svg/placeholder-section.svg){width="60%"}
 
-*Illustration 31: Reference sheets chapter placeholder. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
+*Illustration 31: Reference sheets chapter placeholder.*
 
 {{< pagebreak >}}
 
@@ -61,20 +61,22 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 |----------|--------|
 | **Defend** | +2 to your Defense roll until your next turn |
 | **Disengage** | Move 5 ft without provoking opportunity attacks |
-| **Aid** | Ally within 30 ft gains +2 on their next roll |
-| **Shove** | Opposed Brawn check. Push 5 ft (10 ft on Strong) |
-| **Grapple** | Initiate a grapple (opposed Brawn check) |
+| **Aid** | Ally within 30 ft gains +2 on their next roll before your next turn |
+| **Shove** | Opposed Brawn vs Brawn/Agility. Push 5 ft (10 ft on Strong) |
+| **Grapple** | Brawn (Athletics) vs Brawn (Athletics) or Agility (Acrobatics) |
 | **Command** | Companion/familiar/mount takes an extra Movement |
 | **Catch Breath** | Regain HP equal to Fortitude (min 1). Once per combat. |
 | **Search** | Active Perception check to spot hidden things |
 | **Stand Up** | Rise from prone |
 | **Use Item** | Drink a potion, apply a salve, activate a device |
 
+{{< pagebreak >}}
+
 ### Conditions Quick-Reference
 
 | Condition | Effect | Ends |
 |-----------|--------|------|
-| **Asleep X** | Unconscious | X minutes or damage |
+| **Asleep X** | Unaware | X minutes or damage |
 | **Blinded** | Attacks reduced one tier | Source duration |
 | **Burning X** | Takes X damage per round | Spend an action to end |
 | **Charmed** | Cannot attack charmer | Source duration |
@@ -90,11 +92,13 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 | **Paralyzed** | Incapacitated + auto-crit if hit | Source duration |
 | **Petrified** | Turned to stone, incapacitated, DR +5, immune to non-magical damage | Special |
 | **Poisoned X** | Takes X poison damage per round and attacks at Bane | Spend an action to end |
-| **Prone** | Melee Boon vs you, ranged Bane | Stand up (move) |
+| **Prone** | Melee Boon vs you, ranged Bane | Stand up (maneuver) |
 | **Restrained** | Speed 0, attack Bane | Escape action |
 | **Slowed X** | Speed reduced by X feet, cannot take Reactions | Source duration |
 | **Stunned** | Incapacitated + cannot move | Source duration |
 | **Unconscious** | Incapacitated + prone + unaware | Healing or Medicine check |
+
+{{< pagebreak >}}
 
 ### Effects
 
@@ -214,18 +218,18 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
 
 | Level | DP Gained | Milestones |
 |-------|-----------|------------|
-| 1 | 4 DP | Class, signature ability |
+| 1 | 4 DP | Class signature, Starting Disciplines |
 | 2 | 3 DP | |
-| 3 | 3 DP | Adept abilities unlock. +1 Discipline rank. |
+| 3 | 3 DP | Progression Discipline. Adept abilities unlock. |
 | 4 | 3 DP | +1 Attribute (max +2) |
-| 5 | 4 DP | Class feature |
-| 6 | 3 DP | +1 Discipline rank |
+| 5 | 4 DP | DP windfall |
+| 6 | 3 DP | Progression Discipline |
 | 7 | 3 DP | Master abilities unlock |
 | 8 | 3 DP | +1 Attribute (max +2) |
-| 9 | 3 DP | +1 Discipline rank |
-| 10 | 3 DP | Class feature |
+| 9 | 3 DP | Progression Discipline |
+| 10 | 3 DP | |
 
-Total DP by level 10: 32 advancement DP + 8 Class DP + background DP (8 + Knowledge + Fortitude) ≈ 50-52 career DP.
+Total DP by level 10: 32 advancement DP + 8 Class DP + background DP (8 + Knowledge + Fortitude) ≈ 44–52 career DP.
 
 {{< pagebreak >}}
 
@@ -264,7 +268,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 
 | Tier | Weak | Standard | Strong |
 |------|------|----------|--------|
-| **Novice** (C1–2) | 2 | 4 | 6 |
+| **Novice** (C½–2) | 2 | 4 | 6 |
 | **Adept** (C3–6) | 6 | 9 | 12 |
 | **Master** (C7+) | 9 | 15 | 21 |
 
@@ -274,9 +278,9 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 
 | Difficulty | Challenge Budget | Example (Level 3 party) |
 |-----------|-----------------|------------------------|
-| Easy | × party level | 4 Wolves (C½ each) |
-| Standard | ×2 party level | 1 Knight (C3) + 2 Guards (C½) |
-| Hard | ×3 party level | 1 Young Dragon (C6) + 4 Cultists (C½) |
+| Easy | × party level | 6 Wolves (C½ each) |
+| Standard | ×2 party level | 1 Knight (C3) + 6 Guards (C½) |
+| Hard | ×3 party level | 1 Young Dragon (C6) + 6 Cultists (C½) |
 | Deadly | ×4+ party level | 1 Ancient Dragon (C12) |
 
 {{< pagebreak >}}
@@ -294,10 +298,12 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 | Chain Mail | 5 | Bane | 2 Armor |
 | Plate | 6 | Bane | 3 Armor |
 
+*Half Plate, Chain Mail, and Plate reduce speed by 5 ft.*
+
 | Shield | Protection Req | DR Bonus |
 |--------|-----|----------|
 | Buckler | 1 | +1 |
 | Shield | 1 | +2 |
-| Tower Shield | 2 | +3 |
+| Tower Shield | 2 | +3, half cover |
 
-**Defense summary:** Armor grants DR (passive damage reduction). Protection Value (PV) is a defensive stance bonus (from Bastion or Arcane Shield). Shields grant a DR bonus and the Shield Block reaction.
+**Defense summary:** Armor grants DR (passive damage reduction). Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields grant a DR bonus and the Shield Block reaction.
