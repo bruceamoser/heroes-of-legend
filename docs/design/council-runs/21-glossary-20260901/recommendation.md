@@ -1,0 +1,20 @@
+# Recommendation — hol-rulebook
+
+**Verdict:** REJECTED 7-0: ch21 is not publishable as-is. Ship the disposition as ONE atomic ch21 micro-PR (all fixes are chapter-local to quarto-book/chapters/21-glossary.qmd; no other chapter needs touching; no design judgment required except items marked DESIGN-FLAVORED). MECHANICAL: (1) :125 + :173 Spell Weaver phantom talent removed from both Concentration entries (the talent exists nowhere in the book; ch10:99 caps concentration at one spell); (2) :125 concentration wording aligned to ch10:99 ('make a Fortitude check to hold the spell together' instead of 'Taking damage may break concentration'); (3) :47 Attribute-Scaled Damage reworded to match ch08:195 + ch15:52: missile and thrown attacks are FLAT (no attribute), not 'missile and thrown cards add Agility' (that claim would over-damage by up to +2/hit vs the budget); add the 'minimum 1 damage' hedge and concrete bases (Novice 1/2/3, Adept 3/6/9, Master 6/12/18); melee +Brawn / Finesse +Agility retained; (4) :53 'Follows Novice/Adept/Master chain' retired to growing-card language (matches :171 'There are no spell chains'); (5) :127 Condition list gains Dazzled and Petrified (both in ch13 Table 13.3; currently absent from the chapter entirely); (6) :85 Fortune's Favor example corrected to 'reroll one natural 1, 2, or 3' (ch09 Novice text); (7) prose ranges en-dashed: :197 '3-4 hours' -> '3–4 hours', :25 '9-12' -> '9–12' (ch19 convention); (8) new glossary entries anchored on canon: Rest (short rest 1 hour no default mechanical effect; long rest 8 hours with recovery benefits — ch19:97-105), Recharge (roll 1d6 at the start of the monster's turn; on a 5–6 the ability is ready again — the tag is used on ~12 ch20 stat blocks and ch19:306 but defined nowhere book-wide), Dazzled and Petrified definitions (ch13:175/:183), Finesse (use Agility instead of Brawn for attack and damage — ch15:68; closes the self-reference inside :47); (9) :147 Surprise gains 'the ambushing side acts first in the opening round' (ch13:195); (10) :157 Wound gains 'a Standard Medicine check during a rest heals 1 additional wound' (ch13:322); (11) alphabetization slips fixed in the effects/conditions blocks (Asleep before Burning; Lift before Push). DESIGN-FLAVORED (implemented default, veto-revertible, logged in decisions-pending.md): (12) :119 Protection Value 'Adds to DR' reworded to '+1 to your defense roll' — the book grants '+1 Protection Value' (Bastion/Arcane Shield, ch05) but never states its mechanical effect; ch22:303 calls it a 'defensive stance bonus' and ch13's defense-roll modifier table (+2 Defend, +1 to +3 Cover) is its natural home; 'Adds to DR' contradicts ch22's explicit PV-vs-DR contrast. (13) Cover double-implementation (ch13:124 defense +1/+3 vs ch13 Cover section attacker −1/−3) is a book-wide design inconsistency tracked in #371 D/E — NOT a glossary edit (the glossary already matches the Cover section); add a decisions-pending row for Bruce. CONSIDERED AND KEPT (vetoable, no change): Attunement artifact exemption (:179) is CORRECT per ch17:377 ('Artifacts ... do not count against this limit') — the researcher's contrary claim is a false positive, honored via the verification trap (re-read ch17 before concluding); Arcane Focus/Holy Symbol 'Required for some spells' kept (consistent with the Eccentric Spellcasting exception ch05:250); all other definitions verified against canon (budgets 2/4/6-9/15/21, card costs 2/4/8, Adept L3/Master L7 gates, 23-discipline/9-family taxonomy, HP, Background DP, Passive Insight, Difficulty Modifier, Shield Block, Initiative, Morale, Dying, Non-Lethal, Critical/Fumble, all X-condition texts). SUBSTANTIVE: none (single file).
+
+**Confidence:** 0.92
+
+## Per-topic outcomes
+
+- t-01: rejected
+
+## Resolved (per the librarian)
+- t-01: rejected 7-0 (unanimous refute, no rebuttals, no impasse, no judge)
+
+## Dissenting views
+
+- none recorded
+
+## Rulings applied
+
+- none
