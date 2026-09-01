@@ -285,9 +285,9 @@ HP 40, DR 5 (plate + unholy). Attributes: Brawn +2, Fortitude +1, Guile +1, othe
 
 | Difficulty | Challenge Budget | Example (Level 3 party) |
 |-----------|-----------------|-------------------|
-| Easy | × party level | 4 Wolves (C½ each) |
-| Standard | ×2 party level | 1 Knight (C3) + 2 Guards (C½ each) |
-| Hard | ×3 party level | 1 Young Dragon (C6) + 4 Cultists (C½) |
+| Easy | × party level | 6 Wolves (C½ each) |
+| Standard | ×2 party level | 1 Knight (C3) + 6 Guards (C½ each) |
+| Hard | ×3 party level | 1 Young Dragon (C6) + 6 Cultists (C½) |
 | Deadly | ×4+ party level | 1 Ancient Dragon (C12) or 1 Lich (C10) + minions |
 
 {{< pagebreak >}}
