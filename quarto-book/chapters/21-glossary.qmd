@@ -22,7 +22,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Attribute:** One of six core stats: Brawn, Fortitude, Agility, Guile, Knowledge, Reason. Ranges from -2 to +2.
 
-**Bell Curve:** The probability distribution of 3d6. Most rolls cluster around 9-12. Extreme results (3 and 18) are rare, about 0.5% each.
+**Bell Curve:** The probability distribution of 3d6. Most rolls cluster around 9–12. Extreme results (3 and 18) are rare, about 0.5% each.
 
 **Boon:** An extra d6 added to a 3d6 roll. Roll 4d6 and keep the highest three. Halflings get a boon once per session from their Lucky trait.
 
@@ -44,13 +44,13 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Flat Damage:** Damage taken straight from the damage budget row with no attribute added. Arrows, thrown attacks, most spells, and all monsters use flat damage.
 
-**Attribute-Scaled Damage:** Damage that adds a keyed attribute to a base value. For spells and abilities, the base is budget − 3 plus the card's stated attribute; attack ability cards state their attribute: melee cards add Brawn (or Agility for Finesse), missile and thrown cards add Agility.
+**Attribute-Scaled Damage:** Damage that adds a keyed attribute to a base value, minimum 1 damage. For spells and abilities, the base is budget − 3 (Novice 1/2/3, Adept 3/6/9, Master 6/12/18), plus the card's stated attribute. Melee attack cards add Brawn (or Agility for Finesse). Missile and thrown attacks are flat, no attribute added.
 
 {{< pagebreak >}}
 
 ## Character Terms
 
-**Ability:** An active power purchased with DP. Spells, combat techniques, and signature class powers are all abilities. Must be activated to use. Follows Novice/Adept/Master chain with a flat DP cost by tier.
+**Ability:** An active power purchased with DP. Spells, combat techniques, and signature class powers are all abilities. Must be activated to use. Follows the Novice/Adept/Master growing-card format with a flat DP cost by tier.
 
 **Ancestry:** Your species, Human, Elf, Dwarf, or Halfling. Grants one Discipline and one trait.
 
@@ -82,7 +82,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Skill:** A trained competency. Ranges from Novice (+1) to Master (+3). Includes physical skills (Athletics), knowledge skills (Arcana), social skills (Persuasion), and subterfuge skills (Stealth).
 
-**Talent:** A passive benefit purchased with DP. Always on. Does not require activation. Examples: Tough (+2 HP), Fortune's Favor (reroll one natural 1 per session).
+**Talent:** A passive benefit purchased with DP. Always on. Does not require activation. Examples: Tough (+2 HP), Fortune's Favor (reroll one natural 1, 2, or 3 per session).
 
 **Trait:** An ancestry-granted special ability. Human: Versatile. Elf: Elven Grace. Dwarf: Sturdy. Halfling: Lucky.
 
@@ -108,33 +108,39 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Effect:** A rider on an ability, spell, or maneuver card that does something beyond damage. Effects resolve by the roll's tier, never by a second roll. One roll resolves both damage and effect. The card text states which tiers carry which effect.
 
+**Finesse:** A weapon property. Use Agility instead of Brawn for attack and damage.
+
+**Lift X:** An effect that raises the target X feet into the air and holds them there. The target is Restrained while held.
+
 **Push X:** An effect that shoves the target X feet directly away from you.
 
 **Slide X:** An effect that moves the target X feet in a direction you choose.
 
 **Trip:** An effect that knocks the target Prone.
 
-**Lift X:** An effect that raises the target X feet into the air and holds them there. The target is Restrained while held.
-
-**Protection Value (PV):** A temporary defensive bonus from abilities such as Bastion or Arcane Shield. Adds to DR.
+**Protection Value (PV):** A temporary +1 bonus to your defense roll from abilities such as Bastion or Arcane Shield.
 
 **Shield Block:** A reaction that reduces incoming damage by one tier. Requires a shield.
 
 **Opportunity Attack:** A free melee attack when an enemy leaves your reach without Disengaging.
 
-**Concentration:** Some spells require concentration to maintain. You can only concentrate on one spell at a time (two with the Spell Weaver talent). Taking damage may break concentration.
+**Concentration:** Some spells require concentration to maintain. You can only concentrate on one spell at a time. If you take damage while concentrating, make a Fortitude check to hold the spell together.
 
-**Condition:** A temporary status effect. Blinded, Charmed, Deafened, Frightened, Grappled, Incapacitated, Invisible, Paralyzed, Prone, Restrained, Stunned, Unconscious.
-
-**Burning X:** Takes X fire damage per round. Spend an action to end.
+**Condition:** A temporary status effect. Blinded, Charmed, Dazzled, Deafened, Frightened, Grappled, Incapacitated, Invisible, Paralyzed, Petrified, Prone, Restrained, Stunned, Unconscious.
 
 **Asleep X:** Falls asleep for X minutes. Wakes on taking damage.
+
+**Burning X:** Takes X fire damage per round. Spend an action to end.
 
 **Confused X:** Attacks are made with a Bane; cannot take Reactions.
 
 **Dazed X:** Can take only one action type per turn, for X rounds.
 
+**Dazzled:** Perception checks are made at a Bane, and you cannot benefit from a Boon on sight-based rolls.
+
 **Frozen X:** Incapacitated and takes X cold damage per round. Spend an action to end.
+
+**Petrified:** Turned to stone. Incapacitated, DR +5, immune to non-magical damage.
 
 **Poisoned X:** Takes X poison damage per round and attacks at Bane. Spend an action to end.
 
@@ -144,7 +150,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Initiative:** 3d6 + Agility modifier. Determines turn order in combat.
 
-**Surprise:** When one side catches the other unaware. Surprised creatures take -2 on their first roll. Determined by Stealth vs passive Insight.
+**Surprise:** When one side catches the other unaware. The ambushing side acts first in the opening round, and surprised creatures take -2 on their first roll. Determined by Stealth vs passive Insight.
 
 **Cover:** Terrain that provides protection. Half cover (-1 to attacker), three-quarters cover (-3), full cover (cannot be targeted).
 
@@ -154,7 +160,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Wounded:** Below half your maximum HP. See Wound for what happens when you drop below half HP during an encounter.
 
-**Wound:** A lasting injury from combat. The first time you drop below half your maximum HP during an encounter, you gain a Wound and roll on the Wound Table (see @sec-chapter-combat). Wounds linger after HP is restored and heal one per long rest.
+**Wound:** A lasting injury from combat. The first time you drop below half your maximum HP during an encounter, you gain a Wound and roll on the Wound Table (see @sec-chapter-combat). Wounds linger after HP is restored and heal one per long rest (a Standard Medicine check during a rest heals one additional wound).
 
 **Thunder:** A damage type: concussive sound and shockwaves. Part of the Elemental family alongside Fire, Cold, Lightning, Acid, and Poison.
 
@@ -170,7 +176,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Spell Card:** A spell in the standard card format. Every spell is an individual card with Weak, Standard, and Strong outcomes, plus optional Adept and Master additions. There are no spell chains.
 
-**Concentration Spell:** A spell that requires ongoing focus. You can maintain one (or two with Spell Weaver) at a time.
+**Concentration Spell:** A spell that requires ongoing focus. You can maintain one at a time.
 
 **Arcane Focus:** An item (wand, staff, orb) that channels arcane magic. Required for some spells.
 
@@ -194,7 +200,11 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 **Passive Insight:** A creature's baseline ability to detect lies and hidden threats. Calculated as Knowledge score + 7.
 
-**Session:** One gaming session, typically 3-4 hours. Some abilities refresh per session.
+**Recharge:** A monster ability usable again when the DA rolls 1d6 at the start of the monster's turn and gets a 5–6.
+
+**Rest:** Time taken to recover. A short rest takes 1 hour and has no default mechanical effect. A long rest takes 8 hours and provides the full recovery benefits (see @sec-chapter-gm-guidance).
+
+**Session:** One gaming session, typically 3–4 hours. Some abilities refresh per session.
 
 **Encounter:** A single scene or combat. Some abilities refresh per encounter.
 
