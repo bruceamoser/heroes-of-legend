@@ -1,0 +1,20 @@
+# Recommendation — hol-rulebook
+
+**Verdict:** VERDICT: REJECTED 7-0. All seven voters refuted topic t-01, none rebutted, no impasse, no judge sat; ch23 (quarto-book/chapters/23-license.qmd) does not publish as written. Execute this TIERED DISPOSITION PLAN, built on the orchestrator's verified dispositions (independently confirmed against the book chapters and the built PDF; source of record). TIER 1 (mechanical, chapter-local, no mechanics change, no content judgment) - ship as one micro-PR on quarto-book/chapters/23-license.qmd only: (1) Remove ONE of the two back-to-back pagebreak directives at lines 11 and 13 so the OGL heading opens the next page directly; the double break produces a wholly blank page (verified in the built PDF: printed page 369 holds only the running header and folio, OGL heading pushed to 370). Sibling chapters ch20/ch22 put intro text between their two breaks; ch23 is the only opener of 25 that yields a blank sheet, so this is chapter-local, not a book-wide convention. (2) Add the ninth class name 'Shadow' to the Product Identity class enumeration at line 69, making it: Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced, Shadow. ch05 defines nine classes and Shadow is the ninth; the list currently names only eight, leaving a core class name unclaimed as Product Identity; canon-determined by ch05. TIER 3 (design/legal-authority) - implement the recommended default anchored on OGL 1.0a standard practice, each logged in decisions-pending.md as 'implemented default <date>, veto to revert': (3) Append the standard OGL 1.0a license-only-use notice to the Open Game Content Declaration (after line 78, before or after the bullet list): a sentence stating the designated Open Game Content may only be used under and in terms of the Open Game License Version 1.0a. OGL section 2 (line 21) requires 'a notice indicating that the Open Game Content may only be Used under and in terms of this License' and the section 4 grant only activates with that notice; the current declaration designates OGC but never attaches that notice, so a hostile licensee could argue the designation is a bare label. This is the standard OGL designation phrasing. (4) Keep BOTH named voice descriptors ('Battle-Scarred Mentor' and 'Veteran Adventurer') in the PI declaration at line 72: 'Veteran Adventurer' appears in the published book (ch10:108 callout signature) and 'Battle-Scarred Mentor' appears in the tracked design doc .github/issues/fix-105-authorial-voice.md as a house authorial voice; both are legitimate house-voice claims to protect, and dropping the one not yet in a chapter would under-protect the author's voice; log the keep-both choice as an implemented default. (5) Book-wide caption convention: the opener caption at line 9 and the five midpoint captions (ch07 Illo 33, ch11 Illo 34, ch13 Illo 36, ch15 Illo 37, ch17 Illo 38) all carry the file-level build instruction 'Use placeholder-section.svg dimensions: 400x300' onto the published page, whereas the nearest sibling opener (ch22 Illo 31) is a single-line placeholder note. This is a BOOK-WIDE convention (6 chapters), so it is NOT a ch23-local fix: log it as a convention decision with two directions - (a) strip the file-level instruction from all six captions to match the ch22 single-line convention, or (b) keep it book-wide. Do not ship a single-chapter edit that would make ch23 inconsistent with the other five. Genuinely BLOCKED (do not implement; log in decisions-pending.md as blocked; needs Bruce): (6) The Contact & Rights Inquiries line at line 102 is still the placeholder [TBD]; no real contact address or email exists anywhere in the repository, and this legal/publishing detail can only be supplied by Bruce.
+
+**Confidence:** 0.95
+
+## Per-topic outcomes
+
+- t-01: rejected
+
+## Resolved (per the librarian)
+- t-01: REJECTED 7-0 - chapter does not publish as written; proceed with the tiered disposition plan (2 Tier 1 chapter-local fixes in one micro-PR, 3 Tier 3 implemented defaults logged in decisions-pending.md, 1 blocked item awaiting Bruce).
+
+## Dissenting views
+
+- none recorded
+
+## Rulings applied
+
+- none
