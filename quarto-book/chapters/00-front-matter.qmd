@@ -1,12 +1,9 @@
 
-**Heroes of Legend**
-Core Rules, First Edition
-
 Version 0.1.0 (Draft Build {{< meta date >}})
 
 ---
 
-*Written by* Bruce A. Moser
+*Written by:* Bruce A. Moser
 
 *Playtesters:* TBD
 
@@ -17,9 +14,11 @@ Version 0.1.0 (Draft Build {{< meta date >}})
 
 ---
 
-(c) 2024-2026 Bruce A. Moser. All rights reserved.
+© 2024-2026 Bruce A. Moser. All rights reserved.
 
-No part of this publication may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the author, except for brief quotations in reviews and certain other noncommercial uses permitted by copyright law.
+The game mechanics, rules systems, and procedures presented in Chapters 1 through 22 are Open Game Content, and they may be Used only under and in terms of the Open Game License Version 1.0a set out in Chapter 23. All other material in this publication remains the exclusive property of the author and is all rights reserved.
+
+No part of this publication may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the author, except for brief quotations in reviews, the Open Game Content designated above, and certain other noncommercial uses permitted by copyright law.
 
 ISBN: [To be assigned]
 
@@ -47,7 +46,7 @@ Printed in TBD
 
 **Additional Design Contributions:** TBD
 
-**Special Thanks:** The playtest groups who broke the game in ways we never expected and made it better every time. The convention DAs who ran *Heroes of Legend* for strangers and came back with stories. And every player who looked at a rule and said, "What if I tried this instead?", you're why this book exists.
+**Special Thanks:** The playtest groups who broke the game in ways we never expected and made it better every time. The convention DAs who ran *Heroes of Legend* for strangers and came back with stories. And the players who looked at a rule and said, "What if I tried this instead?" You are why this book exists.
 
 {{< pagebreak >}}
 
