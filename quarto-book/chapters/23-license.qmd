@@ -10,8 +10,6 @@
 
 {{< pagebreak >}}
 
-{{< pagebreak >}}
-
 ## Open Game License Version 1.0a
 
 The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, LLC ("Wizards"). All Rights Reserved.
@@ -66,7 +64,7 @@ The following items are hereby identified as Product Identity, as defined in the
 - All proper names of characters (including but not limited to Kael, Lyra, Roric, Zara, Makeva Quickfoot, Ser Aldric), creatures, locations, and organizations.
 - All artwork, illustrations, graphic designs, maps, and cartographic representations.
 - All storylines, plots, thematic elements, dialogue, and fictional narratives (including but not limited to the opening fiction "The Last Ember" and all chapter epigraphs and flavor text).
-- The specific names and descriptions of all classes (Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced).
+- The specific names and descriptions of all classes (Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced, Shadow).
 - The specific names and descriptions of all ancestries and cultures as presented in the world of Heroes of Legend.
 - The trade dress, layout, and visual presentation of this book.
 - The "Battle-Scarred Mentor" and "Veteran Adventurer" voice and writing style.
@@ -75,7 +73,7 @@ The following items are hereby identified as Product Identity, as defined in the
 
 ## Open Game Content Declaration
 
-The following portions of this work are designated as Open Game Content:
+The following portions of this work are designated as Open Game Content, and they may only be Used under and in terms of the Open Game License Version 1.0a set out above:
 
 - All game mechanics, rules systems, and procedures described in Chapters 1 through 22 (Chapter 01b, the opening fiction, is Product Identity), including but not limited to: the 3d6 core resolution system, success tier mechanics (Weak/Standard/Strong), the always-hit attack rule, the Discipline system, Development Point (DP) economy, skill tiers (Novice/Adept/Master), attribute ranges (-2 to +2), combat action economy, condition effects, damage reduction, morale mechanics, dying and death rules, and all associated tables and numerical values.
 - All spell mechanics (damage values, ranges, durations, effects) presented in Chapters 11 and 12, excluding spell names and flavor text.
