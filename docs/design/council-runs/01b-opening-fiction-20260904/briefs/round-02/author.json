@@ -1,0 +1,109 @@
+{
+ "council": "hol-rulebook",
+ "ledger_view": {
+  "open_refutes": [
+   {
+    "argument": "Tested the plural-discipline phrasing, the inline 3d6 roll, and Zara's unnamed class as the three load-bearing fiction-as-rules risks. The plural phrasing holds: the book's own ch08 example uses the identical 'N X Disciplines' wording for rank-count inside a single Discipline, so 'three Armor' (01b-opening-fiction.qmd:19) and 'three Wind' (01b-opening-fiction.qmd:21, :47) read as Master-rank depth, not three separate Disciplines. The 3d6 line holds: 5+4+6 is 15, plus Brawn and skill lands Strong, matching the tier table, and it is a summary with no misstated canon number. But Zara's class breaks. This chapter is routed as the party identity reference (ch01 points readers to the opening story to meet the party), and it depicts Zara as a Wind+Energy storm-speaker who summons hurricanes. The one other chapter that names her, ch03-attributes.qmd:158, calls her a Shepherd of the wild gods, and a Shepherd is a divine guide with Protection and Animal (ch05, ch08), not an elemental caster. A player or DA reading this fiction as rules would build Zara as an elemental storm caster, an identity the book contradicts elsewhere, and no in-fiction line disambiguates. Fix and scope: TIER 3 canon identity, chapter-local to 01b-opening-fiction.qmd. Either reconcile Zara's depiction with the Shepherd identity (ch03-attributes.qmd:158, ch05:30, ch08:76) or, as the recommended default, name her class in-fiction at the point she first acts (around lines 21 and 47) so the fiction and the ch03 example cannot diverge. Route to decisions-pending for Bruce if a new class anchor is preferred over editing the fiction.",
+    "confidence": 0.62,
+    "evidence": [
+     {
+      "claim": "The fiction depicts Zara as the party's elemental storm-speaker, gathering Energy and holding Wind ranks, which is a caster identity the book does not assign her anywhere.",
+      "source": "01b-opening-fiction.qmd:21"
+     },
+     {
+      "claim": "The only other chapter that names Zara assigns her a divine class, a Shepherd, conflicting with the elemental storm-caster portrayal in this fiction.",
+      "source": "03-attributes.qmd:158"
+     },
+     {
+      "claim": "The Shepherd is defined as a divine guide, an identity incompatible with the raw elemental storm magic shown for Zara in this chapter.",
+      "source": "05-classes.qmd:30"
+     },
+     {
+      "claim": "The introduction routes readers to this opening story as the place to meet the party, making the fiction the effective canon reference for each member's identity and play style.",
+      "source": "01-introduction.qmd:140"
+     }
+    ],
+    "id": "f-002",
+    "role": "contrarian",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "The chapter's voice holds up in most respects (no em-dashes anywhere, no name collisions, Kael, Lyra and Roric are portrayed consistently with ch01 and ch13, and Zara's class is never named in the fiction, so the ch03 Shepherd description is only a soft tension). But the opening paragraph misstates the book's own Discipline terminology in a way readers will notice once they reach ch08. [01b-opening-fiction.qmd:19] and [01b-opening-fiction.qmd:21] count Roric's armor mastery and Zara's wind mastery as if each were three separate Disciplines, yet per the ch08 taxonomy Armor and Wind are each a single Discipline capped at three ranks, so a count of three can only be the Master rank shape within one Discipline, never three distinct ones. The same error recurs at [01b-opening-fiction.qmd:47]. Fix: minimal and chapter-local, reword the three spots to express the count as ranks within a single Discipline (full Armor mastery behind Roric's plate, full Wind mastery behind Zara's storm) and leave the rest of the fiction untouched. Scope: lines 19, 21 and 47 of 01b-opening-fiction.qmd only.",
+    "confidence": 0.9,
+    "evidence": [
+     {
+      "claim": "Line 19 describes Roric's defensive mastery as three separate Armor Disciplines.",
+      "source": "01b-opening-fiction.qmd"
+     },
+     {
+      "claim": "Lines 21 and 47 repeat the same count as if Zara held three separate Wind Disciplines.",
+      "source": "01b-opening-fiction.qmd"
+     },
+     {
+      "claim": "The taxonomy lists Armor and Wind as single Disciplines, and the rank rules cap any one Discipline at three ranks, so a count of three must be a Master-level rank shape, not three distinct Disciplines.",
+      "source": "08-disciplines.qmd"
+     },
+     {
+      "claim": "The example-of-play section points readers to the opening story as the party's canonical introduction, so a terminology mismatch there reads as canon to new players.",
+      "source": "01-introduction.qmd"
+     },
+     {
+      "claim": "The same plural-count slip appears three times (lines 19, 21, 47), all inside this chapter, so the repair is a small local wording change rather than a structural rewrite.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-005",
+    "role": "author",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "The fiction's own prose holds up: no em-dashes anywhere in it, a coherent roll summary on line 27, and the build manifest slots the file directly after ch01 so print placement is correct. What fails under my cross-reference audit is the chapter's wiring. The file publishes an anchor, sec-chapter-opening-fiction, that no file in the book links to, even though ch01 names this very story twice in reader-facing navigation and the book otherwise uses live section links 78 times. In a printed copy the phrase about the next chapter resolves only by fortunate placement; in any linked format a reader wanting to jump to the story cannot, which breaks the book's universal convention precisely at the chapter new players are directed to. Fix and scope: make ch01's two plain-text mentions ([01-introduction.qmd:140] and [01-introduction.qmd:231]) real crossreferences to the anchor; the story file itself needs no text change.",
+    "confidence": 0.78,
+    "evidence": [
+     {
+      "claim": "The chapter's H1 heading declares the anchor sec-chapter-opening-fiction ([01b-opening-fiction.qmd:1]); a typst label block repeats the same name (lines 3-5), a duplication pattern every chapter in the book follows, so it is convention rather than a local fault.",
+      "source": "01b-opening-fiction.qmd"
+     },
+     {
+      "claim": "In its Example of Play prose ([01-introduction.qmd:140]) ch01 tells readers they will meet Kael and Lyra in the story, yet writes this as bare text with no anchor link.",
+      "source": "01-introduction.qmd"
+     },
+     {
+      "claim": "The onboarding bullet at [01-introduction.qmd:231] likewise steers readers toward the story in plain words, omitting the crossref marker the rest of the chapter uses for every other destination.",
+      "source": "01-introduction.qmd"
+     },
+     {
+      "claim": "The build's chapter list places the fiction directly after ch01 under the Introduction part, so the omission costs navigation links rather than making the story unreachable in print.",
+      "source": "_quarto.yml"
+     },
+     {
+      "claim": "A grep across every chapter file found 78 live section crossreferences in the book and none targeting this anchor, so the anchor is dead weight exactly where onboarding prose tells readers to go.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-006",
+    "role": "editor-in-chief",
+    "stance": "refute",
+    "topic": "t-01"
+   }
+  ],
+  "positions": {
+   "t-01": {
+    "author": "refute",
+    "contrarian": "refute",
+    "editor-in-chief": "refute",
+    "game-architect": "support",
+    "layout-expert": "support",
+    "librarian": "support",
+    "researcher": "support"
+   }
+  },
+  "sealed_rulings": []
+ },
+ "problem_brief": "# HOL Council \u2014 ch01b Opening Fiction (\"The Last Ember\")\n\nChapter under review: ch01b (quarto-book/chapters/01b-opening-fiction.qmd), \"The Last Ember\", 123 lines. The book's opening fiction: a short story in which the party (Kael the dwarf Blade, Lyra the halfling Odd, Roric the Protector, Zara the storm-speaker) breaks a warding glyph in a sealed temple and kills a many-legged guardian. It is the first fiction the reader meets after the front matter, and the canon reference for the party's identities and play styles (ch01's Example of Play points readers here: \"You'll meet Kael and Lyra in the opening story\").\n\nTask: audit the chapter as a publishable unit and produce a disposition plan. Each member audits through their own lens (see role card) and files ONE finding:\n  stance support = the chapter holds on this lens as written\n  stance refute  = the chapter must change; name the fix and its scope\nFindings cite [01b-opening-fiction.qmd:line]. Mechanics findings state the broken value and the expected value.\n\nCross-chapter canon anchors (use the AUTHORITATIVE chapters as reference, not this chapter):\n- discipline taxonomy = ch08 (08-disciplines.qmd): 19 named Disciplines in 4 categories. Relevant names: Armor (one Discipline, Defense category, \"heavy armor proficiency, damage soaking\"), Wind (Nature category), Energy (Arcane category), Knowledge (Arcane category), Protection (Defense category). There is no \"Armor Disciplines\" plural taxonomy beyond the single Armor Discipline; ranks within one Discipline max at 3 (the Master ladder).\n- class starting bundles = ch08 table (~lines 73-80): Protector = 1 any Weapon + 1 Armor; Arcanist = 1 Fire + 1 Energy; Shepherd = 1 Protection + 1 Animal; Leader = 1 Tactics + 1 Protection; Unbalanced = 1 Fire + 1 Water (or Earth/Wind); Blade = Blades (1) + Stealth (1).\n- party canon = ch02 (templates/walkthroughs), ch13-combat.qmd (initiative example lines ~348-432: Kael (Blade) 13, Lyra (Odd) 16, Roric (Protector) 7, Knight of the Iron Circle Challenge 3; Kael's longsword + buckler, Roric's warhammer and Brawn +2), ch05-classes.qmd (class flavor and favored skills), ch01-introduction.qmd (Example of Play: Kael dwarf Blade with longsword, Brawn +1; Lyra halfling Odd, Agility +2, Stealth Adept +2; party stated as veteran adventurers several levels in).\n- known open question (decisions-pending #73, for context only, do not re-litigate): the Blade class flavor (ch05: shadow-assassin, light blades) vs Kael's vanguard portrayal in this chapter and his longsword (a Heavy Weapon). That tension is already logged for Bruce; audit this chapter's text on its own merits.\n\nBook conventions every lens applies: zero em-dashes in the book (restructure sentences instead of find-replace); no stale or retired vocabulary (the role label is DA, never GM); placeholder content (TBD, \"final art TBD\") is ACCEPTABLE in a draft build and is NOT a defect to fix now (flag only if a placeholder is wrong or inconsistent); the one-roll principle (the hit roll IS the damage roll; no separate damage dice); flat damage budgets (Novice 2/4/6, Adept 6/9/12, Master 9/15/21); success tiers Weak 1-8 / Standard 9-14 / Strong 15-18+; Adept gates at level 3, Master at level 7; card costs flat 2/4/8 DP.\n\nSpecific areas worth checking (findings are yours to file or dismiss):\n- line 19: \"Armor Disciplines, three of them\" \u2014 Roric is described as having three Armor Disciplines. Check this phrasing against the ch08 taxonomy (Armor is one Discipline; three ranks in one Discipline is the Master shape, but the wording \"three of them\" reads like three separate Disciplines named Armor).\n- line 21 and line 47: Zara \"had three Wind Disciplines\" / \"Three Wind Disciplines didn't just summon a breeze\" \u2014 check the same plural-discipline phrasing against the taxonomy (Wind is one Discipline).\n- line 27: the inline roll narration \"3d6: 5, 4, 6, 15 plus Brawn plus skill, Strong\" \u2014 check the arithmetic (5+4+6 = 15; 15 + Brawn + skill is at least 15, so Strong is consistent with the tier table; the narration gives no explicit modifiers, so it is a summary, not a worked example \u2014 flag only if it misstates a tier or contradicts a canon number).\n- lines 1-5: the heading \"# The Last Ember {#sec-chapter-opening-fiction}\" AND a typst block \"#label(\\\"sec-chapter-opening-fiction\\\")\" define the same anchor twice. Check whether the duplicate label definition is a defect (redundant, or a render warning).\n- the anchor sec-chapter-opening-fiction: no other chapter cross-references it (grep the book). An orphaned forward-looking anchor is not itself a defect, but note if it is dead weight or if a chapter that should link here (e.g. ch01's \"You'll meet Kael and Lyra in the opening story\") does not.\n- em-dashes: count and locate every em-dash in the chapter; the zero law applies to fiction prose as well as rules prose.\n- Kael's longsword (lines 27, 45, 61, 87): a Heavy Weapon in the hands of the Blade; the ch01/ch05 tension is already logged (#73) \u2014 audit only what is broken in THIS chapter's own text.\n- Zara's class: the fiction shows her as the party's storm-speaker (Wind + Energy) but never names her class; check whether any authoritative chapter (ch02, ch13) names her, and whether the fiction's portrayal contradicts it (Unbalanced's starting bundle includes Wind as an option).\n\nDisposition tiers (the librarian synthesizes these in the recommendation):\n  TIER 1 mechanical \u2014 chapter-local, zero mechanics change, no content judgment (heading/label, wording, em-dashes, table rows, stale refs, page flow).\n  TIER 2 substantive \u2014 rewrites or multi-sentence fixes that change content but not rules (a line rephrased to match canon, a paragraph restructured).\n  TIER 3 design decisions \u2014 anything that touches rules, canon identities, or book-wide convention; route to decisions-pending for Bruce, with a recommended default.\n",
+ "role": "author",
+ "round": 2,
+ "task": "Assess the contested topics from your role's duties. Emit findings (stance, evidence, confidence, rebutting where applicable)."
+}
