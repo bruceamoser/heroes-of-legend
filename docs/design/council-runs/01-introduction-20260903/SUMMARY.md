@@ -1,0 +1,21 @@
+# Council run — hol-rulebook / 01-introduction / 2026-09-03 20:55
+
+- **Chapter:** ch01 (quarto-book/chapters/01-introduction.qmd, "Introduction", 243 lines)
+- **Charter:** hol-rulebook (core four + game-architect, author, editor-in-chief, layout-expert), 7 voters, quorum 4, max_rounds 2
+- **Rounds:** 1 (single round reached reject quorum; no second round, no judge)
+- **Verdict:** **REJECTED 6-1** on t-01 (audit ch01 as a publishable unit)
+  - Refute: librarian (f-001), contrarian (f-002), game-architect (f-004), author (f-005), editor-in-chief (f-006), layout-expert (f-007)
+  - Support: researcher (f-003) — verified worked-example math, Kael/Lyra identities, and all @sec-* cross-refs as clean; dissented on the DR item (treated the shared ch06 example as authoritative rather than checking the ch16 armor table)
+  - No rebuttals, no impasse, no ruling sealed
+- **Wall rejections:** 0 (all 7 findings pre-screened clean at ingest; no member rewrites)
+- **Telemetry:** 13 ledger events (1 source note, 7 findings, 1 round digest, 1 recommendation, 1 close); chain verify ok; confidence 0.88; single-model decorrelation (Q4 caveat)
+- **Disposition plan (all tiers implemented, PR #393, merged 2026-09-04):**
+  - TIER 1 mechanical (ch01): retired "New GM?" label → "New DA?" (ch01:236); stranded "Illustration 3: Credits page art" figure + pagebreak sandwich removed (ch01:88-90; ch00 Credits page carries no art); Kael tagline reworked (ch01:146) — was a near-verbatim lift of the ch05:84 Blade signature and contradicted Kael's ch01b vanguard portrayal
+  - TIER 2 substantive, atomic two-file (canon per ch16 armor table, Leather DR 2): ch01:160 AND ch06:197 crude-leather DR 1 → DR 2, damage 3 → 1
+  - TIER 3 design-flavored (implemented default, veto to revert): party stated as veteran adventurers (several levels in) in the example intro so Lyra's Adept Stealth +2 (L3 gate, ch07:28/ch18:45) is lawful as printed (canon stat block, ch13:432)
+  - Logged open (not implemented): Blade-class identity tension (ch01b vanguard vs ch05 shadow-assassin; Kael's longsword) — ch05/ch01b class-identity question for Bruce
+- **Process notes:**
+  - The 2026-09-03 walkthrough was interrupted after this run closed but before implementation: the run dir, problem file, findings, and working-tree edits (uncommitted) survived. This run resumed from the closed ledger (verified chain ok), re-verified every disposition item against the files, re-ran the build (exit 0), and completed the micro-PR path.
+  - `gh` keyring token was stale (HTTP 401 on the GraphQL PR create) while the git credential-store token was valid (push worked); API calls were run with the store token via GH_TOKEN. PR #393 created, reviewed (Winston audit comment), squash-merged, branch deleted.
+  - Build verified after merge state: `cd quarto-book && ./build.sh` exit 0; pdftotext spot-check of the PDF confirmed all five rendered changes (orphan caption absent; "New DA?"; "DR 2. That's 3, reduced to 1"; reworked tagline; veteran note).
+- **Next:** 02-character-creation (Wave 2, chapter 3 of 25)
