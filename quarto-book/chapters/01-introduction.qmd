@@ -137,7 +137,7 @@ Enough theory. Let's see how this actually plays out at the table.
 
 ## Example of Play
 
-Kael is a dwarf Blade, a fighter who has learned that the best way to protect his friends is to be the threat nobody can ignore. He strikes with precision, not fury, and when his longsword is in his hand, the enemy watches him, which is exactly what he wants. Lyra is a halfling Odd, an unpredictable wildcard whose enemies never know what she'll do next, and neither do her friends, honestly. (You'll meet Kael and Lyra in the opening story.) They're seasoned adventurers, several levels into their careers: Lyra's Stealth has grown to Adept, which unlocks at level 3, and Kael has learned to make himself the opening his friends need. Their DA, Morgan, has been running them through a goblin-infested ruin for the past hour. They've just kicked down the door to the chieftain's chamber.
+Kael is a dwarf Blade, a fighter who has learned that the best way to protect his friends is to be the threat nobody can ignore. He strikes with precision, not fury, and when his longsword is in his hand, the enemy watches him, which is exactly what he wants. Lyra is a halfling Odd, an unpredictable wildcard whose enemies never know what she'll do next, and neither do her friends, honestly. (You'll meet Kael and Lyra in @sec-chapter-opening-fiction.) They're seasoned adventurers, several levels into their careers: Lyra's Stealth has grown to Adept, which unlocks at level 3, and Kael has learned to make himself the opening his friends need. Their DA, Morgan, has been running them through a goblin-infested ruin for the past hour. They've just kicked down the door to the chieftain's chamber.
 
 **Morgan (DA):** "The goblin chieftain rises from his throne of salvaged shields. He's easily seven feet of scar tissue and bad decisions. He raises a rusted axe the size of your torso and bellows something in Goblin that probably isn't a compliment. What do you do?"
 
@@ -228,7 +228,7 @@ These are the big ideas. The rest of the book explains how they work in practice
 ## Ready to Begin?
 - **New player?** Turn to @sec-chapter-character-creation and build your first hero.
 - **New DA?** Skim @sec-chapter-attributes through @sec-chapter-disciplines, then dig into @sec-chapter-gm-guidance.
-- **Just browsing?** Read the opening story in the next chapter to meet Kael and his companions in action.
+- **Just browsing?** Read @sec-chapter-opening-fiction in the next chapter to meet Kael and his companions in action.
 
 However you proceed, welcome to the table. The dice are waiting.
 :::
