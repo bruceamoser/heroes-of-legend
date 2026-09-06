@@ -281,15 +281,16 @@ The eight worked examples below show how the same system produces wildly differe
 
 **Culture:** Imperial. +1 to Arcana (studied under imperial mage-council). Free Discipline: Energy.
 
-**Background DP (8 + Know 2 + Fort 0 = 10 DP):**
+**Background DP (8 + Know 2 + Fort 0 = 10 DP + 1 Versatile = 11 DP):**
 
 - Arcana Novice (2 DP, favored)
 - History Novice (2 DP, favored)
 - Alchemy Novice (2 DP), fire needs fuel, fuel is chemistry
 - Nature Novice (2 DP), fire is a natural force, and she studies how it behaves
 - Lore Novice (2 DP), the fire-lore of a dozen cultures
+- Earth, rank 1 (1 DP, Home), fuel is earth, stone, and soil, and she catalogs it all
 
-Total: 10 DP. All spent.
+Total: 11 DP. All spent.
 
 **Class:** Arcanist. Gains 1 Fire, 1 Energy. Signature: **Arcane Shield**, free action, +1 Protection Value for the round.
 
@@ -308,7 +309,7 @@ Total: 8 DP. All spent.
 
 **Backstory:** Motivation, Knowledge (she wants to read the Book of First Flame). Trinket, a smooth stone that hums faintly at midnight. **Name:** Sera Ashvein.
 
----
+{{< pagebreak >}}
 
 ### Mage: Intellect
 
@@ -386,7 +387,7 @@ Total: 8 DP. All spent.
 
 **Backstory:** Motivation, Protection (she lost a patient once, never again). Trinket, a key that doesn't fit any lock she's found. **Name:** Haldra Ironhymn.
 
----
+{{< pagebreak >}}
 
 ### Priest: Leader
 
@@ -462,7 +463,7 @@ Total: 8 DP. All spent.
 
 **Backstory:** Motivation, Glory (she wants her name in every dueling hall from here to the elven court). Trinket, a locket with a portrait of someone she's never met. **Name:** Vaelith Nightblade.
 
----
+{{< pagebreak >}}
 
 ### Thief: Shadow
 
@@ -539,7 +540,7 @@ Total: 8 DP. All spent.
 
 **Backstory:** Motivation, Protection (her clan's hold fell, she's building something new). Trinket, a child's drawing of her. She doesn't recognize the child. **Name:** Gorma Anvilshield.
 
----
+{{< pagebreak >}}
 
 ### Fighter: Unbalanced
 
@@ -561,7 +562,7 @@ Total: 8 DP. All spent.
 
 Total: 10 DP. All spent.
 
-**Class:** Unbalanced. Gains 1 Fire, 1 Water. Signature: **Edge of Chaos**, on Strong hit, +4 bonus damage but roll d6 backlash.
+**Class:** Unbalanced. Gains 1 Fire, 1 Water. Signature: **Edge of Chaos**, on a Strong hit, deal +1 damage tier (one row up on the damage budget) but roll on the d6 Backlash Table.
 
 **Class DP (8 DP):**
 
