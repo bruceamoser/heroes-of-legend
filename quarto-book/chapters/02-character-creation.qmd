@@ -160,13 +160,13 @@ Now your hero finds their calling. This is where they become exceptional.
 | Class | Role | Discipline | Vibe |
 |-------|------|------------|------|
 | **Protector** | Tank, defender | Armor + any Weapon | "Stand behind me." |
-| **Blade** | Assassin, precision | Blades + Stealth | "Strike once. Strike true." |
+| **Blade** | Assassin, precision | Blades + Stealth | "Strike once. Strike true. Strike last." |
 | **Arcanist** | Arcane caster | Fire + Energy | "Fire answers to me." |
 | **Shepherd** | Divine guide | Protection + Animal | "The light guides my hand." |
 | **Intellect** | Scholar, strategist | Lore + any one | "I've read about this." |
 | **Odd** | Chaos wildcard | Any two, different categories | "I have a trick for that." |
 | **Leader** | Commander | Tactics + Protection | "Together, we are unstoppable." |
-| **Unbalanced** | High-risk power | Fire + Water (or Earth/Wind) | "Power has a price." |
+| **Unbalanced** | High-risk power | Fire + Water (or Earth/Wind) | "Power has a price. I'm willing to pay." |
 | **Shadow** | Sneak thief, infiltrator | Stealth + Sleight | "You never saw me." |
 
 Record your Class Discipline (one rank) and signature ability. See @sec-chapter-classes for full writeups, including favored costs.
@@ -235,7 +235,7 @@ Let's build a character from scratch so you can see how the pieces fit together.
 
 **Step 3, Ancestry:** Halfling. Gains one Blades Discipline and the **Lucky** trait (add one boon to any roll, once per session).
 
-**Step 4, Culture:** Riverfolk. +1 bonus to Acrobatics (she grew up scrambling across rigging and wet docks).
+**Step 4, Culture:** Riverfolk. +1 bonus to Acrobatics (she grew up scrambling across rigging and wet docks). Disciplines: Blades + Archery.
 
 **Step 5, Background DP (8 + Knowledge 0 + Fortitude 0 = 8 DP):**
 
@@ -246,7 +246,7 @@ Let's build a character from scratch so you can see how the pieces fit together.
 
 Total: 8 DP. All spent.
 
-**Step 6, Class:** Odd. Gains 2 Disciplines from different categories (Blades and Water). Signature: **Eccentric Spellcasting**, ignore prerequisite Disciplines for two chosen abilities (one arcane, one divine); level gates still apply.
+**Step 6, Class:** Odd. Gains 2 Disciplines from different categories (Water and Sleight). Signature: **Eccentric Spellcasting**, ignore prerequisite Disciplines for two chosen abilities (one arcane, one divine); level gates still apply.
 
 **Step 7, Class DP (8 DP):**
 
@@ -259,7 +259,7 @@ Total: 8 DP. All spent.
 
 **Step 8, Equipment:** Shortbow, dagger, leather armor (DR 2), thieves' tools, 20 arrows.
 
-**Step 9, Derived Stats:** HP 10 (10 + Fort 0 + Know 0). Initiative +1. Movement 30 ft. Carry 15 slots.
+**Step 9, Derived Stats:** HP 10 (10 + Fort 0 + Know 0). Initiative +1. Movement 25 ft (halfling). Carry 15 slots.
 
 **Step 10, Backstory:** Motivation, Gold (she's saving for something, she won't say what). Trinket, a smooth stone that hums faintly at midnight.
 
@@ -281,15 +281,16 @@ The eight worked examples below show how the same system produces wildly differe
 
 **Culture:** Imperial. +1 to Arcana (studied under imperial mage-council). Free Discipline: Energy.
 
-**Background DP (8 + Know 2 + Fort 0 = 10 DP):**
+**Background DP (8 + Know 2 + Fort 0 = 10 DP + 1 Versatile = 11 DP):**
 
 - Arcana Novice (2 DP, favored)
 - History Novice (2 DP, favored)
 - Alchemy Novice (2 DP), fire needs fuel, fuel is chemistry
 - Nature Novice (2 DP), fire is a natural force, and she studies how it behaves
 - Lore Novice (2 DP), the fire-lore of a dozen cultures
+- Earth, rank 1 (1 DP, Home), fuel is earth, stone, and soil, and she catalogs it all
 
-Total: 10 DP. All spent.
+Total: 11 DP. All spent.
 
 **Class:** Arcanist. Gains 1 Fire, 1 Energy. Signature: **Arcane Shield**, free action, +1 Protection Value for the round.
 
@@ -308,7 +309,7 @@ Total: 8 DP. All spent.
 
 **Backstory:** Motivation, Knowledge (she wants to read the Book of First Flame). Trinket, a smooth stone that hums faintly at midnight. **Name:** Sera Ashvein.
 
----
+{{< pagebreak >}}
 
 ### Mage: Intellect
 
@@ -386,7 +387,7 @@ Total: 8 DP. All spent.
 
 **Backstory:** Motivation, Protection (she lost a patient once, never again). Trinket, a key that doesn't fit any lock she's found. **Name:** Haldra Ironhymn.
 
----
+{{< pagebreak >}}
 
 ### Priest: Leader
 
@@ -462,7 +463,7 @@ Total: 8 DP. All spent.
 
 **Backstory:** Motivation, Glory (she wants her name in every dueling hall from here to the elven court). Trinket, a locket with a portrait of someone she's never met. **Name:** Vaelith Nightblade.
 
----
+{{< pagebreak >}}
 
 ### Thief: Shadow
 
@@ -539,7 +540,7 @@ Total: 8 DP. All spent.
 
 **Backstory:** Motivation, Protection (her clan's hold fell, she's building something new). Trinket, a child's drawing of her. She doesn't recognize the child. **Name:** Gorma Anvilshield.
 
----
+{{< pagebreak >}}
 
 ### Fighter: Unbalanced
 
@@ -561,7 +562,7 @@ Total: 8 DP. All spent.
 
 Total: 10 DP. All spent.
 
-**Class:** Unbalanced. Gains 1 Fire, 1 Water. Signature: **Edge of Chaos**, on Strong hit, +4 bonus damage but roll d6 backlash.
+**Class:** Unbalanced. Gains 1 Fire, 1 Water. Signature: **Edge of Chaos**, on a Strong hit, deal +1 damage tier (one row up on the damage budget) but roll on the d6 Backlash Table.
 
 **Class DP (8 DP):**
 

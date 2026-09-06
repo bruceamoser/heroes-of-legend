@@ -80,7 +80,7 @@ Your class hands you specific Disciplines at creation. These are your foundation
 | Unbalanced | 1 Fire + 1 Water (or Earth/Wind) |
 | Shadow | 1 Stealth + 1 Sleight |
 
-Starting disciplines from ancestry, culture, and class are always rank 1 in distinct disciplines. You may not spend both picks on the same discipline to start with rank 2. You may deepen a Discipline you already have to rank 2 (2 same) with Background DP at creation, per @sec-chapter-character-creation. Depth beyond rank 2 comes from progression picks at levels 3, 6, and 9.
+Starting disciplines from ancestry, culture, and class are always rank 1. When two fixed grants hand you the same Discipline, the second is explicit waste: no rank up, no extra Development Points, just a reminder of where you came from. Gorma the dwarf takes Axes from her bloodline and Axes again from her mountain, and she is still rank 1. You may not spend both discretionary picks on the same discipline to start with rank 2. You may deepen a Discipline you already have to rank 2 (2 same) with Background DP at creation, per @sec-chapter-character-creation. Depth beyond rank 2 comes from progression picks at levels 3, 6, and 9.
 
 ### Progression
 
