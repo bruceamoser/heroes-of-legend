@@ -160,13 +160,13 @@ Now your hero finds their calling. This is where they become exceptional.
 | Class | Role | Discipline | Vibe |
 |-------|------|------------|------|
 | **Protector** | Tank, defender | Armor + any Weapon | "Stand behind me." |
-| **Blade** | Assassin, precision | Blades + Stealth | "Strike once. Strike true." |
+| **Blade** | Assassin, precision | Blades + Stealth | "Strike once. Strike true. Strike last." |
 | **Arcanist** | Arcane caster | Fire + Energy | "Fire answers to me." |
 | **Shepherd** | Divine guide | Protection + Animal | "The light guides my hand." |
 | **Intellect** | Scholar, strategist | Lore + any one | "I've read about this." |
 | **Odd** | Chaos wildcard | Any two, different categories | "I have a trick for that." |
 | **Leader** | Commander | Tactics + Protection | "Together, we are unstoppable." |
-| **Unbalanced** | High-risk power | Fire + Water (or Earth/Wind) | "Power has a price." |
+| **Unbalanced** | High-risk power | Fire + Water (or Earth/Wind) | "Power has a price. I'm willing to pay." |
 | **Shadow** | Sneak thief, infiltrator | Stealth + Sleight | "You never saw me." |
 
 Record your Class Discipline (one rank) and signature ability. See @sec-chapter-classes for full writeups, including favored costs.
@@ -235,7 +235,7 @@ Let's build a character from scratch so you can see how the pieces fit together.
 
 **Step 3, Ancestry:** Halfling. Gains one Blades Discipline and the **Lucky** trait (add one boon to any roll, once per session).
 
-**Step 4, Culture:** Riverfolk. +1 bonus to Acrobatics (she grew up scrambling across rigging and wet docks).
+**Step 4, Culture:** Riverfolk. +1 bonus to Acrobatics (she grew up scrambling across rigging and wet docks). Disciplines: Blades + Archery.
 
 **Step 5, Background DP (8 + Knowledge 0 + Fortitude 0 = 8 DP):**
 
@@ -246,7 +246,7 @@ Let's build a character from scratch so you can see how the pieces fit together.
 
 Total: 8 DP. All spent.
 
-**Step 6, Class:** Odd. Gains 2 Disciplines from different categories (Blades and Water). Signature: **Eccentric Spellcasting**, ignore prerequisite Disciplines for two chosen abilities (one arcane, one divine); level gates still apply.
+**Step 6, Class:** Odd. Gains 2 Disciplines from different categories (Water and Sleight). Signature: **Eccentric Spellcasting**, ignore prerequisite Disciplines for two chosen abilities (one arcane, one divine); level gates still apply.
 
 **Step 7, Class DP (8 DP):**
 
@@ -259,7 +259,7 @@ Total: 8 DP. All spent.
 
 **Step 8, Equipment:** Shortbow, dagger, leather armor (DR 2), thieves' tools, 20 arrows.
 
-**Step 9, Derived Stats:** HP 10 (10 + Fort 0 + Know 0). Initiative +1. Movement 30 ft. Carry 15 slots.
+**Step 9, Derived Stats:** HP 10 (10 + Fort 0 + Know 0). Initiative +1. Movement 25 ft (halfling). Carry 15 slots.
 
 **Step 10, Backstory:** Motivation, Gold (she's saving for something, she won't say what). Trinket, a smooth stone that hums faintly at midnight.
 
