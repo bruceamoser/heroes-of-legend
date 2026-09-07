@@ -79,7 +79,7 @@ At levels 4 and 8, you may increase one attribute by +1 (up to the +2 maximum). 
 
 **Agility (AG):** Speed, grace, precision. Agility gets you up the wall, through the window, and out the other side before the guards finish their card game. It governs ranged combat, stealth, lockpicking, and acrobatics. It also determines who acts first when swords come out. High Agility heroes dance through fights; low Agility heroes wade through them.
 
-**Guile (GU):** The art of winning without fighting. Guile covers deception, persuasion, intimidation, and every variety of social maneuvering. It's the difference between "Let me in" and "I'm the health inspector, you really want to open this door." A hero with Guile +2 doesn't need to draw their weapon because they already convinced you to put yours down.
+**Guile (GU):** The art of winning without fighting. Guile covers deception, persuasion, and every variety of social maneuvering. It's the difference between "Let me in" and "I'm the health inspector, you really want to open this door." A hero with Guile +2 doesn't need to draw their weapon because they already convinced you to put yours down.
 
 **Knowledge (KN):** What you know. Ancient history, arcane theory, monster weaknesses, noble lineages, the price of saffron in three different ports. Knowledge is the scholar's attribute and the engine behind arcane spellcasting. It governs lore, investigation, and identifying creatures. It also helps determine your starting Health Points and your early-life Development Points. Smart heroes live longer.
 
@@ -117,7 +117,7 @@ She feels the venom burn in her veins, but her body fights it off. She's woozy. 
 
 **If she'd rolled Strong (15+):** She shrugs it off completely. The spider's venom sack was nearly empty. She doesn't even feel it. The DA describes her as "annoyingly fine."
 
-**If she'd rolled Weak (1-8):** The Poisoned condition kicks in, Bane on all attacks. She's in trouble. The party needs to end this fight fast or get her an antidote.
+**If she'd rolled Weak (1-8):** The Poisoned 2 condition kicks in. She takes 2 poison damage per round and attacks at Bane. She's in trouble. The party needs to end this fight fast or get her an antidote.
 
 ### Agility in Play
 
@@ -145,7 +145,7 @@ The guard hesitates. Then nods. "Crown business. Right. Move along." He waves th
 
 The party discovers an ancient mural in a sunken temple. It depicts a battle between winged figures and something vast and tentacled. Understanding this mural could reveal the temple's purpose, and its dangers.
 
-**The roll:** 3d6 + Knowledge (+2) + History Novice (+1). Sera, the party's Intellect, rolls 2, 6, 4 = 12 + 3 = 15. **Strong.**
+**The roll:** 3d6 + Knowledge (+2) + History Novice (+1). Sera, the party's Arcanist, rolls 2, 6, 4 = 12 + 3 = 15. **Strong.**
 
 "The Celestial War," she breathes. "Third Era. The winged figures are Solari, servants of the sun god. The tentacled thing is a Void Spawn. This temple wasn't built to worship anything. It was built to *contain* something." She traces the mural to a sealed door. "And that door should stay closed until we know what's behind it."
 
