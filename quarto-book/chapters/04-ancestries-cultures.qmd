@@ -89,11 +89,9 @@ Halflings are small, quick, and possessed of an almost supernatural luck that ma
 
 I've watched a halfling pick a lock with a hairpin while a guard stood three feet away. I've seen a halfling talk a crime lord into retirement over a shared pipe and a bottle of something questionable. Halflings survive because the universe looks at them and thinks "what harm could they possibly do?", and by the time the universe realizes its mistake, the halfling is already three miles away with your wallet.
 
-Halflings receive the Blades Discipline, quick steel and quicker hands. Their **Lucky** trait lets them add one boon (an extra d6) to any 3d6 roll, once per session. When the moment is desperate and the odds are against you, the universe cuts you a break. That's not luck. That's being a halfling.
+Halflings receive the Blades Discipline, quick steel and quicker hands. Their **Lucky** trait lets them add one boon to any 3d6 roll, once per session. When the moment is desperate and the odds are against you, the universe cuts you a break. That's not luck. That's being a halfling.
 
 *Common halfling names:* Bramble, Cora, Dabney, Eglantine, Finn, Lottie, Makeva, Nettle, Pip, Rufus, Tansy.
-
-{{< pagebreak >}}
 
 <!-- Rationale: Mid-chapter visual break at 60% width: two figures exchanging a greeting, highlighting cultural diversity within the same ancestry. -->
 ![Placeholder: Two figures from different cultures exchanging a traditional greeting, highlighting cultural diversity within the same ancestry.](../assets/images/placeholder-ch04-ancestries-second.png){width=60%}
@@ -154,7 +152,7 @@ Humans are adaptable. Their gifts lean into that versatility, letting them dabbl
 | **Fast Learner** | Novice | Once per session, you may use a skill you don't have at Novice (+1) for a single check. (See the Quick Study talent.) |
 | **Die Hard** | Novice | When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session. Dying can wait. |
 | **Jack of All Trades** | Adept | You may gain one skill at Novice rank for free. Choose the skill when you buy this gift. Humans get by on being just good enough at just enough things. |
-| **Second Wind** | Adept | Once per scene, as a maneuver, you may regain 6 HP. |
+| **Second Breath** | Adept | Once per scene, as a maneuver, you may regain 6 HP. |
 | **Indomitable** | Master | Once per session, when you fail a Fortitude or Reason check, you may succeed instead. Describe how sheer human stubbornness carried you through. |
 
 ### Elf Gifts
@@ -178,7 +176,7 @@ Dwarves are forged, not born. Their gifts reflect stone, steel, and the kind of 
 | **Stonecunning** | Novice | You have Boon on Perception and Craft checks involving stonework, masonry, or underground construction. You know when a wall has been moved. |
 | **Dwarven Resilience** | Novice | You have Boon on Fortitude checks to resist poison. Alcohol doesn't count. |
 | **Grudge-Bearer** | Novice | Once per session, when an enemy damages you, you may mark that enemy. For the rest of the encounter, you have +1 on attack rolls against them. |
-| **Forge-Trained** | Adept | Non-magical weapons and armor you maintain never break, dull, or rust. Maintained armor grants +1 DR. Once per scene, one maintained weapon deals +6 damage (flat) on its next hit. |
+| **Forge-Trained** | Adept | Non-magical weapons and armor you maintain never break, dull, or rust. Maintained armor grants +1 DR. Once per scene, one maintained weapon deals one damage tier higher on its next hit. |
 | **Unyielding** | Adept | When an effect would push, pull, or knock you prone, you may choose to be unaffected. Once per scene. |
 
 ### Halfling Gifts
