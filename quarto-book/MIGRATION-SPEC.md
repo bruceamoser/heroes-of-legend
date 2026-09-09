@@ -6,9 +6,9 @@ parts, TOC, template) but there is ZERO markdown content left for pandoc to conv
 End state: no markdown tables, no `:::` divs, no `{{< pagebreak >}}`, no `**bold**`,
 no `![]()` image syntax, no `: caption` lines, no `@label` Quarto crossrefs in content.
 
-**Reference implementation:** `quarto-book/chapters/06-core-resolution.qmd` on branch
-`feat/native-typst-ch06` (PR #399). It is the worked example and the diff oracle.
-Read it before writing anything: `git show feat/native-typst-ch06:quarto-book/chapters/06-core-resolution.qmd`
+**Reference implementation:** `quarto-book/chapters/06-core-resolution.qmd` on `main`
+(merged as PR #398). It is the worked example and the diff oracle.
+Read it before writing anything (it is in your worktree).
 
 ## File shape
 
@@ -51,7 +51,7 @@ Rules:
 | `---` (horizontal rule) | `#horizontalrule` | the theme's function |
 | `\newpage` | `#pagebreak()` | |
 | `{{< include ... >}}` (index.qmd) | keep as-is | Quarto orchestration, not content |
-| `{{< meta date >}}` (00-front-matter) | replace with the literal string `2026` | Quarto template var cannot appear in a raw block |
+| `{{< meta date >}}` (00-front-matter) | keep as-is | verified 2026-09-09: Quarto processes template vars even inside raw blocks (probe rendered the date) |
 
 ## Table rules (the heart of it)
 
