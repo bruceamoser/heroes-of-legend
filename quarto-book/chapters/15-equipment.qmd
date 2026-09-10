@@ -159,7 +159,7 @@ The general store doesn't sell magic swords. It sells rope, rations, and the tho
     [*Sack (large)*], [1 sp], [1\*], [A coarse sack that holds 1 cubic foot or 30 lbs of material. The sack takes 1 slot but its contents don't count, until it tears. One sharp edge and your loot is on the floor.],
     [*Shovel*], [2 gp], [2], [Digs graves, trenches, and latrines. Buries treasure. Unearths treasure. The shovel has seen more adventuring than most bards.],
     [*Smith's Tools*], [5 gp], [2], [Forge tools. Required for Craft checks to make or repair metal items.],
-    [*Smoke Bomb*], [5 gp], [0], [Throw up to 20 ft. Creates a 10-ft radius of heavy concealment for 1 round.],
+    [*Smoke Bomb*], [5 gp], [0], [Throw up to 20 ft. Creates a 10-ft radius of heavy concealment for 1 round; anyone inside is Hidden.],
     [*Spellbook*], [25 gp], [2], [A mage's book of spells. Required to record and prepare arcane spells.],
     [*Spyglass*], [100 gp], [1], [Magnifies distant objects. Reduce the difficulty of visual Perception checks at long range by one tier (Strong becomes Standard, Standard becomes Weak). Objects beyond 1 mile are still indistinct.],
     [*Tent (2-person)*], [2 gp], [3], [Canvas shelter. Keeps rain off, holds heat. Sleeping in a tent during severe weather negates the exhaustion penalty for exposure. Two people can squeeze in, three if you're very good friends.],
