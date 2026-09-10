@@ -133,6 +133,8 @@ _Lyra rolls:_ 3d6 + Reason (+1) + Insight Novice (+1). Result: 5, 2, 4 = 11 + 2 
 
 #pagebreak()
 
+*When a Boon applies.* Suppose the party earned an edge first: the Protector looming behind Aldric, or a favour owed from an earlier scene. The DA grants a Boon on the roll, which means Aldric rolls *4d6 and keeps the highest three*, with the same +3 in modifiers. Nothing else about the exchange changes. A Boon never adds a number to the total, it reshapes the odds, which is exactly what you want in a scene where the argument matters more than the arithmetic.
+
 == Why Run Extended Social Conflicts
 
 The single-roll approach works fine for buying a sword or asking directions. But for moments that define the story, extended conflicts give every player a chance to contribute. The Blade might read the room with Insight. The Arcanist might use Arcana to identify the magical wards on the negotiation chamber, information that becomes a bargaining chip. The Protector might just stand there looking unstoppable, and the DA grants the party's face a Boon on their next social roll from sheer presence.
