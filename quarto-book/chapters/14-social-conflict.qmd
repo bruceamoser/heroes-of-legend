@@ -108,7 +108,7 @@ The party needs passage through the Ironwood, a dense forest controlled by the T
 
 *The DA:* "The warden's expression doesn't change, but her eyes flick toward the treeline. 'Children, you say.' She's listening. Give me a Persuasion roll, opposed by her Insight."
 
-_Aldric rolls:_ 3d6 + Guile (+1) + Persuasion Adept (+2). Result: 4, 5, 3 = 12 + 3 = 15. *Strong.* The warden's passive Insight is 13 (Knowledge +2, base 7). 15 is Strong, 13 is Standard, and Strong beats Standard. Two successes.
+_Aldric rolls:_ 3d6 + Guile (+1) + Persuasion Adept (+2). Result: 4, 5, 3 = 12 + 3 = 15. *Strong.* The warden's passive Insight is 9 (Knowledge +2, base 7). 15 is Strong, 9 is Standard, and Strong beats Standard. Two successes.
 
 *The DA:* "The warden uncrosses her arms. 'We found tracks, heavy boots, dragging something. They went east, toward the old barrows. You'll need a guide. The barrows are... unsettled.' Two successes for the party, and her attitude shifts one step closer to you. Neutral to Friendly."
 
@@ -118,9 +118,9 @@ _Aldric rolls:_ 3d6 + Guile (+1) + Persuasion Adept (+2). Result: 4, 5, 3 = 12 +
 
 *Lyra (the player):* "I step up beside Aldric. 'Lieutenant. Look at us. We're exhausted, we're armed for a fight, and we're asking permission instead of forcing our way through. Cultists don't ask.' Can I use Insight to read what's really bothering him?"
 
-*The DA:* "Roll Insight, opposed by his. He's not counter-arguing, just holding the line. His Insight is 11 (Knowledge 0, base 7)."
+*The DA:* "Roll Insight, opposed by his. He's not counter-arguing, just holding the line. His Insight is 7 (Knowledge 0, base 7)."
 
-_Lyra rolls:_ 3d6 + Reason (+1) + Insight Novice (+1). Result: 5, 2, 4 = 11 + 2 = 13. *Standard.* 13 against his 11, both Standard, so the higher total wins. One success.
+_Lyra rolls:_ 3d6 + Reason (+1) + Insight Novice (+1). Result: 5, 2, 4 = 11 + 2 = 13. *Standard.* Her Standard beats his Weak, so the read lands. One success.
 
 *The DA:* "You catch a flicker of old anger when he said 'humans.' Something personal behind the hostility. Not just standard suspicion. You can use that. Three successes. The conflict is yours."
 
