@@ -2,122 +2,136 @@
 
 ```{=typst}
 #label("sec-chapter-magic-system")
-```
 
-![Illo 17: Magic System Art](../assets/images/page038-img026.jpeg){width="60%"}
+#figure(image("assets/images/page038-img026.jpeg", width: 60%), caption: [Illo 17: Magic System Art])
 
-*Illustration 17: Magic system chapter art (Odd class). Placeholder; final art TBD. Dimensions: 680×989.*
+_Illustration 17: Magic system chapter art (Odd class). Placeholder; final art TBD. Dimensions: 680×989._
 
-{{< pagebreak >}}
+#pagebreak()
 
-Let's get one thing straight before we start: in *Heroes of Legend*, magic always fires. Always. No spell slots. No mana pool. No "sorry, I used my good spell already." When you cast, the magic happens. Your fire burns until *you* decide it stops. The only question is how hard.
+Let's get one thing straight before we start: in _Heroes of Legend_, magic always fires. Always. No spell slots. No mana pool. No "sorry, I used my good spell already." When you cast, the magic happens. Your fire burns until _you_ decide it stops. The only question is how hard.
 
 This changes everything about playing a caster. You're never useless. You're never out of options. Every round, you have something to do, and that something will have an effect.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Always Fires: The Core Rule
+== Always Fires: The Core Rule
 
-You don't roll to cast. You roll to determine *effect strength.* The spell goes off. The magic flows. Your 3d6 roll tells you whether the result is a sputter, a blast, or an inferno.
+You don't roll to cast. You roll to determine _effect strength._ The spell goes off. The magic flows. Your 3d6 roll tells you whether the result is a sputter, a blast, or an inferno.
 
 Every spell in this game has three outcomes built right into its stat block:
 
-- **Weak:** The spell fires but underperforms. The firebolt singes instead of ignites. The heal knits flesh but leaves a scar. You got the job done, barely.
-- **Standard:** Clean, expected result. Professional spellwork. This is what the spell was designed to do, and you did it.
-- **Strong:** The magic surges. Extra damage, bonus effects, wider areas. The spell doesn't just work, it *dominates.* This is why you became a caster.
++ *Weak:* The spell fires but underperforms. The firebolt singes instead of ignites. The heal knits flesh but leaves a scar. You got the job done, barely.
++ *Standard:* Clean, expected result. Professional spellwork. This is what the spell was designed to do, and you did it.
++ *Strong:* The magic surges. Extra damage, bonus effects, wider areas. The spell doesn't just work, it _dominates._ This is why you became a caster.
 
 One roll. Three outcomes. No separate casting check, no concentration roll, no spell failure percentage.
 
-**Arcane spells** roll 3d6 + Knowledge + relevant skill. **Divine spells** roll 3d6 + Reason + relevant skill. Read the result. Magic happens.
+*Arcane spells* roll 3d6 + Knowledge + relevant skill. *Divine spells* roll 3d6 + Reason + relevant skill. Read the result. Magic happens.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Spell Cards: Novice → Adept → Master
+== Spell Cards: Novice → Adept → Master
 
 Every spell is a single growing card. You buy it at one of three tiers, Novice, Adept, or Master, and each higher tier deepens the same spell rather than replacing it. That's the Ember Lance in the table below, a Novice spark that grows into a Master-rank lance: one spell, grown. The card carries its Disciplines requirement, Action, Range, and Keywords, then its effects in Weak, Standard, and Strong outcomes, with Adept and Master additions on top.
 
 A card is bought at one of three tiers, and the tier sets both the cost and the effect row:
 
-| Card tier | Cost | Disciplines | Effect row (W / S / St) |
-|-----------|------|-------------|--------------------------|
-| Novice | 2 DP | 1 Discipline | 2 / 4 / 6 |
-| Adept | 4 DP | 2 Disciplines | 6 / 9 / 12 |
-| Master | 8 DP | 3 Disciplines | 9 / 15 / 21 |
+#figure(
+  align(center)[#table(
+    columns: (19.64%, 10.71%, 23.21%, 46.43%),
+    align: (auto, auto, auto, auto,),
+    table.header([Card tier], [Cost], [Disciplines], [Effect row (W / S / St)],),
+    [Novice], [2 DP], [1 Discipline], [2 / 4 / 6],
+    [Adept], [4 DP], [2 Disciplines], [6 / 9 / 12],
+    [Master], [8 DP], [3 Disciplines], [9 / 15 / 21],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
 A Novice card bought up to Adept rank uses the Adept row (6/9/12). Bought to Master rank, it uses 9/15/21. A card bought at Adept tier starts at 6/9/12 and reaches 9/15/21 at Master rank. The row is the law, no matter how the card is shaped.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Discipline Prerequisites
+== Discipline Prerequisites
 
-Spell tiers have **level gates** in addition to Discipline prerequisites. **Adept-tier spells require character level 3. Master-tier spells require level 7.** Novice spells have no level gate. Discipline prerequisites still govern *which* Adept and Master options you can buy when the gate opens. Want to throw a Brimstone Burst at level 3? You need 2 Fire. At level 7, a Master card needs 3 Disciplines, say 2 Fire and 1 Earth. The Discipline system follows a clean progression: **Novice spells require 1 Discipline, Adept require 2, Master require 3.**
+Spell tiers have *level gates* in addition to Discipline prerequisites. *Adept-tier spells require character level 3. Master-tier spells require level 7.* Novice spells have no level gate. Discipline prerequisites still govern _which_ Adept and Master options you can buy when the gate opens. Want to throw a Brimstone Burst at level 3? You need 2 Fire. At level 7, a Master card needs 3 Disciplines, say 2 Fire and 1 Earth. The Discipline system follows a clean progression: *Novice spells require 1 Discipline, Adept require 2, Master require 3.*
 
-At the Master tier, one additional rule applies: **no single Discipline type may exceed 3.** The three ranks follow the Discipline ladder (three different, two plus one, or all three the same), so a Master spell may blend types, fire and earth working together, or commit fully to a single force. This keeps Master spells a mark of earned mastery, broad or deep, never shallow repetition.
+At the Master tier, one additional rule applies: *no single Discipline type may exceed 3.* The three ranks follow the Discipline ladder (three different, two plus one, or all three the same), so a Master spell may blend types, fire and earth working together, or commit fully to a single force. This keeps Master spells a mark of earned mastery, broad or deep, never shallow repetition.
 
 There are no wildcard Discipline substitutions. Every Discipline requirement must be met with the specific Discipline named on the card. With level gates in place, Adept unlocks at level 3 and Master at level 7, giving you time to earn the specific Disciplines each tier demands.
 
-| Spell | Tier | Discipline Req | Effect Range (W / S / St) |
-|-------|------|---------------|--------------------------|
-| Ember Lance | Novice | 1 Fire | W: 2 / S: 4 / St: 6, passes through |
-| Brimstone Burst | Adept | 2 Fire | W: 6 / S: 9 / St: 12, 20-ft radius |
-| Ember Lance (Master rank) | Master | 1 Fire, rank 3 | W: 9 / S: 15 / St: 21, Piercing 3 |
+#figure(
+  align(center)[#table(
+    columns: (12.96%, 11.11%, 27.78%, 48.15%),
+    align: (auto, auto, auto, auto,),
+    table.header([Spell], [Tier], [Discipline Req], [Effect Range (W / S / St)],),
+    [Ember Lance], [Novice], [1 Fire], [W: 2 / S: 4 / St: 6, passes through],
+    [Brimstone Burst], [Adept], [2 Fire], [W: 6 / S: 9 / St: 12, 20-ft radius],
+    [Ember Lance (Master rank)], [Master], [1 Fire, rank 3], [W: 9 / S: 15 / St: 21, Piercing 3],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-Look at that jump from a Novice Ember Lance to a Master one. One. Two. Three. Novice spells are tools. Adept spells are weapons. Master spells are *events.* The Discipline requirements make sure you earn the difference, but they don't make you wait half a campaign to do it.
+Look at that jump from a Novice Ember Lance to a Master one. One. Two. Three. Novice spells are tools. Adept spells are weapons. Master spells are _events._ The Discipline requirements make sure you earn the difference, but they don't make you wait half a campaign to do it.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Cantrips
+== Cantrips
 
 Cantrips are the spells you learn before you learn "real" spells. Minor magic. Parlor tricks that grew teeth.
 
-Cantrips require **no Discipline prerequisites.** Every caster knows all cantrips in their tradition, arcane or divine. These are your at-will abilities, and each tradition's full list is in its spell chapter. Small effects. Infinite uses. No roll required unless the cantrip says otherwise.
+Cantrips require *no Discipline prerequisites.* Every caster knows all cantrips in their tradition, arcane or divine. These are your at-will abilities, and each tradition's full list is in its spell chapter. Small effects. Infinite uses. No roll required unless the cantrip says otherwise.
 
 They won't win a fight. They'll start one, or end one creatively.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Arcane vs. Divine Magic
+== Arcane vs. Divine Magic
 
 Two traditions. Two philosophies. Same engine underneath.
 
-**Arcane** (Arcanist, Odd, Unbalanced): Fire, Wind, Water, Earth, and Energy spells. Arcane casters manipulate natural forces through study, talent, or sheer force of will. They're scientists of the impossible, or artists of the unstable. Damage is their language. Destruction is their punctuation.
+*Arcane* (Arcanist, Odd, Unbalanced): Fire, Wind, Water, Earth, and Energy spells. Arcane casters manipulate natural forces through study, talent, or sheer force of will. They're scientists of the impossible, or artists of the unstable. Damage is their language. Destruction is their punctuation.
 
-**Divine** (Shepherd, some Leaders): Protection, Animal, Life, and Religion spells. Divine casters channel power from a higher source, gods, nature, ancestors, the light between stars. They heal. They ward. They burn what shouldn't exist, like undead and demons. Their magic is a relationship, not a formula.
+*Divine* (Shepherd, some Leaders): Protection, Animal, Life, and Religion spells. Divine casters channel power from a higher source, gods, nature, ancestors, the light between stars. They heal. They ward. They burn what shouldn't exist, like undead and demons. Their magic is a relationship, not a formula.
 
 Some classes blur the line. The Odd steals from both traditions. The Unbalanced channels opposing elements through their own body. The game doesn't build walls between arcane and divine, it just asks what you're willing to pay.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Limitations
+== Limitations
 
-Magic is powerful. That's the point. But there are brakes. Not to frustrate you, to make your biggest spells feel like *moments.*
+Magic is powerful. That's the point. But there are brakes. Not to frustrate you, to make your biggest spells feel like _moments._
 
-**Per-Encounter:** Adept and Master spells can only be used once per combat. You can't drop Brimstone Burst every round. Choose your moment. Make it count.
+*Per-Encounter:* Adept and Master spells can only be used once per combat. You can't drop Brimstone Burst every round. Choose your moment. Make it count.
 
-**Per-Session:** Master-tier spells are once per session. When you unleash Ember Lance at Master rank or a 3-Discipline Master card, the table should go quiet. These spells reshape encounters. They're not your default attack, they're your signature. Use them when it matters most.
+*Per-Session:* Master-tier spells are once per session. When you unleash Ember Lance at Master rank or a 3-Discipline Master card, the table should go quiet. These spells reshape encounters. They're not your default attack, they're your signature. Use them when it matters most.
 
-**Concentration:** Some ongoing spells, illusions, wards, enchantments, require concentration. You can only maintain one concentration spell at a time. If you take damage while concentrating, make a Fortitude check to hold the spell together. Concentration is about focus. Lose focus, lose the spell.
+*Concentration:* Some ongoing spells, illusions, wards, enchantments, require concentration. You can only maintain one concentration spell at a time. If you take damage while concentrating, make a Fortitude check to hold the spell together. Concentration is about focus. Lose focus, lose the spell.
 
-::: {.callout-note}
-## Why Limits on Master Spells?
-
+#callout(type: "note", title: "Why Limits on Master Spells?", body: [
 I've seen what happens when a caster can drop their biggest spell every round. Combat becomes a fireworks display with no tension. The Blades and Protectors might as well put their dice away.
 
-The per-session limit on Master spells isn't about resource management, it's about spotlight management. When you cast a Master spell, *everyone* should remember it. That means you can't do it three times before lunch.
+The per-session limit on Master spells isn't about resource management, it's about spotlight management. When you cast a Master spell, _everyone_ should remember it. That means you can't do it three times before lunch.
 
 The Veteran Adventurer
-:::
+])
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Worked Example: Casting Brimstone Burst
+== Worked Example: Casting Brimstone Burst
 
 Sera Ashvein is the party's Arcanist, a fire-obsessed scholar. By level 3 she has 2 Fire and 1 Energy, and Brimstone Burst is the spell she bought the moment the Adept gate opened. Now she's facing a cluster of goblins huddled behind a barricade. Time for a Brimstone Burst.
 
-**The roll:** Sera's Knowledge is +2, and her Arcana is Novice (+1). The goblins are packed tight, Standard difficulty, no modifier. She rolls 3d6: 5, 3, 4 = 12. Plus 2 (Knowledge), plus 1 (Arcana) = 15. *Strong.*
+*The roll:* Sera's Knowledge is +2, and her Arcana is Novice (+1). The goblins are packed tight, Standard difficulty, no modifier. She rolls 3d6: 5, 3, 4 = 12. Plus 2 (Knowledge), plus 1 (Arcana) = 15. _Strong._
 
-**The effect:** Brimstone Burst's Strong damage is 12 in a 20-foot radius, with targets near the center taking 15. Everything in that circle takes 12 fire damage, 15 near the center, unless it has resistance. The goblins have no armor and no resistance. Four goblins, twelve damage each, fifteen for those near the center. The barricade, wooden, dry, catches fire. The goblins' formation collapses into screaming chaos.
+*The effect:* Brimstone Burst's Strong damage is 12 in a 20-foot radius, with targets near the center taking 15. Everything in that circle takes 12 fire damage, 15 near the center, unless it has resistance. The goblins have no armor and no resistance. Four goblins, twelve damage each, fifteen for those near the center. The barricade, wooden, dry, catches fire. The goblins' formation collapses into screaming chaos.
 
-**The aftermath:** The Brimstone Burst is per-encounter. Sera won't cast it again this fight. But she doesn't need to. She just cleared the room. Now she draws her dagger and lets the Protector handle cleanup while she looks for her next opening.
+*The aftermath:* The Brimstone Burst is per-encounter. Sera won't cast it again this fight. But she doesn't need to. She just cleared the room. Now she draws her dagger and lets the Protector handle cleanup while she looks for her next opening.
 
-That's how magic works in *Heroes of Legend.* No "sorry, I missed." No "I'm out of mana." Just one result and a room full of consequences.
+That's how magic works in _Heroes of Legend._ No "sorry, I missed." No "I'm out of mana." Just one result and a room full of consequences.
+```
