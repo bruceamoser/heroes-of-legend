@@ -173,11 +173,11 @@ Characters with appropriate tools and skills can craft items during downtime.
 
 Keeping track of supplies adds tension to exploration.
 
-*Rations:* 1 per day per character. Without food, make an Endurance (Fortitude) roll each day. Standard result: function normally. Weak result: -1 to all rolls from fatigue.
+*Rations:* 1 per day per character. Without food, make an Endurance (Fortitude) roll each day. Standard result: function normally. Weak result: Bane on all rolls from fatigue.
 
 *Ammunition:* A quiver holds 20 arrows or bolts. After combat, recover half on a Standard or better Survival roll. On a Weak result, recover only 1d4.
 
-*Light:* Torches last 1 hour and illuminate 30 ft. Lanterns last 6 hours per flask of oil. Total darkness imposes -2 to any roll requiring sight.
+*Light:* Torches last 1 hour and illuminate 30 ft. Lanterns last 6 hours per flask of oil. Total darkness imposes a double Bane on any roll requiring sight.
 
 *Optional, Resource Dice:* For tables that prefer abstraction, use a Resource Die (d12→d10→d8→d6→d4→Depleted). Roll after each use; on a 1, the die steps down.
 
@@ -274,7 +274,7 @@ Run this as a group skill challenge. Each character makes one skill check. They 
     table.header([Result], [Consequence],),
     [*Weak*], [You make it, but at a cost. Lose 2 HP (slip, twisted ankle, swallowed river water). Or lose a piece of minor gear in the mud.],
     [*Standard*], [Clean crossing. You're where you need to be.],
-    [*Strong*], [You find an advantage, a dry path, a shortcut, a stable ledge. The next character gains +2 on their check.],
+    [*Strong*], [You find an advantage, a dry path, a shortcut, a stable ledge. The next character gains a Boon on their check.],
   )],
   kind: table,
   outlined: false,
@@ -285,7 +285,7 @@ Run this as a group skill challenge. Each character makes one skill check. They 
 
 - *3+ successes before 2 failures:* The party arrives dry, together, and alert. No penalties going into Scene 3.
 - *2 failures:* The party arrives mud-splattered and separated. Each character loses 2 HP from minor injuries. The DA gets one "complication token" to use in Scene 3, a sudden collapse, a rising water level, an enemy reinforcement.
-- *3+ failures (exhausted all attempts):* The party arrives soaked, bruised, and loud. Each character loses 4 HP. The vault's guardians are alerted. They act first in the opening round of Scene 3 (the party is Surprised, -2 on their first rolls). Yeah, it's harsh. Welcome to adventuring.
+- *3+ failures (exhausted all attempts):* The party arrives soaked, bruised, and loud. Each character loses 4 HP. The vault's guardians are alerted. They act first in the opening round of Scene 3 (the party is Surprised, Bane on their first rolls). Yeah, it's harsh. Welcome to adventuring.
 
 #callout(type: "warning", title: "The First Failure Matters", body: [
 When the first check comes up Weak, narrate it vividly: _"Your boot sinks into what looked like solid ground. Mud the consistency of cold porridge swallows you to the knee. You wrench free, but you've lost your waterskin, and your dignity."_ This teaches players that Weak results aren't "nothing happens." They're "something happens, and it's not what you wanted."
@@ -356,7 +356,7 @@ If the party stays, the ceiling begins to collapse. They have 3 rounds to escape
 The party emerges from the vault, wet, exhausted, and alive. Behind them, the stone doorway collapses into the river with a sound like a giant exhaling. The glyphs go dark. Whatever was down there is done.
 
 *Treasure:* If the party searched the sanctum before fleeing (or if they go back later after the water recedes), they find:
-- Kelvath's circlet, a *Circlet of the Warden* (magic item: once per day, grants +2 to a check against being moved, knocked prone, or restrained by water, wind, or earth effects)
+- Kelvath's circlet, a *Circlet of the Warden* (magic item: once per day, grants a Boon on a check against being moved, knocked prone, or restrained by water, wind, or earth effects)
 - 120 gp in old imperial coin (worth double to a collector, standard to a merchant)
 - A *Waterlogged Spell Scroll*, contains one Novice spell of the DA's choice from the Arcane or Divine list
 

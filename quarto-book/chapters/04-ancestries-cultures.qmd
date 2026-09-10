@@ -204,7 +204,7 @@ Dwarves are forged, not born. Their gifts reflect stone, steel, and the kind of 
   table.header([Gift], [Tier], [Effect],),
   [*Stonecunning*], [Novice], [You have Boon on Perception and Craft checks involving stonework, masonry, or underground construction. You know when a wall has been moved.],
   [*Dwarven Resilience*], [Novice], [You have Boon on Fortitude checks to resist poison. Alcohol doesn't count.],
-  [*Grudge-Bearer*], [Novice], [Once per session, when an enemy damages you, you may mark that enemy. For the rest of the encounter, you have +1 on attack rolls against them.],
+  [*Grudge-Bearer*], [Novice], [Once per session, when an enemy damages you, you may mark that enemy. For the rest of the encounter, you have a Boon on attack rolls against them.],
   [*Forge-Trained*], [Adept], [Non-magical weapons and armor you maintain never break, dull, or rust. Maintained armor grants +1 DR. Once per scene, one maintained weapon deals one damage tier higher on its next hit.],
   [*Unyielding*], [Adept], [When an effect would push, pull, or knock you prone, you may choose to be unaffected. Once per scene.],
 )], kind: table, numbering: none, outlined: false)

@@ -60,9 +60,9 @@ These maneuvers are free for everyone. No skill required. No Discipline check. J
     columns: (55.56%, 44.44%),
     align: (auto, auto,),
     table.header([Maneuver], [Effect]),
-    [*Defend*], [+2 to your Defense roll until your next turn.],
+    [*Defend*], [Boon on your Defense roll until your next turn.],
     [*Disengage*], [Move 5 ft without provoking opportunity attacks.],
-    [*Aid*], [Ally within 30 ft gains +2 on their next roll before your next turn.],
+    [*Aid*], [Ally within 30 ft gains a Boon on their next roll before your next turn.],
     [*Shove*], [Opposed Brawn vs Brawn/Agility. Push target 5 ft (10 ft on Strong).],
     [*Grapple*], [Initiate a grapple (see @sec-grappling).],
     [*Command*], [A companion, familiar, or mount under your control takes an extra move.],
@@ -311,7 +311,7 @@ When a creature faces overwhelming odds, the DA calls for a *Morale Check* and d
     columns: (44.44%, 55.56%),
     align: (auto, auto,),
     table.header([Result], [Behavior]),
-    [*Strong (15+)*], [Stands firm. Gains +1 on its next attack.],
+    [*Strong (15+)*], [Stands firm. Gains a Boon on its next attack.],
     [*Standard (9-14)*], [Wavers but stays. Bane on its next attack.],
     [*Weak (1-8)*], [Flees or surrenders. Fight's over for this one.],
   )],
@@ -451,7 +451,7 @@ Lyra sees the cultists chanting, they're building toward something. She decides 
 
 "I cast _Gust_ at the closest cultist. Wind Discipline, Novice."
 
-She rolls 3d6 + Knowledge (+1) + no skill. Rolls 3, 4, 4 = 11 + 1 = 12. *Standard.* The blast of wind slams into the cultist and shoves him 10 ft back. No check. Gust resolves by tier. The cultist stumbles off balance, his chant broken, but he stays on his feet. Lyra spends her Maneuver to Defend, +2 to her Defense roll.
+She rolls 3d6 + Knowledge (+1) + no skill. Rolls 3, 4, 4 = 11 + 1 = 12. *Standard.* The blast of wind slams into the cultist and shoves him 10 ft back. No check. Gust resolves by tier. The cultist stumbles off balance, his chant broken, but he stays on his feet. Lyra spends her Maneuver to Defend, a Boon on her Defense roll.
 
 *Round 1, Kael's Turn:*
 
@@ -509,7 +509,7 @@ The Knight is wavering from Roric's warning. Kael sees the opening.
 
 Rolls 3d6 + Brawn (+1). Rolls 4, 6, 5 = 15 + 1 = 16. *Strong.* His Basic Melee card deals 3 on Strong, plus Brawn +1 = 4. Knight's DR: 4. 4 − 4 → minimum 1 damage. Total damage on Knight: 3 (2 from Round 1 + 1 now). The blade slips under the Knight's pauldron, another thin cut. The Knight grunts.
 
-Kael uses his Maneuver for *Defend*, +2 to his Defense roll. Smart. He's the Knight's target and he knows it.
+Kael uses his Maneuver for *Defend*, a Boon on his Defense roll. Smart. He's the Knight's target and he knows it.
 
 *The Knight's Morale:*
 
