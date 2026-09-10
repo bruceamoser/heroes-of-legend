@@ -36,16 +36,18 @@ That's it. Roll three dice. Add the relevant number from your character sheet. A
   outlined: false,
   numbering: none,
 )
+#label("tbl-success-tiers")
 
 *Reading the tiers in rules text.* When a rule calls for a "Standard or better" result, it means Standard or Strong. Tiers are ordered Weak, Standard, Strong, so "or better" always moves up the ladder. The book names the exact tier wherever a single tier is meant.
-#label("tbl-success-tiers")
 
 *Totals of Zero or Less:* If your final roll total is 0 or less, the result is Weak, and the DA adds one complication, fail-forward with teeth. The lock opens but the guard is now awake and standing behind the door. Your blade draws blood, then snaps at the hilt. The spell fires, then arcs back and singes a nearby ally.
 
-#callout(type: "note", title: "Why 3d6? A Designer's Note", body: [
+#callout(type: "note", title: "A Designer's Note: Why 3d6, and Why Every Attack Lands", body: [
 A single twenty-sided die is a fickle god. Every number from 1 to 20 is equally likely, your carefully built character with +7 to Stealth has the same 5% chance of rolling a 1 as the clumsy ogre in plate mail. That's not how skill works in stories, and it shouldn't be how it works in games.
 
 Three six-sided dice create a bell curve. Most rolls land between 9 and 12. That means your training, your attributes, your skill bonuses, and your Disciplines all matter _more_ than the dice. A master thief almost always sneaks past the guard. A legendary blacksmith almost never ruins the blade. When the dice do produce a 3 or an 18, it _means_ something, because it almost never happens. This system makes your choices matter more than your luck. I think that's how it should be.
+
+And because the roll decides _how well_ rather than _whether_, every exchange advances the fight. Think about your favorite movie battle. The hero never stands there missing for six seconds while the audience checks their phones. Every exchange is a clash, a parry, a glancing blow, a telling strike. Combat moves fast, and every round something changes. Your 3d6 roll isn't "do I hit?", it's "how much does this hurt?"
 ])
 
 == Boons and Banes
@@ -75,10 +77,6 @@ Your 3d6 attack roll determines the damage tier:
 These damage values come from the damage budget table (@sec-damage-budget). There is no separate damage roll: the outcome tier of your attack roll is your damage tier. Roll once, resolve everything.
 
 DR (Damage Reduction) subtracts from incoming damage: each point of DR negates 1 (minimum 1 damage from any hit). A hero with Brawn +2 landing a Strong longsword strike deals 5 damage (3 Strong + 2 Brawn). A goblin with no armor takes it all. A knight in plate armor (DR 6) would only take the minimum 1.
-
-#callout(type: "tip", title: "Why Always-Hit Makes Better Fights", body: [
-Think about your favorite movie battle. The hero never stands there missing for six seconds while the audience checks their phones. Every exchange advances the fight, a clash, a parry, a glancing blow, a telling strike. That's what always-hit delivers. Combat moves fast. Every round, something changes. Your 3d6 roll isn't "do I hit?", it's "how much does this hurt?"
-])
 
 == Players Make All Rolls
 
@@ -127,11 +125,7 @@ A Defense Roll crits or fumbles like any other roll. Three 6s means you take the
 
 === Why This Works
 
-*Players stay engaged.* You're not waiting for the DA to roll dice and tell you what happened. You're rolling, reacting, making choices. Every attack against you is a moment of tension where _your_ roll determines the outcome.
-
-*NPCs become simpler.* The DA doesn't need attack bonuses for every monster. The NPC's skill is expressed as a single Challenge number that modifies the player's roll. The DA describes the attack, sets the penalty, and the player rolls.
-
-*The math is the same.* A goblin with +1 to attack and a hero with +2 Defense produces the same probability distribution whether the goblin rolls or the hero rolls. The only difference is whose hands are on the dice, and we'd rather those hands belong to the players.
+*Why this works.* You're not waiting for the DA to roll dice and tell you what happened; every attack against you is a moment of tension where your own roll decides the outcome. The DA doesn't need attack bonuses for every monster either, because an NPC's skill collapses into a single Challenge number. And the math is identical: a goblin with +1 to attack against a hero with +2 Defense produces the same probability distribution whichever of them rolls. The only difference is whose hands are on the dice, and we'd rather those hands belong to the players.
 
 === Defense Roll Example
 
