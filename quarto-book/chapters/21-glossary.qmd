@@ -41,7 +41,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Strong:* Exceptional success. Extra effect, bonus damage, additional information, or sheer style.
 
-*Damage Budget:* The master table every damaging spell, ability, and maneuver keys to. Novice 2/4/6, Adept 6/9/12, Master 9/15/21 (Weak/Standard/Strong). See @sec-damage-budget.
+*Damage Budget:* The master table every damaging spell, ability, and maneuver keys to. Novice 2/4/6, Adept 6/9/12, Master 9/15/21 (Weak/Standard/Strong). See @sec-damage-budget
 
 *Flat Damage:* Damage taken straight from the damage budget row with no attribute added. Arrows, thrown attacks, most spells, and all monsters use flat damage.
 

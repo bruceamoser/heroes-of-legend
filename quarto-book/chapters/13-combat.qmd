@@ -87,10 +87,10 @@ Attacks always hit. Say it with me: _always hit._ When you swing your weapon or 
 
 Roll 3d6 + modifiers. The total determines your damage tier:
 
-+ *Weak:* Glancing blow. Apply your attack card's Weak damage.
-+ *Standard:* Solid hit. Apply your attack card's Standard damage.
-+ *Strong:* Devastating strike. Apply your attack card's Strong damage.
-+ *Critical (three 6s):* Maximum Strong damage plus a bonus effect from the Critical table (@sec-chapter-core-resolution).
+- *Weak:* Glancing blow. Apply your attack card's Weak damage.
+- *Standard:* Solid hit. Apply your attack card's Standard damage.
+- *Strong:* Devastating strike. Apply your attack card's Strong damage.
+- *Critical (three 6s):* Maximum Strong damage plus a bonus effect from the Critical table (@sec-chapter-core-resolution).
 
 That's one roll. No separate damage dice. No "did I hit?" anxiety. Roll once, read the damage, move on.
 
@@ -98,36 +98,18 @@ Armor (DR) subtracts from the damage a hit does, but a hit always lands for at l
 
 #callout(type: "note", title: "Why Always-Hit?", body: [
 
-Every attack connects; the roll only decides how hard. For the full rationale, and how armor reduces damage instead of preventing hits, see @sec-chapter-core-resolution.
+Every attack connects; the roll only decides how hard. For the full rationale, and how armor reduces damage instead of preventing hits, see @sec-chapter-core-resolution
 ])
 
 == Who Rolls: Players Make All Rolls
 
-The DA never touches the dice in _Heroes of Legend_. This is not a suggestion. It is the rules. Players roll for their attacks, their spells, their skill checks, and crucially, for their defense against every attack made against them. The full explanation is in @sec-chapter-core-resolution. Here is how it works at the table.
+The DA never touches the dice in _Heroes of Legend_. This is not a suggestion. It is the rules. Players roll for their attacks, their spells, their skill checks, and crucially, for their defense against every attack made against them. The full explanation is in @sec-chapter-core-resolution Here is how it works at the table.
 
 === Defending Against NPC Attacks
 
-When an enemy attacks you, the DA describes the attack and gives you the enemy's *Challenge* rating, a penalty to your roll. You make a *Defense Roll*. Choose the form that matches your training:
-
-+ *No defensive skill:* 3d6 + Agility − Challenge
-+ *Dodge:* 3d6 + Agility + Dodge rank − Challenge
-+ *Parry:* 3d6 + Brawn + Parry rank − Challenge
+When an enemy attacks you, the DA describes the attack and gives you the enemy's *Challenge* rating, a penalty to your roll. You make a *Defense Roll*. The three formulas, the outcome table, and the reversal that makes them work all live in @sec-chapter-core-resolution.
 
 Parry requires a weapon or shield in hand. A shield enables Parry and grants its DR, but never adds a roll bonus.
-
-#figure(
-  align(center)[#table(
-    columns: (38.78%, 26.53%, 34.69%),
-    align: (auto, auto, auto,),
-    table.header([Your Defense Roll], [What Happens], [Damage You Take]),
-    [*Strong (15+)*], [You dodge, parry, or block the worst of it.], [NPC's *Weak* damage],
-    [*Standard (9-14)*], [You take a glancing blow.], [NPC's *Standard* damage],
-    [*Weak (1-8)*], [The blow lands solid. You were flat-footed.], [NPC's *Strong* damage],
-  )],
-  kind: table,
-  outlined: false,
-  numbering: none,
-)
 
 The NPC's stat block lists three damage values: Strong, Standard, and Weak, representing the attack's potential. Your defense roll determines which value applies. Roll well? The goblin barely scratches you. Roll poorly? That goblin found the gap in your armor.
 
@@ -268,9 +250,9 @@ To initiate a grapple, make a Brawn (Athletics) roll opposed by the target's Bra
 
 While grappling, you may use your Action to:
 
-+ *Pin:* Force another opposed roll. Strong result adds Incapacitated.
-+ *Throw:* End the grapple. Target is knocked Prone adjacent to you and takes Weak unarmed damage.
-+ *Choke:* Target begins suffocating. They can hold breath for Fortitude + 2 rounds before things get desperate.
+- *Pin:* Force another opposed roll. Strong result adds Incapacitated.
+- *Throw:* End the grapple. Target is knocked Prone adjacent to you and takes Weak unarmed damage.
+- *Choke:* Target begins suffocating. They can hold breath for Fortitude + 2 rounds before things get desperate.
 
 #quote[_A grappled creature can still fight back._ The Grappled condition only stops movement, a grappled spellcaster can still cast. The Restrained condition imposes a Bane on attacks but doesn't prevent them. Grabbing the enemy wizard doesn't end the fight. It starts a new one.]
 
@@ -334,10 +316,10 @@ When a creature faces overwhelming odds, the DA calls for a *Morale Check* and d
 
 A creature automatically checks morale when:
 
-+ Reduced below half HP for the first time
-+ Its leader is defeated
-+ Half its group has fallen
-+ The party demonstrates overwhelming force (DA's call)
+- Reduced below half HP for the first time
+- Its leader is defeated
+- Half its group has fallen
+- The party demonstrates overwhelming force (DA's call)
 
 #quote[_DA Guidance:_ Use morale to keep combat from becoming a slog. When the goblins' leader falls and three of their friends are down, the remaining two should break and run, not fight to 0 HP while the party mops up. Morale makes fights feel alive and saves table time. The goblins want to go home too.]
 

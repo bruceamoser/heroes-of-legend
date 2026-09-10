@@ -521,7 +521,7 @@ The *Odd* occupies no archetype. It is the pure wildcard, its abilities sampling
 == Class Abilities
 #label("sec-class-abilities")
 
-Every class has a list of abilities unique to it. These are the moves, spells, and tricks that define a hero's identity in play. Abilities are purchased using the flat card cost described in the Costs section below. Their real gate is Discipline prerequisites and level (Adept at 3, Master at 7). Every damaging ability is keyed to the damage budget table in @sec-damage-budget. The abilities presented here define the class. Future supplements may expand them.
+Every class has a list of abilities unique to it. These are the moves, spells, and tricks that define a hero's identity in play. Abilities are purchased using the flat card cost described in the Costs section below. Their real gate is Discipline prerequisites and level (Adept at 3, Master at 7). Every damaging ability is keyed to the damage budget table in @sec-damage-budget The abilities presented here define the class. Future supplements may expand them.
 
 === Mage Abilities (Arcanist & Intellect)
 

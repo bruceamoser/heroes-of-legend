@@ -236,18 +236,16 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
 
 == Character Creation Checklist
 
-#enum(numbering: "1.")[
-  *Concept:* One sentence. Who is your hero?
-  *Attributes:* Assign -2 to +2. Total must be +3.
-  *Ancestry:* Human, Elf, Dwarf, or Halfling. Record Discipline and trait.
-  *Culture:* Choose upbringing. Record +1 skill bonus and Disciplines.
-  *Background DP:* 8 + Knowledge + Fortitude. Spend all on Novice skills and abilities.
-  *Class:* Choose class. Record Class Discipline and signature ability.
-  *Class DP:* 8 DP. Spend all on Novice skills and abilities.
-  *Equipment:* Take class starting kit. Record weapon properties and armor DR.
-  *Derived Stats:* HP, Initiative, Speed, Carry Slots.
-  *Backstory:* Motivation, Trinket, Name.
-]
++ *Concept:* One sentence. Who is your hero?
++ *Attributes:* Assign -2 to +2. Total must be +3.
++ *Ancestry:* Human, Elf, Dwarf, or Halfling. Record Discipline and trait.
++ *Culture:* Choose upbringing. Record +1 skill bonus and Disciplines.
++ *Background DP:* 8 + Knowledge + Fortitude. Spend all on Novice skills and abilities.
++ *Class:* Choose class. Record Class Discipline and signature ability.
++ *Class DP:* 8 DP. Spend all on Novice skills and abilities.
++ *Equipment:* Take class starting kit. Record weapon properties and armor DR.
++ *Derived Stats:* HP, Initiative, Speed, Carry Slots.
++ *Backstory:* Motivation, Trinket, Name.
 
 #pagebreak()
 

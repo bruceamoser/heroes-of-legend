@@ -21,9 +21,9 @@ You don't roll to cast. You roll to determine _effect strength._ The spell goes 
 
 Every spell in this game has three outcomes built right into its stat block:
 
-+ *Weak:* The spell fires but underperforms. The firebolt singes instead of ignites. The heal knits flesh but leaves a scar. You got the job done, barely.
-+ *Standard:* Clean, expected result. Professional spellwork. This is what the spell was designed to do, and you did it.
-+ *Strong:* The magic surges. Extra damage, bonus effects, wider areas. The spell doesn't just work, it _dominates._ This is why you became a caster.
+- *Weak:* The spell fires but underperforms. The firebolt singes instead of ignites. The heal knits flesh but leaves a scar. You got the job done, barely.
+- *Standard:* Clean, expected result. Professional spellwork. This is what the spell was designed to do, and you did it.
+- *Strong:* The magic surges. Extra damage, bonus effects, wider areas. The spell doesn't just work, it _dominates._ This is why you became a caster.
 
 One roll. Three outcomes. No separate casting check, no concentration roll, no spell failure percentage.
 

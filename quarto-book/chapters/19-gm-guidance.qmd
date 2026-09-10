@@ -98,10 +98,10 @@ You don't need a full character sheet for every shopkeeper the party meets. Here
 Short rests take 1 hour and have no default mechanical effect. They provide narrative space to bandage wounds and regroup, but confer no automatic HP recovery or healing.
 
 *Long rest (8 hours):* A full night's sleep provides the following benefits:
-+ Recover HP equal to your level.
-+ Heal 1 wound.
-+ A character may attempt a Medicine check (Standard) to heal 1 additional wound (for themselves or an ally).
-+ A long rest cannot be taken more than once per 24 hours.
+- Recover HP equal to your level.
+- Heal 1 wound.
+- A character may attempt a Medicine check (Standard) to heal 1 additional wound (for themselves or an ally).
+- A long rest cannot be taken more than once per 24 hours.
 
 The long rest is the primary recovery mechanic in _Heroes of Legend_. Party resources, exploration pace, and adventure design all calibrate around it.
 
@@ -230,11 +230,11 @@ The party meets *Elder Tamrin*, a weathered woman in her sixties with hands like
 
 *What the villagers know (Standard Arcana or Persuasion check):*
 
-+ The doorway appeared after the dam burst. It's old, older than any settlement in the valley. (Standard)
-+ The glyphs glow faintly blue at night. One of the farm boys touched them and his hand went numb for a day. (Standard)
-+ Three villagers have gone missing in the past two weeks, always at night, always near the river. (Standard)
-+ Before the dam was built, the elders used to warn children away from that bend in the river. Called it "the sinking ground." (Strong)
-+ There's a hermit living in the hills, old *Corvus*, who used to trade in old books and strange maps. He might know something about the glyphs. (Strong)
+- The doorway appeared after the dam burst. It's old, older than any settlement in the valley. (Standard)
+- The glyphs glow faintly blue at night. One of the farm boys touched them and his hand went numb for a day. (Standard)
+- Three villagers have gone missing in the past two weeks, always at night, always near the river. (Standard)
+- Before the dam was built, the elders used to warn children away from that bend in the river. Called it "the sinking ground." (Strong)
+- There's a hermit living in the hills, old *Corvus*, who used to trade in old books and strange maps. He might know something about the glyphs. (Strong)
 
 #callout(type: "tip", title: "Running Social Scenes", body: [
 Don't let this turn into an interrogation. Have Elder Tamrin offer tea. Have a child stare at the party's weapons. Have the village drunk insist the ruin is "a dragon's tooth" and try to sell them lucky charms. Social scenes teach players that talking is just as valid as stabbing, and often more useful.
@@ -284,9 +284,9 @@ Run this as a group skill challenge. Each character makes one skill check. They 
 
 *Party outcome:*
 
-+ *3+ successes before 2 failures:* The party arrives dry, together, and alert. No penalties going into Scene 3.
-+ *2 failures:* The party arrives mud-splattered and separated. Each character loses 2 HP from minor injuries. The DA gets one "complication token" to use in Scene 3, a sudden collapse, a rising water level, an enemy reinforcement.
-+ *3+ failures (exhausted all attempts):* The party arrives soaked, bruised, and loud. Each character loses 4 HP. The vault's guardians are alerted. They act first in the opening round of Scene 3 (the party is Surprised, -2 on their first rolls). Yeah, it's harsh. Welcome to adventuring.
+- *3+ successes before 2 failures:* The party arrives dry, together, and alert. No penalties going into Scene 3.
+- *2 failures:* The party arrives mud-splattered and separated. Each character loses 2 HP from minor injuries. The DA gets one "complication token" to use in Scene 3, a sudden collapse, a rising water level, an enemy reinforcement.
+- *3+ failures (exhausted all attempts):* The party arrives soaked, bruised, and loud. Each character loses 4 HP. The vault's guardians are alerted. They act first in the opening round of Scene 3 (the party is Surprised, -2 on their first rolls). Yeah, it's harsh. Welcome to adventuring.
 
 #callout(type: "warning", title: "The First Failure Matters", body: [
 When the first check comes up Weak, narrate it vividly: _"Your boot sinks into what looked like solid ground. Mud the consistency of cold porridge swallows you to the knee. You wrench free, but you've lost your waterskin, and your dignity."_ This teaches players that Weak results aren't "nothing happens." They're "something happens, and it's not what you wanted."
@@ -336,11 +336,9 @@ Beyond the main chamber, a short passage descends deeper. The water drains away 
 
 *The party has options:*
 
-#enum(numbering: "1.")[
-  + *Fight Kelvath while the seal holds.* He's tethered within 10 ft of the pedestal, so ranged attackers can keep their distance, but his Water Bolt reaches anyone who lingers. This is a tactical puzzle: how do you use his tether against him?
-  + *Disable the seal early.* A character can reach the pedestal (move + Maneuver) and attempt an Arcana or Insight check (Hard, -2). Strong: the seal stabilizes for the remainder of the fight. Standard: the seal holds but the attempt costs you, the crystal lashes out, dealing 4 cold damage to the character. Weak: the seal shatters immediately. Oops.
-  + *Break the crystal.* The crystal has HP 10 and DR 2. Destroying it ends the seal, frees Kelvath from his tether, and causes the chamber to flood rapidly (2 ft per round). But it also removes the blue glow, and Kelvath's Water Bolt loses 1 damage tier without the crystal powering it. Choices.
-]
++ *Fight Kelvath while the seal holds.* He's tethered within 10 ft of the pedestal, so ranged attackers can keep their distance, but his Water Bolt reaches anyone who lingers. This is a tactical puzzle: how do you use his tether against him?
++ *Disable the seal early.* A character can reach the pedestal (move + Maneuver) and attempt an Arcana or Insight check (Hard, -2). Strong: the seal stabilizes for the remainder of the fight. Standard: the seal holds but the attempt costs you, the crystal lashes out, dealing 4 cold damage to the character. Weak: the seal shatters immediately. Oops.
++ *Break the crystal.* The crystal has HP 10 and DR 2. Destroying it ends the seal, frees Kelvath from his tether, and causes the chamber to flood rapidly (2 ft per round). But it also removes the blue glow, and Kelvath's Water Bolt loses 1 damage tier without the crystal powering it. Choices.
 
 #callout(type: "tip", title: "Running Combined Encounters", body: [
 This is where the game shines. One character fights Kelvath. Another works the seal. A third keeps the party alive. This isn't "combat or puzzle", it's both, simultaneously. Encourage players to narrate quick. "I'm holding him off, work faster!" is a complete turn. Keep the pace up. The flooding clock creates tension; don't let it become a bookkeeping exercise.
@@ -359,18 +357,18 @@ If the party stays, the ceiling begins to collapse. They have 3 rounds to escape
 The party emerges from the vault, wet, exhausted, and alive. Behind them, the stone doorway collapses into the river with a sound like a giant exhaling. The glyphs go dark. Whatever was down there is done.
 
 *Treasure:* If the party searched the sanctum before fleeing (or if they go back later after the water recedes), they find:
-+ Kelvath's circlet, a *Circlet of the Warden* (magic item: once per day, grants +2 to a check against being moved, knocked prone, or restrained by water, wind, or earth effects)
-+ 120 gp in old imperial coin (worth double to a collector, standard to a merchant)
-+ A *Waterlogged Spell Scroll*, contains one Novice spell of the DA's choice from the Arcane or Divine list
+- Kelvath's circlet, a *Circlet of the Warden* (magic item: once per day, grants +2 to a check against being moved, knocked prone, or restrained by water, wind, or earth effects)
+- 120 gp in old imperial coin (worth double to a collector, standard to a merchant)
+- A *Waterlogged Spell Scroll*, contains one Novice spell of the DA's choice from the Arcane or Divine list
 
 *Advancement:* Completing "The Sunken Vault" is a milestone. The party advances to level 2. They've learned the core mechanics. They're ready for what comes next.
 
 *Hooks for Continuing:*
 
-+ The dam that burst wasn't an accident. Someone blew it. The hermit Corvus might know who, or what, wanted the vault opened.
-+ The crystal sphere wasn't just a prison. It was a key. Maps in the sanctum show four more vaults along the river. Kelvath was only one of five wardens.
-+ Back in Thornwell, Elder Tamrin has news: a rider arrived from the Baron's court while the party was in the vault. The Baron is offering a bounty on "river-spawned undead." And the bounty just doubled.
-+ One of the sarcophagi in the main chamber had a seal matching the party's Arcanist's pendant. Or the Shepherd's holy symbol. Or the Protector's family crest. The DA picks which character. The next adventure is personal.
+- The dam that burst wasn't an accident. Someone blew it. The hermit Corvus might know who, or what, wanted the vault opened.
+- The crystal sphere wasn't just a prison. It was a key. Maps in the sanctum show four more vaults along the river. Kelvath was only one of five wardens.
+- Back in Thornwell, Elder Tamrin has news: a rider arrived from the Baron's court while the party was in the vault. The Baron is offering a bounty on "river-spawned undead." And the bounty just doubled.
+- One of the sarcophagi in the main chamber had a seal matching the party's Arcanist's pendant. Or the Shepherd's holy symbol. Or the Protector's family crest. The DA picks which character. The next adventure is personal.
 
 #callout(type: "note", title: "Design Notes", body: [
 _The Sunken Vault_ teaches the game in layers. Scene 1 is social mechanics. Scene 2 is skill checks and success tiers. Scene 3 is combat basics. Scene 4 is the advanced course, combined encounters, tactical choice, and environmental pressure. By the time the party crawls out of that river, your players understand how _Heroes of Legend_ works. They may not understand _why_ they're covered in mud and grinning like fools. That part comes later.
@@ -448,28 +446,28 @@ Don't let reputation become a spreadsheet. When the party hits Friendly with the
 Your standing with a faction determines what doors open, and which ones slam shut.
 
 *Friendly (+1):*
-+ 10% discount on the faction's goods and services
-+ Access to faction-exclusive quests and rumors
-+ The faction will vouch for you with one allied group
+- 10% discount on the faction's goods and services
+- Access to faction-exclusive quests and rumors
+- The faction will vouch for you with one allied group
 
 *Trusted (+2):*
-+ 25% discount on the faction's goods and services
-+ Access to restricted areas (arcane libraries, military barracks, hidden sanctuaries)
-+ The faction shares secret information, monster weaknesses, political plots, rival movements
-+ You may call in one significant favor per adventure (safe house, false identity, armed escort)
+- 25% discount on the faction's goods and services
+- Access to restricted areas (arcane libraries, military barracks, hidden sanctuaries)
+- The faction shares secret information, monster weaknesses, political plots, rival movements
+- You may call in one significant favor per adventure (safe house, false identity, armed escort)
 
 *Allied (+3):*
-+ 50% discount on the faction's goods and services
-+ You attract 1d4 followers from the faction's ranks
-+ The faction provides stronghold support, guards, scholars, craftspeople
-+ Faction-specific favor (see example factions below)
-+ The faction will take significant risks for you, including military support
+- 50% discount on the faction's goods and services
+- You attract 1d4 followers from the faction's ranks
+- The faction provides stronghold support, guards, scholars, craftspeople
+- Faction-specific favor (see example factions below)
+- The faction will take significant risks for you, including military support
 
 *Hostile (-3):*
-+ The faction actively opposes you
-+ Bounty hunters, assassins, and saboteurs target the party
-+ Faction-aligned NPCs refuse to deal with you
-+ The DA should make this cost _felt_, not every session, but often enough that the party considers making amends
+- The faction actively opposes you
+- Bounty hunters, assassins, and saboteurs target the party
+- Faction-aligned NPCs refuse to deal with you
+- The DA should make this cost _felt_, not every session, but often enough that the party considers making amends
 
 === Between-Session Faction Actions
 

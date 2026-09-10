@@ -19,13 +19,13 @@ Magic items enhance heroes and may grant Disciplines. Some are always on. Some m
 
 Every magic item is a card, the same shape as a talent or ability card (see @sec-chapter-talents-abilities):
 
-+ *Name:* What it's called. Every item is named and unique. There is no generic "+1 sword."
-+ *Rarity:* Uncommon, Rare, Very Rare, or Legendary (and beyond them, Artifacts, unique items of world-shaking power). Rarity governs how often these appear and what level heroes should find them.
-+ *Attunement:* Whether it requires one of your three attunement slots.
-+ *Type:* What the item is: a sword, a cloak, a potion, a wonder. The Type tells you what it occupies and what it interacts with.
-+ *Disciplines:* The Disciplines an item grants while attuned (see Discipline Items below). These count as learned Disciplines for prerequisites.
-+ *Granted Action:* What the item grants: a Maneuver, an Action, a Reaction, or a Passive. An activated power resolves with a single 3d6 roll using your attribute and skill, exactly like an ability card. One roll, one outcome. There is no separate damage roll.
-+ *Weak / Standard / Strong:* The outcome rows for an activated power. Damaging powers key to the damage budget (@sec-damage-budget): Novice 2/4/6, Adept 6/9/12, Master 9/15/21.
+- *Name:* What it's called. Every item is named and unique. There is no generic "+1 sword."
+- *Rarity:* Uncommon, Rare, Very Rare, or Legendary (and beyond them, Artifacts, unique items of world-shaking power). Rarity governs how often these appear and what level heroes should find them.
+- *Attunement:* Whether it requires one of your three attunement slots.
+- *Type:* What the item is: a sword, a cloak, a potion, a wonder. The Type tells you what it occupies and what it interacts with.
+- *Disciplines:* The Disciplines an item grants while attuned (see Discipline Items below). These count as learned Disciplines for prerequisites.
+- *Granted Action:* What the item grants: a Maneuver, an Action, a Reaction, or a Passive. An activated power resolves with a single 3d6 roll using your attribute and skill, exactly like an ability card. One roll, one outcome. There is no separate damage roll.
+- *Weak / Standard / Strong:* The outcome rows for an activated power. Damaging powers key to the damage budget (@sec-damage-budget): Novice 2/4/6, Adept 6/9/12, Master 9/15/21.
 
 #pagebreak()
 
@@ -530,9 +530,9 @@ Some items grant temporary Disciplines while attuned. Each is a named, unique ca
 #callout(type: "note", title: "Finding Magic Items", body: [
 The DA controls the flow of magic items. A good rule of thumb:
 
-+ *Levels 1-3:* One Uncommon item per hero. Potions, scrolls, and a single named Uncommon item for the party.
-+ *Levels 4-6:* Two Uncommon, one Rare per hero. Discipline items start appearing.
-+ *Levels 7-10:* Mostly Rare, one Very Rare for the party. Very Rare and Legendary items. These should feel earned, quest rewards, not shop purchases.
+- *Levels 1-3:* One Uncommon item per hero. Potions, scrolls, and a single named Uncommon item for the party.
+- *Levels 4-6:* Two Uncommon, one Rare per hero. Discipline items start appearing.
+- *Levels 7-10:* Mostly Rare, one Very Rare for the party. Very Rare and Legendary items. These should feel earned, quest rewards, not shop purchases.
 
 Magic items aren't in every treasure hoard. When the party finds one, it should matter. The Blade who's been using the same longsword for five levels unsheathes the Blade of the Last Ember for the first time, that's a moment. Milk it.
 ])
