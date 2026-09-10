@@ -38,7 +38,7 @@ Skills come in three tiers. Each tier raises your bonus on rolls made with that 
   numbering: none,
 )
 
-All skills cost the same for every class: Novice 2 DP, Adept 4 DP, Master 8 DP. A Blade and an Arcanist pay the same 2 DP for Novice Athletics, and either can learn any skill on the list. As with abilities, the higher tiers unlock as you level: Adept at Level 3, Master at Level 7. Until the gate opens, everything you buy is Novice.
+All skills cost the same for every class: a Blade and an Arcanist pay the same for Novice Athletics, and either can learn any skill on the list. As with abilities, the higher tiers unlock as you level. Until a gate opens, everything you buy is Novice.
 
 #pagebreak()
 
@@ -88,11 +88,9 @@ The DA sets difficulty based on how hard the task actually is. A quality dwarven
 )
 
 #callout(type: "note", title: "When NOT to Roll", body: [
-If there's no consequence for failure and no pressure, don't roll dice. Just tell the story.
+If there's no consequence for failure and no pressure, don't roll dice. Just tell the story. The brawler with Brawn +2 wants to kick down a normal wooden door? It breaks. The woodsman with Survival Adept wants to find edible berries in a temperate forest? They find them. Rolling dice when there's nothing at stake drains tension from the moments that _do_ matter.
 
-The brawler with Brawn +2 wants to kick down a normal wooden door? It breaks. No roll. The woodsman with Survival Adept wants to find edible berries in a temperate forest? They find them. No roll. Rolling dice when there's nothing at stake drains tension from the moments that _do_ matter.
-
-Roll when failure is interesting. Roll when the outcome is uncertain. Roll when the table is leaning forward, waiting to see what happens. Never roll just because the rules say there's a skill for it. The rules serve the story, not the other way around.
+Roll when failure is interesting, when the outcome is uncertain, when the table is leaning forward to see what happens. Never roll just because the rules say there's a skill for it. The rules serve the story, not the other way around.
 ])
 
 === Worked Example: Skill in Action, Different Tiers, Different Outcomes
