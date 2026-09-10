@@ -453,13 +453,13 @@ The Shadow is the ghost in the room, the whisper no one heard, the hand that lif
 
 *Class Discipline (L1):* Stealth (1) + Sleight (1)
 
-*Signature, Vanish:* As a maneuver, you may attempt to disappear from sight. Make a Stealth check. On a Standard or better result, you become invisible until the end of your next turn or until you attack. On Weak, you gain concealment instead (attacks against you have Bane). This is not magic; this is being very good at not being noticed.
+*Signature, Vanish:* As a maneuver, you may attempt to disappear from sight. Make a Stealth check. On a Standard or better result, you become invisible until the end of your next turn or until you attack. On Weak, you are Hidden instead. This is not magic; this is being very good at not being noticed.
 
 *Secondary, Shadow Stride:* See the Shadow ability table below.
 
 *Favored Skills:* Stealth, Deception, Sleight of Hand, Thievery, Acrobatics, Perception
 
-*Starting Kit:* Two daggers, 6 throwing daggers, leather armor (DR 2), thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1, creates 10-ft radius heavy concealment for 1 round), 15 sp.
+*Starting Kit:* Two daggers, 6 throwing daggers, leather armor (DR 2), thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1, creates a 10-ft radius of heavy concealment for 1 round; anyone inside is Hidden), 15 sp.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -637,7 +637,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
     [*Coup de Grace*], [Adept], [2 Blades], [When you hit a target that is Prone or Restrained], [The attack automatically deals Strong damage (12). Once per scene.],
     [*Slippery*], [Adept], [1 Stealth, 1 Unarmed], [When an enemy moves adjacent to you], [You may immediately move up to 10 feet without provoking reactions.],
     [*Death Mark*], [Master], [2 Blades, 1 Archery], [When you reduce a target to 0 HP], [You may immediately make a free attack against another target within reach at +1 damage tier.],
-    [*Assassin's Edge*], [Master], [2 Blades, 1 Stealth], [When you attack from concealment or invisibility], [The attack automatically deals Strong damage (21). Once per session.],
+    [*Assassin's Edge*], [Master], [2 Blades, 1 Stealth], [When you attack while Hidden or Invisible], [The attack automatically deals Strong damage (21). Once per session.],
   )],
   kind: table,
   outlined: false,
@@ -657,7 +657,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
     [*Pick*], [Novice], [1 Sleight], [As an action], [Open one mundane lock or disarm one simple trap.],
     [*Cut and Run*], [Novice], [1 Blades], [When you hit with a melee attack], [Move up to 10 feet without provoking reactions.],
     [*Shadow Strike*], [Adept], [1 Stealth, 1 Sleight], [When you attack from Vanish invisibility], [The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene.],
-    [*Smoke Veil*], [Adept], [1 Stealth, 1 Sleight], [As an action], [Grant heavy concealment in a 10-ft radius for 1 round, then you may Vanish as part of this action.],
+    [*Smoke Veil*], [Adept], [1 Stealth, 1 Sleight], [As an action], [Fill a 10-ft radius with heavy concealment; anyone inside is Hidden for 1 round. You may Vanish as part of this action.],
     [*Phantom Step*], [Adept], [1 Stealth, 1 Mind], [When you are hit by an attack], [You may Vanish immediately, before damage is applied. Once per scene.],
     [*Ghost*], [Master], [2 Stealth, 1 Mind], [When you Vanish successfully on a Strong stealth result], [You may remain invisible until the end of the encounter or until you attack. Your first attack from this extended Vanish deals +1 damage tier. Once per session.],
     [*Filch*], [Master], [2 Stealth, 1 Sleight], [As an action], [Steal one carried item from a target within 30 ft without a roll. Once per session.],

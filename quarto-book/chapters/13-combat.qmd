@@ -200,6 +200,7 @@ Conditions are the status effects that change how a creature behaves in combat. 
     [*Frightened*], [Cannot approach source], [Source duration],
     [*Frozen X*], [Incapacitated and takes X cold damage per round], [Spend an action to end],
     [*Grappled*], [Speed 0], [Escape action],
+    [*Hidden*], [Attacks against you have Bane], [You attack, or the concealment ends],
     [*Incapacitated*], [No actions], [Source duration],
     [*Invisible*], [Cannot be targeted directly], [Attack/action ends],
     [*Paralyzed*], [Incapacitated + auto-crit if hit], [Source duration],
@@ -217,6 +218,8 @@ Conditions are the status effects that change how a creature behaves in combat. 
   numbering: none,
 )
 #label("tbl-conditions")
+
+*Concealment.* Concealment is not a condition. It is the fiction of not being seen: smoke, darkness, undergrowth, a doorway, a bent corner. Concealment is what lets you become Hidden (Table 13.3), and heavy concealment is thick enough to hide in without needing anything else.
 
 #pagebreak()
 
