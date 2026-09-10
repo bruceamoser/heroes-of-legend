@@ -15,7 +15,7 @@ Building a hero takes about twenty minutes if you know what you want, or a pleas
 ::: {.callout-note}
 ## Two-Phase Creation
 
-Heroes of Legend uses a two-phase creation system. You build your hero's background first (Level 0, who they were before adventure called), then layer on their class training (Level 1, who they've become). Each phase has its own pool of Development Points. You spend them all or lose them, no banking. This isn't a spreadsheet. It's a story.
+Heroes of Legend uses a two-phase creation system. You build your hero's background first (Level 0, who they were before adventure called), then layer on their class training (Level 1, who they've become). Each phase has its own pool of Development Points. You spend them all or lose them, no banking at creation. Carry-over is a level-up thing, not a creation one. This isn't a spreadsheet. It's a story.
 :::
 
 ::: {.callout-tip}
@@ -370,7 +370,7 @@ Total: 8 DP. All spent.
 
 Total: 9 DP. All spent.
 
-**Class:** Shepherd. Gains 1 Protection, 1 Animal. Signature: **Turn Unholy**, divine energy ignores armor, affects only undead.
+**Class:** Shepherd. Gains 1 Protection, 1 Animal. Signature: **Unholy Word**, divine energy ignores armor, affects only undead.
 
 **Class DP (8 DP):**
 
@@ -446,7 +446,7 @@ Total: 8 DP. All spent.
 
 Total: 7 DP. All spent.
 
-**Class:** Blade. Gains 1 Blades, 1 Stealth. Signature: **Swift Blade**, use Agility instead of Brawn for blade attacks. Gains **Precise Stab**, bonus damage on opening strike.
+**Class:** Blade. Gains 1 Blades, 1 Stealth. Signature: **Swift Blade**, use Agility instead of Brawn for blade attacks; exploiting an opening (a target that is Dazed, Prone, or unaware of you) deals +1 damage tier, once per scene.
 
 **Class DP (8 DP):**
 
