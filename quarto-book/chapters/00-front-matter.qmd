@@ -1,18 +1,18 @@
-
+```{=typst}
 Version 0.1.0 (Draft Build {{< meta date >}})
 
----
+#horizontalrule
 
-*Written by:* Bruce A. Moser
+_Written by:_ Bruce A. Moser
 
-*Playtesters:* TBD
+_Playtesters:_ TBD
 
-*Layout and Design:* TBD
-*Cover Art:* TBD
-*Interior Art:* Bruce A. Moser
-*Editing:* TBD
+_Layout and Design:_ TBD
+_Cover Art:_ TBD
+_Interior Art:_ Bruce A. Moser
+_Editing:_ TBD
 
----
+#horizontalrule
 
 © 2024-2026 Bruce A. Moser. All rights reserved.
 
@@ -26,30 +26,31 @@ First printing: TBD
 Printed in TBD
 
 
-{{< pagebreak >}}
+#pagebreak()
 
-![](assets/images/page001-img001.png){width="60%"}
+#image("assets/images/page001-img001.png", width: 60%)
 
-*Illustration 1: Cover art for Heroes of Legend. Placeholder; final art TBD. Dimensions: 1308×1693.*
+_Illustration 1: Cover art for Heroes of Legend. Placeholder; final art TBD. Dimensions: 1308×1693._
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Credits
+== Credits
 
-**Game Design & Development:** Bruce A. Moser
+*Game Design & Development:* Bruce A. Moser
 
-**Writing:** Bruce A. Moser
+*Writing:* Bruce A. Moser
 
-**Interior Illustrations:** Bruce A. Moser
+*Interior Illustrations:* Bruce A. Moser
 
-**Playtest Coordination:** TBD
+*Playtest Coordination:* TBD
 
-**Additional Design Contributions:** TBD
+*Additional Design Contributions:* TBD
 
-**Special Thanks:** The playtest groups who broke the game in ways we never expected and made it better every time. The convention DAs who ran *Heroes of Legend* for strangers and came back with stories. And the players who looked at a rule and said, "What if I tried this instead?" You are why this book exists.
+*Special Thanks:* The playtest groups who broke the game in ways we never expected and made it better every time. The convention DAs who ran _Heroes of Legend_ for strangers and came back with stories. And the players who looked at a rule and said, "What if I tried this instead?" You are why this book exists.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Dedication
+== Dedication
 
-*For everyone who ever rolled dice in a basement, a kitchen, a convention hall, or a voice call with friends a thousand miles away. The table is wherever you bring it.*
+_For everyone who ever rolled dice in a basement, a kitchen, a convention hall, or a voice call with friends a thousand miles away. The table is wherever you bring it._
+```
