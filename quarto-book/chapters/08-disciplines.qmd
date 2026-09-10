@@ -2,213 +2,267 @@
 
 ```{=typst}
 #label("sec-chapter-disciplines")
-```
 
-<!-- Rationale: Chapter opener at 80% width: a shepherd tending magical creatures in a peaceful glade, representing the discipline of care and guidance. -->
-![Placeholder: A shepherd tending to magical creatures in a peaceful glade, representing the discipline of care and guidance.](../assets/images/placeholder-ch08-disciplines.png){width=80%}
+// Rationale: Chapter opener at 80% width: a shepherd tending magical creatures in a peaceful glade, representing the discipline of care and guidance.
+#figure(image("assets/images/placeholder-ch08-disciplines.png", width: 80%),
+  caption: [Placeholder: A shepherd tending to magical creatures in a peaceful glade, representing the discipline of care and guidance.],
+)
 
+#pagebreak()
 
-{{< pagebreak >}}
+Disciplines are the signature mechanic of _Heroes of Legend._ They're how the game knows what your hero has mastered. Not just skills, _domains of power._ Fire. Blades. Protection. The forces and forms your character has attuned to through training, study, or sheer stubborn repetition.
 
-Disciplines are the signature mechanic of *Heroes of Legend.* They're how the game knows what your hero has mastered. Not just skills, *domains of power.* Fire. Blades. Protection. The forces and forms your character has attuned to through training, study, or sheer stubborn repetition.
+Here's the important part: *Disciplines are prerequisites, not rolls.* You don't roll your Fire Discipline. You don't add your Blades Discipline to an attack. Disciplines are the gate, you need them to _unlock_ abilities and spells. Skills are exempt, they have no Discipline prerequisites at all (@sec-chapter-skills). Once you've got them, they represent permanent mastery. No expiration. No forgetting.
 
-Here's the important part: **Disciplines are prerequisites, not rolls.** You don't roll your Fire Discipline. You don't add your Blades Discipline to an attack. Disciplines are the gate, you need them to *unlock* abilities and spells. Skills are exempt, they have no Discipline prerequisites at all (@sec-chapter-skills). Once you've got them, they represent permanent mastery. No expiration. No forgetting.
+#pagebreak()
 
-{{< pagebreak >}}
-
-## What Are Disciplines?
+== What Are Disciplines?
 
 A Discipline represents a domain of expertise or power your hero has internalized. It's the difference between "I picked up a sword once" and "I've trained with blades for ten years." Between "I read a book about fire" and "Fire answers when I call."
 
-**Example:** A warrior with 3 Blade Disciplines has spent years mastering swords, every angle, every grip, every weakness in every guard. A mage with 3 Fire Disciplines doesn't just cast flames, they *understand* flame, the way a shipwright understands wood. A ranger with 2 Animal Disciplines has bonded with the wild in ways city-folk will never comprehend.
+*Example:* A warrior with 3 Blade Disciplines has spent years mastering swords, every angle, every grip, every weakness in every guard. A mage with 3 Fire Disciplines doesn't just cast flames, they _understand_ flame, the way a shipwright understands wood. A ranger with 2 Animal Disciplines has bonded with the wild in ways city-folk will never comprehend.
 
-You *collect* them. They're permanent markers on your character sheet that say: "I've earned this."
+You _collect_ them. They're permanent markers on your character sheet that say: "I've earned this."
 
-{{< pagebreak >}}
+#pagebreak()
 
-## The Discipline Taxonomy
+== The Discipline Taxonomy
 
-| Category | Discipline | Represents |
-|----------|-----------|------------|
-| **Elemental** | **Fire** | Flame, heat, passion, destruction |
-| | **Earth** | Stone, stability, endurance, crafting |
-| | **Wind** | Air, speed, storms, precision |
-| | **Water** | Ice, flow, healing, adaptation |
-| **Weapon** | **Blades** | Swords, daggers, finesse and precision |
-| | **Axes** | Axes, cleavers, brutal chopping power |
-| | **Polearms** | Spears, halberds, reach and control |
-| | **Archery** | Bows, crossbows, ranged precision |
-| | **Heavy Weapon** | Greatswords, greataxes, mauls, two-handed power |
-| | **Unarmed** | Fists, gauntlets, grappling, close-quarters combat |
-| **Defense** | **Protection** | Shields, warding, guarding allies |
-| | **Armor** | Heavy armor proficiency, damage soaking |
-| **Primal** | **Animal** | Beasts, nature, shapeshifting, instinct |
-| | **Plants** | Flora, growth, thorns, verdant magic |
-| **Arcane** | **Energy** | Raw magical force, metamagic, spellcraft |
-| **Divine** | **Life** | Healing, vitality, living things |
-| | **Religion** | Faith, blessings, holy power |
-| **Esoteric** | **Mind** | Psionics, illusions, mental influence |
-| | **Summon** | Calling, binding, conjuring creatures |
-| **Subterfuge** | **Stealth** | Hiding, moving unseen, ambush, silence |
-| | **Sleight** | Locks, traps, pockets, delicate theft |
-| **Knowledge** | **Lore** | Scholarship, history, arcana, ancient secrets |
-| | **Tactics** | Strategy, command, reading the battlefield |
+#figure(
+  align(center)[#table(
+    columns: (30.30%, 33.33%, 36.36%),
+    align: (auto, auto, auto,),
+    table.header([Category], [Discipline], [Represents],),
+    [*Elemental*], [*Fire*], [Flame, heat, passion, destruction],
+    [], [*Earth*], [Stone, stability, endurance, crafting],
+    [], [*Wind*], [Air, speed, storms, precision],
+    [], [*Water*], [Ice, flow, healing, adaptation],
+    [*Weapon*], [*Blades*], [Swords, daggers, finesse and precision],
+    [], [*Axes*], [Axes, cleavers, brutal chopping power],
+    [], [*Polearms*], [Spears, halberds, reach and control],
+    [], [*Archery*], [Bows, crossbows, ranged precision],
+    [], [*Heavy Weapon*], [Greatswords, greataxes, mauls, two-handed power],
+    [], [*Unarmed*], [Fists, gauntlets, grappling, close-quarters combat],
+    [*Defense*], [*Protection*], [Shields, warding, guarding allies],
+    [], [*Armor*], [Heavy armor proficiency, damage soaking],
+    [*Primal*], [*Animal*], [Beasts, nature, shapeshifting, instinct],
+    [], [*Plants*], [Flora, growth, thorns, verdant magic],
+    [*Arcane*], [*Energy*], [Raw magical force, metamagic, spellcraft],
+    [*Divine*], [*Life*], [Healing, vitality, living things],
+    [], [*Religion*], [Faith, blessings, holy power],
+    [*Esoteric*], [*Mind*], [Psionics, illusions, mental influence],
+    [], [*Summon*], [Calling, binding, conjuring creatures],
+    [*Subterfuge*], [*Stealth*], [Hiding, moving unseen, ambush, silence],
+    [], [*Sleight*], [Locks, traps, pockets, delicate theft],
+    [*Knowledge*], [*Lore*], [Scholarship, history, arcana, ancient secrets],
+    [], [*Tactics*], [Strategy, command, reading the battlefield],
+  )],
+  kind: table,
+  numbering: none,
+  outlined: false,
+)
 
 Twenty-three Disciplines. Nine categories. Your hero's path through them defines everything they can do.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Acquiring Disciplines
+== Acquiring Disciplines
 
-### Starting Disciplines
+=== Starting Disciplines
 
 Your starting Disciplines come from your ancestry (1), your culture (2, or 1 for free-choice cultures), and your class (see the Class Disciplines table below).
 
-### Class Disciplines
+=== Class Disciplines
 
 Your class hands you specific Disciplines at creation. These are your foundation, what your training, tradition, or sheer talent has already taught you:
 
-| Class | Starting Disciplines |
-|-------|---------------------|
-| Protector | 1 any Weapon + 1 Armor |
-| Blade | 1 Blades + 1 Stealth |
-| Arcanist | 1 Fire + 1 Energy |
-| Shepherd | 1 Protection + 1 Animal |
-| Intellect | 1 Lore + 1 any |
-| Odd | 2 of any type, different categories |
-| Leader | 1 Tactics + 1 Protection |
-| Unbalanced | 1 Fire + 1 Water (or Earth/Wind) |
-| Shadow | 1 Stealth + 1 Sleight |
+#figure(
+  align(center)[#table(
+    columns: (25%, 75%),
+    align: (auto, auto,),
+    table.header([Class], [Starting Disciplines],),
+    [Protector], [1 any Weapon + 1 Armor],
+    [Blade], [1 Blades + 1 Stealth],
+    [Arcanist], [1 Fire + 1 Energy],
+    [Shepherd], [1 Protection + 1 Animal],
+    [Intellect], [1 Lore + 1 any],
+    [Odd], [2 of any type, different categories],
+    [Leader], [1 Tactics + 1 Protection],
+    [Unbalanced], [1 Fire + 1 Water (or Earth/Wind)],
+    [Shadow], [1 Stealth + 1 Sleight],
+  )],
+  kind: table,
+  numbering: none,
+  outlined: false,
+)
 
 Starting disciplines from ancestry, culture, and class are always rank 1. When two fixed grants hand you the same Discipline, the second is explicit waste: no rank up, no extra Development Points, just a reminder of where you came from. Gorma the dwarf takes Axes from her bloodline and Axes again from her mountain, and she is still rank 1. You may not spend both discretionary picks on the same discipline to start with rank 2. You may deepen a Discipline you already have to rank 2 (2 same) with Background DP at creation, per @sec-chapter-character-creation. Depth beyond rank 2 comes from progression picks at levels 3, 6, and 9.
 
-### Progression
+=== Progression
 
 At levels 3, 6, and 9, you gain one additional Discipline of your choice. Class-favored Disciplines, the ones your class gave you at creation, are always available. Cross-class Disciplines may require narrative justification or story events. Want your Blade to pick up Fire? Make it a story. Find a mentor. Touch a primordial flame. Earn it.
 
-### Magic Items
+=== Magic Items
 
-Magic items may grant temporary Disciplines while attuned or wielded. A *Blade of the Last Ember* grants Fire rank 1 while you wield it. Set it down, lose the power. These items are treasures, and the DA should make you work for them.
+Magic items may grant temporary Disciplines while attuned or wielded. A _Blade of the Last Ember_ grants Fire rank 1 while you wield it. Set it down, lose the power. These items are treasures, and the DA should make you work for them.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Disciplines as Prerequisites
+== Disciplines as Prerequisites
 
 Abilities, talents, and spells require specific Disciplines before you can learn them. No Disciplines, no purchase. It's that simple. Skills are the one exception, they have no Discipline prerequisites at all (@sec-chapter-skills).
 
-| Ability/Spell | Disciplines Required | Tier |
-|--------------|---------------------|------|
-| Brimstone Burst | 2 Fire | Adept |
-| Pillar of Light | 2 Religion | Adept |
-| Shield Slam | 2 Armor | Adept |
-| Force Dart | 1 Energy | Novice |
-| Beast Tongue | 1 Animal | Novice |
+#figure(
+  align(center)[#table(
+    columns: (34.15%, 51.22%, 14.63%),
+    align: (auto, auto, auto,),
+    table.header([Ability/Spell], [Disciplines Required], [Tier],),
+    [Brimstone Burst], [2 Fire], [Adept],
+    [Pillar of Light], [2 Religion], [Adept],
+    [Shield Slam], [2 Armor], [Adept],
+    [Force Dart], [1 Energy], [Novice],
+    [Beast Tongue], [1 Animal], [Novice],
+  )],
+  kind: table,
+  numbering: none,
+  outlined: false,
+)
 
-## The Discipline Ladder
+== The Discipline Ladder
 
 Every card (spell, ability, skill) follows a three-tier ladder. The higher you climb, the more Disciplines you need, the bigger the payoff. The tier of a card equals the number of Disciplines it requires as prerequisites: Novice = 1, Adept = 2, Master = 3.
 
-### Card Costs (Flat)
+=== Card Costs (Flat)
 
 Cards cost Development Points at a flat rate regardless of class:
 
-| Tier | Card DP Cost | Discipline Prerequisites | Level Gate |
-|------|-------------|------------------------|------------|
-| **Novice** | 2 DP | 1 rank in any one Discipline | None (Level 1) |
-| **Adept** | 4 DP | 2 Discipline ranks (see shapes below) | Level 3 |
-| **Master** | 8 DP | 3 Discipline ranks (see shapes below) | Level 7 |
+#figure(
+  align(center)[#table(
+    columns: (10.91%, 23.64%, 43.64%, 21.82%),
+    align: (auto, auto, auto, auto,),
+    table.header([Tier], [Card DP Cost], [Discipline Prerequisites], [Level Gate],),
+    [*Novice*], [2 DP], [1 rank in any one Discipline], [None (Level 1)],
+    [*Adept*], [4 DP], [2 Discipline ranks (see shapes below)], [Level 3],
+    [*Master*], [8 DP], [3 Discipline ranks (see shapes below)], [Level 7],
+  )],
+  kind: table,
+  numbering: none,
+  outlined: false,
+)
 
-### Discipline Rank Costs (Per Class)
+=== Discipline Rank Costs (Per Class)
 
 Each class pays a different price for each Discipline rank depending on how aligned that discipline is with the class's identity. See @sec-chapter-classes for each class's Discipline cost table. The four cost structures are:
 
-| Cost Structure | Rank 1 | Rank 2 | Rank 3 | Meaning |
-|---------------|--------|--------|--------|---------|
-| **Home** | 1 DP | 2 DP | 4 DP | Favored: core to the class identity |
-| **Adjacent** | 2 DP | 4 DP | 8 DP | Related but not core |
-| **Foreign** | 3 DP | 6 DP | 12 DP | Unrelated to the class |
-| **Opposed** | 4 DP | 8 DP | 16 DP | Out of class: antithetical to the class |
+#figure(
+  align(center)[#table(
+    columns: (31.25%, 16.67%, 16.67%, 16.67%, 18.75%),
+    align: (auto, auto, auto, auto, auto,),
+    table.header([Cost Structure], [Rank 1], [Rank 2], [Rank 3], [Meaning],),
+    [*Home*], [1 DP], [2 DP], [4 DP], [Favored: core to the class identity],
+    [*Adjacent*], [2 DP], [4 DP], [8 DP], [Related but not core],
+    [*Foreign*], [3 DP], [6 DP], [12 DP], [Unrelated to the class],
+    [*Opposed*], [4 DP], [8 DP], [16 DP], [Out of class: antithetical to the class],
+  )],
+  kind: table,
+  numbering: none,
+  outlined: false,
+)
 
-### Total Cost of a Card
+=== Total Cost of a Card
 
 The total cost of a card = its flat card DP cost + the sum of the discipline rank costs from your class's structure for each required discipline.
 
-::: {.callout-note}
-## Worked Total-Cost Example: Ember Lance vs Brimstone Burst
-
+#callout(type: "note", title: "Worked Total-Cost Example: Ember Lance vs Brimstone Burst", body: [
 The flat card DP cost is only part of the price. You also pay rank costs for any required disciplines you do not already possess.
 
-**Ember Lance (Novice, 1 Fire):**
-- **Protector** pays flat 2 DP + Fire rank 1 at Opposed cost (4 DP) = **6 DP total**.
-- **Arcanist** pays flat 2 DP + Fire rank 1 at Home (1 DP) = **3 DP total**.
+*Ember Lance (Novice, 1 Fire):*
++ *Protector* pays flat 2 DP + Fire rank 1 at Opposed cost (4 DP) = *6 DP total*.
++ *Arcanist* pays flat 2 DP + Fire rank 1 at Home (1 DP) = *3 DP total*.
 
-**Brimstone Burst (Adept, 2 Fire):**
-- **Protector** (no existing Fire) pays flat 4 DP + Fire rank 1 at Opposed (4 DP) + Fire rank 2 at Opposed (8 DP) = **16 DP total**.
-- **Arcanist** (already has Fire rank 1 from creation) pays flat 4 DP + Fire rank 2 at Home (2 DP) = **6 DP total**. If the Arcanist did not have Fire rank 1 yet, the total would be flat 4 + rank 1 (1 DP) + rank 2 (2 DP) = **7 DP**.
+*Brimstone Burst (Adept, 2 Fire):*
++ *Protector* (no existing Fire) pays flat 4 DP + Fire rank 1 at Opposed (4 DP) + Fire rank 2 at Opposed (8 DP) = *16 DP total*.
++ *Arcanist* (already has Fire rank 1 from creation) pays flat 4 DP + Fire rank 2 at Home (2 DP) = *6 DP total*. If the Arcanist did not have Fire rank 1 yet, the total would be flat 4 + rank 1 (1 DP) + rank 2 (2 DP) = *7 DP*.
 
 The same card can cost wildly different amounts depending on your class and what you already know. Build accordingly.
-:::
+])
 
-### Prereq Shapes
+=== Prereq Shapes
 
-The number of disciplines required is fixed by tier (1/2/3). The *composition* of those disciplines has shapes:
+The number of disciplines required is fixed by tier (1/2/3). The _composition_ of those disciplines has shapes:
 
-| Tier | Disciplines Required | Possible Shapes |
-|------|---------------------|-----------------|
-| **Novice** | 1 | 1 of any discipline |
-| **Adept** | 2 | 2 different, or 2 ranks in the same discipline |
-| **Master** | 3 | 3 different, or 2 same + 1 different, or 3 same |
+#figure(
+  align(center)[#table(
+    columns: (13.64%, 47.73%, 38.64%),
+    align: (auto, auto, auto,),
+    table.header([Tier], [Disciplines Required], [Possible Shapes],),
+    [*Novice*], [1], [1 of any discipline],
+    [*Adept*], [2], [2 different, or 2 ranks in the same discipline],
+    [*Master*], [3], [3 different, or 2 same + 1 different, or 3 same],
+  )],
+  kind: table,
+  numbering: none,
+  outlined: false,
+)
 
 A card requiring 1 Fire is Novice. A card requiring 2 Fire is Adept. A card requiring 3 Fire is Master. A card requiring 2 Fire + 1 Earth is Master (total 3 ranks). A hero's maximum in any single discipline is 3 ranks.
 
 Tier shapes describe CARDS. Weapons may list their own Discipline combos as entry requirements (a Dagger needs 1 Blades, a Longsword 2 Blades, a Greatsword 2 Blades + 1 Heavy Weapon, @sec-chapter-equipment); a card's tier is separate from its weapon's entry requirement.
 
-### No-Prereq Basics
+=== No-Prereq Basics
 
-Some basic Novice cards (cantrips, basic utility skills) have **no Discipline requirement** and cost only the flat card price (2 DP). These represent minor talents anyone can pick up: a spark of flame too small to harm, a knack for reading a room, a trick of sleight of hand. Adept and Master cards **always** require Disciplines. There are no shortcuts to real power.
+Some basic Novice cards (cantrips, basic utility skills) have *no Discipline requirement* and cost only the flat card price (2 DP). These represent minor talents anyone can pick up: a spark of flame too small to harm, a knack for reading a room, a trick of sleight of hand. Adept and Master cards *always* require Disciplines. There are no shortcuts to real power.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Damage Budget {#sec-damage-budget}
+== Damage Budget
+#label("sec-damage-budget")
 
-Every damaging spell, ability, and maneuver in *Heroes of Legend* is built on a single table. This is the balance spine. Spells are the guide; everything else keys off them.
+Every damaging spell, ability, and maneuver in _Heroes of Legend_ is built on a single table. This is the balance spine. Spells are the guide; everything else keys off them.
 
-| Tier | Discipline Requirement | Damage (Weak / Standard / Strong) |
-|------|------------------------|-----------------------------------|
-| **Novice** | 1 Discipline | 2 / 4 / 6 |
-| **Adept** | 2 Disciplines | 6 / 9 / 12 |
-| **Master** | 3 Disciplines | 9 / 15 / 21 |
+#figure(
+  align(center)[#table(
+    columns: (9.23%, 36.92%, 53.85%),
+    align: (auto, auto, auto,),
+    table.header([Tier], [Discipline Requirement], [Damage (Weak / Standard / Strong)],),
+    [*Novice*], [1 Discipline], [2 / 4 / 6],
+    [*Adept*], [2 Disciplines], [6 / 9 / 12],
+    [*Master*], [3 Disciplines], [9 / 15 / 21],
+  )],
+  kind: table,
+  numbering: none,
+  outlined: false,
+)
 
-::: {.callout-note}
-## How to Read the Budget
-
+#callout(type: "note", title: "How to Read the Budget", body: [
 There is no damage roll. The outcome of your attack or casting roll (Weak, Standard, or Strong) determines your damage from the budget table. The hit roll is the damage roll.
 
 The numbers are flat damage points. A Novice Ember Lance deals 2 damage on a Weak result, 4 on Standard, 6 on Strong. An Adept Brimstone Burst deals 6/9/12. A Master card deals 9/15/21. These are flat numbers. No dice. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
 
 See @sec-chapter-arcane-spells and @sec-chapter-divine-spells for the full spell lists. See @sec-chapter-classes for class abilities keyed to this budget.
 
-Every damaging card states its expression in its damage line as either **Flat** or **Attribute-Scaled.**
+Every damaging card states its expression in its damage line as either *Flat* or *Attribute-Scaled.*
 
-**Flat** damage uses the budget row exactly as listed (Novice 2/4/6, Adept 6/9/12, Master 9/15/21). Arrows, missile ammunition, thrown weapons, most spells, and all monsters use flat damage. No attribute is added.
+*Flat* damage uses the budget row exactly as listed (Novice 2/4/6, Adept 6/9/12, Master 9/15/21). Arrows, missile ammunition, thrown weapons, most spells, and all monsters use flat damage. No attribute is added.
 
-**Attribute-Scaled** damage adds a keyed attribute to a base value, minimum 1 damage. For spells and abilities, the base is budget − 3 (Novice 1/2/3, Adept 3/6/9, Master 6/12/18), plus the card's stated attribute (e.g. "1/2/3 + Knowledge"). Melee weapons use their listed damage values and add Brawn (Finesse weapons use Agility instead of Brawn for attack and damage; class features such as the Blade's Swift Blade can extend that substitution to other weapons). Missile weapons and ammunition are flat.
+*Attribute-Scaled* damage adds a keyed attribute to a base value, minimum 1 damage. For spells and abilities, the base is budget − 3 (Novice 1/2/3, Adept 3/6/9, Master 6/12/18), plus the card's stated attribute (e.g. "1/2/3 + Knowledge"). Melee weapons use their listed damage values and add Brawn (Finesse weapons use Agility instead of Brawn for attack and damage; class features such as the Blade's Swift Blade can extend that substitution to other weapons). Missile weapons and ammunition are flat.
 
 Weapons follow the cards, not their own curve: an attack ability card carries the damage (see the Equipment chapter for what each weapon unlocks). Melee weapons add Brawn, Finesse weapons add Agility; missile and thrown weapons are flat.
-:::
+])
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Worked Example: Building a Fire Mage
+== Worked Example: Building a Fire Mage
 
 Sera wants to burn the world. She's an Arcanist. Her class gives her 1 Fire and 1 Energy at creation. Her ancestry and culture grant additional Disciplines as well.
 
-**Novice (Ember Lance):** Requires 1 Fire. Sera has 1 Fire. She qualifies immediately. Ember Lance costs 2 DP (flat card cost), and her Arcanist home cost for Fire rank 1 was already paid at creation. Ember Lance is hers on day one.
+*Novice (Ember Lance):* Requires 1 Fire. Sera has 1 Fire. She qualifies immediately. Ember Lance costs 2 DP (flat card cost), and her Arcanist home cost for Fire rank 1 was already paid at creation. Ember Lance is hers on day one.
 
-**Adept (Brimstone Burst):** Requires 2 Fire. Sera has 1 Fire, so she needs one more. At level 3 she takes Fire (now 2 Fire) and buys Brimstone Burst the moment the Adept gate opens. Most casters need several levels to reach Adept. Arcanists walk a shorter path to the flame.
+*Adept (Brimstone Burst):* Requires 2 Fire. Sera has 1 Fire, so she needs one more. At level 3 she takes Fire (now 2 Fire) and buys Brimstone Burst the moment the Adept gate opens. Most casters need several levels to reach Adept. Arcanists walk a shorter path to the flame.
 
-**Master (Ember Lance at Master rank):** Sera's Ember Lance, bought up to Master rank, deals 9/15/21 fire damage with Piercing 3 and a burning patch that deals 2 damage per round for 3 rounds. When the Master tier unlocks at level 7, she can take that rank. She could branch into Earth for a 3-Discipline Master card, Protection for defense, Animal for a familiar, or continue deepening her elemental mastery.
+*Master (Ember Lance at Master rank):* Sera's Ember Lance, bought up to Master rank, deals 9/15/21 fire damage with Piercing 3 and a burning patch that deals 2 damage per round for 3 rounds. When the Master tier unlocks at level 7, she can take that rank. She could branch into Earth for a 3-Discipline Master card, Protection for defense, Animal for a familiar, or continue deepening her elemental mastery.
 
 Seven levels to master the fire. Disciplines got her to Master. No shortcuts. No wildcards. Just the path, walked one step at a time.
 
 That's the Discipline system working as intended. Master spells should be achievable before your campaign's climax, but they should still mean something when you cast them. A Master-rank Ember Lance says "I built for this." When Sera's lance becomes a pillar of flame, everyone at the table knows she paid for it.
+```
