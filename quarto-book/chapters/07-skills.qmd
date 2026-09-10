@@ -63,7 +63,7 @@ When you attempt something with a meaningful chance of failure and consequence, 
   numbering: none,
 )
 
-*Totals of Zero or Less:* A final total of 0 or less is still Weak, and the DA adds one complication on top of it. The full tier rules, including the worked example for that case, live in @sec-chapter-core-resolution.
+*Totals of Zero or Less:* A final total of 0 or less is still Weak, and the DA adds one complication on top of it. The full tier rules, including the worked example for that case, live in @sec-chapter-core-resolution
 
 === Difficulty Modifiers
 
