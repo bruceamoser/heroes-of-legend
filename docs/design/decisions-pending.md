@@ -10,8 +10,8 @@ How it works:
 
 | # | Chapter | Concern / Question | Source | Status | Bruce's ruling |
 |---|---------|--------------------|--------|--------|----------------|
-| 1 | 05-classes | Ability pool fills (~10 cards per class) — queued content wave, seeds exist from #183 | Queue (pre-existing) | queued | Ruling 2026-08-14: queue now — dispatch as next content wave |
-| 2 | all | Final balance audit (full-book budget walk) | Queue (pre-existing) | queued | Ruling 2026-08-14: fold into walkthrough days — audit each chapter on its day |
+| 1 | 05-classes | Ability pool fills (~10 cards per class) — queued content wave, seeds exist from #183 | Queue (pre-existing) | resolved 2026-09-10 (verified complete - all 9 classes carry exactly 10 cards, 90 total; issue #281 closed) | Ruling 2026-08-14: queue now — dispatch as next content wave |
+| 2 | all | Final balance audit (full-book budget walk) | Queue (pre-existing) | open BY DESIGN - reconfirmed 2026-09-10 (Bruce): folded into the walkthrough, audited on each chapter's day, NOT a standalone sweep. Wave 2 at 10/25 reviewed; 15 chapters still pending. Revisit only if Wave 2 stalls. | Ruling 2026-08-14: fold into walkthrough days — audit each chapter on its day |
 | 3 | 07-skills | #260 weapon-skill families | Issue #260 | resolved | Ruling 2026-08-14: dispatch sweep as written (remap to Disciplines; 8 DP preserved) |
 | 4 | 02-character-creation | Dwarf build templates: armor/weapon inconsistency | Council (flagged) | resolved | Ruling 2026-08-14: template takes Axes from ancestry; culture table stands (accept 2-disc start) |
 | 5 | 09-talents-abilities | Corwin's Exploit Chaos — energy keying | Council (flagged) | implemented default 2026-08-14 | Ruling 2026-08-14: keyed to Mind, but follow-up check showed Mind AND Energy are unavailable at L0 (Unbalanced starts Fire+Water; Energy is Arcane). Corwin's template buys it at creation, so it must be usable at L0. Implemented default: No prereq (matches Improvised Solution convention) — veto to revert. |
