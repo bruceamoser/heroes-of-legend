@@ -1,0 +1,37 @@
+{
+  "id": "f-206",
+  "round": 1,
+  "role": "editor-in-chief",
+  "topic": "t-01",
+  "stance": "support",
+  "argument": "Chapter 7 is publishable. Structure is sound: the title is followed by three second-level sections (Skill Tiers, How Skills Work in Play, The 23 Skills), each with third-level subsections where the material needs them, and each of the three typst labels sits on the line after its heading. Cross-references resolve: the body's single @sec- link points at the Disciplines chapter, whose matching label is defined. The roster claim holds. The heading states 23 and a programmatic count of the five category tables returns exactly 23 rows (6/6/5/4/2), a name set identical to the ch22 quick-reference catalog with matching key attributes; every skill named in the ch05 favored-skill lines, the ch04 culture skill options, ch14 social prose and ch19 GM guidance exists here under the same name. Tier bonuses (+1/+2/+3), DP costs (2/4/8) and level gates (Adept L3, Master L7) match ch02, ch09 and ch18, and the difficulty ladder matches ch06. Both worked examples recompute to the tiers they assert. The one gap is non-blocking and narrow: the play section reproduces the success-tier table but drops ch06's clause covering totals at or below zero, and it never points readers to the core-resolution chapter, so that single case has no tier inside this chapter. Minimal fix: add a pointer to @sec-chapter-core-resolution, or extend the Weak row to cover a total of zero or less. No locked convention is broken and no dangling reference or count mismatch exists, so the chapter is acceptable as written with that queued fix.",
+  "evidence": [
+    {
+      "source": "07-skills",
+      "claim": "The roster-size claim is accurate: the heading and intro sentence state 23, and counting the five group tables yields exactly 23 skill rows (6 physical, 6 knowledge, 5 social, 4 subterfuge, 2 craft).",
+      "quote_or_excerpt": "Twenty-three skills, grouped into five categories."
+    },
+    {
+      "source": "07-skills",
+      "claim": "Only one cross-reference appears in the body, pointing to the Disciplines chapter, and that label is defined in ch08, so no dangling link exists.",
+      "quote_or_excerpt": "you need the right weapon Disciplines (@sec-chapter-disciplines)"
+    },
+    {
+      "source": "07-skills",
+      "claim": "The Skill in Action worked example is tier-correct on recomputation: with a net modifier of zero, totals of 9, 15 and 5 land at Standard, Strong and Weak as claimed.",
+      "quote_or_excerpt": "She rolls 4, 2, 3 (total 9, Standard)"
+    },
+    {
+      "source": "/home/bmoser/repos/heroes-of-legend/quarto-book/chapters/22-reference-sheets.qmd",
+      "claim": "The reference-sheet catalog mirrors this chapter exactly: the same 23 names in the same set with the same attribute keys, including the corrected Craft spelling.",
+      "quote_or_excerpt": "[*Craft*], [RE], [Smith, build, make things]"
+    },
+    {
+      "source": "/home/bmoser/repos/heroes-of-legend/quarto-book/chapters/06-core-resolution.qmd",
+      "claim": "ch07 faithfully reproduces ch06's tier and difficulty numbers, but omits ch06's rule for totals at or below zero and carries no pointer back to the resolution chapter, leaving that case undefined here.",
+      "quote_or_excerpt": "your final roll total is 0 or less, the result is Weak"
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": []
+}

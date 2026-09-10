@@ -1,0 +1,37 @@
+{
+  "id": "f-205",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Round-1 baseline support is that chapter 7 is internally consistent and publishable. I stress-tested the tier ladder (Master caps at +3, no stacking route above 18), the difficulty ladder against ch06 (six steps from +4 to -6, symmetric, names match), untrained use (attribute only, no penalty written, consistent with ch06 letting you add a skill only if you have one), the roster count (6 Physical + 6 Knowledge + 5 Social + 4 Subterfuge + 2 Craft = 23, equal to the heading 'The 23 Skills'), the craft-name drift flagged earlier (ch22 prints 'Craft', matching this chapter, so no drift remains), and the no-roll guidance. Those probes hold. One breaks. The roster keys Insight to Reason at [07-skills:187], but the number four other chapters actually roll for lie detection and surprise, passive Insight, is built from Knowledge plus seven (ch13:224, ch14:30, ch21:202). Chapter 7 defines no passive form at all. Concrete case: ch14's warden has passive Insight 13 from Knowledge +2 + 7, while the active check is 3d6 + Reason + rank (ch14:123). A player who follows the roster and dumps Knowledge to -2 to fund Reason +2 ends with the worst passive resistance at the table (5) while believing Insight was maxed; the same roster reading makes them well above average on active Insight. Because active checks use Reason (ch14:123, ch20:565) while the passive formula uses Knowledge in three chapters plus the glossary, one attribute cannot serve both, so the roster is incomplete rather than merely misnamed. Expected value: a single stated key for Insight plus a defined passive formula. Minimal fix: add a passive-Insight line to chapter 7 and reconcile the split, or rekey [07-skills:187] to Knowledge and correct the two active-check examples. Confidence is below certainty because the correct resolution (change the roster or change the mirrors) is a designer call.",
+  "evidence": [
+    {
+      "source": "07-skills:187",
+      "claim": "The authoritative roster assigns Insight a Reason key and never states a passive variant anywhere in the chapter.",
+      "quote_or_excerpt": "Reading people, detecting lies, intuition"
+    },
+    {
+      "source": "ch14-social-conflict:30",
+      "claim": "The social chapter labels Insight a Reason skill yet derives the passive number from Knowledge.",
+      "quote_or_excerpt": "Passive Insight is your Knowledge score + 7"
+    },
+    {
+      "source": "ch13-combat:224",
+      "claim": "Surprise is decided against a Knowledge-based passive Insight, so a Reason-built lurker gets no defensive benefit from the roster key.",
+      "quote_or_excerpt": "rolls Stealth opposed by the target's passive Insight"
+    },
+    {
+      "source": "ch21-glossary:202",
+      "claim": "The glossary codifies passive Insight as Knowledge plus seven, the third chapter to fix the Knowledge-based value.",
+      "quote_or_excerpt": "Calculated as Knowledge score + 7"
+    },
+    {
+      "source": "ch14-social-conflict:123",
+      "claim": "A worked example adds Reason and the Insight skill rank to an active check, so the active and passive keys demonstrably differ for one skill.",
+      "quote_or_excerpt": "3d6 + Reason (+1) + Insight Novice (+1)"
+    }
+  ],
+  "confidence": 0.7,
+  "rebutting": []
+}

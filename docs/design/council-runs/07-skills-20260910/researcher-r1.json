@@ -1,0 +1,42 @@
+{
+  "id": "f-201",
+  "round": 1,
+  "role": "researcher",
+  "topic": "t-01",
+  "stance": "support",
+  "argument": "The chapter's mechanics survive an evidence-first audit. A regex extraction of its five roster tables returns 23 rows, matching the count the chapter's own heading asserts, and every skill keys to one of the six attributes defined in ch03. The tier bonuses, DP costs, and unlock levels reproduce ch18's milestone table and ch22's cost reference, and the difficulty ladder reproduces ch06's canon rungs. Both worked examples recompute correctly: Makeva's three modifiers cancel to zero and her rolled totals of 9, 15, and 5 land in Standard, Strong, and Weak; Kael's shove roll is stated faithfully. A whole-book sweep found no phantom skill names and no drift against the ch22, ch05, ch14, or ch19 mirrors. The only deviation I found sits outside this mechanical lens: a Typst label-placement quirk at lines 23 and 131 that no other chapter shares and that does not affect any number.",
+  "evidence": [
+    {
+      "source": "07-skills",
+      "claim": "A programmatic regex extraction of the five roster tables returns exactly 23 skill rows, so the roster matches the 23 the chapter's own heading asserts and no row was lost.",
+      "quote_or_excerpt": "Twenty-three skills, grouped into five categories"
+    },
+    {
+      "source": "07-skills",
+      "claim": "Every skill keys to one of the six canonical attributes from ch03; none is off-list or misspelled.",
+      "quote_or_excerpt": "*Medicine*], [Reason]"
+    },
+    {
+      "source": "07-skills",
+      "claim": "The tier bonuses, DP costs, and unlock levels in the skill-tier table match ch18's milestone table and ch22's DP cost reference exactly.",
+      "quote_or_excerpt": "*Adept*], [+2], [4 DP], [Level 3]"
+    },
+    {
+      "source": "07-skills",
+      "claim": "All six difficulty rungs carry the same names and modifiers as ch06's canonical difficulty table.",
+      "quote_or_excerpt": "*Nearly Impossible*], [-6]"
+    },
+    {
+      "source": "07-skills",
+      "claim": "Makeva's worked example recomputes cleanly (modifiers cancel to zero; 9/15/5 map to Standard/Strong/Weak), as does Kael's shove roll.",
+      "quote_or_excerpt": "3d6 + 1 + 1 - 2"
+    },
+    {
+      "source": "reasoning",
+      "claim": "A book-wide grep of the chapter files found no skill named in prose that is absent from this roster, and the mirror chapters agree on every name and attribute.",
+      "quote_or_excerpt": "grep sweep of 25 chapter files; zero unmatched skill names"
+    }
+  ],
+  "confidence": 0.8,
+  "rebutting": []
+}

@@ -1,0 +1,37 @@
+{
+ "id": "f-202",
+ "round": 1,
+ "role": "game-architect",
+ "topic": "t-01",
+ "stance": "support",
+ "argument": "Mechanics audit returns the chapter sound. Each tier buys a larger roll bonus at a flat DP price of 2/4/8, and the level gates printed in the Skill Tiers table are the same gates ch18 uses, so no tier is a level-gated purchase that grants the buyer nothing. The difficulty ladder reproduces ch06's six difficulty names and their exact signed values, and the success-tier bands likewise agree with ch06 (1-8 / 9-14 / 15-18+). Roster integrity holds: the count asserted in the heading equals the physical number of skill rows, every row is keyed to one of ch03's six attributes spelled correctly, and both worked examples do their arithmetic correctly against the tiers as published. Cross-referencing the mirrors, every skill named as favored by the nine ch05 classes and every skill option offered by ch04's culture table resolves to an entry this roster contains; ch22's catalog lists the same 23 names with the same key attributes, so the earlier Craft/Crafting drift is now reconciled in the direction of this chapter. The one cross-chapter disagreement that touches a roster key is passive Insight, which ch13 and ch14 build from Knowledge while this chapter and ch22 key the Insight skill to Reason; that identifies a defect in the mirror chapters rather than a change this chapter requires. Verdict: the mechanic as written is internally consistent and canon-compliant, and I found no value that breaks.",
+ "evidence": [
+  {
+   "source": "quarto-book/chapters/07-skills.qmd:32-34; quarto-book/chapters/18-advancement.qmd:50,54",
+   "claim": "Skill tier level gates (Novice none/Level 1, Adept Level 3, Master Level 7) are identical to the advancement table's canon gates, so skill tiers reuse the same gates as disciplines and no tier is dead.",
+   "quote_or_excerpt": "[7], [3], [Master abilities unlock]"
+  },
+  {
+   "source": "quarto-book/chapters/07-skills.qmd:32-34,42; quarto-book/chapters/08-disciplines.qmd:144-146",
+   "claim": "Skill DP costs are Novice 2, Adept 4, Master 8, matching the card-cost ladder's flat prices and ch18's stated price of 8 DP for a Master-tier card.",
+   "quote_or_excerpt": "Novice 2 DP, Adept 4 DP, Master 8 DP"
+  },
+  {
+   "source": "quarto-book/chapters/07-skills.qmd:76-81; quarto-book/chapters/06-core-resolution.qmd:214-219",
+   "claim": "The Difficulty Modifiers table matches ch06 on both names and numbers: Trivial +4, Easy +2, Standard +0, Hard -2, Very Hard -4, Nearly Impossible -6.",
+   "quote_or_excerpt": "[-6], [Nearly Impossible]"
+  },
+  {
+   "source": "quarto-book/chapters/07-skills.qmd:129,133; quarto-book/chapters/22-reference-sheets.qmd:191-213",
+   "claim": "The heading's claimed skill count equals the actual 23 rows (6 Physical, 6 Knowledge, 5 Social, 4 Subterfuge, 2 Craft), and ch22's catalog mirrors all 23 with identical key attributes.",
+   "quote_or_excerpt": "Twenty-three skills, grouped into five categories"
+  },
+  {
+   "source": "quarto-book/chapters/05-classes.qmd:57,102,154,199,244,289,336,407,460; quarto-book/chapters/04-ancestries-cultures.qmd:120-156",
+   "claim": "Every favored skill listed for the nine classes, and every skill option in the culture bonus column, exists in this roster under exactly that name; no grant points at a skill the roster lacks.",
+   "quote_or_excerpt": "Favored Skills: Athletics, Endurance, Survival, Perception, Persuasion, Medicine"
+  }
+ ],
+ "confidence": 0.85,
+ "rebutting": []
+}

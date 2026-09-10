@@ -1,0 +1,42 @@
+{
+  "id": "f-204",
+  "round": 1,
+  "role": "author",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Chapter 7 is the book's source of record for skill names, yet the roster it publishes is not name-unique and the text never warns the reader. Three entries here are also Discipline labels catalogued in ch08 and ch22, and one of them, Parry, doubles as a ch09 Weapon Maneuver with its own damage-reduction and counterattack values, while this chapter keeps insisting that skills and Disciplines are different sorts of thing. The chapter also collides with itself: the Craft group heading sits directly above a Craft skill, and two detection skills are split apart, Insight filed under Social and Perception under Subterfuge, with no stated reason. Minimal fix: one disambiguating sentence in the roster introduction plus a renamed Craft heading; renaming the overlapping Disciplines or the ch09 maneuver is a larger condition, not a demand.",
+  "evidence": [
+    {
+      "source": "chapters/09-talents-abilities.qmd:386",
+      "claim": "A Weapon Maneuver of the same name as this skill exists in the abilities chapter, gated by two Blades Disciplines, and it grants flat DR and a counterattack; the roster version instead only adds its rank to a defense roll.",
+      "quote_or_excerpt": "=== Parry (Weapon Maneuver)"
+    },
+    {
+      "source": "chapters/07-skills.qmd:147,155",
+      "claim": "The Physical table defines Parry as a Brawn skill for blocking with a weapon or shield, and the attached note limits it to a roll bonus, never mentioning the identically named maneuver from ch09.",
+      "quote_or_excerpt": "Blocking attacks with a weapon or shield; requires one in hand"
+    },
+    {
+      "source": "chapters/08-disciplines.qmd:55-57",
+      "claim": "The Discipline catalog reuses roster words as Discipline names: Stealth, Sleight, Lore and Religion all appear as Disciplines, so the same term can mean a trained bonus or a gating discipline depending on the sentence.",
+      "quote_or_excerpt": "[*Subterfuge*], [*Stealth*], [Hiding, moving unseen, ambush, silence],"
+    },
+    {
+      "source": "chapters/07-skills.qmd:216,223",
+      "claim": "The group heading and one of its members are both called Craft, so the phrase to take Craft is ambiguous between the category and the skill inside it.",
+      "quote_or_excerpt": "[*Craft*], [Reason], [Smithing, woodworking, making things]"
+    },
+    {
+      "source": "chapters/07-skills.qmd:187,208",
+      "claim": "Insight and Perception are both Reason-keyed detection skills, but the roster files one under Social and the other under Subterfuge, leaving the grouping rationale unstated.",
+      "quote_or_excerpt": "[*Perception*], [Reason], [Spotting, noticing, sensing danger]"
+    },
+    {
+      "source": "chapters/07-skills.qmd:17",
+      "claim": "The chapter twice states that a skill grants no permission of its own and that Disciplines do the gating, which makes the reuse of Discipline words as skill labels especially confusing.",
+      "quote_or_excerpt": "A skill never unlocks a weapon, a spell, or an ability."
+    }
+  ],
+  "confidence": 0.7,
+  "rebutting": []
+}

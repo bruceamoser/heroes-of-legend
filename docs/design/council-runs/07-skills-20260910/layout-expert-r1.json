@@ -1,0 +1,42 @@
+{
+ "id": "f-203",
+ "round": 1,
+ "role": "layout-expert",
+ "topic": "t-01",
+ "stance": "refute",
+ "argument": "Negative modifiers in this chapter are typed with the plain ASCII hyphen, so the build prints them two different ways. The difficulty table and both worked examples spell negative values with U+002D [07-skills:79-81, 101, 117]; the book's established glyph, set by the ch06 minus fix and now used throughout ch06 and ch13, is U+2212. PDF page 134 shows the damage inside one sentence of the first example: the parenthesised penalty prints a hyphen while the same modifier later in that sentence prints a true minus, and the arithmetic in the second example (page 135) prints hyphens. Minimal fix: retype the four numeric hyphens as U+2212 and leave the tier-range hyphens (1-8, 9-14, 15-18+) untouched. Separately, the tail of the second example overflows past the pagebreak at [07-skills:119], so page 135 carries only three lines of prose and page 136 carries only the midpoint illustration, wasting most of two pages.",
+ "evidence": [
+  {
+   "source": "07-skills.qmd:79-81",
+   "claim": "The difficulty table types its negative modifiers as ASCII hyphen-minus rather than a minus sign.",
+   "quote_or_excerpt": "[*Hard*], [-2], [Picking a complex lock in the dark."
+  },
+  {
+   "source": "07-skills.qmd:101",
+   "claim": "The first worked example spells its penalty and its modifier sum with a plain hyphen.",
+   "quote_or_excerpt": "+1 (Agility) +1 (skill) -2 (difficulty) = 0."
+  },
+  {
+   "source": "07-skills.qmd:117",
+   "claim": "The second worked example writes its difficulty penalty and its arithmetic with plain hyphens.",
+   "quote_or_excerpt": "He rolls 3d6 + 1 + 1 - 2."
+  },
+  {
+   "source": "Heroes-of-Legend.pdf p.134 (build output, built 2026-09-10)",
+   "claim": "One paragraph renders a penalty as a hyphen and the later identical modifier as U+2212, confirmed by pdfminer character extraction.",
+   "quote_or_excerpt": "(-2): the lock is quality dwarven work"
+  },
+  {
+   "source": "06-core-resolution.qmd:91-93, 138",
+   "claim": "The canon precedent uses the true minus glyph for negative modifiers, while this chapter contains none.",
+   "quote_or_excerpt": "3d6 + Agility modifier \u2212 Challenge"
+  },
+  {
+   "source": "Heroes-of-Legend.pdf p.135 (build output, built 2026-09-10)",
+   "claim": "Only three lines of the second example reach page 135 before the pagebreak pushes the illustration to page 136.",
+   "quote_or_excerpt": "1 + 1 - 2. The +1 from Athletics"
+  }
+ ],
+ "confidence": 0.72,
+ "rebutting": []
+}

@@ -1,0 +1,87 @@
+{
+  "id": "f-207",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Verdict: Chapter 7 must change before release, though no defect touches a published value. I re-derived the roster myself: 23 rows across five groups, six attributes spelled exactly as ch03 lists them, tier bonuses of one, two, and three at flat costs of two, four, and eight points with the level-three and level-seven gates, the six-rung difficulty ladder, and both worked examples. All of it recomputes, so the numeric ground the other members cleared stays cleared. The load-bearing defects are four: an undocumented passive form of Insight whose attribute disagrees with the roster key; no rule for a final total of zero or less; two section labels placed one line too low; and a chapter whose source contains no true-minus character at all, so penalties print two ways. I rule on the two contested claims in the evidence. On the first, the contrarian is right in substance and off in one citation: Insight is keyed to Reason here, active checks in two other chapters spend Reason, yet the passive number is Knowledge-based in four canon lines, and I resolved the flagged arithmetic against the file. On the second, the author is right on every sub-claim, and the collision is wider than filed. Disposition plan, tiered for same-day execution. TIER 1, mechanical and chapter-local, no mechanic moves: (a) remove the blank line so the two section labels sit immediately under their headings, matching the pacing the sampled chapters use; (b) retype the numeric negations in the three difficulty rows and the two example lines as the true minus, leaving the tier-range hyphens alone; (c) restore the sub-zero case, either by widening the Weak band or by pointing readers at the resolution chapter. TIER 2, substantive, needing prose or cross-chapter reconciliation: (d) add a passive-form sentence beside the Insight row so the source-of-record chapter states both keys; (e) insert one disambiguating sentence in the roster introduction separating skill names from Discipline and maneuver names, and rename the Craft group heading, which currently duplicates the Craft skill directly beneath it. TIER 3, design-flavored, anchored on the locked attribute list and book convention, veto-able: (f) choose which attribute governs passive Insight; my default keeps the passive number Knowledge-based because four canon lines plus the glossary already fix it, keeps the active key Reason, and documents the split in this chapter in one sentence, while the alternative rekeys the passive form and forces edits in three other chapters, so it is the lead designer's call; (g) rule whether the Parry skill or the Parry maneuver gets renamed, my default being to keep both names and let the Tier 2 sentence carry the distinction. No Tier 3 item blocks a build.",
+  "evidence": [
+    {
+      "source": "quarto-book/chapters/07-skills.qmd:133-224",
+      "claim": "A programmatic row extraction returns exactly 23 skill entries in the groups 6/6/5/4/2, matching the count the chapter's own heading asserts, and every row keys to one of the six canonical attributes.",
+      "quote_or_excerpt": "Twenty-three skills, grouped into five categories"
+    },
+    {
+      "source": "quarto-book/chapters/07-skills.qmd:187",
+      "claim": "The roster's Insight entry is keyed to Reason and the chapter states no passive variant anywhere.",
+      "quote_or_excerpt": "Reading people, detecting lies, intuition"
+    },
+    {
+      "source": "quarto-book/chapters/14-social-conflict.qmd:30",
+      "claim": "The social chapter labels Insight a Reason skill in the same sentence that derives the passive number from Knowledge plus seven.",
+      "quote_or_excerpt": "Passive Insight is your Knowledge score + 7"
+    },
+    {
+      "source": "quarto-book/chapters/13-combat.qmd:224,508",
+      "claim": "Surprise is resolved against a Knowledge-based passive Insight, and a worked instance prints seven for a character with zero Knowledge.",
+      "quote_or_excerpt": "opposed by the target's passive Insight"
+    },
+    {
+      "source": "quarto-book/chapters/21-glossary.qmd:202",
+      "claim": "The glossary defines passive Insight as Knowledge plus seven, a third chapter fixing the Knowledge-based value.",
+      "quote_or_excerpt": "Calculated as Knowledge score + 7"
+    },
+    {
+      "source": "quarto-book/chapters/14-social-conflict.qmd:111,121",
+      "claim": "Resolving the flagged arithmetic: the first example prints 13 where its own parenthesis of Knowledge +2 and base 7 gives 9, and the second prints 11 where Knowledge 0 and base 7 gives 7, so both numerals exceed the stated formula by four and are defects in ch14 itself.",
+      "quote_or_excerpt": "Knowledge +2, base 7"
+    },
+    {
+      "source": "quarto-book/chapters/14-social-conflict.qmd:123",
+      "claim": "An active Insight check adds Reason plus the skill rank, so active and passive demonstrably use different attributes for one skill.",
+      "quote_or_excerpt": "3d6 + Reason (+1) + Insight Novice (+1)"
+    },
+    {
+      "source": "quarto-book/chapters/07-skills.qmd:147; quarto-book/chapters/09-talents-abilities.qmd:386-398",
+      "claim": "A Brawn Parry skill granting a blocking bonus and a two-Blades reaction maneuver named Parry with damage reduction and a counterattack are two different mechanics sharing one name, and a third chapter rolls the skill form.",
+      "quote_or_excerpt": "Parry (Weapon Maneuver)"
+    },
+    {
+      "source": "quarto-book/chapters/08-disciplines.qmd:52,55-57",
+      "claim": "Four Discipline labels duplicate roster skill names, and the Discipline catalog's category names also reuse two of this chapter's group names, so the collision set is larger than the author filed.",
+      "quote_or_excerpt": "Locks, traps, pockets, delicate theft"
+    },
+    {
+      "source": "quarto-book/chapters/07-skills.qmd:216,223",
+      "claim": "The Craft group heading directly duplicates the Craft skill row beneath it, so the phrase to take Craft is ambiguous between category and skill.",
+      "quote_or_excerpt": "Smithing, woodworking, making things"
+    },
+    {
+      "source": "quarto-book/chapters/07-skills.qmd:23,131 vs 08-disciplines.qmd:218-219, 13-combat.qmd:230-231, 18-advancement.qmd:112-113",
+      "claim": "This chapter's two section labels sit a blank line below their headings, whereas the sampled chapters place the label on the line immediately after the heading; the editor's assertion that all three labels sit on the next line is therefore inaccurate.",
+      "quote_or_excerpt": "#label(\"sec-skill-tiers\")"
+    },
+    {
+      "source": "quarto-book/chapters/07-skills.qmd:79-81,101,117; quarto-book/chapters/06-core-resolution.qmd:91-99; quarto-book/chapters/13-combat.qmd",
+      "claim": "A character-class scan finds zero true-minus characters in this chapter while ch06 holds eight and ch13 holds thirteen; the numeric negations here are ASCII hyphens, and the built pages already render the difficulty table with a true minus but the prose without one.",
+      "quote_or_excerpt": "3d6 + Agility modifier \u2212 Challenge"
+    },
+    {
+      "source": "quarto-book/chapters/06-core-resolution.qmd:41; quarto-book/chapters/07-skills.qmd:53-58",
+      "claim": "The core chapter defines a final total of zero or less as Weak, while this chapter's tier table begins at one, leaving that single case undefined inside the chapter and carrying no pointer back.",
+      "quote_or_excerpt": "If your final roll total is 0 or less"
+    },
+    {
+      "source": "quarto-book/chapters/22-reference-sheets.qmd:204,212",
+      "claim": "The reference catalog mirrors both contested keyings exactly, so the mirror chapters cannot be used to overturn the roster's Reason key for Insight.",
+      "quote_or_excerpt": "Read people, detect lies"
+    },
+    {
+      "source": "unverified",
+      "claim": "The layout finding attributes the book's minus convention to a named earlier fix and to a specific book-wide sweep; no file in scope records that history, so I name the provenance unverified and rest only on the present-state character counts I measured.",
+      "quote_or_excerpt": "[no source artifact for the claimed prior fix history]"
+    }
+  ],
+  "confidence": 0.8,
+  "rebutting": []
+}

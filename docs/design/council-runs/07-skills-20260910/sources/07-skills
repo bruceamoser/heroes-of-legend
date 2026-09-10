@@ -1,0 +1,231 @@
+# Skills {#sec-chapter-skills}
+
+```{=typst}
+#label("sec-chapter-skills")
+
+// Rationale: Chapter opener at 80% width: an arcanist multi-tasking, showing the breadth of skills available to heroes in a single evocative image.
+#figure(image("assets/images/placeholder-ch07-skills.png", width: 80%),
+  caption: [Placeholder: An arcanist studying an ancient scroll while simultaneously picking a lock, showing the breadth of skills available to heroes.],
+)
+
+#pagebreak()
+
+Skills represent what your hero has learned to do. When the dice hit the table, your skill bonus is what separates "I tried" from "I succeeded." Every hero picks up skills in background and class training. The ones you invest in define how you solve problems: climbing a wall, reading a room, identifying a poison, or vanishing into a crowd.
+
+Here is the core loop: the DA calls for a roll. You grab 3d6. You add the attribute the skill is keyed to. Then you add your skill bonus, +1 for Novice, +2 for Adept, +3 for Master. The DA adds or subtracts for difficulty. Compare the total to the success tiers.
+
+*Skills add +1/+2/+3 to rolls. Disciplines gate weapons, spells, and abilities; skills gate nothing.* If you want to swing a greatsword, you need the right weapon Disciplines (@sec-chapter-disciplines), not a skill. A skill never unlocks a weapon, a spell, or an ability. It simply adds to a roll you are already allowed to make.
+
+#pagebreak()
+
+== Skill Tiers
+
+#label("sec-skill-tiers")
+
+Skills come in three tiers. Each tier raises your bonus on rolls made with that skill.
+
+#figure(
+  align(center)[#table(
+    columns: (21.05%, 15.79%, 21.05%, 42.11%),
+    align: (auto, auto, auto, auto,),
+    table.header([Tier], [Bonus], [DP Cost], [Level Gate],),
+    [*Novice*], [+1], [2 DP], [None (Level 1)],
+    [*Adept*], [+2], [4 DP], [Level 3],
+    [*Master*], [+3], [8 DP], [Level 7],
+  )],
+  caption: [Skill Tiers],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+All skills cost the same for every class: Novice 2 DP, Adept 4 DP, Master 8 DP. A Blade and an Arcanist pay the same 2 DP for Novice Athletics, and either can learn any skill on the list. As with abilities, the higher tiers unlock as you level: Adept at Level 3, Master at Level 7. Until the gate opens, everything you buy is Novice.
+
+#pagebreak()
+
+== How Skills Work in Play
+
+When you attempt something with a meaningful chance of failure and consequence, the DA sets a difficulty and you roll. The total, 3d6 + attribute + skill + difficulty modifier, determines your success tier.
+
+#figure(
+  align(center)[#table(
+    columns: (25%, 25%, 50%),
+    align: (auto, auto, auto,),
+    table.header([Success Tier], [Total], [What It Means],),
+    [*Weak*], [1-8], [You succeed, but there's a cost, complication, or reduced effect.],
+    [*Standard*], [9-14], [Clean success. You do the thing you set out to do.],
+    [*Strong*], [15-18+], [Exceptional success. Extra effect, bonus information, or added style.],
+    [*Critical*], [Three natural 6s], [Automatic Strong plus a special outcome.],
+    [*Fumble*], [Three natural 1s], [Automatic failure with a serious complication.],
+  )],
+  caption: [Success Tiers in Play],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+=== Difficulty Modifiers
+
+The DA sets difficulty based on how hard the task actually is. A quality dwarven lock is harder than a squeaky door, and the DA adjusts the modifier to say so. These numbers are subtracted from (or added to) your roll.
+
+#figure(
+  align(center)[#table(
+    columns: (30.77%, 15.38%, 53.85%),
+    align: (auto, auto, auto,),
+    table.header([Difficulty], [Modifier], [Example Task],),
+    [*Trivial*], [+4], [Climbing a knotted rope. Remembering the king's name.],
+    [*Easy*], [+2], [Picking a simple lock. Tracking a creature through mud.],
+    [*Standard*], [+0], [Most tasks. The default difficulty.],
+    [*Hard*], [-2], [Picking a complex lock in the dark. Lying to a suspicious guard.],
+    [*Very Hard*], [-4], [Swimming in armor during a storm. Recalling a thousand-year-old spell.],
+    [*Nearly Impossible*], [-6], [Climbing a sheer ice wall with no tools. Convincing the king you're his long-lost heir.],
+  )],
+  caption: [Difficulty Modifiers],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+#callout(type: "note", title: "When NOT to Roll", body: [
+If there's no consequence for failure and no pressure, don't roll dice. Just tell the story.
+
+The brawler with Brawn +2 wants to kick down a normal wooden door? It breaks. No roll. The woodsman with Survival Adept wants to find edible berries in a temperate forest? They find them. No roll. Rolling dice when there's nothing at stake drains tension from the moments that _do_ matter.
+
+Roll when failure is interesting. Roll when the outcome is uncertain. Roll when the table is leaning forward, waiting to see what happens. Never roll just because the rules say there's a skill for it. The rules serve the story, not the other way around.
+])
+
+=== Worked Example: Skill in Action, Different Tiers, Different Outcomes
+
+Makeva Quickfoot, a halfling Odd, is trying to pick the lock on a merchant's strongbox while the merchant is distracted at the front of the shop.
+
+*The setup:* Makeva has Agility +1 and Thievery at Novice (+1). The DA rules this is Hard difficulty (-2): the lock is quality dwarven work, and she's working fast. Total modifiers: +1 (Agility) +1 (skill) -2 (difficulty) = 0.
+
+She rolls 3d6. Let's look at three possible outcomes:
+
+*Result A, She rolls 4, 2, 3 (total 9, Standard):* The lock clicks open with a soft _snick._ She slips the strongbox open, pockets the ledger inside, and closes it again. The merchant hasn't noticed a thing. Clean. Professional.
+
+*Result B, She rolls 5, 6, 4 (total 15, Strong):* The lock practically opens itself. Not only does she get the ledger, but she spots a false bottom in the strongbox, a pouch of uncut gems the merchant wasn't declaring to the tax collector. Bonus loot, and bonus leverage if she ever needs it.
+
+*Result C, She rolls 1, 2, 2 (total 5, Weak):* She gets the ledger out, barely, but the lockpick snaps inside the mechanism, leaving a piece of metal visibly wedged in the lock. The DA makes a note: _the town guard will be asking questions tomorrow._
+
+Same skill. Same modifiers. Three different stories, all driven by the dice.
+
+=== Worked Example: Skill vs Discipline
+
+Kael, a dwarf Blade, wants to put a longsword through a bandit captain. The longsword is not a skill. It is a weapon, and weapons are gated by Disciplines. Kael has 2 Blades Disciplines, which the longsword requires, so he may use it at all. His skill bonus does not enter the attack.
+
+Now Kael wants to shove a heavy crate off a collapsing ledge to buy the party time. That is Athletics. Kael has Brawn +1 and Athletics at Novice (+1). The DA sets Hard difficulty (-2). He rolls 3d6 + 1 + 1 - 2. The +1 from Athletics makes the shove a little more likely to land, but it did not grant him permission to try. Any hero may attempt a skill. A Discipline decides whether you may use a weapon, spell, or ability at all.
+
+#pagebreak()
+
+#figure(image("assets/svg/placeholder-section.svg", width: 60%),
+  caption: [Illo 33: Skills Midpoint],
+)
+
+_Illustration 33: Skills chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300._
+
+#pagebreak()
+
+== The 23 Skills
+
+#label("sec-skill-list")
+
+Twenty-three skills, grouped into five categories. Every skill shares the same three-tier bonus: Novice +1, Adept +2, Master +3. None of them have Discipline prerequisites, and none of them gate anything.
+
+=== Physical
+
+#figure(
+  align(center)[#table(
+    columns: (21.05%, 15.79%, 63.16%),
+    align: (auto, auto, auto,),
+    table.header([Skill], [Attribute], [What You Roll It For],),
+    [*Athletics*], [Brawn], [Climbing, swimming, jumping, feats of strength],
+    [*Acrobatics*], [Agility], [Balancing, tumbling, escaping restraints],
+    [*Endurance*], [Fortitude], [Resisting fatigue, holding breath, forced marches],
+    [*Survival*], [Fortitude], [Tracking, foraging, navigating wilderness],
+    [*Dodge*], [Agility], [Getting out of the way, diving clear, avoiding area effects],
+    [*Parry*], [Brawn], [Blocking attacks with a weapon or shield; requires one in hand],
+  )],
+  caption: [Physical Skills],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+#callout(type: "note", title: "Shields and Parry", body: [
+A shield enables Parry (it is an implement in hand) and provides DR (damage reduction after the roll), but never adds a bonus to the Parry roll itself. The only roll bonus is the Parry skill rank.
+])
+
+=== Knowledge
+
+#figure(
+  align(center)[#table(
+    columns: (21.05%, 15.79%, 63.16%),
+    align: (auto, auto, auto,),
+    table.header([Skill], [Attribute], [What You Roll It For],),
+    [*Lore*], [Knowledge], [Legends, heraldry, esoteric knowledge],
+    [*History*], [Knowledge], [Past events, kingdoms, lineages],
+    [*Arcana*], [Knowledge], [Magical knowledge, spell identification],
+    [*Nature*], [Knowledge], [Plants, animals, natural phenomena],
+    [*Religion*], [Knowledge], [Gods, rituals, divine lore],
+    [*Medicine*], [Reason], [Healing, diagnosis, first aid],
+  )],
+  caption: [Knowledge Skills],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+=== Social
+
+#figure(
+  align(center)[#table(
+    columns: (21.05%, 15.79%, 63.16%),
+    align: (auto, auto, auto,),
+    table.header([Skill], [Attribute], [What You Roll It For],),
+    [*Persuasion*], [Guile], [Diplomacy, negotiation, charm],
+    [*Insight*], [Reason], [Reading people, detecting lies, intuition],
+    [*Deception*], [Guile], [Lying, bluffing, disguising intent],
+    [*Intimidation*], [Brawn], [Threats, coercion, making people do what you mean],
+    [*Performance*], [Guile], [Music, oratory, entertaining crowds],
+  )],
+  caption: [Social Skills],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+=== Subterfuge
+
+#figure(
+  align(center)[#table(
+    columns: (21.05%, 15.79%, 63.16%),
+    align: (auto, auto, auto,),
+    table.header([Skill], [Attribute], [What You Roll It For],),
+    [*Stealth*], [Agility], [Sneaking, hiding, moving silently],
+    [*Sleight of Hand*], [Agility], [Pickpocketing, legerdemain],
+    [*Thievery*], [Agility], [Disabling traps, picking locks],
+    [*Perception*], [Reason], [Spotting, noticing, sensing danger],
+  )],
+  caption: [Subterfuge Skills],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+=== Craft
+
+#figure(
+  align(center)[#table(
+    columns: (21.05%, 15.79%, 63.16%),
+    align: (auto, auto, auto,),
+    table.header([Skill], [Attribute], [What You Roll It For],),
+    [*Craft*], [Reason], [Smithing, woodworking, making things],
+    [*Alchemy*], [Reason], [Brewing potions, identifying substances],
+  )],
+  caption: [Craft Skills],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+```

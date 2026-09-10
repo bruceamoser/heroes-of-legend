@@ -1,0 +1,23 @@
+# Problem: Council review of Chapter 7, Skills (quarto-book/chapters/07-skills.qmd)
+
+You are the hol-rulebook council. Audit this chapter as a publishable unit of the Heroes of Legend TTRPG rulebook and produce a disposition plan. Do NOT fix anything; file findings only.
+
+## Scope
+The registered source `07-skills` (the chapter's .qmd). This chapter is the AUTHORITATIVE home of the skill roster: other chapters mirror it (ch22 reference sheets catalog, ch02 character-creation favored-skill references, ch05 class favored skills, ch13/ch14 skill calls in examples, ch19 GM guidance). Cross-check against those mirrors and against the other authoritative chapters only where a claim is canon-determined: attributes ch03, disciplines/ladder/damage budget ch08, advancement/DP economy ch18, core resolution/tiers/difficulty ch06, combat ch13, social conflict ch14, armor ch16, equipment ch15, ancestry/culture grants ch04, glossary ch21.
+
+The chapter covers: Skill Tiers (Novice/Adept/Master, their bonuses and level gates), How Skills Work in Play, Difficulty Modifiers, two worked examples (tier outcomes; skill vs discipline), and the skill roster organized into five groups (Physical, Knowledge, Social, Subterfuge, Craft).
+
+## Locked conventions the chapter must satisfy (cite the violated convention in every finding)
+- **Zero em-dashes in prose (style law, book-wide).**
+- **No damage dice.** The only sanctioned dice in the book are 3d6 one-roll checks, 4d6 for Boon/Bane (keep highest/lowest three), and explicit random-effect tables (d6 criticals/fumbles, 1d4/1d6 random tables). Any damage or healing expressed as dice is a defect.
+- **One-roll principle (locked):** the check roll IS the roll; the success tier (Weak 1-8, Standard 9-14, Strong 15-18+) is the outcome. Ties/opposition follow ch06's opposed-roll rule.
+- **Success tiers and difficulty modifiers must agree with ch06.** ch06's Difficulty Modifiers table (+4 Trivial, +2 Easy, +0 Standard, -2 Hard, -4 Very Hard, -6 Nearly Impossible) is canon; ch07's own difficulty section must not contradict its numbers or names.
+- **Level gates (canon):** Adept at Level 3, Master at Level 7 (ch18). Skill tiers must use the same gates the book uses for Disciplines.
+- **Attribute list (canon, ch03):** Brawn, Fortitude, Agility, Guile, Knowledge, Reason. Every skill must be keyed to one of these six, spelled exactly.
+- **Roster integrity:** the chapter's own claimed count ("The N Skills" heading) must equal the actual number of skill rows in the tables. Data-loss check: does each skill row carry the columns ch22's catalog and ch02/ch05 rely on (key attribute, tier bonus, sample uses)? The ch05 run already caught ch22's catalog drifting ("Crafting" in ch22 vs "Craft" in ch07) - verify the direction of that drift against THIS chapter as the source of record.
+- **Cross-references:** every @sec-* / @tbl-* link must resolve to a real label. Every skill named in another chapter's prose (class favored skills, worked examples, GM guidance, spell/ability triggers) must exist in this roster under exactly that name.
+- **Typst conventions (MIGRATION-SPEC):** exactly one `{=typst}` fence per file with the `# H1` line above it; callout bodies in the NAMED `body: [...]` form (the positional form is silently dropped by the theme); every `#table(` carries `outlined: false`; `#label("sec-...")` sits on the line after its heading. List markers matter: `+` renders as a NUMBERED list and `-` as bullets - a definitional list rendered as 1./2./3. is a defect (this class was just swept book-wide in PR #457, so verify ch07 specifically).
+- **Vocabulary:** leveled conditions use the "Name X" form (Burning 3, Slowed 5); binary conditions by name (Prone, Frightened, Restrained). "Boon"/"Bane" are defined in ch06 - this chapter must use those exact terms if it uses them at all.
+
+## Findings format (one finding per member this round)
+Each finding must be decision-oriented: name the broken value with [07-skills:LINE], the expected/correct value, the violated convention, and the minimal fix. Cite cross-chapter canon lines where the expected value is canon-determined. A finding that cannot state the broken value and the expected value is not a finding. Do NOT invent defects to look thorough; a chapter with few real problems is a good outcome.
