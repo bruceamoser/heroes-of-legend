@@ -19,7 +19,6 @@ Here is the core loop: the DA calls for a roll. You grab 3d6. You add the attrib
 #pagebreak()
 
 == Skill Tiers
-
 #label("sec-skill-tiers")
 
 Skills come in three tiers. Each tier raises your bonus on rolls made with that skill.
@@ -64,6 +63,8 @@ When you attempt something with a meaningful chance of failure and consequence, 
   numbering: none,
 )
 
+*Totals of Zero or Less:* A final total of 0 or less is still Weak, and the DA adds one complication on top of it. The full tier rules, including the worked example for that case, live in @sec-chapter-core-resolution.
+
 === Difficulty Modifiers
 
 The DA sets difficulty based on how hard the task actually is. A quality dwarven lock is harder than a squeaky door, and the DA adjusts the modifier to say so. These numbers are subtracted from (or added to) your roll.
@@ -76,9 +77,9 @@ The DA sets difficulty based on how hard the task actually is. A quality dwarven
     [*Trivial*], [+4], [Climbing a knotted rope. Remembering the king's name.],
     [*Easy*], [+2], [Picking a simple lock. Tracking a creature through mud.],
     [*Standard*], [+0], [Most tasks. The default difficulty.],
-    [*Hard*], [-2], [Picking a complex lock in the dark. Lying to a suspicious guard.],
-    [*Very Hard*], [-4], [Swimming in armor during a storm. Recalling a thousand-year-old spell.],
-    [*Nearly Impossible*], [-6], [Climbing a sheer ice wall with no tools. Convincing the king you're his long-lost heir.],
+    [*Hard*], [−2], [Picking a complex lock in the dark. Lying to a suspicious guard.],
+    [*Very Hard*], [−4], [Swimming in armor during a storm. Recalling a thousand-year-old spell.],
+    [*Nearly Impossible*], [−6], [Climbing a sheer ice wall with no tools. Convincing the king you're his long-lost heir.],
   )],
   caption: [Difficulty Modifiers],
   kind: table,
@@ -98,7 +99,7 @@ Roll when failure is interesting. Roll when the outcome is uncertain. Roll when 
 
 Makeva Quickfoot, a halfling Odd, is trying to pick the lock on a merchant's strongbox while the merchant is distracted at the front of the shop.
 
-*The setup:* Makeva has Agility +1 and Thievery at Novice (+1). The DA rules this is Hard difficulty (-2): the lock is quality dwarven work, and she's working fast. Total modifiers: +1 (Agility) +1 (skill) -2 (difficulty) = 0.
+*The setup:* Makeva has Agility +1 and Thievery at Novice (+1). The DA rules this is Hard difficulty (−2): the lock is quality dwarven work, and she's working fast. Total modifiers: +1 (Agility) +1 (skill) −2 (difficulty) = 0.
 
 She rolls 3d6. Let's look at three possible outcomes:
 
@@ -114,7 +115,7 @@ Same skill. Same modifiers. Three different stories, all driven by the dice.
 
 Kael, a dwarf Blade, wants to put a longsword through a bandit captain. The longsword is not a skill. It is a weapon, and weapons are gated by Disciplines. Kael has 2 Blades Disciplines, which the longsword requires, so he may use it at all. His skill bonus does not enter the attack.
 
-Now Kael wants to shove a heavy crate off a collapsing ledge to buy the party time. That is Athletics. Kael has Brawn +1 and Athletics at Novice (+1). The DA sets Hard difficulty (-2). He rolls 3d6 + 1 + 1 - 2. The +1 from Athletics makes the shove a little more likely to land, but it did not grant him permission to try. Any hero may attempt a skill. A Discipline decides whether you may use a weapon, spell, or ability at all.
+Now Kael wants to shove a heavy crate off a collapsing ledge to buy the party time. That is Athletics. Kael has Brawn +1 and Athletics at Novice (+1). The DA sets Hard difficulty (−2). He rolls 3d6 + 1 + 1 − 2. The +1 from Athletics makes the shove a little more likely to land, but it did not grant him permission to try. Any hero may attempt a skill. A Discipline decides whether you may use a weapon, spell, or ability at all.
 
 #pagebreak()
 
@@ -127,10 +128,11 @@ _Illustration 33: Skills chapter midpoint. Placeholder for final art. Use placeh
 #pagebreak()
 
 == The 23 Skills
-
 #label("sec-skill-list")
 
 Twenty-three skills, grouped into five categories. Every skill shares the same three-tier bonus: Novice +1, Adept +2, Master +3. None of them have Discipline prerequisites, and none of them gate anything.
+
+A few names do double duty in this book. *Parry* is a skill here and also a weapon maneuver (@sec-chapter-combat), and *Stealth*, *Sleight*, *Lore* and *Religion* also name Disciplines (@sec-chapter-disciplines). The distinction is what each one does: a skill adds to a roll you are already entitled to make, while a Discipline decides what you may attempt at all. The category headings below are organisational only; they are not Disciplines.
 
 === Physical
 
@@ -195,6 +197,8 @@ A shield enables Parry (it is an implement in hand) and provides DR (damage redu
   numbering: none,
 )
 
+*Insight has two forms.* Rolled actively, it is keyed to Reason like any other skill. When someone is lying to you and you are not looking for it, the DA uses your *passive Insight* instead, which is your Knowledge score + 7 (@sec-chapter-social-conflict).
+
 === Subterfuge
 
 #figure(
@@ -213,7 +217,7 @@ A shield enables Parry (it is an implement in hand) and provides DR (damage redu
   numbering: none,
 )
 
-=== Craft
+=== Crafting
 
 #figure(
   align(center)[#table(
@@ -223,7 +227,7 @@ A shield enables Parry (it is an implement in hand) and provides DR (damage redu
     [*Craft*], [Reason], [Smithing, woodworking, making things],
     [*Alchemy*], [Reason], [Brewing potions, identifying substances],
   )],
-  caption: [Craft Skills],
+  caption: [Crafting Skills],
   kind: table,
   outlined: false,
   numbering: none,
