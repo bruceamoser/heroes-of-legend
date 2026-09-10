@@ -67,12 +67,12 @@ Weapons don't just require more of the same Discipline, they require specific co
 
 *Properties:*
 
-+ *Versatile*, can be wielded two-handed (Longsword only)
-+ *Finesse*, use Agility instead of Brawn for attack and damage (Dagger, Shortsword, Throwing Dagger)
-+ *Reach*, can attack targets 10 ft away (Spear, Halberd)
-+ *Thrown*, can be thrown (range 20/60 ft: Dagger, Handaxe, Spear)
-+ *Light*, can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe)
-+ *Loading*, requires a Maneuver to reload between shots (Crossbow only)
+- *Versatile*, can be wielded two-handed (Longsword only)
+- *Finesse*, use Agility instead of Brawn for attack and damage (Dagger, Shortsword, Throwing Dagger)
+- *Reach*, can attack targets 10 ft away (Spear, Halberd)
+- *Thrown*, can be thrown (range 20/60 ft: Dagger, Handaxe, Spear)
+- *Light*, can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe)
+- *Loading*, requires a Maneuver to reload between shots (Crossbow only)
 
 #pagebreak()
 
@@ -99,9 +99,9 @@ Armor provides damage reduction (DR), subtract from incoming physical damage.
   numbering: none,
 )
 
-Full table with Stealth column: see @sec-chapter-armor-shields.
+Full table with Stealth column: see @sec-chapter-armor-shields
 
-Shields: *Buckler* (1 Protection, +1 DR), *Shield* (1 Protection, +2 DR), *Tower Shield* (2 Protection, +3 DR, provides half cover). Prices: see @sec-chapter-armor-shields.
+Shields: *Buckler* (1 Protection, +1 DR), *Shield* (1 Protection, +2 DR), *Tower Shield* (2 Protection, +3 DR, provides half cover). Prices: see @sec-chapter-armor-shields
 
 #pagebreak()
 
@@ -272,11 +272,11 @@ Sometimes you need to move more than yourself. Trade goods, siege equipment, the
 
 *Vehicle Rules:*
 
-+ *Speed:* The Speed column lists the vehicle's movement, with the draft animal's contribution in parentheses. A carriage and a chariot are heavier and less maneuverable, so their draft horse effectively moves at 20 ft. Exceeding cargo capacity halves Speed. Doubling it stops the vehicle entirely, the axle's not made of magic. A boat under oars moves at its oared speed; a favorable sail moves it at its sailed speed.
-+ *Crew:* The listed number is the minimum required to operate the vehicle. Half crew means Speed is halved. No crew means the vehicle drifts (water) or stops (land).
-+ *Vehicle HP:* When a vehicle reaches 0 HP, it's destroyed, a cart collapses, a ship breaks apart. Repairs cost 10% of the vehicle's value per HP restored and require a craftsperson and 1 day per 5 HP.
-+ *Combat on Vehicles:* Characters on a moving vehicle use the vehicle's Speed for relative positioning but act on their own initiative. The DA may call for Agility checks (Standard) to keep footing during sharp turns, collisions, or rough terrain. Falling off a wagon is embarrassing. Falling off a ship in a storm is a death sentence. Know the difference.
-+ *Upgrades:* Vehicles can be reinforced (+10 HP, costs 25% of base price), armored (+2 DR for passengers, costs 50% of base price), or outfitted with weapon mounts (ballista platform on a ship, crossbow mount on a wagon). Weapon mounts require a crew member to operate and use the weapon's normal damage values.
+- *Speed:* The Speed column lists the vehicle's movement, with the draft animal's contribution in parentheses. A carriage and a chariot are heavier and less maneuverable, so their draft horse effectively moves at 20 ft. Exceeding cargo capacity halves Speed. Doubling it stops the vehicle entirely, the axle's not made of magic. A boat under oars moves at its oared speed; a favorable sail moves it at its sailed speed.
+- *Crew:* The listed number is the minimum required to operate the vehicle. Half crew means Speed is halved. No crew means the vehicle drifts (water) or stops (land).
+- *Vehicle HP:* When a vehicle reaches 0 HP, it's destroyed, a cart collapses, a ship breaks apart. Repairs cost 10% of the vehicle's value per HP restored and require a craftsperson and 1 day per 5 HP.
+- *Combat on Vehicles:* Characters on a moving vehicle use the vehicle's Speed for relative positioning but act on their own initiative. The DA may call for Agility checks (Standard) to keep footing during sharp turns, collisions, or rough terrain. Falling off a wagon is embarrassing. Falling off a ship in a storm is a death sentence. Know the difference.
+- *Upgrades:* Vehicles can be reinforced (+10 HP, costs 25% of base price), armored (+2 DR for passengers, costs 50% of base price), or outfitted with weapon mounts (ballista platform on a ship, crossbow mount on a wagon). Weapon mounts require a crew member to operate and use the weapon's normal damage values.
 
 #callout(type: "tip", title: "Chases", body: [
 For vehicle vs. vehicle chases, a wagon fleeing bandits on horseback, a ship outrunning pirates, use a simple contest. Each round, each side rolls 1d6. The faster side adds a bonus equal to the Speed difference divided by 10 (a 60 ft horse against a 40 ft wagon is +2). The side with the higher total gains 1 success. First side to 3 successes wins, escape or capture. On a tie, something happens, a wheel hits a rock, a sail tears, a horse stumbles. The DA narrates the complication. The chase ends when one side reaches 3 successes, a vehicle is destroyed, or the DA calls it.

@@ -664,16 +664,14 @@ Assign attributes (-2 to +2), give 1–3 attacks with W/S/S damage per the damag
 
 *Quick Monster Template:*
 
-#enum(numbering: "1.")[
-  + Choose type (Beast, Undead, etc.)
-  + Set Challenge (1/2–12)
-  + HP ≈ 5 × Challenge (adjust to taste; printed monsters are hand-tuned), DR = Challenge ÷ 2 (round down), max 6, adjust to taste
-  + Choose 1–2 attacks with W/S/S damage per the damage budget, scaled by Challenge:
-    + C1–2 (Novice): W:2 / S:4 / St:6
-    + C3–6 (Adept): W:6 / S:9 / St:12
-    + C7+ (Master): W:9 / S:15 / St:21
-  + Add 1 signature ability from its type
-]
++ Choose type (Beast, Undead, etc.)
++ Set Challenge (1/2–12)
++ HP ≈ 5 × Challenge (adjust to taste; printed monsters are hand-tuned), DR = Challenge ÷ 2 (round down), max 6, adjust to taste
++ Choose 1–2 attacks with W/S/S damage per the damage budget, scaled by Challenge:
+  + C1–2 (Novice): W:2 / S:4 / St:6
+  + C3–6 (Adept): W:6 / S:9 / St:12
+  + C7+ (Master): W:9 / S:15 / St:21
++ Add 1 signature ability from its type
 
 #callout(type: "note", title: "Adjusting Monster Difficulty On the Fly", body: [
 The stat block is a starting point, not a contract. If a fight is too easy or too hard, change it. The players can't see the numbers.

@@ -54,7 +54,7 @@ Attributes range from -2 to +2. Most ordinary people sit at +0. Heroes are diffe
 )
 
 #callout(type: "note", title: "The Bell Curve: Why -2 to +2 Is the Sweet Spot", body: [
-With 3d6, most rolls land between 9 and 12. That's the bell curve at work, the dice cluster around the middle. A +1 bonus shifts the entire curve, and a single point on 3d6 is worth far more than it would be on a flat single-die system. A +2 bonus is enormous. Every attribute point matters. Every skill rank matters. You feel the difference between Brawn +1 and Brawn +2 every single session. For why the game rolls three dice at all, see @sec-chapter-core-resolution.
+With 3d6, most rolls land between 9 and 12. That's the bell curve at work, the dice cluster around the middle. A +1 bonus shifts the entire curve, and a single point on 3d6 is worth far more than it would be on a flat single-die system. A +2 bonus is enormous. Every attribute point matters. Every skill rank matters. You feel the difference between Brawn +1 and Brawn +2 every single session. For why the game rolls three dice at all, see @sec-chapter-core-resolution
 
 The -2 to +2 range keeps the math tight. A hero with Brawn +2 and a hero with Brawn -1 are only 3 points apart on the same roll, but those 3 points on a bell curve are the difference between "I contribute regularly" and "I'm a liability in a fight." The range is narrow, but the impact is wide. That's intentional.
 ])

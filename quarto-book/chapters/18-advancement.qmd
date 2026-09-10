@@ -25,10 +25,10 @@ The expected pace is roughly one level every two to three sessions. At that rate
 
 *Milestone examples:* The DA awards a level when the party:
 
-+ Defeats a boss or major antagonist
-+ Completes a significant quest or story arc
-+ Achieves a personal character goal (the Blade avenges their master, the Intellect deciphers the lost codex)
-+ Survives an ordeal that changes them (the dungeon that killed two hirelings, the negotiation that averted a war)
+- Defeats a boss or major antagonist
+- Completes a significant quest or story arc
+- Achieves a personal character goal (the Blade avenges their master, the Intellect deciphers the lost codex)
+- Survives an ordeal that changes them (the dungeon that killed two hirelings, the negotiation that averted a war)
 
 The DA decides. There's no formula. Trust your instincts. You know when the party has earned it.
 
@@ -120,9 +120,9 @@ You don't buy a stronghold at the general store. You earn it, or you take it.
 
 *Requirements:*
 
-+ *Reputation:* Group Reputation *Renowned (7+)* or faction standing *Allied (+3)* with at least one faction that has the resources to sponsor construction or cede territory (@sec-faction-system). You're not just "those adventurers who passed through last spring", you're a known quantity.
-+ *Gold:* 500-2,000 gp depending on size and condition. An abandoned border keep costs 500 gp and a lot of sweat. A purpose-built tower with running water and magical wards costs 2,000 gp. The price covers materials, labor, and the first month of upkeep.
-+ *Location:* A suitable site. The DA determines what's available, an abandoned watchtower, a cleared dungeon you've already bled in, land granted by a grateful noble. Finding the right spot is an adventure in itself.
+- *Reputation:* Group Reputation *Renowned (7+)* or faction standing *Allied (+3)* with at least one faction that has the resources to sponsor construction or cede territory (@sec-faction-system). You're not just "those adventurers who passed through last spring", you're a known quantity.
+- *Gold:* 500-2,000 gp depending on size and condition. An abandoned border keep costs 500 gp and a lot of sweat. A purpose-built tower with running water and magical wards costs 2,000 gp. The price covers materials, labor, and the first month of upkeep.
+- *Location:* A suitable site. The DA determines what's available, an abandoned watchtower, a cleared dungeon you've already bled in, land granted by a grateful noble. Finding the right spot is an adventure in itself.
 
 A stronghold has *50 base HP*. Upgrades add to it, and the Fortify stronghold action grants temporary HP on top.
 
@@ -161,7 +161,7 @@ Once per session, each character can take one stronghold action during downtime.
     align: (auto, auto,),
     table.header([Action], [Effect],),
     [*Craft*], [Reduce the time required to craft one item by half. The stronghold's facilities, forge, library, chapel, provide the tools and space.],
-    [*Recruit*], [Gain 1d3 temporary followers for the next adventure. They're hirelings, not heroes, use the Guard or Bandit stat block from @sec-chapter-bestiary. They follow reasonable orders but won't sacrifice themselves.],
+    [*Recruit*], [Gain 1d3 temporary followers for the next adventure. They're hirelings, not heroes, use the Guard or Bandit stat block from @sec-chapter-bestiary They follow reasonable orders but won't sacrifice themselves.],
     [*Research*], [Study a known monster, location, or magical phenomenon. Gain +2 on all Knowledge and Reason checks related to the subject for the next session. The DA provides one concrete piece of intelligence.],
     [*Rest*], [Full recovery of HP and removal of one condition or affliction. Additionally, gain temporary HP equal to your level for the next session. Real beds and hot meals make a difference.],
     [*Fortify*], [Improve the stronghold's defenses. The stronghold gains +10 temporary HP (on top of its 50 base HP) and attackers suffer -2 on rolls to breach the walls until the end of the next session. Stacks with the Fortify Position faction action.],
@@ -194,10 +194,10 @@ Followers gained from the table are permanent. The Recruit stronghold action gra
 
 *Followers use simple NPC stat blocks* (Guard, Bandit, Cultist, see @sec-chapter-bestiary). They maintain the stronghold, handle mundane tasks, and provide minor mechanical benefits:
 
-+ *Garrison soldiers:* +1 when the stronghold is attacked, for every 5 soldiers stationed.
-+ *Scholars and sages:* Reduce Research action time by half (stack with the stronghold's Research benefit).
-+ *Craftspeople:* Craft one common item (non-magical, value up to 25 gp) per session at no gold cost, just materials.
-+ *Spies and informants:* Once per session, learn one rumor from a nearby settlement without spending an action.
+- *Garrison soldiers:* +1 when the stronghold is attacked, for every 5 soldiers stationed.
+- *Scholars and sages:* Reduce Research action time by half (stack with the stronghold's Research benefit).
+- *Craftspeople:* Craft one common item (non-magical, value up to 25 gp) per session at no gold cost, just materials.
+- *Spies and informants:* Once per session, learn one rumor from a nearby settlement without spending an action.
 
 *Followers on adventures:* Followers can accompany the party as hirelings. They act on their own initiative and follow orders, but they're fragile, most have 4-8 HP. If a follower dies, replace them at the rate of one per session. The stronghold attracts new recruits. Word gets around that you pay well and don't get your people killed. You _do_ pay well, right?
 
