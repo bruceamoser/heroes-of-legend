@@ -153,7 +153,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Surprise:* When one side catches the other unaware. The ambushing side acts first in the opening round, and surprised creatures take -2 on their first roll. Determined by Stealth vs passive Insight.
 
-*Cover:* Terrain that provides protection. Half cover (-1 to attacker), three-quarters cover (-3), full cover (cannot be targeted).
+*Cover:* Terrain that provides protection. Half cover and three-quarters cover both give attackers a Bane on their roll against you. Full cover means you cannot be targeted at all.
 
 *Non-Lethal Attack:* A melee attack that reduces a creature to 0 HP but leaves them unconscious and stable instead of dying.
 

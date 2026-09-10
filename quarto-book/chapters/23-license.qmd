@@ -96,7 +96,7 @@ Full license texts for open-source components are available in the source reposi
 
 == Contact & Rights Inquiries
 
-For licensing inquiries, permissions requests, or questions about using _Heroes of Legend_ Open Game Content in your own products, contact: [TBD]
+For licensing inquiries, permissions requests, or questions about using _Heroes of Legend_ Open Game Content in your own products, contact: Bruce Moser, #link("mailto:bruceamoser+licensing@gmail.com")[bruceamoser+licensing\@gmail.com]
 
 #horizontalrule
 
