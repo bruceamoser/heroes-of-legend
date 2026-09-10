@@ -109,7 +109,7 @@ Shields: *Buckler* (1 Protection, +1 DR), *Shield* (1 Protection, +2 DR), *Tower
 
 You're carrying your life. The question is how much of it fits on your back before the pack starts digging into your shoulders.
 
-Slot-based system. You have 10 + (Brawn x 5) slots. Most items take 1 slot. Armor takes 2-4 slots. Two-handed weapons take 2 slots.
+Slot-based system. You have 10 + (Brawn x 5) slots, with a floor of 5. Even a Brawn −2 hero carries the basics. Most items take 1 slot. Armor takes 2-4 slots. Two-handed weapons take 2 slots.
 
 A hero with Brawn +1 has 15 slots. A longsword (1 slot), a backpack (2 slots), a bedroll (2), a waterskin (1), torches (1), a quiver (1), and a dagger (1) is 9 slots. The remaining 6 slots cover the oddities, the spare rope, the lantern, the thing you picked up in the cellar that might be worth something.
 

@@ -127,9 +127,11 @@ When you attack, a high roll means you hit hard (Strong damage). When you defend
     [+Dodge rank], [*Dodge* (Agility-based)],
     [+Parry rank], [*Parry* (Brawn-based, requires a weapon or shield)],
     [+2], [*Defend* maneuver (one round)],
-    [+1 to +3], [*Cover* (half to three-quarters)],
+    [Bane], [*Cover* (half or three-quarters cover)],
     [−1 to −6], [*NPC Challenge* (DA sets based on enemy skill)],
     [−2], [*Surprised* (first roll)],
+    [Three 6s], [*Critical defense*: the defense automatically succeeds],
+    [Three 1s], [*Fumble*: the defense automatically fails],
   )],
   kind: table,
   outlined: false,
@@ -355,7 +357,9 @@ Some injuries don't fade when the healing potion wears off. Wounds are the lasti
 
 *Triggering a Wound.* The first time a character drops below half their maximum HP (round down) during an encounter, they take a wound and must roll on the Wound Table. This triggers once per encounter. Subsequent drops below half HP in the same fight do not cause additional wounds. The body can only break so many times before it stops bending.
 
-*The Wound Table (D666).* The wound roll uses a special notation: D666. Roll 3d6, then sort the dice in ascending order. The lowest die is the HUNDREDS digit. The middle die is the TENS. The highest die is the ONES. A roll of [1] [3] [5] reads as 135. A roll of [2] [4] [6] reads as 246. The table below gives the result. Ranges are listed as three-digit numbers in D666 notation.
+*The Wound Table (D666).* The wound roll uses a special notation: D666. Roll 3d6, then sort the dice in ascending order. The lowest die is the HUNDREDS digit. The middle die is the TENS. The highest die is the ONES. A roll of [1] [3] [5] reads as 135. A roll of [2] [4] [6] reads as 246. The Wound Table (Tables 13.4 and 13.5) gives the result. Ranges are listed as three-digit numbers in D666 notation.
+
+#pagebreak(weak: true)
 
 #figure(
   align(center)[#table(
@@ -367,10 +371,23 @@ Some injuries don't fade when the healing potion wears off. Wounds are the lasti
     [133–166], [*Blood in the Eyes*], [A scalp wound bleeds into your vision. −1 on your next attack roll until you spend a Maneuver to wipe it clear.],
     [222], [*Marked*], [The wound leaves a mark that doesn't look natural. Animals growl at you. Superstitious folk make signs against evil. No mechanical penalty, but the DA now has a permanent hook.],
     [223–235], [*Twisted Ankle*], [Your footing betrays you. Speed reduced by 5 ft for the remainder of the encounter.],
-    [236–266], [*Deep Gash*], [A wound that won't stop bleeding. Take 1 damage at the start of each turn until you or an ally spends an Action and makes a Standard Medicine check to bind it.],
+    [236–266], [*Deep Gash*], [A wound that won't stop bleeding. Take 1 damage at the start of each turn until you or an ally spends an Action and makes a Standard Medicine check to bind it. At 0 HP the bleed keeps ticking, and each tick counts as a failed death save.],
     [333], [*Scarred*], [Three parallel gashes. Too clean, too deliberate. The scar tissue tingles whenever that type of creature is within 60 feet. You've gained an instinctive danger sense for whatever gave you that scar. A narrative gift from the DA.],
     [334–344], [*Wrenched Shoulder*], [A joint screams every time you lift your weapon. Bane on attack rolls for the remainder of the encounter.],
     [345–356], [*Cracked Ribs*], [Breathing hurts. Laughing hurts. Living hurts. Bane on all physical rolls until the end of the encounter.],
+  )],
+  caption: [Table 13.4: Wound Table (D666), part 1 of 2],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+#label("tbl-wound-table")
+
+#figure(
+  align(center)[#table(
+    columns: (28.57%, 33.33%, 38.10%),
+    align: (auto, auto, auto,),
+    table.header([D666], [Wound], [Effect]),
     [366–446], [*Broken Bone*], [Your arm, leg, or collarbone snaps. You hear it before you feel it. The limb is unusable until you receive a Standard Medicine check and take a long rest. −1 to all checks using that limb.],
     [455–466], [*Punctured Lung*], [You're breathing, but every word costs. You cannot speak more than five words per round. Spellcasting requires a Fortitude check (Standard) to force the breath through. Lasts until a long rest or a Hard Medicine check.],
     [555], [*Karmic Wound*], [By every right this should have killed you. The blade slipped between vital organs. The fall was broken by exactly the right patch of mud. No additional effect beyond the wound itself. Someone up there likes you. Or wants you alive for something worse. The DA knows which.],
@@ -378,12 +395,12 @@ Some injuries don't fade when the healing potion wears off. Wounds are the lasti
     [566], [*Shattered Spirit*], [The wound is grievous, but the real damage is deeper. You gain a persistent condition chosen by the DA: haunted by the moment, gripped by phantom pain, or convinced you're already dead. All rolls suffer a Bane until you take a full day of rest in safety.],
     [666], [*Death*], [The dice have spoken. No survival rolls. No stabilization. No last words. Your story ends here. The D666 table's capstone is not a negotiation. Close your character sheet.],
   )],
-  caption: [Table 13.4: Wound Table (D666)],
+  caption: [Table 13.5: Wound Table (D666), part 2 of 2],
   kind: table,
   outlined: false,
   numbering: none,
 )
-#label("tbl-wound-table")
+#label("tbl-wound-table-2")
 
 *Precedence:* A roll that matches a named triple (111, 222, 333, 555, 666) always takes that row, even when a range would also include it. Read the roll in D666 notation, lowest die first, so 2-2-2 is 222 and 1-4-6 is 146.
 
@@ -400,8 +417,8 @@ Use the terrain. A pillar, a flipped table, a crouching ally. Anything between y
     columns: (29.17%, 70.83%),
     align: (auto, auto,),
     table.header([Cover], [Attacker Penalty]),
-    [*Half cover*], [-1 to attack roll],
-    [*Three-quarters cover*], [-3 to attack roll],
+    [*Half cover*], [Attacks against you have Bane],
+    [*Three-quarters cover*], [Attacks against you have Bane],
     [*Full cover*], [Cannot be targeted],
   )],
   kind: table,

@@ -81,7 +81,7 @@ At levels 4 and 8, you may increase one attribute by +1 (up to the +2 maximum). 
 
 *Movement:* 30 feet per round for most heroes. Dwarves and halflings move 25 feet, heavy armor slows you by 5 feet, and some conditions slow you down further.
 
-*Carrying Capacity:* 10 + (Brawn x 5) inventory slots. Stronger heroes carry more. The party's tank is also the party's pack mule.
+*Carrying Capacity:* 10 + (Brawn x 5) inventory slots, with a floor of 5. Even the frailest hero carries something. Stronger heroes carry more. The party's tank is also the party's pack mule.
 
 #pagebreak()
 
