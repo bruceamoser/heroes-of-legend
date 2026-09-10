@@ -86,19 +86,17 @@ This isn't about fairness or trust. It's about engagement. When the goblin swing
 
 === How Defense Rolls Work
 
-When an NPC or monster attacks your hero, you make a *Defense Roll*. Which formula you use depends on how you defend:
+When an NPC or monster attacks your hero, you make a *Defense Roll*. Which formula you use depends on how you defend. When one hero attacks another, the target rolls Defense exactly as they would against a monster. When no hero is involved at all, the DA rolls the Defense on the defender's behalf using the same formula.
 
-#enum(numbering: "1.")[
-  *No defensive skill:* *3d6 + Agility modifier - Challenge*
-  *Dodge:* *3d6 + Agility modifier + Dodge rank - Challenge*
-  *Parry:* *3d6 + Brawn modifier + Parry rank - Challenge*
-]
++ *No defensive skill:* *3d6 + Agility modifier − Challenge*
++ *Dodge:* *3d6 + Agility modifier + Dodge rank − Challenge*
++ *Parry:* *3d6 + Brawn modifier + Parry rank − Challenge*
 
-+ *Agility* is your reaction speed, your footwork, your instinct to duck.
-+ *Dodge* lets you get out of the way. It adds your Dodge rank to your Agility.
-+ *Parry* lets you block with a weapon or shield, which requires one in hand. It adds your Parry rank to your Brawn. A shield enables Parry and grants DR, but it never adds a roll bonus.
-+ *Armor and shields* do not add to this roll. They reduce the damage you take through Damage Reduction (DR). See @sec-chapter-armor-shields.
-+ *Challenge* is a penalty the DA applies. A goblin might be -1 (barely a threat). A dragon might be -6 (good luck). The DA tells you the number before you roll.
+- *Agility* is your reaction speed, your footwork, your instinct to duck.
+- *Dodge* lets you get out of the way. It adds your Dodge rank to your Agility.
+- *Parry* lets you block with a weapon or shield, which requires one in hand. It adds your Parry rank to your Brawn. A shield enables Parry and grants DR, but it never adds a roll bonus.
+- *Armor and shields* do not add to this roll. They reduce the damage you take through Damage Reduction (DR). See @sec-chapter-armor-shields
+- *Challenge* is a penalty the DA applies. A goblin might be −1 (barely a threat). A dragon might be −6 (good luck). The DA tells you the number before you roll. A monster's stat block prints this same number as a positive rating, so the Challenge 3 knight imposes −3 on your roll.
 
 === Reading the Defense Result
 
@@ -123,6 +121,8 @@ The NPC's stat block lists three damage values: Weak, Standard, and Strong. The 
 
 This reversal is intentional. When you attack, a high roll means you hit hard. When you defend, a high roll means _they_ hit soft. The dice don't change. Your relationship to them does.
 
+A Defense Roll crits or fumbles like any other roll. Three 6s means you take the monster's Weak damage, and the d6 Critical Effect table applies to you. Three 1s means you take its Strong damage, and the Fumble table applies as well.
+
 === Why This Works
 
 *Players stay engaged.* You're not waiting for the DA to roll dice and tell you what happened. You're rolling, reacting, making choices. Every attack against you is a moment of tension where _your_ roll determines the outcome.
@@ -135,15 +135,15 @@ This reversal is intentional. When you attack, a high roll means you hit hard. W
 
 A goblin lunges at Kael with a rusty scimitar. The DA says: "The goblin's attack is Challenge -1. Roll Defense."
 
-Kael has Agility +2. He rolls 3d6 + 2 (Agility) - 1 (goblin's Challenge) = 3d6 + 1.
+Kael has Agility +2. He rolls 3d6 + 2 (Agility) − 1 (goblin's Challenge) = 3d6 + 1.
 
-He rolls 4, 3, 5 = 13. *Standard.* The goblin's Standard damage is 4. Kael's leather armor (DR 2) reduces it to 2. The goblin's blade scrapes across his ribs: shallow, painful, but not dangerous.
+He rolls 4, 3, 5 = 12, then adds +1 = 13. *Standard.* The goblin's Standard damage is 4. Kael's leather armor (DR 2) reduces it to 2. The goblin's blade scrapes across his ribs: shallow, painful, but not dangerous.
 
 Kael has no defensive skill in this example, so he uses the baseline formula. Had he trained Dodge, he could have rolled Agility + Dodge rank; with Parry and a weapon or shield in hand, he could have rolled Brawn + Parry rank.
 
-Later, a Knight of the Iron Circle attacks Kael. "Challenge -3," the DA says. Kael rolls 3d6 + 2 - 3 = 3d6 - 1. He rolls 2, 3, 2 = 7 - 1 = 6. *Weak.* The Knight's Strong damage is 5. Kael's armor reduces it to 3. That one hurt.
+Later, a Knight of the Iron Circle attacks Kael. "Challenge −3," the DA says. Kael rolls 3d6 + 2 − 3 = 3d6 − 1. He rolls 2, 3, 2 = 7 − 1 = 6. *Weak.* The Knight's Strong damage is 12. Kael's armor reduces it to 10. That one hurt.
 
-If Kael had trained the Armor Discipline and worn plate (DR 6), the Knight's Strong damage of 5 would have been cut to the minimum of 1. Armor never adds to your Defense Roll. It reduces whatever damage the roll lets through.
+If Kael had trained the Armor Discipline and worn plate (DR 6), the Knight's Strong damage of 12 would have been cut to 6. Armor never adds to your Defense Roll. It reduces whatever damage the roll lets through.
 
 #pagebreak()
 == Critical Hits (Three Natural 6s)
@@ -157,7 +157,7 @@ Critical hits are automatic _Strong_ results. Then roll a d6 for your bonus:
     columns: (19.05%, 80.95%),
     align: (left, left,),
     table.header([d6], [Critical Effect],),
-    [1], [*Maximum Damage.* Deal Strong damage, then add Strong damage again.],
+    [1], [*Maximum Damage.* Deal your Strong damage one budget row higher: Novice 6 becomes Adept 12, Adept 12 becomes Master 21. Never above 21.],
     [2], [*Devastating Blow.* Target is stunned, prone, or disarmed, your choice.],
     [3], [*Moment of Glory.* Take a Maneuver or free move immediately.],
     [4], [*Second Wind.* Recover 6 HP or regain one once-per-scene ability you have used.],
@@ -178,7 +178,7 @@ Critical hits are rare. When they do, they should feel like a lightning strike. 
 
 Not even snake eyes. Three 1s. Something has gone spectacularly wrong.
 
-Fumbles are automatic failures. Then roll a d6 for the complication:
+Fumbles are automatic failures on any roll where failure is possible. On an attack roll the blow still connects, because attacks always hit: you deal your Weak damage, and the complication below applies on top of it. Roll a d6 for the complication:
 
 #figure(
   align(center)[#table(
@@ -186,9 +186,9 @@ Fumbles are automatic failures. Then roll a d6 for the complication:
     align: (left, left,),
     table.header([d6], [Complication],),
     [1], [*Weapon Trouble.* Drop your weapon or jam your bow. Takes an action to fix.],
-    [2], [*Friendly Fire.* Nearest ally takes Weak damage from your wild swing.],
-    [3], [*Off Balance.* The next attack against you has a Boon.],
-    [4], [*Gear Damage.* Armor degrades one step. Shield cracks. Bowstring snaps.],
+    [2], [*Friendly Fire.* Nearest ally takes your attack's Weak damage. If no ally is within reach, the swing finds nothing but air.],
+    [3], [*Off Balance.* The next Defense Roll you make has a Bane.],
+    [4], [*Gear Damage.* A piece of gear fails. Your shield cracks and loses its DR until repaired, or your bowstring snaps and takes an action to restring. Armor's DR is permanent and never degrades.],
     [5], [*Spell Backfire.* Take 2 force damage yourself, or if you're not casting, your arcane focus shatters or your weapon misfires. Magic is fickle.],
     [6], [*Narrative Twist.* The DA introduces an unexpected complication. Be creative.],
   )],
@@ -235,9 +235,13 @@ Only roll when failure is interesting. If the hero has time, tools, and training
 
 *Kael the Blade attacks the goblin chieftain.* Kael's Brawn is +1. He rolls 4+3+5=12, then adds +1=13. _Standard._ His Basic Melee card deals 2 on Standard, plus Brawn +1: 3. The chieftain's crude leather gives DR 2, so he takes 1 damage. The chieftain roars, he felt that one.
 
-*Lyra the Odd identifies an ancient rune.* Knowledge +1, no skill, difficulty -2 (it's very old and partially worn). She rolls 2+4+4=10, adds +1 for Knowledge, subtracts 2 for difficulty, total 9. _Standard._ She recognizes it as Old Elvish, a warding glyph meant to keep something _in_, not out. That's concerning.
+*Lyra the Odd identifies an ancient rune.* Knowledge +1, no skill, difficulty −2 (it's very old and partially worn). She rolls 2+4+4=10, adds +1 for Knowledge, subtracts 2 for difficulty, total 9. _Standard._ She recognizes it as Old Elvish, a warding glyph meant to keep something _in_, not out. That's concerning.
 
-*Roric the Protector charges the troll.* Rolls 6, 6, 6. _Critical!_ Bonus roll: 4, Second Wind, recover 6 HP. Strong damage from his greataxe: 3 + Brawn 2 = 5. The troll's tough hide (DR 3) reduces it to 2. Still, five damage in one swing before the troll shrugs it off, and Roric gets his breath back. The troll's expression changes from hunger to concern.
+*Roric the Protector charges the troll.* Rolls 6, 6, 6. _Critical!_ Bonus roll: 4, Second Wind, recover 6 HP. Strong damage from his greataxe: 3 + Brawn 2 = 5. The troll's tough hide (DR 3) reduces it to 2, but Roric gets his breath back. The troll's expression changes from hunger to concern.
 
-*Makeva the Odd tries to pick a lock while guards approach.* Agility +1, Sleight of Hand Novice (+1), but it's dark (-2 difficulty) and she's rushing (-2 more). Total modifier: +1+1-2-2 = -2. She rolls 3+3+5=11, minus 2 = 9. _Standard._ The lock clicks open just as the guards' torchlight rounds the corner. She slips through the door and eases it shut behind her. Close. Very close.
+*Kael the Blade arm-wrestles Roric the Protector.* Both have Brawn +2, so both roll 3d6 + 2. Kael rolls 5+3+2 = 10, plus 2 = 12. Roric rolls 6+1+4 = 11, plus 2 = 13. Both are _Standard_, so the higher total wins: Roric slams Kael's arm down. Had the totals matched, Kael would have lost the tie anyway, because the defender wins ties.
+
+*Lyra the Odd climbs a slick cliff face.* The DA grants a Boon because she took the time to rope up first. A Boon means roll 4d6 and keep the highest three. She rolls 6, 5, 5, 2, keeps 6+5+5 = 16, then adds Agility +1 = 17. _Strong._ She reaches the ledge. Had she rushed it in the rain, the DA would have called a Bane instead: 4d6, keep the lowest three.
+
+*Makeva Quickfoot, the Odd, tries to pick a lock while guards approach.* Agility +1, Thievery Novice (+1), but it's dark (−2 difficulty) and she's rushing (−2 more). Total modifier: +1+1−2−2 = −2. She rolls 3+3+5=11, minus 2 = 9. _Standard._ The lock clicks open just as the guards' torchlight rounds the corner. She slips through the door and eases it shut behind her. Close. Very close.
 ```
