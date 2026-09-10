@@ -2,13 +2,14 @@
 
 ```{=typst}
 #label("sec-chapter-divine-spells")
-```
 
-![Illo 19: Divine Spells Art](../assets/images/page040-img028.jpeg){width="60%"}
+#figure(image("assets/images/page040-img028.jpeg", width: 60%),
+  caption: [Illo 19: Divine Spells Art],
+)
 
-*Illustration 19: Divine spells chapter art (Unbalanced class). Placeholder; final art TBD. Dimensions: 1024×1024.*
+_Illustration 19: Divine spells chapter art (Unbalanced class). Placeholder; final art TBD. Dimensions: 1024×1024._
 
-{{< pagebreak >}}
+#pagebreak()
 
 Divine magic isn't earned, it's given. You don't study it. You don't master it through repetition and force of will. You open yourself to something bigger than you, a god, a cause, the light between stars, and it flows through you. Or it doesn't. That part's not up to you.
 
@@ -18,323 +19,324 @@ Divine magic doesn't throw fireballs. It doesn't dissolve armor or dominate mind
 
 This chapter contains every divine spell in the game. Shepherds use them. Some Leaders use them. Anyone who's ever knelt before something greater and felt it kneel back.
 
-*See @sec-chapter-magic-system for how spellcasting works.*
+_See @sec-chapter-magic-system for how spellcasting works._
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Divine Cantrips
+== Divine Cantrips
 
 Divine cantrips are minor blessings, small miracles that cost nothing and ask nothing in return. They don't require Disciplines, they don't cost anything to learn, and you can invoke them as often as you like. Every divine caster knows all of these.
 
 They won't turn the tide of battle. They'll steady a shaky hand, light a dark corridor, and remind the dying that someone is still fighting for them. Sometimes that's enough.
 
-### Guidance (Cantrip)
-**Disciplines:** None · **Action:** Action · **Range:** Touch (Concentration, up to 1 minute) · **Keywords:** Boon
+=== Guidance (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* Touch (Concentration, up to 1 minute) · *Keywords:* Boon
 
-**Weak:** The target gains +1 on the next skill check they make within 1 minute.
+*Weak:* The target gains +1 on the next skill check they make within 1 minute.
 
-**Standard:** +2 on the next skill check within 1 minute.
+*Standard:* +2 on the next skill check within 1 minute.
 
-**Strong:** +2 on the next skill check. If that check succeeds, the target also gains Boon on their next check within the same minute, the blessing compounds.
+*Strong:* +2 on the next skill check. If that check succeeds, the target also gains Boon on their next check within the same minute, the blessing compounds.
 
-### Light (Cantrip)
-**Disciplines:** None · **Action:** Action · **Range:** Touch (1 hour) · **Keywords:** Bane
+=== Light (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* Touch (1 hour) · *Keywords:* Bane
 
-**Weak:** Dim light in a 10-foot radius. Duration 10 minutes.
+*Weak:* Dim light in a 10-foot radius. Duration 10 minutes.
 
-**Standard:** Bright light in a 20-foot radius, dim for another 20 feet. Duration 1 hour.
+*Standard:* Bright light in a 20-foot radius, dim for another 20 feet. Duration 1 hour.
 
-**Strong:** As Standard, but undead and fiends in the bright light have Bane on attacks, the radiance burns them with its mere presence.
+*Strong:* As Standard, but undead and fiends in the bright light have Bane on attacks, the radiance burns them with its mere presence.
 
-### Resistance (Cantrip)
-**Disciplines:** None · **Action:** Action · **Range:** Touch (Concentration, up to 1 minute) · **Keywords:** None
+=== Resistance (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* Touch (Concentration, up to 1 minute) · *Keywords:* None
 
-**Weak:** +1 on the target's next Fortitude check within 1 minute.
+*Weak:* +1 on the target's next Fortitude check within 1 minute.
 
-**Standard:** +2 on the next Fortitude check. If the check is against poison, disease, or necrotic damage, the bonus is +3.
+*Standard:* +2 on the next Fortitude check. If the check is against poison, disease, or necrotic damage, the bonus is +3.
 
-**Strong:** +2 on the next Fortitude check. The target also reduces the first instance of poison, disease, or necrotic damage they take within the duration by 3.
+*Strong:* +2 on the next Fortitude check. The target also reduces the first instance of poison, disease, or necrotic damage they take within the duration by 3.
 
-### Virtue (Cantrip)
-**Disciplines:** None · **Action:** Action · **Range:** Touch (1 minute) · **Keywords:** None
+=== Virtue (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* Touch (1 minute) · *Keywords:* None
 
-**Weak:** The target gains 2 temporary HP for 1 minute.
+*Weak:* The target gains 2 temporary HP for 1 minute.
 
-**Standard:** 3 temporary HP for 1 minute. If these temporary HP absorb a hit, the attacker takes 1 radiant damage, the light bites back.
+*Standard:* 3 temporary HP for 1 minute. If these temporary HP absorb a hit, the attacker takes 1 radiant damage, the light bites back.
 
-**Strong:** 4 temporary HP for 1 minute. Attacker takes 2 radiant on contact. The target also feels a surge of confidence, and cannot be Frightened for the duration.
+*Strong:* 4 temporary HP for 1 minute. Attacker takes 2 radiant on contact. The target also feels a surge of confidence, and cannot be Frightened for the duration.
 
-### Thaumaturgy (Cantrip)
-**Disciplines:** None · **Action:** Action · **Range:** 30 ft (Up to 1 minute) · **Keywords:** Boon
+=== Thaumaturgy (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* 30 ft (Up to 1 minute) · *Keywords:* Boon
 
-**Weak:** One minor effect. It's obviously supernatural but not overwhelming.
+*Weak:* One minor effect. It's obviously supernatural but not overwhelming.
 
-**Standard:** Three simultaneous effects. Your presence is unmistakably divine. Bystanders who aren't actively hostile are awed, social checks against them have Boon.
+*Standard:* Three simultaneous effects. Your presence is unmistakably divine. Bystanders who aren't actively hostile are awed, social checks against them have Boon.
 
-**Strong:** Your display is terrifying or awe-inspiring (your choice). Hostile creatures of Novice tier or lower must make a Reason check or flee for 1 round. The ground actually shakes. The fire actually roars.
+*Strong:* Your display is terrifying or awe-inspiring (your choice). Hostile creatures of Novice tier or lower must make a Reason check or flee for 1 round. The ground actually shakes. The fire actually roars.
 
-## Life Spells
+== Life Spells
 
-*See @sec-chapter-magic-system for how spellcasting works.*
+_See @sec-chapter-magic-system for how spellcasting works._
 
-### Mending Touch (Divine Spell)
+=== Mending Touch (Divine Spell)
 
-**Disciplines:** 1 Life · **Action:** Action · **Range:** Touch · **Keywords:** Bane
+*Disciplines:* 1 Life · *Action:* Action · *Range:* Touch · *Keywords:* Bane
 
-**Weak:** Restore 2 HP.
+*Weak:* Restore 2 HP.
 
-**Standard:** Restore 4 HP.
+*Standard:* Restore 4 HP.
 
-**Strong:** Restore 6 HP and remove one Bane from the target.
+*Strong:* Restore 6 HP and remove one Bane from the target.
 
-**Adept:** Restore 6/9/12 HP.
+*Adept:* Restore 6/9/12 HP.
 
-**Master:** Restore 9/15/21 HP; the healed target gains +2 on their next check.
+*Master:* Restore 9/15/21 HP; the healed target gains +2 on their next check.
 
-### Restoration (Divine Spell)
+=== Restoration (Divine Spell)
 
-**Disciplines:** 2 Life · **Action:** Action · **Range:** Touch · **Keywords:** Condition
+*Disciplines:* 2 Life · *Action:* Action · *Range:* Touch · *Keywords:* Condition
 
-**Weak:** Restore 6 HP.
+*Weak:* Restore 6 HP.
 
-**Standard:** Restore 9 HP.
+*Standard:* Restore 9 HP.
 
-**Strong:** Restore 12 HP and end one condition on the target.
+*Strong:* Restore 12 HP and end one condition on the target.
 
-**Adept:** Restore 6/9/12 HP.
+*Adept:* Restore 6/9/12 HP.
 
-**Master:** Restore 9/15/21 HP and end all conditions on the target.
+*Master:* Restore 9/15/21 HP and end all conditions on the target.
 
-### Tide of Life (Divine Spell)
+=== Tide of Life (Divine Spell)
 
-**Disciplines:** 2 Life · **Action:** Action · **Range:** 30 ft · **Keywords:** Healing
+*Disciplines:* 2 Life · *Action:* Action · *Range:* 30 ft · *Keywords:* Healing
 
-**Weak:** Restore 2 HP to each ally in range.
+*Weak:* Restore 2 HP to each ally in range.
 
-**Standard:** Restore 4 HP to each ally in range.
+*Standard:* Restore 4 HP to each ally in range.
 
-**Strong:** Restore 6 HP to each ally in range.
+*Strong:* Restore 6 HP to each ally in range.
 
-**Adept:** Restore 6/9/12 HP to each ally in range.
+*Adept:* Restore 6/9/12 HP to each ally in range.
 
-**Master:** Restore 9/15/21 HP to each ally in range.
+*Master:* Restore 9/15/21 HP to each ally in range.
 
-### Flesh Renewal (Divine Spell)
+=== Flesh Renewal (Divine Spell)
 
-**Disciplines:** 2 Life · **Action:** Action · **Range:** Touch, 3 rounds · **Keywords:** Recurring
+*Disciplines:* 2 Life · *Action:* Action · *Range:* Touch, 3 rounds · *Keywords:* Recurring
 
-**Weak:** Recurring 2 healing per round for 3 rounds (6 total).
+*Weak:* Recurring 2 healing per round for 3 rounds (6 total).
 
-**Standard:** Recurring 3 healing per round for 3 rounds (9 total).
+*Standard:* Recurring 3 healing per round for 3 rounds (9 total).
 
-**Strong:** Recurring 4 healing per round for 3 rounds (12 total).
+*Strong:* Recurring 4 healing per round for 3 rounds (12 total).
 
-**Adept:** 6/9/12 healing total over 3 rounds.
+*Adept:* 6/9/12 healing total over 3 rounds.
 
-**Master:** 9/15/21 healing total over 3 rounds; regrow a limb over a day.
+*Master:* 9/15/21 healing total over 3 rounds; regrow a limb over a day.
 
-### Soulmend (Divine Spell)
+=== Soulmend (Divine Spell)
 
-**Disciplines:** 2 Life · **Action:** Action · **Range:** Touch · **Keywords:** Wound
+*Disciplines:* 2 Life · *Action:* Action · *Range:* Touch · *Keywords:* Wound
 
-**Weak:** Restore 2 HP.
+*Weak:* Restore 2 HP.
 
-**Standard:** Restore 4 HP.
+*Standard:* Restore 4 HP.
 
-**Strong:** Restore 6 HP; a target at 0 HP rises to 1 HP without a Wound.
+*Strong:* Restore 6 HP; a target at 0 HP rises to 1 HP without a Wound.
 
-**Adept:** Restore 6/9/12 HP.
+*Adept:* Restore 6/9/12 HP.
 
-**Master:** Restore 9/15/21 HP; return a creature that died within the last minute to life.
+*Master:* Restore 9/15/21 HP; return a creature that died within the last minute to life.
 
-## Protection Spells
+== Protection Spells
 
-### Ward of Faith (Divine Spell)
+=== Ward of Faith (Divine Spell)
 
-**Disciplines:** 1 Protection · **Action:** Action · **Range:** Touch · **Keywords:** DR
+*Disciplines:* 1 Protection · *Action:* Action · *Range:* Touch · *Keywords:* DR
 
-**Weak:** The target gains +2 DR for 1 turn.
+*Weak:* The target gains +2 DR for 1 turn.
 
-**Standard:** The target gains +4 DR for 2 turns.
+*Standard:* The target gains +4 DR for 2 turns.
 
-**Strong:** The target gains +6 DR for 3 turns; an attacker that hits the target takes 2 radiant damage.
+*Strong:* The target gains +6 DR for 3 turns; an attacker that hits the target takes 2 radiant damage.
 
-**Adept:** The target gains 6/9/12 DR for 1/2/3 turns.
+*Adept:* The target gains 6/9/12 DR for 1/2/3 turns.
 
-**Master:** The target gains 9/15/21 DR for 1/2/3 turns.
+*Master:* The target gains 9/15/21 DR for 1/2/3 turns.
 
-### Sanctuary (Divine Spell)
+=== Sanctuary (Divine Spell)
 
-**Disciplines:** 1 Protection · **Action:** Action · **Range:** 30 ft · **Keywords:** Bane
+*Disciplines:* 1 Protection · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
 
-**Weak:** Attacks against the target have Bane for 1 turn.
+*Weak:* Attacks against the target have Bane for 1 turn.
 
-**Standard:** Attacks against the target have Bane for 2 turns.
+*Standard:* Attacks against the target have Bane for 2 turns.
 
-**Strong:** Attacks against the target have Bane for 3 turns; the target cannot be targeted.
+*Strong:* Attacks against the target have Bane for 3 turns; the target cannot be targeted.
 
-**Adept:** Attacks against the target have Bane for 6/9/12 turns.
+*Adept:* Attacks against the target have Bane for 6/9/12 turns.
 
-**Master:** Attacks against the target have Bane for 9/15/21 turns.
+*Master:* Attacks against the target have Bane for 9/15/21 turns.
 
-### Hallowed Ground (Divine Spell)
+=== Hallowed Ground (Divine Spell)
 
-**Disciplines:** 2 Protection · **Action:** Action · **Range:** 20-ft radius · **Keywords:** DR, Burning
+*Disciplines:* 2 Protection · *Action:* Action · *Range:* 20-ft radius · *Keywords:* DR, Burning
 
-**Weak:** Allies inside gain +6 DR.
+*Weak:* Allies inside gain +6 DR.
 
-**Standard:** Allies inside gain +9 DR.
+*Standard:* Allies inside gain +9 DR.
 
-**Strong:** Allies inside gain +12 DR; undead inside take Burning 3 radiant damage.
+*Strong:* Allies inside gain +12 DR; undead inside take Burning 3 radiant damage.
 
-**Adept:** Allies inside gain 6/9/12 DR.
+*Adept:* Allies inside gain 6/9/12 DR.
 
-**Master:** Allies inside gain 9/15/21 DR; undead inside take Burning 9 radiant damage.
+*Master:* Allies inside gain 9/15/21 DR; undead inside take Burning 9 radiant damage.
 
-### Sacred Barrier (Divine Spell)
+=== Sacred Barrier (Divine Spell)
 
-**Disciplines:** 2 Protection · **Action:** Action · **Range:** 30-ft wall · **Keywords:** Bane
+*Disciplines:* 2 Protection · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Bane
 
-**Weak:** Missile attacks across the barrier have Bane.
+*Weak:* Missile attacks across the barrier have Bane.
 
-**Standard:** Missile attacks are blocked for 2 rounds.
+*Standard:* Missile attacks are blocked for 2 rounds.
 
-**Strong:** Missile attacks are blocked for 3 rounds; creatures that touch the barrier are pushed 5 ft.
+*Strong:* Missile attacks are blocked for 3 rounds; creatures that touch the barrier are pushed 5 ft.
 
-**Adept:** Creatures passing through the barrier take 6/9/12 radiant damage.
+*Adept:* Creatures passing through the barrier take 6/9/12 radiant damage.
 
-**Master:** Creatures passing through the barrier take 9/15/21 radiant damage.
+*Master:* Creatures passing through the barrier take 9/15/21 radiant damage.
 
-## Religion Spells
+== Religion Spells
 
-### Holy Strike (Divine Spell)
+=== Holy Strike (Divine Spell)
 
-**Disciplines:** 1 Religion · **Action:** Action · **Range:** 30 ft · **Keywords:** Radiant
+*Disciplines:* 1 Religion · *Action:* Action · *Range:* 30 ft · *Keywords:* Radiant
 
-**Weak:** 2 radiant damage.
+*Weak:* 2 radiant damage.
 
-**Standard:** 4 radiant damage.
+*Standard:* 4 radiant damage.
 
-**Strong:** 6 radiant damage; undead take +3.
+*Strong:* 6 radiant damage; undead take +3.
 
-**Adept:** 6/9/12 radiant damage; undead take +6.
+*Adept:* 6/9/12 radiant damage; undead take +6.
 
-**Master:** 9/15/21 radiant damage; undead take +9.
+*Master:* 9/15/21 radiant damage; undead take +9.
 
-### Righteous Blow (Divine Spell)
+=== Righteous Blow (Divine Spell)
 
-**Disciplines:** 1 Religion · **Action:** Action · **Range:** Touch · **Keywords:** Boon, Bane
+*Disciplines:* 1 Religion · *Action:* Action · *Range:* Touch · *Keywords:* Boon, Bane
 
-**Weak:** 2 radiant damage.
+*Weak:* 2 radiant damage.
 
-**Standard:** 4 radiant damage; Boon on your next attack.
+*Standard:* 4 radiant damage; Boon on your next attack.
 
-**Strong:** 6 radiant damage; the target has Bane on its next attack.
+*Strong:* 6 radiant damage; the target has Bane on its next attack.
 
-**Adept:** 6/9/12 radiant damage.
+*Adept:* 6/9/12 radiant damage.
 
-**Master:** 9/15/21 radiant damage.
+*Master:* 9/15/21 radiant damage.
 
-### Divine Judgment (Divine Spell)
+=== Divine Judgment (Divine Spell)
 
-**Disciplines:** 2 Religion · **Action:** Action · **Range:** 30 ft · **Keywords:** Radiant
+*Disciplines:* 2 Religion · *Action:* Action · *Range:* 30 ft · *Keywords:* Radiant
 
-**Weak:** 6 radiant damage.
+*Weak:* 6 radiant damage.
 
-**Standard:** 9 radiant damage.
+*Standard:* 9 radiant damage.
 
-**Strong:** 12 radiant damage; undead and fiends take +3.
+*Strong:* 12 radiant damage; undead and fiends take +3.
 
-**Adept:** 6/9/12 radiant damage.
+*Adept:* 6/9/12 radiant damage.
 
-**Master:** 9/15/21 radiant damage.
+*Master:* 9/15/21 radiant damage.
 
-### Pillar of Light (Divine Spell)
+=== Pillar of Light (Divine Spell)
 
-**Disciplines:** 2 Religion · **Action:** Action · **Range:** 30-ft column · **Keywords:** Radiant
+*Disciplines:* 2 Religion · *Action:* Action · *Range:* 30-ft column · *Keywords:* Radiant
 
-**Weak:** 6 radiant damage (Agility or Dodge rank resists).
+*Weak:* 6 radiant damage (Agility or Dodge rank resists).
 
-**Standard:** 9 radiant damage.
+*Standard:* 9 radiant damage.
 
-**Strong:** 12 radiant damage.
+*Strong:* 12 radiant damage.
 
 Allies in the light regain 3 HP.
 
-**Adept:** 6/9/12 radiant damage; allies in the light also gain Boon on their next roll.
+*Adept:* 6/9/12 radiant damage; allies in the light also gain Boon on their next roll.
 
-**Master:** 9/15/21 radiant damage; undead and fiends take double damage from the pillar.
+*Master:* 9/15/21 radiant damage; undead and fiends take double damage from the pillar.
 
-### Radiant Beam (Divine Spell)
+=== Radiant Beam (Divine Spell)
 
-**Disciplines:** 1 Religion · **Action:** Action · **Range:** 60-ft line · **Keywords:** Radiant
+*Disciplines:* 1 Religion · *Action:* Action · *Range:* 60-ft line · *Keywords:* Radiant
 
-**Weak:** 2 radiant damage (Agility or Dodge rank resists).
+*Weak:* 2 radiant damage (Agility or Dodge rank resists).
 
-**Standard:** 4 radiant damage.
+*Standard:* 4 radiant damage.
 
-**Strong:** 6 radiant damage; undead take +3.
+*Strong:* 6 radiant damage; undead take +3.
 
-**Adept:** 6/9/12 radiant damage.
+*Adept:* 6/9/12 radiant damage.
 
-**Master:** 9/15/21 radiant damage.
+*Master:* 9/15/21 radiant damage.
 
-### Turn Unholy (Divine Spell)
+=== Turn Unholy (Divine Spell)
 
-**Disciplines:** 1 Religion · **Action:** Action · **Range:** 30-ft cone · **Keywords:** Morale check, Bane
+*Disciplines:* 1 Religion · *Action:* Action · *Range:* 30-ft cone · *Keywords:* Morale check, Bane
 
-**Weak:** Undead in the cone must make a Morale check or flee for 1 turn.
+*Weak:* Undead in the cone must make a Morale check or flee for 1 turn.
 
-**Standard:** Undead in the cone must make a Morale check or flee for 2 turns.
+*Standard:* Undead in the cone must make a Morale check or flee for 2 turns.
 
-**Strong:** Undead in the cone must make a Morale check with Bane or flee for 3 turns.
+*Strong:* Undead in the cone must make a Morale check with Bane or flee for 3 turns.
 
-**Adept:** Undead and fiends in the cone must make a Morale check or flee for 6/9/12 turns.
+*Adept:* Undead and fiends in the cone must make a Morale check or flee for 6/9/12 turns.
 
-**Master:** Undead and fiends in the cone must make a Morale check or flee for 9/15/21 turns; undead are destroyed at 0 HP.
+*Master:* Undead and fiends in the cone must make a Morale check or flee for 9/15/21 turns; undead are destroyed at 0 HP.
 
-### Banish (Divine Spell)
+=== Banish (Divine Spell)
 
-**Disciplines:** 2 Religion · **Action:** Action · **Range:** 30 ft · **Keywords:** Extraplanar
+*Disciplines:* 2 Religion · *Action:* Action · *Range:* 30 ft · *Keywords:* Extraplanar
 
-**Weak:** An extraplanar target is sent away for 1 turn.
+*Weak:* An extraplanar target is sent away for 1 turn.
 
-**Standard:** An extraplanar target is sent away for 2 turns.
+*Standard:* An extraplanar target is sent away for 2 turns.
 
-**Strong:** An extraplanar target is sent away for 3 turns; it cannot return this scene.
+*Strong:* An extraplanar target is sent away for 3 turns; it cannot return this scene.
 
-**Adept:** An extraplanar target is sent away for 6/9/12 turns.
+*Adept:* An extraplanar target is sent away for 6/9/12 turns.
 
-**Master:** An extraplanar target is sent away for 9/15/21 turns.
+*Master:* An extraplanar target is sent away for 9/15/21 turns.
 
-## Animal Spells
+== Animal Spells
 
-### Beast Tongue (Divine Spell)
+=== Beast Tongue (Divine Spell)
 
-**Disciplines:** 1 Animal · **Action:** Action · **Range:** 30 ft · **Keywords:** Boon
+*Disciplines:* 1 Animal · *Action:* Action · *Range:* 30 ft · *Keywords:* Boon
 
-**Weak:** One beast obeys a simple command for 1 turn.
+*Weak:* One beast obeys a simple command for 1 turn.
 
-**Standard:** One beast obeys a simple command for 1 scene.
+*Standard:* One beast obeys a simple command for 1 scene.
 
-**Strong:** One beast obeys a simple command for 1 scene; you gain Boon on Animal checks.
+*Strong:* One beast obeys a simple command for 1 scene; you gain Boon on Animal checks.
 
-**Adept:** Two beasts obey a simple command.
+*Adept:* Two beasts obey a simple command.
 
-**Master:** Five beasts obey a simple command for 1 hour.
+*Master:* Five beasts obey a simple command for 1 hour.
 
-## Plant Spells
+== Plant Spells
 
-### Briar Wall (Divine Spell)
+=== Briar Wall (Divine Spell)
 
-**Disciplines:** 2 Plants · **Action:** Action · **Range:** 30-ft wall · **Keywords:** Slowed, Restrained
+*Disciplines:* 2 Plants · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Slowed, Restrained
 
-**Weak:** Creatures passing through take 2 piercing damage.
+*Weak:* Creatures passing through take 2 piercing damage.
 
-**Standard:** Creatures passing through take 4 piercing damage and are Slowed 5.
+*Standard:* Creatures passing through take 4 piercing damage and are Slowed 5.
 
-**Strong:** Creatures passing through take 6 piercing damage and are Restrained.
+*Strong:* Creatures passing through take 6 piercing damage and are Restrained.
 
-**Adept:** Creatures passing through take 6/9/12 piercing damage.
+*Adept:* Creatures passing through take 6/9/12 piercing damage.
 
-**Master:** Creatures passing through take 9/15/21 piercing damage.
+*Master:* Creatures passing through take 9/15/21 piercing damage.
+```
