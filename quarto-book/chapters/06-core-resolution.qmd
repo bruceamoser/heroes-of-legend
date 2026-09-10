@@ -36,6 +36,8 @@ That's it. Roll three dice. Add the relevant number from your character sheet. A
   outlined: false,
   numbering: none,
 )
+
+*Reading the tiers in rules text.* When a rule calls for a "Standard or better" result, it means Standard or Strong. Tiers are ordered Weak, Standard, Strong, so "or better" always moves up the ladder. The book names the exact tier wherever a single tier is meant.
 #label("tbl-success-tiers")
 
 *Totals of Zero or Less:* If your final roll total is 0 or less, the result is Weak, and the DA adds one complication, fail-forward with teeth. The lock opens but the guard is now awake and standing behind the door. Your blade draws blood, then snaps at the hilt. The spell fires, then arcs back and singes a nearby ally.

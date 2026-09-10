@@ -453,7 +453,7 @@ The Shadow is the ghost in the room, the whisper no one heard, the hand that lif
 
 *Class Discipline (L1):* Stealth (1) + Sleight (1)
 
-*Signature, Vanish:* As a maneuver, you may attempt to disappear from sight. Make a Stealth check. On Standard+, you become invisible until the end of your next turn or until you attack. On Weak, you gain concealment instead (attacks against you have Bane). This is not magic; this is being very good at not being noticed.
+*Signature, Vanish:* As a maneuver, you may attempt to disappear from sight. Make a Stealth check. On a Standard or better result, you become invisible until the end of your next turn or until you attack. On Weak, you gain concealment instead (attacks against you have Bane). This is not magic; this is being very good at not being noticed.
 
 *Secondary, Shadow Stride:* See the Shadow ability table below.
 
@@ -535,7 +535,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
     [*Arcane Feedback*], [Novice], [1 Energy], [When you cast a spell and roll Strong], [The spell's secondary target takes half the primary target's damage.],
     [*Raw Force*], [Novice], [1 Energy], [When you cast a spell and roll Weak], [The spell deals Standard damage (4 per the damage budget) instead. Once per scene.],
     [*Spellburn*], [Novice], [1 Fire], [When you cast a spell that deals Fire damage on a Weak result], [The spell deals Standard damage instead (one row up on the damage budget). Once per turn.],
-    [*Disrupt*], [Novice], [1 Mind], [When an enemy within 30 ft casts a spell], [Spend your Reaction and make a Reason check. On Standard+, the spell is countered. Once per scene.],
+    [*Disrupt*], [Novice], [1 Mind], [When an enemy within 30 ft casts a spell], [Spend your Reaction and make a Reason check. On a Standard or better result, the spell is countered. Once per scene.],
     [*Spell Echo*], [Adept], [1 Energy, 1 Mind], [When an enemy within 30 ft casts a spell], [You may immediately cast the same spell at Novice tier, regardless of your own Disciplines. Once per scene.],
     [*Arcane Override*], [Adept], [1 Energy, 1 Mind], [When an enemy within 30 ft casts a spell that targets you], [Spend your Reaction and make a Reason check. On success, you choose the spell's new target. Once per scene.],
     [*Force Nova*], [Adept], [2 Energy], [As an action], [Force erupts in a 10-ft radius. Enemies inside take 6 damage and are pushed 5 ft. Once per scene.],
