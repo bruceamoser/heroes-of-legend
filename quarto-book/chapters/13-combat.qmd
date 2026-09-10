@@ -107,7 +107,7 @@ The DA never touches the dice in _Heroes of Legend_. This is not a suggestion. I
 
 === Defending Against NPC Attacks
 
-When an enemy attacks you, the DA describes the attack and gives you the enemy's *Challenge* rating, a penalty to your roll. You make a *Defense Roll*. The three formulas, the outcome table, and the reversal that makes them work all live in @sec-chapter-core-resolution.
+When an enemy attacks you, the DA describes the attack and gives you the enemy's *Challenge* rating, a penalty to your roll. You make a *Defense Roll*. The three formulas, the outcome table, and the reversal that makes them work all live in @sec-chapter-core-resolution
 
 Parry requires a weapon or shield in hand. A shield enables Parry and grants its DR, but never adds a roll bonus.
 
