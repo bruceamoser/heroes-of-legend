@@ -2,52 +2,53 @@
 
 ```{=typst}
 #label("sec-chapter-ancestries")
-```
 
-<!-- Rationale: Chapter opener at 80% width: ancestries gathered around a campfire, establishing the fantasy of diverse peoples sharing stories before the rules detail each one. -->
-![Placeholder: A gathering of different ancestries around a campfire: human, elf, dwarf, and halfling representatives sharing stories.](../assets/images/placeholder-ch04-ancestries.png){width=80%}
+// Rationale: Chapter opener at 80% width: ancestries gathered around a campfire, establishing the fantasy of diverse peoples sharing stories before the rules detail each one.
+#figure(image("assets/images/placeholder-ch04-ancestries.png", width: 80%),
+  caption: [Placeholder: A gathering of different ancestries around a campfire: human, elf, dwarf, and halfling representatives sharing stories.],
+)
 
-
-{{< pagebreak >}}
+#pagebreak()
 
 Your hero comes from somewhere. They have a people, a homeland, a way of life that shaped them before they ever picked up a sword. Ancestry is who you're born as. Culture is how you were raised. Together, they're the first chapter of your hero's story.
 
-::: {.callout-note}
-## Ancestry Is Flavor, Not Fate
+#callout(type: "note", title: "Ancestry Is Flavor, Not Fate", body: [
+A dwarf raised by elves is different from a dwarf raised in the mountain holds. Your ancestry gives you a Discipline and a trait, your biology, essentially. Your culture gives you skills and perspective, your upbringing. You can mix any ancestry with any culture. The gruff mountain dwarf raised by halfling riverfolk is not only allowed, it's _interesting_.
+])
 
-A dwarf raised by elves is different from a dwarf raised in the mountain holds. Your ancestry gives you a Discipline and a trait, your biology, essentially. Your culture gives you skills and perspective, your upbringing. You can mix any ancestry with any culture. The gruff mountain dwarf raised by halfling riverfolk is not only allowed, it's *interesting*.
-:::
-
-::: {.callout-note}
-## Mixing Ancestry and Culture: The Combinator's Guide
-
+#callout(type: "note", title: "Mixing Ancestry and Culture: The Combinator's Guide", body: [
 The system is built for unusual combinations. Here's what different mixes look like at the table:
 
-**Dwarf + Coastal Culture:** You grew up on the surface, working the docks. You're stronger than the human sailors and twice as stubborn. Your Axes Discipline came from splitting hull planks, not mining ore. The sea's salt is in your beard, and you don't trust anything that doesn't have a keel.
+*Dwarf + Coastal Culture:* You grew up on the surface, working the docks. You're stronger than the human sailors and twice as stubborn. Your Axes Discipline came from splitting hull planks, not mining ore. The sea's salt is in your beard, and you don't trust anything that doesn't have a keel.
 
-**Elf + Nomadic Culture:** Your people left the ancient forests generations ago. You ride with the herds under open sky, your bow always strung. The other elves call you "the lost ones." You call yourselves "the free ones." Archery and Polearms, you hunt from horseback and fight from the saddle.
+*Elf + Nomadic Culture:* Your people left the ancient forests generations ago. You ride with the herds under open sky, your bow always strung. The other elves call you "the lost ones." You call yourselves "the free ones." Archery and Polearms, you hunt from horseback and fight from the saddle.
 
-**Halfling + Mountain Culture:** You were raised in dwarven halls, the only halfling in a clan of stoneworkers. You're short even for your kind, but your arms are corded from the forge. You wield a smith's hammer like other halflings wield a butter knife. The dwarves call you "Little Anvil." It's not an insult.
+*Halfling + Mountain Culture:* You were raised in dwarven halls, the only halfling in a clan of stoneworkers. You're short even for your kind, but your arms are corded from the forge. You wield a smith's hammer like other halflings wield a butter knife. The dwarves call you "Little Anvil." It's not an insult.
 
-**Human + Twilight Elf Culture:** You were adopted by twilight elves, raised in the half-light, trained in shadow and blade. You don't have elven grace or elven lifespan, but you have their training. Water Discipline flows through you. The darkness is your ally, not your enemy.
+*Human + Twilight Elf Culture:* You were adopted by twilight elves, raised in the half-light, trained in shadow and blade. You don't have elven grace or elven lifespan, but you have their training. Water Discipline flows through you. The darkness is your ally, not your enemy.
 
 The rules support any combination. The stories are yours to tell. Pick what excites you. The DA will help you make it work in the world.
-:::
+])
 
-{{< pagebreak >}}
+#pagebreak()
 
-## The Four Ancestries
+== The Four Ancestries
 
-| Ancestry | Discipline | Trait | You're Probably... |
-|----------|-----------|-------|-------------------|
-| **Human** | Any one | **Versatile:** +1 DP at Level 0 | Ambitious, adaptable, everywhere |
-| **Elf** | Archery | **Elven Grace:** once per session, reroll one die of your 3d6 roll | Ancient, graceful, a little haunted |
-| **Dwarf** | Axes | **Sturdy:** +2 maximum HP | Resilient, tradition-bound, impossible to move |
-| **Halfling** | Blades | **Lucky:** add one boon to any roll, once per session | Quick, cheerful, underestimated |
+#figure(align(center)[#table(
+  columns: (21.28%, 23.40%, 14.89%, 40.43%),
+  align: (auto, auto, auto, auto,),
+  table.header([Ancestry], [Discipline], [Trait], [You're Probably...],),
+  [*Human*], [Any one], [*Versatile:* +1 DP at Level 0], [Ambitious, adaptable, everywhere],
+  [*Elf*], [Archery], [*Elven Grace:* once per session, reroll one die of your 3d6 roll], [Ancient, graceful, a little haunted],
+  [*Dwarf*], [Axes], [*Sturdy:* +2 maximum HP], [Resilient, tradition-bound, impossible to move],
+  [*Halfling*], [Blades], [*Lucky:* add one boon to any roll, once per session], [Quick, cheerful, underestimated],
+)], kind: table, numbering: none, outlined: false)
 
-### Human
+=== Human
 
-*"We're not the strongest or the fastest. But we're still here, aren't we?"*
+#quote[
+*We're not the strongest or the fastest. But we're still here, aren't we?*
+]
 
 Humans are the most numerous and most varied of the ancestries. They build empires and burn them down. They forget history and rediscover it. What they lack in specialization they make up for in sheer adaptability, a human can be anything, and usually is.
 
@@ -55,138 +56,171 @@ I've fought beside humans for thirty years. I've seen a human farm girl pick up 
 
 Humans receive one Discipline of any type and one extra Development Point at Level 0. They're the only ancestry with no fixed Discipline, that flexibility is the human superpower.
 
-*Common human names:* Aldric, Brenna, Corwin, Della, Egon, Marta, Oswin, Petra, Rolf, Sigrid.
+_Common human names:_ Aldric, Brenna, Corwin, Della, Egon, Marta, Oswin, Petra, Rolf, Sigrid.
 
-### Elf
+=== Elf
 
-*"The trees remember your great-grandfather. So do we."*
+#quote[
+*The trees remember your great-grandfather. So do we.*
+]
 
 Elves live long enough to see mountains erode. They carry the weight of ancient pacts, forgotten wars, and songs written before human beings discovered fire. This makes them patient, precise, and occasionally insufferable at dinner parties.
 
 An elf who's walked the world for three centuries has seen every trick, every betrayal, every miracle twice. They don't rush. They don't panic. When the party is scrambling and the torches are guttering and everyone's yelling at once, the elf is the one leaning against the wall, waiting for the right moment. That moment always comes. Elves have the patience to wait for it.
 
-Elves receive the Archery Discipline, centuries of elven bows and patient eyes. Their **Elven Grace** lets them reroll one die of their 3d6 roll, once per session, centuries of practice distill into a single perfect moment.
+Elves receive the Archery Discipline, centuries of elven bows and patient eyes. Their *Elven Grace* lets them reroll one die of their 3d6 roll, once per session, centuries of practice distill into a single perfect moment.
 
-*Common elf names:* Aelindra, Caerwyn, Elowen, Faelan, Illyria, Lirael, Orin, Sylvara, Theron, Vaelith.
+_Common elf names:_ Aelindra, Caerwyn, Elowen, Faelan, Illyria, Lirael, Orin, Sylvara, Theron, Vaelith.
 
-### Dwarf
+=== Dwarf
 
-*"Measure twice. Strike once. Bury deep."*
+#quote[
+*Measure twice. Strike once. Bury deep.*
+]
 
 Dwarves are built like the mountains they call home, solid, enduring, and extremely difficult to move once they've made up their minds. They invented metallurgy, perfected stonework, and hold grudges longer than most civilizations last.
 
 Here's what you need to know about fighting alongside a dwarf: they will not retreat. They will not break. You can drop a ceiling on them and they'll crawl out of the rubble, dust off their beard, and ask if that's the best you've got. That +2 HP from Sturdy isn't just a number, it's a statement. Dwarves are harder to kill because they refuse to die.
 
-Dwarves receive the Axes Discipline, the hammer and cleaver of the mountain holds. Their **Sturdy** constitution grants +2 maximum HP, that's two more hits they can shrug off with a grunt.
+Dwarves receive the Axes Discipline, the hammer and cleaver of the mountain holds. Their *Sturdy* constitution grants +2 maximum HP, that's two more hits they can shrug off with a grunt.
 
-*Common dwarf names:* Baldrek, Darin, Gorma, Haldra, Kazrik, Morin, Naldra, Rurik, Thaldrin, Ulfgar.
+_Common dwarf names:_ Baldrek, Darin, Gorma, Haldra, Kazrik, Morin, Naldra, Rurik, Thaldrin, Ulfgar.
 
-### Halfling
+=== Halfling
 
-*"Big things come in small packages. Also: breakfast, second breakfast, and elevenses."*
+#quote[
+*Big things come in small packages. Also: breakfast, second breakfast, and elevenses.*
+]
 
 Halflings are small, quick, and possessed of an almost supernatural luck that makes other ancestries quietly furious. They don't build empires. They build communities, feast halls, and improbably comfortable burrows. They're underestimated constantly, which suits them perfectly.
 
 I've watched a halfling pick a lock with a hairpin while a guard stood three feet away. I've seen a halfling talk a crime lord into retirement over a shared pipe and a bottle of something questionable. Halflings survive because the universe looks at them and thinks "what harm could they possibly do?", and by the time the universe realizes its mistake, the halfling is already three miles away with your wallet.
 
-Halflings receive the Blades Discipline, quick steel and quicker hands. Their **Lucky** trait lets them add one boon to any 3d6 roll, once per session. When the moment is desperate and the odds are against you, the universe cuts you a break. That's not luck. That's being a halfling.
+Halflings receive the Blades Discipline, quick steel and quicker hands. Their *Lucky* trait lets them add one boon to any 3d6 roll, once per session. When the moment is desperate and the odds are against you, the universe cuts you a break. That's not luck. That's being a halfling.
 
-*Common halfling names:* Bramble, Cora, Dabney, Eglantine, Finn, Lottie, Makeva, Nettle, Pip, Rufus, Tansy.
+_Common halfling names:_ Bramble, Cora, Dabney, Eglantine, Finn, Lottie, Makeva, Nettle, Pip, Rufus, Tansy.
 
-<!-- Rationale: Mid-chapter visual break at 60% width: two figures exchanging a greeting, highlighting cultural diversity within the same ancestry. -->
-![Placeholder: Two figures from different cultures exchanging a traditional greeting, highlighting cultural diversity within the same ancestry.](../assets/images/placeholder-ch04-ancestries-second.png){width=60%}
+// Rationale: Mid-chapter visual break at 60% width: two figures exchanging a greeting, highlighting cultural diversity within the same ancestry.
+#figure(image("assets/images/placeholder-ch04-ancestries-second.png", width: 60%),
+  caption: [Placeholder: Two figures from different cultures exchanging a traditional greeting, highlighting cultural diversity within the same ancestry.],
+)
 
+#pagebreak()
 
-{{< pagebreak >}}
-
-## Cultures
+== Cultures
 
 Your culture is how you were raised. It's not just flavor, it's the skills and Disciplines that shaped your hero before they ever held a sword. Each culture grants a *+1 skill bonus* and either *two specific Disciplines* that define its traditions, or *one free Discipline* for cultures built on adaptability. Pick the one that fits your story.
 
-### Human Cultures
+=== Human Cultures
 
-| Culture | Skill Bonus | Disciplines | You Grew Up... |
-|---------|------------|-------------|----------------|
-| **Imperial** | Persuasion or History | Any one (free choice) | In the heart of an empire. Politics, protocol, and the art of getting what you want with a smile. Imperial education is broad, you found your own path. |
-| **Nomadic** | Survival or Nature | Archery + Polearms | Following the herds, reading the stars. You can start a fire in a monsoon and never get lost. Bow for the hunt, lance for the fight. |
-| **Coastal** | Athletics or Survival | Polearms + Protection | Salt in your hair, sand between your toes. You swim before you walk. Harpoon in hand, shield on arm, the sea provides, but it also threatens. |
+#figure(align(center)[#table(
+  columns: (18%, 24%, 26%, 32%),
+  align: (auto, auto, auto, auto,),
+  table.header([Culture], [Skill Bonus], [Disciplines], [You Grew Up...],),
+  [*Imperial*], [Persuasion or History], [Any one (free choice)], [In the heart of an empire. Politics, protocol, and the art of getting what you want with a smile. Imperial education is broad, you found your own path.],
+  [*Nomadic*], [Survival or Nature], [Archery + Polearms], [Following the herds, reading the stars. You can start a fire in a monsoon and never get lost. Bow for the hunt, lance for the fight.],
+  [*Coastal*], [Athletics or Survival], [Polearms + Protection], [Salt in your hair, sand between your toes. You swim before you walk. Harpoon in hand, shield on arm, the sea provides, but it also threatens.],
+)], kind: table, numbering: none, outlined: false)
 
-### Elf Cultures
+=== Elf Cultures
 
-| Culture | Skill Bonus | Disciplines | You Grew Up... |
-|---------|------------|-------------|----------------|
-| **High Elf** | Arcana or History | Energy + Blades | Among spires of crystal and libraries of starlight. Raw magic flows through your education, and the blade dances in your hand. |
-| **Wood Elf** | Stealth or Nature | Animal + Archery | In forests so ancient the trees have opinions. You run with beasts, and your arrows find their mark before your prey knows you're there. |
-| **Twilight Elf** | Deception or Insight | Water + Blades | In the places between light and shadow. Your people walked away from the sun long ago, mastering the blade in darkness as cold and fluid as deep water. |
+#figure(align(center)[#table(
+  columns: (18%, 24%, 26%, 32%),
+  align: (auto, auto, auto, auto,),
+  table.header([Culture], [Skill Bonus], [Disciplines], [You Grew Up...],),
+  [*High Elf*], [Arcana or History], [Energy + Blades], [Among spires of crystal and libraries of starlight. Raw magic flows through your education, and the blade dances in your hand.],
+  [*Wood Elf*], [Stealth or Nature], [Animal + Archery], [In forests so ancient the trees have opinions. You run with beasts, and your arrows find their mark before your prey knows you're there.],
+  [*Twilight Elf*], [Deception or Insight], [Water + Blades], [In the places between light and shadow. Your people walked away from the sun long ago, mastering the blade in darkness as cold and fluid as deep water.],
+)], kind: table, numbering: none, outlined: false)
 
-### Dwarf Cultures
+=== Dwarf Cultures
 
-| Culture | Skill Bonus | Disciplines | You Grew Up... |
-|---------|------------|-------------|----------------|
-| **Mountain** | Craft or Athletics | Armor + Axes | In the high peaks, where the air is thin and the stone is stubborn. You forge steel and wear it like a second skin. Your axe is an heirloom; your armor, a resume. |
-| **Deep** | Endurance or Lore | Axes + Protection | In halls carved miles beneath the surface. Darkness is comforting. You fight in tight tunnels where there's no room for fancy footwork, just your axe, your shield-arm, and the stone at your back. |
-| **Hill** | History or Persuasion | Any one (free choice) | In the foothills, trading with surface folk. You're the dwarf who explains dwarves to everyone else, you've picked up a little of everything. |
+#figure(align(center)[#table(
+  columns: (18%, 24%, 26%, 32%),
+  align: (auto, auto, auto, auto,),
+  table.header([Culture], [Skill Bonus], [Disciplines], [You Grew Up...],),
+  [*Mountain*], [Craft or Athletics], [Armor + Axes], [In the high peaks, where the air is thin and the stone is stubborn. You forge steel and wear it like a second skin. Your axe is an heirloom; your armor, a resume.],
+  [*Deep*], [Endurance or Lore], [Axes + Protection], [In halls carved miles beneath the surface. Darkness is comforting. You fight in tight tunnels where there's no room for fancy footwork, just your axe, your shield-arm, and the stone at your back.],
+  [*Hill*], [History or Persuasion], [Any one (free choice)], [In the foothills, trading with surface folk. You're the dwarf who explains dwarves to everyone else, you've picked up a little of everything.],
+)], kind: table, numbering: none, outlined: false)
 
-### Halfling Cultures
+=== Halfling Cultures
 
-| Culture | Skill Bonus | Disciplines | You Grew Up... |
-|---------|------------|-------------|----------------|
-| **Riverfolk** | Acrobatics or Sleight of Hand | Blades + Archery | On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm. Dagger close, sling far, you're ready for whatever comes down the river. |
-| **Burrower** | Stealth or Survival | Protection + Blades | In cozy tunnels beneath the hills, hidden from big folk and their big problems. You know every root, every mushroom, every hidden exit. When trouble comes knocking, your blade is ready and your home is your fortress. |
-| **Wanderer** | Insight or Performance | Any one (free choice) | On the road, in the caravans, telling stories for supper. Home is wherever you hang your hat. You've learned a little of everything. |
+#figure(align(center)[#table(
+  columns: (18%, 24%, 26%, 32%),
+  align: (auto, auto, auto, auto,),
+  table.header([Culture], [Skill Bonus], [Disciplines], [You Grew Up...],),
+  [*Riverfolk*], [Acrobatics or Sleight of Hand], [Blades + Archery], [On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm. Dagger close, sling far, you're ready for whatever comes down the river.],
+  [*Burrower*], [Stealth or Survival], [Protection + Blades], [In cozy tunnels beneath the hills, hidden from big folk and their big problems. You know every root, every mushroom, every hidden exit. When trouble comes knocking, your blade is ready and your home is your fortress.],
+  [*Wanderer*], [Insight or Performance], [Any one (free choice)], [On the road, in the caravans, telling stories for supper. Home is wherever you hang your hat. You've learned a little of everything.],
+)], kind: table, numbering: none, outlined: false)
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Ancestry Gifts {#sec-ancestry-gifts}
+== Ancestry Gifts
+#label("sec-ancestry-gifts")
 
 Your ancestry isn't just a Discipline and a trait. It's a bloodline, and bloodlines carry gifts. These are abilities unique to each ancestry, inherited, not learned. They follow the same card format as class abilities and the same Novice/Adept/Master ladder, but they represent innate talent, not training. You can buy them with DP just like any other ability, at the same flat card cost regardless of class (see @sec-chapter-character-creation).
 
-**Rule:** No ancestry gift may out-perform a class ability at the same tier. Where a gift resembles a class ability, the class ability wins. These are flavor, not shortcuts. A Human can't out-heal a Shepherd. An Elf can't out-stab a Blade. Gifts are your birthright, not your class replacement.
+*Rule:* No ancestry gift may out-perform a class ability at the same tier. Where a gift resembles a class ability, the class ability wins. These are flavor, not shortcuts. A Human can't out-heal a Shepherd. An Elf can't out-stab a Blade. Gifts are your birthright, not your class replacement.
 
-### Human Gifts
+=== Human Gifts
 
 Humans are adaptable. Their gifts lean into that versatility, letting them dabble, borrow, and survive situations they weren't built for.
 
-| Gift | Tier | Effect |
-|------|------|--------|
-| **Fast Learner** | Novice | Once per session, you may use a skill you don't have at Novice (+1) for a single check. (See the Quick Study talent.) |
-| **Die Hard** | Novice | When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session. Dying can wait. |
-| **Jack of All Trades** | Adept | You may gain one skill at Novice rank for free. Choose the skill when you buy this gift. Humans get by on being just good enough at just enough things. |
-| **Second Breath** | Adept | Once per scene, as a maneuver, you may regain 6 HP. |
-| **Indomitable** | Master | Once per session, when you fail a Fortitude or Reason check, you may succeed instead. Describe how sheer human stubbornness carried you through. |
+#figure(align(center)[#table(
+  columns: (30%, 30%, 40%),
+  align: (auto, auto, auto,),
+  table.header([Gift], [Tier], [Effect],),
+  [*Fast Learner*], [Novice], [Once per session, you may use a skill you don't have at Novice (+1) for a single check. (See the Quick Study talent.)],
+  [*Die Hard*], [Novice], [When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session. Dying can wait.],
+  [*Jack of All Trades*], [Adept], [You may gain one skill at Novice rank for free. Choose the skill when you buy this gift. Humans get by on being just good enough at just enough things.],
+  [*Second Breath*], [Adept], [Once per scene, as a maneuver, you may regain 6 HP.],
+  [*Indomitable*], [Master], [Once per session, when you fail a Fortitude or Reason check, you may succeed instead. Describe how sheer human stubbornness carried you through.],
+)], kind: table, numbering: none, outlined: false)
 
-### Elf Gifts
+=== Elf Gifts
 
 Elves carry centuries of memory in their blood. Their gifts are precise, patient, and just a little bit unfair.
 
-| Gift | Tier | Effect |
-|------|------|--------|
-| **Keen Senses** | Novice | You have Boon on Perception checks involving sight or hearing. This is always on. You spot the ambush before it spots you. |
-| **Fey Step** | Novice | Once per scene, as a maneuver, you may teleport 10 feet to a location you can see. The air shimmers silver where you stood. |
-| **Trance** | Novice | You do not sleep. Instead, you enter a meditative trance for 4 hours. You remain aware of your surroundings during this time. Four hours of trance. Still better than your dreams. |
-| **Long Memory** | Adept | Once per session, you may declare that you've seen something like this before and recall a useful detail. The DA provides one fact about the current situation that your centuries of experience would reasonably include. |
-| **Ancestral Grace** | Adept | You may use your Elven Grace trait twice per session instead of once. |
+#figure(align(center)[#table(
+  columns: (30%, 30%, 40%),
+  align: (auto, auto, auto,),
+  table.header([Gift], [Tier], [Effect],),
+  [*Keen Senses*], [Novice], [You have Boon on Perception checks involving sight or hearing. This is always on. You spot the ambush before it spots you.],
+  [*Fey Step*], [Novice], [Once per scene, as a maneuver, you may teleport 10 feet to a location you can see. The air shimmers silver where you stood.],
+  [*Trance*], [Novice], [You do not sleep. Instead, you enter a meditative trance for 4 hours. You remain aware of your surroundings during this time. Four hours of trance. Still better than your dreams.],
+  [*Long Memory*], [Adept], [Once per session, you may declare that you've seen something like this before and recall a useful detail. The DA provides one fact about the current situation that your centuries of experience would reasonably include.],
+  [*Ancestral Grace*], [Adept], [You may use your Elven Grace trait twice per session instead of once.],
+)], kind: table, numbering: none, outlined: false)
 
-### Dwarf Gifts
+=== Dwarf Gifts
 
 Dwarves are forged, not born. Their gifts reflect stone, steel, and the kind of stubbornness that makes mountains look flexible.
 
-| Gift | Tier | Effect |
-|------|------|--------|
-| **Stonecunning** | Novice | You have Boon on Perception and Craft checks involving stonework, masonry, or underground construction. You know when a wall has been moved. |
-| **Dwarven Resilience** | Novice | You have Boon on Fortitude checks to resist poison. Alcohol doesn't count. |
-| **Grudge-Bearer** | Novice | Once per session, when an enemy damages you, you may mark that enemy. For the rest of the encounter, you have +1 on attack rolls against them. |
-| **Forge-Trained** | Adept | Non-magical weapons and armor you maintain never break, dull, or rust. Maintained armor grants +1 DR. Once per scene, one maintained weapon deals one damage tier higher on its next hit. |
-| **Unyielding** | Adept | When an effect would push, pull, or knock you prone, you may choose to be unaffected. Once per scene. |
+#figure(align(center)[#table(
+  columns: (30%, 30%, 40%),
+  align: (auto, auto, auto,),
+  table.header([Gift], [Tier], [Effect],),
+  [*Stonecunning*], [Novice], [You have Boon on Perception and Craft checks involving stonework, masonry, or underground construction. You know when a wall has been moved.],
+  [*Dwarven Resilience*], [Novice], [You have Boon on Fortitude checks to resist poison. Alcohol doesn't count.],
+  [*Grudge-Bearer*], [Novice], [Once per session, when an enemy damages you, you may mark that enemy. For the rest of the encounter, you have +1 on attack rolls against them.],
+  [*Forge-Trained*], [Adept], [Non-magical weapons and armor you maintain never break, dull, or rust. Maintained armor grants +1 DR. Once per scene, one maintained weapon deals one damage tier higher on its next hit.],
+  [*Unyielding*], [Adept], [When an effect would push, pull, or knock you prone, you may choose to be unaffected. Once per scene.],
+)], kind: table, numbering: none, outlined: false)
 
-### Halfling Gifts
+=== Halfling Gifts
 
 Halflings survive because the universe likes them. Their gifts reflect luck, charm, and the art of being underestimated.
 
-| Gift | Tier | Effect |
-|------|------|--------|
-| **Naturally Stealthy** | Novice | You have Boon on Stealth checks made to hide behind creatures larger than you. Which is most of them. |
-| **Halfling Charm** | Novice | Once per scene, when you fail a Persuasion or Deception check, you may reroll it. The universe gives small, cheerful people a second chance. |
-| **Burrow-Sense** | Novice | You always know which way is north and can estimate depth underground (how far beneath the surface you are). |
-| **Second Breakfast** | Adept | Once per day, during a short rest, you may prepare a meal so satisfying that all allies who eat it regain an additional 6 HP. This is not magic. This is cooking. |
-| **Impossible Luck** | Adept | You may use your Lucky trait twice per session instead of once. |
+#figure(align(center)[#table(
+  columns: (30%, 30%, 40%),
+  align: (auto, auto, auto,),
+  table.header([Gift], [Tier], [Effect],),
+  [*Naturally Stealthy*], [Novice], [You have Boon on Stealth checks made to hide behind creatures larger than you. Which is most of them.],
+  [*Halfling Charm*], [Novice], [Once per scene, when you fail a Persuasion or Deception check, you may reroll it. The universe gives small, cheerful people a second chance.],
+  [*Burrow-Sense*], [Novice], [You always know which way is north and can estimate depth underground (how far beneath the surface you are).],
+  [*Second Breakfast*], [Adept], [Once per day, during a short rest, you may prepare a meal so satisfying that all allies who eat it regain an additional 6 HP. This is not magic. This is cooking.],
+  [*Impossible Luck*], [Adept], [You may use your Lucky trait twice per session instead of once.],
+)], kind: table, numbering: none, outlined: false)
+```
