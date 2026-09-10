@@ -176,7 +176,7 @@ Keeping track of supplies adds tension to exploration.
 
 *Rations:* 1 per day per character. Without food, make an Endurance (Fortitude) roll each day. Standard result: function normally. Weak result: -1 to all rolls from fatigue.
 
-*Ammunition:* A quiver holds 20 arrows or bolts. After combat, recover half on a Standard+ Survival roll. On a Weak result, recover only 1d4.
+*Ammunition:* A quiver holds 20 arrows or bolts. After combat, recover half on a Standard or better Survival roll. On a Weak result, recover only 1d4.
 
 *Light:* Torches last 1 hour and illuminate 30 ft. Lanterns last 6 hours per flask of oil. Total darkness imposes -2 to any roll requiring sight.
 
