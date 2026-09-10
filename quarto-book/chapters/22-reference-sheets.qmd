@@ -2,308 +2,367 @@
 
 ```{=typst}
 #label("sec-chapter-reference-sheets")
-```
 
-![Illo 31: Reference Sheets](../assets/svg/placeholder-section.svg){width="60%"}
+#figure(image("assets/svg/placeholder-section.svg", width: 60%), caption: [Illo 31: Reference Sheets])
 
-*Illustration 31: Reference sheets chapter placeholder.*
+_Illustration 31: Reference sheets chapter placeholder._
 
-{{< pagebreak >}}
+#pagebreak()
 
 Tear these pages out. Photocopy them. Keep them behind your DA screen or next to your character sheet. When the dice are rolling and the table is loud, these are the numbers you need.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Core Resolution
+== Core Resolution
 
-**The One Rule:** 3d6 + Attribute + Skill + Modifiers
+*The One Rule:* 3d6 + Attribute + Skill + Modifiers
 
-| Tier | Range | Meaning |
-|------|-------|---------|
-| **Weak** | 1-8 | Partial success or success with complication |
-| **Standard** | 9-14 | Full, clean success |
-| **Strong** | 15-18+ | Exceptional success. Bonus effect. |
-| **Critical** | Three natural 6s | Automatic Strong + special outcome |
-| **Fumble** | Three natural 1s | Automatic failure + complication |
+#figure(align(center)[#table(
+  columns: (27.27%, 31.82%, 40.91%),
+  align: (auto, auto, auto,),
+  table.header([Tier], [Range], [Meaning],),
+  [*Weak*], [1-8], [Partial success or success with complication],
+  [*Standard*], [9-14], [Full, clean success],
+  [*Strong*], [15-18+], [Exceptional success. Bonus effect.],
+  [*Critical*], [Three natural 6s], [Automatic Strong + special outcome],
+  [*Fumble*], [Three natural 1s], [Automatic failure + complication],
+)], kind: table, numbering: none, outlined: false)
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Difficulty Modifiers
+== Difficulty Modifiers
 
-| Difficulty | Modifier | Example |
-|-----------|----------|---------|
-| Trivial | +4 | Climbing a knotted rope |
-| Easy | +2 | Picking a simple lock |
-| Standard | +0 | Most tasks |
-| Hard | -2 | Lying to a suspicious guard |
-| Very Hard | -4 | Swimming in armor during a storm |
-| Nearly Impossible | -6 | Convincing the king you're his heir |
+#figure(align(center)[#table(
+  columns: (36.67%, 33.33%, 30%),
+  align: (auto, auto, auto,),
+  table.header([Difficulty], [Modifier], [Example],),
+  [Trivial], [+4], [Climbing a knotted rope],
+  [Easy], [+2], [Picking a simple lock],
+  [Standard], [+0], [Most tasks],
+  [Hard], [-2], [Lying to a suspicious guard],
+  [Very Hard], [-4], [Swimming in armor during a storm],
+  [Nearly Impossible], [-6], [Convincing the king you're his heir],
+)], kind: table, numbering: none, outlined: false)
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Combat Quick-Reference
+== Combat Quick-Reference
 
-### Your Turn
+=== Your Turn
 
-| Resource | Per Turn | Common Uses |
-|----------|----------|-------------|
-| **Action** | 1 | Attack, cast a spell, Dash (double move), activate ability |
-| **Movement** | 1 | Move up to Speed (usually 30 ft). Break up: move → act → move. |
-| **Maneuver** | 1 | Basic maneuvers or a weapon maneuver |
-| **Reaction** | 1/round | Shield Block, opportunity attack, Counterspell, Riposte |
-| **Free** | Unlimited | Talk, draw weapon, drop item, gesture |
+#figure(align(center)[#table(
+  columns: (30.30%, 30.30%, 39.39%),
+  align: (auto, auto, auto,),
+  table.header([Resource], [Per Turn], [Common Uses],),
+  [*Action*], [1], [Attack, cast a spell, Dash (double move), activate ability],
+  [*Movement*], [1], [Move up to Speed (usually 30 ft). Break up: move → act → move.],
+  [*Maneuver*], [1], [Basic maneuvers or a weapon maneuver],
+  [*Reaction*], [1/round], [Shield Block, opportunity attack, Counterspell, Riposte],
+  [*Free*], [Unlimited], [Talk, draw weapon, drop item, gesture],
+)], kind: table, numbering: none, outlined: false)
 
-**Trading:** Action → Movement or Maneuver. Never Maneuver → Action.
+*Trading:* Action → Movement or Maneuver. Never Maneuver → Action.
 
-### Basic Maneuvers (Everyone)
+=== Basic Maneuvers (Everyone)
 
-| Maneuver | Effect |
-|----------|--------|
-| **Defend** | +2 to your Defense roll until your next turn |
-| **Disengage** | Move 5 ft without provoking opportunity attacks |
-| **Aid** | Ally within 30 ft gains +2 on their next roll before your next turn |
-| **Shove** | Opposed Brawn vs Brawn/Agility. Push 5 ft (10 ft on Strong) |
-| **Grapple** | Brawn (Athletics) vs Brawn (Athletics) or Agility (Acrobatics) |
-| **Command** | Companion/familiar/mount takes an extra Movement |
-| **Catch Breath** | Regain HP equal to Fortitude (min 1). Once per combat. |
-| **Search** | Active Perception check to spot hidden things |
-| **Stand Up** | Rise from prone |
-| **Use Item** | Drink a potion, apply a salve, activate a device |
+#figure(align(center)[#table(
+  columns: (55.56%, 44.44%),
+  align: (auto, auto,),
+  table.header([Maneuver], [Effect],),
+  [*Defend*], [+2 to your Defense roll until your next turn],
+  [*Disengage*], [Move 5 ft without provoking opportunity attacks],
+  [*Aid*], [Ally within 30 ft gains +2 on their next roll before your next turn],
+  [*Shove*], [Opposed Brawn vs Brawn/Agility. Push 5 ft (10 ft on Strong)],
+  [*Grapple*], [Brawn (Athletics) vs Brawn (Athletics) or Agility (Acrobatics)],
+  [*Command*], [Companion/familiar/mount takes an extra Movement],
+  [*Catch Breath*], [Regain HP equal to Fortitude (min 1). Once per combat.],
+  [*Search*], [Active Perception check to spot hidden things],
+  [*Stand Up*], [Rise from prone],
+  [*Use Item*], [Drink a potion, apply a salve, activate a device],
+)], kind: table, numbering: none, outlined: false)
 
-{{< pagebreak >}}
+#pagebreak()
 
-### Conditions Quick-Reference
+=== Conditions Quick-Reference
 
-| Condition | Effect | Ends |
-|-----------|--------|------|
-| **Asleep X** | Unaware | X minutes or damage |
-| **Blinded** | Attacks reduced one tier | Source duration |
-| **Burning X** | Takes X damage per round | Spend an action to end |
-| **Charmed** | Cannot attack charmer | Source duration |
-| **Confused X** | Attacks at Bane, cannot take Reactions | Source duration |
-| **Dazed X** | Can take only one action type per turn, for X rounds | X rounds |
-| **Dazzled** | Perception checks at Bane, cannot benefit from Boon on sight-based rolls | Source duration |
-| **Deafened** | Perception Bane | Source duration |
-| **Frightened** | Cannot approach source | Source duration |
-| **Frozen X** | Incapacitated and takes X cold damage per round | Spend an action to end |
-| **Grappled** | Speed 0 | Escape action |
-| **Incapacitated** | No actions | Source duration |
-| **Invisible** | Cannot be targeted directly | Attack/action ends |
-| **Paralyzed** | Incapacitated + auto-crit if hit | Source duration |
-| **Petrified** | Turned to stone, incapacitated, DR +5, immune to non-magical damage | Special |
-| **Poisoned X** | Takes X poison damage per round and attacks at Bane | Spend an action to end |
-| **Prone** | Melee Boon vs you, ranged Bane | Stand up (maneuver) |
-| **Restrained** | Speed 0, attack Bane | Escape action |
-| **Slowed X** | Speed reduced by X feet, cannot take Reactions | Source duration |
-| **Stunned** | Incapacitated + cannot move | Source duration |
-| **Unconscious** | Incapacitated + prone + unaware | Healing or Medicine check |
+#figure(align(center)[#table(
+  columns: (44%, 32%, 24%),
+  align: (auto, auto, auto,),
+  table.header([Condition], [Effect], [Ends],),
+  [*Asleep X*], [Unaware], [X minutes or damage],
+  [*Blinded*], [Attacks reduced one tier], [Source duration],
+  [*Burning X*], [Takes X damage per round], [Spend an action to end],
+  [*Charmed*], [Cannot attack charmer], [Source duration],
+  [*Confused X*], [Attacks at Bane, cannot take Reactions], [Source duration],
+  [*Dazed X*], [Can take only one action type per turn, for X rounds], [X rounds],
+  [*Dazzled*], [Perception checks at Bane, cannot benefit from Boon on sight-based rolls], [Source duration],
+  [*Deafened*], [Perception Bane], [Source duration],
+  [*Frightened*], [Cannot approach source], [Source duration],
+  [*Frozen X*], [Incapacitated and takes X cold damage per round], [Spend an action to end],
+  [*Grappled*], [Speed 0], [Escape action],
+  [*Incapacitated*], [No actions], [Source duration],
+  [*Invisible*], [Cannot be targeted directly], [Attack/action ends],
+  [*Paralyzed*], [Incapacitated + auto-crit if hit], [Source duration],
+  [*Petrified*], [Turned to stone, incapacitated, DR +5, immune to non-magical damage], [Special],
+  [*Poisoned X*], [Takes X poison damage per round and attacks at Bane], [Spend an action to end],
+  [*Prone*], [Melee Boon vs you, ranged Bane], [Stand up (maneuver)],
+  [*Restrained*], [Speed 0, attack Bane], [Escape action],
+  [*Slowed X*], [Speed reduced by X feet, cannot take Reactions], [Source duration],
+  [*Stunned*], [Incapacitated + cannot move], [Source duration],
+  [*Unconscious*], [Incapacitated + prone + unaware], [Healing or Medicine check],
+)], kind: table, numbering: none, outlined: false)
 
-{{< pagebreak >}}
+#pagebreak()
 
-### Effects
+=== Effects
 
 Effects resolve by tier, never a second roll. Card text defines which tiers carry which effect. One roll resolves both damage and effect.
 
-| Effect | Meaning |
-|--------|---------|
-| **Push X** | Move the target X feet away from you |
-| **Slide X** | Move the target X feet in any direction |
-| **Trip** | The target falls Prone |
-| **Lift X** | Raise the target X feet; Restrained while held |
+#figure(align(center)[#table(
+  columns: (47.06%, 52.94%),
+  align: (auto, auto,),
+  table.header([Effect], [Meaning],),
+  [*Push X*], [Move the target X feet away from you],
+  [*Slide X*], [Move the target X feet in any direction],
+  [*Trip*], [The target falls Prone],
+  [*Lift X*], [Raise the target X feet; Restrained while held],
+)], kind: table, numbering: none, outlined: false)
 
-### Morale Checks (3d6, no modifiers)
+=== Morale Checks (3d6, no modifiers)
 
-| Result | Behavior |
-|--------|----------|
-| **Strong (15+)** | Stands firm. +1 on next attack. |
-| **Standard (9-14)** | Wavers. Bane on its next attack. |
-| **Weak (1-8)** | Flees or surrenders. |
+#figure(align(center)[#table(
+  columns: (44.44%, 55.56%),
+  align: (auto, auto,),
+  table.header([Result], [Behavior],),
+  [*Strong (15+)*], [Stands firm. +1 on next attack.],
+  [*Standard (9-14)*], [Wavers. Bane on its next attack.],
+  [*Weak (1-8)*], [Flees or surrenders.],
+)], kind: table, numbering: none, outlined: false)
 
-**Auto-triggers:** Below half HP, leader defeated, half group fallen, overwhelming force.
+*Auto-triggers:* Below half HP, leader defeated, half group fallen, overwhelming force.
 
-### Dying (at 0 HP, roll 3d6 each turn)
+=== Dying (at 0 HP, roll 3d6 each turn)
 
-| Result | Outcome |
-|--------|---------|
-| **Strong (15+)** | Stabilize at 1 HP |
-| **Standard (9-14)** | Unconscious, stable |
-| **Weak (1-8)** | You're still dying. The end draws nearer. |
-| **Fumble (Three natural 1s)** | Death |
-| **Critical (Three natural 6s)** | Wake at half HP |
+#figure(align(center)[#table(
+  columns: (47.06%, 52.94%),
+  align: (auto, auto,),
+  table.header([Result], [Outcome],),
+  [*Strong (15+)*], [Stabilize at 1 HP],
+  [*Standard (9-14)*], [Unconscious, stable],
+  [*Weak (1-8)*], [You're still dying. The end draws nearer.],
+  [*Fumble (Three natural 1s)*], [Death],
+  [*Critical (Three natural 6s)*], [Wake at half HP],
+)], kind: table, numbering: none, outlined: false)
 
-### Cover
+=== Cover
 
-| Cover | Attacker Penalty |
-|-------|-----------------|
-| Half cover | -1 |
-| Three-quarters | -3 |
-| Full cover | Cannot target |
+#figure(align(center)[#table(
+  columns: (29.17%, 70.83%),
+  align: (auto, auto,),
+  table.header([Cover], [Attacker Penalty],),
+  [Half cover], [-1],
+  [Three-quarters], [-3],
+  [Full cover], [Cannot target],
+)], kind: table, numbering: none, outlined: false)
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Damage Types
+== Damage Types
 
-| Category | Types |
-|----------|-------|
-| **Physical** | Slashing, Piercing, Bludgeoning |
-| **Elemental** | Fire, Cold, Lightning, Acid, Poison, Thunder |
-| **Magical** | Force, Radiant, Necrotic, Psychic |
+#figure(align(center)[#table(
+  columns: (58.82%, 41.18%),
+  align: (auto, auto,),
+  table.header([Category], [Types],),
+  [*Physical*], [Slashing, Piercing, Bludgeoning],
+  [*Elemental*], [Fire, Cold, Lightning, Acid, Poison, Thunder],
+  [*Magical*], [Force, Radiant, Necrotic, Psychic],
+)], kind: table, numbering: none, outlined: false)
 
-**Resistance** halves damage (round down). **Vulnerability** doubles damage.
+*Resistance* halves damage (round down). *Vulnerability* doubles damage.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Skills Quick-Reference
+== Skills Quick-Reference
 
-| Skill | Attr | Key Use |
-|-------|------|---------|
-| **Athletics** | BR | Climb, swim, jump |
-| **Parry** | BR | Blocking attacks with a weapon or shield; requires one in hand (shield enables Parry and gives DR, never a roll bonus) |
-| **Acrobatics** | AG | Balance, tumble, escape |
-| **Dodge** | AG | Getting out of the way, diving clear, avoiding area effects |
-| **Endurance** | FO | Fatigue, breath-holding, marches |
-| **Survival** | FO | Track, forage, navigate |
-| **Lore** | KN | Legends, heraldry, esoteric |
-| **History** | KN | Past events, kingdoms, lineages |
-| **Arcana** | KN | Magical knowledge, spell ID |
-| **Nature** | KN | Plants, animals, phenomena |
-| **Religion** | KN | Gods, rituals, divine lore |
-| **Medicine** | RE | Healing, diagnosis, first aid |
-| **Persuasion** | GU | Diplomacy, negotiation, charm |
-| **Insight** | RE | Read people, detect lies |
-| **Deception** | GU | Lie, bluff, disguise |
-| **Intimidation** | BR | Threats, coercion |
-| **Performance** | GU | Music, oratory, entertain |
-| **Stealth** | AG | Sneak, hide, move silently |
-| **Sleight of Hand** | AG | Pickpocket, legerdemain |
-| **Thievery** | AG | Disable traps, pick locks |
-| **Perception** | RE | Spot, notice, sense danger |
-| **Craft** | RE | Smith, build, make things |
-| **Alchemy** | RE | Brew potions, identify substances |
+#figure(align(center)[#table(
+  columns: (31.82%, 27.27%, 40.91%),
+  align: (auto, auto, auto,),
+  table.header([Skill], [Attr], [Key Use],),
+  [*Athletics*], [BR], [Climb, swim, jump],
+  [*Parry*], [BR], [Blocking attacks with a weapon or shield; requires one in hand (shield enables Parry and gives DR, never a roll bonus)],
+  [*Acrobatics*], [AG], [Balance, tumble, escape],
+  [*Dodge*], [AG], [Getting out of the way, diving clear, avoiding area effects],
+  [*Endurance*], [FO], [Fatigue, breath-holding, marches],
+  [*Survival*], [FO], [Track, forage, navigate],
+  [*Lore*], [KN], [Legends, heraldry, esoteric],
+  [*History*], [KN], [Past events, kingdoms, lineages],
+  [*Arcana*], [KN], [Magical knowledge, spell ID],
+  [*Nature*], [KN], [Plants, animals, phenomena],
+  [*Religion*], [KN], [Gods, rituals, divine lore],
+  [*Medicine*], [RE], [Healing, diagnosis, first aid],
+  [*Persuasion*], [GU], [Diplomacy, negotiation, charm],
+  [*Insight*], [RE], [Read people, detect lies],
+  [*Deception*], [GU], [Lie, bluff, disguise],
+  [*Intimidation*], [BR], [Threats, coercion],
+  [*Performance*], [GU], [Music, oratory, entertain],
+  [*Stealth*], [AG], [Sneak, hide, move silently],
+  [*Sleight of Hand*], [AG], [Pickpocket, legerdemain],
+  [*Thievery*], [AG], [Disable traps, pick locks],
+  [*Perception*], [RE], [Spot, notice, sense danger],
+  [*Craft*], [RE], [Smith, build, make things],
+  [*Alchemy*], [RE], [Brew potions, identify substances],
+)], kind: table, numbering: none, outlined: false)
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Discipline Catalog
+== Discipline Catalog
 
-| Category | Disciplines |
-|----------|-------------|
-| **Elemental** | Fire, Earth, Wind, Water |
-| **Weapon** | Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed |
-| **Defense** | Protection, Armor |
-| **Primal** | Animal, Plants |
-| **Subterfuge** | Stealth, Sleight |
-| **Arcane** | Energy |
-| **Divine** | Life, Religion |
-| **Knowledge** | Lore, Tactics |
-| **Esoteric** | Mind, Summon |
+#figure(align(center)[#table(
+  columns: (43.48%, 56.52%),
+  align: (auto, auto,),
+  table.header([Category], [Disciplines],),
+  [*Elemental*], [Fire, Earth, Wind, Water],
+  [*Weapon*], [Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed],
+  [*Defense*], [Protection, Armor],
+  [*Primal*], [Animal, Plants],
+  [*Subterfuge*], [Stealth, Sleight],
+  [*Arcane*], [Energy],
+  [*Divine*], [Life, Religion],
+  [*Knowledge*], [Lore, Tactics],
+  [*Esoteric*], [Mind, Summon],
+)], kind: table, numbering: none, outlined: false)
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Character Creation Checklist
+== Character Creation Checklist
 
-1. **Concept:** One sentence. Who is your hero?
-2. **Attributes:** Assign -2 to +2. Total must be +3.
-3. **Ancestry:** Human, Elf, Dwarf, or Halfling. Record Discipline and trait.
-4. **Culture:** Choose upbringing. Record +1 skill bonus and Disciplines.
-5. **Background DP:** 8 + Knowledge + Fortitude. Spend all on Novice skills and abilities.
-6. **Class:** Choose class. Record Class Discipline and signature ability.
-7. **Class DP:** 8 DP. Spend all on Novice skills and abilities.
-8. **Equipment:** Take class starting kit. Record weapon properties and armor DR.
-9. **Derived Stats:** HP, Initiative, Speed, Carry Slots.
-10. **Backstory:** Motivation, Trinket, Name.
+#enum(numbering: "1.")[
+  *Concept:* One sentence. Who is your hero?
+  *Attributes:* Assign -2 to +2. Total must be +3.
+  *Ancestry:* Human, Elf, Dwarf, or Halfling. Record Discipline and trait.
+  *Culture:* Choose upbringing. Record +1 skill bonus and Disciplines.
+  *Background DP:* 8 + Knowledge + Fortitude. Spend all on Novice skills and abilities.
+  *Class:* Choose class. Record Class Discipline and signature ability.
+  *Class DP:* 8 DP. Spend all on Novice skills and abilities.
+  *Equipment:* Take class starting kit. Record weapon properties and armor DR.
+  *Derived Stats:* HP, Initiative, Speed, Carry Slots.
+  *Backstory:* Motivation, Trinket, Name.
+]
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Level Progression Quick-Reference
+== Level Progression Quick-Reference
 
-| Level | DP Gained | Milestones |
-|-------|-----------|------------|
-| 1 | 4 DP | Class signature, Starting Disciplines |
-| 2 | 3 DP | |
-| 3 | 3 DP | Progression Discipline. Adept abilities unlock. |
-| 4 | 3 DP | +1 Attribute (max +2) |
-| 5 | 4 DP | DP windfall |
-| 6 | 3 DP | Progression Discipline |
-| 7 | 3 DP | Master abilities unlock |
-| 8 | 3 DP | +1 Attribute (max +2) |
-| 9 | 3 DP | Progression Discipline |
-| 10 | 3 DP | |
+#figure(align(center)[#table(
+  columns: (23.33%, 36.67%, 40%),
+  align: (auto, auto, auto,),
+  table.header([Level], [DP Gained], [Milestones],),
+  [1], [4 DP], [Class signature, Starting Disciplines],
+  [2], [3 DP], [],
+  [3], [3 DP], [Progression Discipline. Adept abilities unlock.],
+  [4], [3 DP], [+1 Attribute (max +2)],
+  [5], [4 DP], [DP windfall],
+  [6], [3 DP], [Progression Discipline],
+  [7], [3 DP], [Master abilities unlock],
+  [8], [3 DP], [+1 Attribute (max +2)],
+  [9], [3 DP], [Progression Discipline],
+  [10], [3 DP], [],
+)], kind: table, numbering: none, outlined: false)
 
 Total DP by level 10: 32 advancement DP + 8 Class DP + background DP (8 + Knowledge + Fortitude) ≈ 44–52 career DP.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## DP Cost Reference
+== DP Cost Reference
 
 Cards (skills, abilities, spells) cost a flat rate regardless of class:
 
-| Purchase | DP Cost |
-|----------|---------|
-| Skill (Novice) | 2 DP |
-| Skill (Adept) | 4 DP |
-| Skill (Master) | 8 DP |
-| Ability (Novice) | 2 DP |
-| Ability (Adept) | 4 DP |
-| Ability (Master) | 8 DP |
-| No-prereq basic (Novice) | 2 DP |
+#figure(align(center)[#table(
+  columns: (52.63%, 47.37%),
+  align: (auto, auto,),
+  table.header([Purchase], [DP Cost],),
+  [Skill (Novice)], [2 DP],
+  [Skill (Adept)], [4 DP],
+  [Skill (Master)], [8 DP],
+  [Ability (Novice)], [2 DP],
+  [Ability (Adept)], [4 DP],
+  [Ability (Master)], [8 DP],
+  [No-prereq basic (Novice)], [2 DP],
+)], kind: table, numbering: none, outlined: false)
 
 Disciplines cost different amounts depending on your class's cost structure for that discipline:
 
-| Structure | Rank 1 | Rank 2 | Rank 3 | Meaning |
-|-----------|--------|--------|--------|---------|
-| **Home** | 1 DP | 2 DP | 4 DP | Favored: core to the class |
-| **Adjacent** | 2 DP | 4 DP | 8 DP | Related but not core |
-| **Foreign** | 3 DP | 6 DP | 12 DP | Unrelated to the class |
-| **Opposed** | 4 DP | 8 DP | 16 DP | Antithetical to the class |
+#figure(align(center)[#table(
+  columns: (28.95%, 15.79%, 15.79%, 15.79%, 23.68%),
+  align: (auto, auto, auto, auto, auto,),
+  table.header([Structure], [Rank 1], [Rank 2], [Rank 3], [Meaning],),
+  [*Home*], [1 DP], [2 DP], [4 DP], [Favored: core to the class],
+  [*Adjacent*], [2 DP], [4 DP], [8 DP], [Related but not core],
+  [*Foreign*], [3 DP], [6 DP], [12 DP], [Unrelated to the class],
+  [*Opposed*], [4 DP], [8 DP], [16 DP], [Antithetical to the class],
+)], kind: table, numbering: none, outlined: false)
 
 See your class's Discipline Cost Table in @sec-chapter-classes for per-discipline costs.
 
 The total cost of a card = its flat card DP cost + the sum of the discipline rank costs for each required discipline.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Damage Budget
+== Damage Budget
 
 All spells, abilities, and monster attacks use flat damage values. No damage dice. The hit/casting roll IS the damage roll.
 
-| Tier | Weak | Standard | Strong |
-|------|------|----------|--------|
-| **Novice** (C½–2) | 2 | 4 | 6 |
-| **Adept** (C3–6) | 6 | 9 | 12 |
-| **Master** (C7+) | 9 | 15 | 21 |
+#figure(align(center)[#table(
+  columns: (20%, 20%, 33.33%, 26.67%),
+  align: (auto, auto, auto, auto,),
+  table.header([Tier], [Weak], [Standard], [Strong],),
+  [*Novice* (C½–2)], [2], [4], [6],
+  [*Adept* (C3–6)], [6], [9], [12],
+  [*Master* (C7+)], [9], [15], [21],
+)], kind: table, numbering: none, outlined: false)
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Encounter Building Quick-Reference
+== Encounter Building Quick-Reference
 
-| Difficulty | Challenge Budget | Example (Level 3 party) |
-|-----------|-----------------|------------------------|
-| Easy | × party level | 6 Wolves (C½ each) |
-| Standard | ×2 party level | 1 Knight (C3) + 6 Guards (C½) |
-| Hard | ×3 party level | 1 Young Dragon (C6) + 6 Cultists (C½) |
-| Deadly | ×4+ party level | 1 Ancient Dragon (C12) |
+#figure(align(center)[#table(
+  columns: (21.15%, 32.69%, 46.15%),
+  align: (auto, auto, auto,),
+  table.header([Difficulty], [Challenge Budget], [Example (Level 3 party)],),
+  [Easy], [× party level], [6 Wolves (C½ each)],
+  [Standard], [×2 party level], [1 Knight (C3) + 6 Guards (C½)],
+  [Hard], [×3 party level], [1 Young Dragon (C6) + 6 Cultists (C½)],
+  [Deadly], [×4+ party level], [1 Ancient Dragon (C12)],
+)], kind: table, numbering: none, outlined: false)
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Common Item Reference
+== Common Item Reference
 
-| Armor | DR | Stealth | Disc Req |
-|-------|-----|---------|----------|
-| Padded | 1 | | |
-| Leather | 2 | | |
-| Studded Leather | 2 | | 1 Armor |
-| Chain Shirt | 3 | Bane | 1 Armor |
-| Breastplate | 4 | | 2 Armor |
-| Half Plate | 4 | Bane | 2 Armor |
-| Chain Mail | 5 | Bane | 2 Armor |
-| Plate | 6 | Bane | 3 Armor |
+#figure(align(center)[#table(
+  columns: (22.58%, 16.13%, 29.03%, 32.26%),
+  align: (auto, auto, auto, auto,),
+  table.header([Armor], [DR], [Stealth], [Disc Req],),
+  [Padded], [1], [], [],
+  [Leather], [2], [], [],
+  [Studded Leather], [2], [], [1 Armor],
+  [Chain Shirt], [3], [Bane], [1 Armor],
+  [Breastplate], [4], [], [2 Armor],
+  [Half Plate], [4], [Bane], [2 Armor],
+  [Chain Mail], [5], [Bane], [2 Armor],
+  [Plate], [6], [Bane], [3 Armor],
+)], kind: table, numbering: none, outlined: false)
 
 *Half Plate, Chain Mail, and Plate reduce speed by 5 ft.*
 
-| Shield | Protection Req | DR Bonus |
-|--------|-----|----------|
-| Buckler | 1 | +1 |
-| Shield | 1 | +2 |
-| Tower Shield | 2 | +3, half cover |
+#figure(align(center)[#table(
+  columns: (25.81%, 41.94%, 32.26%),
+  align: (auto, auto, auto,),
+  table.header([Shield], [Protection Req], [DR Bonus],),
+  [Buckler], [1], [+1],
+  [Shield], [1], [+2],
+  [Tower Shield], [2], [+3, half cover],
+)], kind: table, numbering: none, outlined: false)
 
-**Defense summary:** Armor grants DR (passive damage reduction). Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields grant a DR bonus and the Shield Block reaction.
+*Defense summary:* Armor grants DR (passive damage reduction). Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields grant a DR bonus and the Shield Block reaction.
+```
