@@ -239,7 +239,7 @@ The Intellect embodies cerebral prowess and scholarly mastery. Your path is a re
 
 *Class Discipline (L1):* Any one (1) + Lore (1)
 
-*Signature, Knowledge Is Power:* Gain +1 to all Knowledge-based skill checks.
+*Signature, Knowledge Is Power:* Gain a Boon on all Knowledge-based skill checks.
 
 *Favored Skills:* History, Lore, Medicine, Arcana, Perception
 
@@ -555,7 +555,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
     columns: (21.43%, 14.29%, 23.81%, 21.43%, 19.05%),
     align: (auto, auto, auto, auto, auto,),
     table.header([Ability], [Tier], [Disc Req], [Trigger], [Effect]),
-    [*Tactical Insight*], [Novice], [1 Tactics], [At the start of combat], [Name one enemy weakness. All allies gain +1 on attacks against that enemy type for the encounter.],
+    [*Tactical Insight*], [Novice], [1 Tactics], [At the start of combat], [Name one enemy weakness. All allies gain a Boon on attacks against that enemy type for the encounter.],
     [*Field Study*], [Novice], [1 Lore], [When you fail a Knowledge-based skill check], [You may reroll it. Once per scene.],
     [*Focused Mind*], [Novice], [1 Lore], [As a Maneuver], [Once per scene, you may spend your Movement to gain a Boon on your next Knowledge-based check.],
     [*Assess*], [Novice], [1 Tactics], [As a Maneuver], [Choose one enemy. The DA reveals one resistance, weakness, or special ability it has. Once per scene.],
@@ -603,15 +603,15 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
     columns: (21.43%, 14.29%, 23.81%, 21.43%, 19.05%),
     align: (auto, auto, auto, auto, auto,),
     table.header([Ability], [Tier], [Disc Req], [Trigger], [Effect]),
-    [*Rallying Cry*], [Novice], [1 Protection], [As a maneuver], [All allies who can hear you gain +2 on their next initiative roll or are no longer Frightened.],
+    [*Rallying Cry*], [Novice], [1 Protection], [As a maneuver], [All allies who can hear you gain a Boon on their next initiative roll or are no longer Frightened.],
     [*Read the Room*], [Novice], [1 Tactics], [As a Maneuver], [Once per scene, choose one enemy; allies gain +1 damage tier against it until your next turn.],
     [*Battle Cry*], [Novice], [1 Tactics], [As a Maneuver], [Once per scene, all allies within 30 ft gain +1 damage tier on their next attack.],
     [*Form Up*], [Novice], [1 Tactics], [As a maneuver], [One ally within 30 ft may immediately move up to half their speed without provoking reactions. Once per scene.],
     [*Coordinated Strike*], [Adept], [1 Protection, 1 Blades], [When you hit an enemy], [The next ally to attack that enemy before your next turn deals +1 damage tier.],
     [*Flanking Order*], [Adept], [2 Tactics], [As a maneuver], [Choose one ally. Until your next turn, that ally deals +1 damage tier against enemies adjacent to you. Once per scene.],
     [*Hold Together*], [Adept], [1 Protection, 1 Tactics], [When an ally within 30 ft takes damage], [Reduce that damage by 6. Once per scene.],
-    [*Last Stand*], [Master], [2 Protection, 1 Energy], [When you are reduced to 0 HP], [You remain standing for 1 additional round. All allies within sight gain +2 on all rolls and are immune to Frightened for that round.],
-    [*Stalwart Resolve*], [Master], [2 Tactics, 1 Protection], [At the start of combat], [Allies who can see or hear you are immune to Frightened and gain +2 on Morale checks for the encounter. Once per encounter.],
+    [*Last Stand*], [Master], [2 Protection, 1 Energy], [When you are reduced to 0 HP], [You remain standing for 1 additional round. All allies within sight gain a double Boon on all rolls and are immune to Frightened for that round.],
+    [*Stalwart Resolve*], [Master], [2 Tactics, 1 Protection], [At the start of combat], [Allies who can see or hear you are immune to Frightened and gain a Boon on Morale checks for the encounter. Once per encounter.],
     [*Seize the Moment*], [Master], [2 Tactics, 1 Polearms], [When an ally reduces an enemy to 0 HP], [That ally immediately makes a free attack against another enemy within reach at +1 damage tier. Once per encounter.],
   )],
   kind: table,

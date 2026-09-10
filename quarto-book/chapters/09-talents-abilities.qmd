@@ -76,11 +76,11 @@ The talents below are general. Any class may take any of them.
 
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
 
-*Novice:* +1 to checks against fear and charm.
+*Novice:* Boon on checks against fear and charm.
 
-*Adept:* +2 to checks against fear and charm.
+*Adept:* Double Boon on checks against fear and charm.
 
-*Master:* +3 to checks against fear and charm.
+*Master:* Triple Boon on checks against fear and charm.
 
 === Guarding Stance (Talent)
 
@@ -136,11 +136,11 @@ The talents below are general. Any class may take any of them.
 
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell
 
-*Novice:* +1 to spell rolls for one Discipline you choose.
+*Novice:* Boon on spell rolls for one Discipline you choose.
 
-*Adept:* +2 to spell rolls for one Discipline you choose.
+*Adept:* Double Boon on spell rolls for one Discipline you choose.
 
-*Master:* +3 to spell rolls for one Discipline you choose.
+*Master:* Triple Boon on spell rolls for one Discipline you choose.
 
 === Spell Reservoir (Talent)
 

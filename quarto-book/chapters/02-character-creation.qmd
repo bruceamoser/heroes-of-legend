@@ -384,7 +384,7 @@ Total: 8 DP. All spent.
 
 Total: 10 DP. All spent.
 
-*Class:* Intellect. Gains 1 Lore, 1 any (takes Tactics). Signature: *Knowledge Is Power*, +1 to all Knowledge-based skill checks.
+*Class:* Intellect. Gains 1 Lore, 1 any (takes Tactics). Signature: *Knowledge Is Power*, Boon on all Knowledge-based skill checks.
 
 *Class DP (8 DP):*
 
@@ -461,7 +461,7 @@ Total: 8 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Class:* Leader. Gains 1 Tactics, 1 Protection. Signature: *Lead by Example*, on a telling blow, grant one ally +2 on their next roll.
+*Class:* Leader. Gains 1 Tactics, 1 Protection. Signature: *Lead by Example*, on a telling blow, grant one ally a Boon on their next roll.
 
 *Class DP (8 DP):*
 
