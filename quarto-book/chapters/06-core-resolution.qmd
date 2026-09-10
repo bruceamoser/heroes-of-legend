@@ -75,7 +75,7 @@ These damage values come from the damage budget table (@sec-damage-budget). Ther
 DR (Damage Reduction) subtracts from incoming damage: each point of DR negates 1 (minimum 1 damage from any hit). A hero with Brawn +2 landing a Strong longsword strike deals 5 damage (3 Strong + 2 Brawn). A goblin with no armor takes it all. A knight in plate armor (DR 6) would only take the minimum 1.
 
 #callout(type: "tip", title: "Why Always-Hit Makes Better Fights", body: [
-Think about your favorite movie battle. The hero never stands there missing for six seconds while you audience checks your phone. Every exchange advances the fight, a clash, a parry, a glancing blow, a telling strike. That's what always-hit delivers. Combat moves fast. Every round, something changes. Your 3d6 roll isn't "do I hit?", it's "how much does this hurt?"
+Think about your favorite movie battle. The hero never stands there missing for six seconds while the audience checks their phones. Every exchange advances the fight, a clash, a parry, a glancing blow, a telling strike. That's what always-hit delivers. Combat moves fast. Every round, something changes. Your 3d6 roll isn't "do I hit?", it's "how much does this hurt?"
 ])
 
 == Players Make All Rolls
@@ -226,7 +226,7 @@ Not every task is created equal. The DA sets a difficulty modifier based on how 
 #label("tbl-difficulty-modifiers")
 
 #callout(type: "note", title: "When to Roll", body: [
-Only roll when failure is interesting. If the hero has time, tools, and training, they just succeed, no roll required. The dice come out when there's pressure, risk, and a genuine chance of things going sideways.
+Only roll when failure is interesting. If the hero has time, tools, and training, they just succeed, no roll required. The dice come out when there's pressure, risk, or a genuine chance of things going sideways.
 ])
 
 #pagebreak()
