@@ -3,12 +3,11 @@
 ```{=typst}
 #label("sec-chapter-gm-guidance")
 
-#figure(image("assets/images/page103-img042.jpeg", width: 60%),
-  caption: [Illo 26: GM Guidance Art],
-)
+#image("assets/images/page103-img042.jpeg", width: 60%)
 
-_Illustration 26: GM guidance chapter art (Titles / GM section). Placeholder; final art TBD. Dimensions: 1024×1024._
+_Figure 21.1: Dungeon Architect's Guide_
 
+_Placeholder for final art._
 #pagebreak()
 
 So you're the Dungeon Architect. You've read the rules, you've helped your players build their heroes, and now everyone's looking at you, waiting for the world to appear. No pressure.
@@ -376,12 +375,11 @@ _The Sunken Vault_ teaches the game in layers. Scene 1 is social mechanics. Scen
 
 #pagebreak()
 
-#figure(image("assets/images/page106-img043.jpeg", width: 60%),
-  caption: [Illo 27: GM Guidance Second Art],
-)
+#image("assets/images/page106-img043.jpeg", width: 60%)
 
-_Illustration 27: GM guidance chapter second art (Bestiary cover). Placeholder; final art TBD. Dimensions: 584×584._
+_Figure 21.2: Dungeon Architect's Guide,_
 
+_Placeholder for final art._
 #pagebreak()
 
 == Faction System

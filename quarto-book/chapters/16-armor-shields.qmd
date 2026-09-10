@@ -3,12 +3,11 @@
 ```{=typst}
 #label("sec-chapter-armor-shields")
 
-#figure(image("assets/images/page101-img039.png", width: 60%),
-  caption: [Illo 23: Armor Illustration],
-)
+#image("assets/images/page101-img039.png", width: 60%)
 
-_Illustration 23: Armor & shields chapter art (Armor & shields). Placeholder; final art TBD. Dimensions: 1024×1024._
+_Figure 18.1: Armor & Shields_
 
+_Placeholder for final art._
 #pagebreak()
 
 Armor isn't about avoiding hits. Hits happen, that's the always-hit rule in action. Armor is about surviving them. Every point of Damage Reduction is one more swing you can take before you go down. Choose wisely.

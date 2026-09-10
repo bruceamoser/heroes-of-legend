@@ -30,8 +30,7 @@ Printed in TBD
 
 #image("assets/images/page001-img001.png", width: 60%)
 
-_Illustration 1: Cover art for Heroes of Legend. Placeholder; final art TBD. Dimensions: 1308×1693._
-
+_Placeholder for final art._
 #pagebreak()
 
 == Credits

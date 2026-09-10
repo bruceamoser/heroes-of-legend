@@ -3,12 +3,11 @@
 ```{=typst}
 #label("sec-chapter-license")
 
-#figure(image("assets/svg/placeholder-section.svg", width: 60%),
-  caption: [Illo 32: License],
-)
+#image("assets/svg/placeholder-section.svg", width: 60%)
 
-_Illustration 32: License chapter placeholder. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300._
+_Figure 25.1: License_
 
+_Placeholder for final art._
 #pagebreak()
 
 == Open Game License Version 1.0a

@@ -5,8 +5,7 @@
 
 #image("assets/images/page008-img004.jpeg", width: 60%)
 
-_Illustration 4: Opening fiction header art (Player's Scene). Placeholder; final art TBD. Dimensions: 1024×1024._
-
+_Placeholder for final art._
 #pagebreak()
 
 Kael pressed his back against the cold stone, breath misting in the darkness. Somewhere above, the temple groaned, ancient foundations shifting after centuries of silence. His sword hand trembled, but not from fear. The flame crawling up the blade's edge answered to him now, and it was _hungry_.

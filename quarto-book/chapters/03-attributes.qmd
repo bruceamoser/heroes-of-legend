@@ -4,9 +4,9 @@
 #label("sec-chapter-attributes")
 
 // Rationale: Chapter opener at 80% width: six iconic figures embody the six core attributes, giving each attribute a visual identity before the rules explain them.
-#figure(image("assets/images/placeholder-ch03-attributes.png", width: 80%),
-  caption: [Placeholder: Six iconic figures embodying the attributes: Brawn (warrior), Fortitude (dwarf), Agility (elf archer), Guile (rogue), Knowledge (scholar), Reason (wizard).],
-)
+#image("assets/images/placeholder-ch03-attributes.png", width: 80%)
+
+_Figure 5.1: Attributes_
 
 #pagebreak()
 

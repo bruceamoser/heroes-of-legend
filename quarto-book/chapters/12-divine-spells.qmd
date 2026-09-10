@@ -3,12 +3,11 @@
 ```{=typst}
 #label("sec-chapter-divine-spells")
 
-#figure(image("assets/images/page040-img028.jpeg", width: 60%),
-  caption: [Illo 19: Divine Spells Art],
-)
+#image("assets/images/page040-img028.jpeg", width: 60%)
 
-_Illustration 19: Divine spells chapter art (Unbalanced class). Placeholder; final art TBD. Dimensions: 1024×1024._
+_Figure 14.1: Divine Spells_
 
+_Placeholder for final art._
 #pagebreak()
 
 Divine magic isn't earned, it's given. You don't study it. You don't master it through repetition and force of will. You open yourself to something bigger than you, a god, a cause, the light between stars, and it flows through you. Or it doesn't. That part's not up to you.

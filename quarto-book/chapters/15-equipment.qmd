@@ -3,10 +3,11 @@
 ```{=typst}
 #label("sec-chapter-equipment")
 
-#figure(image("assets/images/page095-img037.jpeg", width: 60%), caption: [Illo 22: Equipment Art])
+#image("assets/images/page095-img037.jpeg", width: 60%)
 
-_Illustration 22: Equipment chapter art. Placeholder; final art TBD. Dimensions: 713×693._
+_Figure 17.1: Equipment_
 
+_Placeholder for final art._
 #pagebreak()
 
 Your hero is going to need gear. A sword, some armor, a rope, a torch, a bedroll, and probably a ten-foot pole because someone at the table has read about pit traps. Equipment is the stuff between your hero and a bad day. Choose it well.
@@ -113,10 +114,11 @@ Slot-based system. You have 10 + (Brawn x 5) slots, with a floor of 5. Even a Br
 
 A hero with Brawn +1 has 15 slots. A longsword (1 slot), a backpack (2 slots), a bedroll (2), a waterskin (1), torches (1), a quiver (1), and a dagger (1) is 9 slots. The remaining 6 slots cover the oddities, the spare rope, the lantern, the thing you picked up in the cellar that might be worth something.
 
-#figure(image("assets/svg/placeholder-section.svg", width: 60%), caption: [Illo 37: Equipment Midpoint])
+#image("assets/svg/placeholder-section.svg", width: 60%)
 
-_Illustration 37: Equipment chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300._
+_Figure 17.2: Equipment,_
 
+_Placeholder for final art._
 #pagebreak()
 
 == Adventuring Gear

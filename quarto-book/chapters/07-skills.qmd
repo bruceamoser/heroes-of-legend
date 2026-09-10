@@ -4,9 +4,9 @@
 #label("sec-chapter-skills")
 
 // Rationale: Chapter opener at 80% width: an arcanist multi-tasking, showing the breadth of skills available to heroes in a single evocative image.
-#figure(image("assets/images/placeholder-ch07-skills.png", width: 80%),
-  caption: [Placeholder: An arcanist studying an ancient scroll while simultaneously picking a lock, showing the breadth of skills available to heroes.],
-)
+#image("assets/images/placeholder-ch07-skills.png", width: 80%)
+
+_Figure 9.1: Skills_
 
 #pagebreak()
 
@@ -119,12 +119,11 @@ Now Kael wants to shove a heavy crate off a collapsing ledge to buy the party ti
 
 #pagebreak()
 
-#figure(image("assets/svg/placeholder-section.svg", width: 60%),
-  caption: [Illo 33: Skills Midpoint],
-)
+#image("assets/svg/placeholder-section.svg", width: 60%)
 
-_Illustration 33: Skills chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300._
+_Figure 9.2: Skills_
 
+_Placeholder for final art._
 #pagebreak()
 
 == The 23 Skills

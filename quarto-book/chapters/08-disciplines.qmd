@@ -4,9 +4,9 @@
 #label("sec-chapter-disciplines")
 
 // Rationale: Chapter opener at 80% width: a shepherd tending magical creatures in a peaceful glade, representing the discipline of care and guidance.
-#figure(image("assets/images/placeholder-ch08-disciplines.png", width: 80%),
-  caption: [Placeholder: A shepherd tending to magical creatures in a peaceful glade, representing the discipline of care and guidance.],
-)
+#image("assets/images/placeholder-ch08-disciplines.png", width: 80%)
+
+_Figure 10.1: Disciplines_
 
 #pagebreak()
 

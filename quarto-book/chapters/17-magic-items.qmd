@@ -3,10 +3,11 @@
 ```{=typst}
 #label("sec-chapter-magic-items")
 
-#figure(image("assets/images/page102-img040.jpeg", width: 60%), caption: [Illo 24: Magic Items Art])
+#image("assets/images/page102-img040.jpeg", width: 60%)
 
-_Illustration 24: Magic items chapter art. Placeholder; final art TBD. Dimensions: 654×654._
+_Figure 19.1: Magic Items_
 
+_Placeholder for final art._
 #pagebreak()
 
 Magic items are the treasures your hero will remember long after the hit points are tallied. Every one is a named, unique card: a single object with a story, found in a dragon's hoard or a dead king's tomb, never bought from a shop. You will never find a generic +1 sword. You will find a sword that bursts into flame when you speak its name, and that is a story.
@@ -29,10 +30,11 @@ Every magic item is a card, the same shape as a talent or ability card (see @sec
 
 #pagebreak()
 
-#figure(image("assets/svg/placeholder-section.svg", width: 60%), caption: [Illo 38: Magic Items Midpoint])
+#image("assets/svg/placeholder-section.svg", width: 60%)
 
-_Illustration 38: Magic items chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300._
+_Figure 19.2: Magic Items,_
 
+_Placeholder for final art._
 #pagebreak()
 
 == Magic Items

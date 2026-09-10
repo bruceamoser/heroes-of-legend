@@ -3,10 +3,11 @@
 ```{=typst}
 #label("sec-chapter-talents-abilities")
 
-#figure(image("assets/images/page037-img025.png", width: 60%), caption: [Illo 16: Talents Art])
+#image("assets/images/page037-img025.png", width: 60%)
 
-_Illustration 16: Talents & abilities chapter art (Intellect class). Placeholder; final art TBD. Dimensions: 1024×1024._
+_Figure 11.1: Talents & Abilities_
 
+_Placeholder for final art._
 #pagebreak()
 
 Talents are passive. They change your numbers or grant a standing benefit, and they are always on. Abilities are active. Spells, weapon maneuvers, and class powers must be activated to use. Both use the card format below.

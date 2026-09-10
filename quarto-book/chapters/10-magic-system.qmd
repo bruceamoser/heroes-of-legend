@@ -3,10 +3,11 @@
 ```{=typst}
 #label("sec-chapter-magic-system")
 
-#figure(image("assets/images/page038-img026.jpeg", width: 60%), caption: [Illo 17: Magic System Art])
+#image("assets/images/page038-img026.jpeg", width: 60%)
 
-_Illustration 17: Magic system chapter art (Odd class). Placeholder; final art TBD. Dimensions: 680×989._
+_Figure 12.1: Magic System_
 
+_Placeholder for final art._
 #pagebreak()
 
 Let's get one thing straight before we start: in _Heroes of Legend_, magic always fires. Always. No spell slots. No mana pool. No "sorry, I used my good spell already." When you cast, the magic happens. Your fire burns until _you_ decide it stops. The only question is how hard.

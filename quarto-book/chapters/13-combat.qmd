@@ -3,10 +3,11 @@
 ```{=typst}
 #label("sec-chapter-combat")
 
-#figure(image("assets/images/page075-img029.jpeg", width: 60%), caption: [Illo 20: Combat Art])
+#image("assets/images/page075-img029.jpeg", width: 60%)
 
-_Illustration 20: Combat chapter art (Character traits / combat). Placeholder; final art TBD. Dimensions: 1024×1024._
+_Figure 15.1: Combat_
 
+_Placeholder for final art._
 #pagebreak()
 
 Listen up. Combat in _Heroes of Legend_ is fast, cinematic, and unforgiving.
@@ -430,10 +431,11 @@ Positioning matters. If you're standing in the open trading shots with archers, 
 
 #pagebreak()
 
-#figure(image("assets/svg/placeholder-section.svg", width: 60%), caption: [Illo 36: Combat Midpoint])
+#image("assets/svg/placeholder-section.svg", width: 60%)
 
-_Illustration 36: Combat chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300._
+_Figure 15.2: Combat,_
 
+_Placeholder for final art._
 #pagebreak()
 
 == Worked Example: A Full Combat Round

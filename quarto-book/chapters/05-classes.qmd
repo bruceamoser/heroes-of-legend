@@ -4,9 +4,9 @@
 #label("sec-chapter-classes")
 
 // Rationale: Chapter opener at 80% width: the nine core classes in iconic poses, establishing class identity and inviting players to imagine their hero's calling.
-#figure(image("assets/images/placeholder-ch05-classes.png", width: 80%),
-  caption: [Placeholder: A lineup of the nine core classes in iconic poses: Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced, and Shadow.],
-)
+#image("assets/images/placeholder-ch05-classes.png", width: 80%)
+
+_Figure 7.1: Classes_
 
 #pagebreak()
 
@@ -135,9 +135,9 @@ A Blade doesn't trade blows, they choose the moment, the angle, the vulnerabilit
 #pagebreak()
 
 // Rationale: Mid-chapter visual break at 60% width: three adventurers in action poses showing class roles in combat.
-#figure(image("assets/images/placeholder-ch05-classes-second.png", width: 60%),
-  caption: [Placeholder: Three adventurers in action poses: a Protector shielding allies, a Warrior charging forward, and an Arcanist casting from behind.],
-)
+#image("assets/images/placeholder-ch05-classes-second.png", width: 60%)
+
+_Figure 7.2: Classes_
 
 #pagebreak()
 
@@ -369,9 +369,9 @@ Battle Cry is the Leader's secondary ability; see the table below.
 #pagebreak()
 
 // Rationale: Mid-chapter visual break at 60% width: a Protector standing firm against a monstrous foe, illustrating the class’s defensive role.
-#figure(image("assets/images/placeholder-ch05-classes-third.png", width: 60%),
-  caption: [Placeholder: A Protector class hero standing firm against a monstrous foe, shield raised, light emanating from their defensive stance.],
-)
+#image("assets/images/placeholder-ch05-classes-third.png", width: 60%)
+
+_Figure 7.3: Classes_
 
 #pagebreak()
 
