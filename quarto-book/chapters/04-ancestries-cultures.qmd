@@ -160,7 +160,7 @@ Your culture is how you were raised. It's not just flavor, it's the skills and D
 == Ancestry Gifts
 #label("sec-ancestry-gifts")
 
-Gifts follow the same tier ladder and the same 2/4/8 DP cost as class abilities, but they are innate rather than learned: **the only requirement is the ancestry itself.** A gift has no Discipline prerequisites.
+Gifts follow the same tier ladder and the same 2/4/8 DP cost as class abilities, but they are innate rather than learned: *the only requirement is the ancestry itself.* A gift has no Discipline prerequisites.
 
 *Rule:* No ancestry gift may out-perform a class ability at the same tier. Where a gift resembles a class ability, the class ability wins. These are flavor, not shortcuts. A Human can't out-heal a Shepherd. An Elf can't out-stab a Blade. Gifts are your birthright, not your class replacement.
 
