@@ -27,7 +27,7 @@ Your class gives you a Discipline, a signature ability, and cheaper access to ce
 | **Protector** | Tank, defender | Armor (1) + 1 any Weapon | **Bastion**, defensive stance |
 | **Blade** | Assassin, precision | Blades (1) + Stealth (1) | **Swift Blade** |
 | **Arcanist** | Arcane caster | Energy (1) + Fire (1) | **Arcane Shield** |
-| **Shepherd** | Divine guide | Protection (1) + Animal (1) | **Turn Unholy** |
+| **Shepherd** | Divine guide | Protection (1) + Animal (1) | **Unholy Word** |
 | **Intellect** | Scholar, strategist | Any one (1) + Lore (1) | **Knowledge Is Power** |
 | **Odd** | Chaos wildcard | Any one, different category (1) + 1 any, different category | **Eccentric Spellcasting** |
 | **Leader** | Commander | Tactics (1) + Protection (1) | **Lead by Example** |
@@ -85,7 +85,7 @@ The Blade masters the art of finesse and precision, favoring the swift elegance 
 
 **Class Discipline (L1):** Blades (1) + Stealth (1)
 
-**Signature, Swift Blade:** You may use Agility instead of Brawn when attacking with blades. Gain the **Precise Stab** ability, bonus damage when exploiting an opening.
+**Signature, Swift Blade:** You may use Agility instead of Brawn when attacking with blades. When you exploit an opening (a target that is Dazed, Prone, or unaware of you), the attack deals +1 damage tier. Once per scene.
 
 **Favored Skills:** Acrobatics, Deception, Perception, Sleight of Hand, Stealth, Thievery
 
@@ -169,7 +169,7 @@ The Shepherd stands as a beacon of guidance, providing moral direction and harne
 
 **Class Discipline (L1):** Protection (1) + Animal (1)
 
-**Signature, Turn Unholy:** Call down divine energy that ignores armor and affects only undead creatures within your presence. Your faith burns what should not walk.
+**Signature, Unholy Word:** Call down divine energy that ignores armor and affects only undead creatures within your presence. Your faith burns what should not walk.
 
 **Favored Skills:** Medicine, Nature, Religion, Survival
 
@@ -428,12 +428,12 @@ Your damage doesn't come from brute force. It comes from never being where the e
 
 The nine classes cluster into four archetypes, each with its own flavor and its own pool of class abilities. These aren't subclasses, they're families. A Protector and an Unbalanced feel different at the table, but they both solve problems with force. An Arcanist and an Intellect feel different, but they both solve problems with knowledge.
 
-| Archetype | Classes | Ability Pool | Vibe |
-|-----------|---------|-------------|------|
-| **Mage** | Arcanist, Intellect | 8 | Power through knowledge. Spells, wards, the right word at the right time. |
-| **Priest** | Shepherd, Leader | 8 | Power through faith. Healing, protection, inspiration. |
-| **Thief** | Blade, Shadow | 9 | Power through precision. Damage, infiltration, the unseen strike. |
-| **Fighter** | Protector, Unbalanced | 6 | Power through force. Defense, chaos, standing in the gap. |
+| Archetype | Classes | Vibe |
+|-----------|---------|------|
+| **Mage** | Arcanist, Intellect | Power through knowledge. Spells, wards, the right word at the right time. |
+| **Priest** | Shepherd, Leader | Power through faith. Healing, protection, inspiration. |
+| **Thief** | Blade, Shadow | Power through precision. Damage, infiltration, the unseen strike. |
+| **Fighter** | Protector, Unbalanced | Power through force. Defense, chaos, standing in the gap. |
 
 The **Odd** occupies no archetype. It is the pure wildcard, its abilities sampling all four archetype flavors. The Odd is the exception that proves the four-way rule. It doesn't fit. It's not supposed to.
 
@@ -445,7 +445,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 
 ### Mage Abilities (Arcanist & Intellect)
 
-**Arcanist**
+#### Arcanist
 
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
@@ -460,7 +460,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | **Spellstorm** | Master | 2 Energy, 1 Fire | When you cast a Master spell | One additional creature within 30 ft takes 9 damage of the spell's type. Once per scene. |
 | **Spell Dominance** | Master | 2 Energy, 1 Mind | When an enemy within 30 ft casts a spell | The spell is countered, and you may cast it once at Novice tier this scene. Once per session. |
 
-**Intellect**
+#### Intellect
 
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
@@ -475,11 +475,9 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | **Master Strategist** | Master | 2 Tactics, 1 Mind | At the start of combat | All allies gain a Boon on their first attack and on their initiative roll. Once per encounter. |
 | **Encyclopedic Mind** | Master | 2 Lore, 1 Mind | When you make a Knowledge-based check | You gain a Boon on the roll, and a Weak result counts as Standard. |
 
-{{< pagebreak >}}
-
 ### Priest Abilities (Shepherd & Leader)
 
-**Shepherd**
+#### Shepherd
 
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
@@ -494,26 +492,24 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | **Radiant Ward** | Master | 2 Protection, 1 Religion | As an action | One ally within 30 ft gains 9 temporary HP. The first enemy to strike them takes 9 radiant damage. Once per session. |
 | **Herald of the Wild** | Master | 2 Animal, 1 Life | As an action | Call a spectral beast that fights at your side for the encounter. Its first attack deals 15 damage. Once per session. |
 
-**Leader**
+#### Leader
 
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
-| **Rallying Cry** | Novice | 1 Protection | As a maneuver | All allies who can hear you gain +2 on their next initiative roll or remove one Fear effect. |
+| **Rallying Cry** | Novice | 1 Protection | As a maneuver | All allies who can hear you gain +2 on their next initiative roll or are no longer Frightened. |
 | **Read the Room** | Novice | 1 Tactics | As a Maneuver | Once per scene, choose one enemy; allies gain +1 damage tier against it until your next turn. |
 | **Battle Cry** | Novice | 1 Tactics | As a Maneuver | Once per scene, all allies within 30 ft gain +1 damage tier on their next attack. |
 | **Form Up** | Novice | 1 Tactics | As a maneuver | One ally within 30 ft may immediately move up to half their speed without provoking reactions. Once per scene. |
 | **Coordinated Strike** | Adept | 1 Protection, 1 Blades | When you hit an enemy | The next ally to attack that enemy before your next turn deals +1 damage tier. |
 | **Flanking Order** | Adept | 2 Tactics | As a maneuver | Choose one ally. Until your next turn, that ally deals +1 damage tier against enemies adjacent to you. Once per scene. |
 | **Hold Together** | Adept | 1 Protection, 1 Tactics | When an ally within 30 ft takes damage | Reduce that damage by 6. Once per scene. |
-| **Last Stand** | Master | 2 Protection, 1 Energy | When you are reduced to 0 HP | You remain standing for 1 additional round. All allies within sight gain +2 on all rolls and immunity to Fear for that round. |
-| **Stalwart Resolve** | Master | 2 Tactics, 1 Protection | At the start of combat | Allies who can see or hear you gain immunity to Fear and +2 on Morale checks for the encounter. Once per encounter. |
+| **Last Stand** | Master | 2 Protection, 1 Energy | When you are reduced to 0 HP | You remain standing for 1 additional round. All allies within sight gain +2 on all rolls and are immune to Frightened for that round. |
+| **Stalwart Resolve** | Master | 2 Tactics, 1 Protection | At the start of combat | Allies who can see or hear you are immune to Frightened and gain +2 on Morale checks for the encounter. Once per encounter. |
 | **Seize the Moment** | Master | 2 Tactics, 1 Polearms | When an ally reduces an enemy to 0 HP | That ally immediately makes a free attack against another enemy within reach at +1 damage tier. Once per encounter. |
-
-{{< pagebreak >}}
 
 ### Thief Abilities (Blade & Shadow)
 
-**Blade**
+#### Blade
 
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
@@ -528,7 +524,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | **Death Mark** | Master | 2 Blades, 1 Archery | When you reduce a target to 0 HP | You may immediately make a free attack against another target within reach at +1 damage tier. |
 | **Assassin's Edge** | Master | 2 Blades, 1 Stealth | When you attack from concealment or invisibility | The attack automatically deals Strong damage (21). Once per session. |
 
-**Shadow**
+#### Shadow
 
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
@@ -539,15 +535,13 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | **Cut and Run** | Novice | 1 Blades | When you hit with a melee attack | Move up to 10 feet without provoking reactions. |
 | **Shadow Strike** | Adept | 1 Stealth, 1 Sleight | When you attack from Vanish invisibility | The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene. |
 | **Smoke Veil** | Adept | 1 Stealth, 1 Sleight | As an action | Grant heavy concealment in a 10-ft radius for 1 round, then you may Vanish as part of this action. |
-| **Fade** | Adept | 1 Stealth, 1 Mind | When you are hit by an attack | You may Vanish immediately, before damage is applied. Once per scene. |
+| **Phantom Step** | Adept | 1 Stealth, 1 Mind | When you are hit by an attack | You may Vanish immediately, before damage is applied. Once per scene. |
 | **Ghost** | Master | 2 Stealth, 1 Mind | When you Vanish successfully on a Strong stealth result | You may remain invisible until the end of the encounter or until you attack. Your first attack from this extended Vanish deals +1 damage tier. Once per session. |
 | **Filch** | Master | 2 Stealth, 1 Sleight | As an action | Steal one carried item from a target within 30 ft without a roll. Once per session. |
 
-{{< pagebreak >}}
-
 ### Fighter Abilities (Protector & Unbalanced)
 
-**Protector**
+#### Protector
 
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
@@ -555,14 +549,14 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | **Shield Bash** | Novice | 1 Armor | When you hit with a melee attack | On a Strong result, knock the target Prone. Once per turn. |
 | **Challenge** | Novice | 1 Protection | As a maneuver | One enemy within 30 ft has Bane on attacks that do not target you until your next turn. |
 | **Vicious Riposte** | Novice | 1 Blades | When an enemy deals Weak damage to you with a melee attack | Make a free attack against it that deals Weak damage (2). Once per turn. |
-| **Immovable** | Adept | 1 Armor, 1 Protection | When an effect would push, pull, or knock you prone | You are unaffected. If the effect also dealt damage, reduce it by your Armor value. |
+| **Unshakeable** | Adept | 1 Armor, 1 Protection | When an effect would push, pull, or knock you prone | You are unaffected. If the effect also dealt damage, reduce it by your Armor value. |
 | **Bulwark** | Adept | 1 Armor, 1 Protection | As an action | You and all adjacent allies gain +2 DR until the start of your next turn. |
 | **Overrun** | Adept | 1 Heavy Weapon, 1 Unarmed | When you move and attack an enemy in the same turn | The enemy is knocked Prone before you deal damage. Once per turn. |
 | **Ironhide** | Adept | 2 Armor | When you take damage | Reduce it by your Armor value, then gain +1 DR until the start of your next turn. |
-| **Hold the Line** | Master | 2 Protection, 1 Armor | As an action | For 1 minute, you cannot be moved by any effect short of a deity. Enemies adjacent to you at the start of their turn are rooted (speed 0) until they leave your reach. |
+| **Hold the Line** | Master | 2 Protection, 1 Armor | As an action | For 1 minute, you cannot be moved by any effect short of a deity. Enemies adjacent to you at the start of their turn cannot move until they leave your reach. |
 | **Unbreakable** | Master | 2 Armor, 1 Protection | When you are reduced to 0 HP | You instead drop to 1 HP and gain 15 temporary HP. Once per session. |
 
-**Unbalanced**
+#### Unbalanced
 
 | Ability | Tier | Disc Req | Trigger | Effect |
 |---------|------|----------|---------|--------|
@@ -573,11 +567,9 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
 | **Volatile Surge** | Adept | 1 Energy, 1 Fire | When you cast a spell and roll Strong | The spell's area of effect doubles. Enemies in the expanded zone take half damage. Allies in the expanded zone take 2 damage. |
 | **Volatile Echo** | Adept | 1 Energy, 1 Plants | When you cast a spell and roll Weak | The spell deals Standard damage instead, and one enemy adjacent to the target takes 6 damage of the spell's type. Once per scene. |
 | **Devour** | Adept | 1 Energy, 1 Animal | As an action | One enemy within 30 ft takes 6 damage, and you heal 6 HP. Once per scene. |
-| **Unmake** | Master | 2 Energy, 1 Fire | When you reduce a target to 0 HP with a spell | The target disintegrates as per the Disintegrate spell (no body, no resurrection short of Master-tier divine). You gain 2 Corruption. |
+| **Unmake** | Master | 2 Energy, 1 Fire | When you reduce a target to 0 HP with a spell | The target's body is reduced to ash, and nothing remains behind. Resurrection requires Master-tier divine magic. You gain 2 Corruption. |
 | **Annihilate** | Master | 2 Energy, 1 Fire | As an action | One enemy within 60 ft takes 15 damage, and you gain 1 Corruption. Once per scene. |
 | **Overload** | Master | 3 Energy | When you cast a spell and roll Strong | The spell deals +1 damage tier and strikes one additional target within 30 ft for 9 damage. You gain 1 Corruption. Once per session. |
-
-{{< pagebreak >}}
 
 ### Odd Abilities
 
@@ -600,7 +592,7 @@ The Odd's abilities are few but strange: Improvised Solution, Wrong Context, Eve
 
 ## Progression
 
-You gain Development Points each level (see @sec-chapter-advancement for the full progression). Spend them all, they don't carry over.
+You gain Development Points each level (see @sec-chapter-advancement for the full progression). Unspent DP carries over to your next level, so saving toward an 8 DP Master card is a real strategy.
 
 **Adept** abilities unlock at Level 3. **Master** abilities unlock at Level 7. Until then, everything you buy is Novice.
 
