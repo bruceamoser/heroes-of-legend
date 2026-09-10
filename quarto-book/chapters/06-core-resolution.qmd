@@ -4,9 +4,9 @@
 #label("sec-chapter-core-resolution")
 
 // Rationale: Chapter opener at 80% width: three dice tumbling with glowing success-tier trails, visually introducing the core mechanic before the rules explain it.
-#figure(image("assets/images/placeholder-ch06-core-resolution.png", width: 80%),
-  caption: [Placeholder: Three six-sided dice tumbling through the air in slow motion, each showing a different face, with glowing trails representing success tiers.],
-)
+#image("assets/images/placeholder-ch06-core-resolution.png", width: 80%)
+
+_Figure 8.1: Core Resolution_
 
 #pagebreak()
 

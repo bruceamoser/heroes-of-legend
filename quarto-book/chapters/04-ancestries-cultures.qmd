@@ -4,9 +4,9 @@
 #label("sec-chapter-ancestries")
 
 // Rationale: Chapter opener at 80% width: ancestries gathered around a campfire, establishing the fantasy of diverse peoples sharing stories before the rules detail each one.
-#figure(image("assets/images/placeholder-ch04-ancestries.png", width: 80%),
-  caption: [Placeholder: A gathering of different ancestries around a campfire: human, elf, dwarf, and halfling representatives sharing stories.],
-)
+#image("assets/images/placeholder-ch04-ancestries.png", width: 80%)
+
+_Figure 6.1: Ancestries_
 
 #pagebreak()
 
@@ -101,9 +101,9 @@ Halflings receive the Blades Discipline, quick steel and quicker hands. Their *L
 _Common halfling names:_ Bramble, Cora, Dabney, Eglantine, Finn, Lottie, Makeva, Nettle, Pip, Rufus, Tansy.
 
 // Rationale: Mid-chapter visual break at 60% width: two figures exchanging a greeting, highlighting cultural diversity within the same ancestry.
-#figure(image("assets/images/placeholder-ch04-ancestries-second.png", width: 60%),
-  caption: [Placeholder: Two figures from different cultures exchanging a traditional greeting, highlighting cultural diversity within the same ancestry.],
-)
+#image("assets/images/placeholder-ch04-ancestries-second.png", width: 60%)
+
+_Figure 6.2: Ancestries_
 
 #pagebreak()
 

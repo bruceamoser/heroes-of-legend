@@ -3,12 +3,11 @@
 ```{=typst}
 #label("sec-chapter-advancement")
 
-#figure(image("assets/images/page103-img041.png", width: 60%),
-  caption: [Illo 25: Advancement Art],
-)
+#image("assets/images/page103-img041.png", width: 60%)
 
-_Illustration 25: Advancement chapter art (Titles). Placeholder; final art TBD. Dimensions: 572×572._
+_Figure 20.1: Advancement_
 
+_Placeholder for final art._
 #pagebreak()
 
 Your hero doesn't stay the same person who kicked down their first door. Every adventure leaves a mark: a new technique mastered, a spell perfected, a scar that tells a story. Advancement in _Heroes of Legend_ isn't about filling an XP bar. It's about your hero becoming more of who they already are, or surprising everyone by becoming someone new.

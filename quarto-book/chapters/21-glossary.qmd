@@ -3,12 +3,11 @@
 ```{=typst}
 #label("sec-chapter-glossary")
 
-#figure(image("assets/images/page111-img046.jpeg", width: 60%),
-  caption: [Illo 30: Glossary Art],
-)
+#image("assets/images/page111-img046.jpeg", width: 60%)
 
-_Illustration 30: Glossary / appendices chapter art (Final page art). Placeholder; final art TBD. Dimensions: 1024×1024._
+_Figure 23.1: Glossary_
 
+_Placeholder for final art._
 #pagebreak()
 
 Every mechanical term used in this book, defined in one place. If you hit a word you don't recognize, start here.

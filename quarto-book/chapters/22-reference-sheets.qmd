@@ -3,10 +3,11 @@
 ```{=typst}
 #label("sec-chapter-reference-sheets")
 
-#figure(image("assets/svg/placeholder-section.svg", width: 60%), caption: [Illo 31: Reference Sheets])
+#image("assets/svg/placeholder-section.svg", width: 60%)
 
-_Illustration 31: Reference sheets chapter placeholder._
+_Figure 24.1: Quick Reference Sheets_
 
+_Placeholder for final art._
 #pagebreak()
 
 Tear these pages out. Photocopy them. Keep them behind your DA screen or next to your character sheet. When the dice are rolling and the table is loud, these are the numbers you need.

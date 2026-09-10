@@ -3,12 +3,11 @@
 ```{=typst}
 #label("sec-chapter-bestiary")
 
-#figure(image("assets/images/page106-img044.jpeg", width: 60%),
-  caption: [Illo 28: Bestiary Art],
-)
+#image("assets/images/page106-img044.jpeg", width: 60%)
 
-_Illustration 28: Bestiary chapter art (Bestiary cover). Final art TBD._
+_Figure 22.1: Bestiary_
 
+_Placeholder for final art._
 #pagebreak()
 
 Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If you can read a character sheet, you can read a stat block. The only difference is that monsters don't level up, don't have DP, and don't roll to survive. When they hit 0 HP, they're done.
@@ -238,12 +237,11 @@ HP 22, DR 3 (plate).
 
 #pagebreak()
 
-#figure(image("assets/images/page108-img045.jpeg", width: 60%),
-  caption: [Illo 29: Bestiary Second Art],
-)
+#image("assets/images/page108-img045.jpeg", width: 60%)
 
-_Illustration 29: Bestiary chapter second art (Beast art). Final art TBD._
+_Figure 22.2: Bestiary,_
 
+_Placeholder for final art._
 #pagebreak()
 
 == Undead

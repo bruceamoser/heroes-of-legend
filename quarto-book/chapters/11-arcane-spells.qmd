@@ -3,12 +3,11 @@
 ```{=typst}
 #label("sec-chapter-arcane-spells")
 
-#figure(image("assets/images/page039-img027.jpeg", width: 60%),
-  caption: [Illo 18: Arcane Spells Art],
-)
+#image("assets/images/page039-img027.jpeg", width: 60%)
 
-_Illustration 18: Arcane spells chapter art (Leader class). Placeholder; final art TBD. Dimensions: 1024×1024._
+_Figure 13.1: Arcane Spells_
 
+_Placeholder for final art._
 #pagebreak()
 
 Fire is the first magic. It's the magic of anger, of hunger, of the campfire that keeps the dark at bay. Every mage starts with fire, and most never stop.
@@ -316,12 +315,11 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Master:* Push up to three targets 30 ft.
 
-#figure(image("assets/svg/placeholder-section.svg", width: 60%),
-  caption: [Illo 34: Arcane Spells Midpoint],
-)
+#image("assets/svg/placeholder-section.svg", width: 60%)
 
-_Illustration 34: Arcane spells chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300._
+_Figure 13.2: Arcane Spells,_
 
+_Placeholder for final art._
 #pagebreak()
 
 === Wind Wall (Arcane Spell)

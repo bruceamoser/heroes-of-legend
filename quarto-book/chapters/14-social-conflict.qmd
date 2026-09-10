@@ -3,12 +3,11 @@
 ```{=typst}
 #label("sec-chapter-social-conflict")
 
-#figure(image("assets/images/page079-img030.jpeg", width: 60%),
-  caption: [Illo 21: Social Conflict Art],
-)
+#image("assets/images/page079-img030.jpeg", width: 60%)
 
-_Illustration 21: Social conflict chapter art (Basic Mechanics). Placeholder; final art TBD. Dimensions: 579×557._
+_Figure 16.1: Social Conflict_
 
+_Placeholder for final art._
 #pagebreak()
 
 Not every battle is fought with swords. Sometimes the most dangerous weapon in the room is a well-timed word.
