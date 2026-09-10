@@ -54,7 +54,15 @@ And because the roll decides _how well_ rather than _whether_, every exchange ad
 
 Some situations shift the odds without changing the modifier. A *Boon* means you roll 4d6 and keep the highest three. Your odds of a Strong result improve, your odds of a Fumble are nearly zero. A *Bane* means you roll 4d6 and keep the _lowest_ three. You're fighting the dice, and even a Standard result feels like a victory.
 
-Boons come from clever positioning, magical aid, or a Critical effect that inspires an ally. Banes come from conditions, curses, and poor circumstances. The DA decides when the fiction warrants either, as a guideline: a Boon is worth roughly +2 on the roll, but it reshapes the probability curve rather than shifting it, making extreme failure nearly impossible.
+Boons come from clever positioning, magical aid, or a Critical effect that inspires an ally. Banes come from conditions, curses, and poor circumstances. The DA decides when the fiction warrants either.
+
+*Potence.* Some effects are potent enough to grant more than one step. Each step adds a die:
+
++ *Boon 1:* roll 4d6, keep the highest three. *Boon 2:* 5d6, keep the highest three. *Boon 3:* 6d6, keep the highest three.
++ *Bane 1:* roll 4d6, keep the _lowest_ three. *Bane 2:* 5d6. *Bane 3:* 6d6.
++ Three steps is the ceiling. Potence beyond that has no further effect.
+
+*Boons and Banes cancel.* One Boon and one Bane on the same roll is a straight 3d6 roll. Cancel them one for one, then roll whatever is left. This keeps every source of advantage and disadvantage honest: a Bane 2 against a Boon 1 leaves a single Bane, and neither source has to be tracked separately.
 
 == Opposed Rolls
 
