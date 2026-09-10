@@ -2,643 +2,813 @@
 
 ```{=typst}
 #label("sec-chapter-classes")
-```
 
-<!-- Rationale: Chapter opener at 80% width: the nine core classes in iconic poses, establishing class identity and inviting players to imagine their hero's calling. -->
-![Placeholder: A lineup of the nine core classes in iconic poses: Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced, and Shadow.](../assets/images/placeholder-ch05-classes.png){width=80%}
+// Rationale: Chapter opener at 80% width: the nine core classes in iconic poses, establishing class identity and inviting players to imagine their hero's calling.
+#figure(image("assets/images/placeholder-ch05-classes.png", width: 80%),
+  caption: [Placeholder: A lineup of the nine core classes in iconic poses: Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced, and Shadow.],
+)
 
-
-{{< pagebreak >}}
+#pagebreak()
 
 Your class is your hero's calling. It's not a job, it's who you are when the torches gutter and the door slams shut behind you. Nine classes. Nine ways to face the darkness. Pick the one that makes you grin.
 
-::: {.callout-note}
-## Classes Shape Costs, Not Limits
-
+#callout(type: "note", title: "Classes Shape Costs, Not Limits", body: [
 Your class gives you a Discipline, a signature ability, and cheaper access to certain skills and Disciplines. It does not restrict what you can buy, only what comes easily. A Protector who studies Arcana pays more for it. That's the point. Be unusual, just know it'll cost you.
-:::
+])
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Class Overview
+== Class Overview
 
-| Class | Role | L1 Discipline | Signature |
-|-------|------|--------------|-----------|
-| **Protector** | Tank, defender | Armor (1) + 1 any Weapon | **Bastion**, defensive stance |
-| **Blade** | Assassin, precision | Blades (1) + Stealth (1) | **Swift Blade** |
-| **Arcanist** | Arcane caster | Energy (1) + Fire (1) | **Arcane Shield** |
-| **Shepherd** | Divine guide | Protection (1) + Animal (1) | **Unholy Word** |
-| **Intellect** | Scholar, strategist | Any one (1) + Lore (1) | **Knowledge Is Power** |
-| **Odd** | Chaos wildcard | Any one, different category (1) + 1 any, different category | **Eccentric Spellcasting** |
-| **Leader** | Commander | Tactics (1) + Protection (1) | **Lead by Example** |
-| **Unbalanced** | High-risk power | Any Elemental (1) + 1 opposing Elemental (1) | **Edge of Chaos** |
-| **Shadow** | Sneak thief, infiltrator | Stealth (1) + Sleight (1) | **Vanish** |
+#figure(
+  align(center)[#table(
+    columns: (18.42%, 15.79%, 36.84%, 28.95%),
+    align: (auto, auto, auto, auto,),
+    table.header([Class], [Role], [L1 Discipline], [Signature]),
+    [*Protector*], [Tank, defender], [Armor (1) + 1 any Weapon], [*Bastion*, defensive stance],
+    [*Blade*], [Assassin, precision], [Blades (1) + Stealth (1)], [*Swift Blade*],
+    [*Arcanist*], [Arcane caster], [Energy (1) + Fire (1)], [*Arcane Shield*],
+    [*Shepherd*], [Divine guide], [Protection (1) + Animal (1)], [*Unholy Word*],
+    [*Intellect*], [Scholar, strategist], [Any one (1) + Lore (1)], [*Knowledge Is Power*],
+    [*Odd*], [Chaos wildcard], [Any one, different category (1) + 1 any, different category], [*Eccentric Spellcasting*],
+    [*Leader*], [Commander], [Tactics (1) + Protection (1)], [*Lead by Example*],
+    [*Unbalanced*], [High-risk power], [Any Elemental (1) + 1 opposing Elemental (1)], [*Edge of Chaos*],
+    [*Shadow*], [Sneak thief, infiltrator], [Stealth (1) + Sleight (1)], [*Vanish*],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
 See @sec-chapter-skills for the full skill list.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## The Protector
+== The Protector
 
-*"Stand behind me."*
+_"Stand behind me."_
 
 The Protector stands at the vanguard, using body and armor as a shield for those in their care. You are the anchor, built on Brawn and Fortitude, trained to absorb blows that would fell lesser heroes. Your pride is not in the enemies you slay but in the allies who walk away unharmed because you stood in the gap. You pursue ever-better ways to fortify your resilience while keeping the ability to strike back when needed.
 
-**Class Discipline (L1):** Armor (1) + 1 any Weapon
+*Class Discipline (L1):* Armor (1) + 1 any Weapon
 
-**Signature, Bastion:** Spend your movement to enter a defensive stance. Add +1 to your Protection Value for the round.
+*Signature, Bastion:* Spend your movement to enter a defensive stance. Add +1 to your Protection Value for the round.
 
-**Favored Skills:** Athletics, Endurance, Survival, Perception, Persuasion, Medicine
+*Favored Skills:* Athletics, Endurance, Survival, Perception, Persuasion, Medicine
 
-**Starting Kit:** Battleaxe, chain mail (DR 5), shield (+2 DR), smith's tools, 10 gp.
+*Starting Kit:* Battleaxe, chain mail (DR 5), shield (+2 DR), smith's tools, 10 gp.
 
-**Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
+*Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
-| Discipline | Cost | Discipline | Cost |
-|------------|------|------------|------|
-| Fire | 4/8/16 | Protection | 1/2/4 |
-| Earth | 4/8/16 | Armor | 1/2/4 |
-| Wind | 4/8/16 | Animal | 3/6/12 |
-| Water | 4/8/16 | Plants | 4/8/16 |
-| Blades | 1/2/4 | Energy | 4/8/16 |
-| Axes | 1/2/4 | Life | 4/8/16 |
-| Polearms | 1/2/4 | Religion | 4/8/16 |
-| Archery | 2/4/8 | Mind | 4/8/16 |
-| Heavy Weapon | 1/2/4 | Summon | 4/8/16 |
-| Unarmed | 1/2/4 | Stealth | 2/4/8 |
-| Sleight | 4/8/16 | Lore | 4/8/16 |
-| Tactics | 2/4/8 | | |
+#figure(
+  align(center)[#table(
+    columns: (33.33%, 16.67%, 33.33%, 16.67%),
+    align: (auto, auto, auto, auto,),
+    table.header([Discipline], [Cost], [Discipline], [Cost]),
+    [Fire], [4/8/16], [Protection], [1/2/4],
+    [Earth], [4/8/16], [Armor], [1/2/4],
+    [Wind], [4/8/16], [Animal], [3/6/12],
+    [Water], [4/8/16], [Plants], [4/8/16],
+    [Blades], [1/2/4], [Energy], [4/8/16],
+    [Axes], [1/2/4], [Life], [4/8/16],
+    [Polearms], [1/2/4], [Religion], [4/8/16],
+    [Archery], [2/4/8], [Mind], [4/8/16],
+    [Heavy Weapon], [1/2/4], [Summon], [4/8/16],
+    [Unarmed], [1/2/4], [Stealth], [2/4/8],
+    [Sleight], [4/8/16], [Lore], [4/8/16],
+    [Tactics], [2/4/8], [], [],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-::: {.callout-note}
-## The Protector's Mindset
-
+#callout(type: "note", title: "The Protector's Mindset", body: [
 You're not "the boring one." You're the reason the Blade gets to do their job without dying. Position yourself between the monster and the squishy people. Make the DA attack you, you can take it. When you raise your shield, everyone behind it breathes easier.
-:::
+])
 
-{{< pagebreak >}}
+#pagebreak()
 
-## The Blade
+== The Blade
 
-*"Strike once. Strike true. Strike last."*
+_"Strike once. Strike true. Strike last."_
 
 The Blade masters the art of finesse and precision, favoring the swift elegance of light blades. Your expertise lies in meticulously placed stabs, exploiting vulnerabilities with the sharpness and agility of your weapons. Keyed to Guile, you weave through the battlefield, striking with calculated precision, each strike as effective as it is lethal. You are the shadow on the wall, the final face your enemies see.
 
-**Class Discipline (L1):** Blades (1) + Stealth (1)
+*Class Discipline (L1):* Blades (1) + Stealth (1)
 
-**Signature, Swift Blade:** You may use Agility instead of Brawn when attacking with blades. When you exploit an opening (a target that is Dazed, Prone, or unaware of you), the attack deals +1 damage tier. Once per scene.
+*Signature, Swift Blade:* You may use Agility instead of Brawn when attacking with blades. When you exploit an opening (a target that is Dazed, Prone, or unaware of you), the attack deals +1 damage tier. Once per scene.
 
-**Favored Skills:** Acrobatics, Deception, Perception, Sleight of Hand, Stealth, Thievery
+*Favored Skills:* Acrobatics, Deception, Perception, Sleight of Hand, Stealth, Thievery
 
-**Starting Kit:** Shortsword, dagger, leather armor (DR 2), thieves' tools, 15 gp.
+*Starting Kit:* Shortsword, dagger, leather armor (DR 2), thieves' tools, 15 gp.
 
-**Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
+*Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
-| Discipline | Cost | Discipline | Cost |
-|------------|------|------------|------|
-| Fire | 4/8/16 | Protection | 3/6/12 |
-| Earth | 4/8/16 | Armor | 4/8/16 |
-| Wind | 4/8/16 | Animal | 4/8/16 |
-| Water | 4/8/16 | Plants | 4/8/16 |
-| Blades | 1/2/4 | Energy | 4/8/16 |
-| Axes | 4/8/16 | Life | 4/8/16 |
-| Polearms | 2/4/8 | Religion | 4/8/16 |
-| Archery | 1/2/4 | Mind | 4/8/16 |
-| Heavy Weapon | 4/8/16 | Summon | 4/8/16 |
-| Unarmed | 1/2/4 | Stealth | 1/2/4 |
-| Sleight | 1/2/4 | Lore | 4/8/16 |
-| Tactics | 2/4/8 | | |
+#figure(
+  align(center)[#table(
+    columns: (33.33%, 16.67%, 33.33%, 16.67%),
+    align: (auto, auto, auto, auto,),
+    table.header([Discipline], [Cost], [Discipline], [Cost]),
+    [Fire], [4/8/16], [Protection], [3/6/12],
+    [Earth], [4/8/16], [Armor], [4/8/16],
+    [Wind], [4/8/16], [Animal], [4/8/16],
+    [Water], [4/8/16], [Plants], [4/8/16],
+    [Blades], [1/2/4], [Energy], [4/8/16],
+    [Axes], [4/8/16], [Life], [4/8/16],
+    [Polearms], [2/4/8], [Religion], [4/8/16],
+    [Archery], [1/2/4], [Mind], [4/8/16],
+    [Heavy Weapon], [4/8/16], [Summon], [4/8/16],
+    [Unarmed], [1/2/4], [Stealth], [1/2/4],
+    [Sleight], [1/2/4], [Lore], [4/8/16],
+    [Tactics], [2/4/8], [], [],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-::: {.callout-note}
-## The Blade's Mindset
-
+#callout(type: "note", title: "The Blade's Mindset", body: [
 A Blade doesn't trade blows, they choose the moment, the angle, the vulnerability, then strike once. If the fight is fair, you've already made a mistake. Use positioning, surprise, and your allies' distractions to create openings. Your damage comes from precision, not brute force.
-:::
+])
 
-{{< pagebreak >}}
+#pagebreak()
 
-<!-- Rationale: Mid-chapter visual break at 60% width: three adventurers in action poses showing class roles in combat. -->
-![Placeholder: Three adventurers in action poses: a Protector shielding allies, a Warrior charging forward, and an Arcanist casting from behind.](../assets/images/placeholder-ch05-classes-second.png){width=60%}
+// Rationale: Mid-chapter visual break at 60% width: three adventurers in action poses showing class roles in combat.
+#figure(image("assets/images/placeholder-ch05-classes-second.png", width: 60%),
+  caption: [Placeholder: Three adventurers in action poses: a Protector shielding allies, a Warrior charging forward, and an Arcanist casting from behind.],
+)
 
+#pagebreak()
 
-{{< pagebreak >}}
+== The Arcanist
 
-## The Arcanist
+_"Fire answers to me."_
 
-*"Fire answers to me."*
+The Arcanist delves into the mysteries of arcane energies, mastering their manipulation to bend the fabric of reality. Your focus is harnessing these powerful forces, channeling them into spells that devastate foes and alter the course of battle. Keyed to Knowledge, you weave complex incantations with deep understanding, summoning energies that shimmer with potential. Every spell fires. Every single one. The question is never _if_, only how well.
 
-The Arcanist delves into the mysteries of arcane energies, mastering their manipulation to bend the fabric of reality. Your focus is harnessing these powerful forces, channeling them into spells that devastate foes and alter the course of battle. Keyed to Knowledge, you weave complex incantations with deep understanding, summoning energies that shimmer with potential. Every spell fires. Every single one. The question is never *if*, only how well.
+*Class Discipline (L1):* Energy (1) + Fire (1)
 
-**Class Discipline (L1):** Energy (1) + Fire (1)
+*Signature, Arcane Shield:* As a free action, raise a protective ward that gives +1 to your Protection Value for the round. Once per round.
 
-**Signature, Arcane Shield:** As a free action, raise a protective ward that gives +1 to your Protection Value for the round. Once per round.
+*Favored Skills:* Alchemy, Arcana, History, Lore, Nature
 
-**Favored Skills:** Alchemy, Arcana, History, Lore, Nature
+*Starting Kit:* Arcane focus, dagger, scholar's robes (DR 0), focus pouch, spellbook, 5 gp.
 
-**Starting Kit:** Arcane focus, dagger, scholar's robes (DR 0), focus pouch, spellbook, 5 gp.
+*Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
-**Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
+#figure(
+  align(center)[#table(
+    columns: (33.33%, 16.67%, 33.33%, 16.67%),
+    align: (auto, auto, auto, auto,),
+    table.header([Discipline], [Cost], [Discipline], [Cost]),
+    [Fire], [1/2/4], [Protection], [4/8/16],
+    [Earth], [1/2/4], [Armor], [4/8/16],
+    [Wind], [1/2/4], [Animal], [2/4/8],
+    [Water], [1/2/4], [Plants], [2/4/8],
+    [Blades], [4/8/16], [Energy], [1/2/4],
+    [Axes], [4/8/16], [Life], [2/4/8],
+    [Polearms], [4/8/16], [Religion], [4/8/16],
+    [Archery], [4/8/16], [Mind], [1/2/4],
+    [Heavy Weapon], [4/8/16], [Summon], [1/2/4],
+    [Unarmed], [4/8/16], [Stealth], [4/8/16],
+    [Sleight], [4/8/16], [Lore], [2/4/8],
+    [Tactics], [4/8/16], [], [],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-| Discipline | Cost | Discipline | Cost |
-|------------|------|------------|------|
-| Fire | 1/2/4 | Protection | 4/8/16 |
-| Earth | 1/2/4 | Armor | 4/8/16 |
-| Wind | 1/2/4 | Animal | 2/4/8 |
-| Water | 1/2/4 | Plants | 2/4/8 |
-| Blades | 4/8/16 | Energy | 1/2/4 |
-| Axes | 4/8/16 | Life | 2/4/8 |
-| Polearms | 4/8/16 | Religion | 4/8/16 |
-| Archery | 4/8/16 | Mind | 1/2/4 |
-| Heavy Weapon | 4/8/16 | Summon | 1/2/4 |
-| Unarmed | 4/8/16 | Stealth | 4/8/16 |
-| Sleight | 4/8/16 | Lore | 2/4/8 |
-| Tactics | 4/8/16 | | |
-
-::: {.callout-note}
-## Magic Always Fires
-
+#callout(type: "note", title: "Magic Always Fires", body: [
 There are no spell slots. No mana. No "I'm out of spells." Your magic always goes off. Weak hit? The spell still fires, just not as hard. This changes everything about playing a caster. You're never useless. You're never out of options.
-:::
+])
 
-{{< pagebreak >}}
+#pagebreak()
 
-## The Shepherd
+== The Shepherd
 
-*"The light guides my hand."*
+_"The light guides my hand."_
 
 The Shepherd stands as a beacon of guidance, providing moral direction and harnessing divine energies to aid allies. Your path is one of enlightenment, using a deep connection to the divine to inspire and protect those around you. Through word and deed, you channel power into abilities that heal, shield, and uplift your companions. Keyed to Reason, your wisdom discerns the right course in the murkiest of situations, offering light in darkness. You also stand as a bulwark against the undead, creatures that have slipped beyond death's reach fear your presence.
 
-**Class Discipline (L1):** Protection (1) + Animal (1)
+*Class Discipline (L1):* Protection (1) + Animal (1)
 
-**Signature, Unholy Word:** Call down divine energy that ignores armor and affects only undead creatures within your presence. Your faith burns what should not walk.
+*Signature, Unholy Word:* Call down divine energy that ignores armor and affects only undead creatures within your presence. Your faith burns what should not walk.
 
-**Favored Skills:** Medicine, Nature, Religion, Survival
+*Favored Skills:* Medicine, Nature, Religion, Survival
 
-**Starting Kit:** Shortsword, holy symbol, leather armor (DR 2), healer's kit, 5 gp.
+*Starting Kit:* Shortsword, holy symbol, leather armor (DR 2), healer's kit, 5 gp.
 
-**Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
+*Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
-| Discipline | Cost | Discipline | Cost |
-|------------|------|------------|------|
-| Fire | 4/8/16 | Protection | 1/2/4 |
-| Earth | 4/8/16 | Armor | 4/8/16 |
-| Wind | 4/8/16 | Animal | 1/2/4 |
-| Water | 4/8/16 | Plants | 1/2/4 |
-| Blades | 3/6/12 | Energy | 2/4/8 |
-| Axes | 4/8/16 | Life | 1/2/4 |
-| Polearms | 4/8/16 | Religion | 1/2/4 |
-| Archery | 4/8/16 | Mind | 2/4/8 |
-| Heavy Weapon | 4/8/16 | Summon | 4/8/16 |
-| Unarmed | 3/6/12 | Stealth | 4/8/16 |
-| Sleight | 4/8/16 | Lore | 2/4/8 |
-| Tactics | 3/6/12 | | |
+#figure(
+  align(center)[#table(
+    columns: (33.33%, 16.67%, 33.33%, 16.67%),
+    align: (auto, auto, auto, auto,),
+    table.header([Discipline], [Cost], [Discipline], [Cost]),
+    [Fire], [4/8/16], [Protection], [1/2/4],
+    [Earth], [4/8/16], [Armor], [4/8/16],
+    [Wind], [4/8/16], [Animal], [1/2/4],
+    [Water], [4/8/16], [Plants], [1/2/4],
+    [Blades], [3/6/12], [Energy], [2/4/8],
+    [Axes], [4/8/16], [Life], [1/2/4],
+    [Polearms], [4/8/16], [Religion], [1/2/4],
+    [Archery], [4/8/16], [Mind], [2/4/8],
+    [Heavy Weapon], [4/8/16], [Summon], [4/8/16],
+    [Unarmed], [3/6/12], [Stealth], [4/8/16],
+    [Sleight], [4/8/16], [Lore], [2/4/8],
+    [Tactics], [3/6/12], [], [],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-::: {.callout-note}
-## Healing Matters
-
+#callout(type: "note", title: "Healing Matters", body: [
 Healing in Heroes of Legend is precious. HP recovery is slow outside of magic. A Shepherd in the party changes the calculus of every fight. Your allies will love you. The DA will have to work harder to threaten them.
-:::
+])
 
-{{< pagebreak >}}
+#pagebreak()
 
-## The Intellect
+== The Intellect
 
-*"I've read about this."*
+_"I've read about this."_
 
 The Intellect embodies cerebral prowess and scholarly mastery. Your path is a relentless pursuit of knowledge, delving into ancient tomes, unlocking the mysteries of the universe. With a mind as sharp as a finely honed blade, you navigate the world through logic and reason. Keyed to Knowledge, you are not defined by brute strength but by cunning and foresight. Through tactical acumen and strategic planning, you outmaneuver foes with calculated precision, turning their own weaknesses against them. Your words carry weight, guiding allies through the darkest times.
 
-**Class Discipline (L1):** Any one (1) + Lore (1)
+*Class Discipline (L1):* Any one (1) + Lore (1)
 
-**Signature, Knowledge Is Power:** Gain +1 to all Knowledge-based skill checks.
+*Signature, Knowledge Is Power:* Gain +1 to all Knowledge-based skill checks.
 
-**Favored Skills:** History, Lore, Medicine, Arcana, Perception
+*Favored Skills:* History, Lore, Medicine, Arcana, Perception
 
-**Starting Kit:** Shortsword, spellbook, scholar's robes (DR 0), focus pouch, ink & pen, 10 gp.
+*Starting Kit:* Shortsword, spellbook, scholar's robes (DR 0), focus pouch, ink & pen, 10 gp.
 
-**Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
+*Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
-| Discipline | Cost | Discipline | Cost |
-|------------|------|------------|------|
-| Fire | 2/4/8 | Protection | 2/4/8 |
-| Earth | 2/4/8 | Armor | 4/8/16 |
-| Wind | 2/4/8 | Animal | 2/4/8 |
-| Water | 2/4/8 | Plants | 1/2/4 |
-| Blades | 3/6/12 | Energy | 1/2/4 |
-| Axes | 4/8/16 | Life | 1/2/4 |
-| Polearms | 3/6/12 | Religion | 1/2/4 |
-| Archery | 3/6/12 | Mind | 1/2/4 |
-| Heavy Weapon | 4/8/16 | Summon | 2/4/8 |
-| Unarmed | 4/8/16 | Stealth | 3/6/12 |
-| Sleight | 3/6/12 | Lore | 1/2/4 |
-| Tactics | 1/2/4 | | |
+#figure(
+  align(center)[#table(
+    columns: (33.33%, 16.67%, 33.33%, 16.67%),
+    align: (auto, auto, auto, auto,),
+    table.header([Discipline], [Cost], [Discipline], [Cost]),
+    [Fire], [2/4/8], [Protection], [2/4/8],
+    [Earth], [2/4/8], [Armor], [4/8/16],
+    [Wind], [2/4/8], [Animal], [2/4/8],
+    [Water], [2/4/8], [Plants], [1/2/4],
+    [Blades], [3/6/12], [Energy], [1/2/4],
+    [Axes], [4/8/16], [Life], [1/2/4],
+    [Polearms], [3/6/12], [Religion], [1/2/4],
+    [Archery], [3/6/12], [Mind], [1/2/4],
+    [Heavy Weapon], [4/8/16], [Summon], [2/4/8],
+    [Unarmed], [4/8/16], [Stealth], [3/6/12],
+    [Sleight], [3/6/12], [Lore], [1/2/4],
+    [Tactics], [1/2/4], [], [],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-::: {.callout-note}
-## Stop and Think
-
+#callout(type: "note", title: "Stop and Think", body: [
 Focused Mind is the Intellect's secondary ability; see the table below.
-:::
+])
 
-{{< pagebreak >}}
+#pagebreak()
 
-## The Odd
+== The Odd
 
-*"I have a trick for that."*
+_"I have a trick for that."_
 
 The Odd embodies eccentricity and peculiarity. With a demeanor that dances on the edge of madness and a style that defies convention, you bring chaos and unpredictability to every encounter. Keyed to Guile, your appearance is striking: mismatched clothing, bizarre accessories, an unusual hairstyle. In battle, you are a whirlwind of unorthodox tactics: spells with unconventional gestures, bizarre weapons wielded with deadly precision, strange powers that defy explanation. Your adversaries never know what to expect. Sometimes, neither do you.
 
-**Class Discipline (L1):** Any one, different category (1) + 1 any, different category.
+*Class Discipline (L1):* Any one, different category (1) + 1 any, different category.
 
-**Signature, Eccentric Spellcasting:** Choose one arcane ability and one divine ability. You ignore prerequisite Disciplines for these two (level requirements still apply). You need no arcane focus or holy symbol.
+*Signature, Eccentric Spellcasting:* Choose one arcane ability and one divine ability. You ignore prerequisite Disciplines for these two (level requirements still apply). You need no arcane focus or holy symbol.
 
-**Favored Skills:** Sleight of Hand, Stealth, Deception, Acrobatics, Performance
+*Favored Skills:* Sleight of Hand, Stealth, Deception, Acrobatics, Performance
 
-**Starting Kit:** Shortbow, dagger, leather armor (DR 2), thieves' tools, 20 arrows.
+*Starting Kit:* Shortbow, dagger, leather armor (DR 2), thieves' tools, 20 arrows.
 
-**Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
+*Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
 Odd has no Home disciplines: every discipline costs 2/4/8 (Adjacent).
 
-| Discipline | Cost | Discipline | Cost |
-|------------|------|------------|------|
-| Fire | 2/4/8 | Protection | 2/4/8 |
-| Earth | 2/4/8 | Armor | 2/4/8 |
-| Wind | 2/4/8 | Animal | 2/4/8 |
-| Water | 2/4/8 | Plants | 2/4/8 |
-| Blades | 2/4/8 | Energy | 2/4/8 |
-| Axes | 2/4/8 | Life | 2/4/8 |
-| Polearms | 2/4/8 | Religion | 2/4/8 |
-| Archery | 2/4/8 | Mind | 2/4/8 |
-| Heavy Weapon | 2/4/8 | Summon | 2/4/8 |
-| Unarmed | 2/4/8 | Stealth | 2/4/8 |
-| Sleight | 2/4/8 | Lore | 2/4/8 |
-| Tactics | 2/4/8 | | |
+#figure(
+  align(center)[#table(
+    columns: (33.33%, 16.67%, 33.33%, 16.67%),
+    align: (auto, auto, auto, auto,),
+    table.header([Discipline], [Cost], [Discipline], [Cost]),
+    [Fire], [2/4/8], [Protection], [2/4/8],
+    [Earth], [2/4/8], [Armor], [2/4/8],
+    [Wind], [2/4/8], [Animal], [2/4/8],
+    [Water], [2/4/8], [Plants], [2/4/8],
+    [Blades], [2/4/8], [Energy], [2/4/8],
+    [Axes], [2/4/8], [Life], [2/4/8],
+    [Polearms], [2/4/8], [Religion], [2/4/8],
+    [Archery], [2/4/8], [Mind], [2/4/8],
+    [Heavy Weapon], [2/4/8], [Summon], [2/4/8],
+    [Unarmed], [2/4/8], [Stealth], [2/4/8],
+    [Sleight], [2/4/8], [Lore], [2/4/8],
+    [Tactics], [2/4/8], [], [],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-::: {.callout-note}
-## You're Also Scary
-
+#callout(type: "note", title: "You're Also Scary", body: [
 Once per scene, the Odd can contort their body, speak in tongues, cackle, or otherwise terrify a target they can see. It's unsettling. It's effective. It's very, very you.
-:::
+])
 
-{{< pagebreak >}}
+#pagebreak()
 
-## The Leader
+== The Leader
 
-*"Together, we are unstoppable."*
+_"Together, we are unstoppable."_
 
 The Leader is a beacon of courage on the battlefield, leading from the front lines with valor and resolve. Keyed to Reason, your stirring speeches and tactical acumen rally allies to action, instilling confidence even in the face of adversity. Beyond command, you serve as mentor and confidant, recognizing and nurturing the potential within each member of your group. Driven by a clear vision and unwavering commitment, you guide your companions toward a brighter future. In your presence, unity flourishes.
 
-**Class Discipline (L1):** Tactics (1) + Protection (1)
+*Class Discipline (L1):* Tactics (1) + Protection (1)
 
-**Signature, Lead by Example:** When you land a telling blow on an enemy, grant one ally who witnessed it a +2 bonus on their next roll. Your actions inspire greatness in others.
+*Signature, Lead by Example:* When you land a telling blow on an enemy, grant one ally who witnessed it a +2 bonus on their next roll. Your actions inspire greatness in others.
 
-**Favored Skills:** Persuasion, Perception, Insight, Survival, Endurance
+*Favored Skills:* Persuasion, Perception, Insight, Survival, Endurance
 
-**Starting Kit:** Longsword, spear, leather armor (DR 2), shield (+2 DR), 10 gp.
+*Starting Kit:* Longsword, spear, leather armor (DR 2), shield (+2 DR), 10 gp.
 
-**Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
+*Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
-| Discipline | Cost | Discipline | Cost |
-|------------|------|------------|------|
-| Fire | 4/8/16 | Protection | 1/2/4 |
-| Earth | 4/8/16 | Armor | 2/4/8 |
-| Wind | 4/8/16 | Animal | 3/6/12 |
-| Water | 4/8/16 | Plants | 4/8/16 |
-| Blades | 1/2/4 | Energy | 1/2/4 |
-| Axes | 2/4/8 | Life | 2/4/8 |
-| Polearms | 1/2/4 | Religion | 2/4/8 |
-| Archery | 2/4/8 | Mind | 3/6/12 |
-| Heavy Weapon | 2/4/8 | Summon | 4/8/16 |
-| Unarmed | 2/4/8 | Stealth | 3/6/12 |
-| Sleight | 4/8/16 | Lore | 2/4/8 |
-| Tactics | 1/2/4 | | |
+#figure(
+  align(center)[#table(
+    columns: (33.33%, 16.67%, 33.33%, 16.67%),
+    align: (auto, auto, auto, auto,),
+    table.header([Discipline], [Cost], [Discipline], [Cost]),
+    [Fire], [4/8/16], [Protection], [1/2/4],
+    [Earth], [4/8/16], [Armor], [2/4/8],
+    [Wind], [4/8/16], [Animal], [3/6/12],
+    [Water], [4/8/16], [Plants], [4/8/16],
+    [Blades], [1/2/4], [Energy], [1/2/4],
+    [Axes], [2/4/8], [Life], [2/4/8],
+    [Polearms], [1/2/4], [Religion], [2/4/8],
+    [Archery], [2/4/8], [Mind], [3/6/12],
+    [Heavy Weapon], [2/4/8], [Summon], [4/8/16],
+    [Unarmed], [2/4/8], [Stealth], [3/6/12],
+    [Sleight], [4/8/16], [Lore], [2/4/8],
+    [Tactics], [1/2/4], [], [],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-::: {.callout-note}
-## Battle Cry
-
+#callout(type: "note", title: "Battle Cry", body: [
 Battle Cry is the Leader's secondary ability; see the table below.
-:::
+])
 
-{{< pagebreak >}}
+#pagebreak()
 
-<!-- Rationale: Mid-chapter visual break at 60% width: a Protector standing firm against a monstrous foe, illustrating the class’s defensive role. -->
-![Placeholder: A Protector class hero standing firm against a monstrous foe, shield raised, light emanating from their defensive stance.](../assets/images/placeholder-ch05-classes-third.png){width=60%}
+// Rationale: Mid-chapter visual break at 60% width: a Protector standing firm against a monstrous foe, illustrating the class’s defensive role.
+#figure(image("assets/images/placeholder-ch05-classes-third.png", width: 60%),
+  caption: [Placeholder: A Protector class hero standing firm against a monstrous foe, shield raised, light emanating from their defensive stance.],
+)
 
+#pagebreak()
 
-{{< pagebreak >}}
+== The Unbalanced
 
-## The Unbalanced
-
-*"Power has a price. I'm willing to pay."*
+_"Power has a price. I'm willing to pay."_
 
 The Unbalanced is a wild card, embodying chaos and unpredictability in every action. Your demeanor is marked by erratic energy, veering between bouts of laughter and brooding intensity. Behind your unpredictable facade lies a mind that operates on its own unique wavelength, calculating the odds even as you appear to embrace madness. In battle, you unleash pent-up frenzy with ferocious abandon, your fighting style, as unpredictable as your personality. You thrive on the chaos of combat, reveling in the uncertainty of the fray.
 
-**Class Discipline (L1):** Any Elemental (1) + 1 opposing Elemental (1)
+*Class Discipline (L1):* Any Elemental (1) + 1 opposing Elemental (1)
 
-**Signature, Edge of Chaos:** On a Strong hit, deal +1 damage tier (one row up on the damage budget) but roll on the d6 Backlash Table below.
+*Signature, Edge of Chaos:* On a Strong hit, deal +1 damage tier (one row up on the damage budget) but roll on the d6 Backlash Table below.
 
-**Backlash Table (d6):**
+*Backlash Table (d6):*
 
-| d6 | Result |
-|----|--------|
-| 1 | You take 4 damage. |
-| 2 | Your next attack roll is at Bane. |
-| 3 | You lose your Maneuver this turn. |
-| 4 | The backlash lashes out: an adjacent enemy takes 2 damage of the spell's type. |
-| 5 | You take 2 damage; the target takes +2. |
-| 6 | Wild surge: the DA picks a minor random effect (a cantrip fires, a small object ignites, etc.). |
+#figure(
+  align(center)[#table(
+    columns: (33.33%, 66.67%),
+    align: (auto, auto,),
+    table.header([d6], [Result]),
+    [1], [You take 4 damage.],
+    [2], [Your next attack roll is at Bane.],
+    [3], [You lose your Maneuver this turn.],
+    [4], [The backlash lashes out: an adjacent enemy takes 2 damage of the spell's type.],
+    [5], [You take 2 damage; the target takes +2.],
+    [6], [Wild surge: the DA picks a minor random effect (a cantrip fires, a small object ignites, etc.).],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-**Favored Skills:** Arcana, Deception, Insight, Perception, Acrobatics
+*Favored Skills:* Arcana, Deception, Insight, Perception, Acrobatics
 
-**Starting Kit:** Spear, focus pouch, scholar's robes (DR 0), six vials of volatile reagents, 5 gp.
+*Starting Kit:* Spear, focus pouch, scholar's robes (DR 0), six vials of volatile reagents, 5 gp.
 
-**Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
+*Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
 Choose two opposing Elemental Disciplines at Level 1 (Fire/Water or Earth/Wind). Those become Home. The other two elements become Opposed. Animal, Plants, and Energy are Home (1/2/4); Life and Summon are Adjacent (2/4/8); Religion and Mind are Foreign (3/6/12).
 
-| Discipline | Cost | Discipline | Cost |
-|------------|------|------------|------|
-| Fire | 1/2/4 or 4/8/16* | Protection | 4/8/16 |
-| Earth | 1/2/4 or 4/8/16* | Armor | 4/8/16 |
-| Wind | 1/2/4 or 4/8/16* | Animal | 1/2/4 |
-| Water | 1/2/4 or 4/8/16* | Plants | 1/2/4 |
-| Blades | 4/8/16 | Energy | 1/2/4 |
-| Axes | 4/8/16 | Life | 2/4/8 |
-| Polearms | 4/8/16 | Religion | 3/6/12 |
-| Archery | 4/8/16 | Mind | 3/6/12 |
-| Heavy Weapon | 4/8/16 | Summon | 2/4/8 |
-| Unarmed | 1/2/4 | Stealth | 3/6/12 |
-| Sleight | 4/8/16 | Lore | 4/8/16 |
-| Tactics | 3/6/12 | | |
+#figure(
+  align(center)[#table(
+    columns: (33.33%, 16.67%, 33.33%, 16.67%),
+    align: (auto, auto, auto, auto,),
+    table.header([Discipline], [Cost], [Discipline], [Cost]),
+    [Fire], [1/2/4 or 4/8/16\*], [Protection], [4/8/16],
+    [Earth], [1/2/4 or 4/8/16\*], [Armor], [4/8/16],
+    [Wind], [1/2/4 or 4/8/16\*], [Animal], [1/2/4],
+    [Water], [1/2/4 or 4/8/16\*], [Plants], [1/2/4],
+    [Blades], [4/8/16], [Energy], [1/2/4],
+    [Axes], [4/8/16], [Life], [2/4/8],
+    [Polearms], [4/8/16], [Religion], [3/6/12],
+    [Archery], [4/8/16], [Mind], [3/6/12],
+    [Heavy Weapon], [4/8/16], [Summon], [2/4/8],
+    [Unarmed], [1/2/4], [Stealth], [3/6/12],
+    [Sleight], [4/8/16], [Lore], [4/8/16],
+    [Tactics], [3/6/12], [], [],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
 \* See the Unbalanced entry above for how these costs are assigned.
 
 The table shows a default distribution; you decide where the chaos bends in your favor.
 
-::: {.callout-note}
-## Embrace the Chaos
-
+#callout(type: "note", title: "Embrace the Chaos", body: [
 You're not broken. You're balanced on a knife's edge between opposing forces, and that tension is your source of power. When it works, you're the most dangerous person in the room. When it doesn't, well, that's entertaining too. The party keeps you around because when everything goes wrong, you're the one who knows what to do with wrong.
-:::
+])
 
-{{< pagebreak >}}
+#pagebreak()
 
-## The Shadow
+== The Shadow
 
-*"You never saw me."*
+_"You never saw me."_
 
 The Shadow is the ghost in the room, the whisper no one heard, the hand that lifts a key from a guard's belt while the guard is still wearing it. Where the Blade wins by stabbing first, the Shadow wins by never being seen at all. You are keyed to Agility and Guile in equal measure, a creature of silence and misdirection. Doors open for you. Traps disarm themselves at your touch. Identities are costumes you wear and discard. Your fighting style is dirty, fast, and never, ever fair. If the fight is fair, you've already made two mistakes, and you're already gone.
 
-**Class Discipline (L1):** Stealth (1) + Sleight (1)
+*Class Discipline (L1):* Stealth (1) + Sleight (1)
 
-**Signature, Vanish:** As a maneuver, you may attempt to disappear from sight. Make a Stealth check. On Standard+, you become invisible until the end of your next turn or until you attack. On Weak, you gain concealment instead (attacks against you have Bane). This is not magic; this is being very good at not being noticed.
+*Signature, Vanish:* As a maneuver, you may attempt to disappear from sight. Make a Stealth check. On Standard+, you become invisible until the end of your next turn or until you attack. On Weak, you gain concealment instead (attacks against you have Bane). This is not magic; this is being very good at not being noticed.
 
-**Secondary, Shadow Stride:** See the Shadow ability table below.
+*Secondary, Shadow Stride:* See the Shadow ability table below.
 
-**Favored Skills:** Stealth, Deception, Sleight of Hand, Thievery, Acrobatics, Perception
+*Favored Skills:* Stealth, Deception, Sleight of Hand, Thievery, Acrobatics, Perception
 
-**Starting Kit:** Two daggers, 6 throwing daggers, leather armor (DR 2), thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1, creates 10-ft radius heavy concealment for 1 round), 15 sp.
+*Starting Kit:* Two daggers, 6 throwing daggers, leather armor (DR 2), thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1, creates 10-ft radius heavy concealment for 1 round), 15 sp.
 
-**Discipline Costs (Rank 1 / Rank 2 / Rank 3):**
+*Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
-| Discipline | Cost | Discipline | Cost |
-|------------|------|------------|------|
-| Fire | 4/8/16 | Protection | 4/8/16 |
-| Earth | 4/8/16 | Armor | 4/8/16 |
-| Wind | 4/8/16 | Animal | 4/8/16 |
-| Water | 4/8/16 | Plants | 4/8/16 |
-| Blades | 1/2/4 | Energy | 4/8/16 |
-| Axes | 4/8/16 | Life | 4/8/16 |
-| Polearms | 4/8/16 | Religion | 4/8/16 |
-| Archery | 1/2/4 | Mind | 1/2/4 |
-| Heavy Weapon | 4/8/16 | Summon | 4/8/16 |
-| Unarmed | 2/4/8 | Stealth | 1/2/4 |
-| Sleight | 1/2/4 | Lore | 4/8/16 |
-| Tactics | 3/6/12 | | |
+#figure(
+  align(center)[#table(
+    columns: (33.33%, 16.67%, 33.33%, 16.67%),
+    align: (auto, auto, auto, auto,),
+    table.header([Discipline], [Cost], [Discipline], [Cost]),
+    [Fire], [4/8/16], [Protection], [4/8/16],
+    [Earth], [4/8/16], [Armor], [4/8/16],
+    [Wind], [4/8/16], [Animal], [4/8/16],
+    [Water], [4/8/16], [Plants], [4/8/16],
+    [Blades], [1/2/4], [Energy], [4/8/16],
+    [Axes], [4/8/16], [Life], [4/8/16],
+    [Polearms], [4/8/16], [Religion], [4/8/16],
+    [Archery], [1/2/4], [Mind], [1/2/4],
+    [Heavy Weapon], [4/8/16], [Summon], [4/8/16],
+    [Unarmed], [2/4/8], [Stealth], [1/2/4],
+    [Sleight], [1/2/4], [Lore], [4/8/16],
+    [Tactics], [3/6/12], [], [],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-::: {.callout-note}
-## The Stealth Economy
-
+#callout(type: "note", title: "The Stealth Economy", body: [
 The Shadow doesn't trade blows. The Shadow's entire game is about controlling who can see them and who can't. Your turn is spend Maneuver to Vanish, move into position behind the enemy caster, then on your next turn, strike from invisibility with a Boon. If things go wrong, you have getaway tools: caltrops, smoke bombs, a disguise kit, and a network of contacts who owe you favors.
 
 Your damage doesn't come from brute force. It comes from never being where the enemy is looking. When the Blade needs three rounds to carve through a knight's armor, the Shadow needs one round, one lockpick, and the knight's potion of healing quietly removed from his belt while he was too busy watching the Protector. You win by making the fight unfair. And you make it unfair before anyone knows you're there.
-:::
+])
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Class Archetypes {#sec-class-archetypes}
+== Class Archetypes
+#label("sec-class-archetypes")
 
 The nine classes cluster into four archetypes, each with its own flavor and its own pool of class abilities. These aren't subclasses, they're families. A Protector and an Unbalanced feel different at the table, but they both solve problems with force. An Arcanist and an Intellect feel different, but they both solve problems with knowledge.
 
-| Archetype | Classes | Vibe |
-|-----------|---------|------|
-| **Mage** | Arcanist, Intellect | Power through knowledge. Spells, wards, the right word at the right time. |
-| **Priest** | Shepherd, Leader | Power through faith. Healing, protection, inspiration. |
-| **Thief** | Blade, Shadow | Power through precision. Damage, infiltration, the unseen strike. |
-| **Fighter** | Protector, Unbalanced | Power through force. Defense, chaos, standing in the gap. |
+#figure(
+  align(center)[#table(
+    columns: (42.31%, 34.62%, 23.08%),
+    align: (auto, auto, auto,),
+    table.header([Archetype], [Classes], [Vibe]),
+    [*Mage*], [Arcanist, Intellect], [Power through knowledge. Spells, wards, the right word at the right time.],
+    [*Priest*], [Shepherd, Leader], [Power through faith. Healing, protection, inspiration.],
+    [*Thief*], [Blade, Shadow], [Power through precision. Damage, infiltration, the unseen strike.],
+    [*Fighter*], [Protector, Unbalanced], [Power through force. Defense, chaos, standing in the gap.],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-The **Odd** occupies no archetype. It is the pure wildcard, its abilities sampling all four archetype flavors. The Odd is the exception that proves the four-way rule. It doesn't fit. It's not supposed to.
+The *Odd* occupies no archetype. It is the pure wildcard, its abilities sampling all four archetype flavors. The Odd is the exception that proves the four-way rule. It doesn't fit. It's not supposed to.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Class Abilities {#sec-class-abilities}
+== Class Abilities
+#label("sec-class-abilities")
 
 Every class has a list of abilities unique to it. These are the moves, spells, and tricks that define a hero's identity in play. Abilities are purchased using the flat card cost described in the Costs section below. Their real gate is Discipline prerequisites and level (Adept at 3, Master at 7). Every damaging ability is keyed to the damage budget table in @sec-damage-budget. The abilities presented here define the class. Future supplements may expand them.
 
-### Mage Abilities (Arcanist & Intellect)
+=== Mage Abilities (Arcanist & Intellect)
 
-#### Arcanist
+==== Arcanist
 
-| Ability | Tier | Disc Req | Trigger | Effect |
-|---------|------|----------|---------|--------|
-| **Arcane Feedback** | Novice | 1 Energy | When you cast a spell and roll Strong | The spell's secondary target takes half the primary target's damage. |
-| **Raw Force** | Novice | 1 Energy | When you cast a spell and roll Weak | The spell deals Standard damage (4 per the damage budget) instead. Once per scene. |
-| **Spellburn** | Novice | 1 Fire | When you cast a spell that deals Fire damage on a Weak result | The spell deals Standard damage instead (one row up on the damage budget). Once per turn. |
-| **Disrupt** | Novice | 1 Mind | When an enemy within 30 ft casts a spell | Spend your Reaction and make a Reason check. On Standard+, the spell is countered. Once per scene. |
-| **Spell Echo** | Adept | 1 Energy, 1 Mind | When an enemy within 30 ft casts a spell | You may immediately cast the same spell at Novice tier, regardless of your own Disciplines. Once per scene. |
-| **Arcane Override** | Adept | 1 Energy, 1 Mind | When an enemy within 30 ft casts a spell that targets you | Spend your Reaction and make a Reason check. On success, you choose the spell's new target. Once per scene. |
-| **Force Nova** | Adept | 2 Energy | As an action | Force erupts in a 10-ft radius. Enemies inside take 6 damage and are pushed 5 ft. Once per scene. |
-| **Overchannel** | Master | 2 Energy, 1 Fire | When you cast a Master spell | The spell deals +1 damage tier (use the row one step above on the damage budget). After casting, you gain 1 Corruption. |
-| **Spellstorm** | Master | 2 Energy, 1 Fire | When you cast a Master spell | One additional creature within 30 ft takes 9 damage of the spell's type. Once per scene. |
-| **Spell Dominance** | Master | 2 Energy, 1 Mind | When an enemy within 30 ft casts a spell | The spell is countered, and you may cast it once at Novice tier this scene. Once per session. |
+#figure(
+  align(center)[#table(
+    columns: (21.43%, 14.29%, 23.81%, 21.43%, 19.05%),
+    align: (auto, auto, auto, auto, auto,),
+    table.header([Ability], [Tier], [Disc Req], [Trigger], [Effect]),
+    [*Arcane Feedback*], [Novice], [1 Energy], [When you cast a spell and roll Strong], [The spell's secondary target takes half the primary target's damage.],
+    [*Raw Force*], [Novice], [1 Energy], [When you cast a spell and roll Weak], [The spell deals Standard damage (4 per the damage budget) instead. Once per scene.],
+    [*Spellburn*], [Novice], [1 Fire], [When you cast a spell that deals Fire damage on a Weak result], [The spell deals Standard damage instead (one row up on the damage budget). Once per turn.],
+    [*Disrupt*], [Novice], [1 Mind], [When an enemy within 30 ft casts a spell], [Spend your Reaction and make a Reason check. On Standard+, the spell is countered. Once per scene.],
+    [*Spell Echo*], [Adept], [1 Energy, 1 Mind], [When an enemy within 30 ft casts a spell], [You may immediately cast the same spell at Novice tier, regardless of your own Disciplines. Once per scene.],
+    [*Arcane Override*], [Adept], [1 Energy, 1 Mind], [When an enemy within 30 ft casts a spell that targets you], [Spend your Reaction and make a Reason check. On success, you choose the spell's new target. Once per scene.],
+    [*Force Nova*], [Adept], [2 Energy], [As an action], [Force erupts in a 10-ft radius. Enemies inside take 6 damage and are pushed 5 ft. Once per scene.],
+    [*Overchannel*], [Master], [2 Energy, 1 Fire], [When you cast a Master spell], [The spell deals +1 damage tier (use the row one step above on the damage budget). After casting, you gain 1 Corruption.],
+    [*Spellstorm*], [Master], [2 Energy, 1 Fire], [When you cast a Master spell], [One additional creature within 30 ft takes 9 damage of the spell's type. Once per scene.],
+    [*Spell Dominance*], [Master], [2 Energy, 1 Mind], [When an enemy within 30 ft casts a spell], [The spell is countered, and you may cast it once at Novice tier this scene. Once per session.],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-#### Intellect
+==== Intellect
 
-| Ability | Tier | Disc Req | Trigger | Effect |
-|---------|------|----------|---------|--------|
-| **Tactical Insight** | Novice | 1 Tactics | At the start of combat | Name one enemy weakness. All allies gain +1 on attacks against that enemy type for the encounter. |
-| **Field Study** | Novice | 1 Lore | When you fail a Knowledge-based skill check | You may reroll it. Once per scene. |
-| **Focused Mind** | Novice | 1 Lore | As a Maneuver | Once per scene, you may spend your Movement to gain a Boon on your next Knowledge-based check. |
-| **Assess** | Novice | 1 Tactics | As a Maneuver | Choose one enemy. The DA reveals one resistance, weakness, or special ability it has. Once per scene. |
-| **Leverage** | Adept | 1 Tactics, 1 Lore | When an ally misses an attack | The ally may reroll the miss. If the reroll hits, it deals +2 bonus damage. Once per scene. |
-| **Deduce** | Adept | 2 Lore | When you study a creature, object, or room for one minute | The DA reveals one hidden property, trap, or vulnerability. Once per scene. |
-| **Anticipate** | Adept | 1 Mind, 1 Lore | When an enemy within 30 ft declares an attack | Name the attack's target. If you're right, that ally gains +2 DR against it. Once per scene. |
-| **Perfect Recall** | Master | 2 Mind, 1 Energy | When you need information from a scene you participated in | The DA must tell you the exact words, layout, or sequence of events, to the limit of your own perception at the time. Once per session. |
-| **Master Strategist** | Master | 2 Tactics, 1 Mind | At the start of combat | All allies gain a Boon on their first attack and on their initiative roll. Once per encounter. |
-| **Encyclopedic Mind** | Master | 2 Lore, 1 Mind | When you make a Knowledge-based check | You gain a Boon on the roll, and a Weak result counts as Standard. |
+#figure(
+  align(center)[#table(
+    columns: (21.43%, 14.29%, 23.81%, 21.43%, 19.05%),
+    align: (auto, auto, auto, auto, auto,),
+    table.header([Ability], [Tier], [Disc Req], [Trigger], [Effect]),
+    [*Tactical Insight*], [Novice], [1 Tactics], [At the start of combat], [Name one enemy weakness. All allies gain +1 on attacks against that enemy type for the encounter.],
+    [*Field Study*], [Novice], [1 Lore], [When you fail a Knowledge-based skill check], [You may reroll it. Once per scene.],
+    [*Focused Mind*], [Novice], [1 Lore], [As a Maneuver], [Once per scene, you may spend your Movement to gain a Boon on your next Knowledge-based check.],
+    [*Assess*], [Novice], [1 Tactics], [As a Maneuver], [Choose one enemy. The DA reveals one resistance, weakness, or special ability it has. Once per scene.],
+    [*Leverage*], [Adept], [1 Tactics, 1 Lore], [When an ally misses an attack], [The ally may reroll the miss. If the reroll hits, it deals +2 bonus damage. Once per scene.],
+    [*Deduce*], [Adept], [2 Lore], [When you study a creature, object, or room for one minute], [The DA reveals one hidden property, trap, or vulnerability. Once per scene.],
+    [*Anticipate*], [Adept], [1 Mind, 1 Lore], [When an enemy within 30 ft declares an attack], [Name the attack's target. If you're right, that ally gains +2 DR against it. Once per scene.],
+    [*Perfect Recall*], [Master], [2 Mind, 1 Energy], [When you need information from a scene you participated in], [The DA must tell you the exact words, layout, or sequence of events, to the limit of your own perception at the time. Once per session.],
+    [*Master Strategist*], [Master], [2 Tactics, 1 Mind], [At the start of combat], [All allies gain a Boon on their first attack and on their initiative roll. Once per encounter.],
+    [*Encyclopedic Mind*], [Master], [2 Lore, 1 Mind], [When you make a Knowledge-based check], [You gain a Boon on the roll, and a Weak result counts as Standard.],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-### Priest Abilities (Shepherd & Leader)
+=== Priest Abilities (Shepherd & Leader)
 
-#### Shepherd
+==== Shepherd
 
-| Ability | Tier | Disc Req | Trigger | Effect |
-|---------|------|----------|---------|--------|
-| **Bolstering Prayer** | Novice | 1 Protection | As an action | One ally within 30 ft gains Boon on their next roll. |
-| **Warding Touch** | Novice | 1 Protection | As a maneuver | One adjacent ally gains +2 DR until the start of your next turn. |
-| **Gentle Mend** | Novice | 1 Life | As an action | One ally within 30 ft heals 4 HP. Once per scene. |
-| **Beast's Watch** | Novice | 1 Animal | As a maneuver | A friendly beast you see guards one ally. The next attack against that ally has Bane. Once per scene. |
-| **Sanctified Ground** | Adept | 1 Protection, 1 Religion | As an action | Consecrate a 15-ft radius for 1 minute. Undead inside take 6 radiant damage per round. Allies heal 2 HP at the start of their turn. |
-| **Shield of Faith** | Adept | 2 Protection | As a maneuver | One ally within 30 ft gains +2 DR and cannot be moved against their will until your next turn. |
-| **Bountiful Harvest** | Adept | 1 Plants, 1 Life | As an action | Vitality blooms in a 10-ft radius. Allies inside heal 6 HP and lose one condition. Once per scene. |
-| **Divine Intervention** | Master | 2 Protection, 1 Religion | When an ally drops to 0 HP | The ally instead drops to 1 HP and gains 9 temporary HP. The DA narrates what intervened. Once per session. |
-| **Radiant Ward** | Master | 2 Protection, 1 Religion | As an action | One ally within 30 ft gains 9 temporary HP. The first enemy to strike them takes 9 radiant damage. Once per session. |
-| **Herald of the Wild** | Master | 2 Animal, 1 Life | As an action | Call a spectral beast that fights at your side for the encounter. Its first attack deals 15 damage. Once per session. |
+#figure(
+  align(center)[#table(
+    columns: (21.43%, 14.29%, 23.81%, 21.43%, 19.05%),
+    align: (auto, auto, auto, auto, auto,),
+    table.header([Ability], [Tier], [Disc Req], [Trigger], [Effect]),
+    [*Bolstering Prayer*], [Novice], [1 Protection], [As an action], [One ally within 30 ft gains Boon on their next roll.],
+    [*Warding Touch*], [Novice], [1 Protection], [As a maneuver], [One adjacent ally gains +2 DR until the start of your next turn.],
+    [*Gentle Mend*], [Novice], [1 Life], [As an action], [One ally within 30 ft heals 4 HP. Once per scene.],
+    [*Beast's Watch*], [Novice], [1 Animal], [As a maneuver], [A friendly beast you see guards one ally. The next attack against that ally has Bane. Once per scene.],
+    [*Sanctified Ground*], [Adept], [1 Protection, 1 Religion], [As an action], [Consecrate a 15-ft radius for 1 minute. Undead inside take 6 radiant damage per round. Allies heal 2 HP at the start of their turn.],
+    [*Shield of Faith*], [Adept], [2 Protection], [As a maneuver], [One ally within 30 ft gains +2 DR and cannot be moved against their will until your next turn.],
+    [*Bountiful Harvest*], [Adept], [1 Plants, 1 Life], [As an action], [Vitality blooms in a 10-ft radius. Allies inside heal 6 HP and lose one condition. Once per scene.],
+    [*Divine Intervention*], [Master], [2 Protection, 1 Religion], [When an ally drops to 0 HP], [The ally instead drops to 1 HP and gains 9 temporary HP. The DA narrates what intervened. Once per session.],
+    [*Radiant Ward*], [Master], [2 Protection, 1 Religion], [As an action], [One ally within 30 ft gains 9 temporary HP. The first enemy to strike them takes 9 radiant damage. Once per session.],
+    [*Herald of the Wild*], [Master], [2 Animal, 1 Life], [As an action], [Call a spectral beast that fights at your side for the encounter. Its first attack deals 15 damage. Once per session.],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-#### Leader
+==== Leader
 
-| Ability | Tier | Disc Req | Trigger | Effect |
-|---------|------|----------|---------|--------|
-| **Rallying Cry** | Novice | 1 Protection | As a maneuver | All allies who can hear you gain +2 on their next initiative roll or are no longer Frightened. |
-| **Read the Room** | Novice | 1 Tactics | As a Maneuver | Once per scene, choose one enemy; allies gain +1 damage tier against it until your next turn. |
-| **Battle Cry** | Novice | 1 Tactics | As a Maneuver | Once per scene, all allies within 30 ft gain +1 damage tier on their next attack. |
-| **Form Up** | Novice | 1 Tactics | As a maneuver | One ally within 30 ft may immediately move up to half their speed without provoking reactions. Once per scene. |
-| **Coordinated Strike** | Adept | 1 Protection, 1 Blades | When you hit an enemy | The next ally to attack that enemy before your next turn deals +1 damage tier. |
-| **Flanking Order** | Adept | 2 Tactics | As a maneuver | Choose one ally. Until your next turn, that ally deals +1 damage tier against enemies adjacent to you. Once per scene. |
-| **Hold Together** | Adept | 1 Protection, 1 Tactics | When an ally within 30 ft takes damage | Reduce that damage by 6. Once per scene. |
-| **Last Stand** | Master | 2 Protection, 1 Energy | When you are reduced to 0 HP | You remain standing for 1 additional round. All allies within sight gain +2 on all rolls and are immune to Frightened for that round. |
-| **Stalwart Resolve** | Master | 2 Tactics, 1 Protection | At the start of combat | Allies who can see or hear you are immune to Frightened and gain +2 on Morale checks for the encounter. Once per encounter. |
-| **Seize the Moment** | Master | 2 Tactics, 1 Polearms | When an ally reduces an enemy to 0 HP | That ally immediately makes a free attack against another enemy within reach at +1 damage tier. Once per encounter. |
+#figure(
+  align(center)[#table(
+    columns: (21.43%, 14.29%, 23.81%, 21.43%, 19.05%),
+    align: (auto, auto, auto, auto, auto,),
+    table.header([Ability], [Tier], [Disc Req], [Trigger], [Effect]),
+    [*Rallying Cry*], [Novice], [1 Protection], [As a maneuver], [All allies who can hear you gain +2 on their next initiative roll or are no longer Frightened.],
+    [*Read the Room*], [Novice], [1 Tactics], [As a Maneuver], [Once per scene, choose one enemy; allies gain +1 damage tier against it until your next turn.],
+    [*Battle Cry*], [Novice], [1 Tactics], [As a Maneuver], [Once per scene, all allies within 30 ft gain +1 damage tier on their next attack.],
+    [*Form Up*], [Novice], [1 Tactics], [As a maneuver], [One ally within 30 ft may immediately move up to half their speed without provoking reactions. Once per scene.],
+    [*Coordinated Strike*], [Adept], [1 Protection, 1 Blades], [When you hit an enemy], [The next ally to attack that enemy before your next turn deals +1 damage tier.],
+    [*Flanking Order*], [Adept], [2 Tactics], [As a maneuver], [Choose one ally. Until your next turn, that ally deals +1 damage tier against enemies adjacent to you. Once per scene.],
+    [*Hold Together*], [Adept], [1 Protection, 1 Tactics], [When an ally within 30 ft takes damage], [Reduce that damage by 6. Once per scene.],
+    [*Last Stand*], [Master], [2 Protection, 1 Energy], [When you are reduced to 0 HP], [You remain standing for 1 additional round. All allies within sight gain +2 on all rolls and are immune to Frightened for that round.],
+    [*Stalwart Resolve*], [Master], [2 Tactics, 1 Protection], [At the start of combat], [Allies who can see or hear you are immune to Frightened and gain +2 on Morale checks for the encounter. Once per encounter.],
+    [*Seize the Moment*], [Master], [2 Tactics, 1 Polearms], [When an ally reduces an enemy to 0 HP], [That ally immediately makes a free attack against another enemy within reach at +1 damage tier. Once per encounter.],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-### Thief Abilities (Blade & Shadow)
+=== Thief Abilities (Blade & Shadow)
 
-#### Blade
+==== Blade
 
-| Ability | Tier | Disc Req | Trigger | Effect |
-|---------|------|----------|---------|--------|
-| **Cut Purse** | Novice | 1 Sleight | When you succeed on a Sleight check against a target | You may also steal one small item they carry without them noticing. Once per scene. |
-| **Step Through** | Novice | 1 Stealth | When you reduce an enemy to 0 HP with a melee attack | Move up to your speed without provoking reactions. |
-| **Serrated Edge** | Novice | 1 Blades | When you hit with a blades attack on a Weak result | The target takes 2 damage at the start of its next turn. |
-| **Quick Hands** | Novice | 1 Sleight | As a maneuver | Draw, stow, or retrieve a small item without spending your action. |
-| **Eviscerate** | Adept | 1 Blades, 1 Archery | When you hit the same target twice in one turn | The second hit automatically deals Strong damage (12 per the damage budget). Once per scene. |
-| **Envenom** | Adept | 1 Blades, 1 Sleight | When you hit with a melee attack on a Weak result | The target is Slowed 5 for 1 round and takes 6 damage at the start of its next turn. |
-| **Coup de Grace** | Adept | 2 Blades | When you hit a target that is Prone or Restrained | The attack automatically deals Strong damage (12). Once per scene. |
-| **Slippery** | Adept | 1 Stealth, 1 Unarmed | When an enemy moves adjacent to you | You may immediately move up to 10 feet without provoking reactions. |
-| **Death Mark** | Master | 2 Blades, 1 Archery | When you reduce a target to 0 HP | You may immediately make a free attack against another target within reach at +1 damage tier. |
-| **Assassin's Edge** | Master | 2 Blades, 1 Stealth | When you attack from concealment or invisibility | The attack automatically deals Strong damage (21). Once per session. |
+#figure(
+  align(center)[#table(
+    columns: (21.43%, 14.29%, 23.81%, 21.43%, 19.05%),
+    align: (auto, auto, auto, auto, auto,),
+    table.header([Ability], [Tier], [Disc Req], [Trigger], [Effect]),
+    [*Cut Purse*], [Novice], [1 Sleight], [When you succeed on a Sleight check against a target], [You may also steal one small item they carry without them noticing. Once per scene.],
+    [*Step Through*], [Novice], [1 Stealth], [When you reduce an enemy to 0 HP with a melee attack], [Move up to your speed without provoking reactions.],
+    [*Serrated Edge*], [Novice], [1 Blades], [When you hit with a blades attack on a Weak result], [The target takes 2 damage at the start of its next turn.],
+    [*Quick Hands*], [Novice], [1 Sleight], [As a maneuver], [Draw, stow, or retrieve a small item without spending your action.],
+    [*Eviscerate*], [Adept], [1 Blades, 1 Archery], [When you hit the same target twice in one turn], [The second hit automatically deals Strong damage (12 per the damage budget). Once per scene.],
+    [*Envenom*], [Adept], [1 Blades, 1 Sleight], [When you hit with a melee attack on a Weak result], [The target is Slowed 5 for 1 round and takes 6 damage at the start of its next turn.],
+    [*Coup de Grace*], [Adept], [2 Blades], [When you hit a target that is Prone or Restrained], [The attack automatically deals Strong damage (12). Once per scene.],
+    [*Slippery*], [Adept], [1 Stealth, 1 Unarmed], [When an enemy moves adjacent to you], [You may immediately move up to 10 feet without provoking reactions.],
+    [*Death Mark*], [Master], [2 Blades, 1 Archery], [When you reduce a target to 0 HP], [You may immediately make a free attack against another target within reach at +1 damage tier.],
+    [*Assassin's Edge*], [Master], [2 Blades, 1 Stealth], [When you attack from concealment or invisibility], [The attack automatically deals Strong damage (21). Once per session.],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-#### Shadow
+==== Shadow
 
-| Ability | Tier | Disc Req | Trigger | Effect |
-|---------|------|----------|---------|--------|
-| **Sap** | Novice | 1 Blades | When you attack a target that is unaware of you | Weak damage (2), but the target is Dazed 1. No roll to resist. |
-| **Slip Away** | Novice | 1 Stealth | As a maneuver | Move up to half your speed without provoking reactions, if you end your movement in concealment. |
-| **Shadow Stride** | Novice | 1 Stealth | When you Vanish successfully | Once per scene, you may immediately move up to 15 feet without provoking reactions. You appear in your new position when the invisibility ends. |
-| **Pick** | Novice | 1 Sleight | As an action | Open one mundane lock or disarm one simple trap. |
-| **Cut and Run** | Novice | 1 Blades | When you hit with a melee attack | Move up to 10 feet without provoking reactions. |
-| **Shadow Strike** | Adept | 1 Stealth, 1 Sleight | When you attack from Vanish invisibility | The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene. |
-| **Smoke Veil** | Adept | 1 Stealth, 1 Sleight | As an action | Grant heavy concealment in a 10-ft radius for 1 round, then you may Vanish as part of this action. |
-| **Phantom Step** | Adept | 1 Stealth, 1 Mind | When you are hit by an attack | You may Vanish immediately, before damage is applied. Once per scene. |
-| **Ghost** | Master | 2 Stealth, 1 Mind | When you Vanish successfully on a Strong stealth result | You may remain invisible until the end of the encounter or until you attack. Your first attack from this extended Vanish deals +1 damage tier. Once per session. |
-| **Filch** | Master | 2 Stealth, 1 Sleight | As an action | Steal one carried item from a target within 30 ft without a roll. Once per session. |
+#figure(
+  align(center)[#table(
+    columns: (21.43%, 14.29%, 23.81%, 21.43%, 19.05%),
+    align: (auto, auto, auto, auto, auto,),
+    table.header([Ability], [Tier], [Disc Req], [Trigger], [Effect]),
+    [*Sap*], [Novice], [1 Blades], [When you attack a target that is unaware of you], [Weak damage (2), but the target is Dazed 1. No roll to resist.],
+    [*Slip Away*], [Novice], [1 Stealth], [As a maneuver], [Move up to half your speed without provoking reactions, if you end your movement in concealment.],
+    [*Shadow Stride*], [Novice], [1 Stealth], [When you Vanish successfully], [Once per scene, you may immediately move up to 15 feet without provoking reactions. You appear in your new position when the invisibility ends.],
+    [*Pick*], [Novice], [1 Sleight], [As an action], [Open one mundane lock or disarm one simple trap.],
+    [*Cut and Run*], [Novice], [1 Blades], [When you hit with a melee attack], [Move up to 10 feet without provoking reactions.],
+    [*Shadow Strike*], [Adept], [1 Stealth, 1 Sleight], [When you attack from Vanish invisibility], [The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene.],
+    [*Smoke Veil*], [Adept], [1 Stealth, 1 Sleight], [As an action], [Grant heavy concealment in a 10-ft radius for 1 round, then you may Vanish as part of this action.],
+    [*Phantom Step*], [Adept], [1 Stealth, 1 Mind], [When you are hit by an attack], [You may Vanish immediately, before damage is applied. Once per scene.],
+    [*Ghost*], [Master], [2 Stealth, 1 Mind], [When you Vanish successfully on a Strong stealth result], [You may remain invisible until the end of the encounter or until you attack. Your first attack from this extended Vanish deals +1 damage tier. Once per session.],
+    [*Filch*], [Master], [2 Stealth, 1 Sleight], [As an action], [Steal one carried item from a target within 30 ft without a roll. Once per session.],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-### Fighter Abilities (Protector & Unbalanced)
+=== Fighter Abilities (Protector & Unbalanced)
 
-#### Protector
+==== Protector
 
-| Ability | Tier | Disc Req | Trigger | Effect |
-|---------|------|----------|---------|--------|
-| **Interpose** | Novice | 1 Protection | When an adjacent ally is attacked | You take the hit instead. You may roll Defense to reduce the damage. |
-| **Shield Bash** | Novice | 1 Armor | When you hit with a melee attack | On a Strong result, knock the target Prone. Once per turn. |
-| **Challenge** | Novice | 1 Protection | As a maneuver | One enemy within 30 ft has Bane on attacks that do not target you until your next turn. |
-| **Vicious Riposte** | Novice | 1 Blades | When an enemy deals Weak damage to you with a melee attack | Make a free attack against it that deals Weak damage (2). Once per turn. |
-| **Unshakeable** | Adept | 1 Armor, 1 Protection | When an effect would push, pull, or knock you prone | You are unaffected. If the effect also dealt damage, reduce it by your Armor value. |
-| **Bulwark** | Adept | 1 Armor, 1 Protection | As an action | You and all adjacent allies gain +2 DR until the start of your next turn. |
-| **Overrun** | Adept | 1 Heavy Weapon, 1 Unarmed | When you move and attack an enemy in the same turn | The enemy is knocked Prone before you deal damage. Once per turn. |
-| **Ironhide** | Adept | 2 Armor | When you take damage | Reduce it by your Armor value, then gain +1 DR until the start of your next turn. |
-| **Hold the Line** | Master | 2 Protection, 1 Armor | As an action | For 1 minute, you cannot be moved by any effect short of a deity. Enemies adjacent to you at the start of their turn cannot move until they leave your reach. |
-| **Unbreakable** | Master | 2 Armor, 1 Protection | When you are reduced to 0 HP | You instead drop to 1 HP and gain 15 temporary HP. Once per session. |
+#figure(
+  align(center)[#table(
+    columns: (21.43%, 14.29%, 23.81%, 21.43%, 19.05%),
+    align: (auto, auto, auto, auto, auto,),
+    table.header([Ability], [Tier], [Disc Req], [Trigger], [Effect]),
+    [*Interpose*], [Novice], [1 Protection], [When an adjacent ally is attacked], [You take the hit instead. You may roll Defense to reduce the damage.],
+    [*Shield Bash*], [Novice], [1 Armor], [When you hit with a melee attack], [On a Strong result, knock the target Prone. Once per turn.],
+    [*Challenge*], [Novice], [1 Protection], [As a maneuver], [One enemy within 30 ft has Bane on attacks that do not target you until your next turn.],
+    [*Vicious Riposte*], [Novice], [1 Blades], [When an enemy deals Weak damage to you with a melee attack], [Make a free attack against it that deals Weak damage (2). Once per turn.],
+    [*Unshakeable*], [Adept], [1 Armor, 1 Protection], [When an effect would push, pull, or knock you prone], [You are unaffected. If the effect also dealt damage, reduce it by your Armor value.],
+    [*Bulwark*], [Adept], [1 Armor, 1 Protection], [As an action], [You and all adjacent allies gain +2 DR until the start of your next turn.],
+    [*Overrun*], [Adept], [1 Heavy Weapon, 1 Unarmed], [When you move and attack an enemy in the same turn], [The enemy is knocked Prone before you deal damage. Once per turn.],
+    [*Ironhide*], [Adept], [2 Armor], [When you take damage], [Reduce it by your Armor value, then gain +1 DR until the start of your next turn.],
+    [*Hold the Line*], [Master], [2 Protection, 1 Armor], [As an action], [For 1 minute, you cannot be moved by any effect short of a deity. Enemies adjacent to you at the start of their turn cannot move until they leave your reach.],
+    [*Unbreakable*], [Master], [2 Armor, 1 Protection], [When you are reduced to 0 HP], [You instead drop to 1 HP and gain 15 temporary HP. Once per session.],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-#### Unbalanced
+==== Unbalanced
 
-| Ability | Tier | Disc Req | Trigger | Effect |
-|---------|------|----------|---------|--------|
-| **Exploit Chaos** | Novice | No prereq | When you roll on the Edge of Chaos backlash table | You may roll twice and pick either result. |
-| **Backlash Channeling** | Novice | 1 Energy | When you take damage from your own backlash | Your next spell before the end of your next turn deals +1 damage tier. Once per turn. |
-| **Overflow** | Novice | 1 Energy | When you cast a spell and roll Strong | You take 6 damage, and that spell deals +1 damage tier. Once per turn. |
-| **Toxic Bloom** | Novice | 1 Plants | As an action | One enemy within 30 ft takes 2 damage and is Poisoned 2 for 1 round. Once per scene. |
-| **Volatile Surge** | Adept | 1 Energy, 1 Fire | When you cast a spell and roll Strong | The spell's area of effect doubles. Enemies in the expanded zone take half damage. Allies in the expanded zone take 2 damage. |
-| **Volatile Echo** | Adept | 1 Energy, 1 Plants | When you cast a spell and roll Weak | The spell deals Standard damage instead, and one enemy adjacent to the target takes 6 damage of the spell's type. Once per scene. |
-| **Devour** | Adept | 1 Energy, 1 Animal | As an action | One enemy within 30 ft takes 6 damage, and you heal 6 HP. Once per scene. |
-| **Unmake** | Master | 2 Energy, 1 Fire | When you reduce a target to 0 HP with a spell | The target's body is reduced to ash, and nothing remains behind. Resurrection requires Master-tier divine magic. You gain 2 Corruption. |
-| **Annihilate** | Master | 2 Energy, 1 Fire | As an action | One enemy within 60 ft takes 15 damage, and you gain 1 Corruption. Once per scene. |
-| **Overload** | Master | 3 Energy | When you cast a spell and roll Strong | The spell deals +1 damage tier and strikes one additional target within 30 ft for 9 damage. You gain 1 Corruption. Once per session. |
+#figure(
+  align(center)[#table(
+    columns: (21.43%, 14.29%, 23.81%, 21.43%, 19.05%),
+    align: (auto, auto, auto, auto, auto,),
+    table.header([Ability], [Tier], [Disc Req], [Trigger], [Effect]),
+    [*Exploit Chaos*], [Novice], [No prereq], [When you roll on the Edge of Chaos backlash table], [You may roll twice and pick either result.],
+    [*Backlash Channeling*], [Novice], [1 Energy], [When you take damage from your own backlash], [Your next spell before the end of your next turn deals +1 damage tier. Once per turn.],
+    [*Overflow*], [Novice], [1 Energy], [When you cast a spell and roll Strong], [You take 6 damage, and that spell deals +1 damage tier. Once per turn.],
+    [*Toxic Bloom*], [Novice], [1 Plants], [As an action], [One enemy within 30 ft takes 2 damage and is Poisoned 2 for 1 round. Once per scene.],
+    [*Volatile Surge*], [Adept], [1 Energy, 1 Fire], [When you cast a spell and roll Strong], [The spell's area of effect doubles. Enemies in the expanded zone take half damage. Allies in the expanded zone take 2 damage.],
+    [*Volatile Echo*], [Adept], [1 Energy, 1 Plants], [When you cast a spell and roll Weak], [The spell deals Standard damage instead, and one enemy adjacent to the target takes 6 damage of the spell's type. Once per scene.],
+    [*Devour*], [Adept], [1 Energy, 1 Animal], [As an action], [One enemy within 30 ft takes 6 damage, and you heal 6 HP. Once per scene.],
+    [*Unmake*], [Master], [2 Energy, 1 Fire], [When you reduce a target to 0 HP with a spell], [The target's body is reduced to ash, and nothing remains behind. Resurrection requires Master-tier divine magic. You gain 2 Corruption.],
+    [*Annihilate*], [Master], [2 Energy, 1 Fire], [As an action], [One enemy within 60 ft takes 15 damage, and you gain 1 Corruption. Once per scene.],
+    [*Overload*], [Master], [3 Energy], [When you cast a spell and roll Strong], [The spell deals +1 damage tier and strikes one additional target within 30 ft for 9 damage. You gain 1 Corruption. Once per session.],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-### Odd Abilities
+=== Odd Abilities
 
-The Odd's abilities are few but strange: Improvised Solution, Wrong Context, Everything At Once. More emerge as the Odd experiments. They ignore Discipline prerequisites for their two free spells from **Eccentric Spellcasting**, but their Odd class abilities still require Disciplines.
+The Odd's abilities are few but strange: Improvised Solution, Wrong Context, Everything At Once. More emerge as the Odd experiments. They ignore Discipline prerequisites for their two free spells from *Eccentric Spellcasting*, but their Odd class abilities still require Disciplines.
 
-| Ability | Tier | Disc Req | Trigger | Effect |
-|---------|------|----------|---------|--------|
-| **Improvised Solution** | Novice | No prereq | When you attempt a skill check with a skill you don't have | You roll as if you had Novice (+1) in that skill. Once per scene. (See Quick Study and Fast Learner.) |
-| **Lucky Guess** | Novice | No prereq | When you answer a question or recall a fact you couldn't know | You guess correctly, plus one wrong detail the DA invents. Once per scene. |
-| **Improvised Weapon** | Novice | No prereq | When you attack with a random object | The attack deals Standard damage (4 per the damage budget) regardless of your roll. Once per scene. |
-| **Wrong Number** | Novice | No prereq | When you roll 3d6 | Flip one die to its opposite face, so 1 becomes 6 and 6 becomes 1. Once per scene. |
-| **Wrong Context** | Adept | 2 any (different types) | When an enemy declares an action | You may force the enemy to describe their action differently. If the DA deems your version plausible, the enemy's action has Bane. Once per scene. |
-| **Plot Twist** | Adept | 2 any (different types) | When any creature rolls a Critical or Fumble | You may swap the outcome to its opposite. Once per scene. |
-| **Serendipity** | Adept | 2 any (different types) | When you search a room or container | You find one small useful item the DA hadn't placed there. Once per scene. |
-| **Everything At Once** | Master | 3 any (across 3 different types) | When you take damage | Roll 1d4. 1: you gain +4 Armor for 1 round. 2: you heal 9 HP. 3: the attacker takes the damage instead. 4: both you and the attacker take the damage. Once per session. |
-| **One-Off Wonder** | Master | 3 any (across 3 different types) | As an action | Do one impossible but small thing of your invention, within the DA's limits. Once per session. |
-| **Break the Rules** | Master | 3 any (across 3 different types) | When a rule would stop you | You may ignore that rule for this single action. Once per session. |
+#figure(
+  align(center)[#table(
+    columns: (21.43%, 14.29%, 23.81%, 21.43%, 19.05%),
+    align: (auto, auto, auto, auto, auto,),
+    table.header([Ability], [Tier], [Disc Req], [Trigger], [Effect]),
+    [*Improvised Solution*], [Novice], [No prereq], [When you attempt a skill check with a skill you don't have], [You roll as if you had Novice (+1) in that skill. Once per scene. (See Quick Study and Fast Learner.)],
+    [*Lucky Guess*], [Novice], [No prereq], [When you answer a question or recall a fact you couldn't know], [You guess correctly, plus one wrong detail the DA invents. Once per scene.],
+    [*Improvised Weapon*], [Novice], [No prereq], [When you attack with a random object], [The attack deals Standard damage (4 per the damage budget) regardless of your roll. Once per scene.],
+    [*Wrong Number*], [Novice], [No prereq], [When you roll 3d6], [Flip one die to its opposite face, so 1 becomes 6 and 6 becomes 1. Once per scene.],
+    [*Wrong Context*], [Adept], [2 any (different types)], [When an enemy declares an action], [You may force the enemy to describe their action differently. If the DA deems your version plausible, the enemy's action has Bane. Once per scene.],
+    [*Plot Twist*], [Adept], [2 any (different types)], [When any creature rolls a Critical or Fumble], [You may swap the outcome to its opposite. Once per scene.],
+    [*Serendipity*], [Adept], [2 any (different types)], [When you search a room or container], [You find one small useful item the DA hadn't placed there. Once per scene.],
+    [*Everything At Once*], [Master], [3 any (across 3 different types)], [When you take damage], [Roll 1d4. 1: you gain +4 Armor for 1 round. 2: you heal 9 HP. 3: the attacker takes the damage instead. 4: both you and the attacker take the damage. Once per session.],
+    [*One-Off Wonder*], [Master], [3 any (across 3 different types)], [As an action], [Do one impossible but small thing of your invention, within the DA's limits. Once per session.],
+    [*Break the Rules*], [Master], [3 any (across 3 different types)], [When a rule would stop you], [You may ignore that rule for this single action. Once per session.],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Progression
+== Progression
 
 You gain Development Points each level (see @sec-chapter-advancement for the full progression). Unspent DP carries over to your next level, so saving toward an 8 DP Master card is a real strategy.
 
-**Adept** abilities unlock at Level 3. **Master** abilities unlock at Level 7. Until then, everything you buy is Novice.
+*Adept* abilities unlock at Level 3. *Master* abilities unlock at Level 7. Until then, everything you buy is Novice.
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Costs
+== Costs
 
 Your class determines how expensive each Discipline rank is to purchase. Cards (abilities, spells, skills) have a flat DP cost regardless of class: Novice 2 DP, Adept 4 DP, Master 8 DP. The total cost of a card = its flat card price + the sum of the discipline rank costs for each required discipline.
 
 There are four cost structures, showing the price for rank 1 / rank 2 / rank 3:
 
-| Structure | Rank 1 | Rank 2 | Rank 3 | Meaning |
-|-----------|--------|--------|--------|---------|
-| **Home** | 1 DP | 2 DP | 4 DP | Favored: core to the class identity |
-| **Adjacent** | 2 DP | 4 DP | 8 DP | Related but not core |
-| **Foreign** | 3 DP | 6 DP | 12 DP | Unrelated to the class |
-| **Opposed** | 4 DP | 8 DP | 16 DP | Out of class: antithetical to the class |
+#figure(
+  align(center)[#table(
+    columns: (25%, 18.18%, 18.18%, 18.18%, 20.45%),
+    align: (auto, auto, auto, auto, auto,),
+    table.header([Structure], [Rank 1], [Rank 2], [Rank 3], [Meaning]),
+    [*Home*], [1 DP], [2 DP], [4 DP], [Favored: core to the class identity],
+    [*Adjacent*], [2 DP], [4 DP], [8 DP], [Related but not core],
+    [*Foreign*], [3 DP], [6 DP], [12 DP], [Unrelated to the class],
+    [*Opposed*], [4 DP], [8 DP], [16 DP], [Out of class: antithetical to the class],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
-### Comprehensive Cost Table
+=== Comprehensive Cost Table
 
-| Discipline | Protector | Blade | Arcanist | Shepherd | Intellect | Odd* | Leader | Unbalanced† | Shadow |
-|-----------|----------|-------|----------|----------|----------|------|--------|-------------|--------|
-| **Fire** | 4/8/16 | 4/8/16 | 1/2/4 | 4/8/16 | 2/4/8 | 2/4/8 | 4/8/16 | 1/2/4 or 4/8/16† | 4/8/16 |
-| **Earth** | 4/8/16 | 4/8/16 | 1/2/4 | 4/8/16 | 2/4/8 | 2/4/8 | 4/8/16 | 1/2/4 or 4/8/16† | 4/8/16 |
-| **Wind** | 4/8/16 | 4/8/16 | 1/2/4 | 4/8/16 | 2/4/8 | 2/4/8 | 4/8/16 | 1/2/4 or 4/8/16† | 4/8/16 |
-| **Water** | 4/8/16 | 4/8/16 | 1/2/4 | 4/8/16 | 2/4/8 | 2/4/8 | 4/8/16 | 1/2/4 or 4/8/16† | 4/8/16 |
-| **Blades** | 1/2/4 | 1/2/4 | 4/8/16 | 3/6/12 | 3/6/12 | 2/4/8 | 1/2/4 | 4/8/16 | 1/2/4 |
-| **Axes** | 1/2/4 | 4/8/16 | 4/8/16 | 4/8/16 | 4/8/16 | 2/4/8 | 2/4/8 | 4/8/16 | 4/8/16 |
-| **Polearms** | 1/2/4 | 2/4/8 | 4/8/16 | 4/8/16 | 3/6/12 | 2/4/8 | 1/2/4 | 4/8/16 | 4/8/16 |
-| **Archery** | 2/4/8 | 1/2/4 | 4/8/16 | 4/8/16 | 3/6/12 | 2/4/8 | 2/4/8 | 4/8/16 | 1/2/4 |
-| **Heavy Weapon** | 1/2/4 | 4/8/16 | 4/8/16 | 4/8/16 | 4/8/16 | 2/4/8 | 2/4/8 | 4/8/16 | 4/8/16 |
-| **Unarmed** | 1/2/4 | 1/2/4 | 4/8/16 | 3/6/12 | 4/8/16 | 2/4/8 | 2/4/8 | 1/2/4 | 2/4/8 |
-| **Protection** | 1/2/4 | 3/6/12 | 4/8/16 | 1/2/4 | 2/4/8 | 2/4/8 | 1/2/4 | 4/8/16 | 4/8/16 |
-| **Armor** | 1/2/4 | 4/8/16 | 4/8/16 | 4/8/16 | 4/8/16 | 2/4/8 | 2/4/8 | 4/8/16 | 4/8/16 |
-| **Animal** | 3/6/12 | 4/8/16 | 2/4/8 | 1/2/4 | 2/4/8 | 2/4/8 | 3/6/12 | 1/2/4 | 4/8/16 |
-| **Plants** | 4/8/16 | 4/8/16 | 2/4/8 | 1/2/4 | 1/2/4 | 2/4/8 | 4/8/16 | 1/2/4 | 4/8/16 |
-| **Energy** | 4/8/16 | 4/8/16 | 1/2/4 | 2/4/8 | 1/2/4 | 2/4/8 | 1/2/4 | 1/2/4 | 4/8/16 |
-| **Life** | 4/8/16 | 4/8/16 | 2/4/8 | 1/2/4 | 1/2/4 | 2/4/8 | 2/4/8 | 2/4/8 | 4/8/16 |
-| **Religion** | 4/8/16 | 4/8/16 | 4/8/16 | 1/2/4 | 1/2/4 | 2/4/8 | 2/4/8 | 3/6/12 | 4/8/16 |
-| **Mind** | 4/8/16 | 4/8/16 | 1/2/4 | 2/4/8 | 1/2/4 | 2/4/8 | 3/6/12 | 3/6/12 | 1/2/4 |
-| **Summon** | 4/8/16 | 4/8/16 | 1/2/4 | 4/8/16 | 2/4/8 | 2/4/8 | 4/8/16 | 2/4/8 | 4/8/16 |
-| **Stealth** | 2/4/8 | 1/2/4 | 4/8/16 | 4/8/16 | 3/6/12 | 2/4/8 | 3/6/12 | 3/6/12 | 1/2/4 |
-| **Sleight** | 4/8/16 | 1/2/4 | 4/8/16 | 4/8/16 | 3/6/12 | 2/4/8 | 4/8/16 | 4/8/16 | 1/2/4 |
-| **Lore** | 4/8/16 | 4/8/16 | 2/4/8 | 2/4/8 | 1/2/4 | 2/4/8 | 2/4/8 | 4/8/16 | 4/8/16 |
-| **Tactics** | 2/4/8 | 2/4/8 | 4/8/16 | 3/6/12 | 1/2/4 | 2/4/8 | 1/2/4 | 3/6/12 | 3/6/12 |
+#figure(
+  align(center)[#table(
+    columns: (11.83%, 10.75%, 7.53%, 10.75%, 10.75%, 10.75%, 6.45%, 8.6%, 13.98%, 8.6%),
+    align: (auto, auto, auto, auto, auto, auto, auto, auto, auto, auto,),
+    table.header([Discipline], [Protector], [Blade], [Arcanist], [Shepherd], [Intellect], [Odd\*], [Leader], [Unbalanced†], [Shadow]),
+    [*Fire*], [4/8/16], [4/8/16], [1/2/4], [4/8/16], [2/4/8], [2/4/8], [4/8/16], [1/2/4 or 4/8/16†], [4/8/16],
+    [*Earth*], [4/8/16], [4/8/16], [1/2/4], [4/8/16], [2/4/8], [2/4/8], [4/8/16], [1/2/4 or 4/8/16†], [4/8/16],
+    [*Wind*], [4/8/16], [4/8/16], [1/2/4], [4/8/16], [2/4/8], [2/4/8], [4/8/16], [1/2/4 or 4/8/16†], [4/8/16],
+    [*Water*], [4/8/16], [4/8/16], [1/2/4], [4/8/16], [2/4/8], [2/4/8], [4/8/16], [1/2/4 or 4/8/16†], [4/8/16],
+    [*Blades*], [1/2/4], [1/2/4], [4/8/16], [3/6/12], [3/6/12], [2/4/8], [1/2/4], [4/8/16], [1/2/4],
+    [*Axes*], [1/2/4], [4/8/16], [4/8/16], [4/8/16], [4/8/16], [2/4/8], [2/4/8], [4/8/16], [4/8/16],
+    [*Polearms*], [1/2/4], [2/4/8], [4/8/16], [4/8/16], [3/6/12], [2/4/8], [1/2/4], [4/8/16], [4/8/16],
+    [*Archery*], [2/4/8], [1/2/4], [4/8/16], [4/8/16], [3/6/12], [2/4/8], [2/4/8], [4/8/16], [1/2/4],
+    [*Heavy Weapon*], [1/2/4], [4/8/16], [4/8/16], [4/8/16], [4/8/16], [2/4/8], [2/4/8], [4/8/16], [4/8/16],
+    [*Unarmed*], [1/2/4], [1/2/4], [4/8/16], [3/6/12], [4/8/16], [2/4/8], [2/4/8], [1/2/4], [2/4/8],
+    [*Protection*], [1/2/4], [3/6/12], [4/8/16], [1/2/4], [2/4/8], [2/4/8], [1/2/4], [4/8/16], [4/8/16],
+    [*Armor*], [1/2/4], [4/8/16], [4/8/16], [4/8/16], [4/8/16], [2/4/8], [2/4/8], [4/8/16], [4/8/16],
+    [*Animal*], [3/6/12], [4/8/16], [2/4/8], [1/2/4], [2/4/8], [2/4/8], [3/6/12], [1/2/4], [4/8/16],
+    [*Plants*], [4/8/16], [4/8/16], [2/4/8], [1/2/4], [1/2/4], [2/4/8], [4/8/16], [1/2/4], [4/8/16],
+    [*Energy*], [4/8/16], [4/8/16], [1/2/4], [2/4/8], [1/2/4], [2/4/8], [1/2/4], [1/2/4], [4/8/16],
+    [*Life*], [4/8/16], [4/8/16], [2/4/8], [1/2/4], [1/2/4], [2/4/8], [2/4/8], [2/4/8], [4/8/16],
+    [*Religion*], [4/8/16], [4/8/16], [4/8/16], [1/2/4], [1/2/4], [2/4/8], [2/4/8], [3/6/12], [4/8/16],
+    [*Mind*], [4/8/16], [4/8/16], [1/2/4], [2/4/8], [1/2/4], [2/4/8], [3/6/12], [3/6/12], [1/2/4],
+    [*Summon*], [4/8/16], [4/8/16], [1/2/4], [4/8/16], [2/4/8], [2/4/8], [4/8/16], [2/4/8], [4/8/16],
+    [*Stealth*], [2/4/8], [1/2/4], [4/8/16], [4/8/16], [3/6/12], [2/4/8], [3/6/12], [3/6/12], [1/2/4],
+    [*Sleight*], [4/8/16], [1/2/4], [4/8/16], [4/8/16], [3/6/12], [2/4/8], [4/8/16], [4/8/16], [1/2/4],
+    [*Lore*], [4/8/16], [4/8/16], [2/4/8], [2/4/8], [1/2/4], [2/4/8], [2/4/8], [4/8/16], [4/8/16],
+    [*Tactics*], [2/4/8], [2/4/8], [4/8/16], [3/6/12], [1/2/4], [2/4/8], [1/2/4], [3/6/12], [3/6/12],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
 
 \* Odd: see the Odd entry above for how these costs are assigned.
 
 † Unbalanced: see the Unbalanced entry above for how these costs are assigned.
+
+```
