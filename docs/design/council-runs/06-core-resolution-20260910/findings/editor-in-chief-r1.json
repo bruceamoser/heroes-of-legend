@@ -1,0 +1,77 @@
+{
+  "id": "f-106",
+  "round": 1,
+  "role": "editor-in-chief",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "The chapter is not yet publishable as a unit; concrete structural and completeness work is required. Cross-references: the chapter's sole explicit reference (line 100) lands in the built PDF as a doubled period and a chapter number one low (the contents page and the chapter opener both number Armor & Shields as Chapter 18 while the reference cites 17); the same defect recurs wherever chapter references resolve (Equipment, Disciplines), so the repair is book-wide, not a ch06-only edit. Duplication: the Combat chapter explicitly points readers here for the full rule, then re-lists the same three defense formulas, the same reversed outcome table, and the same worked defense examples, creating drift risk; this chapter is the correct canonical home and Combat's restatement is the duplication to remove. Placement is otherwise sound: Difficulty Modifiers belong in this chapter, and the GM chapter only comments on applying them without reproducing the ladder, so no duplication exists there. Completeness: the worked-example set exercises the attack roll and skill checks but never an opposed roll or a Boon/Bane, and the Critical and Fumble sections are written only for the attacking roller, leaving three-6s or three-1s on a Defense Roll unstated even though the social-conflict chapter sources the general rule to this chapter; minimum additions are one opposed-roll example, one Boon/Bane example, and a sentence covering Critical/Fumble on a Defense Roll. Conventions: the three unnumbered tables are a partial book-wide convention (chapters 2 and 13 also mix numbered and unnumbered), so a ch06-only edit is not warranted; the collapsed defense enum at line 91 has the same multi-line shape in five other chapters and the bullet-as-number substitution is book-wide, so both need a scope ruling rather than a chapter patch.",
+  "evidence": [
+    {
+      "source": "06-core-resolution:100",
+      "claim": "The chapter's only explicit cross-reference ends with a hand-typed period, which the build turns into a doubled period.",
+      "quote_or_excerpt": "See @sec-chapter-armor-shields."
+    },
+    {
+      "source": "/tmp/hol-council/full.txt:7469",
+      "claim": "In the built PDF the reference reads with two periods and cites Chapter 17 for the armor chapter.",
+      "quote_or_excerpt": "See Chapter 17.."
+    },
+    {
+      "source": "/tmp/hol-council/full.txt:387",
+      "claim": "The book's own contents page numbers Armor & Shields as Chapter 18, so the cross-reference's number is one low.",
+      "quote_or_excerpt": "Chapter 18: Armor & Shields"
+    },
+    {
+      "source": "/tmp/hol-council/full.txt:13367",
+      "claim": "The same one-low numbering and doubled period recur in other chapters, so the fault is book-wide rather than ch06-local.",
+      "quote_or_excerpt": "The full rules live in Chapter 9.."
+    },
+    {
+      "source": "13-combat:106",
+      "claim": "The Combat chapter points readers here for the full rule, then restates the defense procedure anyway.",
+      "quote_or_excerpt": "The full explanation is in @sec-chapter-core-resolution."
+    },
+    {
+      "source": "13-combat:112",
+      "claim": "Combat re-lists the identical Defense Roll formula this chapter already provides.",
+      "quote_or_excerpt": "3d6 + Agility − Challenge"
+    },
+    {
+      "source": "06-core-resolution:234",
+      "claim": "The closing Worked Examples section runs four examples, all single-attacker or skill-check rolls; none is an opposed roll or a Boon/Bane roll.",
+      "quote_or_excerpt": "== Worked Examples"
+    },
+    {
+      "source": "06-core-resolution:153",
+      "claim": "The Critical rule is written only for an attacking roller and pairs it with a d6 table of attacker effects, so a critical on a Defense Roll is undefined.",
+      "quote_or_excerpt": "Critical hits are automatic _Strong_ results."
+    },
+    {
+      "source": "06-core-resolution:181",
+      "claim": "The Fumble rule is likewise attack-framed, so three natural 1s on a Defense Roll has no stated consequence.",
+      "quote_or_excerpt": "Fumbles are automatic failures. Then roll a d6 for the complication:"
+    },
+    {
+      "source": "14-social-conflict:57",
+      "claim": "The social-conflict chapter treats Critical/Fumble as a general core rule sourced to this chapter, so the general case must be stated here.",
+      "quote_or_excerpt": "Criticals and Fumbles follow the core rules"
+    },
+    {
+      "source": "/tmp/hol-council/full.txt:7455",
+      "claim": "The defense-formula enum fuses three lines into one body, rendering as a single run-on item; the same multi-line enum shape appears in five other chapters.",
+      "quote_or_excerpt": "No defensive skill: 3d6 + Agility modifier - Challenge Dodge:"
+    },
+    {
+      "source": "13-combat:399",
+      "claim": "Table numbering is a partial book-wide convention: this sibling chapter numbers only a subset of its tables, so the unnumbered tables in chapter 6 are not a chapter-only defect.",
+      "quote_or_excerpt": "caption: [Table 13.4: Wound Table (D666)]"
+    },
+    {
+      "source": "19-gm-guidance:38",
+      "claim": "The GM chapter comments on applying difficulty but does not reproduce the modifier ladder, so the ladder in chapter 6 is not duplicated and belongs here.",
+      "quote_or_excerpt": "The difficulty modifier is the simplest tool in your kit"
+    }
+  ],
+  "confidence": 0.8,
+  "rebutting": []
+}

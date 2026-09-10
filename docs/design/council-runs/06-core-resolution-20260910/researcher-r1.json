@@ -1,0 +1,122 @@
+{
+  "id": "f-101",
+  "round": 1,
+  "role": "researcher",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Chapter 6's load-bearing numbers do not survive recomputation, so the chapter must change. Headline: the Knight of the Iron Circle is credited a Strong damage of 5 [06-core-resolution:144], but the same Challenge 3 adversary carries the longsword triple 6/9/12 in the bestiary [20-bestiary:133] and is resolved with a Standard of 9 in the combat chapter [13-combat:468], so Strong must be 12; against Kael's leather DR 2 that is 10 damage, not the printed 3, and the plate branch at :146 leaves 6, not the asserted floor of 1. Two clauses contradict themselves: the defense example at :140 prints a 4+3+5 dice sum as 13 when the faces give 12 (the net +1 is folded away), and the Roric passage at :240 reduces the greataxe hit to 2 and then describes that same swing as five. Makeva's lock at :242 is rolled with Sleight of Hand, but the skill roster assigns opening locks to Thievery [07-skills:207] and runs the same character's strongbox scene with Thievery [07-skills:99,101]. The Critical table's face 1 doubles the tier instead of taking the canonical single step [09-talents-abilities:108], landing Adept and Master crits at 24 and 42, past the budget ceiling of 21. Two migration regressions are observable in the built PDF: the defense formulas merge into one numbered line and the five defense bullets print as numbers [full.txt:7455-7457]. Scope: the damage, skill-key, arithmetic, and critical fixes are chapter-local; the list-rendering regressions and the one-low chapter number on the armor link originate in the book-wide Typst migration, yet Chapter 6 still needs its own correction. Support side: Kael's attack chain reconciles (12 + 1 = 13 Standard; 2 + 1 = 3; DR 2 leaves 1), the goblin's 2/4/6 and the troll's DR 3 match the bestiary, all four cross-references resolve, both d6 tables use every face once, and the fumble self-damage and critical healing values sit on budget rows.",
+  "evidence": [
+    {
+      "source": "reasoning",
+      "claim": "Recomputation against canon: 2+3+2=7 dice, minus the net penalty 1, gives 6, a Weak defense; the adversary's real Strong value 12 is then reduced by leather DR 2 to 10, or by plate DR 6 to 6, never 3 and never the floor of 1.",
+      "quote_or_excerpt": "2+3+2=7; 7-1=6 -> Weak; Strong 12: 12-2=10; 12-6=6"
+    },
+    {
+      "source": "06-core-resolution:144",
+      "claim": "The Knight example states a Strong damage of 5 and a post-armor result of 3; the canon Strong value for that adversary is 12, so the resulting damage should be 10.",
+      "quote_or_excerpt": "The Knight's Strong damage is 5"
+    },
+    {
+      "source": "20-bestiary:133",
+      "claim": "The bestiary fixes the Challenge 3 Knight's only weapon as a longsword on the 6/9/12 triple, placing Strong at 12 on the locked C3-6 band.",
+      "quote_or_excerpt": "*Longsword:* 6/9/12."
+    },
+    {
+      "source": "13-combat:468",
+      "claim": "The combat chapter resolves the identical Challenge 3 defense and states the adversary's Standard damage as 9, which confirms the triple and therefore a Strong of 12.",
+      "quote_or_excerpt": "The Knight's Standard damage: 9"
+    },
+    {
+      "source": "06-core-resolution:146",
+      "claim": "The plate branch inherits the wrong 5 and claims the floor of 1; with the corrected 12 and DR 6 the outcome is 6 damage.",
+      "quote_or_excerpt": "cut to the minimum of 1"
+    },
+    {
+      "source": "06-core-resolution:140",
+      "claim": "The goblin defense example reports a 4+3+5 roll as 13; the faces sum to 12 and only the net +1 yields 13, so the modifier step is folded into the dice total.",
+      "quote_or_excerpt": "He rolls 4, 3, 5 = 13"
+    },
+    {
+      "source": "20-bestiary:159",
+      "claim": "The goblin's scimitar triple is 2/4/6 on the C1-2 band, so the Standard 4 used in the example is canon-correct.",
+      "quote_or_excerpt": "*Scimitar:* 2/4/6 slashing."
+    },
+    {
+      "source": "06-core-resolution:240",
+      "claim": "The greataxe example subtracts troll DR 3 from 5 to reach 2, then re-describes that same swing as five; the post-reduction number is 2.",
+      "quote_or_excerpt": "reduces it to 2. Still, five damage in one swing"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Basic Melee Strong 3 plus Brawn 2 gives 5 before armor, and Cave Troll DR 3 leaves 2 from 5, which is the number the prose should carry.",
+      "quote_or_excerpt": "3+2=5; 5-3=2 through; the text then calls it five"
+    },
+    {
+      "source": "20-bestiary:577",
+      "claim": "The Cave Troll entry fixes DR 3, so the reduction figure in the example is right even though the following sentence is not.",
+      "quote_or_excerpt": "HP 25, DR 3 (regenerates)."
+    },
+    {
+      "source": "06-core-resolution:242",
+      "claim": "Makeva's lock example spends Sleight of Hand, a pickpocketing skill, on a task the skill roster assigns to Thievery; the +1 rank value is itself fine because she owns both skills.",
+      "quote_or_excerpt": "Makeva the Odd tries to pick a lock"
+    },
+    {
+      "source": "07-skills:207",
+      "claim": "The skill roster keys Thievery to disabling traps and opening locks, so Sleight of Hand is the wrong skill for the lock in the chapter's example.",
+      "quote_or_excerpt": "Disabling traps, picking locks"
+    },
+    {
+      "source": "07-skills:101",
+      "claim": "Chapter 7 runs the same character through the same strongbox lock with Thievery, confirming the drift in the chapter under review.",
+      "quote_or_excerpt": "Makeva has Agility +1 and Thievery at Novice (+1)"
+    },
+    {
+      "source": "07-skills:15",
+      "claim": "Novice skills add +1, so the rank bonus quoted throughout the worked examples is correct.",
+      "quote_or_excerpt": "+1 for Novice, +2 for Adept, +3 for Master"
+    },
+    {
+      "source": "06-core-resolution:160",
+      "claim": "The first critical face doubles Strong rather than applying a single tier bump, which produces off-budget totals at the higher tiers.",
+      "quote_or_excerpt": "Deal Strong damage, then add Strong damage again"
+    },
+    {
+      "source": "09-talents-abilities:108",
+      "claim": "Canon escalates critical damage by exactly one budget row and caps it at 21, so doubling can exceed the ceiling (Adept 24, Master 42).",
+      "quote_or_excerpt": "+1 damage tier (one row up on the damage budget, maximum 21)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Both random tables enumerate faces 1 through 6 exactly once with no duplicate or missing entry; the only numbers are 6 HP healed (the Novice strong row) and 2 self-damage (the Novice weak row).",
+      "quote_or_excerpt": "faces 1-6 once each; 6 HP and 2 on the Novice row"
+    },
+    {
+      "source": "06-core-resolution:192",
+      "claim": "The fumble self-damage of 2 sits on the budget's Novice row, so it breaks no damage convention.",
+      "quote_or_excerpt": "Take 2 force damage yourself"
+    },
+    {
+      "source": "16-armor-shields:44",
+      "claim": "The armor table gives plate DR 6, matching the chapter's figure, and leather DR 2, matching Kael's examples.",
+      "quote_or_excerpt": "[*Plate*], [300 gp], [3 Armor], [6]"
+    },
+    {
+      "source": "06-core-resolution:91",
+      "claim": "The three defense formulas share one enumeration body, so the renderer joins them into a single numbered entry; the built PDF confirms it.",
+      "quote_or_excerpt": "1. No defensive skill: 3d6 + Agility modifier - Challenge Dodge:"
+    },
+    {
+      "source": "06-core-resolution:97",
+      "claim": "The five defense bullets carry enumeration markers, so the PDF numbers them instead of bulleting them.",
+      "quote_or_excerpt": "+ *Agility* is your reaction speed, your footwork, your instinct to duck."
+    },
+    {
+      "source": "reasoning",
+      "claim": "Kael's attack reconciles cleanly: 4+3+5=12, plus Brawn 1 gives 13 Standard; Basic Melee Standard 2 plus Brawn 1 is 3, and DR 2 leaves 1.",
+      "quote_or_excerpt": "4+3+5=12 +1=13 Standard; 2+1=3; 3-2=1"
+    }
+  ],
+  "confidence": 0.9,
+  "rebutting": []
+}

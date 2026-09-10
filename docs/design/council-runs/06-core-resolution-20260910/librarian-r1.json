@@ -1,0 +1,157 @@
+{
+  "id": "f-107",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "PUBLISHABILITY. Chapter 6 is not publishable as a unit today, but the hold is short: the defect profile is mostly cosmetic sitting on a small load-bearing core. Structure and coverage hold up on independent re-scan (one raw Typst fence with the H1 kept above it, callout bodies in the named form, labels on the line after their headings, every table marked outlined:false, clean H2/H3 hierarchy with no skipped level, no split tables, no orphaned headings, no draft residue, and zero em-dash characters in the source). What blocks release is mechanical, not editorial. Three load-bearing defects: (1) the Knight-of-the-Iron-Circle worked example prints a Strong value that contradicts the Challenge-3 stat block, and both post-armor outcomes inherit the wrong number; (2) the Critical table's top face doubles the Strong value, landing totals on no budget row and above the book's 21 ceiling, which breaches the locked flat-damage convention; (3) three Fumble entries are undefined (friendly fire names no damage source, Off Balance routes a Boon to an NPC who never rolls, Gear Damage assumes a degradation ladder that does not exist), and the fumble-as-automatic-failure line collides with the always-connect guarantee. Those teach or permit non-canon numbers and undefined outcomes, so they gate. Everything else (merged formula list, bullets printing as numbers, doubled reference periods, one-low chapter number, lost minus glyphs, a mis-keyed skill, a renamed hero, prose density) is cosmetic and cheap. Verdict: hold, then release on one TIER 2 pass plus two mechanical sweeps; the Critical and Challenge-vocabulary decisions ship with them or immediately after.\n\nTIER 1, mechanical same-day micro-PR, no mechanics change. (a) ch06:91: the three Defense Roll formulas must render as three separate list items instead of one bracket body; part of a six-file enum sweep. (b) ch06:97-101: the five defense definition lines must be bullets, not numbered items; part of a book-wide marker sweep. (c) ch06:140: the goblin defense line reports a 4+3+5 roll as 13; the faces give 12 and the net +1 supplies the 13, so restore the intermediate step. (d) ch06:240: the greataxe sentence says the hit is reduced to 2 and then re-describes it as five; the post-DR figure is 2 (5 less troll DR 3), so strike or correct the trailing clause. (e) ch06:242: the lock example spends Sleight of Hand where the roster keys lock work to Thievery; swap the skill name, the +1 rank is unchanged because she owns Thievery too. (f) ch06:242: 'Makeva the Odd' drops the established surname; restore Makeva Quickfoot. (g) ch06:100: the armor cross-reference renders with two periods and a one-low chapter number (Armor & Shields is chapter 18, cited as 17); fix the reference format book-wide. (h) ch06:92-94: restore the Unicode minus the conversion dropped, since ch06 now carries none while sibling files still do. (i) table captions follow the pending book convention, so do not touch them in isolation.\n\nTIER 2, substantive rewrite or new content. (a) ch06:144-146: the Knight example's Strong value 5 must become 12 (Challenge-3 longsword triple 6/9/12), which moves the leather-armor outcome from 3 to 10 and the plate outcome from the asserted floor of 1 to 6; the narrative beat and Kael's HP consequence change, so this is a paragraph rewrite, not a typo. (b) the Fumble table (ch06:189-191): name the damage source for friendly fire, state whose roll the Off Balance Boon lands on given that NPCs never roll, and either publish an armor-degradation ladder or cut that entry. (c) ch06:65 versus ch06:181: add the sentence stating whether a fumbled attack still deals its Weak damage. (d) Worked Examples (ch06:234-242): add one opposed-roll example, one Boon/Bane example, and a sentence covering Critical and Fumble on a Defense Roll, since the social chapter sources the general rule to this chapter. (e) ch06:89: the Defense Roll trigger names only an NPC or monster attacker; add the hero-versus-hero and NPC-versus-NPC resolution line. (f) 13-combat:106-112: the Combat chapter points here for the full rule and then reproduces the same formulas, reversed outcome table, and defense examples; remove the duplicate and leave ch06 canonical. (g) ch06:43-47, 77-79, 122-124, 126-132: cut or fold two of the three rationale blocks and the back-to-back restatements, and refresh the Standard-tier copy that Table 6.1 shares with the introduction chapter.\n\nTIER 3, design-flavored, canon or balance call. (a) ch06:160: decide how a core Critical scales; the locked convention forbids the doubling (a Master Strong of 21 becomes 42), and the canonical candidate is a single row up capped at 21, but that is a balance call because ch06 defines the general rule while ch09's tier bump is a talent. (b) ch06:101 plus glossary: rule on the three senses of 'Challenge' (per-roll penalty here, rating in ch13, monster difficulty in ch21), the sign flip between ch06's negative penalty and ch16's bare rating that is then subtracted, the goblin drift (ch06 -1, ch16 Challenge 1, bestiary 1/2), and its overlap with the Difficulty Modifier band; add a disambiguation line and a glossary entry. (c) armor degradation: ch16 models flat DR only, so decide ladder versus cut. (d) table-caption numbering, only 9 numbered in the book: set the convention before editing ch06.\n\nADJUDICATION. f-001 and f-002 do NOT conflict on the Knight. Both anchor the same line (06-core-resolution:144, with the plate branch at :146) and both expect the identical value, Strong 12, drawn from the Challenge-3 longsword triple at 20-bestiary:133 and corroborated by 13-combat:468's Standard-of-9. I reproduced the chain independently: the reversal table at ch06:114 sends a Weak Defense Roll to the NPC's Strong damage, canon fixes that at 12, so the printed 5 is wrong and the follow-ons are 10 (leather DR 2) and 6 (plate DR 6). It is a corroborating duplication, not a disagreement; implement once and credit both. f-003 and f-005 both establish book-wide convention faults; I reconcile them into one scope ruling. Both independently show the list regressions and the reference-format faults are migration artifacts, so the repair unit is the book, not the chapter. Their overlapping claims merge (doubled period, enum shape, bullet markers, caption partiality); the non-overlapping ones all survive (f-005's one-low chapter number; f-003's ch06-only minus drift). No contradiction between them.\n\nSCOPE. Both list regressions are book-wide sweeps, not chapter-local fixes. Reason: the bare-line enum shape occurs in six chapter files (01:108, 02:26, 06:91, 19:339, 20:667, 22:239) and the hyphen-to-plus marker substitution runs 197 top-level lines across 11 files; a ch06-only patch leaves five enums and 192 bullet lines still broken and re-breaks ch06 on the next regeneration. ch06 is the highest-visibility symptom, not the scope. (The doubled period is likewise book-wide at 20 sites; the chapter number and minus drift are per-file.)\n\nUNVERIFIED, for the orchestrator to re-check before implementing. (1) f-003's '9 of the book's 138 tables': I confirm 9 numbered captions, but the source shows 59 caption entries, so the 138 denominator is unreproduced. (2) f-003's pre-migration minus count of 7: the pre-migration reference yields 11, though the drift itself is real. (3) f-002's claim that a renamed ch04 Human gift heals the same 6: the Human gift in ch04 is a bonus Development Point, not a heal; a 6-HP heal does exist nearby (Second Breath, an Adept option), so the claim is misattributed even though the on-budget status of the 6 stands. (4) f-004's framing that ch06 renames Makeva with Lyra's class epithet overstates it: Makeva is herself an Odd, so the real defect is only the dropped surname. (5) f-002's mention of a 'Blinding Strike' value to audit: I confirm the term appears nowhere in the book, so its provenance as a defect source is unexplained. (6) f-001's identification of the bestiary 'Knight (Challenge 3)' as the Iron Circle adversary rests on the combat chapter's naming rather than the stat block itself.",
+  "evidence": [
+    {
+      "source": "06-core-resolution:144",
+      "claim": "The Knight example prints a Strong value of 5, which is the wrong budget figure for a Challenge-3 adversary.",
+      "quote_or_excerpt": "The Knight's Strong damage is 5"
+    },
+    {
+      "source": "20-bestiary:133",
+      "claim": "The bestiary's Challenge-3 Knight carries a longsword on the 6/9/12 triple, fixing Strong at 12.",
+      "quote_or_excerpt": "*Longsword:* 6/9/12."
+    },
+    {
+      "source": "13-combat:468",
+      "claim": "The combat chapter resolves the same adversary with a Standard value of 9, corroborating the 6/9/12 triple.",
+      "quote_or_excerpt": "The Knight's Standard damage: 9"
+    },
+    {
+      "source": "06-core-resolution:114",
+      "claim": "The reversed outcome table sends a Weak Defense Roll to the NPC's Strong damage, which is why the example quotes a Strong figure.",
+      "quote_or_excerpt": "you're caught flat-footed. The blow lands solid"
+    },
+    {
+      "source": "06-core-resolution:146",
+      "claim": "The plate branch inherits the wrong 5 and asserts the floor; with canon 12 and DR 6 the outcome is 6.",
+      "quote_or_excerpt": "cut to the minimum of 1"
+    },
+    {
+      "source": "06-core-resolution:140",
+      "claim": "The goblin defense example reports a 4+3+5 roll as 13; the faces give 12 and the net plus-one supplies the 13.",
+      "quote_or_excerpt": "He rolls 4, 3, 5 = 13"
+    },
+    {
+      "source": "06-core-resolution:240",
+      "claim": "The greataxe hit is reduced to 2 and then re-described as five in the same sentence.",
+      "quote_or_excerpt": "reduces it to 2. Still, five damage"
+    },
+    {
+      "source": "06-core-resolution:242",
+      "claim": "The lock example spends Sleight of Hand, a pickpocketing skill, on a task the roster keys to Thievery.",
+      "quote_or_excerpt": "Sleight of Hand Novice (+1)"
+    },
+    {
+      "source": "07-skills:207",
+      "claim": "The skill roster keys Thievery to lock work and trap work, so Sleight of Hand is the wrong key here.",
+      "quote_or_excerpt": "Disabling traps, picking locks"
+    },
+    {
+      "source": "07-skills:101",
+      "claim": "The skills chapter runs the same character through the same lock with Thievery, confirming the drift.",
+      "quote_or_excerpt": "Makeva has Agility +1 and Thievery at Novice (+1)"
+    },
+    {
+      "source": "06-core-resolution:160",
+      "claim": "The Critical table's top face doubles the Strong value rather than moving one budget row.",
+      "quote_or_excerpt": "Deal Strong damage, then add Strong damage again"
+    },
+    {
+      "source": "09-talents-abilities:108",
+      "claim": "The book's canonical critical escalation is a single row up with a 21 cap, which the doubling ignores.",
+      "quote_or_excerpt": "one row up on the damage budget, maximum 21"
+    },
+    {
+      "source": "06-core-resolution:189",
+      "claim": "Friendly fire hands out an unnamed Weak amount with no source card or row specified.",
+      "quote_or_excerpt": "Nearest ally takes Weak damage from your wild swing"
+    },
+    {
+      "source": "06-core-resolution:191",
+      "claim": "Gear Damage assumes an armor step ladder that the armor chapter never publishes.",
+      "quote_or_excerpt": "Armor degrades one step"
+    },
+    {
+      "source": "06-core-resolution:89",
+      "claim": "The Defense Roll trigger names only an NPC or monster attacker, leaving hero-versus-hero undefined.",
+      "quote_or_excerpt": "When an NPC or monster attacks your hero"
+    },
+    {
+      "source": "06-core-resolution:91",
+      "claim": "The three Defense Roll formulas share one bracket body and print as a single numbered run-on item.",
+      "quote_or_excerpt": "#enum(numbering: \"1.\")["
+    },
+    {
+      "source": "06-core-resolution:97",
+      "claim": "The five defense definition lines carry enumeration markers, so the build numbers them instead of bulleting them.",
+      "quote_or_excerpt": "+ *Agility* is your reaction speed"
+    },
+    {
+      "source": "22-reference-sheets:239",
+      "claim": "A second bare-line enum of the same shape sits in the reference sheets and collapses identically in the build.",
+      "quote_or_excerpt": "#enum(numbering: \"1.\")["
+    },
+    {
+      "source": "reasoning",
+      "claim": "I counted 197 top-level plus-marker lines across 11 chapter files, and six files carry the bare-line enum shape.",
+      "quote_or_excerpt": "197 lines; 11 files; six enums"
+    },
+    {
+      "source": "06-core-resolution:100",
+      "claim": "The armor cross-reference renders with two periods and cites chapter 17 while the contents page numbers that chapter 18.",
+      "quote_or_excerpt": "See @sec-chapter-armor-shields."
+    },
+    {
+      "source": "13-combat:106",
+      "claim": "The Combat chapter sends readers here for the full rule and then reproduces the same defense procedure anyway.",
+      "quote_or_excerpt": "The full explanation is in @sec-chapter-core-resolution."
+    },
+    {
+      "source": "14-social-conflict:57",
+      "claim": "The social chapter treats Critical and Fumble as general core rules sourced to this chapter.",
+      "quote_or_excerpt": "Criticals and Fumbles follow the core rules"
+    },
+    {
+      "source": "f-001",
+      "claim": "The researcher and the game-architect agree on both the line and the expected Strong value, so their overlap is corroboration.",
+      "quote_or_excerpt": "so Strong must be 12"
+    },
+    {
+      "source": "f-003",
+      "claim": "The layout expert documents both list regressions as needing one book-wide sweep rather than a chapter patch.",
+      "quote_or_excerpt": "recommend one book-wide sweep PR"
+    },
+    {
+      "source": "f-005",
+      "claim": "The editor-in-chief reaches the same scope conclusion for the list regressions and adds the cross-reference faults.",
+      "quote_or_excerpt": "the repair is book-wide, not a ch06-only edit"
+    },
+    {
+      "source": "f-003",
+      "claim": "UNVERIFIED: the 138-table denominator could not be reproduced; the source shows 59 caption entries, of which 9 are numbered.",
+      "quote_or_excerpt": "9 of the book's 138 tables"
+    },
+    {
+      "source": "f-002",
+      "claim": "UNVERIFIED: the claim that ch04's Human gift heals 6 is misattributed; the gift is a bonus DP and the 6-HP heal is a different option.",
+      "quote_or_excerpt": "ch04's renamed Human gift heals the same 6"
+    },
+    {
+      "source": "f-004",
+      "claim": "UNVERIFIED as framed: Makeva is herself an Odd, so the defect is the dropped surname, not a borrowed epithet.",
+      "quote_or_excerpt": "using Lyra's class epithet"
+    },
+    {
+      "source": "f-001",
+      "claim": "UNVERIFIED: the pre-migration minus count of 7 could not be reproduced; the pre-migration reference yields 11.",
+      "quote_or_excerpt": "pre-migration file had 7 U+2212"
+    }
+  ],
+  "confidence": 0.86,
+  "rebutting": []
+}

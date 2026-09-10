@@ -1,0 +1,97 @@
+{
+  "id": "f-105",
+  "round": 1,
+  "role": "author",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Chapter 6 fails its own voice-and-consistency bar, though the character work and the absence of draft residue are genuinely clean. (1) Over-saturation: the always-hit / one-roll claim is asserted four separate times inside the chapter (the opener teaser at :23, the Attack Rolls lead at :65, the damage-budget note at :73, and a callout at :77-79), and the defense-reversal idea is restated three times back to back (:122, :124, :132). (2) Stock-phrase reuse: Table 6.1 recycles the introduction chapter's tier copy, including the same closing image the intro already used at 01:94. (3) Rationale stacking: the chapter carries three separate design-rationale blocks (:43-47, :77-79, :126-132) where sibling ch13 instead cross-references ch06 for rationale; at least two should be cut or folded. (4) Term collision: 'Challenge' carries three senses with no disambiguation and no glossary entry for the penalty sense (:101 introduces it as a DA penalty, ch13 calls it a rating, ch20/ch21 define it as monster difficulty), and the chapter's own Difficulty Modifiers table (:205-226) shares the same -6..+4 range, so a reader cannot tell a Challenge from a Difficulty Modifier. The sign convention also flips between chapters (ch06 writes the penalty with a leading minus, ch16 writes the bare rating that is then subtracted), and ch06's goblin value contradicts the bestiary's challenge band; I leave the numeric reconciliation to the mechanics lens and flag only the naming/notation collision here. (5) Flavor balance: only one of the three callouts carries a rule consequence; the other two are pure design rationale, and the worked-example italics ('That's concerning.', 'The chieftain roars, he felt that one.') are decoration with no mechanical job. Character voice itself holds: Kael (Blade), Lyra (Odd), Roric (Protector) and Makeva keep their established class and stat fingerprints from ch01, ch02, ch03 and ch16, with one blemish, that the chapter renames the established Makeva Quickfoot using Lyra's class epithet. No prose draft residue (no TODO/TBD/'we might'/'in a future version'); the only placeholder is the book-wide art caption. Minimal edits recommended: cut the :77-79 rationale callout, fold :122-124 into :105-120, drop the :132 restatement, and add a one-line disambiguation of Challenge at :101 that links the glossary and separates it from a Difficulty Modifier.",
+  "evidence": [
+    {
+      "source": "06-core-resolution:23",
+      "claim": "The opening paragraph already announces the always-hit/always-something principle that the Attack Rolls section repeats at :65 and the damage-budget note repeats at :73.",
+      "quote_or_excerpt": "Look at the total. Something happens. Always."
+    },
+    {
+      "source": "06-core-resolution:73",
+      "claim": "The one-roll rule is stated here a second time in the same section, and the :77-79 callout makes it a fourth pass.",
+      "quote_or_excerpt": "There is no separate damage roll"
+    },
+    {
+      "source": "06-core-resolution:124",
+      "claim": "Aphoristic restatement of the defense reversal that :122 already established and :132 will restate again.",
+      "quote_or_excerpt": "a high roll means _they_ hit soft"
+    },
+    {
+      "source": "06-core-resolution:132",
+      "claim": "Third consecutive restatement of the reversal plus the dice-ownership rationale already given at :85 and :122-124.",
+      "quote_or_excerpt": "The only difference is whose hands are on the dice"
+    },
+    {
+      "source": "01-introduction:94",
+      "claim": "Chapter 1 already closes its Standard-tier description with this exact stock phrase, so Table 6.1 is near-duplicate wording rather than fresh reference copy.",
+      "quote_or_excerpt": "the ancient text yields its secrets"
+    },
+    {
+      "source": "06-core-resolution:31",
+      "claim": "The Standard cell of Table 6.1 replays the introduction chapter's competence wording, adding to the book-wide repetition of tier imagery.",
+      "quote_or_excerpt": "Clean success. Expected outcome. Professional work."
+    },
+    {
+      "source": "06-core-resolution:78",
+      "claim": "This tip callout is design rationale with no rule consequence and restates the always-hit argument a fourth time; it is a prime cut candidate.",
+      "quote_or_excerpt": "Think about your favorite movie battle."
+    },
+    {
+      "source": "06-core-resolution:44",
+      "claim": "The Designer's Note is a first-person essay carrying no rule, and it is one of three rationale blocks in the chapter.",
+      "quote_or_excerpt": "A single twenty-sided die is a fickle god."
+    },
+    {
+      "source": "06-core-resolution:101",
+      "claim": "Challenge is introduced only as a negative penalty, with a goblin at -1 and a dragon at -6, a scale and sign that do not match the bestiary's challenge ratings.",
+      "quote_or_excerpt": "A goblin might be -1"
+    },
+    {
+      "source": "21-glossary:196",
+      "claim": "The glossary defines Challenge only as a monster-difficulty rating and provides no entry for the per-roll penalty sense this chapter uses.",
+      "quote_or_excerpt": "A measure of monster difficulty"
+    },
+    {
+      "source": "13-combat:110",
+      "claim": "The sibling combat chapter calls the same term a rating and applies it as a penalty, using the opposite sign convention from this chapter.",
+      "quote_or_excerpt": "a penalty to your roll"
+    },
+    {
+      "source": "20-bestiary:155",
+      "claim": "The bestiary rates the goblin at Challenge 1/2, so the chapter's goblin penalty value conflicts with canon and shows the two senses of the word running together.",
+      "quote_or_excerpt": "Goblin (Challenge 1/2)"
+    },
+    {
+      "source": "21-glossary:200",
+      "claim": "The Difficulty Modifier entry spans the same numeric range as the Challenge penalties, and the chapter's Difficulty Modifiers table shares it, so the two terms are easy to confuse.",
+      "quote_or_excerpt": "Ranges from +4 (Trivial) to -6"
+    },
+    {
+      "source": "06-core-resolution:236",
+      "claim": "The worked-example italic is decorative color; the chieftain's reaction conveys no rule information and could be trimmed.",
+      "quote_or_excerpt": "The chieftain roars, he felt that one."
+    },
+    {
+      "source": "06-core-resolution:242",
+      "claim": "Makeva is renamed here with Lyra's class epithet, and the example closes on filler rather than a rule-relevant beat.",
+      "quote_or_excerpt": "Makeva the Odd tries to pick a lock"
+    },
+    {
+      "source": "02-character-creation:282",
+      "claim": "The character-creation template names her Makeva Quickfoot, so the ch06 epithet diverges from the established hero name.",
+      "quote_or_excerpt": "Worked Example: Makeva Quickfoot"
+    },
+    {
+      "source": "06-core-resolution:8",
+      "claim": "A scan for draft residue found no TODO/TBD/'we might'/'in a future version' in prose; the only placeholder is the book-wide art caption.",
+      "quote_or_excerpt": "Placeholder: Three six-sided dice tumbling"
+    }
+  ],
+  "confidence": 0.8,
+  "rebutting": []
+}

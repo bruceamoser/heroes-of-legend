@@ -1,0 +1,243 @@
+# Core Resolution Mechanics {#sec-chapter-core-resolution}
+
+```{=typst}
+#label("sec-chapter-core-resolution")
+
+// Rationale: Chapter opener at 80% width: three dice tumbling with glowing success-tier trails, visually introducing the core mechanic before the rules explain it.
+#figure(image("assets/images/placeholder-ch06-core-resolution.png", width: 80%),
+  caption: [Placeholder: Three six-sided dice tumbling through the air in slow motion, each showing a different face, with glowing trails representing success tiers.],
+)
+
+#pagebreak()
+
+This is the chapter that makes the game work. Read it once. Bookmark it. Come back when you need it. Every roll you make, every sword swing, every spell, every silver-tongued lie, runs through the system on this page.
+
+#pagebreak()
+
+== The Core Roll
+
+Here it is. The whole thing:
+
+*3d6 + Attribute Modifier + Skill Bonus + Difficulty Modifier*
+
+That's it. Roll three dice. Add the relevant number from your character sheet. Add your skill if you have one. The DA adds or subtracts for difficulty. Look at the total. Something happens. Always.
+
+#figure(
+  align(center)[#table(
+    columns: (26.92%, 23.08%, 50%),
+    align: (left, left, left,),
+    table.header([Total], [Tier], [What Happens],),
+    [1-8], [*Weak*], [You succeed, but there's a catch. The door opens, as the guard rouses from his nap. Your blade draws blood, a scratch, not a wound. The spell fires, but fizzles at the edges.],
+    [9-14], [*Standard*], [Clean success. Expected outcome. Professional work. This is what competence looks like, the lock clicks, the arrow flies true, the ancient text yields its secrets.],
+    [15-18+], [*Strong*], [You crushed it. The thing you were trying to do? You did it so well that something extra happens. Extra damage. Bonus information. The crowd applauds. This is why you trained.],
+  )],
+  caption: [Table 6.1: Success Tiers],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+#label("tbl-success-tiers")
+
+*Totals of Zero or Less:* If your final roll total is 0 or less, the result is Weak, and the DA adds one complication, fail-forward with teeth. The lock opens but the guard is now awake and standing behind the door. Your blade draws blood, then snaps at the hilt. The spell fires, then arcs back and singes a nearby ally.
+
+#callout(type: "note", title: "Why 3d6? A Designer's Note", body: [
+A single twenty-sided die is a fickle god. Every number from 1 to 20 is equally likely, your carefully built character with +7 to Stealth has the same 5% chance of rolling a 1 as the clumsy ogre in plate mail. That's not how skill works in stories, and it shouldn't be how it works in games.
+
+Three six-sided dice create a bell curve. Most rolls land between 9 and 12. That means your training, your attributes, your skill bonuses, and your Disciplines all matter _more_ than the dice. A master thief almost always sneaks past the guard. A legendary blacksmith almost never ruins the blade. When the dice do produce a 3 or an 18, it _means_ something, because it almost never happens. This system makes your choices matter more than your luck. I think that's how it should be.
+])
+
+== Boons and Banes
+
+Some situations shift the odds without changing the modifier. A *Boon* means you roll 4d6 and keep the highest three. Your odds of a Strong result improve, your odds of a Fumble are nearly zero. A *Bane* means you roll 4d6 and keep the _lowest_ three. You're fighting the dice, and even a Standard result feels like a victory.
+
+Boons come from clever positioning, magical aid, or a Critical effect that inspires an ally. Banes come from conditions, curses, and poor circumstances. The DA decides when the fiction warrants either, as a guideline: a Boon is worth roughly +2 on the roll, but it reshapes the probability curve rather than shifting it, making extreme failure nearly impossible.
+
+== Opposed Rolls
+
+When two characters act directly against one another (a grapple, a shove, a disguise versus a guard's scrutiny, a lie versus someone's instinct that they're being played), both sides roll. *Higher tier wins. If tiers match, the higher total wins. If both tier and total are identical, the defender, the non-initiating party, wins the tie.*
+
+There is no margin math. If Kael rolls a 14 (Standard) to grapple a cultist who rolls a 7 (Weak), Kael wins with a Standard result. The opposed-rolls rule also governs Stealth versus passive Insight for surprise (@sec-chapter-combat), and social contests where both sides are actively working against each other (@sec-chapter-social-conflict). Wherever the book says "opposed," this is the rule.
+
+#pagebreak()
+
+== Attack Rolls: You Always Hit
+
+In _Heroes of Legend_, when you swing your weapon or hurl a spell, _you connect._ Every time. The question isn't whether you hit, it's whether you hit hard enough to matter.
+
+Your 3d6 attack roll determines the damage tier:
+
+*Weak:* Apply the weapon or spell's Weak damage value.
+*Standard:* Apply the Standard damage value.
+*Strong:* Apply the Strong damage value. Add any critical effects.
+
+These damage values come from the damage budget table (@sec-damage-budget). There is no separate damage roll: the outcome tier of your attack roll is your damage tier. Roll once, resolve everything.
+
+DR (Damage Reduction) subtracts from incoming damage: each point of DR negates 1 (minimum 1 damage from any hit). A hero with Brawn +2 landing a Strong longsword strike deals 5 damage (3 Strong + 2 Brawn). A goblin with no armor takes it all. A knight in plate armor (DR 6) would only take the minimum 1.
+
+#callout(type: "tip", title: "Why Always-Hit Makes Better Fights", body: [
+Think about your favorite movie battle. The hero never stands there missing for six seconds while the audience checks their phones. Every exchange advances the fight, a clash, a parry, a glancing blow, a telling strike. That's what always-hit delivers. Combat moves fast. Every round, something changes. Your 3d6 roll isn't "do I hit?", it's "how much does this hurt?"
+])
+
+== Players Make All Rolls
+
+In _Heroes of Legend_, the players roll the dice. Always. The DA never touches them.
+
+This isn't about fairness or trust. It's about engagement. When the goblin swings at you, _you_ roll to see if you dodge. When the dragon breathes fire, _you_ roll to see if you dive behind the pillar in time. The DA describes the threat. You describe your response. The dice tell you how it went.
+
+=== How Defense Rolls Work
+
+When an NPC or monster attacks your hero, you make a *Defense Roll*. Which formula you use depends on how you defend:
+
+#enum(numbering: "1.")[
+  *No defensive skill:* *3d6 + Agility modifier - Challenge*
+  *Dodge:* *3d6 + Agility modifier + Dodge rank - Challenge*
+  *Parry:* *3d6 + Brawn modifier + Parry rank - Challenge*
+]
+
++ *Agility* is your reaction speed, your footwork, your instinct to duck.
++ *Dodge* lets you get out of the way. It adds your Dodge rank to your Agility.
++ *Parry* lets you block with a weapon or shield, which requires one in hand. It adds your Parry rank to your Brawn. A shield enables Parry and grants DR, but it never adds a roll bonus.
++ *Armor and shields* do not add to this roll. They reduce the damage you take through Damage Reduction (DR). See @sec-chapter-armor-shields.
++ *Challenge* is a penalty the DA applies. A goblin might be -1 (barely a threat). A dragon might be -6 (good luck). The DA tells you the number before you roll.
+
+=== Reading the Defense Result
+
+Your Defense Roll uses the same success tiers as every other roll, but the outcome is reversed:
+
+#figure(
+  align(center)[#table(
+    columns: (34.55%, 34.55%, 30.91%),
+    align: (left, left, left,),
+    table.header([Your Defense Roll], [NPC Attack Outcome], [Damage You Take],),
+    [*Strong (15+)*], [You read the attack perfectly. Sidestep, parry, shield block.], [NPC's *Weak* damage],
+    [*Standard (9-14)*], [You get your guard up but it's not clean. A glancing blow.], [NPC's *Standard* damage],
+    [*Weak (1-8)*], [You're caught flat-footed. The blow lands solid.], [NPC's *Strong* damage],
+  )],
+  caption: [Defense Outcomes],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+The NPC's stat block lists three damage values: Weak, Standard, and Strong. The DA reads the value that matches your defense result. You rolled well? The goblin barely scratches you. You rolled poorly? That goblin found a gap in your armor.
+
+This reversal is intentional. When you attack, a high roll means you hit hard. When you defend, a high roll means _they_ hit soft. The dice don't change. Your relationship to them does.
+
+=== Why This Works
+
+*Players stay engaged.* You're not waiting for the DA to roll dice and tell you what happened. You're rolling, reacting, making choices. Every attack against you is a moment of tension where _your_ roll determines the outcome.
+
+*NPCs become simpler.* The DA doesn't need attack bonuses for every monster. The NPC's skill is expressed as a single Challenge number that modifies the player's roll. The DA describes the attack, sets the penalty, and the player rolls.
+
+*The math is the same.* A goblin with +1 to attack and a hero with +2 Defense produces the same probability distribution whether the goblin rolls or the hero rolls. The only difference is whose hands are on the dice, and we'd rather those hands belong to the players.
+
+=== Defense Roll Example
+
+A goblin lunges at Kael with a rusty scimitar. The DA says: "The goblin's attack is Challenge -1. Roll Defense."
+
+Kael has Agility +2. He rolls 3d6 + 2 (Agility) - 1 (goblin's Challenge) = 3d6 + 1.
+
+He rolls 4, 3, 5 = 13. *Standard.* The goblin's Standard damage is 4. Kael's leather armor (DR 2) reduces it to 2. The goblin's blade scrapes across his ribs: shallow, painful, but not dangerous.
+
+Kael has no defensive skill in this example, so he uses the baseline formula. Had he trained Dodge, he could have rolled Agility + Dodge rank; with Parry and a weapon or shield in hand, he could have rolled Brawn + Parry rank.
+
+Later, a Knight of the Iron Circle attacks Kael. "Challenge -3," the DA says. Kael rolls 3d6 + 2 - 3 = 3d6 - 1. He rolls 2, 3, 2 = 7 - 1 = 6. *Weak.* The Knight's Strong damage is 5. Kael's armor reduces it to 3. That one hurt.
+
+If Kael had trained the Armor Discipline and worn plate (DR 6), the Knight's Strong damage of 5 would have been cut to the minimum of 1. Armor never adds to your Defense Roll. It reduces whatever damage the roll lets through.
+
+#pagebreak()
+== Critical Hits (Three Natural 6s)
+
+Three sixes. The dice come up 6, 6, 6. The table erupts. You just rolled a Critical.
+
+Critical hits are automatic _Strong_ results. Then roll a d6 for your bonus:
+
+#figure(
+  align(center)[#table(
+    columns: (19.05%, 80.95%),
+    align: (left, left,),
+    table.header([d6], [Critical Effect],),
+    [1], [*Maximum Damage.* Deal Strong damage, then add Strong damage again.],
+    [2], [*Devastating Blow.* Target is stunned, prone, or disarmed, your choice.],
+    [3], [*Moment of Glory.* Take a Maneuver or free move immediately.],
+    [4], [*Second Wind.* Recover 6 HP or regain one once-per-scene ability you have used.],
+    [5], [*Inspired Strike.* One ally gains a Boon on their next attack against this target.],
+    [6], [*Narrative Flourish.* Describe something epic. The DA makes it matter.],
+  )],
+  caption: [Critical Effects],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+Critical hits are rare. When they do, they should feel like a lightning strike. Let the player describe it. Let the table celebrate. This is why we play.
+
+#pagebreak()
+
+== Fumbles (Three Natural 1s)
+
+Not even snake eyes. Three 1s. Something has gone spectacularly wrong.
+
+Fumbles are automatic failures. Then roll a d6 for the complication:
+
+#figure(
+  align(center)[#table(
+    columns: (23.53%, 76.47%),
+    align: (left, left,),
+    table.header([d6], [Complication],),
+    [1], [*Weapon Trouble.* Drop your weapon or jam your bow. Takes an action to fix.],
+    [2], [*Friendly Fire.* Nearest ally takes Weak damage from your wild swing.],
+    [3], [*Off Balance.* The next attack against you has a Boon.],
+    [4], [*Gear Damage.* Armor degrades one step. Shield cracks. Bowstring snaps.],
+    [5], [*Spell Backfire.* Take 2 force damage yourself, or if you're not casting, your arcane focus shatters or your weapon misfires. Magic is fickle.],
+    [6], [*Narrative Twist.* The DA introduces an unexpected complication. Be creative.],
+  )],
+  caption: [Fumble Complications],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+Fumbles are rare, about 1 in 216 rolls, same as criticals. They should be dramatic, memorable, and occasionally hilarious. A good fumble isn't a punishment; it's a story beat.
+
+#pagebreak()
+
+== Difficulty Modifiers
+
+Not every task is created equal. The DA sets a difficulty modifier based on how hard the thing you're attempting actually is:
+
+#figure(
+  align(center)[#table(
+    columns: (29.41%, 32.35%, 38.24%),
+    align: (left, left, left,),
+    table.header([Modifier], [Difficulty], [Description],),
+    [+4], [Trivial], [You've done this a hundred times. Rolling is a formality.],
+    [+2], [Easy], [Favorable conditions. You have the high ground.],
+    [+0], [Standard], [A fair test of your abilities.],
+    [-2], [Hard], [Adverse conditions. It's dark. It's raining. The guards are alert.],
+    [-4], [Very Hard], [You're attempting something improbable. Be ready to fail.],
+    [-6], [Nearly Impossible], [The kind of thing bards write songs about, if you pull it off.],
+  )],
+  caption: [Table 6.2: Difficulty Modifiers],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+#label("tbl-difficulty-modifiers")
+
+#callout(type: "note", title: "When to Roll", body: [
+Only roll when failure is interesting. If the hero has time, tools, and training, they just succeed, no roll required. The dice come out when there's pressure, risk, or a genuine chance of things going sideways.
+])
+
+#pagebreak()
+
+== Worked Examples
+
+*Kael the Blade attacks the goblin chieftain.* Kael's Brawn is +1. He rolls 4+3+5=12, then adds +1=13. _Standard._ His Basic Melee card deals 2 on Standard, plus Brawn +1: 3. The chieftain's crude leather gives DR 2, so he takes 1 damage. The chieftain roars, he felt that one.
+
+*Lyra the Odd identifies an ancient rune.* Knowledge +1, no skill, difficulty -2 (it's very old and partially worn). She rolls 2+4+4=10, adds +1 for Knowledge, subtracts 2 for difficulty, total 9. _Standard._ She recognizes it as Old Elvish, a warding glyph meant to keep something _in_, not out. That's concerning.
+
+*Roric the Protector charges the troll.* Rolls 6, 6, 6. _Critical!_ Bonus roll: 4, Second Wind, recover 6 HP. Strong damage from his greataxe: 3 + Brawn 2 = 5. The troll's tough hide (DR 3) reduces it to 2. Still, five damage in one swing before the troll shrugs it off, and Roric gets his breath back. The troll's expression changes from hunger to concern.
+
+*Makeva the Odd tries to pick a lock while guards approach.* Agility +1, Sleight of Hand Novice (+1), but it's dark (-2 difficulty) and she's rushing (-2 more). Total modifier: +1+1-2-2 = -2. She rolls 3+3+5=11, minus 2 = 9. _Standard._ The lock clicks open just as the guards' torchlight rounds the corner. She slips through the door and eases it shut behind her. Close. Very close.
+```

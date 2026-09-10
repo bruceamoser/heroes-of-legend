@@ -1,0 +1,72 @@
+{
+  "id": "f-102",
+  "round": 1,
+  "role": "game-architect",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Refute: at least one printed number is off the damage budget and two fumble entries are undefined mechanics. (1) The Critical table's top result doubles an attack's Strong value. A Master attack doubles 21 to 42, and even an Adept card doubles 12 to 24, which is above the budget's highest row. Neither value sits on a row, on the Basic floor (1/2/3 plus attribute), or on a sanctioned tier bump. The book already prices critical damage as a single-row increase with a 21 ceiling (Death Blow, ch09), so the expected fix is to replace the doubling with '+1 damage tier, one row up, maximum 21'. (2) The Knight of the Iron Circle's Strong damage prints as 5 (ch06:144, ch06:146); the Challenge-3 Knight in ch20 carries a longsword at 6/9/12, so the expected Strong value is 12, and the follow-on result (12 minus leather DR 2 = 10, not the printed 3) is wrong too. (3) The friendly-fire fumble hands an ally a Weak amount without naming which card or row supplies it, and it can fire on a tripled 1 from a non-attack roll where no weapon swing exists; the minimal fix is to name the source (the triggering attack's weapon Weak value) or a fixed row. (4) 'Armor degrades one step' presupposes a degradation ladder that exists nowhere; ch16's armor table is flat DR only. (5) The chapter calls tripled 1s automatic failures while also promising every attack connects, so it is undefined whether a fumbled attack still deals its Weak damage. Second Wind's 6 HP is legal: it is on the Novice Strong / Adept Weak row, and ch04's renamed Human gift heals the same 6. 'Blinding Strike' appears neither in this chapter nor anywhere in the book, so there is no value to audit. Tier bands, the min-1-damage clause, boon/bane (4d6 keep three) and DR subtraction all match canon. Migration: the ch06:91 collapsed enum merges the three Defense Roll formulas into one item in the built PDF. That is presentation plus a formula-list obscuring, not a value change, so it is a chapter-local content fix, but the same enum shape recurs in five other chapters and needs a sweep; the ch06:97-101 bullet-to-number swap is cosmetic and book-wide.",
+  "evidence": [
+    {
+      "source": "06-core-resolution:160",
+      "claim": "Critical result 1 doubles Strong damage; at the Master row that is 21 doubled to 42, off every budget row and above the book's 21 ceiling.",
+      "quote_or_excerpt": "Deal Strong damage, then add Strong damage again."
+    },
+    {
+      "source": "09-talents-abilities:108",
+      "claim": "Canonical critical damage increase is one budget row up with a hard 21 cap; the ch06 doubling ignores that cap.",
+      "quote_or_excerpt": "one row up on the damage budget, maximum 21"
+    },
+    {
+      "source": "09-talents-abilities:112",
+      "claim": "The Master Death Blow sets critical damage at the budget maximum of 21, confirming the ceiling the doubling breaks.",
+      "quote_or_excerpt": "maximum Strong damage (21)"
+    },
+    {
+      "source": "06-core-resolution:144",
+      "claim": "Knight of the Iron Circle's Strong damage is printed as 5; the Challenge-3 band is 6/9/12, so the expected value is 12.",
+      "quote_or_excerpt": "The Knight's Strong damage is 5"
+    },
+    {
+      "source": "20-bestiary:133",
+      "claim": "The Challenge-3 Knight's longsword is 6/9/12, so its Strong damage must be 12, not 5.",
+      "quote_or_excerpt": "Longsword: 6/9/12"
+    },
+    {
+      "source": "06-core-resolution:189",
+      "claim": "Friendly fire names no damage source; the Weak value is undefined and can trigger on non-attack fumbles where no swing exists.",
+      "quote_or_excerpt": "Nearest ally takes Weak damage from your wild swing."
+    },
+    {
+      "source": "06-core-resolution:191",
+      "claim": "Armor degradation has no defined step ladder; ch16 armor is flat DR, so this is an undefined mechanic.",
+      "quote_or_excerpt": "Armor degrades one step."
+    },
+    {
+      "source": "06-core-resolution:181",
+      "claim": "Tripled 1s are called automatic failures, which conflicts with the always-hit guarantee and leaves attack-fumble damage undefined.",
+      "quote_or_excerpt": "Fumbles are automatic failures"
+    },
+    {
+      "source": "06-core-resolution:65",
+      "claim": "The chapter guarantees every attack lands, so a fumble cannot simply nullify an attack's damage tier.",
+      "quote_or_excerpt": "you connect. Every time."
+    },
+    {
+      "source": "06-core-resolution:240",
+      "claim": "The worked example narrates five damage after saying the hit was cut to two, an internal arithmetic contradiction on top of the tier question.",
+      "quote_or_excerpt": "five damage in one swing"
+    },
+    {
+      "source": "06-core-resolution:163",
+      "claim": "Second Wind's 6 HP sits on the Novice Strong / Adept Weak row, so it is on-budget and needs no change.",
+      "quote_or_excerpt": "Recover 6 HP"
+    },
+    {
+      "source": "06-core-resolution:91",
+      "claim": "The collapsed enum merges all three Defense Roll formulas into one item in the built PDF, obscuring the formula list without changing any value.",
+      "quote_or_excerpt": "3d6 + Agility modifier - Challenge Dodge:"
+    }
+  ],
+  "confidence": 0.9,
+  "rebutting": []
+}

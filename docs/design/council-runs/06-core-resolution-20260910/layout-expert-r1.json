@@ -1,0 +1,117 @@
+{
+  "id": "f-103",
+  "round": 1,
+  "role": "layout-expert",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Both list-rendering regressions are real in the built PDF, and the scope ruling is book-wide, not a ch06-local micro-PR. The enum at ch06:91 puts three hard-wrapped formula lines in one bracket body with no per-line '+' item markers, so the renderer merges them into a single numbered paragraph (p123). The bare-line enum at 22-reference-sheets:239 fails identically (p361), while the four enums that do carry '+' markers (01-introduction:108 p23, 02-character-creation:26 p36, 19-gm-guidance:339 p307, 20-bestiary:667 p338) dodge the collapse but still mis-number as one outer entry containing lettered a/b/c sub-items. Those are two failure modes of one rule, so recommend one book-wide sweep PR that gives every '#enum(numbering: \"1.\")[' body per-line '+' prefixes and removes hard-wrapped lines. The former hyphen bullets at ch06:97-101 now print 1-5 (p123-124), and the same '+'-for-hyphen substitution runs through the book: 197 top-level '+' lines in 11 chapter files, with pre-migration ch13 and ch15 using hyphens and the PDF printing numbers at p203 and p234. Recommend a second book-wide sweep PR (a ch06-only edit would leave ten files with the same defect). Two narrower items: the doubled period is book-wide (20 instances, ch06's is 'Chapter 17..' on p124) and comes from chapter cross-references carrying their own trailing period, so fix the reference format or all 20 sites, not just this chapter; the minus-sign loss is genuinely ch06-only (pre-migration file had 7 U+2212, current file has none, while 08-disciplines, 13-combat and 21-glossary still carry U+2212), so restore those in the ch06 pass. Table captions are a pending book-wide convention decision (only 9 of 138 tables carry a numbered caption prefix), so do not edit ch06's captions in isolation. MIGRATION-SPEC structural traps are clean here: a single raw Typst fence with the H1 above it, all five tables carrying outlined:false, labels on the line after their headings, and all three callout bodies in the named form do render. Page flow is otherwise sound: no split tables, no orphaned headings, one near-empty page (p120), and the zero-em-dash law holds.",
+  "evidence": [
+    {
+      "source": "build output Heroes-of-Legend.pdf, p123",
+      "claim": "The enum body merges into one numbered paragraph, so the three defense formula lines print as a single run-on item.",
+      "quote_or_excerpt": "1. No defensive skill: 3d6 + Agility modifier - Challenge Dodge:"
+    },
+    {
+      "source": "06-core-resolution:91",
+      "claim": "The bracket body holds three separate lines but none opens with the '+' item marker the book's other enums use, so the renderer treats the whole body as one item.",
+      "quote_or_excerpt": "#enum(numbering: \"1.\")["
+    },
+    {
+      "source": "build output Heroes-of-Legend.pdf, p123-124",
+      "claim": "The five former bullets now render as a numbered list, and the list splits across the page break between p123 and p124.",
+      "quote_or_excerpt": "1. Agility is your reaction speed, your footwork, your instinct to duck."
+    },
+    {
+      "source": "git show c0eb663^:quarto-book/chapters/06-core-resolution.qmd",
+      "claim": "The pre-migration markdown held an ordered list of the three formulas followed by a hyphen bullet list, which the conversion re-encoded as one collapsed enum plus a numbered '+' list.",
+      "quote_or_excerpt": "- **Agility** is your reaction speed, your footwork"
+    },
+    {
+      "source": "build output Heroes-of-Legend.pdf, p361 (22-reference-sheets)",
+      "claim": "A second enum of the same bare-line shape collapses into a single run-on entry, proving the fault is not local to this chapter.",
+      "quote_or_excerpt": "1. Concept: One sentence. Who is your hero? Attributes:"
+    },
+    {
+      "source": "build output Heroes-of-Legend.pdf, p23 (01-introduction)",
+      "claim": "The sibling enums whose bodies do carry '+' prefixes avoid the collapse but render as one outer entry with lettered sub-items, still the wrong numbering.",
+      "quote_or_excerpt": "1. a. Roll 3d6 whenever you attempt something risky."
+    },
+    {
+      "source": "build output Heroes-of-Legend.pdf, p36 (02-character-creation)",
+      "claim": "The six-step speed-run list shows the same lettered sub-item rendering instead of 1-6.",
+      "quote_or_excerpt": "1. a. Attributes: Spread +2, +1, +1, +0, +0, −1"
+    },
+    {
+      "source": "build output Heroes-of-Legend.pdf, p203 (13-combat)",
+      "claim": "Cross-chapter confirmation that former hyphen bullets now print as numbers in a sibling chapter.",
+      "quote_or_excerpt": "1. Weak: Glancing blow. Apply your attack card’s Weak damage."
+    },
+    {
+      "source": "build output Heroes-of-Legend.pdf, p234 (15-equipment)",
+      "claim": "Second cross-chapter confirmation, on the weapon-properties list.",
+      "quote_or_excerpt": "1. Versatile, can be wielded two-handed (Longsword only)"
+    },
+    {
+      "source": "quarto-book/chapters/*.qmd, top-level '+' line count",
+      "claim": "197 top-level '+' lines sit in 11 chapter files, so a chapter-only edit would leave the same substitution in ten other files.",
+      "quote_or_excerpt": "+ *Finesse*, use Agility instead of Brawn for attack and damage"
+    },
+    {
+      "source": "build output Heroes-of-Legend.pdf, p124",
+      "claim": "The cross-reference format emits its own trailing period, so the author's sentence period produces a doubled mark.",
+      "quote_or_excerpt": "Reduction (DR). See Chapter 17.."
+    },
+    {
+      "source": "full.txt text extraction, book-wide scan",
+      "claim": "The doubled-period pattern occurs 20 times across the book; this chapter supplies exactly one of them.",
+      "quote_or_excerpt": "Chapter 9.."
+    },
+    {
+      "source": "06-core-resolution:92-94 vs git show c0eb663^ same file",
+      "claim": "The pre-migration formulas used the Unicode minus, which the migration replaced with an ASCII hyphen.",
+      "quote_or_excerpt": "3d6 + Brawn modifier + Parry rank − Challenge"
+    },
+    {
+      "source": "quarto-book/chapters/08-disciplines.qmd, 13-combat.qmd, 21-glossary.qmd",
+      "claim": "Those three files still contain the Unicode minus, so this chapter's loss is file-specific drift rather than a book-wide convention change.",
+      "quote_or_excerpt": "*Dodge:* 3d6 + Agility + Dodge rank − Challenge"
+    },
+    {
+      "source": "build output Heroes-of-Legend.pdf, p129",
+      "claim": "The rendered page mixes a plain hyphen and a true minus within one sentence, making the drift visible to a reader.",
+      "quote_or_excerpt": "Total modifier: +1+1-2-2 = −2"
+    },
+    {
+      "source": "06-core-resolution table captions and sibling chapter captions",
+      "claim": "Only 9 of the book's 138 tables use a numbered caption prefix; this chapter uses it on two of five tables, while 07-skills captions all eight of its tables with plain descriptive titles.",
+      "quote_or_excerpt": "caption: [Defense Outcomes]"
+    },
+    {
+      "source": "06-core-resolution:3-4, 26-39, 43-47, 226-230",
+      "claim": "MIGRATION-SPEC structural rules hold: one raw Typst fence with the H1 kept above it, every table marked outlined:false, and each label on the line after its heading.",
+      "quote_or_excerpt": "#label(\"sec-chapter-core-resolution\")"
+    },
+    {
+      "source": "build output Heroes-of-Legend.pdf, p121, p123, p128",
+      "claim": "All three callouts render their body prose, so the named body form is functioning and no body is being silently dropped.",
+      "quote_or_excerpt": "Only roll when failure is interesting."
+    },
+    {
+      "source": "build output Heroes-of-Legend.pdf, p120",
+      "claim": "One short paragraph sits alone on an otherwise blank page, the chapter's only whitespace outlier.",
+      "quote_or_excerpt": "This is the chapter that makes the game work."
+    },
+    {
+      "source": "06-core-resolution:17-234, heading levels",
+      "claim": "Heading hierarchy is clean: H2 for main sections and H3 only inside the Players Make All Rolls section, with no skipped level.",
+      "quote_or_excerpt": "=== How Defense Rolls Work"
+    },
+    {
+      "source": "06-core-resolution full-file scan and build output Heroes-of-Legend.pdf, p119",
+      "claim": "No em-dash characters occur in the chapter source; the only ones on its pages are the chapter ornament and the footer numeral rules, so the zero-em-dash law holds.",
+      "quote_or_excerpt": "—❦—"
+    }
+  ],
+  "confidence": 0.9,
+  "rebutting": []
+}

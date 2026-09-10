@@ -1,0 +1,52 @@
+{
+  "id": "f-104",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "The implied support position is that Chapter 6's exception mechanics are internally consistent and stay inside the locked damage budget. Concrete counter-examples break that. A Critical whose d6 bonus is Maximum Damage doubles the Strong value instead of shifting one tier, so a Master-tier attack whose budget Strong is 21 lands for 42, double a ceiling the book states elsewhere and in conflict with the chapters that define a Critical as a flat maximum-Strong 21. The Fumble section calls a fumble an automatic failure while the attack section promises every swing connects and the success table maps totals of 1 through 8 to Weak damage; a three-1 roll totals 3, so the chapter's own arithmetic prescribes Weak damage where the fumble prose prescribes failure, and nothing states which controls on an attack. The Off Balance fumble hands a Boon to the next attack against the hero, but the attacker is an NPC who never rolls; if that Boon is routed to the player's reversed Defense Roll it improves the defender, the opposite of the penalty intended. Gear Damage tells the reader armor loses one step even though the armor chapter models DR as a flat subtraction with no step ladder and the book publishes no repair or degradation rule. And the Defense Roll trigger names only an NPC or monster attacker, leaving hero-versus-hero and NPC-versus-NPC attacks with no defined resolution. Each is closable only by adding explicit caps, ownership of the quoted values, and a stated interaction rule.",
+  "evidence": [
+    {
+      "source": "06-core-resolution:160",
+      "claim": "A Critical bonus result doubles the Strong damage instead of shifting one tier, so its output can exceed the book's damage ceiling.",
+      "quote_or_excerpt": "Deal Strong damage, then add Strong damage again."
+    },
+    {
+      "source": "09-talents-abilities:112",
+      "claim": "Canon fixes a Critical at maximum Strong damage, 21, which a doubled Master-tier Strong of 42 contradicts.",
+      "quote_or_excerpt": "the attack deals maximum Strong damage (21)"
+    },
+    {
+      "source": "06-core-resolution:181",
+      "claim": "The fumble section declares fumbles automatic failures, contradicting the guarantee that an attack always connects.",
+      "quote_or_excerpt": "Fumbles are automatic failures."
+    },
+    {
+      "source": "06-core-resolution:65",
+      "claim": "The attack section promises the swing connects every time and makes the roll's tier the damage tier.",
+      "quote_or_excerpt": "you connect. Every time."
+    },
+    {
+      "source": "06-core-resolution:190",
+      "claim": "The Off Balance fumble grants a Boon to an attacker who never rolls under the players-roll-all convention.",
+      "quote_or_excerpt": "The next attack against you has a Boon."
+    },
+    {
+      "source": "06-core-resolution:191",
+      "claim": "Gear Damage instructs that armor drops one step, but no such step ordering is published.",
+      "quote_or_excerpt": "Armor degrades one step."
+    },
+    {
+      "source": "16-armor-shields:22",
+      "claim": "The armor chapter defines DR only as a flat subtraction from incoming damage, with no step or degradation model to interpret the instruction.",
+      "quote_or_excerpt": "subtract your Damage Reduction (DR) from the damage value"
+    },
+    {
+      "source": "06-core-resolution:89",
+      "claim": "The Defense Roll is triggered only by an NPC or monster attacker, so a hero-versus-hero attack has no defined resolution path.",
+      "quote_or_excerpt": "When an NPC or monster attacks your hero"
+    }
+  ],
+  "confidence": 0.85,
+  "rebutting": []
+}
