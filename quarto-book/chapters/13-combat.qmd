@@ -286,7 +286,7 @@ When you wield a weapon in each hand, you may attack with both as a single Actio
 
 The off-hand weapon must have the *Light* property (Dagger, Shortsword, Handaxe). Two-weapon fighting uses your basic Attack action; the off-hand swing is just the same action with a second, weaker blow.
 
-*Example:* Kael wields a longsword (primary) and shortsword (off-hand). He rolls 3d6 and lands a Standard hit. His Basic Melee card deals 2 on Standard, plus Brawn +1, for 3. The off-hand attack drops a tier to Weak: the shortsword is Finesse, so it adds Agility +2, 1 plus 2, for 3 more. Total: 6. Two blades, one roll, clean result.
+*Example:* Kael wields a shortsword (primary) and a dagger (off-hand). He rolls 3d6 and lands a Standard hit. His Basic Melee card deals 2 on Standard, plus Agility +2, for 4. The off-hand attack drops a tier to Weak: the dagger is Finesse, so it adds the same Agility +2, 1 plus 2, for 3 more. Total: 7. Two blades, one roll, clean result.
 
 #pagebreak()
 
@@ -455,7 +455,7 @@ She rolls 3d6 + Knowledge (+1) + no skill. Rolls 3, 4, 4 = 11 + 1 = 12. *Standar
 
 *Round 1, Kael's Turn:*
 
-Kael sees the Knight advancing on Roric. He moves 15 ft to flank, drawing his longsword as a free action. A small buckler (+1 DR) is strapped to his left forearm.
+Kael sees the Knight advancing on Roric. He moves 15 ft to flank, drawing his shortsword as a free action. A small buckler (+1 DR) is strapped to his left forearm.
 
 "I attack the Knight."
 
