@@ -2,514 +2,518 @@
 
 ```{=typst}
 #label("sec-chapter-arcane-spells")
-```
 
-![Illo 18: Arcane Spells Art](../assets/images/page039-img027.jpeg){width="60%"}
+#figure(image("assets/images/page039-img027.jpeg", width: 60%),
+  caption: [Illo 18: Arcane Spells Art],
+)
 
-*Illustration 18: Arcane spells chapter art (Leader class). Placeholder; final art TBD. Dimensions: 1024×1024.*
+_Illustration 18: Arcane spells chapter art (Leader class). Placeholder; final art TBD. Dimensions: 1024×1024._
 
-{{< pagebreak >}}
+#pagebreak()
 
 Fire is the first magic. It's the magic of anger, of hunger, of the campfire that keeps the dark at bay. Every mage starts with fire, and most never stop.
 
-But fire's just the beginning. Ice that freezes blood in the veins. Lightning that jumps from foe to foe like it's choosing favorites. Acid that doesn't just burn, it *unmakes.* Force magic that hits like a battering ram made of pure will. Illusions that make trained soldiers stab at shadows. The cold arithmetic of necromancy. The whisper that becomes a command. The body reshaped into something faster, harder, deadlier.
+But fire's just the beginning. Ice that freezes blood in the veins. Lightning that jumps from foe to foe like it's choosing favorites. Acid that doesn't just burn, it _unmakes._ Force magic that hits like a battering ram made of pure will. Illusions that make trained soldiers stab at shadows. The cold arithmetic of necromancy. The whisper that becomes a command. The body reshaped into something faster, harder, deadlier.
 
-Arcane magic is the art of telling the universe to sit down and shut up, and making it listen. You don't ask. You don't pray. You *impose.*
+Arcane magic is the art of telling the universe to sit down and shut up, and making it listen. You don't ask. You don't pray. You _impose._
 
 This chapter contains every arcane spell in the game: ten cantrips you know from the start, and thirty spells that each grow from Novice to Master. Every spell card carries a Discipline, an action, a range, and an effect that scales across Weak, Standard, and Strong, then deepens at Adept and Master. Key the numbers to the damage budget (@sec-damage-budget), and cast.
 
-*See @sec-chapter-magic-system for how spellcasting works.*
+_See @sec-chapter-magic-system for how spellcasting works._
 
-{{< pagebreak >}}
+#pagebreak()
 
-## Arcane Cantrips
+== Arcane Cantrips
 
-Cantrips are minor spells. The magic you learn before you learn *real* magic. They don't require Disciplines, they don't cost anything to learn, and you can cast them as often as you like, at-will, every round, all day. Every arcane caster knows all of these.
+Cantrips are minor spells. The magic you learn before you learn _real_ magic. They don't require Disciplines, they don't cost anything to learn, and you can cast them as often as you like, at-will, every round, all day. Every arcane caster knows all of these.
 
 They won't win a fight by themselves. But they'll start one, end one, or change the terms of one. Never underestimate a caster who knows exactly what their cantrips can do.
 
-### Arcane Mark (Cantrip)
-**Disciplines:** None · **Action:** Action · **Range:** Touch (Permanent until dispelled) · **Keywords:** None
+=== Arcane Mark (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* Touch (Permanent until dispelled) · *Keywords:* None
 
-**Weak:** The mark is faint. Detection spells reveal it, but the image is blurry.
+*Weak:* The mark is faint. Detection spells reveal it, but the image is blurry.
 
-**Standard:** Clean, permanent mark. Visible on command, unmistakably yours.
+*Standard:* Clean, permanent mark. Visible on command, unmistakably yours.
 
-**Strong:** The mark is flawless. You may also sense when any creature touches it within 100 feet for the next 24 hours.
+*Strong:* The mark is flawless. You may also sense when any creature touches it within 100 feet for the next 24 hours.
 
-### Dancing Lights (Cantrip)
-**Disciplines:** None · **Action:** Action · **Range:** 60 ft (Concentration, up to 1 minute) · **Keywords:** Bane
+=== Dancing Lights (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* 60 ft (Concentration, up to 1 minute) · *Keywords:* Bane
 
-**Weak:** Two dim orbs. Light radius halved. They flicker.
+*Weak:* Two dim orbs. Light radius halved. They flicker.
 
-**Standard:** Four bright orbs or one glowing shape. Full control of movement.
+*Standard:* Four bright orbs or one glowing shape. Full control of movement.
 
-**Strong:** The lights are dazzling. One creature of your choice within the light radius has Bane on its next attack.
+*Strong:* The lights are dazzling. One creature of your choice within the light radius has Bane on its next attack.
 
-### Frost Touch (Cantrip)
-**Disciplines:** None · **Action:** Action · **Range:** Touch · **Keywords:** Bane
+=== Frost Touch (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* Touch · *Keywords:* Bane
 
-**Weak:** 1 cold damage. Liquid chills but doesn't freeze.
+*Weak:* 1 cold damage. Liquid chills but doesn't freeze.
 
-**Standard:** 3 cold damage. Liquid freezes solid.
+*Standard:* 3 cold damage. Liquid freezes solid.
 
-**Strong:** 5 cold damage. Target's next physical action has Bane as cold numbs their limbs.
+*Strong:* 5 cold damage. Target's next physical action has Bane as cold numbs their limbs.
 
-### Ghost Sound (Cantrip)
-**Disciplines:** None · **Action:** Action · **Range:** 30 ft (Concentration, up to 1 minute) · **Keywords:** None
+=== Ghost Sound (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* 30 ft (Concentration, up to 1 minute) · *Keywords:* None
 
-**Weak:** One brief, obvious sound. Anyone listening gets a Reason check to recognize it as magical.
+*Weak:* One brief, obvious sound. Anyone listening gets a Reason check to recognize it as magical.
 
-**Standard:** Sustained or repeating sounds. Believable enough to distract or mislead.
+*Standard:* Sustained or repeating sounds. Believable enough to distract or mislead.
 
-**Strong:** Complex audio, a full sentence in a recognizable voice, or a soundscape (approaching guards, a wolf pack circling).
+*Strong:* Complex audio, a full sentence in a recognizable voice, or a soundscape (approaching guards, a wolf pack circling).
 
-### Mage Hand (Cantrip)
-**Disciplines:** None · **Action:** Action · **Range:** 30 ft (Concentration, up to 1 minute) · **Keywords:** None
+=== Mage Hand (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* 30 ft (Concentration, up to 1 minute) · *Keywords:* None
 
-**Weak:** The hand is clumsy. Fine manipulation fails. Objects may be dropped.
+*Weak:* The hand is clumsy. Fine manipulation fails. Objects may be dropped.
 
-**Standard:** Precise control. The hand can turn keys, pour liquids, or lift up to 10 pounds.
+*Standard:* Precise control. The hand can turn keys, pour liquids, or lift up to 10 pounds.
 
-**Strong:** The hand is preternaturally deft. It can pick pockets, disarm simple traps, or deliver a potion to an ally's lips mid-combat.
+*Strong:* The hand is preternaturally deft. It can pick pockets, disarm simple traps, or deliver a potion to an ally's lips mid-combat.
 
-### Prestidigitation (Cantrip)
-**Disciplines:** None · **Action:** Action · **Range:** 10 ft (Up to 1 hour) · **Keywords:** None
+=== Prestidigitation (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* 10 ft (Up to 1 hour) · *Keywords:* None
 
-**Weak:** One effect. It's crude, the sparks are dull, the cleaning is smeary.
+*Weak:* One effect. It's crude, the sparks are dull, the cleaning is smeary.
 
-**Standard:** Up to three simultaneous effects. Each works exactly as intended.
+*Standard:* Up to three simultaneous effects. Each works exactly as intended.
 
-**Strong:** Your effects are especially vivid or lasting. The perfume lingers for hours. The sparks are bright enough to briefly distract. The cleaning removes stains that have been there for years.
+*Strong:* Your effects are especially vivid or lasting. The perfume lingers for hours. The sparks are bright enough to briefly distract. The cleaning removes stains that have been there for years.
 
-### Spark (Cantrip)
-**Disciplines:** None · **Action:** Action · **Range:** 30 ft · **Keywords:** None
+=== Spark (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* 30 ft · *Keywords:* None
 
-**Weak:** The object smolders. It may catch fire after 1 round if left alone.
+*Weak:* The object smolders. It may catch fire after 1 round if left alone.
 
-**Standard:** Immediate ignition. The object catches fire and burns normally.
+*Standard:* Immediate ignition. The object catches fire and burns normally.
 
-**Strong:** The flame leaps. Adjacent flammable objects also catch fire.
+*Strong:* The flame leaps. Adjacent flammable objects also catch fire.
 
-### Static Shock (Cantrip)
-**Disciplines:** None · **Action:** Action · **Range:** 30 ft · **Keywords:** None
+=== Static Shock (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* 30 ft · *Keywords:* None
 
-**Weak:** 1 lightning damage. The target feels a tingle.
+*Weak:* 1 lightning damage. The target feels a tingle.
 
-**Standard:** 3 lightning damage. +1 vs. metal armor.
+*Standard:* 3 lightning damage. +1 vs. metal armor.
 
-**Strong:** 5 lightning damage. The spark chains to one additional target within 10 feet for half damage.
+*Strong:* 5 lightning damage. The spark chains to one additional target within 10 feet for half damage.
 
-### Acid Splash (Cantrip)
-**Disciplines:** None · **Action:** Action · **Range:** 30 ft · **Keywords:** None
+=== Acid Splash (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* 30 ft · *Keywords:* None
 
-**Weak:** 1 acid damage. The acid sizzles weakly.
+*Weak:* 1 acid damage. The acid sizzles weakly.
 
-**Standard:** 3 acid damage. Ignores 1 hardness against objects.
+*Standard:* 3 acid damage. Ignores 1 hardness against objects.
 
-**Strong:** 5 acid damage. The acid clings, target takes 5 additional acid damage at the start of its next turn.
+*Strong:* 5 acid damage. The acid clings, target takes 5 additional acid damage at the start of its next turn.
 
-### Whisper (Cantrip)
-**Disciplines:** None · **Action:** Action · **Range:** 120 ft · **Keywords:** None
+=== Whisper (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* 120 ft · *Keywords:* None
 
-**Weak:** The message is garbled. Key words may be lost.
+*Weak:* The message is garbled. Key words may be lost.
 
-**Standard:** Clear message. 25 words, perfectly delivered.
+*Standard:* Clear message. 25 words, perfectly delivered.
 
-**Strong:** The message carries emotional weight, urgency, calm, menace. The target understands not just the words but the intent behind them.
+*Strong:* The message carries emotional weight, urgency, calm, menace. The target understands not just the words but the intent behind them.
 
-## Arcane Spells
+== Arcane Spells
 
-### Ember Lance (Arcane Spell)
-**Disciplines:** 1 Fire · **Action:** Action · **Range:** 30 ft · **Keywords:** Piercing, Burning
+=== Ember Lance (Arcane Spell)
+*Disciplines:* 1 Fire · *Action:* Action · *Range:* 30 ft · *Keywords:* Piercing, Burning
 
-**Weak:** 2 fire damage.
+*Weak:* 2 fire damage.
 
-**Standard:** 4 fire damage; the lance passes through to one target behind for 2 fire damage.
+*Standard:* 4 fire damage; the lance passes through to one target behind for 2 fire damage.
 
-**Strong:** 6 fire damage; 4 fire damage to one target behind.
+*Strong:* 6 fire damage; 4 fire damage to one target behind.
 
-**Adept:** 6/9/12 fire damage, Piercing 2.
+*Adept:* 6/9/12 fire damage, Piercing 2.
 
-**Master:** 9/15/21 fire damage, Piercing 3; leaves a burning patch (Burning 2).
+*Master:* 9/15/21 fire damage, Piercing 3; leaves a burning patch (Burning 2).
 
-### Brimstone Burst (Arcane Spell)
-**Disciplines:** 2 Fire · **Action:** Action · **Range:** 20-ft radius · **Keywords:** Burning
+=== Brimstone Burst (Arcane Spell)
+*Disciplines:* 2 Fire · *Action:* Action · *Range:* 20-ft radius · *Keywords:* Burning
 
-**Weak:** 6 fire damage to all in the radius (Agility or Dodge rank resists).
+*Weak:* 6 fire damage to all in the radius (Agility or Dodge rank resists).
 
-**Standard:** 9 fire damage to all.
+*Standard:* 9 fire damage to all.
 
-**Strong:** 12 fire damage to all.
+*Strong:* 12 fire damage to all.
 
-**Adept:** 6/9/12 fire damage to all.
+*Adept:* 6/9/12 fire damage to all.
 
-**Master:** 9/15/21 fire damage to all; the ground burns (Burning 4).
+*Master:* 9/15/21 fire damage to all; the ground burns (Burning 4).
 
-### Wall of Cinders (Arcane Spell)
-**Disciplines:** 2 Fire · **Action:** Action · **Range:** 30-ft wall · **Keywords:** None
+=== Wall of Cinders (Arcane Spell)
+*Disciplines:* 2 Fire · *Action:* Action · *Range:* 30-ft wall · *Keywords:* None
 
-**Weak:** 6 fire damage to creatures passing through.
+*Weak:* 6 fire damage to creatures passing through.
 
-**Standard:** 9 fire damage to passers.
+*Standard:* 9 fire damage to passers.
 
-**Strong:** 12 fire damage to passers; ignites flammables.
+*Strong:* 12 fire damage to passers; ignites flammables.
 
-**Adept:** 6/9/12 fire damage to passers; the wall lasts 2 rounds.
+*Adept:* 6/9/12 fire damage to passers; the wall lasts 2 rounds.
 
-**Master:** 9/15/21 fire damage to passers; the wall lasts 3 rounds.
+*Master:* 9/15/21 fire damage to passers; the wall lasts 3 rounds.
 
-### Burning Volley (Arcane Spell)
-**Disciplines:** 1 Fire · **Action:** Action · **Range:** 60 ft · **Keywords:** None
+=== Burning Volley (Arcane Spell)
+*Disciplines:* 1 Fire · *Action:* Action · *Range:* 60 ft · *Keywords:* None
 
-**Weak:** 2 fire damage, split across three lances.
+*Weak:* 2 fire damage, split across three lances.
 
-**Standard:** 4 fire damage, split across three lances.
+*Standard:* 4 fire damage, split across three lances.
 
-**Strong:** 6 fire damage, split across three lances.
+*Strong:* 6 fire damage, split across three lances.
 
-**Adept:** 6/9/12 fire damage; the lances may split targets.
+*Adept:* 6/9/12 fire damage; the lances may split targets.
 
-**Master:** 9/15/21 fire damage, split across five lances.
+*Master:* 9/15/21 fire damage, split across five lances.
 
-### Frostbite Shard (Arcane Spell)
-**Disciplines:** 1 Water · **Action:** Action · **Range:** 30 ft · **Keywords:** Slowed, Frozen
+=== Frostbite Shard (Arcane Spell)
+*Disciplines:* 1 Water · *Action:* Action · *Range:* 30 ft · *Keywords:* Slowed, Frozen
 
-**Weak:** 2 cold damage.
+*Weak:* 2 cold damage.
 
-**Standard:** 4 cold damage; the target is Slowed 5 for 1 turn.
+*Standard:* 4 cold damage; the target is Slowed 5 for 1 turn.
 
-**Strong:** 6 cold damage; the target is Slowed 5.
+*Strong:* 6 cold damage; the target is Slowed 5.
 
-**Adept:** 6/9/12 cold damage.
+*Adept:* 6/9/12 cold damage.
 
-**Master:** 9/15/21 cold damage; Frozen 2 on Strong.
+*Master:* 9/15/21 cold damage; Frozen 2 on Strong.
 
-### Rime Storm (Arcane Spell)
-**Disciplines:** 2 Water · **Action:** Action · **Range:** 15-ft radius · **Keywords:** Slowed, Frozen
+=== Rime Storm (Arcane Spell)
+*Disciplines:* 2 Water · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Slowed, Frozen
 
-**Weak:** 6 cold damage (Agility or Dodge rank resists).
+*Weak:* 6 cold damage (Agility or Dodge rank resists).
 
-**Standard:** 9 cold damage; targets are Slowed 5.
+*Standard:* 9 cold damage; targets are Slowed 5.
 
-**Strong:** 12 cold damage; targets are Slowed 5 for 2 rounds.
+*Strong:* 12 cold damage; targets are Slowed 5 for 2 rounds.
 
-**Adept:** 6/9/12 cold damage.
+*Adept:* 6/9/12 cold damage.
 
-**Master:** 9/15/21 cold damage; Frozen 2 on Strong.
+*Master:* 9/15/21 cold damage; Frozen 2 on Strong.
 
-### Glacial Prison (Arcane Spell)
-**Disciplines:** 2 Water · **Action:** Action · **Range:** 30 ft · **Keywords:** Restrained, Frozen
+=== Glacial Prison (Arcane Spell)
+*Disciplines:* 2 Water · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained, Frozen
 
-**Weak:** 6 cold damage.
+*Weak:* 6 cold damage.
 
-**Standard:** 9 cold damage; the target is Restrained (break: Standard Athletics, once per turn).
+*Standard:* 9 cold damage; the target is Restrained (break: Standard Athletics, once per turn).
 
-**Strong:** 12 cold damage; the target is Restrained for 2 rounds.
+*Strong:* 12 cold damage; the target is Restrained for 2 rounds.
 
-**Adept:** 6/9/12 cold damage.
+*Adept:* 6/9/12 cold damage.
 
-**Master:** 9/15/21 cold damage; Frozen 2 instead of Restrained.
+*Master:* 9/15/21 cold damage; Frozen 2 instead of Restrained.
 
-### Storm Javelin (Arcane Spell)
-**Disciplines:** 1 Wind · **Action:** Action · **Range:** 60 ft · **Keywords:** Bane
+=== Storm Javelin (Arcane Spell)
+*Disciplines:* 1 Wind · *Action:* Action · *Range:* 60 ft · *Keywords:* Bane
 
-**Weak:** 2 lightning damage.
+*Weak:* 2 lightning damage.
 
-**Standard:** 4 lightning damage; the target has Bane on its next attack.
+*Standard:* 4 lightning damage; the target has Bane on its next attack.
 
-**Strong:** 6 lightning damage; the target has Bane on its next 2 attacks.
+*Strong:* 6 lightning damage; the target has Bane on its next 2 attacks.
 
-**Adept:** 6/9/12 lightning damage.
+*Adept:* 6/9/12 lightning damage.
 
-**Master:** 9/15/21 lightning damage; arcs to one adjacent target for half.
+*Master:* 9/15/21 lightning damage; arcs to one adjacent target for half.
 
-### Forked Sky (Arcane Spell)
-**Disciplines:** 2 Wind · **Action:** Action · **Range:** 30 ft · **Keywords:** None
+=== Forked Sky (Arcane Spell)
+*Disciplines:* 2 Wind · *Action:* Action · *Range:* 30 ft · *Keywords:* None
 
-**Weak:** 6 lightning damage, split across three arcs.
+*Weak:* 6 lightning damage, split across three arcs.
 
-**Standard:** 9 lightning damage, split across three arcs.
+*Standard:* 9 lightning damage, split across three arcs.
 
-**Strong:** 12 lightning damage, split across three arcs.
+*Strong:* 12 lightning damage, split across three arcs.
 
-**Adept:** 6/9/12 lightning damage, split across four arcs.
+*Adept:* 6/9/12 lightning damage, split across four arcs.
 
-**Master:** 9/15/21 lightning damage, split across five arcs.
+*Master:* 9/15/21 lightning damage, split across five arcs.
 
-### Static Field (Arcane Spell)
-**Disciplines:** 2 Wind · **Action:** Action · **Range:** 10-ft radius · **Keywords:** None
+=== Static Field (Arcane Spell)
+*Disciplines:* 2 Wind · *Action:* Action · *Range:* 10-ft radius · *Keywords:* None
 
-**Weak:** 6 lightning damage to all adjacent targets (Agility or Dodge rank resists).
+*Weak:* 6 lightning damage to all adjacent targets (Agility or Dodge rank resists).
 
-**Standard:** 9 lightning damage to all adjacent.
+*Standard:* 9 lightning damage to all adjacent.
 
-**Strong:** 12 lightning damage to all adjacent; targets lose their Maneuver.
+*Strong:* 12 lightning damage to all adjacent; targets lose their Maneuver.
 
-**Adept:** 6/9/12 lightning damage to all adjacent.
+*Adept:* 6/9/12 lightning damage to all adjacent.
 
-**Master:** 9/15/21 lightning damage; 15-ft radius.
+*Master:* 9/15/21 lightning damage; 15-ft radius.
 
-### Corrosive Spit (Arcane Spell)
-**Disciplines:** 1 Earth · **Action:** Action · **Range:** 30 ft · **Keywords:** DR
+=== Corrosive Spit (Arcane Spell)
+*Disciplines:* 1 Earth · *Action:* Action · *Range:* 30 ft · *Keywords:* DR
 
-**Weak:** 2 acid damage.
+*Weak:* 2 acid damage.
 
-**Standard:** 4 acid damage; the target's DR is reduced by 1 for 1 turn.
+*Standard:* 4 acid damage; the target's DR is reduced by 1 for 1 turn.
 
-**Strong:** 6 acid damage; the target's DR is reduced by 2.
+*Strong:* 6 acid damage; the target's DR is reduced by 2.
 
-**Adept:** 6/9/12 acid damage, DR reduced by 2.
+*Adept:* 6/9/12 acid damage, DR reduced by 2.
 
-**Master:** 9/15/21 acid damage, DR reduced by 3.
+*Master:* 9/15/21 acid damage, DR reduced by 3.
 
-### Caustic Mist (Arcane Spell)
-**Disciplines:** 2 Earth · **Action:** Action · **Range:** 15-ft radius · **Keywords:** Bane on sight
+=== Caustic Mist (Arcane Spell)
+*Disciplines:* 2 Earth · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Bane on sight
 
-**Weak:** 6 acid damage (Agility or Dodge rank resists).
+*Weak:* 6 acid damage (Agility or Dodge rank resists).
 
-**Standard:** 9 acid damage; targets have Bane on sight.
+*Standard:* 9 acid damage; targets have Bane on sight.
 
-**Strong:** 12 acid damage; targets have Bane on sight for 2 rounds.
+*Strong:* 12 acid damage; targets have Bane on sight for 2 rounds.
 
-**Adept:** 6/9/12 acid damage.
+*Adept:* 6/9/12 acid damage.
 
-**Master:** 9/15/21 acid damage; the mist lasts 2 rounds.
+*Master:* 9/15/21 acid damage; the mist lasts 2 rounds.
 
-### Venom Lance (Arcane Spell)
-**Disciplines:** 1 Plants · **Action:** Action · **Range:** 30 ft · **Keywords:** Bane
+=== Venom Lance (Arcane Spell)
+*Disciplines:* 1 Plants · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
 
-**Weak:** 2 poison damage.
+*Weak:* 2 poison damage.
 
-**Standard:** 4 poison damage; Fortitude check or Bane.
+*Standard:* 4 poison damage; Fortitude check or Bane.
 
-**Strong:** 6 poison damage; Fortitude check or lose Maneuver.
+*Strong:* 6 poison damage; Fortitude check or lose Maneuver.
 
-**Adept:** 6/9/12 poison damage.
+*Adept:* 6/9/12 poison damage.
 
-**Master:** 9/15/21 poison damage.
+*Master:* 9/15/21 poison damage.
 
-### Tremor (Arcane Spell)
-**Disciplines:** 2 Earth · **Action:** Action · **Range:** 10-ft radius · **Keywords:** Prone
+=== Tremor (Arcane Spell)
+*Disciplines:* 2 Earth · *Action:* Action · *Range:* 10-ft radius · *Keywords:* Prone
 
-**Weak:** 6 bludgeoning damage (Agility or Dodge rank resists).
+*Weak:* 6 bludgeoning damage (Agility or Dodge rank resists).
 
-**Standard:** 9 bludgeoning damage; targets are Prone.
+*Standard:* 9 bludgeoning damage; targets are Prone.
 
-**Strong:** 12 bludgeoning damage; targets are Prone and lose their Maneuver.
+*Strong:* 12 bludgeoning damage; targets are Prone and lose their Maneuver.
 
-**Adept:** 6/9/12 bludgeoning damage.
+*Adept:* 6/9/12 bludgeoning damage.
 
-**Master:** 9/15/21 bludgeoning damage; 15-ft radius.
+*Master:* 9/15/21 bludgeoning damage; 15-ft radius.
 
-### Gust (Arcane Spell)
-**Disciplines:** 1 Wind · **Action:** Action · **Range:** 30 ft · **Keywords:** Prone, Push
+=== Gust (Arcane Spell)
+*Disciplines:* 1 Wind · *Action:* Action · *Range:* 30 ft · *Keywords:* Prone, Push
 
-**Weak:** No damage; Push 5 ft.
+*Weak:* No damage; Push 5 ft.
 
-**Standard:** Push 10 ft.
+*Standard:* Push 10 ft.
 
-**Strong:** Push 15 ft; the target is Prone.
+*Strong:* Push 15 ft; the target is Prone.
 
-**Adept:** Push 20 ft.
+*Adept:* Push 20 ft.
 
-**Master:** Push up to three targets 30 ft.
+*Master:* Push up to three targets 30 ft.
 
-![Illo 34: Arcane Spells Midpoint](../assets/svg/placeholder-section.svg){width="60%"}
+#figure(image("assets/svg/placeholder-section.svg", width: 60%),
+  caption: [Illo 34: Arcane Spells Midpoint],
+)
 
-*Illustration 34: Arcane spells chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300.*
+_Illustration 34: Arcane spells chapter midpoint. Placeholder for final art. Use placeholder-section.svg dimensions: 400×300._
 
-{{< pagebreak >}}
+#pagebreak()
 
-### Wind Wall (Arcane Spell)
-**Disciplines:** 2 Wind · **Action:** Action · **Range:** 30-ft wall · **Keywords:** Bane
+=== Wind Wall (Arcane Spell)
+*Disciplines:* 2 Wind · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Bane
 
-**Weak:** Missile attacks through the wall have Bane.
+*Weak:* Missile attacks through the wall have Bane.
 
-**Standard:** Missile attacks through the wall have Bane.
+*Standard:* Missile attacks through the wall have Bane.
 
-**Strong:** Missile attacks are blocked and pushed 5 ft.
+*Strong:* Missile attacks are blocked and pushed 5 ft.
 
-**Adept:** The wall lasts 2 rounds; 6/9/12 bludgeoning damage to passers.
+*Adept:* The wall lasts 2 rounds; 6/9/12 bludgeoning damage to passers.
 
-**Master:** The wall lasts 3 rounds; 9/15/21 bludgeoning damage to passers.
+*Master:* The wall lasts 3 rounds; 9/15/21 bludgeoning damage to passers.
 
-### Force Dart (Arcane Spell)
-**Disciplines:** 1 Energy · **Action:** Action · **Range:** 60 ft · **Keywords:** None
+=== Force Dart (Arcane Spell)
+*Disciplines:* 1 Energy · *Action:* Action · *Range:* 60 ft · *Keywords:* None
 
-**Weak:** 2 force damage; never misses (the tier is still rolled).
+*Weak:* 2 force damage; never misses (the tier is still rolled).
 
-**Standard:** 4 force damage.
+*Standard:* 4 force damage.
 
-**Strong:** 6 force damage.
+*Strong:* 6 force damage.
 
-**Adept:** 6/9/12 force damage, two darts.
+*Adept:* 6/9/12 force damage, two darts.
 
-**Master:** 9/15/21 force damage, three darts.
+*Master:* 9/15/21 force damage, three darts.
 
-### Force Wave (Arcane Spell)
-**Disciplines:** 2 Energy · **Action:** Action · **Range:** 15-ft cone · **Keywords:** Prone, Push
+=== Force Wave (Arcane Spell)
+*Disciplines:* 2 Energy · *Action:* Action · *Range:* 15-ft cone · *Keywords:* Prone, Push
 
-**Weak:** 6 force damage; Push 5 ft (Agility or Dodge rank resists).
+*Weak:* 6 force damage; Push 5 ft (Agility or Dodge rank resists).
 
-**Standard:** 9 force damage; Push 10 ft.
+*Standard:* 9 force damage; Push 10 ft.
 
-**Strong:** 12 force damage; Push 15 ft; targets are Prone.
+*Strong:* 12 force damage; Push 15 ft; targets are Prone.
 
-**Adept:** 6/9/12 force damage.
+*Adept:* 6/9/12 force damage.
 
-**Master:** 9/15/21 force damage.
+*Master:* 9/15/21 force damage.
 
-### Ward of Iron (Arcane Spell)
-**Disciplines:** 1 Energy · **Action:** Reaction · **Range:** self · **Keywords:** DR
+=== Ward of Iron (Arcane Spell)
+*Disciplines:* 1 Energy · *Action:* Reaction · *Range:* self · *Keywords:* DR
 
-**Weak:** +2 DR against one attack.
+*Weak:* +2 DR against one attack.
 
-**Standard:** +4 DR against one attack.
+*Standard:* +4 DR against one attack.
 
-**Strong:** +6 DR against one attack; the attacker takes 2 damage.
+*Strong:* +6 DR against one attack; the attacker takes 2 damage.
 
-**Adept:** 6/9/12 DR against one attack.
+*Adept:* 6/9/12 DR against one attack.
 
-**Master:** 9/15/21 DR against one attack; reflects 3 damage.
+*Master:* 9/15/21 DR against one attack; reflects 3 damage.
 
-### Unseen Hand (Arcane Spell)
-**Disciplines:** 1 Energy · **Action:** Action · **Range:** 30 ft · **Keywords:** Restrained
+=== Unseen Hand (Arcane Spell)
+*Disciplines:* 1 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained
 
-**Weak:** Lift 10 lb for 1 turn.
+*Weak:* Lift 10 lb for 1 turn.
 
-**Standard:** Lift 20 lb for 1 turn.
+*Standard:* Lift 20 lb for 1 turn.
 
-**Strong:** Lift 50 lb for 2 turns.
+*Strong:* Lift 50 lb for 2 turns.
 
-**Adept:** Lift 100 lb.
+*Adept:* Lift 100 lb.
 
-**Master:** Lift 200 lb; can hold a creature still (Restrained).
+*Master:* Lift 200 lb; can hold a creature still (Restrained).
 
-### Silver Tongue (Arcane Spell)
-**Disciplines:** 1 Mind · **Action:** Action · **Range:** 30 ft · **Keywords:** Bane, Boon
+=== Silver Tongue (Arcane Spell)
+*Disciplines:* 1 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane, Boon
 
-**Weak:** The target has Bane against your social checks for 1 scene (Reason resists).
+*Weak:* The target has Bane against your social checks for 1 scene (Reason resists).
 
-**Standard:** The target has Bane against your social checks for 2 turns.
+*Standard:* The target has Bane against your social checks for 2 turns.
 
-**Strong:** The target has Bane against your social checks and is friendly for 1 scene.
+*Strong:* The target has Bane against your social checks and is friendly for 1 scene.
 
-**Master:** The target is friendly and you gain Boon on social checks against them.
+*Master:* The target is friendly and you gain Boon on social checks against them.
 
-### Daze (Arcane Spell)
-**Disciplines:** 1 Mind · **Action:** Action · **Range:** 30 ft · **Keywords:** None
+=== Daze (Arcane Spell)
+*Disciplines:* 1 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* None
 
-**Weak:** The target loses its Maneuver (Reason resists).
+*Weak:* The target loses its Maneuver (Reason resists).
 
-**Standard:** The target loses its Action.
+*Standard:* The target loses its Action.
 
-**Strong:** The target loses its Action and Maneuver.
+*Strong:* The target loses its Action and Maneuver.
 
-**Adept:** Two targets.
+*Adept:* Two targets.
 
-**Master:** Three targets.
+*Master:* Three targets.
 
-### Phantasmal Image (Arcane Spell)
-**Disciplines:** 2 Mind · **Action:** Action · **Range:** 30 ft · **Keywords:** Bane
+=== Phantasmal Image (Arcane Spell)
+*Disciplines:* 2 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
 
-**Weak:** The illusion lasts 1 turn.
+*Weak:* The illusion lasts 1 turn.
 
-**Standard:** The illusion lasts 2 turns.
+*Standard:* The illusion lasts 2 turns.
 
-**Strong:** The illusion lasts 3 turns; those who fail a Reason check have Bane.
+*Strong:* The illusion lasts 3 turns; those who fail a Reason check have Bane.
 
-**Adept:** The image also produces sound; those who fail their Reason check cannot tell it from the real thing for the duration.
+*Adept:* The image also produces sound; those who fail their Reason check cannot tell it from the real thing for the duration.
 
-**Master:** You may create two images instead of one, or a single image that moves and acts on your turn.
+*Master:* You may create two images instead of one, or a single image that moves and acts on your turn.
 
-### Fade (Arcane Spell)
-**Disciplines:** 1 Mind · **Action:** Action · **Range:** self · **Keywords:** Boon
+=== Fade (Arcane Spell)
+*Disciplines:* 1 Mind · *Action:* Action · *Range:* self · *Keywords:* Boon
 
-**Weak:** Boon on Stealth for 1 turn.
+*Weak:* Boon on Stealth for 1 turn.
 
-**Standard:** Boon on Stealth for 2 turns.
+*Standard:* Boon on Stealth for 2 turns.
 
-**Strong:** Boon on Stealth for 3 turns; you cannot be targeted by sight.
+*Strong:* Boon on Stealth for 3 turns; you cannot be targeted by sight.
 
-**Adept:** While faded, you may take one Stealth-based maneuver without ending the effect.
+*Adept:* While faded, you may take one Stealth-based maneuver without ending the effect.
 
-**Master:** Allies within 5 ft also gain the effect.
+*Master:* Allies within 5 ft also gain the effect.
 
-### Mind Crown (Arcane Spell)
-**Disciplines:** 2 Mind · **Action:** Action · **Range:** 30 ft, 1 scene · **Keywords:** None
+=== Mind Crown (Arcane Spell)
+*Disciplines:* 2 Mind · *Action:* Action · *Range:* 30 ft, 1 scene · *Keywords:* None
 
-**Weak:** The target follows one simple command (Reason resists).
+*Weak:* The target follows one simple command (Reason resists).
 
-**Standard:** The target follows two simple commands.
+*Standard:* The target follows two simple commands.
 
-**Strong:** The target follows your commands for the full scene.
+*Strong:* The target follows your commands for the full scene.
 
-**Adept:** The target obeys complex commands (up to one sentence).
+*Adept:* The target obeys complex commands (up to one sentence).
 
-**Master:** The target cannot attempt its Reason resistance again; you may issue one command as a free action on your turn.
+*Master:* The target cannot attempt its Reason resistance again; you may issue one command as a free action on your turn.
 
-### Eldritch Sight (Arcane Spell)
-**Disciplines:** 1 Energy · **Action:** Action · **Range:** self · **Keywords:** None
+=== Eldritch Sight (Arcane Spell)
+*Disciplines:* 1 Energy · *Action:* Action · *Range:* self · *Keywords:* None
 
-**Weak:** Reveal 1 clue about magic.
+*Weak:* Reveal 1 clue about magic.
 
-**Standard:** Reveal 2 clues about magic.
+*Standard:* Reveal 2 clues about magic.
 
-**Strong:** Reveal 3 clues about magic; the sight lasts 1 scene.
+*Strong:* Reveal 3 clues about magic; the sight lasts 1 scene.
 
-**Adept:** You may ask one yes/no question about the magic revealed.
+*Adept:* You may ask one yes/no question about the magic revealed.
 
-**Master:** Identify any magical effect.
+*Master:* Identify any magical effect.
 
-### Flicker Step (Arcane Spell)
-**Disciplines:** 1 Energy · **Action:** Maneuver · **Range:** self · **Keywords:** Boon, Bane
+=== Flicker Step (Arcane Spell)
+*Disciplines:* 1 Energy · *Action:* Maneuver · *Range:* self · *Keywords:* Boon, Bane
 
-**Weak:** Teleport 5 ft.
+*Weak:* Teleport 5 ft.
 
-**Standard:** Teleport 15 ft.
+*Standard:* Teleport 15 ft.
 
-**Strong:** Teleport 30 ft; Boon on your next attack.
+*Strong:* Teleport 30 ft; Boon on your next attack.
 
-**Adept:** Teleport 45 ft.
+*Adept:* Teleport 45 ft.
 
-**Master:** Teleport 60 ft; Bane on attacks against you for 1 turn.
+*Master:* Teleport 60 ft; Bane on attacks against you for 1 turn.
 
-### Soul Drain (Arcane Spell)
-**Disciplines:** 1 Energy · **Action:** Action · **Range:** 30 ft · **Keywords:** None
+=== Soul Drain (Arcane Spell)
+*Disciplines:* 1 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* None
 
-**Weak:** 2 necrotic damage; heal half the damage.
+*Weak:* 2 necrotic damage; heal half the damage.
 
-**Standard:** 4 necrotic damage; heal half the damage.
+*Standard:* 4 necrotic damage; heal half the damage.
 
-**Strong:** 6 necrotic damage; heal 3.
+*Strong:* 6 necrotic damage; heal 3.
 
-**Adept:** 6/9/12 necrotic damage; heal half the damage.
+*Adept:* 6/9/12 necrotic damage; heal half the damage.
 
-**Master:** 9/15/21 necrotic damage; heal half the damage; slay at 0 HP.
+*Master:* 9/15/21 necrotic damage; heal half the damage; slay at 0 HP.
 
-### March of Bones (Arcane Spell)
-**Disciplines:** 2 Energy · **Action:** Action · **Range:** 30 ft · **Keywords:** Boon
+=== March of Bones (Arcane Spell)
+*Disciplines:* 2 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Boon
 
-**Weak:** Raise 1 skeleton for 1 scene.
+*Weak:* Raise 1 skeleton for 1 scene.
 
-**Standard:** Raise 2 skeletons for 1 scene.
+*Standard:* Raise 2 skeletons for 1 scene.
 
-**Strong:** Raise 3 skeletons for 1 hour.
+*Strong:* Raise 3 skeletons for 1 hour.
 
-**Adept:** Raise 4 skeletons for 1 hour.
+*Adept:* Raise 4 skeletons for 1 hour.
 
-**Master:** Raise 6 skeletons; their attacks have Boon.
+*Master:* Raise 6 skeletons; their attacks have Boon.
 
-### Touch of the Grave (Arcane Spell)
-**Disciplines:** 2 Energy · **Action:** Action · **Range:** touch · **Keywords:** Unconscious
+=== Touch of the Grave (Arcane Spell)
+*Disciplines:* 2 Energy · *Action:* Action · *Range:* touch · *Keywords:* Unconscious
 
-**Weak:** 6 necrotic damage.
+*Weak:* 6 necrotic damage.
 
-**Standard:** 9 necrotic damage; Fortitude check or Unconscious.
+*Standard:* 9 necrotic damage; Fortitude check or Unconscious.
 
-**Strong:** 12 necrotic damage; Fortitude check or die at 0 HP.
+*Strong:* 12 necrotic damage; Fortitude check or die at 0 HP.
 
-**Adept:** 6/9/12 necrotic damage.
+*Adept:* 6/9/12 necrotic damage.
 
-**Master:** 9/15/21 necrotic damage.
+*Master:* 9/15/21 necrotic damage.
+```
