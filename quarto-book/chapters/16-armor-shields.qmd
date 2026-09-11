@@ -117,7 +117,7 @@ Roric goes with Option B. The Breastplate + Shield gives him DR 6, a Shield Bloc
 
 Roric is holding a choke point against two goblins and their orc warchief. He's wearing the gear he chose above: Breastplate (DR 4) plus Shield (+2 DR). Total DR: 6. The goblins aren't getting through easily.
 
-Remember how this works. The DA never rolls for monsters (@sec-chapter-combat). The DA describes the attack and names the Challenge, and Roric's player makes the Defense Roll. Strong defense means the blow lands Weak, Standard means it lands Standard, Weak means it lands Strong. Roric has Parry rank 1 and a shield in hand, so he defends with 3d6 + Brawn + Parry rank - Challenge.
+Remember how this works. The DA never rolls for monsters (@sec-chapter-combat) The DA describes the attack and names the Challenge, and Roric's player makes the Defense Roll. Strong defense means the blow lands Weak, Standard means it lands Standard, Weak means it lands Strong. Roric has Parry rank 1 and a shield in hand, so he defends with 3d6 + Brawn + Parry rank - Challenge.
 
 *Goblin 1 attacks:* "The goblin comes in low, scimitar slashing at Roric's shins. Challenge 1." Roric rolls 3d6 + Brawn +2 + Parry +1 - 1 = 3d6 + 2. He rolls 3, 4, 4 = 11 + 2 = 13. *Standard.* The scimitar's Standard damage is 4. Roric's DR 6 soaks it to the minimum: 1 damage. The blade dings off his breastplate with a sad _ping._
 

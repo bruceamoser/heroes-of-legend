@@ -309,7 +309,7 @@ Four *Drowned Guardians* rise from the water when the party enters the central c
 
 *Tactics:* The guardians spread out, one per party member if possible. They're slow but relentless, they don't flank, they don't retreat, they just keep coming. If a guardian is reduced to 0 HP, it collapses into the water with a splash. On the next round, roll 1d6. On a 5-6, it rises again at 1 HP (the water heals them). The party needs to either destroy all four in quick succession or figure out that dragging a body out of the water stops the regeneration.
 
-*Environmental hazard:* Any character who ends their turn in the water must make an Agility check (Standard) or the current knocks them Prone. The water is only ankle-deep, falling in it is embarrassing, not dangerous. But Prone in combat is bad. Remember that standing up costs a Maneuver (@sec-chapter-combat).
+*Environmental hazard:* Any character who ends their turn in the water must make an Agility check (Standard) or the current knocks them Prone. The water is only ankle-deep, falling in it is embarrassing, not dangerous. But Prone in combat is bad. Remember that standing up costs a Maneuver (@sec-chapter-combat)
 
 *Teaching moment:* After the first round, pause and point out what just happened. "You all hit. Every attack connected. The question was how hard, and you saw the difference between a Weak scratch and a Strong blow. Now it's round two. What are you going to do differently?"
 
@@ -589,7 +589,7 @@ Class abilities are more varied than spells, but they all follow a simpler forma
     [*Tier*], [Novice, Adept, or Master. Cards cost 2 DP (Novice), 4 DP (Adept), or 8 DP (Master).],
     [*Discipline Req*], [Disciplines required to purchase this ability. "No prereq" for basic utility abilities.],
     [*Trigger*], [When the ability can be used: "When you attack", "As a maneuver", "When an ally drops to 0 HP", etc.],
-    [*Effect*], [What happens. Damaging abilities key to the damage budget (@sec-damage-budget).],
+    [*Effect*], [What happens. Damaging abilities key to the damage budget (@sec-damage-budget)],
   )],
   kind: table,
   outlined: false,
@@ -633,7 +633,7 @@ Ancestry gifts are the simplest. They have no Discipline requirement (they're in
 #quote[| *Die Hard* | Novice | When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session. Dying can wait. |]
 
 #callout(type: "tip", title: "Designing Your Own Content", body: [
-When you create a new spell, ability, or gift, start with the template. Fill in every field. If you can't fill a field, your design isn't done. Then check your damage numbers against the budget table (@sec-damage-budget). If the numbers don't match, adjust them. The table is the balance. The template is the form. Together, they ensure your creation plays well with everything else in the book.
+When you create a new spell, ability, or gift, start with the template. Fill in every field. If you can't fill a field, your design isn't done. Then check your damage numbers against the budget table (@sec-damage-budget) If the numbers don't match, adjust them. The table is the balance. The template is the form. Together, they ensure your creation plays well with everything else in the book.
 ])
 
 #pagebreak()
