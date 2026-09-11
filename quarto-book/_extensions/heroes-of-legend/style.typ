@@ -98,6 +98,31 @@
 #let fa-snowflake()           = [❄]
 #let fa-bomb()                = [💣]
 
+// ── Front-matter numbering (issue #71) ──────────────────────────────────────
+// Bruce's ruling: "front matter should use roman numerals I, II, III etc.", with the body
+// restarting at Arabic 1. The front matter spans two rendering surfaces:
+//   * pages 1-8  (cover, title, table of contents) come from orange-book's book() before
+//     the theme's page rules apply, so they take whatever `numbering` is set above book().
+//     template-book.typ overrides Quarto's default `"1"` with `"I"` for them.
+//   * pages 9+ sit inside the theme's `hol-geometry`, whose custom footer draws the number.
+// The page counter is RESET at the first body chapter (hol-body-start, called from
+// 01-introduction.qmd) rather than merely displayed with an offset. A display-only offset
+// would leave the outline calling the Introduction page "15" while its folio said "1";
+// resetting brings the table of contents into line for every entry except that chapter's
+// own, which binds the page counter at its heading, before any in-chapter code can run.
+#let in-front-matter = state("in-front-matter", true)
+
+/// Called at the first body chapter: end the front matter and restart the folio at 1.
+#let hol-body-start() = {
+  in-front-matter.update(false)
+  counter(page).update(1)
+}
+
+/// Footer folio: roman through the front matter, Arabic from the body on.
+#let hol-body-number() = context {
+  if in-front-matter.at(here()) { counter(page).display("I") } else { counter(page).display() }
+}
+
 // ── Page Setup ──────────────────────────────────────────────────────────────
 #set page(
   paper: "us-letter",
@@ -204,12 +229,29 @@
 
 // Booktabs-style rules: thick toprule above, thick bottomrule below.
 // Midrule is drawn at the bottom of each header cell (see header cell show rule).
-// Tables are wrapped in unbreakable blocks to prevent mid-table page breaks.
+// Tables break normally at row boundaries; `table.header()` rows repeat per page.
+// ── Figure breaking (issues #84 / #98) ──────────────────────────────────────
+// Typst keeps a `figure` together by default, so a table taller than the space left on
+// a page was not split: the overflow was DROPPED, silently clipping printed rules
+// (ch05's class-ability table lost the tail of 'Last Stand'), and a section heading
+// immediately before such a table was stranded alone at the foot of the page.
+// `figure` has no `breakable` parameter, but it renders through a block, so this is the
+// supported way to let a tall figure split. Proven in a minimal reproduction:
+// 29/29 rows with this rule vs 24/29 without, and one fewer page.
+#show figure: set block(breakable: true)
+
 #show table: it => {
   v(4pt)
   line(stroke: 1.2pt + table-border, start: (0%, 0pt), end: (100%, 0pt))
   v(2pt)
-  block(breakable: false, it)
+  // NOTE (issue #467 / #84 / #98): this used to be `block(breakable: false, it)`.
+  // An unbreakable wrapper defeats Typst's page breaking, so a table taller than the
+  // remaining page could not split: it got stacked/overlapped and clipped its text
+  // (ch05's class-ability table lost printed rules), and a section heading immediately
+  // before such a table was stranded alone at the foot of the page. Letting the table
+  // break restores normal row-level breaking, and Typst repeats `table.header()` rows
+  // on each fragment. The decorative rules below still bracket the whole table.
+  it
   v(2pt)
   line(stroke: 1.2pt + table-border, start: (0%, 0pt), end: (100%, 0pt))
   v(4pt)
@@ -507,7 +549,7 @@
     footer: [
       #set text(size: 7.5pt, fill: muted, font: body-font-stack)
       #align(center)[
-        — #context counter(page).display() —
+        — #hol-body-number() —
       ]
     ],
     numbering: none, // we provide custom footer

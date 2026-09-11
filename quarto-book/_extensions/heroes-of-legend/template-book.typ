@@ -27,6 +27,16 @@ $page.typ()$
 
 #import "@preview/orange-book:0.7.1": book, part, chapter, appendices
 
+// ── Front-matter page numbering (issue #71) ─────────────────────────────────
+// The cover, title page and table of contents are emitted by book() before the theme's
+// page rules take effect, so they inherit Quarto's default `numbering: "1"` and print
+// bare Arabic digits. Bruce's ruling is that the front matter uses roman numerals, so
+// override the pattern here, above book(): a later set rule at the same level wins, and
+// book() does not set a page numbering of its own to displace it. The body re-asserts
+// `numbering: none` inside hol-geometry (style.typ) and draws its own footer, so this
+// pattern governs the front matter only.
+#set page(numbering: "I")
+
 #show: book.with(
   // ── Heroes of Legend geometry (theme overrides) ──────────────────────────
   paper-size: "us-letter",
