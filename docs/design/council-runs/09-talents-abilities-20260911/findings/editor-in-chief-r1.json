@@ -1,0 +1,47 @@
+{
+  "id": "f-006",
+  "round": 1,
+  "role": "editor-in-chief",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "The chapter is not yet publishable because its card-type definition contradicts its own cards and the glossary. It states that talents are always on and never activated [09-talents-abilities:13][09-talents-abilities:15], yet seven cards typed Talent carry an activation Action: Fortune's Favor is a Reaction [09-talents-abilities:27], Quick Study is Free [09-talents-abilities:187], Rally the Troops is a Maneuver [09-talents-abilities:207]. The glossary repeats the always-on claim and explicitly names Fortune's Favor as an example [21-glossary:85], so the same card is passive in canon and Reaction in this chapter. Separately, no header line in the file carries a Duration field, nor a duration folded into Range, although the chapter's own card template requires one and the spell chapters carry it; every header stops at Disciplines, Action, Range and Keywords [09-talents-abilities:243]. Fourth, the statement that each maneuver is gated by a weapon Discipline [09-talents-abilities:301] is false for Shield Slam, gated on 2 Armor [09-talents-abilities:375] (canon-confirmed [08-disciplines:122]) and Renewal, gated on 1 Protection [09-talents-abilities:529]. Minimal fix: reword the Talent definition so triggered talents are permitted (and align the glossary), add the missing Duration header field to all 42 cards, and correct the gating sentence at [09-talents-abilities:301]. Cross-reference integrity itself is clean: every @sec-* link resolves and no typed period follows one.",
+  "evidence": [
+    {
+      "source": "09-talents-abilities:13",
+      "claim": "The chapter defines talents as passive and always on, implying no activation step.",
+      "quote_or_excerpt": "Talents are passive."
+    },
+    {
+      "source": "09-talents-abilities:27",
+      "claim": "Fortune's Favor is typed Talent but its header gives an activation Action, contradicting the passive definition.",
+      "quote_or_excerpt": "*Action:* Reaction"
+    },
+    {
+      "source": "21-glossary:85",
+      "claim": "The glossary calls talents activation-free and names Fortune's Favor, the same card this chapter types as a Reaction.",
+      "quote_or_excerpt": "Does not require activation. Examples: Tough"
+    },
+    {
+      "source": "09-talents-abilities:243",
+      "claim": "A representative card header lists only four fields, none of them Duration, and this pattern repeats on all 42 cards.",
+      "quote_or_excerpt": "*Disciplines:* None · *Action:* Action · *Range:* Melee · *Keywords:* Damage"
+    },
+    {
+      "source": "09-talents-abilities:301",
+      "claim": "The chapter asserts every weapon maneuver is gated by a weapon Discipline.",
+      "quote_or_excerpt": "Each is gated by weapon Disciplines."
+    },
+    {
+      "source": "09-talents-abilities:375",
+      "claim": "Shield Slam is typed Weapon Maneuver but gated on 2 Armor, not a weapon Discipline; canon confirms the Armor gate.",
+      "quote_or_excerpt": "*Disciplines:* 2 Armor · *Action:* Maneuver"
+    },
+    {
+      "source": "08-disciplines:122",
+      "claim": "The disciplines chapter's prerequisite table lists Shield Slam against 2 Armor, so line 301's blanket weapon-Discipline claim cannot stand.",
+      "quote_or_excerpt": "[Shield Slam], [2 Armor], [Adept]"
+    }
+  ],
+  "confidence": 0.6,
+  "rebutting": []
+}

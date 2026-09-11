@@ -1,0 +1,47 @@
+{
+  "id": "f-001",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Disposition: not publishable as-is, though every fault I found is a one-line fix. I verified the card families by grepping the chapter's level-three headings: twenty talent cards, four basic attack cards and seventeen weapon maneuver cards, forty-two in all, with no tables, matching the scope the brief sets. I then recomputed every printed damage band against the fixed budget. The melee basic and the two missile basics sit on the basic-card floor, the unarmed card uses the weaker floor that the equipment chapter confirms for bare hands, and the damaging maneuvers land on the novice, adept and master rows, with the single exception below. Tier counts check out for all seventeen maneuvers against the discipline chapter's rule that a card's tier equals its prerequisite count, including the shield card, whose two-Armor gate the discipline chapter itself prints as an adept entry. Costs, the three cross-reference labels, the lone typst fence and the zero-em-dash rule all pass, and the figure caption's number matches the book's global figure offset, so it is not a defect. Three clusters do fail. First, a passive reaction talent's adept rank grants a flat initiative bonus, a numeric roll modifier the Boon and Bane law forbids outside its named exceptions; the minimal fix is to make it a Boon instead. Second, two passive talents shed a benefit at master rank rather than strictly containing the adept rank, so the template's superset rule is broken; the minimal fix is to carry the lower effect forward. Third, a shield maneuver prints the basic-attack floor across its novice band where the novice flat row belongs; the minimal fix is to raise that band one step. Each is a one-line change, but the chapter as printed should not ship.",
+  "evidence": [
+    {
+      "source": "09-talents-abilities:41",
+      "claim": "A passive reaction talent's adept rank hands out a flat initiative bonus, which is a numeric roll modifier the Boon and Bane law does not license outside its named exceptions.",
+      "quote_or_excerpt": "*Adept:* You gain one extra Reaction per round and +1 Initiative."
+    },
+    {
+      "source": "09-talents-abilities:43",
+      "claim": "That talent's master rank grants an extra reaction but drops the initiative bonus the adept rank carried, so the top rank does not strictly contain the rank below it.",
+      "quote_or_excerpt": "*Master:* You gain two extra Reactions per round."
+    },
+    {
+      "source": "21-glossary.qmd:85",
+      "claim": "The glossary defines a talent as an always-on passive benefit that needs no activation, yet seven of the chapter's talents carry an active Action, four of them Reactions.",
+      "quote_or_excerpt": "*Talent:* A passive benefit purchased with DP. Always on."
+    },
+    {
+      "source": "09-talents-abilities:111",
+      "claim": "The critical-hit talent's adept rank adds a splash hit against one adjacent enemy.",
+      "quote_or_excerpt": "one adjacent enemy takes 6 damage"
+    },
+    {
+      "source": "09-talents-abilities:113",
+      "claim": "That talent's master rank prints only a capped strong-damage value, so it drops the adjacent-target splash and fails the superset requirement for passive cards.",
+      "quote_or_excerpt": "*Master:* On a Critical, the attack deals maximum Strong damage (21)."
+    },
+    {
+      "source": "09-talents-abilities:377",
+      "claim": "The shield maneuver's novice band prints a one, two, three flat progression, which is the basic-attack floor rather than the novice flat row.",
+      "quote_or_excerpt": "*Weak:* Deal 1 damage and Push 5 ft."
+    },
+    {
+      "source": "08-disciplines.qmd:228",
+      "claim": "Canon's budget table fixes the novice flat row at two, four and six, and canon directs flat damage to take the row exactly as printed.",
+      "quote_or_excerpt": "[*Novice*], [1 Discipline], [2/4/6],"
+    }
+  ],
+  "confidence": 0.7,
+  "rebutting": []
+}

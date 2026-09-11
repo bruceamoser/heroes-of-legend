@@ -1,0 +1,37 @@
+{
+  "id": "f-004",
+  "round": 1,
+  "role": "game-architect",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "One Weapon Maneuver breaks the flat damage budget. Shield Slam cites a 2 Armor prerequisite (Adept, 2 ranks) and its Weak/Standard/Strong lines print 1/2/3 at lines 377-381, but the card is a flat-damage maneuver, not a Basic Attack, so its base row must be the Novice row 2/4/6, with 6/9/12 and 9/15/21 already following at lines 383 and 385. The 1/2/3 value is the attribute-scaled Basic-card floor and only applies where a stated attribute is added; Shield Slam adds none, so 1/2/3 is off-budget. Broken value 1/2/3, expected 2/4/6. Every sibling flat maneuver confirms the row: Riposte, Cyclone, Brace and Renewal each open at 2/4/6, and Dual Strike totals 2/4/6, so Shield Slam is the lone outlier. Minimal fix: raise lines 377/379/381 to 2/4/6 damage. Separately, Weapon Focus escalates the booster to +2 and +3 damage tiers at lines 61 and 63; the convention sanctions only the single-step tier bump expressed as +1 damage tier, and a three-step bump on a Master row (21) leaves the budget table, so those two lines exceed the allowed booster and should be restated as single-step bumps. Cost, gate and Discipline-count math are otherwise sound: costs sit at 2/4/8 with the Level 3 and Level 7 gates, and no card requires more than 3 ranks, so the max-3 ladder holds.",
+  "evidence": [
+    {
+      "source": "09-talents-abilities:377-381",
+      "claim": "Shield Slam prints 1/2/3 as flat maneuver damage; as a 2-Armor flat card it should sit on the Novice row 2/4/6, so all three lines are one step low.",
+      "quote_or_excerpt": "Deal 1 damage and Push 5 ft"
+    },
+    {
+      "source": "09-talents-abilities:303-311",
+      "claim": "Riposte, the neighboring 2-rank Blades maneuver, keys its base damage to 2/4/6 then 6/9/12 and 9/15/21, showing the row Shield Slam should match.",
+      "quote_or_excerpt": "counterattack for 4"
+    },
+    {
+      "source": "09-talents-abilities:331-339",
+      "claim": "Cyclone also opens at 2/4/6 for a 3-rank card, confirming the Novice base row is the norm for flat maneuvers.",
+      "quote_or_excerpt": "Hit all adjacent enemies for 2 damage"
+    },
+    {
+      "source": "09-talents-abilities:59-63",
+      "claim": "Weapon Focus scales to two and then three damage tiers, exceeding the single sanctioned tier bump; the Adept and Master lines need single-step phrasing.",
+      "quote_or_excerpt": "+2 damage tiers on ability cards"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Recomputed every flat row in the chapter: 2/4/6, 6/9/12 and 9/15/21 all hold except Shield Slam's base 1/2/3, and no card exceeds 3 required ranks.",
+      "quote_or_excerpt": "Damage remains 1/2/3"
+    }
+  ],
+  "confidence": 0.68,
+  "rebutting": []
+}

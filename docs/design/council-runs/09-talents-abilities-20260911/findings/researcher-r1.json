@@ -1,0 +1,57 @@
+{
+  "id": "f-003",
+  "round": 1,
+  "role": "researcher",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "I parsed the chapter programmatically instead of reading it impressionistically. What verifies clean: exactly 42 cards, split 21 Talents / 4 Basic Attacks / 17 Weapon Maneuvers, matching the scope claim; every one of the 17 maneuver Discipline counts sits on the locked ladder (1, 2 or 3 ranks, no outlier of 4+); all three @sec-* tokens resolve against real labels; exactly one typst fence; no typed stop after a cross-reference; and the sweeps return zero em-dashes, zero en-dashes and zero damage dice, so the flat-budget spine and the no-dice law hold on this file. The damage rows are where it breaks. Of the seventeen maneuvers, seven print a numeric Weak/Standard/Strong row, and five of those seven print a row below the tier their own Discipline count selects: Riposte at 2 Blades (Adept) prints 2/4/6 where 6/9/12 is owed; Shield Slam at 2 Armor prints 1/2/3; Parry at 2 Blades prints a 2/4/6 DR row; Brace at 2 Polearms prints 2/4/6; Cyclone at 3 Blades (Master) prints 2/4/6 where 9/15/21 is owed. Dual Strike and Renewal, both 1 rank, are the only on-row cases. Violated convention: the tier-keyed flat damage budget plus the rule that a card's tier is set by its Discipline rank count. ch08:229-230 fixes those rows and ch08:120-122 canonises Shield Slam as the two-rank Adept example, so the expected values are canon-determined rather than preference, and an Adept sibling card in ch12 prints the Adept row as its base. Two knock-on effects: each broken base is followed on the same card by Adept 6/9/12 and Master 9/15/21 rows, so a two-rank buyer reaches the top row for Adept DP, and a three-rank buyer does so for less. The numeric-roll sweep leaves exactly one survivor, the +1 Initiative on Combat Reflexes at line 41, which the book-wide Boon/Bane law converted everywhere else including this chapter's own sibling talents. The flat-rider sweep found no off-row riders; the only standalone flat damage number on a card, Death Blow's 6 to an adjacent enemy, lands on the Novice Strong row.",
+  "evidence": [
+    {
+      "source": "09-talents-abilities",
+      "claim": "Riposte carries 2 Blades, an Adept gate, but its three base outcomes print the Novice 2/4/6 row instead of the Adept 6/9/12 row the budget owes; its own Adept line already prints 6/9/12.",
+      "quote_or_excerpt": "When an enemy deals Weak damage to you, counterattack for 2"
+    },
+    {
+      "source": "09-talents-abilities",
+      "claim": "Cyclone carries 3 Blades, a Master gate, yet its three base outcomes print the Novice 2/4/6 row, with 9/15/21 owed; it is the only three-rank card in the file.",
+      "quote_or_excerpt": "Hit all adjacent enemies for 2 damage"
+    },
+    {
+      "source": "09-talents-abilities",
+      "claim": "Shield Slam carries 2 Armor, an Adept gate, but prints 1/2/3, which is the attribute-scaled Novice floor rather than a flat row, on a card that adds no attribute to its damage.",
+      "quote_or_excerpt": "Deal 1 damage and Push 5 ft"
+    },
+    {
+      "source": "09-talents-abilities",
+      "claim": "Brace carries 2 Polearms, an Adept gate, but prints 2/4/6 for the damage its target takes; Parry (2 Blades, also Adept) prints the same 2/4/6 shape as its DR row.",
+      "quote_or_excerpt": "the attacker takes 2 damage"
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "The authoritative budget table keys the printed row to the tier, so 2 Disciplines pays 6/9/12 and 3 Disciplines pays 9/15/21.",
+      "quote_or_excerpt": "[*Adept*], [2 Disciplines], [6/9/12],"
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "The ladder rule makes the rank count the card's tier, and the same table lists Shield Slam as the two-rank Adept example, fixing its expected row at 6/9/12.",
+      "quote_or_excerpt": "A card requiring 2 Fire is Adept."
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "A two-rank sibling card in another chapter prints the Adept row 6/9/12 as its base outcomes, the pattern ch09's maneuver cards depart from.",
+      "quote_or_excerpt": "6/9/12 radiant damage."
+    },
+    {
+      "source": "09-talents-abilities",
+      "claim": "The numeric-roll sweep leaves one survivor: Combat Reflexes grants an extra Reaction alongside a flat +1 Initiative, a numeric bonus to the initiative roll rather than a Boon.",
+      "quote_or_excerpt": "one extra Reaction per round and +1 Initiative"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Recount: 42 cards parse as 21/4/17; the 17 maneuver ranks are all 1, 2 or 3; 7 maneuvers print a numeric row; 5 of those 7 are one or two tiers low; the 4 basic attacks use the 1/1/2 and 1/2/3 floors.",
+      "quote_or_excerpt": "5 of 7 numeric rows fall a tier below their gate"
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": []
+}

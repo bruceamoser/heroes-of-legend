@@ -1,0 +1,42 @@
+{
+  "id": "f-005",
+  "round": 1,
+  "role": "author",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "The Talent family is described twice as passive and permanently live [09-talents-abilities:13], [21-glossary:85], yet seven of the twenty-one talent cards are activated, limited-use cards: Fortune's Favor spends a Reaction [09-talents-abilities:27], Refuse to Fall a Reaction [:97], Miracle Worker a Reaction [:127], Battlefield Assessment a full Action [:177], Quick Study a Free action [:187], Chaotic Insight a Reaction [:197], and Rally the Troops a Maneuver [:207]. The glossary even names Fortune's Favor as its illustration of a talent while declaring the category activation-free, so the same word names two kinds of card. Term consistency also slips on usage limits: Renewal folds its per-scene limit into the Action field at [09-talents-abilities:529] where every other limited card states the limit in the body, and the same frequency phrase wanders between the front and back of a line within one card (Miracle Worker Novice [:129] versus Adept [:131]). Minimal fix: widen both definitions to say talents may be passive or limited-use activated cards, correct the glossary's example, and standardize the usage-limit phrase and its position in card bodies.",
+  "evidence": [
+    {
+      "source": "09-talents-abilities:13",
+      "claim": "The chapter opening splits cards in two and says talents are never switched on, leaving activation to abilities.",
+      "quote_or_excerpt": "Talents are passive. They change your numbers"
+    },
+    {
+      "source": "09-talents-abilities:27",
+      "claim": "Fortune's Favor occupies a Reaction, so this talent must be spent and cannot be permanently live as defined.",
+      "quote_or_excerpt": "*Action:* Reaction · *Range:* Self · *Keywords:* Reroll"
+    },
+    {
+      "source": "09-talents-abilities:177",
+      "claim": "Battlefield Assessment is a second talent whose action slot calls for a full Action rather than standing passive.",
+      "quote_or_excerpt": "*Action:* Action · *Range:* Sight · *Keywords:* Tactics"
+    },
+    {
+      "source": "21-glossary:85",
+      "claim": "The glossary entry defines a talent as passive and needing no activation, then offers an activated card as its example of one.",
+      "quote_or_excerpt": "A passive benefit purchased with DP. Always on."
+    },
+    {
+      "source": "09-talents-abilities:529",
+      "claim": "Renewal alone hides its per-scene limit inside the Action header instead of stating it in the body as the other cards do.",
+      "quote_or_excerpt": "*Action:* Maneuver, once per scene · *Range:* Self"
+    },
+    {
+      "source": "09-talents-abilities:131",
+      "claim": "Miracle Worker's Adept row leads with the frequency while its own Novice row trails with it, so limit placement drifts inside a single card.",
+      "quote_or_excerpt": "Once per scene, when an ally within 30 ft drops"
+    }
+  ],
+  "confidence": 0.68,
+  "rebutting": []
+}

@@ -1,0 +1,62 @@
+{
+  "id": "f-002",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Tested the leading support position that the 42 cards all land inside the flat damage budget; it breaks on stacking. The chapter itself rules that bonuses from different talents combine, and several effects each move a hit up one or more outcome tiers with no shared ceiling. Weapon Focus at Master adds three tiers to any ability card in its chosen weapon Discipline, Dangerous Gambit adds a fourth on a 12-or-higher roll twice per scene, and Power Strike or Charge each add one more. A Master-tier Strong result is already 21 and is the top row of the budget table, so even the two-talent core (Weapon Focus plus Dangerous Gambit, four tiers) has no row above it to land on, and adding a maneuver reaches roughly six tiers past the table. Broken value: stacked +N-tier riders push a hit off the printed budget. Expected: every result lands on a real row, or one global ceiling governs all tier bumps. The chapter shows it knows a cap is needed because Death Blow alone prints maximum 21, but that cap is applied to one card in 42. Same missing-limit gap has two more counter-examples: Combat Reflexes Master grants two extra Reactions yet silently drops the Adept tier's +1 Initiative, so Master is not a strict superset, and Riposte is a Reaction counterattack with no per-scene or per-round limit, so the extra Reactions convert directly into repeated full-damage counterattacks in a single round. Minimal fix: one rule that no result may rise above Strong for its card's rank, absolute maximum 21, applied to every tier-boost effect, plus usage lines on Reaction maneuvers.",
+  "evidence": [
+    {
+      "source": "09-talents-abilities:17",
+      "claim": "The chapter explicitly sanctions combining separate talents' bonuses, which is the stacking hook the overflow rides on.",
+      "quote_or_excerpt": "Bonuses from different talents stack."
+    },
+    {
+      "source": "09-talents-abilities:64",
+      "claim": "Weapon Focus at Master adds three damage tiers to ability cards of one chosen weapon Discipline, uncapped and repeatable each attack.",
+      "quote_or_excerpt": "+3 damage tiers on ability cards of the chosen weapon Discipline"
+    },
+    {
+      "source": "09-talents-abilities:219",
+      "claim": "Dangerous Gambit raises the outcome one tier on a 14-plus roll, and its Master line does so twice per scene; this stacks with Weapon Focus.",
+      "quote_or_excerpt": "increase the damage tier of the result by one"
+    },
+    {
+      "source": "09-talents-abilities:321",
+      "claim": "Power Strike is a weapon maneuver that moves the next weapon attack up one tier with no per-scene restriction, so it can feed the same boosted attack as the talents.",
+      "quote_or_excerpt": "+1 damage tier on your next weapon attack"
+    },
+    {
+      "source": "09-talents-abilities:433",
+      "claim": "Charge is a second tier bump a character can aim at the same pending attack on a later turn.",
+      "quote_or_excerpt": "make one attack at +1 damage tier"
+    },
+    {
+      "source": "09-talents-abilities:109",
+      "claim": "Only Death Blow carries a ceiling; the omission of the same cap on every other tier booster is the defect.",
+      "quote_or_excerpt": "(one row up on the damage budget, maximum 21)"
+    },
+    {
+      "source": "09-talents-abilities:43",
+      "claim": "Combat Reflexes Master grants two extra Reactions but silently drops the Adept tier's Initiative bonus, so the Master line is not a strict superset of Adept as passive cards require.",
+      "quote_or_excerpt": "You gain two extra Reactions per round"
+    },
+    {
+      "source": "09-talents-abilities:41",
+      "claim": "The Adept line is the tier being superseded and it includes an Initiative bonus the Master line omits.",
+      "quote_or_excerpt": "one extra Reaction per round and +1 Initiative"
+    },
+    {
+      "source": "09-talents-abilities:315",
+      "claim": "Riposte's Master tier counterattacks for the full Master row and prints no usage limit, so extra Reactions translate into repeated counterattacks within one round.",
+      "quote_or_excerpt": "Counterattack for 9/15/21"
+    },
+    {
+      "source": "09-talents-abilities:529",
+      "claim": "Renewal is the only weapon maneuver that prints an explicit usage cap, confirming the family has no consistent default limit.",
+      "quote_or_excerpt": "Maneuver, once per scene"
+    }
+  ],
+  "confidence": 0.75,
+  "rebutting": []
+}

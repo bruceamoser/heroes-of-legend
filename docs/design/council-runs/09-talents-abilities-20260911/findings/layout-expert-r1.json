@@ -1,0 +1,47 @@
+{
+  "id": "f-007",
+  "round": 1,
+  "role": "layout-expert",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "The card typography itself is clean. Forty-two level-3 card headings sit consistently under three level-2 family sections, each of the three families opens on a fresh page behind a page break, every one of the forty-two one-line stat blocks prints complete with its Keywords field present, and no em-dash character occurs in the chapter's own prose. The failure is page flow. Each card is a bare heading followed by loose paragraphs, with nothing binding the pieces into one unit, so five of the forty-two cards are cut by a page turn and one card's name is left stranded alone at the foot of a page. The book's own theme already treats this as a defect class, wrapping tables so a rule block cannot tear and documenting a fix for a heading left alone at a page foot, yet the card chapter has no comparable wrapper. The table cost is real: a GM mid-encounter has to flip the page to finish reading a card's Weak/Standard/Strong rows. Minimal fix: render each card inside a single non-breaking block (a show rule on level-three headings that binds the heading to the content that follows it, or a card div set to unbreakable), which is safe here because every card is far shorter than one text block; verify on a clean build that no card splits and no heading strands.",
+  "evidence": [
+    {
+      "source": "Heroes-of-Legend.pdf p145-p146",
+      "claim": "The Arcane Reservoir card name prints alone as the last line of p145, and its stat line plus body paragraphs open p146, so the heading is orphaned from its own card.",
+      "quote_or_excerpt": "Arcane Reservoir (Talent)"
+    },
+    {
+      "source": "Heroes-of-Legend.pdf p149-p150",
+      "claim": "Basic Unarmed is torn mid-card: the heading, stat line and Weak row sit on p149, and the remaining four rows continue at the top of p150.",
+      "quote_or_excerpt": "Weak: 1 + Brawn damage."
+    },
+    {
+      "source": "Heroes-of-Legend.pdf p151-p152",
+      "claim": "Cleave prints its Weak and Standard rows at the foot of p151 and resumes with the Strong, Adept and Master rows on p152.",
+      "quote_or_excerpt": "Weak: Hit one target. If it drops to 0 HP"
+    },
+    {
+      "source": "Heroes-of-Legend.pdf p152-p153",
+      "claim": "Disarm splits the same way: heading, stat line and Weak row on p152, with the Standard, Strong, Adept and Master rows on p153.",
+      "quote_or_excerpt": "Weak: The target keeps its grip."
+    },
+    {
+      "source": "_extensions/heroes-of-legend/style.typ:229",
+      "claim": "The theme already wraps tables in a non-breaking block and records a fix for headings left alone at a page foot, so the card chapter's absence of any keep-together wrapper is inconsistent with the book's own standard.",
+      "quote_or_excerpt": "unbreakable blocks so they stay intact on one page"
+    },
+    {
+      "source": "Heroes-of-Legend.pdf p144-p155",
+      "claim": "All forty-two stat lines render whole on one line each with the Keywords field intact, so no card loses a field or wraps its Discipline/Action/Range line.",
+      "quote_or_excerpt": "None \u00b7 Action: Passive \u00b7 Range: Self"
+    },
+    {
+      "source": "09-talents-abilities:21,237,299",
+      "claim": "Three level-2 family sections each follow a page break, with forty-two level-3 card headings and no level-4 heading anywhere, so the heading ladder has no skipped levels.",
+      "quote_or_excerpt": "=== Fortune's Favor (Talent)"
+    }
+  ],
+  "confidence": 0.7,
+  "rebutting": []
+}

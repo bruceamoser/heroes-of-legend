@@ -1,0 +1,540 @@
+# Talents & Abilities {#sec-chapter-talents-abilities}
+
+```{=typst}
+#label("sec-chapter-talents-abilities")
+
+#image("assets/images/page037-img025.png", width: 60%)
+
+_Figure 11.1: Talents & Abilities_
+
+_Placeholder for final art._
+#pagebreak()
+
+Talents are passive. They change your numbers or grant a standing benefit, and they are always on. Abilities are active. Spells, weapon maneuvers, and class powers must be activated to use. Both use the card format below.
+
+Every card lists its Disciplines, Action, Range, and Keywords. Active cards (abilities, spells, and weapon maneuvers) resolve on a roll: the Novice effect appears as Weak, Standard, and Strong outcomes, with Adept and Master additions following. Passive cards (talents) are always on, so they list a single Novice effect, with Adept and Master additions that improve it. A card costs DP by tier: Novice 2 DP, Adept 4 DP, Master 8 DP. See @sec-chapter-disciplines for tier, Discipline, and cost rules. See @sec-chapter-magic-system for casting rules.
+
+Bonuses from different talents stack. The same talent cannot be taken more than once.
+
+#pagebreak()
+
+== Talents
+
+The talents below are general. Any class may take any of them.
+
+=== Fortune's Favor (Talent)
+
+*Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* Reroll
+
+*Novice:* Once per session, reroll one natural 1, 2, or 3.
+
+*Adept:* Once per scene, reroll one natural 1, 2, or 3.
+
+*Master:* Once per scene, reroll any one die.
+
+=== Combat Reflexes (Talent)
+
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Reaction
+
+*Novice:* You gain one extra Reaction per round.
+
+*Adept:* You gain one extra Reaction per round and +1 Initiative.
+
+*Master:* You gain two extra Reactions per round.
+
+=== Tough (Talent)
+
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* HP
+
+*Novice:* +2 maximum HP.
+
+*Adept:* +4 maximum HP.
+
+*Master:* +6 maximum HP.
+
+=== Weapon Focus (Talent)
+
+*Disciplines:* 1 chosen weapon Discipline · *Action:* Passive · *Range:* Self · *Keywords:* Damage
+
+*Novice:* +1 damage tier on ability cards of the chosen weapon Discipline.
+
+*Adept:* +2 damage tiers on ability cards of the chosen weapon Discipline.
+
+*Master:* +3 damage tiers on ability cards of the chosen weapon Discipline.
+
+=== Skill Focus (Talent)
+
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Skill
+
+*Novice:* +1 to one skill you choose.
+
+*Adept:* +2 to one skill you choose.
+
+*Master:* +3 to one skill you choose.
+
+=== Iron Will (Talent)
+
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
+
+*Novice:* Boon on checks against fear and charm.
+
+*Adept:* Double Boon on checks against fear and charm.
+
+*Master:* Triple Boon on checks against fear and charm.
+
+=== Guarding Stance (Talent)
+
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* DR, Defend
+
+*Novice:* When you take the Defend maneuver, adjacent allies gain +2 DR until the start of your next turn.
+
+*Adept:* When you take the Defend maneuver, allies within 10 ft gain +2 DR until the start of your next turn.
+
+*Master:* When you take the Defend maneuver, allies within 10 ft gain +3 DR until the start of your next turn.
+
+=== Refuse to Fall (Talent)
+
+*Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* HP
+
+*Novice:* When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to twice your level. Once per session.
+
+*Adept:* When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to twice your level. Twice per session.
+
+*Master:* When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to twice your level. Once per scene.
+
+=== Death Blow (Talent)
+
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Critical, Damage
+
+*Novice:* On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21).
+
+*Adept:* On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21), and one adjacent enemy takes 6 damage.
+
+*Master:* On a Critical, the attack deals maximum Strong damage (21).
+
+=== Arcane Reservoir (Talent)
+
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell
+
+*Novice:* Once per session, cast a Master spell you know a second time.
+
+*Adept:* Once per scene, cast a Master spell you know a second time.
+
+*Master:* Twice per scene, cast a Master spell you know a second time; the second cast deals one damage tier higher.
+
+=== Miracle Worker (Talent)
+
+*Disciplines:* None · *Action:* Reaction · *Range:* 30 ft · *Keywords:* Healing
+
+*Novice:* When an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP. Once per session.
+
+*Adept:* Once per scene, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP.
+
+*Master:* Once per scene, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain their full maximum HP.
+
+=== Arcane Sensitivity (Talent)
+
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell
+
+*Novice:* Boon on spell rolls for one Discipline you choose.
+
+*Adept:* Double Boon on spell rolls for one Discipline you choose.
+
+*Master:* Triple Boon on spell rolls for one Discipline you choose.
+
+=== Spell Reservoir (Talent)
+
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell
+
+*Novice:* Once per scene, cast an Adept spell you know a second time.
+
+*Adept:* Once per scene, cast a Novice or Adept spell you know a second time.
+
+*Master:* Once per scene, cast any spell you know a second time.
+
+=== Spell Storm (Talent)
+
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell, Area
+
+*Novice:* Once per session, a single-target spell you cast hits all targets you choose within 15 ft.
+
+*Adept:* Once per scene, a single-target spell you cast hits all targets you choose within 15 ft.
+
+*Master:* Once per scene, a single-target spell you cast hits all targets you choose within 20 ft.
+
+=== Linguist (Talent)
+
+*Disciplines:* 1 Lore · *Action:* Passive · *Range:* Self · *Keywords:* Language
+
+*Novice:* You read and speak one additional language.
+
+*Adept:* You read and speak one additional language per rank of Lore you have.
+
+*Master:* You read, write, and speak one additional language per rank of Lore you have.
+
+=== Battlefield Assessment (Talent)
+
+*Disciplines:* 1 Tactics · *Action:* Action · *Range:* Sight · *Keywords:* Tactics
+
+*Novice:* Once per scene, learn the relative strength of every enemy in sight and their highest attribute.
+
+*Adept:* Once per scene, learn the relative strength of every enemy in sight, their highest attribute, and one damage resistance or vulnerability.
+
+*Master:* Once per scene, learn the relative strength of every enemy in sight, their highest attribute, and all of their damage resistances and vulnerabilities.
+
+=== Quick Study (Talent)
+
+*Disciplines:* None · *Action:* Free · *Range:* Self · *Keywords:* Skill
+
+*Novice:* Once per session, use a skill you do not have at Novice (+1) for one check.
+
+*Adept:* Once per scene, use a skill you do not have at Novice (+1) for one check.
+
+*Master:* Once per scene, use a skill you do not have at Adept (+2) for one check.
+
+=== Chaotic Insight (Talent)
+
+*Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* Reroll
+
+*Novice:* Once per session, reroll any roll you just made, using fresh dice.
+
+*Adept:* Once per scene, reroll any roll you just made, using fresh dice.
+
+*Master:* Once per scene, reroll any roll you just made, using fresh dice with a Boon.
+
+=== Rally the Troops (Talent)
+
+*Disciplines:* None · *Action:* Maneuver · *Range:* 30 ft · *Keywords:* Frightened
+
+*Novice:* Once per session, all allies within 30 ft remove Frightened and gain a Boon on their next roll.
+
+*Adept:* Once per scene, all allies within 30 ft remove Frightened and gain a Boon on their next roll.
+
+*Master:* Once per scene, all allies within 30 ft remove one Frightened or Dazed condition and gain a Boon on their next roll.
+
+=== Dangerous Gambit (Talent)
+
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Damage
+
+*Novice:* Once per scene, when you roll 14 or higher, increase the damage tier of the result by one.
+
+*Adept:* Once per scene, when you roll 12 or higher, increase the damage tier of the result by one.
+
+*Master:* Twice per scene, when you roll 12 or higher, increase the damage tier of the result by one.
+
+=== Trap Sense (Talent)
+
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Boon, Traps
+
+*Novice:* Boon on checks to detect and disarm traps.
+
+*Adept:* Boon on checks to detect and disarm traps, and you cannot be surprised by a trap.
+
+*Master:* Boon on checks to detect and disarm traps, you cannot be surprised by a trap, and once per scene you may reroll a failed trap-related check.
+
+#pagebreak()
+
+== Basic Attacks
+
+These four cards are the attacks every character can make, no Discipline required. They are the floor. Weapon Disciplines gate access to stronger cards, not higher damage. See @sec-chapter-combat for attack and damage rules.
+
+=== Basic Melee (Basic Attack)
+
+*Disciplines:* None · *Action:* Action · *Range:* Melee · *Keywords:* Damage
+
+*Weak:* 1 + Brawn damage (Agility with a Finesse weapon).
+
+*Standard:* 2 + Brawn damage (Agility with a Finesse weapon).
+
+*Strong:* 3 + Brawn damage (Agility with a Finesse weapon).
+
+*Adept:* Damage remains 1/2/3 + Brawn.
+
+*Master:* Damage remains 1/2/3 + Brawn.
+
+=== Basic Archery (Basic Attack)
+
+*Disciplines:* None · *Action:* Action · *Range:* 60/120 ft · *Keywords:* Damage
+
+*Weak:* 1 damage.
+
+*Standard:* 2 damage.
+
+*Strong:* 3 damage.
+
+*Adept:* Damage remains 1/2/3.
+
+*Master:* Damage remains 1/2/3.
+
+=== Basic Thrown (Basic Attack)
+
+*Disciplines:* None · *Action:* Action · *Range:* 20/60 ft · *Keywords:* Damage
+
+*Weak:* 1 damage.
+
+*Standard:* 2 damage.
+
+*Strong:* 3 damage.
+
+*Adept:* Damage remains 1/2/3.
+
+*Master:* Damage remains 1/2/3.
+
+=== Basic Unarmed (Basic Attack)
+
+*Disciplines:* None · *Action:* Action · *Range:* Melee · *Keywords:* Damage
+
+*Weak:* 1 + Brawn damage.
+
+*Standard:* 1 + Brawn damage.
+
+*Strong:* 2 + Brawn damage.
+
+*Adept:* Damage remains 1/1/2 + Brawn.
+
+*Master:* Damage remains 1/1/2 + Brawn.
+
+#pagebreak()
+
+== Weapon Maneuvers
+
+Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each is gated by weapon Disciplines. See @sec-chapter-combat for Action, Maneuver, and Reaction rules.
+
+=== Riposte (Weapon Maneuver)
+
+*Disciplines:* 2 Blades · *Action:* Reaction · *Range:* Melee · *Keywords:* Counterattack
+
+*Weak:* When an enemy deals Weak damage to you, counterattack for 2.
+
+*Standard:* When an enemy deals Weak damage to you, counterattack for 4.
+
+*Strong:* When an enemy deals Weak damage to you, counterattack for 6.
+
+*Adept:* Counterattack for 6/9/12.
+
+*Master:* Counterattack for 9/15/21.
+
+=== Power Strike (Weapon Maneuver)
+
+*Disciplines:* 2 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Damage
+
+*Weak:* +1 damage tier on your next weapon attack.
+
+*Standard:* +1 damage tier on your next weapon attack.
+
+*Strong:* +1 damage tier on your next weapon attack.
+
+*Adept:* +1 damage tier on your next weapon attack.
+
+*Master:* +1 damage tier on your next weapon attack.
+
+=== Cyclone (Weapon Maneuver)
+
+*Disciplines:* 3 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Area
+
+*Weak:* Hit all adjacent enemies for 2 damage.
+
+*Standard:* Hit all adjacent enemies for 4 damage.
+
+*Strong:* Hit all adjacent enemies for 6 damage.
+
+*Adept:* Hit all adjacent enemies for 6/9/12 damage.
+
+*Master:* Hit all adjacent enemies for 9/15/21 damage; on a Strong result Prone.
+
+=== Cleave (Weapon Maneuver)
+
+*Disciplines:* 2 Axes · *Action:* Action · *Range:* Melee · *Keywords:* Chain
+
+*Weak:* Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage.
+
+*Standard:* Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage.
+
+*Strong:* Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage.
+
+*Adept:* The follow-up may chain to a second adjacent enemy if that one also drops.
+
+*Master:* The follow-up may chain to every adjacent enemy that drops, one after another.
+
+=== Pinpoint Strike (Weapon Maneuver)
+
+*Disciplines:* 1 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Piercing, Damage
+
+*Weak:* +1 damage tier on your next weapon attack, and Piercing 1.
+
+*Standard:* +1 damage tier on your next weapon attack, and Piercing 2.
+
+*Strong:* +1 damage tier on your next weapon attack, and Piercing 3.
+
+*Adept:* +1 damage tier on your next weapon attack, and Piercing 1/2/3.
+
+*Master:* +1 damage tier on your next weapon attack, and Piercing 1/2/3.
+
+=== Shield Slam (Weapon Maneuver)
+
+*Disciplines:* 2 Armor · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone, Push
+
+*Weak:* Deal 1 damage and Push 5 ft.
+
+*Standard:* Deal 2 damage and Push 5 ft.
+
+*Strong:* Deal 3 damage and Push 5 ft; the target is Prone.
+
+*Adept:* Deal 6/9/12 damage and Push 5 ft; on a Strong result Prone.
+
+*Master:* Deal 9/15/21 damage and Push 5 ft; on a Strong result Prone and the target loses its Maneuver.
+
+=== Parry (Weapon Maneuver)
+
+*Disciplines:* 2 Blades · *Action:* Reaction · *Range:* Self · *Keywords:* DR, Counterattack
+
+*Weak:* +2 DR against one attack.
+
+*Standard:* +4 DR against one attack.
+
+*Strong:* +6 DR against one attack and counterattack for 2 damage.
+
+*Adept:* +6/9/12 DR against one attack; on a Strong result counterattack for 2.
+
+*Master:* +9/15/21 DR against one attack; on a Strong result counterattack for 4.
+
+=== Disarm (Weapon Maneuver)
+
+*Disciplines:* 2 Blades · *Action:* Maneuver · *Range:* Melee · *Keywords:* Bane
+
+*Weak:* The target keeps its grip.
+
+*Standard:* The target's next attack with that weapon is at Bane.
+
+*Strong:* The target drops the weapon.
+
+*Adept:* The target's next two attacks with that weapon are at Bane; on a Strong result drops the weapon.
+
+*Master:* The target's next two attacks with that weapon are at Bane; on a Strong result drops the weapon 10 ft away.
+
+=== Trip (Weapon Maneuver)
+
+*Disciplines:* 2 Polearms · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone
+
+*Weak:* The target is Prone.
+
+*Standard:* The target is Prone and loses its Maneuver.
+
+*Strong:* The target is Prone and loses its Action.
+
+*Adept:* On Strong, the target is Prone and loses its Action and Maneuver.
+
+*Master:* On Standard, the target is Prone and loses its Action; on Strong, the target is Prone and loses its Action and Maneuver.
+
+=== Charge (Weapon Maneuver)
+
+*Disciplines:* 2 Heavy Weapon · *Action:* Action · *Range:* Melee · *Keywords:* Movement, Damage
+
+*Weak:* Move up to your Speed and make one attack at +1 damage tier.
+
+*Standard:* Move up to your Speed and make one attack at +1 damage tier.
+
+*Strong:* Move up to your Speed and make one attack at +1 damage tier.
+
+*Adept:* Move up to your Speed and make one attack at +1 damage tier.
+
+*Master:* Move up to your Speed and make one attack at +1 damage tier.
+
+=== Brace (Weapon Maneuver)
+
+*Disciplines:* 2 Polearms · *Action:* Reaction · *Range:* Self · *Keywords:* DR
+
+*Weak:* +2 DR against a charge (see Charge Attack in the Equipment chapter); the attacker takes 2 damage.
+
+*Standard:* +2 DR against a charge; the attacker takes 4 damage.
+
+*Strong:* +2 DR against a charge; the attacker takes 6 damage.
+
+*Adept:* +2 DR against a charge; the attacker takes 6/9/12 damage.
+
+*Master:* +2 DR against a charge; the attacker takes 9/15/21 damage.
+
+=== Dual Strike (Weapon Maneuver)
+
+*Disciplines:* 1 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Two attacks
+
+*Weak:* Two attacks, each dealing 1 damage (2 total).
+
+*Standard:* Two attacks, each dealing 2 damage (4 total).
+
+*Strong:* Two attacks, each dealing 3 damage (6 total).
+
+*Adept:* Two attacks for 6/9/12 damage total.
+
+*Master:* Two attacks for 9/15/21 damage total.
+
+=== Crushing Blow (Weapon Maneuver)
+
+*Disciplines:* 2 Heavy Weapon · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Prone
+
+*Weak:* +1 damage tier on your next weapon attack.
+
+*Standard:* +1 damage tier on your next weapon attack.
+
+*Strong:* +1 damage tier on your next weapon attack; the target is Prone.
+
+*Adept:* +1 damage tier on your next weapon attack; on a Strong result Prone.
+
+*Master:* +1 damage tier on your next weapon attack; on a Strong result Prone.
+
+=== Executioner's Cut (Weapon Maneuver)
+
+*Disciplines:* 2 Axes · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Wounded
+
+*Weak:* +1 damage tier against a wounded target.
+
+*Standard:* +1 damage tier against a wounded target.
+
+*Strong:* +1 damage tier against a wounded target.
+
+*Adept:* +1 damage tier against a wounded target.
+
+*Master:* +1 damage tier against a wounded target.
+
+=== Throw (Weapon Maneuver)
+
+*Disciplines:* 1 Archery · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
+
+*Weak:* Throw a weapon up to 30 ft at +1 damage tier.
+
+*Standard:* Throw a weapon up to 30 ft at +1 damage tier.
+
+*Strong:* Throw a weapon up to 30 ft at +1 damage tier.
+
+*Adept:* Throw a weapon up to 60 ft at +1 damage tier.
+
+*Master:* Throw a weapon up to 90 ft at +1 damage tier.
+
+=== Breakthrough (Weapon Maneuver)
+
+*Disciplines:* 2 Heavy Weapon · *Action:* Action · *Range:* Melee · *Keywords:* Movement, Prone
+
+*Weak:* Move through one enemy's space.
+
+*Standard:* Move through one enemy's space.
+
+*Strong:* Move through one enemy's space; the target is Prone.
+
+*Adept:* Move through one enemy's space; on Standard or Strong, the target is Prone.
+
+*Master:* Move through up to two enemies' spaces; on Standard or Strong, the targets are Prone.
+
+=== Renewal (Weapon Maneuver)
+
+*Disciplines:* 1 Protection · *Action:* Maneuver, once per scene · *Range:* Self · *Keywords:* Healing
+
+*Weak:* Regain 2 HP.
+
+*Standard:* Regain 4 HP.
+
+*Strong:* Regain 6 HP.
+
+*Adept:* Regain 6/9/12 HP.
+
+*Master:* Regain 9/15/21 HP.
+```
