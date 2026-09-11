@@ -91,7 +91,7 @@ Roll 3d6 + modifiers. The total determines your damage tier:
 - *Weak:* Glancing blow. Apply your attack card's Weak damage.
 - *Standard:* Solid hit. Apply your attack card's Standard damage.
 - *Strong:* Devastating strike. Apply your attack card's Strong damage.
-- *Critical (three 6s):* Maximum Strong damage plus a bonus effect from the Critical table (@sec-chapter-core-resolution).
+- *Critical (three 6s):* Maximum Strong damage plus a bonus effect from the Critical table (@sec-chapter-core-resolution)
 
 That's one roll. No separate damage dice. No "did I hit?" anxiety. Roll once, read the damage, move on.
 

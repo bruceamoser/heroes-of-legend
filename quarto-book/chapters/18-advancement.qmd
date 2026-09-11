@@ -119,7 +119,7 @@ You don't buy a stronghold at the general store. You earn it, or you take it.
 
 *Requirements:*
 
-- *Reputation:* Group Reputation *Renowned (7+)* or faction standing *Allied (+3)* with at least one faction that has the resources to sponsor construction or cede territory (@sec-faction-system). You're not just "those adventurers who passed through last spring", you're a known quantity.
+- *Reputation:* Group Reputation *Renowned (7+)* or faction standing *Allied (+3)* with at least one faction that has the resources to sponsor construction or cede territory (@sec-faction-system) You're not just "those adventurers who passed through last spring", you're a known quantity.
 - *Gold:* 500-2,000 gp depending on size and condition. An abandoned border keep costs 500 gp and a lot of sweat. A purpose-built tower with running water and magical wards costs 2,000 gp. The price covers materials, labor, and the first month of upkeep.
 - *Location:* A suitable site. The DA determines what's available, an abandoned watchtower, a cleared dungeon you've already bled in, land granted by a grateful noble. Finding the right spot is an adventure in itself.
 

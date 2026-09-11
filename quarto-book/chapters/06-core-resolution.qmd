@@ -68,7 +68,7 @@ Boons come from clever positioning, magical aid, or a Critical effect that inspi
 
 When two characters act directly against one another (a grapple, a shove, a disguise versus a guard's scrutiny, a lie versus someone's instinct that they're being played), both sides roll. *Higher tier wins. If tiers match, the higher total wins. If both tier and total are identical, the defender, the non-initiating party, wins the tie.*
 
-There is no margin math. If Kael rolls a 14 (Standard) to grapple a cultist who rolls a 7 (Weak), Kael wins with a Standard result. The opposed-rolls rule also governs Stealth versus passive Insight for surprise (@sec-chapter-combat), and social contests where both sides are actively working against each other (@sec-chapter-social-conflict). Wherever the book says "opposed," this is the rule.
+There is no margin math. If Kael rolls a 14 (Standard) to grapple a cultist who rolls a 7 (Weak), Kael wins with a Standard result. The opposed-rolls rule also governs Stealth versus passive Insight for surprise (@sec-chapter-combat), and social contests where both sides are actively working against each other (@sec-chapter-social-conflict) Wherever the book says "opposed," this is the rule.
 
 #pagebreak()
 
@@ -82,7 +82,7 @@ Your 3d6 attack roll determines the damage tier:
 *Standard:* Apply the Standard damage value.
 *Strong:* Apply the Strong damage value. Add any critical effects.
 
-These damage values come from the damage budget table (@sec-damage-budget). There is no separate damage roll: the outcome tier of your attack roll is your damage tier. Roll once, resolve everything.
+These damage values come from the damage budget table (@sec-damage-budget) There is no separate damage roll: the outcome tier of your attack roll is your damage tier. Roll once, resolve everything.
 
 DR (Damage Reduction) subtracts from incoming damage: each point of DR negates 1 (minimum 1 damage from any hit). A hero with Brawn +2 landing a Strong longsword strike deals 5 damage (3 Strong + 2 Brawn). A goblin with no armor takes it all. A knight in plate armor (DR 6) would only take the minimum 1.
 

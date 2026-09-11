@@ -129,7 +129,7 @@ _Placeholder for final art._
 
 Twenty-three skills, grouped into five categories. Every skill shares the same three-tier bonus: Novice +1, Adept +2, Master +3. None of them have Discipline prerequisites, and none of them gate anything.
 
-A few names do double duty in this book. *Parry* is a skill here and also a weapon maneuver (@sec-chapter-combat), and *Stealth*, *Sleight*, *Lore* and *Religion* also name Disciplines (@sec-chapter-disciplines). The distinction is what each one does: a skill adds to a roll you are already entitled to make, while a Discipline decides what you may attempt at all. The category headings below are organisational only; they are not Disciplines.
+A few names do double duty in this book. *Parry* is a skill here and also a weapon maneuver (@sec-chapter-combat), and *Stealth*, *Sleight*, *Lore* and *Religion* also name Disciplines (@sec-chapter-disciplines) The distinction is what each one does: a skill adds to a roll you are already entitled to make, while a Discipline decides what you may attempt at all. The category headings below are organisational only; they are not Disciplines.
 
 === Physical
 
@@ -194,7 +194,7 @@ A shield enables Parry (it is an implement in hand) and provides DR (damage redu
   numbering: none,
 )
 
-*Insight has two forms.* Rolled actively, it is keyed to Reason like any other skill. When someone is lying to you and you are not looking for it, the DA uses your *passive Insight* instead, which is your Knowledge score + 7 (@sec-chapter-social-conflict).
+*Insight has two forms.* Rolled actively, it is keyed to Reason like any other skill. When someone is lying to you and you are not looking for it, the DA uses your *passive Insight* instead, which is your Knowledge score + 7 (@sec-chapter-social-conflict)
 
 === Subterfuge
 
