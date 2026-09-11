@@ -82,7 +82,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Skill:* A trained competency. Ranges from Novice (+1) to Master (+3). Includes physical skills (Athletics), knowledge skills (Arcana), social skills (Persuasion), and subterfuge skills (Stealth).
 
-*Talent:* A passive benefit purchased with DP. Always on. Does not require activation. Examples: Tough (+2 HP), Fortune's Favor (reroll one natural 1, 2, or 3 per session).
+*Talent:* A benefit purchased with DP. Most are always on and need no activation; some are activated talents, and the card's Action field says which. Examples: Tough (+2 HP), Fortune's Favor (spend a Reaction to reroll one natural 1, 2, or 3, once per session).
 
 *Trait:* An ancestry-granted special ability. Human: Versatile. Elf: Elven Grace. Dwarf: Sturdy. Halfling: Lucky.
 

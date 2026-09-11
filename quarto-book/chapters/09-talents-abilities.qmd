@@ -10,9 +10,9 @@ _Figure 11.1: Talents & Abilities_
 _Placeholder for final art._
 #pagebreak()
 
-Talents are passive. They change your numbers or grant a standing benefit, and they are always on. Abilities are active. Spells, weapon maneuvers, and class powers must be activated to use. Both use the card format below.
+Most talents are passive. They change your numbers or grant a standing benefit, and they are always on; a few are activated talents, and their card's Action field says so. Abilities are active. Spells, weapon maneuvers, and class powers must be activated to use. Both use the card format below.
 
-Every card lists its Disciplines, Action, Range, and Keywords. Active cards (abilities, spells, and weapon maneuvers) resolve on a roll: the Novice effect appears as Weak, Standard, and Strong outcomes, with Adept and Master additions following. Passive cards (talents) are always on, so they list a single Novice effect, with Adept and Master additions that improve it. A card costs DP by tier: Novice 2 DP, Adept 4 DP, Master 8 DP. See @sec-chapter-disciplines for tier, Discipline, and cost rules. See @sec-chapter-magic-system for casting rules.
+Every card lists its Disciplines, Action, Range, and Keywords. Active cards (abilities, spells, and weapon maneuvers) resolve on a roll: the Novice effect appears as Weak, Standard, and Strong outcomes, with Adept and Master additions following. Passive cards are always on, so they list a single Novice effect, with Adept and Master additions that improve it. A card costs DP by tier: Novice 2 DP, Adept 4 DP, Master 8 DP. See @sec-chapter-disciplines for tier, Discipline, and cost rules. See @sec-chapter-magic-system for casting rules.
 
 Bonuses from different talents stack. The same talent cannot be taken more than once.
 
@@ -38,9 +38,9 @@ The talents below are general. Any class may take any of them.
 
 *Novice:* You gain one extra Reaction per round.
 
-*Adept:* You gain one extra Reaction per round and +1 Initiative.
+*Adept:* You gain one extra Reaction per round and a Boon on your Initiative roll.
 
-*Master:* You gain two extra Reactions per round.
+*Master:* You gain two extra Reactions per round and a Boon on your Initiative roll.
 
 === Tough (Talent)
 
@@ -110,7 +110,7 @@ The talents below are general. Any class may take any of them.
 
 *Adept:* On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21), and one adjacent enemy takes 6 damage.
 
-*Master:* On a Critical, the attack deals maximum Strong damage (21).
+*Master:* On a Critical, the attack deals maximum Strong damage (21), and one adjacent enemy takes 6 damage.
 
 === Arcane Reservoir (Talent)
 
@@ -126,7 +126,7 @@ The talents below are general. Any class may take any of them.
 
 *Disciplines:* None · *Action:* Reaction · *Range:* 30 ft · *Keywords:* Healing
 
-*Novice:* When an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP. Once per session.
+*Novice:* Once per session, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP.
 
 *Adept:* Once per scene, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP.
 
@@ -298,7 +298,7 @@ These four cards are the attacks every character can make, no Discipline require
 
 == Weapon Maneuvers
 
-Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each is gated by weapon Disciplines. See @sec-chapter-combat for Action, Maneuver, and Reaction rules.
+Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each is gated by Disciplines: most by a weapon Discipline, though Shield Slam requires Armor and Renewal requires Protection. See @sec-chapter-combat for Action, Maneuver, and Reaction rules.
 
 === Riposte (Weapon Maneuver)
 
@@ -526,9 +526,9 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 
 === Renewal (Weapon Maneuver)
 
-*Disciplines:* 1 Protection · *Action:* Maneuver, once per scene · *Range:* Self · *Keywords:* Healing
+*Disciplines:* 1 Protection · *Action:* Maneuver · *Range:* Self · *Keywords:* Healing
 
-*Weak:* Regain 2 HP.
+*Weak:* Once per scene, regain 2 HP.
 
 *Standard:* Regain 4 HP.
 
