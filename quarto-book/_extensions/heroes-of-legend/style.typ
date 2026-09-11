@@ -98,24 +98,37 @@
 #let fa-snowflake()           = [❄]
 #let fa-bomb()                = [💣]
 
-// ── Front-matter numbering (issue #71) ──────────────────────────────────────
-// Bruce's ruling: "front matter should use roman numerals I, II, III etc.", with the body
-// restarting at Arabic 1. The front matter spans two rendering surfaces:
+// ── Front-matter numbering (issue #71, revised #477) ────────────────────────
+// Bruce's ruling: "front matter should use roman numerals I, II, III etc."
+//
+// The scheme is CONTINUOUS: the front matter carries roman folios I-XIV and the body
+// carries Arabic folios that continue the same count (15, 16, 17...). The body does NOT
+// restart at 1.
+//
+// Why not restart: an outline entry binds the page counter at its heading, so a body that
+// restarts at 1 requires the counter to be reset BEFORE the first body chapter's heading
+// is processed. Every position that could do that is broken. On the last front-matter page
+// it renumbers that page; after a pagebreak it lands on an abandoned page, because book()
+// emits `pagebreak(to: "odd")` before every level-1 heading and strands anything placed
+// there; and inside the chapter it is by definition too late, leaving that chapter's own
+// TOC entry pointing at the pre-reset number (that was issue #477).
+//
+// Continuous numbering removes the reset entirely, so no entry can go stale, and it gives
+// this PDF-first book a property worth more than the restart convention: the printed folio
+// is the PDF page number, so "go to page 237" works in a viewer.
+//
+// The front matter spans two rendering surfaces:
 //   * pages 1-8  (cover, title, table of contents) come from orange-book's book() before
 //     the theme's page rules apply, so they take whatever `numbering` is set above book().
 //     template-book.typ overrides Quarto's default `"1"` with `"I"` for them.
 //   * pages 9+ sit inside the theme's `hol-geometry`, whose custom footer draws the number.
-// The page counter is RESET at the first body chapter (hol-body-start, called from
-// 01-introduction.qmd) rather than merely displayed with an offset. A display-only offset
-// would leave the outline calling the Introduction page "15" while its folio said "1";
-// resetting brings the table of contents into line for every entry except that chapter's
-// own, which binds the page counter at its heading, before any in-chapter code can run.
+// `hol-body-start()` flips the flag that switches the footer from roman to Arabic. It does
+// NOT touch the page counter.
 #let in-front-matter = state("in-front-matter", true)
 
-/// Called at the first body chapter: end the front matter and restart the folio at 1.
+/// Called at the first body chapter: end the roman front-matter folios.
 #let hol-body-start() = {
   in-front-matter.update(false)
-  counter(page).update(1)
 }
 
 /// Footer folio: roman through the front matter, Arabic from the body on.
