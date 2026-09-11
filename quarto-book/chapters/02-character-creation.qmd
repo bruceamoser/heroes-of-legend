@@ -158,7 +158,7 @@ Disciplines are not free. Every Discipline your hero possesses comes from a spec
 
 - *Class* (Phase Two): Your class grants specific Disciplines tied to its training and traditions. See @sec-chapter-classes for each class's starting Disciplines.
 
-Between ancestry, culture, and class, a starting hero typically has 4-6 Disciplines before spending a single DP. Spend your Background DP to build on that foundation.
+Between ancestry, culture, and class, a starting hero typically has 4-5 Disciplines before spending a single DP. Spend your Background DP to build on that foundation.
 
 #pagebreak()
 
