@@ -1,0 +1,37 @@
+{
+  "id": "f-007",
+  "round": 1,
+  "role": "layout-expert",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Render audit of folios 132-141 for the Disciplines chapter. The text layer carries one locked-convention break in two places: a parenthesized cross-reference to the skills chapter is followed by an author-typed full stop, so the page prints a doubled period on folio 132 and again on folio 137. Secondary and minor: the budget table cells space their slashes while the callout prose writes the same triads closed up, so one set of numbers prints two ways in the same chapter. Everything else survives the build: heading levels 1-2-3 are never skipped; all seven tables reach their final row in the text layer (Tactics, Shadow, Beast Tongue, the Master 8 DP row, Opposed 4/8/16, the Master prerequisite row stranded on folio 139, and Master 9/15/21); zero em-dashes print in prose; the damage-budget label sits flush under its heading with no intervening blank line; and the prereq table's folio 138/139 break is the theme's sanctioned row-level split with the header repeated, so it is not a page-flow defect. Minimal fix for the doubled period: delete the typed stop at 08:15 and 08:113 and let the reference's own terminal period stand. Minimal fix for the triads: write the three budget cells at 08:228-230 without the intra-slash spaces, matching 08:240 and 08:246.",
+  "evidence": [
+    {
+      "source": "pdftotext _output/Heroes-of-Legend.pdf",
+      "claim": "The extracted text shows the skills cross-reference closing with two periods on two separate folios, once mid-sentence in the chapter intro and once in the prerequisites section.",
+      "quote_or_excerpt": "prerequisites at all (Chapter 9.). Once"
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "Both source sites that cite the skills chapter wrap the reference in parentheses and then add their own period, stacking it on the terminal period the reference already renders.",
+      "quote_or_excerpt": "prerequisites at all (@sec-chapter-skills)."
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "The flat-card budget cells put spaces around each slash while the following callout prose prints the identical triads with no spaces, an in-chapter number-format mismatch between the table and its own explanation.",
+      "quote_or_excerpt": "[1 Discipline], [2 / 4 / 6]"
+    },
+    {
+      "source": "style.typ",
+      "claim": "The theme intentionally lets tables break at row boundaries and repeat their header rows, so a small table splitting between two folios is expected rendering rather than a defect.",
+      "quote_or_excerpt": "Tables break normally at row boundaries"
+    },
+    {
+      "source": "pdftotext _output/Heroes-of-Legend.pdf",
+      "claim": "The last row of the prerequisite-shapes table is present in the text layer on the second fragment, confirming the split table loses no content and both halves keep their header.",
+      "quote_or_excerpt": "3 different, or 2 same + 1 different, or 3 same"
+    }
+  ],
+  "confidence": 0.78,
+  "rebutting": ["f-005"]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "f-001",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Signals first, then the tiered plan. Three findings are real; the remainder of the chapter recomputes clean and should not be re-opened. (a) MECHANICAL: [08-disciplines:23] prints the singular Blade where the taxonomy row [08-disciplines:40] and ch05 both use Blades; expected value Blades, minimal fix is the word. [08-disciplines:103] promises a brand new discipline for each progression pick, but [08-disciplines:261] spends the level-3 pick deepening Fire; expected value is one rank usable in a new or an existing discipline, so reword 103 to match 99 and 261. (b) SUBSTANTIVE: [08-disciplines:107] credits a Fire-rank grant to a blade that ch17 files as requiring one Fire; the card that actually grants it is a Fire Opal and attunement, not wielding, is the condition, so swap the example name and the wording. [08-disciplines:133] folds skill into the discipline-gated ladder and maps Novice to one rank, contradicting the exemptions at [08-disciplines:15] and [08-disciplines:113] (skills) and the no-prereq basics at [08-disciplines:214]; expected value is spells and abilities plus a basics carve-out. [08-disciplines:263] states the Master fire effect as prose damage-per-round; expected value is the locked named-condition form, which ch11:134 gives as Burning 2. (c) DESIGN, needs Bruce: [08-disciplines:248] prints the Novice attribute-scaled base as 1/2/3, which the stated budget-minus-three rule cannot yield from a 2/4/6 tier; 1/2/3 is the ch09 Basic floor, so either scope the minus-three to the upper tiers or add a floor clause. VERIFIED CORRECT, do not re-investigate: taxonomy totals (nine categories, twenty-three rows) and their names match ch05, ch21 and ch22; all nine class starting sets match ch05; flat card costs 2/4/8 and the four rank ladders 1/2/4 through 4/8/16 match ch05; every worked total recomputes, including the already-holds-rank-one case; prereq shapes, the three-rank cap and the level 3 and 7 gates hold; the damage table is flat with zero dice; weapon entry combos match ch15; the skills exemption matches ch07; no em-dashes and no doubled reference periods; typst structure is clean (single fence, named callout bodies, all seven tables outlined false); all six cross-reference targets resolve. The figure offset and the sentence-initial Depth after the creation reference are deliberate conventions, not faults.",
+  "evidence": [
+    {
+      "source": "08-disciplines",
+      "claim": "The chapter's magic-item example names a blade that ch17 treats as requiring a Fire rank rather than granting one.",
+      "quote_or_excerpt": "A Blade of the Last Ember grants Fire rank 1"
+    },
+    {
+      "source": "17-magic-items.qmd",
+      "claim": "ch17 places the one-Fire grant on a different card and conditions granted disciplines on attunement.",
+      "quote_or_excerpt": "[*Fire Opal*], [Uncommon], [Requires Attunement], [1 Fire]"
+    },
+    {
+      "source": "11-arcane-spells.qmd",
+      "claim": "The same spell's Master effect is stated in ch11 using the locked named-condition form.",
+      "quote_or_excerpt": "leaves a burning patch (Burning 2)"
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "The chapter exempts skills at two sites yet also puts skills inside the discipline-gated card ladder.",
+      "quote_or_excerpt": "Skills are exempt, they have no Discipline prerequisites at all"
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "The printed Novice attribute-scaled base is 1/2/3, which the budget-minus-three rule cannot produce from the Novice budget.",
+      "quote_or_excerpt": "Novice 1/2/3, Adept 3/6/9, Master 6/12/18"
+    },
+    {
+      "source": "09-talents-abilities.qmd",
+      "claim": "The Basic-attack floor in ch09 is 1/2/3 plus the attribute, which the chapter's Novice base matches.",
+      "quote_or_excerpt": "Damage remains 1/2/3 + Brawn."
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "The worked example spends the level-3 progression pick deepening Fire, though the rule says that pick adds a discipline.",
+      "quote_or_excerpt": "At levels 3, 6, and 9, you gain one additional Discipline"
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "The example prose uses the singular Blade where the taxonomy and ch05 use Blades.",
+      "quote_or_excerpt": "A warrior with 3 Blade Disciplines"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Re-derived counts from the taxonomy table: nine category cells and twenty-three discipline rows.",
+      "quote_or_excerpt": "9 categories, 23 discipline rows counted"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Every worked total-cost line recomputes exactly, including the already-holds-rank-one case.",
+      "quote_or_excerpt": "2+4=6, 2+1=3, 4+4+8=16, 4+2=6, 4+1+2=7"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Style and structure scans return clean: no em-dashes, no doubled reference periods, one typst fence.",
+      "quote_or_excerpt": "no em-dashes; no doubled xref periods; one typst fence"
+    }
+  ],
+  "confidence": 0.82,
+  "rebutting": []
+}

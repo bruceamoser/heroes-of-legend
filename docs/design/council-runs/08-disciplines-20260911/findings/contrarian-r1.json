@@ -1,0 +1,27 @@
+{
+  "id": "f-002",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Round-1 stress test of this chapter's specified-defect surfaces. The Attribute-Scaled paragraph prescribes a single subtraction rule and applies it to all three tiers, but the Novice budget row cannot yield the positive triplet printed in that same sentence: the Weak entry would go negative. The printed Novice figures instead reproduce the floor fixed by the abilities chapter's Basic attack cards, so the stated arithmetic and the printed Novice values cannot both hold, and the minimal repair must reconcile them (declare the Novice column as the floor, or restate the formula with a floor). I tested the other high-value surfaces and they survived: the total-cost callout recomputes on all three lines and matches the classes chapter's Fire costs; the taxonomy is 23 rows across 9 categories, matching the glossary; the class starting-discipline table matches all nine class entries; the duplication rule holds for every template that repeats a grant (Arcanist, Leader, Protector, Unbalanced all stay at rank 1); the single-discipline cap of three is stated and not breached by any acquisition route I could construct; and the no-prereq Novice exemption only waives the requirement, never the flat card price.",
+  "evidence": [
+    {
+      "source": "08-disciplines",
+      "claim": "The Attribute-Scaled sentence gives one formula covering every tier but prints a Novice triplet that formula does not produce.",
+      "quote_or_excerpt": "the base is budget minus 3 (Novice 1/2/3"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Applying the chapter's own formula to its own Novice budget row turns the Weak base negative, so the printed Weak value of one cannot follow from it.",
+      "quote_or_excerpt": "2/4/6 minus 3 = -1/1/3"
+    },
+    {
+      "source": "09-talents-abilities.qmd",
+      "claim": "The Basic attack cards in the abilities chapter establish the floor value that the chapter's printed Novice triplet duplicates.",
+      "quote_or_excerpt": "Damage remains 1/2/3 + Brawn"
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": []
+}

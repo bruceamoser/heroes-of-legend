@@ -1,0 +1,47 @@
+{
+  "id": "f-005",
+  "round": 1,
+  "role": "author",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Chapter 8's voice is confident and largely consistent with the surrounding book, but four prose-consistency defects need repair. (1) 08:23 names the weapon domain with the class spelling, and every other site (08:40 taxonomy, ch05:29, ch21:65, ch22:226) uses the plural domain name; the same line also says 'Disciplines' when it means ranks, a sense the rest of the chapter reserves for the word 'rank'. (2) Capitalization of the game term slips lowercase mid-paragraph at 08:99, 155, 174, 177, 192, 199, 200 and 208, and 08:155 switches case inside a single sentence. (3) The damage-budget callout echoes the budget table's rows twice in running text (08:240 and 08:246) and repeats the flat-numbers, no-roll rationale three times (08:238, 240, 246); the ladder paragraph at 08:133 likewise echoes the prerequisite column of the card-cost table. Echoing a table's columns in running prose breaks the book's style law. (4) The closing paragraph reuses the same no-shortcut rationale already delivered in the basics subsection (08:214 and 08:265). Secondary: 08:133 folds skills into the Discipline-count ladder even though 08:15 and 08:113 (and ch07:17) declare skills exempt from Discipline prerequisites, so the parenthetical '(spell, ability, skill)' contradicts the chapter's own scope statement. Verified as CORRECT and not to be re-flagged: the taxonomy holds 23 disciplines across 9 categories and matches ch21:65 and ch22:226 exactly; the chapter contains no em-dashes, no doubled cross-reference periods and no doubled words; the paragraph at 08:99 does end with a sentence period, and its bare @sec- reference correctly relies on the rendered terminal period rather than a typed one.",
+  "evidence": [
+    {
+      "source": "08-disciplines",
+      "claim": "Line 23 uses the singular class spelling for the weapon domain and says 'Disciplines' where the chapter's own vocabulary says 'ranks'; the parallel examples ('3 Fire', '2 Animal') cannot mean separate domains because Animal is a single discipline.",
+      "quote_or_excerpt": "A warrior with 3 Blade Disciplines"
+    },
+    {
+      "source": "05-classes",
+      "claim": "The class chapter keeps the two names apart: the class is singular Blade, its granted domain is plural Blades.",
+      "quote_or_excerpt": "Blades (1) + Stealth (1)"
+    },
+    {
+      "source": "21-glossary",
+      "claim": "The glossary fixes the canonical domain spelling as plural inside the Weapon group, confirming the book's convention.",
+      "quote_or_excerpt": "Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed"
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "Line 155 capitalizes the game term earlier in the sentence then lowercases it in the same breath; the same lowercase drift recurs at 08:99, 174, 177, 192, 199, 200 and 208.",
+      "quote_or_excerpt": "how aligned that discipline is"
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "The budget callout spells out the flat damage row a second time in prose, duplicating the Weak/Standard/Strong values already printed in the table at 08:228-230 and repeated at 08:240.",
+      "quote_or_excerpt": "Novice 2/4/6, Adept 6/9/12, Master 9/15/21"
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "The worked example's closing line repeats the same no-shortcut rationale already stated at 08:214, so the chapter argues one point twice.",
+      "quote_or_excerpt": "No shortcuts. No wildcards."
+    },
+    {
+      "source": "07-skills",
+      "claim": "The skills chapter states that the domain resource gates nothing for skills, which contradicts ch08's ladder paragraph including skills among Discipline-gated cards.",
+      "quote_or_excerpt": "skills gate nothing"
+    }
+  ],
+  "confidence": 0.82,
+  "rebutting": []
+}

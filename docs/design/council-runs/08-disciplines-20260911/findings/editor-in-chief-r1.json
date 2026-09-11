@@ -1,0 +1,62 @@
+{
+  "id": "f-006",
+  "round": 1,
+  "role": "editor-in-chief",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Structural audit: all eight @sec-* tokens in the chapter resolve to labels that exist somewhere in the book (six unique ids; zero dangling), the file holds exactly one {=typst} fence, all seven tables carry outlined false, both callouts use the named body form, and both labels sit on the line after their headings. The 23-discipline / 9-category taxonomy and the 9-class starting-Discipline table match ch05, ch21 and ch22. So the chapter is structurally sound, but it is not publishable as written. Blocking: 08:133 defines a card's tier as its Discipline-prereq count and lists skill among the cards, which contradicts 08:15, 08:113 and 08:214, where skills are exempt from all Discipline prerequisites (ch07:17 agrees). Minimal fix: drop skill from the 08:133 parenthetical. Incomplete: 08:210 limits equipment entry requirements to weapons, yet armor and shields also carry Armor / Protection rank requirements (ch16:84-90, ch22:344-364), and ch16:84 sends the reader to this chapter for those full rules, which ch08 never states; also 08:107 announces a magic-item Discipline grant with no link to @sec-chapter-magic-items. Cross-book: ch02:161 says a starting hero holds four to six Disciplines, but 08:73 plus the class table cap the three grant sources at five.",
+  "evidence": [
+    {
+      "source": "reasoning",
+      "claim": "Regex diff of the chapter's eight @sec tokens (six unique ids) against every label defined across the book returns zero dangling references.",
+      "quote_or_excerpt": "8 refs, 6 unique ids, 0 dangling"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Typst conventions hold: one raw-typst fence, seven of seven tables with outlined false, two of two callouts in named body form, and each label on the line after its heading.",
+      "quote_or_excerpt": "1 fence, 7/7 outlined false, 2/2 named callouts"
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "Line 133 asserts that a card's Discipline-prerequisite count defines its tier, and it names skill alongside spell and ability.",
+      "quote_or_excerpt": "Every card (spell, ability, skill) follows a three-tier ladder"
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "Lines 113 and 15 remove skills from Discipline prerequisites entirely, so the 133 claim is contradicted by the chapter itself.",
+      "quote_or_excerpt": "they have no Discipline prerequisites at all"
+    },
+    {
+      "source": "07-skills.qmd",
+      "claim": "The skills chapter confirms skills never gate access, reserving Discipline gating for weapons, spells and abilities.",
+      "quote_or_excerpt": "skills gate nothing"
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "Line 210 restricts the entry-requirement rule to weapons and points only to the equipment chapter.",
+      "quote_or_excerpt": "Weapons may list their own Discipline combos as entry requirements"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The armor chapter assigns shields a Protection-rank requirement and directs readers to ch08 for the full rules, which ch08 does not contain.",
+      "quote_or_excerpt": "The full rules live in @sec-chapter-disciplines"
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "The quick reference lists a Protection Req for shields and a Disc Req for armor, so those equipment requirements exist book-wide but are absent from ch08.",
+      "quote_or_excerpt": "table.header([Shield], [Protection Req], [DR Bonus],)"
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "Line 107 states that magic items may grant a temporary Discipline rank, yet the chapter never cross-references the magic items chapter.",
+      "quote_or_excerpt": "Magic items may grant temporary Disciplines"
+    },
+    {
+      "source": "02-character-creation.qmd",
+      "claim": "The creation chapter claims a starting hero typically holds four to six Disciplines, but the chapter under review caps its three grant sources at five.",
+      "quote_or_excerpt": "typically has 4-6 Disciplines before spending a single DP"
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": []
+}

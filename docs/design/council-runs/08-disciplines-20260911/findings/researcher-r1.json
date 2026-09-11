@@ -1,0 +1,37 @@
+{
+  "id": "f-003",
+  "round": 1,
+  "role": "researcher",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Chapter 8's attribute-scaled paragraph ties its Novice row to the same subtraction it uses for Adept and Master, but the arithmetic fails for Novice. The Novice flat budget is 2/4/6, so removing three yields a negative value, then 1, then 3; only the final figure agrees with the printed 1/2/3. The Adept row (3/6/9) and Master row (6/12/18) do recompute exactly, so the formula is sound from Adept upward. The printed Novice figures instead equal the Basic Melee floor of 1/2/3 plus Brawn in the talents chapter, which is the floor the convention requires the parenthetical to honour. The parenthetical is therefore internally inconsistent about where its Novice base comes from, and the chapter cannot satisfy both the subtraction rule and the floor as written. Expected fix: credit the Novice row to the Basic-card floor, or scope the budget-minus-three wording to Adept and Master. Every other numeric claim I recomputed holds: 23 taxonomy rows across 9 categories matching the prose count, the class table matching ch05's nine entries, the total-cost callout (6, 3, 16, 6, and 7 DP), the flat budget, and the worked build's gates and costs.",
+  "evidence": [
+    {
+      "source": "08-disciplines",
+      "claim": "The chapter applies a single subtraction rule to all three tiers and prints the Novice values directly beside it.",
+      "quote_or_excerpt": "budget \u2212 3 (Novice 1/2/3, Adept 3/6/9, Master 6/12/18)"
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "The chapter's own flat budget for the Novice tier is 2/4/6, the input that subtraction would consume.",
+      "quote_or_excerpt": "Novice 2/4/6, Adept 6/9/12, Master 9/15/21"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Subtracting three from the Novice inputs gives -1, 1, and 3, which cannot produce the printed 1/2/3, while the Adept and Master rows do match.",
+      "quote_or_excerpt": "2\u22123 = \u22121; 4\u22123 = 1; 6\u22123 = 3"
+    },
+    {
+      "source": "09-talents-abilities",
+      "claim": "The Basic Melee card's floor is 1/2/3 plus Brawn, exactly the Novice row the chapter prints.",
+      "quote_or_excerpt": "Damage remains 1/2/3 + Brawn"
+    },
+    {
+      "source": "21-glossary",
+      "claim": "The glossary repeats the identical parenthetical with the same Novice values, so any wording repair likely applies book-wide.",
+      "quote_or_excerpt": "the base is budget \u2212 3 (Novice 1/2/3, Adept 3/6/9, Master 6/12/18)"
+    }
+  ],
+  "confidence": 0.6,
+  "rebutting": []
+}
