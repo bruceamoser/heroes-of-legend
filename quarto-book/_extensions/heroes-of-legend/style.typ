@@ -8,7 +8,7 @@
 // ── Typst Universe Package Imports ──────────────────────────────────────────
 // See docs/typst-packages.md for details on each package.
 #import "@preview/booktabs:0.0.4": *
-#import "@preview/beautitled:0.2.7": *
+#import "_extensions/heroes-of-legend/beautitled/src/lib.typ": *
 #import "@preview/iconify:0.5.3": icon, provide-icons
 
 // iconify setup — download game-icons collection for fantasy/TTRPG icons:
