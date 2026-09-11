@@ -2,6 +2,11 @@
 
 ```{=typst}
 #label("sec-chapter-introduction")
+// Restarts the folio at 1 and ends the front-matter numbering (issue #71). This must run
+// after the chapter heading, and that is why this chapter's own table-of-contents entry
+// still shows the pre-reset page number: an outline entry binds the page counter at its
+// heading, which is emitted before any in-chapter code can run. See style.typ.
+#hol-body-start()
 
 #image("assets/images/page003-img002.jpeg", width: 60%)
 
