@@ -36,6 +36,16 @@ One roll. Three outcomes. No separate casting check and no spell failure percent
 
 Every spell above the cantrips is a single growing card. You buy it at one of three tiers, Novice, Adept, or Master, and each higher tier deepens the same spell rather than replacing it. That's the Ember Lance in the table below, a Novice spark that grows into a Master-rank lance: one spell, grown. The card carries its Disciplines requirement, Action, Range, and Keywords, then its effects in Weak, Standard, and Strong outcomes, with Adept and Master additions on top.
 
+A rung never takes something away. Everything the lower rung promised still happens, and the higher rung deepens it. Deepening takes three shapes, and the card picks the one the fiction wants:
+
++ *Add.* A new effect joins the old one, and the spell does more than it did before.
+
++ *Intensify.* Where the condition is scaled, the number climbs. Slowed 10 becomes Slowed 20, Poisoned 1 becomes Poisoned 2, Frozen 1 becomes Frozen 2.
+
++ *Tighten.* Where a ladder exists, the condition becomes a stricter one. Prone becomes Restrained, and Restrained becomes Stunned.
+
+A rung never quietly drops an effect the rung below it promised. Read any rung as everything beneath it, plus what it adds.
+
 A card is bought at one of three tiers, and the tier sets both the cost and the effect row:
 
 #figure(
