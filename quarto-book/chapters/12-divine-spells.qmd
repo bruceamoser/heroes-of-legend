@@ -187,7 +187,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Allies inside gain +12 DR; undead inside take Burning 3 radiant damage.
 
-*Adept:* Allies inside gain 6/9/12 DR.
+*Adept:* Allies inside gain 6/9/12 DR; undead inside take Burning 6 radiant damage.
 
 *Master:* Allies inside gain 9/15/21 DR; undead inside take Burning 9 radiant damage.
 
@@ -335,7 +335,7 @@ Allies in the light regain 3 HP.
 
 *Strong:* Creatures passing through take 6 piercing damage and are Restrained.
 
-*Adept:* Creatures passing through take 6/9/12 piercing damage.
+*Adept:* Creatures passing through take 6/9/12 piercing damage; they are Restrained on a Strong result, Slowed 5 otherwise.
 
-*Master:* Creatures passing through take 9/15/21 piercing damage.
+*Master:* Creatures passing through take 9/15/21 piercing damage; they are Restrained.
 ```
