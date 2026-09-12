@@ -220,9 +220,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 6 lightning damage; the target has Bane on its next 2 attacks.
 
-*Adept:* 6/9/12 lightning damage.
+*Adept:* 6/9/12 lightning damage; the target has Bane on its next attack.
 
-*Master:* 9/15/21 lightning damage; arcs to one adjacent target for half.
+*Master:* 9/15/21 lightning damage; the target has Bane on its next 2 attacks; arcs to one adjacent target for half.
 
 === Forked Sky (Arcane Spell)
 *Disciplines:* 2 Wind · *Action:* Action · *Range:* 30 ft · *Keywords:* None
@@ -246,9 +246,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 12 lightning damage to all adjacent; targets lose their Maneuver.
 
-*Adept:* 6/9/12 lightning damage to all adjacent.
+*Adept:* 6/9/12 lightning damage to all adjacent; targets lose their Maneuver.
 
-*Master:* 9/15/21 lightning damage; 15-ft radius.
+*Master:* 9/15/21 lightning damage; 15-ft radius; targets lose their Maneuver.
 
 === Corrosive Spit (Arcane Spell)
 *Disciplines:* 1 Earth · *Action:* Action · *Range:* 30 ft · *Keywords:* DR
@@ -272,9 +272,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 12 acid damage; targets have Bane on sight for 2 rounds.
 
-*Adept:* 6/9/12 acid damage.
+*Adept:* 6/9/12 acid damage; targets have Bane on sight.
 
-*Master:* 9/15/21 acid damage; the mist lasts 2 rounds.
+*Master:* 9/15/21 acid damage; targets have Bane on sight for 2 rounds; the mist lasts 2 rounds.
 
 === Venom Lance (Arcane Spell)
 *Disciplines:* 1 Plants · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
@@ -285,9 +285,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 6 poison damage; Fortitude check or lose Maneuver.
 
-*Adept:* 6/9/12 poison damage.
+*Adept:* 6/9/12 poison damage; Fortitude check or lose Maneuver.
 
-*Master:* 9/15/21 poison damage.
+*Master:* 9/15/21 poison damage; Fortitude check or lose Maneuver.
 
 === Tremor (Arcane Spell)
 *Disciplines:* 2 Earth · *Action:* Action · *Range:* 10-ft radius · *Keywords:* Prone
@@ -298,7 +298,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 12 bludgeoning damage; targets are Prone and lose their Maneuver.
 
-*Adept:* 6/9/12 bludgeoning damage; targets are Prone.
+*Adept:* 6/9/12 bludgeoning damage; targets are Prone and lose their Maneuver.
 
 *Master:* 9/15/21 bludgeoning damage; 15-ft radius; targets are Prone and lose their Maneuver.
 
@@ -331,9 +331,9 @@ _Placeholder for final art._
 
 *Strong:* Missile attacks through the wall are blocked for 2 rounds, and attackers are pushed 5 ft.
 
-*Adept:* The wall lasts 2 rounds; 6/9/12 bludgeoning damage to passers.
+*Adept:* The wall lasts 2 rounds; missile attacks through it are blocked and attackers are pushed 5 ft, and passers take 6/9/12 bludgeoning damage.
 
-*Master:* The wall lasts 3 rounds; 9/15/21 bludgeoning damage to passers.
+*Master:* The wall lasts 3 rounds; missile attacks through it are blocked and attackers are pushed 5 ft, and passers take 9/15/21 bludgeoning damage.
 
 === Force Dart (Arcane Spell)
 *Disciplines:* 1 Energy · *Action:* Action · *Range:* 60 ft · *Keywords:* None
@@ -409,9 +409,9 @@ _Placeholder for final art._
 
 *Strong:* The target loses its Action and Maneuver.
 
-*Adept:* Two targets.
+*Adept:* Two targets; each loses its Action and Maneuver on a Strong result, its Action on a Standard result, or its Maneuver on a Weak result.
 
-*Master:* Three targets.
+*Master:* Three targets; each loses its Action and Maneuver on a Strong result, its Action on a Standard result, or its Maneuver on a Weak result.
 
 === Phantasmal Image (Arcane Spell)
 *Disciplines:* 2 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
@@ -422,9 +422,9 @@ _Placeholder for final art._
 
 *Strong:* The illusion lasts 3 turns; those who fail a Reason check have Bane.
 
-*Adept:* The image also produces sound; those who fail their Reason check cannot tell it from the real thing for the duration.
+*Adept:* The image also produces sound; those who fail their Reason check have Bane and cannot tell it from the real thing for the duration.
 
-*Master:* You may create two images instead of one, or a single image that moves and acts on your turn.
+*Master:* You may create two images instead of one, or a single image that moves and acts on your turn; those who fail a Reason check have Bane and cannot tell them from the real thing.
 
 === Fade (Arcane Spell)
 *Disciplines:* 1 Mind · *Action:* Action · *Range:* Self · *Keywords:* Boon
@@ -435,9 +435,9 @@ _Placeholder for final art._
 
 *Strong:* Boon on Stealth for 3 turns; you cannot be targeted by sight.
 
-*Adept:* While faded, you may take one Stealth-based maneuver without ending the effect.
+*Adept:* Boon on Stealth and you cannot be targeted by sight; while faded, you may take one Stealth-based maneuver without ending the effect.
 
-*Master:* Allies within 5 ft also gain the effect.
+*Master:* Boon on Stealth and you cannot be targeted by sight; allies within 5 ft also gain the effect.
 
 === Mind Crown (Arcane Spell)
 *Disciplines:* 2 Mind · *Action:* Action · *Range:* 30 ft, 1 scene · *Keywords:* None
@@ -474,9 +474,9 @@ _Placeholder for final art._
 
 *Strong:* Teleport 30 ft; Boon on your next attack.
 
-*Adept:* Teleport 45 ft.
+*Adept:* Teleport 45 ft; Boon on your next attack.
 
-*Master:* Teleport 60 ft; Bane on attacks against you for 1 turn.
+*Master:* Teleport 60 ft; Boon on your next attack, and Bane on attacks against you for 1 turn.
 
 === Soul Drain (Arcane Spell)
 *Disciplines:* 1 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* None
