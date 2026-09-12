@@ -1,0 +1,42 @@
+{
+  "id": "f-005",
+  "round": 1,
+  "role": "author",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Chapter 11 is not publishable as printed, though the damage is small and local: two of its forty growing cards break the tier ladder that the other thirty-eight keep, and the break is visible to a player at the table rather than buried in a corner. Silver Tongue (11:390 to 11:399) prints a Weak row, a Standard row and a Strong row, then jumps straight to a Master row with no Adept row anywhere between them, so a caster who pays to raise that card is handed no new effect and the printed Master row has no Adept row it can deepen. Wind Wall (11:325 to 11:336) spends its Standard row copying the Weak row word for word, 11:330 against 11:328, so the middle result buys nothing, and its Strong row also drops the duration the sibling card states. The chapter's own frame at 11:19 promises every card deepens once the higher tiers are reached, and the divine mirror shows the intended shape: Sacred Barrier (12:194 to 12:206), the same 30-ft wall on the same keyword, climbs from a Bane to a timed block to a timed block plus a push, and every one of the eighteen divine spell cards carries both higher tiers. Minimal fix, two edits and no rewrite: add the missing Adept entry to Silver Tongue, and make Wind Wall's Standard row a genuine step above its Weak row, using the sibling's timed block as the model. Everything else I checked holds: the remaining thirty-eight ladders and all ten cantrip rows are complete, the cantrip rule and the pointer to the magic chapter mirror the sibling as intended, both @sec links resolve to real labels, the figure captions match the per-chapter caption ruling, and the chapter carries no em-dashes.",
+  "evidence": [
+    {
+      "source": "problem.md",
+      "claim": "The locked card grammar requires a card's tiers to run from the three base rows through to both higher tiers in order, so a card that skips one is a broken card rather than a style choice, and the chapter's own line 19 repeats the same promise.",
+      "quote_or_excerpt": "Weak, Standard and Strong, then Adept and Master"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Silver Tongue is the one spell card in the chapter with no Adept entry: its rows run Weak, Standard, Strong and then Master (11:393, 11:395, 11:397, 11:399), so a reader who raises the card to the Adept tier finds nothing waiting and the Master row lacks the row it is supposed to extend.",
+      "quote_or_excerpt": "The target has Bane against your social checks"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Wind Wall's middle row is a verbatim copy of its first row: 11:328 and 11:330 print the identical sentence, so a Standard result is no stronger than a Weak one on a card whose Adept and Master rows do climb in damage and duration.",
+      "quote_or_excerpt": "Missile attacks through the wall have Bane."
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Wind Wall's Strong row states only that missiles are blocked and something is pushed, with no duration, where the sibling wall card gives each blocking row a number of rounds; the Adept row then reintroduces a two-round life for the wall (11:332 versus 11:334).",
+      "quote_or_excerpt": "The wall lasts 2 rounds"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "The divine sibling supplies the shape the chapter should copy: Sacred Barrier, a wall on the same keyword and the same range, escalates from Bane to a timed block to a timed block plus a push across its three rows (12:198, 12:200, 12:202), and no divine spell card is missing a higher-tier entry.",
+      "quote_or_excerpt": "Missile attacks are blocked for 2 rounds."
+    },
+    {
+      "source": "reasoning",
+      "claim": "I counted the row sets programmatically rather than by eye: all thirty other spell cards in the chapter and all ten cantrip cards carry the expected rows, and the divine chapter's eighteen cards are complete, so the remedy is a two-card edit and not a chapter rebuild. I also verified zero em-dash characters, that the two @sec references resolve to labels in the disciplines and magic chapters, that the two figure captions follow the per-chapter numbering the design log records, and that the only long strings this chapter shares with other chapters are its card field lines and the two published cards the guidance chapter quotes, which the log requires.",
+      "quote_or_excerpt": "39 of 40 ladders complete, sibling chapter 18 of 18."
+    }
+  ],
+  "confidence": 0.86,
+  "rebutting": []
+}

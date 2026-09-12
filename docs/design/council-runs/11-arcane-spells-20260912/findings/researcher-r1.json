@@ -1,0 +1,52 @@
+{
+  "id": "f-003",
+  "round": 1,
+  "role": "researcher",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "A python parse over all forty cards (ten cantrips, thirty spells) reproduces the chapter's own inventory at 11:19 and clears most of the mechanical spine: every card carries its four header fields, all twenty damage or DR triads sit on the tier sheet (nine rank-1 cards at 2/4/6, ten rank-2 cards at 6/9/12, Ward of Iron's DR ladder included), the twenty Adept rows that print a triad all print 6/9/12 and the twenty Master rows all print 9/15/21, both at-references resolve (08-disciplines:219, 10-magic-system:4), and the numeric mirrors in ch10:74-76, ch19:569-573 and ch20:144-146 reproduce the source cards. Six defects survive that parse. All six are one-line repairs, so the verdict is refute-but-cheap rather than a rewrite; the damage ladder itself never moves. Damage-code violations, P1. Static Shock, 11:99, bolts a flat +1 onto a damage figure for a metal-armor case; no print anywhere in the book adds a flat damage number, and the same conditional idea is typed as +1 damage tier (ch05:542, ch20:176, ch17:343). Expected value: no flat add; minimal fix is to delete the clause or restate it as the tier bump. Acid Splash, 11:108, prices armor penetration in hardness, a stat with exactly one occurrence in the entire book (that line); ch16:21 gives the game a single reduction stat, DR, and ch17:308 words the identical rider as ignoring a point of DR. Minimal fix: Ignores 1 point of DR against objects. Acid Splash again, 11:110, stacks a recurring five on a base five at the Strong outcome, so one effect totals ten, a value absent from every budget row (ch08:228-230) and from the card's own 1/3/5 ladder; the sanctioned shape hangs the addition on the Weak result instead. Minimal fix: fold the cling into the printed value or gate it so the total equals a row. Tier-chain violations, P1. Glacial Prison, 11:212, has its Master row withdraw Restrained and substitute Frozen 2, the only condition-for-condition swap in the chapter, while ch10:37 has every higher tier deepening the spell rather than replacing part of it, and both lower rows grant Restrained. Minimal fix: let Restrained survive and add Frozen 2. Silver Tongue, 11:390-399, prints Weak, Standard and Strong and then jumps to Master with no Adept row at all: 29 of 30 spell cards here carry one and all 18 non-cantrip cards in ch12 carry one, yet the Adept tier is a priced, level-gated purchase (ch08:145, ch10:56), so as printed that tier buys nothing and the Master row has nothing to extend. Minimal fix: insert an Adept row that keeps the Bane and adds an effect, with Master remaining a superset. Outcome-ladder violation, P2. Wind Wall, 11:328 and 11:330, prints one sentence twice, on Weak and Standard alike, the only duplicate pair among the forty cards, so the middle result grants nothing beyond the worst; the divine sibling's wall escalates every row (ch12:198-202). Minimal fix: give Standard its own effect, such as blocking for a round.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells:99",
+      "claim": "Static Shock's Standard outcome adds a flat +1 damage for a metal-armor case; a flat add to a damage figure appears nowhere in the sanctioned vocabulary, and the comparable conditional bonuses are typed as the tier bump (ch05:542 Overchannel, ch20:176, ch17:343). Expected value: no flat add. Minimal fix: strike the clause or restate it as +1 damage tier.",
+      "quote_or_excerpt": "3 lightning damage. +1 vs. metal armor."
+    },
+    {
+      "source": "11-arcane-spells:108",
+      "claim": "Acid Splash measures armor penetration in hardness, a stat whose only occurrence in the whole book is this line; ch16:21 defines DR as the single quantity subtracted from incoming damage, and ch17:308 words the same rider as ignoring a point of DR. Expected value: DR. Minimal fix: Ignores 1 point of DR against objects.",
+      "quote_or_excerpt": "Ignores 1 hardness against objects."
+    },
+    {
+      "source": "11-arcane-spells:110",
+      "claim": "The cling rider hangs off the Strong outcome and doubles the printed five into a running total of ten, a number on none of the three budget rows (ch08:228-230) and not on the cantrip's own 1/3/5 ladder either; the supplied pattern for an added tick places it on the Weak result so the sum equals a row. Minimal fix: fold the second tick into the printed value or gate it on Weak.",
+      "quote_or_excerpt": "target takes 5 additional acid damage"
+    },
+    {
+      "source": "11-arcane-spells:212",
+      "claim": "Glacial Prison's Master outcome withdraws Restrained and substitutes Frozen 2, the only condition-for-condition swap in the chapter; ch10:37 has each higher tier deepening the spell rather than replacing any part of it, and the Novice and Adept rows both grant Restrained. Expected value: Restrained survives and Frozen 2 is added. Minimal fix: delete the swap wording.",
+      "quote_or_excerpt": "Frozen 2 instead of Restrained"
+    },
+    {
+      "source": "11-arcane-spells:399",
+      "claim": "Silver Tongue runs Weak (393), Standard (395) and Strong (397) and then prints a Master row with no Adept row between them; my parse finds 29 of 30 spell cards in this chapter carrying an Adept row and all 18 non-cantrip cards in ch12 carrying one, while the Adept tier is a priced, level-gated purchase (ch08:145, ch10:56), so that tier has no effect. Minimal fix: add an Adept row that keeps the Bane and adds an effect, with Master remaining a superset.",
+      "quote_or_excerpt": "The target is friendly and you gain Boon on social checks"
+    },
+    {
+      "source": "11-arcane-spells:328",
+      "claim": "Wind Wall repeats one sentence verbatim on both its Weak row (328) and its Standard row (330), the only such duplicate pair among the forty cards, so the middle outcome grants nothing beyond the worst one; the divine sibling's wall escalates all three rows (ch12:198-202, Bane then two rounds blocked then three). Minimal fix: give Standard a distinct effect.",
+      "quote_or_excerpt": "Missile attacks through the wall have Bane."
+    },
+    {
+      "source": "reasoning",
+      "claim": "Parse counts over the whole chapter: 40 cards (10 cantrips, 30 spells) matching the count claim at 11:19; 40/40 carry all four header fields in order; 16 rank-1 and 14 rank-2 spells; 20 cards print a damage or DR triad and every one matches its tier row (2/4/6 or 6/9/12), zero genuine mismatches; 20 Adept rows print 6/9/12 and 20 Master rows print 9/15/21, zero wrong; 0 em-dashes, 0 tables, 0 callouts, 1 typst fence.",
+      "quote_or_excerpt": "40 cards, 20 triads on-row, 0 row mismatches"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Both at-references resolve (sec-damage-budget to 08-disciplines:219, sec-chapter-magic-system to 10-magic-system:4) and no typed stop follows either one directly (the comma at 19 sits after a closing paren). Every card name that appears outside this chapter (Ember Lance, Brimstone Burst, Spark, Gust, Burning Volley, Force Dart) denotes the same card with matching numbers, so there is no phantom and no collision, and the three numeric mirrors agree (ch10:74-76, ch19:569-573, ch20:144-146).",
+      "quote_or_excerpt": "2 of 2 refs resolve, 0 phantom names, 0 collisions"
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": []
+}

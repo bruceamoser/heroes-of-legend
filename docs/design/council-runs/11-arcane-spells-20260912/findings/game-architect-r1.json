@@ -1,0 +1,87 @@
+{
+  "id": "f-004",
+  "round": 1,
+  "role": "game-architect",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Refute: the chapter is not publishable as it stands, though its damage spine survives the audit. I recomputed all forty cards. Every growing card's base block matches the row its Discipline count buys (one rank gives the 2/4/6 row, two ranks the 6/9/12 row); every Adept line sits on the 6/9/12 row and every Master line on the 9/15/21 row; no card carries damage dice, and the chapter prints no price or gate, so nothing here can contradict the 2/4/8 DP ladder or the Level 3 / Level 7 gates (ch10:46-48, ch08:144-146). The three cross-chapter mirrors are clean: ch10's table (ch10:74-76), ch19's worked card (ch19:565-573) and ch20's NPC list (ch20:144-146) print the same numbers and Discipline counts as this chapter, and ch08:120/123 keys Brimstone Burst to 2 Fire and Force Dart to 1 Energy, matching 11:137 and 11:339. Five defects block release. Silver Tongue [11-arcane-spells:399] has no Adept entry at all, the only one of thirty growing cards without it. Static Shock [11-arcane-spells:99] pays a bare +1 against metal armour. Acid Splash [11-arcane-spells:110] reaches 10 against a single target, and 10 is on no row of the spine. That same card's Standard entry [11-arcane-spells:108] reduces '1 hardness', a word that occurs nowhere else in the manuscript. Glacial Prison [11-arcane-spells:212] trades Restrained away for Frozen 2 instead of adding it. Three softer cases repeat the subtract-on-upgrade shape: Wind Wall's Standard entry [11-arcane-spells:330] copies its Weak entry word for word, Gust's higher entries [11-arcane-spells:314] shed the Prone its own Keyword line advertises, and Ward of Iron's Master entry [11-arcane-spells:375] reflects 3, a value on no row. Tiered disposition: (1) block the release on the five hard breaks and patch each as a one-line edit (insert the missing Adept line, delete or rephrase the +1, size the cling to a row, swap hardness for DR, keep Restrained and add Frozen 2); (2) clean the three grammar items in the next pass; (3) leave every damage row untouched, since none is wrong.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "Broken: Silver Tongue has no *Adept:* entry; the card runs Weak, Standard and Strong and then jumps straight to Master, leaving the Adept rank it can still be bought at (ch10:57) undefined. Expected: a middle entry, which the chapter's other 1-Mind cards Daze (11:410) and Fade (11:436) both print; ch19:546 calls the Adept and Master lines optional, but a growing card that pairs a Master line with no Adept line breaks the three-rank purchase model. Convention: the card format is the three outcomes plus Adept and Master additions (ch10:37). Fix: insert an *Adept:* line between the Strong and Master entries.",
+      "quote_or_excerpt": "*Master:* The target is friendly and you gain Boon"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Broken: a flat +1 gated on the target's armour, a number the book has no slot for. Expected: armour is handled by DR (ch16:21), a situational edge is a Boon or a Bane (ch21:27, ch21:29), and the one sanctioned conditional damage booster is a tier step worded as ch20:94 words it. Convention: no flat +N damage rider, and roll modifiers are Boon or Bane, never +N. Fix: drop the +1, or restate it as a Boon or as +1 damage tier.",
+      "quote_or_excerpt": "*Standard:* 3 lightning damage. +1 vs. metal armor."
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Broken: 5 damage on the hit plus a second 5 to the same creature, i.e. 10 for a single casting, a value absent from every row the book prints (ch21:43). Expected: one effect summing to a row. Convention: a base hit plus a recurring rider must land on a row, or the rider must ride the Weak result. Fix: fold the cling into the printed value so the Strong entry equals a row, or shrink and re-gate the rider.",
+      "quote_or_excerpt": "The acid clings, target takes 5 additional acid damage"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Broken: an unnumbered reduction called hardness, a term unique to this line in the entire manuscript; no other chapter defines or uses it. Expected: DR, the book's reduction field, which is subtracted from incoming damage (ch16:21, ch21:105). Convention: no stale or invented mechanics vocabulary. Fix: reword to 'Ignores 1 DR against objects'.",
+      "quote_or_excerpt": "Ignores 1 hardness against objects"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Broken: the Master entry strips Restrained (granted on 11:206 and 11:208) and puts Frozen 2 in its place. Expected: an addition; the two sibling Water cards add Frozen 2 on Strong and keep everything beneath intact (11:186, 11:199). Convention: a higher tier adds, it never subtracts or replaces. Fix: keep Restrained and add Frozen 2 as a further effect.",
+      "quote_or_excerpt": "Frozen 2 instead of Restrained"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Broken: the Standard entry is a word-for-word repeat of the Weak entry, so both results hand out the same Bane and the middle outcome is dead weight. Expected: a Standard meaningfully better than Weak. Convention: the three outcomes are distinct results (ch19:557). Fix: give Standard a step above Weak, e.g. a second missile or a blocked-and-pushed result.",
+      "quote_or_excerpt": "Missile attacks through the wall have Bane."
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Broken: the Adept and Master entries print Push alone, dropping the Prone that the Strong entry and the card's own Keyword line carry; this card has no damage row to hold the lower-tier text, so the condition simply disappears at the higher ranks. Expected: Prone retained while push distance and target count grow. Convention: each tier is a superset of the one below. Fix: append the Prone condition to both higher entries.",
+      "quote_or_excerpt": "Push 15 ft; the target is Prone."
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Broken: the Master entry reflects 3 damage, a number on no row (2/4/6, 6/9/12, 9/15/21), and the Adept entry also drops the 2-damage retaliation printed on Strong. Expected: an on-row retaliation kept across ranks. Convention: every damage number keys to the spine, and a higher tier adds. Fix: set the reflected value to 2 or 4 and carry the retaliation into the Adept entry.",
+      "quote_or_excerpt": "9/15/21 DR against one attack; reflects 3 damage"
+    },
+    {
+      "source": "10-magic-system",
+      "claim": "Canon for the superset rule: the framework chapter defines a growing card as one spell that gets deeper at each rank, which is exactly what the Master entries at 11:212 and 11:375 contradict.",
+      "quote_or_excerpt": "deepens the same spell rather than replacing it"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "Canon for the expected value at 11:108: armour, shields and objects reduce damage through DR, the field Acid Splash should be using instead of a term of its own.",
+      "quote_or_excerpt": "subtract your Damage Reduction (DR) from the damage value"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "Canon for the expected value at 11:99: the sanctioned conditional damage booster is a tier step, the pattern Static Shock departs from.",
+      "quote_or_excerpt": "if it moves 20+ ft before attacking, damage tier +1"
+    },
+    {
+      "source": "19-gm-guidance",
+      "claim": "Canon for the expected values at 11:399: the GM chapter's card-format table sets out the budget rows and treats the Adept and Master lines as additions to the block.",
+      "quote_or_excerpt": "2/4/6, 6/9/12, or 9/15/21 by tier"
+    },
+    {
+      "source": "19-gm-guidance",
+      "claim": "Verified clean: the worked Brimstone Burst card in the GM chapter repeats 11:139-147 value for value, so that mirror prints the same numbers and needs no change.",
+      "quote_or_excerpt": "9/15/21 fire damage to all; the ground burns (Burning 4)"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "Verified clean: the bestiary's NPC Brimstone Burst prints the same 6/9/12 block the chapter gives it, so that mirror agrees.",
+      "quote_or_excerpt": "*Brimstone Burst:* 6/9/12 (once per encounter)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Sum check on 11:110: two separate 5s hit the same creature for one casting, and the spine's rows do not include 10, so the entry cannot be reconciled with the budget as written.",
+      "quote_or_excerpt": "5 + 5 = 10; no row is 10"
+    }
+  ],
+  "confidence": 0.82,
+  "rebutting": []
+}

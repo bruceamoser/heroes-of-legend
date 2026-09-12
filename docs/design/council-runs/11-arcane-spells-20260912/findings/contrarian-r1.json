@@ -1,0 +1,62 @@
+{
+  "id": "f-002",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Not publishable as-is. I recomputed all forty cards (tier, discipline count, every damage line, the raise path, and the chapters that mirror this one) and four cards fail on their own printed text, two more need rewording.\n\n1. Acid Splash, 11:110. The Strong result prints a 5-point acid hit and then a second 5-point tick on the target's next turn, so a single cast delivers 10. This is an at-will cantrip with no per-encounter limit (11:27), so a player simply repeats it every round and sustains 10 damage per round from a free ability. Ten appears on no row the book prints, and the extra tick rides on Strong instead of being gated to Weak, so the base-plus-rider test fails both ways. The same line also writes repeating damage as prose rather than as the leveled condition the combat chapter defines for damage over time. Minimal fix: drop the separate tick and print the cling as that leveled condition, with its per-round value equal to the card's own line, so the whole effect totals one row.\n\n2. Glacial Prison, 11:212. The Master entry says Frozen 2 replaces the Restrained the lower results impose. The growth rule for a card is that a higher tier may add and never take away, so a player who pays the Master price loses a control effect they already had. Minimal fix: keep Restrained and add Frozen 2 alongside it.\n\n3. Force Dart, 11:347 and 11:349. Two darts at Adept, three at Master, with nothing saying the printed row is divided among them. Burning Volley and Forked Sky both spell out their split in the card text, so this omission is the outlier. Read per dart, the Master Strong line becomes 21 x 3 = 63, off every row. Minimal fix: state the total and the per-dart value.\n\n4. Silver Tongue, 11:390-399. The card prints Weak, Standard, Strong, then Master. There is no Adept entry, which every other card in this chapter and in the divine twin carries, so a player who buys the Adept rank pays the extra DP and a discipline rank for no printed effect. The card also runs its Standard for 2 turns while its Weak lasts a whole scene, so the middle result is shorter-lived than the weakest one. Minimal fix: add an Adept line that adds to the earlier text.\n\n5. Static Shock, 11:99, attaches a bare +1 damage figure against metal armor. Every damage boost elsewhere in the book is worded as a step up the rows, so this breaks the no-flat-rider law and needs rewording or removal.\n\nTwo smaller publishing problems. Wind Wall prints the identical sentence under Weak and Standard (11:328, 11:330), so a Standard result does nothing a Weak one did not. And several cards divide a row into fractions the rules never resolve: three, four and five arcs against 9/15/21 (11:173, 11:238), half of 5 (11:101), half of 21 (11:225), and heal-half on odd rows (11:488, 11:490), while the book's only stated rounding is scoped to resistance.\n\nWhat survives my testing. Ember Lance and Brimstone Burst match the discipline chapter's row table, the magic chapter's own table, the GM chapter's sample card and the bestiary list. The 2-discipline cards' 6/9/12 opening block is the sibling chapter's pattern, so it is not a fault. Brimstone Burst, Rime Storm, Static Field, Tremor, Force Wave, Caustic Mist and Wall of Cinders sit on their rows, and Burning Volley and Forked Sky state their splits. Ward of Iron's DR rows match the divine ward card. Every condition word I checked (Slowed 5, Frozen 2, Burning 2 and 4, Restrained, Prone, Unconscious) is a real entry in the combat table, so the leveled vocabulary holds up.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "Acid Splash's Strong line adds a second 5-point acid tick on top of a 5-point hit, so one cast of an uncosted at-will cantrip delivers 10 to a single target, off every printed row.",
+      "quote_or_excerpt": "target takes 5 additional acid damage at the start of"
+    },
+    {
+      "source": "13-combat",
+      "claim": "The combat chapter already defines a leveled ongoing-damage condition as the sanctioned way to express damage that repeats, which the cantrip's prose bypasses.",
+      "quote_or_excerpt": "[*Burning X*], [Takes X damage per round]"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Glacial Prison's Master entry swaps out the Restrained condition the lower results impose rather than adding to it, so the higher tier subtracts an effect.",
+      "quote_or_excerpt": "Frozen 2 instead of Restrained"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Force Dart introduces two and three darts at the higher tiers without saying the printed damage is divided among them, so a literal per-dart reading multiplies the row.",
+      "quote_or_excerpt": "9/15/21 force damage, three darts"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Silver Tongue jumps from its Strong entry straight to its Master entry with no Adept line, so the Adept-rank purchase has no printed effect.",
+      "quote_or_excerpt": "The target is friendly and you gain Boon on social checks"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Static Shock attaches a flat +1 damage figure against metal armor rather than the book's tier-bump wording for a damage boost.",
+      "quote_or_excerpt": "+1 vs. metal armor"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Wind Wall repeats one sentence under both Weak and Standard, so a Standard result on that card grants nothing beyond a Weak one and the card's growth starts only at Adept.",
+      "quote_or_excerpt": "Missile attacks through the wall have Bane"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Dividing a Master Strong row five ways leaves a fractional per-projectile value the rules never resolve, and the same card also splits rows four ways and halves a row.",
+      "quote_or_excerpt": "split across five lances"
+    },
+    {
+      "source": "10-magic-system",
+      "claim": "The framework chapter makes the tier row binding no matter how a card is shaped, which is the rule the Acid Splash and Force Dart lines strain against.",
+      "quote_or_excerpt": "The row is the law"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Scope of my testing: all forty cards' rows, tiers and discipline counts; the five mirror chapters; every multi-target, zone and DR card; and every condition word against the combat table. Only the failures listed above stand.",
+      "quote_or_excerpt": "rows, tiers, mirrors, splits, zones and condition words all recomputed"
+    }
+  ],
+  "confidence": 0.7,
+  "rebutting": []
+}
