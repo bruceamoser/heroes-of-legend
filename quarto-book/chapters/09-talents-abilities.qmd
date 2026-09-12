@@ -300,6 +300,8 @@ These four cards are the attacks every character can make, no Discipline require
 
 Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each is gated by Disciplines: most by a weapon Discipline, though Shield Slam requires Armor and Renewal requires Protection. See @sec-chapter-combat for Action, Maneuver, and Reaction rules.
 
+A maneuver's Weak/Standard/Strong block uses the Novice budget row (2/4/6). Your weapon supplies the base damage, so the numbers a maneuver prints are what the maneuver adds on top of it. A spell works the other way: the spell is the damage, so a spell's base block keys to that spell's own tier.
+
 === Riposte (Weapon Maneuver)
 
 *Disciplines:* 2 Blades · *Action:* Reaction · *Range:* Melee · *Keywords:* Counterattack
@@ -374,11 +376,11 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 
 *Disciplines:* 2 Armor · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone, Push
 
-*Weak:* Deal 1 damage and Push 5 ft.
+*Weak:* Deal 2 damage and Push 5 ft.
 
-*Standard:* Deal 2 damage and Push 5 ft.
+*Standard:* Deal 4 damage and Push 5 ft.
 
-*Strong:* Deal 3 damage and Push 5 ft; the target is Prone.
+*Strong:* Deal 6 damage and Push 5 ft; the target is Prone.
 
 *Adept:* Deal 6/9/12 damage and Push 5 ft; on a Strong result Prone.
 
