@@ -220,7 +220,7 @@ These are the big ideas. The rest of the book explains how they work in practice
 
 #callout(type: "tip", title: "Ready to Begin?", body: [
 - *New player?* Turn to @sec-chapter-character-creation and build your first hero.
-- *New DA?* Skim @sec-chapter-attributes through @sec-chapter-disciplines, then dig into @sec-chapter-gm-guidance
+- *New DA?* Skim @sec-chapter-attributes through @sec-chapter-disciplines and then dig into @sec-chapter-gm-guidance
 - *Just browsing?* Read @sec-chapter-opening-fiction in the next chapter to meet Kael and his companions in action.
 
 However you proceed, welcome to the table. The dice are waiting.
