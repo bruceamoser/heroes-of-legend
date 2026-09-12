@@ -211,7 +211,7 @@ Tier shapes describe CARDS. Weapons, armor, and shields may list their own Disci
 
 === No-Prereq Basics
 
-Some basic Novice cards (cantrips, basic utility skills) have *no Discipline requirement* and cost only the flat card price (2 DP). These represent minor talents anyone can pick up: a spark of flame too small to harm, a knack for reading a room, a trick of sleight of hand. Adept and Master cards *always* require Disciplines. There are no shortcuts to real power.
+Some basic Novice cards (basic utility skills) have *no Discipline requirement* and cost only the flat card price (2 DP). These represent minor talents anyone can pick up: a knack for reading a room, a trick of sleight of hand, a steady hand on a wound. Cantrips are the one exception on price: they cost nothing, and every caster of a tradition knows the whole list (see @sec-chapter-arcane-spells and @sec-chapter-divine-spells). Adept and Master cards *always* require Disciplines. There are no shortcuts to real power.
 
 #pagebreak()
 
@@ -262,7 +262,7 @@ Sera wants to burn the world. She's an Arcanist. Her class gives her 1 Fire and 
 
 *Master (Ember Lance at Master rank):* Sera's Ember Lance, bought up to Master rank, deals 9/15/21 fire damage, Piercing 3, and leaves a burning patch (Burning 2). When the Master tier unlocks at level 7, she can take that rank. She could branch into Earth for a 3-Discipline Master card, Protection for defense, Animal for a familiar, or continue deepening her elemental mastery.
 
-Seven levels to master the fire. Disciplines got her to Master. No shortcuts. No wildcards. Just the path, walked one step at a time.
+Seven levels to master the fire. Disciplines got her to Master. No shortcuts. Just the path, walked one step at a time.
 
 That's the Discipline system working as intended. Master spells should be achievable before your campaign's climax, but they should still mean something when you cast them. A Master-rank Ember Lance says "I built for this." When Sera's lance becomes a pillar of flame, everyone at the table knows she paid for it.
 ```

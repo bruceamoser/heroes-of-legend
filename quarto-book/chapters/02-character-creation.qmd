@@ -142,7 +142,7 @@ Costs below are at *Home (Favored)* rates. Your class may change these based on 
   numbering: none,
 )
 
-No-prereq Novice basics (cantrips, basic utility skills) cost 2 DP with no Discipline requirement. See @sec-chapter-disciplines for the full rules.
+No-prereq Novice basics (basic utility skills) cost 2 DP with no Discipline requirement. Cantrips cost nothing: every caster knows the whole list for their tradition. See @sec-chapter-disciplines for the full rules.
 
 These represent everything your hero learned growing up. A farm kid might take Athletics and Nature. A temple acolyte might take Religion and Medicine. A street thief might take Stealth and Sleight of Hand. Make it make sense for your concept, the DA will notice.
 
