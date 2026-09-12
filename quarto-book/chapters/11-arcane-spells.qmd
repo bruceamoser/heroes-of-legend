@@ -16,7 +16,7 @@ But fire's just the beginning. Ice that freezes blood in the veins. Lightning th
 
 Arcane magic is the art of telling the universe to sit down and shut up, and making it listen. You don't ask. You don't pray. You _impose._
 
-This chapter contains every arcane spell in the game: ten cantrips you know from the start, and thirty spells that each grow from Novice to Master. Every spell card carries a Discipline, an action, a range, and an effect that scales across Weak, Standard, and Strong, then deepens at Adept and Master. Key the numbers to the damage budget (@sec-damage-budget), and cast.
+This chapter contains every arcane spell in the game: ten cantrips you know from the start, and thirty spells that each grow from Novice to Master. Every spell card carries a Discipline, an action, a range, and an effect that scales across Weak, Standard, and Strong, then deepens at Adept and Master. Key the numbers to the damage budget (@sec-damage-budget), and cast. Where a card prints half of a value, round down.
 
 _See @sec-chapter-magic-system for how spellcasting works._
 
@@ -96,7 +96,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Weak:* 1 lightning damage. The target feels a tingle.
 
-*Standard:* 3 lightning damage. +1 vs. metal armor.
+*Standard:* 3 lightning damage; +1 damage tier against metal armor.
 
 *Strong:* 5 lightning damage. The spark chains to one additional target within 10 feet for half damage.
 
@@ -105,9 +105,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Weak:* 1 acid damage. The acid sizzles weakly.
 
-*Standard:* 3 acid damage. Ignores 1 hardness against objects.
+*Standard:* 3 acid damage. Ignores 1 point of DR against objects.
 
-*Strong:* 5 acid damage. The acid clings, target takes 5 additional acid damage at the start of its next turn.
+*Strong:* 5 acid damage. The acid clings and keeps eating.
 
 === Whisper (Cantrip)
 *Disciplines:* None · *Action:* Action · *Range:* 120 ft · *Keywords:* None
@@ -207,9 +207,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 12 cold damage; the target is Restrained for 2 rounds.
 
-*Adept:* 6/9/12 cold damage.
+*Adept:* 6/9/12 cold damage; the target is Restrained for 2 rounds.
 
-*Master:* 9/15/21 cold damage; Frozen 2 instead of Restrained.
+*Master:* 9/15/21 cold damage; the target is Restrained for 2 rounds and Frozen 2.
 
 === Storm Javelin (Arcane Spell)
 *Disciplines:* 1 Wind · *Action:* Action · *Range:* 60 ft · *Keywords:* Bane
@@ -264,7 +264,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Master:* 9/15/21 acid damage, DR reduced by 3.
 
 === Caustic Mist (Arcane Spell)
-*Disciplines:* 2 Earth · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Bane on sight
+*Disciplines:* 2 Earth · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Bane
 
 *Weak:* 6 acid damage (Agility or Dodge rank resists).
 
@@ -311,13 +311,13 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* Push 15 ft; the target is Prone.
 
-*Adept:* Push 20 ft.
+*Adept:* Push 20 ft; the target is Prone.
 
-*Master:* Push up to three targets 30 ft.
+*Master:* Push up to three targets 30 ft; each is Prone.
 
 #image("assets/svg/placeholder-section.svg", width: 60%)
 
-_Figure 13.2: Arcane Spells,_
+_Figure 13.2: Arcane Spells_
 
 _Placeholder for final art._
 #pagebreak()
@@ -327,9 +327,9 @@ _Placeholder for final art._
 
 *Weak:* Missile attacks through the wall have Bane.
 
-*Standard:* Missile attacks through the wall have Bane.
+*Standard:* Missile attacks through the wall are blocked for 1 round.
 
-*Strong:* Missile attacks are blocked and pushed 5 ft.
+*Strong:* Missile attacks through the wall are blocked for 2 rounds, and attackers are pushed 5 ft.
 
 *Adept:* The wall lasts 2 rounds; 6/9/12 bludgeoning damage to passers.
 
@@ -344,9 +344,9 @@ _Placeholder for final art._
 
 *Strong:* 6 force damage.
 
-*Adept:* 6/9/12 force damage, two darts.
+*Adept:* 6/9/12 force damage, split across two darts.
 
-*Master:* 9/15/21 force damage, three darts.
+*Master:* 9/15/21 force damage, split across three darts.
 
 === Force Wave (Arcane Spell)
 *Disciplines:* 2 Energy · *Action:* Action · *Range:* 15-ft cone · *Keywords:* Prone, Push
@@ -362,7 +362,7 @@ _Placeholder for final art._
 *Master:* 9/15/21 force damage.
 
 === Ward of Iron (Arcane Spell)
-*Disciplines:* 1 Energy · *Action:* Reaction · *Range:* self · *Keywords:* DR
+*Disciplines:* 1 Energy · *Action:* Reaction · *Range:* Self · *Keywords:* DR
 
 *Weak:* +2 DR against one attack.
 
@@ -377,26 +377,28 @@ _Placeholder for final art._
 === Unseen Hand (Arcane Spell)
 *Disciplines:* 1 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained
 
-*Weak:* Lift 10 lb for 1 turn.
+*Weak:* Move an object of up to 10 lb for 1 turn.
 
-*Standard:* Lift 20 lb for 1 turn.
+*Standard:* Move an object of up to 20 lb for 1 turn.
 
-*Strong:* Lift 50 lb for 2 turns.
+*Strong:* Move an object of up to 50 lb for 2 turns.
 
-*Adept:* Lift 100 lb.
+*Adept:* Move an object of up to 100 lb.
 
-*Master:* Lift 200 lb; can hold a creature still (Restrained).
+*Master:* Move an object of up to 200 lb; can hold a creature still (Restrained).
 
 === Silver Tongue (Arcane Spell)
 *Disciplines:* 1 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane, Boon
 
 *Weak:* The target has Bane against your social checks for 1 scene (Reason resists).
 
-*Standard:* The target has Bane against your social checks for 2 turns.
+*Standard:* The target has Bane against your social checks for 2 scenes.
 
 *Strong:* The target has Bane against your social checks and is friendly for 1 scene.
 
-*Master:* The target is friendly and you gain Boon on social checks against them.
+*Adept:* The target has Bane against your social checks and is friendly for 2 scenes.
+
+*Master:* The target has Bane against your social checks and is friendly for 2 scenes; you have Boon on social checks against them.
 
 === Daze (Arcane Spell)
 *Disciplines:* 1 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* None
@@ -425,7 +427,7 @@ _Placeholder for final art._
 *Master:* You may create two images instead of one, or a single image that moves and acts on your turn.
 
 === Fade (Arcane Spell)
-*Disciplines:* 1 Mind · *Action:* Action · *Range:* self · *Keywords:* Boon
+*Disciplines:* 1 Mind · *Action:* Action · *Range:* Self · *Keywords:* Boon
 
 *Weak:* Boon on Stealth for 1 turn.
 
@@ -451,7 +453,7 @@ _Placeholder for final art._
 *Master:* The target cannot attempt its Reason resistance again; you may issue one command as a free action on your turn.
 
 === Eldritch Sight (Arcane Spell)
-*Disciplines:* 1 Energy · *Action:* Action · *Range:* self · *Keywords:* None
+*Disciplines:* 1 Energy · *Action:* Action · *Range:* Self · *Keywords:* None
 
 *Weak:* Reveal 1 clue about magic.
 
@@ -464,7 +466,7 @@ _Placeholder for final art._
 *Master:* Identify any magical effect.
 
 === Flicker Step (Arcane Spell)
-*Disciplines:* 1 Energy · *Action:* Maneuver · *Range:* self · *Keywords:* Boon, Bane
+*Disciplines:* 1 Energy · *Action:* Maneuver · *Range:* Self · *Keywords:* Boon, Bane
 
 *Weak:* Teleport 5 ft.
 
@@ -503,7 +505,7 @@ _Placeholder for final art._
 *Master:* Raise 6 skeletons; their attacks have Boon.
 
 === Touch of the Grave (Arcane Spell)
-*Disciplines:* 2 Energy · *Action:* Action · *Range:* touch · *Keywords:* Unconscious
+*Disciplines:* 2 Energy · *Action:* Action · *Range:* Touch · *Keywords:* Unconscious
 
 *Weak:* 6 necrotic damage.
 
