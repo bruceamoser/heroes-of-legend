@@ -181,9 +181,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 6 cold damage; the target is Slowed 5.
 
-*Adept:* 6/9/12 cold damage.
+*Adept:* 6/9/12 cold damage; the target is Slowed 5 for 2 rounds.
 
-*Master:* 9/15/21 cold damage; Frozen 2 on Strong.
+*Master:* 9/15/21 cold damage; the target is Slowed 5, and Frozen 2 on Strong.
 
 === Rime Storm (Arcane Spell)
 *Disciplines:* 2 Water · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Slowed, Frozen
@@ -194,9 +194,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 12 cold damage; targets are Slowed 5 for 2 rounds.
 
-*Adept:* 6/9/12 cold damage.
+*Adept:* 6/9/12 cold damage; targets are Slowed 5 for 2 rounds.
 
-*Master:* 9/15/21 cold damage; Frozen 2 on Strong.
+*Master:* 9/15/21 cold damage; targets are Slowed 5, Frozen 2 on Strong.
 
 === Glacial Prison (Arcane Spell)
 *Disciplines:* 2 Water · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained, Frozen
@@ -298,9 +298,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 12 bludgeoning damage; targets are Prone and lose their Maneuver.
 
-*Adept:* 6/9/12 bludgeoning damage.
+*Adept:* 6/9/12 bludgeoning damage; targets are Prone.
 
-*Master:* 9/15/21 bludgeoning damage; 15-ft radius.
+*Master:* 9/15/21 bludgeoning damage; 15-ft radius; targets are Prone and lose their Maneuver.
 
 === Gust (Arcane Spell)
 *Disciplines:* 1 Wind · *Action:* Action · *Range:* 30 ft · *Keywords:* Prone, Push
@@ -357,9 +357,9 @@ _Placeholder for final art._
 
 *Strong:* 12 force damage; Push 15 ft; targets are Prone.
 
-*Adept:* 6/9/12 force damage.
+*Adept:* 6/9/12 force damage; Push 15 ft; targets are Prone.
 
-*Master:* 9/15/21 force damage.
+*Master:* 9/15/21 force damage; Push 20 ft; targets are Prone.
 
 === Ward of Iron (Arcane Spell)
 *Disciplines:* 1 Energy · *Action:* Reaction · *Range:* Self · *Keywords:* DR
@@ -513,7 +513,7 @@ _Placeholder for final art._
 
 *Strong:* 12 necrotic damage; Fortitude check or die at 0 HP.
 
-*Adept:* 6/9/12 necrotic damage.
+*Adept:* 6/9/12 necrotic damage; Fortitude check or Unconscious.
 
-*Master:* 9/15/21 necrotic damage.
+*Master:* 9/15/21 necrotic damage; Fortitude check or Unconscious; on Strong, Fortitude check or die at 0 HP.
 ```
