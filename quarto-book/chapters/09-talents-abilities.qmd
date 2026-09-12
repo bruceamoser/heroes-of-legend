@@ -56,11 +56,11 @@ The talents below are general. Any class may take any of them.
 
 *Disciplines:* 1 chosen weapon Discipline · *Action:* Passive · *Range:* Self · *Keywords:* Damage
 
-*Novice:* +1 damage tier on ability cards of the chosen weapon Discipline.
+*Novice:* Boon on attack rolls with weapons of the chosen weapon Discipline.
 
-*Adept:* +2 damage tiers on ability cards of the chosen weapon Discipline.
+*Adept:* Double Boon on attack rolls with weapons of the chosen weapon Discipline.
 
-*Master:* +3 damage tiers on ability cards of the chosen weapon Discipline.
+*Master:* Triple Boon on attack rolls with weapons of the chosen weapon Discipline.
 
 === Skill Focus (Talent)
 
@@ -300,7 +300,7 @@ These four cards are the attacks every character can make, no Discipline require
 
 Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each is gated by Disciplines: most by a weapon Discipline, though Shield Slam requires Armor and Renewal requires Protection. See @sec-chapter-combat for Action, Maneuver, and Reaction rules.
 
-A maneuver's Weak/Standard/Strong block uses the Novice budget row (2/4/6). Your weapon supplies the base damage, so the numbers a maneuver prints are what the maneuver adds on top of it. A spell works the other way: the spell is the damage, so a spell's base block keys to that spell's own tier.
+A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice budget row, 2/4/6), and its Adept and Master rungs print the rows above it. Your weapon contributes no damage of its own: the card carries the numbers, exactly as it does for any other ability. See @sec-chapter-equipment
 
 === Riposte (Weapon Maneuver)
 
