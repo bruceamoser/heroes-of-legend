@@ -1,0 +1,37 @@
+{
+  "id": "f-902",
+  "round": 2,
+  "role": "contrarian",
+  "topic": "spell-card-page-integrity",
+  "stance": "refute",
+  "argument": "The page-integrity refute survives contact with the current build (364 pp, stamped 2026-09-12 19:28), but two of its quantitative assertions do not. The defect is real: across the card run on pages 181-187, five of the six interior page turns split a card, and three leave a bare card title alone at a page foot with its stat block overleaf (Tide of Life p182, Sanctuary p183, Righteous Blow p184). Correction one: the claim that every interior turn cuts a card is off by one; the 185/186 turn is clean, one card finishing at the foot of p185 while a fresh title opens p186. Correction two: the claim that the repo's orphan metric is blind and certifies a clean count is now obsolete. That checker was widened (commit c76ceb4, issue 495) to read Typst equals-prefixed headings; it now harvests 467 titles and reports 15 stranded across the book, three of them these divine titles. So the metric corroborates rather than conceals the defect, and the finding never depended on it anyway: the splits are plainly visible in the rendered PDF. Verdict: defect confirmed, evidence base corrected; the regression baseline should be the tool's 15-count.",
+  "evidence": [
+    {
+      "source": "reasoning",
+      "claim": "In the current 364-page build the divine card run occupies pages 181 through 187, and five of those six interior page turns split a card rather than keeping one whole.",
+      "quote_or_excerpt": "\u2767 Righteous Blow (Divine Spell)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The 185/186 turn is a clean card break, with one card finishing at the page foot and a fresh card title opening the next page, so the split count is five rather than six.",
+      "quote_or_excerpt": "\u2767 Turn Unholy (Divine Spell)"
+    },
+    {
+      "source": "f-007",
+      "claim": "The round-one page finding states the orphan metric harvests only chapter titles and reports a clean count; the checker has since been widened to Typst headings and now reports fifteen stranded titles.",
+      "quote_or_excerpt": "the tool reports a clean count"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Running the repo's own checker against the current build returns fifteen stranded headings book-wide, among them the three divine card titles the page finding named.",
+      "quote_or_excerpt": "Tide of Life (Divine Spell)"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "The chapter's final card carries three base rungs and two upper rungs, and the built book separates that upper pair onto the last page of the run.",
+      "quote_or_excerpt": "Creatures passing through take 6/9/12 piercing damage"
+    }
+  ],
+  "confidence": 0.82,
+  "rebutting": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": "f-008",
+  "round": 2,
+  "role": "librarian",
+  "topic": "damage-budget-adept-base-row",
+  "stance": "refute",
+  "argument": "Independently verified and corroborated: this defect is real and canon-determined, not a rival reading of the card template. The three named cards each carry a two-rank prerequisite, which places them at the Adept tier, yet they open their base block on the one-rank values and reach the required middle row only on their Adept line, so the opening rung sits a full row below budget and the middle line adds no depth of its own. Three separate authorities lock that opening. The budget table binds two Discipline ranks to the middle row; the framework chapter states that a card taken at the Adept tier begins on 6/9/12; and the arcane mirror opens all ten of its two-rank damage cards on that same row, its area attacks included, so no area-effect discount can excuse the trio. The chapter also contradicts itself inside a single discipline, since Restoration and Flesh Renewal share the identical two-rank Life prerequisite with Tide of Life and Soulmend and open on the middle row, as do Divine Judgment, Pillar of Light and Hallowed Ground at their tier. My exhaustive sweep reproduced the split: ten of ten arcane two-rank damage cards open on the middle row against five of eight in the divine chapter, the three outliers being the ones I name. The round-1 finding stands on all counts. Remedy is to re-row the three cards or correct their stated prerequisite, and either way the entry must be reconciled with its own Adept line.",
+  "evidence": [
+    {
+      "source": "12-divine-spells",
+      "claim": "Tide of Life carries a two-rank Life prerequisite, so it is an Adept-tier card, yet its base block heals on the one-rank values and its Adept line jumps to the required middle row.",
+      "quote_or_excerpt": "Restore 2 HP to each ally in range"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Soulmend shares that two-rank Life prerequisite and opens on the same one-rank heal, with the middle row arriving only on its Adept line.",
+      "quote_or_excerpt": "Restore 6/9/12 HP."
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Briar Wall requires two Plants ranks yet its base block deals one-rank piercing damage, the middle row again deferred to the Adept line.",
+      "quote_or_excerpt": "Creatures passing through take 2 piercing damage"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Restoration and Flesh Renewal hold the same two-rank Life prerequisite as the under-row pair and open on the middle row, so the chapter disagrees with itself within one discipline.",
+      "quote_or_excerpt": "Recurring 2 healing per round for 3 rounds (6 total)"
+    },
+    {
+      "source": "08-disciplines.qmd",
+      "claim": "The canonical damage budget binds the two-Discipline tier to the middle row, fixing the required opening for any two-rank card.",
+      "quote_or_excerpt": "[*Adept*], [2 Disciplines], [6/9/12]"
+    },
+    {
+      "source": "10-magic-system.qmd",
+      "claim": "The framework chapter states the opening effect row is set by the tier a card is bought at, and that the row governs however the card is shaped.",
+      "quote_or_excerpt": "A card bought at Adept tier starts at 6/9/12"
+    },
+    {
+      "source": "11-arcane-spells.qmd",
+      "claim": "The arcane mirror opens its two-Discipline cards on the middle row, including area attacks such as Brimstone Burst, so the divine under-row trio breaks the shared card format.",
+      "quote_or_excerpt": "6 fire damage to all in the radius"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Sweeping both spell chapters for every damage card with a two-rank prerequisite: all ten in the arcane chapter open on the middle row, while the divine chapter splits five of eight on the middle row against three on the one-rank row, so the trio is a minority deviation rather than a parallel format.",
+      "quote_or_excerpt": "arcane: 10 of 10 open at 6/9/12 (divine 5 of 8)"
+    }
+  ],
+  "confidence": 0.85,
+  "rebutting": []
+}

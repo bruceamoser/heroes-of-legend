@@ -1,0 +1,52 @@
+{
+  "id": "f-008",
+  "round": 2,
+  "role": "researcher",
+  "topic": "spell-card-page-integrity",
+  "stance": "support",
+  "argument": "Independently reproduced, with one correction and one status change. Reproduction: rerunning the pre-fix revision of the orphan metric (the parent of c76ceb4) against the same built PDF the audit measured prints a clean zero, while the fixed revision at HEAD prints fifteen; the two revisions differ only in the heading harvest regex. Mechanism quantified: the pre-fix pattern matches markdown-hash lines only, and all 24 of its matches are a chapter's single top-level title line, one per chapter file, so 443 of the book's titles never reached the page test; the union of the two harvest sets is exactly 467 titles, reproducing the audit's denominator. Chapter 12 supplies three of the fifteen stranded titles, on pp.182, 183 and 184, and no fourth. Correction: a boundary census over pp.181-187 (23 cards, six interior turns) shows five turns cut a card, not six; the p185/p186 turn falls cleanly between Radiant Beam's final rung and the next card title. Status change: the tooling half of the round-1 finding is already repaired upstream by commit c76ceb4 (#495), committed 2026-09-12 19:32, roughly four minutes after the audited build, and its message concedes the old harvest matched 24 of 457 headings and certified zero against fifteen stranded. The layout defect itself is untouched: the chapter is still one Typst fence of 23 bare card titles with no grouping construct, and the theme offers no keep or sticky rule that would bind them. Fix scope is therefore the layout (make a card one unit with a keep that still permits splitting a card longer than a page), not the metric, which is declared non-gating and so reports the count without preventing a rebuild.",
+  "evidence": [
+    {
+      "source": "reasoning",
+      "claim": "Pre-fix revision c76ceb4^ returns zero stranded headings on the same PDF that the fixed revision at HEAD scores at fifteen; the only code delta between the two is the heading harvest regex.",
+      "quote_or_excerpt": "0 heading(s) sit last on a page"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The upstream repair commit concedes the historical blindness: the old harvest matched 24 of the book's 457 heading lines and reported zero while fifteen were actually stranded.",
+      "quote_or_excerpt": "saw 24 of 457 headings and reported"
+    },
+    {
+      "source": "reasoning",
+      "claim": "All 24 harvested titles are one per chapter file, each file's single top-level title line; the corrected harvest over the same sources returns 446 Typst titles drawn from 457 heading lines, and the union of both sets is 467.",
+      "quote_or_excerpt": "# Divine Spells {#sec-chapter-divine-spells}"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Chapter 12 owns exactly three of the book's fifteen stranded titles, at pp.182, 183 and 184, which are the card headings at source lines 108, 166 and 224; no fourth title in the chapter strands.",
+      "quote_or_excerpt": "=== Tide of Life (Divine Spell)"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Boundary census of pp.181-187: 23 card titles, six interior page turns, five of them cutting a card; the p185/p186 turn ends at source line 279 and restarts at line 281, a clean break between two cards, so the round-1 phrasing 'every interior boundary' overstates by one.",
+      "quote_or_excerpt": "Master: 9/15/21 radiant damage."
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Cause unchanged: the chapter body is a single Typst fence (lines 3 to 341) holding 23 bare card headings such as the one at line 328, none of them wrapped in a grouping construct that the page breaker must keep whole.",
+      "quote_or_excerpt": "=== Briar Wall (Divine Spell)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "No keep support exists in the theme to be inherited: the project style file's only heading rule sets a font, the level-3 rule delegates to the vendored beautitled package, and a case-insensitive sweep of that package for keep or sticky returns three hits, all comment or README prose.",
+      "quote_or_excerpt": "// keeps it invisible and out of flow."
+    },
+    {
+      "source": "reasoning",
+      "claim": "Even after the repair the metric cannot block a rebuild, its own docstring declaring it a quality count rather than a gate.",
+      "quote_or_excerpt": "Not a pass/fail gate"
+    }
+  ],
+  "confidence": 0.88,
+  "rebutting": []
+}

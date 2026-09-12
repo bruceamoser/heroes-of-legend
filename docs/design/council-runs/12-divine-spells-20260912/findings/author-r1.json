@@ -1,0 +1,42 @@
+{
+  "id": "f-012",
+  "round": 1,
+  "role": "author",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Refute. The chapter's opening states the tradition's remit as healing, warding, and revealing, and rules out direct attack magic outright, so a reader is told what divine spells are not before meeting a single card. Then the Religion block arrives: six cards whose entire job is ranged radiant damage dealt to whatever it hits, with no restriction to unholy targets, and two further families (a burning area ward and a piercing briar wall) carry harm of their own. The opening triad is presented as a complete job description and cannot survive contact with that list. Worse, the framework chapter in ch10 offers a third account, one that keeps a damage role for the tradition but scopes it to the unholy, so two chapters now circulate incompatible definitions of divine magic. Voice and in-world consistency do not hold while the chapter's own thesis and its card list tell different stories. The minimal repair is a framing fix: widen the chapter opening so it names the cleansing-fire role beside heal, ward, and reveal, leaving the card text to the mechanics finding, and reserve the larger question of unscoped radiant damage for a later round. The larger rewrite of the Religion section is a condition, not a demand.",
+  "evidence": [
+    {
+      "source": "12-divine-spells",
+      "claim": "The chapter opening lists healing, protection, and revelation as the tradition's whole remit and expressly denies it direct attack magic, which sets an expectation the card list then breaks.",
+      "quote_or_excerpt": "It heals. It protects. It reveals."
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "The Religion section opens with a plain radiant damage line on its Novice cards and attaches no target restriction, so the tradition plainly does deal direct damage to any creature.",
+      "quote_or_excerpt": "6 radiant damage."
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Two more families carry harm of their own: the protection area ward burns the undead caught inside it, and the plant wall pierces anyone crossing it, so damage is not confined to the Religion block.",
+      "quote_or_excerpt": "undead inside take Burning 3 radiant damage"
+    },
+    {
+      "source": "10-magic-system.qmd",
+      "claim": "The framework chapter gives the divine tradition a three-part job that includes burning the unholy, a damage role the divine chapter's own opening leaves out, so canon and the audited chapter describe the tradition differently.",
+      "quote_or_excerpt": "burn what shouldn't exist, like undead and demons"
+    },
+    {
+      "source": "11-arcane-spells.qmd",
+      "claim": "The arcane sibling opens by naming its damage element as the tradition's first magic, so the paired chapter openings would only read as a matched set if the divine opening also owned the smiting its cards carry.",
+      "quote_or_excerpt": "Fire is the first magic"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Because the framework chapter already supplies the missing damage role and both sibling openings set reader expectation for their card lists, the repair belongs in the divine chapter's opening rather than in the cards themselves.",
+      "quote_or_excerpt": "framing repair belongs in the chapter opening"
+    }
+  ],
+  "confidence": 0.78,
+  "rebutting": []
+}

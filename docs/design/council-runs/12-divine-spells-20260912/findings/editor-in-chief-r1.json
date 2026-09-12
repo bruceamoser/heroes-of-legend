@@ -1,0 +1,37 @@
+{
+  "id": "f-013",
+  "round": 1,
+  "role": "editor-in-chief",
+  "topic": "glossary-term-collision",
+  "stance": "refute",
+  "argument": "Chapter 12 names a divine cantrip 'Resistance', the same word the glossary and the quick-reference sheets reserve for the typed-damage rule that cuts incoming damage in half. The card's actual effect is a Boon on a Fortitude save, so one lookup word now points at two different rules, and the glossary, which promises to define each mechanical term in a single place, carries no entry for the card. A reader who consults the term will apply the halving rule to the cantrip and resolve the spell incorrectly, which is wrong information rather than a mere gap. The smallest fix is to rename the card (for example, a name that names the save it boosts) or to add a disambiguating glossary line and a see-also pointer on the card.",
+  "evidence": [
+    {
+      "source": "21-glossary.qmd",
+      "claim": "The glossary already fixes Resistance as the typed-damage halving rule.",
+      "quote_or_excerpt": "*Resistance:* Halves damage of a specific type, round down."
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "The reference sheet repeats the same damage-halving meaning, so the term is already claimed.",
+      "quote_or_excerpt": "*Resistance* halves damage (round down)."
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "The chapter's divine cantrip of that name instead grants a saving-throw Boon, an unrelated effect.",
+      "quote_or_excerpt": "Boon on the target's next Fortitude check within 1 minute."
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "The cantrip is titled Resistance and its keyword field is empty, so nothing on the card signals the other meaning.",
+      "quote_or_excerpt": "=== Resistance (Cantrip)"
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "The bestiary already overloads the same word with a third sense, magnifying the collision.",
+      "quote_or_excerpt": "*Magic Resistance:* Boon on checks vs spells."
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": "f-002",
+  "round": 1,
+  "role": "game-architect",
+  "topic": "damage-budget-adept-base-row",
+  "stance": "refute",
+  "argument": "Chapter 12 presents two contradictory formats for its two-Discipline cards. Tide of Life, Soulmend, and Briar Wall each open their Weak/Standard/Strong block at 2/4/6, the Novice row, even though a card at the Adept tier must begin at 6/9/12. In each case the card's own Adept line then restates 6/9/12, so the opening rung sits a full row under budget and the Adept rung deepens nothing. The chapter contradicts itself: Restoration and Flesh Renewal, same two-rank Life prerequisite and same tier, correctly open at 6/9/12, as does every arcane card at that tier. Broken value 2/4/6; required value 6/9/12.",
+  "evidence": [
+    {
+      "source": "12-divine-spells",
+      "claim": "Tide of Life carries a two-rank Life prerequisite, an Adept gate, yet its opening block heals only 2/4/6 to each ally, and its Adept line jumps to 6/9/12.",
+      "quote_or_excerpt": "Restore 2 HP to each ally in range"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Soulmend shares that two-rank Life prerequisite and likewise opens at 2/4/6 HP restored, one full row beneath what the Adept tier requires.",
+      "quote_or_excerpt": "Weak: Restore 2 HP"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Briar Wall needs two Plants ranks, an Adept card again, but its opening block deals only 2/4/6 piercing; the Adept line then supplies the 6/9/12 the base should have carried.",
+      "quote_or_excerpt": "Creatures passing through take 2 piercing damage"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "The same prerequisite and tier appear on Restoration and Flesh Renewal, which open at 6/9/12, so the chapter disagrees with itself about the Adept opening row.",
+      "quote_or_excerpt": "Weak: Restore 6 HP"
+    },
+    {
+      "source": "11-arcane-spells.qmd",
+      "claim": "The arcane sibling prints the Adept row, 6/9/12, in the opening block of its two-Discipline cards such as Brimstone Burst, so the divine chapter's 2/4/6 openings break the shared card format.",
+      "quote_or_excerpt": "6 fire damage to all in the radius"
+    },
+    {
+      "source": "10-magic-system.qmd",
+      "claim": "The framework fixes the starting effect row by purchase tier, stating that a card taken at the Adept tier opens at 6/9/12 and that this row governs however the card is shaped.",
+      "quote_or_excerpt": "A card bought at Adept tier starts at 6/9/12"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Expected opening 6/9/12 against the printed 2/4/6 on those three Adept cards; the shortfall is one complete damage row per card.",
+      "quote_or_excerpt": "6/9/12 vs 2/4/6"
+    }
+  ],
+  "confidence": 0.82,
+  "rebutting": []
+}

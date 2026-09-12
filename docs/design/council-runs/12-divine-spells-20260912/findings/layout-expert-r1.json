@@ -1,0 +1,32 @@
+{
+  "id": "f-301",
+  "round": 1,
+  "role": "layout-expert",
+  "topic": "spell-card-page-integrity",
+  "stance": "refute",
+  "argument": "Chapter 12 is not page-safe as a table reference: its 23 cards render as loose runs of lines, and not one page boundary in the card run respects a card. In the built book (364 pp, build stamped 2026-09-12 19:19) the cards occupy pages 181 to 187, and all six interior boundaries cut one. A card's Weak entry is the last thing on p181 while the remainder of that card opens p182; three pages finish with an isolated card title whose stat line appears only overleaf (Tide of Life on p182, Sanctuary on p183, Righteous Blow on p184); and the chapter's final card is sliced so that only its two top rungs land on p187, leaving that page roughly nine-tenths empty. The cause is structural rather than incidental: the level-3 title rule in the theme buys space above and below the title but no keep-with-next, the card body carries no grouping construct in the source, and a sweep of the extension files finds no sticky or keep directive anywhere, so a title can sit alone at a page foot and a single card can straddle a turn. The fault stays invisible because the repo's orphan-heading metric harvests its heading list with a markdown-style regex; after the native-Typst migration every section and card title is written with equals signs, so the metric collects 24 of 467 titles and certifies zero stranding book-wide where the render shows fifteen, three of them here. A related symptom of the same root, that a card is never treated as a structured unit, is visible in the grammar: one entry renders with no rung label at all (p185), an unattributable row for a GM reading the card at the table. Fix: make each card atomic with a sticky keep-with-next that still allows a split when a single unit exceeds a full page (never an unbreakable wrapper, which is the known clipping trap), and widen the metric's harvest to Typst titles so a clean rebuild can prove the fix. Note for the record: this chapter contains no tables, figures or callouts, so the earlier table-clipping class does not bite here; the theme's only remaining unbreakable wrapper is the callout body, and this chapter does not use one.",
+  "evidence": [
+    {
+      "source": "reasoning",
+      "claim": "The built PDF places the chapter's card run on pages 181 to 187 and cuts a card at every interior page boundary: p181 ends inside a card, p186 ends inside the final card whose two remaining rungs then occupy p187 alone, and pages 182, 183 and 184 each finish with a card title stranded above its own stat line.",
+      "quote_or_excerpt": "\u2767 Righteous Blow (Divine Spell)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The book's own stranded-heading metric cannot see any of this, because it builds its heading list from markdown hash-prefixed lines: after the native-Typst migration it matches only the 24 top-level chapter titles out of 467 headings, so the equals-prefixed card and section titles are never tested and the tool reports a clean count.",
+      "quote_or_excerpt": "0 heading(s) sit last on a page"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Every card in the chapter is a bare sequence of plain lines inside the chapter's single Typst fence: a title, one stat line, then five labelled rungs, with no wrapper that binds them into a unit the page breaker would have to keep whole.",
+      "quote_or_excerpt": "*Disciplines:* 2 Plants \u00b7 *Action:* Action"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "One card's third rung is followed by a sentence with no label of its own, so the rendered page (185) shows a clause sitting between the Strong and Adept lines that a reader cannot attribute to any rung.",
+      "quote_or_excerpt": "Allies in the light regain 3 HP."
+    }
+  ],
+  "confidence": 0.85,
+  "rebutting": []
+}

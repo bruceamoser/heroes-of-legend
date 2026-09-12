@@ -1,0 +1,62 @@
+{
+  "id": "f-001",
+  "round": 1,
+  "role": "researcher",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Chapter 12 breaks two locked laws, and the evidence sits inside the chapter itself. The headline breach is the unsanctioned damage booster: three Religion cards bolt a static bonus onto their Strong line and scale it at the higher tiers, producing figures (3, 6, 9) that live on no budget row. The permitted shape for a conditional damage boost is a row shift of one step, and the chapter proves it knows the alternatives: its own Pillar of Light expresses the identical anti-undead effect as a multiplier, while the consecrated-water entry in ch17 and the metal-armor clause in the arcane mirror both use the tier bump. Fix scope is mechanical, one rider per card, replacing each static figure with a one-row escalation. The second breach is a tier/row mismatch: two Life cards priced at a two-rank prerequisite print the one-rank band, so their base numbers are a full row under the 6/9/12 their own Adept lines repeat, and a same-cost sibling card prints 6/9/12. Expected repair is mechanical too, re-row those cards or correct their prerequisite. A residual card-grammar defect is editorial: Pillar of Light carries an effect sentence with no rung label between its Strong and Adept lines, so no tier owns it, and the Adept line only adds a Boon, which would leave the sentence dropped at the higher rung. The em-dash and cross-reference conventions hold, so the defects do not touch the book-wide typography sweep.",
+  "evidence": [
+    {
+      "source": "12-divine-spells",
+      "claim": "Holy Strike's Strong outcome appends a fixed three points of damage against undead; the sanctioned conditional boost is a single row shift, so this line should read as a tier bump instead of a static add.",
+      "quote_or_excerpt": "6 radiant damage; undead take +3."
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Divine Judgment repeats the static rider on its Strong line against undead and fiends, and Radiant Beam prints the same figure again at line 276; none of 3, 6, or 9 appears on the budget rows 2/4/6, 6/9/12 or 9/15/21.",
+      "quote_or_excerpt": "12 radiant damage; undead and fiends take +3."
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Holy Strike then escalates the static rider to six points at Adept and nine at Master, so the off-row figures climb with tier; the expected treatment is one row of escalation or a multiplier, not an uncapped fixed number.",
+      "quote_or_excerpt": "6/9/12 radiant damage; undead take +6."
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Pillar of Light's Master line handles the same anti-undead bonus as a multiplier rather than a fixed add, so the chapter demonstrates both treatments for one effect and they cannot both be correct.",
+      "quote_or_excerpt": "undead and fiends take double damage from the pillar."
+    },
+    {
+      "source": "17-magic-items.qmd",
+      "claim": "The book's own consecrated-water entry words the identical undead bonus as a one-row bump, the sanctioned phrasing the divine damage cards should have adopted.",
+      "quote_or_excerpt": "Undead take +1 damage tier."
+    },
+    {
+      "source": "11-arcane-spells.qmd",
+      "claim": "The sibling arcane chapter expresses its conditional damage bonus as a tier bump rather than a flat number, which is the mirror the divine damage cards are meant to follow.",
+      "quote_or_excerpt": "3 lightning damage; +1 damage tier against metal armor."
+    },
+    {
+      "source": "05-classes.qmd",
+      "claim": "The class chapter names the row shift as the book's damage-boost convention through the Overchannel ability, confirming that static adders are not a permitted booster shape.",
+      "quote_or_excerpt": "The spell deals +1 damage tier"
+    },
+    {
+      "source": "10-magic-system.qmd",
+      "claim": "The magic framework chapter ties the printed row to the card's tier, stating that a card bought at Adept tier begins on the 6/9/12 row; that is the rule the two under-row Life cards break.",
+      "quote_or_excerpt": "The row is the law, no matter how the card is shaped."
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Tide of Life requires a two-rank Life prerequisite yet prints the one-rank band on its base block, so its numbers sit a full row below the 6/9/12 its Adept line repeats; Restoration at the same two-rank cost prints 6/9/12, and Soulmend repeats the under-row pattern at line 140.",
+      "quote_or_excerpt": "Restore 2 HP to each ally in range."
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Pillar of Light carries an effect sentence with no rung label between its Strong and Adept lines, so no tier owns it; if it belongs to Strong it is then absent from Adept, which only adds a Boon.",
+      "quote_or_excerpt": "Allies in the light regain 3 HP."
+    }
+  ],
+  "confidence": 0.88,
+  "rebutting": []
+}

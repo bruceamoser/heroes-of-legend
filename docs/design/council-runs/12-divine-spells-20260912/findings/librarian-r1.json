@@ -1,0 +1,57 @@
+{
+  "id": "f-121",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Proposition refuted: this chapter is not ready to stand as the canon source of record for divine spells. Four defect clusters block it. (1) The escalation law is broken across roughly half the cards, because a higher rung quietly sheds something the rung beneath it granted: Mending Touch keeps the heal but loses the Bane removal, Restoration loses the condition removal, Sacred Barrier abandons the missile block and the push, Sanctuary loses untargetability, and Beast Tongue loses both the scene-length duration and the Boon. (2) Three cards that demand two Discipline ranks print the one-rank healing row while same-tier siblings print the two-rank row, so the chapter contradicts both itself and the canon table. (3) Five effects bolt flat damage bonuses onto creature types, a shape no other chapter in the manuscript uses and one the balance rework forbids. (4) The damage triad is pasted into turn counts, yielding top rungs that banish, rout, or curse a target for twenty-one turns. The chapter does pass the em-dash rule, I found no card-name collision with the arcane list, and every condition and Boon or Bane term it uses resolves against canon; the four clusters above are the blockers. As librarian I record this as a ranked inventory for the deliberation rather than a repair list.",
+  "evidence": [
+    {
+      "source": "12-divine-spells",
+      "claim": "Mending Touch grants removal of a Bane on its third rung, yet the Adept entry lists only a larger heal and silently drops that removal, which the escalation law forbids.",
+      "quote_or_excerpt": "Strong: Restore 6 HP and remove one Bane"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Restoration ends a condition at its third rung and ends all conditions at Master, but its Adept entry keeps the bigger heal alone, so the middle rung is narrower than the rung below it.",
+      "quote_or_excerpt": "Strong: Restore 12 HP and end one condition"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Sacred Barrier blocks missiles and pushes at its base rungs, then its Adept and Master entries deal damage to passers instead and the block itself vanishes, a second subtraction pattern.",
+      "quote_or_excerpt": "Missile attacks are blocked for 3 rounds"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Tide of Life, Soulmend, and Briar Wall each require two Discipline ranks yet print the one-rank 2/4/6 row, while Restoration, Divine Judgment, Pillar of Light, and Hallowed Ground print the two-rank 6/9/12 row at the same requirement and Flesh Renewal matches that row in per-round totals.",
+      "quote_or_excerpt": "Restore 2 HP to each ally in range"
+    },
+    {
+      "source": "08-disciplines.qmd",
+      "claim": "The canonical budget table binds the two-Discipline tier to the 6/9/12 row, which makes the three under-row cards above offenders rather than a rival reading.",
+      "quote_or_excerpt": "[*Adept*], [2 Disciplines], [6/9/12],"
+    },
+    {
+      "source": "11-arcane-spells.qmd",
+      "claim": "The arcane sibling prints the two-rank row on a two-Discipline area attack, so no area-effect discount exists in canon to excuse the divine under-row trio.",
+      "quote_or_excerpt": "*Disciplines:* 2 Fire"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Five effect lines attach flat damage bonuses tied to creature type on Holy Strike, Divine Judgment, and Radiant Beam; source-scanning the rest of the manuscript shows this +N-against-a-type shape occurs nowhere else, and the sanctioned version of the same idea appears in the magic-items chapter as a damage-tier bump.",
+      "quote_or_excerpt": "undead take +3"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Sanctuary, Turn Unholy, and Banish express duration with the damage triad, so their upper rungs run to twenty-one turns of banishment, rout, or imposed Bane, which the damage table was never meant to measure.",
+      "quote_or_excerpt": "sent away for 9/15/21 turns"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Because ch10 teaches the same card grammar the chapter is audited against and the arcane sibling shares its template, the escalation and rider defects look template-level rather than one-card typos, so a chapter-local fix would leave the mirror diverging.",
+      "quote_or_excerpt": "template-level defect, not a single-card typo"
+    }
+  ],
+  "confidence": 0.82,
+  "rebutting": []
+}

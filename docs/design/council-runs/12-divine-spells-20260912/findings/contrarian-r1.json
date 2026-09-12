@@ -1,0 +1,42 @@
+{
+  "id": "f-901",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Tested the implicit support position that this chapter conforms to its locked damage rules, and it breaks on the ban against fixed additive damage bonuses. Three Religion cards bolt a bare number onto a damage entry instead of escalating the way the rules permit: Holy Strike does it at all three rungs, Divine Judgment and Radiant Beam each do it on their Strong rung. On Holy Strike's top rung the additive stacks onto the maximum row, so the effective number there runs past the ceiling the book itself sets for an escalated row. The arcane mirror never does this; it names the permitted escalation wording and nothing else, so this is a local deviation rather than house style. A support vote of conformance cannot stand while five damage entries across three cards carry an unsanctioned flat bonus, one of which breaches the declared cap.",
+  "evidence": [
+    {
+      "source": "12-divine-spells",
+      "claim": "Holy Strike's Strong rung attaches a fixed bonus against undead on top of its row damage, which is precisely the flat additive the book-wide rule forbids on any card.",
+      "quote_or_excerpt": "6 radiant damage; undead take +3"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "The same card's Master rung multiplies the problem: the top row plus a further fixed bonus against undead pushes the effective total above the 21 ceiling the book treats as the maximum an escalated row may reach.",
+      "quote_or_excerpt": "9/15/21 radiant damage; undead take +9"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Divine Judgment repeats the construction on its Strong rung, hanging a fixed bonus against two creature types off a 12 damage entry.",
+      "quote_or_excerpt": "12 radiant damage; undead and fiends take +3"
+    },
+    {
+      "source": "12-divine-spells",
+      "claim": "Radiant Beam carries the identical fixed additive against undead on its Strong rung, making three separate cards with the same violation.",
+      "quote_or_excerpt": "6 radiant damage; undead take +3"
+    },
+    {
+      "source": "11-arcane-spells.qmd",
+      "claim": "The arcane mirror chapter, checked as the comparator, expresses its one damage escalation using the sanctioned wording and never attaches a bare additive number to a damage entry.",
+      "quote_or_excerpt": "+1 damage tier against metal armor"
+    },
+    {
+      "source": "09-talents-abilities.qmd",
+      "claim": "The talents chapter states the same sanctioned escalation wording and treats 21 as the ceiling a bumped row cannot pass, which the stacked bonus on Holy Strike's Master rung exceeds.",
+      "quote_or_excerpt": "one row up on the damage budget, maximum 21"
+    }
+  ],
+  "confidence": 0.85,
+  "rebutting": []
+}
