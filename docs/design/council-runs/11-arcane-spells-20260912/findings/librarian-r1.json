@@ -1,0 +1,77 @@
+{
+  "id": "f-001",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Refute. Chapter 11 is not publishable as written, but every defect is local card-grammar work: four blocking patches, four copyedit sweeps, and one question that belongs to the designer rather than to this file. Nothing here forces an outline change or a rebuild of the spell list.\n\nTIER 1, BLOCKING (patch before publish).\n\n(1) Silver Tongue skips a rung. [11-arcane-spells:399] The card runs Weak, Standard, Strong and then jumps straight to its Master line; the Adept line is missing, so the 4 DP purchase has no text of its own and the chain has no middle step for the Master line to build on. Every other growing spell in the chapter prints both rungs, for example Daze (11:410), Phantasmal Image (11:423) and Fade (11:436). Violated convention: the spell-card grammar (the field line, the three outcomes, then the higher-tier additions; ch19:546) read together with the superset rule. The same line compounds it, because the Master result swaps the Strong result's lingering Bane for a Boon instead of adding to it, which is precisely the overwrite the superset rule forbids. Minimal fix: insert an Adept line between 11:397 and 11:399 that extends the Novice effects (longer duration, or a second target), then reword the Master line so it keeps the Bane and gains the Boon.\n\n(2) Glacial Prison's Master line overwrites a lower-tier effect. [11-arcane-spells:212] Broken value: the Master result drops Restrained and substitutes Frozen 2. Expected value: Restrained survives and Frozen 2 is layered on top, the additive shape the chapter already uses at 11:186 and 11:199. Violated convention: a higher rung may add but must never remove or overwrite. Minimal fix: turn 'instead of' into 'and' so the clause reads as an addition.\n\n(3) Acid Splash's Strong line prints an off-row total. [11-arcane-spells:110] Broken value: the base acid damage plus the cling damage comes to 5 + 5 = 10, and no budget row holds 10; 10 is also absent from the 1/3/5 scale the chapter's damaging cantrips use, so the printed effect sits on no row at all. Expected value: a single total that lands on a row, such as a cling gated on the Weak result where base and rider together form a scale value. Violated convention: a rider layered on a damaging hit has to land on a row (or be gated on Weak so the two numbers sum to a row), and all numbers printed for one effect have to add up to that effect's row. Minimal fix: gate the cling on the Weak result, or fold the two numbers into a single printed value.\n\n(4) Static Shock's Standard line carries an unsanctioned flat number. [11-arcane-spells:99] Broken value: a bonus of +1 against metal armor. Read as damage it is a flat +N rider, which the book bans outright because the only sanctioned damage booster is the tier bump; read as a bonus to a check it is a numeric roll modifier, which the Boon/Bane law bans. Expected value: the sanctioned conditional phrasing, one damage tier higher, which canon already uses for a situational boost (ch20:176), or a Bane-based clause. Violated conventions: no flat +N damage riders, and no numeric roll modifiers. Minimal fix: reword the rider.\n\nTIER 2, COPYEDIT (batch in one pass, no design input needed).\n\n(5) Wind Wall prints the same sentence for Weak and Standard [11-arcane-spells:328, 330], so a Standard result changes nothing. Its sibling wall in ch12 escalates across all three bands (ch12:198-200). Minimal fix: give Standard a step up over Weak.\n\n(6) Caustic Mist puts a qualifier in its keyword field [11-arcane-spells:267]; keyword fields hold plain tags and the card text already carries the qualifier at 11:271 and 11:273 (compare the plain Bane tag at 11:326). Minimal fix: the tag alone.\n\n(7) The section caption at [11-arcane-spells:320] ends with a comma where the opening caption at 11:8 does not. Minimal fix: drop the comma.\n\n(8) Unseen Hand presses a named shared effect into a different meaning [11-arcane-spells:379-388]: it lists weights, while Lift X is defined in feet on a held target (ch13:172). Minimal fix: use plain wording for the weight values and keep the named effect only where the card holds a creature.\n\nTIER 3, ROUTE TO THE COUNCIL (does not block this chapter).\n\n(9) The three damaging cantrips print 1/3/5 (11:52, 11:97, 11:106), a scale beneath the Novice row that no chapter names; cantrips carry no tier, no Discipline and no cost, so there is no row to key them to. I am not filing this as a chapter defect: the three cards agree with each other, and keying free, at-will cantrips to the Novice row would make them strictly better than paid Novice attack spells. If the council wants the cantrip floor locked, it belongs in the budget table in ch08, not in this file.\n\nDISPOSITION PLAN. Patch items 1 to 4 (mechanical, in-place rewording, no number needs redesign, and no other chapter depends on the broken text). Sweep items 5 to 8 with the copyedit pass. Log item 9 with the designer for the budget table. Once items 1 to 4 land, the chapter is publishable: its 40 cards recompute against the spine, every mirror agrees, and no other card breaks a locked convention.\n\nVERIFIED CLEAN, with the check I ran.\n- Inventory: I counted 40 cards, 10 cantrips and 30 growing spells, matching the intro's own count (11:19); no duplicate names; the chapter names no other card, so there is no phantom-card risk in this file.\n- Tier against Discipline count: the 15 one-rank cards key to the Novice row or to a non-damage effect, and the 15 two-rank cards key to the Adept row or to a non-damage effect; no card asks for three ranks, so the rank 3 ceiling holds.\n- Tiers against rows: I walked all 30 spells; every Adept line prints the Adept row and every Master line prints the Master row, and no damage dice appear anywhere in the file.\n- Cost and gates: no card prints a DP price, so the flat rates and the level gates (ch08:144-146, ch10:46-48) cannot be misprinted here.\n- Sanctioned shapes recompute: multi-projectile division (three lances at 11:165-169, three arcs at 11:230-234, two and three darts at 11:347-349), area chains at per-target row value (11:243-249, 11:269-273, 11:295-299), and the two-target pass-through whose rear target takes a lower row value (11:128-130).\n- Cross-chapter mirrors: Brimstone Burst (Adept row, and the Master row with Burning 4) matches ch10:75, the ch10 worked example at ch10:135, the ch19 card-format example at ch19:569-573 and the Archmage entry at ch20:146; Ember Lance (Novice row, and the Master row with Piercing 3 and Burning 2) matches ch10:74, ch10:76, ch08:263 and ch20:144; Force Dart's one-Energy Novice key matches ch08:123.\n- Conditions: every condition in the chapter is either in the ch13 table or on the binary list (ch13:192-213). The phrase 'loses its Maneuver' is the book's established action-economy idiom (ch09:385, ch09:425), not a bespoke condition, so I did not re-flag it.\n- Damage types: fire, cold, lightning, acid, poison, force, necrotic and bludgeoning are all types ch13 names (ch13:150-152), the Mind and Plants keys are now named for the arcane tradition (ch10:101), and the half-damage chains and arcs match the resistance rule (ch13:154).\n- Style and structure: zero em-dashes; both cross-references resolve (@sec-damage-budget at ch08:219 and @sec-chapter-magic-system at ch10) and neither is followed by a typed stop; one typst fence (opens at 11:3, closes at 11:517) under the H1 at 11:1; no table or callout block exists for the outlined:false and body:[...] rules to bite on.\n- Not re-flagged, with reason: the target-check riders (Agility or Dodge rank resists; Fortitude check or ...) are the book-wide idiom shared with the ch12 sibling (ch12:160, ch12:286) and with the bestiary. ch13:160 reads the one-roll law strictly, so a ruling on target checks is a book-level decision rather than a chapter 11 fix; I flag it for the council instead of filing it as a chapter defect.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells:399",
+      "claim": "Silver Tongue's highest line has no Adept tier beneath it, so the middle rung of the card's chain is missing.",
+      "quote_or_excerpt": "*Master:* The target is friendly and you gain Boon"
+    },
+    {
+      "source": "19-gm-guidance.qmd:546",
+      "claim": "Canon's card format places the higher-tier additions after the three outcome lines, which is the rung Silver Tongue lacks.",
+      "quote_or_excerpt": "then *Weak:*, *Standard:*, *Strong:* outcomes"
+    },
+    {
+      "source": "11-arcane-spells:212",
+      "claim": "Glacial Prison's top line removes Restrained and substitutes Frozen 2, the chapter's only explicit overwrite.",
+      "quote_or_excerpt": "*Master:* 9/15/21 cold damage; Frozen 2 instead of Restrained."
+    },
+    {
+      "source": "11-arcane-spells:186",
+      "claim": "The chapter's other Frozen entries layer the condition on without dropping the lower result, so an additive form already exists in file.",
+      "quote_or_excerpt": "*Master:* 9/15/21 cold damage; Frozen 2 on Strong."
+    },
+    {
+      "source": "11-arcane-spells:110",
+      "claim": "Acid Splash prints a base hit plus a delayed hit of the same size, a combined total of ten.",
+      "quote_or_excerpt": "5 acid damage. The acid clings, target takes 5"
+    },
+    {
+      "source": "08-disciplines.qmd:230",
+      "claim": "The budget spine's highest row is the only place a large total can land, and ten is not on any of the three rows.",
+      "quote_or_excerpt": "[*Master*], [3 Disciplines], [9/15/21],"
+    },
+    {
+      "source": "11-arcane-spells:99",
+      "claim": "Static Shock adds a flat plus one against metal armor, which is outside every sanctioned numeric form.",
+      "quote_or_excerpt": "3 lightning damage. +1 vs. metal armor."
+    },
+    {
+      "source": "20-bestiary.qmd:176",
+      "claim": "Canon writes a conditional damage boost as a tier bump, the form Static Shock should borrow instead of a flat number.",
+      "quote_or_excerpt": "+1 damage tier when an ally is adjacent"
+    },
+    {
+      "source": "11-arcane-spells:330",
+      "claim": "Wind Wall repeats one sentence across its first two outcomes, so the middle success band changes nothing.",
+      "quote_or_excerpt": "Missile attacks through the wall have Bane."
+    },
+    {
+      "source": "11-arcane-spells:267",
+      "claim": "Caustic Mist's keyword field carries a qualifier that the card's own effect text already states.",
+      "quote_or_excerpt": "*Keywords:* Bane on sight"
+    },
+    {
+      "source": "13-combat.qmd:172",
+      "claim": "Lift X is a named shared effect measured in feet on a held target, a meaning Unseen Hand reuses for weights.",
+      "quote_or_excerpt": "Raise the target X feet into the air"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Counts and sums I re-derived: forty cards total, ten cantrips and thirty spells; one-rank cards key the 2/4/6 row and two-rank cards the 6/9/12 row; Adept lines 6/9/12 and Master lines 9/15/21 walked line by line; Acid Splash sums 5 + 5 = 10, which no row holds.",
+      "quote_or_excerpt": "40 cards; 5 + 5 = 10 on no row"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Plan arithmetic: four blocking patches, four copyedit sweeps, one routed question; every other row, tier, Discipline count and mirror recomputes.",
+      "quote_or_excerpt": "4 patches, 4 sweeps, 1 routed question"
+    }
+  ],
+  "confidence": 0.78,
+  "rebutting": []
+}

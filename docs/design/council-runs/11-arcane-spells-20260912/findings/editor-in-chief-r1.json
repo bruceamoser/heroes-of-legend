@@ -1,0 +1,47 @@
+{
+ "id": "f-006",
+ "round": 1,
+ "role": "editor-in-chief",
+ "topic": "t-01",
+ "stance": "refute",
+ "argument": "Chapter 11 is near-publishable but not clean as written. Its own inventory checks out (ten cantrip cards plus thirty growing spells, forty total) and both outbound links land on real canon labels, but the card run has one unambiguous grammar hole and two smaller factual gaps. First, Silver Tongue skips a rung: its Strong text is followed straight by the Master entry, with no Adept line between them, while the chapter opener promises every growing card deepens at Adept and Master and the other twenty-nine spells all print that step; the reader buying the card to Adept rank finds nothing to buy. Second, Wind Wall's Standard row reproduces its Weak row word for word, so the middle rung escalates nothing at all. Third, Acid Splash leans on 'hardness' as if it were a known rule, and that word occurs exactly once in the entire book and is defined in no chapter, glossary entry or combat table. A fourth, softest issue is navigation and sibling parity: the divine chapter splits its spell list into labelled Discipline sections, while this chapter puts all thirty cards under a single flat heading, and its Discipline blocks are not even contiguous (Energy cards sit at 338-377 and again at 453-516; Wind at 214-240 then 305 and 325; the Earth group is interrupted by a Plants card at 279), so a reader cannot scan one Discipline's spells together and a future editor cannot see where to append. Minimal fixes: insert a single Adept line into Silver Tongue between 397 and 399; give Wind Wall a Standard effect that differs from its Weak; swap 'hardness' for the book's DR vocabulary (or define it in ch13/ch21); and regroup the thirty cards under Discipline headings matching the divine chapter's pattern. Verified clean and not flagging: the count claim at 19 holds; @sec-damage-budget resolves to the label at ch08:219 and @sec-chapter-magic-system to the label at ch10:4; neither outbound reference carries a typed trailing stop; zero em-dashes; a single {=typst} fence; the figure numbers 13.1 and 13.2 match the book's chapter offset (ch10 prints 12.1, ch12 prints 14.1); every Discipline used (Fire, Water, Wind, Earth, Plants, Energy, Mind) is in the ch08 taxonomy and matches the arcane list at ch10:101; and every mirrored number agrees with its home card (ch08:123 Force Dart 1 Energy; ch10:74-76 Ember Lance and Brimstone Burst rows; ch19:567-573 Brimstone Burst worked card; ch20:144-146 bestiary damage).",
+ "evidence": [
+  {
+   "source": "11-arcane-spells",
+   "claim": "Silver Tongue, declared at line 390 and the only one of the thirty growing spells to do so, moves from its Strong text at 397 to a Master entry at 399 with no Adept line between them; the expected value is a ninth field filling that slot, as the other twenty-nine spells and the promise at line 19 require.",
+   "quote_or_excerpt": "The target has Bane against your social checks and is friendly"
+  },
+  {
+   "source": "11-arcane-spells",
+   "claim": "Wind Wall prints the same sentence on its Weak row at 328 and its Standard row at 330, so the Standard tier adds nothing over Weak; every other card in the chapter escalates its middle row or changes the effect.",
+   "quote_or_excerpt": "Missile attacks through the wall have Bane."
+  },
+  {
+   "source": "11-arcane-spells",
+   "claim": "Acid Splash at line 108 relies on 'hardness' as a mechanic, but a search of every chapter file in quarto-book returns that word only at this one line, so the term is used once and defined nowhere; the fix is to phrase the object interaction in the book's DR language or add a definition.",
+   "quote_or_excerpt": "Ignores 1 hardness against objects."
+  },
+  {
+   "source": "12-divine-spells.qmd",
+   "claim": "The sibling divine chapter publishes one labelled section per Discipline group (lines 76, 150, 208, 310, 326), while chapter 11 has only two section headings (25 and 121) and drops all thirty spells under the single arcane label, so the two chapters' navigation structure is asymmetric.",
+   "quote_or_excerpt": "== Life Spells"
+  },
+  {
+   "source": "11-arcane-spells",
+   "claim": "Discipline blocks in the spell run are non-contiguous: Energy cards appear at 338-377 and then again at 453-516 after a block of Mind cards, Wind appears at 214-240 and again at 305 and 325, and the Earth group is split by the Plants card at 279, so no single Discipline's cards can be read together.",
+   "quote_or_excerpt": "=== Eldritch Sight (Arcane Spell)"
+  },
+  {
+   "source": "11-arcane-spells",
+   "claim": "Verified clean: the opener's inventory of ten cantrips and thirty spells matches the file's forty cards, and both outbound references point at labels that exist in canon.",
+   "quote_or_excerpt": "ten cantrips you know from the start, and thirty spells"
+  },
+  {
+   "source": "reasoning",
+   "claim": "My editorial judgement: the first item alone blocks publication because a buyer of that card hits an empty tier, the second and third are small but factual, and the ordering and sibling asymmetry are navigation quality issues rather than broken rules.",
+   "quote_or_excerpt": "one unmissable grammar hole, two factual gaps, one navigation weakness"
+  }
+ ],
+ "confidence": 0.73,
+ "rebutting": []
+}

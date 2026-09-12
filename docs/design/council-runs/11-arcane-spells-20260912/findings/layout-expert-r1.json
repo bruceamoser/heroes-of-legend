@@ -1,0 +1,82 @@
+{
+  "id": "f-007",
+  "round": 1,
+  "role": "layout-expert",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Chapter 11 does not clear the publishable bar, but it fails in two page-level ways only, so the disposition is a short tier-one patch list rather than a rewrite. I inspected the built PDF pages 166-178: the chapter opener on 166, the ten cantrips on 168-170, and all thirty growing cards on 170-178. TIER 1. (a) Silver Tongue is short its Adept row. The source card at [11-arcane-spells:390] runs Strong straight into Master, and a count across the file gives twenty-nine Adept lines against thirty Master lines over forty cards, so exactly one growing card is missing a tier; page 176 shows that card printing four tier rows where every neighbour prints five. A paid tier with no entry is lost content, and it also breaks the uniformity a card-based reference sheet lives on. (b) Three cards are severed by the page turn: the Burning Volley title is the last line of page 170 with its stat block over the leaf on 171, Storm Javelin repeats the pattern at 171 into 172, and Caustic Mist at 172 into 173. A GM flipping to that spell meets a bare title and no numbers. The divine mirror behaves the same way at page 183, so the cure belongs in the shared card style: make each card an unbreakable block, so a card that will not fit moves whole to the next page instead of losing its head. TIER 2. The lone 'Arcane Spells' section heading carries all thirty cards across nine pages with no discipline landmarks, while the divine companion splits its comparable list under six category headings; and page 174 holds only the section figure and its caption, dropping a near-blank page into the middle of the run because the forced break after the figure sends the next card to 175. TIER 3. The second figure caption prints a trailing comma the first does not [11-arcane-spells:320], and five cards begin their Range value in lower case [11-arcane-spells:365, 428, 454, 467, 506]. Checked and sound: heading levels step chapter, section, card with nothing skipped; all forty stat lines keep the same four fields in the same order with the same separator; the ten cantrips correctly stop at Strong; both outbound cross-references resolve with a single trailing stop; the text layer of 166-178 carries no em-dash outside the chapter ornament and the folio rule; the tier labels render bold in the same face the sibling chapter uses; and with no tables or callouts nothing can overflow. Ship order: author the missing tier row, then add the keep-together card block, then the category headings and figure placement, then the two typographic nits.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "The Silver Tongue card at line 390 carries no Adept row: its tier run is Weak, Standard, Strong, Master. Counting the file gives 29 Adept lines against 30 Master lines over the 40 cards, which pins the single gap to this card.",
+      "quote_or_excerpt": "*Strong:* The target has Bane against your social checks"
+    },
+    {
+      "source": "Heroes-of-Legend.pdf",
+      "claim": "On page 176 the Silver Tongue card prints Weak, Standard, Strong then Master with nothing between, while the card directly above it (Daze) prints all five tier rows, so the omission is visible in the built page.",
+      "quote_or_excerpt": "Master: The target is friendly and you gain Boon on social checks"
+    },
+    {
+      "source": "Heroes-of-Legend.pdf",
+      "claim": "Page 170 ends with the Burning Volley card heading as its final line and page 171 opens with that same card's stat block, so the heading is stranded at the page foot and the card is cut by the turn.",
+      "quote_or_excerpt": "\u2752 Burning Volley (Arcane Spell)"
+    },
+    {
+      "source": "Heroes-of-Legend.pdf",
+      "claim": "The split repeats: page 171 ends with the Storm Javelin heading and page 172 begins with its stat block.",
+      "quote_or_excerpt": "\u2752 Storm Javelin (Arcane Spell)"
+    },
+    {
+      "source": "Heroes-of-Legend.pdf",
+      "claim": "And again: page 172 ends with the Caustic Mist heading and page 173 begins with its stat block. Three cards in the run lose their head to the page break.",
+      "quote_or_excerpt": "\u2752 Caustic Mist (Arcane Spell)"
+    },
+    {
+      "source": "Heroes-of-Legend.pdf",
+      "claim": "Page 183 shows the identical break in the divine chapter, where the Sanctuary heading is the last line and its body follows on 184, so the fault is shared style behaviour rather than something unique to this chapter's cards.",
+      "quote_or_excerpt": "\u2752 Sanctuary (Divine Spell)"
+    },
+    {
+      "source": "12-divine-spells.qmd",
+      "claim": "The sibling chapter separates its cards under six category section headings, which gives a reader landmarks that this chapter's single section heading does not; page 182 of the PDF confirms those headings print.",
+      "quote_or_excerpt": "== Protection Spells"
+    },
+    {
+      "source": "Heroes-of-Legend.pdf",
+      "claim": "Page 174 carries the section figure and its caption only, with no card text at all, so a near-blank page sits between the Gust card on 173 and the Wind Wall card on 175.",
+      "quote_or_excerpt": "Figure 13.2: Arcane Spells,"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The second figure caption at line 320 closes with a comma where the first caption at line 8 does not; the stray mark prints on page 174 as part of the caption.",
+      "quote_or_excerpt": "_Figure 13.2: Arcane Spells,_"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Five cards give their Range value in lower case, at lines 365, 428, 454, 467 and 506 ('self' four times, 'touch' once), while the other thirty-five use a capitalised word or a numeric distance; the difference is visible on PDF pages 175, 177 and 178.",
+      "quote_or_excerpt": "*Range:* self"
+    },
+    {
+      "source": "Heroes-of-Legend.pdf",
+      "claim": "Page 167 prints both outbound cross-references with a single trailing stop each, so the doubled-stop defect does not occur in this chapter's links.",
+      "quote_or_excerpt": "See Chapter 12. for how spellcasting works."
+    },
+    {
+      "source": "Heroes-of-Legend.pdf",
+      "claim": "The tier labels on page 168 render bold, and the same bold family carries them in the divine chapter, so the italic markers in the source are not a rendering fault in this chapter.",
+      "quote_or_excerpt": "Weak:"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Scanning the text layer of pages 166-178, the only dash glyphs are the chapter ornament and the folio rule around each page number; no body line carries one, matching the zero count in the source file.",
+      "quote_or_excerpt": "No body-text em-dash anywhere on pages 166-178."
+    },
+    {
+      "source": "reasoning",
+      "claim": "My disposition after the page inspection: two tier-one items (the missing Adept row; three cards severed by the page turn), two tier-two items (a flat list with no discipline landmarks; the near-blank figure page), and two tier-three nits (the stray caption comma; lower-case range values). Everything else I examined renders correctly, so this is a close-to-shippable chapter with a short patch list, not a broken one.",
+      "quote_or_excerpt": "Two tier-one items, two tier-two, two tier-three nits."
+    }
+  ],
+  "confidence": 0.85,
+  "rebutting": []
+}
