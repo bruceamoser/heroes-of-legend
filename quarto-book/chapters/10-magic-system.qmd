@@ -90,6 +90,8 @@ Cantrips are the spells you learn before you learn "real" spells. Minor magic. P
 
 Cantrips require *no Discipline prerequisites*, and they are free. Every caster knows the whole cantrip list for their tradition without spending a single DP on it. These are your at-will abilities, and each tradition has its own full list (see @sec-chapter-arcane-spells for arcane, @sec-chapter-divine-spells for divine). Small effects, infinite uses. When a cantrip's outcome actually matters, roll it like any other spell: 3d6 plus Knowledge or Reason and a relevant skill, then read the Weak, Standard, or Strong line.
 
+Cantrips sit outside the damage budget. The budget keys damage to tier, and a cantrip has no tier: no Discipline prerequisite, no DP cost, and no rank to buy up. A cantrip's damage line is 1/3/5, deliberately below the Novice row, because a free at-will effect should never hit as hard as a card you spent DP on. See @sec-damage-budget
+
 They won't win a fight. They'll start one, or end one creatively.
 
 #pagebreak()
