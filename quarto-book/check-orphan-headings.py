@@ -24,7 +24,10 @@ def headings() -> set:
     out = set()
     for p in (HERE / "chapters").glob("*.qmd"):
         for line in p.read_text(encoding="utf-8").split("\n"):
-            m = re.match(r"^(#{1,5})\s+(.+?)(\s*\{#.*\})?\s*$", line)
+            # Markdown ATX (#) OR native Typst (=) headings. The book migrated to native
+# Typst on 2026-09-09; without the ={1,5} branch this harvest saw 24 of 457
+# headings and reported "0 orphaned" while 15 were stranded.
+            m = re.match(r"^(#{1,5}|={1,5})\s+(.+?)(\s*\{#.*\})?\s*$", line)
             if m:
                 t = re.sub(r"[*_`\[\]]", "", m.group(2)).strip()
                 if t:
