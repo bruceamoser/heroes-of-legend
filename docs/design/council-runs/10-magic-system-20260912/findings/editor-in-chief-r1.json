@@ -1,0 +1,72 @@
+{
+  "id": "f-006",
+  "round": 1,
+  "role": "editor-in-chief",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Chapter 10 is not publishable as written: it is the magic framework, yet it hands readers no pointers and it makes two claims that contradict shipped canon. Broken: [10-magic-system:65] states that no Discipline substitution exists for any card, but the Odd's shipped Eccentric Spellcasting lets two chosen abilities skip Discipline prerequisites (level gates still bind), per [05-classes.qmd:287], [02-character-creation.qmd:301] and [21-glossary.qmd:81]; the convention forbids any blanket no-wildcard claim, so the minimal fix is to scope that sentence to class-signature exceptions and cite the Odd. Broken: [10-magic-system:29] promises there is no concentration roll, while [10-magic-system:115] orders a Fortitude check to keep an ongoing spell up; the expected state is one consistent rule, meaning line 29 should say no roll decides whether the spell fires and Limitations should own the single check. Incomplete: the raise/trade cost is absent, so a reader who bought a card at Novice (2 DP) cannot tell whether lifting it to Master costs the full 8 DP or only the 6 DP difference plus the newly required Discipline ranks; because card price is keyed flat to tier (ch08's cost table) and [10-magic-system:55] only says the new effect row applies, the chapter must state the upgrade delta and that new rank costs come with it. Incomplete: the concentration rule at [10-magic-system:115] gives no target number, no success tier and no rule for a second hit; add 'Standard or better on 3d6 + Fortitude' and repeat the check on each damaging hit. Incomplete: the chapter carries zero cross-reference tokens, and [10-magic-system:89] sends readers to 'its spell chapter' without naming ch11 or ch12, so nothing routes them from framework to actual cards; add @sec-chapter-arcane-spells and @sec-chapter-divine-spells, plus @sec-chapter-disciplines or @sec-damage-budget at the tier table. Routed out: cantrip DP cost is never stated here while [08-disciplines.qmd:214] charges 2 DP for prereq-free basics and [11-arcane-spells.qmd:27] says cantrips are free. Also tidy: precedence between the per-encounter limit (Adept and Master) and the per-session limit (Master) is unstated, 'rank' is used for both card tier and Discipline rank, and the worked example prints a 15-point center bonus on an Adept card at [10-magic-system:133] that the ch11 card does not carry. Verified clean: heading structure and section order are workable; exactly one typst fence with its label after the H1; both tables carry outlined: false; the callout uses the named body: form; zero em-dashes and zero bare @; the label resolves and is cited from ch01, ch09, ch11 and ch12; both tables reprint ch08's flat costs and damage rows exactly; and the worked casting roll recomputes to the tier it claims. Tiered disposition: T1 fix the two contradictions first; T2 state the upgrade cost, finish the concentration procedure and add the cross-references; T3 clarify limitation precedence and rank-versus-tier wording and correct the example's off-row number.",
+  "evidence": [
+    {
+      "source": "10-magic-system:65",
+      "claim": "A blanket denial of any wildcard or substitution contradicts a class signature the book already ships.",
+      "quote_or_excerpt": "There are no wildcard Discipline substitutions."
+    },
+    {
+      "source": "05-classes.qmd:287",
+      "claim": "The Odd's signature lets two chosen abilities skip Discipline prerequisites, while level gates still bind.",
+      "quote_or_excerpt": "You ignore prerequisite Disciplines for these two"
+    },
+    {
+      "source": "10-magic-system:29",
+      "claim": "Asserts that resolving a spell never involves a concentration roll.",
+      "quote_or_excerpt": "no concentration roll"
+    },
+    {
+      "source": "10-magic-system:115",
+      "claim": "Requires a Fortitude check after damage to keep an ongoing spell, and supplies no target number, success tier or repeat rule.",
+      "quote_or_excerpt": "make a Fortitude check to hold the spell together"
+    },
+    {
+      "source": "reasoning",
+      "claim": "No line in the card-buying section states what raising an owned card to a higher tier costs in DP, so the trade-cost question is unanswered in the framework chapter.",
+      "quote_or_excerpt": "checked ch10:39-55 and ch08:174; no raise or repurchase DP delta"
+    },
+    {
+      "source": "10-magic-system:89",
+      "claim": "Sends readers to an unnamed spell chapter; the file contains no cross-reference token at all.",
+      "quote_or_excerpt": "each tradition's full list is in its spell chapter"
+    },
+    {
+      "source": "08-disciplines.qmd:214",
+      "claim": "States that prerequisite-free Novice cards still carry the normal flat card price.",
+      "quote_or_excerpt": "cost only the flat card price (2 DP)"
+    },
+    {
+      "source": "11-arcane-spells.qmd:27",
+      "claim": "States cantrips are learned at no cost, which conflicts with the Discipline chapter and with ch10's silence on cantrip pricing.",
+      "quote_or_excerpt": "they don't cost anything to learn"
+    },
+    {
+      "source": "10-magic-system:133",
+      "claim": "The worked example adds a center-target bonus of 15 on an Adept card and a feature the arcane card does not print; the card's Strong value is flat.",
+      "quote_or_excerpt": "12 fire damage to all."
+    },
+    {
+      "source": "21-glossary.qmd:209",
+      "claim": "Only the glossary defines encounter, and the chapter's rule is named per-encounter while its body says once per combat.",
+      "quote_or_excerpt": "A single scene or combat"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Every inbound reference to the chapter's label resolves and names the right chapter; I grepped the whole chapters directory for the token.",
+      "quote_or_excerpt": "grep: inbound refs ch01:212, ch09:15, ch11:21, ch12:21, ch12:78 all resolve"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The worked casting roll recomputes to the tier it claims, and the chapter's two tables reproduce the canon flat card costs and damage rows.",
+      "quote_or_excerpt": "3d6 5+3+4=12, +2 Knowledge +1 Arcana =15, inside Strong 15-18+"
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": []
+}

@@ -1,0 +1,137 @@
+{
+  "id": "f-005",
+  "round": 1,
+  "role": "author",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Not publishable as-is. The spine is sound (tier table, flat costs, level gates and the three limitation rules all agree with ch08/ch11/ch12), but four defects block it. Tier 1, must fix. (a) [10-magic-system:65] ends the prerequisites section with a flat denial that any wildcard substitution exists; the Odd ships exactly such an exception for one arcane and one divine ability (ch05:287, ch02:301, ch21:81), and the same absolute already sits at ch08:265. Expected: a carve-out naming the class signature, not deletion of the rule. (b) [10-magic-system:133] gives the worked example's Strong result an extra 15 at the middle of the blast for a card bought at Adept tier, whose row is 6/9/12 (ch10:47); 15 is a Master-row number (ch10:48) and the canon card prints one flat figure for everyone in the radius (ch11:143, ch11:145). Expected: drop the proximity bonus, or restate it as +1 damage tier so it stays inside the budget. (c) [10-magic-system:29] promises casting involves no concentration check, and [10-magic-system:115] then mandates a Fortitude save when a concentrator takes a hit, which the glossary already canonises (ch21:127). Expected: scope line 29 to the casting roll. (d) [10-magic-system:13-15] and [10-magic-system:120] are the third printing of the introduction's set piece: the fire image is word-identical to ch01:210, the never-useless pair also stands at ch05:184, and the spotlight rationale with its lunch-time punchline is ch01:212. Expected: cut the opener to one original sentence and cross-reference ch01. Tier 2, should fix. (e) [10-magic-system:99] lists five arcane Disciplines and line 101 four divine, but the arcane chapter files Plants and Mind cards (ch11:280, ch11:391) and the divine chapter owns a Plants card (ch12:330). Expected: add them or mark the lists illustrative. (f) The column called 'Effect row' at [10-magic-system:45] becomes 'Effect Range' at [10-magic-system:71], and Range is already the card's distance field (ch10:37, ch11:124). Expected: one name, and no reuse of Range for damage. (g) [10-magic-system:55] states the tier-to-row mapping three ways in three sentences, and [10-magic-system:65] repeats the gates just given at [10-magic-system:61]. Expected: one statement of each. Tier 3, polish: seven sentence-initial No-clauses (13, 29, 89, 137), three fragment triplets (81, 97) and three That's-verdict section closers (37, 109, 137, one shared verbatim with ch05:16) read as stock in 138 lines. Verified clean: zero em/en dashes; the worked roll recomputes to the Strong band; Sera matches her ch02 template; goblin DR 0 backs the no-armour claim; costs and gates match ch08:144-146; the signed callout persona is a licensed voice (ch23:68).",
+  "evidence": [
+    {
+      "source": "10-magic-system:65",
+      "claim": "A blanket denial that any wildcard substitution exists; the book ships one for the Odd and repeats the same absolute at ch08:265, so the missing carve-out is the defect.",
+      "quote_or_excerpt": "There are no wildcard Discipline substitutions"
+    },
+    {
+      "source": "quarto-book/chapters/05-classes.qmd:287",
+      "claim": "The Odd's signature lets two chosen abilities skip prerequisites, with level gates excepted; this is the shipped exception the magic chapter omits.",
+      "quote_or_excerpt": "You ignore prerequisite Disciplines for these two"
+    },
+    {
+      "source": "10-magic-system:133",
+      "claim": "The example's Strong hit carries an extra 15 for targets close to the middle, but the card was bought at Adept tier, so its Strong number is 12.",
+      "quote_or_excerpt": "with targets near the center taking 15"
+    },
+    {
+      "source": "quarto-book/chapters/11-arcane-spells.qmd:143",
+      "claim": "The canon card line prints one flat figure for everyone in the radius, with no proximity clause and no bonus.",
+      "quote_or_excerpt": "12 fire damage to all"
+    },
+    {
+      "source": "quarto-book/chapters/11-arcane-spells.qmd:145",
+      "claim": "The Adept-rank line of the same card is 6/9/12, matching ch10:73's table row and confirming that the example's 15 sits off-row.",
+      "quote_or_excerpt": "6/9/12 fire damage to all"
+    },
+    {
+      "source": "10-magic-system:29",
+      "claim": "An absolute promise that casting needs no concentration check contradicts the chapter's own maintenance rule and the glossary.",
+      "quote_or_excerpt": "no concentration roll"
+    },
+    {
+      "source": "10-magic-system:115",
+      "claim": "The concentration limitation requires a Fortitude save when the caster is hit, so the chapter does have a concentration check.",
+      "quote_or_excerpt": "make a Fortitude check to hold the spell together"
+    },
+    {
+      "source": "quarto-book/chapters/21-glossary.qmd:127",
+      "claim": "The glossary entry confirms that concentration save exists, which makes line 29's absolute the outlier.",
+      "quote_or_excerpt": "If you take damage while concentrating"
+    },
+    {
+      "source": "10-magic-system:13",
+      "claim": "Opening litany is a third copy of a stock paragraph; its line of complaint is word-for-word the same as the introduction callout.",
+      "quote_or_excerpt": "No \"sorry, I used my good spell already.\""
+    },
+    {
+      "source": "10-magic-system:15",
+      "claim": "This sentence pair is printed identically in two other chapters, giving three occurrences of the same closer.",
+      "quote_or_excerpt": "You're never useless. You're never out of options."
+    },
+    {
+      "source": "quarto-book/chapters/01-introduction.qmd:210",
+      "claim": "The introduction callout already owns the set piece, including the fire image the magic chapter reprints unchanged.",
+      "quote_or_excerpt": "Your fire burns until _you_ decide it stops"
+    },
+    {
+      "source": "quarto-book/chapters/05-classes.qmd:184",
+      "claim": "The Arcanist callout holds the same never-useless pair, establishing a second prior printing before the magic chapter repeats it.",
+      "quote_or_excerpt": "This changes everything about playing a caster"
+    },
+    {
+      "source": "10-magic-system:120",
+      "claim": "The Master-limit sidebar re-argues the intro's spotlight justification and reuses its frequency punchline, adding no rule.",
+      "quote_or_excerpt": "you can't do it three times before lunch"
+    },
+    {
+      "source": "quarto-book/chapters/01-introduction.qmd:212",
+      "claim": "The intro callout already states the spotlight rationale and the same lunch-line joke about repetition.",
+      "quote_or_excerpt": "about spotlight management, not resource attrition"
+    },
+    {
+      "source": "10-magic-system:99",
+      "claim": "The arcane list stops at five elemental and energy types, while arcane cards in ch11 also require Plants and Mind.",
+      "quote_or_excerpt": "Fire, Wind, Water, Earth, and Energy spells"
+    },
+    {
+      "source": "quarto-book/chapters/11-arcane-spells.qmd:280",
+      "claim": "An arcane-chapter card requires Plants, a discipline absent from the magic chapter's arcane list.",
+      "quote_or_excerpt": "1 Plants · *Action:* Action · *Range:* 30 ft"
+    },
+    {
+      "source": "quarto-book/chapters/12-divine-spells.qmd:330",
+      "claim": "The divine chapter has a Plant Spells section whose card requires Plants, also missing from the magic chapter's divine list.",
+      "quote_or_excerpt": "*Disciplines:* 2 Plants"
+    },
+    {
+      "source": "10-magic-system:71",
+      "claim": "The second table renames the first table's effect-row column, and the new name collides with the card field that holds distance.",
+      "quote_or_excerpt": "Effect Range (W / S / St)"
+    },
+    {
+      "source": "10-magic-system:45",
+      "claim": "The first table gives the same column its own name, so the two tables disagree on what to call one thing.",
+      "quote_or_excerpt": "Effect row (W / S / St)"
+    },
+    {
+      "source": "10-magic-system:55",
+      "claim": "The tier-to-row mapping is said three separate ways across three consecutive sentences in a single paragraph.",
+      "quote_or_excerpt": "A card bought at Adept tier starts at 6/9/12"
+    },
+    {
+      "source": "10-magic-system:65",
+      "claim": "The gate values were already printed four lines earlier, so this half of the paragraph is a straight restatement.",
+      "quote_or_excerpt": "Adept unlocks at level 3 and Master at level 7"
+    },
+    {
+      "source": "10-magic-system:89",
+      "claim": "The cantrip clause says no roll is needed, yet every printed cantrip carries three outcomes that only a roll can select; one added clause removes the ambiguity.",
+      "quote_or_excerpt": "No roll required unless the cantrip says otherwise"
+    },
+    {
+      "source": "10-magic-system:37",
+      "claim": "Calling every spell a tiered growing card overreaches, because cantrips have no tiers and the chapter defines them later.",
+      "quote_or_excerpt": "Every spell is a single growing card"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Recounted tics in the 138-line file: seven sentence-initial No-clauses (lines 13, 29, 89, 137), three fragment triplets (line 81 twice, line 97), three That's-verdict closers (37, 109, 137), and one stock closer also printed at ch05:16.",
+      "quote_or_excerpt": "counts: 7 No-clauses; 3 fragment triplets; 3 That's closers"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Checks that came back clean: a regex sweep for em-dash and en-dash over the source found zero matches; dice plus attribute plus skill recomputes to 12+2+1=15, the Strong band; the bestiary goblin has DR 0, backing the no-armour line; tier costs and gates equal ch08:144-146; the Sera name matches her ch02 template at ch02:363.",
+      "quote_or_excerpt": "em/en dashes 0 matches; 12+2+1=15 Strong; goblin DR 0"
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": []
+}

@@ -1,0 +1,82 @@
+{
+  "id": "f-001",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Verdict: not publishable as written. One blocking cross-chapter contradiction, two canon-alignment defects, and one wording clash; the numeric spine is otherwise sound, so the repair set is small.\n\nTIER 1 (blocking) [10-magic-system:65] denies outright that a required Discipline can ever be swapped. Broken value: that blanket denial. Expected: the chapter names the one shipped exception, since the Odd's level-1 signature exempts two chosen abilities, one arcane and one divine, from Discipline prerequisites while the level gates still bind (05-classes.qmd:287, 02-character-creation.qmd:301, 21-glossary.qmd:81), and combat plays that rule live when Lyra casts Ember Lance with no Fire rank (13-combat.qmd:498). Violated convention: the prerequisite-shape clause on wildcards. Minimal fix: one sentence crediting the Odd's signature as the sole substitution.\n\nTIER 2a (numbers) [10-magic-system:133] states an Adept spell's Strong result as 12, then gives nearby targets 15. Brimstone Burst is Adept at 2 Fire, so its row is 6/9/12 (08-disciplines.qmd:228-230), and 15 is a Master-row figure; the canonical card carries no centre bonus at all (11-arcane-spells.qmd:136-147). Broken value: the added 15. Expected: every printed number lands on the row for the card's rank. Violated convention: flat, tier-keyed damage budget. Minimal fix: drop the 15 so the centre also takes 12, or recast the extra as an on-row rider or a damage-tier bump.\n\nTIER 2b (tradition split) [10-magic-system:99] enumerates the arcane Disciplines as Fire, Wind, Water, Earth and Energy, but arcane canon also gates spells and a class ability on Mind (11-arcane-spells.qmd:391, 11-arcane-spells.qmd:402, 11-arcane-spells.qmd:415, 05-classes.qmd:538, 05-classes.qmd:172), and Plants runs through both tradition chapters (11-arcane-spells.qmd:280, 12-divine-spells.qmd:330) while 10-magic-system:99-101 names it in neither list. Expected: the two lists cover what the implementing chapters actually use. Violated convention: the arcane-versus-divine split must agree with the chapters that implement it. Minimal fix: add Mind (and Plants) to the arcane list and Plants to the divine list, or mark both lists non-exhaustive.\n\nTIER 3 (wording) [10-magic-system:29] promises there is no concentration roll, yet [10-magic-system:115] then mandates a Fortitude check to keep a spell up after damage. The later check is itself legitimate, it does not replace the casting outcome mapping, so the defect is the absolute promise. Minimal fix: narrow line 29 to the casting roll.\n\nVERIFIED CLEAN (checks run): flat 2/4/8 DP costs and the Level 3 / Level 7 gates match 08-disciplines.qmd:144-146; the 1/2/3 prerequisite counts, the rank-3 ceiling and the three Master shapes match 08-disciplines.qmd:199-208; cantrips with no prerequisite match 11-arcane-spells.qmd:27; the example's three effect-row lines reproduce Ember Lance and Brimstone Burst including Piercing 3 and the 20-ft radius (11-arcane-spells.qmd:126-134, 11-arcane-spells.qmd:139-145); the casting attributes agree with the class keys (05-classes.qmd:148 for the Arcanist, 05-classes.qmd:193 for the Shepherd); Arcana is a real Knowledge-keyed skill (07-skills.qmd:167); the per-encounter cap on Adept spells matches 20-bestiary.qmd:146; both named spells exist under exactly those names (11-arcane-spells.qmd:123, 11-arcane-spells.qmd:136) so neither is a phantom; and the worked roll recomputes to the tier the prose claims (5+3+4 = 12, plus Knowledge +2 and Arcana +1 = 15, Strong per 06-core-resolution.qmd:32, with the stated Standard difficulty being the +0 rung of 06-core-resolution.qmd:220). Typst layer: a single {=typst} fence under the H1, label on the following line, both tables carrying outlined:false, the callout in the named body: form, zero em-dashes or en-dashes (regex search returned nothing), and no dangling cross-reference tokens because the chapter prints none. The 12.1 figure caption is the sanctioned global-offset placeholder.\n\nTIERED DISPOSITION: execute Tier 1 and Tier 2a inside this chapter's micro-PR, since both change reader-usable rules; Tier 2b is a short alignment edit in the same PR; Tier 3 is optional polish. No other change is warranted.",
+  "evidence": [
+    {
+      "source": "05-classes.qmd:287",
+      "claim": "The Odd's level-1 signature exempts two chosen abilities, one arcane and one divine, from Discipline prerequisites while the level gates still bind.",
+      "quote_or_excerpt": "You ignore prerequisite Disciplines for these two"
+    },
+    {
+      "source": "13-combat.qmd:498",
+      "claim": "Combat's own worked example has the Odd casting Ember Lance with no Fire rank, so the wildcard is live canon rather than theory.",
+      "quote_or_excerpt": "No Fire Discipline. My Eccentric Spellcasting covers it."
+    },
+    {
+      "source": "10-magic-system:65",
+      "claim": "The chapter's blanket denial of any Discipline substitution is exactly the claim the shipped Odd signature falsifies.",
+      "quote_or_excerpt": "There are no wildcard Discipline substitutions"
+    },
+    {
+      "source": "08-disciplines.qmd:240",
+      "claim": "The budget is flat and tier-keyed, so a card's printed numbers must sit on the row for its rank.",
+      "quote_or_excerpt": "An Adept Brimstone Burst deals 6/9/12"
+    },
+    {
+      "source": "11-arcane-spells.qmd:145",
+      "claim": "The canonical card's Adept row is 6/9/12 and it carries no centre bonus, so an extra 15 has no card support.",
+      "quote_or_excerpt": "*Adept:* 6/9/12 fire damage to all"
+    },
+    {
+      "source": "10-magic-system:133",
+      "claim": "The worked example adds a centre figure that is off the Adept row; 15 is a Master-row value.",
+      "quote_or_excerpt": "targets near the center taking 15"
+    },
+    {
+      "source": "11-arcane-spells.qmd:391",
+      "claim": "An arcane spell is gated on Mind, a Discipline the chapter's arcane enumeration leaves out.",
+      "quote_or_excerpt": "*Disciplines:* 1 Mind"
+    },
+    {
+      "source": "05-classes.qmd:538",
+      "claim": "An Arcanist class ability likewise costs a Mind rank, confirming Mind sits on the arcane side.",
+      "quote_or_excerpt": "[*Disrupt*], [Novice], [1 Mind]"
+    },
+    {
+      "source": "12-divine-spells.qmd:330",
+      "claim": "The divine chapter gates a spell on Plants, another Discipline the chapter's two lists never name.",
+      "quote_or_excerpt": "*Disciplines:* 2 Plants"
+    },
+    {
+      "source": "10-magic-system:29",
+      "claim": "The chapter first rules out a concentration roll, then requires a Fortitude check to keep a spell going.",
+      "quote_or_excerpt": "no concentration roll, no spell failure percentage"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Recomputing the example: the dice 5+3+4 give 12, adding Knowledge +2 and Arcana +1 gives 15, which lands in the Strong band; the stated Standard difficulty is the +0 rung.",
+      "quote_or_excerpt": "12 + 2 + 1 = 15 (Strong, 15-18+); difficulty +0"
+    },
+    {
+      "source": "11-arcane-spells.qmd:134",
+      "claim": "Ember Lance's Master line matches the chapter's table exactly, 9/15/21 with Piercing 3.",
+      "quote_or_excerpt": "9/15/21 fire damage, Piercing 3"
+    },
+    {
+      "source": "20-bestiary.qmd:146",
+      "claim": "The bestiary caps an Adept spell at one use per encounter, matching the chapter's limitation rule.",
+      "quote_or_excerpt": "*Brimstone Burst:* 6/9/12 (once per encounter)."
+    },
+    {
+      "source": "11-arcane-spells.qmd:27",
+      "claim": "The arcane chapter implements cantrips with no Discipline requirement, exactly as the framework chapter states.",
+      "quote_or_excerpt": "They don't require Disciplines"
+    }
+  ],
+  "confidence": 0.75,
+  "rebutting": []
+}

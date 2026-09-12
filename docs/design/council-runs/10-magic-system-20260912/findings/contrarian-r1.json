@@ -1,0 +1,82 @@
+{
+  "id": "f-002",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Refute. Chapter 10 is not publishable as written: seven counter-examples survive recomputation, and three of them are cross-chapter contradictions rather than wording nits.\n\n(1) Off-budget example value. [10-magic-system:133] says an Adept Brimstone Burst deals 12 and adds 15 for foes near the centre. The card prints one row for that tier, 6/9/12 (ch11:143), matching the Adept budget row (ch08:229); 15 is the Master Strong number, so a 4 DP Adept purchase delivers the 8 DP row's peak. Expected value 12. Minimal fix: strike the centre bonus, or re-express it as a damage tier bump.\n\n(2) False blanket ban on wildcard substitutions. [10-magic-system:65] denies that any substitution exists, but the Odd's signature lets two chosen abilities skip Discipline prerequisites (ch05:287, ch02:301, ch21:81), only the level gates survive, and canon play depends on it (ch13:498, Lyra fires Ember Lance holding no Fire rank). Minimal fix: add the class-signature carve-out.\n\n(3) Self-contradicting concentration rule. [10-magic-system:29] promises no concentration roll; [10-magic-system:115] then demands a Fortitude check to keep a maintained spell up after damage lands. Both cannot stand. Minimal fix: reword line 29 so it forbids only a separate casting check and a spell-failure percentage, leaving the maintenance check intact.\n\n(4) Incomplete tradition lists. [10-magic-system:99] defines arcane magic as five forces and [10-magic-system:101] defines divine magic as four, yet ch11 ships arcane cards keyed to Plants (ch11:280, Venom Lance) and Mind (ch11:391 and four more), and ch12 ships a Plant Spells section (ch12:326, Briar Wall). Minimal fix: name Plants and Mind in the arcane list and Plants in the divine one, or reclassify those cards.\n\n(5) Free, unlimited, roll-free cantrips. [10-magic-system:89] hands every caster all cantrips free and at will with no roll mandated, while ch02:145, ch08:214 and ch19:605 price each no-prereq Novice basic, cantrips included, at 2 DP. A starting Arcanist therefore receives ten cantrips the book prices at 20 DP, and since no roll is required while each printed cantrip lists three tiers (ch11:49, Frost Touch), a player can simply claim the Strong line every round. Minimal fix: pick one rule, free or 2 DP each, and state whether cantrips roll.\n\n(6) Unpriced rank upgrade. [10-magic-system:39] binds cost and effect row together in the tier table, but [10-magic-system:55] lets a Novice purchase use the 6/9/12 and 9/15/21 rows without ever naming an upgrade price, so a 2 DP buy can reach the top row. Minimal fix: charge the target tier's flat cost (4 or 8 DP) and say whether the original 2 DP credits.\n\n(7) Unresolved precedence. [10-magic-system:111] caps Adept and Master casting at one use per fight; [10-magic-system:113] caps Master casting per session; no line says which governs when both bite, so a rules-lawyer reads line 111 as permitting a Master spell in every fight of the night. Minimal fix: state that the session cap supersedes.\n\nTiered disposition. Tier 1, blocking, patch inside this chapter: items 1, 3, 6, 7 (the example and the limitation rules). Tier 2, cross-chapter contradiction, fix here or route: items 2, 4, 5, with item 5's price conflict routed to ch08 if the free grant is kept. Tier 3, routed out only: none whose sole fix site is another chapter.\n\nVerified clean, and how: the tier table (2/4/8 DP, 1/2/3 ranks, gates level 1/3/7) matches ch08:144-146 and ch08:227-231; the printed rows for Ember Lance (2/4/6), Brimstone Burst (6/9/12) and Master Ember Lance (9/15/21, Piercing 3) match ch11:126-128, ch11:139-143 and ch11:134; the example's dice 5+3+4=12 plus Knowledge 2 plus Arcana 1 lands 15 in the top band per ch06:29-32; unlimited Novice casting plus a per-encounter Adept cap match the Archmage block ch20:144-146; the rank-3 ceiling matches ch08:208; and the file carries one typst fence with outlined:false tables, no dash characters and no bare @.",
+  "evidence": [
+    {
+      "source": "/home/bmoser/repos/heroes-of-legend/quarto-book/chapters/10-magic-system.qmd",
+      "claim": "The worked example gives a Brimstone Burst cast at Adept tier a 15-point centre value, which is not the value the card grants at that tier.",
+      "quote_or_excerpt": "with targets near the center taking 15"
+    },
+    {
+      "source": "/home/bmoser/repos/heroes-of-legend/quarto-book/chapters/11-arcane-spells.qmd",
+      "claim": "Brimstone Burst's top result is 12 fire damage to everything in the radius with no centre bonus, so 15 has no card basis at Adept tier.",
+      "quote_or_excerpt": "Strong:* 12 fire damage to all."
+    },
+    {
+      "source": "/home/bmoser/repos/heroes-of-legend/quarto-book/chapters/08-disciplines.qmd",
+      "claim": "The canon damage spine fixes the Adept row at 6/9/12 and the Master row at 9/15/21, so 15 belongs to the higher tier and cannot appear on an Adept card.",
+      "quote_or_excerpt": "[*Adept*], [2 Disciplines], [6/9/12]"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Arithmetic: the Adept tier costs 4 DP and its peak is 12; the 15 in the example equals the Master tier's peak, which costs 8 DP, so the example hands out Master-level output at half price (12 + 3 = 15, a 3-damage overgrant).",
+      "quote_or_excerpt": "4 DP buys 6/9/12; the example pays 4 DP for 15"
+    },
+    {
+      "source": "/home/bmoser/repos/heroes-of-legend/quarto-book/chapters/05-classes.qmd",
+      "claim": "The Odd's signature states that its two chosen abilities skip Discipline prerequisites, which directly falsifies the chapter's claim that no substitution exists.",
+      "quote_or_excerpt": "You ignore prerequisite Disciplines for these two"
+    },
+    {
+      "source": "/home/bmoser/repos/heroes-of-legend/quarto-book/chapters/13-combat.qmd",
+      "claim": "Canon play uses the wildcard: a character casts Ember Lance with no Fire rank and the text attributes it to the signature ability.",
+      "quote_or_excerpt": "No Fire Discipline. My *Eccentric Spellcasting* covers it."
+    },
+    {
+      "source": "/home/bmoser/repos/heroes-of-legend/quarto-book/chapters/10-magic-system.qmd",
+      "claim": "One line denies that a concentration roll exists while a later line requires a Fortitude check to keep a maintained spell from collapsing, an internal contradiction.",
+      "quote_or_excerpt": "make a Fortitude check to hold the spell together"
+    },
+    {
+      "source": "/home/bmoser/repos/heroes-of-legend/quarto-book/chapters/11-arcane-spells.qmd",
+      "claim": "Arcane cards are keyed to disciplines the chapter's arcane list omits: one card uses Plants and five use Mind.",
+      "quote_or_excerpt": "*Disciplines:* 1 Plants"
+    },
+    {
+      "source": "/home/bmoser/repos/heroes-of-legend/quarto-book/chapters/12-divine-spells.qmd",
+      "claim": "The divine chapter carries a Plant Spells section keyed to Plants, a discipline the chapter's divine list does not name.",
+      "quote_or_excerpt": "*Disciplines:* 2 Plants \u00b7 *Action:* Action"
+    },
+    {
+      "source": "/home/bmoser/repos/heroes-of-legend/quarto-book/chapters/02-character-creation.qmd",
+      "claim": "Character creation prices every no-prerequisite Novice basic, cantrips named among them, at the flat 2 DP rate, contradicting the free grant.",
+      "quote_or_excerpt": "No-prereq Novice basics (cantrips, basic utility skills) cost 2 DP"
+    },
+    {
+      "source": "/home/bmoser/repos/heroes-of-legend/quarto-book/chapters/10-magic-system.qmd",
+      "claim": "The framework makes cantrips unlimited and imposes no roll, yet each cantrip printed in the spell chapters lists three separate outcomes with no rule for choosing one when no roll occurs.",
+      "quote_or_excerpt": "Infinite uses. No roll required unless the cantrip says otherwise."
+    },
+    {
+      "source": "/home/bmoser/repos/heroes-of-legend/quarto-book/chapters/10-magic-system.qmd",
+      "claim": "The chapter lets a card bought at the cheapest tier later use the higher-tier effect rows but never states what raising the rank costs.",
+      "quote_or_excerpt": "Bought to Master rank, it uses 9/15/21."
+    },
+    {
+      "source": "/home/bmoser/repos/heroes-of-legend/quarto-book/chapters/06-core-resolution.qmd",
+      "claim": "The success-band table confirms 15 lands in the top band, so the example's dice and bonuses are correct and only its effect line is wrong.",
+      "quote_or_excerpt": "[15-18+], [*Strong*]"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Clean checks I ran: tier table DP, rank counts and level gates agree with ch08 144-146 and 227-231; Ember Lance 2/4/6, Brimstone Burst 6/9/12 and Master Ember Lance 9/15/21 Piercing 3 agree with ch11 126-128, 139-143 and 134; the roll 5+3+4=12 then +2 +1 = 15 maps to Strong per ch06 29-32; unlimited Novice and per-encounter Adept casting match the Archmage block at ch20 144-146; rank ceiling 3 matches ch08 208; the file holds one typst fence, outlined:false tables, no dash characters and no bare at-sign.",
+      "quote_or_excerpt": "12+2+1=15 maps to Strong; style checks clean"
+    }
+  ],
+  "confidence": 0.75,
+  "rebutting": []
+}

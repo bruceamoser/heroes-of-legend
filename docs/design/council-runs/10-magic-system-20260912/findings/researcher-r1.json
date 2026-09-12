@@ -1,0 +1,77 @@
+{
+  "id": "f-003",
+  "round": 1,
+  "role": "researcher",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Chapter 10 fails as a publishable unit: six defects, two of them contradictions inside the chapter's own spine, and the rest completeness or notation breaks against the chapters that implement the framework. First, the sentence at [10-magic-system:65] declares that Discipline prerequisites admit no substitutions, but the shipped Odd signature Eccentric Spellcasting (ch05:287, ch02:301, ch21:81) exempts exactly two chosen abilities, one arcane and one divine, from those prerequisites while level gates still bind, and ch13:498-500 plays that exemption out at the table. Broken value [10-magic-system:65]: the absolute no-substitution claim. Expected: the same sentence qualified by that named exception. Violated convention: a framework chapter may not deny a class signature the rest of the book ships; the brief names this exact contradiction a defect. Minimal fix: add the exception clause naming Eccentric Spellcasting, and route the identical blanket claim at ch08:265 out of this micro-PR. Second, [10-magic-system:29] promises no concentration roll, while [10-magic-system:115] orders a Fortitude check to sustain concentration after damage. Broken value [10-magic-system:115]: the mandatory maintenance check. Expected: one concentration rule, not two. Violated convention: the one-roll principle, which line 29 itself states. Minimal fix: either delete the check or qualify line 29. Third, the worked example at [10-magic-system:133] prints 15 as a centre bonus on an Adept card whose row is 6/9/12, so the bonus leaves the row; ch11:136-147 and the sample card at ch19:567-573 print no such bonus. Broken value: 15. Expected: a value on the Adept row, or a rider phrased as one damage tier up. Violated convention: the damage budget is flat and keyed to the card's rank. Minimal fix: drop the 15 or restate it as '+1 damage tier'. Fourth and fifth, the tradition blocks at [10-magic-system:99] and [10-magic-system:101] are incomplete against ch11 and ch12: arcane cards key to Mind (5 cards) and Plants (1 card, ch11:280), the divine chapter keys one card to Plants (ch12:330), and ch05:507/526 places the Intellect in the Mage ability pool beside the Arcanist. Broken values: the five-discipline arcane list and the four-discipline divine list. Expected: complete lists or an explicit non-exhaustive note. Minimal fix: add Mind, Plants and the Intellect, or mark both lists illustrative. Sixth, [10-magic-system:74] writes the Master prerequisite as '1 Fire, rank 3' while the same column writes '1 Fire' for Novice and '2 Fire' for Adept two rows up, and ch08:208 renders a Fire-only Master requirement as three ranks of Fire. Broken value: '1 Fire, rank 3'. Expected: '3 Fire'. Violated convention: a card's tier equals its Discipline-rank count, and notation must match ch08. Minimal fix: print '3 Fire'. Disposition tiers: defects 1 and 2 are substantive cross-chapter corrections, defect 3 is mechanical and local to the example, defects 4-6 are one-line completeness or notation edits. Everything else in the chapter verified clean, so the fix is bounded, not a rewrite.",
+  "evidence": [
+    {
+      "source": "10-magic-system",
+      "claim": "[10-magic-system:65] denies any Discipline-substitution wildcard, but the shipped Odd signature (ch05:287, ch02:301, ch21:81) exempts exactly two chosen abilities, one arcane and one divine, from prerequisite Disciplines while level gates still bind, and ch13:498-500 uses that exemption to cast a Fire spell with no Fire Discipline. Expected: the absolute claim qualified by that exception. Minimal fix: name Eccentric Spellcasting as the sole exception; the same blanket claim at ch08:265 is routed out of this micro-PR. Violated convention: a shipped class signature cannot be denied by the framework chapter.",
+      "quote_or_excerpt": "There are no wildcard Discipline substitutions."
+    },
+    {
+      "source": "10-magic-system",
+      "claim": "Internal contradiction across two printed lines: [10-magic-system:29] states the system has no concentration roll at all, while [10-magic-system:115] requires a Fortitude check to sustain a concentration spell after taking damage. Broken value: the Fortitude check mandated at line 115. Expected: a single consistent rule. Minimal fix: either delete the maintenance check at 115 or qualify the absolute statement at 29. Violated convention: one-roll principle, the casting roll already fixes the outcome.",
+      "quote_or_excerpt": "no separate casting check, no concentration roll"
+    },
+    {
+      "source": "10-magic-system",
+      "claim": "The worked example at [10-magic-system:133] gives 15 damage near the centre of an Adept Brimstone Burst whose printed row is 6/9/12, so Strong is 12; 15 is the Master row's Strong value. Canon card text at ch11:136-147 and the card sample at ch19:567-573 print no centre bonus. Broken value: 15. Expected: a number on the Adept row, or a rider written as one damage tier up. Minimal fix: delete the 15 or rephrase as '+1 damage tier'. Violated convention: the damage budget is flat and keyed to the card's rank, and an off-row centre bonus is a defect.",
+      "quote_or_excerpt": "with targets near the center taking 15"
+    },
+    {
+      "source": "10-magic-system",
+      "claim": "The arcane block at [10-magic-system:99] names five disciplines and three classes, but ch11 carries arcane cards keyed to Mind (5 cards at ch11:391, 402, 415, 428, 441) and Plants (1 card, ch11:280), and ch05:507 plus ch05:526 group the Intellect with the Arcanist in the Mage pool. Expected: complete lists or an explicit illustrative note. Minimal fix: add Mind, Plants and the Intellect. Violated convention: a framework chapter's stated split has to line up with the chapters that carry the cards.",
+      "quote_or_excerpt": "Fire, Wind, Water, Earth, and Energy spells"
+    },
+    {
+      "source": "10-magic-system",
+      "claim": "The divine block at [10-magic-system:101] names Protection, Animal, Life and Religion but omits Plants, which ch12:330 assigns to a divine card (Briar Wall, 2 Plants); Plants also appears on an arcane card at ch11:280, so the two lists cannot be read as an exclusive split. Broken value: the four-discipline divine list. Expected: Plants named, or the lists marked non-exhaustive. Minimal fix: add Plants.",
+      "quote_or_excerpt": "Protection, Animal, Life, and Religion spells"
+    },
+    {
+      "source": "10-magic-system",
+      "claim": "The Master requirement cell at [10-magic-system:74] reads as one rank of Fire, the same notation the Novice row uses for a single rank (line 72) and the Adept row uses for two (line 73), while ch08:208 writes a Fire-only Master requirement as 3 ranks of Fire. Broken value: '1 Fire, rank 3'. Expected: '3 Fire'. Minimal fix: print '3 Fire'. Violated convention: a card's tier equals its Discipline-rank count, and the notation must match ch08's prereq shapes.",
+      "quote_or_excerpt": "[1 Fire, rank 3]"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Recomputed the worked roll: the three dice 5, 3 and 4 total 12; adding Knowledge +2 and Arcana Novice +1 gives 15, which lands in the Strong band (15-18+ per the ch06:30-32 tier table), exactly the tier the example claims. The chapter's one worked roll and its tier claim are arithmetically sound.",
+      "quote_or_excerpt": "12 plus 2 plus 1 equals 15, Strong"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Tier-to-row audit: 6 printed table body rows measured (3 tier rows, 3 spell rows). All six damage rows match their tier and their canon cards, namely Novice 2/4/6 at line 46, Adept 6/9/12 at line 47, Master 9/15/21 at line 48, Ember Lance 2/4/6 at line 72 against ch11:126-130, Brimstone Burst 6/9/12 at line 73 against ch11:139-143, and the Master-rank row 9/15/21 with Piercing 3 at line 74 against ch11:134. On-row count: 6 of 6. Off-row values: 1 (line 133).",
+      "quote_or_excerpt": "6 of 6 damage rows on-row; 1 off-row value at line 133"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Structure counts for the 138-line file: 1 level-1 heading, 7 level-2 headings, 0 level-3 headings, 1 typst fence with the H1 kept above it, 2 figure-wrapped tables, 6 table body rows, 2 of 2 tables carrying outlined: false, 1 callout in the named body form, 8 pagebreaks with none adjacent. The Typst surface is fully conformant, and the label line placement matches all 24 sibling chapters.",
+      "quote_or_excerpt": "1 H1, 7 H2, 0 H3, 2 tables, 6 rows, 8 pagebreaks"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Style sweep over the whole chapter: 0 em-dashes, 0 en-dashes, 0 damage dice (only the 3d6 core roll appears, 3 occurrences), 0 non-exempt numeric roll modifiers (the only two bonuses printed are the Knowledge attribute +2 and the Arcana skill tier +1, both named exceptions), 0 of the 16 ch13 condition names, 0 Boon/Bane tokens, 0 markdown remnants, 0 bare @ signs. This sweep is clean.",
+      "quote_or_excerpt": "0 em-dashes, 0 en-dashes, 0 damage dice, 0 roll modifiers"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Phantom-name sweep: every spell, class and Discipline the chapter prints resolves elsewhere. Ember Lance appears in 6 chapter files (ch11:123, ch08:120, ch13:154, ch20:144, ch02:352), Brimstone Burst in 5 (ch11:136, ch08:120, ch19:567, ch20:146), Arcana is a Knowledge skill at ch07:167, and all 9 Discipline names exist in the ch08 taxonomy table. Zero phantoms, zero name drift.",
+      "quote_or_excerpt": "zero phantom names; all 11 printed names resolve"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Cross-reference audit: no @sec-*, @tbl-* or @fig-* token occurs anywhere in this chapter, so nothing in-file needs resolving. The chapter's own anchor, sec-chapter-magic-system, is declared on line 4 and cited three times from outside, at ch11:21, ch12:21 and ch12:78. A sweep of all 25 chapter files gathered 25 distinct tokens, every one of which resolved. The 'Figure 12.1' caption number printed here follows the same numbered-offset convention applied book-wide (ch08 shows 10.1, ch11 shows 13.1), so it is not a defect.",
+      "quote_or_excerpt": "0 tokens in-file; 0 unresolved among 25 book-wide tokens"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Cross-checks that hold: arcane keys to Knowledge and divine to Reason, matching ch03:160 and ch03:172; cantrips carry no prerequisites and every caster of a tradition knows the whole list, matching ch11:27 and ch12:27; Adept at level 3 and Master at level 7 match ch02:206 and ch21:69-75; the per-encounter limit on Brimstone Burst matches ch20:146; goblins have 4 HP at ch20:156, so 12 damage per goblin supports the example's claim that the room was cleared.",
+      "quote_or_excerpt": "cantrip and gate claims match ch11:27, ch12:27, ch20:146"
+    }
+  ],
+  "confidence": 0.78,
+  "rebutting": []
+}

@@ -1,0 +1,57 @@
+{
+  "id": "f-004",
+  "round": 1,
+  "role": "game-architect",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Chapter 10 is the magic framework, and most of its spine recomputes clean: the tier table (2/4/8 DP; 1/2/3 Disciplines; rows 2-4-6, 6-9-12, 9-15-21) matches ch08:144-146 and ch08:228-230; the level gates match ch08:145-146; Knowledge for arcane and Reason for divine match ch03:98-100; the three outcome bands match ch06:30; the example's math is itself right (dice 12, +2 Knowledge, +1 Arcana, total 15, the Strong band), and an Adept card's Strong value is 12 (ch11:143, ch19:571), with the once-per-fight cap corroborated by the Archmage block (ch20:146). One printed value bends the spine: at 133 an Adept Brimstone Burst gains a 15 centre bonus, but 15 is the Master Strong number and that card's Strong row is 12, so it is a rider invented off the flat budget rather than summed to the row or gated on Weak. Two blanket claims break cross-chapter. At 65 the chapter denies any wildcard substitution for prerequisites, which contradicts the Odd's Eccentric Spellcasting (ch05:287, ch02:301, ch21:81). At 29 the chapter denies a concentration roll, while its own concentration rule at 115 orders a Fortitude check to keep an ongoing spell alive. Three lower-tier defects. The tradition lists at 99/101 omit Plants and Mind although ch11 prints arcane Plants and Mind spells (ch11:280, ch11:390) and ch12 prints a divine Plants spell (ch12:330). Line 74 labels the Master requirement as one Fire at rank three, where sibling rows and ch08:208 use a bare rank count. And the chapter never prints what raising an already-bought Novice card to Adept or Master costs, even though it says the tier sets the price and that the card grows. Disposition: P1 before print, repair 133, 65 and 29; P2 in the same pass, 99, 101 and 74; P3, one clarifying sentence for the upgrade delta, plus the cantrip price clash routed out to ch08:214 (89, ch11:27 and ch12:27 say cantrips are known free of cost). Verdict: refute until 133, 65 and 29 change.",
+  "evidence": [
+    {
+      "source": "10-magic-system:133",
+      "claim": "The worked example gives an Adept-tier Brimstone Burst a 15 centre value while the Adept Strong row is 12; 15 is the Master Strong number, so the rider sits off the card's budget row (ch08:228-230, ch11:145, ch19:571). Minimal fix: delete the centre value or restate it as +1 damage tier.",
+      "quote_or_excerpt": "targets near the center taking 15"
+    },
+    {
+      "source": "10-magic-system:65",
+      "claim": "A blanket denial of wildcard prerequisites sits at odds with the Odd's shipped signature, which lets two chosen abilities skip their Disciplines with only the level gates still applying (ch05:287, ch02:301, ch21:81). Minimal fix: carve out the Odd's signature in that sentence.",
+      "quote_or_excerpt": "There are no wildcard Discipline substitutions"
+    },
+    {
+      "source": "10-magic-system:29",
+      "claim": "The core rule says casting carries no concentration roll at all, yet the chapter's own Concentration limitation at 115 calls for a Fortitude check to maintain the spell when the caster takes a hit; the broad denial is stale and contradicts the chapter's own rule. Minimal fix: scope or delete the phrase.",
+      "quote_or_excerpt": "no concentration roll"
+    },
+    {
+      "source": "10-magic-system:99",
+      "claim": "The arcane enumeration names only five disciplines, but ch11 prints arcane cards on Plants (Venom Lance, ch11:280) and on Mind (Silver Tongue and four more, ch11:390), and ch05 hands the Arcanist and the Unbalanced cards on Mind and Plants (ch05:539, ch05:707). Expected value: add Mind and Plants to the arcane list.",
+      "quote_or_excerpt": "Fire, Wind, Water, Earth, and Energy spells"
+    },
+    {
+      "source": "10-magic-system:101",
+      "claim": "The divine enumeration omits Plants, yet ch12 places a Plants spell inside the divine chapter (Briar Wall, ch12:330, requirement 2 Plants), and ch05's Shepherd path leans on Animal and Protection (ch08:87). Expected value: add Plants to the divine list or mark both enumerations as non-exhaustive.",
+      "quote_or_excerpt": "Protection, Animal, Life, and Religion spells"
+    },
+    {
+      "source": "10-magic-system:74",
+      "claim": "The Master row of the table writes its requirement as one Fire at rank three, while the sibling rows count ranks bare and ch08:208 plus ch19:553 render a three-rank single-discipline requirement as three Fire; as printed the cell reads as a one-rank card. Minimal fix: relabel the cell to three Fire.",
+      "quote_or_excerpt": "1 Fire, rank 3"
+    },
+    {
+      "source": "10-magic-system:89",
+      "claim": "The chapter says every caster knows their tradition's cantrips at will; ch11:27 and ch12:27 agree they are free to learn, but ch08:214 says no-prereq basics including cantrips pay the flat 2 DP. The price conflict is fixed outside this chapter, so it is routed out to ch08:214.",
+      "quote_or_excerpt": "Every caster knows all cantrips in their tradition"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Upgrade price cannot be derived from the chapter. Ember Lance is 2 DP at Novice (ch08:181) and the total-cost formula is flat price plus rank costs (ch08:174); raising that same card to Adept is either a 2 DP difference (total 4) or a second flat charge of 4 DP (total 6). The chapter states the tier sets cost and that the card grows but prints neither reading, so builds cannot be costed. Minimal fix: one sentence stating the delta.",
+      "quote_or_excerpt": "Adept 4 minus Novice 2 = 2 DP, vs 4 DP repurchase"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Verified clean after recomputation: the worked roll and its row agree. Dice 5+3+4 gives 12, Knowledge +2 and Arcana Novice +1 bring it to 15, inside the Strong band (ch06:30), and an Adept card's Strong damage of 12 matches both the printed card (ch11:143) and the format example (ch19:571). No arithmetic error in the roll itself.",
+      "quote_or_excerpt": "12 + 3 = 15: Strong band, Strong row 12"
+    }
+  ],
+  "confidence": 0.75,
+  "rebutting": []
+}

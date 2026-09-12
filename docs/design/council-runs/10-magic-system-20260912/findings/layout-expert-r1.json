@@ -1,0 +1,87 @@
+{
+  "id": "f-007",
+  "round": 1,
+  "role": "layout-expert",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Not printable as-is, though the damage is shallow and cheaply repaired: the page spine is sound but the chapter's play-time lookup table carries a bad column width that reproduces a visible wrap in the built PDF, and three trivial typographic inconsistencies sit beside it. Structure is clean: the repo gate exits 0 over all 26 files, the chapter holds exactly one {=typst} fence with the H1 line above it and the chapter label as the fence's first line, both tables carry outlined: false plus kind/numbering, the single callout uses the named body form, and there is no markdown emphasis remnant, no content shortcode and no at-sign character anywhere. Headings run 7 second-level and 0 third-level with nothing skipped. Tier 1 (fix before print, one-number edit): at line 69 the Spell column is allotted only 12.96% of a 6.2 in text block, about 0.61 in of usable cell width, yet its longest cell holds a 24-character card name; PDF page 161 shows that cell breaking across three lines and hyphenating mid-word, with a second cell taking two lines, while sibling ch08 line 117 hands its equivalent lead column 34.15%. Minimal fix: rebalance to columns: (26%, 11%, 24%, 39%), keeping the align arity and trail comma. Tier 2 (cosmetic, same-pass): line 133 typesets a radius as 20-foot where the chapter's own table cell at line 73 typesets it as 20-ft; the two tables disagree on header casing and wording (line 45 sentence case versus line 71 title case); and both headers abbreviate the three outcome words and Requirement with no key given, where ch08 line 227 spells the outcome words out. Tier 3 (editorial, not a render break): the chapter carries zero outbound cross-references although ch08 carries eleven and ch09 four, and line 89 directs the reader to the spell lists in prose instead of linking them, so the framework never lets a reader jump to the disciplines chapter or the two spell chapters it summarises. Verified clean against the PDF: 8 page breaks produce 9 consecutive chapter pages with no blank page and no heading pushed to a page foot (though the breaks at lines 93 and 105 leave the two shortest sections on partly empty pages); zero em-dashes and zero en-dashes in the source with none in body prose on the rendered pages; caption and final-art placeholder at the same offsets as the three neighbouring chapters; both tables at 1 header plus 3 body rows with every row present and no truncation risk; quote marks smartening correctly; tier names capitalised consistently. Nothing here is a build failure, so the disposition is a small cosmetic ticket, not a rewrite.",
+  "evidence": [
+    {
+      "source": "gate: /home/bmoser/repos/heroes-of-legend/quarto-book/check-native-typst.py (exit 0, run 2026-09-12)",
+      "claim": "The repo's own structural gate ran over all 26 book files and returned exit 0, so the one-fence, H1-above-fence, no-remnant, outlined-false and named-callout invariants hold for this chapter as well.",
+      "quote_or_excerpt": "OK - 26 files: one {{=typst}} fence each"
+    },
+    {
+      "source": "build output: /home/bmoser/repos/heroes-of-legend/quarto-book/_output/Heroes-of-Legend.pdf p161",
+      "claim": "The built PDF breaks the longest cell of the spell table across three lines and hyphenates it mid-word, because the first column at 12.96% of the measure leaves roughly 0.61 in of usable cell width.",
+      "quote_or_excerpt": "Ember / Lance (Mas- / ter rank)"
+    },
+    {
+      "source": "chapter source /home/bmoser/repos/heroes-of-legend/quarto-book/chapters/10-magic-system.qmd line 69",
+      "claim": "The four column percentages of the spell table are 12.96, 11.11, 27.78 and 48.15, so the lead column takes the smallest share of the measure even though it carries the longest text.",
+      "quote_or_excerpt": "columns: (12.96%, 11.11%, 27.78%, 48.15%)"
+    },
+    {
+      "source": "sibling canon: /home/bmoser/repos/heroes-of-legend/quarto-book/chapters/08-disciplines.qmd line 117",
+      "claim": "The comparable sibling table hands its name column 34.15% of the measure for cells that are shorter than this chapter's longest card name, which is the treatment the narrow column departs from.",
+      "quote_or_excerpt": "columns: (34.15%, 51.22%, 14.63%)"
+    },
+    {
+      "source": "chapter source line 73 versus line 133",
+      "claim": "The same twenty-foot radius is typeset with an abbreviated unit inside the table and with a spelled-out unit in the worked example, so the chapter is internally inconsistent about its unit style.",
+      "quote_or_excerpt": "W: 6 / S: 9 / St: 12, 20-ft radius"
+    },
+    {
+      "source": "chapter source line 45 versus line 71 (table header rows)",
+      "claim": "The two table headers use different casing and different wording for the same quantity, one sentence case and the other title case, so the pair does not read as one system.",
+      "quote_or_excerpt": "Effect row (W / S / St)"
+    },
+    {
+      "source": "sibling canon: /home/bmoser/repos/heroes-of-legend/quarto-book/chapters/08-disciplines.qmd line 227",
+      "claim": "The sibling budget table writes the three outcome words out in full where this chapter abbreviates them to single letters with no key anywhere in the chapter.",
+      "quote_or_excerpt": "Damage (Weak / Standard / Strong)"
+    },
+    {
+      "source": "reasoning (measured over /home/bmoser/repos/heroes-of-legend/quarto-book/chapters/*.qmd)",
+      "claim": "Measured outbound cross-reference counts: this chapter has none, while the surrounding chapters carry eleven, four, two and two, so the framework never links to the disciplines chapter or to the two spell chapters it summarises.",
+      "quote_or_excerpt": "this chapter=0; ch08=11, ch09=4, ch11=2, ch12=2"
+    },
+    {
+      "source": "chapter source line 89",
+      "claim": "Where the chapter tells the reader that each tradition's spell list lives elsewhere, it does so in plain prose rather than as a resolvable reference, unlike the sibling chapters that link their dependencies.",
+      "quote_or_excerpt": "each tradition's full list is in its spell chapter"
+    },
+    {
+      "source": "build output: _output/Heroes-of-Legend.pdf pages 157-165",
+      "claim": "The chapter occupies nine consecutive PDF pages with no blank page inserted and no section heading pushed to a page foot; the two sparsest pages sit on the shortest sections, which is the price of breaking before every second-level heading.",
+      "quote_or_excerpt": "pages 157-165; 161=27, 162=9, 163=14 non-blank lines"
+    },
+    {
+      "source": "reasoning (measured on source bytes and PDF glyphs)",
+      "claim": "Dash audit: the source contains no em-dash and no en-dash character and no double-hyphen sequence, and the rendered chapter pages carry no dash in body prose, only the theme's running footer and its opener ornament.",
+      "quote_or_excerpt": "em-dash=0 en-dash=0 in source"
+    },
+    {
+      "source": "chapter source lines 8-11 versus siblings ch09, ch11, ch12",
+      "claim": "The opener caption and the final-art placeholder line sit at the same offsets here as in the three neighbouring chapters, so the sanctioned caption convention is met and nothing is owed at this site.",
+      "quote_or_excerpt": "_Placeholder for final art._"
+    },
+    {
+      "source": "build output: _output/Heroes-of-Legend.pdf p161",
+      "claim": "No table row is lost: the last body row of the spell table, including its rider text, is present in the PDF, and both tables are only four rows tall, well short of the non-breakable-block truncation risk.",
+      "quote_or_excerpt": "W: 9 / S: 15 / St: 21, Piercing 3"
+    },
+    {
+      "source": "reasoning (measured over chapter source)",
+      "claim": "Heading audit: seven second-level headings and no third-level heading, with no level skipped, matching the flat shape of several sibling chapters, so the hierarchy itself is not a defect.",
+      "quote_or_excerpt": "H2=7, H3=0, no skipped level"
+    },
+    {
+      "source": "build output: p164 (this chapter) versus pp138 and pp140 (ch08)",
+      "claim": "The callout's note icon sits about 37 points above its title text, but the same gap reproduces on two earlier sibling callout pages, so this is theme-wide behaviour and not a defect local to this chapter.",
+      "quote_or_excerpt": "Why Limits on Master Spells?"
+    }
+  ],
+  "confidence": 0.62,
+  "rebutting": []
+}
