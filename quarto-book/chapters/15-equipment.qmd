@@ -22,7 +22,7 @@ A kit is how you are outfitted: the arms, the tools, and the habits that say wha
 
 A kit adds no number except the DR its covering buys. It grants no HP, no damage, and no bonus to any roll. What a kit grants is permission. It says which cards you can use, and it decides whether an attempt is fair or a long shot. If you need to know how hard you hit, look at your cards. If you need to know whether you can even try, look at your kit.
 
-The tags a card can require are _weapon:unarmed_, _weapon:one-hand_, _weapon:two-hand_, _weapon:ranged_, _shield_, _focus:arcane_, _focus:holy_ and _focus:primal_. A card that requires none of them carries no Kit field at all, and most cards do not. Only where the work itself needs the tool does the card ask for it.
+The tags a card can require are `weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`, `shield`, `focus:arcane`, `focus:holy` and `focus:primal`. A card that requires none of them carries no Kit field at all, and most cards do not. Only where the work itself needs the tool does the card ask for it.
 
 === The Four Lines
 
