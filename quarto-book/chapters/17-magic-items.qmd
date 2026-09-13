@@ -513,7 +513,7 @@ Some items grant temporary Disciplines while attuned. Each is a named, unique ca
 
 #figure(
   align(center)[#table(
-    columns: (20.00%, 11.00%, 17.00%, 16.00%, 36.00%),
+    columns: (18.00%, 15.38%, 23.08%, 16.00%, 27.46%),
     align: (auto, auto, auto, auto, auto,),
     table.header([Item], [Rarity], [Attunement], [Discipline Granted], [Notes],),
     [*Fire Opal*], [Uncommon], [Requires Attunement], [1 Fire], [Pulses with inner heat. Warm to the touch even in winter.],
