@@ -488,7 +488,7 @@ Rolls 3d6 + Brawn (+2). Rolls 3, 3, 2 = 8 + 2 = 10. *Standard.* His Basic Melee 
 
 Roric steps in, warhammer raised, and lays into the Knight. "You're outmatched. Drop it." The DA calls for a Morale Check. Lyra rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. *Standard.* The Knight wavers, a Bane on his next attack.
 
-*End of Round 1.* The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 1). The cultists dealt 4 to Lyra. The Knight dealt 6 to Kael (9 − 3 armor). Nobody is down. Everyone is engaged. The next round will be decisive.
+*End of Round 1.* The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 1). The cultists dealt 4 to Lyra. The Knight dealt 7 to Kael (9 − 2 DR). Nobody is down. Everyone is engaged. The next round will be decisive.
 
 *Round 2, Lyra's Turn:*
 
@@ -516,7 +516,7 @@ The Knight has taken 3 damage, not much, but he's down to 17 HP from 20. Both cu
 
 Roric rolls for the Knight: 3, 2, 1 = 6. *Weak.* The Knight lowers his sword. "Enough," he growls. "You fight well. The Iron Circle withdraws." He gathers the wounded cultists and retreats into the shadows of the temple.
 
-The party could press the attack, but Lyra is at 6 HP, Kael is at 5, and the Knight might have reinforcements. They let them go.
+The party could press the attack, but Lyra is at 6 HP, Kael is at 4, and the Knight might have reinforcements. They let them go.
 
 *Total combat time at the table:* About 8 minutes. Two full rounds. Everyone acted. Damage was exchanged. The Knight broke on morale. The story advanced. That's _Heroes of Legend_ combat.
 

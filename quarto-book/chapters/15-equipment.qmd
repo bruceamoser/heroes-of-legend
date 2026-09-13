@@ -12,7 +12,7 @@ _Placeholder for final art._
 
 Your hero is going to need gear. A sword, some armor, a rope, a torch, a bedroll, and probably a ten-foot pole because someone at the table has read about pit traps. Equipment is the stuff between your hero and a bad day. Choose it well.
 
-The tables in this chapter list weapons by required Disciplines, armor by damage reduction, and adventuring gear by utility. Prices are in gold pieces (gp), the standard currency of the realms. A laborer earns about 1 gp a month. Prices vary by region and availability; the DA sets the cost in their world. Keep that in mind when you're haggling with the blacksmith. You're not just buying gear, you're spending someone's annual salary.
+The tables in this chapter list weapons by required Disciplines, armor by weight class, cost, and slots, and adventuring gear by utility. Prices are in gold pieces (gp), the standard currency of the realms. A laborer earns about 1 gp a month. Prices vary by region and availability; the DA sets the cost in their world. Keep that in mind when you're haggling with the blacksmith. You're not just buying gear, you're spending someone's annual salary.
 
 #pagebreak()
 
@@ -80,7 +80,7 @@ Weapons don't just require more of the same Discipline, they require specific co
 
 == Armor
 
-Armor provides damage reduction (DR), subtract from incoming physical damage.
+Armor is what you wear: it is a choice about weight, cost, slots and donning time. Your Damage Reduction comes from your talents and abilities, not from your armor. See @sec-chapter-armor-shields
 
 #figure(
   align(center)[#table(
@@ -102,7 +102,7 @@ Armor provides damage reduction (DR), subtract from incoming physical damage.
 
 Full table with Stealth column: see @sec-chapter-armor-shields
 
-Shields: *Buckler* (1 Protection, +1 DR), *Shield* (1 Protection, +2 DR), *Tower Shield* (2 Protection, +3 DR, provides half cover). Prices: see @sec-chapter-armor-shields
+Shields: *Buckler* (1 Protection), *Shield* (1 Protection), *Tower Shield* (2 Protection, provides half cover). A shield enables Parry and Shield Block. Prices: see @sec-chapter-armor-shields
 
 == Encumbrance
 

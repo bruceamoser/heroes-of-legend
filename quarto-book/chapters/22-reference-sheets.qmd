@@ -352,8 +352,6 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   [Plate], [Heavy], [300 gp], [4],
 )], kind: table, numbering: none, outlined: false)
 
-*Half Plate, Chain Mail, and Plate reduce speed by 5 ft.*
-
 #figure(align(center)[#table(
   columns: (25.81%, 41.94%, 32.26%),
   align: (auto, auto, auto,),
@@ -394,5 +392,5 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 
 *The weapon never changes your damage. See @sec-chapter-talents-abilities for what a range of two numbers means, and @sec-chapter-equipment for weapons in full, including which are drawn from a starting kit.*
 
-*Defense summary:* Armor grants DR (passive damage reduction). Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields grant a DR bonus and the Shield Block reaction.
+*Defense summary:* Your Damage Reduction (DR) comes from talents such as Iron Skin, not from your armor. Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields enable the Parry skill and the Shield Block reaction.
 ```

@@ -104,8 +104,8 @@ When an NPC or monster attacks your hero, you make a *Defense Roll*. Which formu
 
 - *Agility* is your reaction speed, your footwork, your instinct to duck.
 - *Dodge* lets you get out of the way. It adds your Dodge rank to your Agility.
-- *Parry* lets you block with a weapon or shield, which requires one in hand. It adds your Parry rank to your Brawn. A shield enables Parry and grants DR, but it never adds a roll bonus.
-- *Armor and shields* do not add to this roll. They reduce the damage you take through Damage Reduction (DR). See @sec-chapter-armor-shields
+- *Parry* lets you block with a weapon or shield, which requires one in hand. It adds your Parry rank to your Brawn. A shield enables Parry and Shield Block, but it never adds a roll bonus.
+- *Armor and shields* do not add to this roll. Your Damage Reduction (DR) comes from your talents, not from your gear. See @sec-chapter-armor-shields
 - *Challenge* is a penalty the DA applies. A goblin might be −1 (barely a threat). A dragon might be −6 (good luck). The DA tells you the number before you roll. A monster's stat block prints this same number as a positive rating, so the Challenge 3 knight imposes −3 on your roll.
 
 === Reading the Defense Result
@@ -143,13 +143,13 @@ A goblin lunges at Kael with a rusty scimitar. The DA says: "The goblin's attack
 
 Kael has Agility +2. He rolls 3d6 + 2 (Agility) − 1 (goblin's Challenge) = 3d6 + 1.
 
-He rolls 4, 3, 5 = 12, then adds +1 = 13. *Standard.* The goblin's Standard damage is 4. Kael's leather armor (DR 2) reduces it to 2. The goblin's blade scrapes across his ribs: shallow, painful, but not dangerous.
+He rolls 4, 3, 5 = 12, then adds +1 = 13. *Standard.* The goblin's Standard damage is 4. Kael's Iron Skin talent (Novice, DR 2) reduces it to 2. The goblin's blade scrapes across his ribs: shallow, painful, but not dangerous.
 
 Kael has no defensive skill in this example, so he uses the baseline formula. Had he trained Dodge, he could have rolled Agility + Dodge rank; with Parry and a weapon or shield in hand, he could have rolled Brawn + Parry rank.
 
 Later, a Knight of the Iron Circle attacks Kael. "Challenge −3," the DA says. Kael rolls 3d6 + 2 − 3 = 3d6 − 1. He rolls 2, 3, 2 = 7 − 1 = 6. *Weak.* The Knight's Strong damage is 12. Kael's armor reduces it to 10. That one hurt.
 
-If Kael had trained the Armor Discipline and worn plate (DR 6), the Knight's Strong damage of 12 would have been cut to 6. Armor never adds to your Defense Roll. It reduces whatever damage the roll lets through.
+If Kael had trained the Armor Discipline and taken Iron Skin at Adept rank (DR 5), the Knight's Strong damage of 12 would have been cut to 7. Armor never adds to your Defense Roll. It reduces whatever damage the roll lets through.
 
 #pagebreak()
 == Critical Hits (Three Natural 6s)
@@ -194,7 +194,7 @@ Fumbles are automatic failures on any roll where failure is possible. On an atta
     [1], [*Weapon Trouble.* Drop your weapon or jam your bow. Takes an action to fix.],
     [2], [*Friendly Fire.* Nearest ally takes your attack's Weak damage. If no ally is within reach, the swing finds nothing but air.],
     [3], [*Off Balance.* The next Defense Roll you make has a Bane.],
-    [4], [*Gear Damage.* A piece of gear fails. Your shield cracks and loses its DR until repaired, or your bowstring snaps and takes an action to restring. Armor's DR is permanent and never degrades.],
+    [4], [*Gear Damage.* A piece of gear fails. Your shield splinters and cannot be used to Shield Block until repaired, or your bowstring snaps and takes an action to restring.],
     [5], [*Spell Backfire.* Take 2 force damage yourself, or if you're not casting, your arcane focus shatters or your weapon misfires. Magic is fickle.],
     [6], [*Narrative Twist.* The DA introduces an unexpected complication. Be creative.],
   )],
