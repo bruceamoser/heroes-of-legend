@@ -128,7 +128,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Hidden:* Concealed from an observer: attacks against you have Bane, and you are not seen until you attack or the concealment ends.
 
-*Escape:* The Action that frees you from Grappled or Restrained. An Agility roll against the situation rather than the grappler, with the DA setting the difficulty. A Standard result grants a Boon on your next Escape; a Strong result frees you and takes you out of the scene.
+*Escape:* The Action that frees you from Grappled or Restrained. An Agility roll against the situation rather than the grappler, with the DA setting the difficulty. A Standard result grants a Boon on your next Escape; a Strong result breaks you free and ends the condition.
 
 *Condition:* A temporary status effect. Blinded, Charmed, Dazzled, Deafened, Frightened, Grappled, Incapacitated, Invisible, Paralyzed, Petrified, Prone, Restrained, Stunned, Unconscious.
 
