@@ -1,0 +1,95 @@
+{
+  "id": "f-010",
+  "round": 2,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Round two hands me a prescription to test rather than a position to break: a three-cell repair of the armour table, and a column-budget change to the same figure. I applied both to a scratch copy of the book, rebuilt it end to end, and re-ran the eight-row dominance sweep on prices as printed and as repaired. Four results. (1) THE REPAIR'S SCOPE IS WRONG. The DR cell it moves is not owned by one file: the same value is printed in the canon home, in the equipment summary's third cell, and on the reference sheet's second. The same finding's own evidence block concedes that a DR change must be mirrored in both restatements, yet its remedy sentence bounds the edit set to this chapter. Executed literally, the canon home reads DR 3 while the summary and the at-the-table sheet still read 2, which manufactures a fresh cross-chapter contradiction inside the one topic whose rule turns on which file is canon, and which would falsify the round-one claim that every armour value already agrees across those three files. The real edit set is five cells across three files: two prices and one DR here, one DR in each restatement. (2) THE LADDER'S RATES DO NOT SURVIVE. Three strictly dominated pairs before, none after, so the headline count is confirmed and the relocation trap the finder warned about did not fire: the loud twin is cheaper than the quiet one at equal DR and still carries its Bane. But the fix's own new step establishes a rate it never honours. The repriced DR-4 row sits 15 gp under chain mail with identical requirement, identical Bane and identical speed cut, so one DR costs 15 gp on that step. The row the fix left alone charges 75 gp for one DR and one rank, and the step below it charges 15 gp for the same pair, so the rank is free on one step and 60 gp on the next. Price the untouched quiet step at the fix's own rate and the breastplate lands at 40 gp: cheaper than, equal in DR and requirement to, and strictly better on Stealth and movement than the DR-4 row the fix just rescued, which is the domination returning. Zero-after therefore holds only at the specific number the fix did not touch; a single consistent rate restores the exact defect it removed. The same incoherence appears on the drawback side: the identical Stealth Bane is discounted 5 gp on the DR-3 pair and 40 gp, bundled with the speed cut, on the DR-4 pair. (3) THE COLUMN SPLIT SURVIVES ITS TEST, NOT ITS BASIS. I built it. All eight rows close on the page they already occupied, no header repeats, both shrunk headers print on one line, and the chapter's six section folios are identical to the pre-fix render, so there is no counter-example on the primary claim and the page-shift worry is dead. But the cut is justified by the longest entry a column holds, when the string the shrink must actually fit is that column's header. At ten per cent the Stealth header has 30.6 pt of cell against 28.1 pt of glyphs, 2.5 pt of margin, while the column cut less keeps 12.8 pt idle. Splitting the same 25 points evenly between the two binding headers leaves 7.6 pt on each at no cost to the total. The numbers pass; they are not the numbers the finder's own reasoning implies. (4) TESTED AND STANDING. The pre-fix sweep reproduces exactly the three dominated pairs, from the two losing rows, that my round-one finding named, so the defect was real and this round does not touch it; what changes is its footprint, because the repair reaches two files beyond the canon home. I amend my finding to that scope and withdraw nothing else.",
+  "evidence": [
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The canon home prints the studded leather row at 25 gp, one Armor rank and DR 2, which is the value the three-cell repair moves to 3.",
+      "quote_or_excerpt": "[*Studded Leather*], [25 gp], [1 Armor], [2], [], [Leather reinforced with rivets."
+    },
+    {
+      "source": "15-equipment.qmd",
+      "claim": "The equipment summary restates the same row and carries its DR as the third cell, so the DR edit is not local to the canon home.",
+      "quote_or_excerpt": "[*Studded Leather*], [1 Armor], [2], [2],"
+    },
+    {
+      "source": "15-equipment.qmd",
+      "claim": "The summary's own header fixes that third cell as DR rather than a slot count, which is what makes the restatement a second home for the value.",
+      "quote_or_excerpt": "table.header([Armor], [Discipline], [DR], [Slots],)"
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "The reference sheet restates the same value as the second cell of its row, giving the DR edit a third home on the sheet a GM uses at the table.",
+      "quote_or_excerpt": "[Studded Leather], [2], [], [1 Armor],"
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "That sheet's header confirms the second cell is DR, so the three printed copies are the canon home plus two restatements.",
+      "quote_or_excerpt": "table.header([Armor], [DR], [Stealth], [Disc Req],)"
+    },
+    {
+      "source": "f-006",
+      "claim": "The remedy sentence confines the whole edit set to the one chapter, which is the scope claim the restatements break.",
+      "quote_or_excerpt": "Prescription, three cells, all in this chapter"
+    },
+    {
+      "source": "f-006",
+      "claim": "The same finding's evidence block already records that a DR change has to be mirrored in both restatements, so its remedy contradicts its own proof.",
+      "quote_or_excerpt": "whereas a DR or Stealth change must be mirrored in both restatements"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Pairwise sweep over all eight rows on cost, requirement, DR, Stealth and speed, run twice on the same six axes. As printed it returns three strictly dominated pairs - the quiet DR-2 row beaten by leather, and the DR-4 penalised row beaten by both the quieter DR-4 row and the DR-5 row. Re-run at the repaired prices and the repaired DR it returns none, so the headline count is confirmed and the loud twin is not the new loser.",
+      "quote_or_excerpt": "before: StuddedLeather>ChainShirt, Breastplate>HalfPlate, ChainMail>HalfPlate (3); after: none"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The repaired table prices a DR point at 15 gp on the step the fix created, but at a different figure on the step it left alone, so the table carries no single rate for DR and none at all for the rank.",
+      "quote_or_excerpt": "60->75 = +15 gp for +1 DR, all else identical; 25->100 = +75 gp for +1 DR +1 rank; 10->25 = +15 gp for the same pair"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Applying the fix's own new rate to the untouched quiet step prices that row at 40 gp, and the sweep then reports the DR-4 penalised row strictly dominated again by a cheaper, quieter, faster row of equal DR and requirement.",
+      "quote_or_excerpt": "at 15 gp/DR the quiet step implies 25 + 15 = 40 gp; 40 gp quiet DR 4 vs 60 gp penalised DR 4 -> domination returns: True"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The drawback is priced two different ways in the same repaired table: the single Bane separating the two DR-3 rows is worth 5 gp, while the identical Bane on the DR-4 pair is separated by 40 gp once the speed cut is bundled in.",
+      "quote_or_excerpt": "Bane on the DR-3 pair: 25 - 20 = 5 gp; Bane + speed cut on the DR-4 pair: 100 - 60 = 40 gp"
+    },
+    {
+      "source": "reasoning",
+      "claim": "A scratch copy of the book was patched with the proposed column budget and rendered in full. The armour figure now closes on the printed page it already started on with all eight data rows present and no repeated header, the following section moves up onto the same page, and the chapter's six section folios are identical to the pre-fix build, so no cross-reference or table-of-contents update is triggered.",
+      "quote_or_excerpt": "render: all 8 rows on printed page 243; TOC 18.1-18.6 = 242,243,245,246,247,248 before and after"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Measured line counts confirm the height claim by construction rather than by model: the eight data rows carried 46 printed text lines before the repair and carry 18 after, which is why the break disappears.",
+      "quote_or_excerpt": "lines per row before 5,4,5,6,5,8,5,8 = 46; after 2,2,2,2,2,3,2,3 = 18"
+    },
+    {
+      "source": "f-007",
+      "claim": "The shrink is justified by the longest value a column holds, which is the wrong binding string because the column's own header is longer and must fit the same budget.",
+      "quote_or_excerpt": "Stealth, whose longest entry is the four-letter Bane"
+    },
+    {
+      "source": "_extensions/heroes-of-legend/style.typ",
+      "claim": "The table's horizontal cell inset is fixed by the theme, so a column's usable width is its budgeted width minus fourteen points, which is the figure the header margin is computed against.",
+      "quote_or_excerpt": "inset: (x: 7pt, y: 5pt),"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Against a 446.4 pt table the proposed budget leaves the shrunk Stealth header 2.5 pt of clearance while the column cut less keeps 12.8 pt unused; at equal binding-header margins the same 25 points give each about 7.6 pt, so the proposed split is not the one the constraint implies.",
+      "quote_or_excerpt": "Stealth 10% -> 30.6 pt cell - 28.1 pt header = 2.5 pt; Discipline 15% -> 53.0 pt cell - 40.2 pt header = 12.8 pt; even split 13.9/11.1 -> 7.6 pt each"
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": [
+    "f-006",
+    "f-007"
+  ]
+}

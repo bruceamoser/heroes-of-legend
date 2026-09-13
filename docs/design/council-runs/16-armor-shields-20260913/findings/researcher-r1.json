@@ -1,0 +1,107 @@
+{
+ "id": "f-001",
+ "round": 1,
+ "role": "researcher",
+ "topic": "t-02",
+ "stance": "refute",
+ "argument": "Priced against its own tables, chapter 16 is inconsistent in three ways, and all three are arithmetic. (I) The casting callout prices Plate at a numeric -3 and a Breastplate at -1, while the table one screen above assigns Plate Triple Bane and Breastplate a single Bane. Exhaustive enumeration of the dice gives 3d6 mean 10.5000 against 8.7554 for a Bane, 7.5698 for a Double Bane and 6.7262 for a Triple Bane, so the real expected drops are 1.7446, 2.9302 and 3.7738 points. The printed -3 matches Double Bane, not the Triple Bane Plate actually carries, and -1 matches no row at all, since one Bane is already worth 1.7446. Both numbers are also illegal Bane-count translations under convention 1, they appear in no other chapter, and the same table's vocabulary (Boon, Double Boon, Triple Boon) is used unchanged for spell rolls in ch09, so a two-number edit clears it. (II) The eight-row DR curve is non-convex. Cheapest gold per DR at each tier runs 5.00, 5.00, 16.67, 25.00, 15.00, 50.00, and the marginal cost of each successive point of DR on that cheap frontier is +5, +40, +50, then -25, then +225 gp. That negative step is the arithmetic proof of a dominated row: Chain Mail gives DR 5 for 75 gp (15.00 gp/DR) while Half Plate gives DR 4 for 150 gp (37.50 gp/DR) with the same Stealth Bane, the same 5 ft speed cut and the same 2 Armor rank, so the lower-DR row costs exactly double. Leather dominates Studded Leather the same way: both are DR 2 with no Stealth entry, but Leather is 10 gp at no rank while Studded Leather is 25 gp at 1 Armor rank, a 15 gp plus one-rank premium for zero DR. Plate is the worst case, because the chapter's own Option B reaches the identical DR 6 for 115 gp (Breastplate 100 + Shield 15) with no Stealth Bane, no speed cut, one fewer Armor rank needed and an extra reaction, so Plate's 300 gp is a 185 gp surplus, 2.61x that build, and its last DR point costs 225 gp against a prior step of 50 gp, 4.5x the largest earlier step. The drawbacks are priced incoherently too: Chain Mail sits 25 gp below the cleaner Breastplate with one point more DR (so the two drawbacks are priced at -25 to -75 gp mid-table) yet at the top they cost nothing, since Plate and Chain Mail carry them identically. (III) Shield Block is not the uniform one-step cut the rule describes. Against the Warchief's 6/9/12 the raw drop is 3 on the Strong hit and 3 on the Standard hit, but 5 on the Weak hit, because the missing lower tier is replaced by a fixed 1. The DR floor then inverts the ranking: a DR-6 defender prevents 3 HP by blocking the Strong hit, 2 by blocking the Standard hit and 0 by blocking the Weak one. Priced per use the reaction beats the shield's own +2 passive DR by 3 to 2, but the passive pays on every attack with no reaction spent, and across the three attackers in the chapter's own example the passive prevents 6 HP per round against the reaction's 3, so the passive bonus, not the reaction, is the larger half of the shield's value at any realistic attack count. Secondary: Option B buys a shield with coin (not kit) yet budgets no Protection rank, though the Shields section requires one. Cleared items: the shield prices and DR (+1/+2/+3 at 10/15/40 gp), the Strong-to-Standard example arithmetic, the Option A/B/C Armor DP ladder (1/2/4 Home), and the three Defense Roll results all reconcile exactly; at 7.50 gp per DR the Shield is cheaper per point than every armor row except Padded and Leather at 5.00.",
+ "evidence": [
+  {
+   "source": "16-armor-shields",
+   "claim": "The spellcasting table assigns Plate a Triple Bane, which convention 1 fixes at 6d6 keep lowest 3, not a number.",
+   "quote_or_excerpt": "[Plate], [Triple Bane on spell rolls]"
+  },
+  {
+   "source": "16-armor-shields",
+   "claim": "The same table assigns Breastplate one Bane and gives Half Plate and Chain Mail a Double Bane, so the ladder has three rungs, not a numeric scale.",
+   "quote_or_excerpt": "[Half Plate, Chain Mail], [Double Bane on spell rolls]"
+  },
+  {
+   "source": "16-armor-shields",
+   "claim": "The callout under that table states Plate's cost as the numeric -3, which contradicts the Triple Bane printed directly above it.",
+   "quote_or_excerpt": "you'll cast every spell at -3"
+  },
+  {
+   "source": "16-armor-shields",
+   "claim": "The same callout prices the Breastplate at -1, but the table gives it a single Bane, so the prose and the row disagree.",
+   "quote_or_excerpt": "no Stealth penalty, only -1 to casting"
+  },
+  {
+   "source": "reasoning",
+   "claim": "Exact enumeration of every ordered roll: a Bane (4d6 keep lowest 3) averages 8.7554, a Double Bane 7.5698 and a Triple Bane 6.7262 against the 3d6 mean of 10.5000, so the true costs are 1.7446, 2.9302 and 3.7738 points. The printed -3 is nearest Double Bane and -1 is nearest nothing in the table; the ladder is also sublinear, so the naming implies a linearity the dice do not deliver.",
+   "quote_or_excerpt": "Triple Bane 3.77; Double Bane 2.93; Bane 1.74"
+  },
+  {
+   "source": "09-talents-abilities.qmd",
+   "claim": "The book's own spell-roll vocabulary uses the prose-count form (Boon, Double Boon, Triple Boon), confirming that the table's Triple Bane is the live mechanic and the callout's numeric form is the outlier.",
+   "quote_or_excerpt": "Triple Boon on spell rolls for one Discipline"
+  },
+  {
+   "source": "10-magic-system.qmd",
+   "claim": "Spell rolls are 3d6 plus an attribute plus a skill, so a Bane on a spell roll lands on the same 3d6 baseline the expected-value figures use.",
+   "quote_or_excerpt": "roll 3d6 + Knowledge + relevant skill"
+  },
+  {
+   "source": "16-armor-shields",
+   "claim": "Half Plate is DR 4 at 150 gp with a Stealth Bane and a 5 ft speed cut, giving 37.50 gp per point of DR.",
+   "quote_or_excerpt": "[Half Plate], [150 gp], [2 Armor], [4], [Bane]"
+  },
+  {
+   "source": "16-armor-shields",
+   "claim": "Chain Mail is DR 5 at 75 gp with the identical Stealth Bane, speed cut and 2 Armor rank, giving 15.00 gp per point of DR; it is cheaper and strictly better than Half Plate on every axis this table prints, so Half Plate is dominated.",
+   "quote_or_excerpt": "[Chain Mail], [75 gp], [2 Armor], [5], [Bane]"
+  },
+  {
+   "source": "16-armor-shields",
+   "claim": "Leather is DR 2, needs no Discipline rank, and has no Stealth entry, at 10 gp.",
+   "quote_or_excerpt": "[Leather], [10 gp], [None], [2]"
+  },
+  {
+   "source": "16-armor-shields",
+   "claim": "Studded Leather is also DR 2 with no Stealth entry but costs 25 gp and requires 1 Armor rank, so it is 15 gp and one rank worse than Leather for the same protection.",
+   "quote_or_excerpt": "[Studded Leather], [25 gp], [1 Armor], [2]"
+  },
+  {
+   "source": "16-armor-shields",
+   "claim": "The chapter's own worked build reaches DR 6 from Breastplate plus Shield for 115 gp without either drawback, leaving Plate's 300 gp (2.61x) buying only one extra Armor rank and worse drawbacks for the same DR.",
+   "quote_or_excerpt": "Option B, Breastplate + Shield (DR 4 + Shield Block)"
+  },
+  {
+   "source": "16-armor-shields",
+   "claim": "The example states the Option B build's passive DR as 6, identical to Plate's DR, which is what makes the price gap a same-benefit comparison.",
+   "quote_or_excerpt": "Total passive DR: 6"
+  },
+  {
+   "source": "15-equipment.qmd",
+   "claim": "The only axis that could rescue Half Plate is the Slots column, which gives it 3 slots against Chain Mail's 4; that column exists only in ch15, and this chapter's canon table omits it, so as printed here Half Plate has no compensating advantage.",
+   "quote_or_excerpt": "[Half Plate], [2 Armor], [4], [3]"
+  },
+  {
+   "source": "22-reference-sheets.qmd",
+   "claim": "The at-table reference sheet reproduces the same drawback profile, giving Half Plate DR 4 with a Stealth Bane and a 2 Armor requirement, so the dominated row is propagated to the quick-reference material.",
+   "quote_or_excerpt": "[Half Plate], [4], [Bane], [2 Armor]"
+  },
+  {
+   "source": "16-armor-shields",
+   "claim": "The Shield Block rule replaces the missing lower tier with a fixed 1, so the Weak step is not a tier step: on the Warchief's 6-damage Weak hit it removes 5 raw points, more than the 3 the same reaction removes from the 12-damage Strong hit.",
+   "quote_or_excerpt": "Standard → Weak, Weak → 1 damage"
+  },
+  {
+   "source": "16-armor-shields",
+   "claim": "The Shield costs 15 gp for +2 DR, i.e. 7.50 gp per point, cheaper than every armor row except Padded and Leather at 5.00, and far below the 100.00 gp per point the armor table charges for its last two DR points (Breastplate 100 to Plate 300).",
+   "quote_or_excerpt": "Shield (15 gp): 1 Protection, +2 DR"
+  },
+  {
+   "source": "reasoning",
+   "claim": "Per use, Shield Block prevents 3 HP against the Warchief's 12-damage Strong hit while the shield's passive +2 DR prevents 2 HP on any unfloored hit, so the reaction is 1.5x the passive; but the reaction is once per round while the passive applies to every attack, and over the example's three attackers the passive prevents 6 HP to the reaction's 3, making the passive the larger half. Blocking the Weak hit prevents 0 HP at DR 6 because DR has already floored that damage to 1.",
+   "quote_or_excerpt": "reaction 3 HP once; passive 2 HP per hit"
+  },
+  {
+   "source": "reasoning",
+   "claim": "Frontier arithmetic for the eight rows: cheapest gold per DR by tier is 5.00, 5.00, 16.67, 25.00, 15.00, 50.00, and the successive marginal costs are +5, +40, +50, -25, +225 gp. The -25 step (Breastplate 100 to Chain Mail 75) means the fifth DR point is cheaper than the fourth, and the last point costs 4.5x the largest earlier step.",
+   "quote_or_excerpt": "marginal DR costs +5, +40, +50, -25, +225"
+  }
+ ],
+ "confidence": 0.82,
+ "rebutting": []
+}

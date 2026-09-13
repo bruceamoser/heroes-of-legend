@@ -1,0 +1,87 @@
+{
+  "id": "librarian-r2-t03",
+  "round": 2,
+  "role": "librarian",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "Three open items settle, and the book is still not clean on either contested point. (1) SPEED PENALTY - f-003 defended, and the game-architect's fix verifies against the files. Three chapters outside this one already read the five-foot cut as a property of the heavy class rather than of a named row: ch02's derived-stat Movement row writes it as a heavy-armor term with no member list, ch03's movement line assigns that class alone the loss, and ch02's Protector walkthrough attrs a chain-mail heroine's 20-foot move to the same label. ch22's armor footnote names the same three rows this chapter's table notes do. Classing Half Plate and Chain Mail heavy makes the slowed set and the heavy set one set of three, which is exactly the reading those three files assume, and the repair stays local to ch16: ch02's derived row, ch03's movement line and ch17's magic-item type field all say the class, not the members, so they need no edit once the members are right. The one-line donning edit therefore repairs the contradiction instead of relocating it, and ch03's rule lands on precisely the rows carrying the cut in this chapter's table and in ch22. Two consequences the edit must accept, neither of them a new defect: doffing time for the two relocated rows rises from five to ten minutes under the same sentence's own ladder, and the three notes cells then restate a property the donning sentence states once (redundant, not inconsistent). The kit-DR undercount stays as filed - no round-1 ballot contested it, and both f-004 and f-006 corroborate it. (2) HOBGOBLIN DR LEAD - withdrawn, and the lead was wrong. Monster DR does not mirror armor DR. The bestiary's own monster-building note sets DR from Challenge: halve it, round down, cap at six, then hand-tune. The armoured blocks follow that budget, and the armor name in the parenthetical is a descriptive label rather than the source of the number. Two Challenge 1/2 creatures in chain shirts both print DR 1 - four below this chapter's chain shirt - while a Challenge 1/2 orc in hide prints the same 1; a Challenge 1 knight in plate and a Challenge 3 Orc Warchief in plate both print 6, and the Challenge 8 Death Knight prints 6 as well, pinned at the cap. So same armor, different numbers; different armor, same numbers; the only alignment with ch16 (plate at 6) is the shared ceiling of six, not a mirror. There is no pattern to fix and I withdraw the item as a cross-chapter defect. (3) f-005 - counts verified, and its fix does not follow from f-006's edit. Case-insensitive over all 25 chapter files I get one light-armor phrase, one medium-armor phrase (both here), and six heavy-armor occurrences across five files, all five outside uses non-enumerating. This chapter's armor table has six columns and none of them is a class; ch15's summary has four and ch22's four, so no restated table carries the taxonomy either. The glossary holds 97 headwords with no armor, shield or class entry; the only near-matches are the Light weapon property and the Shield Block reaction. On placement: the table and the glossary close different halves of the gap, so the honest answer is both, with different jobs. A class column or row-level footnote in the armor table answers the row question - which of these eight am I slowed in - and must be mirrored in the ch15 and ch22 restatements, which carry no class at all. A glossary headword naming the three heavy rows answers the term question in one file, but leaves the tables un-scannable. A donning-line-only edit (f-006's one line) closes the contradiction and closes neither registration half, because the class already carries rule weight in four chapters outside this one and four of those five outside uses never touch a row. Cutting the taxonomy instead is not free: it costs ch03's movement line, ch02's derived row, ch08's Armor discipline descriptor and ch17's type field, plus the three notes cells. Registering costs the donning edit, one column mirrored across three tables and one headword. I record both arithmetic lists rather than pick a side; the chapter is not clean under either direction.",
+  "evidence": [
+    {
+      "source": "16-armor-shields",
+      "claim": "The Armor Table attaches the five-foot speed cut to exactly three rows - Half Plate, Chain Mail and Plate - inside their Notes cells, and the donning sentence beneath it is the chapter's only class enumeration, filing two of those three as medium and Plate as the sole heavy row.",
+      "quote_or_excerpt": "Reduces speed by 5 ft."
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The donning sentence hands a ten-minute doffing time to Plate alone, so the taxonomy that decides the speed cut is printed in a paragraph about suiting-up time rather than in the stats table.",
+      "quote_or_excerpt": "Heavy armor (Plate): 10 minutes."
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The Armor Table's six column headers are Armor, Cost, Discipline, DR, Stealth and Notes, so there is no class column for a reader to scan when applying a rule that names the class.",
+      "quote_or_excerpt": "table.header([Armor], [Cost], [Discipline], [DR], [Stealth], [Notes]"
+    },
+    {
+      "source": "02-character-creation.qmd",
+      "claim": "The derived-stat table's Movement row states the reduction as a heavy-armor term, which is the book legislating the penalty as a class property with no members named.",
+      "quote_or_excerpt": "heavy armor: -5 ft"
+    },
+    {
+      "source": "03-attributes.qmd",
+      "claim": "The attributes chapter's movement rule gives that class alone the loss and never enumerates which armors qualify, so a reader applying it must resolve the class elsewhere.",
+      "quote_or_excerpt": "heavy armor slows you by 5 feet"
+    },
+    {
+      "source": "02-character-creation.qmd",
+      "claim": "The sample Protector is equipped in chain mail and her derived stats attribute the reduced movement to the heavy class plus dwarf ancestry, which is the book's own precedent for classing chain mail heavy.",
+      "quote_or_excerpt": "Movement 20 ft (heavy armor + dwarf)"
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "The reference sheet's armor footnote singles out the same three rows for the cut, and its table carries DR, Stealth and Discipline columns with no class column, so the slowed set and the heavy set coincide in intent even though this chapter's donning list separates them.",
+      "quote_or_excerpt": "Half Plate, Chain Mail, and Plate reduce speed by 5 ft."
+    },
+    {
+      "source": "15-equipment.qmd",
+      "claim": "The equipment summary's armor table is four columns wide (Armor, Discipline, DR, Slots) with no class column, and its pointer defers only the Stealth column here, so a class column added here would also be absent from the summary that mirrors it.",
+      "quote_or_excerpt": "Full table with Stealth column: see"
+    },
+    {
+      "source": "21-glossary.qmd",
+      "claim": "The glossary carries 97 headwords and none names an armor, a shield or a weight class; the only near-matches are the Light weapon property and the Shield Block reaction, both different concepts from the class the movement rule cites.",
+      "quote_or_excerpt": "Light:* A weapon property"
+    },
+    {
+    "source": "reasoning",
+      "claim": "Case-insensitive exact-phrase count over all 25 .qmd files in the chapters directory: the light-armor phrase occurs once, the medium-armor phrase once (both in this chapter) and the heavy-armor phrase six times across five files, with all five outside occurrences non-enumerating.",
+      "quote_or_excerpt": "counts: light 1, medium 1, heavy 6 over 5 files"
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "Two Challenge 1/2 creatures in chain shirts both print DR 1, four below this chapter's value for that armor, while an orc in hide prints the same DR 1 at the same Challenge - so the number tracks Challenge, not the gear name.",
+      "quote_or_excerpt": "HP 8, DR 1 (chain shirt)."
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "The monster-building note derives DR from Challenge, halved and rounded down, capped at six and left to taste, which is the budget every printed block follows; the plate blocks sit at the cap rather than echoing the armor table.",
+      "quote_or_excerpt": "DR = Challenge / 2 (round down), max 6"
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "A Challenge 1 knight in plate prints DR 6 and a Challenge 8 Death Knight prints 6 as well, so plate's agreement with this chapter is the shared ceiling of six rather than a mirrored armor value.",
+      "quote_or_excerpt": "HP 40, DR 6 (plate + unholy)."
+    },
+    {
+      "source": "17-magic-items.qmd",
+      "claim": "The weight class is used as a typed classification field on a magic armor entry, so the vocabulary carries load away from the donning paragraph while remaining unregistered.",
+      "quote_or_excerpt": "*Type:* Heavy Armor"
+    },
+    {
+      "source": "08-disciplines.qmd",
+      "claim": "A discipline descriptor names heavy-armor proficiency, another outside use of the class that names no members and would need rewording if the taxonomy were cut instead of registered.",
+      "quote_or_excerpt": "Heavy armor proficiency, damage soaking"
+    }
+  ],
+  "confidence": 0.82,
+  "rebutting": ["f-003", "f-005", "f-006"]
+}

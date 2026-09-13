@@ -1,0 +1,117 @@
+{
+  "id": "f-016",
+  "round": 1,
+  "role": "game-architect",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Refute: the canon home for armor DR prints three dominations, a class/speed contradiction, a casting penalty stated as numbers, and a worked example that undercounts a free kit. I decide the fixes, not just the breakages. (1) The ladder contains three strict dominations: leather, which is cheaper and needs no training, equals studded leather's DR 2 and its silence, so no price can rescue that row; and half plate, alone at 150 gp, is beaten by the breastplate (same DR, same two ranks, no penalties, 100 gp) and by chain mail (75 gp, one DR higher, identical penalties). Prescription, three cells, all in this chapter: studded leather DR 2 -> 3; chain shirt 50 gp -> 20 gp, which must sit strictly under studded leather's 25 gp so the loud twin is genuinely cheaper (at 25 the pair ties and the quiet twin dominates); half plate 150 gp -> 60 gp, strictly under chain mail's 75 gp, which repairs it on the price axis and leaves its DR and Stealth cells alone, so ch15 and ch22 need no edit. DR is the only in-grammar lever for studded leather: the book has no armor-property set to add a rider from, and a price below 10 gp merely hands the loss to leather. I enumerated the eight-row table before and after; three dominated pairs before (studded lost to leather; half plate lost to breastplate and to chain mail), zero after. Repairing studded leather's DR with no other change introduces exactly one new dominated pair, with chain shirt as the loser - the same relocation trap as repricing the costliest bow. (2) Half plate is heavy, and the speed penalty follows the taxonomy rather than getting its own column. The donning line must leave chain shirt and breastplate as the only medium armors and move half plate and chain mail into the heavy set with plate, so the slowed set and the heavy set are the same three rows, and the five-foot loss is stated once as a class property instead of thrice in the notes. The taxonomy is the cheap side of the contradiction because this chapter owns the class list, while the rule already exists as law in two other chapters, one of them a derived-statistics table feeding character creation. (3) The casting callout's numbers become prose counts: plate is a triple Bane, a breastplate a single Bane, exactly as the table above it already says. The printed -3 is the double-Bane figure (2.93 below the 10.50 mean) while plate carries a triple (3.77 below), so it understates the armor it names, and -1 matches no row in a table whose lightest penalty is 1.74 - and convention 1 forbids any Bane-to-number translation, so no replacement number exists. (4) The example totals from the kit. A starting Protector's free loadout is DR 7 (the kit's mail at 5 plus its shield at 2), so the printed starting totals of 5 and 6 are both undercounts, the shield charged as extra coin is kit gear, and the recommended breastplate build is one DR below what the hero already owns. Correct totals: kit 7, breastplate 6 (bought from a 10 gp purse), plate at L3 8. The two examples are coupled through that DR: if the first is corrected to the kit, the second's 9-6=3 and 12-6=6 become 9-7=2 and 12-7=5, so they ship in one commit. Unreported prerequisite gap, mine: the class grants Armor (1) but its kit issues mail needing two ranks, and this chapter's only training waiver was written for the kit shield, so either the waiver covers the mail (and the example's 2 DP outlay for Armor (2) is a charge the rules do not levy) or it does not (and a Level 1 Protector cannot lawfully wear the armor his own kit grants). Pick one reading and print it.",
+  "evidence": [
+    {
+      "source": "16-armor-shields",
+      "claim": "Armor table row: studded leather costs 25 gp, needs 1 Armor rank, and grants DR 2 with no Stealth penalty, which leather matches at 10 gp with no training requirement at all.",
+      "quote_or_excerpt": "[*Studded Leather*], [25 gp], [1 Armor], [2]"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "Armor table row: half plate costs 150 gp for DR 4 at 2 Armor ranks with a Stealth Bane and a five-foot speed cut, while breastplate prints the same DR and requirement at 100 gp with no penalties and chain mail prints DR 5 at 75 gp with the same penalties.",
+      "quote_or_excerpt": "[*Half Plate*], [150 gp], [2 Armor], [4], [Bane]"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Exact enumeration of the eight-row table over the six printed axes (cost, rank, DR, Stealth, speed, class) finds three strict dominations before the fix and zero after the three-cell edit; moving studded leather's DR alone yields one new dominated pair with chain shirt as the loser, and pricing that twin at 25 gp rather than 20 gp leaves it dominated by the quiet watch.",
+      "quote_or_excerpt": "before 3 dominated pairs; after DR3/20gp/60gp: none"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The donning section puts chain shirt, breastplate, half plate and chain mail in one class and makes plate the sole heavy armor, even though the table charges the five-foot cut to half plate and chain mail as well.",
+      "quote_or_excerpt": "Medium armor (Chain Shirt, Breastplate, Half Plate, Chain Mail)"
+    },
+    {
+      "source": "03-attributes.qmd",
+      "claim": "ch03 legislates the five-foot movement loss as a property of heavy armor specifically, so two armors this chapter classes as medium carry a penalty the movement rule reserves for heavy.",
+      "quote_or_excerpt": "heavy armor slows you by 5 feet"
+    },
+    {
+      "source": "02-character-creation.qmd",
+      "claim": "ch02's sample Protector wears chain mail and attributes her reduced movement to heavy armor, which is the book's own precedent for classing that armor heavy rather than medium.",
+      "quote_or_excerpt": "Movement 20 ft (heavy armor + dwarf)"
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "ch22 names the same three armors - half plate, chain mail and plate - as the ones carrying the speed cut, which is the set my taxonomy fix makes identical to the heavy class.",
+      "quote_or_excerpt": "Half Plate, Chain Mail, and Plate reduce speed"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The callout under the casting table translates a Bane count into a number for plate, and the value printed is the double-Bane figure rather than the triple the table assigns to plate.",
+      "quote_or_excerpt": "And you'll cast every spell at -3"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The same callout calls a breastplate a minus-one penalty, a value matching no row of the table above it, whose lightest penalty is a single Bane.",
+      "quote_or_excerpt": "a Breastplate (no Stealth penalty, only -1 to casting)"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The spellcasting table lists plate alone at a triple Bane and the plate/chain-mail pair at a double, so the callout's number contradicts the table printed immediately above it.",
+      "quote_or_excerpt": "[Half Plate, Chain Mail], [Double Bane on spell rolls]"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Exact dice enumeration on a keep-lowest-three distribution: 3d6 means 10.500; one Bane 8.755 (minus 1.745); two 7.570 (minus 2.930); three 6.726 (minus 3.774); a 4d6-keep-highest Boon is plus 1.745. So minus 3 is the double-Bane figure and minus 1 matches nothing.",
+      "quote_or_excerpt": "10.500 / 8.755 / 7.570 / 6.726, deltas -1.745 -2.930 -3.774"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The first worked example prints a chain-mail total of DR 5 and a breastplate-plus-shield total of DR 6, treating both as purchases, while both option lines include the shield his kit already issues.",
+      "quote_or_excerpt": "Total DR: 5"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The example charges the shield as an additional purchase even though the Protector kit contains one, and this chapter's own shield rule exempts kit gear from the rank requirement - the only reason the hero can wield it at all.",
+      "quote_or_excerpt": "The shield costs extra coin"
+    },
+    {
+      "source": "05-classes.qmd",
+      "claim": "The Protector's starting kit already contains chain mail at DR 5 and a shield at +2 DR, so a beginning hero's real passive DR is 7 before spending anything.",
+      "quote_or_excerpt": "Battleaxe, chain mail (DR 5), shield (+2 DR)"
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "ch22's creation checklist instructs every hero to take the class kit and record its armor DR, which makes the kit the free, universal baseline the example must total from.",
+      "quote_or_excerpt": "Take class starting kit."
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The shield rule's training waiver is worded for kit gear generally, which makes the example's 2 DP payment for a second Armor rank either unnecessary or, read narrowly, insufficient - the class grants only one Armor rank while its kit issues mail needing two.",
+      "quote_or_excerpt": "unless it came in your class starting kit"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The example's option line charges its hero 2 DP to wear the mail, which is the outlay the waiver's scope either removes or requires him to make out of his 8 class DP.",
+      "quote_or_excerpt": "He pays 2 DP for Armor (2)"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The second worked example repeats the DR 6 loadout and derives 9-6=3 and 12-6=6 from it, so correcting the first example's baseline to the kit propagates into these two lines and couples the pair.",
+      "quote_or_excerpt": "DR 6 soaks 9 down to 3"
+    },
+    {
+      "source": "15-equipment.qmd",
+      "claim": "ch15's armor summary carries no cost column and its pointer names only the Stealth column as deferred here, so armor prices live in this chapter alone and a price-only repair touches one file - while slots remain ch15's own encumbrance column.",
+      "quote_or_excerpt": "Full table with Stealth column: see"
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "ch22's armor table likewise has no cost column, confirming that repricing a row requires no edit outside the canon home, whereas a DR or Stealth change must be mirrored in both restatements.",
+      "quote_or_excerpt": "table.header([Armor], [DR], [Stealth], [Disc Req]"
+    },
+    {
+      "source": "08-disciplines.qmd",
+      "claim": "ch08's published Home ladder is one, two then four DP, which reconciles the example's DP arithmetic with the printed tiers, and its Foreign and Opposed ladders match the callout's parenthetical tier values - so the cost math is sound and I do not file it.",
+      "quote_or_excerpt": "[*Home*], [1 DP], [2 DP], [4 DP]"
+    }
+  ],
+  "confidence": 0.85,
+  "rebutting": []
+}

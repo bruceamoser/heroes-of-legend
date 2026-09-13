@@ -1,0 +1,10 @@
+{
+ "Padded": {"cost": 5, "discipline": 0, "dr": 1, "bane": false, "slow": false},
+ "Leather": {"cost": 10, "discipline": 0, "dr": 2, "bane": false, "slow": false},
+ "Studded Leather": {"cost": 25, "discipline": 1, "dr": 3, "bane": false, "slow": false},
+ "Chain Shirt": {"cost": 20, "discipline": 1, "dr": 3, "bane": true, "slow": false},
+ "Breastplate": {"cost": 100, "discipline": 2, "dr": 4, "bane": false, "slow": false},
+ "Half Plate": {"cost": 60, "discipline": 2, "dr": 4, "bane": true, "slow": true},
+ "Chain Mail": {"cost": 75, "discipline": 2, "dr": 5, "bane": true, "slow": true},
+ "Plate": {"cost": 300, "discipline": 3, "dr": 6, "bane": true, "slow": true}
+}

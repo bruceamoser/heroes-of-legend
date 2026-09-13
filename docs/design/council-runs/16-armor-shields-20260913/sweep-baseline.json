@@ -1,0 +1,81 @@
+{
+ "label": "as-printed",
+ "axes": [
+  "cost",
+  "discipline",
+  "dr",
+  "stealth",
+  "speed"
+ ],
+ "sweep": {
+  "dominated_pairs": 3,
+  "losing_rows": [
+   "Half Plate",
+   "Studded Leather"
+  ],
+  "pairs": [
+   "Leather > Studded Leather",
+   "Breastplate > Half Plate",
+   "Chain Mail > Half Plate"
+  ],
+  "winners": [
+   "Breastplate",
+   "Chain Mail",
+   "Leather"
+  ],
+  "rows": [
+   "Padded",
+   "Leather",
+   "Studded Leather",
+   "Chain Shirt",
+   "Breastplate",
+   "Half Plate",
+   "Chain Mail",
+   "Plate"
+  ]
+ },
+ "marginal_steps": [
+  {
+   "step": "Padded -> Leather",
+   "extra_gp": 5,
+   "extra_dr": 1,
+   "gp_per_dr": 5.0,
+   "other_changes": []
+  },
+  {
+   "step": "Studded Leather -> Chain Shirt",
+   "extra_gp": 25,
+   "extra_dr": 1,
+   "gp_per_dr": 25.0,
+   "other_changes": [
+    "bane"
+   ]
+  },
+  {
+   "step": "Chain Shirt -> Breastplate",
+   "extra_gp": 50,
+   "extra_dr": 1,
+   "gp_per_dr": 50.0,
+   "other_changes": [
+    "discipline",
+    "bane"
+   ]
+  },
+  {
+   "step": "Half Plate -> Chain Mail",
+   "extra_gp": -75,
+   "extra_dr": 1,
+   "gp_per_dr": -75.0,
+   "other_changes": []
+  },
+  {
+   "step": "Chain Mail -> Plate",
+   "extra_gp": 225,
+   "extra_dr": 1,
+   "gp_per_dr": 225.0,
+   "other_changes": [
+    "discipline"
+   ]
+  }
+ ]
+}

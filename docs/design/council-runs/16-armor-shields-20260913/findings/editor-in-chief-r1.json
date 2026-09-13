@@ -1,0 +1,87 @@
+{
+ "id": "editor-in-chief-r1-t03",
+ "round": 1,
+ "role": "editor-in-chief",
+ "topic": "t-03",
+ "stance": "refute",
+ "argument": "CLEAN on registration, BROKEN on vocabulary, and the two are separable.\n\nRegistration first, since it is the clean half: all eight armors and all three shields do reach the lookup surfaces. The reference sheet's Common Item Reference carries the whole armor roster with DR, Stealth and Discipline figures that match this chapter row for row, plus a shield table with the same three shields and the same bonuses, and the equipment chapter lists the shields at matching values while deferring armor prices here. A reader who knows an item's name can find its numbers in three places, and I found no value drift between them.\n\nWhat no reader can find is the weight classes. Light, medium and heavy appear together exactly once, in the Donning & Doffing paragraph, and that single sentence is the only place in the entire book that says which armors belong to which class. A book-wide count settles it: the phrases for light and medium armor occur once each across all 25 files in the chapters directory, both in this chapter; the heavy-armor phrase occurs six times in five files, and the five outside uses never enumerate. The Armor Table offers six columns and no class column; the equipment chapter's armor table has none; the reference sheet's armor table has none. The glossary promises to define every mechanical term in one place and holds 97 headwords, of which zero name an armor, a shield or a class, so a reader who consults it for heavy armor finds nothing to land on. The word nevertheless carries rule weight in four other chapters, most sharply where the attributes chapter blames heavy armor for a movement loss without saying which armor qualifies.\n\nThat missing definition is not cosmetic, because the chapter's own numbers pull against its own division. The table's speed note attaches the same 5 ft reduction to Half Plate, Chain Mail and Plate, but the donning sentence files two of those three as medium. A reader who starts from the attributes movement rule and works forward cannot tell whether Chain Mail costs movement because it is heavy (by this chapter, it is not) or because the table says so. The classification is doing structural work the book never publishes.\n\nThe remaining defects are smaller but real. The one crossref carrying a rule the player must apply points at a target scoped to different gear: the Shields section exempts starting-kit items from the Protection prerequisite and sends the reader to the equipment chapter, whose callout is titled for kit weapons and whose operative exemption names kit weapons, even though its opening clause speaks of the kit's gear generally. The reader who needs that exemption most is the Protector, whose level-one grant is Armor plus a weapon with no Protection rank while the class kit ships a shield, so the flagship tank's own shield rests on an exemption the cited page does not state for shields. I mark that incomplete rather than broken: the reader stalls, or has to adjudicate.\n\nTwo terms also collide at the door. The shield prerequisite is called Protection here and headed Protection Req on the reference sheet, but the glossary's only headword built on that word defines Protection Value, a defense bonus from abilities, so the lookup returns the wrong concept; and inside the same reference block the identical armor field is headed Disc Req, giving one prerequisite two names. Light, meanwhile, is already a defined weapon property.\n\nI verified the other two crossrefs and both resolve. The disciplines chapter states that equipment may carry its own Discipline entry requirements and names the tower shield and plate at exactly the ranks this table prints; the combat chapter states that the DA rolls no dice, which is what the pointing sentence claims. DR and Shield Block are both glossary headwords. So the refusal is bounded: the chapter is not publishable as written because a reader cannot resolve the armor-weight vocabulary it introduces and four other chapters depend on, but the fix is small: publish the three classes either on the armor table or as glossary entries, and make the speed note agree with whichever class definition survives.",
+ "evidence": [
+  {
+   "source": "16-armor-shields.qmd",
+   "claim": "The three weight-class labels appear together exactly once in the chapter, in the Donning & Doffing paragraph at line 138; the Armor Table's six columns are Armor, Cost, Discipline, DR, Stealth and Notes, so no class column exists for a reader to scan.",
+   "quote_or_excerpt": "Heavy armor (Plate): 10 minutes."
+  },
+  {
+   "source": "16-armor-shields.qmd",
+   "claim": "Each class label occurs once in the chapter, and a book-wide count over all 25 .qmd files in the chapters directory gives exactly one occurrence of the light-armor phrase and one of the medium-armor phrase, both here, and six of the heavy-armor phrase across five files. This chapter is the only place that names the members of each class.",
+   "quote_or_excerpt": "Medium armor (Chain Shirt, Breastplate, Half Plate, Chain Mail)"
+  },
+  {
+   "source": "16-armor-shields.qmd",
+   "claim": "The table's Stealth column and Notes attach a 5 ft speed reduction to three rows: Half Plate, Chain Mail and Plate. Under the chapter's only class list, two of those three are medium and only the third is heavy, so the class that the rest of the book blames for lost movement is not the class this table penalises.",
+   "quote_or_excerpt": "Reduces speed by 5 ft."
+  },
+  {
+   "source": "03-attributes.qmd",
+   "claim": "The attributes chapter's movement rule attributes the 5 ft movement loss to heavy armor as a property of the class and never enumerates the qualifying armors, so a reader applying that rule has no source to consult; this chapter supplies the names only inside its donning paragraph, and supplies them in a way that contradicts the table.",
+   "quote_or_excerpt": "heavy armor slows you by 5 feet"
+  },
+  {
+   "source": "21-glossary.qmd",
+   "claim": "The glossary opens by claiming it defines every mechanical term used in the book in one place. It carries 97 headwords, none of which is an armor name, a shield name, or a weight class; the only near-matches are a weapon property and the Shield Block reaction. The phrase heavy armor therefore has no entry to land on.",
+   "quote_or_excerpt": "Every mechanical term used in this book"
+  },
+  {
+   "source": "22-reference-sheets.qmd",
+   "claim": "The reference sheet's Common Item Reference registers all eight armors with DR, Stealth and Discipline figures identical to this chapter, and a separate shield table registers all three shields at the same bonuses. Neither table has a weight-class column, and the armor footnote repeats the same three-row 5 ft speed reduction.",
+   "quote_or_excerpt": "[Plate], [6], [Bane], [3 Armor]"
+  },
+  {
+   "source": "16-armor-shields.qmd",
+   "claim": "The Shields section is the chapter's only crossref that carries a rule a player must apply: it exempts starting-kit gear from the Protection prerequisite and sends the reader to the equipment chapter for that exemption.",
+   "quote_or_excerpt": "kit gear assumes training, see @sec-chapter-equipment"
+  },
+  {
+   "source": "15-equipment.qmd",
+   "claim": "The cited target scopes its exemption to weapons: the callout is titled for kit weapons, and the operative sentence grants the exemption to kit weapons. The exemption is therefore never stated for shields, the one case this chapter sends the reader there to confirm. The generic opening clause about the kit's gear is the only support, which leaves the verdict incomplete rather than broken.",
+   "quote_or_excerpt": "you can wield kit weapons regardless of Discipline prerequisites"
+  },
+  {
+   "source": "05-classes.qmd",
+   "claim": "The class that needs that exemption is the Protector, whose level-one Discipline grant is Armor plus one weapon and carries no Protection rank, while the class starting kit ships a shield. Without the shield-specific exemption, the flagship tank cannot legally wield the shield its own kit hands it.",
+   "quote_or_excerpt": "Battleaxe, chain mail (DR 5), shield (+2 DR)"
+  },
+  {
+   "source": "21-glossary.qmd",
+   "claim": "The only headword built on the word Protection defines Protection Value as a temporary defense-roll bonus granted by abilities such as Bastion or Arcane Shield. That is a different sense from the Discipline whose rank count gates shields in this chapter and on the reference sheet, so a reader following that word arrives at the wrong concept.",
+   "quote_or_excerpt": "A temporary +1 bonus to your defense roll"
+  },
+  {
+   "source": "22-reference-sheets.qmd",
+   "claim": "Inside a single reference block the same prerequisite field is headed with the Discipline abbreviation on the armor table and with the Protection wording on the shield table, so one prerequisite carries two different column names on facing tables.",
+   "quote_or_excerpt": "[Protection Req]"
+  },
+  {
+   "source": "17-magic-items.qmd",
+   "claim": "The weight classes are also used as a typed classification field on a magic armor entry, so the vocabulary carries load outside the donning paragraph while remaining defined nowhere the reader can look it up.",
+   "quote_or_excerpt": "*Type:* Heavy Armor"
+  },
+  {
+   "source": "08-disciplines.qmd",
+   "claim": "CLEARED, reported as a result: the crossref to the disciplines chapter resolves. That chapter states that equipment may carry its own Discipline entry requirements and names the tower shield at two Protection and plate at three Armor, matching this chapter's table and the reference sheet.",
+   "quote_or_excerpt": "may list their own Discipline requirements as entry requirements"
+  },
+  {
+   "source": "13-combat.qmd",
+   "claim": "CLEARED, reported as a result: the crossref to the combat chapter resolves. That chapter states outright that the DA never rolls dice and that the players make every defense roll against attacks aimed at them, which is the substance the pointing sentence claims.",
+   "quote_or_excerpt": "The DA never touches the dice"
+  },
+  {
+   "source": "21-glossary.qmd",
+   "claim": "CLEARED, reported as a result: the chapter's own two signature terms are resolvable. Damage Reduction and Shield Block are both glossary headwords, with Shield Block defined as a reaction that lowers an incoming damage tier by one step. No defect is filed on either term.",
+   "quote_or_excerpt": "A reaction that reduces incoming damage by one tier."
+  }
+ ],
+ "confidence": 0.75,
+ "rebutting": []
+}

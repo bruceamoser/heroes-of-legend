@@ -1,0 +1,107 @@
+{
+  "id": "researcher-r2",
+  "round": 2,
+  "role": "researcher",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "Round one left the costs asserted but unpriced. Here they are, recomputed from exact dice enumeration and the chapter's own rows. (1) The Breastplate gap is real: that row carries a single Bane, and one Bane (4d6 keep lowest three) averages 8.7554 against the 3d6 mean of 10.5000, so the true casting cost is 1.7446 points. The callout quotes minus one, which is 0.7446 low: the promoted figure delivers only 57.3 per cent of the cost it names and understates it by 42.7 per cent, and in band terms the top tier falls from 9.26 to 2.78 per cent, a 70 per cent relative loss, while the weak tier rises from 25.93 to 48.77. The same callout's minus three for Plate is 0.7738 short of that row's Triple Bane at 3.7738, so both quoted figures sit about three quarters of a point low: a systematic mistranslation of the dice convention, not a slip of the pen. Narrowing f-004: the Notes cell prices nothing by itself, being a somatic-flavour clause, so the numeric contradiction lives entirely in the callout, but the callout is exactly what escalates that flavour into a build recommendation, and the recommendation is underpriced by the same margin. (2) The taxonomy fix costs one sentence and two names. Light, medium and heavy appear as a grouping in a single place across the whole book, so moving Half Plate and Chain Mail to the heavy list shrinks the medium list from four names to two and grows the heavy list from one to three. Because the five-foot clause is already printed on both those rows, the only mechanical delta is suit-up time, five minutes to ten, fifty extra rounds at six seconds each. The heavy set then equals the reference sheet's three-row speed list and the attributes chapter's referent, aligning three chapters. The ambiguity's present market value is one beneficiary and five feet: the movement rule scopes the slowdown to heavy while this chapter's only class list files both those rows as medium, so their wearers can claim full movement. That is 16.67 per cent of a 30-foot base and 20 per cent of a dwarf's or halfling's 25, exactly one grid square, and the same reading hands them the lighter suit-up time as well. No build gains anything from being labelled heavy, because the book contains no proficiency rule anywhere, so the repair has no mechanical beneficiary to defend. (3) The kit finding holds with corrected totals: the starting gear supplies DR 7 before any purchase, so example one's printed figures become 7, 6 and 8 for options one, two and three, and the shield is charged twice, once in coin the kit already covers and once in a Protection rank the option never budgets. Example two is internally consistent at six, but at the kit-correct seven the chapter's headline three becomes two, and its unblocked comparison of six becomes five. (4) The wrap model reproduces the layout lens's 666-point figure to within 0.3 per cent, and the proposed column budget closes the gap with about half the frame to spare and without forcing new wrapping in the two columns it shrinks.",
+  "evidence": [
+    {
+      "source": "16-armor-shields",
+      "claim": "The Breastplate's spellcasting entry is a plain Bane, the same rung as Chain Shirt, not a numeric penalty.",
+      "quote_or_excerpt": "[Breastplate], [Bane on spell rolls]"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The callout prices that same row at minus one, the figure the row's actual Bane contradicts.",
+      "quote_or_excerpt": "no Stealth penalty, only -1 to casting"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The Breastplate's Notes cell advertises free arms for casting but carries no number of its own, so the pricing error is the callout's alone.",
+      "quote_or_excerpt": "Leaves arms free for spellcasting"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "Plate's row is a Triple Bane, a rung the callout's minus three does not match.",
+      "quote_or_excerpt": "[Plate], [Triple Bane on spell rolls]"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Exact enumeration of every ordered roll: 3d6 averages 10.5000, one Bane 8.7554, a Double Bane 7.5698 and a Triple Bane 6.7262, so the real drops are 1.7446, 2.9302 and 3.7738 points; the callout's minus one is 0.7446 short of the Breastplate row and its minus three 0.7738 short of Plate's.",
+      "quote_or_excerpt": "3d6 10.5000 vs Bane 8.7554, drop 1.7446"
+    },
+    {
+      "source": "reasoning",
+      "claim": "A single Bane moves the strong tier from 9.26 to 2.78 per cent and the weak tier from 25.93 to 48.77, so the quoted minus one hides a 70 per cent relative loss of the caster's best band.",
+      "quote_or_excerpt": "P(Strong) 9.26% to 2.78%; P(Weak) 25.93% to 48.77%"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The chapter's only weight-class list files both speed-penalised rows as medium.",
+      "quote_or_excerpt": "Medium armor (Chain Shirt, Breastplate, Half Plate, Chain Mail)"
+    },
+    {
+      "source": "03-attributes",
+      "claim": "The movement rule assigns the five-foot cut to heavy armour as a class, which is the scoping the medium filing lets a chain-mail wearer argue against.",
+      "quote_or_excerpt": "heavy armor slows you by 5 feet"
+    },
+    {
+      "source": "22-reference-sheets",
+      "claim": "The reference sheet singles out precisely the three rows a corrected heavy list would contain, so the fix aligns two chapters at no mechanical cost.",
+      "quote_or_excerpt": "Half Plate, Chain Mail, and Plate reduce speed by 5 ft."
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "The Armor discipline's stated scope is heavy armor proficiency, and this is that phrase's only occurrence anywhere in the book, so no proficiency rule exists for the heavy label to benefit.",
+      "quote_or_excerpt": "Heavy armor proficiency, damage soaking"
+    },
+    {
+      "source": "05-classes",
+      "claim": "The Protector's level-one kit already contains chain mail at DR 5 and a shield at +2 DR, which fixes the free baseline at DR 7 before any purchase.",
+      "quote_or_excerpt": "chain mail (DR 5), shield (+2 DR)"
+    },
+    {
+      "source": "22-reference-sheets",
+      "claim": "The creation checklist tells every player to record the kit's armor DR, making DR 7 the starting figure the worked example ignores.",
+      "quote_or_excerpt": "Take class starting kit"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "Option A prints its total as 5 while the hero's kit already carries the shield that would make it 7.",
+      "quote_or_excerpt": "Total DR: 5"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The example charges the shield as a fresh purchase although the class kit supplies one.",
+      "quote_or_excerpt": "The shield costs extra coin"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The combat example states the undercounted total of DR 6 and lands its headline blocked result at 3 damage.",
+      "quote_or_excerpt": "DR 6 soaks 9 down to 3"
+    },
+    {
+      "source": "reasoning",
+      "claim": "At the kit-correct DR 7 the same blocked swing resolves to 2 damage and the unblocked comparison to 5, so the chapter's headline figure is one point high; the DR floor arithmetic itself is clean (4-6 and 6-6 both floor to 1, and the HP ledger 13-1-1 = 11 checks).",
+      "quote_or_excerpt": "9-7=2 blocked, 12-7=5 unblocked"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The armour table's six widths are hand-set, and the prose column receives the smallest share of the six.",
+      "quote_or_excerpt": "columns: (15.56%, 13.33%, 24.44%, 11.11%, 20.00%, 15.56%)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Wrap model at a 446.4 pt table width: Notes at 69.5 pt holds 13.9 characters per line, so its 44 to 104 character cells run 4 to 8 lines for 45 lines total, 663.75 pt of row against the 655 pt frame, reproducing the reported 666 pt within 0.3 per cent; at 156.2 pt the same text runs 2 to 4 lines for 22 lines and 324.5 pt, or 49.5 per cent of the frame, with roughly 330 pt spare.",
+      "quote_or_excerpt": "45 lines = 663.75 pt vs 666 pt reported"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The shrunk columns still fit their longest entries (Discipline 67 pt cell against a 7-character maximum, Stealth 44.6 pt against a 4-character one), and the untouched Armor column's longest name already wraps to two lines at 29.5 pt, which is no taller than the shortest fixed row, so the budget closes the gap without introducing new wrapping.",
+      "quote_or_excerpt": "Discipline 67 pt, Stealth 44.6 pt, Bane 20 pt"
+    }
+  ],
+  "confidence": 0.8,
+  "rebutting": ["f-004", "f-003", "f-001", "f-007"]
+}

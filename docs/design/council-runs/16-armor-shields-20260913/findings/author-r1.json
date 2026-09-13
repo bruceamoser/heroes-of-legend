@@ -1,0 +1,72 @@
+{
+  "id": "f-003",
+  "round": 1,
+  "role": "author",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "Chapter 16's voice is confident and its structure is clean, but at the three points where it claims to teach a choice its prose and its own tables point opposite ways, and one of those points teaches a losing build. The Armor Table's Notes column sells the Breastplate as the caster's armor and the callout under the spellcasting table repeats the pitch, while that same row carries a plain Bane on spell rolls; a reader who trusts the prose buys a penalty the chapter told them they would avoid. The chapter also introduces its only armour taxonomy inside the doffing-time sentence, where the two rows whose own Notes call themselves heavy are filed as medium, and the label is then used nowhere: no armour table in chapters 15, 16 or 22 prints a category, so the grouping adds nothing a reader can act on while contradicting the book's other sense of the term. Both worked examples also assume a hero with no kit, so the headline example budgets spare coin for a shield the gear list already supplies and settles on a loadout weaker than the free one, without ever naming the two rows the numbers have already killed. The closing callout survives scrutiny: its volume claim follows from the floor-of-one rule the chapter states earlier. The fix is editorial, not systemic: correct the two caster claims, cut or align the taxonomy, and rebuild example one against the kit baseline.",
+  "evidence": [
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The Breastplate's Notes cell advertises the row as casting-friendly, yet the spellcasting table further down the same page assigns that row a plain Bane, so the prose promises an advantage the stat row denies [16-armor-shields.qmd:40 vs :61].",
+      "quote_or_excerpt": "Solid chest protection. Leaves arms free for spellcasting."
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The casting callout's second paragraph recommends the Breastplate for a battle mage and a front-line Shepherd on a cost-of-casting argument, escalating the row's own flavour claim into a build recommendation that its table entry contradicts [16-armor-shields.qmd:73].",
+      "quote_or_excerpt": "no Stealth penalty, only -1 to casting"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The chapter's only taxonomy sits in one sentence of the doffing section, and it files Half Plate and Chain Mail as medium although those same rows carry the speed penalty and their own Notes call themselves heavy; the labels appear in no table anywhere in the book [16-armor-shields.qmd:41-42 vs :138].",
+      "quote_or_excerpt": "Medium armor (Chain Shirt, Breastplate, Half Plate, Chain Mail)"
+    },
+    {
+      "source": "03-attributes.qmd",
+      "claim": "Elsewhere in the book the same label means the speed-penalty class rather than a single row, so a reader meeting the doffing taxonomy has two incompatible definitions of heavy armour to reconcile [03-attributes.qmd:82].",
+      "quote_or_excerpt": "heavy armor slows you by 5 feet"
+    },
+    {
+      "source": "02-character-creation.qmd",
+      "claim": "The printed sample Protector wears chain mail but attributes the movement reduction to heavy armour, confirming that the book's working sense of the term covers a row this chapter classes as medium [02-character-creation.qmd:592].",
+      "quote_or_excerpt": "Movement 20 ft (heavy armor + dwarf)"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The choice example treats the shield as a fresh purchase, so the comparison is priced against an empty inventory; the Protector's kit supplies chain mail and a shield, which makes the chosen loadout weaker than simply keeping the starting gear [16-armor-shields.qmd:106-112].",
+      "quote_or_excerpt": "The shield costs extra coin, but coin is replaceable."
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The section promises to weigh options but presents three of eight rows and never mentions the two strict losers, so the reader is shown a conclusion rather than a criterion for rejecting a row [16-armor-shields.qmd:104-110].",
+      "quote_or_excerpt": "Here's how he weighs his options"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The Half Plate Notes cell promotes the row as the sensible heavy pick when the Breastplate beats it on cost, Stealth and speed at identical DR and discipline, and the doffing list classes it as medium [16-armor-shields.qmd:41].",
+      "quote_or_excerpt": "The pragmatic heavy option"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "Studded Leather's description sells quietness and a rogue identity, but its Stealth cell is empty exactly like plain Leather's, so the advertised trait is invisible in the row and the flavour endorses the weaker purchase [16-armor-shields.qmd:37-38].",
+      "quote_or_excerpt": "Light and quiet, the rogue's choice."
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The closing callout's claim that massed weak attacks will grind down even the best-armoured hero is mechanically supported by the floor rule stated in the opening section, so the argument holds as written [16-armor-shields.qmd:23 vs :143].",
+      "quote_or_excerpt": "damage never drops below 1"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The callout's closing advice is the chapter's one instruction with no support or pointer inside the chapter: cover rules live elsewhere and the chapter cross-links only for reactions, so a reader cannot cash the advice without leaving the page [16-armor-shields.qmd:94 vs :145].",
+      "quote_or_excerpt": "Use cover. Use positioning."
+    },
+    {
+      "source": "reasoning",
+      "claim": "The opening slogan and the closing caveat disagree about DR's value because the floor rule caps what extra reduction buys against hits already at the minimum; minimal edits are the two caster claims, the taxonomy, and the example's blank-slate baseline.",
+      "quote_or_excerpt": "correct the two caster claims; cut or align the taxonomy"
+    }
+  ],
+  "confidence": 0.8,
+  "rebutting": []
+}

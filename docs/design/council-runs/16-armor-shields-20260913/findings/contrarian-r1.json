@@ -1,0 +1,87 @@
+{
+  "id": "contrarian-r1-t01",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "The armor catalogue does not survive its own numbers. Two of its eight rows are strictly dominated: worse or equal on every axis a buyer weighs (price, Discipline rank, DR, Stealth, movement, slots) and better on none. Studded Leather (25 gp, one Armor rank, DR 2) is beaten on price and on requirement by Leather (10 gp, no requirement) at identical DR, identical blank Stealth cell and identical two-slot cost, so the row sold as the quiet rogue's pick is never the right purchase. Half Plate (150 gp, DR 4, Stealth Bane, -5 ft) is beaten by Breastplate (100 gp, DR 4, no penalties) on price, Stealth and movement and tied on DR, Discipline and three-slot cost, so the row labelled the pragmatic heavy option is dominated too. Notably the comparison the brief pointed at fails: Plate's 300 gp is not wasted, because it buys DR 6 against Half Plate's 4 and Chain Mail's 5, which means the domination sits one row below the suggested target - exactly the wrong-peer trap the weapons chapter warned about. I also rejected a tempting overlapping comparison of my own: Plate against Chain Mail plus shield is not a genuine-alternatives test, because a shield stacks with every body armor (this chapter's own build stacks them, DR 8 against DR 7), so a body-armor row cannot be priced against armor plus shield. Both duplicate-DR pairs in the table are ordered backwards: in each pair the pricier, more restricted row is the weaker one, collapsing eight rows into six real choices, and the chapter's own armour-selection example silently skips both dominated rows while weighing the other three. On conventions, the callout restates the casting tiers as numbers (-3 and -1), the exact translation convention 1 bans, while the table directly above prints the same two penalties as Bane and Triple Bane counts; the callout also implies Breastplate's penalty is distinguishable in size from Chain Shirt's, which the table does not say. The canon-home table additionally omits the slot values (convention 9's armor 2-4) that the chapter deferring to it carries, and its light/medium/heavy taxonomy labels Chain Mail Medium where ch02 and ch03 key the 5 ft movement penalty to heavy armour. Both worked examples execute cleanly - I re-derived every number (13, 8, 5, the 12 to 9 downgrade, the soak to 3, both minimum-1 floors) and found no counter-example to the printed procedure.",
+  "evidence": [
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The Armor Table prints eight rows across cost, Discipline, DR and Stealth, and its DR column carries only six distinct values, so exactly two rows duplicate another row's DR.",
+      "quote_or_excerpt": "[*Half Plate*], [150 gp], [2 Armor], [4], [Bane],"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "Half Plate pays 50 gp more than Breastplate for the same DR, the same Discipline rank and the same blank Stealth cell, while adding a Stealth Bane and a 5 ft movement cut - worse on every axis that differs.",
+      "quote_or_excerpt": "[*Breastplate*], [100 gp], [2 Armor], [4], [],"
+    },
+    {
+      "source": "15-equipment.qmd",
+      "claim": "The summary table that defers here confirms both DR-4 armours take three slots and both DR-2 armours take two, so the slot axis cannot break either tie in favour of the pricier row.",
+      "quote_or_excerpt": "[*Half Plate*], [2 Armor], [4], [3],"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "Studded Leather costs 15 gp more than Leather and adds a Discipline rank while matching it on DR, on Stealth (blank) and on slot count, with no other listed benefit.",
+      "quote_or_excerpt": "[*Studded Leather*], [25 gp], [1 Armor], [2], [],"
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "The reference sheet repeats the same DR, Stealth and Discipline values and the same movement note, so no later chapter hands either dominated row a compensating advantage.",
+      "quote_or_excerpt": "Half Plate, Chain Mail, and Plate reduce speed"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The spellcasting callout converts the table's Bane count into a numeric magnitude, which convention 1 forbids as a translation between a Bane count and a number.",
+      "quote_or_excerpt": "you'll cast every spell at -3"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The table immediately above the callout prints the same penalties as prose Bane counts, so the chapter carries both the legal register and the banned numeric one.",
+      "quote_or_excerpt": "Triple Bane on spell rolls"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The same callout states a -1 figure for Breastplate, implying its penalty differs in size from Chain Shirt's single Bane, although the table gives both rows one identical Bane.",
+      "quote_or_excerpt": "only -1 to casting"
+    },
+    {
+      "source": "15-equipment.qmd",
+      "claim": "The equipment chapter routes readers here for the fuller armour table while itself carrying the 2-4 slot values that this canon-home table omits.",
+      "quote_or_excerpt": "Full table with Stealth column: see @sec-chapter-armor-shields"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The donning section classifies Chain Mail as Medium armour, while the table gives it the same 5 ft movement cut as Plate.",
+      "quote_or_excerpt": "Medium armor (Chain Shirt, Breastplate, Half Plate, Chain Mail)"
+    },
+    {
+      "source": "03-attributes.qmd",
+      "claim": "The movement rule attaches the 5 ft slow to the heavy-armour category, so a reader must know which rows are heavy to apply it.",
+      "quote_or_excerpt": "heavy armor slows you by 5 feet"
+    },
+    {
+      "source": "02-character-creation.qmd",
+      "claim": "The book's own Protector example wears chain mail and a shield and books the 5 ft cut under heavy armour, contradicting this chapter's Medium label for the same suit.",
+      "quote_or_excerpt": "Movement 20 ft (heavy armor + dwarf)"
+    },
+    {
+      "source": "05-classes.qmd",
+      "claim": "The per-class cost matrix never prices Armor on the foreign 3/6/12 ladder; the first four class columns are 1/2/4, 4/8/16, 4/8/16 and 4/8/16, so an Arcanist pays 4/8/16.",
+      "quote_or_excerpt": "[*Armor*], [1/2/4], [4/8/16], [4/8/16]"
+    },
+    {
+      "source": "08-disciplines.qmd",
+      "claim": "The generic ladder the callout borrows does exist in the disciplines chapter, so the defect is pairing that ladder with Armor, not inventing the numbers.",
+      "quote_or_excerpt": "[*Foreign*], [3 DP], [6 DP], [12 DP]"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Enumerating all eight rows against each other on price, Discipline, DR, Stealth, movement and slots yields exactly two strictly dominated rows, Studded Leather and Half Plate; Plate is not among them because it holds the unique top DR of 6, and Plate plus shield reaches DR 8 against Chain Mail plus shield's 7.",
+      "quote_or_excerpt": "two strictly dominated rows: Studded Leather, Half Plate"
+    }
+  ],
+  "confidence": 0.8,
+  "rebutting": []
+}

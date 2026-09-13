@@ -1,0 +1,77 @@
+{
+  "id": "f-002",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "Refute the proposition that this chapter's armor and shield canon is clean across the book, while confirming almost all of it. Eleven gear values were checked one by one and every one holds. The armor table's DR, Discipline and Stealth cells for all eight armors are identical in ch15 and ch22 (DR ascending 1, 2, 2, 3, 4, 4, 5, 6; requirements None, None, 1 Armor, 1 Armor, 2 Armor, 2 Armor, 2 Armor, 3 Armor; a Stealth Bane only on Chain Shirt, Half Plate, Chain Mail and Plate). The three shields agree in all three chapters: 1 Protection with +1 DR, 1 Protection with +2 DR, and 2 Protection with +3 DR plus half cover, priced 10, 15 and 40 gp, and ch15 explicitly routes shield prices here. Costs for the eight armors appear only here, so nothing competes with 5/10/25/50/75/100/150/300 gp. ch06's DR references (leather at 2, plate at 6) and its one-damage floor match, and no statement here makes armor add to a defense roll, since the shield's contribution is passive DR plus a damage-tier reaction. ch08 prints the same entry requirements and the cost ladders the casting callout quotes. Two cross-chapter contradictions survive. First, the speed penalty's scope is unresolved: this chapter charges the five-foot cut to Half Plate, Chain Mail and Plate and files Half Plate and Chain Mail as medium armor, while ch03 makes that penalty a property of heavy armor and ch02's Protector walkthrough labels a chain-mail hero's penalty heavy armor at 20 ft. The category that decides who is slowed therefore disagrees between chapters, and two armors that carry the penalty are not heavy by this chapter's own grouping. Second, the worked example contradicts the class kit: the Protector's kit already issues chain mail at DR 5 and a shield at +2 DR, and ch22 tells every player to take that kit and record its armor DR, so Roric starts at DR 7 rather than the 5 and 6 his option lines print, and the sentence that prices a shield as an extra purchase is charging him for gear he already carries. Lower confidence: the bestiary names armor in its monster-DR parentheticals, and the tie holds for the Orc Warchief's plate but breaks for a hobgoblin chain shirt printed at 1 against this chapter's 3. One open lead is killed rather than filed: the absent Slots column is not a canon gap, because ch15's pointer to this chapter is scoped to the Stealth column and ch15 is where the slot subsystem lives. Repair for the first defect is a scope sentence in ch03 and ch02, or a weight-class column here; repair for the second is one clause in the example acknowledging the kit.",
+  "evidence": [
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The armor table's eight rows are Padded DR 1 / None / no Stealth, Leather 2 / None / none, Studded Leather 2 / 1 Armor / none, Chain Shirt 3 / 1 Armor / Bane, Breastplate 4 / 2 Armor / none, Half Plate 4 / 2 Armor / Bane, Chain Mail 5 / 2 Armor / Bane, Plate 6 / 3 Armor / Bane.",
+      "quote_or_excerpt": "[*Plate*], [300 gp], [3 Armor], [6], [Bane]"
+    },
+    {
+      "source": "15-equipment.qmd",
+      "claim": "ch15's summary reproduces the same Discipline and DR pair for every armor and adds the Slots column (2,2,2,2,3,3,4,4); it repeats the three shield rows unchanged and sends shield prices to this chapter. Its pointer names only the Stealth column as deferred, so the missing Slots column here is not a canon gap.",
+      "quote_or_excerpt": "Full table with Stealth column: see"
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "ch22's armor table repeats the same DR, Stealth and requirement values row for row, and singles out the same three armors for the speed cut.",
+      "quote_or_excerpt": "Half Plate, Chain Mail, and Plate reduce speed by 5 ft."
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "ch22's shield table gives the identical Protection requirement and DR bonus for all three shields and carries the half-cover clause on the tower shield only, matching this chapter.",
+      "quote_or_excerpt": "[Tower Shield], [2], [+3, half cover],"
+    },
+    {
+      "source": "06-core-resolution.qmd",
+      "claim": "ch06's armor references (leather DR 2, plate DR 6) and its one-damage floor match this chapter, and its rule barring armor and shields from the defense roll is not contradicted here.",
+      "quote_or_excerpt": "A knight in plate armor (DR 6)"
+    },
+    {
+      "source": "08-disciplines.qmd",
+      "claim": "ch08 sanctions equipment entry requirements of this kind and prints the same cost ladders the casting callout quotes, so the option DP arithmetic in the worked example reconciles with the published tiers.",
+      "quote_or_excerpt": "a Tower Shield 2 Protection, and Plate 3 Armor"
+    },
+    {
+      "source": "03-attributes.qmd",
+      "claim": "ch03 states the movement penalty as a property of heavy armor alone, which conflicts with this chapter charging it to two armors its own donning section calls medium.",
+      "quote_or_excerpt": "heavy armor slows you by 5 feet"
+    },
+    {
+      "source": "02-character-creation.qmd",
+      "claim": "ch02's Protector walkthrough equips a chain-mail hero and attributes her reduced movement to heavy armor, which directly contradicts this chapter filing chain mail as medium armor.",
+      "quote_or_excerpt": "Movement 20 ft (heavy armor + dwarf)"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The donning section files Chain Shirt, Breastplate, Half Plate and Chain Mail as medium and makes Plate the only heavy armor, while the table's speed clause names two of those medium armors.",
+      "quote_or_excerpt": "Medium armor (Chain Shirt, Breastplate, Half Plate, Chain Mail)"
+    },
+    {
+      "source": "05-classes.qmd",
+      "claim": "The Protector's class kit already contains chain mail at DR 5 and a shield at +2 DR, so a starting Protector's real passive DR is 7 before spending a coin.",
+      "quote_or_excerpt": "Battleaxe, chain mail (DR 5), shield (+2 DR)"
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "ch22's creation checklist instructs every hero to take the class kit and record its armor DR, which makes the worked example's printed totals of 5 and 6 undercount Roric's actual starting loadout.",
+      "quote_or_excerpt": "Take class starting kit. Record weapon properties and armor DR."
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "This chapter's own shield rule exempts kit gear from the Protection rank requirement, so the example hero is meant to be wielding a shield his kit grants, which is the same shield the option line treats as a fresh purchase.",
+      "quote_or_excerpt": "unless it came in your class starting kit"
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "The bestiary's monster-DR parentheticals name armor from this chapter's tables; the tie matches for the Orc Warchief's plate at 6, but the hobgoblin in a chain shirt is printed well below this chapter's chain shirt value. Flagged at lower confidence, since monster DR may be intended as independent of worn armor.",
+      "quote_or_excerpt": "HP 8, DR 1 (chain shirt)."
+    }
+  ],
+  "confidence": 0.6,
+  "rebutting": []
+}

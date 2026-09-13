@@ -1,0 +1,62 @@
+{
+  "id": "layout-expert-r1-t01",
+  "round": 1,
+  "role": "layout-expert",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Chapter XVIII renders cleanly on typography, captions and cross-references, but its centrepiece table is set with a column budget that fights its own content, and the cost is visible on the page. Measured with pdftotext -bbox against the 64.0 to 719.3 pt text frame, the six-column Armor Table hands 44.44 per cent of its width, 198 pt of 446 pt, to the two columns holding the shortest strings: Stealth, whose longest entry is the four-letter Bane, and Discipline, whose longest is the seven-character rank count. The only prose column, Notes, receives 15.56 per cent, 69.5 pt. Every notes cell therefore wraps to five or eight lines and the data rows stand 58 to 117 pt tall. Eight such rows need roughly 666 pt of row against a 655 pt frame, so the table cannot close: page 243 fills to 94.9 per cent and still sheds its last row, and Plate prints alone at the top of page 244. Nothing is clipped and no cell is split: the fidelity gate clears all eight rows and the header repeats on 244, so this is a reading defect rather than data loss, but the canon armour table cannot be taken in at a glance and the GM looking up a DR must turn the page. One line of source fixes it: Discipline 24.44 to 15, Stealth 20 to 10, Notes 15.56 to 35. The chapter's page flow is otherwise the book's own and not a fault: page 241 prints 14.0 per cent and page 242 22.4 per cent, and the second pages of the other twenty-four chapters run from 5.2 to 100 per cent with six at or below 14, so the sparse epigraph and first-section pages are the opener-spread convention rather than over-pagination. The book's attunement table on page 266 shows the same narrow-Notes wrapping, so the disease is book-wide; this chapter is the one that spends its width on the shortest strings while its only prose column is the narrowest of the six.",
+  "evidence": [
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The armour table's six widths are hand-set in the source, and the two widest are given to the columns holding the shortest values while the prose column is the narrowest of the six [16-armor-shields.qmd:33].",
+      "quote_or_excerpt": "columns: (15.56%, 13.33%, 24.44%, 11.11%, 20.00%, 15.56%)"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The spellcasting table in the same section gives the larger share to its sentence column, so the inverted budget is confined to the armour figure [16-armor-shields.qmd:56].",
+      "quote_or_excerpt": "columns: (34.38%, 65.62%)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Render measurement from pdftotext -bbox on pages 243 and 244: the table spans x 82.8 to 529.2 pt inside the 82.8 to 532.05 pt frame, giving Discipline 109 pt, Stealth 89 pt and Notes 69.5 pt of cell width; measured data rows run 58 to 117 pt tall and the notes cells reach eight printed lines.",
+      "quote_or_excerpt": "Discipline 109 pt, Stealth 89 pt, Notes 69.5 pt"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Span fill of the chapter against the 64.0 to 719.3 pt frame, measured with pdftotext -bbox word boxes: p240 77.8, p241 14.0, p242 22.4, p243 94.9, p244 86.6, p245 59.8, p246 45.6, p247 74.7, p248 34.4 per cent.",
+      "quote_or_excerpt": "p243 94.9 per cent, p244 86.6 per cent"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The chapter's sparse second and third pages sit inside the book's opener-spread band: of the twenty-five chapters, six have a second page at or below this chapter's 14.0 per cent, and the neighbouring chapter files 8.4 and 25.2, so the near-empty pages are convention and not an outlier.",
+      "quote_or_excerpt": "second pages run from 5.2 to 100 per cent"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The repo's own gates pass unchanged on this build: the orphan-heading metric returns the expected two titles and the TOC folio check is clean, so nothing else in the chapter regressed.",
+      "quote_or_excerpt": "2 heading(s) sit last on a page (orphaned)"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The chapter's single figure is numbered sequentially for its printed chapter and its caption sits directly under the art on the opener, carrying no trailing punctuation [16-armor-shields.qmd:8].",
+      "quote_or_excerpt": "Figure 18.1: Armor & Shields"
+    },
+    {
+      "source": "17-magic-items.qmd",
+      "claim": "Four other chapters print a stray trailing comma on their second caption, so that defect is book-wide and this chapter is clean of it [17-magic-items.qmd:35].",
+      "quote_or_excerpt": "Figure 19.2: Magic Items,"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The three printed cross-references resolve to the chapters whose content the sentences promise: equipment for the class kit, disciplines for the Protection requirements, and combat for reactions and the referee's no-roll convention [16-armor-shields.qmd:84, :89, :120].",
+      "quote_or_excerpt": "see Chapter 17.). The full rules live in Chapter 10."
+    },
+    {
+      "source": "reasoning",
+      "claim": "Typography obeys the standing laws on these pages: no em-dash appears in body text, the only two em-dash glyphs being the opener emblem and the page-rule footers, and the soft-hyphen rate is 13 breaks over nine pages against a book average near 0.8 per page.",
+      "quote_or_excerpt": "no em-dash in body text"
+    }
+  ],
+  "confidence": 0.6,
+  "rebutting": []
+}
