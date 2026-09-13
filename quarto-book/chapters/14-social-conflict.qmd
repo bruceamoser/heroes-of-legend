@@ -93,8 +93,6 @@ Failed to deceive the merchant? She doesn't kick you out, she raises the price. 
 The worst outcome in a social scene is "nothing happens." Keep the fiction moving. Every roll should change the situation, even if it's not in the party's favor.
 ])
 
-#pagebreak()
-
 == Worked Example: A Full Social Conflict Scene
 
 The party needs passage through the Ironwood, a dense forest controlled by the Thornwood elves. The elven warden at the border crossing is Neutral: she doesn't know these travelers, doesn't trust them, but hasn't been given a reason to turn them away yet. The party's Leader, Ser Aldric, takes the lead.
@@ -130,8 +128,6 @@ _Lyra rolls:_ 3d6 + Reason (+1) + Insight Novice (+1). Result: 5, 2, 4 = 11 + 2 
 *Aldric:* "Agreed. We're not grave robbers. You have my word."
 
 *Outcome:* The party gains passage through the Ironwood, a guide who knows the terrain, and an ally in the Thornwood elves, all because they worked the social conflict round by round instead of rolling once and hoping for the best.
-
-#pagebreak()
 
 *When a Boon applies.* Suppose the party earned an edge first: the Protector looming behind Aldric, or a favour owed from an earlier scene. The DA grants a Boon on the roll, which means Aldric rolls *4d6 and keeps the highest three*, with the same +3 in modifiers. Nothing else about the exchange changes. A Boon never adds a number to the total, it reshapes the odds, which is exactly what you want in a scene where the argument matters more than the arithmetic.
 
