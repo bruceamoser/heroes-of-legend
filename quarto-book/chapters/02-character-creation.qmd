@@ -207,7 +207,7 @@ Adept-tier skills and abilities unlock at Level 3. Master-tier at Level 7. At Le
 
 === Step 8: Equipment
 
-Receive your class starting kit and build it from the six kit points across the four lines. Record your weapon properties and your armor's slot cost; your attack ability cards carry the Weak, Standard, and Strong damage values, and your Damage Reduction is your armor's DR plus your talents, such as Iron Skin. See @sec-chapter-equipment
+Receive your class starting kit and build it from the six kit points across the four lines. Record your weapon properties and your armor's slot cost; your attack ability cards carry the Weak, Standard, and Strong damage values, and your Damage Reduction is your armor's DR. See @sec-chapter-equipment
 
 === Step 9: Derived Stats
 
@@ -217,7 +217,7 @@ Receive your class starting kit and build it from the six kit points across the 
     align: (auto, auto,),
     table.header([Stat], [Formula],),
     [*Health Points*], [10 + Fortitude + Knowledge (at Level 1)],
-    [*HP per Level*], [+Fortitude (minimum 1) each level after first],
+    [*Grit*], [2 (Novice), 3 (Adept), 4 (Master)],
     [*Initiative*], [3d6 + Agility modifier],
     [*Movement*], [30 ft (Dwarves and halflings: 25 ft)],
     [*Carry Slots*], [10 + (Brawn x 5), floor 5],

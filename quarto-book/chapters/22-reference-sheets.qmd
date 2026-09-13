@@ -76,7 +76,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
   [*Shove*], [Brawn vs the target's Brawn or Agility as a Challenge. Push 5 ft (10 ft on Strong)],
   [*Grapple*], [Brawn (Athletics) vs Brawn (Athletics) or Agility (Acrobatics)],
   [*Command*], [Companion/familiar/mount takes an extra Movement],
-  [*Catch Breath*], [Regain HP equal to Fortitude (min 1). Once per combat.],
+  [*Catch Breath*], [Regain one third of your maximum HP (round up). Uses per combat equal your Grit.],
   [*Search*], [Active Perception check to spot hidden things],
   [*Stand Up*], [Rise from prone],
   [*Use Item*], [Drink a potion, apply a salve, activate a device],
@@ -244,7 +244,7 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
 + *Background DP:* 8 + Knowledge + Fortitude. Spend all on Novice skills and abilities.
 + *Class:* Choose class. Record Class Discipline and signature ability.
 + *Class DP:* 8 DP. Spend all on Novice skills and abilities.
-+ *Equipment:* Take your class starting kit and build it from the four kit lines. Record weapon properties and armor slots; your Damage Reduction is your armor's DR plus your talents, such as Iron Skin.
++ *Equipment:* Take your class starting kit and build it from the four kit lines. Record weapon properties and armor slots; your Damage Reduction is your armor's DR (1 light, 2 medium, 3 heavy).
 + *Derived Stats:* HP, Initiative, Speed, Carry Slots.
 + *Backstory:* Motivation, Trinket, Name.
 
@@ -361,7 +361,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   [Tower Shield], [2], [Parry, Shield Block; half cover; -5 ft speed],
 )], kind: table, numbering: none, outlined: false)
 
-*Your Damage Reduction comes from your armor and from talents such as Iron Skin, never from a shield.* See @sec-chapter-armor-shields
+*Your Damage Reduction comes from your armor and nothing else, never from a shield.* See @sec-chapter-armor-shields
 
 #figure(align(center)[#table(
   columns: (19.23%, 30.77%, 30.77%, 19.23%),
@@ -394,7 +394,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 
 *The weapon never changes your damage. See @sec-chapter-talents-abilities for what a range of two numbers means, and @sec-chapter-equipment for weapons in full, including which are drawn from a starting kit.*
 
-*Defense summary:* Your Damage Reduction (DR) is your armor's DR (1 light, 2 medium, 3 heavy) plus whatever your talents add. Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields enable the Parry skill and the Shield Block reaction.
+*Defense summary:* Your Damage Reduction (DR) is your armor's DR (1 light, 2 medium, 3 heavy), and it never exceeds 3. Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields enable the Parry skill and the Shield Block reaction.
 
 #figure(align(center)[#table(
   columns: (68.42%, 31.58%),

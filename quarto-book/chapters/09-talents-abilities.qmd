@@ -58,9 +58,9 @@ The talents below are general. Any class may take any of them, though a talent t
 
 *Novice:* +2 DR, in addition to your armor's DR.
 
-*Adept:* +5 DR, in addition to your armor's DR.
+*Adept:* +2 DR, in addition to your armor's DR.
 
-*Master:* +8 DR, in addition to your armor's DR.
+*Master:* +3 DR, in addition to your armor's DR.
 
 === Weapon Focus (Talent)
 

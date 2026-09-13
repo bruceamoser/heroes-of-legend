@@ -22,6 +22,8 @@ When you take physical damage, subtract your Damage Reduction (DR) from the dama
 
 Your DR is your armor's DR plus what your talents add. Armor's DR is set by its weight class: light 1, medium 2, heavy 3. Heavier armor is heavier in every sense, and in the kit builder it costs more points. So the steel you wear and the training you have done stack, and a well-armored veteran is harder to hurt than either alone.
 
+*There is a ceiling.* Your total DR cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A hit must always be able to land for something, and the three tiers of a damage band have to stay distinct at every level. If DR could climb past that ceiling the roll would stop carrying information, and light, medium, and heavy armor would stop being three different choices. Armor and training stack up to the ceiling, and no further.
+
 *Example:* Kael wears light armour, so his armour grants DR 1. He has Iron Skin at Novice rank, which adds +2. His total DR is 3. A goblin's scimitar hits him for Weak damage (2). 2 - 3 would be less than nothing, so Kael takes 1 damage, the minimum a hit can do. When the same goblin lands a Standard hit (4), Kael takes 1 instead of 4.
 
 #pagebreak()
@@ -81,7 +83,7 @@ Roric is building a dwarf Protector at Level 1. He has Brawn +2, Fortitude +1, 1
 
 *Chain Mail:* Heavy, DR 3, 4 slots, 10 minutes to don. Its covering costs 3 kit points, leaving none.
 
-With leather his total DR is 3; with chain mail it is 5. That is the real trade: two points of DR and two slots against two packs of capability, and a longer time getting into it when the camp is attacked at night. Roric takes the leather. He would rather carry the rope and be able to arm in a minute than be two points harder to hurt and slow to rise.
+With leather his total DR is 3. With chain mail it is also 3, because the ceiling holds at Novice: Iron Skin has already taken him to the limit, and heavier steel cannot push past it. That is the real trade. Chain mail costs two more kit points and two more slots and leaves him no harder to hurt. Roric takes the leather. He would rather carry the rope, keep his three points of protection, and be able to arm in a minute than pay twice over for the same wall and be slow to rise.
 
 Armor is a decision about what the character can carry, what they give up in points, and how fast they can arm. The DR is what those points buy, and the choice is whether the extra DR is worth everything else it costs.
 

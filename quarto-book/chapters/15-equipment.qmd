@@ -222,7 +222,7 @@ Weapons don't just require more of the same Discipline, they require specific co
 
 == Armor
 
-Armor is what you wear, and it is worth its points in DR: light grants 1, medium 2, heavy 3. Those points add to whatever your talents grant, and beyond them armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields
+Armor is what you wear, and it is worth its points in DR: light grants 1, medium 2, heavy 3. That is your whole DR, and beyond it armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields
 
 #figure(
   align(center)[#table(
