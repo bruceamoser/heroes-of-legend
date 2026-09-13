@@ -66,7 +66,7 @@ These maneuvers are free for everyone. No skill required. No Discipline check. J
     [*Shove*], [Brawn against the target's Brawn or Agility as a Challenge. Push target 5 ft (10 ft on Strong).],
     [*Grapple*], [Initiate a grapple (see @sec-grappling).],
     [*Command*], [A companion, familiar, or mount under your control takes an extra move.],
-    [*Catch Breath*], [Regain HP equal to your Fortitude score (min 1). Once per combat.],
+    [*Catch Breath*], [Regain one third of your maximum HP (round up). Uses per combat equal your Grit.],
     [*Search*], [Active Perception check to spot a hidden creature or clue.],
     [*Stand Up*], [Rise from prone.],
     [*Use Item*], [Drink a potion, apply a salve, or activate a simple device.],
@@ -335,7 +335,17 @@ A creature automatically checks morale when:
 
 == Dying and Death
 
-0 HP. You're down. The world goes dark. But the story's not over, not yet.
+=== Grit
+
+You don't fall the first time you're hit, or the second. You have *Grit*: 2 at Novice, 3 at Adept, 4 at Master. Your tier is your ability tier: Novice is levels 1 and 2, Adept levels 3 through 6, and Master is level 7 and up.
+
+When your HP reaches 0, you do not fall. Spend one Grit: your HP resets to its maximum and you roll on the Wound Table. You keep fighting.
+
+When you have no Grit left and your HP reaches 0, you fall, and the normal Dying rules apply.
+
+Grit returns on a respite, a full night's rest. It does not return between fights.
+
+With no Grit left, 0 HP drops you. The world goes dark. But the story's not over, not yet.
 
 At 0 HP, you fall Unconscious. Each round on your turn, roll 3d6 with no modifiers. Failures accumulate until you die or are stabilized:
 
@@ -361,7 +371,7 @@ An ally can stabilize you with a Medicine check (Standard difficulty) or any hea
 
 Some injuries don't fade when the healing potion wears off. Wounds are the lasting consequences of combat: the broken ribs, the tendon that never healed right, the scar that aches when rain is coming. They linger after HP is restored and they shape who your hero becomes.
 
-*Triggering a Wound.* The first time a character drops below half their maximum HP (round down) during an encounter, they take a wound and must roll on the Wound Table. This triggers once per encounter. Subsequent drops below half HP in the same fight do not cause additional wounds. The body can only break so many times before it stops bending.
+*Triggering a Wound.* When you spend a point of Grit, you take a wound and must roll on the Wound Table. It is once per Grit spent. The body can only break so many times before it stops bending.
 
 *The Wound Table (D666).* The wound roll uses a special notation: D666. Roll 3d6, then sort the dice in ascending order. The lowest die is the HUNDREDS digit. The middle die is the TENS. The highest die is the ONES. A roll of [1] [3] [5] reads as 135. A roll of [2] [4] [6] reads as 246. The Wound Table (Tables 13.4 and 13.5) gives the result. Ranges are listed as three-digit numbers in D666 notation.
 
@@ -484,11 +494,11 @@ Roric has been waiting. The Knight is focused on Kael. The cultists are clustere
 
 "I move to engage the Knight. Attack with my warhammer."
 
-Rolls 3d6 + Brawn (+2). Rolls 3, 3, 2 = 8 + 2 = 10. *Standard.* His Basic Melee card deals 2 on Standard, plus Brawn +2 = 4. Knight's armor: DR 6. 4 − 6 → minimum 1 damage. The hammer rings off the Knight's breastplate, but the force behind it still draws a grunt. Roric's not done.
+Rolls 3d6 + Brawn (+2). Rolls 3, 3, 2 = 8 + 2 = 10. *Standard.* His Basic Melee card deals 2 on Standard, plus Brawn +2 = 4. Knight's armor: DR 3. 4 − 3 = 1 damage. The hammer rings off the Knight's breastplate, but the force behind it still draws a grunt. Roric's not done.
 
 Roric steps in, warhammer raised, and lays into the Knight. "You're outmatched. Drop it." The DA calls for a Morale Check. Lyra rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. *Standard.* The Knight wavers, a Bane on his next attack.
 
-*End of Round 1.* The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 1). The cultists dealt 4 to Lyra. The Knight dealt 6 to Kael (9 − 3 DR). Nobody is down. Everyone is engaged. The next round will be decisive.
+*End of Round 1.* The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 1). The cultists dealt 4 to Lyra. The Knight dealt 7 to Kael (8 − 1 DR). Nobody is down. Everyone is engaged. The next round will be decisive.
 
 *Round 2, Lyra's Turn:*
 
@@ -506,7 +516,7 @@ The Knight is wavering from Roric's warning. Kael sees the opening.
 
 "Attack the Knight again."
 
-Rolls 3d6 + Brawn (+1). Rolls 4, 6, 5 = 15 + 1 = 16. *Strong.* His Basic Melee card deals 3 on Strong, plus Brawn +1 = 4. Knight's DR: 6. 4 − 6 → minimum 1 damage. Total damage on Knight: 3 (2 from Round 1 + 1 now). The blade slips under the Knight's pauldron, another thin cut. The Knight grunts.
+Rolls 3d6 + Brawn (+1). Rolls 4, 6, 5 = 15 + 1 = 16. *Strong.* His Basic Melee card deals 3 on Strong, plus Brawn +1 = 4. Knight's DR: 3. 4 − 3 = 1 damage. Total damage on Knight: 3 (2 from Round 1 + 1 now). The blade slips under the Knight's pauldron, another thin cut. The Knight grunts.
 
 Kael uses his Maneuver for *Defend*, a Boon on his Defense roll. Smart. He's the Knight's target and he knows it.
 
@@ -516,7 +526,7 @@ The Knight has taken 3 damage, not much, but he's down to 17 HP from 20. Both cu
 
 Roric rolls for the Knight: 3, 2, 1 = 6. *Weak.* The Knight lowers his sword. "Enough," he growls. "You fight well. The Iron Circle withdraws." He gathers the wounded cultists and retreats into the shadows of the temple.
 
-The party could press the attack, but Lyra is at 4 HP, Kael is at 6, and the Knight might have reinforcements. They let them go.
+The party could press the attack, but Lyra is at 4 HP, Kael is at 4, and the Knight might have reinforcements. They let them go.
 
 *Total combat time at the table:* About 8 minutes. Two full rounds. Everyone acted. Damage was exchanged. The Knight broke on morale. The story advanced. That's _Heroes of Legend_ combat.
 

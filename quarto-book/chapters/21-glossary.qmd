@@ -66,7 +66,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Discipline:* A prerequisite resource representing mastery of a domain. Disciplines come in types: Elemental (Fire, Earth, Wind, Water), Weapon (Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed), Defense (Protection, Armor), Primal (Animal, Plants), Arcane (Energy), Divine (Life, Religion), Esoteric (Mind, Summon), Subterfuge (Stealth, Sleight), and Knowledge (Lore, Tactics). Each class has a cost table showing the DP price for each rank in each discipline (see @sec-chapter-classes).
 
-*HP (Health Points):* How much damage you can take before falling unconscious. Starting HP = 10 + Fortitude + Knowledge. Gain Fortitude modifier HP each level (minimum 1).
+*HP (Health Points):* How much damage you can take before falling unconscious. Starting HP = 10 + Fortitude + Knowledge. Your HP does not increase with level; your Grit does.
 
 *Encumbrance:* The slot system for the gear you carry. Slots are Carry Slots; one container at a time is exempt from them, and containers cannot be nested inside one another. See *Carry Slots*.
 
@@ -112,7 +112,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Basic Maneuver:* A combat technique available to everyone. Defend, Disengage, Aid, Shove, Grapple, Command, Catch Breath, Search, Stand Up, Use Item. Costs your Maneuver for the turn.
 
-*Damage Reduction (DR):* Subtracted from incoming physical damage, to a minimum of 1. Comes from your armor (1 for light, 2 for medium, 3 for heavy) and from talents such as Iron Skin.
+*Damage Reduction (DR):* Subtracted from incoming physical damage, to a minimum of 1. Comes from your armor alone: 1 for light, 2 for medium, 3 for heavy. Nothing else adds to it, and it never exceeds 3.
 
 *Armor Weight Class:* Armor comes in three weight classes: Light (Padded, Leather, Studded Leather), Medium (Chain Shirt, Breastplate), and Heavy (Half Plate, Chain Mail, Plate). Light suits up in 1 minute, Medium in 5 minutes, Heavy in 10 minutes.
 
@@ -178,11 +178,13 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Non-Lethal Attack:* A melee attack that reduces a creature to 0 HP but leaves them unconscious and stable instead of dying.
 
+*Grit:* The number of times you can be dropped to 0 HP and get back up before you fall: 2 at Novice, 3 at Adept, 4 at Master. When your HP reaches 0, spend one Grit to reset to maximum HP and roll on the Wound Table. Returns on a respite.
+
 *Dying:* At 0 HP, you fall Unconscious and roll 3d6 each turn to determine if you stabilize, worsen, or die.
 
-*Wounded:* Below half your maximum HP. See Wound for what happens when you drop below half HP during an encounter.
+*Wounded:* Below half your maximum HP. See *Wound* for what happens when you are dropped.
 
-*Wound:* A lasting injury from combat. The first time you drop below half your maximum HP during an encounter, you gain a Wound and roll on the Wound Table (see @sec-chapter-combat). Wounds linger after HP is restored and heal one per long rest (a Standard Medicine check during a rest heals one additional wound).
+*Wound:* A lasting injury from combat. When you spend a point of Grit, you gain a Wound and roll on the Wound Table (see @sec-chapter-combat). Wounds linger after HP is restored and heal one per long rest (a Standard Medicine check during a rest heals one additional wound).
 
 *Thunder:* A damage type: concussive sound and shockwaves. Part of the Elemental family alongside Fire, Cold, Lightning, Acid, and Poison.
 
