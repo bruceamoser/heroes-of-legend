@@ -1,4 +1,4 @@
-# Equipment {#sec-chapter-equipment}
+# Equipment & Kits {#sec-chapter-equipment}
 
 ```{=typst}
 #label("sec-chapter-equipment")
@@ -15,6 +15,144 @@ Your hero is going to need gear. A sword, some armor, a rope, a torch, a bedroll
 The tables in this chapter list weapons by required Disciplines, armor by weight class, cost, and slots, and adventuring gear by utility. Prices are in gold pieces (gp), the standard currency of the realms. A laborer earns about 1 gp a month. Prices vary by region and availability; the DA sets the cost in their world. Keep that in mind when you're haggling with the blacksmith. You're not just buying gear, you're spending someone's annual salary.
 
 #pagebreak()
+
+== Kits
+
+A kit is how you are outfitted: the arms, the tools, and the habits that say what you do and where you came from. Your class says what you are. Your Disciplines say what you trained. Your cards carry the numbers. Your kit says what you brought.
+
+A kit never adds a number. It grants no DR, no HP, no damage, and no bonus to any roll. What a kit grants is permission. It says which cards you can use, and it decides whether an attempt is fair or a long shot. If you need to know how hard you hit, look at your cards. If you need to know whether you can even try, look at your kit.
+
+=== The Four Lines
+
+Every kit is built from four lines: Armament, Covering, Focus, and Calling. Each option on a line has a price in kit points.
+
+#figure(
+  align(center)[#table(
+    columns: (18.00%, 52.00%, 30.00%),
+    align: (auto, auto, auto,),
+    table.header([Line], [Options], [Points],),
+    [*Armament*], [Unarmed], [0],
+    [], [One-handed weapon], [1],
+    [], [Ranged weapon], [1],
+    [], [One-handed weapon and shield], [2],
+    [], [Two-handed weapon], [2],
+    [*Covering*], [None], [0],
+    [], [Light armour], [1],
+    [], [Medium armour], [2],
+    [], [Heavy armour], [3],
+    [*Focus*], [None], [0],
+    [], [Holy, Arcane or Primal focus], [3],
+    [*Calling*], [Any one vocation], [1],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+You take exactly one option from each of the four lines, and the four together are your primary kit. Your calling is what you were before you started adventuring, and it is the only line you must take.
+
+=== The Budget
+
+You have six points to spend on your primary kit. Spend them well, because the leftovers have work to do.
+
+#figure(
+  align(center)[#table(
+    columns: (34.00%, 22.00%, 44.00%),
+    align: (auto, auto, auto,),
+    table.header([A hero who...], [Spends], [Has left for packs],),
+    [Wears no armour and carries a staff], [1], [5],
+    [Wears no armour with a focus], [4], [2],
+    [Wears light armour and a one-handed weapon], [2], [4],
+    [Wears medium armour and a shield], [4], [2],
+    [Wears heavy armour and a shield], [5], [1],
+    [Wears heavy armour, a shield and a focus], [8], [impossible],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+A knight in plate with a shield has one point left. A light skirmisher with a one-handed weapon has four, and four packs buys a great deal of capability the knight will never have. Heavy armor does not cost power, it costs kit. There is no best kit, because no kit is a superset of another at the same or lower cost. No build hands you everything, and every hero gives up something.
+
+=== Packs
+
+Leftover points buy packs, one point each. A pack is a capability, not a shopping list. Carrying the pack is what having the capability means.
+
+Every hero has the Adventurer's Pack, and it costs nothing.
+
+The free pack is comfort, not capability. It carries no rope, no pitons, no picks, and no charts, because "we forgot the rope" needs to stay possible.
+
+#figure(
+  align(center)[#table(
+    columns: (24.00%, 18.00%, 58.00%),
+    align: (auto, auto, auto,),
+    table.header([Pack], [Tag], [What is in it],),
+    [*Adventurer's Pack*], [-], [Free with every kit: backpack, bedroll, waterskin, flint and steel, a week of rations, torches.],
+    [*Thieves' Pack*], [`thieves`], [Picks, files, a mirror on a wire, chalk, a shim.],
+    [*Climber's Pack*], [`climbing`], [A hundred feet of rope, pitons, a hammer, a grapnel, crampons.],
+    [*Healer's Pack*], [`healer`], [Bandages, salves, needles and gut, splints, a cautery iron.],
+    [*Brewer's Pack*], [`brewing`], [An alembic, vials, a burner, reagents, a stained apron.],
+    [*Forger's Pack*], [`forgery`], [Papers, three inks, seals, wax.],
+    [*Disguise Pack*], [`disguise`], [Cosmetics, wigs, padding, a change of clothes, a mirror.],
+    [*Scribe's Pack*], [`scribe`], [A quill, ink, parchment, a journal, a map case.],
+    [*Navigator's Pack*], [`navigation`], [Charts, a compass, an astrolabe, a logbook, a lead line.],
+    [*Trapper's Pack*], [`traps`], [Snares, wire, stakes, bait, a skinning knife.],
+    [*Cook's Pack*], [`cook`], [Pots, a knife roll, herbs, salt.],
+    [*Smith's Pack*], [`smith`], [Hammers, tongs, files, a whetstone, bar stock.],
+    [*Grave-Tender's Pack*], [`spade`], [A spade, a pick, a lantern, oil, a winding sheet, salt and iron.],
+    [*Gambler's Pack*], [`gambling`], [Dice, cards, a loaded set you would never use, a ledger of debts.],
+    [*Restraints*], [`restraints`], [Manacles, chain, hobbles, a gag.],
+    [*Prepared Papers*], [`papers`], [A forged identity, a writ, a seal, a letter of introduction.],
+    [*A Favour Owed*], [`favour`], [Not gear. Someone owes you, and you can name them.],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+A favour is not something you carry, but it is something you bring to a problem, and it works like every other pack.
+
+=== Granted Kits
+
+A kit point can also arrive as a grant: from a class, a talent, an ancestry gift, a faction, a favour earned in play, or taken off someone who no longer needs it. The thief's picks come off the thief, the scribe's case comes out of the wizard's study, the spade comes off the man in the grave. Treasure stops being coin and becomes capability: you wear what you took off the people who lost.
+
+A talent that grants kit grants exactly one kit point. That point is the talent's entire payload, one point, nothing else. If the talent names a pack, the point is already spent. You are not choosing; the fiction chose. A talent that says you were a locksmith gives you the Thieves' Pack, not a free point to spend elsewhere.
+
+That limit is the whole point. Without it, a hero could buy past the budget with talents, and a budget that can be exceeded is not a budget.
+
+A class grants its signature pack at level 1. This is how the class's starting kit fits inside six points: the armor, weapon, and focus come out of the budget, and the tools of the trade arrive as the class's grant. See the class table below.
+
+=== Re-Kitting at a Town
+
+You may re-outfit at a town, and never in the field. Between towns you carry exactly what you brought and you deal with it. At a town, the whole kit is re-specified: armor, weapon, focus, and packs together, from what you carry plus whatever the local market offers.
+
+This is what makes the kit a plan rather than a footnote. Going into the sewers you bring the climbing gear and the picks. Going to court you bring the papers and the disguise. Going into the barrow you bring the spade and the lantern oil. You choose against the job in front of you, and then you live with the choice.
+
+=== Class Recommendations
+
+No class is locked to a kit, and a hybrid is often the point. But if you want the classic shape of your class, start here.
+
+#figure(
+  align(center)[#table(
+    columns: (18.00%, 42.00%, 16.00%, 24.00%),
+    align: (auto, auto, auto, auto,),
+    table.header([Class], [Typical Kit], [Points], [Granted Pack],),
+    [Protector], [One-handed and shield, heavy armour], [6], [Smith's Pack],
+    [Blade], [One-handed, light armour], [3], [Thieves' Pack],
+    [Arcanist], [Arcane focus, no armour], [4], [Scribe's Pack],
+    [Shepherd], [One-handed, light armour, holy focus], [6], [Healer's Pack],
+    [Intellect], [One-handed, light armour], [3], [Scribe's Pack],
+    [Odd], [Primal focus, no armour], [4], [Brewer's Pack],
+    [Leader], [One-handed and shield, light armour], [4], [Navigator's Pack],
+    [Unbalanced], [Two-handed, light armour], [4], [Trapper's Pack],
+    [Shadow], [Ranged, light armour], [3], [Thieves' Pack],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+The typical kit is a starting point, not a rule. Nothing stops a Protector from taking a focus and no armor, and a hybrid is often the interesting character. The table exists because "what would a Blade carry?" is a real question and a blank page is a bad answer.
 
 == Weapons
 

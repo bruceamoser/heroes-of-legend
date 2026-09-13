@@ -20,7 +20,7 @@ Bonuses from different talents stack. The same talent cannot be taken more than 
 
 == Talents
 
-The talents below are general. Any class may take any of them, though a talent that lists a Discipline requirement is gated by it like any other card.
+The talents below are general. Any class may take any of them, though a talent that lists a Discipline requirement is gated by it like any other card. A talent may also require a kit, and a talent that grants kit grants one kit point and nothing else.
 
 === Fortune's Favor (Talent)
 
