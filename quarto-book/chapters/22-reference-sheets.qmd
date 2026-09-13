@@ -363,5 +363,36 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   [Tower Shield], [2], [+3, half cover],
 )], kind: table, numbering: none, outlined: false)
 
+#figure(align(center)[#table(
+  columns: (17.24%, 27.59%, 27.59%, 17.24%, 10.34%),
+  align: (auto, auto, auto, auto, auto,),
+  table.header([Weapon], [Disciplines], [Properties], [Range], [Cost],),
+  [Unarmed], [None], [], [Melee], [],
+
+  [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft], [2 gp],
+  [Shortsword], [1 Blades], [Finesse, Light], [Melee], [1 gp],
+  [Longsword], [2 Blades], [Versatile], [Melee], [15 gp],
+  [Greatsword], [2 Blades + 1 Heavy Weapon], [], [Melee], [30 gp],
+
+  [Handaxe], [1 Axes], [Light, Thrown], [20/60 ft], [5 gp],
+  [Battleaxe], [2 Axes], [], [Melee], [10 gp],
+  [Greataxe], [2 Axes + 1 Heavy Weapon], [], [Melee], [30 gp],
+
+  [Mace], [1 Heavy Weapon], [], [Melee], [5 gp],
+  [Warhammer], [2 Heavy Weapon], [], [Melee], [10 gp],
+  [Maul], [3 Heavy Weapon], [], [Melee], [40 gp],
+
+  [Spear], [1 Polearms], [Reach, Thrown, Two-Handed], [20/60 ft], [10 gp],
+  [Halberd], [1 Polearms], [Reach, Two-Handed], [Melee], [9 gp],
+
+  [Throwing Dagger], [1 Blades or 1 Archery], [Finesse, Thrown], [20/60 ft], [2 gp],
+
+  [Shortbow], [1 Archery], [Two-Handed], [60/120 ft], [25 gp],
+  [Longbow], [1 Archery], [Two-Handed], [100/200 ft], [50 gp],
+  [Crossbow], [1 Archery], [Loading, Two-Handed], [20/60 ft], [20 gp],
+)], kind: table, numbering: none, outlined: false)
+
+*The weapon never changes your damage. See @sec-chapter-talents-abilities for what a range of two numbers means, and @sec-chapter-equipment for weapons in full, including which are drawn from a starting kit.*
+
 *Defense summary:* Armor grants DR (passive damage reduction). Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields grant a DR bonus and the Shield Block reaction.
 ```
