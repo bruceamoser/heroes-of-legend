@@ -109,6 +109,12 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 *Effect:* A rider on an ability, spell, or maneuver card that does something beyond damage. Effects resolve by the roll's tier, never by a second roll. One roll resolves both damage and effect. The card text states which tiers carry which effect.
 
 *Finesse:* A weapon property. Use Agility instead of Brawn for attack and damage.
+*Versatile:* A weapon property. Can be wielded one- or two-handed (Longsword only). Not the same as the Human ancestry trait named *Versatile*; see *Trait*.
+*Reach:* A weapon property. Can attack targets 10 ft away (Spear, Halberd).
+*Thrown:* A weapon property. Can be thrown, at a range of 20/60 ft (Dagger, Handaxe, Spear, Throwing Dagger).
+*Light:* A weapon property. Can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe).
+*Loading:* A weapon property. Requires a Maneuver to reload between shots (Crossbow only).
+*Two-Handed:* A weapon property. Must be held in both hands and takes 2 slots (Spear, Halberd, Shortbow, Longbow, Crossbow). Compare *Versatile*, which may be used two-handed rather than must.
 
 *Lift X:* An effect that raises the target X feet into the air and holds them there. The target is Restrained while held.
 
