@@ -95,7 +95,7 @@ Roll 3d6 + modifiers. The total determines your damage tier:
 
 That's one roll. No separate damage dice. No "did I hit?" anxiety. Roll once, read the damage, move on.
 
-Damage Reduction (DR) subtracts from the damage a hit does, but a hit always lands for at least 1 damage. Your DR comes from your abilities and talents, not from your gear (@sec-chapter-armor-shields). Armor makes the blow land softer, not miss.
+Damage Reduction (DR) subtracts from the damage a hit does, but a hit always lands for at least 1 damage. Your DR is your armor's DR plus whatever your talents add (@sec-chapter-armor-shields). Armor makes the blow land softer, not miss.
 
 #callout(type: "note", title: "Why Always-Hit?", body: [
 
@@ -468,7 +468,7 @@ The Knight assesses the threat. The Blade just drew blood. The Protector is a wa
 
 "I attack the Blade," the DA announces. "The Knight's longsword comes around in a brutal arc. Challenge −3. Kael, roll Defense."
 
-Kael has Agility +2 and no Dodge or Parry ranks. His buckler would let him Parry, but with no Parry rank it adds no roll bonus, so he defends with raw Agility. He rolls 3d6 + 2 − 3 = 3d6 − 1. Rolls 5, 3, 2 = 10 − 1 = 9. *Standard.* The Knight's Standard damage: 9. Kael has Iron Skin at Novice rank (DR 2). 9 − 2 = 7 damage. Kael drops from 11 HP to 4 HP. The Knight's blade bites through Kael's sleeve and into his shoulder. That one lands hard.
+Kael has Agility +2 and no Dodge or Parry ranks. His buckler would let him Parry, but with no Parry rank it adds no roll bonus, so he defends with raw Agility. He rolls 3d6 + 2 − 3 = 3d6 − 1. Rolls 5, 3, 2 = 10 − 1 = 9. *Standard.* The Knight's Standard damage: 9. Kael has light armor and Iron Skin at Novice rank (DR 3). 9 − 3 = 6 damage. Kael drops from 11 HP to 5 HP. The Knight's blade bites through Kael's sleeve and into his shoulder. That one lands hard.
 
 Riposte doesn't trigger: it fires only when an enemy's blow is reduced to Weak damage, and the Knight landed a Standard hit. Kael keeps his Reaction for next round.
 
@@ -488,7 +488,7 @@ Rolls 3d6 + Brawn (+2). Rolls 3, 3, 2 = 8 + 2 = 10. *Standard.* His Basic Melee 
 
 Roric steps in, warhammer raised, and lays into the Knight. "You're outmatched. Drop it." The DA calls for a Morale Check. Lyra rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. *Standard.* The Knight wavers, a Bane on his next attack.
 
-*End of Round 1.* The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 1). The cultists dealt 4 to Lyra. The Knight dealt 7 to Kael (9 − 2 DR). Nobody is down. Everyone is engaged. The next round will be decisive.
+*End of Round 1.* The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 1). The cultists dealt 4 to Lyra. The Knight dealt 6 to Kael (9 − 3 DR). Nobody is down. Everyone is engaged. The next round will be decisive.
 
 *Round 2, Lyra's Turn:*
 
@@ -516,7 +516,7 @@ The Knight has taken 3 damage, not much, but he's down to 17 HP from 20. Both cu
 
 Roric rolls for the Knight: 3, 2, 1 = 6. *Weak.* The Knight lowers his sword. "Enough," he growls. "You fight well. The Iron Circle withdraws." He gathers the wounded cultists and retreats into the shadows of the temple.
 
-The party could press the attack, but Lyra is at 6 HP, Kael is at 4, and the Knight might have reinforcements. They let them go.
+The party could press the attack, but Lyra is at 6 HP, Kael is at 5, and the Knight might have reinforcements. They let them go.
 
 *Total combat time at the table:* About 8 minutes. Two full rounds. Everyone acted. Damage was exchanged. The Knight broke on morale. The story advanced. That's _Heroes of Legend_ combat.
 

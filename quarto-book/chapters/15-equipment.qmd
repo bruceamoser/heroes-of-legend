@@ -20,7 +20,7 @@ The tables in this chapter list weapons by required Disciplines, armor by weight
 
 A kit is how you are outfitted: the arms, the tools, and the habits that say what you do and where you came from. Your class says what you are. Your Disciplines say what you trained. Your cards carry the numbers. Your kit says what you brought.
 
-A kit never adds a number. It grants no DR, no HP, no damage, and no bonus to any roll. What a kit grants is permission. It says which cards you can use, and it decides whether an attempt is fair or a long shot. If you need to know how hard you hit, look at your cards. If you need to know whether you can even try, look at your kit.
+A kit adds no number except the DR its covering buys. It grants no HP, no damage, and no bonus to any roll. What a kit grants is permission. It says which cards you can use, and it decides whether an attempt is fair or a long shot. If you need to know how hard you hit, look at your cards. If you need to know whether you can even try, look at your kit.
 
 === The Four Lines
 
@@ -73,6 +73,8 @@ You have six points to spend on your primary kit. Spend them well, because the l
 )
 
 A knight in plate with a shield has spent all six points on being hard to kill and carries nothing else. A light skirmisher with a one-handed weapon has three left, and three packs buys a great deal of capability the knight will never have. Heavy armor does not cost power, it costs kit. There is no best kit, because no kit is a superset of another at the same or lower cost. No build hands you everything, and every hero gives up something.
+
+Your covering is worth its points in DR. Light armor costs 1 point and grants 1 DR, medium costs 2 and grants 2, heavy costs 3 and grants 3. That is the whole bargain, and it is why heavier armor is not a trap.
 
 === Packs
 
@@ -218,21 +220,21 @@ Weapons don't just require more of the same Discipline, they require specific co
 
 == Armor
 
-Armor is what you wear: it is a choice about weight, slots and donning time. Your Damage Reduction comes from your talents and abilities, not from your armor. See @sec-chapter-armor-shields
+Armor is what you wear, and it is worth its points in DR: light grants 1, medium 2, heavy 3. Those points add to whatever your talents grant, and beyond them armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields
 
 #figure(
   align(center)[#table(
-    columns: (40.00%, 20.00%, 40.00%),
-    align: (auto, auto, auto,),
-    table.header([Armor], [Class], [Slots],),
-    [*Padded*], [Light], [2],
-    [*Leather*], [Light], [2],
-    [*Studded Leather*], [Light], [2],
-    [*Chain Shirt*], [Medium], [2],
-    [*Breastplate*], [Medium], [3],
-    [*Half Plate*], [Heavy], [3],
-    [*Chain Mail*], [Heavy], [4],
-    [*Plate*], [Heavy], [4],
+    columns: (34.00%, 18.00%, 10.00%, 38.00%),
+    align: (auto, auto, auto, auto,),
+    table.header([Armor], [Class], [DR], [Slots],),
+    [*Padded*], [Light], [1], [2],
+    [*Leather*], [Light], [1], [2],
+    [*Studded Leather*], [Light], [1], [2],
+    [*Chain Shirt*], [Medium], [2], [2],
+    [*Breastplate*], [Medium], [2], [3],
+    [*Half Plate*], [Heavy], [3], [3],
+    [*Chain Mail*], [Heavy], [3], [4],
+    [*Plate*], [Heavy], [3], [4],
   )],
   kind: table,
   outlined: false,
