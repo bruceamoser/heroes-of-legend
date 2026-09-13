@@ -56,6 +56,8 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Background:* Level 0. Your hero's life before adventuring. Governed by Background DP (8 + Knowledge + Fortitude).
 
+*Carry Slots:* How much you can carry: 10 + (Brawn x 5), floor 5. Most items take 1 slot, armor takes 2 to 4, and two-handed weapons take 2. See *Encumbrance*.
+
 *Class:* Your hero's calling, Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced, or Shadow. Determines favored skills, favored Disciplines, and signature ability.
 
 *Culture:* Your upbringing within your ancestry. Grants a +1 skill bonus and either two specific Disciplines or one free Discipline.
@@ -65,6 +67,14 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 *Discipline:* A prerequisite resource representing mastery of a domain. Disciplines come in types: Elemental (Fire, Earth, Wind, Water), Weapon (Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed), Defense (Protection, Armor), Primal (Animal, Plants), Arcane (Energy), Divine (Life, Religion), Esoteric (Mind, Summon), Subterfuge (Stealth, Sleight), and Knowledge (Lore, Tactics). Each class has a cost table showing the DP price for each rank in each discipline (see @sec-chapter-classes).
 
 *HP (Health Points):* How much damage you can take before falling unconscious. Starting HP = 10 + Fortitude + Knowledge. Gain Fortitude modifier HP each level (minimum 1).
+
+*Encumbrance:* The slot system for the gear you carry. Slots are Carry Slots; one container at a time is exempt from them, and containers cannot be nested inside one another. See *Carry Slots*.
+
+*Kit:* Your hero's outfit: one option from each of the four lines, Armament, Covering, Focus, and Calling, bought with six kit points. A kit adds no numbers to your sheet. It grants permissions, the fiction of what you brought, and points left over for packs. See @sec-chapter-equipment
+
+*Kit Point:* The currency of the kit. Six at creation, plus one from a class's granted pack or from a talent that grants kit. Leftover points buy packs, one point each.
+
+*Pack:* A capability you carry, bought with a leftover kit point, such as the `climbing` pack or the `healer` pack. Every hero also has the free Adventurer's Pack. A pack is what you brought, not a shopping list.
 
 *Level:* Your hero's experience tier, from 1 to 10. Higher levels unlock Adept (Level 3) and Master (Level 7) abilities and grant attribute increases every 4 levels.
 

@@ -49,7 +49,7 @@ Every kit is built from four lines: Armament, Covering, Focus, and Calling. Each
   numbering: none,
 )
 
-You take exactly one option from each of the four lines, and the four together are your primary kit. Your calling is what you were before you started adventuring, and it is the only line you must take.
+You take exactly one option from each of the four lines, and the four together are your primary kit. Your calling is what you were before you started adventuring, and it is the only line you must take. Its point is counted in every row below.
 
 === The Budget
 
@@ -60,19 +60,19 @@ You have six points to spend on your primary kit. Spend them well, because the l
     columns: (34.00%, 22.00%, 44.00%),
     align: (auto, auto, auto,),
     table.header([A hero who...], [Spends], [Has left for packs],),
-    [Wears no armour and carries a staff], [1], [5],
+    [Wears no armour and carries a staff], [3], [3],
     [Wears no armour with a focus], [4], [2],
-    [Wears light armour and a one-handed weapon], [2], [4],
-    [Wears medium armour and a shield], [4], [2],
-    [Wears heavy armour and a shield], [5], [1],
-    [Wears heavy armour, a shield and a focus], [8], [impossible],
+    [Wears light armour and a one-handed weapon], [3], [3],
+    [Wears medium armour and a shield], [5], [1],
+    [Wears heavy armour and a shield], [6], [0],
+    [Wears heavy armour, a shield and a focus], [9], [impossible],
   )],
   kind: table,
   outlined: false,
   numbering: none,
 )
 
-A knight in plate with a shield has one point left. A light skirmisher with a one-handed weapon has four, and four packs buys a great deal of capability the knight will never have. Heavy armor does not cost power, it costs kit. There is no best kit, because no kit is a superset of another at the same or lower cost. No build hands you everything, and every hero gives up something.
+A knight in plate with a shield has spent all six points on being hard to kill and carries nothing else. A light skirmisher with a one-handed weapon has three left, and three packs buys a great deal of capability the knight will never have. Heavy armor does not cost power, it costs kit. There is no best kit, because no kit is a superset of another at the same or lower cost. No build hands you everything, and every hero gives up something.
 
 === Packs
 
@@ -416,7 +416,7 @@ Sometimes you need to move more than yourself. Trade goods, siege equipment, the
 - *Combat on Vehicles:* Characters on a moving vehicle use the vehicle's Speed for relative positioning but act on their own initiative. The DA may call for Agility checks (Standard) to keep footing during sharp turns, collisions, or rough terrain. Falling off a wagon is embarrassing. Falling off a ship in a storm is a death sentence. Know the difference.
 - *Chariots* are built for war: anyone riding in one has half cover from the sides and rear, already included in the price above. A cart hauls more and carries more people; a chariot outruns it and protects you while you fight from it.
 
-*Upgrades:* Vehicles can be reinforced (+10 HP, costs 25% of base price), armored (passengers have half cover, costs 50% of base price), or outfitted with weapon mounts (ballista platform on a ship, crossbow mount on a wagon). Weapon mounts require a crew member to operate and use the weapon's normal damage values.
+*Upgrades:* Vehicles can be reinforced (+10 HP, costs 25% of base price), armored (passengers have half cover, costs 50% of base price), or outfitted with weapon mounts (ballista platform on a ship, crossbow mount on a wagon). Weapon mounts require a crew member to operate, and the damage comes from the attack card used to fire them.
 
 #callout(type: "tip", title: "Chases", body: [
 For vehicle vs. vehicle chases, a wagon fleeing bandits on horseback, a ship outrunning pirates, only the pursuer rolls, and the quarry's speed is the difficulty. Each round the pursuer's driver makes one roll on the core 3d6 (@sec-chapter-core-resolution), applying the Speed difference as a Boon or a Bane: a Boon if the pursuer is faster, a Bane if the quarry is. A 10 ft edge is one step, 30 ft is two, 60 ft or more is three. A Standard or Strong result closes one band of distance; a Weak result opens one. Closing three bands means the pursuer catches them, opening three means the quarry escapes, and short of that the chase simply continues, a wheel hits a rock, a sail tears, a horse stumbles, and the DA narrates the near miss.
