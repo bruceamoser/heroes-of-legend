@@ -1,0 +1,52 @@
+{
+  "id": "f-121",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "The extended-conflict procedure and its worked example both use a static passive Insight score as one side of an opposed contest and then hand that static score a success tier, and no other chapter licenses either move. Ch07 and ch21 scope passive Insight to catching a lie you are not actively hunting for; ch06 demands dice from both participants before a check counts as opposed and limits the rule's declared reach to social contests in which both sides are engaged. The example outruns even the procedure it illustrates: it opposes Persuasion with the warden's passive Insight although no lie is told, declares the static 9 a Standard result, and then has a rolled Strong beat it. Ch13 shows the book's other use of the same static score, where a rolled total simply has to beat the number and nobody tiers the score itself. Arithmetic makes the extension worse: Knowledge spans minus two to plus two, so a static opposition spans five to nine, can occupy only the Weak or Standard band, can never out-tier a Standard party roll, and leaves the result row that costs the party a success reachable only through a low player roll or a fumble. A smaller conflict sits in the same paragraph: the tie rule names the NPC as the defender, while ch06 keys the tie-winner to whoever did not initiate, and the two part company whenever the NPC opens the exchange. Fix path for the deliberation: this chapter should either roll the defence or state the static opposition and its score-to-tier mapping explicitly, and it should defer the tie rule to ch06 rather than restate it.",
+  "evidence": [
+    {
+      "source": "14-social-conflict",
+      "claim": "The round procedure gives the defending side no dice in either branch: it points to the NPC's Insight score, or to the relevant attribute when the NPC counter-argues, and the worked example confirms both are fixed numbers a roll is measured against.",
+      "quote_or_excerpt": "opposed by the NPC's Insight score"
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "The worked example assigns a success tier to a static score, reading the warden's fixed 9 as Standard and comparing it against Aldric's rolled total, then naming the lieutenant's fixed 7 Weak with no die thrown for him.",
+      "quote_or_excerpt": "15 is Strong, 9 is Standard"
+    },
+    {
+      "source": "07-skills.qmd",
+      "claim": "The skill chapter defines passive Insight for the narrower case of an unnoticed lie and points back to this chapter for it; it never offers the score as the defence against persuasion or as a value carrying a tier.",
+      "quote_or_excerpt": "when someone is lying to you and you are not looking"
+    },
+    {
+      "source": "21-glossary.qmd",
+      "claim": "The glossary entry describes passive Insight as a baseline for detecting lies and hidden threats, giving it no contest role and no tier.",
+      "quote_or_excerpt": "baseline ability to detect lies and hidden threats"
+    },
+    {
+      "source": "06-core-resolution.qmd",
+      "claim": "The core chapter requires both participants to roll before a check counts as opposed, telescopes the rule's declared reach to social contests in which both sides are engaged, and resolves its own example by comparing two rolled totals.",
+      "quote_or_excerpt": "both sides are actively working against each other"
+    },
+    {
+      "source": "13-combat.qmd",
+      "claim": "Combat's use of the same static score as opposition resolves by beating the number, and the Strong label there comes from the rolled total of 19, not from any tier assigned to the fixed 7.",
+      "quote_or_excerpt": "19 beats 7 easily"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Static opposition is bounded by the Knowledge range, so a defending NPC can only ever sit in the bottom two bands; the chapter's own result table therefore cannot be exercised in the NPC's favour above Standard without a party roll that is itself Weak or a fumble.",
+      "quote_or_excerpt": "Knowledge -2..+2 plus base 7 gives static opposition 5..9, never Strong"
+    },
+    {
+      "source": "06-core-resolution.qmd",
+      "claim": "The core chapter identifies the tie-winner by who did not initiate the exchange, and never equates that party with the NPC.",
+      "quote_or_excerpt": "the defender, the non-initiating party, wins the tie"
+    }
+  ],
+  "confidence": 0.82,
+  "rebutting": []
+}

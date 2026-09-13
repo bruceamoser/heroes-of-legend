@@ -1,0 +1,49 @@
+{
+  "id": "f-101",
+  "round": 2,
+  "role": "librarian",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "The success table carries a row no roll can ever reach, and the round-one audit of that table cleared it. The chapter's own critical rule maps a triple six onto the Strong result, and the identical table already pays Strong two successes. The core ladder has three rungs and no Critical tier, and the book's canonical tier tables pair a critical with that same automatic Strong outcome plus a separate special effect, so nothing in the printed procedure ever emits the table's Critical row. Its promised instant victory, reserved for the best roll the game can produce, is therefore dead text, and the asymmetry is what makes it a defect rather than a quirk: the neighbouring Fumble row has a live trigger, because a triple one is an automatic failure and the failure branches already hand the NPC successes. A charitable reading treats the row as the special effect a critical earns, but the chapter's own critical sentence names no such effect and the core chapter routes criticals to a combat-oriented bonus table, so the row either has no trigger or the critical rule as printed is incomplete. The round-one success-table finding reconciled the per-result values against the win condition and cleared this surface on that basis; the reconciliation silently assumed every row can fire, and the top row cannot. Two repairs are available and the chapter must pick one: state that a critical resolves as the Strong row worth two successes and delete the instant-win row, or give that row its own trigger and score it against the tally so a critical can genuinely end a conflict. Until one is chosen, a DA reading the table straight will look for a result the dice cannot deliver.",
+  "evidence": [
+    {
+      "source": "14-social-conflict",
+      "claim": "The chapter's critical sentence routes a triple six to the Strong result, the tier the same table already scores, instead of to its own Critical row.",
+      "quote_or_excerpt": "three natural 6s is an automatic Strong result"
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "The success table's Critical row promises victory on the spot and names no trigger at all, while its other rows correspond to tiers the dice can produce.",
+      "quote_or_excerpt": "You break through entirely. Win the conflict immediately."
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "The same table pays the Strong row two successes, so a critical resolved through the Strong rule advances the tally by two points and never closes the conflict outright.",
+      "quote_or_excerpt": "[*Strong*], [Devastating point. You gain 2 successes.]"
+    },
+    {
+      "source": "06-core-resolution",
+      "claim": "Core resolution fixes the ladder at three ordered tiers and defines a critical as an automatic Strong result followed by a bonus roll, so no result ever yields a tier above Strong.",
+      "quote_or_excerpt": "Critical hits are automatic _Strong_ results."
+    },
+    {
+      "source": "07-skills.qmd",
+      "claim": "The canonical tier table gives the Critical row an explicit trigger and defines it as automatic Strong plus a special effect, matching the core chapter rather than this chapter's instant-win clause.",
+      "quote_or_excerpt": "Automatic Strong plus a special outcome."
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "The reference sheet repeats that same critical definition, so no canon surface anywhere grants a critical an immediate-win effect.",
+      "quote_or_excerpt": "Automatic Strong + special outcome"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Reachability audit of the five result rows: Weak, Standard and Strong are tier-keyed and reachable; Fumble fires on a triple one and its failure branch scores for the NPC; the Critical row's trigger set is empty, since a critical collapses into Strong and pays two successes. So four rows live, one dead, and the audit that cleared the table checked only the arithmetic of the rows it treated as live.",
+      "quote_or_excerpt": "Reachability: critical collapses to Strong; Critical row trigger set empty."
+    }
+  ],
+  "confidence": 0.78,
+  "rebutting": [
+    "f-002"
+  ]
+}

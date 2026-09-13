@@ -1,0 +1,57 @@
+{
+ "id": "f-301",
+ "round": 1,
+ "role": "game-architect",
+ "topic": "t-02",
+ "stance": "refute",
+ "argument": "The round procedure names one roller and a closed four-skill list, but the chapter's own worked example breaks both halves of that limit and still banks the result as a conflict success. Round two is won by a second PC stepping in beside the leader, and the skill she reaches for is Insight, the fifth social skill the round list omits; the DA scores that roll as one success, which is the third success that ends the conflict. The two later passages about other characters chipping in tell a different story: a contribution from someone other than the face earns the face a Boon on the next roll, never a scored point. So a table running the procedure cannot reproduce the chapter's own model scene, and cannot tell whether an off-list skill or an extra PC banks a success or merely grants a Boon - which is exactly the adjudication a table needs, since the chapter itself closes by inviting everyone to stack in. The balance stake is the pacing of the race. The one-roll-per-round, face-only limit is the only brake on a first-to-three tally: with the face alone the aim is about two and a third rounds, but the example licenses a second scorer whose own rate against a Weak opposition is roughly 91 percent, and four contributors at that rate drop three successes inside a single round about 95 percent of the time, deleting the extended conflict the chapter exists to sell. Either the round list must admit Insight and multiple rollers, or the example and the closing flourish must be rewritten as assist-only Boons.",
+ "evidence": [
+  {
+   "source": "14-social-conflict",
+   "claim": "The round structure names a single roller per round and a closed list of four scoring skills.",
+   "quote_or_excerpt": "the party's face makes one social skill roll"
+  },
+  {
+   "source": "14-social-conflict",
+   "claim": "The enumerated scoring list stops at four skills and omits Insight.",
+   "quote_or_excerpt": "Persuasion, Deception, Intimidation, or Performance"
+  },
+  {
+   "source": "14-social-conflict",
+   "claim": "Round two of the worked example is rolled by a second PC rather than the party's face, and she uses the omitted skill.",
+   "quote_or_excerpt": "Can I use Insight to read what's really bothering him?"
+  },
+  {
+   "source": "14-social-conflict",
+   "claim": "That off-list roll by a non-face PC is tallied as a scored point rather than routed to the face as a Boon.",
+   "quote_or_excerpt": "so the read lands. One success."
+  },
+  {
+   "source": "14-social-conflict",
+   "claim": "The example's tally reaches three and ends the conflict, so the deciding exchange was neither the face nor a listed skill.",
+   "quote_or_excerpt": "Three successes. The conflict is yours."
+  },
+  {
+   "source": "14-social-conflict",
+   "claim": "The section on wider participation frames a non-face reading of the room as a contribution, while the Boon note routes such help to the face's roll as a Boon.",
+   "quote_or_excerpt": "The Blade might read the room with Insight."
+  },
+  {
+   "source": "14-social-conflict",
+   "claim": "The specified effect of an assist from another character is a Boon on the face's next roll, not a point on the conflict tally.",
+   "quote_or_excerpt": "grants the party's face a Boon on their next social roll"
+  },
+  {
+   "source": "07-skills.qmd",
+   "claim": "Insight is a canon social skill keyed to Reason, so it is not an exotic skill; it is only absent from the conflict round's scoring list.",
+   "quote_or_excerpt": "[*Insight*], [Reason], [Reading people, detecting lies, intuition]"
+  },
+  {
+   "source": "reasoning",
+   "claim": "Pacing math: with only the +3 face rolling, expected successes per round are about 1.33, so three successes land in about 2.3 rounds; four contributors at the example's demonstrated 90.7 percent per-roll scoring rate (Lyra at +2 against a Weak 7) reach three successes in a single round roughly 95 percent of the time, collapsing the race.",
+   "quote_or_excerpt": "face-only: 3 successes in ~2.3 rounds; four scorers ~95% in one round"
+  }
+ ],
+ "confidence": 0.8,
+ "rebutting": []
+}

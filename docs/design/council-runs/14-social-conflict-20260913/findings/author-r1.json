@@ -1,0 +1,47 @@
+{
+  "id": "f-004",
+  "round": 1,
+  "role": "author",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "Refute. The chapter's teaching instrument cannot be replayed from the rule it exists to demonstrate. The round structure hands each round's single roll to the party's face and enumerates four skills, yet the skills section a page earlier counts Insight among five social skills, and the worked example then has a different character, Lyra, roll Insight at the DA's invitation and bank the read as a party success. That is not a cosmetic slip. Round one banks two successes, round two banks one, and the win threshold is three, so a reader applying the stated procedure stalls at two and the scene never resolves; the example's own outcome is load-bearing on the off-procedure roll. The closing section then offers a third, incompatible picture, casting a non-face Insight check as setup that feeds the face rather than a roll that scores. One chapter, three accounts of what a second character's Insight check does. The defect is coherence, not math: the sums are clean. Minimal fix, pick one and state it in the round structure, either that any participant may roll and any of the five social skills may score, or that non-face checks only ever set up the face's roll, and then re-cut the example so its third success comes from the face. Since the example is the only place the procedure is shown end to end, leaving the contradiction in place means the chapter teaches two different games.",
+  "evidence": [
+    {
+      "source": "14-social-conflict",
+      "claim": "The round structure gives each round's roll to the party's face alone and names four skills, which excludes both a second roller and the Insight skill.",
+      "quote_or_excerpt": "the party's face makes one social skill roll"
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "The skills section counts five social skills and lists Insight among them, so the round structure's four-skill enumeration silently drops a skill the chapter itself labels social.",
+      "quote_or_excerpt": "Five skills carry the weight of social encounters"
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "The example designates one character as the party's Leader who takes the lead, which fixes the face for the scene and rules Lyra out of that role.",
+      "quote_or_excerpt": "The party's Leader, Ser Aldric, takes the lead"
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "In the second round the DA invites an Insight roll from Lyra, a character other than the designated face, and the result is banked on the party's tally.",
+      "quote_or_excerpt": "Roll Insight, opposed by his"
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "That second roll supplies the party's third success and the win outright, so the example's outcome depends on the disputed roll rather than merely illustrating it.",
+      "quote_or_excerpt": "Three successes. The conflict is yours"
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "The later section frames a non-face Insight check as a contribution that sets up whoever delivers the line, and states that all other players are feeding the setup, which is not what the example does with Lyra's roll.",
+      "quote_or_excerpt": "everyone else is feeding them the setup"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Recomputed from the example: round one yields two successes, round two yields one, the win condition is three, so striking the non-face Insight roll leaves the party one short of resolution and no path to victory inside the scene.",
+      "quote_or_excerpt": "2 + 1 = 3 against a threshold of 3"
+    }
+  ],
+  "confidence": 0.82,
+  "rebutting": []
+}

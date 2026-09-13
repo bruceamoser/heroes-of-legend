@@ -1,0 +1,37 @@
+{
+ "id": "f-601",
+ "round": 1,
+ "role": "layout-expert",
+ "topic": "t-01",
+ "stance": "refute",
+ "argument": "In the built PDF the chapter's one substantial sidebar is stranded on a page by itself. The Failing Forward note is the only content on printed page 221: its box spans y 68.4 to 239.0pt inside a text frame that runs from about 68 to 715pt, so roughly 74 percent of that page is blank, and printing goes straight from the note to the worked example on the next leaf. The cause is mechanical rather than editorial. Page 220's body copy stops at y 557.5pt, leaving about 158pt of frame, while the same box renders 170.6pt tall, so it overflows by barely one line of height; the hand-authored page break placed immediately after the note then blocks any reflow, which is what pins the next section to page 222 instead of letting it fill 221. The same hand-placed break pattern repeats at the close of the worked example: page 223's last line sits at y 234pt with about 74 percent of the page empty, because an explicit break follows the Outcome paragraph and pushes the Boon paragraph onto 224. The chapter therefore spends two of its nine pages almost entirely blank for a reason no reader can see, and neither page can recover on its own. Sparse pages do occur elsewhere in the book, including three other callout-only pages, so this is a recurring page-flow pattern rather than a one-off; it is still a defect here and the repair is local. Other layout surfaces check out: both tables render whole with no clipped or overflowing cells, the opening image, its caption and the art placeholder sit together, and neither callout is split across a page. Smallest fix: drop or relocate the breaks recorded at source lines 96 and 134, or move the note above the paragraph that precedes it so the following section can occupy page 221.",
+ "evidence": [
+  {
+   "source": "14-social-conflict",
+   "claim": "A hand-authored page break sits immediately after the Failing Forward callout and before the next section heading, so once the callout overflows page 220 nothing can flow beneath it on the following page.",
+   "quote_or_excerpt": "title: \"Failing Forward in Social Encounters\""
+  },
+  {
+   "source": "reasoning",
+   "claim": "Measured on the built PDF (letter, 612x792pt): the callout box is the only content on printed page 221, occupying y 68.4 to 239.0pt of a text frame running to about y 715pt, leaving roughly 74 percent of the page empty; the chapter's other near-blank interior page, 223, ends at y 234pt.",
+   "quote_or_excerpt": "Failing Forward in Social Encounters"
+  },
+  {
+   "source": "reasoning",
+   "claim": "The overflow is a near miss rather than a deliberate section start: page 220's final body line bottoms out at y 557.5pt with about 158pt of frame remaining, while the callout box measures 170.6pt tall, so it misses fitting by roughly one line.",
+   "quote_or_excerpt": "One shift per roll, never both."
+  },
+  {
+   "source": "14-social-conflict",
+   "claim": "A second hand-placed break follows the closing Outcome paragraph of the worked example, which is what leaves page 223 about three-quarters empty before the Boon paragraph opens page 224.",
+   "quote_or_excerpt": "instead of rolling once and hoping for the best."
+  },
+  {
+   "source": "reasoning",
+   "claim": "The defects are confined to page flow, not element rendering: both tables render whole and unsplit with no clipped or overflowing cells, the chapter-opening image, its caption and the art placeholder stay together, and neither callout is broken across a page boundary.",
+   "quote_or_excerpt": "Need Strong result to shift to Neutral."
+  }
+ ],
+ "confidence": 0.6,
+ "rebutting": []
+}

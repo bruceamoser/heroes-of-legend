@@ -1,0 +1,52 @@
+{
+  "id": "f-500",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "This chapter runs two tables that are both keyed to result tiers and both answer the same question, namely what a given roll achieves, and they return opposite verdicts for the same tier against the same NPC. The attitude ladder's mechanical column grants a Weak roll the force of success against a Friendly NPC and flatly calls a Standard roll a failure against a Hostile one. The extended-conflict table takes the same two tiers and reverses both: it treats Weak as a party failure that additionally drags the NPC toward Hostile, and it pays a Standard roll a point. Neither table is scoped away from the other. The attitude section presents its ladder as the frame for every social roll, its shifts are said to apply inside and outside social conflict, and the conflict clause itself moves attitude on a bad roll, which settles the question: one roll, one attitude, both tables claiming to say what it achieved. So the counter-example is not hypothetical, it is the chapter's own scene. Round one leaves the warden inclined to help, and round two is run against a Hostile lieutenant, which are exactly the two attitude rows whose verdicts collide with the conflict table. A determined player at the Friendly warden rolls a Weak result, cites the ladder, takes the favor, and refuses the downward shift; the DA cites the conflict clause, scores the NPC a point, and drops the attitude. At 2 successes that dispute is the whole conflict, because only the success table can supply the third point, and a Weak that is simultaneously a success and a failure cannot be adjudicated from the text. The same collision decides an opening exchange against the Hostile lieutenant, where a Standard roll is a point to the party by one table and a failure by the other. Fix path: give the attitude ladder an explicit scope of single rolls, or state it as the outside-conflict case and defer in-conflict tiers to the success table. Cleared while testing and deliberately not filed: the example's arithmetic reconciles (12+3 for a Strong 15, 11+2 for a Standard 13, passive 9 and 7 from base 7 plus Knowledge, 2+1 reaching the three-success win) and the Boon note restates the core four-dice-keep-three ladder without adding a number to the total.",
+  "evidence": [
+    {
+      "source": "14-social-conflict",
+      "claim": "The attitude ladder keys its mechanical column to result tiers and makes a Weak roll a success against a Friendly NPC, sufficient for small favors.",
+      "quote_or_excerpt": "Weak result sufficient for minor favors"
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "The extended-conflict clause makes the same Weak tier a failed roll for the party, and moves the NPC's attitude a step the other way, which cannot both be true of one roll against a Friendly NPC.",
+      "quote_or_excerpt": "is a failed roll for the party"
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "The attitude ladder likewise calls a Standard roll a failure against a Hostile NPC, treating the NPC as digging in rather than conceding anything.",
+      "quote_or_excerpt": "Standard fails, they dig in harder"
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "The success table pays the identical Standard tier a success for the party, so the two tables disagree on what that roll achieved and on which side benefits.",
+      "quote_or_excerpt": "You score a point. You gain 1 success."
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "The attitude section claims the ladder governs every social roll rather than only rolls outside the extended procedure, so no carve-out preserves the conflict table from it.",
+      "quote_or_excerpt": "the starting point for every social roll"
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "Attitude movement is expressly shared between social conflict and play outside it, which confirms the ladder and the conflict tally operate on the same roll rather than on separate tracks.",
+      "quote_or_excerpt": "both in and out of social conflict"
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "The worked example proves the collision is reachable: round one leaves the warden inclined to help and round two opposes the party with a Hostile NPC, and those are precisely the two rows that contradict the conflict table.",
+      "quote_or_excerpt": "her attitude shifts one step closer to you. Neutral to Friendly."
+    },
+    {
+      "source": "reasoning",
+      "claim": "The example's numbers reconcile with the win condition and the Boon note matches the core Boon ladder, so those leads are cleared rather than defects; what survives is the unscoped clash between two tier-keyed tables.",
+      "quote_or_excerpt": "12+3=15 Strong; 11+2=13 Standard; passive 9 and 7 from base 7"
+    }
+  ],
+  "confidence": 0.8,
+  "rebutting": []
+}

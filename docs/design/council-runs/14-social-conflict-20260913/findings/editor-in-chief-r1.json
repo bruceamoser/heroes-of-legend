@@ -1,0 +1,42 @@
+{
+ "id": "f-901",
+ "round": 1,
+ "role": "editor-in-chief",
+ "topic": "t-03",
+ "stance": "refute",
+ "argument": "This chapter is the named owner of the NPC attitude ladder and the social-conflict procedure, and the book defers to it from at least three other places, yet the two lookup surfaces define neither. The glossary opens by promising to define every mechanical term in one place, but it carries no entry for attitude, for any of the four tier names, for social conflict, for the face, or for stakes; the reference sheets list the five social skills yet devote no section to social conflict or the ladder. That gap is not merely incomplete, it is unclosable for a reader: chapter 17 restates the ladder's step semantics in a way this chapter's four-rung ladder contradicts, and no canonical entry exists to say which is right. Smallest fix: add glossary entries for Attitude (all four tiers), Social Conflict and Face, and a social-conflict block on the reference sheets that points at this chapter.",
+ "evidence": [
+  {
+   "source": "14-social-conflict",
+   "claim": "The chapter establishes a four-rung ladder (Hostile, Neutral, Friendly, Allied) and states that a successful shift moves the NPC exactly one step along it.",
+   "quote_or_excerpt": "shifts the NPC one step closer to you"
+  },
+  {
+   "source": "21-glossary.qmd",
+   "claim": "The glossary states its own scope as covering every mechanical term, which makes the absence of the attitude ladder and social-conflict vocabulary a violation of the surface's declared contract rather than a stylistic omission.",
+   "quote_or_excerpt": "Every mechanical term used in this book, defined in one place."
+  },
+  {
+   "source": "21-glossary.qmd",
+   "claim": "The only social-conflict-adjacent entries are Skill (which mentions Persuasion only as a category example) and Passive Insight; the four attitude names, attitude itself, social conflict, face and stakes are absent.",
+   "quote_or_excerpt": "Includes physical skills (Athletics), knowledge skills (Arcana), social skills (Persuasion)"
+  },
+  {
+   "source": "22-reference-sheets.qmd",
+   "claim": "The quick reference sheets catalogue the five social skills in their skills table but contain no social-conflict or attitude section, so a DA screen reference for the ladder does not exist anywhere in the book.",
+   "quote_or_excerpt": "[*Persuasion*], [GU], [Diplomacy, negotiation, charm]"
+  },
+  {
+   "source": "17-magic-items.qmd",
+   "claim": "A legendary magic item restates the ladder as a two-step jump that sends a Neutral creature directly to Allied, skipping Friendly and contradicting the one-step shift this chapter owns; with no glossary entry for the ladder, a DA has no authority to adjudicate which reading is canonical.",
+   "quote_or_excerpt": "if it was Neutral, it becomes Allied"
+  },
+  {
+   "source": "19-gm-guidance.qmd",
+   "claim": "GM guidance points readers at this chapter as the full rulebook for the procedure, confirming the chapter as sole authority and therefore the owner of the vocabulary that the lookup surfaces fail to define.",
+   "quote_or_excerpt": "The full rulebook lives in the social conflict chapter"
+  }
+ ],
+ "confidence": 0.72,
+ "rebutting": []
+}

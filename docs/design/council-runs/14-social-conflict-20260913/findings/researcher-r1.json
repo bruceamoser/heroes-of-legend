@@ -1,0 +1,47 @@
+{
+  "id": "f-201",
+  "round": 1,
+  "role": "researcher",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "Refute. The extended-conflict procedure makes the NPC's passive Insight the value the face's round roll is measured against, and the worked example settles that exchange by tier: a static 9 read as Standard, a static 7 as Weak. No canon licenses a passive score as a contested value with a tier of its own: core resolution defines an opposed roll as the two sides rolling and comparing tiers first, and the book's only other passive-Insight opposition compares a rolled total against the bare number. The skill chapter and the glossary both scope passive Insight to lie detection when the target is not actively looking. Quantified, the construction is also inert at the top end: Knowledge runs -2 to +2, so passive Insight runs 5 to 9 and can never post a Strong opposition; against a maximum passive 9 a face rolling 3d6+3 wins the exchange on 90.7% of rolls (97.2% under a Boon) and the NPC gains a success on only 4.6% of rounds. The example's arithmetic is clean (12+3=15 Strong, 11+2=13 Standard, 2+1=3 clears first-to-three) and its skill-tier values (Novice +1, Adept +2, Master +3) are the sanctioned ones, so the defect is the contested-value construction, not the sums or the tier ladder. Fix: define a passive-score-to-tier conversion and accept the Standard cap, or make the defender roll 3d6 + Insight as core resolution requires. Scope: mechanical.",
+  "evidence": [
+    {
+      "source": "14-social-conflict",
+      "claim": "The worked example assigns the warden's static passive Insight a success tier and decides the exchange on the tier comparison rather than on a rolled total, and the round structure makes that same static score the target of the face's roll.",
+      "quote_or_excerpt": "15 is Strong, 9 is Standard, and Strong beats Standard"
+    },
+    {
+      "source": "06-core-resolution",
+      "claim": "Core resolution defines an opposed contest as both parties rolling, with tiers compared first and totals only as a tiebreak, so a one-sided static number is not a contested value under the rule the chapter invokes.",
+      "quote_or_excerpt": "both sides roll. Higher tier wins"
+    },
+    {
+      "source": "07-skills",
+      "claim": "The skill chapter scopes passive Insight to detecting lies when the character is not actively looking, a far narrower job than serving as the general opposition for a multi-round argument, so extending it to Persuasion, Deception, Intimidation or Performance contests exceeds its own definition.",
+      "quote_or_excerpt": "lying to you and you are not looking for it"
+    },
+    {
+      "source": "21-glossary",
+      "claim": "The glossary's definition of passive Insight is equally narrow, describing it as a baseline sense for lies and hidden threats, not as a defence number against social pressure.",
+      "quote_or_excerpt": "baseline ability to detect lies and hidden threats"
+    },
+    {
+      "source": "13-combat",
+      "claim": "The book's other passive-Insight opposition resolves by comparing the roller's total against the bare passive number and never assigns the passive score a tier, which is the pattern this chapter departs from.",
+      "quote_or_excerpt": "19 beats 7 easily. Surprise achieved."
+    },
+    {
+      "source": "07-skills",
+      "claim": "The tier bonuses the example uses are the sanctioned ladder, so the +1 and +2 modifiers themselves are correct and the audit exposure is the contested-value construction, not the tier values.",
+      "quote_or_excerpt": "+1 for Novice, +2 for Adept, +3 for Master"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Recomputed: 4+5+3=12 plus Guile +1 and Persuasion Adept +2 gives 15 (Strong, 2 successes) against a passive 9; 5+2+4=11 plus Reason +1 and Insight Novice +1 gives 13 (Standard, 1 success) against a passive 7; party total 2+1=3 clears first-to-three, and both passive scores follow Knowledge + 7 (2+7=9, 0+7=7), so the sums are legal. The cap is the defect: Knowledge is bounded at -2 to +2, so passive Insight is bounded at 5 to 9, only Weak or Standard, never Strong. Counting 3d6+3 against a passive 9 wins the exchange 0.9074 of the time (0.9722 under a Boon, 4d6 keep highest three) with the NPC gaining a success on 0.0463 of rounds; a Boon for the +3 face lifts P(Strong) from 0.3750 to 0.6165 and cuts P(fumble) from 0.0046 to 0.0008, so the odds claim in the Boon note holds while the opposition stays decorative.",
+      "quote_or_excerpt": "12+3=15 Strong; 11+2=13 Standard; passives 2+7=9 and 0+7=7; 2+1=3"
+    }
+  ],
+  "confidence": 0.7,
+  "rebutting": []
+}

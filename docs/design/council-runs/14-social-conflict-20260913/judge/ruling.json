@@ -1,0 +1,15 @@
+[
+ {
+  "id": "r-001",
+  "topic": "t-01",
+  "point_of_contention": "Whether the chapter's near-blank pages, caused by hand-authored page breaks that block reflow, are a real defect that must be repaired before publication or an acceptable instance of a recurring book-wide page-flow pattern.",
+  "ruling": "The council must treat the chapter's stranded near-blank pages as a real page-flow defect to be repaired before publication: remove or relocate the two hand-authored breaks (after the Failing Forward note and after the worked example's closing Outcome paragraph), or move the note so the following section can occupy the affected page, then confirm on a rebuilt PDF that no interior page is left mostly blank for an invisible reason.",
+  "reasoning": "The refute supplies a self-consistent, mechanically specified failure — a callout that misses fitting by roughly one line of height (about 170.6pt of box against about 158pt of remaining frame) while a hand-placed break immediately after it blocks any reflow — and no counter-argument was recorded in the rounds, so on the arguments as presented the defect stands. The recurrence of sparse pages elsewhere in the book, including other callout-only pages, does not convert this into house style: a convention produces intended, predictable results, whereas here the blank page is an arbitrary break interacting with a near miss, which is the opposite of a deliberate layout decision. The proposed repair is local, content-neutral and proportionate — it touches only two break positions or moves one note, alters no rule text, and cannot cascade into the chapter's rules or its other layout surfaces, which the same argument reports as rendering correctly.",
+  "conditions": [
+   "The repair must be confined to page flow: no change to rule text, tables, the chapter-opening image, its caption, or the art placeholder.",
+   "Acceptance is verified on a rebuilt PDF, not on the source markup alone: the Failing Forward note and the worked example's Outcome paragraph must no longer leave an interior page carrying a single short block above a largely empty text frame.",
+   "Because the pattern is described as recurring book-wide, the same check should be recorded for the other affected callouts, but repairing those pages is outside this chapter's ruling and must not delay this chapter.",
+   "If the two breaks prove load-bearing for a deliberate section start, the alternative remedy — relocating the note above the preceding paragraph — satisfies this ruling."
+  ]
+ }
+]

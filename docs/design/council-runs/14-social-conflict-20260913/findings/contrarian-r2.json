@@ -1,0 +1,50 @@
+{
+  "id": "f-102",
+  "round": 2,
+  "role": "contrarian",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "Round two turns the council's own passivity charge over and it breaks in three places, so f-001 and f-003 go back with one limb deleted, one rate corrected, and a merge. First, opposition by a fixed score is not this chapter's invention. The core opposed-rolls section names Stealth against passive Insight as a contest its rule governs, and the combat chapter runs precisely that, deciding it by the roller's tier and reading its Strong off the rolled 19 rather than off the fixed number. So the general objection to a static value opposing a roll overreaches, and that matters for the cure: f-003's prescription of a passive-score-to-tier conversion would canonise the offending move, while the combat precedent already demonstrates the cure, which is to grade the roller and leave the score un-tiered. What has no precedent anywhere is handing the static score a tier of its own, which is what the example's narration does. Second, f-003's two odds cannot both stand. Its 90.7 percent win figure reproduces exactly, but only because a total of 9 against a passive 9 is a full tie that the round rule awards to the defender; that same award must then put the tie band into the NPC's column, which yields an NPC scoring rate of 20 of 216, that is 9.26 percent, not the 4.63 percent filed. The published pair sums to 95.4 percent and the shortfall is exactly the tie band the finding is about, so either the tie pays the NPC, giving 9.26 percent, or it pays nobody and the party's rate is 95.4 percent. No consistent reading of the round rule emits 90.7 percent alongside 4.63 percent, and that inconsistency is a hole in the audit rather than a defect in the chapter. The cap half of the claim survives my recomputation intact: Knowledge bounded at minus two to plus two bounds passive Insight at 5 to 9, so a defender can never post a Strong opposition and the rows that pay the NPC stay close to dead. Third, f-001 and f-003 lodge the same charge on the same topic, so t-03 shows three refutes but only two distinct tests, and the headcount overstates how much independent pressure that claim has taken. Which framing should stand: f-003's, thinned. Delete f-001's doubt about a static score opposing a roll at all, keep the narrower charge that a static score must not be tiered and that the capped range strands the table's upper rows, and restate the rate as 9.26 percent. One calibration note against my own agreement: the same recomputation finds a like slip in a t-02 filing, where f-004's 91 percent for a plus-two roll against a static 7 is really 95.4 percent, and that correction strengthens rather than weakens its pacing argument, so it should be amended there rather than re-filed here.",
+  "evidence": [
+    {
+      "source": "06-core-resolution.qmd",
+      "claim": "The core opposed-rolls section expressly extends its rule to Stealth versus passive Insight, so a fixed score standing as one side of a contest is book-sanctioned, and the general anti-passivity limb of the round-one attack overreaches even though the same section speaks of dice from both sides.",
+      "quote_or_excerpt": "Stealth versus passive Insight for surprise"
+    },
+    {
+      "source": "13-combat.qmd",
+      "claim": "The book's only other worked passive-Insight opposition resolves by reading the roller's tier against the bare number and never assigns the fixed score a tier, so the tiered static value is the move with no precedent.",
+      "quote_or_excerpt": "Standard or Strong success means surprise is achieved"
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "The example's narration, not the procedure text, is where the fixed score acquires a tier: the DA labels the static 9 a Standard result and the static 7 a Weak one, which is the narrower defect the round-one refutes should have named.",
+      "quote_or_excerpt": "15 is Strong, 9 is Standard"
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "The round rule sends a full tie to the NPC as defender, and the same table keys its effects to the exchange result, so the tie band has to land in someone's column; that is the band the filed NPC rate omits.",
+      "quote_or_excerpt": "a full tie goes to the NPC, the defender"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Enumerating the 216 ordered 3d6 outcomes with the face at plus three against a passive 9: the party takes 196 of 216 (any total of 10 or more), the Weak band of 10 outcomes and the equal-total tie of 10 outcomes both fall outside the party's column, so the NPC scores 20 of 216, or 9.26 percent, and the filed 90.7 plus 4.63 pair covers only 95.4 percent. I reproduced the other figures as filed (0.9722 under a Boon, Strong from 0.3750 to 0.6165, fumble from 0.0046 to 0.0008, or 1 of 1296), so the NPC rate is the sole arithmetic error.",
+      "quote_or_excerpt": "Party 196/216; weak 10/216; tie 10/216; NPC 20/216 = 9.26%"
+    },
+    {
+      "source": "07-skills.qmd",
+      "claim": "The skills chapter gives passive Insight the narrower job of an unnoticed lie and defers to this chapter, which bounds the score's reach but does not forbid it from opposing a roll, so the scope limb is sound where the passivity limb is not.",
+      "quote_or_excerpt": "which is your Knowledge score + 7"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Both refutes attack the same construction on the same topic, a static score carrying a tier as the round's opposition, so three t-03 refutes rest on two distinct tests and the surviving framing should be the narrow one with the corrected rate.",
+      "quote_or_excerpt": "two refutes, one construction: tiered static score on t-03"
+    }
+  ],
+  "confidence": 0.82,
+  "rebutting": [
+    "f-001",
+    "f-003"
+  ]
+}

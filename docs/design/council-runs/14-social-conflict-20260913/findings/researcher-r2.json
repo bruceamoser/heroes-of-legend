@@ -1,0 +1,71 @@
+{
+  "id": "f-103",
+  "round": 2,
+  "role": "researcher",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "Refute, with the exact arithmetic this round asked for. I enumerated all 216 ordered 3d6 outcomes and the 1296 ordered 4d6 Boon outcomes and solved the race to three successes as an exact Markov chain instead of estimating it. Both of f-003's odds reproduce exactly: a +3 face wins the exchange on 196/216, that is 0.9074, and under a Boon on exactly 35/36, 0.9722. The round-two correction to my own filed rate is also right and I reproduce it independently. A face total of exactly 9 is a full tie, the round rule hands full ties to the defender, so the fixed opposition banks a success on 5/54 of rounds, 9.26%, not on the 5/108 I filed; that earlier number was only the tier-win branch, and the tie band doubles it. The number the council is owed is the comparator that has not been supplied. Across the whole legal range of a fixed defence, 5 to 9, the opposition's per-round scoring rate is 0, 1/216, 1/54, 5/108 and 5/54. Race that against the example's own party and the NPC wins the entire first-to-three conflict 0.43% of the time, while the party needs 2.58 rounds on average and banks 1.282 successes per round, which also lands round one's pacing estimate on exact figures rather than the 2.3 it filed. Hand the same defender dice instead, 3d6+3 against the party's 3d6+3 on the book's own bands with the defender keeping the tie, and the opposition's rate becomes 54.6% and it wins the conflict 56.3% of the time: about 131 times the win chance, out of one change, whether the defence is a number or a roll. Even the chapter's own literal fallback, a counter-arguing NPC rolling its bare attribute, reaches 36.3% per round and 26.7% of conflicts. That gap is the case against the construction, and it is not a rounding argument about who wins a round but a decision about who wins the scene. Three follow-ons. The fixed score cannot exercise the table it feeds: it can only ever occupy the Weak or Standard rows, and the Critical row has an empty trigger set, since the only critical event the book defines, three natural 6s at 1/216, is routed to Strong by both this chapter and core resolution. Because the same static rate applies to every contributor, four party members each rolling bank three successes in one round on 0.9546 of attempts, so the moment a DA honours the teamwork callout the brake the round structure counts on is gone. And the score-to-tier conversion the example performs exists nowhere in print, which is f-006's missing surface in miniature. Fix direction: roll the defence as core resolution requires, or publish the conversion and accept a Standard ceiling.",
+  "evidence": [
+    {
+      "source": "14-social-conflict",
+      "claim": "The round procedure gives the defending side no die in either branch, naming the fixed Insight score or, when the NPC counter-argues, a bare attribute, and no printed surface anywhere states how such a score converts to a success tier; the example simply asserts the tier.",
+      "quote_or_excerpt": "or the relevant attribute if the NPC is actively counter-arguing"
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "The worked example resolves the exchange by comparing the fixed score's asserted tier against the party's rolled tier rather than by two rolled totals, which is the move under test.",
+      "quote_or_excerpt": "9 is Standard, and Strong beats Standard"
+    },
+    {
+      "source": "06-core-resolution.qmd",
+      "claim": "Core resolution defines an opposed contest as requiring dice from both participants and compares tiers first, so a single fixed number is not a contested value under the rule this chapter invokes.",
+      "quote_or_excerpt": "both sides roll. Higher tier wins."
+    },
+    {
+      "source": "06-core-resolution.qmd",
+      "claim": "The tie rule awards a full tie to the party that did not initiate, so applying it to a fixed defence puts the equal-total band in the NPC's column, raising the opposition's rate from 5/108 to 5/54.",
+      "quote_or_excerpt": "the defender, the non-initiating party, wins the tie"
+    },
+    {
+      "source": "03-attributes.qmd",
+      "claim": "Attributes are capped at minus two to plus two, so adding the skill chapter's base of seven confines a fixed passive-Insight defence to five legal values, 5 through 9.",
+      "quote_or_excerpt": "Attributes range from -2 to +2"
+    },
+    {
+      "source": "07-skills.qmd",
+      "claim": "The skill chapter defines passive Insight for the case of an unnoticed lie and never offers it as a defence carrying a tier, so the chapter extends the term past its own scope as well as past core resolution's rule.",
+      "quote_or_excerpt": "lying to you and you are not looking for it"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Enumeration over the 216 ordered 3d6 outcomes: the +3 face takes 196/216 and wins 35/36 under a Boon (1260 of 1296). Sweeping the whole legal range of the fixed defence with the same face, the opposition's per-round scoring rate is 0 at 5, 1/216 at 6, 1/54 at 7, 5/108 at 8 and 5/54 at 9, so the strongest legal defence is still the only one that clears one round in ten.",
+      "quote_or_excerpt": "196/216 and 35/36; NPC rate 0, 1/216, 1/54, 5/108, 5/54"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Exact Markov solve of the race to three successes on each side's own per-round distribution. Against the fixed 9 the party averages 1.282 successes per round and 2.583 rounds to three, and the NPC wins the conflict 0.0043 of the time; against a rolled defender of equal competence (3d6+3 versus 3d6+3, defender keeps the tie) the NPC's rate is 0.5464 and it wins 0.5627 of conflicts; against a bare-attribute defender the pair is 0.3631 and 0.2671. A Monte Carlo run of 400000 trials reproduces the two headline figures, 0.0040 and 0.5628.",
+      "quote_or_excerpt": "Race: NPC wins 0.43% static vs 56.3% rolled; 131x"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Because every contributor is measured against the same fixed rate, the first-to-three rule clears in a single round whenever three of four contributors each bank at least one success: 0.9546 at the 90.7% rate this packet specifies, and 0.9879 at the rate the example's own second roller actually has at plus two against a defence of 7. This is the arithmetic behind the round-two t-02 claim about the assist rules.",
+      "quote_or_excerpt": "3 of 4 contributors score in one round: 0.9546 (0.9879)"
+    },
+    {
+      "source": "06-core-resolution.qmd",
+      "claim": "A critical is defined as an automatic Strong result, so the tier ladder emits nothing above Strong and a success table row keyed to a Critical tier can never fire; the underlying dice event has probability 1/216, or 0.463%.",
+      "quote_or_excerpt": "Critical hits are automatic _Strong_ results."
+    },
+    {
+      "source": "13-combat.qmd",
+      "claim": "The book's other fixed-score opposition resolves by comparing the roller's total against the bare number and labels the roller's own result, never tiering the fixed score, which is the pattern this chapter departs from.",
+      "quote_or_excerpt": "Standard or Strong success means surprise is achieved"
+    }
+  ],
+  "confidence": 0.8,
+  "rebutting": [
+    "f-001",
+    "f-003",
+    "f-006"
+  ]
+}
