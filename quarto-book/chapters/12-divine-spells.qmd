@@ -46,14 +46,14 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 *Strong:* As Standard, but undead and fiends in the bright light have Bane on attacks, the radiance burns them with its mere presence.
 
-=== Resistance (Cantrip)
-*Disciplines:* None · *Action:* Action · *Range:* Touch (Concentration, up to 1 minute) · *Keywords:* None
+=== Gain Resistance (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* Touch (Concentration, up to 1 minute) · *Keywords:* Resistance
 
 *Weak:* Boon on the target's next Fortitude check within 1 minute.
 
-*Standard:* Boon on the next Fortitude check. If the check is against poison, disease, or necrotic damage, it is a double Boon.
+*Standard:* Boon on the next Fortitude check, and the target has resistance to poison, disease, or necrotic damage for the duration.
 
-*Strong:* Boon on the next Fortitude check. The target also reduces the first instance of poison, disease, or necrotic damage they take within the duration by 3.
+*Strong:* Boon on the next Fortitude check, and the target has resistance to poison, disease, and necrotic damage for the duration. The first such damage they take is reduced by 3 further.
 
 === Virtue (Cantrip)
 *Disciplines:* None · *Action:* Action · *Range:* Touch (1 minute) · *Keywords:* None
