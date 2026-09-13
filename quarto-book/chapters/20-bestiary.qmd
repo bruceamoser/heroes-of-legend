@@ -678,7 +678,7 @@ The stat block is a starting point, not a contract. If a fight is too easy or to
 
 *Too hard?* The monster is wounded from a previous fight. Reduce its HP by 25%. Remove its Multiattack, it's favoring an injured limb. Its Recharge ability doesn't recharge, it used it earlier today on a different party of adventurers. The monster wants to survive too, it might flee at half HP instead of fighting to the death.
 
-*The golden rule:* Adjust in the fiction, not the math. Don't say "I'm reducing its HP by 10." Say "You notice a deep wound in its flank, someone fought this thing before you. It's already bleeding." The players feel smart for noticing. They don't need to know you just turned a Deadly encounter into a Hard one.
+*The guiding rule:* Adjust in the fiction, not the math. Don't say "I'm reducing its HP by 10." Say "You notice a deep wound in its flank, someone fought this thing before you. It's already bleeding." The players feel smart for noticing. They don't need to know you just turned a Deadly encounter into a Hard one.
 
 *Morale is your best tool.* If the party is getting crushed and the fight was supposed to be Standard difficulty, the monsters get overconfident. One stops to gloat. Another starts looting a downed hero instead of finishing them. The monsters make mistakes, and mistakes give the party openings. This isn't pulling punches. It's playing the monsters like they're alive.
 ])

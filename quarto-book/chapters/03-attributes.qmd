@@ -95,7 +95,7 @@ At levels 4 and 8, you may increase one attribute by +1 (up to the +2 maximum). 
 
 *Guile (GU):* The art of winning without fighting. Guile covers deception, persuasion, and every variety of social maneuvering. It's the difference between "Let me in" and "I'm the health inspector, you really want to open this door." A hero with Guile +2 doesn't need to draw their weapon because they already convinced you to put yours down.
 
-*Knowledge (KN):* What you know. Ancient history, arcane theory, monster weaknesses, noble lineages, the price of saffron in three different ports. Knowledge is the scholar's attribute and the engine behind arcane spellcasting. It governs lore, investigation, and identifying creatures. It also helps determine your starting Health Points and your early-life Development Points. Smart heroes live longer.
+*Knowledge (KN):* What you know. Ancient history, arcane theory, monster weaknesses, noble lineages, the trade in saffron across three different ports. Knowledge is the scholar's attribute and the engine behind arcane spellcasting. It governs lore, investigation, and identifying creatures. It also helps determine your starting Health Points and your early-life Development Points. Smart heroes live longer.
 
 *Reason (RE):* What you _do_ with what you know. Reason is the engine behind divine spellcasting, alchemy, crafting, and puzzle-solving. Knowledge tells you that trolls fear fire; Reason tells you how to make some. A shepherd with Reason +2 doesn't just channel divine power, they understand _why_ the gods listen, which makes them devastatingly effective.
 

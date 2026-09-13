@@ -10,7 +10,7 @@ _Figure 18.1: Armor & Shields_
 _Placeholder for final art._
 #pagebreak()
 
-Armor isn't about avoiding hits. Hits happen, that's the always-hit rule in action. Armor is what you wear and what you have been through: boiled leather, rings of steel, a breastplate that has already turned one blade. It is a choice about weight, cost, slots, donning time, and what it says about you. What keeps you standing, though, is what you have trained. Damage Reduction comes from your talents, not from your gear.
+Armor isn't about avoiding hits. Hits happen, that's the always-hit rule in action. Armor is what you wear and what you have been through: boiled leather, rings of steel, a breastplate that has already turned one blade. It is a choice about weight, slots, donning time, and what it says about you. What keeps you standing, though, is what you have trained. Damage Reduction comes from your talents, not from your gear.
 
 Shields are different. A shield is not a passive number on your sheet, it is an active defense, something you put in the way of a blow. It gives you a reaction that downgrades an incoming hit. Wear your armor. Use your shield. Choose wisely.
 
@@ -32,24 +32,24 @@ If the goblin lands a Standard hit (4 damage), Kael takes 2 HP. The same DR turn
 
 #figure(
   align(center)[#table(
-    columns: (14.00%, 9.00%, 11.00%, 8.00%, 58.00%),
-    align: (auto, auto, auto, auto, auto,),
-    table.header([Armor], [Class], [Cost], [Slots], [Notes],),
-    [*Padded*], [Light], [5 gp], [2], [Quilted layers. Cheap, uncomfortable, better than nothing.],
-    [*Leather*], [Light], [10 gp], [2], [Boiled and shaped. The adventuring standard.],
-    [*Studded Leather*], [Light], [25 gp], [2], [Leather reinforced with rivets. Light and quiet, the rogue's choice.],
-    [*Chain Shirt*], [Medium], [20 gp], [2], [Worn under clothing. Flexible and concealable.],
-    [*Breastplate*], [Medium], [100 gp], [3], [Solid chest protection. Leaves the arms free.],
-    [*Half Plate*], [Heavy], [60 gp], [3], [Plates on vitals, chain everywhere else. The pragmatic heavy option.],
-    [*Chain Mail*], [Heavy], [75 gp], [4], [Full-body rings. Loud. Heavy. Effective.],
-    [*Plate*], [Heavy], [300 gp], [4], [The pinnacle of protection. When you need to be the last one standing.],
+    columns: (15.73%, 10.11%, 8.99%, 65.17%),
+    align: (auto, auto, auto, auto,),
+    table.header([Armor], [Class], [Slots], [Notes],),
+    [*Padded*], [Light], [2], [Quilted layers. Cheap, uncomfortable, better than nothing.],
+    [*Leather*], [Light], [2], [Boiled and shaped. The adventuring standard.],
+    [*Studded Leather*], [Light], [2], [Leather reinforced with rivets. Light and quiet, the rogue's choice.],
+    [*Chain Shirt*], [Medium], [2], [Worn under clothing. Flexible and concealable.],
+    [*Breastplate*], [Medium], [3], [Solid chest protection. Leaves the arms free.],
+    [*Half Plate*], [Heavy], [3], [Plates on vitals, chain everywhere else. The pragmatic heavy option.],
+    [*Chain Mail*], [Heavy], [4], [Full-body rings. Loud. Heavy. Effective.],
+    [*Plate*], [Heavy], [4], [The pinnacle of protection. When you need to be the last one standing.],
   )],
   kind: table,
   outlined: false,
   numbering: none,
 )
 
-What you wear is a choice about weight, cost, donning time, and what it says about you, not about how much damage you stop.
+What you wear is a choice about weight, donning time, and what it says about you, not about how much damage you stop.
 
 #pagebreak()
 
@@ -59,11 +59,11 @@ A shield is an active defense. You're not just wearing it, you're using it. When
 
 The number before each shield is a Discipline requirement: you need that many ranks in the Protection Discipline to wield it, unless it came in your class starting kit (kit gear assumes training, see @sec-chapter-equipment). The full rules live in @sec-chapter-disciplines
 
-*Buckler (10 gp):* 1 Protection Discipline. Small, strapped to the forearm. Leaves your hand free for a second weapon or a wand.
+*Buckler:* 1 Protection Discipline. Small, strapped to the forearm. Leaves your hand free for a second weapon or a wand.
 
-*Shield (15 gp):* 1 Protection Discipline. The standard. Wood and iron, carried in the off hand.
+*Shield:* 1 Protection Discipline. The standard. Wood and iron, carried in the off hand.
 
-*Tower Shield (40 gp):* 2 Protection Discipline, half cover. A portable wall. You move at -5 ft speed while carrying it. You can plant it as a maneuver to grant full cover to one ally directly behind you.
+*Tower Shield:* 2 Protection Discipline, half cover. A portable wall. You move at -5 ft speed while carrying it. You can plant it as a maneuver to grant full cover to one ally directly behind you.
 
 === Shield Block (Reaction)
 
@@ -79,9 +79,9 @@ Shield Block cannot reduce damage below 1. It can be used against melee attacks,
 
 Roric is building a dwarf Protector at Level 1. He has Brawn +2, Fortitude +1, 13 HP, 1 Armor Discipline rank, and he has taken Iron Skin at Novice rank, so his DR is 2 whatever he wears. He wants to be the party's wall, but the wall has to fit inside a pack. Here's how he weighs his options:
 
-*Leather:* 10 gp, Light, 2 slots, 1 minute to don. Cheap, quiet, and it leaves 2 slots of gear for the rest of his kit.
+*Leather:* Light, 2 slots, 1 minute to don. Cheap, quiet, and it leaves 2 slots of gear for the rest of his kit.
 
-*Chain Mail:* 75 gp, Heavy, 4 slots, 10 minutes to don. It eats the slots he would rather spend on rope, a lantern, and a spare waterskin, and it takes ten minutes to get into.
+*Chain Mail:* Heavy, 4 slots, 10 minutes to don. It eats the slots he would rather spend on rope, a lantern, and a spare waterskin, and it takes ten minutes to get into.
 
 Roric takes the leather and says so plainly: his DR is 2 either way. The chain mail would not make him harder to hurt, it would only make him heavier and slower to arm. He would rather carry the rope.
 
