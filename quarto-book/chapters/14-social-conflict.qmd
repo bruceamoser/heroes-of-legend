@@ -51,6 +51,8 @@ Every NPC your party encounters has an attitude. It's the starting point for eve
   outlined: false,
 )
 
+These are the outcomes for a *single roll*: one ask, one lie, one threat, resolved on its own. When the negotiation runs as an extended conflict instead, the success table in the next section governs.
+
 Attitudes shift based on your actions, both in and out of social conflict. Insult a Friendly NPC and they drop to Neutral. Save a Hostile NPC's child and they might climb to Neutral or even Friendly. The fiction drives the numbers, not the other way around.
 
 Criticals and Fumbles follow the core rules (@sec-chapter-core-resolution): three natural 6s is an automatic Strong result plus a special outcome, three natural 1s is an automatic failure with a serious complication.
@@ -80,6 +82,10 @@ High-stakes encounters, the negotiation with the king, the interrogation of the 
   numbering: none,
   outlined: false,
 )
+
+*This table governs extended conflicts*, where both sides are racing to three successes. For a one-off request settled by a single roll, use the attitude ladder above.
+
+*If your result loses the exchange*, the exchange belongs to the NPC no matter which tier you rolled: they gain 1 success and you gain none. A winning tier only pays when it actually beats the opposition.
 
 *First to 3 successes wins.* The first side to 3 successes takes the conflict. A Weak or Fumble result is a failed roll for the party: the NPC's attitude shifts one step toward Hostile. At Hostile, further failures may end the conversation, or start a different kind of fight. A Strong result shifts the NPC one step closer to you. One shift per roll, never both.
 
