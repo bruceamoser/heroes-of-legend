@@ -225,9 +225,9 @@ Every damaging spell, ability, and maneuver in _Heroes of Legend_ is built on a 
     columns: (9.23%, 36.92%, 53.85%),
     align: (auto, auto, auto,),
     table.header([Tier], [Discipline Requirement], [Damage (Weak / Standard / Strong)],),
-    [*Novice*], [1 Discipline], [2/4/6],
-    [*Adept*], [2 Disciplines], [6/9/12],
-    [*Master*], [3 Disciplines], [9/15/21],
+    [*Novice*], [1 Discipline], [4/6/8],
+    [*Adept*], [2 Disciplines], [5/8/11],
+    [*Master*], [3 Disciplines], [7/10/14],
   )],
   kind: table,
   numbering: none,
@@ -237,7 +237,7 @@ Every damaging spell, ability, and maneuver in _Heroes of Legend_ is built on a 
 #callout(type: "note", title: "How to Read the Budget", body: [
 There is no damage roll. The outcome of your attack or casting roll (Weak, Standard, or Strong) determines your damage from the budget table. The hit roll is the damage roll.
 
-The numbers are flat damage points. A Novice Ember Lance deals 2 damage on a Weak result, 4 on Standard, 6 on Strong. An Adept Brimstone Burst deals 6/9/12. These are flat numbers. No dice. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
+The numbers are flat damage points. A Novice Ember Lance deals 2 damage on a Weak result, 4 on Standard, 6 on Strong. An Adept Brimstone Burst deals 5/8/11. These are flat numbers. No dice. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
 
 See @sec-chapter-arcane-spells and @sec-chapter-divine-spells for the full spell lists. See @sec-chapter-classes for class abilities keyed to this budget.
 
@@ -260,7 +260,7 @@ Sera wants to burn the world. She's an Arcanist. Her class gives her 1 Fire and 
 
 *Adept (Brimstone Burst):* Requires 2 Fire. Sera has 1 Fire, so she needs one more. At level 3 she takes Fire (now 2 Fire) and buys Brimstone Burst the moment the Adept gate opens. Most casters need several levels to reach Adept. Arcanists walk a shorter path to the flame.
 
-*Master (Ember Lance at Master rank):* Sera's Ember Lance, bought up to Master rank, deals 9/15/21 fire damage, Piercing 3, and leaves a burning patch (Burning 2). When the Master tier unlocks at level 7, she can take that rank. She could branch into Earth for a 3-Discipline Master card, Protection for defense, Animal for a familiar, or continue deepening her elemental mastery.
+*Master (Ember Lance at Master rank):* Sera's Ember Lance, bought up to Master rank, deals 7/10/14 fire damage, Piercing 3, and leaves a burning patch (Burning 2). When the Master tier unlocks at level 7, she can take that rank. She could branch into Earth for a 3-Discipline Master card, Protection for defense, Animal for a familiar, or continue deepening her elemental mastery.
 
 Seven levels to master the fire. Disciplines got her to Master. No shortcuts. Just the path, walked one step at a time.
 

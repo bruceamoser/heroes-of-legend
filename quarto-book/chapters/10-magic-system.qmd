@@ -53,16 +53,16 @@ A card is bought at one of three tiers, and the tier sets both the cost and the 
     columns: (19.64%, 10.71%, 23.21%, 46.43%),
     align: (auto, auto, auto, auto,),
     table.header([Card tier], [Cost], [Disciplines], [Effect (Weak / Standard / Strong)],),
-    [Novice], [2 DP], [1 Discipline], [2/4/6],
-    [Adept], [4 DP], [2 Disciplines], [6/9/12],
-    [Master], [8 DP], [3 Disciplines], [9/15/21],
+    [Novice], [2 DP], [1 Discipline], [4/6/8],
+    [Adept], [4 DP], [2 Disciplines], [5/8/11],
+    [Master], [8 DP], [3 Disciplines], [7/10/14],
   )],
   kind: table,
   outlined: false,
   numbering: none,
 )
 
-A Novice card bought up to Adept rank uses the Adept row (6/9/12). Bought to Master rank, it uses 9/15/21. A card bought at Adept tier starts at 6/9/12 and reaches 9/15/21 at Master rank. The row is the law, no matter how the card is shaped.
+A Novice card bought up to Adept rank uses the Adept row (5/8/11). Bought to Master rank, it uses 7/10/14. A card bought at Adept tier starts at 5/8/11 and reaches 7/10/14 at Master rank. The row is the law, no matter how the card is shaped.
 
 Raising a card you already own costs the difference, so the total you have paid ends up equal to the target tier's flat price: 2 DP more to lift a Novice card to Adept rank, 4 DP more to lift it to Master rank, and 6 DP more to go from Adept to Master. Discipline ranks the higher tier newly requires are bought separately, at your class's rates. See @sec-damage-budget for where those three rows come from.
 

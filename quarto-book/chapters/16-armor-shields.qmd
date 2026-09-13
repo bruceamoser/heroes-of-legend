@@ -93,17 +93,17 @@ Roric is holding a choke point against two goblins and their orc warchief. He's 
 
 Remember how this works. The DA never rolls for monsters (@sec-chapter-combat) The DA describes the attack and names the Challenge, and Roric's player makes the Defense Roll. Strong defense means the blow lands Weak, Standard means it lands Standard, Weak means it lands Strong. Roric has Parry rank 1 and a shield in hand, so he defends with 3d6 + Brawn + Parry rank - Challenge.
 
-*Goblin 1 attacks:* "The goblin comes in low, scimitar slashing at Roric's shins. Challenge 1." Roric rolls 3d6 + Brawn +2 + Parry +1 - 1 = 3d6 + 2. He rolls 3, 4, 4 = 11 + 2 = 13. *Standard.* The scimitar's Standard damage is 4. 4 - 3 = 1 damage. The blade dings off his armor with a sad _ping._
+*Goblin 1 attacks:* "The goblin comes in low, scimitar slashing at Roric's shins. Challenge 1." Roric rolls 3d6 + Brawn +2 + Parry +1 - 1 = 3d6 + 2. He rolls 3, 4, 4 = 11 + 2 = 13. *Standard.* The scimitar's Standard damage is 6. 6 - 3 = 3 damage. The blade dings off his armor with a sad _ping._
 
-*Goblin 2 attacks:* "The second goblin circles wide, scimitar raised for an overhead cut. Challenge 1." Roric rolls 3d6 + 2. He rolls 1, 2, 3 = 6 + 2 = 8. *Weak.* The blow lands solid: Strong damage, 6. 6 - 3 = 3 damage. Roric doesn't flinch. He's at 9 HP now, and he's only been standing here one round.
+*Goblin 2 attacks:* "The second goblin circles wide, scimitar raised for an overhead cut. Challenge 1." Roric rolls 3d6 + 2. He rolls 1, 2, 3 = 6 + 2 = 8. *Weak.* The blow lands solid: Strong damage, 8. 8 - 3 = 5 damage. Roric doesn't flinch. He's at 5 HP now, and he's only been standing here one round.
 
-*Orc warchief attacks:* "The warchief says nothing. He doesn't need to. His greataxe comes around in a two-handed arc. Challenge 3." This is the one that matters. Roric rolls 3d6 + Brawn +2 + Parry +1 - 3 = 3d6. He rolls 4, 4, 3 = 11. *Standard.* The axe lands for Standard damage: 9.
+*Orc warchief attacks:* "The warchief says nothing. He doesn't need to. His greataxe comes around in a two-handed arc. Challenge 3." This is the one that matters. Roric rolls 3d6 + Brawn +2 + Parry +1 - 3 = 3d6. He rolls 4, 4, 3 = 11. *Standard.* The axe lands for Standard damage: 8.
 
 *Roric's player:* "Shield Block."
 
-He spends his reaction. The damage tier drops one step, Standard to Weak, and the incoming damage is now 6. 6 - 3 = 3 damage. The greataxe slams into Roric's shield, ringing off the boss like a temple bell. The haft cracks at the binding, but the blade never reaches him.
+He spends his reaction. The damage tier drops one step, Standard to Weak, and the incoming damage is now 5. 5 - 3 = 2 damage. The greataxe slams into Roric's shield, ringing off the boss like a temple bell. The haft cracks at the binding, but the blade never reaches him.
 
-That is 1 + 3 + 3 = 7 damage across the round, and Roric stands at 6 HP of his 13. Without the shield he would have taken 9 - 3 = 6 from that swing, and that is the difference between holding the choke point and going down in it. Shield Block is what the board in his hand is for, because the DR came from his armor and his training.
+That is 3 + 5 + 2 = 10 damage across the round, and Roric stands at 3 HP of his 13. Without the shield he would have taken 8 - 3 = 5 from that swing, and that is the difference between holding the choke point and going down in it. Shield Block is what the board in his hand is for, because the DR came from his armor and his training.
 
 #pagebreak()
 

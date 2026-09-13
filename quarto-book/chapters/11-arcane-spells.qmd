@@ -130,9 +130,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 6 fire damage; 4 fire damage to one target behind.
 
-*Adept:* 6/9/12 fire damage, Piercing 2.
+*Adept:* 5/8/11 fire damage, Piercing 2.
 
-*Master:* 9/15/21 fire damage, Piercing 3; leaves a burning patch (Burning 2).
+*Master:* 7/10/14 fire damage, Piercing 3; leaves a burning patch (Burning 2).
 
 === Brimstone Burst (Arcane Spell)
 *Disciplines:* 2 Fire · *Kit:* focus:arcane · *Action:* Action · *Range:* 20-ft radius · *Keywords:* Burning
@@ -144,9 +144,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 12 fire damage to all.
 
-*Adept:* 6/9/12 fire damage to all.
+*Adept:* 5/8/11 fire damage to all.
 
-*Master:* 9/15/21 fire damage to all; the ground burns (Burning 4).
+*Master:* 7/10/14 fire damage to all; the ground burns (Burning 4).
 
 === Wall of Cinders (Arcane Spell)
 *Disciplines:* 2 Fire · *Kit:* focus:arcane · *Action:* Action · *Range:* 30-ft wall · *Keywords:* None
@@ -158,9 +158,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 12 fire damage to passers; ignites flammables.
 
-*Adept:* 6/9/12 fire damage to passers; the wall lasts 2 rounds.
+*Adept:* 5/8/11 fire damage to passers; the wall lasts 2 rounds.
 
-*Master:* 9/15/21 fire damage to passers; the wall lasts 3 rounds.
+*Master:* 7/10/14 fire damage to passers; the wall lasts 3 rounds.
 
 === Burning Volley (Arcane Spell)
 *Disciplines:* 1 Fire · *Kit:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* None
@@ -172,9 +172,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 6 fire damage, split across three lances.
 
-*Adept:* 6/9/12 fire damage; the lances may split targets.
+*Adept:* 5/8/11 fire damage; the lances may split targets.
 
-*Master:* 9/15/21 fire damage, split across five lances.
+*Master:* 7/10/14 fire damage, split across five lances.
 
 === Frostbite Shard (Arcane Spell)
 *Disciplines:* 1 Water · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Slowed, Frozen
@@ -186,9 +186,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 6 cold damage; the target is Slowed 5.
 
-*Adept:* 6/9/12 cold damage; the target is Slowed 5 for 2 rounds.
+*Adept:* 5/8/11 cold damage; the target is Slowed 5 for 2 rounds.
 
-*Master:* 9/15/21 cold damage; the target is Slowed 5, and Frozen 2 on Strong.
+*Master:* 7/10/14 cold damage; the target is Slowed 5, and Frozen 2 on Strong.
 
 === Rime Storm (Arcane Spell)
 *Disciplines:* 2 Water · *Kit:* focus:arcane · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Slowed, Frozen
@@ -200,9 +200,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 12 cold damage; targets are Slowed 5 for 2 rounds.
 
-*Adept:* 6/9/12 cold damage; targets are Slowed 5 for 2 rounds.
+*Adept:* 5/8/11 cold damage; targets are Slowed 5 for 2 rounds.
 
-*Master:* 9/15/21 cold damage; targets are Slowed 5, Frozen 2 on Strong.
+*Master:* 7/10/14 cold damage; targets are Slowed 5, Frozen 2 on Strong.
 
 === Glacial Prison (Arcane Spell)
 *Disciplines:* 2 Water · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained, Frozen
@@ -214,9 +214,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 12 cold damage; the target is Restrained for 2 rounds.
 
-*Adept:* 6/9/12 cold damage; the target is Restrained for 2 rounds.
+*Adept:* 5/8/11 cold damage; the target is Restrained for 2 rounds.
 
-*Master:* 9/15/21 cold damage; the target is Restrained for 2 rounds and Frozen 2.
+*Master:* 7/10/14 cold damage; the target is Restrained for 2 rounds and Frozen 2.
 
 === Storm Javelin (Arcane Spell)
 *Disciplines:* 1 Wind · *Kit:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* Bane
@@ -228,9 +228,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 6 lightning damage; the target has Bane on its next 2 attacks.
 
-*Adept:* 6/9/12 lightning damage; the target has Bane on its next attack.
+*Adept:* 5/8/11 lightning damage; the target has Bane on its next attack.
 
-*Master:* 9/15/21 lightning damage; the target has Bane on its next 2 attacks; arcs to one adjacent target for half.
+*Master:* 7/10/14 lightning damage; the target has Bane on its next 2 attacks; arcs to one adjacent target for half.
 
 === Forked Sky (Arcane Spell)
 *Disciplines:* 2 Wind · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
@@ -242,9 +242,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 12 lightning damage, split across three arcs.
 
-*Adept:* 6/9/12 lightning damage, split across four arcs.
+*Adept:* 5/8/11 lightning damage, split across four arcs.
 
-*Master:* 9/15/21 lightning damage, split across five arcs.
+*Master:* 7/10/14 lightning damage, split across five arcs.
 
 === Static Field (Arcane Spell)
 *Disciplines:* 2 Wind · *Kit:* focus:arcane · *Action:* Action · *Range:* 10-ft radius · *Keywords:* None
@@ -256,9 +256,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 12 lightning damage to all adjacent; targets lose their Maneuver.
 
-*Adept:* 6/9/12 lightning damage to all adjacent; targets lose their Maneuver.
+*Adept:* 5/8/11 lightning damage to all adjacent; targets lose their Maneuver.
 
-*Master:* 9/15/21 lightning damage; 15-ft radius; targets lose their Maneuver.
+*Master:* 7/10/14 lightning damage; 15-ft radius; targets lose their Maneuver.
 
 === Corrosive Spit (Arcane Spell)
 *Disciplines:* 1 Earth · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* DR
@@ -270,9 +270,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 6 acid damage; the target's DR is reduced by 2.
 
-*Adept:* 6/9/12 acid damage, DR reduced by 2.
+*Adept:* 5/8/11 acid damage, DR reduced by 2.
 
-*Master:* 9/15/21 acid damage, DR reduced by 3.
+*Master:* 7/10/14 acid damage, DR reduced by 3.
 
 === Caustic Mist (Arcane Spell)
 *Disciplines:* 2 Earth · *Kit:* focus:arcane · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Bane
@@ -284,9 +284,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 12 acid damage; targets have Bane on sight for 2 rounds.
 
-*Adept:* 6/9/12 acid damage; targets have Bane on sight.
+*Adept:* 5/8/11 acid damage; targets have Bane on sight.
 
-*Master:* 9/15/21 acid damage; targets have Bane on sight for 2 rounds; the mist lasts 2 rounds.
+*Master:* 7/10/14 acid damage; targets have Bane on sight for 2 rounds; the mist lasts 2 rounds.
 
 === Venom Lance (Arcane Spell)
 *Disciplines:* 1 Plants · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
@@ -298,9 +298,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 6 poison damage; Fortitude check or lose Maneuver.
 
-*Adept:* 6/9/12 poison damage; Fortitude check or lose Maneuver.
+*Adept:* 5/8/11 poison damage; Fortitude check or lose Maneuver.
 
-*Master:* 9/15/21 poison damage; Fortitude check or lose Maneuver.
+*Master:* 7/10/14 poison damage; Fortitude check or lose Maneuver.
 
 === Tremor (Arcane Spell)
 *Disciplines:* 2 Earth · *Kit:* focus:arcane · *Action:* Action · *Range:* 10-ft radius · *Keywords:* Prone
@@ -312,9 +312,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 12 bludgeoning damage; targets are Prone and lose their Maneuver.
 
-*Adept:* 6/9/12 bludgeoning damage; targets are Prone and lose their Maneuver.
+*Adept:* 5/8/11 bludgeoning damage; targets are Prone and lose their Maneuver.
 
-*Master:* 9/15/21 bludgeoning damage; 15-ft radius; targets are Prone and lose their Maneuver.
+*Master:* 7/10/14 bludgeoning damage; 15-ft radius; targets are Prone and lose their Maneuver.
 
 === Gust (Arcane Spell)
 *Disciplines:* 1 Wind · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Prone, Push
@@ -347,9 +347,9 @@ _Placeholder for final art._
 
 *Strong:* Missile attacks through the wall are blocked for 2 rounds, and attackers are pushed 5 ft.
 
-*Adept:* The wall lasts 2 rounds; missile attacks through it are blocked and attackers are pushed 5 ft, and passers take 6/9/12 bludgeoning damage.
+*Adept:* The wall lasts 2 rounds; missile attacks through it are blocked and attackers are pushed 5 ft, and passers take 5/8/11 bludgeoning damage.
 
-*Master:* The wall lasts 3 rounds; missile attacks through it are blocked and attackers are pushed 5 ft, and passers take 9/15/21 bludgeoning damage.
+*Master:* The wall lasts 3 rounds; missile attacks through it are blocked and attackers are pushed 5 ft, and passers take 7/10/14 bludgeoning damage.
 
 === Force Dart (Arcane Spell)
 *Disciplines:* 1 Energy · *Kit:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* None
@@ -361,9 +361,9 @@ _Placeholder for final art._
 
 *Strong:* 6 force damage.
 
-*Adept:* 6/9/12 force damage, split across two darts.
+*Adept:* 5/8/11 force damage, split across two darts.
 
-*Master:* 9/15/21 force damage, split across three darts.
+*Master:* 7/10/14 force damage, split across three darts.
 
 === Force Wave (Arcane Spell)
 *Disciplines:* 2 Energy · *Kit:* focus:arcane · *Action:* Action · *Range:* 15-ft cone · *Keywords:* Prone, Push
@@ -375,9 +375,9 @@ _Placeholder for final art._
 
 *Strong:* 12 force damage; Push 15 ft; targets are Prone.
 
-*Adept:* 6/9/12 force damage; Push 15 ft; targets are Prone.
+*Adept:* 5/8/11 force damage; Push 15 ft; targets are Prone.
 
-*Master:* 9/15/21 force damage; Push 20 ft; targets are Prone.
+*Master:* 7/10/14 force damage; Push 20 ft; targets are Prone.
 
 === Ward of Iron (Arcane Spell)
 *Disciplines:* 1 Energy · *Kit:* focus:arcane · *Action:* Reaction · *Range:* Self · *Keywords:* DR
@@ -389,9 +389,9 @@ _Placeholder for final art._
 
 *Strong:* +6 DR against one attack; the attacker takes 2 damage.
 
-*Adept:* 6/9/12 DR against one attack.
+*Adept:* 5/8/11 DR against one attack.
 
-*Master:* 9/15/21 DR against one attack; reflects 3 damage.
+*Master:* 7/10/14 DR against one attack; reflects 3 damage.
 
 === Unseen Hand (Arcane Spell)
 *Disciplines:* 1 Energy · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained
@@ -515,9 +515,9 @@ _Placeholder for final art._
 
 *Strong:* 6 necrotic damage; heal 3.
 
-*Adept:* 6/9/12 necrotic damage; heal half the damage.
+*Adept:* 5/8/11 necrotic damage; heal half the damage.
 
-*Master:* 9/15/21 necrotic damage; heal half the damage; slay at 0 HP.
+*Master:* 7/10/14 necrotic damage; heal half the damage; slay at 0 HP.
 
 === March of Bones (Arcane Spell)
 *Disciplines:* 2 Energy · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Boon
@@ -543,7 +543,7 @@ _Placeholder for final art._
 
 *Strong:* 12 necrotic damage; Fortitude check or die at 0 HP.
 
-*Adept:* 6/9/12 necrotic damage; Fortitude check or Unconscious.
+*Adept:* 5/8/11 necrotic damage; Fortitude check or Unconscious.
 
-*Master:* 9/15/21 necrotic damage; Fortitude check or Unconscious; on Strong, Fortitude check or die at 0 HP.
+*Master:* 7/10/14 necrotic damage; Fortitude check or Unconscious; on Strong, Fortitude check or die at 0 HP.
 ```
