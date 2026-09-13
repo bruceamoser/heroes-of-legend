@@ -91,7 +91,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
   align: (auto, auto, auto,),
   table.header([Condition], [Effect], [Ends],),
   [*Asleep X*], [Unaware], [X minutes or damage],
-  [*Blinded*], [Attacks reduced one tier], [Source duration],
+  [*Blinded*], [Attacks at double Bane], [Source duration],
   [*Burning X*], [Takes X damage per round], [Spend an action to end],
   [*Charmed*], [Cannot attack charmer], [Source duration],
   [*Confused X*], [Attacks at Bane, cannot take Reactions], [Source duration],
@@ -101,6 +101,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
   [*Frightened*], [Cannot approach source], [Source duration],
   [*Frozen X*], [Incapacitated and takes X cold damage per round], [Spend an action to end],
   [*Grappled*], [Speed 0], [Escape action],
+  [*Hidden*], [Attacks against you have Bane], [You attack, or the concealment ends],
   [*Incapacitated*], [No actions], [Source duration],
   [*Invisible*], [Cannot be targeted directly], [Attack/action ends],
   [*Paralyzed*], [Incapacitated + auto-crit if hit], [Source duration],
@@ -161,8 +162,8 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
   columns: (29.17%, 70.83%),
   align: (auto, auto,),
   table.header([Cover], [Attacker Penalty],),
-  [Half cover], [-1],
-  [Three-quarters], [-3],
+  [Half cover], [Bane],
+  [Three-quarters], [Bane],
   [Full cover], [Cannot target],
 )], kind: table, numbering: none, outlined: false)
 

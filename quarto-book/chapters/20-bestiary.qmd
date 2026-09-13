@@ -127,7 +127,7 @@ HP 6, DR 0.
 
 === Knight (Challenge 3)
 
-HP 20, DR 4 (plate).
+HP 20, DR 6 (plate).
 
 *Longsword:* 6/9/12.
 
@@ -221,7 +221,7 @@ HP 10, DR 1 (hide).
 
 === Orc Warchief (Challenge 3)
 
-HP 22, DR 3 (plate).
+HP 22, DR 6 (plate).
 
 *Greataxe:* 6/9/12 slashing.
 
@@ -624,7 +624,7 @@ HP 18, DR 2. Attributes: Agility +2, Reason +1, others +0.
 
 === Death Knight (Challenge 8)
 
-HP 40, DR 5 (plate + unholy). Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
+HP 40, DR 6 (plate + unholy). Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
 
 *Greatsword:* 9/15/21 slashing.
 
