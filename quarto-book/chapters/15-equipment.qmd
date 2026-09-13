@@ -84,21 +84,20 @@ Armor provides damage reduction (DR), subtract from incoming physical damage.
 
 #figure(
   align(center)[#table(
-    columns: (22.00%, 10.00%, 40.00%, 14.00%, 14.00%),
-    align: (auto, auto, auto, auto, auto,),
-    table.header([Armor], [Class], [Discipline], [DR], [Slots],),
-    [*Padded*], [Light], [None], [1], [2],
-    [*Leather*], [Light], [None], [2], [2],
-    [*Studded Leather*], [Light], [1 Armor], [3], [2],
-    [*Chain Shirt*], [Medium], [1 Armor], [3], [2],
-    [*Breastplate*], [Medium], [2 Armor], [4], [3],
-    [*Half Plate*], [Heavy], [2 Armor], [4], [3],
-    [*Chain Mail*], [Heavy], [2 Armor], [5], [4],
-    [*Plate*], [Heavy], [3 Armor], [6], [4],
+    columns: (30.00%, 15.00%, 25.00%, 30.00%),
+    align: (auto, auto, auto, auto,),
+    table.header([Armor], [Class], [Cost], [Slots],),
+    [*Padded*], [Light], [5 gp], [2],
+    [*Leather*], [Light], [10 gp], [2],
+    [*Studded Leather*], [Light], [25 gp], [2],
+    [*Chain Shirt*], [Medium], [20 gp], [2],
+    [*Breastplate*], [Medium], [100 gp], [3],
+    [*Half Plate*], [Heavy], [60 gp], [3],
+    [*Chain Mail*], [Heavy], [75 gp], [4],
+    [*Plate*], [Heavy], [300 gp], [4],
   )],
   kind: table,
   outlined: false,
-  numbering: none,
 )
 
 Full table with Stealth column: see @sec-chapter-armor-shields

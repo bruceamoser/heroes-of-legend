@@ -219,7 +219,7 @@ Receive your class starting kit. Record weapons with their Weak, Standard, and S
     [*Health Points*], [10 + Fortitude + Knowledge (at Level 1)],
     [*HP per Level*], [+Fortitude (minimum 1) each level after first],
     [*Initiative*], [3d6 + Agility modifier],
-    [*Movement*], [30 ft (Dwarves and halflings: 25 ft; heavy armor: -5 ft)],
+    [*Movement*], [30 ft (Dwarves and halflings: 25 ft)],
     [*Carry Slots*], [10 + (Brawn x 5)],
   )],
   caption: [Table 2.3: Derived Statistics],
@@ -309,7 +309,7 @@ Total: 8 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Step 8, Equipment:* Shortbow, dagger, leather armor (DR 2), thieves' tools, 20 arrows.
+*Step 8, Equipment:* Shortbow, dagger, leather armor, thieves' tools, 20 arrows.
 
 *Step 9, Derived Stats:* HP 10 (10 + Fort 0 + Know 0). Initiative +1. Movement 25 ft (halfling). Carry 15 slots.
 
@@ -356,7 +356,7 @@ Total: 11 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Equipment:* Arcane focus (crystal orb), dagger, scholar's robes (DR 0), focus pouch, spellbook, 5 gp.
+*Equipment:* Arcane focus (crystal orb), dagger, scholar's robes, focus pouch, spellbook, 5 gp.
 
 *Derived Stats:* HP 12. Initiative +0. Movement 30 ft. Carry 10 slots.
 
@@ -395,7 +395,7 @@ Total: 10 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Equipment:* Shortsword, spellbook, scholar's robes (DR 0), focus pouch, ink & pen, 10 gp.
+*Equipment:* Shortsword, spellbook, scholar's robes, focus pouch, ink & pen, 10 gp.
 
 *Derived Stats:* HP 12 (10 + Fort 0 + Know 2). Initiative +0. Movement 30 ft. Carry 5 slots.
 
@@ -434,7 +434,7 @@ Total: 9 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Equipment:* Shortsword, holy symbol, leather armor (DR 2), healer's kit, 5 gp.
+*Equipment:* Shortsword, holy symbol, leather armor, healer's kit, 5 gp.
 
 *Derived Stats:* HP 13 (10 + Fort 1 + Know 0 + Sturdy 2). Initiative +0. Movement 25 ft (dwarf). Carry 5 slots.
 
@@ -472,7 +472,7 @@ Total: 8 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Equipment:* Longsword, spear, leather armor (DR 2), shield (+2 DR), 10 gp.
+*Equipment:* Longsword, spear, leather armor, shield, 10 gp.
 
 *Derived Stats:* HP 9 (10 + Fort 0 + Know -1). Initiative +0. Movement 30 ft. Carry 15 slots.
 
@@ -510,7 +510,7 @@ Total: 7 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Equipment:* Shortsword, dagger, leather armor (DR 2), thieves' tools, 15 gp.
+*Equipment:* Shortsword, dagger, leather armor, thieves' tools, 15 gp.
 
 *Derived Stats:* HP 9 (10 + Fort 0 + Know -1). Initiative +2. Movement 30 ft. Carry 15 slots.
 
@@ -548,7 +548,7 @@ Total: 8 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Equipment:* Two daggers, throwing daggers (6), leather armor (DR 2), thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1), 15 sp.
+*Equipment:* Two daggers, throwing daggers (6), leather armor, thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1), 15 sp.
 
 *Derived Stats:* HP 10. Initiative +2. Movement 25 ft (halfling). Carry 10 slots.
 
@@ -587,9 +587,9 @@ Total: 9 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Equipment:* Battleaxe, chain mail (DR 5), shield (+2 DR), smith's tools, 10 gp.
+*Equipment:* Battleaxe, chain mail, shield, smith's tools, 10 gp.
 
-*Derived Stats:* HP 13 (10 + Fort 1 + Know 0 + Sturdy 2). Initiative -1. Movement 20 ft (heavy armor + dwarf). Carry 20 slots.
+*Derived Stats:* HP 13 (10 + Fort 1 + Know 0 + Sturdy 2). Initiative -1. Movement 25 ft (dwarf). Carry 20 slots.
 
 *Backstory:* Motivation, Protection (her clan's hold fell, she's building something new). Trinket, a child's drawing of her. She doesn't recognize the child. *Name:* Gorma Anvilshield.
 
@@ -626,7 +626,7 @@ Total: 10 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Equipment:* Spear, focus pouch, scholar's robes (DR 0), six vials of volatile reagents (alchemist's fire), 5 gp.
+*Equipment:* Spear, focus pouch, scholar's robes, six vials of volatile reagents (alchemist's fire), 5 gp.
 
 *Derived Stats:* HP 11 (10 + Fort 0 + Know 1). Initiative +0. Movement 30 ft. Carry 15 slots.
 

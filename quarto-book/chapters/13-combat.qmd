@@ -95,7 +95,7 @@ Roll 3d6 + modifiers. The total determines your damage tier:
 
 That's one roll. No separate damage dice. No "did I hit?" anxiety. Roll once, read the damage, move on.
 
-Armor (DR) subtracts from the damage a hit does, but a hit always lands for at least 1 damage. Armor makes the blow land softer, not miss.
+Damage Reduction (DR) subtracts from the damage a hit does, but a hit always lands for at least 1 damage. Your DR comes from your abilities and talents, not from your gear (@sec-chapter-armor-shields). Armor makes the blow land softer, not miss.
 
 #callout(type: "note", title: "Why Always-Hit?", body: [
 
@@ -110,7 +110,7 @@ The DA never touches the dice in _Heroes of Legend_. This is not a suggestion. I
 
 When an enemy attacks you, the DA describes the attack and gives you the enemy's *Challenge* rating, a penalty to your roll. You make a *Defense Roll*. The three formulas, the outcome table, and the reversal that makes them work all live in @sec-chapter-core-resolution
 
-Parry requires a weapon or shield in hand. A shield enables Parry and grants its DR, but never adds a roll bonus.
+Parry requires a weapon or shield in hand. A shield enables Parry and Shield Block, but never adds a roll bonus.
 
 The NPC's stat block lists three damage values: Strong, Standard, and Weak, representing the attack's potential. Your defense roll determines which value applies. Roll well? The goblin barely scratches you. Roll poorly? That goblin found the gap in your armor.
 
@@ -454,7 +454,7 @@ She rolls 3d6 + Knowledge (+1) + no skill. Rolls 3, 4, 4 = 11 + 1 = 12. *Standar
 
 *Round 1, Kael's Turn:*
 
-Kael sees the Knight advancing on Roric. He moves 15 ft to flank, drawing his shortsword as a free action. A small buckler (+1 DR) is strapped to his left forearm.
+Kael sees the Knight advancing on Roric. He moves 15 ft to flank, drawing his shortsword as a free action. A small buckler is strapped to his left forearm.
 
 "I attack the Knight."
 
@@ -468,7 +468,7 @@ The Knight assesses the threat. The Blade just drew blood. The Protector is a wa
 
 "I attack the Blade," the DA announces. "The Knight's longsword comes around in a brutal arc. Challenge −3. Kael, roll Defense."
 
-Kael has Agility +2 and no Dodge or Parry ranks. His buckler would let him Parry, but with no Parry rank it adds no roll bonus, so he defends with raw Agility. He rolls 3d6 + 2 − 3 = 3d6 − 1. Rolls 5, 3, 2 = 10 − 1 = 9. *Standard.* The Knight's Standard damage: 9. Kael's armor: leather DR 2, plus buckler DR 1, total DR 3. 9 − 3 = 6 damage. Kael drops from 11 HP to 5 HP. The Knight's blade bites through Kael's sleeve and into his shoulder. That one lands hard.
+Kael has Agility +2 and no Dodge or Parry ranks. His buckler would let him Parry, but with no Parry rank it adds no roll bonus, so he defends with raw Agility. He rolls 3d6 + 2 − 3 = 3d6 − 1. Rolls 5, 3, 2 = 10 − 1 = 9. *Standard.* The Knight's Standard damage: 9. Kael has Iron Skin at Novice rank (DR 2). 9 − 2 = 7 damage. Kael drops from 11 HP to 4 HP. The Knight's blade bites through Kael's sleeve and into his shoulder. That one lands hard.
 
 Riposte doesn't trigger: it fires only when an enemy's blow is reduced to Weak damage, and the Knight landed a Standard hit. Kael keeps his Reaction for next round.
 
