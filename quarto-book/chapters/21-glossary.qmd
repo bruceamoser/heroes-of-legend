@@ -128,6 +128,8 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Hidden:* Concealed from an observer: attacks against you have Bane, and you are not seen until you attack or the concealment ends.
 
+*Escape:* The Action that frees you from Grappled or Restrained. An Agility roll against the situation rather than the grappler, with the DA setting the difficulty. A Standard result grants a Boon on your next Escape; a Strong result frees you and takes you out of the scene.
+
 *Condition:* A temporary status effect. Blinded, Charmed, Dazzled, Deafened, Frightened, Grappled, Incapacitated, Invisible, Paralyzed, Petrified, Prone, Restrained, Stunned, Unconscious.
 
 *Asleep X:* Falls asleep for X minutes. Wakes on taking damage.
@@ -154,7 +156,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Surprise:* When one side catches the other unaware. The ambushing side acts first in the opening round, and surprised creatures take a Bane on their first roll. Determined by Stealth vs passive Insight.
 
-*Cover:* Terrain that provides protection. Half cover and three-quarters cover both give attackers a Bane on their roll against you. Full cover means you cannot be targeted at all.
+*Cover:* Terrain that provides protection, in two grades. Half cover gives attackers a Bane on their roll against you. Full cover gives them triple Bane.
 
 *Non-Lethal Attack:* A melee attack that reduces a creature to 0 HP but leaves them unconscious and stable instead of dying.
 

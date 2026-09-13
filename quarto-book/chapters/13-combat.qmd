@@ -128,7 +128,7 @@ When you attack, a high roll means you hit hard (Strong damage). When you defend
     [+Dodge rank], [*Dodge* (Agility-based)],
     [+Parry rank], [*Parry* (Brawn-based, requires a weapon or shield)],
     [Boon], [*Defend* maneuver (one round)],
-    [Bane], [*Cover* (half or three-quarters cover)],
+    [Bane], [*Cover* (half or full cover)],
     [−1 to −6], [*NPC Challenge* (DA sets based on enemy skill)],
     [Bane], [*Surprised* (first roll)],
     [Three 6s], [*Critical defense*: the defense automatically succeeds],
@@ -260,6 +260,8 @@ While grappling, you may use your Action to:
 - *Throw:* End the grapple. Target is knocked Prone adjacent to you and takes Weak unarmed damage.
 - *Choke:* Target begins suffocating. They can hold breath for Fortitude + 2 rounds before things get desperate.
 
+*Escaping.* If you are Grappled or Restrained, your Action can be an *Escape*. Roll Agility against the *situation*, not against the one holding you: the DA sets the difficulty from whatever has hold of you, a creature's grip, a rope, a collapsed beam. *Weak:* you stay held. *Standard:* you gain a Boon on your next Escape and may try again. *Strong:* you are free, and you are gone from the scene.
+
 #quote[_A grappled creature can still fight back._ The Grappled condition only stops movement, a grappled spellcaster can still cast. The Restrained condition imposes a Bane on attacks but doesn't prevent them. Grabbing the enemy wizard doesn't end the fight. It starts a new one.]
 
 #pagebreak()
@@ -335,7 +337,7 @@ A creature automatically checks morale when:
 
 0 HP. You're down. The world goes dark. But the story's not over, not yet.
 
-At 0 HP, you fall Unconscious. Each round on your turn, roll 3d6 with no modifiers:
+At 0 HP, you fall Unconscious. Each round on your turn, roll 3d6 with no modifiers. Failures accumulate until you die or are stabilized:
 
 #figure(
   align(center)[#table(
@@ -345,7 +347,7 @@ At 0 HP, you fall Unconscious. Each round on your turn, roll 3d6 with no modifie
     [*Critical (three 6s)*], [You snap awake at half HP. Three natural 6s overrides all tier results.],
     [*Strong (15+)*], [You stabilize at 1 HP. You're back in the fight, barely.],
     [*Standard (9-14)*], [You remain unconscious but stable. Not getting worse.],
-    [*Weak (1-8)*], [You're still dying. The end draws nearer.],
+    [*Weak (1-8)*], [You worsen. Mark a failure. At three failures, you die.],
     [*Fumble (three 1s)*], [Death. Three natural 1s overrides all tier results.],
   )],
   kind: table,
@@ -397,7 +399,7 @@ Some injuries don't fade when the healing potion wears off. Wounds are the lasti
     [555], [*Karmic Wound*], [By every right this should have killed you. The blade slipped between vital organs. The fall was broken by exactly the right patch of mud. No additional effect beyond the wound itself. Someone up there likes you. Or wants you alive for something worse. The DA knows which.],
     [556], [*Crippling Blow*], [A tendon severed, a joint destroyed. The affected limb is useless. Permanent until a Master-rank Medicine check or powerful healing magic restores it. If it's a leg, you need a crutch. If it's an arm, learn to fight one-handed.],
     [566], [*Shattered Spirit*], [The wound is grievous, but the real damage is deeper. You gain a persistent condition chosen by the DA: haunted by the moment, gripped by phantom pain, or convinced you're already dead. All rolls suffer a Bane until you take a full day of rest in safety.],
-    [666], [*Death*], [The dice have spoken. No survival rolls. No stabilization. No last words. Your story ends here. The D666 table's capstone is not a negotiation. Close your character sheet.],
+    [666], [*Death's Door*], [The dice have spoken, but not the last word. You drop to 0 HP and begin Dying, however much you had left. No stabilization roll brings you back from this one alone. What happens next is settled by the death roll.],
   )],
   caption: [Table 13.5: Wound Table (D666), part 2 of 2],
   kind: table,
@@ -418,10 +420,9 @@ Use the terrain. A pillar, a flipped table, a crouching ally. Anything between y
   align(center)[#table(
     columns: (29.17%, 70.83%),
     align: (auto, auto,),
-    table.header([Cover], [Attacker Penalty]),
+    table.header([Cover], [Effect]),
     [*Half cover*], [Attacks against you have Bane],
-    [*Three-quarters cover*], [Attacks against you have Bane],
-    [*Full cover*], [Cannot be targeted],
+    [*Full cover*], [Attacks against you have triple Bane],
   )],
   kind: table,
   outlined: false,

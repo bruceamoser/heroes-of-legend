@@ -87,7 +87,7 @@ The number before each shield is a Discipline requirement: you need that many ra
 
 *Shield (15 gp):* 1 Protection, +2 DR. The standard. Wood and iron, carried in the off hand.
 
-*Tower Shield (40 gp):* 2 Protection, +3 DR, half cover. A portable wall. You move at -5 ft speed while carrying it. You can plant it as a maneuver to grant three-quarters cover to one ally directly behind you.
+*Tower Shield (40 gp):* 2 Protection, +3 DR, half cover. A portable wall. You move at -5 ft speed while carrying it. You can plant it as a maneuver to grant full cover to one ally directly behind you.
 
 === Shield Block (Reaction)
 
