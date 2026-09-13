@@ -260,7 +260,7 @@ While grappling, you may use your Action to:
 - *Throw:* End the grapple. Target is knocked Prone adjacent to you and takes Weak unarmed damage.
 - *Choke:* Target begins suffocating. They can hold breath for Fortitude + 2 rounds before things get desperate.
 
-*Escaping.* If you are Grappled or Restrained, your Action can be an *Escape*. Roll Agility against the *situation*, not against the one holding you: the DA sets the difficulty from whatever has hold of you, a creature's grip, a rope, a collapsed beam. *Weak:* you stay held. *Standard:* you gain a Boon on your next Escape and may try again. *Strong:* you are free, and you are gone from the scene.
+*Escaping.* If you are Grappled or Restrained, your Action can be an *Escape*. Roll Agility against the *situation*, not against the one holding you: the DA sets the difficulty from whatever has hold of you, a creature's grip, a rope, a collapsed beam. *Weak:* you stay held. *Standard:* you gain a Boon on your next Escape and may try again. *Strong:* you break free, and the condition ends.
 
 #quote[_A grappled creature can still fight back._ The Grappled condition only stops movement, a grappled spellcaster can still cast. The Restrained condition imposes a Bane on attacks but doesn't prevent them. Grabbing the enemy wizard doesn't end the fight. It starts a new one.]
 
