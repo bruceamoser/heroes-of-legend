@@ -44,7 +44,7 @@ You _collect_ them. They're permanent markers on your character sheet that say: 
     [], [*Heavy Weapon*], [Greatswords, greataxes, mauls, two-handed power],
     [], [*Unarmed*], [Fists, gauntlets, grappling, close-quarters combat],
     [*Defense*], [*Protection*], [Shields, warding, guarding allies],
-    [], [*Armor*], [Heavy armor proficiency, damage soaking],
+    [], [*Armor*], [Damage reduction, soaking hits, shield work],
     [*Primal*], [*Animal*], [Beasts, nature, shapeshifting, instinct],
     [], [*Plants*], [Flora, growth, thorns, verdant magic],
     [*Arcane*], [*Energy*], [Raw magical force, metamagic, spellcraft],

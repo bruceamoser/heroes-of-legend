@@ -152,7 +152,7 @@ A few names do double duty in this book. *Parry* is a skill here and also a weap
 )
 
 #callout(type: "note", title: "Shields and Parry", body: [
-A shield enables Parry (it is an implement in hand) and provides DR (damage reduction after the roll), but never adds a bonus to the Parry roll itself. The only roll bonus is the Parry skill rank.
+A shield enables Parry (it is an implement in hand) and Shield Block, but never adds a bonus to the Parry roll itself. The only roll bonus is the Parry skill rank.
 ])
 
 === Knowledge

@@ -20,7 +20,7 @@ Bonuses from different talents stack. The same talent cannot be taken more than 
 
 == Talents
 
-The talents below are general. Any class may take any of them.
+The talents below are general. Any class may take any of them, though a talent that lists a Discipline requirement is gated by it like any other card.
 
 === Fortune's Favor (Talent)
 
@@ -51,6 +51,16 @@ The talents below are general. Any class may take any of them.
 *Adept:* +4 maximum HP.
 
 *Master:* +6 maximum HP.
+
+=== Iron Skin (Talent)
+
+*Disciplines:* 1 Armor · *Action:* Passive · *Range:* Self · *Keywords:* DR
+
+*Novice:* You have DR 2.
+
+*Adept:* You have DR 5.
+
+*Master:* You have DR 8.
 
 === Weapon Focus (Talent)
 

@@ -353,7 +353,7 @@ A longbow of pale golden wood, warm to the touch. When drawn, the string hums wi
 
 A shield of silvered steel inlaid with faintly glowing runes. The runes pulse softly when magic is near, a heartbeat of warning against the arcane.
 
-*Passive:* The shield functions as a standard Shield (+2 DR). You have Boon on all checks against spells and magical effects.
+*Passive:* The shield grants DR 2. You have Boon on all checks against spells and magical effects.
 
 *Granted Reaction, Spell Catch (once per encounter):* When a single-target spell targets you or an ally within 5 ft, you may interpose the shield. The spell is absorbed into the shield's runes and has no effect.
 
@@ -377,7 +377,7 @@ A shield of silvered steel inlaid with faintly glowing runes. The runes pulse so
 
 Full plate armor forged from star-metal, black iron veined with silver that gleams like captured constellations. It's impossibly heavy, impossibly strong, and it has turned aside blows that should have felled giants.
 
-*Passive:* DR 7 (Plate is normally 6). Any critical hit scored against you becomes a normal hit instead, the attack deals Standard damage. This does not prevent fumble effects against you.
+*Passive:* DR 7. Any critical hit scored against you becomes a normal hit instead, the attack deals Standard damage. This does not prevent fumble effects against you.
 
 *Passive:* You have resistance to non-magical bludgeoning, piercing, and slashing damage from creatures of Large size or smaller.
 

@@ -339,20 +339,18 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 == Common Item Reference
 
 #figure(align(center)[#table(
-  columns: (20.00%, 12.00%, 14.00%, 25.00%, 29.00%),
-  align: (auto, auto, auto, auto, auto,),
-  table.header([Armor], [Class], [DR], [Stealth], [Disc Req],),
-  [Padded], [Light], [1], [], [],
-  [Leather], [Light], [2], [], [],
-  [Studded Leather], [Light], [3], [], [1 Armor],
-  [Chain Shirt], [Medium], [3], [Bane], [1 Armor],
-  [Breastplate], [Medium], [4], [], [2 Armor],
-  [Half Plate], [Heavy], [4], [Bane], [2 Armor],
-  [Chain Mail], [Heavy], [5], [Bane], [2 Armor],
-  [Plate], [Heavy], [6], [Bane], [3 Armor],
+  columns: (32.00%, 18.00%, 25.00%, 25.00%),
+  align: (auto, auto, auto, auto,),
+  table.header([Armor], [Class], [Cost], [Slots],),
+  [Padded], [Light], [5 gp], [2],
+  [Leather], [Light], [10 gp], [2],
+  [Studded Leather], [Light], [25 gp], [2],
+  [Chain Shirt], [Medium], [20 gp], [2],
+  [Breastplate], [Medium], [100 gp], [3],
+  [Half Plate], [Heavy], [60 gp], [3],
+  [Chain Mail], [Heavy], [75 gp], [4],
+  [Plate], [Heavy], [300 gp], [4],
 )], kind: table, numbering: none, outlined: false)
-
-*Half Plate, Chain Mail, and Plate reduce speed by 5 ft.*
 
 #figure(align(center)[#table(
   columns: (25.81%, 41.94%, 32.26%),
@@ -394,5 +392,5 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 
 *The weapon never changes your damage. See @sec-chapter-talents-abilities for what a range of two numbers means, and @sec-chapter-equipment for weapons in full, including which are drawn from a starting kit.*
 
-*Defense summary:* Armor grants DR (passive damage reduction). Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields grant a DR bonus and the Shield Block reaction.
+*Defense summary:* Your Damage Reduction (DR) comes from talents such as Iron Skin, not from your armor. Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields enable the Parry skill and the Shield Block reaction.
 ```

@@ -79,7 +79,7 @@ At levels 4 and 8, you may increase one attribute by +1 (up to the +2 maximum). 
 
 *Initiative:* 3d6 + your Agility modifier. Quick people go first. That's not a rule of the game, that's a rule of the universe.
 
-*Movement:* 30 feet per round for most heroes. Dwarves and halflings move 25 feet, heavy armor slows you by 5 feet, and some conditions slow you down further.
+*Movement:* 30 feet per round for most heroes. Dwarves and halflings move 25 feet, and some conditions slow you down further.
 
 *Carrying Capacity:* 10 + (Brawn x 5) inventory slots, with a floor of 5. Even the frailest hero carries something. Stronger heroes carry more. The party's tank is also the party's pack mule.
 
