@@ -124,7 +124,7 @@ The talents below are general. Any class may take any of them, though a talent t
 
 === Arcane Reservoir (Talent)
 
-*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell
+*Disciplines:* None · *Kit:* focus:arcane · *Action:* Passive · *Range:* Self · *Keywords:* Spell
 
 *Novice:* Once per session, cast a Master spell you know a second time.
 
@@ -144,7 +144,7 @@ The talents below are general. Any class may take any of them, though a talent t
 
 === Arcane Sensitivity (Talent)
 
-*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell
+*Disciplines:* None · *Kit:* focus:arcane · *Action:* Passive · *Range:* Self · *Keywords:* Spell
 
 *Novice:* Boon on spell rolls for one Discipline you choose.
 
@@ -252,7 +252,7 @@ These four cards are the attacks every character can make, no Discipline require
 
 === Basic Melee (Basic Attack)
 
-*Disciplines:* None · *Action:* Action · *Range:* Melee · *Keywords:* Damage
+*Disciplines:* None · *Kit:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage
 
 *Weak:* 1 + Brawn damage (Agility with a Finesse weapon).
 
@@ -266,7 +266,7 @@ These four cards are the attacks every character can make, no Discipline require
 
 === Basic Archery (Basic Attack)
 
-*Disciplines:* None · *Action:* Action · *Range:* 60/120 ft · *Keywords:* Damage
+*Disciplines:* None · *Kit:* weapon:ranged · *Action:* Action · *Range:* 60/120 ft · *Keywords:* Damage
 
 *Weak:* 1 damage.
 
@@ -280,7 +280,7 @@ These four cards are the attacks every character can make, no Discipline require
 
 === Basic Thrown (Basic Attack)
 
-*Disciplines:* None · *Action:* Action · *Range:* 20/60 ft · *Keywords:* Damage
+*Disciplines:* None · *Kit:* weapon:ranged · *Action:* Action · *Range:* 20/60 ft · *Keywords:* Damage
 
 *Weak:* 1 damage.
 
@@ -294,7 +294,7 @@ These four cards are the attacks every character can make, no Discipline require
 
 === Basic Unarmed (Basic Attack)
 
-*Disciplines:* None · *Action:* Action · *Range:* Melee · *Keywords:* Damage
+*Disciplines:* None · *Kit:* weapon:unarmed · *Action:* Action · *Range:* Melee · *Keywords:* Damage
 
 *Weak:* 1 + Brawn damage.
 
@@ -344,7 +344,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 === Cyclone (Weapon Maneuver)
 
-*Disciplines:* 3 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Area
+*Disciplines:* 3 Blades · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Area
 
 *Weak:* Hit all adjacent enemies for 2 damage.
 
@@ -358,7 +358,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 === Cleave (Weapon Maneuver)
 
-*Disciplines:* 2 Axes · *Action:* Action · *Range:* Melee · *Keywords:* Chain
+*Disciplines:* 2 Axes · *Kit:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Chain
 
 *Weak:* Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage.
 
@@ -386,7 +386,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 === Shield Slam (Weapon Maneuver)
 
-*Disciplines:* 2 Armor · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone, Push
+*Disciplines:* 2 Armor · *Kit:* shield · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone, Push
 
 *Weak:* Deal 2 damage and Push 5 ft.
 
@@ -484,7 +484,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 === Crushing Blow (Weapon Maneuver)
 
-*Disciplines:* 2 Heavy Weapon · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Prone
+*Disciplines:* 2 Heavy Weapon · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Prone
 
 *Weak:* +1 damage tier on your next weapon attack.
 
@@ -498,7 +498,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 === Executioner's Cut (Weapon Maneuver)
 
-*Disciplines:* 2 Axes · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Wounded
+*Disciplines:* 2 Axes · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Wounded
 
 *Weak:* +1 damage tier against a wounded target.
 
@@ -512,7 +512,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 === Throw (Weapon Maneuver)
 
-*Disciplines:* 1 Archery · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
+*Disciplines:* 1 Archery · *Kit:* weapon:ranged · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
 
 *Weak:* Throw a weapon up to 30 ft at +1 damage tier.
 
