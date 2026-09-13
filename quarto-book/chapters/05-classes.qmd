@@ -56,7 +56,7 @@ The Protector stands at the vanguard, using body and armor as a shield for those
 
 *Favored Skills:* Athletics, Endurance, Survival, Perception, Persuasion, Medicine
 
-*Starting Kit:* Battleaxe, chain mail, shield, smith's tools, 10 gp.
+*Starting Kit:* Battleaxe, chain mail, shield, smith's tools, 10 gp. See @sec-chapter-equipment for how kits are built and what your points buy.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -101,7 +101,7 @@ The Blade masters the art of finesse and precision, favoring the swift elegance 
 
 *Favored Skills:* Acrobatics, Deception, Perception, Sleight of Hand, Stealth, Thievery
 
-*Starting Kit:* Shortsword, dagger, leather armor, thieves' tools, 15 gp.
+*Starting Kit:* Shortsword, dagger, leather armor, thieves' tools, 15 gp. See @sec-chapter-equipment for how kits are built and what your points buy.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -153,7 +153,7 @@ The Arcanist delves into the mysteries of arcane energies, mastering their manip
 
 *Favored Skills:* Alchemy, Arcana, History, Lore, Nature
 
-*Starting Kit:* Arcane focus, dagger, scholar's robes, focus pouch, spellbook, 5 gp.
+*Starting Kit:* Arcane focus, dagger, scholar's robes, focus pouch, spellbook, 5 gp. See @sec-chapter-equipment for how kits are built and what your points buy.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -198,7 +198,7 @@ The Shepherd stands as a beacon of guidance, providing moral direction and harne
 
 *Favored Skills:* Medicine, Nature, Religion, Survival
 
-*Starting Kit:* Shortsword, holy symbol, leather armor, healer's kit, 5 gp.
+*Starting Kit:* Shortsword, holy symbol, leather armor, healer's kit, 5 gp. See @sec-chapter-equipment for how kits are built and what your points buy.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -243,7 +243,7 @@ The Intellect embodies cerebral prowess and scholarly mastery. Your path is a re
 
 *Favored Skills:* History, Lore, Medicine, Arcana, Perception
 
-*Starting Kit:* Shortsword, spellbook, scholar's robes, focus pouch, ink & pen, 10 gp.
+*Starting Kit:* Shortsword, spellbook, scholar's robes, focus pouch, ink & pen, 10 gp. See @sec-chapter-equipment for how kits are built and what your points buy.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -288,7 +288,7 @@ The Odd embodies eccentricity and peculiarity. With a demeanor that dances on th
 
 *Favored Skills:* Sleight of Hand, Stealth, Deception, Acrobatics, Performance
 
-*Starting Kit:* Shortbow, dagger, leather armor, thieves' tools, 20 arrows.
+*Starting Kit:* Shortbow, dagger, leather armor, thieves' tools, 20 arrows. See @sec-chapter-equipment for how kits are built and what your points buy.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -335,7 +335,7 @@ The Leader is a beacon of courage on the battlefield, leading from the front lin
 
 *Favored Skills:* Persuasion, Perception, Insight, Survival, Endurance
 
-*Starting Kit:* Longsword, spear, leather armor, shield, 10 gp.
+*Starting Kit:* Longsword, spear, leather armor, shield, 10 gp. See @sec-chapter-equipment for how kits are built and what your points buy.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -406,7 +406,7 @@ The Unbalanced is a wild card, embodying chaos and unpredictability in every act
 
 *Favored Skills:* Arcana, Deception, Insight, Perception, Acrobatics
 
-*Starting Kit:* Spear, focus pouch, scholar's robes, six vials of volatile reagents, 5 gp.
+*Starting Kit:* Spear, focus pouch, scholar's robes, six vials of volatile reagents, 5 gp. See @sec-chapter-equipment for how kits are built and what your points buy.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -459,7 +459,7 @@ The Shadow is the ghost in the room, the whisper no one heard, the hand that lif
 
 *Favored Skills:* Stealth, Deception, Sleight of Hand, Thievery, Acrobatics, Perception
 
-*Starting Kit:* Two daggers, 6 throwing daggers, leather armor, thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1, creates a 10-ft radius of heavy concealment for 1 round; anyone inside is Hidden), 15 sp.
+*Starting Kit:* Two daggers, 6 throwing daggers, leather armor, thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1, creates a 10-ft radius of heavy concealment for 1 round; anyone inside is Hidden), 15 sp. See @sec-chapter-equipment for how kits are built and what your points buy.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
