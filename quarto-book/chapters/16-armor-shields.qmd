@@ -30,17 +30,17 @@ If the goblin lands a Standard hit (4 damage), Kael takes 2 HP. The armor didn't
 
 #figure(
   align(center)[#table(
-    columns: (15.56%, 13.33%, 24.44%, 11.11%, 20.00%, 15.56%),
-    align: (auto, auto, auto, auto, auto, auto,),
-    table.header([Armor], [Cost], [Discipline], [DR], [Stealth], [Notes],),
-    [*Padded*], [5 gp], [None], [1], [], [Quilted layers. Cheap, uncomfortable, better than nothing.],
-    [*Leather*], [10 gp], [None], [2], [], [Boiled and shaped. The adventuring standard.],
-    [*Studded Leather*], [25 gp], [1 Armor], [2], [], [Leather reinforced with rivets. Light and quiet, the rogue's choice.],
-    [*Chain Shirt*], [50 gp], [1 Armor], [3], [Bane], [Worn under clothing. Flexible, concealable, noisy when you move.],
-    [*Breastplate*], [100 gp], [2 Armor], [4], [], [Solid chest protection. Leaves arms free for spellcasting.],
-    [*Half Plate*], [150 gp], [2 Armor], [4], [Bane], [Plates on vitals, chain everywhere else. The pragmatic heavy option. Reduces speed by 5 ft.],
-    [*Chain Mail*], [75 gp], [2 Armor], [5], [Bane], [Full-body rings. Loud. Heavy. Effective. Reduces speed by 5 ft.],
-    [*Plate*], [300 gp], [3 Armor], [6], [Bane], [The pinnacle of protection. When you absolutely need to be the last one standing. Reduces speed by 5 ft.],
+    columns: (12.00%, 8.00%, 9.00%, 13.00%, 6.00%, 10.00%, 42.00%),
+    align: (auto, auto, auto, auto, auto, auto, auto,),
+    table.header([Armor], [Class], [Cost], [Discipline], [DR], [Stealth], [Notes],),
+    [*Padded*], [Light], [5 gp], [None], [1], [], [Quilted layers. Cheap, uncomfortable, better than nothing.],
+    [*Leather*], [Light], [10 gp], [None], [2], [], [Boiled and shaped. The adventuring standard.],
+    [*Studded Leather*], [Light], [25 gp], [1 Armor], [3], [], [Leather reinforced with rivets. Light and quiet, the rogue's choice.],
+    [*Chain Shirt*], [Medium], [20 gp], [1 Armor], [3], [Bane], [Worn under clothing. Flexible, concealable, noisy when you move.],
+    [*Breastplate*], [Medium], [100 gp], [2 Armor], [4], [], [Solid chest protection. Leaves arms free for spellcasting.],
+    [*Half Plate*], [Heavy], [60 gp], [2 Armor], [4], [Bane], [Plates on vitals, chain everywhere else. The pragmatic heavy option. Reduces speed by 5 ft.],
+    [*Chain Mail*], [Heavy], [75 gp], [2 Armor], [5], [Bane], [Full-body rings. Loud. Heavy. Effective. Reduces speed by 5 ft.],
+    [*Plate*], [Heavy], [300 gp], [3 Armor], [6], [Bane], [The pinnacle of protection. When you absolutely need to be the last one standing. Reduces speed by 5 ft.],
   )],
   kind: table,
   outlined: false,
@@ -68,9 +68,9 @@ Armor interferes with the precise gestures and somatic control that spellcasting
 )
 
 #callout(type: "note", title: "The Arcanist in Armor", body: [
-Yes, you can put your Arcanist in Plate. It'll cost you, 3 Armor Discipline ranks at Foreign/Opposed cost (3/6/12 or 4/8/16), plus the armor itself. And you'll cast every spell at -3. Is it worth it?
+Yes, you can put your Arcanist in Plate. It'll cost you, 3 Armor Discipline ranks at Foreign/Opposed cost (3/6/12 or 4/8/16), plus the armor itself. And you'll cast every spell with Triple Bane on spell rolls. Is it worth it?
 
-For most casters: no. You're spending DP to make yourself worse at your primary job. But for a specific build, the battle mage who wades into melee, the front-line Shepherd who heals under fire, a Breastplate (no Stealth penalty, only -1 to casting) might save your life more often than it costs you a spell tier.
+For most casters: no. You're spending DP to make yourself worse at your primary job. But for a specific build, the battle mage who wades into melee, the front-line Shepherd who heals under fire, a Breastplate (no Stealth penalty, only a Bane on spell rolls) might save your life more often than it costs you a spell tier.
 
 The game doesn't forbid any combination. It just makes you pay for unusual choices. That's the Discipline philosophy in one sentence.
 ])
@@ -83,11 +83,11 @@ A shield is an active defense. You're not just wearing it, you're using it. When
 
 The number before each shield is a Discipline requirement: you need that many ranks in the Protection Discipline to wield it, unless it came in your class starting kit (kit gear assumes training, see @sec-chapter-equipment). The full rules live in @sec-chapter-disciplines
 
-*Buckler (10 gp):* 1 Protection, +1 DR. Small, strapped to the forearm. Leaves your hand free for a second weapon or a wand.
+*Buckler (10 gp):* 1 Protection Discipline, +1 DR. Small, strapped to the forearm. Leaves your hand free for a second weapon or a wand.
 
-*Shield (15 gp):* 1 Protection, +2 DR. The standard. Wood and iron, carried in the off hand.
+*Shield (15 gp):* 1 Protection Discipline, +2 DR. The standard. Wood and iron, carried in the off hand.
 
-*Tower Shield (40 gp):* 2 Protection, +3 DR, half cover. A portable wall. You move at -5 ft speed while carrying it. You can plant it as a maneuver to grant full cover to one ally directly behind you.
+*Tower Shield (40 gp):* 2 Protection Discipline, +3 DR, half cover. A portable wall. You move at -5 ft speed while carrying it. You can plant it as a maneuver to grant full cover to one ally directly behind you.
 
 === Shield Block (Reaction)
 
@@ -103,13 +103,13 @@ Shield Block cannot reduce damage below 1. It can be used against melee attacks,
 
 Roric is building a dwarf Protector at Level 1. He has Brawn +2, Fortitude +1, and the Armor Discipline from his class. He wants to be the party's wall. Here's how he weighs his options:
 
-*Option A, Chain Mail (DR 5, 2 Armor Disc):* He has the Discipline requirement. He pays 2 DP for Armor (2), his class favors it at Home cost (1/2/4). Total DR: 5. He's a fortress. Downside: Stealth Bane, and spellcasters in the party can't rely on him for quiet infiltration.
+*Option A, Chain Mail (DR 5, 2 Armor Discipline):* He has the Discipline requirement. He pays 2 DP for Armor (2), his class favors it at Home cost (1/2/4). Total DR: 7 (chain mail 5 + kit shield 2). He's a fortress. Downside: Stealth Bane, the Heavy-armour speed cut, and spellcasters in the party can't rely on him for quiet infiltration.
 
-*Option B, Breastplate + Shield (DR 4 + Shield Block):* Breastplate needs 2 Armor Discipline, he has that. Shield adds +2 DR and the Shield Block reaction. Total passive DR: 6. Plus he can react to downgrade one hit per round. This is the tank build. The shield costs extra coin, but coin is replaceable. Heroes aren't.
+*Option B, Breastplate + Shield (DR 4 + Shield Block):* Breastplate needs 2 Armor Discipline, he has that. Shield adds +2 DR and the Shield Block reaction. Total passive DR: 6. Plus he can react to downgrade one hit per round. This is the tank build.
 
-*Option C, Plate (DR 6, 3 Armor Disc):* At Level 1, he can't afford Armor (3), that's 4 DP even at Home cost. But he plans for it. At Level 3, he'll buy the third rank and commission a suit of plate. For now, he takes Option B.
+*Option C, Plate (DR 6, 3 Armor Discipline):* At Level 1, he can't afford Armor (3), that's 4 DP even at Home cost. But he plans for it. At Level 3, he'll buy the third rank and commission a suit of plate. Total DR: 8 (plate 6 + kit shield 2). For now, he takes Option B.
 
-Roric goes with Option B. The Breastplate + Shield gives him DR 6, a Shield Block reaction, and he can still move at full speed. At Level 3, he'll reassess. But for now, he's exactly where he needs to be: between the monsters and his friends.
+Roric goes with Option B. The Breastplate + Shield gives him DR 6, a Shield Block reaction, and he can still move at full speed. Option A would give him DR 7, but its chain mail carries a Stealth Bane and the Heavy-armour speed cut. Option B trades one point of DR for full mobility and the reaction, so neither build is strictly better; each one wins a different fight. At Level 3, he'll reassess. But for now, he's exactly where he needs to be: between the monsters and his friends.
 
 #pagebreak()
 
@@ -135,7 +135,7 @@ Without the block, Roric takes 12 - 6 = 6 damage, nearly half his 13 HP in a sin
 
 == Donning & Doffing
 
-Light armor (Padded, Leather, Studded Leather): 1 minute. Medium armor (Chain Shirt, Breastplate, Half Plate, Chain Mail): 5 minutes. Heavy armor (Plate): 10 minutes. Shield: 1 action.
+Light armor (Padded, Leather, Studded Leather): 1 minute. Medium armor (Chain Shirt, Breastplate): 5 minutes. Heavy armor (Half Plate, Chain Mail, Plate): 10 minutes. Shield: 1 action.
 
 You won't always have time to suit up. If the party is ambushed while camping, the Protector fights in whatever they were sleeping in. Plan accordingly: sleeping in chain mail is exactly as unpleasant as it sounds.
 
