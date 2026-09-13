@@ -111,6 +111,8 @@ You're carrying your life. The question is how much of it fits on your back befo
 
 Slot-based system. You have 10 + (Brawn x 5) slots, with a floor of 5. Even a Brawn −2 hero carries the basics. Most items take 1 slot. Armor takes 2-4 slots. Two-handed weapons take 2 slots.
 
+*One container at a time is exempt.* Only a single container keeps its contents off your sheet, and containers cannot be nested inside one another. A second sack or backpack carries gear like anything else: what's inside it counts against your slots. Choose which container is your working one, and pack accordingly.
+
 A hero with Brawn +1 has 15 slots. A longsword (1 slot), a backpack (2 slots), a bedroll (2), a waterskin (1), torches (1), a quiver (1), and a dagger (1) is 9 slots. The remaining 6 slots cover the oddities, the spare rope, the lantern, the thing you picked up in the cellar that might be worth something.
 
 #image("assets/svg/placeholder-section.svg", width: 60%)
@@ -131,7 +133,7 @@ The general store doesn't sell magic swords. It sells rope, rations, and the tho
     table.header([Item], [Cost], [Slots], [Notes],),
     [*Arcane Focus*], [10 gp], [0], [A wand, rod, orb, or crystal that channels arcane power. Used to cast arcane spells.],
     [*Arrows (quiver of 20)*], [1 gp], [1], [Ammunition for shortbows and longbows.],
-    [*Backpack*], [2 gp], [2\*], [Holds up to 30 slots of gear. Items stored inside don't count against your encumbrance, but the backpack itself takes 2 slots on your person. Retrieving a stored item takes a Maneuver.],
+    [*Backpack*], [2 gp], [2\*], [Holds up to 30 slots of gear. If it is your one exempt container, items stored inside don't count against your encumbrance; the backpack itself takes 2 slots on your person either way. Retrieving a stored item takes a Maneuver.],
     [*Bedroll*], [1 gp], [2], [A warm bedroll and blanket. Required for a long rest in the wild. Without one, you recover half the normal long rest healing, rounded down.],
     [*Bolts (quiver of 20)*], [1 gp], [1], [Ammunition for crossbows.],
     [*Caltrops (bag)*], [1 gp], [1], [Scatter across a 5-ft square as a maneuver. A creature moving through must make an Agility check (Standard) or take 1 damage and gain Slowed 15 until the start of its next turn.],
@@ -151,11 +153,11 @@ The general store doesn't sell magic swords. It sells rope, rations, and the tho
     [*Oil (flask)*], [1 sp], [1], [Fuel for lanterns (6 hours). Can be thrown and ignited as an improvised attack, 2 fire damage on hit, and the target gains Burning 1. A creature already on fire cannot be set alight twice; the new flask is wasted.],
     [*Parchment (5 sheets)*], [1 gp], [0], [Blank parchment. Maps, letters, wanted posters with your face on them, parchment is the medium of adventure.],
     [*Pitons (set of 10)*], [5 sp], [1], [Iron spikes for climbing or securing ropes. Each piton supports 300 lbs when properly hammered into stone. Climbing a piton-anchored rope requires no check.],
-    [*Pouch (belt)*], [5 sp], [0\*], [Holds up to 50 coins or small items. Does not take a slot, it straps to your belt. The coins inside don't count against encumbrance. Be honest about what fits.],
+    [*Pouch (belt)*], [5 sp], [0\*], [Holds up to 50 coins or small items. Does not take a slot, it straps to your belt. If it is your one exempt container, the coins inside don't count against encumbrance. Be honest about what fits.],
     [*Rations (1 day)*], [5 sp], [1], [Dried meat, hardtack, and dried fruit. Tastes like regret. One day without food: Bane on all rolls. Three days: double Bane. Five days: you're dying.],
     [*Rope, Hemp (50 ft)*], [1 gp], [2], [Coarse, heavy, reliable. Supports 500 lbs. Can be cut with a blade (1 round) or burned through (2 rounds in fire).],
     [*Rope, Silk (50 ft)*], [10 gp], [1], [Lightweight and strong. Supports 700 lbs. Half the bulk of hemp rope. Quieter when uncoiled, no rough fibers scraping against stone.],
-    [*Sack (large)*], [1 sp], [1\*], [A coarse sack that holds 1 cubic foot or 30 lbs of material. The sack takes 1 slot but its contents don't count, until it tears. One sharp edge and your loot is on the floor.],
+    [*Sack (large)*], [1 sp], [1\*], [A coarse sack that holds 1 cubic foot or 30 lbs of material. The sack takes 1 slot; if it is your one exempt container, its contents don't count, until it tears. One sharp edge and your loot is on the floor.],
     [*Shovel*], [2 gp], [2], [Digs graves, trenches, and latrines. Buries treasure. Unearths treasure. The shovel has seen more adventuring than most bards.],
     [*Smith's Tools*], [5 gp], [2], [Forge tools. Required for Craft checks to make or repair metal items.],
     [*Smoke Bomb*], [5 gp], [0], [Throw up to 20 ft. Creates a 10-ft radius of heavy concealment for 1 round; anyone inside is Hidden.],
