@@ -1,0 +1,47 @@
+{
+  "id": "f-201",
+  "round": 2,
+  "role": "contrarian",
+  "topic": "t-02",
+  "stance": "support",
+  "argument": "f-005 rests its defect on a premise the chapter's own table contradicts, so the claim overreaches. Its evidence says only properties, range and cost vary between the weapon rows; the Disciplines Required column instead carries thirteen distinct entries across seventeen rows, from blank (Unarmed) up to a stacked two-Discipline combination, and the chapter's Name Your Style callout teaches that column as the choice axis while explicitly refusing a size ladder behind it. The promised equivalence is also demonstrated in print rather than left asserted: the Melee Damage callout puts two named improvised objects on one shared damage line, and three gear rows at three different prices print that identical line, matching the basic unarmed card in the chapter that owns the attack cards. The Unarmed row prints empty cells and still resolves to the floor damage, which is the chapter's thesis stated in table form, since a per-row damage cell would print one constant number down every weapon row and convention 4 bars weapons from carrying damage at all. Teaching is present and sits where it belongs: opening framing, a six-entry properties list where every property is a trade-off with its owner list, the encumbrance worked load, and the charge-tier table. What would make this a defect instead: a column implying per-weapon power (a rating or bonus cell), a property with no trade-off, or rows that differ only in price with an identical permission cell. None of those exist. The one live gap is narrower and different in kind, and it is the part of f-005's own evidence that survives: the two-band range notation is printed in the Range column and repeated on the attack cards, and no chapter ever unpacks what the second number costs.",
+  "evidence": [
+    {
+      "source": "15-equipment",
+      "claim": "The weapon table declares five columns and the second is the most differentiated one. Parsing all seventeen rows yields thirteen distinct Disciplines Required entries, so f-005's premise that only properties, range and cost vary between rows is false.",
+      "quote_or_excerpt": "[Disciplines Required], [Properties], [Range], [Cost],"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The chapter ties the differing Discipline cells to identity and denies that the bigger requirement means bigger numbers, which is the lesson the table's principal varying column encodes.",
+      "quote_or_excerpt": "a different person than a hero with a Dagger"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The Melee Damage callout supplies exactly the demonstration f-005 says is absent: two distinct improvised objects are placed on one identical damage line.",
+      "quote_or_excerpt": "a crowbar swung as a club, a hammer in a pinch"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "Three gear rows priced at 2 gp, 1 gp and 1 sp repeat that same improvised damage line in the chapter's own table, so differently costed objects demonstrably resolve to one row.",
+      "quote_or_excerpt": "Can be used as an improvised weapon (1/1/2 + Brawn)"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The Unarmed row shows the table deliberately carrying no numbers in the parity-relevant cells while still dealing defined damage, which is the flavour law expressed in table form.",
+      "quote_or_excerpt": "[Unarmed], [None], [], [], [],"
+    },
+    {
+      "source": "09-talents-abilities",
+      "claim": "The chapter that owns the attack cards repeats the same floor damage on its unarmed basic attack and states that Disciplines buy card access rather than damage, so the teaching exists in the artifact readers actually use in play.",
+      "quote_or_excerpt": "Weapon Disciplines gate access to stronger cards, not higher damage."
+    },
+    {
+      "source": "reasoning",
+      "claim": "Worked count behind the rebuttal and the residual: seventeen rows give thirteen distinct Discipline cells, so the table's differentiating column is permission rather than paper power; the Thrown owner list names three weapons where four rows carry the property; and the two-band range notation appears only as data.",
+      "quote_or_excerpt": "17 rows, 13 distinct Discipline cells; Thrown rows 4, list names 3."
+    }
+  ],
+  "confidence": 0.74,
+  "rebutting": ["f-005"]
+}

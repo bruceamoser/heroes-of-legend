@@ -1,0 +1,67 @@
+{
+  "id": "f-001",
+  "round": 1,
+  "role": "researcher",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Locked convention 4 forbids one weapon being strictly better than a peer at equal cost, and the chapter's own weapons text frames the list as a matter of fit rather than a power ladder. Parsing all 16 rows of the weapon table as data, the archery trio fails that standard. At an identical 25 gp and an identical 1 Archery requirement, the Shortbow reaches 60/120 ft with no drawback while the Crossbow reaches 20/60 ft and carries Loading, so the Crossbow is dominated on range AND on properties at the same price, which is convention 4's forbidden case verbatim. The Longbow fails from the opposite side: its row matches the Shortbow in Discipline, range and property set exactly, and costs exactly twice as much (50 gp against 25 gp), so no build can rationally take it. Two further pairs repeat the shape at identical Discipline cost and no properties to distinguish them: Dagger (2 gp, 1 Blades, Finesse/Light/Thrown, 20/60 ft) is a strict superset of Shortsword (10 gp, 1 Blades, Finesse/Light, melee only), and Spear (10 gp, 1 Polearms, Reach/Thrown, 20/60 ft) is a strict superset of Halberd (20 gp, 1 Polearms, Reach, melee only). The same pay-more-get-less inversion is not confined to weapons: the Cart (50 gp, 30 HP, 40 ft, 3 passengers, 500 lbs) beats the Chariot (150 gp, 25 HP, 20 ft, 1 passenger, 50 lbs) in every single column at one third the price, and Volatile Reagents at 10 gp reproduce the oil flask's stated combat effect (1 sp) almost word for word on the same 1 slot, a one hundred fold price difference for zero mechanical difference. Per-gold arithmetic confirms these tables were never priced against one another: the Cart returns 0.60 HP/gp and 0.80 ft/gp against the Chariot's 0.167 and 0.133, and among mounts the Mule leads on all three axes (1.875 HP/gp, 50 lbs/gp, 3.75 ft/gp) while the Warhorse trails on all three (0.0875, 1.25, 0.125), spreads of 21x, 40x and 30x. Fix: give each dearer entry a genuine mechanical differentiator (longer range, a unique property, or a rule of its own) or reprice it to the dominated entry's cost, and delete or restat the duplicated gear effect.",
+  "evidence": [
+    {
+      "source": "15-equipment",
+      "claim": "The Shortbow row costs 25 gp, requires 1 Archery, reaches 60/120 ft and lists no properties at all.",
+      "quote_or_excerpt": "[Shortbow], [1 Archery], [], [60/120 ft], [25 gp]"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The Crossbow row costs the identical 25 gp under the identical 1 Archery requirement but reaches only 20/60 ft and adds the Loading drawback, making the Shortbow strictly superior at equal cost.",
+      "quote_or_excerpt": "[Crossbow], [1 Archery], [Loading], [20/60 ft], [25 gp]"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The Longbow row carries the same 1 Archery requirement, the same 60/120 ft range and the same empty property set as the Shortbow, differing only in a price that is exactly double.",
+      "quote_or_excerpt": "[Longbow], [1 Archery], [], [60/120 ft], [50 gp]"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The chapter states its own design intent that weapon choice is about fit rather than picking the strongest entry on paper.",
+      "quote_or_excerpt": "not the one that looks best on paper"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Enumeration of all 120 ordered weapon pairs under cost <=, range >=, property superset (Loading counted negative) and identical Discipline requirement yields exactly four dominated pairs, each strictly worse in the named dimensions with no compensating column: Shortbow dominates Longbow (cost 25 < 50, all else equal); Shortbow dominates Crossbow (range 120 > 60 and property {Loading} removed, at equal 25 gp); Dagger dominates Shortsword (cost 2 < 10, range 60 > 0, properties Finesse+Light+Thrown superset of Finesse+Light); Spear dominates Halberd (cost 10 < 20, range 60 > 0, Reach+Thrown superset of Reach).",
+      "quote_or_excerpt": "four dominated pairs: Shortbow/Longbow, Shortbow/Crossbow, Dagger/Shortsword, Spear/Halberd"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The Cart row buys 30 HP, 40 ft of speed, 3 passengers and 500 lbs of cargo for 50 gp.",
+      "quote_or_excerpt": "[*Cart*], [50 gp], [30], [40 ft (draft horse)], [1], [3], [500 lbs]"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The Chariot row is worse on every one of those columns (25 HP, 20 ft, 1 passenger, 50 lbs) while costing three times as much at 150 gp.",
+      "quote_or_excerpt": "[*Chariot*], [150 gp], [25], [20 ft (draft horse, -2)]"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The one-slot oil flask at 1 sp states a thrown combat effect of 2 fire damage plus Burning 1 with a wasted-flask clause.",
+      "quote_or_excerpt": "2 fire damage on hit, and the target gains Burning 1"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "Volatile Reagents (alchemist's fire) at 10 gp on the same single slot states the same 2 fire damage plus Burning 1 effect, and even repeats the identical wasted-vial clause, so it is the same item at one hundred times the price (1 sp vs 10 gp = 100x).",
+      "quote_or_excerpt": "Thrown as an improvised attack, 2 fire damage on hit"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Per-gold audit of mounts: the Mule (8 gp) is best value on HP (1.875/gp), carry (50 lbs/gp) and speed (3.75 ft/gp); the Warhorse (400 gp) is worst on all three (0.0875, 1.25, 0.125), i.e. 21.4x, 40x and 30x spreads. No mount is strictly dominated once the Special column is counted: the Draft Horse beats the Riding Dog on every raw column at the same 50 gp (25 vs 12 HP, 800 vs 100 lbs), but the dog's Keen Smell Boon and Small-rider suitability are its differentiator, so I do NOT file that pair.",
+      "quote_or_excerpt": "Mule 1.875 HP/gp, 50 lbs/gp, 3.75 ft/gp; Warhorse 0.0875, 1.25, 0.125"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The encumbrance rule is CLEAN and needs no fix: 10 + Brawn x 5 reproduces its own worked example (Brawn +1 gives 15 slots, the listed load 1+2+2+1+1+1+1 sums to 9 and leaves the stated 6 spare) and the floor of 5 binds only at Brawn -2 and below, where the raw value is 0 or negative, so no stated case is miscomputed.",
+      "quote_or_excerpt": "Brawn -2: raw 0, final 5; Brawn +1: raw 15, final 15"
+    }
+  ],
+  "confidence": 0.9,
+  "rebutting": []
+}

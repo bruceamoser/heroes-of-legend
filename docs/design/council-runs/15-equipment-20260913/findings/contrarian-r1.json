@@ -1,0 +1,37 @@
+{
+  "id": "f-151",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "The chapter's whole case is that a weapon is identity rather than a stat line, so its own table should never rank two arms against each other. The ranged rows do exactly that, and the prose says the opposite: every weapon hits identically, pick on feel, not on paper strength. Shortbow and longbow share a discipline cell, an empty property cell and the 60/120 ft range, yet the longbow asks double the gold. The crossbow, at the shortbow's exact 25 gp, adds a reload Maneuver and drops to 20/60 ft. Paying equal or more therefore buys no column back, so two entries are strictly dominated, which the locked flavour law bans at matching price. A table that ranks its own rows falsifies the promise the chapter makes in prose, and the flavour law it claims to satisfy.",
+  "evidence": [
+    {
+      "source": "15-equipment",
+      "claim": "The shortbow row carries one Archery discipline, an empty properties cell and a 60/120 ft range at 25 gp.",
+      "quote_or_excerpt": "[Shortbow], [1 Archery], [], [60/120 ft], [25 gp]"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The longbow row repeats the identical discipline, empty properties cell and 60/120 ft range but charges 50 gp, so nothing in the table pays for the doubling.",
+      "quote_or_excerpt": "[Longbow], [1 Archery], [], [60/120 ft], [50 gp]"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The crossbow sits at the shortbow's own 25 gp while adding the Loading handicap and halving range to 20/60 ft, giving no compensating column.",
+      "quote_or_excerpt": "[Crossbow], [1 Archery], [Loading], [20/60 ft], [25 gp]"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The prose instructs the reader that all weapons hit for the same numbers and should be chosen on feel rather than table strength, which the cost and range columns contradict.",
+      "quote_or_excerpt": "They all hit the same; you are the one doing the hitting"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The locked weapon-as-flavour law forbids any weapon being strictly better than another at the same price, which the shortbow does to the crossbow at 25 gp.",
+      "quote_or_excerpt": "No weapon may be strictly better than another at the same cost"
+    }
+  ],
+  "confidence": 0.85,
+  "rebutting": []
+}

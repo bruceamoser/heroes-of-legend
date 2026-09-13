@@ -1,0 +1,42 @@
+{
+  "id": "f-401",
+  "round": 1,
+  "role": "game-architect",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "The chapter's situational layer still prices circumstance in raw numbers. Line 246 hangs -1 on the attacker on foot facing a rider and +1 on the rider striking a target on foot, and line 164 makes a spyglass a one-tier cut to the difficulty of a distant Perception check. Against a locked cap of three numeric roll modifiers in the whole book, the mounted pair are a fourth and a fifth, and neither wears the Boon or Bane shape this book reserves for circumstance, including this chapter's own mounted-fire Bane at line 240. Convert both: the foot attacker takes a Bane, the mounted attacker a Boon, and delete the cancellation clause, which is unreachable because no single attacker is ever simultaneously mounted and on foot, while the standard one-for-one cancel rule already covers a mixed case. Convert the spyglass to a Boon, the treatment ch13 already gave this same shape when Blinded became a double Bane, and strike its gloss: a rung of ch06's difficulty ladder is 2 points, while the gloss promises the 6-point drop from the Strong band's floor to the Standard band's floor, which no legal Boon reaches (Boon 3 is worth about +3.8 on the mean, Boon 1 about +1.7). As written a DA cannot tell whether the spyglass is worth 2 or 6 points, and a table running the printed -1 and +1 is running two modifiers the rest of the book does not have.",
+  "evidence": [
+    {
+      "source": "15-equipment",
+      "claim": "Line 246 attaches -1 to attacks made from the ground against a rider and +1 to the rider's own attacks against someone on foot; both are roll modifiers, which makes them the fourth and fifth surviving numeric modifiers against a locked cap of three.",
+      "quote_or_excerpt": "suffer -1 (you're reaching up)"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "Line 240 answers the same class of circumstance with a Bane on the roll rather than a number, so the chapter contradicts its own handling of situational swings inside one section.",
+      "quote_or_excerpt": "made from a moving mount suffer a Bane"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "Line 164 reduces a check's difficulty by one tier and then explains itself with the names of the success bands, which are outcomes of a roll, not rungs of the difficulty ladder.",
+      "quote_or_excerpt": "Strong becomes Standard, Standard becomes Weak"
+    },
+    {
+      "source": "06-core-resolution",
+      "claim": "Difficulty is a numeric modifier whose named rungs sit two points apart, from Trivial at +4 down to Nearly Impossible at -6, so one tier of difficulty is 2 points and not the 6 the spyglass gloss describes.",
+      "quote_or_excerpt": "[-2], [Hard], [Adverse conditions"
+    },
+    {
+      "source": "13-combat",
+      "claim": "The book has already converted this exact situational shape for the Blinded condition, which now applies a double Bane to the affected rolls rather than a shift of the check's difficulty.",
+      "quote_or_excerpt": "Attacks at double Bane"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Exact enumeration of the dice: 3d6 has mean 10.50, a Boon 12.24 and a Bane 8.76, so the legal situational unit is worth about 1.7 points of total; the printed +1 lifts a Strong result from 9.3% to 16.2% at a +0 base, while the Boon that should replace it lifts that band to 23.1%.",
+      "quote_or_excerpt": "3d6 mean 10.50 vs Boon 12.24 and Bane 8.76"
+    }
+  ],
+  "confidence": 0.85,
+  "rebutting": []
+}

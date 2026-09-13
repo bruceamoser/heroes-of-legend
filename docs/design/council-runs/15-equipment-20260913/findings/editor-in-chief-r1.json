@@ -1,0 +1,47 @@
+{
+  "id": "f-601",
+  "round": 1,
+  "role": "editor-in-chief",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "Chapter 15 is the book's buying catalog, and almost none of it is registered in the lookup surfaces the book sends readers to. Counting the chapter's own tables: 17 weapons, 37 gear rows, 7 mounts and 8 vehicles are tabulated, and none of those 69 entries is registered in ch21 or ch22 (the one string the lookups share with the weapon table is Unarmed, used there as a Discipline name); the only item table in the tear-out sheet is the armor one, which does cover all 8 armor rows and the 3 shields. The weapon vocabulary fares the same way: of the six properties the chapter defines, only Finesse is a glossary headword, while Reach, Thrown, Loading, Light and the weapon sense of Versatile appear in neither lookup surface, and a reader who looks up Versatile lands on the Human ancestry trait instead. The chapter also spends a benefit on a term the book never defines: the Tent row names an exhaustion penalty that has no entry in either lookup surface and no rule anywhere else in the chapter sources, so the reader who buys a tent for that benefit cannot resolve what it does. Where a lookup sheet does carry a value from this chapter it disagrees with it: the derived-statistics table states the carry-slot formula with no floor, against the floor this chapter grants, so the same hero can leave character creation with fewer slots than the encumbrance rule allows. The fix is additive rather than structural: register the catalog and the properties in ch21 and ch22, add the floor to the derived-stat lookup, and either define the exhaustion penalty or restat the tent.",
+  "evidence": [
+    {
+      "source": "15-equipment",
+      "claim": "The weapon table tabulates 17 rows and the properties list defines six named weapon properties; I checked every one of those names against both lookup surfaces, and no weapon entry is listed in ch21 or ch22, while only Finesse of the six properties is. The one string overlap is the word Unarmed, which appears in those two files as a Discipline type name, not as the weapon row.",
+      "quote_or_excerpt": "- *Reach*, can attack targets 10 ft away"
+    },
+    {
+      "source": "21-glossary",
+      "claim": "The glossary's single weapon-property headword is Finesse; Reach, Thrown, Loading, Light and the weapon reading of Versatile have no entry, and the Versatile headword resolves to the Human ancestry trait rather than to the Longsword's property.",
+      "quote_or_excerpt": "*Finesse:* A weapon property. Use Agility instead of Brawn"
+    },
+    {
+      "source": "21-glossary",
+      "claim": "The glossary states that it covers the whole mechanical vocabulary of the book, which is the promise the reader relies on when stopping mid-scene to check a term; the equipment catalog of ch15 is outside that coverage except for two focus items listed as magic terms.",
+      "quote_or_excerpt": "Every mechanical term used in this book, defined in one place."
+    },
+    {
+      "source": "22-reference-sheets",
+      "claim": "The tear-out section titled for items holds one armor table and one shield table only: no weapon, gear row, mount or vehicle from ch15 appears anywhere in the sheet, so a player at the table has no quick-reference line for anything bought except armor and shields.",
+      "quote_or_excerpt": "table.header([Armor], [DR], [Stealth], [Disc Req],)"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The Tent's benefit hangs on an exhaustion penalty for exposure; the word exhaustion appears in no other chapter source, neither lookup surface has an entry for it, and no rule in the book defines the penalty the tent is said to remove, so the reader who buys a tent for that benefit has nothing to resolve it against. The nearest miss elsewhere is the ordinary adjective exhausted used in prose.",
+      "quote_or_excerpt": "negates the exhaustion penalty for exposure"
+    },
+    {
+      "source": "02-character-creation",
+      "claim": "The derived-statistics table that a player uses while building a hero states the carry-slot formula without the floor this chapter grants, so a Brawn -2 hero is told to record zero slots at creation while ch15 guarantees a minimum of five; ch22 names Carry Slots as a derived statistic but prints no formula at all.",
+      "quote_or_excerpt": "[*Carry Slots*], [10 + (Brawn x 5)],"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The encumbrance prose gives armor a flat slot band, but no armor row in this chapter's armor table and no row in the ch22 armor sheet carries a Slots column, so no single armor's slot cost can be resolved from any lookup surface.",
+      "quote_or_excerpt": "Armor takes 2-4 slots."
+    }
+  ],
+  "confidence": 0.7,
+  "rebutting": []
+}

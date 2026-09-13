@@ -1,0 +1,57 @@
+{
+  "id": "f-902",
+  "round": 2,
+  "role": "librarian",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "I sustain f-002 on the Chases callout and reject the reading that it is a legitimate bounded exception. The chapter that owns resolution states the rule flatly: in a direct contest the acting character makes the roll, the other side's ability becomes the Challenge, and the target does not roll. It then extends that rule across the whole book, declaring that the opposed procedure governs wherever the book calls a contest opposed, with no carve-out for any subsystem. The chase names itself a simple contest yet has both sides throw a shared die each round with a bonus scaled to the speed gap, which is the retired both-sides-roll shape. I searched for a sanctioned second resolution die and found none. The book's only overland-travel rule reads a Survival roll against the ordinary tiers; downtime is a menu of declared stronghold and faction actions with no die at all; mass combat does not exist as a system; and every stray d6 in the corpus is a DA-facing oracle (encounter tables, monster recharge, regeneration, follower headcounts), never a player-facing contest. So no pursuit, travel, downtime, or mass-combat rule licenses a die other than 3d6, and scoping the rule to vehicles does not exempt it. A speed differential is a situational factor, and the locked law turns those into Boon or Bane while capping numeric roll modifiers at three, so pricing it in whole points fails twice. A vehicle chase is an open category rather than a purchased one-off, so it presents itself as the general rule and must conform. I also confirm f-007's carry-slot claim and sharpen where the fix belongs: ch03 defines carrying capacity with the floor and this chapter restates it with the floor, while ch22 names Carry Slots as a derived statistic but prints no formula. Only the character-creation derived-stat table prints the bare product. So ch02 is the outlier; the conforming edit lands in that table, and ch15 needs no change on this value.",
+  "evidence": [
+    {
+      "source": "15-equipment",
+      "claim": "The chase resolves a pursuit as a per-side single-die contest with a speed-scaled bonus, racing both sides to three successes.",
+      "quote_or_excerpt": "Each round, each side rolls 1d6."
+    },
+    {
+      "source": "06-core-resolution",
+      "claim": "The core chapter fixes a direct contest as one roll by the acting side, with the opponent's quality setting difficulty and the opponent never rolling.",
+      "quote_or_excerpt": "The target never rolls."
+    },
+    {
+      "source": "06-core-resolution",
+      "claim": "The same chapter extends that procedure to the whole book and offers no carve-out for a subsystem, so a second die for chases is not sanctioned.",
+      "quote_or_excerpt": "Wherever the book says \"opposed,\" this is the rule."
+    },
+    {
+      "source": "19-gm-guidance",
+      "claim": "The book's only overland-travel mechanic reads a Survival roll against the normal success tiers, not a separate die.",
+      "quote_or_excerpt": "one character makes a Survival (Fortitude) roll"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Auditing every non-3d6 roll in the chapter corpus, the lone d6 uses are DA-facing oracle tables (random encounters, monster recharge, regeneration, follower headcounts); none is a player-facing contested resolution, so no pursuit, travel, downtime, or mass-combat rule licenses an alternate resolution die.",
+      "quote_or_excerpt": "Every stray d6 is an oracle, never a resolved contest."
+    },
+    {
+      "source": "03-attributes",
+      "claim": "The attributes chapter is a canon home for carrying capacity and states it with an explicit floor, so the floor is the book's value.",
+      "quote_or_excerpt": "(Brawn x 5) inventory slots, with a floor of 5"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "This chapter restates the slot rule with the same floor, so it agrees with the attributes chapter rather than diverging from it.",
+      "quote_or_excerpt": "(Brawn x 5) slots, with a floor of 5"
+    },
+    {
+      "source": "02-character-creation",
+      "claim": "The character-creation derived-statistics table prints the carry-slot formula as the bare product with no floor, which is the site that disagrees with canon.",
+      "quote_or_excerpt": "[*Carry Slots*], [10 + (Brawn x 5)]"
+    },
+    {
+      "source": "22-reference-sheets",
+      "claim": "The tear-out quick reference names Carry Slots as a derived statistic but prints no formula, so it neither states nor contradicts the floor.",
+      "quote_or_excerpt": "*Derived Stats:* HP, Initiative, Speed, Carry Slots."
+    }
+  ],
+  "confidence": 0.78,
+  "rebutting": ["f-002", "f-007"]
+}

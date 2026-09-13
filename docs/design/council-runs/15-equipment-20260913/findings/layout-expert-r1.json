@@ -1,0 +1,52 @@
+{
+  "id": "f-501",
+  "round": 1,
+  "role": "layout-expert",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "As a rendered artifact chapter 15 mostly holds up: its tables do not clip, all 37 adventuring-gear rows arrive with their Notes intact, continuation pages repeat the column header, and the orphan-heading scan still reports exactly two across 365 pages (neither here). The defect is page flow. Two hand-placed pagebreaks strand content: the built PDF's page 235 carries a single callout with roughly 93% of the text frame blank, and page 228 stops near mid-page with its lower half empty. Both breaks also produce dead white immediately before a section start. The chapter introduces no new orphaned heading and no clipped cell, but a page holding one box is not a page.",
+  "evidence": [
+    {
+      "source": "reasoning",
+      "claim": "Word bounding boxes on built-PDF page 235 end at yMax=110pt inside the ~68-715pt text frame, about 6.6% fill; the running head and folio were excluded.",
+      "quote_or_excerpt": "Starting Gear"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The Starting Gear callout is written after the gear table and the Coins paragraph, and a hard pagebreak follows it, so the box spills onto its own page and Mounts & Vehicles begins on the next one.",
+      "quote_or_excerpt": "New heroes take their class's starting kit"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "A hard pagebreak after the shields paragraph closes the Armor section; the built page stops at yMax=383pt, so the lower half is blank before Encumbrance starts.",
+      "quote_or_excerpt": "Prices: see Chapter 18."
+    },
+    {
+      "source": "reasoning",
+      "claim": "The table-fidelity gate reports 1 of 67 row tails not intact in the PDF, naming the gear table's longest item; its name is too wide for the 23.08% Item column and wraps to a second line, though vision confirms no clipping.",
+      "quote_or_excerpt": "row NAME missing: Volatile Reagents (alchemist's fire)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Orphan-heading scan over the 365-page build still reports two headings last on a page, on p92 and p125, so chapter 15 adds none; the book-wide count stays at 2.",
+      "quote_or_excerpt": "2 heading(s) sit last on a page"
+    },
+    {
+      "source": "reasoning",
+      "claim": "All 37 gear rows render across pp230-234, the column header repeats at the top of each continuation page, and the weapons, armor and charge tables stay unsplit on one page each.",
+      "quote_or_excerpt": "Item Cost Slots Notes"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The vehicles table splits across pp238-239 so its final Warship row sits alone under a repeated header at the top of p239.",
+      "quote_or_excerpt": "Warship 10,000 gp 300"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The Encumbrance figure caption carries a stray trailing comma that the chapter-opener caption does not, a small caption-typography inconsistency.",
+      "quote_or_excerpt": "Figure 17.2: Equipment,"
+    }
+  ],
+  "confidence": 0.82,
+  "rebutting": []
+}

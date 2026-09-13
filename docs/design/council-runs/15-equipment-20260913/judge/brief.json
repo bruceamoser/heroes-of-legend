@@ -1,0 +1,289 @@
+{
+ "assembled_at": "2026-09-13T03:06:03Z",
+ "wall": {
+  "ngram_n": 10,
+  "reject_at": 1
+ },
+ "contested_topics": {
+  "t-02": {
+   "positions": {
+    "Speaker B": "refute",
+    "Speaker D": "refute",
+    "Speaker E": "support"
+   },
+   "findings": [
+    {
+     "id": "f-005",
+     "round": 1,
+     "speaker": "Speaker B",
+     "stance": "refute",
+     "argument": "Chapter 15 states its central lesson and then never teaches it. The Weapons opener tells the reader to choose a weapon for fit rather than for how strong it looks on paper, and promises that every weapon resolves to the same damage. The section then hands the reader a weapon table with no damage column at all: the only cells that ever differ between rows are Properties, Range and Cost, which are precisely the paper signals the prose just told the reader to disregard. Because no column displays the sameness being asserted, the reader cannot see the lesson in the artifact they will actually use at the table, and the property glossary makes the same table read like a ladder, since individual weapons carry distinct mechanical tags (extended reach, a reload action, a thrown distance). The chapter also supplies no worked example that walks two different weapons through one shared damage row, even though a printed example is this book's stated requirement for a major mechanic and this chapter demonstrates its other mechanics (an encumbrance load, a charge tier table, a mount-death check). The one axis a reader might use to choose on feel, the two-number range notation, is never defined in this chapter or in the chapter that owns attacks, so the fiction-first reading has no footing either. Net effect: the prose rewards the reader who ignores the table, the table rewards the reader who studies it, and the second lesson is the one that lands. The fix is a demonstration, not a repricing: one short example resolving two weapons through a single card, or a column that prints the shared number.",
+     "confidence": 0.68,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "15-equipment",
+       "claim": "The Weapons section instructs the reader to pick a weapon for fit rather than for how strong it looks on paper, and to treat the listed weapon list as a matter of identity rather than ranking."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The weapon table declares five columns, and only properties, range and cost vary between rows; no damage column exists, so the equivalence the prose promises is never shown in the table the reader consults."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The property glossary gives named weapons distinct mechanical behaviour, such as extended attack distance, a reload action and a throwable distance, so the rows are not interchangeable on sight."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The weapons section carries no worked example of two weapons landing on one identical damage row, while the chapter's other mechanics are demonstrated in print, including an encumbrance load."
+      },
+      {
+       "source": "09-talents-abilities",
+       "claim": "The chapter that prints the basic ranged attack cards uses the same two-number range notation on its cards and also never unpacks the second value, so a reader has no stated cost for shooting past the first number."
+      },
+      {
+       "source": "reasoning",
+       "claim": "The defect is pedagogical, not a pricing or balance violation: the remedy is one short demonstration resolving two weapons through a single card, or a column printing the shared number, so the table stops reading as a ladder."
+      }
+     ]
+    },
+    {
+     "id": "f-009",
+     "round": 2,
+     "speaker": "Speaker D",
+     "stance": "refute",
+     "argument": "f-005 is right about the missing column and wrong about the repair. A worked example adds no cell, so it cannot touch a defect that lives in the cells: pricing the weapons table as data, the table ranks its own rows. Under the strictest reading (same Discipline requirement; no worse on price, range or property set; strictly better on at least one) it yields exactly four dominated pairs - Shortbow over Longbow, Shortbow over Crossbow, Dagger over Shortsword, Spear over Halberd - and a demonstration would leave all four standing. The cheap repair is one cell per pair, and I re-ran the enumeration to verify each: Longbow range 60/120 to 100/200 ft keeps the 50 gp premium (4 pairs to 3); Crossbow Disciplines 1 Archery to None, or its price 25 to 20 gp (either, 4 to 3); Shortsword 10 to 1 gp, or Dagger 2 to 12 gp (either, 4 to 3); Halberd 20 to 9 gp (4 to 3). Two favourite fixes fail: repricing the Longbow to 25 gp alone just relocates the domination onto the Crossbow (the count stays 4, one pair swapped for another), and bolting an existing tag the Spear already owns (Thrown) onto the Halberd changes nothing, because a superset test is not satisfied by matching. Four cells - Longbow range, Crossbow price, Shortsword price, Halberd price - take the count to zero, and a six-cell package avoids every price-ladder inversion: Longbow 100/200 ft, Crossbow Discipline None, plus a seventh property tag on the Shortsword and on the Halberd with its glossary bullet each. Deletion is not the cheap route: dropping the Shortsword row forces edits to the two property bullets that name it, dropping the Halberd forces one. Scope caveat for the work estimate: the four pairs are the ones removable by cell edits, but a looser reading that treats a training requirement as a subset relation gives 19 pairs, since Unarmed (no requirement, 0 gp, no properties) then dominates six property-less melee rows. That residue is a system-level question about permission, not a table edit.\n\nThe encumbrance procedure has a second, larger hole, and it is the same shape: the prose states a rule the table cannot bound. The backpack occupies 2 person slots, costs 2 gp, and exempts 30 slots of contents; nothing in the book limits how many a hero wears. Capacity is therefore C + 28n for n packs: a Brawn -2 hero goes 5 slots, then 33 at 2 gp, 61 at 4 gp, 89 at 6 gp (17.8x base), and a Brawn +2 hero goes 20, 48, 76, 104. That is 0.071 gp per extra slot against 0.5 gp per slot for a bedroll, and by the sack row's own 1 slot equals 30 lbs equivalence, one 2 gp pack exempts 900 lbs where an 8 gp mule carries 400. Nesting is unbounded too: a stored pack eats 2 of the 30 inner slots, so each level multiplies exemptions by 15 - 16 packs (32 gp) carry 480 exempt slots, 241 packs (482 gp) carry 7,230. The pouch compounds it at 0 slots for 50 uncounted coins. Fix by capping the container rather than the ratio, one sentence in the Encumbrance section: \"Only one container at a time exempts its contents from your slots (a backpack or a sack, not both), and containers cannot be nested; every other container's contents count against your slots as normal.\" Verified residual after that cap: 33, 38, 43, 48 slots at one pack for Brawn -2, 0, +1, +2, a 6.6x lift at the bottom that is the design's own statement about what a pack is worth. If the council wants the ratio cut as well, shrinking the pack's internal capacity to 10 slots gives 13 slots at Brawn -2.\n\nOne further procedure gap of the same class, cheap to fix: the encumbrance rule prices two-handed weapons at 2 slots and most items at 1, and no weapon-table column says which rows are two-handed. Only the Heavy Weapon tag settles Greatsword, Greataxe and Maul, leaving 5 of 17 rows - Halberd, Spear, Shortbow, Longbow, Crossbow - whose slot cost a reader must guess.",
+     "confidence": 0.82,
+     "rebutting": [
+      "f-005"
+     ],
+     "evidence": [
+      {
+       "source": "15-equipment",
+       "claim": "The Shortbow row carries one Archery requirement, an empty properties cell, a 60/120 ft range and a 25 gp price."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The Longbow row repeats that discipline, empty properties cell and range exactly, and charges double, so no column pays for the increase."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The Crossbow matches the Shortbow's discipline and price while carrying Loading and a shorter 20/60 ft range, so it is dominated on both range and properties."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The Dagger is a strict superset of the Shortsword at one fifth the price: same discipline, same Finesse and Light, plus Thrown with a 20/60 ft throw."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The Halberd and Spear share one Polearms requirement while the Spear adds Thrown and a 20/60 ft throw, so the dearer Halberd buys nothing back."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The weapons opener promises an identical hit outcome for every listed arm and names fit rather than table strength as the selection rule, which the cost and range cells contradict."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Enumeration over all 272 ordered weapon pairs under the strict same-discipline test: 4 dominated pairs originally; 4 cells of edits (Longbow range, Crossbow price, Shortsword price, Halberd price) reduce that to 0; the Longbow price edit alone leaves 4, merely swapping one pair for a new one."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The Backpack row gives 30 slots of exempt internal storage for 2 person slots and 2 gp, and no other line in the book caps how many a hero may wear."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Effective slot capacity with n packs is C + 28n, so the printed floor of 5 becomes 33, 61 and 89 slots at 2, 4 and 6 gp for Brawn -2, and a Brawn +2 hero reaches 48, 76 and 104; nested packs multiply exemptions by 15 per level to 480 slots at 32 gp and 7,230 at 482 gp."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The Pouch is a 0-slot container holding 50 uncounted coins, so the same count-free container rule undercuts the 100-coins-per-slot rule at no slot cost."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The Sack carries the same contents-exemption clause, so any cap on container stacking must name sacks as well as backpacks."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The slot procedure prices two-handed weapons at 2 slots, but the weapon table prints no column that marks which rows are two-handed."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Of 17 weapon rows, only Greatsword, Greataxe and Maul are resolvable to 2 slots via the Heavy Weapon tag; 5 rows (Halberd, Spear, Shortbow, Longbow, Crossbow) carry no marker, so their slot cost is unprintable."
+      }
+     ]
+    },
+    {
+     "id": "f-010",
+     "round": 2,
+     "speaker": "Speaker E",
+     "stance": "support",
+     "argument": "f-005 rests its defect on a premise the chapter's own table contradicts, so the claim overreaches. Its evidence says only properties, range and cost vary between the weapon rows; the Disciplines Required column instead carries thirteen distinct entries across seventeen rows, from blank (Unarmed) up to a stacked two-Discipline combination, and the chapter's Name Your Style callout teaches that column as the choice axis while explicitly refusing a size ladder behind it. The promised equivalence is also demonstrated in print rather than left asserted: the Melee Damage callout puts two named improvised objects on one shared damage line, and three gear rows at three different prices print that identical line, matching the basic unarmed card in the chapter that owns the attack cards. The Unarmed row prints empty cells and still resolves to the floor damage, which is the chapter's thesis stated in table form, since a per-row damage cell would print one constant number down every weapon row and convention 4 bars weapons from carrying damage at all. Teaching is present and sits where it belongs: opening framing, a six-entry properties list where every property is a trade-off with its owner list, the encumbrance worked load, and the charge-tier table. What would make this a defect instead: a column implying per-weapon power (a rating or bonus cell), a property with no trade-off, or rows that differ only in price with an identical permission cell. None of those exist. The one live gap is narrower and different in kind, and it is the part of f-005's own evidence that survives: the two-band range notation is printed in the Range column and repeated on the attack cards, and no chapter ever unpacks what the second number costs.",
+     "confidence": 0.74,
+     "rebutting": [
+      "f-005"
+     ],
+     "evidence": [
+      {
+       "source": "15-equipment",
+       "claim": "The weapon table declares five columns and the second is the most differentiated one. Parsing all seventeen rows yields thirteen distinct Disciplines Required entries, so f-005's premise that only properties, range and cost vary between rows is false."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The chapter ties the differing Discipline cells to identity and denies that the bigger requirement means bigger numbers, which is the lesson the table's principal varying column encodes."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The Melee Damage callout supplies exactly the demonstration f-005 says is absent: two distinct improvised objects are placed on one identical damage line."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "Three gear rows priced at 2 gp, 1 gp and 1 sp repeat that same improvised damage line in the chapter's own table, so differently costed objects demonstrably resolve to one row."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The Unarmed row shows the table deliberately carrying no numbers in the parity-relevant cells while still dealing defined damage, which is the flavour law expressed in table form."
+      },
+      {
+       "source": "09-talents-abilities",
+       "claim": "The chapter that owns the attack cards repeats the same floor damage on its unarmed basic attack and states that Disciplines buy card access rather than damage, so the teaching exists in the artifact readers actually use in play."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Worked count behind the rebuttal and the residual: seventeen rows give thirteen distinct Discipline cells, so the table's differentiating column is permission rather than paper power; the Thrown owner list names three weapons where four rows carry the property; and the two-band range notation appears only as data."
+      }
+     ]
+    }
+   ]
+  },
+  "t-03": {
+   "positions": {
+    "Speaker A": "refute",
+    "Speaker C": "refute"
+   },
+   "findings": [
+    {
+     "id": "f-002",
+     "round": 1,
+     "speaker": "Speaker A",
+     "stance": "refute",
+     "argument": "The Chases callout contradicts the chapter that owns resolution. Chapter 06 fixes the core roll as three six-sided dice plus attribute, skill and a DA-set difficulty, and settles opposed contests with a single roll by the acting side, the opponent's ability becoming Challenge while the opponent never rolls. The chase instead gives each side its own single die and a bonus scaled to the speed gap before tallying successes to three. That is a second resolution procedure, a second die, and a numeric bonus on a roll, in a book whose law keeps exactly three roll modifiers and routes situational advantage into Boon or Bane rather than a number. Chapter 14 shows the conforming shape for a race to three: one side's 3d6 tier result awards the successes, so both-sides-rolling has no precedent anywhere. Scoping the rule to vehicle pursuits does not exempt it, since ch06 does not carve out subsystems. Rebuild it on the core roll and Challenge.",
+     "confidence": 0.7,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "15-equipment",
+       "claim": "The chase resolves a pursuit with a per-side single die roll plus a bonus scaled to the speed difference, then counts successes to three."
+      },
+      {
+       "source": "06-core-resolution",
+       "claim": "The core roll is three six-sided dice plus attribute, skill and a DA-set difficulty, and the chapter presents it as the complete formula."
+      },
+      {
+       "source": "06-core-resolution",
+       "claim": "Opposed contests are one roll by the acting side; the other side's ability becomes Challenge and that side does not roll at all."
+      },
+      {
+       "source": "14-social-conflict",
+       "claim": "The book's other race to three successes is built on the acting side's 3d6 tier result awarding successes, not on a separate die per side."
+      },
+      {
+       "source": "reasoning",
+       "claim": "A speed differential is a situational factor, and the locked mechanics convert situational factors to Boon or Bane rather than adding a number to a roll."
+      }
+     ]
+    },
+    {
+     "id": "f-007",
+     "round": 1,
+     "speaker": "Speaker C",
+     "stance": "refute",
+     "argument": "Chapter 15 is the book's buying catalog, and almost none of it is registered in the lookup surfaces the book sends readers to. Counting the chapter's own tables: 17 weapons, 37 gear rows, 7 mounts and 8 vehicles are tabulated, and none of those 69 entries is registered in ch21 or ch22 (the one string the lookups share with the weapon table is Unarmed, used there as a Discipline name); the only item table in the tear-out sheet is the armor one, which does cover all 8 armor rows and the 3 shields. The weapon vocabulary fares the same way: of the six properties the chapter defines, only Finesse is a glossary headword, while Reach, Thrown, Loading, Light and the weapon sense of Versatile appear in neither lookup surface, and a reader who looks up Versatile lands on the Human ancestry trait instead. The chapter also spends a benefit on a term the book never defines: the Tent row names an exhaustion penalty that has no entry in either lookup surface and no rule anywhere else in the chapter sources, so the reader who buys a tent for that benefit cannot resolve what it does. Where a lookup sheet does carry a value from this chapter it disagrees with it: the derived-statistics table states the carry-slot formula with no floor, against the floor this chapter grants, so the same hero can leave character creation with fewer slots than the encumbrance rule allows. The fix is additive rather than structural: register the catalog and the properties in ch21 and ch22, add the floor to the derived-stat lookup, and either define the exhaustion penalty or restat the tent.",
+     "confidence": 0.7,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "15-equipment",
+       "claim": "The weapon table tabulates 17 rows and the properties list defines six named weapon properties; I checked every one of those names against both lookup surfaces, and no weapon entry is listed in ch21 or ch22, while only Finesse of the six properties is. The one string overlap is the word Unarmed, which appears in those two files as a Discipline type name, not as the weapon row."
+      },
+      {
+       "source": "21-glossary",
+       "claim": "The glossary's single weapon-property headword is Finesse; Reach, Thrown, Loading, Light and the weapon reading of Versatile have no entry, and the Versatile headword resolves to the Human ancestry trait rather than to the Longsword's property."
+      },
+      {
+       "source": "21-glossary",
+       "claim": "The glossary states that it covers the whole mechanical vocabulary of the book, which is the promise the reader relies on when stopping mid-scene to check a term; the equipment catalog of ch15 is outside that coverage except for two focus items listed as magic terms."
+      },
+      {
+       "source": "22-reference-sheets",
+       "claim": "The tear-out section titled for items holds one armor table and one shield table only: no weapon, gear row, mount or vehicle from ch15 appears anywhere in the sheet, so a player at the table has no quick-reference line for anything bought except armor and shields."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The Tent's benefit hangs on an exhaustion penalty for exposure; the word exhaustion appears in no other chapter source, neither lookup surface has an entry for it, and no rule in the book defines the penalty the tent is said to remove, so the reader who buys a tent for that benefit has nothing to resolve it against. The nearest miss elsewhere is the ordinary adjective exhausted used in prose."
+      },
+      {
+       "source": "02-character-creation",
+       "claim": "The derived-statistics table that a player uses while building a hero states the carry-slot formula without the floor this chapter grants, so a Brawn -2 hero is told to record zero slots at creation while ch15 guarantees a minimum of five; ch22 names Carry Slots as a derived statistic but prints no formula at all."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The encumbrance prose gives armor a flat slot band, but no armor row in this chapter's armor table and no row in the ch22 armor sheet carries a Slots column, so no single armor's slot cost can be resolved from any lookup surface."
+      }
+     ]
+    },
+    {
+     "id": "f-008",
+     "round": 2,
+     "speaker": "Speaker A",
+     "stance": "refute",
+     "argument": "I sustain f-002 on the Chases callout and reject the reading that it is a legitimate bounded exception. The chapter that owns resolution states the rule flatly: in a direct contest the acting character makes the roll, the other side's ability becomes the Challenge, and the target does not roll. It then extends that rule across the whole book, declaring that the opposed procedure governs wherever the book calls a contest opposed, with no carve-out for any subsystem. The chase names itself a simple contest yet has both sides throw a shared die each round with a bonus scaled to the speed gap, which is the retired both-sides-roll shape. I searched for a sanctioned second resolution die and found none. The book's only overland-travel rule reads a Survival roll against the ordinary tiers; downtime is a menu of declared stronghold and faction actions with no die at all; mass combat does not exist as a system; and every stray d6 in the corpus is a DA-facing oracle (encounter tables, monster recharge, regeneration, follower headcounts), never a player-facing contest. So no pursuit, travel, downtime, or mass-combat rule licenses a die other than 3d6, and scoping the rule to vehicles does not exempt it. A speed differential is a situational factor, and the locked law turns those into Boon or Bane while capping numeric roll modifiers at three, so pricing it in whole points fails twice. A vehicle chase is an open category rather than a purchased one-off, so it presents itself as the general rule and must conform. I also confirm f-007's carry-slot claim and sharpen where the fix belongs: ch03 defines carrying capacity with the floor and this chapter restates it with the floor, while ch22 names Carry Slots as a derived statistic but prints no formula. Only the character-creation derived-stat table prints the bare product. So ch02 is the outlier; the conforming edit lands in that table, and ch15 needs no change on this value.",
+     "confidence": 0.78,
+     "rebutting": [
+      "f-002",
+      "f-007"
+     ],
+     "evidence": [
+      {
+       "source": "15-equipment",
+       "claim": "The chase resolves a pursuit as a per-side single-die contest with a speed-scaled bonus, racing both sides to three successes."
+      },
+      {
+       "source": "06-core-resolution",
+       "claim": "The core chapter fixes a direct contest as one roll by the acting side, with the opponent's quality setting difficulty and the opponent never rolling."
+      },
+      {
+       "source": "06-core-resolution",
+       "claim": "The same chapter extends that procedure to the whole book and offers no carve-out for a subsystem, so a second die for chases is not sanctioned."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "The book's only overland-travel mechanic reads a Survival roll against the normal success tiers, not a separate die."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Auditing every non-3d6 roll in the chapter corpus, the lone d6 uses are DA-facing oracle tables (random encounters, monster recharge, regeneration, follower headcounts); none is a player-facing contested resolution, so no pursuit, travel, downtime, or mass-combat rule licenses an alternate resolution die."
+      },
+      {
+       "source": "03-attributes",
+       "claim": "The attributes chapter is a canon home for carrying capacity and states it with an explicit floor, so the floor is the book's value."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "This chapter restates the slot rule with the same floor, so it agrees with the attributes chapter rather than diverging from it."
+      },
+      {
+       "source": "02-character-creation",
+       "claim": "The character-creation derived-statistics table prints the carry-slot formula as the bare product with no floor, which is the site that disagrees with canon."
+      },
+      {
+       "source": "22-reference-sheets",
+       "claim": "The tear-out quick reference names Carry Slots as a derived statistic but prints no formula, so it neither states nor contradicts the floor."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "sealed_rulings": [],
+ "instruction": "You are a blind judge. You see ONLY the arguments as presented below. You have no access to, and no knowledge of, the underlying problem statement or sources. Speakers are anonymized: you see 'Speaker A', 'Speaker B', etc. Their roles, identities, and models are unknown and must not be inferred; weigh each argument on its merits alone. Rule on each contested topic. Output one ruling JSON object per topic, exactly matching the council ruling schema."
+}

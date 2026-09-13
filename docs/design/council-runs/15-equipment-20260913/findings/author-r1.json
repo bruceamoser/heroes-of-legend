@@ -1,0 +1,42 @@
+{
+  "id": "f-401",
+  "round": 1,
+  "role": "author",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "Chapter 15 states its central lesson and then never teaches it. The Weapons opener tells the reader to choose a weapon for fit rather than for how strong it looks on paper, and promises that every weapon resolves to the same damage. The section then hands the reader a weapon table with no damage column at all: the only cells that ever differ between rows are Properties, Range and Cost, which are precisely the paper signals the prose just told the reader to disregard. Because no column displays the sameness being asserted, the reader cannot see the lesson in the artifact they will actually use at the table, and the property glossary makes the same table read like a ladder, since individual weapons carry distinct mechanical tags (extended reach, a reload action, a thrown distance). The chapter also supplies no worked example that walks two different weapons through one shared damage row, even though a printed example is this book's stated requirement for a major mechanic and this chapter demonstrates its other mechanics (an encumbrance load, a charge tier table, a mount-death check). The one axis a reader might use to choose on feel, the two-number range notation, is never defined in this chapter or in the chapter that owns attacks, so the fiction-first reading has no footing either. Net effect: the prose rewards the reader who ignores the table, the table rewards the reader who studies it, and the second lesson is the one that lands. The fix is a demonstration, not a repricing: one short example resolving two weapons through a single card, or a column that prints the shared number.",
+  "evidence": [
+    {
+      "source": "15-equipment",
+      "claim": "The Weapons section instructs the reader to pick a weapon for fit rather than for how strong it looks on paper, and to treat the listed weapon list as a matter of identity rather than ranking.",
+      "quote_or_excerpt": "not the one that looks best on paper"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The weapon table declares five columns, and only properties, range and cost vary between rows; no damage column exists, so the equivalence the prose promises is never shown in the table the reader consults.",
+      "quote_or_excerpt": "[Weapon], [Disciplines Required], [Properties], [Range], [Cost]"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The property glossary gives named weapons distinct mechanical behaviour, such as extended attack distance, a reload action and a throwable distance, so the rows are not interchangeable on sight.",
+      "quote_or_excerpt": "Reach, can attack targets 10 ft away"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The weapons section carries no worked example of two weapons landing on one identical damage row, while the chapter's other mechanics are demonstrated in print, including an encumbrance load.",
+      "quote_or_excerpt": "A hero with Brawn +1 has 15 slots"
+    },
+    {
+      "source": "09-talents-abilities",
+      "claim": "The chapter that prints the basic ranged attack cards uses the same two-number range notation on its cards and also never unpacks the second value, so a reader has no stated cost for shooting past the first number.",
+      "quote_or_excerpt": "Range: 60/120 ft"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The defect is pedagogical, not a pricing or balance violation: the remedy is one short demonstration resolving two weapons through a single card, or a column printing the shared number, so the table stops reading as a ladder.",
+      "quote_or_excerpt": "fix with a demonstration, not a repricing"
+    }
+  ],
+  "confidence": 0.68,
+  "rebutting": []
+}

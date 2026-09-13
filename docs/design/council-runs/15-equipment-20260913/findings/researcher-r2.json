@@ -1,0 +1,79 @@
+{
+  "id": "f-903",
+  "round": 2,
+  "role": "researcher",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "f-005 is right about the missing column and wrong about the repair. A worked example adds no cell, so it cannot touch a defect that lives in the cells: pricing the weapons table as data, the table ranks its own rows. Under the strictest reading (same Discipline requirement; no worse on price, range or property set; strictly better on at least one) it yields exactly four dominated pairs - Shortbow over Longbow, Shortbow over Crossbow, Dagger over Shortsword, Spear over Halberd - and a demonstration would leave all four standing. The cheap repair is one cell per pair, and I re-ran the enumeration to verify each: Longbow range 60/120 to 100/200 ft keeps the 50 gp premium (4 pairs to 3); Crossbow Disciplines 1 Archery to None, or its price 25 to 20 gp (either, 4 to 3); Shortsword 10 to 1 gp, or Dagger 2 to 12 gp (either, 4 to 3); Halberd 20 to 9 gp (4 to 3). Two favourite fixes fail: repricing the Longbow to 25 gp alone just relocates the domination onto the Crossbow (the count stays 4, one pair swapped for another), and bolting an existing tag the Spear already owns (Thrown) onto the Halberd changes nothing, because a superset test is not satisfied by matching. Four cells - Longbow range, Crossbow price, Shortsword price, Halberd price - take the count to zero, and a six-cell package avoids every price-ladder inversion: Longbow 100/200 ft, Crossbow Discipline None, plus a seventh property tag on the Shortsword and on the Halberd with its glossary bullet each. Deletion is not the cheap route: dropping the Shortsword row forces edits to the two property bullets that name it, dropping the Halberd forces one. Scope caveat for the work estimate: the four pairs are the ones removable by cell edits, but a looser reading that treats a training requirement as a subset relation gives 19 pairs, since Unarmed (no requirement, 0 gp, no properties) then dominates six property-less melee rows. That residue is a system-level question about permission, not a table edit.\n\nThe encumbrance procedure has a second, larger hole, and it is the same shape: the prose states a rule the table cannot bound. The backpack occupies 2 person slots, costs 2 gp, and exempts 30 slots of contents; nothing in the book limits how many a hero wears. Capacity is therefore C + 28n for n packs: a Brawn -2 hero goes 5 slots, then 33 at 2 gp, 61 at 4 gp, 89 at 6 gp (17.8x base), and a Brawn +2 hero goes 20, 48, 76, 104. That is 0.071 gp per extra slot against 0.5 gp per slot for a bedroll, and by the sack row's own 1 slot equals 30 lbs equivalence, one 2 gp pack exempts 900 lbs where an 8 gp mule carries 400. Nesting is unbounded too: a stored pack eats 2 of the 30 inner slots, so each level multiplies exemptions by 15 - 16 packs (32 gp) carry 480 exempt slots, 241 packs (482 gp) carry 7,230. The pouch compounds it at 0 slots for 50 uncounted coins. Fix by capping the container rather than the ratio, one sentence in the Encumbrance section: \"Only one container at a time exempts its contents from your slots (a backpack or a sack, not both), and containers cannot be nested; every other container's contents count against your slots as normal.\" Verified residual after that cap: 33, 38, 43, 48 slots at one pack for Brawn -2, 0, +1, +2, a 6.6x lift at the bottom that is the design's own statement about what a pack is worth. If the council wants the ratio cut as well, shrinking the pack's internal capacity to 10 slots gives 13 slots at Brawn -2.\n\nOne further procedure gap of the same class, cheap to fix: the encumbrance rule prices two-handed weapons at 2 slots and most items at 1, and no weapon-table column says which rows are two-handed. Only the Heavy Weapon tag settles Greatsword, Greataxe and Maul, leaving 5 of 17 rows - Halberd, Spear, Shortbow, Longbow, Crossbow - whose slot cost a reader must guess.",
+  "evidence": [
+    {
+      "source": "15-equipment",
+      "claim": "The Shortbow row carries one Archery requirement, an empty properties cell, a 60/120 ft range and a 25 gp price.",
+      "quote_or_excerpt": "[Shortbow], [1 Archery], [], [60/120 ft], [25 gp]"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The Longbow row repeats that discipline, empty properties cell and range exactly, and charges double, so no column pays for the increase.",
+      "quote_or_excerpt": "[Longbow], [1 Archery], [], [60/120 ft], [50 gp]"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The Crossbow matches the Shortbow's discipline and price while carrying Loading and a shorter 20/60 ft range, so it is dominated on both range and properties.",
+      "quote_or_excerpt": "[Crossbow], [1 Archery], [Loading], [20/60 ft], [25 gp]"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The Dagger is a strict superset of the Shortsword at one fifth the price: same discipline, same Finesse and Light, plus Thrown with a 20/60 ft throw.",
+      "quote_or_excerpt": "[Dagger], [1 Blades], [Finesse, Light, Thrown]"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The Halberd and Spear share one Polearms requirement while the Spear adds Thrown and a 20/60 ft throw, so the dearer Halberd buys nothing back.",
+      "quote_or_excerpt": "[Halberd], [1 Polearms], [Reach], [], [20 gp]"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The weapons opener promises an identical hit outcome for every listed arm and names fit rather than table strength as the selection rule, which the cost and range cells contradict.",
+      "quote_or_excerpt": "They all hit the same; you are the one doing the hitting."
+    },
+    {
+      "source": "reasoning",
+      "claim": "Enumeration over all 272 ordered weapon pairs under the strict same-discipline test: 4 dominated pairs originally; 4 cells of edits (Longbow range, Crossbow price, Shortsword price, Halberd price) reduce that to 0; the Longbow price edit alone leaves 4, merely swapping one pair for a new one.",
+      "quote_or_excerpt": "4 pairs; 0 after 4 cells; Longbow 25 gp alone: 4"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The Backpack row gives 30 slots of exempt internal storage for 2 person slots and 2 gp, and no other line in the book caps how many a hero may wear.",
+      "quote_or_excerpt": "Holds up to 30 slots of gear."
+    },
+    {
+      "source": "reasoning",
+      "claim": "Effective slot capacity with n packs is C + 28n, so the printed floor of 5 becomes 33, 61 and 89 slots at 2, 4 and 6 gp for Brawn -2, and a Brawn +2 hero reaches 48, 76 and 104; nested packs multiply exemptions by 15 per level to 480 slots at 32 gp and 7,230 at 482 gp.",
+      "quote_or_excerpt": "C+28n: 5->33->61->89 (Brawn -2); nesting x15 per level"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The Pouch is a 0-slot container holding 50 uncounted coins, so the same count-free container rule undercuts the 100-coins-per-slot rule at no slot cost.",
+      "quote_or_excerpt": "Holds up to 50 coins or small items."
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The Sack carries the same contents-exemption clause, so any cap on container stacking must name sacks as well as backpacks.",
+      "quote_or_excerpt": "The sack takes 1 slot but its contents don't count"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The slot procedure prices two-handed weapons at 2 slots, but the weapon table prints no column that marks which rows are two-handed.",
+      "quote_or_excerpt": "Two-handed weapons take 2 slots"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Of 17 weapon rows, only Greatsword, Greataxe and Maul are resolvable to 2 slots via the Heavy Weapon tag; 5 rows (Halberd, Spear, Shortbow, Longbow, Crossbow) carry no marker, so their slot cost is unprintable.",
+      "quote_or_excerpt": "unresolvable: Halberd, Spear, Shortbow, Longbow, Crossbow = 5 of 17"
+    }
+  ],
+  "confidence": 0.82,
+  "rebutting": [
+    "f-005"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "f-901",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "The Chases callout contradicts the chapter that owns resolution. Chapter 06 fixes the core roll as three six-sided dice plus attribute, skill and a DA-set difficulty, and settles opposed contests with a single roll by the acting side, the opponent's ability becoming Challenge while the opponent never rolls. The chase instead gives each side its own single die and a bonus scaled to the speed gap before tallying successes to three. That is a second resolution procedure, a second die, and a numeric bonus on a roll, in a book whose law keeps exactly three roll modifiers and routes situational advantage into Boon or Bane rather than a number. Chapter 14 shows the conforming shape for a race to three: one side's 3d6 tier result awards the successes, so both-sides-rolling has no precedent anywhere. Scoping the rule to vehicle pursuits does not exempt it, since ch06 does not carve out subsystems. Rebuild it on the core roll and Challenge.",
+  "evidence": [
+    {
+      "source": "15-equipment",
+      "claim": "The chase resolves a pursuit with a per-side single die roll plus a bonus scaled to the speed difference, then counts successes to three.",
+      "quote_or_excerpt": "Each round, each side rolls 1d6."
+    },
+    {
+      "source": "06-core-resolution",
+      "claim": "The core roll is three six-sided dice plus attribute, skill and a DA-set difficulty, and the chapter presents it as the complete formula.",
+      "quote_or_excerpt": "3d6 + Attribute Modifier + Skill Bonus + Difficulty Modifier"
+    },
+    {
+      "source": "06-core-resolution",
+      "claim": "Opposed contests are one roll by the acting side; the other side's ability becomes Challenge and that side does not roll at all.",
+      "quote_or_excerpt": "The target never rolls."
+    },
+    {
+      "source": "14-social-conflict",
+      "claim": "The book's other race to three successes is built on the acting side's 3d6 tier result awarding successes, not on a separate die per side.",
+      "quote_or_excerpt": "First to 3 successes wins."
+    },
+    {
+      "source": "reasoning",
+      "claim": "A speed differential is a situational factor, and the locked mechanics convert situational factors to Boon or Bane rather than adding a number to a roll.",
+      "quote_or_excerpt": "Situational advantage converts, it does not add."
+    }
+  ],
+  "confidence": 0.7,
+  "rebutting": []
+}

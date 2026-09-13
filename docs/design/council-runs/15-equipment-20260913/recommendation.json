@@ -1,0 +1,45 @@
+{
+ "recommendation": "Disposition, chapter 15 Equipment (15-equipment.qmd, prints as Chapter XVII). The chapter is held NON-CONFORMING and must change. Apply the mechanical edits below exactly, then send the design calls to a human ruling.\n\nMECHANICAL, fix exactly:\n1. Weapon-table dominance, four strict pairs at the same Discipline requirement: Shortsword (15-equipment.qmd:32) is dominated by Dagger (:31); Halberd (:42) by Spear (:41); Longbow (:45) by Shortbow (:44); Crossbow (:46) by Shortbow. Minimum verified repair, four cells: Longbow Range 60/120 to 100/200 ft (:45); Crossbow Cost 25 to 20 gp (:46); Shortsword Cost 10 to 1 gp (:32); Halberd Cost 20 to 9 gp (:42). A six-cell variant (same Longbow range, Crossbow Discipline to None, plus a seventh property tag on Shortsword and on Halberd, each with its glossary bullet) also removes a price-ladder inversion; both packages were enumerated from 4 dominated pairs to 0. Repairs must be priced cell edits only: a worked example adds no cell and is barred by r-001.\n2. Chases callout (:283-284) resolves a pursuit with each side rolling 1d6 plus a Speed/10 bonus. Rebuild on the core roll (3d6, acting side rolls, the opponent's ability as Challenge) with the speed differential expressed as Boon or Bane; no per-side die, no numeric bonus.\n3. Two-band range notation (:31-46, and repeated on the attack cards): the second number is printed but defined nowhere in the book. Define it where the notation is home (09-talents-abilities, which prints it on its ranged cards).\n4. Tent (:165): its benefit hangs on an exhaustion penalty that is undefined in any chapter or lookup surface. Define the penalty or restat the Tent.\n5. Armor slot costs (:113 states a flat 2-4 slots; the armor table :84-101 carries no Slots column): make each armor's slot cost resolvable from a lookup surface.\n6. Two-handed weapon slot costs (:113; the weapon table :25-51 marks no two-handed rows): tag which rows are two-handed so the 2-slot cost resolves. Only Greatsword, Greataxe and Maul resolve via Heavy Weapon; Halberd, Spear, Shortbow, Longbow and Crossbow do not.\n7. Registration, additive: register the catalogued entries (17 weapons, 37 gear rows, 7 mounts, 8 vehicles) and the weapon properties in ch21 glossary and ch22 reference sheets. Only Finesse is a glossary headword; Versatile resolves to a Human ancestry trait instead; ch22's item sheet holds armor and shields only.\n8. Carried from the t-01 reject-majority, no sealed ruling covered them: Mounted vs. Foot -1 (attacks from the ground) and +1 (mounted attacks against a target on foot) at :246 are a fourth and fifth numeric roll modifier against the locked cap of three; convert to Bane and Boon and delete the unreachable cancellation clause. The Spyglass one-tier difficulty cut (:164) is the same unconverted shape ch13 already fixed for Blinded; convert it to a Boon and strike the six-point gloss.\n9. Layout, unruled: hand-placed pagebreaks strand a near-empty page (built PDF p235, Starting Gear callout, about 93 percent blank) and a half-empty page before Encumbrance (p228); the Figure 17.2 caption carries a stray trailing comma (:119). Fix the pagebreaks and the caption.\n\nDESIGN CALLS, need a human ruling:\nA. Container cap: Backpack (:135), Sack (:159) and Pouch (:155) grant unbounded exempt storage (effective capacity C + 28n, nesting without limit). No cap exists in the book; r-002 does not cover this, so decide whether to cap exempt storage.\nB. Repricing package: choose the four-cell minimum or the six-cell variant for the weapon table.\nC. Unaudited balance leads (the problem brief flags the game statistics as never balance-audited): Cart vs Chariot domination (:261/:264), Volatile Reagents reproducing the oil flask's effect at a hundredfold price (:168/:152), and the per-gold spread across mounts (:197-203). Pricing calls, not table defects.",
+ "rationale": "Topic t-01 (conformance to locked conventions) reached a reject-majority: four voting members refuted conformance (weapon-table dominance, the mounted numeric pair, the spyglass tier-cut, and the stranded page flow) against a reject quorum of 4, so the status quo must change and the topic closes on a disposition without a judge detour. The cell-level dominance it surfaced is carried into this disposition as repricing, per r-001, which bars a worked example as a repair and confines t-02's closure to the undefined second range band. Topic t-02 (internal procedure consistency) went to the blind judge; r-001 rejected the failure-to-teach proposition, since the opposing parse of the Disciplines Required column, the improvised-damage demonstration and the empty Unarmed row answer it, and recorded the parity lesson as demonstrated, while sustaining the one teaching defect both sides conceded: the two-band range notation. Topic t-03 (cross-chapter canon) also went to the judge; r-002 treated all five non-conforming rules as defects and ordered additive fixes, placing the carry-slot floor correction in ch02's derived-stat table rather than ch15, and left the container cap and the unaudited pricing leads outside its scope, which is why they appear here as design calls. Un-rebutted refutes with no ruling attached (the mounted modifiers, the spyglass, and the layout page flow) are carried as mechanical conversions rather than dropped.",
+ "resolved": [
+  {
+   "topic": "t-01",
+   "outcome": "Rejected by quorum: 4 refutes against a reject quorum of 4. The chapter is held non-conforming. Weapon-table dominance is carried to a priced-cell repricing matter; the mounted numeric pair and the spyglass tier-cut are carried as unruled mechanical conversions; the layout page-flow findings are carried unruled."
+  },
+  {
+   "topic": "t-02",
+   "outcome": "Ruled by r-001. The failure-to-teach proposition is rejected; the parity lesson is recorded as stated and demonstrated; a worked example is barred as a repair. The topic closes only on the undefined second number of the two-band range notation; weapon-table dominance is carried separately as a repricing matter."
+  },
+  {
+   "topic": "t-03",
+   "outcome": "Ruled by r-002. Five non-conforming rules are all treated as defects and fixed additively: rebuild the chase on the core roll, register the catalog and weapon properties in the lookup surfaces, move the carry-slot floor to the character-creation table, define the exhaustion penalty or restat the Tent, and make armor slot costs resolvable."
+  }
+ ],
+ "rulings_applied": [
+  "r-001",
+  "r-002"
+ ],
+ "dissent": [
+  {
+   "role": "contrarian",
+   "topic": "t-02",
+   "position": "The round-2 rebuttal succeeded: the Disciplines Required column carries thirteen distinct entries across seventeen rows, and the improvised-damage demonstration plus the empty Unarmed row show the parity lesson in print, so the table does not rank its rows and the failure-to-teach claim is refuted. Only the undefined second range band survives as a teaching gap."
+  },
+  {
+   "role": "author",
+   "topic": "t-02",
+   "position": "Surviving narrower point: the chapter defines the two-band range notation nowhere and prints no column or worked example that displays the shared damage, so a reader choosing on feel has no footing. The repair is a definition, not a repricing."
+  },
+  {
+   "role": "layout-expert",
+   "topic": "t-01",
+   "position": "Page-flow and caption findings survive with no ruling covering them: a hand-placed pagebreak strands the Starting Gear callout on a page about 93 percent blank (built PDF p235) and leaves a half-empty page before Encumbrance (p228), and the Figure 17.2 caption carries a stray trailing comma. These must not be lost."
+  },
+  {
+   "role": "game-architect",
+   "topic": "t-01",
+   "position": "The Mounted vs. Foot -1/+1 pair (a fourth and fifth numeric roll modifier against the locked cap of three) and the Spyglass one-tier cut are un-rebutted but were not addressed by any sealed ruling; they stand as carried mechanical conversions."
+  }
+ ],
+ "confidence": 0.85
+}
