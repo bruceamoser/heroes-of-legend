@@ -1,0 +1,87 @@
+{
+  "id": "f-409",
+  "round": 2,
+  "role": "researcher",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "Round-2 recomputation against each value's canon home. Corroborated: f-002 in full, and f-001 on its source half only. Broken: the invariant half of f-001. The DR bound is keyed to the defender's band, not to whichever creature happens to swing. Two sources settle that: the law's own corollary is level-keyed, and Iron Skin's rungs sit one under the Weak value of the band matching the rank at which they unlock, so a sanctioned Master rung of 8 still floors a Novice row and cannot be a per-attacker bound. The chapter's own healing variants print its three rarities on three rows, which makes the band a Very Rare card lands in the Master row, whose Weak value is 9. The plate's flat 7 therefore sits inside its own band; it only bites against the lower rows it may still meet, and no bounded exception shields a worn item, since the only DR carve-outs canon names are creature-side. f-003 keeps its source point and the unstated halving order, but its Novice arithmetic credits the merge to the item's 2 when 2 alone leaves 1/2/4 and only the Shield Block downgrade stacked on top yields 1/1/2; its Master example is weaker still, since reduce-then-halve returns 1/4/7, three live tiers. f-005's counts recheck (eighteen granted-power lines; one roll at :442) but its framing fails: a bare no-modifier 3d6 is already a printed book shape for morale and for the death's-door roll, so :442 is no isolated conflict and deleting it would strip a sanctioned pattern. The live divergence is the guide's blanket attribute-plus-skill clause set against the catalog opener and the potion line, and f-005's eighteen-minus-three subtraction is off by one because the three it excludes do not include the potion. f-007's middle band does overrun canon for four heroes: twelve permanents across levels 4-6, four per level against a ceiling of two, and past the level-3 total before any consumable. Its cleaner claims slip, though: the first band already mixes a per-hero and a per-party allocation inside one bullet, so the scale flip is not the third band's alone, and its five named permanents already sit at the level-3 top before a single potion. f-006 gets both shares right (36.54 for the tag column, 13.46 for the prose column) and still misattributes, because the narrowest column is Item at 11.54, not the prose one; its page-level half cites a PDF absent from this run's sources, so it is unverifiable here. Stance is refute on cross-chapter canon.",
+  "confidence": 0.74,
+  "rebutting": ["f-001", "f-002", "f-003", "f-005", "f-006", "f-007"],
+  "evidence": [
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The chapter that owns DR states in its opening that a hero's reduction is trained, so worn gear is not its source.",
+      "quote_or_excerpt": "Damage Reduction comes from your talents, not from your gear."
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "A shield is defined as an active reaction that lowers a landed hit's tier, never as a passive reduction number.",
+      "quote_or_excerpt": "Reduce the damage tier by one step"
+    },
+    {
+      "source": "15-equipment.qmd",
+      "claim": "The equipment chapter repeats that the reduction number comes from talents and abilities rather than armour.",
+      "quote_or_excerpt": "comes from your talents and abilities, not from your armor"
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "The reference chapter excludes shields as a source of a hero's reduction outright.",
+      "quote_or_excerpt": "comes from talents such as Iron Skin, never from a shield"
+    },
+    {
+      "source": "09-talents-abilities.qmd",
+      "claim": "Iron Skin prints rungs of 2, 5 and 8 on a talent card, so the sanctioned hero ceiling is 8 and it rides on training, not on an object.",
+      "quote_or_excerpt": "You have DR 8"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The shield card's passive hands its wearer a flat gear-sourced 2 points of reduction.",
+      "quote_or_excerpt": "The shield grants DR 2"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The plate card's passive prints a flat 7 on a worn heavy-armour entry.",
+      "quote_or_excerpt": "Passive: DR 7"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The chapter's own healing variants place its three rarities on three different rows, so Very Rare maps to the Master row.",
+      "quote_or_excerpt": "Superior Healing (Very Rare, 9/15/21 HP)"
+    },
+    {
+      "source": "06-core-resolution.qmd",
+      "claim": "DR is subtracted from the damage value of a landed hit, and the book's worked example pairs an Adept-rung DR with the Adept row, sizing the number against the band matching its rank.",
+      "quote_or_excerpt": "the Knight's Strong damage of 12"
+    },
+    {
+      "source": "13-combat.qmd",
+      "claim": "A no-modifier 3d6 is a printed book-wide shape: the morale check uses it, and so does the roll made each round at zero HP.",
+      "quote_or_excerpt": "rolls 3d6 with no modifiers"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The potion's line forbids any modifier, while the guide demands the attribute and the skill and the catalog opener names the attribute alone, so the chapter states its procedure three ways.",
+      "quote_or_excerpt": "no modifiers, the potion's magic, not your skill"
+    },
+    {
+      "source": "19-gm-guidance.qmd",
+      "claim": "The GM chapter fixes item flow at one or two per level for the whole party and rejects the per-character unit.",
+      "quote_or_excerpt": "1\u20132 per level, per party"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The middle placement band hands each hero three permanents across a three-level window, and the third band pools one rarest item for the party while the first band mixes both units.",
+      "quote_or_excerpt": "Two Uncommon, one Rare per hero"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The Discipline Items table declares five width shares, and its widest column holds two-token tags while its prose column is narrower.",
+      "quote_or_excerpt": "(11.54%, 15.38%, 23.08%, 36.54%, 13.46%)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Party-of-four arithmetic: three permanents per hero become twelve across levels 4-6, four per level against the canonical ceiling of two and against the canonical three-to-six total at level three, while the tag column takes 36.54 percent and the prose column 13.46, leaving the narrowest column at 11.54.",
+      "quote_or_excerpt": "12 permanents / 3 levels = 4 per level; ceiling 2"
+    }
+  ]
+}

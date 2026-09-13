@@ -1,0 +1,52 @@
+{
+  "id": "f-407",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "Framed as a publishable unit, 17-magic-items.qmd delivers its central promise: 22 named cards, found rather than sold, with no price list anywhere. The failure is in the single note that tells a DA when to hand them out. The closing callout at 17-magic-items.qmd:532-537 is the chapter's only numeric placement guidance, and its middle band contradicts the book's canonical treasure pacing. That band allocates the level 4-6 range as three permanents for every individual hero, while 19-gm-guidance.qmd:71 fixes the book's flow as one or two items per level for the whole party and explicitly rules out the per-character unit. For a party of four the band yields twelve permanents across three levels, four per level against a stated ceiling of two; read as a by-level-six total it still lands on that chapter's ceiling of twelve before a single potion or scroll is counted. The note's other two bands both sit inside the GM chapter's range, so the middle band is an outlier rather than a deliberate high-magic dial, and the note also flips scale internally, measuring the first two bands per hero and the third per party, which leaves a DA unable to tell which scale the list runs at. Minimal fix: restate all three bands in per-party terms and bring the 4-6 band into the canonical one-to-two-per-level band, or relabel it explicitly as an optional generous-flow variant rather than the default rule of thumb.",
+  "evidence": [
+    {
+      "source": "17-magic-items",
+      "claim": "The chapter's closing note is addressed to the DA and presents itself as the default rule of thumb for item flow, making it the chapter's placement instrument rather than flavor.",
+      "quote_or_excerpt": "The DA controls the flow of magic items"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The chapter's rarity ladder says rarity sets both frequency and the level of entry, yet prints no rate of its own, so the closing note is the only numeric placement guidance in the chapter.",
+      "quote_or_excerpt": "Rarity governs how often these appear"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "Band one measures its allocation per hero.",
+      "quote_or_excerpt": "One Uncommon item per hero"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "Band two is the outlier: it hands each hero three permanent items inside a three-level window.",
+      "quote_or_excerpt": "Two Uncommon, one Rare per hero"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "Band three switches scale and pools its rarest item for the whole party, so the note changes unit partway down its own list.",
+      "quote_or_excerpt": "one Very Rare for the party"
+    },
+    {
+      "source": "19-gm-guidance.qmd",
+      "claim": "The GM chapter is where the book defines item flow, and it rejects the per-character unit outright.",
+      "quote_or_excerpt": "Not per character, per party"
+    },
+    {
+      "source": "19-gm-guidance.qmd",
+      "claim": "The canonical rate is one or two items per level for the party, and its worked example expects a party of four to hold three to six items at level three.",
+      "quote_or_excerpt": "maybe three to six magic items total"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Arithmetic for a party of four: three items per hero over the three levels of band two is twelve items, four per level against a stated ceiling of two. Counted cumulatively to level six it still reaches twelve before consumables, which is that ceiling's top end with nothing left for potions and scrolls, and bands one and three both sit inside the same range, isolating band two.",
+      "quote_or_excerpt": "12 items over 3 levels = 4 per level, cap 2"
+    }
+  ],
+  "confidence": 0.64,
+  "rebutting": []
+}

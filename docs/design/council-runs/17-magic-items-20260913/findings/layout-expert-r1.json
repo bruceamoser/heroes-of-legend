@@ -1,0 +1,52 @@
+{
+  "id": "f-406",
+  "round": 1,
+  "role": "layout-expert",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "17-magic-items.qmd:514-530: the Discipline Items table hands its width shares to the wrong two columns, and the built page shows the damage. Five columns are declared, and the fourth (the Discipline Granted field, line 516) is given the largest share at 36.54 percent even though every value in it is a two-word tag such as a single Discipline name. The fifth column, Notes, which carries a full descriptive sentence in every row, is left the smallest share at 13.46 percent. On PDF pages 271-272 that inverts the visual weight: the Discipline column sits as nearly blank whitespace while the Notes cells break every two or three characters and hyphenate mid-word, splitting 'crystallized' across lines, and one note finishes as a five-line orphan after its row is cut by the page turn. Every one-sentence note stretches its row to roughly an inch of column height, and the table then spills onto a second page it would otherwise fit on, header repeating. Fix: move width from column four to column five (roughly Item 12, Rarity 14, Attunement 17, Discipline Granted 14, Notes 43), which keeps the short tag columns compact and lets the prose breathe on a single page. Presentation only; no rule text or wording changes. Compare the chapter's own card tables at pages 258-269, which use a two-column split and keep every effect cell inside three lines.",
+  "confidence": 0.82,
+  "rebutting": [],
+  "evidence": [
+    {
+      "source": "17-magic-items",
+      "claim": "The Discipline Items table declares five columns; the fourth, holding short two-word tags, gets the largest share, while the fifth, holding each row's descriptive prose, gets the smallest.",
+      "quote_or_excerpt": "columns: (11.54%, 15.38%, 23.08%, 36.54%, 13.46%)"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The declared header order confirms which column carries the prose: the final one is the Notes field and the wide fourth column is the short-tag Discipline Granted field.",
+      "quote_or_excerpt": "[Item], [Rarity], [Attunement], [Discipline Granted], [Notes]"
+    },
+    {
+      "source": "Heroes-of-Legend.pdf",
+      "claim": "Page 271 shows the squeezed final column forcing a brief descriptive note to break inside a word and print across five ragged lines.",
+      "quote_or_excerpt": "A crystal-\nlized drop\nof elemental\nwater. Never"
+    },
+    {
+      "source": "Heroes-of-Legend.pdf",
+      "claim": "The same squeeze pushes one row across the page turn: the Saint's Reliquary note begins at the foot of page 271 and finishes as four short lines at the top of page 272.",
+      "quote_or_excerpt": "vestment\nfrom a de-\nparted holy\nfigure."
+    },
+    {
+      "source": "Heroes-of-Legend.pdf",
+      "claim": "On page 271 the wide Discipline Granted column prints only two-word values under its header while the Notes column does all the wrapping, so the fault is the width allocation rather than a table too wide for the measure.",
+      "quote_or_excerpt": "Granted ... 1 Fire ... 1 Water"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The chapter's own item-card tables use a two-column split and keep each effect cell to three lines or fewer across pages 258-269, so the wrapping is specific to this table's width allocation and not a book-wide table style.",
+      "quote_or_excerpt": "columns: (61.90%, 38.10%)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Rebalancing so the prose column takes the large share and the tag columns take small shares keeps all seven rows on one page and needs no change to any rule or wording.",
+      "quote_or_excerpt": "Notes 43 percent, Discipline Granted 14 percent"
+    },
+    {
+      "source": "reasoning",
+      "claim": "I also swept the chapter's other render surfaces and found nothing worth filing: no dash glyphs in the prose, no skipped heading level, every item at the same card level, and the drifting tables repeat their header across their break at pages 266-267.",
+      "quote_or_excerpt": "no em-dashes, no skipped level, header repeats"
+    }
+  ]
+}

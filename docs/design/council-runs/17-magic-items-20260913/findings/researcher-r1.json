@@ -1,0 +1,37 @@
+{
+  "id": "f-402",
+  "round": 1,
+  "role": "researcher",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "17-magic-items.qmd:356 gives the Spellguard Shield, a Type: Shield card, a passive that grants DR 2. The canon home for a hero's DR is not this chapter: 16-armor-shields.qmd:13 and its own shield worked example at :108 both state the number is trained, never worn, and 15-equipment.qmd:221 repeats that the reduction comes from talents and abilities rather than armour. 09-talents-abilities.qmd:59-63 puts the only shipped hero DR ladder (2/5/8) on the Iron Skin talent, and the locked shield convention bars a shield from granting DR at all (convention 6). So this row is an exception that re-opens a DR source the rest of the book closes. Note the magnitude 2 sits exactly at the Novice Weak value, so it would not collapse damage tiers: the defect is the source of the DR, not the size of the number. Adamantine Plate at 17-magic-items.qmd:380 makes the same move from armour and is worth the council's parallel attention.",
+  "confidence": 0.85,
+  "rebutting": [],
+  "evidence": [
+    {
+      "source": "17-magic-items",
+      "claim": "The Spellguard Shield is typed as a shield and its passive grants DR 2.",
+      "quote_or_excerpt": "The shield grants DR 2."
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The armour chapter states hero DR comes from training rather than from worn gear, making armour an illegal DR source.",
+      "quote_or_excerpt": "Damage Reduction comes from your talents, not from your gear"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "Its own shield worked example says the shield's value is Shield Block while the DR is attributed to Iron Skin, not the shield.",
+      "quote_or_excerpt": "the DR comes from Iron Skin and not from the board"
+    },
+    {
+      "source": "09-talents-abilities",
+      "claim": "Iron Skin carries the shipped hero DR ladder, opening at 2 at Novice rank.",
+      "quote_or_excerpt": "Novice: You have DR 2."
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The equipment chapter restates that the DR number comes from talents and abilities, not armour.",
+      "quote_or_excerpt": "comes from your talents and abilities, not from your armor"
+    }
+  ]
+}

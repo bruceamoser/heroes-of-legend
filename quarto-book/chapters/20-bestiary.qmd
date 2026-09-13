@@ -239,7 +239,7 @@ HP 22, DR 6 (plate).
 
 #image("assets/images/page108-img045.jpeg", width: 60%)
 
-_Figure 22.2: Bestiary,_
+_Figure 22.2: Bestiary_
 
 _Placeholder for final art._
 #pagebreak()

@@ -1,0 +1,241 @@
+{
+ "assembled_at": "2026-09-13T20:24:57Z",
+ "wall": {
+  "ngram_n": 10,
+  "reject_at": 1
+ },
+ "contested_topics": {
+  "t-02": {
+   "positions": {
+    "Speaker B": "refute",
+    "Speaker C": "refute"
+   },
+   "findings": [
+    {
+     "id": "f-004",
+     "round": 1,
+     "speaker": "Speaker B",
+     "stance": "refute",
+     "argument": "17-magic-items.qmd:68-82 ships two Uncommon cloaks that spend one of the same three attunement slots on the same core passive. Cloak of Elvenkind gates its Stealth Boon behind wild terrain; Veilwalker's Shroud grants the identical Boon with no setting qualifier and bolts a once-per-encounter teleport on top, so at equal rarity and equal slot cost the Elvenkind card is strictly dominated and no player has a reason to take it. The two entries also recycle one stock sentence shape, the raised hood followed by the world forgetting you, which undercuts this chapter's own opening promise that each item is a named, distinct card rather than filler. Minimal fix: differentiate the Shroud's passive by tying it to dim light or shadow, or lift its rarity, and rewrite one of the two hood lines so the cards stop echoing each other.",
+     "confidence": 0.66,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "17-magic-items",
+       "claim": "Both cloaks print the same rarity, attunement, and Type."
+      },
+      {
+       "source": "17-magic-items",
+       "claim": "One Boon is terrain-gated while the other carries no setting limit."
+      },
+      {
+       "source": "17-magic-items",
+       "claim": "The unrestricted cloak also adds a repositioning power the other lacks."
+      },
+      {
+       "source": "17-magic-items",
+       "claim": "Both flavor lines reuse the hood-and-forgetting image back to back."
+      },
+      {
+       "source": "reasoning",
+       "claim": "A strictly dominated card at the same rarity contradicts the uniqueness framing, because no roster slot ever rewards picking it."
+      }
+     ]
+    },
+    {
+     "id": "f-005",
+     "round": 1,
+     "speaker": "Speaker C",
+     "stance": "refute",
+     "argument": "Chapter 17's declared entry format does not survive contact with its own items. The reading guide at 17-magic-items:28 states that a granted power is resolved on one 3d6 using the hero's attribute and the matching skill; the catalog's opening line at :42 restates the same procedure with the skill dropped; and the Potion of Healing, the one entry in the chapter that spells out its own roll, takes a third form at :442, a bare 3d6 allowing no modifiers at all, explicitly cutting the skill out. The Elixir card printed immediately after it at :466 carries success-tier rows for its cone and names no roll whatever, so the chapter's two sibling consumables answer the same procedural question two different ways. Every other granted power in the chapter inherits the guide's version, which leaves the Potion as the single item-level statement of the procedure and the single point of conflict: a table working from :28 and a table working from :442 resolve the same vial differently, and the chapter supplies no tiebreak. Least fix that closes it: either strike the parenthetical at :442 so the Potion inherits the shared rule, or carve consumables out of :28 and bring :42 into line; one of the three statements has to go, because as printed the chapter's own card contract is not self-consistent and the field it promises for how an item is activated is contradicted by the only entry that fills it in.",
+     "confidence": 0.6,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "17-magic-items",
+       "claim": "The reading guide fixes the resolution of any granted, activated power as a 3d6 that carries both the hero's attribute and the relevant skill."
+      },
+      {
+       "source": "17-magic-items",
+       "claim": "The catalog's introduction restates the same procedure for activated powers but mentions only the attribute, leaving the skill out."
+      },
+      {
+       "source": "17-magic-items",
+       "claim": "The Potion of Healing's Drink maneuver is the only granted power in the chapter that prints its own roll, and that roll permits no modifiers, dropping the skill the guide requires."
+      },
+      {
+       "source": "17-magic-items",
+       "claim": "The Elixir of Dragon's Breath, placed right after the Potion, supplies success-tier rows for its cone yet never names a roll, so the two consumables diverge on the procedure."
+      },
+      {
+       "source": "reasoning",
+       "claim": "I counted the chapter's granted-power lines: eighteen entries, of which the Locket and the Deck declare themselves roll-free and the Immovable Rod sets a fixed Brawn difficulty, leaving fourteen that print a table without naming a roll. Those fourteen lean on the guide's blanket procedure, so the Potion's parenthetical is the only competing item-level statement of it in the chapter."
+      }
+     ]
+    }
+   ]
+  },
+  "t-03": {
+   "positions": {
+    "Speaker A": "refute",
+    "Speaker D": "refute"
+   },
+   "findings": [
+    {
+     "id": "f-002",
+     "round": 1,
+     "speaker": "Speaker A",
+     "stance": "refute",
+     "argument": "17-magic-items.qmd:356 gives the Spellguard Shield, a Type: Shield card, a passive that grants DR 2. The canon home for a hero's DR is not this chapter: 16-armor-shields.qmd:13 and its own shield worked example at :108 both state the number is trained, never worn, and 15-equipment.qmd:221 repeats that the reduction comes from talents and abilities rather than armour. 09-talents-abilities.qmd:59-63 puts the only shipped hero DR ladder (2/5/8) on the Iron Skin talent, and the locked shield convention bars a shield from granting DR at all (convention 6). So this row is an exception that re-opens a DR source the rest of the book closes. Note the magnitude 2 sits exactly at the Novice Weak value, so it would not collapse damage tiers: the defect is the source of the DR, not the size of the number. Adamantine Plate at 17-magic-items.qmd:380 makes the same move from armour and is worth the council's parallel attention.",
+     "confidence": 0.85,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "17-magic-items",
+       "claim": "The Spellguard Shield is typed as a shield and its passive grants DR 2."
+      },
+      {
+       "source": "16-armor-shields",
+       "claim": "The armour chapter states hero DR comes from training rather than from worn gear, making armour an illegal DR source."
+      },
+      {
+       "source": "16-armor-shields",
+       "claim": "Its own shield worked example says the shield's value is Shield Block while the DR is attributed to Iron Skin, not the shield."
+      },
+      {
+       "source": "09-talents-abilities",
+       "claim": "Iron Skin carries the shipped hero DR ladder, opening at 2 at Novice rank."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The equipment chapter restates that the DR number comes from talents and abilities, not armour."
+      }
+     ]
+    },
+    {
+     "id": "f-007",
+     "round": 1,
+     "speaker": "Speaker D",
+     "stance": "refute",
+     "argument": "Framed as a publishable unit, 17-magic-items.qmd delivers its central promise: 22 named cards, found rather than sold, with no price list anywhere. The failure is in the single note that tells a DA when to hand them out. The closing callout at 17-magic-items.qmd:532-537 is the chapter's only numeric placement guidance, and its middle band contradicts the book's canonical treasure pacing. That band allocates the level 4-6 range as three permanents for every individual hero, while 19-gm-guidance.qmd:71 fixes the book's flow as one or two items per level for the whole party and explicitly rules out the per-character unit. For a party of four the band yields twelve permanents across three levels, four per level against a stated ceiling of two; read as a by-level-six total it still lands on that chapter's ceiling of twelve before a single potion or scroll is counted. The note's other two bands both sit inside the GM chapter's range, so the middle band is an outlier rather than a deliberate high-magic dial, and the note also flips scale internally, measuring the first two bands per hero and the third per party, which leaves a DA unable to tell which scale the list runs at. Minimal fix: restate all three bands in per-party terms and bring the 4-6 band into the canonical one-to-two-per-level band, or relabel it explicitly as an optional generous-flow variant rather than the default rule of thumb.",
+     "confidence": 0.64,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "17-magic-items",
+       "claim": "The chapter's closing note is addressed to the DA and presents itself as the default rule of thumb for item flow, making it the chapter's placement instrument rather than flavor."
+      },
+      {
+       "source": "17-magic-items",
+       "claim": "The chapter's rarity ladder says rarity sets both frequency and the level of entry, yet prints no rate of its own, so the closing note is the only numeric placement guidance in the chapter."
+      },
+      {
+       "source": "17-magic-items",
+       "claim": "Band one measures its allocation per hero."
+      },
+      {
+       "source": "17-magic-items",
+       "claim": "Band two is the outlier: it hands each hero three permanent items inside a three-level window."
+      },
+      {
+       "source": "17-magic-items",
+       "claim": "Band three switches scale and pools its rarest item for the whole party, so the note changes unit partway down its own list."
+      },
+      {
+       "source": "19-gm-guidance.qmd",
+       "claim": "The GM chapter is where the book defines item flow, and it rejects the per-character unit outright."
+      },
+      {
+       "source": "19-gm-guidance.qmd",
+       "claim": "The canonical rate is one or two items per level for the party, and its worked example expects a party of four to hold three to six items at level three."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Arithmetic for a party of four: three items per hero over the three levels of band two is twelve items, four per level against a stated ceiling of two. Counted cumulatively to level six it still reaches twelve before consumables, which is that ceiling's top end with nothing left for potions and scrolls, and bands one and three both sit inside the same range, isolating band two."
+      }
+     ]
+    },
+    {
+     "id": "f-009",
+     "round": 2,
+     "speaker": "Speaker A",
+     "stance": "refute",
+     "argument": "Round-2 recomputation against each value's canon home. Corroborated: f-002 in full, and f-001 on its source half only. Broken: the invariant half of f-001. The DR bound is keyed to the defender's band, not to whichever creature happens to swing. Two sources settle that: the law's own corollary is level-keyed, and Iron Skin's rungs sit one under the Weak value of the band matching the rank at which they unlock, so a sanctioned Master rung of 8 still floors a Novice row and cannot be a per-attacker bound. The chapter's own healing variants print its three rarities on three rows, which makes the band a Very Rare card lands in the Master row, whose Weak value is 9. The plate's flat 7 therefore sits inside its own band; it only bites against the lower rows it may still meet, and no bounded exception shields a worn item, since the only DR carve-outs canon names are creature-side. f-003 keeps its source point and the unstated halving order, but its Novice arithmetic credits the merge to the item's 2 when 2 alone leaves 1/2/4 and only the Shield Block downgrade stacked on top yields 1/1/2; its Master example is weaker still, since reduce-then-halve returns 1/4/7, three live tiers. f-005's counts recheck (eighteen granted-power lines; one roll at :442) but its framing fails: a bare no-modifier 3d6 is already a printed book shape for morale and for the death's-door roll, so :442 is no isolated conflict and deleting it would strip a sanctioned pattern. The live divergence is the guide's blanket attribute-plus-skill clause set against the catalog opener and the potion line, and f-005's eighteen-minus-three subtraction is off by one because the three it excludes do not include the potion. f-007's middle band does overrun canon for four heroes: twelve permanents across levels 4-6, four per level against a ceiling of two, and past the level-3 total before any consumable. Its cleaner claims slip, though: the first band already mixes a per-hero and a per-party allocation inside one bullet, so the scale flip is not the third band's alone, and its five named permanents already sit at the level-3 top before a single potion. f-006 gets both shares right (36.54 for the tag column, 13.46 for the prose column) and still misattributes, because the narrowest column is Item at 11.54, not the prose one; its page-level half cites a PDF absent from this run's sources, so it is unverifiable here. Stance is refute on cross-chapter canon.",
+     "confidence": 0.74,
+     "rebutting": [
+      "f-001",
+      "f-002",
+      "f-003",
+      "f-005",
+      "f-006",
+      "f-007"
+     ],
+     "evidence": [
+      {
+       "source": "16-armor-shields.qmd",
+       "claim": "The chapter that owns DR states in its opening that a hero's reduction is trained, so worn gear is not its source."
+      },
+      {
+       "source": "16-armor-shields.qmd",
+       "claim": "A shield is defined as an active reaction that lowers a landed hit's tier, never as a passive reduction number."
+      },
+      {
+       "source": "15-equipment.qmd",
+       "claim": "The equipment chapter repeats that the reduction number comes from talents and abilities rather than armour."
+      },
+      {
+       "source": "22-reference-sheets.qmd",
+       "claim": "The reference chapter excludes shields as a source of a hero's reduction outright."
+      },
+      {
+       "source": "09-talents-abilities.qmd",
+       "claim": "Iron Skin prints rungs of 2, 5 and 8 on a talent card, so the sanctioned hero ceiling is 8 and it rides on training, not on an object."
+      },
+      {
+       "source": "17-magic-items",
+       "claim": "The shield card's passive hands its wearer a flat gear-sourced 2 points of reduction."
+      },
+      {
+       "source": "17-magic-items",
+       "claim": "The plate card's passive prints a flat 7 on a worn heavy-armour entry."
+      },
+      {
+       "source": "17-magic-items",
+       "claim": "The chapter's own healing variants place its three rarities on three different rows, so Very Rare maps to the Master row."
+      },
+      {
+       "source": "06-core-resolution.qmd",
+       "claim": "DR is subtracted from the damage value of a landed hit, and the book's worked example pairs an Adept-rung DR with the Adept row, sizing the number against the band matching its rank."
+      },
+      {
+       "source": "13-combat.qmd",
+       "claim": "A no-modifier 3d6 is a printed book-wide shape: the morale check uses it, and so does the roll made each round at zero HP."
+      },
+      {
+       "source": "17-magic-items",
+       "claim": "The potion's line forbids any modifier, while the guide demands the attribute and the skill and the catalog opener names the attribute alone, so the chapter states its procedure three ways."
+      },
+      {
+       "source": "19-gm-guidance.qmd",
+       "claim": "The GM chapter fixes item flow at one or two per level for the whole party and rejects the per-character unit."
+      },
+      {
+       "source": "17-magic-items",
+       "claim": "The middle placement band hands each hero three permanents across a three-level window, and the third band pools one rarest item for the party while the first band mixes both units."
+      },
+      {
+       "source": "17-magic-items",
+       "claim": "The Discipline Items table declares five width shares, and its widest column holds two-token tags while its prose column is narrower."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Party-of-four arithmetic: three permanents per hero become twelve across levels 4-6, four per level against the canonical ceiling of two and against the canonical three-to-six total at level three, while the tag column takes 36.54 percent and the prose column 13.46, leaving the narrowest column at 11.54."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "sealed_rulings": [],
+ "instruction": "You are a blind judge. You see ONLY the arguments as presented below. You have no access to, and no knowledge of, the underlying problem statement or sources. Speakers are anonymized: you see 'Speaker A', 'Speaker B', etc. Their roles, identities, and models are unknown and must not be inferred; weigh each argument on its merits alone. Rule on each contested topic. Output one ruling JSON object per topic, exactly matching the council ruling schema."
+}
