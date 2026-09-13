@@ -151,7 +151,7 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
   table.header([Result], [Outcome],),
   [*Strong (15+)*], [Stabilize at 1 HP],
   [*Standard (9-14)*], [Unconscious, stable],
-  [*Weak (1-8)*], [You're still dying. The end draws nearer.],
+  [*Weak (1-8)*], [You worsen. Mark a failure. At three failures, you die.],
   [*Fumble (Three natural 1s)*], [Death],
   [*Critical (Three natural 6s)*], [Wake at half HP],
 )], kind: table, numbering: none, outlined: false)
@@ -161,10 +161,9 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
 #figure(align(center)[#table(
   columns: (29.17%, 70.83%),
   align: (auto, auto,),
-  table.header([Cover], [Attacker Penalty],),
+  table.header([Cover], [Effect],),
   [Half cover], [Bane],
-  [Three-quarters], [Bane],
-  [Full cover], [Cannot target],
+  [Full cover], [Triple Bane],
 )], kind: table, numbering: none, outlined: false)
 
 #pagebreak()
