@@ -1,0 +1,77 @@
+{
+  "id": "f-410",
+  "round": 2,
+  "role": "librarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Round-1 ledger weighed: I sustain six filings as defect statements resolving to four distinct faults, and I mark one as a design call rather than a defect. f-001, f-002 and f-003 collapse into a single root fault, a card typed as worn armour or as a shield printing a flat reduction, filed twice over two item instances; the disposition should log one repair per instance, not three separate defects. On the shield the category is the fault and the value two sits legally under the invariant, so size is not the problem. On the plate the category is barred and the value seven also breaches the invariant at the Adept band, where that rarity window still plays, so both source and size fail; its second reduction line stacks with no stated order. Repair either by deleting the flat line and leaning on a shape the book already sanctions on cards, a resistance, a Boon, or the Iron Skin talent named outright. f-005 is an internal-procedure defect, not a numbers defect: the guide and the catalog heading give one roll shape while the potion's parenthetical gives another, so the consumable exception should be stated once as a class rule with both general statements aligned to it. f-006 is a presentation defect read straight off the declared width vector, where the shortest column takes the largest share and the prose column the smallest; move width to the prose column. f-007 is a cross-chapter defect, since the middle band overshoots the canonical party-level rate and the note changes unit partway down its own list; restate all bands in party terms. f-004 alone is a design call, not a defect: whether two same-rarity cloaks leave one strictly dominated is a relative-power judgment, and the book hands that call to the DA, so it belongs in front of the principal, with a niche tweak or a rarity lift as the optional repair. On bounds, if the principal ever permits an item-granted reduction as a bounded exception, ch17's own rarity bands fix the ceiling at each band's weakest row value, and the talent's two/five/eight ladder already sits just under it; neither filed instance qualifies, because both are armour- or shield-typed.",
+  "confidence": 0.78,
+  "rebutting": ["f-001", "f-002", "f-003", "f-004", "f-005", "f-006", "f-007"],
+  "evidence": [
+    {
+      "source": "17-magic-items",
+      "claim": "The shield entry hands its bearer a flat two-point reduction although the card is typed as a shield.",
+      "quote_or_excerpt": "The shield grants DR 2."
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The armour chapter roots a hero's reduction in trained ability and denies worn equipment any part of it.",
+      "quote_or_excerpt": "comes from your talents, not from your gear"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "That chapter's own shield example credits the reduction to the talent rather than to the board in hand.",
+      "quote_or_excerpt": "and not from the board in his hand"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The plate entry prints a seven-point reduction on a card typed as heavy armour.",
+      "quote_or_excerpt": "*Passive:* DR 7."
+    },
+    {
+      "source": "09-talents-abilities.qmd",
+      "claim": "The only shipped reduction ladder belongs to a talent and runs two, five, eight across its rungs.",
+      "quote_or_excerpt": "*Master:* You have DR 8."
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The plate also halves three mundane physical damage types from smaller creatures, a second reduction stacked with no stated order.",
+      "quote_or_excerpt": "resistance to non-magical bludgeoning, piercing, and slashing damage"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Seven sits above the Adept band's weakest row value of six, the band in force across part of the plate's own rarity window.",
+      "quote_or_excerpt": "DR 7 against Adept Weak 6 exceeds the six-point ceiling"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The closing note's middle band allots three permanents to each hero, and its last band quietly switches to a party pool.",
+      "quote_or_excerpt": "Two Uncommon, one Rare per hero."
+    },
+    {
+      "source": "19-gm-guidance.qmd",
+      "claim": "The GM chapter sets the book's rate at party scale and rejects a per-character reading.",
+      "quote_or_excerpt": "Not per character, per party."
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The reading guide ties an activated power's roll to both attribute and skill.",
+      "quote_or_excerpt": "a single 3d6 roll using your attribute and skill"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The potion's own maneuver strips every modifier, the one item in the chapter overriding the general shape.",
+      "quote_or_excerpt": "Roll 3d6 (no modifiers"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The Discipline table's declared widths starve the prose column and overfeed a short tag column.",
+      "quote_or_excerpt": "(11.54%, 15.38%, 23.08%, 36.54%, 13.46%)"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "Both cloaks carry the same rarity, slot cost and core passive, while one adds a repositioning maneuver and drops the terrain condition.",
+      "quote_or_excerpt": "While in natural surroundings (forests, hills, wilderness)"
+    }
+  ]
+}

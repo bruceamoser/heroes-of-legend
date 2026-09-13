@@ -1,0 +1,33 @@
+[
+ {
+  "binding": true,
+  "conditions": [
+   "The Potion of Healing's no-modifier 3d6 at :442 is a sanctioned book shape and must not be deleted; the conflict is to be closed at the guide and catalog statements.",
+   "The finding's own support count is unreliable as stated (off by one, because the excluded set omits the potion); any renewed count must be recomputed before it is relied on.",
+   "The flavour-echo defect of the two cloaks' hood-and-forgetting lines carries forward as a required rewrite; it was never answered by any round.",
+   "Which of the three conflicting statements becomes the single general rule is left open, provided the chapter prints only one."
+  ],
+  "id": "r-001",
+  "point_of_contention": "Whether chapter 17's own card contract holds \u2014 specifically whether the Veilwalker's Shroud strictly dominates the Cloak of Elvenkind at equal rarity and equal slot cost, and whether the Potion of Healing's bare no-modifier 3d6 is an isolated, removable conflict in the chapter's granted-power procedure.",
+  "reasoning": "The cloak finding stands unrebutted: no finding in any round contests the equal-rarity, equal-slot comparison between a terrain-gated Boon and an unrestricted one that also bolts on a repositioning power, and the final round's recomputation passed over the cloaks entirely, so on the arguments as presented a strictly dominated Uncommon card remains on the roster. The procedure finding splits. Its counts recheck, but its load-bearing premise \u2014 that :442 is an isolated conflict whose deletion closes the chapter \u2014 was attacked in the final round and drew no defence in that same round, and the attack landed: a bare, modifier-less 3d6 is already a printed book-wide shape for the morale check and the zero-HP round roll, so striking the potion's line would strip a sanctioned pattern rather than a defect, and the finding's eighteen-minus-three subtraction is off by one because the entries it excludes do not include the potion. What survives is the divergence the attacker itself conceded: the guide demands the hero's attribute and the matching skill, the catalog opener names the attribute alone, and the potion forbids modifiers outright. The ruling therefore keeps the defect and discards the remedy that was refuted.",
+  "ruling": "Chapter 17 must differentiate the Veilwalker's Shroud from the Cloak of Elvenkind so that neither strictly dominates the other \u2014 by tying the Shroud's Boon to dim light or shadow, or by lifting its rarity \u2014 and must rewrite one of the two cloaks' hood-and-forgetting flavour lines; it must also reconcile the chapter's three statements of how a granted power is rolled by amending the guide's attribute-plus-skill clause and the catalog opener's attribute-only line, not by striking the Potion of Healing's printed no-modifier 3d6.",
+  "sealed_at": "2026-09-13T20:26:18Z",
+  "topic": "t-02"
+ },
+ {
+  "binding": true,
+  "conditions": [
+   "The shield's reduction value is deliberately carried forward unchanged: the defect is the source of the DR, not its size, and no band recomputation is required to fix it.",
+   "The Adamantine Plate's flat DR carries the same defect and is covered by this ruling even though it was raised only in passing.",
+   "The corrected unit readings carry forward: band one already mixes per-hero and per-party allocation and its five named permanents already reach the level-3 top, so the note's scale confusion begins before band three.",
+   "The attacked invariant reading \u2014 DR as a per-attacker bound keyed to the creature swinging \u2014 was itself refuted and must not be reintroduced.",
+   "Cross-chapter layout findings (the Discipline Items column shares) are left open here; they were reported as misattributed and are not among this topic's surviving premises."
+  ],
+  "id": "r-002",
+  "point_of_contention": "Whether the chapter's numbers and placement guidance survive recomputation against canon \u2014 whether the Spellguard Shield's flat, gear-sourced DR 2 remains a live violation of the book's trained-only DR source, and whether the closing note's middle placement band still overruns the canonical treasure flow.",
+  "reasoning": "The final-round recomputation attacked both findings and neither attack removed its target. f-002 is corroborated in full rather than broken: the shield's gear-sourced reduction is confirmed, the magnitude is expressly not the defect \u2014 the plate's flat 7 sits inside the band its Very Rare row maps to and bites only the lower rows a worn item may still meet \u2014 and no bounded exception shields a worn item, because the only DR carve-outs canon names are creature-side. The worn-gear DR source therefore stands as a violation with its number untouched. f-007 is upheld on its core and corrected at its edges: the middle band's three permanents per hero is confirmed as twelve for a party of four, four per level against a stated ceiling of two and past the level-3 total before a single consumable, so the pacing overrun stands. Its cleaner claims, however, were attacked and the attacked readings were refuted: band one already mixes a per-hero and a per-party allocation inside one bullet, so the scale flip is not the third band's alone, and band one's five named permanents already sit at the level-3 top. Those corrections widen rather than dissolve the unit confusion the note must be fixed for, so the placement directive stands with its scale claim restated.",
+  "ruling": "Chapter 17 must strip the gear-sourced damage reduction from the Spellguard Shield's passive \u2014 reconceiving it as an active Shield Block-style downgrade or removing the DR outright \u2014 and must remove the same move from the Adamantine Plate's passive, so that no worn item prints a passive reduction number; it must further restate the closing placement note's bands in one consistent per-party unit with the level 4-6 band brought inside the canonical one-to-two-items-per-level-per-party flow, or else relabel that band explicitly as an optional generous-flow variant.",
+  "sealed_at": "2026-09-13T20:26:18Z",
+  "topic": "t-03"
+ }
+]

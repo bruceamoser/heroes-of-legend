@@ -1,0 +1,37 @@
+{
+  "id": "f-405",
+  "round": 1,
+  "role": "editor-in-chief",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "Chapter 17's declared entry format does not survive contact with its own items. The reading guide at 17-magic-items:28 states that a granted power is resolved on one 3d6 using the hero's attribute and the matching skill; the catalog's opening line at :42 restates the same procedure with the skill dropped; and the Potion of Healing, the one entry in the chapter that spells out its own roll, takes a third form at :442, a bare 3d6 allowing no modifiers at all, explicitly cutting the skill out. The Elixir card printed immediately after it at :466 carries success-tier rows for its cone and names no roll whatever, so the chapter's two sibling consumables answer the same procedural question two different ways. Every other granted power in the chapter inherits the guide's version, which leaves the Potion as the single item-level statement of the procedure and the single point of conflict: a table working from :28 and a table working from :442 resolve the same vial differently, and the chapter supplies no tiebreak. Least fix that closes it: either strike the parenthetical at :442 so the Potion inherits the shared rule, or carve consumables out of :28 and bring :42 into line; one of the three statements has to go, because as printed the chapter's own card contract is not self-consistent and the field it promises for how an item is activated is contradicted by the only entry that fills it in.",
+  "confidence": 0.6,
+  "rebutting": [],
+  "evidence": [
+    {
+      "source": "17-magic-items",
+      "claim": "The reading guide fixes the resolution of any granted, activated power as a 3d6 that carries both the hero's attribute and the relevant skill.",
+      "quote_or_excerpt": "single 3d6 roll using your attribute and skill"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The catalog's introduction restates the same procedure for activated powers but mentions only the attribute, leaving the skill out.",
+      "quote_or_excerpt": "Activated powers roll once with your attribute"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The Potion of Healing's Drink maneuver is the only granted power in the chapter that prints its own roll, and that roll permits no modifiers, dropping the skill the guide requires.",
+      "quote_or_excerpt": "no modifiers, the potion's magic, not your skill"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The Elixir of Dragon's Breath, placed right after the Potion, supplies success-tier rows for its cone yet never names a roll, so the two consumables diverge on the procedure.",
+      "quote_or_excerpt": "The effect resolves immediately, you can't hold it in"
+    },
+    {
+      "source": "reasoning",
+      "claim": "I counted the chapter's granted-power lines: eighteen entries, of which the Locket and the Deck declare themselves roll-free and the Immovable Rod sets a fixed Brawn difficulty, leaving fourteen that print a table without naming a roll. Those fourteen lean on the guide's blanket procedure, so the Potion's parenthetical is the only competing item-level statement of it in the chapter.",
+      "quote_or_excerpt": "18 granted powers; 14 name no roll of their own"
+    }
+  ]
+}

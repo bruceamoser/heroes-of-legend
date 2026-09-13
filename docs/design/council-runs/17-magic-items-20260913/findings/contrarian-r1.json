@@ -1,0 +1,47 @@
+{
+  "id": "f-403",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Spellguard Shield at 17-magic-items.qmd:356 is Typed as a Shield, yet its passive hands the wearer DR 2. Locked convention 6 reserves the shield category for Parry plus the one-step Shield Block reaction, and ch16 and ch13 both put a hero's reduction with trained talents rather than with carried equipment, so this is a gear-sourced number the law does not issue. Rarity guidance in the same chapter (17-magic-items.qmd:536) drops a Rare item on a hero at levels 4 to 6, so the offending defense reaches a low-level character. Worked counter-example on the Novice band: the printed attack row is 2/4/6, and using the shield's own granted reaction alone that resolves 1/2/4 (three separable outcomes), but add the item's DR 2 and the same three rows collapse to 1/1/2, making a printed Weak hit and a printed Standard hit numerically identical and killing the discrimination of the single outcome roll that is the game's whole resolution mechanic. Adamantine Plate at 17-magic-items.qmd:380 compounds the same defect from the armour side with DR 7 plus halved non-magical weapon damage, which on the Master row resolves 1/1/3 or 1/4/7 depending on which of the two unstated orderings the table uses.",
+  "confidence": 0.68,
+  "rebutting": [],
+  "evidence": [
+    {
+      "source": "17-magic-items",
+      "claim": "The Spellguard Shield carries Type Shield and a passive that confers 2 points of damage reduction on whoever wears it, a category of defense the rules never grant to a shield.",
+      "quote_or_excerpt": "The shield grants DR 2."
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The armor chapter states plainly that a hero's reduction number is a trained value and that equipment supplies only the reaction, not a subtraction.",
+      "quote_or_excerpt": "Damage Reduction comes from your talents, not from your gear."
+    },
+    {
+      "source": "13-combat",
+      "claim": "The combat chapter repeats the same rule and adds that a shield enables Parry and Shield Block but never contributes a bonus of its own.",
+      "quote_or_excerpt": "A shield enables Parry and Shield Block, but never adds a bonus."
+    },
+    {
+      "source": "reasoning",
+      "claim": "Novice-band arithmetic: the shield's reaction alone gives three distinct results, while its reaction plus its own DR 2 merges the bottom two tiers.",
+      "quote_or_excerpt": "2/4/6 with Shield Block only gives 1/2/4; adding DR 2 gives 1/1/2."
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The chapter's own pacing note puts a Rare item on a single hero at levels 4 to 6, confirming the DR 2 shield is an early-game acquisition.",
+      "quote_or_excerpt": "Levels 4-6: Two Uncommon, one Rare per hero."
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "Adamantine Plate is hero armor that prints DR 7 and also halves non-magical weapon damage, stacking two reductions on gear the rules say contributes none.",
+      "quote_or_excerpt": "Passive: DR 7. ... resistance to non-magical bludgeoning, piercing, and slashing damage"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Master-band arithmetic for the plate: halving first and subtracting 7 second tears the three tiers apart into two values, and the reverse order yields a different set entirely.",
+      "quote_or_excerpt": "halve 9/15/21 to 4/7/10, DR 7 gives 1/1/3; reversed gives 1/4/7."
+    }
+  ]
+}

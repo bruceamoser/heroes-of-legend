@@ -1,0 +1,112 @@
+{
+  "id": "f-408",
+  "round": 2,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Recomputation kills the headline of f-001 and the collapsing arithmetic of f-003, and leaves only a source objection standing. Anchored to the defender's own play band, a Master-tier defender reads 9/15/21 whose Weak value is 9: subtracting 7 leaves 2/8/14 and the shipped 8 leaves 1/7/13, three separable tiers in both cases, so the plate's size sits inside the invariant, and the shipped ladder 2/5/8 fits its three band Weak values 2/6/9 exactly, which is the fingerprint of a defender-band anchor. Anchored instead to whatever an opponent swings, the same test convicts canon: the shipped Master rung at 8 against a Challenge 3 knight's middle row yields 1/1/4, a worse collapse than the plate's 1/2/5 at 7, so a premise that indicts shipped canon is the wrong premise. The surviving core of f-001 is the source rule alone, that a worn card may not supply a hero's reduction; its invariant breach does not survive. f-003's 1/1/2 fails the same way: a bare 2-point reduction on the Novice row floors 2 to 1, turns 4 into 2 and 6 into 4, still three distinct values, which the armour chapter's own worked example demonstrates. The identical collapse needs a Shield Block step-down underneath the subtraction, and a Novice rung plus an ordinary shield, with no magic item present, reproduces 1/1/2 exactly, so that arithmetic indicts the stacking, not the item. My tests confirm rather than break f-004 (tested rarity, slot, passive, power: the Shroud is a superset at equal cost under every reading) and the core of f-007 (4 per level against a cap of 2 after unit conversion), and reduce f-005 to a compressed recap plus a self-explaining consumable exception. The reading that survives the attack: the invariant is anchored to the defender's play band.",
+  "evidence": [
+    {
+      "source": "09-talents-abilities.qmd",
+      "claim": "The only shipped heroic reduction ladder is 2 at Novice, 5 at Adept and 8 at Master, and it is carried by a talent card rather than by anything a hero wears.",
+      "quote_or_excerpt": "*Novice:* You have DR 2. ... *Master:* You have DR 8."
+    },
+    {
+      "source": "reasoning",
+      "claim": "Band-anchored recomputation: on the defender's own tier the top row 9/15/21 has Weak value 9, so 7 subtraction gives 2/8/14 and the shipped 8 gives 1/7/13, both sets three separable values. Reading the subtraction against 6/9/12 instead gives 1/1/4 at 8 and 1/2/5 at 7.",
+      "quote_or_excerpt": "Master band: 9-7=2/8/14, 9-8=1/7/13"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The shipped ladder 2 then 5 then 8 sits at or just under the Weak value of its own band (2, 6, 9), which is exactly the tuning a defender-band anchor predicts and cannot be explained by an attacker-row anchor.",
+      "quote_or_excerpt": "2 against 2, 5 against 6, 8 against 9"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Indictment test: the attacker-row reading convicts shipped canon harder than it convicts the plate, because 8 against the middle row merges two outcome values where 7 leaves them apart. A premise that damns canon is not fit to damn an item, so f-001's invariant breach falls and only its source objection remains.",
+      "quote_or_excerpt": "DR 8 vs knight 6/9/12 gives 1/1/4; DR 7 gives 1/2/5"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The armour chapter routes a hero's subtraction through training, says worn armour supplies none of it, and keeps a landed hit at a floor of one point.",
+      "quote_or_excerpt": "Your DR comes from talents such as Iron Skin"
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "At the levels the Very Rare entry is placed for, opponents still swing the middle row: a Challenge 3 knight attacks there and a Challenge 6 caster mixes its rows.",
+      "quote_or_excerpt": "*Longsword:* 6/9/12"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Reproduced f-003's spread: the shield reaction alone separates 2/4/6 into 1/2/4, and stacking a 2-point subtraction on top merges the two lowest into 1/1/2. The arithmetic is right, the attribution is not.",
+      "quote_or_excerpt": "2/4/6 -> block 1/2/4 -> +2 DR 1/1/2"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The shield's own reaction is a one-step downgrade, and its worked example runs a bare 2-point reduction on the Novice row and still reads three distinct results.",
+      "quote_or_excerpt": "Reduce the damage tier by one step"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "That same chapter's worked fight shows the weak hit flooring at one, the standard hit landing at two, and the strong hit at four under a bare 2-point reduction, which is the three-value spread itself.",
+      "quote_or_excerpt": "DR 2 soaks 2, so Roric takes 2 damage"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Counter-example: a hero on the Novice rung with the ordinary shield's block and no magic item anywhere reproduces 1/1/2 identically, and that rung is legal at level one. So the collapse belongs to the stacking of a downgrade with any 2-point subtraction, not to this item.",
+      "quote_or_excerpt": "Novice DR 2 + ordinary shield block: 1/1/2, no item"
+    },
+    {
+      "source": "13-combat.qmd",
+      "claim": "The combat chapter grants a shield Parry and the block reaction and no bonus of its own, and it halves resistant damage with rounding down while never fixing the order against a flat subtraction, so the ordering gap f-001 raises is a combat-chapter omission that every reduction-plus-resistance entry shares.",
+      "quote_or_excerpt": "enables Parry and Shield Block, but never adds a roll bonus"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "Both cloaks carry the same rarity, the same attunement cost and the same worn slot; one Stealth Boon is gated to a terrain type while the other carries no qualifier and adds a once-per-encounter repositioning power.",
+      "quote_or_excerpt": "While in natural surroundings ... Boon on Stealth checks"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Tested f-004 strictly on the enumerated capabilities: rarity equal, attunement equal, slot equal, passive a superset, plus an extra power on one side. No counter-example found, so domination holds; it does not depend on the reading, because even if the terrain gate costs nothing the extra power still decides it.",
+      "quote_or_excerpt": "rarity =, slot =, passive superset, power +1 => dominated"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The entry guide's activation rule carries the hero's attribute and the matching skill; the catalog's recap keeps only the attribute, an omission rather than a contrary rule, and the vial's line explains that its own magic rather than the user sets the outcome.",
+      "quote_or_excerpt": "no modifiers, the potion's magic, not your skill"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The potion still rolls one 3d6 and reads one outcome row, which is the one-roll law satisfied, and it is a consumable whose power is not the user's, a narrow exception its own text declares. So :28 and :42 are one rule at two levels of detail and :442 adds an explained exception rather than a third rule.",
+      "quote_or_excerpt": "3d6, one tier, one row => :28 and :42 agree"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The middle band of the closing note grants each individual hero two uncommon items and one rare item inside a three-level window, while the top band pools its rarest item for the whole party, so the note changes unit partway down.",
+      "quote_or_excerpt": "Two Uncommon, one Rare per hero."
+    },
+    {
+      "source": "19-gm-guidance.qmd",
+      "claim": "The GM chapter is where item flow is defined: one or two items per level for a whole party, the per-character unit ruled out, permanents kept significant and consumables the generous hand-out.",
+      "quote_or_excerpt": "1–2 per level, per party. Not per character"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Unit conversion confirms f-007's core: three permanents per hero across three levels becomes twelve for a four-hero party, four per level, against a cap of two for the whole party, and the gap widens because the cap counts consumables while the band counts permanents only.",
+      "quote_or_excerpt": "12 permanents / 3 levels = 4 per level vs cap 2"
+    },
+    {
+      "source": "reasoning",
+      "claim": "One clause of f-007 does not survive: the opening band's four hero items plus the party's named one already reach the canonical level-three total once its consumables are counted, so the middle band is not uniquely the outlier, though the unit flip between the first two bands and the third still stands.",
+      "quote_or_excerpt": "band one: 5 permanents + potions >= 3-6 at level 3"
+    }
+  ],
+  "confidence": 0.78,
+  "rebutting": [
+    "f-001",
+    "f-003",
+    "f-005",
+    "f-007"
+  ]
+}

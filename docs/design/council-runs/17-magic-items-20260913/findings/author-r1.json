@@ -1,0 +1,37 @@
+{
+  "id": "f-404",
+  "round": 1,
+  "role": "author",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "17-magic-items.qmd:68-82 ships two Uncommon cloaks that spend one of the same three attunement slots on the same core passive. Cloak of Elvenkind gates its Stealth Boon behind wild terrain; Veilwalker's Shroud grants the identical Boon with no setting qualifier and bolts a once-per-encounter teleport on top, so at equal rarity and equal slot cost the Elvenkind card is strictly dominated and no player has a reason to take it. The two entries also recycle one stock sentence shape, the raised hood followed by the world forgetting you, which undercuts this chapter's own opening promise that each item is a named, distinct card rather than filler. Minimal fix: differentiate the Shroud's passive by tying it to dim light or shadow, or lift its rarity, and rewrite one of the two hood lines so the cards stop echoing each other.",
+  "confidence": 0.66,
+  "rebutting": [],
+  "evidence": [
+    {
+      "source": "17-magic-items",
+      "claim": "Both cloaks print the same rarity, attunement, and Type.",
+      "quote_or_excerpt": "Uncommon · *Attunement:* Requires Attunement · *Type:* Cloak"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "One Boon is terrain-gated while the other carries no setting limit.",
+      "quote_or_excerpt": "While in natural surroundings (forests, hills, wilderness)"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The unrestricted cloak also adds a repositioning power the other lacks.",
+      "quote_or_excerpt": "Granted Maneuver, Step Between (once per encounter)"
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "Both flavor lines reuse the hood-and-forgetting image back to back.",
+      "quote_or_excerpt": "the hood up, the world forgets you're there"
+    },
+    {
+      "source": "reasoning",
+      "claim": "A strictly dominated card at the same rarity contradicts the uniqueness framing, because no roster slot ever rewards picking it.",
+      "quote_or_excerpt": "equal rarity and cost, the weaker card is never worth a slot"
+    }
+  ]
+}

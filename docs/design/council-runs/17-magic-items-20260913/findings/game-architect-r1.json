@@ -1,0 +1,47 @@
+{
+  "id": "f-401",
+  "round": 1,
+  "role": "game-architect",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "17-magic-items.qmd:380 breaks the DR law the rest of the book was rebuilt around. Adamantine Plate is typed as worn hero armour, yet its passive prints a flat DR 7. Since the #516/#517 ruling no gear may supply a hero's reduction: the shipped source is the Iron Skin talent on its 2/5/8 ladder (09-talents-abilities.qmd:59-63), and both the armour and equipment chapters say the same thing (16-armor-shields.qmd:23, 15-equipment.qmd:221). The number also breaches the DR invariant in the row that actually applies at the item's own rarity. Very Rare finds are placed at levels 7-10 (17-magic-items.qmd:535-537), and Challenge 3-6 opponents still swing the Adept row there (a Challenge 3 Knight's longsword is 6/9/12, 20-bestiary.qmd:132). Against 6/9/12 a 7-point reduction sits above the row's Weak value of 6, so a Weak hit is annihilated by the minimum-damage floor and Standard and Strong compress to 2 and 5. The same item's second passive halves physical damage of the three mundane kinds from creatures up to Large, which pushes the row to 1/1/2 when reduction runs first and 1/1/1 when the halving runs first, and the book never fixes that order (16-armor-shields.qmd:21, 13-combat.qmd:154). Expected value: armour contributes DR 0 for heroes, and a 7-point subtraction belongs nowhere on a wearable card. Fix: strip the item DR; if a defensive perk is wanted, route it through the sanctioned tier-downgrade channel or a talent-style card.",
+  "confidence": 0.85,
+  "rebutting": [],
+  "evidence": [
+    {
+      "source": "17-magic-items",
+      "claim": "The Very Rare entry is typed as worn armour and carries a flat DR 7 as a passive, with a second passive that halves non-magical bludgeoning, piercing and slashing damage from creatures no larger than Large.",
+      "quote_or_excerpt": "*Type:* Heavy Armor ... *Passive:* DR 7"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The armour chapter states that a hero's reduction comes from training, not from what they wear, and that a landed hit still costs at least 1.",
+      "quote_or_excerpt": "from talents such as Iron Skin, not from your armor"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The equipment chapter repeats the same rule for worn armour, so two canonical chapters agree that gear does not add this number.",
+      "quote_or_excerpt": "comes from your talents and abilities, not from your armor"
+    },
+    {
+      "source": "09-talents-abilities",
+      "claim": "The sanctioned heroic source, Iron Skin, tops out at DR 8 on its Master rung, so the legitimate ceiling for this number is 8 and it lives on a talent card rather than an object.",
+      "quote_or_excerpt": "*Master:* You have DR 8."
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The chapter's own placement guidance puts Very Rare finds at levels 7-10, so the plate is expected to see play while Adept-row attacks are still common.",
+      "quote_or_excerpt": "Levels 7-10: Mostly Rare, one Very Rare for the party"
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "A Challenge 3 Knight attacks on the Adept row and a Challenge 6 Archmage mixes the Novice and Adept rows, so 6/9/12 is a routine incoming band at the levels this item appears.",
+      "quote_or_excerpt": "*Longsword:* 6/9/12"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Worked check of the invariant: reduction only gives 1/2/5 against 6/9/12 because the Weak value of 6 falls to the floor; reducing before halving gives 1/1/2; halving before reducing gives 1/1/1. Under every ordering the bottom of the row stops being distinguishable, and no passage in the book states whether resistance precedes the subtraction.",
+      "quote_or_excerpt": "6-7 -> 1 ; 9-7 = 2 ; 12-7 = 5"
+    }
+  ]
+}
