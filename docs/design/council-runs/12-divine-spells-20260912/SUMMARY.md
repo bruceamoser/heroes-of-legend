@@ -43,12 +43,37 @@
 - Flat riders 5 -> 0; row-as-turns 0; orphaned headings book-wide 15 -> 12
 - Build exit 0; native-Typst exit 0; 0 doubled stops; rendered PDF checked
 
-## Left open for Bruce
+## Ruled by Bruce (2026-09-12, taken one at a time)
 
-1. Duration scale for the three turn-count cards (implemented default 2/4/6 -> 3/6/9, veto to change)
-2. The `Resistance` cantrip: rename it, or reserve the word for the glossary meaning
-3. Divine magic's identity: the chapter opens by disclaiming attack magic while 7 Religion cards
-   deal radiant damage and ch10 says divine burns the unholy
+1. **Duration scale -> option C (per-card escalation).** Each card peaks in its own idiom rather
+   than a uniform multiplier: the ward broadens (Sanctuary Master covers one ally within 10 ft),
+   the terror destroys (Turn Unholy, already per-card), the exile becomes absolute (Banish Master
+   drops the Strong-only qualifier). Rationale: option A is the bland math rule #112 rejected, and
+   option B - pinning the duration at every tier - recreates the Glacial Prison defect where a rung
+   takes away rather than adds. Shipped **PR #497**.
+2. **`Resistance` cantrip -> option A, renamed `Gain Resistance`.** The cantrip was referenced
+   nowhere in the book, so the rename costs one line against 12 occurrences of the damage-halving
+   rule across 9 files. Bruce's phrasing ("something like Gain Resistance") required the card to
+   actually grant resistance, or the name would imply the glossary rule while doing something
+   unrelated - so the Standard and Strong bands now grant resistance to the named damage types
+   (one type at Standard, all three at Strong). `Keywords: Resistance` added per the book's
+   convention. Shipped **PR #498**.
+3. **Divine magic's identity -> option A (prose).** Ruling principle: *"dealing radiant damage is
+   the divine player's ability, it is not determined by whether or not the target warrants that
+   damage."* That settles the question the council raised - the anti-unholy riders are optional
+   flavor, not a gate, so Righteous Blow lacking one is not an inconsistency and needs no edit. The
+   opening's triad and closing line now name the judgment alongside heal/protect/reveal. No
+   mechanics changed. Shipped **PR #499**.
+4. **Stranded headings -> sticky keep-with-next, levels 3-5.** 12 -> 2 stranded for +3 pages
+   (364 -> 367). Level 2 was measured at 12 -> 1 for +8 pages, so it was left out as a flagged
+   default (a one-line change to adopt). "Blade" strands regardless: the table after it is taller
+   than a page. Shipped **PR #500**.
+
+### Correction to the council record
+The author lens claimed the chapter "disclaims direct attack". That was **overstated** - the chapter
+already said "You burn what shouldn't exist", matching ch10 word for word. The real friction was
+narrower: the opening's triad and closing line framed divine magic as purely supportive.
+
 
 ## Process note: the run could not be sealed
 
