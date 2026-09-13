@@ -68,3 +68,58 @@
 1. **Half vs three-quarters cover** — mechanically distinct or deliberately identical? If distinct, double Bane is the option that keeps the Boon/Bane law intact. Also decides whether the planted tower shield does anything.
 2. **Dying lethality** — the Weak band needs a real consequence that accumulates; it is the natural home for ch21's promised "worsen".
 3. **`Escape action`** — define the escape (cost, roll, opposing side) or drop the term from the condition rows.
+
+---
+
+## Bruce's rulings (2026-09-13) and how they shipped
+
+PR #502, merged, main `fe987ae`.
+
+### 1. Cover collapses to two tiers
+
+> "There should only be half cover - 1 bane, full cover - 3 bane"
+
+| Cover | Effect |
+|---|---|
+| Half cover | Bane |
+| Full cover | triple Bane |
+
+The table had **three** tiers and the middle two were identical. Three-quarters is
+removed book-wide (ch13, ch21, ch22); full cover was "Cannot be targeted" and is now a
+real attackable tier at triple Bane — "cannot be targeted" survives on Invisible and the
+concealment spell riders, where it belongs. ch16's tower shield now plants to grant
+**full** cover (it previously promised three-quarters, a tier that no longer exists).
+ch13's defense cross-reference and ch22's header ("Attacker Penalty" -> "Effect") updated.
+
+### 2. The 666 row sets the stage for death
+
+> "666 should set the stage for death no kill outright"
+
+Was an instant kill ("No survival rolls. No stabilization. No last words. Close your
+character sheet.") on a **below-half-HP** trigger — the bloodied moment out-killed the
+whole dying state. Now **Death's Door**: drop to 0 HP and begin Dying, however much you
+had left; no stabilization roll brings you back from this one alone; what happens next
+is settled by the death roll.
+
+This also gave the dying procedure the teeth it lacked. The Weak band (55/216 = 25.5%)
+had been memoryless — no counter, no accumulation, looping forever — and it left ch21's
+promised "worsen" undefined. It now reads: **"You worsen. Mark a failure. At three
+failures, you die."**
+
+**Measured:** death probability 1/161 (0.62%) -> **2.26% (about 1 in 44)**. Bands
+unchanged: Critical 1 / Strong 19 / Standard 140 / Weak 55 / Fumble 1.
+
+### 3. The Escape action
+
+> "an agility roll opposed by the situation (DA decides what the situation calls for),
+> a standard roll adds a boon and lets you roll again, a strong lets you escape the scene"
+
+Defined in ch13's Grappling section and the ch21 glossary. Agility against the
+*situation*, not the grappler; DA sets the difficulty from whatever has hold of you.
+Weak: still held. Standard: Boon on the next Escape, may try again. Strong: free, and
+gone from the scene.
+
+### Verification
+Build exit 0; native-Typst exit 0 (the gate caught a markdown-bold `**` in the first
+draft of the Escape rule); 0 em-dashes; every ruling present in the rendered PDF; every
+removed string confirmed absent. Pages 366, orphans 2 book-wide.
