@@ -37,7 +37,7 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
 
 HP 8, DR 0. Attributes: Brawn 0, Fortitude 0, Agility +1, Guile 0, Knowledge 0, Reason 0.
 
-*Bite:* 2/4/6.
+*Bite:* 4/6/8.
 
 *Pack Tactics:* Boon on attacks when an ally is adjacent.
 
@@ -45,7 +45,7 @@ HP 8, DR 0. Attributes: Brawn 0, Fortitude 0, Agility +1, Guile 0, Knowledge 0, 
 
 HP 14, DR 1. Attributes: Brawn +1, Fortitude +1, Agility 0, Guile 0, Knowledge 0, Reason 0.
 
-*Bite:* 2/4/6.
+*Bite:* 4/6/8.
 
 *Pack Tactics:* Boon on attacks when an ally is adjacent.
 
@@ -55,9 +55,9 @@ HP 14, DR 1. Attributes: Brawn +1, Fortitude +1, Agility 0, Guile 0, Knowledge 0
 
 HP 20, DR 2. Attributes: Brawn +2, Fortitude +1, Agility -1, Guile 0, Knowledge -1, Reason -1.
 
-*Claw:* 2/4/6.
+*Claw:* 4/6/8.
 
-*Bite:* 2/4/6.
+*Bite:* 4/6/8.
 
 *Multiattack:* May make both Claw and Bite as one action.
 
@@ -65,7 +65,7 @@ HP 20, DR 2. Attributes: Brawn +2, Fortitude +1, Agility -1, Guile 0, Knowledge 
 
 HP 10, DR 0. Attributes: Brawn 0, Fortitude 0, Agility +2, Guile 0, Knowledge 0, Reason 0.
 
-*Bite:* 2/4/6 + poison (Fortitude check or Poisoned 2).
+*Bite:* 4/6/8 + poison (Fortitude check or Poisoned 2).
 
 *Web (Recharge):* Ranged attack that Restrains target on hit.
 
@@ -83,13 +83,13 @@ HP 5, DR 0. Attributes: Brawn -1, Fortitude 0, Agility 0, Guile 0, Knowledge -1,
 
 HP 3, DR 0.
 
-*Proboscis:* 2/4/6 piercing + attach. On a hit, the stirge latches onto the target. While attached, it automatically deals 2 damage each round. A creature can use a Maneuver to make a Brawn check to detach the stirge. Tiny flyer, the stirge dies if it takes any damage while attached.
+*Proboscis:* 4/6/8 piercing + attach. On a hit, the stirge latches onto the target. While attached, it automatically deals 2 damage each round. A creature can use a Maneuver to make a Brawn check to detach the stirge. Tiny flyer, the stirge dies if it takes any damage while attached.
 
 === Dire Boar (Challenge 2)
 
 HP 18, DR 2.
 
-*Gore:* 2/4/6.
+*Gore:* 4/6/8.
 
 *Charge:* if it moves 20+ ft before attacking, damage tier +1.
 
@@ -101,9 +101,9 @@ HP 18, DR 2.
 
 HP 4, DR 0.
 
-*Shortsword:* 2/4/6.
+*Shortsword:* 4/6/8.
 
-*Shortbow:* 2/4/6.
+*Shortbow:* 4/6/8.
 
 *Pack Tactics:* Boon on attacks when an ally is adjacent.
 
@@ -111,7 +111,7 @@ HP 4, DR 0.
 
 HP 8, DR 1 (chain shirt).
 
-*Spear:* 2/4/6.
+*Spear:* 4/6/8.
 
 *Shield:* +1 DR.
 
@@ -119,9 +119,9 @@ HP 8, DR 1 (chain shirt).
 
 HP 6, DR 0.
 
-*Dagger:* 2/4/6.
+*Dagger:* 4/6/8.
 
-*Dark Bolt:* 2/4/6 necrotic (range 60 ft).
+*Dark Bolt:* 4/6/8 necrotic (range 60 ft).
 
 *Fanatical:* immune to Frightened.
 
@@ -129,7 +129,7 @@ HP 6, DR 0.
 
 HP 20, DR 6 (plate).
 
-*Longsword:* 6/9/12.
+*Longsword:* 5/8/11.
 
 *Shield Block:* reaction.
 
@@ -139,11 +139,11 @@ HP 20, DR 6 (plate).
 
 HP 14, DR 2.
 
-*Dagger:* 2/4/6.
+*Dagger:* 4/6/8.
 
-*Ember Lance:* 2/4/6 (at will).
+*Ember Lance:* 4/6/8 (at will).
 
-*Brimstone Burst:* 6/9/12 (once per encounter).
+*Brimstone Burst:* 5/8/11 (once per encounter).
 
 *Counterspell:* reaction to negate a spell.
 
@@ -155,9 +155,9 @@ HP 14, DR 2.
 
 HP 4, DR 0.
 
-*Scimitar:* 2/4/6 slashing.
+*Scimitar:* 4/6/8 slashing.
 
-*Shortbow:* 2/4/6 piercing (range 80/320).
+*Shortbow:* 4/6/8 piercing (range 80/320).
 
 *Nimble Escape:* the goblin can use a Maneuver to Disengage.
 
@@ -169,9 +169,9 @@ HP 4, DR 0.
 
 HP 8, DR 1 (chain shirt).
 
-*Longsword:* 2/4/6 slashing.
+*Longsword:* 4/6/8 slashing.
 
-*Longbow:* 2/4/6 piercing (range 150/600).
+*Longbow:* 4/6/8 piercing (range 150/600).
 
 *Martial Advantage:* +1 damage tier when an ally is adjacent to the target.
 
@@ -181,7 +181,7 @@ HP 8, DR 1 (chain shirt).
 
 HP 12, DR 1 (hide).
 
-*Morningstar:* 2/4/6 bludgeoning. Reach 10 ft.
+*Morningstar:* 4/6/8 bludgeoning. Reach 10 ft.
 
 *Brute:* +1 damage tier against targets that haven't acted yet this combat.
 
@@ -195,9 +195,9 @@ HP 12, DR 1 (hide).
 
 HP 8, DR 0.
 
-*Staff:* 2/4/6 bludgeoning.
+*Staff:* 4/6/8 bludgeoning.
 
-*Hex Bolt:* 2/4/6 necrotic (range 60 ft).
+*Hex Bolt:* 4/6/8 necrotic (range 60 ft).
 
 *Hex (Recharge):* one target within 30 ft must make a Guile check or suffer Bane on its next attack roll.
 
@@ -211,9 +211,9 @@ HP 8, DR 0.
 
 HP 10, DR 1 (hide).
 
-*Greataxe:* 2/4/6 slashing.
+*Greataxe:* 4/6/8 slashing.
 
-*Javelin:* 2/4/6 piercing (range 30/120).
+*Javelin:* 4/6/8 piercing (range 30/120).
 
 *Relentless:* once per day, when reduced to 0 HP, the orc can make a Fortitude check. On a Strong result, it stays at 1 HP.
 
@@ -223,9 +223,9 @@ HP 10, DR 1 (hide).
 
 HP 22, DR 6 (plate).
 
-*Greataxe:* 6/9/12 slashing.
+*Greataxe:* 5/8/11 slashing.
 
-*Javelin:* 6/9/12 piercing (range 30/120).
+*Javelin:* 5/8/11 piercing (range 30/120).
 
 *Multiattack:* Greataxe twice.
 
@@ -250,9 +250,9 @@ _Placeholder for final art._
 
 HP 5, DR 0.
 
-*Shortsword:* 2/4/6.
+*Shortsword:* 4/6/8.
 
-*Shortbow:* 2/4/6.
+*Shortbow:* 4/6/8.
 
 *Vulnerable: Bludgeoning (takes double bludgeoning damage).*
 
@@ -262,7 +262,7 @@ HP 5, DR 0.
 
 HP 12, DR 1.
 
-*Slam:* 2/4/6.
+*Slam:* 4/6/8.
 
 *Relentless:* when reduced to 0 HP, make a Fortitude check. On Strong, stays at 1 HP.
 
@@ -272,9 +272,9 @@ HP 12, DR 1.
 
 HP 10, DR 0.
 
-*Claw:* 2/4/6.
+*Claw:* 4/6/8.
 
-*Bite:* 2/4/6.
+*Bite:* 4/6/8.
 
 *Paralyzing Touch:* on Strong claw hit, target must make a Fortitude check or be Paralyzed for 1 round.
 
@@ -282,7 +282,7 @@ HP 10, DR 0.
 
 HP 12, DR 3 (non-magical).
 
-*Life Drain:* 6/9/12 necrotic.
+*Life Drain:* 5/8/11 necrotic.
 
 *Incorporeal:* half damage from non-magical physical attacks.
 
@@ -292,9 +292,9 @@ HP 12, DR 3 (non-magical).
 
 HP 30, DR 4.
 
-*Paralyzing Touch:* 9/15/21 cold + Paralyzed (Fortitude check).
+*Paralyzing Touch:* 7/10/14 cold + Paralyzed (Fortitude check).
 
-*Disrupt Life:* 9/15/21 necrotic (30 ft radius, 1/day).
+*Disrupt Life:* 7/10/14 necrotic (30 ft radius, 1/day).
 
 *Spellcasting:* as 10th-level Arcanist.
 
@@ -306,9 +306,9 @@ HP 30, DR 4.
 
 HP 16, DR 1.
 
-*Claw:* 2/4/6.
+*Claw:* 4/6/8.
 
-*Bite:* 2/4/6.
+*Bite:* 4/6/8.
 
 *Blood Frenzy:* when below half HP, all attacks at damage tier +1.
 
@@ -316,7 +316,7 @@ HP 16, DR 1.
 
 HP 14, DR 2.
 
-*Bite:* 6/9/12 + poison.
+*Bite:* 5/8/11 + poison.
 
 *Petrifying Gaze:* creatures within 30 ft must make a Fortitude check or be Restrained. Fail twice: Petrified.
 
@@ -324,11 +324,11 @@ HP 14, DR 2.
 
 HP 25, DR 2.
 
-*Bite:* 6/9/12.
+*Bite:* 5/8/11.
 
-*Claw:* 6/9/12.
+*Claw:* 5/8/11.
 
-*Fire Breath:* 6/9/12 (15 ft cone, Recharge).
+*Fire Breath:* 5/8/11 (15 ft cone, Recharge).
 
 *Multiattack:* Bite + Claw + breath if available.
 
@@ -338,9 +338,9 @@ HP 25, DR 2.
 
 HP 8, DR 0.
 
-*Claw:* 2/4/6 slashing.
+*Claw:* 4/6/8 slashing.
 
-*Club:* 2/4/6 bludgeoning.
+*Club:* 4/6/8 bludgeoning.
 
 *Luring Song:* creatures within 60 ft that can hear the harpy must make a Guile check or use their movement to move toward the harpy by the safest route. Creatures immune to Charmed are immune.
 
@@ -350,9 +350,9 @@ HP 8, DR 0.
 
 HP 22, DR 2 (natural hide).
 
-*Greataxe:* 6/9/12 slashing.
+*Greataxe:* 5/8/11 slashing.
 
-*Gore:* 6/9/12 piercing + push 10 ft on a Strong hit.
+*Gore:* 5/8/11 piercing + push 10 ft on a Strong hit.
 
 *Charge:* if the minotaur moves 20+ ft before making a Gore attack, that attack deals damage one tier higher.
 
@@ -362,7 +362,7 @@ HP 22, DR 2 (natural hide).
 
 HP 12, DR 2 (chitin).
 
-*Bite:* 2/4/6 piercing.
+*Bite:* 4/6/8 piercing.
 
 *Rusting Antennae:* as an action, the rust monster touches a metal weapon or suit of armor. Metal armor permanently loses 1 DR (to a minimum of 0). Metal weapons permanently deal damage one tier lower (to a minimum of Weak). If an item's DR or damage is reduced to its minimum, the item is destroyed. Non-metal items are unaffected.
 
@@ -386,7 +386,7 @@ HP 2, DR 0. Tiny.
 
 HP 10, DR 0.
 
-*Club:* 2/4/6.
+*Club:* 4/6/8.
 
 *Charm:* one humanoid within 30 ft must make a Guile check or be Charmed (1/day).
 
@@ -398,11 +398,11 @@ HP 10, DR 0.
 
 HP 16, DR 2.
 
-*Claw:* 6/9/12.
+*Claw:* 5/8/11.
 
 *Illusory Appearance:* appears as any humanoid.
 
-*Vicious Mockery:* 2/4/6 psychic + Bane on next attack (at will).
+*Vicious Mockery:* 4/6/8 psychic + Bane on next attack (at will).
 
 *Coven Magic:* when 3 hags are within 30 ft, they share spellcasting.
 
@@ -414,19 +414,19 @@ HP 16, DR 2.
 
 HP 15, DR 3.
 
-*Bite:* 6/9/12.
+*Bite:* 5/8/11.
 
-*Breath Weapon:* 6/9/12 (15 ft cone, Recharge). Choose color: Red (fire), Blue (lightning), Green (poison), Black (acid), White (cold).
+*Breath Weapon:* 5/8/11 (15 ft cone, Recharge). Choose color: Red (fire), Blue (lightning), Green (poison), Black (acid), White (cold).
 
 === Young Dragon (Challenge 6)
 
 HP 30, DR 4.
 
-*Bite:* 6/9/12.
+*Bite:* 5/8/11.
 
-*Claw:* 6/9/12.
+*Claw:* 5/8/11.
 
-*Breath Weapon:* 6/9/12 (30 ft cone, Recharge).
+*Breath Weapon:* 5/8/11 (30 ft cone, Recharge).
 
 *Multiattack:* Bite + 2 Claws.
 
@@ -436,13 +436,13 @@ HP 30, DR 4.
 
 HP 60, DR 6.
 
-*Bite:* 9/15/21.
+*Bite:* 7/10/14.
 
-*Claw:* 9/15/21.
+*Claw:* 7/10/14.
 
-*Tail:* 9/15/21 (15 ft reach).
+*Tail:* 7/10/14 (15 ft reach).
 
-*Breath Weapon:* 9/15/21 (60 ft cone, Recharge).
+*Breath Weapon:* 7/10/14 (60 ft cone, Recharge).
 
 *Multiattack:* Bite + 2 Claws + Tail.
 
@@ -458,7 +458,7 @@ HP 60, DR 6.
 
 HP 20, DR 2.
 
-*Slam:* 6/9/12 fire.
+*Slam:* 5/8/11 fire.
 
 *Touch:* creatures touching or hitting the elemental take 2 fire.
 
@@ -468,9 +468,9 @@ HP 20, DR 2.
 
 HP 22, DR 2.
 
-*Slam:* 6/9/12 bludgeoning.
+*Slam:* 5/8/11 bludgeoning.
 
-*Whelm:* target must make a Brawn check or be Grappled and take 2/4/6 bludgeoning each round.
+*Whelm:* target must make a Brawn check or be Grappled and take 4/6/8 bludgeoning each round.
 
 *Freeze:* when hit by cold damage, Slowed 10 for 1 round.
 
@@ -482,9 +482,9 @@ HP 22, DR 2.
 
 HP 30, DR 2.
 
-*Greatclub:* 6/9/12.
+*Greatclub:* 5/8/11.
 
-*Rock:* 6/9/12 (range 60/240).
+*Rock:* 5/8/11 (range 60/240).
 
 *Slow-Witted:* Bane on Knowledge, Reason, and Guile checks.
 
@@ -492,9 +492,9 @@ HP 30, DR 2.
 
 HP 35, DR 4.
 
-*Greatclub:* 9/15/21.
+*Greatclub:* 7/10/14.
 
-*Rock:* 6/9/12 (range 60/240).
+*Rock:* 5/8/11 (range 60/240).
 
 *Stone Camouflage:* Boon on Stealth in rocky terrain.
 
@@ -502,9 +502,9 @@ HP 35, DR 4.
 
 HP 20, DR 2 (thick hide).
 
-*Greatclub:* 2/4/6 bludgeoning. Reach 10 ft.
+*Greatclub:* 4/6/8 bludgeoning. Reach 10 ft.
 
-*Rock:* 2/4/6 bludgeoning (range 30/90).
+*Rock:* 4/6/8 bludgeoning (range 30/90).
 
 *Slow-Witted:* Bane on Knowledge, Reason, and Guile checks.
 
@@ -518,11 +518,11 @@ HP 20, DR 2 (thick hide).
 
 HP 25, DR 3.
 
-*Claw:* 6/9/12.
+*Claw:* 5/8/11.
 
-*Bite:* 6/9/12.
+*Bite:* 5/8/11.
 
-*Spores (Recharge):* all within 15 ft take 6/9/12 poison.
+*Spores (Recharge):* all within 15 ft take 5/8/11 poison.
 
 *Stunning Screech (1/day):* all within 30 ft must make a Fortitude check or be Stunned for 1 round.
 
@@ -532,9 +532,9 @@ HP 25, DR 3.
 
 HP 22, DR 4.
 
-*Claw:* 6/9/12 slashing.
+*Claw:* 5/8/11 slashing.
 
-*Tail:* 6/9/12 piercing.
+*Tail:* 5/8/11 piercing.
 
 *Barbed Hide:* creatures grappling or hitting with melee take 2 piercing.
 
@@ -546,9 +546,9 @@ HP 22, DR 4.
 
 HP 20, DR 1.
 
-*Pseudopod:* 6/9/12 acid.
+*Pseudopod:* 5/8/11 acid.
 
-*Engulf:* moves into target space, Restrained + 6/9/12 acid per round.
+*Engulf:* moves into target space, Restrained + 5/8/11 acid per round.
 
 *Transparent:* requires Standard Perception check to notice when motionless.
 
@@ -558,7 +558,7 @@ HP 20, DR 1.
 
 HP 14, DR 1.
 
-*Slam:* 6/9/12 bludgeoning.
+*Slam:* 5/8/11 bludgeoning.
 
 *Shapechange:* as an action, the doppelganger can assume the appearance of any Medium humanoid it has seen. Its attributes and attacks remain unchanged, but it gains the target's voice and mannerisms. Creatures can make a Reason (Insight) check with a Challenge set by the doppelganger's Guile (Deception) modifier, negated, to see through the disguise.
 
@@ -574,9 +574,9 @@ HP 14, DR 1.
 
 HP 25, DR 3 (regenerates). Attributes: Brawn +2, Fortitude +2, Agility -1, Guile -2, Knowledge -1, Reason -1.
 
-*Claw:* 6/9/12 slashing.
+*Claw:* 5/8/11 slashing.
 
-*Bite:* 6/9/12 piercing.
+*Bite:* 5/8/11 piercing.
 
 *Multiattack:* Claw + Claw + Bite.
 
@@ -590,7 +590,7 @@ HP 25, DR 3 (regenerates). Attributes: Brawn +2, Fortitude +2, Agility -1, Guile
 
 HP 14, DR 1. Attributes: Agility +2, Guile +1, others +0.
 
-*Shadow Claw:* 6/9/12 necrotic. Target's shadow is torn, Bane on Stealth until the end of the encounter.
+*Shadow Claw:* 5/8/11 necrotic. Target's shadow is torn, Bane on Stealth until the end of the encounter.
 
 *Merge with Shadow (Maneuver, at will):* If in dim light or darkness, the stalker becomes Invisible until it attacks or enters bright light.
 
@@ -602,11 +602,11 @@ HP 14, DR 1. Attributes: Agility +2, Guile +1, others +0.
 
 HP 35, DR 4 (bark). Attributes: Brawn +2, Fortitude +2, Agility -2, Knowledge +1, others +0.
 
-*Slam:* 6/9/12 bludgeoning. Reach 15 ft.
+*Slam:* 5/8/11 bludgeoning. Reach 15 ft.
 
 *Rooted Grasp:* Creatures within 20 ft must make an Agility check or be Restrained by erupting roots (Recharge).
 
-*Animate Trees:* As an action, the treant animates one nearby tree as a Lesser Treant (HP 10, Slam 2/4/6) that acts on the treant's initiative.
+*Animate Trees:* As an action, the treant animates one nearby tree as a Lesser Treant (HP 10, Slam 4/6/8) that acts on the treant's initiative.
 
 *Vulnerable: Fire (takes double fire damage).* The treant must make a Morale Check whenever it takes fire damage.
 
@@ -614,21 +614,21 @@ HP 35, DR 4 (bark). Attributes: Brawn +2, Fortitude +2, Agility -2, Knowledge +1
 
 HP 18, DR 2. Attributes: Agility +2, Reason +1, others +0.
 
-*Phase Bite:* 6/9/12 force. Ignores non-magical DR.
+*Phase Bite:* 5/8/11 force. Ignores non-magical DR.
 
 *Blink (Reaction, Recharge):* When hit by an attack, the phase beast may teleport 20 ft. The attack still deals damage, but the beast is no longer adjacent.
 
 *Phasing (Maneuver):* Until the end of its turn, the phase beast can move through solid objects and creatures. It cannot end its turn inside a solid object.
 
-*Unstable:* When the phase beast is reduced to 0 HP, it explodes. All creatures within 10 ft take 6/9/12 force damage (Agility check for half).
+*Unstable:* When the phase beast is reduced to 0 HP, it explodes. All creatures within 10 ft take 5/8/11 force damage (Agility check for half).
 
 === Death Knight (Challenge 8)
 
 HP 40, DR 6 (plate + unholy). Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
 
-*Greatsword:* 9/15/21 slashing.
+*Greatsword:* 7/10/14 slashing.
 
-*Hellfire Orb:* 6/9/12 fire + necrotic (range 90 ft, Recharge).
+*Hellfire Orb:* 5/8/11 fire + necrotic (range 90 ft, Recharge).
 
 *Multiattack:* Greatsword twice.
 

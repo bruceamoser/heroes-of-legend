@@ -312,7 +312,7 @@ These four cards are the attacks every character can make, no Discipline require
 
 Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each is gated by Disciplines: most by a weapon Discipline, though Shield Slam requires Armor and Renewal requires Protection. See @sec-chapter-combat for Action, Maneuver, and Reaction rules.
 
-A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice budget row, 2/4/6), and its Adept and Master rungs print the rows above it. Your weapon contributes no damage of its own: the card carries the numbers, exactly as it does for any other ability. See @sec-chapter-equipment
+A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice budget row, 4/6/8), and its Adept and Master rungs print the rows above it. Your weapon contributes no damage of its own: the card carries the numbers, exactly as it does for any other ability. See @sec-chapter-equipment
 
 === Riposte (Weapon Maneuver)
 
@@ -324,9 +324,9 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* When an enemy deals Weak damage to you, counterattack for 6.
 
-*Adept:* Counterattack for 6/9/12.
+*Adept:* Counterattack for 5/8/11.
 
-*Master:* Counterattack for 9/15/21.
+*Master:* Counterattack for 7/10/14.
 
 === Power Strike (Weapon Maneuver)
 
@@ -352,9 +352,9 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* Hit all adjacent enemies for 6 damage.
 
-*Adept:* Hit all adjacent enemies for 6/9/12 damage.
+*Adept:* Hit all adjacent enemies for 5/8/11 damage.
 
-*Master:* Hit all adjacent enemies for 9/15/21 damage; on a Strong result Prone.
+*Master:* Hit all adjacent enemies for 7/10/14 damage; on a Strong result Prone.
 
 === Cleave (Weapon Maneuver)
 
@@ -394,9 +394,9 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* Deal 6 damage and Push 5 ft; the target is Prone.
 
-*Adept:* Deal 6/9/12 damage and Push 5 ft; on a Strong result Prone.
+*Adept:* Deal 5/8/11 damage and Push 5 ft; on a Strong result Prone.
 
-*Master:* Deal 9/15/21 damage and Push 5 ft; on a Strong result Prone and the target loses its Maneuver.
+*Master:* Deal 7/10/14 damage and Push 5 ft; on a Strong result Prone and the target loses its Maneuver.
 
 === Parry (Weapon Maneuver)
 
@@ -408,9 +408,9 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* +6 DR against one attack and counterattack for 2 damage.
 
-*Adept:* +6/9/12 DR against one attack; on a Strong result counterattack for 2.
+*Adept:* +5/8/11 DR against one attack; on a Strong result counterattack for 2.
 
-*Master:* +9/15/21 DR against one attack; on a Strong result counterattack for 4.
+*Master:* +7/10/14 DR against one attack; on a Strong result counterattack for 4.
 
 === Disarm (Weapon Maneuver)
 
@@ -464,9 +464,9 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* +2 DR against a charge; the attacker takes 6 damage.
 
-*Adept:* +2 DR against a charge; the attacker takes 6/9/12 damage.
+*Adept:* +2 DR against a charge; the attacker takes 5/8/11 damage.
 
-*Master:* +2 DR against a charge; the attacker takes 9/15/21 damage.
+*Master:* +2 DR against a charge; the attacker takes 7/10/14 damage.
 
 === Dual Strike (Weapon Maneuver)
 
@@ -478,9 +478,9 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* Two attacks, each dealing 3 damage (6 total).
 
-*Adept:* Two attacks for 6/9/12 damage total.
+*Adept:* Two attacks for 5/8/11 damage total.
 
-*Master:* Two attacks for 9/15/21 damage total.
+*Master:* Two attacks for 7/10/14 damage total.
 
 === Crushing Blow (Weapon Maneuver)
 
@@ -548,7 +548,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* Regain 6 HP.
 
-*Adept:* Regain 6/9/12 HP.
+*Adept:* Regain 5/8/11 HP.
 
-*Master:* Regain 9/15/21 HP.
+*Master:* Regain 7/10/14 HP.
 ```

@@ -26,7 +26,7 @@ Every magic item is a card, the same shape as a talent or ability card (see @sec
 - *Type:* What the item is: a sword, a cloak, a potion, a wonder. The Type tells you what it occupies and what it interacts with.
 - *Disciplines:* The Disciplines an item grants while attuned (see Discipline Items below). These count as learned Disciplines for prerequisites.
 - *Granted Action:* What the item grants: a Maneuver, an Action, a Reaction, or a Passive. An activated power resolves with a single 3d6 roll, adding your attribute and skill where the power channels your own ability, exactly like an ability card; a consumable's own magic is self-contained and rolls unmodified, as the Potion of Healing prints. One roll, one outcome. There is no separate damage roll.
-- *Weak / Standard / Strong:* The outcome rows for an activated power. Damaging powers key to the damage budget (@sec-damage-budget): Novice 2/4/6, Adept 6/9/12, Master 9/15/21.
+- *Weak / Standard / Strong:* The outcome rows for an activated power. Damaging powers key to the damage budget (@sec-damage-budget): Novice 4/6/8, Adept 5/8/11, Master 7/10/14.
 
 #pagebreak()
 
@@ -455,7 +455,7 @@ A glass vial filled with a shimmering red liquid that catches the light like liq
   outlined: false,
 )
 
-*Variants:* Greater Healing (Rare, 6/9/12 HP), Superior Healing (Very Rare, 9/15/21 HP). These follow the same W/S/S pattern and count as consumables. Greater potions are thick as syrup and glow with inner light. Superior potions are nearly black and taste of nothing at all, the absence of pain, bottled.
+*Variants:* Greater Healing (Rare, 5/8/11 HP), Superior Healing (Very Rare, 7/10/14 HP). These follow the same W/S/S pattern and count as consumables. Greater potions are thick as syrup and glow with inner light. Superior potions are nearly black and taste of nothing at all, the absence of pain, bottled.
 
 === Elixir of Dragon's Breath
 

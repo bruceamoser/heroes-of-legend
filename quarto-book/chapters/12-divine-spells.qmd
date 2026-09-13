@@ -87,9 +87,9 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Restore 6 HP and remove one Bane from the target.
 
-*Adept:* Restore 6/9/12 HP and remove one Bane from the target.
+*Adept:* Restore 5/8/11 HP and remove one Bane from the target.
 
-*Master:* Restore 9/15/21 HP; remove one Bane from the target and the healed target gains a Boon on their next check.
+*Master:* Restore 7/10/14 HP; remove one Bane from the target and the healed target gains a Boon on their next check.
 
 === Restoration (Divine Spell)
 
@@ -101,9 +101,9 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Restore 12 HP and end one condition on the target.
 
-*Adept:* Restore 6/9/12 HP and end one condition on the target.
+*Adept:* Restore 5/8/11 HP and end one condition on the target.
 
-*Master:* Restore 9/15/21 HP and end all conditions on the target.
+*Master:* Restore 7/10/14 HP and end all conditions on the target.
 
 === Tide of Life (Divine Spell)
 
@@ -115,9 +115,9 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Restore 12 HP to each ally in range.
 
-*Adept:* Restore 6/9/12 HP to each ally in range.
+*Adept:* Restore 5/8/11 HP to each ally in range.
 
-*Master:* Restore 9/15/21 HP to each ally in range.
+*Master:* Restore 7/10/14 HP to each ally in range.
 
 === Flesh Renewal (Divine Spell)
 
@@ -129,9 +129,9 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Recurring 4 healing per round for 3 rounds (12 total).
 
-*Adept:* 6/9/12 healing total over 3 rounds.
+*Adept:* 5/8/11 healing total over 3 rounds.
 
-*Master:* 9/15/21 healing total over 3 rounds; regrow a limb over a day.
+*Master:* 7/10/14 healing total over 3 rounds; regrow a limb over a day.
 
 === Soulmend (Divine Spell)
 
@@ -143,9 +143,9 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Restore 12 HP; a target at 0 HP rises to 1 HP without a Wound.
 
-*Adept:* Restore 6/9/12 HP.
+*Adept:* Restore 5/8/11 HP.
 
-*Master:* Restore 9/15/21 HP; return a creature that died within the last minute to life.
+*Master:* Restore 7/10/14 HP; return a creature that died within the last minute to life.
 
 == Protection Spells
 
@@ -159,9 +159,9 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* The target gains +6 DR for 3 turns; an attacker that hits the target takes 2 radiant damage.
 
-*Adept:* The target gains 6/9/12 DR for 1/2/3 turns.
+*Adept:* The target gains 5/8/11 DR for 1/2/3 turns.
 
-*Master:* The target gains 9/15/21 DR for 1/2/3 turns.
+*Master:* The target gains 7/10/14 DR for 1/2/3 turns.
 
 === Sanctuary (Divine Spell)
 
@@ -173,7 +173,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Attacks against the target have Bane for 3 turns; the target cannot be targeted.
 
-*Adept:* Attacks against the target have Bane for 2/4/6 turns, and the target cannot be targeted.
+*Adept:* Attacks against the target have Bane for 4/6/8 turns, and the target cannot be targeted.
 
 *Master:* Attacks against the target have Bane for 3/6/9 turns, and the target cannot be targeted; the ward also covers one ally within 10 ft.
 
@@ -187,9 +187,9 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Allies inside gain +12 DR; undead inside take Burning 3 radiant damage.
 
-*Adept:* Allies inside gain 6/9/12 DR; undead inside take Burning 6 radiant damage.
+*Adept:* Allies inside gain 5/8/11 DR; undead inside take Burning 6 radiant damage.
 
-*Master:* Allies inside gain 9/15/21 DR; undead inside take Burning 9 radiant damage.
+*Master:* Allies inside gain 7/10/14 DR; undead inside take Burning 9 radiant damage.
 
 === Sacred Barrier (Divine Spell)
 
@@ -201,9 +201,9 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Missile attacks are blocked for 3 rounds; creatures that touch the barrier are pushed 5 ft.
 
-*Adept:* Missile attacks across the barrier are blocked and attackers are pushed 5 ft, and creatures passing through take 6/9/12 radiant damage.
+*Adept:* Missile attacks across the barrier are blocked and attackers are pushed 5 ft, and creatures passing through take 5/8/11 radiant damage.
 
-*Master:* Missile attacks across the barrier are blocked and creatures that touch it are pushed 5 ft, and creatures passing through take 9/15/21 radiant damage.
+*Master:* Missile attacks across the barrier are blocked and creatures that touch it are pushed 5 ft, and creatures passing through take 7/10/14 radiant damage.
 
 == Religion Spells
 
@@ -217,9 +217,9 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* 6 radiant damage; +1 damage tier against undead.
 
-*Adept:* 6/9/12 radiant damage; +1 damage tier against undead.
+*Adept:* 5/8/11 radiant damage; +1 damage tier against undead.
 
-*Master:* 9/15/21 radiant damage; +1 damage tier against undead.
+*Master:* 7/10/14 radiant damage; +1 damage tier against undead.
 
 === Righteous Blow (Divine Spell)
 
@@ -231,9 +231,9 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* 6 radiant damage; the target has Bane on its next attack.
 
-*Adept:* 6/9/12 radiant damage; Boon on your next attack, and the target has Bane on its next attack.
+*Adept:* 5/8/11 radiant damage; Boon on your next attack, and the target has Bane on its next attack.
 
-*Master:* 9/15/21 radiant damage; Boon on your next attack, and the target has Bane on its next attack.
+*Master:* 7/10/14 radiant damage; Boon on your next attack, and the target has Bane on its next attack.
 
 === Divine Judgment (Divine Spell)
 
@@ -245,9 +245,9 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* 12 radiant damage; +1 damage tier against undead and fiends.
 
-*Adept:* 6/9/12 radiant damage.
+*Adept:* 5/8/11 radiant damage.
 
-*Master:* 9/15/21 radiant damage.
+*Master:* 7/10/14 radiant damage.
 
 === Pillar of Light (Divine Spell)
 
@@ -259,9 +259,9 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* 12 radiant damage; allies in the light regain 3 HP.
 
-*Adept:* 6/9/12 radiant damage; allies in the light regain 3 HP and gain Boon on their next roll.
+*Adept:* 5/8/11 radiant damage; allies in the light regain 3 HP and gain Boon on their next roll.
 
-*Master:* 9/15/21 radiant damage; allies in the light regain 3 HP, and undead and fiends take double damage from the pillar.
+*Master:* 7/10/14 radiant damage; allies in the light regain 3 HP, and undead and fiends take double damage from the pillar.
 
 === Radiant Beam (Divine Spell)
 
@@ -273,9 +273,9 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* 6 radiant damage; +1 damage tier against undead.
 
-*Adept:* 6/9/12 radiant damage.
+*Adept:* 5/8/11 radiant damage.
 
-*Master:* 9/15/21 radiant damage.
+*Master:* 7/10/14 radiant damage.
 
 === Turn Unholy (Divine Spell)
 
@@ -287,7 +287,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Undead in the cone must make a Morale check with Bane or flee for 3 turns.
 
-*Adept:* Undead and fiends in the cone must make a Morale check with Bane or flee for 2/4/6 turns.
+*Adept:* Undead and fiends in the cone must make a Morale check with Bane or flee for 4/6/8 turns.
 
 *Master:* Undead and fiends in the cone must make a Morale check with Bane or flee for 3/6/9 turns; undead are destroyed at 0 HP.
 
@@ -301,7 +301,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* An extraplanar target is sent away for 3 turns; it cannot return this scene.
 
-*Adept:* An extraplanar target is sent away for 2/4/6 turns; on a Strong result it cannot return this scene.
+*Adept:* An extraplanar target is sent away for 4/6/8 turns; on a Strong result it cannot return this scene.
 
 *Master:* An extraplanar target is sent away for 3/6/9 turns; it cannot return this scene.
 
@@ -333,7 +333,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Creatures passing through take 12 piercing damage and are Restrained.
 
-*Adept:* Creatures passing through take 6/9/12 piercing damage; they are Restrained on a Strong result, Slowed 5 otherwise.
+*Adept:* Creatures passing through take 5/8/11 piercing damage; they are Restrained on a Strong result, Slowed 5 otherwise.
 
-*Master:* Creatures passing through take 9/15/21 piercing damage; they are Restrained.
+*Master:* Creatures passing through take 7/10/14 piercing damage; they are Restrained.
 ```
