@@ -10,7 +10,7 @@ _Figure 18.1: Armor & Shields_
 _Placeholder for final art._
 #pagebreak()
 
-Armor isn't about avoiding hits. Hits happen, that's the always-hit rule in action. Armor is what you wear and what you have been through: boiled leather, rings of steel, a breastplate that has already turned one blade. It is a choice about weight, slots, donning time, and what it says about you. What keeps you standing, though, is what you have trained. Damage Reduction comes from your talents, not from your gear.
+Armor isn't about avoiding hits. Hits happen, that's the always-hit rule in action. Armor is what you wear and what you have been through: boiled leather, rings of steel, a breastplate that has already turned one blade. It is a choice about weight, slots, donning time, and what it says about you. What keeps you standing is the steel you wear and the drills you have run, working together. Damage Reduction comes from your armor and from your talents.
 
 Shields are different. A shield is not a passive number on your sheet, it is an active defense, something you put in the way of a blow. It gives you a reaction that downgrades an incoming hit. Wear your armor. Use your shield. Choose wisely.
 
@@ -20,11 +20,9 @@ Shields are different. A shield is not a passive number on your sheet, it is an 
 
 When you take physical damage, subtract your Damage Reduction (DR) from the damage value. The remainder is what you actually lose from your HP. A hit always lands for at least 1 damage, no matter how much DR you have. Simple.
 
-Your DR comes from talents such as Iron Skin (@sec-chapter-talents-abilities), not from your armor. What you wear can be boiled leather or full plate; the number that keeps you on your feet is the number you trained for.
+Your DR is your armor's DR plus what your talents add. Armor's DR is set by its weight class: light 1, medium 2, heavy 3. Heavier armor is heavier in every sense, and in the kit builder it costs more points. So the steel you wear and the training you have done stack, and a well-armored veteran is harder to hurt than either alone.
 
-*Example:* Kael has Iron Skin at Novice rank, so his DR is 2. A goblin's scimitar hits him for Weak damage (2). 2 - 2 = 0, but damage never drops below 1, so Kael takes 1 damage.
-
-If the goblin lands a Standard hit (4 damage), Kael takes 2 HP. The same DR turns a solid hit into a scratch, whether Kael is wearing boiled leather or nothing at all.
+*Example:* Kael wears light armour, so his armour grants DR 1. He has Iron Skin at Novice rank, which adds +2. His total DR is 3. A goblin's scimitar hits him for Weak damage (2). 2 - 3 would be less than nothing, so Kael takes 1 damage, the minimum a hit can do. When the same goblin lands a Standard hit (4), Kael takes 1 instead of 4.
 
 #pagebreak()
 
@@ -32,24 +30,24 @@ If the goblin lands a Standard hit (4 damage), Kael takes 2 HP. The same DR turn
 
 #figure(
   align(center)[#table(
-    columns: (15.73%, 10.11%, 8.99%, 65.17%),
-    align: (auto, auto, auto, auto,),
-    table.header([Armor], [Class], [Slots], [Notes],),
-    [*Padded*], [Light], [2], [Quilted layers. Cheap, uncomfortable, better than nothing.],
-    [*Leather*], [Light], [2], [Boiled and shaped. The adventuring standard.],
-    [*Studded Leather*], [Light], [2], [Leather reinforced with rivets. Light and quiet, the rogue's choice.],
-    [*Chain Shirt*], [Medium], [2], [Worn under clothing. Flexible and concealable.],
-    [*Breastplate*], [Medium], [3], [Solid chest protection. Leaves the arms free.],
-    [*Half Plate*], [Heavy], [3], [Plates on vitals, chain everywhere else. The pragmatic heavy option.],
-    [*Chain Mail*], [Heavy], [4], [Full-body rings. Loud. Heavy. Effective.],
-    [*Plate*], [Heavy], [4], [The pinnacle of protection. When you need to be the last one standing.],
+    columns: (15.73%, 10.11%, 5.00%, 8.99%, 60.17%),
+    align: (auto, auto, auto, auto, auto,),
+    table.header([Armor], [Class], [DR], [Slots], [Notes],),
+    [*Padded*], [Light], [1], [2], [Quilted layers. Cheap, uncomfortable, better than nothing.],
+    [*Leather*], [Light], [1], [2], [Boiled and shaped. The adventuring standard.],
+    [*Studded Leather*], [Light], [1], [2], [Leather reinforced with rivets. Light and quiet, the rogue's choice.],
+    [*Chain Shirt*], [Medium], [2], [2], [Worn under clothing. Flexible and concealable.],
+    [*Breastplate*], [Medium], [2], [3], [Solid chest protection. Leaves the arms free.],
+    [*Half Plate*], [Heavy], [3], [3], [Plates on vitals, chain everywhere else. The pragmatic heavy option.],
+    [*Chain Mail*], [Heavy], [3], [4], [Full-body rings. Loud. Heavy. Effective.],
+    [*Plate*], [Heavy], [3], [4], [The pinnacle of protection. When you need to be the last one standing.],
   )],
   kind: table,
   outlined: false,
   numbering: none,
 )
 
-What you wear is a choice about weight, donning time, and what it says about you, not about how much damage you stop.
+What you wear is worth its points in DR: light armor grants 1, medium 2, heavy 3. Beyond that, the only other decisions are slots and how long it takes to get into.
 
 #pagebreak()
 
@@ -77,35 +75,35 @@ Shield Block cannot reduce damage below 1. It can be used against melee attacks,
 
 == Worked Example: Choosing Your Armor
 
-Roric is building a dwarf Protector at Level 1. He has Brawn +2, Fortitude +1, 13 HP, 1 Armor Discipline rank, and he has taken Iron Skin at Novice rank, so his DR is 2 whatever he wears. He wants to be the party's wall, but the wall has to fit inside a pack. Here's how he weighs his options:
+Roric is building a dwarf Protector at Level 1. He has Brawn +2, Fortitude +1, 13 HP, 1 Armor Discipline rank, and he has taken Iron Skin at Novice rank, which adds +2 DR. He wants to be the party's wall, but the wall has to fit inside a pack. Here's how he weighs his options:
 
-*Leather:* Light, 2 slots, 1 minute to don. Cheap, quiet, and it leaves 2 slots of gear for the rest of his kit.
+*Leather:* Light, DR 1, 2 slots, 1 minute to don. Its covering costs 1 kit point, leaving 2 for packs.
 
-*Chain Mail:* Heavy, 4 slots, 10 minutes to don. It eats the slots he would rather spend on rope, a lantern, and a spare waterskin, and it takes ten minutes to get into.
+*Chain Mail:* Heavy, DR 3, 4 slots, 10 minutes to don. Its covering costs 3 kit points, leaving none.
 
-Roric takes the leather and says so plainly: his DR is 2 either way. The chain mail would not make him harder to hurt, it would only make him heavier and slower to arm. He would rather carry the rope.
+With leather his total DR is 3; with chain mail it is 5. That is the real trade: two points of DR and two slots against two packs of capability, and a longer time getting into it when the camp is attacked at night. Roric takes the leather. He would rather carry the rope and be able to arm in a minute than be two points harder to hurt and slow to rise.
 
-Armor is a decision about what the character can carry and how fast they can move, and his DR came from his training.
+Armor is a decision about what the character can carry, what they give up in points, and how fast they can arm. The DR is what those points buy, and the choice is whether the extra DR is worth everything else it costs.
 
 #pagebreak()
 
 == Worked Example: Shield Block in Combat
 
-Roric is holding a choke point against two goblins and their orc warchief. He's wearing the leather he chose above and carrying a shield, but the number that matters is on his character sheet: Iron Skin at Novice rank, so his DR is 2. The goblins aren't getting through easily.
+Roric is holding a choke point against two goblins and their orc warchief. He's wearing the leather he chose above, so his armor grants DR 1, and he has Iron Skin at Novice rank for +2. His total DR is 3. He's also carrying a shield, and the board in his hand is about to earn its keep. The goblins aren't getting through easily.
 
 Remember how this works. The DA never rolls for monsters (@sec-chapter-combat) The DA describes the attack and names the Challenge, and Roric's player makes the Defense Roll. Strong defense means the blow lands Weak, Standard means it lands Standard, Weak means it lands Strong. Roric has Parry rank 1 and a shield in hand, so he defends with 3d6 + Brawn + Parry rank - Challenge.
 
-*Goblin 1 attacks:* "The goblin comes in low, scimitar slashing at Roric's shins. Challenge 1." Roric rolls 3d6 + Brawn +2 + Parry +1 - 1 = 3d6 + 2. He rolls 3, 4, 4 = 11 + 2 = 13. *Standard.* The scimitar's Standard damage is 4. DR 2 soaks 2, so Roric takes 2 damage. The blade dings off his shield with a sad _ping._
+*Goblin 1 attacks:* "The goblin comes in low, scimitar slashing at Roric's shins. Challenge 1." Roric rolls 3d6 + Brawn +2 + Parry +1 - 1 = 3d6 + 2. He rolls 3, 4, 4 = 11 + 2 = 13. *Standard.* The scimitar's Standard damage is 4. 4 - 3 = 1 damage. The blade dings off his armor with a sad _ping._
 
-*Goblin 2 attacks:* "The second goblin circles wide, scimitar raised for an overhead cut. Challenge 1." Roric rolls 3d6 + 2. He rolls 1, 2, 3 = 6 + 2 = 8. *Weak.* The blow lands solid: Strong damage, 6. DR 2 soaks it to 4. Roric doesn't flinch. He's at 7 HP now, and he's only been standing here one round.
+*Goblin 2 attacks:* "The second goblin circles wide, scimitar raised for an overhead cut. Challenge 1." Roric rolls 3d6 + 2. He rolls 1, 2, 3 = 6 + 2 = 8. *Weak.* The blow lands solid: Strong damage, 6. 6 - 3 = 3 damage. Roric doesn't flinch. He's at 9 HP now, and he's only been standing here one round.
 
 *Orc warchief attacks:* "The warchief says nothing. He doesn't need to. His greataxe comes around in a two-handed arc. Challenge 3." This is the one that matters. Roric rolls 3d6 + Brawn +2 + Parry +1 - 3 = 3d6. He rolls 4, 4, 3 = 11. *Standard.* The axe lands for Standard damage: 9.
 
 *Roric's player:* "Shield Block."
 
-He spends his reaction. The damage tier drops one step, Standard to Weak, and the incoming damage is now 6. DR 2 soaks 6 down to 4. The greataxe slams into Roric's shield, ringing off the boss like a temple bell. The haft cracks at the binding, but the blade never reaches him.
+He spends his reaction. The damage tier drops one step, Standard to Weak, and the incoming damage is now 6. 6 - 3 = 3 damage. The greataxe slams into Roric's shield, ringing off the boss like a temple bell. The haft cracks at the binding, but the blade never reaches him.
 
-Without the block, Roric takes 9 - 2 = 7 damage, and at 7 HP that swing would have put him down. With it, he takes 4 and stays standing in the choke point. Shield Block is the shield's value now, because the DR comes from Iron Skin and not from the board in his hand.
+That is 1 + 3 + 3 = 7 damage across the round, and Roric stands at 6 HP of his 13. Without the shield he would have taken 9 - 3 = 6 from that swing, and that is the difference between holding the choke point and going down in it. Shield Block is what the board in his hand is for, because the DR came from his armor and his training.
 
 #pagebreak()
 
@@ -116,7 +114,7 @@ Light armor (Padded, Leather, Studded Leather): 1 minute. Medium armor (Chain Sh
 You won't always have time to suit up. If the party is ambushed while camping, the Protector fights in whatever they were sleeping in. Plan accordingly: sleeping in chain mail is exactly as unpleasant as it sounds.
 
 #callout(type: "note", title: "Armor Isn't the Point", body: [
-Your DR is a small, fixed number from a talent like Iron Skin. It will not save you from a bad position, and it will not save you from five goblins. Five goblins all attacking the same target will eventually wear down even the toughest Protector through sheer volume of hits.
+Your DR is a small, fixed number from your armor and from a talent like Iron Skin. It will not save you from a bad position, and it will not save you from five goblins. Five goblins all attacking the same target will eventually wear down even the toughest Protector through sheer volume of hits.
 
 Use cover. Use positioning. Use the fact that you're harder to kill than everyone else to _control where the fight happens._ The Protector's real armor isn't steel, it's standing in the right place at the right time.
 ])

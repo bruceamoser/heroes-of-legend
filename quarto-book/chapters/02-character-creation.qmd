@@ -207,7 +207,7 @@ Adept-tier skills and abilities unlock at Level 3. Master-tier at Level 7. At Le
 
 === Step 8: Equipment
 
-Receive your class starting kit and build it from the six kit points across the four lines. Record your weapon properties and your armor's slot cost; your attack ability cards carry the Weak, Standard, and Strong damage values, and your Damage Reduction comes from your talents, such as Iron Skin. See @sec-chapter-equipment
+Receive your class starting kit and build it from the six kit points across the four lines. Record your weapon properties and your armor's slot cost; your attack ability cards carry the Weak, Standard, and Strong damage values, and your Damage Reduction is your armor's DR plus your talents, such as Iron Skin. See @sec-chapter-equipment
 
 === Step 9: Derived Stats
 

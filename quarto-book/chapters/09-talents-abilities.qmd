@@ -56,11 +56,11 @@ The talents below are general. Any class may take any of them, though a talent t
 
 *Disciplines:* 1 Armor · *Action:* Passive · *Range:* Self · *Keywords:* DR
 
-*Novice:* You have DR 2.
+*Novice:* +2 DR, in addition to your armor's DR.
 
-*Adept:* You have DR 5.
+*Adept:* +5 DR, in addition to your armor's DR.
 
-*Master:* You have DR 8.
+*Master:* +8 DR, in addition to your armor's DR.
 
 === Weapon Focus (Talent)
 
