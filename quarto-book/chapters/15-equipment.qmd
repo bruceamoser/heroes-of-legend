@@ -29,7 +29,7 @@ Pick the weapon that fits your hero, not the one that looks best on paper. They 
     table.header([Weapon], [Disciplines Required], [Properties], [Range], [Cost],),
     [Unarmed], [None], [], [], [],
     [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft (thrown)], [2 gp],
-    [Shortsword], [1 Blades], [Finesse, Light], [], [10 gp],
+    [Shortsword], [1 Blades], [Finesse, Light], [], [1 gp],
     [Longsword], [2 Blades], [Versatile], [], [15 gp],
     [Greatsword], [2 Blades + 1 Heavy Weapon], [], [], [30 gp],
     [Handaxe], [1 Axes], [Light, Thrown], [20/60 ft (thrown)], [5 gp],
@@ -38,12 +38,12 @@ Pick the weapon that fits your hero, not the one that looks best on paper. They 
     [Mace], [1 Heavy Weapon], [], [], [5 gp],
     [Warhammer], [2 Heavy Weapon], [], [], [10 gp],
     [Maul], [3 Heavy Weapon], [], [], [40 gp],
-    [Spear], [1 Polearms], [Reach, Thrown], [20/60 ft (thrown)], [10 gp],
-    [Halberd], [1 Polearms], [Reach], [], [20 gp],
+    [Spear], [1 Polearms], [Reach, Thrown, Two-Handed], [20/60 ft (thrown)], [10 gp],
+    [Halberd], [1 Polearms], [Reach, Two-Handed], [], [9 gp],
     [Throwing Dagger], [1 Blades or 1 Archery], [Finesse, Thrown], [20/60 ft (thrown)], [2 gp],
-    [Shortbow], [1 Archery], [], [60/120 ft], [25 gp],
-    [Longbow], [1 Archery], [], [60/120 ft], [50 gp],
-    [Crossbow], [1 Archery], [Loading], [20/60 ft], [25 gp],
+    [Shortbow], [1 Archery], [Two-Handed], [60/120 ft], [25 gp],
+    [Longbow], [1 Archery], [Two-Handed], [100/200 ft], [50 gp],
+    [Crossbow], [1 Archery], [Loading, Two-Handed], [20/60 ft], [20 gp],
   )],
   kind: table,
   outlined: false,
@@ -71,9 +71,10 @@ Weapons don't just require more of the same Discipline, they require specific co
 - *Versatile*, can be wielded two-handed (Longsword only)
 - *Finesse*, use Agility instead of Brawn for attack and damage (Dagger, Shortsword, Throwing Dagger)
 - *Reach*, can attack targets 10 ft away (Spear, Halberd)
-- *Thrown*, can be thrown (range 20/60 ft: Dagger, Handaxe, Spear)
+- *Thrown*, can be thrown (range 20/60 ft: Dagger, Handaxe, Spear, Throwing Dagger)
 - *Light*, can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe)
 - *Loading*, requires a Maneuver to reload between shots (Crossbow only)
+- *Two-Handed*, must be held in both hands and takes 2 slots (Spear, Halberd, Shortbow, Longbow, Crossbow). Compare *Versatile*, which *may* be used two-handed)
 
 #pagebreak()
 
@@ -83,17 +84,17 @@ Armor provides damage reduction (DR), subtract from incoming physical damage.
 
 #figure(
   align(center)[#table(
-    columns: (25.93%, 55.56%, 18.52%),
-    align: (auto, auto, auto,),
-    table.header([Armor], [Discipline], [DR],),
-    [*Padded*], [None], [1],
-    [*Leather*], [None], [2],
-    [*Studded Leather*], [1 Armor], [2],
-    [*Chain Shirt*], [1 Armor], [3],
-    [*Breastplate*], [2 Armor], [4],
-    [*Half Plate*], [2 Armor], [4],
-    [*Chain Mail*], [2 Armor], [5],
-    [*Plate*], [3 Armor], [6],
+    columns: (23.00%, 47.00%, 15.00%, 15.00%),
+    align: (auto, auto, auto, auto,),
+    table.header([Armor], [Discipline], [DR], [Slots],),
+    [*Padded*], [None], [1], [2],
+    [*Leather*], [None], [2], [2],
+    [*Studded Leather*], [1 Armor], [2], [2],
+    [*Chain Shirt*], [1 Armor], [3], [2],
+    [*Breastplate*], [2 Armor], [4], [3],
+    [*Half Plate*], [2 Armor], [4], [3],
+    [*Chain Mail*], [2 Armor], [5], [4],
+    [*Plate*], [3 Armor], [6], [4],
   )],
   kind: table,
   outlined: false,
@@ -103,8 +104,6 @@ Armor provides damage reduction (DR), subtract from incoming physical damage.
 Full table with Stealth column: see @sec-chapter-armor-shields
 
 Shields: *Buckler* (1 Protection, +1 DR), *Shield* (1 Protection, +2 DR), *Tower Shield* (2 Protection, +3 DR, provides half cover). Prices: see @sec-chapter-armor-shields
-
-#pagebreak()
 
 == Encumbrance
 
@@ -116,7 +115,7 @@ A hero with Brawn +1 has 15 slots. A longsword (1 slot), a backpack (2 slots), a
 
 #image("assets/svg/placeholder-section.svg", width: 60%)
 
-_Figure 17.2: Equipment,_
+_Figure 17.2: Equipment_
 
 _Placeholder for final art._
 #pagebreak()
@@ -161,8 +160,8 @@ The general store doesn't sell magic swords. It sells rope, rations, and the tho
     [*Smith's Tools*], [5 gp], [2], [Forge tools. Required for Craft checks to make or repair metal items.],
     [*Smoke Bomb*], [5 gp], [0], [Throw up to 20 ft. Creates a 10-ft radius of heavy concealment for 1 round; anyone inside is Hidden.],
     [*Spellbook*], [25 gp], [2], [A mage's book of spells. Required to record and prepare arcane spells.],
-    [*Spyglass*], [100 gp], [1], [Magnifies distant objects. Reduce the difficulty of visual Perception checks at long range by one tier (Strong becomes Standard, Standard becomes Weak). Objects beyond 1 mile are still indistinct.],
-    [*Tent (2-person)*], [2 gp], [3], [Canvas shelter. Keeps rain off, holds heat. Sleeping in a tent during severe weather negates the exhaustion penalty for exposure. Two people can squeeze in, three if you're very good friends.],
+    [*Spyglass*], [100 gp], [1], [Magnifies distant objects. You make visual Perception checks at long range with a Boon. Objects beyond 1 mile are still indistinct.],
+    [*Tent (2-person)*], [2 gp], [3], [Canvas shelter. Keeps rain off, holds heat. A night in a tent counts as normal rest even in severe weather; sleeping rough in the same weather is not rest at all. Two people can squeeze in, three if you're very good friends.],
     [*Thieves' Tools*], [25 gp], [1], [Lockpicks, files, and tension wrenches in a leather roll. Required for lockpicking and disabling mechanical traps. Without these, you can't make Thievery checks to pick locks. If you break a pick (fumble), replacement picks cost 5 gp.],
     [*Torch (bundle of 3)*], [1 sp], [1], [Bright light 15 ft, dim light 15 ft. Burns for 1 hour. Can be used as an improvised weapon, 1/1/2 + Brawn fire damage on hit. Wind, rain, or being dropped in water extinguishes.],
     [*Volatile Reagents (alchemist's fire)*], [10 gp], [1], [A vial of unstable chemicals. Thrown as an improvised attack, 2 fire damage on hit, and the target gains Burning 1. A creature already on fire cannot be set alight twice; the vial is wasted.],
@@ -178,8 +177,6 @@ The general store doesn't sell magic swords. It sells rope, rations, and the tho
 #callout(type: "note", title: "Starting Gear", body: [
 New heroes take their class's starting kit (see @sec-chapter-classes); the DA may grant extra coin at campaign start.
 ])
-
-#pagebreak()
 
 == Mounts & Vehicles
 
@@ -243,7 +240,7 @@ The charge must be in a straight line, no zigzagging through trees. The mount mu
 
 *Dismounting:* Costs half your movement in normal circumstances. Emergency dismount (throwing yourself clear) is a free action but requires the same Agility check as mount death, you're choosing to take the risk before the horse goes down.
 
-*Mounted vs. Foot:* Attacks against a mounted target from the ground suffer -1 (you're reaching up). Attacks from a mounted target against someone on foot gain +1 (gravity is on your side). These modifiers cancel if both combatants are mounted or both are on foot.
+*Mounted vs. Foot:* Attacks against a mounted target from the ground carry a Bane, you're reaching up. Attacks from a mounted target against someone on foot carry a Boon, gravity is on your side. Neither applies when both combatants are mounted or both are on foot.
 
 #callout(type: "tip", title: "The Cavalry Arrives", body: [
 A party of four on horseback charging a line of goblins is one of the great joys of this game. The charge is the reason the section exists. Encourage your players to use terrain, momentum, and positioning. A mounted combatant who stands still might as well be on foot.
@@ -281,7 +278,7 @@ Sometimes you need to move more than yourself. Trade goods, siege equipment, the
 - *Upgrades:* Vehicles can be reinforced (+10 HP, costs 25% of base price), armored (+2 DR for passengers, costs 50% of base price), or outfitted with weapon mounts (ballista platform on a ship, crossbow mount on a wagon). Weapon mounts require a crew member to operate and use the weapon's normal damage values.
 
 #callout(type: "tip", title: "Chases", body: [
-For vehicle vs. vehicle chases, a wagon fleeing bandits on horseback, a ship outrunning pirates, use a simple contest. Each round, each side rolls 1d6. The faster side adds a bonus equal to the Speed difference divided by 10 (a 60 ft horse against a 40 ft wagon is +2). The side with the higher total gains 1 success. First side to 3 successes wins, escape or capture. On a tie, something happens, a wheel hits a rock, a sail tears, a horse stumbles. The DA narrates the complication. The chase ends when one side reaches 3 successes, a vehicle is destroyed, or the DA calls it.
+For vehicle vs. vehicle chases, a wagon fleeing bandits on horseback, a ship outrunning pirates, only the pursuer rolls, and the quarry's speed is the difficulty. Each round the pursuer's driver makes one roll on the core 3d6 (@sec-chapter-core-resolution), applying the Speed difference as a Boon or a Bane: a Boon if the pursuer is faster, a Bane if the quarry is. A 10 ft edge is one step, 30 ft is two, 60 ft or more is three. A Standard or Strong result closes one band of distance; a Weak result opens one. Closing three bands means the pursuer catches them, opening three means the quarry escapes, and short of that the chase simply continues, a wheel hits a rock, a sail tears, a horse stumbles, and the DA narrates the near miss.
 ])
 
 Gear is the quiet part of the story. Your players will remember the goblins, the gold, and the horse that died in session three. They will also remember the weight of the longsword and the relief of finding oil for the lantern. Buy it well. Lose it badly. That's the adventure.
