@@ -50,8 +50,8 @@ Pick the weapon that fits your hero, not the one that looks best on paper. They 
   numbering: none,
 )
 
-#callout(type: "note", title: "Kit Weapons", body: [
-Your class starting kit assumes training with its gear: you can wield kit weapons regardless of Discipline prerequisites. Attack ability cards still require their listed Disciplines, wielding a kit weapon does not grant the maneuvers that require them.
+#callout(type: "note", title: "Kit Gear", body: [
+Your class starting kit assumes training with its gear: you can wield kit weapons and use kit armor and shields regardless of Discipline prerequisites. Attack ability cards still require their listed Disciplines, wielding a kit weapon does not grant the maneuvers that require them.
 ])
 
 #callout(type: "note", title: "Melee Damage", body: [
@@ -84,17 +84,17 @@ Armor provides damage reduction (DR), subtract from incoming physical damage.
 
 #figure(
   align(center)[#table(
-    columns: (23.00%, 47.00%, 15.00%, 15.00%),
-    align: (auto, auto, auto, auto,),
-    table.header([Armor], [Discipline], [DR], [Slots],),
-    [*Padded*], [None], [1], [2],
-    [*Leather*], [None], [2], [2],
-    [*Studded Leather*], [1 Armor], [2], [2],
-    [*Chain Shirt*], [1 Armor], [3], [2],
-    [*Breastplate*], [2 Armor], [4], [3],
-    [*Half Plate*], [2 Armor], [4], [3],
-    [*Chain Mail*], [2 Armor], [5], [4],
-    [*Plate*], [3 Armor], [6], [4],
+    columns: (22.00%, 10.00%, 40.00%, 14.00%, 14.00%),
+    align: (auto, auto, auto, auto, auto,),
+    table.header([Armor], [Class], [Discipline], [DR], [Slots],),
+    [*Padded*], [Light], [None], [1], [2],
+    [*Leather*], [Light], [None], [2], [2],
+    [*Studded Leather*], [Light], [1 Armor], [3], [2],
+    [*Chain Shirt*], [Medium], [1 Armor], [3], [2],
+    [*Breastplate*], [Medium], [2 Armor], [4], [3],
+    [*Half Plate*], [Heavy], [2 Armor], [4], [3],
+    [*Chain Mail*], [Heavy], [2 Armor], [5], [4],
+    [*Plate*], [Heavy], [3 Armor], [6], [4],
   )],
   kind: table,
   outlined: false,
