@@ -42,7 +42,7 @@ The difficulty modifier is the simplest tool in your kit, and the one new DAs mi
 
 *Add penalties when the situation fights back.* It's pitch dark (-2). The guard just watched his partner get stabbed and he's on high alert (-2). The lock is dwarven masterwork, the wall is sheer ice, the lie is being told to the king's spymaster (-4). Penalties make the world feel dangerous without making it feel unfair. The players should know _why_ the roll is harder. "The lock is dwarven masterwork" is information. "-4 because I said so" is frustration.
 
-*The guiding rule: don't call for rolls when the outcome isn't in doubt.* The brawler with Brawn +2 wants to kick down a normal wooden door? It breaks. No roll. The woodsman with Survival Adept wants to find edible berries in a temperate forest? They find them. No roll. Rolling dice when there's nothing at stake drains tension from the moments that _do_ matter. Save the dice for when the table is leaning forward, waiting to see what happens.
+*The golden rule: don't call for rolls when the outcome isn't in doubt.* The brawler with Brawn +2 wants to kick down a normal wooden door? It breaks. No roll. The woodsman with Survival Adept wants to find edible berries in a temperate forest? They find them. No roll. Rolling dice when there's nothing at stake drains tension from the moments that _do_ matter. Save the dice for when the table is leaning forward, waiting to see what happens.
 
 #pagebreak()
 
@@ -86,7 +86,7 @@ You don't need a full character sheet for every shopkeeper the party meets. Here
 
 *The quick method:* Assign one attribute at +1 (their strength), one at -1 (their weakness), and the rest at 0. Give them one skill at Adept (+2) that defines their role: the blacksmith has Craft, the guard captain has Intimidation, the courtier has Persuasion. That's enough for most interactions. The party doesn't need to know the apothecary's Brawn score. They need to know she can identify poisons and she has a dry sense of humor.
 
-*Give every NPC a want and a fear.* The guard captain _wants_ a quiet shift, and _fears_ anything that'll mean paperwork. The merchant _wants_ to sell the cursed amulet before it activates again, and _fears_ the party finding out why it's so cheap. A want and a fear take ten seconds to invent and give you everything you need to roleplay the NPC reactively. When the party does something unexpected (and they always will), you don't need to consult a stat block. You just ask: what does this person want, and what are they afraid of? The answer tells you how they respond.
+*Give every NPC a want and a fear.* The guard captain _wants_ a quiet shift, and _fears_ anything that'll mean paperwork. The merchant _wants_ to sell the cursed amulet before it activates again, and _fears_ the party finding out why he's so eager to be rid of it. A want and a fear take ten seconds to invent and give you everything you need to roleplay the NPC reactively. When the party does something unexpected (and they always will), you don't need to consult a stat block. You just ask: what does this person want, and what are they afraid of? The answer tells you how they respond.
 
 *Recycle and remix.* The helpful innkeeper from two towns ago? She's now the nervous apothecary with a different name and a different voice. The party won't notice. They interact with dozens of NPCs. You're the only one tracking them all. Save your creative energy for the NPCs who matter: the recurring villain, the patron, the rival adventuring party. Everyone else can be built from templates.
 
@@ -404,7 +404,7 @@ Every faction rates the party on a seven-point scale. This number moves, sometim
     [0], [*Neutral*], [You're strangers. No favours, no grudges.],
     [+1], [*Friendly*], [You've done right by them. They'll trade favours and open faction-exclusive quests.],
     [+2], [*Trusted*], [You're one of the family. Access to restricted areas and secret information.],
-    [+3], [*Allied*], [The faction would go to war for you. Followers, stronghold support, unique faction favors.],
+    [+3], [*Allied*], [The faction would go to war for you. Followers, a hall and a banner, unique faction favors.],
   )],
   kind: table,
   outlined: false,
