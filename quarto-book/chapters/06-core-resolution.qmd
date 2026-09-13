@@ -147,7 +147,7 @@ He rolls 4, 3, 5 = 12, then adds +1 = 13. *Standard.* The goblin's Standard dama
 
 Kael has no defensive skill in this example, so he uses the baseline formula. Had he trained Dodge, he could have rolled Agility + Dodge rank; with Parry and a weapon or shield in hand, he could have rolled Brawn + Parry rank.
 
-Later, a Knight of the Iron Circle attacks Kael. "Challenge −3," the DA says. Kael rolls 3d6 + 2 − 3 = 3d6 − 1. He rolls 2, 3, 2 = 7 − 1 = 6. *Weak.* The Knight's Strong damage is 12. Kael's armor reduces it to 10. That one hurt.
+Later, a Knight of the Iron Circle attacks Kael. "Challenge −3," the DA says. Kael rolls 3d6 + 2 − 3 = 3d6 − 1. He rolls 2, 3, 2 = 7 − 1 = 6. *Weak.* The Knight's Strong damage is 12. Kael's Iron Skin reduces it to 10. That one hurt.
 
 If Kael had trained the Armor Discipline and taken Iron Skin at Adept rank (DR 5), the Knight's Strong damage of 12 would have been cut to 7. Armor never adds to your Defense Roll. It reduces whatever damage the roll lets through.
 

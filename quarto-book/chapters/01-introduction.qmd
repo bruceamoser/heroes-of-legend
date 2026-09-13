@@ -195,7 +195,7 @@ _Figure 2.5: Designers Desk_
 Before we move on, let me explain why the game works the way it does. These aren't just rules I made up. They're choices I made after watching thousands of sessions at hundreds of tables. Every mechanic in this book exists because I saw something not working at a real table, with real players, and thought: we can do better.
 
 #callout(type: "note", title: "Always-Hit: Something Always Happens", body: [
-I've watched casters spend entire sessions saying "I miss," and I built this game so that never has to happen. Attacks always connect; the roll only decides how hard. For the full rationale, and how armor reduces damage instead of preventing hits, see @sec-chapter-core-resolution
+I've watched casters spend entire sessions saying "I miss," and I built this game so that never has to happen. Attacks always connect; the roll only decides how hard. For the full rationale, and how Damage Reduction softens a hit instead of preventing it, see @sec-chapter-core-resolution
 ])
 
 #callout(type: "note", title: "3d6 Instead of d20: Your Training Matters More Than Your Luck", body: [

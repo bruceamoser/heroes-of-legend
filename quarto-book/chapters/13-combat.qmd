@@ -99,7 +99,7 @@ Damage Reduction (DR) subtracts from the damage a hit does, but a hit always lan
 
 #callout(type: "note", title: "Why Always-Hit?", body: [
 
-Every attack connects; the roll only decides how hard. For the full rationale, and how armor reduces damage instead of preventing hits, see @sec-chapter-core-resolution
+Every attack connects; the roll only decides how hard. For the full rationale, and how Damage Reduction softens a hit instead of preventing it, see @sec-chapter-core-resolution
 ])
 
 == Who Rolls: Players Make All Rolls
