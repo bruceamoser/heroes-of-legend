@@ -1,0 +1,62 @@
+{
+  "id": "f-208",
+  "round": 2,
+  "role": "researcher",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "Independently recomputed in code, and f-004's two headline figures hold exactly, with the mechanism now made explicit. Sorting all 216 ordered 3d6 results into the printed bands, after the two natural-triple overrides are applied, gives Critical 1, Strong 19, Standard 140, Weak 55, Fumble 1. The lowest row changes nothing about the character, so those 55 outcomes return the state the roll found, which makes the procedure memoryless: the eventual-death probability therefore collapses to a closed form instead of needing simulation, one lethal result over the 161 results that end an episode, 0.6211 percent, at an expected 1.3416 rolls. 160 of the 216 rolls resolve the episode short of death, 55 continue it, and one kills. The companion claim checks out too and is the sharper defect: the wound table's Death row is the single all-sixes triple, one of 216 ordered results, and it fires off a below-half-HP trigger that recurs in every serious fight, so the bloodied moment kills at 0.4630 percent per episode while the entire dying state kills at 0.6211 percent, a ratio of exactly 1.3416, numerically the same as the expected number of dying rolls. The two knobs are one system: either the no-op band needs an accumulating threshold, or the instant-death row does not belong on an encounter-triggered wound roll. Two residues left by the earlier repair confirm the missing counter was intended. The Deep Gash row charges a bleed tick as a failed death save, a currency the dying procedure never mints on any surface, and the glossary still promises the roll can worsen the character although no worsening outcome is printed anywhere in the book. Repair scope: mechanic for the counter and the inert band, editorial for the two orphaned terms.",
+  "evidence": [
+    {
+      "source": "13-combat",
+      "claim": "The dying procedure is a bare 3d6 roll with no modifiers, so its outcome space is all 216 ordered results and the printed bands partition the sums 3 through 18.",
+      "quote_or_excerpt": "Each round on your turn, roll 3d6 with no modifiers"
+    },
+    {
+      "source": "13-combat",
+      "claim": "The lowest band states no counter, penalty, or endpoint, so those outcomes leave the character exactly where the roll found them.",
+      "quote_or_excerpt": "You're still dying. The end draws nearer."
+    },
+    {
+      "source": "13-combat",
+      "claim": "The middle band parks the character in the stabilized state, and the chapter says a stabilized character stops rolling, so 160 of 216 results end the episode short of death.",
+      "quote_or_excerpt": "You remain unconscious but stable. Not getting worse."
+    },
+    {
+      "source": "reasoning",
+      "claim": "Enumeration of the 216 ordered 3d6 results against the printed bands gives Critical 1, Strong 19, Standard 140, Weak 55, Fumble 1; because the 55 lowest results re-roll from an identical state, death probability equals 1 over 161, or 0.6211 percent, with 1.3416 expected rolls.",
+      "quote_or_excerpt": "216 results: 1+19+140+55+1; P(death) = 1/161."
+    },
+    {
+      "source": "13-combat",
+      "claim": "The wound table's capstone row kills outright with no survival roll and no stabilization, and it is the single all-sixes D666 triple, one ordered result in 216.",
+      "quote_or_excerpt": "The dice have spoken. No survival rolls."
+    },
+    {
+      "source": "13-combat",
+      "claim": "The wound roll's trigger is a first drop under half maximum HP rather than 0 HP, so the instant-death result can land while the character has never entered the dying state.",
+      "quote_or_excerpt": "drops below half their maximum HP"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Per episode the encounter-triggered wound triple kills at 0.4630 percent and the whole dying procedure kills at 0.6211 percent, a ratio of 216 over 161, identical to the expected number of dying rolls.",
+      "quote_or_excerpt": "Per episode: 1/216 = 0.4630% versus 1/161 = 0.6211%."
+    },
+    {
+      "source": "13-combat",
+      "claim": "The Deep Gash wound charges its bleed tick as a failed death save, a counter the dying procedure never defines on any surface, so the term is orphaned.",
+      "quote_or_excerpt": "each tick counts as a failed death save"
+    },
+    {
+      "source": "21-glossary",
+      "claim": "The glossary says the roll decides whether the character stabilizes, worsens, or dies, but no worsening outcome is printed in the chapter or anywhere else in the book.",
+      "quote_or_excerpt": "stabilize, worsen, or die"
+    },
+    {
+      "source": "22-reference-sheets",
+      "claim": "The at-table dying sheet reprints the same five rows with the same absent counter and threshold, so the inert band is not confined to the chapter under review.",
+      "quote_or_excerpt": "At 0 HP, roll 3d6 each turn"
+    }
+  ],
+  "confidence": 0.92,
+  "rebutting": ["f-004"]
+}

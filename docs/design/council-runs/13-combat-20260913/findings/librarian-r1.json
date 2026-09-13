@@ -1,0 +1,62 @@
+{
+  "id": "f-301",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "The showcase round prints the Knight's plate as DR 4, twice, and nothing else in the book backs that number: the armour chapter's table gives plate 6, core resolution says plate is 6 both in its DR explanation and in its own Knight-versus-Kael defence example, and the magic-item chapter prices adamantine at 7 precisely because plain plate is 6. Only the bestiary's Knight block (4) and Orc Warchief block (3) label plate lower, so the earlier repair that tied the worked example back to the bestiary imported a stat-block error into this chapter's teaching text instead of quarantining it. The arithmetic happens to survive, since both attacks already land on the one-damage floor, but a chapter that prints a plate value four other chapters contradict is not publishable as written, and the bestiary blocks have to be corrected too or the new example will be re-broken on the next pass. A second, smaller split sits on cover: here and in the glossary, half cover and three-quarters cover carry one and the same single Bane, while the reference sheet prices them apart at -1 and -3. On that one this chapter is likely the correct side, but the conflict still has to be resolved before the rule is safe to print, and the armour chapter's planted tower shield, which hands an ally three-quarters cover, currently has no incremental effect because this chapter makes that tier identical to the half cover the shield already gives.",
+  "evidence": [
+    {
+      "source": "13-combat",
+      "claim": "Both of the chapter's damage resolutions against the Knight state plate at DR 4, and 4 is the only DR figure the chapter ever prints for plate.",
+      "quote_or_excerpt": "Knight's plate armor: DR 4."
+    },
+    {
+      "source": "13-combat",
+      "claim": "The cover table gives half cover and three-quarters cover the identical effect, so its attacker-penalty column never separates the two tiers.",
+      "quote_or_excerpt": "[*Three-quarters cover*], [Attacks against you have Bane]"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The armour chapter's table lists plate at DR 6, and no entry in that table carries 4 or 3 with a plate label, so plate printed at 4 or 3 has no basis in the armour rules.",
+      "quote_or_excerpt": "[*Plate*], [300 gp], [3 Armor], [6]"
+    },
+    {
+      "source": "06-core-resolution",
+      "claim": "Core resolution fixes plate at DR 6 twice, once when explaining DR and once inside a Knight-versus-Kael defence example, the same match-up this chapter dramatises, so the two chapters describe one fight with two different armour values.",
+      "quote_or_excerpt": "A knight in plate armor (DR 6)"
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The bestiary's Knight block labels DR 4 as plate while the same chapter's reading guide says monster DR subtracts damage just like hero armour does, which means the label should equal the armour table's plate row rather than a challenge-scaled number.",
+      "quote_or_excerpt": "HP 20, DR 4 (plate)."
+    },
+    {
+      "source": "20-bestiary",
+      "claim": "The Orc Warchief block labels DR 3 as plate, a value that appears nowhere in the armour table at all, not even for lighter suits.",
+      "quote_or_excerpt": "HP 22, DR 3 (plate)."
+    },
+    {
+      "source": "17-magic-items",
+      "claim": "The adamantine plate entry treats plain plate as DR 6 by printing 7 as the upgrade over it, giving a fourth chapter that sides with the armour table.",
+      "quote_or_excerpt": "DR 7 (Plate is normally 6)"
+    },
+    {
+      "source": "22-reference-sheets",
+      "claim": "The reference sheet is the only place that prices the two cover tiers apart, at minus one and minus three, matching neither this chapter's table nor the glossary.",
+      "quote_or_excerpt": "[Three-quarters], [-3]"
+    },
+    {
+      "source": "21-glossary",
+      "claim": "The glossary repeats the single-Bane treatment for both cover tiers, so this chapter and the glossary agree and the reference sheet is the outlier on cover.",
+      "quote_or_excerpt": "both give attackers a Bane"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The tower shield already grants its bearer half cover and can be planted to give a nearby ally three-quarters cover, so with this chapter's two tiers identical the planted mode adds nothing mechanical.",
+      "quote_or_excerpt": "grant three-quarters cover to one ally"
+    }
+  ],
+  "confidence": 0.8,
+  "rebutting": []
+}

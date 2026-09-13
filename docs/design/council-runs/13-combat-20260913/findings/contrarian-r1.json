@@ -1,0 +1,47 @@
+{
+  "id": "f-131",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "The chapter's condition table ends Grappled and Restrained with an 'Escape action', and nothing in the book defines that action, so the chapter's own source-of-record section for grappling leaves the escapee's procedure unwritten. Grappling defines the initiation roll and then only what the holding character may spend an Action on (Pin, Throw, Choke); the held creature gets no cost, no roll, and no opposing side for breaking free. At the table this is a dead end the DA must improvise for a basic maneuver, and it is exactly where the section's pull-quote promise of continued counterplay fails: the escape procedure that promise implies was never written. The same table shows the chapter knows how to route an 'Ends' cell through a defined action, since Prone exits on Stand Up, which is printed in the Basic Maneuvers table and in the glossary; no Escape action appears in either. Tested and clean, for the record: the 56 achievable sorted D666 results are all mapped by the wound table and no named triple falls inside a listed range, and the worked example's HP, DR and morale arithmetic all recompute correctly. Tested and doubtful: the Surprise penalty and the Defend bonus are stated numerically in one table and as a Boon/Bane elsewhere, which is a separate conversion question I am not filing here.",
+  "evidence": [
+    {
+      "source": "13-combat",
+      "claim": "The Grappled row lists Escape action as the condition's only end condition.",
+      "quote_or_excerpt": "[*Grappled*], [Speed 0], [Escape action]"
+    },
+    {
+      "source": "13-combat",
+      "claim": "The Restrained row ends the same way, again naming an action no chapter defines.",
+      "quote_or_excerpt": "[*Restrained*], [Speed 0, attack Bane], [Escape action]"
+    },
+    {
+      "source": "13-combat",
+      "claim": "The Grappling section spells out only what the character doing the holding may spend an Action on, so it never states how the held creature gets out.",
+      "quote_or_excerpt": "While grappling, you may use your Action to"
+    },
+    {
+      "source": "13-combat",
+      "claim": "The section's pull-quote promises the held creature retains counterplay, which the missing escape rule never delivers.",
+      "quote_or_excerpt": "A grappled creature can still fight back"
+    },
+    {
+      "source": "13-combat",
+      "claim": "The same table routes Prone's exit through a maneuver that exists, unlike the escape cell, so the escape cell is not merely terse shorthand.",
+      "quote_or_excerpt": "[*Prone*], [Melee Boon vs you, ranged Bane], [Stand up (maneuver)]"
+    },
+    {
+      "source": "21-glossary",
+      "claim": "The glossary enumerates the basic maneuvers available to everyone and the list contains no escape entry.",
+      "quote_or_excerpt": "Disengage, Aid, Shove, Grapple, Command, Catch Breath, Search, Stand Up, Use Item"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Grepping every chapter for the phrase returns four hits, all of them the two condition tables in 13-combat and 22-reference-sheets, with zero definitions.",
+      "quote_or_excerpt": "4 hits: ch13 twice, ch22 twice, no definition anywhere"
+    }
+  ],
+  "confidence": 0.8,
+  "rebutting": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": "f-913",
+  "round": 1,
+  "role": "game-architect",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "The chapter presents Dying and Death as its lethality procedure, and that procedure cannot kill: its only lethal row is the three-natural-1s Fumble, one of the 216 ordered 3d6 results. Tallying the rows on lines 338-356 gives Critical 1, Strong 19, Standard 140, Weak 55, Fumble 1. The Standard row parks the character in the stabilized state, and line 356 states that a stabilized character stops rolling, so 160 of 216 rolls (74.1% per round) terminate the procedure, for an expected 1.34 rounds of rolling. The Weak band, 55 of 216 rolls (25.5%), is the escalation beat and carries nothing: it returns the character to the state they already occupied, with no counter, no penalty and no endpoint, so nothing accumulates toward death. Measured from 0 HP to resolution, a character dies 1 time in 161, or 0.62%. Upstream lookup material promises more: the glossary says the roll decides whether the character worsens, but no worsening state is defined in the chapter or elsewhere in the book, and the at-table Dying sheet reprints the same five rows with the same missing counter, so a DA cannot tell a player how long this lasts or what changes. Lethality is instead assigned to the D666 wound table, whose 666 row (1 roll in 216) kills outright while foreclosing survival rolls and stabilization, on a trigger that is merely a first drop under half maximum HP: that fires in every serious fight and well before 0 HP. The result inverts the threat model. Being bloodied is roughly as deadly as bleeding out is (1 in 216 versus 1 in 161 per episode), and the deadliest moment in the book arrives while the character is still standing above half health with no dying state at all, which is exactly the opposite of the escalation the design claims. Repair direction: give the Weak band an accumulating counter with a stated death threshold, or declare that only the fumble kills and cut the escalation language from the row. A lowest band that is a no-op is not a procedure; as written the chapter's death system decides nothing and the DA has to invent the missing rule at the table.",
+  "evidence": [
+    {
+      "source": "13-combat",
+      "claim": "The Dying table's Weak band, 55 of the 216 ordered 3d6 results, states no counter, penalty or endpoint, so it returns the character to the state they were already in.",
+      "quote_or_excerpt": "You're still dying. The end draws nearer."
+    },
+    {
+      "source": "13-combat",
+      "claim": "The Fumble row is the Dying table's only lethal outcome, at one result in 216.",
+      "quote_or_excerpt": "Death. Three natural 1s overrides all tier results."
+    },
+    {
+      "source": "13-combat",
+      "claim": "Stabilizing ends the procedure permanently, so the Standard row is a terminal outcome rather than a pause in the dying state.",
+      "quote_or_excerpt": "no longer rolling to survive"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Band tally over the 216 ordered 3d6 results: Critical 1, Strong 19, Standard 140, Weak 55, Fumble 1. 160 of 216 end the procedure per round (74.1%), expected 1.34 rounds, and the probability an episode ends in death rather than in resolution is 1 in 161 (0.62%).",
+      "quote_or_excerpt": "1/216 lethal; 55/216 no-op; 160/216 terminal; P(death) = 1/161"
+    },
+    {
+      "source": "21-glossary.qmd",
+      "claim": "The glossary says the roll decides whether the character worsens, but no worsening state is defined in the chapter or in the book.",
+      "quote_or_excerpt": "stabilize, worsen, or die"
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "The at-table quick reference reprints the identical five Dying rows and likewise supplies no counter or death threshold.",
+      "quote_or_excerpt": "You're still dying. The end draws nearer."
+    },
+    {
+      "source": "13-combat",
+      "claim": "The wound table's capstone row kills outright at one roll in 216, explicitly foreclosing both survival rolls and stabilization.",
+      "quote_or_excerpt": "No survival rolls. No stabilization."
+    },
+    {
+      "source": "13-combat",
+      "claim": "The wound trigger is a below-half-HP threshold, not 0 HP, so the instant-death row can fire while the character has never been dying.",
+      "quote_or_excerpt": "drops below half their maximum HP"
+    }
+  ],
+  "confidence": 0.8,
+  "rebutting": []
+}

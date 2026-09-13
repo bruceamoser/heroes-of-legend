@@ -1,0 +1,37 @@
+{
+ "id": "f-500",
+ "round": 1,
+ "role": "editor-in-chief",
+ "topic": "t-03",
+ "stance": "refute",
+ "argument": "The chapter is the book's source of record for the condition table, but neither downstream lookup surface reproduces it. Table 13.3 defines 22 conditions; the glossary's Condition headword enumerates only 14, and the reference sheet's conditions quick-reference carries just 21 rows. One condition, Hidden, is the casualty of both: it is the only missing row in the reference sheet, and in the glossary it is neither named in the enumeration nor given an entry of its own, which makes it the single condition a reader cannot look up anywhere. The two surfaces also disagree on what Blinded does, since the reference sheet re-specifies it as a one-tier attack penalty while the chapter calls it a double Bane. A reader who learns conditions from the glossary or the sheet therefore gets an incomplete list and, for Blinded, a different rule than the chapter's; that is broken, not merely incomplete, because it will be played as written. Smallest fix: add the eight omitted names to the glossary enumeration, give Hidden its own glossary line, and add a Hidden row to the reference sheet plus reconcile its Blinded row to Table 13.3.",
+ "evidence": [
+  {
+   "source": "13-combat",
+   "claim": "Table 13.3 defines 22 conditions, including Hidden, and states Blinded as a double Bane.",
+   "quote_or_excerpt": "[*Blinded*], [Attacks at double Bane]"
+  },
+  {
+   "source": "13-combat",
+   "claim": "Hidden is a defined condition in the chapter table, with attacks against the creature taking a Bane.",
+   "quote_or_excerpt": "[*Hidden*], [Attacks against you have Bane]"
+  },
+  {
+   "source": "21-glossary.qmd",
+   "claim": "The Condition headword enumerates only 14 names; the eight omitted are Asleep, Burning, Confused, Dazed, Frozen, Hidden, Poisoned and Slowed.",
+   "quote_or_excerpt": "A temporary status effect. Blinded, Charmed, Dazzled, Deafened"
+  },
+  {
+   "source": "21-glossary.qmd",
+   "claim": "Seven of the eight omitted names get their own entries beneath the headword (Asleep, Burning, Confused, Dazed, Frozen, Poisoned, Slowed), but Hidden has no entry at all, so it is the one condition the glossary never defines.",
+   "quote_or_excerpt": "*Asleep X:* Falls asleep for X minutes."
+  },
+  {
+   "source": "22-reference-sheets.qmd",
+   "claim": "The conditions quick-reference lists 21 conditions, omitting Hidden, and its Blinded row describes a one-tier attack reduction rather than the chapter's double Bane.",
+   "quote_or_excerpt": "[*Blinded*], [Attacks reduced one tier]"
+  }
+ ],
+ "confidence": 0.9,
+ "rebutting": []
+}

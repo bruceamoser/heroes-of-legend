@@ -1,0 +1,44 @@
+{
+  "id": "f-008",
+  "round": 2,
+  "role": "contrarian",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "The finding's arithmetic survives a rebuild but the claims built on it do not, so the refute should be narrowed rather than carried as filed. Rebuilding the Dying table over all 216 ordered 3d6 results reproduces the band tally exactly, and once the lethal row is counted as a terminus, 161 results end an episode: that is 74.5 percent per round, not the 74.1 percent printed, which means the per-round rate and the 1-in-161 death denominator are drawn from two different counts. I tested the alternate reading in which the Standard row is a pause rather than an exit; the sentence that sends a stable character out of the rolling state closes that reading, so the arithmetic is not the weak point (under the alternate reading death would be 1 in 21 and duration about ten rounds, a swing worth knowing but not one the text supports). The weak points are the labels. A procedure that ends an episode in death roughly 0.62 percent of the time is not one that cannot kill, and the finding's own figure contradicts its own headline; the lethal row is a defined outcome, not a flourish. Calling the 55-result band a no-op also contradicts the finding's use of it, since it is the table's only non-terminal band, and therefore the whole reason an episode lasts past one roll and the source of the 1.34-round figure. What is genuinely wrong there is narrower and should be said that way: the row promises escalation while assigning no counter or penalty. Same at clause level: the wound trigger is a drop to or below half maximum HP, so the phrase about a character standing above half health inverts the trigger it is describing. Net position: this section is a working procedure with a small, specific gap (an escalation promise with no backing, an undefined death-save reference), and treating it as a death system that decides nothing overstates severity and points the fix at the wrong row.",
+  "confidence": 0.7,
+  "evidence": [
+    {
+      "source": "reasoning",
+      "claim": "Recomputing the table from its own band boundaries reproduces the finding's tally exactly, and counting the lethal row as a terminus gives 161 ending results rather than 160, so the printed 74.1 percent per-round rate and the 1-in-161 death denominator are inconsistent with each other.",
+      "quote_or_excerpt": "Critical 1, Strong 19, Standard 140, Weak 55, Fumble 1"
+    },
+    {
+      "source": "13-combat",
+      "claim": "The Fumble row names death as its outcome, so the procedure does kill; the finding's assertion that this procedure cannot kill is contradicted by the chapter and by the finding's own 0.62 percent figure.",
+      "quote_or_excerpt": "Death. Three natural 1s overrides all tier results."
+    },
+    {
+      "source": "13-combat",
+      "claim": "The Weak row names a continuing dying state and is the table's only non-terminal band, so it is the reason an episode can exceed a single roll; calling it inert contradicts the finding's own duration figure.",
+      "quote_or_excerpt": "You're still dying. The end draws nearer."
+    },
+    {
+      "source": "13-combat",
+      "claim": "The chapter ends the rolling state once a character is stable, which is what makes the Standard and Strong rows terminal and fixes the tallies; this sentence is the only text that settles the alternative reading in which the Standard row is merely a pause.",
+      "quote_or_excerpt": "Once stable, you're unconscious at 0 HP but no longer rolling"
+    },
+    {
+      "source": "13-combat",
+      "claim": "The wound roll's trigger is a drop to or below half maximum HP, so the finding's phrase about the character still standing above half health inverts the trigger it describes.",
+      "quote_or_excerpt": "drops below half their maximum HP (round down) during an encounter"
+    },
+    {
+      "source": "13-combat",
+      "claim": "The Deep Gash row sends a bleeding character at 0 HP to a death-save mechanic, and no death-save mechanic is defined in the dying section, so the section genuinely is incomplete, though not for the reason the finding gives.",
+      "quote_or_excerpt": "each tick counts as a failed death save"
+    }
+  ],
+  "rebutting": [
+    "f-004"
+  ]
+}

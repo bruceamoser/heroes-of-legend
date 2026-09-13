@@ -1,0 +1,42 @@
+{
+  "id": "f-011",
+  "round": 2,
+  "role": "librarian",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "Refute, and a correction to round 1's scope: the chapter teaches the Defend maneuver two incompatible ways, and the deviant statement sits in the lookup table players actually use. The Basic Maneuvers table grants a Boon on the defense roll until the character's next turn; both worked-example uses of the maneuver apply that Boon; and the chapter's quick-reference maneuver table repeats the Boon wording, so four surfaces agree. Only the Defend row of the Defense Roll Modifiers summary converts the same maneuver into a flat plus two. Under the locked dice law those are not the same rule, since a Boon is a four-die keep-highest-three roll rather than a modifier, so a reader looking up defense math in the summary gets a procedure the maneuver table and the play example contradict. This is an internal contradiction within one chapter, not an open conversion question: the book has already settled the Boon form and the summary cell is the outlier to conform. Round 1 saw it and let it pass; none of the seven shipped findings files it, and the t-02 set covers only the undefined escape action, the dying procedure and the wound table. The companion row in that same summary, Surprised at minus two, is a cross-chapter matter against chapter 19 and belongs to a t-03 lens. Repair is one cell, or the maneuver plus its example instead if a flat bonus is the real intent; either way the chapter cannot ship teaching both.",
+  "evidence": [
+    {
+      "source": "13-combat",
+      "claim": "The Basic Maneuvers table defines Defend as granting a Boon on the user's defense roll until their next turn.",
+      "quote_or_excerpt": "Boon on your Defense roll until your next turn."
+    },
+    {
+      "source": "13-combat",
+      "claim": "The defense modifiers summary prices the same maneuver as a flat plus two lasting one round, the only surface in the book that does so.",
+      "quote_or_excerpt": "[+2], [*Defend* maneuver (one round)]"
+    },
+    {
+      "source": "13-combat",
+      "claim": "Both worked-example uses of the maneuver resolve it as a Boon on defense rather than a flat bonus, so the chapter's own teaching text sides with the maneuver table.",
+      "quote_or_excerpt": "a Boon on his Defense roll"
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "The at-table maneuver reference repeats the Boon wording verbatim, so the chapter is split internally and the tiebreak material agrees with the Boon, not the plus two.",
+      "quote_or_excerpt": "Boon on your Defense roll until your next turn"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Round 1 identified this conflict and deliberately withheld it: the contrarian finding names the numeric-versus-Boon mismatch on Defend as a conversion question it chose not to file, which is why the defect is absent from the ledger.",
+      "quote_or_excerpt": "the round saw this conflict and left it unfiled"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Independent recomputation of the dying procedure's outcome space reproduces Critical 1, Strong 19, Standard 140, Weak 55, Fumble 1, a 74.1 percent per-round termination rate, a 1.34-round expectation and a one-in-161 death rate, so no arithmetic refute is owed on that finding, and all 56 sorted D666 results map to a wound row with no named triple inside a listed range.",
+      "quote_or_excerpt": "recomputed on the ordered 3d6 space: bands and death rate reproduce exactly"
+    }
+  ],
+  "confidence": 0.88,
+  "rebutting": ["f-002"]
+}

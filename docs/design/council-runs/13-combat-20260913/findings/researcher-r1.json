@@ -1,0 +1,62 @@
+{
+ "id": "f-001",
+ "round": 1,
+ "role": "researcher",
+ "topic": "t-03",
+ "stance": "refute",
+ "argument": "Chapter 13's worked example fixes the Knight's armor at DR 4 in three places (lines 462, 488, 510), and that figure is the bestiary's outlier rather than the book's plate value. Five other chapters place plate at DR 6: ch06 fixes 6 for a plate-wearing knight on two separate lines, ch15's equipment table, ch16's armor table plus its gear walkthrough, ch17's star-metal suit (which names 6 as the plate norm while granting 7), and ch22's at-table reference sheet. Ch16's own Armor Discipline ladder puts DR 4 at breastplate and half-plate grade and reserves 6 for the three-rank plate entry, so the number in ch13 cannot stand as a deliberate downgrade of the same item; the expected value is 6 in all three citations. The same edit is owed to the bestiary Knight at line 130, and two further plate-labelled entries sit below the norm (Orc Warchief DR 3 at line 224, Death Knight DR 5 at line 627). Fix scope is mechanical and cascade-free: each of the three hits in the example totals 4 before armor, and 4 minus 4 and 4 minus 6 both collapse to the 1-damage floor, so no tier, HP ledger, or narrative beat moves. The earlier repair that re-synced the example to the bestiary carried the outlier forward, which is why ch13 now agrees with ch20 and disagrees with every chapter that defines armor; which side moves is a design call for the lead designer, but the evidence weight is five sources to one, so the armor chapters are canon and DR 4 is the propagated error.",
+ "evidence": [
+  {
+   "source": "13-combat",
+   "claim": "The worked example states the Knight's plate value as DR 4 at three anchors (462, 488, 510); at line 462 the Strong hit totals 4 and the subtraction bottoms out on the 1-damage floor.",
+   "quote_or_excerpt": "Knight's plate armor: DR 4"
+  },
+  {
+   "source": "13-combat",
+   "claim": "The second and third citations repeat the same 4 at line 488 (Roric's warhammer) and line 510 (Kael's second round), so a repair must edit three lines, not one.",
+   "quote_or_excerpt": "Knight's DR: 4"
+  },
+  {
+   "source": "16-armor-shields.qmd",
+   "claim": "The armor chapter prices plate at DR 6 both in its table and in its purchase walkthrough; its Armor Discipline ranks place DR 4 at breastplate and half-plate grade, so a plate entry of 4 contradicts the chapter's own ladder.",
+   "quote_or_excerpt": "Option C, Plate (DR 6, 3 Armor Disc)"
+  },
+  {
+   "source": "17-magic-items.qmd",
+   "claim": "A magic full-plate item states the norm explicitly when it grants one point above it, which makes 6 the stated plate baseline for the whole book.",
+   "quote_or_excerpt": "DR 7 (Plate is normally 6)"
+  },
+  {
+   "source": "06-core-resolution.qmd",
+   "claim": "Core resolution repeats DR 6 for plate in its damage-reduction paragraph and again in its defense example at line 150, so the norm is stated twice in the physics chapter.",
+   "quote_or_excerpt": "A knight in plate armor (DR 6)"
+  },
+  {
+   "source": "15-equipment.qmd",
+   "claim": "The equipment table prints plate as DR 6 with a 3-Armor entry requirement, matching ch16 and ch22.",
+   "quote_or_excerpt": "[*Plate*], [3 Armor], [6],"
+  },
+  {
+   "source": "22-reference-sheets.qmd",
+   "claim": "The at-table reference sheet that play groups actually use also prints plate at 6, so the quick-reference material agrees with the armor chapters.",
+   "quote_or_excerpt": "[Plate], [6], [Bane], [3 Armor]"
+  },
+  {
+   "source": "20-bestiary.qmd",
+   "claim": "The Knight of the Iron Circle stat block is the article ch13 matched: it labels plate at DR 4, one point below half plate's grade and two below plate's canonical value.",
+   "quote_or_excerpt": "HP 20, DR 4 (plate)"
+  },
+  {
+   "source": "20-bestiary.qmd",
+   "claim": "Two further plate-labelled stat blocks print values below the canonical 6 (Orc Warchief 3, Death Knight 5), so the plate label in the bestiary is not a reliable single value and needs a sweep, not a one-line patch.",
+   "quote_or_excerpt": "HP 22, DR 3 (plate)"
+  },
+  {
+   "source": "reasoning",
+   "claim": "Correcting 4 to 6 changes no output in the worked example: each of the three hits totals 4 before armor, so 4-4=0 and 4-6=-2 both floor at 1, leaving the Knight's 20-to-17 ledger, every tier call, and the narrative unchanged. Expected 4 -> 6 is a text substitution with no downstream recompute.",
+   "quote_or_excerpt": "4 − 4 → minimum 1 damage"
+  }
+ ],
+ "confidence": 0.9,
+ "rebutting": []
+}

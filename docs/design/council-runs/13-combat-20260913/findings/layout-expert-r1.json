@@ -1,0 +1,42 @@
+{
+ "id": "f-707",
+ "round": 1,
+ "role": "layout-expert",
+ "topic": "t-01",
+ "stance": "refute",
+ "argument": "Refute: the chapter's page flow is still broken in the render, in a class the heading fix cannot reach. The conditions table prints all 22 of its rows on one page, and then its caption alone heads the following page, so the label is separated from the table it labels (printed pages 200 and 201); the only other content on page 201 is the concealment paragraph, and the remainder is blank. A second page, 210, carries a single four-line paragraph and nothing else, because the wound tables are pinned to their own page and the explicit break after the healing paragraph seals it off. Two of the chapter's roughly twenty-six printed pages are therefore near-empty whitespace, and a reader who lands on page 201 first sees a table caption with no table beneath it. The sticky keep-with-next change that just landed cannot see either case, because the stranded objects are a figure caption and a body paragraph, not headings. Smallest fix: keep the caption with its figure, either by wrapping the table figure in a non-breaking block or by moving the explicit break that follows the concealment paragraph so table and caption stay on one page, and drop or relax the break that strands the healing paragraph. Separate verification for the two D666 wound tables: they are NOT defective in this build. Part 1 sits whole on printed page 208 and part 2 whole on printed page 209, each with exactly one caption and no clipped or orphaned row, so the historical overflow and doubled-caption defect is genuinely fixed.",
+ "evidence": [
+  {
+   "source": "13-combat",
+   "claim": "The source attaches a printed caption to the conditions figure, and the caption is declared after the 22-row table block, so it is the element that trails the table at the page foot (source line 215).",
+   "quote_or_excerpt": "caption: [Table 13.3: Conditions]"
+  },
+  {
+   "source": "13-combat",
+   "claim": "The conditions table runs 22 rows, from Asleep X to Unconscious, so the caption is trying to fit after a full-page table (source lines 191 to 213).",
+   "quote_or_excerpt": "[*Unconscious*], [Incapacitated + prone + unaware]"
+  },
+  {
+   "source": "13-combat",
+   "claim": "In the built PDF (Typst 0.15.1, 367 pages) the conditions table body ends at the foot of printed page 200 with no caption under it, while printed page 201 opens with the caption line alone, followed only by the concealment paragraph; the rest of page 201 is empty. Rendered page 201 was inspected directly as an image to confirm no table appears there.",
+   "quote_or_excerpt": "Table 13.3: Conditions"
+  },
+  {
+   "source": "13-combat",
+   "claim": "Printed page 210 holds only the four-line healing paragraph that follows the wound tables (source line 411), with the rest of the page blank, which is the same pagination failure in a second location.",
+   "quote_or_excerpt": "Healing Wounds. Wounds persist after HP is restored."
+  },
+  {
+   "source": "13-combat",
+   "claim": "The two D666 wound tables render correctly in this build: part 1 occupies printed page 208 with its caption and all nine rows intact, part 2 occupies printed page 209 with its caption and all six rows plus the precedence note intact. No row is clipped and no caption is duplicated, so the previously reported wound-table overflow and double-caption are fixed.",
+   "quote_or_excerpt": "Table 13.4: Wound Table (D666), part 1 of 2"
+  },
+  {
+   "source": "reasoning",
+   "claim": "The caption cannot be rescued by the new sticky keep-with-next rules for heading levels 3 to 5, since the stranded items are a figure caption and a body paragraph rather than a heading; the caption needs its own non-breaking container or a change to the pagebreak that follows the concealment paragraph.",
+   "quote_or_excerpt": "keep caption with table; relax the trailing break"
+  }
+ ],
+ "confidence": 0.85,
+ "rebutting": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "f-013",
+  "round": 1,
+  "role": "author",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "Chapter 13 resolves the Morale Check two different ways across its two worked examples, and the ambush example invents a procedure the Morale section never grants. The Morale section fixes the check at a bare 3d6 with no modifiers and offers no route to a Boon or a Bane on it; the glossary agrees. The temple example follows that rule, rolling a plain 3d6 for the Knight. The forest ambush does not: it declares an automatic Morale Check with a Bane, and the bandit then rolls three dice. That is wrong twice over. The morale procedure admits no modifiers, so the Bane has no source in the rule, and a Bane in this system is a 4d6 keep-lowest-three roll per chapter 6, which three dice cannot produce. A new reader learning the procedure from the chapter's own teaching instruments is shown two incompatible versions and a dice pool the rules never describe. Minimal fix: drop the Bane and resolve the bandit's morale as plain 3d6, matching the temple example. Larger fix: add an explicit sentence to the Morale section stating when a Morale Check takes a Boon or a Bane.",
+  "evidence": [
+    {
+      "source": "13-combat",
+      "claim": "The Morale section fixes the check as an unmodified roll and supplies no way to apply a Boon or Bane to it.",
+      "quote_or_excerpt": "rolls 3d6 with no modifiers"
+    },
+    {
+      "source": "13-combat",
+      "claim": "The temple worked example resolves its morale check with a plain three-die roll, obeying the section.",
+      "quote_or_excerpt": "Lyra rolls for the Knight: 3d6."
+    },
+    {
+      "source": "13-combat",
+      "claim": "The ambush worked example announces a Bane on the same check yet still rolls only three dice.",
+      "quote_or_excerpt": "Morale Check with a Bane. Bandit rolls: 1, 3, 2"
+    },
+    {
+      "source": "06-core-resolution",
+      "claim": "A Bane is defined as four dice keeping the lowest three, so it cannot be resolved on a three-die roll.",
+      "quote_or_excerpt": "Bane 1: roll 4d6, keep the _lowest_ three."
+    },
+    {
+      "source": "21-glossary",
+      "claim": "The glossary repeats the same flat, unmodified definition of a Morale Check, so the ambush example is the odd one out.",
+      "quote_or_excerpt": "Morale Check: A 3d6 roll (no modifiers)"
+    }
+  ],
+  "confidence": 0.85,
+  "rebutting": []
+}
