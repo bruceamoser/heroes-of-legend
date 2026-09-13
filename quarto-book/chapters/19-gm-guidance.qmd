@@ -199,7 +199,7 @@ Proximity to dark magic, forbidden knowledge, and horrific events can corrupt a 
 
 == Social Conflict (Extended)
 
-High-stakes negotiations, interrogations, and trials run as extended social conflicts. The full rulebook lives in the social conflict chapter (@sec-chapter-social-conflict): opposed rolls, the tier-to-success table, first to 3 wins, and the stakes-declared rule. Point players there for the mechanics, and keep one reminder at the table: declare the stakes before the first die hits the table, or the scene never ends.
+High-stakes negotiations, interrogations, and trials run as extended social conflicts. The full rulebook lives in the social conflict chapter (@sec-chapter-social-conflict): the Challenge on the face's roll, the tier-to-success table, first to 3 wins, and the stakes-declared rule. Point players there for the mechanics, and keep one reminder at the table: declare the stakes before the first die hits the table, or the scene never ends.
 
 #pagebreak()
 

@@ -63,7 +63,7 @@ These maneuvers are free for everyone. No skill required. No Discipline check. J
     [*Defend*], [Boon on your Defense roll until your next turn.],
     [*Disengage*], [Move 5 ft without provoking opportunity attacks.],
     [*Aid*], [Ally within 30 ft gains a Boon on their next roll before your next turn.],
-    [*Shove*], [Opposed Brawn vs Brawn/Agility. Push target 5 ft (10 ft on Strong).],
+    [*Shove*], [Brawn against the target's Brawn or Agility as a Challenge. Push target 5 ft (10 ft on Strong).],
     [*Grapple*], [Initiate a grapple (see @sec-grappling).],
     [*Command*], [A companion, familiar, or mount under your control takes an extra move.],
     [*Catch Breath*], [Regain HP equal to your Fortitude score (min 1). Once per combat.],
@@ -227,7 +227,7 @@ Conditions are the status effects that change how a creature behaves in combat. 
 
 You don't always see the fight coming. When one side catches the other flat-footed, the ambushing side acts first in the opening round, regardless of initiative rolls. Surprised targets take a Bane on their first roll. They're reacting, not acting. That half-second of hesitation costs them.
 
-To determine surprise, the ambushing side rolls Stealth opposed by the target's passive Insight (Knowledge score + 7). Standard or Strong success means surprise is achieved. Weak means the target heard something, a snapped twig, a hissed whisper, and is ready.
+To determine surprise, the ambushing side rolls Stealth with a Challenge set by the target's Knowledge modifier, negated: a sharp-eyed sentry with Knowledge +2 is a Challenge of −2. Standard or Strong success means surprise is achieved. Weak means the target heard something, a snapped twig, a hissed whisper, and is ready.
 
 #quote[*DA Guidance:* Don't let the party surprise every encounter just because the rogue has high Stealth. Surprise requires genuine tactical edge, darkness, distraction, or terrain. Walking up to a guard in plain sight and saying "I hide" isn't surprise. It's comedy.]
 
@@ -238,7 +238,7 @@ To determine surprise, the ambushing side rolls Stealth opposed by the target's 
 
 Sometimes you don't want to kill them. Sometimes you want to hold them still while your friends ask questions. Or choke them out. Or throw them off a bridge. Grappling covers all of it.
 
-To initiate a grapple, make a Brawn (Athletics) roll opposed by the target's Brawn (Athletics) or Agility (Acrobatics), their choice. They'll pick whichever they're better at, obviously.
+To initiate a grapple, make a Brawn (Athletics) roll with a Challenge set by the target's Brawn (Athletics) or Agility (Acrobatics) modifier, their choice, negated. They'll pick whichever they're better at, obviously, which makes them harder to grab.
 
 #figure(
   align(center)[#table(
@@ -256,7 +256,7 @@ To initiate a grapple, make a Brawn (Athletics) roll opposed by the target's Bra
 
 While grappling, you may use your Action to:
 
-- *Pin:* Force another opposed roll. Strong result adds Incapacitated.
+- *Pin:* Grapple again, against the same defence. Strong result adds Incapacitated.
 - *Throw:* End the grapple. Target is knocked Prone adjacent to you and takes Weak unarmed damage.
 - *Choke:* Target begins suffocating. They can hold breath for Fortitude + 2 rounds before things get desperate.
 
