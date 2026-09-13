@@ -175,7 +175,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Adept:* Attacks against the target have Bane for 2/4/6 turns, and the target cannot be targeted.
 
-*Master:* Attacks against the target have Bane for 3/6/9 turns, and the target cannot be targeted.
+*Master:* Attacks against the target have Bane for 3/6/9 turns, and the target cannot be targeted; the ward also covers one ally within 10 ft.
 
 === Hallowed Ground (Divine Spell)
 
@@ -303,7 +303,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Adept:* An extraplanar target is sent away for 2/4/6 turns; on a Strong result it cannot return this scene.
 
-*Master:* An extraplanar target is sent away for 3/6/9 turns; on a Strong result it cannot return this scene.
+*Master:* An extraplanar target is sent away for 3/6/9 turns; it cannot return this scene.
 
 == Animal Spells
 
