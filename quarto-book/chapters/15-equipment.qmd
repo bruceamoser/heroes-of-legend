@@ -12,7 +12,7 @@ _Placeholder for final art._
 
 Your hero is going to need gear. A sword, some armor, a rope, a torch, a bedroll, and probably a ten-foot pole because someone at the table has read about pit traps. Equipment is the stuff between your hero and a bad day. Choose it well.
 
-The tables in this chapter list weapons by required Disciplines, armor by weight class, cost, and slots, and adventuring gear by utility. Prices are in gold pieces (gp), the standard currency of the realms. A laborer earns about 1 gp a month. Prices vary by region and availability; the DA sets the cost in their world. Keep that in mind when you're haggling with the blacksmith. You're not just buying gear, you're spending someone's annual salary.
+The tables in this chapter list weapons by required Disciplines, armor by weight class and slots, and adventuring gear by utility. Gear is not bought. It is granted, earned, or taken, and these lists are a reference for what a thing is, what it weighs, and what the odd ones do.
 
 #pagebreak()
 
@@ -114,7 +114,7 @@ A favour is not something you carry, but it is something you bring to a problem,
 
 === Granted Kits
 
-A kit point can also arrive as a grant: from a class, a talent, an ancestry gift, a faction, a favour earned in play, or taken off someone who no longer needs it. The thief's picks come off the thief, the scribe's case comes out of the wizard's study, the spade comes off the man in the grave. Treasure stops being coin and becomes capability: you wear what you took off the people who lost.
+A kit point can also arrive as a grant: from a class, a talent, an ancestry gift, a faction, a favour earned in play, or taken off someone who no longer needs it. The thief's picks come off the thief, the scribe's case comes out of the wizard's study, the spade comes off the man in the grave. Treasure stops being a number and becomes capability: you wear what you took off the people who lost.
 
 A talent that grants kit grants exactly one kit point. That point is the talent's entire payload, one point, nothing else. If the talent names a pack, the point is already spent. You are not choosing; the fiction chose. A talent that says you were a locksmith gives you the Thieves' Pack, not a free point to spend elsewhere.
 
@@ -162,26 +162,26 @@ Pick the weapon that fits your hero, not the one that looks best on paper. They 
 
 #figure(
   align(center)[#table(
-    columns: (15.09%, 39.62%, 20.75%, 13.21%, 11.32%),
-    align: (auto, auto, auto, auto, auto,),
-    table.header([Weapon], [Disciplines Required], [Properties], [Range], [Cost],),
-    [Unarmed], [None], [], [], [],
-    [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft (thrown)], [2 gp],
-    [Shortsword], [1 Blades], [Finesse, Light], [], [1 gp],
-    [Longsword], [2 Blades], [Versatile], [], [15 gp],
-    [Greatsword], [2 Blades + 1 Heavy Weapon], [], [], [30 gp],
-    [Handaxe], [1 Axes], [Light, Thrown], [20/60 ft (thrown)], [5 gp],
-    [Battleaxe], [2 Axes], [], [], [10 gp],
-    [Greataxe], [2 Axes + 1 Heavy Weapon], [], [], [30 gp],
-    [Mace], [1 Heavy Weapon], [], [], [5 gp],
-    [Warhammer], [2 Heavy Weapon], [], [], [10 gp],
-    [Maul], [3 Heavy Weapon], [], [], [40 gp],
-    [Spear], [1 Polearms], [Reach, Thrown, Two-Handed], [20/60 ft (thrown)], [10 gp],
-    [Halberd], [1 Polearms], [Reach, Two-Handed], [], [9 gp],
-    [Throwing Dagger], [1 Blades or 1 Archery], [Finesse, Thrown], [20/60 ft (thrown)], [2 gp],
-    [Shortbow], [1 Archery], [Two-Handed], [60/120 ft], [25 gp],
-    [Longbow], [1 Archery], [Two-Handed], [100/200 ft], [50 gp],
-    [Crossbow], [1 Archery], [Loading, Two-Handed], [20/60 ft], [20 gp],
+    columns: (17.02%, 44.68%, 23.40%, 14.90%),
+    align: (auto, auto, auto, auto,),
+    table.header([Weapon], [Disciplines Required], [Properties], [Range],),
+    [Unarmed], [None], [], [],
+    [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft (thrown)],
+    [Shortsword], [1 Blades], [Finesse, Light], [],
+    [Longsword], [2 Blades], [Versatile], [],
+    [Greatsword], [2 Blades + 1 Heavy Weapon], [], [],
+    [Handaxe], [1 Axes], [Light, Thrown], [20/60 ft (thrown)],
+    [Battleaxe], [2 Axes], [], [],
+    [Greataxe], [2 Axes + 1 Heavy Weapon], [], [],
+    [Mace], [1 Heavy Weapon], [], [],
+    [Warhammer], [2 Heavy Weapon], [], [],
+    [Maul], [3 Heavy Weapon], [], [],
+    [Spear], [1 Polearms], [Reach, Thrown, Two-Handed], [20/60 ft (thrown)],
+    [Halberd], [1 Polearms], [Reach, Two-Handed], [],
+    [Throwing Dagger], [1 Blades or 1 Archery], [Finesse, Thrown], [20/60 ft (thrown)],
+    [Shortbow], [1 Archery], [Two-Handed], [60/120 ft],
+    [Longbow], [1 Archery], [Two-Handed], [100/200 ft],
+    [Crossbow], [1 Archery], [Loading, Two-Handed], [20/60 ft],
   )],
   kind: table,
   outlined: false,
@@ -218,21 +218,21 @@ Weapons don't just require more of the same Discipline, they require specific co
 
 == Armor
 
-Armor is what you wear: it is a choice about weight, cost, slots and donning time. Your Damage Reduction comes from your talents and abilities, not from your armor. See @sec-chapter-armor-shields
+Armor is what you wear: it is a choice about weight, slots and donning time. Your Damage Reduction comes from your talents and abilities, not from your armor. See @sec-chapter-armor-shields
 
 #figure(
   align(center)[#table(
-    columns: (30.00%, 15.00%, 25.00%, 30.00%),
-    align: (auto, auto, auto, auto,),
-    table.header([Armor], [Class], [Cost], [Slots],),
-    [*Padded*], [Light], [5 gp], [2],
-    [*Leather*], [Light], [10 gp], [2],
-    [*Studded Leather*], [Light], [25 gp], [2],
-    [*Chain Shirt*], [Medium], [20 gp], [2],
-    [*Breastplate*], [Medium], [100 gp], [3],
-    [*Half Plate*], [Heavy], [60 gp], [3],
-    [*Chain Mail*], [Heavy], [75 gp], [4],
-    [*Plate*], [Heavy], [300 gp], [4],
+    columns: (40.00%, 20.00%, 40.00%),
+    align: (auto, auto, auto,),
+    table.header([Armor], [Class], [Slots],),
+    [*Padded*], [Light], [2],
+    [*Leather*], [Light], [2],
+    [*Studded Leather*], [Light], [2],
+    [*Chain Shirt*], [Medium], [2],
+    [*Breastplate*], [Medium], [3],
+    [*Half Plate*], [Heavy], [3],
+    [*Chain Mail*], [Heavy], [4],
+    [*Plate*], [Heavy], [4],
   )],
   kind: table,
   outlined: false,
@@ -240,7 +240,7 @@ Armor is what you wear: it is a choice about weight, cost, slots and donning tim
 
 Full table with Stealth column: see @sec-chapter-armor-shields
 
-Shields: *Buckler* (1 Protection), *Shield* (1 Protection), *Tower Shield* (2 Protection, provides half cover). A shield enables Parry and Shield Block. Prices: see @sec-chapter-armor-shields
+Shields: *Buckler* (1 Protection), *Shield* (1 Protection), *Tower Shield* (2 Protection, provides half cover). A shield enables Parry and Shield Block. See @sec-chapter-armor-shields
 
 == Encumbrance
 
@@ -261,60 +261,60 @@ _Placeholder for final art._
 
 == Adventuring Gear
 
-The general store doesn't sell magic swords. It sells rope, rations, and the thousand small items that separate a prepared adventurer from a corpse. Here's what's on the shelf.
+These are the small things that separate a prepared adventurer from a corpse. This is what they are, what they weigh, and what the odd ones do.
 
 #figure(
   align(center)[#table(
-    columns: (23.08%, 23.08%, 26.92%, 26.92%),
-    align: (auto, auto, auto, auto,),
-    table.header([Item], [Cost], [Slots], [Notes],),
-    [*Arcane Focus*], [10 gp], [0], [A wand, rod, orb, or crystal that channels arcane power. Used to cast arcane spells.],
-    [*Arrows (quiver of 20)*], [1 gp], [1], [Ammunition for shortbows and longbows.],
-    [*Backpack*], [2 gp], [2\*], [Holds up to 30 slots of gear. If it is your one exempt container, items stored inside don't count against your encumbrance; the backpack itself takes 2 slots on your person either way. Retrieving a stored item takes a Maneuver.],
-    [*Bedroll*], [1 gp], [2], [A warm bedroll and blanket. Required for a long rest in the wild. Without one, you recover half the normal long rest healing, rounded down.],
-    [*Bolts (quiver of 20)*], [1 gp], [1], [Ammunition for crossbows.],
-    [*Caltrops (bag)*], [1 gp], [1], [Scatter across a 5-ft square as a maneuver. A creature moving through must make an Agility check (Standard) or take 1 damage and gain Slowed 15 until the start of its next turn.],
-    [*Chalk (5 pieces)*], [5 cp], [0], [Mark walls, leave signals, draw ritual circles. Breaks easily. Costs nothing.],
-    [*Crowbar*], [2 gp], [1], [Boon on Brawn checks to force open doors, chests, or grates. Makes a loud noise, no subtlety. Can be used as an improvised weapon (1/1/2 + Brawn).],
-    [*Disguise Kit*], [25 gp], [1], [Cosmetics, dyes, and false hair. Required for Deception checks to hold a disguise over time.],
-    [*Fishing Tackle*], [1 gp], [1], [Hook, line, and tackle. With a body of water and 1 hour, make a Knowledge check (Standard 9-14) to catch enough fish to feed one person for the day. On a Strong result, feed two.],
-    [*Focus Pouch*], [5 gp], [1], [A belt pouch of the small focuses a caster relies on. Spells need no material components.],
-    [*Grappling Hook*], [2 gp], [1], [Hooks onto ledges, branches, or battlements. Attach a rope and throw, range 30 ft. Requires a Brawn or Agility check (Standard) to set securely.],
-    [*Hammer*], [1 gp], [1], [Drives pitons, breaks things, nails doors shut. Can be used as an improvised weapon (1/1/2 + Brawn).],
-    [*Healer's Kit*], [5 gp], [1], [Bandages, salves, and splints. 10 uses. When you stabilize a dying creature or restore HP during a short rest, add +1 HP per use expended. Without a kit, you can't use the Medicine skill to restore HP during rests.],
-    [*Holy Symbol*], [5 gp], [0], [A pendant, emblem, or reliquary that channels divine power. Used to cast divine spells.],
-    [*Ink & Pen*], [10 gp], [0], [Write letters, copy maps, forge documents. The ink lasts for roughly 20 pages. The pen is a quill, replace it when the cat gets it.],
-    [*Lantern (hooded)*], [5 gp], [1], [Bright light 30 ft, dim light 30 ft. The hood can be closed to reduce light to a 5-ft radius, useful for stealth. Burns for 6 hours per flask of oil.],
-    [*Manacles*], [2 gp], [1], [Restrains a creature of Small or Medium size. Escape requires an Agility check (Strong 15+) or a Brawn check (Strong 15+) to break. Without the key, they're not coming off quietly.],
-    [*Mirror (steel)*], [5 gp], [0], [Polished steel, not glass, it won't shatter when the fireball hits. Useful for looking around corners, signaling with reflected light, and confirming you're not a vampire.],
-    [*Oil (flask)*], [1 sp], [1], [Fuel for lanterns (6 hours). Can be thrown and ignited as an improvised attack, 2 fire damage on hit, and the target gains Burning 1. A creature already on fire cannot be set alight twice; the new flask is wasted.],
-    [*Parchment (5 sheets)*], [1 gp], [0], [Blank parchment. Maps, letters, wanted posters with your face on them, parchment is the medium of adventure.],
-    [*Pitons (set of 10)*], [5 sp], [1], [Iron spikes for climbing or securing ropes. Each piton supports 300 lbs when properly hammered into stone. Climbing a piton-anchored rope requires no check.],
-    [*Pouch (belt)*], [5 sp], [0\*], [Holds up to 50 coins or small items. Does not take a slot, it straps to your belt. If it is your one exempt container, the coins inside don't count against encumbrance. Be honest about what fits.],
-    [*Rations (1 day)*], [5 sp], [1], [Dried meat, hardtack, and dried fruit. Tastes like regret. One day without food: Bane on all rolls. Three days: double Bane. Five days: you're dying.],
-    [*Rope, Hemp (50 ft)*], [1 gp], [2], [Coarse, heavy, reliable. Supports 500 lbs. Can be cut with a blade (1 round) or burned through (2 rounds in fire).],
-    [*Rope, Silk (50 ft)*], [10 gp], [1], [Lightweight and strong. Supports 700 lbs. Half the bulk of hemp rope. Quieter when uncoiled, no rough fibers scraping against stone.],
-    [*Sack (large)*], [1 sp], [1\*], [A coarse sack that holds 1 cubic foot or 30 lbs of material. The sack takes 1 slot; if it is your one exempt container, its contents don't count, until it tears. One sharp edge and your loot is on the floor.],
-    [*Shovel*], [2 gp], [2], [Digs graves, trenches, and latrines. Buries treasure. Unearths treasure. The shovel has seen more adventuring than most bards.],
-    [*Smith's Tools*], [5 gp], [2], [Forge tools. Required for Craft checks to make or repair metal items.],
-    [*Smoke Bomb*], [5 gp], [0], [Throw up to 20 ft. Creates a 10-ft radius of heavy concealment for 1 round; anyone inside is Hidden.],
-    [*Spellbook*], [25 gp], [2], [A mage's book of spells. Required to record and prepare arcane spells.],
-    [*Spyglass*], [100 gp], [1], [Magnifies distant objects. You make visual Perception checks at long range with a Boon. Objects beyond 1 mile are still indistinct.],
-    [*Tent (2-person)*], [2 gp], [3], [Canvas shelter. Keeps rain off, holds heat. A night in a tent counts as normal rest even in severe weather; sleeping rough in the same weather is not rest at all. Two people can squeeze in, three if you're very good friends.],
-    [*Thieves' Tools*], [25 gp], [1], [Lockpicks, files, and tension wrenches in a leather roll. Required for lockpicking and disabling mechanical traps. Without these, you can't make Thievery checks to pick locks. If you break a pick (fumble), replacement picks cost 5 gp.],
-    [*Torch (bundle of 3)*], [1 sp], [1], [Bright light 15 ft, dim light 15 ft. Burns for 1 hour. Can be used as an improvised weapon, 1/1/2 + Brawn fire damage on hit. Wind, rain, or being dropped in water extinguishes.],
-    [*Volatile Reagents (alchemist's fire)*], [10 gp], [1], [A vial of unstable chemicals, made to burn. Thrown as an improvised attack, 4 fire damage on hit, and the target gains Burning 2. A creature already on fire cannot be set alight twice; the vial is wasted. This is what the oil flask is not: purpose-built, and it shows.],
-    [*Waterskin*], [2 sp], [1], [Holds a half-gallon of water. One day without water: Bane on all rolls. Two days: double Bane. Three days: your body starts shutting down. In hot climates or heavy exertion, double the consumption rate.],
+    columns: (30.00%, 35.00%, 35.00%),
+    align: (auto, auto, auto,),
+    table.header([Item], [Slots], [Notes],),
+    [*Arcane Focus*], [0], [A wand, rod, orb, or crystal that channels arcane power. Used to cast arcane spells.],
+    [*Arrows (quiver of 20)*], [1], [Ammunition for shortbows and longbows.],
+    [*Backpack*], [2\*], [Holds up to 30 slots of gear. If it is your one exempt container, items stored inside don't count against your encumbrance; the backpack itself takes 2 slots on your person either way. Retrieving a stored item takes a Maneuver.],
+    [*Bedroll*], [2], [A warm bedroll and blanket. Required for a long rest in the wild. Without one, you recover half the normal long rest healing, rounded down.],
+    [*Bolts (quiver of 20)*], [1], [Ammunition for crossbows.],
+    [*Caltrops (bag)*], [1], [Scatter across a 5-ft square as a maneuver. A creature moving through must make an Agility check (Standard) or take 1 damage and gain Slowed 15 until the start of its next turn.],
+    [*Chalk (5 pieces)*], [0], [Mark walls, leave signals, draw ritual circles. Breaks easily. Costs nothing.],
+    [*Crowbar*], [1], [Boon on Brawn checks to force open doors, chests, or grates. Makes a loud noise, no subtlety. Can be used as an improvised weapon (1/1/2 + Brawn).],
+    [*Disguise Kit*], [1], [Cosmetics, dyes, and false hair. Required for Deception checks to hold a disguise over time.],
+    [*Fishing Tackle*], [1], [Hook, line, and tackle. With a body of water and 1 hour, make a Knowledge check (Standard 9-14) to catch enough fish to feed one person for the day. On a Strong result, feed two.],
+    [*Focus Pouch*], [1], [A belt pouch of the small focuses a caster relies on. Spells need no material components.],
+    [*Grappling Hook*], [1], [Hooks onto ledges, branches, or battlements. Attach a rope and throw, range 30 ft. Requires a Brawn or Agility check (Standard) to set securely.],
+    [*Hammer*], [1], [Drives pitons, breaks things, nails doors shut. Can be used as an improvised weapon (1/1/2 + Brawn).],
+    [*Healer's Kit*], [1], [Bandages, salves, and splints. 10 uses. When you stabilize a dying creature or restore HP during a short rest, add +1 HP per use expended. Without a kit, you can't use the Medicine skill to restore HP during rests.],
+    [*Holy Symbol*], [0], [A pendant, emblem, or reliquary that channels divine power. Used to cast divine spells.],
+    [*Ink & Pen*], [0], [Write letters, copy maps, forge documents. The ink lasts for roughly 20 pages. The pen is a quill, replace it when the cat gets it.],
+    [*Lantern (hooded)*], [1], [Bright light 30 ft, dim light 30 ft. The hood can be closed to reduce light to a 5-ft radius, useful for stealth. Burns for 6 hours per flask of oil.],
+    [*Manacles*], [1], [Restrains a creature of Small or Medium size. Escape requires an Agility check (Strong 15+) or a Brawn check (Strong 15+) to break. Without the key, they're not coming off quietly.],
+    [*Mirror (steel)*], [0], [Polished steel, not glass, it won't shatter when the fireball hits. Useful for looking around corners, signaling with reflected light, and confirming you're not a vampire.],
+    [*Oil (flask)*], [1], [Fuel for lanterns (6 hours). Can be thrown and ignited as an improvised attack, 2 fire damage on hit, and the target gains Burning 1. A creature already on fire cannot be set alight twice; the new flask is wasted.],
+    [*Parchment (5 sheets)*], [0], [Blank parchment. Maps, letters, wanted posters with your face on them, parchment is the medium of adventure.],
+    [*Pitons (set of 10)*], [1], [Iron spikes for climbing or securing ropes. Each piton supports 300 lbs when properly hammered into stone. Climbing a piton-anchored rope requires no check.],
+    [*Pouch (belt)*], [0\*], [Holds up to 50 small items. Does not take a slot, it straps to your belt. If it is your one exempt container, the contents don't count against encumbrance. Be honest about what fits.],
+    [*Rations (1 day)*], [1], [Dried meat, hardtack, and dried fruit. Tastes like regret. One day without food: Bane on all rolls. Three days: double Bane. Five days: you're dying.],
+    [*Rope, Hemp (50 ft)*], [2], [Coarse, heavy, reliable. Supports 500 lbs. Can be cut with a blade (1 round) or burned through (2 rounds in fire).],
+    [*Rope, Silk (50 ft)*], [1], [Lightweight and strong. Supports 700 lbs. Half the bulk of hemp rope. Quieter when uncoiled, no rough fibers scraping against stone.],
+    [*Sack (large)*], [1\*], [A coarse sack that holds 1 cubic foot or 30 lbs of material. The sack takes 1 slot; if it is your one exempt container, its contents don't count, until it tears. One sharp edge and your loot is on the floor.],
+    [*Shovel*], [2], [Digs graves, trenches, and latrines. Buries treasure. Unearths treasure. The shovel has seen more adventuring than most bards.],
+    [*Smith's Tools*], [2], [Forge tools. Required for Craft checks to make or repair metal items.],
+    [*Smoke Bomb*], [0], [Throw up to 20 ft. Creates a 10-ft radius of heavy concealment for 1 round; anyone inside is Hidden.],
+    [*Spellbook*], [2], [A mage's book of spells. Required to record and prepare arcane spells.],
+    [*Spyglass*], [1], [Magnifies distant objects. You make visual Perception checks at long range with a Boon. Objects beyond 1 mile are still indistinct.],
+    [*Tent (2-person)*], [3], [Canvas shelter. Keeps rain off, holds heat. A night in a tent counts as normal rest even in severe weather; sleeping rough in the same weather is not rest at all. Two people can squeeze in, three if you're very good friends.],
+    [*Thieves' Tools*], [1], [Lockpicks, files, and tension wrenches in a leather roll. Required for lockpicking and disabling mechanical traps. Without these, you can't make Thievery checks to pick locks. If you break a pick (fumble), you must replace it.],
+    [*Torch (bundle of 3)*], [1], [Bright light 15 ft, dim light 15 ft. Burns for 1 hour. Can be used as an improvised weapon, 1/1/2 + Brawn fire damage on hit. Wind, rain, or being dropped in water extinguishes.],
+    [*Volatile Reagents (alchemist's fire)*], [1], [A vial of unstable chemicals, made to burn. Thrown as an improvised attack, 4 fire damage on hit, and the target gains Burning 2. A creature already on fire cannot be set alight twice; the vial is wasted. This is what the oil flask is not: purpose-built, and it shows.],
+    [*Waterskin*], [1], [Holds a half-gallon of water. One day without water: Bane on all rolls. Two days: double Bane. Three days: your body starts shutting down. In hot climates or heavy exertion, double the consumption rate.],
   )],
   kind: table,
   outlined: false,
   numbering: none,
 )
 
-*Coins and Encumbrance:* 100 coins of any denomination take 1 slot. A pouch holds up to 50 coins slot-free. A sack holds up to 300 coins before it tears. After your first dragon hoard, invest in a wagon.
+*Containers and Encumbrance:* A pouch holds up to 50 small items slot-free. A sack holds up to 1 cubic foot before it tears. After your first dragon hoard, you'll want a wagon.
 
 #callout(type: "note", title: "Starting Gear", body: [
-New heroes take their class's starting kit (see @sec-chapter-classes); the DA may grant extra coin at campaign start.
+New heroes take their class's starting kit (see @sec-chapter-classes); the DA may grant extra gear at campaign start.
 ])
 
 == Mounts & Vehicles
@@ -325,25 +325,27 @@ A good horse is the difference between arriving fed and rested and arriving half
 
 Mounts use a simplified stat block, HP, Speed, carrying capacity, and any special traits. They don't roll attacks (you do, from the saddle), but they can be targeted in combat. A dead horse is a tragedy. A dead horse in the middle of a chase is a catastrophe.
 
+A mount is not bought. A horse is given, earned, inherited, taken from someone who no longer needs it, or found in a stable you were not supposed to be in. The same applies to vehicles.
+
 #figure(
   align(center)[#table(
-    columns: (17.07%, 14.63%, 12.20%, 17.07%, 17.07%, 21.95%),
-    align: (auto, auto, auto, auto, auto, auto,),
-    table.header([Mount], [Cost], [HP], [Speed], [Carry], [Special],),
-    [*Riding Horse*], [75 gp], [20], [60 ft], [400 lbs], [],
-    [*Warhorse*], [400 gp], [35], [50 ft], [500 lbs], [Trained for combat. Does not require Survival or Nature checks to control in battle.],
-    [*Pony*], [30 gp], [15], [40 ft], [200 lbs], [Suitable for Small riders only. Can navigate narrow tunnels and dense forest without penalty.],
-    [*Riding Dog*], [50 gp], [12], [40 ft], [100 lbs], [Keen Smell: Boon on tracking checks made with the dog's assistance. Suitable for Small riders only.],
-    [*Draft Horse*], [50 gp], [25], [40 ft], [800 lbs], [Built for hauling, not riding. Bane on any check involving speed or agility.],
-    [*Camel*], [100 gp], [22], [50 ft], [500 lbs], [Desert Adapted: no penalties for heat or sand. Can go 5 days without water.],
-    [*Mule*], [8 gp], [15], [30 ft], [400 lbs], [Stubborn: once per session, may reroll a failed check to resist being moved, frightened, or coerced.],
+    columns: (20.00%, 14.29%, 20.00%, 20.00%, 25.71%),
+    align: (auto, auto, auto, auto, auto,),
+    table.header([Mount], [HP], [Speed], [Carry], [Special],),
+    [*Riding Horse*], [20], [60 ft], [400 lbs], [],
+    [*Warhorse*], [35], [50 ft], [500 lbs], [Trained for combat. Does not require Survival or Nature checks to control in battle.],
+    [*Pony*], [15], [40 ft], [200 lbs], [Suitable for Small riders only. Can navigate narrow tunnels and dense forest without penalty.],
+    [*Riding Dog*], [12], [40 ft], [100 lbs], [Keen Smell: Boon on tracking checks made with the dog's assistance. Suitable for Small riders only.],
+    [*Draft Horse*], [25], [40 ft], [800 lbs], [Built for hauling, not riding. Bane on any check involving speed or agility.],
+    [*Camel*], [22], [50 ft], [500 lbs], [Desert Adapted: no penalties for heat or sand. Can go 5 days without water.],
+    [*Mule*], [15], [30 ft], [400 lbs], [Stubborn: once per session, may reroll a failed check to resist being moved, frightened, or coerced.],
   )],
   kind: table,
   outlined: false,
   numbering: none,
 )
 
-*Mount gear:* Saddle (10 gp), saddlebags (4 gp, hold 50 lbs), bit and bridle (2 gp), barding (light: 50 gp, +1 DR to mount; heavy: 200 gp, +3 DR to mount, Speed reduced by 10 ft). Barded mounts remain valid targets of focused fire; sustained attacks bring even an armored warhorse down. Feed costs 5 cp per day per mount. Stabling at an inn costs 5 sp per night.
+*Mount gear:* Saddle, saddlebags (hold 50 lbs), bit and bridle, barding (light: +1 DR to mount; heavy: +3 DR to mount, Speed reduced by 10 ft). Barded mounts remain valid targets of focused fire; sustained attacks bring even an armored warhorse down. A mount must be fed and stabled; see Resource Management.
 
 #callout(type: "note", title: "Naming Your Mount", body: [
 Give the horse a name. It'll die in session three and you'll all be genuinely upset. This is correct. This is the game working as intended.
@@ -391,17 +393,17 @@ Sometimes you need to move more than yourself. Trade goods, siege equipment, the
 
 #figure(
   align(center)[#table(
-    columns: (17.31%, 11.54%, 9.62%, 13.46%, 11.54%, 23.08%, 13.46%),
-    align: (auto, auto, auto, auto, auto, auto, auto,),
-    table.header([Vehicle], [Cost], [HP], [Speed], [Crew], [Passengers], [Cargo],),
-    [*Cart*], [50 gp], [30], [40 ft (draft horse)], [1], [3], [500 lbs],
-    [*Wagon*], [100 gp], [50], [40 ft (draft horse)], [1], [6], [2,000 lbs],
-    [*Carriage*], [300 gp], [40], [20 ft (draft horse, -2)], [1], [4], [200 lbs],
-    [*Chariot*], [150 gp], [35], [45 ft (draft horse)], [1], [1], [100 lbs],
-    [*Small Boat*], [200 gp], [40], [30 ft (oars), 45 ft (sail)], [2], [4], [500 lbs],
-    [*River Barge*], [800 gp], [80], [20 ft (oars), 35 ft (sail)], [4], [10], [5 tons],
-    [*Coastal Ship*], [5,000 gp], [200], [30 ft (sail)], [10], [30], [10 tons],
-    [*Warship*], [10,000 gp], [300], [40 ft (sail + oars)], [40], [60], [5 tons],
+    columns: (19.57%, 10.87%, 15.22%, 13.04%, 26.09%, 15.21%),
+    align: (auto, auto, auto, auto, auto, auto,),
+    table.header([Vehicle], [HP], [Speed], [Crew], [Passengers], [Cargo],),
+    [*Cart*], [30], [40 ft (draft horse)], [1], [3], [500 lbs],
+    [*Wagon*], [50], [40 ft (draft horse)], [1], [6], [2,000 lbs],
+    [*Carriage*], [40], [20 ft (draft horse, -2)], [1], [4], [200 lbs],
+    [*Chariot*], [35], [45 ft (draft horse)], [1], [1], [100 lbs],
+    [*Small Boat*], [40], [30 ft (oars), 45 ft (sail)], [2], [4], [500 lbs],
+    [*River Barge*], [80], [20 ft (oars), 35 ft (sail)], [4], [10], [5 tons],
+    [*Coastal Ship*], [200], [30 ft (sail)], [10], [30], [10 tons],
+    [*Warship*], [300], [40 ft (sail + oars)], [40], [60], [5 tons],
   )],
   kind: table,
   outlined: false,
@@ -412,16 +414,16 @@ Sometimes you need to move more than yourself. Trade goods, siege equipment, the
 
 - *Speed:* The Speed column lists the vehicle's movement, with the draft animal's contribution in parentheses. A carriage and a chariot are heavier and less maneuverable, so their draft horse effectively moves at 20 ft. Exceeding cargo capacity halves Speed. Doubling it stops the vehicle entirely, the axle's not made of magic. A boat under oars moves at its oared speed; a favorable sail moves it at its sailed speed.
 - *Crew:* The listed number is the minimum required to operate the vehicle. Half crew means Speed is halved. No crew means the vehicle drifts (water) or stops (land).
-- *Vehicle HP:* When a vehicle reaches 0 HP, it's destroyed, a cart collapses, a ship breaks apart. Repairs cost 10% of the vehicle's value per HP restored and require a craftsperson and 1 day per 5 HP.
+- *Vehicle HP:* When a vehicle reaches 0 HP, it's destroyed, a cart collapses, a ship breaks apart. Repairs require a craftsperson and 1 day per 5 HP restored.
 - *Combat on Vehicles:* Characters on a moving vehicle use the vehicle's Speed for relative positioning but act on their own initiative. The DA may call for Agility checks (Standard) to keep footing during sharp turns, collisions, or rough terrain. Falling off a wagon is embarrassing. Falling off a ship in a storm is a death sentence. Know the difference.
-- *Chariots* are built for war: anyone riding in one has half cover from the sides and rear, already included in the price above. A cart hauls more and carries more people; a chariot outruns it and protects you while you fight from it.
+- *Chariots* are built for war: anyone riding in one has half cover from the sides and rear. A cart hauls more and carries more people; a chariot outruns it and protects you while you fight from it.
 
-*Upgrades:* Vehicles can be reinforced (+10 HP, costs 25% of base price), armored (passengers have half cover, costs 50% of base price), or outfitted with weapon mounts (ballista platform on a ship, crossbow mount on a wagon). Weapon mounts require a crew member to operate, and the damage comes from the attack card used to fire them.
+*Upgrades:* Vehicles can be reinforced (+10 HP), armored (passengers have half cover), or outfitted with weapon mounts (ballista platform on a ship, crossbow mount on a wagon). Weapon mounts require a crew member to operate, and the damage comes from the attack card used to fire them.
 
 #callout(type: "tip", title: "Chases", body: [
 For vehicle vs. vehicle chases, a wagon fleeing bandits on horseback, a ship outrunning pirates, only the pursuer rolls, and the quarry's speed is the difficulty. Each round the pursuer's driver makes one roll on the core 3d6 (@sec-chapter-core-resolution), applying the Speed difference as a Boon or a Bane: a Boon if the pursuer is faster, a Bane if the quarry is. A 10 ft edge is one step, 30 ft is two, 60 ft or more is three. A Standard or Strong result closes one band of distance; a Weak result opens one. Closing three bands means the pursuer catches them, opening three means the quarry escapes, and short of that the chase simply continues, a wheel hits a rock, a sail tears, a horse stumbles, and the DA narrates the near miss.
 ])
 
-Gear is the quiet part of the story. Your players will remember the goblins, the gold, and the horse that died in session three. They will also remember the weight of the longsword and the relief of finding oil for the lantern. Buy it well. Lose it badly. That's the adventure.
+Gear is the quiet part of the story. Your players will remember the goblins, the treasure, and the horse that died in session three. They will also remember the weight of the longsword and the relief of finding oil for the lantern. Carry it well. Lose it badly. That's the adventure.
 
 ```

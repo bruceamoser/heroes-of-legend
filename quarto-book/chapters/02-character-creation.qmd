@@ -241,7 +241,7 @@ Roll or choose from the tables below. These are hooks for your DA, and for you.
     align: (auto, auto,),
     table.header([d6], [Why You Adventure],),
     [1], [*Glory:* You want songs sung about you.],
-    [2], [*Gold:* Wealth opens every door.],
+    [2], [*Ambition:* Power opens every door.],
     [3], [*Justice:* Wrongs will be righted. By you.],
     [4], [*Knowledge:* Secrets are the real treasure.],
     [5], [*Protection:* Someone has to stand between the darkness and the innocent.],
@@ -261,7 +261,7 @@ Roll or choose from the tables below. These are hooks for your DA, and for you.
     table.header([d6], [The Thing You Carry],),
     [1], [A key that doesn't fit any lock you've found. Yet.],
     [2], [A locket with a portrait of someone you've never met.],
-    [3], [A coin that always lands on its edge.],
+    [3], [A medallion that always lands on its edge.],
     [4], [A letter, unopened. The seal is your family crest.],
     [5], [A smooth stone that hums faintly at midnight.],
     [6], [A child's drawing of you. You don't recognize the child.],
@@ -281,7 +281,7 @@ Choose a name fitting your ancestry and culture. Say it out loud. Does it feel r
 
 Let's build a character from scratch so you can see how the pieces fit together.
 
-*Step 1, Concept:* Charming sneak-thief with a heart of tarnished gold. Grew up on the docks, talks her way into places she shouldn't be, always has an exit strategy.
+*Step 1, Concept:* Charming sneak-thief with a heart of tarnished brass. Grew up on the docks, talks her way into places she shouldn't be, always has an exit strategy.
 
 *Step 2, Attributes (total must be +3):* Agility +1 (nimble), Guile +1 (silver tongue), Brawn +1 (can throw a punch when the talking stops). Fortitude +0, Knowledge +0, Reason +0. Sum = +3.
 
@@ -313,7 +313,7 @@ Total: 8 DP. All spent.
 
 *Step 9, Derived Stats:* HP 10 (10 + Fort 0 + Know 0). Initiative +1. Movement 25 ft (halfling). Carry 15 slots.
 
-*Step 10, Backstory:* Motivation, Gold (she's saving for something, she won't say what). Trinket, a smooth stone that hums faintly at midnight.
+*Step 10, Backstory:* Motivation, Ambition (she wants something she won't name). Trinket, a smooth stone that hums faintly at midnight.
 
 *Step 11, Name:* Makeva Quickfoot. Her friends call her Mak. Her enemies don't call her anything, they never saw her coming.
 
@@ -356,7 +356,7 @@ Total: 11 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Equipment:* Arcane focus (crystal orb), dagger, scholar's robes, focus pouch, spellbook, 5 gp.
+*Equipment:* Arcane focus (crystal orb), dagger, scholar's robes, focus pouch, spellbook.
 
 *Derived Stats:* HP 12. Initiative +0. Movement 30 ft. Carry 10 slots.
 
@@ -395,7 +395,7 @@ Total: 10 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Equipment:* Shortsword, spellbook, scholar's robes, focus pouch, ink & pen, 10 gp.
+*Equipment:* Shortsword, spellbook, scholar's robes, focus pouch, ink & pen.
 
 *Derived Stats:* HP 12 (10 + Fort 0 + Know 2). Initiative +0. Movement 30 ft. Carry 5 slots.
 
@@ -434,7 +434,7 @@ Total: 9 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Equipment:* Shortsword, holy symbol, leather armor, healer's kit, 5 gp.
+*Equipment:* Shortsword, holy symbol, leather armor, healer's kit.
 
 *Derived Stats:* HP 13 (10 + Fort 1 + Know 0 + Sturdy 2). Initiative +0. Movement 25 ft (dwarf). Carry 5 slots.
 
@@ -472,11 +472,11 @@ Total: 8 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Equipment:* Longsword, spear, leather armor, shield, 10 gp.
+*Equipment:* Longsword, spear, leather armor, shield.
 
 *Derived Stats:* HP 9 (10 + Fort 0 + Know -1). Initiative +0. Movement 30 ft. Carry 15 slots.
 
-*Backstory:* Motivation, Redemption (she gave bad orders once). Trinket, a coin that always lands on its edge. *Name:* Marta Shieldsworn.
+*Backstory:* Motivation, Redemption (she gave bad orders once). Trinket, a medallion that always lands on its edge. *Name:* Marta Shieldsworn.
 
 #pagebreak()
 
@@ -510,7 +510,7 @@ Total: 7 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Equipment:* Shortsword, dagger, leather armor, thieves' tools, 15 gp.
+*Equipment:* Shortsword, dagger, leather armor, thieves' tools.
 
 *Derived Stats:* HP 9 (10 + Fort 0 + Know -1). Initiative +2. Movement 30 ft. Carry 15 slots.
 
@@ -548,11 +548,11 @@ Total: 8 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Equipment:* Two daggers, throwing daggers (6), leather armor, thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1), 15 sp.
+*Equipment:* Two daggers, throwing daggers (6), leather armor, thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1).
 
 *Derived Stats:* HP 10. Initiative +2. Movement 25 ft (halfling). Carry 10 slots.
 
-*Backstory:* Motivation, Gold (she's saving for a ship, and a new name, and an island where nobody asks questions). Trinket, a key that doesn't fit any lock. Yet. *Name:* Pip Quickfoot. Makeva's cousin. The family reunions are legendary.
+*Backstory:* Motivation, Ambition (she wants a ship, and a new name, and an island where nobody asks questions). Trinket, a key that doesn't fit any lock. Yet. *Name:* Pip Quickfoot. Makeva's cousin. The family reunions are legendary.
 
 #pagebreak()
 
@@ -587,7 +587,7 @@ Total: 9 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Equipment:* Battleaxe, chain mail, shield, smith's tools, 10 gp.
+*Equipment:* Battleaxe, chain mail, shield, smith's tools.
 
 *Derived Stats:* HP 13 (10 + Fort 1 + Know 0 + Sturdy 2). Initiative -1. Movement 25 ft (dwarf). Carry 20 slots.
 
@@ -626,7 +626,7 @@ Total: 10 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Equipment:* Spear, focus pouch, scholar's robes, six vials of volatile reagents (alchemist's fire), 5 gp.
+*Equipment:* Spear, focus pouch, scholar's robes, six vials of volatile reagents (alchemist's fire).
 
 *Derived Stats:* HP 11 (10 + Fort 0 + Know 1). Initiative +0. Movement 30 ft. Carry 15 slots.
 

@@ -385,7 +385,7 @@ Full plate armor forged from star-metal, black iron veined with silver that glea
 
 *Rarity:* Uncommon · *Attunement:* No Attunement · *Type:* Wondrous Item
 
-A nondescript leather satchel, slightly larger than a coin purse. The interior is considerably less nondescript, it opens into an extradimensional space roughly 4 feet deep and 2 feet wide at the mouth.
+A nondescript leather satchel, slightly larger than a belt pouch. The interior is considerably less nondescript, it opens into an extradimensional space roughly 4 feet deep and 2 feet wide at the mouth.
 
 *Passive:* The bag can hold up to 500 pounds of gear while weighing only 15 pounds regardless of contents. Items placed inside must fit through the bag's opening (roughly 2 feet in diameter). Retrieving an item requires a Maneuver, the bag always produces the item you're thinking of, but you do have to reach in and find it.
 

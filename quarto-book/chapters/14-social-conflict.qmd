@@ -12,7 +12,7 @@ _Placeholder for final art._
 
 Not every battle is fought with swords. Sometimes the most dangerous weapon in the room is a well-timed word.
 
-Social conflict covers everything from haggling with a merchant to negotiating a peace treaty between warring kingdoms. The same 3d6 engine drives it all, roll your dice, add your attribute, add your skill, compare to success tiers. The difference is the stakes: instead of hit points, you're gambling with trust, reputation, and information.
+Social conflict covers everything from calming a furious merchant to negotiating a peace treaty between warring kingdoms. The same 3d6 engine drives it all, roll your dice, add your attribute, add your skill, compare to success tiers. The difference is the stakes: instead of hit points, you're gambling with trust, reputation, and information.
 
 #pagebreak()
 
@@ -28,7 +28,7 @@ Five skills carry the weight of social encounters. Know which one fits the momen
 
 *Insight (Reason):* Reading truth from lies. Catching the twitch, the hesitation, the glance at the exit. Passive Insight is your Knowledge score + 7, that's the number the DA uses when someone's lying to you and you're not actively looking for it. When an NPC lies to you and you're not actively contesting the claim, keep your passive Insight in mind: their Deception roll carries a Challenge set by your Knowledge modifier, negated.
 
-*Performance (Guile):* Music, oratory, working a room. The right song at the right moment buys more passage than a coin ever will. The Odd's stage. The Leader's secret weapon.
+*Performance (Guile):* Music, oratory, working a room. The right song at the right moment opens more doors than a blade ever will. The Odd's stage. The Leader's secret weapon.
 
 #pagebreak()
 
@@ -61,7 +61,7 @@ Criticals and Fumbles follow the core rules (@sec-chapter-core-resolution): thre
 
 == Extended Social Conflicts
 
-High-stakes encounters, the negotiation with the king, the interrogation of the spy, the trial that decides a life, run as multi-round conflicts. Not one roll and a coin flip. A back-and-forth, where both sides spend points.
+High-stakes encounters, the negotiation with the king, the interrogation of the spy, the trial that decides a life, run as multi-round conflicts. Not one roll and a lucky guess. A back-and-forth, where both sides spend points.
 
 *Stakes must be declared before the conflict begins.* "If I win, the guard lets us pass. If you win, we're arrested." What does each side want, and what happens if the negotiation fails? Say it out loud before the first die hits the table. That's the hard bound that keeps a social conflict from becoming an endless persuasion check.
 
@@ -92,7 +92,7 @@ A failed social roll shouldn't mean "the conversation stops." It means the conve
 
 Failed to persuade the guard? He doesn't slam the gate, he calls his sergeant over. Now you're talking to someone with more authority and more suspicion. The scene escalates, but it doesn't end.
 
-Failed to deceive the merchant? She doesn't kick you out, she raises the price. "I know what you're doing. Twenty percent surcharge for wasting my time." You can still buy the thing. It just costs more.
+Failed to deceive the merchant? She doesn't kick you out, she turns the questions around. "I know what you're doing. So who exactly are you working for?" Now you're the one being interrogated.
 
 The worst outcome in a social scene is "nothing happens." Keep the fiction moving. Every roll should change the situation, even if it's not in the party's favor.
 ])
@@ -129,7 +129,7 @@ _Aldric rolls:_ 4d6, keeping the highest three, + Guile (+1) + Persuasion Adept 
 
 *The DA:* "Three successes. The warden is already nodding. The conflict is yours."
 
-*The Warden's Price:*
+*The Warden's Condition:*
 
 *The DA:* "The warden names the guide, a sharp-eyed scout who knows the barrow roads. Then she raises a hand. 'One condition. The cult lairs in the old barrows. If you find something there that belongs to the Thornwood, an artifact, a tome, a spirit-stone, you bring it back to us. The barrows are elven graves. What's buried there is ours.'"
 
@@ -141,7 +141,7 @@ _Aldric rolls:_ 4d6, keeping the highest three, + Guile (+1) + Persuasion Adept 
 
 == Why Run Extended Social Conflicts
 
-The single-roll approach works fine for buying a sword or asking directions. But for moments that define the story, extended conflicts give every player a chance to contribute. The Blade might read the room with Insight, handing the face a Boon by finding the fear under the bluster. The Arcanist might use Arcana to identify the magical wards on the negotiation chamber, and that information becomes the Boon the face spends. The Protector might just stand there looking unstoppable, and the DA grants the party's face a Boon on their next social roll from sheer presence.
+The single-roll approach works fine for asking directions or trading stories. But for moments that define the story, extended conflicts give every player a chance to contribute. The Blade might read the room with Insight, handing the face a Boon by finding the fear under the bluster. The Arcanist might use Arcana to identify the magical wards on the negotiation chamber, and that information becomes the Boon the face spends. The Protector might just stand there looking unstoppable, and the DA grants the party's face a Boon on their next social roll from sheer presence.
 
 Let the party stack their skills. Social encounters are team efforts. The person rolling Persuasion is just the one delivering the final line, everyone else is feeding them the setup.
 
