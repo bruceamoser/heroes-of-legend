@@ -66,9 +66,11 @@ Boons come from clever positioning, magical aid, or a Critical effect that inspi
 
 == Opposed Rolls
 
-When two characters act directly against one another (a grapple, a shove, a disguise versus a guard's scrutiny, a lie versus someone's instinct that they're being played), both sides roll. *Higher tier wins. If tiers match, the higher total wins. If both tier and total are identical, the defender, the non-initiating party, wins the tie.*
+When two characters act directly against one another (a grapple, a shove, a disguise versus a guard's scrutiny, a lie versus someone's instinct that they're being played), *the acting character rolls and the target's own ability sets the difficulty. The target never rolls.*
 
-There is no margin math. If Kael rolls a 14 (Standard) to grapple a cultist who rolls a 7 (Weak), Kael wins with a Standard result. The opposed-rolls rule also governs Stealth versus passive Insight for surprise (@sec-chapter-combat), and social contests where both sides are actively working against each other (@sec-chapter-social-conflict) Wherever the book says "opposed," this is the rule.
+The acting character rolls *3d6 + Attribute Modifier + Skill Bonus − Challenge*. *Challenge* is the target's relevant attribute modifier, negated: a target with Brawn +2 is a Challenge of −2, a target with Knowledge −1 is a Challenge of +1. Use whichever attribute the contest actually tests. This is the same shape as swinging a sword at someone. One roll, one result, and the defender's quality is what makes it hard.
+
+There is no margin math. If Kael's grapple comes to 14 after the Challenge and that is a Standard result, Kael wins the grapple. The opposed rule also governs Stealth against a sentry's alertness for surprise (@sec-chapter-combat), and social contests where an NPC is actively working against the party (@sec-chapter-social-conflict). Wherever the book says "opposed," this is the rule.
 
 #pagebreak()
 
@@ -243,7 +245,7 @@ Only roll when failure is interesting. If the hero has time, tools, and training
 
 *Roric the Protector charges the troll.* Rolls 6, 6, 6. _Critical!_ Bonus roll: 4, Second Wind, recover 6 HP. Strong damage from his greataxe: 3 + Brawn 2 = 5. The troll's tough hide (DR 3) reduces it to 2, but Roric gets his breath back. The troll's expression changes from hunger to concern.
 
-*Kael the Blade arm-wrestles Roric the Protector.* Both have Brawn +2, so both roll 3d6 + 2. Kael rolls 5+3+2 = 10, plus 2 = 12. Roric rolls 6+1+4 = 11, plus 2 = 13. Both are _Standard_, so the higher total wins: Roric slams Kael's arm down. Had the totals matched, Kael would have lost the tie anyway, because the defender wins ties.
+*Kael the Blade arm-wrestles Roric the Protector.* Kael drives the contest, so Kael rolls and Roric's Brawn +2 is the Challenge. Kael rolls 3d6 + Brawn 2, then subtracts 2: 5+3+2 = 10, plus 2 = 12, minus 2 = 10. _Standard._ The arm goes down. Against a man as strong as he is, Kael has to work for it.
 
 *Lyra the Odd climbs a slick cliff face.* The DA grants a Boon because she took the time to rope up first. A Boon means roll 4d6 and keep the highest three. She rolls 6, 5, 5, 2, keeps 6+5+5 = 16, then adds Agility +1 = 17. _Strong._ She reaches the ledge. Had she rushed it in the rain, the DA would have called a Bane instead: 4d6, keep the lowest three.
 

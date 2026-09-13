@@ -73,7 +73,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
   [*Defend*], [Boon on your Defense roll until your next turn],
   [*Disengage*], [Move 5 ft without provoking opportunity attacks],
   [*Aid*], [Ally within 30 ft gains a Boon on their next roll before your next turn],
-  [*Shove*], [Opposed Brawn vs Brawn/Agility. Push 5 ft (10 ft on Strong)],
+  [*Shove*], [Brawn vs the target's Brawn or Agility as a Challenge. Push 5 ft (10 ft on Strong)],
   [*Grapple*], [Brawn (Athletics) vs Brawn (Athletics) or Agility (Acrobatics)],
   [*Command*], [Companion/familiar/mount takes an extra Movement],
   [*Catch Breath*], [Regain HP equal to Fortitude (min 1). Once per combat.],

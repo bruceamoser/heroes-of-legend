@@ -26,7 +26,7 @@ Five skills carry the weight of social encounters. Know which one fits the momen
 
 *Intimidation (Brawn):* Threats and coercion. "I wasn't asking." Works fast, burns bridges faster. The Unbalanced lives here. Everyone else visits when patience runs out.
 
-*Insight (Reason):* Reading truth from lies. Catching the twitch, the hesitation, the glance at the exit. Passive Insight is your Knowledge score + 7, that's the number the DA uses when someone's lying to you and you're not actively looking for it. When an NPC lies to you and you're not actively contesting the claim, their Deception roll is opposed by your passive Insight.
+*Insight (Reason):* Reading truth from lies. Catching the twitch, the hesitation, the glance at the exit. Passive Insight is your Knowledge score + 7, that's the number the DA uses when someone's lying to you and you're not actively looking for it. When an NPC lies to you and you're not actively contesting the claim, keep your passive Insight in mind: their Deception roll carries a Challenge set by your Knowledge modifier, negated.
 
 *Performance (Guile):* Music, oratory, working a room. The right song at the right moment buys more passage than a coin ever will. The Odd's stage. The Leader's secret weapon.
 
@@ -65,7 +65,7 @@ High-stakes encounters, the negotiation with the king, the interrogation of the 
 
 *Stakes must be declared before the conflict begins.* "If I win, the guard lets us pass. If you win, we're arrested." What does each side want, and what happens if the negotiation fails? Say it out loud before the first die hits the table. That's the hard bound that keeps a social conflict from becoming an endless persuasion check.
 
-*Round structure.* Each round, the party's face makes one social skill roll: Persuasion, Deception, Intimidation, or Performance. *The face is the party's only scorer.* Everyone else is assisting: reading the room, working the crowd, looming, planting a word in the right ear. An assist is worth a Boon on the face's next roll, never a success of its own. The roll is opposed by the NPC's Insight score, or the relevant attribute if the NPC is actively counter-arguing. The opposed rolls rule from the core chapter (@sec-chapter-core-resolution) decides the outcome tier: the higher tier wins the exchange, a tie on tier goes to the higher total, and a full tie goes to the NPC, the defender.
+*Round structure.* Each round, the party's face makes one social skill roll: Persuasion, Deception, Intimidation, or Performance. *The face is the party's only scorer.* Everyone else is assisting: reading the room, working the crowd, looming, planting a word in the right ear. An assist is worth a Boon on the face's next roll, never a success of its own. The NPC does not roll. They set the *Challenge* instead, exactly as footwork and a shield make a sword harder to land: use the NPC's Knowledge modifier, negated. A wary negotiator with Knowledge +2 is a Challenge of −2. The result tier of the face's roll is the outcome of the exchange (@sec-chapter-core-resolution), and the NPC takes the point only when the face rolls Weak.
 
 #figure(
   align(center)[#table(
@@ -84,8 +84,6 @@ High-stakes encounters, the negotiation with the king, the interrogation of the 
 )
 
 *This table governs extended conflicts*, where both sides are racing to three successes. For a one-off request settled by a single roll, use the attitude ladder above.
-
-*If your result loses the exchange*, the exchange belongs to the NPC no matter which tier you rolled: they gain 1 success and you gain none. A winning tier only pays when it actually beats the opposition.
 
 *First to 3 successes wins.* The first side to 3 successes takes the conflict. A Weak or Fumble result is a failed roll for the party: the NPC's attitude shifts one step toward Hostile. At Hostile, further failures may end the conversation, or start a different kind of fight. A Strong result shifts the NPC one step closer to you. One shift per roll, never both.
 
@@ -109,11 +107,11 @@ The party needs passage through the Ironwood, a dense forest controlled by the T
 
 *Aldric (the player):* "I approach the warden with open hands. 'We have no quarrel with the Thornwood. We hunt a cult that's kidnapped children from three villages. They passed this way two days ago.'"
 
-*The DA:* "The warden's expression doesn't change, but her eyes flick toward the treeline. 'Children, you say.' She's listening. Give me a Persuasion roll, opposed by her Insight."
+*The DA:* "The warden's expression doesn't change, but her eyes flick toward the treeline. 'Children, you say.' She's listening. Give me a Persuasion roll. She's sharp, so her Insight is a Challenge of 2."
 
-_Aldric rolls:_ 3d6 + Guile (+1) + Persuasion Adept (+2). Result: 4, 5, 3 = 12 + 3 = 15. *Strong.* The warden's passive Insight is 9 (Knowledge +2, base 7). 15 is Strong, 9 is Standard, and Strong beats Standard. Two successes.
+_Aldric rolls:_ 3d6 + Guile (+1) + Persuasion Adept (+2) − Challenge (2). Result: 4, 5, 3 = 12 + 3 = 15, minus 2 = 13. *Standard.* One success.
 
-*The DA:* "The warden uncrosses her arms. 'We found tracks, heavy boots, dragging something. They went east, toward the old barrows. You'll need a guide. The barrows are... unsettled.' Two successes for the party, and her attitude shifts one step closer to you. Neutral to Friendly."
+*The DA:* "The warden uncrosses her arms. 'We found tracks, heavy boots, dragging something. They went east, toward the old barrows. You'll need a guide. The barrows are... unsettled.' One success for the party, and her attitude shifts one step closer to you. Neutral to Friendly."
 
 *Round 2, The Lieutenant Objects:*
 
@@ -121,15 +119,15 @@ _Aldric rolls:_ 3d6 + Guile (+1) + Persuasion Adept (+2). Result: 4, 5, 3 = 12 +
 
 *Lyra (the player):* "I step up beside Aldric. 'Lieutenant. Look at us. We're exhausted, we're armed for a fight, and we're asking permission instead of forcing our way through. Cultists don't ask.' Can I use Insight to read what's really bothering him?"
 
-*The DA:* "Roll Insight, opposed by his. He's not counter-arguing, just holding the line. His Insight is 7 (Knowledge 0, base 7). Remember, this is an assist: it buys Aldric an edge, not a point of its own."
+*The DA:* "Roll Insight against the room. No Challenge, he isn't hiding anything in particular. Remember, this is an assist: it buys Aldric an edge, not a point of its own."
 
-_Lyra rolls:_ 3d6 + Reason (+1) + Insight Novice (+1). Result: 5, 2, 4 = 11 + 2 = 13. *Standard.* Her Standard beats his Weak, so the read lands.
+_Lyra rolls:_ 3d6 + Reason (+1) + Insight Novice (+1). Result: 5, 2, 4 = 11 + 2 = 13. *Standard.* The read lands.
 
 *The DA:* "You catch a flicker of old anger when he said 'humans.' Something personal behind the hostility. Not just standard suspicion. *Aldric, that's a Boon on your next roll.*"
 
-_Aldric rolls:_ 4d6, keeping the highest three, + Guile (+1) + Persuasion Adept (+2). Result: 6, 5, 4, 2 keeps 6, 5, 4 = 15 + 3 = 18. *Strong.* Two more successes on top of the two from round one.
+_Aldric rolls:_ 4d6, keeping the highest three, + Guile (+1) + Persuasion Adept (+2). Result: 6, 5, 4, 2 keeps 6, 5, 4 = 15 + 3 = 18. *Strong.* Two successes, on top of the one from round one.
 
-*The DA:* "Four successes. The warden is already nodding. The conflict is yours."
+*The DA:* "Three successes. The warden is already nodding. The conflict is yours."
 
 *The Warden's Price:*
 
