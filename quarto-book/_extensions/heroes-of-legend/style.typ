@@ -218,6 +218,23 @@
 
 // Override beautitled heading fonts to use our fantasy font stack.
 // beautitled applies its own font choices; we restore ours after init.
+// Keep a heading with the content it introduces. Without this a heading can land as the
+// last thing on a page with its table, card, or paragraph overleaf: 12 headings did exactly
+// that book-wide (measured by quarto-book/check-orphan-headings.py).
+//
+// Levels 3-5 only. Level 1 is exempt because beautitled's chapter function emits
+// `pagebreak(weak: true)` for it, and a pagebreak inside a container is a Typst error
+// ("pagebreaks are not allowed inside of containers"). Levels 3-5 are where the stranded
+// headings actually are: card titles, section heads, and subsection heads.
+//
+// `sticky: true` is the right primitive here, NOT `block(breakable: false)`. The unbreakable
+// form is what silently dropped the tail of ch05's class-ability table and clipped the D666
+// wound table, because content taller than the space remaining has nowhere to go. Sticky only
+// moves the break point; it never refuses to split content.
+#show heading.where(level: 3): it => block(sticky: true, it)
+#show heading.where(level: 4): it => block(sticky: true, it)
+#show heading.where(level: 5): it => block(sticky: true, it)
+
 #show heading: set text(font: heading-font-stack)
 
 // ── Tables (booktabs functions available) ───────────────────────────────────
