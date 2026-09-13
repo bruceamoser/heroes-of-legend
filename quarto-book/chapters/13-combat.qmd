@@ -435,7 +435,7 @@ Positioning matters. If you're standing in the open trading shots with archers, 
 
 #image("assets/svg/placeholder-section.svg", width: 60%)
 
-_Figure 15.2: Combat,_
+_Figure 15.2: Combat_
 
 _Placeholder for final art._
 #pagebreak()
