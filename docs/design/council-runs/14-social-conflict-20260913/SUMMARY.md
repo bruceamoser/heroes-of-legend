@@ -122,9 +122,35 @@ page now **99.6% full**; no new orphaned headings; build 0, native-Typst 0, 0 em
 - The author filed the defect the researcher spotted but deliberately left unclaimed (one finding per
   member), and the game-architect added the assist-rules angle that made it decisive.
 
-## Open for Bruce (design calls)
+## Ruled and shipped (Bruce, 2026-09-13)
 
-1. **Who scores?** Face-only, or do allies score too?
-2. **Attitude ladder vs success table** — which governs which stage of play?
-3. **Passive opposition** — compare the total to the number (ch13:529), or grade the roller
-   (ch13:230)?
+1. **Who scores?** — **Option A.** The face is the party's only scorer; allies assist with a Boon.
+   PR #505 (main `a9fd86c`). The worked example now demonstrates the rule instead of contradicting it,
+   and still reaches four successes against a target of three.
+2. **Attitude ladder vs success table** — **Option A.** Each table declares its scope: the ladder
+   governs a single roll, the success table governs extended conflicts, and each points at the other.
+   The missing lost-exchange case was closed at the same time. PR #506 (main `572c0c6`).
+3. **Passive opposition** — **Challenge.** Bruce rejected both the opposed-roll model and the tiered
+   static score: *"the opposed roll isn't right, it should provide a modifier or banes, this is no
+   different than trying to hit an enemy with a sword"*, generalised to *"standard for all opposed
+   regardless of the attribute that is being targeted"*.
+
+   The NPC never rolls. The actor rolls *3d6 + attribute + skill − Challenge*, where Challenge is the
+   target's relevant attribute modifier, negated. This is ch06:97's existing Challenge mechanic, so no
+   new subsystem was introduced. PR #507 (main `92237ff`) applies it across six files: ch06's rule,
+   ch13's surprise/grapple/pin/shove, ch14's round structure and worked example, ch19's GM summary,
+   ch20's doppelganger and ch22's Shove row.
+
+   | NPC Knowledge | Challenge | P(Weak) | P(Std) | P(Strong) | rounds to 3 |
+   |---|---|---|---|---|---|
+   | −2 | +2 | 0.5% | 37.0% | 62.5% | 2.15 |
+   | 0 | 0 | 4.6% | 57.9% | 37.5% | 2.48 |
+   | +2 | −2 | 16.2% | 67.6% | 16.2% | 3.16 |
+
+   The ch06 tie ladder (higher tier, then higher total, then defender) is retired, since one roll leaves
+   nothing to compare. The lost-exchange row from PR #506 was reverted as redundant: under the Challenge
+   model the face's own tier **is** the exchange outcome.
+
+   A final book-wide sweep for mechanical `opposed` phrasing (opposed by / both sides roll / both roll /
+   higher total wins / Opposed Brawn / opposed roll) returned **zero remaining sites**. The unrelated
+   DP-cost sense of "Opposed" in ch05/08/16/22 was left alone.
