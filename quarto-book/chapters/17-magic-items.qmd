@@ -125,7 +125,7 @@ Leather gloves crackling with trapped lightning. Your fingers leave faint arcs o
 
 *Rarity:* Rare · *Attunement:* Requires Attunement · *Type:* Wondrous Item · *Disciplines:* 1 Life
 
-A silver chalice that never tarnishes. Liquid poured into it glows with a soft golden light for 1 minute.
+A silver chalice that never tarnishes. Liquid poured into it glows with a soft amber light for 1 minute.
 
 *Granted Action, Shared Draught (once per day):* You fill the chalice and drink. The healing flows through you to your allies.
 
@@ -159,7 +159,7 @@ A broad leather belt with a buckle of carved mountain stone. It's heavier than i
 
 A spiral horn carved from the tooth of some great celestial beast. When blown, it sounds like sunrise.
 
-*Granted Action, Dawn Call (once per day):* You blow the horn. A wave of golden sound rolls outward.
+*Granted Action, Dawn Call (once per day):* You blow the horn. A wave of radiant sound rolls outward.
 
 #figure(
   align(center)[#table(
@@ -327,7 +327,7 @@ A dagger with a blade so dark it seems to absorb light. When you hold it, your o
 
 *Rarity:* Rare · *Attunement:* Requires Attunement · *Type:* Longbow · *Disciplines:* 1 Fire
 
-A longbow of pale golden wood, warm to the touch. When drawn, the string hums with light and the arrow nocked upon it ignites, not with fire, but with pure radiance. Dawn priests call it "the first ray."
+A longbow of pale amber wood, warm to the touch. When drawn, the string hums with light and the arrow nocked upon it ignites, not with fire, but with pure radiance. Dawn priests call it "the first ray."
 
 *Passive:* Arrows fired from the Sunbow deal radiant damage instead of physical.
 
@@ -385,7 +385,7 @@ Full plate armor forged from star-metal, black iron veined with silver that glea
 
 *Rarity:* Uncommon · *Attunement:* No Attunement · *Type:* Wondrous Item
 
-A nondescript leather satchel, slightly larger than a coin purse. The interior is considerably less nondescript, it opens into an extradimensional space roughly 4 feet deep and 2 feet wide at the mouth.
+A nondescript leather satchel, slightly larger than a belt pouch. The interior is considerably less nondescript, it opens into an extradimensional space roughly 4 feet deep and 2 feet wide at the mouth.
 
 *Passive:* The bag can hold up to 500 pounds of gear while weighing only 15 pounds regardless of contents. Items placed inside must fit through the bag's opening (roughly 2 feet in diameter). Retrieving an item requires a Maneuver, the bag always produces the item you're thinking of, but you do have to reach in and find it.
 

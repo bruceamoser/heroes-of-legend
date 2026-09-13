@@ -339,17 +339,17 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 == Common Item Reference
 
 #figure(align(center)[#table(
-  columns: (32.00%, 18.00%, 25.00%, 25.00%),
-  align: (auto, auto, auto, auto,),
-  table.header([Armor], [Class], [Cost], [Slots],),
-  [Padded], [Light], [5 gp], [2],
-  [Leather], [Light], [10 gp], [2],
-  [Studded Leather], [Light], [25 gp], [2],
-  [Chain Shirt], [Medium], [20 gp], [2],
-  [Breastplate], [Medium], [100 gp], [3],
-  [Half Plate], [Heavy], [60 gp], [3],
-  [Chain Mail], [Heavy], [75 gp], [4],
-  [Plate], [Heavy], [300 gp], [4],
+  columns: (42.67%, 24.00%, 33.33%),
+  align: (auto, auto, auto,),
+  table.header([Armor], [Class], [Slots],),
+  [Padded], [Light], [2],
+  [Leather], [Light], [2],
+  [Studded Leather], [Light], [2],
+  [Chain Shirt], [Medium], [2],
+  [Breastplate], [Medium], [3],
+  [Half Plate], [Heavy], [3],
+  [Chain Mail], [Heavy], [4],
+  [Plate], [Heavy], [4],
 )], kind: table, numbering: none, outlined: false)
 
 #figure(align(center)[#table(
@@ -364,32 +364,32 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 *Your Damage Reduction comes from talents such as Iron Skin, never from a shield.* See @sec-chapter-armor-shields
 
 #figure(align(center)[#table(
-  columns: (17.24%, 27.59%, 27.59%, 17.24%, 10.34%),
-  align: (auto, auto, auto, auto, auto,),
-  table.header([Weapon], [Disciplines], [Properties], [Range], [Cost],),
-  [Unarmed], [None], [], [Melee], [],
+  columns: (19.23%, 30.77%, 30.77%, 19.23%),
+  align: (auto, auto, auto, auto,),
+  table.header([Weapon], [Disciplines], [Properties], [Range],),
+  [Unarmed], [None], [], [Melee],
 
-  [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft], [2 gp],
-  [Shortsword], [1 Blades], [Finesse, Light], [Melee], [1 gp],
-  [Longsword], [2 Blades], [Versatile], [Melee], [15 gp],
-  [Greatsword], [2 Blades + 1 Heavy Weapon], [], [Melee], [30 gp],
+  [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft],
+  [Shortsword], [1 Blades], [Finesse, Light], [Melee],
+  [Longsword], [2 Blades], [Versatile], [Melee],
+  [Greatsword], [2 Blades + 1 Heavy Weapon], [], [Melee],
 
-  [Handaxe], [1 Axes], [Light, Thrown], [20/60 ft], [5 gp],
-  [Battleaxe], [2 Axes], [], [Melee], [10 gp],
-  [Greataxe], [2 Axes + 1 Heavy Weapon], [], [Melee], [30 gp],
+  [Handaxe], [1 Axes], [Light, Thrown], [20/60 ft],
+  [Battleaxe], [2 Axes], [], [Melee],
+  [Greataxe], [2 Axes + 1 Heavy Weapon], [], [Melee],
 
-  [Mace], [1 Heavy Weapon], [], [Melee], [5 gp],
-  [Warhammer], [2 Heavy Weapon], [], [Melee], [10 gp],
-  [Maul], [3 Heavy Weapon], [], [Melee], [40 gp],
+  [Mace], [1 Heavy Weapon], [], [Melee],
+  [Warhammer], [2 Heavy Weapon], [], [Melee],
+  [Maul], [3 Heavy Weapon], [], [Melee],
 
-  [Spear], [1 Polearms], [Reach, Thrown, Two-Handed], [20/60 ft], [10 gp],
-  [Halberd], [1 Polearms], [Reach, Two-Handed], [Melee], [9 gp],
+  [Spear], [1 Polearms], [Reach, Thrown, Two-Handed], [20/60 ft],
+  [Halberd], [1 Polearms], [Reach, Two-Handed], [Melee],
 
-  [Throwing Dagger], [1 Blades or 1 Archery], [Finesse, Thrown], [20/60 ft], [2 gp],
+  [Throwing Dagger], [1 Blades or 1 Archery], [Finesse, Thrown], [20/60 ft],
 
-  [Shortbow], [1 Archery], [Two-Handed], [60/120 ft], [25 gp],
-  [Longbow], [1 Archery], [Two-Handed], [100/200 ft], [50 gp],
-  [Crossbow], [1 Archery], [Loading, Two-Handed], [20/60 ft], [20 gp],
+  [Shortbow], [1 Archery], [Two-Handed], [60/120 ft],
+  [Longbow], [1 Archery], [Two-Handed], [100/200 ft],
+  [Crossbow], [1 Archery], [Loading, Two-Handed], [20/60 ft],
 )], kind: table, numbering: none, outlined: false)
 
 *The weapon never changes your damage. See @sec-chapter-talents-abilities for what a range of two numbers means, and @sec-chapter-equipment for weapons in full, including which are drawn from a starting kit.*

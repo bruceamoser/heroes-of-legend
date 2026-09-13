@@ -548,7 +548,7 @@ If you're DAing for a group that's new to _Heroes of Legend_, here's how to make
 
 *Announce the turn order at the top of every round.* "Kael, you're up. Lyra, you're next. Then the goblins. Roric, you're after them." Players stop asking "whose turn is it?" when they can see the next hero up.
 
-*Use physical tokens for reactions.* Give each player a poker chip or a coin. When they spend their reaction, they flip it over. At the start of their turn, they flip it back. It's a visual reminder that they have one reaction per round, and it prevents the "wait, did I already use my reaction?" conversation.
+*Use physical tokens for reactions.* Give each player a poker chip or a token. When they spend their reaction, they flip it over. At the start of their turn, they flip it back. It's a visual reminder that they have one reaction per round, and it prevents the "wait, did I already use my reaction?" conversation.
 
 *Describe damage, not numbers.* "The goblin's blade skips off your pauldron, you feel the impact but no pain" is better than "You take 0 damage." The fiction matters more than the arithmetic. Players remember the time the dragon's claw sent them flying across the room. They don't remember the time they took 7 piercing damage.
 

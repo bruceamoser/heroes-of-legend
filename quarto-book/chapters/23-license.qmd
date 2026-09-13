@@ -99,6 +99,6 @@ For licensing inquiries, permissions requests, or questions about using _Heroes 
 
 #horizontalrule
 
-_Heroes of Legend_ is a work of fiction and a game. Any resemblance to actual persons, living or dead, or actual events is purely coincidental. The game is intended for entertainment purposes only. Dice cannot actually summon fire. (We checked.)
+_Heroes of Legend_ is a work of fiction and a game. Any resemblance to actual persons, living or dead, or actual events is purely accidental. The game is intended for entertainment purposes only. Dice cannot actually summon fire. (We checked.)
 
 ```
