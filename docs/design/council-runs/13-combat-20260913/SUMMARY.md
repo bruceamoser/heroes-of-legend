@@ -116,8 +116,12 @@ unchanged: Critical 1 / Strong 19 / Standard 140 / Weak 55 / Fumble 1.
 
 Defined in ch13's Grappling section and the ch21 glossary. Agility against the
 *situation*, not the grappler; DA sets the difficulty from whatever has hold of you.
-Weak: still held. Standard: Boon on the next Escape, may try again. Strong: free, and
-gone from the scene.
+Weak: still held. Standard: Boon on the next Escape, may try again.
+
+**Corrected (Bruce, same day, PR #503):** the condition-table Escape is the *grapple*
+escape, so a Strong result **breaks you free and ends the condition** - not the scene.
+The first draft had it end the scene, which was the orchestrator's over-reach rather
+than the ruling. Applies to both ch13 and the ch21 entry.
 
 ### Verification
 Build exit 0; native-Typst exit 0 (the gate caught a markdown-bold `**` in the first
