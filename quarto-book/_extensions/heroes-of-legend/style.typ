@@ -235,6 +235,55 @@
 #show heading.where(level: 4): it => block(sticky: true, it)
 #show heading.where(level: 5): it => block(sticky: true, it)
 
+// ── Cards (issue #487) ──────────────────────────────────────────────────────
+// A card is a level-3 heading plus the stat paragraphs that follow it. Every
+// card has the same shape: a Disciplines line, then either Weak / Standard /
+// Strong (active cards) or a single Effect or Novice line (passive cards).
+// Typst lays those out as separate blocks, so the sticky heading above only
+// pins the title to the first stat line; a page break can still land between
+// the remaining lines and leave half a card on the next page.
+//
+// Mark the leading stat paragraphs sticky so they chain together with the
+// heading. The closing line (Strong / Effect / Novice) is deliberately left
+// unsticky: sticky means "no break before the next block", so a sticky closing
+// line would glue each card to the heading of the card after it and turn a whole
+// chapter of cards into one unbreakable chain. Ending the chain at the card
+// boundary keeps each card whole while still allowing a normal break between
+// cards.
+//
+// Sticky, not `block(breakable: false)`: the unbreakable form is what used to
+// strand tall content (see the heading note above), and a card taller than a
+// page must still be allowed to split somewhere. Sticky is a soft constraint,
+// so an oversized card breaks at a sane point instead of overflowing.
+#let hol-flatten(c) = {
+  if type(c) == array {
+    c.map(hol-flatten).join()
+  } else if type(c) == str {
+    c
+  } else if type(c) == content {
+    if c.has("text") { c.text }
+    else if c.has("child") { hol-flatten(c.child) }
+    else if c.has("body") { hol-flatten(c.body) }
+    else if c.has("children") { hol-flatten(c.children) }
+    else { "" }
+  } else {
+    ""
+  }
+}
+
+#show par: it => {
+  let t = hol-flatten(it.body)
+  if (
+    t.starts-with("Disciplines:")
+      or t.starts-with("Weak:")
+      or t.starts-with("Standard:")
+  ) {
+    block(sticky: true, it)
+  } else {
+    it
+  }
+}
+
 #show heading: set text(font: heading-font-stack)
 
 // ── Tables (booktabs functions available) ───────────────────────────────────
