@@ -171,14 +171,14 @@ Each class pays a different price for each Discipline rank depending on how alig
 
 The total cost of a card = its flat card DP cost + the sum of the Discipline rank costs from your class's structure for each required discipline.
 
-#callout(type: "note", title: "Worked Total-Cost Example: Ember Lance vs Sulphur Aria", body: [
+#callout(type: "note", title: "Worked Total-Cost Example: Ember Lance vs Brimstone Burst", body: [
 The flat card DP cost is only part of the price. You also pay rank costs for any required Disciplines you do not already possess.
 
 *Ember Lance (Novice, 1 Fire):*
 - *Protector* pays flat 2 DP + Fire rank 1 at Opposed cost (4 DP) = *6 DP total*.
 - *Arcanist* already has Fire rank 1 from her class grant, so she pays the flat 2 DP only = *2 DP total*.
 
-*Sulphur Aria (Adept, 2 Fire):*
+*Brimstone Burst (Adept, 2 Fire):*
 - *Protector* (no existing Fire) pays flat 4 DP + Fire rank 1 at Opposed (4 DP) + Fire rank 2 at Opposed (8 DP) = *16 DP total*.
 - *Arcanist* (already has Fire rank 1 from creation) pays flat 4 DP + Fire rank 2 at Home (2 DP) = *6 DP total*. If the Arcanist did not have Fire rank 1 yet, the total would be flat 4 + rank 1 (1 DP) + rank 2 (2 DP) = *7 DP*.
 
@@ -240,9 +240,8 @@ Sera wants to burn the world. She's an Arcanist. Her class gives her 1 Fire and 
 
 *Novice (Ember Lance):* Requires 1 Fire. Sera has 1 Fire. She qualifies immediately. Ember Lance costs 2 DP (flat card cost), and her Arcanist home cost for Fire rank 1 was already paid at creation. Ember Lance is hers on day one.
 
-*Adept (Sulphur Aria):* Requires 2 Fire. Sera has 1 Fire, so she needs one more. At level 3 she takes Fire (now 2 Fire) and buys Sulphur Aria the moment the Adept gate opens. Most casters need several levels to reach Adept. Arcanists walk a shorter path to the flame.
+*Adept (Brimstone Burst):* Requires 2 Fire. Sera has 1 Fire, so she needs one more. At level 3 she takes Fire (now 2 Fire) and buys Brimstone Burst the moment the Adept gate opens. Most casters need several levels to reach Adept. Arcanists walk a shorter path to the flame.
 
-*Master (Smoldering Wake):* Sera's Master card in the Ember Lance family is Smoldering Wake. It deals 7/10/14 fire damage, Piercing 3, and leaves a burning patch (Burning 2). When the Master tier unlocks at level 7, she can buy it. She could branch into Earth for another Master card, Protection for defense, Animal for a familiar, or continue deepening her elemental mastery.
 
 Seven levels to master the fire. Disciplines got her to Master. No shortcuts. Just the path, walked one step at a time.
 
