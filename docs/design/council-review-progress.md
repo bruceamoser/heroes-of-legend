@@ -74,3 +74,30 @@ Order = top to bottom. Today's chapter (00-front-matter) is recorded as reviewed
 | 23 | 21-glossary | pending | | | |
 | 24 | 22-reference-sheets | pending | | | |
 | 25 | 23-license | pending | | | |
+
+---
+
+## Wave 3: full re-review after the card refactor (agreed with Bruce, 2026-09-14)
+
+The five remaining pending chapters (18, 19, 21, 22, 23) are reviewed FIRST, in order, as Wave 2
+completion. Do not start Wave 3 until all five are done.
+
+Then re-review the whole book from chapter 1. The 2026-09-13/14 refactor changed 22 chapter files, so most
+Wave 1 and Wave 2 reviews evaluated a book that no longer exists: the card library went from 106 entries
+carrying 288 rungs to 177 standalone cards, the combat spine gained bands/Grit/a band-relative DR ceiling,
+Marked became a 24th condition, and the Fate discipline was added.
+
+Order by how much the chapter actually changed, not by chapter number, so the highest-risk reviews land
+first:
+
+1. **Changed wholesale, reviews least trustworthy:** 09-talents-abilities (129 to 72 cards),
+   11-arcane-spells (40 to 65), 12-divine-spells (25 to 40). The council reviewed a rung-carrying library;
+   there are now standalone cards, plus the new combo and utility sets that no lens has read.
+2. **Changed substantively:** 13-combat (spine, Grit, DR ceiling, Marked), 16-armor-shields (DR by
+   weight, rewritten Roric example), 08-disciplines (Fate added), 06-core-resolution and 10-magic-system
+   (worked examples repointed at cards that still exist).
+3. **Changed lightly, verify rather than re-review:** 02, 03, 04, 05, 07, 14, 15, 17, 18, 19, 20, 21, 22.
+   These took reference repairs and the armour DR rename, all covered by build gates and the reference
+   sweep. A full council round on these is ceremony, not review; confirm the gates and move on.
+
+Restart the chapter numbering at 1 for Wave 3 so the table reads as a fresh pass.
