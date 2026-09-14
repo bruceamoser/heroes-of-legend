@@ -50,7 +50,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 == Character Terms
 
-*Ability:* An active power purchased with DP. Spells, combat techniques, and signature class powers are all abilities. Must be activated to use. Follows the Novice/Adept/Master growing-card format with a flat DP cost by tier.
+*Ability:* An active power purchased with DP. Spells, combat techniques, and signature class powers are all abilities. Must be activated to use. Bought at one tier, Novice, Adept, or Master, for a flat DP cost by tier.
 
 *Ancestry:* Your species, Human, Elf, Dwarf, or Halfling. Grants one Discipline and one trait.
 
@@ -80,11 +80,11 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Novice:* The first tier of any skill or ability. Grants +1 bonus. Flat cost: 2 DP.
 
-*Adept:* The second tier. Grants +2 bonus. Flat cost: 4 DP. Requires Novice. Unlocks at Level 3.
+*Adept:* The second tier. For a skill, the +2 bonus. Flat cost: 4 DP. Unlocks at Level 3.
 
-*Master:* The third tier. Grants +3 bonus. Flat cost: 8 DP. Requires Adept. Unlocks at Level 7.
+*Master:* The third tier. For a skill, the +3 bonus. Flat cost: 8 DP. Unlocks at Level 7.
 
-*Rank:* A single step of a Discipline, from 1 to 3. Cards require Discipline ranks as prerequisites: Novice 1, Adept 2, Master 3. A hero's maximum in any single Discipline is 3 ranks.
+*Rank:* A single step of a Discipline, from 1 to 3. A card names the Discipline ranks it needs, and those ranks are its own prerequisite. The card's tier sets the level it needs (Novice 1, Adept 3, Master 7). A hero's maximum in any single Discipline is 3 ranks.
 
 *Signature Ability:* The unique power granted by your class at Level 1. Defines your class identity mechanically.
 
@@ -198,7 +198,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Spell:* A magical ability bought as a spell card. Always fires, no spell slots, no mana.
 
-*Spell Card:* A spell in the standard card format. Every spell is an individual card with Weak, Standard, and Strong outcomes, plus optional Adept and Master additions. There are no spell chains.
+*Spell Card:* A spell in the standard card format. A Novice spell card prints Weak, Standard, and Strong outcomes; an Adept or Master spell is a separate card with its own name and a single effect. There are no spell chains.
 
 *Concentration Spell:* A spell that requires ongoing focus. You can maintain one at a time.
 

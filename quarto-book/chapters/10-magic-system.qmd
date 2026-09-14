@@ -32,47 +32,37 @@ One roll. Three outcomes. No separate casting check and no spell failure percent
 
 #pagebreak()
 
-== Spell Cards: Novice → Adept → Master
+== Spell Cards
 
-Every spell above the cantrips is a single growing card. You buy it at one of three tiers, Novice, Adept, or Master, and each higher tier deepens the same spell rather than replacing it. That's the Ember Lance in the table below, a Novice spark that grows into a Master-rank lance: one spell, grown. The card carries its Disciplines requirement, Action, Range, and Keywords, then its effects in Weak, Standard, and Strong outcomes, with Adept and Master additions on top.
-
-A rung never takes something away. Everything the lower rung promised still happens, and the higher rung deepens it. Deepening takes three shapes, and the card picks the one the fiction wants:
-
-+ *Add.* A new effect joins the old one, and the spell does more than it did before.
-
-+ *Intensify.* Where the condition is scaled, the number climbs. Slowed 10 becomes Slowed 20, Poisoned 1 becomes Poisoned 2, Frozen 1 becomes Frozen 2.
-
-+ *Tighten.* Where a ladder exists, the condition becomes a stricter one. Prone becomes Restrained, and Restrained becomes Stunned.
-
-A rung never quietly drops an effect the rung below it promised. Read any rung as everything beneath it, plus what it adds.
+Every spell above the cantrips is its own card. A spell family runs Novice, Adept, and Master, and each tier is a separate card with its own name and its own price. You buy the card you can afford and qualify for, and it never changes. That's the Ember Lance family in the table below: the Novice card Ember Lance, the Adept card Pyre Needle, and the Master card Smoldering Wake. The card carries its Disciplines requirement, Action, Range, and Keywords, then its effect. A Novice active card prints Weak, Standard, and Strong outcomes; an Adept or Master card prints a single Effect line.
 
 A card is bought at one of three tiers, and the tier sets both the cost and the effect row:
 
 #figure(
   align(center)[#table(
-    columns: (19.64%, 10.71%, 23.21%, 46.43%),
-    align: (auto, auto, auto, auto,),
-    table.header([Card tier], [Cost], [Disciplines], [Effect (Weak / Standard / Strong)],),
-    [Novice], [2 DP], [1 Discipline], [4/6/8],
-    [Adept], [4 DP], [2 Disciplines], [5/8/11],
-    [Master], [8 DP], [3 Disciplines], [7/10/14],
+    columns: (25%, 15%, 60%),
+    align: (auto, auto, auto,),
+    table.header([Card tier], [Cost], [Effect (Weak / Standard / Strong)],),
+    [Novice], [2 DP], [4/6/8],
+    [Adept], [4 DP], [5/8/11],
+    [Master], [8 DP], [7/10/14],
   )],
   kind: table,
   outlined: false,
   numbering: none,
 )
 
-A Novice card bought up to Adept rank uses the Adept row (5/8/11). Bought to Master rank, it uses 7/10/14. A card bought at Adept tier starts at 5/8/11 and reaches 7/10/14 at Master rank. The row is the law, no matter how the card is shaped.
-
-Raising a card you already own costs the difference, so the total you have paid ends up equal to the target tier's flat price: 2 DP more to lift a Novice card to Adept rank, 4 DP more to lift it to Master rank, and 6 DP more to go from Adept to Master. Discipline ranks the higher tier newly requires are bought separately, at your class's rates. See @sec-damage-budget for where those three rows come from.
+You buy a card at its tier and you own that card. There is no rung to climb and no upgrade to pay for: the Adept and Master members of a family are separate cards with their own names and their own prices. Discipline ranks are bought separately, at your class's rates. See @sec-damage-budget for where those three rows come from.
 
 #pagebreak()
 
-== Discipline Prerequisites
+== Level Gates and Disciplines
 
-Spell tiers have *level gates* in addition to Discipline prerequisites. *Adept-tier spells require character level 3. Master-tier spells require level 7.* Novice spells have no level gate. Discipline prerequisites still govern _which_ Adept and Master options you can buy when the gate opens. Want to throw a Brimstone Burst at level 3? You need 2 Fire. At level 7, a Master card needs 3 Disciplines, say 2 Fire and 1 Earth. The Discipline system follows a clean progression: *Novice spells require 1 Discipline, Adept require 2, Master require 3.*
+Every card has a *level gate* set by its tier: *Novice cards at level 1, Adept cards at level 3, Master cards at level 7.* The tier is a property of the card itself, not a count of its Disciplines. A Novice card can ask for several Discipline ranks, and an Adept card with no Discipline on its header asks for none.
 
-At the Master tier, one additional rule applies: *no single Discipline may go past rank 3.* The three ranks follow the Discipline ladder (three different, two plus one, or all three the same), so a Master spell may blend types, fire and earth working together, or commit fully to a single force. This keeps Master spells a mark of earned mastery, broad or deep, never shallow repetition. See @sec-chapter-disciplines for the full ladder of ranks and their costs; every class sheet prints its own cost structure.
+On top of the level gate, a card requires the Disciplines printed on its header. Meet those ranks and you can buy the card. Want to throw Brimstone Burst? You need 2 Fire. Want its Adept sibling, Sulphur Aria? You need the same 2 Fire, plus level 3. See @sec-chapter-disciplines for the full rank and cost rules; every class sheet prints its own cost structure.
+
+One ceiling still holds: *no single Discipline may go past rank 3.* The ranks follow the Discipline ladder (three different, two plus one, or all three the same), so a Master spell may blend types, fire and earth working together, or commit fully to a single force. This keeps Master spells a mark of earned mastery, broad or deep, never shallow repetition.
 
 There are no wildcard Discipline substitutions, with one carve-out. Every Discipline requirement must be met with the specific Discipline named on the card, unless a class signature says otherwise: the Odd's *Eccentric Spellcasting* waives the prerequisites for two chosen abilities, one arcane and one divine, while the level gates still apply.
 
@@ -82,15 +72,15 @@ There are no wildcard Discipline substitutions, with one carve-out. Every Discip
     align: (auto, auto, auto, auto,),
     table.header([Spell], [Tier], [Discipline Req], [Effect (Weak / Standard / Strong)],),
     [Ember Lance], [Novice], [1 Fire], [W: 2 / S: 4 / St: 6, passes through],
-    [Brimstone Burst], [Adept], [2 Fire], [W: 6 / S: 9 / St: 12, 20-ft radius],
-    [Ember Lance (Master rank)], [Master], [3 Fire], [W: 9 / S: 15 / St: 21, Piercing 3],
+    [Pyre Needle], [Adept], [1 Fire], [W: 5 / S: 8 / St: 11, Piercing 2],
+    [Smoldering Wake], [Master], [1 Fire], [W: 7 / S: 10 / St: 14, Piercing 3],
   )],
   kind: table,
   outlined: false,
   numbering: none,
 )
 
-Look at that jump from a Novice Ember Lance to a Master one. One. Two. Three. Novice spells are tools. Adept spells are weapons. Master spells are _events._ The Discipline requirements make sure you earn the difference, but they don't make you wait half a campaign to do it.
+Three cards, one spell. Ember Lance is the Novice version: a tool. Pyre Needle is the Adept version: a weapon. Smoldering Wake is the Master version: an _event._ The level gate and the Discipline rank make sure you earn each step, but they don't make you wait half a campaign to take it.
 
 #pagebreak()
 
@@ -122,9 +112,9 @@ Some classes blur the line. The Odd steals from both traditions. The Unbalanced 
 
 Magic is powerful. That's the point. But there are brakes. Not to frustrate you, to make your biggest spells feel like _moments._
 
-*Per-Encounter:* Adept and Master spells can only be used once per combat. You can't drop Brimstone Burst every round. Choose your moment. Make it count.
+*Per-Encounter:* Adept and Master spells can only be used once per combat. You can't drop Sulphur Aria every round. Choose your moment. Make it count.
 
-*Per-Session:* Master-tier spells are once per session. When you unleash Ember Lance at Master rank or a 3-Discipline Master card, the table should go quiet. These spells reshape encounters. They're not your default attack, they're your signature. Use them when it matters most. This is the tighter of the two limits: a Master spell does not come back in the next fight of the same session.
+*Per-Session:* Master-tier spells are once per session. When you unleash Smoldering Wake or another Master card, the table should go quiet. These spells reshape encounters. They're not your default attack, they're your signature. Use them when it matters most. This is the tighter of the two limits: a Master spell does not come back in the next fight of the same session.
 
 *Concentration:* Some ongoing spells, illusions, wards, enchantments, require concentration. You can only maintain one concentration spell at a time. If you take damage while concentrating, make a Fortitude check: *Standard or better* on 3d6 + Fortitude holds the spell together, and you make that check again each time damage lands on you. Concentration is about focus. Lose focus, lose the spell.
 
@@ -138,15 +128,15 @@ The Veteran Adventurer
 
 #pagebreak()
 
-== Worked Example: Casting Brimstone Burst
+== Worked Example: Casting Sulphur Aria
 
-Sera Ashvein is the party's Arcanist, a fire-obsessed scholar. By level 3 she has 2 Fire and 1 Energy, and Brimstone Burst is the spell she bought the moment the Adept gate opened. Now she's facing a cluster of goblins huddled behind a barricade. Time for a Brimstone Burst.
+Sera Ashvein is the party's Arcanist, a fire-obsessed scholar. By level 3 she has 2 Fire and 1 Energy, and Sulphur Aria is the spell she bought the moment the Adept gate opened. Now she's facing a cluster of goblins huddled behind a barricade. Time for a Brimstone Burst.
 
 *The roll:* Sera's Knowledge is +2, and her Arcana is Novice (+1). The goblins are packed tight, Standard difficulty, no modifier. She rolls 3d6: 5, 3, 4 = 12. Plus 2 (Knowledge), plus 1 (Arcana) = 15. _Strong._
 
-*The effect:* Brimstone Burst's Strong damage is 12 in a 20-ft radius. Everything in that circle takes 12 fire damage unless it has resistance. The goblins have no armor and no resistance. Four goblins, twelve damage each. The barricade, wooden, dry, catches fire. The goblins' formation collapses into screaming chaos.
+*The effect:* Sulphur Aria's Strong damage is 11 in a 20-ft radius. Everything in that circle takes 12 fire damage unless it has resistance. The goblins have no armor and no resistance. Four goblins, twelve damage each. The barricade, wooden, dry, catches fire. The goblins' formation collapses into screaming chaos.
 
-*The aftermath:* The Brimstone Burst is per-encounter. Sera won't cast it again this fight. But she doesn't need to. She just cleared the room. Now she draws her dagger and lets the Protector handle cleanup while she looks for her next opening.
+*The aftermath:* The Sulphur Aria is per-encounter. Sera won't cast it again this fight. But she doesn't need to. She just cleared the room. Now she draws her dagger and lets the Protector handle cleanup while she looks for her next opening.
 
 That's how magic works in _Heroes of Legend._ No "sorry, I missed." No "I'm out of mana." Just one result and a room full of consequences.
 ```

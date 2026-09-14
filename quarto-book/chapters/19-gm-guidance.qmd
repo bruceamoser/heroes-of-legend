@@ -545,34 +545,31 @@ Every mechanical element in _Heroes of Legend_ follows one of three card formats
 
 Spells are the most structured. Every spell card answers the same questions in the same order.
 
-*Format:* `### Name (Cantrip | Arcane Spell | Divine Spell)` then a single field line: `**Disciplines:** N Type · **Action:** Action/Reaction/Maneuver · **Range:** Touch/30 ft/area · **Keywords:** ...` then *Weak:*, *Standard:*, *Strong:* outcomes, then optional *Adept:* and *Master:* additions.
+*Format:* `### Name (Cantrip | Arcane Spell | Divine Spell)` then a single field line: `**Disciplines:** N Type · **Action:** Action/Reaction/Maneuver · **Range:** Touch/30 ft/area · **Keywords:** ...` then *Weak:*, *Standard:*, *Strong:* outcomes. An Adept or Master card replaces the outcome block with a single *Effect:* line.
 
 #figure(
   align(center)[#table(
     columns: (35.00%, 65.00%),
     align: (auto, auto,),
     table.header([Field], [Description],),
-    [*Disciplines*], [The Disciplines required to learn this spell. e.g. "1 Fire" or "2 Fire". A card's tier is set by its discipline count: 1 = Novice, 2 = Adept, 3+ = Master. Max 3 ranks per type.],
+    [*Disciplines*], [The Disciplines required to learn this spell. e.g. "1 Fire" or "2 Fire". A card's tier sets the level it needs: Novice 1, Adept 3, Master 7. Max 3 ranks per type.],
     [*Action*], [What it costs from the turn economy: Action, Maneuver, or Reaction.],
     [*Range*], [How far the spell reaches: Touch, 30 ft, 60 ft, Self (15-ft cone), 20-ft radius, etc.],
     [*Keywords*], [Mechanics the card interacts with: Bane, Boon, Prone, Slowed, Piercing, DR, and so on.],
     [*Weak / Standard / Strong*], [What happens on each result. Damage uses the budget table (@sec-damage-budget): 4/6/8, 5/8/11, or 7/10/14 by tier.],
-    [*Adept / Master*], [Additions when the card is bought up to Adept or Master rank.],
   )],
   kind: table,
   outlined: false,
   numbering: none,
 )
 
-*Example (Brimstone Burst):*
+*Example (Brimstone Burst, Novice):*
 
 #quote[*Brimstone Burst (Arcane Spell).*
 *Disciplines:* 2 Fire · *Action:* Action · *Range:* 20-ft radius · *Keywords:* Burning
 *Weak:* 6 fire damage to all in the radius (Agility or Dodge rank resists).
 *Standard:* 9 fire damage to all.
-*Strong:* 12 fire damage to all.
-*Adept:* 5/8/11 fire damage to all.
-*Master:* 7/10/14 fire damage to all; the ground burns (Burning 4).]
+*Strong:* 12 fire damage to all.]
 
 #quote[_This is the spell that ends encounters and starts wars. When you cast Brimstone Burst, the battlefield changes. So does your reputation._]
 
@@ -608,7 +605,7 @@ Some Novice-level cards have no Discipline requirement. Basic utility skills cos
 
 #quote[*Spark (Cantrip).* *Disciplines:* None · *Action:* Action · *Range:* 30 ft · *Keywords:* None. *Weak:* The object smolders. It may catch fire after 1 round if left alone. *Standard:* Immediate ignition. The object catches fire and burns normally. *Strong:* The flame leaps. Adjacent flammable objects also catch fire.]
 
-No-prereq cards are Novice only. Adept and Master cards always require Disciplines.
+No-prereq spell cards are Novice only. An Adept or Master spell always lists a Discipline.
 
 === Ancestry Gift Card
 
