@@ -16,7 +16,7 @@ But once it does? Once you're a conduit for divine power? You heal wounds that s
 
 Divine magic doesn't throw fireballs. It doesn't dissolve armor or dominate minds. It heals. It protects. It reveals. And when the moment calls for it, it burns. These are the spells that keep your party alive when the dungeon wants them dead, that ward the camp against things that hunt in the dark, that answer questions no mortal should be able to answer. Arcane magic dominates the battlefield. Divine magic makes sure there's a battlefield left to dominate, and then decides what is allowed to stand on it.
 
-This chapter contains every divine spell in the game. Shepherds use them. Some Leaders use them. Anyone who's ever knelt before something greater and felt it kneel back.
+This chapter contains every divine and primal spell in the game. Shepherds use them. Some Leaders use them. Anyone who's ever knelt before something greater and felt it kneel back.
 
 _See @sec-chapter-magic-system for how spellcasting works._
 
@@ -72,6 +72,19 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 *Standard:* Three simultaneous effects. Your presence is unmistakably divine. Bystanders who aren't actively hostile are awed, social checks against them have Boon.
 
 *Strong:* Your display is terrifying or awe-inspiring (your choice). Hostile creatures of Novice tier or lower must make a Reason check or flee for 1 round. The ground actually shakes. The fire actually roars.
+
+== Primal Cantrips
+
+Primal cantrips are the small tricks of the wild, calling and listening rather than commanding. They require no Disciplines and cost nothing, and every primal caster knows them.
+
+=== Whistlesummon (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* 60 ft · *Keywords:* Beast
+
+*Weak:* A small natural animal of the area comes to your call.
+
+*Standard:* A small natural animal of the area comes to your call and carries a small token to a place it knows.
+
+*Strong:* A small natural animal of the area comes to your call, carries a small token to a place it knows, and returns with a token from that place.
 
 == Life Spells
 
@@ -131,6 +144,15 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Disciplines:* 2 Life · *Kit:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Wound
 
 *Effect:* Restore 7/10/14 HP; return a creature that died within the last minute to life.
+
+=== Blood Trail (Primal Spell)
+*Disciplines:* 2 Life · *Action:* Action · *Range:* 30 ft · *Keywords:* Divination
+
+*Weak:* Blood spilled within the last day glows faintly for your eyes alone.
+
+*Standard:* As weak, and you learn whether the blood came from a creature you have seen before.
+
+*Strong:* As standard, and the trail of that blood lights the path its owner took, up to the next running water.
 
 == Protection Spells
 
@@ -235,6 +257,51 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* An extraplanar target is sent away for 3 turns; it cannot return this scene.
 
+=== Name the Peace (Divine Spell)
+*Disciplines:* 2 Religion · *Action:* Action · *Range:* 30 ft · *Keywords:* Sanctuary
+
+*Weak:* You name a space as sanctuary; you alone know the declaration holds, and the first blow struck within it will carry an ill name.
+
+*Standard:* You name a space as sanctuary; every creature that can hear you knows it holds, and any creature that deals damage inside it is Marked by you until it leaves.
+
+*Strong:* Every creature that can hear you knows the space holds; any creature that deals damage inside it is Marked by you and Frightened until it leaves, and no creature that heard the naming can believe the offender's denial of it.
+
+=== Forbid the Line (Divine Spell)
+*Disciplines:* 2 Religion · *Action:* Action · *Range:* 60 ft · *Keywords:* Judgment
+
+*Weak:* You draw a line across the ground and name one creature; that creature feels the line as a wall it has no wish to cross.
+
+*Standard:* You draw a line and name one creature; while the spell holds, the creature cannot cross the line, and if it presses against the boundary it is Restrained.
+
+*Strong:* As standard, and the creature is Marked for as long as the line holds.
+
+=== Pronounce Judgment (Divine Spell)
+*Disciplines:* 3 Religion · *Action:* Action · *Range:* 60 ft · *Keywords:* Judgment
+
+*Weak:* You name a deed aloud and ask the world to weigh it against one creature; a guilty creature is Marked, and if it is innocent of that deed you are Stunned in its place.
+
+*Standard:* As weak, and a guilty creature is also Frightened and cannot speak a word in its own defense while the judgment holds.
+
+*Strong:* As weak, and a guilty creature is also Restrained where it stands for as long as the judgment holds.
+
+=== Call the Larger (Divine Spell)
+*Disciplines:* 3 Religion · *Action:* Action · *Range:* self · *Keywords:* Divination
+
+*Weak:* You ask a yes-or-no question of something larger than yourself and receive a clear sign that answers it.
+
+*Standard:* You ask a question of something larger than yourself and receive a truthful answer in signs, though it is not always the answer you asked for.
+
+*Strong:* As standard, and the answer shows you one thing you did not think to ask.
+
+=== Anathema (Divine Spell)
+*Disciplines:* 3 Religion · *Action:* Action · *Range:* 30 ft · *Keywords:* Judgment
+
+*Weak:* You declare a creature outcast before witnesses, and everyone who hears knows the declaration and what it names.
+
+*Standard:* As weak, and no creature that heard the declaration can offer the outcast aid without taking the Marked condition itself.
+
+*Strong:* As standard, and the outcast is Marked and cannot benefit from any gift freely given, magical or otherwise, while the declaration holds.
+
 == Animal Spells
 
 === Beast Tongue (Divine Spell)
@@ -256,5 +323,81 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Standard:* Creatures passing through take 9 piercing damage and are Slowed 5.
 
 *Strong:* Creatures passing through take 12 piercing damage and are Restrained.
+
+=== Raise Cover (Primal Spell)
+*Disciplines:* 2 Plants · *Action:* Action · *Range:* 30 ft · *Keywords:* Terrain
+
+*Weak:* A slab of earth rises to knee height from an empty space; it breaks a low line of sight and can be used as cover.
+
+*Standard:* A slab of earth rises to chest height; creatures behind it have a Boon when defending, and it blocks sightlines at ground level.
+
+*Strong:* As standard, and the slab stays standing after the spell ends until it is broken down.
+
+=== Rootgrab (Primal Spell)
+*Disciplines:* 2 Plants · *Action:* Action · *Range:* 60 ft · *Keywords:* Growth
+
+*Weak:* Roots twist up around one creature's feet; the ground is difficult, and it is at Bane on its next roll to move.
+
+*Standard:* Roots seize one creature's feet; it is Restrained until it Escapes (Standard Athletics, once per turn).
+
+*Strong:* Roots seize one creature's feet; it is Restrained until it Escapes (Standard Athletics, once per turn), and its Escapes are at Bane while the roots hold.
+
+=== Ground Refuses (Primal Spell)
+*Disciplines:* 2 Plants · *Action:* Action · *Range:* 60 ft · *Keywords:* Terrain
+
+*Weak:* The ground under one creature turns to loose dust; it slips and is Prone.
+
+*Standard:* The ground under one creature refuses to hold it; it is Prone and cannot rise while it remains on that bare earth.
+
+*Strong:* As standard, and it stays Prone until it reaches stone, water, or another surface you did not name.
+
+=== Tree Remembers (Primal Spell)
+*Disciplines:* 2 Plants · *Action:* Action · *Range:* touch · *Keywords:* Divination
+
+*Weak:* You touch a tree and see the last face that passed beneath it.
+
+*Standard:* As weak, and the tree will groan a warning when that same creature next comes near.
+
+*Strong:* As standard, and the tree remembers that face for your lifetime, not only for the day.
+
+== Earth Spells
+
+=== Ask the Land (Primal Spell)
+*Disciplines:* 2 Earth · *Action:* Action · *Range:* touch · *Keywords:* Divination
+
+*Weak:* You touch bare ground and learn the direction of the nearest settlement, water, or road.
+
+*Standard:* You touch bare ground and learn which creatures crossed it in the last day, how many, and which way they went.
+
+*Strong:* As standard, and the ground shows you the last creature's shape clearly enough to name its kind and its gait.
+
+=== Take the Heat (Primal Spell)
+*Disciplines:* 2 Earth · *Action:* Action · *Range:* 30 ft · *Keywords:* Fire
+
+*Weak:* A fire within range goes out, and its wood is cold to the touch.
+
+*Standard:* A fire within range loses all heat for as long as you hold your hands closed; it gives no light, deals no harm, and cannot spread.
+
+*Strong:* As standard, and you may release the stolen heat into a single held object, which stays warm for the rest of the day.
+
+== Wind Spells
+
+=== Fog That Answers (Primal Spell)
+*Disciplines:* 2 Wind · *Action:* Action · *Range:* 60 ft · *Keywords:* Weather
+
+*Weak:* You call a fog that fills the area, and you and those you name can see through it.
+
+*Standard:* As weak, and any creature you did not name is Blinded while it stands in the fog.
+
+*Strong:* As standard, and the fog follows you at a walking pace, keeping you at its center, until you let it go.
+
+=== River Rise (Primal Spell)
+*Disciplines:* 3 Wind · *Action:* Action · *Range:* 120 ft · *Keywords:* Water
+
+*Weak:* A river or stream within range rises over its banks; fording it becomes impossible.
+
+*Standard:* As weak, and any creature in the water is Grappled by the current and dragged downstream.
+
+*Strong:* As standard, and the flood leaves the ground soaked and soft, so that any creature crossing it afterward is Restrained.
 
 ```

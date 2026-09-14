@@ -203,6 +203,7 @@ Conditions are the status effects that change how a creature behaves in combat. 
     [*Hidden*], [Attacks against you have Bane], [You attack, or the concealment ends],
     [*Incapacitated*], [No actions], [Source duration],
     [*Invisible*], [Cannot be targeted directly], [Attack/action ends],
+    [*Marked*], [Always by a specific creature: no Cover or Concealment against it or its allies, its attacks against you gain a Boon, and a Mark from a sworn naming also blocks belief and gifts freely given], [Source ends it, the marker is downed, or you make amends],
     [*Paralyzed*], [Incapacitated + auto-crit if hit], [Source duration],
     [*Petrified*], [Turned to stone, incapacitated, DR +5, immune to non-magical damage], [Special],
     [*Poisoned X*], [Takes X poison damage per round and attacks at Bane], [Spend an action to end],
