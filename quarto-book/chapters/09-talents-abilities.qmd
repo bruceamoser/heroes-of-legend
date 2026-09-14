@@ -12,7 +12,7 @@ _Placeholder for final art._
 
 Most talents are passive. They change your numbers or grant a standing benefit, and they are always on; a few are activated talents, and their card's Action field says so. Abilities are active. Spells, weapon maneuvers, and class powers must be activated to use. Both use the card format below.
 
-Every card lists its Disciplines, Action, Range, and Keywords. Active cards (abilities, spells, and weapon maneuvers) resolve on a roll: the Novice effect appears as Weak, Standard, and Strong outcomes, with Adept and Master additions following. Passive cards are always on, so they list a single Novice effect, with Adept and Master additions that improve it. A card costs DP by tier: Novice 2 DP, Adept 4 DP, Master 8 DP. See @sec-chapter-disciplines for tier, Discipline, and cost rules. See @sec-chapter-magic-system for casting rules.
+Every card lists its Disciplines, Action, Range, and Keywords. A card is bought once, at one tier, for one price, and it never changes: Novice 2 DP, Adept 4 DP, Master 8 DP. Active cards (abilities, spells, and weapon maneuvers) resolve on a roll, and a Novice active card prints its Weak, Standard, and Strong outcomes. Passive cards are always on, and a Novice passive card prints a single effect. An Adept or Master card is its own card with its own name and its own effect; you never buy one card and grow it into another. The level gate is the only gate: Novice at level 1, Adept at level 3, Master at level 7, plus the card's own Discipline rank. See @sec-chapter-disciplines for tier, Discipline, and cost rules. See @sec-chapter-magic-system for casting rules.
 
 Bonuses from different talents stack. The same talent cannot be taken more than once.
 
@@ -23,224 +23,334 @@ Bonuses from different talents stack. The same talent cannot be taken more than 
 The talents below are general. Any class may take any of them, though a talent that lists a Discipline requirement is gated by it like any other card. A talent may also require a kit, and a talent that grants kit grants one kit point and nothing else.
 
 === Fortune's Favor (Talent)
-
 *Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* Reroll
 
 *Novice:* Once per session, reroll one natural 1, 2, or 3.
 
-*Adept:* Once per scene, reroll one natural 1, 2, or 3.
+=== Second Cast (Talent)
+*Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* Reroll
 
-*Master:* Once per scene, reroll any one die.
+*Effect:* Once per scene, reroll one natural 1, 2, or 3.
+
+=== Turn the Bones (Talent)
+*Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* Reroll
+
+*Effect:* Once per scene, reroll any one die.
 
 === Combat Reflexes (Talent)
-
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Reaction
 
 *Novice:* You gain one extra Reaction per round.
 
-*Adept:* You gain one extra Reaction per round and a Boon on your Initiative roll.
+=== Ready Hand (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Reaction
 
-*Master:* You gain two extra Reactions per round and a Boon on your Initiative roll.
+*Effect:* You gain one extra Reaction per round and a Boon on your Initiative roll.
+
+=== Never Off Guard (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Reaction
+
+*Effect:* You gain two extra Reactions per round and a Boon on your Initiative roll.
 
 === Tough (Talent)
-
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* HP
 
 *Novice:* +2 maximum HP.
 
-*Adept:* +4 maximum HP.
+=== Stone Guts (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* HP
 
-*Master:* +6 maximum HP.
+*Effect:* +4 maximum HP.
+
+=== Iron Blood (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* HP
+
+*Effect:* +6 maximum HP.
 
 === Iron Skin (Talent)
-
 *Disciplines:* 1 Armor · *Action:* Passive · *Range:* Self · *Keywords:* DR
 
 *Novice:* +2 DR, in addition to your armor's DR.
 
-*Adept:* +2 DR, in addition to your armor's DR.
+=== Hardened Hide (Talent)
+*Disciplines:* 1 Armor · *Action:* Passive · *Range:* Self · *Keywords:* DR
 
-*Master:* +3 DR, in addition to your armor's DR.
+*Effect:* +2 DR, in addition to your armor's DR.
+
+=== Wrought Iron (Talent)
+*Disciplines:* 1 Armor · *Action:* Passive · *Range:* Self · *Keywords:* DR
+
+*Effect:* +3 DR, in addition to your armor's DR.
 
 === Weapon Focus (Talent)
-
 *Disciplines:* 1 chosen weapon Discipline · *Action:* Passive · *Range:* Self · *Keywords:* Damage
 
 *Novice:* Boon on attack rolls with weapons of the chosen weapon Discipline.
 
-*Adept:* Double Boon on attack rolls with weapons of the chosen weapon Discipline.
+=== Sure Hand (Talent)
+*Disciplines:* 1 chosen weapon Discipline · *Action:* Passive · *Range:* Self · *Keywords:* Damage
 
-*Master:* Triple Boon on attack rolls with weapons of the chosen weapon Discipline.
+*Effect:* Double Boon on attack rolls with weapons of the chosen weapon Discipline.
+
+=== Unerring Edge (Talent)
+*Disciplines:* 1 chosen weapon Discipline · *Action:* Passive · *Range:* Self · *Keywords:* Damage
+
+*Effect:* Triple Boon on attack rolls with weapons of the chosen weapon Discipline.
 
 === Skill Focus (Talent)
-
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Skill
 
 *Novice:* +1 to one skill you choose.
 
-*Adept:* +2 to one skill you choose.
+=== Practiced Hand (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Skill
 
-*Master:* +3 to one skill you choose.
+*Effect:* +2 to one skill you choose.
+
+=== Old Hand (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Skill
+
+*Effect:* +3 to one skill you choose.
 
 === Iron Will (Talent)
-
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
 
 *Novice:* Boon on checks against fear and charm.
 
-*Adept:* Double Boon on checks against fear and charm.
+=== Steadfast Nerve (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
 
-*Master:* Triple Boon on checks against fear and charm.
+*Effect:* Double Boon on checks against fear and charm.
+
+=== Unbowed Spine (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
+
+*Effect:* Triple Boon on checks against fear and charm.
 
 === Guarding Stance (Talent)
-
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* DR, Defend
 
 *Novice:* When you take the Defend maneuver, adjacent allies gain +2 DR until the start of your next turn.
 
-*Adept:* When you take the Defend maneuver, allies within 10 ft gain +2 DR until the start of your next turn.
+=== Shield the Line (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* DR, Defend
 
-*Master:* When you take the Defend maneuver, allies within 10 ft gain +3 DR until the start of your next turn.
+*Effect:* When you take the Defend maneuver, allies within 10 ft gain +2 DR until the start of your next turn.
+
+=== Hold the Wall (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* DR, Defend
+
+*Effect:* When you take the Defend maneuver, allies within 10 ft gain +3 DR until the start of your next turn.
 
 === Refuse to Fall (Talent)
-
 *Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* HP
 
 *Novice:* When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to twice your level. Once per session.
 
-*Adept:* When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to twice your level. Twice per session.
+=== Stubborn Breath (Talent)
+*Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* HP
 
-*Master:* When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to twice your level. Once per scene.
+*Effect:* When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to twice your level. Twice per session.
+
+=== Deny the Grave (Talent)
+*Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* HP
+
+*Effect:* When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to twice your level. Once per scene.
 
 === Death Blow (Talent)
-
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Critical, Damage
 
 *Novice:* On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21).
 
-*Adept:* On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21), and one adjacent enemy takes 6 damage.
+=== Carry the Cut (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Critical, Damage
 
-*Master:* On a Critical, the attack deals maximum Strong damage (21), and one adjacent enemy takes 6 damage.
+*Effect:* On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21), and one adjacent enemy takes 6 damage.
+
+=== Sentence Passed (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Critical, Damage
+
+*Effect:* On a Critical, the attack deals maximum Strong damage (21), and one adjacent enemy takes 6 damage.
 
 === Arcane Reservoir (Talent)
-
 *Disciplines:* None · *Kit:* focus:arcane · *Action:* Passive · *Range:* Self · *Keywords:* Spell
 
 *Novice:* Once per session, cast a Master spell you know a second time.
 
-*Adept:* Once per scene, cast a Master spell you know a second time.
+=== The Held Spell (Talent)
+*Disciplines:* None · *Kit:* focus:arcane · *Action:* Passive · *Range:* Self · *Keywords:* Spell
 
-*Master:* Twice per scene, cast a Master spell you know a second time; the second cast deals one damage tier higher.
+*Effect:* Once per scene, cast a Master spell you know a second time.
+
+=== Banked Fire (Talent)
+*Disciplines:* None · *Kit:* focus:arcane · *Action:* Passive · *Range:* Self · *Keywords:* Spell
+
+*Effect:* Twice per scene, cast a Master spell you know a second time; the second cast deals one damage tier higher.
 
 === Miracle Worker (Talent)
-
 *Disciplines:* None · *Action:* Reaction · *Range:* 30 ft · *Keywords:* Healing
 
 *Novice:* Once per session, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP.
 
-*Adept:* Once per scene, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP.
+=== Breath Returned (Talent)
+*Disciplines:* None · *Action:* Reaction · *Range:* 30 ft · *Keywords:* Healing
 
-*Master:* Once per scene, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain their full maximum HP.
+*Effect:* Once per scene, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP.
+
+=== Whole Again (Talent)
+*Disciplines:* None · *Action:* Reaction · *Range:* 30 ft · *Keywords:* Healing
+
+*Effect:* Once per scene, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain their full maximum HP.
 
 === Arcane Sensitivity (Talent)
-
 *Disciplines:* None · *Kit:* focus:arcane · *Action:* Passive · *Range:* Self · *Keywords:* Spell
 
 *Novice:* Boon on spell rolls for one Discipline you choose.
 
-*Adept:* Double Boon on spell rolls for one Discipline you choose.
+=== Deep Reading (Talent)
+*Disciplines:* None · *Kit:* focus:arcane · *Action:* Passive · *Range:* Self · *Keywords:* Spell
 
-*Master:* Triple Boon on spell rolls for one Discipline you choose.
+*Effect:* Double Boon on spell rolls for one Discipline you choose.
+
+=== Unclouded Sight (Talent)
+*Disciplines:* None · *Kit:* focus:arcane · *Action:* Passive · *Range:* Self · *Keywords:* Spell
+
+*Effect:* Triple Boon on spell rolls for one Discipline you choose.
 
 === Spell Reservoir (Talent)
-
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell
 
 *Novice:* Once per scene, cast an Adept spell you know a second time.
 
-*Adept:* Once per scene, cast a Novice or Adept spell you know a second time.
+=== Spare Word (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell
 
-*Master:* Once per scene, cast any spell you know a second time.
+*Effect:* Once per scene, cast a Novice or Adept spell you know a second time.
+
+=== The Full Ledger (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell
+
+*Effect:* Once per scene, cast any spell you know a second time.
 
 === Spell Storm (Talent)
-
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell, Area
 
 *Novice:* Once per session, a single-target spell you cast hits all targets you choose within 15 ft.
 
-*Adept:* Once per scene, a single-target spell you cast hits all targets you choose within 15 ft.
+=== Scatter the Word (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell, Area
 
-*Master:* Once per scene, a single-target spell you cast hits all targets you choose within 20 ft.
+*Effect:* Once per scene, a single-target spell you cast hits all targets you choose within 15 ft.
+
+=== Thunder Harvest (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell, Area
+
+*Effect:* Once per scene, a single-target spell you cast hits all targets you choose within 20 ft.
 
 === Linguist (Talent)
-
 *Disciplines:* 1 Lore · *Action:* Passive · *Range:* Self · *Keywords:* Language
 
 *Novice:* You read and speak one additional language.
 
-*Adept:* You read and speak one additional language per rank of Lore you have.
+=== Many Tongues (Talent)
+*Disciplines:* 1 Lore · *Action:* Passive · *Range:* Self · *Keywords:* Language
 
-*Master:* You read, write, and speak one additional language per rank of Lore you have.
+*Effect:* You read and speak one additional language per rank of Lore you have.
+
+=== The Written Word (Talent)
+*Disciplines:* 1 Lore · *Action:* Passive · *Range:* Self · *Keywords:* Language
+
+*Effect:* You read, write, and speak one additional language per rank of Lore you have.
 
 === Battlefield Assessment (Talent)
-
 *Disciplines:* 1 Tactics · *Action:* Action · *Range:* Sight · *Keywords:* Tactics
 
 *Novice:* Once per scene, learn the relative strength of every enemy in sight and their highest attribute.
 
-*Adept:* Once per scene, learn the relative strength of every enemy in sight, their highest attribute, and one damage resistance or vulnerability.
+=== Read the Seams (Talent)
+*Disciplines:* 1 Tactics · *Action:* Action · *Range:* Sight · *Keywords:* Tactics
 
-*Master:* Once per scene, learn the relative strength of every enemy in sight, their highest attribute, and all of their damage resistances and vulnerabilities.
+*Effect:* Once per scene, learn the relative strength of every enemy in sight, their highest attribute, and one damage resistance or vulnerability.
+
+=== The Field Unbarred (Talent)
+*Disciplines:* 1 Tactics · *Action:* Action · *Range:* Sight · *Keywords:* Tactics
+
+*Effect:* Once per scene, learn the relative strength of every enemy in sight, their highest attribute, and all of their damage resistances and vulnerabilities.
 
 === Quick Study (Talent)
-
 *Disciplines:* None · *Action:* Free · *Range:* Self · *Keywords:* Skill
 
 *Novice:* Once per session, use a skill you do not have at Novice (+1) for one check.
 
-*Adept:* Once per scene, use a skill you do not have at Novice (+1) for one check.
+=== Borrowed Skill (Talent)
+*Disciplines:* None · *Action:* Free · *Range:* Self · *Keywords:* Skill
 
-*Master:* Once per scene, use a skill you do not have at Adept (+2) for one check.
+*Effect:* Once per scene, use a skill you do not have at Novice (+1) for one check.
+
+=== Stolen Craft (Talent)
+*Disciplines:* None · *Action:* Free · *Range:* Self · *Keywords:* Skill
+
+*Effect:* Once per scene, use a skill you do not have at Adept (+2) for one check.
 
 === Chaotic Insight (Talent)
-
 *Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* Reroll
 
 *Novice:* Once per session, reroll any roll you just made, using fresh dice.
 
-*Adept:* Once per scene, reroll any roll you just made, using fresh dice.
+=== Reckless Reversal (Talent)
+*Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* Reroll
 
-*Master:* Once per scene, reroll any roll you just made, using fresh dice with a Boon.
+*Effect:* Once per scene, reroll any roll you just made, using fresh dice.
+
+=== Chaos Favored (Talent)
+*Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* Reroll
+
+*Effect:* Once per scene, reroll any roll you just made, using fresh dice with a Boon.
 
 === Rally the Troops (Talent)
-
 *Disciplines:* None · *Action:* Maneuver · *Range:* 30 ft · *Keywords:* Frightened
 
 *Novice:* Once per session, all allies within 30 ft remove Frightened and gain a Boon on their next roll.
 
-*Adept:* Once per scene, all allies within 30 ft remove Frightened and gain a Boon on their next roll.
+=== Steady the Ranks (Talent)
+*Disciplines:* None · *Action:* Maneuver · *Range:* 30 ft · *Keywords:* Frightened
 
-*Master:* Once per scene, all allies within 30 ft remove one Frightened or Dazed condition and gain a Boon on their next roll.
+*Effect:* Once per scene, all allies within 30 ft remove Frightened and gain a Boon on their next roll.
+
+=== Break the Daze (Talent)
+*Disciplines:* None · *Action:* Maneuver · *Range:* 30 ft · *Keywords:* Frightened
+
+*Effect:* Once per scene, all allies within 30 ft remove one Frightened or Dazed condition and gain a Boon on their next roll.
 
 === Dangerous Gambit (Talent)
-
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Damage
 
 *Novice:* Once per scene, when you roll 14 or higher, increase the damage tier of the result by one.
 
-*Adept:* Once per scene, when you roll 12 or higher, increase the damage tier of the result by one.
+=== Sharper Odds (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Damage
 
-*Master:* Twice per scene, when you roll 12 or higher, increase the damage tier of the result by one.
+*Effect:* Once per scene, when you roll 12 or higher, increase the damage tier of the result by one.
+
+=== Reckless Fortune (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Damage
+
+*Effect:* Twice per scene, when you roll 12 or higher, increase the damage tier of the result by one.
 
 === Trap Sense (Talent)
-
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Boon, Traps
 
 *Novice:* Boon on checks to detect and disarm traps.
 
-*Adept:* Boon on checks to detect and disarm traps, and you cannot be surprised by a trap.
+=== Wary Step (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Boon, Traps
 
-*Master:* Boon on checks to detect and disarm traps, you cannot be surprised by a trap, and once per scene you may reroll a failed trap-related check.
+*Effect:* Boon on checks to detect and disarm traps, and you cannot be surprised by a trap.
+
+=== No Trap Unseen (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Boon, Traps
+
+*Effect:* Boon on checks to detect and disarm traps, you cannot be surprised by a trap, and once per scene you may reroll a failed trap-related check.
 
 #pagebreak()
 
@@ -251,7 +361,6 @@ These four cards are the attacks every character can make, no Discipline require
 *Range.* A range written as two numbers, such as *60/120 ft*, is two bands. Within the first number you attack normally. Between the first number and the second you attack at a *Bane*. Beyond the second number the target is out of reach, and you cannot attack it at all. A single number, such as *30 ft*, is one band: you attack normally inside it and cannot reach past it.
 
 === Basic Melee (Basic Attack)
-
 *Disciplines:* None · *Kit:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage
 
 *Weak:* 1 + Brawn damage (Agility with a Finesse weapon).
@@ -260,12 +369,17 @@ These four cards are the attacks every character can make, no Discipline require
 
 *Strong:* 3 + Brawn damage (Agility with a Finesse weapon).
 
-*Adept:* Damage remains 1/2/3 + Brawn.
+=== Sure Blade (Basic Attack)
+*Disciplines:* None · *Kit:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage
 
-*Master:* Damage remains 1/2/3 + Brawn.
+*Effect:* Damage remains 1/2/3 + Brawn.
+
+=== Deadly Grip (Basic Attack)
+*Disciplines:* None · *Kit:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage
+
+*Effect:* Damage remains 1/2/3 + Brawn.
 
 === Basic Archery (Basic Attack)
-
 *Disciplines:* None · *Kit:* weapon:ranged · *Action:* Action · *Range:* 60/120 ft · *Keywords:* Damage
 
 *Weak:* 1 damage.
@@ -274,12 +388,17 @@ These four cards are the attacks every character can make, no Discipline require
 
 *Strong:* 3 damage.
 
-*Adept:* Damage remains 1/2/3.
+=== Steady Draw (Basic Attack)
+*Disciplines:* None · *Kit:* weapon:ranged · *Action:* Action · *Range:* 60/120 ft · *Keywords:* Damage
 
-*Master:* Damage remains 1/2/3.
+*Effect:* Damage remains 1/2/3.
+
+=== True Flight (Basic Attack)
+*Disciplines:* None · *Kit:* weapon:ranged · *Action:* Action · *Range:* 60/120 ft · *Keywords:* Damage
+
+*Effect:* Damage remains 1/2/3.
 
 === Basic Thrown (Basic Attack)
-
 *Disciplines:* None · *Kit:* weapon:ranged · *Action:* Action · *Range:* 20/60 ft · *Keywords:* Damage
 
 *Weak:* 1 damage.
@@ -288,12 +407,17 @@ These four cards are the attacks every character can make, no Discipline require
 
 *Strong:* 3 damage.
 
-*Adept:* Damage remains 1/2/3.
+=== True Toss (Basic Attack)
+*Disciplines:* None · *Kit:* weapon:ranged · *Action:* Action · *Range:* 20/60 ft · *Keywords:* Damage
 
-*Master:* Damage remains 1/2/3.
+*Effect:* Damage remains 1/2/3.
+
+=== Edge in Flight (Basic Attack)
+*Disciplines:* None · *Kit:* weapon:ranged · *Action:* Action · *Range:* 20/60 ft · *Keywords:* Damage
+
+*Effect:* Damage remains 1/2/3.
 
 === Basic Unarmed (Basic Attack)
-
 *Disciplines:* None · *Kit:* weapon:unarmed · *Action:* Action · *Range:* Melee · *Keywords:* Damage
 
 *Weak:* 1 + Brawn damage.
@@ -302,9 +426,15 @@ These four cards are the attacks every character can make, no Discipline require
 
 *Strong:* 2 + Brawn damage.
 
-*Adept:* Damage remains 1/1/2 + Brawn.
+=== Hardened Knuckle (Basic Attack)
+*Disciplines:* None · *Kit:* weapon:unarmed · *Action:* Action · *Range:* Melee · *Keywords:* Damage
 
-*Master:* Damage remains 1/1/2 + Brawn.
+*Effect:* Damage remains 1/1/2 + Brawn.
+
+=== Bone and Iron (Basic Attack)
+*Disciplines:* None · *Kit:* weapon:unarmed · *Action:* Action · *Range:* Melee · *Keywords:* Damage
+
+*Effect:* Damage remains 1/1/2 + Brawn.
 
 #pagebreak()
 
@@ -312,10 +442,9 @@ These four cards are the attacks every character can make, no Discipline require
 
 Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each is gated by Disciplines: most by a weapon Discipline, though Shield Slam requires Armor and Renewal requires Protection. See @sec-chapter-combat for Action, Maneuver, and Reaction rules.
 
-A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice budget row, 4/6/8), and its Adept and Master rungs print the rows above it. Your weapon contributes no damage of its own: the card carries the numbers, exactly as it does for any other ability. See @sec-chapter-equipment
+A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Novice budget row (4/6/8). The Adept and Master members of the family are separate cards with their own rows and their own names. Your weapon contributes no damage of its own: the card carries the numbers, exactly as it does for any other ability. See @sec-chapter-equipment
 
 === Riposte (Weapon Maneuver)
-
 *Disciplines:* 2 Blades · *Action:* Reaction · *Range:* Melee · *Keywords:* Counterattack
 
 *Weak:* When an enemy deals Weak damage to you, counterattack for 2.
@@ -324,12 +453,17 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* When an enemy deals Weak damage to you, counterattack for 6.
 
-*Adept:* Counterattack for 5/8/11.
+=== Swift Answer (Weapon Maneuver)
+*Disciplines:* 2 Blades · *Action:* Reaction · *Range:* Melee · *Keywords:* Counterattack
 
-*Master:* Counterattack for 7/10/14.
+*Effect:* Counterattack for 5/8/11.
+
+=== Steel Retort (Weapon Maneuver)
+*Disciplines:* 2 Blades · *Action:* Reaction · *Range:* Melee · *Keywords:* Counterattack
+
+*Effect:* Counterattack for 7/10/14.
 
 === Power Strike (Weapon Maneuver)
-
 *Disciplines:* 2 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Damage
 
 *Weak:* +1 damage tier on your next weapon attack.
@@ -338,12 +472,17 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* +1 damage tier on your next weapon attack.
 
-*Adept:* +1 damage tier on your next weapon attack.
+=== Heavy Hand (Weapon Maneuver)
+*Disciplines:* 2 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Damage
 
-*Master:* +1 damage tier on your next weapon attack.
+*Effect:* +1 damage tier on your next weapon attack.
+
+=== Crushing Weight (Weapon Maneuver)
+*Disciplines:* 2 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Damage
+
+*Effect:* +1 damage tier on your next weapon attack.
 
 === Cyclone (Weapon Maneuver)
-
 *Disciplines:* 3 Blades · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Area
 
 *Weak:* Hit all adjacent enemies for 2 damage.
@@ -352,12 +491,17 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* Hit all adjacent enemies for 6 damage.
 
-*Adept:* Hit all adjacent enemies for 5/8/11 damage.
+=== Ring of Steel (Weapon Maneuver)
+*Disciplines:* 3 Blades · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Area
 
-*Master:* Hit all adjacent enemies for 7/10/14 damage; on a Strong result Prone.
+*Effect:* Hit all adjacent enemies for 5/8/11 damage.
+
+=== Wide Reaping (Weapon Maneuver)
+*Disciplines:* 3 Blades · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Area
+
+*Effect:* Hit all adjacent enemies for 7/10/14 damage; on a Strong result Prone.
 
 === Cleave (Weapon Maneuver)
-
 *Disciplines:* 2 Axes · *Kit:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Chain
 
 *Weak:* Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage.
@@ -366,12 +510,17 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage.
 
-*Adept:* The follow-up may chain to a second adjacent enemy if that one also drops.
+=== Chained Edge (Weapon Maneuver)
+*Disciplines:* 2 Axes · *Kit:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Chain
 
-*Master:* The follow-up may chain to every adjacent enemy that drops, one after another.
+*Effect:* The follow-up may chain to a second adjacent enemy if that one also drops.
+
+=== The Falling Line (Weapon Maneuver)
+*Disciplines:* 2 Axes · *Kit:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Chain
+
+*Effect:* The follow-up may chain to every adjacent enemy that drops, one after another.
 
 === Pinpoint Strike (Weapon Maneuver)
-
 *Disciplines:* 1 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Piercing, Damage
 
 *Weak:* +1 damage tier on your next weapon attack, and Piercing 1.
@@ -380,12 +529,17 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* +1 damage tier on your next weapon attack, and Piercing 3.
 
-*Adept:* +1 damage tier on your next weapon attack, and Piercing 1/2/3.
+=== Needle Point (Weapon Maneuver)
+*Disciplines:* 1 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Piercing, Damage
 
-*Master:* +1 damage tier on your next weapon attack, and Piercing 1/2/3.
+*Effect:* +1 damage tier on your next weapon attack, and Piercing 1/2/3.
+
+=== Through the Gap (Weapon Maneuver)
+*Disciplines:* 1 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Piercing, Damage
+
+*Effect:* +1 damage tier on your next weapon attack, and Piercing 1/2/3.
 
 === Shield Slam (Weapon Maneuver)
-
 *Disciplines:* 2 Armor · *Kit:* shield · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone, Push
 
 *Weak:* Deal 2 damage and Push 5 ft.
@@ -394,12 +548,17 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* Deal 6 damage and Push 5 ft; the target is Prone.
 
-*Adept:* Deal 5/8/11 damage and Push 5 ft; on a Strong result Prone.
+=== Iron Shoulder (Weapon Maneuver)
+*Disciplines:* 2 Armor · *Kit:* shield · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone, Push
 
-*Master:* Deal 7/10/14 damage and Push 5 ft; on a Strong result Prone and the target loses its Maneuver.
+*Effect:* Deal 5/8/11 damage and Push 5 ft; on a Strong result Prone.
+
+=== Broken Footing (Weapon Maneuver)
+*Disciplines:* 2 Armor · *Kit:* shield · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone, Push
+
+*Effect:* Deal 7/10/14 damage and Push 5 ft; on a Strong result Prone and the target loses its Maneuver.
 
 === Parry (Weapon Maneuver)
-
 *Disciplines:* 2 Blades · *Action:* Reaction · *Range:* Self · *Keywords:* DR, Counterattack
 
 *Weak:* +2 DR against one attack.
@@ -408,12 +567,17 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* +6 DR against one attack and counterattack for 2 damage.
 
-*Adept:* +5/8/11 DR against one attack; on a Strong result counterattack for 2.
+=== Turned Edge (Weapon Maneuver)
+*Disciplines:* 2 Blades · *Action:* Reaction · *Range:* Self · *Keywords:* DR, Counterattack
 
-*Master:* +7/10/14 DR against one attack; on a Strong result counterattack for 4.
+*Effect:* +5/8/11 DR against one attack; on a Strong result counterattack for 2.
+
+=== Spiteful Guard (Weapon Maneuver)
+*Disciplines:* 2 Blades · *Action:* Reaction · *Range:* Self · *Keywords:* DR, Counterattack
+
+*Effect:* +7/10/14 DR against one attack; on a Strong result counterattack for 4.
 
 === Disarm (Weapon Maneuver)
-
 *Disciplines:* 2 Blades · *Action:* Maneuver · *Range:* Melee · *Keywords:* Bane
 
 *Weak:* The target keeps its grip.
@@ -422,12 +586,17 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* The target drops the weapon.
 
-*Adept:* The target's next two attacks with that weapon are at Bane; on a Strong result drops the weapon.
+=== Weakened Grip (Weapon Maneuver)
+*Disciplines:* 2 Blades · *Action:* Maneuver · *Range:* Melee · *Keywords:* Bane
 
-*Master:* The target's next two attacks with that weapon are at Bane; on a Strong result drops the weapon 10 ft away.
+*Effect:* The target's next two attacks with that weapon are at Bane; on a Strong result drops the weapon.
+
+=== Hurled Steel (Weapon Maneuver)
+*Disciplines:* 2 Blades · *Action:* Maneuver · *Range:* Melee · *Keywords:* Bane
+
+*Effect:* The target's next two attacks with that weapon are at Bane; on a Strong result drops the weapon 10 ft away.
 
 === Trip (Weapon Maneuver)
-
 *Disciplines:* 2 Polearms · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone
 
 *Weak:* The target is Prone.
@@ -436,12 +605,17 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* The target is Prone and loses its Action.
 
-*Adept:* On Strong, the target is Prone and loses its Action and Maneuver.
+=== Ankle Hook (Weapon Maneuver)
+*Disciplines:* 2 Polearms · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone
 
-*Master:* On Standard, the target is Prone and loses its Action; on Strong, the target is Prone and loses its Action and Maneuver.
+*Effect:* On Strong, the target is Prone and loses its Action and Maneuver.
+
+=== Nailed to Earth (Weapon Maneuver)
+*Disciplines:* 2 Polearms · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone
+
+*Effect:* On Standard, the target is Prone and loses its Action; on Strong, the target is Prone and loses its Action and Maneuver.
 
 === Charge (Weapon Maneuver)
-
 *Disciplines:* 2 Heavy Weapon · *Action:* Action · *Range:* Melee · *Keywords:* Movement, Damage
 
 *Weak:* Move up to your Speed and make one attack at +1 damage tier.
@@ -450,12 +624,17 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* Move up to your Speed and make one attack at +1 damage tier.
 
-*Adept:* Move up to your Speed and make one attack at +1 damage tier.
+=== Gathered Weight (Weapon Maneuver)
+*Disciplines:* 2 Heavy Weapon · *Action:* Action · *Range:* Melee · *Keywords:* Movement, Damage
 
-*Master:* Move up to your Speed and make one attack at +1 damage tier.
+*Effect:* Move up to your Speed and make one attack at +1 damage tier.
+
+=== Thunder of Feet (Weapon Maneuver)
+*Disciplines:* 2 Heavy Weapon · *Action:* Action · *Range:* Melee · *Keywords:* Movement, Damage
+
+*Effect:* Move up to your Speed and make one attack at +1 damage tier.
 
 === Brace (Weapon Maneuver)
-
 *Disciplines:* 2 Polearms · *Action:* Reaction · *Range:* Self · *Keywords:* DR
 
 *Weak:* +2 DR against a charge (see Charge Attack in the Equipment chapter); the attacker takes 2 damage.
@@ -464,12 +643,17 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* +2 DR against a charge; the attacker takes 6 damage.
 
-*Adept:* +2 DR against a charge; the attacker takes 5/8/11 damage.
+=== Grounded Point (Weapon Maneuver)
+*Disciplines:* 2 Polearms · *Action:* Reaction · *Range:* Self · *Keywords:* DR
 
-*Master:* +2 DR against a charge; the attacker takes 7/10/14 damage.
+*Effect:* +2 DR against a charge; the attacker takes 5/8/11 damage.
+
+=== Waited Answer (Weapon Maneuver)
+*Disciplines:* 2 Polearms · *Action:* Reaction · *Range:* Self · *Keywords:* DR
+
+*Effect:* +2 DR against a charge; the attacker takes 7/10/14 damage.
 
 === Dual Strike (Weapon Maneuver)
-
 *Disciplines:* 1 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Two attacks
 
 *Weak:* Two attacks, each dealing 1 damage (2 total).
@@ -478,12 +662,17 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* Two attacks, each dealing 3 damage (6 total).
 
-*Adept:* Two attacks for 5/8/11 damage total.
+=== Paired Steel (Weapon Maneuver)
+*Disciplines:* 1 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Two attacks
 
-*Master:* Two attacks for 7/10/14 damage total.
+*Effect:* Two attacks for 5/8/11 damage total.
+
+=== Sister Blades (Weapon Maneuver)
+*Disciplines:* 1 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Two attacks
+
+*Effect:* Two attacks for 7/10/14 damage total.
 
 === Crushing Blow (Weapon Maneuver)
-
 *Disciplines:* 2 Heavy Weapon · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Prone
 
 *Weak:* +1 damage tier on your next weapon attack.
@@ -492,12 +681,17 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* +1 damage tier on your next weapon attack; the target is Prone.
 
-*Adept:* +1 damage tier on your next weapon attack; on a Strong result Prone.
+=== Hammer Fall (Weapon Maneuver)
+*Disciplines:* 2 Heavy Weapon · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Prone
 
-*Master:* +1 damage tier on your next weapon attack; on a Strong result Prone.
+*Effect:* +1 damage tier on your next weapon attack; on a Strong result Prone.
+
+=== Bone Breaker (Weapon Maneuver)
+*Disciplines:* 2 Heavy Weapon · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Prone
+
+*Effect:* +1 damage tier on your next weapon attack; on a Strong result Prone.
 
 === Executioner's Cut (Weapon Maneuver)
-
 *Disciplines:* 2 Axes · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Wounded
 
 *Weak:* +1 damage tier against a wounded target.
@@ -506,12 +700,17 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* +1 damage tier against a wounded target.
 
-*Adept:* +1 damage tier against a wounded target.
+=== Red Verdict (Weapon Maneuver)
+*Disciplines:* 2 Axes · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Wounded
 
-*Master:* +1 damage tier against a wounded target.
+*Effect:* +1 damage tier against a wounded target.
+
+=== Debt of Blood (Weapon Maneuver)
+*Disciplines:* 2 Axes · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Wounded
+
+*Effect:* +1 damage tier against a wounded target.
 
 === Throw (Weapon Maneuver)
-
 *Disciplines:* 1 Archery · *Kit:* weapon:ranged · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
 
 *Weak:* Throw a weapon up to 30 ft at +1 damage tier.
@@ -520,12 +719,17 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* Throw a weapon up to 30 ft at +1 damage tier.
 
-*Adept:* Throw a weapon up to 60 ft at +1 damage tier.
+=== Long Arm (Weapon Maneuver)
+*Disciplines:* 1 Archery · *Kit:* weapon:ranged · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
 
-*Master:* Throw a weapon up to 90 ft at +1 damage tier.
+*Effect:* Throw a weapon up to 60 ft at +1 damage tier.
+
+=== Far Mercy (Weapon Maneuver)
+*Disciplines:* 1 Archery · *Kit:* weapon:ranged · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
+
+*Effect:* Throw a weapon up to 90 ft at +1 damage tier.
 
 === Breakthrough (Weapon Maneuver)
-
 *Disciplines:* 2 Heavy Weapon · *Action:* Action · *Range:* Melee · *Keywords:* Movement, Prone
 
 *Weak:* Move through one enemy's space.
@@ -534,12 +738,17 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* Move through one enemy's space; the target is Prone.
 
-*Adept:* Move through one enemy's space; on Standard or Strong, the target is Prone.
+=== Shoulder Through (Weapon Maneuver)
+*Disciplines:* 2 Heavy Weapon · *Action:* Action · *Range:* Melee · *Keywords:* Movement, Prone
 
-*Master:* Move through up to two enemies' spaces; on Standard or Strong, the targets are Prone.
+*Effect:* Move through one enemy's space; on Standard or Strong, the target is Prone.
+
+=== Parted Wall (Weapon Maneuver)
+*Disciplines:* 2 Heavy Weapon · *Action:* Action · *Range:* Melee · *Keywords:* Movement, Prone
+
+*Effect:* Move through up to two enemies' spaces; on Standard or Strong, the targets are Prone.
 
 === Renewal (Weapon Maneuver)
-
 *Disciplines:* 1 Protection · *Action:* Maneuver · *Range:* Self · *Keywords:* Healing
 
 *Weak:* Once per scene, regain 2 HP.
@@ -548,7 +757,14 @@ A maneuver's Weak/Standard/Strong block is that card's Novice rung (the Novice b
 
 *Strong:* Regain 6 HP.
 
-*Adept:* Regain 5/8/11 HP.
+=== Closing Wounds (Weapon Maneuver)
+*Disciplines:* 1 Protection · *Action:* Maneuver · *Range:* Self · *Keywords:* Healing
 
-*Master:* Regain 7/10/14 HP.
+*Effect:* Regain 5/8/11 HP.
+
+=== Strength Reclaimed (Weapon Maneuver)
+*Disciplines:* 1 Protection · *Action:* Maneuver · *Range:* Self · *Keywords:* Healing
+
+*Effect:* Regain 7/10/14 HP.
+
 ```

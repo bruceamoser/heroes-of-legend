@@ -115,23 +115,22 @@ Abilities, talents, and spells require specific Disciplines before you can learn
 
 #figure(
   align(center)[#table(
-    columns: (34.15%, 51.22%, 14.63%),
+    columns: (34.15%, 35.37%, 30.49%),
     align: (auto, auto, auto,),
-    table.header([Ability/Spell], [Disciplines Required], [Tier],),
-    [Brimstone Burst], [2 Fire], [Adept],
-    [Pillar of Light], [2 Religion], [Adept],
-    [Shield Slam], [2 Armor], [Adept],
-    [Force Dart], [1 Energy], [Novice],
-    [Beast Tongue], [1 Animal], [Novice],
+    table.header([Card], [Disciplines Required], [Level Gate],),
+    [Brimstone Burst], [2 Fire], [Level 1],
+    [Sulphur Aria], [2 Fire], [Level 3],
+    [Scorched Verdict], [2 Fire], [Level 7],
+    [Beast Tongue], [1 Animal], [Level 1],
   )],
   kind: table,
   numbering: none,
   outlined: false,
 )
 
-== The Discipline Ladder
+== The One-Card Law
 
-Every card (spell, ability, skill) follows a three-tier ladder. The higher you climb, the more Disciplines you need, the bigger the payoff. For spells and abilities, the tier of a card equals the number of Disciplines it requires as prerequisites. Skills use the same three tiers but gate nothing (@sec-chapter-skills)
+Every card is bought once, at one tier, for one price, and it never changes. The three tiers are *Novice*, *Adept*, and *Master*, and each tier is a separate card with its own name, its own level gate, and its own flat price. There is no ladder to climb and no upgrade to pay for. The card's tier sets the level you need (Novice 1, Adept 3, Master 7). The Disciplines printed on the card are a separate gate: hold those ranks and you can buy it. Skills use the same three tiers but gate nothing (@sec-chapter-skills)
 
 === Card Costs (Flat)
 
@@ -139,12 +138,12 @@ Cards cost Development Points at a flat rate regardless of class:
 
 #figure(
   align(center)[#table(
-    columns: (10.91%, 23.64%, 43.64%, 21.82%),
-    align: (auto, auto, auto, auto,),
-    table.header([Tier], [Card DP Cost], [Discipline Prerequisites], [Level Gate],),
-    [*Novice*], [2 DP], [1 rank in any one Discipline], [None (Level 1)],
-    [*Adept*], [4 DP], [2 Discipline ranks (see shapes below)], [Level 3],
-    [*Master*], [8 DP], [3 Discipline ranks (see shapes below)], [Level 7],
+    columns: (20%, 30%, 50%),
+    align: (auto, auto, auto,),
+    table.header([Tier], [Card DP Cost], [Level Gate],),
+    [*Novice*], [2 DP], [Level 1],
+    [*Adept*], [4 DP], [Level 3],
+    [*Master*], [8 DP], [Level 7],
   )],
   kind: table,
   numbering: none,
@@ -174,45 +173,29 @@ Each class pays a different price for each Discipline rank depending on how alig
 
 The total cost of a card = its flat card DP cost + the sum of the Discipline rank costs from your class's structure for each required discipline.
 
-#callout(type: "note", title: "Worked Total-Cost Example: Ember Lance vs Brimstone Burst", body: [
+#callout(type: "note", title: "Worked Total-Cost Example: Ember Lance vs Sulphur Aria", body: [
 The flat card DP cost is only part of the price. You also pay rank costs for any required Disciplines you do not already possess.
 
 *Ember Lance (Novice, 1 Fire):*
 - *Protector* pays flat 2 DP + Fire rank 1 at Opposed cost (4 DP) = *6 DP total*.
 - *Arcanist* already has Fire rank 1 from her class grant, so she pays the flat 2 DP only = *2 DP total*.
 
-*Brimstone Burst (Adept, 2 Fire):*
+*Sulphur Aria (Adept, 2 Fire):*
 - *Protector* (no existing Fire) pays flat 4 DP + Fire rank 1 at Opposed (4 DP) + Fire rank 2 at Opposed (8 DP) = *16 DP total*.
 - *Arcanist* (already has Fire rank 1 from creation) pays flat 4 DP + Fire rank 2 at Home (2 DP) = *6 DP total*. If the Arcanist did not have Fire rank 1 yet, the total would be flat 4 + rank 1 (1 DP) + rank 2 (2 DP) = *7 DP*.
 
 The same card can cost wildly different amounts depending on your class and what you already know. Build accordingly.
 ])
 
-=== Prereq Shapes
+=== Discipline Requirements
 
-The number of Disciplines required is fixed by tier (1/2/3). The _composition_ of those Disciplines has shapes:
+A card's header names the Disciplines it needs: 1 Fire, 2 Blades, 2 Protection, and so on. Hold those ranks and meet the card's level gate, and you can buy it. A hero's maximum in any single Discipline is 3 ranks, so a card never asks for more than three.
 
-#figure(
-  align(center)[#table(
-    columns: (13.64%, 47.73%, 38.64%),
-    align: (auto, auto, auto,),
-    table.header([Tier], [Disciplines Required], [Possible Shapes],),
-    [*Novice*], [1], [1 of any Discipline],
-    [*Adept*], [2], [2 different, or 2 ranks in the same Discipline],
-    [*Master*], [3], [3 different, or 2 same + 1 different, or 3 same],
-  )],
-  kind: table,
-  numbering: none,
-  outlined: false,
-)
-
-A card requiring 1 Fire is Novice. A card requiring 2 Fire is Adept. A card requiring 3 Fire is Master. A card requiring 2 Fire + 1 Earth is Master (total 3 ranks). A hero's maximum in any single Discipline is 3 ranks.
-
-Tier shapes describe CARDS. Weapons, armor, and shields may list their own Discipline requirements as entry requirements: a Dagger needs 1 Blades, a Longsword 2 Blades, a Greatsword 2 Blades + 1 Heavy Weapon, a Tower Shield 2 Protection, and Plate 3 Armor. See @sec-chapter-equipment and @sec-chapter-armor-shields A card's tier is separate from its equipment's entry requirement.
+Weapons, armor, and shields may list their own Discipline requirements as entry requirements: a Dagger needs 1 Blades, a Longsword 2 Blades, a Greatsword 2 Blades + 1 Heavy Weapon, a Tower Shield 2 Protection, and Plate 3 Armor. See @sec-chapter-equipment and @sec-chapter-armor-shields A card's tier is separate from its equipment's entry requirement.
 
 === No-Prereq Basics
 
-Some basic Novice cards (basic utility skills) have *no Discipline requirement* and cost only the flat card price (2 DP). These represent minor talents anyone can pick up: a knack for reading a room, a trick of sleight of hand, a steady hand on a wound. Cantrips are the one exception on price: they cost nothing, and every caster of a tradition knows the whole list (see @sec-chapter-arcane-spells and @sec-chapter-divine-spells). Adept and Master cards *always* require Disciplines. There are no shortcuts to real power.
+Some basic Novice cards (basic utility skills) have *no Discipline requirement* and cost only the flat card price (2 DP). These represent minor talents anyone can pick up: a knack for reading a room, a trick of sleight of hand, a steady hand on a wound. Cantrips are the one exception on price: they cost nothing, and every caster of a tradition knows the whole list (see @sec-chapter-arcane-spells and @sec-chapter-divine-spells). A card that prints no Discipline on its header needs none, whatever its tier. There are no shortcuts to real power.
 
 #pagebreak()
 
@@ -223,12 +206,12 @@ Every damaging spell, ability, and maneuver in _Heroes of Legend_ is built on a 
 
 #figure(
   align(center)[#table(
-    columns: (9.23%, 36.92%, 53.85%),
-    align: (auto, auto, auto,),
-    table.header([Tier], [Discipline Requirement], [Damage (Weak / Standard / Strong)],),
-    [*Novice*], [1 Discipline], [4/6/8],
-    [*Adept*], [2 Disciplines], [5/8/11],
-    [*Master*], [3 Disciplines], [7/10/14],
+    columns: (30%, 70%),
+    align: (auto, auto,),
+    table.header([Tier], [Damage (Weak / Standard / Strong)],),
+    [*Novice*], [4/6/8],
+    [*Adept*], [5/8/11],
+    [*Master*], [7/10/14],
   )],
   kind: table,
   numbering: none,
@@ -238,7 +221,7 @@ Every damaging spell, ability, and maneuver in _Heroes of Legend_ is built on a 
 #callout(type: "note", title: "How to Read the Budget", body: [
 There is no damage roll. The outcome of your attack or casting roll (Weak, Standard, or Strong) determines your damage from the budget table. The hit roll is the damage roll.
 
-The numbers are flat damage points. A Novice Ember Lance deals 2 damage on a Weak result, 4 on Standard, 6 on Strong. An Adept Brimstone Burst deals 5/8/11. These are flat numbers. No dice. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
+The numbers are flat damage points. A Novice Ember Lance deals 2 damage on a Weak result, 4 on Standard, 6 on Strong. An Adept Sulphur Aria deals 5/8/11. These are flat numbers. No dice. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
 
 See @sec-chapter-arcane-spells and @sec-chapter-divine-spells for the full spell lists. See @sec-chapter-classes for class abilities keyed to this budget.
 
@@ -259,11 +242,11 @@ Sera wants to burn the world. She's an Arcanist. Her class gives her 1 Fire and 
 
 *Novice (Ember Lance):* Requires 1 Fire. Sera has 1 Fire. She qualifies immediately. Ember Lance costs 2 DP (flat card cost), and her Arcanist home cost for Fire rank 1 was already paid at creation. Ember Lance is hers on day one.
 
-*Adept (Brimstone Burst):* Requires 2 Fire. Sera has 1 Fire, so she needs one more. At level 3 she takes Fire (now 2 Fire) and buys Brimstone Burst the moment the Adept gate opens. Most casters need several levels to reach Adept. Arcanists walk a shorter path to the flame.
+*Adept (Sulphur Aria):* Requires 2 Fire. Sera has 1 Fire, so she needs one more. At level 3 she takes Fire (now 2 Fire) and buys Sulphur Aria the moment the Adept gate opens. Most casters need several levels to reach Adept. Arcanists walk a shorter path to the flame.
 
-*Master (Ember Lance at Master rank):* Sera's Ember Lance, bought up to Master rank, deals 7/10/14 fire damage, Piercing 3, and leaves a burning patch (Burning 2). When the Master tier unlocks at level 7, she can take that rank. She could branch into Earth for a 3-Discipline Master card, Protection for defense, Animal for a familiar, or continue deepening her elemental mastery.
+*Master (Smoldering Wake):* Sera's Master card in the Ember Lance family is Smoldering Wake. It deals 7/10/14 fire damage, Piercing 3, and leaves a burning patch (Burning 2). When the Master tier unlocks at level 7, she can buy it. She could branch into Earth for another Master card, Protection for defense, Animal for a familiar, or continue deepening her elemental mastery.
 
 Seven levels to master the fire. Disciplines got her to Master. No shortcuts. Just the path, walked one step at a time.
 
-That's the Discipline system working as intended. Master spells should be achievable before your campaign's climax, but they should still mean something when you cast them. A Master-rank Ember Lance says "I built for this." When Sera's lance becomes a pillar of flame, everyone at the table knows she paid for it.
+That's the Discipline system working as intended. Master spells should be achievable before your campaign's climax, but they should still mean something when you cast them. A Master card says "I built for this." When Sera's lance becomes a pillar of flame, everyone at the table knows she paid for it.
 ```
