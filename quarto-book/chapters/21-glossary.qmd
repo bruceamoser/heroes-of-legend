@@ -148,7 +148,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Escape:* The Action that frees you from Grappled or Restrained. An Agility roll against the situation rather than the grappler, with the DA setting the difficulty. A Standard result grants a Boon on your next Escape; a Strong result breaks you free and ends the condition.
 
-*Condition:* A temporary status effect. Blinded, Charmed, Dazzled, Deafened, Frightened, Grappled, Incapacitated, Invisible, Paralyzed, Petrified, Prone, Restrained, Stunned, Unconscious.
+*Condition:* A temporary status effect. Blinded, Charmed, Dazzled, Deafened, Frightened, Grappled, Incapacitated, Invisible, Marked, Paralyzed, Petrified, Prone, Restrained, Stunned, Unconscious.
 
 *Asleep X:* Falls asleep for X minutes. Wakes on taking damage.
 
@@ -161,6 +161,8 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 *Dazzled:* Perception checks are made at a Bane, and you cannot benefit from a Boon on sight-based rolls.
 
 *Frozen X:* Incapacitated and takes X cold damage per round. Spend an action to end.
+
+*Marked:* A condition always tied to a specific creature. While Marked by a creature, you gain no benefit from Cover or Concealment against it or its allies, and its attacks against you gain a Boon. If the Mark came from a sworn naming (an oath, a judgment, a public declaration), no one who heard the naming can believe you, and no gift freely given benefits you. The Mark ends when its source says it does, when the marking creature is downed, or when you make amends.
 
 *Petrified:* Turned to stone. Incapacitated, DR +5, immune to non-magical damage.
 

@@ -16,7 +16,7 @@ But fire's just the beginning. Ice that freezes blood in the veins. Lightning th
 
 Arcane magic is the art of telling the universe to sit down and shut up, and making it listen. You don't ask. You don't pray. You _impose._
 
-This chapter contains every arcane spell in the game: ten cantrips you know from the start, and thirty spell families that run Novice, Adept, and Master. Every spell card carries a Discipline, an action, a range, and an effect. A Novice active card prints its Weak, Standard, and Strong outcomes; its Adept and Master family members are separate cards with their own names and a single Effect line. Key the numbers to the damage budget (@sec-damage-budget), and cast. Where a card prints half of a value, round down.
+This chapter contains every arcane spell in the game: fifteen cantrips you know from the start, and fifty spell cards that run Novice, Adept, and Master. Every spell card carries a Discipline, an action, a range, and an effect. A Novice active card prints its Weak, Standard, and Strong outcomes; its Adept and Master family members are separate cards with their own names and a single Effect line. Key the numbers to the damage budget (@sec-damage-budget), and cast. Where a card prints half of a value, round down.
 
 _See @sec-chapter-magic-system for how spellcasting works._
 
@@ -117,6 +117,51 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Standard:* Clear message. 25 words, perfectly delivered.
 
 *Strong:* The message carries emotional weight, urgency, calm, menace. The target understands not just the words but the intent behind them.
+
+=== Erratum (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* Touch · *Keywords:* Utility
+
+*Weak:* One written word blurs away from a page; careful study can still make it out.
+
+*Standard:* One written word vanishes from a page, and every reader's eye slides over the gap as though the sentence were whole.
+
+*Strong:* One written word vanishes from a page and from every copy of that page within reach, each gap glossed over as though it were never there.
+
+=== Paperweight (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* 30 ft · *Keywords:* Utility
+
+*Weak:* You mark a coin you touch; while it stays within a mile, you know the direction to it.
+
+*Standard:* You mark a coin you touch; you know the direction to it and the last hand that held it, until you mark another coin.
+
+*Strong:* You mark a coin you touch; from any distance you know who holds it and where it lies, until it is spent.
+
+=== Thin Wall (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* Touch · *Keywords:* Utility
+
+*Weak:* Through a wall, door, or floor, you hear raised voices and heavy movement.
+
+*Standard:* Press your ear to any wall, door, or floor and hear what is said on the far side as clearly as if you stood in that room.
+
+*Strong:* You hear what is said on the far side, and you know how many creatures are there and where each one stands.
+
+=== Blind Page (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* Touch · *Keywords:* Utility
+
+*Weak:* You feel the shape of the writing on a page but cannot make out the words.
+
+*Standard:* Read a page, letter, or sealed document by touch alone, without opening a fold or breaking a seal.
+
+*Strong:* You read a page by touch, know the hand that wrote it, and know whether the page has been altered.
+
+=== Nothing to See (Cantrip)
+*Disciplines:* None · *Action:* Action · *Range:* Touch · *Keywords:* Utility
+
+*Weak:* One small object draws the eye away for a breath; a deliberate search still finds it.
+
+*Standard:* For a scene, one ordinary object of small size draws no wandering eye and no memory, however plainly it sits in the open.
+
+*Strong:* For a day, one ordinary object of small size draws no wandering eye and no memory; a creature that later recalls the room cannot recall the object at all.
 
 == Fire Spells
 
@@ -268,6 +313,24 @@ _Placeholder for final art._
 
 *Strong:* 8 bludgeoning damage; targets are Prone and lose their Maneuver.
 
+=== Slickstone (Arcane Spell)
+*Disciplines:* 1 Earth · *Action:* Action · *Range:* 30 ft · *Keywords:* Control, Condition
+
+*Weak:* One stride of ground turns slick; a creature that crosses it at speed goes Prone.
+
+*Standard:* A stretch of floor up to thirty feet across turns slick for the scene; anything crossing at speed goes Prone, and only careful footing keeps a standing creature upright.
+
+*Strong:* The whole surface obeys your choice of slick or sticky: slick throws the heedless Prone, and sticky holds any creature that touches it Restrained until it tears free.
+
+=== Tilt (Arcane Spell)
+*Disciplines:* 2 Earth · *Action:* Action · *Range:* 60 ft · *Keywords:* Control, Damage
+
+*Weak:* A surface you name tips toward a direction of your choosing, and creatures on it slide and go Prone.
+
+*Standard:* The whole surface pivots as you direct for the scene, and anything thrown from it takes 8 damage and lands Prone.
+
+*Strong:* You steer the tilt at will while you concentrate, and a creature thrown from the edge takes 11 damage and is left Prone and Restrained under whatever fell with it.
+
 == Plants Spells
 
 === Venom Lance (Arcane Spell)
@@ -362,6 +425,114 @@ _Placeholder for final art._
 
 *Strong:* 8 necrotic damage; Fortitude check or die at 0 HP.
 
+=== Still Air (Arcane Spell)
+*Disciplines:* 1 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Control
+
+*Weak:* Your next word is swallowed whole; it reaches no ear but the one you name.
+
+*Standard:* No sound crosses the boundary of the room you name while you stand inside it, and you may speak freely to anyone within.
+
+*Strong:* The silence holds until the end of the scene; no shout, bell, or horn raised inside carries beyond the boundary, and every creature inside is Deafened to the world outside.
+
+=== Unopened (Arcane Spell)
+*Disciplines:* 1 Energy · *Action:* Action · *Range:* touch · *Keywords:* Control
+
+*Weak:* One door, lid, or shutter holds shut against a casual push; a determined effort still forces it.
+
+*Standard:* The door you touch stays shut for the scene: no hand, key, or crowbar moves it, and it opens at your word alone.
+
+*Strong:* Every threshold of the room holds as that door did, each opening only at your word and each giving way only when its frame is broken apart.
+
+=== Pocket Swap (Arcane Spell)
+*Disciplines:* 1 Energy · *Action:* Action · *Range:* 60 ft · *Keywords:* Teleport
+
+*Weak:* Two small objects you can see trade places.
+
+*Standard:* Two objects you can see trade places, whatever lies between them, as long as you could lift each one alone.
+
+*Strong:* Two objects trade places and may carry a grip along with them, so a held thing can be moved into another hand or left in the hand of another creature.
+
+=== Dead Weight (Arcane Spell)
+*Disciplines:* 1 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Control
+
+*Weak:* An object a creature holds grows too heavy to brandish; it must drop the thing or fight around it.
+
+*Standard:* One object pins itself to the ground as though set in stone, and no hand but yours moves it while you watch.
+
+*Strong:* The weight lands on the creature carrying it: that creature goes Prone and is Restrained beneath the load until it drops everything it holds.
+
+=== No Crossing (Arcane Spell)
+*Disciplines:* 2 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Ward, Control
+
+*Weak:* One threshold holds against a kind of creature you name, and that creature cannot pass while you keep the opening in sight.
+
+*Standard:* The threshold refuses the named kind for the scene, and the creature gets through only by breaking the doorway itself.
+
+*Strong:* Every door and window of the building refuses the named kind, and the refusal stands until you name a different creature in its place.
+
+=== Vice Versa (Arcane Spell)
+*Disciplines:* 2 Energy · *Action:* Action · *Range:* 60 ft · *Keywords:* Teleport
+
+*Weak:* Two creatures you can see trade positions, each arriving where the other stood.
+
+*Standard:* Two creatures trade positions, willing or not, and anything smaller than a horse that either was carrying goes along.
+
+*Strong:* Three pairs trade positions at once, and you may send one further creature along with either half of any swap.
+
+=== Turn the Air (Arcane Spell)
+*Disciplines:* 2 Energy · *Action:* Action · *Range:* 60 ft · *Keywords:* Control, Zone
+
+*Weak:* One room or a thirty-foot space takes one property you name for a minute. Cold: creatures starting their turn there take 1 cold damage. Close: the space is difficult ground. Loud: hearing checks there are at Bane. Dim: sight checks there are at Bane.
+
+*Standard:* The space takes that property for the scene, and creatures inside suffer its effect every turn they spend there.
+
+*Strong:* The space takes two properties at once and holds them until you leave it, and you may change which properties they are on your turn.
+
+=== Ventriloquy (Arcane Spell)
+*Disciplines:* 1 Energy + 1 Mind · *Action:* Action · *Range:* 120 ft · *Keywords:* Control, Illusion
+
+*Weak:* Your voice comes from a point you can see, and listeners turn toward it for a breath.
+
+*Standard:* For the scene your voice issues from any point in range, and you may speak, whisper, or shout from it without moving your mouth.
+
+*Strong:* For the scene your voice issues from two places at once, and anything spoken from a point you choose is heard as coming from the mouth of any creature you can see.
+
+=== Exception (Arcane Spell)
+*Disciplines:* 3 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Control
+
+*Weak:* Name one rule from a closed list (gravity, fire, sound, a lock, or a written law), and it lapses in one spot for a breath.
+
+*Standard:* The named rule does not apply inside the space you name for the scene; you and those you choose are exempt while the rest of the world still obeys it.
+
+*Strong:* The named rule stops applying to a thing you choose until you release it, and you may move that exemption from creature to creature as the scene goes on.
+
+=== Exchange of Natures (Arcane Spell)
+*Disciplines:* 3 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Control
+
+*Weak:* Two objects trade one property: a blade goes dull and a length of rope goes sharp, and the trade ends with the scene.
+
+*Standard:* Two objects trade everything they are, weight, hardness, edge, whether they burn, float, or bend, for as long as you concentrate.
+
+*Strong:* The exchange holds until you end it, and while it holds you may pass any property from either object into a third by touch.
+
+=== Not Yet (Arcane Spell)
+*Disciplines:* 2 Energy + 1 Mind · *Action:* Reaction · *Range:* 60 ft · *Keywords:* Control, Ward
+
+*Weak:* One consequence is stayed for a breath: a falling stone hangs, an opened wound waits, a verdict stays unspoken.
+
+*Standard:* A consequence you name waits until a condition you name is met; the wound does not bleed, the door does not open, and the dying do not die until then.
+
+*Strong:* The delay outlives the scene and rests on its condition alone, and you may name three conditions that will end it.
+
+=== The Room You Remember (Arcane Spell)
+*Disciplines:* 2 Mind + 1 Energy · *Action:* Action (ritual, 1 minute) · *Range:* 30 ft · *Keywords:* Teleport, Insight
+
+*Weak:* You touch a doorway and name a place you have seen yourself; for a breath, the room beyond shows it.
+
+*Standard:* You bring a remembered place out into the open: the place opens as a door in the nearest wall, and you may walk into it as it was on the day it was remembered.
+
+*Strong:* The door stands for a scene, the remembered place is real enough to carry things out of, and any creature that enters may bring back only what it can carry in its own two hands; nothing living passes through.
+
 == Mind Spells
 
 === Silver Tongue (Arcane Spell)
@@ -408,5 +579,59 @@ _Placeholder for final art._
 *Standard:* The target follows two simple commands.
 
 *Strong:* The target follows your commands for the full scene and cannot attempt its Reason resistance again.
+
+=== Laid Bare (Arcane Spell)
+*Disciplines:* 1 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* Insight
+
+*Weak:* You learn whether the creature you watch means you harm this scene.
+
+*Standard:* You see the true intent behind one statement as a plain image, and you know what the speaker wants out of the exchange.
+
+*Strong:* For the scene, every deliberate falsehood spoken near you shows itself as a wrongness you can point to, and the purpose behind each lie is plain to you.
+
+=== The Given Word (Arcane Spell)
+*Disciplines:* 1 Mind · *Action:* Action (ritual, 1 minute) · *Range:* touch · *Keywords:* Oath, Damage
+
+*Weak:* A promise written in your presence and signed binds its signer: the moment they break it they take 4 damage.
+
+*Standard:* The signer takes 6 damage on the breach, and the hand that signed goes numb until amends are made.
+
+*Strong:* The signer takes 8 damage on the breach, is Marked for every witness to see, and the signing hand closes on itself and will not open until the promise is kept.
+
+=== Borrowed Recollection (Arcane Spell)
+*Disciplines:* 2 Mind · *Action:* Action · *Range:* touch · *Keywords:* Insight, Bane
+
+*Weak:* Touching a creature, you read one recent memory it does not guard, seeing and hearing the moment as the creature did.
+
+*Standard:* You take one memory from a creature and live it as your own; the creature keeps the shape of the moment but loses its feeling while you hold it.
+
+*Strong:* You take the memory whole; the creature cannot recall it while you hold it, and you may set it back exactly as it was, or keep it.
+
+=== True Name (Arcane Spell)
+*Disciplines:* 2 Mind · *Action:* Action (ritual, 1 minute) · *Range:* 30 ft · *Keywords:* Insight, Control
+
+*Weak:* You learn whether a name a creature answers to is truly its own.
+
+*Standard:* You learn a creature's true name; while you hold it you always know which way that creature lies, and you hear the name whenever it is spoken within a mile.
+
+*Strong:* For a day you may speak to the creature across any distance when you say its name, and it hears you whether it wills it or not.
+
+=== Struck Through (Arcane Spell)
+*Disciplines:* 3 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* Control, Erase
+
+*Weak:* One word vanishes from every page you can see, and the sentences close over the gaps as if it had never been written.
+
+*Standard:* One word vanishes from every page, tablet, and carving that bears it, and no scribe sets it down again while you live.
+
+*Strong:* One word leaves the world: no tongue shapes it, no hand writes it, and every promise, law, or name that turned on it stops meaning what it meant.
+
+=== Plain Speech (Arcane Spell)
+*Disciplines:* 3 Mind · *Action:* Action · *Range:* 60 ft · *Keywords:* Compel
+
+*Weak:* For a breath, the room will not hold one deliberate falsehood; the lie leaves the speaker's mouth as silence.
+
+*Standard:* For the scene, no creature in the room can shape a false statement; a lie turns to ash in the mouth, and what the speaker meant to hide is plain on their face.
+
+*Strong:* The room keeps what it hears, holding every word spoken in it for a day; a lie cannot be spoken in it at all, and every creature present hears the truth the speaker tried to hide.
 
 ```

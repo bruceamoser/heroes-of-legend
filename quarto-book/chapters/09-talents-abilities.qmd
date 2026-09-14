@@ -137,6 +137,31 @@ The talents below are general. Any class may take any of them, though a talent t
 
 *Novice:* Boon on checks to detect and disarm traps, and you cannot be surprised by a trap.
 
+=== Brace Them (Talent)
+*Disciplines:* 1 Protection · *Action:* Reaction · *Range:* Melee · *Keywords:* Support
+
+*Effect:* When you or an ally within reach would be knocked Prone or Frightened, you may spend your Reaction so that the condition does not land, and that creature may immediately stand or move 5 ft.
+
+=== Hand Off (Talent)
+*Disciplines:* 1 Sleight · *Action:* Free · *Range:* Melee · *Keywords:* Support
+
+*Effect:* As part of your turn, you may give a weapon or shield you carry to an ally within reach. That ally gains a Boon on their next attack or defense with it this round, and if that ally is Prone, they may immediately stand.
+
+=== Borrowed Eye (Talent)
+*Disciplines:* 1 Tactics · 1 Mind · *Action:* Reaction · *Range:* 30 ft · *Keywords:* Support
+
+*Effect:* When an enemy within 30 ft moves, attacks, or uses a card, you may spend your Reaction so that you or one ally within 30 ft gains a Boon that lasts, unspent, until that enemy acts again, and may be applied to any one roll made against it before then.
+
+=== Not One Step (Talent)
+*Disciplines:* 2 Protection · 1 Tactics · *Action:* Reaction · *Range:* 30 ft · *Keywords:* Support
+
+*Effect:* Once per encounter, when an enemy attacks an ally within 30 ft, you may spend your Reaction to make yourself the only target of that enemy's attacks this round and gain a Boon on your defense rolls against them. When you are dropped to 0 HP this round, you spend Grit as normal and roll on the Wound Table. Every ally who can see you gains a Boon on their next roll.
+
+=== Nothing Holds Them (Talent)
+*Disciplines:* 2 Protection · 1 Mind · *Action:* Reaction · *Range:* 30 ft · *Keywords:* Support
+
+*Effect:* When you or an ally within 30 ft would lose a turn to a condition, that creature ignores every condition on them until the end of their next turn and acts normally, and when that turn ends every condition they ignored lands on you for its remaining duration.
+
 #pagebreak()
 
 == Basic Attacks
@@ -341,5 +366,212 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Standard:* Regain 4 HP.
 
 *Strong:* Regain 6 HP.
+
+=== Heel Hook (Weapon Maneuver)
+*Disciplines:* 1 Unarmed · *Action:* Action · *Range:* Melee · *Keywords:* Prone, Control
+
+*Weak:* The target is Prone. A target that is already Prone is also Grappled until it Escapes.
+
+*Standard:* The target is Prone and at Bane on its next attack. A target that is already Prone is also Grappled and Restrained until it Escapes.
+
+*Strong:* The target is Prone, loses its Maneuver, and cannot stand again until the end of its next turn. A target that is already Prone is also Grappled and Restrained until it Escapes, and cannot Escape this round.
+
+=== Shield Press (Weapon Maneuver)
+*Disciplines:* 1 Armor · *Action:* Action · *Range:* Melee · *Keywords:* Grapple, Control
+
+*Weak:* The target is Grappled until it Escapes. Against a Prone target it is Restrained instead, and its Escapes are at Bane.
+
+*Standard:* The target is Grappled and Restrained until it Escapes, and you may move it 5 ft with you.
+
+*Strong:* The target is Grappled and Restrained until it Escapes, you may move it 5 ft with you, and it cannot attack you until the end of its next turn.
+
+=== Hamstring Cut (Weapon Maneuver)
+*Disciplines:* 1 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Restrained, Control
+
+*Weak:* The target is Restrained until it Escapes. A target that is already Grappled or Restrained is Restrained with its Escapes at Bane even on a Weak result.
+
+*Standard:* The target is Restrained until it Escapes and its next Escape is at Bane.
+
+*Strong:* The target is Restrained until it Escapes, its Escapes are at Bane, and it cannot take Reactions while Restrained.
+
+=== Open the Guard (Weapon Maneuver)
+*Disciplines:* 1 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Control
+
+*Weak:* 4 damage, and the target cannot take Reactions until the end of its next turn.
+
+*Standard:* 6 damage, the target loses its Maneuver, and it cannot take Reactions until the end of its next turn.
+
+*Strong:* 8 damage, the target loses its Maneuver and cannot take Reactions until the end of its next turn; an ally who can see you gains a Boon on their next attack against it.
+
+=== Sand Cast (Weapon Maneuver)
+*Disciplines:* 1 Sleight · *Action:* Action · *Range:* 10 ft · *Keywords:* Blinded, Control
+
+*Weak:* The target is Blinded until the end of its next turn.
+
+*Standard:* The target is Blinded until the end of its next turn, and it is at Bane on its next attack.
+
+*Strong:* The target is Blinded until the end of the scene and drops one held item of your choice; you may take it as part of this Action.
+
+=== Dead Reckoning (Weapon Maneuver)
+*Disciplines:* 1 Archery · *Action:* Action · *Range:* 60 ft · *Keywords:* Marked, Ranged
+
+*Weak:* The target is Marked until the end of the scene: you always know where it is and it cannot Hide from you.
+
+*Standard:* The target is Marked until the end of the scene and at Bane on its next attack against you. Against a target that is already Marked, this attack ignores Cover and Concealment.
+
+*Strong:* The target is Marked and you may immediately make a Basic Archery attack against it. Against a target that is already Marked, that attack also ignores Cover and Concealment.
+
+=== Long Spear Rebuke (Weapon Maneuver)
+*Disciplines:* 1 Polearms · *Action:* Action · *Range:* Melee · *Keywords:* Frightened, Control
+
+*Weak:* The target is Frightened of you until the end of its next turn: it cannot approach you.
+
+*Standard:* The target is Frightened of you until the end of the scene, and it is at Bane on attacks against you. A target that is already Frightened of you cannot use a Reaction while you threaten it.
+
+*Strong:* The target is Frightened of you until the end of the scene and must spend its next Movement moving away from you. A target that is already Frightened of you is also Prone.
+
+=== Follow My Lead (Weapon Maneuver)
+*Disciplines:* 1 Tactics · *Action:* Action · *Range:* Melee · *Keywords:* Support
+
+*Weak:* 4 damage to one enemy within reach, and that enemy cannot spend its Reaction before your next turn.
+
+*Standard:* 6 damage, and one ally who can see you may immediately make a Basic Attack against that enemy, spending their Reaction.
+
+*Strong:* 8 damage, and one ally who can see you may immediately make a Basic Attack against that enemy with a Boon on it, spending their Reaction.
+
+=== Eyes On Me (Weapon Maneuver)
+*Disciplines:* 1 Tactics · *Action:* Action · *Range:* Melee · *Keywords:* Support
+
+*Weak:* 4 damage to one enemy within reach, and it must target you with its next attack if it attacks at all.
+
+*Standard:* 6 damage, and that enemy must target you with its next attack; one ally who can see you gains a Boon on their next attack against it.
+
+*Strong:* 8 damage, and every enemy within 30 ft that can see you must target you with their next attack; every ally who attacks one of them gains a Boon on that attack.
+
+=== Bell Ringer (Weapon Maneuver)
+*Disciplines:* 2 Heavy Weapon · *Action:* Action · *Range:* Melee · *Keywords:* Deafened, Control
+
+*Weak:* The target is Deafened until the end of the scene. A target that is already Deafened is Stunned until the end of its next turn instead.
+
+*Standard:* The target is Deafened until the end of the scene and at Bane on its next attack. A target that is already Deafened is Stunned until the end of its next turn and cannot take Reactions.
+
+*Strong:* The target is Deafened and Stunned until the end of its next turn. A target that is already Deafened also loses its Action on that turn.
+
+=== Battering Hurl (Weapon Maneuver)
+*Disciplines:* 2 Heavy Weapon · Tactics · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Prone
+
+*Weak:* 5 damage and the target is pushed 5 ft. Against a target that is already Prone, it is hurled 15 ft and stays Prone.
+
+*Standard:* 8 damage and the target is knocked Prone. Against a target that is already Prone, it is hurled 15 ft and cannot stand until the end of its next turn.
+
+*Strong:* 11 damage, the target is knocked Prone and hurled 15 ft, and it cannot stand until the end of its next turn.
+
+=== Through the Blind Spot (Weapon Maneuver)
+*Disciplines:* 2 Blades · Stealth · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Stealth
+
+*Weak:* 5 damage and you may move 10 ft before or after the strike. Against a Blinded or Deafened target you stay Hidden and it cannot identify you.
+
+*Standard:* 8 damage and the target is at Bane on its next attack against you. Against a Blinded or Deafened target you stay Hidden and it cannot identify you.
+
+*Strong:* 11 damage and the target cannot use a Reaction until the end of its next turn. Against a Blinded or Deafened target you stay Hidden, it cannot identify you, and even creatures that can see you cannot point you out to it.
+
+=== Chokehold (Weapon Maneuver)
+*Disciplines:* 2 Unarmed · Stealth · *Action:* Action · *Range:* Melee · *Keywords:* Grapple, Control
+
+*Weak:* The target is Grappled until it Escapes and cannot speak above a whisper. A target that is already Grappled is Restrained instead, and no sound it makes carries beyond arm's reach.
+
+*Standard:* The target is Grappled and Restrained until it Escapes; it cannot shout, call for help, or cast a spell aloud.
+
+*Strong:* The target is Grappled and Restrained, it cannot shout or cast aloud, it is at Bane on every attack, and it cannot take Reactions while held.
+
+=== Pinning Shot (Weapon Maneuver)
+*Disciplines:* 2 Archery · Tactics · *Action:* Action · *Range:* 60 ft · *Keywords:* Damage, Restrained
+
+*Weak:* 5 damage and the target is Restrained until it Escapes. Against a target that is Grappled or Prone, it cannot Escape or stand until it removes the missile with an Action.
+
+*Standard:* 8 damage and the target is Restrained until it Escapes, and every Escape it attempts is at Bane.
+
+*Strong:* 11 damage and the target is Restrained until it Escapes; it cannot Escape or stand until the end of its next turn.
+
+=== Single Out (Weapon Maneuver)
+*Disciplines:* 2 Archery · Tactics · *Action:* Action · *Range:* 60 ft · *Keywords:* Marked, Support
+
+*Weak:* Choose a creature you can see: it is Marked until the end of the scene and cannot Hide from you. Against a creature that is already Marked, mark a second creature as well, and the first cannot use Cover against you or your allies.
+
+*Standard:* As Weak, and the Marked creature is at Bane on its next attack against you.
+
+*Strong:* As Standard, and your allies who can see you gain a Boon on their next attack against a creature you have Marked.
+
+=== Hold Until It Moves (Weapon Maneuver)
+*Disciplines:* 2 Tactics · *Action:* Action · *Range:* 30 ft · *Keywords:* Support
+
+*Weak:* You and one ally who can see you each ready an attack against one enemy within 30 ft, released the moment that enemy moves or attacks, and the first released attack gains a Boon.
+
+*Standard:* You and every ally who can see you each ready an attack against one enemy within 30 ft, released together the moment it moves or attacks, and the first released attack gains a Boon and Marks the enemy until the end of the round.
+
+*Strong:* You and every ally who can see you each ready an attack against one enemy within 30 ft, released together the moment it moves or attacks; every released attack gains a Boon, the enemy is Marked until the end of the round, and it cannot spend its Reaction while the volley resolves.
+
+=== Rolling Thunder (Weapon Maneuver)
+*Disciplines:* 1 Tactics · 1 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Support
+
+*Weak:* 5 damage to one enemy within reach.
+
+*Standard:* 8 damage, and the next ally who attacks that enemy this round gains a Boon; if that ally's outcome is Standard or better, the Boon passes to the next ally in line.
+
+*Strong:* 11 damage, and every ally who attacks that enemy this round gains a Boon, each passing to the next in line until a roll falls short.
+
+=== Pull Them Clear (Weapon Maneuver)
+*Disciplines:* 2 Protection · *Action:* Action · *Range:* Melee · *Keywords:* Support
+
+*Weak:* You drag one creature within reach 10 ft in any direction, and an ally you drag is freed of Grappled, Restrained, or Prone.
+
+*Standard:* You drag one creature within reach 15 ft in any direction; an ally you drag is freed of Grappled, Restrained, Prone, or Stunned and may immediately take a Maneuver.
+
+*Strong:* You drag one creature within reach 15 ft in any direction, an ally you drag is freed of every condition and may immediately take an Action, and an enemy you drag is knocked Prone.
+
+=== Sunshot (Weapon Maneuver)
+*Disciplines:* 3 Archery · Tactics · Stealth · *Action:* Action · *Range:* 60 ft · *Keywords:* Damage, Blinded
+
+*Weak:* 7 damage and the target is Blinded until the end of its next turn.
+
+*Standard:* 10 damage and the target is Blinded until the end of the scene. Against a target that is already Blinded or Deafened, the shot ignores Cover and Concealment and may target any creature you have seen this scene.
+
+*Strong:* 14 damage and the target is Blinded until the end of the scene, and it cannot benefit from any Boon until its eyes clear.
+
+=== Harvest the Fear (Weapon Maneuver)
+*Disciplines:* 3 Polearms · Tactics · Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* Frightened, Control
+
+*Weak:* One creature that can see you is Frightened of you until the end of the scene.
+
+*Standard:* Up to three creatures that can see you are Frightened of you until the end of the scene, and any that was already Frightened of you is Stunned until the end of its next turn.
+
+*Strong:* Every creature that can see you is Frightened of you until the end of the scene, and any that was already Frightened of you is Stunned until the end of its next turn. While you remain visible, none of them can benefit from an ally's Boon.
+
+=== Groundbreaker (Weapon Maneuver)
+*Disciplines:* 3 Heavy Weapon · Tactics · Unarmed · *Action:* Action · *Range:* 15 ft · *Keywords:* Prone, Control
+
+*Weak:* Every standing creature in a 15-ft arc is knocked Prone.
+
+*Standard:* Every creature in a 15-ft arc is knocked Prone and Restrained until it Escapes (the ground is broken under it). A creature that was already Prone cannot stand until it Escapes.
+
+*Strong:* Every creature in a 15-ft arc is knocked Prone and Restrained until it Escapes, and any that was already Prone is Stunned until the end of its next turn.
+
+=== Taken Alive (Weapon Maneuver)
+*Disciplines:* 3 Unarmed · Tactics · Armor · *Action:* Action · *Range:* Melee · *Keywords:* Restrained, Control
+
+*Weak:* The target is Grappled until it Escapes. A target that is already Grappled or Restrained is bound instead: the condition no longer ends with an Escape, and only another creature can free it by spending an Action.
+
+*Standard:* The target is Grappled and Restrained until it Escapes, and every Escape it attempts is at Bane.
+
+*Strong:* The target is Grappled and Restrained, its Escapes are at Bane, and you may move it 15 ft with you. A target that was already Grappled or Restrained is bound as on a Weak result.
+
+=== Break the Order (Weapon Maneuver)
+*Disciplines:* 2 Tactics · 1 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* Support
+
+*Weak:* 7 damage to one enemy within 30 ft, and one ally who can see you and has not yet acted this round may take their turn next, out of order.
+
+*Standard:* 10 damage, and two allies who can see you and have not yet acted this round may take their turns out of order, in any order you choose.
+
+*Strong:* 14 damage, and every ally who can see you and has not yet acted this round may take their turns out of order in any order you choose, and no enemy may spend a Reaction until the last of those turns ends (once per encounter).
 
 ```
