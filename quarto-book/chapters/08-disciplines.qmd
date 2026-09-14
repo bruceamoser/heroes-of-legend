@@ -52,6 +52,7 @@ You _collect_ them. They're permanent markers on your character sheet that say: 
     [], [*Religion*], [Faith, blessings, holy power],
     [*Esoteric*], [*Mind*], [Psionics, illusions, mental influence],
     [], [*Summon*], [Calling, binding, conjuring creatures],
+    [], [*Fate*], [Luck, chance, destiny, oaths kept and broken, the turning of a moment],
     [*Subterfuge*], [*Stealth*], [Hiding, moving unseen, ambush, silence],
     [], [*Sleight*], [Locks, traps, pockets, delicate theft],
     [*Knowledge*], [*Lore*], [Scholarship, history, arcana, ancient secrets],
@@ -62,7 +63,7 @@ You _collect_ them. They're permanent markers on your character sheet that say: 
   outlined: false,
 )
 
-Twenty-three Disciplines. Nine categories. Your hero's path through them defines everything they can do.
+Twenty-four Disciplines. Nine categories. Your hero's path through them defines everything they can do.
 
 #pagebreak()
 
