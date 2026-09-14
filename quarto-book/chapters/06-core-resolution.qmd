@@ -149,7 +149,7 @@ Kael has no defensive skill in this example, so he uses the baseline formula. Ha
 
 Later, a Knight of the Iron Circle attacks Kael. "Challenge −3," the DA says. Kael rolls 3d6 + 2 − 3 = 3d6 − 1. He rolls 2, 3, 2 = 7 − 1 = 6. *Weak.* The Knight's Strong damage is 11. Kael's armor and Iron Skin reduce it to 8. That one hurt.
 
-If Kael had trained the Armor Discipline and taken Hardened Hide (DR 5), the Knight's Strong damage of 11 would have been cut to 6. Armor never adds to your Defense Roll. It reduces whatever damage the roll lets through.
+If Kael had trained the Armor Discipline and worn heavier steel (DR 5), the Knight's Strong damage of 11 would have been cut to 6. Armor never adds to your Defense Roll. It reduces whatever damage the roll lets through.
 
 #pagebreak()
 == Critical Hits (Three Natural 6s)

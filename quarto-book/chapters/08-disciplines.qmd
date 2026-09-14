@@ -119,8 +119,6 @@ Abilities, talents, and spells require specific Disciplines before you can learn
     align: (auto, auto, auto,),
     table.header([Card], [Disciplines Required], [Level Gate],),
     [Brimstone Burst], [2 Fire], [Level 1],
-    [Sulphur Aria], [2 Fire], [Level 3],
-    [Scorched Verdict], [2 Fire], [Level 7],
     [Beast Tongue], [1 Animal], [Level 1],
   )],
   kind: table,
@@ -221,7 +219,7 @@ Every damaging spell, ability, and maneuver in _Heroes of Legend_ is built on a 
 #callout(type: "note", title: "How to Read the Budget", body: [
 There is no damage roll. The outcome of your attack or casting roll (Weak, Standard, or Strong) determines your damage from the budget table. The hit roll is the damage roll.
 
-The numbers are flat damage points. A Novice Ember Lance deals 2 damage on a Weak result, 4 on Standard, 6 on Strong. An Adept Sulphur Aria deals 5/8/11. These are flat numbers. No dice. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
+The numbers are flat damage points. A Novice Ember Lance deals 2 damage on a Weak result, 4 on Standard, 6 on Strong. An Adept spell deals 5/8/11. These are flat numbers. No dice. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
 
 See @sec-chapter-arcane-spells and @sec-chapter-divine-spells for the full spell lists. See @sec-chapter-classes for class abilities keyed to this budget.
 
