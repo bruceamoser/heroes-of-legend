@@ -457,10 +457,21 @@
     // that hydra and query() see it at the correct page position (top of the new page
     // right after the break, before any spacing). When used standalone, place(hide[…])
     // keeps it invisible and out of flow.
+    //
+    // VENDOR PATCH (issue #552, heroes-of-legend): `numbering: none` on the internal
+    // heading. It is what makes the heading stop stepping counter(heading): a heading
+    // carrying `numbering: none` is not numbered and does not advance the counter (verified
+    // in a standalone test), so the internal heading contributes no increment and the
+    // level-1 counter undo in beautitled-init is no longer emitted. Two consequences, both
+    // wanted: the counter at this heading's position now reads the chapter's real number
+    // (it read one high while a second step plus an after-the-fact undo were in play), and
+    // orange-book's my-outline.typ prints an entry number only when the heading element has
+    // a numbering setting, so the Contents page no longer prints a stray number beside the
+    // "Chapter N:" title it already carries.
     if from-init {
-      [#heading(level: outline-level, outlined: true, bookmarked: true, outline-title) <_btl-internal>]
+      [#heading(level: outline-level, outlined: true, bookmarked: true, numbering: none, outline-title) <_btl-internal>]
     } else {
-      place(hide[#heading(level: outline-level, outlined: true, bookmarked: true, outline-title) <_btl-internal>])
+      place(hide[#heading(level: outline-level, outlined: true, bookmarked: true, numbering: none, outline-title) <_btl-internal>])
     }
 
     v(cfg.chapter-above)
@@ -1120,17 +1131,15 @@
         if cfg.enable-parts { part(it.body, from-init: true) }
         else { chapter(it.body, from-init: true) }
       }
-      // VENDOR PATCH (issue #467, heroes-of-legend): the undo used to run BEFORE the
-      // chapter()/part() call above. A label attached to a heading resolves the counter
-      // at its own position, and because the show rule's replacement content is what the
-      // label sits on, running the undo first made every chapter label read one chapter
-      // LOW while the TOC and ornaments showed the right number. Emitting the undo after
-      // the call leaves the label reading the chapter's real number, with the same net
-      // effect on the running counter.
-      counter(heading).update((..args) => {
-        let v = args.pos()
-        (calc.max(0, v.at(0) - 1), ..v.slice(1))
-      })
+      // VENDOR PATCH (issue #467, heroes-of-legend; SUPERSEDED by #552): this show rule
+      // used to emit a `counter(heading)` undo here, because both the original heading and
+      // the _btl-internal heading stepped the counter. #467 moved the undo AFTER the call
+      // above so a chapter label resolved the chapter's real number, which left the counter
+      // at the internal heading's own position reading one HIGH and put a stray number on
+      // every row of the printed Contents. #552 removes the increment rather than
+      // compensating for it: `chapter()` now stamps `numbering: none` on the internal
+      // heading, which stops it stepping counter(heading) at all, so no undo is needed.
+      // Net change to the running chapter count: none.
     }
   }
   show heading.where(level: 2): it => {
