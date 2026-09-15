@@ -286,6 +286,8 @@ The Odd embodies eccentricity and peculiarity. With a demeanor that dances on th
 
 *Signature, Eccentric Spellcasting:* Choose one arcane ability and one divine ability. You ignore prerequisite Disciplines for these two (level requirements still apply). You need no arcane focus or holy symbol.
 
+*Wildcard Rank:* You hold one wildcard rank. It is wild: it is never assigned to a named Discipline, and you choose which Discipline it stands in for each time you buy a card. It satisfies one requirement at a time, and only a requirement of one rank, so it can never supply a second rank of a Discipline you already hold. A card that asks for 2 Fire stays out of reach on Fire 1 and a wildcard. It never advances, and it costs no Development Points.
+
 *Favored Skills:* Sleight of Hand, Stealth, Deception, Acrobatics, Performance
 
 *Starting Kit:* Shortbow, dagger, leather armor, thieves' tools, 20 arrows. See @sec-chapter-equipment for how kits are built and what your points buy.
