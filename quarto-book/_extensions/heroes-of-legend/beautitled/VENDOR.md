@@ -15,7 +15,7 @@ when Quarto re-resolves packages into `.quarto/typst/packages/` (a cache).
 
 ## The local patch (#552, current)
 
-**File:** `src/lib.typ` — `chapter()` (the internal heading) and `beautitled-init` (the
+**File:** `src/lib.typ`: `chapter()` (the internal heading) and `beautitled-init` (the
 level-1 heading interception).
 
 Typst steps `counter(heading)` for every heading **element**, including the source heading
@@ -56,7 +56,7 @@ Verified after the change: `check-toc-folios.py` 203/203 references correct; eve
 page count unchanged; chapter ornaments still read `Chapter XIII` (roman, from beautitled's
 own `chapter-counter`, never touched by this).
 
-## The local patch (#467 — SUPERSEDED, kept for the record)
+## The local patch (#467, SUPERSEDED, kept for the record)
 
 The package intercepts each level-1 heading so a chapter is not numbered twice: it
 **undoes** Typst's automatic `counter(heading)` increment on the source heading, then

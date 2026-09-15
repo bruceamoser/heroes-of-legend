@@ -1,0 +1,45 @@
+[
+ {
+  "binding": true,
+  "conditions": [
+   "Corrections must be stated in the printed numbering the shipped book uses, so that each reference resolves for a reader holding the printed artifact.",
+   "The two range statements must be re-scoped deliberately rather than digit-swapped, since correcting them requires deciding which chapters the grant is to include.",
+   "Spell names must be reserved by a clause that does not depend on the misdirected carve-out surviving.",
+   "The cleared enumeration axis stands and needs no content rewrite: no named system was shown retired and no unnamed system was shown excluded."
+  ],
+  "id": "r-001",
+  "point_of_contention": "Does the designation fail because its hand-typed chapter references resolve, against the numbering the book now prints, to chapters that hold none of the material the clauses mean to release - and if so must those references be corrected?",
+  "reasoning": "The refute side was argued three times over two rounds and grew stronger rather than weaker: round one (confidence 0.78 and 0.66) established the printed-number mismatch and the concrete exposure of individually named spell cards, and round two re-derived the whole source-to-print map from scratch twice (0.82, 0.88), extending the count to three wrong printed numbers plus an unresolvable token while expressly confirming that nothing in the ledger was overturned. The only support finding clears a single axis - it verifies the enumeration's named systems against the shipped chapters and finds no retired rule and no withheld system - and by its own words concedes that the live range bound and citation-set fault sits in the ledger and is not re-filed; it files no argument at all against the numbering defect. No support position appears in the final round. The attacked premise that the printed references reach the intended material was therefore left undefended, and an error a licensee following the printed record is actually sent into cannot be treated as cosmetic while the clause's own carve-out proves its target was elsewhere.",
+  "ruling": "The council must treat the hand-typed chapter references in the licence chapter and its front-matter twin as a live designation defect: the spell bullet's cited numbers must be re-pointed to the printed spell chapters, the grant's range must be re-scoped, and the reservation of spell names must be made to stand on a clause of its own rather than on the misdirected carve-out.",
+  "sealed_at": "2026-09-15T03:13:56Z",
+  "topic": "t-01"
+ },
+ {
+  "binding": true,
+  "conditions": [
+   "The fix is additive - a reserved-list item - and must not require rewriting the reproduced licence text, whose structural completeness was verified and not contested.",
+   "The added item must be stated in the chapter's own terms, so that a licensee resolving a given name finds the answer in the designation rather than by inference.",
+   "No layout or render change is required in the chapter: the folio, head, measure and reproduction findings were confirmed and are left undisturbed."
+  ],
+  "id": "r-002",
+  "point_of_contention": "Does the reservation list's failure to claim the category the release grant withholds leave that material neither licensed nor clearly reserved, and must the list be changed?",
+  "reasoning": "Two refutations were filed in round one, from independent derivations, and they agree on one clause pairing: the declaration withholds spell names from what it licenses, while the enumeration that states what is reserved never claims them; the chapter pairs its other carve-outs with a reservation each (the flavour half of the same clause and the creature-name exclusion both reappear on the reserved side), which makes this an omission rather than a policy; and the material is populated, not hypothetical, since both spell chapters title their entries as proper names. The reasoning that a licensee may read the silence as an absence of claim is reinforced by the chapter's own closing principle, which pulls the other way - two boundaries for one category. Neither refutation was answered in the final round. The sole support position expressly confines itself to the render and convention dimension and re-files nothing on the designation or spell-name findings, so it does not defend the gap and no support argument contests it. On the record as presented the gap stands unrebutted, while the render dimension is conceded clean on both sides and requires no change.",
+  "ruling": "The council must treat the reservation list as incomplete against its own grant: the list must be extended by an explicit item claiming the withheld name category, and the same reasoning reaches any other named category the grant takes while the closing principle holds proper names back - while the reproduced licence body and the chapter's rendering are left as they stand.",
+  "sealed_at": "2026-09-15T03:13:56Z",
+  "topic": "t-02"
+ },
+ {
+  "binding": true,
+  "conditions": [
+   "The lead-in must be brought into line with its two bullets - either by naming the families actually set, or by removing the promise of a font inventory; no broader attribution machinery is required.",
+   "Any statement of what the repositories contain must match the tree as it is, so the section does not promise licence texts the tracked source does not hold.",
+   "No finding is revived as a duty breach on the components the tree does not ship or whose notice already travels with its code."
+  ],
+  "id": "r-003",
+  "point_of_contention": "Does the attributions section breach an attribution duty owed for the typefaces the artifact embeds and for the vendored third-party package it ships, by omitting them from its inventory?",
+  "reasoning": "The finding under contest rested on two premises: that the book ships the typefaces it embeds, and that the omitted components carry a duty the section fails. Both were attacked in the final round on the state of the source tree rather than on opinion: no font binaries are held anywhere in the tree and no fonts directory exists, with the design layer instructing the builder to install the faces system-wide, so nothing in the repository redistributes typeface software and no font licence text was ever owed in the document; the design families are recorded as belonging to the licence family whose notice duty attaches to copies of the font software rather than to a document that sets text in it; and the vendored package is accompanied by its own tracked licence and provenance files, which is where that notice condition attaches, the built book being a document produced with the package rather than a copy of it. The finding's own count was also weakened at the edges, since two reported families appear in no declared stack and entered as glyph substitution rather than as chosen faces. No answering finding was filed against any of this, so both attacked premises lose. What survives is conceded by the attacking side itself and is measurable without any legal opinion: the lead-in advertises an inventory of typefaces, and no family name is printed anywhere in the section or the book.",
+  "ruling": "The council must not treat the unlisted components as a breached attribution duty, and must confine the repair to the section's lead-in: it must either name the typefaces it advertises or drop the claim to inventory fonts, since no font attribution is compelled and the vendored component's notice already travels with its code.",
+  "sealed_at": "2026-09-15T03:13:56Z",
+  "topic": "t-03"
+ }
+]

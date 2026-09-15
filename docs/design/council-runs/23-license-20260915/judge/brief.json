@@ -1,0 +1,564 @@
+{
+ "assembled_at": "2026-09-15T03:13:03Z",
+ "wall": {
+  "ngram_n": 10,
+  "reject_at": 1
+ },
+ "contested_topics": {
+  "t-01": {
+   "positions": {
+    "Speaker A": "refute",
+    "Speaker B": "refute",
+    "Speaker D": "support",
+    "Speaker C": "refute"
+   },
+   "findings": [
+    {
+     "id": "f-001",
+     "round": 1,
+     "speaker": "Speaker A",
+     "stance": "refute",
+     "argument": "The chapter's whole job is to tell a reader which material is released and on what terms, so a chapter reference a reader cannot resolve to the intended content defeats the designation rather than merely blemishing it. The spell clause in this file identifies its target by hand-typed numbers, and under the numbering the book now prints those numbers land on Talents & Abilities and the Magic System, while the arcane and divine spell chapters are printed as 13 and 14. A licensee following the printed references is therefore sent to the wrong pair of chapters and is never pointed at the spell material (damage, range, duration and effect values) the clause plainly means to release, so the grant does not identify the content it intends. Replacing the cited numbers with 13 and 14 would make the clause say what it intends without touching the licence body.",
+     "confidence": 0.78,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "23-license",
+       "claim": "The spell grant at line 77 names its material by hand-typed chapter numbers instead of the book's usual live cross-reference form."
+      },
+      {
+       "source": "pdftotext (printed table of contents, Heroes-of-Legend.pdf)",
+       "claim": "The printed contents assign number 11 to Talents & Abilities, which is not a spell chapter."
+      },
+      {
+       "source": "pdftotext (printed table of contents, Heroes-of-Legend.pdf)",
+       "claim": "Number 12 is printed as the Magic System chapter, again not a spell list."
+      },
+      {
+       "source": "pdftotext (printed table of contents, Heroes-of-Legend.pdf)",
+       "claim": "The two spell chapters the clause describes carry the printed numbers 13 and 14."
+      },
+      {
+       "source": "pdftotext (printed page, Heroes-of-Legend.pdf)",
+       "claim": "The same wrong pair of numbers survives into the printed page, so the defect is what a reader actually sees."
+      },
+      {
+       "source": "23-license",
+       "claim": "The clause's own carve-out confirms it aims at the spell chapters rather than at chapter 11 or 12 content."
+      }
+     ]
+    },
+    {
+     "id": "f-002",
+     "round": 1,
+     "speaker": "Speaker B",
+     "stance": "refute",
+     "argument": "Adversarial test of the designation, and it fails. At 23-license:77 the Open Game Content Declaration scopes its spell bullet to printed Chapters 11 and 12. Printed, those are Talents & Abilities and the Magic System chapter; the book's actual spell lists print as Chapters 13 and 14. The consequence is legal, not cosmetic. That bullet is the only clause in this file that withholds spell names and flavour text, so as printed the carve-out lands on two chapters holding no spell cards, while the chapters that do hold them sit under the earlier bullet's unqualified mechanics grant over printed 1 through 22. Concrete counter-example: printed Chapter 13 ships individually named arcane cards, Frost Touch (11-arcane-spells.qmd:49) and Arcane Mark (:31), each with its own name and effect lines. Nothing second withholds those names. The Product Identity Declaration (23-license:61-68) enumerates character, creature, place and organisation names, fiction, art and voice, and spell names appear nowhere in it; its nearest entry covers narrative and flavour, not card titles. So a hostile licensee argues the named spell cards and their flavour in printed 13 and 14 are Open Game Content, reusable under the licence alone, and the author loses precisely what the bullet was written to keep. A careless reader lands in the same place by reading only the bullets and never checking the printed numbers, since the targets the clause plainly intends are the two source files that sort as 11 and 12. Fix: retarget the bullet's two numbers to the printed spell chapters, and separately list spell names as Product Identity so the carve-out does not depend on one misdirected clause.",
+     "confidence": 0.66,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "23-license",
+       "claim": "23-license:77 scopes the spell-mechanics grant to printed Chapters 11 and 12, regardless of what the book prints under those numbers."
+      },
+      {
+       "source": "23-license",
+       "claim": "23-license:77 is the only clause anywhere in this file that withholds spell names and flavour text from the grant it makes."
+      },
+      {
+       "source": "quarto-book/_output/Heroes-of-Legend.pdf",
+       "claim": "The printed table of contents (PDF p.4) gives number 11 to Talents & Abilities and number 12 to the Magic System chapter, so the bullet's two numbers land on chapters that are not spell lists."
+      },
+      {
+       "source": "quarto-book/_output/Heroes-of-Legend.pdf",
+       "claim": "The same printed table of contents numbers the arcane and divine spell chapters 13 and 14, so the bullet's span stops two chapters short of the material it names."
+      },
+      {
+       "source": "quarto-book/_output/Heroes-of-Legend.pdf",
+       "claim": "The printed table of contents numbers the glossary 23 and the quick reference sheets 24, so the declaration's range over printed 1 through 22 stops short of the reference tables as well."
+      },
+      {
+       "source": "11-arcane-spells.qmd",
+       "claim": "The arcane chapter ships individually titled spell cards, so there are real names for an exclusion to protect: Frost Touch begins at line 49 and Arcane Mark at line 31."
+      },
+      {
+       "source": "23-license",
+       "claim": "The Product Identity Declaration at 23-license:61-68 enumerates names of characters, creatures, places and organisations plus fiction, art, trade dress and voice; it never identifies spell names, so it does not restore what the misdirected exclusion misses."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Working the designations clause by clause: printed 11 and 12 get a grant that subtracts spell names and flavour, while printed 13 and 14 get the broader mechanics grant over printed 1 through 22 with no name exclusion attached, so the single clause meant to reserve spell names reserves nothing where the names actually are."
+      }
+     ]
+    },
+    {
+     "id": "f-004",
+     "round": 1,
+     "speaker": "Speaker D",
+     "stance": "support",
+     "argument": "Cleared on the enumeration axis: every mechanic the OGC bullet names is still live in the shipped book, so the recital contains no retired rule, and every mechanic it fails to name still sits inside the grant anyway, so the recital owes no addition. I checked the twelve named systems one by one against the chapter that owns each: the three-die core roll, the Weak/Standard/Strong tiers and the always-hit rule (06-core-resolution); the Discipline system with its one-card law (08-disciplines); the Development Point economy (18-advancement, 08-disciplines); skill tiers (07-skills); the -2..+2 attribute range (03-attributes); the round's action/movement/maneuver economy, condition table, morale and the dying rules (13-combat); damage reduction (16-armor-shields, 06-core-resolution). All twelve verify. Reverse direction: Grit with its per-respite refresh and the Wound Table (13-combat:341-347, :375), Kits (15-equipment:19-29), Challenge and Boons/Banes (06-core-resolution:53-71), and Fate inside the Esoteric category (08-disciplines:55) are load-bearing and unnamed, but each is described in a chapter the same bullet's range covers, and the bullet introduces the recital as illustrative rather than exhaustive, so the grant already reaches them and no licensee is shut out of Grit, wounds, kits, opposed rolls or Fate. The recital reads as an earlier draft's emphasis; that is drafting staleness, not a designation gap, and nothing at :76 needs rewriting for content. The live :76 fault remains its range bound and citation set, already in the ledger; I do not re-file it.",
+     "confidence": 0.7,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "23-license:76",
+       "claim": "The Open Game Content bullet introduces its list of mechanics as open-ended, so a system it does not name is not thereby withheld from the grant."
+      },
+      {
+       "source": "23-license:76",
+       "claim": "The same bullet's scope sentence is what reaches the whole content set; the recital is an illustration of that scope, not the scope itself."
+      },
+      {
+       "source": "06-core-resolution:21",
+       "claim": "The core resolution the bullet names is unchanged in the shipped book: three six-sided dice plus attribute plus skill."
+      },
+      {
+       "source": "06-core-resolution:30-34",
+       "claim": "Weak, Standard and Strong remain the live success tiers with the same bands the bullet implies."
+      },
+      {
+       "source": "06-core-resolution:77",
+       "claim": "The always-hit rule is a current section of the core-resolution chapter, so the bullet's naming of it is not stale."
+      },
+      {
+       "source": "06-core-resolution:53",
+       "claim": "Boons and Banes are a live core subsystem that the enumeration never names."
+      },
+      {
+       "source": "06-core-resolution:71",
+       "claim": "Challenge, the opposed-roll penalty, is also live and also unnamed in the enumeration."
+      },
+      {
+       "source": "08-disciplines:66",
+       "claim": "The Discipline system the bullet names is current and now counts twenty-four disciplines across nine categories."
+      },
+      {
+       "source": "08-disciplines:55",
+       "claim": "Fate is one of those live disciplines, in the Esoteric category, so the enumeration's taxonomy predates it."
+      },
+      {
+       "source": "18-advancement:38",
+       "claim": "Development Points are still the book's growth currency, so the bullet's named economy is current."
+      },
+      {
+       "source": "07-skills:24",
+       "claim": "Skills are still sold in three tiers, matching the tier names the bullet lists."
+      },
+      {
+       "source": "03-attributes:38",
+       "claim": "The attribute range the bullet gives in parentheses matches the attributes chapter exactly."
+      },
+      {
+       "source": "13-combat:31",
+       "claim": "The combat round still hands out action, movement and maneuver, so the named action economy is current."
+      },
+      {
+       "source": "13-combat:185",
+       "claim": "Conditions are still a defined, tabulated subsystem in the combat chapter, as the bullet claims."
+      },
+      {
+       "source": "16-armor-shields:21",
+       "claim": "Damage reduction is still the armor-plus-talents subtraction the bullet names, with a one-damage floor."
+      },
+      {
+       "source": "13-combat:308",
+       "claim": "Morale remains a live combat subsystem with its own section and check procedure."
+      },
+      {
+       "source": "13-combat:341-343",
+       "claim": "Grit ships as a tier-scaled down-and-up resource, the largest system the enumeration omits entirely."
+      },
+      {
+       "source": "13-combat:375",
+       "claim": "The Wound Table ships alongside Grit, triggered per point spent, and is likewise unnamed in the enumeration."
+      },
+      {
+       "source": "15-equipment:21",
+       "claim": "Kits are a full outfitting subsystem in the equipment chapter and are also unnamed in the enumeration."
+      },
+      {
+       "source": "23-license:65",
+       "claim": "The Product Identity roster of nine class names matches the classes chapter's nine class sections one for one, so that roster is not under-inclusive."
+      }
+     ]
+    },
+    {
+     "id": "f-008",
+     "round": 2,
+     "speaker": "Speaker A",
+     "stance": "refute",
+     "argument": "Structure of the class: one defect, not several. Six hand-typed chapter references sit in the licence chapter and its front-matter twin, and all six fail the same test - each is a number typed against a numbering the book no longer prints. One repository document supplies the drift: the vendored typesetting patch records that chapter crossreferences used to resolve one chapter low against the printed number, so any reference written before that correction lands elsewhere now. One root cause, one remedy class, so the repair is a single coherent pass over both files. The exception, and the reason the fix is not one uniform edit: the two range statements are not a digit swap but a re-scope, because correcting them means deciding which chapters are in. So two repair kinds - four singular numbers to re-point, two ranges to re-scope - inside one defect.\n\nInstance by instance against the printed contents, five confirmed, one confirmed with a partial-resolution nuance:\n\n1. Spell bullet (line 77): confirmed. Its pair resolves to the talents chapter and the casting-system chapter. The second is not wholly unrelated - it carries card-cost rules and a worked casting example - but neither holds the named spell cards, which print as 13 and 14. So the bullet's exclusion of spell names lands on chapters that contain no spell names, while the chapters full of them sit under the earlier broad mechanics grant with no exclusion attached.\n\n2. Bestiary bullet (line 78): confirmed. Number 20 is printed as the advancement chapter - levels, development points, titles - with no stat blocks and no encounter-building guidance. Stat blocks print as 22; encounter building appears in 21 and in 24. The bullet names none of them.\n\n3. Range (line 76): confirmed, and it fails at both ends. The span the sentence plainly intends - the introduction through the quick reference sheets - is now printed 2 through 24. The printed range opens a chapter early, on the front matter, which carries no rule at all, and closes two chapters short, before the glossary and the reference sheets.\n\n4. The parenthetical citing \"Chapter 01b\" (line 76): confirmed, and the worst instance, because no printed chapter carries that label - the opening fiction prints as chapter 3 - so the carve-out reserves nothing a reader can locate.\n\n5. The front-matter pointer citing number 23 for the licence (front matter line 19): confirmed; 23 is printed as the glossary and the licence prints as 25, so the twin sentence carries two wrong numbers in one line, and it repeats the same short range as instance 3.\n\nWhat the range must cover. Printed 2 through 24, with printed 3 carved out by its printed number, and printed 1 and printed 25 both outside. Grounds: the glossary bills itself as the one place where terms already used elsewhere are defined, so it restates mechanics rather than adding a system; the reference sheets compile numbers and tables already fixed elsewhere and route the reader back to the owning chapters - precisely the tables and numerical values the grant's own enumeration claims - and they instruct the reader to tear out and duplicate those pages. That instruction has no home outside the content designation, because the front matter permits copying nothing else except brief review quotation and the designated content. Leave printed 24 outside the range and the book forbids in its front matter what it invites two hundred pages later. Printed 1 needs no place in the range: nothing in it is a rule, only credits, dedication, the copyright notice and the designation itself. Printed 25 must stay out: its own first line attributes the reproduced text to another party, and the licence already obliges copies of itself to travel with the content, so a grant over it would be both powerless and self-undermining; the current end bound of 22 keeps it out only by accident, and the corrected bound has to keep it out on purpose.\n\nTwo round-1 claims I judge overstated, both about consequence rather than existence. The contrarian's assertion that the author loses the spell names outright is too strong: the front matter's residual sentence reserves everything the content grant does not reach, and the reserved-material definition the declarations themselves invoke already names spells among its protected categories. The editor-in-chief's limbo reading fails the same way - the category is reserved elsewhere in the book, just not in this chapter's list. The reservation gap is a placement and clarity defect, not an open door, and it should be repaired as one added item in the list rather than argued as exposure.\n\nThe disposition consequence: file one repair ticket covering both files, mandate a mechanical re-point of every hand-typed number against the printed contents, and treat the range re-scope as the one decision inside it that needs the author's sign-off.",
+     "confidence": 0.82,
+     "rebutting": [
+      "f-006"
+     ],
+     "evidence": [
+      {
+       "source": "23-license",
+       "claim": "The spell bullet names its material by two hand-typed chapter numbers and withholds spell names from it."
+      },
+      {
+       "source": "23-license",
+       "claim": "The range and the fiction carve-out are both hand-typed, and the carve-out names the fiction by a source label rather than a printed number."
+      },
+      {
+       "source": "23-license",
+       "claim": "The bestiary bullet scopes stat blocks and encounter guidance to a single hand-typed number."
+      },
+      {
+       "source": "quarto-book/_output/Heroes-of-Legend.pdf",
+       "claim": "The printed contents give number 11 to the talents chapter and number 12 to the casting-system chapter, neither of which is a spell list."
+      },
+      {
+       "source": "quarto-book/_output/Heroes-of-Legend.pdf",
+       "claim": "The arcane spell chapter, the chapter holding the named spell cards the bullet means to release, is printed under number 13."
+      },
+      {
+       "source": "quarto-book/_output/Heroes-of-Legend.pdf",
+       "claim": "Number 20 is printed as the advancement chapter, so the bestiary bullet points away from the stat-block chapter printed as 22."
+      },
+      {
+       "source": "quarto-book/_output/Heroes-of-Legend.pdf",
+       "claim": "The glossary is printed under number 23, one chapter past the range's closing bound."
+      },
+      {
+       "source": "quarto-book/_output/Heroes-of-Legend.pdf",
+       "claim": "The reference sheets are printed under number 24, so a range ending at 22 stops two chapters short of the reference apparatus."
+      },
+      {
+       "source": "quarto-book/_output/Heroes-of-Legend.pdf",
+       "claim": "The opening fiction carries printed number 3, which is the number the carve-out should name."
+      },
+      {
+       "source": "quarto-book/chapters/01b-opening-fiction.qmd",
+       "claim": "The fiction source file is the one labelled 01b, confirming the parenthetical carries a build filename token where a printed chapter number is owed."
+      },
+      {
+       "source": "quarto-book/chapters/21-glossary.qmd",
+       "claim": "The glossary presents itself as the single place where terms already used in the book are defined, so it restates mechanics and adds no system."
+      },
+      {
+       "source": "quarto-book/chapters/22-reference-sheets.qmd",
+       "claim": "The reference sheets direct the reader to remove and duplicate those pages, an instruction that presumes the pages may lawfully be copied."
+      },
+      {
+       "source": "00-front-matter",
+       "claim": "The front matter permits copying only brief review quotation and the content the designation reaches, so the duplicate-these-pages instruction depends on the range covering printed 24."
+      },
+      {
+       "source": "00-front-matter",
+       "claim": "The twin sentence points to number 23 for the licence chapter, though the licence prints as 25 and 23 is the glossary."
+      },
+      {
+       "source": "quarto-book/_extensions/heroes-of-legend/beautitled/VENDOR.md",
+       "claim": "The vendored typesetting patch records that chapter crossreferences once resolved a chapter low against the printed number, the drift that explains why the typed numbers disagree with the printed book."
+      },
+      {
+       "source": "23-license",
+       "claim": "The licence chapter's body is attributed to another party in its own opening line, so it is not the author's material to release as content."
+      },
+      {
+       "source": "23-license",
+       "claim": "The reserved-material definition the declarations invoke already names spells among its protected categories, which limits how far the reservation gap can run."
+      },
+      {
+       "source": "00-front-matter",
+       "claim": "The front matter reserves everything the content grant fails to reach, which gives the spell-name category a reservation outside the licence chapter."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Every instance traces to one stale numbering with no independent cause, so the class is one designation defect with two repair kinds inside it rather than several defects."
+      }
+     ]
+    },
+    {
+     "id": "f-010",
+     "round": 2,
+     "speaker": "Speaker C",
+     "stance": "refute",
+     "argument": "Round two, and I re-derived every figure myself instead of accepting round one's. Rebuilding the source-to-print map from the shipped contents yields 25 entries under a uniform shift of two: the opening fiction prints third, the arcane and divine spell lists print as 13 and 14, the bestiary as 22, this file as 25. Set against that map, the declaration's hand-typed references fail in more places than were reported. The spell bullet's pair points at the talent chapter and the magic chapter; the monster bullet's number points at advancement, which ships no creature entries at all; the parenthetical file token names no chapter a reader of the book can find. So the count is three wrong printed numbers across two bullets plus a fourth unresolvable token, where round one logged only the pair. I also refute the folio attribution attached to those lines: they render on the page whose footer reads 384, not 381, and the folio claimed in its place carries licence sections four through thirteen with no chapter reference on it. What I could not fault stands as measured: the licence body is complete (fifteen sections, eight definition letters, the three-line closing notice), and the contents entry, the chapter ornament and the figure prefix all agree that the talent chapter is eleven, so no numbering the book prints lands the cited pair on the spell lists. This extends the round-one ledger rather than overturning it; nothing here contradicts f-001 or f-002.",
+     "confidence": 0.88,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "pdftotext -layout (printed table of contents, Heroes-of-Legend.pdf p.4)",
+       "claim": "The shipped contents assigns the arcane spell chapter number 13 and the divine spell chapter number 14."
+      },
+      {
+       "source": "pdftotext -layout (printed table of contents, Heroes-of-Legend.pdf p.4)",
+       "claim": "The same contents prints number 11 against the talent chapter and 12 against the magic chapter, so the spell bullet's two numbers land on chapters holding no spell entries."
+      },
+      {
+       "source": "pdftotext -layout (chapter opening, Heroes-of-Legend.pdf p.145)",
+       "claim": "The talent chapter opens under the ornament XI and its art placeholder is prefixed 11, both agreeing with the contents entry."
+      },
+      {
+       "source": "pdftotext -layout (chapter openings, Heroes-of-Legend.pdf p.176 and p.196)",
+       "claim": "The two spell-list chapters open under the ornaments XIII and XIV, which is where the clause's material actually sits."
+      },
+      {
+       "source": "pdftotext -layout (chapter opening, Heroes-of-Legend.pdf p.291)",
+       "claim": "Printed number 20 is the advancement chapter, which carries no monster stat blocks, so the monster bullet names the wrong book division."
+      },
+      {
+       "source": "23-license:76",
+       "claim": "The parenthetical names the opening fiction by a source-file token rather than by any chapter designation the printed book uses."
+      },
+      {
+       "source": "pdftotext -layout (chapter opening, Heroes-of-Legend.pdf p.28)",
+       "claim": "The opening fiction is printed as chapter 3, and no chapter carries the token the declaration uses, so that reference resolves to nothing."
+      },
+      {
+       "source": "23-license:77",
+       "claim": "The spell bullet's own carve-out shows its target is the two spell lists, not the chapters its printed numbers resolve to."
+      },
+      {
+       "source": "pdftotext (printed page 384)",
+       "claim": "All three chapter citations of the declaration render on the folio whose footer reads 384, and the range reference appears there too."
+      },
+      {
+       "source": "pdftotext (printed page 381)",
+       "claim": "The folio named in the circulating attribution carries licence sections 4 through 13 and cites no chapter of the book at all."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Every Arabic chapter number in the declaration equals the source-file prefix of the chapter it describes, and the printed number is that prefix plus 2, because two front-matter entries precede the numbered chapters."
+      },
+      {
+       "source": "pdftotext -bbox (printed table of contents, p.4 and p.8)",
+       "claim": "The contents margin column prints a chapter number one higher than the entry's own number on all 25 entries, while the section numbers in that same column match the entry, so under no numbering the book prints can the cited pair reach the spell lists."
+      }
+     ]
+    }
+   ]
+  },
+  "t-02": {
+   "positions": {
+    "Speaker E": "refute",
+    "Speaker F": "refute",
+    "Speaker G": "support"
+   },
+   "findings": [
+    {
+     "id": "f-005",
+     "round": 1,
+     "speaker": "Speaker E",
+     "stance": "refute",
+     "argument": "The book's voice holds across all three authored sections, every name the reserved list asserts is a name the book still uses, and the lead-in at 23-license:74 does not restate the principle at :81. What fails is the boundary between the two declarations. The reserved list at :59-68 mirrors three of the name categories its own cited definition protects (character names :62, class names and descriptions :65, ancestry and culture names :66) and then stops: spell names are never claimed as reserved, even though the release grant drops spell names out of the license at :77. That carve-out carries two exclusions; the flavor-text half is restated on the reserved side at :64, the spell-name half appears nowhere in this chapter. So material the book ships and excludes from the grant is left undescribed on the reserved side, while the front-matter residual sentence at 00-front-matter:19 reserves it under a wider boundary again - three statements, two boundaries for the same category. Impact: a licensee cannot resolve from the designation whether one given spell name is reserved or merely unlicensed, and the identification the list invokes is incomplete against its own definition. Minimal edit: one reserved-list bullet for spell names; the same reasoning reaches magic item and ability names. Naming otherwise clean: Kael, Lyra, Roric, Zara, Makeva Quickfoot and Ser Aldric all appear in the chapters, and the nine class names at :65 match the class chapter's headings.",
+     "confidence": 0.62,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "23-license:77",
+       "claim": "The spell bullet removes spell names from the material the book releases, yet the reserved list never claims that category."
+      },
+      {
+       "source": "23-license:64",
+       "claim": "The other exclusion in that same clause is echoed on the reserved side, so the author closed one half of the carve-out and left the other half open."
+      },
+      {
+       "source": "23-license:17",
+       "claim": "Section 1(e), the definition the reserved list invokes, names spells among the protected classes; the list reproduces its character clause but not its spell clause."
+      },
+      {
+       "source": "23-license:62",
+       "claim": "The list enumerates the name categories it does claim, and its character bullet ends at creatures, locations and organizations with no spell bullet to follow."
+      },
+      {
+       "source": "11-arcane-spells.qmd:168",
+       "claim": "The arcane chapter is a catalogue of individually named spells, so the unclaimed category is populated material rather than a hypothetical one."
+      },
+      {
+       "source": "12-divine-spells.qmd:111",
+       "claim": "The divine chapter names its spells the same way, so the gap spans both spell lists."
+      },
+      {
+       "source": "00-front-matter:19",
+       "claim": "The front matter reserves whatever the mechanics grant does not reach, describing the same material under a wider boundary than the reserved list does."
+      },
+      {
+       "source": "13-combat.qmd:456",
+       "claim": "The named sample characters the reserved list cites are names the book still uses, so the list is short rather than stale."
+      },
+      {
+       "source": "05-classes.qmd:47",
+       "claim": "The nine class names carried by the reserved list match the class chapter's own section headings."
+      }
+     ]
+    },
+    {
+     "id": "f-006",
+     "round": 1,
+     "speaker": "Speaker F",
+     "stance": "refute",
+     "argument": "A designation has to answer the one question it exists to answer, and after my own count of this chapter it does not. The reproduction is not the problem: I read 23-license:13-51 as a copy and counted the numbered sections one through fifteen in order, the section-1 definition letters one through eight (a) to (h) in order with nothing skipped, and the closing notice block at :45-51 with three copyright lines \u2014 so no piece of the OGL 1.0a text is missing and no word of the licence body needs touching. The defect is in the chapter's own two lists, which do not cover the same material. The Open Game Content Declaration withholds spell names from what it licenses at :77, yet the product-identity enumeration at :59-68 never mentions spells at all; its eight items at :61-68 are the book title and identifying marks, proper names of characters, creatures, places and organizations, artwork, narrative elements, class names and descriptions, ancestries and cultures, trade dress and layout, and two voice descriptors. The chapter pairs its other carve-outs with a reservation, which is what makes this an omission rather than a policy: the same spell bullet withholds flavor text, and the narrative item at :64 names chapter epigraphs and flavor text outright, while the monster bullet's excluded creature names are matched by the proper-names item at :62. Exactly one withheld category is therefore identified nowhere. This is not a wording quibble. The licence treats product identity as material its owner has identified, so a name the grant withholds and the reservation list omits is neither licensed nor clearly reserved, and a licensee can read the silence as an absence of claim; the chapter's own closing principle at :81, which keeps proper names reserved, pushes the opposite way. The same hole swallows the Disciplines, whose names :76 takes wholesale as open content while :81 holds proper names back. Smallest closing fix: one added item in the list at :68 naming the withheld creative names (spells, Disciplines, talents, abilities, magic items). Scope is chapter-local, one clause, and the licence body is untouched.",
+     "confidence": 0.6,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "23-license",
+       "claim": "Context for what is NOT the defect: the reproduced licence is structurally complete. Numbered sections 1 through 15 run in order across lines 17-51, the section 1 definitions carry letters (a) through (h) in order with no gap, and the closing COPYRIGHT NOTICE block at lines 45-51 holds three lines (the Wizards licence line, an SRD 5.1 line, and the book's own line)."
+      },
+      {
+       "source": "23-license",
+       "claim": "The chapter's operative statement of what it reserves is an eight-item enumeration at lines 61-68: the book title and identifying marks, character/creature/place/organization proper names, artwork, narrative elements, class names and descriptions, ancestries and cultures, trade dress and layout, two voice descriptors. Spells and spell names are absent from every item."
+      },
+      {
+       "source": "23-license",
+       "claim": "The Open Game Content Declaration's spell bullet removes spell names from the material it licenses at line 77, so the chapter withholds a category by name while its reservation list never reserves it."
+      },
+      {
+       "source": "23-license",
+       "claim": "The other half of that same carve-out is covered: the narrative bullet at line 64 expressly claims flavor text and the chapter epigraphs, so the exclusion and the reservation agree on one category and diverge on the other."
+      },
+      {
+       "source": "23-license",
+       "claim": "The monster bullet's exclusion at line 78 (setting-specific creature names and descriptions) is matched by the proper-names bullet at line 62 claiming creatures, locations and organizations \u2014 evidence that this chapter normally pairs a carve-out with a reservation, which the spell bullet does not."
+      },
+      {
+       "source": "23-license",
+       "claim": "The grant takes the whole Discipline system as open content at line 76, while the closing principle at line 81 reserves proper names generally, so Discipline names sit in the same unresolved state as spell names."
+      },
+      {
+       "source": "quarto-book/chapters/11-arcane-spells.qmd",
+       "claim": "The withheld category has real subject matter: the arcane spell chapter titles each spell as a proper name (line 168 onward), so the unnamed reservation of spell names is not an empty case."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Because the licence conditions product identity on the owner having identified it, a name the grant withholds but the reservation list omits is left in limbo: a licensee may treat the omission as no claim at all, which is a live exposure for the author rather than a stylistic gap."
+      }
+     ]
+    },
+    {
+     "id": "f-007",
+     "round": 1,
+     "speaker": "Speaker G",
+     "stance": "support",
+     "argument": "Judged on the built artifact, folios 379-386 of the current Heroes-of-Legend.pdf, this chapter shows no layout defect, so the ballot supports it on the render and convention dimension only and re-files nothing from the taken designation, attribution or spell-name findings. Page fill per folio, measured from the PDF word boxes as the lowest body baseline divided by the 72-720pt text band: 71.5, 97.3, 98.1, 31.7, 34.8, 51.2, 16.8 and 27.6 percent. No folio in the range is content-free, so the repaired doubled break left no dead page here; the sparsest folio carries a short section and is merely underfilled, and a book-wide scan shows the content-free folios this book does own sit elsewhere, not in this chapter. The five section heads open folios 380, 383, 384, 385 and 386 at the top of their pages, in the order the printed contents lists them, and they take the same ornamented, unnumbered level-2 form as the sibling glossary chapter's heads, the 25.1 to 25.5 numbers appearing only on the contents rows. The reproduction reaches every numbered section from one through fifteen and every lettered definition from a through h, closing on its three-line notice block with no clipped tail, and no body line escapes the 82.8 to 532.0pt measure the rest of the book shares. The contact line sets the address in full on one baseline and its link annotation resolves to that same address; the opener's figure block and the two centred rule ornaments match a sibling opener and the front-matter dividers; the folios run consecutively with the standard running head and a centred folio. One number I measured belongs to a known book-wide front-matter counter family and is reported in my reply rather than filed.",
+     "confidence": 0.78,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "pdftotext -bbox Heroes-of-Legend.pdf, folios 379-386",
+       "claim": "Per-folio fill, taken as the lowest body baseline over the printable band, is 71.5, 97.3, 98.1, 31.7, 34.8, 51.2, 16.8 and 27.6 percent, and every one of the eight folios carries text; the sparsest, folio 385, still holds a section head plus two attributed bullets and an opening and closing sentence."
+      },
+      {
+       "source": "pdftotext -bbox Heroes-of-Legend.pdf, all 386 pages",
+       "claim": "A book-wide sweep for pages with no body text returns exactly two, physical pages 2 and 107, both outside the chapter under review, so the content-free-folio failure mode is real in this book and absent from folios 379-386."
+      },
+      {
+       "source": "pdftotext -layout Heroes-of-Legend.pdf, folios 379-386",
+       "claim": "The five level-2 heads sit at the top of folios 380, 383, 384, 385 and 386 with no head stranded at a page foot, and their order matches the printed contents listing, which pairs each row with the same folio."
+      },
+      {
+       "source": "pdftotext -layout Heroes-of-Legend.pdf, folio 380 and sibling folio 350",
+       "claim": "The chapter's heads print in the same ornamented, unnumbered level-2 form as the sibling glossary chapter's heads, so the hierarchy reads consistently against a sibling rather than diverging; the decimal numbering is carried by the contents rows alone, on this chapter and on the sibling alike."
+      },
+      {
+       "source": "pdftotext -layout Heroes-of-Legend.pdf, folios 380-382",
+       "claim": "The reproduction runs through every numbered section from one to fifteen and every lettered definition from a to h, ending on its three-line notice block, so no tail was dropped; all its lines stay inside the 82.8 to 532.0pt block that sibling body pages 350 and 363 also use."
+      },
+      {
+       "source": "qpdf decompression and pdftotext -bbox Heroes-of-Legend.pdf, folio 386",
+       "claim": "The address is set in full on a single baseline at the end of its sentence, unhyphenated and unbroken, and the page's link annotation carries the identical address as its target."
+      },
+      {
+       "source": "pdftotext -layout Heroes-of-Legend.pdf, folios 379, 382 and 386, against sibling folio 348",
+       "claim": "The opener prints the same ornamented chapter block, placeholder art and caption pair as a sibling opener, and the two horizontal rules render as the same small centred lozenge used by the front matter and the opening fiction, each centred in the measure."
+      },
+      {
+       "source": "pdfminer per-character font extraction, Heroes-of-Legend.pdf, folios 380-382",
+       "claim": "The labelled section runs inside the reproduction are drawn in the bold serif while their text is the regular serif, so each label separates from its own body and from the running definitions block; no stray glyph or orphaned ornament follows any head."
+      }
+     ]
+    }
+   ]
+  },
+  "t-03": {
+   "positions": {
+    "Speaker C": "refute",
+    "Speaker B": "support"
+   },
+   "findings": [
+    {
+     "id": "f-003",
+     "round": 1,
+     "speaker": "Speaker C",
+     "stance": "refute",
+     "argument": "The attributions section advertises an enumeration of the typefaces, programs and assets the product relies on, and then names only two software tools; not one typeface appears, although its own lead-in says fonts are listed. Measured against the artifact: the built PDF embeds eleven faces across seven families (Alegreya, Almendra, Crimson Text, DejaVu Sans, IM Fell English, Libertinus Serif, Noto Color Emoji), every one flagged embedded, and the source tree additionally ships a vendored Typst package, beautitled 0.2.7 by Nathan Scheinmann under the MIT License, whose notice the same list omits. The section's closing pointer sends the reader to the source tree for the components' full licence texts, but the tracked repository carries no top-level licence file and no typeface licence text at all; the only licence it does carry is the vendored package's own. The defect is the under-inclusive list: components the book plainly uses and ships are absent from a section whose declared purpose is to name them, and there is no compensating route by which a reader reaches the omitted licences. What each omitted component's licence actually compels in the document body is a question of law, but the section's own claim to list fonts is false as it stands, and that claim is checkable without any legal opinion.",
+     "confidence": 0.7,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "23-license",
+       "claim": "The section opens by declaring an intent to inventory typefaces alongside tools, then delivers two bullets that are both publishing software; no font family is named in the section."
+      },
+      {
+       "source": "pdffonts",
+       "claim": "The built PDF carries eleven embedded font faces drawn from seven families, none of which is named anywhere in the chapter; the families are Alegreya, Almendra, Crimson Text, DejaVu Sans, IM Fell English, Libertinus Serif and Noto Color Emoji, each reported as embedded."
+      },
+      {
+       "source": "quarto-book/_extensions/heroes-of-legend/beautitled/VENDOR.md",
+       "claim": "The vendored component is beautitled 0.2.7, authored by Nathan Scheinmann, licensed MIT, imported into the book's style layer from the extension tree; it is a third-party component the book ships and it is absent from the attribution list."
+      },
+      {
+       "source": "quarto-book/_extensions/heroes-of-legend/beautitled/LICENSE",
+       "claim": "The vendored package's licence file is the MIT License carrying a copyright line for Nathan Scheinmann and requiring the notice to travel with copies or substantial portions of the software."
+      },
+      {
+       "source": "23-license",
+       "claim": "The section promises the combined components' full licence texts are retrievable from the source tree, but the tracked repository has no top-level licence file and no font licence file; the sole tracked licence text is the one belonging to the vendored package, so the promise does not reach the typefaces the lead-in advertised."
+      }
+     ]
+    },
+    {
+     "id": "f-009",
+     "round": 2,
+     "speaker": "Speaker B",
+     "stance": "support",
+     "argument": "Attack on the round-1 attributions finding, which rests on two premises: that the book ships the typefaces it embeds, and that the components the list omits carry an attribution duty the section fails. Both premises fail against the tree. The vendored copy of the third-party typesetting package carries its own notice file beside the source and a provenance note recording author, upstream, version and licence, and both files are tracked, so the notice condition is met wherever copies of that software exist; the built book is a document produced with the package, not a copy of it. The typefaces are a different case. The tree holds no font binaries at all, no fonts directory exists, and the design layer's own comment tells the builder to install the faces system-wide or to drop them into a directory that is not there, so nothing in the repository redistributes typeface software and there is no font licence text the section was ever obliged to reproduce. The families the artifact does report include two that appear in no declared font stack anywhere in the repository, so they entered as the typesetter's glyph fallback rather than as faces the book chose; counting those among the components the book ships inflates the omission the finding measures. Where the round-1 finding survives I record it plainly: the lead-in does advertise fonts, and no family name is printed anywhere in the book, so that sentence over-promises relative to its two bullets. That is a wording tidy, and the source repository the section points readers to is public, so the pointer is actionable rather than empty. Net position: no attribution duty is breached, the section is a scope choice plus one word of tidying, and the finding's duty-and-shipping framing overstates what the artifact compels.",
+     "confidence": 0.58,
+     "rebutting": [
+      "f-003"
+     ],
+     "evidence": [
+      {
+       "source": "quarto-book/_extensions/heroes-of-legend/style.typ",
+       "claim": "The design layer expects the build machine to supply the typefaces: it documents a system install or a local drop folder, and neither that folder nor any font binary exists anywhere in the tree."
+      },
+      {
+       "source": ".github/issues/fix-104-visual-identity.md",
+       "claim": "The project's own tracked record classes the design families as OFL, which is the licence family whose text governs what embedding a typeface in a document obliges the publisher to do."
+      },
+      {
+       "source": "reasoning",
+       "claim": "The OFL text exempts documents: its notice duty attaches to copies of the font software, not to a book that embeds it, so no document-level font attribution is compelled for the families the book sets in."
+      },
+      {
+       "source": "quarto-book/_extensions/heroes-of-legend/beautitled/LICENSE",
+       "claim": "The vendored package's notice condition binds copies and substantial portions of the software itself, which is where the adjacent tracked notice file sits."
+      },
+      {
+       "source": "quarto-book/_extensions/heroes-of-legend/beautitled/VENDOR.md",
+       "claim": "The package is vendored verbatim with its licence file and a note recording author, version, upstream and licence, so its provenance and notice travel with the code rather than only with the book."
+      },
+      {
+       "source": "pdffonts",
+       "claim": "The artifact reports two families that no declared stack in the repository mentions, so those faces were substituted by the typesetter for missing glyphs instead of being chosen typefaces of the book."
+      },
+      {
+       "source": "23-license",
+       "claim": "The surviving half of the round-1 finding: the lead-in advertises fonts and its two bullets name software only, and no family name is printed anywhere in the built book."
+      },
+      {
+       "source": "README.md",
+       "claim": "The source repository the section points readers to is public, so the pointer has a referent a reader can act on rather than leading nowhere."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "sealed_rulings": [],
+ "instruction": "You are a blind judge. You see ONLY the arguments as presented below. You have no access to, and no knowledge of, the underlying problem statement or sources. Speakers are anonymized: you see 'Speaker A', 'Speaker B', etc. Their roles, identities, and models are unknown and must not be inferred; weigh each argument on its merits alone. Rule on each contested topic. Output one ruling JSON object per topic, exactly matching the council ruling schema."
+}

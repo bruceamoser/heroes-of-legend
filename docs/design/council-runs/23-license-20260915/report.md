@@ -1,0 +1,18 @@
+# Council report — hol-rulebook
+
+- Run dir: /home/bmoser/.hermes/councils/hol-rulebook/runs/20260915-0250
+- Rounds elapsed: 2
+- Findings: 10
+- Rulings: r-001, r-002, r-003
+- Final verdict: Direct a single bounded repair pass over 23-license.qmd and its twin sentence in 00-front-matter.qmd, executed strictly within sealed rulings r-001, r-002 and r-003. (1) On the designation: re-point every hand-typed chapter reference to the printed numbering the shipped book uses, so that the spell bullet's cited pair becomes the printed spell chapters, the bestiary bullet's number becomes the printed stat-block chapter, the parenthetical file token becomes the printed opening-fiction chapter, and the front-matter pointer becomes the printed licence chapter. Re-scope the two range statements deliberately rather than by digit swap, deciding on the record which chapters the grant is to include. Reserve spell names on a clause of their own, so the reservation does not depend on the misdirected carve-out surviving. (2) On the declarations: extend the Product Identity reservation list additively with one explicit item claiming the withheld name category, stated in the chapter's own terms; do not rewrite the reproduced licence body and do not change the layout. (3) On attributions: do not treat the unlisted typefaces or the vendored package as a breached duty; confine the repair to the section lead-in, which must either name the families actually set or drop its promise of a font inventory, and make any statement about what the repositories hold match the tree as it is. The chapter is not publishable until items 1 and 2 land; item 3 is a wording repair. Hand the whole pass to the author as one chartered edit, and do not re-open the cleared axes.
+
+## Heterogeneity budget
+
+- judge: config default (no charter override)
+- config default: author, contrarian, editor-in-chief, game-architect, layout-expert, librarian, researcher
+- decorrelation: single model (all roles on the same model; correlated-error risk untested in this run)
+
+## Summary
+
+Direct a single bounded repair pass over 23-license.qmd and its twin sentence in 00-front-matter.qmd, executed strictly within sealed rulings r-001, r-002 and r-003. (1) On the designation: re-point every hand-typed chapter reference to the printed numbering the shipped book uses, so that the spell bullet's cited pair becomes the printed spell chapters, the bestiary bullet's number becomes the printed stat-block chapter, the parenthetical file token becomes the printed opening-fiction chapter, and the front-matter pointer becomes the printed licence chapter. Re-scope the two range statements deliberately rather than by digit swap, deciding on the record which chapters the grant is to include. Reserve spell names on a clause of their own, so the reservation does not depend on the misdirected carve-out surviving. (2) On the declarations: extend the Product Identity reservation list additively with one explicit item claiming the withheld name category, stated in the chapter's own terms; do not rewrite the reproduced licence body and do not change the layout. (3) On attributions: do not treat the unlisted typefaces or the vendored package as a breached duty; confine the repair to the section lead-in, which must either name the families actually set or drop its promise of a font inventory, and make any statement about what the repositories hold match the tree as it is. The chapter is not publishable until items 1 and 2 land; item 3 is a wording repair. Hand the whole pass to the author as one chartered edit, and do not re-open the cleared axes.
+

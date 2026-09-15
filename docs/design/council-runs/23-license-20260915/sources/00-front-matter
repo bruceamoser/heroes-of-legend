@@ -1,0 +1,55 @@
+```{=typst}
+Version 0.1.0 (Draft Build {{< meta date >}})
+
+#horizontalrule
+
+_Written by:_ Bruce A. Moser
+
+_Playtesters:_ TBD
+
+_Layout and Design:_ TBD
+_Cover Art:_ TBD
+_Interior Art:_ Bruce A. Moser
+_Editing:_ TBD
+
+#horizontalrule
+
+© 2024-2026 Bruce A. Moser. All rights reserved.
+
+The game mechanics, rules systems, and procedures presented in Chapters 1 through 22 are Open Game Content, and they may be Used only under and in terms of the Open Game License Version 1.0a set out in Chapter 23. All other material in this publication remains the exclusive property of the author and is all rights reserved.
+
+No part of this publication may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the author, except for brief quotations in reviews, the Open Game Content designated above, and certain other noncommercial uses permitted by copyright law.
+
+ISBN: [To be assigned]
+
+First printing: TBD
+Printed in TBD
+
+
+#pagebreak()
+
+#image("assets/images/page001-img001.png", width: 60%)
+
+_Placeholder for final art._
+#pagebreak()
+
+== Credits
+
+*Game Design & Development:* Bruce A. Moser
+
+*Writing:* Bruce A. Moser
+
+*Interior Illustrations:* Bruce A. Moser
+
+*Playtest Coordination:* TBD
+
+*Additional Design Contributions:* TBD
+
+*Special Thanks:* The playtest groups who broke the game in ways we never expected and made it better every time. The convention DAs who ran _Heroes of Legend_ for strangers and came back with stories. And the players who looked at a rule and said, "What if I tried this instead?" You are why this book exists.
+
+#pagebreak()
+
+== Dedication
+
+_For everyone who ever rolled dice in a basement, a kitchen, a convention hall, or a voice call with friends a thousand miles away. The table is wherever you bring it._
+```
