@@ -137,7 +137,8 @@ Becomes:
    normalization (Quarto applies to both).
 3. `git diff` must touch ONLY your one `.qmd` file.
 4. `python3 quarto-book/check-native-typst.py` -> **exit 0**. This is the repo-side native-Typst
-   gate (issue #424): exactly one `{=typst}` fence per file, the `# H1` the first non-blank line
+   gate (issue #424): exactly one `{=typst}` fence per file **and every fence CLOSED by a bare
+   closing fence line after it**, the `# H1` the first non-blank line
    above the fence, no markdown remnants (`**bold**`, `![]()`, `[]()`, `:::`, content
    shortcodes, pipe tables), every `#table(` carrying `outlined: false`, and every `#callout(`
    body in the NAMED `body: [ ... ]` form. Run it before opening any book PR; it catches the

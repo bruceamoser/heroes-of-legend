@@ -21,6 +21,17 @@ echo ""
 echo "=== Heroes of Legend — Core Rulebook Build (Quarto + Typst) ==="
 echo ""
 
+# ── Structural gate (issue #424, MIGRATION-SPEC acceptance item 4) ────────────
+# Runs BEFORE the render, and before _output is wiped, so a structural defect
+# fails loudly without destroying the previous PDF. Covers what a successful
+# render hides: ch18 (2026-09-14) shipped with its {=typst} block never closed,
+# so the PDF printed the chapter as its own source, and the build was green.
+# `python3 check-native-typst.py --selftest` proves the gate can fail.
+
+echo "  Checking native-Typst structure..."
+python3 "$REPO_ROOT/check-native-typst.py"
+echo ""
+
 # ── Clean output ──────────────────────────────────────────────────────────────
 
 rm -rf "$OUTPUT_DIR"
