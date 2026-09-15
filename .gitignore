@@ -17,3 +17,6 @@ Thumbs.db
 # Tooling
 tools/
 .playwright-mcp/
+
+/.quarto/
+**/*.quarto_ipynb

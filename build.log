@@ -1,0 +1,9 @@
+
+=== Heroes of Legend — Core Rulebook Build (Quarto + Typst) ===
+
+  Checking native-Typst structure...
+OK - 26 files: one {{=typst}} fence each (closed), H1 above the fence, no markdown remnants, all tables outlined: false, all callout bodies named.
+
+  Building core rulebook with Quarto + Typst...
+
+ERROR: PDF was not produced. Check output above for errors.
