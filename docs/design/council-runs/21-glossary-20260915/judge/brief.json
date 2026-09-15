@@ -1,0 +1,169 @@
+{
+ "assembled_at": "2026-09-15T02:15:15Z",
+ "wall": {
+  "ngram_n": 10,
+  "reject_at": 1
+ },
+ "contested_topics": {
+  "t-01": {
+   "positions": {
+    "Speaker A": "refute",
+    "Speaker C": "refute"
+   },
+   "findings": [
+    {
+     "id": "f-001",
+     "round": 1,
+     "speaker": "Speaker A",
+     "stance": "refute",
+     "argument": "[21:115] teaches a protection law the book no longer has. The entry names armour as the sole source, forbids any addition, and freezes one ceiling of three across every tier. The chapter that owns the mechanic sums armour's class value with talent bonuses at [16:23] and lifts the limit band by band at [16:25]: three at Novice, four at Adept, six at Master. Iron Skin's line at [09:48] prints +2 DR on top of armour, and the book's own worked totals are built that way. Two numbers break. Roric's leather (1) plus Iron Skin (2) is DR 3 at [16:86], which the gloss's armour-only reading cuts to 1. A Master hero in heavy armour (3) plus Iron Skin (2) reaches 5, inside the ceiling of six, but the gloss caps him at 3 and deletes 2 points of printed protection. The frozen cap is not chapter-local either: it stands again at [22:398], so the repair reaches that file, and the owning home 16 plus this gloss both need the corrected wording.",
+     "confidence": 0.88,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "21-glossary",
+       "claim": "The DR entry confines reduction to armour, rejects every other contributor, and fixes one constant cap of three for all levels."
+      },
+      {
+       "source": "16-armor-shields.qmd",
+       "claim": "The owning chapter combines armour's weight-class value with talent DR and makes the ceiling rise with the band rather than staying constant."
+      },
+      {
+       "source": "09-talents-abilities.qmd",
+       "claim": "Iron Skin's Novice rank adds two points of DR on top of armour, which is precisely the stacking the gloss forbids."
+      },
+      {
+       "source": "16-armor-shields.qmd",
+       "claim": "The chapter's worked example gives a Novice hero in leather with Iron Skin a total of three, which the armour-only reading would reduce to one."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Worked arithmetic: leather 1 plus Iron Skin 2 reaches 3 at Novice under the band ceiling, while the gloss's armour-only reading yields 1, a loss of 2. Heavy 3 plus Iron Skin 2 reaches 5 at Master, legal under the ceiling of 6, but the gloss's constant cap yields 3, again a loss of 2. The flat cap of three happens to coincide with the Novice ceiling only, so it reads correct at Level 1 and turns wrong from Adept upward."
+      },
+      {
+       "source": "22-reference-sheets.qmd",
+       "claim": "The reference sheets repeat the same constant cap for a hero of any level, so the retired law survives outside this chapter as well."
+      }
+     ]
+    },
+    {
+     "id": "f-004",
+     "round": 1,
+     "speaker": "Speaker C",
+     "stance": "refute",
+     "argument": "The chapter hands the book's locked resolution term to the wrong concept. [21:221] titles its entry with a compound name that occurs nowhere else in the book, and the parentheses then declare that the word behind it names a monster-difficulty measure, glossed as the party level at which the creature is a fair fight. The law reads otherwise: convention eight makes that word the second half of the core resolution, and convention five lists it among the handful of numeric modifiers that survived the Boon/Bane purge. The owning chapter states the shape once for opposed contests at [06:71] and again as a defense-roll bullet at [06:109], where a stat block prints the identical figure as a positive number. So the word carries a fixed, law-level sense, and the single address a reader has for it in the chapter that claims to define everything teaches a different one. Every use of the word inside this chapter, five of them, sits in the two rating entries; not one is the penalty, and a reader arriving from [13:111], [16:98] or [14:110] leaves with nothing to subtract. The count settles the repair. Across nine chapter files the unadorned word appears 104 times; the compound label appears twice, both times here. The smaller side is this entry's invented label, so the rename happens in this chapter, and the canon home is 06-core-resolution for the sense the book actually rolls with, while the encounter-budget sense already carries its own name in the bestiary's encounter table at [20:650], mirrored at [22:331]. Retitle the entry to the book's own word and give it the penalty, and send the party-level measure to the bestiary rather than restating it here. A third bearer of the word sits at [05:681], a Protector maneuver with the same name, which this review should see too.",
+     "confidence": 0.82,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "21-glossary",
+       "claim": "The entry invents a compound title, and its parenthetical assigns the book's locked word to a monster-difficulty sense glossed as the party level for which the creature is an even fight."
+      },
+      {
+       "source": "06-core-resolution.qmd",
+       "claim": "The owning chapter fixes the word as the value the acting hero subtracts, set by the target's own ability, with the target silent."
+      },
+      {
+       "source": "06-core-resolution.qmd",
+       "claim": "The defense-roll bullet names the word a penalty the DA announces, and records that a creature's stat block prints that figure positively."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Corpus count: the unadorned word appears 104 times across nine chapter files, while the compound label appears twice and only inside this chapter, so the smaller side is this entry and the repair is local."
+      },
+      {
+       "source": "20-bestiary.qmd",
+       "claim": "The encounter-budget sense of the word already has its own label in the bestiary's table, mirrored in the reference sheets, so it needs no restatement in this chapter."
+      },
+      {
+       "source": "05-classes.qmd",
+       "claim": "A Protector Novice maneuver carries the same name as the locked resolution term, the same word doing a third job in another chapter."
+      }
+     ]
+    }
+   ]
+  },
+  "t-02": {
+   "positions": {
+    "Speaker B": "refute"
+   },
+   "findings": [
+    {
+     "id": "f-002",
+     "round": 1,
+     "speaker": "Speaker B",
+     "stance": "support",
+     "argument": "The attribute-scaled entry at [21:47] restates the rule its owning chapter states at [08:230], and both sites print the same upper-tier bases, Adept 3/6/9 and Master 6/12/18. Run that subtraction against the table the owning chapter prints at [08:210-212]: the Adept row 5/8/11 less three is 2/5/8, and the Master row 7/10/14 less three is 4/7/11, so neither printed triple survives the rule that carries it. The printed pair is the residue of the retired bands: 6/9/12 less three is 3/6/9, and 9/15/21 less three is 6/12/18. A grep of every chapter file in the book shows that pair at exactly two sites, [21:47] and [08:230], so the defect is the numbers rather than the rule, and both files owe the corrected 2/5/8 and 4/7/11 keyed to the canon table at [08:210-212]. Only the Novice clause needs no repair, since its floor of 1/2/3 is the sanctioned exception the rule names. Agreement between the two sites is not verification here: they agree on a pair that the current rows no longer produce.",
+     "confidence": 0.87,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "21-glossary",
+       "claim": "The attribute-scaled entry states the subtraction rule and prints the same two upper-tier base triples as its home chapter."
+      },
+      {
+       "source": "08-disciplines.qmd",
+       "claim": "The chapter that owns the bands prints the current renumbered rows in its table and repeats the identical stale pair in the paragraph beneath it."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Worked subtraction against the current table: the Adept row 5/8/11 gives 2/5/8 and the Master row 7/10/14 gives 4/7/11, neither of which is printed."
+      },
+      {
+       "source": "reasoning",
+       "claim": "The printed triples are exactly what the retired rows yield under the same subtraction, which dates them to before the renumbering."
+      },
+      {
+       "source": "reasoning",
+       "claim": "A grep across every chapter file finds the pair at two locations only, the glossary entry and its owning chapter, so the repair reaches both."
+      },
+      {
+       "source": "21-glossary",
+       "claim": "The damage-budget entry in this same chapter prints the renumbered bands correctly, which is the table the attribute-scaled formula must key to."
+      }
+     ]
+    },
+    {
+     "id": "f-007",
+     "round": 2,
+     "speaker": "Speaker B",
+     "stance": "refute",
+     "argument": "Round one counted this chapter's Discipline entry one name short of the roster it restates, then parked the point because the surplus name has no card behind it. Recounting both sides from the files settles it. The entry at [21:67] hangs a parenthetical member list on each of nine type names; summing those members by hand and by script yields twenty-three (four elemental, six weapon, two defense, two primal, one arcane, two divine, two esoteric, two subterfuge, two knowledge). The taxonomy at [08:34-58] carries the identical nine types but places three rows under the esoteric head, the surplus being Fate, and the sentence beneath that table asserts twenty-four. Twenty-three against twenty-four, a delta of exactly one named member.\n\nThe absent card does not acquit this entry, and reading it that way inverts the ownership rule. A dedicated commit inserted the name into the taxonomy on 2026-09-13, after this chapter's last review, which is precisely the residue class this run exists to catch. Whether a card exists decides nothing about which roster is current: a glossary originates no mechanic, so the disciplines chapter owns the list, and a gloss printing a different list is stale by definition. The missing card is a hole in the card library and in the nine class cost tables, not a reason for this entry to print a shorter list than its owner, and since the reference sheets' catalog repeats the short list, the repair is not unique to this file.\n\nWhat a reader loses is a lookup, not a rule: nothing yet prices, gates or requires Fate, so no build breaks today. That bounds the fix. Least-cost and chapter-local, add the third esoteric name here so the entry mirrors its owner; the deeper question, whether the book should ship a Discipline nobody can buy, belongs to the disciplines chapter, the class tables and the card library, not to a glossary.",
+     "confidence": 0.8,
+     "rebutting": [
+      "f-001",
+      "f-002"
+     ],
+     "evidence": [
+      {
+       "source": "21-glossary",
+       "claim": "The entry attaches a parenthetical membership list to each of its nine type names, and the esoteric head carries only Mind and Summon, so the enumerated total comes to twenty-three."
+      },
+      {
+       "source": "08-disciplines.qmd",
+       "claim": "The owning chapter's taxonomy adds a third row beneath the esoteric head, and the prose sentence under that table states the roster size as twenty-four."
+      },
+      {
+       "source": "05-classes.qmd",
+       "claim": "Every one of the nine class cost tables prices the same twenty-three names and carries no row for the surplus member, so no class can currently buy it and its absence from this glossary withholds no purchasable option."
+      },
+      {
+       "source": "22-reference-sheets.qmd",
+       "claim": "The reference sheets' Discipline Catalog repeats the same nine types with the same short esoteric membership, so the truncated list appears in more than one mirror and the repair reaches that file too."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Verification of the round-one DR finding: the armour-only residue is not confined to the three sites that finding named. A fourth firm instance sits in the reference sheets' shield table, and two shorthand armour-only statements also drop talent DR. The finding's defect holds, but its population undercounts."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Verification of the round-one attribute-scaled finding: subtracting the three-point offset from the retired upper-tier rows reproduces the printed pair exactly, while running the same subtraction against the current rows gives two/five/eight and four/seven/eleven. The printed numbers are the retired residue and the finding's figures hold."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "sealed_rulings": [],
+ "instruction": "You are a blind judge. You see ONLY the arguments as presented below. You have no access to, and no knowledge of, the underlying problem statement or sources. Speakers are anonymized: you see 'Speaker A', 'Speaker B', etc. Their roles, identities, and models are unknown and must not be inferred; weigh each argument on its merits alone. Rule on each contested topic. Output one ruling JSON object per topic, exactly matching the council ruling schema."
+}

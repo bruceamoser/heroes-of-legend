@@ -1,0 +1,208 @@
+{
+ "council": "hol-rulebook",
+ "ledger_view": {
+  "open_refutes": [
+   {
+    "argument": "[21:115] teaches a protection law the book no longer has. The entry names armour as the sole source, forbids any addition, and freezes one ceiling of three across every tier. The chapter that owns the mechanic sums armour's class value with talent bonuses at [16:23] and lifts the limit band by band at [16:25]: three at Novice, four at Adept, six at Master. Iron Skin's line at [09:48] prints +2 DR on top of armour, and the book's own worked totals are built that way. Two numbers break. Roric's leather (1) plus Iron Skin (2) is DR 3 at [16:86], which the gloss's armour-only reading cuts to 1. A Master hero in heavy armour (3) plus Iron Skin (2) reaches 5, inside the ceiling of six, but the gloss caps him at 3 and deletes 2 points of printed protection. The frozen cap is not chapter-local either: it stands again at [22:398], so the repair reaches that file, and the owning home 16 plus this gloss both need the corrected wording.",
+    "confidence": 0.88,
+    "evidence": [
+     {
+      "claim": "The DR entry confines reduction to armour, rejects every other contributor, and fixes one constant cap of three for all levels.",
+      "source": "21-glossary"
+     },
+     {
+      "claim": "The owning chapter combines armour's weight-class value with talent DR and makes the ceiling rise with the band rather than staying constant.",
+      "source": "16-armor-shields.qmd"
+     },
+     {
+      "claim": "Iron Skin's Novice rank adds two points of DR on top of armour, which is precisely the stacking the gloss forbids.",
+      "source": "09-talents-abilities.qmd"
+     },
+     {
+      "claim": "The chapter's worked example gives a Novice hero in leather with Iron Skin a total of three, which the armour-only reading would reduce to one.",
+      "source": "16-armor-shields.qmd"
+     },
+     {
+      "claim": "Worked arithmetic: leather 1 plus Iron Skin 2 reaches 3 at Novice under the band ceiling, while the gloss's armour-only reading yields 1, a loss of 2. Heavy 3 plus Iron Skin 2 reaches 5 at Master, legal under the ceiling of 6, but the gloss's constant cap yields 3, again a loss of 2. The flat cap of three happens to coincide with the Novice ceiling only, so it reads correct at Level 1 and turns wrong from Adept upward.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "The reference sheets repeat the same constant cap for a hero of any level, so the retired law survives outside this chapter as well.",
+      "source": "22-reference-sheets.qmd"
+     }
+    ],
+    "id": "f-001",
+    "role": "game-architect",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "The chapter's opening promise is that every mechanical term the book uses is defined inside it, and the Boon and Bane entries fail that promise on the most-used modifier in play. Each entry teaches only the first step of a counted scale: a four-die roll keeping the best or worst three. The book escalates that scale by counting steps, and it does so at nine sites across six chapters: the conditions table's Blinded row, the cover table's top grade, the starvation and thirst ladders in the supplies and GM chapters, total darkness, a Master-tier class ability, and this chapter's own Cover entry, which prints a third-step form. The scale's home is the core-resolution chapter, which adds one die per step, ceilings the ladder at three steps, names the mechanic, and states the cancellation rule that keeps stacked advantages and disadvantages honest; none of that reaches this glossary, and the mechanic's name never appears in the chapter. So a reader who follows the chapter's own Cover entry to a third-step penalty, or its own Condition list to a row whose canon effect is a second-step penalty, cannot resolve the phrase from the place that promised to define it. I am not attacking the cover grade itself, which is settled elsewhere, and the printed four-die roll is not the problem; the missing escalation is. I am also not asking a glossary to re-teach the core chapter: the minimal repair is to carry the step ladder and the cancellation rule in these two entries or to route a reader to their home at 06-core-resolution 59-65. On the chapter's own stated claim, this gap blocks publication.",
+    "confidence": 0.82,
+    "evidence": [
+     {
+      "claim": "The Bane entry defines a single four-die shape only, with no counted escalation and no mention of cancelling against a Boon, so a lookup for a second or third Bane has no answer here.",
+      "source": "21-glossary"
+     },
+     {
+      "claim": "The chapter that owns the scale adds one die per step and gives the second and third steps explicit die counts (line 62), with a ceiling of three steps, so magnitude is a count rather than the single shape the gloss prints.",
+      "source": "06-core-resolution.qmd"
+     },
+     {
+      "claim": "The cancellation rule that keeps stacked advantages and disadvantages resolvable appears once in the book (line 65) and is restated nowhere in the glossary.",
+      "source": "06-core-resolution.qmd"
+     },
+     {
+      "claim": "The conditions table states Blinded's effect as a second-step penalty (line 193), and the glossary names Blinded in its own Condition list without defining that effect, so the gap is reachable from inside this chapter.",
+      "source": "13-combat.qmd"
+     },
+     {
+      "claim": "The chapter's own Cover entry, 150 lines after the Bane entry, uses a third-step form without the chapter having defined what a third step does.",
+      "source": "21-glossary"
+     },
+     {
+      "claim": "A Master-tier class ability grants a second-step Boon (line 613), so the same missing scale also leaves the Boon entry under-specified.",
+      "source": "05-classes.qmd"
+     },
+     {
+      "claim": "The GM chapter imposes a second-step penalty for total darkness (line 183), another usage site far from the scale's home.",
+      "source": "19-gm-guidance.qmd"
+     },
+     {
+      "claim": "A search of every chapter finds nine escalated uses spread over six chapters while the mechanic's own name occurs only in its home chapter and never in the glossary, so the omission is systemic rather than a single stale line.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-003",
+    "role": "contrarian",
+    "stance": "refute",
+    "topic": "t-03"
+   },
+   {
+    "argument": "The chapter hands the book's locked resolution term to the wrong concept. [21:221] titles its entry with a compound name that occurs nowhere else in the book, and the parentheses then declare that the word behind it names a monster-difficulty measure, glossed as the party level at which the creature is a fair fight. The law reads otherwise: convention eight makes that word the second half of the core resolution, and convention five lists it among the handful of numeric modifiers that survived the Boon/Bane purge. The owning chapter states the shape once for opposed contests at [06:71] and again as a defense-roll bullet at [06:109], where a stat block prints the identical figure as a positive number. So the word carries a fixed, law-level sense, and the single address a reader has for it in the chapter that claims to define everything teaches a different one. Every use of the word inside this chapter, five of them, sits in the two rating entries; not one is the penalty, and a reader arriving from [13:111], [16:98] or [14:110] leaves with nothing to subtract. The count settles the repair. Across nine chapter files the unadorned word appears 104 times; the compound label appears twice, both times here. The smaller side is this entry's invented label, so the rename happens in this chapter, and the canon home is 06-core-resolution for the sense the book actually rolls with, while the encounter-budget sense already carries its own name in the bestiary's encounter table at [20:650], mirrored at [22:331]. Retitle the entry to the book's own word and give it the penalty, and send the party-level measure to the bestiary rather than restating it here. A third bearer of the word sits at [05:681], a Protector maneuver with the same name, which this review should see too.",
+    "confidence": 0.82,
+    "evidence": [
+     {
+      "claim": "The entry invents a compound title, and its parenthetical assigns the book's locked word to a monster-difficulty sense glossed as the party level for which the creature is an even fight.",
+      "source": "21-glossary"
+     },
+     {
+      "claim": "The owning chapter fixes the word as the value the acting hero subtracts, set by the target's own ability, with the target silent.",
+      "source": "06-core-resolution.qmd"
+     },
+     {
+      "claim": "The defense-roll bullet names the word a penalty the DA announces, and records that a creature's stat block prints that figure positively.",
+      "source": "06-core-resolution.qmd"
+     },
+     {
+      "claim": "Corpus count: the unadorned word appears 104 times across nine chapter files, while the compound label appears twice and only inside this chapter, so the smaller side is this entry and the repair is local.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "The encounter-budget sense of the word already has its own label in the bestiary's table, mirrored in the reference sheets, so it needs no restatement in this chapter.",
+      "source": "20-bestiary.qmd"
+     },
+     {
+      "claim": "A Protector Novice maneuver carries the same name as the locked resolution term, the same word doing a third job in another chapter.",
+      "source": "05-classes.qmd"
+     }
+    ],
+    "id": "f-004",
+    "role": "author",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "The chapter promises to be the single place a reader can resolve any rule word the book uses, and its own pages break that promise. The Grit entry's return clause leans on a respite, which has no entry here; the Hidden and Marked entries lean on Concealment, which has no entry while its neighbours Cover and Hidden each got one; and Magic Terms never covers cantrips, the one spell category the disciplines chapter exempts from card pricing. Smallest fix: three short entries placed beside their siblings, plus a see-also from the Rest entry to the respite.",
+    "confidence": 0.74,
+    "evidence": [
+     {
+      "claim": "The chapter's opening sentence sets itself up as the one-stop lookup for the book's rule words, which is the standard the gaps below are measured against.",
+      "source": "21-glossary"
+     },
+     {
+      "claim": "The Grit entry ends by naming a respite as the trigger that restores the resource, yet no entry anywhere in this chapter explains that word.",
+      "source": "21-glossary"
+     },
+     {
+      "claim": "The combat chapter is the only place the word is spelled out, inline, as an overnight rest, so a reader starting from the glossary has to leave it and will not know where to go.",
+      "source": "13-combat.qmd"
+     },
+     {
+      "claim": "Two entries in this chapter depend on the concealment word, one for the unseen state and one inside the Marked condition, while its companions Cover and Hidden were each given their own entry.",
+      "source": "21-glossary"
+     },
+     {
+      "claim": "The owning chapter says outright that the term names no condition at all, only the fiction that lets a creature hide, so a lookup that comes back empty here invites the wrong reading of two entries.",
+      "source": "13-combat.qmd"
+     },
+     {
+      "claim": "The disciplines chapter singles cantrips out with a price exemption of their own inside the card economy, and the spell entries in this chapter never send a reader to that rule.",
+      "source": "08-disciplines.qmd"
+     }
+    ],
+    "id": "f-005",
+    "role": "editor-in-chief",
+    "stance": "refute",
+    "topic": "t-03"
+   },
+   {
+    "argument": "Conditions are printed twice, in two shapes that disagree, and nothing on the page says which one governs. The single line at 21:151 recites a set of condition names as a run-on sentence; the ten paragraphs that follow at 21:153-171 define conditions one at a time. Membership differs between the two. Dazzled, Marked and Petrified are named in the sentence and also given their own paragraphs; seven entries, the ones whose headword ends in an X, exist only as paragraphs and can never be found by scanning the sentence; and Hidden is defined four lines above the sentence, wedged between Opportunity Attack and Escape, so a reader meets that condition before learning the chapter has a condition list at all. No heading, rule or blank marker separates the definition paragraphs from the ordinary combat entries that resume at 21:173, so the block has no visible start or end. I did not assume a coverage gap: counting both shapes gives exactly the twenty-three conditions of Table 13.3, so the union is complete and the fault is structure, not missing content. The usability cost is that neither list scans reliably: a lookup for Burning fails on the roster line, and a lookup for Blinded, Prone or Stunned fails among the paragraphs. Fix: keep one list. Either delete the roster sentence and let the entries stand, or replace it with a cross-referenced table and drop the duplicated prose. The repair is source-level and does not depend on the build.",
+    "confidence": 0.84,
+    "evidence": [
+     {
+      "claim": "The chapter's condition content opens with one comma-separated sentence of names and no per-item detail, which is a different shape from the entries that follow it.",
+      "source": "21-glossary"
+     },
+     {
+      "claim": "Ten definition paragraphs follow that sentence, and three of them (Dazzled, Marked, Petrified) restate names the sentence already carried, so those conditions occupy both shapes at once.",
+      "source": "21-glossary"
+     },
+     {
+      "claim": "Seven of the definition paragraphs cover scaled conditions that the roster sentence never names, so a reader who trusts the sentence cannot reach them.",
+      "source": "21-glossary"
+     },
+     {
+      "claim": "Hidden is a condition defined well above the roster sentence, inside unrelated combat vocabulary, so it is listed in neither shape.",
+      "source": "21-glossary"
+     },
+     {
+      "claim": "The last condition paragraph is followed immediately by an ordinary combat term with no heading or rule between them, so the condition block is visually undelimited.",
+      "source": "21-glossary"
+     },
+     {
+      "claim": "The owning chapter prints all twenty-three conditions in one table under a single caption, which is the single-shape presentation this chapter splits into two.",
+      "source": "13-combat.qmd"
+     },
+     {
+      "claim": "Counting the union of both shapes: fifteen names in the sentence, plus Hidden from the entry above it, plus seven scaled conditions defined only as paragraphs, with the three overlapping names counted once, totals twenty-three. The count therefore checks out against the owning table and this finding rests on presentation alone.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-006",
+    "role": "layout-expert",
+    "stance": "refute",
+    "topic": "t-03"
+   }
+  ],
+  "positions": {
+   "t-01": {
+    "author": "refute",
+    "game-architect": "refute"
+   },
+   "t-02": {
+    "researcher": "support"
+   },
+   "t-03": {
+    "contrarian": "refute",
+    "editor-in-chief": "refute",
+    "layout-expert": "refute"
+   }
+  },
+  "sealed_rulings": []
+ },
+ "problem_brief": "# Council problem statement \u2014 Chapter 21, Glossary\n\n**Source:** `21-glossary.qmd` (238 lines, 6 sections: a chapter opener with a figure and a\npagebreak, then Core Mechanic Terms, Character Terms, Combat Terms, Magic Terms, GM Terms).\n\n**Question for the council:** is this chapter publishable as it stands? A glossary is a\ndifferent animal from a rules chapter: it defines nothing of its own, it RESTATES every\nmechanical term the rest of the book uses. So the governing question is narrower and harsher\nthan usual: **does every entry agree with the chapter that owns the mechanic, and does the\nchapter actually cover the terms it promises to cover?** Its own opening claim is \"Every\nmechanical term used in this book, defined in one place\" (`21:13`), which is a coverage\npromise the council should hold it to.\n\n**Why this chapter is live.** The book was rebuilt twice on 2026-09-13/14: the damage bands\nwere renumbered (#532), the card library was split and then culled (#537, #538), currency was\nremoved from the game (#523), Grit was introduced as the recovery budget (#533), and the hero\nDR law was ruled (armour grants DR by weight class and card DR adds). `21-glossary` was last\nreviewed in Wave 1 on 2026-08-31, before all of those changes. Wave 1's own entry for this\nchapter shows the failure mode a glossary is prone to: it had to gain Dazzled and Petrified\nbecause conditions existed in ch13 that the glossary simply did not list. Residue of a retired\neconomy, band, or law lands here as a definition that quietly teaches the old rule.\n\n## Topics\n\n- **t-01** conformance to the locked conventions below (bands, prices, gates, Boon/Bane, DR,\n  dice, vocabulary, currency, the one-card law)\n- **t-02** definitional accuracy against the canon home: an entry that restates a rule from\n  the chapter that owns it must agree with that chapter (the glossary never defines a mechanic\n  first, so the owning chapter always wins)\n- **t-03** coverage, structure and presentation: terms the book uses that the glossary does\n  not define, entries that are duplicates or orphans of each other, section ordering, heading\n  hierarchy, cross-references, and the render\n\nEvery finding MUST set `topic` to exactly `t-01`, `t-02`, or `t-03`. A finding may carry one\ndefect only; if you have several, file the strongest and name the rest in your reply.\n\n## Locked conventions (current as of 2026-09-14 \u2014 these ARE the law this run tests against)\n\n1. **Damage bands are flat and were RENUMBERED on 2026-09-13 (#532): Novice 4/6/8, Adept\n   5/8/11, Master 7/10/14**, read Weak/Standard/Strong (`08-disciplines.qmd:205-217`).\n   Success tiers: Weak 1-8, Standard 9-14, Strong 15+. **The retired rows 2/4/6, 6/9/12 and\n   9/15/21 are valid nowhere in the book.** A basic attack card prints the Basic-card floor\n   1/2/3 plus its attribute; unarmed is 1/1/2; cantrips print 1/3/5. A monster's attacks use\n   its own tier's band.\n2. **Attribute-Scaled damage is defined as \"the budget row minus 3\"** (`08-disciplines.qmd:230`\n   states the rule; the same sentence appears at `21:47`). Whether a printed parenthetical\n   follows from that rule under the CURRENT rows is a live question for this run, so do the\n   arithmetic yourself against convention 1 rather than assuming either number is right.\n3. **The one-card law (Sep 2026, #537/#538):** a card is bought once, at one tier, for one\n   price (Novice 2 DP, Adept 4 DP, Master 8 DP), and never changes. Level gates are Novice 1,\n   Adept 3, Master 7. A card's tier is a property of the card, not a count of its Disciplines.\n   There are no rungs, no upgrade paths, no card that improves another card, and no spell\n   chains; a single-tier card is complete. Upper-tier cards carry their own name and a single\n   Effect line.\n4. **Flat damage riders are dead.** \"+1 damage tier\" is the sanctioned way to increase damage.\n   A flat \"+N damage\" never appears as a rider.\n5. **Boon/Bane law.** Anything that changes how likely a roll is to succeed is a Boon or a\n   Bane, never a numeric roll modifier; Boon and Bane cancel one for one. The numeric roll\n   modifiers that survive are exactly: attributes (-2 to +2), skill tiers (+1 Novice / +2\n   Adept / +3 Master), the difficulty dial, and a Challenge penalty. The difficulty dial runs\n   +4 Trivial, +2 Easy, +0 Standard, -2 Hard, -4 Very Hard, -6 Nearly Impossible.\n6. **Hero DR law (2026-09-13).** Armour grants DR by weight class: light 1, medium 2, heavy 3\n   (`16-armor-shields.qmd:25, 35-44`, `15-equipment.qmd:79, 225`). **Card DR ADDS to it**\n   (`09-talents-abilities.qmd:47`: Iron Skin, \"Novice: +2 DR, in addition to your armor's DR\"),\n   and the book's own worked examples print totals built that way (Kael's armour 1 + Iron Skin\n   2 = DR 3 at `16:27`; Roric's leather 1 + Iron Skin 2 = DR 3 at `16:86`). **The ceiling is\n   band-relative, not a constant: 3 at Novice, 4 at Adept, 6 at Master** (`16:25`,\n   `20-bestiary.qmd:661, 667`). Shields grant Parry and Shield Block, never DR. Only HERO DR\n   follows the kit rules; a creature's or mount's DR is a stat-block value.\n7. **Currency is REMOVED from the game (#523).** Nothing is bought: gear, packs, magic items,\n   mounts and vehicles are granted, found, or earned. Any phrase implying a purchase, a price,\n   a discount, funding, payment, or a coin amount is a defect, and commerce written without a\n   coin word (\"sell\", \"buy\", \"commission\", \"fund\") is the exact class the #523 audit had to\n   catch by hand.\n8. **Challenge is the standard resolution for EVERY opposed contest (rolled 2026-09-13,\n   #507):** the actor rolls `3d6 + attribute + skill - Challenge`, the opposition never rolls.\n   A fixed difficulty (\"a Medicine check (Standard)\") is a different, legal shape.\n9. **Zero em-dashes** anywhere in the book source.\n10. **House emphasis in body text is Typst italic (`*word*`), never markdown bold.**\n11. **The Discipline roster is 24, in nine types** (`08-disciplines.qmd:34-58`): Elemental\n    (Fire, Earth, Wind, Water), Weapon (Blades, Axes, Polearms, Archery, Heavy Weapon,\n    Unarmed), Defense (Protection, Armor), Primal (Animal, Plants), Arcane (Energy), Divine\n    (Life, Religion), Esoteric (Mind, Summon, **Fate**), Subterfuge (Stealth, Sleight),\n    Knowledge (Lore, Tactics). Fate is a real, printed Discipline with its own card line.\n12. **Grit and recovery:** `13-combat.qmd:339-349` defines Grit (2 at Novice, 3 at Adept, 4 at\n    Master; spending one resets HP to maximum and forces a Wound Table roll; it returns on a\n    respite, a full night's rest). Wounds heal 1 per long rest, plus 1 more with a Standard\n    Medicine check (`13:424`). HP does not rise with level; Grit does.\n13. **Printed numbering carries a +2 offset.** This file is 21 in source order and prints as\n    **Chapter 23**; its figure is `Figure 23.1`, and its art placeholder line is a book-wide\n    convention. Do not file either as a defect.\n14. **Crossref law.** A cross-reference renders with its own trailing period, so nothing is\n    typed after a bare sentence-final ref or after a closing parenthesis that carries one.\n15. **Skill keying and the defense skills** are fixed in `07-skills.qmd` and `06-core-resolution.qmd`:\n    Dodge (Agility) and Parry (Brawn) exist; a shield enables Parry and Shield Block but never\n    adds a roll bonus. Survival is Fortitude, Perception is Reason, Athletics is Brawn.\n\n## Already checked by the orchestrator and CLEARED \u2014 do NOT file these\n\nReproduce anything you doubt, but these were verified against the source, and filing them\ncosts the run a round.\n\n- **The chapter contains ZERO em-dashes** (grep: 0).\n- **The dice the chapter prints are all non-damage and all legal:** `3d6` (the core roll, the\n  death roll at `:185`, the morale roll at `:173`, initiative at `:175`), `4d6` keep-highest /\n  keep-lowest (Boon and Bane at `:27, :29`), and `1d6` for Recharge at `:229`. No damage dice\n  anywhere. Do not file dice findings here.\n- **`Figure 23.1` and the art placeholder line are the book-wide convention** (convention 13).\n- **The `#label(\"sec-chapter-glossary\")` inside the Typst fence, duplicating the H1's own\n  anchor, is the book-wide pattern** for every chapter. Not a defect.\n- **`21:43` prints the CURRENT bands** (Novice 4/6/8, Adept 5/8/11, Master 7/10/14) and ends\n  with a bare crossref carrying no typed period. Correct on both counts.\n- **`21:113`'s Basic Maneuver list is exactly ch13's Table 13.1**, all ten, same names, same\n  order: Defend, Disengage, Aid, Shove, Grapple, Command, Catch Breath, Search, Stand Up, Use\n  Item. Do not file it as missing or extra entries.\n- **`21:191`'s \"Elemental family\" is correct.** `13-combat.qmd:150` defines the Elemental\n  damage family as Fire, Cold, Lightning, Acid, Poison, Thunder, so Thunder's membership and\n  the five names listed alongside it match the canon home. This is the DAMAGE family, which is\n  a different thing from the Elemental DISCIPLINE type in convention 11; do not conflate them.\n- **`21:59`'s Carry Slots floor of 5 is the shipped ruling** (decisions-pending #19, PR #461):\n  `max(5, 10 + (Brawn x 5))`.\n- **`21:211`'s Artifact clause is the shipped definition** (decisions-pending #39, PR #384):\n  artifacts are the tier above Legendary and do not count against the three-item attunement\n  cap. The three-item cap itself matches `17-magic-items.qmd`.\n- **`21:179`'s Cover grades are the sanctioned shape** (half cover = Bane on attacks against\n  you, full = triple Bane). Not a defect, and not a dead tier.\n- **`21:139`'s Protection Value** matches `22-reference-sheets.qmd:398` and the abilities it\n  names: PV is a temporary +1 bonus to the defense roll from Bastion or Arcane Shield.\n- **`21:219-237`'s GM terms are consistent with their homes:** Challenge \u00bd matches the bestiary's\n  minion tier, the difficulty dial matches `06-core-resolution`, Passive Insight = Knowledge + 7\n  matches `07-skills`, Recharge 5-6 matches the bestiary's Recharge convention, and the Rest\n  entry's \"short rest has no default mechanical effect\" matches `19-gm-guidance`.\n- **`21:101-129`'s weapon properties are the equipment chapter's set** (Finesse, Versatile,\n  Reach, Thrown, Light, Loading, Two-Handed) and the parenthetical weapon lists match\n  `15-equipment.qmd`. The `Versatile` collision with the Human trait is already disambiguated\n  in the entry's own text and is the book's own convention, not a defect.\n- **`21:131-137`'s effect vocabulary** (Lift X, Push X, Slide X, Trip) matches how the spell\n  chapters print those effects.\n- **Hero DR aside, the chapter defines no mechanics of its own**, so a finding should never be\n  \"this rule is a bad rule\". If a rule is wrong, the fix belongs in the chapter that owns it\n  (name it) plus a corrected gloss here.\n\n## Worked leads \u2014 verify or REFUTE these, do not simply restate them\n\nThese are the orchestrator's own pre-audit leads, offered as things to TEST. **Your own\nindependent audit is the deliverable**; a ballot that only rules on this list is a wasted\nballot. Report a lead you cleared as a result in its own right, and if you find the defect is\nbigger or smaller than described, say so with the evidence.\n\n- `21:115` defines DR as coming \"from your armor alone\", says \"Nothing else adds to it\", and\n  caps it at \"never exceeds 3\". Test that against convention 6 and against the entries at\n  `09:47`, `16:25`, `16:27` and `16:86`. If it is wrong, check whether the same sentence\n  survives in a sibling chapter before you call it chapter-local.\n- `21:47` prints attribute-scaled Adept and Master bases as `3/6/9` and `6/12/18` while the\n  rule it states is \"the budget row minus 3\". Do that subtraction against convention 1's rows\n  and say what the current numbers are, then check whether the same printed pair appears\n  elsewhere in the book. Decide whether the defect is the numbers or the rule.\n- `21:67` enumerates the Discipline types and their members. Count the members listed and\n  compare them, one by one, with the roster table at `08-disciplines.qmd:34-58`. Decide\n  whether the list is complete, and if it is not, whether the fault is an omission in this\n  chapter or a taxonomy that moved under it.\n- `21:151` lists the conditions, and seven of the conditions the book actually carries (the\n  leveled ones) are then defined individually below it. Some entries in the list also have\n  their own fuller entries immediately after. Decide whether the list is a complete roster,\n  whether the dual treatment is a structure defect, and what the missing count is against\n  `13-combat.qmd:191-216`. If the list omits nothing, say so and close the lead.\n- `21:13` claims \"Every mechanical term used in this book, defined in one place\". Test the\n  claim against terms the book actually uses: `respite` (used at `21:183`, defined inline only\n  at `13:347`), `Concealment` (used at `21:147` and `21:165`, defined only at `13:223`),\n  `Potence` (`06-core-resolution.qmd:59-63`), `Cantrip` (`08:195`, and cantrips have their own\n  price exception), `Damage Type` (the chapter defines individual types but never the term),\n  and `Basic Attack` (the Basic-card floor is named at `21:47` and the floor itself never is).\n  Decide which of these a glossary that makes that claim must define, and which are legitimately\n  outside its scope.\n- `21:224` and `21:233` use the term *Challenge* for two different things: Challenge Rating at\n  `:221` (a monster difficulty measure) and the Challenge penalty in the difficulty dial at\n  `:225` and in `06-core-resolution.qmd:97` (a penalty the DA applies to the roller's roll).\n  Decide whether one glossary carrying both senses under near-identical words misleads a lookup,\n  and if so which side owns the repair.\n- `21:221` calls Challenge Rating \"Challenge\" in parentheses in the entry's own name. Check\n  whether that parenthetical is the book's convention or an invention here.\n- `21:109` says a Reaction is \"One per round (resets at the start of your turn)\" while\n  `13-combat.qmd:41` prints only \"1/round\". Decide whether the reset timing is stated anywhere\n  authoritative, and if it is not, whether the glossary is adding a rule or clarifying one.\n- `21:141` glosses Shield Block as \"reduces incoming damage by one tier\" while\n  `16-armor-shields.qmd:68-72` prints the precise ladder (Strong to Standard, Standard to Weak,\n  Weak to 1 damage) plus \"cannot reduce damage below 1\". Decide whether the gloss is accurate\n  enough for a glossary or whether it misleads, and whether the absence of the floor clause\n  matters.\n- `21:145` and `21:205` gloss Concentration without the difficulty or the repeat clause that\n  `10-magic-system.qmd:103` states (Standard or better on 3d6 + Fortitude, checked again each\n  time damage lands). Decide whether a glossary entry may omit the check's difficulty.\n- `21:153` defines Asleep X as \"Falls asleep for X minutes. Wakes on taking damage\" while\n  `13-combat.qmd:194` defines it as \"Unaware for X minutes\". Decide whether the glossary\n  definition is weaker than the condition the book carries.\n- `21:177` says Surprise is \"Determined by Stealth vs passive Insight\", and\n  `13-combat.qmd:540` shows a worked example doing exactly that (19 against a passive Insight\n  of 7). Decide whether that shape is compatible with convention 8's Challenge model or whether\n  the book teaches a contest the locked law retired, and name which files carry it.\n- `21:187` introduces *Wounded* (\"Below half your maximum HP\") as a defined term. Grep the book\n  for other uses of the word as a state. If nothing else uses it, decide whether the glossary\n  has defined a term that does not exist as a mechanic, and whether being below half HP is\n  itself a state with effects anywhere.\n- `21:117` gives each armour weight class a donning time but no speed penalty, while\n  `16-armor-shields.qmd` carries a speed penalty on the heavier classes. Decide whether the\n  omission is a glossary defect.\n- `21:117` names the armours in each weight class while `16-armor-shields.qmd` and\n  `15-equipment.qmd` carry the armour tables. Compare the membership lists for a name that\n  appears in one and not the others.\n- `21:207` and `21:209` say a focus is \"Required for some spells\", but the only other place the\n  requirement appears is the cards' own `Kit: focus:arcane` field (`11-arcane-spells.qmd`). Check\n  whether any chapter states the requirement as a rule, and whether the glossary is the first and\n  only place a reader learns it.\n- `21:189` says wounds \"heal one per long rest (a Standard Medicine check during a rest heals\n  one additional wound)\". Check the Medicine check's tier and its cadence against `13:424`.\n- `21:61`, `21:67` and `21:87` restate the class roster, the Discipline types and the rank\n  ladder. Check the class list against `05-classes.qmd` (nine classes) and the rank ceiling\n  against `08:65-70` and `10:65`.\n\n## Cross-check chapters\n\n`05-classes` (the nine classes and their signatures), `06-core-resolution` (the core roll,\nPotence, Challenge, Dodge/Parry, the difficulty dial), `07-skills` (the skill roster and\nkeying, Passive Insight), `08-disciplines` (the 24-Discipline taxonomy, the bands, card\nprices, tier gates, the Discipline rank ceiling), `09-talents-abilities` (Iron Skin, the card\nformat), `10-magic-system` (concentration, casting, the arcane/divine split), `11-arcane-spells`\nand `12-divine-spells` (what spell cards actually print, the Kit focus field), `13-combat`\n(the action economy, Table 13.1, Table 13.3 conditions, Grit, wounds, surprise, concealment,\ndamage types, Death's Door), `14-social-conflict` (Passive Insight in play), `15-equipment`\n(kits, slots, armour DR, weapon properties), `16-armor-shields` (armour DR by class, the DR\nceiling, Shield Block), `17-magic-items` (attunement, rarity, artifacts), `18-advancement`\n(level gates, DP), `19-gm-guidance` (rests, the DA's terms), `20-bestiary` (Challenge, minion\ntiers, Recharge, creature DR and HP), `22-reference-sheets` (every mirror table).\n\n**Note for t-02 work:** a defect whose home is another chapter must be reported as a defect in\nTHIS chapter's gloss as well, and you should name the owning file and line so the disposition\ncan reach both. Do not audit another chapter in its own right; ch11/ch12 are scheduled for\ntheir own re-review.\n\n## Citation rule\n\nEvery `evidence[].source` must cite either the registered source label `21-glossary`, another\nchapter's filename, or the literal `reasoning`. Quotes go in `quote_or_excerpt` only, under\nabout 12 words. `argument` and `evidence[].claim` are wall-linted against this statement and\nthe source: never place 10 or more consecutive words from either into them.\n",
+ "role": "contrarian",
+ "round": 2,
+ "task": "For each contested topic produce at least one concrete counter-example against the leading support position, or record explicitly 'tested A, B, C \u2014 no counter-example found'. Emit findings only."
+}
