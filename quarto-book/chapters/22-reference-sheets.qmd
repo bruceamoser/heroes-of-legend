@@ -316,9 +316,9 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   columns: (20%, 20%, 33.33%, 26.67%),
   align: (auto, auto, auto, auto,),
   table.header([Tier], [Weak], [Standard], [Strong],),
-  [*Novice* (C½–2)], [2], [4], [6],
-  [*Adept* (C3–6)], [6], [9], [12],
-  [*Master* (C7+)], [9], [15], [21],
+  [*Novice* (C½–2)], [4], [6], [8],
+  [*Adept* (C3–6)], [5], [8], [11],
+  [*Master* (C7+)], [7], [10], [14],
 )], kind: table, numbering: none, outlined: false)
 
 #pagebreak()

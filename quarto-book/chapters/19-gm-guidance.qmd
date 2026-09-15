@@ -76,7 +76,7 @@ Treasure is the reward system. It's how the game says "you did something impress
 
 *Consumables are your secret weapon.* Potions, scrolls, and single-use magic items are the easiest treasure to hand out because they don't permanently shift the party's power level. A potion of flight solves one encounter brilliantly. Boots of flight solve every encounter forever. Be generous with consumables. Be stingy with permanents. Your future self, trying to challenge a party that can all fly, will thank you.
 
-*Let players use their treasure creatively.* If the party wants to turn a favour into a tavern, let them. The tavern becomes a story engine: rumors, rivals, arson, the new undertaker. If they want to commission a custom magic item, work with them on the design. Make them quest for the rare component. The best treasure isn't found in a hoard; it's built over a campaign.
+*Let players use their treasure creatively.* If the party wants to turn a favour into a tavern, let them. The tavern becomes a story engine: rumors, rivals, arson, the new undertaker. If they want a custom magic item, work with them on the design. Make them quest for the rare component. The best treasure isn't found in a hoard; it's built over a campaign.
 
 #pagebreak()
 
@@ -86,7 +86,7 @@ You don't need a full character sheet for every shopkeeper the party meets. Here
 
 *The quick method:* Assign one attribute at +1 (their strength), one at -1 (their weakness), and the rest at 0. Give them one skill at Adept (+2) that defines their role: the blacksmith has Craft, the guard captain has Intimidation, the courtier has Persuasion. That's enough for most interactions. The party doesn't need to know the apothecary's Brawn score. They need to know she can identify poisons and she has a dry sense of humor.
 
-*Give every NPC a want and a fear.* The guard captain _wants_ a quiet shift, and _fears_ anything that'll mean paperwork. The merchant _wants_ to sell the cursed amulet before it activates again, and _fears_ the party finding out why he's so eager to be rid of it. A want and a fear take ten seconds to invent and give you everything you need to roleplay the NPC reactively. When the party does something unexpected (and they always will), you don't need to consult a stat block. You just ask: what does this person want, and what are they afraid of? The answer tells you how they respond.
+*Give every NPC a want and a fear.* The guard captain _wants_ a quiet shift, and _fears_ anything that'll mean paperwork. The merchant _wants_ the cursed amulet gone before it activates again, and _fears_ the party finding out why he's so eager to be rid of it. A want and a fear take ten seconds to invent and give you everything you need to roleplay the NPC reactively. When the party does something unexpected (and they always will), you don't need to consult a stat block. You just ask: what does this person want, and what are they afraid of? The answer tells you how they respond.
 
 *Recycle and remix.* The helpful innkeeper from two towns ago? She's now the nervous apothecary with a different name and a different voice. The party won't notice. They interact with dozens of NPCs. You're the only one tracking them all. Save your creative energy for the NPCs who matter: the recurring villain, the patron, the rival adventuring party. Everyone else can be built from templates.
 
@@ -100,6 +100,7 @@ Short rests take 1 hour and have no default mechanical effect. They provide narr
 
 *Long rest (8 hours):* A full night's sleep provides the following benefits:
 - Recover HP equal to your level.
+- Recover all spent Grit.
 - Heal 1 wound.
 - A character may attempt a Medicine check (Standard) to heal 1 additional wound (for themselves or an ally).
 - A long rest cannot be taken more than once per 24 hours.
@@ -139,7 +140,7 @@ Overland travel uses a simple pace system. Each day, the party covers distance b
 
 *Random Encounters:* Roll 1d6 each day and night. On a 1, an encounter occurs. DA chooses or rolls from environment-specific tables.
 
-*Camping:* A long rest follows the standard rules (see Resting above): 8 hours of rest including sleep, recovering 1 HP per level and healing 1 wound (plus 1 additional wound with a Standard Medicine check). Characters on watch may make Perception checks at -2 (tired eyes).
+*Camping:* A long rest follows the standard rules (see Resting above): 8 hours of rest including sleep, recovering 1 HP per level, regaining all spent Grit, and healing 1 wound (plus 1 additional wound with a Standard Medicine check). Characters on watch make Perception checks with a Bane (tired eyes).
 
 #quote[*DA Guidance:* Travel is a pacing tool. Use it to build atmosphere, the oppressive silence of a swamp, the howling wind on a mountain pass. Skip travel entirely when the journey isn't the story. "After three days on the road, you arrive at the gates of Thornwell" is perfectly valid.]
 
@@ -175,7 +176,7 @@ Characters with appropriate tools and skills can craft items during downtime.
 
 Keeping track of supplies adds tension to exploration.
 
-*Rations:* 1 per day per character. Without food, make an Endurance (Fortitude) roll each day. Standard result: function normally. Weak result: Bane on all rolls from fatigue.
+*Rations and water:* 1 ration per day per character. Hunger and thirst are tracked with the supplies they come from: a day without food is a Bane on all rolls, three days makes it a double Bane, and five days puts a hero at death's door. Water bites sooner and harder. The full ladders for both sit with the supply entries in @sec-chapter-equipment
 
 *Ammunition:* A quiver holds 20 arrows or bolts. After combat, recover half on a Standard or better Survival roll. On a Weak result, recover only 1d4.
 
@@ -259,7 +260,7 @@ Run this as a group skill challenge. Each character makes one skill check. They 
     [Pick the safest path through the mud flats], [Survival (Fortitude)], [Standard],
     [Spot unstable ground before someone steps on it], [Perception (Reason)], [Standard],
     [Wade the flooded sections without losing gear], [Athletics (Brawn)], [Standard],
-    [Climb the collapsed riverbank to the door], [Athletics (Brawn)], [Hard (-2 if already wet)],
+    [Climb the collapsed riverbank to the door], [Athletics (Brawn)], [Hard (Bane if already wet)],
     [Read the flow of the new channel to find a ford], [Nature (Knowledge)], [Standard],
   )],
   kind: table,
@@ -368,7 +369,7 @@ The party emerges from the vault, wet, exhausted, and alive. Behind them, the st
 
 - The dam that burst wasn't an accident. Someone blew it. The hermit Corvus might know who, or what, wanted the vault opened.
 - The crystal sphere wasn't just a prison. It was a key. Maps in the sanctum show four more vaults along the river. Kelvath was only one of five wardens.
-- Back in Thornwell, Elder Tamrin has news: a rider arrived from the Baron's court while the party was in the vault. The Baron has posted a reward for clearing out the "river-spawned undead." And the reward just grew.
+- Back in Thornwell, Elder Tamrin has news: a rider arrived from the Baron's court while the party was in the vault. The Baron wants the "river-spawned undead" cleared, and the favour he would owe the party just grew.
 - One of the sarcophagi in the main chamber had a seal matching the party's Arcanist's pendant. Or the Shepherd's holy symbol. Or the Protector's family crest. The DA picks which character. The next adventure is personal.
 
 #callout(type: "note", title: "Design Notes", body: [
@@ -506,7 +507,7 @@ Scholars, mages, and keepers of forbidden lore. The Argent Circle maintains libr
 
 *Goals:* Recover lost texts and artifacts. Contain dangerous knowledge. Oppose those who would destroy libraries or suppress learning.
 
-*Methods:* Research, espionage, careful negotiation. The Circle doesn't fight wars, they fund them, spy on them, and write the histories afterward.
+*Methods:* Research, espionage, careful negotiation. The Circle doesn't fight wars. It backs them, spies on them, and writes the histories afterward.
 
 *Allied Favor, Arcane Patronage:* Once per adventure, you may request a Novice spell scroll from the Circle's archives. Delivery takes 1d3 days. At higher levels, the DA may allow Adept scrolls for especially significant services.
 
@@ -539,13 +540,13 @@ Thieves, spies, and information brokers. The Shadow Guild doesn't exist, officia
 == Card Templates
 #label("sec-card-templates")
 
-Every mechanical element in _Heroes of Legend_ follows one of three card formats. These are the shapes all content fits into, whether you're reading a published spell, building your own, or checking a player's ability at the table. Learn these shapes. They're the grammar of the game.
+Most mechanical elements in _Heroes of Legend_ follow one of three card formats. These three are the shapes homebrew content fits into: build a spell, an ability, or an ancestry gift. Talents, weapon maneuvers and magic items print in related shapes of their own, and the chapters that own them show you those. Learn these shapes. They're the grammar of the game.
 
 === Spell Card
 
 Spells are the most structured. Every spell card answers the same questions in the same order.
 
-*Format:* `### Name (Cantrip | Arcane Spell | Divine Spell)` then a single field line: `**Disciplines:** N Type · **Action:** Action/Reaction/Maneuver · **Range:** Touch/30 ft/area · **Keywords:** ...` then *Weak:*, *Standard:*, *Strong:* outcomes. An Adept or Master card replaces the outcome block with a single *Effect:* line.
+*Format:* `### Name (Cantrip | Arcane Spell | Divine Spell | Primal Spell)` then a single field line: `**Disciplines:** N Type · **Kit:** focus:arcane · **Action:** Action/Reaction/Maneuver · **Range:** Touch/30 ft/area · **Keywords:** ...` then *Weak:*, *Standard:*, *Strong:* outcomes. An Adept or Master card replaces the outcome block with a single *Effect:* line.
 
 #figure(
   align(center)[#table(
@@ -553,6 +554,7 @@ Spells are the most structured. Every spell card answers the same questions in t
     align: (auto, auto,),
     table.header([Field], [Description],),
     [*Disciplines*], [The Disciplines required to learn this spell. e.g. "1 Fire" or "2 Fire". A card's tier sets the level it needs: Novice 1, Adept 3, Master 7. Max 3 ranks per type.],
+    [*Kit*], [The gear this card assumes, e.g. "focus:arcane", "focus:holy", or "weapon:two-hand". Many published cards carry no Kit field at all.],
     [*Action*], [What it costs from the turn economy: Action, Maneuver, or Reaction.],
     [*Range*], [How far the spell reaches: Touch, 30 ft, 60 ft, Self (15-ft cone), 20-ft radius, etc.],
     [*Keywords*], [Mechanics the card interacts with: Bane, Boon, Prone, Slowed, Piercing, DR, and so on.],
@@ -563,7 +565,7 @@ Spells are the most structured. Every spell card answers the same questions in t
   numbering: none,
 )
 
-*Example (Brimstone Burst, Novice):*
+*Example (Brimstone Burst):*
 
 #quote[*Brimstone Burst (Arcane Spell).*
 *Disciplines:* 2 Fire · *Action:* Action · *Range:* 20-ft radius · *Keywords:* Burning
@@ -597,7 +599,17 @@ Class abilities are more varied than spells, but they all follow a simpler forma
 
 *Example (Shadow Strike):*
 
-#quote[| *Shadow Strike* | Adept | 1 Stealth, 1 Sleight | When you attack from Vanish invisibility | The attack automatically hits at the Strong tier (12 per the damage budget). Once per scene. |]
+#figure(
+  align(center)[#table(
+    columns: (16.00%, 8.00%, 18.00%, 22.00%, 36.00%),
+    align: (auto, auto, auto, auto, auto,),
+    table.header([Ability], [Tier], [Disc Req], [Trigger], [Effect],),
+    [*Shadow Strike*], [Adept], [1 Stealth, 1 Sleight], [When you attack from Vanish invisibility], [The attack automatically hits at the Strong tier (11 per the damage budget). Once per scene.],
+  )],
+  kind: table,
+  numbering: none,
+  outlined: false,
+)
 
 === No-Prereq Basics
 
@@ -629,7 +641,17 @@ Ancestry gifts are the simplest. They have no Discipline requirement (they're in
 
 *Example (Die Hard):*
 
-#quote[| *Die Hard* | Novice | When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session. Dying can wait. |]
+#figure(
+  align(center)[#table(
+    columns: (18.00%, 12.00%, 70.00%),
+    align: (auto, auto, auto,),
+    table.header([Gift], [Tier], [Effect],),
+    [*Die Hard*], [Novice], [When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session. Dying can wait.],
+  )],
+  kind: table,
+  numbering: none,
+  outlined: false,
+)
 
 #callout(type: "tip", title: "Designing Your Own Content", body: [
 When you create a new spell, ability, or gift, start with the template. Fill in every field. If you can't fill a field, your design isn't done. Then check your damage numbers against the budget table (@sec-damage-budget) If the numbers don't match, adjust them. The table is the balance. The template is the form. Together, they ensure your creation plays well with everything else in the book.

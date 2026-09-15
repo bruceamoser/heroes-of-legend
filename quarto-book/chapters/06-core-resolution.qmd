@@ -163,7 +163,7 @@ Critical hits are automatic _Strong_ results. Then roll a d6 for your bonus:
     columns: (19.05%, 80.95%),
     align: (left, left,),
     table.header([d6], [Critical Effect],),
-    [1], [*Maximum Damage.* Deal your Strong damage one budget row higher: Novice 6 becomes Adept 12, Adept 12 becomes Master 21. Never above 21.],
+    [1], [*Maximum Damage.* Deal your Strong damage one budget row higher: Novice 8 becomes Adept 11, Adept 11 becomes Master 14. Never above 14.],
     [2], [*Devastating Blow.* Target is stunned, prone, or disarmed, your choice.],
     [3], [*Moment of Glory.* Take a Maneuver or free move immediately.],
     [4], [*Second Wind.* Recover 6 HP or regain one once-per-scene ability you have used.],
