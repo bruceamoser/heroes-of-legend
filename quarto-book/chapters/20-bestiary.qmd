@@ -109,11 +109,9 @@ HP 17, DR 0.
 
 === Guard (Challenge 1/2)
 
-HP 14, DR 1 (chain shirt).
+HP 14, DR 2 (chain shirt and a shield).
 
 *Spear:* 4/6/8.
-
-*Shield:* +1 DR.
 
 === Cultist (Challenge 1/2)
 

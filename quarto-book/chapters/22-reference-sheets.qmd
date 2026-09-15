@@ -90,7 +90,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
   columns: (44%, 32%, 24%),
   align: (auto, auto, auto,),
   table.header([Condition], [Effect], [Ends],),
-  [*Asleep X*], [Unaware], [X minutes or damage],
+  [*Asleep X*], [Unaware for X minutes], [Wakes on damage],
   [*Blinded*], [Attacks at double Bane], [Source duration],
   [*Burning X*], [Takes X damage per round], [Spend an action to end],
   [*Charmed*], [Cannot attack charmer], [Source duration],
@@ -104,7 +104,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
   [*Hidden*], [Attacks against you have Bane], [You attack, or the concealment ends],
   [*Incapacitated*], [No actions], [Source duration],
   [*Invisible*], [Cannot be targeted directly], [Attack/action ends],
-  [*Marked*], [No Cover or Concealment vs the marker or its allies; the marker's attacks gain a Boon; a sworn Mark also blocks belief and free gifts], [Source, marker downed, or amends],
+  [*Marked*], [Always by a specific creature: no Cover or Concealment against it or its allies, its attacks against you gain a Boon, and a sworn naming also blocks belief and free gifts], [Source, marker downed, or amends],
   [*Paralyzed*], [Incapacitated + auto-crit if hit], [Source duration],
   [*Petrified*], [Turned to stone, incapacitated, DR +5, immune to non-magical damage], [Special],
   [*Poisoned X*], [Takes X poison damage per round and attacks at Bane], [Spend an action to end],
@@ -114,8 +114,6 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
   [*Stunned*], [Incapacitated + cannot move], [Source duration],
   [*Unconscious*], [Incapacitated + prone + unaware], [Healing or Medicine check],
 )], kind: table, numbering: none, outlined: false)
-
-#pagebreak()
 
 === Effects
 
@@ -157,6 +155,8 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
   [*Critical (Three natural 6s)*], [Wake at half HP],
 )], kind: table, numbering: none, outlined: false)
 
+*Grit is what stands between you and this table.* You have 2 Grit at Novice, 3 at Adept, and 4 at Master. Your tier is your ability tier: Novice is levels 1 and 2, Adept levels 3 through 6, Master is level 7 and up. When your HP reaches 0, spend one Grit: your HP resets to its maximum and you roll on the Wound Table, and you keep fighting. Only when you have no Grit left does the roll above decide your fate. Grit returns on a respite, a full night's rest.
+
 === Cover
 
 #figure(align(center)[#table(
@@ -191,7 +191,7 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
   align: (auto, auto, auto,),
   table.header([Skill], [Attr], [Key Use],),
   [*Athletics*], [BR], [Climb, swim, jump],
-  [*Parry*], [BR], [Blocking attacks with a weapon or shield; requires one in hand (shield enables Parry and gives DR, never a roll bonus)],
+  [*Parry*], [BR], [Blocking attacks with a weapon or shield; requires one in hand (a shield enables Parry, never a roll bonus)],
   [*Acrobatics*], [AG], [Balance, tumble, escape],
   [*Dodge*], [AG], [Getting out of the way, diving clear, avoiding area effects],
   [*Endurance*], [FO], [Fatigue, breath-holding, marches],
@@ -246,7 +246,7 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
 + *Class:* Choose class. Record Class Discipline and signature ability.
 + *Class DP:* 8 DP. Spend all on Novice skills and abilities.
 + *Equipment:* Take your class starting kit and build it from the four kit lines. Record weapon properties and armor slots; your Damage Reduction is your armor's DR (1 light, 2 medium, 3 heavy) plus whatever your talents add.
-+ *Derived Stats:* HP, Initiative, Speed, Carry Slots.
++ *Derived Stats:* HP, Grit, Initiative, Movement, Carry Slots.
 + *Backstory:* Motivation, Trinket, Name.
 
 #pagebreak()
