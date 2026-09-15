@@ -1,0 +1,34 @@
+[
+ {
+  "binding": true,
+  "conditions": [
+   "Reprint 12 as 11 at 19:600 and at the three matching class-ability lines in 05-classes.qmd.",
+   "Treat the printed 12 as the Strong of the retired 6/9/12 Adept row: the live 5/8/11 row, the format lines and the field tables are correct and must not be altered.",
+   "Sweep the defect as a value class, not a single typo: the recorded population is five explicitly tiered Strong figures book-wide (four printing 12, one Master line printing 21 against the live Master figure of 14).",
+   "Reconcile the superseded tables in 22-reference-sheets.qmd and 06-core-resolution.qmd before sealing the repair, since the stale figures demonstrably originate there.",
+   "Record the corrected population and provenance in the disposition; the earlier count of four sites is superseded."
+  ],
+  "id": "r-001",
+  "point_of_contention": "Whether the Adept Strong value of 12 printed in chapter 19's worked ability example is a publish-blocking defect against the live 5/8/11 Adept row, and whether that printed value is a lone four-site typo or a stale-value class of five lines.",
+  "reasoning": "The load-bearing premise of the refute position - that a conforming Adept card's Strong value is 11 - was independently established three times over (the defining chapter's damage table, the magic chapter's card table, and the glossary's budget definition), and the chapter under review prints that same live row in its own field table nine lines above the example that breaks it, so the clash is internal to the section. The arithmetic stated is simple and unrebutted: printed 12 against required 11 is a surplus of one point, and the exemptions were addressed rather than waved away - a flat ability is neither a cantrip line nor a +1 tier rider, so neither exemption repairs the value. Provenance was supplied rather than inferred: the superseded ladder survives complete in the reference-sheet damage table and the critical table, which is where the stray figure demonstrably comes from. The directed attack on f-001 (f-008) did not defeat the claim; it recomputed and confirmed it, correcting only the population count from four sites to five lines and widening the class beyond the middle row. That single sub-claim - an exact population of four - therefore falls, and the remainder stands. No speaker anywhere defended the printed value 12, so nothing in the record contests the defect on its merits; on the arguments as presented the surplus figure is live and unrebutted.",
+  "ruling": "The refute position stands and the chapter is not publishable as a balance spine until the retired figure is removed: the Adept Strong value 12 must be reprinted as 11 at 19:600 and at the three matching class-ability lines in 05-classes.qmd, and the two superseded source tables that originate the pattern must be reconciled in the same repair.",
+  "sealed_at": "2026-09-15T01:47:04Z",
+  "topic": "t-01"
+ },
+ {
+  "binding": true,
+  "conditions": [
+   "Confine the repair to the two examples at 19:600 and 19:632; leave the format lines, the field-description tables and the spell and cantrip examples unchanged.",
+   "Reprint the ability example in the classes chapter's five-column ability row shape and the gift example in the ancestries chapter's three-column gift row shape.",
+   "Do not restyle either example as a headed card or a dot-joined field line; that printed shape belongs to the spell and talent formats only.",
+   "Record the section's worked-example count as four (spell, ability, cantrip, gift); the earlier denominator of five is superseded.",
+   "The section's separate defect - its field table against the number its own ability example prints - is governed by the ruling on t-01 and is not cured by this layout repair."
+  ],
+  "id": "r-002",
+  "point_of_contention": "Whether the two bar-delimited worked examples in the Card Templates section (the ability example at 19:600 and the ancestry-gift example at 19:632) are failed card renders that leave the section internally inconsistent, or deliberate notation that leaves the section compliant apart from its damage-band clash.",
+  "reasoning": "The contested finding's load-bearing premise was that the bars are render residue and that the section splits three ways against itself. That premise was attacked directly and in detail: every example instantiates the format line printed immediately above it, field for field and in order; the bar is the documented separator for exactly the two formats whose examples use it, while the spell and cantrip examples use the dot their format line declares; and classes and ancestries publish abilities and gifts as table rows whose headers are the same field names in the same order, so one shape per format is the format rule applied correctly, not a self-contradiction. The attack also corrected the denominator from five worked examples to four. The finding's proponent never answered the attack, and the third speaker effectively conceded its framing by holding the notation deliberate, so the claim that the examples are failed renders and that the section is internally split falls. What survives is a narrower and unrebutted claim: the notation is deliberate, yet these two examples print a template line in the place where a card belongs, so the reader copying the section gets a quoted string rather than the row shape the owning chapters print. That claim is consistent with the attacking side's own render check that the literal bars reach the page under the format line and the field-description table, and both surviving accounts agree on where the true shapes come from - the classes chapter for abilities, the ancestries chapter for gifts. The remedy therefore follows from the agreed shapes rather than from the failed diagnosis, and it is confined to layout: the notation, the format lines and the field tables are already correct.",
+  "ruling": "The bar notation is exonerated and the format lines and field tables must not be changed, but the refute position is upheld as to rendering: the ability and gift examples must be reprinted so that they render in the published shape used by the chapters that own those card types - the classes chapter's five-column ability row and the ancestries chapter's three-column gift row - rather than printing a bar-joined template string inside a quotation block.",
+  "sealed_at": "2026-09-15T01:47:04Z",
+  "topic": "t-02"
+ }
+]

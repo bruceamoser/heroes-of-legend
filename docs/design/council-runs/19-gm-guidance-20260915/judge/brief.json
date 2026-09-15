@@ -1,0 +1,270 @@
+{
+ "assembled_at": "2026-09-15T01:46:03Z",
+ "wall": {
+  "ngram_n": 10,
+  "reject_at": 1
+ },
+ "contested_topics": {
+  "t-01": {
+   "positions": {
+    "Speaker A": "refute",
+    "Speaker C": "refute"
+   },
+   "findings": [
+    {
+     "id": "f-001",
+     "round": 1,
+     "speaker": "Speaker A",
+     "stance": "refute",
+     "argument": "The chapter states the live damage bands correctly and then breaks them four lines further down. At 19:559 the Spell Card field table names the Adept row as 5/8/11; at 19:600 the Ability Card example tags Shadow Strike as Adept and states its Strong result as 12, which is one point too high. Arithmetic: printed 12 minus expected 11 equals +1. No exemption covers it - Shadow Strike is a flat ability, so the cantrip line 1/3/5 does not apply, and a '+1 damage tier' rider moves damage one row above a printed row rather than replacing the printed row. The value 12 is the Strong of the deleted 6/9/12 Adept row, so this is band residue from the pre-#532 renumbering, not a rounding choice. The defect is not isolated to this chapter and is therefore worth fixing at the source of the pattern: the identical Adept-Strong 12 appears on Eviscerate (05:635), Coup de Grace (05:637) and again on Shadow Strike (05:659). That makes 19:600 the fourth site of one error, and it sits in the Card Templates section, the page every homebrew author copies from, so the chapter actively teaches the retired value to future content builders. Repair: change 12 to 11 at 19:600, and change 12 to 11 on the three matching lines in 05-classes.qmd. A paragraph that is one number off is not publishable as a balance spine.",
+     "confidence": 0.93,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "19-gm-guidance",
+       "claim": "The Ability Card worked example labels Shadow Strike Adept and prints its automatic Strong result as 12, one point above the Adept Strong value the chapter prints elsewhere."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "Nine lines earlier the chapter's own Spell Card table states the three live tier rows, so 19:600 contradicts 19:559 inside the same section, not merely an external canon file."
+      },
+      {
+       "source": "08-disciplines.qmd",
+       "claim": "The defining chapter's prose states the Adept row value, confirming the expected number is 11 and the chapter under review misprints it."
+      },
+      {
+       "source": "05-classes.qmd",
+       "claim": "Three more class abilities print the same retired Adept Strong value, so the error is a population of four sites and the ch19 example is not a stray typo."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Worked band arithmetic: 12 is the Strong of the retired 6/9/12 Adept row, 11 is the Strong of the live 5/8/11 Adept row, difference +1; cantrip 1/3/5 is a separate exempt line and +1 tier riders shift relative to printed rows, so no exemption repairs 12."
+      }
+     ]
+    },
+    {
+     "id": "f-005",
+     "round": 1,
+     "speaker": "Speaker C",
+     "stance": "refute",
+     "argument": "The chapter states the game's acquisition law and then breaks it four times in its own prose. Its treasure section says that what the party ends up holding is earned, granted or taken and never bought, yet four sentences in that same chapter assert a transaction: the treasure advice tells a DA that players may commission a custom magic item (19:79); the NPC-writing example the chapter hands a DA to copy gives a merchant whose stated want is to sell a cursed amulet (19:89); the hook the party is handed at the close of the sample adventure is a baron's posted reward for cleared undead, and it grew (19:371); and a sample faction funds the wars other people fight (19:509). Currency was cut from this game in the renumbering pass, and this run's convention makes commerce a defect even when no coin word is written, naming sell, buy, commission, post a reward and fund as the shapes to catch. Four of those five shapes appear here, each in a different sentence, and the fifth (buy) appears only as a figure of speech about encounter budgets at 19:55. I counted instead of eyeballing: a case-insensitive sweep of the registered copy for those verbs plus a commerce noun list returned 46 lines, and reading all 46 leaves exactly four transaction sites, one per banned shape. The remaining matches are either the vocabulary the chapter already gets right (a farmer's gift at 19:244, favours traded at 19:362 and 19:405, a scroll requested at 19:511, a weapon requisitioned at 19:523) or non-transactional uses of cost and reward (19:69-75, 19:198, 19:470, 19:556). I set one borderline aside rather than fold it into the count, because it names a trade rather than a payment: the shopkeeper at 19:85. This is not scenery. Three of the four sites are things a DA will run at the table: the acquisition path for a magic item, the methods paragraph of a sample faction, and the hook that closes the adventure. The repair is a rewrite in vocabulary this chapter already prints, a design the party earns, a debt of honour, a name that opens doors, so it costs no new mechanic and no page.",
+     "confidence": 0.8,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "19-gm-guidance",
+       "claim": "The treasure section states the acquisition law that the rest of the chapter goes on to contradict: what the party gets is earned, granted or taken, never bought."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "The advice line about creative treasure use tells a DA that players may commission a custom magic item, which is the ban list's third verb appearing as a transaction."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "The NPC-writing example the chapter tells a DA to copy hands the merchant a want that consists of selling a cursed amulet, the ban list's first verb."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "The sample adventure's closing hook is a baron posting a reward for cleared undead and then enlarging it, the ban list's fourth shape, written without any coin word."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "A sample faction's methods line says the Circle funds the wars that other people fight, which is the ban list's fifth verb."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Counting method and population: a case-insensitive sweep of the registered copy for the banned verbs plus a commerce noun list matched 46 lines; reading every match leaves exactly four transaction sites, one per banned shape, and buy shows up only metaphorically at 19:55."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "The sanctioned replacement vocabulary is already in the chapter at other sites, including a gift, favours traded, a requested scroll and a requisitioned weapon, so the fix is a rewrite rather than a rules change."
+      }
+     ]
+    },
+    {
+     "id": "f-008",
+     "round": 2,
+     "speaker": "Speaker C",
+     "stance": "refute",
+     "argument": "Round one's surplus-point claim survives my recomputation, and my own count widens the population it reported. I rebuilt the Adept row from the balance spine instead of trusting the example: the defining table gives that tier's figures as five, eight and eleven, and two further chapters print the same three figures for it, so an Adept card's Strong value is eleven and nothing else. The chapter under review states that row itself, nine lines above the worked ability example, whose own tier field reads Adept while its text prints twelve, so the clash is internal to this section rather than an outside canon file. Arithmetic: twelve minus eleven leaves a surplus of one point, and no sanctioned exemption covers it, because the ability is a flat capability rather than a cantrip line or an attribute-scaled expression. Sweeping every chapter file for an explicitly tiered Strong figure in parentheses returns five lines: three class-ability lines plus the chapter-19 example print twelve, and one further class line prints twenty-one on a Master card, seven above the live Master figure of fourteen. Round one described a population of four; the shape in fact carries a fifth residue line, which shows a stale-value class rather than a lone typo, and it is not confined to the middle row. Provenance no longer rests on inference either: the reference sheet's own damage table still prints the superseded ladder complete, with twelve standing as the Adept Strong figure, and the critical table still runs the superseded Strong column up through twelve to twenty-one. That puts the printed figure squarely in the value class the locked convention declares invalid everywhere, so the repair remains twelve to eleven at the chapter-19 example and at the three matching class lines, with the pattern's origin sitting in those two tables. Counting method: a regex for a parenthesised Strong figure on an explicitly tiered line across all twenty-six chapter files, plus literal-string sweeps for each superseded row, which survive intact in only one further place, a bestiary spell attack.",
+     "confidence": 0.95,
+     "rebutting": [
+      "f-001"
+     ],
+     "evidence": [
+      {
+       "source": "08-disciplines.qmd",
+       "claim": "The defining damage table fixes the Adept tier's three figures, so a conforming Adept card's Strong value is eleven."
+      },
+      {
+       "source": "10-magic-system.qmd",
+       "claim": "The magic chapter's card table independently keys the same three figures to the Adept tier and its card price."
+      },
+      {
+       "source": "21-glossary.qmd",
+       "claim": "The glossary definition of the budget repeats the same Adept figures, a third statement of the expected value."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "The chapter under review prints the live rows in its own spell-card field table, nine lines above the example that breaks them."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "The worked ability example names its own tier as Adept and prints twelve as the automatic Strong result, one point above that row."
+      },
+      {
+       "source": "05-classes.qmd",
+       "claim": "Three class-ability lines print the same twelve for Adept cards, which makes four sites of that printed value across the book."
+      },
+      {
+       "source": "05-classes.qmd",
+       "claim": "A Master ability line prints twenty-one where the live Master Strong figure is fourteen, so the residue shape is not confined to the Adept row."
+      },
+      {
+       "source": "22-reference-sheets.qmd",
+       "claim": "The reference sheet's damage table still prints the superseded ladder in full, with twelve as the Adept Strong figure, which is where the stray value demonstrably comes from."
+      },
+      {
+       "source": "06-core-resolution.qmd",
+       "claim": "The critical table still runs the superseded Strong column upward through twelve to twenty-one, a second place the retired figures survive as a ladder."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Worked arithmetic and counting method: expected eleven against printed twelve is a surplus of one, and the parenthesised tiered-figure sweep matched five lines in the book, four of them carrying twelve and one carrying twenty-one."
+      }
+     ]
+    }
+   ]
+  },
+  "t-02": {
+   "positions": {
+    "Speaker B": "refute",
+    "Speaker D": "refute",
+    "Speaker E": "refute"
+   },
+   "findings": [
+    {
+     "id": "f-003",
+     "round": 1,
+     "speaker": "Speaker B",
+     "stance": "refute",
+     "argument": "In the Card Templates section, two of the five worked examples never render as cards. The ability example (19:600) and the ancestry-gift example (19:632) are typed as a single pipe-delimited row inside a #quote, so the built page prints the separator bars as ordinary body punctuation wrapped in curly quotation marks: the DA gets one long quoted sentence instead of the separated fields the section has just defined. The section is internally split three ways - the spell example (19:568-572) and the Spark cantrip example (19:606) use the book's dot-separated field layout, and the book's real cards print as a level-3 heading plus a field line - while these two examples show the same card shape as a pipe string. Since 19:580 and 19:614 state the pipe notation only inside backticked format lines, the notation is a field list, not a card, and reusing it as the example means the reader sees the same pipe string twice with no visible field structure. Fix that survives a clean build: reprint 19:600 and 19:632 in the multi-line field layout already used at 19:568-572 (or wrap each in this file's own #figure(..., kind: table, outlined: false, numbering: none) pattern), so all five examples land on the page as cards.",
+     "confidence": 0.66,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "19-gm-guidance",
+       "claim": "The ability-card example is one pipe-delimited row rather than the field layout the section defines a few lines above it."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "The ancestry-gift example uses the same pipe row, and its closing bar falls inside the closing quotation mark."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "Thirty lines earlier the section's spell example prints the same kind of card as separated fields instead, so the section's own examples disagree with each other."
+      },
+      {
+       "source": "11-arcane-spells.qmd",
+       "claim": "The chapter that owns these cards prints a real one as a level-3 heading followed by a field line, the shape the two pipe examples do not reproduce."
+      },
+      {
+       "source": "reasoning",
+       "claim": "The bars reach the artifact: in the PDF built 2026-09-14 21:12, folio 324 opens the quoted example with a quotation mark joined to a pipe and carries single pipe glyphs as separate words mid-line, and folio 325 repeats it for the gift example."
+      }
+     ]
+    },
+    {
+     "id": "f-009",
+     "round": 2,
+     "speaker": "Speaker D",
+     "stance": "refute",
+     "argument": "The premise under test breaks on three counts. f-003 assumes the two quoted rows are failed card renders and that the section splits three ways; neither holds. (1) The section teaches three formats and each example instantiates the format line printed directly above it, field for field and in that order: the ability row carries the five fields that line names, the gift row carries its three. The bars are that format line's own separators, so field structure is exactly what the reader gets, and the same five field names appear three times running on the page (format line, field table, example). (2) Those two are precisely the formats whose published shape is a table row: class abilities print, in the classes chapter, as rows of a five-column table whose headers are the same five field names in the same order, and ancestry gifts print as rows of a three-column table whose headers are the same three. The heading-plus-field-line shape f-003 treats as 'the book's real cards' is the spell and talent shape; the chapters that own abilities and gifts never print them as headed cards at all. So the apparent split is the format rules applied correctly, one shape per format, not one section contradicting itself. (3) The pipe form is recorded notation, not render residue: the chapter's earlier review directed that both examples be turned from inline prose into those published table rows, and the form then survived the markdown-to-Typst rewrite unchanged, which is the opposite of a build artefact. Two smaller repairs to the finding: the population is four worked examples (spell, ability, cantrip, gift), so 'two of five' misstates the denominator, and the requested fix would move the ability and gift examples away from the shapes those cards are actually printed in - a heading or a field list is not how ch05 or ch04 renders them. My topic position stays refute, but on the section's own band clash (its field table against the number its own example prints), which f-001 already carries, not on the pipe shape.",
+     "confidence": 0.72,
+     "rebutting": [
+      "f-003"
+     ],
+     "evidence": [
+      {
+       "source": "19-gm-guidance",
+       "claim": "The ability-card format line directly above the example declares its fields as a pipe-separated list, so the example's bars are the notation the page has just defined."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "The ability example carries exactly the five fields the format line names, in that order, so no field is lost and the shape is a faithful instance of the declared notation."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "The gift format line is a three-field pipe list, and the gift example likewise carries those three fields in order."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "The spell format line is a heading plus a dot-separated field line, which is the shape the spell and cantrip examples use, so each example follows its own format rule rather than contradicting a sibling example."
+      },
+      {
+       "source": "05-classes.qmd",
+       "claim": "Class abilities are actually published as rows of a five-column table whose headers are the same five fields in the same order, so the ch19 pipe row reproduces the printed row shape for that card type."
+      },
+      {
+       "source": "04-ancestries-cultures.qmd",
+       "claim": "Ancestry gifts are published as rows of a three-column table whose headers are the same three fields, matching the ch19 gift row one for one."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Repo record check: the chapter's own earlier council disposition directed that the ability example become the classes chapter's five-column table row and the gift example become the ancestries table-row format, and the pipe form predates and survives the markdown-to-Typst rewrite, so it is a settled convention rather than migration residue."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Render check on the built book: the page carries the literal bars under the pipe-ordered format line and the field-description table, with no dropped or clipped text, so what prints is the notation the section teaches twice above the example."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "The section carries four worked examples (spell, ability, cantrip, gift at 568, 600, 606, 632), so the finding's denominator of five is one too high."
+      }
+     ]
+    },
+    {
+     "id": "f-010",
+     "round": 2,
+     "speaker": "Speaker E",
+     "stance": "refute",
+     "argument": "Canon adjudication for t-02, the Card Templates section against itself. The round-1 claim about the two bar-delimited examples is right about the symptom, but it calls the file non-compliant without first fixing what the correct card shape is, and that is the part the book itself decides. Inside this chapter the bar is the documented field separator for exactly two of the three formats, the class ability card and the ancestry gift, and it is used in exactly those two worked examples; the spell format is documented with a centred dot, and its examples use that dot. So the bars are deliberate notation rather than a stray glyph, and the format lines are not what is broken. The other half of the check is how a card prints in the chapters that print cards. The arcane chapter renders a spell as a heading plus a dot-separated field line; the talents chapter renders a card the same way; the classes chapter renders Shadow Strike, the very card the example names, as a five-column row whose columns are the ability format's five fields in order. No printed card in the book joins its fields with bars, and the gift example's row ends on a bar immediately before the quote block closes. The section's four worked examples therefore do not share one shape: two show a filled template line where the other two and every real card show separated fields. Verdict: the notation is deliberate and the file is still non-compliant, because those two examples print a template line in the place a card belongs. Repair class: mechanical, a layout fix confined to the two examples, reprinted in the field layout used a few lines above or as the classes chapter's table. The format lines and the field tables need no change, and no design question arises: the card shape is settled by the chapters that print cards.",
+     "confidence": 0.72,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "19-gm-guidance",
+       "claim": "The ability format's own documented notation is a bar-joined field list with Tier as one of its five fields, so what the example reproduces is the template line, not the printed card."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "The ancestry gift format is documented the same way with a shorter field list, and it is the other format whose example uses bars, which is what makes the bars deliberate notation for those two formats only."
+      },
+      {
+       "source": "19-gm-guidance",
+       "claim": "The section's spell and cantrip examples print a card as labelled fields joined by the same centred dot the book's real cards use, so the section's own examples disagree with each other in shape."
+      },
+      {
+       "source": "quarto-book/chapters/11-arcane-spells.qmd",
+       "claim": "The chapter that owns the arcane cards prints a real card as a heading plus a dot-separated field line and never carries a bar separator, which is the shape the ability example fails to reproduce."
+      },
+      {
+       "source": "quarto-book/chapters/05-classes.qmd",
+       "claim": "The chapter that owns Shadow Strike prints that same card as a five-column row matching the ability format's five fields in order, so the field order in the example is canon and only the rendering is wrong."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd",
+       "claim": "The talents chapter renders its cards the same way, heading plus dot-separated field line, so the book has one printed card shape and it is not a bar-joined line."
+      },
+      {
+       "source": "reasoning",
+       "claim": "A pass over the chapter sources finds bar separators reaching rendered body text at only the ability and gift examples; every other bar sits inside backticked format notation, and the gift row closes on a bar inside its quote block."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "sealed_rulings": [],
+ "instruction": "You are a blind judge. You see ONLY the arguments as presented below. You have no access to, and no knowledge of, the underlying problem statement or sources. Speakers are anonymized: you see 'Speaker A', 'Speaker B', etc. Their roles, identities, and models are unknown and must not be inferred; weigh each argument on its merits alone. Rule on each contested topic. Output one ruling JSON object per topic, exactly matching the council ruling schema."
+}

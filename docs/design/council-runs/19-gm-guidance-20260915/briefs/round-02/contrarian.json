@@ -1,0 +1,269 @@
+{
+ "council": "hol-rulebook",
+ "ledger_view": {
+  "open_refutes": [
+   {
+    "argument": "The chapter states the live damage bands correctly and then breaks them four lines further down. At 19:559 the Spell Card field table names the Adept row as 5/8/11; at 19:600 the Ability Card example tags Shadow Strike as Adept and states its Strong result as 12, which is one point too high. Arithmetic: printed 12 minus expected 11 equals +1. No exemption covers it - Shadow Strike is a flat ability, so the cantrip line 1/3/5 does not apply, and a '+1 damage tier' rider moves damage one row above a printed row rather than replacing the printed row. The value 12 is the Strong of the deleted 6/9/12 Adept row, so this is band residue from the pre-#532 renumbering, not a rounding choice. The defect is not isolated to this chapter and is therefore worth fixing at the source of the pattern: the identical Adept-Strong 12 appears on Eviscerate (05:635), Coup de Grace (05:637) and again on Shadow Strike (05:659). That makes 19:600 the fourth site of one error, and it sits in the Card Templates section, the page every homebrew author copies from, so the chapter actively teaches the retired value to future content builders. Repair: change 12 to 11 at 19:600, and change 12 to 11 on the three matching lines in 05-classes.qmd. A paragraph that is one number off is not publishable as a balance spine.",
+    "confidence": 0.93,
+    "evidence": [
+     {
+      "claim": "The Ability Card worked example labels Shadow Strike Adept and prints its automatic Strong result as 12, one point above the Adept Strong value the chapter prints elsewhere.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "Nine lines earlier the chapter's own Spell Card table states the three live tier rows, so 19:600 contradicts 19:559 inside the same section, not merely an external canon file.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "The defining chapter's prose states the Adept row value, confirming the expected number is 11 and the chapter under review misprints it.",
+      "source": "08-disciplines.qmd"
+     },
+     {
+      "claim": "Three more class abilities print the same retired Adept Strong value, so the error is a population of four sites and the ch19 example is not a stray typo.",
+      "source": "05-classes.qmd"
+     },
+     {
+      "claim": "Worked band arithmetic: 12 is the Strong of the retired 6/9/12 Adept row, 11 is the Strong of the live 5/8/11 Adept row, difference +1; cantrip 1/3/5 is a separate exempt line and +1 tier riders shift relative to printed rows, so no exemption repairs 12.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-001",
+    "role": "game-architect",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "The chapter is the book's designated home for rest rules, and its Resting section teaches the long rest as a closed list of benefits: HP back equal to level, one wound healed, an optional extra wound on a Standard Medicine check, and a limit of one per day. Grit is the resource a hero spends to get up again at 0 HP, and the combat chapter ties its return to exactly that night of sleep, so a DA who runs recovery strictly as this chapter prints it restores HP and wounds but never refreshes Grit after the party's starting stock runs out. The failure is silent, because the same section calls the long rest the game's main recovery mechanic and says party resources are calibrated around it, yet the word Grit never appears in the chapter as a rule; its only occurrence is inside the name of a rest variant. Smallest repair: add a 'Recover all spent Grit' bullet to the list at 19:101-105 and mirror it in the camping summary at 19:142.",
+    "confidence": 0.78,
+    "evidence": [
+     {
+      "claim": "The Resting section prints four long-rest benefits as a set: HP restored equal to level, one wound healed, an optional additional wound on a Standard Medicine check, and a limit of one per day. Nothing in the list restores spent Grit.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "The combat chapter states that a hero spends Grit to stay standing at 0 HP and gets it back on a full night's rest, which is the very rest this chapter defines.",
+      "source": "13-combat.qmd"
+     },
+     {
+      "claim": "The glossary's Rest entry routes the reader to this chapter for the complete recovery benefits, so this is the chapter where a DA is told to look for what a rest actually restores.",
+      "source": "21-glossary.qmd"
+     },
+     {
+      "claim": "The glossary also notes that HP stays flat as characters level while Grit grows, which makes Grit the survival resource that scales with the party.",
+      "source": "21-glossary.qmd"
+     },
+     {
+      "claim": "In the whole chapter the word Grit appears only inside the name of a rest variant, and that variant's text changes rest durations without restoring the resource.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "The travel section restates the same short recovery list when it tells the DA that a night of camping counts as a long rest: HP per level and one wound, again with nothing about Grit returning.",
+      "source": "19-gm-guidance"
+     }
+    ],
+    "id": "f-002",
+    "role": "editor-in-chief",
+    "stance": "refute",
+    "topic": "t-03"
+   },
+   {
+    "argument": "In the Card Templates section, two of the five worked examples never render as cards. The ability example (19:600) and the ancestry-gift example (19:632) are typed as a single pipe-delimited row inside a #quote, so the built page prints the separator bars as ordinary body punctuation wrapped in curly quotation marks: the DA gets one long quoted sentence instead of the separated fields the section has just defined. The section is internally split three ways - the spell example (19:568-572) and the Spark cantrip example (19:606) use the book's dot-separated field layout, and the book's real cards print as a level-3 heading plus a field line - while these two examples show the same card shape as a pipe string. Since 19:580 and 19:614 state the pipe notation only inside backticked format lines, the notation is a field list, not a card, and reusing it as the example means the reader sees the same pipe string twice with no visible field structure. Fix that survives a clean build: reprint 19:600 and 19:632 in the multi-line field layout already used at 19:568-572 (or wrap each in this file's own #figure(..., kind: table, outlined: false, numbering: none) pattern), so all five examples land on the page as cards.",
+    "confidence": 0.66,
+    "evidence": [
+     {
+      "claim": "The ability-card example is one pipe-delimited row rather than the field layout the section defines a few lines above it.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "The ancestry-gift example uses the same pipe row, and its closing bar falls inside the closing quotation mark.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "Thirty lines earlier the section's spell example prints the same kind of card as separated fields instead, so the section's own examples disagree with each other.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "The chapter that owns these cards prints a real one as a level-3 heading followed by a field line, the shape the two pipe examples do not reproduce.",
+      "source": "11-arcane-spells.qmd"
+     },
+     {
+      "claim": "The bars reach the artifact: in the PDF built 2026-09-14 21:12, folio 324 opens the quoted example with a quotation mark joined to a pipe and carries single pipe glyphs as separate words mid-line, and folio 325 repeats it for the gift example.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-003",
+    "role": "layout-expert",
+    "stance": "refute",
+    "topic": "t-02"
+   },
+   {
+    "argument": "The Resource Management block (19:174-184) restates the privation rules and lands on a procedure that cannot coexist with the chapter that defines rations. 19:178 turns going without food into a daily Endurance check keyed to Fortitude, where a Standard outcome means the character functions normally and only a Weak outcome applies one Bane. The Rations entry at 15:298 prints no check at all: a Bane after the first hungry day, a double Bane at three days, and death at five. The Waterskin entry at 15:311 repeats that shape for thirst, escalating past a single Bane into the body shutting down, and 19 has no water rule whatsoever. One line therefore disagrees with the defining chapter three ways at once: check versus fixed timer; a permanent ceiling of one Bane versus escalation to a double Bane; and no lethal state versus a printed death condition. Computed counter-example: a traveler with Endurance Novice and Fortitude +1 (+2 total) rolls Weak on 20/216 = 9.26% of hungry days, and at +3 on 10/216 = 4.63%, so a party that simply stops carrying rations travels indefinitely under 19:178 for the price of a Bane on roughly one day in eleven (a Bane any single Boon cancels), while 15:298 has the same party dying on day five. The chapter trains the DA to run attrition travel and then hands them a starvation clock with no terminal state and a rate the players can ignore. Repair: carry the 15:298 and 15:311 ladder in the Resource Management text, or replace 19:178 with a cross-reference to the gear entries; the two texts as printed cannot both be the law.",
+    "confidence": 0.72,
+    "evidence": [
+     {
+      "claim": "The Resource Management block makes hunger a daily Endurance check keyed to Fortitude, where the middle outcome means the character functions normally and only the low outcome applies a Bane; no day count, no escalation and no lethal state appear, and the block never mentions water.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "The chapter that defines the ration entry hangs an unconditional ladder on it: a Bane after a single hungry day, a double Bane at three days, and death at five, with no check of any kind in the entry.",
+      "source": "15-equipment.qmd"
+     },
+     {
+      "claim": "The waterskin entry repeats the same ladder shape for thirst and also escalates past a single Bane into bodily shutdown, confirming that in the gear chapter privation is a timer, whereas 19 prints neither a magnitude above one Bane nor any end state.",
+      "source": "15-equipment.qmd"
+     },
+     {
+      "claim": "The section presents itself as the operative guidance for running supplies, so the DA has no route from this text to the gear chapter's consequences even though the gear chapter is the only place those consequences are printed.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "Worked odds on the 3d6 distribution: Weak is a total at or below 8, so a +2 modifier fails on 20 of 216 outcomes (9.26% of days) and a +3 modifier on 10 of 216 (4.63%); under 19:178 starvation therefore costs a competent party a single cancellable Bane on about one day in eleven and never approaches the day-five death the gear chapter prints.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-004",
+    "role": "contrarian",
+    "stance": "refute",
+    "topic": "t-03"
+   },
+   {
+    "argument": "The chapter states the game's acquisition law and then breaks it four times in its own prose. Its treasure section says that what the party ends up holding is earned, granted or taken and never bought, yet four sentences in that same chapter assert a transaction: the treasure advice tells a DA that players may commission a custom magic item (19:79); the NPC-writing example the chapter hands a DA to copy gives a merchant whose stated want is to sell a cursed amulet (19:89); the hook the party is handed at the close of the sample adventure is a baron's posted reward for cleared undead, and it grew (19:371); and a sample faction funds the wars other people fight (19:509). Currency was cut from this game in the renumbering pass, and this run's convention makes commerce a defect even when no coin word is written, naming sell, buy, commission, post a reward and fund as the shapes to catch. Four of those five shapes appear here, each in a different sentence, and the fifth (buy) appears only as a figure of speech about encounter budgets at 19:55. I counted instead of eyeballing: a case-insensitive sweep of the registered copy for those verbs plus a commerce noun list returned 46 lines, and reading all 46 leaves exactly four transaction sites, one per banned shape. The remaining matches are either the vocabulary the chapter already gets right (a farmer's gift at 19:244, favours traded at 19:362 and 19:405, a scroll requested at 19:511, a weapon requisitioned at 19:523) or non-transactional uses of cost and reward (19:69-75, 19:198, 19:470, 19:556). I set one borderline aside rather than fold it into the count, because it names a trade rather than a payment: the shopkeeper at 19:85. This is not scenery. Three of the four sites are things a DA will run at the table: the acquisition path for a magic item, the methods paragraph of a sample faction, and the hook that closes the adventure. The repair is a rewrite in vocabulary this chapter already prints, a design the party earns, a debt of honour, a name that opens doors, so it costs no new mechanic and no page.",
+    "confidence": 0.8,
+    "evidence": [
+     {
+      "claim": "The treasure section states the acquisition law that the rest of the chapter goes on to contradict: what the party gets is earned, granted or taken, never bought.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "The advice line about creative treasure use tells a DA that players may commission a custom magic item, which is the ban list's third verb appearing as a transaction.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "The NPC-writing example the chapter tells a DA to copy hands the merchant a want that consists of selling a cursed amulet, the ban list's first verb.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "The sample adventure's closing hook is a baron posting a reward for cleared undead and then enlarging it, the ban list's fourth shape, written without any coin word.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "A sample faction's methods line says the Circle funds the wars that other people fight, which is the ban list's fifth verb.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "Counting method and population: a case-insensitive sweep of the registered copy for the banned verbs plus a commerce noun list matched 46 lines; reading every match leaves exactly four transaction sites, one per banned shape, and buy shows up only metaphorically at 19:55.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "The sanctioned replacement vocabulary is already in the chapter at other sites, including a gift, favours traded, a requested scroll and a requisitioned weapon, so the fix is a rewrite rather than a rules change.",
+      "source": "19-gm-guidance"
+     }
+    ],
+    "id": "f-005",
+    "role": "researcher",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "The Card Templates section is the shape every future homebrew is cut from, and it presents its spec as finished. It announces a closed set of three shapes that all mechanical content fits into, then asserts that all spell cards put their questions in one fixed order, then lists the fields and the spell kinds of that order. The book's actual cards break both claims: 62 card headers across three chapters carry a Kit field between Disciplines and Action, and the chapter never uses the word Kit once, so a DA following the template writes a spell card the book itself does not print. The spelled-out kinds are also short one member, Primal, of which the divine chapter prints nine. The section's closing tip then tells the reader the template is the form and the table is the balance, which makes the omission teaching, not trivia. Minimal repair: add Kit and Primal to the spec lines and scope the blanket wording to the shapes the section actually shows, rather than editing 71 existing cards. I checked the section's other universal claim against ch17 and ch09 and it fails the same way: item cards and 177 headed cards of other kinds (28 Talent, 40 Weapon Maneuver) are outside the three shapes, so the 'every' wording is the thing that must move.",
+    "confidence": 0.7,
+    "evidence": [
+     {
+      "claim": "The section opens by framing three formats as a closed set that covers all mechanical content in the book.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "It then asserts one fixed question order for all spell cards, which the spec below it does not deliver.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "The spell format line enumerates three spell kinds, omitting the fourth kind the book prints.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "A real arcane spell header carries a Kit field between Disciplines and Action; ch19's field list has no Kit entry anywhere in the chapter.",
+      "source": "11-arcane-spells.qmd"
+     },
+     {
+      "claim": "Nine cards in the divine chapter are headed as Primal Spells, a kind the ch19 enum does not list.",
+      "source": "12-divine-spells.qmd"
+     },
+     {
+      "claim": "The item chapter states each magic item is itself a card with rarity, attunement and type fields, so the closed-set claim excludes that shape too.",
+      "source": "17-magic-items.qmd"
+     },
+     {
+      "claim": "Blast radius, counted by grep over the 26 chapter files: 62 card headers print a Kit field (09-talents-abilities 12, 11-arcane-spells 30, 12-divine-spells 20) while 19-gm-guidance contains 0 occurrences of Kit; 9 Primal Spell headings; 177 cards with their own kind label in ch09/ch11/ch12 plus 25 magic item headings in ch17, against the 3 formats ch19 names.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-006",
+    "role": "author",
+    "stance": "refute",
+    "topic": "t-03"
+   },
+   {
+    "argument": "Refute. The Card Templates section stamps its own flagship example with a tier the defining chapter denied that card. Line 566 reads 'Brimstone Burst, Novice', yet the disciplines chapter names the same 2-Fire card Adept, charges it the Adept flat rate of 4 DP rather than 2, and has its caster buy it as soon as the Adept gate unlocks at level 3; the magic chapter's worked casting example has the same caster holding it at level 3 with 2 Fire. Because this chapter's own table makes a tier a price-and-gate claim (Novice 1, Adept 3, Master 7, against 2/4/8 DP), the label is not flavour: a new DA following the example will let a player take the card at level 1 for 2 DP and then must adjudicate against the defining chapter mid-session. The label is also the only tier word attached to that spell anywhere in the book, since the spell-card format this chapter documents has no tier field and the printed arcane card prints none. Canonical home: 08-disciplines.qmd, which owns the one-card law, the flat card costs and the level gates; this chapter's example is the outlier and the repair is one word in its label, or striking the label. The arcane card's Novice-band damage row, which is what made the label look plausible, is that chapter's own Wave 3 residue and belongs in the Wave 3 note, not here.",
+    "confidence": 0.68,
+    "evidence": [
+     {
+      "claim": "This chapter's spell-card example is headed with a tier label for the card.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "The chapter's own field table makes a card's tier a claim about the level gate it needs, so a wrong tier label is a wrong gate.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "The documented spell-card field line lists Disciplines, Action, Range and Keywords and carries no tier field at all.",
+      "source": "19-gm-guidance"
+     },
+     {
+      "claim": "The discipline chapter's worked total-cost example calls the same card Adept and charges the flat 4 DP, which is the Adept card price, not the 2 DP Novice price.",
+      "source": "08-disciplines.qmd"
+     },
+     {
+      "claim": "The same chapter's fire-mage walkthrough has the caster buy the card the moment the Adept gate unlocks, at level 3.",
+      "source": "08-disciplines.qmd"
+     },
+     {
+      "claim": "The magic chapter's worked casting example has the same caster holding the card by level 3 with 2 Fire and 1 Energy.",
+      "source": "10-magic-system.qmd"
+     },
+     {
+      "claim": "The printed card states no tier and sits on the Novice damage band, which is why the example's label read as plausible; the arcane card rows are that chapter's own Wave 3 work.",
+      "source": "11-arcane-spells.qmd"
+     },
+     {
+      "claim": "Repo history separates the two sides: the rung-split commit is what introduced the word Novice into this example, and the later ch08 repair that rebuilt the same worked cost example calls the card the Adept-tier 2-Fire survivor of the merge, so the book's latest decision is Adept.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-007",
+    "role": "librarian",
+    "stance": "refute",
+    "topic": "t-03"
+   }
+  ],
+  "positions": {
+   "t-01": {
+    "game-architect": "refute",
+    "researcher": "refute"
+   },
+   "t-02": {
+    "layout-expert": "refute"
+   },
+   "t-03": {
+    "author": "refute",
+    "contrarian": "refute",
+    "editor-in-chief": "refute",
+    "librarian": "refute"
+   }
+  },
+  "sealed_rulings": []
+ },
+ "problem_brief": "# Council problem statement \u2014 Chapter 19, Dungeon Architect's Guide\n\n**Source:** `19-gm-guidance.qmd` (639 lines, 12 sections: Scene Management, Setting\nDifficulty, Encounter Building, Treasure Pacing, NPC Creation, Resting, Exploration &\nTravel, Crafting, Resource Management, Corruption, Social Conflict, a full sample\nadventure \"The Sunken Vault\" with four scenes and two creature stat blocks, a Faction\nSystem with three tables, and a Card Templates section with three format tables).\n\n**Question for the council:** is this chapter publishable as it stands? Concretely: does\nit conform to the locked conventions below; is it internally consistent (its tables\nagainst their own prose, its prose against the numbers it prints, its sample adventure\nagainst the mechanics it teaches); and does every value or mechanic it restates agree\nwith the chapter that defines it?\n\n**Why this chapter is live.** The book was rebuilt twice on 2026-09-13/14: the damage\nbands were renumbered (#532), the card library was split and then culled (#537, #538),\ncreature HP was repriced (#534, #535), gold was removed from the game entirely (#523),\nand Grit was introduced as the recovery budget (#533). `19-gm-guidance` is the DA's\nchapter: it teaches how to set difficulty, build encounters, pace treasure, run rests,\ncraft, and build cards, so residue of any retired economy, band, or vocabulary lands\nhere. Its last review was in Wave 1 (2026-08-31), before all of those changes. Its Card\nTemplates section is the chapter's own statement of the card format, so it is the one\nplace in the book where a stale format rule teaches every future homebrew.\n\n## Topics\n\n- **t-01** conformance to the locked conventions below (bands, prices, gates, Boon/Bane,\n  DR, dice, vocabulary, currency)\n- **t-02** internal consistency: this chapter's tables against their own prose, the sample\n  adventure's printed numbers against the mechanics the adventure teaches, and the\n  chapter against itself\n- **t-03** cross-chapter canon: a value, mechanic, or format rule this chapter restates\n  from the chapter that defines it\n\nEvery finding MUST set `topic` to exactly `t-01`, `t-02`, or `t-03`. A finding may carry\none defect only; if you have several, file the strongest and name the rest in your reply.\n\n## Locked conventions (current as of 2026-09-14 \u2014 these ARE the law this run tests against)\n\n1. **Damage bands are flat and were RENUMBERED on 2026-09-13 (#532): Novice 4/6/8, Adept\n   5/8/11, Master 7/10/14**, read Weak/Standard/Strong (`08-disciplines.qmd:205-217`).\n   Success tiers: Weak 1-8, Standard 9-14, Strong 15+. **The retired rows 2/4/6, 6/9/12\n   and 9/15/21 are valid nowhere in the book.** Sanctioned exemptions: cantrips print\n   1/3/5; a basic attack card prints the Basic-card floor 1/2/3 plus its attribute;\n   unarmed is 1/1/2; attribute-scaled Novice cards print 1/2/3 plus an attribute, and\n   attribute-scaled Adept/Master cards print the row minus 3 (3/6/9, 6/12/18). A monster's\n   attacks use its own tier's band.\n2. **The one-card law (Sep 2026, #537/#538):** a card is bought once, at one tier, for one\n   price (Novice 2 DP, Adept 4 DP, Master 8 DP), and never changes. Level gates are Novice\n   1, Adept 3, Master 7. A card's tier is a property of the card, not a count of its\n   Disciplines. There are no rungs, no upgrade paths, and no card that improves another\n   card; a single-tier card is complete. Upper-tier cards carry their own name and a single\n   Effect line (`11-arcane-spells.qmd:19` states this format rule; `19:548` restates it).\n3. **Flat damage riders are dead.** \"+1 damage tier\" is the sanctioned way to increase\n   damage (e.g. `19:334` Seal-Bound, `20:94` Charge, `05:542` Overchannel). A flat \"+N\n   damage\" never appears as a rider.\n4. **Boon/Bane law.** Anything that changes how likely a roll is to succeed is a Boon or a\n   Bane, never a numeric roll modifier; Boon and Bane cancel one for one. The numeric roll\n   modifiers that survive are exactly: attributes (-2 to +2), skill tiers (+1 Novice / +2\n   Adept / +3 Master), the difficulty dial, and a Challenge penalty. The difficulty dial\n   is what `19:37-43` teaches (ch06 carries the dial's own scale: +4 Trivial, +2 Easy, +0\n   Standard, -2 Hard, -4 Very Hard, -6 Nearly Impossible).\n5. **Hero DR law (2026-09-13):** armour grants DR by weight class, light 1 / medium 2 /\n   heavy 3 (`16-armor-shields.qmd:35-44`); card DR adds. Shields grant Parry and Shield\n   Block, never DR. **DR SCOPE LAW: only HERO DR follows the kit rules. A creature's or\n   mount's DR is a stat-block value** and is never re-derived from gear; the tier ceilings\n   are 3 at Novice, 4 at Adept, 6 at Master (`20-bestiary.qmd:661`).\n6. **Creature HP is formula-derived, not hand-set:** HP = 3 x (your tier's band average\n   minus its DR), rounded, where the band average is 5.67 at Novice, 7.50 at Adept, 9.59\n   at Master (`20-bestiary.qmd:661-667`). A printed creature whose HP matches that formula\n   for its own tier and DR is correct even when a lower-Challenge creature has more HP.\n7. **Currency is REMOVED from the game (#523).** Nothing is bought: gear, packs, magic\n   items, mounts and vehicles are granted, found, or earned. Any phrase implying a\n   purchase, a price, a discount, funding, payment, a coin amount, or a trade for money is\n   a defect, and **commerce written without a coin word** (\"sell\", \"buy\", \"commission\",\n   \"post a reward\", \"fund\") is the exact class the #523 audit had to catch by hand.\n   Strongholds were cut from the first edition in the same commit; \"a hall\" and \"followers\"\n   are that commit's replacement vocabulary and are legal.\n8. **Challenge is the standard resolution for EVERY opposed contest (rolled 2026-09-13,\n   #507):** the actor rolls `3d6 + attribute + skill - Challenge`, the opposition never\n   rolls. A fixed difficulty (\"a Medicine check (Standard)\") is a different, legal shape.\n9. **Zero em-dashes** anywhere in the book source. Use a comma, a colon, or a full stop.\n10. **House emphasis in body text is Typst italic (`*word*`), never markdown bold.** One\n    known-benign exception: `19:548` prints `**Disciplines:**` inside a backtick span that\n    documents the card format, which the repo's structural gate deliberately exempts.\n11. **Printed numbering carries a +2 offset.** This file is 19 in source order and prints\n    as **Chapter 21**; its two figures are `Figure 21.1` and `Figure 21.2`, and its art\n    placeholder line is a book-wide convention. Do not file either as a defect.\n12. **Crossref law.** A cross-reference renders with its own trailing period, so nothing is\n    typed after a bare sentence-final ref or after a closing parenthesis that carries one.\n    A parenthetical ref followed by a colon occurs at six sites across the book (including\n    `19:204`): that is the book's own convention, not a chapter defect.\n13. **Two reputation systems coexist and are not the same thing:** `19:392-412` carries the\n    per-faction seven-point track (-3 to +3) and `18-advancement.qmd` carries Group\n    Reputation (Unknown through Legendary, 1-15+). A chapter must not print one track's\n    numbers under the other's tier names.\n14. **Recovery:** `21-glossary.qmd:231` names this chapter as the home of rest rules.\n    `13-combat.qmd:339-349` defines Grit (2 at Novice, 3 at Adept, 4 at Master, returning\n    on a respite, a full night's rest), and `21-glossary.qmd:69` states that HP does not\n    rise with level while Grit does. Wounds heal 1 per long rest, plus 1 more with a\n    Standard Medicine check (`13-combat.qmd:424`, `21:189`).\n15. **Skill keying** is fixed in `07-skills.qmd`: Endurance and Survival are Fortitude\n    (07:143-144), Perception is Reason (07:209), Nature is Knowledge, Athletics is Brawn.\n\n## Already checked by the orchestrator and CLEARED \u2014 do NOT file these\n\nReproduce anything you doubt, but these were verified against the source, and filing them\ncosts the run a round.\n\n- **The chapter contains ZERO em-dashes** (grep: 0). Do not file em-dash findings here.\n- **Neither creature's HP is a defect.** Drowned Guardian (Challenge 1/2) HP 14 = 3 x\n  (5.67 - 1) and Kelvath (Challenge 2) HP 8 = 3 x (5.67 - 3), both exactly the formula at\n  convention 6, and their DR sits under the Novice ceiling. Kelvath having less HP than a\n  Challenge 1/2 guardian is the formula working, not a boss that is weaker than a minion.\n- **Their DR values are stat-block values** under the DR SCOPE LAW (convention 5); the\n  parenthetical armour names are flavour. Do not re-derive creature DR from the armour\n  table.\n- **The encounter-budget arithmetic is correct and matches its mirrors.** `19:53-55`'s\n  multipliers are identical to the four-row table at `20:649-654` and `22:331-335`, and\n  \"a Standard (x2) encounter for a level 1 party is roughly two Challenge 1 creatures\"\n  satisfies them.\n- **`19:319`'s combat narration is arithmetically sound.** \"Weak, 2 damage after its\n  armor\" and \"Standard, 3 damage after its armor\" resolve for a Novice melee attack card\n  at Brawn +2 (floor 1/2/3 + 2 = 3/4/5) against the guardian's DR 1. Before filing it as\n  off-budget, name the attacker whose numbers fail that reading.\n- **The difficulty numbers at `19:41-43` (+2, +4, -2, -4) are the difficulty dial**, which\n  convention 4 protects; they are not situational roll modifiers.\n- **`19:407`'s \"Followers, a hall and a banner\"** is #523's replacement vocabulary for the\n  cut stronghold promise, not a stronghold reference.\n- **These printed numbers are all on the current Novice row or otherwise sanctioned:** the\n  poultice at `19:244` (heals 4), the seal's backlash at `19:341` (4 cold), the collapsing\n  ceiling at `19:354` (4 damage), and both creatures' `4/6/8` attack lines.\n- **This chapter's own card tables print the CURRENT law:** `19:559` names 4/6/8, 5/8/11,\n  7/10/14; `19:555` names the level gates Novice 1, Adept 3, Master 7; `19:588` and\n  `19:622` name card prices 2/4/8. Do not file the tables.\n- **Rarity vocabulary is current:** Rare, Very Rare and Legendary at `19:71` match\n  `17-magic-items.qmd:24`.\n- **Skill keying matches `07-skills.qmd`** for Survival, Endurance, Perception, Nature and\n  Athletics; \"Adept (+2)\" at `19:87` matches the skill-tier scale.\n- **\"slot\" is current vocabulary** (`15-equipment.qmd:253`), and \"temporary HP\" is an\n  established construct used in ch05, ch09 and ch12.\n- **Heroic Mode appears nowhere else in the book**, so `19:115` cannot contradict a\n  variant's home chapter.\n\n## Worked leads \u2014 verify or REFUTE these, do not simply restate them\n\nThese are the orchestrator's own pre-audit leads, offered as things to TEST. **Your own\nindependent audit is the deliverable**; a ballot that only rules on this list is a wasted\nballot. Report a lead you cleared as a result in its own right.\n\n- `19:55` says a larger party fights \"one step harder than the table suggests\", but this\n  chapter prints no encounter table; the table lives at `20:649` and `22:331`. Decide\n  whether the reference dangles.\n- `19:101-105` lists the long rest's benefits (HP equal to level, 1 wound, a Standard\n  Medicine check for a second, once per 24 hours) and never mentions Grit, although\n  `13:347` restores Grit on a full night's rest and `21:231` sends readers here for rest\n  rules. Decide whether the recovery budget's main resource is missing from its own\n  chapter.\n- `19:277` (consequence table) and `19:289` both print \"2 HP\" for a setback; 2 was the\n  Novice Weak value before #532 and the current Novice Weak is 4. Decide stale number\n  versus deliberate below-band hazard, and say which.\n- `19:600` prints an Adept ability whose Strong result is \"12 per the damage budget\"; the\n  same line appears at `05-classes.qmd:659`. An Adept card's Strong is 11 under convention\n  1. Check the value and the population of the error.\n- `19:566` labels Brimstone Burst a Novice card, while `08-disciplines.qmd:181` and\n  `:243` classify the same card as Adept (2 Fire, bought when the Adept gate opens) and\n  `10-magic-system.qmd:117-121` has its caster buy it at level 3. Determine which tier the\n  card is and whether the example is the outlier.\n- `19:484` grants \"a +2 bonus to one skill for the next session only\" as a faction action.\n  Decide whether that is a legal skill-tier grant or a situational roll bonus that the\n  Boon/Bane law (convention 4) requires be a Boon.\n- `19:371` (\"posted a reward ... the reward just grew\"), `19:90` (\"wants to sell the cursed\n  amulet\"), `19:79` (\"commission a custom magic item\") and `19:509` (\"they fund them\") are\n  commerce phrasings. Test each against convention 7 and decide which, if any, survive.\n- `19:194` makes \"the character becomes unplayable\" at 15+ Corruption, while the threshold\n  it prints is 10 + Fortitude modifier (so 8 to 12) and `05-classes.qmd` awards 1-2\n  Corruption on four Master abilities. Decide whether the ceiling is reachable and whether\n  the wording is a rule at all.\n- `19:548` states that an Adept or Master card replaces its outcome block with a single\n  Effect line, while ch11's 65 cards print Weak/Standard/Strong blocks and contain no\n  Effect line at all (ch12 has 2, ch09 has 7). Decide whether the chapter's format rule or\n  the cards are the defect, and say which file owns the repair.\n- `19:71-77` states treasure pacing (1-2 magic items per level per party; about one Very\n  Rare by level 10). Check it against whatever guidance `17-magic-items.qmd` gives.\n- `19:230` offers \"healing salves, torches, a mule\" as the concrete reward for a Strong\n  social result, and `19:363` a scroll whose spells the DA picks. Check these against the\n  grant vocabulary of convention 7 and against the item sets the book actually defines.\n\n## Cross-check chapters\n\n`05-classes` (class ability tables and their damage values), `07-skills` (skill keying),\n`08-disciplines` (bands, card prices, tier gates, the worked cost example),\n`09-talents-abilities` (card format), `10-magic-system` (the Brimstone Burst worked\nexample), `11-arcane-spells` and `12-divine-spells` (the card format in practice),\n`13-combat` (Grit, wounds, rests, conditions, maneuvers), `14-social-conflict` (the\nextended conflict this chapter points at), `15-equipment` (slots, kits, gear vocabulary),\n`16-armor-shields` (armour DR and weight classes), `17-magic-items` (rarity and item\ncards), `18-advancement` (Group Reputation, Heroic Mode's DP, milestone pacing),\n`20-bestiary` (creature bands, HP formula, encounter table, Recharge), `21-glossary`\n(rest, Grit, wound, HP), `22-reference-sheets` (the encounter and damage mirrors).\n\n**Note for t-03 work:** ch11 and ch12 are scheduled for their own Wave 3 re-review. If you\nfind damage-band residue inside a spell card, say so and name the card, but frame it as\nevidence about the FORMAT RULE this chapter teaches rather than as a ch11 card audit.\n\n## Citation rule\n\nEvery `evidence[].source` must cite either the registered source label `19-gm-guidance`,\nanother chapter's filename, or the literal `reasoning`. Quotes go in `quote_or_excerpt`\nonly, under about 12 words. `argument` and `evidence[].claim` are wall-linted against this\nstatement and the source: never place 10 or more consecutive words from either into them.\n",
+ "role": "contrarian",
+ "round": 2,
+ "task": "For each contested topic produce at least one concrete counter-example against the leading support position, or record explicitly 'tested A, B, C \u2014 no counter-example found'. Emit findings only."
+}
