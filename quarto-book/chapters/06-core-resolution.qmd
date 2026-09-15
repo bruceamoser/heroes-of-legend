@@ -81,7 +81,9 @@ In _Heroes of Legend_, when you swing your weapon or hurl a spell, _you connect.
 Your 3d6 attack roll determines the damage tier:
 
 *Weak:* Apply the weapon or spell's Weak damage value.
+
 *Standard:* Apply the Standard damage value.
+
 *Strong:* Apply the Strong damage value. Add any critical effects.
 
 These damage values come from the damage budget table (@sec-damage-budget) There is no separate damage roll: the outcome tier of your attack roll is your damage tier. Roll once, resolve everything.

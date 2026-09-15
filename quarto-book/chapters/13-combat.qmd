@@ -537,7 +537,7 @@ The party could press the attack, but Lyra is at 4 HP, Kael is at 4, and the Kni
 
 The party has tracked a bandit scout to a forest clearing. The bandit doesn't know they're here. The party wants him alive for questioning.
 
-*Surprise Check:* Lyra rolls Stealth: 3d6 + Agility (+2) + Stealth Adept (+2). Result: 5, 6, 4 = 15 + 4 = 19. *Strong.* The bandit's passive Insight is 7 (Knowledge 0 + 7). 19 beats 7 easily. Surprise achieved.
+*Surprise Check:* Lyra rolls Stealth: 3d6 + Agility (+2) + Stealth Adept (+2). The bandit's Knowledge is 0, so the Challenge is 0. Result: 5, 6, 4 = 15 + 4 = 19. *Strong.* Surprise achieved.
 
 *Round 1:* The party acts. The bandit does not.
 
