@@ -46,13 +46,13 @@ At each level, you gain 3-4 DP, with larger awards at milestone levels (1, 5). T
     table.header([Level], [DP], [Other Gains],),
     [1], [4], [Class signature, Starting Disciplines],
     [2], [3], [],
-    [3], [3], [Progression Discipline. Adept abilities unlock.],
+    [3], [3], [Discipline rank. Adept abilities unlock.],
     [4], [3], [Attribute increase (+1, max +2)],
     [5], [4], [DP windfall],
-    [6], [3], [Progression Discipline],
+    [6], [3], [Discipline rank],
     [7], [3], [Master abilities unlock],
     [8], [3], [Attribute increase (+1, max +2)],
-    [9], [3], [Progression Discipline],
+    [9], [3], [Discipline rank],
     [10], [3], [],
   )],
   kind: table,
@@ -60,7 +60,7 @@ At each level, you gain 3-4 DP, with larger awards at milestone levels (1, 5). T
   outlined: false,
 )
 
-Total DP by level 10: 32. Total Progression Disciplines: 3. Total attribute increases: 2.
+Total DP by level 10: 32. Total Discipline ranks gained: 3 (levels 3, 6 and 9). Total attribute increases: 2. The rank and cost rules for those three picks live in @sec-chapter-disciplines
 
 #quote[*Why this exists:* Advancement is purely DP-based. Classes do not have feature upgrades; progression is driven by player choice through Development Points. The table above shows total DP gain per level, not preset class features. Saving across levels is deliberate: the economy is built so that reaching the top tiers is a plan, not an accident.]
 
@@ -68,7 +68,7 @@ Total DP by level 10: 32. Total Progression Disciplines: 3. Total attribute incr
 
 == Group Reputation
 
-The party's renown grows with their deeds. Reputation affects NPC attitudes, quest availability, and title eligibility.
+The party's renown grows with their deeds. Reputation affects NPC attitudes and quest availability.
 
 #figure(
   align(center)[#table(
@@ -90,11 +90,11 @@ The DA awards reputation for deeds that earn renown: saving a town, toppling a t
 
 == Reveling
 
-A hero may fund one revel per session, and a night of legend is worth one point of reputation for the session. It costs what a night costs: the wine, the room, the story told so often that people start believing it. Carousing may attract unwanted attention, but legends are rarely made in silence.
+A hero may hold one revel per session: the wine, the room, the story told so often that people start believing it. The DA may award the party one point of reputation for a night of legend, and never more than a single point per session. A revel is a reward for the tale that gets told, not a purchase, and carousing may draw unwanted attention along with the applause. Legends are rarely made in silence.
 
 == Earned Titles
 
-The DA grants titles for deeds that become legend: slaying a great wyrm, brokering a lasting peace, surviving the impossible. A title is a reward, not a purchase, and it grants a mechanical benefit as long as the title fits. Examples: *Dragonslayer* (+1 damage tier vs dragons), *Knight of the Realm* (free lodging at any inn), *Archmage* (learn one Adept-tier spell card at no DP cost).
+The DA grants titles for deeds that become legend: slaying a great wyrm, brokering a lasting peace, surviving the impossible. A title is a reward, not a purchase, and it grants a mechanical benefit as long as the title fits. Examples: *Dragonslayer* (+1 damage tier vs dragons), *Knight of the Realm* (free lodging at any inn), *Archmage* (learn one Adept-tier spell card at no DP cost; requires level 3, and the card is yours to keep).
 
 #pagebreak()
 
@@ -105,3 +105,4 @@ At each level, you may exchange one skill rank or talent purchase for another of
 *Example:* At level 5, Roric, the party's Protector, realizes he never uses his Novice Intimidation. He retrains it to Novice Nature (both 2 DP). He spends a session training with a woodland guide to justify the change.
 
 #quote[*Why this exists:* Players make choices at level 1 without knowing how the game actually plays. Retraining lets them correct early mistakes without feeling stuck. It also means a character's build can evolve with the story.]
+```

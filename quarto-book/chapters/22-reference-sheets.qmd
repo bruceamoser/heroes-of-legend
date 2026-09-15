@@ -259,13 +259,13 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
   table.header([Level], [DP Gained], [Milestones],),
   [1], [4 DP], [Class signature, Starting Disciplines],
   [2], [3 DP], [],
-  [3], [3 DP], [Progression Discipline. Adept abilities unlock.],
+  [3], [3 DP], [Discipline rank. Adept abilities unlock.],
   [4], [3 DP], [+1 Attribute (max +2)],
   [5], [4 DP], [DP windfall],
-  [6], [3 DP], [Progression Discipline],
+  [6], [3 DP], [Discipline rank],
   [7], [3 DP], [Master abilities unlock],
   [8], [3 DP], [+1 Attribute (max +2)],
-  [9], [3 DP], [Progression Discipline],
+  [9], [3 DP], [Discipline rank],
   [10], [3 DP], [],
 )], kind: table, numbering: none, outlined: false)
 
