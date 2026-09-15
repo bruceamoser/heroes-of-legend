@@ -1,0 +1,188 @@
+{
+ "assembled_at": "2026-09-15T02:40:20Z",
+ "wall": {
+  "ngram_n": 10,
+  "reject_at": 1
+ },
+ "contested_topics": {
+  "t-01": {
+   "positions": {
+    "Speaker A": "refute",
+    "Speaker E": "refute"
+   },
+   "findings": [
+    {
+     "id": "f-001",
+     "round": 1,
+     "speaker": "Speaker A",
+     "stance": "refute",
+     "argument": "The Parry row on line 194 tells a reader that holding a shield contributes damage reduction and merely declines to add a roll bonus. The locked hero-DR law says the opposite: armour supplies DR by weight class, talents stack onto that, and a shield supplies none, so leather (1) with Iron Skin (+2) sits at 3 and a shield changes nothing. The same chapter contradicts this row 171 lines later and again in its defense summary, and the shield section of the owning rules reads each shield's printed number as a Protection rank cost, not a DR value. A referee who trusts the skill list will award DR that the banded ceiling and the owning chapters deny, so the clause must be deleted, not reworded. This row is the only surviving shield-DR claim in the chapter.",
+     "confidence": 0.95,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "22-reference-sheets",
+       "claim": "The Parry skill row asserts that a shield supplies damage reduction while denying it any roll bonus, which is the retired shield-DR claim surviving on the skill table."
+      },
+      {
+       "source": "22-reference-sheets",
+       "claim": "The defense summary inside this same file names armour weight classes and talents as the whole of a hero's damage reduction and rules a shield out, so the skill row contradicts its own document."
+      },
+      {
+       "source": "07-skills.qmd",
+       "claim": "The chapter that owns the skill table says in its shield note that a shield is an implement you can be holding and adds nothing to the Parry roll past the rank itself."
+      },
+      {
+       "source": "13-combat.qmd",
+       "claim": "The combat chapter's defense section gives a shield a role in Parry and Shield Block and refuses it any roll bonus, attaching no damage reduction to carrying one."
+      },
+      {
+       "source": "21-glossary.qmd",
+       "claim": "The glossary's damage-reduction entry locates DR in armour weight classes and talents and states that shields contribute none of their own."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Worked total for a Novice wearing leather with Iron Skin: the armour term is 1, the talent term is 2, the banded cap is 3, and the row's shield term cannot be evaluated because the sheet prints no amount for it. The expected shield contribution under the locked law is zero, so the row's printed claim overstates DR by an unpriced amount."
+      }
+     ]
+    },
+    {
+     "id": "f-009",
+     "round": 2,
+     "speaker": "Speaker E",
+     "stance": "refute",
+     "argument": "The whole-book instance count behind this defect is one too low, and the one-site repair that follows from it is under-scoped. f-001's own wording is chapter-scoped and stands as written, but the stronger form of the claim, f-002's whole-book search naming this row as the sole carrier across every chapter file, is falsified here: the withdrawn idea that bearing a shield yields damage reduction survives at two sites in two registers. Besides this sheet's Parry entry there is the bestiary's Guard stat block, whose shield line adds a point of reduction. That second site is invisible to a search scoped to the mirror file, and it is not academic, because the sheet's own Standard encounter row fields a Knight beside half a dozen Guards, so a referee working from these pages applies that stat block's shield value directly. The count correction changes the edit as well: on the sheet the clause goes outright, but in the stat block a blind deletion strips protection the author wrote into the creature, so that value belongs either inside the creature's authored reduction total or gone together with the line. This class was under-counted once before in this book, when a protection sweep in another run returned half a dozen carriers where the filed finding had named three, which is the standing lesson to re-derive such site lists rather than inherit them.",
+     "confidence": 0.9,
+     "rebutting": [
+      "f-001",
+      "f-002"
+     ],
+     "evidence": [
+      {
+       "source": "22-reference-sheets",
+       "claim": "The Parry line in this file's skill table still credits a shield with damage reduction, which is the single instance the round-1 game architect filed and the one this finding keeps."
+      },
+      {
+       "source": "20-bestiary.qmd",
+       "claim": "A humanoid entry in the bestiary gives its Guard a separate shield line adding one point of reduction, the second surviving carrier and one a mirror-scoped search cannot reach."
+      },
+      {
+       "source": "20-bestiary.qmd",
+       "claim": "One stat block later, the Knight handles its shield as a reaction and attaches no reduction to it, so the bestiary itself shows the sanctioned shape the Guard entry departs from."
+      },
+      {
+       "source": "22-reference-sheets",
+       "claim": "The Standard row of this sheet's encounter table pairs one Knight with six Guards, so the stat block carrying the second instance is on the sheet's own worked example page."
+      },
+      {
+       "source": "16-armor-shields.qmd",
+       "claim": "The armour chapter's designer note refuses shields a passive reduction bonus and casts them as an active defense, so that site belongs on the denial side of the tally rather than the carrier side."
+      },
+      {
+       "source": "21-glossary.qmd",
+       "claim": "The glossary states the law outright, locating reduction in armour weight and talents and withdrawing it from shields, which makes it a restatement of the rule and not another instance of the defect."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Classifying the remaining hits bounds the carrier set at two: the sheet's skill row and the bestiary's Guard line. The armour guidance, the core-resolution exclusion, the combat definition and the glossary entry each refuse shields any reduction, talents and ward cards add reduction under their own sanctioned heads, and mount barding is creature kit, so none of those joins the count."
+      }
+     ]
+    }
+   ]
+  },
+  "t-03": {
+   "positions": {
+    "Speaker B": "refute",
+    "Speaker C": "refute",
+    "Speaker D": "refute"
+   },
+   "findings": [
+    {
+     "id": "f-003",
+     "round": 1,
+     "speaker": "Speaker B",
+     "stance": "refute",
+     "argument": "The lookup sheet depends on a resource it never prints. Its basic-maneuvers table charges a maneuver against the reader's Grit, and its Dying table stops at 0 HP, yet no row, table or sentence in the chapter says how much Grit a hero has or what spending one does. Grit is a locked convention (2/3/4 by tier, spend one to reset HP to maximum and take a wound, restored by a full night's rest), it is the first subsection of the owning chapter's Dying and Death section, and character creation gives it its own derived-stat line. A reader using only these tear-out pages cannot record the statistic at creation and cannot resolve a maneuver the sheet itself prints, which falsifies the chapter's own opening promise that these pages carry the numbers needed. This is a stall, not a wrong number. Smallest fix: add a Grit row to the Dying sub-section at :147, mirroring the owning chapter's values, and restore Grit to the derived-stats enumeration at :249.",
+     "confidence": 0.82,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "22-reference-sheets",
+       "claim": "The basic-maneuvers table prices a maneuver's uses against a tier-scaled resource whose value the sheet never states, so that row cannot be used on its own."
+      },
+      {
+       "source": "13-combat.qmd",
+       "claim": "The owning chapter nests Grit as the opening subsection of Dying and Death, giving its tier values and its spend procedure; this sheet reproduces that section's dying roll but not its Grit rules."
+      },
+      {
+       "source": "02-character-creation.qmd",
+       "claim": "Character creation's derived-statistics table gives Grit a line of its own, while the reference sheet's checklist enumerates four derived stats and omits it, so the mirror drops a stat its owner prints."
+      },
+      {
+       "source": "21-glossary.qmd",
+       "claim": "The glossary carries Grit, Wound and Respite as separate entries, confirming the book treats recovery as reader-facing vocabulary that a lookup surface would be expected to serve."
+      }
+     ]
+    },
+    {
+     "id": "f-005",
+     "round": 1,
+     "speaker": "Speaker C",
+     "stance": "refute",
+     "argument": "Folio 365 of Chapter 24 prints with nothing on it. Measured on a clean build of the current file: the 23-row Conditions figure at :89-116 overruns the printable height of folio 364, so its closing decoration is carried onto the next folio, and the bare page-break directive at :118 then pushes the Effects subsection to 366. The result is an entirely content-free page inside a tear-out lookup chapter, printed with only the running head, the folio, and one stray full-width rule. Two repairs, both verified by rebuilding: delete the redundant :118 break (388 pages becomes 387, Effects fills 365), or shorten the figure so it sits on 364 (a 22-row build also clears the empty folio). This is not clipping, and the chapter is otherwise render-clean: all 23 condition rows survive, 102 of 102 table-row tails survive, and the weapon table's split at 376/377 repeats its header. So the tall-table overflow risk this chapter carries shows up as one wasted page, not lost rows.",
+     "confidence": 0.88,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "22-reference-sheets",
+       "claim": "The Conditions figure is closed and then followed, with no text between, by a standalone page-break directive; the Effects subsection heading appears only after that directive, so one directive is the sole thing standing between a figure that overruns its page and a content-free folio."
+      },
+      {
+       "source": "reasoning",
+       "claim": "A clean rebuild of the file at HEAD places the chapter on folios 360-379 and leaves folio 365 with no body text: rasterized at 40 dpi it holds seven ink rows, all page furniture plus a single full-width rule, against 200 ink rows on 364 and 143 on 366. Its whole text layer is the header and the folio."
+      },
+      {
+       "source": "reasoning",
+       "claim": "The empty folio comes from the figure's height, not from the directive alone. Rebuilding with the same page break but one fewer Conditions row gives 387 pages and no blank folio at 365; rebuilding with the row restored and the :118 directive deleted gives 387 pages with the Effects table on 365."
+      }
+     ]
+    },
+    {
+     "id": "f-007",
+     "round": 2,
+     "speaker": "Speaker D",
+     "stance": "refute",
+     "argument": "I rebuilt the book from the current HEAD myself, twice (once in the working tree, once from a scratch copy), and both runs give a 387-page PDF whose folio 365 carries nothing but the running head, its page number and one stray full-width rule sitting at the frame top: four words in the text layer, no body copy at all, and a negative fill reading precisely because no ink reaches below the frame top. That folio falls mid-chapter, between the Conditions sheet on 364 and the Effects sheet on 366, so neither the chapter-opener nor the closing-page exemption excuses it. The Conditions block has no spare room: its final line stops 5.45pt above the frame floor against a 14.3pt line pitch, and the figure's trailing leftover is already spilling when the standalone break that follows it is read, so the break lands one page late. Three separate one-line experiments each delete the empty folio and leave 386 pages: dropping that break, dropping one Conditions row, and rewording a single cell so it sheds one wrapped line. The round-one defect therefore reproduces on every point I could measure, down to its seven ink rows, while two of its bookkeeping numbers are off by one (its page count is one high, and the chapter span reads 359-379 here, not 360-379).",
+     "confidence": 0.95,
+     "rebutting": [
+      "f-005"
+     ],
+     "evidence": [
+      {
+       "source": "reasoning",
+       "claim": "A fresh build of the current HEAD yields 387 pages, and the folio 365 text layer holds four words, all of them page furniture rather than body text."
+      },
+      {
+       "source": "reasoning",
+       "claim": "A 40-dpi raster of that folio shows seven ink rows: the running head, the page rule every page carries, one extra full-width rule at the frame top, and the folio; folios 364 and 366 lack that extra rule."
+      },
+      {
+       "source": "22-reference-sheets",
+       "claim": "The Conditions figure's own last row ends 5.45pt above the frame floor, less than one line pitch, so the block has no slack and the standalone break that follows it is what puts the Effects sheet a folio late."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Each of three independent one-line repairs removes the empty folio and leaves 386 pages: deleting the break, deleting one Conditions row, and rewording one cell to shed a wrapped line."
+      },
+      {
+       "source": "reasoning",
+       "claim": "The 388-page figure in the round-one report matches a page-splitting artefact rather than the file: splitting the text dump on form feeds leaves one trailing empty chunk, while the PDF itself declares 387."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "sealed_rulings": [],
+ "instruction": "You are a blind judge. You see ONLY the arguments as presented below. You have no access to, and no knowledge of, the underlying problem statement or sources. Speakers are anonymized: you see 'Speaker A', 'Speaker B', etc. Their roles, identities, and models are unknown and must not be inferred; weigh each argument on its merits alone. Rule on each contested topic. Output one ruling JSON object per topic, exactly matching the council ruling schema."
+}

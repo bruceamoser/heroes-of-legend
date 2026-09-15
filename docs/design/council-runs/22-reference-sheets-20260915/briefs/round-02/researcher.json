@@ -1,0 +1,206 @@
+{
+ "council": "hol-rulebook",
+ "ledger_view": {
+  "open_refutes": [
+   {
+    "argument": "The Parry row on line 194 tells a reader that holding a shield contributes damage reduction and merely declines to add a roll bonus. The locked hero-DR law says the opposite: armour supplies DR by weight class, talents stack onto that, and a shield supplies none, so leather (1) with Iron Skin (+2) sits at 3 and a shield changes nothing. The same chapter contradicts this row 171 lines later and again in its defense summary, and the shield section of the owning rules reads each shield's printed number as a Protection rank cost, not a DR value. A referee who trusts the skill list will award DR that the banded ceiling and the owning chapters deny, so the clause must be deleted, not reworded. This row is the only surviving shield-DR claim in the chapter.",
+    "confidence": 0.95,
+    "evidence": [
+     {
+      "claim": "The Parry skill row asserts that a shield supplies damage reduction while denying it any roll bonus, which is the retired shield-DR claim surviving on the skill table.",
+      "source": "22-reference-sheets"
+     },
+     {
+      "claim": "The defense summary inside this same file names armour weight classes and talents as the whole of a hero's damage reduction and rules a shield out, so the skill row contradicts its own document.",
+      "source": "22-reference-sheets"
+     },
+     {
+      "claim": "The chapter that owns the skill table says in its shield note that a shield is an implement you can be holding and adds nothing to the Parry roll past the rank itself.",
+      "source": "07-skills.qmd"
+     },
+     {
+      "claim": "The combat chapter's defense section gives a shield a role in Parry and Shield Block and refuses it any roll bonus, attaching no damage reduction to carrying one.",
+      "source": "13-combat.qmd"
+     },
+     {
+      "claim": "The glossary's damage-reduction entry locates DR in armour weight classes and talents and states that shields contribute none of their own.",
+      "source": "21-glossary.qmd"
+     },
+     {
+      "claim": "Worked total for a Novice wearing leather with Iron Skin: the armour term is 1, the talent term is 2, the banded cap is 3, and the row's shield term cannot be evaluated because the sheet prints no amount for it. The expected shield contribution under the locked law is zero, so the row's printed claim overstates DR by an unpriced amount.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-001",
+    "role": "game-architect",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "Line 194 of this sheet, the Parry entry in the skills table, injects a clause claiming a shield both enables Parry and supplies Damage Reduction. The 2026-09-13 protection ruling derives hero protection only from armour weight class plus talent bonuses, treats a shield's printed figure as a Protection Discipline requirement, and grants shields no damage reduction; six owner sites (06:107-110, 07:146/155, 13:113, 15:247, 16:23-25/60/70) concur. The sheet also contradicts itself: line 365 denies that your shield is a source of protection and line 398 describes shields as enabling only Parry and Shield Block. A scan of all 25 chapter files returns this one row as the sole carrier of the withdrawn idea, so the outlier is 194, not the owners. My independent tallies: conditions 23 rows with 2 drifting cells (Asleep X, Marked); skills 23 rows with 0 attribute mismatches; armour 8 rows with 0 mismatches; advancement column summing to 32 DP; the 3d6 expectation of the damage bands computed at 5.667/7.500/9.593 against the bestiary's 5.67/7.50/9.59; all four encounter multipliers agreeing.",
+    "confidence": 0.95,
+    "evidence": [
+     {
+      "claim": "The skills table's Parry line adds a clause asserting that shields supply damage reduction.",
+      "source": "22-reference-sheets"
+     },
+     {
+      "claim": "The same sheet later denies that any protection originates from a shield.",
+      "source": "22-reference-sheets"
+     },
+     {
+      "claim": "The owning armour chapter roots protection in weight class and talents, and calls a shield an active defense rather than a passive number.",
+      "source": "16-armor-shields.qmd"
+     },
+     {
+      "claim": "The owning skills chapter prints the Parry entry with no damage-reduction clause at all.",
+      "source": "07-skills.qmd"
+     },
+     {
+      "claim": "Core resolution states a shield contributes nothing to the Parry roll and is excluded from damage reduction.",
+      "source": "06-core-resolution.qmd"
+     },
+     {
+      "claim": "The combat chapter likewise says a shield enables Parry and Shield Block but adds no roll bonus.",
+      "source": "13-combat.qmd"
+     },
+     {
+      "claim": "A whole-book search over the 25 chapter files returns exactly one surviving row carrying the withdrawn shield-DR claim.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-002",
+    "role": "researcher",
+    "stance": "refute",
+    "topic": "t-02"
+   },
+   {
+    "argument": "The lookup sheet depends on a resource it never prints. Its basic-maneuvers table charges a maneuver against the reader's Grit, and its Dying table stops at 0 HP, yet no row, table or sentence in the chapter says how much Grit a hero has or what spending one does. Grit is a locked convention (2/3/4 by tier, spend one to reset HP to maximum and take a wound, restored by a full night's rest), it is the first subsection of the owning chapter's Dying and Death section, and character creation gives it its own derived-stat line. A reader using only these tear-out pages cannot record the statistic at creation and cannot resolve a maneuver the sheet itself prints, which falsifies the chapter's own opening promise that these pages carry the numbers needed. This is a stall, not a wrong number. Smallest fix: add a Grit row to the Dying sub-section at :147, mirroring the owning chapter's values, and restore Grit to the derived-stats enumeration at :249.",
+    "confidence": 0.82,
+    "evidence": [
+     {
+      "claim": "The basic-maneuvers table prices a maneuver's uses against a tier-scaled resource whose value the sheet never states, so that row cannot be used on its own.",
+      "source": "22-reference-sheets"
+     },
+     {
+      "claim": "The owning chapter nests Grit as the opening subsection of Dying and Death, giving its tier values and its spend procedure; this sheet reproduces that section's dying roll but not its Grit rules.",
+      "source": "13-combat.qmd"
+     },
+     {
+      "claim": "Character creation's derived-statistics table gives Grit a line of its own, while the reference sheet's checklist enumerates four derived stats and omits it, so the mirror drops a stat its owner prints.",
+      "source": "02-character-creation.qmd"
+     },
+     {
+      "claim": "The glossary carries Grit, Wound and Respite as separate entries, confirming the book treats recovery as reader-facing vocabulary that a lookup surface would be expected to serve.",
+      "source": "21-glossary.qmd"
+     }
+    ],
+    "id": "f-003",
+    "role": "editor-in-chief",
+    "stance": "refute",
+    "topic": "t-03"
+   },
+   {
+    "argument": "Row-by-row comparison of this chapter's status-effect mirror against the table it copies turned up entries whose cells were reworded past fidelity. The sharpest is the sleep entry. On the sheet, the effect column keeps only a bare state of unawareness and the ending column folds a duration in beside the damage trigger, so a reader learns the sleeper can come round when the clock runs out. The owning combat table does the opposite: it carries the duration inside the effect and prints damage alone as what breaks the sleep, and the glossary entry was written the same way. Two independent owner sites against one mirror site means the outlier is the sheet, and the consequence is a real misreading at the table: a referee working from these tears-out pages allows a timer to end an effect the rules he is quoting say only a hit ends. Repair both cells on the sheet, not the owners. This is a condensed re-encoding, not a different rule, so the fix is small: restore the duration to the effect and reduce the ending column to the damage trigger.",
+    "confidence": 0.8,
+    "evidence": [
+     {
+      "claim": "The sleep entry on this sheet prints only a bare state of unawareness as the effect and turns the duration into a way for the effect to lapse, listing it alongside damage in the ending column.",
+      "source": "22-reference-sheets"
+     },
+     {
+      "claim": "The owning conditions table puts the duration inside the effect column and gives damage as the single thing that wakes the target, printing no time-based lapse at all.",
+      "source": "13-combat.qmd"
+     },
+     {
+      "claim": "The glossary entry for the same condition is phrased like the owning table, keeping the duration with the effect and tying the wake event to taking damage.",
+      "source": "21-glossary.qmd"
+     },
+     {
+      "claim": "Two owner sites agree with each other while the mirror alone shifts the duration into its ending column, which is the signature of a rewording drift rather than an owner-side change; the mirror therefore loses.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-004",
+    "role": "author",
+    "stance": "refute",
+    "topic": "t-02"
+   },
+   {
+    "argument": "Folio 365 of Chapter 24 prints with nothing on it. Measured on a clean build of the current file: the 23-row Conditions figure at :89-116 overruns the printable height of folio 364, so its closing decoration is carried onto the next folio, and the bare page-break directive at :118 then pushes the Effects subsection to 366. The result is an entirely content-free page inside a tear-out lookup chapter, printed with only the running head, the folio, and one stray full-width rule. Two repairs, both verified by rebuilding: delete the redundant :118 break (388 pages becomes 387, Effects fills 365), or shorten the figure so it sits on 364 (a 22-row build also clears the empty folio). This is not clipping, and the chapter is otherwise render-clean: all 23 condition rows survive, 102 of 102 table-row tails survive, and the weapon table's split at 376/377 repeats its header. So the tall-table overflow risk this chapter carries shows up as one wasted page, not lost rows.",
+    "confidence": 0.88,
+    "evidence": [
+     {
+      "claim": "The Conditions figure is closed and then followed, with no text between, by a standalone page-break directive; the Effects subsection heading appears only after that directive, so one directive is the sole thing standing between a figure that overruns its page and a content-free folio.",
+      "source": "22-reference-sheets"
+     },
+     {
+      "claim": "A clean rebuild of the file at HEAD places the chapter on folios 360-379 and leaves folio 365 with no body text: rasterized at 40 dpi it holds seven ink rows, all page furniture plus a single full-width rule, against 200 ink rows on 364 and 143 on 366. Its whole text layer is the header and the folio.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "The empty folio comes from the figure's height, not from the directive alone. Rebuilding with the same page break but one fewer Conditions row gives 387 pages and no blank folio at 365; rebuilding with the row restored and the :118 directive deleted gives 387 pages with the Effects table on 365.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-005",
+    "role": "layout-expert",
+    "stance": "refute",
+    "topic": "t-03"
+   },
+   {
+    "argument": "The wave treated the retired-band question as settled for the whole book, but the clearing search never left this file, and the retired Novice triple is still what governs the spell this sheet's own budget block is measured against. The budget block here prints the live bands and is the correct side of the comparison. The chapter that owns that budget contradicts its own table one paragraph later by teaching the same spell's three values as the retired triple, and the spell card, the combat worked example and the bestiary stat block all reproduce those stale numbers. So the mirror is right and the owners are the ones that drifted. The repair belongs in the owning files named below, and no cell of this sheet's budget block should be touched.",
+    "confidence": 0.88,
+    "evidence": [
+     {
+      "claim": "This sheet's budget block states the live tier rows, with the Novice line reading four, six and eight, so the mirror is the correct statement of the current bands.",
+      "source": "22-reference-sheets"
+     },
+     {
+      "claim": "The file that owns the damage budget prints its live table at :210-212 and then, in a callout at :222, teaches the same spell's numbers as the retired triple, pairing that stale triple with the current Adept row in the next sentence of the same callout.",
+      "source": "08-disciplines.qmd"
+     },
+     {
+      "claim": "The Ember Lance card at :171-175 prints Weak two, Standard four and Strong six for a rank-one Fire spell, which is the retired Novice row rather than the live row its own chapter instructs cards to key to.",
+      "source": "11-arcane-spells.qmd"
+     },
+     {
+      "claim": "The Archmage stat block states the same spell's damage as the retired triple, the surviving row a file-scoped search cannot see.",
+      "source": "20-bestiary.qmd"
+     },
+     {
+      "claim": "The combat worked example resolves the same spell at the retired Standard value of four, where the live Novice Standard is six.",
+      "source": "13-combat.qmd"
+     },
+     {
+      "claim": "Arithmetic: the live Novice row reads four six eight and the printed card reads two four six, exactly the live values minus two, which is the row the renumbering retired, so this is staleness and not a second sanctioned convention.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-006",
+    "role": "contrarian",
+    "stance": "refute",
+    "topic": "t-02"
+   }
+  ],
+  "positions": {
+   "t-01": {
+    "game-architect": "refute"
+   },
+   "t-02": {
+    "author": "refute",
+    "contrarian": "refute",
+    "researcher": "refute"
+   },
+   "t-03": {
+    "editor-in-chief": "refute",
+    "layout-expert": "refute"
+   }
+  },
+  "sealed_rulings": []
+ },
+ "problem_brief": "# Council problem statement \u2014 Chapter 22, Quick Reference Sheets\n\n**Source:** `22-reference-sheets.qmd` (472 lines, 18,851 bytes, 17 sections, almost entirely\n`#table(` figures: Core Resolution, Difficulty Modifiers, Combat Quick-Reference, Conditions,\nEffects, Morale, Dying, Cover, Damage Types, Skills, Discipline Catalog, Character Creation,\nLevel Progression, DP Cost, Damage Budget, Encounter Building, Common Item Reference).\n\n**Question for the council:** is this chapter publishable as it stands?\n\n**This chapter owns nothing.** It is the book's one-page-per-topic LOOKUP surface: every row is\na restatement of a rule that lives in another chapter. That makes it the highest-risk file in\nthe book and it changes what counts as a defect here. Three failure classes are native to a\nmirror sheet and should be your targets:\n\n1. **A drifted mirror.** A row disagrees with the chapter that owns the rule it restates. The\n   owning chapter always wins; the mirror is what gets repaired.\n2. **A self-contradiction.** The file disagrees with ITSELF, because two of its own sections\n   restate the same rule and only one was updated. This is the sharpest class: the reader has\n   both statements in one document and no way to tell which governs.\n3. **A missing or unreachable row.** The reference surface omits something a reader will look\n   for, or prints a row nothing can produce, or repeats one row across two tables with\n   different values.\n\n**Why this chapter is live.** The book was rebuilt on 2026-09-13/14: the damage bands were\nrenumbered (#532), the card library was split then culled (#537, #538), currency was removed\n(#523), Grit became the recovery budget (#533), the hero DR law was ruled (armour grants DR by\nweight class and card DR ADDS to it), and Challenge became the resolution for every opposed\ncontest. This chapter was last reviewed on 2026-09-01 and is the single most-mirrored file in\nthe book, so it is where a superseded rule survives longest. **Four of its cells were already\nrepaired today by PR #549** (`:234`, `:248`, `:365`, `:398`), which shows the class is present\nhere; treat those four as done and do not re-file them.\n\n## Topics\n\n- **t-01** conformance to the locked conventions below (bands, prices, gates, Boon/Bane, DR,\n  dice, vocabulary, currency, the one-card law)\n- **t-02** mirror fidelity: every row against the chapter that owns the rule it restates, and\n  every row against the same file's other statements of the same rule\n- **t-03** coverage and usability: rows a reader needs but cannot find, dead or unreachable\n  rows, duplicated rows, section order, heading hierarchy, cross-references, and the render\n\nEvery finding MUST set `topic` to exactly `t-01`, `t-02`, or `t-03`. One finding carries one\ndefect; name any others in your reply.\n\n## Locked conventions (current as of 2026-09-14 \u2014 these ARE the law this run tests against)\n\n1. **Damage bands, flat, renumbered 2026-09-13 (#532): Novice 4/6/8, Adept 5/8/11, Master\n   7/10/14** (Weak/Standard/Strong). **The retired rows 2/4/6, 6/9/12 and 9/15/21 are valid\n   nowhere in the book.** Success tiers: Weak 1-8, Standard 9-14, Strong 15+. Basic attack card\n   floor 1/2/3 plus the attribute; unarmed 1/1/2; cantrips 1/3/5.\n2. **The one-card law (#537/#538):** a card is bought once at one tier for one price (Novice\n   2 DP, Adept 4 DP, Master 8 DP) and never changes. Level gates: Novice 1, Adept 3, Master 7.\n   No rungs, no upgrade paths, no spell chains, no card that improves another card.\n3. **Discipline cost structures:** Home 1/2/4, Adjacent 2/4/8, Foreign 3/6/12, Opposed 4/8/16,\n   the three numbers being the rank-1/2/3 prices in DP. No-prereq Novice basics cost only the\n   flat 2 DP. **Cantrips are free and carry no Discipline requirement** (decisions-pending\n   #109; `10-magic-system.qmd:71-77`).\n4. **Flat damage riders are dead.** \"+1 damage tier\" is the sanctioned increase. A flat\n   \"+N damage\" rider never appears.\n5. **Boon/Bane law.** Anything changing how likely a roll is to succeed is a Boon or a Bane,\n   never a numeric roll modifier; Boon and Bane cancel one for one. The numeric modifiers that\n   survive are exactly: attributes (-2 to +2), skill tiers (+1/+2/+3), the difficulty dial, and\n   a Challenge penalty. The dial runs +4 Trivial, +2 Easy, +0 Standard, -2 Hard, -4 Very Hard,\n   -6 Nearly Impossible.\n6. **Hero DR law (2026-09-13).** Armour grants DR by weight class: light 1, medium 2, heavy 3.\n   **Card DR ADDS to it** (`09-talents-abilities.qmd:47`), and the ceiling is **band-relative:\n   3 Novice / 4 Adept / 6 Master** (`16-armor-shields.qmd:23-27`). **Shields grant NO DR.**\n   Shields enable Parry and Shield Block and never add a roll bonus (`06:107`, `07:155`,\n   `13:113`, `15:247`, `16:70`). A shield's printed number is its PROTECTION DISCIPLINE\n   REQUIREMENT, not a DR value. Only HERO DR follows the kit rules; a creature's or mount's DR\n   is a stat-block value (barding +1/+3, bestiary DR = Challenge \u00f7 2, max 6).\n7. **Currency is REMOVED (#523).** Nothing is bought. Any row implying a purchase, a price, a\n   coin amount, funding or payment is a defect, and commerce written without a coin word\n   (\"buy\", \"sell\", \"commission\") is the class the #523 audit had to catch by hand.\n8. **Challenge is the standard resolution for EVERY opposed contest (#507):** the actor rolls\n   `3d6 + attribute + skill - Challenge`; the opposition never rolls. A fixed difficulty (\"a\n   Medicine check (Standard)\") is a different, legal shape.\n9. **Zero em-dashes** anywhere in the book source.\n10. **House emphasis in body text is Typst italic (`*word*`), never markdown bold.**\n11. **The Discipline roster is 24 in nine types** (`08-disciplines.qmd:34-58`): Elemental\n    (Fire, Earth, Wind, Water), Weapon (Blades, Axes, Polearms, Archery, Heavy Weapon,\n    Unarmed), Defense (Protection, Armor), Primal (Animal, Plants), Arcane (Energy), Divine\n    (Life, Religion), Esoteric (Mind, Summon, Fate), Subterfuge (Stealth, Sleight), Knowledge\n    (Lore, Tactics). A Discipline rank never exceeds 3.\n12. **Conditions:** `13-combat.qmd:191-216` Table 13.3 is the canon list of 23, and the\n    condition LEVEL (`Burning 3`, `Slowed 10`) is the magnitude the effect sets.\n13. **Grit and recovery:** Grit is 2 Novice / 3 Adept / 4 Master, spending one resets HP to\n    maximum and forces a Wound Table roll, and it returns on a respite, a full night's rest\n    (`13:339-349`). Wounds heal 1 per long rest, plus 1 with a Standard Medicine check.\n14. **Printed numbering carries a +2 offset.** This file is 22 in source order and prints as\n    **Chapter 24**; its figure is `Figure 24.1`, and its art placeholder line is a book-wide\n    convention. Do not file either as a defect.\n15. **Crossref law.** A cross-reference renders with its own trailing period, so nothing is\n    typed after a bare sentence-final ref or after a closing parenthesis carrying one.\n16. **Skills are keyed as `07-skills.qmd` keys them:** Athletics BR, Parry BR, Acrobatics AG,\n    Dodge AG, Endurance FO, Survival FO, Lore KN, History KN, Arcana KN, Nature KN, Religion KN,\n    Medicine RE, Insight RE, Perception RE, Craft RE, Alchemy RE, Persuasion GU, Deception GU,\n    Performance GU, Stealth AG, Sleight of Hand AG, Thievery AG, Intimidation BR.\n17. **Encounter building:** `20-bestiary.qmd` owns the Challenge bands (C\u00bd\u20132 / C3\u20136 / C7+) and\n    the Challenge Budget table (Easy = \u00d7 party level, Standard = \u00d72 party level, Hard = \u00d73).\n\n## Already checked by the orchestrator and CLEARED \u2014 do NOT file these\n\n- **Zero em-dashes. Zero retired damage rows. Zero currency words. Zero flat damage riders.\n  Zero retired DR-law or flat-cap language outside the one lead named below.** Verified by grep\n  on the file; a mechanically clean chapter means the round is hunting deeper than the obvious.\n- **`Figure 24.1`, the art placeholder line, and the duplicated `#label(\"sec-chapter-\u2026\")` inside\n  the Typst fence are all book-wide convention** (conventions 14 and the book's own pattern).\n- **`:311-323`'s Damage Budget table prints the live bands** with the Challenge-band labels\n  (Novice C\u00bd\u20132 / Adept C3\u20136 / Master C7+). Correct on every count.\n- **`:340-354`'s armour table's DR column is CORRECT and newly restored** (Padded/Leather/\n  Studded Leather 1, Chain Shirt/Breastplate 2, Half Plate/Chain Mail/Plate 3). The shipped\n  hero-DR law re-established this column; do NOT flag it as a retired-DR residual.\n- **`:357-363`'s shield table's `[Protection Req]` column is the PROTECTION DISCIPLINE\n  REQUIREMENT, not a DR value.** Its 1/1/2 are Discipline ranks. Do not file it as the retired\n  shield-DR column.\n- **`:398`'s defense summary was corrected today in PR #549** (armour plus talents, banded\n  ceiling, shields grant none). Do not re-file it.\n- **`:381-397`'s weapon table has 17 rows** and its prerequisites are legal discipline shapes\n  (a 2+1 is a three-rank requirement, which is the ceiling, not a violation).\n- **`:254-274`'s level progression totals check out:** 4+3+3+3+4+3+3+3+3+3 = 32 advancement DP,\n  plus 8 Class DP, plus background DP (8 + Knowledge + Fortitude) = 44-52 career DP, matching\n  the advancement chapter.\n- **`:239-252`'s creation checklist** matches ch02's steps and the attribute rule (-2 to +2,\n  total +3).\n- **`:172-186`'s damage-type list matches `13-combat.qmd:144-152`** (the Elemental family is\n  Fire, Cold, Lightning, Acid, Poison, Thunder; the Magical family is Force, Radiant, Necrotic,\n  Psychic). Note this is the damage FAMILY, a different thing from the Elemental DISCIPLINE\n  type; do not conflate them.\n- **`:220-237`'s Discipline catalog carries all 24 members including Fate.**\n\n## Worked leads \u2014 verify or REFUTE these, do not simply restate them\n\nYour own independent audit is the deliverable. **A ballot that only rules on this list is a\nwasted ballot.** A lead you clear is a result; report it as one.\n\n- **`:194`'s Parry row says a shield \"enables Parry and gives DR, never a roll bonus\".** Test\n  that against convention 6 and against THIS FILE'S OWN `:365`, which says the opposite in the\n  same document. If it is wrong, decide which side is the outlier and whether any other row in\n  the file carries the same retired claim.\n- **`:290`'s DP Cost table's last row is \"No-prereq basic (Novice) 2 DP\" and there is no\n  cantrip row.** Under convention 3 cantrips are free and have no Discipline requirement. Does\n  a reference sheet that lists every purchase price owe the reader a free row, and is an\n  omission a defect or a scope choice?\n- **The Discipline catalog at `:220-237` orders its nine categories as Elemental, Weapon,\n  Defense, Primal, Subterfuge, Arcane, Divine, Knowledge, Esoteric.** Compare with the owning\n  roster's order at `08-disciplines.qmd:34-58`. Decide whether a lookup surface benefits from\n  matching its owner or from a deliberate reordering, and whether the change matters.\n- **`22:87-115`'s Conditions table** carries 23 rows? Count them against Table 13.3 exactly,\n  comparing the NAME, the EFFECT and the ENDS column of each, and report every cell that\n  differs. A quick-reference condition table is where a drifted condition definition hides.\n- **`22:50-86`'s combat section** (`:52` Your Turn, `:67` Basic Maneuvers) against\n  `13-combat.qmd:31-45`'s action economy and Table 13.1's ten maneuvers: compare the resource\n  list, the per-turn counts, and every maneuver row.\n- **`22:120-133`'s Effects table** against the effect vocabulary the spell chapters actually\n  print (Lift X, Push X, Slide X, Trip, and whatever else is listed). Check for an effect that\n  appears on cards but not in the table, or a table row no card uses.\n- **`22:134-146`'s morale**, **`:147-159`'s dying** and **`:160-171`'s cover** against\n  `13-combat.qmd`'s morale, Dying and cover rules. Cover in particular: the book's sanctioned\n  shape is half cover = Bane on attacks against you, full cover = triple Bane.\n- **`22:326-339`'s encounter-building table** against `20-bestiary.qmd:645-660`'s Challenge\n  Budget table. Compare every row's multiplier AND its worked example.\n- **`22:17-49`'s core resolution and difficulty-dial rows** against `06-core-resolution.qmd`:\n  the roll, the tiers, the Critical and Fumble handling, and the exact dial values.\n- **`22:187-219`'s skill table (the Parry row is `:194`)** against `07-skills.qmd`'s roster: the attribute keying of\n  every row, and whether any skill in the owner is missing here or appears here and nowhere in\n  the owner.\n- **`22:276-310`'s DP Cost Reference** against ch08's card prices and the four cost structures:\n  is every purchase a reader can make represented, and does the \"total cost of a card\" sentence\n  match how the classes chapter computes it?\n- **`22:340-354`'s armour table** (the shield table's header is `:359`) against `16-armor-shields.qmd`'s armour tables: the weight\n  class of every armour listed, and the SLOTS column. A slot count is a number a reader will\n  trust this sheet for.\n\n## Cross-check chapters\n\n`02-character-creation`, `03-attributes`, `05-classes`, `06-core-resolution`, `07-skills`,\n`08-disciplines`, `09-talents-abilities`, `10-magic-system`, `11-arcane-spells`,\n`12-divine-spells`, `13-combat`, `15-equipment`, `16-armor-shields`, `17-magic-items`,\n`18-advancement`, `19-gm-guidance`, `20-bestiary`, `21-glossary`.\n\n**Note for t-02 work:** a drifted mirror is repaired in THIS file, but name the owning file and\nline in your evidence so the disposition can reach both sides where the owner is also wrong.\nDo not audit another chapter in its own right.\n\n## Citation rule\n\nEvery `evidence[].source` must cite the registered source label `22-reference-sheets`, another\nchapter's filename, or the literal `reasoning`. Quotes go in `quote_or_excerpt` only, under\nabout 12 words. `argument` and `evidence[].claim` are wall-linted against this statement and\nthe source: never place 10 or more consecutive words from either into them.\n",
+ "role": "researcher",
+ "round": 2,
+ "task": "For each contested topic gather or verify evidence supporting or refuting the open positions. Every evidence item needs source + claim + verbatim excerpt. Paraphrase in argument; never copy the problem brief or source text into argument."
+}
