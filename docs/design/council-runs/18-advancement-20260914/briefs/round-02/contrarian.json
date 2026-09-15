@@ -1,0 +1,261 @@
+{
+ "council": "hol-rulebook",
+ "ledger_view": {
+  "open_refutes": [
+   {
+    "argument": "Refute. Money was retired from this book on 2026-09-13, yet the Reveling rule still settles a benefit in commercial terms: it says a character may bankroll a single night out, then tells the reader that night carries a price, listing the drink and the room among what gets laid out. Convention 7 names precisely that pair of tells, so the sentence cannot ship unchanged. Reveling is downtime reward, and the book's own grant pattern (kit points arriving from a class, a faction, or a favour won in play) shows the shape it should take: earned or granted, with the carousing itself the only thing named as a cost. My independent pass over the rest of my lens came back clean: the DP column sums to the printed 32, tier prices are 2/4/8, the gates are 1/3/7, the Dragonslayer rider uses the sanctioned tier-bump form, and there is no retired damage row and no flat bonus rider anywhere in the chapter.",
+    "confidence": 0.85,
+    "evidence": [
+     {
+      "claim": "At 18-advancement.qmd:93 the Reveling rule opens by stating that a character may bankroll one night of carousing each session, so the commerce framing sits inside the mechanic, not in surrounding flavour.",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "The very next clause in the same sentence (18-advancement.qmd:93) prices that night, listing the drink, the room, and the story retold as what must be paid for it.",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "The pattern the post-removal book uses for handing out benefits elsewhere is a grant, not a transaction: kit points arrive from a class, a faction, or a favour won in play (15-equipment.qmd:121). That is the shape Reveling should take.",
+      "source": "15-equipment.qmd"
+     },
+     {
+      "claim": "Two sections lower down, the chapter already models the correct phrasing, calling a title a reward and expressly denying that it is anything bought (18-advancement.qmd:97), which shows the fix is confined to the Reveling sentence.",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "Token scan of the Reveling paragraph returns one funding verb and one pricing verb, the two tells convention 7 enumerates, and finds no coin unit printed anywhere in the chapter.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-001",
+    "role": "game-architect",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "The chapter's arithmetic survives independent recomputation, but its commerce does not conform to the currency-removal law. The Reveling rule first has a hero bankroll a night of drinking and then bills that night at the going rate for wine and a room, which is the funding verb and the it-costs shape the law names as defects, in a book where the equipment chapter was scrubbed to say flatly that gear and mounts are grants or finds rather than buys. Two other rewards in this same chapter are written as costs the hero does not pay, a discount-shaped benefit that only carries meaning while lodging still has a tariff. Nothing in the book supplies coin, a revel budget, or an inn price, so the passage is pre-rebuild residue rather than a deliberate token economy, and the chapter's own titles sentence denies commerce two clauses before one of those rewards prices a bed. The DP table, its three running totals, the eight-DP Master card, the level three and seven gates, and the retraining pair all matched their home chapters when I checked them, so the defect is confined to the removed currency.",
+    "confidence": 0.85,
+    "evidence": [
+     {
+      "claim": "Reveling at line 93 has a hero bankroll one night of drinking per session, using the funding verb that the removal law lists among the words that now mark a defect.",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "The very next sentence prices that night at the ordinary rate for wine and a room, the explicit it-costs construction the law blacklists, while the book defines no coin, no inn tariff and no revel allowance anywhere in its twenty-four chapters.",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "The equipment chapter was rewritten after the currency was cut and now states outright that gear and mounts are granted, earned or taken instead of bought, which shows the pricing language still standing in chapter 18 is leftover from before that rebuild.",
+      "source": "15-equipment.qmd:15, :332"
+     },
+     {
+      "claim": "Two reward entries here hand out overnight provision and inn lodging at no charge to the hero, a benefit shaped as a waived price, and the titles rule that follows even insists a title is not something a hero buys.",
+      "source": "18-advancement:80, :97"
+     },
+     {
+      "claim": "Recomputation of every number the chapter prints: the ten DP awards total thirty-two as stated, the Progression Discipline lines fall at levels 3, 6 and 9 giving three, the attribute lines at 4 and 8 giving two, the reputation bands 1-3, 4-6, 7-9, 10-14, 15+ are contiguous with no gap or overlap, the eight-DP Master card and the Adept-3 / Master-7 gates match 08-disciplines.qmd:143-144, and the retraining pair Intimidation and Nature are both two-DP Novice skills per 07-skills.qmd:31 and :168-188. All clear; the currency residue is the sole defect found.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-002",
+    "role": "researcher",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "Reveling is an unmetered reputation faucet, and it is the load-bearing clause in this chapter's reputation section. Each hero may carouse once per session, each such night pays a flat point, and the award is automatic rather than DA-assigned, so the party's climb scales with table size and nothing caps how many sessions in a row it repeats. The only stated brake is a narrative turn of phrase that carries no number, which matters because the book no longer prices anything in coin. The deed list that the prose says drives renown prints no value at all, so the one quantified route to the upper bands is also the cheapest and the only self-serve one. Worked exploit: four heroes revel every session, the party leaves the lowest band after a single night, and even the most restrictive reading, one point per session party-wide, arrives at the top band in about fifteen sessions of purely social play, roughly the span this chapter expects a weekly table to need to reach mid levels. A betrayal or a rout, which strips a whole band at once, is therefore cheaper to repair with wine than with heroics. The fix is a meter: tie the award to a level, cap it per arc, or hand it back to the DA.",
+    "confidence": 0.68,
+    "evidence": [
+     {
+      "claim": "18-advancement.qmd:93 grants each hero one carousing night per session, repeats it every session, pays a fixed point instead of a DA-assigned value, and prints no ceiling on how many such points a campaign can accrue.",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "18-advancement.qmd:93 states the night's only price as a figure of speech with no number behind it, so with currency cut from the game nothing mechanical limits how often the point can be claimed.",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "18-advancement.qmd:77-82 prints five bands from 1-3 up to 15-plus with no ceiling above the last one, so every carousing point is a permanent step on a ladder the chapter never closes.",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "18-advancement.qmd:89 names renown-earning deeds in prose with no point figure, and the loss rule strips an entire band for a betrayal or a bad defeat, so the fastest printed route is the repeatable social action rather than the deeds it outranks.",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "Worked counter-example: a party of four where every hero carouses each session banks four points in one night and exits the lowest band immediately; repeating it reaches the top band in four sessions. Under the strictest reading, one point per session for the whole party, the same free action still reaches 15-plus in fifteen sessions, while the deed awards it outranks carry no printed value and the loss rule costs a whole band per setback.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-003",
+    "role": "contrarian",
+    "stance": "refute",
+    "topic": "t-02"
+   },
+   {
+    "argument": "The advancement table is the page where a player learns what each level hands them, and at levels 3, 6 and 9 its gains column prints a label - 'Progression Discipline' - that chapter 18 never defines and that no other chapter of the book uses. The chapter that owns that grant calls it a single extra discipline rank, explicitly either a fresh domain or a deeper rank in one already held, and the glossary likewise speaks only of ranks. So one benefit carries two names, and the name the player meets first is the vague one: read plainly, the table's label suggests a newly acquired discipline, which silently hides the deepen-an-existing-rank option that the defining chapter guarantees, and a build that plans on that option gets no warning from this chapter. The chapter also offers no pointer to where the grant is spelled out, so nothing in the advancement text resolves it, and the reference sheet repeats the same label for the same three levels. Minimal repair: use the rank vocabulary in the gains column, or add the cross-reference to the disciplines chapter. The level-3/6/9 arithmetic itself is fine; the defect is the name.",
+    "confidence": 0.62,
+    "evidence": [
+     {
+      "claim": "The DP table's gains column labels the level 3, 6 and 9 benefit with that two-word term, and the term appears a fourth time in the level-10 tally printed under the table, so a reader meets it repeatedly without ever seeing a definition (18-advancement.qmd:49,52,55,63).",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "The chapter contains no cross-reference to the chapter that defines the mechanic; its only pointer sends the reader back to the table they are already reading, so the advancement text is a dead end for the term (18-advancement.qmd:40).",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "The defining chapter grants a single extra discipline rank at those same three levels, and frames the pick as either a domain the hero does not yet have or a further rank in one already held; its subsection heading does not use the label the advancement table prints (08-disciplines.qmd:102-104).",
+      "source": "08-disciplines.qmd"
+     },
+     {
+      "claim": "The glossary gives a rank as a step between one and three and carries no entry for the label used in the advancement table, so the back matter cannot resolve the term either (21-glossary.qmd:87).",
+      "source": "21-glossary.qmd"
+     },
+     {
+      "claim": "The quick-reference sheet repeats the identical label in its milestones column for the same three levels, so the undefined name is doubled in the book rather than caught (22-reference-sheets.qmd:262,265,268).",
+      "source": "22-reference-sheets.qmd"
+     },
+     {
+      "claim": "A table cell that names a discipline-like gain during table time reads to a player as a skill-domain acquired by levelling, not as a rank to spend inside a domain they already hold; the milder, more useful half of the rule is invisible under this naming.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-004",
+    "role": "author",
+    "stance": "refute",
+    "topic": "t-03"
+   },
+   {
+    "argument": "The Group Reputation prose promises the reader that party standing governs whether a hero qualifies for a title, and nothing in the chapter or the wider book makes that true. Reading down the standing ladder, each row awards recognition, hospitality or fame, never a title; and the chapter's own Earned Titles section makes the deed the test, calling a title a gift rather than something you pay for, with no standing threshold attached. Because the title material has no home outside this chapter and the glossary defines no such term, a DA who looks for the promised gate finds nothing to apply. This is a dangling promise rather than a missing number: either drop the phrase from the reputation opening or state the required tier inside the titles section, which is a one-line insertion in the latter case.",
+    "confidence": 0.72,
+    "evidence": [
+     {
+      "claim": "The opening sentence of the reputation section names three consequences of party renown, and being eligible for a title is listed as one of them.",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "The titles section states that titles are handed out for deeds and describes them as gifts, not something acquired; it sets no standing requirement of any kind.",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "Every row of the standing ladder's effect column describes what standing earns the party, and the highest row gives enduring fame rather than a title, so no row supplies the promised gate.",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "The glossary carries entries for level and the point currency but no entry for a title or an earned title, so the eligibility condition is defined neither by a rule nor by the book's term list.",
+      "source": "21-glossary.qmd"
+     },
+     {
+      "claim": "Searching every chapter file for the title vocabulary returns hits only inside this chapter, confirming there is no downstream rule that supplies the eligibility condition the reputation opening advertises.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-005",
+    "role": "editor-in-chief",
+    "stance": "refute",
+    "topic": "t-02"
+   },
+   {
+    "argument": "Chapter 18 is set to print as its own source code. The file opens a raw-Typst fence on its third line and never closes it, so the markdown converter declines to treat that block as raw: it escapes the fence marker and lets the remaining hundred-odd lines fall through as ordinary paragraphs. In the shipped book the damage lands on four printed folios (269-272): the six section headings print as bare '== ...' lines, both tables print as unfinished call text with 'table.header(...)' rows showing, and both rationale boxes print as literal quoted Typst calls. I rebuilt the book from the current tree and reproduced the identical stain at pages 291-293, on pages that use no monospace face at all, so this is live source behaviour and not stale build output. Appending one closing fence after the final line, changing nothing else, makes the same build render decorated section headings and two genuine tables; the chapter's DP ladder and reputation ladder then look like every sibling chapter's. The repository's native-Typst gate counts fence openers and never tests for a closer, which is how a block that runs to end of document passed a check meant to catch exactly this.",
+    "confidence": 0.93,
+    "evidence": [
+     {
+      "claim": "Line 3 opens a raw-Typst block, and across all 107 lines of the file that opening is the only fence marker present, so nothing ever terminates the block (18-advancement:3).",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "The shipped PDF's text layer carries the chapter's Typst calls as ordinary running text on folios 269-272, including the reputation table's header row; those pages embed no monospace font, so the material is set as body copy rather than presented as a code sample.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "A fresh render of the current working tree (384 pages) reproduced the same stain on pages 291-293, so the defect is not an artefact of an old build directory.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Appending a single closing fence after the last line and changing nothing else produced a build in which the section headings carry the book's decorated heading treatment and both ladders render as real tables on pages 294-295, with no literal Typst marker anywhere in the 387 pages; the repair is one line and survives a clean build.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Sibling chapters do terminate their block - 22-reference-sheets closes at line 472 and 13-combat at line 569 - and 22's mirror of this chapter's level table prints as a genuine table in the PDF, which is the contrast that exposes the unterminated block in chapter 18.",
+      "source": "22-reference-sheets"
+     },
+     {
+      "claim": "The repository's own conversion gate (check-native-typst.py) asserts one opening fence per chapter plus an absence of markdown remnants, but it never looks for a closing fence, so a chapter whose block extends to end of document satisfies a check written for this regression class.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-006",
+    "role": "layout-expert",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "Reading the chapter as a unit, the ledger's six items are each sound and each is narrow: they cover commercial wording, table arithmetic, one promised counter that nothing implements, and a build fence that swallows the whole file. None of them reaches the chapter's acquisition rules, and that is where it is worse than the filed set implies. The Earned Titles example hands a character an Adept spell card with no price and no requirement attached, and the source sets no floor of any kind on when a title may be handed out; meanwhile the book treats a card's tier as fixing the level its holder must reach (08:131, 09:15, 10:61) and states the tiers' levels as the only access condition besides the card's own Discipline ranks. Where canon deliberately relaxes a constraint it names the one it relaxes: the Odd's signature drops prerequisite Disciplines and keeps the levels in force (02:301), and item-granted Disciplines open higher-tier cards without waiving their levels (17:512). The one unmetered card gift elsewhere in the book sits at Novice tier (04:177), and cantrips are exempt by category (10:77). So the title example cannot be played as printed without a design ruling, and no edit that answers the six closes that axis: correcting every filed item would still leave the chapter's reward section unplayable. Confidence is moderate because the conflict is inferred from the canon's settled pattern rather than from a sentence that states the prohibition.",
+    "confidence": 0.64,
+    "evidence": [
+     {
+      "claim": "The titles example gives a character an Adept-tier spell card with nothing paid and no gate named, and the benefit stands only while the title still fits the fiction.",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "Titles are described as something handed over for legendary deeds rather than something a hero qualifies for or buys, and the source attaches no level condition to receiving one.",
+      "source": "18-advancement"
+     },
+     {
+      "claim": "The magic chapter states the tier gate as a property of the card itself, not as a step in a transaction, which is why a granted card is caught by it.",
+      "source": "10-magic-system.qmd"
+     },
+     {
+      "claim": "The defining chapter makes each tier a separate card with its own flat price and its own level requirement, and says the tier sets the level a holder needs.",
+      "source": "08-disciplines.qmd"
+     },
+     {
+      "claim": "The card-format chapter summarises how a card is come by as the tier's level plus the card's own Discipline ranks, admitting no third route.",
+      "source": "09-talents-abilities.qmd"
+     },
+     {
+      "claim": "The Odd class signature is the book's one stated waiver of card prerequisites, and it explicitly leaves the tiers' level requirements standing.",
+      "source": "02-character-creation.qmd"
+     },
+     {
+      "claim": "Item-granted Discipline ranks are said to open higher-tier abilities the way bought ranks do, so a grant feeds the tier levels instead of stepping around them.",
+      "source": "17-magic-items.qmd"
+     },
+     {
+      "claim": "The book's only unmetered card gift outside cantrips is a Novice-tier skill, so no canon precedent hands out a higher tier free.",
+      "source": "04-ancestries-cultures.qmd"
+     },
+     {
+      "claim": "The six filed defects bear on wording, on the arithmetic of a table, on a counter nothing implements, and on the unclosed fence; none bears on how a card is come by, so answering all six still leaves the title example without a rule.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-007",
+    "role": "librarian",
+    "stance": "refute",
+    "topic": "t-03"
+   }
+  ],
+  "positions": {
+   "t-01": {
+    "game-architect": "refute",
+    "layout-expert": "refute",
+    "researcher": "refute"
+   },
+   "t-02": {
+    "contrarian": "refute",
+    "editor-in-chief": "refute"
+   },
+   "t-03": {
+    "author": "refute",
+    "librarian": "refute"
+   }
+  },
+  "sealed_rulings": []
+ },
+ "problem_brief": "# Council problem statement \u2014 Chapter 18, Advancement\n\n**Source:** `18-advancement.qmd` \u2014 the `Advancement` chapter (107 lines, one Typst block, no tables\nbeyond two small ones). It covers milestone leveling, the Development Point progression, Group\nReputation, Reveling, Earned Titles, and Retraining.\n\n**Question for the council:** is this chapter publishable as it stands \u2014 does it conform to the\nlocked conventions below, is it internally consistent (its two tables vs their own prose vs the\nnumbers those tables print), and does every value or mechanic it restates agree with the chapter\nthat defines it?\n\n**Context that makes this chapter live:** the book was rebuilt twice on 2026-09-13/14 (the damage\nband renumber #532, the one-card refactor #537/#538) and gold was removed from the game entirely\n(#523). `18-advancement` is the chapter that tells a player how progression is bought, so any\nresidue of the retired DP economy, the retired damage rows, or the retired currency lands here.\nIts last review was in Wave 1 (2026-08-30), before all three changes.\n\n## Topics\n\n- **t-01** conformance to the locked conventions below\n- **t-02** internal consistency: the DP table and the reputation table against their own prose,\n  and against the numbers the chapter prints\n- **t-03** cross-chapter canon: a value or mechanic this chapter restates from the chapter that\n  defines it\n\nEvery finding MUST set `topic` to exactly `t-01`, `t-02`, or `t-03`.\n\n## Locked conventions (current as of 2026-09-14 \u2014 these ARE the law this run tests against)\n\n1. **Damage bands are flat and were RENUMBERED on 2026-09-13 (#532)**: **Novice 4/6/8, Adept\n   5/8/11, Master 7/10/14**, read Weak/Standard/Strong (`08-disciplines.qmd:210-212`,\n   `10-magic-system.qmd:46-48`). Success tiers are Weak 1-8, Standard 9-14, Strong 15+. **The\n   retired rows 2/4/6, 6/9/12 and 9/15/21 are not valid anywhere in the book.** Cantrips print\n   1/3/5 by explicit exemption; basic attacks are 1/2/3 + Brawn and unarmed is 1/1/2.\n2. **The one-card law (Sep 2026, #537/#538)**: a card is bought once, at one tier, for one price\n   (**Novice 2 DP, Adept 4 DP, Master 8 DP**), and never changes. Level gates are Novice 1, Adept\n   3, Master 7. **The card's tier is a property of the card, not a count of its Disciplines**\n   (`10-magic-system.qmd:61`). The Adept-requires-2 / Master-requires-3 ladder is DELETED, and so\n   are rungs: there is no upgrade path, no \"improves another card\", no \"gains +N at a higher tier\".\n   A single-tier card is complete, not incomplete.\n3. **Flat damage riders are DEAD.** \"+1 damage tier\" is the sanctioned damage-increase convention.\n   `+N damage` never appears as an always-on or flat rider.\n4. **Boon/Bane law.** Anything that changes how likely a roll is to succeed is a Boon or a Bane,\n   never a numeric roll modifier. Boon = 4d6 keep highest three, Bane = 4d6 keep lowest three, and\n   they cancel one for one. The only numeric roll modifiers that survive are attributes, skill\n   tiers, the difficulty dial, and a Challenge penalty.\n5. **DR law (2026-09-13, #516/#517/#529).** Armour grants DR by weight class: light 1, medium 2,\n   heavy 3. Cards add: the Iron Skin talent is a SINGLE-TIER talent whose Novice (and only) line\n   reads \"+2 DR, in addition to your armor's DR\" (`09-talents-abilities.qmd:45-47`). It carries no\n   Adept or Master rung, and that is correct under the one-card law (convention 2): a card that is\n   complete at one tier needs no siblings. Do NOT file a missing-rung finding against it.\n   Shields grant Parry and Shield Block, never DR. Creature and mount DR are stat-block values, not\n   gear. **The DR invariant: three distinct damage tiers survive a flat subtraction only while DR\n   is at or below the band's Weak value (Novice 4, Adept 5, Master 7).**\n6. **Conditions are a leveled vocabulary**: a condition with a magnitude prints it (Burning 2,\n   Slowed 15, Frozen 2), and `Keywords:` lines carry the bare tag only. The condition list lives in\n   ch13.\n7. **Currency is REMOVED from the game (#523, 2026-09-13).** Nothing is bought: gear, packs, magic\n   items, mounts and vehicles are granted, found, or earned. Any phrase that implies a purchase, a\n   price, a discount, funding, payment, or a coin amount is a defect. Commerce written without a\n   currency word (\"purchase\", \"buy\", \"fund\", \"for a price\", \"it costs\") is the exact class the\n   #523 audit had to catch by hand.\n8. **Challenge is the standard resolution for every opposed contest (ruled 2026-09-13, #507):** the\n   actor rolls `3d6 + attribute + skill - Challenge`; the opposition never rolls. A fixed difficulty\n   (\"Knowledge check, Standard 9-14\") is a different, legal shape.\n9. **Zero em-dashes** anywhere in book source text. Use a comma, a colon, or a full stop.\n10. **House emphasis inside body text is Typst italic (`*word*`), never markdown bold.**\n11. **The book's printed chapter numbering carries a +2 offset**: this chapter is 18 in source order\n    and prints as **Chapter 20**. Its figure is therefore `Figure 20.1`. This is a book-wide\n    convention, not a defect.\n12. **Cross-reference law.** A Typst crossref renders with its own trailing period, so nothing is\n    typed after a bare sentence-final ref or after a closing parenthesis that carries one.\n13. **Two reputation systems coexist and are NOT the same thing**: this chapter's **Group\n    Reputation** track (Unknown / Known / Renowned / Heroic / Legendary, 1-15+) and the faction\n    **Reputation Track** in `19-gm-guidance.qmd:392-438` (-3 to +3, per faction). A chapter that\n    restates one must not print the other's numbers under its own tier names.\n\n## Already checked by the orchestrator and CLEARED \u2014 do NOT file these\n\nReproduce anything you doubt, but these were verified against the source; filing them costs the run\na round.\n\n- **The DP table's arithmetic is correct.** 4 + 3 + 3 + 3 + 4 + 3 + 3 + 3 + 3 + 3 = 32, matching the\n  chapter's own \"Total DP by level 10: 32\" and the `22-reference-sheets.qmd:272` mirror.\n- **The level gates are correct**: Adept at level 3 and Master at level 7 match\n  `08-disciplines.qmd:143-144` and `21-glossary.qmd:79`.\n- **The attribute increases are correct**: +1 at levels 4 and 8, up to a +2 maximum, matching\n  `03-attributes.qmd:72`.\n- **`Figure 20.1` and the `_Placeholder for final art._` line are book-wide conventions.** The\n  caption numbering is the +2 offset; every chapter carries the placeholder line.\n- **The chapter contains ZERO em-dashes** (verified by grep). Do not file em-dash findings here.\n- **Retraining's \"equal or lower DP cost\" is sound**, and \"3 Progression Disciplines\" matches the\n  three Progression lines in the table (levels 3, 6, 9).\n- **`22-reference-sheets.qmd:255-272` mirrors this chapter's DP table** and agrees with it\n  row for row, including the \"Milestones\" column.\n\n## Worked leads \u2014 verify or refute these, do not simply restate them\n\nThese are the orchestrator's own pre-audit leads, offered as things to TEST. **Your own independent\naudit is the deliverable**; a ballot that only rules on this list is a wasted ballot. Report a lead\nyou cleared as a result in its own right.\n\n- `18-advancement.qmd:93` \u2014 Reveling says a hero may \"fund one revel\" and that it \"costs what a\n  night costs\". Check against convention 7, the currency removal.\n- `18-advancement.qmd:77` \u2014 the reputation table's first column header is the abbreviation \"Rep\"\n  while every other header in the book's tables is a full word. Check it against the book's table\n  header convention and against this table's own \"Reputation Tier\" column.\n- `18-advancement.qmd:51` \u2014 the \"Other Gains\" column prints \"DP windfall\" on the same row whose DP\n  column prints 4. Check that against the book's no-restating-a-table's-own-columns law.\n- `18-advancement.qmd:40,78-81` \u2014 ranges are written with hyphens (\"3-4 DP\", \"1-3\", \"4-6\", \"7-9\",\n  \"10-14\") while the same chapter writes \"3-4\" and other chapters use en-dashes for ranges.\n  Determine which form is the book's convention and whether this chapter deviates from it.\n- `18-advancement.qmd:103` \u2014 Retraining lets a player \"exchange one skill rank or talent purchase\".\n  Check the phrase \"skill rank\" against the book's current skill vocabulary.\n- `18-advancement.qmd:97` \u2014 the *Archmage* title \"learns one Adept-tier spell card at no DP cost\".\n  Check that a title can grant a card against the one-card economy (convention 2) and against the\n  book's existing pattern for granting cards.\n- `18-advancement.qmd:81` \u2014 the Heroic reputation row promises \"Followers, a hall of your own\".\n  Strongholds were cut from the first edition (#523). Check whether anything this row promises\n  still exists in the book.\n- `18-advancement.qmd:93` \u2014 Reveling awards \"one point of reputation for the session\". Determine\n  which of the two reputation tracks (convention 13) that point belongs to, and whether the chapter\n  says.\n\n## Cross-check chapters\n\n`02-character-creation` (DP pools, background DP), `03-attributes` (attribute increases),\n`05-classes` (class signature, the advancement pointer at 05:747), `08-disciplines` (card prices,\ntier gates, the damage budget), `09-talents-abilities` (card format, Iron Skin),\n`10-magic-system` (card tiers and level gates), `13-combat` (Grit, wounds, conditions),\n`19-gm-guidance` (milestone pacing, the faction reputation track, Heroic Mode's extra DP),\n`21-glossary` (Level, Development Points), `22-reference-sheets` (the advancement mirror).\n\n## Citation rule\n\nEvery `evidence[].source` must cite either the registered source label `18-advancement`, another\nchapter's filename, or the literal `reasoning`. Quotes go in `quote_or_excerpt` only, under about\n12 words. `argument` and `evidence[].claim` are wall-linted against this statement and the source:\ndo not quote 10 or more consecutive words there.\n",
+ "role": "contrarian",
+ "round": 2,
+ "task": "For each contested topic produce at least one concrete counter-example against the leading support position, or record explicitly 'tested A, B, C \u2014 no counter-example found'. Emit findings only."
+}

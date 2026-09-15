@@ -1,0 +1,107 @@
+# Advancement {#sec-chapter-advancement}
+
+```{=typst}
+#label("sec-chapter-advancement")
+
+#image("assets/images/page103-img041.png", width: 60%)
+
+_Figure 20.1: Advancement_
+
+_Placeholder for final art._
+#pagebreak()
+
+Your hero doesn't stay the same person who kicked down their first door. Every adventure leaves a mark: a new technique mastered, a spell perfected, a scar that tells a story. Advancement in _Heroes of Legend_ isn't about filling an XP bar. It's about your hero becoming more of who they already are, or surprising everyone by becoming someone new.
+
+This chapter covers the mechanics: when you level, what you gain, and how to spend what you've earned. The stories behind those gains (the mentor who trained you, the ancient text you deciphered, the near-death experience that unlocked something dormant) are yours to tell.
+
+#pagebreak()
+
+== Gaining Levels
+
+Levels are earned through adventure milestones, not experience points. When the party achieves something significant (defeats a major enemy, completes a quest, resolves a story arc), the DA awards a level. There's no tracking individual goblin kills. There's no calculating CR budgets. The story says "you've earned this," and you level up.
+
+The expected pace is roughly one level every two to three sessions. At that rate, a weekly group reaches level 10 in about half a year of play. Some tables move faster. Some move slower. The pace that's right for your group is the pace where leveling feels earned, not automatic. When the party hits a new level and the table goes "yes!", you're doing it right. When they barely notice, you're leveling too fast. When they're frustrated, too slow. Adjust.
+
+*Milestone examples:* The DA awards a level when the party:
+
+- Defeats a boss or major antagonist
+- Completes a significant quest or story arc
+- Achieves a personal character goal (the Blade avenges their master, the Intellect deciphers the lost codex)
+- Survives an ordeal that changes them (the dungeon that killed two hirelings, the negotiation that averted a war)
+
+The DA decides. There's no formula. Trust your instincts. You know when the party has earned it.
+
+#pagebreak()
+
+== Development Points
+
+Development Points are the currency of growth. You spend them to buy skills, talents, and abilities. Every level gives you a fresh infusion, and every point spent is a choice about who your hero is becoming.
+
+At each level, you gain 3-4 DP, with larger awards at milestone levels (1, 5). The table below shows the full progression. Budget wisely. Unspent DP carries over to your next level, so saving toward a big purchase is a real strategy: a Master-tier card costs 8 DP, and a patient hero can get there.
+
+#figure(
+  align(center)[#table(
+    columns: (28.00%, 20.00%, 52.00%),
+    align: (auto, auto, auto,),
+    table.header([Level], [DP], [Other Gains],),
+    [1], [4], [Class signature, Starting Disciplines],
+    [2], [3], [],
+    [3], [3], [Progression Discipline. Adept abilities unlock.],
+    [4], [3], [Attribute increase (+1, max +2)],
+    [5], [4], [DP windfall],
+    [6], [3], [Progression Discipline],
+    [7], [3], [Master abilities unlock],
+    [8], [3], [Attribute increase (+1, max +2)],
+    [9], [3], [Progression Discipline],
+    [10], [3], [],
+  )],
+  kind: table,
+  numbering: none,
+  outlined: false,
+)
+
+Total DP by level 10: 32. Total Progression Disciplines: 3. Total attribute increases: 2.
+
+#quote[*Why this exists:* Advancement is purely DP-based. Classes do not have feature upgrades; progression is driven by player choice through Development Points. The table above shows total DP gain per level, not preset class features. Saving across levels is deliberate: the economy is built so that reaching the top tiers is a plan, not an accident.]
+
+#pagebreak()
+
+== Group Reputation
+
+The party's renown grows with their deeds. Reputation affects NPC attitudes, quest availability, and title eligibility.
+
+#figure(
+  align(center)[#table(
+    columns: (16.67%, 56.67%, 26.67%),
+    align: (auto, auto, auto,),
+    table.header([Rep], [Reputation Tier], [Effect],),
+    [1-3], [*Unknown*], [No recognition. A stranger in every room],
+    [4-6], [*Known*], [Your name earns a friendly hearing wherever you go],
+    [7-9], [*Renowned*], [Free room and board, audiences with nobles],
+    [10-14], [*Heroic*], [Followers, a hall of your own, legendary quests],
+    [15+], [*Legendary*], [Immortalized in song and story],
+  )],
+  kind: table,
+  numbering: none,
+  outlined: false,
+)
+
+The DA awards reputation for deeds that earn renown: saving a town, toppling a tyrant, brokering a peace that holds. Reputation is also lost. Betraying the people who trust you, losing a battle badly, or abandoning allies in the field drops the party one tier. The fiction drives the number, not the other way around.
+
+== Reveling
+
+A hero may fund one revel per session, and a night of legend is worth one point of reputation for the session. It costs what a night costs: the wine, the room, the story told so often that people start believing it. Carousing may attract unwanted attention, but legends are rarely made in silence.
+
+== Earned Titles
+
+The DA grants titles for deeds that become legend: slaying a great wyrm, brokering a lasting peace, surviving the impossible. A title is a reward, not a purchase, and it grants a mechanical benefit as long as the title fits. Examples: *Dragonslayer* (+1 damage tier vs dragons), *Knight of the Realm* (free lodging at any inn), *Archmage* (learn one Adept-tier spell card at no DP cost).
+
+#pagebreak()
+
+== Retraining
+
+At each level, you may exchange one skill rank or talent purchase for another of equal or lower DP cost. The DA may require narrative justification, finding a trainer, spending downtime, or a story event that prompts the change.
+
+*Example:* At level 5, Roric, the party's Protector, realizes he never uses his Novice Intimidation. He retrains it to Novice Nature (both 2 DP). He spends a session training with a woodland guide to justify the change.
+
+#quote[*Why this exists:* Players make choices at level 1 without knowing how the game actually plays. Retraining lets them correct early mistakes without feeling stuck. It also means a character's build can evolve with the story.]
