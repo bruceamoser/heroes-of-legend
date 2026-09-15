@@ -126,6 +126,10 @@ Abilities, talents, and spells require specific Disciplines before you can learn
   outlined: false,
 )
 
+=== The Wildcard Rank
+
+One class holds a wildcard. The Odd's wildcard rank stands in for any Discipline when buying a card, and the player chooses which Discipline it stands in for each time. It has three limits. It satisfies a requirement of one rank, so it can never supply a second rank of a Discipline the hero already holds. It satisfies one requirement at a time. And it never advances: no progression pick can raise it, so it stays at rank 1 for the whole career.
+
 == The One-Card Law
 
 Every card is bought once, at one tier, for one price, and it never changes. The three tiers are *Novice*, *Adept*, and *Master*, and each tier is a separate card with its own name, its own level gate, and its own flat price. There is no ladder to climb and no upgrade to pay for. The card's tier sets the level you need (Novice 1, Adept 3, Master 7). The Disciplines printed on the card are a separate gate: hold those ranks and you can buy it. Skills use the same three tiers but gate nothing (@sec-chapter-skills)

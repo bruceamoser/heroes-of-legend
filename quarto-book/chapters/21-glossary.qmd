@@ -66,6 +66,8 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Discipline:* A prerequisite resource representing mastery of a domain. Disciplines come in types: Elemental (Fire, Earth, Wind, Water), Weapon (Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed), Defense (Protection, Armor), Primal (Animal, Plants), Arcane (Energy), Divine (Life, Religion), Esoteric (Mind, Summon, Fate), Subterfuge (Stealth, Sleight), and Knowledge (Lore, Tactics). Each class has a cost table showing the DP price for each rank in each discipline (see @sec-chapter-classes).
 
+*Wildcard Rank:* A single rank held by the Odd that stands in for any one Discipline. It is never assigned, it satisfies one requirement of one rank at a time, it never advances, and it costs no Development Points. See @sec-chapter-classes
+
 *HP (Health Points):* How much damage you can take before falling unconscious. Starting HP = 10 + Fortitude + Knowledge. Your HP does not increase with level; your Grit does.
 
 *Encumbrance:* The slot system for the gear you carry. Slots are Carry Slots; one container at a time is exempt from them, and containers cannot be nested inside one another. See *Carry Slots*.
