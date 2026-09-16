@@ -16,7 +16,7 @@ But fire's just the beginning. Ice that freezes blood in the veins. Lightning th
 
 Arcane magic is the art of telling the universe to sit down and shut up, and making it listen. You don't ask. You don't pray. You _impose._
 
-This chapter contains every arcane spell in the game: fifteen cantrips you know from the start, and fifty-three spell cards that run Novice, Adept, and Master. Every spell card carries a Discipline, an action, a range, and an effect. A Novice active card prints its Weak, Standard, and Strong outcomes; its Adept and Master family members are separate cards with their own names and a single Effect line. Key the numbers to the damage budget (@sec-damage-budget), and cast. Where a card prints half of a value, round down.
+This chapter contains every arcane spell in the game: fifteen cantrips you know from the start, and fifty-three spell cards that run Novice, Adept, and Master. Every spell card carries a Discipline, an action, a range, and an effect. Every spell card prints its tier, and its outcome block keys to that tier's row of the damage budget. Key the numbers to the damage budget (@sec-damage-budget), and cast. Where a card prints half of a value, round down.
 
 _See @sec-chapter-magic-system for how spellcasting works._
 
@@ -165,7 +165,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 == Fire Spells
 
-=== Ember Lance (Arcane Spell)
+=== Ember Lance (Novice Arcane Spell)
 *Disciplines:* 1 Fire · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Piercing, Burning
 
 *Weak:* 4 fire damage.
@@ -174,25 +174,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 8 fire damage; 4 fire damage to one target behind.
 
-=== Brimstone Burst (Arcane Spell)
-*Disciplines:* 2 Fire · *Requires:* focus:arcane · *Action:* Action · *Range:* 20-ft radius · *Keywords:* Burning
-
-*Weak:* 5 fire damage to all in the radius (Agility or Dodge rank resists).
-
-*Standard:* 8 fire damage to all.
-
-*Strong:* 11 fire damage to all; the ground burns (Burning 4).
-
-=== Wall of Cinders (Arcane Spell)
-*Disciplines:* 2 Fire · *Requires:* focus:arcane · *Action:* Action · *Range:* 30-ft wall · *Keywords:* None
-
-*Weak:* 4 fire damage to creatures passing through.
-
-*Standard:* 6 fire damage to passers.
-
-*Strong:* 8 fire damage to passers; ignites flammables.
-
-=== Burning Volley (Arcane Spell)
+=== Burning Volley (Novice Arcane Spell)
 *Disciplines:* 1 Fire · *Requires:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* None
 
 *Weak:* 4 fire damage, split across three lances.
@@ -201,9 +183,27 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 8 fire damage, split across three lances.
 
+=== Brimstone Burst (Adept Arcane Spell)
+*Disciplines:* 2 Fire · *Requires:* focus:arcane · *Action:* Action · *Range:* 20-ft radius · *Keywords:* Burning
+
+*Weak:* 5 fire damage to all in the radius (Agility or Dodge rank resists).
+
+*Standard:* 8 fire damage to all.
+
+*Strong:* 11 fire damage to all; the ground burns (Burning 4).
+
+=== Wall of Cinders (Adept Arcane Spell)
+*Disciplines:* 2 Fire · *Requires:* focus:arcane · *Action:* Action · *Range:* 30-ft wall · *Keywords:* None
+
+*Weak:* 4 fire damage to creatures passing through.
+
+*Standard:* 6 fire damage to passers.
+
+*Strong:* 8 fire damage to passers; ignites flammables.
+
 == Water Spells
 
-=== Frostbite Shard (Arcane Spell)
+=== Frostbite Shard (Novice Arcane Spell)
 *Disciplines:* 1 Water · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Slowed, Frozen
 
 *Weak:* 4 cold damage.
@@ -212,7 +212,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 8 cold damage; the target is Slowed 5.
 
-=== Rime Storm (Arcane Spell)
+=== Rime Storm (Adept Arcane Spell)
 *Disciplines:* 2 Water · *Requires:* focus:arcane · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Slowed, Frozen
 
 *Weak:* 4 cold damage (Agility or Dodge rank resists).
@@ -221,7 +221,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 8 cold damage; targets are Slowed 5 for 2 rounds.
 
-=== Glacial Prison (Arcane Spell)
+=== Glacial Prison (Adept Arcane Spell)
 *Disciplines:* 2 Water · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained, Frozen
 
 *Weak:* 4 cold damage.
@@ -232,7 +232,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 == Wind Spells
 
-=== Storm Javelin (Arcane Spell)
+=== Storm Javelin (Novice Arcane Spell)
 *Disciplines:* 1 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* Bane
 
 *Weak:* 4 lightning damage.
@@ -241,25 +241,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 8 lightning damage; the target has Bane on its next 2 attacks; arcs to one adjacent target for half.
 
-=== Forked Sky (Arcane Spell)
-*Disciplines:* 2 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
-
-*Weak:* 4 lightning damage, split across three arcs.
-
-*Standard:* 6 lightning damage, split across three arcs.
-
-*Strong:* 8 lightning damage, split across three arcs.
-
-=== Static Field (Arcane Spell)
-*Disciplines:* 2 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 10-ft radius · *Keywords:* None
-
-*Weak:* 4 lightning damage to all adjacent targets (Agility or Dodge rank resists).
-
-*Standard:* 6 lightning damage to all adjacent.
-
-*Strong:* 8 lightning damage to all adjacent; targets lose their Maneuver.
-
-=== Gust (Arcane Spell)
+=== Gust (Novice Arcane Spell)
 *Disciplines:* 1 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Prone, Push
 
 *Weak:* No damage; Push 5 ft.
@@ -268,6 +250,24 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* Push 15 ft; the target is Prone.
 
+=== Forked Sky (Adept Arcane Spell)
+*Disciplines:* 2 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
+
+*Weak:* 4 lightning damage, split across three arcs.
+
+*Standard:* 6 lightning damage, split across three arcs.
+
+*Strong:* 8 lightning damage, split across three arcs.
+
+=== Static Field (Adept Arcane Spell)
+*Disciplines:* 2 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 10-ft radius · *Keywords:* None
+
+*Weak:* 4 lightning damage to all adjacent targets (Agility or Dodge rank resists).
+
+*Standard:* 6 lightning damage to all adjacent.
+
+*Strong:* 8 lightning damage to all adjacent; targets lose their Maneuver.
+
 #image("assets/svg/placeholder-section.svg", width: 60%)
 
 _Figure 13.2: Arcane Spells_
@@ -275,7 +275,7 @@ _Figure 13.2: Arcane Spells_
 _Placeholder for final art._
 #pagebreak()
 
-=== Wind Wall (Arcane Spell)
+=== Wind Wall (Adept Arcane Spell)
 *Disciplines:* 2 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Bane
 
 *Weak:* Missile attacks through the wall have Bane.
@@ -286,7 +286,7 @@ _Placeholder for final art._
 
 == Earth Spells
 
-=== Corrosive Spit (Arcane Spell)
+=== Corrosive Spit (Novice Arcane Spell)
 *Disciplines:* 1 Earth · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* DR
 
 *Weak:* 4 acid damage.
@@ -295,25 +295,7 @@ _Placeholder for final art._
 
 *Strong:* 8 acid damage; the target's DR is reduced by 2.
 
-=== Caustic Mist (Arcane Spell)
-*Disciplines:* 2 Earth · *Requires:* focus:arcane · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Bane
-
-*Weak:* 4 acid damage (Agility or Dodge rank resists).
-
-*Standard:* 6 acid damage; targets have Bane on sight.
-
-*Strong:* 8 acid damage; targets have Bane on sight for 2 rounds; the mist lasts 2 rounds.
-
-=== Tremor (Arcane Spell)
-*Disciplines:* 2 Earth · *Requires:* focus:arcane · *Action:* Action · *Range:* 10-ft radius · *Keywords:* Prone
-
-*Weak:* 4 bludgeoning damage (Agility or Dodge rank resists).
-
-*Standard:* 6 bludgeoning damage; targets are Prone.
-
-*Strong:* 8 bludgeoning damage; targets are Prone and lose their Maneuver.
-
-=== Slickstone (Arcane Spell)
+=== Slickstone (Novice Arcane Spell)
 *Disciplines:* 1 Earth · *Action:* Action · *Range:* 30 ft · *Keywords:* Control, Condition
 
 *Weak:* One stride of ground turns slick; a creature that crosses it at speed goes Prone.
@@ -322,7 +304,25 @@ _Placeholder for final art._
 
 *Strong:* The whole surface obeys your choice of slick or sticky: slick throws the heedless Prone, and sticky holds any creature that touches it Restrained until it tears free.
 
-=== Tilt (Arcane Spell)
+=== Caustic Mist (Adept Arcane Spell)
+*Disciplines:* 2 Earth · *Requires:* focus:arcane · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Bane
+
+*Weak:* 4 acid damage (Agility or Dodge rank resists).
+
+*Standard:* 6 acid damage; targets have Bane on sight.
+
+*Strong:* 8 acid damage; targets have Bane on sight for 2 rounds; the mist lasts 2 rounds.
+
+=== Tremor (Adept Arcane Spell)
+*Disciplines:* 2 Earth · *Requires:* focus:arcane · *Action:* Action · *Range:* 10-ft radius · *Keywords:* Prone
+
+*Weak:* 4 bludgeoning damage (Agility or Dodge rank resists).
+
+*Standard:* 6 bludgeoning damage; targets are Prone.
+
+*Strong:* 8 bludgeoning damage; targets are Prone and lose their Maneuver.
+
+=== Tilt (Adept Arcane Spell)
 *Disciplines:* 2 Earth · *Action:* Action · *Range:* 60 ft · *Keywords:* Control, Damage
 
 *Weak:* A surface you name tips toward a direction of your choosing, and creatures on it slide and go Prone.
@@ -333,7 +333,7 @@ _Placeholder for final art._
 
 == Plants Spells
 
-=== Venom Lance (Arcane Spell)
+=== Venom Lance (Novice Arcane Spell)
 *Disciplines:* 1 Plants · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
 
 *Weak:* 4 poison damage.
@@ -344,7 +344,7 @@ _Placeholder for final art._
 
 == Energy Spells
 
-=== Force Dart (Arcane Spell)
+=== Force Dart (Novice Arcane Spell)
 *Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* None
 
 *Weak:* 4 force damage; never misses (the tier is still rolled).
@@ -353,7 +353,79 @@ _Placeholder for final art._
 
 *Strong:* 8 force damage.
 
-=== Force Wave (Arcane Spell)
+=== Unseen Hand (Novice Arcane Spell)
+*Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained
+
+*Weak:* Move an object of up to 10 lb for 1 turn.
+
+*Standard:* Move an object of up to 20 lb for 1 turn.
+
+*Strong:* Move an object of up to 50 lb for 2 turns; can hold a creature still (Restrained).
+
+=== Eldritch Sight (Novice Arcane Spell)
+*Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* Self · *Keywords:* None
+
+*Weak:* Reveal 1 clue about magic.
+
+*Standard:* Reveal 2 clues about magic.
+
+*Strong:* Reveal 3 clues about magic and identify any magical effect; the sight lasts 1 scene.
+
+=== Flicker Step (Novice Arcane Spell)
+*Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Maneuver · *Range:* Self · *Keywords:* Boon, Bane
+
+*Weak:* Teleport 5 ft.
+
+*Standard:* Teleport 15 ft.
+
+*Strong:* Teleport 30 ft; Boon on your next attack, and Bane on attacks against you for 1 turn.
+
+=== Soul Drain (Novice Arcane Spell)
+*Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
+
+*Weak:* 4 necrotic damage; heal half the damage.
+
+*Standard:* 6 necrotic damage; heal half the damage.
+
+*Strong:* 8 necrotic damage; heal 4; slay at 0 HP.
+
+=== Still Air (Novice Arcane Spell)
+*Disciplines:* 1 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Control
+
+*Weak:* Your next word is swallowed whole; it reaches no ear but the one you name.
+
+*Standard:* No sound crosses the boundary of the room you name while you stand inside it, and you may speak freely to anyone within.
+
+*Strong:* The silence holds until the end of the scene; no shout, bell, or horn raised inside carries beyond the boundary, and every creature inside is Deafened to the world outside.
+
+=== Unopened (Novice Arcane Spell)
+*Disciplines:* 1 Energy · *Action:* Action · *Range:* touch · *Keywords:* Control
+
+*Weak:* One door, lid, or shutter holds shut against a casual push; a determined effort still forces it.
+
+*Standard:* The door you touch stays shut for the scene: no hand, key, or crowbar moves it, and it opens at your word alone.
+
+*Strong:* Every threshold of the room holds as that door did, each opening only at your word and each giving way only when its frame is broken apart.
+
+=== Pocket Swap (Novice Arcane Spell)
+*Disciplines:* 1 Energy · *Action:* Action · *Range:* 60 ft · *Keywords:* Teleport
+
+*Weak:* Two small objects you can see trade places.
+
+*Standard:* Two objects you can see trade places, whatever lies between them, as long as you could lift each one alone.
+
+*Strong:* Two objects trade places and may carry a grip along with them, so a held thing can be moved into another hand or left in the hand of another creature.
+
+=== Dead Weight (Novice Arcane Spell)
+*Disciplines:* 1 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Control
+
+*Weak:* An object a creature holds grows too heavy to brandish; it must drop the thing or fight around it.
+
+*Standard:* One object pins itself to the ground as though set in stone, and no hand but yours moves it while you watch.
+
+*Strong:* The weight lands on the creature carrying it: that creature goes Prone and is Restrained beneath the load until it drops everything it holds.
+
+=== Force Wave (Adept Arcane Spell)
 *Disciplines:* 2 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 15-ft cone · *Keywords:* Prone, Push
 
 *Weak:* 4 force damage; Push 5 ft (Agility or Dodge rank resists).
@@ -362,7 +434,61 @@ _Placeholder for final art._
 
 *Strong:* 8 force damage; Push 15 ft; targets are Prone.
 
-=== Ward of Iron (Arcane Spell)
+=== March of Bones (Adept Arcane Spell)
+*Disciplines:* 2 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Boon
+
+*Weak:* Raise 1 skeleton for 1 scene.
+
+*Standard:* Raise 2 skeletons for 1 scene.
+
+*Strong:* Raise 3 skeletons for 1 hour.
+
+=== Touch of the Grave (Adept Arcane Spell)
+*Disciplines:* 2 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* Touch · *Keywords:* Unconscious
+
+*Weak:* 4 necrotic damage.
+
+*Standard:* 6 necrotic damage; Fortitude check or Unconscious.
+
+*Strong:* 8 necrotic damage; Fortitude check or die at 0 HP.
+
+=== No Crossing (Adept Arcane Spell)
+*Disciplines:* 2 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Ward, Control
+
+*Weak:* One threshold holds against a kind of creature you name, and that creature cannot pass while you keep the opening in sight.
+
+*Standard:* The threshold refuses the named kind for the scene, and the creature gets through only by breaking the doorway itself.
+
+*Strong:* Every door and window of the building refuses the named kind, and the refusal stands until you name a different creature in its place.
+
+=== Vice Versa (Adept Arcane Spell)
+*Disciplines:* 2 Energy · *Action:* Action · *Range:* 60 ft · *Keywords:* Teleport
+
+*Weak:* Two creatures you can see trade positions, each arriving where the other stood.
+
+*Standard:* Two creatures trade positions, willing or not, and anything smaller than a horse that either was carrying goes along.
+
+*Strong:* Three pairs trade positions at once, and you may send one further creature along with either half of any swap.
+
+=== Turn the Air (Adept Arcane Spell)
+*Disciplines:* 2 Energy · *Action:* Action · *Range:* 60 ft · *Keywords:* Control, Zone
+
+*Weak:* One room or a thirty-foot space takes one property you name for a minute. Cold: creatures starting their turn there take 1 cold damage. Close: the space is difficult ground. Loud: hearing checks there are at Bane. Dim: sight checks there are at Bane.
+
+*Standard:* The space takes that property for the scene, and creatures inside suffer its effect every turn they spend there.
+
+*Strong:* The space takes two properties at once and holds them until you leave it, and you may change which properties they are on your turn.
+
+=== Ventriloquy (Adept Arcane Spell)
+*Disciplines:* 1 Energy + 1 Mind · *Action:* Action · *Range:* 120 ft · *Keywords:* Control, Illusion
+
+*Weak:* Your voice comes from a point you can see, and listeners turn toward it for a breath.
+
+*Standard:* For the scene your voice issues from any point in range, and you may speak, whisper, or shout from it without moving your mouth.
+
+*Strong:* For the scene your voice issues from two places at once, and anything spoken from a point you choose is heard as coming from the mouth of any creature you can see.
+
+=== Ward of Iron (Master Arcane Spell)
 *Disciplines:* 3 Energy · *Requires:* focus:arcane · *Action:* Reaction · *Range:* Self · *Keywords:* DR
 
 *Weak:* +1 DR against one attack.
@@ -373,133 +499,7 @@ _Placeholder for final art._
 
 This DR does not stack with any other source of DR.
 
-=== Unseen Hand (Arcane Spell)
-*Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained
-
-*Weak:* Move an object of up to 10 lb for 1 turn.
-
-*Standard:* Move an object of up to 20 lb for 1 turn.
-
-*Strong:* Move an object of up to 50 lb for 2 turns; can hold a creature still (Restrained).
-
-=== Eldritch Sight (Arcane Spell)
-*Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* Self · *Keywords:* None
-
-*Weak:* Reveal 1 clue about magic.
-
-*Standard:* Reveal 2 clues about magic.
-
-*Strong:* Reveal 3 clues about magic and identify any magical effect; the sight lasts 1 scene.
-
-=== Flicker Step (Arcane Spell)
-*Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Maneuver · *Range:* Self · *Keywords:* Boon, Bane
-
-*Weak:* Teleport 5 ft.
-
-*Standard:* Teleport 15 ft.
-
-*Strong:* Teleport 30 ft; Boon on your next attack, and Bane on attacks against you for 1 turn.
-
-=== Soul Drain (Arcane Spell)
-*Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
-
-*Weak:* 4 necrotic damage; heal half the damage.
-
-*Standard:* 6 necrotic damage; heal half the damage.
-
-*Strong:* 8 necrotic damage; heal 4; slay at 0 HP.
-
-=== March of Bones (Arcane Spell)
-*Disciplines:* 2 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Boon
-
-*Weak:* Raise 1 skeleton for 1 scene.
-
-*Standard:* Raise 2 skeletons for 1 scene.
-
-*Strong:* Raise 3 skeletons for 1 hour.
-
-=== Touch of the Grave (Arcane Spell)
-*Disciplines:* 2 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* Touch · *Keywords:* Unconscious
-
-*Weak:* 4 necrotic damage.
-
-*Standard:* 6 necrotic damage; Fortitude check or Unconscious.
-
-*Strong:* 8 necrotic damage; Fortitude check or die at 0 HP.
-
-=== Still Air (Arcane Spell)
-*Disciplines:* 1 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Control
-
-*Weak:* Your next word is swallowed whole; it reaches no ear but the one you name.
-
-*Standard:* No sound crosses the boundary of the room you name while you stand inside it, and you may speak freely to anyone within.
-
-*Strong:* The silence holds until the end of the scene; no shout, bell, or horn raised inside carries beyond the boundary, and every creature inside is Deafened to the world outside.
-
-=== Unopened (Arcane Spell)
-*Disciplines:* 1 Energy · *Action:* Action · *Range:* touch · *Keywords:* Control
-
-*Weak:* One door, lid, or shutter holds shut against a casual push; a determined effort still forces it.
-
-*Standard:* The door you touch stays shut for the scene: no hand, key, or crowbar moves it, and it opens at your word alone.
-
-*Strong:* Every threshold of the room holds as that door did, each opening only at your word and each giving way only when its frame is broken apart.
-
-=== Pocket Swap (Arcane Spell)
-*Disciplines:* 1 Energy · *Action:* Action · *Range:* 60 ft · *Keywords:* Teleport
-
-*Weak:* Two small objects you can see trade places.
-
-*Standard:* Two objects you can see trade places, whatever lies between them, as long as you could lift each one alone.
-
-*Strong:* Two objects trade places and may carry a grip along with them, so a held thing can be moved into another hand or left in the hand of another creature.
-
-=== Dead Weight (Arcane Spell)
-*Disciplines:* 1 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Control
-
-*Weak:* An object a creature holds grows too heavy to brandish; it must drop the thing or fight around it.
-
-*Standard:* One object pins itself to the ground as though set in stone, and no hand but yours moves it while you watch.
-
-*Strong:* The weight lands on the creature carrying it: that creature goes Prone and is Restrained beneath the load until it drops everything it holds.
-
-=== No Crossing (Arcane Spell)
-*Disciplines:* 2 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Ward, Control
-
-*Weak:* One threshold holds against a kind of creature you name, and that creature cannot pass while you keep the opening in sight.
-
-*Standard:* The threshold refuses the named kind for the scene, and the creature gets through only by breaking the doorway itself.
-
-*Strong:* Every door and window of the building refuses the named kind, and the refusal stands until you name a different creature in its place.
-
-=== Vice Versa (Arcane Spell)
-*Disciplines:* 2 Energy · *Action:* Action · *Range:* 60 ft · *Keywords:* Teleport
-
-*Weak:* Two creatures you can see trade positions, each arriving where the other stood.
-
-*Standard:* Two creatures trade positions, willing or not, and anything smaller than a horse that either was carrying goes along.
-
-*Strong:* Three pairs trade positions at once, and you may send one further creature along with either half of any swap.
-
-=== Turn the Air (Arcane Spell)
-*Disciplines:* 2 Energy · *Action:* Action · *Range:* 60 ft · *Keywords:* Control, Zone
-
-*Weak:* One room or a thirty-foot space takes one property you name for a minute. Cold: creatures starting their turn there take 1 cold damage. Close: the space is difficult ground. Loud: hearing checks there are at Bane. Dim: sight checks there are at Bane.
-
-*Standard:* The space takes that property for the scene, and creatures inside suffer its effect every turn they spend there.
-
-*Strong:* The space takes two properties at once and holds them until you leave it, and you may change which properties they are on your turn.
-
-=== Ventriloquy (Arcane Spell)
-*Disciplines:* 1 Energy + 1 Mind · *Action:* Action · *Range:* 120 ft · *Keywords:* Control, Illusion
-
-*Weak:* Your voice comes from a point you can see, and listeners turn toward it for a breath.
-
-*Standard:* For the scene your voice issues from any point in range, and you may speak, whisper, or shout from it without moving your mouth.
-
-*Strong:* For the scene your voice issues from two places at once, and anything spoken from a point you choose is heard as coming from the mouth of any creature you can see.
-
-=== Exception (Arcane Spell)
+=== Exception (Master Arcane Spell)
 *Disciplines:* 3 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Control
 
 *Weak:* Name one rule from a closed list (gravity, fire, sound, a lock, or a written law), and it lapses in one spot for a breath.
@@ -508,7 +508,7 @@ This DR does not stack with any other source of DR.
 
 *Strong:* The named rule stops applying to a thing you choose until you release it, and you may move that exemption from creature to creature as the scene goes on.
 
-=== Exchange of Natures (Arcane Spell)
+=== Exchange of Natures (Master Arcane Spell)
 *Disciplines:* 3 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Control
 
 *Weak:* Two objects trade one property: a blade goes dull and a length of rope goes sharp, and the trade ends with the scene.
@@ -517,7 +517,7 @@ This DR does not stack with any other source of DR.
 
 *Strong:* The exchange holds until you end it, and while it holds you may pass any property from either object into a third by touch.
 
-=== Not Yet (Arcane Spell)
+=== Not Yet (Master Arcane Spell)
 *Disciplines:* 2 Energy + 1 Mind · *Action:* Reaction · *Range:* 60 ft · *Keywords:* Control, Ward
 
 *Weak:* One consequence is stayed for a breath: a falling stone hangs, an opened wound waits, a verdict stays unspoken.
@@ -526,7 +526,7 @@ This DR does not stack with any other source of DR.
 
 *Strong:* The delay outlives the scene and rests on its condition alone, and you may name three conditions that will end it.
 
-=== The Room You Remember (Arcane Spell)
+=== The Room You Remember (Master Arcane Spell)
 *Disciplines:* 2 Mind + 1 Energy · *Action:* Action (ritual, 1 minute) · *Range:* 30 ft · *Keywords:* Teleport, Insight
 
 *Weak:* You touch a doorway and name a place you have seen yourself; for a breath, the room beyond shows it.
@@ -537,7 +537,7 @@ This DR does not stack with any other source of DR.
 
 == Mind Spells
 
-=== Silver Tongue (Arcane Spell)
+=== Silver Tongue (Novice Arcane Spell)
 *Disciplines:* 1 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane, Boon
 
 *Weak:* The target has Bane against your social checks for 1 scene (Reason resists).
@@ -546,7 +546,7 @@ This DR does not stack with any other source of DR.
 
 *Strong:* The target has Bane against your social checks and is friendly for 1 scene.
 
-=== Daze (Arcane Spell)
+=== Daze (Novice Arcane Spell)
 *Disciplines:* 1 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
 
 *Weak:* The target loses its Maneuver (Reason resists).
@@ -555,16 +555,7 @@ This DR does not stack with any other source of DR.
 
 *Strong:* The target loses its Action and Maneuver.
 
-=== Phantasmal Image (Arcane Spell)
-*Disciplines:* 2 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
-
-*Weak:* The illusion lasts 1 turn.
-
-*Standard:* The illusion lasts 2 turns.
-
-*Strong:* The illusion lasts 3 turns and also produces sound; those who fail a Reason check have Bane.
-
-=== Fade (Arcane Spell)
+=== Fade (Novice Arcane Spell)
 *Disciplines:* 1 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* Self · *Keywords:* Boon
 
 *Weak:* Boon on Stealth for 1 turn.
@@ -573,16 +564,7 @@ This DR does not stack with any other source of DR.
 
 *Strong:* Boon on Stealth for 3 turns; you cannot be targeted by sight.
 
-=== Mind Crown (Arcane Spell)
-*Disciplines:* 2 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft, 1 scene · *Keywords:* None
-
-*Weak:* The target follows one simple command (Reason resists).
-
-*Standard:* The target follows two simple commands.
-
-*Strong:* The target follows your commands for the full scene and cannot attempt its Reason resistance again.
-
-=== Laid Bare (Arcane Spell)
+=== Laid Bare (Novice Arcane Spell)
 *Disciplines:* 1 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* Insight
 
 *Weak:* You learn whether the creature you watch means you harm this scene.
@@ -591,7 +573,7 @@ This DR does not stack with any other source of DR.
 
 *Strong:* For the scene, every deliberate falsehood spoken near you shows itself as a wrongness you can point to, and the purpose behind each lie is plain to you.
 
-=== The Given Word (Arcane Spell)
+=== The Given Word (Novice Arcane Spell)
 *Disciplines:* 1 Mind · *Action:* Action (ritual, 1 minute) · *Range:* touch · *Keywords:* Oath, Damage
 
 *Weak:* A promise written in your presence and signed binds its signer: the moment they break it they take 4 damage.
@@ -600,7 +582,25 @@ This DR does not stack with any other source of DR.
 
 *Strong:* The signer takes 8 damage on the breach, is Marked for every witness to see, and the signing hand closes on itself and will not open until the promise is kept.
 
-=== Borrowed Recollection (Arcane Spell)
+=== Phantasmal Image (Adept Arcane Spell)
+*Disciplines:* 2 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
+
+*Weak:* The illusion lasts 1 turn.
+
+*Standard:* The illusion lasts 2 turns.
+
+*Strong:* The illusion lasts 3 turns and also produces sound; those who fail a Reason check have Bane.
+
+=== Mind Crown (Adept Arcane Spell)
+*Disciplines:* 2 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft, 1 scene · *Keywords:* None
+
+*Weak:* The target follows one simple command (Reason resists).
+
+*Standard:* The target follows two simple commands.
+
+*Strong:* The target follows your commands for the full scene and cannot attempt its Reason resistance again.
+
+=== Borrowed Recollection (Adept Arcane Spell)
 *Disciplines:* 2 Mind · *Action:* Action · *Range:* touch · *Keywords:* Insight, Bane
 
 *Weak:* Touching a creature, you read one recent memory it does not guard, seeing and hearing the moment as the creature did.
@@ -609,7 +609,7 @@ This DR does not stack with any other source of DR.
 
 *Strong:* You take the memory whole; the creature cannot recall it while you hold it, and you may set it back exactly as it was, or keep it.
 
-=== True Name (Arcane Spell)
+=== True Name (Adept Arcane Spell)
 *Disciplines:* 2 Mind · *Action:* Action (ritual, 1 minute) · *Range:* 30 ft · *Keywords:* Insight, Control
 
 *Weak:* You learn whether a name a creature answers to is truly its own.
@@ -618,7 +618,7 @@ This DR does not stack with any other source of DR.
 
 *Strong:* For a day you may speak to the creature across any distance when you say its name, and it hears you whether it wills it or not.
 
-=== Struck Through (Arcane Spell)
+=== Struck Through (Master Arcane Spell)
 *Disciplines:* 3 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* Control, Erase
 
 *Weak:* One word vanishes from every page you can see, and the sentences close over the gaps as if it had never been written.
@@ -627,7 +627,7 @@ This DR does not stack with any other source of DR.
 
 *Strong:* One word leaves the world: no tongue shapes it, no hand writes it, and every promise, law, or name that turned on it stops meaning what it meant.
 
-=== Plain Speech (Arcane Spell)
+=== Plain Speech (Master Arcane Spell)
 *Disciplines:* 3 Mind · *Action:* Action · *Range:* 60 ft · *Keywords:* Compel
 
 *Weak:* For a breath, the room will not hold one deliberate falsehood; the lie leaves the speaker's mouth as silence.
@@ -640,21 +640,21 @@ This DR does not stack with any other source of DR.
 
 Protection is the ward school. Bark Skin, Stone Skin, and Iron Skin are the ward ladder: DR for a caster who has none, +1 at Novice, +2 at Adept, +3 at Master. A ward does not add to armor, because a creature's DR comes from one source at a time, so use the higher of the ward and the steel. Each ward lasts 1 round, and sustaining it costs your Maneuver every turn: spend that Maneuver during your turn, or the spell ends at the start of it. Casting the ward also costs your Maneuver.
 
-=== Bark Skin (Arcane Spell)
+=== Bark Skin (Novice Arcane Spell)
 *Disciplines:* 1 Protection · *Requires:* focus:arcane · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
 
 *Effect:* +1 DR for 1 round, sustained with your Maneuver.
 
 This DR does not stack with any other source of DR.
 
-=== Stone Skin (Arcane Spell)
+=== Stone Skin (Adept Arcane Spell)
 *Disciplines:* 2 Protection · *Requires:* focus:arcane · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
 
 *Effect:* +2 DR for 1 round, sustained with your Maneuver.
 
 This DR does not stack with any other source of DR.
 
-=== Iron Skin (Arcane Spell)
+=== Iron Skin (Master Arcane Spell)
 *Disciplines:* 3 Protection · *Requires:* focus:arcane · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
 
 *Effect:* +3 DR for 1 round, sustained with your Maneuver.
