@@ -638,23 +638,23 @@ This DR does not stack with any other source of DR.
 
 == Protection Spells
 
-Protection is the ward school. Bark Skin, Stone Skin, and Iron Skin are the ward ladder: DR for a caster who has none, +1 at Novice, +2 at Adept, +3 at Master. A ward does not add to armor, because a creature's DR comes from one source at a time, so use the higher of the ward and the steel. Each ward lasts 1 round, and sustaining it costs your Maneuver every turn: spend that Maneuver during your turn, or the spell ends at the start of it. Casting the ward also costs your Maneuver.
+Protection is the ward school. The arcane ladder is Glass Aegis, Crystal Aegis, and Adamant Aegis: DR for a caster who has none, +1 at Novice, +2 at Adept, +3 at Master. A ward does not add to armor, because a creature's DR comes from one source at a time, so use the higher of the ward and the steel. Each ward lasts 1 round, and sustaining it costs your Maneuver every turn: spend that Maneuver during your turn, or the spell ends at the start of it. Casting the ward also costs your Maneuver. The divine ladder wears the skin names; this is the arcane one.
 
-=== Bark Skin (Novice Arcane Spell)
+=== Glass Aegis (Novice Arcane Spell)
 *Disciplines:* 1 Protection · *Requires:* focus:arcane · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
 
 *Effect:* +1 DR for 1 round, sustained with your Maneuver.
 
 This DR does not stack with any other source of DR.
 
-=== Stone Skin (Adept Arcane Spell)
+=== Crystal Aegis (Adept Arcane Spell)
 *Disciplines:* 2 Protection · *Requires:* focus:arcane · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
 
 *Effect:* +2 DR for 1 round, sustained with your Maneuver.
 
 This DR does not stack with any other source of DR.
 
-=== Iron Skin (Master Arcane Spell)
+=== Adamant Aegis (Master Arcane Spell)
 *Disciplines:* 3 Protection · *Requires:* focus:arcane · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
 
 *Effect:* +3 DR for 1 round, sustained with your Maneuver.
