@@ -195,11 +195,11 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 === Wall of Cinders (Adept Arcane Spell)
 *Disciplines:* 2 Fire · *Requires:* focus:arcane · *Action:* Action · *Range:* 30-ft wall · *Keywords:* None
 
-*Weak:* 4 fire damage to creatures passing through.
+*Weak:* 5 fire damage to creatures passing through.
 
-*Standard:* 6 fire damage to passers.
+*Standard:* 8 fire damage to passers.
 
-*Strong:* 8 fire damage to passers; ignites flammables.
+*Strong:* 11 fire damage to passers; ignites flammables.
 
 == Water Spells
 
@@ -215,20 +215,20 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 === Rime Storm (Adept Arcane Spell)
 *Disciplines:* 2 Water · *Requires:* focus:arcane · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Slowed, Frozen
 
-*Weak:* 4 cold damage (Agility or Dodge rank resists).
+*Weak:* 5 cold damage (Agility or Dodge rank resists).
 
-*Standard:* 6 cold damage; targets are Slowed 5.
+*Standard:* 8 cold damage; targets are Slowed 5.
 
-*Strong:* 8 cold damage; targets are Slowed 5 for 2 rounds.
+*Strong:* 11 cold damage; targets are Slowed 5 for 2 rounds.
 
 === Glacial Prison (Adept Arcane Spell)
 *Disciplines:* 2 Water · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained, Frozen
 
-*Weak:* 4 cold damage.
+*Weak:* 5 cold damage.
 
-*Standard:* 6 cold damage; the target is Restrained (break: Standard Athletics, once per turn).
+*Standard:* 8 cold damage; the target is Restrained (break: Standard Athletics, once per turn).
 
-*Strong:* 8 cold damage; the target is Restrained for 2 rounds.
+*Strong:* 11 cold damage; the target is Restrained for 2 rounds.
 
 == Wind Spells
 
@@ -253,20 +253,20 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 === Forked Sky (Adept Arcane Spell)
 *Disciplines:* 2 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
 
-*Weak:* 4 lightning damage, split across three arcs.
+*Weak:* 5 lightning damage, split across three arcs.
 
-*Standard:* 6 lightning damage, split across three arcs.
+*Standard:* 8 lightning damage, split across three arcs.
 
-*Strong:* 8 lightning damage, split across three arcs.
+*Strong:* 11 lightning damage, split across three arcs.
 
 === Static Field (Adept Arcane Spell)
 *Disciplines:* 2 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 10-ft radius · *Keywords:* None
 
-*Weak:* 4 lightning damage to all adjacent targets (Agility or Dodge rank resists).
+*Weak:* 5 lightning damage to all adjacent targets (Agility or Dodge rank resists).
 
-*Standard:* 6 lightning damage to all adjacent.
+*Standard:* 8 lightning damage to all adjacent.
 
-*Strong:* 8 lightning damage to all adjacent; targets lose their Maneuver.
+*Strong:* 11 lightning damage to all adjacent; targets lose their Maneuver.
 
 #image("assets/svg/placeholder-section.svg", width: 60%)
 
@@ -307,20 +307,20 @@ _Placeholder for final art._
 === Caustic Mist (Adept Arcane Spell)
 *Disciplines:* 2 Earth · *Requires:* focus:arcane · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Bane
 
-*Weak:* 4 acid damage (Agility or Dodge rank resists).
+*Weak:* 5 acid damage (Agility or Dodge rank resists).
 
-*Standard:* 6 acid damage; targets have Bane on sight.
+*Standard:* 8 acid damage; targets have Bane on sight.
 
-*Strong:* 8 acid damage; targets have Bane on sight for 2 rounds; the mist lasts 2 rounds.
+*Strong:* 11 acid damage; targets have Bane on sight for 2 rounds; the mist lasts 2 rounds.
 
 === Tremor (Adept Arcane Spell)
 *Disciplines:* 2 Earth · *Requires:* focus:arcane · *Action:* Action · *Range:* 10-ft radius · *Keywords:* Prone
 
-*Weak:* 4 bludgeoning damage (Agility or Dodge rank resists).
+*Weak:* 5 bludgeoning damage (Agility or Dodge rank resists).
 
-*Standard:* 6 bludgeoning damage; targets are Prone.
+*Standard:* 8 bludgeoning damage; targets are Prone.
 
-*Strong:* 8 bludgeoning damage; targets are Prone and lose their Maneuver.
+*Strong:* 11 bludgeoning damage; targets are Prone and lose their Maneuver.
 
 === Tilt (Adept Arcane Spell)
 *Disciplines:* 2 Earth · *Action:* Action · *Range:* 60 ft · *Keywords:* Control, Damage
@@ -428,11 +428,11 @@ _Placeholder for final art._
 === Force Wave (Adept Arcane Spell)
 *Disciplines:* 2 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 15-ft cone · *Keywords:* Prone, Push
 
-*Weak:* 4 force damage; Push 5 ft (Agility or Dodge rank resists).
+*Weak:* 5 force damage; Push 5 ft (Agility or Dodge rank resists).
 
-*Standard:* 6 force damage; Push 10 ft.
+*Standard:* 8 force damage; Push 10 ft.
 
-*Strong:* 8 force damage; Push 15 ft; targets are Prone.
+*Strong:* 11 force damage; Push 15 ft; targets are Prone.
 
 === March of Bones (Adept Arcane Spell)
 *Disciplines:* 2 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Boon
@@ -446,11 +446,11 @@ _Placeholder for final art._
 === Touch of the Grave (Adept Arcane Spell)
 *Disciplines:* 2 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* Touch · *Keywords:* Unconscious
 
-*Weak:* 4 necrotic damage.
+*Weak:* 5 necrotic damage.
 
-*Standard:* 6 necrotic damage; Fortitude check or Unconscious.
+*Standard:* 8 necrotic damage; Fortitude check or Unconscious.
 
-*Strong:* 8 necrotic damage; Fortitude check or die at 0 HP.
+*Strong:* 11 necrotic damage; Fortitude check or die at 0 HP.
 
 === No Crossing (Adept Arcane Spell)
 *Disciplines:* 2 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Ward, Control
