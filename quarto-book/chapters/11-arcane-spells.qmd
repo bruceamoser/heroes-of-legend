@@ -127,14 +127,14 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* One written word vanishes from a page and from every copy of that page within reach, each gap glossed over as though it were never there.
 
-=== Paperweight (Cantrip)
+=== Marked Coin (Cantrip)
 *Disciplines:* None · *Action:* Action · *Range:* 30 ft · *Keywords:* Utility
 
 *Weak:* You mark a coin you touch; while it stays within a mile, you know the direction to it.
 
 *Standard:* You mark a coin you touch; you know the direction to it and the last hand that held it, until you mark another coin.
 
-*Strong:* You mark a coin you touch; from any distance you know who holds it and where it lies, until it is spent.
+*Strong:* You mark a coin you touch; from any distance you know who holds it and where it lies, until it is spent or until you mark another coin.
 
 === Thin Wall (Cantrip)
 *Disciplines:* None · *Action:* Action · *Range:* Touch · *Keywords:* Utility
@@ -435,7 +435,7 @@ _Placeholder for final art._
 *Strong:* 11 force damage; Push 15 ft; targets are Prone.
 
 === March of Bones (Adept Arcane Spell)
-*Disciplines:* 2 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Boon
+*Disciplines:* 2 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
 
 *Weak:* Raise 1 skeleton for 1 scene.
 
@@ -453,7 +453,7 @@ _Placeholder for final art._
 *Strong:* 11 necrotic damage; Fortitude check or die at 0 HP.
 
 === No Crossing (Adept Arcane Spell)
-*Disciplines:* 2 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Ward, Control
+*Disciplines:* 2 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Control
 
 *Weak:* One threshold holds against a kind of creature you name, and that creature cannot pass while you keep the opening in sight.
 
@@ -473,7 +473,7 @@ _Placeholder for final art._
 === Turn the Air (Adept Arcane Spell)
 *Disciplines:* 2 Energy · *Action:* Action · *Range:* 60 ft · *Keywords:* Control, Zone
 
-*Weak:* One room or a thirty-foot space takes one property you name for a minute. Cold: creatures starting their turn there take 1 cold damage. Close: the space is difficult ground. Loud: hearing checks there are at Bane. Dim: sight checks there are at Bane.
+*Weak:* One room or a thirty-foot space takes one property you name for a minute. Cold: creatures starting their turn there take 5 cold damage. Close: the space is difficult ground. Loud: hearing checks there are at Bane. Dim: sight checks there are at Bane.
 
 *Standard:* The space takes that property for the scene, and creatures inside suffer its effect every turn they spend there.
 
@@ -495,7 +495,7 @@ _Placeholder for final art._
 
 *Standard:* +2 DR against one attack.
 
-*Strong:* +3 DR against one attack; the attacker takes 4 damage as the ward throws the blow back.
+*Strong:* +3 DR against one attack; the attacker takes 7 damage as the ward throws the blow back.
 
 This DR does not stack with any other source of DR.
 
@@ -518,7 +518,7 @@ This DR does not stack with any other source of DR.
 *Strong:* The exchange holds until you end it, and while it holds you may pass any property from either object into a third by touch.
 
 === Not Yet (Master Arcane Spell)
-*Disciplines:* 2 Energy + 1 Mind · *Action:* Reaction · *Range:* 60 ft · *Keywords:* Control, Ward
+*Disciplines:* 2 Energy + 1 Mind · *Action:* Reaction · *Range:* 60 ft · *Keywords:* Control
 
 *Weak:* One consequence is stayed for a breath: a falling stone hangs, an opened wound waits, a verdict stays unspoken.
 
@@ -538,7 +538,7 @@ This DR does not stack with any other source of DR.
 == Mind Spells
 
 === Silver Tongue (Novice Arcane Spell)
-*Disciplines:* 1 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane, Boon
+*Disciplines:* 1 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
 
 *Weak:* The target has Bane against your social checks for 1 scene (Reason resists).
 
@@ -601,7 +601,7 @@ This DR does not stack with any other source of DR.
 *Strong:* The target follows your commands for the full scene and cannot attempt its Reason resistance again.
 
 === Borrowed Recollection (Adept Arcane Spell)
-*Disciplines:* 2 Mind · *Action:* Action · *Range:* Touch · *Keywords:* Insight, Bane
+*Disciplines:* 2 Mind · *Action:* Action · *Range:* Touch · *Keywords:* Insight
 
 *Weak:* Touching a creature, you read one recent memory it does not guard, seeing and hearing the moment as the creature did.
 
