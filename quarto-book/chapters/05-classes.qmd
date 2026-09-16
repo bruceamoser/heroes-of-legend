@@ -28,7 +28,7 @@ Your class gives you a Discipline, a signature ability, and cheaper access to ce
     [*Protector*], [Tank, defender], [Armor (1) + Shields (1)], [*Bastion*, defensive stance],
     [*Blade*], [Assassin, precision], [Melee (1) + Stealth (1)], [*Swift Blade*],
     [*Arcanist*], [Arcane caster], [Energy (1) + Fire (1)], [*Arcane Shield*],
-    [*Shepherd*], [Divine guide], [Shields (1) + Animal (1)], [*Unholy Word*],
+    [*Shepherd*], [Divine guide], [Protection (1) + Animal (1)], [*Unholy Word*],
     [*Intellect*], [Scholar, strategist], [Any one (1) + Lore (1)], [*Knowledge Is Power*],
     [*Odd*], [Chaos wildcard], [Any one, different category (1) + 1 any, different category], [*Eccentric Spellcasting*],
     [*Leader*], [Commander], [Tactics (1) + Shields (1)], [*Lead by Example*],
@@ -79,7 +79,7 @@ The Protector stands at the vanguard, using body and armor as a shield for those
     [Unarmed], [1/2/4], [Mind], [4/8/16],
     [Sleight], [4/8/16], [Summon], [4/8/16],
     [Tactics], [2/4/8], [Stealth], [2/4/8],
-    [Lore], [4/8/16], [Protection], [1/2/4],
+    [Lore], [4/8/16], [Protection], [4/8/16],
   )],
   kind: table,
   outlined: false,
@@ -123,7 +123,7 @@ The Blade masters the art of grace and precision, favoring the swift elegance of
     [Unarmed], [1/2/4], [Mind], [4/8/16],
     [Sleight], [1/2/4], [Summon], [4/8/16],
     [Tactics], [2/4/8], [Stealth], [1/2/4],
-    [Lore], [4/8/16], [Protection], [3/6/12],
+    [Lore], [4/8/16], [Protection], [4/8/16],
   )],
   kind: table,
   outlined: false,
@@ -174,7 +174,7 @@ The Arcanist delves into the mysteries of arcane energies, mastering their manip
     [Unarmed], [4/8/16], [Mind], [1/2/4],
     [Sleight], [4/8/16], [Summon], [1/2/4],
     [Tactics], [4/8/16], [Stealth], [4/8/16],
-    [Lore], [2/4/8], [Protection], [4/8/16],
+    [Lore], [2/4/8], [Protection], [1/2/4],
   )],
   kind: table,
   outlined: false,
@@ -193,7 +193,7 @@ _"The light guides my hand."_
 
 The Shepherd stands as a beacon of guidance, providing moral direction and harnessing divine energies to aid allies. Your path is one of enlightenment, using a deep connection to the divine to inspire and protect those around you. Through word and deed, you channel power into abilities that heal, shield, and uplift your companions. Keyed to Reason, your wisdom discerns the right course in the murkiest of situations, offering light in darkness. You also stand as a bulwark against the undead, creatures that have slipped beyond death's reach fear your presence.
 
-*Class Discipline (L1):* Shields (1) + Animal (1)
+*Class Discipline (L1):* Protection (1) + Animal (1)
 
 *Signature, Unholy Word:* Call down divine energy that ignores armor and affects only undead creatures within your presence. Your faith burns what should not walk.
 
@@ -208,7 +208,7 @@ The Shepherd stands as a beacon of guidance, providing moral direction and harne
     columns: (33.33%, 16.67%, 33.33%, 16.67%),
     align: (auto, auto, auto, auto,),
     table.header([Discipline], [Cost], [Discipline], [Cost]),
-    [Fire], [4/8/16], [Shields], [1/2/4],
+    [Fire], [4/8/16], [Shields], [4/8/16],
     [Earth], [4/8/16], [Armor], [4/8/16],
     [Wind], [4/8/16], [Animal], [1/2/4],
     [Water], [4/8/16], [Plants], [1/2/4],
@@ -252,7 +252,7 @@ The Intellect embodies cerebral prowess and scholarly mastery. Your path is a re
     columns: (33.33%, 16.67%, 33.33%, 16.67%),
     align: (auto, auto, auto, auto,),
     table.header([Discipline], [Cost], [Discipline], [Cost]),
-    [Fire], [2/4/8], [Shields], [2/4/8],
+    [Fire], [2/4/8], [Shields], [3/6/12],
     [Earth], [2/4/8], [Armor], [4/8/16],
     [Wind], [2/4/8], [Animal], [2/4/8],
     [Water], [2/4/8], [Plants], [1/2/4],
@@ -354,7 +354,7 @@ The Leader is a beacon of courage on the battlefield, leading from the front lin
     [Unarmed], [2/4/8], [Mind], [3/6/12],
     [Sleight], [4/8/16], [Summon], [4/8/16],
     [Tactics], [1/2/4], [Stealth], [3/6/12],
-    [Lore], [2/4/8], [Protection], [1/2/4],
+    [Lore], [2/4/8], [Protection], [2/4/8],
   )],
   kind: table,
   outlined: false,
@@ -426,7 +426,7 @@ Choose two opposing Elemental Disciplines at Level 1 (Fire/Water or Earth/Wind).
     [Unarmed], [1/2/4], [Mind], [3/6/12],
     [Sleight], [4/8/16], [Summon], [2/4/8],
     [Tactics], [3/6/12], [Stealth], [3/6/12],
-    [Lore], [4/8/16], [Protection], [4/8/16],
+    [Lore], [4/8/16], [Protection], [1/2/4],
   )],
   kind: table,
   outlined: false,
@@ -783,8 +783,8 @@ There are four cost structures, showing the price for rank 1 / rank 2 / rank 3:
     [*Two-Handed*], [1/2/4], [2/4/8], [4/8/16], [4/8/16], [3/6/12], [2/4/8], [1/2/4], [4/8/16], [4/8/16],
     [*Ranged*], [2/4/8], [1/2/4], [4/8/16], [4/8/16], [3/6/12], [2/4/8], [2/4/8], [4/8/16], [1/2/4],
     [*Unarmed*], [1/2/4], [1/2/4], [4/8/16], [3/6/12], [4/8/16], [2/4/8], [2/4/8], [1/2/4], [2/4/8],
-    [*Shields*], [1/2/4], [3/6/12], [4/8/16], [1/2/4], [2/4/8], [2/4/8], [1/2/4], [4/8/16], [4/8/16],
-    [*Protection*], [1/2/4], [3/6/12], [4/8/16], [1/2/4], [2/4/8], [2/4/8], [1/2/4], [4/8/16], [4/8/16],
+    [*Shields*], [1/2/4], [3/6/12], [4/8/16], [4/8/16], [3/6/12], [2/4/8], [1/2/4], [4/8/16], [4/8/16],
+    [*Protection*], [4/8/16], [4/8/16], [1/2/4], [1/2/4], [2/4/8], [2/4/8], [2/4/8], [1/2/4], [4/8/16],
     [*Armor*], [1/2/4], [4/8/16], [4/8/16], [4/8/16], [4/8/16], [2/4/8], [2/4/8], [4/8/16], [4/8/16],
     [*Animal*], [3/6/12], [4/8/16], [2/4/8], [1/2/4], [2/4/8], [2/4/8], [3/6/12], [1/2/4], [4/8/16],
     [*Plants*], [4/8/16], [4/8/16], [2/4/8], [1/2/4], [1/2/4], [2/4/8], [4/8/16], [1/2/4], [4/8/16],

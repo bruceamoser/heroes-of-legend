@@ -183,7 +183,7 @@ Now your hero finds their calling. This is where they become exceptional.
     [*Protector*], [Tank, defender], [Armor + Shields], ["Stand behind me."],
     [*Blade*], [Assassin, precision], [Melee + Stealth], ["Strike once. Strike true. Strike last."],
     [*Arcanist*], [Arcane caster], [Fire + Energy], ["Fire answers to me."],
-    [*Shepherd*], [Divine guide], [Shields + Animal], ["The light guides my hand."],
+    [*Shepherd*], [Divine guide], [Protection + Animal], ["The light guides my hand."],
     [*Intellect*], [Scholar, strategist], [Lore + any one], ["I've read about this."],
     [*Odd*], [Chaos wildcard], [Any two, different categories], ["I have a trick for that."],
     [*Leader*], [Commander], [Tactics + Shields], ["Together, we are unstoppable."],
@@ -423,7 +423,7 @@ Total: 8 DP. All spent.
 
 Total: 9 DP. All spent.
 
-*Class:* Shepherd. Gains 1 Shields, 1 Animal. Signature: *Unholy Word*, divine energy ignores armor, affects only undead.
+*Class:* Shepherd. Gains 1 Protection, 1 Animal. Signature: *Unholy Word*, divine energy ignores armor, affects only undead.
 
 *Class DP (8 DP):*
 
