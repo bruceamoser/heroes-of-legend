@@ -140,23 +140,21 @@ Armor is what you wear, and it is worth its points in DR: light grants 1, medium
 
 #figure(
   align(center)[#table(
-    columns: (34.00%, 18.00%, 10.00%, 38.00%),
-    align: (auto, auto, auto, auto,),
-    table.header([Armor], [Class], [DR], [Slots],),
-    [*Padded*], [Light], [1], [2],
-    [*Leather*], [Light], [1], [2],
-    [*Studded Leather*], [Light], [1], [2],
-    [*Chain Shirt*], [Medium], [2], [2],
-    [*Breastplate*], [Medium], [2], [3],
-    [*Half Plate*], [Heavy], [3], [3],
-    [*Chain Mail*], [Heavy], [3], [4],
-    [*Plate*], [Heavy], [3], [4],
+    columns: (34.00%, 18.00%, 13.00%, 10.00%, 25.00%),
+    align: (auto, auto, auto, auto, auto,),
+    table.header([Armor], [Class], [Req], [DR], [Slots],),
+    [*Padded*], [Light], [1 Armor], [1], [2],
+    [*Leather*], [Light], [1 Armor], [1], [2],
+    [*Studded Leather*], [Light], [1 Armor], [1], [2],
+    [*Chain Shirt*], [Medium], [2 Armor], [2], [2],
+    [*Breastplate*], [Medium], [2 Armor], [2], [3],
+    [*Half Plate*], [Heavy], [3 Armor], [3], [3],
+    [*Chain Mail*], [Heavy], [3 Armor], [3], [4],
+    [*Plate*], [Heavy], [3 Armor], [3], [4],
   )],
   kind: table,
   outlined: false,
 )
-
-Full table with Stealth column: see @sec-chapter-armor-shields
 
 Shields: *Buckler* (1 Shields), *Shield* (1 Shields), *Tower Shield* (2 Shields, provides half cover). A shield enables Parry and Shield Block. See @sec-chapter-armor-shields
 
