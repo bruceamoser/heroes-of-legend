@@ -1,0 +1,47 @@
+{
+  "id": "f-907",
+  "round": 2,
+  "role": "researcher",
+  "topic": "t-03",
+  "stance": "support",
+  "argument": "Independent recomputation of the numbers f-012 rests on, taken from the merged text without reading its figures first. Rank counts against grants: the Novice card asks 1 rank for 1 point, the Adept card 2 for 2, the Master card 3 for 3, so the pairing the owner demands is met with exact equality on every card rather than merely satisfied with slack, and the ladder's three values are 1, 2 and 3. The ladder against the ceilings: 3 is equal to the Novice ceiling and below the Adept and Master ones, so no ward value passes a ceiling, and the sum of the arcane ladder with its divine twin is still one source per character because both copies carry the same refusal line on the card. The owner's example recomputes exactly - armour at 1 against the middle ward's 2 resolves to 2, then 4 - 2 = 2 and 6 - 2 = 4 - which fixes the reading f-012 asserted: the ward is taken as a source, never added to steel. Finally the census of the five effects the adding paragraph names: four class capabilities and one talent, zero spell cards, so the paragraph's additions never touch a ward and the two lists do not overlap. f-012's support is confirmed by recomputation, and the collision it located does belong to the armor chapter's carve-out paragraph rather than to any card in this file. Weak point I record rather than hide: the arcane ladder and the divine ladder are word-for-word twins apart from the focus tag, and only the primal twin is renamed, so a reader meeting both copies could take the shared names for two ladders instead of one; that naming risk is outside the arithmetic and I did not file it.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "Recomputed pairing of ranks to grants across the three cards: 1/1, 2/2, 3/3, so each card's rank cost equals the size of its grant.",
+      "quote_or_excerpt": "1 Protection / +1; 2 Protection / +2; 3 Protection / +3"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The owner states the rank requirement and the armor column on one scale, which is the rule the recomputed pairing satisfies (16:31).",
+      "quote_or_excerpt": "DR 2 costs 2 ranks, DR 3 costs 3"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Recomputed ceiling test: the ladder's maximum, 3, equals the Novice ceiling, sits under the Adept ceiling of 4 and under the Master ceiling of 6, so the ladder is inside the range at every tier.",
+      "quote_or_excerpt": "max 3 vs ceilings 3/4/6 -> never over"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The owner's example, recomputed: armour 1 against the middle ward's 2 gives 2 as the larger single number, and the two printed subtractions reproduce exactly, 4 - 2 = 2 and 6 - 2 = 4.",
+      "quote_or_excerpt": "4 - 2 = 2, so Kael takes 2 damage"
+    },
+    {
+      "source": "05-classes.qmd",
+      "claim": "Census of the names in the owner's adding paragraph: Warding Touch (05:581), Shield of Faith (05:585), Bulwark (05:681) and Ironhide (05:683) are class capabilities with stated durations, worth 1, 2, 2 and 1 points.",
+      "quote_or_excerpt": "You and all adjacent allies gain +2 DR"
+    },
+    {
+      "source": "09-talents-abilities.qmd",
+      "claim": "The fifth name is a Novice talent worth 2 points (09:94), leaving the count at four capabilities plus one talent and zero spell cards among the five.",
+      "quote_or_excerpt": "When you take the Defend maneuver, adjacent allies gain +2 DR"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Both the arcane ladder's cards and their divine copies carry the same refusal line, so the pair counts as one source for a caster who holds both (11:648, 11:655, 11:662; 12:166).",
+      "quote_or_excerpt": "This DR does not stack with any other source of DR"
+    }
+  ],
+  "confidence": 0.7,
+  "rebutting": []
+}

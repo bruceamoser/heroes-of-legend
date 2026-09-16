@@ -1,0 +1,37 @@
+{
+  "id": "contrarian-r2-f008",
+  "round": 2,
+  "role": "contrarian",
+  "topic": "t-03",
+  "stance": "support",
+  "argument": "I tried to break the refutation along the seam the orchestrator itself names, and I could not. The owner's rule limits a character to one source at a time and takes the highest of whatever applies, naming armour, talents and wards among the things that do not sum; more telling, its own worked example resolves light armour against the middle ward of this very ladder by taking the larger of the two single numbers, so the owner's operational text files a spell-sourced grant in the carried bucket and not in the adding bucket. The adding paragraph covers DR granted by an ability for a stated duration, and every one of the five granters it lists is a talent-side feature, none of them a printed ward card; that card-versus-ability distinction is what my round-one filing missed, because I read the duration test as the owner's whole criterion without checking what the owner does when the grant is a card. The tension between the two paragraphs is real, but it lives in the owning chapter, and the copy of this ladder that sits in the sibling spell list is outside this chapter's remit. One arithmetic correction to my own work: light armour plus a duration grant of two resolves to two under the highest-source reading and to three under the adding reading, a one-point delta, not the one-against-three gap I filed. Every copy of the ladder in this chapter repeats that its DR does not combine with another source, so nothing here contradicts the owner. Class: MECHANICAL; no change owed in this chapter on this axis.",
+  "evidence": [
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The owner's rule keeps DR to one source at a time and takes the highest when several apply, naming armour, talents and wards as the elements that never sum.",
+      "quote_or_excerpt": "If more than one source gives you DR, use the highest"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "Its worked example settles armour against the middle ward of this ladder by taking the larger single number, which is the reading this chapter follows at its own 11:641.",
+      "quote_or_excerpt": "his DR is the higher of the two, 2"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The adding paragraph reaches DR granted by an ability for a stated duration and names five granters, all of them talent-side features rather than printed spell cards.",
+      "quote_or_excerpt": "Guarding Stance, Warding Touch, Shield of Faith, Bulwark, and Ironhide"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Corrected arithmetic for my round-one error: armour one plus a duration grant of two gives two by the highest-source reading and three by the adding reading, a one-point delta rather than the gap I filed.",
+      "quote_or_excerpt": "1 vs 2 as sources -> 2; adding -> 3"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "This chapter's three copies of the ladder each repeat that their DR does not combine with another source, so the chapter states the owner's carried-source rule on the cards as well as in its preamble.",
+      "quote_or_excerpt": "This DR does not stack with any other source of DR."
+    }
+  ],
+  "confidence": 0.7,
+  "rebutting": ["f-008"]
+}

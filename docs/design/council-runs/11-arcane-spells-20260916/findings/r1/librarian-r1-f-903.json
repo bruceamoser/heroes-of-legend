@@ -1,0 +1,32 @@
+{
+  "id": "f-903",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-01",
+  "stance": "support",
+  "argument": "Framing ruling on the three-topic split: it is the right frame for card-level defects and the wrong one for two shapes this chapter actually has. Each topic is card-shaped - t-01 measures a card against a locked instrument, t-02 measures the chapter against its own prose, t-03 measures it against an owning chapter. Two live defects here are not. First, the run's cleared census counts the damage triples that exist and leaves open whether each card carries one; this file answers that question with twelve cantrips and thirty-one spell cards that print no figure at all, so the whole block, not a card, is what fails the instrument. Second, a card's object can lean on material the conventions deleted, as Paperweight does when it keys a cantrip to a coin; that is a card-versus-conventions seam, and no topic asks it. I file both under t-01 rather than stretching the split, and recommend the frame gain a block-level topic for blocks whose shape the conventions describe and the file does not exhibit. Ruling: the split stands; it needs one addition, not a replacement.",
+  "evidence": [
+    {
+      "source": "reasoning",
+      "claim": "Census of every card in the file: of fifteen cantrips three carry a damage figure at every rung and twelve carry none; across the file twenty-five of sixty-eight cards carry a figure and forty-three do not (11:52-11:110).",
+      "quote_or_excerpt": "3 of 15 cantrips with figures; 25 of 68 cards with figures"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The run's cleared statement scopes the damage census to the triples that are printed and leaves presence open for the two largest groups in the chapter, which is a gap no topic in the split owns (problem statement, cleared list).",
+      "quote_or_excerpt": "measures the triples that exist, not whether each card carries one"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Paperweight makes a coin the object of the cantrip and makes the strongest rung end when that object is spent (11:133, 11:137), and that noun occurs three times in the entire book, all on this one card.",
+      "quote_or_excerpt": "until it is spent (11:137)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Frame test: both defects above survive a topic-by-topic reading, because one puts the instrument rather than the card under test and the other puts the seam between the card and the locked conventions under test.",
+      "quote_or_excerpt": "instrument under test; card-versus-conventions seam"
+    }
+  ],
+  "confidence": 0.6,
+  "rebutting": []
+}

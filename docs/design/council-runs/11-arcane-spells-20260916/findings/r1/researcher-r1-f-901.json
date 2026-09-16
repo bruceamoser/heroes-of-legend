@@ -1,0 +1,42 @@
+{
+  "id": "f-901",
+  "round": 1,
+  "role": "researcher",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "Three of the sixty-eight cards in this file (11-arcane-spells:530, 577, 613) push a casting duration into the action field, writing a compound value the owner of that field does not admit. The format specification in 19-gm-guidance fixes the slot at three turn-economy words, and the reference sheets buy exactly one action per turn with casting named among the things it pays for, so a minute-long performance fits neither. The term is carried nowhere: a book-wide sweep returns eight lines in six chapters, three of them these same headers, the rest a skill-list entry used twice, dice-table flavour, chalk, and encounter dressing. No chapter defines a ritual casting mode. This file already brackets its timers on the range line of the cantrips at 11-arcane-spells:32 and 11-arcane-spells:41, which is where a duration lives when the action slot is not meant to grow a fourth value. Class: MECHANICAL (three header lines). Framing note: the field's vocabulary belongs to 19-gm-guidance, not to this chapter, which is why I file it as cross-chapter rather than local.",
+  "evidence": [
+    {
+      "source": "19-gm-guidance.qmd",
+      "claim": "The chapter that owns the card format writes the action field as a choice between exactly three words in its format line (19:549).",
+      "quote_or_excerpt": "**Action:** Action/Reaction/Maneuver"
+    },
+    {
+      "source": "19-gm-guidance.qmd",
+      "claim": "Its field table defines that slot as a cost drawn from the turn economy and offers no place for a duration (19:558).",
+      "quote_or_excerpt": "What it costs from the turn economy: Action, Maneuver, or Reaction."
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "The turn sheet gives a character one action per round and lists casting a spell among what that action buys (22:58), so a one-minute ritual has no slot in the turn economy.",
+      "quote_or_excerpt": "Attack, cast a spell, Dash (double move), activate ability"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Three headers here carry the compound value: The Room You Remember (11-arcane-spells:530), The Given Word (11-arcane-spells:577) and True Name (11-arcane-spells:613). They are the file's only non-standard action values.",
+      "quote_or_excerpt": "*Action:* Action (ritual, 1 minute) · *Range:* touch"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The file's own bracket for a timer sits on the range line of the cantrips (11-arcane-spells:32 and 11-arcane-spells:41), never in the action field.",
+      "quote_or_excerpt": "*Range:* 60 ft (Concentration, up to 1 minute)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Census: parsing all sixty-eight header lines returns fifty-nine plain Action values, four Maneuver, two Reaction and these three compound ones; the divine chapter's forty-six cards split forty plain and six Maneuver with none compound; a grep for the term across every chapter returns eight lines in six chapters and none of them is a casting mode.",
+      "quote_or_excerpt": "census 59/4/3/2 of 68; ch12 46 cards, no compound"
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": []
+}

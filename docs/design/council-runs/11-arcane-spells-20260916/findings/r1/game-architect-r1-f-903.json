@@ -1,0 +1,27 @@
+{
+  "id": "f-903",
+  "round": 1,
+  "role": "game-architect",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "Tilt's first outcome line prints no number at all, while its other two print 8 and 11 (11-arcane-spells:328-332). The chapter's own introduction pledges that a card's outcome lines carry its tier's row (11-arcane-spells:19), and the Adept row opens at 5, so a reader keying those numbers finds two of three values and one unaccounted for. The file's own way of printing a line that deals nothing is the explicit wording Gust carries at 11-arcane-spells:247, and Tilt does not use it. The card's header also tags Damage (11-arcane-spells:326) while the tagged line deals none, so the tag and the text disagree on the same card. Arithmetic: Adept row 5/8/11 against printed --/8/11, one value of three missing. Fix path: print the row's opening value on the first line or mark it as a no-damage line like Gust. Disposition: MECHANICAL.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "The card's first outcome carries no figure while the other two print the row's second and third values (11-arcane-spells:328-332).",
+      "quote_or_excerpt": "takes 8 damage and lands Prone"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The introduction promises each card's outcomes carry its tier's numbers, so three lines should show three values (11-arcane-spells:19).",
+      "quote_or_excerpt": "keys to that tier's row"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Gust is the file's own precedent for a line that deals nothing, and it says so in plain words (11-arcane-spells:247).",
+      "quote_or_excerpt": "No damage; Push 5 ft"
+    }
+  ],
+  "confidence": 0.66,
+  "rebutting": []
+}

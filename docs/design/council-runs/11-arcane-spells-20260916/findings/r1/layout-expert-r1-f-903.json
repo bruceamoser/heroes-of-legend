@@ -1,0 +1,27 @@
+{
+  "id": "f-903",
+  "round": 1,
+  "role": "layout-expert",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "The chapter's nine headings do not partition its 68 cards to a usable granularity, and the outlier is the long run rather than the small one. A single heading carries 21 cards across 192 lines (11-arcane-spells:345-537) with no landmark inside it, 29 percent of the file's length under one signpost, while the sibling spell list's widest heading covers 12 cards. Small sections are not the fault: that sibling carries two one-card sections of its own (12-divine-spells:76, 12:357), so this file's one-card plant section (11:334-344) sits inside house practice even though it spends a heading on a single card. A reader hunting one of those twenty-one cards has one heading to work from. The counts are source-decidable; whether the run reads as an undifferentiated mass on the page is a render question I cannot settle, so the repair - fold the singleton away, or add interior signposts to the long run - is a design call for the council.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "Section coverage is lopsided: the energy heading at 345 governs the cards on lines 347 through 529, while the plant heading at 334 governs exactly one card, at 336.",
+      "quote_or_excerpt": "=== Venom Lance (Novice Arcane Spell)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Card counts per heading in the registered file run 15, 4, 3, 5, 5, 1, 21, 11 and 3, summing to the file's 68 cards; the 21-card run occupies lines 345-537.",
+      "quote_or_excerpt": "counts 15/4/3/5/5/1/21/11/3 = 68"
+    },
+    {
+      "source": "12-divine-spells.qmd",
+      "claim": "The sibling list's widest heading covers 12 cards (12-divine-spells:247-356), and each of its two one-card sections (12:76, 12:357) shows that small sections are house practice rather than the defect.",
+      "quote_or_excerpt": "== Religion Spells"
+    }
+  ],
+  "confidence": 0.55,
+  "rebutting": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "f-904",
+  "round": 1,
+  "role": "layout-expert",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "Two printed header fields in this file disagree with themselves. The touch value in the range slot is capitalised in seven card headers and left lowercase in three (11-arcane-spells:32, 50, 122, 140, 149, 158, 447 against 402, 577, 604), and the lift figure is abbreviated three times (11:359, 361, 363) while the same file spells that unit out at 11:72. Book-wide the abbreviation appears on those three lines and nowhere else, while the spelled-out form appears on three lines, one of them this file's own. Both are single-word normalisations a typesetter would apply in one pass; neither blocks a reader, so this is cosmetic, but it is decidable from text with no render and it is drift that widens if left alone.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "Ten headers carry the touch value and three of them use a lowercase initial: 11-arcane-spells:402, 577 and 604, against 32, 50, 122, 140, 149, 158 and 447.",
+      "quote_or_excerpt": "· *Range:* touch · *Keywords:* Divination"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The lift figure is abbreviated on three outcome lines of one card (11-arcane-spells:359, 361, 363) while this file's own hand card spells the same unit out at 11:72.",
+      "quote_or_excerpt": "up to 10 lb for 1 turn."
+    },
+    {
+      "source": "17-magic-items.qmd",
+      "claim": "Book-wide, the abbreviated form of that unit appears on three lines and all three are in this file, against three lines carrying the spelled-out form (11-arcane-spells:72, 17-magic-items:390 and 432).",
+      "quote_or_excerpt": "500 pounds of gear"
+    }
+  ],
+  "confidence": 0.5,
+  "rebutting": []
+}

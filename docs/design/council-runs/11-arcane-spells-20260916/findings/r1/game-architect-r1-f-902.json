@@ -1,0 +1,27 @@
+{
+  "id": "f-902",
+  "round": 1,
+  "role": "game-architect",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Ward of Iron hands out +1, +2 and +3 DR against one strike, and that ladder is legal: three Energy ranks cover a grant of three under the owner chapter's ranks rule (16-armor-shields.qmd:31). What breaks is the Strong line, which states a four-point figure twice, once as damage landing on the striker and once as a mirror of the same blow (11-arcane-spells:498). A Master card owns the 7/10/14 row, so four sits three under the floor and four is the Novice row's first value, not this card's. It is also one number written as two clauses, so a table reading it may resolve either one instance or two, and nothing on the card says which. Arithmetic: 7 - 4 = 3 short of the Master floor. Fix path: take the reflected figure off the card's own row, or use the sanctioned tier bump instead of a flat number. Disposition: MECHANICAL.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "The Strong outcome names four points of damage twice in one sentence, once against the attacker and once as a mirror of the blow (11-arcane-spells:498).",
+      "quote_or_excerpt": "the ward reflects 4 damage"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Master row 7/10/14 against the printed 4: 7 - 4 = 3 under the floor, and 4 is the Novice row's first value (11-arcane-spells:498).",
+      "quote_or_excerpt": "7 - 4 = 3"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "A grant of three needs three ranks, and the card asks for three Energy, so the DR part of the ladder is compliant (16-armor-shields.qmd:31).",
+      "quote_or_excerpt": "DR 3 costs 3 ranks"
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": []
+}

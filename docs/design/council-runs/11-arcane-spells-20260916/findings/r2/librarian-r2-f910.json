@@ -1,0 +1,47 @@
+{
+ "id": "f-910",
+ "round": 2,
+ "role": "librarian",
+ "topic": "t-03",
+ "stance": "refute",
+ "argument": "Three of the five charges now holding t-03 open die against the merged book, and the topic still cannot close, because the name collision survives every seat's rebuttal. f-008 falls: the chapter that owns DR takes one governing source and its worked example resolves this ladder's middle card against worn armour by keeping the larger figure, and the Protection preamble in this chapter repeats that rule rather than contradicting it; the carve-out f-008 leans on covers an ability grant with a duration, and the five things the owner names as working that way are class abilities, not wards, so nothing in either file says a ward stacks with steel. f-015 and f-017 fall on the merged text alone: no removal procedure is named any more and the ritual timer sits inside the range bracket, where the cantrips already put theirs. f-001 stands as filed and f-003 survives in the narrow residue only. Named terminal state: t-03 stays contested, and with two rounds run out that is an impasse the judge must rule; t-01 travels to the same judge, its three refuters and its two off-row figures untouched by the merge.",
+ "evidence": [
+  {
+   "source": "quarto-book/chapters/16-armor-shields.qmd:23 (origin/main)",
+   "claim": "The chapter that owns damage reduction says a single governing source decides, and that armour, talents and wards are not summed — so a ward granting more than worn armour replaces it and adds nothing to it, which is the opposite of what f-008 asserts.",
+   "quote_or_excerpt": "If more than one source gives you DR, use the highest"
+  },
+  {
+   "source": "quarto-book/chapters/16-armor-shields.qmd:33 (origin/main)",
+   "claim": "The owner's own worked example puts a character under the middle card of this very ladder and resolves the pairing by taking the larger single number, so the book treats that card as one source among sources rather than as a stacking bonus.",
+   "quote_or_excerpt": "He is also under Stone Skin, which grants +2 DR"
+  },
+  {
+   "source": "quarto-book/chapters/16-armor-shields.qmd:29 (origin/main)",
+   "claim": "The paragraph f-008 leans on is scoped to a temporary ability grant and lists five named granters, all of them class abilities; no ward appears in that list, so its duration clause cannot be stretched to cover a spell card.",
+   "quote_or_excerpt": "Temporary grants add. DR granted by an ability for a stated duration"
+  },
+  {
+   "source": "quarto-book/chapters/11-arcane-spells.qmd — Protection preamble and the three ward cards (origin/main)",
+   "claim": "This chapter's own preamble states the one-source rule for wards and defers to whichever of ward or steel is higher, so the chapter agrees with the owning text and f-008 describes a disagreement that is not in the book.",
+   "quote_or_excerpt": "A ward does not add to armor"
+  },
+  {
+   "source": "quarto-book/chapters/11-arcane-spells.qmd — Arcane Mark (Cantrip) header, The Given Word (Novice Spell) header (origin/main)",
+   "claim": "The merged file carries the duration inside the range bracket on cantrips and ritual cards alike and no longer names any removal procedure, which is exactly what f-015 and f-017 asked for, so both charges describe pre-fix text.",
+   "quote_or_excerpt": "Range:* Touch (Permanent) · *Keywords:* None … *Range:* Touch (ritual, 1 minute)"
+  },
+  {
+   "source": "quarto-book/chapters/12-divine-spells.qmd:161,170,197,204,220,227 (origin/main)",
+   "claim": "The ladder's third copy was renamed for its own tradition while the divine and arcane copies keep one set of titles, so the surviving charge in f-001 is real: two traditions still sell identical cards under identical names.",
+   "quote_or_excerpt": "Beast Hide, Scaled Hide, and Carapace, the same values"
+  },
+  {
+   "source": "quarto-book/chapters/11-arcane-spells.qmd — keyword fields on the two flagged cards (origin/main)",
+   "claim": "The same two-tag pair prints in both orders inside this one file and a category word occupies the slot other cards use for effects, so f-003's narrowed residue stands even though its headline count does not.",
+   "quote_or_excerpt": "Keywords:* Boon, Bane … *Keywords:* Bane, Boon"
+  }
+ ],
+ "confidence": 0.8,
+ "rebutting": ["f-008", "f-015", "f-017"]
+}

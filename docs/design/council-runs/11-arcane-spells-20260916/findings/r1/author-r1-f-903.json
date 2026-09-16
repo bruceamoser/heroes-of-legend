@@ -1,0 +1,32 @@
+{
+  "id": "f-903",
+  "round": 1,
+  "role": "author",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "A field-by-field census of every header in the book finds eleven tags used in this chapter and in no other chapter's header line: Compel, Erase, Frozen, Illusion, Insight, Oath, Teleport, Unconscious, Utility, Ward and Zone. Four of them (Compel at 631, Oath at 577, Erase at 622, Zone at 474) occur exactly once in the whole manuscript as printed tokens, all four in this file, so a reader has nowhere to look up what the tag asks of them; a fifth, Utility, is spent five times across the cantrip block (122, 131, 140, 149, 158) and names a category rather than anything a card touches. The paired tags are not ordered consistently either: this file prints the same two-tag pair one way at 456 and the other way at 521, and its other pair flips between 375 and 541, so flag order is not governed by anything a writer can follow. Worse is Ward at 456 and 521: this chapter spends that word on its DR ladder at 641, yet neither tagged card grants DR, so the vocabulary collides with a term the same section defines. The format chapter at 19-gm-guidance calls the field the mechanics a card interacts with; eleven private tags, four of them unresolvable, is a vocabulary the book has not agreed on. Fix: fold these onto shared tag names, or define them where the card format is set.",
+  "evidence": [
+    {
+      "source": "19-gm-guidance.qmd",
+      "claim": "The card-format table at 19:560 describes the field as the mechanics a card interacts with, illustrated with Bane, Boon, Prone, Slowed, Piercing and DR.",
+      "quote_or_excerpt": "Mechanics the card interacts with: Bane, Boon, Prone"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Census of every Keywords field in the book: eleven tags appear only in this file's headers, and Compel, Oath, Erase and Zone each return exactly one book-wide hit, at 11-arcane-spells:631, 577, 622 and 474.",
+      "quote_or_excerpt": "census: 11 ch11-only header tags; Compel/Oath/Erase/Zone: one book-wide hit each"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The two-tag pairs are printed in opposite orders inside a single file: 11-arcane-spells:456 against 11-arcane-spells:521, and 11-arcane-spells:375 against 11-arcane-spells:541; a book-wide count of the first pair gives two headers one way and one the other.",
+      "quote_or_excerpt": "Control, Ward"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "No Crossing (11-arcane-spells:456) and Not Yet (11-arcane-spells:521) both print the Ward tag while granting no DR, and the same word is the DR ladder's own name at 11-arcane-spells:641.",
+      "quote_or_excerpt": "Ward, Control"
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "f-904",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-01",
+  "stance": "support",
+  "argument": "Disposition ruling for this chapter's defect groups, each with its exit named. Card-versus-convention wording defects are MECHANICAL and chapter-local: the two live ones are the three header tags whose modifier no rung of their own card uses (strike the word from three lines) and Paperweight's coin object with its open-ended strongest rung (rename the object, close the window on a mark of the caster's own making). The inherited-value collision is MECHANICAL and not chapter-local: the cantrip ladder and the Novice floor are both locked, so the single clause that fails sits in the owning chapter and this file's three rungs stay. Anything that would move numbers on more than one card is SUBSTANTIVE - printing rungs on the twelve cantrips that have none, or re-basing a locked budget row - and both of those are multi-card or multi-file work. DESIGN is reserved for the one question with two defensible exits and no chapter that owns it: whether the cantrip convention's descriptive half binds all fifteen entries or only the entries that deal damage, where one reading edits nothing in this file and the other adds figures to twelve cards. Chapter-local: the three tag strikes and the coin rewording. Multi-file: the cantrip ceiling clause in 10-magic-system and any convention or row change. Nothing here needs the chapter rebuilt.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "Two wording defects are repairable inside this file with no mechanic touched: the three headers whose tag no rung of the same card uses (11:438, 11:541, 11:604), and the coin-keyed object and ending on one cantrip (11:133, 11:137).",
+      "quote_or_excerpt": "*Keywords:* Boon (11:438); *Keywords:* Insight, Bane (11:604)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "One inherited-value collision needs the owning chapter rather than this one, because both ladders are locked and only the comparative clause is free to move (10-magic-system:77 against the Novice row at 10-magic-system:46).",
+      "quote_or_excerpt": "locked ladder against locked row: the clause moves, the numbers do not"
+    },
+    {
+      "source": "reasoning",
+      "claim": "SUBSTANTIVE exits are the ones that move figures on more than one card: giving the twelve cantrips without a printed rung their rungs, or re-basing a locked budget row, each of which is multi-card or multi-file.",
+      "quote_or_excerpt": "12 cantrips carrying no rung; 2 locked budget rows in play"
+    },
+    {
+      "source": "reasoning",
+      "claim": "DESIGN holds exactly one item, the reach of the cantrip convention's descriptive half, because its two readings either leave this file untouched or renumber twelve cards.",
+      "quote_or_excerpt": "zero edits here against twelve cards renumbered"
+    }
+  ],
+  "confidence": 0.62,
+  "rebutting": []
+}

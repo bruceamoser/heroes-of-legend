@@ -1,0 +1,27 @@
+{
+  "id": "f-902",
+  "round": 1,
+  "role": "author",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "Four cards in this file name a leveled condition in the header and then never apply it in any result line (11:168, 11:206, 11:215, 11:224). All three Water cards carry Frozen (headers at 207, 216 and 225) while that word occurs three times in the whole file and every one of them is a header; their results hand out cold damage plus Slowed or Restrained instead. Ember Lance prints Burning at 169 and its three results offer nothing but damage and a behind-target rider, even though the sibling fire card does land the condition with a level at 193, which shows the tag is not decorative by this chapter's own practice. Because 19-gm-guidance describes that field as the mechanics a card interacts with, and 13-combat gives Frozen a cold-damage rider and an action cost to shed, a table reading the header expects a freeze that never arrives. Splitting the rung list into standalone cards is the likely cause: the rider was dropped and the tag kept. Fix either way: add the missing condition with its level to the affected results, or strike the tag.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "Frostbite Shard, Rime Storm and Glacial Prison list Frozen in their headers at 11-arcane-spells:207, 216 and 225, and none of the three ever applies that condition in a result.",
+      "quote_or_excerpt": "Slowed, Frozen"
+    },
+    {
+      "source": "13-combat.qmd",
+      "claim": "Frozen is a live condition in the combat chapter's table at 13:201, carrying a per-round cold damage rider and an action to break free, so naming it in a header promises something a table can act on.",
+      "quote_or_excerpt": "Incapacitated and takes X cold damage per round"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Ember Lance tags Burning at 11-arcane-spells:169 and never applies it, while Brimstone Burst does land that condition with a level at 11-arcane-spells:193.",
+      "quote_or_excerpt": "Piercing, Burning"
+    }
+  ],
+  "confidence": 0.78,
+  "rebutting": []
+}

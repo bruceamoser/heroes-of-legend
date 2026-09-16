@@ -1,0 +1,27 @@
+{
+  "id": "f-904",
+  "round": 1,
+  "role": "game-architect",
+  "topic": "t-03",
+  "stance": "support",
+  "argument": "The three Protection cards each ask for as many ranks as the size of the number they hand out: one rank for one, two for two, three for three (11-arcane-spells:643-660), which is what the owner chapter's ranks rule demands of any grant. The top of that ladder is three, and the printed caps at each tier of play are three, four and six, so no build that leans on a ward can climb over its cap; the cap is only reachable, never breached. The owner chapter resolves armour against a ward by taking the larger single number, and its worked example uses the middle ward by name (16-armor-shields.qmd:33), which is the same rule this chapter's Protection preamble states (11-arcane-spells:641). The five effects that chapter carves out as additions are class features, none of them a ward card, so the contradiction sits in that carve-out and not in this chapter. Arithmetic: ranks 1/2/3 against grants 1/2/3; ladder maximum 3 against caps 3/4/6. Disposition: MECHANICAL (no change needed here).",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "Each ward's required ranks equal the DR it grants, one for one and three for three (11-arcane-spells:643-660).",
+      "quote_or_excerpt": "+3 DR for 1 round, sustained"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The owner chapter's worked example takes the larger of armour and the middle ward rather than summing them (16-armor-shields.qmd:33).",
+      "quote_or_excerpt": "the higher of the two, 2"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Ladder maximum 3 against the tier caps 3/4/6: 3 <= 3 at the strictest tier, so the ward path cannot pass a cap (16-armor-shields.qmd:27).",
+      "quote_or_excerpt": "3 <= 3"
+    }
+  ],
+  "confidence": 0.7,
+  "rebutting": []
+}

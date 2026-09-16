@@ -1,0 +1,37 @@
+{
+  "id": "f-901",
+  "round": 1,
+  "role": "editor-in-chief",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "The file runs two header templates side by side, and a reader can tell which one a card came from but not why. Thirty-three of the fifty-three leveled cards print a Requires tag naming focus:arcane (11-arcane-spells:169, 178, 187, 196, 207, 216, 225, 236, 245, 254, 263, 279, 290, 308, 317, 337, 348, 357, 366, 375, 384, 429, 438, 447, 492, 541, 550, 559, 586, 595, 644, 651, 658) and twenty print none at all (11:299, 326, 393, 402, 411, 420, 456, 465, 474, 483, 503, 512, 521, 530, 568, 577, 604, 613, 622, 631). The split tracks neither tier nor Discipline, so it cannot be inferred: Slickstone (11:299) is a one-rank Earth Novice whose immediate predecessor at the same rank and Discipline prints the tag (11:290), and Still Air (11:393) sits inside a run of four one-rank Energy Novices that all print it (11:348, 357, 366, 384). History explains the difference, the chapter does not: each of the twenty bare headers entered in one later authorship commit (e8f31a9, the addition pass) and appears in no earlier commit, while the tagged headers have varied provenance. That makes the field a fossil record of which pass opened a card. The tag is load-bearing in play, because the chapter that owns casting singles cantrips out as the category needing no focus or holy symbol (10-magic-system:77) - the ordinary inference is that a card bought with DP does assume one. The chapter that owns card format calls the field optional gear and records that many published cards omit it (19-gm-guidance:557) without saying what omission means for the caster. Consequence for the table: a player who bought Still Air, Unopened or Dead Weight cannot establish whether the caster must be holding an arcane focus, while the neighbouring Energy Novices answer that question the other way. Smallest fix, closing all twenty at once: one sentence in the opener (11:19) stating that a card printing no Requires field assumes no focus and no symbol. Tagging the twenty headers instead needs no new rule either.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "Corrosive Spit at 11:290 carries the arcane focus tag on a one-rank Earth Novice header, while Slickstone one card later at 11:299 prints the same rank and Discipline with no Requires field.",
+      "quote_or_excerpt": "*Disciplines:* 1 Earth · *Requires:* focus:arcane · *Action:* Action"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Still Air at 11:393 drops the tag even though four peer Novice Energy cards at 11:348, 11:357, 11:366 and 11:384 all print it.",
+      "quote_or_excerpt": "*Disciplines:* 1 Energy · *Action:* Action · *Range:* 30 ft"
+    },
+    {
+      "source": "10-magic-system.qmd",
+      "claim": "The casting chapter exempts cantrips from needing a focus or symbol, which leaves the ordinary reading that a paid card does assume one (10-magic-system:77).",
+      "quote_or_excerpt": "A cantrip requires no focus and no holy symbol"
+    },
+    {
+      "source": "19-gm-guidance.qmd",
+      "claim": "The template chapter treats the field as optional gear and records that many cards ship without it, while never resolving what an absent field implies (19-gm-guidance:557).",
+      "quote_or_excerpt": "Many published cards carry no Requires field at all"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Command run per card name against the chapter on origin/main: git log --oneline -S '=== <name> (' origin/main -- quarto-book/chapters/11-arcane-spells.qmd returns the identical commit e8f31a9 (addition pass, PR 542) for all twenty untagged headers, meaning no earlier commit contains those headings; the tagged headers instead show varied provenance, from the earlier Typst conversion a7a6fe0 (Ember Lance, Corrosive Spit) to later single-card fixes such as e8ff7bd (Bark Skin), so the split is authorship, not design.",
+      "quote_or_excerpt": "20/20 untagged -> e8f31a9 only; tagged vary: a7a6fe0, e8ff7bd"
+    }
+  ],
+  "confidence": 0.62,
+  "rebutting": []
+}

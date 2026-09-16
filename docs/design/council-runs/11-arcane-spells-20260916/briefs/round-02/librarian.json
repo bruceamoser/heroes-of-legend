@@ -1,0 +1,566 @@
+{
+ "council": "hol-rulebook",
+ "ledger_view": {
+  "open_refutes": [
+   {
+    "argument": "The Protection trio at 643, 650 and 657 reuses three card names the divine chapter already owns at 12:161, 12:197 and 12:220, with the same Discipline counts, the same DR steps and the same upkeep sentence, so the book now ships two identically titled ladders. The family's own precedent says a later tradition gets fresh names: when the primal branch of that same ladder was written it was renamed at 12:170, 12:204 and 12:227, and nothing about the arcane trio needs the divine wording to function. The bill comes due in the armor chapter, which cites the ladder bare at 16:33, 16:102 and 16:108; a reader following those examples cannot say which chapter's card they need, and every other surface is mute: a heading sweep of all chapters returns exactly three cross-chapter card-name collisions, all three this trio (11:643 with 12:161, 11:650 with 12:197, 11:657 with 12:220), while a grep of the glossary and the reference sheets for the three names returns zero hits, so nothing downstream settles the question. Minimal fix: rename the arcane three on the primal pattern, or delete them, since a divine or primal caster already buys identical numbers at an identical price.",
+    "confidence": 0.85,
+    "evidence": [
+     {
+      "claim": "The divine file prints the same three card names at 12:161, 12:197 and 12:220, keyed to Protection and carrying the same values as the arcane trio at 643, 650 and 657.",
+      "source": "12-divine-spells.qmd"
+     },
+     {
+      "claim": "When the primal version of this ladder was added it received three fresh names rather than the divine titling, at 12:170, 12:204 and 12:227.",
+      "source": "12-divine-spells.qmd"
+     },
+     {
+      "claim": "The armor chapter's worked examples cite the ladder with no tradition marker at 16:33, 16:102 and 16:108, so a reader cannot tell which of the two identically named cards is meant.",
+      "source": "16-armor-shields.qmd"
+     },
+     {
+      "claim": "Heading sweep of every chapter in the book returns exactly three cross-chapter card-name collisions, and all three are this trio (11:643/650/657 against 12:161/197/220); grep of 21-glossary.qmd and 22-reference-sheets.qmd for the three names returns zero hits.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-001",
+    "role": "author",
+    "stance": "refute",
+    "topic": "t-03"
+   },
+   {
+    "argument": "Four cards in this file name a leveled condition in the header and then never apply it in any result line (11:168, 11:206, 11:215, 11:224). All three Water cards carry Frozen (headers at 207, 216 and 225) while that word occurs three times in the whole file and every one of them is a header; their results hand out cold damage plus Slowed or Restrained instead. Ember Lance prints Burning at 169 and its three results offer nothing but damage and a behind-target rider, even though the sibling fire card does land the condition with a level at 193, which shows the tag is not decorative by this chapter's own practice. Because 19-gm-guidance describes that field as the mechanics a card interacts with, and 13-combat gives Frozen a cold-damage rider and an action cost to shed, a table reading the header expects a freeze that never arrives. Splitting the rung list into standalone cards is the likely cause: the rider was dropped and the tag kept. Fix either way: add the missing condition with its level to the affected results, or strike the tag.",
+    "confidence": 0.78,
+    "evidence": [
+     {
+      "claim": "Frostbite Shard, Rime Storm and Glacial Prison list Frozen in their headers at 11-arcane-spells:207, 216 and 225, and none of the three ever applies that condition in a result.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "Frozen is a live condition in the combat chapter's table at 13:201, carrying a per-round cold damage rider and an action to break free, so naming it in a header promises something a table can act on.",
+      "source": "13-combat.qmd"
+     },
+     {
+      "claim": "Ember Lance tags Burning at 11-arcane-spells:169 and never applies it, while Brimstone Burst does land that condition with a level at 11-arcane-spells:193.",
+      "source": "11-arcane-spells"
+     }
+    ],
+    "id": "f-002",
+    "role": "author",
+    "stance": "refute",
+    "topic": "t-02"
+   },
+   {
+    "argument": "A field-by-field census of every header in the book finds eleven tags used in this chapter and in no other chapter's header line: Compel, Erase, Frozen, Illusion, Insight, Oath, Teleport, Unconscious, Utility, Ward and Zone. Four of them (Compel at 631, Oath at 577, Erase at 622, Zone at 474) occur exactly once in the whole manuscript as printed tokens, all four in this file, so a reader has nowhere to look up what the tag asks of them; a fifth, Utility, is spent five times across the cantrip block (122, 131, 140, 149, 158) and names a category rather than anything a card touches. The paired tags are not ordered consistently either: this file prints the same two-tag pair one way at 456 and the other way at 521, and its other pair flips between 375 and 541, so flag order is not governed by anything a writer can follow. Worse is Ward at 456 and 521: this chapter spends that word on its DR ladder at 641, yet neither tagged card grants DR, so the vocabulary collides with a term the same section defines. The format chapter at 19-gm-guidance calls the field the mechanics a card interacts with; eleven private tags, four of them unresolvable, is a vocabulary the book has not agreed on. Fix: fold these onto shared tag names, or define them where the card format is set.",
+    "confidence": 0.72,
+    "evidence": [
+     {
+      "claim": "The card-format table at 19:560 describes the field as the mechanics a card interacts with, illustrated with Bane, Boon, Prone, Slowed, Piercing and DR.",
+      "source": "19-gm-guidance.qmd"
+     },
+     {
+      "claim": "Census of every Keywords field in the book: eleven tags appear only in this file's headers, and Compel, Oath, Erase and Zone each return exactly one book-wide hit, at 11-arcane-spells:631, 577, 622 and 474.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "The two-tag pairs are printed in opposite orders inside a single file: 11-arcane-spells:456 against 11-arcane-spells:521, and 11-arcane-spells:375 against 11-arcane-spells:541; a book-wide count of the first pair gives two headers one way and one the other.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "No Crossing (11-arcane-spells:456) and Not Yet (11-arcane-spells:521) both print the Ward tag while granting no DR, and the same word is the DR ladder's own name at 11-arcane-spells:641.",
+      "source": "11-arcane-spells"
+     }
+    ],
+    "id": "f-003",
+    "role": "author",
+    "stance": "refute",
+    "topic": "t-03"
+   },
+   {
+    "argument": "The opener at 19 promises two things about the list that follows and neither survives contact with the cards. It says each spell card shows its tier and that the result block maps onto the damage band for that tier; a parse of all sixty-eight cards finds no result line anywhere in the file naming a tier, so the first half holds only at the heading, and thirty-one of the fifty-three spell cards print no damage figure in any of their three results, so for most of the list there is no band to map onto. Still Air at 392 is typical: three results, no figure, and a header tag that names a condition instead. That is not a complaint against numberless cards, which the chapter needs; it is a complaint that the sentence as written promises a shape the list does not have, and a reader who takes it literally will hunt for figures the utility and control cards deliberately lack. The fix is a scope clause rather than a rewrite: key numbers to the band wherever a card deals damage.",
+    "confidence": 0.62,
+    "evidence": [
+     {
+      "claim": "The opening paragraph at 11-arcane-spells:19 promises that every spell card shows its tier and that its result block maps onto the damage band for that tier.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "Parse of the file's sixty-eight cards: thirty-one of the fifty-three spell cards carry no damage figure in any of their three result lines, and no result line in the file names a tier (zero hits).",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Still Air's three results at 11-arcane-spells:395, 397 and 399 carry no damage figure and no tier, one of the thirty-one the parse flags.",
+      "source": "11-arcane-spells"
+     }
+    ],
+    "id": "f-004",
+    "role": "author",
+    "stance": "refute",
+    "topic": "t-02"
+   },
+   {
+    "argument": "The Ember Lance outcome block carries a second damage instance that no live row holds. Line 173 gives the target behind the primary one a figure of two, and the chapter's own rounding sentence at line 19 says a printed fraction is halved and rounded down; half of six is three, not two. Two is a member of the retired Novice row 2/4/6, which the locked conventions void everywhere in the book, while this card's own three headline figures (4/6/8, lines 171-175) all sit on the live Novice row - which is exactly why a parse that only reads the three headline numbers reports zero off-band rows and misses this. The same card's Strong line prints four for the follow-through (line 175), so the two secondary figures obey no single ratio either; and an Adept card in the same file puts its lone damage figure at one (line 476) while its Standard and Strong lines carry none. Either the two is a typo for three, or the follow-through is a flat per-instance rider, which the locked conventions retire in favour of a damage-tier step. Three independent readings, no reading that leaves the card conforming.",
+    "confidence": 0.72,
+    "evidence": [
+     {
+      "claim": "Ember Lance:173 prints two fire damage against the second target, where the halving rule stated at 11-arcane-spells:19 makes half of six equal to three; two is a member of the retired 2/4/6 row.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "Ember Lance:175 gives the same follow-through target four against a headline of eight, so the secondary damage rises by one third between the Standard and Strong outcomes rather than holding a ratio.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "A numeral sweep of every Weak/Standard/Strong line in the file finds exactly one standalone two, at 11-arcane-spells:173, so this is a single figure rather than a pattern; the live Novice figures 4, 6 and 8 are all present.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Turn the Air:476 is an Adept card whose Weak outcome alone carries a damage figure of one while Standard and Strong carry none, and the other three options on that line are scale words rather than numbers - the residue of a pass that forced a numeral onto every Weak line.",
+      "source": "11-arcane-spells"
+     }
+    ],
+    "id": "f-005",
+    "role": "contrarian",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "Ward of Iron is a Master card, and its Strong outcome names one damage figure twice inside a single clause (line 498): the striker takes four and the ward returns four. Nothing on the card says whether the table applies four once or four twice against the same attacker, so the card's damage is not readable as printed. Four is also a Novice Weak figure: a Master card's band is 7/10/14, and the locked conventions retire flat per-instance damage riders in favour of a damage-tier step, so a bare four is off the row the card owns under either reading of the doubling. Read as eight total it is still off the Master band. The rest of the card holds up and should be left alone: three Energy ranks support a DR grant of three, a ceiling of six at Master leaves it inside the cap, and the non-stacking sentence at line 500 matches its two siblings in the Protection section.",
+    "confidence": 0.7,
+    "evidence": [
+     {
+      "claim": "Ward of Iron:498 states the same figure twice in one clause with no total, so the damage the card deals is either four or two fours and cannot be read off the card.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "A Master card's band is 7/10/14, so the four printed at 11-arcane-spells:498 belongs to no row the card owns whether it is read once or doubled to eight.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "The card's DR grant rises with its rank as the ladder does and 11-arcane-spells:500 repeats the non-stacking sentence, so the defect is confined to the Strong clause.",
+      "source": "11-arcane-spells"
+     }
+    ],
+    "id": "f-006",
+    "role": "contrarian",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "The cantrip section tells the reader that every arcane caster knows the whole list and may cast without limit, every round, at no Discipline cost (11-arcane-spells:27), and then prints cards whose effects outlast the scene without ever saying how many may be live at once. A permanent mark (line 32), an illusion lasting up to an hour (line 77) and an ordinary object that goes unnoticed for a day (line 164) can therefore all be maintained simultaneously, one casting per round, by a caster who casts nothing else - and the section supplies no count, no slot and no stacking rule. The file demonstrably knows how to bound an instance: one cantrip replaces its own earlier mark and another lasts only while a coin is unspent (lines 135, 137), so the omission on the day-long concealment is a gap rather than a house style. Two further cantrips hand a creature a Bane on its next roll (lines 47 and 56), which a caster can renew every round for free. The locked 1/3/5 cantrip line is not in question here; the defect is the missing instance cap, not the printed numbers.",
+    "confidence": 0.6,
+    "evidence": [
+     {
+      "claim": "Cantrip section:27 grants unlimited every-round casting with no Discipline requirement and states that all arcane casters know every card on the list.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "Nothing to See:164 lets one ordinary object go unnoticed for a day with no stated limit on simultaneous objects, and no rule in the section caps how many day-long castings a caster may keep running.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "Paperweight:135 bounds its own effect by replacing the earlier mark when a new coin is marked, proving the file writes instance caps when it wants them, while the day-long concealment at 11-arcane-spells:164 carries none.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "Frost Touch:56 places a Bane on the target's next physical action as a Strong outcome, and Dancing Lights:47 keys the same tag to a creature's next attack, so a caster who only cantrips can tax a roll every round indefinitely for nothing.",
+      "source": "11-arcane-spells"
+     }
+    ],
+    "id": "f-007",
+    "role": "contrarian",
+    "stance": "refute",
+    "topic": "t-02"
+   },
+   {
+    "argument": "The ward section states an absolute model of damage reduction - one source at a time, use the higher of the ward and the steel, never additive (11-arcane-spells:641) - and each of the three cards repeats that its DR never stacks with another source (lines 648, 655 and 662). The chapter that owns DR law prints a split model instead: one paragraph puts armour, talents and spells in the single-source bucket and takes the highest, a later paragraph moves DR granted by an ability for a stated duration into an adding bucket, and its own example list names five such granters (16-armor-shields.qmd:23, 16-armor-shields.qmd:29). One of those named examples is a Novice Protection talent that hands out +2 DR until the granter's next turn (09-talents-abilities.qmd:94-97), and that talent is a talent - which the first paragraph had already filed as a source. The discriminator the owner uses is duration, not card type, and the ward the arcane chapter prints is a duration-limited DR grant of the same shape, so a warded caster who is also under such a grant has two defensible totals and nothing in this file, or in the owner, chooses between them. A Novice in light armour who holds that talent sits at one point of DR under the source paragraph and three under the adding paragraph. The same ladder also has a second home: the identical three names and values are printed under the divine heading, where the copy has lost the no-add sentence entirely (12-divine-spells.qmd:159), and the book's own precedent for a third tradition is to rename the ladder rather than reuse the names (12-divine-spells.qmd:168) - so the two homes have already drifted apart and the shared names look like an oversight.",
+    "confidence": 0.65,
+    "evidence": [
+     {
+      "claim": "The ward section at 11-arcane-spells:641 states that a ward never adds to armour and resolves against armour by taking the higher value, and each ladder card at 11-arcane-spells:648, 655 and 662 forbids stacking with any other source.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "The DR-owning chapter splits duration-granted DR out of its source rule and makes it add, naming five granters - while an earlier paragraph of the same chapter files talents and spells among the single-source group (16-armor-shields.qmd:23, 16-armor-shields.qmd:29).",
+      "source": "16-armor-shields.qmd"
+     },
+     {
+      "claim": "One of the grants the owner names is a Novice Protection talent that gives an adjacent ally +2 DR until the granter's next turn (09-talents-abilities.qmd:94-97), so a Novice in light armour reaches one or three DR depending on which paragraph the table reads.",
+      "source": "09-talents-abilities.qmd"
+     },
+     {
+      "claim": "The same three ward names and values are printed a second time under the divine heading with the no-add sentence removed (12-divine-spells.qmd:159), and the primal twin of the ladder is renamed (12-divine-spells.qmd:168), leaving the shared names unsupported by precedent.",
+      "source": "12-divine-spells.qmd"
+     }
+    ],
+    "id": "f-008",
+    "role": "contrarian",
+    "stance": "refute",
+    "topic": "t-03"
+   },
+   {
+    "argument": "Turn the Air is filed as an Adept card, but the one and only damage value anywhere in its three outcomes is a single point of cold (11-arcane-spells:476). The Adept row is 5/8/11, so the printed value sits four under its own row's floor. One is not a value any live row prints for a spell: it is the cantrip Weak number, exactly what Frost Touch prints at 11-arcane-spells:52. Fix path: either the Cold property carries the row's own first value, or the card declares the repeating chip as an exception the way the cantrip exemption is declared. Disposition: MECHANICAL if the value is a slip; DESIGN if a repeating per-turn area chip was intended, because that intent has no home in the band law. Arithmetic: Adept floor 5 against printed 1 gives 5 - 1 = 4 short; cantrip Weak value 1 equals the printed figure.",
+    "confidence": 0.8,
+    "evidence": [
+     {
+      "claim": "The Cold property's one point of cold is the only damage figure in the card's three outcome lines (11-arcane-spells:476).",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "Adept row 5/8/11 against the printed 1: 5 - 1 = 4 below the floor, so the figure can be keyed to no Adept value (11-arcane-spells:476).",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Frost Touch, a cantrip, prints that same single point as its Weak value, so the Adept card reuses a cantrip number (11-arcane-spells:52).",
+      "source": "11-arcane-spells"
+     }
+    ],
+    "id": "f-009",
+    "role": "game-architect",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "Ward of Iron hands out +1, +2 and +3 DR against one strike, and that ladder is legal: three Energy ranks cover a grant of three under the owner chapter's ranks rule (16-armor-shields.qmd:31). What breaks is the Strong line, which states a four-point figure twice, once as damage landing on the striker and once as a mirror of the same blow (11-arcane-spells:498). A Master card owns the 7/10/14 row, so four sits three under the floor and four is the Novice row's first value, not this card's. It is also one number written as two clauses, so a table reading it may resolve either one instance or two, and nothing on the card says which. Arithmetic: 7 - 4 = 3 short of the Master floor. Fix path: take the reflected figure off the card's own row, or use the sanctioned tier bump instead of a flat number. Disposition: MECHANICAL.",
+    "confidence": 0.72,
+    "evidence": [
+     {
+      "claim": "The Strong outcome names four points of damage twice in one sentence, once against the attacker and once as a mirror of the blow (11-arcane-spells:498).",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "Master row 7/10/14 against the printed 4: 7 - 4 = 3 under the floor, and 4 is the Novice row's first value (11-arcane-spells:498).",
+      "source": "reasoning"
+     },
+     {
+      "claim": "A grant of three needs three ranks, and the card asks for three Energy, so the DR part of the ladder is compliant (16-armor-shields.qmd:31).",
+      "source": "16-armor-shields.qmd"
+     }
+    ],
+    "id": "f-010",
+    "role": "game-architect",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "Tilt's first outcome line prints no number at all, while its other two print 8 and 11 (11-arcane-spells:328-332). The chapter's own introduction pledges that a card's outcome lines carry its tier's row (11-arcane-spells:19), and the Adept row opens at 5, so a reader keying those numbers finds two of three values and one unaccounted for. The file's own way of printing a line that deals nothing is the explicit wording Gust carries at 11-arcane-spells:247, and Tilt does not use it. The card's header also tags Damage (11-arcane-spells:326) while the tagged line deals none, so the tag and the text disagree on the same card. Arithmetic: Adept row 5/8/11 against printed --/8/11, one value of three missing. Fix path: print the row's opening value on the first line or mark it as a no-damage line like Gust. Disposition: MECHANICAL.",
+    "confidence": 0.66,
+    "evidence": [
+     {
+      "claim": "The card's first outcome carries no figure while the other two print the row's second and third values (11-arcane-spells:328-332).",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "The introduction promises each card's outcomes carry its tier's numbers, so three lines should show three values (11-arcane-spells:19).",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "Gust is the file's own precedent for a line that deals nothing, and it says so in plain words (11-arcane-spells:247).",
+      "source": "11-arcane-spells"
+     }
+    ],
+    "id": "f-011",
+    "role": "game-architect",
+    "stance": "refute",
+    "topic": "t-02"
+   },
+   {
+    "argument": "The file runs two header templates side by side, and a reader can tell which one a card came from but not why. Thirty-three of the fifty-three leveled cards print a Requires tag naming focus:arcane (11-arcane-spells:169, 178, 187, 196, 207, 216, 225, 236, 245, 254, 263, 279, 290, 308, 317, 337, 348, 357, 366, 375, 384, 429, 438, 447, 492, 541, 550, 559, 586, 595, 644, 651, 658) and twenty print none at all (11:299, 326, 393, 402, 411, 420, 456, 465, 474, 483, 503, 512, 521, 530, 568, 577, 604, 613, 622, 631). The split tracks neither tier nor Discipline, so it cannot be inferred: Slickstone (11:299) is a one-rank Earth Novice whose immediate predecessor at the same rank and Discipline prints the tag (11:290), and Still Air (11:393) sits inside a run of four one-rank Energy Novices that all print it (11:348, 357, 366, 384). History explains the difference, the chapter does not: each of the twenty bare headers entered in one later authorship commit (e8f31a9, the addition pass) and appears in no earlier commit, while the tagged headers have varied provenance. That makes the field a fossil record of which pass opened a card. The tag is load-bearing in play, because the chapter that owns casting singles cantrips out as the category needing no focus or holy symbol (10-magic-system:77) - the ordinary inference is that a card bought with DP does assume one. The chapter that owns card format calls the field optional gear and records that many published cards omit it (19-gm-guidance:557) without saying what omission means for the caster. Consequence for the table: a player who bought Still Air, Unopened or Dead Weight cannot establish whether the caster must be holding an arcane focus, while the neighbouring Energy Novices answer that question the other way. Smallest fix, closing all twenty at once: one sentence in the opener (11:19) stating that a card printing no Requires field assumes no focus and no symbol. Tagging the twenty headers instead needs no new rule either.",
+    "confidence": 0.62,
+    "evidence": [
+     {
+      "claim": "Corrosive Spit at 11:290 carries the arcane focus tag on a one-rank Earth Novice header, while Slickstone one card later at 11:299 prints the same rank and Discipline with no Requires field.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "Still Air at 11:393 drops the tag even though four peer Novice Energy cards at 11:348, 11:357, 11:366 and 11:384 all print it.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "The casting chapter exempts cantrips from needing a focus or symbol, which leaves the ordinary reading that a paid card does assume one (10-magic-system:77).",
+      "source": "10-magic-system.qmd"
+     },
+     {
+      "claim": "The template chapter treats the field as optional gear and records that many cards ship without it, while never resolving what an absent field implies (19-gm-guidance:557).",
+      "source": "19-gm-guidance.qmd"
+     },
+     {
+      "claim": "Command run per card name against the chapter on origin/main: git log --oneline -S '=== <name> (' origin/main -- quarto-book/chapters/11-arcane-spells.qmd returns the identical commit e8f31a9 (addition pass, PR 542) for all twenty untagged headers, meaning no earlier commit contains those headings; the tagged headers instead show varied provenance, from the earlier Typst conversion a7a6fe0 (Ember Lance, Corrosive Spit) to later single-card fixes such as e8ff7bd (Bark Skin), so the split is authorship, not design.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-013",
+    "role": "editor-in-chief",
+    "stance": "refute",
+    "topic": "t-02"
+   },
+   {
+    "argument": "The list can only be browsed by its nine section headings, and that axis loses a card. Twenty-one of the fifty-three leveled cards sit under the single Energy heading (11-arcane-spells:345), and three cards that demand Mind ranks are filed inside that same section: Ventriloquy (11:483), Not Yet (11:521) and The Room You Remember (11:530). The last one breaks the chapter's own filing habit. Its header leads with the Mind key and puts Energy second (11:530), while the two other mixed-key cards both lead with Energy and sit under Energy (11:483, 11:521) - yet it stays under Energy too. So a buyer browsing the Mind block (11:538, eleven cards) never meets a Master card they qualify for, and nothing near 11:530 tells them why it is filed elsewhere. The chapter holds no second route to the same information: its headings are nine sections and sixty-eight cards, with no table, index or cross-list to fall back on, so a reader who navigates by Discipline is simply short a spell. Smallest fix: move that one card under the Mind block, after 11:630, or state the filing rule and add a one-line Discipline index at 11:19.",
+    "confidence": 0.6,
+    "evidence": [
+     {
+      "claim": "The Room You Remember prints its Mind requirement first and its Energy requirement second, yet it is filed inside Energy Spells, immediately before the Mind Spells heading at 11:538.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "The chapter's two other mixed-key cards both print Energy first and are filed under Energy, which is the habit the Master card breaks (11:483, 11:521).",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "The Energy section heading at 11:345 opens a run of twenty-one leveled cards with no subdivision inside it, so the three Mind-ranked cards buried there are not signposted.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "The Mind section runs from its heading at 11:538 to 11:637 and holds eleven cards, none of which is the Mind-led Master card described above.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "Section census taken over the file: cantrips 15, Fire 4, Water 3, Wind 5, Earth 5, Plants 1, Energy 21, Mind 11, Protection 3; Energy alone therefore carries two fifths of the leveled cards, and a heading-level scan finds only nine section titles and sixty-eight card titles in the whole file, no index or table.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-014",
+    "role": "editor-in-chief",
+    "stance": "refute",
+    "topic": "t-02"
+   },
+   {
+    "argument": "One card in the list stands on a procedure the book never supplies. Arcane Mark's duration slot reads as permanent until dispelled (11-arcane-spells:32), and a sweep of every chapter for that word and for counterspell returns four lines in the entire book: that header (11:32), the reaction named in the glossary's list (21-glossary:107), the same name repeated on the combat quick-reference (22-reference-sheets:61), and one creature talent (20-bestiary:146). No chapter states how an ongoing effect is ended by an opponent, unmade, or countered, and no arcane card grants the ability. The consequence is a dead end at the table: a caster who wants the mark gone, or a player who wants to stop an enemy's spell, is handed a word with no procedure attached, and the only place the word is explained is a monster's stat line. The chapter-local fix is to give 11:32 a duration a table can resolve without a rule that does not exist, such as until the caster casts it again or one day. The book-level fix is one sentence in the Limitations section of the casting chapter defining what ends or counters an ongoing effect - which would also give the two reaction lists something to point at.",
+    "confidence": 0.58,
+    "evidence": [
+     {
+      "claim": "The cantrip at 11:32 hangs its duration on a removal procedure that no chapter in the book defines.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "The glossary lists counterspell as one of the reactions a character may take, which asserts that the option exists without giving it content (21-glossary:107).",
+      "source": "21-glossary.qmd"
+     },
+     {
+      "claim": "The combat sheet repeats the same name in its reaction row, again with no cost, trigger or effect behind it (22-reference-sheets:61).",
+      "source": "22-reference-sheets.qmd"
+     },
+     {
+      "claim": "The only prose in the book that says what counterspelling accomplishes belongs to a monster ability, so a player-facing definition is missing entirely (20-bestiary:146).",
+      "source": "20-bestiary.qmd"
+     },
+     {
+      "claim": "Sweep command and result: git grep -niE 'dispel|counterspell' origin/main -- quarto-book/chapters/ returns four lines, at 11-arcane-spells:32, 20-bestiary:146, 21-glossary:107 and 22-reference-sheets:61, with no definition among them.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-015",
+    "role": "editor-in-chief",
+    "stance": "refute",
+    "topic": "t-03"
+   },
+   {
+    "argument": "Three of the sixty-eight cards in this file (11-arcane-spells:530, 577, 613) push a casting duration into the action field, writing a compound value the owner of that field does not admit. The format specification in 19-gm-guidance fixes the slot at three turn-economy words, and the reference sheets buy exactly one action per turn with casting named among the things it pays for, so a minute-long performance fits neither. The term is carried nowhere: a book-wide sweep returns eight lines in six chapters, three of them these same headers, the rest a skill-list entry used twice, dice-table flavour, chalk, and encounter dressing. No chapter defines a ritual casting mode. This file already brackets its timers on the range line of the cantrips at 11-arcane-spells:32 and 11-arcane-spells:41, which is where a duration lives when the action slot is not meant to grow a fourth value. Class: MECHANICAL (three header lines). Framing note: the field's vocabulary belongs to 19-gm-guidance, not to this chapter, which is why I file it as cross-chapter rather than local.",
+    "confidence": 0.72,
+    "evidence": [
+     {
+      "claim": "The chapter that owns the card format writes the action field as a choice between exactly three words in its format line (19:549).",
+      "source": "19-gm-guidance.qmd"
+     },
+     {
+      "claim": "Its field table defines that slot as a cost drawn from the turn economy and offers no place for a duration (19:558).",
+      "source": "19-gm-guidance.qmd"
+     },
+     {
+      "claim": "The turn sheet gives a character one action per round and lists casting a spell among what that action buys (22:58), so a one-minute ritual has no slot in the turn economy.",
+      "source": "22-reference-sheets.qmd"
+     },
+     {
+      "claim": "Three headers here carry the compound value: The Room You Remember (11-arcane-spells:530), The Given Word (11-arcane-spells:577) and True Name (11-arcane-spells:613). They are the file's only non-standard action values.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "The file's own bracket for a timer sits on the range line of the cantrips (11-arcane-spells:32 and 11-arcane-spells:41), never in the action field.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "Census: parsing all sixty-eight header lines returns fifty-nine plain Action values, four Maneuver, two Reaction and these three compound ones; the divine chapter's forty-six cards split forty plain and six Maneuver with none compound; a grep for the term across every chapter returns eight lines in six chapters and none of them is a casting mode.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-017",
+    "role": "researcher",
+    "stance": "refute",
+    "topic": "t-03"
+   },
+   {
+    "argument": "I read the three outcome lines of every card in the file rung by rung. Thirty-three of the sixty-eight name a time unit somewhere in those lines, and almost all of the ladders that do rise from the weak rung to the strong rung; two do not. Silver Tongue bans social checks for one scene, then two, then returns to one at its strongest rung, so on the printed evidence the card's own mechanic is widest in the middle. March of Bones raises one, two then three skeletons but switches its time unit at the top rung from scenes to hours, and the book offers no way to bridge the two: the only definition of a scene calls it a story unit, no chapter gives it a length, and the glossary's nearest entry equates an encounter with a scene or a fight without supplying a clock figure either. A reader therefore cannot tell whether the strongest March of Bones outlasts its own weaker rungs. Class: MECHANICAL (one duration word on Silver Tongue, one time unit on March of Bones).",
+    "confidence": 0.6,
+    "evidence": [
+     {
+      "claim": "Silver Tongue's weak rung grants a one-scene ban and its middle rung doubles that window to two scenes (11-arcane-spells:543, 545).",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "Its strongest rung states one scene attached to the friendly clause and gives the ban no longer window of its own (11-arcane-spells:547), so the effect shrinks at the top of the ladder.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "March of Bones counts one, two then three raised skeletons, and its time unit changes from scenes to hours at the top rung (11-arcane-spells:440, 442, 444).",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "The book's single definition of a scene describes it as a narrative unit with a beginning and an end, so it has no length a reader can compare with an hour (19:23).",
+      "source": "19-gm-guidance.qmd"
+     },
+     {
+      "claim": "The glossary's nearest entry treats an encounter as a scene or a fight and gives neither a duration (21:243), so the conversion the card needs is absent from the book.",
+      "source": "21-glossary.qmd"
+     },
+     {
+      "claim": "The book defines a strong result as an exceptional success carrying an extra effect (21:41), which makes a narrowed effect on a top rung the wrong direction for the ladder.",
+      "source": "21-glossary.qmd"
+     },
+     {
+      "claim": "Enumeration: thirty-three of sixty-eight cards name a time unit in at least one outcome line, and their ladders otherwise rise (Fade, Phantasmal Image and Unseen Hand run one, two, three turns; Wind Wall one then two rounds); the two cards above are the only ladders that fail to rise or hold.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-018",
+    "role": "researcher",
+    "stance": "refute",
+    "topic": "t-02"
+   },
+   {
+    "argument": "Two cards make a single printed total cover three targets at once, and the total mostly will not come apart. Burning Volley prints four, six and eight fire damage across three lances; Forked Sky prints five, eight and eleven lightning damage across three arcs. Four of the five distinct figures leave a remainder when shared three ways and only the six is exact. The file never says what a caster does with a remainder, and the one division rule this chapter states halves a figure for a second body and rounds that half down, which is a two-way split rather than a three-way one. The mechanic is chapter-local besides: counting the word across every chapter returns six lines, all of them in this file, so no other chapter supplies the missing procedure. Class: MECHANICAL if the wording is wrong and each lance should carry its full row figure; SUBSTANTIVE if the printed totals have to move to multiples of three.",
+    "confidence": 0.58,
+    "evidence": [
+     {
+      "claim": "Burning Volley prints its row figure on each rung and divides that figure over three lances (11-arcane-spells:180, 182, 184).",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "Forked Sky does the same over three arcs at its own row figures (11-arcane-spells:256, 258, 260).",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "The only instruction this chapter gives for reducing a printed figure is the halving sentence in its opening (11-arcane-spells:19), which covers a second target.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "The damage budget lists the three live rows as novice four-six-eight, adept five-eight-eleven and master seven-ten-fourteen (21:43), and no row divides evenly at all three rungs.",
+      "source": "21-glossary.qmd"
+     },
+     {
+      "claim": "Arithmetic: four, five, eight and eleven leave remainders over three (1.33, 1.67, 2.67, 3.67) while six is exact, so five of the six printed lines cannot be shared evenly, and the rows 4/6/8, 5/8/11 and 7/10/14 all fail the same test on at least one rung.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Scope: a book-wide count for the term returns hits in this file alone, so the procedure for sharing one total among several targets is taught by no chapter of the book.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-019",
+    "role": "researcher",
+    "stance": "refute",
+    "topic": "t-02"
+   },
+   {
+    "argument": "Chapter 11's only in-body illustration is dropped inside a school's card run instead of at the boundary every sibling block uses. The plate sits at 11-arcane-spells:271-276, after the fourth of the Wind section's five cards and before the fifth (11:278), and the break that closes it is one of only three breaks in the file. Ten comparable plates elsewhere in the book, spread over nine chapters, each sit directly in front of a level-2 heading (02:168, 04:106, 05:142, 05:373, 07:122, 13:449, 15:168, 17:35, 19:383, 20:240), which is the house pattern for a mid-chapter plate; this file is the sole exception. Convention 11 licenses the placeholder line and the figure label, not the position, and the repair costs nothing: move the plate to follow 11:285 and a section heading follows its break, as in every sibling. The conformance question is decidable from source structure alone; how the bad position falls across printed pages is a render question I cannot settle here.",
+    "confidence": 0.8,
+    "evidence": [
+     {
+      "claim": "The plate interrupts one school's cards: the fourth Wind card's last outcome line is 269, the image and its caption occupy 271-275, and the fifth card's heading follows at 278.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "A break closes the plate at 276, and the file holds only three breaks in total (11, 23, 276), so the fifth Wind card opens a fresh page while its four siblings share the preceding pages.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "The house pattern for these plates is a level-2 heading straight after the break: the same construction closes at 02:168, 04:106, 05:142, 05:373, 07:122, 13:449, 15:168, 17:35, 19:383 and 20:240, ten plates in nine chapters, each followed by a section heading.",
+      "source": "15-equipment.qmd"
+     },
+     {
+      "claim": "Structural counts taken from the registered file: 9 section headings, 68 card headings, 3 page breaks; the Wind section spans 233-286 and its card headings sit at 235, 244, 253, 262 and 278, so the plate splits that set four against one.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-021",
+    "role": "layout-expert",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "The chapter's nine headings do not partition its 68 cards to a usable granularity, and the outlier is the long run rather than the small one. A single heading carries 21 cards across 192 lines (11-arcane-spells:345-537) with no landmark inside it, 29 percent of the file's length under one signpost, while the sibling spell list's widest heading covers 12 cards. Small sections are not the fault: that sibling carries two one-card sections of its own (12-divine-spells:76, 12:357), so this file's one-card plant section (11:334-344) sits inside house practice even though it spends a heading on a single card. A reader hunting one of those twenty-one cards has one heading to work from. The counts are source-decidable; whether the run reads as an undifferentiated mass on the page is a render question I cannot settle, so the repair - fold the singleton away, or add interior signposts to the long run - is a design call for the council.",
+    "confidence": 0.55,
+    "evidence": [
+     {
+      "claim": "Section coverage is lopsided: the energy heading at 345 governs the cards on lines 347 through 529, while the plant heading at 334 governs exactly one card, at 336.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "Card counts per heading in the registered file run 15, 4, 3, 5, 5, 1, 21, 11 and 3, summing to the file's 68 cards; the 21-card run occupies lines 345-537.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "The sibling list's widest heading covers 12 cards (12-divine-spells:247-356), and each of its two one-card sections (12:76, 12:357) shows that small sections are house practice rather than the defect.",
+      "source": "12-divine-spells.qmd"
+     }
+    ],
+    "id": "f-023",
+    "role": "layout-expert",
+    "stance": "refute",
+    "topic": "t-02"
+   },
+   {
+    "argument": "Two printed header fields in this file disagree with themselves. The touch value in the range slot is capitalised in seven card headers and left lowercase in three (11-arcane-spells:32, 50, 122, 140, 149, 158, 447 against 402, 577, 604), and the lift figure is abbreviated three times (11:359, 361, 363) while the same file spells that unit out at 11:72. Book-wide the abbreviation appears on those three lines and nowhere else, while the spelled-out form appears on three lines, one of them this file's own. Both are single-word normalisations a typesetter would apply in one pass; neither blocks a reader, so this is cosmetic, but it is decidable from text with no render and it is drift that widens if left alone.",
+    "confidence": 0.5,
+    "evidence": [
+     {
+      "claim": "Ten headers carry the touch value and three of them use a lowercase initial: 11-arcane-spells:402, 577 and 604, against 32, 50, 122, 140, 149, 158 and 447.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "The lift figure is abbreviated on three outcome lines of one card (11-arcane-spells:359, 361, 363) while this file's own hand card spells the same unit out at 11:72.",
+      "source": "11-arcane-spells"
+     },
+     {
+      "claim": "Book-wide, the abbreviated form of that unit appears on three lines and all three are in this file, against three lines carrying the spelled-out form (11-arcane-spells:72, 17-magic-items:390 and 432).",
+      "source": "17-magic-items.qmd"
+     }
+    ],
+    "id": "f-024",
+    "role": "layout-expert",
+    "stance": "refute",
+    "topic": "t-02"
+   }
+  ],
+  "positions": {
+   "t-01": {
+    "contrarian": "refute",
+    "game-architect": "refute",
+    "layout-expert": "refute",
+    "librarian": "support"
+   },
+   "t-02": {
+    "author": "refute",
+    "contrarian": "refute",
+    "editor-in-chief": "refute",
+    "game-architect": "refute",
+    "layout-expert": "refute",
+    "librarian": "support",
+    "researcher": "refute"
+   },
+   "t-03": {
+    "author": "refute",
+    "contrarian": "refute",
+    "editor-in-chief": "support",
+    "game-architect": "support",
+    "layout-expert": "support",
+    "librarian": "support",
+    "researcher": "support"
+   }
+  },
+  "sealed_rulings": []
+ },
+ "problem_brief": "# Council problem statement \u2014 Chapter 11, Arcane Spells (Wave 3, chapter 2)\n\n**Source:** `11-arcane-spells.qmd` \u2014 665 lines, native Typst, **68 cards** (15 cantrips + 53 spell\ncards: 23 Novice, 22 Adept, 8 Master), sections Fire / Water / Wind / Earth / Plants / Energy / Mind\n/ Protection.\n\n**Question for the council:** is this chapter publishable as it stands \u2014 do its 68 cards conform to\nthe locked conventions below, is the chapter internally consistent (its own stated rules and\npromises against its own cards), and does every value, term or rule it restates agree with the\nchapter that owns it?\n\n**Why this chapter is high-risk right now.** The arcane list was rebuilt on 2026-09-13/14 (the\ndamage-band renumber #532 and the one-card refactor #537/#538, which replaced rung-carrying entries\nwith standalone cards) and has since taken four further passes: the band-residue sweep (#625), the\ncard-tier header convention (#632, #634), a nine-card re-row onto the Adept row (#633, #635), and\nthe tier-in-heading / Effect-label retirement pass (#636, #637). Parts of this file have therefore\nbeen edited by four different waves and **no lens has ever read the file as a whole in its current\nform.** A chapter assembled by four successive mechanical passes is exactly where a contradiction\nbetween two of those passes survives: each pass was locally correct and verified only its own axis.\n\n## Topics \u2014 every finding MUST set `topic` to exactly one of these three\n\n- **t-01** conformance to the locked conventions below\n- **t-02** internal consistency: the chapter's own stated rules, section introductions and promises\n  against its own 68 cards, and against each other\n- **t-03** cross-chapter canon: a value, row, term or mechanic this chapter restates from the\n  chapter that owns it\n\nDo not file under `problem-scoping`; that topic cannot be sealed and would stall the run.\n\n## Locked conventions (current as of 2026-09-16 \u2014 these ARE the law this run tests against)\n\n1. **Damage bands: Novice 4/6/8, Adept 5/8/11, Master 7/10/14**, read Weak/Standard/Strong\n   (`08-disciplines.qmd:214-216`, `10-magic-system.qmd:46-48`). The retired rows 2/4/6, 6/9/12 and\n   9/15/21 are valid nowhere in the book. A card whose outcome lines spell a retired row out as its\n   own three numbers is the same defect as the closed-up string.\n2. **A spell's outcome block keys to the card's OWN tier's row** (a Novice spell prints the Novice\n   row, a Master spell the Master row). This differs from weapon maneuvers and class abilities, which\n   key to the Novice row (Bruce's ruling, decision #103). Do not file a spell for printing its own\n   tier's row.\n3. **The one-card law (#537/#538):** a card is bought once, at one tier, for one price \u2014 Novice 2 DP,\n   Adept 4 DP, Master 8 DP \u2014 with level gates Novice 1, Adept 3, Master 7. **Tier is a property of\n   the card, not a count of its Disciplines** (`10-magic-system.qmd:61`). The prerequisite ladder and\n   the rungs it gated are DELETED: do NOT file a card for printing more or fewer Discipline ranks\n   than some tier implies, and do NOT file a missing Adept or Master rung. A single-tier card is\n   complete, and a card that is complete at one tier needs no siblings.\n4. **Cantrips are exempt from the bands.** They print 1/3/5 and require no Discipline. A cantrip\n   whose three outcomes print 1/3/5 is correct; do not file it.\n5. **DR law (rewritten 2026-09-15/16, #616-#619; `16-armor-shields.qmd:21-33`).** Read that section\n   as the definition, and note that it is NEWER than any earlier briefing of this book:\n   - DR comes from **one source at a time** \u2014 armour, a talent, or a spell \u2014 and the **highest**\n     source governs. Armour, talents and wards do not add together.\n   - **Shield DR is the exception:** a shield item grants no number of its own, shield DR comes from a\n     card, it is added AFTER the ceiling, and no combination of shield sources ever adds more than +3.\n   - **There is a ceiling:** total DR from armour, talents and wards cannot exceed 3 at Novice, 4 at\n     Adept, 6 at Master.\n   - **Temporary grants add:** DR granted by an ability for a stated duration adds to your DR while it\n     lasts, and `16:29` names Guarding Stance, Warding Touch, Shield of Faith, Bulwark and Ironhide as\n     working that way.\n   - **Ranks set the size of a grant:** a DR grant requires Discipline ranks at least equal to the DR\n     it grants (DR 2 costs 2 ranks, DR 3 costs 3).\n6. **Boon/Bane law (near-zero maths):** a situational modifier to a roll is a Boon or a Bane, never\n   +N/\u2212N. Numbers survive only on attributes, skill tiers, the difficulty dial, and a Challenge\n   penalty. Challenge is the standard resolution for every opposed contest; the opposition never rolls.\n7. **Conditions are a leveled vocabulary** (Burning 2, Slowed 5, Frozen 2). A `*Keywords:*` line\n   carries the bare tag only; the card's TEXT carries the level. \"Slowed 5 for 1 round\" is compliant.\n8. **Flat damage riders are dead book-wide.** The sanctioned damage-increase form is\n   \"**+1 damage tier**\". A rider that is numerically wrong is a different finding from a rider that\n   exists.\n9. **Currency is REMOVED (#523), and equipment is flavour (#554 purge).** Nothing is bought: no\n   price, cost, discount or coin amount. Gear contributes no damage of its own. A `Requires:` field\n   names the gear a card assumes, or a Discipline rank.\n10. **Zero em-dashes** in source text. House emphasis is Typst italic (`*word*`), never markdown bold.\n11. **The printed chapter numbering carries a +2 offset:** this file is source chapter 11 and prints\n    as **Chapter 13**, so its figure is `Figure 13.1`, and the `_Placeholder for final art._` line is\n    a book-wide convention. Neither is a defect. Do not file the art placeholder or the figure number.\n12. **Crossref law:** a Typst crossref renders with its own trailing period, so nothing is typed after\n    a bare sentence-final ref, or after a closing parenthesis that carries one.\n13. **23 Disciplines, 9 categories** (`08:29-68`). The *Defense* category holds **Shields** (the\n    martial half), **Protection** (the ward school) and **Armor**. A ward card keying to Protection is\n    correct. `focus:arcane`, `focus:holy` and `focus:primal` are legal `Requires` tags (`19:557`).\n14. **This chapter prints no damage-budget table of its own** and restates no band as a table; a row\n    printed twice inside this file is a restatement, not a source of truth.\n\n## Already checked by the orchestrator and CLEARED \u2014 do NOT file these\n\nReproduce anything you doubt, but these were verified against `origin/main`; filing them costs the\nrun a round. Report a cleared lead as a result in its own right if you test it.\n\n- **Zero damage dice** (`\\bd\\d+\\b` over the whole file: 0 hits) and **zero em-dashes** (0).\n- **Exactly one `{=typst}` fence**, and both outbound `@sec-` references resolve.\n- **The card count is 68** (15 cantrips, 23 Novice, 22 Adept, 8 Master) and the introduction's own\n  counts (\"fifteen cantrips\", \"fifty-three spell cards\") are correct: 15 + 53 = 68.\n- **Every card heading prints a tier** (`(Cantrip)` / `(Novice Arcane Spell)` / `(Adept Arcane\n  Spell)` / `(Master Arcane Spell)`), which is the #634/#636 convention. Do not file a missing tier.\n- **Every card carries its `*Disciplines:* ... *Action:* ... *Range:* ... *Keywords:*` header line.**\n- **No retired band residue:** the strings 2/4/6, 6/9/12 and 9/15/21 appear zero times, and a parse of\n  every card whose three outcomes all carry a damage figure finds **0 rows off the live band.**\n- **The 15 cantrips print 1/3/5** (convention 4). Spark's Standard line's \"+1 damage tier against\n  metal armor\" is the sanctioned form under convention 8.\n- **The three `*Effect:*` cards** are Bark Skin / Stone Skin / Iron Skin, the ward ladder \u2014 single-line\n  cards, legal under convention 3.\n- **`focus:arcane` is a legal `Requires` tag** (`19:557`).\n\n## Worked leads \u2014 verify or refute these; do not simply restate them\n\nThese are the orchestrator's own pre-audit leads, offered as things to TEST. **Your own independent\naudit is the deliverable**; a ballot that only rules on this list is a wasted ballot, and a lead\nreported CLEAN is a useful result too.\n\n- **The ward ladder is duplicated, name for name, in two chapters.** `11:641-665` and\n  `12-divine-spells.qmd:157-223` both define **Bark Skin / Stone Skin / Iron Skin** with the same\n  +1/+2/+3, the same `Maneuver` action, the same `Range: Self`, the same 1-round duration, the same\n  \"does not stack\" sentence, keyed `1/2/3 Protection` and differing only in `focus:arcane` against\n  `focus:holy`. **Check whether that duplication is the book's convention or an accident:**\n  `12:178-181` gives the *primal* twin of the same ladder its own three names (Beast Hide, Scaled\n  Hide, Carapace) at identical values, so the book already has a precedent for how a second tradition\n  carries this ladder. Then decide which is the defect: the shared names (every lookup becomes\n  ambiguous, and the glossary/reference sheets can only list one), or the duplicated content. Name\n  every chapter that references these three names (`16:33`, `16:102`, `16:108` do) so the principal\n  can see the blast radius of a rename. Is the arcane ladder even needed, given the same ladder is\n  available to a divine or primal caster at the same price?\n- **`11:641` and `16:29` disagree about whether a ward adds.** This chapter's Protection section says a\n  ward is a source and never an addition (\"use the higher of the ward and the steel\"), and each of the\n  three ward cards prints its own \"does not stack with any other source of DR\" line. `16:29` states the\n  opposite rule for a whole class of effects: DR granted by an ability **for a stated duration** adds,\n  and it names five such abilities. A ward is granted by a spell, is self-only, and lasts exactly 1\n  round when sustained. **Test the two readings against the rules as written and say which chapter is\n  the outlier**, which is what a reader will do at the table. If the ward is meant to be the exception,\n  what is the ONE sentence that makes it one, and which chapter must carry it? Neither the ceiling\n  (convention 5) nor the rank rule (convention 5) appears in this chapter's ward section at all: check\n  whether the ladder as printed can exceed the ceiling, and whether each of the three cards satisfies\n  the ranks-equal-DR rule.\n- **`11:325-333` Tilt (Adept).** Its Weak outcome carries no damage figure while Standard prints 8 and\n  Strong 11. Read the card: is the missing figure a defect, or is the Weak outcome deliberately a\n  positioning effect? If the latter, does the card still sit on a legible row for a reader keying its\n  numbers to the budget?\n- **`11:473-481` Turn the Air (Adept).** Its Weak outcome carries **1** damage and its Standard and\n  Strong outcomes carry none. An Adept card whose only damage figure is 1 is not on the Adept row.\n  Read it and say what the three outcomes are actually supposed to do.\n- **`11:491-500` Ward of Iron (Master).** Its Strong line reads \"the attacker takes 4 damage and the\n  ward reflects 4 damage\". Check whether that is one figure counted twice in one sentence, whether the\n  card's DR figures (+1/+2/+3) satisfy the ranks-equal-DR rule at Master, and whether a 4-damage\n  instance belongs on a Master card at all under conventions 1 and 8.\n- **`11:334-344` Plants Spells contains exactly one card** (Venom Lance) while Energy holds 21 and\n  Mind 11. Read the section and its neighbours: does the arcane list's own coverage claim survive an\n  eight-section structure where one section is a single card, and is a one-card section a defect of\n  the chapter or of the Discipline taxonomy (`08:29-68` places Plants in *Primal*) for a chapter whose\n  `Requires` tags are all `focus:arcane`?\n- **The `*Keywords:*` vocabulary in this file is much wider than the ones the book names.**\n  `19:560` describes Keywords as \"Bane, Boon, Prone, Slowed, Piercing, DR, and so on\", yet this file\n  also uses **Damage, Erase, Condition, Illusion, Insight, Oath, Ward, Zone, Push, Compel, Teleport,\n  Control and Utility** (Control alone 20 times). Two cards print their tags in opposite orders\n  (\"Boon, Bane\" and \"Bane, Boon\"). Test whether this chapter is using an open vocabulary or inventing\n  one, and whether any tag contradicts the condition it names.\n- **`11:19` promises \"Every spell card prints its tier, and its outcome block keys to that tier's row\n  of the damage budget.\"** Test that promise against every card in the file, including the three\n  `*Effect:*` cards and the eight Master cards, and against the possibility that a reader takes\n  \"prints its tier\" to mean the tier appears in the outcome block rather than only in the heading.\n- **`11:23`** \u2014 the cantrip introduction says cantrips \"don't require Disciplines, they don't cost\n  anything to learn, and you can cast them as often as you like, at will, every round, all day.\"\n  Check that claim against all 15 cantrips (three of them carry a `Keywords:` of Bane, five of Utility,\n  and several have multi-round durations), and against how the magic-system chapter prices a cantrip.\n\n## Cross-check chapters\n\n`08-disciplines` (the taxonomy, the budget table, the one-card law, card prices), `10-magic-system`\n(card format, tier as a card property, cantrips, spellcasting), `12-divine-spells` (the sibling list,\nthe duplicated ward ladder, the primal twin), `13-combat` (Action / Maneuver / Reaction, conditions,\nthe DR ceiling in play), `16-armor-shields` (the DR definition this chapter restates), `19-gm-guidance`\n(card format and the `Requires`/`Keywords` fields), `21-glossary`, `22-reference-sheets` (whether these\n68 cards are indexed), `05-classes` (which classes reach these cards, and their starting Disciplines),\n`20-bestiary` (creature attacks and spells).\n\n## Disposition plan (required)\n\nEvery finding must carry a **disposition class**, and the librarian's Stage-4 recommendation must\ngroup the ledger by these three tiers:\n\n- **MECHANICAL** \u2014 chapter-local, zero mechanics change, no content judgement (wording, a stale\n  parenthetical, a heading level, a crossref, a row that must conform to a locked number).\n- **SUBSTANTIVE** \u2014 new content, a multi-file rewrite, or a reconciliation that changes numbers on\n  more than one card.\n- **DESIGN** \u2014 needs the principal: two defensible readings, neither of which has a defining home.\n\n## Scope law (absence claims)\n\nA claim that something does NOT exist anywhere must be shown by a command actually run BOOK-WIDE\n(`grep -rn` over `quarto-book/chapters/*.qmd`), not merely against the registered source. A conclusion\nyou could not test is reported as **untested**, never as **absent**. The registered source set for this\nrun is this chapter alone; if a question is about the whole book, say so and cite the other chapter by\nfilename from your own grep.\n\n## Citation rule\n\nEvery `evidence[].source` must cite either the registered source label `11-arcane-spells`, another\nchapter's filename (e.g. `16-armor-shields.qmd`), or the literal `reasoning`. Quotes belong in\n`quote_or_excerpt` only, under about 12 words. `argument` and `evidence[].claim` are wall-linted\nagainst this statement and the source: **do not quote 10 or more consecutive words** there.\n",
+ "role": "librarian",
+ "round": 2,
+ "task": "Assess the contested topics from your role's duties. Emit findings (stance, evidence, confidence, rebutting where applicable)."
+}

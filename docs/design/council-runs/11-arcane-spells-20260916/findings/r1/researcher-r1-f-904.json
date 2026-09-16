@@ -1,0 +1,52 @@
+{
+  "id": "f-904",
+  "round": 1,
+  "role": "researcher",
+  "topic": "t-03",
+  "stance": "support",
+  "argument": "I ran the cross-chapter question in the reverse direction: wherever another chapter repeats one of this file's figures, does the repetition still match the file? Every site I found does. Eight places across six chapters restate a printed number, and each agrees with this file: the novice fire spell's triple at 11-arcane-spells:171-175, the adept fire spell's radius and top figure at 11-arcane-spells:188 and 194, the wind spell's push at 11-arcane-spells:249, the novice fire spell's middle figure at 11-arcane-spells:173, the adept ward's two points at 11-arcane-spells:653, and the cantrip's rows reproduced whole from 11-arcane-spells:86-92. The discipline gates and the card prices other chapters state for these spells also match this file's headers, and the frequency rule the bestiary applies to the adept spell is the magic chapter's general rule for adept magic, so no frequency line is missing from that card. The successive mechanical passes that built this chapter did not desynchronise its numbers from the chapters that quote them, which scopes the defect list to the chapter-local items.",
+  "evidence": [
+    {
+      "source": "08-disciplines.qmd",
+      "claim": "The discipline chapter's worked example repeats this file's novice fire spell figures exactly as printed at 11-arcane-spells:171-175 (08:225).",
+      "quote_or_excerpt": "4 damage on a Weak result, 6 on Standard, 8 on Strong"
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "The bestiary's archmage keeps both fire rows unchanged, at will for the novice spell and once per encounter for the adept one (20:142, 20:144).",
+      "quote_or_excerpt": "*Ember Lance:* 4/6/8 (at will)."
+    },
+    {
+      "source": "10-magic-system.qmd",
+      "claim": "The magic chapter's worked casting example states the adept fire spell's top figure and its radius just as this file prints them at 11-arcane-spells:188 and 194 (10:121).",
+      "quote_or_excerpt": "Brimstone Burst's Strong damage is 11"
+    },
+    {
+      "source": "13-combat.qmd",
+      "claim": "A played example resolves this file's novice fire spell at the middle figure it prints (13:510 against 11-arcane-spells:173).",
+      "quote_or_excerpt": "Ember Lance Standard damage: 6 fire"
+    },
+    {
+      "source": "13-combat.qmd",
+      "claim": "Another example pushes a target the same ten feet this file's wind spell prints on its middle rung (13:464 against 11-arcane-spells:249).",
+      "quote_or_excerpt": "shoves him 10 ft back"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The armour chapter's damage-reduction example grants the same two points of protection this file's adept ward prints (16:33 against 11-arcane-spells:653).",
+      "quote_or_excerpt": "under Stone Skin, which grants +2 DR"
+    },
+    {
+      "source": "19-gm-guidance.qmd",
+      "claim": "The chapter that owns the card format quotes this file's cantrip as the model card, reproducing its field line and all three rows from 11-arcane-spells:86-92 (19:618).",
+      "quote_or_excerpt": "The object smolders. It may catch fire after 1 round"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Count: eight locations outside this file repeat one of its printed numbers, spread across six chapters, and every one agrees; the single divergence I met anywhere was the heading form of that chapter's quoted adept card, which drops the tier word and the requirement slot, and that defect would belong to the quoting chapter rather than to this one.",
+      "quote_or_excerpt": "8 restatement sites: 08:225 10:121 13:464 13:510 16:33 19:618 20:142 20:144"
+    }
+  ],
+  "confidence": 0.7,
+  "rebutting": []
+}

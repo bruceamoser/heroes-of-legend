@@ -1,0 +1,32 @@
+{
+  "id": "contrarian-r2-f003",
+  "round": 2,
+  "role": "contrarian",
+  "topic": "t-03",
+  "stance": "support",
+  "argument": "I rebuilt the census myself before accepting the refutation, and it holds on the load-bearing point. The field count and the book-wide tag total reproduce at 196 fields and 68 distinct tags, but the inference fails at the next step: the sibling spell list carries fifteen tags that appear in no other chapter's header and the Discipline chapter carries twenty-five, against ten here, so a private vocabulary is simply what those chapters do and is not evidence that the book never agreed on one. My count of tags printed exactly once is six on a header-field measure from this chapter, and on the whole-manuscript measure clean-up reaches only two of the four I called once-only, because the remaining two do occur in other chapters' prose; the pre-merge list of eleven chapter-private tags reproduces with the struck ice word as the only change, so the census numbers held while my round-one evidence was looser than filed and its conclusion was still wrong. The headline therefore falls. Two residues stand, and I record them for the orchestrator without filing fresh blockers: the same pair of tags prints in opposite orders at two sites, and the Ward word is spent on two cards that grant no reduction while the same section uses it as the ladder's own label. Both are narrower than the filing and neither is a cross-chapter breach. Class: MECHANICAL, editorial.",
+  "evidence": [
+    {
+      "source": "reasoning",
+      "claim": "Recount of every Keywords field on origin/main: 196 fields and 68 distinct tags, of which the sibling spell list keeps 15 private to itself, the Discipline chapter 25, and this chapter 10.",
+      "quote_or_excerpt": "196 fields; 68 tags; ch12 15 private, ch09 25 private, ch11 10"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Six of this chapter's tags appear in exactly one Keywords field book-wide, and the private list moved from eleven to ten with the ice word as the sole casualty; but only Compel and Erase are absent from the rest of the manuscript, since Oath and Zone recur in other chapters' prose.",
+      "quote_or_excerpt": "once-only on the field measure: six; on the token measure: two"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Tag order is ungoverned: one pair prints in one order at 375 and reverses at 541, and a second pair does the same between 456 and 521.",
+      "quote_or_excerpt": "*Keywords:* Boon, Bane"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The Ward word labels two cards that grant no reduction while the section also uses it for the reduction ladder itself, a naming collision rather than a vocabulary breach.",
+      "quote_or_excerpt": "*Keywords:* Control, Ward"
+    }
+  ],
+  "confidence": 0.7,
+  "rebutting": ["f-003"]
+}

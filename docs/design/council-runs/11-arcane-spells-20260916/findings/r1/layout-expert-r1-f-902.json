@@ -1,0 +1,27 @@
+{
+  "id": "f-902",
+  "round": 1,
+  "role": "layout-expert",
+  "topic": "t-03",
+  "stance": "support",
+  "argument": "This file's printed name for the plant school agrees with the Discipline owner, so the repair for the book's divergent heading belongs in the other spell list, not here. The Discipline table spells the name with a plural noun at 08-disciplines.qmd:48; this file's section heading carries the same plural at 11-arcane-spells:334 and the card beneath it keys to that plural at 11:337. The sibling spell list instead prints the singular in its own section heading at 12-divine-spells:368 while all five of its plant cards key to the plural Discipline (12:371-407), so the sibling is the file where the printed heading and the card disagree with each other. One word changes whichever way the council rules; this evidence argues the rename should not be applied to 11:334, and that the divine list's heading is the lead worth chasing. Both sides are decidable from text alone, with no render involved.",
+  "evidence": [
+    {
+      "source": "08-disciplines.qmd",
+      "claim": "The Discipline owner prints this school's name with a plural noun at 08-disciplines.qmd:48, so any heading that reuses the name is conforming when it carries the plural.",
+      "quote_or_excerpt": "[*Plants*], [Flora, growth, thorns, verdant magic]"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "This file's plant heading at 334 uses the plural, and the single card beneath it keys to the plural Discipline at 337, so heading and card agree here.",
+      "quote_or_excerpt": "*Disciplines:* 1 Plants"
+    },
+    {
+      "source": "12-divine-spells.qmd",
+      "claim": "The sibling list's plant heading at 12-divine-spells:368 uses the singular while every plant card below it keys to the plural Discipline (12:371, 380, 389, 398, 407).",
+      "quote_or_excerpt": "== Plant Spells"
+    }
+  ],
+  "confidence": 0.6,
+  "rebutting": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "f-902",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Ward of Iron is a Master card, and its Strong outcome names one damage figure twice inside a single clause (line 498): the striker takes four and the ward returns four. Nothing on the card says whether the table applies four once or four twice against the same attacker, so the card's damage is not readable as printed. Four is also a Novice Weak figure: a Master card's band is 7/10/14, and the locked conventions retire flat per-instance damage riders in favour of a damage-tier step, so a bare four is off the row the card owns under either reading of the doubling. Read as eight total it is still off the Master band. The rest of the card holds up and should be left alone: three Energy ranks support a DR grant of three, a ceiling of six at Master leaves it inside the cap, and the non-stacking sentence at line 500 matches its two siblings in the Protection section.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "Ward of Iron:498 states the same figure twice in one clause with no total, so the damage the card deals is either four or two fours and cannot be read off the card.",
+      "quote_or_excerpt": "the attacker takes 4 damage and the ward reflects 4 damage"
+    },
+    {
+      "source": "reasoning",
+      "claim": "A Master card's band is 7/10/14, so the four printed at 11-arcane-spells:498 belongs to no row the card owns whether it is read once or doubled to eight.",
+      "quote_or_excerpt": "Master row 7/10/14; card prints 4 or 8"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The card's DR grant rises with its rank as the ladder does and 11-arcane-spells:500 repeats the non-stacking sentence, so the defect is confined to the Strong clause.",
+      "quote_or_excerpt": "This DR does not stack with any other source of DR."
+    }
+  ],
+  "confidence": 0.7,
+  "rebutting": []
+}

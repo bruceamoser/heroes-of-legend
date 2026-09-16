@@ -1,0 +1,27 @@
+{
+  "id": "contrarian-r2-f017",
+  "round": 2,
+  "role": "contrarian",
+  "topic": "t-03",
+  "stance": "support",
+  "argument": "The three offenders of action are no longer offenders. In the merged text each card's action slot holds one of the three legal words and the bracketed timing has been moved into the range slot, where the section already prints timing brackets on its other cards, so the header now contains one vocabulary token instead of a token plus a parenthetical. I checked all three sites and the same pattern holds at each, which is the repair the filing proposed and the pattern the section's own cantrips follow. The residue the filing raised elsewhere, that the mode word in those brackets is defined nowhere in the manuscript, is a field-ownership matter for the chapter that defines the header, and it is unchanged by this merge; I note it as outstanding rather than as a blocker against this chapter. Class: MECHANICAL, closed for this section.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "All three cards now carry a legal action word in the action slot and print their timing in the range slot, the same shape the section's other cards already use.",
+      "quote_or_excerpt": "*Range:* 30 ft (ritual, 1 minute)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Count check on the merged section: three timing brackets, all three sitting in the range slot, none left in an action slot, against three in the action slot before the merge.",
+      "quote_or_excerpt": "ritual timers: 3, all in Range"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The undefined mode word is a gap in the chapter that owns the header field, so it is carried to the orchestrator rather than re-filed against this section.",
+      "quote_or_excerpt": "mode word still undefined book-wide"
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": ["f-017"]
+}
