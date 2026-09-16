@@ -20,7 +20,7 @@ The tags a card can require are `weapon:unarmed`, `weapon:one-hand`, `weapon:two
 
 == Packs
 
-A pack is a capability, not a shopping list. Carrying the pack is what having the capability means.
+A pack is gear you acquire, from a class, a culture, a talent, a purchase, or off someone who no longer needs it. It is a capability, not a shopping list. Carrying the pack is what having the capability means.
 
 Every hero has the Adventurer's Pack, and it costs nothing.
 
