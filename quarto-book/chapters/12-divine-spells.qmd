@@ -179,6 +179,29 @@ This DR does not stack with any other source of DR.
 
 This DR does not stack with any other source of DR.
 
+The primal twin of the ladder wears an animal's hide, scale, and shell: Beast Hide, Scaled Hide, and Carapace, the same values and the same upkeep.
+
+=== Beast Hide (Primal Spell)
+*Disciplines:* 1 Protection · *Requires:* focus:primal · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
+
+*Effect:* +1 DR for 1 round, sustained with your Maneuver.
+
+This DR does not stack with any other source of DR.
+
+=== Scaled Hide (Primal Spell)
+*Disciplines:* 2 Protection · *Requires:* focus:primal · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
+
+*Effect:* +2 DR for 1 round, sustained with your Maneuver.
+
+This DR does not stack with any other source of DR.
+
+=== Carapace (Primal Spell)
+*Disciplines:* 3 Protection · *Requires:* focus:primal · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
+
+*Effect:* +3 DR for 1 round, sustained with your Maneuver.
+
+This DR does not stack with any other source of DR.
+
 === Ward of Faith (Divine Spell)
 *Disciplines:* 1 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* DR
 
