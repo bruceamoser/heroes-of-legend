@@ -84,7 +84,7 @@ They won't win a fight. They'll start one, or end one creatively.
 
 Two traditions. Two philosophies. Same engine underneath.
 
-*Arcane* (Arcanist, Odd, Unbalanced): Fire, Wind, Water, Earth, Energy, Mind, and Plants spells. Arcane casters manipulate natural forces through study, talent, or sheer force of will. They're scientists of the impossible, or artists of the unstable. Damage is their language. Destruction is their punctuation.
+*Arcane* (Arcanist, Odd, Unbalanced): Fire, Wind, Water, Earth, Energy, Mind, Plants, and Protection spells. Arcane casters manipulate natural forces through study, talent, or sheer force of will. They're scientists of the impossible, or artists of the unstable. Damage is their language. Destruction is their punctuation.
 
 *Divine* (Shepherd, some Leaders): Protection, Animal, Life, Religion, and Plants spells. Divine casters channel power from a higher source, gods, nature, ancestors, the light between stars. They heal. They ward. They burn what shouldn't exist, like undead and demons. Their magic is a relationship, not a formula.
 
