@@ -12,7 +12,7 @@ _Placeholder for final art._
 
 Your hero is going to need gear. A sword, some armor, a rope, a torch, a bedroll, and probably a ten-foot pole because someone at the table has read about pit traps. Equipment is the stuff between your hero and a bad day. Choose it well.
 
-The tables in this chapter list weapons by required Disciplines, armor by weight class and slots, and adventuring gear by utility. Gear is not bought. It is granted, earned, or taken, and these lists are a reference for what a thing is, what it weighs, and what the odd ones do.
+The tables in this chapter list weapons by category, armor by weight class and slots, and adventuring gear by utility. Gear is not bought. It is granted, earned, or taken, and these lists are a reference for what a thing is, what it weighs, and what the odd ones do.
 
 #pagebreak()
 
@@ -64,26 +64,26 @@ Pick the weapon that fits your hero, not the one that looks best on paper. They 
 
 #figure(
   align(center)[#table(
-    columns: (17.02%, 44.68%, 23.40%, 14.90%),
+    columns: (20.00%, 20.00%, 45.10%, 14.90%),
     align: (auto, auto, auto, auto,),
-    table.header([Weapon], [Disciplines Required], [Properties], [Range],),
-    [Unarmed], [None], [], [],
-    [Dagger], [1 Blades], [Light, Thrown], [20/60 ft (thrown)],
-    [Shortsword], [1 Blades], [Light], [],
-    [Longsword], [2 Blades], [Versatile], [],
-    [Greatsword], [2 Blades + 1 Heavy Weapon], [], [],
-    [Handaxe], [1 Axes], [Light, Thrown], [20/60 ft (thrown)],
-    [Battleaxe], [2 Axes], [], [],
-    [Greataxe], [2 Axes + 1 Heavy Weapon], [], [],
-    [Mace], [1 Heavy Weapon], [], [],
-    [Warhammer], [2 Heavy Weapon], [], [],
-    [Maul], [3 Heavy Weapon], [], [],
-    [Spear], [1 Polearms], [Reach, Thrown, Two-Handed], [20/60 ft (thrown)],
-    [Halberd], [1 Polearms], [Reach, Two-Handed], [],
-    [Throwing Dagger], [1 Blades or 1 Archery], [Thrown], [20/60 ft (thrown)],
-    [Shortbow], [1 Archery], [Two-Handed], [60/120 ft],
-    [Longbow], [1 Archery], [Two-Handed], [100/200 ft],
-    [Crossbow], [1 Archery], [Loading, Two-Handed], [20/60 ft],
+    table.header([Weapon], [Category], [Properties], [Range],),
+    [Unarmed], [Unarmed], [], [],
+    [Dagger], [Melee], [Light, Thrown], [20/60 ft (thrown)],
+    [Shortsword], [Melee], [Light], [],
+    [Longsword], [Melee], [Versatile], [],
+    [Greatsword], [Two-Handed], [], [],
+    [Handaxe], [Melee], [Light, Thrown], [20/60 ft (thrown)],
+    [Battleaxe], [Melee], [], [],
+    [Greataxe], [Two-Handed], [], [],
+    [Mace], [Melee], [], [],
+    [Warhammer], [Melee], [], [],
+    [Maul], [Two-Handed], [], [],
+    [Spear], [Two-Handed], [Reach, Thrown, Two-Handed], [20/60 ft (thrown)],
+    [Halberd], [Two-Handed], [Reach, Two-Handed], [],
+    [Throwing Dagger], [Ranged], [Thrown], [20/60 ft (thrown)],
+    [Shortbow], [Ranged], [Two-Handed], [60/120 ft],
+    [Longbow], [Ranged], [Two-Handed], [100/200 ft],
+    [Crossbow], [Ranged], [Loading, Two-Handed], [20/60 ft],
   )],
   kind: table,
   outlined: false,
@@ -96,10 +96,10 @@ Melee attacks add your Brawn to the damage row on your attack ability card. Miss
 Improvised weapons (a crowbar swung as a club, a hammer in a pinch) deal 1/1/2 + Brawn, the Basic Unarmed floor. A thrown improvised object counts as a thrown attack: 1/2/3 flat, no attribute.
 ])
 
-#callout(type: "note", title: "Discipline Combinations, Name Your Style", body: [
-Weapons don't just require more of the same Discipline, they require specific combinations. A Longsword needs _2 Blades_. A Greatsword needs _2 Blades + 1 Heavy Weapon_. Your Discipline choices describe the kind of fighter you are, and that description decides which attack ability cards you can reach. A hero with a Greatsword is a different person than a hero with a Dagger, not a bigger number. Name the style you want, then pick the combination that says it out loud. The cards you can reach are the fighting style you have chosen.
+#callout(type: "note", title: "Armament Categories", body: [
+A weapon's category is its entry requirement: 1 Melee, 2 Two-Handed, 1 Ranged, and no rank for Unarmed. The named weapon is flavor; the category is the gate.
 
-*Heavy Weapon* Discipline represents training with large, two-handed weapons that rely on momentum and raw force rather than precision. It opens the heaviest attack cards.
+A shield takes 1 Shields. A weapon or shield you carry does what its entry says; a card that requires a shield requires you to be wielding one.
 ])
 
 *Properties:*
