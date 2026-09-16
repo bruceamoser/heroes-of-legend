@@ -42,6 +42,10 @@ Your class gives you a Discipline, a signature ability, and cheaper access to ce
 
 See @sec-chapter-skills for the full skill list.
 
+Each class entry lists a *Starting Loadout*: the gear your hero carries at level 1, and the Discipline ranks that gear requires. Ranks your class, ancestry, or culture already grant cost nothing, so the DP figure in a loadout line is what its remaining ranks cost at your class's rates, paid from the same Development Points that buy your cards.
+
+Four of the nine loadouts carry a second weapon. That second weapon is free fiction outside the cards: it is gear you carry, not a card you buy, so it never adds a card or a cost beyond the ranks its loadout line already lists. Fighting with two weapons is still one Attack action (see @sec-chapter-combat).
+
 #pagebreak()
 
 == The Protector
@@ -56,7 +60,7 @@ The Protector stands at the vanguard, using body and armor as a shield for those
 
 *Favored Skills:* Athletics, Endurance, Survival, Perception, Persuasion, Medicine
 
-*Starting Kit:* Chain mail, shield, smith's tools. See @sec-chapter-equipment for how kits are built and what your points buy.
+*Starting Loadout:* Chain mail (3 Armor), shield (1 Shields), smith's tools. Your class grant covers Armor (1) and Shields (1); Armor ranks 2 and 3 cost 6 DP at your Home rate, which still leaves room for a card. No weapon is listed: fight with *Basic Unarmed* or *Shield Bash* until you buy a weapon rank or a Background grant supplies one.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -100,7 +104,7 @@ The Blade masters the art of grace and precision, favoring the swift elegance of
 
 *Favored Skills:* Acrobatics, Deception, Perception, Sleight of Hand, Stealth, Thievery
 
-*Starting Kit:* Shortsword, dagger, leather armor, thieves' tools. See @sec-chapter-equipment for how kits are built and what your points buy.
+*Starting Loadout:* Shortsword (1 Melee), dagger (1 Melee), leather armor (1 Armor), thieves' tools. Your class grant covers Melee; the Armor rank costs 4 DP at your Foreign rate, which still leaves room for a card.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -151,7 +155,7 @@ The Arcanist delves into the mysteries of arcane energies, mastering their manip
 
 *Favored Skills:* Alchemy, Arcana, History, Lore, Nature
 
-*Starting Kit:* Arcane focus, dagger, scholar's robes, focus pouch, spellbook. See @sec-chapter-equipment for how kits are built and what your points buy.
+*Starting Loadout:* Arcane focus, dagger (1 Melee), scholar's robes, focus pouch, spellbook. Unless an ancestry or culture grant covers Melee, the rank costs 4 DP at your Foreign rate, which still leaves room for a card.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -195,7 +199,7 @@ The Shepherd stands as a beacon of guidance, providing moral direction and harne
 
 *Favored Skills:* Medicine, Nature, Religion, Survival
 
-*Starting Kit:* Shortsword, holy symbol, leather armor, healer's kit. See @sec-chapter-equipment for how kits are built and what your points buy.
+*Starting Loadout:* Shortsword (1 Melee), holy symbol, leather armor (1 Armor), healer's kit. Neither rank is a class grant; together they cost 7 DP at your Foreign rates, which still leaves room for a card.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -239,7 +243,7 @@ The Intellect embodies cerebral prowess and scholarly mastery. Your path is a re
 
 *Favored Skills:* History, Lore, Medicine, Arcana, Perception
 
-*Starting Kit:* Shortsword, spellbook, scholar's robes, focus pouch, ink & pen. See @sec-chapter-equipment for how kits are built and what your points buy.
+*Starting Loadout:* Shortsword (1 Melee), spellbook, scholar's robes, focus pouch, ink & pen. Take Melee with your class's any-one pick; if you spend that pick elsewhere, the rank costs 3 DP at your Foreign rate and still leaves room for a card.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -285,7 +289,7 @@ The Odd embodies eccentricity and peculiarity. With a demeanor that dances on th
 
 *Favored Skills:* Sleight of Hand, Stealth, Deception, Acrobatics, Performance
 
-*Starting Kit:* Shortbow, dagger, leather armor, thieves' tools, 20 arrows. See @sec-chapter-equipment for how kits are built and what your points buy.
+*Starting Loadout:* Shortbow (1 Ranged), dagger (1 Melee), leather armor (1 Armor), thieves' tools, 20 arrows. Your two class picks must come from different categories, so they can cover Ranged and Armor or Melee and Armor; the third rank costs 2 DP at your Adjacent rate, which still leaves room for a card.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -331,7 +335,7 @@ The Leader is a beacon of courage on the battlefield, leading from the front lin
 
 *Favored Skills:* Persuasion, Perception, Insight, Survival, Endurance
 
-*Starting Kit:* Longsword, spear, leather armor, shield. See @sec-chapter-equipment for how kits are built and what your points buy.
+*Starting Loadout:* Longsword (2 Melee), spear (1 Two-Handed), leather armor (1 Armor), shield (1 Shields). Your class grant covers Shields; the weapon ranks cost 4 DP at your Home rates and the Armor rank costs 2 DP at your Adjacent rate, which still leaves room for a card.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -401,7 +405,7 @@ The Unbalanced is a wild card, embodying chaos and unpredictability in every act
 
 *Favored Skills:* Arcana, Deception, Insight, Perception, Acrobatics
 
-*Starting Kit:* Spear, focus pouch, scholar's robes, six vials of volatile reagents. See @sec-chapter-equipment for how kits are built and what your points buy.
+*Starting Loadout:* Spear (1 Two-Handed), focus pouch, scholar's robes, six vials of volatile reagents. Unless an ancestry or culture grant covers Two-Handed, the rank costs 4 DP at your Foreign rate, which still leaves room for a card.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -453,7 +457,7 @@ The Shadow is the ghost in the room, the whisper no one heard, the hand that lif
 
 *Favored Skills:* Stealth, Deception, Sleight of Hand, Thievery, Acrobatics, Perception
 
-*Starting Kit:* Two daggers, 6 throwing daggers, leather armor, thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1, creates a 10-ft radius of heavy concealment for 1 round; anyone inside is Hidden). See @sec-chapter-equipment for how kits are built and what your points buy.
+*Starting Loadout:* Two daggers (1 Melee), 6 throwing daggers (1 Melee or 1 Ranged), leather armor (1 Armor), thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1, creates a 10-ft radius of heavy concealment for 1 round; anyone inside is Hidden). Melee covers the throwing daggers; Melee and Armor together cost 5 DP at your rates, which still leaves room for a card.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
