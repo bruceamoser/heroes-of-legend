@@ -87,18 +87,18 @@ Your upbringing within your ancestry. Each culture grants a +1 bonus to one skil
     [*Human*], [], [],
     [Imperial], [Persuasion or History], [Any one (free)],
     [Nomadic], [Survival or Nature], [Archery + Polearms],
-    [Coastal], [Athletics or Survival], [Polearms + Protection],
+    [Coastal], [Athletics or Survival], [Polearms + Shields],
     [*Elf*], [], [],
     [High Elf], [Arcana or History], [Energy + Blades],
     [Wood Elf], [Stealth or Nature], [Animal + Archery],
     [Twilight Elf], [Deception or Insight], [Water + Blades],
     [*Dwarf*], [], [],
     [Mountain], [Craft or Athletics], [Armor + Axes],
-    [Deep], [Endurance or Lore], [Axes + Protection],
+    [Deep], [Endurance or Lore], [Axes + Shields],
     [Hill], [History or Persuasion], [Any one (free)],
     [*Halfling*], [], [],
     [Riverfolk], [Acrobatics or Sleight of Hand], [Blades + Archery],
-    [Burrower], [Stealth or Survival], [Protection + Blades],
+    [Burrower], [Stealth or Survival], [Shields + Blades],
     [Wanderer], [Insight or Performance], [Any one (free)],
   )],
   kind: table,
@@ -180,7 +180,7 @@ Now your hero finds their calling. This is where they become exceptional.
     columns: (22.58%, 19.35%, 38.71%, 19.35%),
     align: (auto, auto, auto, auto,),
     table.header([Class], [Role], [Discipline], [Vibe],),
-    [*Protector*], [Tank, defender], [Armor + any Weapon], ["Stand behind me."],
+    [*Protector*], [Tank, defender], [Armor + Shields], ["Stand behind me."],
     [*Blade*], [Assassin, precision], [Blades + Stealth], ["Strike once. Strike true. Strike last."],
     [*Arcanist*], [Arcane caster], [Fire + Energy], ["Fire answers to me."],
     [*Shepherd*], [Divine guide], [Shields + Animal], ["The light guides my hand."],
@@ -411,7 +411,7 @@ Total: 8 DP. All spent.
 
 *Ancestry:* Dwarf. Axes. *Sturdy:* +2 maximum HP.
 
-*Culture:* Hill. +1 to Persuasion (the dwarf who explains dwarves). Free Discipline: Protection.
+*Culture:* Hill. +1 to Persuasion (the dwarf who explains dwarves). Free Discipline: Shields.
 
 *Background DP (8 + Know 0 + Fort 1 = 9 DP):*
 
@@ -450,7 +450,7 @@ Total: 8 DP. All spent.
 
 *Ancestry:* Human. Any one Discipline (takes Blades). *Versatile:* +1 DP at Level 0.
 
-*Culture:* Coastal. +1 to Athletics (climbed rigging before she could walk). Disciplines: Polearms + Protection.
+*Culture:* Coastal. +1 to Athletics (climbed rigging before she could walk). Disciplines: Polearms + Shields.
 
 *Background DP (8 + Know -1 + Fort 0 = 7 DP + 1 Versatile = 8 DP):*
 
@@ -526,7 +526,7 @@ Total: 8 DP. All spent.
 
 *Ancestry:* Halfling. Blades. *Lucky:* add one boon to any roll, once per session.
 
-*Culture:* Burrower. +1 to Stealth (grew up in tunnels under the hills). Disciplines: Protection + Blades.
+*Culture:* Burrower. +1 to Stealth (grew up in tunnels under the hills). Disciplines: Shields + Blades.
 
 *Background DP (8 + Know 0 + Fort 0 = 8 DP):*
 
@@ -572,11 +572,11 @@ Total: 8 DP. All spent.
 - Athletics Novice (2 DP, favored)
 - Craft Novice (2 DP, culture bonus already applied)
 - Survival Novice (2 DP), she could live off the mountain if the hold ever fell
-- Protection Discipline, rank 1 (1 DP, Home), she learned the shield-wall before the sword
+- Shields Discipline, rank 1 (1 DP, Home), she learned the shield-wall before the sword
 
 Total: 9 DP. All spent.
 
-*Class:* Protector. Gains 1 any Weapon, 1 Armor. Signature: *Bastion*, spend movement to enter defensive stance, +1 Protection Value.
+*Class:* Protector. Gains 1 Armor, 1 Shields. Signature: *Bastion*, spend movement to enter defensive stance, +1 Protection Value.
 
 *Class DP (8 DP):*
 

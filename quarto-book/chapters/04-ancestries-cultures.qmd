@@ -119,7 +119,7 @@ Your culture is how you were raised. It's not just flavor, it's the skills and D
   table.header([Culture], [Skill Bonus], [Disciplines], [You Grew Up...],),
   [*Imperial*], [Persuasion or History], [Any one (free choice)], [In the heart of an empire. Politics, protocol, and the art of getting what you want with a smile. Imperial education is broad, you found your own path.],
   [*Nomadic*], [Survival or Nature], [Archery + Polearms], [Following the herds, reading the stars. You can start a fire in a monsoon and never get lost. Bow for the hunt, lance for the fight.],
-  [*Coastal*], [Athletics or Survival], [Polearms + Protection], [Salt in your hair, sand between your toes. You swim before you walk. Harpoon in hand, shield on arm, the sea provides, but it also threatens.],
+  [*Coastal*], [Athletics or Survival], [Polearms + Shields], [Salt in your hair, sand between your toes. You swim before you walk. Harpoon in hand, shield on arm, the sea provides, but it also threatens.],
 )], kind: table, numbering: none, outlined: false)
 
 === Elf Cultures
@@ -140,7 +140,7 @@ Your culture is how you were raised. It's not just flavor, it's the skills and D
   align: (auto, auto, auto, auto,),
   table.header([Culture], [Skill Bonus], [Disciplines], [You Grew Up...],),
   [*Mountain*], [Craft or Athletics], [Armor + Axes], [In the high peaks, where the air is thin and the stone is stubborn. You forge steel and wear it like a second skin. Your axe is an heirloom; your armor, a resume.],
-  [*Deep*], [Endurance or Lore], [Axes + Protection], [In halls carved miles beneath the surface. Darkness is comforting. You fight in tight tunnels where there's no room for fancy footwork, just your axe, your shield-arm, and the stone at your back.],
+  [*Deep*], [Endurance or Lore], [Axes + Shields], [In halls carved miles beneath the surface. Darkness is comforting. You fight in tight tunnels where there's no room for fancy footwork, just your axe, your shield-arm, and the stone at your back.],
   [*Hill*], [History or Persuasion], [Any one (free choice)], [In the foothills, trading with surface folk. You're the dwarf who explains dwarves to everyone else, you've picked up a little of everything.],
 )], kind: table, numbering: none, outlined: false)
 
@@ -151,7 +151,7 @@ Your culture is how you were raised. It's not just flavor, it's the skills and D
   align: (auto, auto, auto, auto,),
   table.header([Culture], [Skill Bonus], [Disciplines], [You Grew Up...],),
   [*Riverfolk*], [Acrobatics or Sleight of Hand], [Blades + Archery], [On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm. Dagger close, sling far, you're ready for whatever comes down the river.],
-  [*Burrower*], [Stealth or Survival], [Protection + Blades], [In cozy tunnels beneath the hills, hidden from big folk and their big problems. You know every root, every mushroom, every hidden exit. When trouble comes knocking, your blade is ready and your home is your fortress.],
+  [*Burrower*], [Stealth or Survival], [Shields + Blades], [In cozy tunnels beneath the hills, hidden from big folk and their big problems. You know every root, every mushroom, every hidden exit. When trouble comes knocking, your blade is ready and your home is your fortress.],
   [*Wanderer*], [Insight or Performance], [Any one (free choice)], [On the road, in the caravans, telling stories for supper. Home is wherever you hang your hat. You've learned a little of everything.],
 )], kind: table, numbering: none, outlined: false)
 

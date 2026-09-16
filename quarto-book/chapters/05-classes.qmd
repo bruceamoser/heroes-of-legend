@@ -25,7 +25,7 @@ Your class gives you a Discipline, a signature ability, and cheaper access to ce
     columns: (18.42%, 15.79%, 36.84%, 28.95%),
     align: (auto, auto, auto, auto,),
     table.header([Class], [Role], [L1 Discipline], [Signature]),
-    [*Protector*], [Tank, defender], [Armor (1) + 1 any Weapon], [*Bastion*, defensive stance],
+    [*Protector*], [Tank, defender], [Armor (1) + Shields (1)], [*Bastion*, defensive stance],
     [*Blade*], [Assassin, precision], [Blades (1) + Stealth (1)], [*Swift Blade*],
     [*Arcanist*], [Arcane caster], [Energy (1) + Fire (1)], [*Arcane Shield*],
     [*Shepherd*], [Divine guide], [Shields (1) + Animal (1)], [*Unholy Word*],
@@ -50,13 +50,13 @@ _"Stand behind me."_
 
 The Protector stands at the vanguard, using body and armor as a shield for those in their care. You are the anchor, built on Brawn and Fortitude, trained to absorb blows that would fell lesser heroes. Your pride is not in the enemies you slay but in the allies who walk away unharmed because you stood in the gap. You pursue ever-better ways to fortify your resilience while keeping the ability to strike back when needed.
 
-*Class Discipline (L1):* Armor (1) + 1 any Weapon
+*Class Discipline (L1):* Armor (1) + Shields (1)
 
 *Signature, Bastion:* Spend your movement to enter a defensive stance. Add +1 to your Protection Value for the round.
 
 *Favored Skills:* Athletics, Endurance, Survival, Perception, Persuasion, Medicine
 
-*Starting Kit:* Battleaxe, chain mail, shield, smith's tools. See @sec-chapter-equipment for how kits are built and what your points buy.
+*Starting Kit:* Chain mail, shield, smith's tools. See @sec-chapter-equipment for how kits are built and what your points buy.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
