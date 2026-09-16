@@ -569,9 +569,9 @@ Spells are the most structured. Every spell card answers the same questions in t
 
 #quote[*Brimstone Burst (Arcane Spell).*
 *Disciplines:* 2 Fire · *Action:* Action · *Range:* 20-ft radius · *Keywords:* Burning
-*Weak:* 4 fire damage to all in the radius (Agility or Dodge rank resists).
-*Standard:* 6 fire damage to all.
-*Strong:* 8 fire damage to all; the ground burns (Burning 4).]
+*Weak:* 5 fire damage to all in the radius (Agility or Dodge rank resists).
+*Standard:* 8 fire damage to all.
+*Strong:* 11 fire damage to all; the ground burns (Burning 4).]
 
 #quote[_This is the spell that ends encounters and starts wars. When you cast Brimstone Burst, the battlefield changes. So does your reputation._]
 
