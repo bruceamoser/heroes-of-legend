@@ -306,6 +306,11 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 
 *Strong:* Deal 8 damage and Push 5 ft; the target is Prone.
 
+=== Wall Shield (Talent)
+*Disciplines:* 3 Shields · *Action:* Passive · *Range:* Self · *Keywords:* DR, Movement
+
+*Master:* While you are wielding a shield and did not move on your turn, you have +3 DR. You move at -5 ft speed while wielding it.
+
 === Parry (Weapon Maneuver)
 *Disciplines:* 2 Melee · *Action:* Reaction · *Range:* Self · *Keywords:* DR, Counterattack
 
