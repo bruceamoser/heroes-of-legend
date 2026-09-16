@@ -22,52 +22,52 @@ Bonuses from different talents stack. The same talent cannot be taken more than 
 
 The talents below are general. Any class may take any of them, though a talent that lists a Discipline requirement is gated by it like any other card. A talent may also require gear, and a talent that grants gear grants the named gear and nothing else.
 
-=== Fortune's Favor (Talent)
+=== Fortune's Favor (Novice Talent)
 *Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* Reroll
 
 *Novice:* Once per session, reroll one natural 1, 2, or 3.
 
-=== Turn the Bones (Talent)
+=== Turn the Bones (Novice Talent)
 *Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* Reroll
 
-*Effect:* Once per scene, reroll any one die.
+*Novice:* Once per scene, reroll any one die.
 
-=== Combat Reflexes (Talent)
+=== Combat Reflexes (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Reaction
 
 *Novice:* You gain one extra Reaction per round.
 
-=== Tough (Talent)
+=== Tough (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* HP
 
 *Novice:* +2 maximum HP.
 
-=== Precision (Talent)
+=== Precision (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
 
 *Novice:* You may use Agility for Brawn when applicable.
 
-=== Deft Hands (Talent)
+=== Deft Hands (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
 
 *Novice:* You may use Guile for Agility when applicable.
 
-=== Field Reason (Talent)
+=== Field Reason (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
 
 *Novice:* You may use Reason for Knowledge when applicable.
 
-=== Streetwise (Talent)
+=== Streetwise (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
 
 *Novice:* You may use Guile for Knowledge when applicable.
 
-=== Steady Nerve (Talent)
+=== Steady Nerve (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
 
 *Novice:* You may use Fortitude for Reason when applicable.
 
-=== Bulk (Talent)
+=== Bulk (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
 
 *Novice:* You may use Brawn for Agility when applicable.
@@ -76,120 +76,120 @@ The talents below are general. Any class may take any of them, though a talent t
 These six talents are the substitution family. Only one substitution applies to a roll. If two would apply, the player chooses before rolling. A class feature may grant one of these cards free, so a future class gift is an instance of an existing card rather than a new rule.
 ])
 
-=== Weapon Focus (Talent)
+=== Weapon Focus (Novice Talent)
 *Disciplines:* 1 chosen weapon Discipline · *Action:* Passive · *Range:* Self · *Keywords:* Damage
 
 *Novice:* Boon on attack rolls with weapons of the chosen weapon Discipline.
 
-=== Skill Focus (Talent)
+=== Skill Focus (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Skill
 
 *Novice:* +1 to one skill you choose.
 
-=== Iron Will (Talent)
+=== Iron Will (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
 
 *Novice:* Boon on checks against fear and charm.
 
-=== Guarding Stance (Talent)
+=== Guarding Stance (Novice Talent)
 *Disciplines:* 2 Protection · *Action:* Passive · *Range:* Self · *Keywords:* DR, Defend
 
 *Novice:* When you take the Defend maneuver, adjacent allies gain +2 DR until the start of your next turn.
 
-=== Refuse to Fall (Talent)
+=== Refuse to Fall (Novice Talent)
 *Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* HP
 
 *Novice:* When you drop to 0 HP, drop to 1 HP and gain temporary HP equal to twice your level. Once per session.
 
-=== Death Blow (Talent)
+=== Death Blow (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Critical, Damage
 
 *Novice:* On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 14).
 
-=== Arcane Reservoir (Talent)
+=== Arcane Reservoir (Novice Talent)
 *Disciplines:* None · *Requires:* focus:arcane · *Action:* Passive · *Range:* Self · *Keywords:* Spell
 
 *Novice:* Once per session, cast a Master spell you know a second time.
 
-=== Miracle Worker (Talent)
+=== Miracle Worker (Novice Talent)
 *Disciplines:* None · *Action:* Reaction · *Range:* 30 ft · *Keywords:* Healing
 
 *Novice:* Once per session, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP.
 
-=== Arcane Sensitivity (Talent)
+=== Arcane Sensitivity (Novice Talent)
 *Disciplines:* None · *Requires:* focus:arcane · *Action:* Passive · *Range:* Self · *Keywords:* Spell
 
 *Novice:* Boon on spell rolls for one Discipline you choose.
 
-=== The Full Ledger (Talent)
+=== The Full Ledger (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell
 
-*Effect:* Once per scene, cast any spell you know a second time.
+*Novice:* Once per scene, cast any spell you know a second time.
 
-=== Spell Storm (Talent)
+=== Spell Storm (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell, Area
 
 *Novice:* Once per session, a single-target spell you cast also hits all other targets you choose within 15 ft of the original target; roll once and apply that result to every target, the original included.
 
-=== Linguist (Talent)
+=== Linguist (Novice Talent)
 *Disciplines:* 1 Lore · *Action:* Passive · *Range:* Self · *Keywords:* Language
 
 *Novice:* You read and speak one additional language.
 
-=== Battlefield Assessment (Talent)
+=== Battlefield Assessment (Novice Talent)
 *Disciplines:* 1 Tactics · *Action:* Action · *Range:* Sight · *Keywords:* Tactics
 
 *Novice:* Once per scene, learn the relative strength of every enemy in sight and their highest attribute.
 
-=== Quick Study (Talent)
+=== Quick Study (Novice Talent)
 *Disciplines:* None · *Action:* Free · *Range:* Self · *Keywords:* Skill
 
 *Novice:* Once per session, use a skill you do not have at Novice (+1) for one check.
 
-=== Chaotic Insight (Talent)
+=== Chaotic Insight (Novice Talent)
 *Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* Reroll
 
 *Novice:* Once per session, reroll any roll you just made, using fresh dice.
 
-=== Rally the Troops (Talent)
+=== Rally the Troops (Novice Talent)
 *Disciplines:* None · *Action:* Maneuver · *Range:* 30 ft · *Keywords:* Frightened
 
 *Novice:* Once per session, all allies within 30 ft remove Frightened or Dazed and gain a Boon on their next roll.
 
-=== Dangerous Gambit (Talent)
+=== Dangerous Gambit (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Damage
 
 *Novice:* Once per scene, when you roll 14 or higher, increase the damage tier of the result by one.
 
-=== Trap Sense (Talent)
+=== Trap Sense (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Boon, Traps
 
 *Novice:* Boon on checks to detect and disarm traps, and you cannot be surprised by a trap.
 
-=== Brace Them (Talent)
+=== Brace Them (Novice Talent)
 *Disciplines:* 1 Protection · *Action:* Reaction · *Range:* Melee · *Keywords:* Support
 
-*Effect:* When you or an ally within reach would be knocked Prone or Frightened, you may spend your Reaction so that the condition does not land, and that creature may immediately stand or move 5 ft.
+*Novice:* When you or an ally within reach would be knocked Prone or Frightened, you may spend your Reaction so that the condition does not land, and that creature may immediately stand or move 5 ft.
 
-=== Hand Off (Talent)
+=== Hand Off (Novice Talent)
 *Disciplines:* 1 Sleight · *Action:* Free · *Range:* Melee · *Keywords:* Support
 
-*Effect:* As part of your turn, you may give a weapon or shield you carry to an ally within reach. That ally gains a Boon on their next attack or defense with it this round, and if that ally is Prone, they may immediately stand.
+*Novice:* As part of your turn, you may give a weapon or shield you carry to an ally within reach. That ally gains a Boon on their next attack or defense with it this round, and if that ally is Prone, they may immediately stand.
 
-=== Borrowed Eye (Talent)
+=== Borrowed Eye (Novice Talent)
 *Disciplines:* 1 Tactics · 1 Mind · *Action:* Reaction · *Range:* 30 ft · *Keywords:* Support
 
-*Effect:* When an enemy within 30 ft moves, attacks, or uses a card, you may spend your Reaction so that you or one ally within 30 ft gains a Boon that lasts, unspent, until that enemy acts again, and may be applied to any one roll made against it before then.
+*Novice:* When an enemy within 30 ft moves, attacks, or uses a card, you may spend your Reaction so that you or one ally within 30 ft gains a Boon that lasts, unspent, until that enemy acts again, and may be applied to any one roll made against it before then.
 
-=== Not One Step (Talent)
+=== Not One Step (Novice Talent)
 *Disciplines:* 2 Protection · 1 Tactics · *Action:* Reaction · *Range:* 30 ft · *Keywords:* Support
 
-*Effect:* Once per encounter, when an enemy attacks an ally within 30 ft, you may spend your Reaction to make yourself the only target of that enemy's attacks this round and gain a Boon on your defense rolls against them. When you are dropped to 0 HP this round, you spend Grit as normal and roll on the Wound Table. Every ally who can see you gains a Boon on their next roll.
+*Novice:* Once per encounter, when an enemy attacks an ally within 30 ft, you may spend your Reaction to make yourself the only target of that enemy's attacks this round and gain a Boon on your defense rolls against them. When you are dropped to 0 HP this round, you spend Grit as normal and roll on the Wound Table. Every ally who can see you gains a Boon on their next roll.
 
-=== Nothing Holds Them (Talent)
+=== Nothing Holds Them (Novice Talent)
 *Disciplines:* 2 Protection · 1 Mind · *Action:* Reaction · *Range:* 30 ft · *Keywords:* Support
 
-*Effect:* When you or an ally within 30 ft would lose a turn to a condition, that creature ignores every condition on them until the end of their next turn and acts normally, and when that turn ends every condition they ignored lands on you for its remaining duration.
+*Novice:* When you or an ally within 30 ft would lose a turn to a condition, that creature ignores every condition on them until the end of their next turn and acts normally, and when that turn ends every condition they ignored lands on you for its remaining duration.
 
 #pagebreak()
 
