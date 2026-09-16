@@ -546,7 +546,7 @@ Most mechanical elements in _Heroes of Legend_ follow one of three card formats.
 
 Spells are the most structured. Every spell card answers the same questions in the same order.
 
-*Format:* `### Name (Cantrip | Arcane Spell | Divine Spell | Primal Spell)` then a single field line: `**Disciplines:** N Type · **Kit:** focus:arcane · **Action:** Action/Reaction/Maneuver · **Range:** Touch/30 ft/area · **Keywords:** ...` then *Weak:*, *Standard:*, *Strong:* outcomes. An Adept or Master card replaces the outcome block with a single *Effect:* line.
+*Format:* `### Name (Cantrip | Arcane Spell | Divine Spell | Primal Spell)` then a single field line: `**Disciplines:** N Type · **Requires:** focus:arcane · **Action:** Action/Reaction/Maneuver · **Range:** Touch/30 ft/area · **Keywords:** ...` then *Weak:*, *Standard:*, *Strong:* outcomes. An Adept or Master card replaces the outcome block with a single *Effect:* line.
 
 #figure(
   align(center)[#table(
@@ -554,7 +554,7 @@ Spells are the most structured. Every spell card answers the same questions in t
     align: (auto, auto,),
     table.header([Field], [Description],),
     [*Disciplines*], [The Disciplines required to learn this spell. e.g. "1 Fire" or "2 Fire". A card's tier sets the level it needs: Novice 1, Adept 3, Master 7. Max 3 ranks per type.],
-    [*Kit*], [The gear this card assumes, e.g. "focus:arcane", "focus:holy", or "weapon:two-hand". Many published cards carry no Kit field at all.],
+    [*Requires*], [The gear this card assumes, e.g. "focus:arcane", "focus:holy", or "weapon:two-hand". Many published cards carry no Requires field at all.],
     [*Action*], [What it costs from the turn economy: Action, Maneuver, or Reaction.],
     [*Range*], [How far the spell reaches: Touch, 30 ft, 60 ft, Self (15-ft cone), 20-ft radius, etc.],
     [*Keywords*], [Mechanics the card interacts with: Bane, Boon, Prone, Slowed, Piercing, DR, and so on.],

@@ -72,11 +72,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Encumbrance:* The slot system for the gear you carry. Slots are Carry Slots; one container at a time is exempt from them, and containers cannot be nested inside one another. See *Carry Slots*.
 
-*Kit:* Your hero's outfit: one option from each of the four lines, Armament, Covering, Focus, and Calling, bought with six kit points. A kit adds no numbers to your sheet. It grants permissions, the fiction of what you brought, and points left over for packs. See @sec-chapter-equipment
-
-*Kit Point:* The currency of the kit. Six at creation, plus one from a class's granted pack or from a talent that grants kit. Leftover points buy packs, one point each.
-
-*Pack:* A capability you carry, bought with a leftover kit point, such as the `climbing` pack or the `healer` pack. Every hero also has the free Adventurer's Pack. A pack is what you brought, not a shopping list.
+*Pack:* Gear you own, such as the `climbing` pack or the `healer` pack. A pack is a capability, not a shopping list. Every hero also has the free Adventurer's Pack.
 
 *Level:* Your hero's experience tier, from 1 to 10. Higher levels unlock Adept (Level 3) and Master (Level 7) abilities and grant attribute increases every 4 levels.
 
@@ -214,9 +210,9 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Concentration Spell:* A spell that requires ongoing focus, and you can maintain only one at a time. If you take damage while concentrating, make a Fortitude check: Standard or better on 3d6 + Fortitude holds the spell together, and you make that check again each time damage lands on you.
 
-*Arcane Focus:* An item (wand, staff, orb) that channels arcane magic. A spell whose card carries `focus:arcane` in its Kit field requires one.
+*Arcane Focus:* An item (wand, staff, orb) that channels arcane magic. A spell whose card carries `focus:arcane` in its Requires field requires one.
 
-*Holy Symbol:* An item (amulet, reliquary, sacred text) that channels divine magic. A spell whose card carries `focus:holy` in its Kit field requires one.
+*Holy Symbol:* An item (amulet, reliquary, sacred text) that channels divine magic. A spell whose card carries `focus:holy` in its Requires field requires one.
 
 *Attunement:* The bond between a hero and a magic item. Maximum 3 attuned items at a time. Artifacts, unique items of legend beyond even Legendary rarity, don't count against this limit.
 

@@ -12,7 +12,7 @@ _Placeholder for final art._
 
 Most talents are passive. They change your numbers or grant a standing benefit; a few are activated talents, and their card's Action field says so. Abilities are active. Spells, weapon maneuvers, and class powers must be activated to use. Both use the card format below.
 
-Every card lists its Disciplines, Action, Range, and Keywords, and some add a Kit field naming the gear the card needs (the kit vocabulary lives in @sec-chapter-equipment). A card's tier is the number of Disciplines on its header: none or one is Novice, two is Adept, and three is Master. That tier fixes the price (Novice 2 DP, Adept 4 DP, Master 8 DP) and it never changes; you never buy one card and grow it into another. The level gate is the only gate: Novice at level 1, Adept at level 3, Master at level 7, plus the card's own Discipline rank. See @sec-chapter-disciplines for tier, Discipline, and cost rules. See @sec-chapter-magic-system for casting rules.
+Every card lists its Disciplines, Action, Range, and Keywords, and some add a Requires field naming the gear the card needs (the tag vocabulary lives in @sec-chapter-equipment). A card's tier is the number of Disciplines on its header: none or one is Novice, two is Adept, and three is Master. That tier fixes the price (Novice 2 DP, Adept 4 DP, Master 8 DP) and it never changes; you never buy one card and grow it into another. The level gate is the only gate: Novice at level 1, Adept at level 3, Master at level 7, plus the card's own Discipline rank. See @sec-chapter-disciplines for tier, Discipline, and cost rules. See @sec-chapter-magic-system for casting rules.
 
 Bonuses from different talents stack. The same talent cannot be taken more than once.
 
@@ -112,7 +112,7 @@ These six talents are the substitution family. Only one substitution applies to 
 *Novice:* On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 14).
 
 === Arcane Reservoir (Talent)
-*Disciplines:* None · *Kit:* focus:arcane · *Action:* Passive · *Range:* Self · *Keywords:* Spell
+*Disciplines:* None · *Requires:* focus:arcane · *Action:* Passive · *Range:* Self · *Keywords:* Spell
 
 *Novice:* Once per session, cast a Master spell you know a second time.
 
@@ -122,7 +122,7 @@ These six talents are the substitution family. Only one substitution applies to 
 *Novice:* Once per session, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP.
 
 === Arcane Sensitivity (Talent)
-*Disciplines:* None · *Kit:* focus:arcane · *Action:* Passive · *Range:* Self · *Keywords:* Spell
+*Disciplines:* None · *Requires:* focus:arcane · *Action:* Passive · *Range:* Self · *Keywords:* Spell
 
 *Novice:* Boon on spell rolls for one Discipline you choose.
 
@@ -205,7 +205,7 @@ These five cards are the attacks every character can make, no Discipline require
 *Range.* A range written as two numbers, such as *60/120 ft*, is two bands. Within the first number you attack normally. Between the first number and the second you attack at a *Bane*. Beyond the second number the target is out of reach, and you cannot attack it at all. A single number, such as *30 ft*, is one band: you attack normally inside it and cannot reach past it.
 
 === Basic Melee (Basic Attack)
-*Disciplines:* None · *Kit:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage
+*Disciplines:* None · *Requires:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage
 
 *Weak:* 1 + Brawn damage.
 
@@ -214,7 +214,7 @@ These five cards are the attacks every character can make, no Discipline require
 *Strong:* 3 + Brawn damage.
 
 === Basic Two-Handed (Basic Attack)
-*Disciplines:* None · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage
+*Disciplines:* None · *Requires:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage
 
 *Weak:* 1 + Brawn damage.
 
@@ -223,7 +223,7 @@ These five cards are the attacks every character can make, no Discipline require
 *Strong:* 3 + Brawn damage.
 
 === Basic Archery (Basic Attack)
-*Disciplines:* None · *Kit:* weapon:ranged · *Action:* Action · *Range:* 60/120 ft · *Keywords:* Damage
+*Disciplines:* None · *Requires:* weapon:ranged · *Action:* Action · *Range:* 60/120 ft · *Keywords:* Damage
 
 *Weak:* 1 damage.
 
@@ -232,7 +232,7 @@ These five cards are the attacks every character can make, no Discipline require
 *Strong:* 3 damage.
 
 === Basic Thrown (Basic Attack)
-*Disciplines:* None · *Kit:* weapon:ranged · *Action:* Action · *Range:* 20/60 ft · *Keywords:* Damage
+*Disciplines:* None · *Requires:* weapon:ranged · *Action:* Action · *Range:* 20/60 ft · *Keywords:* Damage
 
 *Weak:* 1 damage.
 
@@ -241,7 +241,7 @@ These five cards are the attacks every character can make, no Discipline require
 *Strong:* 3 damage.
 
 === Basic Unarmed (Basic Attack)
-*Disciplines:* None · *Kit:* weapon:unarmed · *Action:* Action · *Range:* Melee · *Keywords:* Damage
+*Disciplines:* None · *Requires:* weapon:unarmed · *Action:* Action · *Range:* Melee · *Keywords:* Damage
 
 *Weak:* 1 + Brawn damage.
 
@@ -276,7 +276,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* +1 damage tier on your next weapon attack.
 
 === Cyclone (Weapon Maneuver)
-*Disciplines:* 3 Melee · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Area
+*Disciplines:* 3 Melee · *Requires:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Area
 
 *Weak:* Hit all adjacent enemies for 4 damage.
 
@@ -285,7 +285,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* Hit all adjacent enemies for 8 damage.
 
 === Cleave (Weapon Maneuver)
-*Disciplines:* 2 Melee · *Kit:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Chain
+*Disciplines:* 2 Melee · *Requires:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Chain
 
 *Weak:* Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage.
 
@@ -303,7 +303,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* +1 damage tier on your next weapon attack, and Piercing 3.
 
 === Shield Slam (Weapon Maneuver)
-*Disciplines:* 2 Shields · *Kit:* shield · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone, Push
+*Disciplines:* 2 Shields · *Requires:* shield · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone, Push
 
 *Weak:* Deal 4 damage and Push 5 ft.
 
@@ -366,7 +366,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* Two attacks, each dealing 4 damage (8 total).
 
 === Crushing Blow (Weapon Maneuver)
-*Disciplines:* 2 Two-Handed · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Prone
+*Disciplines:* 2 Two-Handed · *Requires:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Prone
 
 *Weak:* +1 damage tier on your next weapon attack.
 
@@ -375,7 +375,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* +1 damage tier on your next weapon attack; the target is Prone.
 
 === Executioner's Cut (Weapon Maneuver)
-*Disciplines:* 2 Melee · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Wounded
+*Disciplines:* 2 Melee · *Requires:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Wounded
 
 *Weak:* +1 damage tier against a wounded target.
 
@@ -384,7 +384,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* +1 damage tier against a wounded target.
 
 === Throw (Weapon Maneuver)
-*Disciplines:* 1 Ranged · *Kit:* weapon:ranged · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
+*Disciplines:* 1 Ranged · *Requires:* weapon:ranged · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
 
 *Weak:* Throw a weapon up to 30 ft at +1 damage tier.
 

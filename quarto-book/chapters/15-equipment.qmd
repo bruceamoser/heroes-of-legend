@@ -16,7 +16,7 @@ The tables in this chapter list weapons by required Disciplines, armor by weight
 
 #pagebreak()
 
-The tags a card can require are `weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`, `shield`, `focus:arcane`, `focus:holy` and `focus:primal`. A card that requires none of them carries no Kit field at all, and most cards do not. Only where the work itself needs the tool does the card ask for it.
+The tags a card can require are `weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`, `shield`, `focus:arcane`, `focus:holy` and `focus:primal`. A card that requires none of them carries no Requires field at all, and most cards do not. Only where the work itself needs the tool does the card ask for it.
 
 == Packs
 
