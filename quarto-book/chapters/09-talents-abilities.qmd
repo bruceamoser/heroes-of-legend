@@ -210,7 +210,7 @@ These four cards are the attacks every character can make, no Discipline require
 
 == Weapon Maneuvers
 
-Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each is gated by Disciplines: most by a weapon Discipline, and the rest by Armor, Protection, or Tactics. See @sec-chapter-combat for Action, Maneuver, and Reaction rules.
+Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each is gated by Disciplines: most by a weapon Discipline, and the rest by Armor, Shields, Protection, or Tactics. See @sec-chapter-combat for Action, Maneuver, and Reaction rules.
 
 A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Novice budget row (4/6/8), whatever Disciplines the card requires: a maneuver's Disciplines gate who may take it, not how hard it hits. Your weapon contributes no damage of its own: the card carries the numbers, exactly as it does for any other ability. See @sec-chapter-equipment
 
@@ -377,7 +377,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* The target is Prone, loses its Maneuver, and cannot stand again until the end of its next turn. A target that is already Prone is also Grappled and Restrained until it Escapes, and cannot Escape this round.
 
 === Shield Press (Weapon Maneuver)
-*Disciplines:* 1 Armor · *Action:* Action · *Range:* Melee · *Keywords:* Grapple, Control
+*Disciplines:* 1 Shields · *Action:* Action · *Range:* Melee · *Keywords:* Grapple, Control
 
 *Weak:* The target is Grappled until it Escapes. Against a Prone target it is Restrained instead, and its Escapes are at Bane.
 
