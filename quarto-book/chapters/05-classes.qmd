@@ -329,7 +329,7 @@ _"Together, we are unstoppable."_
 
 The Leader is a beacon of courage on the battlefield, leading from the front lines with valor and resolve. Keyed to Reason, your stirring speeches and tactical acumen rally allies to action, instilling confidence even in the face of adversity. Beyond command, you serve as mentor and confidant, recognizing and nurturing the potential within each member of your group. Driven by a clear vision and unwavering commitment, you guide your companions toward a brighter future. In your presence, unity flourishes.
 
-*Class Discipline (L1):* Tactics (1) + Shields (1)
+*Class Discipline (L1):* Tactics (1) + Shields (1). The Leader is a hybrid: your command draws on the martial discipline of Shields and the ward school of Protection, and you buy both at the rates printed on your sheet.
 
 *Signature, Lead by Example:* When you land a telling blow on an enemy, grant one ally who witnessed it a +2 bonus on their next roll. Your actions inspire greatness in others.
 
@@ -604,9 +604,9 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
     [*Read the Room*], [Novice], [1 Tactics], [As a Maneuver], [Once per scene, choose one enemy; allies gain +1 damage tier against it until your next turn.],
     [*Battle Cry*], [Novice], [1 Tactics], [As a Maneuver], [Once per scene, all allies within 30 ft gain +1 damage tier on their next attack.],
     [*Form Up*], [Novice], [1 Tactics], [As a maneuver], [One ally within 30 ft may immediately move up to half their speed without provoking reactions. Once per scene.],
-    [*Coordinated Strike*], [Adept], [1 Protection, 1 Melee], [When you hit an enemy], [The next ally to attack that enemy before your next turn deals +1 damage tier.],
+    [*Coordinated Strike*], [Adept], [1 Shields, 1 Melee], [When you hit an enemy], [The next ally to attack that enemy before your next turn deals +1 damage tier.],
     [*Flanking Order*], [Adept], [2 Tactics], [As a maneuver], [Choose one ally. Until your next turn, that ally deals +1 damage tier against enemies adjacent to you. Once per scene.],
-    [*Hold Together*], [Adept], [1 Protection, 1 Tactics], [When an ally within 30 ft takes damage], [Reduce that damage by 6. Once per scene.],
+    [*Hold Together*], [Adept], [1 Shields, 1 Tactics], [When an ally within 30 ft takes damage], [Reduce that damage by 6. Once per scene.],
     [*Last Stand*], [Master], [2 Protection, 1 Energy], [When you are reduced to 0 HP], [You remain standing for 1 additional round. All allies within sight gain a double Boon on all rolls and are immune to Frightened for that round.],
     [*Stalwart Resolve*], [Master], [2 Tactics, 1 Protection], [At the start of combat], [Allies who can see or hear you are immune to Frightened and gain a Boon on Morale checks for the encounter. Once per encounter.],
     [*Seize the Moment*], [Master], [2 Tactics, 1 Two-Handed], [When an ally reduces an enemy to 0 HP], [That ally immediately makes a free attack against another enemy within reach at +1 damage tier. Once per encounter.],
