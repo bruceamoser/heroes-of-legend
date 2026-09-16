@@ -363,7 +363,7 @@ _Placeholder for final art._
 *Strong:* 8 force damage; Push 15 ft; targets are Prone.
 
 === Ward of Iron (Arcane Spell)
-*Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Reaction · *Range:* Self · *Keywords:* DR
+*Disciplines:* 3 Energy · *Requires:* focus:arcane · *Action:* Reaction · *Range:* Self · *Keywords:* DR
 
 *Weak:* +1 DR against one attack.
 

@@ -578,7 +578,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
     align: (auto, auto, auto, auto, auto,),
     table.header([Ability], [Tier], [Disc Req], [Trigger], [Effect]),
     [*Bolstering Prayer*], [Novice], [1 Protection], [As an action], [One ally within 30 ft gains Boon on their next roll.],
-    [*Warding Touch*], [Novice], [1 Protection], [As a maneuver], [One adjacent ally gains +2 DR until the start of your next turn.],
+    [*Warding Touch*], [Novice], [1 Protection], [As a maneuver], [One adjacent ally gains +1 DR until the start of your next turn.],
     [*Gentle Mend*], [Novice], [1 Life], [As an action], [One ally within 30 ft heals 4 HP. Once per scene.],
     [*Beast's Watch*], [Novice], [1 Animal], [As a maneuver], [A friendly beast you see guards one ally. The next attack against that ally has Bane. Once per scene.],
     [*Sanctified Ground*], [Adept], [1 Protection, 1 Religion], [As an action], [Consecrate a 15-ft radius for 1 minute. Undead inside take 6 radiant damage per round. Allies heal 2 HP at the start of their turn.],
