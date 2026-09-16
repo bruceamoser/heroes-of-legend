@@ -20,7 +20,7 @@ Shields are different. A shield is not a passive number on your sheet, it is an 
 
 When you take physical damage, subtract your Damage Reduction (DR) from the damage value. The remainder is what you actually lose from your HP. A hit always lands for at least 1 damage, no matter how much DR you have. Simple.
 
-Your DR comes from one source at a time: your armor, a talent, or a spell. Armor's DR is set by its weight class: light 1, medium 2, heavy 3. Heavier armor is heavier in every sense, and in the kit builder it costs more points. If more than one source gives you DR, use the highest. Armor, talents, and wards do not add together.
+Your DR comes from one source at a time: your armor, a talent, or a spell. Armor's DR is set by its weight class: light 1, medium 2, heavy 3. Heavier armor is heavier in every sense. If more than one source gives you DR, use the highest. Armor, talents, and wards do not add together.
 
 *Shield DR is the exception.* DR from a shield source is *shield DR*. A shield item grants no number on its own; shield DR comes from a card, and Wall Shield and Ward of Faith are the only two printed sources. It adds to your DR from other sources, after the ceiling below. No combination of shield sources ever adds more than +3, so a second shield grant is worth nothing on top of the first.
 
