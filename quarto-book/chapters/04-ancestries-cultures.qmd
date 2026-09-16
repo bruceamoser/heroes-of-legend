@@ -39,9 +39,9 @@ The rules support any combination. The stories are yours to tell. Pick what exci
   align: (auto, auto, auto, auto,),
   table.header([Ancestry], [Discipline], [Trait], [You're Probably...],),
   [*Human*], [Any one], [*Versatile:* +1 DP at Level 0], [Ambitious, adaptable, everywhere],
-  [*Elf*], [Archery], [*Elven Grace:* once per session, reroll one die of your 3d6 roll], [Ancient, graceful, a little haunted],
-  [*Dwarf*], [Axes], [*Sturdy:* +2 maximum HP], [Resilient, tradition-bound, impossible to move],
-  [*Halfling*], [Blades], [*Lucky:* add one boon to any roll, once per session], [Quick, cheerful, underestimated],
+  [*Elf*], [Ranged], [*Elven Grace:* once per session, reroll one die of your 3d6 roll], [Ancient, graceful, a little haunted],
+  [*Dwarf*], [Melee], [*Sturdy:* +2 maximum HP], [Resilient, tradition-bound, impossible to move],
+  [*Halfling*], [Melee], [*Lucky:* add one boon to any roll, once per session], [Quick, cheerful, underestimated],
 )], kind: table, numbering: none, outlined: false)
 
 === Human
@@ -68,7 +68,7 @@ Elves live long enough to see mountains erode. They carry the weight of ancient 
 
 An elf who's walked the world for three centuries has seen every trick, every betrayal, every miracle twice. They don't rush. They don't panic. When the party is scrambling and the torches are guttering and everyone's yelling at once, the elf is the one leaning against the wall, waiting for the right moment. That moment always comes. Elves have the patience to wait for it.
 
-Elves receive the Archery Discipline, centuries of elven bows and patient eyes. Their *Elven Grace* lets them reroll one die of their 3d6 roll, once per session, centuries of practice distill into a single perfect moment.
+Elves receive the Ranged Discipline, centuries of elven bows and patient eyes. Their *Elven Grace* lets them reroll one die of their 3d6 roll, once per session, centuries of practice distill into a single perfect moment.
 
 _Common elf names:_ Aelindra, Caerwyn, Elowen, Faelan, Illyria, Lirael, Orin, Sylvara, Theron, Vaelith.
 
@@ -82,7 +82,7 @@ Dwarves are built like the mountains they call home, solid, enduring, and extrem
 
 Here's what you need to know about fighting alongside a dwarf: they will not retreat. They will not break. You can drop a ceiling on them and they'll crawl out of the rubble, dust off their beard, and ask if that's the best you've got. That +2 HP from Sturdy isn't just a number, it's a statement. Dwarves are harder to kill because they refuse to die.
 
-Dwarves receive the Axes Discipline, the hammer and cleaver of the mountain holds. Their *Sturdy* constitution grants +2 maximum HP, that's two more hits they can shrug off with a grunt.
+Dwarves receive the Melee Discipline, the hammer and cleaver of the mountain holds. Their *Sturdy* constitution grants +2 maximum HP, that's two more hits they can shrug off with a grunt.
 
 _Common dwarf names:_ Baldrek, Darin, Gorma, Haldra, Kazrik, Morin, Naldra, Rurik, Thaldrin, Ulfgar.
 
@@ -96,7 +96,7 @@ Halflings are small, quick, and possessed of an almost supernatural luck that ma
 
 I've watched a halfling pick a lock with a hairpin while a guard stood three feet away. I've seen a halfling talk a crime lord into retirement over a shared pipe and a bottle of something questionable. Halflings survive because the universe looks at them and thinks "what harm could they possibly do?", and by the time the universe realizes its mistake, the halfling is already three miles away with your wallet.
 
-Halflings receive the Blades Discipline, quick steel and quicker hands. Their *Lucky* trait lets them add one boon to any 3d6 roll, once per session. When the moment is desperate and the odds are against you, the universe cuts you a break. That's not luck. That's being a halfling.
+Halflings receive the Melee Discipline, quick steel and quicker hands. Their *Lucky* trait lets them add one boon to any 3d6 roll, once per session. When the moment is desperate and the odds are against you, the universe cuts you a break. That's not luck. That's being a halfling.
 
 _Common halfling names:_ Bramble, Cora, Dabney, Eglantine, Finn, Lottie, Makeva, Nettle, Pip, Rufus, Tansy.
 
@@ -118,8 +118,8 @@ Your culture is how you were raised. It's not just flavor, it's the skills and D
   align: (auto, auto, auto, auto,),
   table.header([Culture], [Skill Bonus], [Disciplines], [You Grew Up...],),
   [*Imperial*], [Persuasion or History], [Any one (free choice)], [In the heart of an empire. Politics, protocol, and the art of getting what you want with a smile. Imperial education is broad, you found your own path.],
-  [*Nomadic*], [Survival or Nature], [Archery + Polearms], [Following the herds, reading the stars. You can start a fire in a monsoon and never get lost. Bow for the hunt, lance for the fight.],
-  [*Coastal*], [Athletics or Survival], [Polearms + Shields], [Salt in your hair, sand between your toes. You swim before you walk. Harpoon in hand, shield on arm, the sea provides, but it also threatens.],
+  [*Nomadic*], [Survival or Nature], [Ranged + Two-Handed], [Following the herds, reading the stars. You can start a fire in a monsoon and never get lost. Bow for the hunt, lance for the fight.],
+  [*Coastal*], [Athletics or Survival], [Two-Handed + Shields], [Salt in your hair, sand between your toes. You swim before you walk. Harpoon in hand, shield on arm, the sea provides, but it also threatens.],
 )], kind: table, numbering: none, outlined: false)
 
 === Elf Cultures
@@ -128,9 +128,9 @@ Your culture is how you were raised. It's not just flavor, it's the skills and D
   columns: (18%, 24%, 26%, 32%),
   align: (auto, auto, auto, auto,),
   table.header([Culture], [Skill Bonus], [Disciplines], [You Grew Up...],),
-  [*High Elf*], [Arcana or History], [Energy + Blades], [Among spires of crystal and libraries of starlight. Raw magic flows through your education, and the blade dances in your hand.],
-  [*Wood Elf*], [Stealth or Nature], [Animal + Archery], [In forests so ancient the trees have opinions. You run with beasts, and your arrows find their mark before your prey knows you're there.],
-  [*Twilight Elf*], [Deception or Insight], [Water + Blades], [In the places between light and shadow. Your people walked away from the sun long ago, mastering the blade in darkness as cold and fluid as deep water.],
+  [*High Elf*], [Arcana or History], [Energy + Melee], [Among spires of crystal and libraries of starlight. Raw magic flows through your education, and the blade dances in your hand.],
+  [*Wood Elf*], [Stealth or Nature], [Animal + Ranged], [In forests so ancient the trees have opinions. You run with beasts, and your arrows find their mark before your prey knows you're there.],
+  [*Twilight Elf*], [Deception or Insight], [Water + Melee], [In the places between light and shadow. Your people walked away from the sun long ago, mastering the blade in darkness as cold and fluid as deep water.],
 )], kind: table, numbering: none, outlined: false)
 
 === Dwarf Cultures
@@ -139,8 +139,8 @@ Your culture is how you were raised. It's not just flavor, it's the skills and D
   columns: (18%, 24%, 26%, 32%),
   align: (auto, auto, auto, auto,),
   table.header([Culture], [Skill Bonus], [Disciplines], [You Grew Up...],),
-  [*Mountain*], [Craft or Athletics], [Armor + Axes], [In the high peaks, where the air is thin and the stone is stubborn. You forge steel and wear it like a second skin. Your axe is an heirloom; your armor, a resume.],
-  [*Deep*], [Endurance or Lore], [Axes + Shields], [In halls carved miles beneath the surface. Darkness is comforting. You fight in tight tunnels where there's no room for fancy footwork, just your axe, your shield-arm, and the stone at your back.],
+  [*Mountain*], [Craft or Athletics], [Armor + Melee], [In the high peaks, where the air is thin and the stone is stubborn. You forge steel and wear it like a second skin. Your axe is an heirloom; your armor, a resume.],
+  [*Deep*], [Endurance or Lore], [Melee + Shields], [In halls carved miles beneath the surface. Darkness is comforting. You fight in tight tunnels where there's no room for fancy footwork, just your axe, your shield-arm, and the stone at your back.],
   [*Hill*], [History or Persuasion], [Any one (free choice)], [In the foothills, trading with surface folk. You're the dwarf who explains dwarves to everyone else, you've picked up a little of everything.],
 )], kind: table, numbering: none, outlined: false)
 
@@ -150,8 +150,8 @@ Your culture is how you were raised. It's not just flavor, it's the skills and D
   columns: (18%, 24%, 26%, 32%),
   align: (auto, auto, auto, auto,),
   table.header([Culture], [Skill Bonus], [Disciplines], [You Grew Up...],),
-  [*Riverfolk*], [Acrobatics or Sleight of Hand], [Blades + Archery], [On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm. Dagger close, sling far, you're ready for whatever comes down the river.],
-  [*Burrower*], [Stealth or Survival], [Shields + Blades], [In cozy tunnels beneath the hills, hidden from big folk and their big problems. You know every root, every mushroom, every hidden exit. When trouble comes knocking, your blade is ready and your home is your fortress.],
+  [*Riverfolk*], [Acrobatics or Sleight of Hand], [Melee + Ranged], [On boats and barges, navigating rivers and trade routes. You can walk a gunwale in a storm. Dagger close, sling far, you're ready for whatever comes down the river.],
+  [*Burrower*], [Stealth or Survival], [Shields + Melee], [In cozy tunnels beneath the hills, hidden from big folk and their big problems. You know every root, every mushroom, every hidden exit. When trouble comes knocking, your blade is ready and your home is your fortress.],
   [*Wanderer*], [Insight or Performance], [Any one (free choice)], [On the road, in the caravans, telling stories for supper. Home is wherever you hang your hat. You've learned a little of everything.],
 )], kind: table, numbering: none, outlined: false)
 
