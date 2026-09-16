@@ -52,6 +52,35 @@ The talents below are general. Any class may take any of them, though a talent t
 
 *Novice:* You may use Agility for Brawn when applicable.
 
+=== Deft Hands (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
+
+*Novice:* You may use Guile for Agility when applicable.
+
+=== Field Reason (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
+
+*Novice:* You may use Reason for Knowledge when applicable.
+
+=== Streetwise (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
+
+*Novice:* You may use Guile for Knowledge when applicable.
+
+=== Steady Nerve (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
+
+*Novice:* You may use Fortitude for Reason when applicable.
+
+=== Bulk (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
+
+*Novice:* You may use Brawn for Agility when applicable.
+
+#callout(type: "note", title: "The Substitution Family", body: [
+These six talents are the substitution family. Only one substitution applies to a roll. If two would apply, the player chooses before rolling. A class feature may grant one of these cards free, so a future class gift is an instance of an existing card rather than a new rule.
+])
+
 === Weapon Focus (Talent)
 *Disciplines:* 1 chosen weapon Discipline · *Action:* Passive · *Range:* Self · *Keywords:* Damage
 
