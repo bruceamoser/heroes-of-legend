@@ -170,8 +170,8 @@ Pick the weapon that fits your hero, not the one that looks best on paper. They 
     align: (auto, auto, auto, auto,),
     table.header([Weapon], [Disciplines Required], [Properties], [Range],),
     [Unarmed], [None], [], [],
-    [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft (thrown)],
-    [Shortsword], [1 Blades], [Finesse, Light], [],
+    [Dagger], [1 Blades], [Light, Thrown], [20/60 ft (thrown)],
+    [Shortsword], [1 Blades], [Light], [],
     [Longsword], [2 Blades], [Versatile], [],
     [Greatsword], [2 Blades + 1 Heavy Weapon], [], [],
     [Handaxe], [1 Axes], [Light, Thrown], [20/60 ft (thrown)],
@@ -182,7 +182,7 @@ Pick the weapon that fits your hero, not the one that looks best on paper. They 
     [Maul], [3 Heavy Weapon], [], [],
     [Spear], [1 Polearms], [Reach, Thrown, Two-Handed], [20/60 ft (thrown)],
     [Halberd], [1 Polearms], [Reach, Two-Handed], [],
-    [Throwing Dagger], [1 Blades or 1 Archery], [Finesse, Thrown], [20/60 ft (thrown)],
+    [Throwing Dagger], [1 Blades or 1 Archery], [Thrown], [20/60 ft (thrown)],
     [Shortbow], [1 Archery], [Two-Handed], [60/120 ft],
     [Longbow], [1 Archery], [Two-Handed], [100/200 ft],
     [Crossbow], [1 Archery], [Loading, Two-Handed], [20/60 ft],
@@ -197,7 +197,7 @@ Your class starting kit assumes training with its gear: you can wield kit weapon
 ])
 
 #callout(type: "note", title: "Melee Damage", body: [
-Melee attacks add your Brawn to the damage row on your attack ability card; Finesse weapons use Agility instead. Missile and thrown attacks are flat, no attribute added. See @sec-chapter-talents-abilities for the cards and @sec-chapter-combat for the basic attack. The weapon never changes these numbers.
+Melee attacks add your Brawn to the damage row on your attack ability card. Missile and thrown attacks are flat, no attribute added. See @sec-chapter-talents-abilities for the cards and @sec-chapter-combat for the basic attack. The weapon never changes these numbers.
 
 Improvised weapons (a crowbar swung as a club, a hammer in a pinch) deal 1/1/2 + Brawn, the Basic Unarmed floor. A thrown improvised object counts as a thrown attack: 1/2/3 flat, no attribute.
 ])
@@ -205,13 +205,12 @@ Improvised weapons (a crowbar swung as a club, a hammer in a pinch) deal 1/1/2 +
 #callout(type: "note", title: "Discipline Combinations, Name Your Style", body: [
 Weapons don't just require more of the same Discipline, they require specific combinations. A Longsword needs _2 Blades_. A Greatsword needs _2 Blades + 1 Heavy Weapon_. Your Discipline choices describe the kind of fighter you are, and that description decides which attack ability cards you can reach. A hero with a Greatsword is a different person than a hero with a Dagger, not a bigger number. Name the style you want, then pick the combination that says it out loud. The cards you can reach are the fighting style you have chosen.
 
-*Heavy Weapon* Discipline represents training with large, two-handed weapons that rely on momentum and raw force rather than finesse. It opens the heaviest attack cards.
+*Heavy Weapon* Discipline represents training with large, two-handed weapons that rely on momentum and raw force rather than precision. It opens the heaviest attack cards.
 ])
 
 *Properties:*
 
 - *Versatile*, can be wielded two-handed (Longsword only)
-- *Finesse*, use Agility instead of Brawn for attack and damage (Dagger, Shortsword, Throwing Dagger)
 - *Reach*, can attack targets 10 ft away (Spear, Halberd)
 - *Thrown*, a weapon with this property counts as a ranged weapon when thrown (range 20/60 ft: Dagger, Handaxe, Spear, Throwing Dagger)
 - *Light*, can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe)

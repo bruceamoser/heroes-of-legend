@@ -370,8 +370,8 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   table.header([Weapon], [Disciplines], [Properties], [Range],),
   [Unarmed], [None], [], [Melee],
 
-  [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft],
-  [Shortsword], [1 Blades], [Finesse, Light], [Melee],
+  [Dagger], [1 Blades], [Light, Thrown], [20/60 ft],
+  [Shortsword], [1 Blades], [Light], [Melee],
   [Longsword], [2 Blades], [Versatile], [Melee],
   [Greatsword], [2 Blades + 1 Heavy Weapon], [], [Melee],
 
@@ -386,7 +386,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   [Spear], [1 Polearms], [Reach, Thrown, Two-Handed], [20/60 ft],
   [Halberd], [1 Polearms], [Reach, Two-Handed], [Melee],
 
-  [Throwing Dagger], [1 Blades or 1 Archery], [Finesse, Thrown], [20/60 ft],
+  [Throwing Dagger], [1 Blades or 1 Archery], [Thrown], [20/60 ft],
 
   [Shortbow], [1 Archery], [Two-Handed], [60/120 ft],
   [Longbow], [1 Archery], [Two-Handed], [100/200 ft],

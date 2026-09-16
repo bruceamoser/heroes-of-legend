@@ -499,7 +499,7 @@ Total: 8 DP. All spent.
 
 Total: 7 DP. All spent.
 
-*Class:* Blade. Gains 1 Blades, 1 Stealth. Signature: *Swift Blade*, use Agility instead of Brawn for blade attacks; exploiting an opening (a target that is Dazed, Prone, or unaware of you) deals +1 damage tier, once per scene.
+*Class:* Blade. Gains 1 Blades, 1 Stealth. Signature: *Swift Blade*, gain the Precision talent for free; exploiting an opening (a target that is Dazed, Prone, or unaware of you) deals +1 damage tier, once per scene.
 
 *Class DP (8 DP):*
 

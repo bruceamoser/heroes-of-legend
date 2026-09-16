@@ -151,7 +151,7 @@ Kael is a dwarf Blade, a fighter who has learned that the best way to protect hi
 
 _Kael grabs three dice. The table goes quiet. He shakes them in his hand, everyone has their ritual, and lets them fly._
 
-_Kael rolls:_ "Four, three, five. That's twelve. My *Agility* is +2, and a shortsword is Finesse. Total is fourteen."
+_Kael rolls:_ "Four, three, five. That's twelve. My *Agility* is +2. Total is fourteen."
 
 *Morgan:* "Fourteen is Standard. Your shortsword's Standard damage is 2, plus your Agility: 4."
 
