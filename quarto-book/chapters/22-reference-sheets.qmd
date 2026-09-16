@@ -382,7 +382,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   [Crossbow], [Ranged], [Loading, Two-Handed], [20/60 ft],
 )], kind: table, numbering: none, outlined: false)
 
-*The weapon never changes your damage. See @sec-chapter-talents-abilities for what a range of two numbers means, and @sec-chapter-equipment for weapons in full, including which are drawn from a starting kit.*
+*The weapon never changes your damage. See @sec-chapter-talents-abilities for what a range of two numbers means, and @sec-chapter-equipment for weapons in full.*
 
 *Defense summary:* Your Damage Reduction (DR) is the highest of your armor's DR (1 light, 2 medium, 3 heavy), a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. Shield DR is added after that ceiling, up to +3. Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields enable the Parry skill and the Shield Block reaction.
 
