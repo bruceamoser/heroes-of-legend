@@ -249,47 +249,47 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 === Holy Strike (Divine Spell)
 *Disciplines:* 1 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Radiant
 
-*Weak:* 2 radiant damage.
+*Weak:* 4 radiant damage.
 
-*Standard:* 4 radiant damage.
+*Standard:* 6 radiant damage.
 
-*Strong:* 6 radiant damage; +1 damage tier against undead.
+*Strong:* 8 radiant damage; +1 damage tier against undead.
 
 === Righteous Blow (Divine Spell)
 *Disciplines:* 1 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Boon, Bane
 
-*Weak:* 2 radiant damage.
+*Weak:* 4 radiant damage.
 
-*Standard:* 4 radiant damage; Boon on your next attack.
+*Standard:* 6 radiant damage; Boon on your next attack.
 
-*Strong:* 6 radiant damage; the target has Bane on its next attack.
+*Strong:* 8 radiant damage; the target has Bane on its next attack.
 
 === Divine Judgment (Divine Spell)
 *Disciplines:* 2 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Radiant
 
-*Weak:* 6 radiant damage.
+*Weak:* 5 radiant damage.
 
-*Standard:* 9 radiant damage.
+*Standard:* 8 radiant damage.
 
-*Strong:* 12 radiant damage; +1 damage tier against undead and fiends.
+*Strong:* 11 radiant damage; +1 damage tier against undead and fiends.
 
 === Pillar of Light (Divine Spell)
 *Disciplines:* 2 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 30-ft column · *Keywords:* Radiant
 
-*Weak:* 6 radiant damage (Agility or Dodge rank resists).
+*Weak:* 5 radiant damage (Agility or Dodge rank resists).
 
-*Standard:* 9 radiant damage.
+*Standard:* 8 radiant damage.
 
-*Strong:* 12 radiant damage; allies in the light regain 3 HP and gain Boon on their next roll, and undead and fiends take double damage from the pillar.
+*Strong:* 11 radiant damage; allies in the light regain 3 HP and gain Boon on their next roll, and undead and fiends take double damage from the pillar.
 
 === Radiant Beam (Divine Spell)
 *Disciplines:* 1 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 60-ft line · *Keywords:* Radiant
 
-*Weak:* 2 radiant damage (Agility or Dodge rank resists).
+*Weak:* 4 radiant damage (Agility or Dodge rank resists).
 
-*Standard:* 4 radiant damage.
+*Standard:* 6 radiant damage.
 
-*Strong:* 6 radiant damage; +1 damage tier against undead.
+*Strong:* 8 radiant damage; +1 damage tier against undead.
 
 === Turn Unholy (Divine Spell)
 *Disciplines:* 1 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 30-ft cone · *Keywords:* Morale check, Bane
@@ -370,11 +370,11 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 === Briar Wall (Divine Spell)
 *Disciplines:* 2 Plants · *Requires:* focus:primal · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Slowed, Restrained
 
-*Weak:* Creatures passing through take 6 piercing damage.
+*Weak:* Creatures passing through take 5 piercing damage.
 
-*Standard:* Creatures passing through take 9 piercing damage and are Slowed 5.
+*Standard:* Creatures passing through take 8 piercing damage and are Slowed 5.
 
-*Strong:* Creatures passing through take 12 piercing damage and are Restrained.
+*Strong:* Creatures passing through take 11 piercing damage and are Restrained.
 
 === Raise Cover (Primal Spell)
 *Disciplines:* 2 Plants · *Action:* Action · *Range:* 30 ft · *Keywords:* Terrain

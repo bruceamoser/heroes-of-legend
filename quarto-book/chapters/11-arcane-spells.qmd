@@ -168,20 +168,20 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 === Ember Lance (Arcane Spell)
 *Disciplines:* 1 Fire · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Piercing, Burning
 
-*Weak:* 2 fire damage.
+*Weak:* 4 fire damage.
 
-*Standard:* 4 fire damage; the lance passes through to one target behind for 2 fire damage.
+*Standard:* 6 fire damage; the lance passes through to one target behind for 2 fire damage.
 
-*Strong:* 6 fire damage; 4 fire damage to one target behind.
+*Strong:* 8 fire damage; 4 fire damage to one target behind.
 
 === Brimstone Burst (Arcane Spell)
 *Disciplines:* 2 Fire · *Requires:* focus:arcane · *Action:* Action · *Range:* 20-ft radius · *Keywords:* Burning
 
-*Weak:* 4 fire damage to all in the radius (Agility or Dodge rank resists).
+*Weak:* 5 fire damage to all in the radius (Agility or Dodge rank resists).
 
-*Standard:* 6 fire damage to all.
+*Standard:* 8 fire damage to all.
 
-*Strong:* 8 fire damage to all; the ground burns (Burning 4).
+*Strong:* 11 fire damage to all; the ground burns (Burning 4).
 
 === Wall of Cinders (Arcane Spell)
 *Disciplines:* 2 Fire · *Requires:* focus:arcane · *Action:* Action · *Range:* 30-ft wall · *Keywords:* None
@@ -195,22 +195,22 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 === Burning Volley (Arcane Spell)
 *Disciplines:* 1 Fire · *Requires:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* None
 
-*Weak:* 2 fire damage, split across three lances.
+*Weak:* 4 fire damage, split across three lances.
 
-*Standard:* 4 fire damage, split across three lances.
+*Standard:* 6 fire damage, split across three lances.
 
-*Strong:* 6 fire damage, split across three lances.
+*Strong:* 8 fire damage, split across three lances.
 
 == Water Spells
 
 === Frostbite Shard (Arcane Spell)
 *Disciplines:* 1 Water · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Slowed, Frozen
 
-*Weak:* 2 cold damage.
+*Weak:* 4 cold damage.
 
-*Standard:* 4 cold damage; the target is Slowed 5 for 1 turn.
+*Standard:* 6 cold damage; the target is Slowed 5 for 1 turn.
 
-*Strong:* 6 cold damage; the target is Slowed 5.
+*Strong:* 8 cold damage; the target is Slowed 5.
 
 === Rime Storm (Arcane Spell)
 *Disciplines:* 2 Water · *Requires:* focus:arcane · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Slowed, Frozen
@@ -235,11 +235,11 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 === Storm Javelin (Arcane Spell)
 *Disciplines:* 1 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* Bane
 
-*Weak:* 2 lightning damage.
+*Weak:* 4 lightning damage.
 
-*Standard:* 4 lightning damage; the target has Bane on its next attack.
+*Standard:* 6 lightning damage; the target has Bane on its next attack.
 
-*Strong:* 6 lightning damage; the target has Bane on its next 2 attacks; arcs to one adjacent target for half.
+*Strong:* 8 lightning damage; the target has Bane on its next 2 attacks; arcs to one adjacent target for half.
 
 === Forked Sky (Arcane Spell)
 *Disciplines:* 2 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
@@ -289,11 +289,11 @@ _Placeholder for final art._
 === Corrosive Spit (Arcane Spell)
 *Disciplines:* 1 Earth · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* DR
 
-*Weak:* 2 acid damage.
+*Weak:* 4 acid damage.
 
-*Standard:* 4 acid damage; the target's DR is reduced by 1 for 1 turn.
+*Standard:* 6 acid damage; the target's DR is reduced by 1 for 1 turn.
 
-*Strong:* 6 acid damage; the target's DR is reduced by 2.
+*Strong:* 8 acid damage; the target's DR is reduced by 2.
 
 === Caustic Mist (Arcane Spell)
 *Disciplines:* 2 Earth · *Requires:* focus:arcane · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Bane
@@ -336,22 +336,22 @@ _Placeholder for final art._
 === Venom Lance (Arcane Spell)
 *Disciplines:* 1 Plants · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
 
-*Weak:* 2 poison damage.
+*Weak:* 4 poison damage.
 
-*Standard:* 4 poison damage; Fortitude check or Bane.
+*Standard:* 6 poison damage; Fortitude check or Bane.
 
-*Strong:* 6 poison damage; Fortitude check or lose Maneuver.
+*Strong:* 8 poison damage; Fortitude check or lose Maneuver.
 
 == Energy Spells
 
 === Force Dart (Arcane Spell)
 *Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* None
 
-*Weak:* 2 force damage; never misses (the tier is still rolled).
+*Weak:* 4 force damage; never misses (the tier is still rolled).
 
-*Standard:* 4 force damage.
+*Standard:* 6 force damage.
 
-*Strong:* 6 force damage.
+*Strong:* 8 force damage.
 
 === Force Wave (Arcane Spell)
 *Disciplines:* 2 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 15-ft cone · *Keywords:* Prone, Push
@@ -369,7 +369,7 @@ _Placeholder for final art._
 
 *Standard:* +2 DR against one attack.
 
-*Strong:* +3 DR against one attack; the attacker takes 2 damage and the ward reflects 3 damage.
+*Strong:* +3 DR against one attack; the attacker takes 4 damage and the ward reflects 4 damage.
 
 This DR does not stack with any other source of DR.
 
@@ -403,11 +403,11 @@ This DR does not stack with any other source of DR.
 === Soul Drain (Arcane Spell)
 *Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
 
-*Weak:* 2 necrotic damage; heal half the damage.
+*Weak:* 4 necrotic damage; heal half the damage.
 
-*Standard:* 4 necrotic damage; heal half the damage.
+*Standard:* 6 necrotic damage; heal half the damage.
 
-*Strong:* 6 necrotic damage; heal 3; slay at 0 HP.
+*Strong:* 8 necrotic damage; heal 4; slay at 0 HP.
 
 === March of Bones (Arcane Spell)
 *Disciplines:* 2 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Boon

@@ -139,9 +139,9 @@ HP 16, DR 2.
 
 *Dagger:* 5/8/11.
 
-*Ember Lance:* 2/4/6 (at will).
+*Ember Lance:* 4/6/8 (at will).
 
-*Brimstone Burst:* 4/6/8 (once per encounter).
+*Brimstone Burst:* 5/8/11 (once per encounter).
 
 *Counterspell:* reaction to negate a spell.
 
