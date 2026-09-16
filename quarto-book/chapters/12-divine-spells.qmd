@@ -182,13 +182,13 @@ This DR does not stack with any other source of DR.
 === Ward of Faith (Divine Spell)
 *Disciplines:* 1 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* DR
 
-*Weak:* The target gains +1 DR for 1 turn.
+*Weak:* +1 shield DR to another creature you touch, until the start of your next turn.
 
-*Standard:* The target gains +2 DR for 2 turns.
+*Standard:* +1 shield DR to another creature you touch for 1 round.
 
-*Strong:* The target gains +3 DR for 3 turns; an attacker that hits the target takes 2 radiant damage.
+*Strong:* As standard, and one ally of the target within 10 ft also gains +1 shield DR.
 
-This DR does not stack with any other source of DR.
+The ward is shield DR, not a shield: it does not enable Shield Block, Parry, Wall Shield, or any other ability that requires a shield.
 
 === Sanctuary (Divine Spell)
 *Disciplines:* 1 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane

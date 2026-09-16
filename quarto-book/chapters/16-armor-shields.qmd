@@ -22,7 +22,7 @@ When you take physical damage, subtract your Damage Reduction (DR) from the dama
 
 Your DR comes from one source at a time: your armor, a talent, or a spell. Armor's DR is set by its weight class: light 1, medium 2, heavy 3. Heavier armor is heavier in every sense, and in the kit builder it costs more points. If more than one source gives you DR, use the highest. Armor, talents, and wards do not add together.
 
-*Shield DR is the exception.* DR from a shield source is *shield DR*. A shield item grants no number on its own; shield DR comes from a card, including any card that requires a shield. It adds to your DR from other sources, after the ceiling below. No combination of shield sources ever adds more than +3, so a second shield grant is worth nothing on top of the first.
+*Shield DR is the exception.* DR from a shield source is *shield DR*. A shield item grants no number on its own; shield DR comes from a card, and Wall Shield and Ward of Faith are the only two printed sources. It adds to your DR from other sources, after the ceiling below. No combination of shield sources ever adds more than +3, so a second shield grant is worth nothing on top of the first.
 
 *There is a ceiling.* Your total DR from armor, talents, and wards cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A hit must always be able to land for something, and the three tiers of a damage band have to stay distinct at every level. If DR could climb past that ceiling the roll would stop carrying information, and light, medium, and heavy armor would stop being three different choices. The highest source governs up to the ceiling, and no further. Shield DR is added after it.
 
