@@ -1,0 +1,121 @@
+{
+  "id": "f-005",
+  "round": 1,
+  "role": "researcher",
+  "topic": "t-03",
+  "stance": "support",
+  "argument": "The named catalog is removable, but the measurement says it is not a single-file deletion, and the consequence surface is larger than a table edit implies. Across the nine supplied chapters I count 80 catalog entries (79 named items plus the Unarmed category) defined at 13 separate table definitions spread over 3 files; 400 source lines that name at least one item, in all 9 of 9 files, with 644 name occurrences in total; 17 chapter crossrefs arriving from outside the equipment chapter, 9 of which are the class starting-kit lines; 9 of the reference chapter's 108 glossary headwords whose only job is to define catalog content; and 6 tables in the reference-sheet chapter that reprint 80 catalog rows, including the Discipline column that gates access by name. Removal also orphans rules whose only consumer is an item rather than a category: all seven weapon properties are defined by named-weapon lists, two of them (Versatile, Loading) by exactly one named weapon; six mount special traits each attach to one named mount; the shield Protection gate exists for three named shields; the donning-time list enumerates all eight named armors; Heavy Weapon rank 3 is demanded only by the Maul; Armor rank 3 only by Plate; and Axes ranks 1 and 2 are demanded only by the named axe rows, which makes Axes the one Discipline whose entire rank surface in these files is named gear. Twenty bestiary lines key a damage or DR number to a named weapon or armor, so removal changes monster math and not only prose, and one encumbrance figure names eight items. My measurement supports the purge as the correct direction, and fixes its price: the yes/no question is answered, but the remediation set is enumerated and non-trivial, and three of the ranks plus the bestiary lines must be settled as a balance decision rather than deleted as decoration. Instrument: two grep-only scripts written to the run directory, findings/_researcher-r1-verify.sh and findings/_researcher-r1-measure3.sh, both re-runnable verbatim by the orchestrator.",
+  "evidence": [
+    {
+      "source": "sources/15-equipment",
+      "claim": "The five named tables hold 77 rows: 17 weapons, 8 armor, 37 adventuring gear, 7 mounts, 8 vehicles. Command: grep -nE '^    \\[' 15-equipment | awk -F: '$1>=172 && $1<=188' | wc -l (17); same with 232-239 (8), 275-311 (37), 339-345 (7), 403-410 (8).",
+      "quote_or_excerpt": "[Unarmed], [None], [], [],\n    [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft (thrown)],\n    ...\n    [Warship], [200], [100 ft (sail)], [30], [200]\n  )],"
+    },
+    {
+      "source": "sources/16-armor-shields",
+      "claim": "The three named shields are prose, not a table, so a purge that keys on tables misses them. Command: grep -cE '^\\*(Buckler|Shield|Tower Shield):\\*' 16-armor-shields returns 3.",
+      "quote_or_excerpt": "*Buckler:* 1 Protection Discipline. Small, strapped to the forearm. Leaves your hand free for a second weapon or a wand."
+    },
+    {
+      "source": "sources/15-equipment",
+      "claim": "An identical eight-row armor table is printed three times, in the equipment chapter, the armor chapter, and the reference sheets. Command: grep -cE '^    \\[\\*(Padded|Leather|Studded Leather|Chain Shirt|Breastplate|Half Plate|Chain Mail|Plate)\\*\\], \\[(Light|Medium|Heavy)\\]' 15-equipment 16-armor-shields returns 8 and 8; the two-space-indent variant returns 8 in 22-reference-sheets.",
+      "quote_or_excerpt": "[*Padded*], [Light], [1], [2],\n    [*Leather*], [Light], [1], [2],\n    [*Chain Shirt*], [Medium], [2], [2],\n    [*Plate*], [Heavy], [3], [4],"
+    },
+    {
+      "source": "sources/15-equipment, sources/22-reference-sheets",
+      "claim": "The weapon table, the gear table, the mount table and the vehicle table each exist twice, once in the equipment chapter and once as a reference-sheet reprint, so the catalog has 13 definition sites in 3 files (armor 3, weapons 2, shields 2, gear 2, mounts 2, vehicles 2). Commands: grep -cE '\\[Dagger\\], \\[1 Blades\\]' 15-equipment 22-reference-sheets returns 1 and 1; likewise for 'Arcane Focus', 'Riding Horse', 'River Barge'.",
+      "quote_or_excerpt": "[Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft (thrown)],"
+    },
+    {
+      "source": "sources/22-reference-sheets",
+      "claim": "The reference-sheet chapter reprints the whole catalog as 6 tables totalling 80 rows (17 weapons, 8 armor, 3 shields, 37 gear, 7 mounts, 8 vehicles) out of 206 table rows in the chapter, and it reprints the gating column under the header [Disciplines]. Commands: grep -nE 'table.header' 22-reference-sheets; per-table row counts by line range.",
+      "quote_or_excerpt": "table.header([Weapon], [Disciplines], [Properties], [Range],),\n  [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft],"
+    },
+    {
+      "source": "sources/* (nine files)",
+      "claim": "Named items are named on 400 lines across all nine files, with 644 total name occurrences. Per-file line counts from 'for f in *; do grep -icE \"$W\" \"$f\"; done': 02=25, 05=22, 08=8, 15=126, 16=35, 17=55, 20=24, 21=17, 22=88. Total occurrences: grep -iohE \"$W\" * | wc -l returns 644.",
+      "quote_or_excerpt": "02-character-creation  25\n05-classes             22\n08-disciplines         8\n15-equipment           126\n16-armor-shields       35\n17-magic-items         55\n20-bestiary            24\n21-glossary            17\n22-reference-sheets    88\nN2b total lines\n400"
+    },
+    {
+      "source": "sources/02-character-creation, sources/05-classes",
+      "claim": "Eighteen loadout lines equip named items rather than categories: 9 class starting-kit lines in the classes chapter and 9 build-template or worked-example equipment lines in character creation. Commands: grep -cE '^\\*Starting Kit:\\*' 05-classes returns 9; grep -cE '^\\*Equipment:\\*' 02-character-creation returns 8, plus the worked-example line at 02:312.",
+      "quote_or_excerpt": "*Starting Kit:* Battleaxe, chain mail, shield, smith's tools.\n*Starting Kit:* Longbow, leather armor, shield, quiver of 20 arrows."
+    },
+    {
+      "source": "sources/02-character-creation",
+      "claim": "A class starting kit can equip a named item whose Discipline the same class does not grant, which is why a waiver rule is needed; the Protector's kit is the clearest case since Axes ranks are consumed nowhere else. Commands: grep -nE '^\\*Starting Kit:\\*' 05-classes; compare against the Axes rank references below.",
+      "quote_or_excerpt": "*Equipment:* Battleaxe, chain mail, shield, smith's tools."
+    },
+    {
+      "source": "sources/02-character-creation, sources/08-disciplines, sources/16-armor-shields",
+      "claim": "Of 7 example units in the nine files (4 headings, 2 inline markers, 1 titled callout), 3 equip a named item and 4 do not. Commands: grep -hcE '^== Worked Example:' * returns 4; grep -hcE '^\\*Example:\\*' * returns 2.",
+      "quote_or_excerpt": "== Worked Example: Makeva Quickfoot\n== Worked Example: Building a Fire Mage\n== Worked Example: Choosing Your Armor\n== Worked Example: Shield Block in Combat"
+    },
+    {
+      "source": "sources/16-armor-shields",
+      "claim": "The armor-choice worked example equips two named armors and does arithmetic on their DR and slot cost, so it breaks if the named table goes and is not restated in categories. Command: grep -nE '^\\*(Leather|Chain Mail):\\*' 16-armor-shields.",
+      "quote_or_excerpt": "*Leather:* Light, DR 1, 2 slots, 1 minute to don. Its covering costs 1 kit point, leaving 2 for packs.\n*Chain Mail:* Heavy, DR 3, 4 slots, 10 minutes to don. Its covering costs 3 kit points, leaving none."
+    },
+    {
+      "source": "sources/* (nine files)",
+      "claim": "Twenty crossreferences target the two definition chapters, 17 of them from outside the equipment chapter: 9 in the classes chapter, 3 in the reference sheets, 3 internal to the equipment chapter, 2 in the disciplines chapter, and 1 each in character creation, the armor chapter and the glossary. Command: grep -noE '@sec-chapter-(equipment|armor-shields)' * | grep -v '^15-equipment' | wc -l returns 17.",
+      "quote_or_excerpt": "      1 02-character-creation\n      9 05-classes\n      2 08-disciplines\n      3 15-equipment\n      1 16-armor-shields\n      1 21-glossary\n      3 22-reference-sheets"
+    },
+    {
+      "source": "sources/15-equipment, sources/16-armor-shields, sources/22-reference-sheets",
+      "claim": "No named table carries a label, so no crossreference can target a table; each of the three chapters has exactly one label and it belongs to the chapter. Command: grep -c '#label' 15-equipment 16-armor-shields 22-reference-sheets returns 1, 1, 1.",
+      "quote_or_excerpt": "4:#label(\"sec-chapter-equipment\")\n4:#label(\"sec-chapter-armor-shields\")\n4:#label(\"sec-chapter-reference-sheets\")"
+    },
+    {
+      "source": "sources/21-glossary",
+      "claim": "Nine of the glossary's 108 headwords exist to define catalog content rather than general rules, and 14 headword lines name a catalog item. Commands: grep -cE '^\\*[^*]+:\\*' 21-glossary returns 108; grep -cE '^\\*(Armor Weight Class|Versatile|Reach|Thrown|Light|Loading|Two-Handed|Arcane Focus|Holy Symbol):\\*' 21-glossary returns 9; filtered headword lines naming an item returns 14.",
+      "quote_or_excerpt": "*Versatile:* A weapon property. Can be wielded one- or two-handed (Longsword only).\n*Loading:* A weapon property. Requires a Maneuver to reload between shots (Crossbow only)."
+    },
+    {
+      "source": "sources/21-glossary",
+      "claim": "The armor-weight headword is a lookup index over all eight named armors, so the glossary entry is a second consumer of the named armor list. Command: grep -nE '^\\*Armor Weight Class:\\*' 21-glossary.",
+      "quote_or_excerpt": "*Armor Weight Class:* Armor comes in three weight classes: Light (Padded, Leather, Studded Leather), Medium (Chain Shirt, Breastplate), and Heavy (Half Plate, Chain Mail, Plate)."
+    },
+    {
+      "source": "sources/15-equipment, sources/21-glossary",
+      "claim": "All seven weapon properties are defined by enumerating named weapons, never categories; two of the seven name exactly one weapon as consumer (Versatile sees only the Longsword, Loading only the Crossbow). Command: sed -n '213,219p' 15-equipment.",
+      "quote_or_excerpt": "- *Versatile*, can be wielded two-handed (Longsword only)\n- *Loading*, requires a Maneuver to reload between shots (Crossbow only)\n- *Two-Handed*, must be held in both hands and takes 2 slots (Spear, Halberd, Shortbow, Longbow, Crossbow)."
+    },
+    {
+      "source": "sources/15-equipment",
+      "claim": "Each of the six mount special traits attaches to exactly one named mount, with no category-level equivalent; the riding horse carries no trait, so the trait rules have no consumer once the mount rows go. Command: grep -nE '.' 15-equipment | awk -F: '$1>=336 && $1<=345' prints the whole mount table.",
+      "quote_or_excerpt": "[*Warhorse*], [35], [50 ft], [500 lbs], [Trained for combat. Does not require Survival or Nature checks to control in battle.],\n[*Riding Dog*], [12], [40 ft], [100 lbs], [Keen Smell: ...],\n[*Mule*], [15], [30 ft], [400 lbs], [Stubborn: once per session, may reroll a failed check to resist being moved, frightened, or coerced.],"
+    },
+    {
+      "source": "sources/15-equipment, sources/22-reference-sheets",
+      "claim": "Heavy Weapon rank 3 is demanded by exactly one entry in the whole nine-file set, the Maul row, and that row is printed twice. Command: grep -nE '3 Heavy Weapon' * returns 15-equipment:182 and 22-reference-sheets:384 only.",
+      "quote_or_excerpt": "[Maul], [3 Heavy Weapon], [], [],\n  [Maul], [3 Heavy Weapon], [], [Melee],"
+    },
+    {
+      "source": "sources/08-disciplines",
+      "claim": "Armor rank 3 has exactly one consumer in the nine files, the Plate entry requirement stated in the disciplines chapter, so the rank is justified by one named item. Command: grep -nE '3 Armor' * returns 08-disciplines:192 only.",
+      "quote_or_excerpt": "Weapons, armor, and shields may list their own Discipline requirements as entry requirements: a Dagger needs 1 Blades, a Longsword 2 Blades, a Greatsword 2 Blades + 1 Heavy Weapon, a Tower Shield 2 Protection, and Plate 3 Armor."
+    },
+    {
+      "source": "sources/02-character-creation, sources/05-classes, sources/08-disciplines, sources/15-equipment, sources/21-glossary, sources/22-reference-sheets",
+      "claim": "Axes is the clearest dead-rank case: ranks 1 and 2 are demanded only by the three axe rows of the named weapon table and their reprint, rank 3 is demanded nowhere, yet the Discipline is granted by Dwarf ancestry and two cultures, priced in all nine class cost tables, and listed in the glossary discipline taxonomy. Commands: grep -nE 'Axes' * ; grep -nE '[0-9] Axes' *.",
+      "quote_or_excerpt": "[Handaxe], [1 Axes], [Light, Thrown], [20/60 ft (thrown)],\n    [Battleaxe], [2 Axes], [], [],\n    [Greataxe], [2 Axes + 1 Heavy Weapon], [], [],"
+    },
+    {
+      "source": "sources/20-bestiary",
+      "claim": "Twenty bestiary lines key a number to a named item: 15 per-weapon damage strings and 5 DR strings naming armor or a shield. The monster blocks carry no cards, so the named weapon is the only place the damage figure can live. Commands: grep -cE '^\\*(Dagger|Shortsword|Longsword|Greatsword|Handaxe|Battleaxe|Greataxe|Mace|Warhammer|Maul|Spear|Halberd|Shortbow|Longbow|Crossbow):\\*' 20-bestiary returns 15; grep -nE 'DR [0-9]+ \\((padded|leather|studded leather|chain shirt|breastplate|half plate|chain mail|plate|shield)' 20-bestiary returns 5.",
+      "quote_or_excerpt": "HP 14, DR 2 (chain shirt and a shield).\n*Greataxe:* 4/6/8 slashing.\n*Greatsword:* 7/10/14 slashing."
+    },
+    {
+      "source": "sources/15-equipment",
+      "claim": "The encumbrance rule's single worked figure names eight items, so the slot arithmetic example is bound to the named catalog. Command: sed -n '257p' 15-equipment | grep -ioE \"$W\" returns 8.",
+      "quote_or_excerpt": "A hero with Brawn +1 has 15 slots. A longsword (1 slot), a backpack (2 slots), a bedroll (2), a waterskin (1), torches (1), a quiver (1), and a dagger (1) is 9 slots."
+    },
+    {
+      "source": "sources/15-equipment, sources/16-armor-shields, sources/08-disciplines",
+      "claim": "Three separate waivers or gates exist only because named items gate access by Discipline: the kit-gear waiver in the equipment chapter, the shield requirement with its kit exception in the armor chapter, and the named entry-requirement paragraph in the disciplines chapter. All three become dead rules if equipment carries no permissions. Commands: grep -nE 'entry requirements|Discipline requirement' 08-disciplines 15-equipment 16-armor-shields.",
+      "quote_or_excerpt": "you can wield kit weapons and use kit armor and shields regardless of Discipline prerequisites\nyou need that many ranks in the Protection Discipline to wield it, unless it came in your class starting kit"
+    }
+  ],
+  "confidence": 0.9
+}

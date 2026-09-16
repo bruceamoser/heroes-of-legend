@@ -1,0 +1,61 @@
+{
+ "argument": "Refuted: weapon identity cannot live in the equipment tables' Discipline column, because the book already runs two permission models and they do not overlap. Model A gates gear on rank: 08:196 gives weapons, armour and shields Discipline entry requirements, 15:171 heads the weapon table's second column with them, and 16:60 states the shield numbers as ranks a wielder must hold. Model B releases gear: 15:196 waives the prerequisites for anything the class kit contains, and 15:163 makes the same claim as doctrine, giving permission to the ability cards and calling the weapon mere possession. Neither is written as an exception to the other, and they can avoid contradicting each other only if no gear sits outside a kit. None does: 15:15 says gear is not bought, 15:121 lands kit points as grants, and 15:131 rebuilds the whole kit in town. The one gap is the class kits themselves. The Protector's starting kit names a battleaxe and a shield (05:59) while its level-one grant is Armor plus a single weapon rank (05:53), so that class's own printed kit is unwieldable under Model A and legal only by the waiver; the same requirements are then restated in prose ten lines below the waiver (15:206). A reader will keep whichever rule lets them use the gear they were told to take, which means the requirement column is decoration and the enforcement claim in 07:114 is false. Ruling on t-03: weapon identity belongs on the card, as the Kit tag plus the Discipline the card header already names, which is where all ten gear-gated cards and the fifty-two focus cards already put it and where development points are actually spent. Smallest insertion: drop the requirement column from the weapon table (15:171) and reduce 08:196 to one sentence naming the governing Discipline for each weapon family; if the table model is kept instead, delete 15:196 and the clause in 16:60, and add one sentence to 15:131 saying what a hero spends to keep gear already carried.",
+ "confidence": 0.85,
+ "evidence": [
+  {
+   "claim": "The class kit waives Discipline prerequisites for weapons, armour and shields; the waiver is scoped to the class starting kit, so gear re-kitted at a town (15:131) is not covered.",
+   "quote_or_excerpt": "kit weapons and use kit armor and shields regardless of Discipline prerequisites",
+   "source": "quarto-book/chapters/15-equipment.qmd:196"
+  },
+  {
+   "claim": "Gear is given its own Discipline entry requirements, with sample values up to plate at three Armor.",
+   "quote_or_excerpt": "may list their own Discipline requirements as entry requirements",
+   "source": "quarto-book/chapters/08-disciplines.qmd:196"
+  },
+  {
+   "claim": "The Disciplines chapter reuses the same column header for card gates, so one phrase names two different gate kinds in two chapters.",
+   "quote_or_excerpt": "table.header([Card], [Disciplines Required], [Level Gate])",
+   "source": "quarto-book/chapters/08-disciplines.qmd:120"
+  },
+  {
+   "claim": "The equipment chapter's doctrine assigns permission to cards and calls the weapon mere possession, contradicting the requirement column in its own weapon table.",
+   "quote_or_excerpt": "Equipment is possession: the weapon in your hand",
+   "source": "quarto-book/chapters/15-equipment.qmd:163"
+  },
+  {
+   "claim": "The weapon table's second column carries rank values per weapon (Battleaxe two Axes, Maul three Heavy Weapon, Crossbow one Archery) and the requirement is restated in a prose callout after the waiver.",
+   "quote_or_excerpt": "[Weapon], [Disciplines Required] ... [Battleaxe], [2 Axes] ... [Maul], [3 Heavy Weapon]",
+   "source": "quarto-book/chapters/15-equipment.qmd:171,178,182,188,206"
+  },
+  {
+   "claim": "The shield rule repeats the gate and its own kit exception in one sentence.",
+   "quote_or_excerpt": "unless it came in your class starting kit",
+   "source": "quarto-book/chapters/16-armor-shields.qmd:60"
+  },
+  {
+   "claim": "The Protector is granted Armor plus one weapon rank while its printed starting kit names a battleaxe and a shield, so the class kit is legal only under the waiver.",
+   "quote_or_excerpt": "Armor (1) + 1 any Weapon | Battleaxe, chain mail, shield",
+   "source": "quarto-book/chapters/05-classes.qmd:53,59"
+  },
+  {
+   "claim": "A worked example in a chapter outside this run's supplied sources treats the gate as live permission to use a weapon at all; any solution keeping the waiver must rewrite it.",
+   "quote_or_excerpt": "so he may use it at all",
+   "source": "quarto-book/chapters/07-skills.qmd:114"
+  },
+  {
+   "claim": "Kits are the only route by which gear reaches a character, leaving the gate no non-kit object to bind.",
+   "quote_or_excerpt": "Gear is not bought | the whole kit is re-specified",
+   "source": "quarto-book/chapters/15-equipment.qmd:15,121,131"
+  },
+  {
+   "claim": "Instrumentation: each model marker occurs once, so no other surface resolves the conflict; the kit phrase appears in five places, three of them outside this run's sources.",
+   "quote_or_excerpt": "entry requirement -> 08-disciplines.qmd:196 (1 hit); regardless of Discipline -> 15-equipment.qmd:196 (1 hit); class starting kit -> 02:31, 02:210, 15:196, 16:60, 22:248 (5 hits)",
+   "source": "chapters/*.qmd (25 files, book-wide grep)"
+  }
+ ],
+ "id": "f-010",
+ "role": "editor-in-chief",
+ "round": 1,
+ "stance": "refute",
+ "topic": "t-03"
+}

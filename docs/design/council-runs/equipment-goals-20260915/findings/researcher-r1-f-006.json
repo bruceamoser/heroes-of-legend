@@ -1,0 +1,61 @@
+{
+ "argument": "A weapon decides more than the four things the brief lists. It fixes the geometry of an attack: the Reach property widens a threat envelope to ten feet, and the Range column of the weapons table feeds the two-band range rule whose outer band is attacked at a penalty. It fixes whether a beaten foe can be taken alive, because only melee attacks may be declared non-lethal. It fixes whether a defence the hero has already spent points on exists at all: Parry needs a weapon or shield in hand, Shield Block separately needs a shield, and the book's own worked example leaves a character unable to Parry for want of one. It fixes movement and hand occupancy: a Tower Shield costs five feet of speed, and a Buckler frees the hand for a second weapon or a wand, hand occupancy being the road to the focus-gated majority of the card layer. The brief's first item is itself incomplete: it records the Brawn-versus-Agility split on melee damage but omits that missile and thrown attacks add no attribute at all, so the ranged weapon is not merely a lesser melee weapon but a different damage formula. The brief's own scoring section concedes that consumers exist for six of the seven weapon properties, which its four-item list contradicts. Verdict: incomplete, and understated in one of the four it does carry.",
+ "confidence": 0.9,
+ "evidence": [
+  {
+   "claim": "Reach is a live rule site that extends a weapon's attack envelope to 10 ft.",
+   "quote_or_excerpt": "- *Reach*, can attack targets 10 ft away (Spear, Halberd)",
+   "source": "quarto-book/chapters/15-equipment.qmd:215"
+  },
+  {
+   "claim": "Ranges written as two numbers are two bands, and only the outer band is penalised - the weapons table's Range column therefore drives attack geometry.",
+   "quote_or_excerpt": "*Range.* A range written as two numbers, such as *60/120 ft*, is two bands. Within the first number you attack normally. Between the first number and the second you attack at a *Bane*. Beyond the second number the target is out of reach, and you cannot attack it at all. A single number, such as *30 ft*, is one band: you attack normally inside it and cannot reach past it.",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:171"
+  },
+  {
+   "claim": "Non-lethal is melee-only: a ranged attacker cannot capture.",
+   "quote_or_excerpt": "Ranged attacks and spells can't be made non-lethal. Arrows and fireballs don't do \"gentle.\" You can't ask a lightning bolt to hold back. Unless the spell specifically says otherwise (like _Sleep_), assume ranged and magic are lethal. If you want prisoners, put the bow away and draw steel.",
+   "source": "quarto-book/chapters/13-combat.qmd:300"
+  },
+  {
+   "claim": "Parry - a defence the hero pays DP for - is gated on holding a weapon or shield.",
+   "quote_or_excerpt": "Parry requires a weapon or shield in hand. A shield enables Parry and Shield Block, but never adds a roll bonus.",
+   "source": "quarto-book/chapters/13-combat.qmd:113"
+  },
+  {
+   "claim": "Shield Block is separately gated on wielding a shield.",
+   "quote_or_excerpt": "When you are hit by an attack, you may use your reaction to interpose your shield. Reduce the damage tier by one step: *Strong \u2192 Standard, Standard \u2192 Weak, Weak \u2192 1 damage.* You must be wielding a shield and be aware of the attack. Reactions in general are covered in @sec-chapter-combat",
+   "source": "quarto-book/chapters/16-armor-shields.qmd:70"
+  },
+  {
+   "claim": "The book's own worked example shows a character unable to Parry purely for want of a weapon or shield in hand.",
+   "quote_or_excerpt": "Lyra has Agility +2 and no Dodge or Parry ranks. With no weapon or shield in hand she cannot Parry, so she defends with raw Agility. She rolls 3d6 + 2 \u2212 1 = 3d6 + 1. Rolls 3, 4, 4 = 11 + 1 = 12. *Standard.* Dark Bolt Standard damage: 6 necrotic. Lyra has no armor. She takes 6 damage. The bolt of shadow slams into her shoulder, cold and wrong. She drops to 4 HP.",
+   "source": "quarto-book/chapters/13-combat.qmd:492"
+  },
+  {
+   "claim": "A Tower Shield changes movement - speed is a fifth consequence channel.",
+   "quote_or_excerpt": "*Tower Shield:* 2 Protection Discipline, half cover. A portable wall. You move at -5 ft speed while carrying it. You can plant it as a maneuver to grant full cover to one ally directly behind you.",
+   "source": "quarto-book/chapters/16-armor-shields.qmd:66"
+  },
+  {
+   "claim": "A Buckler changes hand occupancy, which is what makes a focus (and therefore 52 card gates) reachable.",
+   "quote_or_excerpt": "*Buckler:* 1 Protection Discipline. Small, strapped to the forearm. Leaves your hand free for a second weapon or a wand.",
+   "source": "quarto-book/chapters/16-armor-shields.qmd:62"
+  },
+  {
+   "claim": "Missile and thrown attacks add no attribute at all - the brief's item 1 omits this third branch.",
+   "quote_or_excerpt": "Melee attacks add your Brawn to the damage row on your attack ability card; Finesse weapons use Agility instead. Missile and thrown attacks are flat, no attribute added. See @sec-chapter-talents-abilities for the cards and @sec-chapter-combat for the basic attack. The weapon never changes these numbers.",
+   "source": "quarto-book/chapters/15-equipment.qmd:200"
+  },
+  {
+   "claim": "Two-Handed costs 2 slots, a slot-economy consequence outside the brief's four.",
+   "quote_or_excerpt": "- *Two-Handed*, must be held in both hands and takes 2 slots (Spear, Halberd, Shortbow, Longbow, Crossbow). Compare *Versatile*, which *may* be used two-handed)",
+   "source": "quarto-book/chapters/15-equipment.qmd:219"
+  }
+ ],
+ "id": "f-006",
+ "role": "researcher",
+ "round": 1,
+ "stance": "refute",
+ "topic": "t-02"
+}

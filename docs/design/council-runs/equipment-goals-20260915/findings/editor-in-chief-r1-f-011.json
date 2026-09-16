@@ -1,0 +1,46 @@
+{
+ "argument": "Refuted: measured against the book, the gear layer as written adds no development richness, because the two models price the same choice differently and the player cannot tell which price is real. Ten cards carry a weapon or shield Kit tag, all ten in one chapter (09), so ten cards is the entire expressive surface a weapon discipline opens, and four of them are the Basic attacks, which carry no Discipline requirement at all. Fifty-two card headers carry a focus tag. Only three cards ask for a two-handed weapon (09:236, 09:326, 09:335). Reaching those three through the table costs two Disciplines (two Axes plus one Heavy Weapon for a greataxe, 08:196, 15:206), while the same hero under the kit waiver pays nothing and gets the same three cards, having spent two of six kit points on the two-handed armament line (15:40, and the Unbalanced's recommended kit at 15:151). So a rank bought for gear is either a tax on the class kit the player was told to take or dead weight, depending on which model the reader picks, and the thirty-two point ladder cannot be planned against either. That is the development-richness failure: richness has to come from what a weapon lets a hero do on a card, which is where those ten cards already are, not from ranks spent to hold a weapon. If the waiver stands, price the weapon Discipline ladder against cards alone; if the table stands, every class kit in 05 must be regenerated so its printed gear is payable from its class grant, because the Protector's is not.",
+ "confidence": 0.78,
+ "evidence": [
+  {
+   "claim": "Four Basic attack cards carry gear Kit tags but no Discipline requirement, so the floor of the game is gated by gear rather than by training.",
+   "quote_or_excerpt": "*Disciplines:* None \u00b7 *Kit:* weapon:one-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:174,183,192,201"
+  },
+  {
+   "claim": "Only three cards in the book ask for a two-handed weapon, each behind a Discipline gate of its own.",
+   "quote_or_excerpt": "*Disciplines:* 3 Blades \u00b7 *Kit:* weapon:two-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:236,326,335"
+  },
+  {
+   "claim": "Of sixty-two card headers carrying a Kit field, fifty-two gate on a spellcasting focus and only ten on a weapon or shield: the weapon vocabulary is a tenth of the gear vocabulary.",
+   "quote_or_excerpt": "62 cards with a Kit field: 52 focus (arcane/holy/primal), 10 weapon or shield",
+   "source": "chapters/*.qmd (25 files, book-wide measurement)"
+  },
+  {
+   "claim": "A two-handed armament costs two of six kit points and is released by the waiver, so the same three cards are reachable for zero Disciplines.",
+   "quote_or_excerpt": "[Two-handed weapon], [2] | [Unbalanced], [Two-handed, light armour], [4]",
+   "source": "quarto-book/chapters/15-equipment.qmd:40,151,196"
+  },
+  {
+   "claim": "The Protector's level-one grant does not pay for its own printed kit: the battleaxe needs two Axes and the shield one Protection, neither covered by Armor plus one weapon rank.",
+   "quote_or_excerpt": "Armor (1) + 1 any Weapon | Battleaxe, chain mail, shield",
+   "source": "quarto-book/chapters/05-classes.qmd:53,59"
+  },
+  {
+   "claim": "Shields carry the same double price: one Protection rank to wield, waived if the shield came in the class kit.",
+   "quote_or_excerpt": "*Shield:* 1 Protection Discipline",
+   "source": "quarto-book/chapters/16-armor-shields.qmd:60,64"
+  },
+  {
+   "claim": "The requirement model is restated in prose in the same chapter that waives it, so the contradiction is not confined to a table cell.",
+   "quote_or_excerpt": "A Longsword needs _2 Blades_. A Greatsword needs _2 Blades + 1 Heavy Weapon_",
+   "source": "quarto-book/chapters/15-equipment.qmd:206"
+  }
+ ],
+ "id": "f-011",
+ "role": "editor-in-chief",
+ "round": 1,
+ "stance": "refute",
+ "topic": "t-01"
+}

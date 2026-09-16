@@ -1,0 +1,36 @@
+{
+ "argument": "The brief's damage-reduction invariant uses the right form and the wrong generation of numbers, and the correction changes what round two may assume. The form - three tiers survive flat subtraction only while DR stays under the band's Weak value - is sound in the no-floor case, and the brief's thresholds 2/6/9 are exactly the Weak column of the retired rows 2/4/6, 6/9/12, 9/15/21. Against the live rows the Weak column is 4/6/8. Three reference points fall out of the live table: the printed ceiling of 3/4/6 is one below the live Weak column, which is precisely the point past which a tier stops landing for at least one point of damage with no clamp; the first tie between tiers appears at 5/7/9; and all three tiers stop being distinguishable at 7/11/14. Two consequences the brief gets wrong. First, inside the range the printed ceiling admits, a flat weapon additive never collapses a band at all: the collapse threshold sits at 5/7/9 while the ceiling sits at 3/4/6, so the maximum permitted reduction subtracted from a shifted row still leaves three distinct tiers - at F=1 against DR 3 a Novice row resolves to 2/4/6. What a flat additive breaks is the ladder, not the band, and it breaks at +2: a Novice row at 6/8/10 takes the Weak tier outright from an Adept row at 5. Second, the undefended premise that flat subtraction is the only threat to the bands is false in the other direction: the collapsed band already exists in the shipped corpus, on a floor card - Basic Unarmed prints 1/1/2, where Weak and Standard are the same number, on one of the four cards that define the 1/2/3 floor the brief cites. The brief's census figures do hold: 10 weapon/shield-gated cards and 52 focus gates against 62 kit-gated cards, computed from the card headers, though 188 is a field count (178 header blocks carry a Disciplines line), so the honest denominator for gate share is 62, not 188.",
+ "confidence": 0.88,
+ "evidence": [
+  {
+   "claim": "Corrected DR reference points from the live table, versus the brief's retired inputs.",
+   "quote_or_excerpt": "Live rows N 4/6/8, A 5/8/11, M 7/10/14. (a) No-floor bound (every tier still lands for >=1): DR <= Weak-1 = 3/4/6 - this is the printed ceiling, so the design is one point stricter than the no-floor bound. (b) First tie between two tiers: N DR 5 -> 4-5,6-5,8-5 = 1,1,3 (clamped); A DR 7 -> 1,1,4; M DR 9 -> 1,1,5; i.e. onset = Standard-1 = 5/7/9. (c) All three indistinguishable: DR = Strong = 7/11/14. Brief's 2/6/9 = the Weak column of retired rows 2/4/6, 6/9/12, 9/15/21; live Weak column is 4/6/8.",
+   "source": "reasoning"
+  },
+  {
+   "claim": "A flat additive is absorbed by DR rather than collapsing the band; the binding failure is a ladder re-rate at +2.",
+   "quote_or_excerpt": "At F=1, DR=3, Novice: base 4/6/8 -> 5/7/9 -> minus DR -> 2/4/6. At F=1, DR=4: 1/3/5. At F=1 the ladder still holds against Adept (5/7/9 vs 5/8/11: 5<=5, 7<8, 9<11). At F=2: 6/8/10 vs Adept 5/8/11 -> 6>5, the Novice card now wins the Weak tier outright. So the ceiling on a flat weapon number is F=1, it binds on the ladder and never on the band, and at F=1 any DR>=1 cancels it.",
+   "source": "reasoning"
+  },
+  {
+   "claim": "A collapsed band already ships on a floor card, contradicting the brief's 1/2/3 floor statement.",
+   "quote_or_excerpt": "09:200 Basic Unarmed (Basic Attack), *Disciplines:* None, *Kit:* weapon:unarmed, parsed damage rows (Weak, Standard, Strong) = (1, 1, 2). Compare 09:173 Basic Melee = (1,2,3), 09:182 Basic Archery = (1,2,3), 09:191 Basic Thrown = (1,2,3), and the floor statement at 08:234 / 21:47.",
+   "source": "09-talents-abilities"
+  },
+  {
+   "claim": "The brief's gate census reproduces, but its denominator does not.",
+   "quote_or_excerpt": "Book-wide parse of '*Kit:*' values on card headers: focus 52 (arcane 32, holy 18, primal 2), weapon 9 (ranged 3, two-hand 3, one-hand 2, unarmed 1), shield 1, none 116. Weapon+shield = 10, focus = 52, kit-gated total = 62. Brief's '10 of 188' and '52 of 64' both reduce to the same 62-gate card surface with 116 header blocks carrying no kit tag; 188 is the count of the Disciplines field marker, not of gated cards.",
+   "source": "reasoning"
+  },
+  {
+   "claim": "The damage-band rule is printed once and the retired rows survive only inside card rows; a book-wide term search finds the retired triplets effectively absent as text.",
+   "quote_or_excerpt": "Term search over all chapters: '2/4/6' = 1 hit (20-bestiary), '6/9/12' = 0, '9/15/21' = 0. The retired set is therefore not a competing table in the text but thirteen individual card rows: (2,4,6) x11 (11:168, 11:195, 11:206, 11:235, 11:289, 11:336, 11:347, 11:401, 12:197, 12:206, 12:233) and (6,9,12) x2 (12:215, 12:224).",
+   "source": "15-equipment"
+  }
+ ],
+ "id": "f-022",
+ "role": "game-architect",
+ "round": 1,
+ "stance": "refute",
+ "topic": "problem-scoping"
+}

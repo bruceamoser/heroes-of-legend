@@ -1,0 +1,87 @@
+{
+ "argument": "The fork resolves the same way from both directions: put weapon identity in the permission layer, never in a magnitude. Two things follow, and both change what round 2 is allowed to build.\n\nFirst, the identity pillar is not 'weapons are flavour'. The shipped doctrine is the sentence printed directly under the weapon table - the weapon never changes your damage - reinforced by the kit chapter's law that a kit adds no number at all: no hit points, no damage, no bonus on any roll, only permission. So the pillar is 'weapons grant what you may attempt, cards grant how hard you hit'. That is a stronger and more defensible pillar than flavour, and it is load-bearing: the same mechanism that makes a weapon numberless is the mechanism that makes the three damage tiers mean anything, because tier is damage and DR subtracts flat. Any solution that answers the principal's suspicion by letting a weapon change how much does not adjust the pillar, it amputates it, and it switches off the defence roll with it. That is the pillar-cut nobody would notice, because a damage number on a weapon reads as an improvement rather than a removal. Flagging that is this lens's core duty here.\n\nSecond, the request's premise that weapons change almost nothing is an artefact of counting one channel and declaring the others absent. A weapon already decides which rank-gated attack cards a character can reach, through a Discipline-combination entry ladder the request's list of four consequences omits entirely; Finesse changes the attribute on the attack roll, not merely on damage; Reach changes the distance at which an attack is possible at all. Measured book-wide, the hero weapon tables assign no damage type to any row, while the bestiary already types the same named weapons for antagonists - a longsword is slashing for an NPC and untyped for a player. That asymmetry is the finding worth acting on: an empty permission slot the book itself built and half-filled.\n\nDevelopment richness fails for a reason the request does not name. The kit is declared a fourth development pillar, but its declared growth channel - a secondary kit and a rung at which one line is extended deeper - appears in the design reference and nowhere in the printed book: no secondary kit, no such rung, no seventh-level anything, across all 25 chapters. In print the kit is a creation-time choice, so of four declared pillars only three grow. Widening the card gate does not fix that; only shipping the growth channel does.\n\nSo: weapon identity belongs in the permission layer, and the cheapest correct home is the damage-type column the book already consumes but never populates for heroes. A type multiplies or halves rather than adds, so it dodges the DR ceiling and the level-gate corollary that forbids scaling gear values, and a weapon listed as a weapon is precisely where a weapon-shaped permission belongs. Adding a magnitude to a weapon is neither cheap nor correct.",
+ "confidence": 0.85,
+ "evidence": [
+  {
+   "claim": "The shipped doctrine of record is printed under the weapon table and is not a flavour claim: a weapon never changes damage. The pillar is 'weapons grant permission, never magnitude' - which is exactly the pillar a weapon damage number would remove.",
+   "quote_or_excerpt": "*The weapon never changes your damage. See @sec-chapter-talents-abilities for what a range of two numbers means, and @sec-chapter-equipment for weapons in full, including which are drawn from a starting kit.*",
+   "source": "quarto-book/chapters/22-reference-sheets.qmd:396"
+  },
+  {
+   "claim": "The equipment chapter states the same law for gear generally, and names the single permitted exception (the DR a covering buys). This is the sentence that makes a gear damage number a doctrine violation rather than a tuning question.",
+   "quote_or_excerpt": "A kit adds no number except the DR its covering buys. It grants no HP, no damage, and no bonus to any roll. What a kit grants is permission. It says which cards you can use, and it decides whether an attempt is fair or a long shot. If you need to know how hard you hit, look at your cards. If you need to know whether you can even try, look at your kit.",
+   "source": "quarto-book/chapters/15-equipment.qmd:23"
+  },
+  {
+   "claim": "A weapon does change what a character can do: the Discipline-combination entry ladder routes the weapon choice into the pool of rank-gated attack cards. The request's inventory of four weapon consequences omits this channel, which is the largest of them.",
+   "quote_or_excerpt": "Weapons don't just require more of the same Discipline, they require specific combinations. A Longsword needs _2 Blades_. A Greatsword needs _2 Blades + 1 Heavy Weapon_. Your Discipline choices describe the kind of fighter you are, and that description decides which attack ability cards you can reach. A hero with a Greatsword is a different person than a hero with a Dagger, not a bigger number. Name the style you want, then pick the combination that says it out loud. The cards you can reach are the fighting style you have chosen.",
+   "source": "quarto-book/chapters/15-equipment.qmd:206"
+  },
+  {
+   "claim": "The weapon table is structurally a permission table: its four columns are Weapon, Disciplines, Properties and Range, with no magnitude column anywhere, and every cell value is a statement about what may be attempted or how far.",
+   "quote_or_excerpt": "table.header([Weapon], [Disciplines], [Properties], [Range],)\n  [Unarmed], [None], [], [Melee],\n  [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft],\n  [Shortsword], [1 Blades], [Finesse, Light], [Melee],\n  [Greatsword], [2 Blades + 1 Heavy Weapon], [], [Melee],\n  [Maul], [3 Heavy Weapon], [], [Melee],",
+   "source": "quarto-book/chapters/22-reference-sheets.qmd:370-394"
+  },
+  {
+   "claim": "Two of the seven weapon properties change what a character can do rather than how much: Finesse swaps the attribute used on the attack roll itself, and Reach changes the distance at which an attack is possible. The request describes Finesse as affecting melee damage only, which understates the axis it is measuring.",
+   "quote_or_excerpt": "- *Finesse*, use Agility instead of Brawn for attack and damage (Dagger, Shortsword, Throwing Dagger)\n- *Reach*, can attack targets 10 ft away (Spear, Halberd)",
+   "source": "quarto-book/chapters/15-equipment.qmd:214-215"
+  },
+  {
+   "claim": "The printed book states the DR ceiling as 3 at Novice, 4 at Adept, 6 at Master, and explains it in the same terms the request uses for law 2 (the three tiers must stay distinct and the roll must keep carrying information). This is a third, different triple from the request's 2/6/9 and the design reference's 2/7/11.",
+   "quote_or_excerpt": "*There is a ceiling.* Your total DR cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A hit must always be able to land for something, and the three tiers of a damage band have to stay distinct at every level. If DR could climb past that ceiling the roll would stop carrying information, and light, medium, and heavy armor would stop being three different choices. Armor and training stack up to the ceiling, and no further.",
+   "source": "quarto-book/chapters/16-armor-shields.qmd:25"
+  },
+  {
+   "claim": "The design reference states the same invariant as a different triple (2 / 7 / 11). Three documents therefore give three different values for the single inequality the whole spine rests on: the printed book says 3/4/6, the request says 2/6/9, the design reference says 2/7/11. Any round-2 proposal that prices a weapon against this spine is pricing against an unsettled number.",
+   "quote_or_excerpt": "and Master land exactly, Novice sits one over, so a Novice in light armour floors a Weak hit. The\n   author ruled this knowingly; report the three post-DR values and let them stand.",
+   "source": ".hermes/councils/hol-rulebook/runs/20260915-1921/sources/design-kit-system:28-29"
+  },
+  {
+   "claim": "Damage type is a live rules axis with a three-term physical vocabulary and its own teaching paragraph in the combat chapter, so a weapon-type column would populate an existing structure rather than invent one.",
+   "quote_or_excerpt": "*Physical:* Slashing, Piercing, Bludgeoning. These are the bread and butter of combat. Swords slash, arrows pierce, hammers bludgeon. Most armor protects against all three equally, but some creatures care deeply about the distinction. Skeletons laugh at piercing arrows but crumble under bludgeoning maces.",
+   "source": "quarto-book/chapters/13-combat.qmd:148"
+  },
+  {
+   "claim": "The bestiary already assigns damage types to weapons in the same stat-line form, for the same named weapons, and already consumes types through monster vulnerabilities. The type axis is therefore populated for antagonists and empty for heroes - a dangling half-dependency, not an absence.",
+   "quote_or_excerpt": "*Longsword:* 4/6/8 slashing.\n*Shortbow:* 4/6/8 piercing (range 80/320).\n*Greatsword:* 7/10/14 slashing.\n*Vulnerable: Bludgeoning (takes double bludgeoning damage).*",
+   "source": "quarto-book/chapters/20-bestiary.qmd:170 and 20-bestiary.qmd:255"
+  },
+  {
+   "claim": "Scope-law instrumentation: no hero weapon table row in either the equipment chapter or the reference sheet carries a damage type. Counted 0 of the weapon rows in both files. This is a measured absence, and it is the measurement the request did not make - which is why it read the weapon's permission surface as nearly empty.",
+   "quote_or_excerpt": "output: 0\nexit code: 1\n(grep -c found no matching line)\n\nContrast, same instrumentation against the bestiary weapon stat lines: 7 carry a type, 5 do not.",
+   "source": "terminal: cd /home/bmoser/repos/heroes-of-legend/quarto-book/chapters && grep -rhoE '\\[[A-Z][a-z]+\\], \\[(None|[0-9] [A-Za-z]+[^]]*)\\], \\[[^]]*\\]' 15-equipment.qmd 22-reference-sheets.qmd | grep -icE 'slashing|piercing|bludgeoning'"
+  },
+  {
+   "claim": "The request's headline denominator counts markup occurrences, not cards: 188 total = 178 line-start card fields (134 rank-gated, 44 ungated) + 10 non-card occurrences (one field definition and seven magic-item stat lines in the magic-items chapter, one card-format spec and one worked example card in the GM chapter). The request's own partition, 141 gated + 45 ungated, sums to 186 rather than its stated 188, and 141 is reproducible only by counting the seven magic-item lines as if they were cards: 134 + 7 = 141. The 64/52/10 Kit figures reproduce exactly and are sound; the 188/141/45 row is not.",
+   "quote_or_excerpt": "TOTAL *Disciplines:* occurrences : 188\n  line-start card fields        : 178   (rank-gated: 134  None: 44 )\n  inline (non-line-start)       : 10\n       17-magic-items.qmd:27 | The Disciplines an item grants while at\n       17-magic-items.qmd:46 | 1 Fire\n       17-magic-items.qmd:102 | 1 Wind\n       ... 19-gm-guidance.qmd:549 | * N Type ...\n       ... 19-gm-guidance.qmd:618 | None ...\n  brief's table: 141 gated + 45 None = 186 != 188\n  reconstruction: 134 real cards + 7 ch17 item lines = 141",
+   "source": "terminal: python3 count of every *Disciplines:* occurrence book-wide over all 25 chapters of quarto-book/chapters"
+  },
+  {
+   "claim": "The design reference establishes two things the request does not carry. The card gate is deliberately selective, so a small number of weapon gates measures compliance with the design rather than failure of it - counting it cannot distinguish 'broken' from 'intentionally narrow'. And the kit is declared a fourth character-development pillar whose growth channel is a secondary kit plus a rung at which one line is extended deeper.",
+   "quote_or_excerpt": "**The gate is SELECTIVE, and most cards carry no Kit field at all** (Bruce's correction: \"not every\n   card has a kit gate, just where flavor and logic applies\") ... Blanket gating is the failure mode - it turns the kit from characterisation into\n\n2. **The kit is a fourth character-development pillar** covering weapons, armour, foci, holy symbols\n   and gear - a building mechanism, not a shopping list.\n\nPrimary and secondary kits at creation. At **L3 and L7** extend ONE line (deeper, not wider): a new",
+   "source": ".hermes/councils/hol-rulebook/runs/20260915-1921/sources/design-kit-system:72,76,166,29"
+  },
+  {
+   "claim": "Scope-law instrumentation: the fourth pillar's declared growth channel is absent from the printed book. Zero hits for 'secondary kit', zero for 'L7', zero for 'extend one line', across all 25 chapters. In print the kit is a creation-time choice only, so development richness fails on a channel the request never examines - and the kit's advancement rung is specified against a level the book's advancement ladder does not use.",
+   "quote_or_excerpt": "'secondary kit' hits: 0\n  'L7' hits: 0\n  'extend ONE line' hits: 0\n  chapters scanned: 25",
+   "source": "terminal: grep -ric 'secondary kit' / 'L7' / 'extend one line' over all 25 chapters of quarto-book/chapters"
+  },
+  {
+   "claim": "The book demonstrates that gear identity already carries real weight in the kit-point and slot economy rather than in numbers: a heavier armour that costs two more kit points and two more slots buys no additional protection, and the character takes the lighter one. Since a kit is six points and a focus is three, the armament choice competes directly with the focus and covering choices - a second permission channel the request's inventory does not count.",
+   "quote_or_excerpt": "With leather his total DR is 3. With chain mail it is also 3, because the ceiling holds at Novice: Iron Skin has already taken him to the limit, and heavier steel cannot push past it. That is the real trade. Chain mail costs two more kit points and two more slots and leaves him no harder to hurt. Roric takes the leather. He would rather carry the rope, keep his three points of protection, and be able to arm in a minute than pay twice over for the same wall and be slow to rise.",
+   "source": "quarto-book/chapters/16-armor-shields.qmd:86"
+  },
+  {
+   "claim": "The Discipline entry ladder is only partly load-bearing as written: a class starting-kit weapon bypasses the prerequisites while attack cards still demand their Disciplines, so the weapon-identity channel is applied unevenly between kit gear and purchased gear. Any solution that leans on this ladder must first settle that asymmetry.",
+   "quote_or_excerpt": "Your class starting kit assumes training with its gear: you can wield kit weapons and use kit armor and shields regardless of Discipline prerequisites. Attack ability cards still require their listed Disciplines, wielding a kit weapon does not grant the maneuvers that require them.",
+   "source": "quarto-book/chapters/15-equipment.qmd:196"
+  }
+ ],
+ "id": "f-001",
+ "rebutting": [],
+ "role": "librarian",
+ "round": 1,
+ "stance": "support",
+ "topic": "t-03"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "f-004",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Topic choice first, since all three were probed. t-01 is the weakest of the three cases because it is the only one that claims completeness, and completeness is falsifiable by a single counter-example. Its load-bearing premise is that a category label is a faithful stand-in for a specific object, on the grounds that the only facts an object carries are its cards' damage and its Discipline prerequisites. Both halves of that premise fail against the shipped text. The prerequisite half is moot for anything that arrives in a class kit, which the equipment chapter exempts from Discipline prerequisites. The damage half fails because the attribute on an attack is routed through the object's property: one property substitutes Agility for Brawn, while thrown and missile attacks are flat with nothing added. That leaves the categories unable to say what a hero actually brought or what numbers it produces. The strongest single counter-example is a bow: the property list files bows and crossbows as two-handed, and the armament line prices a ranged weapon at one point and a two-handed weapon at two, so the same object falls in two lines at two prices and the kit cannot be costed except by reading the per-item property column. A dagger (Agility, throwable at 20/60 flat), a longsword (Brawn, may go two-handed) and a mace (neither property) all sit in the same one-point one-handed slot. Probed A, B and C and found no counter-example to this one: no kit line, tag set or pack carries a per-item property, slot cost, attack mode or range band, and the property definitions themselves are bounded by naming the objects that have them. So the purge premise that the book has already made equipment pure flavour holds only for a single sentence in one chapter, while three other chapters still spend it as a permission gate and a number-shaping choice.",
+  "evidence": [
+    {
+      "source": "15-equipment",
+      "claim": "The armament line offers five category options, so no kit choice can record an individual property, attack mode, range band or slot cost.",
+      "quote_or_excerpt": "[*Armament*], [Unarmed], [0],\n    [], [One-handed weapon], [1],\n    [], [Ranged weapon], [1],\n    [], [One-handed weapon and shield], [2],\n    [], [Two-handed weapon], [2],"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The property list assigns Two-Handed to bows and crossbows, while the same chapter's armament line prices a ranged weapon at one point and a two-handed weapon at two, so an object can sit in two price lines and the kit can only be costed by consulting per-item properties.",
+      "quote_or_excerpt": "- *Two-Handed*, must be held in both hands and takes 2 slots (Spear, Halberd, Shortbow, Longbow, Crossbow). Compare *Versatile*, which *may* be used two-handed)"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "Seven weapon properties are enumerated by naming the objects that carry each one, and several of them impose positional, reload, off-hand or slot rules that a category cannot express.",
+      "quote_or_excerpt": "- *Finesse*, use Agility instead of Brawn for attack and damage (Dagger, Shortsword, Throwing Dagger)\n- *Reach*, can attack targets 10 ft away (Spear, Halberd)\n- *Loading*, requires a Maneuver to reload between shots (Crossbow only)"
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "The damage rules make a weapon property mechanically decisive: the property decides which attribute is added to a melee attack, while thrown and missile attacks are flat, so two objects in the same kit category produce different numbers on the same card.",
+      "quote_or_excerpt": "Melee attacks add Brawn to their attack card's damage row (Finesse weapons use Agility instead of Brawn for attack and damage; class features such as the Blade's Swift Blade can extend that substitution to other weapons). Missile weapons and ammunition are flat."
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "A separate chapter declares equipment Discipline requirements to be a gate in their own right, distinct from a card's tier, and enumerates the specific objects that carry them, which makes equipment a permission carrier rather than flavour.",
+      "quote_or_excerpt": "Weapons, armor, and shields may list their own Discipline requirements as entry requirements: a Dagger needs 1 Blades, a Longsword 2 Blades, a Greatsword 2 Blades + 1 Heavy Weapon, a Tower Shield 2 Protection, and Plate 3 Armor. See @sec-chapter-equipment and @sec-chapter-armor-shields A card's tier is separate from its equipment's entry requirement."
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "Shields carry a Protection rank requirement that applies to every shield outside a class kit, so possession without permission is an operating rule for anything the hero gains in play.",
+      "quote_or_excerpt": "The number before each shield is a Discipline requirement: you need that many ranks in the Protection Discipline to wield it, unless it came in your class starting kit (kit gear assumes training, see @sec-chapter-equipment)."
+    },
+    {
+      "source": "21-glossary",
+      "claim": "The glossary definitions of the weapon properties are extensional, each bound by naming the objects that have it, so the definitions depend on the named list surviving somewhere in the book.",
+      "quote_or_excerpt": "*Reach:* A weapon property. Can attack targets 10 ft away (Spear, Halberd).\n*Loading:* A weapon property. Requires a Maneuver to reload between shots (Crossbow only)."
+    },
+    {
+      "source": "22-reference-sheets",
+      "claim": "The reference sheet instructs players to record per-object properties and armor slot costs on the character sheet and reprints the named weapon table with its own range column, so per-item data has a second live surface.",
+      "quote_or_excerpt": "+ *Equipment:* Take your class starting kit and build it from the four kit lines. Record weapon properties and armor slots; your Damage Reduction is your armor's DR (1 light, 2 medium, 3 heavy) plus whatever your talents add."
+    },
+    {
+      "source": "05-classes",
+      "claim": "Every class's starting kit is written as a named list of objects that has to be resolved against the equipment chapter, so the book's own kit idiom is per-item rather than categorical.",
+      "quote_or_excerpt": "*Starting Kit:* Longsword, spear, leather armor, shield. See @sec-chapter-equipment for how kits are built and what your points buy."
+    },
+    {
+      "source": "reasoning",
+      "claim": "Worked collapse of the one-point one-handed slot: the objects the book places in it differ in attribute added, attack mode, range and off-hand legality, and two of them straddle the ranged and two-handed lines at different prices.",
+      "quote_or_excerpt": "Dagger = Finesse (Agility), Light (off-hand), Thrown (flat 20/60). Shortsword = Finesse (Agility), Light. Longsword = Versatile (may be Brawn two-handed). Mace / Warhammer / Battleaxe = no property. Handaxe = Light, Thrown. All priced identically as 'One-handed weapon, 1'. Shortbow / Longbow / Crossbow = ranged weapons at 1 point but carry the Two-Handed property at 2 points (and Crossbow also Loading), so their kit price is undetermined by the armament line alone. Melee is attribute-scaled (Brawn, or Agility for Finesse); thrown and missile are flat: same kit slot, different arithmetic."
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": []
+}

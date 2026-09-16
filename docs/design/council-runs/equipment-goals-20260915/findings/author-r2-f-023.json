@@ -1,0 +1,66 @@
+{
+ "argument": "Coalition B is right that the recipe is the route, and my three level-1 heroes show the recipe is not where the round-to-round decision lives. I built all three from the book's own kits and card lists. On a turn: Vess the Blade attacks twice because both her kit weapons are Light, for 7 at Standard; Halda the Protector-Axes attacks once for 4 with the kit battleaxe, the identical single-weapon number, and can grapple instead because 1 Armor is all Shield Press asks; Kor the Protector-Polearms attacks once for 4 from 10 ft because his spear carries Reach. Three different turns, and two of the three come from a property, not from the recipe. The recipe decides what you may buy, and at rank 1 the shelves are nearly bare: Axes holds zero cards, Polearms holds one, Blades holds four plus one at 1 Tactics. So the honest answer to where tactical choice comes from is two places, not one. It comes from the card the recipe unlocks, which is a build-time choice, and from the property the weapon carries, which is a per-turn choice. B should own both and stop letting properties read as prose. The book already agrees with B in print, equipment chapter: a greatsword hero and a dagger hero differ as people, and the style of fighting a hero owns is fixed by which cards that hero's Discipline profile puts within reach. My level-3 test is that sentence put on trial, and it passes for Blades and Polearms and fails for Axes. Axes rank 3 has no card, so an axe hero who spends one of his three lifetime ranks on it at level 6 buys nothing. B's claim of zero new weapon-gated cards cannot survive a Discipline that is empty at rank 1 and at rank 3. B's real repair is a card pool, and the good news is that cards in a Discipline are shared: a new Axes card serves the handaxe, the battleaxe and the greataxe, and the Dwarf who takes Axes from her bloodline. That is still B's cost advantage over A, but it is authoring, not a repointing.",
+ "confidence": 0.78,
+ "evidence": [
+  {
+   "claim": "Worked construction of three level-1 heroes from the book's own kits, their per-turn options, their level-3 sheet deltas and the cost ledger behind them.",
+   "quote_or_excerpt": "THREE LEVEL-1 HEROES, BUILT FROM THE BOOK'S OWN KITS.\nVESS, Blade. Class grant Blades (1) + Stealth (1) (05:29). Kit shortsword + dagger (05:104); both list 1 Blades (15:173, 15:174), so she is legal with no waiver. Signature Swift Blade uses Agility in place of Brawn (05:100). Take Agility +2. Basic Melee is 1/2/3 + attribute (09:176), so one weapon swings 3/4/5. Both her weapons are Light (15:217), so two-weapon fighting (13:290) adds an off-hand attack one tier lower: at Standard that is 4 + 3 = 7, at Strong 5 + 4 = 9. Rank-1 Blades cards she may buy: Pinpoint Strike, Dual Strike, Hamstring Cut, Open the Guard, plus Rolling Thunder if she spends 2 DP on Tactics 1 (09:514). Five options.\nHALDA, Protector. Class grant Armor (1) + 1 any Weapon (05:28); she takes 1 Axes. Kit battleaxe + chain mail + shield (05:59). The battleaxe lists 2 Axes (15:178) and she is rank 1, so she holds it only because the kit waiver releases kit gear from Discipline prerequisites (15:196). Rank-1 Axes cards available to her: ZERO. Axes carries no rank-1 card at all and only two cards in total, both rank 2. Take Brawn +2. Her Basic Melee is 3/4/5, the identical single-weapon number Vess gets. Her only other weapon-flavoured Action is Shield Press, which costs 1 Armor and no weapon tag (09:379).\nKOR, Protector, same chassis. He takes 1 Polearms and re-kits the battleaxe to a spear, which lists 1 Polearms (15:183) and carries Reach (15:184 is the Halberd pair at the same rank). Reach lets him attack targets 10 ft away (15:215), so his Basic Melee is 3/4/5 at a distance Halda cannot reach. Rank-1 Polearms cards: Long Spear Rebuke, one card (09:424). The spear is also printed Thrown, but Basic Thrown is tagged weapon:ranged (09:192) and the spear does not carry that tag, so nothing in the book lets him throw the weapon that says Thrown on it.\nTHE THREE TURNS. Vess attacks twice for 7 at Standard, or buys Restrained or Reaction-denial off her four rank-1 Blades cards. Halda attacks once for 4 and can grapple with Shield Press. Kor attacks once for 4 from 10 ft. Two of those three distinct turns come from a PROPERTY consumed by a rule outside the Discipline ladder (Light feeding 13:290, Reach feeding 15:215), not from the recipe.\nTHE LEVEL-3 TEST (rank at level 3 per 08:104 and 18:49). Vess writes Blades 2 and gains Riposte (09:217) and Parry (09:271), two Reactions on a sheet whose Reaction line was empty; she also clears the Adept gate and can buy Through the Blind Spot, which asks for 2 Blades and Stealth (09:469), both of which she has. FELT: yes. Kor writes Polearms 2 and gains Trip (09:289) and Brace (09:307); Trip at 10 ft is a sentence only the spear player gets to say. FELT: yes. Halda writes Axes 2 and gains one card, Cleave, whose rider only fires when a target drops to 0 HP and an enemy is adjacent (09:247); her second Axes card, Executioner's Cut, is gated to weapon:two-hand (09:335) and so needs a greataxe, which itself needs 2 Axes + 1 Heavy Weapon. FELT: thin at best, and Axes rank 3 contains no card at all, so her level-6 rank buys nothing.\nCOST LEDGER. Protector weapon rows: Blades 1/2/4, Axes 1/2/4, Polearms 1/2/4, Heavy Weapon 1/2/4 (05:72 to 05:76), Unarmed 1/2/4 (05:77), Archery 2/4/8 (05:75). Blade rows: Blades 1/2/4 (05:117), Archery 1/2/4 (05:120), Unarmed 1/2/4 (05:122), Polearms 2/4/8 (05:119), Axes 4/8/16 (05:118). Card depth by Discipline: Blades 11, Heavy Weapon 6, Archery 5, Polearms 4, Unarmed 4, Axes 2. Master weapon cards and their lateral demands: Harvest the Fear (3 Polearms + Tactics + Mind), Sunshot (3 Archery + Tactics + Stealth), Groundbreaker (3 Heavy Weapon + Tactics + Unarmed), Taken Alive (3 Unarmed + Tactics + Armor). Nine class cost tables exist, twelve rows each.",
+   "source": "reasoning"
+  },
+  {
+   "claim": "The equipment chapter already states B's architecture verbatim as doctrine: the weapon's Discipline combination is the fighting style, and the cards you can reach are that style. My hero test is this sentence on trial.",
+   "quote_or_excerpt": "A hero with a Greatsword is a different person than a hero with a Dagger, not a bigger number.",
+   "source": "quarto-book/chapters/15-equipment.qmd:206"
+  },
+  {
+   "claim": "Reach is a property with a live rule consumer that needs no new tag layer, which is the tactical verb Kor uses. He attacks 10 ft out while the axe hero cannot.",
+   "quote_or_excerpt": "- *Reach*, can attack targets 10 ft away (Spear, Halberd)",
+   "source": "quarto-book/chapters/15-equipment.qmd:215"
+  },
+  {
+   "claim": "Light is the second property with a live rule consumer; it is the whole source of Vess's two-attack turn, and it lives outside the Discipline ladder.",
+   "quote_or_excerpt": "The off-hand weapon must have the *Light* property (Dagger, Shortsword, Handaxe).",
+   "source": "quarto-book/chapters/13-combat.qmd:290"
+  },
+  {
+   "claim": "Basic Melee is a flat 1/2/3 plus one attribute, which is why the dagger duelist and the axe northerner come out at the same 3/4/5 in round 1. The number is not the differentiator.",
+   "quote_or_excerpt": "*Weak:* 1 + Brawn damage (Agility with a Finesse weapon).",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:176"
+  },
+  {
+   "claim": "The battleaxe demands 2 Axes, and Axes contains no rank-1 card, so the axe hero's weapon is a gate she cannot pay and a shelf with nothing on it.",
+   "quote_or_excerpt": "[Battleaxe], [2 Axes], [], [],",
+   "source": "quarto-book/chapters/15-equipment.qmd:178"
+  },
+  {
+   "claim": "Basic Thrown is tagged weapon:ranged while the spear is printed Thrown, so the spear's ranged option is printed on the weapon and unreachable in the rules. This is the satisfaction gap surfacing inside B's own layer.",
+   "quote_or_excerpt": "*Disciplines:* None \u00b7 *Kit:* weapon:ranged",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:192"
+  },
+  {
+   "claim": "Kor's level-3 gain, Trip: a Prone engine that he delivers at 10 ft because of Reach. This is the cleanest felt answer in the run to what a weapon made possible.",
+   "quote_or_excerpt": "*Weak:* The target is Prone.",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:292"
+  },
+  {
+   "claim": "Halda's only usable level-3 gain, Cleave, pays out only on a kill with an enemy adjacent, which is a thin felt answer for the one Discipline that has no rank-1 and no rank-3 card.",
+   "quote_or_excerpt": "*Weak:* Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage.",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:247"
+  },
+  {
+   "claim": "The axe Discipline's second and final card is gated to a two-handed armament, so Halda cannot use it with the battleaxe and needs a greataxe, which needs 2 Axes plus 1 Heavy Weapon, a different ladder.",
+   "quote_or_excerpt": "*Disciplines:* 2 Axes \u00b7 *Kit:* weapon:two-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:335"
+  },
+  {
+   "claim": "Discipline pools are shared assets, not single-weapon cards: the Dwarf ancestry already hands out Axes, so any card B authors there serves ancestry grantees as well as weapon wielders. This is the per-card leverage A's new tag layer cannot match.",
+   "quote_or_excerpt": "[*Dwarf*], [Axes], [*Sturdy:* +2 maximum HP],",
+   "source": "quarto-book/chapters/02-character-creation.qmd:66"
+  }
+ ],
+ "id": "f-023",
+ "role": "author",
+ "round": 2,
+ "stance": "support",
+ "topic": "t-03"
+}

@@ -1,0 +1,46 @@
+{
+ "argument": "Reproduced book-wide, the brief's headline figures are field counts rather than card counts, and the resolution turns on one definitional choice. The literal field marker for Disciplines occurs 188 times, dividing per file as 72 talents, 65 arcane, 40 divine, 8 in the magic-item chapter and 3 in the GM chapter. Nine of those are not cards in any sense: a format bullet and seven magic-item entries in chapter 17, plus a format legend in chapter 19. That leaves 179 card-shaped blocks; two of those are reprinted or fragmentary examples in the GM chapter rather than distinct new abilities, giving 177 distinct ability cards. The honest report is 177-179 depending on whether a reprinted example counts, with the criterion named. The Kit figure resolves more cleanly because only two of its hits are non-card: 64 line occurrences, of which 62 sit on card gate lines, the two extras being the chapter 19 legend and the chapter 21 glossary definition. Within those 62 the brief is exactly right and needs no correction at all: 52 gate on a casting focus (arcane 32, holy 18, primal 2) against 10 on a weapon or shield (two-hand 3, ranged 3, one-hand 2, unarmed 1, shield 1). The ratio the brief turns on - five focus gates for every weapon gate - survives verification untouched. Method: literal greps for both field markers across the chapters directory, per-file tallies, a value distribution over every Kit gate, and a hand audit of each non-card site. Peers reporting 185 or 186 have applied a different exclusion rule, not found a different book; the load-bearing split of 52 to 10 is agreed by every count taken.",
+ "confidence": 0.95,
+ "evidence": [
+  {
+   "claim": "Worked count book-wide: field totals, per-file tallies, the Kit gate value distribution, and the non-card inventory.",
+   "quote_or_excerpt": "grep -rc '*Disciplines:*' *.qmd -> 09:72 11:65 12:40 17:8 19:3 = 188 field occurrences\ngrep -rc '*Kit:*' *.qmd -> 09:12 11:30 12:20 19:1 21:1 = 64 field occurrences\ngrep -roh '*Kit:* [a-z:-]*' *.qmd | sed 's/.*\\*Kit:\\* //' | sort | uniq -c | sort -rn ->\n  32 focus:arcane / 18 focus:holy / 2 focus:primal / 3 weapon:two-hand / 3 weapon:ranged /\n  2 weapon:one-hand / 1 weapon:unarmed / 1 shield / 1 untagged\ntagged card gates = 62 (52 focus + 10 weapon-or-shield)\nnon-card Disciplines sites: 17:27 (format bullet), 17:46,102,126,212,256,280,328 (magic items), 19:549 (legend)\nreprinted/fragment card sites: 19:571, 19:618\nnon-card Kit sites: 19:549 (legend), 21:75 (glossary)\n=> 188 - 9 = 179 card-shaped blocks; 179 - 2 reprints = 177 distinct ability cards",
+   "source": "reasoning"
+  },
+  {
+   "claim": "The closed eight-tag vocabulary makes 'weapon or shield' gates countable against focus gates.",
+   "quote_or_excerpt": "The tags a card can require are `weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`, `shield`, `focus:arcane`, `focus:holy` and `focus:primal`. A card that requires none of them carries no Kit field at all, and most cards do not. Only where the work itself needs the tool does the card ask for it.",
+   "source": "quarto-book/chapters/15-equipment.qmd:25"
+  },
+  {
+   "claim": "Non-card site: this is a format legend, not a card header, so it is excluded from the gate count for both fields.",
+   "quote_or_excerpt": "*Format:* `### Name (Cantrip | Arcane Spell | Divine Spell | Primal Spell)` then a single field line: `**Disciplines:** N Type \u00b7 **Kit:** focus:arcane \u00b7 **Action:** Action/Reaction/Maneuver \u00b7 **Range:** Touch/30 ft/area \u00b7 **Keywords:** ...` then *Weak:*, *Standard:*, *Strong:* outcomes. An Adept or Master card replaces the outcome block with a single *Effect:* line.",
+   "source": "quarto-book/chapters/19-gm-guidance.qmd:549"
+  },
+  {
+   "claim": "Non-card Kit site: a glossary definition, not a card header.",
+   "quote_or_excerpt": "*Kit:* Your hero's outfit: one option from each of the four lines, Armament, Covering, Focus, and Calling, bought with six kit points. A kit adds no numbers to your sheet. It grants permissions, the fiction of what you brought, and points left over for packs. See @sec-chapter-equipment",
+   "source": "quarto-book/chapters/21-glossary.qmd:75"
+  },
+  {
+   "claim": "Non-card Disciplines site: a format bullet and seven magic-item entries - none is an ability card.",
+   "quote_or_excerpt": "- *Disciplines:* The Disciplines an item grants while attuned (see Discipline Items below). These count as learned Disciplines for prerequisites.",
+   "source": "quarto-book/chapters/17-magic-items.qmd:27"
+  },
+  {
+   "claim": "A fragmentary card line reproduced as an example in GM guidance - not a distinct new ability.",
+   "quote_or_excerpt": "*Disciplines:* 2 Fire \u00b7 *Action:* Action \u00b7 *Range:* 20-ft radius \u00b7 *Keywords:* Burning",
+   "source": "quarto-book/chapters/19-gm-guidance.qmd:571"
+  },
+  {
+   "claim": "A reprinted cantrip inside a quote block - the second reason a strict card count lands at 177 rather than 179.",
+   "quote_or_excerpt": "#quote[*Spark (Cantrip).* *Disciplines:* None \u00b7 *Action:* Action \u00b7 *Range:* 30 ft \u00b7 *Keywords:* None. *Weak:* The object smolders. It may catch fire after 1 round if left alone. *Standard:* Immediate ignition. The object catches fire and burns normally. *Strong:* The flame leaps. Adjacent flammable objects also catch fire.]",
+   "source": "quarto-book/chapters/19-gm-guidance.qmd:618"
+  }
+ ],
+ "id": "f-007",
+ "role": "researcher",
+ "round": 1,
+ "stance": "support",
+ "topic": "problem-scoping"
+}

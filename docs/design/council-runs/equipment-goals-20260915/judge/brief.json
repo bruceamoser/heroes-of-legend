@@ -1,0 +1,1117 @@
+{
+ "assembled_at": "2026-09-15T20:59:21Z",
+ "wall": {
+  "ngram_n": 10,
+  "reject_at": 1
+ },
+ "contested_topics": {
+  "problem-scoping": {
+   "positions": {
+    "Speaker B": "refute",
+    "Speaker C": "support",
+    "Speaker D": "support",
+    "Speaker E": "refute",
+    "Speaker F": "refute"
+   },
+   "findings": [
+    {
+     "id": "f-005",
+     "round": 1,
+     "speaker": "Speaker B",
+     "stance": "refute",
+     "argument": "Three corrections to the problem brief before two coalitions are built on it. (1) The DR invariant, which the whole t-03 fork turns on, is stated three mutually incompatible ways: the brief requires DR to stay at or under the band's Weak figure, 2 for Novice, 6 for Adept and 9 for Master, the design reference says 'the damage-band invariant of 2 / 7 / 11', and the shipped book says 3 / 4 / 6 (16:25, 20:659). The brief's rule text does not even yield its own numbers - the Weak values are 4/5/7 - and its Master figure of 9 is unsound: against the Master band 7/10/14, DR 9 leaves 1/1/5, collapsing Weak and Standard into the same number, which is the precise failure the brief forbids. The true boundary for three distinct post-subtraction tiers is DR <= Standard - 1, i.e. 4 / 6 / 8 - which agrees with the brief only at Adept. (2) The brief's own headline table does not add up: 141 rank-gated + 45 gated 'None' = 186, not 188. My independent instrument over the whole chapters directory counts 185 blocks carrying a Disciplines field (not 188), of which 62 carry a usable Kit gate (not 64) - the two extras in 64 are the ch21 glossary definition of '+Kit:+' (21:75) and the ch19 card-format demonstration line (19:549), the exact class of error section 7 of this brief warns about. The load-bearing ratio reproduces exactly: 52 focus (arcane 32, holy 18, primal 2) against 10 weapon/shield (two-hand 3, ranged 3, one-hand 2, unarmed 1, shield 1), so the conclusion survives correction and must be quoted with the corrected auxiliaries. (3) The brief's consequence list for 'which weapon?' is incomplete: it omits Weapon Focus (09:50), which grants a Boon on attack rolls with every weapon of a chosen weapon Discipline, so weapon identity also moves hit probability, not just damage - and because that Boon is free with possession of any weapon in the Discipline, it simultaneously proves the brief's point that the weapon carried matters less than the Discipline bought.",
+     "confidence": 0.9,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "briefs/round-01/contrarian.json (problem_brief, section 4 law 2)",
+       "claim": "The brief's DR invariant formula and its numbers disagree with each other, and with the book and the design reference."
+      },
+      {
+       "source": "quarto-book/chapters/16-armor-shields.qmd:25 and 20-bestiary.qmd:659",
+       "claim": "The shipped ceiling is 3/4/6, i.e. the book's own number - a third formulation, incompatible with both the brief's 2/6/9 and the design reference's 2/7/11."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Computed distinctness boundary, and the collapse of the brief's Master figure."
+      },
+      {
+       "source": "quarto-book/chapters/*.qmd (book-wide card census, cwd chapters/)",
+       "claim": "Card-level counts do not reproduce the brief's 188/64; they reproduce 185/62. Instrumented over the whole chapters directory."
+      },
+      {
+       "source": "quarto-book/chapters/21-glossary.qmd:75 and 19-gm-guidance.qmd:549",
+       "claim": "The two non-card lines that inflate the brief's Kit count to 64, one of which also states the no-numbers law verbatim."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:50-53",
+       "claim": "A fifth consequence of weapon identity that the brief's list of four omits: a talent that grants a Boon on attacks with a whole weapon Discipline."
+      }
+     ]
+    },
+    {
+     "id": "f-007",
+     "round": 1,
+     "speaker": "Speaker C",
+     "stance": "support",
+     "argument": "Reproduced book-wide, the brief's headline figures are field counts rather than card counts, and the resolution turns on one definitional choice. The literal field marker for Disciplines occurs 188 times, dividing per file as 72 talents, 65 arcane, 40 divine, 8 in the magic-item chapter and 3 in the GM chapter. Nine of those are not cards in any sense: a format bullet and seven magic-item entries in chapter 17, plus a format legend in chapter 19. That leaves 179 card-shaped blocks; two of those are reprinted or fragmentary examples in the GM chapter rather than distinct new abilities, giving 177 distinct ability cards. The honest report is 177-179 depending on whether a reprinted example counts, with the criterion named. The Kit figure resolves more cleanly because only two of its hits are non-card: 64 line occurrences, of which 62 sit on card gate lines, the two extras being the chapter 19 legend and the chapter 21 glossary definition. Within those 62 the brief is exactly right and needs no correction at all: 52 gate on a casting focus (arcane 32, holy 18, primal 2) against 10 on a weapon or shield (two-hand 3, ranged 3, one-hand 2, unarmed 1, shield 1). The ratio the brief turns on - five focus gates for every weapon gate - survives verification untouched. Method: literal greps for both field markers across the chapters directory, per-file tallies, a value distribution over every Kit gate, and a hand audit of each non-card site. Peers reporting 185 or 186 have applied a different exclusion rule, not found a different book; the load-bearing split of 52 to 10 is agreed by every count taken.",
+     "confidence": 0.95,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "reasoning",
+       "claim": "Worked count book-wide: field totals, per-file tallies, the Kit gate value distribution, and the non-card inventory."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:25",
+       "claim": "The closed eight-tag vocabulary makes 'weapon or shield' gates countable against focus gates."
+      },
+      {
+       "source": "quarto-book/chapters/19-gm-guidance.qmd:549",
+       "claim": "Non-card site: this is a format legend, not a card header, so it is excluded from the gate count for both fields."
+      },
+      {
+       "source": "quarto-book/chapters/21-glossary.qmd:75",
+       "claim": "Non-card Kit site: a glossary definition, not a card header."
+      },
+      {
+       "source": "quarto-book/chapters/17-magic-items.qmd:27",
+       "claim": "Non-card Disciplines site: a format bullet and seven magic-item entries - none is an ability card."
+      },
+      {
+       "source": "quarto-book/chapters/19-gm-guidance.qmd:571",
+       "claim": "A fragmentary card line reproduced as an example in GM guidance - not a distinct new ability."
+      },
+      {
+       "source": "quarto-book/chapters/19-gm-guidance.qmd:618",
+       "claim": "A reprinted cantrip inside a quote block - the second reason a strict card count lands at 177 rather than 179."
+      }
+     ]
+    },
+    {
+     "id": "f-013",
+     "round": 1,
+     "speaker": "Speaker D",
+     "stance": "support",
+     "argument": "Supported with corrections: the brief's four weapon claims resolve, but three of its measurement rows do not, and a round-two solution that cites them inherits the error. Resolved: 15:200 is the melee damage callout, where Finesse users add Agility instead of Brawn (the Finesse property at 15:214 says attack and damage, so the brief understates the swap's scope); 13:270-292 is Two-Weapon Fighting, which requires the Light property on the off-hand weapon; 15:218 is Loading, one Maneuver to reload, echoed in the glossary at 21:135; and ten cards do gate on a weapon or shield, all ten in 09, four of them the Basic attacks with no Discipline requirement. Not verified. The row Standalone cards 188 counts occurrences of the Disciplines field; that total includes seven Discipline-granting magic items in 17, a field-definition bullet at 17:27 and a format legend at 19:549, while line-start card headers number 178 (134 gated, 44 ungated), so the brief's own rows of 141 and 45 sum to 186, not 188. The row Cards carrying a Kit: field 64 is 64 lines over 62 cards, the two extras being the 19:549 legend and the glossary definition at 21:75; the brief's own split of 52 and 10 confirms 62. The stated DR invariant parenthetical, Novice 2, Adept 6, Master 9, appears in none of the 25 chapters: the live ceiling is 3, 4 and 6, printed in five surfaces (16:25, 20:659, 20:665, 21:117, 22:398) and equal to each band's Weak value minus one, so the printed rule is stricter than the invariant the brief states. The citation no damage roll (08:214) points at the Novice band row; the rule is stated at 08:224. Style law: book text contains zero em-dashes across all 25 chapters (29 en-dashes, all in numeric ranges), so the law holds today, and any solution that rewrites a permission surface must keep it that way; the surfaces that must change together are 08:120 and 196, 15:15, 25, 163, 171-193, 196, 206, 16:60, 05:53 and 59, 07:114, 09:174, 236, 245, 13:290, 19:549, 556, 557, 21:75, 107, 135, and the duplicated weapon table at 22:383-393, which mirrors 15:171-193 and must be edited in step. One flag for the game-architect, offered not as a ruling: Ember Lance prints 2, 4 and 6 at 11:171-175 against the live Novice band 4, 6, 8 at 08:214, and 08:226 repeats the same low numbers as its Novice example.",
+     "confidence": 0.74,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:200,214,218",
+       "claim": "Weapon claim one resolves: the damage callout puts the Finesse swap on the damage row, the property puts it on attack and damage, and Loading costs a Maneuver."
+      },
+      {
+       "source": "quarto-book/chapters/13-combat.qmd:270,290",
+       "claim": "Weapon claim two resolves: the Light property is the off-hand requirement in two-weapon fighting."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:174,183,192,201,236,245,263,326,335,344",
+       "claim": "Weapon claim four resolves: exactly ten cards gate on a weapon or shield, all in chapter 09, four of them Basic attacks with no Discipline requirement."
+      },
+      {
+       "source": "chapters/*.qmd (25 files, book-wide count)",
+       "claim": "The row of 188 standalone cards counts field occurrences, not cards: it includes magic items that grant Disciplines and two documentation lines, and line-start card headers number 178."
+      },
+      {
+       "source": "quarto-book/chapters/19-gm-guidance.qmd:549 | quarto-book/chapters/21-glossary.qmd:75",
+       "claim": "The Kit: field count is 64 lines but 62 cards, because the same format legend and the glossary definition use the phrase outside a card header."
+      },
+      {
+       "source": "chapters/*.qmd (16:25, 20:659, 20:665, 21:117, 22:398)",
+       "claim": "No chapter states the brief's DR parenthetical; the ceiling is 3, 4 and 6 and appears in five surfaces, one lower than each band's Weak value."
+      },
+      {
+       "source": "chapters/*.qmd (25 files, typography sweep)",
+       "claim": "The zero em-dash law holds today, so it is enforceable as a gate on the rewrites rather than a repair job; the 29 en-dashes all sit in ranges."
+      },
+      {
+       "source": "quarto-book/chapters/17-magic-items.qmd:27-28 | quarto-book/chapters/08-disciplines.qmd:120,224",
+       "claim": "Non-card uses of the Disciplines field and the correct location of the no-damage-roll rule, both needed before a solution quotes counts."
+      }
+     ]
+    },
+    {
+     "id": "f-016",
+     "round": 1,
+     "speaker": "Speaker E",
+     "stance": "refute",
+     "argument": "I refute the surface inventory in the brief, because most of its counts do not survive contact with the book. First the card surface: the brief prices 64 cards carrying a Kit field, but 64 is the count of the literal string; 62 sit on card lines and only 10 of those ask for a weapon or shield tag, the other 52 asking for focus tags that no weapon decision can reach. The weapon-relevant card surface is 10, an overcount of more than six times. Second the armour surface: the brief puts the armour tables in chapter 16, but there are three copies with three column sets, at 15:231 (Armor/Class/DR/Slots), 16:37 (those four plus Notes) and 22:345 (four columns, unbolded names). Any slot or DR change is a three-file edit, so pricing the armour surface as one chapter understates it by two files. Third the weapon section is not a table: 15:161-222 also carries two callouts and a seven-bullet property list at 15:213-216 that restates the property-to-weapon mapping the table's Properties column already carries, so deleting the table leaves a second statement of the same mapping behind. Fourth, the brief omits the only other place specific weapons are named: the nine class Starting Kit lines in chapter 5, which name seven distinct weapons across the classes (Battleaxe, Shortsword, dagger, Shortbow, Longsword, Spear, throwing daggers). Those nine lines are the shortlist of prose that a purge silently breaks, and they belong in the blast-radius ledger. The duplication premise is confirmed and worse than stated: the copy at 22:367 diverges from the canonical copy in its header wording and in 14 of its 17 Range cells, and chapter 15 points the reader at an armour column that does not exist anywhere. One further correction: the mechanical-state note in my brief credits a kit with sixteen utility tags. That term does not occur in the chapters, and the four lines that do exist offer twelve priced options, five Armament, four Covering, two Focus and one Calling. The six-point and four-line figures I did confirm.",
+     "confidence": 0.86,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "chapters/*.qmd - Kit-field census (commands and output recorded)",
+       "claim": "The 64 figure is a raw string count; the weapon-relevant card subset is 10 cards out of 62 card lines."
+      },
+      {
+       "source": "chapters/15-equipment.qmd:32-45 - the kit's four lines and their prices",
+       "claim": "The kit surface is 12 priced options across four lines; the vocabulary 'utility tag' the brief uses does not exist in the chapters."
+      },
+      {
+       "source": "chapters/15-equipment.qmd:231-239, chapters/16-armor-shields.qmd:37-44, chapters/22-reference-sheets.qmd:345-353",
+       "claim": "The armour table exists in three divergent copies, not one, and the chapter 15 copy promises a column chapter 16 does not contain."
+      },
+      {
+       "source": "chapters/15-equipment.qmd:245 vs chapters/16-armor-shields.qmd (instrumented absence)",
+       "claim": "The cross-reference at 15:245 promises a Stealth column; the string Stealth appears zero times in the armour chapter, so the pointer is dangling and the reprint architecture is what let it rot."
+      },
+      {
+       "source": "chapters/05-classes.qmd - nine Starting Kit lines (book-wide grep)",
+       "claim": "Nine class entries name specific weapons and are absent from the brief's surface list; they are prose a catalog purge breaks without warning."
+      },
+      {
+       "source": "chapters/15-equipment.qmd:211-219 - the property list",
+       "claim": "The property-to-weapon mapping is stated twice inside the same section, so the table is not the sole carrier of what a purge deletes."
+      }
+     ]
+    },
+    {
+     "id": "f-022",
+     "round": 1,
+     "speaker": "Speaker F",
+     "stance": "refute",
+     "argument": "The brief's damage-reduction invariant uses the right form and the wrong generation of numbers, and the correction changes what round two may assume. The form - three tiers survive flat subtraction only while DR stays under the band's Weak value - is sound in the no-floor case, and the brief's thresholds 2/6/9 are exactly the Weak column of the retired rows 2/4/6, 6/9/12, 9/15/21. Against the live rows the Weak column is 4/6/8. Three reference points fall out of the live table: the printed ceiling of 3/4/6 is one below the live Weak column, which is precisely the point past which a tier stops landing for at least one point of damage with no clamp; the first tie between tiers appears at 5/7/9; and all three tiers stop being distinguishable at 7/11/14. Two consequences the brief gets wrong. First, inside the range the printed ceiling admits, a flat weapon additive never collapses a band at all: the collapse threshold sits at 5/7/9 while the ceiling sits at 3/4/6, so the maximum permitted reduction subtracted from a shifted row still leaves three distinct tiers - at F=1 against DR 3 a Novice row resolves to 2/4/6. What a flat additive breaks is the ladder, not the band, and it breaks at +2: a Novice row at 6/8/10 takes the Weak tier outright from an Adept row at 5. Second, the undefended premise that flat subtraction is the only threat to the bands is false in the other direction: the collapsed band already exists in the shipped corpus, on a floor card - Basic Unarmed prints 1/1/2, where Weak and Standard are the same number, on one of the four cards that define the 1/2/3 floor the brief cites. The brief's census figures do hold: 10 weapon/shield-gated cards and 52 focus gates against 62 kit-gated cards, computed from the card headers, though 188 is a field count (178 header blocks carry a Disciplines line), so the honest denominator for gate share is 62, not 188.",
+     "confidence": 0.88,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "reasoning",
+       "claim": "Corrected DR reference points from the live table, versus the brief's retired inputs."
+      },
+      {
+       "source": "reasoning",
+       "claim": "A flat additive is absorbed by DR rather than collapsing the band; the binding failure is a ladder re-rate at +2."
+      },
+      {
+       "source": "09-talents-abilities",
+       "claim": "A collapsed band already ships on a floor card, contradicting the brief's 1/2/3 floor statement."
+      },
+      {
+       "source": "reasoning",
+       "claim": "The brief's gate census reproduces, but its denominator does not."
+      },
+      {
+       "source": "15-equipment",
+       "claim": "The damage-band rule is printed once and the retired rows survive only inside card rows; a book-wide term search finds the retired triplets effectively absent as text."
+      }
+     ]
+    }
+   ]
+  },
+  "t-03": {
+   "positions": {
+    "Speaker A": "support",
+    "Speaker B": "refute",
+    "Speaker C": "support",
+    "Speaker D": "support",
+    "Speaker E": "support",
+    "Speaker F": "support",
+    "Speaker G": "support"
+   },
+   "findings": [
+    {
+     "id": "f-001",
+     "round": 1,
+     "speaker": "Speaker A",
+     "stance": "support",
+     "argument": "The fork resolves the same way from both directions: put weapon identity in the permission layer, never in a magnitude. Two things follow, and both change what round 2 is allowed to build.\n\nFirst, the identity pillar is not 'weapons are flavour'. The shipped doctrine is the sentence printed directly under the weapon table - the weapon never changes your damage - reinforced by the kit chapter's law that a kit adds no number at all: no hit points, no damage, no bonus on any roll, only permission. So the pillar is 'weapons grant what you may attempt, cards grant how hard you hit'. That is a stronger and more defensible pillar than flavour, and it is load-bearing: the same mechanism that makes a weapon numberless is the mechanism that makes the three damage tiers mean anything, because tier is damage and DR subtracts flat. Any solution that answers the principal's suspicion by letting a weapon change how much does not adjust the pillar, it amputates it, and it switches off the defence roll with it. That is the pillar-cut nobody would notice, because a damage number on a weapon reads as an improvement rather than a removal. Flagging that is this lens's core duty here.\n\nSecond, the request's premise that weapons change almost nothing is an artefact of counting one channel and declaring the others absent. A weapon already decides which rank-gated attack cards a character can reach, through a Discipline-combination entry ladder the request's list of four consequences omits entirely; Finesse changes the attribute on the attack roll, not merely on damage; Reach changes the distance at which an attack is possible at all. Measured book-wide, the hero weapon tables assign no damage type to any row, while the bestiary already types the same named weapons for antagonists - a longsword is slashing for an NPC and untyped for a player. That asymmetry is the finding worth acting on: an empty permission slot the book itself built and half-filled.\n\nDevelopment richness fails for a reason the request does not name. The kit is declared a fourth development pillar, but its declared growth channel - a secondary kit and a rung at which one line is extended deeper - appears in the design reference and nowhere in the printed book: no secondary kit, no such rung, no seventh-level anything, across all 25 chapters. In print the kit is a creation-time choice, so of four declared pillars only three grow. Widening the card gate does not fix that; only shipping the growth channel does.\n\nSo: weapon identity belongs in the permission layer, and the cheapest correct home is the damage-type column the book already consumes but never populates for heroes. A type multiplies or halves rather than adds, so it dodges the DR ceiling and the level-gate corollary that forbids scaling gear values, and a weapon listed as a weapon is precisely where a weapon-shaped permission belongs. Adding a magnitude to a weapon is neither cheap nor correct.",
+     "confidence": 0.85,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "quarto-book/chapters/22-reference-sheets.qmd:396",
+       "claim": "The shipped doctrine of record is printed under the weapon table and is not a flavour claim: a weapon never changes damage. The pillar is 'weapons grant permission, never magnitude' - which is exactly the pillar a weapon damage number would remove."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:23",
+       "claim": "The equipment chapter states the same law for gear generally, and names the single permitted exception (the DR a covering buys). This is the sentence that makes a gear damage number a doctrine violation rather than a tuning question."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:206",
+       "claim": "A weapon does change what a character can do: the Discipline-combination entry ladder routes the weapon choice into the pool of rank-gated attack cards. The request's inventory of four weapon consequences omits this channel, which is the largest of them."
+      },
+      {
+       "source": "quarto-book/chapters/22-reference-sheets.qmd:370-394",
+       "claim": "The weapon table is structurally a permission table: its four columns are Weapon, Disciplines, Properties and Range, with no magnitude column anywhere, and every cell value is a statement about what may be attempted or how far."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:214-215",
+       "claim": "Two of the seven weapon properties change what a character can do rather than how much: Finesse swaps the attribute used on the attack roll itself, and Reach changes the distance at which an attack is possible. The request describes Finesse as affecting melee damage only, which understates the axis it is measuring."
+      },
+      {
+       "source": "quarto-book/chapters/16-armor-shields.qmd:25",
+       "claim": "The printed book states the DR ceiling as 3 at Novice, 4 at Adept, 6 at Master, and explains it in the same terms the request uses for law 2 (the three tiers must stay distinct and the roll must keep carrying information). This is a third, different triple from the request's 2/6/9 and the design reference's 2/7/11."
+      },
+      {
+       "source": ".hermes/councils/hol-rulebook/runs/20260915-1921/sources/design-kit-system:28-29",
+       "claim": "The design reference states the same invariant as a different triple (2 / 7 / 11). Three documents therefore give three different values for the single inequality the whole spine rests on: the printed book says 3/4/6, the request says 2/6/9, the design reference says 2/7/11. Any round-2 proposal that prices a weapon against this spine is pricing against an unsettled number."
+      },
+      {
+       "source": "quarto-book/chapters/13-combat.qmd:148",
+       "claim": "Damage type is a live rules axis with a three-term physical vocabulary and its own teaching paragraph in the combat chapter, so a weapon-type column would populate an existing structure rather than invent one."
+      },
+      {
+       "source": "quarto-book/chapters/20-bestiary.qmd:170 and 20-bestiary.qmd:255",
+       "claim": "The bestiary already assigns damage types to weapons in the same stat-line form, for the same named weapons, and already consumes types through monster vulnerabilities. The type axis is therefore populated for antagonists and empty for heroes - a dangling half-dependency, not an absence."
+      },
+      {
+       "source": "terminal: cd /home/bmoser/repos/heroes-of-legend/quarto-book/chapters && grep -rhoE '\\[[A-Z][a-z]+\\], \\[(None|[0-9] [A-Za-z]+[^]]*)\\], \\[[^]]*\\]' 15-equipment.qmd 22-reference-sheets.qmd | grep -icE 'slashing|piercing|bludgeoning'",
+       "claim": "Scope-law instrumentation: no hero weapon table row in either the equipment chapter or the reference sheet carries a damage type. Counted 0 of the weapon rows in both files. This is a measured absence, and it is the measurement the request did not make - which is why it read the weapon's permission surface as nearly empty."
+      },
+      {
+       "source": "terminal: python3 count of every *Disciplines:* occurrence book-wide over all 25 chapters of quarto-book/chapters",
+       "claim": "The request's headline denominator counts markup occurrences, not cards: 188 total = 178 line-start card fields (134 rank-gated, 44 ungated) + 10 non-card occurrences (one field definition and seven magic-item stat lines in the magic-items chapter, one card-format spec and one worked example card in the GM chapter). The request's own partition, 141 gated + 45 ungated, sums to 186 rather than its stated 188, and 141 is reproducible only by counting the seven magic-item lines as if they were cards: 134 + 7 = 141. The 64/52/10 Kit figures reproduce exactly and are sound; the 188/141/45 row is not."
+      },
+      {
+       "source": ".hermes/councils/hol-rulebook/runs/20260915-1921/sources/design-kit-system:72,76,166,29",
+       "claim": "The design reference establishes two things the request does not carry. The card gate is deliberately selective, so a small number of weapon gates measures compliance with the design rather than failure of it - counting it cannot distinguish 'broken' from 'intentionally narrow'. And the kit is declared a fourth character-development pillar whose growth channel is a secondary kit plus a rung at which one line is extended deeper."
+      },
+      {
+       "source": "terminal: grep -ric 'secondary kit' / 'L7' / 'extend one line' over all 25 chapters of quarto-book/chapters",
+       "claim": "Scope-law instrumentation: the fourth pillar's declared growth channel is absent from the printed book. Zero hits for 'secondary kit', zero for 'L7', zero for 'extend one line', across all 25 chapters. In print the kit is a creation-time choice only, so development richness fails on a channel the request never examines - and the kit's advancement rung is specified against a level the book's advancement ladder does not use."
+      },
+      {
+       "source": "quarto-book/chapters/16-armor-shields.qmd:86",
+       "claim": "The book demonstrates that gear identity already carries real weight in the kit-point and slot economy rather than in numbers: a heavier armour that costs two more kit points and two more slots buys no additional protection, and the character takes the lighter one. Since a kit is six points and a focus is three, the armament choice competes directly with the focus and covering choices - a second permission channel the request's inventory does not count."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:196",
+       "claim": "The Discipline entry ladder is only partly load-bearing as written: a class starting-kit weapon bypasses the prerequisites while attack cards still demand their Disciplines, so the weapon-identity channel is applied unevenly between kit gear and purchased gear. Any solution that leans on this ladder must first settle that asymmetry."
+      }
+     ]
+    },
+    {
+     "id": "f-004",
+     "round": 1,
+     "speaker": "Speaker B",
+     "stance": "refute",
+     "argument": "Where weapon identity must live: in substitution and permission, never in addition. I attacked the additive channel and broke every version of it I tested beyond +1. Worked numbers on the printed spine (the flat bands read 4, 6 and 8 at Novice; 5, 8 and 11 at Adept; 7, 10 and 14 at Master, per 08:205-217; the melee/attribute-scaled spine is budget minus 3 plus attribute, and the attribute range is -2 to +2 per 03:38): a gear-sourced +1 leaves the Novice band at 5/7/9 - three distinct tiers, still under Adept's Strong of 11 - so +1 is survivable; +2 turns the Adept band 5/8/11 into 7/10/13, which is the Master band 7/10/14 delivered a tier early; +3 inverts the ladder (Adept 8/11/14 >= Master 7/10/14). And the scaled spine has exactly one point of headroom (-3 plus a maximum +2 attribute = budget - 1), so any gear number spends the reserve the spine keeps for attributes. The asymmetry that kills the additive design outright: kits are re-specified free at every town (15:129-133) while card values are bought with DP, so an additive weapon number is strictly cheaper than the card number it competes with - it does not dodge law 3 (card gates ARE level gates), it violates it. By contrast I could not break the substitution channel: Finesse changes the source of a term (Agility for Brawn) without changing its size, and the book's own worked example stays inside the printed spine (13:292: off-hand tier drop 2 -> 1, +Agility 2 = 3). So the mechanical content of a weapon should be what it substitutes and what it permits - Light permits the off-hand, Reach extends to 10 ft, Thrown to 20/60 ft, Two-Handed costs 2 slots, a focus/Escutcheon-class tag gates the cards - with the Damage column left untouched. Second, weaker result from the same attack: the DR invariant is not actually load-bearing as a veto, because the book already breaches it in print - the shipped ceiling is '3 at Novice, 4 at Adept, 6 at Master' (16:25, repeated at 20:659), yet ch06:154 prints the Novice example hero Kael with 'heavier steel (DR 5)' and ch06:91 prints DR 6 against which a Novice band 4/6/8 collapses to 1/1/2, and three creatures ship at DR 6 (20:435, 20:625, 20:637). A rule that its own examples violate cannot be the reason weapons must stay flavour-only.",
+     "confidence": 0.75,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "quarto-book/chapters/08-disciplines.qmd:205-217",
+       "claim": "The damage spine: flat bands plus a lower attribute-scaled spine that is budget minus 3, plus the explicit no-damage-roll rule."
+      },
+      {
+       "source": "quarto-book/chapters/03-attributes.qmd:38",
+       "claim": "The attribute cap is +2, which is what fixes the scaled spine's total headroom at exactly one point."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:129-133",
+       "claim": "Any gear-sourced number would be re-selectable free at every town, unlike a DP-bought card number - this is the asymmetry that makes an additive weapon number strictly superior to the mechanic it competes with."
+      },
+      {
+       "source": "quarto-book/chapters/13-combat.qmd:290-292",
+       "claim": "The substitution channel is band-safe and the book's own worked example stays inside the printed spine - the hypothesis I tested and could NOT break."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Worked arithmetic showing the largest additive a gear number may carry and where it breaks."
+      },
+      {
+       "source": "quarto-book/chapters/06-core-resolution.qmd:91, 148, 154; 16-armor-shields.qmd:25; 20-bestiary.qmd:659",
+       "claim": "The DR invariant cannot serve as the veto on weapon identity, because the book's own examples and stat blocks breach its ceiling - a one-sided rule that already fails in print."
+      }
+     ]
+    },
+    {
+     "id": "f-009",
+     "round": 1,
+     "speaker": "Speaker C",
+     "stance": "support",
+     "argument": "Card-visible weapon identity already lives in the kit's armament tag, and that is where it should stay. The card header accepts a closed list of eight tags, five of them weapon or shield, so any card-level consequence of a weapon must reduce to one of those five strings; nothing else about a weapon is visible to the card layer. The named weapon's only other mechanical attachment is its Discipline entry requirement, and the book explicitly waives that for kit gear. The equipment chapter's stated intent is that weapons do not differ in the numbers they produce, and it adds that the weapon never changes those numbers. The lever for adding consequences is therefore the tag vocabulary or the property list, both of which reach the 62 gates and the combat chassis without putting a scaling figure on a gear table - the one move the DR invariant forbids. The magic-item chapter is the only place a named weapon does mechanical work, and even there the gate is attunement plus a granted Discipline rather than the weapon's shape. Practical consequence for round 2: any proposal that gives the longsword a better number than the greataxe is out of bounds by the book's own design law; a proposal that gives the longsword a different tag, a different property, or a different rule surface is not.",
+     "confidence": 0.82,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:25",
+       "claim": "The closed eight-tag Kit vocabulary is the only channel by which a weapon can reach a card."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:196",
+       "claim": "Discipline entry requirements are explicitly waived for kit gear, so a named weapon's Discipline cost is not a reliable identity anchor."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:165",
+       "claim": "The chapter's stated design intent: weapons do not differ in the hit they produce."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:200",
+       "claim": "The same callout closes by stating the weapon never changes the damage numbers - the design law that forbids a better-weapon ladder."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:171",
+       "claim": "Weapons are listed by required Disciplines, properties and range only: the four columns are the whole mechanical surface."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:206",
+       "claim": "Named weapons attach to specific Discipline combinations, which is a build-cost gate, not a stat difference."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:23",
+       "claim": "The kit grants permission, not numbers - the invariant that constrains any weapon-identity design."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:247",
+       "claim": "Shields already introduce non-numeric identity (Parry/Shield Block enablement), showing the permitted shape."
+      }
+     ]
+    },
+    {
+     "id": "f-010",
+     "round": 1,
+     "speaker": "Speaker D",
+     "stance": "refute",
+     "argument": "Refuted: weapon identity cannot live in the equipment tables' Discipline column, because the book already runs two permission models and they do not overlap. Model A gates gear on rank: 08:196 gives weapons, armour and shields Discipline entry requirements, 15:171 heads the weapon table's second column with them, and 16:60 states the shield numbers as ranks a wielder must hold. Model B releases gear: 15:196 waives the prerequisites for anything the class kit contains, and 15:163 makes the same claim as doctrine, giving permission to the ability cards and calling the weapon mere possession. Neither is written as an exception to the other, and they can avoid contradicting each other only if no gear sits outside a kit. None does: 15:15 says gear is not bought, 15:121 lands kit points as grants, and 15:131 rebuilds the whole kit in town. The one gap is the class kits themselves. The Protector's starting kit names a battleaxe and a shield (05:59) while its level-one grant is Armor plus a single weapon rank (05:53), so that class's own printed kit is unwieldable under Model A and legal only by the waiver; the same requirements are then restated in prose ten lines below the waiver (15:206). A reader will keep whichever rule lets them use the gear they were told to take, which means the requirement column is decoration and the enforcement claim in 07:114 is false. Ruling on t-03: weapon identity belongs on the card, as the Kit tag plus the Discipline the card header already names, which is where all ten gear-gated cards and the fifty-two focus cards already put it and where development points are actually spent. Smallest insertion: drop the requirement column from the weapon table (15:171) and reduce 08:196 to one sentence naming the governing Discipline for each weapon family; if the table model is kept instead, delete 15:196 and the clause in 16:60, and add one sentence to 15:131 saying what a hero spends to keep gear already carried.",
+     "confidence": 0.85,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:196",
+       "claim": "The class kit waives Discipline prerequisites for weapons, armour and shields; the waiver is scoped to the class starting kit, so gear re-kitted at a town (15:131) is not covered."
+      },
+      {
+       "source": "quarto-book/chapters/08-disciplines.qmd:196",
+       "claim": "Gear is given its own Discipline entry requirements, with sample values up to plate at three Armor."
+      },
+      {
+       "source": "quarto-book/chapters/08-disciplines.qmd:120",
+       "claim": "The Disciplines chapter reuses the same column header for card gates, so one phrase names two different gate kinds in two chapters."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:163",
+       "claim": "The equipment chapter's doctrine assigns permission to cards and calls the weapon mere possession, contradicting the requirement column in its own weapon table."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:171,178,182,188,206",
+       "claim": "The weapon table's second column carries rank values per weapon (Battleaxe two Axes, Maul three Heavy Weapon, Crossbow one Archery) and the requirement is restated in a prose callout after the waiver."
+      },
+      {
+       "source": "quarto-book/chapters/16-armor-shields.qmd:60",
+       "claim": "The shield rule repeats the gate and its own kit exception in one sentence."
+      },
+      {
+       "source": "quarto-book/chapters/05-classes.qmd:53,59",
+       "claim": "The Protector is granted Armor plus one weapon rank while its printed starting kit names a battleaxe and a shield, so the class kit is legal only under the waiver."
+      },
+      {
+       "source": "quarto-book/chapters/07-skills.qmd:114",
+       "claim": "A worked example in a chapter outside this run's supplied sources treats the gate as live permission to use a weapon at all; any solution keeping the waiver must rewrite it."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:15,121,131",
+       "claim": "Kits are the only route by which gear reaches a character, leaving the gate no non-kit object to bind."
+      },
+      {
+       "source": "chapters/*.qmd (25 files, book-wide grep)",
+       "claim": "Instrumentation: each model marker occurs once, so no other surface resolves the conflict; the kit phrase appears in five places, three of them outside this run's sources."
+      }
+     ]
+    },
+    {
+     "id": "f-015",
+     "round": 1,
+     "speaker": "Speaker E",
+     "stance": "support",
+     "argument": "I support putting weapon identity at the kit's Armament line plus the Disciplines-Required column, and keeping the 17-row catalogue as colour. That is already the layer the card layer reads, and it is the book's own stated answer: a Longsword and a Greatsword are told to differ because of the Disciplines they demand, not because one is a bigger number. Priced both ways. Direction A, flavour only: the 17-row table at 15:168-193 is duplicated at 22:367-394, so a purge removes 2 tables (the book goes from 141 tables to 139), changes 0 columns, adds 0 lookups and re-keys 0 cards, because the weapon-gated cards ask for tags like weapon:one-hand, never a weapon name, and exactly 1 of the 184 card blocks in the book names a weapon at all. The page cost is zero, for a structural reason rather than a hopeful one: the table is 18 of the 35 non-empty lines on folio 250, and the section beneath it is pinned by a pagebreak at 15:221, so the roughly 27 freed lines turn into whitespace inside a two-folio section instead of releasing a folio. No TOC entry renumbers. Direction B, mechanical identity: 9 of 25 chapter files touched; 1 to 3 new tables; 5 existing tables need a column (the 2 weapon copies plus the 3 armour copies at 15:231, 16:37 and 22:345); 3 new lookups (weapon to family, weapon to property, weapon to slot cost); 41 cards re-keyed (31 family-gated plus 10 tag-gated); and the model says plus 1 to 2 folios, because the 4-column copy in the reference chapter already spills over a folio boundary and a 5th column pushes chapter 17 past the pin at 15:221. One extra folio renumbers the 81 TOC entries at folio 251 and up; a second renumbers 19 more at folio 359 and up. The reprint is the deciding cost. Under A you delete a copy and have 1 table to keep. Under B every weapon change is 5 edits, against a reprint that has already drifted in 14 of its 17 rows: the sync is not maintained today and the direction assumes it will be.",
+     "confidence": 0.72,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "chapters/15-equipment.qmd:25",
+       "claim": "The whole card-facing vocabulary is one line of eight tags, and that line is the only registry the card layer can consume; nothing joins those tags to the catalogue's weapon names."
+      },
+      {
+       "source": "chapters/15-equipment.qmd:171-188",
+       "claim": "Weapon identity is already mechanical in the table's Disciplines Required column, which is the axis the ability cards are keyed to."
+      },
+      {
+       "source": "chapters/15-equipment.qmd:206",
+       "claim": "The book already declares that the difference between two weapons is the Discipline combination and explicitly not a bigger number, which is the architectural slot identity can occupy without a stat block."
+      },
+      {
+       "source": "chapters/*.qmd - card census and Kit-field census (commands and output recorded)",
+       "claim": "The card-side blast radius of the catalogue is 10 cards and 0 re-keys, not the 64 cards the brief implies."
+      },
+      {
+       "source": "_output/Heroes-of-Legend.pdf - pdfinfo plus a pdftotext -layout line census",
+       "claim": "Direction A cannot move the page count, because the table already occupies about half of a full folio inside a section whose lower boundary is a hard pagebreak."
+      },
+      {
+       "source": "chapters/22-reference-sheets.qmd:367-394 compared with chapters/15-equipment.qmd:168-193 (cell diff)",
+       "claim": "The reference copy is not a reprint but a divergence: header wording plus 14 of 17 Range cells differ, plus 4 inserted blank rows and different column widths, so a Direction B column multiplies an already-broken sync surface."
+      }
+     ]
+    },
+    {
+     "id": "f-019",
+     "round": 1,
+     "speaker": "Speaker F",
+     "stance": "refute",
+     "argument": "Weapon identity must live on the card spine - the header's Kit tag plus the card's Discipline-rank requirement - and it must carry a rule-shape, never a magnitude. The corpus already demonstrates the split, and it is inverted: every card that prints a band-legal damage row is a Weapon Maneuver carrying no kit tag (three at 4/6/8, four at 5/8/11, and the only two Master-row cards in the book, 7/10/14), while the heavily gated family is spells, and no spell prints a live band-legal Master row at all - eleven Novice spells print 2/4/6 and two Adept Religion spells print 6/9/12. Putting a number on a weapon therefore adds a fourth additive above card damage, an attribute additive and DR, and the arithmetic caps it at +1: a Novice row shifted to 5/7/9 still sits at or under the Adept row on every tier, but +2 gives a Novice card 6/8/10, a better Weak tier than an Adept card's 5. Rule-shapes do not dodge the law by being shapeless - they dodge it by direction. Effects that move down the ladder scale with level, because the rungs grow apart: Shield Block is worth 2/3/4 points by band and its Weak floor-clamp is worth 3/4/6. Effects that move up the ladder die at the top: Overchannel is a Master skill that triggers on casting a Master spell and grants 'the row one step above on the damage budget', and there is no row above Master, so its printed payload is undefined at the tier it is built for. The book also already has the third permission model on paper, and it is level-linked: gear carries Discipline entry requirements, waived when the item arrives in a class kit, so the gate exists and is only soft. Round 2 should finish that gate and re-point the existing weapon tags, not author forty-two cards.",
+     "confidence": 0.8,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "reasoning",
+       "claim": "The largest flat weapon additive that keeps every tier of a Novice row at or below the corresponding Adept tier is +1."
+      },
+      {
+       "source": "09-talents-abilities",
+       "claim": "The only two cards in the book that print the live Master row are Weapon Maneuvers with no kit tag, while all six kit-gated weapon/shield maneuver cards print no damage row at all."
+      },
+      {
+       "source": "11-arcane-spells",
+       "claim": "The focus-gated family is pinned below or at the retired ladder: eleven Novice spells print the retired Novice row 2/4/6 and two Adept Religion spells print the retired Adept row 6/9/12."
+      },
+      {
+       "source": "05-classes",
+       "claim": "A Master-tier class ability is defined as 'the row one step above' a Master spell, a row that does not exist in the live table."
+      },
+      {
+       "source": "16-armor-shields",
+       "claim": "Downgrade-shaped gear rules scale upward with level, and the shield is the existence proof that a piece of kit can carry real power without a damage number."
+      },
+      {
+       "source": "08-disciplines",
+       "claim": "A rank-based gear permission model already exists in the text and is level-linked through Discipline ranks, but the armor chapter waives it for class kit, so the gate is soft rather than absent."
+      }
+     ]
+    },
+    {
+     "id": "f-023",
+     "round": 2,
+     "speaker": "Speaker G",
+     "stance": "support",
+     "argument": "Coalition B is right that the recipe is the route, and my three level-1 heroes show the recipe is not where the round-to-round decision lives. I built all three from the book's own kits and card lists. On a turn: Vess the Blade attacks twice because both her kit weapons are Light, for 7 at Standard; Halda the Protector-Axes attacks once for 4 with the kit battleaxe, the identical single-weapon number, and can grapple instead because 1 Armor is all Shield Press asks; Kor the Protector-Polearms attacks once for 4 from 10 ft because his spear carries Reach. Three different turns, and two of the three come from a property, not from the recipe. The recipe decides what you may buy, and at rank 1 the shelves are nearly bare: Axes holds zero cards, Polearms holds one, Blades holds four plus one at 1 Tactics. So the honest answer to where tactical choice comes from is two places, not one. It comes from the card the recipe unlocks, which is a build-time choice, and from the property the weapon carries, which is a per-turn choice. B should own both and stop letting properties read as prose. The book already agrees with B in print, equipment chapter: a greatsword hero and a dagger hero differ as people, and the style of fighting a hero owns is fixed by which cards that hero's Discipline profile puts within reach. My level-3 test is that sentence put on trial, and it passes for Blades and Polearms and fails for Axes. Axes rank 3 has no card, so an axe hero who spends one of his three lifetime ranks on it at level 6 buys nothing. B's claim of zero new weapon-gated cards cannot survive a Discipline that is empty at rank 1 and at rank 3. B's real repair is a card pool, and the good news is that cards in a Discipline are shared: a new Axes card serves the handaxe, the battleaxe and the greataxe, and the Dwarf who takes Axes from her bloodline. That is still B's cost advantage over A, but it is authoring, not a repointing.",
+     "confidence": 0.78,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "reasoning",
+       "claim": "Worked construction of three level-1 heroes from the book's own kits, their per-turn options, their level-3 sheet deltas and the cost ledger behind them."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:206",
+       "claim": "The equipment chapter already states B's architecture verbatim as doctrine: the weapon's Discipline combination is the fighting style, and the cards you can reach are that style. My hero test is this sentence on trial."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:215",
+       "claim": "Reach is a property with a live rule consumer that needs no new tag layer, which is the tactical verb Kor uses. He attacks 10 ft out while the axe hero cannot."
+      },
+      {
+       "source": "quarto-book/chapters/13-combat.qmd:290",
+       "claim": "Light is the second property with a live rule consumer; it is the whole source of Vess's two-attack turn, and it lives outside the Discipline ladder."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:176",
+       "claim": "Basic Melee is a flat 1/2/3 plus one attribute, which is why the dagger duelist and the axe northerner come out at the same 3/4/5 in round 1. The number is not the differentiator."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:178",
+       "claim": "The battleaxe demands 2 Axes, and Axes contains no rank-1 card, so the axe hero's weapon is a gate she cannot pay and a shelf with nothing on it."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:192",
+       "claim": "Basic Thrown is tagged weapon:ranged while the spear is printed Thrown, so the spear's ranged option is printed on the weapon and unreachable in the rules. This is the satisfaction gap surfacing inside B's own layer."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:292",
+       "claim": "Kor's level-3 gain, Trip: a Prone engine that he delivers at 10 ft because of Reach. This is the cleanest felt answer in the run to what a weapon made possible."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:247",
+       "claim": "Halda's only usable level-3 gain, Cleave, pays out only on a kill with an enemy adjacent, which is a thin felt answer for the one Discipline that has no rank-1 and no rank-3 card."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:335",
+       "claim": "The axe Discipline's second and final card is gated to a two-handed armament, so Halda cannot use it with the battleaxe and needs a greataxe, which needs 2 Axes plus 1 Heavy Weapon, a different ladder."
+      },
+      {
+       "source": "quarto-book/chapters/02-character-creation.qmd:66",
+       "claim": "Discipline pools are shared assets, not single-weapon cards: the Dwarf ancestry already hands out Axes, so any card B authors there serves ancestry grantees as well as weapon wielders. This is the per-card leverage A's new tag layer cannot match."
+      }
+     ]
+    },
+    {
+     "id": "f-025",
+     "round": 2,
+     "speaker": "Speaker B",
+     "stance": "support",
+     "argument": "Coalition B's fix is total if the recipe is made co-monotone with capability, and the shipped table needs 8 repairs, not the 3 my round-1 finding named. I re-ran the domination test with the Kit tags included, because a weapon's real reach is the set of cards it can actually take, not the set it can nominally satisfy. X dominates Y when all six hold: X's properties are a superset of Y's; X's costs are a subset; X's range is at least Y's; X's recipe vector is componentwise no larger; X's satisfied tags are a superset; and X's reachable card set is a superset. Over the 177-card corpus the shipped table returns 8 strict dominations: Dagger over Shortsword; Dagger over Throwing Dagger; Longsword over Greatsword; Warhammer over Maul; Spear over Halberd; Longbow over Shortbow; Shortbow over Crossbow; Longbow over Crossbow.\n\nTHE REPRICING SPEC. Give every weapon a recipe that no other weapon's recipe contains, and charge each capability to the Discipline that carries it, so the recipe vector and the property set move together: more abilities always cost at least as much. Pricing rules: (1) Thrown costs 1 Archery, everywhere and without exception: Dagger 1 Blades + 1 Archery; Handaxe 1 Axes + 1 Archery; Spear 1 Polearms + 1 Archery; Throwing Dagger 1 Archery alone. (2) A second step in the family is never free: Shortsword 1 Blades + 1 Protection; Longsword 2 Blades; Battleaxe 2 Axes; Halberd 1 Polearms. (3) The heavy weapons buy their capstone with 2 Heavy Weapon, because rank 3 Heavy Weapon opens zero cards that rank 2 does not (its only card, 09:551, also demands Tactics and Unarmed): Greatsword 2 Blades + 2 Heavy Weapon; Greataxe 2 Axes + 2 Heavy Weapon; Maul 3 Heavy Weapon; Warhammer 2 Heavy Weapon; Mace 1 Heavy Weapon. (4) The bows separate on the price of distance: Shortbow 1 Archery; Longbow 1 Archery + 2 Heavy Weapon. (5) Unarmed stays at None.\n\nTHE FULL TABLE. Unarmed None; Dagger 1 Blades + 1 Archery; Shortsword 1 Blades + 1 Protection; Longsword 2 Blades; Greatsword 2 Blades + 2 Heavy Weapon; Handaxe 1 Axes + 1 Archery; Battleaxe 2 Axes; Greataxe 2 Axes + 2 Heavy Weapon; Mace costs 1 Heavy Weapon; Warhammer costs 2 Heavy Weapon; Maul costs 3 Heavy Weapon; Halberd 1 Polearms; Spear 1 Polearms + 1 Archery; Throwing Dagger 1 Archery; Shortbow 1 Archery; Longbow 1 Archery + 2 Heavy Weapon.\n\nWHY IT REMOVES DOMINATION WITHOUT A DAMAGE NUMBER. The fourth clause is the domination engine: domination requires the dominator's recipe to be componentwise no larger, which means the better weapon must be no dearer. Every relation in the shipped table is either a same-recipe pair (Dagger and Shortsword both 1 Blades; Spear and Halberd both 1 Polearms; Shortbow and Longbow both 1 Archery) or a fake step (Longsword 2 Blades over Greatsword 2 Blades + 1 Heavy Weapon; Warhammer 2 Heavy Weapon over Maul 3 Heavy Weapon, where the third rank buys no card). Making each recipe distinct and co-monotone kills the clause at the source: no cheaper weapon is a property superset of a dearer one. Re-running the identical six-clause test on the proposed table returns zero pairs, tag-aware and in both directions, over the same corpus. Nothing in the fix is a number on a weapon; the prices are ranks, which is how the column already works, and the book's own doctrine is untouched.\n\nONE ROW DOES NOT SURVIVE. Crossbow (1 Archery, Loading/Two-Handed, 20/60 ft) has no property that is not a drawback, so Shortbow and Longbow both dominate it on an identical recipe. This is my answer to the purge question: it is the only row whose removal the arithmetic forces. Keeping it means buying it a capability no bow has, which is card authoring rather than a table edit.\n\nTWO SIDE EFFECTS, BOTH FIXES. First, the recipe column is already printed and already demands combinations of Disciplines, so the spec is a table edit inside one chapter plus the reference reprint. Second, the satisfaction rule that the recipe table needs answers the one-hand/two-hand question: a weapon satisfies weapon:one-hand when held in one hand and weapon:two-hand when it must be gripped in both; the Longsword satisfies both; and Basic Melee should lose its Kit tag so that no armament is left without a basic attack. Tested A's arithmetic, B's repricing, and the tag-blind variant of the test; the counter-examples found are recorded in f-206.",
+     "confidence": 0.74,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:171",
+       "claim": "The Discipline requirement is already a printed column of the weapon table, so B's price is a live lever rather than a proposed one."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:173",
+       "claim": "The Dagger's printed row: 1 Blades, three properties, 20/60 ft."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:174",
+       "claim": "The Shortsword shares the Dagger's recipe exactly and carries one fewer property, which is domination pair one."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:184",
+       "claim": "The Halberd shares the Spear's recipe; the Spear adds Thrown at no price, which is domination pair two."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:186",
+       "claim": "The Shortbow shares the Longbow's recipe and its properties while giving up 40 ft of range, which is domination pair three."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:187",
+       "claim": "The Longbow's row: identical recipe and properties to the Shortbow, longer range, same two slots."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:200",
+       "claim": "B's fix adds no damage numbers, because the book's own architecture keeps the weapon off that axis entirely."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:206",
+       "claim": "The book already states the doctrine the recipe fix implements: identity is which cards the weapon opens."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:206",
+       "claim": "The table already demands specific Discipline combinations rather than more of one Discipline, so the mechanism is in print."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:216",
+       "claim": "Thrown is a printed property with a fixed 20/60 ft band, so charging 1 Archery for it is a repricing, not an invention."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:551",
+       "claim": "Rank 3 Heavy Weapon opens zero cards that rank 2 does not, because its only card also demands Tactics and Unarmed; the Maul's third rank therefore cannot be what prices it."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:245",
+       "claim": "Both Axes cards sit at rank 2 (this one and 09:335), so 1 Axes opens no rank-1 card and 2 Axes is a real step. Computed: the six-clause test over the 177-card corpus returns 8 pairs in the shipped table and 0 in the proposed table, tag-aware, both directions."
+      },
+      {
+       "source": "briefs/round-02/COALITION-CHARTER.md:64",
+       "claim": "The charter's binding demand on B is that no two weapons stand in a domination relation; the proposed table satisfies it by construction."
+      }
+     ]
+    },
+    {
+     "id": "f-027",
+     "round": 2,
+     "speaker": "Speaker B",
+     "stance": "refute",
+     "argument": "Red team on Coalition A, argued with A's own arithmetic and not against its ideals. A's architecture is a permission layer, and the finding is that A's own numbers price A's own fix at roughly 2.5 times the bill A already calls unaffordable, and that the one magnitude A puts into the gear layer breaks the constraint A's own charter says breaks first.\n\n1. A'S FIX MULTIPLIES A'S OWN BILL. A's conceded cost is measured by the game-architect's method: ~42 more weapon-gated cards for the weapon family to match focus gate weight; ~87 for the five existing weapon tags to match the mean focus tag; ~160 to match the arcane tag alone, which is more than the entire 177-card corpus. All three numbers are computed over the five existing weapon tags, whose whole population is 10 gates (two-hand 3, ranged 3, one-hand 2, unarmed 1, shield 1). A's first build item adds seven more tags: Finesse, Reach, Thrown, Light, Loading, Two-Handed, Versatile. Count their occurrence sites in the live weapon table: Finesse 3, Thrown 4, Light 3, Versatile 1, Reach 2, Two-Handed 5, Loading 1, that is 19 sites across 17 weapon rows. Apply A's own standard, the mean focus tag at about 17 gates, to A's own seven new tags: the additional bill is about 119 weapon-gated cards, on top of the ~87 for the five existing tags and before anything is spent on the shield tag. That is about 206 cards against a 177-card corpus. A cannot retreat to partial parity while the property-tag layer is itself the largest line in the arithmetic, because a property tag with one to four consumers prices its property at the same rate the current prose already does, which is not at all; on A's own method the tag is the expense and the identity is still free.\n\n2. A'S ONE MAGNITUDE IS UNGUARDED BY A'S OWN CONSTRAINT. A adopts damage types on hero weapons and justifies them as multiplying or halving, never adding, so they cannot touch the DR invariant. The DR invariant is not the binding constraint; the charter states the binding one: what a flat additive breaks is the ladder, and it breaks at +2. The live bands are 4/6/8, 5/8/11, 7/10/14 and the legal ceiling sits at 3/4/6, so the band is safe by construction and only the ladder is live. A x2 vulnerability applied to a Novice row turns 4/6/8 into 8/12/16: the Novice row's Weak tier (8) equals the Adept row's Standard (8) and the Novice Standard (12) exceeds the Adept Master (11). That is a ladder inversion at the first tier and roughly four times the +2 increment the round-1 arithmetic was calibrated to forbid, produced by the single mechanic A sources as the safe place to put magnitude. The trigger is neither hypothetical nor rare: the doubling is already printed unconditionally, and the bestiary types its own weapons 29 times. If A adopts types as hero-side identity, A must also state the gate on vulnerability. A's available reply, that the monster sets vulnerability and not the weapon, is real, and it is precisely what makes hero-side types a tuning trap rather than a source of identity.\n\n3. A'S ARITHMETIC PRICES A POPULATION A'S OWN FIX CHANGES. A's headline defect is that the one-hand tag gates the basic attack, so a hero who buys a two-handed armament has no basic attack at all. The one-hand tag is held by exactly two cards (09:174 Basic Melee and 09:245), so any satisfaction rule that lets a two-handed armament make a basic attack deletes or wildcards one of the two members of the population over which the 10-gate split is priced. A must re-run the ~42-card arithmetic after A's first build item; as chartered, A prices a population its own fix alters.\n\nConfidence is bounded by what a red team can settle: A can retake ground by making vulnerability a bestiary-side and gated setter, and by conceding the fourth-pillar claim. Neither reply rescues the cost arithmetic, which is the point.",
+     "confidence": 0.7,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "briefs/round-02/COALITION-CHARTER.md:55",
+       "claim": "A's own coalition states the bill and the method: the weapon family needs this many more gated cards to match focus gate weight."
+      },
+      {
+       "source": "briefs/round-02/COALITION-CHARTER.md:55",
+       "claim": "The same sentence fixes the denominator that makes A's arithmetic terminal."
+      },
+      {
+       "source": "briefs/round-02/COALITION-CHARTER.md:55",
+       "claim": "The five existing weapon tags need about this many gates at the mean focus rate; A's first build item adds seven tags to that population."
+      },
+      {
+       "source": "briefs/round-02/COALITION-CHARTER.md:55",
+       "claim": "The retreat A is offered in its own charter, which the property-tag layer cannot fund because it is the largest line in the arithmetic."
+      },
+      {
+       "source": "briefs/round-02/COALITION-CHARTER.md:48",
+       "claim": "A's first build item: promote seven properties from prose into tags in the closed vocabulary."
+      },
+      {
+       "source": "briefs/round-02/COALITION-CHARTER.md:25",
+       "claim": "The whole population A's three cost figures are computed over: 10 weapon or shield gates."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:219",
+       "claim": "Two-Handed names five weapons in print, so a weapon:two-hand tag would have five sites and no consumers."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:213",
+       "claim": "Versatile names exactly one weapon, so promoting properties to tags starts a tag family with a single site."
+      },
+      {
+       "source": "briefs/round-02/COALITION-CHARTER.md:53",
+       "claim": "A's justification for the only magnitude in its plan."
+      },
+      {
+       "source": "briefs/round-02/COALITION-CHARTER.md:53",
+       "claim": "The mechanic A adopts: types on hero weapons."
+      },
+      {
+       "source": "briefs/round-02/COALITION-CHARTER.md:23",
+       "claim": "The binding constraint on magnitude, in the charter's own words: the ladder, not the DR band."
+      },
+      {
+       "source": "briefs/round-02/COALITION-CHARTER.md:22",
+       "claim": "The legal ceiling sits below the band-collapse threshold, which is why the DR invariant is not the binding constraint."
+      },
+      {
+       "source": "briefs/round-02/COALITION-CHARTER.md:17",
+       "claim": "The live damage bands against which the x2 inversion is computed."
+      },
+      {
+       "source": "briefs/round-02/COALITION-CHARTER.md:23",
+       "claim": "The ladder failure the round-1 arithmetic calibrated, at +2: a Novice row taking the Weak tier from an Adept row."
+      },
+      {
+       "source": "quarto-book/chapters/13-combat.qmd:154",
+       "claim": "The doubling A sources as safe is printed unconditionally, so the trigger is available rather than rare."
+      },
+      {
+       "source": "briefs/round-02/COALITION-CHARTER.md:49",
+       "claim": "A's headline defect: the basic attack is gated, so a two-handed armament has none."
+      },
+      {
+       "source": "briefs/round-02/COALITION-CHARTER.md:49",
+       "claim": "The vocabulary's missing rule, which A's fix must supply and which changes the gate population A prices."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:174",
+       "claim": "Basic Melee is one of exactly two weapon:one-hand gates, so A's own satisfaction fix alters the population the 10-gate split is priced over."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:245",
+       "claim": "The other weapon:one-hand gate, which fixes the one-hand population at two cards."
+      },
+      {
+       "source": "briefs/round-02/COALITION-CHARTER.md:45",
+       "claim": "A's first principle, which the type layer contradicts in kind if not in unit: the weapon carries no magnitude."
+      }
+     ]
+    },
+    {
+     "id": "f-028",
+     "round": 2,
+     "speaker": "Speaker D",
+     "stance": "support",
+     "argument": "Coalition B does not need a new tag layer to make the weapon's Discipline requirement the live gate, and it does not need to delete a line to do it: it needs three rule lines edited, one line narrowed to a pointer, and nine class kit lines reworded, and the kits keep their flavour. The reconciliation, exactly. Line one, 15:196, the Kit Gear callout: the clause letting a hero carry kit weapons and kit armour and shields with no Discipline prerequisite attached is deleted, and the surviving sentence is promoted to the whole rule, so the callout reads that the kit supplies the object and the Discipline supplies the permission. Line two, 16:60, the shield paragraph: the trailing exemption for gear that arrived inside one's class starting kit, justified on the grounds that kit gear presumes training and cross-referenced at @sec-chapter-equipment, is deleted, leaving the number before each shield as the Protection rank the wielder must hold, which is the same rule the Buckler, Shield and Tower Shield lines already print. Line three, 15:23: 'What a kit grants is permission' is the deepest live contradiction, because it hands permission to the kit while 15:171 heads the weapon table with Disciplines Required. The fix is one clause: scope the kit's permission to the card tags at 15:25, and give the weapon's entry requirement to the recipe column. Fourth, 08:196 narrows to a pointer. It currently restates the recipe list a third time (Dagger 1 Blades, Longsword 2 Blades, Greatsword 2 Blades + 1 Heavy Weapon, Tower Shield 2 Protection, Plate 3 Armor) and its 'Plate 3 Armor' has no consumer anywhere: neither armour table carries a prerequisite column (15:231 headers Armor, Class, DR and Slots; 16:37 adds Notes). One source for the gate, one pointer to it. What happens to the class starting kits. Measured against the class's own grants, 14 kit items across 8 of the 9 classes sit outside the ranks the class hands over, and the Blade's kit is the only self-sufficient one. Two of those items need rank 2: the Protector's Battleaxe, 2 Axes against a class grant of 'Armor (1) + 1 any Weapon', and the Leader's Longsword, 2 Blades against a class grant of 'Tactics (1) + Protection (1)'. No starting grant can close either, because 08:100 states that ancestry, culture and class grants are always rank 1; they close only by the 2 DP background deepening at 02:157, which the book phrases as spending 2 DP to push a Discipline you already hold up to rank 2 (2 same). The other 12 shortfalls are rank 1 and close in the ancestry and culture steps, where 02:153 grants one Discipline and 02:155 grants one or two, plus the class's own free pick where it has one. So the kits are not broken; they are unpriced, and the price is two 2 DP lines. The editorial fix is the form ch15 already prints: the Class Recommendations table lists the Protector as 'One-handed and shield, heavy armour' and the Leader as 'One-handed and shield, light armour', and 15:159 already tells the reader that a typical kit amounts to a starting point rather than a rule. Rewrite the nine ch05 Starting Kit lines in that category form, keeping the named weapon as the example the hero resolves against whichever weapon Discipline they actually hold, and the two DP lines become a visible choice instead of a hidden waiver. Cost of the reconciliation: 3 rule lines, 1 pointer, 9 kit lines, 0 cards re-keyed, 0 tags added. That is the version of t-03 that closes the character-creation contradiction without Coalition A's 42 to 160 new weapon-gated cards.",
+     "confidence": 0.86,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:196",
+       "claim": "The Model B waiver sentence to be deleted. It is the only place the class kit releases weapons, armour and shields from Discipline prerequisites."
+      },
+      {
+       "source": "quarto-book/chapters/16-armor-shields.qmd:60",
+       "claim": "The second Model B waiver, scoped to shields, which the shield lines below it contradict by printing a Protection rank."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:23",
+       "claim": "The kit chapter's own doctrine hands permission to the kit, which is what collides with the recipe column at 15:171."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:171",
+       "claim": "Model A is already printed in the weapon table header, which names Disciplines Required as the table's second column."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:25",
+       "claim": "The card tags are the surface the kit legitimately decides, so the kit's permission clause is scoped here, not deleted."
+      },
+      {
+       "source": "quarto-book/chapters/08-disciplines.qmd:196",
+       "claim": "08:196 restates the recipe list, and its armour entry requirement (Plate 3 Armor) is the only one printed anywhere: no armour table carries such a column, so the line narrows to a pointer."
+      },
+      {
+       "source": "quarto-book/chapters/08-disciplines.qmd:100",
+       "claim": "Starting grants are always rank 1, so no ancestry, culture or class grant can supply the rank 2 that the Protector's Battleaxe and the Leader's Longsword demand."
+      },
+      {
+       "source": "quarto-book/chapters/02-character-creation.qmd:157",
+       "claim": "The only creation channel to rank 2 is a Background DP deepening at 2 same, which prices the two over-rank kit items."
+      },
+      {
+       "source": "quarto-book/chapters/02-character-creation.qmd:153",
+       "claim": "Ancestry grants one rank 1 Discipline, the channel that closes the twelve rank 1 kit shortfalls."
+      },
+      {
+       "source": "quarto-book/chapters/02-character-creation.qmd:155",
+       "claim": "Culture grants one or two rank 1 Disciplines, the second channel for the rank 1 shortfalls."
+      },
+      {
+       "source": "quarto-book/chapters/05-classes.qmd:53",
+       "claim": "The Protector's class grant is Armor plus one weapon rank, so its printed Battleaxe (2 Axes) and its printed shield (1 Protection) sit outside the class's own ranks."
+      },
+      {
+       "source": "quarto-book/chapters/05-classes.qmd:59",
+       "claim": "The Protector's printed starting kit names the Battleaxe, the rank 2 item at issue, and a shield."
+      },
+      {
+       "source": "quarto-book/chapters/05-classes.qmd:334",
+       "claim": "The Leader's class grant is Tactics plus Protection, so it holds no Blades for the printed Longsword and no Polearms for the printed spear, while its shield is legal."
+      },
+      {
+       "source": "quarto-book/chapters/05-classes.qmd:340",
+       "claim": "The Leader's printed starting kit names the Longsword, the second rank 2 item, and a spear."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:144",
+       "claim": "The Class Recommendations table already prints the Protector's kit in the armament category form the reconciliation adopts."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:150",
+       "claim": "The same category form is already printed for the Leader, so the nine ch05 kit lines are the only named-weapon kit surface left."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:159",
+       "claim": "The recommendation table's own rule makes the category form authoritative and the named weapon an example."
+      }
+     ]
+    },
+    {
+     "id": "f-030",
+     "round": 2,
+     "speaker": "Speaker F",
+     "stance": "support",
+     "argument": "CLAIM: damage is driven by exactly one variable, the tier of the card, and a weapon contributes zero damage terms; therefore the only ladder-safe way for a weapon to matter is to route the hero into the existing card pool, not to add a number to the gear table.\n\nARITHMETIC 1, the ladder has no room for a constant. The band rows are stated three times and agree: the Novice band reads 4, 6 and 8; the Adept band reads 5, 8 and 11; the Master band reads 7, 10 and 14 (08:214-216 and 17:29). The gaps are +1/+2/+3 from Novice to Adept and +2/+2/+3 from Adept to Master, so the tightest boundary in the whole ladder is 1 point (Novice Weak 4 to Adept Weak 5). A flat gear bonus F is level-invariant: it sits on a level 1 card and a level 10 card alike. F=1 puts a Novice Weak (4+1) level with an Adept Weak (5). F=2 puts the Novice Weak (6) above the Adept Weak (5) and the Novice Strong (8+2) level with the Master Standard (10). That is the round 1 result restated: the ladder inverts at +2, so the largest ladder-safe constant is 0.\n\nARITHMETIC 2, the number already lives on the card, not on the object. 15:200 states the tree's whole damage procedure: a melee strike folds Brawn into the damage row printed on its ability card, while missile and thrown attacks stay flat and add no attribute at all, and the weapon never changes these numbers. The item is a key, not a term.\n\nARITHMETIC 3, the level-gate law, derived and checked. Card price, legality and damage row are all functions of one variable, tier: 2 DP and level 1 for Novice, 4 DP and level 3 for Adept, 8 DP and level 7 for Master (08:145-148), with 10:61 stating the gate outright. Ranks run on their own clock: starting grants are always rank 1 (08:100), and levels 3, 6 and 9 each hand you one further Discipline rank (08:104), so rank 2 exists at level 3 and rank 3 at level 6. Define gate(card) = max(tier gate, level of the deepest rank its recipe demands), with rank floors 1/3/6. Checked against every class ability that prints both a tier and a recipe, 79 rows, 32 Novice and 26 Adept and 21 Master: zero cases where the rank floor exceeds the tier gate, because the author kept every Novice row to a rank-1 recipe and put the book's single rank-3 class recipe, Overload, on a Master row (05:713). So the law holds as printed and needs no new rule. A weapon written as a recipe deals the row of the tier it gates and arrives on the published curve: Novice at level 1, Adept at 3, Master at 7. Nothing can be reached early and nothing inverts, because the recipe's cost, its legality and its damage are the same variable. A gear number cannot do this. A gear number has no level in it, and that is the entire defect.\n\nARITHMETIC 4, what breaks today, measured. Of the 177 discipline-gated cards in 09/11/12, 22 print a Weak/Standard/Strong triple, in six different shapes: (2,4,6) three times, (4,6,8) four times, (5,8,11) four times, (1,2,3) three times, (7,10,14) twice, (1,1,1) six times. The Novice band alone is written four ways: 4/6/8 at 08:214, 2/4/6 at 08:226, 1/3/5 at 10:77 where cantrips are described as deliberately below the Novice row, and 1/2/3 at 21:47. Same tier, four floors, a factor of 4 between the smallest and the largest Weak value. The recipe does not predict the row either: Cyclone (09:236, 3 Blades, the deepest Blades gate in the book) prints a Weak of 2, while Sunshot (09:533, 3 Archery) prints a Weak of 7. Same rung, 5 points apart, and the more expensive card is the weaker one. The tier is printed nowhere: zero of the 177 cards in 09/11/12 states its tier, even though the tier is the card's entire price and its entire gate. Where the tier is printed the arithmetic holds; where the number is written in prose it drifts. Brimstone Burst is [Level 1] at 08:121 and (Adept, 2 Fire) at 08:185, one card, two gates, same chapter.\n\nARITHMETIC 5, riders die at the top. The book carries 15 +1 damage tier riders. The row above Master does not exist, because 17:29 stops at 7/10/14, so a rider on a Master card is worth 0/0/0, on an Adept card +2/+2/+3, on a Novice card +1/+2/+3. The better the card, the less one row up buys, and at the top it buys nothing: Overchannel (05:544, Master, 2 Energy and 1 Fire, 8 DP) pays for a rider whose value on an already-Master card is zero. Two of the three labelled damage claims in the class tables also name the wrong cell: Raw Force and Improvised Weapon both say Standard damage (4 per the damage budget), while 4 is the Novice Weak column and Novice Standard is 6.\n\nCONCLUSION, support for Coalition B. The weapon cannot be a number, because the ladder's smallest gap is 1 and a constant carries no level. The weapon can be a recipe, because the recipe inherits the tier's price, the tier's gate and the tier's row, and the tier's clock is the published clock. The bill is uniform and cheap: print the tier on every card, key every printed triple to its band, and stop pricing riders against a row that does not exist.",
+     "confidence": 0.72,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "quarto-book/chapters/08-disciplines.qmd:207",
+       "claim": "The damage band rows are declared the spine and declared total: everything else, weapons included, keys off them."
+      },
+      {
+       "source": "quarto-book/chapters/08-disciplines.qmd:214",
+       "claim": "The Novice band row, the floor of the ladder."
+      },
+      {
+       "source": "quarto-book/chapters/17-magic-items.qmd:29",
+       "claim": "The same three rows restated for magic items, confirming the ladder is single and shared."
+      },
+      {
+       "source": "quarto-book/chapters/10-magic-system.qmd:61",
+       "claim": "Legality is a function of tier, so the card's gate is a level gate."
+      },
+      {
+       "source": "quarto-book/chapters/08-disciplines.qmd:145",
+       "claim": "Price and level gate are printed side by side as one variable pair."
+      },
+      {
+       "source": "quarto-book/chapters/08-disciplines.qmd:148",
+       "claim": "Master: 8 DP and level 7, the top band."
+      },
+      {
+       "source": "quarto-book/chapters/08-disciplines.qmd:100",
+       "claim": "Every hero starts at rank 1, so a rank-1 card is the entry rung of a Discipline."
+      },
+      {
+       "source": "quarto-book/chapters/08-disciplines.qmd:104",
+       "claim": "Rank 2 arrives at level 3 and rank 3 at level 6, which are the rank floors used in the level-gate law."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:200",
+       "claim": "The weapon table's own text hands damage to the card and to the attack type, not to the weapon."
+      },
+      {
+       "source": "quarto-book/chapters/20-bestiary.qmd:142",
+       "claim": "A second printing of the Novice band, here as 2/4/6, showing the four-way split of one row."
+      },
+      {
+       "source": "quarto-book/chapters/10-magic-system.qmd:77",
+       "claim": "A third floor for the same tier, and an explicit statement that it is off the published row."
+      },
+      {
+       "source": "quarto-book/chapters/21-glossary.qmd:47",
+       "claim": "A fourth floor for the same tier, stated as a rule rather than as an exception."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:236",
+       "claim": "Cyclone, the deepest Blades gate in the book."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:238",
+       "claim": "Cyclone's damage line: 2 on a Weak result, below even the smallest Novice floor, on the most expensive Blades card."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:533",
+       "claim": "Sunshot, the deepest Archery gate in the book, the same rung as Cyclone."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:535",
+       "claim": "Sunshot's Weak is 7 against Cyclone's 2 at the identical rung, so the recipe does not predict the row."
+      },
+      {
+       "source": "quarto-book/chapters/05-classes.qmd:544",
+       "claim": "Overchannel, a Master class ability, the priced example of a rider bought at the top of the ladder."
+      },
+      {
+       "source": "quarto-book/chapters/08-disciplines.qmd:121",
+       "claim": "Brimstone Burst printed at level 1."
+      },
+      {
+       "source": "quarto-book/chapters/08-disciplines.qmd:185",
+       "claim": "The same card printed as Adept, two gates for one card in one chapter."
+      },
+      {
+       "source": "quarto-book/chapters/05-classes.qmd:538",
+       "claim": "The class table's damage claim: 4 is the Novice Weak cell, not Standard, which is 6."
+      },
+      {
+       "source": "quarto-book/chapters/08-disciplines.qmd:135",
+       "claim": "Tier fixes name, gate and price in one sentence, the level-gate law in the book's own words."
+      }
+     ]
+    },
+    {
+     "id": "f-034",
+     "round": 2,
+     "speaker": "Speaker A",
+     "stance": "support",
+     "argument": "A WEAPON IS A TAG SET AND A DAMAGE TYPE, AND IT CARRIES NO MAGNITUDE. That is dimension 1 in one sentence, and it is the only description of a weapon that survives contact with the printed spine: 15:163 rules that a weapon has no say in how hard you hit, 15:200 says the weapon never changes these numbers, and 15:23 confines the kit layer to one figure, the DR that its covering purchases. That leaves a weapon exactly two identity surfaces, what it lets you attempt and what it is made of. Round 1 put identity in the permission layer and named DAMAGE TYPE as its empty home. This finding makes both halves implementable and settles dimension 5 by giving every one of the seven printed properties a tag and a named consumer.\n\nTHE GAP, MEASURED. The book prints an eight-tag vocabulary at 15:25 and seven weapon properties at 15:213-219, and the two lists have never met: weapon:finesse, weapon:reach, weapon:thrown, weapon:light, weapon:versatile and weapon:loading occur zero times anywhere in the chapters. The properties are prose, the tags are strings, and the Properties column at 15:171 is neither. Three consequences are load-bearing defects, not cosmetics. First, there is no satisfaction rule: 15:25 lists tags and never states what item satisfies one. Second, weapon:ranged is one tag carrying two incompatible range envelopes, Basic Archery at 60/120 ft (09:183) and Basic Thrown at 20/60 ft (09:192), so a bow cannot use the thrown card that shares its tag and a dagger cannot use the archery card that shares its tag. Third, a legal kit can buy itself out of the floor attack: Basic Melee (09:174) requires weapon:one-hand, while the Armament line sells a Two-handed weapon for 2 of the hero's six kit points (15:40, 15:58), and 14 of the 17 weapon table rows are melee armaments that a melee floor attack should serve.\n\nTHE SPECIFICATION.\n\n1. Vocabulary, 8 tags to 15. The seven properties become seven tags. Six are new strings: weapon:finesse, weapon:reach, weapon:thrown, weapon:light, weapon:loading, weapon:versatile. The seventh, Two-Handed, already has a tag in print, weapon:two-hand, which is the most-used weapon tag in the book at three gates (09:236, 09:326, 09:335); it is promoted from an ad-hoc string to the property tag it always was. One further tag is required by the floor-attack defect: weapon:melee, meaning any armament held in one or both hands. An item's tag set is the Properties column generalized: the table already has that column, the change is that the column becomes the item's tag set.\n\n2. The satisfaction rule the vocabulary lacks. Four clauses, none of which needs new syntax. R1 membership: a card requiring tag X is legal with an item whose tag set contains X. R2 containment: weapon:melee is satisfied by any armament held in one or both hands, which covers 14 of the 17 rows (every melee weapon, excluding Shortbow, Longbow and Crossbow); weapon:two-hand is satisfied by a Two-Handed or Versatile armament; weapon:thrown is satisfied by a Thrown armament; weapon:ranged is satisfied by an armament whose Range cell is not the thrown envelope. R3 the both-ways case: a Versatile armament satisfies weapon:one-hand and weapon:two-hand, which is what 15:213 already says in prose and what nothing currently consumes. R4 conjunction, never disjunction: a card carrying more than one tag requires one wielded item satisfying every tag stated, which is why the floor attack is fixed by containment rather than by listing alternatives, and why the vocabulary stays single-valued per card with no OR grammar.\n\n3. The re-key surface is three lines. 09:174 weapon:one-hand becomes weapon:melee, which is the state 15:202 already assumes when it rules that improvised weapons deal the Basic Unarmed floor. 09:192 weapon:ranged becomes weapon:thrown, splitting the overloaded tag while 09:183 keeps weapon:ranged for the 60/120 envelope. Long Spear Rebuke (09:425) carries no Kit field today and gains weapon:reach, giving the Reach property its first card consumer.\n\n4. Dimension 5, the fate of the seven properties, each with its tag and its consumer. Finesse, weapon:finesse, consumed by the substitution the card text already assumes (15:214 and Basic Melee's parenthetical), now checkable instead of asserted. Reach, weapon:reach, consumed by Long Spear Rebuke. Thrown, weapon:thrown, consumed by Basic Thrown and the thrown envelope, replacing the prose inventory at 15:216. Light, weapon:light, converting the off-hand rule at 13:290 from a sentence into a tag requirement. Loading, weapon:loading, keying the crossbow reload Maneuver at 15:218. Two-Handed, weapon:two-hand, consumed by the three gates already in print. Versatile, weapon:versatile, consumed by the R3 containment clause; today it is the only property with no mechanical consequence beyond a slot count.\n\nWHY THIS IS ARCHITECTURE A AND NOT A COMPROMISE. Not one clause adds a number: membership and containment are permission operations, so 15:23 and 15:200 hold by construction rather than by good behaviour. The identity surface grows from eight strings and a prose column to fifteen tags, four containment clauses and one readability rule, at a cost of three card lines and zero magnitude.",
+     "confidence": 0.78,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:25",
+       "claim": "The whole permission vocabulary is eight tags, none of them a property, and no satisfaction rule is stated anywhere in the sentence."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:171",
+       "claim": "The weapon table already carries a Properties column, so the seven properties exist as structured identity that is not machine-readable."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:213",
+       "claim": "Versatile, the property assigned to the Longsword alone, has no mechanical consequence beyond a slot count."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:214",
+       "claim": "Finesse already implies an attribute substitution that cards assume in prose; weapon:finesse makes it checkable."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:215",
+       "claim": "Reach names two weapons and has no card that demands it, so weapon:reach needs the Long Spear Rebuke gate."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:216",
+       "claim": "Thrown is defined by a range envelope, which is the envelope Basic Thrown prints at 09:192."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:217",
+       "claim": "Light names three weapons and its only rule is prose at 13:290, so weapon:light converts a sentence into a tag requirement."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:218",
+       "claim": "Loading is a rule about a Maneuver attached to exactly one weapon, the crossbow, which a tag can key."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:219",
+       "claim": "Two-Handed is the one property that already has a tag, weapon:two-hand, and the line itself contrasts it with Versatile."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:174",
+       "claim": "The floor attack requires weapon:one-hand, so a hero whose kit is the two-handed armament fails the attack every character is meant to have."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:183",
+       "claim": "Basic Archery requires weapon:ranged at 60/120 ft, the bow envelope."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:192",
+       "claim": "Basic Thrown requires the same weapon:ranged tag at 20/60 ft, proving the tag carries two incompatible envelopes and must be split into weapon:thrown."
+      },
+      {
+       "source": "quarto-book/chapters/13-combat.qmd:290",
+       "claim": "The Light property is already the key of a printed rule; weapon:light makes that rule a tag requirement rather than prose."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:425",
+       "claim": "Long Spear Rebuke is a Polearms maneuver with no Kit field, the cleanest place to give Reach its first card consumer."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:40",
+       "claim": "The two-handed armament costs 2 of the six kit points, so the floor-attack gap is reachable by a legal, ordinary purchase."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:58",
+       "claim": "The kit budget is six points, which fixes the price of the armament choices."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:202",
+       "claim": "Improvised weapons already deal the Basic Unarmed floor, so containment on weapon:melee matches the book's existing assumption that a melee armament gives you a melee attack."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:163",
+       "claim": "Printed doctrine: a weapon does not decide how hard you hit, which is the claim the tag-set definition has to satisfy."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:200",
+       "claim": "Printed doctrine: the weapon never changes these numbers, so any spec that adds a number contradicts the spine."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:23",
+       "claim": "The kit layer is defined as numberless except for the DR covering buys, which is the doctrinal boundary the tag vocabulary respects."
+      },
+      {
+       "source": "terminal: grep -rc 'weapon:finesse|weapon:reach|weapon:thrown|weapon:light|weapon:versatile|weapon:loading' *.qmd | grep -v ':0' | wc -l",
+       "claim": "Measured: zero occurrences of any property tag anywhere in the chapters, so the seven properties have no tag consumer at all today."
+      },
+      {
+       "source": "terminal: grep -ho 'Kit:\\* weapon:[a-z-]*|Kit:\\* shield' 09-talents-abilities.qmd | sort | uniq -c ; grep -c '(Weapon Maneuver)' ; card-block parse",
+       "claim": "Measured: 12 Kit fields across 72 talent cards, of which 10 are weapon-family (3 weapon:two-hand, 3 weapon:ranged, 2 weapon:one-hand, 1 weapon:unarmed, 1 shield), while 34 of the 40 Weapon Maneuver cards carry no Kit field."
+      },
+      {
+       "source": "terminal: grep -o 'weapon:[a-z-]*|shield|focus:[a-z]*' 15-equipment.qmd | sort -u | wc -l ; sed -n '171,190p' 15-equipment.qmd | grep -c '^    \\['",
+       "claim": "Measured: the vocabulary is exactly 8 tags and the hero weapon table has exactly 17 rows, which fixes both sides of the satisfaction rule."
+      }
+     ]
+    },
+    {
+     "id": "f-036",
+     "round": 2,
+     "speaker": "Speaker C",
+     "stance": "support",
+     "argument": "Dimension 5, property by property, each with the consumer that actually reads it. Round 1 established that the brief's four item list of what a weapon decides was incomplete; the round 2 brief is wrong in the other direction too. It states that rule consumers exist for every property but Versatile. Measured by grep across the 25 chapter files, only three of the seven are read by a rule outside their own definition: Finesse, Light and Two-Handed. Reach, Thrown and Loading are read by nothing, and Versatile is read by nothing but a contradiction. The librarian's f-023 assigns the tag strings; this finding establishes what each tag has to replace, and which two properties cannot earn one.\n\nFINESSE, keep and convert. It is the most read property in the book: five rule sites across four chapters, the Basic Melee card printing the substitution on its tier lines, the Melee Damage callout in the equipment chapter, the Attribute Scaled entry and two prose lines in the disciplines chapter, and the combat chapter's worked example that turns it into a final number. Re-keying implied: none in the tables, because the cells already carry the word Finesse and the tag is that word lowercased. It is the one property whose tag is free.\n\nREACH, convert and author its first consumer. Its only written effect is its own bullet and its glossary copy. No combat line grants the 10 ft attack, and the three reach notations in the bestiary (20:182, 20:503, 20:603) are monster stat block prose, not reads of the hero property. Re-keying implied: zero cells. The whole cost sits on the consumer side, because a tag nothing reads is a rename, not a rule.\n\nTHROWN, convert and re-key one card. Nothing reads the property: the closed vocabulary has no thrown tag, and Basic Thrown is gated weapon:ranged at a 20/60 ft range while each Thrown weapon's actual 20/60 ft is a Range cell. A Longbow therefore satisfies the thrown card and a Dagger's Thrown property buys it nothing. Re-keying implied: Basic Thrown moves from weapon:ranged to weapon:thrown, one line, and the Dagger, Handaxe, Spear and Throwing Dagger become its cast. The side effect is that a bow stops satisfying the thrown card, which is the defect being fixed rather than a cost.\n\nLIGHT, keep and convert. It has the strongest consumer in the book: the two-weapon rule names the property and lists its three weapons, the attack form that the gate protects resolves both weapons in one Action, the worked example reads it, and the mounted charge line excludes the off-hand strike from the charge benefit, so the property already reaches the mounted subsystem. Re-keying implied: zero cells, one kit change, priced in f-026. The rule layer is sound; what is missing is a way to buy the second weapon the rule assumes.\n\nLOADING, cut. The string reload occurs twice in the entire book, on the property's own bullet and its glossary copy; the name Loading occurs four times, two of which are table cells. The Maneuver economy it names is real, but no card, stat block or combat line implements a reload cost, so the property is a promise with no mechanic. Cutting it removes one bullet, one glossary entry and two cells, and the Crossbow keeps a distinct identity without it: it is the only two-handed weapon whose range is 20/60 ft against the Shortbow's 60/120 and the Longbow's 100/200. Nothing is lost, because nothing read it.\n\nTWO-HANDED, keep, already a tag, and finish it. It is the only property with a live tag and it has two consumer classes: three cards gate on weapon:two-hand, and the slot rule prices the grip at 2 slots. Its defect mirrors the Reach problem in reverse: Basic Melee is gated weapon:one-hand, so the Spear, Halberd, Shortbow, Longbow and Crossbow satisfy no basic attack card at all. Re-keying implied: the gate stays as written; what has to be authored is the satisfaction rule that the charter names as A's most concrete defect.\n\nVERSATILE, cut as a property and keep as a slot footnote. No rule reads it. Its one downstream consequence is the slot cost, and the book answers that question two ways: the slot rule says a two-handed weapon takes 2 slots, and the encumbrance example prices a longsword at 1 slot, even though the Longsword is the only Versatile weapon and the property exists to let it be used two-handed. The name also collides with the Human ancestry trait. Cutting it resolves the contradiction with no new column: the Longsword becomes a one-handed weapon that may be used two-handed at 2 slots, which is one sentence, not a subsystem.\n\nThe arithmetic of the trim. Cutting Loading and Versatile reduces A's platform from seven tags to five, and that matters because A's honest cost is its gate count. Across the five live weapon and shield tags the book spends exactly ten gates, a mean of 2.0 per tag, against fifty two for the three focus tags. Five new property tags at the observed mean is about ten new gate sites, which doubles the weapon gate surface while leaving focus parity untouched; seven tags would be about fourteen. Either number is affordable at roughly a quarter of the cheapest focus parity target, and the point is that it is computed from the book's own rate rather than asserted.",
+     "confidence": 0.84,
+     "rebutting": [],
+     "evidence": [
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:213",
+       "claim": "Versatile, the property of the Longsword alone, defines only a two-handed use option and names no rule consumer."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:214",
+       "claim": "Finesse is defined as an attribute substitution, which is the shape its consumers read."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:215",
+       "claim": "Reach is defined as a 10 ft attack envelope. This bullet is the only site in the book that states the effect."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:216",
+       "claim": "Thrown is defined as a 20/60 ft throw, the same envelope the Thrown weapons already print as a Range cell."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:217",
+       "claim": "Light is defined as permission to be the off-hand weapon, and unlike Reach and Thrown it has a live consumer."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:218",
+       "claim": "Loading is defined as a Maneuver cost. This bullet and its glossary copy are the only two places the string reload occurs in the book."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:219",
+       "claim": "Two-Handed is defined as a grip requirement plus a 2 slot cost, and it is the only property that also exists as a card tag."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:178",
+       "claim": "Finesse consumer 1: the Basic Melee card prints the substitution on its tier lines, so the card itself changes number depending on the property."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:200",
+       "claim": "Finesse consumer 2: the Melee Damage callout restates the rule in the equipment chapter."
+      },
+      {
+       "source": "quarto-book/chapters/08-disciplines.qmd:236",
+       "claim": "Finesse consumer 3: the disciplines chapter states the Brawn and Agility split for the damage system."
+      },
+      {
+       "source": "quarto-book/chapters/08-disciplines.qmd:234",
+       "claim": "Finesse consumer 4: the Attribute-Scaled rule states the substitution and names a class feature that extends it, which is the second-order consumer A has to preserve."
+      },
+      {
+       "source": "quarto-book/chapters/01-introduction.qmd:154",
+       "claim": "Finesse consumer 5: the opening fiction's worked roll reads the property, so the name is established before any table is opened."
+      },
+      {
+       "source": "quarto-book/chapters/13-combat.qmd:292",
+       "claim": "Finesse consumer 6: the worked combat example reads the property to produce a final number."
+      },
+      {
+       "source": "quarto-book/chapters/13-combat.qmd:290",
+       "claim": "Light consumer 1: the two-weapon rule names the property as a hard requirement, which is a real gate and not prose."
+      },
+      {
+       "source": "quarto-book/chapters/13-combat.qmd:274",
+       "claim": "Light consumer 2: the two-weapon attack form that the Light gate protects, one Action resolving both weapons."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:378",
+       "claim": "Light consumer 3: the mounted charge rule excludes the off-hand strike, so the property also reaches the mounted subsystem."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:174",
+       "claim": "Basic Melee carries the one-hand gate. With the two-hand gates on three other cards, this is the floor-card half of the satisfaction defect."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:192",
+       "claim": "Basic Thrown is gated on weapon:ranged, not on the Thrown property, so a bow satisfies the thrown card and a thrown weapon buys nothing with its own property."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:25",
+       "claim": "The closed vocabulary is eight tags and contains no property tag; weapon:two-hand is the only tag in the book that is also a weapon property."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:236",
+       "claim": "Two-Handed consumer 1: the Cyclone card gates on weapon:two-hand, the precedent A is generalizing."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:326",
+       "claim": "Two-Handed consumer 2: a second card gates on the same tag."
+      },
+      {
+       "source": "quarto-book/chapters/09-talents-abilities.qmd:335",
+       "claim": "Two-Handed consumer 3: a third card gates on the same tag, which is the book's observed rate of three card consumers per property tag."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:253",
+       "claim": "Two-Handed's second consumer class: the slot rule prices the grip requirement at 2 slots."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:257",
+       "claim": "The encumbrance example prices a longsword at 1 slot, which is the contradiction Versatile carries: the property exists to let that weapon be used two-handed, and the two-handed rule would charge it 2."
+      },
+      {
+       "source": "quarto-book/chapters/21-glossary.qmd:129",
+       "claim": "Reach's glossary copy repeats the definition and adds no consumer, so the property has two statements and no reader."
+      },
+      {
+       "source": "quarto-book/chapters/21-glossary.qmd:135",
+       "claim": "Loading's glossary copy repeats the definition. With the bullet at 15:218 these two lines exhaust the string reload in the whole book."
+      },
+      {
+       "source": "quarto-book/chapters/21-glossary.qmd:127",
+       "claim": "The glossary has to disambiguate Versatile against the Human ancestry trait, which is the collision a bare-name match would hit."
+      },
+      {
+       "source": "quarto-book/chapters/02-character-creation.qmd:64",
+       "claim": "The colliding name is printed in the character creation tables, the chapter where the player is told to record weapon properties."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:187",
+       "claim": "Two-Handed is carried by the Longbow, which the Armament line also prices as a Ranged weapon, the double price f-026 computes."
+      },
+      {
+       "source": "quarto-book/chapters/15-equipment.qmd:188",
+       "claim": "After Loading is cut the Crossbow is still distinct: it is the only two-handed weapon whose range is 20/60 ft against the Shortbow's 60/120 and the Longbow's 100/200."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Consumer census by property. Finesse 6 rule sites in 5 chapters, Light 3 in 2, Two-Handed 2 consumer classes in 2, Reach 0, Thrown 0, Loading 0, Versatile 0. This count falsifies the brief's claim that consumers exist for all but Versatile."
+      },
+      {
+       "source": "reasoning",
+       "claim": "A's honest gate cost, computed from the book's own rate. Across the five live weapon and shield tags the book spends exactly 10 gates, a mean of 2.0 per tag, against 52 for the three focus tags. Promoting 5 property tags at the observed mean is about 10 new gate sites; promoting 7 is about 14."
+      },
+      {
+       "source": "reasoning",
+       "claim": "Cutting Loading and Versatile costs nothing any rule reads, and it removes the string reload from the rule surface entirely, because both occurrences are the property's definition and its glossary copy."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "sealed_rulings": [],
+ "instruction": "You are a blind judge. You see ONLY the arguments as presented below. You have no access to, and no knowledge of, the underlying problem statement or sources. Speakers are anonymized: you see 'Speaker A', 'Speaker B', etc. Their roles, identities, and models are unknown and must not be inferred; weigh each argument on its merits alone. Rule on each contested topic. Output one ruling JSON object per topic, exactly matching the council ruling schema."
+}

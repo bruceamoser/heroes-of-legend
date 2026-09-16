@@ -1,0 +1,41 @@
+{
+ "argument": "Weapons-as-flavour fails as flavour, not as power: because the property layer that actually carries weapon identity has no tag, nothing in the game can price it, and the shipped weapon table therefore contains strict dominations rather than flavours. Longbow (1 Archery, Two-Handed, 100/200 ft) strictly dominates Shortbow (1 Archery, Two-Handed, 60/120 ft) - same Discipline, same 2 slots, three times the range, no drawback. Spear (1 Polearms, Reach/Thrown/Two-Handed) strictly dominates Halberd (1 Polearms, Reach/Two-Handed) - same Discipline, same 2 slots, one extra property. Dagger (1 Blades, Finesse/Light/Thrown, 20/60 ft) strictly dominates Shortsword (1 Blades, Finesse/Light) - same Discipline, same slots, plus Thrown. Crossbow (1 Archery, Loading/Two-Handed, 20/60 ft) is dominated by every other bow and additionally taxes a Maneuver per shot. What makes these dominations costless is the doctrine's own sentence: a kit weapon confers no maneuvers that demand Discipline training (15:196) - a weapon grants nothing but a gate, there are 62 usable gates in the book, and not one of them is written in the language of the properties the table sorts weapons by (zero matches book-wide for weapon:finesse|reach|thrown|light|versatile|loading). The concrete play situation where the flavour-only weapon is dead, not merely weak: a player who picks the crossbow for its reach takes a strictly worse weapon than the shortbow and no card, rule or number anywhere compensates; and a manoeuvre like Long Spear Rebuke - whose three outcome tiers are entirely about a long weapon's reach ('it cannot approach you' ... 'cannot use a Reaction while you threaten it') - carries no Kit field, so it plays identically with a dagger. The player asked to 'pick the weapon that fits your hero' is choosing between unpriced upgrades and unpriced downgrades, not between flavours.",
+ "confidence": 0.85,
+ "evidence": [
+  {
+   "claim": "The weapon table sorts weapons only by Discipline prerequisite, Properties, and Range - there is no damage, accuracy or cost column, so properties are the entire differentiator, and the differentiators reproduce as strict dominations.",
+   "quote_or_excerpt": "[Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft (thrown)] / [Shortsword], [1 Blades], [Finesse, Light], [] / [Spear], [1 Polearms], [Reach, Thrown, Two-Handed], [20/60 ft (thrown)] / [Halberd], [1 Polearms], [Reach, Two-Handed], [] / [Shortbow], [1 Archery], [Two-Handed], [60/120 ft] / [Longbow], [1 Archery], [Two-Handed], [100/200 ft] / [Crossbow], [1 Archery], [Loading, Two-Handed], [20/60 ft]",
+   "source": "quarto-book/chapters/15-equipment.qmd:170-188"
+  },
+  {
+   "claim": "The doctrine is stated explicitly: a kit weapon grants no maneuvers. Combined with 15:200 ('the weapon never changes these numbers'), the only thing a weapon can do is unlock a gate.",
+   "quote_or_excerpt": "Your class starting kit assumes training with its gear: you can wield kit weapons and use kit armor and shields regardless of Discipline prerequisites. Attack ability cards still require their listed Disciplines, wielding a kit weapon does not grant the maneuvers that require them.",
+   "source": "quarto-book/chapters/15-equipment.qmd:193-196 (Kit Gear callout)"
+  },
+  {
+   "claim": "No weapon modifies damage; the only weapon-side arithmetic is which attribute is added (Brawn, or Agility with Finesse), and missile/thrown weapons add nothing.",
+   "quote_or_excerpt": "Melee attacks add your Brawn to the damage row on your attack ability card; Finesse weapons use Agility instead. Missile and thrown attacks are flat, no attribute added. ... The weapon never changes these numbers.",
+   "source": "quarto-book/chapters/15-equipment.qmd:200"
+  },
+  {
+   "claim": "No card in the book can gate on, reward, or even reference a weapon property. This is an instrumented absence, not an assertion: the command was run across the whole chapters directory.",
+   "quote_or_excerpt": "$ grep -rnoE 'weapon:(finesse|reach|thrown|light|versatile|loading)' *.qmd   ->   (no output; grep exit=1, i.e. zero matches)",
+   "source": "quarto-book/chapters/*.qmd (book-wide instrument, cwd chapters/)"
+  },
+  {
+   "claim": "The Kit gate is the sole route through which armament alters what a hero is able to DO. It fires 10 times across the whole book, against 52 for spellcasting foci. This reproduces the brief's headline ratio exactly.",
+   "quote_or_excerpt": "$ grep -ho '\\*Kit:\\* *[a-zA-Z:_-]*' *.qmd | sed 's/^\\*Kit:\\* *//' | sort | uniq -c | sort -rn  ->  32 focus:arcane / 18 focus:holy / 3 weapon:two-hand / 3 weapon:ranged / 2 weapon:one-hand / 2 focus:primal / 1 weapon:unarmed / 1 shield (+ a field-legend label and the glossary definition of *Kit:* at 21:75, which are not cards). Focus 52, weapon-or-shield 10.",
+   "source": "quarto-book/chapters/*.qmd (book-wide Kit-gate census, cwd chapters/)"
+  },
+  {
+   "claim": "The dead-flavour counter-example: a manoeuvre named for and written entirely around a long spear's reach carries no Kit gate, so it is mechanically identical with a dagger, and no tag exists that could express the requirement.",
+   "quote_or_excerpt": "=== Long Spear Rebuke (Weapon Maneuver)\n*Disciplines:* 1 Polearms * Action: Action * Range: Melee * Keywords: Frightened, Control\n*Weak:* The target is Frightened of you until the end of its next turn: it cannot approach you.\n*Standard:* ... A target that is already Frightened of you cannot use a Reaction while you threaten it.\n*Strong:* ... must spend its next Movement moving away from you.",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:424-431"
+  }
+ ],
+ "id": "f-002",
+ "role": "contrarian",
+ "round": 1,
+ "stance": "refute",
+ "topic": "t-02"
+}

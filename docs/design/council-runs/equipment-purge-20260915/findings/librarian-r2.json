@@ -1,0 +1,59 @@
+{
+  "id": "f-008",
+  "round": 2,
+  "role": "librarian",
+  "topic": "t-02",
+  "stance": "support",
+  "argument": "Tested the leading plank -- that the named tables carry mechanical content with no destination -- on the largest table it is claimed for, the 37-row adventuring-gear catalog, by looking for a surface inside the surviving kit model that already names the same objects. One exists, and neither round counted it: the third column of the pack table is a list of named things, and the pack layer belongs to the kit model the purge keeps. Of the 37 gear rows, 23 name an object that is also named in a pack contents cell -- 16 on a literal token and 7 more on a plain synonym (a grapnel, bandages, picks, tongs, cosmetics, a journal, reagents) -- and the free pack alone carries five of them, so the plank fails for the identity half of the gear family. It survives for that family's mechanical half: no contents cell carries a slot number or a rule from the notes column, the gear rows hold four slot values with no derivable rule (a focus is free while a bedroll costs two), and the pack layer's 16 tags have exactly one reader outside their own table, the glossary's pack headword, so the category vocabulary for gear is defined and nearly unread. Probe records for the other contested topics, run rather than argued. Properties: I re-tested the five read as homeless and found no counter-example; each definition and each item assignment lives only in the two item-indexed lists and the reprint, with two partial exceptions -- the two-handed slot payload is restated by item type in the encumbrance rule, and an agility substitution is stated by discipline domain in the Blade's signature ability, which names no weapon. Armour: no counter-example either, but one count correction -- the eight rows carry three distinct slot values, not four, and the class fixes damage reduction and donning time while the surviving prose gives only a band, so that burden stands. The gate: no counter-example; the armour and gear tables have no Discipline column at all, the third-rank armour string occurs once in the nine files, and none of the ninety class-card prerequisite rows asks for any rank of the Axes discipline while the dwarf ancestry and two cultures grant it. Scope: this rebuts f-001 only where it frames the named tables as content the kit layer does not already carry, and only for the gear family; its weapon, armour and mount measurements stand. The corrective for the plan is to scope gear relocation to slot values and note rules rather than to all 37 rows.",
+  "evidence": [
+    {
+      "source": "15-equipment:94 (pack table, Adventurer's Pack row)",
+      "claim": "The pack table's third column names concrete objects rather than capabilities in the abstract, and the free pack's own contents already list five objects that are also rows of the gear catalog.",
+      "quote_or_excerpt": "[*Adventurer's Pack*], [-], [Free with every kit: backpack, bedroll, waterskin, flint and steel, a week of rations, torches.],"
+    },
+    {
+      "source": "15-equipment:94-110 vs 15-equipment:275-311",
+      "claim": "Cross-reading the pack contents cells against the 37 gear rows gives 23 shared objects, most of them under the same noun, which is what makes the pack layer a destination rather than a neighbour.",
+      "quote_or_excerpt": "[*Thieves' Pack*], [`thieves`], [Picks, files, a mirror on a wire, chalk, a shim.],"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Worked count of the overlap, plus the two count corrections this test produced (armour slot values, gear slot values).",
+      "quote_or_excerpt": "Gear rows: 37. Pack rows: 17, tags: 16. Literal-token matches: 16 (Backpack, Bedroll, Chalk, Hammer, Ink & Pen, Lantern, Manacles, Mirror, Oil, Parchment, Pitons, Rations, Rope Hemp, Rope Silk, Torch, Waterskin). Synonym matches: 7 (grapnel->Grappling Hook, bandages->Healer's Kit, cosmetics->Disguise Kit, tongs->Smith's Tools, picks->Thieves' Tools, journal->Spellbook, reagents->Volatile Reagents). Named in a pack contents cell: 23 of 37; unmatched: 14. Armour slot column: 8 rows, values 2,2,2,2,3,3,4,4 -> 3 distinct values, not 4; DR 1,1,1,2,2,3,3,3 tracks the weight class. Gear slot column: values 0/1/2/3 with counts 8/22/6/1 and no rule tying a value to a category."
+    },
+    {
+      "source": "21-glossary:77",
+      "claim": "The book states the capability framing of packs twice (equipment chapter and glossary), which is the framing a post-purge gear surface needs and cannot invent.",
+      "quote_or_excerpt": "*Pack:* A capability you carry, bought with a leftover kit point, such as the `climbing` pack or the `healer` pack. Every hero also has the free Adventurer's Pack. A pack is what you brought, not a shopping list."
+    },
+    {
+      "source": "15-equipment:95-110 (Tag column) counted over the nine files",
+      "claim": "The pack layer carries 16 category tags, and a token search for the backticked forms across the nine files returns 18 hits: the 16 tag cells plus two mentions in the glossary's pack headword. No card, table or rule elsewhere reads a pack tag.",
+      "quote_or_excerpt": "[*Grave-Tender's Pack*], [`spade`], [A spade, a pick, a lantern, oil, a winding sheet, salt and iron.],"
+    },
+    {
+      "source": "15-equipment:308 (Thieves' Tools row)",
+      "claim": "The mechanical half of the gear table is not carried by the pack layer: the rules in the notes column and the slot numbers live only in the gear table, so the destination covers identities and not mechanics.",
+      "quote_or_excerpt": "[*Thieves' Tools*], [1], [Lockpicks, files, and tension wrenches in a leather roll. Required for lockpicking and disabling mechanical traps. Without these, you can't make Thievery checks to pick locks. If you break a pick (fumble), you must replace it.],"
+    },
+    {
+      "source": "15-equipment:253 (encumbrance rule)",
+      "claim": "Probe result, properties: the only item-type restatement of a property payload in the corpus is the two-handed slot cost, so the property plank survives my test apart from that one exception.",
+      "quote_or_excerpt": "Most items take 1 slot. Armor takes 2-4 slots. Two-handed weapons take 2 slots."
+    },
+    {
+      "source": "05-classes:100 (Blade signature) and 08-disciplines:230",
+      "claim": "The one near-destination for the finesse property is a class signature that states the substitution by discipline domain and names no weapon, which is item-free but broader than the property set.",
+      "quote_or_excerpt": "*Signature, Swift Blade:* You may use Agility instead of Brawn when attacking with blades. When you exploit an opening (a target that is Dazed, Prone, or unaware of you), the attack deals +1 damage tier. Once per scene."
+    },
+    {
+      "source": "16-armor-shields:36 and 15-equipment:231 (armour table headers) vs 08-disciplines:192 (gate)",
+      "claim": "Probe result, gate: the armour tables carry no Discipline column in either copy, so the gate prose's third-rank armour requirement has no table to be verified against -- no counter-example found for f-003.",
+      "quote_or_excerpt": "table.header([Armor], [Class], [DR], [Slots], [Notes],),"
+    }
+  ],
+  "confidence": 0.78,
+  "rebutting": [
+    "f-001"
+  ]
+}

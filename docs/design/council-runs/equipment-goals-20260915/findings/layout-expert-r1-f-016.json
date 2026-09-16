@@ -1,0 +1,41 @@
+{
+ "argument": "I refute the surface inventory in the brief, because most of its counts do not survive contact with the book. First the card surface: the brief prices 64 cards carrying a Kit field, but 64 is the count of the literal string; 62 sit on card lines and only 10 of those ask for a weapon or shield tag, the other 52 asking for focus tags that no weapon decision can reach. The weapon-relevant card surface is 10, an overcount of more than six times. Second the armour surface: the brief puts the armour tables in chapter 16, but there are three copies with three column sets, at 15:231 (Armor/Class/DR/Slots), 16:37 (those four plus Notes) and 22:345 (four columns, unbolded names). Any slot or DR change is a three-file edit, so pricing the armour surface as one chapter understates it by two files. Third the weapon section is not a table: 15:161-222 also carries two callouts and a seven-bullet property list at 15:213-216 that restates the property-to-weapon mapping the table's Properties column already carries, so deleting the table leaves a second statement of the same mapping behind. Fourth, the brief omits the only other place specific weapons are named: the nine class Starting Kit lines in chapter 5, which name seven distinct weapons across the classes (Battleaxe, Shortsword, dagger, Shortbow, Longsword, Spear, throwing daggers). Those nine lines are the shortlist of prose that a purge silently breaks, and they belong in the blast-radius ledger. The duplication premise is confirmed and worse than stated: the copy at 22:367 diverges from the canonical copy in its header wording and in 14 of its 17 Range cells, and chapter 15 points the reader at an armour column that does not exist anywhere. One further correction: the mechanical-state note in my brief credits a kit with sixteen utility tags. That term does not occur in the chapters, and the four lines that do exist offer twelve priced options, five Armament, four Covering, two Focus and one Calling. The six-point and four-line figures I did confirm.",
+ "confidence": 0.86,
+ "evidence": [
+  {
+   "claim": "The 64 figure is a raw string count; the weapon-relevant card subset is 10 cards out of 62 card lines.",
+   "quote_or_excerpt": "$ grep -rn '\\*Kit:\\*' chapters/*.qmd | wc -l  -> 64\n$ grep -rc '\\*Kit:\\*' chapters/*.qmd | grep -v ':0'  -> 09-talents-abilities:12  11-arcane-spells:30  12-divine-spells:20  19-gm-guidance:1  21-glossary:1\n$ grep -rn '\\*Kit:\\*' chapters/*.qmd | grep -i 'weapon:\\|shield' | wc -l  -> 10\npython3 parse (=== heading with *Disciplines:* within 3 lines) -> 62 of the 64 sit on card lines; the other two are the format spec at 19:549 and the glossary entry at 21:75.",
+   "source": "chapters/*.qmd - Kit-field census (commands and output recorded)"
+  },
+  {
+   "claim": "The kit surface is 12 priced options across four lines; the vocabulary 'utility tag' the brief uses does not exist in the chapters.",
+   "quote_or_excerpt": "$ grep -rn 'utility tag\\|Utility tag' chapters/*.qmd  ->  (no output; exit 1)\ntable.header([Line], [Options], [Points],)\n    [*Armament*], [Unarmed], [0],   [], [One-handed weapon], [1],   [], [Ranged weapon], [1],   [], [One-handed weapon and shield], [2],   [], [Two-handed weapon], [2],\n    [*Covering*], [None], [0],   [], [Light armour], [1],   [], [Medium armour], [2],   [], [Heavy armour], [3],\n    [*Focus*], [None], [0],   [], [Holy, Arcane or Primal focus], [3],\n    [*Calling*], [Any one vocation], [1],\n$ grep -rn 'six points\\|four lines' chapters/*.qmd -> 15:29 'Every kit is built from four lines: Armament, Covering, Focus, and Calling.'  and  15:58 'You have six points to spend on your primary kit.'",
+   "source": "chapters/15-equipment.qmd:32-45 - the kit's four lines and their prices"
+  },
+  {
+   "claim": "The armour table exists in three divergent copies, not one, and the chapter 15 copy promises a column chapter 16 does not contain.",
+   "quote_or_excerpt": "15:231  table.header([Armor], [Class], [DR], [Slots],)\n16:37   table.header([Armor], [Class], [DR], [Slots], [Notes],)\n22:345  table.header([Armor], [Class], [DR], [Slots],)\n15:234 [*Studded Leather*], [Light], [1], [2]   |  16:40 [*Studded Leather*], [Light], [1], [2], [Leather reinforced with rivets. Light and quiet, the rogue's choice.]   |  22:348 [Studded Leather], [Light], [1], [2]",
+   "source": "chapters/15-equipment.qmd:231-239, chapters/16-armor-shields.qmd:37-44, chapters/22-reference-sheets.qmd:345-353"
+  },
+  {
+   "claim": "The cross-reference at 15:245 promises a Stealth column; the string Stealth appears zero times in the armour chapter, so the pointer is dangling and the reprint architecture is what let it rot.",
+   "quote_or_excerpt": "chapters/15-equipment.qmd:245  ->  'Full table with Stealth column: see @sec-chapter-armor-shields'\n$ grep -c 'Stealth' chapters/16-armor-shields.qmd  ->  0\n$ grep -rc 'Stealth' chapters/*.qmd | grep -v ':0'  -> 75 hits total across 16 files, 16-armor-shields.qmd absent from the list; 15-equipment.qmd has exactly 1, and it is line 245 itself.",
+   "source": "chapters/15-equipment.qmd:245 vs chapters/16-armor-shields.qmd (instrumented absence)"
+  },
+  {
+   "claim": "Nine class entries name specific weapons and are absent from the brief's surface list; they are prose a catalog purge breaks without warning.",
+   "quote_or_excerpt": "05:59   *Starting Kit:* Battleaxe, chain mail, shield, smith's tools.\n05:104  *Starting Kit:* Shortsword, dagger, leather armor, thieves' tools.\n05:156  *Starting Kit:* Arcane focus, dagger, scholar's robes, focus pouch, spellbook.\n05:201  *Starting Kit:* Shortsword, holy symbol, leather armor, healer's kit.\n05:246  *Starting Kit:* Shortsword, spellbook, scholar's robes, focus pouch, ink & pen.\n05:293  *Starting Kit:* Shortbow, dagger, leather armor, thieves' tools, 20 arrows.\n05:340  *Starting Kit:* Longsword, spear, leather armor, shield.\n05:411  *Starting Kit:* Spear, focus pouch, scholar's robes, six vials of volatile reagents.\n05:464  *Starting Kit:* Two daggers, 6 throwing daggers, leather armor, thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb ...",
+   "source": "chapters/05-classes.qmd - nine Starting Kit lines (book-wide grep)"
+  },
+  {
+   "claim": "The property-to-weapon mapping is stated twice inside the same section, so the table is not the sole carrier of what a purge deletes.",
+   "quote_or_excerpt": "*Properties:*\n- *Versatile*, can be wielded two-handed (Longsword only)\n- *Finesse*, use Agility instead of Brawn for attack and damage (Dagger, Shortsword, Throwing Dagger)\n- *Reach*, can attack targets 10 ft away (Spear, Halberd)\n- *Thrown*, can be thrown (range 20/60 ft: Dagger, Handaxe, Spear, Throwing Dagger)",
+   "source": "chapters/15-equipment.qmd:211-219 - the property list"
+  }
+ ],
+ "id": "f-016",
+ "role": "layout-expert",
+ "round": 1,
+ "stance": "refute",
+ "topic": "problem-scoping"
+}

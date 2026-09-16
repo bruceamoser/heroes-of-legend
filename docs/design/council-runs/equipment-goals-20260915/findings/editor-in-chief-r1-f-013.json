@@ -1,0 +1,51 @@
+{
+ "argument": "Supported with corrections: the brief's four weapon claims resolve, but three of its measurement rows do not, and a round-two solution that cites them inherits the error. Resolved: 15:200 is the melee damage callout, where Finesse users add Agility instead of Brawn (the Finesse property at 15:214 says attack and damage, so the brief understates the swap's scope); 13:270-292 is Two-Weapon Fighting, which requires the Light property on the off-hand weapon; 15:218 is Loading, one Maneuver to reload, echoed in the glossary at 21:135; and ten cards do gate on a weapon or shield, all ten in 09, four of them the Basic attacks with no Discipline requirement. Not verified. The row Standalone cards 188 counts occurrences of the Disciplines field; that total includes seven Discipline-granting magic items in 17, a field-definition bullet at 17:27 and a format legend at 19:549, while line-start card headers number 178 (134 gated, 44 ungated), so the brief's own rows of 141 and 45 sum to 186, not 188. The row Cards carrying a Kit: field 64 is 64 lines over 62 cards, the two extras being the 19:549 legend and the glossary definition at 21:75; the brief's own split of 52 and 10 confirms 62. The stated DR invariant parenthetical, Novice 2, Adept 6, Master 9, appears in none of the 25 chapters: the live ceiling is 3, 4 and 6, printed in five surfaces (16:25, 20:659, 20:665, 21:117, 22:398) and equal to each band's Weak value minus one, so the printed rule is stricter than the invariant the brief states. The citation no damage roll (08:214) points at the Novice band row; the rule is stated at 08:224. Style law: book text contains zero em-dashes across all 25 chapters (29 en-dashes, all in numeric ranges), so the law holds today, and any solution that rewrites a permission surface must keep it that way; the surfaces that must change together are 08:120 and 196, 15:15, 25, 163, 171-193, 196, 206, 16:60, 05:53 and 59, 07:114, 09:174, 236, 245, 13:290, 19:549, 556, 557, 21:75, 107, 135, and the duplicated weapon table at 22:383-393, which mirrors 15:171-193 and must be edited in step. One flag for the game-architect, offered not as a ruling: Ember Lance prints 2, 4 and 6 at 11:171-175 against the live Novice band 4, 6, 8 at 08:214, and 08:226 repeats the same low numbers as its Novice example.",
+ "confidence": 0.74,
+ "evidence": [
+  {
+   "claim": "Weapon claim one resolves: the damage callout puts the Finesse swap on the damage row, the property puts it on attack and damage, and Loading costs a Maneuver.",
+   "quote_or_excerpt": "Finesse weapons use Agility instead | *Loading*, requires a Maneuver to reload between shots",
+   "source": "quarto-book/chapters/15-equipment.qmd:200,214,218"
+  },
+  {
+   "claim": "Weapon claim two resolves: the Light property is the off-hand requirement in two-weapon fighting.",
+   "quote_or_excerpt": "The off-hand weapon must have the *Light* property (Dagger, Shortsword, Handaxe)",
+   "source": "quarto-book/chapters/13-combat.qmd:270,290"
+  },
+  {
+   "claim": "Weapon claim four resolves: exactly ten cards gate on a weapon or shield, all in chapter 09, four of them Basic attacks with no Discipline requirement.",
+   "quote_or_excerpt": "10 Kit-tagged cards: 3 weapon:two-hand, 3 weapon:ranged, 2 weapon:one-hand, 1 weapon:unarmed, 1 shield",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:174,183,192,201,236,245,263,326,335,344"
+  },
+  {
+   "claim": "The row of 188 standalone cards counts field occurrences, not cards: it includes magic items that grant Disciplines and two documentation lines, and line-start card headers number 178.",
+   "quote_or_excerpt": "*Disciplines:* -> 188 occurrences, 178 at line start (134 gated, 44 None)",
+   "source": "chapters/*.qmd (25 files, book-wide count)"
+  },
+  {
+   "claim": "The Kit: field count is 64 lines but 62 cards, because the same format legend and the glossary definition use the phrase outside a card header.",
+   "quote_or_excerpt": "*Kit:* -> 64 lines (52 focus, 10 weapon/shield, 2 non-card: 19:549, 21:75)",
+   "source": "quarto-book/chapters/19-gm-guidance.qmd:549 | quarto-book/chapters/21-glossary.qmd:75"
+  },
+  {
+   "claim": "No chapter states the brief's DR parenthetical; the ceiling is 3, 4 and 6 and appears in five surfaces, one lower than each band's Weak value.",
+   "quote_or_excerpt": "Your total DR cannot exceed 3 at Novice, 4 at Adept, or 6 at Master",
+   "source": "chapters/*.qmd (16:25, 20:659, 20:665, 21:117, 22:398)"
+  },
+  {
+   "claim": "The zero em-dash law holds today, so it is enforceable as a gate on the rewrites rather than a repair job; the 29 en-dashes all sit in ranges.",
+   "quote_or_excerpt": "em-dash U+2014 -> 0 occurrences across 25 chapters; en-dash U+2013 -> 29, all in ranges",
+   "source": "chapters/*.qmd (25 files, typography sweep)"
+  },
+  {
+   "claim": "Non-card uses of the Disciplines field and the correct location of the no-damage-roll rule, both needed before a solution quotes counts.",
+   "quote_or_excerpt": "17:27 is a field-definition bullet; 08:224 is the no-damage-roll rule, 08:214 is the Novice band row",
+   "source": "quarto-book/chapters/17-magic-items.qmd:27-28 | quarto-book/chapters/08-disciplines.qmd:120,224"
+  }
+ ],
+ "id": "f-013",
+ "role": "editor-in-chief",
+ "round": 1,
+ "stance": "support",
+ "topic": "problem-scoping"
+}

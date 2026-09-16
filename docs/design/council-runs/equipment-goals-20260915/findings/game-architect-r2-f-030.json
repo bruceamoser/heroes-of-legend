@@ -1,0 +1,116 @@
+{
+ "argument": "CLAIM: damage is driven by exactly one variable, the tier of the card, and a weapon contributes zero damage terms; therefore the only ladder-safe way for a weapon to matter is to route the hero into the existing card pool, not to add a number to the gear table.\n\nARITHMETIC 1, the ladder has no room for a constant. The band rows are stated three times and agree: the Novice band reads 4, 6 and 8; the Adept band reads 5, 8 and 11; the Master band reads 7, 10 and 14 (08:214-216 and 17:29). The gaps are +1/+2/+3 from Novice to Adept and +2/+2/+3 from Adept to Master, so the tightest boundary in the whole ladder is 1 point (Novice Weak 4 to Adept Weak 5). A flat gear bonus F is level-invariant: it sits on a level 1 card and a level 10 card alike. F=1 puts a Novice Weak (4+1) level with an Adept Weak (5). F=2 puts the Novice Weak (6) above the Adept Weak (5) and the Novice Strong (8+2) level with the Master Standard (10). That is the round 1 result restated: the ladder inverts at +2, so the largest ladder-safe constant is 0.\n\nARITHMETIC 2, the number already lives on the card, not on the object. 15:200 states the tree's whole damage procedure: a melee strike folds Brawn into the damage row printed on its ability card, while missile and thrown attacks stay flat and add no attribute at all, and the weapon never changes these numbers. The item is a key, not a term.\n\nARITHMETIC 3, the level-gate law, derived and checked. Card price, legality and damage row are all functions of one variable, tier: 2 DP and level 1 for Novice, 4 DP and level 3 for Adept, 8 DP and level 7 for Master (08:145-148), with 10:61 stating the gate outright. Ranks run on their own clock: starting grants are always rank 1 (08:100), and levels 3, 6 and 9 each hand you one further Discipline rank (08:104), so rank 2 exists at level 3 and rank 3 at level 6. Define gate(card) = max(tier gate, level of the deepest rank its recipe demands), with rank floors 1/3/6. Checked against every class ability that prints both a tier and a recipe, 79 rows, 32 Novice and 26 Adept and 21 Master: zero cases where the rank floor exceeds the tier gate, because the author kept every Novice row to a rank-1 recipe and put the book's single rank-3 class recipe, Overload, on a Master row (05:713). So the law holds as printed and needs no new rule. A weapon written as a recipe deals the row of the tier it gates and arrives on the published curve: Novice at level 1, Adept at 3, Master at 7. Nothing can be reached early and nothing inverts, because the recipe's cost, its legality and its damage are the same variable. A gear number cannot do this. A gear number has no level in it, and that is the entire defect.\n\nARITHMETIC 4, what breaks today, measured. Of the 177 discipline-gated cards in 09/11/12, 22 print a Weak/Standard/Strong triple, in six different shapes: (2,4,6) three times, (4,6,8) four times, (5,8,11) four times, (1,2,3) three times, (7,10,14) twice, (1,1,1) six times. The Novice band alone is written four ways: 4/6/8 at 08:214, 2/4/6 at 08:226, 1/3/5 at 10:77 where cantrips are described as deliberately below the Novice row, and 1/2/3 at 21:47. Same tier, four floors, a factor of 4 between the smallest and the largest Weak value. The recipe does not predict the row either: Cyclone (09:236, 3 Blades, the deepest Blades gate in the book) prints a Weak of 2, while Sunshot (09:533, 3 Archery) prints a Weak of 7. Same rung, 5 points apart, and the more expensive card is the weaker one. The tier is printed nowhere: zero of the 177 cards in 09/11/12 states its tier, even though the tier is the card's entire price and its entire gate. Where the tier is printed the arithmetic holds; where the number is written in prose it drifts. Brimstone Burst is [Level 1] at 08:121 and (Adept, 2 Fire) at 08:185, one card, two gates, same chapter.\n\nARITHMETIC 5, riders die at the top. The book carries 15 +1 damage tier riders. The row above Master does not exist, because 17:29 stops at 7/10/14, so a rider on a Master card is worth 0/0/0, on an Adept card +2/+2/+3, on a Novice card +1/+2/+3. The better the card, the less one row up buys, and at the top it buys nothing: Overchannel (05:544, Master, 2 Energy and 1 Fire, 8 DP) pays for a rider whose value on an already-Master card is zero. Two of the three labelled damage claims in the class tables also name the wrong cell: Raw Force and Improvised Weapon both say Standard damage (4 per the damage budget), while 4 is the Novice Weak column and Novice Standard is 6.\n\nCONCLUSION, support for Coalition B. The weapon cannot be a number, because the ladder's smallest gap is 1 and a constant carries no level. The weapon can be a recipe, because the recipe inherits the tier's price, the tier's gate and the tier's row, and the tier's clock is the published clock. The bill is uniform and cheap: print the tier on every card, key every printed triple to its band, and stop pricing riders against a row that does not exist.",
+ "confidence": 0.72,
+ "evidence": [
+  {
+   "claim": "The damage band rows are declared the spine and declared total: everything else, weapons included, keys off them.",
+   "quote_or_excerpt": "This is the balance spine. Spells are the guide; everything else keys off them.",
+   "source": "quarto-book/chapters/08-disciplines.qmd:207"
+  },
+  {
+   "claim": "The Novice band row, the floor of the ladder.",
+   "quote_or_excerpt": "[*Novice*], [4/6/8],",
+   "source": "quarto-book/chapters/08-disciplines.qmd:214"
+  },
+  {
+   "claim": "The same three rows restated for magic items, confirming the ladder is single and shared.",
+   "quote_or_excerpt": "Novice 4/6/8, Adept 5/8/11, Master 7/10/14.",
+   "source": "quarto-book/chapters/17-magic-items.qmd:29"
+  },
+  {
+   "claim": "Legality is a function of tier, so the card's gate is a level gate.",
+   "quote_or_excerpt": "Every card has a *level gate* set by its tier",
+   "source": "quarto-book/chapters/10-magic-system.qmd:61"
+  },
+  {
+   "claim": "Price and level gate are printed side by side as one variable pair.",
+   "quote_or_excerpt": "table.header([Tier], [Card DP Cost], [Level Gate],)",
+   "source": "quarto-book/chapters/08-disciplines.qmd:145"
+  },
+  {
+   "claim": "Master: 8 DP and level 7, the top band.",
+   "quote_or_excerpt": "[*Master*], [8 DP], [Level 7],",
+   "source": "quarto-book/chapters/08-disciplines.qmd:148"
+  },
+  {
+   "claim": "Every hero starts at rank 1, so a rank-1 card is the entry rung of a Discipline.",
+   "quote_or_excerpt": "Starting Disciplines from ancestry, culture, and class are always rank 1.",
+   "source": "quarto-book/chapters/08-disciplines.qmd:100"
+  },
+  {
+   "claim": "Rank 2 arrives at level 3 and rank 3 at level 6, which are the rank floors used in the level-gate law.",
+   "quote_or_excerpt": "At levels 3, 6, and 9, you gain one additional Discipline rank of your choice",
+   "source": "quarto-book/chapters/08-disciplines.qmd:104"
+  },
+  {
+   "claim": "The weapon table's own text hands damage to the card and to the attack type, not to the weapon.",
+   "quote_or_excerpt": "Missile and thrown attacks are flat, no attribute added.",
+   "source": "quarto-book/chapters/15-equipment.qmd:200"
+  },
+  {
+   "claim": "A second printing of the Novice band, here as 2/4/6, showing the four-way split of one row.",
+   "quote_or_excerpt": "2/4/6",
+   "source": "quarto-book/chapters/20-bestiary.qmd:142"
+  },
+  {
+   "claim": "A third floor for the same tier, and an explicit statement that it is off the published row.",
+   "quote_or_excerpt": "A cantrip's damage line is 1/3/5, deliberately below the Novice row",
+   "source": "quarto-book/chapters/10-magic-system.qmd:77"
+  },
+  {
+   "claim": "A fourth floor for the same tier, stated as a rule rather than as an exception.",
+   "quote_or_excerpt": "Novice cards use the Basic-card floor (1/2/3).",
+   "source": "quarto-book/chapters/21-glossary.qmd:47"
+  },
+  {
+   "claim": "Cyclone, the deepest Blades gate in the book.",
+   "quote_or_excerpt": "*Disciplines:* 3 Blades",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:236"
+  },
+  {
+   "claim": "Cyclone's damage line: 2 on a Weak result, below even the smallest Novice floor, on the most expensive Blades card.",
+   "quote_or_excerpt": "*Weak:* Hit all adjacent enemies for 2 damage.",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:238"
+  },
+  {
+   "claim": "Sunshot, the deepest Archery gate in the book, the same rung as Cyclone.",
+   "quote_or_excerpt": "*Disciplines:* 3 Archery",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:533"
+  },
+  {
+   "claim": "Sunshot's Weak is 7 against Cyclone's 2 at the identical rung, so the recipe does not predict the row.",
+   "quote_or_excerpt": "*Weak:* 7 damage and the target is Blinded until the end of its next turn.",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:535"
+  },
+  {
+   "claim": "Overchannel, a Master class ability, the priced example of a rider bought at the top of the ladder.",
+   "quote_or_excerpt": "[*Overchannel*], [Master], [2 Energy, 1 Fire]",
+   "source": "quarto-book/chapters/05-classes.qmd:544"
+  },
+  {
+   "claim": "Brimstone Burst printed at level 1.",
+   "quote_or_excerpt": "[Brimstone Burst], [2 Fire], [Level 1],",
+   "source": "quarto-book/chapters/08-disciplines.qmd:121"
+  },
+  {
+   "claim": "The same card printed as Adept, two gates for one card in one chapter.",
+   "quote_or_excerpt": "Brimstone Burst (Adept, 2 Fire)",
+   "source": "quarto-book/chapters/08-disciplines.qmd:185"
+  },
+  {
+   "claim": "The class table's damage claim: 4 is the Novice Weak cell, not Standard, which is 6.",
+   "quote_or_excerpt": "Standard damage (4 per the damage budget)",
+   "source": "quarto-book/chapters/05-classes.qmd:538"
+  },
+  {
+   "claim": "Tier fixes name, gate and price in one sentence, the level-gate law in the book's own words.",
+   "quote_or_excerpt": "each tier is a separate card with its own name, its own level gate, and its own flat price",
+   "source": "quarto-book/chapters/08-disciplines.qmd:135"
+  }
+ ],
+ "id": "f-030",
+ "role": "game-architect",
+ "round": 2,
+ "stance": "support",
+ "topic": "t-03"
+}
