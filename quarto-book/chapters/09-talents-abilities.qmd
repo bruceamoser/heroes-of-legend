@@ -42,11 +42,6 @@ The talents below are general. Any class may take any of them, though a talent t
 
 *Novice:* +2 maximum HP.
 
-=== Iron Skin (Talent)
-*Disciplines:* 1 Armor · *Action:* Passive · *Range:* Self · *Keywords:* DR
-
-*Novice:* +2 DR, in addition to your armor's DR.
-
 === Precision (Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
 
@@ -100,6 +95,8 @@ These six talents are the substitution family. Only one substitution applies to 
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* DR, Defend
 
 *Novice:* When you take the Defend maneuver, adjacent allies gain +2 DR until the start of your next turn.
+
+This DR does not stack with any other source of DR.
 
 === Refuse to Fall (Talent)
 *Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* HP
@@ -320,6 +317,8 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 
 *Strong:* +3 DR against one attack and counterattack for 4 damage.
 
+This DR does not stack with any other source of DR.
+
 === Disarm (Weapon Maneuver)
 *Disciplines:* 2 Melee · *Action:* Maneuver · *Range:* Melee · *Keywords:* Bane
 
@@ -355,6 +354,8 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Standard:* +2 DR against a charge; the attacker takes 6 damage.
 
 *Strong:* +2 DR against a charge; the attacker takes 8 damage.
+
+This DR does not stack with any other source of DR.
 
 === Dual Strike (Weapon Maneuver)
 *Disciplines:* 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Two attacks
