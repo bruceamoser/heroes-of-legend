@@ -57,7 +57,7 @@ What you wear is worth its points in DR: light armor grants 1, medium 2, heavy 3
 
 A shield is an active defense. You're not just wearing it, you're using it. When an attack comes in, you can throw the shield in its path.
 
-The number before each shield is a Discipline requirement: you need that many ranks in the Shields Discipline to wield it, unless it came in your class starting kit (kit gear assumes training, see @sec-chapter-equipment). The full rules live in @sec-chapter-disciplines
+The number before each shield is a Discipline requirement: you need that many ranks in the Shields Discipline to wield it, with no exception. The full rules live in @sec-chapter-disciplines
 
 *Buckler:* 1 Shields Discipline. Small, strapped to the forearm. Leaves your hand free for a second weapon or a wand.
 
@@ -99,13 +99,13 @@ Remember how this works. The DA never rolls for monsters (@sec-chapter-combat) T
 
 *Goblin 2 attacks:* "The second goblin circles wide, scimitar raised for an overhead cut. Challenge 1." Roric rolls 3d6 + 2. He rolls 1, 2, 3 = 6 + 2 = 8. *Weak.* The blow lands solid: Strong damage, 8. 8 - 3 = 5 damage. Roric doesn't flinch. He's at 5 HP now, and he's only been standing here one round.
 
-*Orc warchief attacks:* "The warchief says nothing. He doesn't need to. His greataxe comes around in a two-handed arc. Challenge 3." This is the one that matters. Roric rolls 3d6 + Brawn +2 + Parry +1 - 3 = 3d6. He rolls 4, 4, 3 = 11. *Standard.* The axe lands for Standard damage: 8.
+*Orc warchief attacks:* "The warchief says nothing. He doesn't need to. His greataxe comes around in a two-handed arc. Challenge 3." This is the one that matters. Roric rolls 3d6 + Brawn +2 + Parry +1 - 3 = 3d6. He rolls 4, 4, 3 = 11. *Standard.* The axe lands for Standard damage: 6.
 
 *Roric's player:* "Shield Block."
 
-He spends his reaction. The damage tier drops one step, Standard to Weak, and the incoming damage is now 5. 5 - 3 = 2 damage. The greataxe slams into Roric's shield, ringing off the boss like a temple bell. The haft cracks at the binding, but the blade never reaches him.
+He spends his reaction. The damage tier drops one step, Standard to Weak, and the incoming damage is now 4. 4 - 3 = 1 damage. The greataxe slams into Roric's shield, ringing off the boss like a temple bell. The haft cracks at the binding, but the blade never reaches him.
 
-That is 3 + 5 + 2 = 10 damage across the round, and Roric stands at 3 HP of his 13. Without the shield he would have taken 8 - 3 = 5 from that swing, and that is the difference between holding the choke point and going down in it. Shield Block is what the board in his hand is for, because the DR came from his armor and his training.
+That is 3 + 5 + 1 = 9 damage across the round, and Roric stands at 4 HP of his 13. Without the shield he would have taken 6 - 3 = 3 from that swing, and that is the difference between holding the choke point and going down in it. Shield Block is what the board in his hand is for, because the DR came from his armor and his training.
 
 #pagebreak()
 
