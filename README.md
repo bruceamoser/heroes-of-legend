@@ -10,7 +10,7 @@ Heroes of Legend is a ground-up redesign of an earlier playtest game. Characters
 
 **Core Rules Complete** — 25 chapters, reviewed and balance-audited through the full Council pipeline (Game Architect, Author, Editor-in-Chief), building to a single PDF via Quarto + a custom Typst theme.
 
-- 📕 [Latest Build (PDF)](https://github.com/bruceamoser/heroes-of-legend/releases/latest/download/Heroes-of-Legend.pdf) — 518 pages, post-Council draft (2026-08-12)
+- 📕 [Latest Build (PDF)](https://github.com/bruceamoser/heroes-of-legend/releases/latest/download/Heroes-of-Legend.pdf) — 390 pages, post-Council Wave 2 draft (2026-09-16)
 - 📖 [Original Playtest PDF (legacy reference)](source-doc/Heros%20of%20Legend-Playtest-v15.1.pdf)
 - 🎨 [Visual Style Guide](docs/visual-style-guide.md)
 - 📐 [Layout Guidelines](docs/layout-guidelines.md)
