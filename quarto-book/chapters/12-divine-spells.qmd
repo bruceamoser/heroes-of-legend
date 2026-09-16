@@ -200,7 +200,7 @@ This DR does not stack with any other source of DR.
 *Strong:* Attacks against the target have Bane for 3 turns; the target cannot be targeted for 1 round, and the ward also covers one ally within 10 ft.
 
 === Hallowed Ground (Divine Spell)
-*Disciplines:* 2 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* 20-ft radius · *Keywords:* DR, Burning
+*Disciplines:* 3 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* 20-ft radius · *Keywords:* DR, Burning
 
 *Weak:* Allies inside gain +1 DR.
 

@@ -92,7 +92,7 @@ These six talents are the substitution family. Only one substitution applies to 
 *Novice:* Boon on checks against fear and charm.
 
 === Guarding Stance (Talent)
-*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* DR, Defend
+*Disciplines:* 2 Protection · *Action:* Passive · *Range:* Self · *Keywords:* DR, Defend
 
 *Novice:* When you take the Defend maneuver, adjacent allies gain +2 DR until the start of your next turn.
 
@@ -313,7 +313,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 
 *Standard:* +2 DR against one attack.
 
-*Strong:* +3 DR against one attack and counterattack for 4 damage.
+*Strong:* +2 DR against one attack and counterattack for 4 damage.
 
 This DR does not stack with any other source of DR.
 
