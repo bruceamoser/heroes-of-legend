@@ -16,7 +16,7 @@ But fire's just the beginning. Ice that freezes blood in the veins. Lightning th
 
 Arcane magic is the art of telling the universe to sit down and shut up, and making it listen. You don't ask. You don't pray. You _impose._
 
-This chapter contains every arcane spell in the game: fifteen cantrips you know from the start, and fifty spell cards that run Novice, Adept, and Master. Every spell card carries a Discipline, an action, a range, and an effect. A Novice active card prints its Weak, Standard, and Strong outcomes; its Adept and Master family members are separate cards with their own names and a single Effect line. Key the numbers to the damage budget (@sec-damage-budget), and cast. Where a card prints half of a value, round down.
+This chapter contains every arcane spell in the game: fifteen cantrips you know from the start, and fifty-three spell cards that run Novice, Adept, and Master. Every spell card carries a Discipline, an action, a range, and an effect. A Novice active card prints its Weak, Standard, and Strong outcomes; its Adept and Master family members are separate cards with their own names and a single Effect line. Key the numbers to the damage budget (@sec-damage-budget), and cast. Where a card prints half of a value, round down.
 
 _See @sec-chapter-magic-system for how spellcasting works._
 
@@ -371,6 +371,8 @@ _Placeholder for final art._
 
 *Strong:* +3 DR against one attack; the attacker takes 2 damage and the ward reflects 3 damage.
 
+This DR does not stack with any other source of DR.
+
 === Unseen Hand (Arcane Spell)
 *Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained
 
@@ -633,5 +635,30 @@ _Placeholder for final art._
 *Standard:* For the scene, no creature in the room can shape a false statement; a lie turns to ash in the mouth, and what the speaker meant to hide is plain on their face.
 
 *Strong:* The room keeps what it hears, holding every word spoken in it for a day; a lie cannot be spoken in it at all, and every creature present hears the truth the speaker tried to hide.
+
+== Protection Spells
+
+Protection is the ward school. Bark Skin, Stone Skin, and Iron Skin are the ward ladder: DR for a caster who has none, +1 at Novice, +2 at Adept, +3 at Master. A ward does not add to armor, because a creature's DR comes from one source at a time, so use the higher of the ward and the steel. Each ward lasts 1 round, and sustaining it costs your Maneuver every turn: spend that Maneuver during your turn, or the spell ends at the start of it. Casting the ward also costs your Maneuver.
+
+=== Bark Skin (Arcane Spell)
+*Disciplines:* 1 Protection · *Requires:* focus:arcane · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
+
+*Effect:* +1 DR for 1 round, sustained with your Maneuver.
+
+This DR does not stack with any other source of DR.
+
+=== Stone Skin (Arcane Spell)
+*Disciplines:* 2 Protection · *Requires:* focus:arcane · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
+
+*Effect:* +2 DR for 1 round, sustained with your Maneuver.
+
+This DR does not stack with any other source of DR.
+
+=== Iron Skin (Arcane Spell)
+*Disciplines:* 3 Protection · *Requires:* focus:arcane · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
+
+*Effect:* +3 DR for 1 round, sustained with your Maneuver.
+
+This DR does not stack with any other source of DR.
 
 ```

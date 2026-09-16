@@ -479,7 +479,7 @@ The Knight assesses the threat. The Blade just drew blood. The Protector is a wa
 
 "I attack the Blade," the DA announces. "The Knight's longsword comes around in a brutal arc. Challenge −3. Kael, roll Defense."
 
-Kael has Agility +2 and no Dodge or Parry ranks. His buckler would let him Parry, but with no Parry rank it adds no roll bonus, so he defends with raw Agility. He rolls 3d6 + 2 − 3 = 3d6 − 1. Rolls 5, 3, 2 = 10 − 1 = 9. *Standard.* The Knight's Standard damage: 8. Kael has light armor and Iron Skin at Novice rank (DR 3). 8 − 3 = 5 damage. Kael drops from 11 HP to 6 HP. The Knight's blade bites through Kael's sleeve and into his shoulder. That one lands hard.
+Kael has Agility +2 and no Dodge or Parry ranks. His buckler would let him Parry, but with no Parry rank it adds no roll bonus, so he defends with raw Agility. He rolls 3d6 + 2 − 3 = 3d6 − 1. Rolls 5, 3, 2 = 10 − 1 = 9. *Standard.* The Knight's Standard damage: 8. Kael has light armor (DR 1). 8 − 1 = 7 damage. Kael drops from 11 HP to 4 HP. The Knight's blade bites through Kael's sleeve and into his shoulder. That one lands hard.
 
 Riposte doesn't trigger: it fires only when an enemy's blow is reduced to Weak damage, and the Knight landed a Standard hit. Kael keeps his Reaction for next round.
 

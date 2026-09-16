@@ -156,6 +156,29 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 == Protection Spells
 
+The three skin wards below are the ladder: Bark Skin, Stone Skin, and Iron Skin, DR for a caster who has none, +1 at Novice, +2 at Adept, +3 at Master. Each lasts 1 round, and sustaining it costs your Maneuver every turn: spend that Maneuver during your turn, or the spell ends at the start of it. Casting the ward also costs your Maneuver.
+
+=== Bark Skin (Divine Spell)
+*Disciplines:* 1 Protection · *Requires:* focus:holy · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
+
+*Effect:* +1 DR for 1 round, sustained with your Maneuver.
+
+This DR does not stack with any other source of DR.
+
+=== Stone Skin (Divine Spell)
+*Disciplines:* 2 Protection · *Requires:* focus:holy · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
+
+*Effect:* +2 DR for 1 round, sustained with your Maneuver.
+
+This DR does not stack with any other source of DR.
+
+=== Iron Skin (Divine Spell)
+*Disciplines:* 3 Protection · *Requires:* focus:holy · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
+
+*Effect:* +3 DR for 1 round, sustained with your Maneuver.
+
+This DR does not stack with any other source of DR.
+
 === Ward of Faith (Divine Spell)
 *Disciplines:* 1 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* DR
 
@@ -164,6 +187,8 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Standard:* The target gains +2 DR for 2 turns.
 
 *Strong:* The target gains +3 DR for 3 turns; an attacker that hits the target takes 2 radiant damage.
+
+This DR does not stack with any other source of DR.
 
 === Sanctuary (Divine Spell)
 *Disciplines:* 1 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
@@ -182,6 +207,8 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Standard:* Allies inside gain +2 DR.
 
 *Strong:* Allies inside gain +3 DR; undead inside take Burning 3 radiant damage.
+
+This DR does not stack with any other source of DR.
 
 === Sacred Barrier (Divine Spell)
 *Disciplines:* 2 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Bane

@@ -20,11 +20,11 @@ Shields are different. A shield is not a passive number on your sheet, it is an 
 
 When you take physical damage, subtract your Damage Reduction (DR) from the damage value. The remainder is what you actually lose from your HP. A hit always lands for at least 1 damage, no matter how much DR you have. Simple.
 
-Your DR is your armor's DR plus what your talents add. Armor's DR is set by its weight class: light 1, medium 2, heavy 3. Heavier armor is heavier in every sense, and in the kit builder it costs more points. So the steel you wear and the training you have done stack, and a well-armored veteran is harder to hurt than either alone.
+Your DR comes from one source at a time: your armor, a talent, or a spell. Armor's DR is set by its weight class: light 1, medium 2, heavy 3. Heavier armor is heavier in every sense, and in the kit builder it costs more points. If more than one source gives you DR, use the highest. The sources do not add, and a shield is the one exception: shield DR is added after the ceiling.
 
-*There is a ceiling.* Your total DR cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A hit must always be able to land for something, and the three tiers of a damage band have to stay distinct at every level. If DR could climb past that ceiling the roll would stop carrying information, and light, medium, and heavy armor would stop being three different choices. Armor and training stack up to the ceiling, and no further.
+*There is a ceiling.* Your total DR cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A hit must always be able to land for something, and the three tiers of a damage band have to stay distinct at every level. If DR could climb past that ceiling the roll would stop carrying information, and light, medium, and heavy armor would stop being three different choices. The highest source governs up to the ceiling, and no further.
 
-*Example:* Kael wears light armour, so his armour grants DR 1. He has Iron Skin at Novice rank, which adds +2. His total DR is 3. A goblin's scimitar hits him for Weak damage (4). 4 - 3 = 1, so Kael takes 1 damage. When the same goblin lands a Standard hit (6), Kael takes 3 instead of 6.
+*Example:* Kael wears light armour, so his armour grants DR 1. He is also under Bark Skin, which grants +1 DR. The two do not add: his DR is the higher of the two, 1. A goblin's scimitar hits him for Weak damage (4). 4 - 1 = 3, so Kael takes 3 damage. When the same goblin lands a Standard hit (6), Kael takes 5 instead of 6.
 
 #pagebreak()
 
@@ -93,21 +93,21 @@ Shield Block cannot reduce damage below 1. It can be used against melee attacks,
 
 == Worked Example: Choosing Your Armor
 
-Roric is building a dwarf Protector at Level 1. He has Brawn +2, Fortitude +1, 13 HP, 1 Armor Discipline rank, and he has taken Iron Skin at Novice rank, which adds +2 DR. He wants to be the party's wall, but the wall has to fit inside a pack. Here's how he weighs his options:
+Roric is building a dwarf Protector at Level 1. He has Brawn +2, Fortitude +1, 13 HP, and 1 Armor Discipline rank. He wants to be the party's wall, but the wall has to fit inside a pack. He has watched the ward ladder work for the party's casters: Bark Skin for +1 DR, Stone Skin for +2, each one self only and sustained by a Maneuver every round. Here's how he weighs his own options:
 
 *Leather:* Light, DR 1, 2 slots, 1 minute to don.
 
 *Chain Mail:* Heavy, DR 3, 4 slots, 10 minutes to don.
 
-With leather his total DR is 3. With chain mail it is also 3, because the ceiling holds at Novice: Iron Skin has already taken him to the limit, and heavier steel cannot push past it. That is the real trade. Chain mail costs two more slots and leaves him no harder to hurt. Roric takes the leather. He would rather carry the rope, keep his three points of protection, and be able to arm in a minute than spend two slots for the same wall and be slow to rise.
+With leather his DR is 1. Neither ward would change that for him even if one could be cast on him: a ward does not add to armor, so leather plus Bark Skin is still 1. The two wards do not add to each other either: even with both up, a caster's DR is the higher number, and each ward still costs its own Maneuver. With chain mail his DR is 3, which Stone Skin cannot match, and the steel costs no Maneuver to keep. That is the real trade. Chain mail costs two more slots, and it never asks a caster to spend a turn on it. Roric takes the chain mail. He would rather carry the weight than stand behind a ward that has to be paid for every round.
 
-Armor is a decision about what the character can carry, what they give up in points, and how fast they can arm. The DR is what those points buy, and the choice is whether the extra DR is worth everything else it costs.
+Armor is a decision about what the character can carry, what they give up, and how fast they can arm. The DR is what those choices buy, and for the hero already wearing armor a ward is no substitute: the ladder is the unarmored caster's path to the same numbers.
 
 #pagebreak()
 
 == Worked Example: Shield Block in Combat
 
-Roric is holding a choke point against two goblins and their orc warchief. He's wearing the leather he chose above, so his armor grants DR 1, and he has Iron Skin at Novice rank for +2. His total DR is 3. He's also carrying a shield, and the board in his hand is about to earn its keep. The goblins aren't getting through easily.
+Roric is holding a choke point against two goblins and their orc warchief. He's wearing the chain mail he chose above, so his armor grants DR 3 all on its own. He's also carrying a shield, and the board in his hand is about to earn its keep. The goblins aren't getting through easily.
 
 Remember how this works. The DA never rolls for monsters (@sec-chapter-combat) The DA describes the attack and names the Challenge, and Roric's player makes the Defense Roll. Strong defense means the blow lands Weak, Standard means it lands Standard, Weak means it lands Strong. Roric has Parry rank 1 and a shield in hand, so he defends with 3d6 + Brawn + Parry rank - Challenge.
 
@@ -121,7 +121,7 @@ Remember how this works. The DA never rolls for monsters (@sec-chapter-combat) T
 
 He spends his reaction. The damage tier drops one step, Standard to Weak, and the incoming damage is now 4. 4 - 3 = 1 damage. The greataxe slams into Roric's shield, ringing off the boss like a temple bell. The haft cracks at the binding, but the blade never reaches him.
 
-That is 3 + 5 + 1 = 9 damage across the round, and Roric stands at 4 HP of his 13. Without the shield he would have taken 6 - 3 = 3 from that swing, and that is the difference between holding the choke point and going down in it. Shield Block is what the board in his hand is for, because the DR came from his armor and his training.
+That is 3 + 5 + 1 = 9 damage across the round, and Roric stands at 4 HP of his 13. Without the shield he would have taken 6 - 3 = 3 from that swing, and that is the difference between holding the choke point and going down in it. Shield Block is what the board in his hand is for, because the DR came from his armor alone.
 
 #pagebreak()
 
@@ -132,7 +132,7 @@ Light armor (Padded, Leather, Studded Leather): 1 minute. Medium armor (Chain Sh
 You won't always have time to suit up. If the party is ambushed while camping, the Protector fights in whatever they were sleeping in. Plan accordingly: sleeping in chain mail is exactly as unpleasant as it sounds.
 
 #callout(type: "note", title: "Armor Isn't the Point", body: [
-Your DR is a small, fixed number from your armor and from a talent like Iron Skin. It will not save you from a bad position, and it will not save you from five goblins. Five goblins all attacking the same target will eventually wear down even the toughest Protector through sheer volume of hits.
+Your DR is a small, fixed number from your armor, or from a ward when you have no armor to wear. It will not save you from a bad position, and it will not save you from five goblins. Five goblins all attacking the same target will eventually wear down even the toughest Protector through sheer volume of hits.
 
 Use cover. Use positioning. Use the fact that you're harder to kill than everyone else to _control where the fight happens._ The Protector's real armor isn't steel, it's standing in the right place at the right time.
 ])
