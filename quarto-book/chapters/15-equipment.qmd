@@ -16,7 +16,28 @@ The tables in this chapter list weapons by category, armor by weight class and s
 
 #pagebreak()
 
-The tags a card can require are `weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`, `shield`, `focus:arcane`, `focus:holy` and `focus:primal`. A card that requires none of them carries no Requires field at all, and most cards do not. Only where the work itself needs the tool does the card ask for it.
+Every card that asks for gear names a tag in its Requires field. Here is every tag, and the Discipline rank that using the gear asks for:
+
+#figure(
+  align(center)[#table(
+    columns: (26.00%, 16.00%, 58.00%),
+    align: (auto, auto, auto,),
+    table.header([Tag], [Rank], [What it gates],),
+    [`weapon:unarmed`], [None], [Bare hands, gauntlets, and grapples],
+    [`weapon:one-hand`], [1 Melee], [A one-handed weapon in your hand],
+    [`weapon:two-hand`], [2 Two-Handed], [A greatsword, maul, halberd, or other weapon held in both hands],
+    [`weapon:ranged`], [1 Ranged], [A bow, crossbow, or thrown weapon in hand],
+    [`shield`], [1 Shields], [A shield on your arm],
+    [`focus:arcane`], [None], [A wand, staff, or orb, held for the spell's full effect],
+    [`focus:holy`], [None], [A holy symbol, held for the spell's full effect],
+    [`focus:primal`], [None], [A primal focus, held for the spell's full effect],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+A card that requires none of these carries no Requires field at all, and most cards do not. Only where the work itself needs the tool does the card ask for it. A focus asks for no rank of its own: it is required for the spell's full effect, and without it the spell still casts and resolves one outcome lower, Strong becomes Standard, Standard becomes Weak, and Weak becomes 1 damage. Cantrips carry no focus tag at all.
 
 == Packs
 
@@ -58,7 +79,7 @@ A favour is not something you carry, but it is something you bring to a problem,
 
 == Weapons
 
-A weapon is a promise your hero makes about who they are. The longsword on the hip, the twin daggers, the greataxe that will not fit through doorways, each one says something about the person carrying it. What a weapon does not do is decide how hard you hit. Discipline is permission: the Disciplines you have trained grant the attack ability cards you can take. Equipment is possession: the weapon in your hand is just the thing that happens to be there. Cards are damage: your attack ability cards carry the Weak, Standard, and Strong values (see @sec-chapter-talents-abilities), and the 3d6 attack roll decides which one you land. No separate damage dice.
+A weapon is a promise your hero makes about who they are. The longsword on the hip, the twin daggers, the greataxe that will not fit through doorways, each one says something about the person carrying it. What a weapon does not do is decide how hard you hit. Discipline is permission: a hero may use a piece of gear only while holding the Discipline ranks that item requires, bought at your class's rates (see @sec-chapter-classes for each class's Discipline cost table). Gear adds no number beyond DR. Possession is separate: the object is one cost, granted, earned, or taken, and the rank is the other, bought with Development Points. Cards are damage: your attack ability cards carry the Weak, Standard, and Strong values (see @sec-chapter-talents-abilities), and the 3d6 attack roll decides which one you land. No separate damage dice.
 
 Pick the weapon that fits your hero, not the one that looks best on paper. They all hit the same; you are the one doing the hitting.
 
@@ -165,7 +186,7 @@ These are the small things that separate a prepared adventurer from a corpse. Th
     columns: (30.00%, 35.00%, 35.00%),
     align: (auto, auto, auto,),
     table.header([Item], [Slots], [Notes],),
-    [*Arcane Focus*], [0], [A wand, rod, orb, or crystal that channels arcane power. Used to cast arcane spells.],
+    [*Arcane Focus*], [0], [A wand, rod, orb, or crystal that channels arcane power. Needed for the full effect of a spell that names one.],
     [*Arrows (quiver of 20)*], [1], [Ammunition for shortbows and longbows.],
     [*Backpack*], [2\*], [Holds up to 30 slots of gear. If it is your one exempt container, items stored inside don't count against your encumbrance; the backpack itself takes 2 slots on your person either way. Retrieving a stored item takes a Maneuver.],
     [*Bedroll*], [2], [A warm bedroll and blanket. Required for a long rest in the wild. Without one, you recover half the normal long rest healing, rounded down.],
@@ -179,7 +200,7 @@ These are the small things that separate a prepared adventurer from a corpse. Th
     [*Grappling Hook*], [1], [Hooks onto ledges, branches, or battlements. Attach a rope and throw, range 30 ft. Requires a Brawn or Agility check (Standard) to set securely.],
     [*Hammer*], [1], [Drives pitons, breaks things, nails doors shut. Can be used as an improvised weapon (1/1/2 + Brawn).],
     [*Healer's Kit*], [1], [Bandages, salves, and splints. 10 uses. When you stabilize a dying creature or restore HP during a short rest, add +1 HP per use expended. Without a kit, you can't use the Medicine skill to restore HP during rests.],
-    [*Holy Symbol*], [0], [A pendant, emblem, or reliquary that channels divine power. Used to cast divine spells.],
+    [*Holy Symbol*], [0], [A pendant, emblem, or reliquary that channels divine power. Needed for the full effect of a spell that names one.],
     [*Ink & Pen*], [0], [Write letters, copy maps, forge documents. The ink lasts for roughly 20 pages. The pen is a quill, replace it when the cat gets it.],
     [*Lantern (hooded)*], [1], [Bright light 30 ft, dim light 30 ft. The hood can be closed to reduce light to a 5-ft radius, useful for stealth. Burns for 6 hours per flask of oil.],
     [*Manacles*], [1], [Restrains a creature of Small or Medium size. Escape requires an Agility check (Strong 15+) or a Brawn check (Strong 15+) to break. Without the key, they're not coming off quietly.],
