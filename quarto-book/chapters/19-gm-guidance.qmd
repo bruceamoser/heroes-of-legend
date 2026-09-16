@@ -546,7 +546,7 @@ Most mechanical elements in _Heroes of Legend_ follow one of three card formats.
 
 Spells are the most structured. Every spell card answers the same questions in the same order.
 
-*Format:* `### Name (Cantrip | Arcane Spell | Divine Spell | Primal Spell)` then a single field line: `**Disciplines:** N Type · **Requires:** focus:arcane · **Action:** Action/Reaction/Maneuver · **Range:** Touch/30 ft/area · **Keywords:** ...` then *Weak:*, *Standard:*, *Strong:* outcomes. An Adept or Master card replaces the outcome block with a single *Effect:* line.
+*Format:* `### Name (Cantrip | Arcane Spell | Divine Spell | Primal Spell)` then a single field line: `**Disciplines:** N Type · **Requires:** focus:arcane · **Action:** Action/Reaction/Maneuver · **Range:** Touch/30 ft/area · **Keywords:** ...` then *Weak:*, *Standard:*, *Strong:* outcomes.
 
 #figure(
   align(center)[#table(

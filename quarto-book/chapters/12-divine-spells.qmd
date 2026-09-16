@@ -90,7 +90,7 @@ Primal cantrips are the small tricks of the wild, calling and listening rather t
 
 _See @sec-chapter-magic-system for how spellcasting works._
 
-=== Mending Touch (Divine Spell)
+=== Mending Touch (Novice Divine Spell)
 *Disciplines:* 1 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Bane
 
 *Weak:* Restore 2 HP.
@@ -99,7 +99,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Restore 6 HP, remove one Bane from the target, and the healed target gains a Boon on their next check.
 
-=== Restoration (Divine Spell)
+=== Restoration (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Condition
 
 *Weak:* Restore 6 HP.
@@ -108,7 +108,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Restore 12 HP and end all conditions on the target.
 
-=== Tide of Life (Divine Spell)
+=== Tide of Life (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Healing
 
 *Weak:* Restore 6 HP to each ally in range.
@@ -117,7 +117,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Restore 12 HP to each ally in range.
 
-=== Flesh Renewal (Divine Spell)
+=== Flesh Renewal (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch, 3 rounds · *Keywords:* Recurring
 
 *Weak:* Recurring 2 healing per round for 3 rounds (6 total).
@@ -126,12 +126,12 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Recurring 4 healing per round for 3 rounds (12 total).
 
-=== Severance Undone (Divine Spell)
+=== Severance Undone (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch, 3 rounds · *Keywords:* Recurring
 
 *Effect:* 7/10/14 healing total over 3 rounds; regrow a limb over a day.
 
-=== Soulmend (Divine Spell)
+=== Soulmend (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Wound
 
 *Weak:* Restore 6 HP.
@@ -140,12 +140,12 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Restore 12 HP; a target at 0 HP rises to 1 HP without a Wound.
 
-=== Death Relented (Divine Spell)
+=== Death Relented (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Wound
 
 *Effect:* Restore 7/10/14 HP; return a creature that died within the last minute to life.
 
-=== Blood Trail (Primal Spell)
+=== Blood Trail (Adept Primal Spell)
 *Disciplines:* 2 Life · *Action:* Action · *Range:* 30 ft · *Keywords:* Divination
 
 *Weak:* Blood spilled within the last day glows faintly for your eyes alone.
@@ -158,51 +158,23 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 The three skin wards below are the ladder: Bark Skin, Stone Skin, and Iron Skin, DR for a caster who has none, +1 at Novice, +2 at Adept, +3 at Master. Each lasts 1 round, and sustaining it costs your Maneuver every turn: spend that Maneuver during your turn, or the spell ends at the start of it. Casting the ward also costs your Maneuver.
 
-=== Bark Skin (Divine Spell)
+=== Bark Skin (Novice Divine Spell)
 *Disciplines:* 1 Protection · *Requires:* focus:holy · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
 
 *Effect:* +1 DR for 1 round, sustained with your Maneuver.
 
 This DR does not stack with any other source of DR.
 
-=== Stone Skin (Divine Spell)
-*Disciplines:* 2 Protection · *Requires:* focus:holy · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
-
-*Effect:* +2 DR for 1 round, sustained with your Maneuver.
-
-This DR does not stack with any other source of DR.
-
-=== Iron Skin (Divine Spell)
-*Disciplines:* 3 Protection · *Requires:* focus:holy · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
-
-*Effect:* +3 DR for 1 round, sustained with your Maneuver.
-
-This DR does not stack with any other source of DR.
-
 The primal twin of the ladder wears an animal's hide, scale, and shell: Beast Hide, Scaled Hide, and Carapace, the same values and the same upkeep.
 
-=== Beast Hide (Primal Spell)
+=== Beast Hide (Novice Primal Spell)
 *Disciplines:* 1 Protection · *Requires:* focus:primal · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
 
 *Effect:* +1 DR for 1 round, sustained with your Maneuver.
 
 This DR does not stack with any other source of DR.
 
-=== Scaled Hide (Primal Spell)
-*Disciplines:* 2 Protection · *Requires:* focus:primal · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
-
-*Effect:* +2 DR for 1 round, sustained with your Maneuver.
-
-This DR does not stack with any other source of DR.
-
-=== Carapace (Primal Spell)
-*Disciplines:* 3 Protection · *Requires:* focus:primal · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
-
-*Effect:* +3 DR for 1 round, sustained with your Maneuver.
-
-This DR does not stack with any other source of DR.
-
-=== Ward of Faith (Divine Spell)
+=== Ward of Faith (Novice Divine Spell)
 *Disciplines:* 1 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* DR
 
 *Weak:* +1 shield DR to another creature you touch, until the start of your next turn.
@@ -213,7 +185,7 @@ This DR does not stack with any other source of DR.
 
 The ward is shield DR, not a shield: it does not enable Shield Block, Parry, Wall Shield, or any other ability that requires a shield.
 
-=== Sanctuary (Divine Spell)
+=== Sanctuary (Novice Divine Spell)
 *Disciplines:* 1 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
 
 *Weak:* Attacks against the target have Bane for 1 turn.
@@ -222,7 +194,44 @@ The ward is shield DR, not a shield: it does not enable Shield Block, Parry, Wal
 
 *Strong:* Attacks against the target have Bane for 3 turns; the target cannot be targeted for 1 round, and the ward also covers one ally within 10 ft.
 
-=== Hallowed Ground (Divine Spell)
+=== Stone Skin (Adept Divine Spell)
+*Disciplines:* 2 Protection · *Requires:* focus:holy · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
+
+*Effect:* +2 DR for 1 round, sustained with your Maneuver.
+
+This DR does not stack with any other source of DR.
+
+=== Scaled Hide (Adept Primal Spell)
+*Disciplines:* 2 Protection · *Requires:* focus:primal · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
+
+*Effect:* +2 DR for 1 round, sustained with your Maneuver.
+
+This DR does not stack with any other source of DR.
+
+=== Sacred Barrier (Adept Divine Spell)
+*Disciplines:* 2 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Bane
+
+*Weak:* Missile attacks across the barrier have Bane.
+
+*Standard:* Missile attacks are blocked for 2 rounds.
+
+*Strong:* Missile attacks are blocked for 3 rounds; creatures that touch the barrier are pushed 5 ft, and creatures passing through take 5/8/11 radiant damage.
+
+=== Iron Skin (Master Divine Spell)
+*Disciplines:* 3 Protection · *Requires:* focus:holy · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
+
+*Effect:* +3 DR for 1 round, sustained with your Maneuver.
+
+This DR does not stack with any other source of DR.
+
+=== Carapace (Master Primal Spell)
+*Disciplines:* 3 Protection · *Requires:* focus:primal · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
+
+*Effect:* +3 DR for 1 round, sustained with your Maneuver.
+
+This DR does not stack with any other source of DR.
+
+=== Hallowed Ground (Master Divine Spell)
 *Disciplines:* 3 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* Self · *Area:* 20-ft radius · *Keywords:* DR, Burning
 
 *Weak:* Allies inside gain +1 DR while inside the area and for 1 round after leaving.
@@ -235,18 +244,9 @@ This DR does not stack with any other source of DR.
 
 This DR is not shield DR: it counts against the ceiling with your other sources.
 
-=== Sacred Barrier (Divine Spell)
-*Disciplines:* 2 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Bane
-
-*Weak:* Missile attacks across the barrier have Bane.
-
-*Standard:* Missile attacks are blocked for 2 rounds.
-
-*Strong:* Missile attacks are blocked for 3 rounds; creatures that touch the barrier are pushed 5 ft, and creatures passing through take 5/8/11 radiant damage.
-
 == Religion Spells
 
-=== Holy Strike (Divine Spell)
+=== Holy Strike (Novice Divine Spell)
 *Disciplines:* 1 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Radiant
 
 *Weak:* 4 radiant damage.
@@ -255,7 +255,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 *Strong:* 8 radiant damage; +1 damage tier against undead.
 
-=== Righteous Blow (Divine Spell)
+=== Righteous Blow (Novice Divine Spell)
 *Disciplines:* 1 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Boon, Bane
 
 *Weak:* 4 radiant damage.
@@ -264,25 +264,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 *Strong:* 8 radiant damage; the target has Bane on its next attack.
 
-=== Divine Judgment (Divine Spell)
-*Disciplines:* 2 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Radiant
-
-*Weak:* 5 radiant damage.
-
-*Standard:* 8 radiant damage.
-
-*Strong:* 11 radiant damage; +1 damage tier against undead and fiends.
-
-=== Pillar of Light (Divine Spell)
-*Disciplines:* 2 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 30-ft column · *Keywords:* Radiant
-
-*Weak:* 5 radiant damage (Agility or Dodge rank resists).
-
-*Standard:* 8 radiant damage.
-
-*Strong:* 11 radiant damage; allies in the light regain 3 HP and gain Boon on their next roll, and undead and fiends take double damage from the pillar.
-
-=== Radiant Beam (Divine Spell)
+=== Radiant Beam (Novice Divine Spell)
 *Disciplines:* 1 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 60-ft line · *Keywords:* Radiant
 
 *Weak:* 4 radiant damage (Agility or Dodge rank resists).
@@ -291,7 +273,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 *Strong:* 8 radiant damage; +1 damage tier against undead.
 
-=== Turn Unholy (Divine Spell)
+=== Turn Unholy (Novice Divine Spell)
 *Disciplines:* 1 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 30-ft cone · *Keywords:* Morale check, Bane
 
 *Weak:* Undead and fiends in the cone must make a Morale check or flee for 1 turn.
@@ -300,7 +282,25 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 *Strong:* Undead and fiends in the cone must make a Morale check with Bane or flee for 3 turns; undead are destroyed at 0 HP.
 
-=== Banish (Divine Spell)
+=== Divine Judgment (Adept Divine Spell)
+*Disciplines:* 2 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Radiant
+
+*Weak:* 5 radiant damage.
+
+*Standard:* 8 radiant damage.
+
+*Strong:* 11 radiant damage; +1 damage tier against undead and fiends.
+
+=== Pillar of Light (Adept Divine Spell)
+*Disciplines:* 2 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 30-ft column · *Keywords:* Radiant
+
+*Weak:* 5 radiant damage (Agility or Dodge rank resists).
+
+*Standard:* 8 radiant damage.
+
+*Strong:* 11 radiant damage; allies in the light regain 3 HP and gain Boon on their next roll, and undead and fiends take double damage from the pillar.
+
+=== Banish (Adept Divine Spell)
 *Disciplines:* 2 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Extraplanar
 
 *Weak:* An extraplanar target is sent away for 1 turn.
@@ -309,7 +309,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 *Strong:* An extraplanar target is sent away for 3 turns; it cannot return this scene.
 
-=== Name the Peace (Divine Spell)
+=== Name the Peace (Adept Divine Spell)
 *Disciplines:* 2 Religion · *Action:* Action · *Range:* 30 ft · *Keywords:* Sanctuary
 
 *Weak:* You name a space as sanctuary; you alone know the declaration holds, and the first blow struck within it will carry an ill name.
@@ -318,7 +318,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 *Strong:* Every creature that can hear you knows the space holds; any creature that deals damage inside it is Marked by you and Frightened until it leaves, and no creature that heard the naming can believe the offender's denial of it.
 
-=== Forbid the Line (Divine Spell)
+=== Forbid the Line (Adept Divine Spell)
 *Disciplines:* 2 Religion · *Action:* Action · *Range:* 60 ft · *Keywords:* Judgment
 
 *Weak:* You draw a line across the ground and name one creature; that creature feels the line as a wall it has no wish to cross.
@@ -327,7 +327,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 *Strong:* As standard, and the creature is Marked for as long as the line holds.
 
-=== Pronounce Judgment (Divine Spell)
+=== Pronounce Judgment (Master Divine Spell)
 *Disciplines:* 3 Religion · *Action:* Action · *Range:* 60 ft · *Keywords:* Judgment
 
 *Weak:* You name a deed aloud and ask the world to weigh it against one creature; a guilty creature is Marked, and if it is innocent of that deed you are Stunned in its place.
@@ -336,7 +336,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 *Strong:* As weak, and a guilty creature is also Restrained where it stands for as long as the judgment holds.
 
-=== Call the Larger (Divine Spell)
+=== Call the Larger (Master Divine Spell)
 *Disciplines:* 3 Religion · *Action:* Action · *Range:* self · *Keywords:* Divination
 
 *Weak:* You ask a yes-or-no question of something larger than yourself and receive a clear sign that answers it.
@@ -345,7 +345,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 *Strong:* As standard, and the answer shows you one thing you did not think to ask.
 
-=== Anathema (Divine Spell)
+=== Anathema (Master Divine Spell)
 *Disciplines:* 3 Religion · *Action:* Action · *Range:* 30 ft · *Keywords:* Judgment
 
 *Weak:* You declare a creature outcast before witnesses, and everyone who hears knows the declaration and what it names.
@@ -356,7 +356,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 == Animal Spells
 
-=== Beast Tongue (Divine Spell)
+=== Beast Tongue (Novice Divine Spell)
 *Disciplines:* 1 Animal · *Requires:* focus:primal · *Action:* Action · *Range:* 30 ft · *Keywords:* Boon
 
 *Weak:* One beast obeys a simple command for 1 turn.
@@ -367,7 +367,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 == Plant Spells
 
-=== Briar Wall (Divine Spell)
+=== Briar Wall (Adept Divine Spell)
 *Disciplines:* 2 Plants · *Requires:* focus:primal · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Slowed, Restrained
 
 *Weak:* Creatures passing through take 5 piercing damage.
@@ -376,7 +376,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 *Strong:* Creatures passing through take 11 piercing damage and are Restrained.
 
-=== Raise Cover (Primal Spell)
+=== Raise Cover (Adept Primal Spell)
 *Disciplines:* 2 Plants · *Action:* Action · *Range:* 30 ft · *Keywords:* Terrain
 
 *Weak:* A slab of earth rises to knee height from an empty space; it breaks a low line of sight and can be used as cover.
@@ -385,7 +385,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 *Strong:* As standard, and the slab stays standing after the spell ends until it is broken down.
 
-=== Rootgrab (Primal Spell)
+=== Rootgrab (Adept Primal Spell)
 *Disciplines:* 2 Plants · *Action:* Action · *Range:* 60 ft · *Keywords:* Growth
 
 *Weak:* Roots twist up around one creature's feet; the ground is difficult, and it is at Bane on its next roll to move.
@@ -394,7 +394,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 *Strong:* Roots seize one creature's feet; it is Restrained until it Escapes (Standard Athletics, once per turn), and its Escapes are at Bane while the roots hold.
 
-=== Ground Refuses (Primal Spell)
+=== Ground Refuses (Adept Primal Spell)
 *Disciplines:* 2 Plants · *Action:* Action · *Range:* 60 ft · *Keywords:* Terrain
 
 *Weak:* The ground under one creature turns to loose dust; it slips and is Prone.
@@ -403,7 +403,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 *Strong:* As standard, and it stays Prone until it reaches stone, water, or another surface you did not name.
 
-=== Tree Remembers (Primal Spell)
+=== Tree Remembers (Adept Primal Spell)
 *Disciplines:* 2 Plants · *Action:* Action · *Range:* touch · *Keywords:* Divination
 
 *Weak:* You touch a tree and see the last face that passed beneath it.
@@ -414,7 +414,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 == Earth Spells
 
-=== Ask the Land (Primal Spell)
+=== Ask the Land (Adept Primal Spell)
 *Disciplines:* 2 Earth · *Action:* Action · *Range:* touch · *Keywords:* Divination
 
 *Weak:* You touch bare ground and learn the direction of the nearest settlement, water, or road.
@@ -423,7 +423,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 *Strong:* As standard, and the ground shows you the last creature's shape clearly enough to name its kind and its gait.
 
-=== Take the Heat (Primal Spell)
+=== Take the Heat (Adept Primal Spell)
 *Disciplines:* 2 Earth · *Action:* Action · *Range:* 30 ft · *Keywords:* Fire
 
 *Weak:* A fire within range goes out, and its wood is cold to the touch.
@@ -434,7 +434,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 == Wind Spells
 
-=== Fog That Answers (Primal Spell)
+=== Fog That Answers (Adept Primal Spell)
 *Disciplines:* 2 Wind · *Action:* Action · *Range:* 60 ft · *Keywords:* Weather
 
 *Weak:* You call a fog that fills the area, and you and those you name can see through it.
@@ -443,7 +443,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 *Strong:* As standard, and the fog follows you at a walking pace, keeping you at its center, until you let it go.
 
-=== River Rise (Primal Spell)
+=== River Rise (Master Primal Spell)
 *Disciplines:* 3 Wind · *Action:* Action · *Range:* 120 ft · *Keywords:* Water
 
 *Weak:* A river or stream within range rises over its banks; fording it becomes impossible.

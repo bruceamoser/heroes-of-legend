@@ -34,7 +34,7 @@ One roll. Three outcomes. No separate casting check and no spell failure percent
 
 == Spell Cards
 
-Every spell above the cantrips is its own card, with its own name and its own price. You buy the card you can afford and qualify for, and it never changes. The card carries its Disciplines requirement, Action, Range, and Keywords, then its effect. A Novice active card prints Weak, Standard, and Strong outcomes; an Adept or Master card prints a single Effect line.
+Every spell above the cantrips is its own card, with its own name and its own price. You buy the card you can afford and qualify for, and it never changes. The card carries its Disciplines requirement, Action, Range, and Keywords, then its effect. Every spell card prints its tier, and its outcome block keys to that tier's row of the damage budget.
 
 A card is bought at one of three tiers, and the tier sets both the cost and the effect row:
 
@@ -58,7 +58,7 @@ You buy a card at its tier and you own that card. There is no rung to climb and 
 
 == Level Gates and Disciplines
 
-Every card has a *level gate* set by its tier: *Novice cards at level 1, Adept cards at level 3, Master cards at level 7.* The tier is a property of the card itself, not a count of its Disciplines. A Novice card can ask for several Discipline ranks, and an Adept card with no Discipline on its header asks for none.
+Every card has a *level gate* set by its tier: *Novice cards at level 1, Adept cards at level 3, Master cards at level 7.* A card's tier comes from the combination of three things: the Disciplines it asks for, the damage it prints, and what it affects or triggers. All three are printed on the card, so a reader never has to infer the tier. A card that asks for two Discipline ranks and covers an area is an Adept card, and its damage prints on the Adept row.
 
 On top of the level gate, a card requires the Disciplines printed on its header. Meet those ranks and you can buy the card. Want to throw Brimstone Burst? You need 2 Fire. See @sec-chapter-disciplines for the full rank and cost rules; every class sheet prints its own cost structure.
 
