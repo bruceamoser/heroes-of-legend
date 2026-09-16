@@ -210,9 +210,9 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Concentration Spell:* A spell that requires ongoing focus, and you can maintain only one at a time. If you take damage while concentrating, make a Fortitude check: Standard or better on 3d6 + Fortitude holds the spell together, and you make that check again each time damage lands on you.
 
-*Arcane Focus:* An item (wand, staff, orb) that channels arcane magic. A spell whose card carries `focus:arcane` in its Requires field requires one.
+*Arcane Focus:* An item (wand, staff, orb) that channels arcane magic. A spell whose card carries `focus:arcane` in its Requires field gets its full effect only while you hold one; without it the spell still casts and resolves one outcome lower, Strong becomes Standard, Standard becomes Weak, and Weak becomes 1 damage.
 
-*Holy Symbol:* An item (amulet, reliquary, sacred text) that channels divine magic. A spell whose card carries `focus:holy` in its Requires field requires one.
+*Holy Symbol:* An item (amulet, reliquary, sacred text) that channels divine magic. A spell whose card carries `focus:holy` in its Requires field gets its full effect only while you hold one; without it the spell still casts and resolves one outcome lower, Strong becomes Standard, Standard becomes Weak, and Weak becomes 1 damage.
 
 *Attunement:* The bond between a hero and a magic item. Maximum 3 attuned items at a time. Artifacts, unique items of legend beyond even Legendary rarity, don't count against this limit.
 
