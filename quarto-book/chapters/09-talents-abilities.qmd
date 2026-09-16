@@ -224,7 +224,7 @@ Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each 
 A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Novice budget row (4/6/8), whatever Disciplines the card requires: a maneuver's Disciplines gate who may take it, not how hard it hits. Your weapon contributes no damage of its own: the card carries the numbers, exactly as it does for any other ability. See @sec-chapter-equipment
 
 === Riposte (Weapon Maneuver)
-*Disciplines:* 2 Blades · *Action:* Reaction · *Range:* Melee · *Keywords:* Counterattack
+*Disciplines:* 2 Melee · *Action:* Reaction · *Range:* Melee · *Keywords:* Counterattack
 
 *Weak:* When an enemy deals Weak damage to you, counterattack for 4.
 
@@ -233,7 +233,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* When an enemy deals Weak damage to you, counterattack for 8.
 
 === Power Strike (Weapon Maneuver)
-*Disciplines:* 2 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Damage
+*Disciplines:* 2 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Damage
 
 *Weak:* +1 damage tier on your next weapon attack.
 
@@ -242,7 +242,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* +1 damage tier on your next weapon attack.
 
 === Cyclone (Weapon Maneuver)
-*Disciplines:* 3 Blades · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Area
+*Disciplines:* 3 Melee · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Area
 
 *Weak:* Hit all adjacent enemies for 4 damage.
 
@@ -251,7 +251,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* Hit all adjacent enemies for 8 damage.
 
 === Cleave (Weapon Maneuver)
-*Disciplines:* 2 Axes · *Kit:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Chain
+*Disciplines:* 2 Melee · *Kit:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Chain
 
 *Weak:* Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage.
 
@@ -260,7 +260,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage.
 
 === Pinpoint Strike (Weapon Maneuver)
-*Disciplines:* 1 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Piercing, Damage
+*Disciplines:* 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Piercing, Damage
 
 *Weak:* +1 damage tier on your next weapon attack, and Piercing 1.
 
@@ -278,7 +278,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* Deal 8 damage and Push 5 ft; the target is Prone.
 
 === Parry (Weapon Maneuver)
-*Disciplines:* 2 Blades · *Action:* Reaction · *Range:* Self · *Keywords:* DR, Counterattack
+*Disciplines:* 2 Melee · *Action:* Reaction · *Range:* Self · *Keywords:* DR, Counterattack
 
 *Weak:* +1 DR against one attack.
 
@@ -287,7 +287,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* +3 DR against one attack and counterattack for 4 damage.
 
 === Disarm (Weapon Maneuver)
-*Disciplines:* 2 Blades · *Action:* Maneuver · *Range:* Melee · *Keywords:* Bane
+*Disciplines:* 2 Melee · *Action:* Maneuver · *Range:* Melee · *Keywords:* Bane
 
 *Weak:* The target keeps its grip.
 
@@ -296,7 +296,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* The target drops the weapon.
 
 === Trip (Weapon Maneuver)
-*Disciplines:* 2 Polearms · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone
+*Disciplines:* 2 Two-Handed · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone
 
 *Weak:* The target is Prone.
 
@@ -305,7 +305,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* The target is Prone and loses its Action.
 
 === Charge (Weapon Maneuver)
-*Disciplines:* 2 Heavy Weapon · *Action:* Action · *Range:* Melee · *Keywords:* Movement, Damage
+*Disciplines:* 2 Two-Handed · *Action:* Action · *Range:* Melee · *Keywords:* Movement, Damage
 
 *Weak:* Move up to your Speed and make one attack at +1 damage tier.
 
@@ -314,7 +314,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* Move up to your Speed and make one attack at +1 damage tier.
 
 === Brace (Weapon Maneuver)
-*Disciplines:* 2 Polearms · *Action:* Reaction · *Range:* Self · *Keywords:* DR
+*Disciplines:* 2 Two-Handed · *Action:* Reaction · *Range:* Self · *Keywords:* DR
 
 *Weak:* +2 DR against a charge (see Charge Attack in the Equipment chapter); the attacker takes 4 damage.
 
@@ -323,7 +323,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* +2 DR against a charge; the attacker takes 8 damage.
 
 === Dual Strike (Weapon Maneuver)
-*Disciplines:* 1 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Two attacks
+*Disciplines:* 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Two attacks
 
 *Weak:* Two attacks, each dealing 2 damage (4 total).
 
@@ -332,7 +332,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* Two attacks, each dealing 4 damage (8 total).
 
 === Crushing Blow (Weapon Maneuver)
-*Disciplines:* 2 Heavy Weapon · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Prone
+*Disciplines:* 2 Two-Handed · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Prone
 
 *Weak:* +1 damage tier on your next weapon attack.
 
@@ -341,7 +341,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* +1 damage tier on your next weapon attack; the target is Prone.
 
 === Executioner's Cut (Weapon Maneuver)
-*Disciplines:* 2 Axes · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Wounded
+*Disciplines:* 2 Melee · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Wounded
 
 *Weak:* +1 damage tier against a wounded target.
 
@@ -350,7 +350,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* +1 damage tier against a wounded target.
 
 === Throw (Weapon Maneuver)
-*Disciplines:* 1 Archery · *Kit:* weapon:ranged · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
+*Disciplines:* 1 Ranged · *Kit:* weapon:ranged · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
 
 *Weak:* Throw a weapon up to 30 ft at +1 damage tier.
 
@@ -359,7 +359,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* Throw a weapon up to 30 ft at +1 damage tier.
 
 === Breakthrough (Weapon Maneuver)
-*Disciplines:* 2 Heavy Weapon · *Action:* Action · *Range:* Melee · *Keywords:* Movement, Prone
+*Disciplines:* 2 Two-Handed · *Action:* Action · *Range:* Melee · *Keywords:* Movement, Prone
 
 *Weak:* Move through one enemy's space.
 
@@ -395,7 +395,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* The target is Grappled and Restrained until it Escapes, you may move it 5 ft with you, and it cannot attack you until the end of its next turn.
 
 === Hamstring Cut (Weapon Maneuver)
-*Disciplines:* 1 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Restrained, Control
+*Disciplines:* 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Restrained, Control
 
 *Weak:* The target is Restrained until it Escapes. A target that is already Grappled or Restrained is Restrained with its Escapes at Bane even on a Weak result.
 
@@ -404,7 +404,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* The target is Restrained until it Escapes, its Escapes are at Bane, and it cannot take Reactions while Restrained.
 
 === Open the Guard (Weapon Maneuver)
-*Disciplines:* 1 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Control
+*Disciplines:* 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Control
 
 *Weak:* 4 damage, and the target cannot take Reactions until the end of its next turn.
 
@@ -422,7 +422,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* The target is Blinded until the end of the scene and drops one held item of your choice; you may take it as part of this Action.
 
 === Dead Reckoning (Weapon Maneuver)
-*Disciplines:* 1 Archery · *Action:* Action · *Range:* 60 ft · *Keywords:* Marked, Ranged
+*Disciplines:* 1 Ranged · *Action:* Action · *Range:* 60 ft · *Keywords:* Marked, Ranged
 
 *Weak:* The target is Marked until the end of the scene: you always know where it is and it cannot Hide from you.
 
@@ -431,7 +431,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* The target is Marked and you may immediately make a Basic Archery attack against it. Against a target that is already Marked, that attack also ignores Cover and Concealment.
 
 === Long Spear Rebuke (Weapon Maneuver)
-*Disciplines:* 1 Polearms · *Action:* Action · *Range:* Melee · *Keywords:* Frightened, Control
+*Disciplines:* 1 Two-Handed · *Action:* Action · *Range:* Melee · *Keywords:* Frightened, Control
 
 *Weak:* The target is Frightened of you until the end of its next turn: it cannot approach you.
 
@@ -458,7 +458,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* 8 damage, and every enemy within 30 ft that can see you must target you with their next attack; every ally who attacks one of them gains a Boon on that attack.
 
 === Bell Ringer (Weapon Maneuver)
-*Disciplines:* 2 Heavy Weapon · *Action:* Action · *Range:* Melee · *Keywords:* Deafened, Control
+*Disciplines:* 2 Two-Handed · *Action:* Action · *Range:* Melee · *Keywords:* Deafened, Control
 
 *Weak:* The target is Deafened until the end of the scene. A target that is already Deafened is Stunned until the end of its next turn instead.
 
@@ -467,7 +467,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* The target is Deafened and Stunned until the end of its next turn. A target that is already Deafened also loses its Action on that turn.
 
 === Battering Hurl (Weapon Maneuver)
-*Disciplines:* 2 Heavy Weapon · 1 Tactics · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Prone
+*Disciplines:* 2 Two-Handed · 1 Tactics · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Prone
 
 *Weak:* 4 damage and the target is pushed 5 ft. Against a target that is already Prone, it is hurled 15 ft and stays Prone.
 
@@ -476,7 +476,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* 8 damage, the target is knocked Prone and hurled 15 ft, and it cannot stand until the end of its next turn.
 
 === Through the Blind Spot (Weapon Maneuver)
-*Disciplines:* 2 Blades · 1 Stealth · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Stealth
+*Disciplines:* 2 Melee · 1 Stealth · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Stealth
 
 *Weak:* 4 damage and you may move 10 ft before or after the strike. Against a Blinded or Deafened target you stay Hidden and it cannot identify you.
 
@@ -494,7 +494,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* The target is Grappled and Restrained, it cannot shout or cast aloud, it is at Bane on every attack, and it cannot take Reactions while held.
 
 === Pinning Shot (Weapon Maneuver)
-*Disciplines:* 2 Archery · 1 Tactics · *Action:* Action · *Range:* 60 ft · *Keywords:* Damage, Restrained
+*Disciplines:* 2 Ranged · 1 Tactics · *Action:* Action · *Range:* 60 ft · *Keywords:* Damage, Restrained
 
 *Weak:* 4 damage and the target is Restrained until it Escapes. Against a target that is Grappled or Prone, it cannot Escape or stand until it removes the missile with an Action.
 
@@ -503,7 +503,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* 8 damage and the target is Restrained until it Escapes; it cannot Escape or stand until the end of its next turn.
 
 === Single Out (Weapon Maneuver)
-*Disciplines:* 2 Archery · 1 Tactics · *Action:* Action · *Range:* 60 ft · *Keywords:* Marked, Support
+*Disciplines:* 2 Ranged · 1 Tactics · *Action:* Action · *Range:* 60 ft · *Keywords:* Marked, Support
 
 *Weak:* Choose a creature you can see: it is Marked until the end of the scene and cannot Hide from you. Against a creature that is already Marked, mark a second creature as well, and the first cannot use Cover against you or your allies.
 
@@ -521,7 +521,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* You and every ally who can see you each ready an attack against one enemy within 30 ft, released together the moment it moves or attacks; every released attack gains a Boon, the enemy is Marked until the end of the round, and it cannot spend its Reaction while the volley resolves.
 
 === Rolling Thunder (Weapon Maneuver)
-*Disciplines:* 1 Tactics · 1 Blades · *Action:* Action · *Range:* Melee · *Keywords:* Support
+*Disciplines:* 1 Tactics · 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Support
 
 *Weak:* 4 damage to one enemy within reach.
 
@@ -539,7 +539,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* You drag one creature within reach 15 ft in any direction, an ally you drag is freed of every condition and may immediately take an Action, and an enemy you drag is knocked Prone.
 
 === Sunshot (Weapon Maneuver)
-*Disciplines:* 3 Archery · 1 Tactics · 1 Stealth · *Action:* Action · *Range:* 60 ft · *Keywords:* Damage, Blinded
+*Disciplines:* 3 Ranged · 1 Tactics · 1 Stealth · *Action:* Action · *Range:* 60 ft · *Keywords:* Damage, Blinded
 
 *Weak:* 4 damage and the target is Blinded until the end of its next turn.
 
@@ -548,7 +548,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* 8 damage and the target is Blinded until the end of the scene, and it cannot benefit from any Boon until its eyes clear.
 
 === Harvest the Fear (Weapon Maneuver)
-*Disciplines:* 3 Polearms · 1 Tactics · 1 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* Frightened, Control
+*Disciplines:* 3 Two-Handed · 1 Tactics · 1 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* Frightened, Control
 
 *Weak:* One creature that can see you is Frightened of you until the end of the scene.
 
@@ -557,7 +557,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* Every creature that can see you is Frightened of you until the end of the scene, and any that was already Frightened of you is Stunned until the end of its next turn. While you remain visible, none of them can benefit from an ally's Boon.
 
 === Groundbreaker (Weapon Maneuver)
-*Disciplines:* 3 Heavy Weapon · 1 Tactics · 1 Unarmed · *Action:* Action · *Range:* 15 ft · *Keywords:* Prone, Control
+*Disciplines:* 3 Two-Handed · 1 Tactics · 1 Unarmed · *Action:* Action · *Range:* 15 ft · *Keywords:* Prone, Control
 
 *Weak:* Every standing creature in a 15-ft arc is knocked Prone.
 
