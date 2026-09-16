@@ -37,13 +37,11 @@ echo ""
 # failure mode is a partial sweep: three chapters updated, four not. Every mode
 # runs here and prints file:line for each survivor of the old weapon-family
 # vocabulary, so no vocabulary PR can land without the whole sweep it claims.
-# Findings are expected until the series' last issue (#575) drives them to
-# zero, so this is REPORT-ONLY for now: `|| true` keeps the build green while
-# the report still prints in full. When #575 lands, drop the `|| true` so the
-# gate becomes fatal.
+# Issue #575 drove the sweep to zero, so this gate is now fatal: any survivor
+# of the old weapon-family vocabulary stops the build here.
 
 echo "  Checking Discipline vocabulary..."
-python3 "$REPO_ROOT/../docs/check-discipline-vocabulary.py" || true
+python3 "$REPO_ROOT/../docs/check-discipline-vocabulary.py"
 echo ""
 
 # ── Requires field gate (issue #586) ──────────────────────────────────────────

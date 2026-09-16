@@ -509,7 +509,7 @@ One veteran's advice: keep one attunement slot flexible. Dedicate two slots to y
 
 == Discipline Items
 
-Some items grant temporary Disciplines while attuned. Each is a named, unique card whose granted power is a Discipline. A *Fire Opal* grants 1 Fire Discipline. A *Blade Master's Gauntlet* grants 1 Blades Discipline. These count toward prerequisite requirements, they can unlock Adept and Master abilities just like purchased Disciplines. If you stop attuning to an item, any Disciplines it granted are lost: abilities that required them cannot be used until you meet the prerequisites again.
+Some items grant temporary Disciplines while attuned. Each is a named, unique card whose granted power is a Discipline. A *Fire Opal* grants 1 Fire Discipline. A *Blade Master's Gauntlet* grants 1 Melee Discipline. These count toward prerequisite requirements, they can unlock Adept and Master abilities just like purchased Disciplines. If you stop attuning to an item, any Disciplines it granted are lost: abilities that required them cannot be used until you meet the prerequisites again.
 
 #figure(
   align(center)[#table(
@@ -520,7 +520,7 @@ Some items grant temporary Disciplines while attuned. Each is a named, unique ca
     [*Tear of the Sea*], [Uncommon], [Requires Attunement], [1 Water], [A crystallized drop of elemental water. Never dries.],
     [*Windseeker's Feather*], [Uncommon], [Requires Attunement], [1 Wind], [A griffon feather that quivers when storms approach.],
     [*Heartstone*], [Uncommon], [Requires Attunement], [1 Earth], [A polished stone that hums faintly when placed on bare ground.],
-    [*Blade Master's Gauntlet*], [Rare], [Requires Attunement], [1 Blades], [Supple leather inscribed with dueling forms. Your grip never slips.],
+    [*Blade Master's Gauntlet*], [Rare], [Requires Attunement], [1 Melee], [Supple leather inscribed with dueling forms. Your grip never slips.],
     [*Saint's Reliquary*], [Rare], [Requires Attunement], [1 Religion], [A fingerbone or scrap of vestment from a departed holy figure.],
     [*Menagerie Collar*], [Rare], [Requires Attunement], [1 Animal], [A leather collar. When worn, animals understand your intent.],
   )],

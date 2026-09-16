@@ -224,7 +224,7 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
   align: (auto, auto,),
   table.header([Category], [Disciplines],),
   [*Elemental*], [Fire, Earth, Wind, Water],
-  [*Weapon*], [Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed],
+  [*Weapon*], [Melee, Two-Handed, Ranged, Unarmed],
   [*Defense*], [Armor, Shields, Protection],
   [*Primal*], [Animal, Plants],
   [*Subterfuge*], [Stealth, Sleight],
@@ -360,32 +360,26 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 *Your Damage Reduction is the highest of your armor, a talent, or a ward. Shield DR is the one thing that adds, up to +3.* See @sec-chapter-armor-shields
 
 #figure(align(center)[#table(
-  columns: (19.23%, 30.77%, 30.77%, 19.23%),
+  columns: (20.00%, 20.00%, 45.10%, 14.90%),
   align: (auto, auto, auto, auto,),
-  table.header([Weapon], [Disciplines], [Properties], [Range],),
-  [Unarmed], [None], [], [Melee],
-
-  [Dagger], [1 Blades], [Light, Thrown], [20/60 ft],
-  [Shortsword], [1 Blades], [Light], [Melee],
-  [Longsword], [2 Blades], [Versatile], [Melee],
-  [Greatsword], [2 Blades + 1 Heavy Weapon], [], [Melee],
-
-  [Handaxe], [1 Axes], [Light, Thrown], [20/60 ft],
-  [Battleaxe], [2 Axes], [], [Melee],
-  [Greataxe], [2 Axes + 1 Heavy Weapon], [], [Melee],
-
-  [Mace], [1 Heavy Weapon], [], [Melee],
-  [Warhammer], [2 Heavy Weapon], [], [Melee],
-  [Maul], [3 Heavy Weapon], [], [Melee],
-
-  [Spear], [1 Polearms], [Reach, Thrown, Two-Handed], [20/60 ft],
-  [Halberd], [1 Polearms], [Reach, Two-Handed], [Melee],
-
-  [Throwing Dagger], [1 Blades or 1 Archery], [Thrown], [20/60 ft],
-
-  [Shortbow], [1 Archery], [Two-Handed], [60/120 ft],
-  [Longbow], [1 Archery], [Two-Handed], [100/200 ft],
-  [Crossbow], [1 Archery], [Loading, Two-Handed], [20/60 ft],
+  table.header([Weapon], [Category], [Properties], [Range],),
+  [Unarmed], [Unarmed], [], [],
+  [Dagger], [Melee], [Light, Thrown], [20/60 ft (thrown)],
+  [Shortsword], [Melee], [Light], [],
+  [Longsword], [Melee], [Versatile], [],
+  [Greatsword], [Two-Handed], [], [],
+  [Handaxe], [Melee], [Light, Thrown], [20/60 ft (thrown)],
+  [Battleaxe], [Melee], [], [],
+  [Greataxe], [Two-Handed], [], [],
+  [Mace], [Melee], [], [],
+  [Warhammer], [Melee], [], [],
+  [Maul], [Two-Handed], [], [],
+  [Spear], [Two-Handed], [Reach, Thrown, Two-Handed], [20/60 ft (thrown)],
+  [Halberd], [Two-Handed], [Reach, Two-Handed], [],
+  [Throwing Dagger], [Ranged], [Thrown], [20/60 ft (thrown)],
+  [Shortbow], [Ranged], [Two-Handed], [60/120 ft],
+  [Longbow], [Ranged], [Two-Handed], [100/200 ft],
+  [Crossbow], [Ranged], [Loading, Two-Handed], [20/60 ft],
 )], kind: table, numbering: none, outlined: false)
 
 *The weapon never changes your damage. See @sec-chapter-talents-abilities for what a range of two numbers means, and @sec-chapter-equipment for weapons in full, including which are drawn from a starting kit.*

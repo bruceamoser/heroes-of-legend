@@ -471,7 +471,7 @@ Kael sees the Knight advancing on Roric. He moves 15 ft to flank, drawing his sh
 
 Rolls 3d6 + Brawn (+1). Rolls 5, 4, 5 = 14 + 1 = 15. *Strong.* His Basic Melee card deals 3 on Strong, plus Brawn +1 = 4. Knight's plate armor: DR 4. 4 − 4 → minimum 1 damage. The blade finds a gap at the Knight's gorget, a thin line of blood. Not a killing blow, but the Knight knows Kael can hurt him.
 
-Kael keeps his *Reaction* ready. His *Riposte* weapon maneuver (2 Blades) lets him spend his Reaction to counterattack when an enemy deals Weak damage to him.
+Kael keeps his *Reaction* ready. His *Riposte* weapon maneuver (2 Melee) lets him spend his Reaction to counterattack when an enemy deals Weak damage to him.
 
 *Round 1, Knight's Turn:*
 

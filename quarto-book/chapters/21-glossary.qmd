@@ -64,7 +64,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Development Points (DP):* The currency of character creation and advancement. Spent to purchase skills, abilities, and Disciplines. Skills and abilities cost a flat rate by tier (Novice 2 DP, Adept 4 DP, Master 8 DP). Disciplines cost different amounts per class depending on their cost structure (Home, Adjacent, Foreign, Opposed).
 
-*Discipline:* A prerequisite resource representing mastery of a domain. Disciplines come in types: Elemental (Fire, Earth, Wind, Water), Weapon (Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed), Defense (Armor, Shields, Protection), Primal (Animal, Plants), Arcane (Energy), Divine (Life, Religion), Esoteric (Mind, Summon, Fate), Subterfuge (Stealth, Sleight), and Knowledge (Lore, Tactics). Each class has a cost table showing the DP price for each rank in each discipline (see @sec-chapter-classes).
+*Discipline:* A prerequisite resource representing mastery of a domain. Disciplines come in types: Elemental (Fire, Earth, Wind, Water), Weapon (Melee, Two-Handed, Ranged, Unarmed), Defense (Armor, Shields, Protection), Primal (Animal, Plants), Arcane (Energy), Divine (Life, Religion), Esoteric (Mind, Summon, Fate), Subterfuge (Stealth, Sleight), and Knowledge (Lore, Tactics). Each class has a cost table showing the DP price for each rank in each discipline (see @sec-chapter-classes).
 
 *Wildcard Rank:* A single rank held by the Odd that stands in for any one Discipline. It is never assigned, it satisfies one requirement of one rank at a time, it never advances, and it costs no Development Points. See @sec-chapter-classes
 
@@ -82,7 +82,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Master:* The third tier. For a skill, the +3 bonus. Flat cost: 8 DP. Unlocks at Level 7.
 
-*Rank:* A single step of a Discipline, from 1 to 3. A card names the Discipline ranks it needs, and those ranks are its own prerequisite. The card's tier sets the level it needs (Novice 1, Adept 3, Master 7). A hero's maximum in any single Discipline is 3 ranks.
+*Rank:* A single step of a Discipline, from 1 to 3. A card names the Discipline ranks it needs, and those ranks are its own prerequisite. The card's tier sets the level it needs (Novice 1, Adept 3, Master 7). A hero's maximum in any single Discipline is 3 ranks. Weapons, armor, and shields may list their own Discipline requirements as entry requirements: a Dagger needs 1 Melee, a Longsword 2 Melee, a Greatsword 2 Two-Handed, a Tower Shield 2 Shields, and Plate 3 Armor.
 
 *Signature Ability:* The unique power granted by your class at Level 1. Defines your class identity mechanically.
 
@@ -122,7 +122,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Reach:* A weapon property. Can attack targets 10 ft away (Spear, Halberd).
 
-*Thrown:* A weapon property. Can be thrown, at a range of 20/60 ft (Dagger, Handaxe, Spear, Throwing Dagger).
+*Thrown:* A weapon property. Counts as a ranged weapon when thrown, at a range of 20/60 ft (Dagger, Handaxe, Spear, Throwing Dagger).
 
 *Light:* A weapon property. Can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe).
 
