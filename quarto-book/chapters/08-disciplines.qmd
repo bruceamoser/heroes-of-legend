@@ -82,7 +82,7 @@ Your class hands you specific Disciplines at creation. These are your foundation
     align: (auto, auto,),
     table.header([Class], [Starting Disciplines],),
     [Protector], [1 Armor + 1 Shields],
-    [Blade], [1 Blades + 1 Stealth],
+    [Blade], [1 Melee + 1 Stealth],
     [Arcanist], [1 Fire + 1 Energy],
     [Shepherd], [1 Shields + 1 Animal],
     [Intellect], [1 Lore + 1 any],
