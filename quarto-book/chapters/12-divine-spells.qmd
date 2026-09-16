@@ -200,15 +200,17 @@ The ward is shield DR, not a shield: it does not enable Shield Block, Parry, Wal
 *Strong:* Attacks against the target have Bane for 3 turns; the target cannot be targeted for 1 round, and the ward also covers one ally within 10 ft.
 
 === Hallowed Ground (Divine Spell)
-*Disciplines:* 3 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* 20-ft radius · *Keywords:* DR, Burning
+*Disciplines:* 3 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* Self · *Area:* 20-ft radius · *Keywords:* DR, Burning
 
-*Weak:* Allies inside gain +1 DR.
+*Weak:* Allies inside gain +1 DR while inside the area and for 1 round after leaving.
 
-*Standard:* Allies inside gain +2 DR.
+*Standard:* Allies inside gain +2 DR while inside the area and for 1 round after leaving.
 
-*Strong:* Allies inside gain +3 DR; undead inside take Burning 3 radiant damage.
+*Strong:* Allies inside gain +3 DR while inside the area and for 1 round after leaving; undead inside take Burning 3 radiant damage.
 
 This DR does not stack with any other source of DR.
+
+This DR is not shield DR: it counts against the ceiling with your other sources.
 
 === Sacred Barrier (Divine Spell)
 *Disciplines:* 2 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Bane
