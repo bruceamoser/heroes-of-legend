@@ -213,7 +213,7 @@ Weapons don't just require more of the same Discipline, they require specific co
 - *Versatile*, can be wielded two-handed (Longsword only)
 - *Finesse*, use Agility instead of Brawn for attack and damage (Dagger, Shortsword, Throwing Dagger)
 - *Reach*, can attack targets 10 ft away (Spear, Halberd)
-- *Thrown*, can be thrown (range 20/60 ft: Dagger, Handaxe, Spear, Throwing Dagger)
+- *Thrown*, a weapon with this property counts as a ranged weapon when thrown (range 20/60 ft: Dagger, Handaxe, Spear, Throwing Dagger)
 - *Light*, can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe)
 - *Loading*, requires a Maneuver to reload between shots (Crossbow only)
 - *Two-Handed*, must be held in both hands and takes 2 slots (Spear, Halberd, Shortbow, Longbow, Crossbow). Compare *Versatile*, which *may* be used two-handed)

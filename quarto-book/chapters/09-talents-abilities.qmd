@@ -166,7 +166,7 @@ The talents below are general. Any class may take any of them, though a talent t
 
 == Basic Attacks
 
-These four cards are the attacks every character can make, no Discipline required. They are the floor. Weapon Disciplines gate access to stronger cards, not higher damage. See @sec-chapter-combat for attack and damage rules.
+These five cards are the attacks every character can make, no Discipline required. They are the floor. Weapon Disciplines gate access to stronger cards, not higher damage. See @sec-chapter-combat for attack and damage rules.
 
 *Range.* A range written as two numbers, such as *60/120 ft*, is two bands. Within the first number you attack normally. Between the first number and the second you attack at a *Bane*. Beyond the second number the target is out of reach, and you cannot attack it at all. A single number, such as *30 ft*, is one band: you attack normally inside it and cannot reach past it.
 
@@ -178,6 +178,15 @@ These four cards are the attacks every character can make, no Discipline require
 *Standard:* 2 + Brawn damage (Agility with a Finesse weapon).
 
 *Strong:* 3 + Brawn damage (Agility with a Finesse weapon).
+
+=== Basic Two-Handed (Basic Attack)
+*Disciplines:* None · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage
+
+*Weak:* 1 + Brawn damage.
+
+*Standard:* 2 + Brawn damage.
+
+*Strong:* 3 + Brawn damage.
 
 === Basic Archery (Basic Attack)
 *Disciplines:* None · *Kit:* weapon:ranged · *Action:* Action · *Range:* 60/120 ft · *Keywords:* Damage
