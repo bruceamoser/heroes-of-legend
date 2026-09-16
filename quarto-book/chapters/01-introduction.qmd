@@ -56,7 +56,7 @@ You need friends. Two to five is the sweet spot. One of you will be the DA: the 
 That's the list. No miniatures required. No battle mat. No hundred-dollar sourcebooks. Just you, your friends, some dice, and your imagination. Everything else is optional. And the options are wonderful, don't get me wrong. I've got a closet full of miniatures I painted myself. But you don't _need_ them. You never did.
 
 // Rationale: Entry-level reassurance: a flat-lay of minimal materials reinforces the low-barrier-to-entry message and makes new players feel welcome.
-#image("assets/images/placeholder-minimal-kit.png", width: 60%)
+#image("assets/images/placeholder-minimal-gear.png", width: 60%)
 
 _Figure 2.2: Minimal Kit_
 

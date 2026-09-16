@@ -91,7 +91,7 @@ Primal cantrips are the small tricks of the wild, calling and listening rather t
 _See @sec-chapter-magic-system for how spellcasting works._
 
 === Mending Touch (Divine Spell)
-*Disciplines:* 1 Life · *Kit:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Bane
+*Disciplines:* 1 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Bane
 
 *Weak:* Restore 2 HP.
 
@@ -100,7 +100,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Strong:* Restore 6 HP, remove one Bane from the target, and the healed target gains a Boon on their next check.
 
 === Restoration (Divine Spell)
-*Disciplines:* 2 Life · *Kit:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Condition
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Condition
 
 *Weak:* Restore 6 HP.
 
@@ -109,7 +109,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Strong:* Restore 12 HP and end all conditions on the target.
 
 === Tide of Life (Divine Spell)
-*Disciplines:* 2 Life · *Kit:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Healing
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Healing
 
 *Weak:* Restore 6 HP to each ally in range.
 
@@ -118,7 +118,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Strong:* Restore 12 HP to each ally in range.
 
 === Flesh Renewal (Divine Spell)
-*Disciplines:* 2 Life · *Kit:* focus:holy · *Action:* Action · *Range:* Touch, 3 rounds · *Keywords:* Recurring
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch, 3 rounds · *Keywords:* Recurring
 
 *Weak:* Recurring 2 healing per round for 3 rounds (6 total).
 
@@ -127,12 +127,12 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Strong:* Recurring 4 healing per round for 3 rounds (12 total).
 
 === Severance Undone (Divine Spell)
-*Disciplines:* 2 Life · *Kit:* focus:holy · *Action:* Action · *Range:* Touch, 3 rounds · *Keywords:* Recurring
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch, 3 rounds · *Keywords:* Recurring
 
 *Effect:* 7/10/14 healing total over 3 rounds; regrow a limb over a day.
 
 === Soulmend (Divine Spell)
-*Disciplines:* 2 Life · *Kit:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Wound
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Wound
 
 *Weak:* Restore 6 HP.
 
@@ -141,7 +141,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Strong:* Restore 12 HP; a target at 0 HP rises to 1 HP without a Wound.
 
 === Death Relented (Divine Spell)
-*Disciplines:* 2 Life · *Kit:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Wound
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Wound
 
 *Effect:* Restore 7/10/14 HP; return a creature that died within the last minute to life.
 
@@ -157,7 +157,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 == Protection Spells
 
 === Ward of Faith (Divine Spell)
-*Disciplines:* 1 Protection · *Kit:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* DR
+*Disciplines:* 1 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* DR
 
 *Weak:* The target gains +1 DR for 1 turn.
 
@@ -166,7 +166,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Strong:* The target gains +3 DR for 3 turns; an attacker that hits the target takes 2 radiant damage.
 
 === Sanctuary (Divine Spell)
-*Disciplines:* 1 Protection · *Kit:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
+*Disciplines:* 1 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
 
 *Weak:* Attacks against the target have Bane for 1 turn.
 
@@ -175,7 +175,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Strong:* Attacks against the target have Bane for 3 turns; the target cannot be targeted for 1 round, and the ward also covers one ally within 10 ft.
 
 === Hallowed Ground (Divine Spell)
-*Disciplines:* 2 Protection · *Kit:* focus:holy · *Action:* Action · *Range:* 20-ft radius · *Keywords:* DR, Burning
+*Disciplines:* 2 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* 20-ft radius · *Keywords:* DR, Burning
 
 *Weak:* Allies inside gain +1 DR.
 
@@ -184,7 +184,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Strong:* Allies inside gain +3 DR; undead inside take Burning 3 radiant damage.
 
 === Sacred Barrier (Divine Spell)
-*Disciplines:* 2 Protection · *Kit:* focus:holy · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Bane
+*Disciplines:* 2 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Bane
 
 *Weak:* Missile attacks across the barrier have Bane.
 
@@ -195,7 +195,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 == Religion Spells
 
 === Holy Strike (Divine Spell)
-*Disciplines:* 1 Religion · *Kit:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Radiant
+*Disciplines:* 1 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Radiant
 
 *Weak:* 2 radiant damage.
 
@@ -204,7 +204,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Strong:* 6 radiant damage; +1 damage tier against undead.
 
 === Righteous Blow (Divine Spell)
-*Disciplines:* 1 Religion · *Kit:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Boon, Bane
+*Disciplines:* 1 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Boon, Bane
 
 *Weak:* 2 radiant damage.
 
@@ -213,7 +213,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Strong:* 6 radiant damage; the target has Bane on its next attack.
 
 === Divine Judgment (Divine Spell)
-*Disciplines:* 2 Religion · *Kit:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Radiant
+*Disciplines:* 2 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Radiant
 
 *Weak:* 6 radiant damage.
 
@@ -222,7 +222,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Strong:* 12 radiant damage; +1 damage tier against undead and fiends.
 
 === Pillar of Light (Divine Spell)
-*Disciplines:* 2 Religion · *Kit:* focus:holy · *Action:* Action · *Range:* 30-ft column · *Keywords:* Radiant
+*Disciplines:* 2 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 30-ft column · *Keywords:* Radiant
 
 *Weak:* 6 radiant damage (Agility or Dodge rank resists).
 
@@ -231,7 +231,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Strong:* 12 radiant damage; allies in the light regain 3 HP and gain Boon on their next roll, and undead and fiends take double damage from the pillar.
 
 === Radiant Beam (Divine Spell)
-*Disciplines:* 1 Religion · *Kit:* focus:holy · *Action:* Action · *Range:* 60-ft line · *Keywords:* Radiant
+*Disciplines:* 1 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 60-ft line · *Keywords:* Radiant
 
 *Weak:* 2 radiant damage (Agility or Dodge rank resists).
 
@@ -240,7 +240,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Strong:* 6 radiant damage; +1 damage tier against undead.
 
 === Turn Unholy (Divine Spell)
-*Disciplines:* 1 Religion · *Kit:* focus:holy · *Action:* Action · *Range:* 30-ft cone · *Keywords:* Morale check, Bane
+*Disciplines:* 1 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 30-ft cone · *Keywords:* Morale check, Bane
 
 *Weak:* Undead and fiends in the cone must make a Morale check or flee for 1 turn.
 
@@ -249,7 +249,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 *Strong:* Undead and fiends in the cone must make a Morale check with Bane or flee for 3 turns; undead are destroyed at 0 HP.
 
 === Banish (Divine Spell)
-*Disciplines:* 2 Religion · *Kit:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Extraplanar
+*Disciplines:* 2 Religion · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Extraplanar
 
 *Weak:* An extraplanar target is sent away for 1 turn.
 
@@ -305,7 +305,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 == Animal Spells
 
 === Beast Tongue (Divine Spell)
-*Disciplines:* 1 Animal · *Kit:* focus:primal · *Action:* Action · *Range:* 30 ft · *Keywords:* Boon
+*Disciplines:* 1 Animal · *Requires:* focus:primal · *Action:* Action · *Range:* 30 ft · *Keywords:* Boon
 
 *Weak:* One beast obeys a simple command for 1 turn.
 
@@ -316,7 +316,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 == Plant Spells
 
 === Briar Wall (Divine Spell)
-*Disciplines:* 2 Plants · *Kit:* focus:primal · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Slowed, Restrained
+*Disciplines:* 2 Plants · *Requires:* focus:primal · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Slowed, Restrained
 
 *Weak:* Creatures passing through take 6 piercing damage.
 

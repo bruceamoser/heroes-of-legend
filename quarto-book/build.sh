@@ -46,6 +46,16 @@ echo "  Checking Discipline vocabulary..."
 python3 "$REPO_ROOT/../docs/check-discipline-vocabulary.py" || true
 echo ""
 
+# ── Requires field gate (issue #586) ──────────────────────────────────────────
+# The card field is `Requires:`, not `Kit:`, and the glossary terms Kit and Kit
+# Point are retired. Unlike the collapse-series sweep above, this mode is fatal:
+# nothing in the book may carry the old field name or either kit term, so any
+# reintroduction stops the build here.
+
+echo "  Checking Requires field..."
+python3 "$REPO_ROOT/../docs/check-discipline-vocabulary.py" --requires
+echo ""
+
 # ── Clean output ──────────────────────────────────────────────────────────────
 
 rm -rf "$OUTPUT_DIR"

@@ -166,7 +166,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 == Fire Spells
 
 === Ember Lance (Arcane Spell)
-*Disciplines:* 1 Fire · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Piercing, Burning
+*Disciplines:* 1 Fire · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Piercing, Burning
 
 *Weak:* 2 fire damage.
 
@@ -175,7 +175,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Strong:* 6 fire damage; 4 fire damage to one target behind.
 
 === Brimstone Burst (Arcane Spell)
-*Disciplines:* 2 Fire · *Kit:* focus:arcane · *Action:* Action · *Range:* 20-ft radius · *Keywords:* Burning
+*Disciplines:* 2 Fire · *Requires:* focus:arcane · *Action:* Action · *Range:* 20-ft radius · *Keywords:* Burning
 
 *Weak:* 4 fire damage to all in the radius (Agility or Dodge rank resists).
 
@@ -184,7 +184,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Strong:* 8 fire damage to all; the ground burns (Burning 4).
 
 === Wall of Cinders (Arcane Spell)
-*Disciplines:* 2 Fire · *Kit:* focus:arcane · *Action:* Action · *Range:* 30-ft wall · *Keywords:* None
+*Disciplines:* 2 Fire · *Requires:* focus:arcane · *Action:* Action · *Range:* 30-ft wall · *Keywords:* None
 
 *Weak:* 4 fire damage to creatures passing through.
 
@@ -193,7 +193,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Strong:* 8 fire damage to passers; ignites flammables.
 
 === Burning Volley (Arcane Spell)
-*Disciplines:* 1 Fire · *Kit:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* None
+*Disciplines:* 1 Fire · *Requires:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* None
 
 *Weak:* 2 fire damage, split across three lances.
 
@@ -204,7 +204,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 == Water Spells
 
 === Frostbite Shard (Arcane Spell)
-*Disciplines:* 1 Water · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Slowed, Frozen
+*Disciplines:* 1 Water · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Slowed, Frozen
 
 *Weak:* 2 cold damage.
 
@@ -213,7 +213,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Strong:* 6 cold damage; the target is Slowed 5.
 
 === Rime Storm (Arcane Spell)
-*Disciplines:* 2 Water · *Kit:* focus:arcane · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Slowed, Frozen
+*Disciplines:* 2 Water · *Requires:* focus:arcane · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Slowed, Frozen
 
 *Weak:* 4 cold damage (Agility or Dodge rank resists).
 
@@ -222,7 +222,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Strong:* 8 cold damage; targets are Slowed 5 for 2 rounds.
 
 === Glacial Prison (Arcane Spell)
-*Disciplines:* 2 Water · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained, Frozen
+*Disciplines:* 2 Water · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained, Frozen
 
 *Weak:* 4 cold damage.
 
@@ -233,7 +233,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 == Wind Spells
 
 === Storm Javelin (Arcane Spell)
-*Disciplines:* 1 Wind · *Kit:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* Bane
+*Disciplines:* 1 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* Bane
 
 *Weak:* 2 lightning damage.
 
@@ -242,7 +242,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Strong:* 6 lightning damage; the target has Bane on its next 2 attacks; arcs to one adjacent target for half.
 
 === Forked Sky (Arcane Spell)
-*Disciplines:* 2 Wind · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
+*Disciplines:* 2 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
 
 *Weak:* 4 lightning damage, split across three arcs.
 
@@ -251,7 +251,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Strong:* 8 lightning damage, split across three arcs.
 
 === Static Field (Arcane Spell)
-*Disciplines:* 2 Wind · *Kit:* focus:arcane · *Action:* Action · *Range:* 10-ft radius · *Keywords:* None
+*Disciplines:* 2 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 10-ft radius · *Keywords:* None
 
 *Weak:* 4 lightning damage to all adjacent targets (Agility or Dodge rank resists).
 
@@ -260,7 +260,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Strong:* 8 lightning damage to all adjacent; targets lose their Maneuver.
 
 === Gust (Arcane Spell)
-*Disciplines:* 1 Wind · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Prone, Push
+*Disciplines:* 1 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Prone, Push
 
 *Weak:* No damage; Push 5 ft.
 
@@ -276,7 +276,7 @@ _Placeholder for final art._
 #pagebreak()
 
 === Wind Wall (Arcane Spell)
-*Disciplines:* 2 Wind · *Kit:* focus:arcane · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Bane
+*Disciplines:* 2 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Bane
 
 *Weak:* Missile attacks through the wall have Bane.
 
@@ -287,7 +287,7 @@ _Placeholder for final art._
 == Earth Spells
 
 === Corrosive Spit (Arcane Spell)
-*Disciplines:* 1 Earth · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* DR
+*Disciplines:* 1 Earth · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* DR
 
 *Weak:* 2 acid damage.
 
@@ -296,7 +296,7 @@ _Placeholder for final art._
 *Strong:* 6 acid damage; the target's DR is reduced by 2.
 
 === Caustic Mist (Arcane Spell)
-*Disciplines:* 2 Earth · *Kit:* focus:arcane · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Bane
+*Disciplines:* 2 Earth · *Requires:* focus:arcane · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Bane
 
 *Weak:* 4 acid damage (Agility or Dodge rank resists).
 
@@ -305,7 +305,7 @@ _Placeholder for final art._
 *Strong:* 8 acid damage; targets have Bane on sight for 2 rounds; the mist lasts 2 rounds.
 
 === Tremor (Arcane Spell)
-*Disciplines:* 2 Earth · *Kit:* focus:arcane · *Action:* Action · *Range:* 10-ft radius · *Keywords:* Prone
+*Disciplines:* 2 Earth · *Requires:* focus:arcane · *Action:* Action · *Range:* 10-ft radius · *Keywords:* Prone
 
 *Weak:* 4 bludgeoning damage (Agility or Dodge rank resists).
 
@@ -334,7 +334,7 @@ _Placeholder for final art._
 == Plants Spells
 
 === Venom Lance (Arcane Spell)
-*Disciplines:* 1 Plants · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
+*Disciplines:* 1 Plants · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
 
 *Weak:* 2 poison damage.
 
@@ -345,7 +345,7 @@ _Placeholder for final art._
 == Energy Spells
 
 === Force Dart (Arcane Spell)
-*Disciplines:* 1 Energy · *Kit:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* None
+*Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* None
 
 *Weak:* 2 force damage; never misses (the tier is still rolled).
 
@@ -354,7 +354,7 @@ _Placeholder for final art._
 *Strong:* 6 force damage.
 
 === Force Wave (Arcane Spell)
-*Disciplines:* 2 Energy · *Kit:* focus:arcane · *Action:* Action · *Range:* 15-ft cone · *Keywords:* Prone, Push
+*Disciplines:* 2 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 15-ft cone · *Keywords:* Prone, Push
 
 *Weak:* 4 force damage; Push 5 ft (Agility or Dodge rank resists).
 
@@ -363,7 +363,7 @@ _Placeholder for final art._
 *Strong:* 8 force damage; Push 15 ft; targets are Prone.
 
 === Ward of Iron (Arcane Spell)
-*Disciplines:* 1 Energy · *Kit:* focus:arcane · *Action:* Reaction · *Range:* Self · *Keywords:* DR
+*Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Reaction · *Range:* Self · *Keywords:* DR
 
 *Weak:* +1 DR against one attack.
 
@@ -372,7 +372,7 @@ _Placeholder for final art._
 *Strong:* +3 DR against one attack; the attacker takes 2 damage and the ward reflects 3 damage.
 
 === Unseen Hand (Arcane Spell)
-*Disciplines:* 1 Energy · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained
+*Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained
 
 *Weak:* Move an object of up to 10 lb for 1 turn.
 
@@ -381,7 +381,7 @@ _Placeholder for final art._
 *Strong:* Move an object of up to 50 lb for 2 turns; can hold a creature still (Restrained).
 
 === Eldritch Sight (Arcane Spell)
-*Disciplines:* 1 Energy · *Kit:* focus:arcane · *Action:* Action · *Range:* Self · *Keywords:* None
+*Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* Self · *Keywords:* None
 
 *Weak:* Reveal 1 clue about magic.
 
@@ -390,7 +390,7 @@ _Placeholder for final art._
 *Strong:* Reveal 3 clues about magic and identify any magical effect; the sight lasts 1 scene.
 
 === Flicker Step (Arcane Spell)
-*Disciplines:* 1 Energy · *Kit:* focus:arcane · *Action:* Maneuver · *Range:* Self · *Keywords:* Boon, Bane
+*Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Maneuver · *Range:* Self · *Keywords:* Boon, Bane
 
 *Weak:* Teleport 5 ft.
 
@@ -399,7 +399,7 @@ _Placeholder for final art._
 *Strong:* Teleport 30 ft; Boon on your next attack, and Bane on attacks against you for 1 turn.
 
 === Soul Drain (Arcane Spell)
-*Disciplines:* 1 Energy · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
+*Disciplines:* 1 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
 
 *Weak:* 2 necrotic damage; heal half the damage.
 
@@ -408,7 +408,7 @@ _Placeholder for final art._
 *Strong:* 6 necrotic damage; heal 3; slay at 0 HP.
 
 === March of Bones (Arcane Spell)
-*Disciplines:* 2 Energy · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Boon
+*Disciplines:* 2 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Boon
 
 *Weak:* Raise 1 skeleton for 1 scene.
 
@@ -417,7 +417,7 @@ _Placeholder for final art._
 *Strong:* Raise 3 skeletons for 1 hour.
 
 === Touch of the Grave (Arcane Spell)
-*Disciplines:* 2 Energy · *Kit:* focus:arcane · *Action:* Action · *Range:* Touch · *Keywords:* Unconscious
+*Disciplines:* 2 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* Touch · *Keywords:* Unconscious
 
 *Weak:* 4 necrotic damage.
 
@@ -536,7 +536,7 @@ _Placeholder for final art._
 == Mind Spells
 
 === Silver Tongue (Arcane Spell)
-*Disciplines:* 1 Mind · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane, Boon
+*Disciplines:* 1 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane, Boon
 
 *Weak:* The target has Bane against your social checks for 1 scene (Reason resists).
 
@@ -545,7 +545,7 @@ _Placeholder for final art._
 *Strong:* The target has Bane against your social checks and is friendly for 1 scene.
 
 === Daze (Arcane Spell)
-*Disciplines:* 1 Mind · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
+*Disciplines:* 1 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
 
 *Weak:* The target loses its Maneuver (Reason resists).
 
@@ -554,7 +554,7 @@ _Placeholder for final art._
 *Strong:* The target loses its Action and Maneuver.
 
 === Phantasmal Image (Arcane Spell)
-*Disciplines:* 2 Mind · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
+*Disciplines:* 2 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
 
 *Weak:* The illusion lasts 1 turn.
 
@@ -563,7 +563,7 @@ _Placeholder for final art._
 *Strong:* The illusion lasts 3 turns and also produces sound; those who fail a Reason check have Bane.
 
 === Fade (Arcane Spell)
-*Disciplines:* 1 Mind · *Kit:* focus:arcane · *Action:* Action · *Range:* Self · *Keywords:* Boon
+*Disciplines:* 1 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* Self · *Keywords:* Boon
 
 *Weak:* Boon on Stealth for 1 turn.
 
@@ -572,7 +572,7 @@ _Placeholder for final art._
 *Strong:* Boon on Stealth for 3 turns; you cannot be targeted by sight.
 
 === Mind Crown (Arcane Spell)
-*Disciplines:* 2 Mind · *Kit:* focus:arcane · *Action:* Action · *Range:* 30 ft, 1 scene · *Keywords:* None
+*Disciplines:* 2 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft, 1 scene · *Keywords:* None
 
 *Weak:* The target follows one simple command (Reason resists).
 

@@ -15,6 +15,11 @@ Modes
 --kit         no kit-point vocabulary survives: kit point, six points, Typical Kit,
               Granted Pack, Kit Gear, free with every kit. Disguise Kit and
               Healer's Kit are item names, not economy, and are exempt.
+--requires    the card field is Requires, not Kit: no *Kit:* field and no
+              "Kit field" prose survives in any chapter, and the Kit and Kit
+              Point terms do not come back. Disguise Kit and Healer's Kit are
+              item names; ordinary English uses (the simplest tool in your kit)
+              pass.
 --shield      the Discipline that owns the shield items (ch15/ch16/ch22) is the
               same one that owns the shield cards (ch09/ch05); no other leaf
               claims shield work in the ch08 taxonomy.
@@ -37,7 +42,7 @@ Modes
               single-key reading; 193 lines across twelve chapters naming a
               collapsed family.
 
-No mode flag runs every check (seven checks plus --report). Exit 0 = zero
+No mode flag runs every check (eight checks plus --report). Exit 0 = zero
 findings, 1 = findings printed.
 """
 from __future__ import annotations
@@ -66,6 +71,9 @@ KIT_TERMS = (
     "free with every kit",
 )
 KIT_ITEM_NAMES = ("disguise kit", "healer's kit")
+
+OLD_FIELD_RE = re.compile(r"\*+Kit\b")
+OLD_FIELD_PHRASE_RE = re.compile(r"\bKit field\b", re.IGNORECASE)
 
 PROTECTION_EXEMPT = {
     ("02-character-creation.qmd", 247),
@@ -301,6 +309,20 @@ def check_kit() -> list[str]:
                         findings.append(finding(name, i + 1,
                                                 f"kit-point vocabulary survives: '{term}'"))
                     start = low.find(term.lower(), start + 1)
+    return findings
+
+
+def check_requires() -> list[str]:
+    findings = []
+    for name, lines in CH.items():
+        for i, line in enumerate(lines):
+            if OLD_FIELD_RE.search(line):
+                findings.append(finding(name, i + 1,
+                                        "retired Kit field or kit term survives; the field is *Requires:*"))
+            m = OLD_FIELD_PHRASE_RE.search(line)
+            if m:
+                findings.append(finding(name, i + 1,
+                                        f"old field name survives in prose: '{m.group(0)}'"))
     return findings
 
 
@@ -753,6 +775,8 @@ def main(argv) -> int:
     parser.add_argument("--cards", action="store_true", help="check ch09 *Disciplines:* lines")
     parser.add_argument("--classes", action="store_true", help="check ch05 requirement cells and grants")
     parser.add_argument("--kit", action="store_true", help="fail on surviving kit-point vocabulary")
+    parser.add_argument("--requires", action="store_true",
+                        help="fail on the retired Kit field and kit-term vocabulary")
     parser.add_argument("--shield", action="store_true", help="check the single shield owner")
     parser.add_argument("--gear", action="store_true", help="check armor, shield, and weapon tables")
     parser.add_argument("--protection", action="store_true", help="check Protection as a martial key only")
@@ -765,6 +789,7 @@ def main(argv) -> int:
         ("cards", args.cards, check_cards),
         ("classes", args.classes, check_classes),
         ("kit", args.kit, check_kit),
+        ("requires", args.requires, check_requires),
         ("shield", args.shield, check_shield),
         ("gear", args.gear, check_gear),
         ("protection", args.protection, check_protection),
