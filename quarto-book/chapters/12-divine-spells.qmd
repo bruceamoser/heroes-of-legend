@@ -404,7 +404,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 *Strong:* As standard, and it stays Prone until it reaches stone, water, or another surface you did not name.
 
 === Tree Remembers (Adept Primal Spell)
-*Disciplines:* 2 Plants · *Action:* Action · *Range:* touch · *Keywords:* Divination
+*Disciplines:* 2 Plants · *Action:* Action · *Range:* Touch · *Keywords:* Divination
 
 *Weak:* You touch a tree and see the last face that passed beneath it.
 
@@ -415,7 +415,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 == Earth Spells
 
 === Ask the Land (Adept Primal Spell)
-*Disciplines:* 2 Earth · *Action:* Action · *Range:* touch · *Keywords:* Divination
+*Disciplines:* 2 Earth · *Action:* Action · *Range:* Touch · *Keywords:* Divination
 
 *Weak:* You touch bare ground and learn the direction of the nearest settlement, water, or road.
 

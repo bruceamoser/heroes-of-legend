@@ -44,7 +44,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Flat Damage:* Damage taken straight from the damage budget row with no attribute added. Arrows, thrown attacks, most spells, and all monsters use flat damage.
 
-*Attribute-Scaled Damage:* Damage that adds the card's stated attribute to a base value, minimum 1 damage. Novice cards use the Basic-card floor (1/2/3). Adept and Master cards use the budget row minus 3 (2/5/8 and 4/7/11). Melee attack cards add Brawn. A talent can substitute another attribute for Brawn when applicable. See @sec-chapter-talents-abilities. Missile and thrown attacks are flat, no attribute added.
+*Attribute-Scaled Damage:* Damage that adds the card's stated attribute to a base value, minimum 1 damage. Novice cards use the Basic-card floor (1/2/3). Adept and Master cards use the budget row minus 3 (2/5/8 and 4/7/11). Melee attack cards add Brawn. A talent can substitute another attribute for Brawn when applicable. See @sec-chapter-talents-abilities Missile and thrown attacks are flat, no attribute added.
 
 #pagebreak()
 
