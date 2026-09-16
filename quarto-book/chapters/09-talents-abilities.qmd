@@ -96,8 +96,6 @@ These six talents are the substitution family. Only one substitution applies to 
 
 *Novice:* When you take the Defend maneuver, adjacent allies gain +2 DR until the start of your next turn.
 
-This DR does not stack with any other source of DR.
-
 === Refuse to Fall (Talent)
 *Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* HP
 

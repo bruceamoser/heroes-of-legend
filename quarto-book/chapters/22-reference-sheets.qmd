@@ -245,7 +245,7 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
 + *Background DP:* 8 + Knowledge + Fortitude. Spend all on Novice skills and abilities.
 + *Class:* Choose class. Record Class Discipline and signature ability.
 + *Class DP:* 8 DP. Spend all on Novice skills and abilities.
-+ *Equipment:* Take your class's starting loadout (see @sec-chapter-classes). Record weapon properties and armor slots; your Damage Reduction is your armor's DR (1 light, 2 medium, 3 heavy) plus whatever your talents add.
++ *Equipment:* Take your class's starting loadout (see @sec-chapter-classes). Record weapon properties and armor slots; your Damage Reduction is the highest of your armor's DR (1 light, 2 medium, 3 heavy) and any talent or ward that grants DR, with shield DR added on top.
 + *Derived Stats:* HP, Grit, Initiative, Movement, Carry Slots.
 + *Backstory:* Motivation, Trinket, Name.
 
@@ -357,7 +357,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   [Tower Shield], [2], [Parry, Shield Block; half cover; -5 ft speed],
 )], kind: table, numbering: none, outlined: false)
 
-*Your Damage Reduction comes from your armor plus whatever your talents add, and never from a shield.* See @sec-chapter-armor-shields
+*Your Damage Reduction is the highest of your armor, a talent, or a ward. Shield DR is the one thing that adds, up to +3.* See @sec-chapter-armor-shields
 
 #figure(align(center)[#table(
   columns: (19.23%, 30.77%, 30.77%, 19.23%),
@@ -390,7 +390,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 
 *The weapon never changes your damage. See @sec-chapter-talents-abilities for what a range of two numbers means, and @sec-chapter-equipment for weapons in full, including which are drawn from a starting kit.*
 
-*Defense summary:* Your Damage Reduction (DR) is your armor's DR (1 light, 2 medium, 3 heavy) plus whatever your talents add, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields enable the Parry skill and the Shield Block reaction.
+*Defense summary:* Your Damage Reduction (DR) is the highest of your armor's DR (1 light, 2 medium, 3 heavy), a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. Shield DR is added after that ceiling, up to +3. Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields enable the Parry skill and the Shield Block reaction.
 
 #figure(align(center)[#table(
   columns: (68.42%, 31.58%),

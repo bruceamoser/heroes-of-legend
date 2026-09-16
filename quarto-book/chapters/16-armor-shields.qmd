@@ -10,7 +10,7 @@ _Figure 18.1: Armor & Shields_
 _Placeholder for final art._
 #pagebreak()
 
-Armor isn't about avoiding hits. Hits happen, that's the always-hit rule in action. Armor is what you wear and what you have been through: boiled leather, rings of steel, a breastplate that has already turned one blade. It is a choice about weight, slots, donning time, and what it says about you. What keeps you standing is the steel you wear and the drills you have run, working together. Damage Reduction comes from your armor and from your talents.
+Armor isn't about avoiding hits. Hits happen, that's the always-hit rule in action. Armor is what you wear and what you have been through: boiled leather, rings of steel, a breastplate that has already turned one blade. It is a choice about weight, slots, donning time, and what it says about you. What keeps you standing is the steel you wear or the drills you have run, whichever is stronger. Damage Reduction comes from your armor and from your talents.
 
 Shields are different. A shield is not a passive number on your sheet, it is an active defense, something you put in the way of a blow. It gives you a reaction that downgrades an incoming hit. Wear your armor. Use your shield. Choose wisely.
 
@@ -20,11 +20,17 @@ Shields are different. A shield is not a passive number on your sheet, it is an 
 
 When you take physical damage, subtract your Damage Reduction (DR) from the damage value. The remainder is what you actually lose from your HP. A hit always lands for at least 1 damage, no matter how much DR you have. Simple.
 
-Your DR comes from one source at a time: your armor, a talent, or a spell. Armor's DR is set by its weight class: light 1, medium 2, heavy 3. Heavier armor is heavier in every sense, and in the kit builder it costs more points. If more than one source gives you DR, use the highest. The sources do not add, and a shield is the one exception: shield DR is added after the ceiling.
+Your DR comes from one source at a time: your armor, a talent, or a spell. Armor's DR is set by its weight class: light 1, medium 2, heavy 3. Heavier armor is heavier in every sense, and in the kit builder it costs more points. If more than one source gives you DR, use the highest. Armor, talents, and wards do not add together.
 
-*There is a ceiling.* Your total DR cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A hit must always be able to land for something, and the three tiers of a damage band have to stay distinct at every level. If DR could climb past that ceiling the roll would stop carrying information, and light, medium, and heavy armor would stop being three different choices. The highest source governs up to the ceiling, and no further.
+*Shield DR is the exception.* DR from a shield source is *shield DR*. A shield item grants no number on its own; shield DR comes from a card, including any card that requires a shield. It adds to your DR from other sources, after the ceiling below. No combination of shield sources ever adds more than +3, so a second shield grant is worth nothing on top of the first.
 
-*Example:* Kael wears light armour, so his armour grants DR 1. He is also under Bark Skin, which grants +1 DR. The two do not add: his DR is the higher of the two, 1. A goblin's scimitar hits him for Weak damage (4). 4 - 1 = 3, so Kael takes 3 damage. When the same goblin lands a Standard hit (6), Kael takes 5 instead of 6.
+*There is a ceiling.* Your total DR from armor, talents, and wards cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A hit must always be able to land for something, and the three tiers of a damage band have to stay distinct at every level. If DR could climb past that ceiling the roll would stop carrying information, and light, medium, and heavy armor would stop being three different choices. The highest source governs up to the ceiling, and no further. Shield DR is added after it.
+
+*Temporary grants add.* DR granted by an ability for a stated duration adds to your DR while it lasts. A temporary grant is not a source you carry: it adds on top of whatever you already have, and it ends when the duration does. Guarding Stance, Warding Touch, Shield of Faith, Bulwark, and Ironhide all work this way.
+
+*Ranks set the size of a grant.* A DR grant requires Discipline ranks at least equal to the DR it grants: DR 2 costs 2 ranks, DR 3 costs 3. The armor table's light 1, medium 2, heavy 3 column is the same scale.
+
+*Example:* Kael wears light armour, so his armour grants DR 1. He is also under Stone Skin, which grants +2 DR. The two are sources and do not add: his DR is the higher of the two, 2. A goblin's scimitar hits him for Weak damage (4). 4 - 2 = 2, so Kael takes 2 damage. When the same goblin lands a Standard hit (6), Kael takes 4 instead of 6.
 
 #pagebreak()
 
@@ -99,7 +105,7 @@ Roric is building a dwarf Protector at Level 1. He has Brawn +2, Fortitude +1, 1
 
 *Chain Mail:* Heavy, DR 3, 4 slots, 10 minutes to don.
 
-With leather his DR is 1. Neither ward would change that for him even if one could be cast on him: a ward does not add to armor, so leather plus Bark Skin is still 1. The two wards do not add to each other either: even with both up, a caster's DR is the higher number, and each ward still costs its own Maneuver. With chain mail his DR is 3, which Stone Skin cannot match, and the steel costs no Maneuver to keep. That is the real trade. Chain mail costs two more slots, and it never asks a caster to spend a turn on it. Roric takes the chain mail. He would rather carry the weight than stand behind a ward that has to be paid for every round.
+With leather his DR is 1. The party's wards are self only, so none of them can cover him, and even if a caster could lay one on him a ward is a source, not an addition: leather plus Stone Skin would be 2, still under the steel, and it would cost a Maneuver every round to hold. With chain mail his DR is 3, the best a ward can reach, and the steel costs no Maneuver to keep. That is the real trade. Chain mail costs two more slots and takes ten minutes to don instead of one, and it never asks a caster to spend a turn on it. Roric takes the chain mail. He would rather carry the weight than stand behind a ward that has to be paid for every round.
 
 Armor is a decision about what the character can carry, what they give up, and how fast they can arm. The DR is what those choices buy, and for the hero already wearing armor a ward is no substitute: the ladder is the unarmored caster's path to the same numbers.
 
