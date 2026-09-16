@@ -16,7 +16,7 @@ But fire's just the beginning. Ice that freezes blood in the veins. Lightning th
 
 Arcane magic is the art of telling the universe to sit down and shut up, and making it listen. You don't ask. You don't pray. You _impose._
 
-This chapter contains every arcane spell in the game: fifteen cantrips you know from the start, and fifty-three spell cards that run Novice, Adept, and Master. Every spell card carries a Discipline, an action, a range, and an effect. Every spell card prints its tier, and its outcome block keys to that tier's row of the damage budget. Key the numbers to the damage budget (@sec-damage-budget), and cast. Where a card prints half of a value, round down.
+This chapter contains every arcane spell in the game: fifteen cantrips you know from the start, and fifty-three spell cards that run Novice, Adept, and Master. Every spell card carries a Discipline, an action, a range, and an effect. Every spell card prints its tier, and wherever a card deals damage its outcome block keys to that tier's row of the damage budget. Key the numbers to the damage budget (@sec-damage-budget), and cast. Where a card prints half of a value, or splits one across several targets, round down.
 
 _See @sec-chapter-magic-system for how spellcasting works._
 
@@ -24,12 +24,12 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 == Arcane Cantrips
 
-Cantrips are minor spells. The magic you learn before you learn _real_ magic. They don't require Disciplines, they don't cost anything to learn, and you can cast them as often as you like, at-will, every round, all day. Every arcane caster knows all of these.
+Cantrips are minor spells. The magic you learn before you learn _real_ magic. They don't require Disciplines, they don't cost anything to learn, and you can cast them as often as you like, at-will, every round, all day. Every arcane caster knows all of these. A cantrip whose effect lasts is a small working, and you can hold only one such working at a time: casting another lasting cantrip ends the one you were holding.
 
 They won't win a fight by themselves. But they'll start one, end one, or change the terms of one. Never underestimate a caster who knows exactly what their cantrips can do.
 
 === Arcane Mark (Cantrip)
-*Disciplines:* None · *Action:* Action · *Range:* Touch (Permanent until dispelled) · *Keywords:* None
+*Disciplines:* None · *Action:* Action · *Range:* Touch (Permanent) · *Keywords:* None
 
 *Weak:* The mark is faint. Detection spells reveal it, but the image is blurry.
 
@@ -170,7 +170,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Weak:* 4 fire damage.
 
-*Standard:* 6 fire damage; the lance passes through to one target behind for 2 fire damage.
+*Standard:* 6 fire damage; the lance passes through to one target behind for 3 fire damage.
 
 *Strong:* 8 fire damage; 4 fire damage to one target behind.
 
@@ -204,7 +204,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 == Water Spells
 
 === Frostbite Shard (Novice Arcane Spell)
-*Disciplines:* 1 Water · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Slowed, Frozen
+*Disciplines:* 1 Water · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Slowed
 
 *Weak:* 4 cold damage.
 
@@ -213,7 +213,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Strong:* 8 cold damage; the target is Slowed 5.
 
 === Rime Storm (Adept Arcane Spell)
-*Disciplines:* 2 Water · *Requires:* focus:arcane · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Slowed, Frozen
+*Disciplines:* 2 Water · *Requires:* focus:arcane · *Action:* Action · *Range:* 15-ft radius · *Keywords:* Slowed
 
 *Weak:* 5 cold damage (Agility or Dodge rank resists).
 
@@ -222,7 +222,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Strong:* 11 cold damage; targets are Slowed 5 for 2 rounds.
 
 === Glacial Prison (Adept Arcane Spell)
-*Disciplines:* 2 Water · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained, Frozen
+*Disciplines:* 2 Water · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Restrained
 
 *Weak:* 5 cold damage.
 
@@ -268,13 +268,6 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Strong:* 11 lightning damage to all adjacent; targets lose their Maneuver.
 
-#image("assets/svg/placeholder-section.svg", width: 60%)
-
-_Figure 13.2: Arcane Spells_
-
-_Placeholder for final art._
-#pagebreak()
-
 === Wind Wall (Adept Arcane Spell)
 *Disciplines:* 2 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Bane
 
@@ -283,6 +276,13 @@ _Placeholder for final art._
 *Standard:* Missile attacks through the wall are blocked for 1 round.
 
 *Strong:* Missile attacks through the wall are blocked for 2 rounds, and attackers are pushed 5 ft.
+
+#image("assets/svg/placeholder-section.svg", width: 60%)
+
+_Figure 13.2: Arcane Spells_
+
+_Placeholder for final art._
+#pagebreak()
 
 == Earth Spells
 
@@ -399,7 +399,7 @@ _Placeholder for final art._
 *Strong:* The silence holds until the end of the scene; no shout, bell, or horn raised inside carries beyond the boundary, and every creature inside is Deafened to the world outside.
 
 === Unopened (Novice Arcane Spell)
-*Disciplines:* 1 Energy · *Action:* Action · *Range:* touch · *Keywords:* Control
+*Disciplines:* 1 Energy · *Action:* Action · *Range:* Touch · *Keywords:* Control
 
 *Weak:* One door, lid, or shutter holds shut against a casual push; a determined effort still forces it.
 
@@ -441,7 +441,7 @@ _Placeholder for final art._
 
 *Standard:* Raise 2 skeletons for 1 scene.
 
-*Strong:* Raise 3 skeletons for 1 hour.
+*Strong:* Raise 3 skeletons for 3 scenes.
 
 === Touch of the Grave (Adept Arcane Spell)
 *Disciplines:* 2 Energy · *Requires:* focus:arcane · *Action:* Action · *Range:* Touch · *Keywords:* Unconscious
@@ -495,7 +495,7 @@ _Placeholder for final art._
 
 *Standard:* +2 DR against one attack.
 
-*Strong:* +3 DR against one attack; the attacker takes 4 damage and the ward reflects 4 damage.
+*Strong:* +3 DR against one attack; the attacker takes 4 damage as the ward throws the blow back.
 
 This DR does not stack with any other source of DR.
 
@@ -527,7 +527,7 @@ This DR does not stack with any other source of DR.
 *Strong:* The delay outlives the scene and rests on its condition alone, and you may name three conditions that will end it.
 
 === The Room You Remember (Master Arcane Spell)
-*Disciplines:* 2 Mind + 1 Energy · *Action:* Action (ritual, 1 minute) · *Range:* 30 ft · *Keywords:* Teleport, Insight
+*Disciplines:* 2 Mind + 1 Energy · *Action:* Action · *Range:* 30 ft (ritual, 1 minute) · *Keywords:* Teleport, Insight
 
 *Weak:* You touch a doorway and name a place you have seen yourself; for a breath, the room beyond shows it.
 
@@ -544,7 +544,7 @@ This DR does not stack with any other source of DR.
 
 *Standard:* The target has Bane against your social checks for 2 scenes.
 
-*Strong:* The target has Bane against your social checks and is friendly for 1 scene.
+*Strong:* The target has Bane against your social checks for 2 scenes, and is friendly for that time.
 
 === Daze (Novice Arcane Spell)
 *Disciplines:* 1 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* None
@@ -574,7 +574,7 @@ This DR does not stack with any other source of DR.
 *Strong:* For the scene, every deliberate falsehood spoken near you shows itself as a wrongness you can point to, and the purpose behind each lie is plain to you.
 
 === The Given Word (Novice Arcane Spell)
-*Disciplines:* 1 Mind · *Action:* Action (ritual, 1 minute) · *Range:* touch · *Keywords:* Oath, Damage
+*Disciplines:* 1 Mind · *Action:* Action · *Range:* Touch (ritual, 1 minute) · *Keywords:* Oath, Damage
 
 *Weak:* A promise written in your presence and signed binds its signer: the moment they break it they take 4 damage.
 
@@ -601,7 +601,7 @@ This DR does not stack with any other source of DR.
 *Strong:* The target follows your commands for the full scene and cannot attempt its Reason resistance again.
 
 === Borrowed Recollection (Adept Arcane Spell)
-*Disciplines:* 2 Mind · *Action:* Action · *Range:* touch · *Keywords:* Insight, Bane
+*Disciplines:* 2 Mind · *Action:* Action · *Range:* Touch · *Keywords:* Insight, Bane
 
 *Weak:* Touching a creature, you read one recent memory it does not guard, seeing and hearing the moment as the creature did.
 
@@ -610,7 +610,7 @@ This DR does not stack with any other source of DR.
 *Strong:* You take the memory whole; the creature cannot recall it while you hold it, and you may set it back exactly as it was, or keep it.
 
 === True Name (Adept Arcane Spell)
-*Disciplines:* 2 Mind · *Action:* Action (ritual, 1 minute) · *Range:* 30 ft · *Keywords:* Insight, Control
+*Disciplines:* 2 Mind · *Action:* Action · *Range:* 30 ft (ritual, 1 minute) · *Keywords:* Insight, Control
 
 *Weak:* You learn whether a name a creature answers to is truly its own.
 
