@@ -289,7 +289,7 @@ When you wield a weapon in each hand, you may attack with both as a single Actio
 
 The off-hand weapon must have the *Light* property (Dagger, Shortsword, Handaxe). Two-weapon fighting uses your basic Attack action; the off-hand swing is just the same action with a second, weaker blow.
 
-*Example:* Kael wields a shortsword (primary) and a dagger (off-hand). He rolls 3d6 and lands a Standard hit. His Basic Melee card deals 2 on Standard, plus Agility +2, for 4. The off-hand attack drops a tier to Weak: the dagger is Finesse, so it adds the same Agility +2, 1 plus 2, for 3 more. Total: 7. Two blades, one roll, clean result.
+*Example:* Kael wields a shortsword (primary) and a dagger (off-hand). He rolls 3d6 and lands a Standard hit. His Basic Melee card deals 2 on Standard, plus Agility +2, for 4. The off-hand attack drops a tier to Weak: the same permission applies, so it adds the same Agility +2, 1 plus 2, for 3 more. Total: 7. Two blades, one roll, clean result.
 
 #pagebreak()
 

@@ -230,7 +230,7 @@ Every damaging card states its expression in its damage line as either *Flat* or
 
 *Flat* damage uses the budget row exactly as listed. Arrows, missile ammunition, thrown weapons, most spells, and all monsters use flat damage. No attribute is added.
 
-*Attribute-Scaled* damage adds the card's stated attribute to a base value, minimum 1 damage. Novice cards use the Basic-card floor (1/2/3). Adept and Master cards use the budget row minus 3 (2/5/8 and 4/7/11), so a Novice card prints as "1/2/3 + Knowledge". Melee attacks add Brawn to their attack card's damage row. Missile weapons and ammunition are flat.
+*Attribute-Scaled* damage adds the card's stated attribute to a base value, minimum 1 damage. Novice cards use the Basic-card floor (1/2/3). Adept and Master cards use the budget row minus 3 (2/5/8 and 4/7/11), so a Novice card prints as "1/2/3 + Knowledge". Melee attacks add Brawn to their attack card's damage row. A talent can substitute another attribute for Brawn when applicable. See @sec-chapter-talents-abilities. Missile weapons and ammunition are flat.
 
 Weapons follow the cards, not their own curve: an attack ability card carries the damage (see the Equipment chapter for what each weapon unlocks). Melee attacks add Brawn; missile and thrown weapons are flat.
 ])

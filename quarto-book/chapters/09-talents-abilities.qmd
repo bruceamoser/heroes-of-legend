@@ -47,6 +47,11 @@ The talents below are general. Any class may take any of them, though a talent t
 
 *Novice:* +2 DR, in addition to your armor's DR.
 
+=== Precision (Talent)
+*Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
+
+*Novice:* You may use Agility for Brawn when applicable.
+
 === Weapon Focus (Talent)
 *Disciplines:* 1 chosen weapon Discipline · *Action:* Passive · *Range:* Self · *Keywords:* Damage
 
@@ -173,11 +178,11 @@ These five cards are the attacks every character can make, no Discipline require
 === Basic Melee (Basic Attack)
 *Disciplines:* None · *Kit:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage
 
-*Weak:* 1 + Brawn damage (Agility with a Finesse weapon).
+*Weak:* 1 + Brawn damage.
 
-*Standard:* 2 + Brawn damage (Agility with a Finesse weapon).
+*Standard:* 2 + Brawn damage.
 
-*Strong:* 3 + Brawn damage (Agility with a Finesse weapon).
+*Strong:* 3 + Brawn damage.
 
 === Basic Two-Handed (Basic Attack)
 *Disciplines:* None · *Kit:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage

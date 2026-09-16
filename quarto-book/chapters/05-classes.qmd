@@ -92,11 +92,11 @@ You're not "the boring one." You're the reason the Blade gets to do their job wi
 
 _"Strike once. Strike true. Strike last."_
 
-The Blade masters the art of finesse and precision, favoring the swift elegance of light blades. Your expertise lies in meticulously placed stabs, exploiting vulnerabilities with the sharpness and agility of your weapons. Keyed to Guile, you weave through the battlefield, striking with calculated precision, each strike as effective as it is lethal. You are the shadow on the wall, the final face your enemies see.
+The Blade masters the art of grace and precision, favoring the swift elegance of light blades. Your expertise lies in meticulously placed stabs, exploiting vulnerabilities with the sharpness and agility of your weapons. Keyed to Guile, you weave through the battlefield, striking with calculated precision, each strike as effective as it is lethal. You are the shadow on the wall, the final face your enemies see.
 
 *Class Discipline (L1):* Melee (1) + Stealth (1)
 
-*Signature, Swift Blade:* You may use Agility instead of Brawn when attacking with blades. When you exploit an opening (a target that is Dazed, Prone, or unaware of you), the attack deals +1 damage tier. Once per scene.
+*Signature, Swift Blade:* You gain the Precision talent for free. When you exploit an opening (a target that is Dazed, Prone, or unaware of you), the attack deals +1 damage tier. Once per scene.
 
 *Favored Skills:* Acrobatics, Deception, Perception, Sleight of Hand, Stealth, Thievery
 
