@@ -23,10 +23,13 @@ Modes
               dominated by another row printed in the same table. Domination is
               judged on the table's own numeric axes (Requirement, DR, Slots,
               Cost); a table with fewer than two such axes cannot express one.
---protection  no Protection used as a Discipline key ([Protection], N Protection,
-              Protection (N), Protection Discipline, a Protection Req header, or a
-              *Disciplines:* line). Protection Value passes. Character-motivation
-              and fiction lines 02:247, 02:441, 02:594 and 01b:29 are exempt.
+--protection  no Protection used as a martial key: no shield card and no shield
+              requirement asks for Protection (issue #588 splits the Defense
+              category, Shields martial and Protection the ward school). The four
+              ward keys and the header at 12:157-190, Protection Value and its four
+              users, and the four motivation and fiction lines 02:247, 02:441,
+              02:594 and 01b:29 all pass. A clean run also reports the ch08 leaf
+              total, twenty-five after the split.
 --report      print the counts used in this series as a table, so each PR can
               paste the before/after. The baseline below was measured 2026-09-15:
               31 weapon-keyed maneuver headers; 54 armament rank cells across the
@@ -577,6 +580,23 @@ def check_gear() -> list[str]:
     return findings
 
 
+def martial_protection_sites():
+    """Yield (chapter, line, text) for every shield card and shield requirement.
+
+    A martial Protection key is one attached to a shield: the shield items in
+    ch15/ch16/ch22, the ch08 Tower Shield example, and the ch09/ch05 cards that
+    cannot be used without a shield. Prose that merely mentions a shield (a
+    hero's shield-wall memory, the opening fiction) is not a key site.
+    """
+    for name, lineno, _title, text in card_requirement_sites():
+        yield name, lineno, text
+    for name in ("08-disciplines.qmd", "15-equipment.qmd", "16-armor-shields.qmd",
+                 "22-reference-sheets.qmd"):
+        for i, line in enumerate(CH[name]):
+            if re.search(r"\bshield\b|\bbuckler\b", line, re.I):
+                yield name, i + 1, line
+
+
 def check_protection() -> list[str]:
     patterns = (
         (re.compile(r"\[\*?Protection\*?\]"), "[Protection]"),
@@ -586,17 +606,20 @@ def check_protection() -> list[str]:
         (re.compile(r"Protection\s+Req(?:uirement)?s?\b"), "Protection Req header"),
     )
     findings = []
-    for name, lines in CH.items():
-        for i, line in enumerate(lines):
-            if (name, i + 1) in PROTECTION_EXEMPT:
-                continue
-            scrubbed = re.sub(r"Protection\s+Value", "", line)
-            hits = [label for pattern, label in patterns if pattern.search(scrubbed)]
-            if "*Disciplines:*" in scrubbed and re.search(r"\bProtection\b", scrubbed):
-                hits.append("*Disciplines:* Protection")
-            for hit in hits:
-                findings.append(finding(name, i + 1,
-                                        f"Protection used as a Discipline key ({hit})"))
+    for name, lineno, text in martial_protection_sites():
+        if (name, lineno) in PROTECTION_EXEMPT:
+            continue
+        scrubbed = re.sub(r"Protection\s+Value", "", text)
+        hits = [label for pattern, label in patterns if pattern.search(scrubbed)]
+        if "*Disciplines:*" in scrubbed and re.search(r"\bProtection\b", scrubbed):
+            hits.append("*Disciplines:* Protection")
+        for hit in hits:
+            findings.append(finding(name, lineno,
+                                    f"Protection used as a martial key ({hit})"))
+    for lineno, category, leaf, represents in taxonomy(CH["08-disciplines.qmd"]):
+        if category == "Defense" and leaf == "Protection" and "shield" in represents.lower():
+            findings.append(finding("08-disciplines.qmd", lineno,
+                                    "Protection's taxonomy row still claims shield work"))
     return findings
 
 
@@ -732,7 +755,7 @@ def main(argv) -> int:
     parser.add_argument("--kit", action="store_true", help="fail on surviving kit-point vocabulary")
     parser.add_argument("--shield", action="store_true", help="check the single shield owner")
     parser.add_argument("--gear", action="store_true", help="check armor, shield, and weapon tables")
-    parser.add_argument("--protection", action="store_true", help="check Protection as a Discipline key")
+    parser.add_argument("--protection", action="store_true", help="check Protection as a martial key only")
     parser.add_argument("--report", action="store_true", help="print the series baseline counts")
     args = parser.parse_args(argv)
 
@@ -766,7 +789,11 @@ def main(argv) -> int:
         return 1
     if selected:
         ran = ", ".join(mode for mode, _fn in selected)
-        print(f"OK: {ran}: zero findings.")
+        notes = ""
+        if any(mode == "protection" for mode, _fn in selected):
+            leaves = len(taxonomy(CH["08-disciplines.qmd"]))
+            notes = f" Zero martial Protection hits. Discipline leaves: {leaves}."
+        print(f"OK: {ran}: zero findings.{notes}")
     return 0
 
 

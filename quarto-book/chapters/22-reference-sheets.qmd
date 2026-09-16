@@ -225,7 +225,7 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
   table.header([Category], [Disciplines],),
   [*Elemental*], [Fire, Earth, Wind, Water],
   [*Weapon*], [Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed],
-  [*Defense*], [Protection, Armor],
+  [*Defense*], [Armor, Shields, Protection],
   [*Primal*], [Animal, Plants],
   [*Subterfuge*], [Stealth, Sleight],
   [*Arcane*], [Energy],
@@ -356,7 +356,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 #figure(align(center)[#table(
   columns: (36.00%, 28.00%, 36.00%),
   align: (auto, auto, auto,),
-  table.header([Shield], [Protection Req], [Grants],),
+  table.header([Shield], [Shields Req], [Grants],),
   [Buckler], [1], [Parry, Shield Block; keeps your hand free],
   [Shield], [1], [Parry, Shield Block],
   [Tower Shield], [2], [Parry, Shield Block; half cover; -5 ft speed],

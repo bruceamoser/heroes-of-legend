@@ -183,10 +183,10 @@ Now your hero finds their calling. This is where they become exceptional.
     [*Protector*], [Tank, defender], [Armor + any Weapon], ["Stand behind me."],
     [*Blade*], [Assassin, precision], [Blades + Stealth], ["Strike once. Strike true. Strike last."],
     [*Arcanist*], [Arcane caster], [Fire + Energy], ["Fire answers to me."],
-    [*Shepherd*], [Divine guide], [Protection + Animal], ["The light guides my hand."],
+    [*Shepherd*], [Divine guide], [Shields + Animal], ["The light guides my hand."],
     [*Intellect*], [Scholar, strategist], [Lore + any one], ["I've read about this."],
     [*Odd*], [Chaos wildcard], [Any two, different categories], ["I have a trick for that."],
-    [*Leader*], [Commander], [Tactics + Protection], ["Together, we are unstoppable."],
+    [*Leader*], [Commander], [Tactics + Shields], ["Together, we are unstoppable."],
     [*Unbalanced*], [High-risk power], [Fire + Water (or Earth/Wind)], ["Power has a price. I'm willing to pay."],
     [*Shadow*], [Sneak thief, infiltrator], [Stealth + Sleight], ["You never saw me."],
   )],
@@ -423,7 +423,7 @@ Total: 8 DP. All spent.
 
 Total: 9 DP. All spent.
 
-*Class:* Shepherd. Gains 1 Protection, 1 Animal. Signature: *Unholy Word*, divine energy ignores armor, affects only undead.
+*Class:* Shepherd. Gains 1 Shields, 1 Animal. Signature: *Unholy Word*, divine energy ignores armor, affects only undead.
 
 *Class DP (8 DP):*
 
@@ -461,7 +461,7 @@ Total: 8 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Class:* Leader. Gains 1 Tactics, 1 Protection. Signature: *Lead by Example*, on a telling blow, grant one ally a Boon on their next roll.
+*Class:* Leader. Gains 1 Tactics, 1 Shields. Signature: *Lead by Example*, on a telling blow, grant one ally a Boon on their next roll.
 
 *Class DP (8 DP):*
 
