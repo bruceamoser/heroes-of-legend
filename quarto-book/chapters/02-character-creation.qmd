@@ -28,7 +28,7 @@ If you've built a few heroes and you're tired of counting DP, here's your speed 
 + *Background DP:* Take 8 + Knowledge + Fortitude DP. Buy 2-3 Novice skills and 1 Novice ability. Spend every point.
 + *Class:* Pick your class. Record the class Discipline and signature ability.
 + *Class DP:* 8 DP. Buy 2-3 Novice skills or abilities. Spend every point.
-+ *Equipment:* Take the class starting kit. Don't optimize, the first adventure will give you better gear anyway.
++ *Equipment:* Take your class's starting loadout (see @sec-chapter-classes). Don't optimize, the first adventure will give you better gear anyway.
 + *Name & Backstory:* Roll one Motivation and one Trinket from the tables below. Make up a name. Done.
 
 You'll have a playable, effective hero in ten minutes. The nuance, the Adept and Master cards, the weird multiclass combos, that comes with levels. For now, you just need someone who can swing a sword and survive the first session.
@@ -207,7 +207,7 @@ Adept-tier skills and abilities unlock at Level 3. Master-tier at Level 7. At Le
 
 === Step 8: Equipment
 
-Receive your class starting kit and build it from the six kit points across the four lines. Record your weapon properties and your armor's slot cost; your attack ability cards carry the Weak, Standard, and Strong damage values, and your Damage Reduction is your armor's DR plus whatever your talents add. See @sec-chapter-equipment
+Receive your class's starting loadout (see @sec-chapter-classes). Record your weapon properties and your armor's slot cost; your attack ability cards carry the Weak, Standard, and Strong damage values, and your Damage Reduction is your armor's DR plus whatever your talents add. See @sec-chapter-equipment
 
 === Step 9: Derived Stats
 

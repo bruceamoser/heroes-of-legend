@@ -245,7 +245,7 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
 + *Background DP:* 8 + Knowledge + Fortitude. Spend all on Novice skills and abilities.
 + *Class:* Choose class. Record Class Discipline and signature ability.
 + *Class DP:* 8 DP. Spend all on Novice skills and abilities.
-+ *Equipment:* Take your class starting kit and build it from the four kit lines. Record weapon properties and armor slots; your Damage Reduction is your armor's DR (1 light, 2 medium, 3 heavy) plus whatever your talents add.
++ *Equipment:* Take your class's starting loadout (see @sec-chapter-classes). Record weapon properties and armor slots; your Damage Reduction is your armor's DR (1 light, 2 medium, 3 heavy) plus whatever your talents add.
 + *Derived Stats:* HP, Grit, Initiative, Movement, Carry Slots.
 + *Backstory:* Motivation, Trinket, Name.
 
