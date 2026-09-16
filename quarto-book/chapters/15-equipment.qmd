@@ -1,4 +1,4 @@
-# Equipment & Kits {#sec-chapter-equipment}
+# Equipment {#sec-chapter-equipment}
 
 ```{=typst}
 #label("sec-chapter-equipment")
@@ -16,71 +16,11 @@ The tables in this chapter list weapons by required Disciplines, armor by weight
 
 #pagebreak()
 
-== Kits
-
-A kit is how you are outfitted: the arms, the tools, and the habits that say what you do and where you came from. Your class says what you are. Your Disciplines say what you trained. Your cards carry the numbers. Your kit says what you brought.
-
-A kit adds no number except the DR its covering buys. It grants no HP, no damage, and no bonus to any roll. What a kit grants is permission. It says which cards you can use, and it decides whether an attempt is fair or a long shot. If you need to know how hard you hit, look at your cards. If you need to know whether you can even try, look at your kit.
-
 The tags a card can require are `weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`, `shield`, `focus:arcane`, `focus:holy` and `focus:primal`. A card that requires none of them carries no Kit field at all, and most cards do not. Only where the work itself needs the tool does the card ask for it.
 
-=== The Four Lines
+== Packs
 
-Every kit is built from four lines: Armament, Covering, Focus, and Calling. Each option on a line has a price in kit points.
-
-#figure(
-  align(center)[#table(
-    columns: (18.00%, 52.00%, 30.00%),
-    align: (auto, auto, auto,),
-    table.header([Line], [Options], [Points],),
-    [*Armament*], [Unarmed], [0],
-    [], [One-handed weapon], [1],
-    [], [Ranged weapon], [1],
-    [], [One-handed weapon and shield], [2],
-    [], [Two-handed weapon], [2],
-    [*Covering*], [None], [0],
-    [], [Light armour], [1],
-    [], [Medium armour], [2],
-    [], [Heavy armour], [3],
-    [*Focus*], [None], [0],
-    [], [Holy, Arcane or Primal focus], [3],
-    [*Calling*], [Any one vocation], [1],
-  )],
-  kind: table,
-  outlined: false,
-  numbering: none,
-)
-
-You take exactly one option from each of the four lines, and the four together are your primary kit. Your calling is what you were before you started adventuring, and it is the only line you must take. Its point is counted in every row below.
-
-=== The Budget
-
-You have six points to spend on your primary kit. Spend them well, because the leftovers have work to do.
-
-#figure(
-  align(center)[#table(
-    columns: (34.00%, 22.00%, 44.00%),
-    align: (auto, auto, auto,),
-    table.header([A hero who...], [Spends], [Has left for packs],),
-    [Wears no armour and carries a staff], [3], [3],
-    [Wears no armour with a focus], [4], [2],
-    [Wears light armour and a one-handed weapon], [3], [3],
-    [Wears medium armour and a shield], [5], [1],
-    [Wears heavy armour and a shield], [6], [0],
-    [Wears heavy armour, a shield and a focus], [9], [impossible],
-  )],
-  kind: table,
-  outlined: false,
-  numbering: none,
-)
-
-A knight in plate with a shield has spent all six points on being hard to kill and carries nothing else. A light skirmisher with a one-handed weapon has three left, and three packs buys a great deal of capability the knight will never have. Heavy armor does not cost power, it costs kit. There is no best kit, because no kit is a superset of another at the same or lower cost. No build hands you everything, and every hero gives up something.
-
-Your covering is worth its points in DR. Light armor costs 1 point and grants 1 DR, medium costs 2 and grants 2, heavy costs 3 and grants 3. That is the whole bargain, and it is why heavier armor is not a trap.
-
-=== Packs
-
-Leftover points buy packs, one point each. A pack is a capability, not a shopping list. Carrying the pack is what having the capability means.
+A pack is a capability, not a shopping list. Carrying the pack is what having the capability means.
 
 Every hero has the Adventurer's Pack, and it costs nothing.
 
@@ -91,7 +31,7 @@ The free pack is comfort, not capability. It carries no rope, no pitons, no pick
     columns: (24.00%, 18.00%, 58.00%),
     align: (auto, auto, auto,),
     table.header([Pack], [Tag], [What is in it],),
-    [*Adventurer's Pack*], [-], [Free with every kit: backpack, bedroll, waterskin, flint and steel, a week of rations, torches.],
+    [*Adventurer's Pack*], [-], [Free: backpack, bedroll, waterskin, flint and steel, a week of rations, torches.],
     [*Thieves' Pack*], [`thieves`], [Picks, files, a mirror on a wire, chalk, a shim.],
     [*Climber's Pack*], [`climbing`], [A hundred feet of rope, pitons, a hammer, a grapnel, crampons.],
     [*Healer's Pack*], [`healer`], [Bandages, salves, needles and gut, splints, a cautery iron.],
@@ -115,48 +55,6 @@ The free pack is comfort, not capability. It carries no rope, no pitons, no pick
 )
 
 A favour is not something you carry, but it is something you bring to a problem, and it works like every other pack.
-
-=== Granted Kits
-
-A kit point can also arrive as a grant: from a class, a talent, an ancestry gift, a faction, a favour earned in play, or taken off someone who no longer needs it. The thief's picks come off the thief, the scribe's case comes out of the wizard's study, the spade comes off the man in the grave. Treasure stops being a number and becomes capability: you wear what you took off the people who lost.
-
-A talent that grants kit grants exactly one kit point. That point is the talent's entire payload, one point, nothing else. If the talent names a pack, the point is already spent. You are not choosing; the fiction chose. A talent that says you were a locksmith gives you the Thieves' Pack, not a free point to spend elsewhere.
-
-That limit is the whole point. Without it, a hero could buy past the budget with talents, and a budget that can be exceeded is not a budget.
-
-A class grants its signature pack at level 1. This is how the class's starting kit fits inside six points: the armor, weapon, and focus come out of the budget, and the tools of the trade arrive as the class's grant. See the class table below.
-
-=== Re-Kitting at a Town
-
-You may re-outfit at a town, and never in the field. Between towns you carry exactly what you brought and you deal with it. At a town, the whole kit is re-specified: armor, weapon, focus, and packs together, from what you carry plus whatever the local market offers.
-
-This is what makes the kit a plan rather than a footnote. Going into the sewers you bring the climbing gear and the picks. Going to court you bring the papers and the disguise. Going into the barrow you bring the spade and the lantern oil. You choose against the job in front of you, and then you live with the choice.
-
-=== Class Recommendations
-
-No class is locked to a kit, and a hybrid is often the point. But if you want the classic shape of your class, start here.
-
-#figure(
-  align(center)[#table(
-    columns: (18.00%, 42.00%, 16.00%, 24.00%),
-    align: (auto, auto, auto, auto,),
-    table.header([Class], [Typical Kit], [Points], [Granted Pack],),
-    [Protector], [One-handed and shield, heavy armour], [6], [Smith's Pack],
-    [Blade], [One-handed, light armour], [3], [Thieves' Pack],
-    [Arcanist], [Arcane focus, no armour], [4], [Scribe's Pack],
-    [Shepherd], [One-handed, light armour, holy focus], [6], [Healer's Pack],
-    [Intellect], [One-handed, light armour], [3], [Scribe's Pack],
-    [Odd], [Primal focus, no armour], [4], [Brewer's Pack],
-    [Leader], [One-handed and shield, light armour], [4], [Navigator's Pack],
-    [Unbalanced], [Two-handed, light armour], [4], [Trapper's Pack],
-    [Shadow], [Ranged, light armour], [3], [Thieves' Pack],
-  )],
-  kind: table,
-  outlined: false,
-  numbering: none,
-)
-
-The typical kit is a starting point, not a rule. Nothing stops a Protector from taking a focus and no armor, and a hybrid is often the interesting character. The table exists because "what would a Blade carry?" is a real question and a blank page is a bad answer.
 
 == Weapons
 
@@ -192,10 +90,6 @@ Pick the weapon that fits your hero, not the one that looks best on paper. They 
   numbering: none,
 )
 
-#callout(type: "note", title: "Kit Gear", body: [
-Your class starting kit assumes training with its gear: you can wield kit weapons and use kit armor and shields regardless of Discipline prerequisites. Attack ability cards still require their listed Disciplines, wielding a kit weapon does not grant the maneuvers that require them.
-])
-
 #callout(type: "note", title: "Melee Damage", body: [
 Melee attacks add your Brawn to the damage row on your attack ability card. Missile and thrown attacks are flat, no attribute added. See @sec-chapter-talents-abilities for the cards and @sec-chapter-combat for the basic attack. The weapon never changes these numbers.
 
@@ -221,7 +115,7 @@ Weapons don't just require more of the same Discipline, they require specific co
 
 == Armor
 
-Armor is what you wear, and it is worth its points in DR: light grants 1, medium 2, heavy 3. Talents add to that, and your tier caps the total. Beyond the number, armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields
+Armor is what you wear, and it is worth its points in DR: light grants 1, medium 2, heavy 3. Talents add to that, and your tier caps the total. Beyond the number, armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields. A caster in heavy armor buys 3 Armor ranks at his class's rates (see @sec-chapter-classes for each class's Discipline cost table), which is why armor is a cost and not a prohibition.
 
 #figure(
   align(center)[#table(
@@ -317,7 +211,7 @@ These are the small things that separate a prepared adventurer from a corpse. Th
 *Containers and Encumbrance:* A pouch holds up to 50 small items slot-free. A sack holds up to 1 cubic foot before it tears. After your first dragon hoard, you'll want a wagon.
 
 #callout(type: "note", title: "Starting Gear", body: [
-New heroes take their class's starting kit (see @sec-chapter-classes); the DA may grant extra gear at campaign start.
+New heroes take their class's starting loadout (see @sec-chapter-classes); the DA may grant extra gear at campaign start.
 ])
 
 == Mounts & Vehicles
