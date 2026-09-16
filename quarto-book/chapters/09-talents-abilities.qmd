@@ -260,7 +260,7 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Strong:* +1 damage tier on your next weapon attack, and Piercing 3.
 
 === Shield Slam (Weapon Maneuver)
-*Disciplines:* 2 Armor · *Kit:* shield · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone, Push
+*Disciplines:* 2 Shields · *Kit:* shield · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone, Push
 
 *Weak:* Deal 4 damage and Push 5 ft.
 

@@ -244,7 +244,7 @@ Armor is what you wear, and it is worth its points in DR: light grants 1, medium
 
 Full table with Stealth column: see @sec-chapter-armor-shields
 
-Shields: *Buckler* (1 Protection), *Shield* (1 Protection), *Tower Shield* (2 Protection, provides half cover). A shield enables Parry and Shield Block. See @sec-chapter-armor-shields
+Shields: *Buckler* (1 Shields), *Shield* (1 Shields), *Tower Shield* (2 Shields, provides half cover). A shield enables Parry and Shield Block. See @sec-chapter-armor-shields
 
 == Encumbrance
 

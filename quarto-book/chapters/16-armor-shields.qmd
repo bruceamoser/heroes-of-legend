@@ -57,13 +57,13 @@ What you wear is worth its points in DR: light armor grants 1, medium 2, heavy 3
 
 A shield is an active defense. You're not just wearing it, you're using it. When an attack comes in, you can throw the shield in its path.
 
-The number before each shield is a Discipline requirement: you need that many ranks in the Protection Discipline to wield it, unless it came in your class starting kit (kit gear assumes training, see @sec-chapter-equipment). The full rules live in @sec-chapter-disciplines
+The number before each shield is a Discipline requirement: you need that many ranks in the Shields Discipline to wield it, unless it came in your class starting kit (kit gear assumes training, see @sec-chapter-equipment). The full rules live in @sec-chapter-disciplines
 
-*Buckler:* 1 Protection Discipline. Small, strapped to the forearm. Leaves your hand free for a second weapon or a wand.
+*Buckler:* 1 Shields Discipline. Small, strapped to the forearm. Leaves your hand free for a second weapon or a wand.
 
-*Shield:* 1 Protection Discipline. The standard. Wood and iron, carried in the off hand.
+*Shield:* 1 Shields Discipline. The standard. Wood and iron, carried in the off hand.
 
-*Tower Shield:* 2 Protection Discipline, half cover. A portable wall. You move at -5 ft speed while carrying it. You can plant it as a maneuver to grant full cover to one ally directly behind you.
+*Tower Shield:* 2 Shields Discipline, half cover. A portable wall. You move at -5 ft speed while carrying it. You can plant it as a maneuver to grant full cover to one ally directly behind you.
 
 === Shield Block (Reaction)
 

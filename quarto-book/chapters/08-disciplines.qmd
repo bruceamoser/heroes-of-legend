@@ -43,8 +43,9 @@ You _collect_ them. They're permanent markers on your character sheet that say: 
     [], [*Archery*], [Bows, crossbows, ranged precision],
     [], [*Heavy Weapon*], [Greatswords, greataxes, mauls, two-handed power],
     [], [*Unarmed*], [Fists, gauntlets, grappling, close-quarters combat],
-    [*Defense*], [*Protection*], [Shields, warding, guarding allies],
-    [], [*Armor*], [Damage reduction, soaking hits, shield work],
+    [*Defense*], [*Shields*], [Shields, guarding allies],
+    [], [*Protection*], [Warding, abjuration, protective magic],
+    [], [*Armor*], [Damage reduction, soaking hits],
     [*Primal*], [*Animal*], [Beasts, nature, shapeshifting, instinct],
     [], [*Plants*], [Flora, growth, thorns, verdant magic],
     [*Arcane*], [*Energy*], [Raw magical force, metamagic, spellcraft],
@@ -63,7 +64,7 @@ You _collect_ them. They're permanent markers on your character sheet that say: 
   outlined: false,
 )
 
-Twenty-four Disciplines. Nine categories. Your hero's path through them defines everything they can do.
+Twenty-five Disciplines. Nine categories. Your hero's path through them defines everything they can do.
 
 #pagebreak()
 
@@ -85,10 +86,10 @@ Your class hands you specific Disciplines at creation. These are your foundation
     [Protector], [1 any Weapon + 1 Armor],
     [Blade], [1 Blades + 1 Stealth],
     [Arcanist], [1 Fire + 1 Energy],
-    [Shepherd], [1 Protection + 1 Animal],
+    [Shepherd], [1 Shields + 1 Animal],
     [Intellect], [1 Lore + 1 any],
     [Odd], [2 of any type, different categories],
-    [Leader], [1 Tactics + 1 Protection],
+    [Leader], [1 Tactics + 1 Shields],
     [Unbalanced], [1 Fire + 1 Water (or Earth/Wind)],
     [Shadow], [1 Stealth + 1 Sleight],
   )],
@@ -193,7 +194,7 @@ The same card can cost wildly different amounts depending on your class and what
 
 A card's header names the Disciplines it needs: 1 Fire, 2 Blades, 2 Protection, and so on. Hold those ranks and meet the card's level gate, and you can buy it. A hero's maximum in any single Discipline is 3 ranks, so a card never asks for more than three.
 
-Weapons, armor, and shields may list their own Discipline requirements as entry requirements: a Dagger needs 1 Blades, a Longsword 2 Blades, a Greatsword 2 Blades + 1 Heavy Weapon, a Tower Shield 2 Protection, and Plate 3 Armor. See @sec-chapter-equipment and @sec-chapter-armor-shields A card's tier is separate from its equipment's entry requirement.
+Weapons, armor, and shields may list their own Discipline requirements as entry requirements: a Dagger needs 1 Blades, a Longsword 2 Blades, a Greatsword 2 Blades + 1 Heavy Weapon, a Tower Shield 2 Shields, and Plate 3 Armor. See @sec-chapter-equipment and @sec-chapter-armor-shields A card's tier is separate from its equipment's entry requirement.
 
 === No-Prereq Basics
 

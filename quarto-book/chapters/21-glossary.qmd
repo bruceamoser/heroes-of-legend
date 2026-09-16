@@ -64,7 +64,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Development Points (DP):* The currency of character creation and advancement. Spent to purchase skills, abilities, and Disciplines. Skills and abilities cost a flat rate by tier (Novice 2 DP, Adept 4 DP, Master 8 DP). Disciplines cost different amounts per class depending on their cost structure (Home, Adjacent, Foreign, Opposed).
 
-*Discipline:* A prerequisite resource representing mastery of a domain. Disciplines come in types: Elemental (Fire, Earth, Wind, Water), Weapon (Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed), Defense (Protection, Armor), Primal (Animal, Plants), Arcane (Energy), Divine (Life, Religion), Esoteric (Mind, Summon, Fate), Subterfuge (Stealth, Sleight), and Knowledge (Lore, Tactics). Each class has a cost table showing the DP price for each rank in each discipline (see @sec-chapter-classes).
+*Discipline:* A prerequisite resource representing mastery of a domain. Disciplines come in types: Elemental (Fire, Earth, Wind, Water), Weapon (Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed), Defense (Armor, Shields, Protection), Primal (Animal, Plants), Arcane (Energy), Divine (Life, Religion), Esoteric (Mind, Summon, Fate), Subterfuge (Stealth, Sleight), and Knowledge (Lore, Tactics). Each class has a cost table showing the DP price for each rank in each discipline (see @sec-chapter-classes).
 
 *Wildcard Rank:* A single rank held by the Odd that stands in for any one Discipline. It is never assigned, it satisfies one requirement of one rank at a time, it never advances, and it costs no Development Points. See @sec-chapter-classes
 
