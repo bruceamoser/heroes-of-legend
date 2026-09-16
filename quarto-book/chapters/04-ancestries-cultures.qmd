@@ -19,9 +19,9 @@ A dwarf raised by elves is different from a dwarf raised in the mountain holds. 
 #callout(type: "note", title: "Mixing Ancestry and Culture: The Combinator's Guide", body: [
 The system is built for unusual combinations. Here's what different mixes look like at the table:
 
-*Dwarf + Coastal Culture:* You grew up on the surface, working the docks. You're stronger than the human sailors and twice as stubborn. Your Axes Discipline came from splitting hull planks, not mining ore. The sea's salt is in your beard, and you don't trust anything that doesn't have a keel.
+*Dwarf + Coastal Culture:* You grew up on the surface, working the docks. You're stronger than the human sailors and twice as stubborn. Your Melee Discipline came from splitting hull planks, not mining ore. The sea's salt is in your beard, and you don't trust anything that doesn't have a keel.
 
-*Elf + Nomadic Culture:* Your people left the ancient forests generations ago. You ride with the herds under open sky, your bow always strung. The other elves call you "the lost ones." You call yourselves "the free ones." Archery and Polearms, you hunt from horseback and fight from the saddle.
+*Elf + Nomadic Culture:* Your people left the ancient forests generations ago. You ride with the herds under open sky, your bow always strung. The other elves call you "the lost ones." You call yourselves "the free ones." Ranged and Two-Handed, you hunt from horseback and fight from the saddle.
 
 *Halfling + Mountain Culture:* You were raised in dwarven halls, the only halfling in a clan of stoneworkers. You're short even for your kind, but your arms are corded from the forge. You wield a smith's hammer like other halflings wield a butter knife. The dwarves call you "Little Anvil." It's not an insult.
 

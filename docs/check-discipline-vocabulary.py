@@ -40,7 +40,9 @@ Modes
               31 weapon-keyed maneuver headers; 54 armament rank cells across the
               nine ch05 class cost tables; six class-ability cells in the series'
               single-key reading; 193 lines across twelve chapters naming a
-              collapsed family.
+              collapsed family. Lines where a collapsed family survives only as
+              a card's proper name or as flavour prose are listed as exempt and
+              are not counted.
 
 No mode flag runs every check (eight checks plus --report). Exit 0 = zero
 findings, 1 = findings printed.
@@ -80,6 +82,14 @@ PROTECTION_EXEMPT = {
     ("02-character-creation.qmd", 441),
     ("02-character-creation.qmd", 594),
     ("01b-opening-fiction.qmd", 29),
+}
+
+# Collapsed-family words that survive only as a card's proper name or as
+# flavour prose, so the report census can show zero lines outside both.
+FLAVOUR_EXEMPT = {
+    ("09-talents-abilities.qmd", 220),  # Basic Archery, a card's proper name
+    ("09-talents-abilities.qmd", 469),  # reference to the Basic Archery card
+    ("10-magic-system.qmd", 106),       # Veteran Adventurer flavour callout
 }
 
 DISCIPLINES_RE = re.compile(r"\*Disciplines:\*\s*(.*?)(?:\s*·\s*\*|$)")
@@ -713,7 +723,8 @@ def report() -> None:
 
     family_by_chapter = []
     for name, lines in CH.items():
-        count = sum(1 for line in lines if COLLAPSED_RE.search(line))
+        count = sum(1 for i, line in enumerate(lines)
+                    if COLLAPSED_RE.search(line) and (name, i + 1) not in FLAVOUR_EXEMPT)
         if count:
             family_by_chapter.append((count, name))
     family_by_chapter.sort(key=lambda pair: (-pair[0], -int(short(pair[1]).rstrip("b"))))
@@ -760,6 +771,8 @@ def report() -> None:
     for count, name in family_by_chapter:
         print(f"  {short(name):<6}{count:>4}  {name}")
     print(f"  {'TOTAL':<6}{family_total:>4}  across {len(family_by_chapter)} chapters")
+    for name, lineno in sorted(FLAVOUR_EXEMPT):
+        print(f"  exempt flavour/proper-name line: {where(name)}:{lineno}")
     print()
     print(f"Taxonomy leaves (ch08): {leaf_total}")
     print()

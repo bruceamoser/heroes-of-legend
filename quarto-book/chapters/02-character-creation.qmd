@@ -62,9 +62,9 @@ Choose your species. Each grants a Discipline and a trait:
     align: (auto, auto, auto,),
     table.header([Ancestry], [Discipline], [Trait],),
     [*Human*], [Any one], [*Versatile:* +1 DP at Level 0],
-    [*Elf*], [Archery], [*Elven Grace:* once per session, reroll one die],
-    [*Dwarf*], [Axes], [*Sturdy:* +2 maximum HP],
-    [*Halfling*], [Blades], [*Lucky:* add one boon to any roll, once per session],
+    [*Elf*], [Ranged], [*Elven Grace:* once per session, reroll one die],
+    [*Dwarf*], [Melee], [*Sturdy:* +2 maximum HP],
+    [*Halfling*], [Melee], [*Lucky:* add one boon to any roll, once per session],
   )],
   caption: [Table 2.1: Ancestries],
   kind: table,
@@ -86,19 +86,19 @@ Your upbringing within your ancestry. Each culture grants a +1 bonus to one skil
     table.header([Culture], [Skill Bonus], [Disciplines],),
     [*Human*], [], [],
     [Imperial], [Persuasion or History], [Any one (free)],
-    [Nomadic], [Survival or Nature], [Archery + Polearms],
-    [Coastal], [Athletics or Survival], [Polearms + Shields],
+    [Nomadic], [Survival or Nature], [Ranged + Two-Handed],
+    [Coastal], [Athletics or Survival], [Two-Handed + Shields],
     [*Elf*], [], [],
-    [High Elf], [Arcana or History], [Energy + Blades],
-    [Wood Elf], [Stealth or Nature], [Animal + Archery],
-    [Twilight Elf], [Deception or Insight], [Water + Blades],
+    [High Elf], [Arcana or History], [Energy + Melee],
+    [Wood Elf], [Stealth or Nature], [Animal + Ranged],
+    [Twilight Elf], [Deception or Insight], [Water + Melee],
     [*Dwarf*], [], [],
-    [Mountain], [Craft or Athletics], [Armor + Axes],
-    [Deep], [Endurance or Lore], [Axes + Shields],
+    [Mountain], [Craft or Athletics], [Armor + Melee],
+    [Deep], [Endurance or Lore], [Melee + Shields],
     [Hill], [History or Persuasion], [Any one (free)],
     [*Halfling*], [], [],
-    [Riverfolk], [Acrobatics or Sleight of Hand], [Blades + Archery],
-    [Burrower], [Stealth or Survival], [Shields + Blades],
+    [Riverfolk], [Acrobatics or Sleight of Hand], [Melee + Ranged],
+    [Burrower], [Stealth or Survival], [Shields + Melee],
     [Wanderer], [Insight or Performance], [Any one (free)],
   )],
   kind: table,
@@ -181,7 +181,7 @@ Now your hero finds their calling. This is where they become exceptional.
     align: (auto, auto, auto, auto,),
     table.header([Class], [Role], [Discipline], [Vibe],),
     [*Protector*], [Tank, defender], [Armor + Shields], ["Stand behind me."],
-    [*Blade*], [Assassin, precision], [Blades + Stealth], ["Strike once. Strike true. Strike last."],
+    [*Blade*], [Assassin, precision], [Melee + Stealth], ["Strike once. Strike true. Strike last."],
     [*Arcanist*], [Arcane caster], [Fire + Energy], ["Fire answers to me."],
     [*Shepherd*], [Divine guide], [Shields + Animal], ["The light guides my hand."],
     [*Intellect*], [Scholar, strategist], [Lore + any one], ["I've read about this."],
@@ -285,9 +285,9 @@ Let's build a character from scratch so you can see how the pieces fit together.
 
 *Step 2, Attributes (total must be +3):* Agility +1 (nimble), Guile +1 (silver tongue), Brawn +1 (can throw a punch when the talking stops). Fortitude +0, Knowledge +0, Reason +0. Sum = +3.
 
-*Step 3, Ancestry:* Halfling. Gains one Blades Discipline and the *Lucky* trait (add one boon to any roll, once per session).
+*Step 3, Ancestry:* Halfling. Gains one Melee Discipline and the *Lucky* trait (add one boon to any roll, once per session).
 
-*Step 4, Culture:* Riverfolk. +1 bonus to Acrobatics (she grew up scrambling across rigging and wet docks). Disciplines: Blades + Archery.
+*Step 4, Culture:* Riverfolk. +1 bonus to Acrobatics (she grew up scrambling across rigging and wet docks). Disciplines: Melee + Ranged.
 
 *Step 5, Background DP (8 + Knowledge 0 + Fortitude 0 = 8 DP):*
 
@@ -370,9 +370,9 @@ Total: 8 DP. All spent.
 
 *Attributes (sum = +3):* Knowledge +2 (encyclopedic recall), Reason +1 (sees patterns others miss), Guile +1 (sells her plans well), Brawn -1 (books are heavy, she's not), Fortitude +0, Agility +0. Sum = +3.
 
-*Ancestry:* Elf. Archery. *Elven Grace:* once per session, reroll one die.
+*Ancestry:* Elf. Ranged. *Elven Grace:* once per session, reroll one die.
 
-*Culture:* High Elf. +1 to History (grew up in crystal libraries). Disciplines: Energy + Blades.
+*Culture:* High Elf. +1 to History (grew up in crystal libraries). Disciplines: Energy + Melee.
 
 *Background DP (8 + Know 2 + Fort 0 = 10 DP):*
 
@@ -409,7 +409,7 @@ Total: 8 DP. All spent.
 
 *Attributes (sum = +3):* Reason +2 (faith is a kind of knowledge), Fortitude +1 (carries the wounded), Guile +1 (knows what to say at the deathbed), Brawn -1 (lets others do the heavy lifting), Knowledge +0, Agility +0. Sum = +3.
 
-*Ancestry:* Dwarf. Axes. *Sturdy:* +2 maximum HP.
+*Ancestry:* Dwarf. Melee. *Sturdy:* +2 maximum HP.
 
 *Culture:* Hill. +1 to Persuasion (the dwarf who explains dwarves). Free Discipline: Shields.
 
@@ -448,13 +448,13 @@ Total: 8 DP. All spent.
 
 *Attributes (sum = +3):* Reason +2 (commands respect), Brawn +1 (leads from the front), Guile +1 (reads a room like a map), Knowledge -1 (never had time for books), Fortitude +0, Agility +0. Sum = +3.
 
-*Ancestry:* Human. Any one Discipline (takes Blades). *Versatile:* +1 DP at Level 0.
+*Ancestry:* Human. Any one Discipline (takes Melee). *Versatile:* +1 DP at Level 0.
 
-*Culture:* Coastal. +1 to Athletics (climbed rigging before she could walk). Disciplines: Polearms + Shields.
+*Culture:* Coastal. +1 to Athletics (climbed rigging before she could walk). Disciplines: Two-Handed + Shields.
 
 *Background DP (8 + Know -1 + Fort 0 = 7 DP + 1 Versatile = 8 DP):*
 
-- Blades Discipline, rank 2 (2 DP, Home), the longsword needs two, and she carries it
+- Melee Discipline, rank 2 (2 DP, Home), the longsword needs two, and she carries it
 - Athletics Novice (2 DP, culture bonus already applied)
 - Persuasion Novice (2 DP)
 - Endurance Novice (2 DP), a captain marches at the head of the column
@@ -486,9 +486,9 @@ Total: 8 DP. All spent.
 
 *Attributes (sum = +3):* Agility +2 (faster than you), Guile +1 (reads tells), Brawn +1 (follow-through), Knowledge -1 (books are for people who can't fight), Fortitude +0, Reason +0. Sum = +3.
 
-*Ancestry:* Elf. Archery. *Elven Grace:* once per session, reroll one die.
+*Ancestry:* Elf. Ranged. *Elven Grace:* once per session, reroll one die.
 
-*Culture:* Twilight Elf. +1 to Deception (grew up in the half-light). Disciplines: Water + Blades.
+*Culture:* Twilight Elf. +1 to Deception (grew up in the half-light). Disciplines: Water + Melee.
 
 *Background DP (8 + Know -1 + Fort 0 = 7 DP):*
 
@@ -499,7 +499,7 @@ Total: 8 DP. All spent.
 
 Total: 7 DP. All spent.
 
-*Class:* Blade. Gains 1 Blades, 1 Stealth. Signature: *Swift Blade*, gain the Precision talent for free; exploiting an opening (a target that is Dazed, Prone, or unaware of you) deals +1 damage tier, once per scene.
+*Class:* Blade. Gains 1 Melee, 1 Stealth. Signature: *Swift Blade*, gain the Precision talent for free; exploiting an opening (a target that is Dazed, Prone, or unaware of you) deals +1 damage tier, once per scene.
 
 *Class DP (8 DP):*
 
@@ -524,9 +524,9 @@ Total: 8 DP. All spent.
 
 *Attributes (sum = +3):* Agility +2 (vanishes like smoke), Guile +1 (becomes anyone), Brawn +0, Fortitude +0, Knowledge +0, Reason +0. Sum = +3.
 
-*Ancestry:* Halfling. Blades. *Lucky:* add one boon to any roll, once per session.
+*Ancestry:* Halfling. Melee. *Lucky:* add one boon to any roll, once per session.
 
-*Culture:* Burrower. +1 to Stealth (grew up in tunnels under the hills). Disciplines: Shields + Blades.
+*Culture:* Burrower. +1 to Stealth (grew up in tunnels under the hills). Disciplines: Shields + Melee.
 
 *Background DP (8 + Know 0 + Fort 0 = 8 DP):*
 
@@ -562,9 +562,9 @@ Total: 8 DP. All spent.
 
 *Attributes (sum = +3):* Brawn +2 (the wall), Fortitude +1 (the foundation), Reason +1 (knows where to stand), Agility -1 (doesn't need to dodge), Guile +0, Knowledge +0. Sum = +3.
 
-*Ancestry:* Dwarf. Axes. *Sturdy:* +2 maximum HP.
+*Ancestry:* Dwarf. Melee. *Sturdy:* +2 maximum HP.
 
-*Culture:* Mountain. +1 to Craft (forged her first shield at twelve). Disciplines: Armor + Axes.
+*Culture:* Mountain. +1 to Craft (forged her first shield at twelve). Disciplines: Armor + Melee.
 
 *Background DP (8 + Know 0 + Fort 1 = 9 DP):*
 
@@ -603,7 +603,7 @@ Total: 8 DP. All spent.
 
 *Ancestry:* Human. Any one Discipline (takes Fire). *Versatile:* +1 DP at Level 0.
 
-*Culture:* Nomadic. +1 to Survival (raised on the steppe). Disciplines: Archery + Polearms.
+*Culture:* Nomadic. +1 to Survival (raised on the steppe). Disciplines: Ranged + Two-Handed.
 
 *Background DP (8 + Know 1 + Fort 0 = 9 DP + 1 Versatile = 10 DP):*
 
