@@ -136,7 +136,7 @@ A shield takes 1 Shields. A weapon or shield you carry does what its entry says;
 
 == Armor
 
-Armor is what you wear, and it is worth its points in DR: light grants 1, medium 2, heavy 3. A talent or ward does not add to that: use the higher of the two, and your tier caps the total. Shield DR is the one exception, added after the cap. Beyond the number, armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields. A caster in heavy armor buys 3 Armor ranks at his class's rates (see @sec-chapter-classes for each class's Discipline cost table), which is why armor is a cost and not a prohibition.
+Armor is what you wear, and it is worth its points in DR: light grants 1, medium 2, heavy 3. A talent or ward does not add to that: use the higher of the two, and your tier caps the total. Shield DR is the one exception, added after the cap. Beyond the number, armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields A caster in heavy armor buys 3 Armor ranks at his class's rates (see @sec-chapter-classes for each class's Discipline cost table), which is why armor is a cost and not a prohibition.
 
 #figure(
   align(center)[#table(
