@@ -1,0 +1,101 @@
+{
+ "argument": "Dimension 6, ruled directly: the suspended purge does not proceed as written, and nothing is removed from the weapon table. The 17 rows at 15:172-188 survive, because the chapter's own framing sentence already declares what the table is. 15:15 says the tables enumerate weapons keyed to required Disciplines, armor keyed by weight class and slot count, and adventure gear keyed to utility, and that 'Gear is not bought.' A purge ordered against a named possession catalogue is aimed at an artefact this book never shipped; the second column of that table is the gate Coalition B is making live, so deleting the rows deletes the pin. The rows change shape in one respect only: the table stops being a description of objects and becomes the entry-gate column plus the card-facing property bundle, which is why the named-object framing in the reference chapter has to go rather than the weapon table. The purge therefore lands as three editorial artifacts instead of a deletion, and all three sit inside the suspension's scope. First, delete the 17-row duplicate at 22:367-393. It reprints the same 17 weapons under a second header, [Weapon], [Disciplines], [Properties], [Range] against the canonical [Disciplines Required], and its Range column prints Melee on the rows the canonical table leaves blank and appends (thrown) to four more, so 14 of those 17 rows disagree with the law they duplicate. Second, fold the property mapping to one statement. The weapon-to-property map is printed three times: the table column at 15:171, the seven bullets at 15:213-219, and again in the callout at 15:206, which restates the mapping in prose, Longsword to 2 Blades and Greatsword to 2 Blades plus 1 Heavy Weapon. One statement survives; the bullets fold into the Properties cell. Third, repair the armour pointer: 15:245 promises a full table carrying a Stealth column and points at @sec-chapter-armor-shields, while 16:37 prints Armor, Class, DR, Slots and Notes, so either the column or the promise goes. What the equipment chapter becomes. 15 keeps its structure and loses its possession framing: Kits, the Four Lines, Packs, Granted Kits, Re-Kitting at a Town, and Class Recommendations, Weapons, Armour, Mounts and Vehicles. What changes is its authority. It becomes the single source of the entry gate, so the recipe column is the law and no second chapter restates it, and its armour table stops being a partial restatement abroad because the pointer it already carries becomes true. The mount and vehicle rules at 15:324-429 are untouched by Coalition B. Nothing in this architecture reaches them, which is the blast-radius test, and the charge, dismount and vehicle-damage rules keep their home. Blast radius, priced by derivation rather than estimate: 3 rule lines and 1 pointer changed, 9 kit lines reworded, 1 table of 17 rows deleted from the reference chapter, 7 property bullets folded into an existing column, 1 callout folded, 0 ability cards re-keyed, 0 tags added, 0 weapon rows deleted, 0 mount or vehicle lines touched, 1 page reclaimed. Strongest counter-argument, because a solution with no stated risk is an advertisement: making the recipe column live without differentiating the recipes in the same pass converts three strict dominations from harmless flavour into priced gates. Longbow and Shortbow both print 1 Archery and Two-Handed, with triple the range on the Longbow; Spear prints Reach, Thrown and Two-Handed to Halberd's Reach and Two-Handed at the same 1 Polearms; Dagger prints everything Shortsword prints plus Thrown at the same 1 Blades. Model A made live therefore leaves the table worse than the waiver did unless the recipe differentiation ships in the same edit, and the second cost is discontinuity: kits printed under the waiver become conditional retroactively for characters already in play.",
+ "confidence": 0.82,
+ "evidence": [
+  {
+   "claim": "The chapter's framing sentence already declares the weapon table a required-Discipline list, so the purge's premise of a named possession catalogue was never shipped.",
+   "quote_or_excerpt": "list weapons by required Disciplines, armor by weight class and slots, and adventuring gear by utility",
+   "source": "quarto-book/chapters/15-equipment.qmd:15"
+  },
+  {
+   "claim": "The same sentence carries the no-purchase rule that removes the possession framing the purge was aimed at.",
+   "quote_or_excerpt": "Gear is not bought.",
+   "source": "quarto-book/chapters/15-equipment.qmd:15"
+  },
+  {
+   "claim": "The surviving canonical rows begin here, seventeen weapon rows whose second column is the live gate.",
+   "quote_or_excerpt": "[Unarmed], [None], [], [],",
+   "source": "quarto-book/chapters/15-equipment.qmd:172"
+  },
+  {
+   "claim": "The canonical table ends at Crossbow, the seventeenth row, so 17 is the row count the purge rules on.",
+   "quote_or_excerpt": "[Crossbow], [1 Archery], [Loading, Two-Handed], [20/60 ft],",
+   "source": "quarto-book/chapters/15-equipment.qmd:188"
+  },
+  {
+   "claim": "The reference sheet reprints the same table under a second header, which is the duplicate the purge should actually remove.",
+   "quote_or_excerpt": "table.header([Weapon], [Disciplines], [Properties], [Range],)",
+   "source": "quarto-book/chapters/22-reference-sheets.qmd:370"
+  },
+  {
+   "claim": "The reprint prints Melee where the canonical table leaves the cell blank, the first of 14 diverging Range cells across the 17 duplicated rows.",
+   "quote_or_excerpt": "[Unarmed], [None], [], [Melee],",
+   "source": "quarto-book/chapters/22-reference-sheets.qmd:371"
+  },
+  {
+   "claim": "The same weapon-to-Discipline recipe map is restated in prose inside a callout, the third statement of the mapping.",
+   "quote_or_excerpt": "A Longsword needs _2 Blades_. A Greatsword needs _2 Blades + 1 Heavy Weapon_.",
+   "source": "quarto-book/chapters/15-equipment.qmd:206"
+  },
+  {
+   "claim": "The armour pointer promises a Stealth column that the armour chapter does not carry.",
+   "quote_or_excerpt": "Full table with Stealth column: see @sec-chapter-armor-shields",
+   "source": "quarto-book/chapters/15-equipment.qmd:245"
+  },
+  {
+   "claim": "The armour table's columns are Armor, Class, DR, Slots and Notes, so the Stealth column the pointer promises does not exist.",
+   "quote_or_excerpt": "table.header([Armor], [Class], [DR], [Slots], [Notes],)",
+   "source": "quarto-book/chapters/16-armor-shields.qmd:37"
+  },
+  {
+   "claim": "The mount and vehicle section begins here and is untouched by the architecture.",
+   "quote_or_excerpt": "== Mounts & Vehicles",
+   "source": "quarto-book/chapters/15-equipment.qmd:324"
+  },
+  {
+   "claim": "Mounted combat's charge rule keys to the damage budget, not to gear, so nothing in Coalition B reaches it.",
+   "quote_or_excerpt": "When you move at least 20 feet in a straight line before making a melee attack from a mount, your attack deals +1 damage tier",
+   "source": "quarto-book/chapters/15-equipment.qmd:362"
+  },
+  {
+   "claim": "Vehicle rules are self-contained and stay whole under the reconciliation.",
+   "quote_or_excerpt": "*Vehicle Rules:*",
+   "source": "quarto-book/chapters/15-equipment.qmd:417"
+  },
+  {
+   "claim": "Longbow prints the same 1 Archery gate and the same Two-Handed property as the Shortbow, range being the only difference.",
+   "quote_or_excerpt": "[Longbow], [1 Archery], [Two-Handed], [100/200 ft],",
+   "source": "quarto-book/chapters/15-equipment.qmd:187"
+  },
+  {
+   "claim": "The Shortbow row, identical in gate and property to the Longbow at a third of the range.",
+   "quote_or_excerpt": "[Shortbow], [1 Archery], [Two-Handed], [60/120 ft],",
+   "source": "quarto-book/chapters/15-equipment.qmd:186"
+  },
+  {
+   "claim": "Spear prints Reach, Thrown and Two-Handed at 1 Polearms.",
+   "quote_or_excerpt": "[Spear], [1 Polearms], [Reach, Thrown, Two-Handed], [20/60 ft (thrown)],",
+   "source": "quarto-book/chapters/15-equipment.qmd:183"
+  },
+  {
+   "claim": "Halberd prints Reach and Two-Handed at the same 1 Polearms, a strict subset of the Spear's bundle.",
+   "quote_or_excerpt": "[Halberd], [1 Polearms], [Reach, Two-Handed], [],",
+   "source": "quarto-book/chapters/15-equipment.qmd:184"
+  },
+  {
+   "claim": "Dagger prints Finesse, Light and Thrown at 1 Blades.",
+   "quote_or_excerpt": "[Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft (thrown)],",
+   "source": "quarto-book/chapters/15-equipment.qmd:173"
+  },
+  {
+   "claim": "Shortsword prints Finesse and Light at the same 1 Blades, a strict subset of the Dagger's bundle.",
+   "quote_or_excerpt": "[Shortsword], [1 Blades], [Finesse, Light], [],",
+   "source": "quarto-book/chapters/15-equipment.qmd:174"
+  }
+ ],
+ "id": "f-029",
+ "role": "editor-in-chief",
+ "round": 2,
+ "stance": "support",
+ "topic": "t-04"
+}

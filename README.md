@@ -23,8 +23,8 @@ Heroes of Legend is a ground-up redesign of an earlier playtest game. Characters
 - **Success Tiers:** Weak (1–8) | Standard (9–14) | Strong (15–18+)
 - **Critical:** Three natural 6s | **Fumble:** Three natural 1s
 - **One-roll principle:** the hit/casting roll IS the damage roll. No damage dice.
-- **Flat damage budget:** Novice 2/4/6 · Adept 6/9/12 · Master 9/15/21 (Weak/Standard/Strong); riders sum to the row
-- **Attribute-scaled damage:** a mixture by design. Melee weapons add Brawn (Finesse weapons use Agility); missile weapons and arrows are flat; most spells are flat; some cards state a keyed attribute (e.g. 1/2/3 + Knowledge). Minimum 1 damage.
+- **Flat damage budget:** Novice 4/6/8 · Adept 5/8/11 · Master 7/10/14 (Weak/Standard/Strong); riders sum to the row
+- **Attribute-scaled damage:** a mixture by design. Melee weapons add Brawn; missile weapons and arrows are flat; most spells are flat; some cards state a keyed attribute (e.g. 1/2/3 + Knowledge). Minimum 1 damage.
 - **Attacks always hit** — outcomes determine damage, not whether you connect
 - **No spell slots, no mana, no components** — magic always fires
 - **Discipline economy:** flat card costs (2/4/8 DP by tier), four rank-cost structures per class (1/2/4 · 2/4/8 · 3/6/12 · 4/8/16), level gates (Adept at 3, Master at 7), ~52 career DP by level 10

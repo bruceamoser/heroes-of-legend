@@ -1,0 +1,56 @@
+{
+ "argument": "COALITION A'S STRONGEST COUNTER-ARGUMENT, WRITTEN AGAINST A. The game-architect's parity arithmetic is correct, and I reproduced both of its endpoints from the corpus instead of accepting them on faith. The card corpus is 177 cards. Of those, 62 carry a kit gate: 52 are spellcasting foci (focus:arcane 32, focus:holy 18, focus:primal 2) and 10 are weapon or shield (two-hand 3, ranged 3, one-hand 2, unarmed 1, shield 1). Family parity therefore costs 52 minus 10, which is 42 further weapon-gated cards, and matching the arcane tag alone costs 160, better than nine tenths of the corpus again. The charter states these same figures, so there is no dispute to run: 42 is the floor, 160 is the ceiling, and neither is affordable inside the page budget solution A has already spent. One number in the brief does not reproduce: it prints 64 kit-bearing cards where the corpus yields 62, because a scan across every chapter also catches the GM chapter's format legend line at 19:549. The charter's 62 is the one that survives.\n\nWHAT THAT COSTS A, IN THE ONLY CURRENCY I CAN MEASURE. I did not build the 42-new-card variant, so I will not price it; anyone who puts a folio figure on it without building it is guessing. What I did build is the cheapest route to parity of totals, and it is cheaper than the architect's floor suggests. 43 cards in the corpus name an armament and carry no gate at all. Re-keying all 43 on top of full A produces a 389 folio book: one folio more than full A, 134 of 206 TOC rows renumbered instead of 82, and the kits block pushed from 246 to 247. Parity of gate totals with the focus family is therefore reachable at 10 plus 43 gates, which is 53 against 52, for one folio and no new content. That is the strongest form of the counter-argument, because it removes A's comfort that the bill was unpayable: the bill is payable, and what it buys is not parity. It buys 43 permission restrictions written into cards that today ask nothing of the hero. That is a quarter of the 177-card corpus re-keyed, against the single re-key A currently claims, and it converts maneuvers open to any hero into maneuvers open only to heroes who chose the right armament.\n\nTHE GROUND A CAN HOLD, AND IT IS NARROWER THAN THE PILLAR CLAIM. Gate count is not gate strictness. A weapon gate is free and reversible: the kit costs nothing at level 1, it can be re-outfitted at any town and never in the field (15:131), and the starting kit waives Discipline prerequisites for its own gear (15:196), so a hero can drop a weapon gate and take it up again at no cost. A focus gate is bought with Development Points, is not refunded, and sits on 52 cards rather than 10. If A argues that 10 reversible gates and 52 bought ones are the same currency, it loses on its own arithmetic. What A can honestly claim is the second option the charter leaves open: partial parity plus the property-tag layer, with the property vocabulary carrying the option depth that the gate axis cannot pay for at this size.\n\nWHAT A MUST GIVE UP, PLAINLY. First, the words \"the permission layer, finished\" cannot mean weapon-family gate parity; at 177 cards that claim is an advertisement. Second, if A takes the 43-card route it must surrender its round-1 headline of one re-key, and with it a quarter of the corpus's open maneuvers. Third, A must concede that the pool Coalition B points at does exist: the 43 ungated armament cards are real, so \"zero new weapon-gated cards\" is arithmetically available to B, and A's only answer is that reaching parity by restriction is not the same achievement as reaching it by authorship. Fourth, A should withdraw the fourth-pillar claim unless it is willing to state the bill alongside it.\n\nFAILURE MODE. If A ships 43 hard re-keyings to win a count argument, it narrows the maneuver chapter to balance a ratio, and the cheaper competing fix, leaving the pool open and attaching soft consumers to the property tags, wins the same page budget with less restriction. A solution that will not name the risk it carries is advertising, not a proposal. The risk here is that the cheapest route to parity costs a quarter of the card pool its open access, and A should say so before someone measures it for them.",
+ "confidence": 0.8,
+ "evidence": [
+  {
+   "claim": "The coalition's own census of the gate asymmetry, which my card-by-card count reproduces exactly: 62 kit gates, 52 focus, 10 weapon or shield, with the same per-tag split.",
+   "quote_or_excerpt": "of 62 kit gates, **52 are spellcasting foci** (`focus:arcane` 32, `focus:holy` 18, `focus:primal` 2) and **10 are weapon or shield** (two-hand 3, ranged 3, one-hand 2, unarmed 1, shield 1).",
+   "source": "briefs/round-02/COALITION-CHARTER.md:25"
+  },
+  {
+   "claim": "The architect's parity band, quoted at source: 42 to reach family parity, 87 to match the mean focus tag, 160 to match the arcane tag alone. My count confirms the endpoints.",
+   "quote_or_excerpt": "to give the weapon family the same gate weight as focus you must author **~42 more weapon-gated cards**; to match the mean focus tag (~17 gates each) the five weapon tags need ~87; to match the arcane tag alone, ~160",
+   "source": "briefs/round-02/COALITION-CHARTER.md:55"
+  },
+  {
+   "claim": "Basic Melee carries weapon:one-hand: the floor attack is the only card in the corpus whose gate A has to touch, and it is one of the 10 weapon-side gates the 42 is measured against.",
+   "quote_or_excerpt": "*Disciplines:* None \u00b7 *Kit:* weapon:one-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:174"
+  },
+  {
+   "claim": "Long Spear Rebuke is one of the 43 ungated armament cards: reach is its whole mechanic and it requires ranks rather than a gate, so re-keying the pool would restrict a maneuver any hero can currently take.",
+   "quote_or_excerpt": "*Disciplines:* 1 Polearms \u00b7 *Action:* Action \u00b7 *Range:* Melee \u00b7 *Keywords:* Frightened, Control",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:425"
+  },
+  {
+   "claim": "Sand Cast is a second instance of the same pool: it names a weapon maneuver, states no Kit field, and is open to any hero. Multiply this by 43 and you have the restriction bill A would be signing.",
+   "quote_or_excerpt": "*Disciplines:* 1 Sleight \u00b7 *Action:* Action \u00b7 *Range:* 10 ft \u00b7 *Keywords:* Blinded, Control",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:407"
+  },
+  {
+   "claim": "Weapon gates are reversible at no cost: the kit can be re-outfitted at any town, which is the ground A can hold in place of the gate-count argument. Focus gates, bought with Development Points, offer no such exit.",
+   "quote_or_excerpt": "You may re-outfit at a town, and never in the field.",
+   "source": "quarto-book/chapters/15-equipment.qmd:131"
+  },
+  {
+   "claim": "The starting kit waives Discipline prerequisites for its own gear, so the ten weapon-side gates are cheap permissions rather than the bought, permanent permissions the focus gates are.",
+   "quote_or_excerpt": "you can wield kit weapons and use kit armor and shields regardless of Discipline prerequisites.",
+   "source": "quarto-book/chapters/15-equipment.qmd:196"
+  },
+  {
+   "claim": "Parity of gate totals is reachable for one folio: 389 folios against full A's 388 and the base 386, 134 of 206 TOC rows renumbered rather than 82, and the kits block at 247 rather than 246. The cheap route exists, and this is its measured price.",
+   "quote_or_excerpt": "43 cards re-keyed | 389 pages vs 388 for full A | 134 of 206 TOC rows renumbered | kits block 246 to 247",
+   "source": "build measurement: /home/bmoser/hol-ab-parity/quarto-book/_output/Heroes-of-Legend.pdf, built by re-keying all 43 ungated armament cards on top of full A, measured with pdfinfo and pdftotext -layout against the committed oracle"
+  },
+  {
+   "claim": "The corpus is 177 cards (72 talents and abilities, 65 arcane magic, 40 divine magic) with 62 kit gates, which is why the brief's 64 does not reproduce: an all-chapter scan also catches the GM chapter's format legend at 19:549.",
+   "quote_or_excerpt": "177 cards | 62 kit gates | 52 focus | 10 weapon or shield | 178 Disciplines lines including one format legend",
+   "source": "build measurement: card census over /home/bmoser/repos/heroes-of-legend/quarto-book/chapters/*.qmd, counting *Disciplines:* field lines and their *Kit:* values"
+  }
+ ],
+ "id": "f-033",
+ "role": "layout-expert",
+ "round": 2,
+ "stance": "support",
+ "topic": "t-04"
+}

@@ -1,0 +1,81 @@
+{
+ "argument": "Coalition B's strongest counter-argument, stated against itself. B's clean result depends on a layer B says it does not need, and its price list is only as good as the shelves behind it.\n\nFIRST, THE DEPENDENCY. Run the same six-clause domination test with the Kit-tag clause removed and the shipped table has 10 strict dominations, not 8, while the proposed table has 1: Unarmed dominates Mace. Measured reach: Unarmed and 1 Heavy Weapon open exactly the same 21 cards. So B's clean result for the Mace is produced by the armament tag (weapon:unarmed versus weapon:one-hand), which is A's layer, not B's. If the council adopts B's recipe table but strikes or truncates the tag vocabulary, the Mace returns immediately as Unarmed plus a noun. B's fix is therefore not independent of A's architecture; it borrows one clause of it, and B should say so in its own voice rather than let the borrow be found by someone else.\n\nSECOND, THE DEPTH PROBLEM. The recipe can only be a price if the route has goods behind it. Measured over the corpus: 1 Heavy Weapon opens 0 cards more than no Discipline at all (24 to 24); 1 Axes opens 0 rank-1 cards, because both Axes cards sit at rank 2; 3 Heavy Weapon opens 0 cards more than 2 Heavy Weapon (28 to 28, and 09:551 also requires Tactics and Unarmed). So the Mace, priced at 1 Heavy Weapon, is buying a route with nothing on it, and the axe-northerner still has zero rank-1 cards in his own Discipline. B's two central claims are in tension: the recipe is the price needs a pool worth walking, and zero new weapon-gated cards forbids buying that pool at the weapon-tag layer. B's resolution is to spend the authoring on the shallow Disciplines instead (Axes 2 and Polearms 4, against Blades 10 and Protection 26), because one Discipline card serves every weapon on a route while one weapon-gated card serves exactly one weapon. That is a cheaper bill than A's, not a free one. On the measured numbers it is at least one rank-1 Heavy Weapon card and one more rank-1 Axes card before the Mace's recipe means anything.\n\nTHIRD, THE BLAST RADIUS IS TWO CHAPTERS, NOT ONE. The property lines name the weapons that hold each property, so the repricing edits those lines too: the Crossbow's removal touches the Two-Handed list, and the Battleaxe gaining Versatile touches a parenthetical that currently reads Longsword only. The reference reprint carries the same rows a third time. Derived, not estimated: 15:171-193, the property notes at 15:213-219, and the reference table.\n\nTested B's repricing (clean, tag-aware), the tag-blind variant of the same test (one residual pair), and A's arithmetic (recorded separately in f-207). No counter-example was found to the recipe mechanism itself. The counter-examples are to the claim that the mechanism is free and self-sufficient, and that claim is load-bearing for B's cost argument.",
+ "confidence": 0.66,
+ "evidence": [
+  {
+   "claim": "Both Axes cards are rank 2 (this one and 09:335), so the Battleaxe's step is real while 1 Axes buys no rank-1 card at all.",
+   "quote_or_excerpt": "*Disciplines:* 2 Axes \u00b7 *Kit:* weapon:one-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:245"
+  },
+  {
+   "claim": "The second of the two Axes cards, also rank 2: the whole Axes pool above baseline is two cards.",
+   "quote_or_excerpt": "*Disciplines:* 2 Axes \u00b7 *Kit:* weapon:two-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:335"
+  },
+  {
+   "claim": "One of the four rank-2 Heavy Weapon cards; these four are the entire Heavy Weapon pool above the Mace's rank 1.",
+   "quote_or_excerpt": "*Disciplines:* 2 Heavy Weapon \u00b7 *Kit:* weapon:two-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:326"
+  },
+  {
+   "claim": "The only rank-3 Heavy Weapon card, and it also demands Tactics and Unarmed, so the third rank adds nothing on its own.",
+   "quote_or_excerpt": "*Disciplines:* 3 Heavy Weapon \u00b7 Tactics \u00b7 Unarmed",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:551"
+  },
+  {
+   "claim": "B's own charter concedes the depth numbers this finding measures: the axe-northerner has no rank-1 card in his own Discipline.",
+   "quote_or_excerpt": "rank-1 cards in his Discipline",
+   "source": "briefs/round-02/COALITION-CHARTER.md:65"
+  },
+  {
+   "claim": "The measured depth gap B must fund: Axes 2 against Blades 10 and Protection 26.",
+   "quote_or_excerpt": "against Blades 10 and Protection 26",
+   "source": "briefs/round-02/COALITION-CHARTER.md:65"
+  },
+  {
+   "claim": "B's central cost advantage is zero new weapon-gated cards, which is exactly the claim that cannot pay for a route with no cards behind it.",
+   "quote_or_excerpt": "Zero new weapon-gated cards are required",
+   "source": "briefs/round-02/COALITION-CHARTER.md:67"
+  },
+  {
+   "claim": "The tag vocabulary is closed and already printed, so the tie between two property-less weapons is broken by a layer B does not own.",
+   "quote_or_excerpt": "The tags a card can require are",
+   "source": "quarto-book/chapters/15-equipment.qmd:25"
+  },
+  {
+   "claim": "The basic attack itself is gated by a tag, so the floor attack depends on the tag layer rather than on the Discipline recipe.",
+   "quote_or_excerpt": "*Disciplines:* None \u00b7 *Kit:* weapon:one-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:174"
+  },
+  {
+   "claim": "The Mace's whole printed row: 1 Heavy Weapon and no property, so its only possible identity is the route it opens.",
+   "quote_or_excerpt": "[Mace], [1 Heavy Weapon], [], [],",
+   "source": "quarto-book/chapters/15-equipment.qmd:180"
+  },
+  {
+   "claim": "The Versatile parenthetical currently reads Longsword only, so giving the Battleaxe the same capability edits this line as well as the table.",
+   "quote_or_excerpt": "*Versatile*, can be wielded two-handed (Longsword only)",
+   "source": "quarto-book/chapters/15-equipment.qmd:213"
+  },
+  {
+   "claim": "The Two-Handed property names its weapon list in print, so removing the Crossbow edits this line as well as the table row.",
+   "quote_or_excerpt": "*Two-Handed*, must be held in both hands and takes 2 slots",
+   "source": "quarto-book/chapters/15-equipment.qmd:219"
+  },
+  {
+   "claim": "The reference sheet reprints the weapon rows a third time, so the blast radius of the table edit is three sites, not one.",
+   "quote_or_excerpt": "[Spear], [1 Polearms], [Reach, Thrown, Two-Handed]",
+   "source": "quarto-book/chapters/22-reference-sheets.qmd:386"
+  },
+  {
+   "claim": "B's honest cost is already stated by the charter: deepening the shallow Disciplines is real authoring.",
+   "quote_or_excerpt": "B requires deepening several Disciplines, which is real authoring",
+   "source": "briefs/round-02/COALITION-CHARTER.md:69"
+  }
+ ],
+ "id": "f-026",
+ "role": "contrarian",
+ "round": 2,
+ "stance": "support",
+ "topic": "t-04"
+}

@@ -124,3 +124,21 @@ lightly and needs gate verification rather than a full council round.
 | 7 | 06-core-resolution | pending | | |
 | 8 | 10-magic-system | pending | | |
 | 9 | 02, 03, 04, 05, 07, 14, 15, 17, 18, 19, 20, 21, 22 (gate verification, not a full round) | pending | | ch05 was touched today: two Weak glosses corrected (PR #560), residue filed as #559 |
+
+## Design council runs (proposal scope, not chapter-scoped)
+
+Two runs took a **book-wide proposal** rather than a chapter. They are filed here because both govern
+the equipment layer, and r-001 is the binding boundary for any further equipment work.
+
+| Run | Question | Outcome |
+|---|---|---|
+| `equipment-purge-20260915/` (20260915-1847) | Should the named-equipment catalog be removed, and what replaces its mechanical content? | Purge in **two passes**; pass one relocates before anything is deleted. **Superseded in scope** by the run below. |
+| `equipment-goals-20260915/` (20260915-2059) | Does equipment-as-flavour serve the goals? | **r-001 sealed, binding:** weapon identity is carried only by what a weapon permits - the Discipline recipe in the requirement column, the property set, and the card-visible Kit tags. No flat damage number, tier bump or better-weapon ladder on a weapon row; the largest gear-sourced value that leaves the damage ladder intact is **zero**. Round 2 blast radius **measured** at 6 of 25 chapters / 148 lines / 386-388 folios. **The named-equipment purge does not proceed as written.** |
+
+**Open and escalated to Bruce:** the `problem-scoping` topic (see `decisions-pending.md` #149). The
+engine cannot seal a non-`t-NN` topic, so the brief's scope dispute is unresolved and gates any
+re-issue or annotation of that brief.
+
+**Sequencing note for the residue:** the two-pass plan's executable half landed as the armament
+collapse series (#564-#586) - permissions, class cost tables, card headers and kit vocabulary were all
+re-keyed to armament categories. The named tables survive as flavour, with no gate and no magnitude.

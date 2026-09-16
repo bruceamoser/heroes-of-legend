@@ -1,0 +1,46 @@
+{
+ "argument": "Refuted: the kit tags do not yet produce coherent combat strategy, because the tag vocabulary has no satisfaction rule and the floor attack is tagged for one-handed weapons only. 09:169 calls the four Basic cards the attacks every character can make, with no Discipline required, and names them the floor; 09:174 then tags Basic Melee to weapon:one-hand, and the tag list at 15:25 never says what satisfies a tag. A hero who spends two of six kit points on a two-handed armament (15:40), as the Unbalanced's recommended kit does (15:151), therefore has no basic attack at all: the one-hand tag is unsatisfied, the ranged cards want a bow, and the unarmed card wants empty hands. The three cards that do accept a two-handed weapon each demand Disciplines first, so the hero is left with the gear and without an attack. Nothing states whether a Versatile weapon counts for a two-hand tag either, leaving a Longsword user's legality under the tags undecided (15:213, 15:219). Model A has none of these problems, since the floor cards carry no Discipline gate, which is to say the choice of model decides whether the game's fixed floor exists for a whole class of kits. Ruling on t-02: if the tags are to be the permission mechanism, the kit system needs a satisfaction rule per tag and either a two-handed basic attack or an explicit line saying a two-handed weapon satisfies Basic Melee. Smallest insertion: one sentence in the tag list at 15:25 defining what satisfies each tag, and one Basic attack card tagged weapon:two-hand.",
+ "confidence": 0.8,
+ "evidence": [
+  {
+   "claim": "The four Basic cards are declared universal and Discipline-free, so they are the floor every kit must be able to reach.",
+   "quote_or_excerpt": "the attacks every character can make, no Discipline required. They are the floor",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:169"
+  },
+  {
+   "claim": "Basic Melee is nonetheless tagged to a one-handed weapon, which a two-handed kit never satisfies.",
+   "quote_or_excerpt": "*Disciplines:* None \u00b7 *Kit:* weapon:one-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:174"
+  },
+  {
+   "claim": "The tag list names eight tags and defines no test for satisfying one; the same paragraph says a card with no tag requirement carries no Kit field.",
+   "quote_or_excerpt": "A card that requires none of them carries no Kit field at all",
+   "source": "quarto-book/chapters/15-equipment.qmd:25"
+  },
+  {
+   "claim": "Versatile may be used two-handed and Two-Handed must be, and neither property is tied to the tag vocabulary, so tag satisfaction is undecided even for a Longsword.",
+   "quote_or_excerpt": "Versatile, can be wielded two-handed (Longsword only)",
+   "source": "quarto-book/chapters/15-equipment.qmd:213,219"
+  },
+  {
+   "claim": "The two-handed armament is a legal, recommended kit line, so the case is reachable at character creation rather than hypothetical.",
+   "quote_or_excerpt": "[Two-handed weapon], [2] | [Unbalanced], [Two-handed, light armour], [4]",
+   "source": "quarto-book/chapters/15-equipment.qmd:40,151"
+  },
+  {
+   "claim": "The brief's Light citation resolves: two-weapon fighting requires the Light property on the off-hand weapon, and the worked example runs through Basic Melee.",
+   "quote_or_excerpt": "The off-hand weapon must have the *Light* property",
+   "source": "quarto-book/chapters/13-combat.qmd:270,290,292"
+  },
+  {
+   "claim": "Instrumentation: the one-hand tag appears in three places only, none of which defines satisfaction, so the gap is real and not defined elsewhere.",
+   "quote_or_excerpt": "weapon:one-hand -> 09:174 (Basic Melee), 09:245 (Cleave), 15:25 (tag list), 3 hits; no satisfaction rule found",
+   "source": "chapters/*.qmd (25 files, book-wide grep)"
+  }
+ ],
+ "id": "f-012",
+ "role": "editor-in-chief",
+ "round": 1,
+ "stance": "refute",
+ "topic": "t-02"
+}

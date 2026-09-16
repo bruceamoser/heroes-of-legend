@@ -1,0 +1,303 @@
+{
+ "council": "hol-rulebook",
+ "ledger_view": {
+  "open_refutes": [
+   {
+    "argument": "The named tables are not a second copy of the kit model. They are the only home of two value families the surviving layers cannot carry, so a purge that deletes them removes play rather than clutter, and the chapter as written must change: it needs a destination plan first. (1) Weapon properties. Five of the seven (Finesse, Reach, Thrown, Light, Loading) are unexpressible in the five Armament options and in the five card-level weapon tags; only Two-Handed survives as a kit category plus a tag, and its 2-slot cost is stated separately in the encumbrance rule. Versatile is decorative and can go: one weapon, no number. The five that die are not decoration. Losing Finesse deletes the Agility-for-Brawn substitution on the melee damage additive, so a light blade hero's damage row silently reverts to Brawn; losing Reach deletes the 10-ft melee band; losing Thrown deletes the 20/60-ft band (the improvised-thrown rule gives damage but no range); losing Light deletes the off-hand strike the charge rule already assumes exists; losing Loading deletes the reload Maneuver. Each of these is a fact about how a card resolves, so each belongs on the card's Range and Keywords fields, which the fixed card format already carries, or as priced Armament options at 1 to 2 kit points. No new surface is needed. (2) Armour slots. DR, weight class, donning time and the encumbrance formula survive untouched, because DR is a class number. Slots are not: medium holds both 2 and 3, heavy holds both 3 and 4, so no per-class rule reproduces the column, and the only worked example that consumes it turns on the 2-slot gap between leather and chain mail. Either one slot value per weight class is authored before the rows go, or the Covering line prints its own slot cost. (3) Shields: the requirement is a second, name-based gate (Protection ranks) on an object the kit already sells for 2 points, so it must be resolved with the names, and the Tower Shield's half cover, -5 ft speed and plant-for-cover, plus the Buckler's free hand, need a generic shield variant to live in. (4) Mounts and vehicles are stat blocks with no Discipline column and no permission gate: they are outside this purge's duplicate-gate class and must be preserved as written, together with the mounted-combat and chase rules, which have no other home. (5) The gear table's slot column is load-bearing; its item-level damage numbers (oil 2 fire, alchemist's fire 4 fire, caltrops 1) contradict the law that gear grants no numbers and must move to a card or be cut.",
+    "confidence": 0.74,
+    "evidence": [
+     {
+      "claim": "The kit's Armament line is pure category, and the card layer's whole weapon vocabulary is five tags, none of which names a weapon property. Five of the seven properties therefore have nowhere to be said once the named rows go.",
+      "source": "15-equipment"
+     },
+     {
+      "claim": "The seven properties are defined in one prose list that pairs each property with specific items, so the definitions themselves dangle when the item names are deleted; the list states the numeric payload of each (Agility substitution, 10 ft, 20/60 ft, off-hand, one Maneuver, 2 slots).",
+      "source": "15-equipment"
+     },
+     {
+      "claim": "The named weapon table's Properties and Range columns are the only per-item carriers of those values; the rows also carry the Discipline entry requirement that the kit categories do not.",
+      "source": "15-equipment"
+     },
+     {
+      "claim": "Finesse is load-bearing on the damage economy, not flavour: melee adds an attribute to the attack card's damage row, and Finesse swaps Agility in for Brawn. A category that cannot say finesse changes a hero's printed damage numbers.",
+      "source": "08-disciplines"
+     },
+     {
+      "claim": "The glossary repeats all seven property definitions by naming the items that have them, giving the purge a second copy of the definitions to relocate rather than a single list.",
+      "source": "21-glossary"
+     },
+     {
+      "claim": "Worked count of survivors and casualties. Seven properties minus one expressible in the kit/tag vocabulary (Two-Handed) minus one that grants no number (Versatile, Longsword only) leaves five with no destination: Finesse, Reach, Thrown, Light, Loading. Recommended home for each is the card's Range or Keywords field; the alternative is priced Armament options (Finesse 1, Thrown 1, Reach 2 points).",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Armour slot counts are item-level, not class-level: two medium rows differ (2 against 3) and two heavy rows differ (3 against 4), while the class alone fixes DR and donning time. Deleting the rows deletes the only slot source.",
+      "source": "15-equipment"
+     },
+     {
+      "claim": "The only worked example that consumes the armour slot column turns on the 2-slot gap between leather and chain mail; with the named armour rows purged, the example's trade-off arithmetic loses its input, and the expected fix is a per-weight-class slot value that still yields leather 2 and chain mail 4.",
+      "source": "16-armor-shields"
+     },
+     {
+      "claim": "Shield requirements are Discipline ranks, which makes a shield a second gate on top of its 2-point kit option; the kit grant already waives the ranks, so the requirement must be resolved with the names rather than left behind.",
+      "source": "16-armor-shields"
+     },
+     {
+      "claim": "The reference sheet reprints the same named tables as the lookup surface, including shield requirements and half cover, so a purge must edit this copy too or leave a stale index.",
+      "source": "22-reference-sheets"
+     },
+     {
+      "claim": "Mounts and vehicles are stat blocks with HP, Speed, carry and crew values and no Discipline requirement column, so they are not gated named content; the mounted-combat and chase rules are their only home and must survive the purge.",
+      "source": "15-equipment"
+     },
+     {
+      "claim": "The gear table's item notes carry flat item damage (oil 2 fire, alchemist's fire 4 fire, caltrops 1) and item-granted conditions, which contradict the chapter's own law that a kit grants no damage; the slot column is structural and the damage notes are law-breaking residue that must move to a card.",
+      "source": "15-equipment"
+     }
+    ],
+    "id": "f-001",
+    "role": "game-architect",
+    "stance": "refute",
+    "topic": "t-02"
+   },
+   {
+    "argument": "The category kit does not express everything the named catalog expressed. Armament is a single select of five options and only one of them carries a shield, so a build holding two weapons has no row to sit on; Covering, Focus and Calling cannot hold a weapon either, and unspent points convert only into packs. That would be academic if the book's own builds stayed single-weapon, but they do not. Four of the nine class starting kits issue a second weapon: Blade and Shadow pair blades, Odd pairs a bow with a dagger, and Leader carries a one-handed weapon, a two-handed weapon and a shield at once. The character-creation exemplars reuse those exact lists with no kit-point accounting at all. The loss is not cosmetic, because the off-hand rules already assume a second weapon in the hero's hands: the Light property exists to enable off-hand fighting, and the Buckler is described as freeing the hand for another weapon. The kit's own ranged category is likewise silent on distance, which only the named rows ever assign. So purging the catalog leaves either the class kits and exemplars wrong, or the Armament line incomplete, and the minimal edit is to add a second-weapon option (or state plainly that a carried second weapon is free fiction) rather than hand-editing nine kits. Refute: something must change, and it is the Armament line, not the chapter's voice, which reads as one book throughout.",
+    "confidence": 0.7,
+    "evidence": [
+     {
+      "claim": "The kit is defined as one choice per line, and the Armament options each price a single weapon, with the shield always bundled to a one-handed weapon and never offered alone or with a two-handed or ranged weapon.",
+      "source": "15-equipment"
+     },
+     {
+      "claim": "Points left after the four lines can only become packs, so a second weapon cannot be bought as a leftover, leaving no priced route to holding two weapons.",
+      "source": "15-equipment"
+     },
+     {
+      "claim": "The Light property is defined by its off-hand use, so the chapter's own rules presuppose a second weapon while the Armament line grants only one.",
+      "source": "15-equipment"
+     },
+     {
+      "claim": "Class starting kits hand out weapons in pairs or triples: the Leader's kit lists a one-handed blade, a two-handed spear and a shield simultaneously, a loadout no Armament option covers.",
+      "source": "05-classes"
+     },
+     {
+      "claim": "The Odd's starting kit pairs a ranged weapon with a one-handed one, which the single-select Armament line cannot produce.",
+      "source": "05-classes"
+     },
+     {
+      "claim": "The step-by-step exemplar hero is issued that same bow-and-dagger list with no accounting against the four lines or the six points, so the exemplar silently contradicts the kit model.",
+      "source": "02-character-creation"
+     },
+     {
+      "claim": "The Buckler entry justifies itself by freeing the hand for another weapon, confirming the book expects a second weapon alongside kit gear.",
+      "source": "16-armor-shields"
+     },
+     {
+      "claim": "The glossary restates the one-option-per-line rule when defining a kit, so single-select Armament is canonical rather than a local slip in the equipment chapter.",
+      "source": "21-glossary"
+     },
+     {
+      "claim": "The quick-reference weapon table is the lookup surface that assigns per-weapon distance, so collapsing weapons into one ranged category discards the only distance values in the book.",
+      "source": "22-reference-sheets"
+     }
+    ],
+    "id": "f-002",
+    "role": "author",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "Chapter 08 carries the book's only prose rule that turns equipment into a Discipline gate, and the two chapters it sends the reader to for that rule have no column the rule could live in. The armour tables in the equipment and armour chapters are built from item name, weight class, DR and slot count; there is no Discipline column in either, so the single value the passage prints for heavy plate is uncheckable anywhere in the book, and a reader who trusts it spends Development Points on a third Armor rank that no table requires. That is broken rather than merely incomplete: the reader acts on it and loses a scarce resource. It is also the defect the purge edit must not swallow, because this passage and the Maul rows are together the only places in the corpus that justify third ranks of Armor and Heavy Weapon. Delete the named catalog without adjudicating the passage and two purchasable ranks lose their sole consumer while the text keeps pointing at tables that never held the number. The smallest closing fix: in chapter 08 state that Disciplines gate cards and not gear, matching the kit-gear callout that already releases a class starting kit from prerequisites, and either strike the armour instance or give the armour tables in chapters 15 and 16 a real Discipline column; the rank-3 clause must be decided explicitly in the purge plan, not dropped.",
+    "confidence": 0.84,
+    "evidence": [
+     {
+      "claim": "The disciplines chapter states that weapons, armour and shields may carry their own Discipline entry requirements, and its worked enumeration includes heavy plate at three Armor ranks, directing the reader to the equipment and armour chapters for the requirement.",
+      "source": "08-disciplines"
+     },
+     {
+      "claim": "The armour table in the armour chapter is built from armour name, weight class, DR, slots and notes only; it has no Discipline column, so no entry requirement for any armour is recorded there.",
+      "source": "16-armor-shields"
+     },
+     {
+      "claim": "The armour table in the equipment chapter repeats the same four columns and likewise carries no Discipline requirement, so neither chapter cited by the chapter 08 rule holds the value it asserts.",
+      "source": "15-equipment"
+     },
+     {
+      "claim": "No prerequisite cell in any class ability table asks for a third Armor rank; the highest Armor requirement stated on any card is two, so the third Armor rank has no card-level consumer.",
+      "source": "05-classes"
+     },
+     {
+      "claim": "A full-text scan of the nine supplied chapters confirms the exhaustiveness of the only-consumer claim: the three-Armor string occurs exactly once, in the chapter 08 passage, and the three-Heavy-Weapon string occurs only on the Maul rows of the equipment and reference-sheet tables. By contrast the third rank of Energy does have a real card prerequisite, so the book does use third ranks when a card justifies one.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "The kit-gear callout already releases a class starting kit from Discipline prerequisites, so the chapter 08 equipment gate is a second, contradictory permission model standing beside the kit model that the same book declares to be the equipment system.",
+      "source": "15-equipment"
+     },
+     {
+      "claim": "The quick-reference register re-lists the named weapon, armour, gear, mount and vehicle tables, and its shield table is the only lookup surface in the book that tabs a Discipline requirement for a shield, so the register is asymmetric and never carries an armour equivalent of the plate value.",
+      "source": "22-reference-sheets"
+     }
+    ],
+    "id": "f-003",
+    "role": "editor-in-chief",
+    "stance": "refute",
+    "topic": "t-03"
+   },
+   {
+    "argument": "Topic choice first, since all three were probed. t-01 is the weakest of the three cases because it is the only one that claims completeness, and completeness is falsifiable by a single counter-example. Its load-bearing premise is that a category label is a faithful stand-in for a specific object, on the grounds that the only facts an object carries are its cards' damage and its Discipline prerequisites. Both halves of that premise fail against the shipped text. The prerequisite half is moot for anything that arrives in a class kit, which the equipment chapter exempts from Discipline prerequisites. The damage half fails because the attribute on an attack is routed through the object's property: one property substitutes Agility for Brawn, while thrown and missile attacks are flat with nothing added. That leaves the categories unable to say what a hero actually brought or what numbers it produces. The strongest single counter-example is a bow: the property list files bows and crossbows as two-handed, and the armament line prices a ranged weapon at one point and a two-handed weapon at two, so the same object falls in two lines at two prices and the kit cannot be costed except by reading the per-item property column. A dagger (Agility, throwable at 20/60 flat), a longsword (Brawn, may go two-handed) and a mace (neither property) all sit in the same one-point one-handed slot. Probed A, B and C and found no counter-example to this one: no kit line, tag set or pack carries a per-item property, slot cost, attack mode or range band, and the property definitions themselves are bounded by naming the objects that have them. So the purge premise that the book has already made equipment pure flavour holds only for a single sentence in one chapter, while three other chapters still spend it as a permission gate and a number-shaping choice.",
+    "confidence": 0.72,
+    "evidence": [
+     {
+      "claim": "The armament line offers five category options, so no kit choice can record an individual property, attack mode, range band or slot cost.",
+      "source": "15-equipment"
+     },
+     {
+      "claim": "The property list assigns Two-Handed to bows and crossbows, while the same chapter's armament line prices a ranged weapon at one point and a two-handed weapon at two, so an object can sit in two price lines and the kit can only be costed by consulting per-item properties.",
+      "source": "15-equipment"
+     },
+     {
+      "claim": "Seven weapon properties are enumerated by naming the objects that carry each one, and several of them impose positional, reload, off-hand or slot rules that a category cannot express.",
+      "source": "15-equipment"
+     },
+     {
+      "claim": "The damage rules make a weapon property mechanically decisive: the property decides which attribute is added to a melee attack, while thrown and missile attacks are flat, so two objects in the same kit category produce different numbers on the same card.",
+      "source": "08-disciplines"
+     },
+     {
+      "claim": "A separate chapter declares equipment Discipline requirements to be a gate in their own right, distinct from a card's tier, and enumerates the specific objects that carry them, which makes equipment a permission carrier rather than flavour.",
+      "source": "08-disciplines"
+     },
+     {
+      "claim": "Shields carry a Protection rank requirement that applies to every shield outside a class kit, so possession without permission is an operating rule for anything the hero gains in play.",
+      "source": "16-armor-shields"
+     },
+     {
+      "claim": "The glossary definitions of the weapon properties are extensional, each bound by naming the objects that have it, so the definitions depend on the named list surviving somewhere in the book.",
+      "source": "21-glossary"
+     },
+     {
+      "claim": "The reference sheet instructs players to record per-object properties and armor slot costs on the character sheet and reprints the named weapon table with its own range column, so per-item data has a second live surface.",
+      "source": "22-reference-sheets"
+     },
+     {
+      "claim": "Every class's starting kit is written as a named list of objects that has to be resolved against the equipment chapter, so the book's own kit idiom is per-item rather than categorical.",
+      "source": "05-classes"
+     },
+     {
+      "claim": "Worked collapse of the one-point one-handed slot: the objects the book places in it differ in attribute added, attack mode, range and off-hand legality, and two of them straddle the ranged and two-handed lines at different prices.",
+      "source": "reasoning"
+     }
+    ],
+    "id": "f-004",
+    "role": "contrarian",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "The topic's premise does not hold on the record as written: the kit vocabulary is entirely categorical, while named gear has live consumers elsewhere in the book, two of which sit inside the supposed replacement. The kit resolves to 4 lines with 12 priced option rows, 8 card Kit tags, and 16 pack entries (one free, fifteen purchasable) -- not one of them names an item. Named gear is depended on by 9 class Starting Kit entries carrying 43 listed item entries, 8 worked examples in character creation, 5 magic-item base types, 15 bestiary attack entries, and 7 gear-table items that attach a rule to the item by name. The class layer is the sharpest case: the equipment chapter resolves a class's signature grant to a pack and describes armour, weapon and focus as budget picks, giving 9 category rows with zero named items, whereas the class chapter gives 9 item lists. Second, the Discipline entry-requirement law is explicitly suspended for class-kit gear, so the named weapons table's requirement column constrains only gear that did not arrive in a kit. The record does not settle which remedy follows -- whether class kits are restated as categories, or named glosses are retained as examples -- but it does establish that removing the equipment chapter's tables alone would leave named dependencies standing in the class, character-creation, magic-item and bestiary chapters.",
+    "confidence": 0.85,
+    "evidence": [
+     {
+      "claim": "The card format admits exactly eight Kit requirement tags, every one a category slug rather than an item name; a card needing none of them carries no Kit field at all, which the text says is the common case. Count: 8 tags, 0 named items.",
+      "source": "15-equipment:25 (card Kit field definition)"
+     },
+     {
+      "claim": "All nine class entries carry a Starting Kit field that resolves to specific items, not categories. Count: 9 class entries, 43 listed item entries (Protector 4, Blade 4, Arcanist 5, Shepherd 4, Intellect 5, Odd 5, Leader 4, Unbalanced 4, Shadow 8). Each line forward-references the equipment chapter, so the class chapter, not the equipment chapter, is where named gear is most densely asserted.",
+      "source": "05-classes:59,104,156,201,246,291,338,409,462 (Starting Kit lines)"
+     },
+     {
+      "claim": "The kit chapter models a class grant as a signature pack plus budget-priced armour/weapon/focus, and its nine-row class table carries a Typical Kit column of pure categories alongside a Granted Pack column of pack names. Count: 9 rows, 0 named items; 9 pack grants over 7 distinct packs. This is a different granularity from the class chapter's item lists for the same nine classes.",
+      "source": "15-equipment:127 and 15-equipment:139-157 (class recommendation table)"
+     },
+     {
+      "claim": "The Discipline entry-requirement rule is stated as general law in the Disciplines chapter and then explicitly waived for class-kit gear in two other chapters. The consequence is that the named weapon/shield/armour requirement column is load-bearing only against gear that did not arrive in a class kit; the Kit Gear exemption exists because the named starting kits would otherwise fail their own table's prerequisites.",
+      "source": "15-equipment:196, 16-armor-shields:60, 08-disciplines:192 (Kit Gear exemption)"
+     },
+     {
+      "claim": "The magic-item Type field resolves to a specific base item rather than a category. Count: 5 of 25 magic items are typed on a weapon name that appears as a row in the equipment chapter's weapons table (Longsword twice, Warhammer, Dagger, Longbow); the remainder are typed on cloaks, belts, wondrous items, consumables or an armour weight class.",
+      "source": "17-magic-items:26,46,256,280,304,328 (Type field)"
+     },
+     {
+      "claim": "Bestiary stat-block attacks are named for catalog weapons. Count: 15 entries naming a weapon row from the equipment chapter (Shortbow 3, Greataxe 3, Shortsword 2, Dagger 2, Longsword 2, Spear 1, Longbow 1, Greatsword 1). Their stated ranges also disagree with the weapons table, e.g. a shortbow reaching further in the bestiary than in the equipment chapter's range column, so this consumer is a dangling-reference site as well as a named-item site.",
+      "source": "20-bestiary:104,106,114,120,130,156,158,170,172,212,214,224,226,251,253,351 (stat-block attacks)"
+     },
+     {
+      "claim": "Seven gear rows attach a rule to the item by name -- a skill check that cannot be attempted without a specific kit or set of tools, or a check that gains a Boon from one. Count: 7 (Bedroll, Crowbar, Disguise Kit, Healer's Kit, Smith's Tools, Spellbook, Thieves' Tools). Several have a pack-layer counterpart expressed as a tag instead (thieves, healer, smith, scribe/Spellbook), so the item-name surface and the tag surface currently duplicate the same capability.",
+      "source": "15-equipment:278,282,283,288,303,305,308 (Adventuring Gear, Notes column)"
+     },
+     {
+      "claim": "Character creation's worked examples equip each pregenerated hero by item name, matching the class lists rather than the four kit lines. Count: 9 worked-example equipment blocks (plus two earlier general instructions that send the reader to the class starting kit).",
+      "source": "02-character-creation:312,359,398,437,475,513,551,590,629 (worked examples)"
+     }
+    ],
+    "id": "f-005",
+    "role": "librarian",
+    "stance": "refute",
+    "topic": "t-01"
+   },
+   {
+    "argument": "Measured in source, deleting the named tables is not a structure-neutral edit: the chapter files keep their headings and lose the content under them, so the purge as drafted leaves three render defects and one misattribution. Chapter 16 in 123 lines carries seven explicit page breaks, and the armour table is bracketed exactly by the breaks at lines 29 and 54 with one sentence below it, so removing the table produces a forced full page holding a section heading and a single line of prose. In chapter 15 the Armor section is 26 lines of which 17 are its table; what survives is four non-empty lines, two of them forwarding crossref stubs that point at chapter 16 rather than stating anything. Adventuring Gear is 58 lines of which 47 are its table; what survives is six non-empty lines and no subsection to absorb the freed space, so the heading outlives the gear it names. Neither stub section owns a subsection, so the page mass cannot redistribute downward. The Weapons section does keep substance, but its seven property bullets convey each property's scope only through parenthetical lists of table rows, so eight residual lines index labels that will no longer exist. Against that, the width and break-header surfaces are clean and must not be blamed: all eleven tables in the two chapters sum their column percentages to exactly 100.00, and every table already declares a repeating header row, so no new overflow or split-header defect is introduced by row removal. The repair is therefore structural, not typographic: restate the property bullets to carry scope without naming rows, fold or re-content the two stub sections, delete the ch16 break pair at 29 and 54 with the table, and re-place the chapter 15 breaks at 17, 221 and 264. One further render fact: the chapter 15 Armor table is the only one of the ten tables there missing the unnumbered setting, so it presently renders with an auto caption the other nine lack; that defect is retired by the table's removal. Caveat: these are source-level measurements, and the actual rendered page count after purge should be confirmed on a clean build.",
+    "confidence": 0.78,
+    "evidence": [
+     {
+      "claim": "The five named tables in chapter 15 account for just under a third of the chapter's lines and a third of its bytes, so the freed page mass is large and must be redistributed deliberately.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Chapter 16's armour table is bracketed on both sides by explicit page breaks, and the bracketed segment holds almost nothing else, so the break pair is orphaned by removal and renders a near-empty page.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "Once the armour table is gone the segment between the breaks retains exactly one body sentence, and the section heading survives above it, which is a heading with no content under it.",
+      "source": "sources/16-armor-shields"
+     },
+     {
+      "claim": "Two chapter-level sections reduce to a heading plus a sentence plus pointers elsewhere, with no subsection available to take up the space.",
+      "source": "sources/15-equipment"
+     },
+     {
+      "claim": "The seven surviving property bullets establish each property's scope by listing the named rows it applies to, so the load-bearing survivors are formatted as an index into the deleted table and every one of them needs re-authoring, not just relocation.",
+      "source": "sources/15-equipment"
+     },
+     {
+      "claim": "Column budgets are exact and no table overflows, while the weapons table's two content columns are a quarter empty, so the visible page waste sits in the columns that carry the surviving mechanics.",
+      "source": "reasoning"
+     },
+     {
+      "claim": "The chapter's Armor table omits the unnumbered setting that the other nine tables in the chapter and the chapter 16 table all carry, so it alone renders with an automatic caption.",
+      "source": "sources/15-equipment"
+     },
+     {
+      "claim": "Named armour is also referenced by name outside the table in the worked example and in the donning list, which are the orphaned labels that survive a table-only purge.",
+      "source": "sources/16-armor-shields"
+     }
+    ],
+    "id": "f-006",
+    "role": "layout-expert",
+    "stance": "refute",
+    "topic": "t-02"
+   }
+  ],
+  "positions": {
+   "t-01": {
+    "author": "refute",
+    "contrarian": "refute",
+    "librarian": "refute"
+   },
+   "t-02": {
+    "game-architect": "refute",
+    "layout-expert": "refute"
+   },
+   "t-03": {
+    "editor-in-chief": "refute",
+    "researcher": "support"
+   }
+  },
+  "sealed_rulings": []
+ },
+ "problem_brief": "# Council problem statement \u2014 Named Equipment Purge (issue #554)\n\n**Source:** the tree that ships named gear. `15-equipment.qmd` (433 lines) is the centre: `== Kits`\n`:19-158` (the live, category-based model), `== Weapons` `:161-222` (a 17-row named table whose only\ndifferentiating column is `[Disciplines Required]`), `== Armor` `:223-248`, `== Adventuring Gear`\n`:266-323`, `== Mounts & Vehicles` `:324-433`. Echoes of named gear also sit in `16-armor-shields.qmd`,\n`08-disciplines.qmd`, `21-glossary.qmd`, `22-reference-sheets.qmd`, `17-magic-items.qmd`,\n`20-bestiary.qmd`, `02-character-creation.qmd` and `05-classes.qmd`.\n\n**Question for the council:** should the named-equipment catalog be removed from the book, and if so,\nwhat exactly replaces the mechanical content it currently carries?\n\n**What this is.** The book has already decided, in prose, that equipment is flavour. `15:163` states\nthe law in its own words: discipline is permission, equipment is possession, cards are damage. The\nkit model at `:19-158` implements that law, offering four lines whose options are categories rather\nthan items: Armament (Unarmed 0, One-handed weapon 1, Ranged weapon 1, One-handed weapon and shield 2,\nTwo-handed weapon 2), Covering, Focus, Calling. No named item appears in it.\n\nThe named tables were never removed. They sit below the kit section, and their load-bearing column is\nthe one that grants permission by name: a specific weapon requires specific Discipline ranks. So the\nchapter simultaneously teaches that a weapon is \"just the thing that happens to be there\" and that a\nweapon is a permission gate. **The book cannot do balance work against a two-model tree**, which is\nwhy this run precedes the gating and balance evaluation.\n\nFour failure classes are native here and should be your targets:\n\n1. **A surviving duplicate gate.** Any place where a named item still gates access by Discipline, when\n   the card layer already gates it, is a redundant rule and a contradiction of the stated law.\n2. **Mechanical content with nowhere to live.** If a named table is removed, anything genuinely\n   load-bearing inside it must land somewhere. Content that is decorative and content that is\n   structural look identical in a table and must be separated before anything is deleted.\n3. **A dangling reference.** Examples that equip a named item, cross-references to a removed table,\n   lookup surfaces that index the catalog, and counts stated in prose all break silently. The purge\n   must find every one.\n4. **A silently changed game.** Removing a table can change what a hero may do. Any consumer of the\n   catalog that turns out to be the ONLY consumer of a rule is a balance consequence and must be\n   named as such rather than buried in the edit.\n\n## Topics\n\n- **t-01** kit completeness: does the category-based kit express everything the named catalog\n  expresses? If a player can no longer name a weapon, what do they lose in play, and is anything the\n  named table allowed now unexpressible?\n- **t-02** mechanical residue: which of the named content is load-bearing and where does it go? The\n  seven weapon properties (Finesse, Versatile, Reach, Thrown, Light, Loading, Two-Handed), the armour\n  weight classes and their DR, shields and their requirements, encumbrance and slots, mounts and\n  vehicles. Separate the structural from the decorative, and state where each survivor lives.\n- **t-03** consequences and dangling references: every consumer of the named catalog across the nine\n  touched files, every worked example that equips a named item, every crossref and lookup-surface\n  index, and every rule whose ONLY consumer is a named item \u2014 including whether a Discipline rank\n  that is justified only by equipment becomes a dead rank once equipment is flavour.\n\nEvery finding MUST set `topic` to exactly `t-01`, `t-02`, or `t-03`. One finding carries one defect;\nname any others in your reply.\n\n## Locked conventions (current as of 2026-09-15 \u2014 these ARE the law this run tests against)\n\n1. **Equipment is flavour.** It grants no numbers and decides no damage. It conveys possession, not\n   permission.\n2. **Cards are damage.** Attack ability cards carry the Weak/Standard/Strong values; the weapon does\n   not. The damage bands are **Novice 4/6/8, Adept 5/8/11, Master 7/10/14**; the retired rows\n   2/4/6, 6/9/12 and 9/15/21 are valid nowhere.\n3. **Discipline is permission.** Cards name the Discipline ranks they need. A Discipline rank is a\n   prerequisite resource, bought once and spent twice at most (levels 3, 6 and 9 grant the only three\n   extra ranks a career holds).\n4. **The kit is the equipment system.** Four lines, six points, categories not items.\n5. **The card format is fixed.** Disciplines / Action / Range / Keywords, bought once at one tier for\n   one price, 2/4/8 DP by tier.\n6. **The book's conventions hold.** Native Typst, one `{=typst}` fence per file, `outlined: false` on\n   every table, zero em-dashes, no damage dice, house emphasis, the crossref law.\n",
+ "role": "contrarian",
+ "round": 2,
+ "task": "For each contested topic produce at least one concrete counter-example against the leading support position, or record explicitly 'tested A, B, C \u2014 no counter-example found'. Emit findings only."
+}

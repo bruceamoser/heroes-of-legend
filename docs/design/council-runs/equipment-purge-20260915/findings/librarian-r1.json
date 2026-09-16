@@ -1,0 +1,52 @@
+{
+  "id": "f-006",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "The topic's premise does not hold on the record as written: the kit vocabulary is entirely categorical, while named gear has live consumers elsewhere in the book, two of which sit inside the supposed replacement. The kit resolves to 4 lines with 12 priced option rows, 8 card Kit tags, and 16 pack entries (one free, fifteen purchasable) -- not one of them names an item. Named gear is depended on by 9 class Starting Kit entries carrying 43 listed item entries, 8 worked examples in character creation, 5 magic-item base types, 15 bestiary attack entries, and 7 gear-table items that attach a rule to the item by name. The class layer is the sharpest case: the equipment chapter resolves a class's signature grant to a pack and describes armour, weapon and focus as budget picks, giving 9 category rows with zero named items, whereas the class chapter gives 9 item lists. Second, the Discipline entry-requirement law is explicitly suspended for class-kit gear, so the named weapons table's requirement column constrains only gear that did not arrive in a kit. The record does not settle which remedy follows -- whether class kits are restated as categories, or named glosses are retained as examples -- but it does establish that removing the equipment chapter's tables alone would leave named dependencies standing in the class, character-creation, magic-item and bestiary chapters.",
+  "evidence": [
+    {
+      "source": "15-equipment:25 (card Kit field definition)",
+      "claim": "The card format admits exactly eight Kit requirement tags, every one a category slug rather than an item name; a card needing none of them carries no Kit field at all, which the text says is the common case. Count: 8 tags, 0 named items.",
+      "quote_or_excerpt": "`weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`, `shield`, `focus:arcane`, `focus:holy` and `focus:primal`. A card that requires none of them carries no Kit field at all, and most cards do not."
+    },
+    {
+      "source": "05-classes:59,104,156,201,246,291,338,409,462 (Starting Kit lines)",
+      "claim": "All nine class entries carry a Starting Kit field that resolves to specific items, not categories. Count: 9 class entries, 43 listed item entries (Protector 4, Blade 4, Arcanist 5, Shepherd 4, Intellect 5, Odd 5, Leader 4, Unbalanced 4, Shadow 8). Each line forward-references the equipment chapter, so the class chapter, not the equipment chapter, is where named gear is most densely asserted.",
+      "quote_or_excerpt": "*Starting Kit:* Battleaxe, chain mail, shield, smith's tools. See @sec-chapter-equipment for how kits are built and what your points buy."
+    },
+    {
+      "source": "15-equipment:127 and 15-equipment:139-157 (class recommendation table)",
+      "claim": "The kit chapter models a class grant as a signature pack plus budget-priced armour/weapon/focus, and its nine-row class table carries a Typical Kit column of pure categories alongside a Granted Pack column of pack names. Count: 9 rows, 0 named items; 9 pack grants over 7 distinct packs. This is a different granularity from the class chapter's item lists for the same nine classes.",
+      "quote_or_excerpt": "A class grants its signature pack at level 1. This is how the class's starting kit fits inside six points: the armor, weapon, and focus come out of the budget, and the tools of the trade arrive as the class's grant."
+    },
+    {
+      "source": "15-equipment:196, 16-armor-shields:60, 08-disciplines:192 (Kit Gear exemption)",
+      "claim": "The Discipline entry-requirement rule is stated as general law in the Disciplines chapter and then explicitly waived for class-kit gear in two other chapters. The consequence is that the named weapon/shield/armour requirement column is load-bearing only against gear that did not arrive in a class kit; the Kit Gear exemption exists because the named starting kits would otherwise fail their own table's prerequisites.",
+      "quote_or_excerpt": "you can wield kit weapons and use kit armor and shields regardless of Discipline prerequisites."
+    },
+    {
+      "source": "17-magic-items:26,46,256,280,304,328 (Type field)",
+      "claim": "The magic-item Type field resolves to a specific base item rather than a category. Count: 5 of 25 magic items are typed on a weapon name that appears as a row in the equipment chapter's weapons table (Longsword twice, Warhammer, Dagger, Longbow); the remainder are typed on cloaks, belts, wondrous items, consumables or an armour weight class.",
+      "quote_or_excerpt": "*Type:* Longsword \u00b7 *Disciplines:* 1 Fire"
+    },
+    {
+      "source": "20-bestiary:104,106,114,120,130,156,158,170,172,212,214,224,226,251,253,351 (stat-block attacks)",
+      "claim": "Bestiary stat-block attacks are named for catalog weapons. Count: 15 entries naming a weapon row from the equipment chapter (Shortbow 3, Greataxe 3, Shortsword 2, Dagger 2, Longsword 2, Spear 1, Longbow 1, Greatsword 1). Their stated ranges also disagree with the weapons table, e.g. a shortbow reaching further in the bestiary than in the equipment chapter's range column, so this consumer is a dangling-reference site as well as a named-item site.",
+      "quote_or_excerpt": "*Greataxe:* 5/8/11 slashing."
+    },
+    {
+      "source": "15-equipment:278,282,283,288,303,305,308 (Adventuring Gear, Notes column)",
+      "claim": "Seven gear rows attach a rule to the item by name -- a skill check that cannot be attempted without a specific kit or set of tools, or a check that gains a Boon from one. Count: 7 (Bedroll, Crowbar, Disguise Kit, Healer's Kit, Smith's Tools, Spellbook, Thieves' Tools). Several have a pack-layer counterpart expressed as a tag instead (thieves, healer, smith, scribe/Spellbook), so the item-name surface and the tag surface currently duplicate the same capability.",
+      "quote_or_excerpt": "Without a kit, you can't use the Medicine skill to restore HP during rests."
+    },
+    {
+      "source": "02-character-creation:312,359,398,437,475,513,551,590,629 (worked examples)",
+      "claim": "Character creation's worked examples equip each pregenerated hero by item name, matching the class lists rather than the four kit lines. Count: 9 worked-example equipment blocks (plus two earlier general instructions that send the reader to the class starting kit).",
+      "quote_or_excerpt": "*Step 8, Equipment:* Shortbow, dagger, leather armor, thieves' tools, 20 arrows."
+    }
+  ],
+  "confidence": 0.85,
+  "rebutting": []
+}

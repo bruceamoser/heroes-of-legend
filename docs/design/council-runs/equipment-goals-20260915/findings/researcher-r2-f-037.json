@@ -1,0 +1,126 @@
+{
+ "argument": "Dimension 7, derived rather than estimated: the consumer census, the priced Armament change, and what each edit breaks.\n\nThe consumer census. The seven property names occur on 84 distinct lines in 14 files, 107 hits. Classified by what each line does, they form seven layers, and only the first five are edits. Layer 1, definition: seven bullets in one file. Layer 2, glossary: seven entries in one file, and the Versatile entry already has to carry the disambiguation against the Human ancestry trait. Layer 3, the two weapon tables: ten of seventeen rows carry a property cell, and the reference copy repeats the same ten rows with property strings byte identical, nineteen names per file and thirty eight tokens across the two. Layer 4, the gate vocabulary: one line, eight tags, of which exactly one is a weapon property. Layer 5, the cards that make a tag load: Basic Melee and Basic Thrown, both in one file. Layer 6, prose restatements that move in lockstep: the Melee Damage callout, the Attribute Scaled glossary entry, two prose lines in the disciplines chapter, the character creation instruction to record weapon properties, the two-weapon rule, its worked example, the mounted charge exclusion, and one line of opening fiction. Layer 7, the kit layer: the four lines table, the budget table, the Kit glossary entry, and nine class kit lines in the classes chapter.\n\nCost, two ways. If a tag is derived from the prose string by one lookup, the two weapon tables need zero cell edits, because the cells already read Finesse, Light, Thrown and the tag is the lowercased name. The edit set is then one vocabulary line, one lookup, and the gates that make the tags load. If instead every cell is rewritten to tag syntax, the cost is twenty cells and thirty eight tokens across two files, and the two copies are already proven able to drift: their Range columns disagree on the same rows while their Property columns agree exactly. Deriving is strictly cheaper and deletes the drift class.\n\nTwo traps the census found and an estimate would have missed. First, homonyms: Light is already the armour weight class in the armour chapter and appears in the spell lists of two more, and Versatile is the Human ancestry trait, printed seven times in the character creation walkthrough and once in the ancestry table. Eleven of that name's fifteen hits are not the weapon property, and a promotion that matches on the bare name without a scope will collide at least twenty times. Second, Versatile is the one name that appears in the chapter where the player first meets weapon properties, because that is where the ancestry trait is printed, so the collision costs the newest reader the most.\n\nPricing the Armament line. The only compound option prices by addition: one-handed weapon and shield costs 2 against one-handed at 1, so a shield is worth 1 by subtraction and any option naming two weapons derives as 1 plus 1. Pairs costs 2. Pairs and shield costs 3. The line grows from five options to seven: 0, 1, 1, 2, 2, 2, 3.\n\nWhy that is a reconciliation and not an extension: four of the nine class kit lines already name two weapons, at 05:104, 05:293, 05:340 and 05:464, and none of the five live options can express a second weapon. The kit at 05:340 needs the three point row exactly, since calling 1 plus leather 1 plus pairs and shield 3 is five of the six points, leaving one for packs.\n\nWhat breaks. First, class budgets hold: the kit at 05:104 prices at 4 with a pairs row, the kit at 05:340 at 5, and the kit at 05:59 stays at exactly 6 (calling 1, covering 3, one-handed and shield 2), unchanged, because no budget row prices a second weapon. Second, the double price breaks: a Longbow is Ranged at 1 and Two-Handed at 2 as the line is written, so the same object carries two prices. Writing the option set as a sum, 0 unarmed, 1 per one-handed weapon, 2 per two-handed, shield 1, removes the fork but re-prices every archer, and the bow plus dagger kit at 05:293 becomes 3, a value no option currently sells. Third, an unpriced row is a rules hole: a pairs option with no property text lets a hero buy two Longswords, which carry Versatile and not Light, and pay 2 points for an off-hand attack the two-weapon rule forbids, so the row must ship with the Light annotation, which makes it the first Armament option to carry a property and is the same edit as layer 4. Fourth, layout: the four lines table is twelve option rows in three columns, and two new options make fourteen and push the Covering, Focus and Calling rows down. The four line model is stated in two chapters, so both files move.\n\nThe total. Six chapter files for the property promotion (15, 21, 22, 09, 08, 02) and three for the Armament change (15, 21, 05), with 15 and 21 in both sets, so seven of twenty five chapter files. No table is removed, no column is added, one card is re-keyed, one satisfaction rule is authored, and two rows are added to one table, which is the only folio risk in the change and is the layout expert's call rather than a rules unknown.",
+ "confidence": 0.8,
+ "evidence": [
+  {
+   "claim": "Layer 3 begins at the weapon table header: Properties is already a structured field, so the promotion has a place to live that is not a new column.",
+   "quote_or_excerpt": "table.header([Weapon], [Disciplines Required], [Properties], [Range],)",
+   "source": "quarto-book/chapters/15-equipment.qmd:171"
+  },
+  {
+   "claim": "Canonical row 1: the property cell is a comma list of plain names, which is what makes the tag derivable by lowercasing rather than by rewriting.",
+   "quote_or_excerpt": "[Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft (thrown)],",
+   "source": "quarto-book/chapters/15-equipment.qmd:173"
+  },
+  {
+   "claim": "The reference copy of the same row carries the identical property string and a different Range cell, which is the drift class the lookup removes.",
+   "quote_or_excerpt": "[Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft],",
+   "source": "quarto-book/chapters/22-reference-sheets.qmd:373"
+  },
+  {
+   "claim": "The kit's price model is stated here and restated in the glossary, so any Armament edit is a two-chapter edit.",
+   "quote_or_excerpt": "Every kit is built from four lines: Armament, Covering, Focus, and Calling.",
+   "source": "quarto-book/chapters/15-equipment.qmd:29"
+  },
+  {
+   "claim": "The second statement of the four-line model, with the six-point budget and the no-numbers rule attached.",
+   "quote_or_excerpt": "one option from each of the four lines, Armament, Covering, Focus, and Calling, bought with six kit points",
+   "source": "quarto-book/chapters/21-glossary.qmd:75"
+  },
+  {
+   "claim": "The only compound Armament option prices by addition, one-handed weapon and shield at 2 against one-handed at 1, which is the derivation that makes a shield worth 1 and a pairs option worth 2.",
+   "quote_or_excerpt": "[One-handed weapon and shield], [2],",
+   "source": "quarto-book/chapters/15-equipment.qmd:39"
+  },
+  {
+   "claim": "Six points is the budget the pairs option has to fit inside.",
+   "quote_or_excerpt": "You have six points to spend on your primary kit.",
+   "source": "quarto-book/chapters/15-equipment.qmd:58"
+  },
+  {
+   "claim": "The budget commentary prices a one-handed skirmisher at three points left, so a pairs purchase trades one of those three for the second weapon.",
+   "quote_or_excerpt": "A light skirmisher with a one-handed weapon has three left,",
+   "source": "quarto-book/chapters/15-equipment.qmd:77"
+  },
+  {
+   "claim": "Unpriceable class kit 1: this Blade kit names a second weapon and no live Armament option can express one.",
+   "quote_or_excerpt": "Shortsword, dagger, leather armor, thieves' tools",
+   "source": "quarto-book/chapters/05-classes.qmd:104"
+  },
+  {
+   "claim": "Unpriceable class kit 2: this kit names a bow and a dagger, which under a sum-priced line is 3 points and under the live line is unwritable.",
+   "quote_or_excerpt": "*Starting Kit:* Shortbow, dagger",
+   "source": "quarto-book/chapters/05-classes.qmd:293"
+  },
+  {
+   "claim": "Unpriceable class kit 3: this kit names two weapons plus a shield and needs the 3 point pairs-and-shield row, giving calling 1 plus leather 1 plus armament 3 equals 5 of the six points.",
+   "quote_or_excerpt": "*Starting Kit:* Longsword, spear, leather armor, shield.",
+   "source": "quarto-book/chapters/05-classes.qmd:340"
+  },
+  {
+   "claim": "Unpriceable class kit 4: this kit names two daggers as its primary armament.",
+   "quote_or_excerpt": "*Starting Kit:* Two daggers, 6 throwing daggers",
+   "source": "quarto-book/chapters/05-classes.qmd:464"
+  },
+  {
+   "claim": "Budget check on an already legal kit: battleaxe plus chain mail plus shield is calling 1 plus covering 3 plus one-handed and shield 2, exactly six points, and the pairs rows do not disturb it.",
+   "quote_or_excerpt": "*Starting Kit:* Battleaxe, chain mail, shield, smith's tools.",
+   "source": "quarto-book/chapters/05-classes.qmd:59"
+  },
+  {
+   "claim": "Character creation tells the player to record weapon properties on the sheet, which makes the property list a sheet vocabulary and not only a table column.",
+   "quote_or_excerpt": "Record your weapon properties and your armor's slot cost",
+   "source": "quarto-book/chapters/02-character-creation.qmd:210"
+  },
+  {
+   "claim": "Layer 5's consumer: two-weapon fighting resolves as one Action, so a pairs armament has to satisfy one gate rather than producing two independent attacks.",
+   "quote_or_excerpt": "When you wield a weapon in each hand, you may attack with both as a single Action.",
+   "source": "quarto-book/chapters/13-combat.qmd:274"
+  },
+  {
+   "claim": "The card that must be re-keyed: Basic Thrown is gated weapon:ranged today, so the Thrown tag has to take this gate for the property to exist in the card layer.",
+   "quote_or_excerpt": "*Disciplines:* None \u00b7 *Kit:* weapon:ranged \u00b7 *Action:* Action \u00b7 *Range:* 20/60 ft \u00b7 *Keywords:* Damage",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:192"
+  },
+  {
+   "claim": "Layer 4's edit site: one line holds the whole closed vocabulary, so adding tags is a one-line edit and the satisfaction rule it lacks must be authored beside it.",
+   "quote_or_excerpt": "`weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`",
+   "source": "quarto-book/chapters/15-equipment.qmd:25"
+  },
+  {
+   "claim": "The double price: the Ranged option costs 1 and a Longbow is priced here while also carrying Two-Handed at 2 points.",
+   "quote_or_excerpt": "[Ranged weapon], [1],",
+   "source": "quarto-book/chapters/15-equipment.qmd:38"
+  },
+  {
+   "claim": "The same double price from the other side, at 2 points.",
+   "quote_or_excerpt": "[Two-handed weapon], [2],",
+   "source": "quarto-book/chapters/15-equipment.qmd:40"
+  },
+  {
+   "claim": "The pair a property-free pairs option would wrongly legalize: the Longsword carries Versatile, not Light, so two Longswords would buy an off-hand attack the two-weapon rule forbids.",
+   "quote_or_excerpt": "[Longsword], [2 Blades], [Versatile], [],",
+   "source": "quarto-book/chapters/15-equipment.qmd:175"
+  },
+  {
+   "claim": "Blast radius derived from the census: seven layers, 6 chapter files for the property promotion (15, 21, 22, 09, 08, 02) and 3 for the Armament change (15, 21, 05), with 15 and 21 in both sets, so 7 of the 25 chapter files.",
+   "quote_or_excerpt": "Property-name hits by file: 15-equipment 35 | 22-reference-sheets 23 | 21-glossary 14 | 02-character-creation 7 | 16-armor-shields 6 | 20-bestiary 4 | 09-talents 4 | 13-combat 3 | 11-arcane 3 | 08-disciplines 2 | 19-gm-guidance 2 | 12-divine 2 | 01-introduction 1 | 04-ancestries 1 = 107 hits, 84 distinct lines, 14 files.\nLayer 1 definition: 15:213-219 (7 bullets). Layer 2 glossary: 21:125-137 (7 entries). Layer 3 tables: 10 of 17 rows in ch15 carry a property cell, and the ch22 copy repeats the same 10 rows with byte-identical property strings, 19 names per file, 38 tokens across the two.\nLayer 4 vocabulary: 15:25 (8 tags, 1 of them a property). Layer 5 cards: 09:174 and 09:192. Layer 6 prose: 15:200 | 08:234 | 08:236 | 21:47 | 02:210 | 13:274 | 13:290 | 13:292 | 15:378 | 01:154. Layer 7 kit: 15:36-40 | 15:65-70 | 21:75 | nine class kit lines in 05.\nHomonyms: Light is the armour weight class in 16 (6 hits) and appears in the spell lists of 11 (3) and 12 (2) plus 19 (1) and 20 (1); Versatile is the Human ancestry trait, printed 7 times in 02 and once in 04, with further disambiguating hits in 21. 21 hits of the two names are not the weapon property.",
+   "source": "reasoning"
+  },
+  {
+   "claim": "The property strings are byte-identical across the two weapon tables, which is what makes the promotion a lookup instead of a rewrite; the Range columns of the same rows already disagree, which is the drift the lookup prevents.",
+   "quote_or_excerpt": "ch15 rows with a property cell: Dagger, Shortsword, Longsword, Handaxe, Spear, Halberd, Throwing Dagger, Shortbow, Longbow, Crossbow = 10\nch22 rows with a property cell: the same 10, same order, identical strings\nstrings: 'Finesse, Light, Thrown' | 'Finesse, Light' | 'Versatile' | 'Light, Thrown' | 'Reach, Thrown, Two-Handed' | 'Reach, Two-Handed' | 'Finesse, Thrown' | 'Two-Handed' | 'Two-Handed' | 'Loading, Two-Handed' = 19 names per file, 38 tokens\nRange drift on the same rows: 15:173 '20/60 ft (thrown)' against 22:373 '20/60 ft', and the ch22 table prints Melee on melee rows where the ch15 table is blank.\nDerived tag syntax: weapon:finesse, weapon:reach, weapon:thrown, weapon:light, weapon:loading, weapon:versatile, and weapon:two-hand, which already exists.",
+   "source": "reasoning"
+  },
+  {
+   "claim": "Armament line, priced. The five live options gain two: pairs at 2 and pairs and shield at 3, both derived by the addition that the one compound option already uses.",
+   "quote_or_excerpt": "Live: Unarmed 0 | One-handed weapon 1 | Ranged weapon 1 | One-handed weapon and shield 2 | Two-handed weapon 2\nDerivation: the only compound cell, 15:39, prices one-handed plus shield at 2 while one-handed alone is 1 (15:37), so a shield is worth 1 by subtraction.\nPairs = 1 + 1 = 2. Pairs and shield = 1 + 1 + 1 = 3.\nProposed: Unarmed 0 | One-handed weapon 1 | Ranged weapon 1 | One-handed weapon and shield 2 | Two-handed weapon 2 | Pairs, two one-handed weapons, both Light 2 | Pairs and shield 3\nBudget checks: 05:104 = calling 1 + leather 1 + pairs 2 = 4 of 6. 05:340 = calling 1 + leather 1 + pairs and shield 3 = 5 of 6, 1 left for packs. 05:59 = calling 1 + chain mail 3 + one-handed and shield 2 = 6 of 6, unchanged.",
+   "source": "reasoning"
+  }
+ ],
+ "id": "f-037",
+ "role": "researcher",
+ "round": 2,
+ "stance": "support",
+ "topic": "t-04"
+}

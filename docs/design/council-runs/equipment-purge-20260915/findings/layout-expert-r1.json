@@ -1,0 +1,51 @@
+{
+  "id": "f-007",
+  "round": 1,
+  "role": "layout-expert",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "Measured in source, deleting the named tables is not a structure-neutral edit: the chapter files keep their headings and lose the content under them, so the purge as drafted leaves three render defects and one misattribution. Chapter 16 in 123 lines carries seven explicit page breaks, and the armour table is bracketed exactly by the breaks at lines 29 and 54 with one sentence below it, so removing the table produces a forced full page holding a section heading and a single line of prose. In chapter 15 the Armor section is 26 lines of which 17 are its table; what survives is four non-empty lines, two of them forwarding crossref stubs that point at chapter 16 rather than stating anything. Adventuring Gear is 58 lines of which 47 are its table; what survives is six non-empty lines and no subsection to absorb the freed space, so the heading outlives the gear it names. Neither stub section owns a subsection, so the page mass cannot redistribute downward. The Weapons section does keep substance, but its seven property bullets convey each property's scope only through parenthetical lists of table rows, so eight residual lines index labels that will no longer exist. Against that, the width and break-header surfaces are clean and must not be blamed: all eleven tables in the two chapters sum their column percentages to exactly 100.00, and every table already declares a repeating header row, so no new overflow or split-header defect is introduced by row removal. The repair is therefore structural, not typographic: restate the property bullets to carry scope without naming rows, fold or re-content the two stub sections, delete the ch16 break pair at 29 and 54 with the table, and re-place the chapter 15 breaks at 17, 221 and 264. One further render fact: the chapter 15 Armor table is the only one of the ten tables there missing the unnumbered setting, so it presently renders with an auto caption the other nine lack; that defect is retired by the table's removal. Caveat: these are source-level measurements, and the actual rendered page count after purge should be confirmed on a clean build.",
+  "evidence": [
+    {
+      "source": "reasoning",
+      "claim": "The five named tables in chapter 15 account for just under a third of the chapter's lines and a third of its bytes, so the freed page mass is large and must be redistributed deliberately.",
+      "quote_or_excerpt": "named-table lines 126 of 433 = 29.1%; bytes 10369 of 32084 = 32.3%; plus 15 #figure wrapper lines = 141 lines (32.6%)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Chapter 16's armour table is bracketed on both sides by explicit page breaks, and the bracketed segment holds almost nothing else, so the break pair is orphaned by removal and renders a near-empty page.",
+      "quote_or_excerpt": "ch16 pagebreaks at lines [11, 17, 29, 54, 76, 90, 110] (7 breaks / 123 lines); == Armor Table spans 31-55; table occupies 33-50 (18 lines = 78% of the segment)"
+    },
+    {
+      "source": "sources/16-armor-shields",
+      "claim": "Once the armour table is gone the segment between the breaks retains exactly one body sentence, and the section heading survives above it, which is a heading with no content under it.",
+      "quote_or_excerpt": "What you wear is worth its points in DR: light armor grants 1, medium 2, heavy 3."
+    },
+    {
+      "source": "sources/15-equipment",
+      "claim": "Two chapter-level sections reduce to a heading plus a sentence plus pointers elsewhere, with no subsection available to take up the space.",
+      "quote_or_excerpt": "Full table with Stealth column: see @sec-chapter-armor-shields"
+    },
+    {
+      "source": "sources/15-equipment",
+      "claim": "The seven surviving property bullets establish each property's scope by listing the named rows it applies to, so the load-bearing survivors are formatted as an index into the deleted table and every one of them needs re-authoring, not just relocation.",
+      "quote_or_excerpt": "requires a Maneuver to reload between shots (Crossbow only)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Column budgets are exact and no table overflows, while the weapons table's two content columns are a quarter empty, so the visible page waste sits in the columns that carry the surviving mechanics.",
+      "quote_or_excerpt": "all 11 table column percentage sums = 100.00; Weapons table empty cells 17/68 = 25% (Properties empty in 7/17 rows, Range in 10/17); chapter-wide 26/481 = 5%"
+    },
+    {
+      "source": "sources/15-equipment",
+      "claim": "The chapter's Armor table omits the unnumbered setting that the other nine tables in the chapter and the chapter 16 table all carry, so it alone renders with an automatic caption.",
+      "quote_or_excerpt": "kind: table, outlined: false, )"
+    },
+    {
+      "source": "sources/16-armor-shields",
+      "claim": "Named armour is also referenced by name outside the table in the worked example and in the donning list, which are the orphaned labels that survive a table-only purge.",
+      "quote_or_excerpt": "Light armor (Padded, Leather, Studded Leather): 1 minute. Medium armor (Chain Shirt, Breastplate): 5 minutes."
+    }
+  ],
+  "confidence": 0.78
+}

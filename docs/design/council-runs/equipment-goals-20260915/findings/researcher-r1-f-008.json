@@ -1,0 +1,51 @@
+{
+ "argument": "Development richness is lopsided, and the weapon channel is closed rather than thin. The card layer can see only eight tags, five of which concern weapons or shields, and the book spends fifty-two gates on the three focus tags against ten on weapons and shields; no gate names an individual weapon anywhere. More sharply, a whole damage-type subsystem exists and is unreachable from a hero's sheet: the combat chapter defines the physical types, doubles damage against a vulnerable creature, and Vulnerability is a glossary term, and the bestiary types its own attacks and prints vulnerabilities, yet the equipment chapter contains no occurrence at all of slashing, piercing or bludgeoning and the weapons table has four columns with no damage-type column. A player's weapon therefore cannot engage resistance or vulnerability in any way; the channel is live for monsters and dead for heroes. Guard against a homonym: Piercing in the card keyword lists is an armour-penetration effect, not a damage type, so those hits must not be counted as evidence of a typing system. If weapon identity is to become a development axis, the typing gap is the cheapest unexploited opening, because the receiving machinery is already written and already used.",
+ "confidence": 0.88,
+ "evidence": [
+  {
+   "claim": "The weapons table has four columns - Weapon, Disciplines Required, Properties, Range - and no damage-type column. Same shape at 22-reference-sheets.qmd:370.",
+   "quote_or_excerpt": "table.header([Weapon], [Disciplines Required], [Properties], [Range],),",
+   "source": "quarto-book/chapters/15-equipment.qmd:171"
+  },
+  {
+   "claim": "SCOPE-LAW instrumentation: the words slashing, piercing and bludgeoning appear nowhere in the equipment chapter, while the bestiary carries 29 hits.",
+   "quote_or_excerpt": "$ grep -ricE 'slashing|piercing|bludgeoning' *.qmd | grep -v ':0$'\n09-talents-abilities.qmd:4\n11-arcane-spells.qmd:4\n12-divine-spells.qmd:3\n13-combat.qmd:3\n16-armor-shields.qmd:1\n17-magic-items.qmd:2\n19-gm-guidance.qmd:3\n20-bestiary.qmd:29\n21-glossary.qmd:1\n22-reference-sheets.qmd:1\n(15-equipment.qmd absent = zero occurrences)",
+   "source": "reasoning"
+  },
+  {
+   "claim": "The physical damage types are defined in the combat chapter - the receiving system exists.",
+   "quote_or_excerpt": "*Physical:* Slashing, Piercing, Bludgeoning. These are the bread and butter of combat. Swords slash, arrows pierce, hammers bludgeon. Most armor protects against all three equally, but some creatures care deeply about the distinction. Skeletons laugh at piercing arrows but crumble under bludgeoning maces.",
+   "source": "quarto-book/chapters/13-combat.qmd:148"
+  },
+  {
+   "claim": "Vulnerability is applied to weapon damage in the rules text - a longsword is the example.",
+   "quote_or_excerpt": "Resistances and vulnerabilities modify damage of specific types. A creature resistant to Fire takes half damage from your Ember Lance (round down). A creature vulnerable to Slashing takes double from your longsword. The DA will tell you when it matters. Part of the game's fun is discovering, through play, that the shambling horror in the swamp stops regenerating when you hit it with fire.",
+   "source": "quarto-book/chapters/13-combat.qmd:154"
+  },
+  {
+   "claim": "Vulnerability is a defined glossary term, i.e. live rules machinery.",
+   "quote_or_excerpt": "*Vulnerability:* Doubles damage of a specific type. A creature vulnerable to Slashing takes double damage from slashing attacks.",
+   "source": "quarto-book/chapters/21-glossary.qmd:205"
+  },
+  {
+   "claim": "Monster attacks ARE typed, so the subsystem is used in the book - just not by hero weapons.",
+   "quote_or_excerpt": "*Scimitar:* 4/6/8 slashing.",
+   "source": "quarto-book/chapters/20-bestiary.qmd:156"
+  },
+  {
+   "claim": "A printed vulnerability in a stat block, unanswerable by a hero weapon that carries no type.",
+   "quote_or_excerpt": "*Vulnerable: Bludgeoning (takes double bludgeoning damage).*",
+   "source": "quarto-book/chapters/20-bestiary.qmd:255"
+  },
+  {
+   "claim": "The card layer's entire weapon vocabulary is five tag strings; no card can name a weapon.",
+   "quote_or_excerpt": "The tags a card can require are `weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`, `shield`, `focus:arcane`, `focus:holy` and `focus:primal`. A card that requires none of them carries no Kit field at all, and most cards do not. Only where the work itself needs the tool does the card ask for it.",
+   "source": "quarto-book/chapters/15-equipment.qmd:25"
+  }
+ ],
+ "id": "f-008",
+ "role": "researcher",
+ "round": 1,
+ "stance": "refute",
+ "topic": "t-01"
+}

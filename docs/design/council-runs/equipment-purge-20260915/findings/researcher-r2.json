@@ -1,0 +1,91 @@
+{
+  "id": "f-010",
+  "round": 2,
+  "role": "researcher",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "This finding supplies the missing magnitude for the open t-02 refute: the size of the migration, measured with greps the orchestrator can re-run from the sources directory. Read the counts as rewording sites (lines) and mentions (occurrences on those lines). Item one, the seven weapon properties, is BIGGER than the round-1 shape implied. 38 lines across four files need rewording, carrying 60 property mentions — not two definition lists of seven items each. Breakdown: 7 definition bullets in 15-equipment (`grep -A9 '^\\*Properties:\\*' 15-equipment | grep -c '^- \\*'`); 7 headwords in 21-glossary (`grep -cE 'weapon propert' 21-glossary`), worded independently of the chapter list and therefore not a reprint that can be left alone; 10 of the 17 weapon rows in 15-equipment carry property cells, totalling 19 mentions (`grep -A20 'table.header(\\[Weapon\\]' 15-equipment | grep -oE '\\b(Finesse|Versatile|Reach|Thrown|Light|Loading|Two-Handed)\\b' | wc -l`); the 22-reference-sheets reprint carries the same 10 rows and 19 mentions; and three prose sites state a property as a rule about how damage resolves (15-equipment line 200, 08-disciplines lines 230 and 232). The propagation cost a per-definition budget cannot see is the 38 property mentions sitting inside the two table columns: rewording one property definition touches 20 weapon rows in two files. Item two, the weapon lists inside loadouts, is SMALLER than the round-1 reading. 18 lines and 24 weapon tokens in total: 9 class kit lines carrying 12 weapon tokens plus 2 shield and 6 armor-name tokens in 05-classes, and 9 equipment lines carrying 12 weapon tokens plus 2 shield tokens in 02-character-creation. The weapon subset is 24 tokens, not 43 listed entries; the remaining 31 entries are armor, tools, robes, focuses and packs and need no property rewording, so the t-01 argument built on per-item rewrite cost is roughly a third the size it looks. Item three, downstream consumers, is LARGER at the margins. In 20-bestiary, 15 attack lines are named for a catalog weapon and 2 Multiattack rules also name one, so the weapon-named rule count is 17 rather than 15, while 18 lines name a weapon or shield anywhere. In 17-magic-items, 6 item Type fields are typed on a catalog weapon or shield (Longsword twice, Warhammer, Dagger, Longbow, Shield) and a further 6 body lines name the dagger for Shadow Thorn. In 21-glossary, 10 named-item lines include the 6 property headwords that name their item lists, so those lines do double duty. In 22-reference-sheets, 22 weapon/shield lines plus 8 armor rows. Distinct lines across the three items: 119. Finally, the noise floor: grepping the property names raw returns 88 case-sensitive hits across the nine files, of which 28 are a different concept wearing the same word (7 Human-ancestry Versatile tokens in character creation, 6 armor-class Light tokens in the armor chapter, 5 armor-class Light tokens in the equipment chapter, 3 monster attack ranges plus 1 Light Sensitivity ability in the bestiary, 3 armor-class Light tokens and 1 trait mention in the glossary, 3 armor-class Light tokens in the reference sheet). True property mentions: 60. Any budget from a raw grep over-counts by about a third. Net verdict: larger than round 1 implied for the properties and the downstream references, smaller for the class kits.",
+  "evidence": [
+    {
+      "source": "sources/15-equipment:213-219",
+      "claim": "The chapter's property definitions are 7 bullets, and each bullet names the specific items that carry the property, so deleting the item names dangles the definition itself. 8 property mentions sit in these 7 lines.",
+      "quote_or_excerpt": "- *Versatile*, can be wielded two-handed (Longsword only)\n- *Finesse*, use Agility instead of Brawn for attack and damage (Dagger, Shortsword, Throwing Dagger)\n- *Reach*, can attack targets 10 ft away (Spear, Halberd)\n- *Thrown*, can be thrown (range 20/60 ft: Dagger, Handaxe, Spear, Throwing Dagger)\n- *Light*, can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe)\n- *Loading*, requires a Maneuver to reload between shots (Crossbow only)\n- *Two-Handed*, must be held in both hands and takes 2 slots (Spear, Halberd, Shortbow, Longbow, Crossbow). Compare *Versatile*, which *may* be used two-handed)"
+    },
+    {
+      "source": "sources/21-glossary:123-135",
+      "claim": "A second, independently worded set of 7 property definitions lives in the glossary, counted by `grep -cE 'weapon propert' 21-glossary` -> 7. They carry different wording and their own item lists, and the Versatile entry records a name collision with the ancestry trait.",
+      "quote_or_excerpt": "*Finesse:* A weapon property. Use Agility instead of Brawn for attack and damage.\n*Versatile:* A weapon property. Can be wielded one- or two-handed (Longsword only). Not the same as the Human ancestry trait named *Versatile*; see *Trait*."
+    },
+    {
+      "source": "sources/15-equipment:171-189",
+      "claim": "The main weapon table has 17 rows, of which 10 carry a property cell, and the property cells hold 19 property mentions. Command: `grep -A20 'table.header(\\[Weapon\\]' 15-equipment | grep -oE '\\b(Finesse|Versatile|Reach|Thrown|Light|Loading|Two-Handed)\\b' | wc -l` -> 19; the row count with a non-empty property cell is 10.",
+      "quote_or_excerpt": "    [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft (thrown)],\n    [Greatsword], [2 Blades + 1 Heavy Weapon], [], [],\n    [Crossbow], [1 Archery], [Loading, Two-Handed], [20/60 ft],"
+    },
+    {
+      "source": "sources/22-reference-sheets:370-393",
+      "claim": "The reference sheet reprints the same 17-row weapon table with the property cells intact: 10 rows carry properties and the cells hold 19 property mentions, so a property reword touches this lookup surface as well as the chapter.",
+      "quote_or_excerpt": "  [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft],\n  [Throwing Dagger], [1 Blades or 1 Archery], [Finesse, Thrown], [20/60 ft],"
+    },
+    {
+      "source": "sources/08-disciplines:230,232",
+      "claim": "Two prose rules in the Disciplines chapter treat the Finesse property as a fact about how a melee damage row resolves, and they cite the equipment chapter as the home of what each weapon unlocks.",
+      "quote_or_excerpt": "Melee attacks add Brawn to their attack card's damage row (Finesse weapons use Agility instead of Brawn for attack and damage; class features such as the Blade's Swift Blade can extend that substitution to other weapons). Missile weapons and ammunition are flat."
+    },
+    {
+      "source": "sources/15-equipment:200",
+      "claim": "One prose line in the equipment chapter also states the Finesse substitution, giving the property three total prose sites outside the two tables.",
+      "quote_or_excerpt": "Melee attacks add your Brawn to the damage row on your attack ability card; Finesse weapons use Agility instead. Missile and thrown attacks are flat, no attribute added."
+    },
+    {
+      "source": "sources/15-equipment:310",
+      "claim": "One gear-table row invokes the thrown attack mode in its text, a sixth Thrown mention outside the weapon table's four rows and one bullet.",
+      "quote_or_excerpt": "[*Volatile Reagents (alchemist's fire)*], [1], [A vial of unstable chemicals, made to burn. Thrown as an improvised attack, 4 fire damage on hit, and the target gains Burning 2."
+    },
+    {
+      "source": "sources/05-classes",
+      "claim": "9 class kit lines, counted by `grep -c 'Starting Kit' 05-classes`. The weapon tokens on those lines number 12, plus 2 shield tokens and 6 armor-name tokens, counted with the weapon-name alternation piped to `wc -l`. The remaining entries are tools, robes, focuses and packs.",
+      "quote_or_excerpt": "*Starting Kit:* Battleaxe, chain mail, shield, smith's tools. See @sec-chapter-equipment for how kits are built and what your points buy.\n*Starting Kit:* Two daggers, 6 throwing daggers, leather armor, thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1, creates a 10-ft radius of heavy concealment for 1 round; anyone inside is Hidden)."
+    },
+    {
+      "source": "sources/02-character-creation",
+      "claim": "9 equipment lines mirror the class kits, counted by `grep -cE '^\\*Equipment:\\*|^\\*Step 8, Equipment:\\*' 02-character-creation`, carrying 12 weapon tokens and 2 shield tokens. So the loadout weapon surface is 24 tokens across two files, not 43 item entries.",
+      "quote_or_excerpt": "*Step 8, Equipment:* Shortbow, dagger, leather armor, thieves' tools, 20 arrows.\n*Equipment:* Two daggers, throwing daggers (6), leather armor, thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1)."
+    },
+    {
+      "source": "sources/20-bestiary",
+      "claim": "15 attack lines are named for a catalog weapon (`grep -cE '^\\*(Shortsword|Shortbow|Spear|Dagger|Longsword|Longbow|Greataxe|Greatsword|Battleaxe|Handaxe|Mace|Warhammer|Maul|Halberd|Crossbow)[^*]*:\\*' 20-bestiary` -> 15) and 2 Multiattack rules name one too, so the weapon-named rule count is 17. Any line naming a weapon or shield, in any position, is 18.",
+      "quote_or_excerpt": "*Shortsword:* 4/6/8.\n*Longsword:* 5/8/11.\n*Multiattack:* Greataxe twice.\n*Greatsword:* 7/10/14 slashing."
+    },
+    {
+      "source": "sources/17-magic-items",
+      "claim": "6 item Type fields are typed on a catalog weapon or shield, counted by `grep -cE '^\\*Rarity:\\*.*\\*Type:\\* (Longsword|Warhammer|Dagger|Longbow|Shortsword|Greatsword|Shortbow|Spear|Greataxe|Battleaxe|Handaxe|Mace|Maul|Halberd|Crossbow|Shield)\\b' 17-magic-items` -> 6: Longsword twice, Warhammer, Dagger, Longbow, Shield. A further 6 lines name the dagger for Shadow Thorn.",
+      "quote_or_excerpt": "*Rarity:* Rare · *Attunement:* Requires Attunement · *Type:* Longsword · *Disciplines:* 1 Fire\n*Rarity:* Very Rare · *Attunement:* Requires Attunement · *Type:* Warhammer · *Disciplines:* 1 Earth"
+    },
+    {
+      "source": "sources/17-magic-items:306-319",
+      "claim": "Shadow Thorn's entry names the dagger as its base object across 6 body lines, so a weapon-row purge strands not just the Type field but the item's own description and three damage-column outcomes.",
+      "quote_or_excerpt": "*Passive:* Attacks with the dagger gain +1 damage tier and ignore 1 point of DR from non-magical armor.\n*Granted Maneuver, Dagger Step (once per encounter):* You throw the dagger at a shadow within 60 ft and step through."
+    },
+    {
+      "source": "sources/21-glossary",
+      "claim": "10 named-item lines in the glossary, counted with the weapon/shield alternation. 6 of them are the property headwords, so the glossary's property definitions and its named-item references are the same lines doing double duty.",
+      "quote_or_excerpt": "*Armor Weight Class:* Armor comes in three weight classes: Light (Padded, Leather, Studded Leather), Medium (Chain Shirt, Breastplate), and Heavy (Half Plate, Chain Mail, Plate). Light suits up in 1 minute, Medium in 5 minutes, Heavy in 10 minutes."
+    },
+    {
+      "source": "sources/22-reference-sheets",
+      "claim": "The reference sheet's lookup surface holds 22 weapon/shield lines and 8 named-armor rows, so it indexes the catalog twice over: once as a weapon table, once as an armor table with weight classes.",
+      "quote_or_excerpt": "  [Buckler], [1], [Parry, Shield Block; keeps your hand free],\n  [Tower Shield], [2], [Parry, Shield Block; half cover; -5 ft speed],\n  [Padded], [Light], [1], [2],\n  [Plate], [Heavy], [3], [4],"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Noise floor. A raw case-sensitive grep for the seven property names over the nine sources returns 88 tokens, but 28 are a different concept using the same word, leaving 60 true property mentions. Worked computation: 02-character-creation +7 (all Human-ancestry trait, e.g. line 64); 16-armor-shields +6 (all armor weight class); 15-equipment +5 (armor weight class at lines 42, 79, 232, 233, 234); 20-bestiary +4 (3 monster attack ranges at 182, 503, 603 plus 1 Light Sensitivity ability at 597); 21-glossary +3 (trait at 97, armor weight class twice at 117); 22-reference-sheets +3 (armor weight class rows at 346, 347, 348). 7+6+5+4+3+3 = 28; 88-28 = 60.",
+      "quote_or_excerpt": "88 tokens total; 28 non-property (trait/weight-class/attack-range homonyms); 60 true property mentions = 68.2% precision, i.e. a raw grep over-counts by 31.8%."
+    },
+    {
+      "source": "reasoning",
+      "claim": "Size verdict against the round-1 shape. The property item measures 38 lines where the round-1 framing of seven properties in two copies implies 14 lines, because the two table property columns add 38 mentions over 20 rows that a per-definition budget does not count. The loadout item measures 24 weapon tokens where the round-1 framing of 43 listed entries implies 43, because 31 entries are armor, tools, robes, focuses or packs. The downstream item measures 17 bestiary weapon-named rules, 6 magic-item Type fields plus 6 body lines, 10 glossary lines and 30 reference-sheet lines. Distinct lines across the three items: 38 + 18 + 69 = 125 line-entries, 119 after de-duplicating the 6 glossary lines counted in both the property item and the named-item item.",
+      "quote_or_excerpt": "properties 38 sites / 60 mentions; loadouts 18 lines / 24 weapon tokens; downstream 17+12+10+30 = 69 line-entries; 38+18+69 = 125 line-entries; distinct union 119 after removing the 6 glossary lines counted twice."
+    }
+  ],
+  "confidence": 0.8
+}

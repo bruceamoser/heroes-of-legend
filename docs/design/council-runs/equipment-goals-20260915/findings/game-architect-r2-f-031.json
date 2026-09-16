@@ -1,0 +1,111 @@
+{
+ "argument": "CLAIM: development choice comes from the card pool, so the weapon's job is to be a cheap, legible route into that pool, and today most weapon Disciplines are too shallow to be a route while two Disciplines carry no cards at all.\n\nARITHMETIC 1, the economy that makes a route worthwhile. A career to level 10 spends 32 DP (18:63) and gains exactly 3 Discipline ranks, at levels 3, 6 and 9. Starting ranks are always rank 1 (08:100). Rank cost is tiered by Discipline: the five melee weapon Disciplines cost 1/2/4, Archery costs 2/4/8, Animal 3/6/12, and the twelve others 4/8/16 (05:67-79). The cumulative cost of reaching rank r is 1/3/7 for the cheap tier and 2/6/14 for Archery. Cards cost 2/4/8 (08:145-148). So a complete weapon identity, meaning rank 3 plus a Novice, an Adept and a Master card, costs 7+2+4+8 = 21 of 32 DP for Blades, Axes, Polearms, Heavy Weapon or Unarmed, and 14+14 = 28 of 32 for Archery. Archery, not the melee group, is the expensive weapon, and the melee ladder is already priced as the cheapest entry in the game (05:72), which is the shape a route should have.\n\nARITHMETIC 2, the depth ledger, recomputed this round and shown as rank-1/rank-2/rank-3 attributions with pool = r1+r2+r3. Base A is the 177 discipline-gated cards in 09/11/12. Base B adds the 85 gated class-ability rows in 05-classes.qmd, 262 gated cards in total; a further 45 header cards carry no discipline requirement.\n\nFire 2/2/0 pool 4 (base B 8/2/0 pool 10)\nEarth 2/5/0 pool 7 (2/5/0 pool 7)\nWind 2/4/1 pool 7 (2/4/1 pool 7)\nWater 1/2/0 pool 3 (1/2/0 pool 3)\nBlades 5/5/1 pool 11 (12/8/1 pool 21)\nAxes 0/2/0 pool 2 (0/2/0 pool 2)\nPolearms 1/2/1 pool 4 (2/2/1 pool 5)\nArchery 2/2/1 pool 5 (4/2/1 pool 7)\nHeavy Weapon 0/5/1 pool 6 (1/5/1 pool 7)\nUnarmed 2/1/1 pool 4 (4/1/1 pool 6)\nProtection 4/5/0 pool 9 (16/10/0 pool 26)\nArmor 3/1/0 pool 4 (7/3/0 pool 10)\nAnimal 1/0/0 pool 1 (3/1/0 pool 4)\nPlants 1/5/0 pool 6 (4/5/0 pool 9)\nEnergy 11/8/2 pool 21 (22/14/3 pool 39)\nLife 1/7/0 pool 8 (4/7/0 pool 11)\nReligion 4/5/3 pool 12 (7/5/3 pool 15)\nMind 9/4/2 pool 15 (18/5/2 pool 25)\nSummon 0/0/0 pool 0 (0/0/0 pool 0)\nFate 0/0/0 pool 0 (0/0/0 pool 0)\nStealth 3/0/0 pool 3 (11/2/0 pool 13)\nSleight 2/0/0 pool 2 (9/0/0 pool 9)\nLore 1/0/0 pool 1 (5/2/0 pool 7)\nTactics 13/2/0 pool 15 (20/6/0 pool 26)\n\nTwo reconciliation notes for the editor. First, the charter's own list, Axes 2, Polearms 4, Water 3, Animal 4, Blades 10, Protection 26, is measured on two different bases: Axes, Polearms and Water are base A figures, Animal, Protection and Sleight are base B figures, and Blades is 11 on base A and 21 on base B, never 10. The ledger above is the reproducible version. Second, Summon and Fate are zero on both bases: not a shallow route, no route at all, while both are listed as core Disciplines (08:54-55) and both appear as a grouped requirement in the Esoteric group (22:234).\n\nARITHMETIC 3, the coverage standard as a bill. The owner's rule has three parts and each is countable. (a) Entry: rank 1 is what every starting grant hands out (08:100), so a Discipline with no rank-1 card is a locked door. Four fail on base A: Axes 0, Heavy Weapon 0, Summon 0, Fate 0. (b) Depth: every Discipline should have a rank 2. Six fail on base A: Animal, Lore, Sleight, Stealth, Summon, Fate. (c) Cap: a missing rank 3 is acceptable only if the Discipline is used as a single-rank requirement in many cards. Price it: a Master card costs 8 DP, or four Novice cards, so many is set at four rank-1 cards. On base A, 15 of 24 Disciplines have no rank-3 card; 2 of those already clear the bar on breadth alone, Protection with 4 rank-1 cards and Tactics with 13, and 13 do not: Fire, Earth, Water, Axes, Armor, Animal, Plants, Life, Summon, Fate, Stealth, Sleight, Lore. Each of the 13 then needs either a rank-3 card or one more rank-1 card, and the cheapest correct fix is 13 rank-1 cards, one per Discipline. Base A bill: 4 entry + 6 rank-2 + 13 breadth = 23 cards, which lifts every Discipline clear of all three rules. On base B the same rules cost 12 cards (3 entry: Axes, Summon, Fate; 3 rank-2: Summon, Fate, Sleight; 6 breadth: Earth, Water, Axes, Animal, Summon, Fate), so counting class abilities as cards saves 11 cards of the bill. That 23 against 12 is the arithmetic value of the existing class-ability spine.\n\nARITHMETIC 4, which weapon routes are too shallow to carry identity. Six weapon Disciplines, pools on base A: Blades 11, Heavy Weapon 6, Archery 5, Polearms 4, Unarmed 4, Axes 2. Apply a route floor of two cards at each rung, that is a pool of 6 as the point where a ladder can be climbed at all: Blades 0 more, Heavy Weapon 0, Archery 1, Unarmed 2, Polearms 2, Axes 4, a bill of 9 cards. Apply instead parity with the Disciplines that do carry a rank 3, whose pools are 4, 4, 5, 6, 7, 11, 12, 15 and 21 with a median of 7 (Polearms 4, Unarmed 4, Archery 5, Heavy Weapon 6, Wind 7, Blades 11, Religion 12, Mind 15, Energy 21): Heavy Weapon 1, Archery 2, Unarmed 3, Polearms 3, Axes 5, Blades 0, a bill of 14 cards. Three defects make the shallow routes fail now rather than later. First, the cheapest recipes point at the shallowest pools: 1 Blades has 5 entries and 1 Archery has 2, while 1 Axes has none, so the Handaxe (15:177) and the Mace (15:180) are keys that open nothing until the hero has spent one of only three rank picks in a career. Second, every rank-3 weapon card is also a multi-Discipline capstone: Cyclone 3 Blades; Sunshot 3 Archery and 1 Tactics and 1 Stealth; Harvest the Fear 3 Polearms and 1 Tactics and 1 Mind; Groundbreaker 3 Heavy Weapon and 1 Tactics and 1 Unarmed; Taken Alive 3 Unarmed and 1 Tactics and 1 Armor (09:236, 09:533, 09:542, 09:551, 09:560). Each costs five ranks in total and four of the five route through Tactics, so the weapon ladder terminates outside itself; and because rank 3 requires the picks at levels 3 and 6, none of them is legal before level 6. Axes has no cap card at all, so its ladder stops at rank 2. Third, a route that is identical for two weapons is not an identity: the tree is 17 weapons on 12 distinct recipes (15:171), with Dagger and Shortsword both 1 Blades, Spear and Halberd both 1 Polearms, and the bows all 1 Archery (15:173-186). The space is free: three ranks across six weapon Disciplines offers 4^6 minus 1, that is 4095 distinct non-empty recipes, and the tree uses 12.\n\nARITHMETIC 5, the total bill. Union on base A: 23 coverage cards plus 14 parity cards, minus 1 shared card, since the Axes entry card is also one of its five, is 36 cards. The minimum reading, coverage plus the floor-of-6 rule, is 23 plus 9 minus 1, that is 31 cards. The bottom of the ledger is Summon and Fate: zero cards at any rank, in any chapter, on either base. Each needs an entry card, a rank-2 card, and either a cap or one more rank-1 card for breadth, three cards each and six for the pair, to stop being words in the Discipline table. That is the owner's standard applied to the whole spine: every Discipline an entry, every Discipline a rank 2, and breadth or a cap to finish, with the weapon Disciplines funded to 6 or 14 cards on the way.",
+ "confidence": 0.66,
+ "evidence": [
+  {
+   "claim": "The price and legality table that sets the card economy a route must fit inside.",
+   "quote_or_excerpt": "table.header([Tier], [Card DP Cost], [Level Gate],)",
+   "source": "quarto-book/chapters/08-disciplines.qmd:145"
+  },
+  {
+   "claim": "A Master card costs 8 DP, the unit used to price the breadth offset.",
+   "quote_or_excerpt": "[*Master*], [8 DP], [Level 7],",
+   "source": "quarto-book/chapters/08-disciplines.qmd:148"
+  },
+  {
+   "claim": "The whole career budget: 32 DP and three rank picks.",
+   "quote_or_excerpt": "Total DP by level 10: 32. Total Discipline ranks gained: 3 (levels 3, 6 and 9).",
+   "source": "quarto-book/chapters/18-advancement.qmd:63"
+  },
+  {
+   "claim": "Rank cost is tiered by Discipline, so entry price is part of identity.",
+   "quote_or_excerpt": "table.header([Discipline], [Cost], [Discipline], [Cost]),",
+   "source": "quarto-book/chapters/05-classes.qmd:67"
+  },
+  {
+   "claim": "The melee weapon ladder is the cheapest tier at 1/2/4, against 4/8/16 for most others.",
+   "quote_or_excerpt": "[Blades], [1/2/4], [Energy], [4/8/16],",
+   "source": "quarto-book/chapters/05-classes.qmd:72"
+  },
+  {
+   "claim": "Archery costs 2/4/8, so the ranged weapon route is the expensive one.",
+   "quote_or_excerpt": "[Archery], [2/4/8], [Mind], [4/8/16],",
+   "source": "quarto-book/chapters/05-classes.qmd:75"
+  },
+  {
+   "claim": "Entry rung is rank 1, so a Discipline with no rank-1 card cannot be entered.",
+   "quote_or_excerpt": "Starting Disciplines from ancestry, culture, and class are always rank 1.",
+   "source": "quarto-book/chapters/08-disciplines.qmd:100"
+  },
+  {
+   "claim": "The weapon tree is already written as Discipline recipes, the basis for reading a weapon as a route.",
+   "quote_or_excerpt": "table.header([Weapon], [Disciplines Required], [Properties], [Range],)",
+   "source": "quarto-book/chapters/15-equipment.qmd:171"
+  },
+  {
+   "claim": "Dagger: 1 Blades.",
+   "quote_or_excerpt": "[Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft (thrown)],",
+   "source": "quarto-book/chapters/15-equipment.qmd:173"
+  },
+  {
+   "claim": "Shortsword carries the identical recipe as the Dagger, so the recipe alone does not distinguish them.",
+   "quote_or_excerpt": "[Shortsword], [1 Blades], [Finesse, Light], [],",
+   "source": "quarto-book/chapters/15-equipment.qmd:174"
+  },
+  {
+   "claim": "The Handaxe's 1 Axes points at a pool that contains no rank-1 Axes card, a key that opens nothing.",
+   "quote_or_excerpt": "[Handaxe], [1 Axes], [Light, Thrown], [20/60 ft (thrown)],",
+   "source": "quarto-book/chapters/15-equipment.qmd:177"
+  },
+  {
+   "claim": "The Mace's 1 Heavy Weapon points at a pool with no rank-1 card on base A.",
+   "quote_or_excerpt": "[Mace], [1 Heavy Weapon], [], [],",
+   "source": "quarto-book/chapters/15-equipment.qmd:180"
+  },
+  {
+   "claim": "The Maul is the only 3 Heavy Weapon recipe, so the deepest Heavy Weapon route buys exactly one printed card.",
+   "quote_or_excerpt": "[Maul], [3 Heavy Weapon], [], [],",
+   "source": "quarto-book/chapters/15-equipment.qmd:182"
+  },
+  {
+   "claim": "The book already separates holding the object from owning the cards, which is what a route means.",
+   "quote_or_excerpt": "wielding a kit weapon does not grant the maneuvers that require them.",
+   "source": "quarto-book/chapters/15-equipment.qmd:196"
+  },
+  {
+   "claim": "Fate is a core Discipline with a stated identity, and it carries zero cards in the entire spine.",
+   "quote_or_excerpt": "Luck, chance, destiny, oaths kept and broken, the turning of a moment",
+   "source": "quarto-book/chapters/08-disciplines.qmd:55"
+  },
+  {
+   "claim": "Summon and Fate appear only as a grouped requirement, never as a card's own Discipline.",
+   "quote_or_excerpt": "[*Esoteric*], [Mind, Summon, Fate],",
+   "source": "quarto-book/chapters/22-reference-sheets.qmd:234"
+  },
+  {
+   "claim": "Animal's single base-A card: a whole Discipline carried by one divine spell.",
+   "quote_or_excerpt": "*Disciplines:* 1 Animal",
+   "source": "quarto-book/chapters/12-divine-spells.qmd:308"
+  },
+  {
+   "claim": "Groundbreaker: the deepest Heavy Weapon recipe and a multi-Discipline capstone.",
+   "quote_or_excerpt": "*Disciplines:* 3 Heavy Weapon \u00b7 Tactics",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:551"
+  },
+  {
+   "claim": "Taken Alive: the deepest Unarmed recipe, again routed through Tactics.",
+   "quote_or_excerpt": "*Disciplines:* 3 Unarmed \u00b7 Tactics",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:560"
+  },
+  {
+   "claim": "The class chapter states the law directly: prerequisites plus level are the real gate.",
+   "quote_or_excerpt": "Their real gate is Discipline prerequisites and level (Adept at 3, Master at 7).",
+   "source": "quarto-book/chapters/05-classes.qmd:526"
+  }
+ ],
+ "id": "f-031",
+ "role": "game-architect",
+ "round": 2,
+ "stance": "support",
+ "topic": "t-04"
+}

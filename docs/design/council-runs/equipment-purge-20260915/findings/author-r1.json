@@ -1,0 +1,56 @@
+{
+ "id": "f-002",
+ "round": 1,
+ "role": "author",
+ "topic": "t-01",
+ "stance": "refute",
+ "argument": "The category kit does not express everything the named catalog expressed. Armament is a single select of five options and only one of them carries a shield, so a build holding two weapons has no row to sit on; Covering, Focus and Calling cannot hold a weapon either, and unspent points convert only into packs. That would be academic if the book's own builds stayed single-weapon, but they do not. Four of the nine class starting kits issue a second weapon: Blade and Shadow pair blades, Odd pairs a bow with a dagger, and Leader carries a one-handed weapon, a two-handed weapon and a shield at once. The character-creation exemplars reuse those exact lists with no kit-point accounting at all. The loss is not cosmetic, because the off-hand rules already assume a second weapon in the hero's hands: the Light property exists to enable off-hand fighting, and the Buckler is described as freeing the hand for another weapon. The kit's own ranged category is likewise silent on distance, which only the named rows ever assign. So purging the catalog leaves either the class kits and exemplars wrong, or the Armament line incomplete, and the minimal edit is to add a second-weapon option (or state plainly that a carried second weapon is free fiction) rather than hand-editing nine kits. Refute: something must change, and it is the Armament line, not the chapter's voice, which reads as one book throughout.",
+ "evidence": [
+  {
+   "source": "15-equipment",
+   "claim": "The kit is defined as one choice per line, and the Armament options each price a single weapon, with the shield always bundled to a one-handed weapon and never offered alone or with a two-handed or ranged weapon.",
+   "quote_or_excerpt": "You take exactly one option from each of the four lines"
+  },
+  {
+   "source": "15-equipment",
+   "claim": "Points left after the four lines can only become packs, so a second weapon cannot be bought as a leftover, leaving no priced route to holding two weapons.",
+   "quote_or_excerpt": "Leftover points buy packs, one point each"
+  },
+  {
+   "source": "15-equipment",
+   "claim": "The Light property is defined by its off-hand use, so the chapter's own rules presuppose a second weapon while the Armament line grants only one.",
+   "quote_or_excerpt": "used as an off-hand weapon for two-weapon fighting"
+  },
+  {
+   "source": "05-classes",
+   "claim": "Class starting kits hand out weapons in pairs or triples: the Leader's kit lists a one-handed blade, a two-handed spear and a shield simultaneously, a loadout no Armament option covers.",
+   "quote_or_excerpt": "Longsword, spear, leather armor, shield"
+  },
+  {
+   "source": "05-classes",
+   "claim": "The Odd's starting kit pairs a ranged weapon with a one-handed one, which the single-select Armament line cannot produce.",
+   "quote_or_excerpt": "Shortbow, dagger, leather armor, thieves' tools"
+  },
+  {
+   "source": "02-character-creation",
+   "claim": "The step-by-step exemplar hero is issued that same bow-and-dagger list with no accounting against the four lines or the six points, so the exemplar silently contradicts the kit model.",
+   "quote_or_excerpt": "Step 8, Equipment: Shortbow, dagger, leather armor"
+  },
+  {
+   "source": "16-armor-shields",
+   "claim": "The Buckler entry justifies itself by freeing the hand for another weapon, confirming the book expects a second weapon alongside kit gear.",
+   "quote_or_excerpt": "Leaves your hand free for a second weapon"
+  },
+  {
+   "source": "21-glossary",
+   "claim": "The glossary restates the one-option-per-line rule when defining a kit, so single-select Armament is canonical rather than a local slip in the equipment chapter.",
+   "quote_or_excerpt": "one option from each of the four lines"
+  },
+  {
+   "source": "22-reference-sheets",
+   "claim": "The quick-reference weapon table is the lookup surface that assigns per-weapon distance, so collapsing weapons into one ranged category discards the only distance values in the book.",
+   "quote_or_excerpt": "[Longbow], [1 Archery], [Two-Handed], [100/200 ft]"
+  }
+ ],
+ "confidence": 0.7
+}

@@ -1,0 +1,96 @@
+{
+ "argument": "Coalition B does not need a new tag layer to make the weapon's Discipline requirement the live gate, and it does not need to delete a line to do it: it needs three rule lines edited, one line narrowed to a pointer, and nine class kit lines reworded, and the kits keep their flavour. The reconciliation, exactly. Line one, 15:196, the Kit Gear callout: the clause letting a hero carry kit weapons and kit armour and shields with no Discipline prerequisite attached is deleted, and the surviving sentence is promoted to the whole rule, so the callout reads that the kit supplies the object and the Discipline supplies the permission. Line two, 16:60, the shield paragraph: the trailing exemption for gear that arrived inside one's class starting kit, justified on the grounds that kit gear presumes training and cross-referenced at @sec-chapter-equipment, is deleted, leaving the number before each shield as the Protection rank the wielder must hold, which is the same rule the Buckler, Shield and Tower Shield lines already print. Line three, 15:23: 'What a kit grants is permission' is the deepest live contradiction, because it hands permission to the kit while 15:171 heads the weapon table with Disciplines Required. The fix is one clause: scope the kit's permission to the card tags at 15:25, and give the weapon's entry requirement to the recipe column. Fourth, 08:196 narrows to a pointer. It currently restates the recipe list a third time (Dagger 1 Blades, Longsword 2 Blades, Greatsword 2 Blades + 1 Heavy Weapon, Tower Shield 2 Protection, Plate 3 Armor) and its 'Plate 3 Armor' has no consumer anywhere: neither armour table carries a prerequisite column (15:231 headers Armor, Class, DR and Slots; 16:37 adds Notes). One source for the gate, one pointer to it. What happens to the class starting kits. Measured against the class's own grants, 14 kit items across 8 of the 9 classes sit outside the ranks the class hands over, and the Blade's kit is the only self-sufficient one. Two of those items need rank 2: the Protector's Battleaxe, 2 Axes against a class grant of 'Armor (1) + 1 any Weapon', and the Leader's Longsword, 2 Blades against a class grant of 'Tactics (1) + Protection (1)'. No starting grant can close either, because 08:100 states that ancestry, culture and class grants are always rank 1; they close only by the 2 DP background deepening at 02:157, which the book phrases as spending 2 DP to push a Discipline you already hold up to rank 2 (2 same). The other 12 shortfalls are rank 1 and close in the ancestry and culture steps, where 02:153 grants one Discipline and 02:155 grants one or two, plus the class's own free pick where it has one. So the kits are not broken; they are unpriced, and the price is two 2 DP lines. The editorial fix is the form ch15 already prints: the Class Recommendations table lists the Protector as 'One-handed and shield, heavy armour' and the Leader as 'One-handed and shield, light armour', and 15:159 already tells the reader that a typical kit amounts to a starting point rather than a rule. Rewrite the nine ch05 Starting Kit lines in that category form, keeping the named weapon as the example the hero resolves against whichever weapon Discipline they actually hold, and the two DP lines become a visible choice instead of a hidden waiver. Cost of the reconciliation: 3 rule lines, 1 pointer, 9 kit lines, 0 cards re-keyed, 0 tags added. That is the version of t-03 that closes the character-creation contradiction without Coalition A's 42 to 160 new weapon-gated cards.",
+ "confidence": 0.86,
+ "evidence": [
+  {
+   "claim": "The Model B waiver sentence to be deleted. It is the only place the class kit releases weapons, armour and shields from Discipline prerequisites.",
+   "quote_or_excerpt": "you can wield kit weapons and use kit armor and shields regardless of Discipline prerequisites",
+   "source": "quarto-book/chapters/15-equipment.qmd:196"
+  },
+  {
+   "claim": "The second Model B waiver, scoped to shields, which the shield lines below it contradict by printing a Protection rank.",
+   "quote_or_excerpt": "unless it came in your class starting kit (kit gear assumes training, see @sec-chapter-equipment)",
+   "source": "quarto-book/chapters/16-armor-shields.qmd:60"
+  },
+  {
+   "claim": "The kit chapter's own doctrine hands permission to the kit, which is what collides with the recipe column at 15:171.",
+   "quote_or_excerpt": "What a kit grants is permission. It says which cards you can use",
+   "source": "quarto-book/chapters/15-equipment.qmd:23"
+  },
+  {
+   "claim": "Model A is already printed in the weapon table header, which names Disciplines Required as the table's second column.",
+   "quote_or_excerpt": "table.header([Weapon], [Disciplines Required], [Properties], [Range],)",
+   "source": "quarto-book/chapters/15-equipment.qmd:171"
+  },
+  {
+   "claim": "The card tags are the surface the kit legitimately decides, so the kit's permission clause is scoped here, not deleted.",
+   "quote_or_excerpt": "The tags a card can require are `weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`, `shield`, `focus:arcane`, `focus:holy` and `focus:primal`.",
+   "source": "quarto-book/chapters/15-equipment.qmd:25"
+  },
+  {
+   "claim": "08:196 restates the recipe list, and its armour entry requirement (Plate 3 Armor) is the only one printed anywhere: no armour table carries such a column, so the line narrows to a pointer.",
+   "quote_or_excerpt": "Plate 3 Armor",
+   "source": "quarto-book/chapters/08-disciplines.qmd:196"
+  },
+  {
+   "claim": "Starting grants are always rank 1, so no ancestry, culture or class grant can supply the rank 2 that the Protector's Battleaxe and the Leader's Longsword demand.",
+   "quote_or_excerpt": "Starting Disciplines from ancestry, culture, and class are always rank 1",
+   "source": "quarto-book/chapters/08-disciplines.qmd:100"
+  },
+  {
+   "claim": "The only creation channel to rank 2 is a Background DP deepening at 2 same, which prices the two over-rank kit items.",
+   "quote_or_excerpt": "deepen a Discipline you already have to rank 2 (2 same)",
+   "source": "quarto-book/chapters/02-character-creation.qmd:157"
+  },
+  {
+   "claim": "Ancestry grants one rank 1 Discipline, the channel that closes the twelve rank 1 kit shortfalls.",
+   "quote_or_excerpt": "Your species grants one Discipline reflecting innate traits of your bloodline",
+   "source": "quarto-book/chapters/02-character-creation.qmd:153"
+  },
+  {
+   "claim": "Culture grants one or two rank 1 Disciplines, the second channel for the rank 1 shortfalls.",
+   "quote_or_excerpt": "Your upbringing grants one or two Disciplines depending on your culture's traditions",
+   "source": "quarto-book/chapters/02-character-creation.qmd:155"
+  },
+  {
+   "claim": "The Protector's class grant is Armor plus one weapon rank, so its printed Battleaxe (2 Axes) and its printed shield (1 Protection) sit outside the class's own ranks.",
+   "quote_or_excerpt": "Armor (1) + 1 any Weapon",
+   "source": "quarto-book/chapters/05-classes.qmd:53"
+  },
+  {
+   "claim": "The Protector's printed starting kit names the Battleaxe, the rank 2 item at issue, and a shield.",
+   "quote_or_excerpt": "Battleaxe, chain mail, shield, smith's tools",
+   "source": "quarto-book/chapters/05-classes.qmd:59"
+  },
+  {
+   "claim": "The Leader's class grant is Tactics plus Protection, so it holds no Blades for the printed Longsword and no Polearms for the printed spear, while its shield is legal.",
+   "quote_or_excerpt": "Tactics (1) + Protection (1)",
+   "source": "quarto-book/chapters/05-classes.qmd:334"
+  },
+  {
+   "claim": "The Leader's printed starting kit names the Longsword, the second rank 2 item, and a spear.",
+   "quote_or_excerpt": "Longsword, spear, leather armor, shield",
+   "source": "quarto-book/chapters/05-classes.qmd:340"
+  },
+  {
+   "claim": "The Class Recommendations table already prints the Protector's kit in the armament category form the reconciliation adopts.",
+   "quote_or_excerpt": "One-handed and shield, heavy armour",
+   "source": "quarto-book/chapters/15-equipment.qmd:144"
+  },
+  {
+   "claim": "The same category form is already printed for the Leader, so the nine ch05 kit lines are the only named-weapon kit surface left.",
+   "quote_or_excerpt": "One-handed and shield, light armour",
+   "source": "quarto-book/chapters/15-equipment.qmd:150"
+  },
+  {
+   "claim": "The recommendation table's own rule makes the category form authoritative and the named weapon an example.",
+   "quote_or_excerpt": "The typical kit is a starting point, not a rule.",
+   "source": "quarto-book/chapters/15-equipment.qmd:159"
+  }
+ ],
+ "id": "f-028",
+ "role": "editor-in-chief",
+ "round": 2,
+ "stance": "support",
+ "topic": "t-03"
+}

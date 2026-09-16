@@ -1,0 +1,36 @@
+{
+ "argument": "The weapon channel does not add development richness and the gate census shows it is closed rather than thin. Of sixty-two cards carrying a kit tag, fifty-two are focus gates, nine are weapon gates and one is a shield gate: the weapon family holds sixteen per cent of the gate weight, and six of its ten gates are the four floor attacks, which require no Discipline at all, so the exclusive gated weapon content of the entire book is six maneuver cards. Development richness is bought with card tiers: a gated card at each tier per tag is what turns six kit points into a plan, and weapons cannot currently do that because the tag coverage is one or two cards deep, the only two Master-row cards in the book carry no kit gate, and thirteen fixed-row cards still print retired rows. The cost of parity is the arithmetic the council asked for: to give weapons the same gate weight as focus, the book must author forty-two more weapon/shield-gated cards, taking the share from ten of sixty-two to fifty-two of sixty-two without touching the corpus size; to match the mean focus tag (about seventeen gates) the five weapon tags need roughly eighty-seven, and to match the arcane tag alone they need a hundred and sixty, which exceeds the whole hundred-and-seventy-eight header corpus. Parity on the gate axis is not affordable at this corpus size, which is the decisive argument against making weapons the fourth development pillar: the pillar would have to be manufactured out of a rulebook that is already fully allocated.",
+ "confidence": 0.85,
+ "evidence": [
+  {
+   "claim": "Book-wide kit-gate census: 62 cards carry a kit tag, of which 52 are focus gates, 9 weapon gates and 1 shield gate.",
+   "quote_or_excerpt": "Parsed every '=== ' card header block with a *Disciplines:* line in all 30 chapter files (178 blocks) for the *Kit:* value: None 116; focus:arcane 32; focus:holy 18; focus:primal 2; weapon:ranged 3; weapon:two-hand 3; weapon:one-hand 2; weapon:unarmed 1; shield 1. Kit-bearing total = 32+18+2+3+3+2+1+1 = 62. Focus = 52. Weapon = 9. Shield = 1. Weapon+shield = 10 = 16.1% of gates; focus = 83.9%.",
+   "source": "09-talents-abilities"
+  },
+  {
+   "claim": "Six of the ten weapon/shield gates sit on the four floor attacks, which by definition require no Discipline, so the discipline-gated weapon content is six cards.",
+   "quote_or_excerpt": "Floored gates: 09:173 Basic Melee (weapon:one-hand, Disc None), 09:182 Basic Archery (weapon:ranged, None), 09:191 Basic Thrown (weapon:ranged, None), 09:200 Basic Unarmed (weapon:unarmed, None). Gated maneuvers: 09:235 Cyclone (weapon:two-hand, 3 Blades), 09:244 Cleave (weapon:one-hand, 2 Axes), 09:325 Crushing Blow (weapon:two-hand, 2 Heavy Weapon), 09:334 Executioner's Cut (weapon:two-hand, 2 Axes), 09:343 Throw (weapon:ranged, 1 Archery), 09:262 Shield Slam (shield, 2 Armor).",
+   "source": "09-talents-abilities"
+  },
+  {
+   "claim": "The cost of gate parity, expressed as cards to author.",
+   "quote_or_excerpt": "Gate weight parity: need 52 weapon/shield gates, have 10 -> author 42 (a 4.2x increase; 22.3% of a 188-card corpus vs 5.3% today; 10->52 of the 62 kit-gated cards). Per-tag parity with the mean focus tag: focus tags are arcane 32, holy 18, primal 2 = 17.3 mean; five weapon tags x 17.3 = 87 gates -> author 77. Per-tag parity with the arcane tag: 5 x 32 = 160 -> author 150, i.e. 90% of the 178 header blocks in the book. Under the card-cost schedule (2/4/8 DP by tier) a 42-card authoring job also re-prices the development budget: 14 Novice + 14 Adept + 14 Master = 28+56+112 = 196 DP of new purchase capacity against 32 DP of total L10 income, a 6.1x expansion.",
+   "source": "reasoning"
+  },
+  {
+   "claim": "The doctrine itself is stated flatly in the glossary, so the rules text and the table are already aligned and no wording repair is needed - only the gate is empty.",
+   "quote_or_excerpt": "21:121  *Damage Tier:* Weak, Standard, or Strong, determines how much damage an attack deals. Ability cards and spells have fixed damage values for each tier. Weapons do not carry damage.",
+   "source": "21-glossary"
+  },
+  {
+   "claim": "The live band table is printed once and is the only damage ladder in the book; the development economy behind it is 32 DP to level 10.",
+   "quote_or_excerpt": "08:205-217 live bands Novice 4/6/8, Adept 5/8/11, Master 7/10/14. 08:234 basic floor 1/2/3. Book-wide term search: '2/4/6' occurs once (20-bestiary), '6/9/12' and '9/15/21' occur zero times, so the retired rows survive only inside individual card rows, not in any table.",
+   "source": "08-disciplines"
+  }
+ ],
+ "id": "f-020",
+ "role": "game-architect",
+ "round": 1,
+ "stance": "refute",
+ "topic": "t-01"
+}
