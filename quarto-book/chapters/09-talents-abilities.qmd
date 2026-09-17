@@ -191,11 +191,6 @@ These six talents are the substitution family. Only one substitution applies to 
 
 *Novice:* When you or an ally within 30 ft would lose a turn to a condition, that creature ignores every condition on them until the end of their next turn and acts normally, and when that turn ends every condition they ignored lands on you for its remaining duration.
 
-=== Wall Shield (Master Talent)
-*Disciplines:* 3 Shields · *Action:* Passive · *Range:* Self · *Keywords:* DR
-
-*Master:* While you are wielding a shield and did not move on your turn, you have +3 DR, and you move at -5 ft speed while wielding it.
-
 #pagebreak()
 
 == Basic Attacks
@@ -310,6 +305,30 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Standard:* Deal 6 damage and Push 5 ft.
 
 *Strong:* Deal 8 damage and Push 5 ft; the target is Prone.
+
+=== Shield Throw (Weapon Maneuver)
+*Disciplines:* 1 Shields · *Requires:* shield · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
+
+*Weak:* Deal 4 damage. Your shield lands 30 ft away and you are not wielding a shield until you pick it up.
+
+*Standard:* Deal 6 damage, and Push 5 ft. Your shield lands 30 ft away and you are not wielding a shield until you pick it up.
+
+*Strong:* Deal 8 damage, Push 5 ft, and the target is Prone. Your shield lands 30 ft away and you are not wielding a shield until you pick it up.
+
+=== Braced Guard (Maneuver)
+*Disciplines:* 1 Shields · *Requires:* shield · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
+
+*Effect:* Set your shield. Until the start of your next turn, your Shield Block reaction applies to every attack that hits you, not just one.
+
+=== Lock Shields (Maneuver)
+*Disciplines:* 2 Shields · *Requires:* shield · *Action:* Maneuver · *Range:* 5 ft · *Keywords:* DR
+
+*Effect:* Choose any number of allies within 5 ft who are wielding shields, including yourself. Until the start of your next turn, each of you gains +1 shield DR.
+
+=== Interpose (Maneuver)
+*Disciplines:* 3 Shields · *Requires:* shield · *Action:* Reaction · *Range:* 5 ft · *Keywords:* DR
+
+*Effect:* When an attack hits an ally within 5 ft, you take the attack instead. Resolve it against your DR, and your Shield Block applies to it.
 
 === Parry (Weapon Maneuver)
 *Disciplines:* 2 Melee · *Action:* Reaction · *Range:* Self · *Keywords:* DR, Counterattack

@@ -95,7 +95,7 @@ Roll 3d6 + modifiers. The total determines your damage tier:
 
 That's one roll. No separate damage dice. No "did I hit?" anxiety. Roll once, read the damage, move on.
 
-Damage Reduction (DR) subtracts from the damage a hit does, but a hit always lands for at least 1 damage. Your DR is the highest of your armor's DR and any talent or ward that grants DR, and shield DR is added on top (@sec-chapter-armor-shields). Armor makes the blow land softer, not miss.
+Damage Reduction (DR) subtracts from the damage a hit does, but a hit always lands for at least 1 damage. Your DR is the highest of your armor's DR and any talent or ward that grants DR, and your tier caps the total. Shield DR is not part of that total: the Shield Block reaction applies it to one attack per round (@sec-chapter-armor-shields). Armor makes the blow land softer, not miss.
 
 #callout(type: "note", title: "Why Always-Hit?", body: [
 

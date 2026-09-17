@@ -12,7 +12,7 @@ _Placeholder for final art._
 
 Armor isn't about avoiding hits. Hits happen, that's the always-hit rule in action. Armor is what you wear and what you have been through: boiled leather, rings of steel, a breastplate that has already turned one blade. It is a choice about weight, slots, donning time, and what it says about you. What keeps you standing is the steel you wear or the drills you have run, whichever is stronger. Damage Reduction comes from your armor and from your talents.
 
-Shields are different. A shield is not a passive number on your sheet, it is an active defense, something you put in the way of a blow. It gives you a reaction that downgrades an incoming hit. Wear your armor. Use your shield. Choose wisely.
+Shields are different. A shield is not a passive number on your sheet, it is an active defense, something you put in the way of a blow. It gives you a reaction that reduces an incoming hit. Wear your armor. Use your shield. Choose wisely.
 
 #pagebreak()
 
@@ -22,11 +22,9 @@ When you take physical damage, subtract your Damage Reduction (DR) from the dama
 
 Your DR comes from one source at a time: your armor, a talent, or a spell. Armor's DR is set by its weight class: light 1, medium 2, heavy 3. Heavier armor is heavier in every sense. If more than one source gives you DR, use the highest. Armor, talents, and wards do not add together.
 
-*Shield DR is the exception.* DR from a shield source is *shield DR*. A shield item grants no number on its own; shield DR comes from a card, and Wall Shield and Ward of Faith are the only two printed sources. It adds to your DR from other sources, after the ceiling below. No combination of shield sources ever adds more than +3, so a second shield grant is worth nothing on top of the first.
+*Shield DR is the exception.* DR from a shield is *shield DR*. Your shield carries a rating, and you apply it with the Shield Block reaction, never to your DR total. Shield DR does not add to the DR you carry from armor, talents, or wards, so the ceiling below is unaffected by it. Only one shield's rating ever applies: a second shield is worth nothing on top of the first.
 
-*There is a ceiling.* Your total DR from armor, talents, and wards cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A hit must always be able to land for something, and the three tiers of a damage band have to stay distinct at every level. If DR could climb past that ceiling the roll would stop carrying information, and light, medium, and heavy armor would stop being three different choices. The highest source governs up to the ceiling, and no further. Shield DR is added after it.
-
-*Temporary grants add.* DR granted by an ability for a stated duration adds to your DR while it lasts. A temporary grant is not a source you carry: it adds on top of whatever you already have, and it ends when the duration does. Guarding Stance, Warding Touch, Shield of Faith, Bulwark, and Ironhide all work this way.
+*There is a ceiling.* Your total DR from armor, talents, and wards cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A hit must always be able to land for something, and the three tiers of a damage band have to stay distinct at every level. If DR could climb past that ceiling the roll would stop carrying information, and light, medium, and heavy armor would stop being three different choices. The highest source governs up to the ceiling, and no further. Shield DR is not part of this total.
 
 *Ranks set the size of a grant.* A DR grant requires Discipline ranks at least equal to the DR it grants: DR 2 costs 2 ranks, DR 3 costs 3. The armor table's light 1, medium 2, heavy 3 column is the same scale.
 
@@ -79,17 +77,21 @@ What you wear is worth its points in DR: light armor grants 1, medium 2, heavy 3
 
 A shield is an active defense. You're not just wearing it, you're using it. When an attack comes in, you can throw the shield in its path.
 
-The number before each shield is a Discipline requirement: you need that many ranks in the Shields Discipline to wield it, with no exception. The full rules live in @sec-chapter-disciplines
+Shields come in three classes. The class sets the shield DR, and the Discipline requirement that follows it is how many ranks in the Shields Discipline you need to wield it, with no exception. The full rules live in @sec-chapter-disciplines
 
-*Buckler:* 1 Shields Discipline. Small, strapped to the forearm. Leaves your hand free for a second weapon or a wand.
+*Small shields (1 Shields, shield DR 1).* A buckler, a targe, a parma. Gripped in the fist or strapped to the forearm, and light enough to keep working behind. A small shield leaves your hand free for a second weapon or a wand.
 
-*Shield:* 1 Shields Discipline. The standard. Wood and iron, carried in the off hand.
+*Medium shields (2 Shields, shield DR 2).* A heater, a kite, a round shield, a rotella. Strapped to the arm and covering shoulder to hip. This is the standard.
 
-*Tower Shield:* 2 Shields Discipline, half cover. A portable wall. You move at -5 ft speed while carrying it. You can plant it as a maneuver to grant full cover to one ally directly behind you.
+*Large shields (3 Shields, shield DR 3, half cover).* An aspis, a scutum, a tower shield, a pavise. A portable wall, big enough to hide most of you behind. You move at -5 ft speed while carrying one. You can plant it as a maneuver to grant full cover to one ally directly behind you.
+
+The names are flavor, not statistics. A buckler, a targe, and a parma are all small shields, and all shield DR 1. Carry the one your character would actually carry.
+
+Speed penalties from shields do not stack: you take -5 ft once, no matter how many shields you carry or wield.
 
 === Shield Block (Reaction)
 
-When you are hit by an attack, you may use your reaction to interpose your shield. Reduce the damage tier by one step: *Strong → Standard, Standard → Weak, Weak → 1 damage.* You must be wielding a shield and be aware of the attack. Reactions in general are covered in @sec-chapter-combat
+When an attack hits you, you may use your reaction to interpose your shield, reducing the damage by your shield's DR. You must be wielding a shield and be aware of the attack. Shield Block applies to one attack per round. Reactions in general are covered in @sec-chapter-combat
 
 Shield Block cannot reduce damage below 1. It can be used against melee attacks, ranged attacks, and spell attacks, anything you can see coming.
 
@@ -125,9 +127,9 @@ Remember how this works. The DA never rolls for monsters (@sec-chapter-combat) T
 
 *Roric's player:* "Shield Block."
 
-He spends his reaction. The damage tier drops one step, Standard to Weak, and the incoming damage is now 4. 4 - 3 = 1 damage. The greataxe slams into Roric's shield, ringing off the boss like a temple bell. The haft cracks at the binding, but the blade never reaches him.
+He spends his reaction. The shield's DR 1 takes the edge off the blow: 6 - 1 = 5. Then his armor's DR 3 does the rest: 5 - 3 = 2 damage. The greataxe slams into Roric's shield, ringing off the boss like a temple bell. The haft cracks at the binding, but the blade barely reaches him.
 
-That is 3 + 5 + 1 = 9 damage across the round, and Roric stands at 4 HP of his 13. Without the shield he would have taken 6 - 3 = 3 from that swing, and that is the difference between holding the choke point and going down in it. Shield Block is what the board in his hand is for, because the DR came from his armor alone.
+That is 3 + 5 + 2 = 10 damage across the round, and Roric stands at 3 HP of his 13. Without the shield he would have taken 6 - 3 = 3 from that swing instead of 2. Shield Block is what the board in his hand is for: one attack each round, paid for with his reaction.
 
 #pagebreak()
 
