@@ -365,7 +365,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 *Strong:* One beast obeys a simple command for 1 scene; you gain Boon on Animal checks.
 
-== Plant Spells
+== Plants Spells
 
 === Briar Wall (Adept Divine Spell)
 *Disciplines:* 2 Plants · *Requires:* focus:primal · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Slowed, Restrained

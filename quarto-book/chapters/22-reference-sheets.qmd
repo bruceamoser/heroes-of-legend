@@ -148,11 +148,11 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
   columns: (47.06%, 52.94%),
   align: (auto, auto,),
   table.header([Result], [Outcome],),
-  [*Strong (15+)*], [Stabilize at 1 HP],
-  [*Standard (9-14)*], [Unconscious, stable],
-  [*Weak (1-8)*], [You worsen. Mark a failure. At three failures, you die.],
-  [*Fumble (Three natural 1s)*], [Death],
-  [*Critical (Three natural 6s)*], [Wake at half HP],
+  [*Critical (three 6s)*], [Snap awake at half HP. Overrides all tier results.],
+  [*Strong (15+)*], [Stabilize at 1 HP.],
+  [*Standard (9-14)*], [Unconscious but stable.],
+  [*Weak (1-8)*], [Worsen. Mark a failure. At three failures, you die.],
+  [*Fumble (three 1s)*], [Death. Overrides all tier results.],
 )], kind: table, numbering: none, outlined: false)
 
 *Grit is what stands between you and this table.* You have 2 Grit at Novice, 3 at Adept, and 4 at Master. Your tier is your ability tier: Novice is levels 1 and 2, Adept levels 3 through 6, Master is level 7 and up. When your HP reaches 0, spend one Grit: your HP resets to its maximum and you roll on the Wound Table, and you keep fighting. Only when you have no Grit left does the roll above decide your fate. Grit returns on a respite, a full night's rest.
@@ -288,6 +288,7 @@ Cards (skills, abilities, spells) cost a flat rate regardless of class:
   [Ability (Adept)], [4 DP],
   [Ability (Master)], [8 DP],
   [No-prereq basic (Novice)], [2 DP],
+  [Cantrip], [Free],
 )], kind: table, numbering: none, outlined: false)
 
 Disciplines cost different amounts depending on your class's cost structure for that discipline:
@@ -330,9 +331,9 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   align: (auto, auto, auto,),
   table.header([Difficulty], [Challenge Budget], [Example (Level 3 party)],),
   [Easy], [× party level], [6 Wolves (C½ each)],
-  [Standard], [×2 party level], [1 Knight (C3) + 6 Guards (C½)],
-  [Hard], [×3 party level], [1 Young Dragon (C6) + 6 Cultists (C½)],
-  [Deadly], [×4+ party level], [1 Ancient Dragon (C12)],
+  [Standard], [×2 party level], [1 Knight (C3) + 6 Guards (C½ each)],
+  [Hard], [×3 party level], [1 Young Dragon (C6) + 6 Cultists (C½ each)],
+  [Deadly], [×4+ party level], [1 Ancient Dragon (C12) or 1 Lich (C10) + minions],
 )], kind: table, numbering: none, outlined: false)
 
 #pagebreak()

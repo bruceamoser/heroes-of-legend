@@ -88,7 +88,7 @@ Your 3d6 attack roll determines the damage tier:
 
 These damage values come from the damage budget table (@sec-damage-budget) There is no separate damage roll: the outcome tier of your attack roll is your damage tier. Roll once, resolve everything.
 
-DR (Damage Reduction) subtracts from incoming damage: each point of DR negates 1 (minimum 1 damage from any hit). A hero with Brawn +2 landing a Strong longsword strike deals 5 damage (3 Strong + 2 Brawn). A goblin with no armor takes it all. A knight in plate armor (DR 6) would only take the minimum 1.
+DR (Damage Reduction) subtracts from incoming damage: each point of DR negates 1 (minimum 1 damage from any hit). A hero with Brawn +2 landing a Strong longsword strike deals 5 damage (3 Strong + 2 Brawn). A goblin with no armor takes it all. A knight in plate armor (DR 3) would take 2.
 
 == Players Make All Rolls
 

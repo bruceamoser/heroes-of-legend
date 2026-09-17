@@ -125,7 +125,7 @@ HP 17, DR 0.
 
 === Knight (Challenge 3)
 
-HP 10, DR 4 (plate).
+HP 10, DR 3 (plate).
 
 *Longsword:* 5/8/11.
 
@@ -219,7 +219,7 @@ HP 14, DR 1 (hide).
 
 === Orc Warchief (Challenge 3)
 
-HP 10, DR 4 (plate).
+HP 10, DR 3 (plate).
 
 *Greataxe:* 5/8/11 slashing.
 

@@ -386,7 +386,7 @@ Some injuries don't fade when the healing potion wears off. Wounds are the lasti
     [111], [*Lucky Scrape*], [A glancing blow that leaves a dramatic but harmless scar. You look like you survived something terrible. Boon on your next social roll with anyone impressed by scars. No mechanical penalty.],
     [112–126], [*Bruised Rib*], [Something cracked but didn't break. Bane on your next Brawn-based roll from the sharp ache. Fades after that roll.],
     [133–166], [*Blood in the Eyes*], [A scalp wound bleeds into your vision. Bane on your next attack roll until you spend a Maneuver to wipe it clear.],
-    [222], [*Marked*], [The wound leaves a mark that doesn't look natural. Animals growl at you. Superstitious folk make signs against evil. No mechanical penalty, but the DA now has a permanent hook.],
+    [222], [*Unnatural Mark*], [The wound leaves a mark that doesn't look natural. Animals growl at you. Superstitious folk make signs against evil. No mechanical penalty, but the DA now has a permanent hook.],
     [223–235], [*Twisted Ankle*], [Your footing betrays you. Speed reduced by 5 ft for the remainder of the encounter.],
     [236–266], [*Deep Gash*], [A wound that won't stop bleeding. Take 1 damage at the start of each turn until you or an ally spends an Action and makes a Standard Medicine check to bind it. At 0 HP the bleed keeps ticking, and while you are bleeding your death roll is made with a Bane.],
     [333], [*Scarred*], [Three parallel gashes. Too clean, too deliberate. The scar tissue tingles whenever that type of creature is within 60 feet. You've gained an instinctive danger sense for whatever gave you that scar. A narrative gift from the DA.],
@@ -469,7 +469,7 @@ Kael sees the Knight advancing on Roric. He moves 15 ft to flank, drawing his sh
 
 "I attack the Knight."
 
-Rolls 3d6 + Brawn (+1). Rolls 5, 4, 5 = 14 + 1 = 15. *Strong.* His Basic Melee card deals 3 on Strong, plus Brawn +1 = 4. Knight's plate armor: DR 4. 4 − 4 → minimum 1 damage. The blade finds a gap at the Knight's gorget, a thin line of blood. Not a killing blow, but the Knight knows Kael can hurt him.
+Rolls 3d6 + Brawn (+1). Rolls 5, 4, 5 = 14 + 1 = 15. *Strong.* His Basic Melee card deals 3 on Strong, plus Brawn +1 = 4. Knight's plate armor: DR 3. 4 − 3 = 1 damage. The blade finds a gap at the Knight's gorget, a thin line of blood. Not a killing blow, but the Knight knows Kael can hurt him.
 
 Kael keeps his *Reaction* ready. His *Riposte* weapon maneuver (2 Melee) lets him spend his Reaction to counterattack when an enemy deals Weak damage to him.
 
