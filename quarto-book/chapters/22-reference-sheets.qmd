@@ -245,7 +245,7 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
 + *Background DP:* 8 + Knowledge + Fortitude. Spend all on Novice skills and abilities.
 + *Class:* Choose class. Record Class Discipline and signature ability.
 + *Class DP:* 8 DP. Spend all on Novice skills and abilities.
-+ *Equipment:* Take your class's starting loadout (see @sec-chapter-classes). Record weapon properties and armor slots; your Damage Reduction is the highest of your armor's DR (1 light, 2 medium, 3 heavy) and any talent or ward that grants DR, with shield DR added on top.
++ *Equipment:* Take your class's starting loadout (see @sec-chapter-classes). Record weapon properties and armor slots; your Damage Reduction is the highest of your armor's DR (1 light, 2 medium, 3 heavy) and any talent or ward that grants DR. Shield DR is not part of that total: your shield carries a rating, and the Shield Block reaction applies it to one attack per round.
 + *Derived Stats:* HP, Grit, Initiative, Movement, Carry Slots.
 + *Backstory:* Motivation, Trinket, Name.
 
@@ -350,15 +350,16 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 )], kind: table, numbering: none, outlined: false)
 
 #figure(align(center)[#table(
-  columns: (36.00%, 28.00%, 36.00%),
-  align: (auto, auto, auto,),
-  table.header([Shield], [Shields Req], [Grants],),
-  [Buckler], [1], [Parry, Shield Block; keeps your hand free],
-  [Shield], [1], [Parry, Shield Block],
-  [Tower Shield], [2], [Parry, Shield Block; half cover; -5 ft speed],
+  columns: (24.00%, 16.00%, 18.00%, 42.00%),
+  align: (auto, auto, auto, auto,),
+  table.header([Shield], [Shields Req], [Shield DR], [Grants],),
+  [Buckler], [1], [1], [Parry, Shield Block; keeps your hand free],
+  [Shield], [1], [1], [Parry, Shield Block],
+  [Tower Shield], [2], [2], [Parry, Shield Block; half cover; -5 ft speed],
+  [Wall Shield], [3], [3], [Parry, Shield Block; half cover; -5 ft speed],
 )], kind: table, numbering: none, outlined: false)
 
-*Your Damage Reduction is the highest of your armor, a talent, or a ward. Shield DR is the one thing that adds, up to +3.* See @sec-chapter-armor-shields
+*Your Damage Reduction is the highest of your armor, a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. Shield DR is not part of that total: it is applied by the Shield Block reaction, one attack per round.* See @sec-chapter-armor-shields
 
 #figure(align(center)[#table(
   columns: (20.00%, 20.00%, 45.10%, 14.90%),
@@ -385,7 +386,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 
 *The weapon never changes your damage. See @sec-chapter-talents-abilities for what a range of two numbers means, and @sec-chapter-equipment for weapons in full.*
 
-*Defense summary:* Your Damage Reduction (DR) is the highest of your armor's DR (1 light, 2 medium, 3 heavy), a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. Shield DR is added after that ceiling, up to +3. Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields enable the Parry skill and the Shield Block reaction.
+*Defense summary:* Your Damage Reduction (DR) is the highest of your armor's DR (1 light, 2 medium, 3 heavy), a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. Shield DR is not part of that total: your shield carries a rating, and the Shield Block reaction applies it to one attack per round. Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields enable the Parry skill and the Shield Block reaction.
 
 #figure(align(center)[#table(
   columns: (68.42%, 31.58%),
