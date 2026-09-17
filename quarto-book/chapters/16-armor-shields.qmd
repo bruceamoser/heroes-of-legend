@@ -30,7 +30,7 @@ Your DR comes from one source at a time: your armor, a talent, or a spell. Armor
 
 *Ranks set the size of a grant.* A DR grant requires Discipline ranks at least equal to the DR it grants: DR 2 costs 2 ranks, DR 3 costs 3. The armor table's light 1, medium 2, heavy 3 column is the same scale.
 
-*Example:* Kael wears light armour, so his armour grants DR 1. He is also under Stone Skin, which grants +2 DR. The two are sources and do not add: his DR is the higher of the two, 2. A goblin's scimitar hits him for Weak damage (4). 4 - 2 = 2, so Kael takes 2 damage. When the same goblin lands a Standard hit (6), Kael takes 4 instead of 6.
+*Example:* Kael wears light armor, so his armor grants DR 1. He is also under Stone Skin, which grants +2 DR. The two are sources and do not add: his DR is the higher of the two, 2. A goblin's scimitar hits him for Weak damage (4). 4 - 2 = 2, so Kael takes 2 damage. When the same goblin lands a Standard hit (6), Kael takes 4 instead of 6.
 
 #pagebreak()
 
