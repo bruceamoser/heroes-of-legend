@@ -24,6 +24,8 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Bell Curve:* The probability distribution of 3d6. Most rolls cluster around 9–12. Extreme results (3 and 18) are rare, about 0.5% each.
 
+*Card:* The printed container for a mechanical element of the game. Spells, class abilities, talents, weapon maneuvers, ancestry gifts, and magic items all print as cards; the shape differs, the container does not. A card is bought once, at its tier (2 DP Novice, 4 DP Adept, 8 DP Master), or, in the case of a magic item, found rather than bought. There is no upgrading a card in place: the Adept and Master members of a family are separate cards with their own names. A mundane item of equipment is not a card. Gear is bought with gold, and its properties live in @sec-chapter-equipment.
+
 *Boon:* Roll 4d6 and keep the highest three. A second step rolls 5d6 kept three, a third rolls 6d6 kept three, and three steps is the ceiling. Boons and Banes cancel one for one. Halflings get a boon once per session from their Lucky trait.
 
 *Bane:* Roll 4d6 and keep the _lowest_ three. The opposite of a boon, and it steps up the same way. Applied by the DA for severe disadvantage.
@@ -206,7 +208,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Cantrip:* The minor spells every caster of a tradition knows without buying them. Cantrips carry no Discipline requirement and cost no DP, and their damage line is 1/3/5, deliberately below the Novice row.
 
-*Spell Card:* A spell in the standard card format. A Novice spell card prints Weak, Standard, and Strong outcomes; an Adept or Master spell is a separate card with its own name and a single effect. There are no spell chains.
+*Spell Card:* A spell in the standard card format. A spell that deals damage prints a Weak/Standard/Strong block on its tier's budget row; a spell that grants a standing benefit instead prints a single *Effect:* line. The Adept and Master members of a spell family are separate cards with their own names: there are no spell chains, and no card is upgraded in place.
 
 *Concentration Spell:* A spell that requires ongoing focus, and you can maintain only one at a time. If you take damage while concentrating, make a Fortitude check: Standard or better on 3d6 + Fortitude holds the spell together, and you make that check again each time damage lands on you.
 
