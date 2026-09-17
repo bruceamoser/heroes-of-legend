@@ -215,48 +215,27 @@ Both land before the row-2 balance sweep, which remains the closing act of the b
 
 ---
 
-## 6. Appendix — #649 is not dispatchable as written
+## 6. Appendix — the #649 blocker, and how it resolved
 
-Found while preparing the Shields dispatch. **Do not send #649 to opencode until this is ruled.**
+Recorded because the resolution differed from what this appendix first proposed.
 
-The issue tells the agent to move Wall Shield off the card system and into equipment, and to
-"keep the equipment entry." But `16:25` says, in full:
+**The blocker.** #649 told the agent to move Wall Shield off the card system, but `16:25` then read
+that a shield item grants no number on its own, that shield DR comes from a card, and that Wall
+Shield and Ward of Faith were the only two printed sources. Three statements the ruling contradicted
+at once. Separately, `16:92` Shield Block reduced the damage *tier* rather than DR, so "Shield Block
+becomes the Reaction that applies shield DR" silently assumed one of two very different shields.
 
-> *Shield DR is the exception.* DR from a shield source is *shield DR*. **A shield item grants no
-> number on its own**; shield DR comes from a card, and **Wall Shield and Ward of Faith are the
-> only two printed sources**. It adds to your DR from other sources, after the ceiling below. No
-> combination of shield sources ever adds more than +3.
+**Resolution — 2026-09-16, PR #650, merged to `main` as `5f5c6f2`:**
 
-So the book currently states three things the ruling contradicts at once:
+- Shield Block now **applies the shield's DR**, replacing the tier reduction entirely.
+- Shield DR is set by **size class: small 1 / medium 2 / large 3**. Historical shield names are
+  flavor, not statistics. This supersedes the item ladder this appendix first proposed.
+- Shield DR never enters the DR total, so the printed 3/4/6 ceiling is untouched and no number
+  changed.
+- Ward of Faith was reworked: it improves a shield the target already wields.
+- The Shields maneuver ladder landed at **6 cards** — Interpose was kept, and Cover Ally was deleted
+  as its duplicate.
+- Ledger row **157** carries the ruling.
 
-1. **A shield grants no number.** Move Wall Shield to equipment and nothing carries the DR —
-   the number has to be re-homed onto the shield items themselves.
-2. **Shield DR comes from a card.** The ruling removes the cards.
-3. **Shield DR adds to your DR total** after the ceiling. The ruling moves it onto a Reaction
-   precisely so that it *does not* sit in the total.
-
-And a fourth, separate from the ruling: **`16:92` Shield Block does not currently apply DR at
-all.** It reduces the damage *tier* by one step (*Strong → Standard → Weak → 1*). The issue asserts
-Shield Block "becomes the Reaction that applies shield DR," which silently assumes the tier
-reduction either survives alongside the DR or is replaced by it. Those are very different shields.
-
-An agent handed this will invent the shield DR numbers and pick one of those two shield models,
-and both choices will land in the audit instead of before dispatch.
-
-### Proposed model (implemented defaults — strike either with one word)
-
-| # | Decision | Default |
-|---|---|---|
-| D1 | What number does each shield carry? | Use the scale the book already has at `16:31` (*"light 1, medium 2, heavy 3 … the same scale"*): **Buckler DR 1 · Shield DR 2 · Tower Shield DR 3** |
-| D2 | Does Shield Block keep its tier reduction? | **Yes** — keep *Strong → Standard → Weak → 1*, and have Shield Block apply shield DR on top of it, one attack per round |
-| D3 | Does the +3 shield cap at `16:25` survive? | **No** — with DR 1/2/3 per shield and one shield per character, the cap is already structural |
-| D4 | Is shield DR still "after the ceiling"? | **Yes, unchanged** — it never enters the DR total, so the 3/4/6 ceiling is untouched |
-
-Note that D2 is the one that moves power. Tier reduction is worth roughly DR 2/3/4 at
-Novice/Adept/Master (8−6, 11−8, 14−10), so shields that do *both* are materially stronger than
-shields that did the static-DR version. If you want the literal reading of 156 — *"the printed
-ceiling ladder 3/4/6 stands unchanged"* — then D2 should be **replace, not add**: Shield Block
-applies the shield's DR number and the tier-reduction text goes. My default takes the additive
-reading because it preserves existing printed behaviour; the subtractive reading is the more
-conservative one and equally defensible.
-
+Nothing here is open. The first-draft defaults (D1-D4) are superseded by the above and are not
+preserved as options.
