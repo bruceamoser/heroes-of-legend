@@ -207,7 +207,7 @@ Adept-tier skills and abilities unlock at Level 3. Master-tier at Level 7. At Le
 
 === Step 8: Equipment
 
-Receive your class's starting loadout (see @sec-chapter-classes). Record your weapon properties and your armor's slot cost; your attack ability cards carry the Weak, Standard, and Strong damage values, and your Damage Reduction is the highest of your armor's DR and any talent or ward that grants DR, and your tier caps the total. Shield DR never adds to it: the Shield Block reaction applies it to one attack per round. See @sec-chapter-equipment
+Receive your class's starting loadout (see @sec-chapter-classes). Record your weapon properties and your armor's slot cost; your attack ability cards carry the Weak, Standard, and Strong damage values, and your Damage Reduction is the highest of your armor's DR and any talent or ward that grants DR, and your tier caps the total. Shield DR never adds to it: a shield's DR arrives through the Shield Block reaction, which applies it to one attack per round. See @sec-chapter-equipment
 
 === Step 9: Derived Stats
 
