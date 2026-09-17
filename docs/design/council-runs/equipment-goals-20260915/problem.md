@@ -1,9 +1,34 @@
 # Council Request — Does equipment-as-flavour serve the goals?
 
-**Status:** open, for the HOL council
+**Status:** disposed, annotated 2026-09-16 (ledger row 149)
 **Raised by:** Bruce Moser, 2026-09-15
 **Supersedes in scope:** the equipment purge (#554) two-pass plan. That plan is mechanically sound
 but rests on a doctrine this request puts back on the table.
+
+> ### Disposition (Bruce, 2026-09-16, ledger row 149)
+>
+> The brief is ratified as a **dated record, not current evidence**. The two goals in section 1 stand
+> as the fixed reference for every downstream chapter. The measurement table in section 3 does not:
+> three of its rows were superseded by rulings made after it was written, and the finding the request
+> turns on was measured on a mechanism that has since been deleted.
+>
+> | Section 3 row | As written | Now |
+> |---|---|---|
+> | Standalone cards | 188 | **193** in the card chapters (**283** including class-ability cards) |
+> | Disciplines | 24 in 9 categories | **23 in 9** after the armament collapse (Weapon 5 to 4) |
+> | Cards carrying a `Kit:` field | 64 | **superseded entirely**: kits were retired |
+>
+> The kit-gate finding ("81% of kit gates are spellcasting foci; a warrior's weapon choice gates 10
+> cards") is **expired evidence**: the `Kit:` mechanism was removed by the collapse to
+> equipment-requiring disciplines. The brief's *question* was live and was answered by that ruling;
+> its *numbers* describe a state the book no longer has.
+>
+> Section 7's constraint (every "nothing exists that..." conclusion must be instrumented, not
+> asserted) is upheld, and is the reason section 3 is annotated rather than trusted.
+>
+> The live question this brief hands forward is the **DR invariant** in section 4 law 2
+> (`DR <= the band's Weak value`), carried by ledger rows **145** and **153**. Ratifying this brief
+> does not settle those.
 
 ---
 
@@ -25,13 +50,13 @@ damage."** The measurement says that for weapons, the middle term is doing almos
 
 | Quantity | Measured | How counted |
 |---|---|---|
-| Standalone cards | **188** | `*Disciplines:*` fields, all chapters |
+| Standalone cards | **188** ~~stale~~ **193** | `*Disciplines:*` fields, all chapters |
 | Gated by a Discipline rank | 141 | |
 | Gated `None` | 45 | the ungated floor layer |
-| Cards carrying a `Kit:` field | **64** | law 4 selective retrofit |
+| Cards carrying a `Kit:` field | ~~**64**~~ **retired** | law 4 selective retrofit |
 | — gated on a **spellcasting focus** | **52** | `focus:arcane` 32 · `focus:holy` 18 · `focus:primal` 2 |
 | — gated on a **weapon or shield** | **10** | `weapon:two-hand` 3 · `weapon:ranged` 3 · `weapon:one-hand` 2 · `weapon:unarmed` 1 · `shield` 1 |
-| Disciplines | 24 in 9 categories | |
+| Disciplines | ~~24~~ **23** in 9 categories | |
 | Combat round resources | Action 1 · Movement 1 · Maneuver 1 · Reaction 1/round · Free | `13:33-40` |
 | Damage | **no damage roll** — the attack tier IS the damage | `08:214` |
 | Damage bands | Novice `4/6/8` · Adept `5/8/11` · Master `7/10/14` | `08:205-217` |
