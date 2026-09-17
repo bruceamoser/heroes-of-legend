@@ -112,7 +112,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Basic Maneuver:* A combat technique available to everyone. Defend, Disengage, Aid, Shove, Grapple, Command, Catch Breath, Search, Stand Up, Use Item. Costs your Maneuver for the turn.
 
-*Damage Reduction (DR):* Subtracted from incoming physical damage, to a minimum of 1. Your armor grants it by weight class: 1 for light, 2 for medium, 3 for heavy, and a talent or ward can grant it instead. DR does not stack: if more than one source grants it, use the highest, and shield DR is the one exception, added after the ceiling. Your total from armor, talents, and wards cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A shield item grants no DR by itself: shield DR comes from cards, it is added after the ceiling, and no combination of shield sources ever adds more than +3.
+*Damage Reduction (DR):* Subtracted from incoming physical damage, to a minimum of 1. Your armor grants it by weight class: 1 for light, 2 for medium, 3 for heavy, and a talent or ward can grant it instead. DR does not stack: if more than one source grants it, use the highest. Your total from armor, talents, and wards cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. Shield DR is never part of that total: a shield carries its own DR rating by class, 1 for a small shield, 2 for a medium shield, and 3 for a large one, and the Shield Block reaction applies it to one attack per round.
 
 *Armor Weight Class:* Armor comes in three weight classes: Light (Padded, Leather, Studded Leather), Medium (Chain Shirt, Breastplate), and Heavy (Half Plate, Chain Mail, Plate). Light suits up in 1 minute, Medium in 5 minutes, Heavy in 10 minutes.
 
@@ -142,7 +142,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Protection Value (PV):* A temporary +1 bonus to your defense roll from abilities such as Bastion or Arcane Shield.
 
-*Shield Block:* A reaction that reduces incoming damage by one step: Strong becomes Standard, Standard becomes Weak, and Weak becomes 1. It cannot reduce damage below 1. Requires a shield.
+*Shield Block:* A reaction that reduces incoming damage by your shield's DR: 1 for a small shield, 2 for a medium shield, 3 for a large one. It cannot reduce damage below 1, and it applies to one attack per round. Requires a shield.
 
 *Opportunity Attack:* A free melee attack when an enemy leaves your reach without Disengaging.
 

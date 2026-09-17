@@ -107,7 +107,7 @@ When an NPC or monster attacks your hero, you make a *Defense Roll*. Which formu
 - *Agility* is your reaction speed, your footwork, your instinct to duck.
 - *Dodge* lets you get out of the way. It adds your Dodge rank to your Agility.
 - *Parry* lets you block with a weapon or shield, which requires one in hand. It adds your Parry rank to your Brawn. A shield enables Parry and Shield Block, but it never adds a roll bonus.
-- *Armor and shields* do not add to this roll. Your Damage Reduction (DR) is the highest of your armor's DR and any talent or ward that grants DR; shield DR is added on top. See @sec-chapter-armor-shields
+- *Armor and shields* do not add to this roll. Your Damage Reduction (DR) is the highest of your armor's DR and any talent or ward that grants DR. Shield DR is not part of that total: the Shield Block reaction applies it to one attack per round. See @sec-chapter-armor-shields
 - *Challenge* is a penalty the DA applies. A goblin might be −1 (barely a threat). A dragon might be −6 (good luck). The DA tells you the number before you roll. A monster's stat block prints this same number as a positive rating, so the Challenge 3 knight imposes −3 on your roll.
 
 === Reading the Defense Result

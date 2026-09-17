@@ -353,10 +353,9 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   columns: (24.00%, 16.00%, 18.00%, 42.00%),
   align: (auto, auto, auto, auto,),
   table.header([Shield], [Shields Req], [Shield DR], [Grants],),
-  [Buckler], [1], [1], [Parry, Shield Block; keeps your hand free],
-  [Shield], [1], [1], [Parry, Shield Block],
-  [Tower Shield], [2], [2], [Parry, Shield Block; half cover; -5 ft speed],
-  [Wall Shield], [3], [3], [Parry, Shield Block; half cover; -5 ft speed],
+  [Small: buckler, targe, parma], [1], [1], [Parry, Shield Block; keeps your hand free],
+  [Medium: heater, kite, round, rotella], [2], [2], [Parry, Shield Block],
+  [Large: aspis, scutum, tower, pavise], [3], [3], [Parry, Shield Block; half cover; -5 ft speed],
 )], kind: table, numbering: none, outlined: false)
 
 *Your Damage Reduction is the highest of your armor, a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. Shield DR is not part of that total: it is applied by the Shield Block reaction, one attack per round.* See @sec-chapter-armor-shields

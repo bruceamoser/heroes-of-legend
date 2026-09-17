@@ -77,15 +77,15 @@ What you wear is worth its points in DR: light armor grants 1, medium 2, heavy 3
 
 A shield is an active defense. You're not just wearing it, you're using it. When an attack comes in, you can throw the shield in its path.
 
-The number before each shield is a Discipline requirement: you need that many ranks in the Shields Discipline to wield it, with no exception. The full rules live in @sec-chapter-disciplines
+Shields come in three classes. The class sets the shield DR, and the Discipline requirement that follows it is how many ranks in the Shields Discipline you need to wield it, with no exception. The full rules live in @sec-chapter-disciplines
 
-*Buckler:* 1 Shields Discipline, shield DR 1. Small, strapped to the forearm. Leaves your hand free for a second weapon or a wand.
+*Small shields (1 Shields, shield DR 1).* A buckler, a targe, a parma. Gripped in the fist or strapped to the forearm, and light enough to keep working behind. A small shield leaves your hand free for a second weapon or a wand.
 
-*Shield:* 1 Shields Discipline, shield DR 1. The standard. Wood and iron, carried in the off hand.
+*Medium shields (2 Shields, shield DR 2).* A heater, a kite, a round shield, a rotella. Strapped to the arm and covering shoulder to hip. This is the standard.
 
-*Tower Shield:* 2 Shields Discipline, shield DR 2, half cover. A portable wall. You move at -5 ft speed while carrying it. You can plant it as a maneuver to grant full cover to one ally directly behind you.
+*Large shields (3 Shields, shield DR 3, half cover).* An aspis, a scutum, a tower shield, a pavise. A portable wall, big enough to hide most of you behind. You move at -5 ft speed while carrying one. You can plant it as a maneuver to grant full cover to one ally directly behind you.
 
-*Wall Shield:* 3 Shields Discipline, shield DR 3, half cover. The largest shield. You move at -5 ft speed while carrying it.
+The names are flavor, not statistics. A buckler, a targe, and a parma are all small shields, and all shield DR 1. Carry the one your character would actually carry.
 
 Speed penalties from shields do not stack: you take -5 ft once, no matter how many shields you carry or wield.
 
