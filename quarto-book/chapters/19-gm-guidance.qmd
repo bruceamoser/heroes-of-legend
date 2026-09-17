@@ -546,7 +546,7 @@ Most mechanical elements in _Heroes of Legend_ follow one of three card formats.
 
 Spells are the most structured. Every spell card answers the same questions in the same order.
 
-*Format:* `### Name (Cantrip | Arcane Spell | Divine Spell | Primal Spell)` then a single field line: `**Disciplines:** N Type · **Requires:** focus:arcane · **Action:** Action/Reaction/Maneuver · **Range:** Touch/30 ft/area · **Keywords:** ...` then *Weak:*, *Standard:*, *Strong:* outcomes.
+*Format:* `### Name (Tier Kind)`, with the tier always leading the parenthetical: `(Cantrip)`, `(Novice Arcane Spell)`, `(Adept Divine Spell)`, `(Master Primal Spell)`. Then a single field line: `**Disciplines:** N Type · **Requires:** focus:arcane · **Action:** Action/Reaction/Maneuver · **Range:** Touch/30 ft/area · **Keywords:** ...` then either a *Weak:* / *Standard:* / *Strong:* block or, for a spell that grants a flat benefit instead of dealing damage, a single *Effect:* line.
 
 #figure(
   align(center)[#table(
@@ -558,7 +558,7 @@ Spells are the most structured. Every spell card answers the same questions in t
     [*Action*], [What it costs from the turn economy: Action, Maneuver, or Reaction.],
     [*Range*], [How far the spell reaches: Touch, 30 ft, 60 ft, Self (15-ft cone), 20-ft radius, etc.],
     [*Keywords*], [Mechanics the card interacts with: Bane, Boon, Prone, Slowed, Piercing, DR, and so on.],
-    [*Weak / Standard / Strong*], [What happens on each result. Damage uses the budget table (@sec-damage-budget): 4/6/8, 5/8/11, or 7/10/14 by tier.],
+    [*Weak / Standard / Strong*], [What happens on each result. Damage uses the budget table (@sec-damage-budget): 4/6/8, 5/8/11, or 7/10/14 by tier. A spell that grants a flat benefit and is never rolled replaces this block with a single *Effect:* line. So do ancestry gifts, and so does any ability that grants a standing benefit rather than an outcome.],
   )],
   kind: table,
   outlined: false,

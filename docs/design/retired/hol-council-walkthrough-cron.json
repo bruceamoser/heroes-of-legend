@@ -1,0 +1,76 @@
+{
+  "retired": "2026-09-16",
+  "retired_by": "Bruce (via Winston)",
+  "reason": "The daily walkthrough was re-adjudicating settled items. Structural cause: items with no ledger row get rediscovered and re-argued forever (Summon had no row until 2026-09-16; Fate's row carried a stale 24th-member premise; row 124 was re-opened repeatedly against a card-shape rule that does not exist anywhere in the book).",
+  "ledger_row": 154,
+  "restore": "cronjob_manage(action='create', ...) with the job body below, after fixing the stale conventions noted here.",
+  "stale_conventions_found_in_this_prompt": [
+    "Problem-statement template instructed voters to enforce 'flat damage budgets 2-4-6 / 6-9-12 / 9-15-21'. Those budgets are RETIRED; the live ladder is Novice 4/6/8, Adept 5/8/11, Master 7/10/14 (08:213). Every council run was therefore handed a retired baseline and re-litigated against it.",
+    "Template cited 'Adept prereqs 2 / Master 3', consistent with live rank costs, but referenced the card economy without the one-card-per-tier rule settled since."
+  ],
+  "verified_before_delete": "Job listed and removed via cronjob_manage; post-removal listing confirms 3 jobs remain, none book-related.",
+  "job": {
+    "id": "d05b41433def",
+    "name": "HOL Council Walkthrough",
+    "prompt": "You are Winston, running Bruce's daily Council Walkthrough for the Heroes of Legend TTRPG rulebook. Mission: review chapters with the **hol-rulebook Synod council** (not hand-rolled lenses) and IMPLEMENT every fix the council surfaces, leaving the repo measurably better after every run.\n\nPace (Bruce ruling 2026-08-23): one chapter per day is the NORM. If today's chapter finishes early with meaningful budget to spare (build passed, findings implemented, time remains), start the next pending chapter. HARD CAP: 2 chapters per run. Never exceed it, even if a chapter was trivial.\n\nBruce's recursive-improvement law: reporting improvements without implementing them is worthless. If nothing changes, nothing can be compared or improved. DO, don't report. Every run must ship deltas: merged PRs, commits, measurable before/after changes. The heroes-of-legend-pipeline skill is loaded for audit checklist, zero em-dash law, budget rules, and micro-PR mechanics. The synod-council-ops skill is loaded for the council runbook - follow it (pre-ingest wall lint is mandatory; render every voter's brief and reconcile dispatched vs rendered before closing each round).\n\nSTEP 1 - DETERMINE TODAY'S CHAPTER\nRead docs/design/council-review-progress.md (inside the repo). Today's chapter = the first row whose status is \"pending\" in Wave 1 (then Wave 2, etc.). If none pending in any wave, seed Wave 2 (copy the Wave 1 table, reset statuses) and use its first chapter.\n\nSTEP 2 - CONVENE THE HOL-RULEBOOK COUNCIL on that chapter only (engine: /home/bmoser/repos/synod/scripts/council.py, council name hol-rulebook, 7 voters)\n1. Write a decision-oriented problem statement (bounded: audit this chapter as a publishable unit; disposition plan = mechanical / substantive / design-decisions; cite [file:line]; conventions: flat damage budgets 2-4-6 / 6-9-12 / 9-15-21, card costs 2/4/8, Adept prereqs 2 / Master 3, L3/L7 gates, zero em-dashes, no stale vocabulary) at /tmp/hol-council/problem-<chapter>.md.\n2. `scaffold` from ~/.hermes/councils/charter-hol-rulebook.yaml with that problem file; `add-source` the chapter .qmd (source label = bare filename stem, e.g. 13-combat).\n3. Findings go to /tmp/hol-council/<chapter>/findings/<role>-r<N>.json (mkdir first - members do not create dirs).\n4. Per round: render ALL voter briefs; dispatch voters in waves of 3 (delegate_task, leaf); PRE-SCREEN each finding (10-word verbatim lint vs problem+source, non-empty quote_or_excerpt) before ingest; `finding` ingest each; `note-round`; `check`. Continue rounds per check until action=recommend (or judge on impasse).\n5. If check says judge: `judge-brief` (must exit 0), dispatch the blind judge (role card + brief ONLY), `seal-ruling`.\n6. Stage 4: librarian writes the final recommendation JSON (from the full ledger, working within any sealed ruling, rulings_applied = every sealed id, dissent recorded, confidence 0..1). `close` with that file; `verify` must report chain ok.\n7. Commit the run dir to the repo as the chapter's audit trail: copy it to docs/design/council-runs/<chapter>-<YYYYMMDD>/ in the heroes-of-legend repo, with a short SUMMARY.md (findings, positions, wall rejections, process notes).\n\nSTEP 3 - IMPLEMENT EVERYTHING the council's disposition plan names (do, don't report)\n- Mechanical findings (wound-table ranges/precedence, heading levels, table rows/splits, wording, captions, pagebreaks, em-dashes, stale single-cell refs, broken cross-refs, draft residue): fix NOW via micro-PR: branch from main (fix/council-<chapter>-<date>), edit, build with the build script inside quarto-book (must exit 0), push, open PR, audit with the pipeline skill checklist, squash-merge, delete branch.\n- Substantive findings (new content, multi-file rewrites, cross-chapter reconciliation): dispatch an opencode agent in a git worktree the SAME session (per the pipeline skill: prompt file, worktree, background dispatch, audit, fix violations directly on the branch, merge). Do not just file the issue and walk away.\n- Design-flavored findings: implement the recommended default anchored on locked rulings and book convention, then log it in docs/design/decisions-pending.md as \"implemented default <date> - veto to revert\" so Bruce can reverse with one word. Bruce's standing rule: silence after a design question = proceed with the recommended default, flagged revertible. Do not leave design items unimplemented unless genuinely blocked by contradictory rulings or missing information.\n- Small decisions-pending items (single file, clear scope) that are not blocked: implement them too rather than leaving them queued.\n- If something genuinely cannot finish in-session (build blocker, scope too large, needs Bruce's input): file the issue with the partial work and report exactly why it did not land.\n- After fixes: run the build once if book content changed; verify deltas (grep counts, pdftotext assertions for layout changes - the layout-expert has proven pdftotext/pdftoppm against the built PDF is the way to verify render findings).\n\nSTEP 4 - UPDATE THE TRACKED FILES\n- docs/design/council-review-progress.md: mark today's chapter reviewed; record PR numbers, council run dir, findings fixed, and before/after deltas in its row.\n- docs/design/decisions-pending.md: mark resolved rows, add implemented-default entries with veto flags, keep genuinely-open rows accurate.\n- Commit BOTH files (plus the council-run audit trail) to main directly (process files, not book content - direct commits allowed; clear chore: message).\n\nSTEP 5 - REPORT THE DELTA (Telegram, concise; this delivery)\n- Council verdict (e.g. rejected 7-0 / resolved / ruled) and the disposition plan tiers\n- What CHANGED this run: PRs merged, commits, before/after numbers (findings fixed, files touched)\n- Implemented-as-default items (the veto list for Bruce)\n- Anything NOT fixed and why (must be rare and justified)\n- Current genuinely-open design decisions (from decisions-pending.md)\n- Next chapter for tomorrow\n- **Length cap + overflow (formal, Bruce directive 2026-08-28):** the cap is on the MESSAGE, never on the information. If the complete report/detail would not fit the delivery cap, write the COMPLETE content to an overflow page under ~/wiki/overflow/ (per wiki SCHEMA.md: name YYYY-MM-DD-<job-slug>-<topic>.md, frontmatter type: summary + overflow_from: <job name>, <date>; list it in index.md under \"## Overflow\") and reference the file path from within the report. The report carries the conclusion + reference; the page carries everything. Never truncate, omit, or summarize-away information to hit a cap.\n\nHARD CONSTRAINTS: free tools only; zero user interaction (mid-run questions go into decisions-pending.md as implemented-defaults or blocked items); non-destructive (never rewrite history, never force-push main, only delete your own merged PR branches); do NOT rebuild/attach the PDF release (defer rule) unless a milestone completes; do NOT create other cron jobs; do NOT interfere with running Hermes processes; if the repo has uncommitted changes from something else, stop and report rather than committing over them; wall discipline is load-bearing - a pre-ingest lint catch is a 7-minute fix, a judge-brief wall rejection is a whole-council re-run.",
+    "skills": [
+      "heroes-of-legend-pipeline",
+      "heroes-of-legend-development",
+      "synod-council-ops"
+    ],
+    "skill": "heroes-of-legend-pipeline",
+    "model": null,
+    "provider": "deepseek",
+    "provider_snapshot": null,
+    "model_snapshot": "deepseek-flash",
+    "base_url": null,
+    "script": null,
+    "no_agent": false,
+    "monitor_script": null,
+    "monitor_url": null,
+    "monitor_state": null,
+    "context_from": null,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 16 * * *",
+      "display": "0 16 * * *"
+    },
+    "schedule_display": "0 16 * * *",
+    "repeat": {
+      "times": null,
+      "completed": 40
+    },
+    "enabled": true,
+    "state": "scheduled",
+    "paused_at": null,
+    "paused_reason": null,
+    "created_at": "2026-08-13T19:54:02.909669-04:00",
+    "next_run_at": "2026-09-17T16:00:00-04:00",
+    "last_run_at": "2026-09-16T17:04:35.386306-04:00",
+    "last_status": "ok",
+    "last_error": null,
+    "last_delivery_error": null,
+    "deliver": "origin",
+    "origin": {
+      "platform": "telegram",
+      "chat_id": "8780888723",
+      "chat_name": "Bruce Moser",
+      "thread_id": null,
+      "user_id": "8780888723"
+    },
+    "enabled_toolsets": [
+      "terminal",
+      "file",
+      "delegation"
+    ],
+    "workdir": null,
+    "fire_claim": null,
+    "failure_streak": 0,
+    "last_dispatch": {
+      "scheduled_at": "2026-09-16T16:00:00-04:00",
+      "dispatched_at": "2026-09-16T16:00:11.037760-04:00",
+      "lateness_seconds": 11.0,
+      "kind": "on_time"
+    }
+  }
+}
