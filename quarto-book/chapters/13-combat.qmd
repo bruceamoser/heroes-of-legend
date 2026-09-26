@@ -499,7 +499,7 @@ Rolls 3d6 + Brawn (+2). Rolls 3, 3, 2 = 8 + 2 = 10. *Standard.* His Basic Melee 
 
 Roric steps in, warhammer raised, and lays into the Knight. "You're outmatched. Drop it." The DA calls for a Morale Check. Lyra rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. *Standard.* The Knight wavers, a Bane on his next attack.
 
-*End of Round 1.* The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 1). The cultists dealt 4 to Lyra. The Knight dealt 7 to Kael (8 − 1 DR). Nobody is down. Everyone is engaged. The next round will be decisive.
+*End of Round 1.* The party has dealt 2 total damage to the Knight (Kael's 1, Roric's 1). The cultists dealt 6 to Lyra. The Knight dealt 7 to Kael (8 − 1 DR). Nobody is down. Everyone is engaged. The next round will be decisive.
 
 *Round 2, Lyra's Turn:*
 

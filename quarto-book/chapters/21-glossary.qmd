@@ -24,7 +24,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Bell Curve:* The probability distribution of 3d6. Most rolls cluster around 9–12. Extreme results (3 and 18) are rare, about 0.5% each.
 
-*Card:* The printed container for a mechanical element of the game. Spells, class abilities, talents, weapon maneuvers, ancestry gifts, and magic items all print as cards; the shape differs, the container does not. A card is bought once, at its tier (2 DP Novice, 4 DP Adept, 8 DP Master), or, in the case of a magic item, found rather than bought. There is no upgrading a card in place: the Adept and Master members of a family are separate cards with their own names. A mundane item of equipment is not a card. Gear is bought with gold, and its properties live in @sec-chapter-equipment.
+*Card:* The printed container for a mechanical element of the game. Spells, class abilities, talents, weapon maneuvers, ancestry gifts, and magic items all print as cards; the shape differs, the container does not. A card is bought once, at its tier (2 DP Novice, 4 DP Adept, 8 DP Master), or, in the case of a magic item, found rather than bought. There is no upgrading a card in place: the Adept and Master members of a family are separate cards with their own names. A mundane item of equipment is not a card. Gear is bought with gold, and its properties live in @sec-chapter-equipment
 
 *Boon:* Roll 4d6 and keep the highest three. A second step rolls 5d6 kept three, a third rolls 6d6 kept three, and three steps is the ceiling. Boons and Banes cancel one for one. Halflings get a boon once per session from their Lucky trait.
 
@@ -228,7 +228,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Challenge:* A penalty the DA applies to your roll when the world or an opponent opposes you. A goblin might be -1 (barely a threat) and a dragon -6 (good luck), and the DA tells you the number before you roll. A monster's stat block prints the same number as a positive rating, so a Challenge 3 knight imposes -3 on your roll. See @sec-chapter-core-resolution
 
-*Challenge ½ (C½):* The minion-tier Challenge rating. Creatures at Challenge ½ (goblins, bandits, cultists) are individually weak and meant to be fought in numbers.
+*Challenge ½ (C½):* The minion-tier Challenge rating. Creatures at Challenge ½ (goblins, bandits, cultists) are individually weak and meant to be fought in numbers. They impose -1 on your roll, the same as a Challenge 1 creature.
 
 *Difficulty Modifier:* A bonus or penalty the DA applies to a roll based on how hard the task is. Ranges from +4 (Trivial) to -6 (Nearly Impossible).
 
