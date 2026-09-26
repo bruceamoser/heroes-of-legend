@@ -170,6 +170,8 @@ and Kael holds none, which is the same gear-permission family as Part 2 rather t
 | W-1-03 | `06:111`, `21:231` | GAP with a determinate answer: Challenge ½ has no printed penalty | fixed 2026-09-26 (ledger row 163) |
 | W-1-04 | `13:502` | defect: round-summary damage total contradicts the round | fixed 2026-09-26 (ledger row 163) |
 | W-1-05 | `13:292`, `13:466` | readability: an unstated Precision substitution; a shield without its rank | logged here, no filing (covered by row 161's family) |
+| W-1-06 | `15:121`, `15:123`, `15:154`, `16:80`, `16:86`, `08:195`, `05:193`, `05:263` | defect: a weapon's and a shield's entry requirement are each printed two ways | ledger row 164 (needs one word) |
+| W-1-07 | `08:195`, `21:27` | defect: a typed period after a sentence-final crossref doubled it in the render ("Chapter 18..") | fixed 2026-09-26 (ledger row 163); found by the render check, not the source read, and the live gate read 2 on a clean `main` |
 
 **Answer to the instrument's question  -  can a new player build a hero and resolve a scene from
 the book alone?** Yes for the scene; not yet for the hero. Every roll, tier, and damage number in
