@@ -152,7 +152,7 @@ Not all wounds are created equal. A slash bleeds. A burn blisters. A psychic ass
 
 *Magical:* Force, Radiant, Necrotic, Psychic. The esoteric damage types. Force is raw magical energy, the wizard's hammer. Radiant is divine light, the shepherd's fire. Necrotic is death made manifest, the unbalancing touch. Psychic attacks the mind directly. The brain has no armor.
 
-Resistances and vulnerabilities modify damage of specific types. A creature resistant to Fire takes half damage from your Ember Lance (round down). A creature vulnerable to Slashing takes double from your longsword. The DA will tell you when it matters. Part of the game's fun is discovering, through play, that the shambling horror in the swamp stops regenerating when you hit it with fire.
+Resistances and vulnerabilities modify damage of specific types. A creature resistant to Fire takes half damage from your Ember Lance (round down). A creature vulnerable to Slashing takes double from your longsword. Apply the type modifier first, subtract DR after it, and floor the result at 1, because a hit always lands for something. The DA will tell you when it matters. Part of the game's fun is discovering, through play, that the shambling horror in the swamp stops regenerating when you hit it with fire.
 
 #pagebreak()
 
