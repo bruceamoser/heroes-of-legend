@@ -1407,3 +1407,25 @@ The six bullets were then pinned to verified printed sites (`13:40`, `13:51`, `1
 **Housekeeping.** Both worktrees removed, local and remote branches deleted after proving each merge (`git cherry` for the squash-identical one, the merged-PR lookup for the other), #774 and #752 verified CLOSED, `main` synced at `348e368`, one clean checkout, scratch files noted for the 72h self-prune.
 
 **Next.** The queue is empty: **0 open issues, 0 open PRs, ledger 227 with no ruled-and-unbuilt mark.** That means the next wake takes priority 1, and the act will be **the review** (`docs/design/architect/review.md`, which was last rewritten at cycle 45 and so does not yet know about the healing economy, the wound arc's exit, or the tactics section). The review's current weakest list, by harm at a table, is the printed-play ceiling (the flagship example is level 3 and printed play stops at level 2), the bestiary's priority gap (41 of 49 blocks say nothing about who to hit), and Adept as the tightest tier. Those are the three candidates for the next work order, in that order.
+
+---
+
+## Cycle 54 (2026-09-27) — the review, and the price of a scar
+
+The queue emptied at `f7e5328` (0 issues, 0 PRs, ledger 227 with no unbuilt mark), so priority 1 fired and the act was **the review** (`docs/design/architect/review.md`, rewritten at `f64c94f`). One micro-PR of my own landed alongside it: **#774's dependents sweep had one survivor** (`19:486`, PR #786).
+
+**The review's leading item is new information, not a re-reading.** Three rulings landed in the last two days and had never been read together: a Wound is taken on **every** drop whether or not Grit is spent (`13:355`), **nothing gives one back** (`13:450`), and **four Wounds ends the hero** (`13:454`). Joined, they say a hero's entire career is four drops to 0 HP, because Grit is spent *after* the drop and does not prevent the Wound.
+
+**The rate, measured two ways and agreeing.** `heal-threshold-sim.py`: a Standard fight costs a party of four **4 Grit spends, therefore 4 Wound rolls**, at every tier with no healer. `rounds-to-resolve.py`, which does not know the exit exists: the same fight is 73 / 81 / 71% of the party's pool, with the drop at 4.2 / 3.7 / 3.6 rounds against fights of 3.79 / 3.73 / 3.27. Played rather than modelled it is worse, because damage concentrates: W-005's play of the book's own printed Adept Standard encounter had the focused hero spend **40 of 56, two drops**, while the other three spent 14 between them; W-003's played round put **two heroes at 0 HP in one round**.
+
+**So: 16 Wounds of party career, about 4 spent per Standard fight.** Four Standard fights per party, about two for the front-liner, against `18:23`'s printed career of one level per two to three sessions and level 10 in about half a year. The tracks are out by several times, and **`19:53` is the one that is wrong**: it prices its rungs in staying power, which comes back, and never in the currency that does not.
+
+**Named repair, next work order:** price `19:53`'s rungs in Wound rolls, and make `18:23` say whether its pace describes one hero or a party that rotates. No ruling is reversed: the exit stays where cycle 53 put it, and no recovery channel is restored (#774 is Bruce's).
+
+**Second item, also measured:** a dedicated healer is a net cost from Adept up (4 Wound rolls without one, **5 at Adept and 7 at Master with one**), because a healer's Action is a fight that runs longer. Its limit is stated in the instrument (it cannot price the Wound roll a heal prevents); the lever is the axis *Staunch* and *Set Bone* opened this week.
+
+**Third:** 41 of 49 blocks still carry no party-facing priority cue, but the five where choosing wrong breaks an encounter all do, and the frame is printed (`20:32`, `13:317`). Left alone deliberately.
+
+**Housekeeping.** Worktree-free cycle; `main` synced at `f64c94f`; PR #786's branch deleted on merge; scratch noted for the 72h self-prune.
+
+**Next.** The queue is empty again, so the next wake takes priority 1 only if nothing is filed; otherwise the act is **the first work order this review produced**: the career clock in ch19 + `18:23`. The review's own ranked list after that is unchanged (the printed-play ceiling, then the healer's cost).
