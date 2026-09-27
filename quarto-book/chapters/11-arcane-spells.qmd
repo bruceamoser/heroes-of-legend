@@ -264,9 +264,9 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Weak:* 5 lightning damage to all adjacent targets (Agility or Dodge rank resists).
 
-*Standard:* 8 lightning damage to all adjacent.
+*Standard:* 8 lightning damage to all adjacent targets; targets lose their Maneuver.
 
-*Strong:* 11 lightning damage to all adjacent; targets lose their Maneuver.
+*Strong:* 11 lightning damage to all adjacent targets; targets lose their Maneuver and cannot take Reactions until the end of their next turn.
 
 === Wind Wall (Adept Arcane Spell)
 *Disciplines:* 2 Wind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Bane
@@ -338,9 +338,9 @@ _Placeholder for final art._
 
 *Weak:* 4 poison damage.
 
-*Standard:* 6 poison damage; Fortitude check or Bane.
+*Standard:* 6 poison damage; the target has Bane on its next attack.
 
-*Strong:* 8 poison damage; Fortitude check or lose Maneuver.
+*Strong:* 8 poison damage; the target has Bane on its next attack and loses its Maneuver.
 
 == Energy Spells
 
@@ -448,9 +448,9 @@ _Placeholder for final art._
 
 *Weak:* 5 necrotic damage.
 
-*Standard:* 8 necrotic damage; Fortitude check or Unconscious.
+*Standard:* 8 necrotic damage; the target is Unconscious.
 
-*Strong:* 11 necrotic damage; Fortitude check or die at 0 HP.
+*Strong:* 11 necrotic damage; the target drops to 0 HP and begins Dying.
 
 === No Crossing (Adept Arcane Spell)
 *Disciplines:* 2 Energy · *Action:* Action · *Range:* 30 ft · *Keywords:* Control
@@ -580,7 +580,7 @@ This DR does not stack with any other source of DR.
 
 *Standard:* The illusion lasts 2 turns.
 
-*Strong:* The illusion lasts 3 turns and also produces sound; those who fail a Reason check have Bane.
+*Strong:* The illusion lasts 3 turns and also produces sound; one creature of your choice that sees it has Bane on its next attack.
 
 === Mind Crown (Adept Arcane Spell)
 *Disciplines:* 2 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft, 1 scene · *Keywords:* None
