@@ -270,7 +270,7 @@ Give the horse a name. It'll die in session three and you'll all be genuinely up
 
 Fighting from horseback isn't just "combat but taller." It changes the geometry of the fight. Use it.
 
-*Charge Attack:* Here's the big one. When you move at least 20 feet in a straight line before making a melee attack from a mount, your attack deals +1 damage tier, the row one step up on the damage budget (see @sec-damage-budget) Strong is already the top row, so a Strong charge stays Strong.
+*Charge Attack:* Here's the big one. When you move at least 20 feet in a straight line before making a melee attack from a mount, your attack deals +1 damage tier, the row one step up on the damage budget (see @sec-damage-budget). Strong is already the top row, so a Strong charge stays Strong.
 
 #figure(
   align(center)[#table(
