@@ -116,7 +116,7 @@ The NPC's stat block lists three damage values: Strong, Standard, and Weak, repr
 
 === Why NPC Damage Is Reversed
 
-When you attack, a high roll means you hit hard (Strong damage). When you defend, a high roll means _they_ hit soft (Weak damage). The dice work the same way, but your relationship to them flips. This reversal is the mechanical price of keeping the dice in the players' hands, and it keeps the math identical to a traditional system where the DA rolls for monsters. The only difference is whose hands are on the dice, and we would rather those hands belong to the players.
+When you attack, a high roll means you hit hard (Strong damage). When you defend, a high roll means _they_ hit soft (Weak damage). The dice work the same way, but your relationship to them flips. This reversal is the mechanical price of keeping the dice in the players' hands, and it keeps the math identical to a traditional system where the DA rolls for monsters. The only difference is whose hands are on the dice, and we would rather those hands belong to the players. The reversal converts an NPC's attack modifiers too: an advantage on an attack against you (an adjacent ally's *Pack Tactics*, a leader's *Leadership*) is a Boon on your Defense roll, and a disadvantage on that attack is a Bane. Cover is the same conversion read the other way: its Bane sits on the attack, so it lands on your roll as a Boon.
 
 === Quick Reference: Defense Roll Modifiers
 
@@ -128,7 +128,8 @@ When you attack, a high roll means you hit hard (Strong damage). When you defend
     [+Dodge rank], [*Dodge* (Agility-based)],
     [+Parry rank], [*Parry* (Brawn-based, requires a weapon or shield)],
     [Boon], [*Defend* maneuver (one round)],
-    [Bane], [*Cover* (half or full cover)],
+    [Boon], [*Cover*: half cover],
+    [Triple Boon], [*Cover*: full cover],
     [−1 to −6], [*NPC Challenge* (DA sets based on enemy skill)],
     [Bane], [*Surprised* (first roll)],
     [Three 6s], [*Critical defense*: the defense automatically succeeds],
@@ -203,7 +204,7 @@ Conditions are the status effects that change how a creature behaves in combat. 
     [*Hidden*], [Attacks against you have Bane], [You attack, or the concealment ends],
     [*Incapacitated*], [No actions], [Source duration],
     [*Invisible*], [Cannot be targeted directly], [Attack/action ends],
-    [*Marked*], [Always by a specific creature: no Cover or Concealment against it or its allies, its attacks against you gain a Boon, and a Mark from a sworn naming also blocks belief and gifts freely given], [Source ends it, the marker is downed, or you make amends],
+    [*Marked*], [Always by a specific creature: no Cover or Concealment against it or its allies, its attacks against you gain a Boon (a Bane on your Defense roll), and a Mark from a sworn naming also blocks belief and gifts freely given], [Source ends it, the marker is downed, or you make amends],
     [*Paralyzed*], [Incapacitated + auto-crit if hit], [Source duration],
     [*Petrified*], [Turned to stone, incapacitated, DR +5, immune to non-magical damage], [Special],
     [*Poisoned X*], [Takes X poison damage per round and attacks at Bane], [Spend an action to end],

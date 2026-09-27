@@ -104,7 +104,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
   [*Hidden*], [Attacks against you have Bane], [You attack, or the concealment ends],
   [*Incapacitated*], [No actions], [Source duration],
   [*Invisible*], [Cannot be targeted directly], [Attack/action ends],
-  [*Marked*], [Always by a specific creature: no Cover or Concealment against it or its allies, its attacks against you gain a Boon, and a sworn naming also blocks belief and free gifts], [Source, marker downed, or amends],
+  [*Marked*], [Always by a specific creature: no Cover or Concealment against it or its allies, its attacks against you gain a Boon (a Bane on your Defense roll), and a sworn naming also blocks belief and free gifts], [Source, marker downed, or amends],
   [*Paralyzed*], [Incapacitated + auto-crit if hit], [Source duration],
   [*Petrified*], [Turned to stone, incapacitated, DR +5, immune to non-magical damage], [Special],
   [*Poisoned X*], [Takes X poison damage per round and attacks at Bane], [Spend an action to end],
@@ -166,6 +166,8 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
   [Half cover], [Bane],
   [Full cover], [Triple Bane],
 )], kind: table, numbering: none, outlined: false)
+
+The Bane sits on the attack, so on your Defense roll it is a Boon: half cover is a Boon, full cover a triple Boon.
 
 #pagebreak()
 
