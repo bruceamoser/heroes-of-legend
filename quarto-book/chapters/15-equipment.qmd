@@ -120,7 +120,7 @@ Improvised weapons (a crowbar swung as a club, a hammer in a pinch) deal 1/1/2 +
 #callout(type: "note", title: "Armament Categories", body: [
 A weapon's category is its entry requirement: 1 Melee, 1 Two-Handed, 1 Ranged, and no rank for Unarmed. The named weapon is flavor; the category is the gate.
 
-A shield takes Shields ranks by its size: 1 for a small shield, 2 for a medium one, 3 for a large one. It takes slots on the same ladder: 1 for a small shield, 2 for a medium one, 3 for a large one. A weapon or shield you carry does what its entry says; a card that requires a shield requires you to be wielding one.
+A shield takes Shields ranks by its size: 1 for a small shield, 2 for a medium one, 3 for a large one. It takes slots on the same ladder. A weapon or shield you carry does what its entry says; a card that requires a shield requires you to be wielding one.
 ])
 
 *Properties:*
