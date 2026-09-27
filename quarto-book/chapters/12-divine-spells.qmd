@@ -90,6 +90,8 @@ Primal cantrips are the small tricks of the wild, calling and listening rather t
 
 _See @sec-chapter-magic-system It explains how spellcasting works._
 
+Life magic reaches a wound two ways: the divine hand closes it now and at a distance, and the primal hand closes it slowly, from what it gathered and brewed before the fight began.
+
 === Mending Touch (Novice Divine Spell)
 *Disciplines:* 1 Life · *Requires:* focus:holy · *Cast:* Action · *Range:* Touch · *Keywords:* Bane
 
@@ -99,14 +101,14 @@ _See @sec-chapter-magic-system It explains how spellcasting works._
 
 *Strong:* The target's HP rises to its maximum, the target removes one Bane, and the target gains a Boon on their next check.
 
-=== Staunch (Novice Divine Spell)
-*Disciplines:* 1 Life · *Requires:* focus:holy · *Cast:* Maneuver · *Range:* Touch · *Keywords:* Healing
+=== Clotting Word (Novice Divine Spell)
+*Disciplines:* 1 Life · *Requires:* focus:holy · *Cast:* Action · *Range:* 30 ft · *Keywords:* Healing
 
-*Weak:* The flow slows to a seep. The wound deals no damage at the start of the target's next turn.
+*Weak:* The bleeding slows to a seep; the wound deals no damage at the start of the target's next turn.
 
 *Standard:* The bleeding stops for the rest of the encounter.
 
-*Strong:* The wound is bound. The bleeding stops and stays stopped.
+*Strong:* The bleeding stops for the rest of the encounter, and the wound is bound: it stays stopped.
 
 === Restoration (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Cast:* Action · *Range:* 30 ft · *Keywords:* Condition
@@ -136,7 +138,7 @@ _See @sec-chapter-magic-system It explains how spellcasting works._
 *Strong:* Every ally in range rises to their maximum HP and every condition on them ends.
 
 === Flesh Renewal (Adept Divine Spell)
-*Disciplines:* 2 Life · *Requires:* focus:holy · *Cast:* Action · *Range:* Touch, 3 rounds · *Keywords:* Recurring
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Cast:* Action · *Range:* Touch · *Duration:* 3 rounds · *Keywords:* Recurring
 
 *Weak:* Recurring 2 healing per round for 3 rounds, to a maximum of 5.
 
@@ -145,7 +147,7 @@ _See @sec-chapter-magic-system It explains how spellcasting works._
 *Strong:* Recurring 4 healing per round for 3 rounds, to a maximum of 11.
 
 === Severance Undone (Adept Divine Spell)
-*Disciplines:* 2 Life · *Requires:* focus:holy · *Cast:* Action · *Range:* Touch, 3 rounds · *Keywords:* Recurring
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Cast:* Action · *Range:* Touch · *Duration:* 3 rounds · *Keywords:* Recurring
 
 *Effect:* 5/8/11 healing total over 3 rounds; regrow a limb over a day.
 
@@ -164,13 +166,49 @@ _See @sec-chapter-magic-system It explains how spellcasting works._
 *Effect:* Return a creature that died within the last minute to life at half its maximum HP.
 
 === Blood Trail (Adept Primal Spell)
-*Disciplines:* 2 Life · *Cast:* Action · *Range:* 30 ft · *Keywords:* Divination
+*Disciplines:* 2 Life · *Requires:* focus:primal · *Cast:* Action · *Range:* 30 ft · *Keywords:* Divination
 
 *Weak:* Blood spilled within the last day glows faintly for your eyes alone.
 
 *Standard:* As weak, and you learn whether the blood came from a creature you have seen before.
 
 *Strong:* As standard, and the trail of that blood lights the path its owner took, up to the next running water.
+
+=== Bloodstop (Novice Primal Spell)
+*Disciplines:* 1 Life · *Requires:* focus:primal · *Cast:* Action · *Range:* Touch · *Keywords:* Healing
+
+*Weak:* The bleeding slows to a seep; the wound deals no damage at the start of the target's next turn.
+
+*Standard:* The bleeding stops for the rest of the encounter.
+
+*Strong:* The bleeding stops for the rest of the encounter, and the target cannot bleed again this encounter.
+
+=== Bitterroot (Novice Primal Spell)
+*Disciplines:* 1 Life · *Requires:* focus:primal · *Cast:* Action · *Range:* Touch · *Duration:* 3 rounds · *Keywords:* Recurring
+
+*Weak:* Recurring 2 healing per round for 3 rounds, to a maximum of 4.
+
+*Standard:* Recurring 3 healing per round for 3 rounds, to a maximum of 6.
+
+*Strong:* Recurring 4 healing per round for 3 rounds, to a maximum of 8.
+
+=== Bone Knit (Adept Primal Spell)
+*Disciplines:* 2 Life · *Requires:* focus:primal · *Cast:* 1 hour (foraged ingredients, and a patient at rest) · *Range:* Touch · *Keywords:* Healing
+
+*Weak:* The injury eases its grip. The Bane it imposes lifts, and the target's HP rises to half their maximum.
+
+*Standard:* The injury is treated. The bone sets and the limb works, or the lung clears and the breath comes full, and the target's HP rises to their maximum.
+
+*Strong:* The injury is treated, and the target's HP rises to their maximum, and the target gains a Boon on their next check.
+
+=== Wild Renewal (Master Primal Spell)
+*Disciplines:* 3 Life · *Requires:* focus:primal · *Cast:* Action · *Range:* 15 ft · *Duration:* 3 rounds · *Keywords:* Recurring
+
+*Weak:* Every ally in range regains 3 HP at the start of each of their turns for 3 rounds, to a maximum of 7 each.
+
+*Standard:* Every ally in range regains 4 HP at the start of each of their turns for 3 rounds, to a maximum of 10 each.
+
+*Strong:* Every ally in range regains 5 HP at the start of each of their turns for 3 rounds, to a maximum of 14 each.
 
 == Protection Spells
 
@@ -395,7 +433,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 *Strong:* Creatures passing through take 11 piercing damage and are Restrained.
 
 === Raise Cover (Adept Primal Spell)
-*Disciplines:* 2 Plants · *Cast:* Action · *Range:* 30 ft · *Keywords:* Terrain
+*Disciplines:* 2 Plants · *Requires:* focus:primal · *Cast:* Action · *Range:* 30 ft · *Keywords:* Terrain
 
 *Weak:* A slab of earth rises to knee height from an empty space; it breaks a low line of sight and can be used as cover.
 
@@ -404,7 +442,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 *Strong:* As standard, and the slab stays standing after the spell ends until it is broken down.
 
 === Rootgrab (Adept Primal Spell)
-*Disciplines:* 2 Plants · *Cast:* Action · *Range:* 60 ft · *Keywords:* Growth
+*Disciplines:* 2 Plants · *Requires:* focus:primal · *Cast:* Action · *Range:* 60 ft · *Keywords:* Growth
 
 *Weak:* Roots twist up around one creature's feet; the ground is difficult, and it is at Bane on its next roll to move.
 
@@ -413,7 +451,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 *Strong:* Roots seize one creature's feet; it is Restrained until it Escapes (Standard Athletics, once per turn), and its Escapes are at Bane while the roots hold.
 
 === Ground Refuses (Adept Primal Spell)
-*Disciplines:* 2 Plants · *Cast:* Action · *Range:* 60 ft · *Keywords:* Terrain
+*Disciplines:* 2 Plants · *Requires:* focus:primal · *Cast:* Action · *Range:* 60 ft · *Keywords:* Terrain
 
 *Weak:* The ground under one creature turns to loose dust; it slips and is Prone.
 
@@ -422,7 +460,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 *Strong:* As standard, and it stays Prone until it reaches stone, water, or another surface you did not name.
 
 === Tree Remembers (Adept Primal Spell)
-*Disciplines:* 2 Plants · *Cast:* Action · *Range:* Touch · *Keywords:* Divination
+*Disciplines:* 2 Plants · *Requires:* focus:primal · *Cast:* Action · *Range:* Touch · *Keywords:* Divination
 
 *Weak:* You touch a tree and see the last face that passed beneath it.
 
@@ -433,7 +471,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 == Earth Spells
 
 === Ask the Land (Adept Primal Spell)
-*Disciplines:* 2 Earth · *Cast:* Action · *Range:* Touch · *Keywords:* Divination
+*Disciplines:* 2 Earth · *Requires:* focus:primal · *Cast:* Action · *Range:* Touch · *Keywords:* Divination
 
 *Weak:* You touch bare ground and learn the direction of the nearest settlement, water, or road.
 
@@ -442,7 +480,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 *Strong:* As standard, and the ground shows you the last creature's shape clearly enough to name its kind and its gait.
 
 === Take the Heat (Adept Primal Spell)
-*Disciplines:* 2 Earth · *Cast:* Action · *Range:* 30 ft · *Keywords:* Fire
+*Disciplines:* 2 Earth · *Requires:* focus:primal · *Cast:* Action · *Range:* 30 ft · *Keywords:* Fire
 
 *Weak:* A fire within range goes out, and its wood is cold to the touch.
 
@@ -453,7 +491,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 == Wind Spells
 
 === Fog That Answers (Adept Primal Spell)
-*Disciplines:* 2 Wind · *Cast:* Action · *Range:* 60 ft · *Keywords:* Weather
+*Disciplines:* 2 Wind · *Requires:* focus:primal · *Cast:* Action · *Range:* 60 ft · *Keywords:* Weather
 
 *Weak:* You call a fog that fills the area, and you and those you name can see through it.
 
@@ -462,7 +500,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 *Strong:* As standard, and the fog follows you at a walking pace, keeping you at its center, until you let it go.
 
 === River Rise (Master Primal Spell)
-*Disciplines:* 3 Wind · *Cast:* Action · *Range:* 120 ft · *Keywords:* Water
+*Disciplines:* 3 Wind · *Requires:* focus:primal · *Cast:* Action · *Range:* 120 ft · *Keywords:* Water
 
 *Weak:* A river or stream within range rises over its banks; fording it becomes impossible.
 
