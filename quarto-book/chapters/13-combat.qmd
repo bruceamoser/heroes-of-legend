@@ -18,7 +18,7 @@ Attacks always hit. Every swing changes the board. Your job isn't to avoid getti
 
 == Initiative: Who Goes First
 
-When blades come out, everyone rolls. *3d6 + Agility modifier.* Highest goes first. Ties go to the higher Agility score; if it's still tied, roll off.
+When blades come out, everyone rolls. *3d6 + Agility modifier.* Highest goes first. Ties go to the higher Agility score; if it's still tied, roll off. A player rolls for each creature on the DA's behalf, so the DA still never touches the dice. A creature with no Attributes line rolls at +0.
 
 No convoluted surprise rounds. No phases. Roll, sort, go.
 

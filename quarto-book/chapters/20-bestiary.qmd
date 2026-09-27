@@ -21,7 +21,7 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
   align: (auto, auto,),
   table.header([Field], [Description],),
   [*Name*], [Creature type and challenge rating],
-  [*Attributes*], [B/F/A/G/K/R modifiers. Most monsters have 0s in attributes they don't use.],
+  [*Attributes*], [B/F/A/G/K/R modifiers, from -2 to +2. Most monsters have 0s in the attributes they don't use, so a block lists only the ones it does use and finishes with *others +0*. A block with no Attributes line uses +0 in every attribute.],
   [*HP*], [Health points. When this hits 0, the creature is defeated.],
   [*DR*], [Damage reduction. Subtract from physical damage just like hero armor.],
   [*Attacks*], [W/S/S damage per attack. Weak/Standard/Strong values.],
@@ -81,13 +81,13 @@ HP 17, DR 0. Attributes: Brawn -1, Fortitude 0, Agility 0, Guile 0, Knowledge -1
 
 === Stirge (Challenge 1/2)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Agility +2, Brawn -2, others +0.
 
 *Proboscis:* 4/6/8 piercing + attach. On a hit, the stirge latches onto the target. While attached, it automatically deals 2 damage each round. A creature can use a Maneuver to make a Brawn check to detach the stirge. Tiny flyer, the stirge dies if it takes any damage while attached.
 
 === Dire Boar (Challenge 2)
 
-HP 11, DR 2.
+HP 11, DR 2. Attributes: Brawn +2, Fortitude +1, others +0.
 
 *Gore:* 4/6/8.
 
@@ -99,7 +99,7 @@ HP 11, DR 2.
 
 === Bandit (Challenge 1/2)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Agility +1, others +0.
 
 *Shortsword:* 4/6/8.
 
@@ -109,13 +109,13 @@ HP 17, DR 0.
 
 === Guard (Challenge 1/2)
 
-HP 14, DR 2 (chain shirt and a shield).
+HP 14, DR 2 (chain shirt and a shield). Attributes: Brawn +1, Fortitude +1, others +0.
 
 *Spear:* 4/6/8.
 
 === Cultist (Challenge 1/2)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Fortitude +1, Guile +1, others +0.
 
 *Dagger:* 4/6/8.
 
@@ -125,7 +125,7 @@ HP 17, DR 0.
 
 === Knight (Challenge 3)
 
-HP 10, DR 3 (plate).
+HP 10, DR 3 (plate). Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
 
 *Longsword:* 5/8/11.
 
@@ -135,7 +135,7 @@ HP 10, DR 3 (plate).
 
 === Archmage (Challenge 6)
 
-HP 16, DR 2.
+HP 16, DR 2. Attributes: Knowledge +2, Reason +1, Brawn -1, others +0.
 
 *Dagger:* 5/8/11.
 
@@ -151,7 +151,7 @@ HP 16, DR 2.
 
 === Goblin (Challenge 1/2)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Agility +1, Brawn -1, others +0.
 
 *Scimitar:* 4/6/8 slashing.
 
@@ -165,7 +165,7 @@ HP 17, DR 0.
 
 === Hobgoblin (Challenge 1/2)
 
-HP 14, DR 1 (chain shirt).
+HP 14, DR 1 (chain shirt). Attributes: Brawn +1, Fortitude +1, others +0.
 
 *Longsword:* 4/6/8 slashing.
 
@@ -177,7 +177,7 @@ HP 14, DR 1 (chain shirt).
 
 === Bugbear (Challenge 1)
 
-HP 14, DR 1 (hide).
+HP 14, DR 1 (hide). Attributes: Brawn +2, Agility +1, others +0.
 
 *Morningstar:* 4/6/8 bludgeoning. Reach 10 ft.
 
@@ -191,7 +191,7 @@ HP 14, DR 1 (hide).
 
 === Goblin Shaman (Challenge 1)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Guile +1, Knowledge +1, others +0.
 
 *Staff:* 4/6/8 bludgeoning.
 
@@ -207,7 +207,7 @@ HP 17, DR 0.
 
 === Orc (Challenge 1/2)
 
-HP 14, DR 1 (hide).
+HP 14, DR 1 (hide). Attributes: Brawn +1, Fortitude +1, others +0.
 
 *Greataxe:* 4/6/8 slashing.
 
@@ -219,7 +219,7 @@ HP 14, DR 1 (hide).
 
 === Orc Warchief (Challenge 3)
 
-HP 10, DR 3 (plate).
+HP 10, DR 3 (plate). Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
 
 *Greataxe:* 5/8/11 slashing.
 
@@ -246,7 +246,7 @@ _Placeholder for final art._
 
 === Skeleton (Challenge 1/2)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Agility +1, Brawn -1, others +0.
 
 *Shortsword:* 4/6/8.
 
@@ -258,7 +258,7 @@ HP 17, DR 0.
 
 === Zombie (Challenge 1/2)
 
-HP 14, DR 1.
+HP 14, DR 1. Attributes: Brawn +1, Fortitude +1, others +0.
 
 *Slam:* 4/6/8.
 
@@ -268,7 +268,7 @@ HP 14, DR 1.
 
 === Ghoul (Challenge 1)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Agility +2, Brawn +1, others +0.
 
 *Claw:* 4/6/8.
 
@@ -278,7 +278,7 @@ HP 17, DR 0.
 
 === Wraith (Challenge 3)
 
-HP 14, DR 3 (non-magical).
+HP 14, DR 3 (non-magical). Attributes: Agility +2, Guile +1, others +0.
 
 *Life Drain:* 5/8/11 necrotic.
 
@@ -288,7 +288,7 @@ HP 14, DR 3 (non-magical).
 
 === Lich (Challenge 10)
 
-HP 17, DR 4.
+HP 17, DR 4. Attributes: Knowledge +2, Reason +1, Brawn -1, others +0.
 
 *Paralyzing Touch:* 7/10/14 cold + Paralyzed (Fortitude check).
 
@@ -302,7 +302,7 @@ HP 17, DR 4.
 
 === Owlbear (Challenge 2)
 
-HP 14, DR 1.
+HP 14, DR 1. Attributes: Brawn +2, Fortitude +1, Agility -1, others +0.
 
 *Claw:* 4/6/8.
 
@@ -312,7 +312,7 @@ HP 14, DR 1.
 
 === Basilisk (Challenge 3)
 
-HP 16, DR 2.
+HP 16, DR 2. Attributes: Brawn +2, Fortitude +1, others +0.
 
 *Bite:* 5/8/11 + poison.
 
@@ -320,7 +320,7 @@ HP 16, DR 2.
 
 === Chimera (Challenge 5)
 
-HP 16, DR 2.
+HP 16, DR 2. Attributes: Brawn +2, Fortitude +2, others +0.
 
 *Bite:* 5/8/11.
 
@@ -334,7 +334,7 @@ HP 16, DR 2.
 
 === Harpy (Challenge 1)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Guile +2, Agility +1, others +0.
 
 *Claw:* 4/6/8 slashing.
 
@@ -346,7 +346,7 @@ HP 17, DR 0.
 
 === Minotaur (Challenge 3)
 
-HP 16, DR 2 (natural hide).
+HP 16, DR 2 (natural hide). Attributes: Brawn +2, Fortitude +1, others +0.
 
 *Greataxe:* 5/8/11 slashing.
 
@@ -358,7 +358,7 @@ HP 16, DR 2 (natural hide).
 
 === Rust Monster (Challenge 2)
 
-HP 11, DR 2 (chitin).
+HP 11, DR 2 (chitin). Attributes: Agility +2, Brawn -1, others +0.
 
 *Bite:* 4/6/8 piercing.
 
@@ -372,7 +372,7 @@ HP 11, DR 2 (chitin).
 
 === Pixie (Challenge 1/2)
 
-HP 17, DR 0. Tiny.
+HP 17, DR 0. Tiny. Attributes: Agility +2, Brawn -2, Guile +1, others +0.
 
 *Invisible:* permanently invisible.
 
@@ -382,7 +382,7 @@ HP 17, DR 0. Tiny.
 
 === Dryad (Challenge 1)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Guile +2, others +0.
 
 *Club:* 4/6/8.
 
@@ -394,7 +394,7 @@ HP 17, DR 0.
 
 === Green Hag (Challenge 3)
 
-HP 16, DR 2.
+HP 16, DR 2. Attributes: Guile +2, Reason +1, others +0.
 
 *Claw:* 5/8/11.
 
@@ -410,7 +410,7 @@ HP 16, DR 2.
 
 === Wyrmling (Challenge 3)
 
-HP 14, DR 3.
+HP 14, DR 3. Attributes: Brawn +2, Fortitude +1, others +0.
 
 *Bite:* 5/8/11.
 
@@ -418,7 +418,7 @@ HP 14, DR 3.
 
 === Young Dragon (Challenge 6)
 
-HP 10, DR 4.
+HP 10, DR 4. Attributes: Brawn +2, Fortitude +2, others +0.
 
 *Bite:* 5/8/11.
 
@@ -432,7 +432,7 @@ HP 10, DR 4.
 
 === Ancient Dragon (Challenge 12)
 
-HP 11, DR 6.
+HP 11, DR 6. Attributes: Brawn +2, Fortitude +2, Guile +1, Reason +1, others +0.
 
 *Bite:* 7/10/14.
 
@@ -454,7 +454,7 @@ HP 11, DR 6.
 
 === Fire Elemental (Challenge 4)
 
-HP 16, DR 2.
+HP 16, DR 2. Attributes: Agility +2, Brawn +1, others +0.
 
 *Slam:* 5/8/11 fire.
 
@@ -464,7 +464,7 @@ HP 16, DR 2.
 
 === Water Elemental (Challenge 4)
 
-HP 16, DR 2.
+HP 16, DR 2. Attributes: Brawn +2, Fortitude +1, others +0.
 
 *Slam:* 5/8/11 bludgeoning.
 
@@ -478,7 +478,7 @@ HP 16, DR 2.
 
 === Hill Giant (Challenge 5)
 
-HP 16, DR 2.
+HP 16, DR 2. Attributes: Brawn +2, Fortitude +2, Agility -1, others +0.
 
 *Greatclub:* 5/8/11.
 
@@ -488,7 +488,7 @@ HP 16, DR 2.
 
 === Stone Giant (Challenge 7)
 
-HP 17, DR 4.
+HP 17, DR 4. Attributes: Brawn +2, Fortitude +2, Agility +1, others +0.
 
 *Greatclub:* 7/10/14.
 
@@ -498,7 +498,7 @@ HP 17, DR 4.
 
 === Ogre (Challenge 2)
 
-HP 11, DR 2 (thick hide).
+HP 11, DR 2 (thick hide). Attributes: Brawn +2, Fortitude +1, Agility -1, others +0.
 
 *Greatclub:* 4/6/8 bludgeoning. Reach 10 ft.
 
@@ -514,7 +514,7 @@ HP 11, DR 2 (thick hide).
 
 === Vrock (Demon, Challenge 6)
 
-HP 18, DR 3.
+HP 18, DR 3. Attributes: Brawn +2, Fortitude +2, Agility +1, others +0.
 
 *Claw:* 5/8/11.
 
@@ -528,7 +528,7 @@ HP 18, DR 3.
 
 === Barbed Devil (Challenge 5)
 
-HP 10, DR 4.
+HP 10, DR 4. Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
 
 *Claw:* 5/8/11 slashing.
 
@@ -542,7 +542,7 @@ HP 10, DR 4.
 
 === Gelatinous Cube (Challenge 3)
 
-HP 20, DR 1.
+HP 20, DR 1. Attributes: Brawn +2, Fortitude +2, Agility -2, others +0.
 
 *Pseudopod:* 5/8/11 acid.
 
@@ -554,7 +554,7 @@ HP 20, DR 1.
 
 === Doppelganger (Challenge 3)
 
-HP 20, DR 1.
+HP 20, DR 1. Attributes: Guile +2, Agility +1, others +0.
 
 *Slam:* 5/8/11 bludgeoning.
 
