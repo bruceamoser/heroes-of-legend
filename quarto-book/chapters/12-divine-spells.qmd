@@ -188,11 +188,11 @@ The ward is shield DR, not a shield: it does not enable Shield Block, Parry, or 
 === Sanctuary (Novice Divine Spell)
 *Disciplines:* 1 Protection · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
 
-*Weak:* Attacks against the target have Bane for 1 turn.
+*Weak:* Attacks against the target have Bane for 1 turn (a Boon on the target's Defense roll).
 
-*Standard:* Attacks against the target have Bane for 2 turns.
+*Standard:* Attacks against the target have Bane for 2 turns (a Boon on the target's Defense roll).
 
-*Strong:* Attacks against the target have Bane for 3 turns; the target cannot be targeted for 1 round, and the ward also covers one ally within 10 ft.
+*Strong:* Attacks against the target have Bane for 3 turns (a Boon on the target's Defense roll); the target cannot be targeted for 1 round, and the ward also covers one ally within 10 ft.
 
 === Stone Skin (Adept Divine Spell)
 *Disciplines:* 2 Protection · *Requires:* focus:holy · *Action:* Maneuver · *Range:* Self · *Keywords:* DR

@@ -148,7 +148,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Concentration:* Some spells require ongoing focus to maintain, and you can hold only one at a time. See *Concentration Spell* in Magic Terms for the check that keeps it.
 
-*Hidden:* Concealed from an observer: attacks against you have Bane, and you are not seen until you attack or the concealment ends.
+*Hidden:* Concealed from an observer: attacks against you have Bane (a Boon on your Defense roll), and you are not seen until you attack or the concealment ends.
 
 *Concealment:* Not a condition but the fiction of not being seen: smoke, darkness, undergrowth, a doorway. Concealment is what lets you become Hidden, and heavy concealment is thick enough to hide in without needing anything else.
 
@@ -182,7 +182,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Surprise:* When one side catches the other unaware. The ambushing side acts first in the opening round, and surprised creatures take a Bane on their first roll. The ambushing side rolls Stealth against a Challenge set by the other side's awareness, and a Standard or better result means the ambush lands.
 
-*Cover:* Terrain that provides protection, in two grades. Half cover gives attackers a Bane on their roll against you. Full cover gives them triple Bane.
+*Cover:* Terrain that provides protection, in two grades. Half cover gives attackers a Bane against you, full cover a triple Bane. The Bane sits on the attack, so on your Defense roll it is a Boon: half cover is a Boon, full cover a triple Boon.
 
 *Non-Lethal Attack:* A melee attack that reduces a creature to 0 HP but leaves them unconscious and stable instead of dying.
 
