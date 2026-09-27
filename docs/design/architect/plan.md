@@ -674,3 +674,21 @@ a design question hides behind a single printed number.
 **Both decisions are one work order: #724** (3 lines, 2 files, the sentence plus the two retiers), filed with the full census, the byte-identical anchors, and the veto path. **State at cycle 32:** book at `878fdda`; **1 open issue (#724), 0 open PRs**; one checkout, clean tree; index calibration OK (75 = 75); ledger 205 rows, none ruled-but-unbuilt.
 
 **Next: dispatch #724**, then the **change-one-number** pass, which is still the walkthrough never played.
+
+## Cycle 33 (2026-09-27) - #724 landed (PR #725 `0f46c66`); the missing threshold is printed, and the queue is empty
+
+**Priority 1 returned zero for the seventh cycle** (`needs Bruce` 0, no status cell begins open/pending, nothing ruled-but-unbuilt, 9 of 9 assessed), so the cycle took the queue's only item, which was cycle 32's own decision landing.
+
+**The dispatch gate found nothing, and that is the result worth recording.** Every premise of #724 was re-read against `origin/main` before the prompt existed: `13:161` (the paragraph whose closing words are "No check"), `20:68`, `20:291`, the three byte-identical anchors (`20:277` Ghoul, `20:317` Basilisk, `19:337` Kelvath), the twelve precedent sites, `06:41`'s definition of "Standard or better", and the two acceptance greps (`Fortitude check)` 1 -> 0, `Paralyzing Touch` 2 -> 2). All held. The gate is not decoration when it finds nothing: it is the check that makes a clean audit meaningful rather than lucky.
+
+**The work order:** one sentence pair at `13:161` plus two bestiary lines, 2 files, 3 insertions / 3 deletions. The spec carried both new texts verbatim and explicitly named the thirteen-site census as **not** a to-do list, so the agent authored nothing and touched nothing else.
+
+**Audit was mine.** File set exactly the two named chapters; added lines 0 damage dice / 0 em-dashes / 0 markdown bold / 0 flat riders; anchors unchanged; `check-native-typst.py` exit 0; **my own rebuild exit 0 at 399 pages**; the built PDF's text layer read at the site (both new bestiary lines present, both OLD parenthetical clauses 0 hits, the Ghoul's `on Strong claw hit` line intact, the new sentence present in the render); off the branch `da-walkthrough.py` **PASS 49/49** and `rounds-to-resolve.py` **PASS 3.79 / 3.73 / 3.27**. Merged squash, branch deleted local and remote, worktree removed, #724 closed with the evidence attached.
+
+**One instrument lesson, and it is the audit-discipline class again.** The render check's first pass read **0 hits** for the new ch13 sentence and looked like a failed landing. It was the checker: the PDF text layer prints a typographic apostrophe (`\u2019`), so an ASCII fragment containing `target's` can never match. Normalising the apostrophe before matching returned 1 hit. A fragment grep that silently cannot match is the same failure mode as a harvest regex that collects 5% of its population, and the fix is the same: prove the check can see what it is looking for before believing a zero.
+
+**Record correction.** Cycle 32's row and its plan section both wrote "ledger 205 rows"; the file holds **204**, and the monitor's own counter agreed with the file. The overcount is corrected in the scorecard rather than left to propagate.
+
+**State at cycle 33.** Book at `0f46c66`; **0 open issues, 0 open PRs**; one checkout, clean tree, no worktrees, no stray branches. Words **84,287** (+47); ledger **204** rows, none ruled-but-unbuilt; index calibration OK (75 = 75).
+
+**Next: the change-one-number pass.** It is now the only named item left on the plan, deferred by cycles 30, 31 and 32 behind live defects that no longer exist. It is the designer's form of an audit, needs no new corpus parse, and the queue behind it is empty.
