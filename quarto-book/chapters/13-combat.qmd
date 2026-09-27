@@ -342,15 +342,21 @@ A creature automatically checks morale when:
 
 You don't fall the first time you're hit, or the second. You have *Grit*: 2 at Novice, 3 at Adept, 4 at Master. Your tier is your ability tier: Novice is levels 1 and 2, Adept levels 3 through 6, and Master is level 7 and up.
 
-When your HP reaches 0, you do not fall. Spend one Grit: your HP resets to its maximum and you roll on the Wound Table. You keep fighting.
+When your HP reaches 0, you do not fall. You choose.
 
-When you have no Grit left and your HP reaches 0, you fall, and the normal Dying rules apply.
+*Spend a Grit.* Your HP resets to its maximum and you roll on the Wound Table. You keep fighting. This is the fast way back, and it costs you a mark.
+
+*Stay down.* You fall, and the Dying rules below apply. No Grit is spent and no Wound is rolled, and a healer who reaches you before your third failure puts you back on your feet with nothing worse than the story.
+
+The choice is made once, at the instant you drop. Once you are down, you make no further choices until someone wakes you.
+
+With no Grit left, the choice is already made for you. You fall.
 
 Grit returns on a respite, a full night's rest. It does not return between fights.
 
-With no Grit left, 0 HP drops you. The world goes dark. But the story's not over, not yet.
+0 HP drops you. The world goes dark. But the story's not over, not yet.
 
-At 0 HP, you fall Unconscious. Each round on your turn, roll 3d6 with no modifiers. Failures accumulate until you die or are stabilized:
+At 0 HP, you fall Unconscious. Each round on your turn, make a death roll: 3d6 plus a Bane for the wounds you carry. Two wounds is Bane 1, three is Bane 2, four or more is Bane 3. One wound costs you nothing: the first mark is a grace state. Roll the extra dice and keep the lowest three, exactly as any other Bane. Failures accumulate until you die or are stabilized:
 
 #figure(
   align(center)[#table(
@@ -368,7 +374,9 @@ At 0 HP, you fall Unconscious. Each round on your turn, roll 3d6 with no modifie
   numbering: none,
 )
 
-An ally can stabilize you with a Medicine check (Standard difficulty) or any healing effect. Once stable, you're unconscious at 0 HP but no longer rolling to survive.
+Read the triples on the three dice you keep, never on the dice you rolled. More wounds mean more dice, so reading them the other way would make the miracle likelier the more broken you are. It is the other way round: at full health one death roll in 216 is a Critical, and at four wounds it is one in 46,656.
+
+An ally can stabilize you with a Medicine check or any healing effect. The check gets harder the more broken you are: Standard at 0 or 1 wound, Hard at 2 or 3, and only a Master-rank healer pulls you back at 4 or more. Stabilizing resets your failures, so a hero who was once two failures down does not carry that debt into the next time they fall. Once stable, you're unconscious at 0 HP but no longer rolling to survive.
 
 === Wounds
 
@@ -378,7 +386,7 @@ Some injuries don't fade when the healing potion wears off. Wounds are the lasti
 
 *Triggering a Wound.* When you spend a point of Grit, you take a wound and must roll on the Wound Table. It is once per Grit spent. The body can only break so many times before it stops bending.
 
-*The Wound Table (D666).* The wound roll uses a special notation: D666. Roll 3d6, plus one extra die for each wound you already carry, up to three extra. Keep the highest three of those dice, then sort them in ascending order. The lowest die is the HUNDREDS digit. The middle die is the TENS. The highest die is the ONES. A roll of [1] [3] [5] reads as 135. A roll of [2] [4] [6] reads as 246. The Wound Table (Tables 13.4 and 13.5) gives the result. Ranges are listed as three-digit numbers in D666 notation.
+*The Wound Table (D666).* The wound roll uses a special notation: D666. Roll 3d6, plus one extra die for each wound you already carry, up to three extra. Keep the highest three of those dice, then sort them in ascending order. The lowest die is the HUNDREDS digit. The middle die is the TENS. The highest die is the ONES. A roll of [1] [3] [5] reads as 135. A roll of [2] [4] [6] reads as 246. The Wound Table (Tables 13.4 and 13.5) gives the result. Ranges are listed as three-digit numbers in D666 notation. The hundreds digit is the band, and the bands escalate: 1xx is a scrape you will tell stories about, 2xx costs you the rest of the fight, 3xx costs you most of what you do in it, 4xx lasts until it is treated, 5xx is permanent, and 666 is Death's Door.
 
 *Wounds make wounds worse.* No wounds carried means 3d6. One wound means 4d6, two means 5d6, three or more means 6d6. Three extra dice is the ceiling, the same ceiling Boons and Banes use, because past it the roll stops being a roll and becomes a sentence. The table never changes; only the odds do.
 
@@ -397,7 +405,7 @@ Some injuries don't fade when the healing potion wears off. Wounds are the lasti
     [236–266], [*Deep Gash*], [A wound that won't stop bleeding. Take 1 damage at the start of each turn until you or an ally spends an Action and makes a Standard Medicine check to bind it. At 0 HP the bleed keeps ticking, and while you are bleeding your death roll is made with a Bane.],
     [333], [*Scarred*], [Three parallel gashes. Too clean, too deliberate. The scar tissue tingles whenever that type of creature is within 60 feet. You've gained an instinctive danger sense for whatever gave you that scar. A narrative gift from the DA.],
     [334–344], [*Wrenched Shoulder*], [A joint screams every time you lift your weapon. Bane on attack rolls for the remainder of the encounter.],
-    [345–356], [*Cracked Ribs*], [Breathing hurts. Laughing hurts. Living hurts. Bane on all rolls using Brawn, Fortitude, or Agility until the end of the encounter.],
+    [345–366], [*Cracked Ribs*], [Breathing hurts. Laughing hurts. Living hurts. Bane on all rolls using Brawn, Fortitude, or Agility until the end of the encounter.],
   )],
   caption: [Table 13.4: Wound Table (D666), part 1 of 2],
   kind: table,
@@ -411,9 +419,9 @@ Some injuries don't fade when the healing potion wears off. Wounds are the lasti
     columns: (28.57%, 33.33%, 38.10%),
     align: (auto, auto, auto,),
     table.header([D666], [Wound], [Effect]),
-    [366–446], [*Broken Bone*], [Your arm, leg, or collarbone snaps. You hear it before you feel it. The limb is unusable until you receive a Standard Medicine check and take a long rest. Bane on all checks using that limb.],
+    [444–446], [*Broken Bone*], [Your arm, leg, or collarbone snaps. You hear it before you feel it. The limb is unusable until you receive a Standard Medicine check and take a long rest. Bane on all checks using that limb.],
     [455–466], [*Punctured Lung*], [You're breathing, but every word costs. You cannot speak more than five words per round. Spellcasting requires a Fortitude check (Standard) to force the breath through. Lasts until a long rest or a Hard Medicine check.],
-    [555], [*Karmic Wound*], [By every right this should have killed you. The blade slipped between vital organs. The fall was broken by exactly the right patch of mud. No additional effect beyond the wound itself. Someone up there likes you. Or wants you alive for something worse. The DA knows which.],
+    [555], [*Karmic Wound*], [By every right this should have killed you. The blade slipped between vital organs. The fall was broken by exactly the right patch of mud. It still took something on the way past, and it is not coming back: an eye, the hearing in one ear, two fingers, a voice that will never carry again. Name it with your DA. The loss is permanent, and only a Master-rank Medicine check or powerful healing magic restores it. It costs you nothing more than that in a fight, which is the whole of your luck. Someone up there likes you. Or wants you alive for something worse. The DA knows which.],
     [556], [*Crippling Blow*], [A tendon severed, a joint destroyed. The affected limb is useless. Permanent until a Master-rank Medicine check or powerful healing magic restores it. If it's a leg, you need a crutch. If it's an arm, learn to fight one-handed.],
     [566], [*Shattered Spirit*], [The wound is grievous, but the real damage is deeper. You gain a persistent condition chosen by the DA: haunted by the moment, gripped by phantom pain, or convinced you're already dead. All rolls suffer a Bane until you take a full day of rest in safety.],
     [666], [*Death's Door*], [The dice have spoken, but not the last word. You drop to 0 HP and begin Dying, however much you had left. No stabilization roll brings you back from this one alone. What happens next is settled by the death roll.],
