@@ -1314,3 +1314,23 @@ ceiling unchanged: printed play stops at level 2, and the book ships one adventu
 **Instruments re-run against `origin/main`:** `heal-threshold-sim.py` selftest **PASS** (five controls) then the metric run; native-Typst gate **exit 0**; pages **402** (unchanged); words **85,842 -> 85,928** (+86, `wc -w` over the 25 chapter files; earlier cycles' absolute used a slightly different counter, so read the delta rather than the level).
 
 **Next.** The over-rank fix (row 222) is the smallest live defect in the tracker, fully specified, with its default standing since cycle 48: trim the four 5-rank maneuvers to `3 <main>`, which is the printed Master precedent. Then #770's cards, and row 224 only if its revival condition fires.
+
+## Cycle 50 (2026-09-27) - Bruce's wound-permanence ruling reached seven sites rather than the four it named, and half of it was held rather than invented
+
+**SENSE.** `main` `efebcc4` -> `58a56cd`. The monitor flagged a NEW filing and a closed issue: **#769 closed** (cycle 49's PR #771) and **#774 opened** twelve minutes after #770, cross-referencing it, carrying Bruce's ruling from the same round. 0 open PRs; open issues 3; ledger 224 rows; 0 unbuilt.
+
+**THINK.** #774 is a ruled-but-unbuilt row: the book printed a Wound recovery rate and the ruling removes it, so the repair is a purge with no design content and nothing to invent. That outranks row 222, which stays the tracker's smallest live defect and is still next.
+
+**Recon, and the work list changed before a word of spec was written.** The issue named four sites; the population is **seven in three chapters**. Two of the three it missed are mirrors of sites it names: `19:106` and `19:107` are the Long rest bullets that `19:145`'s Camping line restates, and `21:195` is the glossary's copy of `13:440`. A ch13-only pass would have left the book still printing that a Wound heals on a long rest.
+
+**The one thing the ruling did not supply, and the reason half of it was held.** The issue's second half requires the book to name the end of the wound arc (invariant 15). The threshold is not in the issue ("a set number of wounds"), is printed nowhere, and is not derivable: every penalty maxes at four wounds (6d6 and Bane 3), so 4, 5, 6 and 7 are mechanically identical and every value above four is a fiction choice. Choosing it decides something new, which is Bruce's. **Held with a proposed default at the plateau (four wounds), one word to accept, recorded as ledger row 225.** The dispatch-readiness gate is what caught it: name every artifact the agent must produce and confirm its value is stated or derivable, and this one was neither.
+
+**Dispatch.** #774 classified in place (a dated architect section appended to the body, marker-guarded and read back). Worktree at `origin/main`, spec seeded as `.task-spec.md` inside the worktree with the seven sites written out as exact old -> new strings. The agent landed the work and died on the finish line (`rm -f /tmp/added.txt` hit the `external_directory` auto-reject, the write-side trap again): the commit and the push had already happened and PR #775 was open, so the run was recoverable rather than failed.
+
+**Audit of PR #775, mine and independent.** File set exactly the three named chapters; 5 insertions / 7 deletions, which is the arithmetic of seven sites; every edit byte-exact against the spec; the branch carries none of the five superseded strings; added-line em-dashes 0, markdown bold 0, damage dice 0; native gate exit 0; my own build exit 0 at **402 pages**, unchanged from `main`. Read back in the RENDER rather than the diff: all six new fragments present exactly once and all five removed strings at 0, where three fragments the short-fragment checker read as 0 were **wrapped, not missing**.
+
+**Merged** as squash `58a56cd`. The merge auto-closed #774 through the commit subject (`fix(#774): ...`, which GitHub reads as a closing keyword) and the issue was **reopened**, because the held clause lives there.
+
+**Housekeeping.** Worktree removed, local and remote branches deleted after proving the merge, #774 reopened and commented with the audit, `main` synced. One checkout, clean tree.
+
+**Next.** Row 222 (the four 5-rank maneuvers, default standing since cycle 48), then #770's cards, whose pricing constraint was measured off the table itself, then row 225 only on Bruce's word.
