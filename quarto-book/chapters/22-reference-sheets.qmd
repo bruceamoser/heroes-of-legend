@@ -275,7 +275,7 @@ Total DP by level 10: 32 advancement DP + 8 Class DP + background DP (8 + Knowle
 
 == DP Cost Reference
 
-Cards (skills, abilities, spells) cost a flat rate regardless of class:
+Cards (skills, abilities, spells) cost the *flat* tier prices below, exclusive of Discipline rank costs:
 
 #figure(align(center)[#table(
   columns: (52.63%, 47.37%),
@@ -290,6 +290,8 @@ Cards (skills, abilities, spells) cost a flat rate regardless of class:
   [No-prereq basic (Novice)], [2 DP],
   [Cantrip], [Free],
 )], kind: table, numbering: none, outlined: false)
+
+A Novice card's true price is 2 DP if you hold its Discipline, 3 DP if it is new at your Home rate, 4 DP Adjacent, 5 DP Foreign, and 6 DP Opposed.
 
 Disciplines cost different amounts depending on your class's cost structure for that discipline:
 
