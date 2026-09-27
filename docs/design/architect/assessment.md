@@ -19,14 +19,14 @@ that what exists is good.
 | 8 | **The Shepherd cannot pay for its own loadout and a card** | `05:202` prints 7 DP of loadout ranks and claims "which still leaves room for a card"; the class pool is 8 DP (`02:204`) and a Novice card is 2 DP, so the line costs **9 DP**. Eight of nine classes close; the Shepherd does not. | **DECIDED and IMPLEMENTED 2026-09-26 (cycle 9 ruling; PR #674, `5c52f12`)** - every ledger re-derives and all nine builds close at their named pool. The Shepherd's printed "still leaves room for a card" is false at 8 DP and true at the 12 the book's own `18:47` grants. |
 | 9 | **Creation's printed builds are unfunded and the skill ledger never closes** | 7 of 9 printed heroes cannot pay for the gear their own loadout requires (26 DP); all 9 spend 2 DP on the skill their culture already grants +1 in (18 DP). **Cycle 7: the level-1 grant that creation never awards would pay 6 of those 7 builds, cutting 26 DP to 2.** | **BOTH CLOSED 2026-09-26**: 161 retracted in place (the armour gate was the wrong premise), 162 decided in cycle 9 and IMPLEMENTED in PR #674 (`5c52f12`) - the culture's +1 IS that skill's Novice tier, so the purchase was explicit waste. |
 | 10 | **Master is not an efficiency tier, and nothing says so** | Cards cost 2/4/8 while the bands are 4/6/8, 5/8/11, 7/10/14: damage per DP falls **3.00 -> 2.00 -> 1.25** with ranks already paid. The premium buys per-action impact and a once-per-session spotlight (`10:101`), which is a real thing to buy, but a player optimising damage per DP will buy breadth and be right on the numbers. | **DECIDED 2026-09-26 (architect, cycle 9), veto to revert** - state the intent in one sentence, no reprice: a reprice would break invariant 4 (cards cost 2/4/8). |
-| 11 | Fate unpriced / Summon uncarded | Advertised, unusable. Ruled, specced, undispatched (rows 125/151, issue #655). | work order filed |
+| 11 | Dead ranks: Fate unpriced, Summon uncarded, **and Sleight rank 2 unconsumed** | Advertised, unusable. Fate and Summon are ruled, specced, undispatched (rows 125/151, issue #655). **Sleight is cycle 14's new one: priced in every class table, consumed by nine rank-1 sites, and rank 2 unlocks nothing anywhere in the book** (Assessment 8). | Fate/Summon: work order filed (#655). Sleight: **DECIDED 2026-09-27 (cycle 14), re-key Filch `2 Stealth, 1 Sleight` -> `1 Stealth, 2 Sleight`**, work order filed |
 | 12 | ch09 tier-labelled headings | Three cards titled "Novice Talent" whose requirements are Adept and Master (row 160). Player-facing promise defect. **Cycle 7: the tier RULE itself was the larger half of this - `09:15` keyed tier to the count of Disciplines, mispricing 59 of 102 cards; fixed in #665. The three cards remain.** | row filed; rule fixed |
 | 13 | **The focus downgrade has no defined bottom for most cards** | `15:40`/`21:217` end the ladder "Weak becomes **1 damage**" - a clause that only means something if the rung is damage. **23 of the 59 focus-carrying cards have a non-damage Weak rung**, and on a heal it inverts (Mending Touch's "Restore 4 HP" becomes 1 damage). | **default logged, not implemented** (row 175): scope the downgrade's floor to the card's own rungs, keep `1 damage` for damaging rungs, then `10:37` keys to the tier's row where the card deals damage or healing. Rides with #668's file group. |
 | 14 | **Fortitude and Knowledge pay twice** | Each point adds +1 HP (`03:78`) and +1 Background DP (`02:115`). No other attribute feeds a pool. At +2/+2 against -2/-2 that is 8 DP and 4 HP on the same two points, and at -2/-2 the hero has 6 HP and 4 DP (Assessment 3). | **CLOSED 2026-09-26 (architect, cycle 9) - measured, premise partly false, no change owed.** Fortitude and Knowledge are the only pool-feeding pair and the duplication is the deliberate trade. |
 | 15 | **Every level-1 hero is 4 DP short of the book's own career total** | `18:47` grants 4 DP at level 1 with "Class signature, Starting Disciplines" as its milestones (creation's own grants), and `22:272` counts it inside the printed 44-52 DP career. Creation's eleven steps (`02:43-275`), `22`'s checklist and all nine printed builds assign only 8+K+F and 8. | **DECIDED and IMPLEMENTED 2026-09-26 (cycle 9 decision; PR #674, `5c52f12`)** - `18:47`'s level-1 4 DP award is real and is exactly the size of the hole creation never showed. |
 | 16 | **The healing and flat-number axes** | Healing was never converted to the live rows (4 cards, fixed in #665; 3 items still need a ruling - rows 170/171). **Cycle 8 closed the third axis: 7 of 7 ch17 item ladders and 5 ch05 Master riders were still on the retired rows and are now on the live ones.** | rows 170/171; flat axes fixed |
 | 17 | **Social conflict: a dead score, and an example that inverts its own rule** | (a) **Passive Insight is a number nothing consumes** - printed as `Knowledge + 7` in three homes (`14:29`, `07:197`, `21:235`), it spans 5 to 9 and reaches Strong 0 times out of 5, while the same paragraph's actual mechanic uses the Knowledge *modifier* as a Challenge. (b) **The worked example applies the attitude shift on a Standard and skips it on the Strong** (`14:114` vs `14:88`/`14:128`), inverting the rule it demonstrates. Both are the smallest possible repair with no new rule. | **MERGED 2026-09-26 (cycle 13): PR #678, main `f0c9af3`, issue #677 closed.** Six sites across 3 files, audited line by line and verified in the render: "Knowledge score + 7" reads 0 in the built PDF, both new Challenge clauses read 1-2, and the worked example's 13 / 13 / 18 and 1+2=3 are unchanged. |
-| 18 | **Three item classes the slot system cannot price, and one dominated weapon row** | (a) A **shield** has no slot cost anywhere (`16`, `22`, `15`): twenty tower shields ride free. Derived value, mirroring the class ladder the shield already uses for entry and DR: small 1 / medium 2 / large 3. (b) **Scholar's robes** sit in three printed builds (`02:362`, `02:403`, `02:641`) and in no table: 1 slot, which is the only value that keeps the tightest build legal (5 of 5 at the floor). (c) A **bundle of thrown weapons** is unpriced (Pip: 9 of 10 as one item, 15 as six). (d) The **Crossbow** prints a thrown weapon's 20/60 band while paying 2 slots and a Loading Maneuver, so the Throwing Dagger dominates it on every printed axis; its band moves to 60/120, the bow ladder's next step, and Loading stays as the identity price with the trade named. | **measured 2026-09-26 (cycle 13)**; work order filed (**#680**), dispatch next cycle |
+| 18 | **Three item classes the slot system cannot price, and one dominated weapon row** | (a) A **shield** has no slot cost anywhere (`16`, `22`, `15`): twenty tower shields ride free. Derived value, mirroring the class ladder the shield already uses for entry and DR: small 1 / medium 2 / large 3. (b) **Scholar's robes** sit in three printed builds (`02:362`, `02:403`, `02:641`) and in no table: 1 slot, which is the only value that keeps the tightest build legal (5 of 5 at the floor). (c) A **bundle of thrown weapons** is unpriced (Pip: 9 of 10 as one item, 15 as six). (d) The **Crossbow** prints a thrown weapon's 20/60 band while paying 2 slots and a Loading Maneuver, so the Throwing Dagger dominates it on every printed axis; its band moves to 60/120, the bow ladder's next step, and Loading stays as the identity price with the trade named. | **MERGED 2026-09-27 (cycle 14): PR #682, main `aaab1ca`, issue #680 closed.** Audit re-derived every site: file set exactly the three chapters, 0 em-dashes / 0 dice / 0 retired rows in added lines, native gate exit 0, independent build exit 0, render verified (392 pages, `60/120 ft` 6, `Robes` 2, new `Slots` column present, both bundle sentences). Regression check for the new shield slot cost against every printed build carrying a shield: 02:483 is 8 of 15, 02:600 is 9 of 20, the Protector loadout 8 against a Brawn-keyed pool - all fit, and the tightest build in the book (02:403, 5 of 5) carries no shield. One spec-authored redundancy fixed on the branch (the ladder was restated twice). |
 
 ## Re-assessment 2026-09-26 (cycle 3) — priority 1 was measured, and it holds
 
@@ -882,3 +882,76 @@ micro-PR (#679): the `weapon:two-hand` tag still demanded 2 Two-Handed after the
 that direction, and `15:123`/`15:154` still described the retired two-size shield model. A third claim went
 with them: `15:44` and `21:27` promised a gold economy the book does not have (0 prices, 0 coins, 0
 starting wealth in all 25 chapters), against `15:15`, `15:239` and `19:73`'s "granted, earned, or taken".
+
+## Assessment 8 - Content: ancestries, classes, disciplines, the card library (cycle 14, 2026-09-27)
+
+**The mechanic as printed.** Four ancestries each grant one Discipline and one trait, tabulated in three
+agreeing homes (`02:63` `@tbl-ancestries`, `04:42-44`, `21:97`); nine classes each print a grant, a
+signature, favoured skills, a starting loadout and a 22-row Discipline cost table (Fate absent, row 125);
+a 23-Discipline / 9-category roster (`08:29`); and the card library across `09`, `11`, `12`.
+
+**The numbers, computed rather than quoted** (`scripts/architect-content-census.py`, calibrated against
+the book's own printed totals before any figure below is read):
+
+- **196 cards** = 82 (`09`) + 68 (`11`: 15 cantrips + 53 spells) + 46 (`12`: 6 cantrips + 40 spells), plus
+  **90 class abilities** = 286 containers all told. `11` and `12` both parse exactly to their printed
+  chapter totals.
+- **Exactly 10 abilities per class**, 9 x 10 = 90. Bruce's "about 10 for each class" is met exactly, with
+  no class over or under.
+- **Tier distribution** (tier = total Discipline ranks, `10:63`): 51 no-prereq/basic, 52 one-rank Novice,
+  64 two-rank Adept, 25 three-rank Master, 4 capstone maneuvers. Every tier-worded card agrees with the
+  total-ranks reading (99 of 102, `scripts/tier-census.py`).
+- **Law gates over the content chapters (`04/05/08/09/11/12/15/16/17`): 0 retired band rows, 0 damage
+  dice, 0 flat `+N damage` riders, 0 numeric roll modifiers.** First chapter group in the sweep where all
+  three content laws come back clean in one pass, which is the measurable form of "the band, weapon-rider
+  and Boon/Bane waves are complete in the content".
+
+**RANGE - the deepest gate in the book leaves exactly one rank of slack.** A career grants six Discipline
+ranks (three starting rank-1 grants from ancestry, culture and class at `08:100`, plus three discretionary
+at levels 3/6/9) with a ceiling of 3 in any single Discipline. The most demanding printed requirement is
+**5** (`3 Ranged/Two-Handed/Unarmed + 1 Tactics + 1 support` on Sunshot, Harvest the Fear, Groundbreaker,
+Taken Alive), so every requirement in the book is reachable, with one rank spare.
+
+**The four five-rank maneuvers are NOT defects, and are recorded so no future pass re-files them.** The
+ladder rule ("4+ ranks is illegal") is scoped to RUNGED cards, where the rank total IS the tier. These
+four print no tier word, sit on the Novice row by the maneuver law (`09:215`), and break no printed cap:
+`08:193` caps a card at 3 ranks in any SINGLE Discipline, and each holds 3 in its own weapon Discipline
+plus two single-rank supports. The audit rule would have flagged all four; reading them is what settled it.
+
+**DISCRIMINATION - coverage, rank-2 floor** (consumers counted from all four sources: standalone cards,
+`05` class abilities, equipment entry requirements, `17` grants):
+
+| Discipline | r1 | r2 | r3 | verdict |
+|---|---|---|---|---|
+| Summon | 0 | 0 | 0 | **dead rank, priced in all nine class tables** (ruled, row 151) |
+| Fate | 0 | 0 | 0 | **dead rank, priced nowhere** (row 125, work order #655) |
+| **Sleight** | 9 | **0** | 0 | **NEW - rank 2 is a trap purchase** |
+
+Every other Discipline clears the floor. Category totals: Weapon 67, Defense 52, Arcane 39, Elemental 38,
+Knowledge 33, Divine 28, Esoteric 28, Subterfuge 22, Primal 14. Within-category spreads: Unarmed 5 against
+Melee 21 is the widest in Weapon; Animal 5 against Plants 9 in Primal.
+
+**DECIDED (BALANCE, architect, veto to revert): re-key Filch to `1 Stealth, 2 Sleight`.** Sleight is
+priced in every class table and bought by nine sites at rank 1, and rank 2 unlocks nothing anywhere in the
+book, which violates invariant 8 (no dead content) and coverage rule 1 (the rank-2 floor is the hard one;
+rule 3's rank-1 offset applies only to rank 3). Smallest lever, and the book already uses it: the standard's
+own Fate resolution re-keys existing content rather than authoring cards. Filch (`05:660`, the Shadow/Blade
+Master theft ability) holds 3 ranks either way, so the table's own `[Master]` label survives; Stealth's
+floor stays met by Ghost (`2 Stealth, 1 Mind`); and the price for the only two classes that can take it is
+unchanged or cheaper (Sleight is Home 1/2/4 for both Blade and Shadow, while Stealth is Home for the Shadow
+and Foreign for the Blade, so the swap is cost-neutral for one and cheaper for the other). One line, one
+file. **Reversal: put the 2 back on Stealth.**
+
+**COST - nine dead rank slots become one.** After the change, the only remaining rank with no consumer
+anywhere is Summon (already ruled: cards to be authored, row 151) and Fate (work order #655). Master
+remains thin at 25 cards, which is by design: rule 2 of the coverage standard makes rank 3 optional and
+flavour-led, and rank-1 breadth is its stated offset.
+
+**STRESS.** The library's adversarial cases hold: the four deepest maneuvers are reachable but leave no
+slack for a second capstone, which is the intended shape of a capstone; the ungated layer exists and is
+named (`08:197`); and no card demands a Discipline the roster does not carry, nor any single Discipline
+above 3.
+
+**Verdict: GOOD**, with one named defect repaired by decision (Sleight rank 2) and two dead ranks already
+ruled and queued (Fate #655, Summon rows 151/159). The content's law compliance is the strongest measured
+result in the sweep so far: four gates, four zeros, across nine chapters.
