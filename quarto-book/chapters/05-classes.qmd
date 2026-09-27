@@ -337,7 +337,7 @@ The Leader is a beacon of courage on the battlefield, leading from the front lin
 
 *Class Discipline (L1):* Tactics (1) + Shields (1). The Leader is a hybrid: your command draws on the martial discipline of Shields and the ward school of Protection, and you buy both at the rates printed on your sheet.
 
-*Signature, Lead by Example:* When you land a telling blow on an enemy, grant one ally who witnessed it a +2 bonus on their next roll. Your actions inspire greatness in others.
+*Signature, Lead by Example:* When you land a telling blow on an enemy, grant one ally who witnessed it a Boon on their next roll. Your actions inspire greatness in others.
 
 *Favored Skills:* Persuasion, Perception, Insight, Survival, Endurance
 
@@ -565,7 +565,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
     [*Field Study*], [Novice], [1 Lore], [When you fail a Knowledge-based skill check], [You may reroll it. Once per scene.],
     [*Focused Mind*], [Novice], [1 Lore], [As a Maneuver], [Once per scene, you may spend your Movement to gain a Boon on your next Knowledge-based check.],
     [*Assess*], [Novice], [1 Tactics], [As a Maneuver], [Choose one enemy. The DA reveals one resistance, weakness, or special ability it has. Once per scene.],
-    [*Leverage*], [Adept], [1 Tactics, 1 Lore], [When an ally misses an attack], [The ally may reroll the miss. If the reroll hits, it deals +2 bonus damage. Once per scene.],
+    [*Leverage*], [Adept], [1 Tactics, 1 Lore], [When an ally misses an attack], [The ally may reroll the miss. If the reroll hits, it deals +1 damage tier. Once per scene.],
     [*Deduce*], [Adept], [2 Lore], [When you study a creature, object, or room for one minute], [The DA reveals one hidden property, trap, or vulnerability. Once per scene.],
     [*Anticipate*], [Adept], [1 Mind, 1 Lore], [When an enemy within 30 ft declares an attack], [Name the attack's target. If you're right, that ally gains +2 DR against it. Once per scene.],
     [*Perfect Recall*], [Master], [2 Mind, 1 Energy], [When you need information from a scene you participated in], [The DA must tell you the exact words, layout, or sequence of events, to the limit of your own perception at the time. Once per session.],

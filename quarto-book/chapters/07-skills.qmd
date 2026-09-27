@@ -38,7 +38,7 @@ Skills come in three tiers. Each tier raises your bonus on rolls made with that 
   numbering: none,
 )
 
-All skills cost the same for every class: a Blade and an Arcanist pay the same for Novice Athletics, and either can learn any skill on the list. As with abilities, the higher tiers unlock as you level. Until a gate opens, everything you buy is Novice.
+All skills cost the same for every class: a Blade and an Arcanist pay the same for Novice Athletics, and either can learn any skill on the list. A class sheet's *Favored Skills* line is guidance on what that class does best, never a discount: the price above is the price. As with abilities, the higher tiers unlock as you level. Until a gate opens, everything you buy is Novice.
 
 #pagebreak()
 
