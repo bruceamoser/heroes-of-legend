@@ -31,7 +31,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 === Arcane Mark (Cantrip)
 *Disciplines:* None · *Action:* Action · *Range:* Touch (Permanent) · *Keywords:* None
 
-*Weak:* The mark is faint. Detection spells reveal it, but the image is blurry.
+*Weak:* The mark is faint. Eldritch Sight reveals it, but the image is blurry.
 
 *Standard:* Clean, permanent mark. Visible on command, unmistakably yours.
 
@@ -107,7 +107,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Standard:* 3 acid damage. Ignores 1 point of DR against objects.
 
-*Strong:* 5 acid damage. The acid clings and keeps eating.
+*Strong:* 5 acid damage. It eats through cloth, leather, and thin metal.
 
 === Whisper (Cantrip)
 *Disciplines:* None · *Action:* Action · *Range:* 120 ft · *Keywords:* None
@@ -701,11 +701,11 @@ It acts on your turn, obeys your spoken commands, and vanishes at the end of the
 === Thread of Ruin (Adept Arcane Spell)
 *Disciplines:* 2 Fate · *Action:* Action · *Range:* 60 ft · *Keywords:* Damage
 
-*Weak:* 5 damage.
+*Weak:* 5 damage. A thin strand of fate pulls taut between you and the target.
 
-*Standard:* 8 damage.
+*Standard:* 8 damage. The strand tightens, and the harm lands where it was always going to.
 
-*Strong:* 11 damage.
+*Strong:* 11 damage. The thread snaps, and everything it held together comes apart.
 
 == Protection Spells
 

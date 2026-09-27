@@ -40,7 +40,7 @@ The talents below are general. Any class may take any of them, though a talent t
 === Tough (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* HP
 
-*Novice:* +2 maximum HP.
+*Novice:* +2 maximum HP. You take a beating the way a wall takes weather.
 
 === Precision (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Check
@@ -596,11 +596,11 @@ This DR does not stack with any other source of DR.
 === Renewal (Weapon Maneuver)
 *Disciplines:* 1 Protection · *Action:* Maneuver · *Range:* Self · *Keywords:* Healing
 
-*Weak:* Regain 4 HP.
+*Weak:* Regain 4 HP. The ache dulls, and you are still standing.
 
-*Standard:* Regain 6 HP.
+*Standard:* Regain 6 HP. Flesh knits under the ward's light.
 
-*Strong:* Regain 8 HP.
+*Strong:* Regain 8 HP. The wound closes, and the weariness with it.
 
 === Pull Them Clear (Weapon Maneuver)
 *Disciplines:* 2 Protection · *Action:* Action · *Range:* Melee · *Keywords:* Support
