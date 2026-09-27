@@ -845,8 +845,9 @@ book-wide; `da-walkthrough.py` PASS 49/49. Realised as **PR #730**, squash, bran
 **Two instrument lessons, recorded because both would have produced a false report.** (1) The ch13
 fragment read **0 hits** on the first render check and the site was fine: the text layer breaks
 "For-titude" across lines, so **a fragment that reads 0 can be wrapped, not absent** - the site must be
-read, not counted. (2) **Three citations I wrote this cycle pointed at `06:125`, which is the reversal
-table's closing paren; the rows are `06:122`-`06:124`.** Found by re-reading every line ref against the
+read, not counted. (2) **Three citations I wrote this cycle pointed one line past the end of the
+reversal table's rows** (at its closing paren; the rows are `06:122`-`06:124`). Found by re-reading every
+line ref against the
 file before the commit, not by a gate.
 
 **Reported, not changed.** `rounds-to-resolve.py`'s monster direction maps the distribution the
