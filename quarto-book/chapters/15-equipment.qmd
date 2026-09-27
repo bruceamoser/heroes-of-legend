@@ -37,7 +37,7 @@ Every card that asks for gear names a tag in its Requires field. Here is every t
   numbering: none,
 )
 
-A card that requires none of these carries no Requires field at all, and most cards do not. Only where the work itself needs the tool does the card ask for it. A focus asks for no rank of its own: it is required for the spell's full effect, and without it the spell still casts and resolves one outcome lower, Strong becomes Standard, Standard becomes Weak, and Weak becomes 1 damage. Cantrips carry no focus tag at all.
+A card that requires none of these carries no Requires field at all, and most cards do not. Only where the work itself needs the tool does the card ask for it. A focus asks for no rank of its own: it is required for the spell's full effect, and without it the spell still casts and resolves one outcome lower, Strong becomes Standard and Standard becomes Weak. At that floor a rung that deals damage deals 1 damage instead, and any other rung resolves as written but forgoes its riders. Cantrips carry no focus tag at all.
 
 == Packs
 
