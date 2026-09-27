@@ -194,7 +194,7 @@ A shield enables Parry (it is an implement in hand) and Shield Block, but never 
   numbering: none,
 )
 
-*Insight has two forms.* Rolled actively, it is keyed to Reason like any other skill. When someone is lying to you and you are not looking for it, the DA uses your *passive Insight* instead, which is your Knowledge score + 7 (@sec-chapter-social-conflict)
+*Insight has two forms.* Rolled actively, it is keyed to Reason like any other skill. When someone is lying to you and you are not looking for it, you do not roll: the lie carries a Challenge set by your Knowledge modifier, negated (@sec-chapter-social-conflict)
 
 === Subterfuge
 
