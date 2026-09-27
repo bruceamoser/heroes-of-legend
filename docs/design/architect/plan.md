@@ -1240,4 +1240,6 @@ ceiling unchanged: printed play stops at level 2, and the book ships one adventu
 
 **Ledger 216 -> 219 rows**, none ruled-and-unbuilt.
 
-**Next.** Spec and dispatch #756 with the finished text of every healing card written by the architect, since the dispatch-readiness gate will not let the agent invent it; then #752, the player-facing tactics section.
+**Next.** One work order, not two: **#756 and #760 land together as a single pass over ch13's Dying and Death section**, which is Bruce's own sequencing instruction and also the only way to avoid two edits to the same rules. The pass needs the finished text of every healing card, including a Master-tier heal that does not yet exist in ch12, so the card authoring is the design act and it comes before the dispatch. Then #752, the player-facing tactics section.
+
+**Late arrival, recorded rather than absorbed:** #760 (the Grit spend is a choice at 0 HP, and the death roll must scale with wounds) was filed at 17:33, after this cycle's merges. It is read, accepted with no fork remaining, and its issues-of-record amended the same cycle; row 220 carries it and the sequencing above is written to it.
