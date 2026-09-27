@@ -458,3 +458,38 @@ Cycle 23: **#561** (ch09's council substantive tier S-1..S-11) is the only open 
 - **RECORD**: rows 191 / 192 / 193, scorecard row 26, `walkthroughs/2026-09-27-w-003-round.md`, #710 closed with the audit evidence attached, this section. **Next**: dispatch row 192's cap (the defence Challenge), then bring row 193's convention call back with the evidence.
 
 
+
+## State at cycle 27 (2026-09-27, verified against the repo, not recalled)
+
+- **Nothing was in flight.** 0 open PRs, 0 open issues, `main` at `87922dc` on wake and `ab38794`
+  after the merge. 9 of 9 subsystems assessed, no status cell reads `needs Bruce`, nothing
+  ruled-and-unbuilt. Priority 1 is now a one-line check and it returned zero.
+- **The queue's last two rows landed in one work order.** Rows 192 and 193 were the same subsystem
+  (the Challenge number) and are now **#713** (`ab38794`), audited and merged: the defence Challenge
+  is capped at the dial's own -6, the stat-block Attributes field states its default, a player rolls
+  creature initiative on the DA's behalf, and the 39 blocks that printed no attribute line now carry
+  one.
+- **Row 193 was MISCLASSIFIED and is decided.** Its status cell read "needs a convention call -
+  not decided unilaterally because the repair authors values rather than deriving them". Authoring a
+  value is not a Bruce question: the row's own premise supplies the bound, and the corpus supplies the
+  shape. Two of its counts were also wrong (the chapter has **49** `=== ` blocks, not 48; the omission
+  is **39 of 49**), and one premise was false (a contest's Challenge is printed, in the heading).
+  The three defects it actually names each got the smallest lever that restores the invariant it
+  breaks: the DEFAULT (frame, no new rule) for initiative, the roller SENTENCE for a gap against
+  `13:103`, and per-creature values only where the default lies about the creature.
+- **The line that decided the last part, and the one to remember:** the Doppelganger is not a
+  judgement call at all. Its own Shapechange text consumes *its attributes* and *the doppelganger's
+  Guile (Deception) modifier* (`20:561`) while its block prints no Attributes line, so leaving the
+  default to cover it would have left a printed ability reading an unprinted zero.
+- **New instrument:** `scripts/check-attributes-census.py` (skill). Two comparisons, each against a
+  source that is not the file: BRANCH vs the decided values, and BRANCH vs base for the ten printed
+  lines that must stay byte-identical. Three planted-defect controls. **It caught its own author
+  first:** run from inside the worktree it read `HEAD` in the primary checkout and reported main's
+  numbers as a failure, which is trap (8) of the audit discipline, and the repo is now discovered
+  from the invoking directory.
+- **Cost, stated plainly:** the wave adds **422 words** (83,751 -> 84,173) and no page (399 before
+  and after), for 39 blocks that a DA could not otherwise roll for or shove.
+- **Next:** the queue is empty and no subsystem is unassessed, so the next cycle runs **W-004**, the
+  walkthrough the scorecard is thinnest on: a caster session, because "magic always fires" is the one
+  pillar with no transcript behind it and the magic assessment's four design questions were filed
+  rather than played.
