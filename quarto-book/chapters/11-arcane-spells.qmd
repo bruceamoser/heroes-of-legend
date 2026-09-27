@@ -53,7 +53,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 
 *Standard:* 3 cold damage. Liquid freezes solid.
 
-*Strong:* 5 cold damage. Target's next physical action has Bane as cold numbs their limbs.
+*Strong:* 5 cold damage. Target's next roll using Brawn, Fortitude, or Agility has a Bane as cold numbs their limbs.
 
 === Ghost Sound (Cantrip)
 *Disciplines:* None · *Action:* Action · *Range:* 30 ft (Concentration, up to 1 minute) · *Keywords:* None
