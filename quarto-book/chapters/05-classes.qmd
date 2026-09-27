@@ -657,7 +657,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
     [*Smoke Veil*], [Adept], [1 Stealth, 1 Sleight], [As an action], [Fill a 10-ft radius with heavy concealment; anyone inside is Hidden for 1 round. You may Vanish as part of this action.],
     [*Phantom Step*], [Adept], [1 Stealth, 1 Mind], [When you are hit by an attack], [You may Vanish immediately, before damage is applied. Once per scene.],
     [*Ghost*], [Master], [2 Stealth, 1 Mind], [When you Vanish successfully on a Strong stealth result], [You may remain invisible until the end of the encounter or until you attack. Your first attack from this extended Vanish deals +1 damage tier. Once per session.],
-    [*Filch*], [Master], [2 Stealth, 1 Sleight], [As an action], [Steal one carried item from a target within 30 ft without a roll. Once per session.],
+    [*Filch*], [Master], [1 Stealth, 2 Sleight], [As an action], [Steal one carried item from a target within 30 ft without a roll. Once per session.],
   )],
   kind: table,
   outlined: false,
