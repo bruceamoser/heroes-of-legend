@@ -79,7 +79,7 @@ A favour is not something you carry, but it is something you bring to a problem,
 
 == Weapons
 
-A weapon is a promise your hero makes about who they are. The longsword on the hip, the twin daggers, the greataxe that will not fit through doorways, each one says something about the person carrying it. What a weapon does not do is decide how hard you hit. Discipline is permission: a hero may use a piece of gear only while holding the Discipline ranks that item requires, bought at your class's rates (for each class's Discipline cost table, see @sec-chapter-classes) Gear adds no number beyond DR. Possession is separate: the object is one cost, granted, earned, or taken, and the rank is the other, bought with Development Points. Cards are damage: your attack ability cards carry the Weak, Standard, and Strong values (see @sec-chapter-talents-abilities), and the 3d6 attack roll decides which one you land. No separate damage dice.
+A weapon is a promise your hero makes about who they are. The longsword on the hip, the twin daggers, the greataxe that will not fit through doorways, each one says something about the person carrying it. What a weapon does not do is decide how hard you hit. Discipline is permission: a hero may use a piece of gear only while holding the Discipline ranks that item requires, bought at your class's rates (for each class's Discipline cost table, see @sec-chapter-classes) Gear adds no number beyond DR. Possession is separate: the object is one cost, granted, earned, or taken, and the rank is the other, bought with Development Points. Cards are damage: your attack ability cards carry the Weak, Standard, and Strong values (see @sec-chapter-talents-abilities) and the 3d6 attack roll decides which one you land. No separate damage dice.
 
 Pick the weapon that fits your hero, not the one that looks best on paper. They all hit the same; you are the one doing the hitting.
 
@@ -136,7 +136,7 @@ A shield takes Shields ranks by its size: 1 for a small shield, 2 for a medium o
 
 == Armor
 
-Armor is what you wear, and it is worth its points in DR: light grants 1, medium 2, heavy 3. A talent or ward does not add to that: use the higher of the two, and your tier caps the total. Shield DR is not part of that total: a shield's DR arrives through the Shield Block reaction, which applies it to one attack per round. Beyond the number, armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields A caster in heavy armor buys 3 Armor ranks at his class's rates (for each class's Discipline cost table, see @sec-chapter-classes), which is why armor is a cost and not a prohibition.
+Armor is what you wear, and it is worth its points in DR: light grants 1, medium 2, heavy 3. A talent or ward does not add to that: use the higher of the two, and your tier caps the total. Shield DR is not part of that total: a shield's DR arrives through the Shield Block reaction, which applies it to one attack per round. Beyond the number, armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields A caster in heavy armor buys 3 Armor ranks at his class's rates (for each class's Discipline cost table, see @sec-chapter-classes) which is why armor is a cost and not a prohibition.
 
 #figure(
   align(center)[#table(
