@@ -26,7 +26,7 @@ Five skills carry the weight of social encounters. Know which one fits the momen
 
 *Intimidation (Brawn):* Threats and coercion. "I wasn't asking." Works fast, burns bridges faster. The Unbalanced lives here. Everyone else visits when patience runs out.
 
-*Insight (Reason):* Reading truth from lies. Catching the twitch, the hesitation, the glance at the exit. Passive Insight is your Knowledge score + 7, that's the number the DA uses when someone's lying to you and you're not actively looking for it. When an NPC lies to you and you're not actively contesting the claim, keep your passive Insight in mind: their Deception roll carries a Challenge set by your Knowledge modifier, negated.
+*Insight (Reason):* Reading truth from lies. Catching the twitch, the hesitation, the glance at the exit. Rolled actively, Insight is keyed to Reason like any other skill. When someone lies to you and you are not looking for it, you do not roll: the lie carries a *Challenge* set by your Knowledge modifier, negated. A hero with Knowledge +2 imposes -2 on the liar. See @sec-chapter-core-resolution for how the Challenge works.
 
 *Performance (Guile):* Music, oratory, working a room. The right song at the right moment opens more doors than a blade ever will. The Odd's stage. The Leader's secret weapon.
 
@@ -107,11 +107,11 @@ The party needs passage through the Ironwood, a dense forest controlled by the T
 
 *Aldric (the player):* "I approach the warden with open hands. 'We have no quarrel with the Thornwood. We hunt a cult that's kidnapped children from three villages. They passed this way two days ago.'"
 
-*The DA:* "The warden's expression doesn't change, but her eyes flick toward the treeline. 'Children, you say.' She's listening. Give me a Persuasion roll. She's sharp, so her Insight is a Challenge of 2."
+*The DA:* "The warden's expression doesn't change, but her eyes flick toward the treeline. 'Children, you say.' She's listening. Give me a Persuasion roll. She's sharp, so her Knowledge is a Challenge of 2."
 
 _Aldric rolls:_ 3d6 + Guile (+1) + Persuasion Adept (+2) − Challenge (2). Result: 4, 5, 3 = 12 + 3 = 15, minus 2 = 13. *Standard.* One success.
 
-*The DA:* "The warden uncrosses her arms. 'We found tracks, heavy boots, dragging something. They went east, toward the old barrows. You'll need a guide. The barrows are... unsettled.' One success for the party, and her attitude shifts one step closer to you. Neutral to Friendly."
+*The DA:* "The warden uncrosses her arms. 'We found tracks, heavy boots, dragging something. They went east, toward the old barrows. You'll need a guide. The barrows are... unsettled.' One success for the party."
 
 *Round 2, The Lieutenant Objects:*
 
@@ -127,7 +127,7 @@ _Lyra rolls:_ 3d6 + Reason (+1) + Insight Novice (+1). Result: 5, 2, 4 = 11 + 2 
 
 _Aldric rolls:_ 4d6, keeping the highest three, + Guile (+1) + Persuasion Adept (+2). Result: 6, 5, 4, 2 keeps 6, 5, 4 = 15 + 3 = 18. *Strong.* Two successes, on top of the one from round one.
 
-*The DA:* "Three successes. The warden is already nodding. The conflict is yours."
+*The DA:* "Three successes, and she has warmed to you. Her attitude shifts one step closer: Neutral to Friendly. The warden is already nodding. The conflict is yours."
 
 *The Warden's Condition:*
 
