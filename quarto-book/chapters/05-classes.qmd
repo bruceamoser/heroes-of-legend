@@ -104,7 +104,7 @@ The Blade masters the art of grace and precision, favoring the swift elegance of
 
 *Favored Skills:* Acrobatics, Deception, Perception, Sleight of Hand, Stealth, Thievery
 
-*Starting Loadout:* Shortsword (1 Melee), dagger (1 Melee), leather armor (1 Armor), thieves' tools. Your class grant covers Melee; the Armor rank costs 4 DP at your Foreign rate, which still leaves room for a card.
+*Starting Loadout:* Shortsword (1 Melee), dagger (1 Melee), leather armor (1 Armor), thieves' tools. Your class grant covers Melee; the Armor rank costs 4 DP at your Opposed rate, which still leaves room for a card.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -155,7 +155,7 @@ The Arcanist delves into the mysteries of arcane energies, mastering their manip
 
 *Favored Skills:* Alchemy, Arcana, History, Lore, Nature
 
-*Starting Loadout:* Arcane focus, dagger (1 Melee), scholar's robes, focus pouch, spellbook. Unless an ancestry or culture grant covers Melee, the rank costs 4 DP at your Foreign rate, which still leaves room for a card.
+*Starting Loadout:* Arcane focus, dagger (1 Melee), scholar's robes, focus pouch, spellbook. Unless an ancestry or culture grant covers Melee, the rank costs 4 DP at your Opposed rate, which still leaves room for a card.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -199,7 +199,7 @@ The Shepherd stands as a beacon of guidance, providing moral direction and harne
 
 *Favored Skills:* Medicine, Nature, Religion, Survival
 
-*Starting Loadout:* Shortsword (1 Melee), holy symbol, leather armor (1 Armor), healer's kit. Neither rank is a class grant; together they cost 7 DP at your Foreign rates, which still leaves room for a card.
+*Starting Loadout:* Shortsword (1 Melee), holy symbol, leather armor (1 Armor), healer's kit. Neither rank is a class grant; together they cost 7 DP, the Melee rank at your Foreign rate and the Armor rank at your Opposed rate, which still leaves room for a card.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -335,7 +335,7 @@ The Leader is a beacon of courage on the battlefield, leading from the front lin
 
 *Favored Skills:* Persuasion, Perception, Insight, Survival, Endurance
 
-*Starting Loadout:* Longsword (2 Melee), spear (1 Two-Handed), leather armor (1 Armor), shield (1 Shields). Your class grant covers Shields; the weapon ranks cost 4 DP at your Home rates and the Armor rank costs 2 DP at your Adjacent rate, which still leaves room for a card.
+*Starting Loadout:* Longsword (1 Melee), spear (1 Two-Handed), leather armor (1 Armor), shield (1 Shields). Your class grant covers Shields; the weapon ranks cost 2 DP at your Home rates and the Armor rank costs 2 DP at your Adjacent rate, which still leaves room for a card.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 
@@ -405,7 +405,7 @@ The Unbalanced is a wild card, embodying chaos and unpredictability in every act
 
 *Favored Skills:* Arcana, Deception, Insight, Perception, Acrobatics
 
-*Starting Loadout:* Spear (1 Two-Handed), focus pouch, scholar's robes, six vials of volatile reagents. Unless an ancestry or culture grant covers Two-Handed, the rank costs 4 DP at your Foreign rate, which still leaves room for a card.
+*Starting Loadout:* Spear (1 Two-Handed), focus pouch, scholar's robes, six vials of volatile reagents. Unless an ancestry or culture grant covers Two-Handed, the rank costs 4 DP at your Opposed rate, which still leaves room for a card.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 

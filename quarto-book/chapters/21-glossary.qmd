@@ -84,7 +84,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Master:* The third tier. For a skill, the +3 bonus. Flat cost: 8 DP. Unlocks at Level 7.
 
-*Rank:* A single step of a Discipline, from 1 to 3. A card names the Discipline ranks it needs, and those ranks are its own prerequisite. The card's tier sets the level it needs (Novice 1, Adept 3, Master 7). A hero's maximum in any single Discipline is 3 ranks. Weapons, armor, and shields may list their own Discipline requirements as entry requirements: a Dagger needs 1 Melee, a Longsword 2 Melee, a Greatsword 2 Two-Handed, a Tower Shield 2 Shields, and Plate 3 Armor.
+*Rank:* A single step of a Discipline, from 1 to 3. A card names the Discipline ranks it needs, and those ranks are its own prerequisite. The card's tier sets the level it needs (Novice 1, Adept 3, Master 7). A hero's maximum in any single Discipline is 3 ranks. Weapons, armor, and shields may list their own Discipline requirements as entry requirements: a Dagger needs 1 Melee, a Longsword 1 Melee, a Greatsword 1 Two-Handed, a Tower Shield 3 Shields, and Plate 3 Armor.
 
 *Signature Ability:* The unique power granted by your class at Level 1. Defines your class identity mechanically.
 

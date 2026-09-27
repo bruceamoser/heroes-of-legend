@@ -454,7 +454,7 @@ Total: 8 DP. All spent.
 
 *Background DP (8 + Know -1 + Fort 0 = 7 DP + 1 Versatile = 8 DP):*
 
-- Melee Discipline, rank 2 (2 DP, Home), the longsword needs two, and she carries it
+- Melee Discipline, rank 2 (2 DP, Home), she trained past the shortsword and never went back
 - Athletics Novice (2 DP, culture bonus already applied)
 - Persuasion Novice (2 DP)
 - Endurance Novice (2 DP), a captain marches at the head of the column
