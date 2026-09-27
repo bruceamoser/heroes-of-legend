@@ -793,3 +793,67 @@ rule now applies (rewrite when the queue empties, after an assessment sweep, or 
 it is a measurement with an instrument to build (Grit spends per fight by tier, the Wound Table's Bane
 population, and the resulting rounds-to-resolve), not a new pass. It is balance in the contract's sense:
 the invariant is pacing (7) and the lever is a measurement, so it is mine to settle.
+
+## Cycle 37 (2026-09-27) - the Wound Table measured: it is bounded, and the one row that carries the tax was keyed to a word the book never defines
+
+**Priority 1 returned zero again** (`needs Bruce` 0, no status cell begins `open`/`pending`, no
+ruled-and-unbuilt row, 9 of 9 assessed), so the cycle ran cycle 36's own named next action: measure the
+Wound Table against the pacing law, because if Grit's price compounds faster than the pools absorb then
+the 3-4 round frame is holding a spiral rather than a fight.
+
+**SENSE.** Both calibration instruments ran clean before any claim was made: the canon index
+calibrated on the first run (ch11's own sentence, 75 = 75) and `rounds-to-resolve.py` returned **PASS
+with its selftest** (both controls, 3.79 / 3.73 / 3.27 at the amended #663 size). The monitor's wake was
+my own cycle 36 landing, so the corpus was re-read rather than assumed.
+
+**The instrument.** New `scripts/wound-spiral.py`. It parses both D666 tables out of `origin/main`
+(never a transcribed copy, the lesson that has cost this project three false findings), enumerates the
+**56** reachable sorted-triple outcomes with their permutation weights, maps them under the printed
+named-triple precedence, classifies every row's effect by what it does to a roll and for how long, and
+then walks a hero's pool against the band's own stat blocks using the book's **reversed** defence
+mapping. `--selftest` carries four controls: the reversal oracle (the book's own worked example at
+`13:152`), a planted deletion (remove Cracked Ribs and 4 outcomes strand), a bestiary-harvest floor, and
+an amplification control (a Bane must raise damage, or the model is wrong).
+
+**The answer: bounded, not spiralling.** The table is **56/56** outcomes mapped with 0 gaps and 0
+ambiguity. Per Grit spend, **11.1%** adds a sustained DEFENCE-roll Bane (Cracked Ribs 9.7% + Shattered
+Spirit 1.4%); 78.2% impose something, 0.9% nothing. The tax is **~0.3 rounds** of pool life per source
+and `06:63` caps potence at three. Pool life unwounded -> at the ceiling: Novice **5.2 -> 4.1** against a
+3.79-round fight, Master **4.1 -> 3.3** against 3.27, Adept **4.2 -> 3.3** against 3.73. Novice and
+Master clear at every potence they can reach; Adept has one tail, opening at potence 2 and needing two
+of the 11.1% events inside three spends, i.e. **3.4% of heroes**. The test that settles it is the book's
+own failure condition rather than my impression: `13:346` says a hero falls at 0 HP **with no Grit
+left**, so a drop after exhausting Grit is the design working, and **no hero is dropped while holding
+Grit**. Nothing on the Wound Table needs to move, and that is the decision (BALANCE, veto to revert).
+
+**The find, which came out of doing the measurement rather than the arithmetic.** `13:395` Cracked Ribs
+keyed its Bane to **"all physical rolls"**, and `physical roll` appears **once in the whole manuscript**,
+never defined. `07:134` groups skills as Physical / Knowledge / Social / Subterfuge / Crafting, so that
+reading covers a Dodge or Parry Defence Roll but **not** the attribute-only Defence Roll at `06:103` -
+two heroes, one wound, opposite outcomes, no rule to settle it. It matters because the Defence Roll is
+reversed (`06:122`), so a Bane there raises the attacker's damage tier: this is the single row the whole
+measured tax rides on. The same token appears a second time at `11:56` ("next physical action"). Both are
+now named in the taxonomy the book already prints (Brawn, Fortitude, Agility), in the idiom the
+neighbouring cards use when they mean a specific roll (`06:198`, `13:388`, `13:207`). Two sites, two
+insertions, two deletions, no number moved.
+
+**Audit.** Exactly the two named chapters; added lines carry 0 damage dice, 0 em-dashes, 0 markdown
+bold, 0 flat riders; `check-native-typst.py` exit 0; **my own rebuild exit 0 at 399 pages, unchanged**;
+both clauses re-read in the built PDF's text layer (p185, p240) with the OLD tokens at 0 hits
+book-wide; `da-walkthrough.py` PASS 49/49. Realised as **PR #730**, squash, branch deleted.
+
+**Two instrument lessons, recorded because both would have produced a false report.** (1) The ch13
+fragment read **0 hits** on the first render check and the site was fine: the text layer breaks
+"For-titude" across lines, so **a fragment that reads 0 can be wrapped, not absent** - the site must be
+read, not counted. (2) **Three citations I wrote this cycle pointed at `06:125`, which is the reversal
+table's closing paren; the rows are `06:122`-`06:124`.** Found by re-reading every line ref against the
+file before the commit, not by a gate.
+
+**Reported, not changed.** `rounds-to-resolve.py`'s monster direction maps the distribution the
+attacker's way rather than the book's (`06:122`), which overstates incoming damage by 0-13% for an
+untrained defender and 12-19% for a trained one. **The verdict does not move**: the window is set by the
+clear direction, which is mapped correctly, and the gate's hits-to-fall is right in level. Recorded as an
+erratum in `assessment.md`; rewriting a gate's model deserves its own measured cycle.
+
+**Next.** The review's weakest item 3: **the Master-tier payoff** - what a Master actually gains across
+the ladder (damage per DP 3.00 -> 2.00 -> 1.25) and whether the top of it is a payoff or larger numbers.

@@ -67,6 +67,44 @@ Two corrections to the earlier framing follow from the same numbers:
   encounter). Whether those compound faster than the pools absorb is the open question, and it is a
   round-walkthrough measurement, not an arithmetic one.
 
+**MEASURED 2026-09-27 (architect cycle 37), and the answer is that it does not compound. Verdict: GOOD,
+unchanged.** New instrument `scripts/wound-spiral.py` (parses the two D666 tables out of `origin/main`,
+enumerates the outcome space, classifies every row's effect, and walks the pool against the band's own
+stat blocks; `--selftest` carries the reversal oracle below plus a planted-deletion control).
+
+| quantity | measured |
+|---|---|
+| D666 coverage | **56/56** reachable outcomes mapped, 0 gaps, 0 ambiguous, 0 empty rows |
+| any effect per Grit spend | 78.2% impose something; **0.9%** impose nothing |
+| sustained DEFENCE-roll Bane | **11.1%** per spend (Cracked Ribs 9.7% + Shattered Spirit 1.4%) |
+| P(>=1 such Bane) | 11% / 21% / 30% / 38% after 1 / 2 / 3 / 4 spends |
+| tax per source | **~0.3 rounds** of pool life, and the potence cap is **3** (`06:63`) |
+
+Rounds of pool life against the Standard encounter's own creatures, unwounded -> at the potence ceiling:
+Novice **5.2 -> 4.1** (fight clears in 3.79), Master **4.1 -> 3.3** (3.27), Adept **4.2 -> 3.3** (3.73).
+Novice and Master clear at every potence they can reach. Adept is the one tail: it opens at potence 2
+(3.5 rounds vs 3.73) and needs **2 of the 11.1% events** inside 3 Grit spends, i.e. **3.4% of heroes**,
+and only once every Grit is gone. **No hero is dropped while holding Grit**, which is the test that
+matters: the printed failure condition is `13:346` (0 HP with no Grit left), so a drop after exhausting
+Grit is the design working rather than a spiral. **Nothing on the Wound Table needs to move.**
+
+Two facts found while measuring, both reported rather than fixed:
+
+- **The row that carries the whole tax was scope-ambiguous.** `13:395` keyed its Bane to "physical rolls",
+  a token printed **once in the book** and never defined for a roll; `ch07:134` groups skills as
+  Physical/Knowledge/Social/Subterfuge/Crafting, so the reading covers a Dodge or Parry Defense Roll but
+  **not** the attribute-only roll at `06:103`. Fixed as PR #730 (cycle 37), naming the three physical
+  attributes the book already prints. The same token at `11:56` ("next physical action") was fixed with it.
+
+- **The monster direction of `rounds-to-resolve.py` is mapped the attacker's way, not the book's.**
+  `06:115` and its table at `06:122` reverse the Defence Roll (a Weak defence roll reads the attacker's
+  Strong value); the gate reads the distribution forward, so its `E[dmg]` column is `5.66 / 7.44 / 9.49`
+  where the book's mapping with the band's own Challenges gives `4.90 / 7.42 / 9.96` for an untrained
+  defender and `4.57 / 6.49 / 8.36` trained. **The verdict does not move** (within 13% at the untrained end, and the
+  window is set by the clear direction, which is mapped correctly), so this is an erratum to record, not a
+  repair to rush: the gate's hits-to-fall is right in level and mildly wrong in shape (its flat 5.8 / 5.9 /
+  5.8 becomes ~7.2 / 6.8 / 6.6 at HP 11 for a trained defender, drifting down instead of sitting flat).
+
 ## Assessment 1 — Core resolution (the roll everything sits on)
 
 **As printed.** `3d6 + Attribute Modifier (-2..+2) + Skill Bonus (+1/+2/+3) + Difficulty Modifier`.
