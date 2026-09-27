@@ -79,7 +79,7 @@ A favour is not something you carry, but it is something you bring to a problem,
 
 == Weapons
 
-A weapon is a promise your hero makes about who they are. The longsword on the hip, the twin daggers, the greataxe that will not fit through doorways, each one says something about the person carrying it. What a weapon does not do is decide how hard you hit. Discipline is permission: a hero may use a piece of gear only while holding the Discipline ranks that item requires, bought at your class's rates (see @sec-chapter-classes for each class's Discipline cost table). Gear adds no number beyond DR. Possession is separate: the object is one cost, granted, earned, or taken, and the rank is the other, bought with Development Points. Cards are damage: your attack ability cards carry the Weak, Standard, and Strong values (see @sec-chapter-talents-abilities), and the 3d6 attack roll decides which one you land. No separate damage dice.
+A weapon is a promise your hero makes about who they are. The longsword on the hip, the twin daggers, the greataxe that will not fit through doorways, each one says something about the person carrying it. What a weapon does not do is decide how hard you hit. Discipline is permission: a hero may use a piece of gear only while holding the Discipline ranks that item requires, bought at your class's rates (see @sec-chapter-classes for each class's Discipline cost table). Gear adds no number beyond DR. Possession is separate: the object is one cost, granted, earned, or taken, and the rank is the other, bought with Development Points. Cards are damage: your attack ability cards carry the Weak, Standard, and Strong values (see @sec-chapter-talents-abilities) and the 3d6 attack roll decides which one you land. No separate damage dice.
 
 Pick the weapon that fits your hero, not the one that looks best on paper. They all hit the same; you are the one doing the hitting.
 
@@ -229,7 +229,7 @@ These are the small things that separate a prepared adventurer from a corpse. Th
 *Containers and Encumbrance:* A pouch holds up to 50 small items slot-free. A sack holds up to 1 cubic foot before it tears. After your first dragon hoard, you'll want a wagon.
 
 #callout(type: "note", title: "Starting Gear", body: [
-New heroes take their class's starting loadout (see @sec-chapter-classes); the DA may grant extra gear at campaign start.
+New heroes take their class's starting loadout (see @sec-chapter-classes) The DA may grant extra gear at campaign start.
 ])
 
 == Mounts & Vehicles
@@ -288,7 +288,7 @@ Fighting from horseback isn't just "combat but taller." It changes the geometry 
 
 The charge must be in a straight line, no zigzagging through trees. The mount must have a clear path. The target must be within reach at the end of the movement. The mount can continue moving after the attack if it has movement remaining. Only one charge benefit per attack, so the off-hand strike of a two-weapon fight does not also claim it. A warhorse at full gallop with a lance is the closest thing to a thunderbolt you'll ever ride.
 
-*Controlling a Mount:* Steering is free. A trained mount (a warhorse, or a riding horse with a rider who has Survival or Nature) follows the fiction, no roll required. To make the mount do something extra beyond its normal movement, spend the Command maneuver (see @sec-chapter-combat): the mount takes an extra move. In chaotic situations (explosions, dragon fear, the horse just took an arrow), the DA may call for a Survival or Nature check (Standard) to keep control.
+*Controlling a Mount:* Steering is free. A trained mount (a warhorse, or a riding horse with a rider who has Survival or Nature) follows the fiction, no roll required. To make the mount do something extra beyond its normal movement, spend the Command maneuver (see @sec-chapter-combat) The mount takes an extra move. In chaotic situations (explosions, dragon fear, the horse just took an arrow), the DA may call for a Survival or Nature check (Standard) to keep control.
 
 *Fighting from a Moving Mount:* Ranged attacks made from a moving mount suffer a Bane. The horse's gait throws off your aim. If you have Survival or Nature at Adept or higher, the gait is nothing to you and the Bane is dropped. At Master rank, you ignore it entirely, you could thread an arrow through a keyhole at full gallop.
 
@@ -336,7 +336,7 @@ Sometimes you need to move more than yourself. Trade goods, siege equipment, the
 *Upgrades:* Vehicles can be reinforced (+10 HP), armored (passengers have half cover), or outfitted with weapon mounts (ballista platform on a ship, crossbow mount on a wagon). Weapon mounts require a crew member to operate, and the damage comes from the attack card used to fire them.
 
 #callout(type: "tip", title: "Chases", body: [
-For vehicle vs. vehicle chases, a wagon fleeing bandits on horseback, a ship outrunning pirates, only the pursuer rolls, and the quarry's speed is the difficulty. Each round the pursuer's driver makes one roll on the core 3d6 (@sec-chapter-core-resolution), applying the Speed difference as a Boon or a Bane: a Boon if the pursuer is faster, a Bane if the quarry is. A 10 ft edge is one step, 30 ft is two, 60 ft or more is three. A Standard or Strong result closes one band of distance; a Weak result opens one. Closing three bands means the pursuer catches them, opening three means the quarry escapes, and short of that the chase simply continues, a wheel hits a rock, a sail tears, a horse stumbles, and the DA narrates the near miss.
+For vehicle vs. vehicle chases, a wagon fleeing bandits on horseback, a ship outrunning pirates, only the pursuer rolls, and the quarry's speed is the difficulty. Each round the pursuer's driver makes one roll on the core 3d6 (@sec-chapter-core-resolution) applying the Speed difference as a Boon or a Bane: a Boon if the pursuer is faster, a Bane if the quarry is. A 10 ft edge is one step, 30 ft is two, 60 ft or more is three. A Standard or Strong result closes one band of distance; a Weak result opens one. Closing three bands means the pursuer catches them, opening three means the quarry escapes, and short of that the chase simply continues, a wheel hits a rock, a sail tears, a horse stumbles, and the DA narrates the near miss.
 ])
 
 Gear is the quiet part of the story. Your players will remember the goblins, the treasure, and the horse that died in session three. They will also remember the weight of the longsword and the relief of finding oil for the lantern. Carry it well. Lose it badly. That's the adventure.

@@ -70,7 +70,7 @@ When two characters act directly against one another (a grapple, a shove, a disg
 
 The acting character rolls *3d6 + Attribute Modifier + Skill Bonus − Challenge*. *Challenge* is the target's relevant attribute modifier, negated: a target with Brawn +2 is a Challenge of −2, a target with Knowledge −1 is a Challenge of +1. Use whichever attribute the contest actually tests. This is the same shape as swinging a sword at someone. One roll, one result, and the defender's quality is what makes it hard.
 
-There is no margin math. If Kael's grapple comes to 14 after the Challenge and that is a Standard result, Kael wins the grapple. The opposed rule also governs Stealth against a sentry's alertness for surprise (@sec-chapter-combat), and social contests where an NPC is actively working against the party (@sec-chapter-social-conflict) Wherever the book says "opposed," this is the rule.
+There is no margin math. If Kael's grapple comes to 14 after the Challenge and that is a Standard result, Kael wins the grapple. The opposed rule also governs Stealth against a sentry's alertness for surprise (@sec-chapter-combat) and social contests where an NPC is actively working against the party (@sec-chapter-social-conflict) Wherever the book says "opposed," this is the rule.
 
 #pagebreak()
 
