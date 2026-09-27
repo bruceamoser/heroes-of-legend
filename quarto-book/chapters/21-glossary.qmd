@@ -66,7 +66,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Development Points (DP):* The currency of character creation and advancement. Spent to purchase skills, abilities, and Disciplines. Skills and abilities cost a flat rate by tier (Novice 2 DP, Adept 4 DP, Master 8 DP). Disciplines cost different amounts per class depending on their cost structure (Home, Adjacent, Foreign, Opposed).
 
-*Discipline:* A prerequisite resource representing mastery of a domain. Disciplines come in types: Elemental (Fire, Earth, Wind, Water), Weapon (Melee, Two-Handed, Ranged, Unarmed), Defense (Armor, Shields, Protection), Primal (Animal, Plants), Arcane (Energy), Divine (Life, Religion), Esoteric (Mind, Summon, Fate), Subterfuge (Stealth, Sleight), and Knowledge (Lore, Tactics). Each class has a cost table showing the DP price for each rank in each discipline (see @sec-chapter-classes).
+*Discipline:* A prerequisite resource representing mastery of a domain. Disciplines come in types: Elemental (Fire, Earth, Wind, Water), Weapon (Melee, Two-Handed, Ranged, Unarmed), Defense (Armor, Shields, Protection), Primal (Animal, Plants), Arcane (Energy), Divine (Life, Religion), Esoteric (Mind, Summon, Fate), Subterfuge (Stealth, Sleight), and Knowledge (Lore, Tactics). Each class has a cost table showing the DP price for each rank in each discipline (see @sec-chapter-classes)
 
 *Wildcard Rank:* A single rank held by the Odd that stands in for any one Discipline. It is never assigned, it satisfies one requirement of one rank at a time, it never advances, and it costs no Development Points. See @sec-chapter-classes
 
@@ -192,7 +192,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Wounded:* Below half your maximum HP. See *Wound* for what happens when you are dropped.
 
-*Wound:* A lasting injury from combat. When you spend a point of Grit, you gain a Wound and roll on the Wound Table (see @sec-chapter-combat). Wounds linger after HP is restored and heal one per long rest (a Standard Medicine check during a rest heals one additional wound).
+*Wound:* A lasting injury from combat. When you spend a point of Grit, you gain a Wound and roll on the Wound Table (see @sec-chapter-combat) Wounds linger after HP is restored and heal one per long rest (a Standard Medicine check during a rest heals one additional wound).
 
 *Thunder:* A damage type: concussive sound and shockwaves. Part of the Elemental family alongside Fire, Cold, Lightning, Acid, and Poison.
 
@@ -238,7 +238,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Respite:* A full night's rest. Grit returns on a respite, and nothing shorter brings it back.
 
-*Rest:* Time taken to recover. A short rest takes 1 hour and has no default mechanical effect. A long rest takes 8 hours and provides the full recovery benefits (see @sec-chapter-gm-guidance).
+*Rest:* Time taken to recover. A short rest takes 1 hour and has no default mechanical effect. A long rest takes 8 hours and provides the full recovery benefits (see @sec-chapter-gm-guidance)
 
 *Session:* One gaming session, typically 3–4 hours. Some abilities refresh per session.
 

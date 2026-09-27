@@ -196,7 +196,7 @@ Weapons, armor, and shields may list their own Discipline requirements as entry 
 
 === No-Prereq Basics
 
-Some basic Novice cards (basic utility skills) have *no Discipline requirement* and cost only the flat card price (2 DP). These represent minor talents anyone can pick up: a knack for reading a room, a trick of sleight of hand, a steady hand on a wound. Cantrips are the one exception on price: they cost nothing, and every caster of a tradition knows the whole list (see @sec-chapter-arcane-spells and @sec-chapter-divine-spells). A card that prints no Discipline on its header needs none, whatever its tier. There are no shortcuts to real power.
+Some basic Novice cards (basic utility skills) have *no Discipline requirement* and cost only the flat card price (2 DP). These represent minor talents anyone can pick up: a knack for reading a room, a trick of sleight of hand, a steady hand on a wound. Cantrips are the one exception on price: they cost nothing, and every caster of a tradition knows the whole list (see @sec-chapter-arcane-spells and @sec-chapter-divine-spells) A card that prints no Discipline on its header needs none, whatever its tier. There are no shortcuts to real power.
 
 #pagebreak()
 
