@@ -191,6 +191,31 @@ These six talents are the substitution family. Only one substitution applies to 
 
 *Novice:* When you or an ally within 30 ft would lose a turn to a condition, that creature ignores every condition on them until the end of their next turn and acts normally, and when that turn ends every condition they ignored lands on you for its remaining duration.
 
+=== Weighted Coin (Novice Talent)
+*Disciplines:* 1 Fate · *Action:* Reaction · *Range:* Self · *Keywords:* Reroll
+
+*Novice:* Once per scene, when a roll is made but before its outcome is known, you may spend your Reaction to give that roll a Boon.
+
+=== Oathsworn (Novice Talent)
+*Disciplines:* 1 Fate · *Action:* Passive · *Range:* Self · *Keywords:* Oath
+
+*Novice:* Speak an oath aloud and name one task. Rolls you make in direct pursuit of that task gain a Boon. If you abandon the task, you lose 2 maximum HP until you atone. You may hold one oath at a time.
+
+=== Cast the Bones (Adept Talent)
+*Disciplines:* 2 Fate · *Action:* Action · *Range:* Self · *Keywords:* Divination
+
+*Adept:* Once per session, ask three questions about one course of action you are considering. The DA answers each truthfully in one sentence.
+
+=== Turn of the Wheel (Adept Talent)
+*Disciplines:* 2 Fate · *Action:* Reaction · *Range:* 30 ft · *Keywords:* Reroll
+
+*Adept:* Once per scene, when a creature within 30 ft succeeds on a roll, force it to reroll with fresh dice and take the new result.
+
+=== Moment of Turning (Master Talent)
+*Disciplines:* 3 Fate · *Action:* Reaction · *Range:* Self · *Keywords:* Reroll
+
+*Master:* Once per session, when a roll you made fails, treat its result as Strong instead.
+
 #pagebreak()
 
 == Basic Attacks
