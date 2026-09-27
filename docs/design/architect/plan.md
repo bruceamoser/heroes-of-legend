@@ -1058,3 +1058,53 @@ clean tree, no worktrees; scratch cleared. Words **84,700**; ledger **211** rows
 pages **399** (unchanged). **The review is rewritten** at `f7873b1`: all six of the old weaknesses list are
 resolved (1, 4 and 6 repaired; 2 and 3 closed by measurement; 5 withdrawn), the new list is ordered by harm
 at a table, and the verdict names the class-shelf sweep as the next act.
+
+---
+
+## Cycle 42 (2026-09-27) - the class-shelf sweep dispatched: the shelf is NINE tables, and the ninth has no `====` header
+
+**SENSE.** `main` moved `f7873b1` -> `aba0a2d` (ledger row 212 + work order #739, PR #740); 0 open PRs,
+**1 open issue (#739)**, ledger 212 rows with none ruled-but-unbuilt, 9 of 9 assessed, dispatch ON. The queue
+was not empty, so priority 1 (the review) did not fire. The act is the dispatch of the standing work order.
+
+**Recon before dispatch changed the spec three times, and all three are under-parse traps that read as passes.**
+(1) The shelf is **90 entries across NINE tables**, not the eight a `^==== ` scan finds: the Odd's shelf sits
+under a **`===`** header (`05:724` "Odd Abilities"), so a parser splitting on `^==== ` reports 8 tables and 80
+rows, silently drops the whole Odd shelf, and then prints a confident clean sweep over what it collected. The
+canonical index independently confirms the population: *"TOTAL cards 208 + class abilities 90 = 298"*.
+(2) A table row carries **four leading spaces** inside its `#figure(...)`, so `^\[\*` matches zero rows; and
+the tag-cost table (`05:770-773`) contributes four more `[*Name*]` rows that are not abilities, which is how a
+parse can return **94** and call it the corpus. (3) The trigger vocabulary was measured, not assumed: **11**
+ch05 triggers already key to a tier result, and the events the book cannot produce are enumerated and cheap to
+grep (no misses, no saving throws, no to-hit rolls anywhere in the 25 chapters).
+
+**An independent read of all 90 triggers finds exactly one dead one, and one near-miss that is NOT dead.**
+*Leverage* (`05:568`) is the dead one. The near-miss is *Shield Bash* (`05:685`, "When you hit with a shield"):
+ch16's Shields section describes a shield only as an active defence, so the trigger reads unproducible until
+`09:554` *Shield Throw* (Action, `Requires: shield`, 4/6/8) and `09:577-578` *Shield Slam* (Maneuver,
+`Requires: shield`, 4/6/8, Push) are found. Both hit with a shield, and `05:63` tells the Protector to fight
+with Shield Bash. Held as a **boundary**: recorded so a later sweep does not re-file it, and so the agent's
+report can be checked against a baseline I derived independently of it.
+
+**The dispatch.** Work order **#739**, one file, one edit: re-key *Leverage* to the shelf's own tier idiom and
+delete the dead clause one sentence later in its own effect ("if the reroll hits" is the same defect as the
+trigger, because there are no misses). Everything else the agent finds is report-only; it moves no other
+number, cost or wording. The prompt is seeded **inside the worktree** as `.task-spec.md` with the replacement
+row written out as fixed text, the PR body instructed to live in the worktree (a `/tmp` body is an
+`external_directory` auto-reject at the last step), and `git push -u origin HEAD` explicit because the worktree
+branch is created tracking `origin/main` (whose upstream was unset before dispatch so a bare `git push` can
+never aim at main).
+
+**Instruments, this cycle.** Canon index calibration **OK** (ch11's own sentence 75 = 75 parsed; 208 cards + 90
+class abilities). `rounds-to-resolve.py` **PASS** 3.79 / 3.73 / 3.27 against the 3-4 law, with the resource
+line recorded: one Standard fight spends **73.0 / 81.0 / 71.5 %** of a hero's per-respite pool at Novice /
+Adept / Master, and **Adept is the tightest tier** (the review's item 3, now a standing measurement rather
+than a claim).
+
+**State at cycle 42.** Book at `aba0a2d`; 0 open PRs; open issues **1 (#739, dispatched, audit owed)**; ledger
+**212** rows, none ruled-but-unbuilt; words **84,700**; pages **399**; one checkout, one worktree in flight
+(`/tmp/wt-739`), scratch to be cleared at the audit.
+
+**Next.** Audit the sweep's PR against this cycle's independently derived baseline (9 tables / 90 rows, 11
+tier-keyed triggers, exactly one dead trigger), then merge and close #739. The game's remaining ceiling is
+content rather than mechanics: printed play stops at level 2.
