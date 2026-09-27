@@ -228,7 +228,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *DA (Dungeon Architect):* The game master. Runs the world, plays the NPCs, adjudicates the rules.
 
-*Challenge:* A penalty the DA applies to your roll when the world or an opponent opposes you. A goblin might be -1 (barely a threat) and a dragon -6 (good luck), and the DA tells you the number before you roll. A monster's stat block prints the same number as a positive rating, so a Challenge 3 knight imposes -3 on your roll. See @sec-chapter-core-resolution
+*Challenge:* A penalty the DA applies to your roll when the world or an opponent opposes you. A goblin might be -1 (barely a threat) and a dragon -6 (good luck), and the DA tells you the number before you roll. A monster's stat block prints the same number as a positive rating, so a Challenge 3 knight imposes -3 on your roll. The penalty stops at -6: a Challenge 12 dragon imposes the same -6 as a Challenge 7 stone giant. See @sec-chapter-core-resolution
 
 *Challenge ½ (C½):* The minion-tier Challenge rating. Creatures at Challenge ½ (goblins, bandits, cultists) are individually weak and meant to be fought in numbers. They impose -1 on your roll, the same as a Challenge 1 creature.
 
