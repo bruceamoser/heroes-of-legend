@@ -1456,3 +1456,26 @@ The queue emptied at `f7e5328` (0 issues, 0 PRs, ledger 227 with no unbuilt mark
 - **GATES.** Exactly 6 chapter files; `*Range:*`-carried durations 10 -> **1**; `*Duration:*` fields 0 -> **18**; compound ritual casts 3 -> **0**; card headings ch11 75 / ch12 48 unchanged (corpus 210); 0 em-dashes, 0 damage dice and 0 numeric roll modifiers in added lines (the one `d6` hit is the core roll's `3d6` inside the new table); native gate exit 0; **my own build exit 0 at 404 pages**; census calibration PASS; rung-monotonicity 382 / 158 / 0; and every changed site read back in the render, including both glossary pointers reading "The rule is in Chapter 12." with the period the chapter cross-ref supplies (12 is file 10's printed chapter number, which is the chapter-numbering divergence the layout reference documents, not an error).
 - **Housekeeping.** Worktree removed and pruned; branch deleted locally with `git update-ref -d` (the plain force-delete verb is blocked in cron mode) and on origin; `main` synced at `175e940`; scratch probes noted for the 72h self-prune.
 - **Next.** **#788 is the standing work order** (three healing lanes: divine, primal/natural, physical), with row 230's recon findings to absorb so nothing is re-invented: `12:102` *Staunch* already exists as the divine spell, *Set Bone* already exists and is now the 15-minute ritual, the Wound wall stays Bruce's, and every new card must satisfy the threshold law, the Maneuver-buys-an-effect law and the live budget rows. Behind it, cycle 54's review item is still the largest single item: price `19:53`'s rungs in Wound rolls and make `18:23` say whether its pace describes one hero or a rotating party.
+
+## State at cycle 57 (2026-09-27, verified against the repo, not recalled)
+
+- **The wake was the previous cycle's own merge.** The digest now tracks `manuscript=`, so it read
+  `175e940` (PR #794): 0 open PRs, 1 open issue (**#788 standing**, Bruce's three healing lanes),
+  ledger 231 rows with no ruled-and-unbuilt mark, assessment 9 of 9. Priority 1 (the review) did not
+  fire, because the queue was not empty; the act was the standing work order.
+- **#788 is dispatched** on `fix/788-three-healing-lanes`: seven changes, every added line pinned in
+  the spec (five new cards, three preparations, two maneuver rows, eleven field reconciliations, one
+  kit clause, one intro sentence). Row 232 records the eight derived calls and their one-word
+  reversals. The dispatch-readiness gate ran first: every card's numbers were computed here and are
+  written into the spec as fixed values, so the agent authors nothing.
+- **Three recon facts shaped the spec and none of them was in the issue.** The printed `12:102`
+  *Staunch* is referenced **nowhere** book-wide, so the name collision costs nothing to fix by moving
+  the card rather than renaming it. The primal lane's *infrastructure* already exists (focus item,
+  glossary entry, tradition sentence, five focus-keyed cards), so the lane's missing half is the
+  cards, not the rules. And the physical lane's headline job, **field surgery**, is not printed at
+  all (0 hits for `surgery` and `stabilis` in ch13, ch07 and ch19), so #788's own job table described
+  a lane that could not yet do what it claimed; the clause is part of this work order.
+- **Housekeeping:** the six stale branches from cycles 53 to 56 and #797 proved landed (`git cherry`
+  reports no `+` and each has a merged PR) and were deleted; the remote held only `main`, so the
+  cleanup was the stale tracking refs, pruned.
+- **Next:** audit and merge the #788 PR, then the review's largest open item.
