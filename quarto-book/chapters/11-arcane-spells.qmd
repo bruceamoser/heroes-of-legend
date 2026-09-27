@@ -29,7 +29,7 @@ Cantrips are minor spells. The magic you learn before you learn _real_ magic. Th
 They won't win a fight by themselves. But they'll start one, end one, or change the terms of one. Never underestimate a caster who knows exactly what their cantrips can do.
 
 === Arcane Mark (Cantrip)
-*Disciplines:* None · *Cast:* Action · *Range:* Touch (Permanent) · *Keywords:* None
+*Disciplines:* None · *Cast:* Action · *Range:* Touch · *Duration:* Permanent · *Keywords:* None
 
 *Weak:* The mark is faint. Eldritch Sight reveals it, but the image is blurry.
 
@@ -38,7 +38,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Strong:* The mark is flawless. You may also sense when any creature touches it within 100 feet for the next 24 hours.
 
 === Dancing Lights (Cantrip)
-*Disciplines:* None · *Cast:* Action · *Range:* 60 ft (Concentration, up to 1 minute) · *Keywords:* Bane
+*Disciplines:* None · *Cast:* Action · *Range:* 60 ft · *Duration:* Concentration, up to 1 minute · *Keywords:* Bane
 
 *Weak:* Two dim orbs. Light radius halved. They flicker.
 
@@ -56,7 +56,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Strong:* 5 cold damage. Target's next roll using Brawn, Fortitude, or Agility has a Bane as cold numbs their limbs.
 
 === Ghost Sound (Cantrip)
-*Disciplines:* None · *Cast:* Action · *Range:* 30 ft (Concentration, up to 1 minute) · *Keywords:* None
+*Disciplines:* None · *Cast:* Action · *Range:* 30 ft · *Duration:* Concentration, up to 1 minute · *Keywords:* None
 
 *Weak:* One brief, obvious sound. Anyone listening gets a Reason check to recognize it as magical.
 
@@ -65,7 +65,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Strong:* Complex audio, a full sentence in a recognizable voice, or a soundscape (approaching guards, a wolf pack circling).
 
 === Mage Hand (Cantrip)
-*Disciplines:* None · *Cast:* Action · *Range:* 30 ft (Concentration, up to 1 minute) · *Keywords:* None
+*Disciplines:* None · *Cast:* Action · *Range:* 30 ft · *Duration:* Concentration, up to 1 minute · *Keywords:* None
 
 *Weak:* The hand is clumsy. Fine manipulation fails. Objects may be dropped.
 
@@ -74,7 +74,7 @@ They won't win a fight by themselves. But they'll start one, end one, or change 
 *Strong:* The hand is preternaturally deft. It can pick pockets, disarm simple traps, or deliver a potion to an ally's lips mid-combat.
 
 === Prestidigitation (Cantrip)
-*Disciplines:* None · *Cast:* Action · *Range:* 10 ft (Up to 1 hour) · *Keywords:* None
+*Disciplines:* None · *Cast:* Action · *Range:* 10 ft · *Duration:* Up to 1 hour · *Keywords:* None
 
 *Weak:* One effect. It's crude, the sparks are dull, the cleaning is smeary.
 
@@ -527,7 +527,7 @@ This DR does not stack with any other source of DR.
 *Strong:* The delay outlives the scene and rests on its condition alone, and you may name three conditions that will end it.
 
 === The Room You Remember (Master Arcane Spell)
-*Disciplines:* 2 Mind + 1 Energy · *Cast:* Action (ritual, 1 minute) · *Range:* 30 ft · *Keywords:* Teleport, Insight
+*Disciplines:* 2 Mind + 1 Energy · *Cast:* 1 minute (a doorway, and a place you have seen yourself) · *Range:* 30 ft · *Keywords:* Teleport, Insight
 
 *Weak:* You touch a doorway and name a place you have seen yourself; for a breath, the room beyond shows it.
 
@@ -601,7 +601,7 @@ This DR does not stack with any other source of DR.
 *Strong:* You take the memory whole; the creature cannot recall it while you hold it, and you may set it back exactly as it was, or keep it.
 
 === True Name (Adept Arcane Spell)
-*Disciplines:* 2 Mind · *Cast:* Action (ritual, 1 minute) · *Range:* 30 ft · *Keywords:* Insight, Control
+*Disciplines:* 2 Mind · *Cast:* 1 minute (the creature present, and its name spoken aloud) · *Range:* 30 ft · *Keywords:* Insight, Control
 
 *Weak:* You learn whether a name a creature answers to is truly its own.
 
@@ -690,7 +690,7 @@ It acts on your turn, obeys your spoken commands, and vanishes at the end of the
 == Fate Spells
 
 === The Given Word (Novice Arcane Spell)
-*Disciplines:* 1 Fate · *Cast:* Action (ritual, 1 minute) · *Range:* Touch · *Keywords:* Oath, Damage
+*Disciplines:* 1 Fate · *Cast:* 1 minute (the promise written, and its signer present) · *Range:* Touch · *Keywords:* Oath, Damage
 
 *Weak:* A promise written in your presence and signed binds its signer: the moment they break it they take 4 damage.
 
@@ -709,26 +709,26 @@ It acts on your turn, obeys your spoken commands, and vanishes at the end of the
 
 == Protection Spells
 
-Protection is the ward school. The arcane ladder is Glass Aegis, Crystal Aegis, and Adamant Aegis: DR for a caster who has none, +1 at Novice, +2 at Adept, +3 at Master. A ward does not add to armor, because a creature's DR comes from one source at a time, so use the higher of the ward and the steel. Each ward lasts 1 round, and sustaining it costs your Maneuver every turn: spend that Maneuver during your turn, or the spell ends at the start of it. Casting the ward also costs your Maneuver. The divine ladder wears the skin names; this is the arcane one.
+Protection is the ward school. The arcane ladder is Glass Aegis, Crystal Aegis, and Adamant Aegis: DR for a caster who has none, +1 at Novice, +2 at Adept, +3 at Master. A ward does not add to armor, because a creature's DR comes from one source at a time, so use the higher of the ward and the steel. Each ward is a concentration effect, held with your Maneuver every turn, and casting it costs your Maneuver too. The divine ladder wears the skin names; this is the arcane one.
 
 === Glass Aegis (Novice Arcane Spell)
-*Disciplines:* 1 Protection · *Requires:* focus:arcane · *Cast:* Maneuver · *Range:* Self · *Keywords:* DR
+*Disciplines:* 1 Protection · *Requires:* focus:arcane · *Cast:* Maneuver · *Range:* Self · *Duration:* Concentration, up to 1 round · *Keywords:* DR
 
-*Effect:* +1 DR for 1 round, sustained with your Maneuver.
+*Effect:* +1 DR.
 
 This DR does not stack with any other source of DR.
 
 === Crystal Aegis (Adept Arcane Spell)
-*Disciplines:* 2 Protection · *Requires:* focus:arcane · *Cast:* Maneuver · *Range:* Self · *Keywords:* DR
+*Disciplines:* 2 Protection · *Requires:* focus:arcane · *Cast:* Maneuver · *Range:* Self · *Duration:* Concentration, up to 1 round · *Keywords:* DR
 
-*Effect:* +2 DR for 1 round, sustained with your Maneuver.
+*Effect:* +2 DR.
 
 This DR does not stack with any other source of DR.
 
 === Adamant Aegis (Master Arcane Spell)
-*Disciplines:* 3 Protection · *Requires:* focus:arcane · *Cast:* Maneuver · *Range:* Self · *Keywords:* DR
+*Disciplines:* 3 Protection · *Requires:* focus:arcane · *Cast:* Maneuver · *Range:* Self · *Duration:* Concentration, up to 1 round · *Keywords:* DR
 
-*Effect:* +3 DR for 1 round, sustained with your Maneuver.
+*Effect:* +3 DR.
 
 This DR does not stack with any other source of DR.
 

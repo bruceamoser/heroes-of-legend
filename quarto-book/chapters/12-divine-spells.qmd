@@ -29,7 +29,7 @@ Divine cantrips are minor blessings, small miracles that cost nothing and ask no
 They won't turn the tide of battle. They'll steady a shaky hand, light a dark corridor, and remind the dying that someone is still fighting for them. Sometimes that's enough.
 
 === Guidance (Cantrip)
-*Disciplines:* None · *Cast:* Action · *Range:* Touch (Concentration, up to 1 minute) · *Keywords:* Boon
+*Disciplines:* None · *Cast:* Action · *Range:* Touch · *Duration:* Concentration, up to 1 minute · *Keywords:* Boon
 
 *Weak:* The target gains a Boon on the next skill check they make within 1 minute.
 
@@ -47,7 +47,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 *Strong:* As Standard, but undead and fiends in the bright light have Bane on attacks, the radiance burns them with its mere presence.
 
 === Gain Resistance (Cantrip)
-*Disciplines:* None · *Cast:* Action · *Range:* Touch (Concentration, up to 1 minute) · *Keywords:* Resistance
+*Disciplines:* None · *Cast:* Action · *Range:* Touch · *Duration:* Concentration, up to 1 minute · *Keywords:* Resistance
 
 *Weak:* Boon on the target's next Fortitude check within 1 minute.
 
@@ -56,7 +56,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 *Strong:* Boon on the next Fortitude check, and the target has resistance to poison, disease, and necrotic damage for the duration. The first such damage they take is reduced by 3 further.
 
 === Virtue (Cantrip)
-*Disciplines:* None · *Cast:* Action · *Range:* Touch (1 minute) · *Keywords:* None
+*Disciplines:* None · *Cast:* Action · *Range:* Touch · *Duration:* 1 minute · *Keywords:* None
 
 *Weak:* The target gains 2 temporary HP for 1 minute.
 
@@ -65,7 +65,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 *Strong:* 4 temporary HP for 1 minute. Attacker takes 2 radiant on contact. The target also feels a surge of confidence, and cannot be Frightened for the duration.
 
 === Thaumaturgy (Cantrip)
-*Disciplines:* None · *Cast:* Action · *Range:* 30 ft (Up to 1 minute) · *Keywords:* Boon
+*Disciplines:* None · *Cast:* Action · *Range:* 30 ft · *Duration:* Up to 1 minute · *Keywords:* Boon
 
 *Weak:* One minor effect. It's obviously supernatural but not overwhelming.
 
@@ -118,7 +118,7 @@ _See @sec-chapter-magic-system It explains how spellcasting works._
 *Strong:* The target's HP rises to its maximum and every condition on the target ends.
 
 === Set Bone (Adept Divine Spell)
-*Disciplines:* 2 Life · *Requires:* focus:holy · *Cast:* 15 minutes · *Range:* Touch · *Keywords:* Healing
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Cast:* 15 minutes (a patient who holds still, and a holy focus) · *Range:* Touch · *Keywords:* Healing
 
 *Weak:* The injury eases its grip. The Bane it imposes lifts, and the target's HP rises to half their maximum.
 
@@ -174,21 +174,21 @@ _See @sec-chapter-magic-system It explains how spellcasting works._
 
 == Protection Spells
 
-The three skin wards below are the ladder: Bark Skin, Stone Skin, and Iron Skin, DR for a caster who has none, +1 at Novice, +2 at Adept, +3 at Master. Each lasts 1 round, and sustaining it costs your Maneuver every turn: spend that Maneuver during your turn, or the spell ends at the start of it. Casting the ward also costs your Maneuver.
+The three skin wards below are the ladder: Bark Skin, Stone Skin, and Iron Skin, DR for a caster who has none, +1 at Novice, +2 at Adept, +3 at Master. Each ward is a concentration effect, held with your Maneuver every turn, and casting it costs your Maneuver too.
 
 === Bark Skin (Novice Divine Spell)
-*Disciplines:* 1 Protection · *Requires:* focus:holy · *Cast:* Maneuver · *Range:* Self · *Keywords:* DR
+*Disciplines:* 1 Protection · *Requires:* focus:holy · *Cast:* Maneuver · *Range:* Self · *Duration:* Concentration, up to 1 round · *Keywords:* DR
 
-*Effect:* +1 DR for 1 round, sustained with your Maneuver.
+*Effect:* +1 DR.
 
 This DR does not stack with any other source of DR.
 
 The primal twin of the ladder wears an animal's hide, scale, and shell: Beast Hide, Scaled Hide, and Carapace, the same values and the same upkeep.
 
 === Beast Hide (Novice Primal Spell)
-*Disciplines:* 1 Protection · *Requires:* focus:primal · *Cast:* Maneuver · *Range:* Self · *Keywords:* DR
+*Disciplines:* 1 Protection · *Requires:* focus:primal · *Cast:* Maneuver · *Range:* Self · *Duration:* Concentration, up to 1 round · *Keywords:* DR
 
-*Effect:* +1 DR for 1 round, sustained with your Maneuver.
+*Effect:* +1 DR.
 
 This DR does not stack with any other source of DR.
 
@@ -213,16 +213,16 @@ The ward is shield DR, not a shield: it does not enable Shield Block, Parry, or 
 *Strong:* Attacks against the target have Bane for 3 turns (a Boon on the target's Defense roll); the target cannot be targeted for 1 round, and the ward also covers one ally within 10 ft.
 
 === Stone Skin (Adept Divine Spell)
-*Disciplines:* 2 Protection · *Requires:* focus:holy · *Cast:* Maneuver · *Range:* Self · *Keywords:* DR
+*Disciplines:* 2 Protection · *Requires:* focus:holy · *Cast:* Maneuver · *Range:* Self · *Duration:* Concentration, up to 1 round · *Keywords:* DR
 
-*Effect:* +2 DR for 1 round, sustained with your Maneuver.
+*Effect:* +2 DR.
 
 This DR does not stack with any other source of DR.
 
 === Scaled Hide (Adept Primal Spell)
-*Disciplines:* 2 Protection · *Requires:* focus:primal · *Cast:* Maneuver · *Range:* Self · *Keywords:* DR
+*Disciplines:* 2 Protection · *Requires:* focus:primal · *Cast:* Maneuver · *Range:* Self · *Duration:* Concentration, up to 1 round · *Keywords:* DR
 
-*Effect:* +2 DR for 1 round, sustained with your Maneuver.
+*Effect:* +2 DR.
 
 This DR does not stack with any other source of DR.
 
@@ -236,16 +236,16 @@ This DR does not stack with any other source of DR.
 *Strong:* Missile attacks are blocked for 3 rounds; creatures that touch the barrier are pushed 5 ft, and creatures passing through take 5/8/11 radiant damage.
 
 === Iron Skin (Master Divine Spell)
-*Disciplines:* 3 Protection · *Requires:* focus:holy · *Cast:* Maneuver · *Range:* Self · *Keywords:* DR
+*Disciplines:* 3 Protection · *Requires:* focus:holy · *Cast:* Maneuver · *Range:* Self · *Duration:* Concentration, up to 1 round · *Keywords:* DR
 
-*Effect:* +3 DR for 1 round, sustained with your Maneuver.
+*Effect:* +3 DR.
 
 This DR does not stack with any other source of DR.
 
 === Carapace (Master Primal Spell)
-*Disciplines:* 3 Protection · *Requires:* focus:primal · *Cast:* Maneuver · *Range:* Self · *Keywords:* DR
+*Disciplines:* 3 Protection · *Requires:* focus:primal · *Cast:* Maneuver · *Range:* Self · *Duration:* Concentration, up to 1 round · *Keywords:* DR
 
-*Effect:* +3 DR for 1 round, sustained with your Maneuver.
+*Effect:* +3 DR.
 
 This DR does not stack with any other source of DR.
 
