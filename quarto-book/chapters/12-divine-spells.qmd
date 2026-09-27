@@ -122,7 +122,7 @@ _See @sec-chapter-magic-system It explains how spellcasting works._
 
 *Weak:* The injury eases its grip. The Bane it imposes lifts, and the target's HP rises to half their maximum.
 
-*Standard:* The injury is treated. The bone sets and the limb works, or the lung clears and the breath comes full.
+*Standard:* The injury is treated. The bone sets and the limb works, or the lung clears and the breath comes full, and the target's HP rises to their maximum.
 
 *Strong:* The injury is treated, and the target's HP rises to their maximum, and the target gains a Boon on their next check.
 
