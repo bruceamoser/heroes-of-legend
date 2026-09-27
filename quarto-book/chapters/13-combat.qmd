@@ -346,7 +346,7 @@ When your HP reaches 0, you do not fall. You choose.
 
 *Spend a Grit.* Your HP resets to its maximum and you roll on the Wound Table. You keep fighting. This is the fast way back, and it costs you a mark.
 
-*Stay down.* You fall, and the Dying rules below apply. No Grit is spent and no Wound is rolled, and a healer who reaches you before your third failure puts you back on your feet with nothing worse than the story.
+*Stay down.* You fall, and the Dying rules below apply. No Grit is spent and no Wound is rolled, and a healer who reaches you with magic before your third failure puts you back on your feet with nothing worse than the story.
 
 The choice is made once, at the instant you drop. Once you are down, you make no further choices until someone wakes you.
 
@@ -377,6 +377,8 @@ At 0 HP, you fall Unconscious. Each round on your turn, make a death roll: 3d6 p
 Read the triples on the three dice you keep, never on the dice you rolled. More wounds mean more dice, so reading them the other way would make the miracle likelier the more broken you are. It is the other way round: at full health one death roll in 216 is a Critical, and at four wounds it is one in 46,656.
 
 An ally can stabilize you with a Medicine check or any healing effect. The check gets harder the more broken you are: Standard at 0 or 1 wound, Hard at 2 or 3, and only a Master-rank healer pulls you back at 4 or more. Stabilizing resets your failures, so a hero who was once two failures down does not carry that debt into the next time they fall. Once stable, you're unconscious at 0 HP but no longer rolling to survive.
+
+*A heal brings you back.* Healing that restores HP also ends the fall: a hero healed while down is no longer Unconscious and takes their turn as normal at whatever HP the heal gave them. A Medicine check stops the clock but leaves them where they lie.
 
 === Wounds
 

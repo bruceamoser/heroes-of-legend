@@ -36,7 +36,7 @@ Arcane casters add Arcana to Knowledge (3d6 + Knowledge + Arcana), divine caster
 
 == Spell Cards
 
-Every spell above the cantrips is its own card, with its own name and its own price. You buy the card you can afford and qualify for, and it never changes. The card carries its Disciplines requirement, Action, Range, and Keywords, then its effect. Every spell card prints its tier, and an outcome block that deals damage or healing keys to that tier's row of the damage budget.
+Every spell above the cantrips is its own card, with its own name and its own price. You buy the card you can afford and qualify for, and it never changes. The card carries its Disciplines requirement, Action, Range, and Keywords, then its effect. Every spell card prints its tier, and an outcome block that deals damage keys to that tier's row of the damage budget. A spell that heals carries no row at all: it takes the target to a threshold of their maximum instead (see @sec-healing-thresholds)
 
 A card is bought at one of three tiers, and the tier sets both the cost and the effect row:
 
