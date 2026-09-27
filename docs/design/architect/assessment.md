@@ -270,7 +270,10 @@ Recorded beside the assessment above, never over it. Two of its three numbers we
 checker, exactly the failure this loop is built to catch in someone else.
 
 **Correction 1: a Master-tier party was paired with the bestiary's global average HP.** The gate
-averaged all 48 stat blocks (14.9 HP) and used that pool at every tier. Monster HP is not flat. It is
+averaged all 48 stat blocks (14.9 HP) and used that pool at every tier. (The 51 / 14.8 figure in the
+assessment above is a naive `HP n` text count, not a population: three of those mentions are not stat
+blocks - a summoned Lesser Treant at `20:607`, the Death Knight's reforming armour at `20:637`, and
+the `20:659` guideline line itself - so 48 is the population and 14.9 its mean.) Monster HP is not flat. It is
 calibrated per band by `20:659` (`HP = 3 x (band average - its DR)`), and monster DR is what scales
 across the career, not HP:
 
