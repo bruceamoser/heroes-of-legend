@@ -54,7 +54,42 @@ companion, not a manual; zero em-dashes in book text.
 - **The load-bearing number: 7 of the 9 printed heroes are unfunded by 2 to 6 DP** (26 DP of gear
   permission no ledger pays), and all 9 spend 2 DP buying the skill their own culture grants +1 in.
 
+## State at cycle 3 (2026-09-26, verified against the repo, not recalled)
+
+- **The direction changed mid-day.** Bruce filed **#659**: the build pass is ordered by
+  *assessing the game from the foundation up*, not by the ledger's row order, because "the ledger
+  records what has been DECIDED; it is never evidence that what exists is good". Method is
+  `references/system-assessment.md`; artifact is `docs/design/architect/assessment.md`. The loop's
+  **THINK priority 1 is now the unassessed sweep**, and it outranks the queue below until coverage
+  reads 9 of 9.
+- **PR #660 was already open when this cycle woke** and carried Assessment 1 (core resolution) with
+  coverage at 1 of 9. Cycle 3 INSPECTED it - every probability row re-derived independently from the
+  216 outcomes and confirmed correct, my own first checker being the one at fault (it capped Strong
+  at 18 and dropped 4 of 216 outcomes at +2, 56 of 216 at +6) - then advanced the sweep to
+  **Assessment 2, the economy** (coverage 2 of 9) and merged both as one PR.
+- **Priority 1 of Assessment 1 was measured and REVERSED.** Static HP was named "the game's biggest
+  structural bet". It is not: Grit's pools (x3/x4/x5) plus the tier's own armour DR hold
+  time-to-kill flat across the career - 5.8 / 5.9 / 5.8 hits at Novice / Adept / Master, and flat at
+  every HP in the printed 8-14 range. A hero cannot be one-shot; only a *pool* can. Recorded beside
+  the old verdict in `assessment.md`, never overwritten.
+- **The economy's verdict is OK with LEARNABLE failing**, and the failure has a single root cause:
+  the price is stated two ways. `02:204` and the ch22 reference sheet print the flat 2/4/8 and stop,
+  while `08:178` says the flat cost "is only part of the price". The true price of a Novice card is
+  **2 to 6 DP** depending on whether the hero holds the Discipline. That is the measured mechanism
+  behind rows 161/162's 44 DP of unfunded spend.
+- **Two new class-level defects, both computed from the classes' own tables.** The **Shepherd**
+  overspends its pool (`05:202`: 7 DP of loadout ranks + a 2 DP card against 8 DP, so 9 DP). Four
+  classes call a **4/8/16** charge "at your Foreign rate" where Foreign is **3/6/12** and 4/8/16 is
+  Opposed (Blade, Arcanist, Shepherd-Armor, Unbalanced). The Leader mis-sums its own ranks (4 DP
+  printed, 3 DP in its table).
+- **Dispatch is still off** (`HOL_ARCHITECT_DISPATCH` unset). One mechanical work order filed
+  (issue #661, the economy's line-level repairs), nothing dispatched.
+
 ## Queue — ordered, each item tied to its pillar
+
+**Ordering note (2026-09-26, per #659):** until `assessment.md`'s coverage table reads 9 of 9, the
+queue's source of direction is that file's **"What matters now"**, not the order below. The rows here
+are the *filed* work; the assessment says what outranks which. Read them together.
 
 | # | Work | Source | Why it is ordered here |
 |---|---|---|---|
@@ -66,14 +101,19 @@ companion, not a manual; zero em-dashes in book text.
 | 6 | **#587 — level 0/1 DP pools** | open issue, **blocked on Bruce** | A design question. Now carries the walkthrough's measurement; do not implement. |
 | 7 | **23-license** — Wave 2 stands at 24/25 | row 2 | Outstanding chapter. |
 | 8 | **Closing balance audit** — one full-book budget walk | row 2 | The closing act of the build pass; waits on items 1 and 4 landing. |
+| 9 | **The economy's line-level repairs** — the true-price statement, 4 misnamed structures, the Leader sum | assessment 2 (cycle 3) | **Filed as #661.** Mechanical and determinate, no ruling needed, so the engine can take it today. It is the cheapest fix in the book's most expensive defect class: 44 DP of unfunded spend in rows 161/162 traces to a price the book states incorrectly. |
 
 ## Next action
 
-Cycle 3: **run the level walkthrough** (role card #2) - each class at each gate (1 / 3 / 7), asking
-whether there is something worth buying and whether the DP can actually be spent. It is the natural
-successor to W-001 because the creation economy is now the known weak layer, and it tests the
-other half of the same economy (the per-level pools) without touching the nine blocked builds.
-Before it runs, re-check whether #655 has been dispatched; if dispatch is enabled, #655 outranks it.
+Cycle 4: **Assessment 3 — creation and progression** (the sweep's next subsystem, and the same
+territory as the role card's level walkthrough, so two obligations are served by one piece of work).
+The questions are now sharp because Assessment 2 supplied the inputs: the class pool is 8 DP, the
+rank supply is 3 progression picks, and the career budget is 44-52 DP. Specifically: **can the
+tightest legal hero be built** (Knowledge and Fortitude at -2 gives 4 Background DP, and the
+Shepherd already overspends 8), and **does any level arrive with nothing worth buying** (3-4 DP per
+level against a 2/4/8 card ladder and a 1/3/7 gate)? Both answers are arithmetic over tables already
+in the book, and both close priorities 2 and 5. Before it runs, re-check whether #655 or #661 has
+been dispatched; if dispatch is enabled, a filed work order outranks a new assessment.
 
 ## Cycle log
 
@@ -82,3 +122,4 @@ Before it runs, re-check whether #655 has been dispatched; if dispatch is enable
 | 0 (bootstrap) | role card + cycle contract written; state files created; baselines measured; repo state verified | the loop exists | run cycle 1 on item #1 |
 | 1 (2026-09-26) | SENSE: bootstrap merged (#654), rows 125/151 re-verified against `origin/main@eb8b5e0`, tracker read. THINK: priority (a), a ruled-but-unbuilt row. DECIDE: the Fate module is ruled and dispatchable; its three unruled defaults got ledger row 159; a fresh ch09 title/tier defect got row 160. DISPATCH: blocked by design (`HOL_ARCHITECT_DISPATCH` unset), so the work order was filed as **#655** with every number pre-computed. | **#655** filed; rows 125 and 151 commented; rows 159 and 160 added; scorecard gained the title-vs-tier instrument; landed as PR **#656** (PR #654 audited - docs only, merged) | cycle 2: walkthrough #1 (Playable), then #655 dispatch if enabled |
 | 2 (2026-09-26) | SENSE: 0 PRs, 3 open issues, `main` unmoved at `f33a51a`, dispatch still off, nothing `s:working`, canon index re-built and calibration passed (ch11 = 68 cards). THINK: nothing in flight, so priority (d) - the instrument the role exists for. RAN walkthrough W-001 (first session) on `origin/main@f33a51a`: built a hero through Steps 1-11, walked all nine printed builds against the loadout cost model, then played ch13's worked round and a goblin scene. DECIDE: four defects, all in the creation economy the 2026-09-16 armament collapse rewrote; two single-outcome (Challenge 1/2's penalty, ch13:502's round total) fixed same day, two need one word each (rows 161 gear ranks, 162 culture skill). FILED nothing new: #655 already carries the Fate module. | **W-001 transcript** written; ledger rows **161/162/163**; **#587** commented with the 26-DP measurement; **9 book defects fixed** (`06:111`, `21:231`, `13:502`) and verified in the rebuilt PDF; scorecard: Playable 0 -> 1 transcript, two new measurements | cycle 3: level walkthrough (gates 1/3/7), or #655 dispatch if enabled |
+| 3 (2026-09-26) | SENSE: main advanced to `2a13070` (cycle 2 merged), canon index re-built, calibration passed again (ch11 = 68), dispatch still off, and a **state change the monitor caught: #659 (new direction from Bruce: assess from the foundation up) plus an open PR #660** carrying Assessment 1 at coverage 1 of 9. INSPECT: re-derived every one of Assessment 1's probability rows from the 216 outcomes - all six correct, and the first checker written for the job was itself the bug (it capped Strong at 18, dropping 4/216 outcomes at +2). THINK: the sweep's next subsystem, the economy. Computed the true price of a card (2-6 DP), damage per DP (3.00 / 2.00 / 1.29), the rank supply (3 progression picks), and the 8-DP promise class by class. Also measured Assessment 1's priority 1 - Grit holds time-to-kill flat (5.8 / 5.9 / 5.8) - and reversed it. DECIDE: 3 rulings go to rows (165 Shepherd, 166 Master efficiency, 167 K/F double bank); the line-level defects are mechanical and determinate, so they go out as one filed work order. | **Assessment 2 landed** (coverage 1 -> 2 of 9); **priority 1 reversed with the numbers**; ledger rows **165/166/167** and a comment on 161; **#661 filed**; merged as PR **#660** (Assessment 1 audited and confirmed) | cycle 4: Assessment 3, creation and progression |
