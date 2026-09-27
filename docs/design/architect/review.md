@@ -62,13 +62,15 @@ Where tension actually lives: **Grit** (`13:340`). At 0 HP you spend a point, re
 Wound Table. You are not out, you are hurt, and the hurt lingers past the fight (`13:372`). The fight's
 real pressure is not "will I fall", it is "how much of myself do I spend not to".
 
-The honest cost of the inversion: **the book itself got the sign wrong once.** The Defence Roll quick
+The honest cost of the inversion: **the book itself got the sign wrong twice.** The Defence Roll quick
 reference at `13:121` printed cover as a Bane on the Defence roll, while the cover table at `13:433` says
 cover means attacks against you have a Bane. On a reversed roll those are opposite outcomes, and measured
 over all 216 outcomes against a cultist the mis-print more than doubles the chance the defender takes the
 attacker's Strong damage (16.2% to 35.5%). That was found and fixed. It remains the most likely way a
 first session goes wrong, because a table that reads the quick reference alone will conclude that taking
-cover hurts.
+cover hurts. *Corrected 2026-09-27 (cycle 40): the second inversion was in the sentence #711 wrote to explain
+the sign, and it made the game's own law contradict its six implementations; corrected in PR #737, with twelve
+un-converted defence-side sites closed alongside it. See item 1 under What is weakest.*
 
 ## 3. The arc
 
@@ -249,6 +251,22 @@ session, and because the book already made it once. The cost to a player is conc
 number when they believe they took cover, and they conclude the game cheats. The repair is layout discipline
 rather than design: anywhere cover, Marked, Pack Tactics or Leadership touches a Defence roll, the converted
 sign has to sit beside the number on the same line.
+
+*Measured and repaired 2026-09-27 (cycle 40), PR #737; this item is now closed.* The layout half was never
+checked, and the census found the book making the same mistake **twice more**, both worse than the one this
+item describes. First, the governing sentence itself (`13:119`) printed the conversion with the sign
+**carried instead of flipped** ("an advantage on an attack against you is a Boon on your Defense roll, and a
+disadvantage on that attack is a Bane"), contradicting the six parentheticals PR #711 added in the same wave,
+the cover clause two sentences later, and the Challenge rule beside it (`13:111`). Read as printed, a Pack
+Tactics wolf pack is 3.3x weaker than its own trait intends and half cover is 2.5x worse than standing in the
+open. Second, twelve printed defence-side sites never received the conversion at all (Hidden in three homes,
+Prone in two, ch13's cover table, the glossary's Cover entry, Sanctuary's three rungs, Beast's Watch). So item
+1's own prescription was too narrow: the per-site parenthetical is the last step, not the first, and a sweep
+that adds clauses while the law sentence still states the opposite sign makes the book internally
+contradictory at every one of them. One corrected sentence plus twelve clauses, and the class is closed: sign
+gate FAIL to ok, un-converted defence-side sites 12 to 0. The 28 sites that name a named attacker (Pack
+Tactics, Poisoned, "at Bane on its next attack") were read and deliberately left alone, which is the boundary
+a future pass should not re-file.
 
 **2. Wounds compound and nobody has measured it.** Every Grit spend is a Wound roll, so a Novice who spends
 both Grit in one fight rolls twice, and much of the table is a per-encounter Bane. Two to four stacked Banes

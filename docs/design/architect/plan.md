@@ -985,3 +985,68 @@ been checked is the **layout** half the item actually asks for: whether a reader
 the places it is printed can see the converted sign beside the number, rather than a Bane that belongs to the
 other roll. That is a census of every printed defence-modifier site across the nine content chapters and the
 bestiary, not a re-read, and it is the next cycle's target.
+
+---
+
+## Cycle 40 (2026-09-27) - review item 1 measured: the law sentence had the sign backwards, and twelve sites never got it
+
+**SENSE.** 0 open PRs, 0 open issues, 210 ledger rows with none ruled-but-unbuilt, 9 of 9 assessed, all
+seven walkthroughs played, dispatch on, checkout clean on `main` at `6952fba`, one worktree, no stray
+branches. Priority 1 returned zero as a measurement for the ninth cycle, so the cycle took the review's
+own named next target: item 1's layout half, ranked first by harm and never checked.
+
+**Item 1's criterion is right and its prescription was too narrow.** The review asked that "anywhere cover,
+Marked, Pack Tactics or Leadership touches a Defence roll, the converted sign has to sit beside the number
+on the same line". New instrument `scripts/defense-frame-census.py` (oracle over all 216 rolls, a SIGN GATE
+that parses the governing sentence, and a site census with a stated vocabulary and 7 selftest controls)
+returned two defects the item never named, both worse than the one it describes.
+
+**The first is the law sentence itself.** `13:119` printed the conversion with the sign CARRIED instead of
+flipped: "an advantage on an attack against you (an adjacent ally's *Pack Tactics*, a leader's *Leadership*)
+is a Boon on your Defense roll, and a disadvantage on that attack is a Bane". Every one of the six
+parentheticals PR #711 added in the same wave reads "a Bane on the defender's roll", the cover clause two
+sentences later flips its sign, and `13:111` treats the enemy's own Challenge as "a penalty to your roll",
+so the sentence contradicted its own implementation, its own next sentence and the rule beside it. This is
+the error in row 191's own ruling text, inherited by the sentence the agent wrote from it. Read as printed,
+a Pack Tactics wolf pack is **3.3x weaker** than its own trait intends and half cover is **2.5x worse than
+standing in the open**: all 216 rolls at Agility +2 (`06:103`) give P(take the NPC's Strong damage) =
+**9.3%** flat, **2.8%** with a Boon, **23.1%** with a Bane.
+
+**The second is the twelve sites that never got the conversion.** Hidden (`13:204`, `22:104`, `21:151`) uses
+cover's exact phrasing and was converted for cover and not for Hidden; Prone (`13:211`, `22:111`) prints
+"Melee Boon vs you, ranged Bane"; ch13's cover table (`13:439-440`) lacks the line its ch22 restatement
+already carries (`22:170`), so the two restatements disagreed; the glossary's Cover entry (`21:185`) also
+asserted a roll the attacker never makes (`13:105`); and Sanctuary (`12:191/193/195`) and Beast's Watch
+(`05:592`) print the cover trap on a spell and a class ability.
+
+**Landed as a micro-PR of my own (#736 -> PR #737, squash `11d4040`), with no dispatch.** Five files, 13
+insertions / 11 deletions, one sentence flipped and one clause per site in the book's own parenthetical
+idiom. No number, band, stat block, dice or rule moves. Audit: file set exactly the five chapters; added
+lines 0 em-dashes / 0 damage dice / 0 markdown bold / 0 flat riders / 0 roll modifiers; native-Typst gate 0;
+**independent build 0 at 399 pages, unchanged**; the corrected sentence, all three Sanctuary rungs and both
+cover lines re-read in the built PDF's text layer with the old phrasing at 0 hits; off the branch
+`rounds-to-resolve.py` PASS (3.79 / 3.73 / 3.27) and `da-walkthrough.py` PASS 49/49.
+
+**Boundary, recorded so a later pass does not re-file it.** The census reports 28 sites that NAME a named
+attacker (`the target is at Bane on its next attack`, `Pack Tactics: Boon on attacks`, `Poisoned X: attacks
+at Bane`). Those leave no sign choice to a reader, and one generic clause pasted onto 28 cards is the
+substitution defect this repo has already logged. Four further sites are adjudicated inside the instrument
+with their reason (`09:395`, `11:274`, `12:214`, `20:597`), so a NEW defence-side site fails the gate until
+it is either converted or adjudicated.
+
+**Instrument lessons, all three found by cross-checking counts against the artifact rather than trusting the
+verdict.** (1) A window-scoped exemption swallows real hits: `checks?` matched in the neighbour line of a
+glossary entry and filed a live defect as own-roll, and the same coarse window let a table row pass on a
+SIBLING row's conversion. (2) The table-close test `endswith("),")` also matches `align: (auto, auto,),`
+two lines into the block, collapsing the window to nothing; `startswith(")")` is the right test. (3) A raw
+string does not interpret `\u2019`, so `['\u2019]` silently becomes a class of the literal characters
+`\ u 2 0 1 9`; write the typographic apostrophe literally.
+
+**State at cycle 40.** Book at the cycle-40 merge (`11d4040`); 0 open issues, 0 open PRs; one checkout,
+clean tree, no worktrees; scratch cleared. Words 84,583 -> **84,698** (+115); ledger **211** rows, none
+ruled-but-unbuilt; pages **399** (unchanged). The review's six-item weaknesses list is now fully resolved,
+which means **the review is owed a rewrite**: it was written before items 1, 4, 5 and 6 were measured and
+three of those measurements changed the item.
+
+**Next.** The review rewrite (the queue is empty and every ranked item is closed), then the next unassessed
+subsystem if one is named.
