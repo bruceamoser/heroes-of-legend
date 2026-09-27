@@ -459,6 +459,51 @@ Cycle 23: **#561** (ch09's council substantive tier S-1..S-11) is the only open 
 
 
 
+## Cycle 28 (2026-09-27) - the caster session (W-004) found the one rule the damage maths never states, and running the two law gates widened turned up the last survivor of each
+
+**Priority 1 is now a one-line check and it returned zero again.** `needs Bruce` = 0, no status cell
+begins `open`/`pending`, no row is ruled-and-unbuilt. Rows 162/166/167/168/169/171 were decided and
+landed in cycles 9-22; the brief still names them, the ledger does not. Priority 2 has no target either
+(assessment coverage 9 of 9), so the cycle took the plan's own named next action.
+
+**The action: W-004, the caster session.** The one pillar with no transcript behind it. Sera Ashvein is
+fully printed at `02:330-366`, so no hero had to be invented, and both her pools close exactly (11/11
+background, 12/12 class) - the creation economy holds up for a caster with no adjustment. Clean on every
+other check: the casting procedure (`10:31-33`), the tier/gate table, cantrips at will, focus and its
+downgrade, concentration **with its target stated** (`10:110`), ritual, ending another caster's effect,
+the per-encounter/per-session limits, `Arcana` as a real skill (`07:167`), `Recharge` (`20:28`,
+`21:239`) and Morale Check (`13:311`).
+
+**The find.** The book never says whether DR comes off before or after a resistance/vulnerability
+multiplier - and its own starter encounter is the one stat block that needs both: **4 Drowned Guardians,
+HP 14, DR 1, Vulnerable (Fire)** (`19:312`), against a party that will bring fire. Measured: 50 bestiary
+blocks print DR, 4 print a resistance, and **no worked example in the book combines the two**. The order
+is not a preference - DR-then-type reaches **0** (4 fire vs DR 3 resistant), which `06:91`'s "minimum 1
+damage from any hit" and `16:27`'s "a hit must always be able to land for something" both forbid - so it
+is derived: **type modifier first, then DR, floored at 1**. One clause at `13:155`, the rule's own home.
+
+**Two swept-law singletons fell out of reconning the caster's chapter group**, both landed in the same
+PR: `05:340` Leader *Lead by Example* still granted **`+2 bonus on their next roll`** (the last numeric
+roll modifier in the book, and contradicted by the book's own restatement at `02:470`, which prints
+**`Boon`**), and `05:568` *Leverage* still read **`deals +2 bonus damage`** (the last flat damage rider,
+in a table whose five siblings all print `+1 damage tier`). **Both gates were blind to both by the same
+mechanism:** each regex requires the number glued to its noun, and `bonus` sat in between. Both gates
+widened to allow it, with a negative control that FAILS on pre-fix `main` and passes on the branch.
+SKILL.md trimmed to 99,755/100,000 to pay for the addition.
+
+**Also landed:** `07:41` now states that a class sheet's `*Favored Skills*` line is guidance, not a
+discount - the field is printed on all nine class sheets and marked in the printed builds, while ch07
+already says all skills cost the same for every class and never uses the word, and ch02/ch05 use
+"Favored" for a cheap *Discipline* rate.
+
+**Cost:** +44 words (84,173 -> 84,217), no page change (399 before and after). Four ledger rows' worth
+of decisions in 4 changed lines plus one clause. PR #714, `bdd96ca`.
+
+**Next:** the queue is empty and no subsystem is unassessed. W-005 is the next transcript in the role
+card's rotation and the scorecard's thinnest axis after Playable: the **DA walkthrough** (run the
+bestiary as printed against a party of the intended level), because the caster session just showed that
+the encounter-side stats are where an unstated assumption costs the most.
+
 ## State at cycle 27 (2026-09-27, verified against the repo, not recalled)
 
 - **Nothing was in flight.** 0 open PRs, 0 open issues, `main` at `87922dc` on wake and `ab38794`

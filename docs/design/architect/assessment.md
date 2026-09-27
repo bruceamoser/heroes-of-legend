@@ -1106,3 +1106,53 @@ filed; neither moves a band.
 4. Its docstring still carried the **phantom** law "creature DR = Challenge // 2, max 6"; corrected to the printed band ceiling, which is the whole law.
 
 **Verdict: GOOD.** The spine holds on every axis the sweep can measure, and the four repairs are why the verdict is trustworthy rather than merely reassuring: a gate that reports nothing because it parsed nothing is indistinguishable from a clean book, and three of these four did exactly that.
+
+## Re-assessment 2026-09-27 (cycle 28) - the content-law gate was a false clean, and two swept laws had a living survivor each
+
+The five-gate walk below reported "**0 flat `+N` riders, 0 numeric roll modifiers**" over the content
+chapters. **That verdict was true by accident and false as a measurement.** Both of the gate's regexes
+required the number glued to its noun, so a `bonus` sitting between them matched neither:
+
+```python
+FLAT_RIDER   = r"(add|gains?|deals?|with)\s*\+([0-9]+)\s+damage(?!\s+tier)"     # 'deals +2 bonus damage' -> no match
+NUM_ROLL_MOD = r"[+\u2212-]\s?[0-9]+\s*(?:on|to|against)\s+..."                # '+2 bonus on their next roll' -> no match
+```
+
+Two live defects sat in exactly that gap, and had done for the life of the gate:
+
+- `05:340` Leader *Lead by Example*: "grant one ally who witnessed it a **+2 bonus on their next roll**"
+  - the last numeric roll modifier in the book, against the Boon/Bane law, and contradicted by the
+  book's own restatement of the same ability at `02:470`, which already printed "a **Boon** on their
+  next roll".
+- `05:568` *Leverage*: "it **deals +2 bonus damage**" - the last flat damage rider, in a table whose
+  five siblings all print `+1 damage tier`.
+
+**Both regexes widened to allow `(?:bonus\s+)?` between the number and its noun, and the control set
+extended: the selftest now plants the *shape that hides* a defect, not just a convenient sample.**
+Proven on the real artifact, not only on a synthetic string:
+
+| ref | ch05 flat-riders | ch05 roll-mods |
+|---|---|---|
+| `57f2a29` (pre-fix) | **1** | **1** |
+| `bdd96ca` (post-fix) | 0 | 0 |
+
+Before the widening the same instrument printed `0 0` on **both** refs. The lesson generalises past this
+gate: **a control set must contain the shape that hides the defect.** A gate whose only planted defect
+is the obvious one can fail for the obvious reason and still be blind to the class it was written for -
+which is the same failure as the post-migration harvest bug, arriving by vocabulary instead of syntax.
+
+**Two more rules the book left implied, both landed the same cycle (PR #714).**
+
+- `13:155` never stated whether DR comes off **before or after** a resistance/vulnerability multiplier.
+  50 bestiary blocks print DR, 4 print a resistance, no worked example combines the two, and the starter
+  adventure's own Drowned Guardian is both (`19:312`: HP 14, DR 1, Vulnerable (Fire)) against a party
+  that will bring fire. The order is derived, not chosen: DR-then-type reaches **0** (4 fire vs DR 3
+  resistant), which `06:91` ("minimum 1 damage from any hit") and `16:27` ("a hit must always be able to
+  land for something") both forbid. Ruled: **type modifier first, then DR, floored at 1.**
+- `07:41` now says a class sheet's `*Favored Skills*` line is guidance, not a discount. The field is
+  printed on all nine class sheets and marked in the printed builds, while ch07 (the authoritative
+  skills chapter) says all skills cost the same for every class and never uses the word, and ch02/ch05
+  use "Favored" for a cheap **Discipline** rate.
+
+**The five-gate walk below stands, with one correction: the content-law line now reads 0/0 for a
+measured reason.** Re-run after #714: every content chapter `retired 0 dice 0 flat-riders 0 roll-mods 0`.
