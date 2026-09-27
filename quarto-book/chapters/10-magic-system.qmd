@@ -54,6 +54,8 @@ A card is bought at one of three tiers, and the tier sets both the cost and the 
 
 You buy a card at its tier and you own that card. There is no rung to climb and no upgrade to pay for: the Adept and Master members of a family are separate cards with their own names and their own prices. Discipline ranks are bought separately, at your class's rates. See @sec-damage-budget for where those three rows come from.
 
+A recurring effect is budgeted on its total over the stated duration. The per-round figure paces that total, and the effect ends once the total is reached.
+
 #pagebreak()
 
 == Level Gates and Disciplines

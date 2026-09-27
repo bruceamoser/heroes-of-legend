@@ -120,16 +120,16 @@ _See @sec-chapter-magic-system for how spellcasting works._
 === Flesh Renewal (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch, 3 rounds · *Keywords:* Recurring
 
-*Weak:* Recurring 2 healing per round for 3 rounds (6 total).
+*Weak:* Recurring 2 healing per round for 3 rounds, to a maximum of 5.
 
-*Standard:* Recurring 3 healing per round for 3 rounds (9 total).
+*Standard:* Recurring 3 healing per round for 3 rounds, to a maximum of 8.
 
-*Strong:* Recurring 4 healing per round for 3 rounds (12 total).
+*Strong:* Recurring 4 healing per round for 3 rounds, to a maximum of 11.
 
 === Severance Undone (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch, 3 rounds · *Keywords:* Recurring
 
-*Effect:* 7/10/14 healing total over 3 rounds; regrow a limb over a day.
+*Effect:* 5/8/11 healing total over 3 rounds; regrow a limb over a day.
 
 === Soulmend (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Wound
@@ -143,7 +143,7 @@ _See @sec-chapter-magic-system for how spellcasting works._
 === Death Relented (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Wound
 
-*Effect:* Restore 7/10/14 HP; return a creature that died within the last minute to life.
+*Effect:* Restore 5/8/11 HP; return a creature that died within the last minute to life.
 
 === Blood Trail (Adept Primal Spell)
 *Disciplines:* 2 Life · *Action:* Action · *Range:* 30 ft · *Keywords:* Divination
