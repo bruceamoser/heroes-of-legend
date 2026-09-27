@@ -99,6 +99,15 @@ _See @sec-chapter-magic-system It explains how spellcasting works._
 
 *Strong:* The target's HP rises to its maximum, the target removes one Bane, and the target gains a Boon on their next check.
 
+=== Staunch (Novice Divine Spell)
+*Disciplines:* 1 Life · *Requires:* focus:holy · *Action:* Maneuver · *Range:* Touch · *Keywords:* Healing
+
+*Weak:* The flow slows to a seep. The wound deals no damage at the start of the target's next turn.
+
+*Standard:* The wound is bound. The bleeding stops, and the Bane it puts on the target's death roll lifts.
+
+*Strong:* The wound is bound, and the target's HP rises to half its maximum.
+
 === Restoration (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Condition
 
@@ -107,6 +116,15 @@ _See @sec-chapter-magic-system It explains how spellcasting works._
 *Standard:* The target's HP rises to its maximum.
 
 *Strong:* The target's HP rises to its maximum and every condition on the target ends.
+
+=== Set Bone (Adept Divine Spell)
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Healing
+
+*Weak:* The injury eases its grip. The Bane it imposes lifts, and the breath comes long enough to speak and cast again.
+
+*Standard:* The injury is treated. The bone sets and the limb works, or the lung clears and the breath comes full.
+
+*Strong:* The injury is treated, and the target's HP rises to half its maximum.
 
 === Tide of Life (Master Divine Spell)
 *Disciplines:* 3 Life · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Healing
