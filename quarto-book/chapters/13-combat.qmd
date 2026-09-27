@@ -296,7 +296,7 @@ The off-hand weapon must have the *Light* property (Dagger, Shortsword, Handaxe)
 
 == Non-Lethal Attacks
 
-Not every enemy needs to die. When you reduce a creature to 0 HP with a melee attack, you can pull the blow. Declare it non-lethal. The creature falls Unconscious but stable at 0 HP instead of bleeding out. They'll wake up with a headache and, hopefully, a newfound appreciation for answering questions.
+Not every enemy needs to die. When you reduce a creature to 0 HP with a melee attack, you can pull the blow. Declare it non-lethal. The creature falls Unconscious but stable at 0 HP instead of bleeding out. They'll wake up with a headache and, hopefully, a newfound appreciation for answering questions. A pulled blow leaves no Wound: the Wound Table is for the blows nobody pulled.
 
 Ranged attacks and spells can't be made non-lethal. Arrows and fireballs don't do "gentle." You can't ask a lightning bolt to hold back. Unless the spell specifically says otherwise (like _Sleep_), assume ranged and magic are lethal. If you want prisoners, put the bow away and draw steel.
 
@@ -342,11 +342,11 @@ A creature automatically checks morale when:
 
 You don't fall the first time you're hit, or the second. You have *Grit*: 2 at Novice, 3 at Adept, 4 at Master. Your tier is your ability tier: Novice is levels 1 and 2, Adept levels 3 through 6, and Master is level 7 and up.
 
-When your HP reaches 0, you do not fall. You choose.
+When your HP reaches 0, you take a Wound and roll on the Wound Table. It is the price of the drop, and nothing afterwards takes it back. Then you choose how you pay to fight on.
 
-*Spend a Grit.* Your HP resets to its maximum and you roll on the Wound Table. You keep fighting. This is the fast way back, and it costs you a mark.
+*Spend a Grit.* Your HP resets to its maximum and you keep fighting. This is the fast way back, and it spends the resource that returns only on a respite.
 
-*Stay down.* You fall, and the Dying rules below apply. No Grit is spent and no Wound is rolled, and a healer who reaches you with magic before your third failure puts you back on your feet with nothing worse than the story.
+*Stay down.* You fall, and the Dying rules below apply. No Grit is spent, so it stays banked for the next drop, and a healer who reaches you with magic before your third failure puts you back on your feet at whatever HP the heal gave you.
 
 The choice is made once, at the instant you drop. Once you are down, you make no further choices until someone wakes you.
 
@@ -386,11 +386,11 @@ Some injuries don't fade when the healing potion wears off. Wounds are the lasti
 
 *Every wound leaves a mark.* A scar, a limp, a voice that catches, a flinch at a sound your hero never names. The mark outlives the mechanic. When the Bane has faded and the bone has knitted and the wound has healed off your sheet, the remnant stays, and it belongs to you. Name it when the wound lands, or when the fight is over and the table breathes again, whichever comes first. Three parallel gashes across the ribs. A left knee that has never trusted stairs since. A shoulder that aches before rain. If you would rather not choose, the DA names it for you. The mark carries no number. It is not a penalty and it is not a token: it is the record of what your hero survived, and its whole worth is that the people at your table can see it.
 
-*Triggering a Wound.* When you spend a point of Grit, you take a wound and must roll on the Wound Table. It is once per Grit spent. The body can only break so many times before it stops bending.
+*Triggering a Wound.* When your HP reaches 0, you take a Wound and must roll on the Wound Table. It is once per drop, whether or not you spend Grit to get back up, and neither a heal nor a Grit takes it back. The body can only break so many times before it stops bending.
 
-*The Wound Table (D666).* The wound roll uses a special notation: D666. Roll 3d6, plus one extra die for each wound you already carry, up to three extra. Keep the highest three of those dice, then sort them in ascending order. The lowest die is the HUNDREDS digit. The middle die is the TENS. The highest die is the ONES. A roll of [1] [3] [5] reads as 135. A roll of [2] [4] [6] reads as 246. The Wound Table (Tables 13.4 and 13.5) gives the result. Ranges are listed as three-digit numbers in D666 notation. The hundreds digit is the band, and the bands escalate: 1xx is a scrape you will tell stories about, 2xx costs you the rest of the fight, 3xx costs you most of what you do in it, 4xx lasts until it is treated, 5xx is permanent, and 666 is Death's Door.
+*The Wound Table (D666).* The wound roll uses a special notation: D666. Roll 3d6, plus one extra die for each wound you already carry beyond the first, up to three extra. Keep the highest three of those dice, then sort them in ascending order. The lowest die is the HUNDREDS digit. The middle die is the TENS. The highest die is the ONES. A roll of [1] [3] [5] reads as 135. A roll of [2] [4] [6] reads as 246. The Wound Table (Tables 13.4 and 13.5) gives the result. Ranges are listed as three-digit numbers in D666 notation. The hundreds digit is the band, and the bands escalate: 1xx is a scrape you will tell stories about, 2xx costs you the rest of the fight, 3xx costs you most of what you do in it, 4xx lasts until it is treated, 5xx is permanent, and 666 is Death's Door.
 
-*Wounds make wounds worse.* No wounds carried means 3d6. One wound means 4d6, two means 5d6, three or more means 6d6. Three extra dice is the ceiling, the same ceiling Boons and Banes use, because past it the roll stops being a roll and becomes a sentence. The table never changes; only the odds do.
+*Wounds make wounds worse.* Carrying no wounds, or one, means 3d6: the first mark is a grace state, exactly as it is on the death roll. Two wounds means 4d6, three means 5d6, and four or more means 6d6. Three extra dice is the ceiling, the same ceiling Boons and Banes use, because past it the roll stops being a roll and becomes a sentence. The table never changes; only the odds do.
 
 #pagebreak(weak: true)
 
