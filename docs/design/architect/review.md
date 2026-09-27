@@ -130,6 +130,15 @@ Cry and Form Up: three of the four hand out a modifier and end the turn. The cla
 decisiveness has the least to decide at level 1; it becomes genuinely good at Adept (Hold Together reduces
 damage by 6) and Master (Last Stand, Seize the Moment). The fantasy is right and the entry point is thin.
 
+*Corrected 2026-09-27 (cycle 39), by census rather than by re-reading.* All four of the Leader's Novice
+options are priced as **Maneuvers** (`05:612-615`), and a Maneuver is the turn's secondary resource, not
+the turn (`21:105`: "One per turn"), so the class attacks with its Action and commands with its Maneuver in
+the same round. Nothing ends the turn. Book-wide the census counts **36 Novice class options: 4 cost a full
+Action, 11 cost a Maneuver, 21 are triggered riders**, and the Leader is the only class whose entire Novice
+shelf is maneuver-priced, which makes it the cheapest shelf in the book to use rather than the thinnest.
+What survives is repetition (three of the four are once per scene), which is the span of a Standard fight
+under the pacing law. The last sentence above is the claim the census refutes.
+
 **"Discipline is permission" produces distinct characters, with one caveat.** Every one of the 23
 Disciplines now has a card or class ability consuming it, and the price grid (23 rows by 9 classes, four
 structures) means two heroes of the same class can diverge sharply at rank 2 and 3. At rank 1 they converge:
@@ -141,6 +150,10 @@ thing to do, with Precision making the arithmetic forgiving. Second choice the *
 and a shield make the first fight survivable and the role is obvious. I would steer a first-timer away from
 the **Leader** (your turn is administration) and the **Unbalanced** (two ladders plus a backlash table
 before the core is solid).
+
+*Corrected 2026-09-27 (cycle 39): the Leader parenthetical above is withdrawn. Every one of the class's
+Novice options is a Maneuver, so the attack survives it and the turn is not administration; the full
+measurement is at item 5 below. The Unbalanced steering stands.*
 
 ## 5. Magic, monsters, and the GM's seat
 
@@ -265,9 +278,31 @@ than written.
 
 **5. The Leader's Novice turn is administration.** Three of four rank-1 options grant a modifier and pass.
 
+*Corrected 2026-09-27 (cycle 39): the premise is refuted by a census, so the item is WITHDRAWN rather than
+repaired.* All four Novice options are priced as Maneuvers (`05:612-615`), and `21:105` defines a Maneuver
+as the turn's secondary resource while `13:51` states the trade in both directions: a player may spend an
+Action for an extra Maneuver, never turn a Maneuver into a second Action. So the Leader attacks with its
+Action and commands with its Maneuver in the same round, and the claim that a rank-1 option "ends the turn"
+is false four times out of four. `scripts/class-shelf-cost-census.py` over ch05's nine ability tables:
+**36 Novice class options, 4 costing an Action, 11 a Maneuver, 21 triggered riders**; the Leader is the
+only class with an all-Maneuver Novice shelf, which makes it the cheapest shelf in the book to use, not the
+most administrative. What survives is repetition: three of the four are once per scene, and a once-per-scene
+shelf covers the 3-4 round fight the pacing law names. The fantasy's thin entry point is a different claim
+and this item did not establish it.
+
 **6. The example of play needs a second pass.** `01:156` teaches a number the reader cannot reproduce
 without finding a class talent, and stars level-3 heroes in the chapter aimed at people who have never
 rolled a d20.
+
+*Repaired 2026-09-27 (cycle 39), PR #735.* The premise held and is now measured: of the four numbers the
+exchange prints, **exactly one is undeliverable** (`01:156`, "2, plus your Agility: 4", against the floor
+card's `2 + Brawn` at `09:232`, the substitution coming from the Precision talent at `09:48` and never named
+in the example). The arithmetic was never wrong; the derivation was simply absent, which is the harder failure
+to notice because every gate passes it. The other three check out: 3d6 + the keyed attribute (`07:15`), the Adept skill bonus of +2
+(`07:32`), and DR 2 subtracted from 4. The repair is one clause naming the substitution at the point of use,
+so the reader reconciles the line with Basic Melee without leaving the chapter. The item's second half is
+disclosed rather than repaired: `01:144` tells the reader the pair are "seasoned adventurers, several levels
+into their careers" and names the level gate for the one stat that needs it.
 
 ## 9. What is missing
 
