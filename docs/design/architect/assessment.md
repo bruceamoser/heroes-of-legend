@@ -10,17 +10,22 @@ that what exists is good.
 
 | # | Item | Why it outranks everything | Status |
 |---|---|---|---|
-| 1 | **The price of a card is stated two ways, and creation teaches the wrong one** | `02:204` (Step 7) and `22` (DP Cost Reference) both say cards cost "2/4/8 DP regardless of class", while `08:178` says "the flat card DP cost is only part of the price: you also pay rank costs for any required Disciplines you do not already possess". The true price of a Novice card is **2 to 6 DP** (held / Home / Adjacent / Foreign / Opposed). Every build budgeted from creation's own steps underfunds by the rank costs, which is the measured cause of priority 5's 26 DP shortfall. | **measured 2026-09-26 (cycle 3)**; fix is a sentence, so it is a work order, not a ruling |
-| 2 | **The Shepherd cannot pay for its own loadout and a card** | `05:202` prints 7 DP of loadout ranks and claims "which still leaves room for a card"; the class pool is 8 DP (`02:204`) and a Novice card is 2 DP, so the line costs **9 DP**. Eight of nine classes close; the Shepherd does not. | needs a ruling (ledger row 166) |
-| 3 | **The difficulty dial is asymmetric** | Trivial +4 down to Nearly Impossible -6. More room to make things hard than easy. Combined with a competent hero at +3, a Trivial task cannot fail. Deliberate or drift? Unruled. | needs a ruling |
-| 4 | **Failure collapse at the top of the range** | At mod +5 (Master: attr +2, skill +3) P(Weak) = 0.46%, 1 in 216. At +6 it is mathematically 0. A master cannot fail a Standard task, so the "succeed with a catch" band stops existing for them. May be intended (that is what mastery means) but it must be stated as intent. | needs a ruling |
-| 5 | **Creation's printed builds are unfunded and the skill ledger never closes** | 7 of 9 printed heroes cannot pay for the gear their own loadout requires (26 DP); all 9 spend 2 DP on the skill their culture already grants +1 in (18 DP). The root cause of the first is now measured: priority 1. **Cycle 7: the level-1 grant that creation never awards (priority 10) would pay 6 of those 7 builds, cutting 26 DP to 2.** | rows 161/162; one word each |
-| 6 | **Master is not an efficiency tier, and nothing says so** | Cards cost 2/4/8 while the bands are 4/6/8, 5/8/11, 7/10/14: damage per DP falls **3.00 -> 2.00 -> 1.29** with ranks already paid. The premium buys per-action impact and a once-per-session spotlight (`10:101`), which is a real thing to buy, but a player optimising damage per DP will buy breadth and be right on the numbers. | needs a ruling (ledger row 167) |
-| 7 | Fate unpriced / Summon uncarded | Advertised, unusable. Ruled, specced, undispatched (rows 125/151, issue #655). | work order filed |
-| 8 | ch09 tier-labelled headings | Three cards titled "Novice Talent" whose requirements are Adept and Master (row 160). Player-facing promise defect. **Cycle 7: the tier RULE itself was the larger half of this - `09:15` keyed tier to the count of Disciplines, mispricing 59 of 102 cards; fixed in #665. The three cards remain.** | row filed; rule fixed |
-| 9 | **Fortitude and Knowledge pay twice** | Each point adds +1 HP (`03:78`) and +1 Background DP (`02:115`). No other attribute feeds a pool. At +2/+2 against -2/-2 that is 8 DP and 4 HP on the same two points, and at -2/-2 the hero has 6 HP and 4 DP (Assessment 3). | needs a ruling (ledger row 168) |
-| 10 | **Every level-1 hero is 4 DP short of the book's own career total** | `18:66` grants 4 DP at level 1 with "Class signature, Starting Disciplines" as its milestones (creation's own grants), and `22:272` counts it inside the printed 44-52 DP career. Creation's eleven steps (`02:43-275`), `22`'s checklist and all nine printed builds assign only 8+K+F and 8. | needs a ruling (ledger row 169) |
-| 11 | **The healing axis was never converted to the live rows** | The 2026-09-15 band change was verified with slash-triples, which is how damage prints; a healing card prints one HP per line. Four cards were still on the retired rows (fixed in #665, 4 -> 0) and three items still need a ruling: a recurring heal whose per-round figure cannot total its own row, two Adept cards printing the Master row, and an untiered critical-effect heal. | rows 170/171 |
+| 1 | **The price of a card is stated two ways, and creation teaches the wrong one** | `02:204` (Step 7) and `22` (DP Cost Reference) both say cards cost "2/4/8 DP regardless of class", while `08:178` says "the flat card DP cost is only part of the price: you also pay rank costs for any required Disciplines you do not already possess". The true price of a Novice card is **2 to 6 DP** (held / Home / Adjacent / Foreign / Opposed). Every build budgeted from creation's own steps underfunds by the rank costs, which is the measured cause of the 26 DP shortfall at rank 9. | **measured 2026-09-26 (cycle 3)**; fix is a sentence, so it is a work order, not a ruling |
+| 2 | **The casting procedure names a field it never defines** | `10:31` says every spell rolls `3d6 + Knowledge` (arcane) or `+ Reason` (divine) "plus **relevant skill**"; the phrase appears twice in the book and is defined nowhere. **114 of 114 spell cards name no skill**, no ch07 skill entry says "casting", and the only mapping anywhere is inside one worked example (`10:123`, Arcana). A player cannot cast a spell from the book alone, and a divine caster is told to pair a Reason roll with a Knowledge-keyed skill. | **measured 2026-09-26 (cycle 8)**; needs a ruling (ledger row 172) |
+| 3 | **Primal is a half-built tradition: 12 cards, 7 requirements, 0 items, 0 glossary entries, 0 classes** | 12 cards are titled "Primal Spell" and 7 requirements ask for `focus:primal`, but ch15 carries no primal focus item, ch21 no entry, ch05 no mention, and ch10 declares only two traditions. `12:359`/`12:370` are titled Divine and demand a primal focus. "Primal" already names a discipline category (Animal, Plants). A listed thing that cannot be bought or cast is the Cohesive criterion failing outright. | **measured 2026-09-26 (cycle 8)**; needs a ruling (ledger row 173) |
+| 4 | **The difficulty dial is asymmetric** | Trivial +4 down to Nearly Impossible -6. More room to make things hard than easy. Combined with a competent hero at +3, a Trivial task cannot fail. Deliberate or drift? Unruled. | needs a ruling |
+| 5 | **Failure collapse at the top of the range** | At mod +5 (Master: attr +2, skill +3) P(Weak) = 0.46%, 1 in 216. At +6 it is mathematically 0. A master cannot fail a Standard task, so the "succeed with a catch" band stops existing for them. May be intended (that is what mastery means) but it must be stated as intent. | needs a ruling |
+| 6 | **The price of a card is stated two ways, and creation teaches the wrong one** | `02:204` (Step 7) and `22` (DP Cost Reference) both say cards cost "2/4/8 DP regardless of class", while `08:178` says "the flat card DP cost is only part of the price: you also pay rank costs for any required Disciplines you do not already possess". The true price of a Novice card is **2 to 6 DP** (held / Home / Adjacent / Foreign / Opposed). Every build budgeted from creation's own steps underfunds by the rank costs, which is the measured cause of the 26 DP shortfall below. | **measured 2026-09-26 (cycle 3)**; fix is a sentence, so it is a work order, not a ruling |
+| 7 | **The Adept cadence is stated two ways** | `10:99` says "Adept and Master spells can only be used once per combat. You can't drop an Adept spell every round", while the chapter's own worked example reads the limit as **per card** (`10:127`). Per-card, a level-7 caster holding four Adept cards casts one every round, which is the outcome the sentence forbids; per-tier, the second Adept card is near-dead content. The whole spotlight economy turns on which. | **measured 2026-09-26 (cycle 8)**; needs a ruling (ledger row 174) |
+| 8 | **The Shepherd cannot pay for its own loadout and a card** | `05:202` prints 7 DP of loadout ranks and claims "which still leaves room for a card"; the class pool is 8 DP (`02:204`) and a Novice card is 2 DP, so the line costs **9 DP**. Eight of nine classes close; the Shepherd does not. | needs a ruling (ledger row 166) |
+| 9 | **Creation's printed builds are unfunded and the skill ledger never closes** | 7 of 9 printed heroes cannot pay for the gear their own loadout requires (26 DP); all 9 spend 2 DP on the skill their culture already grants +1 in (18 DP). **Cycle 7: the level-1 grant that creation never awards would pay 6 of those 7 builds, cutting 26 DP to 2.** | rows 161/162; one word each |
+| 10 | **Master is not an efficiency tier, and nothing says so** | Cards cost 2/4/8 while the bands are 4/6/8, 5/8/11, 7/10/14: damage per DP falls **3.00 -> 2.00 -> 1.25** with ranks already paid. The premium buys per-action impact and a once-per-session spotlight (`10:101`), which is a real thing to buy, but a player optimising damage per DP will buy breadth and be right on the numbers. | needs a ruling (ledger row 167) |
+| 11 | Fate unpriced / Summon uncarded | Advertised, unusable. Ruled, specced, undispatched (rows 125/151, issue #655). | work order filed |
+| 12 | ch09 tier-labelled headings | Three cards titled "Novice Talent" whose requirements are Adept and Master (row 160). Player-facing promise defect. **Cycle 7: the tier RULE itself was the larger half of this - `09:15` keyed tier to the count of Disciplines, mispricing 59 of 102 cards; fixed in #665. The three cards remain.** | row filed; rule fixed |
+| 13 | **The focus downgrade has no defined bottom for most cards** | `15:40`/`21:217` end the ladder "Weak becomes **1 damage**" - a clause that only means something if the rung is damage. **23 of the 59 focus-carrying cards have a non-damage Weak rung**, and on a heal it inverts (Mending Touch's "Restore 4 HP" becomes 1 damage). | **measured 2026-09-26 (cycle 8)**; needs a ruling (ledger row 175) |
+| 14 | **Fortitude and Knowledge pay twice** | Each point adds +1 HP (`03:78`) and +1 Background DP (`02:115`). No other attribute feeds a pool. At +2/+2 against -2/-2 that is 8 DP and 4 HP on the same two points, and at -2/-2 the hero has 6 HP and 4 DP (Assessment 3). | needs a ruling (ledger row 168) |
+| 15 | **Every level-1 hero is 4 DP short of the book's own career total** | `18:66` grants 4 DP at level 1 with "Class signature, Starting Disciplines" as its milestones (creation's own grants), and `22:272` counts it inside the printed 44-52 DP career. Creation's eleven steps (`02:43-275`), `22`'s checklist and all nine printed builds assign only 8+K+F and 8. | needs a ruling (ledger row 169) |
+| 16 | **The healing and flat-number axes** | Healing was never converted to the live rows (4 cards, fixed in #665; 3 items still need a ruling - rows 170/171). **Cycle 8 closed the third axis: 7 of 7 ch17 item ladders and 5 ch05 Master riders were still on the retired rows and are now on the live ones.** | rows 170/171; flat axes fixed |
 
 ## Re-assessment 2026-09-26 (cycle 3) — priority 1 was measured, and it holds
 
@@ -209,22 +214,137 @@ what fails is that the book does not tell a player the price it is actually char
 | 2 | The economy | OK (LEARNABLE fails; one class over-pool; 4 mislabelled structures) | 2026-09-26 |
 | 3 | Creation and progression | **GOOD on the arithmetic, OK on progression.** All 9 printed builds' HP/Initiative/Carry re-derive exactly; the reachable space is Background DP 4-12, HP 6-14, career 44-52 DP, ranks 1-3. No dead level (skills are a gate-free sink); the binding constraint after level 3 is the 3-rank ceiling, not DP. Two rule-statement defects found and repaired in the same cycle (#665). | 2026-09-26 |
 | 4 | Combat and action economy | **BAD (pacing).** An even fight, read from the book's own encounter rule, resolves in ~1 round at every tier; root cause is a premise mismatch between `19:53` and `20:659`. Re-assessed and re-costed cycle 5. **Cycle 6: the repair is chosen and filed as #663** (per-hero encounter budget, one and a half creatures per hero); the encounter's challenge-point budget is the wrong instrument for duration, and the count is the right one. | 2026-09-26 |
-| 5 | Magic | not assessed | |
+| 5 | Magic and the spell system | **OK on the core loop, BAD on learnability and cohesion.** 114 spell cards (68 arcane, 46 divine); one roll, three rungs, no slots. Bands discriminate from mod -2 to +3 (Weak 48.2% -> 4.6%); damage/DP 3.00 / 2.00 / 1.25. 32 of 114 cards print a damage row; 0 of them on a retired row, but the third band-change axis (flat printed numbers) was still unconverted: 7 of 7 ch17 item ladders + 5 ch05 Master riders, repaired this cycle. Two entry-point rules are unnamed or self-contradicted (the casting skill, the Adept cadence) and the 12-card Primal tradition has no item, no glossary entry, no class, and no place in the tradition rule. | 2026-09-26 |
 | 6 | Social conflict | not assessed | |
 | 7 | Equipment | not assessed | |
 | 8 | Content (classes, disciplines, cards) | not assessed | |
 | 9 | Bestiary and GM tools | not assessed | |
 
-**Coverage: 4 of 9 subsystems, non-contiguous.** Rows 1, 2, 3 and 4 are assessed; the pacing pass took
-combat and action economy early, on Bruce's ruling 165. Magic (5), social (6), equipment (7), content
+**Coverage: 5 of 9 subsystems, non-contiguous.** Rows 1, 2, 3, 4 and 5 are assessed; the pacing pass took
+combat and action economy early, on Bruce's ruling 165. Social (6), equipment (7), content
 (8) and the bestiary (9) are still open. Until the table is full, the queue is a guess with good manners.
 
-**Next (cycle 8):** subsystem 5, magic and the spell system - the next in dependency order, and the
-place the two flagged healing items (rows 170/171) live. The HoT question is a magic-system question
-before it is a card question: the recurring-effect convention and the live bands cannot both hold, so
-the assessment must decide whether the per-round figure, the duration or the total is the graded
-quantity. Then social conflict (6), equipment (7), content (8), bestiary (9). The pacing row 165 still
-carries its chosen lever and needs nothing from the ledger except the dispatch gate.
+**Next (cycle 9):** subsystem 6, social conflict - the last subsystem whose every interaction is a
+single skill check, and the one place the book's own Challenge law (`06:97`) has not yet been
+reconciled with its opposed tables. Then equipment (7), content (8), bestiary (9). The pacing row 165
+still carries its chosen lever and needs nothing from the ledger except the dispatch gate.
+
+## Assessment 5 - Magic and the spell system (cycle 8, 2026-09-26)
+
+**The mechanic as printed.** One roll, always: `3d6 + Knowledge` (arcane) or `+ Reason` (divine) plus
+"relevant skill", read on the card's three rungs (10:19-33). No slots, no mana, no casting check and no
+failure percentage; holding an ongoing spell is the one thing that asks for more (Concentration,
+10:104). A card is bought at its tier - Novice 2 DP / level 1 / 4/6/8, Adept 4 DP / level 3 / 5/8/11,
+Master 8 DP / level 7 / 7/10/14 (10:39-56) - and its Discipline requirements are met with 1, 2 or 3
+ranks (10:59-67). Focuses (`focus:arcane`, `focus:holy`, `focus:primal`) are 0-cost items; a spell cast
+without one "resolves one outcome lower" (15:31-40). Limits are per-encounter (Adept + Master),
+per-session (Master), concentration (one spell, Fortitude check when damaged), and ritual (a slower
+mode that does not spend the card's use).
+
+**The corpus, computed.** 114 spell cards: `11-arcane-spells` parses as 68 (15 cantrips + 53 spells,
+matching the chapter's own "fifteen cantrips ... fifty-three spell cards"), `12-divine-spells` as 46
+(6 cantrips + 40 spells). Tier split 54 Novice / 45 Adept / 15 Master. 59 cards demand a focus, 34
+non-cantrip spells demand none, 21 cantrips are exempt by law (row 110).
+
+**1. The bands discriminate across the whole realistic caster range.** Exact enumeration of the 216
+3d6 outcomes, against caster modifier (Knowledge or Reason -2..+2, skill 0..+3):
+
+| mod | -2 | -1 | +0 | +1 | +2 | +3 | +4 | +5 | +6 |
+|---|---|---|---|---|---|---|---|---|---|
+| Weak | 48.2% | 37.0% | 25.9% | 16.2% | 9.3% | 4.6% | 1.9% | 0.46% | 0.00% |
+| Standard | 48.2% | 57.9% | 64.8% | 67.6% | 64.8% | 57.9% | 48.2% | 37.0% | 25.9% |
+| Strong | 1.9% | 4.6% | 9.3% | 16.2% | 25.9% | 37.5% | 50.0% | 62.5% | 74.1% |
+
+All three rungs are live from -2 to +3, which is where nearly all play sits; the Weak rung is decorative
+only at +5 and above, where the player has already bought Mastery (priorities 3 and 4 in the queue own
+that question, and it is a property of the 3d6 core, not of magic).
+
+**2. The price of a spell is front-loaded.** Damage per DP at the flat card price, Standard band:
+**3.00 / 2.00 / 1.25** (Weak 2.00 / 1.25 / 0.88; Strong 4.00 / 2.75 / 1.75). Master is not an efficiency
+tier - that is row 167's question, and magic only supplies its numbers.
+
+**3. Casts to drop a 14-HP peer** (expected damage per cast at mod +2: Novice 6.33, Adept 8.50, Master
+10.76): **2.21 / 1.65 / 1.30 casts**. A single Standard hit is 43-77% of a hero's entire HP pool, which
+is the arithmetic behind the pacing failure - owned by #663, cited here because a magic chapter cannot
+be tuned in isolation from it.
+
+**4. Conformance, damage axis: clean. The FLAT axes were not.** 45 cards carry a three-rung damage body;
+**0 sit on a retired row** (the earlier waves hold). A naive first-integer-per-rung extractor reports 16
+"off-row" cards; every one is a push distance, a weight, a DR value, a duration or a minion count - the
+false-positive class row 132 documented, and the vocabulary the number is produced under is stated here
+because the count is not the finding.
+
+The 2026-09-15 band change was verified with **slash-triples**, and a slash triple is how a *card*
+prints damage. Three axes print damage without one, and each was invisible to that sweep:
+
+| axis | state before this cycle | evidence |
+|---|---|---|
+| healing (one HP value per line) | found and fixed in #665 (row 170: 4 cards -> 0) | `heal-row-census.py` |
+| **magic-item granted-power ladders (ch17 tables)** | **7 of 7 ladders on a retired row, 21 figures** - 5 ladders at 2/4/6, 2 at 6/9/12 | `17:59-61`, `115-117`, `269-271`, `341-343`, `473-475` (Novice), `225-227`, `293-295` (Adept) |
+| **class-ability flat riders (ch05)** | **5 Master abilities printing 9/9/15/15/9** | `05:540`, `588`, `589`, `707`, `708` |
+
+ch17 states the law it was breaking in its own header (`17:34`: "Damaging powers key to the damage
+budget ... Novice 4/6/8, Adept 5/8/11, Master 7/10/14"). Closed issue #546 ("band residue ... ch11/ch12
+and their mirrors") names ch17 **0 times** and ch05 **0 times**, so this is a new site group, not a
+re-opened one. Repaired this cycle by positional mapping onto the live row (retired Novice 2/4/6 ->
+4/6/8, retired Adept 6/9/12 -> 5/8/11, and a lone 9 -> 8 / 15 -> 14 for the Master riders).
+
+**5. Two entry-point rules a player cannot follow from the book alone (LEARNABLE fails twice).**
+- **The casting skill is never named.** `10:31` says "3d6 + Knowledge + **relevant skill**"; the phrase
+  appears twice in the book and is defined nowhere. **114 of 114 spell cards name no skill**, ch07's 23
+  skills describe Arcana as "magical knowledge, spell identification" and Religion as "gods, rituals,
+  divine lore" - neither says casting - and there is exactly one mapping anywhere in the book, inside a
+  worked example (`10:123`, Sera rolls Arcana for an arcane spell). A divine caster is told to roll
+  Reason plus a skill whose own attribute is Knowledge, with no rule that says a skill may ride another
+  attribute. A player at the table must ask.
+- **The Adept cadence is stated two ways.** `10:99` says "Adept and Master spells can only be used once
+  per combat. You can't drop an Adept spell every round", but the chapter's own worked example reads the
+  limit as **per card** ("The Brimstone Burst is per-encounter. Sera won't cast it again this fight",
+  `10:127`). Per-card, a level-7 caster holding four Adept cards (16 of a 44-52 DP career) casts an Adept
+  spell every round - the exact outcome the sentence forbids. Per-tier, the second Adept card is nearly
+  dead content. Both readings are defensible and the difference is the whole spotlight economy.
+
+**6. Two cohesion failures.**
+- **The focus downgrade has no defined bottom for most cards.** `15:40` and `21:217` end the ladder
+  "Strong becomes Standard, Standard becomes Weak, and **Weak becomes 1 damage**" - a clause that only
+  means something if the Weak rung is damage. **23 of the 59 focus-carrying cards have a non-damage Weak
+  rung** (`11:271` Wind Wall "missile attacks through the wall have Bane", `11:317` Ward of Iron "+1 DR
+  against one attack"), and on a healing card it inverts the effect (Mending Touch's Weak "Restore 4 HP"
+  literally becomes 1 damage).
+- **Primal is a half-built construct.** 12 cards are titled "Primal Spell" and 7 requirements ask for
+  `focus:primal`, but there is **no primal focus item** (15's item table lists Arcane Focus and Holy
+  Symbol), **no glossary entry** (21 has both siblings, no primal), **no class mention** (ch05 never says
+  primal), and ch10 declares **two** traditions (10:83-89) that do not include it - ch12:19 is the only
+  text that names a primal caster ("Shepherds use them"). The two Divine-titled cards that demand a
+  primal focus (`12:359` Beast Tongue, `12:370` Briar Wall) are where the vocabularies collide. And
+  "Primal" already names a **discipline category** (Animal, Plants - `21:69`, `22:229`), so the word
+  carries two senses with one of them unqualified. **A listed thing that cannot be bought and cannot be
+  cast is the Cohesive criterion failing outright.**
+
+**7. Cantrip breadth is 15 / 5 / 1, and the divine list does no damage.** Arcane 15, divine 5, primal 1,
+against `10:75`'s promise that "each tradition has its own full list". Three arcane cantrips deal damage
+on the ruled 1/3/5 line (row 110); **no divine cantrip deals damage at all**. The never-a-null-turn
+pillar still holds for every caster (attacks always hit and a weapon is always in hand), so this is
+breadth asymmetry rather than a hole - but the primal tradition's "full list" is one card.
+
+**8. Stress: no free-recovery loop.** The ritual clause ("does not spend the card's once-per-encounter or
+once-per-session use") reads dangerous against out-of-combat casting, and it is not: all 3 ritual cards
+are Mind spells (teleport, oath, insight) - none heals, none damages. Concentration is one spell at a
+time with a Fortitude check per damage event. The at-will layer (cantrips + weapon) means a caster is
+never out of options, which is the pillar delivered.
+
+**Verdict: OK on the core loop, BAD on learnability and cohesion.** The loop does exactly what the book
+promises - magic always fires, one roll decides how well, the three rungs discriminate everywhere play
+happens, and no caster ever has a null turn. It fails the two criteria a *reader* needs: the procedure
+names a field it never defines (the casting skill), states its most important limit two ways (the Adept
+cadence), and carries a 12-card tradition with no item, no glossary entry, no class and no home in its
+own tradition rule. The band-change residue on the flat axes was measurable and is now repaired; the
+learnability and primal defects are rule-text work.
+
+**Instrument:** `scripts/architect-magic-census.py` (per-discipline tier coverage, rung grading with the
+retired-row check, recurring per-round x duration totals, non-damage-rung and focus-downgrade scope,
+focus/tradition mismatches, cantrip conformance; `--selftest` carries three negative controls).
+
 
 ## Pacing assessment - combat and action economy (2026-09-26, on Bruce's ruling 165)
 
@@ -463,3 +583,92 @@ recurring heal, the two Adept cards printing the Master row, and the untiered cr
 
 **Verdict: GOOD on the arithmetic (9 of 9 builds re-derive) and OK on progression (no dead level), with
 two rule-statement defects found and repaired in the same cycle and one flagged item at the HP floor.**
+
+## Assessment 5 - Magic and the spell system (cycle 8, 2026-09-26)
+
+**The mechanic as printed:** one roll decides everything. `10:31`: arcane spells roll `3d6 + Knowledge +
+relevant skill`, divine spells `3d6 + Reason + relevant skill`; the result reads the card's Weak /
+Standard / Strong line. No slots, no mana, no failure percentage; magic always fires. Tier sets both
+price and row: Novice 2 DP at level 1 on 4/6/8, Adept 4 DP at level 3 on 5/8/11, Master 8 DP at level 7
+on 7/10/14 (`10:46-48`). Cards require Discipline ranks (1/2/3, ceiling 3, Master may blend). Limits
+(`10:97-112`): per-encounter for Adept and Master, per-session for Master, one concentration spell, a
+ritual casting mode (3 cards), and an opposed roll to end another caster's effect (row 146). Focuses
+(`15:31-33`, `21:215-217`, `22:394-408`): `focus:arcane` / `focus:holy` / `focus:primal`, each costed
+0, and a missing focus resolves one outcome lower.
+
+**Numbers, computed from the corpus rather than quoted** (`architect-magic-census.py`, `--selftest`
+plants a retired-row card, a focus mismatch and a blank-label card and requires all three):
+
+- **Corpus.** 114 spell cards: ch11 68 (15 cantrips + 53 spells, the chapter's own total), ch12 46 (6
+  cantrips + 40 spells). Tiers: 54 Novice / 45 Adept / 15 Master. 59 cards carry a focus; 21 cantrips are
+  exempt by ruling (row 110); 34 non-cantrip spells demand no implement, which `15:40` explicitly allows.
+- **The bands stay live across the realistic caster range.** Exact enumeration of the 216 outcomes:
+  at mod -2 / -1 / 0 / +2 / +4 / +5, P(Weak) is 48.15 / 37.04 / 25.93 / 9.26 / 1.85 / 0.46% and P(Strong)
+  is 1.85 / 4.63 / 9.26 / 25.93 / 50.00 / 62.50%. A working caster (attribute +1, skill +2) sits at +3,
+  where all three rungs are worth reading. Only the top of the range (mod +6, P(Weak) = 0) collapses, the
+  known priority-4 note.
+- **Master is not an efficiency tier**: damage per DP at the Standard band is 3.00 / 2.00 / 1.25 with
+  ranks already paid, and casts to drop a 14-HP peer are 2.21 / 1.65 / 1.30. Row 167's ruling question
+  covers this; magic adds the second half of the answer (a Master cast is a once-per-session spotlight,
+  `10:101`).
+- **Conformance on the damage axis is clean**: **32 of the 114 cards print any damage row at all, and 0 of
+  them sit on a retired row** (the 54 pure-utility and 7 healing cards make the remainder). The crude
+  first-integer extractor's 16 "off-row" hits are all push distances, weights, DR values,
+  durations and minion counts, which is row 132's documented false-positive class, and the vocabulary is
+  stated here because the count is not the finding.
+- **The third band-change axis was still unconverted.** The 2026-09-15 sweep grepped slash-triples, which
+  is how damage prints; three axes print without them, and healing was only the second. The third:
+  **7 of 7 damaging item ladders in ch17 (21 figures) sat on the retired rows** (5 ladders on 2/4/6 at
+  `17:59`, `17:115`, `17:269`, `17:341`, `17:473`; 2 on 6/9/12 at `17:225` and `17:293`) even though
+  `17:34` prints the live rows in the chapter's own header text, plus **5 Master abilities in ch05**
+  printing 9 or 15 (`05:540`, `588`, `589`, `707`, `708`). The closed band-residue issue #546 named
+  ch11/ch12 "and their mirrors" and references neither file. Repaired this cycle: 26 figures moved onto
+  their own tier's live row by position. Logged as row 176.
+- **Coverage.** Master (rank-3) spells exist in 5 of 23 disciplines: Energy 5, Mind 4, Protection 4,
+  Religion 3, Wind 1. Fire, Water, Earth, Plants, Life and Animal carry none, and rank 3 is optional and
+  flavour-led (the coverage standard), so this is a fact, not a defect. Rank-1 breadth is where magic is
+  thin: 54 Novice cards over 12 discipline keys.
+- **Cantrip breadth is 15 arcane / 5 divine / 1 primal** while `10:75` promises "each tradition has its
+  own full list". Three arcane cantrips deal damage on the ruled 1/3/5 line (row 110); **none of the five
+  divine cantrips deal any**, so a divine caster's at-will layer is utility only. The primal list is one
+  card.
+
+**Two learnability failures, both at the entry point:**
+
+1. **The casting skill is never named.** `10:31` and `10:75` both say "a relevant skill"; 114 cards name
+   no skill, no ch07 entry says casting (Arcana is "Magical knowledge, spell identification", Religion is
+   "Gods, rituals, divine lore", Nature is "Plants, animals, natural phenomena"), and the only mapping in
+   the book is inside one worked example (`10:123`, Sera adds Arcana). A player cannot cast from the book
+   alone, and a divine caster is told to pair a Reason roll with a Knowledge-keyed skill. Row 172.
+2. **The Adept limit contradicts its own justifier.** `10:99`: "Adept and Master spells can only be used
+   once per combat. You can't drop an Adept spell every round", while the worked example (`10:125`) reads
+   it per card ("The Brimstone Burst is per-encounter. Sera won't cast it again this fight"). Per card, a
+   level-7 caster holding four Adept cards does exactly what the sentence forbids. Row 174.
+
+**Two cohesion failures:**
+
+1. **The focus downgrade's floor is defined only for damage.** Measured: of the 59 focus-carrying cards,
+   **23 have a non-damage Weak rung** (Wind Wall's "missile attacks through the wall have Bane", Ward of
+   Iron's "+1 DR against one attack", Flicker Step's "teleport 5 ft"), where "Weak becomes 1 damage" has
+   no meaning, and on a heal the literal rule inverts the effect. `10:37` over-promises the same grammar
+   ("its outcome block keys to that tier's row of the damage budget") when only 32 of the 114 cards print
+   a damage row at all (32 damage / 7 healing / 54 pure utility among the 93 non-cantrip spells). Row 175.
+2. **Primal is a half-built tradition: 12 cards, 7 requirements, 0 items, 0 glossary entries, 0 classes.**
+   12 cards are titled "Primal Spell" and 7 requirements ask for `focus:primal`, but ch15's item table
+   carries Arcane Focus and Holy Symbol and no primal focus, ch21 has entries for those two and none for
+   primal, ch05 never uses the word, and `10:83-91` declares **two** traditions while `12:19` says the
+   chapter holds "divine and primal" spells and "Shepherds use them". Only 3 of the 12 Primal-titled
+   cards demand the focus at all, and 2 cards titled **Divine** demand it (`12:359`, `12:370`). "Primal"
+   also already names a discipline category (`21:69`, `22:229`). A listed thing that cannot be bought or
+   cast is the Cohesive criterion failing outright. Row 173.
+
+**Stress:** the ritual mode cannot be abused into free recovery: the 3 ritual cards are all Mind
+(Teleport, Oath, Insight), and none of them heals or damages, so it opens no attrition loop. Concentration
+is one at a time with a Fortitude check per hit. Attacks always hit and cantrips are at-will, so the null
+turn does not exist in this subsystem (it would take a silence-style lockout, which the book does not
+print).
+
+**Verdict: OK on the core loop, BAD on learnability and cohesion.** The loop delivers the pillars (always
+fires, one roll, never a null turn) and its three bands discriminate everywhere a real caster plays, from
+mod -2 to +3. What fails is the entry point: two rules a player must have are unnamed or self-contradicted,
+and a 12-card tradition cannot be bought, cast, or looked up.
