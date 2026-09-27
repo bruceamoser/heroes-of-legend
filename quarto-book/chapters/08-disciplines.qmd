@@ -248,7 +248,7 @@ Round half of an odd maximum up. A heal never lowers HP, and a hero already at o
 
 *The ladder is not in the numbers.* A healing card never climbs a row, so a Novice heal is worth an Action at Master too. What the tiers buy is reach, targets and riders: a Novice heal serves the hand that touches it, an Adept heal reaches across the field, and a Master heal serves the party.
 
-*What this does not govern.* A potion, a relic, a class ability or a weapon maneuver that restores HP prints an amount and keeps it: an item is found rather than built and ladders by rarity, and a class ability is its class's own gift. A spell that heals over a duration keeps its printed amounts, because it is budgeted on its total. And a drain that returns a share of the damage it dealt is priced against that damage, never against the target's maximum.
+*What this does not govern.* A potion, a relic, a class ability, a talent or a weapon maneuver that restores HP prints an amount and keeps it: items are found rather than built and ladder by rarity, and abilities are gifts at a fixed size. A spell that heals over a duration keeps its printed amounts, because it is budgeted on its total. A drain that returns a share of the damage it dealt is priced against that damage, never against the target's maximum, and a few HP riding on a spell that does something else stays where it is.
 
 #pagebreak()
 
