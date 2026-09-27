@@ -580,5 +580,62 @@ two gate repairs and the ledger tombstone.
 mechanic's flavour sell it, and does any flavour contradict its own rule). Play the boredom pass next: it is the only one of the three that
 produces decisions rather than descriptions, and it targets the scorecard's Succinct line, which has been
 flat since the armament collapse. Screen first with `choice-space-sweep.py` and the card census so the
-pass reads a shortlist, not all 208 cards.
+pass reads a shortlist, not all 208 cards. *(Cycle 30 correction: that screener belonged to the retired kit
+economy and is dead - see the cycle 30 entry.)*
+
+## Cycle 30 (2026-09-27) - W-006 screened 208 cards, found ONE dominated choice, and the screener needed five repairs to be readable
+
+**Priority 1 returned zero for the fourth cycle** (`needs Bruce` 0, no status cell begins open/pending, nothing
+ruled-and-unbuilt, 9 of 9 assessed), so the cycle took the plan's named next action, **W-006 the boredom
+pass**, and it produces a decision: it found and landed a card that a player should never buy.
+
+**The named screener was dead, which is itself a finding.** `scripts/choice-space-sweep.py` is the kit
+economy's instrument and the kit system retired in #577/#586, so it now has no live target and its own
+`--selftest` crashes (`IndexError`: the planted-rule kit is not in its synthetic space). The pass needed a
+new instrument for the card corpus: **`scripts/dominated-choice-census.py`** (208 cards parsed from
+`09`/`11`/`12`, 3 planted defects and 4 negative controls, `--rev` for branch reads, a coverage guard that
+reports the cards it cannot screen instead of a clean line).
+
+**Five repairs before the shortlist was readable, each a trap worth keeping.** (1) The field-line parser
+read `block.split("\n")[0]`, which is the empty tail of the heading because the card regex eats the
+newline, so Disciplines/Action/Range/Keywords ALL parsed as empty and the first run screened 208 cards on
+their kind alone. (2) A `·`-joined requirement truncated at the first `·`, the same trap `tier-census.py`
+carries a repair note for (`2 Melee · 1 Stealth` counted as 2). (3) `+1 damage tier` read as 1 damage,
+turning every tier-bump card into a 1/1/1 dud. (4) `remove Frightened or Dazed` read as IMPOSING
+Frightened, inventing a dominant support talent out of Rally the Troops; and `the target is Prone` read as
+a PRECONDITION, deleting the condition from every card that imposes one. (5) A condition-only vocabulary
+could not see `lose their Maneuver` at all, which is the trap the skill already records. The list went
+**62 -> 18 -> 16 -> 5 -> 3** pairs across those repairs, and each step was a documented class of error, not
+tuning: the count moving is what an undercount looks like.
+
+**One genuine domination in 208 cards.** `Tremor` (Adept Arcane, 2 Earth) strictly contains `Static Field`
+(Adept Arcane, 2 Wind): identical price (2 ranks), identical `focus:arcane` gate, identical Action,
+identical 10-ft radius, identical 5/8/11 row, identical Weak failure clause, and Tremor adds Prone at
+Standard while its Strong keeps the Maneuver loss Static Field has. **Damage type cannot carry the choice**:
+across all 49 bestiary blocks nothing resists or is immune to lightning, and bludgeoning is a vulnerability
+once. All nine class cost tables price Earth and Wind identically, so the two compete for the same DP. Fix
+is a design act on the weaker card's OWN axis: "targets lose their Maneuver" moves down to Standard, Strong
+adds the book's printed no-Reaction clause, Tremor is untouched, and neither card is a superset afterwards.
+**The other two pairs are model artifacts, read and dismissed**: two gear-locked basic attacks compare
+weapon properties (a thrown weapon's 20/60 is the weapon's, not the card's), and a range-only pair whose
+Strong rungs diverge.
+
+**The same sweep produced a second finding the ledger had no row for.** `13:161` prints "never a second
+roll... No check"; row 38 applied that law to ch17's six item riders; **five card clauses still asked the
+target to roll to avoid the card's own effect** (Venom Lance x2, Touch of the Grave x2, Phantasmal Image
+x1). Converted to the rung each effect already sat on, using only printed vocabulary. Exempt after reading:
+every Morale clause (a printed subsystem where a player rolls FOR the creature), Ghost Sound's perception
+check, and the Boon-on-a-check support clauses. One more was filed rather than converted: **Thaumaturgy's
+Strong rung is an at-will mass-flee** once its check goes, so #719 carries the fork and the recommended
+default (bound it to one creature, the printed cantrip scale).
+
+**Landed:** #717 + #718 -> one work order -> **PR #720**, squash `e37b49f`, one file, 7 lines; my own
+gates: second-roll grep 0, em-dashes/bold/dice 0, native-Typst exit 0, independent build exit 0 at **399
+pages**, and the PDF text layer re-read for every changed line (p191, p194, p197, p202) with `fail a Reason
+check` returning 0 hits book-wide. Ledger rows 199/200. **Open: #719 only.**
+
+**Next: the change-one-number pass and the flavour pass are the two walkthroughs still never played.** Play
+the **change-one-number** pass next: it is the designer's form of an audit, it needs no new corpus parse
+(the instruments for bands, tiers and DP cost already exist), and the boredom pass just proved how much of
+a design question hides behind a single printed number.
 
