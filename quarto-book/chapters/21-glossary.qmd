@@ -92,7 +92,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Skill:* A trained competency. Ranges from Novice (+1) to Master (+3). Includes physical skills (Athletics), knowledge skills (Arcana), social skills (Persuasion), and subterfuge skills (Stealth).
 
-*Talent:* A benefit purchased with DP. Most need no activation; some are activated talents, and the card's Action field says which. Examples: Tough (+2 HP), Fortune's Favor (spend a Reaction to reroll one natural 1, 2, or 3, once per session).
+*Talent:* A benefit purchased with DP. Most need no activation; some are activated talents, and the card's Action field says which. Examples: Tough (+2 HP), Fortune's Favor (spend a Reaction to reroll one die, once per session).
 
 *Trait:* An ancestry-granted special ability. Human: Versatile. Elf: Elven Grace. Dwarf: Sturdy. Halfling: Lucky.
 
@@ -102,7 +102,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Action:* The main thing you do on your turn. Attack, cast a spell, activate an ability, Dash. One per turn.
 
-*Maneuver:* A secondary resource spent on basic maneuvers (Defend, Shove) or a weapon maneuver (Riposte, Cleave), gated by Disciplines. One per turn.
+*Maneuver:* A secondary resource spent on the basic maneuvers (Defend, Shove) or on any card whose Action field reads Maneuver, gated by Disciplines. One per turn.
 
 *Movement:* How far you can move on your turn. Usually 30 ft. Can be broken up before and after your Action.
 
