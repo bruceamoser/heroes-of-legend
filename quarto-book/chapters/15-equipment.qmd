@@ -79,7 +79,7 @@ A favour is not something you carry, but it is something you bring to a problem,
 
 == Weapons
 
-A weapon is a promise your hero makes about who they are. The longsword on the hip, the twin daggers, the greataxe that will not fit through doorways, each one says something about the person carrying it. What a weapon does not do is decide how hard you hit. Discipline is permission: a hero may use a piece of gear only while holding the Discipline ranks that item requires, bought at your class's rates (see @sec-chapter-classes for each class's Discipline cost table). Gear adds no number beyond DR. Possession is separate: the object is one cost, granted, earned, or taken, and the rank is the other, bought with Development Points. Cards are damage: your attack ability cards carry the Weak, Standard, and Strong values (see @sec-chapter-talents-abilities) and the 3d6 attack roll decides which one you land. No separate damage dice.
+A weapon is a promise your hero makes about who they are. The longsword on the hip, the twin daggers, the greataxe that will not fit through doorways, each one says something about the person carrying it. What a weapon does not do is decide how hard you hit. Discipline is permission: a hero may use a piece of gear only while holding the Discipline ranks that item requires, bought at your class's rates (for each class's Discipline cost table, see @sec-chapter-classes) Gear adds no number beyond DR. Possession is separate: the object is one cost, granted, earned, or taken, and the rank is the other, bought with Development Points. Cards are damage: your attack ability cards carry the Weak, Standard, and Strong values (see @sec-chapter-talents-abilities), and the 3d6 attack roll decides which one you land. No separate damage dice.
 
 Pick the weapon that fits your hero, not the one that looks best on paper. They all hit the same; you are the one doing the hitting.
 
@@ -112,7 +112,7 @@ Pick the weapon that fits your hero, not the one that looks best on paper. They 
 )
 
 #callout(type: "note", title: "Melee Damage", body: [
-Melee attacks add your Brawn to the damage row on your attack ability card. Missile and thrown attacks are flat, no attribute added. See @sec-chapter-talents-abilities for the cards and @sec-chapter-combat for the basic attack. The weapon never changes these numbers.
+Melee attacks add your Brawn to the damage row on your attack ability card. Missile and thrown attacks are flat, no attribute added. For the cards, see @sec-chapter-talents-abilities For the basic attack, see @sec-chapter-combat The weapon never changes these numbers.
 
 Improvised weapons (a crowbar swung as a club, a hammer in a pinch) deal 1/1/2 + Brawn, the Basic Unarmed floor. A thrown improvised object counts as a thrown attack: 1/2/3 flat, no attribute.
 ])
@@ -136,7 +136,7 @@ A shield takes Shields ranks by its size: 1 for a small shield, 2 for a medium o
 
 == Armor
 
-Armor is what you wear, and it is worth its points in DR: light grants 1, medium 2, heavy 3. A talent or ward does not add to that: use the higher of the two, and your tier caps the total. Shield DR is not part of that total: a shield's DR arrives through the Shield Block reaction, which applies it to one attack per round. Beyond the number, armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields A caster in heavy armor buys 3 Armor ranks at his class's rates (see @sec-chapter-classes for each class's Discipline cost table), which is why armor is a cost and not a prohibition.
+Armor is what you wear, and it is worth its points in DR: light grants 1, medium 2, heavy 3. A talent or ward does not add to that: use the higher of the two, and your tier caps the total. Shield DR is not part of that total: a shield's DR arrives through the Shield Block reaction, which applies it to one attack per round. Beyond the number, armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields A caster in heavy armor buys 3 Armor ranks at his class's rates (for each class's Discipline cost table, see @sec-chapter-classes), which is why armor is a cost and not a prohibition.
 
 #figure(
   align(center)[#table(
@@ -336,7 +336,7 @@ Sometimes you need to move more than yourself. Trade goods, siege equipment, the
 *Upgrades:* Vehicles can be reinforced (+10 HP), armored (passengers have half cover), or outfitted with weapon mounts (ballista platform on a ship, crossbow mount on a wagon). Weapon mounts require a crew member to operate, and the damage comes from the attack card used to fire them.
 
 #callout(type: "tip", title: "Chases", body: [
-For vehicle vs. vehicle chases, a wagon fleeing bandits on horseback, a ship outrunning pirates, only the pursuer rolls, and the quarry's speed is the difficulty. Each round the pursuer's driver makes one roll on the core 3d6 (@sec-chapter-core-resolution) applying the Speed difference as a Boon or a Bane: a Boon if the pursuer is faster, a Bane if the quarry is. A 10 ft edge is one step, 30 ft is two, 60 ft or more is three. A Standard or Strong result closes one band of distance; a Weak result opens one. Closing three bands means the pursuer catches them, opening three means the quarry escapes, and short of that the chase simply continues, a wheel hits a rock, a sail tears, a horse stumbles, and the DA narrates the near miss.
+For vehicle vs. vehicle chases, a wagon fleeing bandits on horseback, a ship outrunning pirates, only the pursuer rolls, and the quarry's speed is the difficulty. Each round the pursuer's driver makes one roll on the core 3d6, applying the Speed difference as a Boon or a Bane: a Boon if the pursuer is faster, a Bane if the quarry is (see @sec-chapter-core-resolution) A 10 ft edge is one step, 30 ft is two, 60 ft or more is three. A Standard or Strong result closes one band of distance; a Weak result opens one. Closing three bands means the pursuer catches them, opening three means the quarry escapes, and short of that the chase simply continues, a wheel hits a rock, a sail tears, a horse stumbles, and the DA narrates the near miss.
 ])
 
 Gear is the quiet part of the story. Your players will remember the goblins, the treasure, and the horse that died in session three. They will also remember the weight of the longsword and the relief of finding oil for the lantern. Carry it well. Lose it badly. That's the adventure.

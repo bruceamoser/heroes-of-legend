@@ -40,7 +40,7 @@ Your class gives you a Discipline, a signature ability, and cheaper access to ce
   numbering: none,
 )
 
-See @sec-chapter-skills for the full skill list.
+For the full skill list, see @sec-chapter-skills
 
 Each class entry lists a *Starting Loadout*: the gear your hero carries at level 1, and the Discipline ranks that gear requires. Ranks your class, ancestry, or culture already grant cost nothing, so the DP figure in a loadout line is what its remaining ranks cost at your class's rates, paid from the same Development Points that buy your cards.
 
@@ -750,7 +750,7 @@ The Odd's abilities are few but strange: Improvised Solution, Wrong Context, Eve
 
 == Progression
 
-You gain Development Points each level (see @sec-chapter-advancement for the full progression). Unspent DP carries over to your next level, so saving toward an 8 DP Master card is a real strategy.
+You gain Development Points each level (for the full progression, see @sec-chapter-advancement) Unspent DP carries over to your next level, so saving toward an 8 DP Master card is a real strategy.
 
 *Adept* abilities unlock at Level 3. *Master* abilities unlock at Level 7. Until then, everything you buy is Novice.
 

@@ -50,7 +50,7 @@ Assign scores to your six attributes that total _exactly +3_:
 
 *Brawn, Fortitude, Agility, Guile, Knowledge, Reason*
 
-Each starts at +0. Max +2, min -2. Drop one into the negatives to fund a strength elsewhere, but the sum across all six must be 3. See @sec-chapter-attributes for the full breakdown.
+Each starts at +0. Max +2, min -2. Drop one into the negatives to fund a strength elsewhere, but the sum across all six must be 3. For the full breakdown, see @sec-chapter-attributes
 
 === Step 3: Ancestry
 
@@ -73,7 +73,7 @@ Choose your species. Each grants a Discipline and a trait:
 )
 #label("tbl-ancestries")
 
-See @sec-chapter-ancestries for full details.
+For full details, see @sec-chapter-ancestries
 
 === Step 4: Culture
 
@@ -106,7 +106,7 @@ Your upbringing within your ancestry. Each culture grants a +1 bonus to one skil
   numbering: none,
 )
 
-See @sec-chapter-ancestries for full descriptions of each culture.
+For full descriptions of each culture, see @sec-chapter-ancestries
 
 === Step 5: Spend Background DP
 
@@ -135,14 +135,14 @@ Costs below are at *Home (Favored)* rates. Your class may change these based on 
     table.header([Purchase], [Base Cost], [Notes],),
     [*Skill (Novice)*], [2 DP], [+1 bonus. Adept (4 DP) at Level 3. Master (8 DP) at Level 7.],
     [*Ability (Novice)*], [2 DP], [Martial, magical, or talent. Adept at Level 3 (4 DP). Master at Level 7 (8 DP).],
-    [*Discipline (first rank)*], [per class table], [First rank in a given type. See @sec-chapter-classes for your costs.],
+    [*Discipline (first rank)*], [per class table], [First rank in a given type. For your costs, see @sec-chapter-classes],
   )],
   kind: table,
   outlined: false,
   numbering: none,
 )
 
-No-prereq Novice basics (basic utility skills) cost 2 DP with no Discipline requirement. Cantrips cost nothing: every caster knows the whole list for their tradition. See @sec-chapter-disciplines for the full rules.
+No-prereq Novice basics (basic utility skills) cost 2 DP with no Discipline requirement. Cantrips cost nothing: every caster knows the whole list for their tradition. For the full rules, see @sec-chapter-disciplines
 
 These represent everything your hero learned growing up. A farm kid might take Athletics and Nature. A temple acolyte might take Religion and Medicine. A street thief might take Stealth and Sleight of Hand. Make it make sense for your concept, the DA will notice.
 
@@ -154,9 +154,9 @@ Disciplines are not free. Every Discipline your hero possesses comes from a spec
 
 - *Culture* (Step 4): Your upbringing grants one or two Disciplines depending on your culture's traditions. See the culture table in Step 4.
 
-- *Background DP* (Step 5): You may spend Development Points to purchase additional Disciplines at rank 1, or deepen a Discipline you already have to rank 2 (2 same). Rank costs follow your class's cost structure (see @sec-chapter-classes) The Discipline rank ceiling (see @sec-chapter-disciplines) still applies. Higher ranks come from level progression, not creation. This represents skills and knowledge earned during your life before adventuring.
+- *Background DP* (Step 5): You may spend Development Points to purchase additional Disciplines at rank 1, or deepen a Discipline you already have to rank 2 (2 same). Rank costs follow your class's cost structure (see @sec-chapter-classes) The Discipline rank ceiling still applies (see @sec-chapter-disciplines) Higher ranks come from level progression, not creation. This represents skills and knowledge earned during your life before adventuring.
 
-- *Class* (Phase Two): Your class grants specific Disciplines tied to its training and traditions. See @sec-chapter-classes for each class's starting Disciplines.
+- *Class* (Phase Two): Your class grants specific Disciplines tied to its training and traditions. For each class's starting Disciplines, see @sec-chapter-classes
 
 Between ancestry, culture, and class, a starting hero typically has 4-5 Disciplines before spending a single DP. Spend your Background DP to build on that foundation.
 
@@ -197,7 +197,7 @@ Now your hero finds their calling. This is where they become exceptional.
 )
 #label("tbl-classes")
 
-Record your Class Discipline (one rank) and signature ability. See @sec-chapter-classes for full writeups, including favored costs.
+Record your Class Discipline (one rank) and signature ability. For full writeups, including favored costs, see @sec-chapter-classes
 
 === Step 7: Spend Class DP
 

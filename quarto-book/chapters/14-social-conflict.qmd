@@ -26,7 +26,7 @@ Five skills carry the weight of social encounters. Know which one fits the momen
 
 *Intimidation (Brawn):* Threats and coercion. "I wasn't asking." Works fast, burns bridges faster. The Unbalanced lives here. Everyone else visits when patience runs out.
 
-*Insight (Reason):* Reading truth from lies. Catching the twitch, the hesitation, the glance at the exit. Rolled actively, Insight is keyed to Reason like any other skill. When someone lies to you and you are not looking for it, you do not roll: the lie carries a *Challenge* set by your Knowledge modifier, negated. A hero with Knowledge +2 imposes -2 on the liar. See @sec-chapter-core-resolution for how the Challenge works.
+*Insight (Reason):* Reading truth from lies. Catching the twitch, the hesitation, the glance at the exit. Rolled actively, Insight is keyed to Reason like any other skill. When someone lies to you and you are not looking for it, you do not roll: the lie carries a *Challenge* set by your Knowledge modifier, negated. A hero with Knowledge +2 imposes -2 on the liar. For how the Challenge works, see @sec-chapter-core-resolution
 
 *Performance (Guile):* Music, oratory, working a room. The right song at the right moment opens more doors than a blade ever will. The Odd's stage. The Leader's secret weapon.
 
@@ -65,7 +65,7 @@ High-stakes encounters, the negotiation with the king, the interrogation of the 
 
 *Stakes must be declared before the conflict begins.* "If I win, the guard lets us pass. If you win, we're arrested." What does each side want, and what happens if the negotiation fails? Say it out loud before the first die hits the table. That's the hard bound that keeps a social conflict from becoming an endless persuasion check.
 
-*Round structure.* Each round, the party's face makes one social skill roll: Persuasion, Deception, Intimidation, or Performance. *The face is the party's only scorer.* Everyone else is assisting: reading the room, working the crowd, looming, planting a word in the right ear. An assist is worth a Boon on the face's next roll, never a success of its own. The NPC does not roll. They set the *Challenge* instead, exactly as footwork and a shield make a sword harder to land: use the NPC's Knowledge modifier, negated. A wary negotiator with Knowledge +2 is a Challenge of −2. The result tier of the face's roll is the outcome of the exchange (@sec-chapter-core-resolution) and the NPC takes the point only when the face rolls Weak.
+*Round structure.* Each round, the party's face makes one social skill roll: Persuasion, Deception, Intimidation, or Performance. *The face is the party's only scorer.* Everyone else is assisting: reading the room, working the crowd, looming, planting a word in the right ear. An assist is worth a Boon on the face's next roll, never a success of its own. The NPC does not roll. They set the *Challenge* instead, exactly as footwork and a shield make a sword harder to land: use the NPC's Knowledge modifier, negated. A wary negotiator with Knowledge +2 is a Challenge of −2. The result tier of the face's roll is the outcome of the exchange (see @sec-chapter-core-resolution), and the NPC takes the point only when the face rolls Weak.
 
 #figure(
   align(center)[#table(

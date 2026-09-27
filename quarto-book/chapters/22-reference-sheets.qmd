@@ -305,7 +305,7 @@ Disciplines cost different amounts depending on your class's cost structure for 
   [*Opposed*], [4 DP], [8 DP], [16 DP], [Antithetical to the class],
 )], kind: table, numbering: none, outlined: false)
 
-See your class's Discipline Cost Table in @sec-chapter-classes for per-discipline costs.
+For per-discipline costs, see your class's Discipline Cost Table in @sec-chapter-classes
 
 The total cost of a card = its flat card DP cost + the sum of the discipline rank costs for each required discipline.
 
@@ -385,7 +385,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   [Crossbow], [Ranged], [Loading, Two-Handed], [60/120 ft],
 )], kind: table, numbering: none, outlined: false)
 
-*The weapon never changes your damage. See @sec-chapter-talents-abilities for what a range of two numbers means, and @sec-chapter-equipment for weapons in full.*
+*The weapon never changes your damage. For what a range of two numbers means, see @sec-chapter-talents-abilities For weapons in full, see @sec-chapter-equipment*
 
 *Defense summary:* Your Damage Reduction (DR) is the highest of your armor's DR (1 light, 2 medium, 3 heavy), a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. Shield DR is not part of that total: your shield carries a rating, and the Shield Block reaction applies it to one attack per round. Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields enable the Parry skill and the Shield Block reaction.
 

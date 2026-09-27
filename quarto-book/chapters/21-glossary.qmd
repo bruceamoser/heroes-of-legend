@@ -154,7 +154,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Escape:* The Action that frees you from Grappled or Restrained. An Agility roll against the situation rather than the grappler, with the DA setting the difficulty. A Standard result grants a Boon on your next Escape; a Strong result breaks you free and ends the condition.
 
-*Condition:* A temporary status effect. Asleep X, Blinded, Burning X, Charmed, Confused X, Dazed X, Dazzled, Deafened, Frightened, Frozen X, Grappled, Hidden, Incapacitated, Invisible, Marked, Paralyzed, Petrified, Poisoned X, Prone, Restrained, Slowed X, Stunned, Unconscious. Where a condition carries an X, the X is its level, the magnitude the effect sets. The entries below define the conditions that carry a level, and Table 13.3 in @sec-chapter-combat is the full table with what every one of them does and how it ends.
+*Condition:* A temporary status effect. Asleep X, Blinded, Burning X, Charmed, Confused X, Dazed X, Dazzled, Deafened, Frightened, Frozen X, Grappled, Hidden, Incapacitated, Invisible, Marked, Paralyzed, Petrified, Poisoned X, Prone, Restrained, Slowed X, Stunned, Unconscious. Where a condition carries an X, the X is its level, the magnitude the effect sets. The entries below define the conditions that carry a level. Table 13.3 is the full table with what every one of them does and how it ends (see @sec-chapter-combat)
 
 *Asleep X:* Unaware for X minutes. Wakes on taking damage.
 
