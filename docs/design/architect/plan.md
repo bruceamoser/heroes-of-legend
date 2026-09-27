@@ -712,3 +712,25 @@ a design question hides behind a single printed number.
 **State at cycle 34.** Book at `92d990e`; **0 open issues, 0 open PRs**; one checkout, clean tree, no worktrees, no stray branches. Words **84,329** (+42, the two clauses); **ledger 205 rows**, none ruled-but-unbuilt; pages **399** (unchanged).
 
 **Next: the flavour pass (W-008)** is now the only walkthrough never played, and it is the one whose criterion has no instrument yet: does each mechanic's printed flavour sell its mechanic, and does any flavour contradict its own rule. The queue behind it remains empty, so the cycle after that returns to the assessment's `## What matters now`.
+
+## Cycle 35 (2026-09-27) - the flavour pass: flavour was the one dimension with no owner, and it held two mechanical defects
+
+**Priority 1 returned zero for the ninth cycle** (`needs Bruce` 0, no status cell begins open/pending, nothing ruled-but-unbuilt, 9 of 9 assessed, 0 open issues, 0 open PRs), so the plan's own named next action ran: **W-008, the flavour pass**, the seventh and last walkthrough on the role's list and the only criterion enforced by human read.
+
+**The pass needs an instrument.** `scripts/flavour-pass.py` (new, in the skill) parses `origin/main` (or `--rev`), screens four candidate classes with addresses, and carries a `--selftest` that plants one defect per check plus a negative control (it flags all four and leaves the control clean). Its coverage guard is the book's own oracle: ch11 claims 75 cards, and a short parse exits 2 rather than printing a clean line. Corpus: **208 cards, 503 rungs**; the screen is bounded by its own vocabulary, so the counts below are stated under it.
+
+**Two of flavour's failure modes are mechanical, and both were live.**
+
+(a) **A rung keyed to a subsystem the book does not have.** `11:34` Arcane Mark's Weak rung said *"Detection spells reveal it, but the image is blurry."* The qualifier `detection` appears **once in the whole book**, on that line: the reader is told a category of magic gates the effect and there is no category to look up. Fixed by naming the printed spell, `Eldritch Sight` (`11:365`, Novice Arcane, "Reveal 1 clue about magic").
+
+(b) **A rung promising a rider its row does not fund.** `11:110` Acid Splash's Strong rung said *"The acid clings and keeps eating"* while nothing on the card recurs and the rung prints no duration, which invites a table argument about ongoing damage at a cantrip whose row is fixed. The rung below already carries the corrosion mechanic (*"Ignores 1 point of DR against objects"*), so the clause now describes corrosion on the same axis: *"It eats through cloth, leather, and thin metal."* The persistence grep behind the class returns seven lines book-wide and six are legal (the persistence is the printed effect, or the line prints its own duration).
+
+(c) **The stat-block-soup shape, at card level.** Three cards printed no flavour clause on any rung: `Tough` (09), `Renewal` (09), `Thread of Ruin` (11). Their chapters' convention is the opposite (85 of ch09's 87 cards, 72 of ch11's 75 carry flavour), so each gained one clause in its neighbours' register. No number moved.
+
+**Read and judged NOT defects**, and recorded so the next pass does not re-file them: the 45 bare rungs inside otherwise-flavoured cards (the book's rhythm; the card-level check is the actionable one), the 18 `Basic Attack` rungs (the printed floor, excluded by law), and the whole-book orphan screen's two survivors (`abjuration` at `08:45`, `necromancy` at `11:15`), which are atmospheric nouns in prose with no mechanic keyed to them. Duration conflicts and dead lexicon both read **0**.
+
+**Landed as a micro-PR of my own (PR #727, `6f4769c`)**, 2 files, 5 lines. Audit: file set exactly the two chapter files; added lines carry 0 damage dice / 0 em-dashes / 0 markdown bold; every number present on both sides of the diff, checked by digit multiset rather than by eye; `check-native-typst.py` exit 0; **independent build exit 0 at 399 pages** (unchanged); all five new fragments and the removed phrase re-read in the built PDF's text layer.
+
+**State at cycle 35.** Book at `6f4769c`; **0 open issues, 0 open PRs**; one checkout, clean tree, no worktrees, no stray branches. Words **84,398** (+69); **ledger 206 rows**, none ruled-but-unbuilt; pages **399** (unchanged). Every walkthrough on the role's list has now been played.
+
+**Next: the assessment's `## What matters now`**, because the queue is empty and the walkthrough list is exhausted. The flavour dimension now has an instrument (coverage and contradiction), which was the last of the three scorecard outcomes to have one; the honest next move is to re-rank the open items against the reassessment rule rather than to invent a new pass.

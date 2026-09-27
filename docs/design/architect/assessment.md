@@ -1251,3 +1251,41 @@ the rank cap, Grit, the attribute cap) and prints the blast radius and the invar
 gate is proven to be able to fail. One instrument bug was found and fixed in the act:
 its ceiling-site regex required the word `or` and so counted 4 of the 6 printed sites, the standing
 "census what the tool COLLECTS against what the file CONTAINS" rule catching it again.
+
+## Flavour addendum (cycle 35, 2026-09-27) - the third scorecard outcome now has an instrument
+
+**Why this belongs here.** The role's mandate names three emergent outcomes (playable, cohesive,
+succinct), and two of them have had instruments for thirty cycles. Flavour - "does each mechanic's
+printed flavour sell the mechanic, and does any flavour contradict its own rule" - was the one dimension
+enforced by human read, so it drifted with every gate green. It is now measured, and the measurement
+found two live defects rather than a clean bill.
+
+**What is measurable, and what is not.** `scripts/flavour-pass.py` screens four classes over the card
+corpus (208 cards, 503 rungs) and the whole book: rung coverage, card-level coverage, orphan references
+to things the book never defines, rung durations contradicting the card's own Range field, and retired
+lexicon (negation contexts exempt). It cannot say whether a clause is *good*. **Coverage is not
+quality**, and no count here is a quality score: 45 of 503 rungs carry no flavour clause, and that is the
+book's own rhythm rather than 45 defects.
+
+| Measurement | Before | After | Note |
+|---|---|---|---|
+| Rungs carrying a flavour clause | 451 of 503 | **458 of 503** | the card-level check is the actionable one |
+| Cards with no flavour on any rung | **3** | **0** | `Tough`, `Renewal`, `Thread of Ruin`; their chapters run 85 of 87 and 72 of 75, so these were deviations from convention |
+| Orphan references in card rungs | **1** | **0** | `11:34` "Detection spells"; the qualifier appears once book-wide, on that line |
+| Rung duration vs the card's Range field | 0 | 0 | `scene` is excluded: `19:23` defines it as a unit of story, not a clock |
+| Retired lexicon in card text | 0 | 0 | mana, spell slot, damage dice, saving throw, to-hit |
+
+**The two real defect classes, named so the next pass can grep for them.** (1) **A rung keyed to a
+subsystem the book does not have** - the reader is told a mechanic is gated by a category of magic with
+no entry to look up; repair by naming the printed card that already does the job. (2) **A rung
+promising a rider its row does not fund** - a persistence verb (keeps, clings, lingers) in a rung that
+prints no duration and no recurring damage, which invites a table argument at a fixed row; the
+book-wide grep for the shape returns seven lines, six of them legal.
+
+**Instrument discipline, since this instrument's own plants failed first.** Its first run flagged 2 of 4
+plants, and both misses were mine: the coverage test counted function words as flavour, and the oracle
+reader had no entry for the number word `sixty`, which the **coverage guard caught** (`exit 2`, not a
+clean line) because it compares ch11's own printed total against the parse. A third bug surfaced the
+same way: the guard compared the whole corpus against one chapter's claim, and now compares per chapter.
+That is the standing lesson restated for this dimension: a checker's own parse is a hypothesis, and a
+screen that has only ever printed green is decorative.
