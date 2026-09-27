@@ -930,3 +930,58 @@ answer. The one BALANCE item left is **item 6, the example of play at `01:156`**
 reader cannot derive, because Kael adds Agility where the Basic Melee floor adds Brawn (`09:232`) and the
 substitution is a talent, Precision, printed once in another chapter (`09:48`) and never named in the
 example. A LEARNABLE defect with a one-clause repair. That is the next cycle's target.
+
+---
+
+## Cycle 39 (2026-09-27) - the example of play's one undeliverable number, and the review's fifth item withdrawn by census
+
+**SENSE.** 0 open PRs, 0 open issues, 210 ledger rows with none ruled-but-unbuilt, 9 of 9 assessed, all
+seven walkthroughs played, dispatch on, checkout clean on `main` at `a075a15`, one worktree, no stray
+branches. The canon index calibrates (ch11's own sentence, 15 cantrips + 60 spells = 75 parsed). Priority 1
+returned zero as a measurement for the eighth cycle, so the cycle worked the review's queue in the order the
+review ranks it, which meant measuring item 5 before repairing item 6.
+
+**Item 5 was measured first, and the measurement refutes it: the item is withdrawn, not repaired, and
+nothing was dispatched for it.** The claim was that three of the Leader's four rank-1 options "grant a
+modifier and pass" (review items at `:129`, `:142`, `:266`). New `scripts/class-shelf-cost-census.py` parses
+ch05's nine ability tables out of `origin/main` and sorts every Novice option by what it costs the turn:
+**all four Leader options are Maneuvers** (`05:612-615`), `21:105` defines a Maneuver as the turn's secondary
+resource ("One per turn"), and `13:51` states the trade in both directions (an Action may buy an extra
+Maneuver, never the reverse). So the class attacks with its Action and commands with its Maneuver in the same
+round; nothing is passed, four times out of four. Book-wide the census reads **36 Novice class options: 4
+costing an Action, 11 a Maneuver, 21 triggered riders**, and the Leader is the only class whose whole Novice
+shelf is maneuver-priced: the cheapest shelf in the book to use, not the most administrative. What survives is
+repetition (three of the four are once per scene), which is exactly the span of the 3-4 round fight the pacing
+law names. The verdict was going to be INTENT and Bruce's; it turned out to be premise-false, which is the
+second time in three cycles that a review item carried the phantom-rule defect the book itself carries.
+Corrected in place at all three sites, dated, beside the old text.
+
+**Item 6's premise held, and it is now measured rather than asserted: exactly one of the four numbers the
+example prints is undeliverable.** `01:154` (12 + Agility 2 = 14) follows the printed core loop (`07:15`);
+`01:169` (15 + Agility 2 + Stealth Adept 2 = 19) follows the Skill Tiers table (`07:32`); `01:158` (4 - DR 2)
+follows the DR rule. Only `01:156` fails: it reads "2, plus your Agility" where the floor card says
+**2 + Brawn** (`09:232`), and the substitution is a talent, Precision (`09:48`), granted free by the Blade's
+Swift Blade signature (`05:104`) and named nowhere in the chapter. The reader who checks the arithmetic against
+Basic Melee finds the book contradicting itself and has no way to reconcile it inside ch01.
+
+**Landed as a micro-PR of my own, with no dispatch (PR #735).** One clause at the point of use: the line now
+reads "plus your Agility (the Precision talent lets you use Agility in place of Brawn): 4", which is the house
+idiom (ch06/ch07 name every input in parentheses) and mirrors the talent's own card text. No rule added, no
+number moved, no other chapter touched. Audit: 2 files, 1 chapter line changed; added lines carry 0 em-dashes,
+0 damage dice, 0 markdown bold, 0 flat riders, 0 roll modifiers; native-Typst gate 0 over 26 files;
+**independent build 0 at 399 pages, unchanged**; the new clause re-read in the built PDF's text layer at page
+24 with the old phrasing at 0 hits; off the branch `rounds-to-resolve.py` PASS (3.79 / 3.73 / 3.27) and
+`da-walkthrough.py` PASS 49/49.
+
+**State at cycle 39.** Book at the cycle-39 merge; 0 open issues, 0 open PRs; one checkout, clean tree, no
+worktrees; scratch cleared and the build log removed. Words 84,572 -> **84,583** (+11); ledger **210** rows,
+none ruled-but-unbuilt; pages **399** (unchanged).
+
+**Next.** With item 5 withdrawn and item 6 repaired, the only ranked item left whose mechanical claim has never
+been measured is **item 1**, which the review ranks first by harm. Its *rule* half landed in cycle 26 (#711:
+`13:119` converts an NPC's attack advantage into a Boon on the player's Defence roll, `22:170` does the same
+for cover, `13:131-132` prints the table rows, `13:207` carries the Marked conversion inline). What has never
+been checked is the **layout** half the item actually asks for: whether a reader meeting a defence modifier in
+the places it is printed can see the converted sign beside the number, rather than a Bane that belongs to the
+other roll. That is a census of every printed defence-modifier site across the nine content chapters and the
+bestiary, not a re-read, and it is the next cycle's target.

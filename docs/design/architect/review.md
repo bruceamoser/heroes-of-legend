@@ -297,7 +297,8 @@ rolled a d20.
 *Repaired 2026-09-27 (cycle 39), PR #735.* The premise held and is now measured: of the four numbers the
 exchange prints, **exactly one is undeliverable** (`01:156`, "2, plus your Agility: 4", against the floor
 card's `2 + Brawn` at `09:232`, the substitution coming from the Precision talent at `09:48` and never named
-in the example). The other three check out: 3d6 + the keyed attribute (`07:15`), the Adept skill bonus of +2
+in the example). The arithmetic was never wrong; the derivation was simply absent, which is the harder failure
+to notice because every gate passes it. The other three check out: 3d6 + the keyed attribute (`07:15`), the Adept skill bonus of +2
 (`07:32`), and DR 2 subtracted from 4. The repair is one clause naming the substitution at the point of use,
 so the reader reconciles the line with Basic Melee without leaving the chapter. The item's second half is
 disclosed rather than repaired: `01:144` tells the reader the pair are "seasoned adventurers, several levels
