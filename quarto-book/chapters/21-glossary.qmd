@@ -186,9 +186,9 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Non-Lethal Attack:* A melee attack that reduces a creature to 0 HP but leaves them unconscious and stable instead of dying.
 
-*Grit:* The number of times you can be dropped to 0 HP and get back up before you fall: 2 at Novice, 3 at Adept, 4 at Master. When your HP reaches 0, spend one Grit to reset to maximum HP and roll on the Wound Table. Returns on a respite, a full night's rest.
+*Grit:* The number of times you can choose to get back up after being dropped to 0 HP: 2 at Novice, 3 at Adept, 4 at Master. When your HP reaches 0, you either spend one Grit to reset to maximum HP and roll on the Wound Table, or you stay down and the Dying rules apply. Returns on a respite, a full night's rest.
 
-*Dying:* At 0 HP, you fall Unconscious and roll 3d6 each turn to determine if you stabilize, worsen, or die.
+*Dying:* At 0 HP, you fall Unconscious and make a death roll each turn, 3d6 plus a Bane for the wounds you carry, to determine if you stabilize, worsen, or die.
 
 *Wounded:* Below half your maximum HP. See *Wound* for what happens when you are dropped.
 
