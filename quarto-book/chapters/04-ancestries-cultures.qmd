@@ -175,7 +175,7 @@ Humans are adaptable. Their gifts lean into that versatility, letting them dabbl
   [*Fast Learner*], [Novice], [Once per session, you may use a skill you don't have at Novice (+1) for a single check. (See the Quick Study talent.)],
   [*Die Hard*], [Novice], [When you drop to 0 HP, you may immediately take one action before falling unconscious. Once per session. Dying can wait.],
   [*Jack of All Trades*], [Adept], [You may gain one skill at Novice rank for free. Choose the skill when you buy this gift. Humans get by on being just good enough at just enough things.],
-  [*Second Breath*], [Adept], [Once per scene, as a maneuver, you may regain 6 HP.],
+  [*Second Breath*], [Adept], [Once per scene, as a maneuver, you may regain 5 HP.],
   [*Indomitable*], [Master], [Once per session, when you fail a Fortitude or Reason check, you may succeed instead. Describe how sheer human stubbornness carried you through.],
 )], kind: table, numbering: none, outlined: false)
 
