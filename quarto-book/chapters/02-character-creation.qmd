@@ -27,7 +27,7 @@ If you've built a few heroes and you're tired of counting DP, here's your speed 
 + *Ancestry & Culture:* Pick any combo that fits your concept. Write down the Discipline and trait.
 + *Background DP:* Take 8 + Knowledge + Fortitude DP. Buy 2-3 Novice skills and 1 Novice ability. Spend every point.
 + *Class:* Pick your class. Record the class Discipline and signature ability.
-+ *Class DP:* 8 DP. Buy 2-3 Novice skills or abilities. Spend every point.
++ *Class DP:* 12 DP at level 1 (8 DP of class training plus the 4 DP every hero gains at level 1). Buy 2-3 Novice skills or abilities. Spend every point.
 + *Equipment:* Take your class's starting loadout (see @sec-chapter-classes). Don't optimize, the first adventure will give you better gear anyway.
 + *Name & Backstory:* Roll one Motivation and one Trinket from the tables below. Make up a name. Done.
 
@@ -201,7 +201,7 @@ Record your Class Discipline (one rank) and signature ability. See @sec-chapter-
 
 === Step 7: Spend Class DP
 
-You have *8 DP* for your class training. Again: spend every one. This is where you buy skills and abilities, combat techniques, spells, and talents are all just abilities with different flavors. Your class lists favored skills and a Discipline cost table; everything else follows the cost structures in @sec-chapter-classes Cards cost 2/4/8 DP regardless of class (see above). Lean into what your class does best.
+You have *12 DP at level 1* (8 DP of class training plus the 4 DP every hero gains at level 1, per @sec-chapter-advancement). Again: spend every one. This is where you buy skills and abilities, combat techniques, spells, and talents are all just abilities with different flavors. Your class lists favored skills and a Discipline cost table; everything else follows the cost structures in @sec-chapter-classes Cards cost 2/4/8 DP regardless of class (see above). Lean into what your class does best.
 
 Adept-tier skills and abilities unlock at Level 3. Master-tier at Level 7. At Level 1, everything you buy is Novice. That's fine. Novice means you're trained. You'll take the higher cards later.
 
@@ -300,14 +300,16 @@ Total: 8 DP. All spent.
 
 *Step 6, Class:* Odd. Gains 2 Disciplines from different categories (Water and Sleight). Signature: *Eccentric Spellcasting*, ignore prerequisite Disciplines for two chosen abilities (one arcane, one divine); level gates still apply.
 
-*Step 7, Class DP (8 DP):*
+*Step 7, Class DP (12 DP):*
 
+- Loadout ranks: Armor rank 1 (2 DP, at your Adjacent rate)
 - Improvised Solution (Novice ability, 2 DP), the Odd's own Novice ability, no prereq
 - Thievery Novice (2 DP), locks and traps, and she always has an exit
 - Persuasion Novice (2 DP), she talks her way into places she shouldn't be
-- Acrobatics Novice (2 DP)
+- Performance Novice (2 DP), a good show opens more doors than a lockpick
+- Intimidation Novice (2 DP), a hard stare closes the ones that don't
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Step 8, Equipment:* Shortbow, dagger, leather armor, thieves' tools, 20 arrows.
 
@@ -336,7 +338,7 @@ The eight worked examples below show how the same system produces wildly differe
 
 *Background DP (8 + Know 2 + Fort 0 = 10 DP + 1 Versatile = 11 DP):*
 
-- Arcana Novice (2 DP, favored)
+- Craft Novice (2 DP), she builds her own apparatus to feed the flame
 - History Novice (2 DP, favored)
 - Alchemy Novice (2 DP), fire needs fuel, fuel is chemistry
 - Nature Novice (2 DP), fire is a natural force, and she studies how it behaves
@@ -347,14 +349,15 @@ Total: 11 DP. All spent.
 
 *Class:* Arcanist. Gains 1 Fire, 1 Energy. Signature: *Arcane Shield*, free action, +1 Protection Value for the round.
 
-*Class DP (8 DP):*
+*Class DP (12 DP):*
 
+- Loadout ranks: Melee rank 1, for the dagger (4 DP, at your Opposed rate)
 - Ember Lance (Novice spell, 2 DP), her first real spell
 - Burning Volley (Novice spell, 2 DP), for when they get too close
 - Arcane Feedback (Novice ability, 2 DP)
 - Perception Novice (2 DP), watching fire teaches you to notice detail
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Equipment:* Arcane focus (crystal orb), dagger, scholar's robes, focus pouch, spellbook.
 
@@ -377,7 +380,7 @@ Total: 8 DP. All spent.
 *Background DP (8 + Know 2 + Fort 0 = 10 DP):*
 
 - Arcana Novice (2 DP, favored)
-- History Novice (2 DP, favored)
+- Insight Novice (2 DP), reading a room is just another kind of intelligence report
 - Medicine Novice (2 DP), the body is a battlefield, and she has mapped every weak point
 - Lore Novice (2 DP), every war has a library
 - Perception Novice (2 DP), she reads a battlefield the way others read a book
@@ -386,14 +389,16 @@ Total: 10 DP. All spent.
 
 *Class:* Intellect. Gains 1 Lore, 1 any (takes Tactics). Signature: *Knowledge Is Power*, Boon on all Knowledge-based skill checks.
 
-*Class DP (8 DP):*
+*Class DP (12 DP):*
 
 - Tactical Insight (Novice ability, 2 DP)
 - Persuasion Novice (2 DP), a good plan means nothing if no one follows it
 - Force Dart (Novice spell, 2 DP), it never misses, neither should a plan
 - Insight Novice (2 DP)
+- Deception Novice (2 DP), a feint on the map is still a feint
+- Survival Novice (2 DP), she has walked the ground she maps
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Equipment:* Shortsword, spellbook, scholar's robes, focus pouch, ink & pen.
 
@@ -417,7 +422,7 @@ Total: 8 DP. All spent.
 
 - Medicine Novice (2 DP, favored)
 - Religion Novice (2 DP, favored)
-- Persuasion Novice (2 DP)
+- Survival Novice (2 DP), she forages the mountain herbs that fill her kit
 - Endurance Novice (2 DP)
 - Life Discipline, rank 1 (1 DP), faith before the calling
 
@@ -425,14 +430,15 @@ Total: 9 DP. All spent.
 
 *Class:* Shepherd. Gains 1 Protection, 1 Animal. Signature: *Unholy Word*, divine energy ignores armor, affects only undead.
 
-*Class DP (8 DP):*
+*Class DP (12 DP):*
 
+- Loadout ranks: Armor rank 1 (4 DP, at your Opposed rate)
 - Mending Touch (Novice spell, 2 DP)
 - Sanctuary (Novice spell, 2 DP)
 - Insight Novice (2 DP), she reads pain, the unspoken kind a patient hides
 - Nature Novice (2 DP), she knows what grows in shadow
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Equipment:* Shortsword, holy symbol, leather armor, healer's kit.
 
@@ -455,7 +461,7 @@ Total: 8 DP. All spent.
 *Background DP (8 + Know -1 + Fort 0 = 7 DP + 1 Versatile = 8 DP):*
 
 - Melee Discipline, rank 2 (2 DP, Home), she trained past the shortsword and never went back
-- Athletics Novice (2 DP, culture bonus already applied)
+- Survival Novice (2 DP), she can find water and shelter in any terrain the column crosses
 - Persuasion Novice (2 DP)
 - Endurance Novice (2 DP), a captain marches at the head of the column
 
@@ -463,14 +469,16 @@ Total: 8 DP. All spent.
 
 *Class:* Leader. Gains 1 Tactics, 1 Shields. Signature: *Lead by Example*, on a telling blow, grant one ally a Boon on their next roll.
 
-*Class DP (8 DP):*
+*Class DP (12 DP):*
 
+- Loadout ranks: Armor rank 1 (2 DP, at your Adjacent rate)
 - Rallying Cry (Novice ability, 2 DP)
 - Deception Novice (2 DP), war is deception, and a good captain knows every trick
 - Perception Novice (2 DP)
 - Insight Novice (2 DP), reads a battlefield like a map
+- Persuasion Novice (2 DP), orders land better when they sound like a request
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Equipment:* Longsword, spear, leather armor, shield.
 
@@ -501,14 +509,15 @@ Total: 7 DP. All spent.
 
 *Class:* Blade. Gains 1 Melee, 1 Stealth. Signature: *Swift Blade*, gain the Precision talent for free; exploiting an opening (a target that is Dazed, Prone, or unaware of you) deals +1 damage tier, once per scene.
 
-*Class DP (8 DP):*
+*Class DP (12 DP):*
 
+- Loadout ranks: Armor rank 1 (4 DP, at your Opposed rate)
 - Acrobatics Novice (2 DP), footwork is everything
-- Deception Novice (2 DP), feints win duels
+- Thievery Novice (2 DP), the same hands that feint can pick a lock
 - Perception Novice (2 DP), seeing the opening before it exists
 - Sleight of Hand Novice (2 DP), a duelist's flourish is misdirection
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Equipment:* Shortsword, dagger, leather armor, thieves' tools.
 
@@ -530,7 +539,7 @@ Total: 8 DP. All spent.
 
 *Background DP (8 + Know 0 + Fort 0 = 8 DP):*
 
-- Stealth Novice (2 DP, favored, culture bonus already applied)
+- Athletics Novice (2 DP), a roof chase is just climbing at speed
 - Thievery Novice (2 DP), locks and traps
 - Sleight of Hand Novice (2 DP)
 - Deception Novice (2 DP)
@@ -539,14 +548,15 @@ Total: 8 DP. All spent.
 
 *Class:* Shadow. Gains 1 Stealth, 1 Sleight. Signature: *Vanish*, spend maneuver to turn invisible until end of next turn or until attacking.
 
-*Class DP (8 DP):*
+*Class DP (12 DP):*
 
+- Loadout ranks: Armor rank 1 (4 DP, at your Opposed rate)
 - Sap (Novice ability, 2 DP), daze unaware targets
 - Perception Novice (2 DP, favored), she sees the guard before the guard sees her
 - Acrobatics Novice (2 DP, favored), out the window, over the wall, gone
 - Insight Novice (2 DP), she reads a mark before she picks a pocket
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Equipment:* Two daggers, throwing daggers (6), leather armor, thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1).
 
@@ -570,7 +580,7 @@ Total: 8 DP. All spent.
 
 - Endurance Novice (2 DP, favored)
 - Athletics Novice (2 DP, favored)
-- Craft Novice (2 DP, culture bonus already applied)
+- Medicine Novice (2 DP), she patches what the mountain breaks
 - Survival Novice (2 DP), she could live off the mountain if the hold ever fell
 - Shields Discipline, rank 1 (1 DP, Home), she learned the shield-wall before the sword
 
@@ -578,14 +588,14 @@ Total: 9 DP. All spent.
 
 *Class:* Protector. Gains 1 Armor, 1 Shields. Signature: *Bastion*, spend movement to enter defensive stance, +1 Protection Value.
 
-*Class DP (8 DP):*
+*Class DP (12 DP):*
 
+- Loadout ranks: Armor ranks 2 and 3 (6 DP, at your Home rate)
 - Shield Bash (Novice ability, 2 DP), her shield puts them on the ground
-- Persuasion Novice (2 DP), her presence ends fights before they start
 - Perception Novice (2 DP), the best shield is seeing the blow coming
 - Parry Novice (2 DP), her shield turns aside the blows she will not dodge
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Equipment:* Battleaxe, chain mail, shield, smith's tools.
 
@@ -608,7 +618,7 @@ Total: 8 DP. All spent.
 *Background DP (8 + Know 1 + Fort 0 = 9 DP + 1 Versatile = 10 DP):*
 
 - Arcana Novice (2 DP)
-- Survival Novice (2 DP)
+- Perception Novice (2 DP), she tastes the ozone before the backlash lands
 - Alchemy Novice (2 DP), six vials of volatile reagents, and she knows how to make more
 - Deception Novice (2 DP), chaos wears many faces
 - Insight Novice (2 DP), knowing when the backlash is coming
@@ -617,14 +627,16 @@ Total: 10 DP. All spent.
 
 *Class:* Unbalanced. Gains 1 Fire, 1 Water. Signature: *Edge of Chaos*, on a Strong hit, deal +1 damage tier (one row up on the damage budget) but roll on the d6 Backlash Table.
 
-*Class DP (8 DP):*
+*Class DP (12 DP):*
 
 - Exploit Chaos (Novice ability, 2 DP), roll twice on backlash table
 - Ember Lance (Novice spell, 2 DP)
 - Endurance Novice (2 DP)
 - Persuasion Novice (2 DP), chaos is an easier sell when you smile
+- Lore Novice (2 DP), forbidden texts are her favorite kind
+- Medicine Novice (2 DP), she has patched herself up more than once
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Equipment:* Spear, focus pouch, scholar's robes, six vials of volatile reagents (alchemist's fire).
 
