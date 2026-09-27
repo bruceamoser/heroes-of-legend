@@ -462,7 +462,7 @@ This DR does not stack with any other source of DR.
 *Strong:* 8 damage, the target is knocked Prone and hurled 15 ft, and it cannot stand until the end of its next turn.
 
 === Harvest the Fear (Weapon Maneuver)
-*Disciplines:* 3 Two-Handed · 1 Tactics · 1 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* Frightened, Control
+*Disciplines:* 3 Two-Handed · *Action:* Action · *Range:* 30 ft · *Keywords:* Frightened, Control
 
 *Weak:* One creature that can see you is Frightened of you until the end of the scene.
 
@@ -471,7 +471,7 @@ This DR does not stack with any other source of DR.
 *Strong:* Every creature that can see you is Frightened of you until the end of the scene, and any that was already Frightened of you is Stunned until the end of its next turn. While you remain visible, none of them can benefit from an ally's Boon.
 
 === Groundbreaker (Weapon Maneuver)
-*Disciplines:* 3 Two-Handed · 1 Tactics · 1 Unarmed · *Action:* Action · *Range:* 15 ft · *Keywords:* Prone, Control
+*Disciplines:* 3 Two-Handed · *Action:* Action · *Range:* 15 ft · *Keywords:* Prone, Control
 
 *Weak:* Every standing creature in a 15-ft arc is knocked Prone.
 
@@ -516,7 +516,7 @@ This DR does not stack with any other source of DR.
 *Strong:* As Standard, and your allies who can see you gain a Boon on their next attack against a creature you have Marked.
 
 === Sunshot (Weapon Maneuver)
-*Disciplines:* 3 Ranged · 1 Tactics · 1 Stealth · *Action:* Action · *Range:* 60 ft · *Keywords:* Damage, Blinded
+*Disciplines:* 3 Ranged · *Action:* Action · *Range:* 60 ft · *Keywords:* Damage, Blinded
 
 *Weak:* 4 damage and the target is Blinded until the end of its next turn.
 
@@ -543,7 +543,7 @@ This DR does not stack with any other source of DR.
 *Strong:* The target is Grappled and Restrained, it cannot shout or cast aloud, it is at Bane on every attack, and it cannot take Reactions while held.
 
 === Taken Alive (Weapon Maneuver)
-*Disciplines:* 3 Unarmed · 1 Tactics · 1 Armor · *Action:* Action · *Range:* Melee · *Keywords:* Restrained, Control
+*Disciplines:* 3 Unarmed · *Action:* Action · *Range:* Melee · *Keywords:* Restrained, Control
 
 *Weak:* The target is Grappled until it Escapes. A target that is already Grappled or Restrained is bound instead: the condition no longer ends with an Escape, and only another creature can free it by spending an Action.
 
