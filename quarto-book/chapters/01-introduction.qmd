@@ -77,12 +77,12 @@ This isn't a manual. It's a companion. You don't read it once and put it on a sh
 - *No class restrictions.* Anyone can learn anything: your class just makes some things cheaper.
 - *Armor reduces damage*, it doesn't make you harder to hit.
 
-The rest will feel familiar. Jump to @sec-chapter-character-creation to start building.
+The rest will feel familiar. To start building, jump to @sec-chapter-character-creation
 ])
 
-*Never Done This Before? Start Here.* If you've never rolled a d20 in your life: start with @sec-chapter-character-creation It walks you through building a character step by step, from "what do my stats mean?" to "how do I get a mount?" After that, read @sec-chapter-attributes through @sec-chapter-disciplines You don't need to memorize anything. Just read them once so you know where to look when the DA says "make a Fortitude check" and you need to know what that means. The rules will stick through play, not through study. Your first session, you'll look things up constantly. That's normal. By your fifth session, you'll be explaining grappling to the new player at the table. That's normal too.
+*Never Done This Before? Start Here.* If you've never rolled a d20 in your life: start with @sec-chapter-character-creation It walks you through building a character step by step, from "what do my stats mean?" to "how do I get a mount?" After that, read @sec-chapter-attributes Continue through @sec-chapter-disciplines You don't need to memorize anything. Just read them once so you know where to look when the DA says "make a Fortitude check" and you need to know what that means. The rules will stick through play, not through study. Your first session, you'll look things up constantly. That's normal. By your fifth session, you'll be explaining grappling to the new player at the table. That's normal too.
 
-*If you're the Dungeon Architect*, the one who's going to run the game, you've got a slightly longer reading list. Start with @sec-chapter-attributes through @sec-chapter-disciplines to understand the mechanics. Then jump to @sec-chapter-gm-guidance That chapter is written for you: it covers building adventures, running monsters, handing out rewards, and keeping the game moving when the party decides to ignore your carefully prepared dungeon and open a bakery instead. (It happens. It always happens. There's advice for that.) After that, skim the equipment and spell chapters so you know what your players can do. You don't need to memorize every spell. You just need to know that _someone_ at the table can always surprise you, so maybe don't hang your entire adventure on "they can't cross the lake."
+*If you're the Dungeon Architect*, the one who's going to run the game, you've got a slightly longer reading list. To understand the mechanics, start with @sec-chapter-attributes Continue through @sec-chapter-disciplines Then jump to @sec-chapter-gm-guidance That chapter is written for you: it covers building adventures, running monsters, handing out rewards, and keeping the game moving when the party decides to ignore your carefully prepared dungeon and open a bakery instead. (It happens. It always happens. There's advice for that.) After that, skim the equipment and spell chapters so you know what your players can do. You don't need to memorize every spell. You just need to know that _someone_ at the table can always surprise you, so maybe don't hang your entire adventure on "they can't cross the lake."
 
 *If you just want to see what this game is about*, if you're browsing, curious, trying to decide whether to bring this to your table, read this chapter. Then read the example of play below. If it makes you want to grab some dice, call your friends, and find out what happens when Kael charges in, we've done our job. Welcome aboard.
 
@@ -209,19 +209,19 @@ That's not a character moment. That's a scheduling error.
 
 In _Heroes of Legend_, magic always fires. No mana. No slots. No "sorry, I used my good spell already." When you cast, the spell goes off. The roll determines whether it's a Weak sputter, a Standard blast, or a Strong inferno. You're never useless. You're never out of options. Your fire burns until _you_ decide it stops.
 
-Adept spells are per-encounter, and Master spells per-session (see @sec-chapter-magic-system) not because we want you counting gas, but because Master-tier effects reshape the battlefield. Those limits are about spotlight management, not resource attrition. When you unleash a Master spell, it should be a moment everyone remembers, not something you do three times before lunch.
+Adept spells are per-encounter, and Master spells per-session not because we want you counting gas, but because Master-tier effects reshape the battlefield (see @sec-chapter-magic-system) Those limits are about spotlight management, not resource attrition. When you unleash a Master spell, it should be a moment everyone remembers, not something you do three times before lunch.
 ])
 
 #callout(type: "note", title: "Flat Damage & Disciplines: Speed and Freedom", body: [
-Two more things worth understanding. *Flat damage* means no separate damage dice, no arithmetic slowdown. The combat chapter (@sec-chapter-combat) covers this in full. *Disciplines* mean no class-locked skills: anyone can learn anything, it just costs more outside your wheelhouse. The disciplines chapter (@sec-chapter-disciplines) explains the full system.
+Two more things worth understanding. *Flat damage* means no separate damage dice, no arithmetic slowdown. The combat chapter covers this in full (see @sec-chapter-combat) *Disciplines* mean no class-locked skills: anyone can learn anything, it just costs more outside your wheelhouse. The disciplines chapter explains the full system (see @sec-chapter-disciplines)
 ])
 
 These are the big ideas. The rest of the book explains how they work in practice.
 
 #callout(type: "tip", title: "Ready to Begin?", body: [
-- *New player?* Turn to @sec-chapter-character-creation and build your first hero.
-- *New DA?* Skim @sec-chapter-attributes through @sec-chapter-disciplines and then dig into @sec-chapter-gm-guidance
-- *Just browsing?* Read @sec-chapter-opening-fiction in the next chapter to meet Kael and his companions in action.
+- *New player?* Build your first hero in @sec-chapter-character-creation
+- *New DA?* Skim @sec-chapter-attributes Continue through @sec-chapter-disciplines Then dig into @sec-chapter-gm-guidance
+- *Just browsing?* Meet Kael and his companions in action in the next chapter. See @sec-chapter-opening-fiction
 
 However you proceed, welcome to the table. The dice are waiting.
 ])

@@ -12,7 +12,7 @@ _Placeholder for final art._
 
 Most talents are passive. They change your numbers or grant a standing benefit; a few are activated talents, and their card's Action field says so. Abilities are active. Spells, weapon maneuvers, and class powers must be activated to use. Both use the card format below.
 
-Every card lists its Disciplines, Action, Range, and Keywords, and some add a Requires field naming the gear the card needs (the tag vocabulary lives in @sec-chapter-equipment) A card's tier is the total number of Discipline ranks its header asks for: none or one rank is Novice, two ranks is Adept, and three ranks is Master. That tier fixes the price (Novice 2 DP, Adept 4 DP, Master 8 DP) and it never changes; you never buy one card and grow it into another. The level gate is the only gate: Novice at level 1, Adept at level 3, Master at level 7, plus the card's own Discipline rank. See @sec-chapter-disciplines for tier, Discipline, and cost rules. See @sec-chapter-magic-system for casting rules.
+Every card lists its Disciplines, Action, Range, and Keywords, and some add a Requires field naming the gear the card needs (the tag vocabulary lives in @sec-chapter-equipment) A card's tier is the total number of Discipline ranks its header asks for: none or one rank is Novice, two ranks is Adept, and three ranks is Master. That tier fixes the price (Novice 2 DP, Adept 4 DP, Master 8 DP) and it never changes; you never buy one card and grow it into another. The level gate is the only gate: Novice at level 1, Adept at level 3, Master at level 7, plus the card's own Discipline rank. For tier, Discipline, and cost rules, see @sec-chapter-disciplines For casting rules, see @sec-chapter-magic-system
 
 Bonuses from different talents stack. The same talent cannot be taken more than once.
 
@@ -220,7 +220,7 @@ These six talents are the substitution family. Only one substitution applies to 
 
 == Basic Attacks
 
-These five cards are the attacks every character can make, no Discipline required. They are the floor. Weapon Disciplines gate access to stronger cards, not higher damage. See @sec-chapter-combat for attack and damage rules.
+These five cards are the attacks every character can make, no Discipline required. They are the floor. Weapon Disciplines gate access to stronger cards, not higher damage. For attack and damage rules, see @sec-chapter-combat
 
 *Range.* A range written as two numbers, such as *60/120 ft*, is two bands. Within the first number you attack normally. Between the first number and the second you attack at a *Bane*. Beyond the second number the target is out of reach, and you cannot attack it at all. A single number, such as *30 ft*, is one band: you attack normally inside it and cannot reach past it.
 
@@ -273,7 +273,7 @@ These five cards are the attacks every character can make, no Discipline require
 
 == Weapon Maneuvers
 
-Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each is gated by Disciplines: most by a weapon Discipline, and the rest by Armor, Shields, Protection, or Tactics. See @sec-chapter-combat for Action, Maneuver, and Reaction rules.
+Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each is gated by Disciplines: most by a weapon Discipline, and the rest by Armor, Shields, Protection, or Tactics. For Action, Maneuver, and Reaction rules, see @sec-chapter-combat
 
 A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Novice budget row (4/6/8), whatever Disciplines the card requires: a maneuver's Disciplines gate who may take it, not how hard it hits. Your weapon contributes no damage of its own: the card carries the numbers, exactly as it does for any other ability. See @sec-chapter-equipment
 

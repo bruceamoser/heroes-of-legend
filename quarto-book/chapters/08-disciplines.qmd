@@ -153,7 +153,7 @@ Cards cost Development Points at a flat rate regardless of class:
 
 === Discipline Rank Costs (Per Class)
 
-Each class pays a different price for each Discipline rank depending on how aligned that Discipline is with the class's identity. See @sec-chapter-classes for each class's Discipline cost table. The four cost structures are:
+Each class pays a different price for each Discipline rank depending on how aligned that Discipline is with the class's identity. For each class's Discipline cost table, see @sec-chapter-classes The four cost structures are:
 
 #figure(
   align(center)[#table(
@@ -192,11 +192,11 @@ The same card can cost wildly different amounts depending on your class and what
 
 A card's header names the Disciplines it needs: 1 Fire, 2 Melee, 2 Shields, and so on. Hold those ranks and meet the card's level gate, and you can buy it. A hero's maximum in any single Discipline is 3 ranks, so a card never asks for more than three.
 
-Weapons, armor, and shields may list their own Discipline requirements as entry requirements: a Dagger needs 1 Melee, a Greatsword 1 Two-Handed, a Shortbow 1 Ranged, a Tower Shield 3 Shields, and heavy armor 3 Armor. See @sec-chapter-equipment and @sec-chapter-armor-shields A card's tier is separate from its equipment's entry requirement.
+Weapons, armor, and shields may list their own Discipline requirements as entry requirements: a Dagger needs 1 Melee, a Greatsword 1 Two-Handed, a Shortbow 1 Ranged, a Tower Shield 3 Shields, and heavy armor 3 Armor. For weapon and armor entry requirements see @sec-chapter-equipment For shields see @sec-chapter-armor-shields A card's tier is separate from its equipment's entry requirement.
 
 === No-Prereq Basics
 
-Some basic Novice cards (basic utility skills) have *no Discipline requirement* and cost only the flat card price (2 DP). These represent minor talents anyone can pick up: a knack for reading a room, a trick of sleight of hand, a steady hand on a wound. Cantrips are the one exception on price: they cost nothing, and every caster of a tradition knows the whole list (see @sec-chapter-arcane-spells and @sec-chapter-divine-spells) A card that prints no Discipline on its header needs none, whatever its tier. There are no shortcuts to real power.
+Some basic Novice cards (basic utility skills) have *no Discipline requirement* and cost only the flat card price (2 DP). These represent minor talents anyone can pick up: a knack for reading a room, a trick of sleight of hand, a steady hand on a wound. Cantrips are the one exception on price: they cost nothing, and every caster of a tradition knows the whole list (see @sec-chapter-arcane-spells) The divine list is in @sec-chapter-divine-spells A card that prints no Discipline on its header needs none, whatever its tier. There are no shortcuts to real power.
 
 #pagebreak()
 
@@ -224,7 +224,7 @@ There is no damage roll. The outcome of your attack or casting roll (Weak, Stand
 
 The numbers are flat damage points. A Novice Ember Lance deals 4 damage on a Weak result, 6 on Standard, 8 on Strong. An Adept spell deals 5/8/11. These are flat numbers. No dice. If your homebrew spell or ability doesn't match this table, it's either too weak or too strong. The table is the law. The table is the balance.
 
-See @sec-chapter-arcane-spells and @sec-chapter-divine-spells for the full spell lists. See @sec-chapter-classes for class abilities keyed to this budget.
+For the full spell lists, see @sec-chapter-arcane-spells The divine list is in @sec-chapter-divine-spells For class abilities keyed to this budget, see @sec-chapter-classes
 
 Every damaging card states its expression in its damage line as either *Flat* or *Attribute-Scaled.*
 

@@ -18,7 +18,7 @@ Arcane magic is the art of telling the universe to sit down and shut up, and mak
 
 This chapter contains every arcane spell in the game: fifteen cantrips you know from the start, and sixty spell cards that run Novice, Adept, and Master. Every spell card carries a Discipline, an action, a range, and an effect. Every spell card prints its tier, and wherever a card deals damage its outcome block keys to that tier's row of the damage budget. Key the numbers to the damage budget (@sec-damage-budget) and cast. Where a card prints half of a value, or splits one across several targets, round down.
 
-_See @sec-chapter-magic-system for how spellcasting works._
+_See @sec-chapter-magic-system It explains how spellcasting works._
 
 #pagebreak()
 

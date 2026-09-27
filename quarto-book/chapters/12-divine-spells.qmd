@@ -18,7 +18,7 @@ Divine magic doesn't throw fireballs. It doesn't dissolve armor or dominate mind
 
 This chapter contains every divine and primal spell in the game. Shepherds use them. Some Leaders use them. Anyone who's ever knelt before something greater and felt it kneel back.
 
-_See @sec-chapter-magic-system for how spellcasting works._
+_See @sec-chapter-magic-system It explains how spellcasting works._
 
 #pagebreak()
 
@@ -88,7 +88,7 @@ Primal cantrips are the small tricks of the wild, calling and listening rather t
 
 == Life Spells
 
-_See @sec-chapter-magic-system for how spellcasting works._
+_See @sec-chapter-magic-system It explains how spellcasting works._
 
 === Mending Touch (Novice Divine Spell)
 *Disciplines:* 1 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Bane

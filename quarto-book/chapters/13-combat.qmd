@@ -78,7 +78,7 @@ These maneuvers are free for everyone. No skill required. No Discipline check. J
 )
 #label("tbl-basic-maneuvers")
 
-Maneuvers beyond the basics are weapon maneuvers, gated by Disciplines rather than skills. See the Weapon Maneuvers section of @sec-chapter-talents-abilities for cards like Riposte and Cleave. You earn those. They're not free.
+Maneuvers beyond the basics are weapon maneuvers, gated by Disciplines rather than skills. For cards like Riposte and Cleave, see the Weapon Maneuvers section of @sec-chapter-talents-abilities You earn those. They're not free.
 
 #pagebreak()
 
