@@ -19,7 +19,7 @@ that what exists is good.
 | 8 | **The Shepherd cannot pay for its own loadout and a card** | `05:202` prints 7 DP of loadout ranks and claims "which still leaves room for a card"; the class pool is 8 DP (`02:204`) and a Novice card is 2 DP, so the line costs **9 DP**. Eight of nine classes close; the Shepherd does not. | **DECIDED and IMPLEMENTED 2026-09-26 (cycle 9 ruling; PR #674, `5c52f12`)** - every ledger re-derives and all nine builds close at their named pool. The Shepherd's printed "still leaves room for a card" is false at 8 DP and true at the 12 the book's own `18:47` grants. |
 | 9 | **Creation's printed builds are unfunded and the skill ledger never closes** | 7 of 9 printed heroes cannot pay for the gear their own loadout requires (26 DP); all 9 spend 2 DP on the skill their culture already grants +1 in (18 DP). **Cycle 7: the level-1 grant that creation never awards would pay 6 of those 7 builds, cutting 26 DP to 2.** | **BOTH CLOSED 2026-09-26**: 161 retracted in place (the armour gate was the wrong premise), 162 decided in cycle 9 and IMPLEMENTED in PR #674 (`5c52f12`) - the culture's +1 IS that skill's Novice tier, so the purchase was explicit waste. |
 | 10 | **Master is not an efficiency tier, and nothing says so** | Cards cost 2/4/8 while the bands are 4/6/8, 5/8/11, 7/10/14: damage per DP falls **3.00 -> 2.00 -> 1.25** with ranks already paid. The premium buys per-action impact and a once-per-session spotlight (`10:101`), which is a real thing to buy, but a player optimising damage per DP will buy breadth and be right on the numbers. | **DECIDED 2026-09-26 (architect, cycle 9), veto to revert** - state the intent in one sentence, no reprice: a reprice would break invariant 4 (cards cost 2/4/8). |
-| 11 | Dead ranks: Fate unpriced, Summon uncarded, **and Sleight rank 2 unconsumed** | Advertised, unusable. Fate is **landed** (PR #696, 2026-09-27); Summon remains ruled, specced and undispatched (row 151, its work order still unfiled). **Sleight is cycle 14's new one: priced in every class table, consumed by nine rank-1 sites, and rank 2 unlocks nothing anywhere in the book** (Assessment 8). | Fate/Summon: work order filed (#655). Sleight: **DECIDED 2026-09-27 (cycle 14), re-key Filch `2 Stealth, 1 Sleight` -> `1 Stealth, 2 Sleight`**, work order filed |
+| 11 | Dead ranks: Fate unpriced, Summon uncarded, **and Sleight rank 2 unconsumed** | Advertised, unusable. **All three are closed.** Fate **landed** (PR #696, 2026-09-27); Summon **landed** (PR #699, 2026-09-27, six cards, rank coverage 1x2 / 2x2 / 3x2); Sleight **closed** (PR #684, `ecc59f7`, Filch re-keyed to `1 Stealth, 2 Sleight`). Every one of the 23 Disciplines now has a consumer at rank 1 and 2, and the scorecard's dead-rank line reads 0. | Fate: #655 (merged). Summon: #698 (merged). Sleight: #684 (merged) |
 | 12 | ch09 tier-labelled headings | Three cards titled "Novice Talent" whose requirements are Adept and Master (row 160). Player-facing promise defect. **Cycle 7: the tier RULE itself was the larger half of this - `09:15` keyed tier to the count of Disciplines, mispricing 59 of 102 cards; fixed in #665. The three cards remain.** | row filed; rule fixed |
 | 13 | **The focus downgrade has no defined bottom for most cards** | `15:40`/`21:217` end the ladder "Weak becomes **1 damage**" - a clause that only means something if the rung is damage. **23 of the 59 focus-carrying cards have a non-damage Weak rung**, and on a heal it inverts (Mending Touch's "Restore 4 HP" becomes 1 damage). | **default logged, not implemented** (row 175): scope the downgrade's floor to the card's own rungs, keep `1 damage` for damaging rungs, then `10:37` keys to the tier's row where the card deals damage or healing. Rides with #668's file group. |
 | 14 | **Fortitude and Knowledge pay twice** | Each point adds +1 HP (`03:78`) and +1 Background DP (`02:115`). No other attribute feeds a pool. At +2/+2 against -2/-2 that is 8 DP and 4 HP on the same two points, and at -2/-2 the hero has 6 HP and 4 DP (Assessment 3). | **CLOSED 2026-09-26 (architect, cycle 9) - measured, premise partly false, no change owed.** Fortitude and Knowledge are the only pool-feeding pair and the duplication is the deliberate trade. |
@@ -230,7 +230,7 @@ assessed, and the two defects they produced are decided and filed rather than qu
 in cycle 15 (`19:50`'s ladder-in-pool-currency frame plus Kelvath's HP; `20:659`'s HP-rule unit). Row
 177's model gap is now measured and its lever chosen, so the pacing queue is unblocked. After those,
 the remaining queue is #675 (crossref punctuation, 15 sites), #668 (magic entry points + Primal) and
-#655 (Fate landed 2026-09-27; Summon still to author).
+#655 (Fate landed 2026-09-27); #698 (Summon landed 2026-09-27).
 
 ## Assessment 5 (first pass, superseded in the same cycle by the audited version below) - Magic and the spell system (cycle 8, 2026-09-26)
 
@@ -935,12 +935,12 @@ plus two single-rank supports. The audit rule would have flagged all four; readi
 
 | Discipline | r1 | r2 | r3 | verdict |
 |---|---|---|---|---|
-| Summon | 0 | 0 | 0 | **dead rank, priced in all nine class tables** (ruled, row 151) |
+| Summon | 2 | 2 | 2 | **LANDED 2026-09-27 (PR #699)**: six cards in ch11's new `== Summon Spells` section, rank coverage 1x2 / 2x2 / 3x2, so the rank-2 floor is met with room. The discipline that was priced in all nine class tables and required by nothing now has a consumer at every rank |
 | Fate | 3 | 3 | 1 | **LANDED 2026-09-27 (PR #696)**: priced in all nine class cost tables and the comprehensive table, 7 cards, rank coverage 1x3 / 2x3 / 3x1, so the rank-2 floor is met |
-| **Sleight** | 9 | **0** | 0 | **NEW - rank 2 is a trap purchase** |
+| Sleight | 8 | 1 | 0 | **CLOSED 2026-09-27 (PR #684, `ecc59f7`)** - Filch re-keyed from `2 Stealth, 1 Sleight` to `1 Stealth, 2 Sleight`, so rank 2 is consumed and the rank-2 floor is met. (This table still read `0` for rank 2 a cycle after the fix landed; the status cell was not moved with the implementation.) |
 
 Every other Discipline clears the floor. Category totals: Weapon 67, Defense 52, Arcane 39, Elemental 38,
-Knowledge 33, Divine 28, Esoteric 28, Subterfuge 22, Primal 14. Within-category spreads: Unarmed 5 against
+Knowledge 33, Divine 28, Esoteric 34, Subterfuge 22, Primal 14. (Esoteric was 28 before cycle 20's Summon cards added six consumers.) Within-category spreads: Unarmed 5 against
 Melee 21 is the widest in Weapon; Animal 5 against Plants 9 in Primal.
 
 **DECIDED (BALANCE, architect, veto to revert): re-key Filch to `1 Stealth, 2 Sleight`.** Sleight is
@@ -955,7 +955,7 @@ and Foreign for the Blade, so the swap is cost-neutral for one and cheaper for t
 file. **Reversal: put the 2 back on Stealth.**
 
 **COST - nine dead rank slots become one.** After the change, the only remaining rank with no consumer
-anywhere is Summon (already ruled: cards to be authored, row 151) , Fate having landed 2026-09-27 (PR #696). Master
+anywhere is Summon (LANDED 2026-09-27, PR #699, row 151: six cards, rank coverage 1x2 / 2x2 / 3x2), Fate having landed 2026-09-27 (PR #696). Master
 remains thin at 25 cards, which is by design: rule 2 of the coverage standard makes rank 3 optional and
 flavour-led, and rank-1 breadth is its stated offset.
 
@@ -965,7 +965,7 @@ named (`08:197`); and no card demands a Discipline the roster does not carry, no
 above 3.
 
 **Verdict: GOOD**, with one named defect repaired by decision (Sleight rank 2) and two dead ranks already
-ruled and queued (Summon rows 151/159; Fate landed in #696). The content's law compliance is the strongest measured
+ruled and queued (both LANDED: Summon rows 151/159 in PR #699, Fate in PR #696). The content's law compliance is the strongest measured
 result in the sweep so far: four gates, four zeros, across nine chapters.
 
 ## Assessment 9 - Bestiary and GM tools (cycle 15, 2026-09-27) - the last subsystem
