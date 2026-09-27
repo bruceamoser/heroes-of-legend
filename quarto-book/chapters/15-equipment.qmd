@@ -25,7 +25,7 @@ Every card that asks for gear names a tag in its Requires field. Here is every t
     table.header([Tag], [Rank], [What it gates],),
     [`weapon:unarmed`], [None], [Bare hands, gauntlets, and grapples],
     [`weapon:one-hand`], [1 Melee], [A one-handed weapon in your hand],
-    [`weapon:two-hand`], [2 Two-Handed], [A greatsword, maul, halberd, or other weapon held in both hands],
+    [`weapon:two-hand`], [1 Two-Handed], [A greatsword, maul, halberd, or other weapon held in both hands],
     [`weapon:ranged`], [1 Ranged], [A bow, crossbow, or thrown weapon in hand],
     [`shield`], [1 Shields], [A shield on your arm],
     [`focus:arcane`], [None], [A wand, staff, or orb, held for the spell's full effect],
@@ -41,7 +41,7 @@ A card that requires none of these carries no Requires field at all, and most ca
 
 == Packs
 
-A pack is gear you acquire, from a class, a culture, a talent, a purchase, or off someone who no longer needs it. It is a capability, not a shopping list. Carrying the pack is what having the capability means.
+A pack is gear you acquire, from a class, a culture, a talent, or off someone who no longer needs it. It is a capability, not a shopping list. Carrying the pack is what having the capability means.
 
 Every hero has the Adventurer's Pack, and it costs nothing.
 
@@ -120,7 +120,7 @@ Improvised weapons (a crowbar swung as a club, a hammer in a pinch) deal 1/1/2 +
 #callout(type: "note", title: "Armament Categories", body: [
 A weapon's category is its entry requirement: 1 Melee, 1 Two-Handed, 1 Ranged, and no rank for Unarmed. The named weapon is flavor; the category is the gate.
 
-A shield takes 1 Shields. A weapon or shield you carry does what its entry says; a card that requires a shield requires you to be wielding one.
+A shield takes Shields ranks by its size: 1 for a small shield, 2 for a medium one, 3 for a large one. A weapon or shield you carry does what its entry says; a card that requires a shield requires you to be wielding one.
 ])
 
 *Properties:*
@@ -151,7 +151,7 @@ Armor is what you wear, and it is worth its points in DR: light grants 1, medium
   outlined: false,
 )
 
-Shields: *Buckler* (1 Shields), *Shield* (1 Shields), *Tower Shield* (3 Shields, provides half cover). A shield enables Parry and Shield Block. See @sec-chapter-armor-shields
+Shields come in three classes: *small* (1 Shields, shield DR 1), *medium* (2 Shields, shield DR 2), and *large* (3 Shields, shield DR 3, half cover, and -5 ft Speed). The names are flavor: a buckler is a small shield, a heater a medium one, and a tower shield a large one. A shield enables Parry and Shield Block. See @sec-chapter-armor-shields
 
 == Encumbrance
 

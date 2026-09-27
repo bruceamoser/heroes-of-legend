@@ -24,7 +24,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Bell Curve:* The probability distribution of 3d6. Most rolls cluster around 9–12. Extreme results (3 and 18) are rare, about 0.5% each.
 
-*Card:* The printed container for a mechanical element of the game. Spells, class abilities, talents, weapon maneuvers, ancestry gifts, and magic items all print as cards; the shape differs, the container does not. A card is bought once, at its tier (2 DP Novice, 4 DP Adept, 8 DP Master), or, in the case of a magic item, found rather than bought. There is no upgrading a card in place: the Adept and Master members of a family are separate cards with their own names. A mundane item of equipment is not a card. Gear is bought with gold, and its properties live in @sec-chapter-equipment
+*Card:* The printed container for a mechanical element of the game. Spells, class abilities, talents, weapon maneuvers, ancestry gifts, and magic items all print as cards; the shape differs, the container does not. A card is bought once, at its tier (2 DP Novice, 4 DP Adept, 8 DP Master), or, in the case of a magic item, found rather than bought. There is no upgrading a card in place: the Adept and Master members of a family are separate cards with their own names. A mundane item of equipment is not a card. Gear is not bought: it is granted, earned, or taken, and its properties live in @sec-chapter-equipment
 
 *Boon:* Roll 4d6 and keep the highest three. A second step rolls 5d6 kept three, a third rolls 6d6 kept three, and three steps is the ceiling. Boons and Banes cancel one for one. Halflings get a boon once per session from their Lucky trait.
 
