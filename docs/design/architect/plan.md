@@ -538,3 +538,47 @@ the encounter-side stats are where an unstated assumption costs the most.
   walkthrough the scorecard is thinnest on: a caster session, because "magic always fires" is the one
   pillar with no transcript behind it and the magic assessment's four design questions were filed
   rather than played.
+
+## Cycle 29 (2026-09-27) - W-005 played the bestiary and 2 of 49 blocks failed; the pacing gate was reading 48
+
+**The action, in the order the queue asked for it.** Priority 1 returned zero as a measurement again: no
+ledger row reads open, pending, needs-Bruce, waiting or do-not-implement, and no row is ruled-and-unbuilt
+(the six rows the prompt names landed in cycles 26-28). No subsystem is unassessed (9 of 9, re-assessed
+cycle 28). So the cycle ran the next transcript on the role's list, **W-005, the DA walkthrough** - the
+one the scorecard is thinnest on after W-004, and the only one that plays the bestiary as a fight.
+
+**Findings, both singletons, both the same shape.** The Wraith printed two statements of one reduction
+and their composition collapsed the damage triple to `[1,1,2]` - a coin flip for one point of damage,
+against `16:25`'s distinctness law and `20:659`'s DR ceiling. The Swarm of Rats printed an immunity whose
+named counter (an area effect) is not reachable at the Novice band it is budgeted into, so a level-1
+Standard encounter of twelve of them is 204 HP the party cannot touch. Both were decided as balance
+questions: name the invariant, measure the whole range, take the smallest lever, prefer the book's own
+printed idiom. Repairs: delete the duplicate trait (the DR stays, because HP follows it); replace the
+immunity with the resistance phrasing the book already uses. One work order, one file, **#715 -> PR #716,
+squash `5ef6b51`**, audited and merged in-cycle, render-verified at 399 pages.
+
+**One review redirect, and it caught MY instrument, not the agent's work.** The work order also asked for
+the wraith's DR field to be reworded to `DR 3 against non-magical attacks`. Nine blocks print
+`DR n (source)`, and that shape is what the parser keys on, so the rewording silently dropped the Wraith
+and the sweep printed **48 blocks as a PASS** - a false clean in the very cycle that was hunting false
+cleans. Restored on the branch before merge; the sweep now refuses to pass when parsed != headings.
+
+**The durable half is the gate, not the block.** `rounds-to-resolve.py` had been averaging **48 of the
+book's 49 blocks** and never banding the C12 dragon; fixed, its verdicts are now Adept `3.68 -> 3.73`
+and Master `3.36 -> 3.27` (PASS at every tier, cost 73.0% / 81.0% / 71.5% of the pool). With the corpus
+complete, the pacing law reads green on the whole bestiary for the first time.
+
+**State at cycle 29.** Book at `5ef6b51`; **0 open issues, 0 open PRs**, one checkout, clean tree, PDF 399
+pages at **84,216 words**; gates: native-Typst 0, pacing PASS (49 blocks), canon index calibration OK
+(ch11's own 75 claimed = 75 parsed), DA sweep 49/49 PASS; ledger 198 rows with an unbroken sequence
+(row 105 tombstoned, cited by a council SUMMARY and unrecoverable). Landed this cycle: PR #716 plus the
+two gate repairs and the ledger tombstone.
+
+**Next: three walkthroughs on the role's list have never been played** - the change-one-number pass
+(perturb a budget row, a tier or a rank cost and report the blast radius), **the boredom pass**
+(dominated choices, and the most forgettable page in the book) and **the flavour pass** (does each
+mechanic's flavour sell it, and does any flavour contradict its own rule). Play the boredom pass next: it is the only one of the three that
+produces decisions rather than descriptions, and it targets the scorecard's Succinct line, which has been
+flat since the armament collapse. Screen first with `choice-space-sweep.py` and the card census so the
+pass reads a shortlist, not all 208 cards.
+

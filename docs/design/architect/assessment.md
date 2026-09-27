@@ -1156,3 +1156,44 @@ which is the same failure as the post-migration harvest bug, arriving by vocabul
 
 **The five-gate walk below stands, with one correction: the content-law line now reads 0/0 for a
 measured reason.** Re-run after #714: every content chapter `retired 0 dice 0 flat-riders 0 roll-mods 0`.
+
+## Cycle 29 (2026-09-27) - walkthrough W-005: the bestiary PLAYED, 2 of 49 blocks fail
+
+The three bestiary passes already in this file (Assessment 9's conformance census, the pacing gate, the
+attributes census) all read the chapter as a TABLE. W-005 reads it as a FIGHT: for every block, at the
+band its Challenge is budgeted into, can the party the encounter builder will send actually reduce its
+HP, and does the block's damage still discriminate once the party's DR is applied. Instrument:
+`scripts/da-walkthrough.py` (skill), 49 of 49 blocks, with a coverage guard.
+
+**Verdict: BAD on 2 of 49, GOOD on 47.** Both failures are the same shape - a block that prints two
+statements of one reduction, or an immunity whose named counter does not exist where the block is used:
+
+1. **Wraith (C3, `20:281` + `20:285`)** prints `DR 3 (non-magical)` AND Incorporeal's half-from-non-
+   magical-physical. Composed in the book's own order the mundane Adept triple reads `[1,1,2]`: 50.0% of
+   all 216 rolls land for 1 damage and 50.0% for 2 (average 1.500/hit vs 9.444/hit magical, 6.30x).
+   `16:25` requires the tiers to stay distinct and `20:659` caps monster DR at 4 at Adept; the
+   composition reaches an effective 7.5. Fix: delete the duplicate trait, keep the DR (HP follows it).
+2. **Swarm of Rats (C1/2, `20:78`)** is immune to single-target attacks and vulnerable only to area
+   effects, and no area effect is reachable at rank 1 (the book's two Area cards are `09:130` Spell Storm
+   - once per session, secondary targets only - and `09:382` Cyclone at 3 Melee). A level-1 Standard
+   budget is twelve of them: 204 unreducible HP and 12 automatic damage a round against a 144-point pool.
+   Fix: the book's own resistance idiom, `*Swarming:* half damage from slashing, piercing, and
+   bludgeoning attacks.` Both landed as #715 / PR #716 (`5ef6b51`); rows 197 and 198.
+
+**What the walkthrough found about the instrument rather than the book (the durable half).** The pacing
+gate had been harvesting **48 of the 49** blocks: `rounds-to-resolve.py` anchored its heading regex on
+`(Challenge N)$`, which drops `=== Vrock (Demon, Challenge 6)`, and its `CBAND Master` was `(7,8,9,10)`,
+so the C12 Ancient Dragon was parsed and then left out of every Master average. Fixing both moved the
+gate's verdicts to Adept `3.68 -> 3.73` and Master `3.36 -> 3.27` (still PASS) and made its two numbers
+describe the whole bestiary. My own new sweep carried the same class of bug in the other direction
+(48 blocks parsed, printed as a clean PASS) until its heading regex was widened; it now fails loudly
+when parsed != headings. **This is the third consecutive cycle in which a gate's silence turned out to
+be a coverage fact rather than a pass** - cycle 28's content-law gate was the first, the rung gate
+before it the second - so the standing rule is now: after any change to a corpus, census what the tool
+COLLECTS against what the file CONTAINS before believing what it prints.
+
+**Also repaired this cycle:** the ledger's row sequence had a gap at 105, cited by
+`council-runs/10-magic-system-20260912/SUMMARY.md:91` for a dismissed sub-claim. The content is not
+recoverable (a pickaxe over the tracked history finds no commit carrying it) and has NOT been invented:
+row 105 is now a tombstone and the sequence 1-198 is unbroken.
+
