@@ -29,6 +29,8 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
   [*Abilities*], [Special powers. These override the normal rules, the stat block always wins.],
 )], kind: table, numbering: none, outlined: false)
 
+*The block says what it can do, not what it wants.* Its target is your call, and its abilities are the tactics to make that call with: a Recharge line, a Multiattack or a condition on a hit is the turn the creature was built for, so give it room to take it. When the fight turns, it checks morale like any other creature (@sec-morale), unless its block prints its own Morale clause, which overrides that default.
+
 #pagebreak()
 
 == Beasts

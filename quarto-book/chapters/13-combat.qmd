@@ -305,6 +305,7 @@ Ranged attacks and spells can't be made non-lethal. Arrows and fireballs don't d
 #pagebreak()
 
 == Morale
+#label("sec-morale")
 
 NPCs and monsters don't fight to the death by default. Most creatures want to _live._ When the fight turns against them, they break. Use morale to keep combat short and believable.
 
