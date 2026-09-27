@@ -441,6 +441,8 @@ Some injuries don't fade when the healing potion wears off. Wounds are the lasti
 
 *What gives a Wound back.* Nothing does. Magic returns HP. It does not take a Wound off your sheet. A Wound is not a condition, so an effect that ends conditions does not mend one, and a hero at full health still carries every mark they have earned. What a healer can mend is what the Wound does to you: the bleeding stops, the bone sets, the limb regrows, the Bane lifts. What nothing mends is the Wound itself, and its mark stays with it.
 
+*The end of the road.* Four Wounds is where the track runs out. The wound roll is already at 6d6 and the death roll at Bane 3, so a fifth Wound would change no number. It ends the hero instead. A hero carrying four Wounds has survived everything the game can do to them, so finish the fight they are in, and then let them retire: someone the party visits, someone who sends word from a far town, someone who rides out one last time when it matters. Retiring a hero is not a loss. It is the best object this game makes, a sheet that is a list of everything they survived, carried to the end on their own terms.
+
 == Cover
 
 Use the terrain. A pillar, a flipped table, a crouching ally. Anything between you and incoming fire helps. Cover is free armor. It doesn't cost a Maneuver, doesn't require a skill, doesn't use an Action. It just requires you to think about where you're standing before the arrows start flying.
