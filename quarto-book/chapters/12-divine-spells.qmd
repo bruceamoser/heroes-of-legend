@@ -104,9 +104,9 @@ _See @sec-chapter-magic-system It explains how spellcasting works._
 
 *Weak:* The flow slows to a seep. The wound deals no damage at the start of the target's next turn.
 
-*Standard:* The wound is bound. The bleeding stops, and the Bane it puts on the target's death roll lifts.
+*Standard:* The bleeding stops for the rest of the encounter.
 
-*Strong:* The wound is bound, and the target's HP rises to half its maximum.
+*Strong:* The wound is bound. The bleeding stops and stays stopped.
 
 === Restoration (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Condition
@@ -120,11 +120,11 @@ _See @sec-chapter-magic-system It explains how spellcasting works._
 === Set Bone (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Healing
 
-*Weak:* The injury eases its grip. The Bane it imposes lifts, and the breath comes long enough to speak and cast again.
+*Weak:* The injury eases its grip. The Bane it imposes lifts, and the target's HP rises to half their maximum.
 
 *Standard:* The injury is treated. The bone sets and the limb works, or the lung clears and the breath comes full.
 
-*Strong:* The injury is treated, and the target's HP rises to half its maximum.
+*Strong:* The injury is treated, and the target's HP rises to their maximum, and the target gains a Boon on their next check.
 
 === Tide of Life (Master Divine Spell)
 *Disciplines:* 3 Life · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Healing
