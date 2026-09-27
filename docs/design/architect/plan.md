@@ -856,5 +856,17 @@ untrained defender and 12-19% for a trained one. **The verdict does not move**: 
 clear direction, which is mapped correctly, and the gate's hits-to-fall is right in level. Recorded as an
 erratum in `assessment.md`; rewriting a gate's model deserves its own measured cycle.
 
+**A RULING LANDED MID-CYCLE, which is the cycle's second work order.** Bruce filed **#729** at 09:37, one
+minute after this cycle's scan, so the scan's "0 open issues" was true when read and wrong a minute later -
+and the monitor's snapshot missed it for the same reason. *"it needs scaled to the number of wounds you
+carry"*: the wound roll was independent of the count, so the first Grit spend and the fifth carried
+identical odds, which is the property the d20 was retired to kill. That is INTENT, his, and the issue
+delegates the implementation design to the architect, so it was decided, dispatched and landed inside the
+same cycle. New instrument `scripts/wound-scaling.py`; the decision, its numbers and the parked severity
+axis are ledger rows 208 and 209, and the full design is a dated section on the issue itself. **PR #732,
+squash `035a902`, #729 closed.** The pipeline lesson is the one the tracker keeps teaching: **a state read
+is a moment, not a fact** - the scan, the monitor snapshot and the tracker were each correct and all three
+were stale inside a minute, so the only check that counts is a read at the point of action.
+
 **Next.** The review's weakest item 3: **the Master-tier payoff** - what a Master actually gains across
 the ladder (damage per DP 3.00 -> 2.00 -> 1.25) and whether the top of it is a payoff or larger numbers.
