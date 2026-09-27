@@ -1454,6 +1454,10 @@ moves, no hero number moves, and the fallback if the frame is to stay at six is 
 the creature-HP constant at ×0.75 (3.56/3.56/3.16 rounds, 49 stat blocks) — which is why the field is the
 smaller and recommended one.
 
+### A second veto-revertible default riding the same work order
+
+#805's fix order puts **Deadly's definition** fourth and offers a fork (redefine the multiplier, or say plainly what it is). The minimal option needs no new rule and is the one taken: the printed bullet says *character death is a real possibility*, while the corrected measurement says a Deadly field is **lost 44% / 56% / 70%** of the time at Novice / Adept / Master, and worse at the seven the prose prints. So the bullet states what the multiplier produces rather than what it hopes for. Renaming the tier or moving ×3 is the heavier fork and stays Bruce's.
+
 ### The healer, corroborated independently
 
 `heal-threshold-sim.py` (cycle 54) and cycle 59's reading gave a dedicated healer a measured cost from Adept
