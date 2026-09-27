@@ -75,7 +75,7 @@ HP 17, DR 0. Attributes: Brawn -1, Fortitude 0, Agility 0, Guile 0, Knowledge -1
 
 *Bites:* Automatic 1 damage to all in space.
 
-*Immune:* Single-target attacks.
+*Swarming:* half damage from slashing, piercing, and bludgeoning attacks.
 
 *Vulnerable: Area Effects (takes double damage from area effects).*
 
@@ -281,8 +281,6 @@ HP 17, DR 0. Attributes: Agility +2, Brawn +1, others +0.
 HP 14, DR 3 (non-magical). Attributes: Agility +2, Guile +1, others +0.
 
 *Life Drain:* 5/8/11 necrotic.
-
-*Incorporeal:* half damage from non-magical physical attacks.
 
 *Create Specter:* humanoid killed by Life Drain rises as a specter under the wraith's control at next sunset.
 
