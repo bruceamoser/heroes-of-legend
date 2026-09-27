@@ -16,7 +16,7 @@ But fire's just the beginning. Ice that freezes blood in the veins. Lightning th
 
 Arcane magic is the art of telling the universe to sit down and shut up, and making it listen. You don't ask. You don't pray. You _impose._
 
-This chapter contains every arcane spell in the game: fifteen cantrips you know from the start, and fifty-four spell cards that run Novice, Adept, and Master. Every spell card carries a Discipline, an action, a range, and an effect. Every spell card prints its tier, and wherever a card deals damage its outcome block keys to that tier's row of the damage budget. Key the numbers to the damage budget (@sec-damage-budget) and cast. Where a card prints half of a value, or splits one across several targets, round down.
+This chapter contains every arcane spell in the game: fifteen cantrips you know from the start, and sixty spell cards that run Novice, Adept, and Master. Every spell card carries a Discipline, an action, a range, and an effect. Every spell card prints its tier, and wherever a card deals damage its outcome block keys to that tier's row of the damage budget. Key the numbers to the damage budget (@sec-damage-budget) and cast. Where a card prints half of a value, or splits one across several targets, round down.
 
 _See @sec-chapter-magic-system for how spellcasting works._
 
@@ -626,6 +626,66 @@ This DR does not stack with any other source of DR.
 *Standard:* For the scene, no creature in the room can shape a false statement; a lie turns to ash in the mouth, and what the speaker meant to hide is plain on their face.
 
 *Strong:* The room keeps what it hears, holding every word spoken in it for a day; a lie cannot be spoken in it at all, and every creature present hears the truth the speaker tried to hide.
+
+== Summon Spells
+
+=== Call the Least (Novice Arcane Spell)
+*Disciplines:* 1 Summon · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Summon
+
+*Weak:* One creature of Challenge ½ or lower answers (Wolf, Goblin, Skeleton, Pixie).
+
+*Standard:* One creature of Challenge 1 or lower answers (Dire Wolf, Ghoul, Harpy).
+
+*Strong:* One creature of Challenge 2 or lower answers (Bear, Owlbear, Ogre).
+
+It acts on your turn, obeys your spoken commands, and vanishes at the end of the scene or when reduced to 0 HP.
+
+=== Bind the Weak (Novice Arcane Spell)
+*Disciplines:* 1 Summon · *Requires:* focus:arcane · *Action:* Action · *Range:* Touch · *Keywords:* Summon
+
+*Weak:* Bind one defeated or willing creature of Challenge ½ or lower to one task.
+
+*Standard:* Bind one defeated or willing creature of Challenge 1 or lower to one task.
+
+*Strong:* Bind one defeated or willing creature of Challenge 2 or lower to one task.
+
+The binding ends when the task is done, or when the creature is harmed by you.
+
+=== Call the Mighty (Adept Arcane Spell)
+*Disciplines:* 2 Summon · *Requires:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* Summon
+
+*Weak:* One creature of Challenge 3 or lower answers (Basilisk, Minotaur, Wraith, Knight).
+
+*Standard:* One creature of Challenge 4 or lower answers (Fire Elemental, Cave Troll).
+
+*Strong:* One creature of Challenge 5 or lower answers (Chimera, Hill Giant, Treant).
+
+It acts on your turn, obeys your spoken commands, and vanishes after 3 turns or when reduced to 0 HP.
+
+=== Spirit Ally (Adept Arcane Spell)
+*Disciplines:* 2 Summon · *Requires:* focus:arcane · *Action:* Action · *Range:* Self · *Keywords:* Summon
+
+*Effect:* A Fey, Undead or Extraplanar creature of Challenge 1 or lower binds itself to you (Pixie, Skeleton, Zombie, Ghoul, Dryad). It acts on your turn and obeys your spoken commands, it does not vanish at the end of the scene, and you can keep only one such ally at a time. It is lost if reduced to 0 HP.
+
+=== Call the Great (Master Arcane Spell)
+*Disciplines:* 3 Summon · *Requires:* focus:arcane · *Action:* Action · *Range:* 60 ft · *Keywords:* Summon
+
+*Weak:* One creature of Challenge 6 or lower answers (Young Dragon, Archmage, Vrock).
+
+*Standard:* One creature of Challenge 7 or lower answers (Stone Giant).
+
+*Strong:* One creature of Challenge 8 or lower answers (Death Knight).
+
+It acts on your turn, obeys your spoken commands, and vanishes at the end of the scene or when reduced to 0 HP.
+
+=== Dismiss the Bound (Master Arcane Spell)
+*Disciplines:* 3 Summon · *Requires:* focus:arcane · *Action:* Reaction · *Range:* 60 ft · *Keywords:* Extraplanar
+
+*Weak:* Return one summoned or extraplanar creature of Challenge 4 or lower to where it came from.
+
+*Standard:* Return one summoned or extraplanar creature of Challenge 6 or lower to where it came from.
+
+*Strong:* Return one summoned or extraplanar creature of Challenge 8 or lower to where it came from.
 
 == Fate Spells
 
