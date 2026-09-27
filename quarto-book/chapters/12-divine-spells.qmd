@@ -141,7 +141,7 @@ _See @sec-chapter-magic-system It explains how spellcasting works._
 *Strong:* The target's HP rises to its maximum and one condition on the target ends.
 
 === Death Relented (Adept Divine Spell)
-*Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Wound
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Healing
 
 *Effect:* Return a creature that died within the last minute to life at half its maximum HP.
 
