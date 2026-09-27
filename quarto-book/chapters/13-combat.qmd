@@ -116,7 +116,7 @@ The NPC's stat block lists three damage values: Strong, Standard, and Weak, repr
 
 === Why NPC Damage Is Reversed
 
-When you attack, a high roll means you hit hard (Strong damage). When you defend, a high roll means _they_ hit soft (Weak damage). The dice work the same way, but your relationship to them flips. This reversal is the mechanical price of keeping the dice in the players' hands, and it keeps the math identical to a traditional system where the DA rolls for monsters. The only difference is whose hands are on the dice, and we would rather those hands belong to the players. The reversal converts an NPC's attack modifiers too: an advantage on an attack against you (an adjacent ally's *Pack Tactics*, a leader's *Leadership*) is a Boon on your Defense roll, and a disadvantage on that attack is a Bane. Cover is the same conversion read the other way: its Bane sits on the attack, so it lands on your roll as a Boon.
+When you attack, a high roll means you hit hard (Strong damage). When you defend, a high roll means _they_ hit soft (Weak damage). The dice work the same way, but your relationship to them flips. This reversal is the mechanical price of keeping the dice in the players' hands, and it keeps the math identical to a traditional system where the DA rolls for monsters. The only difference is whose hands are on the dice, and we would rather those hands belong to the players. The reversal converts an NPC's attack modifiers too, and it flips them: an advantage on an attack against you (an adjacent ally's *Pack Tactics*, a leader's *Leadership*) is a Bane on your Defense roll, and a disadvantage on that attack is a Boon. Cover is the same conversion: its Bane sits on the attack, so it lands on your roll as a Boon.
 
 === Quick Reference: Defense Roll Modifiers
 
@@ -201,14 +201,14 @@ Conditions are the status effects that change how a creature behaves in combat. 
     [*Frightened*], [Cannot approach source], [Source duration],
     [*Frozen X*], [Incapacitated and takes X cold damage per round], [Spend an action to end],
     [*Grappled*], [Speed 0], [Escape action],
-    [*Hidden*], [Attacks against you have Bane], [You attack, or the concealment ends],
+    [*Hidden*], [Attacks against you have Bane (a Boon on your Defense roll)], [You attack, or the concealment ends],
     [*Incapacitated*], [No actions], [Source duration],
     [*Invisible*], [Cannot be targeted directly], [Attack/action ends],
     [*Marked*], [Always by a specific creature: no Cover or Concealment against it or its allies, its attacks against you gain a Boon (a Bane on your Defense roll), and a Mark from a sworn naming also blocks belief and gifts freely given], [Source ends it, the marker is downed, or you make amends],
     [*Paralyzed*], [Incapacitated + auto-crit if hit], [Source duration],
     [*Petrified*], [Turned to stone, incapacitated, DR +5, immune to non-magical damage], [Special],
     [*Poisoned X*], [Takes X poison damage per round and attacks at Bane], [Spend an action to end],
-    [*Prone*], [Melee Boon vs you, ranged Bane], [Stand up (maneuver)],
+    [*Prone*], [Melee Boon vs you, ranged Bane (a Bane on your Defense roll against melee, a Boon against ranged)], [Stand up (maneuver)],
     [*Restrained*], [Speed 0, attack Bane], [Escape action],
     [*Slowed X*], [Speed reduced by X feet, cannot take Reactions], [Source duration],
     [*Stunned*], [Incapacitated + cannot move], [Source duration],
@@ -443,6 +443,8 @@ Use the terrain. A pillar, a flipped table, a crouching ally. Anything between y
   outlined: false,
   numbering: none,
 )
+
+The Bane sits on the attack, so on your Defense roll it is a Boon: half cover is a Boon, full cover a triple Boon.
 
 Positioning matters. If you're standing in the open trading shots with archers, you're doing it wrong. Get behind something. Make them work for it. The difference between a dead hero and a living one is often the pillar they hid behind during the first volley. Use the terrain. It's the one ally that never misses a session.
 
