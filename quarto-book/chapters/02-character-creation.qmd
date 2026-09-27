@@ -201,7 +201,7 @@ Record your Class Discipline (one rank) and signature ability. See @sec-chapter-
 
 === Step 7: Spend Class DP
 
-You have *12 DP at level 1* (8 DP of class training plus the 4 DP every hero gains at level 1, per @sec-chapter-advancement). Again: spend every one. This is where you buy skills and abilities, combat techniques, spells, and talents are all just abilities with different flavors. Your class lists favored skills and a Discipline cost table; everything else follows the cost structures in @sec-chapter-classes Cards cost 2/4/8 DP regardless of class (see above). Lean into what your class does best.
+You have *12 DP at level 1*: 8 DP of class training plus the 4 DP every hero gains at level 1, per @sec-chapter-advancement Again: spend every one. This is where you buy skills and abilities, combat techniques, spells, and talents are all just abilities with different flavors. Your class lists favored skills and a Discipline cost table; everything else follows the cost structures in @sec-chapter-classes Cards cost 2/4/8 DP regardless of class (see above). Lean into what your class does best.
 
 Adept-tier skills and abilities unlock at Level 3. Master-tier at Level 7. At Level 1, everything you buy is Novice. That's fine. Novice means you're trained. You'll take the higher cards later.
 
