@@ -1126,3 +1126,63 @@ ruled-but-unbuilt (row 212 now reads IMPLEMENTED); words 84,700 -> **84,711** (+
 next act is either the review (if Bruce asks) or the next unassessed gap. The named content ceiling is
 unchanged: printed play stops at level 2, and `05:405`'s flat `+2` is the one mechanical lead the sweep
 handed on.
+
+## Cycle 43 (2026-09-27) - THE STATE OF THE GAME, rewritten: the class shelf is swept clean, and the damage law's blind spot is measured
+
+**Queue state at scan.** 0 open PRs, 0 open issues, ledger **212** rows with none ruled-but-unbuilt,
+assessment 9 of 9. Priority 1 fired: when the queue is empty the act is the review, and it outranks
+everything else.
+
+**The review, rewritten** (`docs/design/architect/review.md`, PR #744, squash `04e641e`, 12 insertions / 10
+deletions against cycle 41's text). Book source `90f7d11` (chapters at `edbe563`, 84,709 words, 399 pages).
+Previous verdict kept in one line; **what changed in the GAME** stated rather than what changed in the
+tracker: the class-ability corpus was swept and *Leverage* now fires (`05:568`, PR #742). Three consequences
+landed in the file: §1's "attacks always hit" row loses its caveat (the promise now holds with no printed
+exception), §4's dated correction is updated (Leverage is live, but it is a damage-conversion support rather
+than the information ability the paragraph once claimed), and the former weakest item 2 is closed in place,
+dated, with the evidence. Weakest list re-ranked by harm at a table: the priority gap (41 of 49), the lone
+damage figures below, Adept as the tightest tier (81% of the pool in one Standard fight), the flagship
+teaching example.
+
+**What this cycle measured, and it is the new finding.** Cycle 42's sweep handed on exactly one lead
+(`05:405`, a flat `+2`) and left it standing as out of scope. It was measured rather than filed: new
+instrument `scripts/lone-damage-census.py` (skill, not repo) grades every `N damage` figure that is not part
+of a slash triple against the live rows, with `--selftest` (7 checks, including a planted Basic-card 2 that
+must read legal and a planted ability 2 that must read OFF). Over 25 chapters: **233 lone figures, 35
+off-row candidates, every one read, 5 in the defect class**, and all five print `2`, a figure on no live row
+(4/6/8, 5/8/11, 7/10/14) and the RETIRED Novice Weak value: the Backlash Table's faces 4 and 5 (`05:404`,
+`05:405`), *Toxic Bloom* (`05:711`), *Volatile Surge* (`05:712`), and the fumble table's *Spell Backfire*
+(`06:200`). Two of the five carry a second consequence: `05:405` is unresolvable as written (a player rolling
+a 5 on the Unbalanced's backlash must ask what the target takes "+2" of) and it is the book's **only**
+surviving flat damage rider once the sweep vocabulary includes `takes +N` rather than only `adds +N damage`;
+*Toxic Bloom* spends a full Action and its once-per-scene for a figure the Novice row's own Weak value
+exceeds. Boundaries read and NOT flagged, recorded so a later pass does not re-file them: `05:639` Serrated
+Edge's 2 (a gated rider, 4+2=6), the cantrip 1/3 band (`11:52-108`), `11:173`'s dividing rider, `13:284`'s
+off-hand 1, `13:395`'s bleed tick, `15:187` caltrops, `15:202` oil, `15:295` mount fall, `20:78`/`20:393`/
+`20:463` stat-block clauses, and seven worked-example arithmetic sites.
+
+**The instrument's own vocabulary was wrong twice, and both directions are the recorded trap.** The first
+pattern matched the `1` in `+1 damage tier` and returned 35 hits that were not damage figures at all; the
+second missed `2 force damage`, `8 radiant damage` and `3 lightning damage` because an adjective sits between
+the number and its noun, which made `06:200` invisible to the census that exists to find it. An audit is
+bounded by its vocabulary, the OFF list is a lower bound, and the count is not the finding until each
+candidate is read. The repair the finding supports needs no new rule: the four earlier band sweeps moved
+retired figures onto the live row by **position** (retired Novice Weak 2 to live Novice Weak 4), and that map
+settles all five sites.
+
+**Instruments re-run against `origin/main`:** `rounds-to-resolve.py` **PASS** 3.79 / 3.73 / 3.27 with the
+resource line (one Standard fight spends 73.0 / 81.0 / 71.5% of the per-respite pool); `wound-spiral.py`
+**PASS** (bounded, Adept tail unchanged at 3.4%); `bestiary-role-census.py` (45 of 49 decide their turn, 8 of
+49 cue priority, 41 of 49 with no party-facing cue); `class-shelf-cost-census.py` (36 Novice class options:
+4 Action / 11 Maneuver / 21 triggered); `canon-index.py` calibration **OK** (75 = 75; 208 cards + 90 class
+abilities = 298); native-Typst gate **exit 0**.
+
+**Audit and merge, mine.** File set exactly the one review file; added lines carry **0** em-dashes; every
+number in the document was produced this cycle or carried from a named instrument; and every citation changed
+in the diff was re-read against `origin/main` at the exact line (`05:404`, `05:405`, `05:612-615`, `05:711`,
+`05:712`, `06:200`, `08:225`, `09:48`, `13:347`, `20:32`). Branch deleted on merge, tree clean, one
+checkout, no worktrees.
+
+**Next.** The review's named next act, filed as a work order this cycle: the **lone-figure sweep**, five
+figures across two chapters, repaired by the positional map rather than by repricing. Standing content
+ceiling unchanged: printed play stops at level 2, and the book ships one adventure.
