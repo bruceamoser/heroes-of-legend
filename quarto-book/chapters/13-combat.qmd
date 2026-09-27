@@ -82,6 +82,16 @@ Maneuvers beyond the basics are weapon maneuvers, gated by Disciplines rather th
 
 #pagebreak()
 
+== Playing Your Turn Well
+#label("sec-playing-your-turn-well")
+
+- Your *Maneuver* is worth more banked for *Defend* than spent on movement you did not need. You can trade an *Action* down for an extra *Movement* or *Maneuver*, but you can never trade a *Maneuver* up into a second *Action*.
+- Half cover puts a Bane on attacks against you and full cover a triple Bane, and on your Defense roll that becomes a Boon and a triple Boon. Cover costs no *Action*, no *Maneuver*, and no skill, only where you chose to stand.
+- You get one *Reaction* per round, and it goes to an opportunity attack, a shield block, or a triggered ability such as the *Riposte* weapon maneuver. A *Reaction* still unspent when the round ends is a turn you paid for and did not use.
+- The side with more actions controls the board, so dropping one creature removes its actions from every round that remains while spreading damage across three creatures removes none. Count actions, not just hit points, and focus your fire.
+- Magic always fires: the spell goes off, and the roll decides only whether it lands as a Weak sputter, a Standard blast, or a Strong inferno. The hero standing furthest back is often carrying the party's damage, so put them behind the line, not beside it.
+- *Catch Breath* is a Basic Maneuver that returns a third of your maximum HP, usable a number of times per combat equal to your Grit. That recovery is paid for in attacks not made and in the *Defend* you did not take, so decide before your turn, not during it.
+
 == Making an Attack
 
 Attacks always hit. Say it with me: _always hit._ When you swing your weapon or hurl a spell, you connect.
