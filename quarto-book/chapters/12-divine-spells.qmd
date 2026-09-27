@@ -93,29 +93,29 @@ _See @sec-chapter-magic-system for how spellcasting works._
 === Mending Touch (Novice Divine Spell)
 *Disciplines:* 1 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Bane
 
-*Weak:* Restore 2 HP.
+*Weak:* Restore 4 HP.
 
-*Standard:* Restore 4 HP.
+*Standard:* Restore 6 HP.
 
-*Strong:* Restore 6 HP, remove one Bane from the target, and the healed target gains a Boon on their next check.
+*Strong:* Restore 8 HP, remove one Bane from the target, and the healed target gains a Boon on their next check.
 
 === Restoration (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Condition
 
-*Weak:* Restore 6 HP.
+*Weak:* Restore 5 HP.
 
-*Standard:* Restore 9 HP.
+*Standard:* Restore 8 HP.
 
-*Strong:* Restore 12 HP and end all conditions on the target.
+*Strong:* Restore 11 HP and end all conditions on the target.
 
 === Tide of Life (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Healing
 
-*Weak:* Restore 6 HP to each ally in range.
+*Weak:* Restore 5 HP to each ally in range.
 
-*Standard:* Restore 9 HP to each ally in range.
+*Standard:* Restore 8 HP to each ally in range.
 
-*Strong:* Restore 12 HP to each ally in range.
+*Strong:* Restore 11 HP to each ally in range.
 
 === Flesh Renewal (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch, 3 rounds · *Keywords:* Recurring
@@ -134,11 +134,11 @@ _See @sec-chapter-magic-system for how spellcasting works._
 === Soulmend (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Wound
 
-*Weak:* Restore 6 HP.
+*Weak:* Restore 5 HP.
 
-*Standard:* Restore 9 HP.
+*Standard:* Restore 8 HP.
 
-*Strong:* Restore 12 HP; a target at 0 HP rises to 1 HP without a Wound.
+*Strong:* Restore 11 HP; a target at 0 HP rises to 1 HP without a Wound.
 
 === Death Relented (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Wound
