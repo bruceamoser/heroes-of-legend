@@ -1327,3 +1327,41 @@ clean line) because it compares ch11's own printed total against the parse. A th
 same way: the guard compared the whole corpus against one chapter's claim, and now compares per chapter.
 That is the standing lesson restated for this dimension: a checker's own parse is a hypothesis, and a
 screen that has only ever printed green is decorative.
+
+## Re-assessment 2026-09-27 (cycle 38) - Assessment 9 (bestiary and GM tools), re-run from a census
+
+**Why it re-runs.** The review ranked the bestiary's silence as its top **open** weakness ("no block says
+how to play it"). That is a count dressed as a judgement, so it was counted before it was repaired. New
+instrument: `scripts/bestiary-role-census.py`, which parses the 49 blocks out of `origin/main` and asks one
+question per block - does the block's own text decide what the creature does with its turn.
+
+**The measure** (coverage guard green: 49 parsed, 49 `=== ` headings; vocabulary printed with the output,
+because an audit is bounded by its vocabulary):
+
+| Question | Count | Verdict |
+|---|---|---|
+| blocks whose own text decides the turn (Multiattack, Recharge, condition on a hit, a second attack line, casting, positioning/support, reaction) | **45 of 49** | GOOD |
+| blocks with an attack line and passives only | **4**: Swarm of Rats, Guard, Zombie, Fire Elemental | OK, simple by design, each turn unambiguous |
+| blocks carrying any who/when cue | **8 of 49** (4 of them only "fight next to an ally") | the gap, and it is a frame gap, not a content gap |
+| blocks carrying a `Morale:` clause | **0 of 49**, against **2 of 2** in the adventure's blocks (`19:312`, `19:351`) | BAD, now reconciled: two stat-line populations, one field |
+| the who/when rule itself | printed in full at `13:307` to `13:334` | GOOD, and ch20 never pointed at it |
+
+**Verdict: OK, repaired.** The bestiary is a sound reference and a silent GM tool, and the silence is two
+axes wide rather than 49 blocks wide: the fields give capability, and a DA is left to choose targets and
+to remember that morale exists. The repair is the frame, not per-creature content: one paragraph after
+ch20's field table naming both axes, plus `#label("sec-morale")` so the pointer has a target (`13:307` was
+unlabelled). PR #734, `1309460`, 399 pages unchanged, no number moved.
+
+**Two defects in the instrument itself, both caught by `--selftest` before any count was quoted.**
+(1) `\btargets?\b` matched mechanical sentences ("target is knocked Prone", "latches onto the target")
+and reported **17** priority cues where **8** exist, which is the skill's own marker law: a marker must
+name a turn effect, never a clause that merely shares a word with one. (2) The condition vocabulary read a
+defence line as an offence ("immune to Frightened" as a condition on a hit), so defence lines are excluded
+from cue matching, and the selftest plants exactly that shape.
+
+**What this changes.** The next pass over the bestiary should not author 49 role lines: that premise is
+refuted. It should check the one field the adventure prints and the bestiary does not (`Morale:`), now the
+only structural difference between the two stat-line populations, and it should judge whether a short
+player-facing tactics primer belongs in ch19 or is already delivered by `19:57` to `19:59`. The census is
+re-runnable (`--rev <ref>`), so the count moves if the corpus does, and the coverage guard exits 2 rather
+than printing a clean line when a format change outruns the parser.

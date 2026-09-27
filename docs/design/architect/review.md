@@ -170,6 +170,11 @@ nothing else, so 49 creatures have no role line, no preferred target, no idea wh
 her turn. Compare the trait lines, which do the frame conversion properly (Pack Tactics, Leadership and
 Marshal Undead all print "(a Bane on the defender's roll)"). The blocks are sound and dramatically mute.
 
+*Corrected 2026-09-27 (cycle 38).* Measured, "mute" is too strong and lands on the wrong axis: 45 of the
+49 blocks decide their own turn, so the reader is not left to invent **what** a creature does, only **who**
+it does it to and **when** it stops, and the answer to the second of those is printed in full at `13:307`.
+See item 4 under *What is weakest* for the census and the repair.
+
 **The GM's seat is the strongest chapter in the book.** `19:53` states the encounter budget in the same
 currency as the pool the party actually has (`HP x (Grit + 1)` plus what Catch Breath returns) and prices
 the four difficulties as fractions of a day: Easy about half, Standard about three quarters, Hard the whole
@@ -245,6 +250,18 @@ needs the sentence that says so.
 
 **4. The bestiary is mute.** 49 mechanically sound entries with no role or tactics clause. A new DA has to
 invent how every creature behaves, and the chapter that teaches encounter building is a different chapter.
+
+*Corrected 2026-09-27 (cycle 38), by census rather than by re-reading.* The blocks are not mute about
+what a creature **does**: 45 of the 49 decide their own turn (a Multiattack, a Recharge ability, a
+condition on a hit, a second attack line, a casting line, a positioning or support clause, a reaction),
+and the four that do not (Swarm of Rats, Guard, Zombie, Fire Elemental) are simple by content, with an
+unambiguous turn. What is nearly absent is priority: 8 of 49 carry any who-or-when cue and four of those
+are only "fight next to an ally". So the DA's invention is smaller than this item claims, and it lives
+on two axes, not on 49 blank entries. The second axis was already printed in full at `13:307` (Morale),
+and the starter adventure's blocks each carry a `Morale:` clause (`19:312`, `19:351`) while the bestiary's
+carry none, so the two stat-line populations disagreed and nothing said how. Repaired in ch20 with one
+paragraph naming both axes and a label on the Morale section: PR #734. The item stands, twice smaller
+than written.
 
 **5. The Leader's Novice turn is administration.** Three of four rank-1 options grant a modifier and pass.
 

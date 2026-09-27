@@ -870,3 +870,63 @@ were stale inside a minute, so the only check that counts is a read at the point
 
 **Next.** The review's weakest item 3: **the Master-tier payoff** - what a Master actually gains across
 the ladder (damage per DP 3.00 -> 2.00 -> 1.25) and whether the top of it is a payoff or larger numbers.
+
+
+---
+
+## Cycle 38 (2026-09-27) - the bestiary's silence, counted: the blocks say what a creature DOES, and the missing axis was printed in another chapter
+
+**SENSE.** 0 open PRs, 0 open issues, 209 ledger rows with none ruled-but-unbuilt, 9 of 9 assessed, all
+walkthroughs played, dispatch on, checkout clean on `main` at `4b6f542`, one worktree, no stray branches.
+
+**Why the cycle did not start with cycle 37's named next item.** Item 3, the Master-tier payoff, is CLOSED,
+and that was verified before any work began: row 167 decided "state the intent, no reprice", and the
+paragraph is printed at `10:58` and reads 1 hit in the built PDF's text layer ("tier buys impact, not
+efficiency"). So the item is measured (damage per DP 3.00 / 2.00 / 1.29), decided (invariant 4 leaves no
+lever but language) and landed. Item 4 is the top item still open, so it got the cycle.
+
+**The measurement, and it refutes the review's own claim.** `scripts/bestiary-role-census.py` (new) parses
+the 49 blocks out of `origin/main` and asks one question per block: does the block's own text decide what
+the creature does with its turn. **45 of 49 do** - a Multiattack, a Recharge ability, a condition on a hit,
+a casting line, a positioning or support clause, a reaction, and in 33 blocks a second attack line, which
+is a target or range choice every round. Four are simple by content (Swarm of Rats, Guard, Zombie, Fire
+Elemental) and each of those turns is unambiguous. **8 of 49 carry any who-or-when cue**, and four of those
+are only "fight next to an ally". So the DA's invention sits on the two axes the block leaves open, not
+spread across 49 mute entries.
+
+**And the second axis was already printed, in another chapter.** `13:307` is a full Morale section ("NPCs
+and monsters don't fight to the death by default") with its own table and its own list of automatic checks;
+the starter adventure's blocks each carry a `Morale:` clause (`19:312` "mindless, fights until destroyed",
+`19:351` Kelvath); none of the 49 bestiary blocks does. Two stat-line populations, one field, and nothing in
+either chapter saying how they reconcile. ch20's "Reading a Stat Block" documented seven fields and neither
+axis.
+
+**Two defects in the instrument were caught by its selftest before any count was quoted.** `\btargets?\b`
+matched mechanical sentences ("target is knocked Prone", "latches onto the target") and reported 17 priority
+cues where 8 exist; and the condition vocabulary read the defence line "immune to Frightened" as a condition
+on a hit. Both are the skill's own marker law, that a marker must name a TURN EFFECT and never a clause that
+shares a word with one, and both are why the census prints its vocabulary beside its counts and exits 2 on a
+short parse instead of printing a clean line.
+
+**Landed as a micro-PR of my own, with no dispatch (PR #734, squash `1309460`).** One paragraph after ch20's
+field table naming both axes, and `#label("sec-morale")` on the line after `== Morale` so the pointer has a
+target (the section was unlabelled; the label is unique book-wide). No rule added, no per-creature content
+authored, no `Morale:` field added to the format table, no band / DR / HP / Grit number touched. Audit: 2
+files, 3 insertions, 0 deletions; added lines carry 0 em-dashes, 0 damage dice, 0 markdown bold, 0 flat
+riders, 0 roll modifiers; native-Typst gate 0 over 26 files; independent build 0 at **399 pages, unchanged**;
+the new crossref reads **(Section 15.12)** in the render; off the branch `rounds-to-resolve.py` PASS (3.79 /
+3.73 / 3.27) and `da-walkthrough.py` PASS 49/49.
+
+**State at cycle 38.** Book at `1309460`; 0 open issues, 0 open PRs; one checkout, clean tree, no worktrees;
+the four remote refs left by cycles 35-37 were proven landed (ancestor test, `git cherry` for the
+squash-merges, merged-PR check) before anything was deleted, and `fix/20-running-the-block` was removed by
+its own merge. Words 84,496 -> **84,572** (+76); ledger **210** rows, none ruled-but-unbuilt; pages **399**
+(unchanged).
+
+**Next.** Item 5 (the Leader's Novice shelf) is next by harm and is **INTENT, so it is Bruce's**: three of
+the class's four rank-1 options hand out a modifier and pass the turn, and repairing it means replacing
+printed abilities, which is an authorship call about what the class is, not a fit problem with a derivable
+answer. The one BALANCE item left is **item 6, the example of play at `01:156`**: it prints a total the
+reader cannot derive, because Kael adds Agility where the Basic Melee floor adds Brawn (`09:232`) and the
+substitution is a talent, Precision, printed once in another chapter (`09:48`) and never named in the
+example. A LEARNABLE defect with a one-clause repair. That is the next cycle's target.
