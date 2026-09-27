@@ -118,7 +118,7 @@ Improvised weapons (a crowbar swung as a club, a hammer in a pinch) deal 1/1/2 +
 ])
 
 #callout(type: "note", title: "Armament Categories", body: [
-A weapon's category is its entry requirement: 1 Melee, 2 Two-Handed, 1 Ranged, and no rank for Unarmed. The named weapon is flavor; the category is the gate.
+A weapon's category is its entry requirement: 1 Melee, 1 Two-Handed, 1 Ranged, and no rank for Unarmed. The named weapon is flavor; the category is the gate.
 
 A shield takes 1 Shields. A weapon or shield you carry does what its entry says; a card that requires a shield requires you to be wielding one.
 ])
@@ -151,7 +151,7 @@ Armor is what you wear, and it is worth its points in DR: light grants 1, medium
   outlined: false,
 )
 
-Shields: *Buckler* (1 Shields), *Shield* (1 Shields), *Tower Shield* (2 Shields, provides half cover). A shield enables Parry and Shield Block. See @sec-chapter-armor-shields
+Shields: *Buckler* (1 Shields), *Shield* (1 Shields), *Tower Shield* (3 Shields, provides half cover). A shield enables Parry and Shield Block. See @sec-chapter-armor-shields
 
 == Encumbrance
 
