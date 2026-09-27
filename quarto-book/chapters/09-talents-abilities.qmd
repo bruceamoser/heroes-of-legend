@@ -20,17 +20,17 @@ Bonuses from different talents stack. The same talent cannot be taken more than 
 
 == Talents
 
-The talents below are general. Any class may take any of them, though a talent that lists a Discipline requirement is gated by it like any other card. A talent may also require gear, and a talent that grants gear grants the named gear and nothing else.
+The talents below are general. Any class may take any of them, though a talent that lists a Discipline requirement is gated by it like any other card. A talent may also require gear; gear itself is not bought, it is granted, earned, or taken, and its properties live in @sec-chapter-equipment
 
 === Fortune's Favor (Novice Talent)
 *Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* Reroll
 
-*Novice:* Once per session, reroll one natural 1, 2, or 3.
+*Novice:* Once per session, reroll one die.
 
 === Turn the Bones (Novice Talent)
 *Disciplines:* None · *Action:* Reaction · *Range:* Self · *Keywords:* Reroll
 
-*Novice:* Once per scene, reroll any one die.
+*Novice:* Once per scene, reroll one natural 1, 2, or 3.
 
 === Combat Reflexes (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Reaction
@@ -114,7 +114,7 @@ These six talents are the substitution family. Only one substitution applies to 
 === Miracle Worker (Novice Talent)
 *Disciplines:* None · *Action:* Reaction · *Range:* 30 ft · *Keywords:* Healing
 
-*Novice:* Once per session, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain half their maximum HP.
+*Novice:* Once per session, when an ally within 30 ft drops to 0 HP, they drop to 1 HP and regain 6 HP.
 
 === Arcane Sensitivity (Novice Talent)
 *Disciplines:* None · *Requires:* focus:arcane · *Action:* Passive · *Range:* Self · *Keywords:* Spell
@@ -124,7 +124,7 @@ These six talents are the substitution family. Only one substitution applies to 
 === The Full Ledger (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell
 
-*Novice:* Once per scene, cast any spell you know a second time.
+*Novice:* Once per scene, cast an Adept or lower spell you know a second time.
 
 === Spell Storm (Novice Talent)
 *Disciplines:* None · *Action:* Passive · *Range:* Self · *Keywords:* Spell, Area
@@ -307,11 +307,11 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 === Cleave (Weapon Maneuver)
 *Disciplines:* 2 Melee · *Requires:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Chain
 
-*Weak:* Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage.
+*Weak:* Hit one target for 4. If it drops to 0 HP, hit an adjacent enemy for 4.
 
-*Standard:* Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage.
+*Standard:* Hit one target for 6. If it drops to 0 HP, hit an adjacent enemy for 6.
 
-*Strong:* Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage.
+*Strong:* Hit one target for 8. If it drops to 0 HP, hit an adjacent enemy for 8.
 
 === Pinpoint Strike (Weapon Maneuver)
 *Disciplines:* 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Piercing, Damage
@@ -375,7 +375,7 @@ This DR does not stack with any other source of DR.
 
 *Strong:* The target drops the weapon.
 
-=== Trip (Weapon Maneuver)
+=== Leg Sweep (Weapon Maneuver)
 *Disciplines:* 2 Two-Handed · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone
 
 *Weak:* The target is Prone.
@@ -384,7 +384,7 @@ This DR does not stack with any other source of DR.
 
 *Strong:* The target is Prone and loses its Action.
 
-=== Charge (Weapon Maneuver)
+=== Headlong Rush (Weapon Maneuver)
 *Disciplines:* 2 Two-Handed · *Action:* Action · *Range:* Melee · *Keywords:* Movement, Damage
 
 *Weak:* Move up to your Speed and make one attack at +1 damage tier.
@@ -431,14 +431,14 @@ This DR does not stack with any other source of DR.
 
 *Strong:* +1 damage tier against a wounded target.
 
-=== Throw (Weapon Maneuver)
+=== Heave (Weapon Maneuver)
 *Disciplines:* 1 Ranged · *Requires:* weapon:ranged · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
 
-*Weak:* Throw a weapon up to 30 ft at +1 damage tier.
+*Weak:* Heave a weapon up to 30 ft at +1 damage tier.
 
-*Standard:* Throw a weapon up to 30 ft at +1 damage tier.
+*Standard:* Heave a weapon up to 30 ft at +1 damage tier.
 
-*Strong:* Throw a weapon up to 30 ft at +1 damage tier.
+*Strong:* Heave a weapon up to 30 ft at +1 damage tier.
 
 === Breakthrough (Weapon Maneuver)
 *Disciplines:* 2 Two-Handed · *Action:* Action · *Range:* Melee · *Keywords:* Movement, Prone
