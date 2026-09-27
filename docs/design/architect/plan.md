@@ -639,3 +639,22 @@ the **change-one-number** pass next: it is the designer's form of an audit, it n
 (the instruments for bands, tiers and DP cost already exist), and the boredom pass just proved how much of
 a design question hides behind a single printed number.
 
+
+## Cycle 31 (2026-09-27) - #719 landed, and the one-roll law's third population split into 2 defects and 11 questions
+
+**Priority 1 returned zero for the fifth cycle** (`needs Bruce` 0, no status cell begins open/pending, 9 of 9 assessed), so the cycle landed the one ruled row: **#719** - the Thaumaturgy decision cycle 30 recorded - as the cycle's work order.
+
+**The dispatch was clean because the decision was already fixed.** Worktree `fix/719-thaumaturgy` from `origin/main`, spec seeded inside the worktree as `.task-spec.md` with the chosen text ONLY (the issue's options B/C/D were deliberately not carried into the spec, because an agent transcribes what it reads and reads top-down). The spec's OLD line was asserted byte-identical against the file before dispatch (`line 74 == OLD`, occurrences in file: 1), which is the dispatch gate that costs nothing and catches a spec written from recollection.
+
+**Audit (mine, not the agent's report).** Exactly 1 file changed, 1 insertion / 1 deletion; the added line carries 0 damage dice, 0 em-dashes, 0 markdown bold, 0 flat riders; `check-native-typst.py` exit 0; **an independent rebuild of my own** exit 0 at **399 pages**; and the built PDF read at the card so the ruling is verified in the RENDER, not the diff: `flees for 1 round` 1 hit, `Hostile creatures of Novice` 0 hits book-wide. Merged as **PR #721, squash `0582e50`**, branch deleted local and remote, worktree removed, #719 closed with the evidence attached.
+
+**The cycle's find is a population split, not a new card defect.** #719 and row 200 closed the one-roll law on the card corpus; the sweep's follow-on then grepped the law book-wide, where it is live in a **third** population - monster stat blocks - and reading every site split it cleanly in two:
+
+- **2 sites are the rows-38/200 class exactly**: Dire Wolf *Knockdown* (`20:52`) and Ghoul *Paralyzing Touch* (`20:277`) each key their effect to the attack's own tier ("On Strong hit") and then demand a target check. For an NPC attack the player's Defence Roll has already happened and picked the monster's damage value, so the check is a second roll for one exchange, forbidden by `13:161`. Filed as work order **#722** with both exact lines and a do-not-convert list; not dispatched, because the cycle's one work order was #719.
+- **11 sites are a mechanism fork, not a balance defect**: Hex, Petrifying Gaze, Luring Song, Charm, Frightful Presence, Stunning Screech, Mind Reading, Rooted Grasp, Whelm and Kelvath's Tidal Surge impose a condition with a resistance check and **no attack attached**. There is no roll to key them to, so deleting the check would make a Challenge 3-6 aura automatic (Frightful Presence auto-Frightening, Petrifying Gaze auto-Restraining). Recorded as **row 203**, classified INTENT with the keep-and-name-it recommendation, because abandoning the check needs a mechanism the book does not print - and inventing one is new law, not a repair.
+
+**Five sites read and dismissed as compliant**, so the next pass does not re-file them: the three *Relentless* traits (the monster's own check), the Stirge's detach check (`20:86`, a Maneuver the hero spends - the printed Escape shape, `13:265`), the ch19 environmental hazards, and five player-facing self-rolls (`04:179` Indomitable, `05:544` Disrupt, `05:546` Arcane Override, `10:114` the opposed effect-ending procedure, `11:61` Ghost Sound).
+
+**State at cycle 31.** Book at `0582e50`; **1 open issue (#722), 0 open PRs**; one checkout, clean tree; PDF 399 pages at **84,253 words** (+1, which is the line's net word change). Gates on the cycle: native-Typst 0 (26 files), canon-index calibration OK (ch11's 75 claimed = 75 parsed), pacing PASS (3.79 / 3.73 / 3.27 rounds at Novice / Adept / Master, inside the 3-4 window), ledger 203 rows with no ruled-but-unbuilt row.
+
+**Next: the change-one-number pass and the flavour pass are still the two walkthroughs never played**, and the queue is one dispatchable work order deep (**#722**, the two-trait fix, spec already fixed in the issue body). Dispatch #722 first: it is a two-line change with a verified scope table, and the pass after it should be the **change-one-number** pass, which needs no new corpus parse and was deferred by cycles 30 and 31 in favour of live defects.
