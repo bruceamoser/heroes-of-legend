@@ -560,7 +560,7 @@ Spells are the most structured. Every spell card answers the same questions in t
     [*Action*], [What it costs from the turn economy: Action, Maneuver, or Reaction.],
     [*Range*], [How far the spell reaches: Touch, 30 ft, 60 ft, Self (15-ft cone), 20-ft radius, etc.],
     [*Keywords*], [Mechanics the card interacts with: Bane, Boon, Prone, Slowed, Piercing, DR, and so on.],
-    [*Weak / Standard / Strong*], [What happens on each result. Damage uses the budget table: 4/6/8, 5/8/11, or 7/10/14 by tier (@sec-damage-budget) A spell that grants a flat benefit and is never rolled replaces this block with a single *Effect:* line. So do ancestry gifts, and so does any ability that grants a standing benefit rather than an outcome.],
+    [*Weak / Standard / Strong*], [What happens on each result. Damage uses the budget table (@sec-damage-budget): 4/6/8, 5/8/11, or 7/10/14 by tier. A spell that grants a flat benefit and is never rolled replaces this block with a single *Effect:* line. So do ancestry gifts, and so does any ability that grants a standing benefit rather than an outcome.],
   )],
   kind: table,
   outlined: false,
@@ -592,7 +592,7 @@ Class abilities are more varied than spells, but they all follow a simpler forma
     [*Tier*], [Novice, Adept, or Master. Cards cost 2 DP (Novice), 4 DP (Adept), or 8 DP (Master).],
     [*Discipline Req*], [Disciplines required to purchase this ability. "No prereq" for basic utility abilities.],
     [*Trigger*], [When the ability can be used: "When you attack", "As a maneuver", "When an ally drops to 0 HP", etc.],
-    [*Effect*], [What happens. Damaging abilities key to the damage budget (@sec-damage-budget)],
+    [*Effect*], [What happens. Damaging abilities key to the damage budget (@sec-damage-budget).],
   )],
   kind: table,
   outlined: false,
@@ -656,7 +656,7 @@ Ancestry gifts are the simplest. They have no Discipline requirement (they're in
 )
 
 #callout(type: "tip", title: "Designing Your Own Content", body: [
-When you create a new spell, ability, or gift, start with the template. Fill in every field. If you can't fill a field, your design isn't done. Then check your damage numbers against the budget table (@sec-damage-budget) If the numbers don't match, adjust them. The table is the balance. The template is the form. Together, they ensure your creation plays well with everything else in the book.
+When you create a new spell, ability, or gift, start with the template. Fill in every field. If you can't fill a field, your design isn't done. Then check your damage numbers against the budget table (@sec-damage-budget). If the numbers don't match, adjust them. The table is the balance. The template is the form. Together, they ensure your creation plays well with everything else in the book.
 ])
 
 #pagebreak()

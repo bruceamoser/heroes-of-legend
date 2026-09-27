@@ -64,7 +64,7 @@ These maneuvers are free for everyone. No skill required. No Discipline check. J
     [*Disengage*], [Move 5 ft without provoking opportunity attacks.],
     [*Aid*], [Ally within 30 ft gains a Boon on their next roll before your next turn.],
     [*Shove*], [Brawn against the target's Brawn or Agility as a Challenge. Push target 5 ft (10 ft on Strong).],
-    [*Grapple*], [Initiate a grapple (see @sec-grappling)],
+    [*Grapple*], [Initiate a grapple (see @sec-grappling).],
     [*Command*], [A companion, familiar, or mount under your control takes an extra move.],
     [*Catch Breath*], [Regain one third of your maximum HP (round up). Uses per combat equal your Grit.],
     [*Search*], [Active Perception check to spot a hidden creature or clue.],
