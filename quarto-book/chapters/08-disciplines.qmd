@@ -235,6 +235,21 @@ Every damaging card states its expression in its damage line as either *Flat* or
 Weapons follow the cards, not their own curve: an attack ability card carries the damage (see the Equipment chapter for what each weapon unlocks). Melee attacks add Brawn; missile and thrown weapons are flat.
 ])
 
+== Healing Thresholds
+#label("sec-healing-thresholds")
+
+Damage is a number on a table. Healing is not a number at all. A healing spell carries no row on any table and adds nothing: it takes the target's HP to a *threshold* of their maximum.
+
+- *Weak:* the target's HP rises to half their maximum.
+- *Standard:* the target's HP rises to their maximum.
+- *Strong:* the target's HP rises to their maximum, plus whatever rider the card prints.
+
+Round half of an odd maximum up. A heal never lowers HP, and a hero already at or above the threshold gains nothing from it. That is the point: the healer's Action answers the moment, not the arithmetic.
+
+*The ladder is not in the numbers.* A healing card never climbs a row, so a Novice heal is worth an Action at Master too. What the tiers buy is reach, targets and riders: a Novice heal serves the hand that touches it, an Adept heal reaches across the field, and a Master heal serves the party.
+
+*What this does not govern.* A potion, a relic, a class ability or a weapon maneuver that restores HP prints an amount and keeps it: an item is found rather than built and ladders by rarity, and a class ability is its class's own gift. A spell that heals over a duration keeps its printed amounts, because it is budgeted on its total. And a drain that returns a share of the damage it dealt is priced against that damage, never against the target's maximum.
+
 #pagebreak()
 
 == Worked Example: Building a Fire Mage

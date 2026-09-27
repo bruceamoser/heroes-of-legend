@@ -93,29 +93,29 @@ _See @sec-chapter-magic-system It explains how spellcasting works._
 === Mending Touch (Novice Divine Spell)
 *Disciplines:* 1 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Bane
 
-*Weak:* Restore 4 HP.
+*Weak:* The target's HP rises to half its maximum.
 
-*Standard:* Restore 6 HP.
+*Standard:* The target's HP rises to its maximum.
 
-*Strong:* Restore 8 HP, remove one Bane from the target, and the healed target gains a Boon on their next check.
+*Strong:* The target's HP rises to its maximum, the target removes one Bane, and the target gains a Boon on their next check.
 
 === Restoration (Adept Divine Spell)
-*Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Condition
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Condition
 
-*Weak:* Restore 5 HP.
+*Weak:* The target's HP rises to half its maximum.
 
-*Standard:* Restore 8 HP.
+*Standard:* The target's HP rises to its maximum.
 
-*Strong:* Restore 11 HP and end all conditions on the target.
+*Strong:* The target's HP rises to its maximum and every condition on the target ends.
 
-=== Tide of Life (Adept Divine Spell)
-*Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Healing
+=== Tide of Life (Master Divine Spell)
+*Disciplines:* 3 Life · *Requires:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Healing
 
-*Weak:* Restore 5 HP to each ally in range.
+*Weak:* Every ally in range rises to half their maximum HP.
 
-*Standard:* Restore 8 HP to each ally in range.
+*Standard:* Every ally in range rises to their maximum HP.
 
-*Strong:* Restore 11 HP to each ally in range.
+*Strong:* Every ally in range rises to their maximum HP and every condition on them ends.
 
 === Flesh Renewal (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch, 3 rounds · *Keywords:* Recurring
@@ -132,18 +132,18 @@ _See @sec-chapter-magic-system It explains how spellcasting works._
 *Effect:* 5/8/11 healing total over 3 rounds; regrow a limb over a day.
 
 === Soulmend (Adept Divine Spell)
-*Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Wound
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* 60 ft · *Keywords:* Condition
 
-*Weak:* Restore 5 HP.
+*Weak:* The target's HP rises to half its maximum.
 
-*Standard:* Restore 8 HP.
+*Standard:* The target's HP rises to its maximum.
 
-*Strong:* Restore 11 HP; a target at 0 HP rises to 1 HP without a Wound.
+*Strong:* The target's HP rises to its maximum and one condition on the target ends.
 
 === Death Relented (Adept Divine Spell)
 *Disciplines:* 2 Life · *Requires:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Wound
 
-*Effect:* Restore 5/8/11 HP; return a creature that died within the last minute to life.
+*Effect:* Return a creature that died within the last minute to life at half its maximum HP.
 
 === Blood Trail (Adept Primal Spell)
 *Disciplines:* 2 Life · *Action:* Action · *Range:* 30 ft · *Keywords:* Divination
