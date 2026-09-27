@@ -27,6 +27,8 @@ that what exists is good.
 | 16 | **The healing and flat-number axes** | Healing was never converted to the live rows (4 cards, fixed in #665; 3 items still need a ruling - rows 170/171). **Cycle 8 closed the third axis: 7 of 7 ch17 item ladders and 5 ch05 Master riders were still on the retired rows and are now on the live ones.** | rows 170/171; flat axes fixed |
 | 17 | **Social conflict: a dead score, and an example that inverts its own rule** | (a) **Passive Insight is a number nothing consumes** - printed as `Knowledge + 7` in three homes (`14:29`, `07:197`, `21:235`), it spans 5 to 9 and reaches Strong 0 times out of 5, while the same paragraph's actual mechanic uses the Knowledge *modifier* as a Challenge. (b) **The worked example applies the attitude shift on a Standard and skips it on the Strong** (`14:114` vs `14:88`/`14:128`), inverting the rule it demonstrates. Both are the smallest possible repair with no new rule. | **MERGED 2026-09-26 (cycle 13): PR #678, main `f0c9af3`, issue #677 closed.** Six sites across 3 files, audited line by line and verified in the render: "Knowledge score + 7" reads 0 in the built PDF, both new Challenge clauses read 1-2, and the worked example's 13 / 13 / 18 and 1+2=3 are unchanged. |
 | 18 | **Three item classes the slot system cannot price, and one dominated weapon row** | (a) A **shield** has no slot cost anywhere (`16`, `22`, `15`): twenty tower shields ride free. Derived value, mirroring the class ladder the shield already uses for entry and DR: small 1 / medium 2 / large 3. (b) **Scholar's robes** sit in three printed builds (`02:362`, `02:403`, `02:641`) and in no table: 1 slot, which is the only value that keeps the tightest build legal (5 of 5 at the floor). (c) A **bundle of thrown weapons** is unpriced (Pip: 9 of 10 as one item, 15 as six). (d) The **Crossbow** prints a thrown weapon's 20/60 band while paying 2 slots and a Loading Maneuver, so the Throwing Dagger dominates it on every printed axis; its band moves to 60/120, the bow ladder's next step, and Loading stays as the identity price with the trade named. | **MERGED 2026-09-27 (cycle 14): PR #682, main `aaab1ca`, issue #680 closed.** Audit re-derived every site: file set exactly the three chapters, 0 em-dashes / 0 dice / 0 retired rows in added lines, native gate exit 0, independent build exit 0, render verified (392 pages, `60/120 ft` 6, `Robes` 2, new `Slots` column present, both bundle sentences). Regression check for the new shield slot cost against every printed build carrying a shield: 02:483 is 8 of 15, 02:600 is 9 of 20, the Protector loadout 8 against a Brawn-keyed pool - all fit, and the tightest build in the book (02:403, 5 of 5) carries no shield. One spec-authored redundancy fixed on the branch (the ladder was restated twice). |
+| 19 | **The bestiary's HP rule counts three rounds of ONE attacker, so a solo creature is not a fight** | `20:659` says "HP = 3 x (your tier's band average minus its DR)" without naming who it is counted against. Measured against the corpus it is one attacker: the 49 blocks average ~1.5 creatures per hero, so each is attacked about once a round. Against a party of four a printed creature dies in **~0.75 rounds**. That is why the pacing window has to be bought with creature COUNT (`19:53`'s six-to-seven), and it is the arithmetic root of row 177's pool collision. It also makes the book's own starter-adventure climax a one-round fight: **Kelvath, the Drowned Warden (`19:325`), HP 8, DR 3, no Multiattack - party output through DR 3 is 13.9 a round, so he dies at 0.58 rounds**, and his scene's 1d4+1-round seal clock, three tactical options and flooding timer can never happen. | **DECIDED 2026-09-27 (cycle 15) - BALANCE, architect, veto to revert.** Name the unit in one sentence at `20:659` and its template mirror ("multiply by the number of heroes who will attack it"), then Kelvath HP 8 -> 32 (3 x 2.67 x 4 attackers), putting his fight at 2.3 rounds inside his own scene's 2-5. No band, no DR and no corpus HP moves: the 49 printed blocks already sit at ~1 attacker each. Work order filed. Reversal: delete the sentence, restore 8. |
+| 20 | **The difficulty ladder's words are not its measured fractions** | Pool = HP x (Grit+1) per hero per respite (`13:341-347`), plus Catch Breath (`13:69`, a MANEUVER restoring ceil(max HP/3), Grit uses per combat: +8/+12/+16 HP per hero per combat). Measured spend across the whole ladder: **Easy 49/53/49 %, Standard 73/80/73 %, Hard 97/106/98 %, Deadly 146/160/147 %**. The shape is right (monotone, evenly spaced, exactly proportional to the 1/1.5/2/3 multipliers, and the top two rungs match their words), but `19:50`'s "Easy ... costs few resources" is really half the day and "the party should win while expending some resources" is really most of it. | **DECIDED 2026-09-27 (cycle 15) - BALANCE, architect, veto to revert.** Smallest lever is the frame: one sentence naming the pool and each rung's measured fraction, the four rung descriptions restated in that currency, plus `19:53`'s own two-quantity fact (total encounter HP sets the fight's LENGTH, creature count sets the drain). No band, HP, DR, Grit or #663 number moves. Work order filed. Reversal: restore the four rung phrases, delete the pool sentence. |
 
 ## Re-assessment 2026-09-26 (cycle 3) — priority 1 was measured, and it holds
 
@@ -218,16 +220,17 @@ what fails is that the book does not tell a player the price it is actually char
 | 5 | Magic and the spell system | **OK on the core loop, BAD on learnability and cohesion.** 114 spell cards (68 arcane, 46 divine); one roll, three rungs, no slots. Bands discriminate from mod -2 to +3 (Weak 48.2% -> 4.6%); damage/DP 3.00 / 2.00 / 1.25. 32 of 114 cards print a damage row; 0 of them on a retired row, but the third band-change axis (flat printed numbers) was still unconverted: 7 of 7 ch17 item ladders + 5 ch05 Master riders, repaired this cycle. Two entry-point rules are unnamed or self-contradicted (the casting skill, the Adept cadence) and the 12-card Primal tradition has no item, no glossary entry, no class, and no place in the tradition rule. | 2026-09-26 |
 | 6 | Social conflict | **GOOD on the extended conflict and the attitude ladder; BAD on two entry-point details.** Face modifier reaches -4 to +7; the conflict discriminates 12.4% -> 100% with a real coin flip at mod -2 (51.2%) and a duration that peaks at 4.02 rounds, on the pacing law's 3-4 through the playable middle. Scoring asymmetry (party scores on Standard, NPC only on Weak) is the pillar; the named cost is that a tense scene needs Challenge +2 or more. Defects: Passive Insight is a dead 5-9 score whose own paragraph uses the Knowledge modifier, and the worked example inverts the attitude-shift rule. | 2026-09-26 |
 | 7 | Equipment | **OK.** No weapon carries a number and no gear adds one beyond DR; post-DR bands read 3/5/7, 3/6/9, 4/7/11 and the printed DR ceilings (3/4/6) sit exactly on the invariant boundary (DR <= Weak-1). Nothing stacks (ruling 145), shields are one source by Shield Block. All nine printed builds fit their slot budget (tightest: Lirael 5 of 5). Fails LEARNABLE on three unpriced item classes (shields, robes, thrown-weapon bundles) and carries one dominated row (the Crossbow: same 20/60 band as a thrown dagger plus a Loading Maneuver, for 2 slots). Two mirror residuals and a phantom gold economy repaired in this cycle's micro-PR (#679). | 2026-09-26 |
-| 8 | Content (classes, disciplines, cards) | not assessed | |
-| 9 | Bestiary and GM tools | not assessed | |
+| 8 | Content (classes, disciplines, cards) | **GOOD.** 196 cards + 90 class abilities = 286 containers, exactly 10 abilities per class; tier split 51 / 52 / 64 / 25 (+4 five-rank capstones); career budget 6 ranks against a deepest printed requirement of 5. Four law gates across nine content chapters read 0 / 0 / 0 / 0. One dead rank found and repaired in-cycle: Sleight rank 2 was priced in all nine class tables and consumed by nothing. | 2026-09-27 |
+| 9 | Bestiary and GM tools | **OK.** 49 stat blocks; HP means 15.1 / 15.0 / 14.0 against the printed rule's 15.0 / 15.1 / 14.0; 82 of 84 damage triples on their own band's row; all 49 DR values inside the band ceiling. BAD on one missing unit: `20:659`'s HP rule counts three rounds of ONE attacker, so a solo creature dies in 0.75 rounds - which is the arithmetic root of the per-respite pool collision (row 177) and of the starter adventure's 0.58-round boss. | 2026-09-27 |
 
-**Coverage: 7 of 9 subsystems, non-contiguous.** Rows 1-7 are assessed; the pacing pass took combat and
-action economy early, on Bruce's ruling 165. Content (8) and the bestiary (9) are still open. Until the
-table is full, the queue is a guess with good manners.
+**Coverage: 9 of 9 subsystems. The sweep is complete.** Both subsystems that were open at cycle 13 are
+assessed, and the two defects they produced are decided and filed rather than queued for a ruling.
 
-**Next (cycle 14):** audit whatever lands next, dispatch the equipment work order filed in cycle 13
-(#680), then assess subsystem 8, content (classes, disciplines, the card library), with the bestiary (9)
-last. Row 177's Catch Breath model gap still needs measuring before any pacing lever is chosen.
+**Next (cycle 16):** audit the dispatched #661 PR and merge it; then dispatch the two work orders filed
+in cycle 15 (`19:50`'s ladder-in-pool-currency frame plus Kelvath's HP; `20:659`'s HP-rule unit). Row
+177's model gap is now measured and its lever chosen, so the pacing queue is unblocked. After those,
+the remaining queue is #675 (crossref punctuation, 15 sites), #668 (magic entry points + Primal) and
+#655 (Fate/Summon).
 
 ## Assessment 5 (first pass, superseded in the same cycle by the audited version below) - Magic and the spell system (cycle 8, 2026-09-26)
 
@@ -955,3 +958,121 @@ above 3.
 **Verdict: GOOD**, with one named defect repaired by decision (Sleight rank 2) and two dead ranks already
 ruled and queued (Fate #655, Summon rows 151/159). The content's law compliance is the strongest measured
 result in the sweep so far: four gates, four zeros, across nine chapters.
+
+## Assessment 9 - Bestiary and GM tools (cycle 15, 2026-09-27) - the last subsystem
+
+**The mechanic as printed.** 49 stat blocks across 17 creature-type sections, Challenge 1/2 to 12
+(`20:36-639`). Heroes and monsters share one rule set (always-hit W/S/S damage, no DP, no levelling,
+0 HP ends it, `20:9`). `20:19` defines the block's eight fields. `20:659` is the creation law: assign
+attributes -2..+2, give 1-3 attacks on the damage budget, add 1-2 abilities, and
+**HP = 3 x (your tier's band average minus its DR)** with band averages 5.67 / 7.50 / 9.59 and
+DR capped at the tier ceiling (3 / 4 / 6). `20:641` mirrors `19:49`'s encounter ladder
+(Easy x1 / Standard x1.5 / Hard x2 / Deadly x3 party level, per hero). ch19's GM tools are the
+difficulty dial, encounter building, treasure pacing, NPC creation, resting plus two variants,
+exploration and travel, crafting, resource management (with an optional resource die), corruption, the
+extended social pointer, a four-scene starter adventure, a seven-point faction reputation track, and
+card templates.
+
+**Instrument.** `scripts/architect-bestiary-census.py` (new, with a planted-defect `--selftest`):
+regex-parses `origin/main`, never a hand-typed copy, and grades every block against the band row, the
+band ceiling and the template.
+
+**Numbers computed, not quoted.**
+
+- **CONFORMANCE - HP: GOOD, and the rule is calibrated to the corpus.** Block means by band are
+  **15.1 / 15.0 / 14.0**; the printed rule predicts **15.0 / 15.1 / 14.0**. The mechanism is that DR
+  absorbs the tier growth: HP stays flat at ~15 while the band's average damage climbs 5.67 -> 7.50 ->
+  9.59, so absorption (HP + 3 x DR) is held roughly constant. The HP guideline is a real gate and the
+  bestiary passes it.
+- **CONFORMANCE - damage: 82 of 84 attack triples sit on their own band's row** (4/6/8, 5/8/11,
+  7/10/14). Both misses are legal: the Archmage's at-will Ember Lance (4/6/8) is exactly one band below
+  its primary Dagger (5/8/11), and the Treant's 4/6/8 belongs to the Lesser Treant its own Animate
+  Trees summons, not to the Treant.
+- **CONFORMANCE - DR: all 49 blocks are inside their band ceiling (3 / 4 / 6).** **The GATE had to be
+  corrected before the number could be trusted:** the census was first written with
+  "DR = Challenge // 2, round down, max 6", which is quoted as bestiary law in the skill itself and
+  appears in **no chapter** (`git grep` book-wide returns zero hits for any Challenge-based DR formula).
+  That invented rule manufactured **25 false deviations** in the first run. The book prints a CEILING,
+  not a formula. Logged as a phantom-rule instance and removed from the instrument.
+- **CONFORMANCE - attack count: 48 of 49 blocks print 1-3 attacks.** The Ancient Dragon prints four
+  (Bite / Claw / Tail / Breath) plus Multiattack - the C12 capstone, and `20:659` is guidance for
+  CREATING a monster, not a gate on a printed one.
+- **RANGE: the Challenge population is C1/2 10, C1 8, C2 5, C3 14, C4 4, C5 4, C6 4, C7 1, C8 1,
+  C10 1, C12 1.** C9 and C11 are empty and the whole Master tier (levels 7-10) holds **4 blocks**.
+  Named cost, not a defect: the encounter rule sizes a Master fight by count (seven creatures), so it
+  is filled from the populated C5-C6 pool, and `19:53` already states the count rises by one as party
+  damage outgrows flat monster HP.
+
+**BAD - the HP rule is missing its UNIT, and it is the invariant behind the pool collision.**
+`20:659` reads "HP = 3 x (your tier's band average minus its DR)". Three of WHAT? Measured against the
+corpus the answer is **three rounds of one attacker**: the 49 blocks average ~1.5 creatures per hero, so
+each is attacked by roughly one hero per round, and the rule is calibrated for exactly that. Against a
+party of four, **one printed creature dies in ~0.75 rounds** - which is why the pacing window has to be
+bought with creature COUNT. `19:53`'s six-to-seven creatures is not a flavour choice; it is the
+arithmetic consequence of a per-attacker unit.
+
+Two measurable consequences, both settled below:
+
+1. **The per-respite pool collision (ledger row 177).** Because the window is bought with count, and
+   count is what sets incoming damage, the drain of a Standard fight is fixed by the rule pair.
+2. **A solo creature is not a fight, and the book's own starter adventure contains one.** Scene 4 of
+   _The Sunken Vault_ (`19:325`) pits a level-1 party of four against **Kelvath, the Drowned Warden**:
+   HP 8, DR 3, **no Multiattack**. HP 8 is exactly what the printed rule yields for a DR-3 Novice
+   creature (3 x (5.67 - 3) = 8.0), so the block is compliant and the fight is still broken. Party
+   output through DR 3 is 1 / 3 / 5 per hit (mod +3 on 3d6: Weak 4.6%, Standard 67.1%, Strong 28.2%),
+   so **E[damage] = 3.47 per hero and 13.9 per round: Kelvath dies inside the party's first round**
+   (8 / 13.9 = 0.58 rounds). The scene is built on a 1d4+1-round seal clock, three tactical options and
+   a flooding timer, and none of them can happen in round one.
+
+**DECIDED (BALANCE, architect, cycle 15, veto to revert).** State the HP rule's unit in one sentence at
+`20:659` and its quick-template mirror - "multiply by the number of heroes who will attack it" - then
+apply it to the solo boss the book itself prints: **Kelvath's HP 8 -> 32** (3 x (5.67 - 3) x 4
+attackers), which puts his fight at **2.3 rounds** inside his own scene's 2-5 round seal clock. No band,
+no DR and no printed creature HP moves: the 49 corpus blocks already sit at ~1 attacker each, so the
+sentence is a clarification for them and a correction only where a creature stands alone. Work order
+filed with the exact text. **Reversal: delete the sentence and put 8 back.**
+
+**ROW 177 - the ladder's words are not its fractions. Settled on the completed model.**
+
+- **Invariant:** a difficulty ladder must be *discriminating and survivable across its whole range* -
+  each rung a distinct fraction of the party's per-respite pool, none above it - **and the words on a
+  rung must be the fraction it actually costs.**
+- **The row's named model gap, closed first.** Catch Breath (`13:69`) is a **Maneuver, not an Action**
+  (it sits in the Basic Combat Maneuvers table, `13:59-69`), and it restores ceil(max HP / 3) with uses
+  per combat equal to Grit. So it costs no attack: it adds **4 x Grit HP per hero per combat** -
+  **+8 / +12 / +16** at Novice / Adept / Master - raising the absorbable total from 36 / 48 / 60 to
+  **44 / 60 / 76 per hero**.
+- **Measured across the WHOLE ladder** (pool = HP x (Grit+1) per hero per respite, `13:341-347`, plus
+  the Catch Breath term; rungs scale with the challenge multiplier):
+
+  | rung | x party level | spend, Novice / Adept / Master |
+  |---|---|---|
+  | Easy | x1 | 49 / 53 / 49 % |
+  | Standard | x1.5 | 73 / 80 / 73 % |
+  | Hard | x2 | 97 / 106 / 98 % |
+  | Deadly | x3 | 146 / 160 / 147 % |
+
+- **Verdict: the SHAPE is right, the bottom two rungs' WORDS are wrong.** The fractions are monotone,
+  evenly spaced, and exactly proportional to the multipliers 1 / 1.5 / 2 / 3; the top two rungs match
+  their printed words (Hard "significant resource drain and possible casualties" at ~100%, Deadly
+  "character death is a real possibility" at ~150%). What fails is that **Easy at ~50% is not "a quick
+  fight that costs few resources", and Standard at ~75% is "most of the day", not "some resources".**
+- **DECIDED (smallest lever = the frame; no band, HP, DR, Grit or #663 number moves).** `19:49-55`
+  gains one sentence naming the pool in its own currency (HP x (Grit+1) per hero, restored on a respite,
+  `13:341-347`) and each rung's measured fraction, and the four rung descriptions are restated in that
+  currency. Plus one sentence drawn from the book's own `19:53` paragraph ("Four goblins (four actions
+  per round) are more dangerous than one ogre with the same total HP"): **total encounter HP sets the
+  fight's LENGTH, creature count sets the pool drain**, so a DA who wants a cheaper fight spends the
+  same budget on fewer, tougher creatures. Re-opening #663's size rule stays last - it would re-break
+  the pacing window it was chosen to fix. Work order filed. **Reversal: restore the four rung phrases
+  and delete the pool sentence.**
+
+**Verdict (subsystem 9): OK.** Conformance is the best-measured part of the book - HP calibrated to the
+corpus, 82 of 84 damage triples on-row, all 49 DR values inside their ceiling - and the GM tools are
+broad and internally consistent (the encounter ladder's numbers, the travel/crafting/corruption/
+reputation tables, the card templates, and a starter adventure that teaches the system in layers). Two
+defects, both from one missing unit: the HP rule does not say who it is counted against, which makes a
+solo creature a 0.6-round fight and is the arithmetic root of the pool collision. Both are decided and
+filed; neither moves a band.
+
+**COVERAGE: 9 of 9. The sweep is complete.**
