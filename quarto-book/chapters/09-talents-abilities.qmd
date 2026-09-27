@@ -176,10 +176,10 @@ These six talents are the substitution family. Only one substitution applies to 
 
 *Novice:* As part of your turn, you may give a weapon or shield you carry to an ally within reach. That ally gains a Boon on their next attack or defense with it this round, and if that ally is Prone, they may immediately stand.
 
-=== Borrowed Eye (Novice Talent)
+=== Borrowed Eye (Adept Talent)
 *Disciplines:* 1 Tactics · 1 Mind · *Action:* Reaction · *Range:* 30 ft · *Keywords:* Support
 
-*Novice:* When an enemy within 30 ft moves, attacks, or uses a card, you may spend your Reaction so that you or one ally within 30 ft gains a Boon that lasts, unspent, until that enemy acts again, and may be applied to any one roll made against it before then.
+*Adept:* When an enemy within 30 ft moves, attacks, or uses a card, you may spend your Reaction so that you or one ally within 30 ft gains a Boon that lasts, unspent, until that enemy acts again, and may be applied to any one roll made against it before then.
 
 === Not One Step (Master Talent)
 *Disciplines:* 2 Protection · 1 Tactics · *Action:* Reaction · *Range:* 30 ft · *Keywords:* Support
