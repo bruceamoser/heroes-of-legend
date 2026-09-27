@@ -139,6 +139,19 @@ companion, not a manual; zero em-dashes in book text.
 - **Queue unchanged in substance:** still 0 dispatches (`HOL_ARCHITECT_DISPATCH` unset), and the only
   new work is the re-costed lever set on row 165, which needs one word from Bruce.
 
+## State at cycle 7 (2026-09-26, verified against the repo, not recalled)
+
+- `main` at `7ebbff2` (cycle 7's conformance PR #665 merged; cycle 6's docs at `303a5fe` below it).
+- Open PRs: **0**. Open issues: **6** — 561, 587, 655, 659, 661, 663. Nothing is `s:working`.
+- **Dispatch is still gated off** (`HOL_ARCHITECT_DISPATCH` unset in `~/.hermes/.env`).
+- Ledger: **170 rows**, max id **171** (169/170/171 added this cycle; 160 amended).
+- Assessments: **4 of 9** (1 core, 2 economy, 3 creation/progression, 4 combat+pacing). Walkthroughs: **W-001, W-002**.
+- New instruments this cycle: `scripts/tier-census.py`, `scripts/heal-row-census.py` (both with selftests; the
+  healing census carries a negative control and grades a card's full triple, because per-figure membership
+  manufactures false conforming cards when a retired row and a live row share a value).
+- Working tree clean, one checkout, no worktrees. The stale local branch `docs/architect-cycle-1` and three
+  scratch files remain, because the cron guard blocks `git branch -D` and `rm` unattended.
+
 ## Queue — ordered, each item tied to its pillar
 
 **Ordering note (2026-09-26, per #659):** until `assessment.md`'s coverage table reads 9 of 9, the
@@ -160,16 +173,17 @@ are the *filed* work; the assessment says what outranks which. Read them togethe
 
 ## Next action
 
-Cycle 7: **Assessment 3 - creation and progression**, the sweep's next subsystem and the same
-territory as the role card's level walkthrough, so two obligations are served by one piece of work.
-Assessment 2 supplied the inputs: the class pool is 8 DP, the rank supply is 3 progression picks,
-and the career budget is 44-52 DP. Specifically: **can the tightest legal hero be built** (Knowledge
-and Fortitude at -2 gives 4 Background DP, and the Shepherd already overspends 8), and **does any
-level arrive with nothing worth buying** (3-4 DP per level against a 2/4/8 card ladder and a 1/3/7
-gate)? Both answers are arithmetic over tables already in the book, and both close priorities 2 and 5.
-Two filed work orders now outrank a new assessment if dispatch opens: **#663** (pacing, top of the
-queue) and **#661** (the true price of a card). Neither has run, so the first act of cycle 7 is to
-check whether either moved and, if the gate is open, to dispatch #663.
+Cycle 8: **Assessment 5, magic and the spell system** - the sweep's next subsystem in dependency order,
+and the home of the two items row 170 flagged. The assessment's first question is the HoT convention
+(row 171): a recurring card cannot total a live row at any duration divisible by 3, so the system must
+decide whether the per-round figure, the duration or the total is the graded quantity, and that decision
+then prices the healing cards the way the tier decision priced every card. Second question: the casting
+economy (no slots, no mana, always fires) against the once-per-scene/session limits at Adept and
+Master - is the limit load-bearing, and does a caster ever have a null turn. Then social conflict (6),
+equipment (7), content (8), bestiary (9).
+
+If the dispatch gate opens, **#663** (pacing) goes first, then **#661** (the true price of a card).
+Neither has run, and neither is blocked on anything but the gate.
 
 ## Cycle log
 
@@ -182,3 +196,4 @@ check whether either moved and, if the gate is open, to dispatch #663.
 | 4 (2026-09-26) | SENSE: #660 open, 4 open issues, dispatch off. BRUCE RULED (row 165): an even fight must last 3-4 rounds at every tier, whatever the level; Grit stays as the staying-power mechanic. THINK: build the gate Bruce's ruling needs. Wrote `scripts/rounds-to-resolve.py`, measured the gap, named three levers. DECIDE: the ruling is a law to be gated, so the instrument ships with it. CLOSED #660 and opened **#662** (`docs/architect-pacing-law`) carrying `assessment.md` plus the row. | **#662 opened**; row **165** (the pacing law); **#660 closed** and superseded; nothing merged, so `main` stayed at `2a13070` | cycle 5: inspect #662, then Assessment 3 |
 | 5 (2026-09-26) | SENSE: state diff showed #662 replacing #660 with `main` unmoved - so nothing of cycle 4 had landed, and #660's three commits were still reachable locally. INSPECT (#662, 1 commit, 2 files): found four defects - citations to rows 165/166/167 where only 165 existed and 165 meant the pacing law; a whole cycle of plan/scorecard state dropped with #660; two sections both named "Assessment 2"; and a gate that paired a Master party with the bestiary's global average HP and measured the book's DEADLY encounter while calling it even. VERIFY-BEFORE-TRUST on the numbers themselves: re-parsed the bestiary (48 stat blocks, not 51 HP mentions), stratified by challenge band, subtracted DR on both sides, and counted Grit and armour DR in the other direction. DECIDE: all four defects are mechanical or self-refuting, so they were fixed on the same branch rather than reported; the measurement corrections are recorded BESIDE the old verdict, and the withdrawn claim is named as withdrawn. Rebuilt the gate with a positive and a negative control. | **#662 repaired in place**: rows **166/167/168** restored and all citations resolve; the pacing re-assessment written (4v4 2.52/2.10/1.92, Standard encounter 1.26/1.05/0.96, party dropped 12.7/12.9/12.7 flat, root cause ch19-vs-ch20 premise mismatch, lever 2 recommended); plan cycle-3/4/5 states and scorecard rows restored; gate rebuilt with controls and still exiting 1 | cycle 6: Assessment 3 (creation and progression), unless Bruce rules row 165 or enables dispatch |
 | 6 (2026-09-26) | SENSE: the monitor caught #662's head moving to `d7dd284`, a fourth commit reconciling the 51-vs-48 bestiary count. INSPECT: docs-only (4 files, no chapter touched), and every citation the branch makes re-verified against the corpus (`19:53`, `19:55`, `20:659`'s HP rule, the Lesser Treant at `20:607`, the Death Knight's reforming armour at `20:637`); gate `--selftest` passes both controls while the live run exits 1. The PR body still led with the retracted mutual-rout figures, so it was corrected BEFORE merging: the durable record should not open with numbers the branch itself withdraws. Merged. THINK: with the law ruled and the lever mine to choose, the pacing repair outranks a new assessment (the plan's own rule). Ran the numbers that pick the lever: creature HP is flat across the whole bestiary (15.0-15.1 by band) while Challenge runs 1/2 to 12, so HP per challenge point falls 15.78 / 3.74 / 1.80, and the printed budget yields a coincidentally flat ~30 HP at every tier, which is about one round of a four-hero party's output. The count is the instrument that works: six creatures (one and a half per hero) land 3.79 / 3.15 / 2.88 rounds and need 14.0 / 16.4 / 18.2 HP per monster against 15.1 / 14.8 / 15.0 printed, so **no stat block in ch20 needs to change**; Master wants seven (3.36 rounds) because party output grows 1.31x while monster HP does not. DECIDE: lever 2, specified as a per-hero budget plus a stated field size, recorded as a veto-revertible default and filed as a work order. | **#662 merged** (squash, branch deleted; `main` at `340fd11`); PR body corrected before merge; **#663 filed** with the full spec and every number pre-computed; row **165** now carries the lever decision as a veto-revertible default; `assessment.md` gained the cycle-6 section and coverage row 4 records the repair; **#661**'s stale "row 165" citation for the Shepherd corrected to 166; #659 umbrella noted | cycle 7: Assessment 3 (creation and progression), unless the dispatch gate opens, in which case #663 goes first |
+| 7 (2026-09-26) | SENSE: no PRs open, `main` moved only by my own cycle 6 (`303a5fe`), dispatch still off, so nothing to inspect - straight to priority 1. THINK: Assessment 3 (creation and progression) plus the role card's level walkthrough, which is the same territory. Computed the reachable space rather than quoting it (Background DP 4-12, HP 6-14, career 44-52 DP, ranks 1-3), re-derived all nine printed builds' HP/Initiative/Carry (9 of 9 exact), and walked the ten levels for a dead rung (none: skills share the card tiers and gate nothing, so the sink is 322 DP wide, and the binding constraint after level 3 is the 3-rank ceiling, not the pool). Two new instruments, both with calibration: the tier census found the book's own tier RULE contradicting its corpus (59 of 102 cards, 174 DP, hang on whether "the number of Disciplines" or the total RANKS is the reading), and the healing census found the healing axis never converted to the live band rows - because the 2026-09-15 sweep grepped slash-triples, which is how DAMAGE prints, and a healing card prints one HP per line. DECIDE: both are single-outcome conformance defects, not design questions, so they were repaired the same cycle and merged by the architect rather than queued; the census itself was corrected mid-work when per-figure membership declared Mending Touch conforming on two of three lines (the retired and live Novice rows share 4 and 6). The three items that do need a ruling - the recurring-effect convention, two Adept cards printing the Master row, an untiered crit heal - went to rows, and the unassigned level-1 4 DP went to a row with its re-costing of row 161 measured. | **PR #665 merged** (`main` at `7ebbff2`): 4 chapter files, 17 lines, gate exit 0, build exit 0, 392 pages, and every change verified in the render - healing-axis retired rows **4 -> 0**, tier mispricing **59 -> 0**. **Assessment 3** landed (coverage 3 -> **4 of 9**), **W-002** written, rows **169/170/171** added, row **160** amended, plan/scorecard updated | cycle 8: Assessment 5 (magic and the spell system), beginning with the recurring-effect convention; #663 then #661 if the gate opens |
