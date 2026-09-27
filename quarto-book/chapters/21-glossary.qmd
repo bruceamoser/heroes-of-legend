@@ -102,7 +102,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Action:* The main thing you do on your turn. Attack, cast a spell, activate an ability, Dash. One per turn.
 
-*Maneuver:* A secondary resource spent on the basic maneuvers (Defend, Shove) or on any card whose Action field reads Maneuver, gated by Disciplines. One per turn.
+*Maneuver:* A secondary resource spent on the basic maneuvers (Defend, Shove) or on any card whose Action field reads Maneuver (on a spell card that field is the Cast field), gated by Disciplines. One per turn.
 
 *Movement:* How far you can move on your turn. Usually 30 ft. Can be broken up before and after your Action.
 
