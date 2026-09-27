@@ -1101,10 +1101,28 @@ line recorded: one Standard fight spends **73.0 / 81.0 / 71.5 %** of a hero's pe
 Adept / Master, and **Adept is the tightest tier** (the review's item 3, now a standing measurement rather
 than a claim).
 
-**State at cycle 42.** Book at `aba0a2d`; 0 open PRs; open issues **1 (#739, dispatched, audit owed)**; ledger
-**212** rows, none ruled-but-unbuilt; words **84,700**; pages **399**; one checkout, one worktree in flight
-(`/tmp/wt-739`), scratch to be cleared at the audit.
+**Audit and merge, mine, not the agent's report.** Work order **#739 -> PR #742, squash `edbe563`**. File set
+exactly the one named chapter (1 insertion / 1 deletion, and no other line in the diff). The new `Leverage`
+row is byte-identical to the replacement text the spec pinned. Added-line gates: **0** em-dashes, **0**
+markdown bold, **0** damage dice, **0** numeric roll modifiers; the single `+[0-9]+ damage` hit is `+1 damage
+tier`, the legal tier-bump form (`05:548`, `05:613`) and the same shape the row already carried. Native-Typst
+gate **exit 0**; my own rebuild **exit 0 at 399 pages**; the built PDF's text layer re-read at the site (page
+98) shows the new trigger and effect and the old `misses an attack` at **0 hits book-wide**. The three `miss`
+tokens that remain in the render are prose and the spell line "it never misses", read one by one.
 
-**Next.** Audit the sweep's PR against this cycle's independently derived baseline (9 tables / 90 rows, 11
-tier-keyed triggers, exactly one dead trigger), then merge and close #739. The game's remaining ceiling is
-content rather than mechanics: printed play stops at level 2.
+**The sweep's own numbers were checked against the baseline this cycle derived before dispatch, not against its
+report.** Tables/rows **9 and 90** before and after (the agent's parser is heading-level aware and says so);
+dead triggers **1**, and it is `Leverage`; dominance **0 strict pairs**, with ten same-tier same-cost pairs read
+and named as trades rather than containment. Its one new lead is a **boundary deliberately left standing**:
+`05:405`, the Backlash Table's face 5, prints a flat `+2` ("the target takes +2") outside the 90, so the
+work order's scope correctly did not reach it. That is a live flat-rider site for the next wave, and it is
+recorded here rather than silently fixed.
+
+**State at cycle 42.** Book at `edbe563`; **0 open PRs, 0 open issues**; ledger **212** rows, none
+ruled-but-unbuilt (row 212 now reads IMPLEMENTED); words 84,700 -> **84,711** (+11); pages **399**
+(unchanged); one checkout, clean tree, no worktrees, remote holds `main` alone, scratch cleared.
+
+**Next.** The class shelf is swept and its one dead entry is repaired, so the queue is empty again and the
+next act is either the review (if Bruce asks) or the next unassessed gap. The named content ceiling is
+unchanged: printed play stops at level 2, and `05:405`'s flat `+2` is the one mechanical lead the sweep
+handed on.
