@@ -98,7 +98,7 @@ Some classes blur the line. The Odd steals from both traditions. The Unbalanced 
 
 Magic is powerful. That's the point. But there are brakes. Not to frustrate you, to make your biggest spells feel like _moments._
 
-*Per-Encounter:* Adept and Master spells can only be used once per combat. You can't drop an Adept spell every round. Choose your moment. Make it count.
+*Per-Encounter:* Each Adept or Master spell card can be used once per combat. Choose your moment. Make it count.
 
 *Per-Session:* Master-tier spells are once per session. When you unleash a Master card, the table should go quiet. These spells reshape encounters. They're not your default attack, they're your signature. Use them when it matters most. This is the tighter of the two limits: a Master spell does not come back in the next fight of the same session.
 
