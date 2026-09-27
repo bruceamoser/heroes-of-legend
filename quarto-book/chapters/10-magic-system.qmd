@@ -36,7 +36,7 @@ Arcane casters add Arcana to Knowledge (3d6 + Knowledge + Arcana), divine caster
 
 == Spell Cards
 
-Every spell above the cantrips is its own card, with its own name and its own price. You buy the card you can afford and qualify for, and it never changes. The card carries its Disciplines requirement, Action, Range, and Keywords, then its effect. Every spell card prints its tier, and an outcome block that deals damage keys to that tier's row of the damage budget. A spell that heals carries no row at all: it takes the target to a threshold of their maximum instead (see @sec-healing-thresholds)
+Every spell above the cantrips is its own card, with its own name and its own price. You buy the card you can afford and qualify for, and it never changes. The card carries its Disciplines requirement, Cast, Range, Duration, and Keywords, then its effect. Every spell card prints its tier, and an outcome block that deals damage keys to that tier's row of the damage budget. A spell that heals carries no row at all: it takes the target to a threshold of their maximum instead (see @sec-healing-thresholds)
 
 A card is bought at one of three tiers, and the tier sets both the cost and the effect row:
 
@@ -107,11 +107,31 @@ Magic is powerful. That's the point. But there are brakes. Not to frustrate you,
 
 *Per-Session:* Master-tier spells are once per session. When you unleash a Master card, the table should go quiet. These spells reshape encounters. They're not your default attack, they're your signature. Use them when it matters most. This is the tighter of the two limits: a Master spell does not come back in the next fight of the same session.
 
-*Concentration:* Some ongoing spells, illusions, wards, enchantments, require concentration. You can only maintain one concentration spell at a time. If you take damage while concentrating, make a Fortitude check: *Standard or better* on 3d6 + Fortitude holds the spell together, and you make that check again each time damage lands on you. Concentration is about focus. Lose focus, lose the spell.
+*Concentration:* An ongoing effect that has to be held is a concentration effect, and the card's Duration field says so: *Concentration, up to 1 minute*, or *Concentration, up to 1 round* for a ward. Holding one costs your Maneuver every turn: spend that Maneuver during your turn, or the effect ends at the start of it. You hold only one concentration effect at a time, and starting a second ends the first. Falling Incapacitated or Unconscious ends it: an effect you cannot hold is not held. You cannot begin a ritual while you hold one: let the effect go first.
 
-*Ritual:* Some spells can be worked slowly as well as cast in the moment, and the card says so in its Cast field, written like this: *Action (ritual, 1 minute)*. Such a spell can be cast in the moment, spending what the Cast field says, or worked as a ritual over the stated time. A ritual needs both hands and an uninterrupted stretch of quiet; it is not something you start in the middle of a fight, and an interruption wastes the attempt. A spell cast as a ritual resolves exactly as written and does not spend the card's once-per-encounter or once-per-session use.
+Damage can break it, and the size of the blow decides:
 
-*Casting Time:* The Cast field on a spell card is what the spell costs you. Action, Maneuver, or Reaction and it happens in the moment. A stated time, such as 1 minute, 15 minutes, 1 hour, or a day, is not a combat cast: the fight has to wait, and the longer the cast, the more it can undo.
+#figure(
+  align(center)[#table(
+    columns: (30%, 70%),
+    align: (auto, auto,),
+    table.header([The hit], [What holds the effect],),
+    [Weak], [Nothing. A graze does not break focus.],
+    [Standard], [A Fortitude check: *Standard or better* on 3d6 + Fortitude holds it.],
+    [Strong], [The same check with a Bane.],
+    [Fumble], [Three natural 1s. The effect ends.],
+    [Critical], [Three natural 6s. The effect holds, and cannot be broken until the start of your next turn.],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+Make that check each time damage lands on you, not once per round. Concentration is about focus. Lose focus, lose the spell.
+
+*Casting Time:* The Cast field on a spell card is what the spell costs you, and it holds one of two things. Action, Maneuver, or Reaction and the working happens in the moment. A stated time, such as 1 minute, 15 minutes, 1 hour, or a day, is a ritual: it is not a combat cast, the fight has to wait, and the longer the cast, the more it can undo.
+
+*Ritual:* A ritual is any working that takes longer than a combat turn, and it is not only magic: a ritual can be divine, primal, or physical, and what makes it one is the time and the prep. The card says so in its Cast field, which names the time and then what the working asks for, written like this: *15 minutes (a patient who holds still, and a holy focus)*. A ritual needs both hands and an uninterrupted stretch of quiet; it is not something you start in the middle of a fight, and an interruption wastes the attempt. A working performed as a ritual resolves exactly as written and does not spend the card's once-per-encounter or once-per-session use.
 
 *Ending an effect by magic:* An ongoing effect ends when its duration runs out, when its caster is Incapacitated, or when it is ended by magic. You may always end your own effect without a roll, as a free action on your turn. Ending another caster's effect is an *opposed roll*: spend an Action and make a Reason check against the caster's Reason, which sets the Challenge (the procedure is in @sec-chapter-core-resolution) On a success the effect ends. On a failure it holds, and you may not attempt to end that same effect again this encounter.
 

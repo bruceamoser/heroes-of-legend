@@ -146,7 +146,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Opportunity Attack:* A free melee attack when an enemy leaves your reach without Disengaging.
 
-*Concentration:* Some spells require ongoing focus to maintain, and you can hold only one at a time. See *Concentration Spell* in Magic Terms for the check that keeps it.
+*Concentration:* An ongoing effect held with your Maneuver, one at a time. The rule is in @sec-chapter-magic-system
 
 *Hidden:* Concealed from an observer: attacks against you have Bane (a Boon on your Defense roll), and you are not seen until you attack or the concealment ends.
 
@@ -210,7 +210,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Spell Card:* A spell in the standard card format. A spell that deals damage prints a Weak/Standard/Strong block on its tier's budget row; a spell that grants a standing benefit instead prints a single *Effect:* line. The Adept and Master members of a spell family are separate cards with their own names: there are no spell chains, and no card is upgraded in place.
 
-*Concentration Spell:* A spell that requires ongoing focus, and you can maintain only one at a time. If you take damage while concentrating, make a Fortitude check: Standard or better on 3d6 + Fortitude holds the spell together, and you make that check again each time damage lands on you.
+*Concentration Spell:* A spell whose Duration says it must be held: *Concentration, up to 1 minute*, or *Concentration, up to 1 round* for a ward. The rule is in @sec-chapter-magic-system
 
 *Arcane Focus:* An item (wand, staff, orb) that channels arcane magic. A spell whose card carries `focus:arcane` in its Requires field gets its full effect only while you hold one. Without it the spell still casts and resolves one outcome lower, Strong becomes Standard and Standard becomes Weak: at that floor a rung that deals damage deals 1 damage instead, and any other rung resolves as written but forgoes its riders.
 
