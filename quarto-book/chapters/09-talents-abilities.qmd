@@ -273,9 +273,45 @@ These five cards are the attacks every character can make, no Discipline require
 
 == Weapon Maneuvers
 
-Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each is gated by Disciplines: most by a weapon Discipline, and the rest by Armor, Shields, Protection, or Tactics. For Action, Maneuver, and Reaction rules, see @sec-chapter-combat
+Maneuvers spend your Action, Reaction, or Maneuver as listed on each card. Each is gated by Disciplines: most by a weapon Discipline, and the rest by Armor, Shields, Protection, Tactics, Stealth, Sleight, or Mind. Cards are grouped by the Discipline that gates them, in the taxonomy's order and then by rank from lowest to highest. For the taxonomy, see @sec-chapter-disciplines For Action, Maneuver, and Reaction rules, see @sec-chapter-combat
 
 A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Novice budget row (4/6/8), whatever Disciplines the card requires: a maneuver's Disciplines gate who may take it, not how hard it hits. Your weapon contributes no damage of its own: the card carries the numbers, exactly as it does for any other ability. See @sec-chapter-equipment
+
+=== Pinpoint Strike (Weapon Maneuver)
+*Disciplines:* 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Piercing, Damage
+
+*Weak:* +1 damage tier on your next weapon attack, and Piercing 1.
+
+*Standard:* +1 damage tier on your next weapon attack, and Piercing 2.
+
+*Strong:* +1 damage tier on your next weapon attack, and Piercing 3.
+
+=== Dual Strike (Weapon Maneuver)
+*Disciplines:* 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Two attacks
+
+*Weak:* Two attacks, each dealing 2 damage (4 total).
+
+*Standard:* Two attacks, each dealing 3 damage (6 total).
+
+*Strong:* Two attacks, each dealing 4 damage (8 total).
+
+=== Hamstring Cut (Weapon Maneuver)
+*Disciplines:* 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Restrained, Control
+
+*Weak:* The target is Restrained until it Escapes. A target that is already Grappled or Restrained is Restrained with its Escapes at Bane even on a Weak result.
+
+*Standard:* The target is Restrained until it Escapes and its next Escape is at Bane.
+
+*Strong:* The target is Restrained until it Escapes, its Escapes are at Bane, and it cannot take Reactions while Restrained.
+
+=== Open the Guard (Weapon Maneuver)
+*Disciplines:* 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Control
+
+*Weak:* 4 damage, and the target cannot take Reactions until the end of its next turn.
+
+*Standard:* 6 damage, the target loses its Maneuver, and it cannot take Reactions until the end of its next turn.
+
+*Strong:* 8 damage, the target loses its Maneuver and cannot take Reactions until the end of its next turn; an ally who can see you gains a Boon on their next attack against it.
 
 === Riposte (Weapon Maneuver)
 *Disciplines:* 2 Melee · *Action:* Reaction · *Range:* Melee · *Keywords:* Counterattack
@@ -295,15 +331,6 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 
 *Strong:* +1 damage tier on your next weapon attack.
 
-=== Cyclone (Weapon Maneuver)
-*Disciplines:* 3 Melee · *Requires:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Area
-
-*Weak:* Hit all adjacent enemies for 4 damage.
-
-*Standard:* Hit all adjacent enemies for 6 damage.
-
-*Strong:* Hit all adjacent enemies for 8 damage.
-
 === Cleave (Weapon Maneuver)
 *Disciplines:* 2 Melee · *Requires:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Chain
 
@@ -312,48 +339,6 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 *Standard:* Hit one target for 6. If it drops to 0 HP, hit an adjacent enemy for 6.
 
 *Strong:* Hit one target for 8. If it drops to 0 HP, hit an adjacent enemy for 8.
-
-=== Pinpoint Strike (Weapon Maneuver)
-*Disciplines:* 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Piercing, Damage
-
-*Weak:* +1 damage tier on your next weapon attack, and Piercing 1.
-
-*Standard:* +1 damage tier on your next weapon attack, and Piercing 2.
-
-*Strong:* +1 damage tier on your next weapon attack, and Piercing 3.
-
-=== Shield Slam (Weapon Maneuver)
-*Disciplines:* 2 Shields · *Requires:* shield · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone, Push
-
-*Weak:* Deal 4 damage and Push 5 ft.
-
-*Standard:* Deal 6 damage and Push 5 ft.
-
-*Strong:* Deal 8 damage and Push 5 ft; the target is Prone.
-
-=== Shield Throw (Weapon Maneuver)
-*Disciplines:* 1 Shields · *Requires:* shield · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
-
-*Weak:* Deal 4 damage. Your shield lands 30 ft away and you are not wielding a shield until you pick it up.
-
-*Standard:* Deal 6 damage, and Push 5 ft. Your shield lands 30 ft away and you are not wielding a shield until you pick it up.
-
-*Strong:* Deal 8 damage, Push 5 ft, and the target is Prone. Your shield lands 30 ft away and you are not wielding a shield until you pick it up.
-
-=== Braced Guard (Maneuver)
-*Disciplines:* 1 Shields · *Requires:* shield · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
-
-*Effect:* Set your shield. Until the start of your next turn, your Shield Block reaction applies to every attack that hits you, not just one.
-
-=== Lock Shields (Maneuver)
-*Disciplines:* 2 Shields · *Requires:* shield · *Action:* Maneuver · *Range:* 5 ft · *Keywords:* DR
-
-*Effect:* Choose any number of allies within 5 ft who are wielding shields, including yourself. Until the start of your next turn, each of you gains +1 shield DR.
-
-=== Interpose (Maneuver)
-*Disciplines:* 3 Shields · *Requires:* shield · *Action:* Reaction · *Range:* 5 ft · *Keywords:* DR
-
-*Effect:* When an attack hits an ally within 5 ft, you take the attack instead. Resolve it against your DR, and your Shield Block applies to it.
 
 === Parry (Weapon Maneuver)
 *Disciplines:* 2 Melee · *Action:* Reaction · *Range:* Self · *Keywords:* DR, Counterattack
@@ -374,6 +359,42 @@ This DR does not stack with any other source of DR.
 *Standard:* The target's next attack with that weapon is at Bane.
 
 *Strong:* The target drops the weapon.
+
+=== Executioner's Cut (Weapon Maneuver)
+*Disciplines:* 2 Melee · *Requires:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Wounded
+
+*Weak:* +1 damage tier against a wounded target.
+
+*Standard:* +1 damage tier against a wounded target.
+
+*Strong:* +1 damage tier against a wounded target.
+
+=== Through the Blind Spot (Weapon Maneuver)
+*Disciplines:* 2 Melee · 1 Stealth · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Stealth
+
+*Weak:* 4 damage and you may move 10 ft before or after the strike. Against a Blinded or Deafened target you stay Hidden and it cannot identify you.
+
+*Standard:* 6 damage and the target is at Bane on its next attack against you. Against a Blinded or Deafened target you stay Hidden and it cannot identify you.
+
+*Strong:* 8 damage and the target cannot use a Reaction until the end of its next turn. Against a Blinded or Deafened target you stay Hidden, it cannot identify you, and even creatures that can see you cannot point you out to it.
+
+=== Cyclone (Weapon Maneuver)
+*Disciplines:* 3 Melee · *Requires:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Area
+
+*Weak:* Hit all adjacent enemies for 4 damage.
+
+*Standard:* Hit all adjacent enemies for 6 damage.
+
+*Strong:* Hit all adjacent enemies for 8 damage.
+
+=== Long Spear Rebuke (Weapon Maneuver)
+*Disciplines:* 1 Two-Handed · *Action:* Action · *Range:* Melee · *Keywords:* Frightened, Control
+
+*Weak:* The target is Frightened of you until the end of its next turn: it cannot approach you.
+
+*Standard:* The target is Frightened of you until the end of the scene, and it is at Bane on attacks against you. A target that is already Frightened of you cannot use a Reaction while you threaten it.
+
+*Strong:* The target is Frightened of you until the end of the scene and must spend its next Movement moving away from you. A target that is already Frightened of you is also Prone.
 
 === Leg Sweep (Weapon Maneuver)
 *Disciplines:* 2 Two-Handed · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone
@@ -404,15 +425,6 @@ This DR does not stack with any other source of DR.
 
 This DR does not stack with any other source of DR.
 
-=== Dual Strike (Weapon Maneuver)
-*Disciplines:* 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Two attacks
-
-*Weak:* Two attacks, each dealing 2 damage (4 total).
-
-*Standard:* Two attacks, each dealing 3 damage (6 total).
-
-*Strong:* Two attacks, each dealing 4 damage (8 total).
-
 === Crushing Blow (Weapon Maneuver)
 *Disciplines:* 2 Two-Handed · *Requires:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Prone
 
@@ -422,24 +434,6 @@ This DR does not stack with any other source of DR.
 
 *Strong:* +1 damage tier on your next weapon attack; the target is Prone.
 
-=== Executioner's Cut (Weapon Maneuver)
-*Disciplines:* 2 Melee · *Requires:* weapon:two-hand · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Wounded
-
-*Weak:* +1 damage tier against a wounded target.
-
-*Standard:* +1 damage tier against a wounded target.
-
-*Strong:* +1 damage tier against a wounded target.
-
-=== Heave (Weapon Maneuver)
-*Disciplines:* 1 Ranged · *Requires:* weapon:ranged · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
-
-*Weak:* Heave a weapon up to 30 ft at +1 damage tier.
-
-*Standard:* Heave a weapon up to 30 ft at +1 damage tier.
-
-*Strong:* Heave a weapon up to 30 ft at +1 damage tier.
-
 === Breakthrough (Weapon Maneuver)
 *Disciplines:* 2 Two-Handed · *Action:* Action · *Range:* Melee · *Keywords:* Movement, Prone
 
@@ -448,96 +442,6 @@ This DR does not stack with any other source of DR.
 *Standard:* Move through one enemy's space.
 
 *Strong:* Move through one enemy's space; the target is Prone.
-
-=== Renewal (Weapon Maneuver)
-*Disciplines:* 1 Protection · *Action:* Maneuver · *Range:* Self · *Keywords:* Healing
-
-*Weak:* Regain 4 HP.
-
-*Standard:* Regain 6 HP.
-
-*Strong:* Regain 8 HP.
-
-=== Heel Hook (Weapon Maneuver)
-*Disciplines:* 1 Unarmed · *Action:* Action · *Range:* Melee · *Keywords:* Prone, Control
-
-*Weak:* The target is Prone. A target that is already Prone is also Grappled until it Escapes.
-
-*Standard:* The target is Prone and at Bane on its next attack. A target that is already Prone is also Grappled and Restrained until it Escapes.
-
-*Strong:* The target is Prone, loses its Maneuver, and cannot stand again until the end of its next turn. A target that is already Prone is also Grappled and Restrained until it Escapes, and cannot Escape this round.
-
-=== Shield Press (Weapon Maneuver)
-*Disciplines:* 1 Shields · *Action:* Action · *Range:* Melee · *Keywords:* Grapple, Control
-
-*Weak:* The target is Grappled until it Escapes. Against a Prone target it is Restrained instead, and its Escapes are at Bane.
-
-*Standard:* The target is Grappled and Restrained until it Escapes, and you may move it 5 ft with you.
-
-*Strong:* The target is Grappled and Restrained until it Escapes, you may move it 5 ft with you, and it cannot attack you until the end of its next turn.
-
-=== Hamstring Cut (Weapon Maneuver)
-*Disciplines:* 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Restrained, Control
-
-*Weak:* The target is Restrained until it Escapes. A target that is already Grappled or Restrained is Restrained with its Escapes at Bane even on a Weak result.
-
-*Standard:* The target is Restrained until it Escapes and its next Escape is at Bane.
-
-*Strong:* The target is Restrained until it Escapes, its Escapes are at Bane, and it cannot take Reactions while Restrained.
-
-=== Open the Guard (Weapon Maneuver)
-*Disciplines:* 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Control
-
-*Weak:* 4 damage, and the target cannot take Reactions until the end of its next turn.
-
-*Standard:* 6 damage, the target loses its Maneuver, and it cannot take Reactions until the end of its next turn.
-
-*Strong:* 8 damage, the target loses its Maneuver and cannot take Reactions until the end of its next turn; an ally who can see you gains a Boon on their next attack against it.
-
-=== Sand Cast (Weapon Maneuver)
-*Disciplines:* 1 Sleight · *Action:* Action · *Range:* 10 ft · *Keywords:* Blinded, Control
-
-*Weak:* The target is Blinded until the end of its next turn.
-
-*Standard:* The target is Blinded until the end of its next turn, and it is at Bane on its next attack.
-
-*Strong:* The target is Blinded until the end of the scene and drops one held item of your choice; you may take it as part of this Action.
-
-=== Dead Reckoning (Weapon Maneuver)
-*Disciplines:* 1 Ranged · *Action:* Action · *Range:* 60 ft · *Keywords:* Marked, Ranged
-
-*Weak:* The target is Marked until the end of the scene: you always know where it is and it cannot Hide from you.
-
-*Standard:* The target is Marked until the end of the scene and at Bane on its next attack against you. Against a target that is already Marked, this attack ignores Cover and Concealment.
-
-*Strong:* The target is Marked and you may immediately make a Basic Archery attack against it. Against a target that is already Marked, that attack also ignores Cover and Concealment.
-
-=== Long Spear Rebuke (Weapon Maneuver)
-*Disciplines:* 1 Two-Handed · *Action:* Action · *Range:* Melee · *Keywords:* Frightened, Control
-
-*Weak:* The target is Frightened of you until the end of its next turn: it cannot approach you.
-
-*Standard:* The target is Frightened of you until the end of the scene, and it is at Bane on attacks against you. A target that is already Frightened of you cannot use a Reaction while you threaten it.
-
-*Strong:* The target is Frightened of you until the end of the scene and must spend its next Movement moving away from you. A target that is already Frightened of you is also Prone.
-
-=== Follow My Lead (Weapon Maneuver)
-*Disciplines:* 1 Tactics · *Action:* Action · *Range:* Melee · *Keywords:* Support
-
-*Weak:* 4 damage to one enemy within reach, and that enemy cannot spend its Reaction before your next turn.
-
-*Standard:* 6 damage, and one ally who can see you may immediately make a Basic Attack against that enemy, spending their Reaction.
-
-*Strong:* 8 damage, and one ally who can see you may immediately make a Basic Attack against that enemy with a Boon on it, spending their Reaction.
-
-=== Eyes On Me (Weapon Maneuver)
-*Disciplines:* 1 Tactics · *Action:* Action · *Range:* Melee · *Keywords:* Support
-
-*Weak:* 4 damage to one enemy within reach, and it must target you with its next attack if it attacks at all.
-
-*Standard:* 6 damage, and that enemy must target you with its next attack; one ally who can see you gains a Boon on their next attack against it.
-
-*Strong:* 8 damage, and every enemy within 30 ft that can see you must target you with their next attack; every ally who attacks one of them gains a Boon on that attack.
 
 === Bell Ringer (Weapon Maneuver)
 *Disciplines:* 2 Two-Handed · *Action:* Action · *Range:* Melee · *Keywords:* Deafened, Control
@@ -557,23 +461,41 @@ This DR does not stack with any other source of DR.
 
 *Strong:* 8 damage, the target is knocked Prone and hurled 15 ft, and it cannot stand until the end of its next turn.
 
-=== Through the Blind Spot (Weapon Maneuver)
-*Disciplines:* 2 Melee · 1 Stealth · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Stealth
+=== Harvest the Fear (Weapon Maneuver)
+*Disciplines:* 3 Two-Handed · 1 Tactics · 1 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* Frightened, Control
 
-*Weak:* 4 damage and you may move 10 ft before or after the strike. Against a Blinded or Deafened target you stay Hidden and it cannot identify you.
+*Weak:* One creature that can see you is Frightened of you until the end of the scene.
 
-*Standard:* 6 damage and the target is at Bane on its next attack against you. Against a Blinded or Deafened target you stay Hidden and it cannot identify you.
+*Standard:* Up to three creatures that can see you are Frightened of you until the end of the scene, and any that was already Frightened of you is Stunned until the end of its next turn.
 
-*Strong:* 8 damage and the target cannot use a Reaction until the end of its next turn. Against a Blinded or Deafened target you stay Hidden, it cannot identify you, and even creatures that can see you cannot point you out to it.
+*Strong:* Every creature that can see you is Frightened of you until the end of the scene, and any that was already Frightened of you is Stunned until the end of its next turn. While you remain visible, none of them can benefit from an ally's Boon.
 
-=== Chokehold (Weapon Maneuver)
-*Disciplines:* 2 Unarmed · 1 Stealth · *Action:* Action · *Range:* Melee · *Keywords:* Grapple, Control
+=== Groundbreaker (Weapon Maneuver)
+*Disciplines:* 3 Two-Handed · 1 Tactics · 1 Unarmed · *Action:* Action · *Range:* 15 ft · *Keywords:* Prone, Control
 
-*Weak:* The target is Grappled until it Escapes and cannot speak above a whisper. A target that is already Grappled is Restrained instead, and no sound it makes carries beyond arm's reach.
+*Weak:* Every standing creature in a 15-ft arc is knocked Prone.
 
-*Standard:* The target is Grappled and Restrained until it Escapes; it cannot shout, call for help, or cast a spell aloud.
+*Standard:* Every creature in a 15-ft arc is knocked Prone and Restrained until it Escapes (the ground is broken under it). A creature that was already Prone cannot stand until it Escapes.
 
-*Strong:* The target is Grappled and Restrained, it cannot shout or cast aloud, it is at Bane on every attack, and it cannot take Reactions while held.
+*Strong:* Every creature in a 15-ft arc is knocked Prone and Restrained until it Escapes, and any that was already Prone is Stunned until the end of its next turn.
+
+=== Heave (Weapon Maneuver)
+*Disciplines:* 1 Ranged · *Requires:* weapon:ranged · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
+
+*Weak:* Heave a weapon up to 30 ft at +1 damage tier.
+
+*Standard:* Heave a weapon up to 30 ft at +1 damage tier.
+
+*Strong:* Heave a weapon up to 30 ft at +1 damage tier.
+
+=== Dead Reckoning (Weapon Maneuver)
+*Disciplines:* 1 Ranged · *Action:* Action · *Range:* 60 ft · *Keywords:* Marked, Ranged
+
+*Weak:* The target is Marked until the end of the scene: you always know where it is and it cannot Hide from you.
+
+*Standard:* The target is Marked until the end of the scene and at Bane on its next attack against you. Against a target that is already Marked, this attack ignores Cover and Concealment.
+
+*Strong:* The target is Marked and you may immediately make a Basic Archery attack against it. Against a target that is already Marked, that attack also ignores Cover and Concealment.
 
 === Pinning Shot (Weapon Maneuver)
 *Disciplines:* 2 Ranged · 1 Tactics · *Action:* Action · *Range:* 60 ft · *Keywords:* Damage, Restrained
@@ -593,23 +515,92 @@ This DR does not stack with any other source of DR.
 
 *Strong:* As Standard, and your allies who can see you gain a Boon on their next attack against a creature you have Marked.
 
-=== Hold Until It Moves (Weapon Maneuver)
-*Disciplines:* 2 Tactics · *Action:* Action · *Range:* 30 ft · *Keywords:* Support
+=== Sunshot (Weapon Maneuver)
+*Disciplines:* 3 Ranged · 1 Tactics · 1 Stealth · *Action:* Action · *Range:* 60 ft · *Keywords:* Damage, Blinded
 
-*Weak:* You and one ally who can see you each ready an attack against one enemy within 30 ft, released the moment that enemy moves or attacks, and the first released attack gains a Boon.
+*Weak:* 4 damage and the target is Blinded until the end of its next turn.
 
-*Standard:* You and every ally who can see you each ready an attack against one enemy within 30 ft, released together the moment it moves or attacks, and the first released attack gains a Boon and Marks the enemy until the end of the round.
+*Standard:* 6 damage and the target is Blinded until the end of the scene. Against a target that is already Blinded or Deafened, the shot ignores Cover and Concealment and may target any creature you have seen this scene.
 
-*Strong:* You and every ally who can see you each ready an attack against one enemy within 30 ft, released together the moment it moves or attacks; every released attack gains a Boon, the enemy is Marked until the end of the round, and it cannot spend its Reaction while the volley resolves.
+*Strong:* 8 damage and the target is Blinded until the end of the scene, and it cannot benefit from any Boon until its eyes clear.
 
-=== Rolling Thunder (Weapon Maneuver)
-*Disciplines:* 1 Tactics · 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Support
+=== Heel Hook (Weapon Maneuver)
+*Disciplines:* 1 Unarmed · *Action:* Action · *Range:* Melee · *Keywords:* Prone, Control
 
-*Weak:* 4 damage to one enemy within reach.
+*Weak:* The target is Prone. A target that is already Prone is also Grappled until it Escapes.
 
-*Standard:* 6 damage, and the next ally who attacks that enemy this round gains a Boon; if that ally's outcome is Standard or better, the Boon passes to the next ally in line.
+*Standard:* The target is Prone and at Bane on its next attack. A target that is already Prone is also Grappled and Restrained until it Escapes.
 
-*Strong:* 8 damage, and every ally who attacks that enemy this round gains a Boon, each passing to the next in line until a roll falls short.
+*Strong:* The target is Prone, loses its Maneuver, and cannot stand again until the end of its next turn. A target that is already Prone is also Grappled and Restrained until it Escapes, and cannot Escape this round.
+
+=== Chokehold (Weapon Maneuver)
+*Disciplines:* 2 Unarmed · 1 Stealth · *Action:* Action · *Range:* Melee · *Keywords:* Grapple, Control
+
+*Weak:* The target is Grappled until it Escapes and cannot speak above a whisper. A target that is already Grappled is Restrained instead, and no sound it makes carries beyond arm's reach.
+
+*Standard:* The target is Grappled and Restrained until it Escapes; it cannot shout, call for help, or cast a spell aloud.
+
+*Strong:* The target is Grappled and Restrained, it cannot shout or cast aloud, it is at Bane on every attack, and it cannot take Reactions while held.
+
+=== Taken Alive (Weapon Maneuver)
+*Disciplines:* 3 Unarmed · 1 Tactics · 1 Armor · *Action:* Action · *Range:* Melee · *Keywords:* Restrained, Control
+
+*Weak:* The target is Grappled until it Escapes. A target that is already Grappled or Restrained is bound instead: the condition no longer ends with an Escape, and only another creature can free it by spending an Action.
+
+*Standard:* The target is Grappled and Restrained until it Escapes, and every Escape it attempts is at Bane.
+
+*Strong:* The target is Grappled and Restrained, its Escapes are at Bane, and you may move it 15 ft with you. A target that was already Grappled or Restrained is bound as on a Weak result.
+
+=== Shield Throw (Weapon Maneuver)
+*Disciplines:* 1 Shields · *Requires:* shield · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
+
+*Weak:* Deal 4 damage. Your shield lands 30 ft away and you are not wielding a shield until you pick it up.
+
+*Standard:* Deal 6 damage, and Push 5 ft. Your shield lands 30 ft away and you are not wielding a shield until you pick it up.
+
+*Strong:* Deal 8 damage, Push 5 ft, and the target is Prone. Your shield lands 30 ft away and you are not wielding a shield until you pick it up.
+
+=== Braced Guard (Maneuver)
+*Disciplines:* 1 Shields · *Requires:* shield · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
+
+*Effect:* Set your shield. Until the start of your next turn, your Shield Block reaction applies to every attack that hits you, not just one.
+
+=== Shield Press (Weapon Maneuver)
+*Disciplines:* 1 Shields · *Action:* Action · *Range:* Melee · *Keywords:* Grapple, Control
+
+*Weak:* The target is Grappled until it Escapes. Against a Prone target it is Restrained instead, and its Escapes are at Bane.
+
+*Standard:* The target is Grappled and Restrained until it Escapes, and you may move it 5 ft with you.
+
+*Strong:* The target is Grappled and Restrained until it Escapes, you may move it 5 ft with you, and it cannot attack you until the end of its next turn.
+
+=== Shield Slam (Weapon Maneuver)
+*Disciplines:* 2 Shields · *Requires:* shield · *Action:* Maneuver · *Range:* Melee · *Keywords:* Prone, Push
+
+*Weak:* Deal 4 damage and Push 5 ft.
+
+*Standard:* Deal 6 damage and Push 5 ft.
+
+*Strong:* Deal 8 damage and Push 5 ft; the target is Prone.
+
+=== Lock Shields (Maneuver)
+*Disciplines:* 2 Shields · *Requires:* shield · *Action:* Maneuver · *Range:* 5 ft · *Keywords:* DR
+
+*Effect:* Choose any number of allies within 5 ft who are wielding shields, including yourself. Until the start of your next turn, each of you gains +1 shield DR.
+
+=== Interpose (Maneuver)
+*Disciplines:* 3 Shields · *Requires:* shield · *Action:* Reaction · *Range:* 5 ft · *Keywords:* DR
+
+*Effect:* When an attack hits an ally within 5 ft, you take the attack instead. Resolve it against your DR, and your Shield Block applies to it.
+
+=== Renewal (Weapon Maneuver)
+*Disciplines:* 1 Protection · *Action:* Maneuver · *Range:* Self · *Keywords:* Healing
+
+*Weak:* Regain 4 HP.
+
+*Standard:* Regain 6 HP.
+
+*Strong:* Regain 8 HP.
 
 === Pull Them Clear (Weapon Maneuver)
 *Disciplines:* 2 Protection · *Action:* Action · *Range:* Melee · *Keywords:* Support
@@ -620,41 +611,50 @@ This DR does not stack with any other source of DR.
 
 *Strong:* You drag one creature within reach 15 ft in any direction, an ally you drag is freed of every condition and may immediately take an Action, and an enemy you drag is knocked Prone.
 
-=== Sunshot (Weapon Maneuver)
-*Disciplines:* 3 Ranged · 1 Tactics · 1 Stealth · *Action:* Action · *Range:* 60 ft · *Keywords:* Damage, Blinded
+=== Sand Cast (Weapon Maneuver)
+*Disciplines:* 1 Sleight · *Action:* Action · *Range:* 10 ft · *Keywords:* Blinded, Control
 
-*Weak:* 4 damage and the target is Blinded until the end of its next turn.
+*Weak:* The target is Blinded until the end of its next turn.
 
-*Standard:* 6 damage and the target is Blinded until the end of the scene. Against a target that is already Blinded or Deafened, the shot ignores Cover and Concealment and may target any creature you have seen this scene.
+*Standard:* The target is Blinded until the end of its next turn, and it is at Bane on its next attack.
 
-*Strong:* 8 damage and the target is Blinded until the end of the scene, and it cannot benefit from any Boon until its eyes clear.
+*Strong:* The target is Blinded until the end of the scene and drops one held item of your choice; you may take it as part of this Action.
 
-=== Harvest the Fear (Weapon Maneuver)
-*Disciplines:* 3 Two-Handed · 1 Tactics · 1 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* Frightened, Control
+=== Follow My Lead (Weapon Maneuver)
+*Disciplines:* 1 Tactics · *Action:* Action · *Range:* Melee · *Keywords:* Support
 
-*Weak:* One creature that can see you is Frightened of you until the end of the scene.
+*Weak:* 4 damage to one enemy within reach, and that enemy cannot spend its Reaction before your next turn.
 
-*Standard:* Up to three creatures that can see you are Frightened of you until the end of the scene, and any that was already Frightened of you is Stunned until the end of its next turn.
+*Standard:* 6 damage, and one ally who can see you may immediately make a Basic Attack against that enemy, spending their Reaction.
 
-*Strong:* Every creature that can see you is Frightened of you until the end of the scene, and any that was already Frightened of you is Stunned until the end of its next turn. While you remain visible, none of them can benefit from an ally's Boon.
+*Strong:* 8 damage, and one ally who can see you may immediately make a Basic Attack against that enemy with a Boon on it, spending their Reaction.
 
-=== Groundbreaker (Weapon Maneuver)
-*Disciplines:* 3 Two-Handed · 1 Tactics · 1 Unarmed · *Action:* Action · *Range:* 15 ft · *Keywords:* Prone, Control
+=== Eyes On Me (Weapon Maneuver)
+*Disciplines:* 1 Tactics · *Action:* Action · *Range:* Melee · *Keywords:* Support
 
-*Weak:* Every standing creature in a 15-ft arc is knocked Prone.
+*Weak:* 4 damage to one enemy within reach, and it must target you with its next attack if it attacks at all.
 
-*Standard:* Every creature in a 15-ft arc is knocked Prone and Restrained until it Escapes (the ground is broken under it). A creature that was already Prone cannot stand until it Escapes.
+*Standard:* 6 damage, and that enemy must target you with its next attack; one ally who can see you gains a Boon on their next attack against it.
 
-*Strong:* Every creature in a 15-ft arc is knocked Prone and Restrained until it Escapes, and any that was already Prone is Stunned until the end of its next turn.
+*Strong:* 8 damage, and every enemy within 30 ft that can see you must target you with their next attack; every ally who attacks one of them gains a Boon on that attack.
 
-=== Taken Alive (Weapon Maneuver)
-*Disciplines:* 3 Unarmed · 1 Tactics · 1 Armor · *Action:* Action · *Range:* Melee · *Keywords:* Restrained, Control
+=== Rolling Thunder (Weapon Maneuver)
+*Disciplines:* 1 Tactics · 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Support
 
-*Weak:* The target is Grappled until it Escapes. A target that is already Grappled or Restrained is bound instead: the condition no longer ends with an Escape, and only another creature can free it by spending an Action.
+*Weak:* 4 damage to one enemy within reach.
 
-*Standard:* The target is Grappled and Restrained until it Escapes, and every Escape it attempts is at Bane.
+*Standard:* 6 damage, and the next ally who attacks that enemy this round gains a Boon; if that ally's outcome is Standard or better, the Boon passes to the next ally in line.
 
-*Strong:* The target is Grappled and Restrained, its Escapes are at Bane, and you may move it 15 ft with you. A target that was already Grappled or Restrained is bound as on a Weak result.
+*Strong:* 8 damage, and every ally who attacks that enemy this round gains a Boon, each passing to the next in line until a roll falls short.
+
+=== Hold Until It Moves (Weapon Maneuver)
+*Disciplines:* 2 Tactics · *Action:* Action · *Range:* 30 ft · *Keywords:* Support
+
+*Weak:* You and one ally who can see you each ready an attack against one enemy within 30 ft, released the moment that enemy moves or attacks, and the first released attack gains a Boon.
+
+*Standard:* You and every ally who can see you each ready an attack against one enemy within 30 ft, released together the moment it moves or attacks, and the first released attack gains a Boon and Marks the enemy until the end of the round.
+
+*Strong:* You and every ally who can see you each ready an attack against one enemy within 30 ft, released together the moment it moves or attacks; every released attack gains a Boon, the enemy is Marked until the end of the round, and it cannot spend its Reaction while the volley resolves.
 
 === Break the Order (Weapon Maneuver)
 *Disciplines:* 2 Tactics · 1 Mind · *Action:* Action · *Range:* 30 ft · *Keywords:* Support
