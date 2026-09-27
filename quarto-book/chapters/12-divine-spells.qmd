@@ -356,7 +356,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 == Animal Spells
 
-=== Beast Tongue (Novice Divine Spell)
+=== Beast Tongue (Novice Primal Spell)
 *Disciplines:* 1 Animal · *Requires:* focus:primal · *Action:* Action · *Range:* 30 ft · *Keywords:* Boon
 
 *Weak:* One beast obeys a simple command for 1 turn.
@@ -367,7 +367,7 @@ This DR is not shield DR: it counts against the ceiling with your other sources.
 
 == Plants Spells
 
-=== Briar Wall (Adept Divine Spell)
+=== Briar Wall (Adept Primal Spell)
 *Disciplines:* 2 Plants · *Requires:* focus:primal · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Slowed, Restrained
 
 *Weak:* Creatures passing through take 5 piercing damage.

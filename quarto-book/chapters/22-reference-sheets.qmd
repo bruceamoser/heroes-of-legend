@@ -408,6 +408,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   [Hammer],  [1],
   [Healer's Kit],  [1],
   [Holy Symbol],  [0],
+  [Primal Focus],  [0],
   [Ink & Pen],  [0],
   [Lantern (hooded)],  [1],
   [Manacles],  [1],
