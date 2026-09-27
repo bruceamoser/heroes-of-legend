@@ -156,7 +156,7 @@ are the *filed* work; the assessment says what outranks which. Read them togethe
 | 7 | **23-license** — Wave 2 stands at 24/25 | row 2 | Outstanding chapter. |
 | 8 | **Closing balance audit** — one full-book budget walk | row 2 | The closing act of the build pass; waits on items 1 and 4 landing. |
 | 9 | **The economy's line-level repairs** - the true-price statement, 4 misnamed structures | assessment 2 (cycle 3) | **Filed as #661.** Mechanical and determinate, no ruling needed, so the engine can take it today. It is the cheapest fix in the book's most expensive defect class: 44 DP of unfunded spend in rows 161/162 traces to a price the book states incorrectly. |
-| 10 | **Pacing lever 2 - size the Standard encounter to the party's actions** (~1 creature per hero) | row 165, cycle 5 re-cost | **Blocked on one word from Bruce** (lever 1 / 2 / 3). Lever 2 moves `19:53` only and lands every tier at 3.78 / 3.15 / 2.88 rounds. Do not implement unruled. |
+| 10 | **Pacing lever 2 - size the Standard encounter to the party's actions** (~1 creature per hero) | row 165, cycle 5 re-cost | **Blocked on one word from Bruce** (lever 1 / 2 / 3). Lever 2 moves `19:53` only and lands every tier at 3.79 / 3.15 / 2.88 rounds. Do not implement unruled. |
 
 ## Next action
 

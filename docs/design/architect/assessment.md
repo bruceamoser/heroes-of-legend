@@ -323,7 +323,7 @@ current at Novice and ~32% at Master" - were built on the artifact, and lever 2 
    printed today. Cost: the guideline plus all 48 stat blocks, and it makes a Novice monster a
    seven-hero-hit object.
 2. **Size the Standard encounter to the party's actions: about one creature per hero.** Six creatures
-   of the tier's band resolve in **3.78 / 3.15 / 2.88 rounds** (in-window at Novice and Adept, 0.1
+   of the tier's band resolve in **3.79 / 3.15 / 2.88 rounds** (in-window at Novice and Adept, 0.1
    round fast at Master), and the other direction finally bites: six creatures drop a party in ~4.2
    rounds instead of 12.7. That is what makes an even fight cost something, and it is the first lever
    that gives Grit a job. Cost: `19:53`'s budget line, its worked example and its party-size step, and
