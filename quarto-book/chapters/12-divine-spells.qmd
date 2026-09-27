@@ -71,7 +71,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 
 *Standard:* Three simultaneous effects. Your presence is unmistakably divine. Bystanders who aren't actively hostile are awed, social checks against them have Boon.
 
-*Strong:* Your display is terrifying or awe-inspiring (your choice). Hostile creatures of Novice tier or lower must make a Reason check or flee for 1 round. The ground actually shakes. The fire actually roars.
+*Strong:* Your display is terrifying or awe-inspiring (your choice). One hostile creature of Novice tier or lower that can see or hear you flees for 1 round. The ground actually shakes. The fire actually roars.
 
 == Primal Cantrips
 
