@@ -374,6 +374,8 @@ An ally can stabilize you with a Medicine check (Standard difficulty) or any hea
 
 Some injuries don't fade when the healing potion wears off. Wounds are the lasting consequences of combat: the broken ribs, the tendon that never healed right, the scar that aches when rain is coming. They linger after HP is restored and they shape who your hero becomes.
 
+*Every wound leaves a mark.* A scar, a limp, a voice that catches, a flinch at a sound your hero never names. The mark outlives the mechanic. When the Bane has faded and the bone has knitted and the wound has healed off your sheet, the remnant stays, and it belongs to you. Name it when the wound lands, or when the fight is over and the table breathes again, whichever comes first. Three parallel gashes across the ribs. A left knee that has never trusted stairs since. A shoulder that aches before rain. If you would rather not choose, the DA names it for you. The mark carries no number. It is not a penalty and it is not a token: it is the record of what your hero survived, and its whole worth is that the people at your table can see it.
+
 *Triggering a Wound.* When you spend a point of Grit, you take a wound and must roll on the Wound Table. It is once per Grit spent. The body can only break so many times before it stops bending.
 
 *The Wound Table (D666).* The wound roll uses a special notation: D666. Roll 3d6, plus one extra die for each wound you already carry, up to three extra. Keep the highest three of those dice, then sort them in ascending order. The lowest die is the HUNDREDS digit. The middle die is the TENS. The highest die is the ONES. A roll of [1] [3] [5] reads as 135. A roll of [2] [4] [6] reads as 246. The Wound Table (Tables 13.4 and 13.5) gives the result. Ranges are listed as three-digit numbers in D666 notation.
@@ -426,6 +428,8 @@ Some injuries don't fade when the healing potion wears off. Wounds are the lasti
 *Precedence:* A roll that matches a named triple (111, 222, 333, 555, 666) always takes that row, even when a range would also include it. Read the roll in D666 notation, lowest die first, so 2-2-2 is 222 and 1-4-6 is 146.
 
 *Healing Wounds.* Wounds persist after HP is restored. You can be at full health and still favor a cracked rib. Wounds heal at a rate of 1 per long rest. A Standard Medicine check made by you or an ally during a rest heals 1 additional wound. The body mends slowly, and some hurts never fully fade. That's the price of the life you chose.
+
+*What gives a Wound back.* Magic returns HP. It does not take a Wound off your sheet. A Wound is not a condition, so an effect that ends conditions does not mend one, and a hero at full health still carries every mark they have earned. Three things take a Wound off the sheet: a long rest, a Standard Medicine check made during a rest, and a rule that names the injury it undoes. Crippling Blow names one, and Severance Undone answers it. The mark stays even then.
 
 == Cover
 
