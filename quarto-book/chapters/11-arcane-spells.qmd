@@ -573,15 +573,6 @@ This DR does not stack with any other source of DR.
 
 *Strong:* For the scene, every deliberate falsehood spoken near you shows itself as a wrongness you can point to, and the purpose behind each lie is plain to you.
 
-=== The Given Word (Novice Arcane Spell)
-*Disciplines:* 1 Mind · *Action:* Action · *Range:* Touch (ritual, 1 minute) · *Keywords:* Oath, Damage
-
-*Weak:* A promise written in your presence and signed binds its signer: the moment they break it they take 4 damage.
-
-*Standard:* The signer takes 6 damage on the breach, and the hand that signed goes numb until amends are made.
-
-*Strong:* The signer takes 8 damage on the breach, is Marked for every witness to see, and the signing hand closes on itself and will not open until the promise is kept.
-
 === Phantasmal Image (Adept Arcane Spell)
 *Disciplines:* 2 Mind · *Requires:* focus:arcane · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
 
@@ -635,6 +626,26 @@ This DR does not stack with any other source of DR.
 *Standard:* For the scene, no creature in the room can shape a false statement; a lie turns to ash in the mouth, and what the speaker meant to hide is plain on their face.
 
 *Strong:* The room keeps what it hears, holding every word spoken in it for a day; a lie cannot be spoken in it at all, and every creature present hears the truth the speaker tried to hide.
+
+== Fate Spells
+
+=== The Given Word (Novice Arcane Spell)
+*Disciplines:* 1 Fate · *Action:* Action · *Range:* Touch (ritual, 1 minute) · *Keywords:* Oath, Damage
+
+*Weak:* A promise written in your presence and signed binds its signer: the moment they break it they take 4 damage.
+
+*Standard:* The signer takes 6 damage on the breach, and the hand that signed goes numb until amends are made.
+
+*Strong:* The signer takes 8 damage on the breach, is Marked for every witness to see, and the signing hand closes on itself and will not open until the promise is kept.
+
+=== Thread of Ruin (Adept Arcane Spell)
+*Disciplines:* 2 Fate · *Action:* Action · *Range:* 60 ft · *Keywords:* Damage
+
+*Weak:* 5 damage.
+
+*Standard:* 8 damage.
+
+*Strong:* 11 damage.
 
 == Protection Spells
 
