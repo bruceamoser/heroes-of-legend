@@ -1197,3 +1197,57 @@ COLLECTS against what the file CONTAINS before believing what it prints.
 recoverable (a pickaxe over the tracked history finds no commit carrying it) and has NOT been invented:
 row 105 is now a tombstone and the sequence 1-198 is unbroken.
 
+## Derived-constant audit (cycle 34, 2026-09-27) - an addendum to Assessment 2, the economy
+
+**Why an addendum.** W-007 (the change-one-number pass) is an audit OF the economy rather than a new
+subsystem, so it records here beside Assessment 2 rather than replacing it. Nothing in Assessment 2's
+verdict changed: the row is sound at both ends of its range and the cost model still holds.
+
+**The mechanic as printed.** Ch10's damage budget fixes one row per tier (Novice 4/6/8, Adept 5/8/11,
+Master 7/10/14, `10:46`-`10:48`). Three other printed quantities are functions of that row and are
+printed as if they were independent: the **DR ceiling** `3 at Novice, 4 at Adept, 6 at Master` (6 sites:
+`16:27`, `20:657`, `20:663`, `21:115`, `22:365`, `22:392`) and the **monster-creation band average**
+`5.67 / 7.50 / 9.59` (1 site, `20:657`), which the HP rule multiplies by three and by the number of
+attackers the creature faces.
+
+**The numbers, computed rather than quoted.**
+
+- The band average is the row weighted by the 3d6 tier odds: `(4·56 + 6·140 + 8·20) / 216 = 5.667`;
+  Adept `(5·56 + 8·140 + 11·20)/216 = 7.500`; Master `(7·56 + 10·140 + 14·20)/216 = 9.593`. Printed:
+  5.67 / 7.50 / 9.59. **3 of 3 exact.** 0 stale constants book-wide.
+- The ceiling is `Weak − 1` at every tier: 4−1, 5−1, 7−1 = 3 / 4 / 6. **3 of 3 exact.**
+- Dependent population, parsed from `origin/main`: **155 card damage blocks**, **79 monster damage
+  triples**, **49 `HP n, DR n` lines**. A one-step change to the row therefore touches **283 printed
+  sites** directly plus the derived ones.
+- The invariant boundary is load-bearing in both directions. Row +1 leaves every ceiling a step low
+  (the ceiling would have to be 4/5/7) and moves all three averages. Row −1 **breaks invariant 3**: the
+  Novice ceiling 3 would sit above `Weak − 1 = 2`, and heavy armour's DR 3 - gear, so gold-gated rather
+  than level-gated - would flatten the Novice triple to 1/1/1 and switch the defence roll off.
+- The ladder is internally consistent: `16:29` prices a DR grant at one rank per DR and `10:70` caps a
+  Discipline at rank 3, so DR 4 is ungrantable by the book's own rule; the armour table's 1/2/3 is the
+  same scale.
+
+**Verdict: the row is GOOD; its documentation was BAD and is now GOOD.** The row delivers its promise at
+both ends, discriminates across the three tiers at every DR the book can grant, and its two derived
+constants were both exactly right. What failed was the **LEARNABLE** criterion: neither derivation, nor
+the 3d6 odds table they rest on, appeared anywhere in the book (`git grep` **0 hits** each), so a DA
+building a creature from scratch had three numbers they could not check, in a formula the book tells them
+to use. Repaired on the smallest lever, documentation only, by PR #726: `16:27` names the ceiling's
+derivation, `20:657` names the average's weighting and prints the odds. No number, band, ceiling or stat
+block moved, no rule was added, and the page count is unchanged at 399.
+
+**Measured and deliberately NOT changed.** (1) The Adept ceiling 4 and the Master ceiling 6 can never
+bind today: the largest printed hero DR grant is +3 (heavy armour 3; the +3 wards at `11:731`, `12:241`)
+and DR does not stack (`16:23`). They are derived from the band rather than chosen - move the rank cap to
+4 and the Adept ceiling binds for the first time - so lowering them would be new law, and they are
+recorded here so no future pass files them as dead content. (2) The `Petrified` condition's `DR +5`
+(`13:209`, `21:173`, `22:109`) exceeds the Novice and Adept ceilings by design: the ceiling's scope
+sentence names armor, talents and wards only, and a statue is a statue.
+
+**Instrument.** `scripts/change-one-number.py` (new): parses `origin/main`, re-derives every constant
+that follows from the row, perturbs one number at a time (band ±1, card price, a rank ladder, armour DR,
+the rank cap, Grit, the attribute cap) and prints the blast radius and the invariant each one touches.
+`--selftest` plants a mutated Novice row and requires the derived-constant check to fail on it, so the
+gate is proven to be able to fail. One instrument bug was found and fixed in the act:
+its ceiling-site regex required the word `or` and so counted 4 of the 6 printed sites, the standing
+"census what the tool COLLECTS against what the file CONTAINS" rule catching it again.
