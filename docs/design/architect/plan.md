@@ -734,3 +734,62 @@ a design question hides behind a single printed number.
 **State at cycle 35.** Book at `6f4769c`; **0 open issues, 0 open PRs**; one checkout, clean tree, no worktrees, no stray branches. Words **84,398** (+69); **ledger 206 rows**, none ruled-but-unbuilt; pages **399** (unchanged). Every walkthrough on the role's list has now been played.
 
 **Next: the assessment's `## What matters now`**, because the queue is empty and the walkthrough list is exhausted. The flavour dimension now has an instrument (coverage and contradiction), which was the last of the three scorecard outcomes to have one; the honest next move is to re-rank the open items against the reassessment rule rather than to invent a new pass.
+
+---
+
+## Cycle 36 (2026-09-27): THE STATE OF THE GAME, the first full review
+
+**SENSE.** 0 open PRs, 0 open issues, 206 ledger rows with none ruled-and-unbuilt, 9 of 9 subsystems
+assessed, all seven walkthroughs played. The queue was empty, and the contract makes an empty queue a
+PRIORITY-1 trigger: *"if the queue is empty ... the act is the REVIEW, and it outranks everything below."*
+Nothing to inspect, nothing to dispatch, and the plan's own named next action (re-rank `## What matters
+now`) was a bookkeeping step, so the review ran.
+
+**A housekeeping find first.** The cycle-35 bookkeeping commit (`aec0df3`) was sitting **unpushed** on the
+local checkout, so the state the monitor reads was one commit behind the state on disk, which is why it
+reported 205 ledger rows against a file holding 206. Pushed. And `origin/fix/flavour-pass-1` was still on
+the remote after cycle 35; `git cherry origin/main origin/fix/flavour-pass-1` returned `-`, so the commit's
+patch-id was already in main and the ref was deleted. **A cleanup pass that deletes the local branch and
+leaves the remote ref has not finished the job.**
+
+**THINK: the book, not the tracker.** Read for the review: ch01 in full (the promise list at `01:74-78`),
+ch06's resolution engine, ch13's round, Grit and the Wound Table, ch19's encounter economics and starter
+adventure, ch20's block format and traits, ch05's nine class blocks and ability tables, ch10's casting
+rule and cantrip floor, ch16's DR law, plus all seven walkthrough transcripts as the playtest record.
+
+**DECIDE: three positions the review takes and defends.**
+
+1. **The reversed Defence roll is the best idea in the book**, and the single most likely thing to break a
+   first session: the book's own quick reference inverted cover once, and the arithmetic says why it
+   matters (16.2% to 35.5% chance of taking the attacker's Strong damage, all 216 outcomes enumerated).
+   Ranked first among the weaknesses, and the repair is layout discipline rather than design.
+2. **Flat hits-to-fall (5.8 / 5.9 / 5.8) is a position, not a defect.** Danger stays constant and the means
+   scale. Its printed price is damage per DP falling 3.00 to 2.00 to 1.25, which needs the intent sentence
+   the ledger already decided.
+3. **The next most valuable work is to measure the Wound Table against the pacing law.** Every Grit spend
+   is a Wound roll and much of the table is a per-encounter Bane; whether that compounds faster than the
+   pools absorb is the one live unknown that could overturn the 3-4 round frame, and every other judgement
+   sits on that frame.
+
+Two findings were raised and cleared by reading rather than filing, which is the point of reading the card
+first: ch01's example of play prints "Standard damage is 2, plus your Agility: 4" and that is **correct**
+(the Basic Melee floor is 2 at Standard, `09:232`, plus Agility via the Blade's Precision), so the defect is
+readability and the unstated substitution, not the number; and the goblin chieftain's "crude leather armour
+DR 2" is an NPC stat line, not hero gear, so the DR scope law does not reach it.
+
+**Landed as a micro-PR of my own (PR #728, squash `0786a0c`)**: one new file, `docs/design/architect/review.md`,
+3,845 words, 10 sections in the contract's order. Audit: file set exactly the one file and 0 `.qmd` touched
+(so no rebuild is owed); **36 distinct `chapter:line` citations checked against the chapter files, 0
+dangling**; 0 em-dashes and 0 contract-banned words in added lines. Two citations were corrected on the
+branch before merge (`06:93` pointed at the wrong section, `05:11-13` at the figure rather than the callout),
+which is what the citation gate is for.
+
+**State at cycle 36.** Book at `0786a0c`; **0 open issues, 0 open PRs**; one checkout, clean tree, no
+worktrees, no stray branches, no unpushed commits. Ledger **206 rows**, none ruled-but-unbuilt; words
+**84,398**; pages **399**. The review is on disk for the first time; `references/game-review.md`'s cadence
+rule now applies (rewrite when the queue empties, after an assessment sweep, or on request).
+
+**Next: the Wound Table against the pacing law.** The review names it as the highest-value open question and
+it is a measurement with an instrument to build (Grit spends per fight by tier, the Wound Table's Bane
+population, and the resulting rounds-to-resolve), not a new pass. It is balance in the contract's sense:
+the invariant is pacing (7) and the lever is a measurement, so it is mine to settle.
