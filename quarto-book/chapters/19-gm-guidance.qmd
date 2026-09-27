@@ -103,8 +103,6 @@ Short rests take 1 hour and have no default mechanical effect. They provide narr
 *Long rest (8 hours):* A full night's sleep provides the following benefits:
 - Recover HP equal to your level.
 - Recover all spent Grit.
-- Heal 1 wound.
-- A character may attempt a Medicine check (Standard) to heal 1 additional wound (for themselves or an ally).
 - A long rest cannot be taken more than once per 24 hours.
 
 The long rest is the primary recovery mechanic in _Heroes of Legend_. Party resources, exploration pace, and adventure design all calibrate around it.
@@ -142,7 +140,7 @@ Overland travel uses a simple pace system. Each day, the party covers distance b
 
 *Random Encounters:* Roll 1d6 each day and night. On a 1, an encounter occurs. DA chooses or rolls from environment-specific tables.
 
-*Camping:* A long rest follows the standard rules (see Resting above): 8 hours of rest including sleep, recovering 1 HP per level, regaining all spent Grit, and healing 1 wound (plus 1 additional wound with a Standard Medicine check). Characters on watch make Perception checks with a Bane (tired eyes).
+*Camping:* A long rest follows the standard rules (see Resting above): 8 hours of rest including sleep, recovering 1 HP per level, and regaining all spent Grit. Characters on watch make Perception checks with a Bane (tired eyes).
 
 #quote[*DA Guidance:* Travel is a pacing tool. Use it to build atmosphere, the oppressive silence of a swamp, the howling wind on a mountain pass. Skip travel entirely when the journey isn't the story. "After three days on the road, you arrive at the gates of Thornwell" is perfectly valid.]
 
