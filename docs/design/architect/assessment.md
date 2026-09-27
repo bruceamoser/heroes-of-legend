@@ -11,8 +11,8 @@ that what exists is good.
 | # | Item | Why it outranks everything | Status |
 |---|---|---|---|
 | 1 | **The price of a card is stated two ways, and creation teaches the wrong one** | `02:204` (Step 7) and `22` (DP Cost Reference) both say cards cost "2/4/8 DP regardless of class", while `08:178` says "the flat card DP cost is only part of the price: you also pay rank costs for any required Disciplines you do not already possess". The true price of a Novice card is **2 to 6 DP** (held / Home / Adjacent / Foreign / Opposed). Every build budgeted from creation's own steps underfunds by the rank costs, which is the measured cause of the 26 DP shortfall at rank 9. | **LANDED 2026-09-26 (cycle 15): PR #687, `main` `1c06fa0`.** The card's true price is stated at all three sites, with the five figures re-derived from ch08's own rate table and matching its printed worked example. The dispatch gate caught that a quarter of the work order had already landed. |
-| 2 | **The casting procedure names a field it never defines** | `10:31` says every spell rolls `3d6 + Knowledge` (arcane) or `+ Reason` (divine) "plus **relevant skill**"; the phrase appears twice in the book and is defined nowhere. **114 of 114 spell cards name no skill**, no ch07 skill entry says "casting", and the only mapping anywhere is inside one worked example (`10:123`, Arcana). A player cannot cast a spell from the book alone, and a divine caster is told to pair a Reason roll with a Knowledge-keyed skill. | **work order filed as #668** (cycle 8's decision, dispatch gate pending): one sentence naming the tradition's skill, anchored on the book's own worked example (`10:122` uses Arcana). |
-| 3 | **Primal is a half-built tradition: 12 cards, 7 requirements, 0 items, 0 glossary entries, 0 classes** | 12 cards are titled "Primal Spell" and 7 requirements ask for `focus:primal`, but ch15 carries no primal focus item, ch21 no entry, ch05 no mention, and ch10 declares only two traditions. `12:359`/`12:370` are titled Divine and demand a primal focus. "Primal" already names a discipline category (Animal, Plants). A listed thing that cannot be bought or cast is the Cohesive criterion failing outright. | **work order filed as #668** (same file group as row 2): primal focus item, glossary entry, tradition sentence, and the two cards whose titles contradict their own Requires field. |
+| 2 | **The casting procedure names a field it never defines** | `10:31` says every spell rolls `3d6 + Knowledge` (arcane) or `+ Reason` (divine) "plus **relevant skill**"; the phrase appears twice in the book and is defined nowhere. **114 of 114 spell cards name no skill**, no ch07 skill entry says "casting", and the only mapping anywhere is inside one worked example (`10:123`, Arcana). A player cannot cast a spell from the book alone, and a divine caster is told to pair a Reason roll with a Knowledge-keyed skill. | **work order filed as #668**; dispatch gate run 2026-09-27 (cycle 18) - cites corrected (`10:75` -> `10:77`), and the primal attribute, which the work order never fixed, is DECIDED: Knowledge + Arcana / Reason + Religion / Reason + Nature. Dispatch-ready. |
+| 3 | **Primal is a half-built tradition: 12 cards, 5 requirements, 0 items, 0 glossary entries, 0 classes** | 12 cards are titled "Primal Spell" and 5 requirements ask for `focus:primal`, but ch15 carries no primal focus item, ch21 no entry, ch05 no mention, and ch10 declares only two traditions. `12:359`/`12:370` are titled Divine and demand a primal focus. "Primal" already names a discipline category (Animal, Plants). A listed thing that cannot be bought or cast is the Cohesive criterion failing outright. | **work order filed as #668**, amended 2026-09-27 (cycle 18) after the dispatch gate: primal focus item, glossary entry, tradition sentence, and the two cards whose titles contradict their own Requires field - **the repair is the TITLE (Divine -> Primal), reversed from the original focus change**; see the reversal evidence in Assessment 5. |
 | 4 | **The difficulty dial is asymmetric** | Trivial +4 down to Nearly Impossible -6. More room to make things hard than easy. Combined with a competent hero at +3, a Trivial task cannot fail. Deliberate or drift? Unruled. | **DECIDED 2026-09-26 (architect, cycle 12) - BALANCE, not a Bruce question; veto to revert.** Not a defect: the asymmetry is load-bearing. A Master specialist reaches mod +5, and a *symmetric* +/-4 dial leaves that hero unfailable on every dialled task (+5 - 4 = +1, P(Weak) still 16.2%); the -6 end exists to make exactly that hero's task a coin flip (+5 - 6 = -1, P(Weak) 37.5%). The dial is deliberately wider than the dice. **No number changes.** Evidence: Assessment 6 re-assessment section. |
 | 5 | **Failure collapse at the top of the range** | At mod +5 (Master: attr +2, skill +3) P(Weak) = 0.46%, 1 in 216. At +6 it is mathematically 0. A master cannot fail a Standard task, so the "succeed with a catch" band stops existing for them. May be intended (that is what mastery means) but it must be stated as intent. | **DECIDED 2026-09-26 (architect, cycle 12) - premise corrected, NOT a defect; veto to revert.** The row measured the Weak *band* and reported it as failure. The Weak band at +5 holds exactly one roll of 216 and that roll is (1,1,1), the fumble; the fumble is an automatic failure that **overrides the tier** (`06:161/189`, `13:358/362`, unconditional in six homes to one scoping clause). So **P(failure) is flat at 1/216 at +5 and +6 and never reaches 0**; what retires at +6 is the *ordinary* failure, which is what mastery means. Bands still discriminate at +5 (Standard 37.0%, Strong 62.5%). **No number changes.** |
 | 7 | **The Adept cadence is stated two ways** | `10:99` says "Adept and Master spells can only be used once per combat. You can't drop an Adept spell every round", while the chapter's own worked example reads the limit as **per card** (`10:127`). Per-card, a level-7 caster holding four Adept cards casts one every round, which is the outcome the sentence forbids; per-tier, the second Adept card is near-dead content. The whole spotlight economy turns on which. | **IMPLEMENTED DEFAULT 2026-09-26 (cycle 13), veto to revert: PR #681, `main` `b08afb0`** - the Adept limit is per card (the book's own worked example at `10:129`) and the false justification sentence is gone. The other reading (one Adept spell per fight) stays available with one word. |
@@ -314,12 +314,20 @@ re-opened one. Repaired this cycle by positional mapping onto the live row (reti
   rung** (`11:271` Wind Wall "missile attacks through the wall have Bane", `11:317` Ward of Iron "+1 DR
   against one attack"), and on a healing card it inverts the effect (Mending Touch's Weak "Restore 4 HP"
   literally becomes 1 damage).
-- **Primal is a half-built construct.** 12 cards are titled "Primal Spell" and 7 requirements ask for
-  `focus:primal`, but there is **no primal focus item** (15's item table lists Arcane Focus and Holy
+- **Primal is a half-built construct.** 12 cards are titled "Primal Spell" and 5 requirements ask for
+  `focus:primal` (3 on the primal DR ladder, 2 on cards mis-titled Divine - corrected count, cycle 18),
+  but there is **no primal focus item** (15's item table lists Arcane Focus and Holy
   Symbol), **no glossary entry** (21 has both siblings, no primal), **no class mention** (ch05 never says
   primal), and ch10 declares **two** traditions (10:83-89) that do not include it - ch12:19 is the only
   text that names a primal caster ("Shepherds use them"). The two Divine-titled cards that demand a
-  primal focus (`12:359` Beast Tongue, `12:370` Briar Wall) are where the vocabularies collide. And
+  primal focus (`12:359` Beast Tongue, `12:370` Briar Wall) are where the vocabularies collide. **REVERSED
+  in cycle 18: the TITLE is the defect, not the focus.** `19:551` prints the valid spell Kinds as
+  `(Cantrip)`, `(Novice Arcane Spell)`, `(Adept Divine Spell)`, `(Master Primal Spell)`, so Primal is a
+  first-class Kind; both cards' Disciplines are in the Primal category (`12:360` is `1 Animal`, `12:371` is
+  `2 Plants`, and `21:69` prints `Primal (Animal, Plants)`); and the established primal ladder carries
+  `focus:primal` on Primal-titled cards (`12:170`/`12:204`/`12:227`, "the primal twin of the ladder",
+  `12:168`). Changing the two to `focus:holy` would hand an Animal spell a Holy Symbol and delete the
+  primal focus's only non-ladder use. #668 item 2 now retitles the two cards. And
   "Primal" already names a **discipline category** (Animal, Plants - `21:69`, `22:229`), so the word
   carries two senses with one of them unqualified. **A listed thing that cannot be bought and cannot be
   cast is the Cohesive criterion failing outright.**
@@ -638,7 +646,7 @@ plants a retired-row card, a focus mismatch and a blank-label card and requires 
 
 **Two learnability failures, both at the entry point:**
 
-1. **The casting skill is never named.** `10:31` and `10:75` both say "a relevant skill"; 114 cards name
+1. **The casting skill is never named.** `10:31` and `10:77` both say "a relevant skill"; 114 cards name
    no skill, no ch07 entry says casting (Arcana is "Magical knowledge, spell identification", Religion is
    "Gods, rituals, divine lore", Nature is "Plants, animals, natural phenomena"), and the only mapping in
    the book is inside one worked example (`10:123`, Sera adds Arcana). A player cannot cast from the book
@@ -656,10 +664,11 @@ plants a retired-row card, a focus mismatch and a blank-label card and requires 
    no meaning, and on a heal the literal rule inverts the effect. `10:37` over-promises the same grammar
    ("its outcome block keys to that tier's row of the damage budget") when only 32 of the 114 cards print
    a damage row at all (32 damage / 7 healing / 54 pure utility among the 93 non-cantrip spells). Row 175.
-2. **Primal is a half-built tradition: 12 cards, 7 requirements, 0 items, 0 glossary entries, 0 classes.**
-   12 cards are titled "Primal Spell" and 7 requirements ask for `focus:primal`, but ch15's item table
+2. **Primal is a half-built tradition: 12 cards, 5 requirements, 0 items, 0 glossary entries, 0 classes.**
+   12 cards are titled "Primal Spell" and 5 requirements ask for `focus:primal`, but ch15's item table
    carries Arcane Focus and Holy Symbol and no primal focus, ch21 has entries for those two and none for
-   primal, ch05 never uses the word, and `10:83-91` declares **two** traditions while `12:19` says the
+   primal, ch05 never uses the word, and `10:85-95` (the `== Arcane vs. Divine Magic` section; `10:83` is a
+   pagebreak) declares **two** traditions while `12:19` says the
    chapter holds "divine and primal" spells and "Shepherds use them". Only 3 of the 12 Primal-titled
    cards demand the focus at all, and 2 cards titled **Divine** demand it (`12:359`, `12:370`). "Primal"
    also already names a discipline category (`21:69`, `22:229`). A listed thing that cannot be bought or
