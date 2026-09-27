@@ -62,7 +62,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Class:* Your hero's calling, Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced, or Shadow. Determines favored skills, favored Disciplines, and signature ability.
 
-*Culture:* Your upbringing within your ancestry. Grants a +1 skill bonus and either two specific Disciplines or one free Discipline.
+*Culture:* Your upbringing within your ancestry. Grants a +1 skill bonus (that skill's Novice tier, so buying Novice again gains nothing) and either two specific Disciplines or one free Discipline.
 
 *Development Points (DP):* The currency of character creation and advancement. Spent to purchase skills, abilities, and Disciplines. Skills and abilities cost a flat rate by tier (Novice 2 DP, Adept 4 DP, Master 8 DP). Disciplines cost different amounts per class depending on their cost structure (Home, Adjacent, Foreign, Opposed).
 

@@ -241,10 +241,10 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
 + *Concept:* One sentence. Who is your hero?
 + *Attributes:* Assign -2 to +2. Total must be +3.
 + *Ancestry:* Human, Elf, Dwarf, or Halfling. Record Discipline and trait.
-+ *Culture:* Choose upbringing. Record +1 skill bonus and Disciplines.
++ *Culture:* Choose upbringing. Record +1 skill bonus (that skill's Novice tier, so buying Novice again gains nothing) and Disciplines.
 + *Background DP:* 8 + Knowledge + Fortitude. Spend all on Novice skills and abilities.
 + *Class:* Choose class. Record Class Discipline and signature ability.
-+ *Class DP:* 8 DP. Spend all on Novice skills and abilities.
++ *Class DP:* 12 DP at level 1: 8 DP of class training plus the 4 DP every hero gains at level 1, per @sec-chapter-advancement Spend all on Novice skills and abilities.
 + *Equipment:* Take your class's starting loadout (see @sec-chapter-classes). Record weapon properties and armor slots; your Damage Reduction is the highest of your armor's DR (1 light, 2 medium, 3 heavy) and any talent or ward that grants DR. Shield DR is not part of that total: your shield carries a rating, and the Shield Block reaction applies it to one attack per round.
 + *Derived Stats:* HP, Grit, Initiative, Movement, Carry Slots.
 + *Backstory:* Motivation, Trinket, Name.

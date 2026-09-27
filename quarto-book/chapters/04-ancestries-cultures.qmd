@@ -109,7 +109,7 @@ _Figure 6.2: Ancestries_
 
 == Cultures
 
-Your culture is how you were raised. It's not just flavor, it's the skills and Disciplines that shaped your hero before they ever held a sword. Each culture grants a *+1 skill bonus* and either *two specific Disciplines* that define its traditions, or *one free Discipline* for cultures built on adaptability. Pick the one that fits your story.
+Your culture is how you were raised. It's not just flavor, it's the skills and Disciplines that shaped your hero before they ever held a sword. Each culture grants a *+1 skill bonus* and either *two specific Disciplines* that define its traditions, or *one free Discipline* for cultures built on adaptability. That bonus *is* the Novice tier of that skill (@sec-skill-tiers); buying Novice in a skill your culture already grants is 2 DP for no gain, the same waste as two grants of one Discipline, per @sec-chapter-disciplines Pick the one that fits your story.
 
 === Human Cultures
 
