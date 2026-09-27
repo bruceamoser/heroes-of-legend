@@ -133,7 +133,7 @@ HP 10, DR 3 (plate). Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
 
 *Shield Block:* reaction.
 
-*Leadership:* allies within 10 ft have Boon on attacks (a Bane on the defender's roll).
+*Leadership:* allies within 10 ft have Boon on attacks (a Bane on the defender's roll). The knight holds the center of its formation and meets the strongest enemy in front of it rather than chasing a caster.
 
 === Archmage (Challenge 6)
 
@@ -145,7 +145,7 @@ HP 16, DR 2. Attributes: Knowledge +2, Reason +1, Brawn -1, others +0.
 
 *Brimstone Burst:* 5/8/11 (once per encounter).
 
-*Counterspell:* reaction to negate a spell.
+*Counterspell:* reaction to negate a spell. The archmage keeps its distance and holds its reaction for the party's caster rather than closing to trade dagger blows.
 
 *Magical Ward:* +2 DR vs spells.
 
@@ -229,7 +229,7 @@ HP 10, DR 3 (plate). Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
 
 *Multiattack:* Greataxe twice.
 
-*War Cry (Recharge):* all orc allies within 30 ft gain +1 damage tier on their next attack.
+*War Cry (Recharge):* all orc allies within 30 ft gain +1 damage tier on their next attack. The warchief stays inside its warband and withdraws when the last orc beside it falls.
 
 *Relentless:* as Orc.
 
@@ -402,7 +402,7 @@ HP 16, DR 2. Attributes: Guile +2, Reason +1, others +0.
 
 *Vicious Mockery:* 5/8/11 psychic + Bane on next attack (at will).
 
-*Coven Magic:* when 3 hags are within 30 ft, they share spellcasting.
+*Coven Magic:* when 3 hags are within 30 ft, they share spellcasting. The coven fights as one knot, and a hag separated from her sisters falls back to rejoin them.
 
 #pagebreak()
 
@@ -630,7 +630,7 @@ HP 11, DR 6 (plate + unholy). Attributes: Brawn +2, Fortitude +1, Guile +1, othe
 
 *Multiattack:* Greatsword twice.
 
-*Marshal Undead:* undead allies within 30 ft have Boon on attack rolls (a Bane on the defender's roll).
+*Marshal Undead:* undead allies within 30 ft have Boon on attack rolls (a Bane on the defender's roll). The death knight stands among its undead and puts the party's healer or caster first.
 
 *Unholy Resilience:* The Death Knight has Boon on all checks against spells and magical effects.
 
