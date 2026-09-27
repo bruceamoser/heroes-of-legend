@@ -546,7 +546,7 @@ Most mechanical elements in _Heroes of Legend_ follow one of three card formats.
 
 Spells are the most structured. Every spell card answers the same questions in the same order.
 
-*Format:* `### Name (Tier Kind)`, with the tier always leading the parenthetical: `(Cantrip)`, `(Novice Arcane Spell)`, `(Adept Divine Spell)`, `(Master Primal Spell)`. Then a single field line: `**Disciplines:** N Type · **Requires:** focus:arcane · **Action:** Action/Reaction/Maneuver · **Range:** Touch/30 ft/area · **Keywords:** ...` then either a *Weak:* / *Standard:* / *Strong:* block or, for a spell that grants a flat benefit instead of dealing damage, a single *Effect:* line.
+*Format:* `### Name (Tier Kind)`, with the tier always leading the parenthetical: `(Cantrip)`, `(Novice Arcane Spell)`, `(Adept Divine Spell)`, `(Master Primal Spell)`. Then a single field line: `**Disciplines:** N Type · **Requires:** focus:arcane · **Cast:** Action/Reaction/Maneuver (or a stated time, such as 15 minutes) · **Range:** Touch/30 ft/area · **Keywords:** ...` then either a *Weak:* / *Standard:* / *Strong:* block or, for a spell that grants a flat benefit instead of dealing damage, a single *Effect:* line.
 
 #figure(
   align(center)[#table(
@@ -555,7 +555,7 @@ Spells are the most structured. Every spell card answers the same questions in t
     table.header([Field], [Description],),
     [*Disciplines*], [The Disciplines required to learn this spell. e.g. "1 Fire" or "2 Fire". A card's tier sets the level it needs: Novice 1, Adept 3, Master 7. Max 3 ranks per type.],
     [*Requires*], [The gear this card assumes, e.g. "focus:arcane", "focus:holy", or "weapon:two-hand". Many published cards carry no Requires field at all.],
-    [*Action*], [What it costs from the turn economy: Action, Maneuver, or Reaction.],
+    [*Cast*], [What it costs from the turn economy, or how long the working takes: Action, Maneuver, or Reaction, or a stated time such as 1 minute or 15 minutes. A cast that names a time is not a combat cast, and the fight has to wait for it.],
     [*Range*], [How far the spell reaches: Touch, 30 ft, 60 ft, Self (15-ft cone), 20-ft radius, etc.],
     [*Keywords*], [Mechanics the card interacts with: Bane, Boon, Prone, Slowed, Piercing, DR, and so on.],
     [*Weak / Standard / Strong*], [What happens on each result. Damage uses the budget table (@sec-damage-budget): 4/6/8, 5/8/11, or 7/10/14 by tier. Healing uses the healing thresholds (@sec-healing-thresholds) instead: half the target's maximum, their maximum, or their maximum plus a rider. A spell that grants a flat benefit and is never rolled replaces this block with a single *Effect:* line. So do ancestry gifts, and so does any ability that grants a standing benefit rather than an outcome.],
@@ -568,7 +568,7 @@ Spells are the most structured. Every spell card answers the same questions in t
 *Example (Brimstone Burst):*
 
 #quote[*Brimstone Burst (Arcane Spell).*
-*Disciplines:* 2 Fire · *Action:* Action · *Range:* 20-ft radius · *Keywords:* Burning
+*Disciplines:* 2 Fire · *Cast:* Action · *Range:* 20-ft radius · *Keywords:* Burning
 *Weak:* 5 fire damage to all in the radius (Agility or Dodge rank resists).
 *Standard:* 8 fire damage to all.
 *Strong:* 11 fire damage to all; the ground burns (Burning 4).]
@@ -615,7 +615,7 @@ Class abilities are more varied than spells, but they all follow a simpler forma
 
 Some Novice-level cards have no Discipline requirement. Basic utility skills cost the flat card price (2 DP). Cantrips are free, and every caster of a tradition knows the whole list, but they use the same card format:
 
-#quote[*Spark (Cantrip).* *Disciplines:* None · *Action:* Action · *Range:* 30 ft · *Keywords:* None. *Weak:* The object smolders. It may catch fire after 1 round if left alone. *Standard:* Immediate ignition. The object catches fire and burns normally. *Strong:* The flame leaps. Adjacent flammable objects also catch fire.]
+#quote[*Spark (Cantrip).* *Disciplines:* None · *Cast:* Action · *Range:* 30 ft · *Keywords:* None. *Weak:* The object smolders. It may catch fire after 1 round if left alone. *Standard:* Immediate ignition. The object catches fire and burns normally. *Strong:* The flame leaps. Adjacent flammable objects also catch fire.]
 
 No-prereq spell cards are Novice only. An Adept or Master spell always lists a Discipline.
 
