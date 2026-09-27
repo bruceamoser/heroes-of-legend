@@ -154,7 +154,7 @@ Disciplines are not free. Every Discipline your hero possesses comes from a spec
 
 - *Culture* (Step 4): Your upbringing grants one or two Disciplines depending on your culture's traditions. See the culture table in Step 4.
 
-- *Background DP* (Step 5): You may spend Development Points to purchase additional Disciplines at rank 1, or deepen a Discipline you already have to rank 2 (2 same). Rank costs follow your class's cost structure (see @sec-chapter-classes); the Discipline rank ceiling (see @sec-chapter-disciplines) still applies. Higher ranks come from level progression, not creation. This represents skills and knowledge earned during your life before adventuring.
+- *Background DP* (Step 5): You may spend Development Points to purchase additional Disciplines at rank 1, or deepen a Discipline you already have to rank 2 (2 same). Rank costs follow your class's cost structure (see @sec-chapter-classes) The Discipline rank ceiling (see @sec-chapter-disciplines) still applies. Higher ranks come from level progression, not creation. This represents skills and knowledge earned during your life before adventuring.
 
 - *Class* (Phase Two): Your class grants specific Disciplines tied to its training and traditions. See @sec-chapter-classes for each class's starting Disciplines.
 

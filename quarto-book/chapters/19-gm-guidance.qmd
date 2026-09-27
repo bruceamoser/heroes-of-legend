@@ -204,7 +204,7 @@ Proximity to dark magic, forbidden knowledge, and horrific events can corrupt a 
 
 == Social Conflict (Extended)
 
-High-stakes negotiations, interrogations, and trials run as extended social conflicts. The full rulebook lives in the social conflict chapter (@sec-chapter-social-conflict): the Challenge on the face's roll, the tier-to-success table, first to 3 wins, and the stakes-declared rule. Point players there for the mechanics, and keep one reminder at the table: declare the stakes before the first die hits the table, or the scene never ends.
+High-stakes negotiations, interrogations, and trials run as extended social conflicts. The full rulebook lives in the social conflict chapter: the Challenge on the face's roll, the tier-to-success table, first to 3 wins, and the stakes-declared rule (@sec-chapter-social-conflict) Point players there for the mechanics, and keep one reminder at the table: declare the stakes before the first die hits the table, or the scene never ends.
 
 #pagebreak()
 
@@ -560,7 +560,7 @@ Spells are the most structured. Every spell card answers the same questions in t
     [*Action*], [What it costs from the turn economy: Action, Maneuver, or Reaction.],
     [*Range*], [How far the spell reaches: Touch, 30 ft, 60 ft, Self (15-ft cone), 20-ft radius, etc.],
     [*Keywords*], [Mechanics the card interacts with: Bane, Boon, Prone, Slowed, Piercing, DR, and so on.],
-    [*Weak / Standard / Strong*], [What happens on each result. Damage uses the budget table (@sec-damage-budget): 4/6/8, 5/8/11, or 7/10/14 by tier. A spell that grants a flat benefit and is never rolled replaces this block with a single *Effect:* line. So do ancestry gifts, and so does any ability that grants a standing benefit rather than an outcome.],
+    [*Weak / Standard / Strong*], [What happens on each result. Damage uses the budget table: 4/6/8, 5/8/11, or 7/10/14 by tier (@sec-damage-budget) A spell that grants a flat benefit and is never rolled replaces this block with a single *Effect:* line. So do ancestry gifts, and so does any ability that grants a standing benefit rather than an outcome.],
   )],
   kind: table,
   outlined: false,
