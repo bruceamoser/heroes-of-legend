@@ -619,7 +619,7 @@ plants a retired-row card, a focus mismatch and a blank-label card and requires 
 - **The third band-change axis was still unconverted.** The 2026-09-15 sweep grepped slash-triples, which
   is how damage prints; three axes print without them, and healing was only the second. The third:
   **7 of 7 damaging item ladders in ch17 (21 figures) sat on the retired rows** (5 ladders on 2/4/6 at
-  `17:59`, `17:115`, `17:269`, `17:291`, `17:473`; 2 on 6/9/12 at `17:225` and `17:293`) even though
+  `17:59`, `17:115`, `17:269`, `17:341`, `17:473`; 2 on 6/9/12 at `17:225` and `17:293`) even though
   `17:29` prints the live rows in the chapter's own header text, plus **5 Master abilities in ch05**
   printing 9 or 15 (`05:540`, `588`, `589`, `707`, `708`). The closed band-residue issue #546 named
   ch11/ch12 "and their mirrors" and references neither file. Repaired this cycle: 26 figures moved onto
