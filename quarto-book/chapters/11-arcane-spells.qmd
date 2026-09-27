@@ -16,7 +16,7 @@ But fire's just the beginning. Ice that freezes blood in the veins. Lightning th
 
 Arcane magic is the art of telling the universe to sit down and shut up, and making it listen. You don't ask. You don't pray. You _impose._
 
-This chapter contains every arcane spell in the game: fifteen cantrips you know from the start, and fifty-three spell cards that run Novice, Adept, and Master. Every spell card carries a Discipline, an action, a range, and an effect. Every spell card prints its tier, and wherever a card deals damage its outcome block keys to that tier's row of the damage budget. Key the numbers to the damage budget (@sec-damage-budget), and cast. Where a card prints half of a value, or splits one across several targets, round down.
+This chapter contains every arcane spell in the game: fifteen cantrips you know from the start, and fifty-four spell cards that run Novice, Adept, and Master. Every spell card carries a Discipline, an action, a range, and an effect. Every spell card prints its tier, and wherever a card deals damage its outcome block keys to that tier's row of the damage budget. Key the numbers to the damage budget (@sec-damage-budget) and cast. Where a card prints half of a value, or splits one across several targets, round down.
 
 _See @sec-chapter-magic-system for how spellcasting works._
 
