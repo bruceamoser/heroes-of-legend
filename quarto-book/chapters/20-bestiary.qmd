@@ -49,7 +49,7 @@ HP 14, DR 1. Attributes: Brawn +1, Fortitude +1, Agility 0, Guile 0, Knowledge 0
 
 *Pack Tactics:* Boon on attacks when an ally is adjacent (a Bane on the defender's roll).
 
-*Knockdown:* On Strong hit, target must succeed Agility check or be knocked Prone.
+*Knockdown:* On Strong hit, target is knocked Prone.
 
 === Bear (Challenge 2)
 
@@ -274,7 +274,7 @@ HP 17, DR 0. Attributes: Agility +2, Brawn +1, others +0.
 
 *Bite:* 4/6/8.
 
-*Paralyzing Touch:* on Strong claw hit, target must make a Fortitude check or be Paralyzed for 1 round.
+*Paralyzing Touch:* on Strong claw hit, target is Paralyzed for 1 round.
 
 === Wraith (Challenge 3)
 
