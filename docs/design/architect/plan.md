@@ -1048,5 +1048,13 @@ ruled-but-unbuilt; pages **399** (unchanged). The review's six-item weaknesses l
 which means **the review is owed a rewrite**: it was written before items 1, 4, 5 and 6 were measured and
 three of those measurements changed the item.
 
-**Next.** The review rewrite (the queue is empty and every ranked item is closed), then the next unassessed
-subsystem if one is named.
+**Next.** The class-ability sweep: ch05's 90 abilities live in five-column tables that no instrument reads, and
+`05:568` *Leverage* proves the corpus carries at least one dead trigger. Screen it for (a) triggers that can
+never fire, (b) strict dominance inside a class's own shelf, and (c) flat riders and roll modifiers in the
+table shape. Then the game's ceiling, which is content rather than mechanics: printed play stops at level 2.
+
+**State at cycle 41.** Book at `f7873b1` (chapters at `11d4040`); 0 open issues, 0 open PRs; one checkout,
+clean tree, no worktrees; scratch cleared. Words **84,700**; ledger **211** rows, none ruled-but-unbuilt;
+pages **399** (unchanged). **The review is rewritten** at `f7873b1`: all six of the old weaknesses list are
+resolved (1, 4 and 6 repaired; 2 and 3 closed by measurement; 5 withdrawn), the new list is ordered by harm
+at a table, and the verdict names the class-shelf sweep as the next act.
