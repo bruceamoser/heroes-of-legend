@@ -107,7 +107,7 @@ Magic is powerful. That's the point. But there are brakes. Not to frustrate you,
 
 *Per-Session:* Master-tier spells are once per session. When you unleash a Master card, the table should go quiet. These spells reshape encounters. They're not your default attack, they're your signature. Use them when it matters most. This is the tighter of the two limits: a Master spell does not come back in the next fight of the same session.
 
-*Concentration:* An ongoing effect that has to be held is a concentration effect, and the card's Duration field says so: *Concentration, up to 1 minute*, or *Concentration, up to 1 round* for a ward. Holding one costs your Maneuver every turn: spend that Maneuver during your turn, or the effect ends at the start of it. You hold only one concentration effect at a time, and starting a second ends the first. You cannot begin a ritual while you hold one: let the effect go first.
+*Concentration:* An ongoing effect that has to be held is a concentration effect, and the card's Duration field says so: *Concentration, up to 1 minute*, or *Concentration, up to 1 round* for a ward. Holding one costs your Maneuver every turn: spend that Maneuver during your turn, or the effect ends at the start of it. You hold only one concentration effect at a time, and starting a second ends the first. Falling Incapacitated or Unconscious ends it: an effect you cannot hold is not held. You cannot begin a ritual while you hold one: let the effect go first.
 
 Damage can break it, and the size of the blow decides:
 
