@@ -104,7 +104,7 @@ Pick the weapon that fits your hero, not the one that looks best on paper. They 
     [Throwing Dagger], [Ranged], [Thrown], [20/60 ft (thrown)],
     [Shortbow], [Ranged], [Two-Handed], [60/120 ft],
     [Longbow], [Ranged], [Two-Handed], [100/200 ft],
-    [Crossbow], [Ranged], [Loading, Two-Handed], [20/60 ft],
+    [Crossbow], [Ranged], [Loading, Two-Handed], [60/120 ft],
   )],
   kind: table,
   outlined: false,
@@ -120,7 +120,7 @@ Improvised weapons (a crowbar swung as a club, a hammer in a pinch) deal 1/1/2 +
 #callout(type: "note", title: "Armament Categories", body: [
 A weapon's category is its entry requirement: 1 Melee, 1 Two-Handed, 1 Ranged, and no rank for Unarmed. The named weapon is flavor; the category is the gate.
 
-A shield takes Shields ranks by its size: 1 for a small shield, 2 for a medium one, 3 for a large one. A weapon or shield you carry does what its entry says; a card that requires a shield requires you to be wielding one.
+A shield takes Shields ranks by its size: 1 for a small shield, 2 for a medium one, 3 for a large one. It takes slots on the same ladder: 1 for a small shield, 2 for a medium one, 3 for a large one. A weapon or shield you carry does what its entry says; a card that requires a shield requires you to be wielding one.
 ])
 
 *Properties:*
@@ -151,7 +151,7 @@ Armor is what you wear, and it is worth its points in DR: light grants 1, medium
   outlined: false,
 )
 
-Shields come in three classes: *small* (1 Shields, shield DR 1), *medium* (2 Shields, shield DR 2), and *large* (3 Shields, shield DR 3, half cover, and -5 ft Speed). The names are flavor: a buckler is a small shield, a heater a medium one, and a tower shield a large one. A shield enables Parry and Shield Block. See @sec-chapter-armor-shields
+Shields come in three classes: *small* (1 Shields, shield DR 1, 1 slot), *medium* (2 Shields, shield DR 2, 2 slots), and *large* (3 Shields, shield DR 3, 3 slots, half cover, and -5 ft Speed). The names are flavor: a buckler is a small shield, a heater a medium one, and a tower shield a large one. A shield enables Parry and Shield Block. See @sec-chapter-armor-shields
 
 == Encumbrance
 
@@ -206,6 +206,7 @@ These are the small things that separate a prepared adventurer from a corpse. Th
     [*Rope, Hemp (50 ft)*], [2], [Coarse, heavy, reliable. Supports 500 lbs. Can be cut with a blade (1 round) or burned through (2 rounds in fire).],
     [*Rope, Silk (50 ft)*], [1], [Lightweight and strong. Supports 700 lbs. Half the bulk of hemp rope. Quieter when uncoiled, no rough fibers scraping against stone.],
     [*Sack (large)*], [1\*], [A coarse sack that holds 1 cubic foot or 30 lbs of material. The sack takes 1 slot; if it is your one exempt container, its contents don't count, until it tears. One sharp edge and your loot is on the floor.],
+    [*Scholar's Robes*], [1], [A robe, cassock, or travelling habit. Worn over armour or under it. It carries no DR.],
     [*Shovel*], [2], [Digs graves, trenches, and latrines. Buries treasure. Unearths treasure. The shovel has seen more adventuring than most bards.],
     [*Smith's Tools*], [2], [Forge tools. Required for Craft checks to make or repair metal items.],
     [*Smoke Bomb*], [0], [Throw up to 20 ft. Creates a 10-ft radius of heavy concealment for 1 round; anyone inside is Hidden.],
@@ -221,6 +222,8 @@ These are the small things that separate a prepared adventurer from a corpse. Th
   outlined: false,
   numbering: none,
 )
+
+*Bundles:* a bundle of identical small items is priced as one item. A quiver of 20 arrows or bolts is 1 slot, and a bundle of up to six throwing weapons carried together is 1 slot, however many the bundle holds.
 
 *Containers and Encumbrance:* A pouch holds up to 50 small items slot-free. A sack holds up to 1 cubic foot before it tears. After your first dragon hoard, you'll want a wagon.
 

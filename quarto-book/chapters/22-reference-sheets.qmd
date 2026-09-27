@@ -350,12 +350,12 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 )], kind: table, numbering: none, outlined: false)
 
 #figure(align(center)[#table(
-  columns: (24.00%, 16.00%, 18.00%, 42.00%),
+  columns: (22.00%, 14.00%, 14.00%, 10.00%, 40.00%),
   align: (auto, auto, auto, auto,),
-  table.header([Shield], [Shields Req], [Shield DR], [Grants],),
-  [Small: buckler, targe, parma], [1], [1], [Parry, Shield Block; keeps your hand free],
-  [Medium: heater, kite, round, rotella], [2], [2], [Parry, Shield Block],
-  [Large: aspis, scutum, tower, pavise], [3], [3], [Parry, Shield Block; half cover; -5 ft speed],
+  table.header([Shield], [Shields Req], [Shield DR], [Slots], [Grants],),
+  [Small: buckler, targe, parma], [1], [1], [1], [Parry, Shield Block; keeps your hand free],
+  [Medium: heater, kite, round, rotella], [2], [2], [2], [Parry, Shield Block],
+  [Large: aspis, scutum, tower, pavise], [3], [3], [3], [Parry, Shield Block; half cover; -5 ft speed],
 )], kind: table, numbering: none, outlined: false)
 
 *Your Damage Reduction is the highest of your armor, a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. Shield DR is not part of that total: it is applied by the Shield Block reaction, one attack per round.* See @sec-chapter-armor-shields
@@ -380,7 +380,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   [Throwing Dagger], [Ranged], [Thrown], [20/60 ft (thrown)],
   [Shortbow], [Ranged], [Two-Handed], [60/120 ft],
   [Longbow], [Ranged], [Two-Handed], [100/200 ft],
-  [Crossbow], [Ranged], [Loading, Two-Handed], [20/60 ft],
+  [Crossbow], [Ranged], [Loading, Two-Handed], [60/120 ft],
 )], kind: table, numbering: none, outlined: false)
 
 *The weapon never changes your damage. See @sec-chapter-talents-abilities for what a range of two numbers means, and @sec-chapter-equipment for weapons in full.*
@@ -418,6 +418,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   [Rope, Hemp (50 ft)],  [2],
   [Rope, Silk (50 ft)],  [1],
   [Sack (large)],  [1\*],
+  [Scholar's Robes],  [1],
   [Shovel],  [2],
   [Smith's Tools],  [2],
   [Smoke Bomb],  [0],
@@ -457,6 +458,6 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   [Warship],  [300],  [40 ft (sail + oars)],  [40],  [60],  [5 tons],
 )], kind: table, numbering: none, outlined: false)
 
-*One container at a time (backpack, pouch or sack) is exempt from your slots, and containers do not nest.* Full descriptions, mount traits and vehicle upgrades live in @sec-chapter-equipment
+*One container at a time (backpack, pouch or sack) is exempt from your slots, and containers do not nest.* Full descriptions, mount traits and vehicle upgrades live in @sec-chapter-equipment *Ammunition and bundles are priced by the bundle: a quiver of 20 arrows or bolts is 1 slot, and a bundle of up to six throwing weapons is 1 slot.*
 
 ```
