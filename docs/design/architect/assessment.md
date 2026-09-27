@@ -283,7 +283,7 @@ prints damage. Three axes print damage without one, and each was invisible to th
 | **magic-item granted-power ladders (ch17 tables)** | **7 of 7 ladders on a retired row, 21 figures** - 5 ladders at 2/4/6, 2 at 6/9/12 | `17:59-61`, `115-117`, `269-271`, `341-343`, `473-475` (Novice), `225-227`, `293-295` (Adept) |
 | **class-ability flat riders (ch05)** | **5 Master abilities printing 9/9/15/15/9** | `05:540`, `588`, `589`, `707`, `708` |
 
-ch17 states the law it was breaking in its own header (`17:34`: "Damaging powers key to the damage
+ch17 states the law it was breaking in its own header (`17:29`: "Damaging powers key to the damage
 budget ... Novice 4/6/8, Adept 5/8/11, Master 7/10/14"). Closed issue #546 ("band residue ... ch11/ch12
 and their mirrors") names ch17 **0 times** and ch05 **0 times**, so this is a new site group, not a
 re-opened one. Repaired this cycle by positional mapping onto the live row (retired Novice 2/4/6 ->
@@ -619,8 +619,8 @@ plants a retired-row card, a focus mismatch and a blank-label card and requires 
 - **The third band-change axis was still unconverted.** The 2026-09-15 sweep grepped slash-triples, which
   is how damage prints; three axes print without them, and healing was only the second. The third:
   **7 of 7 damaging item ladders in ch17 (21 figures) sat on the retired rows** (5 ladders on 2/4/6 at
-  `17:59`, `17:115`, `17:269`, `17:341`, `17:473`; 2 on 6/9/12 at `17:225` and `17:293`) even though
-  `17:34` prints the live rows in the chapter's own header text, plus **5 Master abilities in ch05**
+  `17:59`, `17:115`, `17:269`, `17:291`, `17:473`; 2 on 6/9/12 at `17:225` and `17:293`) even though
+  `17:29` prints the live rows in the chapter's own header text, plus **5 Master abilities in ch05**
   printing 9 or 15 (`05:540`, `588`, `589`, `707`, `708`). The closed band-residue issue #546 named
   ch11/ch12 "and their mirrors" and references neither file. Repaired this cycle: 26 figures moved onto
   their own tier's live row by position. Logged as row 176.
