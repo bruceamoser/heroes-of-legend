@@ -185,11 +185,15 @@ cross-checks the comprehensive table finds a 1 DP disagreement and no way to tel
 **COST — GOOD.** Two tables and one formula cover the whole economy, and the structures are powers of
 two once learned.
 
-**STRESS — one live break, one arithmetic slip.** The Shepherd overspends its pool (above). And the
-Leader's line mis-sums its own ranks: "the weapon ranks cost 4 DP at your Home rates" where the
-printed table gives Melee rank 2 = 2 and Two-Handed rank 1 = 1, so **3 DP** (the conclusion still
-holds; 5 + 2 = 7 fits). A third stress case is closed by design: the One-Card Law (`08`, "every card
-is bought once, at one tier... no ladder to climb") means no DP is ever stranded in a superseded
+**STRESS — one live break, one arithmetic slip (in the checker, not the book).** The Shepherd
+overspends its pool (above). The Leader's line, by contrast, is **correct** and was worth the
+check: "the weapon ranks cost 4 DP at your Home rates" is Melee ranks 1 and 2 at Home (1 + 2 = 3 DP)
+plus Two-Handed rank 1 at Home (1 DP), because the class grant covers Shields and nothing else, so
+4 DP for weapons + 2 DP for the Adjacent Armor rank + a 2 DP card = 8 DP exactly. The first pass
+of this assessment read the claimed 4 DP as a mis-sum against a Melee-rank-2-only reading; the
+scripted check (`scripts/class-loadout-economy.py`, which pays every step above the granted rank)
+corrected it. A third stress case is closed by design: the One-Card Law (`08`, "every card is
+bought once, at one tier... no ladder to climb") means no DP is ever stranded in a superseded
 purchase, and retraining refunds at 1:1.
 
 **Verdict: OK, with LEARNABLE failing.** The economy's prices are sound and its pools are adequate;

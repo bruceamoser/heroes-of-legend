@@ -80,8 +80,7 @@ companion, not a manual; zero em-dashes in book text.
 - **Two new class-level defects, both computed from the classes' own tables.** The **Shepherd**
   overspends its pool (`05:202`: 7 DP of loadout ranks + a 2 DP card against 8 DP, so 9 DP). Four
   classes call a **4/8/16** charge "at your Foreign rate" where Foreign is **3/6/12** and 4/8/16 is
-  Opposed (Blade, Arcanist, Shepherd-Armor, Unbalanced). The Leader mis-sums its own ranks (4 DP
-  printed, 3 DP in its table).
+  Opposed (Blade, Arcanist, Shepherd-Armor, Unbalanced). The Leader's own figures check out once every rank above the grant is paid (4 DP weapons + 2 DP armour + a card = 8), so it is not a defect.
 - **Dispatch is still off** (`HOL_ARCHITECT_DISPATCH` unset). One mechanical work order filed
   (issue #661, the economy's line-level repairs), nothing dispatched.
 
@@ -101,7 +100,7 @@ are the *filed* work; the assessment says what outranks which. Read them togethe
 | 6 | **#587 — level 0/1 DP pools** | open issue, **blocked on Bruce** | A design question. Now carries the walkthrough's measurement; do not implement. |
 | 7 | **23-license** — Wave 2 stands at 24/25 | row 2 | Outstanding chapter. |
 | 8 | **Closing balance audit** — one full-book budget walk | row 2 | The closing act of the build pass; waits on items 1 and 4 landing. |
-| 9 | **The economy's line-level repairs** — the true-price statement, 4 misnamed structures, the Leader sum | assessment 2 (cycle 3) | **Filed as #661.** Mechanical and determinate, no ruling needed, so the engine can take it today. It is the cheapest fix in the book's most expensive defect class: 44 DP of unfunded spend in rows 161/162 traces to a price the book states incorrectly. |
+| 9 | **The economy's line-level repairs** — the true-price statement and 4 misnamed cost structures | assessment 2 (cycle 3) | **Filed as #661.** Mechanical and determinate, no ruling needed, so the engine can take it today. It is the cheapest fix in the book's most expensive defect class: 44 DP of unfunded spend in rows 161/162 traces to a price the book states incorrectly. |
 
 ## Next action
 
