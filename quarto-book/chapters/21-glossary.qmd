@@ -192,7 +192,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Wounded:* Below half your maximum HP. See *Wound* for what happens when you are dropped.
 
-*Wound:* A lasting injury from combat. When you spend a point of Grit, you gain a Wound and roll on the Wound Table (see @sec-chapter-combat), rolling one extra die for each wound you already carry, up to three extra. Wounds linger after HP is restored and heal one per long rest (a Standard Medicine check during a rest heals one additional wound).
+*Wound:* A lasting injury from combat. When you spend a point of Grit, you gain a Wound and roll on the Wound Table (see @sec-chapter-combat), rolling one extra die for each wound you already carry, up to three extra. Wounds linger after HP is restored and heal one per long rest (a Standard Medicine check during a rest heals one additional wound). Healing magic returns HP rather than Wounds, and every Wound leaves a physical mark that outlives the mechanic and belongs to the player.
 
 *Thunder:* A damage type: concussive sound and shockwaves. Part of the Elemental family alongside Fire, Cold, Lightning, Acid, and Poison.
 

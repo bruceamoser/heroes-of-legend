@@ -155,7 +155,7 @@ Effects resolve by tier, never a second roll. Card text defines which tiers carr
   [*Fumble (three 1s)*], [Death. Overrides all tier results.],
 )], kind: table, numbering: none, outlined: false)
 
-*Grit is what stands between you and this table.* You have 2 Grit at Novice, 3 at Adept, and 4 at Master. Your tier is your ability tier: Novice is levels 1 and 2, Adept levels 3 through 6, Master is level 7 and up. When your HP reaches 0, spend one Grit: your HP resets to its maximum and you roll on the Wound Table, and you keep fighting. Only when you have no Grit left does the roll above decide your fate. Grit returns on a respite, a full night's rest.
+*Grit is what stands between you and this table.* You have 2 Grit at Novice, 3 at Adept, and 4 at Master. Your tier is your ability tier: Novice is levels 1 and 2, Adept levels 3 through 6, Master is level 7 and up. When your HP reaches 0, spend one Grit: your HP resets to its maximum and you roll on the Wound Table, and you keep fighting. Only when you have no Grit left does the roll above decide your fate. Grit returns on a respite, a full night's rest. Every wound leaves a mark that outlives it, and the mark is yours to play.
 
 === Cover
 
