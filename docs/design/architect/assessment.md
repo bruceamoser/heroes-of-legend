@@ -13,8 +13,8 @@ that what exists is good.
 | 1 | **The price of a card is stated two ways, and creation teaches the wrong one** | `02:204` (Step 7) and `22` (DP Cost Reference) both say cards cost "2/4/8 DP regardless of class", while `08:178` says "the flat card DP cost is only part of the price: you also pay rank costs for any required Disciplines you do not already possess". The true price of a Novice card is **2 to 6 DP** (held / Home / Adjacent / Foreign / Opposed). Every build budgeted from creation's own steps underfunds by the rank costs, which is the measured cause of the 26 DP shortfall at rank 9. | **measured 2026-09-26 (cycle 3)**; fix is a sentence, so it is a work order, not a ruling |
 | 2 | **The casting procedure names a field it never defines** | `10:31` says every spell rolls `3d6 + Knowledge` (arcane) or `+ Reason` (divine) "plus **relevant skill**"; the phrase appears twice in the book and is defined nowhere. **114 of 114 spell cards name no skill**, no ch07 skill entry says "casting", and the only mapping anywhere is inside one worked example (`10:123`, Arcana). A player cannot cast a spell from the book alone, and a divine caster is told to pair a Reason roll with a Knowledge-keyed skill. | **measured 2026-09-26 (cycle 8)**; needs a ruling (ledger row 172) |
 | 3 | **Primal is a half-built tradition: 12 cards, 7 requirements, 0 items, 0 glossary entries, 0 classes** | 12 cards are titled "Primal Spell" and 7 requirements ask for `focus:primal`, but ch15 carries no primal focus item, ch21 no entry, ch05 no mention, and ch10 declares only two traditions. `12:359`/`12:370` are titled Divine and demand a primal focus. "Primal" already names a discipline category (Animal, Plants). A listed thing that cannot be bought or cast is the Cohesive criterion failing outright. | **measured 2026-09-26 (cycle 8)**; needs a ruling (ledger row 173) |
-| 4 | **The difficulty dial is asymmetric** | Trivial +4 down to Nearly Impossible -6. More room to make things hard than easy. Combined with a competent hero at +3, a Trivial task cannot fail. Deliberate or drift? Unruled. | needs a ruling |
-| 5 | **Failure collapse at the top of the range** | At mod +5 (Master: attr +2, skill +3) P(Weak) = 0.46%, 1 in 216. At +6 it is mathematically 0. A master cannot fail a Standard task, so the "succeed with a catch" band stops existing for them. May be intended (that is what mastery means) but it must be stated as intent. | needs a ruling |
+| 4 | **The difficulty dial is asymmetric** | Trivial +4 down to Nearly Impossible -6. More room to make things hard than easy. Combined with a competent hero at +3, a Trivial task cannot fail. Deliberate or drift? Unruled. | **DECIDED 2026-09-26 (architect, cycle 12) - BALANCE, not a Bruce question; veto to revert.** Not a defect: the asymmetry is load-bearing. A Master specialist reaches mod +5, and a *symmetric* +/-4 dial leaves that hero unfailable on every dialled task (+5 - 4 = +1, P(Weak) still 16.2%); the -6 end exists to make exactly that hero's task a coin flip (+5 - 6 = -1, P(Weak) 37.5%). The dial is deliberately wider than the dice. **No number changes.** Evidence: Assessment 6 re-assessment section. |
+| 5 | **Failure collapse at the top of the range** | At mod +5 (Master: attr +2, skill +3) P(Weak) = 0.46%, 1 in 216. At +6 it is mathematically 0. A master cannot fail a Standard task, so the "succeed with a catch" band stops existing for them. May be intended (that is what mastery means) but it must be stated as intent. | **DECIDED 2026-09-26 (architect, cycle 12) - premise corrected, NOT a defect; veto to revert.** The row measured the Weak *band* and reported it as failure. The Weak band at +5 holds exactly one roll of 216 and that roll is (1,1,1), the fumble; the fumble is an automatic failure that **overrides the tier** (`06:161/189`, `13:358/362`, unconditional in six homes to one scoping clause). So **P(failure) is flat at 1/216 at +5 and +6 and never reaches 0**; what retires at +6 is the *ordinary* failure, which is what mastery means. Bands still discriminate at +5 (Standard 37.0%, Strong 62.5%). **No number changes.** |
 | 6 | **The price of a card is stated two ways, and creation teaches the wrong one** | `02:204` (Step 7) and `22` (DP Cost Reference) both say cards cost "2/4/8 DP regardless of class", while `08:178` says "the flat card DP cost is only part of the price: you also pay rank costs for any required Disciplines you do not already possess". The true price of a Novice card is **2 to 6 DP** (held / Home / Adjacent / Foreign / Opposed). Every build budgeted from creation's own steps underfunds by the rank costs, which is the measured cause of the 26 DP shortfall below. | **measured 2026-09-26 (cycle 3)**; fix is a sentence, so it is a work order, not a ruling |
 | 7 | **The Adept cadence is stated two ways** | `10:99` says "Adept and Master spells can only be used once per combat. You can't drop an Adept spell every round", while the chapter's own worked example reads the limit as **per card** (`10:127`). Per-card, a level-7 caster holding four Adept cards casts one every round, which is the outcome the sentence forbids; per-tier, the second Adept card is near-dead content. The whole spotlight economy turns on which. | **measured 2026-09-26 (cycle 8)**; needs a ruling (ledger row 174) |
 | 8 | **The Shepherd cannot pay for its own loadout and a card** | `05:202` prints 7 DP of loadout ranks and claims "which still leaves room for a card"; the class pool is 8 DP (`02:204`) and a Novice card is 2 DP, so the line costs **9 DP**. Eight of nine classes close; the Shepherd does not. | needs a ruling (ledger row 166) |
@@ -26,6 +26,7 @@ that what exists is good.
 | 14 | **Fortitude and Knowledge pay twice** | Each point adds +1 HP (`03:78`) and +1 Background DP (`02:115`). No other attribute feeds a pool. At +2/+2 against -2/-2 that is 8 DP and 4 HP on the same two points, and at -2/-2 the hero has 6 HP and 4 DP (Assessment 3). | needs a ruling (ledger row 168) |
 | 15 | **Every level-1 hero is 4 DP short of the book's own career total** | `18:47` grants 4 DP at level 1 with "Class signature, Starting Disciplines" as its milestones (creation's own grants), and `22:272` counts it inside the printed 44-52 DP career. Creation's eleven steps (`02:43-275`), `22`'s checklist and all nine printed builds assign only 8+K+F and 8. | needs a ruling (ledger row 169) |
 | 16 | **The healing and flat-number axes** | Healing was never converted to the live rows (4 cards, fixed in #665; 3 items still need a ruling - rows 170/171). **Cycle 8 closed the third axis: 7 of 7 ch17 item ladders and 5 ch05 Master riders were still on the retired rows and are now on the live ones.** | rows 170/171; flat axes fixed |
+| 17 | **Social conflict: a dead score, and an example that inverts its own rule** | (a) **Passive Insight is a number nothing consumes** - printed as `Knowledge + 7` in three homes (`14:29`, `07:197`, `21:235`), it spans 5 to 9 and reaches Strong 0 times out of 5, while the same paragraph's actual mechanic uses the Knowledge *modifier* as a Challenge. (b) **The worked example applies the attitude shift on a Standard and skips it on the Strong** (`14:114` vs `14:88`/`14:128`), inverting the rule it demonstrates. Both are the smallest possible repair with no new rule. | **measured 2026-09-26 (cycle 12)**; work order filed, dispatch next cycle |
 
 ## Re-assessment 2026-09-26 (cycle 3) — priority 1 was measured, and it holds
 
@@ -215,19 +216,17 @@ what fails is that the book does not tell a player the price it is actually char
 | 3 | Creation and progression | **GOOD on the arithmetic, OK on progression.** All 9 printed builds' HP/Initiative/Carry re-derive exactly; the reachable space is Background DP 4-12, HP 6-14, career 44-52 DP, ranks 1-3. No dead level (skills are a gate-free sink); the binding constraint after level 3 is the 3-rank ceiling, not DP. Two rule-statement defects found and repaired in the same cycle (#665). | 2026-09-26 |
 | 4 | Combat and action economy | **OK (pacing repaired, cycle 9).** An even fight, read from the book's own encounter rule, resolved in ~1 round at every tier; root cause was a premise mismatch between `19:53` and `20:659`. **Cycle 9: the repair LANDED as #669 (main `262cd47`)** - the encounter table is per hero (Easy x1 / Standard x1.5 / Hard x2 / Deadly x3 party level, multiplied by the number of heroes), the field size is printed (roughly one and a half creatures per hero: six for a party of four, seven past the Novice band), and the duplicate table in the ch22 quick reference was mirrored on the branch before merge. The gate was itself stale (it hard-coded the pre-#663 two-creature Standard) and was updated to the amended law; `rounds-to-resolve.py --selftest` passes both controls and the gate reads **3.79 / 3.68 / 3.36 rounds at Novice / Adept / Master, exit 0**, against 1.26 / 1.05 / 0.96 before, with no stat block, band, HP, Grit or DR number moved. | 2026-09-26 |
 | 5 | Magic and the spell system | **OK on the core loop, BAD on learnability and cohesion.** 114 spell cards (68 arcane, 46 divine); one roll, three rungs, no slots. Bands discriminate from mod -2 to +3 (Weak 48.2% -> 4.6%); damage/DP 3.00 / 2.00 / 1.25. 32 of 114 cards print a damage row; 0 of them on a retired row, but the third band-change axis (flat printed numbers) was still unconverted: 7 of 7 ch17 item ladders + 5 ch05 Master riders, repaired this cycle. Two entry-point rules are unnamed or self-contradicted (the casting skill, the Adept cadence) and the 12-card Primal tradition has no item, no glossary entry, no class, and no place in the tradition rule. | 2026-09-26 |
-| 6 | Social conflict | not assessed | |
+| 6 | Social conflict | **GOOD on the extended conflict and the attitude ladder; BAD on two entry-point details.** Face modifier reaches -4 to +7; the conflict discriminates 12.4% -> 100% with a real coin flip at mod -2 (51.2%) and a duration that peaks at 4.02 rounds, on the pacing law's 3-4 through the playable middle. Scoring asymmetry (party scores on Standard, NPC only on Weak) is the pillar; the named cost is that a tense scene needs Challenge +2 or more. Defects: Passive Insight is a dead 5-9 score whose own paragraph uses the Knowledge modifier, and the worked example inverts the attitude-shift rule. | 2026-09-26 |
 | 7 | Equipment | not assessed | |
 | 8 | Content (classes, disciplines, cards) | not assessed | |
 | 9 | Bestiary and GM tools | not assessed | |
 
-**Coverage: 5 of 9 subsystems, non-contiguous.** Rows 1, 2, 3, 4 and 5 are assessed; the pacing pass took
-combat and action economy early, on Bruce's ruling 165. Social (6), equipment (7), content
-(8) and the bestiary (9) are still open. Until the table is full, the queue is a guess with good manners.
+**Coverage: 6 of 9 subsystems, non-contiguous.** Rows 1, 2, 3, 4, 5 and 6 are assessed; the pacing pass
+took combat and action economy early, on Bruce's ruling 165. Equipment (7), content (8) and the bestiary
+(9) are still open. Until the table is full, the queue is a guess with good manners.
 
-**Next (cycle 9):** subsystem 6, social conflict - the last subsystem whose every interaction is a
-single skill check, and the one place the book's own Challenge law (`06:97`) has not yet been
-reconciled with its opposed tables. Then equipment (7), content (8), bestiary (9). The pacing row 165
-still carries its chosen lever and needs nothing from the ledger except the dispatch gate.
+**Next (cycle 13):** dispatch the social work order filed in cycle 12 (passive Insight's three homes plus
+the worked example), then assess subsystem 7, equipment. Content (8) and the bestiary (9) follow.
 
 ## Assessment 5 - Magic and the spell system (cycle 8, 2026-09-26)
 
@@ -672,3 +671,113 @@ print).
 fires, one roll, never a null turn) and its three bands discriminate everywhere a real caster plays, from
 mod -2 to +3. What fails is the entry point: two rules a player must have are unnamed or self-contradicted,
 and a 12-card tradition cannot be bought, cast, or looked up.
+
+## Assessment 6 - Social conflict (cycle 12, 2026-09-26)
+
+**Coverage: 6 of 9.** Instrument: `scripts/architect-social-census.py` (exact 3d6 enumeration over all
+216 rolls; self-test asserts probabilities normalise, P(party) is monotone in the modifier and duration
+peaks at the balanced point; a negative control re-runs the walk with the NPC scoring 2 on a Weak and
+moves every row, so the walk reads the rule rather than baking it in).
+
+**As printed.** Five social skills carry the chapter (`14:23-31`): Deception and Persuasion and
+Performance on Guile, Intimidation on Brawn, Insight on Reason (`07:185-189`, mirrored at `22:205-208`).
+Two resolution paths, and the book scopes them on both sides (`14:54`, `14:86`), so the older
+"two tables with no scoping sentence" concern is **already repaired** - the single-roll path uses the
+attitude ladder and the extended path uses the success table. Extended conflicts (`14:62-88`): the party's
+face is the only scorer; every other player assists for a Boon and never a success; **the NPC never rolls**
+and instead sets a Challenge from its own Knowledge modifier, negated (`14:68`) - which is ch06's Challenge
+grammar, not an opposed roll. Tier to successes: Weak NPC +1, Standard party +1, Strong party +2, Critical
+wins outright, Fumble NPC +2 (`14:75-79`). First to 3 takes the conflict (`14:88`).
+
+**Numbers computed.**
+
+| Face modifier | P(Weak) | P(Standard) | P(Strong) | E[rounds] | P(party wins) | P(NPC wins) |
+|---|---|---|---|---|---|---|
+| -4 | 74.1% | 25.9% | 0.0% | 3.75 | **12.4%** | 87.6% |
+| -3 | 62.5% | 37.0% | 0.5% | 3.98 | 28.2% | 71.8% |
+| **-2** | 50.0% | 48.1% | 1.9% | **4.02** | **51.2%** | 48.8% |
+| -1 | 37.5% | 57.9% | 4.6% | 3.84 | 73.8% | 26.2% |
+| 0 | 25.9% | 64.8% | 9.3% | 3.50 | 89.5% | 10.5% |
+| +1 | 16.2% | 67.6% | 16.2% | 3.10 | 96.9% | 3.1% |
+| +3 | 4.6% | 57.9% | 37.5% | 2.47 | 99.8% | 0.2% |
+| +5 | 0.5% | 37.0% | 62.5% | 2.14 | 100.0% | 0.0% |
+| +7 | 0.0% | 16.2% | 83.8% | 2.03 | 100.0% | 0.0% |
+
+The reachable face modifier is **-4 to +7** (attribute -2..+2, skill 0..+3, Challenge +2..-2), and that
+whole range is exercised above.
+
+**Verdicts.**
+
+- **Extended social conflict: GOOD.** It discriminates across its entire reachable range, 12.4% to 100%,
+  with a genuine coin-flip at **mod -2** (51.2%) - reachable by an untrained talker facing a savvy NPC,
+  which is exactly the exchange the table should make doubtful. Duration peaks at **4.02 rounds** at the
+  balanced point and sits on the pacing law's 3-4 rounds straight through the playable middle (-3 to 0:
+  3.98 / 4.02 / 3.84 / 3.50), so a social scene costs what a fight costs. The foregone conclusion at
+  +5..+7 needs a maxed face **and** a dull NPC, which is the DA's choice of opposition, not the
+  mechanic's failure - the same shape as a level-7 party against Challenge 1 monsters.
+- **The attitude ladder: GOOD.** Strictly escalating - Hostile needs a Strong, Neutral a Standard,
+  Friendly a Weak, Allied no roll at all (`14:44-47`) - so each step up the ladder costs less. No dead
+  row: what changes at every step is the tier the NPC demands, so the higher tier does real work.
+- **The scoring asymmetry is the pillar, not a defect, and it is named here as the trade it is.** The
+  party scores on a Standard (64.8% of the mid range) while the NPC scores only on a Weak, so the party
+  is ahead at *every* modifier and the NPC's only route to 3 is a run of Weak results. The consequence a
+  DA must know: at mod +1 or better the NPC's win chance is under 3.1%, so **a scene the DA wants tense
+  requires a Challenge of +2 or more**; the dial, not the dice, is the tension control. Grade OK rather
+  than GOOD for that named cost.
+- **Passive Insight: BAD.** Criterion **RANGE** (table-integrity class 4). Printed as a score,
+  `Knowledge + 7` (`14:29`, `07:197`, `21:235`), it spans **5 to 9** because Knowledge spans -2..+2.
+  Strong begins at 15, so the score reaches the top of its own ladder **0 times out of 5**, and nothing
+  in the book consumes it as a target. The same paragraph gives the actual mechanic and it uses the
+  Knowledge *modifier*, not the score: the liar's roll "carries a Challenge set by your Knowledge
+  modifier, negated". **Smallest repair, no new rule:** state all three sites as that Challenge and
+  retire the +7 score. This is not the rejected opposed-roll model (Bruce, on this exact defect: "the
+  opposed roll isn't right, it should provide a modifier or banes"); the book's own Challenge grammar is
+  already printed at the site and is what survives.
+- **The worked example contradicts the shift rule it exists to demonstrate: BAD.** `14:88` is explicit -
+  a Weak or Fumble shifts the NPC one step toward Hostile, **a Strong result shifts the NPC one step
+  closer to you**, one shift per roll. The example shifts on Round 1's **Standard** ("her attitude shifts
+  one step closer to you. Neutral to Friendly", `14:114`) and then does **not** shift on Round 2's
+  **Strong** (`14:128`), inverting the rule in the book's own teaching instrument. **Smallest repair, no
+  new rule and no change of outcome:** move the shift onto the Strong roll. The scene still ends with a
+  Friendly warden; it just teaches the rule the chapter prints. Keeping the rule and moving the example
+  is the right side of the trade because the rule is what makes Strong better than Standard in *two* ways
+  (two successes *and* a shift), and widening the rule to "any success shifts" would flatten that to the
+  success count alone.
+
+**Coverage notes - what is NOT a defect (checked, so the next pass does not re-file them).**
+
+- The chapter figure label `_Figure 16.1_` is **correct**. Hardcoded labels run file+2 across the book
+  (13 to 15, 14 to 16, 15 to 17, 16 to 18, 18 to 20, 19 to 21), so 16 is this chapter's rendered number.
+- Assists are capped by the Boon potence ladder (Boon 3 = 6d6), not unbounded, and each assist costs its
+  player a turn; the spotlight cost is the balance.
+- The DA rolling an NPC's Deception for a passive Insight is covered by `06` ("when no hero is involved
+  at all, the DA rolls the Defense on the defender's behalf"), so it does not breach "players make all
+  rolls".
+- `ch19:205` and `ch22` mirror the social rules correctly (the Challenge, the tier table, first to 3,
+  the stakes rule; GU/BR keys match ch07).
+
+**Work order filed:** one issue covering both defects, batched because they are the same file group
+(`14` + `07` + `21`). Dispatched next cycle - one work order per cycle is the cap, and this cycle's went
+to the recurring-effect repair (#672/#676).
+
+## Re-assessment 2026-09-26 (cycle 12) - "What matters now" rows 4 and 5 are both premised on the band, not on failure
+
+Two rows sat in the queue marked "needs a ruling". Both are BALANCE questions with a derivable answer,
+so both are decided here rather than carried; recorded beside the original rows per the re-assessment
+rule, never overwritten.
+
+- **Row 4, the difficulty dial's asymmetry (Trivial +4 to Nearly Impossible -6): NOT a defect.** The
+  asymmetry is load-bearing, not drift. A Master specialist reaches mod +5 (attribute +2, skill +3), and
+  a **symmetric** +/-4 dial would leave that hero unfailable on every dialled task, because +5 - 4 = +1
+  still means P(Weak) of 16.2%. The -6 end exists to make exactly that hero's task a coin flip
+  (+5 - 6 = -1, P(Weak) 37.5%). The dial is also wider than the dice on purpose (10 points against a
+  3d6 spread of about +/-5), which is what lets a DA challenge a maxed specialist without touching the
+  bands.
+- **Row 5, "failure collapse at the top": premise corrected, NOT a defect.** The row measured the Weak
+  *band* and reported it as failure. At mod +5 the Weak band holds exactly one of the 216 rolls, and
+  that roll is (1,1,1) - the fumble; at mod +6 the band is empty. But the fumble is an **automatic
+  failure that overrides the tier** (`06:161/189`, `13:358/362`, and unconditional at `01:105`,
+  `07:57-58`, `21:33-35`, `22:28-29` - six homes to one scoping clause). So **P(failure) is flat at
+  1/216 at +5 and at +6**, and it never reaches 0. What actually retires at +6 is the *ordinary* failure,
+  which is precisely what mastery means. The success bands still discriminate at +5 (Standard 37.0%,
+  Strong 62.5%), so the outcome space is not a foregone conclusion either. No number changes.
