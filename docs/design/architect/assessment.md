@@ -26,7 +26,8 @@ that what exists is good.
 | 14 | **Fortitude and Knowledge pay twice** | Each point adds +1 HP (`03:78`) and +1 Background DP (`02:115`). No other attribute feeds a pool. At +2/+2 against -2/-2 that is 8 DP and 4 HP on the same two points, and at -2/-2 the hero has 6 HP and 4 DP (Assessment 3). | needs a ruling (ledger row 168) |
 | 15 | **Every level-1 hero is 4 DP short of the book's own career total** | `18:47` grants 4 DP at level 1 with "Class signature, Starting Disciplines" as its milestones (creation's own grants), and `22:272` counts it inside the printed 44-52 DP career. Creation's eleven steps (`02:43-275`), `22`'s checklist and all nine printed builds assign only 8+K+F and 8. | needs a ruling (ledger row 169) |
 | 16 | **The healing and flat-number axes** | Healing was never converted to the live rows (4 cards, fixed in #665; 3 items still need a ruling - rows 170/171). **Cycle 8 closed the third axis: 7 of 7 ch17 item ladders and 5 ch05 Master riders were still on the retired rows and are now on the live ones.** | rows 170/171; flat axes fixed |
-| 17 | **Social conflict: a dead score, and an example that inverts its own rule** | (a) **Passive Insight is a number nothing consumes** - printed as `Knowledge + 7` in three homes (`14:29`, `07:197`, `21:235`), it spans 5 to 9 and reaches Strong 0 times out of 5, while the same paragraph's actual mechanic uses the Knowledge *modifier* as a Challenge. (b) **The worked example applies the attitude shift on a Standard and skips it on the Strong** (`14:114` vs `14:88`/`14:128`), inverting the rule it demonstrates. Both are the smallest possible repair with no new rule. | **measured 2026-09-26 (cycle 12)**; work order filed, dispatch next cycle |
+| 17 | **Social conflict: a dead score, and an example that inverts its own rule** | (a) **Passive Insight is a number nothing consumes** - printed as `Knowledge + 7` in three homes (`14:29`, `07:197`, `21:235`), it spans 5 to 9 and reaches Strong 0 times out of 5, while the same paragraph's actual mechanic uses the Knowledge *modifier* as a Challenge. (b) **The worked example applies the attitude shift on a Standard and skips it on the Strong** (`14:114` vs `14:88`/`14:128`), inverting the rule it demonstrates. Both are the smallest possible repair with no new rule. | **MERGED 2026-09-26 (cycle 13): PR #678, main `f0c9af3`, issue #677 closed.** Six sites across 3 files, audited line by line and verified in the render: "Knowledge score + 7" reads 0 in the built PDF, both new Challenge clauses read 1-2, and the worked example's 13 / 13 / 18 and 1+2=3 are unchanged. |
+| 18 | **Three item classes the slot system cannot price, and one dominated weapon row** | (a) A **shield** has no slot cost anywhere (`16`, `22`, `15`): twenty tower shields ride free. Derived value, mirroring the class ladder the shield already uses for entry and DR: small 1 / medium 2 / large 3. (b) **Scholar's robes** sit in three printed builds (`02:362`, `02:403`, `02:641`) and in no table: 1 slot, which is the only value that keeps the tightest build legal (5 of 5 at the floor). (c) A **bundle of thrown weapons** is unpriced (Pip: 9 of 10 as one item, 15 as six). (d) The **Crossbow** prints a thrown weapon's 20/60 band while paying 2 slots and a Loading Maneuver, so the Throwing Dagger dominates it on every printed axis; its band moves to 60/120, the bow ladder's next step, and Loading stays as the identity price with the trade named. | **measured 2026-09-26 (cycle 13)**; work order filed (**#680**), dispatch next cycle |
 
 ## Re-assessment 2026-09-26 (cycle 3) — priority 1 was measured, and it holds
 
@@ -217,18 +218,19 @@ what fails is that the book does not tell a player the price it is actually char
 | 4 | Combat and action economy | **OK (pacing repaired, cycle 9).** An even fight, read from the book's own encounter rule, resolved in ~1 round at every tier; root cause was a premise mismatch between `19:53` and `20:659`. **Cycle 9: the repair LANDED as #669 (main `262cd47`)** - the encounter table is per hero (Easy x1 / Standard x1.5 / Hard x2 / Deadly x3 party level, multiplied by the number of heroes), the field size is printed (roughly one and a half creatures per hero: six for a party of four, seven past the Novice band), and the duplicate table in the ch22 quick reference was mirrored on the branch before merge. The gate was itself stale (it hard-coded the pre-#663 two-creature Standard) and was updated to the amended law; `rounds-to-resolve.py --selftest` passes both controls and the gate reads **3.79 / 3.68 / 3.36 rounds at Novice / Adept / Master, exit 0**, against 1.26 / 1.05 / 0.96 before, with no stat block, band, HP, Grit or DR number moved. | 2026-09-26 |
 | 5 | Magic and the spell system | **OK on the core loop, BAD on learnability and cohesion.** 114 spell cards (68 arcane, 46 divine); one roll, three rungs, no slots. Bands discriminate from mod -2 to +3 (Weak 48.2% -> 4.6%); damage/DP 3.00 / 2.00 / 1.25. 32 of 114 cards print a damage row; 0 of them on a retired row, but the third band-change axis (flat printed numbers) was still unconverted: 7 of 7 ch17 item ladders + 5 ch05 Master riders, repaired this cycle. Two entry-point rules are unnamed or self-contradicted (the casting skill, the Adept cadence) and the 12-card Primal tradition has no item, no glossary entry, no class, and no place in the tradition rule. | 2026-09-26 |
 | 6 | Social conflict | **GOOD on the extended conflict and the attitude ladder; BAD on two entry-point details.** Face modifier reaches -4 to +7; the conflict discriminates 12.4% -> 100% with a real coin flip at mod -2 (51.2%) and a duration that peaks at 4.02 rounds, on the pacing law's 3-4 through the playable middle. Scoring asymmetry (party scores on Standard, NPC only on Weak) is the pillar; the named cost is that a tense scene needs Challenge +2 or more. Defects: Passive Insight is a dead 5-9 score whose own paragraph uses the Knowledge modifier, and the worked example inverts the attitude-shift rule. | 2026-09-26 |
-| 7 | Equipment | not assessed | |
+| 7 | Equipment | **OK.** No weapon carries a number and no gear adds one beyond DR; post-DR bands read 3/5/7, 3/6/9, 4/7/11 and the printed DR ceilings (3/4/6) sit exactly on the invariant boundary (DR <= Weak-1). Nothing stacks (ruling 145), shields are one source by Shield Block. All nine printed builds fit their slot budget (tightest: Lirael 5 of 5). Fails LEARNABLE on three unpriced item classes (shields, robes, thrown-weapon bundles) and carries one dominated row (the Crossbow: same 20/60 band as a thrown dagger plus a Loading Maneuver, for 2 slots). Two mirror residuals and a phantom gold economy repaired in this cycle's micro-PR (#679). | 2026-09-26 |
 | 8 | Content (classes, disciplines, cards) | not assessed | |
 | 9 | Bestiary and GM tools | not assessed | |
 
-**Coverage: 6 of 9 subsystems, non-contiguous.** Rows 1, 2, 3, 4, 5 and 6 are assessed; the pacing pass
-took combat and action economy early, on Bruce's ruling 165. Equipment (7), content (8) and the bestiary
-(9) are still open. Until the table is full, the queue is a guess with good manners.
+**Coverage: 7 of 9 subsystems, non-contiguous.** Rows 1-7 are assessed; the pacing pass took combat and
+action economy early, on Bruce's ruling 165. Content (8) and the bestiary (9) are still open. Until the
+table is full, the queue is a guess with good manners.
 
-**Next (cycle 13):** dispatch the social work order filed in cycle 12 (passive Insight's three homes plus
-the worked example), then assess subsystem 7, equipment. Content (8) and the bestiary (9) follow.
+**Next (cycle 14):** audit whatever lands next, dispatch the equipment work order filed in cycle 13
+(#680), then assess subsystem 8, content (classes, disciplines, the card library), with the bestiary (9)
+last. Row 177's Catch Breath model gap still needs measuring before any pacing lever is chosen.
 
-## Assessment 5 - Magic and the spell system (cycle 8, 2026-09-26)
+## Assessment 5 (first pass, superseded in the same cycle by the audited version below) - Magic and the spell system (cycle 8, 2026-09-26)
 
 **The mechanic as printed.** One roll, always: `3d6 + Knowledge` (arcane) or `+ Reason` (divine) plus
 "relevant skill", read on the card's three rungs (10:19-33). No slots, no mana, no casting check and no
@@ -781,3 +783,103 @@ rule, never overwritten.
   1/216 at +5 and at +6**, and it never reaches 0. What actually retires at +6 is the *ordinary* failure,
   which is precisely what mastery means. The success bands still discriminate at +5 (Standard 37.0%,
   Strong 62.5%), so the outcome space is not a foregone conclusion either. No number changes.
+
+## Assessment 7 - Equipment and gear (cycle 13, 2026-09-26)
+
+**Coverage: 7 of 9.** Instrument: a fresh parse of `origin/main` (ch15 340 lines, ch16 147, ch22's
+equipment sheets, the 76 card `Requires:` lines in ch09/ch11/ch12, and all nine printed builds' equipment
+lines). Every count below comes from the file.
+
+**The mechanic as printed.** Equipment carries no damage of its own: `15:82`, "Gear adds no number beyond
+DR ... Cards are damage ... No separate damage dice." Four weapon categories at 1 rank each and 17 weapon
+rows; armor by weight class (DR 1/2/3, 2-4 slots); shields by size class (`16:80-90`: 1/2/3 Shields,
+shield DR 1/2/3); 38 adventuring-gear rows priced in slots; 17 packs; mounts and vehicles as stat blocks.
+Every card that asks for gear names exactly one of 8 `Requires:` tags. Gear is granted, earned, or taken.
+
+**PROMISE - GOOD.** The three-part law is delivered without exception. No weapon row carries a number of
+any kind (the weapon table has no Cost and no damage column), so the choice is category, properties and
+fiction. The only numbers a possession adds are DR (armor) and its own slot cost. The Charge-from-mount
+benefit is a damage TIER bump (`15:272`, +1 tier), the sanctioned convention, not a flat rider. Vehicles
+express positional protection as COVER (chariot sides and rear, the armored upgrade, `15:330-332`), never
+as DR, which is the positional-protection law holding under the subsystem most tempted to break it.
+
+**RANGE - GOOD, and measured at both ends.** With the tier's own armor DR (1/2/3) the live bands read:
+
+| Tier | Band | Post-DR with the tier's armor | Invariant (DR <= Weak-1) | Printed ceiling |
+|---|---|---|---|---|
+| Novice | 4/6/8 | 3/5/7 | <= 3 | 3 |
+| Adept | 5/8/11 | 3/6/9 | <= 4 | 4 |
+| Master | 7/10/14 | 4/7/11 | <= 6 | 6 |
+
+Three distinct tiers survive the subtraction at every level, and the printed ceiling is exactly the
+invariant's boundary at all three (3 = 4-1, 4 = 5-1, 6 = 7-1). Nothing stacks: `15:137`, `16:23`, `16:27`,
+`22:248`, `22:361`, `22:388` and all four DR cards agree (Bark/Stone/Iron Skin each print "does not stack
+with any other source of DR"), which is ruling 145 in the manuscript ("as a rule armor DR does NOT stack
+period"). Shield DR is a separate channel applied by Shield Block, reduced to one source, so the old
+additive-shield collapse at Master no longer exists. The floor-1 rule is not load-bearing anywhere in this
+subsystem: no printed combination reaches a band's Weak value.
+
+**Slots, measured across all nine printed builds.** Budget `10 + Brawn x 5` with a floor of 5
+(`15:160`). Slot costs are read from the tables: weapons 1 (two-handed 2), armor 2-4, gear per the
+38-row table.
+
+| Build | Brawn | Budget | Load | Note |
+|---|---|---|---|---|
+| Lirael | -1 | 5 | 5 | exactly at the floor once robes are priced |
+| Haldra | -1 | 5 | 4 | |
+| Pip | +0 | 10 | 9 | 15 if each throwing dagger is an item rather than a bundle |
+| Sera | +0 | 10 | 5 | |
+| Makeva | +1 | 15 | 7 | |
+| Marta | +1 | 15 | 5 + shield | |
+| Vaelith | +1 | 15 | 5 | |
+| Corwin | +1 | 15 | 10 | six reagent vials at 1 slot each |
+| Gorma | +2 | 20 | 7 + shield | |
+
+Every printed build fits under the book's own conventions. The tightest is Lirael at 5 of 5, and that
+tightness is itself a finding: it pins the price of a worn garment at 1 slot (2 would put a printed build
+over budget), which is the value the work order uses.
+
+**DISCRIMINATION - OK.** The weapon table is a spread of identity options, and `15:82` says so in as many
+words ("Pick the weapon that fits your hero, not the one that looks best on paper. They all hit the
+same"). Measured: 6 of the 17 rows carry no property at all (Mace, Battleaxe, Warhammer; Greatsword,
+Greataxe, Maul), so they are interchangeable with each other and option-dominated by a same-category peer
+at identical entry cost. That is the stated design, not a defect. **One row breaks the reading.** The
+Crossbow prints the same 20/60 band as a thrown dagger while costing 2 slots (Two-Handed) and a Maneuver
+between shots (Loading, its own property), and the Throwing Dagger costs the same single Ranged rank, 1
+slot, prints the same band and pays no penalty; the Shortbow (60/120) and Longbow (100/200) outrange it.
+Nothing anywhere in the book gives a crossbow a compensating benefit (ch08 lists crossbows in the Ranged
+discipline, ch21 and ch22 repeat the property and the band, and no card, talent or rule names one).
+`21:123`/`21:131`/`15:131` also fix the two flavour properties (Versatile, Loading) to a single named
+weapon each, so the table has exactly one drawbacked weapon and it is the dominated one.
+
+**LEARNABLE - the criterion that fails, in one place.** The slot system prices every item class it lists,
+but **three item classes that the book and its own printed builds carry have no price at all**: a shield
+(no Slots column in `16`, `22` or `15` - a hero may carry twenty tower shields for nothing), scholar's
+robes (in three printed equipment lines, `02:362`, `02:403`, `02:641`, and in no table anywhere), and a
+bundle of thrown weapons (Pip's "throwing daggers (6)" reads 1 slot by the ammunition convention the table
+already uses for Arrows and Bolts, or 15 by the per-item reading, and the book never says which). Work
+order filed (#678) with the derived values.
+
+**COST - the reverse finding, recorded so no future pass re-files it.** The `Requires:` vocabulary is
+clean: 8 tags rostered at `15:26-33`, 8 consumed, 76 card-level tags and 0 orphan tags, 0 rostered tags
+with no consumer. 59 of the 114 spell cards carry a focus tag, matching the focus-downgrade count already
+measured at row 175. The pack table's 17 `Tag` cells look like the same vocabulary but are referenced only
+by `21:77` as names; they gate nothing, which reads as deliberate (a pack is a capability) and is not
+re-filed.
+
+**STRESS - the subsystem survives its adversarial cases.** The free Adventurer's Pack carries no rope,
+pitons, picks or charts by design (`15:48`) so "we forgot the rope" stays legal; the exempt container is
+one container at a time and containers do not nest (`22:460`); barding's numbers are a mount stat block and
+stay out of the hero-DR sweep (`15:259`, DR scope law); a mount at 0 HP is survived by an Agility check at
+Standard. No degenerate loop found: nothing in the tables generates a resource, and the only stacking
+opportunity the subsystem offers (many shields) is closed by `16:90` (the -5 ft Speed applies once) and by
+Shield Block's one-attack-per-round cap.
+
+**Verdict: OK.** The subsystem delivers its pillar, holds the DR invariant at both ends with the printed
+ceilings landing exactly on the boundary, and fits every printed build. It fails LEARNABLE on three
+unpriced item classes and carries one dominated weapon row; both are table edits with derived values, and
+both are specced in #678. Two mirror residuals of already-ruled directions were corrected in this cycle's
+micro-PR (#679): the `weapon:two-hand` tag still demanded 2 Two-Handed after the requirements sweep closed
+that direction, and `15:123`/`15:154` still described the retired two-size shield model. A third claim went
+with them: `15:44` and `21:27` promised a gold economy the book does not have (0 prices, 0 coins, 0
+starting wealth in all 25 chapters), against `15:15`, `15:239` and `19:73`'s "granted, earned, or taken".
