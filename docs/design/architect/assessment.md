@@ -14,11 +14,13 @@ that what exists is good.
 | 2 | **The Shepherd cannot pay for its own loadout and a card** | `05:202` prints 7 DP of loadout ranks and claims "which still leaves room for a card"; the class pool is 8 DP (`02:204`) and a Novice card is 2 DP, so the line costs **9 DP**. Eight of nine classes close; the Shepherd does not. | needs a ruling (ledger row 166) |
 | 3 | **The difficulty dial is asymmetric** | Trivial +4 down to Nearly Impossible -6. More room to make things hard than easy. Combined with a competent hero at +3, a Trivial task cannot fail. Deliberate or drift? Unruled. | needs a ruling |
 | 4 | **Failure collapse at the top of the range** | At mod +5 (Master: attr +2, skill +3) P(Weak) = 0.46%, 1 in 216. At +6 it is mathematically 0. A master cannot fail a Standard task, so the "succeed with a catch" band stops existing for them. May be intended (that is what mastery means) but it must be stated as intent. | needs a ruling |
-| 5 | **Creation's printed builds are unfunded and the skill ledger never closes** | 7 of 9 printed heroes cannot pay for the gear their own loadout requires (26 DP); all 9 spend 2 DP on the skill their culture already grants +1 in (18 DP). The root cause of the first is now measured: priority 1. | rows 161/162; one word each |
+| 5 | **Creation's printed builds are unfunded and the skill ledger never closes** | 7 of 9 printed heroes cannot pay for the gear their own loadout requires (26 DP); all 9 spend 2 DP on the skill their culture already grants +1 in (18 DP). The root cause of the first is now measured: priority 1. **Cycle 7: the level-1 grant that creation never awards (priority 10) would pay 6 of those 7 builds, cutting 26 DP to 2.** | rows 161/162; one word each |
 | 6 | **Master is not an efficiency tier, and nothing says so** | Cards cost 2/4/8 while the bands are 4/6/8, 5/8/11, 7/10/14: damage per DP falls **3.00 -> 2.00 -> 1.29** with ranks already paid. The premium buys per-action impact and a once-per-session spotlight (`10:101`), which is a real thing to buy, but a player optimising damage per DP will buy breadth and be right on the numbers. | needs a ruling (ledger row 167) |
 | 7 | Fate unpriced / Summon uncarded | Advertised, unusable. Ruled, specced, undispatched (rows 125/151, issue #655). | work order filed |
-| 8 | ch09 tier-labelled headings | Three cards titled "Novice Talent" whose requirements are Adept and Master (row 160). Player-facing promise defect. | row filed |
-| 9 | **Fortitude and Knowledge pay twice** | Each point adds +1 HP (`03:78`) and +1 Background DP (`02:115`). No other attribute feeds a pool. At +2/+2 against -2/-2 that is 8 DP and 4 HP on the same two points. | needs a ruling (ledger row 168) |
+| 8 | ch09 tier-labelled headings | Three cards titled "Novice Talent" whose requirements are Adept and Master (row 160). Player-facing promise defect. **Cycle 7: the tier RULE itself was the larger half of this - `09:15` keyed tier to the count of Disciplines, mispricing 59 of 102 cards; fixed in #665. The three cards remain.** | row filed; rule fixed |
+| 9 | **Fortitude and Knowledge pay twice** | Each point adds +1 HP (`03:78`) and +1 Background DP (`02:115`). No other attribute feeds a pool. At +2/+2 against -2/-2 that is 8 DP and 4 HP on the same two points, and at -2/-2 the hero has 6 HP and 4 DP (Assessment 3). | needs a ruling (ledger row 168) |
+| 10 | **Every level-1 hero is 4 DP short of the book's own career total** | `18:66` grants 4 DP at level 1 with "Class signature, Starting Disciplines" as its milestones (creation's own grants), and `22:272` counts it inside the printed 44-52 DP career. Creation's eleven steps (`02:43-275`), `22`'s checklist and all nine printed builds assign only 8+K+F and 8. | needs a ruling (ledger row 169) |
+| 11 | **The healing axis was never converted to the live rows** | The 2026-09-15 band change was verified with slash-triples, which is how damage prints; a healing card prints one HP per line. Four cards were still on the retired rows (fixed in #665, 4 -> 0) and three items still need a ruling: a recurring heal whose per-round figure cannot total its own row, two Adept cards printing the Master row, and an untiered critical-effect heal. | rows 170/171 |
 
 ## Re-assessment 2026-09-26 (cycle 3) — priority 1 was measured, and it holds
 
@@ -205,7 +207,7 @@ what fails is that the book does not tell a player the price it is actually char
 |---|---|---|---|
 | 1 | Core resolution | GOOD (two range notes) | 2026-09-26 |
 | 2 | The economy | OK (LEARNABLE fails; one class over-pool; 4 mislabelled structures) | 2026-09-26 |
-| 3 | Creation and progression | not assessed | |
+| 3 | Creation and progression | **GOOD on the arithmetic, OK on progression.** All 9 printed builds' HP/Initiative/Carry re-derive exactly; the reachable space is Background DP 4-12, HP 6-14, career 44-52 DP, ranks 1-3. No dead level (skills are a gate-free sink); the binding constraint after level 3 is the 3-rank ceiling, not DP. Two rule-statement defects found and repaired in the same cycle (#665). | 2026-09-26 |
 | 4 | Combat and action economy | **BAD (pacing).** An even fight, read from the book's own encounter rule, resolves in ~1 round at every tier; root cause is a premise mismatch between `19:53` and `20:659`. Re-assessed and re-costed cycle 5. **Cycle 6: the repair is chosen and filed as #663** (per-hero encounter budget, one and a half creatures per hero); the encounter's challenge-point budget is the wrong instrument for duration, and the count is the right one. | 2026-09-26 |
 | 5 | Magic | not assessed | |
 | 6 | Social conflict | not assessed | |
@@ -213,15 +215,16 @@ what fails is that the book does not tell a player the price it is actually char
 | 8 | Content (classes, disciplines, cards) | not assessed | |
 | 9 | Bestiary and GM tools | not assessed | |
 
-**Coverage: 3 of 9 subsystems, non-contiguous.** Rows 1, 2 and 4 are assessed; the pacing pass took
-combat and action economy early, on Bruce's ruling 165, leaving creation and progression (row 3)
-unassessed. Until the table is full, the queue is a guess with good manners.
+**Coverage: 4 of 9 subsystems, non-contiguous.** Rows 1, 2, 3 and 4 are assessed; the pacing pass took
+combat and action economy early, on Bruce's ruling 165. Magic (5), social (6), equipment (7), content
+(8) and the bestiary (9) are still open. Until the table is full, the queue is a guess with good manners.
 
-**Next (cycle 5):** subsystem 3, creation and progression - unchanged as the sweep's next act, and
-still inheriting the same measured dependency: Assessment 2 shows the rank supply is 3 picks and the
-class pool is 8 DP, so the question "can a leaner hero be built at all, and does a level ever arrive
-with nothing worth buying" is answerable from the same tables, and it closes priorities 2 and 5
-together. The pacing row 165 now carries a re-costed lever set and needs one word from Bruce.
+**Next (cycle 8):** subsystem 5, magic and the spell system - the next in dependency order, and the
+place the two flagged healing items (rows 170/171) live. The HoT question is a magic-system question
+before it is a card question: the recurring-effect convention and the live bands cannot both hold, so
+the assessment must decide whether the per-round figure, the duration or the total is the graded
+quantity. Then social conflict (6), equipment (7), content (8), bestiary (9). The pacing row 165 still
+carries its chosen lever and needs nothing from the ledger except the dispatch gate.
 
 ## Pacing assessment - combat and action economy (2026-09-26, on Bruce's ruling 165)
 
@@ -388,3 +391,75 @@ every number it needs and no agent has run it.
 
 **Evidence:** `scripts/rounds-to-resolve.py` lever-sizing table (N=2/4/6/8 per band, per-monster HP
 needed at each size) plus the bestiary grouped by challenge band from `origin/main` this cycle.
+
+## Assessment 3 - Creation and progression (cycle 7, 2026-09-26)
+
+**As printed.** Background DP = 8 + Knowledge + Fortitude (`02:115`); Class DP = 8 flat (`02:204`); six
+attributes in -2..+2 summing to exactly +3 (`02:47`); HP = 10 + Fortitude + Knowledge (`02:214`);
+Initiative = 3d6 + Agility; Carry = 10 + Brawn x 5, floor 5. Advancement is 32 DP over ten levels
+(4,3,3,3,4,3,3,3,3,3), one Discipline rank at levels 3/6/9, one attribute increase at 4/8 (`18:66-90`,
+`22:258-269`).
+
+**The reachable space, computed.** The sum constraint leaves the pool pair free across its whole window:
+K+F can be any value from -4 to +4 (the other four attributes must absorb 3-(K+F), a reachable band of
+-8..+8, so no corner is blocked). Every quantity that follows from it:
+
+| Quantity | Floor | Ceiling | Where it comes from |
+|---|---|---|---|
+| Background DP | **4** | **12** | `02:115`; +1 Human Versatile -> 5-13 (`02:64`) |
+| HP at level 1 | **6** | **14** | `02:214`; +2 Dwarf Sturdy -> 8-16 (`02:66`) |
+| Career DP by level 10 | 44 | 52 | 32 advancement + 8 class + (8+K+F) (`22:272`) |
+| Discipline ranks in a career | 1 (a grant) | **3** | 3 progression picks; rank 2 buyable at creation (`08:99`) |
+
+All nine printed heroes re-derive: HP, Initiative and Carry come out exactly right from their printed
+attributes in **9 of 9** cases. Creation's arithmetic is sound; its defects are in funding (rows 161/162)
+and in what the level-1 grant actually is (row 169).
+
+**RANGE at the bottom is legal, and nothing warns that it is the worst build in the game.** The tightest
+legal hero (K and F both -2) has **6 HP and 4 Background DP**. At every tier a Strong monster hit minus
+that tier's armour DR exceeds 6 (8-1, 11-2, 14-3), so that hero is dropped by a single strong hit in
+every band and stands back up twice on Grit: 3.2 hits to be put out of a fight against 5.8 for an 11-HP
+hero, a 45% cut in staying power, for 8 DP and 8 HP surrendered on the same two points. This is the
+measured bottom of row 168's double bank, and the fix shape is a sentence in ch02 either way (the
+formula is fine; the omission is that nothing says the dump is the expensive one).
+
+**Progression: no dead levels, but the real gate is ranks, not DP.** The sink is never empty, because
+skills share the card tiers and gate nothing (23 skills x 3 tiers = 322 DP of legal sink against a 44-52
+DP career), so every level has something to buy. What is scarce is the *card* sink, and it is gated by
+ranks rather than DP: rank 1 across the 4-5 granted disciplines at level 1, Adept only in the single
+discipline the level-3 pick deepens, Master only after picks at 3 *and* 6 land on the same discipline
+(`08:99`). Per discipline the book prints 11 Novice / 7 Adept / 3 Master cards at Energy down to 1/0/0
+at Tactics, Animal, Lore and Sleight, so the level-1 pool buys a real but partial slice of a wide shelf,
+and after level 3 the binding constraint is the three-rank ceiling. That is Assessment 2's finding
+restated on the progression axis (the career is rank-limited), and row 167's Master-efficiency gradient
+is its pricing consequence.
+
+One structural residue, not a defect: awards are 3 or 4 DP against costs of 2/4/8, so each level leaves
+a 1 DP remainder. It carries over by rule (`18:70`) and is spendable as a new rank 1 at a Home-priced
+discipline (`08:162`), so nothing is stranded; the residue simply means a career's purchases never
+exactly consume its pool.
+
+**Two defects found and repaired this cycle (PR #665):** the rule that prices every card was stated in a
+way that disagrees with the corpus (see below), and the healing axis of the damage-budget table was
+never converted to the live rows.
+
+*The tier sentence.* `09:15` defined a card's tier as "the number of Disciplines on its header". The
+corpus keys tier to the **total Discipline ranks** required: 99 of 102 printed headings agree with the
+rank reading against 43 of 102 for the literal sentence, `10:63` states the rank rule explicitly ("a
+card that asks for two Discipline ranks and covers an area is an Adept card"), and `08:193`'s grammar
+reads "2 Fire" as rank 2. Under the literal wording **59 of 102 cards drop a tier** - 174 DP of price
+movement and the level-3 gate opening early on cards that print the Adept damage row. Sentence aligned
+to the corpus; no card changed. The three cards that contradict under *both* readings remain with row
+160.
+
+*The healing axis.* The 2026-09-15 band change was verified by grepping slash-triples, which is how
+**damage** prints; a healing card prints one HP value per line, so the axis was invisible to that sweep
+and to row 132's damage-specific extractor. Four cards were still on the retired rows and are now on
+their own tier's row: Mending Touch 2/4/6 -> 4/6/8, Restoration / Tide of Life / Soulmend 6/9/12 ->
+5/8/11, the Potion of Healing 2/4/6 -> 4/6/8 (which puts the potion ladder on the three live rows by
+rarity), Second Breath's Adept gift 6 -> 5. Instrument: `scripts/heal-row-census.py`; **4 cards on a
+retired row before, 0 after.** Three items need a ruling and are logged (rows 170/171): Flesh Renewal's
+recurring heal, the two Adept cards printing the Master row, and the untiered critical-effect heal.
+
+**Verdict: GOOD on the arithmetic (9 of 9 builds re-derive) and OK on progression (no dead level), with
+two rule-statement defects found and repaired in the same cycle and one flagged item at the HP floor.**
