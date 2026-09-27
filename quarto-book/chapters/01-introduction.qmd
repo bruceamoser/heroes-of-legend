@@ -92,7 +92,7 @@ The rest will feel familiar. Jump to @sec-chapter-character-creation to start bu
 
 All right. Roll up your sleeves. This is the engine that drives everything.
 
-In _Heroes of Legend_, whenever you attempt something with risk: swinging a sword, casting a spell, talking your way past a guard, climbing a crumbling wall while something with too many teeth chases you, you reach for three six-sided dice. You roll them. You add your hero's relevant *attribute* (see @sec-chapter-attributes). You add your *skill* bonus if you have one. The DA may add or subtract a modifier for difficulty. Then you look at the total. That number tells you what happens.
+In _Heroes of Legend_, whenever you attempt something with risk: swinging a sword, casting a spell, talking your way past a guard, climbing a crumbling wall while something with too many teeth chases you, you reach for three six-sided dice. You roll them. You add your hero's relevant *attribute* (see @sec-chapter-attributes) You add your *skill* bonus if you have one. The DA may add or subtract a modifier for difficulty. Then you look at the total. That number tells you what happens.
 
 But numbers without context are just arithmetic. Here's what those totals _feel_ like at the table:
 
@@ -133,7 +133,7 @@ This is not how most games work. In most games, you roll to see _if_ you hit. If
 
 In _Heroes of Legend_, every swing connects. Your 3d6 roll determines the damage tier: Weak, Standard, or Strong. A Weak hit is a glancing blow that still draws blood. A Standard hit is a solid strike. A Strong hit is the kind of blow that makes the enemy reconsider every choice that led them to this moment. Something always happens. Every swing advances the fight. Every round, the board changes.
 
-This keeps combat fast, cinematic, and dangerous. You can't stack armor so high that goblins can't touch you. Every attack lands. Armor reduces damage instead of preventing hits (see @sec-chapter-armor-shields). The knight in plate mail still gets knocked around, they just stay standing longer. Combat becomes about who's left standing, not about who finally rolled high enough to participate.
+This keeps combat fast, cinematic, and dangerous. You can't stack armor so high that goblins can't touch you. Every attack lands. Armor reduces damage instead of preventing hits (see @sec-chapter-armor-shields) The knight in plate mail still gets knocked around, they just stay standing longer. Combat becomes about who's left standing, not about who finally rolled high enough to participate.
 
 #pagebreak()
 

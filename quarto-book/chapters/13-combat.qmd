@@ -64,7 +64,7 @@ These maneuvers are free for everyone. No skill required. No Discipline check. J
     [*Disengage*], [Move 5 ft without provoking opportunity attacks.],
     [*Aid*], [Ally within 30 ft gains a Boon on their next roll before your next turn.],
     [*Shove*], [Brawn against the target's Brawn or Agility as a Challenge. Push target 5 ft (10 ft on Strong).],
-    [*Grapple*], [Initiate a grapple (see @sec-grappling).],
+    [*Grapple*], [Initiate a grapple (see @sec-grappling)],
     [*Command*], [A companion, familiar, or mount under your control takes an extra move.],
     [*Catch Breath*], [Regain one third of your maximum HP (round up). Uses per combat equal your Grit.],
     [*Search*], [Active Perception check to spot a hidden creature or clue.],
@@ -95,7 +95,7 @@ Roll 3d6 + modifiers. The total determines your damage tier:
 
 That's one roll. No separate damage dice. No "did I hit?" anxiety. Roll once, read the damage, move on.
 
-Damage Reduction (DR) subtracts from the damage a hit does, but a hit always lands for at least 1 damage. Your DR is the highest of your armor's DR and any talent or ward that grants DR, and your tier caps the total. Shield DR is not part of that total: a shield's DR arrives through the Shield Block reaction, which applies it to one attack per round (@sec-chapter-armor-shields). Armor makes the blow land softer, not miss.
+Damage Reduction (DR) subtracts from the damage a hit does, but a hit always lands for at least 1 damage. Your DR is the highest of your armor's DR and any talent or ward that grants DR, and your tier caps the total. Shield DR is not part of that total: a shield's DR arrives through the Shield Block reaction, which applies it to one attack per round (@sec-chapter-armor-shields) Armor makes the blow land softer, not miss.
 
 #callout(type: "note", title: "Why Always-Hit?", body: [
 
