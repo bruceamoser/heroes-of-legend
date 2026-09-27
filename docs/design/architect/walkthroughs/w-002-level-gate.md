@@ -4,7 +4,7 @@
 ("for each class at each gate: is there something worth buying, and can the DP actually be spent?").
 **Corpus:** `origin/main` at `303a5fe`, re-read after #665. Every number below is computed from the
 printed tables: `02:115` (Background DP), `02:204` (Class DP), `02:214` (HP), `02:47` (attributes),
-`08:144-147` (tier prices), `08:162` (rank costs), `08:99` (rank ceiling), `18:66-90` and `22:258-269`
+`08:144-147` (tier prices), `08:162` (rank costs), `08:99` (rank ceiling), `18:42-63` and `22:258-269`
 (the level table).
 
 ## The walk, level by level
@@ -37,7 +37,7 @@ printed tables: `02:115` (Background DP), `02:204` (Class DP), `02:214` (HP), `0
    stranded: unspent DP carries over (`18:70`) and the remainder is spendable as a new rank 1 at a
    Home-priced Discipline (`08:162`). Worth knowing, not worth fixing.
 4. **The one number the walkthrough could not verify from creation is the level-1 pool itself.**
-   `18:66` grants 4 DP at level 1 and `22:272` counts it in the printed 44-52 DP career, but creation's
+   `18:47` grants 4 DP at level 1 and `22:272` counts it in the printed 44-52 DP career, but creation's
    steps and its nine printed builds assign only Background (8+K+F) and Class (8). A hero built by the
    canonical path is 4 DP behind the book's own total. Ledger row 169.
 

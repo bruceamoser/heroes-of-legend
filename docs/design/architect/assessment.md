@@ -24,7 +24,7 @@ that what exists is good.
 | 12 | ch09 tier-labelled headings | Three cards titled "Novice Talent" whose requirements are Adept and Master (row 160). Player-facing promise defect. **Cycle 7: the tier RULE itself was the larger half of this - `09:15` keyed tier to the count of Disciplines, mispricing 59 of 102 cards; fixed in #665. The three cards remain.** | row filed; rule fixed |
 | 13 | **The focus downgrade has no defined bottom for most cards** | `15:40`/`21:217` end the ladder "Weak becomes **1 damage**" - a clause that only means something if the rung is damage. **23 of the 59 focus-carrying cards have a non-damage Weak rung**, and on a heal it inverts (Mending Touch's "Restore 4 HP" becomes 1 damage). | **measured 2026-09-26 (cycle 8)**; needs a ruling (ledger row 175) |
 | 14 | **Fortitude and Knowledge pay twice** | Each point adds +1 HP (`03:78`) and +1 Background DP (`02:115`). No other attribute feeds a pool. At +2/+2 against -2/-2 that is 8 DP and 4 HP on the same two points, and at -2/-2 the hero has 6 HP and 4 DP (Assessment 3). | needs a ruling (ledger row 168) |
-| 15 | **Every level-1 hero is 4 DP short of the book's own career total** | `18:66` grants 4 DP at level 1 with "Class signature, Starting Disciplines" as its milestones (creation's own grants), and `22:272` counts it inside the printed 44-52 DP career. Creation's eleven steps (`02:43-275`), `22`'s checklist and all nine printed builds assign only 8+K+F and 8. | needs a ruling (ledger row 169) |
+| 15 | **Every level-1 hero is 4 DP short of the book's own career total** | `18:47` grants 4 DP at level 1 with "Class signature, Starting Disciplines" as its milestones (creation's own grants), and `22:272` counts it inside the printed 44-52 DP career. Creation's eleven steps (`02:43-275`), `22`'s checklist and all nine printed builds assign only 8+K+F and 8. | needs a ruling (ledger row 169) |
 | 16 | **The healing and flat-number axes** | Healing was never converted to the live rows (4 cards, fixed in #665; 3 items still need a ruling - rows 170/171). **Cycle 8 closed the third axis: 7 of 7 ch17 item ladders and 5 ch05 Master riders were still on the retired rows and are now on the live ones.** | rows 170/171; flat axes fixed |
 
 ## Re-assessment 2026-09-26 (cycle 3) — priority 1 was measured, and it holds
@@ -517,7 +517,7 @@ needed at each size) plus the bestiary grouped by challenge band from `origin/ma
 **As printed.** Background DP = 8 + Knowledge + Fortitude (`02:115`); Class DP = 8 flat (`02:204`); six
 attributes in -2..+2 summing to exactly +3 (`02:47`); HP = 10 + Fortitude + Knowledge (`02:214`);
 Initiative = 3d6 + Agility; Carry = 10 + Brawn x 5, floor 5. Advancement is 32 DP over ten levels
-(4,3,3,3,4,3,3,3,3,3), one Discipline rank at levels 3/6/9, one attribute increase at 4/8 (`18:66-90`,
+(4,3,3,3,4,3,3,3,3,3), one Discipline rank at levels 3/6/9, one attribute increase at 4/8 (`18:42-63`,
 `22:258-269`).
 
 **The reachable space, computed.** The sum constraint leaves the pool pair free across its whole window:
