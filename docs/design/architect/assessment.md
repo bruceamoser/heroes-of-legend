@@ -1366,3 +1366,99 @@ only structural difference between the two stat-line populations, and it should 
 player-facing tactics primer belongs in ch19 or is already delivered by `19:57` to `19:59`. The census is
 re-runnable (`--rev <ref>`), so the count moves if the corpus does, and the coverage guard exits 2 rather
 than printing a clean line when a format change outruns the parser.
+
+## Instrument audit (cycle 60, 2026-09-27) — Bruce's combat simulator (#805): the model was the bug, and the corrected fight model sizes the field
+
+Bruce filed **#805** at 19:25 EDT with a 546,000-combat Monte Carlo simulation of the Standard encounter
+and eight findings. The findings are load-bearing (they touch the pacing law, the Wound ladder, DR, the
+healer's value and the bestiary's creature pricing), so the instrument itself was audited before any of it
+was acted on. **The instrument had one defect and it was decisive.**
+
+### The defect: every roll in the model was made at Bane 3
+
+`scripts/combat-sim.py:218-230` builds `adv_table(mod)` indexed by **advantage** in `[-3..3]`, so index 0
+is advantage −3 (6d6, keep the *lowest* three). Every call site indexes it by **boon count**, and says so:
+
+- `hero_tab[0]  # advantage 0 unless a Boon applies` (`combat-sim.py:352`)
+- `T["mon"][tgt.boon]` where `tgt.boon` is 0 or 1 (`:387`, `:315` sets it to 1 for the Defend maneuver)
+- `T["heal"][0]` (`:329`), `death_tab[bane][0]` (`:408`)
+
+So the hero's attack, the hero's defence roll, the healer's heal and the death roll were **all** resolved on
+a bane-3 spread. The model contradicts its own header, which is how it is detectable from inside: section 0
+prints the intended `4/6/8 -> 5.67` expected damage per attack, while the table the fight draws from
+delivers this:
+
+| tier | intended (section 0, mod +2) | realised, as shipped | realised W/S/S | realised, corrected | corrected W/S/S |
+|---|---|---|---|---|---|
+| Novice | 7.33 | 5.70 | 44.7 / 47.4 / 1.6 | 7.27 | 8.8 / 64.8 / 25.5 |
+| Adept | 9.50 | 5.27 | 44.7 / 47.4 / 1.6 | 7.44 | 8.8 / 64.8 / 25.5 |
+| Master | 11.76 | 3.41 | 44.7 / 47.4 / 1.6 | 5.71 | 8.8 / 64.8 / 25.5 |
+
+45/47/1 is not 3d6. The repair is one line (`for adv in range(0, 4)`, index 0 = neutral). Corrected copies:
+the skill's `scripts/combat-sim.py`, which carries the missing gate — `audit_tables()`, run from `--audit`
+or at the start of every sweep, which asserts the neutral entry is 56/140/20 of 216 and **exits 3 naming the
+failure**. Negative control exercised both ways on 2026-09-27: shipped indexing prints 169/47/0 and exits 3;
+repaired indexing prints 56/140/20 and exits 0. Bruce's local `scripts/combat-sim.py` carries the same
+one-line repair and a pointer to the tracked copy.
+
+### What the correction does to the findings
+
+| # | #805's finding | corrected measurement |
+|---|---|---|
+| 1 | Standard runs 5-6 rounds | **4.94 / 4.27 / 4.20** at six creatures; **5.65 / 4.98 / 4.96** at the seven the prose prints |
+| 2 | Master Standard costs 2.36 Wounds/hero, P(retire) 24.6% | **1.00 Wounds, P(retire) 2.6%** — the sim now *reproduces* `19:55`'s printed ladder at Master |
+| 3 | Adept/Master Deadly = 100% wipe | **56% / 70%** wipe; Deadly is brutal, not automatic |
+| 4 | DR is the whole defensive dial | survives, in weaker form: light armour DR 1 -> heavy DR 3 is the largest single step (−0.55/−0.39/−1.07 Wounds), shield small (−0.03/−0.18/−0.32), **ward nil** |
+| 5 | Master is a floor because multiattack is unmodelled | **survives, and is the largest single unpriced factor**: Adept armoured DR 3 goes 0.30 -> **1.21** Wounds, Master 0.71 -> **2.06** |
+| 6 | Basic attacks sit far below the budget | survives; it is the printed floor ("cards are damage"), so the measured wipe is the design, not a defect |
+| 7 | `06:71` says an attack takes a Challenge | real doc defect, one clause: `06:71`'s "same shape as swinging a sword at someone" describes the *roll shape*, and the worked examples plus `06:111` scope Challenge to the defence roll |
+| 8 | melee accuracy never improves | survives as printed at `07:114` (skill bonus does not enter the attack); attributes cap at +2 for both lanes, so *neither* lane scales accuracy, which is the sharper statement |
+
+### The pacing law, and why my own gate said PASS
+
+`rounds-to-resolve.py` measures a **fractional damage race** — encounter HP ÷ party output per round — which
+returns 3.79/3.68/3.36 and passes ruling 165's window. The corrected sim measures **whole rounds until the
+monsters are dead, with casualties**, which is the table's currency, and returns 4.20 to 4.94. My gate's own
+second line already contradicted its verdict: it prints a hero dropped at ~4.2/3.7/3.6 rounds, i.e. the
+casualty line crosses the clear line, and it still ruled PASS. Both numbers are right about different
+questions; the law is written in the sim's currency, so the fight is **outside the window at every tier**
+(Novice by a full round, Adept/Master by a fifth to a quarter of one).
+
+### The decision: size the field by the window, and count actions
+
+Corrected model, Standard, no healer, 2,000 combats per cell, 7 archetypes averaged. Mean rounds (median in
+brackets), Wounds per hero, and the printed claims each row sits against — the window (3-4 rounds), the
+ladder (`19:55`: one Wound each) and the pool (three quarters of the day):
+
+| field | Novice | Adept | Master | Wounds (N/A/M) |
+|---|---|---|---|---|
+| 7 x 1-attack (printed prose, `19:57`) | 5.65 (6) | 4.98 (5) | 4.96 (5) | 0.48 / 0.89 / 1.49 |
+| 6 x 1-attack (formula, six for four) | 4.94 (5) | 4.27 (4) | 4.20 (4) | 0.28 / 0.57 / 0.99 |
+| **5 x 1-attack (1.25 per hero)** | **4.00 (4)** | **3.68 (4)** | **3.60 (4)** | 0.14 / 0.32 / 0.61 |
+| **4 x 2-attack (actions priced)** | **3.04 (3)** | **3.00 (3)** | **2.98 (3)** | 0.35 / 0.63 / 0.98 |
+| 3 x 2-attack (attack = full share) | 2.81 (3) | 2.23 (2) | 2.18 (2) | 0.16 / 0.30 / 0.48 |
+
+Two things are true at once and one repair serves both. **(a) The field is too big**: the printed HP rule
+(`20:659`) is a *duel* constant — three rounds of ONE attacker — so six creatures divided among four
+attackers is 4.5 rounds of chewing before any casualty, and the casualty term pushes it to 5. Four to five
+creatures is what the window wants. **(b) A second attack is free**: at an identical Challenge, count and
+length, swapping single-attack creatures for two-attack ones takes the price from 0.14/0.32/0.61 to
+0.70/1.14/1.70 Wounds — 3x to 5x for the same budget. The attack share that fits both the window and the
+ladder is **1.5** (four two-attack creatures, 3.0 rounds, 0.98 Wounds at Master); a full second share (three
+creatures) undershoots the window at 2.2 rounds.
+
+**Recorded as a veto-revertible default (ledger row 234)**, and filed as one work order against ch19 only:
+the count sentence becomes *one and a quarter creatures per hero, five for a party of four at every tier*,
+plus one sentence pricing a second attack at half again. The formula itself stands. Nothing in the bestiary
+moves, no hero number moves, and the fallback if the frame is to stay at six is the other measured lever —
+the creature-HP constant at ×0.75 (3.56/3.56/3.16 rounds, 49 stat blocks) — which is why the field is the
+smaller and recommended one.
+
+### The healer, corroborated independently
+
+`heal-threshold-sim.py` (cycle 54) and cycle 59's reading gave a dedicated healer a measured cost from Adept
+up, with the qualifier that its own file cannot price the Wound a heal prevents. The independent sim closes
+the loop with Wounds measured directly: at Standard the healer changes Wounds by −0.03 to +0.05 (nil) **and
+adds 0.94 to 1.02 rounds, at every tier**. So healing buys the party rounds, not Wounds, and it cannot buy
+Wounds because `nothing takes one off the sheet` is law. Review item 2's claim now stands on two instruments
+that agree on direction. Whether the Life lane should be more than that is Bruce's (ledger row 235).
