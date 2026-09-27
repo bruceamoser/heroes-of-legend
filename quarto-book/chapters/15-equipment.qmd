@@ -192,7 +192,7 @@ These are the small things that separate a prepared adventurer from a corpse. Th
     [*Focus Pouch*], [1], [A belt pouch of the small focuses a caster relies on. Spells need no material components.],
     [*Grappling Hook*], [1], [Hooks onto ledges, branches, or battlements. Attach a rope and throw, range 30 ft. Requires a Brawn or Agility check (Standard) to set securely.],
     [*Hammer*], [1], [Drives pitons, breaks things, nails doors shut. Can be used as an improvised weapon (1/1/2 + Brawn).],
-    [*Healer's Kit*], [1], [Bandages, salves, and splints. 10 uses. When you stabilize a dying creature or restore HP during a short rest, add +1 HP per use expended. Without a kit, you can't use the Medicine skill to restore HP during rests.],
+    [*Healer's Kit*], [1], [Bandages, salves, and splints. 10 uses. When you stabilize a dying creature or restore HP during a short rest, add +1 HP per use expended. Without a kit, you can't use the Medicine skill to restore HP during rests. With a kit and an hour at rest, a Strong (15+) Medicine check treats one lasting injury (a 4xx effect) on a creature under your care.],
     [*Holy Symbol*], [0], [A pendant, emblem, or reliquary that channels divine power. Needed for the full effect of a spell that names one.],
     [*Primal Focus*], [0], [A bundle of feathers, bone, or living wood that channels primal power. Needed for the full effect of a spell that names one.],
     [*Ink & Pen*], [0], [Write letters, copy maps, forge documents. The ink lasts for roughly 20 pages. The pen is a quill, replace it when the cat gets it.],
@@ -231,6 +231,29 @@ These are the small things that separate a prepared adventurer from a corpse. Th
 #callout(type: "note", title: "Starting Gear", body: [
 New heroes take their class's starting loadout (see @sec-chapter-classes) The DA may grant extra gear at campaign start.
 ])
+
+=== Primal Preparations
+#label("sec-primal-preparations")
+
+Some healing is neither miracle nor surgery. A herbalist gathers what grows nearby, brews it into something that keeps, and hands it to whoever needs it. A preparation is made during a respite, it keeps until it is used, and any character can apply one, caster or not.
+
+*Making one:* spend a respite gathering and brewing, then make a Standard (9-14) Survival or Nature check. A success yields one preparation from the table below; one check yields one preparation.
+
+#figure(
+  align(center)[#table(
+    columns: (25.00%, 10.00%, 65.00%),
+    align: (auto, auto, auto,),
+    table.header([Preparation], [Slots], [Notes],),
+    [*Styptic Poultice*], [0], [Stops one bleeding wound on a creature you touch for the rest of the encounter. The Medicine check under Deep Gash is what binds it for good.],
+    [*Bitter Tincture*], [0], [The drinker regains 2 HP at the start of each of their turns for 3 rounds, to a maximum of 6. A creature at 0 HP who receives it is stabilized.],
+    [*Bone-Knit Salve*], [0], [Rubbed into one lasting injury (a 4xx effect) and left to work over an hour's rest, it treats the injury. The patient must rest while it works.],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+*Applying one:* a Maneuver and a touch. You can hand a preparation to an ally, and they can apply it to themselves or to someone else.
 
 == Mounts & Vehicles
 
