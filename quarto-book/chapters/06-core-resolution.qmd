@@ -197,7 +197,7 @@ Fumbles are automatic failures on any roll where failure is possible. On an atta
     [2], [*Friendly Fire.* Nearest ally takes your attack's Weak damage. If no ally is within reach, the swing finds nothing but air.],
     [3], [*Off Balance.* The next Defense Roll you make has a Bane.],
     [4], [*Gear Damage.* A piece of gear fails. Your shield splinters and cannot be used to Shield Block until repaired, or your bowstring snaps and takes an action to restring.],
-    [5], [*Spell Backfire.* Take 2 force damage yourself, or if you're not casting, your arcane focus shatters or your weapon misfires. Magic is fickle.],
+    [5], [*Spell Backfire.* Take 4 force damage yourself, or if you're not casting, your arcane focus shatters or your weapon misfires. Magic is fickle.],
     [6], [*Narrative Twist.* The DA introduces an unexpected complication. Be creative.],
   )],
   caption: [Fumble Complications],
