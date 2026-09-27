@@ -689,6 +689,8 @@ a design question hides behind a single printed number.
 
 **Record correction.** Cycle 32's row and its plan section both wrote "ledger 205 rows"; the file holds **204**, and the monitor's own counter agreed with the file. The overcount is corrected in the scorecard rather than left to propagate.
 
+**The end-of-pass ledger sweep found three stale status cells, and they are the drift class the skill warns about.** Grepping for a status cell that names a work order while never saying LANDED returned six rows; three are decisions with no build (171, 180, 181, all rulings that change no number) and **three were genuine drift**: row 202 still read "FILED, dispatchable as written" two cycles after #722 landed, row 177 still read "Work order #685" after #685 closed in PR #688, and row 191 still read "filed and dispatched this cycle" after #710 closed in PR #711. All three now carry their evidence (PR number and squash sha). This is the second consecutive cycle in which the defect was in the ledger's own bookkeeping rather than the book, which is why the status cell must be updated in the same commit as the implementation.
+
 **State at cycle 33.** Book at `0f46c66`; **0 open issues, 0 open PRs**; one checkout, clean tree, no worktrees, no stray branches. Words **84,287** (+47); ledger **204** rows, none ruled-but-unbuilt; index calibration OK (75 = 75).
 
 **Next: the change-one-number pass.** It is now the only named item left on the plan, deferred by cycles 30, 31 and 32 behind live defects that no longer exist. It is the designer's form of an audit, needs no new corpus parse, and the queue behind it is empty.
