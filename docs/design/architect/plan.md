@@ -1463,7 +1463,7 @@ The queue emptied at `f7e5328` (0 issues, 0 PRs, ledger 227 with no unbuilt mark
   `175e940` (PR #794): 0 open PRs, 1 open issue (**#788 standing**, Bruce's three healing lanes),
   ledger 231 rows with no ruled-and-unbuilt mark, assessment 9 of 9. Priority 1 (the review) did not
   fire, because the queue was not empty; the act was the standing work order.
-- **#788 is dispatched** on `fix/788-three-healing-lanes`: seven changes, every added line pinned in
+- **#788 was dispatched and landed the same cycle** (`fix/788-three-healing-lanes`, PR #797, squash `7f8b9ca`, #788 closed with the audit attached): seven changes, every added line pinned in
   the spec (five new cards, three preparations, two maneuver rows, eleven field reconciliations, one
   kit clause, one intro sentence). Row 232 records the eight derived calls and their one-word
   reversals. The dispatch-readiness gate ran first: every card's numbers were computed here and are
@@ -1478,4 +1478,4 @@ The queue emptied at `f7e5328` (0 issues, 0 PRs, ledger 227 with no unbuilt mark
 - **Housekeeping:** the six stale branches from cycles 53 to 56 and #797 proved landed (`git cherry`
   reports no `+` and each has a merged PR) and were deleted; the remote held only `main`, so the
   cleanup was the stale tracking refs, pruned.
-- **Next:** audit and merge the #788 PR, then the review's largest open item.
+- **Next:** the review's largest open item, which no cycle has worked yet: price `19:53`'s rungs in Wound rolls, and make `18:23` say whether its pace describes one hero or a rotating party. Then the second half of the lane question the work order left standing: whether *every* primal spell should be focus-gated (the reconciliations settled the nine that were inconsistent with their own tradition; the taxonomy question behind them is still open).
