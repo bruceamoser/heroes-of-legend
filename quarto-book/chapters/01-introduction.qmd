@@ -153,7 +153,7 @@ _Kael grabs three dice. The table goes quiet. He shakes them in his hand, everyo
 
 _Kael rolls:_ "Four, three, five. That's twelve. My *Agility* is +2. Total is fourteen."
 
-*Morgan:* "Fourteen is Standard. Your shortsword's Standard damage is 2, plus your Agility: 4."
+*Morgan:* "Fourteen is Standard. Your shortsword's Standard damage is 2, plus your Agility (the Precision talent lets you use Agility in place of Brawn): 4."
 
 *Morgan:* "Crude leather armor. DR 2. That's 4, reduced to 2."
 
