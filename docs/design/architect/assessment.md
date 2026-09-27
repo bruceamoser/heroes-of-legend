@@ -206,7 +206,7 @@ what fails is that the book does not tell a player the price it is actually char
 | 1 | Core resolution | GOOD (two range notes) | 2026-09-26 |
 | 2 | The economy | OK (LEARNABLE fails; one class over-pool; 4 mislabelled structures) | 2026-09-26 |
 | 3 | Creation and progression | not assessed | |
-| 4 | Combat and action economy | **BAD (pacing).** An even fight, read from the book's own encounter rule, resolves in ~1 round at every tier; root cause is a premise mismatch between `19:53` and `20:659`. Re-assessed and re-costed cycle 5. | 2026-09-26 |
+| 4 | Combat and action economy | **BAD (pacing).** An even fight, read from the book's own encounter rule, resolves in ~1 round at every tier; root cause is a premise mismatch between `19:53` and `20:659`. Re-assessed and re-costed cycle 5. **Cycle 6: the repair is chosen and filed as #663** (per-hero encounter budget, one and a half creatures per hero); the encounter's challenge-point budget is the wrong instrument for duration, and the count is the right one. | 2026-09-26 |
 | 5 | Magic | not assessed | |
 | 6 | Social conflict | not assessed | |
 | 7 | Equipment | not assessed | |
@@ -346,3 +346,45 @@ band, subtract DR on both sides, measure the Standard encounter, report the othe
 Grit's real pool, and carry a **positive and a negative control** (`--selftest`: HP sized for exactly
 3.5 rounds must pass; the same HP cut to a quarter must fail and name every tier). Both controls
 behave. Exit 1 today.
+
+## Cycle 6 - the repair, and why the encounter BUDGET cannot be the instrument
+
+The pacing defect is not the encounter table's arithmetic. It is that the table's instrument, a pool
+of challenge points, has no fixed relationship to how long a fight lasts, and duration is the only
+thing ruling 165 constrains.
+
+An encounter's duration is **total monster HP divided by the party's damage per round**. Creature HP
+is roughly flat across the whole bestiary (avg 15.0-15.1 in every band) while Challenge runs from 1/2
+to 12, so the HP a challenge point buys collapses as the party levels - and minions are the worst of
+it, near a full creature's HP for half a point:
+
+| band | stat blocks | avg HP | HP per challenge point |
+|---|---|---|---|
+| Novice (C 1/2 - 2) | 24 | 15.1 | **15.78** |
+| Adept (C3-6) | 21 | 15.0 | **3.74** |
+| Master (C7-10) | 3 | 15.0 | **1.80** |
+
+(One further heading, the Ancient Dragon at C12, sits above the gate's Master band.) The printed
+budget (`19:53`, x2 party level) happens to yield a nearly constant **31.6 / 29.9 / 28.8 HP** of
+creature at those tiers, which is a coincidence of how the challenge scale is printed rather than a
+property of the rule, and it is about one round of a four-hero party's output. Because the HP yield
+per point moves 8.8x across the bands, no value of that multiplier holds the law at every tier: it is
+the wrong instrument, not a mis-set one. A second defect is in the same place: the budget does not
+know how many heroes are fighting, so a party of four and a party of six are handed the same points,
+and a sentence ("six or more heroes fight one step harder") is asked to cover what arithmetic should.
+
+The creature count is the instrument that works, because it is the HP. Six creatures (one and a half
+per hero for a party of four) land **3.79 / 3.15 / 2.88 rounds**, and they need 14.0 / 16.4 / 18.2 HP
+per monster against **15.1 / 14.8 / 15.0 printed**. Every stat block in ch20 is therefore already the
+right size for a Standard fight. Master wants seven (3.36 rounds) because the party's output grows
+1.31x across the career while monster HP is flat.
+
+**Decision (veto-revertible default, cycle 6):** the repair is lever 2, and it is specified as a
+per-hero budget - Easy x1, Standard x1.5, Hard x2, Deadly x3 party level, multiplied by the number of
+heroes - with the field size stated directly in the text: **about one and a half creatures per hero,
+six for a party of four, seven at Adept and Master.** No damage band, no stat block, no hero HP, no
+Grit and no DR number moves. Filed as **#663**; dispatch is still gated off, so the work order carries
+every number it needs and no agent has run it.
+
+**Evidence:** `scripts/rounds-to-resolve.py` lever-sizing table (N=2/4/6/8 per band, per-monster HP
+needed at each size) plus the bestiary grouped by challenge band from `origin/main` this cycle.
