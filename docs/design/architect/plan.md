@@ -1749,7 +1749,8 @@ the retired field, and the only instrument that also carried the retired LAW.
   section 2c. The 4-Wound retirement and the 5th-Wound kill are gone; `p_retire`/`retire` are gone and
   `p_wound_plateau` (the engine's own predicate) replaces them; the wound distribution gained a 7+ bucket and a `max`
   column, because the count is no longer a clock; the banner and assumption entries 8 and 9 state both.
-- **Measured (seed 20260927, N=2000, 4,788,000 combats, exit 0, 181.2s).** Standard, no healer, mean rounds
+- **Measured (seed 20260927, N=2000, 4,788,000 combats, exit 0, 181.2s).** Standard, no healer, light armour (the
+  seven archetype rows of 2c), mean rounds
   **4.00 / 3.70 / 3.61** at five creatures against **4.94 / 4.26 / 4.20** at six — and the retired arm reproduces
   #805's published 4.94 / 4.27 / 4.20 to 0.01, so the frame diagnosis is now a reproduction rather than an argument.
   **21 of 21 Standard cells sit inside ruling 165's 3-4 window** at the book's field; at six creatures every one of
