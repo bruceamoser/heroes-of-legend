@@ -308,7 +308,7 @@ Total: 8 DP. All spent.
 
 *Step 7, Class DP (12 DP):*
 
-- Loadout ranks: Armor rank 1 (2 DP, at your Adjacent rate)
+- Loadout ranks: Armor 1 (2 DP at your Adjacent rate)
 - Improvised Solution (Novice ability, 2 DP), the Odd's own Novice ability, no prereq
 - Thievery Novice (2 DP), locks and traps, and she always has an exit
 - Persuasion Novice (2 DP), she talks her way into places she shouldn't be
@@ -357,7 +357,7 @@ Total: 11 DP. All spent.
 
 *Class DP (12 DP):*
 
-- Loadout ranks: Melee rank 1 (4 DP, at your Opposed rate)
+- Loadout ranks: Melee 1 (4 DP at your Opposed rate)
 - Ember Lance (Novice spell, 2 DP), her first real spell
 - Burning Volley (Novice spell, 2 DP), for when they get too close
 - Arcane Feedback (Novice ability, 2 DP)
@@ -438,7 +438,7 @@ Total: 9 DP. All spent.
 
 *Class DP (12 DP):*
 
-- Loadout ranks: Armor rank 1 (4 DP, at your Opposed rate)
+- Loadout ranks: Armor 1 (4 DP at your Opposed rate)
 - Mending Touch (Novice spell, 2 DP)
 - Sanctuary (Novice spell, 2 DP)
 - Religion, rank 1 (1 DP, Home), the prayers her order taught her
@@ -478,7 +478,7 @@ Total: 8 DP. All spent.
 
 *Class DP (12 DP):*
 
-- Loadout ranks: Armor rank 1 (2 DP, at your Adjacent rate)
+- Loadout ranks: Armor 1 (2 DP at your Adjacent rate)
 - Rallying Cry (Novice ability, 2 DP)
 - Deception Novice (2 DP), war is deception, and a good captain knows every trick
 - Follow My Lead (Novice maneuver, 2 DP), an order lands harder than a blade
@@ -518,7 +518,7 @@ Total: 7 DP. All spent.
 
 *Class DP (12 DP):*
 
-- Loadout ranks: Armor rank 1 (4 DP, at your Opposed rate)
+- Loadout ranks: Armor 1 (4 DP at your Opposed rate)
 - Acrobatics Novice (2 DP), footwork is everything
 - Thievery Novice (2 DP), the same hands that feint can pick a lock
 - Perception Novice (2 DP), seeing the opening before it exists
@@ -557,7 +557,7 @@ Total: 8 DP. All spent.
 
 *Class DP (12 DP):*
 
-- Loadout ranks: Armor rank 1 (4 DP, at your Opposed rate)
+- Loadout ranks: Armor 1 (4 DP at your Opposed rate)
 - Sap (Novice ability, 2 DP), daze unaware targets
 - Perception Novice (2 DP, favored), she sees the guard before the guard sees her
 - Acrobatics Novice (2 DP, favored), out the window, over the wall, gone
@@ -597,7 +597,7 @@ Total: 9 DP. All spent.
 
 *Class DP (12 DP):*
 
-- Loadout ranks: Armor ranks 2 and 3 (6 DP, at your Home rate)
+- Loadout ranks: Armor 2 and 3 (6 DP at your Home rate)
 - Shield Bash (Novice ability, 2 DP), her shield puts them on the ground
 - Open the Guard (Novice maneuver, 2 DP), her axe opens what the shield then closes
 - Parry Novice (2 DP), her shield turns aside the blows she will not dodge
