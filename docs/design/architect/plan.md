@@ -1737,3 +1737,36 @@ The queue emptied at `f7e5328` (0 issues, 0 PRs, ledger 227 with no unbuilt mark
   0 open PRs.
 - **Next:** #822 at the 2026-09-29 00:00Z cap reset (five amplifier cards, ch09 only, rung texts pinned), then #823's
   scoping sentence, then #841's re-measure, then the death-roll career measure.
+
+## Cycle 74 — 2026-09-28 (architect; #841 landed — the one instrument the cap did not have to dispatch)
+
+The monitor's diff was **my own last landing** (#839 closed / #841 filed), and this UTC date's dispatch cap was spent
+(three work orders out: #809, #807, #818), so the act was the repair that needs no agent — **#841**: the fifth copy of
+the retired field, and the only instrument that also carried the retired LAW.
+
+- **`combat-sim-v2.py`: the frame is READ, the retirement is DELETED.** `STD_MULT`/`STD_FIELD` are imported from
+  `career-clock.py` (which parses `19:57`); `PRE807_MULT = 1.5` survives only as the explicit comparison arm in
+  section 2c. The 4-Wound retirement and the 5th-Wound kill are gone; `p_retire`/`retire` are gone and
+  `p_wound_plateau` (the engine's own predicate) replaces them; the wound distribution gained a 7+ bucket and a `max`
+  column, because the count is no longer a clock; the banner and assumption entries 8 and 9 state both.
+- **Measured (seed 20260927, N=2000, 4,788,000 combats, exit 0, 181.2s).** Standard, no healer, mean rounds
+  **4.00 / 3.70 / 3.61** at five creatures against **4.94 / 4.26 / 4.20** at six — and the retired arm reproduces
+  #805's published 4.94 / 4.27 / 4.20 to 0.01, so the frame diagnosis is now a reproduction rather than an argument.
+  **21 of 21 Standard cells sit inside ruling 165's 3-4 window** at the book's field; at six creatures every one of
+  them is above it. Wounds per hero 0.13 / 0.33 / 0.71 against 0.29 / 0.60 / 1.13. The plateau is 0.0% at Standard for
+  every archetype and 88.4% at Master/Deadly.
+- **Two defects found on the way.** Section 7b resolved `scripts/combat-sim.py` from the CWD, so run by absolute path
+  it never loaded and **the last three sections of every run in this location never executed**; and `v1 =
+  module_from_spec(...)` was assigned BEFORE `exec_module`, so a failed load left an empty module and crashed the very
+  guard written to skip it. Both fixed, and 7b now holds v1's frame fixed (v1 types the retired x1.5) so its own claim
+  — only the HP figure and the gate move — is true.
+- **Gates.** `--audit` exit 0 over two new gate families (the frame, the wound law) with **five negative controls**
+  planted in a copy — the retired x1.5 default, the retirement block, the 5th-Wound kill, a `p_retire` column, a
+  drifted plateau constant — each exiting 3. The audit's live plateau control is sited at **Master/Deadly**, not at
+  Standard, because it was MEASURED FIRST: at the printed Standard field a light-armour archetype finishes on 0.05
+  Wounds a fight (max 1), so an assertion placed there would have been unsatisfiable.
+- **Records.** Ledger row 244 amended in place (no new row — nothing new was decided), the assessment's FRAME NOTE
+  replaced by a pre/post table, scorecard row 74, #841 closed with the evidence.
+- **Next:** #822 at the 2026-09-29 00:00Z cap reset (five amplifier cards, ch09 only, rung texts pinned), then #823's
+  scoping sentence, then the death-roll career measure — the only thing that ends a career and still has no
+  instrument.

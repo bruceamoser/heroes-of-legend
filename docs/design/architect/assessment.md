@@ -1414,7 +1414,16 @@ one-line repair and a pointer to the tracked copy.
 | 7 | `06:71` says an attack takes a Challenge | real doc defect, one clause: `06:71`'s "same shape as swinging a sword at someone" describes the *roll shape*, and the worked examples plus `06:111` scope Challenge to the defence roll |
 | 8 | melee accuracy never improves | survives as printed at `07:114` (skill bonus does not enter the attack); attributes cap at +2 for both lanes, so *neither* lane scales accuracy, which is the sharper statement |
 
-**FRAME NOTE (cycle 73, 2026-09-28, #839 closed, #841 filed).** Rows 1-3 and the A/B in row 2 were measured in `combat-sim-v2.py`, whose DEFAULT frame is the **pre-#807 six-creature** one (`:137`, `DIFFICULTY_MULT = 1.5`); row 1's second frame ("the seven the prose prints") is not printed either; `19:57` prints ×1.25, i.e. **five** creatures for a party of four at every tier. The same instrument's shipped-field section 2c reads **3.60-4.00 rounds** at five, inside ruling 165's 3-4 window, so "Standard runs 5-6 rounds" is a six-creature result and does not survive at the book's own field. Rows 4-5 are frame-independent (they compare arms inside one frame). Every `P(retire)` figure in row 2 is also on a retired law: `combat-sim-v2.py:73`/`:540` still retires a hero at 4 Wounds, which #837 replaced with uncapped wounds (`13:455`, PR #840). #841 re-measures this table at the shipped frame with a pre/post column; until it lands, quote these rows with their frame attached.
+**FRAME NOTE (cycle 74, 2026-09-28, #841 closed).** Rows 1-3 and the A/B in row 2 were measured in `combat-sim-v2.py`, whose DEFAULT frame was the pre-#807 six-creature one. That is now fixed at the SOURCE rather than annotated: the instrument imports the Standard multiplier from `career-clock.py`, which parses it off `19:57` (x1.25 = five creatures for a party of four at every tier), and every `P(retire)` column is gone, replaced by `p_wound_plateau` (finishes carrying 4+ Wounds, not dead), because #837 removed the four-Wound ceiling the old columns measured. Re-measured on the same seed and sample (20260927, N=2000, 4,788,000 combats), no healer, Standard:
+
+| cell (no healer, Standard) | retired frame (six) | the book's frame (five) |
+|---|---|---|
+| mean rounds, Novice | 4.94 | **4.00** |
+| mean rounds, Adept | 4.26 | **3.70** |
+| mean rounds, Master | 4.20 | **3.61** |
+| Wounds/hero, Nv / Ad / Ms | 0.29 / 0.60 / 1.13 | **0.13 / 0.33 / 0.71** |
+| Standard cells inside ruling 165's 3-4 window | 0 of 21 | **21 of 21** |
+The retired arm reproduces #805's published 4.94 / 4.27 / 4.20 to 0.01, which is what turns the frame diagnosis from an argument into a reproduction: **"Standard runs 5-6 rounds" is a six-creature result and does not survive at the book's own field, where the pacing law PASSES 21 cells of 21.** Row 2's `P(retire)` figures are on a retired law as well; the plateau is 0.0% at the printed Standard field for every archetype (max 1-4 Wounds) and reaches 88.4% at Master/Deadly, so an uncapped count is visible at the Deadly rung and nowhere else. Rows 4-5 are frame-independent (they compare arms inside one frame). Any figure quoted from an earlier run of `combat-sim-v2.py` carries the six-creature frame with it.
 
 ### The pacing law, and why my own gate said PASS
 
