@@ -362,7 +362,7 @@ HP 11, DR 2 (chitin). Attributes: Agility +2, Brawn -1, others +0.
 
 *Bite:* 4/6/8 piercing.
 
-*Rusting Antennae:* as an action, the rust monster touches a metal weapon or suit of armor. Metal armor permanently loses 1 DR (to a minimum of 0). Metal weapons permanently deal damage one tier lower (to a minimum of Weak). If an item's DR or damage is reduced to its minimum, the item is destroyed. Non-metal items are unaffected.
+*Rusting Antennae:* as an action, the rust monster touches a metal weapon or suit of armor. A metal armor card permanently loses 1 DR (to a minimum of 0). Metal weapons permanently deal damage one tier lower (to a minimum of Weak). If a card's DR or a weapon's damage is reduced to its minimum, the item is destroyed. Non-metal items are unaffected.
 
 *Scent Metal:* the rust monster can detect the presence of metal within 60 ft.
 

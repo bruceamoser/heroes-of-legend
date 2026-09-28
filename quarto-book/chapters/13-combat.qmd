@@ -106,7 +106,7 @@ Roll 3d6 + modifiers. The total determines your damage tier:
 
 That's one roll. No separate damage dice. No "did I hit?" anxiety. Roll once, read the damage, move on.
 
-Damage Reduction (DR) subtracts from the damage a hit does, but a hit always lands for at least 1 damage. Your DR is the highest of your armor's DR and any talent or ward that grants DR, and your tier caps the total. A shield grants no DR: it grants a Boon on the Defense Roll through the Shield Block reaction, which applies it to one attack per round (@sec-chapter-armor-shields) Armor makes the blow land softer, not miss.
+Damage Reduction (DR) subtracts from the damage a hit does, but a hit always lands for at least 1 damage. Your DR is the highest of your armor card's DR and any talent or ward that grants DR, and your tier caps the total. A shield grants no DR: it grants a Boon on the Defense Roll through the Shield Block reaction, which applies it to one attack per round (@sec-chapter-armor-shields) Armor makes the blow land softer, not miss.
 
 #callout(type: "note", title: "Why Always-Hit?", body: [
 
@@ -503,7 +503,7 @@ Kael sees the Knight advancing on Roric. He moves 15 ft to flank, drawing his sh
 
 "I attack the Knight."
 
-Rolls 3d6 + Brawn (+1). Rolls 5, 4, 5 = 14 + 1 = 15. *Strong.* His Basic Melee card deals 3 on Strong, plus Brawn +1 = 4. Knight's plate armor: DR 3. 4 − 3 = 1 damage. The blade finds a gap at the Knight's gorget, a thin line of blood. Not a killing blow, but the Knight knows Kael can hurt him.
+Rolls 3d6 + Brawn (+1). Rolls 5, 4, 5 = 14 + 1 = 15. *Strong.* His Basic Melee card deals 3 on Strong, plus Brawn +1 = 4. The knight's heavy armor card: DR 3. 4 − 3 = 1 damage. The blade finds a gap at the Knight's gorget, a thin line of blood. Not a killing blow, but the Knight knows Kael can hurt him.
 
 Kael keeps his *Reaction* ready. His *Riposte* weapon maneuver (2 Melee) lets him spend his Reaction to counterattack when an enemy deals Weak damage to him.
 
@@ -529,7 +529,7 @@ Roric has been waiting. The Knight is focused on Kael. The cultists are clustere
 
 "I move to engage the Knight. Attack with my warhammer."
 
-Rolls 3d6 + Brawn (+2). Rolls 3, 3, 2 = 8 + 2 = 10. *Standard.* His Basic Melee card deals 2 on Standard, plus Brawn +2 = 4. Knight's armor: DR 3. 4 − 3 = 1 damage. The hammer rings off the Knight's breastplate, but the force behind it still draws a grunt. Roric's not done.
+Rolls 3d6 + Brawn (+2). Rolls 3, 3, 2 = 8 + 2 = 10. *Standard.* His Basic Melee card deals 2 on Standard, plus Brawn +2 = 4. The knight's armor card: DR 3. 4 − 3 = 1 damage. The hammer rings off the Knight's breastplate, but the force behind it still draws a grunt. Roric's not done.
 
 Roric steps in, warhammer raised, and lays into the Knight. "You're outmatched. Drop it." The DA calls for a Morale Check. Lyra rolls for the Knight: 3d6. Rolls 4, 2, 3 = 9. *Standard.* The Knight wavers, a Bane on his next attack.
 

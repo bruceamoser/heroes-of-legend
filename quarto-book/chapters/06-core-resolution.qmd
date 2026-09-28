@@ -107,7 +107,7 @@ When an NPC or monster attacks your hero, you make a *Defense Roll*. Which formu
 - *Agility* is your reaction speed, your footwork, your instinct to duck.
 - *Dodge* lets you get out of the way. It adds your Dodge rank to your Agility.
 - *Parry* lets you block with a weapon or shield, which requires one in hand. It adds your Parry rank to your Brawn. A shield enables Parry and Shield Block, but the shield itself adds nothing to the Parry roll: the Boon comes from Shield Block, the reaction that uses it.
-- *Armor and shields* do not add to this roll. Your Damage Reduction (DR) is the highest of your armor's DR and any talent or ward that grants DR. A shield grants no DR: it grants a Boon on the Defense Roll through the Shield Block reaction, which applies it to one attack per round. See @sec-chapter-armor-shields
+- *Armor and shields* do not add to this roll. Your Damage Reduction (DR) is the highest of your armor card's DR and any talent or ward that grants DR. A shield grants no DR: it grants a Boon on the Defense Roll through the Shield Block reaction, which applies it to one attack per round. See @sec-chapter-armor-shields
 - *Challenge* is a penalty the DA applies. A goblin might be −1 (barely a threat). A dragon might be −6 (good luck). The DA tells you the number before you roll. A monster's stat block prints this same number as a positive rating, so the Challenge 3 knight imposes −3 on your roll. A Challenge ½ creature, the minion tier, imposes −1, the same as a Challenge 1 creature. A monster above Challenge 6 still imposes −6. An ancient dragon is not harder to dodge than a stone giant because of its rating. It is harder because it deals 7/10/14 and attacks four times a turn. The rating stops at −6 so the roll stays a roll.
 
 === Reading the Defense Result
@@ -145,13 +145,13 @@ A goblin lunges at Kael with a rusty scimitar. The DA says: "The goblin's attack
 
 Kael has Agility +2. He rolls 3d6 + 2 (Agility) − 1 (goblin's Challenge) = 3d6 + 1.
 
-He rolls 4, 3, 5 = 12, then adds +1 = 13. *Standard.* The goblin's Standard damage is 6. Kael's armor (DR 1) reduces it to 5. The goblin's blade scrapes across his ribs: painful, but not dangerous.
+He rolls 4, 3, 5 = 12, then adds +1 = 13. *Standard.* The goblin's Standard damage is 6. Kael's armor card grants DR 1, which reduces it to 5. The goblin's blade scrapes across his ribs: painful, but not dangerous.
 
 Kael has no defensive skill in this example, so he uses the baseline formula. Had he trained Dodge, he could have rolled Agility + Dodge rank; with Parry and a weapon or shield in hand, he could have rolled Brawn + Parry rank.
 
 Later, a Knight of the Iron Circle attacks Kael. "Challenge −3," the DA says. Kael rolls 3d6 + 2 − 3 = 3d6 − 1. He rolls 2, 3, 2 = 7 − 1 = 6. *Weak.* The Knight's Strong damage is 11. Kael's armor reduces it to 10. That one hurt.
 
-If Kael had trained the Armor Discipline and worn heavy steel (DR 3), the Knight's Strong damage of 11 would have been cut to 8. Armor never adds to your Defense Roll. It reduces whatever damage the roll lets through.
+If Kael had trained the Armor Discipline and worn the heavy armor card (DR 3), the Knight's Strong damage of 11 would have been cut to 8. Armor never adds to your Defense Roll. It reduces whatever damage the roll lets through.
 
 #pagebreak()
 == Critical Hits (Three Natural 6s)
