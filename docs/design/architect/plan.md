@@ -1994,3 +1994,26 @@ the retired field, and the only instrument that also carried the retired LAW.
 **Housekeeping.** #808 closed: its ruling is fully landed by #809 and verified this cycle at three sites (`02:221`, `21:73`, the nine class entries). No worktree created, no branch left behind, the scratch probe and prompt files removed. No chapter file changed this cycle, so no book build was owed (last build 409 pages at `535e9db`).
 
 **Next:** unchanged — at the 2026-09-29 00:00Z reset, **#822** + **#852** (ch15, the core) + **#853** (ch08); then **#854 + #863** as one branch (ch05), then #855/#856; then #857/#858, and #860 after #822 because both touch ch09.
+
+### Cycle 79b — A CONCURRENT WRITER IS LIVE IN THE #851 WAVE. Check before dispatching.
+
+Found during the end-of-pass housekeeping sweep, and it changes the "Next" line above.
+
+**Three `opencode` agents were dispatched from outside this cycle at 11:46:59-11:48:16 EDT, minutes before this sweep**, each in its own scratch worktree on a fresh branch off `6c70ea8`:
+
+| Worktree | Branch | What it is running |
+|---|---|---|
+| `/tmp/hol-wt-law` | `hol/law` | **The #851 wave itself** — its `.task-spec.md` reads issues #851-#858 in order, i.e. the same seven per-file orders this plan gated in cycle 78 |
+| `/tmp/hol-wt-shields` | `hol/shields` | A second cluster (spec in its `.task-spec.md`) |
+| `/tmp/hol-wt-sim` | `hol/sim` | A third cluster (spec in its `.task-spec.md`) |
+
+**Their in-flight state, read-only at sweep time:**
+- `hol-wt-law` held **9 modified chapter files** (02, 05, 08, 09, 13, 15, 21, 22) — net **-219 lines**, and the ch15 diff is the **amended** design, not the superseded one: the weapon table already reads `[Slot], [Examples]`, `weapon:one-hand` carries `None`, and the eight slot rows include *Light one-handed melee*, *Reach* and *Thrown*. So whoever dispatched it has cycle 78b's amendment.
+- All three branches sit at `6c70ea8` with **0 unique commits**: the work is uncommitted and exists on no branch yet.
+- Two of the three (`hol/law`, `hol/sim`) were still running at the sweep; no process was using `hol/shields`.
+
+**Do not remove these worktrees, and do not re-dispatch the wave blind.** Two rules follow:
+1. **Before the next dispatch window, check `git worktree list` and `pgrep -af "opencode run"` first.** If a cluster in this list is still running, its orders are spoken for; dispatching #852-#858 again duplicates it and collides at merge.
+2. **If an agent has died, its worktree is recoverable, not failed** (the same rule as a dead FINISH sequence): the edits are on disk in `/tmp/hol-wt-law`. Commit them there, run the build and the acceptance list from the order bodies, open the PR, audit, merge — rather than starting over.
+
+**This is the second time this cycle's plan met a concurrent writer** (cycle 78b's amendment arrived mid-gate). The book has more than one actor with a hand on it; a plan's "Next" line is a hypothesis about the board, not a fact, until the board is read at dispatch time.
