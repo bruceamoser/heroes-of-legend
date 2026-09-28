@@ -248,7 +248,7 @@ The Bane sits on the attack, so on your Defense roll it is a Boon: half cover is
 + *Background DP:* 8 + Knowledge + Fortitude. Spend all on Novice skills and abilities.
 + *Class:* Choose class. Record Class Discipline and signature ability.
 + *Class DP:* 12 DP at level 1: 8 DP of class training plus the 4 DP every hero gains at level 1, per @sec-chapter-advancement Spend all on Novice skills and abilities.
-+ *Equipment:* Take your class's starting loadout (see @sec-chapter-classes) Record weapon slots and armor slots; your Damage Reduction is the highest of your armor's DR (1 light, 2 medium, 3 heavy) and any talent or ward that grants DR. A shield grants no DR: the Shield Block reaction grants a Boon on your Defense Roll, one attack per round.
++ *Equipment:* Take your class's starting loadout (see @sec-chapter-classes) Record weapon slots and armor slots; your Damage Reduction is the highest of your armor card's DR (1 light, 2 medium, 3 heavy) and any talent or ward that grants DR. A shield grants no DR: the Shield Block reaction grants a Boon on your Defense Roll, one attack per round.
 + *Derived Stats:* HP, Grit, Initiative, Movement, Carry Slots.
 + *Backstory:* Motivation, Trinket, Name.
 
@@ -346,13 +346,15 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 == Common Item Reference
 
 #figure(align(center)[#table(
-  columns: (30.00%, 25.00%, 15.00%, 30.00%),
-  align: (auto, auto, auto, auto,),
-  table.header([Armor], [Requirement], [DR], [Slots],),
-  [Light], [1 Armor], [1], [2],
-  [Medium], [2 Armor], [2], [2 or 3],
-  [Heavy], [3 Armor], [3], [3 or 4],
+  columns: (40.00%, 30.00%, 30.00%),
+  align: (auto, auto, auto,),
+  table.header([Armor], [Requirement], [Slots],),
+  [Light], [1 Armor], [2],
+  [Medium], [2 Armor], [2 or 3],
+  [Heavy], [3 Armor], [3 or 4],
 )], kind: table, numbering: none, outlined: false)
+
+The card carries the DR: see @sec-chapter-armor-shields
 
 #figure(align(center)[#table(
   columns: (32.00%, 10.00%, 8.00%, 50.00%),
@@ -361,7 +363,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   [Any shield: buckler, targe, heater, kite, tower, a door], [None], [1], [Parry and Shield Block; Shield Block grants a Boon on your Defense Roll],
 )], kind: table, numbering: none, outlined: false)
 
-*Your Damage Reduction is the highest of your armor, a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A shield grants no DR: the Shield Block reaction grants a Boon on your Defense Roll, one attack per round.* See @sec-chapter-armor-shields
+*Your Damage Reduction is the highest of your armor card, a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A shield grants no DR: the Shield Block reaction grants a Boon on your Defense Roll, one attack per round.* See @sec-chapter-armor-shields
 
 #figure(align(center)[#table(
   columns: (30.00%, 70.00%),
@@ -378,7 +380,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 
 *The weapon never changes your damage. For what a range of two numbers means, see @sec-chapter-talents-abilities For weapons in full, see @sec-chapter-equipment*
 
-*Defense summary:* Your Damage Reduction (DR) is the highest of your armor's DR (1 light, 2 medium, 3 heavy), a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A shield grants no DR: the Shield Block reaction grants a Boon on your Defense Roll, one attack per round. Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields enable the Parry skill and the Shield Block reaction.
+*Defense summary:* Your Damage Reduction (DR) is the highest of your armor card's DR (1 light, 2 medium, 3 heavy), a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A shield grants no DR: the Shield Block reaction grants a Boon on your Defense Roll, one attack per round. Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields enable the Parry skill and the Shield Block reaction.
 
 #figure(align(center)[#table(
   columns: (68.42%, 31.58%),
