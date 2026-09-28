@@ -1873,3 +1873,6 @@ the retired field, and the only instrument that also carried the retired LAW.
   answers the moment and never says when the moment is. One clause there is the whole edit; it is INTENT and
   therefore Bruce's, and the measured curve is the evidence for it.
 
+**Housekeeping (this cycle's own).** No worktree was created (the work was an instrument and its records); the
+  branch was deleted by the merge and three stale remote-tracking refs pruned (origin/docs/cycle-75b, origin/docs/cycle-76-heal-trigger, origin/fix/18-price-death-roll-career). The ledger sweep for rows whose STATUS still reads open returns **0 of 245**, and all six open issues (#802, #805, #808, #822, #823, #844) are live. `/tmp` bodies and the scratch dir are gone; the scratch `rm` was guard-blocked and the 72h prune covers it. **Named debt:** the skill's instruments - the one this cycle edited included - live only under `~/.hermes/skills/ttrpg/heroes-of-legend-pipeline/scripts/`, in no git history, while `winston-ops/ops/skills/` is empty; versioning them is the next housekeeping act.
+
