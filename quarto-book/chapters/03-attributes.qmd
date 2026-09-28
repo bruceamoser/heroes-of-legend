@@ -75,7 +75,31 @@ At levels 4 and 8, you may increase one attribute by +1 (up to the +2 maximum). 
 
 == What Your Attributes Give You
 
-*Health Points at Level 1:* 10 + Fortitude + Knowledge. This is your staying power, how many hits you can take before you go down. A dwarf with Fortitude +2 and Knowledge +0 starts with 14 HP (10 base + 2 Fortitude + 2 Sturdy). A slight fae-touched wanderer with Fortitude -1 and Knowledge +0 starts with 9 HP. Fortitude is your body's durability; Knowledge is the education that helped you survive your early years. Your Health Points do not increase with level. What grows is your Grit, the number of times you can be dropped and get back up.
+*Health Points at Level 1:* 10 + Fortitude + your class's *Health attribute*. This is your staying power, how many hits you can take before you go down. A dwarf Protector with Fortitude +2 and Brawn +2 starts with 16 HP (10 base + 2 Fortitude + 2 Brawn + 2 Sturdy). A slight fae-touched Arcanist with Fortitude -1 and Knowledge +0 starts with 9 HP. Fortitude is your body's durability, and your class's Health attribute is the part of you the class trained. Your Health Points do not increase with level. What grows is your Grit, the number of times you can be dropped and get back up.
+
+Your class names one of the six attributes, and it adds to Fortitude:
+
+#figure(
+  align(center)[#table(
+    columns: (50%, 50%),
+    align: (auto, auto,),
+    table.header([Class], [Health attribute],),
+    [*Protector*], [Brawn],
+    [*Blade*], [Agility],
+    [*Arcanist*], [Knowledge],
+    [*Shepherd*], [Reason],
+    [*Intellect*], [Knowledge],
+    [*Odd*], [Any one of your choice, fixed at creation],
+    [*Leader*], [Guile],
+    [*Unbalanced*], [Brawn],
+    [*Shadow*], [Guile],
+  )],
+  caption: [Table 3.1: Class Health Attributes],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+#label("tbl-class-health")
 
 *Initiative:* 3d6 + your Agility modifier. Quick people go first. That's not a rule of the game, that's a rule of the universe.
 
@@ -89,15 +113,15 @@ At levels 4 and 8, you may increase one attribute by +1 (up to the +2 maximum). 
 
 *Brawn (BR):* This is the "lift the portcullis, bend the bars, arm-wrestle the ogre" attribute. When you swing a melee weapon, Brawn pushes your 3d6 roll toward the Strong tier, and it adds directly to the damage you deal: a stronger fighter lands the telling blow, and that blow hurts more. Brawn also determines how much you can carry and how far you can throw things. Like goblins. Or allies.
 
-*Fortitude (FO):* Your body's refusal to quit. Fortitude sets your Health Points, helps you shake off poison, and keeps you upright when the blizzard hits. It's the attribute you don't think about until you need it, and then it's the only one that matters. A hero with Fortitude +2 can drink the dwarven ale that puts everyone else under the table.
+*Fortitude (FO):* Your body's refusal to quit. Fortitude is the base of your Health Points, and your class adds one more attribute to them. It helps you shake off poison, and it keeps you upright when the blizzard hits. It's the attribute you don't think about until you need it, and then it's the only one that matters. A hero with Fortitude +2 can drink the dwarven ale that puts everyone else under the table.
 
 *Agility (AG):* Speed, grace, precision. Agility gets you up the wall, through the window, and out the other side before the guards finish their card game. It governs ranged combat, stealth, lockpicking, and acrobatics. It also determines who acts first when swords come out. High Agility heroes dance through fights; low Agility heroes wade through them.
 
 *Guile (GU):* The art of winning without fighting. Guile covers deception, persuasion, and every variety of social maneuvering. It's the difference between "Let me in" and "I'm the health inspector, you really want to open this door." A hero with Guile +2 doesn't need to draw their weapon because they already convinced you to put yours down.
 
-*Knowledge (KN):* What you know. Ancient history, arcane theory, monster weaknesses, noble lineages, the trade in saffron across three different ports. Knowledge is the scholar's attribute and the engine behind arcane spellcasting. It governs lore, investigation, and identifying creatures. It also helps determine your starting Health Points and your early-life Development Points. Smart heroes live longer.
+*Knowledge (KN):* What you know. Ancient history, arcane theory, monster weaknesses, noble lineages, the trade in saffron across three different ports. Knowledge is the scholar's attribute and the engine behind arcane spellcasting. It governs lore, investigation, and identifying creatures. It also determines your early-life Development Points, and it is the *Health attribute* of the Arcanist and the Intellect. Smart heroes live longer.
 
-*Reason (RE):* What you _do_ with what you know. Reason is the engine behind divine spellcasting, alchemy, crafting, and puzzle-solving. Knowledge tells you that trolls fear fire; Reason tells you how to make some. A shepherd with Reason +2 doesn't just channel divine power, they understand _why_ the gods listen, which makes them devastatingly effective.
+*Reason (RE):* What you _do_ with what you know. Reason is the engine behind divine spellcasting, alchemy, crafting, and puzzle-solving. Knowledge tells you that trolls fear fire; Reason tells you how to make some. Reason is the *Health attribute* of the Shepherd. A shepherd with Reason +2 doesn't just channel divine power, they understand _why_ the gods listen, which makes them devastatingly effective.
 
 #callout(type: "note", title: "Attributes Are Your Story", body: [
 Your attribute spread isn't just numbers, it's the first sentence of your hero's biography. Brawn +2, Knowledge -1? You grew up working, not reading. Guile +2, Fortitude -1? You survived on wit, not toughness. Every combination suggests a different life. Lean into it. The mechanics will follow.

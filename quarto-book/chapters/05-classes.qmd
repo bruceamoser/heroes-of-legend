@@ -42,6 +42,8 @@ Your class gives you a Discipline, a signature ability, and cheaper access to ce
 
 For the full skill list, see @sec-chapter-skills
 
+A class also names its *Health attribute*, the second attribute in its Health Points (see @tbl-class-health).
+
 Each class entry lists a *Starting Loadout*: the gear your hero carries at level 1, and the Discipline ranks that gear requires. Ranks your class, ancestry, or culture already grant cost nothing, so the DP figure in a loadout line is what its remaining ranks cost at your class's rates, paid from the same Development Points that buy your cards.
 
 Four of the nine loadouts carry a second weapon. That second weapon is free fiction outside the cards: it is gear you carry, not a card you buy, so it never adds a card or a cost beyond the ranks its loadout line already lists. Fighting with two weapons is still one Attack action (see @sec-chapter-combat)
@@ -55,6 +57,8 @@ _"Stand behind me."_
 The Protector stands at the vanguard, using body and armor as a shield for those in their care. You are the anchor, built on Brawn and Fortitude, trained to absorb blows that would fell lesser heroes. Your pride is not in the enemies you slay but in the allies who walk away unharmed because you stood in the gap. You pursue ever-better ways to fortify your resilience while keeping the ability to strike back when needed.
 
 *Class Discipline (L1):* Armor (1) + Shields (1)
+
+*Health Points:* 10 + Fortitude + Brawn.
 
 *Signature, Bastion:* Spend your movement to enter a defensive stance. Add +1 to your Protection Value for the round.
 
@@ -100,6 +104,8 @@ _"Strike once. Strike true. Strike last."_
 The Blade masters the art of grace and precision, favoring the swift elegance of light blades. Your expertise lies in meticulously placed stabs, exploiting vulnerabilities with the sharpness and agility of your weapons. Keyed to Guile, you weave through the battlefield, striking with calculated precision, each strike as effective as it is lethal. You are the shadow on the wall, the final face your enemies see.
 
 *Class Discipline (L1):* Melee (1) + Stealth (1)
+
+*Health Points:* 10 + Fortitude + Agility.
 
 *Signature, Swift Blade:* You gain the Precision talent for free. When you exploit an opening (a target that is Dazed, Prone, or unaware of you), the attack deals +1 damage tier. Once per scene.
 
@@ -153,6 +159,8 @@ The Arcanist delves into the mysteries of arcane energies, mastering their manip
 
 *Class Discipline (L1):* Energy (1) + Fire (1)
 
+*Health Points:* 10 + Fortitude + Knowledge.
+
 *Signature, Arcane Shield:* As a free action, raise a protective ward that gives +1 to your Protection Value for the round. Once per round.
 
 *Favored Skills:* Alchemy, Arcana, History, Lore, Nature
@@ -197,6 +205,8 @@ _"The light guides my hand."_
 The Shepherd stands as a beacon of guidance, providing moral direction and harnessing divine energies to aid allies. Your path is one of enlightenment, using a deep connection to the divine to inspire and protect those around you. Through word and deed, you channel power into abilities that heal, shield, and uplift your companions. Keyed to Reason, your wisdom discerns the right course in the murkiest of situations, offering light in darkness. You also stand as a bulwark against the undead, creatures that have slipped beyond death's reach fear your presence.
 
 *Class Discipline (L1):* Protection (1) + Animal (1)
+
+*Health Points:* 10 + Fortitude + Reason.
 
 *Signature, Unholy Word:* Call down divine energy that ignores armor and affects only undead creatures within your presence. Your faith burns what should not walk.
 
@@ -243,6 +253,8 @@ The Intellect embodies cerebral prowess and scholarly mastery. Your path is a re
 
 *Class Discipline (L1):* Any one (1) + Lore (1)
 
+*Health Points:* 10 + Fortitude + Knowledge.
+
 *Signature, Knowledge Is Power:* Gain a Boon on all Knowledge-based skill checks.
 
 *Favored Skills:* History, Lore, Medicine, Arcana, Perception
@@ -287,6 +299,8 @@ _"I have a trick for that."_
 The Odd embodies eccentricity and peculiarity. With a demeanor that dances on the edge of madness and a style that defies convention, you bring chaos and unpredictability to every encounter. Keyed to Guile, your appearance is striking: mismatched clothing, bizarre accessories, an unusual hairstyle. In battle, you are a whirlwind of unorthodox tactics: spells with unconventional gestures, bizarre weapons wielded with deadly precision, strange powers that defy explanation. Your adversaries never know what to expect. Sometimes, neither do you.
 
 *Class Discipline (L1):* Any one, different category (1) + 1 any, different category.
+
+*Health Points:* 10 + Fortitude + one attribute of your choice, fixed when you create your hero.
 
 *Signature, Eccentric Spellcasting:* Choose one arcane ability and one divine ability. You ignore prerequisite Disciplines for these two (level requirements still apply). You need no arcane focus or holy symbol.
 
@@ -336,6 +350,8 @@ _"Together, we are unstoppable."_
 The Leader is a beacon of courage on the battlefield, leading from the front lines with valor and resolve. Keyed to Reason, your stirring speeches and tactical acumen rally allies to action, instilling confidence even in the face of adversity. Beyond command, you serve as mentor and confidant, recognizing and nurturing the potential within each member of your group. Driven by a clear vision and unwavering commitment, you guide your companions toward a brighter future. In your presence, unity flourishes.
 
 *Class Discipline (L1):* Tactics (1) + Shields (1). The Leader is a hybrid: your command draws on the martial discipline of Shields and the ward school of Protection, and you buy both at the rates printed on your sheet.
+
+*Health Points:* 10 + Fortitude + Guile.
 
 *Signature, Lead by Example:* When you land a telling blow on an enemy, grant one ally who witnessed it a Boon on their next roll. Your actions inspire greatness in others.
 
@@ -388,6 +404,8 @@ _"Power has a price. I'm willing to pay."_
 The Unbalanced is a wild card, embodying chaos and unpredictability in every action. Your demeanor is marked by erratic energy, veering between bouts of laughter and brooding intensity. Behind your unpredictable facade lies a mind that operates on its own unique wavelength, calculating the odds even as you appear to embrace madness. In battle, you unleash pent-up frenzy with ferocious abandon, your fighting style, as unpredictable as your personality. You thrive on the chaos of combat, reveling in the uncertainty of the fray.
 
 *Class Discipline (L1):* Any Elemental (1) + 1 opposing Elemental (1)
+
+*Health Points:* 10 + Fortitude + Brawn.
 
 *Signature, Edge of Chaos:* On a Strong hit, deal +1 damage tier (one row up on the damage budget) but roll on the d6 Backlash Table below.
 
@@ -458,6 +476,8 @@ _"You never saw me."_
 The Shadow is the ghost in the room, the whisper no one heard, the hand that lifts a key from a guard's belt while the guard is still wearing it. Where the Blade wins by stabbing first, the Shadow wins by never being seen at all. You are keyed to Agility and Guile in equal measure, a creature of silence and misdirection. Doors open for you. Traps disarm themselves at your touch. Identities are costumes you wear and discard. Your fighting style is dirty, fast, and never, ever fair. If the fight is fair, you've already made two mistakes, and you're already gone.
 
 *Class Discipline (L1):* Stealth (1) + Sleight (1)
+
+*Health Points:* 10 + Fortitude + Guile.
 
 *Signature, Vanish:* As a maneuver, you may attempt to disappear from sight. Make a Stealth check. On a Standard or better result, you become invisible until the end of your next turn or until you attack. On Weak, you are Hidden instead. This is not magic; this is being very good at not being noticed.
 

@@ -70,7 +70,9 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Wildcard Rank:* A single rank held by the Odd that stands in for any one Discipline. It is never assigned, it satisfies one requirement of one rank at a time, it never advances, and it costs no Development Points. See @sec-chapter-classes
 
-*HP (Health Points):* How much damage you can take before falling unconscious. Starting HP = 10 + Fortitude + Knowledge. Your HP does not increase with level; your Grit does.
+*HP (Health Points):* How much damage you can take before falling unconscious. Starting HP = 10 + Fortitude + your class's *Health attribute* (see @tbl-class-health). Your HP does not increase with level; your Grit does.
+
+*Health attribute:* The one attribute your class adds to Fortitude for Health Points: Brawn for the Protector and the Unbalanced, Agility for the Blade, Guile for the Shadow and the Leader, Knowledge for the Arcanist and the Intellect, Reason for the Shepherd, and any one of your choice for the Odd. See @tbl-class-health.
 
 *Encumbrance:* The slot system for the gear you carry. Slots are Carry Slots; one container at a time is exempt from them, and containers cannot be nested inside one another. See *Carry Slots*.
 
