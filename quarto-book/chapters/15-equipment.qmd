@@ -24,9 +24,9 @@ Every card that asks for gear names a tag in its Requires field. Here is every t
     align: (auto, auto, auto,),
     table.header([Tag], [Rank], [What it gates],),
     [`weapon:unarmed`], [None], [Bare hands, gauntlets, and grapples],
-    [`weapon:one-hand`], [1 Melee], [A one-handed weapon in your hand],
-    [`weapon:two-hand`], [1 Two-Handed], [A greatsword, maul, halberd, or other weapon held in both hands],
-    [`weapon:ranged`], [1 Ranged], [A bow, crossbow, or thrown weapon in hand],
+    [`weapon:one-hand`], [None], [A one-handed weapon in your hand],
+    [`weapon:two-hand`], [None], [A greatsword, maul, halberd, or other weapon held in both hands],
+    [`weapon:ranged`], [None], [A bow, crossbow, or thrown weapon in hand],
     [`shield`], [1 Shields], [A shield on your arm],
     [`focus:arcane`], [None], [A wand, staff, or orb, held for the spell's full effect],
     [`focus:holy`], [None], [A holy symbol, held for the spell's full effect],
@@ -85,26 +85,16 @@ Pick the weapon that fits your hero, not the one that looks best on paper. They 
 
 #figure(
   align(center)[#table(
-    columns: (20.00%, 20.00%, 45.10%, 14.90%),
-    align: (auto, auto, auto, auto,),
-    table.header([Weapon], [Category], [Properties], [Range],),
-    [Unarmed], [Unarmed], [], [],
-    [Dagger], [Melee], [Light, Thrown], [20/60 ft (thrown)],
-    [Shortsword], [Melee], [Light], [],
-    [Longsword], [Melee], [Versatile], [],
-    [Greatsword], [Two-Handed], [], [],
-    [Handaxe], [Melee], [Light, Thrown], [20/60 ft (thrown)],
-    [Battleaxe], [Melee], [], [],
-    [Greataxe], [Two-Handed], [], [],
-    [Mace], [Melee], [], [],
-    [Warhammer], [Melee], [], [],
-    [Maul], [Two-Handed], [], [],
-    [Spear], [Two-Handed], [Reach, Thrown, Two-Handed], [20/60 ft (thrown)],
-    [Halberd], [Two-Handed], [Reach, Two-Handed], [],
-    [Throwing Dagger], [Ranged], [Thrown], [20/60 ft (thrown)],
-    [Shortbow], [Ranged], [Two-Handed], [60/120 ft],
-    [Longbow], [Ranged], [Two-Handed], [100/200 ft],
-    [Crossbow], [Ranged], [Loading, Two-Handed], [60/120 ft],
+    columns: (30.00%, 70.00%),
+    align: (auto, auto,),
+    table.header([Slot], [Examples],),
+    [Unarmed], [Fists, gauntlets, grapples],
+    [One-handed melee], [Dagger, shortsword, longsword, mace, battleaxe, warhammer],
+    [Light one-handed melee], [Dagger, shortsword, handaxe],
+    [Two-handed melee], [Greatsword, greataxe, maul, spear, halberd],
+    [Reach], [Spear, halberd, lance],
+    [Thrown], [Dagger, handaxe, spear, throwing knife],
+    [Ranged], [Shortbow, longbow, crossbow],
   )],
   kind: table,
   outlined: false,
@@ -118,19 +108,10 @@ Improvised weapons (a crowbar swung as a club, a hammer in a pinch) deal 1/1/2 +
 ])
 
 #callout(type: "note", title: "Armament Categories", body: [
-A weapon's category is its entry requirement: 1 Melee, 1 Two-Handed, 1 Ranged, and no rank for Unarmed. The named weapon is flavor; the category is the gate.
+A card's requirement names a slot: unarmed, one-handed melee, light one-handed melee, two-handed melee, reach, thrown, ranged, or a shield. The slot is what the card assumes, not a permission you need. You carry and swing whatever you like, and you decide what the weapon is.
 
-A shield takes Shields ranks by its size: 1 for a small shield, 2 for a medium one, 3 for a large one. It takes slots on the same ladder. A weapon or shield you carry does what its entry says; a card that requires a shield requires you to be wielding one.
+How many slots you fill at once is set by hands and carrying, not by rank: two hands hold one two-handed weapon, or two one-handed weapons, or one and a shield. A shield is the exception to the ranks, because its class sets its shield DR: wielding one takes Shields ranks by its size, 1 for a small shield, 2 for a medium one, 3 for a large one, and it takes slots on the same ladder. A card that requires a shield requires you to be wielding one.
 ])
-
-*Properties:*
-
-- *Versatile*, can be wielded two-handed (Longsword only)
-- *Reach*, can attack targets 10 ft away (Spear, Halberd)
-- *Thrown*, a weapon with this property counts as a ranged weapon when thrown (range 20/60 ft: Dagger, Handaxe, Spear, Throwing Dagger)
-- *Light*, can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe)
-- *Loading*, requires a Maneuver to reload between shots (Crossbow only)
-- *Two-Handed*, must be held in both hands and takes 2 slots (Spear, Halberd, Shortbow, Longbow, Crossbow). Compare *Versatile*, which *may* be used two-handed)
 
 #pagebreak()
 

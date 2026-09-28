@@ -366,26 +366,16 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 *Your Damage Reduction is the highest of your armor, a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. Shield DR is not part of that total: it is applied by the Shield Block reaction, one attack per round.* See @sec-chapter-armor-shields
 
 #figure(align(center)[#table(
-  columns: (20.00%, 20.00%, 45.10%, 14.90%),
-  align: (auto, auto, auto, auto,),
-  table.header([Weapon], [Category], [Properties], [Range],),
-  [Unarmed], [Unarmed], [], [],
-  [Dagger], [Melee], [Light, Thrown], [20/60 ft (thrown)],
-  [Shortsword], [Melee], [Light], [],
-  [Longsword], [Melee], [Versatile], [],
-  [Greatsword], [Two-Handed], [], [],
-  [Handaxe], [Melee], [Light, Thrown], [20/60 ft (thrown)],
-  [Battleaxe], [Melee], [], [],
-  [Greataxe], [Two-Handed], [], [],
-  [Mace], [Melee], [], [],
-  [Warhammer], [Melee], [], [],
-  [Maul], [Two-Handed], [], [],
-  [Spear], [Two-Handed], [Reach, Thrown, Two-Handed], [20/60 ft (thrown)],
-  [Halberd], [Two-Handed], [Reach, Two-Handed], [],
-  [Throwing Dagger], [Ranged], [Thrown], [20/60 ft (thrown)],
-  [Shortbow], [Ranged], [Two-Handed], [60/120 ft],
-  [Longbow], [Ranged], [Two-Handed], [100/200 ft],
-  [Crossbow], [Ranged], [Loading, Two-Handed], [60/120 ft],
+  columns: (30.00%, 70.00%),
+  align: (auto, auto,),
+  table.header([Slot], [Examples],),
+  [Unarmed], [Fists, gauntlets, grapples],
+  [One-handed melee], [Dagger, shortsword, longsword, mace, battleaxe, warhammer],
+  [Light one-handed melee], [Dagger, shortsword, handaxe],
+  [Two-handed melee], [Greatsword, greataxe, maul, spear, halberd],
+  [Reach], [Spear, halberd, lance],
+  [Thrown], [Dagger, handaxe, spear, throwing knife],
+  [Ranged], [Shortbow, longbow, crossbow],
 )], kind: table, numbering: none, outlined: false)
 
 *The weapon never changes your damage. For what a range of two numbers means, see @sec-chapter-talents-abilities For weapons in full, see @sec-chapter-equipment*

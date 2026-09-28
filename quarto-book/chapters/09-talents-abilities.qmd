@@ -252,7 +252,7 @@ These five cards are the attacks every character can make, no Discipline require
 *Strong:* 3 damage.
 
 === Basic Thrown (Basic Attack)
-*Disciplines:* None · *Requires:* weapon:ranged · *Action:* Action · *Range:* 20/60 ft · *Keywords:* Damage
+*Disciplines:* None · *Requires:* weapon:thrown · *Action:* Action · *Range:* 20/60 ft · *Keywords:* Damage
 
 *Weak:* 1 damage.
 
