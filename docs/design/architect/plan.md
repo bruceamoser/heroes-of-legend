@@ -1686,3 +1686,54 @@ The queue emptied at `f7e5328` (0 issues, 0 PRs, ledger 227 with no unbuilt mark
 - **Instrument defect found alongside, and the boundary I stopped at.** `career-clock.py`'s constant-coverage guard had been greping the retired `x1.5` rung since cycle 65 - a guard that could never match again, so its exit code was a lie in the safe direction. It is now an **oracle**: it parses the printed multiplier and compares it to the number the model uses. That immediately turned `rungs` red, which **is** the finding: four instruments still model the retired field. Converting `career-clock`'s call sites moved two control PREMISES, not just numbers (its selftest 5's road collapsed to `4e9 fights`; `wound-rate` control 2's "the cap leaves Standard/Hard/Deadly identical" only holds at x1.5), and re-deriving them needs `heal-threshold-sim` re-baselined first. Filed as **#839** rather than patched: a repair pass longer than the run it follows is pure cost.
 - **Open tracker:** 5 issues - #802, #805, #808, #822, #823 - plus **#837** (closed by #840) and **#839** (the field sweep). 0 open PRs.
 - **Next:** #822 (five amplifier cards, ch09 only, rung texts pinned) at the 2026-09-29 00:00Z cap reset, then #823's scoping sentence, then #839's field sweep, then the death-roll career measure.
+
+## State at cycle 73 (2026-09-28, verified against the repo, not recalled)
+
+- **The act: #839, the field sweep the last cycle filed and handed forward.** Cycle 72 stopped at the honest boundary
+  (converting the instruments moved two control *premises*), so this cycle did the conversion rather than file it again.
+  `career-clock.py` now **PARSES the Standard multiplier off `19:57`** and exports `STD_MULT` / `STD_N`; `wound-rate.py`,
+  `heal-vs-grit.py` and `heal-threshold-sim.py` **import** it instead of typing a field of their own (they carried
+  `1.5` and `6/7/7`). One home for a number the book prints is the fix; the sweep then found **two more copies**.
+- **The guard is a real oracle now.** `career-clock`'s constant check reads the printed **budget example**
+  (`budget 1.25 x 1 x 4 = 5`), requires the arithmetic to close *and* the total to equal the field the model fields.
+  Negative control run: a planted `= 6` exits 2 naming `rungs`. The old form compared the printed number to a typed
+  constant, which is exactly what rotted at #807 - it agreed with itself while the book moved.
+- **Cross-instrument calibration is live, not typed, and it paid for itself immediately.** `wound-rate`'s three checks
+  and `career-clock`'s selftest 1 now compare this model's party Wounds against `heal-threshold-sim`'s no-healer Grit
+  spends at the same field. Selftest 1 **FAILED on its first run** (0 vs 4) because hts still fielded six - the drift
+  the control exists to catch, caught by the control, on the day it was written.
+- **Three controls re-derived, one re-sited, two bands corrected** (all measured, none assumed): selftests 4/5 and
+  CONTROL 2 read the **mid** of the floor/ceiling bracket, because at the printed field a Novice Standard floor is
+  `0.00` and a divisor test on it divided a clean zero and printed "4e9 fights"; CONTROL 3's flattened pair moved from
+  Standard/Hard/Deadly to **Hard/Deadly** (a Standard fight now costs under one Wound, so the cap leaves it alone);
+  `heal-threshold-sim`'s CONTROL 5 was **unsatisfiable** as written ("a healer HELPS at Novice" cannot hold when the
+  fight costs nobody a Grit) and now walks the book's own ladder - neutral at the shipped field, **HELP** on the printed
+  Hard rung (Adept 8 -> 7), **COST** on Standard at Master (0 -> 3); `wound-rate`'s Standard clause band moved
+  (0.5, 1.5) -> (0.15, 0.6) because the old band had been drawn around the model rather than around the words
+  "about a third".
+- **Measured at the printed field (x1.25 = five creatures for a party of four, every tier).** Standard costs a party of
+  four, per hero: floor **0.00** / ceiling **0.65** / mid **0.32** at Novice (0.68/0.34 Adept, 0.71/0.35 Master).
+  Easies 0.19/0.18/0.18, Hard 1.46/2.03/2.10, Deadly 3.34/4.03/4.76. Careers at the mid: **12.4 / 11.8 / 11.3** fights,
+  where the retired field said 4.0 at every tier. `19:55`'s printed ladder lands inside its printed words at this field
+  and did **not** at the retired one - Standard read 1.00 against "about a third" - so the ladder was written for the
+  shipped field all along and the instruments were the thing that was stale.
+- **Two more stale copies, found by the sweep and fixed:** `hp-formula-census.py` resolved the repo from the **cwd**
+  (run by absolute path - the way every instrument here is run - it read nothing and reported "parsed 0 builds, the
+  file prints 9", which reads as a parser defect and is a caller-location defect) and `wounds_at()` typed `mult=1.5`
+  inside a function that had already imported the model. Both fixed; its section 3 now reads mid 0.36 -> 0.32
+  Wounds/hero, career 11.1 -> 12.4, with a `none` guard for 4/0.
+- **Filed #841 (one work order, held for the cap - the day's three dispatches are spent).** `combat-sim-v2.py` still
+  defaults to the pre-#807 six-creature frame (`:137`, `DIFFICULTY_MULT = 1.5`) and still retires a hero at 4 Wounds
+  (`:73`, `:540`) - the rule #837 reverted. Only its section 2c overrides to five. That matters outside the instrument:
+  **#805's "Standard runs 5-6 rounds" is a six-creature result**, and at the shipped five the same instrument's 2c
+  reads **3.60-4.00 rounds**, inside ruling 165's window. #805 carries the frame correction; so does the assessment's
+  #805 table.
+- **Records:** review item 1 and item 2 corrected in place with the retired figures named; assessment's clock bullet and
+  #805 table annotated; ledger rows **233 / 234 / 236** amended with the live numbers and their provenance; the
+  pacing-law section marked superseded-by-its-own-fix; `references/healing-economy.md` re-stated; SKILL.md's two
+  instrument entries updated; one append-only gotchas lesson (**a field is not a number to copy, it is a number to
+  READ**, and the same defect hid in a `dict` of literals, a default argument, and a cwd fallback).
+- **Open tracker:** 6 issues - #802, #805, #808, #822, #823, **#841** - after closing **#839** with the sweep evidence.
+  0 open PRs.
+- **Next:** #822 at the 2026-09-29 00:00Z cap reset (five amplifier cards, ch09 only, rung texts pinned), then #823's
+  scoping sentence, then #841's re-measure, then the death-roll career measure.
