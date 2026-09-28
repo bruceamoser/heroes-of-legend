@@ -304,7 +304,7 @@ Let's build a character from scratch so you can see how the pieces fit together.
 
 Total: 8 DP. All spent.
 
-*Step 6, Class:* Odd. Gains 2 Disciplines from different categories (Water and Sleight). Signature: *Eccentric Spellcasting*, ignore prerequisite Disciplines for two chosen abilities (one arcane, one divine); level gates still apply. Her *Health attribute* is Guile.
+*Step 6, Class:* Odd. Gains 2 Disciplines from different categories (Water and Sleight). Signature: *Eccentric Spellcasting*, ignore prerequisite Disciplines for two chosen abilities (one arcane, one divine); level gates still apply. Her arcane pick is Ember Lance, bought in Step 7; her divine pick is a later purchase. Her *Health attribute* is Guile.
 
 *Step 7, Class DP (12 DP):*
 
@@ -313,7 +313,7 @@ Total: 8 DP. All spent.
 - Thievery Novice (2 DP), locks and traps, and she always has an exit
 - Persuasion Novice (2 DP), she talks her way into places she shouldn't be
 - Performance Novice (2 DP), a good show opens more doors than a lockpick
-- Intimidation Novice (2 DP), a hard stare closes the ones that don't
+- Ember Lance (Novice spell, 2 DP), her *Eccentric Spellcasting* pick: it ignores the Fire Discipline her class never grants, and she needs no arcane focus for it
 
 Total: 12 DP. All spent.
 
@@ -441,12 +441,13 @@ Total: 9 DP. All spent.
 - Loadout ranks: Armor rank 1 (4 DP, at your Opposed rate)
 - Mending Touch (Novice spell, 2 DP)
 - Sanctuary (Novice spell, 2 DP)
-- Insight Novice (2 DP), she reads pain, the unspoken kind a patient hides
-- Nature Novice (2 DP), she knows what grows in shadow
+- Religion, rank 1 (1 DP, Home), the prayers her order taught her
+- Holy Strike (Novice spell, 2 DP), when mercy has run out, the light burns
+- Plants, rank 1 (1 DP, Home), what grows in shadow still grows
 
 Total: 12 DP. All spent.
 
-*Equipment:* Shortsword, holy symbol, leather armor, healer's kit.
+*Equipment:* Shield, holy symbol, leather armor, healer's kit.
 
 *Derived Stats:* HP 15 (10 + Fort 1 + Reason 2 + Sturdy 2). Initiative +0. Movement 25 ft (dwarf). Carry 5 slots.
 
@@ -480,7 +481,7 @@ Total: 8 DP. All spent.
 - Loadout ranks: Armor rank 1 (2 DP, at your Adjacent rate)
 - Rallying Cry (Novice ability, 2 DP)
 - Deception Novice (2 DP), war is deception, and a good captain knows every trick
-- Perception Novice (2 DP)
+- Follow My Lead (Novice maneuver, 2 DP), an order lands harder than a blade
 - Insight Novice (2 DP), reads a battlefield like a map
 - Persuasion Novice (2 DP), orders land better when they sound like a request
 
@@ -521,7 +522,7 @@ Total: 7 DP. All spent.
 - Acrobatics Novice (2 DP), footwork is everything
 - Thievery Novice (2 DP), the same hands that feint can pick a lock
 - Perception Novice (2 DP), seeing the opening before it exists
-- Sleight of Hand Novice (2 DP), a duelist's flourish is misdirection
+- Open the Guard (Novice maneuver, 2 DP), footwork opens the guard, the blade closes it
 
 Total: 12 DP. All spent.
 
@@ -560,7 +561,7 @@ Total: 8 DP. All spent.
 - Sap (Novice ability, 2 DP), daze unaware targets
 - Perception Novice (2 DP, favored), she sees the guard before the guard sees her
 - Acrobatics Novice (2 DP, favored), out the window, over the wall, gone
-- Insight Novice (2 DP), she reads a mark before she picks a pocket
+- Dual Strike (Novice maneuver, 2 DP), two daggers, one motion
 
 Total: 12 DP. All spent.
 
@@ -598,7 +599,7 @@ Total: 9 DP. All spent.
 
 - Loadout ranks: Armor ranks 2 and 3 (6 DP, at your Home rate)
 - Shield Bash (Novice ability, 2 DP), her shield puts them on the ground
-- Perception Novice (2 DP), the best shield is seeing the blow coming
+- Open the Guard (Novice maneuver, 2 DP), her axe opens what the shield then closes
 - Parry Novice (2 DP), her shield turns aside the blows she will not dodge
 
 Total: 12 DP. All spent.
