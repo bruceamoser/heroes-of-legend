@@ -452,7 +452,7 @@ Some injuries don't fade when the healing potion wears off. Wounds are the lasti
 
 *What gives a Wound back.* Nothing does. Magic returns HP. It does not take a Wound off your sheet. A Wound is not a condition, so an effect that ends conditions does not mend one, and a hero at full health still carries every mark they have earned. What a healer can mend is what the Wound does to you: the bleeding stops, the bone sets, the limb regrows, the Bane lifts. What nothing mends is the Wound itself, and its mark stays with it.
 
-*The end of the road.* Four Wounds is where the track runs out. The wound roll is already at 6d6 and the death roll at Bane 3, so a fifth Wound would change no number. It ends the hero instead. A hero carrying four Wounds has survived everything the game can do to them, so finish the fight they are in, and then let them retire: someone the party visits, someone who sends word from a far town, someone who rides out one last time when it matters. Retiring a hero is not a loss. It is the best object this game makes, a sheet that is a list of everything they survived, carried to the end on their own terms.
+*There is no cap.* Wounds keep accumulating, and nothing stops them. Past three extra dice the wound roll stops getting worse, and past Bane 3 the death roll stops getting worse, but neither is a limit on how many marks a hero can carry. Someone who survives long enough can be walking around with ten Wounds, each one a scar with a story behind it. It is unlikely. It is not impossible. Nothing but the dice decides, and the dice have no ceiling. What ends a hero is the death roll, never the count on the sheet. The track is not a clock and it is not a mercy; it is the record of everything they have survived so far.
 
 == Cover
 

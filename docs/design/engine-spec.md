@@ -210,7 +210,7 @@ The engine prints (and writes JSON for) at minimum:
 1. **Pacing** — rounds to resolve, distribution, per tier and encounter size. *Tests the 3–4 round law.*
 2. **Wound load** — wounds per hero per fight, distribution `P(0W…5W)`, and **`P(a hero reaches 4+ wounds)`**
    against the permanent ceiling.
-3. **Attrition** — P(wipe), P(a hero dies), P(a hero retires). Reported per class and per build.
+3. **Attrition** — P(wipe), P(a hero dies), P(a hero ends a fight carrying 4+ Wounds). Reported per class and per build. **Amended 2026-09-28:** the third metric read P(a hero retires) until Bruce ruled the wound arc uncapped (`13:455`, `7fbd34f`); with no cap the same predicate measures the *plateau* milestone, never a career end.
 4. **Layer value** — the marginal effect of light armour, heavy armour, shield, ward, and each combination,
    as a delta against that build's own no-layer baseline.
 5. **Healer delta** — on/off and one-vs-two, **reported across every policy**, never a single number.
