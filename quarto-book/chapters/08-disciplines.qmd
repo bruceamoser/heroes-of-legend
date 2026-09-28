@@ -100,7 +100,7 @@ Starting Disciplines from ancestry, culture, and class are always rank 1. When t
 
 === Progression
 
-At levels 3, 6, and 9, you gain one additional Discipline rank of your choice: a new Discipline, or a rank in one you already have. Class-favored Disciplines, the ones your class gave you at creation, are always available. Cross-class Disciplines may require narrative justification or story events. Want your Blade to pick up Fire? Make it a story. Find a mentor. Touch a primordial flame. Earn it.
+At levels 3, 6, and 9, you gain one additional Discipline rank of your choice: a new Discipline, or a rank in one you already have. The rank costs no Development Points: it is a gain of the level, exactly as the attribute increase at levels 4 and 8 costs none, and your class's Discipline costs price the ranks you buy at creation and the ranks a card's requirements add to its own price. Class-favored Disciplines, the ones your class gave you at creation, are always available. Cross-class Disciplines may require narrative justification or story events. Want your Blade to pick up Fire? Make it a story. Find a mentor. Touch a primordial flame. Earn it.
 
 === Magic Items
 
