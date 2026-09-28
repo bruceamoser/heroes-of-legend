@@ -4,7 +4,9 @@
 #label("sec-chapter-character-creation")
 
 #show ref: it => {
-  if it.target == <tbl-ancestries> { [Table 2.1] } else { it }
+  if it.target == <tbl-ancestries> { [Table 2.1] }
+  else if it.target == <tbl-class-health> { [Table 3.1] }
+  else { it }
 }
 
 // Rationale: Chapter opener at 80% width: establishes the character creation journey with an aspirational hero lineup that invites readers to imagine their own character.
@@ -197,6 +199,8 @@ Now your hero finds their calling. This is where they become exceptional.
 )
 #label("tbl-classes")
 
+Each class also names its *Health attribute*, the second attribute in your Health Points (see @tbl-class-health).
+
 Record your Class Discipline (one rank) and signature ability. For full writeups, including favored costs, see @sec-chapter-classes
 
 === Step 7: Spend Class DP
@@ -216,7 +220,7 @@ Receive your class's starting loadout (see @sec-chapter-classes) Record your wea
     columns: (40%, 60%),
     align: (auto, auto,),
     table.header([Stat], [Formula],),
-    [*Health Points*], [10 + Fortitude + Knowledge (at Level 1)],
+    [*Health Points*], [10 + Fortitude + your class's Health attribute (at Level 1)],
     [*Grit*], [2 (Novice), 3 (Adept), 4 (Master)],
     [*Initiative*], [3d6 + Agility modifier],
     [*Movement*], [30 ft (Dwarves and halflings: 25 ft)],
@@ -228,6 +232,8 @@ Receive your class's starting loadout (see @sec-chapter-classes) Record your wea
   numbering: none,
 )
 #label("tbl-derived-stats")
+
+Your class's *Health attribute* is listed in @tbl-class-health.
 
 === Step 10: Backstory Touches
 
@@ -298,7 +304,7 @@ Let's build a character from scratch so you can see how the pieces fit together.
 
 Total: 8 DP. All spent.
 
-*Step 6, Class:* Odd. Gains 2 Disciplines from different categories (Water and Sleight). Signature: *Eccentric Spellcasting*, ignore prerequisite Disciplines for two chosen abilities (one arcane, one divine); level gates still apply.
+*Step 6, Class:* Odd. Gains 2 Disciplines from different categories (Water and Sleight). Signature: *Eccentric Spellcasting*, ignore prerequisite Disciplines for two chosen abilities (one arcane, one divine); level gates still apply. Her *Health attribute* is Guile.
 
 *Step 7, Class DP (12 DP):*
 
@@ -313,7 +319,7 @@ Total: 12 DP. All spent.
 
 *Step 8, Equipment:* Shortbow, dagger, leather armor, thieves' tools, 20 arrows.
 
-*Step 9, Derived Stats:* HP 10 (10 + Fort 0 + Know 0). Initiative +1. Movement 25 ft (halfling). Carry 15 slots.
+*Step 9, Derived Stats:* HP 11 (10 + Fort 0 + Guile 1). Initiative +1. Movement 25 ft (halfling). Carry 15 slots.
 
 *Step 10, Backstory:* Motivation, Ambition (she wants something she won't name). Trinket, a smooth stone that hums faintly at midnight.
 
@@ -361,7 +367,7 @@ Total: 12 DP. All spent.
 
 *Equipment:* Arcane focus (crystal orb), dagger, scholar's robes, focus pouch, spellbook.
 
-*Derived Stats:* HP 12. Initiative +0. Movement 30 ft. Carry 10 slots.
+*Derived Stats:* HP 12 (10 + Fort 0 + Know 2). Initiative +0. Movement 30 ft. Carry 10 slots.
 
 *Backstory:* Motivation, Knowledge (she wants to read the Book of First Flame). Trinket, a smooth stone that hums faintly at midnight. *Name:* Sera Ashvein.
 
@@ -442,7 +448,7 @@ Total: 12 DP. All spent.
 
 *Equipment:* Shortsword, holy symbol, leather armor, healer's kit.
 
-*Derived Stats:* HP 13 (10 + Fort 1 + Know 0 + Sturdy 2). Initiative +0. Movement 25 ft (dwarf). Carry 5 slots.
+*Derived Stats:* HP 15 (10 + Fort 1 + Reason 2 + Sturdy 2). Initiative +0. Movement 25 ft (dwarf). Carry 5 slots.
 
 *Backstory:* Motivation, Protection (she lost a patient once, never again). Trinket, a key that doesn't fit any lock she's found. *Name:* Haldra Ironhymn.
 
@@ -482,7 +488,7 @@ Total: 12 DP. All spent.
 
 *Equipment:* Longsword, spear, leather armor, shield.
 
-*Derived Stats:* HP 9 (10 + Fort 0 + Know -1). Initiative +0. Movement 30 ft. Carry 15 slots.
+*Derived Stats:* HP 11 (10 + Fort 0 + Guile 1). Initiative +0. Movement 30 ft. Carry 15 slots.
 
 *Backstory:* Motivation, Redemption (she gave bad orders once). Trinket, a medallion that always lands on its edge. *Name:* Marta Shieldsworn.
 
@@ -521,7 +527,7 @@ Total: 12 DP. All spent.
 
 *Equipment:* Shortsword, dagger, leather armor, thieves' tools.
 
-*Derived Stats:* HP 9 (10 + Fort 0 + Know -1). Initiative +2. Movement 30 ft. Carry 15 slots.
+*Derived Stats:* HP 12 (10 + Fort 0 + Agility 2). Initiative +2. Movement 30 ft. Carry 15 slots.
 
 *Backstory:* Motivation, Glory (she wants her name in every dueling hall from here to the elven court). Trinket, a locket with a portrait of someone she's never met. *Name:* Vaelith Nightblade.
 
@@ -560,7 +566,7 @@ Total: 12 DP. All spent.
 
 *Equipment:* Two daggers, throwing daggers (6), leather armor, thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1).
 
-*Derived Stats:* HP 10. Initiative +2. Movement 25 ft (halfling). Carry 10 slots.
+*Derived Stats:* HP 11 (10 + Fort 0 + Guile 1). Initiative +2. Movement 25 ft (halfling). Carry 10 slots.
 
 *Backstory:* Motivation, Ambition (she wants a ship, and a new name, and an island where nobody asks questions). Trinket, a key that doesn't fit any lock. Yet. *Name:* Pip Quickfoot. Makeva's cousin. The family reunions are legendary.
 
@@ -599,7 +605,7 @@ Total: 12 DP. All spent.
 
 *Equipment:* Battleaxe, chain mail, shield, smith's tools.
 
-*Derived Stats:* HP 13 (10 + Fort 1 + Know 0 + Sturdy 2). Initiative -1. Movement 25 ft (dwarf). Carry 20 slots.
+*Derived Stats:* HP 15 (10 + Fort 1 + Brawn 2 + Sturdy 2). Initiative -1. Movement 25 ft (dwarf). Carry 20 slots.
 
 *Backstory:* Motivation, Protection (her clan's hold fell, she's building something new). Trinket, a child's drawing of her. She doesn't recognize the child. *Name:* Gorma Anvilshield.
 
@@ -640,7 +646,7 @@ Total: 12 DP. All spent.
 
 *Equipment:* Spear, focus pouch, scholar's robes, six vials of volatile reagents (alchemist's fire).
 
-*Derived Stats:* HP 11 (10 + Fort 0 + Know 1). Initiative +0. Movement 30 ft. Carry 15 slots.
+*Derived Stats:* HP 11 (10 + Fort 0 + Brawn 1). Initiative +0. Movement 30 ft. Carry 15 slots.
 
 *Backstory:* Motivation, Knowledge (she wants to understand why the backlash table exists at all). Trinket, a locket with a portrait of someone she's never met. *Name:* Corwin Ash-Walker.
 ```
