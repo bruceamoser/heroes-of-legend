@@ -434,7 +434,7 @@ Total: 12 DP. All spent.
 
 Total: 9 DP. All spent.
 
-*Class:* Shepherd. Gains 1 Protection, 1 Animal. Signature: *Unholy Word*, divine energy ignores armor, affects only undead.
+*Class:* Shepherd. Gains 1 Protection, 1 Animal. Signature: *Unholy Word* (gain *Turn Unholy* free).
 
 *Class DP (12 DP):*
 
@@ -474,7 +474,7 @@ Total: 12 DP. All spent.
 
 Total: 8 DP. All spent.
 
-*Class:* Leader. Gains 1 Tactics, 1 Shields. Signature: *Lead by Example*, on a telling blow, grant one ally a Boon on their next roll.
+*Class:* Leader. Gains 1 Tactics, 1 Shields. Signature: *Lead by Example*, on a Strong hit, grant one ally a Boon on their next roll.
 
 *Class DP (12 DP):*
 
