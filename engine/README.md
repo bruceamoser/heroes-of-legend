@@ -151,7 +151,9 @@ one action`) are parsed into attack sequences.
 
 1. **Pacing** — rounds distribution, mean/median, P(3–4 rounds).
 2. **Wound load** — wounds per hero per fight, `P(a hero reaches 4+ wounds)`.
-3. **Attrition** — P(wipe), P(a hero dies), P(a hero retires), per class.
+3. **Attrition** — P(wipe), P(a hero dies), P(a hero ends a fight carrying 4+ Wounds), per class.
+   The third is the wound *plateau* (4, the count at which the wound roll stops escalating),
+   reported as a milestone: nothing retires a hero but the death roll (`13:455`).
 4. **Layer value** — each armour/shield/ward combination against its own
    no-layer baseline (with `study.layers`).
 5. **Healer delta** — healer off / one / two, reported across every policy in

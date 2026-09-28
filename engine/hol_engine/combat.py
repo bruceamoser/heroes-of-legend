@@ -77,7 +77,7 @@ class Combatant:
         "armor_dr", "shield_dr", "ward_dr", "challenge_penalty", "creature",
         "cards", "weapon", "has_shield", "shield_size",
         "conditions", "reaction_ready", "action_ready", "maneuver_ready",
-        "dying", "stable", "unconscious", "dead", "retired", "deaths_door",
+        "dying", "stable", "unconscious", "dead", "deaths_door",
         "death_failures", "wounds", "wound_rows",
         "defend_until_next_turn", "attack_boon_next", "attack_bane_next",
         "defense_boon", "defense_bane_rounds", "physical_bane_encounter",
@@ -136,7 +136,6 @@ class Combatant:
         self.stable = False
         self.unconscious = False
         self.dead = False
-        self.retired = False
         self.deaths_door = False
         self.death_failures = 0
         self.wounds = 0
@@ -182,7 +181,7 @@ class Combatant:
     @property
     def active(self):
         """Can take turns and be a threat."""
-        return not self.dead and not self.unconscious and not self.dying and not self.retired
+        return not self.dead and not self.unconscious and not self.dying
 
     def has_condition(self, name):
         return name in self.conditions
@@ -661,7 +660,7 @@ class Combat:
     # ------------------------------------------------------------------ turns
     def _heal_target(self, healer):
         policy = healer.policy
-        allies = [c for c in self.heroes() if not c.dead and not c.retired]
+        allies = [c for c in self.heroes() if not c.dead]
         if not allies:
             return None
         if policy.heal_policy == "only_at_zero":
@@ -735,7 +734,7 @@ class Combat:
         return False
 
     def take_turn(self, actor):
-        if actor.dead or actor.retired:
+        if actor.dead:
             return
         if actor.is_creature and actor.creature and any(a.handler == "shambling" for a in actor.creature.abilities):
             pass
@@ -1040,7 +1039,7 @@ class Combat:
             for combatant in self.combatants:
                 combatant.reaction_ready = True
             for combatant in self.combatants:
-                if not combatant.dead and not combatant.retired:
+                if not combatant.dead:
                     self.take_turn(combatant)
                 state = self._check_end()
                 if state:
@@ -1054,12 +1053,15 @@ class Combat:
                     self.log(event="condition_end", actor=combatant.key, condition=name)
         if outcome is None:
             outcome = "timeout"
-        retired = []
-        for combatant in self.heroes():
-            if combatant.wounds >= self.rules.get("wound-retirement")["retire_at"] and not combatant.dead:
-                combatant.retired = True
-                retired.append(combatant.key)
-        return self._result(outcome, retired)
+        # No cap (13:455): Wounds accumulate without limit and the only exit is the
+        # death roll. What the count still has is a PLATEAU - the count at which the
+        # roll stops getting worse - which is the highest count the printed dice
+        # table names (13:404). It is a milestone, reported, never an exit.
+        dice_table = self.rules.get("wound-extra-dice") or {}
+        plateau_at = max(int(k) for k in dice_table if str(k).isdigit())
+        plateau = [c.key for c in self.heroes()
+                   if c.wounds >= plateau_at and not c.dead]
+        return self._result(outcome, plateau)
 
     def _check_end(self):
         opposition_left = self.living("opposition")
@@ -1070,7 +1072,7 @@ class Combat:
             return "party_loss"
         return None
 
-    def _result(self, outcome, retired):
+    def _result(self, outcome, plateau):
         heroes = []
         for c in self.heroes():
             heroes.append({
@@ -1093,7 +1095,7 @@ class Combat:
                 "crits": c.stats["crits"],
                 "fumbles": c.stats["fumbles"],
                 "died": c.dead,
-                "retired": c.retired,
+                "plateau": c.key in plateau,
                 "dying_at_end": c.dying and not c.dead,
                 "alive": not c.dead,
             })
@@ -1112,7 +1114,7 @@ class Combat:
             "rounds": self.round,
             "heroes": heroes,
             "creatures": creatures,
-            "retired": retired,
+            "plateau": plateau,
             "events": self.events if self.record_events else None,
         }
 

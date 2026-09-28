@@ -82,7 +82,7 @@ def summarize(data, results, party_specs=None):
     tiers = Counter()
     hero_stats = {}
     class_stats = defaultdict(lambda: {
-        "deaths": 0, "retirements": 0, "encounters": 0, "wounds": 0, "damage_dealt": 0,
+        "deaths": 0, "plateaus": 0, "encounters": 0, "wounds": 0, "damage_dealt": 0,
         "damage_taken": 0, "downs": 0,
     })
     wound_counter = Counter()
@@ -98,7 +98,7 @@ def summarize(data, results, party_specs=None):
             "wounds": Counter(),
             "rows": Counter(),
             "died": 0,
-            "retired": 0,
+            "plateau": 0,
             "down": 0,
             "damage_dealt": 0,
             "damage_taken": 0,
@@ -118,7 +118,7 @@ def summarize(data, results, party_specs=None):
                     "wounds": Counter(),
                     "rows": Counter(),
                     "died": 0,
-                    "retired": 0,
+                    "plateau": 0,
                     "down": 0,
                     "damage_dealt": 0,
                     "damage_taken": 0,
@@ -131,7 +131,7 @@ def summarize(data, results, party_specs=None):
             entry["encounters"] += 1
             entry["wounds"][hero["wounds"]] += 1
             entry["died"] += 1 if hero["died"] else 0
-            entry["retired"] += 1 if hero["retired"] else 0
+            entry["plateau"] += 1 if hero["plateau"] else 0
             entry["down"] += 1 if hero.get("dying_at_end") else 0
             entry["damage_dealt"] += hero["damage_dealt"]
             entry["damage_taken"] += hero["damage_taken"]
@@ -149,7 +149,7 @@ def summarize(data, results, party_specs=None):
             class_entry = class_stats[cls]
             class_entry["encounters"] += 1
             class_entry["deaths"] += 1 if hero["died"] else 0
-            class_entry["retirements"] += 1 if hero["retired"] else 0
+            class_entry["plateaus"] += 1 if hero["plateau"] else 0
             class_entry["wounds"] += hero["wounds"]
             class_entry["damage_dealt"] += hero["damage_dealt"]
             class_entry["damage_taken"] += hero["damage_taken"]
@@ -198,7 +198,7 @@ def summarize(data, results, party_specs=None):
             "wounds_distribution": distribution,
             "wound_rows": dict(sorted(entry["rows"].items())),
             "p_dies": round(entry["died"] / entry["encounters"], 4),
-            "p_retires": round(entry["retired"] / entry["encounters"], 4),
+            "p_wound_plateau": round(entry["plateau"] / entry["encounters"], 4),
             "p_ends_dying": round(entry["down"] / entry["encounters"], 4),
             "mean_wounds": round(
                 sum(int(k) * v for k, v in entry["wounds"].items()) / entry["encounters"], 3),
@@ -212,7 +212,7 @@ def summarize(data, results, party_specs=None):
         summary["classes"][cls or "?"] = {
             "encounters": entry["encounters"],
             "p_dies": round(entry["deaths"] / entry["encounters"], 4),
-            "p_retires": round(entry["retirements"] / entry["encounters"], 4),
+            "p_wound_plateau": round(entry["plateaus"] / entry["encounters"], 4),
             "p_ends_dying": round(entry["downs"] / entry["encounters"], 4),
             "mean_wounds": round(entry["wounds"] / entry["encounters"], 3),
             "mean_damage_dealt": round(entry["damage_dealt"] / entry["encounters"], 2),
@@ -283,7 +283,7 @@ def format_report(summary):
     lines.append(f"P(wipe)={out['party_loss']/total:.4f}  P(timeout)={out['timeout']/total:.4f}  "
                  f"P(win)={out['party_win']/total:.4f}")
     for cls, entry in summary["classes"].items():
-        lines.append(f"  {cls:10s} die={entry['p_dies']:.4f} retire={entry['p_retires']:.4f} "
+        lines.append(f"  {cls:10s} die={entry['p_dies']:.4f} wp4={entry['p_wound_plateau']:.4f} "
                      f"dying_at_end={entry['p_ends_dying']:.4f} mean_wounds={entry['mean_wounds']}")
     lines.append("")
     lines.append("== Layer value (spec 8.4) ==")
@@ -311,7 +311,7 @@ def format_report(summary):
     lines.append("== Class spread (spec 8.6) ==")
     for cls, entry in summary["classes"].items():
         lines.append(f"  {cls:10s} encounters={entry['encounters']} P(die)={entry['p_dies']:.4f} "
-                     f"P(retire)={entry['p_retires']:.4f} dmg_dealt={entry['mean_damage_dealt']:.2f} "
+                     f"P(carries4+)={entry['p_wound_plateau']:.4f} dmg_dealt={entry['mean_damage_dealt']:.2f} "
                      f"dmg_taken={entry['mean_damage_taken']:.2f}")
     lines.append("")
     lines.append("== Wound-band distribution (spec 8.7) ==")

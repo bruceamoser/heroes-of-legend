@@ -370,10 +370,10 @@ citations:
     text: "Wounds persist after HP is restored"
     value: "wounds are never removed by any effect"
 
-  - id: wound-retirement
+  - id: wound-uncapped
     source: "13:455"
-    text: "Four Wounds is where the track runs out"
-    value: {retire_at: 4, retire_after_combat: true}
+    text: "There is no cap"
+    value: "wounds accumulate without limit; only the death roll ends a hero"
 
   - id: condition-section
     source: "13:195"
