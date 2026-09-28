@@ -75,14 +75,19 @@ Damage types, resistances and vulnerabilities (`13:156`–`13:166`; e.g. Skeleto
 the engine applies the printed DR and flat damage. This is declared here
 rather than silently dropped; a run against a Skeleton will overestimate it.
 
-## The printed Wound Table has gaps
+## The printed Wound Table is complete (the engine still guards the case)
 
-`13:406`–`13:446` prints the bands 111, 112–126, 133–166, 222, 223–235,
-236–266, 333, 334–344, 345–366, 444–446, 455–466, 555, 556, 566 and 666.
-D666 rolls between the bands (for example 411 or 500) match no printed row.
-The engine records those as `Unnamed (gap in the printed table)` with no
-effect instead of inventing a row; the wound-band report surfaces the gap so
-the manuscript can close it.
+`13:406`-`13:446` prints the bands 111, 112-126, 133-166, 222, 223-235,
+236-266, 333, 334-344, 345-366, 444-446, 455-466, 555, 556, 566 and 666.
+Those bands are written in the book's **sorted** encoding (the three dice
+ascending), and in that encoding they cover all **56** reachable triples with
+no gap and no overlap. Enumerating the 56 sorted triples and intersecting each
+one with the parsed ranges leaves **0 unmapped** (architect audit, cycle 64).
+A value like `411` or `500` is not a roll this game can produce: it sits
+outside the encoding rather than between two bands, so it is not a manuscript
+defect. The engine keeps `Unnamed (gap in the printed table)` as a defensive
+branch for any value that lands outside the parsed ranges, so that a future
+edit to the table cannot silently drop a roll to no effect.
 
 ## Healing and concentration
 
