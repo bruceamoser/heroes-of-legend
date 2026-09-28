@@ -226,7 +226,7 @@ The numbers are flat damage points. A Novice Ember Lance deals 4 damage on a Wea
 
 For the full spell lists, see @sec-chapter-arcane-spells The divine list is in @sec-chapter-divine-spells For class abilities keyed to this budget, see @sec-chapter-classes
 
-Every damaging card states its expression in its damage line as either *Flat* or *Attribute-Scaled.*
+Every damaging card resolves against the budget row, and its family decides what scales on top of it: *Flat* cards use the row as listed, *Attribute-Scaled* cards add a printed attribute to a base value, and melee attacks add Brawn to the row. The family is set by what the card is, not by a label printed on it: arrows, missile ammunition, thrown weapons and most spells are flat, a card that scales on another attribute prints it in the line, and a melee attack card adds Brawn.
 
 *Flat* damage uses the budget row exactly as listed. Arrows, missile ammunition, thrown weapons, most spells, and all monsters use flat damage. No attribute is added.
 
