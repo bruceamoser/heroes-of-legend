@@ -1866,7 +1866,8 @@ the retired field, and the only instrument that also carried the retired LAW.
   arm's), and the assessment's "The healer, corroborated independently" carries the same correction beside the
   "0.94 to 1.02 rounds" it supersedes. **No new law and no card changed** — the ruling was Bruce's, the value is
   the architect's, and a one-word reversal moves it.
-- **Next:** #822 and #823 at the 2026-09-29 00:00Z cap reset — both are gated and pinned and were held only for
+- **Next:** #822 and #823 at the 2026-09-29 00:00Z cap reset — **[CORRECTED IN PLACE, cycle 77: this line claimed both were gated and pinned. #823 carried zero comments and had never been through the dispatch gate; the gate ran in cycle 77 and its pin is now its first comment. Cycle 76's claim was wrong in the same direction the 75b correction caught: a plan line reads as verification and is not one.]** #822 was gated and pinned
+  (cycle 68/69) and was held only for
   the cap — then **#844 item 2**, the prose. Its home is narrower than the issue guessed: the Life lane's own
   text is `12:89-93` (ch10 only NAMES Life as a school, `10:94`), and the sentence that has to carry a trigger is
   `08:247`, *"the healer's Action answers the moment, not the arithmetic"* — which already says the Action
@@ -1875,4 +1876,61 @@ the retired field, and the only instrument that also carried the retired LAW.
 
 **Housekeeping (this cycle's own).** No worktree was created (the work was an instrument and its records); the
   branch was deleted by the merge and three stale remote-tracking refs pruned (origin/docs/cycle-75b, origin/docs/cycle-76-heal-trigger, origin/fix/18-price-death-roll-career). The ledger sweep for rows whose STATUS still reads open returns **0 of 245**, and all six open issues (#802, #805, #808, #822, #823, #844) are live. `/tmp` bodies and the scratch dir are gone; the scratch `rm` was guard-blocked and the 72h prune covers it. **Named debt:** the skill's instruments - the one this cycle edited included - live only under `~/.hermes/skills/ttrpg/heroes-of-legend-pipeline/scripts/`, in no git history, while `winston-ops/ops/skills/` is empty; versioning them is the next housekeeping act.
+
+## State at cycle 77 (2026-09-28, verified against the repo, not recalled)
+
+**The wake** was the state signature moving one ledger row (244 -> 245), which is my own cycle-76 landing: manuscript
+  `d9b7cabcfc59` unchanged, 0 open PRs, 6 open issues (#802, #805, #808, #822, #823, #844), 245 ledger rows with 0
+  unbuilt marks, `thinking_due=0`. This UTC date's three work orders were spent (#809, #807, #818; reset
+  **2026-09-29 00:00Z**), so the cycle took the one queue item that is architect-owned, on the critical path, and
+  needs no agent: **the dispatch gate on #823.**
+
+**The claim the gate disproved before it started.** The last four cycles' "Next" lines (73, 74, 75, 76) all read
+  *"#822 and #823 ... both are gated and pinned"*. **#823 carried zero comments.** No pinned spec, no gate, no
+  decision recorded anywhere: the plan line had been repeated forward as a fact since cycle 66 and was never one.
+  Cycle 76's Next line is corrected in place, and this is the same drift class the 75b correction caught (a plan
+  line reads as verification and is not one; the count had been wrong the same way).
+
+**What the gate found, first: the book already answers its own question.** The issue asked whether throwing a Dagger,
+  Handaxe or Spear needs 1 Ranged, and framed it as two printings each defensible. It is not a tie: three sites
+  out-vote the tag row. **`05:488`**, the Shadow's Starting Loadout, prints `6 throwing daggers (1 Melee or 1 Ranged)`
+  and then says it in words: *"Melee covers the throwing daggers; Melee and Armor together cost 5 DP at your rates,
+  which still leaves room for a card."* **`19:559`** defines the field itself as *"the gear this card assumes"*, so
+  the tag names gear and the gear names the rank. **`15:117`** makes a thrown improvised object a thrown attack that
+  asks **no rank at all**, which Reading A (throwing needs 1 Ranged) would strand. Ruled: the rank that lets you
+  throw a weapon is the rank that lets you use it. One word ("Reading A") reverses it.
+
+**What the gate found, second: the issue's own consequences table had the defect on the wrong reading.** It read
+  "under A: 6 items she cannot use / under B: usable". Pip's six throwing daggers were dead under **both**, because
+  they name the **Throwing Dagger item** and that item's Category cell in the weapon table (`15:104`) printed
+  `Ranged` while `05:488` prints `1 Melee or 1 Ranged` for the same item. Pip holds Melee, Shields, Stealth, Sleight.
+  Repaired at the item's cell rather than at her kit: a kit repair fights `05:488`'s 5 DP note, and a Melee-only
+  Throwing Dagger would be a **strictly worse Dagger** (same range, same Thrown, no *Light*) which is the
+  dominated-choice class row 239 rules on. `Melee or Ranged` satisfies every printed site at once and gives the item
+  its job: the throwable a Ranged-category hero can actually use.
+
+**The sweep, and the reason it was worth running**: all nine printed builds' weapon lines were checked against their
+  own ranks (Makeva, Arcanist, Intellect, Haldra, Marta, Vaelith, Pip, Gorma, the Unbalanced). **Pip's throwing
+  daggers were the only line in the book whose item asked a rank its holder did not have.** No kit, Discipline or DP
+  pool moves, and #821's audited template work is untouched.
+
+**The pin** (posted as #823's first comment, four verbatim sites over two files): the tag table's Rank cell
+  (`1 Ranged, or the weapon's own category if thrown`), the Throwing Dagger's Category cell, two sentences appended
+  to the *Thrown* bullet — which also settle that a thrown attack uses the weapon's own printed **range**, closing the
+  Basic-Archery-with-a-dagger loophole — and the ch22 mirror. Deliberately untouched, each with its reason in the pin:
+  `02:568`, `05:488`, `21:129`, and the two Basic attack cards. Five gates, build included, and the finish sequence.
+
+**Records.** Row **246** is new (the reading, the item-cell repair, the sweep, the reversal and its cost). Cycle 76's
+  Next line is corrected in place. **#844 is closed** with its evidence: items 1 and 3 landed in PR #847 (cycle 76,
+  row 245) and item 2, the prose trigger, is the one open piece, INTENT, held in row 245 and named in the report to
+  Bruce. No chapter file changed this cycle, so no book build was owed.
+
+**Housekeeping.** No worktree was created (the cycle's work was the gate and the records); `/tmp` bodies were written
+  to the scratch dir and removed; the ledger sweep for rows whose STATUS still reads open returns **0 of 246**; the
+  five remaining open issues are all live (#802 and #805 the two analysis issues awaiting Bruce's INTENT calls, #808
+  the HP-ruling follow-ups, #822 and #823 both now genuinely gated and pinned).
+
+**Next:** at the 2026-09-29 00:00Z reset, **#822** (ch09, five amplifier rungs, pinned cycle 68/69) as one work
+  order, then **#823** (ch15 + ch22, now pinned) as the next, one per cycle; then #808's follow-ups; and #844 item 2
+  is one clause for Bruce whenever he wants it.
 
