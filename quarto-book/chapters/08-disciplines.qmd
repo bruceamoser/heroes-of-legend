@@ -238,7 +238,7 @@ Weapons follow the cards, not their own curve: an attack ability card carries th
 == Healing Thresholds
 #label("sec-healing-thresholds")
 
-Damage is a number on a table. Healing is not a number at all. A healing spell carries no row on any table and adds nothing: it takes the target's HP to a *threshold* of their maximum.
+Damage is a number on a table. Healing is not a number at all. A heal carries no row on any table and adds nothing: it takes the target's HP to a *threshold* of their maximum. The gate belongs to the Action that pays for it, so an ability that spends an Action to put an ally back in the fight rises to the threshold exactly as a spell does.
 
 - *Weak:* the target's HP rises to half their maximum.
 - *Standard:* the target's HP rises to their maximum.
@@ -246,9 +246,9 @@ Damage is a number on a table. Healing is not a number at all. A healing spell c
 
 Round half of an odd maximum up. A heal never lowers HP, and a hero already at or above the threshold gains nothing from it. That is the point: the healer's Action answers the moment, not the arithmetic.
 
-*The ladder is not in the numbers.* A healing card never climbs a row, so a Novice heal is worth an Action at Master too. What the tiers buy is reach, targets and riders: a Novice heal serves the hand that touches it, an Adept heal reaches across the field, and a Master heal serves the party.
+*The ladder is not in the numbers.* A healing card never climbs a row, so a Novice heal is worth an Action at Master too. What the tiers buy is reach, targets and riders: a Novice heal serves the hand that touches it, an Adept heal reaches across the field, and a Master heal serves the party. That is the spell shelf's ladder. A class ability prints its own reach and its own targets in its own table, and it rises to the same gate.
 
-*What this does not govern.* A potion, a relic, a class ability, a talent or a weapon maneuver that restores HP prints an amount and keeps it: items are found rather than built and ladder by rarity, and abilities are gifts at a fixed size. A spell that heals over a duration keeps its printed amounts, because it is budgeted on its total. A drain that returns a share of the damage it dealt is priced against that damage, never against the target's maximum, and a few HP riding on a spell that does something else stays where it is.
+*What this does not govern.* An effect that spends an Action to put a hero back in the fight rises to the threshold. Everything else keeps its printed amount, and each for its own reason. A potion, a relic or a gift is found rather than built and ladders by rarity, so a gate would print one identical effect at every rarity. A weapon maneuver, a talent or a triggered ability spends a Maneuver, a Reaction, or a moment you did not choose, and a cheap price buys an effect, never threshold HP. A heal that runs over a duration keeps its printed amounts, because it is budgeted on its total. A drain that returns a share of the damage it dealt is priced against that damage, never against the target's maximum, and a few HP riding on an effect that does something else stays where it is.
 
 #pagebreak()
 
