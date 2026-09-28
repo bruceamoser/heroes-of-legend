@@ -1,0 +1,131 @@
+{
+  "ancestry": "Dwarf",
+  "armor": "heavy",
+  "armor_dr": 3,
+  "attributes": {
+    "Agility": -1,
+    "Brawn": 2,
+    "Fortitude": 2,
+    "Guile": 0,
+    "Knowledge": 0,
+    "Reason": 1
+  },
+  "cards": [
+    "Sanctuary"
+  ],
+  "class": "Protector",
+  "culture": "Mountain",
+  "disciplines": {
+    "Armor": 3,
+    "Melee": 1,
+    "Protection": 1,
+    "Shields": 3
+  },
+  "dp": {
+    "background": 10,
+    "class": 31
+  },
+  "grit": 4,
+  "hp": 16,
+  "id": "P1",
+  "ledger": [
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Parry Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Endurance Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Survival Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Perception Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Persuasion Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "equipment requirement",
+      "dp": 2,
+      "item": "Armor 2",
+      "wallet": "class"
+    },
+    {
+      "detail": "equipment requirement",
+      "dp": 4,
+      "item": "Armor 3",
+      "wallet": "class"
+    },
+    {
+      "detail": "equipment requirement",
+      "dp": 2,
+      "item": "Shields 2",
+      "wallet": "class"
+    },
+    {
+      "detail": "equipment requirement",
+      "dp": 4,
+      "item": "Shields 3",
+      "wallet": "class"
+    },
+    {
+      "detail": "prerequisite for Sanctuary",
+      "dp": 4,
+      "item": "Protection 1",
+      "wallet": "class"
+    },
+    {
+      "detail": "Novice card",
+      "dp": 2,
+      "item": "Sanctuary",
+      "wallet": "class"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Medicine Novice",
+      "wallet": "class"
+    }
+  ],
+  "level": 7,
+  "name": "Gorma",
+  "notes": [
+    "Melee granted twice; second grant is waste (08:99)",
+    "Armor granted twice; second grant is waste (08:99)",
+    "culture grants Athletics +1",
+    "Armor already granted; requested rank is waste",
+    "Shields already granted; requested rank is waste",
+    "background DP 10/10 spent",
+    "class DP 20/31 spent",
+    "unspent DP: background 0, class 11"
+  ],
+  "shield": "large",
+  "shield_dr": 3,
+  "skills": {
+    "Athletics": 1,
+    "Endurance": 1,
+    "Medicine": 1,
+    "Parry": 1,
+    "Perception": 1,
+    "Persuasion": 1,
+    "Survival": 1
+  },
+  "tier": "Master",
+  "ward_dr": 0,
+  "weapon": "one-hand"
+}

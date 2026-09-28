@@ -1,0 +1,153 @@
+{
+  "ancestry": "Dwarf",
+  "armor": "light",
+  "armor_dr": 1,
+  "attributes": {
+    "Agility": 0,
+    "Brawn": -1,
+    "Fortitude": 2,
+    "Guile": 1,
+    "Knowledge": 0,
+    "Reason": 2
+  },
+  "cards": [
+    "Mending Touch",
+    "Righteous Blow",
+    "Bark Skin",
+    "Restoration",
+    "Tide of Life"
+  ],
+  "class": "Shepherd",
+  "culture": "Hill",
+  "disciplines": {
+    "Animal": 1,
+    "Armor": 1,
+    "Life": 3,
+    "Melee": 1,
+    "Protection": 1,
+    "Religion": 1
+  },
+  "dp": {
+    "background": 10,
+    "class": 31
+  },
+  "grit": 4,
+  "hp": 16,
+  "id": "P4",
+  "ledger": [
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Religion Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Dodge Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Parry Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Medicine Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Nature Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "equipment requirement",
+      "dp": 4,
+      "item": "Armor 1",
+      "wallet": "class"
+    },
+    {
+      "detail": "Novice card",
+      "dp": 2,
+      "item": "Mending Touch",
+      "wallet": "class"
+    },
+    {
+      "detail": "prerequisite for Righteous Blow",
+      "dp": 1,
+      "item": "Religion 1",
+      "wallet": "class"
+    },
+    {
+      "detail": "Novice card",
+      "dp": 2,
+      "item": "Righteous Blow",
+      "wallet": "class"
+    },
+    {
+      "detail": "Novice card",
+      "dp": 2,
+      "item": "Bark Skin",
+      "wallet": "class"
+    },
+    {
+      "detail": "prerequisite for Restoration",
+      "dp": 2,
+      "item": "Life 2",
+      "wallet": "class"
+    },
+    {
+      "detail": "Adept card",
+      "dp": 4,
+      "item": "Restoration",
+      "wallet": "class"
+    },
+    {
+      "detail": "prerequisite for Tide of Life",
+      "dp": 4,
+      "item": "Life 3",
+      "wallet": "class"
+    },
+    {
+      "detail": "Master card",
+      "dp": 8,
+      "item": "Tide of Life",
+      "wallet": "class"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Survival Novice",
+      "wallet": "class"
+    }
+  ],
+  "level": 7,
+  "name": "Haldra",
+  "notes": [
+    "culture grants History +1",
+    "Protection already granted; requested rank is waste",
+    "Animal already granted; requested rank is waste",
+    "background DP 10/10 spent",
+    "class DP 31/31 spent",
+    "unspent DP: background 0, class 0"
+  ],
+  "shield": null,
+  "shield_dr": 0,
+  "skills": {
+    "Dodge": 1,
+    "History": 1,
+    "Medicine": 1,
+    "Nature": 1,
+    "Parry": 1,
+    "Religion": 1,
+    "Survival": 1
+  },
+  "tier": "Master",
+  "ward_dr": 0,
+  "weapon": "one-hand"
+}

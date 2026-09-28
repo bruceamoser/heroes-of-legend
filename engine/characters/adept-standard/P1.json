@@ -1,0 +1,124 @@
+{
+  "ancestry": "Dwarf",
+  "armor": "heavy",
+  "armor_dr": 3,
+  "attributes": {
+    "Agility": -1,
+    "Brawn": 2,
+    "Fortitude": 1,
+    "Guile": 0,
+    "Knowledge": 0,
+    "Reason": 1
+  },
+  "cards": [
+    "Sanctuary"
+  ],
+  "class": "Protector",
+  "culture": "Mountain",
+  "disciplines": {
+    "Armor": 3,
+    "Melee": 1,
+    "Protection": 1,
+    "Shields": 3,
+    "Two-Handed": 1
+  },
+  "dp": {
+    "background": 9,
+    "class": 18
+  },
+  "grit": 3,
+  "hp": 15,
+  "id": "P1",
+  "ledger": [
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Parry Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Endurance Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Survival Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Perception Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "spend-down",
+      "dp": 1,
+      "item": "Two-Handed 1",
+      "wallet": "background"
+    },
+    {
+      "detail": "equipment requirement",
+      "dp": 2,
+      "item": "Armor 2",
+      "wallet": "class"
+    },
+    {
+      "detail": "equipment requirement",
+      "dp": 4,
+      "item": "Armor 3",
+      "wallet": "class"
+    },
+    {
+      "detail": "equipment requirement",
+      "dp": 2,
+      "item": "Shields 2",
+      "wallet": "class"
+    },
+    {
+      "detail": "equipment requirement",
+      "dp": 4,
+      "item": "Shields 3",
+      "wallet": "class"
+    },
+    {
+      "detail": "prerequisite for Sanctuary",
+      "dp": 4,
+      "item": "Protection 1",
+      "wallet": "class"
+    },
+    {
+      "detail": "Novice card",
+      "dp": 2,
+      "item": "Sanctuary",
+      "wallet": "class"
+    }
+  ],
+  "level": 3,
+  "name": "Gorma",
+  "notes": [
+    "Melee granted twice; second grant is waste (08:99)",
+    "Armor granted twice; second grant is waste (08:99)",
+    "culture grants Athletics +1",
+    "Armor already granted; requested rank is waste",
+    "Shields already granted; requested rank is waste",
+    "background DP 9/9 spent",
+    "class DP 18/18 spent",
+    "unspent DP: background 0, class 0"
+  ],
+  "shield": "large",
+  "shield_dr": 3,
+  "skills": {
+    "Athletics": 1,
+    "Endurance": 1,
+    "Parry": 1,
+    "Perception": 1,
+    "Survival": 1
+  },
+  "tier": "Adept",
+  "ward_dr": 0,
+  "weapon": "one-hand"
+}

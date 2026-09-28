@@ -1,0 +1,113 @@
+{
+  "ancestry": "Elf",
+  "armor": "light",
+  "armor_dr": 1,
+  "attributes": {
+    "Agility": 2,
+    "Brawn": 1,
+    "Fortitude": 0,
+    "Guile": 1,
+    "Knowledge": -1,
+    "Reason": 0
+  },
+  "cards": [],
+  "class": "Blade",
+  "culture": "Twilight Elf",
+  "disciplines": {
+    "Armor": 1,
+    "Melee": 1,
+    "Ranged": 1,
+    "Sleight": 1,
+    "Stealth": 1,
+    "Water": 1
+  },
+  "dp": {
+    "background": 7,
+    "class": 18
+  },
+  "grit": 3,
+  "hp": 12,
+  "id": "P2",
+  "ledger": [
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Dodge Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Parry Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Acrobatics Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "spend-down",
+      "dp": 1,
+      "item": "Sleight 1",
+      "wallet": "background"
+    },
+    {
+      "detail": "equipment requirement",
+      "dp": 4,
+      "item": "Armor 1",
+      "wallet": "class"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Perception Novice",
+      "wallet": "class"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Sleight of Hand Novice",
+      "wallet": "class"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Stealth Novice",
+      "wallet": "class"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Thievery Novice",
+      "wallet": "class"
+    }
+  ],
+  "level": 3,
+  "name": "Vaelith",
+  "notes": [
+    "Melee granted twice; second grant is waste (08:99)",
+    "culture grants Deception +1",
+    "Melee already granted; requested rank is waste",
+    "Stealth already granted; requested rank is waste",
+    "background DP 7/7 spent",
+    "class DP 12/18 spent",
+    "unspent DP: background 0, class 6"
+  ],
+  "shield": null,
+  "shield_dr": 0,
+  "skills": {
+    "Acrobatics": 1,
+    "Deception": 1,
+    "Dodge": 1,
+    "Parry": 1,
+    "Perception": 1,
+    "Sleight of Hand": 1,
+    "Stealth": 1,
+    "Thievery": 1
+  },
+  "tier": "Adept",
+  "ward_dr": 0,
+  "weapon": "one-hand"
+}

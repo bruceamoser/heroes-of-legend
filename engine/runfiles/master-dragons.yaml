@@ -1,0 +1,77 @@
+# Canonical Master run: a level-7 party against a printed multiattack family.
+# Young Dragon and Ancient Dragon both print Multiattack; the telemetry must
+# show their extra attacks (acceptance 8).
+run:
+  name: master-dragons
+  seed: 20260927
+  iterations: 2000
+  round_limit: 30
+  events: first:100
+  flags: {morale: false, cover: false, terrain: false}
+
+party:
+  - id: P1
+    name: Gorma
+    class: Protector
+    level: 7
+    ancestry: Dwarf
+    culture: Mountain
+    attributes: {Brawn: 2, Fortitude: 2, Agility: -1, Guile: 0, Knowledge: 0, Reason: 1}
+    disciplines: [Armor, Shields]
+    cards: auto
+    equipment: {armor: heavy, shield: large}
+    policy: default
+
+  - id: P2
+    name: Vaelith
+    class: Blade
+    level: 7
+    ancestry: Elf
+    culture: Twilight Elf
+    attributes: {Brawn: 2, Fortitude: 0, Agility: 2, Guile: 1, Knowledge: -1, Reason: 0}
+    disciplines: [Melee, Stealth]
+    cards: auto
+    equipment: {armor: light, weapon: one-hand}
+    policy: default
+
+  - id: P3
+    name: Sera
+    class: Arcanist
+    level: 7
+    ancestry: Human
+    culture: Imperial
+    attributes: {Brawn: 0, Fortitude: 0, Agility: 0, Guile: 0, Knowledge: 2, Reason: 2}
+    disciplines: [Fire, Energy]
+    cards: auto
+    equipment: {armor: none, weapon: one-hand}
+    policy: default
+
+  - id: P4
+    name: Haldra
+    class: Shepherd
+    level: 7
+    ancestry: Dwarf
+    culture: Hill
+    attributes: {Brawn: -1, Fortitude: 2, Agility: 0, Guile: 1, Knowledge: 0, Reason: 2}
+    disciplines: [Protection, Animal]
+    cards: auto
+    equipment: {armor: light, weapon: one-hand}
+    policy: default
+
+opposition:
+  - creature: Ancient Dragon
+    count: 1
+    challenge_override: null
+    policy: default
+  - creature: Young Dragon
+    count: 2
+    challenge_override: null
+    policy: default
+
+policies:
+  default:
+    target_selection: focus_lowest_hp
+    maneuver_priority: [defend, catch_breath]
+    grit_at_zero: spend
+    heal_policy: at_or_below_half
+    shield_block: true

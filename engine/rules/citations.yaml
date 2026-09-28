@@ -1,0 +1,916 @@
+# Heroes of Legend combat engine - rule citations.
+#
+# Every constant, table and formula the engine implements is listed here with
+# the chapter:line it must be readable at. `hol-engine audit` re-reads each
+# chapter and fails if the text at the cited line no longer contains `text`.
+#
+# Do not change a `value` to make a test pass. Change it because the book
+# changed, and change `text` with it.
+
+citations:
+  # ---------------------------------------------------------------- 06 core
+  - id: core-roll
+    source: "06:21"
+    text: "3d6 + Attribute Modifier + Skill Bonus + Difficulty Modifier"
+    value: "3d6 + attribute + skill + difficulty"
+
+  - id: success-tier-weak
+    source: "06:30"
+    text: "[1-8], [*Weak*]"
+    value: {name: Weak, min: 1, max: 8}
+
+  - id: success-tier-standard
+    source: "06:31"
+    text: "[9-14], [*Standard*]"
+    value: {name: Standard, min: 9, max: 14}
+
+  - id: success-tier-strong
+    source: "06:32"
+    text: "[15-18+], [*Strong*]"
+    value: {name: Strong, min: 15, max: null}
+
+  - id: totals-zero-or-less
+    source: "06:43"
+    text: "the result is Weak, and the DA adds one complication"
+    value: "0 or less is Weak plus a complication"
+
+  - id: boon-bane-dice
+    source: "06:55"
+    text: "Boon* means you roll 4d6 and keep the highest three"
+    value: "boon: 4d6 keep highest three; bane: 4d6 keep lowest three"
+
+  - id: potence-ceiling
+    source: "06:63"
+    text: "Three steps is the ceiling"
+    value: 3
+
+  - id: boons-banes-cancel
+    source: "06:65"
+    text: "One Boon and one Bane on the same roll is a straight 3d6 roll"
+    value: "cancel one for one"
+
+  - id: opposed-target-never-rolls
+    source: "06:69"
+    text: "the acting character rolls and the target's own ability sets the difficulty"
+    value: "acting character rolls; target never rolls"
+
+  - id: opposed-challenge
+    source: "06:71"
+    text: "3d6 + Attribute Modifier + Skill Bonus − Challenge"
+    value: "3d6 + attribute + skill - challenge"
+
+  - id: attack-tier-is-damage-tier
+    source: "06:89"
+    text: "the outcome tier of your attack roll is your damage tier"
+    value: "attack tier = damage tier"
+
+  - id: dr-minimum-one
+    source: "06:91"
+    text: "each point of DR negates 1 (minimum 1 damage from any hit)"
+    value: 1
+
+  - id: defense-formula-none
+    source: "06:103"
+    text: "3d6 + Agility modifier − Challenge"
+    value: {attribute: Agility, skill: null, kind: raw}
+
+  - id: defense-formula-dodge
+    source: "06:104"
+    text: "3d6 + Agility modifier + Dodge rank − Challenge"
+    value: {attribute: Agility, skill: Dodge, kind: dodge}
+
+  - id: defense-formula-parry
+    source: "06:105"
+    text: "3d6 + Brawn modifier + Parry rank − Challenge"
+    value: {attribute: Brawn, skill: Parry, kind: parry}
+
+  - id: challenge-rating
+    source: "06:111"
+    text: "A Challenge ½ creature, the minion tier, imposes −1"
+    value: {minion_penalty: -1, challenge_one: -1, cap: -6}
+
+  - id: defense-outcome-strong
+    source: "06:122"
+    text: "[NPC's *Weak* damage]"
+    value: {defense: Strong, damage: Weak}
+
+  - id: defense-outcome-standard
+    source: "06:123"
+    text: "[NPC's *Standard* damage]"
+    value: {defense: Standard, damage: Standard}
+
+  - id: defense-outcome-weak
+    source: "06:124"
+    text: "[NPC's *Strong* damage]"
+    value: {defense: Weak, damage: Strong}
+
+  - id: defense-crit-fumble
+    source: "06:136"
+    text: "Three 6s means you take the monster's Weak damage"
+    value: {crit: Weak, fumble: Strong}
+
+  - id: defense-example-goblin
+    source: "06:148"
+    text: "He rolls 4, 3, 5 = 12, then adds +1 = 13"
+    value: {dice: [4, 3, 5], modifier: 1, total: 13, tier: Standard, damage: 6, dr: 1, final: 5}
+
+  - id: defense-example-knight
+    source: "06:152"
+    text: "He rolls 2, 3, 2 = 7 − 1 = 6"
+    value: {dice: [2, 3, 2], modifier: -1, total: 6, tier: Weak, damage: 11, dr: 1, final: 10}
+
+  # ------------------------------------------------------------- 13 combat
+  - id: initiative
+    source: "13:21"
+    text: "*3d6 + Agility modifier.* Highest goes first"
+    value: {dice: 3, attribute: Agility, tie: higher-agility-then-rolloff}
+
+  - id: economy-action
+    source: "13:38"
+    text: "[*Action*], [1], [Attack, cast a spell, activate an ability, Dash"
+    value: 1
+
+  - id: economy-maneuver
+    source: "13:40"
+    text: "[*Maneuver*], [1], [Basic maneuvers"
+    value: 1
+
+  - id: economy-reaction
+    source: "13:41"
+    text: "[*Reaction*], [1/round]"
+    value: 1
+
+  - id: trade-down-never-up
+    source: "13:51"
+    text: "You can trade your *Action* for an extra *Movement* or *Maneuver*"
+    value: "action -> movement/maneuver; never maneuver -> action"
+
+  - id: maneuver-defend
+    source: "13:63"
+    text: "[*Defend*], [Boon on your Defense roll until your next turn.]"
+    value: {boon: 1}
+
+  - id: maneuver-catch-breath
+    source: "13:69"
+    text: "[*Catch Breath*], [Regain one third of your maximum HP (round up). Uses per combat equal your Grit.]"
+    value: {fraction: one-third-round-up, uses: Grit}
+
+  - id: one-reaction-per-round
+    source: "13:91"
+    text: "You get one *Reaction* per round"
+    value: 1
+
+  - id: attack-roll-modifiers
+    source: "13:100"
+    text: "Roll 3d6 + modifiers. The total determines your damage tier:"
+    value: "3d6 + attribute (+ casting skill for spells)"
+
+  - id: critical-hit
+    source: "13:105"
+    text: "*Critical (three 6s):* Maximum Strong damage plus a bonus effect"
+    value: {triple6: Strong}
+
+  - id: dr-one-source-highest
+    source: "13:109"
+    text: "Your DR is the highest of your armor's DR and any talent or ward that grants DR"
+    value: highest
+
+  - id: two-weapon-tier-map
+    source: "13:293"
+    text: "[Strong], [Standard],"
+    value: {Strong: Standard, Standard: Weak, Weak: one}
+
+  - id: two-weapon-example
+    source: "13:304"
+    text: "The off-hand attack drops a tier to Weak"
+    value: {primary: Standard, offhand: Weak, primary_damage: 4, offhand_damage: 3, total: 7}
+
+  - id: non-lethal
+    source: "13:310"
+    text: "A pulled blow leaves no Wound"
+    value: "non-lethal melee drops target unconscious stable, no wound"
+
+  - id: morale-rule
+    source: "13:323"
+    text: "That player rolls 3d6 with no modifiers:"
+    value: {dice: 3, modifier: 0}
+
+  - id: morale-table
+    source: "13:330"
+    text: "[*Strong (15+)*], [Stands firm. Gains a Boon on its next attack.]"
+    value: {Strong: stands-firm, Standard: wavers, Weak: flees-or-surrenders}
+
+  - id: grit-tiers
+    source: "13:354"
+    text: "You have *Grit*: 2 at Novice, 3 at Adept, 4 at Master"
+    value: {Novice: 2, Adept: 3, Master: 4, tiers: {Novice: [1, 2], Adept: [3, 6], Master: [7, 99]}}
+
+  - id: wound-on-zero
+    source: "13:356"
+    text: "When your HP reaches 0, you take a Wound and roll on the Wound Table"
+    value: "unconditional wound per drop, rolled at the drop"
+
+  - id: grit-spend
+    source: "13:358"
+    text: "*Spend a Grit.* Your HP resets to its maximum and you keep fighting"
+    value: {hp: maximum, cost: 1-grit}
+
+  - id: stay-down
+    source: "13:360"
+    text: "*Stay down.* You fall, and the Dying rules below apply"
+    value: "dying; no grit spent; healing can revive"
+
+  - id: grit-respite
+    source: "13:366"
+    text: "Grit returns on a respite, a full night's rest. It does not return between fights"
+    value: {returns: respite-only}
+
+  - id: death-roll
+    source: "13:370"
+    text: "Each round on your turn, make a death roll: 3d6 plus a Bane for the wounds you carry"
+    value: {dice: 3, bane_by_wounds: {1: 0, 2: 1, 3: 2, 4: 3}}
+
+  - id: death-outcome-critical
+    source: "13:377"
+    text: "[*Critical (three 6s)*], [You snap awake at half HP."
+    value: {critical: awake-half-hp}
+
+  - id: death-outcome-strong
+    source: "13:378"
+    text: "[*Strong (15+)*], [You stabilize at 1 HP."
+    value: {strong: stabilize-1hp}
+
+  - id: death-outcome-standard
+    source: "13:379"
+    text: "[*Standard (9-14)*], [You remain unconscious but stable."
+    value: {standard: stable}
+
+  - id: death-outcome-weak
+    source: "13:380"
+    text: "[*Weak (1-8)*], [You worsen. Mark a failure. At three failures, you die.]"
+    value: {weak: failure, failures_to_die: 3}
+
+  - id: death-outcome-fumble
+    source: "13:381"
+    text: "[*Fumble (three 1s)*], [Death."
+    value: {fumble: death}
+
+  - id: death-triples-kept-dice
+    source: "13:388"
+    text: "Read the triples on the three dice you keep, never on the dice you rolled"
+    value: "triples read on kept dice"
+
+  - id: stabilize
+    source: "13:390"
+    text: "Stabilizing resets your failures"
+    value: "reset death failures"
+
+  - id: heal-revives
+    source: "13:392"
+    text: "Healing that restores HP also ends the fall"
+    value: "heal from 0 -> conscious at healed HP"
+
+  - id: wound-trigger-once
+    source: "13:400"
+    text: "It is once per drop, whether or not you spend Grit to get back up"
+    value: "one wound per drop; grit and heal do not undo it"
+
+  - id: wound-d666
+    source: "13:402"
+    text: "plus one extra die for each wound you already carry beyond the first, up to three extra"
+    value: {keep_highest: 3, sort: ascending, digits: lowest=hundreds/middle=tens/highest=ones}
+
+  - id: wound-extra-dice
+    source: "13:404"
+    text: "Two wounds means 4d6, three means 5d6, and four or more means 6d6"
+    value: {1: 3, 2: 4, 3: 5, 4: 6, cap_extra: 3}
+
+  - id: wound-row-lucky-scrape
+    source: "13:413"
+    text: "[111], [*Lucky Scrape*]"
+    value: {range: [111, 111], name: Lucky Scrape, mechanical: none}
+
+  - id: wound-row-bruised-rib
+    source: "13:414"
+    text: "[112–126], [*Bruised Rib*]"
+    value: {range: [112, 126], name: Bruised Rib, mechanical: bane-next-brawn}
+
+  - id: wound-row-blood-in-eyes
+    source: "13:415"
+    text: "[133–166], [*Blood in the Eyes*]"
+    value: {range: [133, 166], name: Blood in the Eyes, mechanical: bane-next-attack}
+
+  - id: wound-row-unnatural-mark
+    source: "13:416"
+    text: "[222], [*Unnatural Mark*]"
+    value: {range: [222, 222], name: Unnatural Mark, mechanical: none}
+
+  - id: wound-row-twisted-ankle
+    source: "13:417"
+    text: "[223–235], [*Twisted Ankle*]"
+    value: {range: [223, 235], name: Twisted Ankle, mechanical: speed-5}
+
+  - id: wound-row-deep-gash
+    source: "13:418"
+    text: "[236–266], [*Deep Gash*]"
+    value: {range: [236, 266], name: Deep Gash, mechanical: bleed-1-per-turn}
+
+  - id: wound-row-scarred
+    source: "13:419"
+    text: "[333], [*Scarred*]"
+    value: {range: [333, 333], name: Scarred, mechanical: none}
+
+  - id: wound-row-wrenched-shoulder
+    source: "13:420"
+    text: "[334–344], [*Wrenched Shoulder*]"
+    value: {range: [334, 344], name: Wrenched Shoulder, mechanical: bane-attacks-encounter}
+
+  - id: wound-row-cracked-ribs
+    source: "13:421"
+    text: "[345–366], [*Cracked Ribs*]"
+    value: {range: [345, 366], name: Cracked Ribs, mechanical: bane-physical-encounter}
+
+  - id: wound-row-broken-bone
+    source: "13:435"
+    text: "[444–446], [*Broken Bone*]"
+    value: {range: [444, 446], name: Broken Bone, mechanical: limb-unusable}
+
+  - id: wound-row-punctured-lung
+    source: "13:436"
+    text: "[455–466], [*Punctured Lung*]"
+    value: {range: [455, 466], name: Punctured Lung, mechanical: speech-limit}
+
+  - id: wound-row-karmic-wound
+    source: "13:437"
+    text: "[555], [*Karmic Wound*]"
+    value: {range: [555, 555], name: Karmic Wound, mechanical: permanent-loss}
+
+  - id: wound-row-crippling-blow
+    source: "13:438"
+    text: "[556], [*Crippling Blow*]"
+    value: {range: [556, 556], name: Crippling Blow, mechanical: permanent-limb}
+
+  - id: wound-row-shattered-spirit
+    source: "13:439"
+    text: "[566], [*Shattered Spirit*]"
+    value: {range: [566, 566], name: Shattered Spirit, mechanical: bane-all-rolls}
+
+  - id: wound-row-deaths-door
+    source: "13:440"
+    text: "[666], [*Death's Door*]"
+    value: {range: [666, 666], name: "Death's Door", mechanical: dying-no-stabilize}
+
+  - id: wound-precedence
+    source: "13:449"
+    text: "A roll that matches a named triple (111, 222, 333, 555, 666) always takes that row"
+    value: "named triples win over ranges"
+
+  - id: wound-never-heals
+    source: "13:451"
+    text: "Wounds persist after HP is restored"
+    value: "wounds are never removed by any effect"
+
+  - id: wound-retirement
+    source: "13:455"
+    text: "Four Wounds is where the track runs out"
+    value: {retire_at: 4, retire_after_combat: true}
+
+  - id: condition-section
+    source: "13:195"
+    text: "== Conditions"
+    value: "conditions exist and are tracked"
+
+  - id: condition-prone
+    source: "13:222"
+    text: "[*Prone*], [Melee Boon vs you, ranged Bane"
+    value: {name: Prone, defense_vs_melee: bane, ends: stand-up}
+
+  - id: condition-poisoned
+    source: "13:221"
+    text: "[*Poisoned X*], [Takes X poison damage per round and attacks at Bane]"
+    value: {name: Poisoned, per_round_damage: X, attacks: bane, ends: action}
+
+  - id: condition-burning
+    source: "13:206"
+    text: "[*Burning X*], [Takes X damage per round]"
+    value: {name: Burning, per_round_damage: X, ends: action}
+
+  - id: condition-blinded
+    source: "13:205"
+    text: "[*Blinded*], [Attacks at double Bane]"
+    value: {name: Blinded, attacks: bane-2}
+
+  - id: condition-restrained
+    source: "13:223"
+    text: "[*Restrained*], [Speed 0, attack Bane]"
+    value: {name: Restrained, attacks: bane, speed: 0}
+
+  - id: condition-grappled
+    source: "13:214"
+    text: "[*Grappled*], [Speed 0]"
+    value: {name: Grappled, speed: 0}
+
+  - id: condition-slowed
+    source: "13:224"
+    text: "[*Slowed X*], [Speed reduced by X feet, cannot take Reactions]"
+    value: {name: Slowed, speed: X, reactions: false}
+
+  - id: condition-stunned
+    source: "13:225"
+    text: "[*Stunned*], [Incapacitated + cannot move]"
+    value: {name: Stunned, incapacitated: true}
+
+  - id: condition-dazed
+    source: "13:209"
+    text: "[*Dazed X*], [Can take only one action type per turn, for X rounds]"
+    value: {name: Dazed, one_action_type: true, rounds: X}
+
+  - id: condition-frightened
+    source: "13:212"
+    text: "[*Frightened*], [Cannot approach source]"
+    value: {name: Frightened, cannot_approach: true}
+
+  - id: condition-unconscious
+    source: "13:226"
+    text: "[*Unconscious*], [Incapacitated + prone + unaware]"
+    value: {name: Unconscious, incapacitated: true, prone: true, unaware: true}
+
+  - id: condition-incapacitated
+    source: "13:216"
+    text: "[*Incapacitated*], [No actions]"
+    value: {name: Incapacitated, no_actions: true}
+
+  - id: condition-hidden
+    source: "13:215"
+    text: "[*Hidden*], [Attacks against you have Bane"
+    value: {name: Hidden, attacks_against: bane}
+
+  - id: condition-charmed
+    source: "13:207"
+    text: "[*Charmed*], [Cannot attack charmer]"
+    value: {name: Charmed, cannot_attack_source: true}
+
+  # -------------------------------------------------------------- 16 armor
+  - id: dr-subtract
+    source: "16:21"
+    text: "subtract your Damage Reduction (DR) from the damage value"
+    value: "damage - DR, floor 1"
+
+  - id: dr-highest-source
+    source: "16:23"
+    text: "If more than one source gives you DR, use the highest"
+    value: highest
+
+  - id: shield-dr-exception
+    source: "16:25"
+    text: "*Shield DR is the exception.*"
+    value: "shield DR applies only through Shield Block"
+
+  - id: dr-ceiling
+    source: "16:27"
+    text: "cannot exceed 3 at Novice, 4 at Adept, or 6 at Master"
+    value: {Novice: 3, Adept: 4, Master: 6}
+
+  - id: dr-rank-scale
+    source: "16:29"
+    text: "A DR grant requires Discipline ranks at least equal to the DR it grants"
+    value: "DR N requires N ranks"
+
+  - id: armor-dr-light
+    source: "16:42"
+    text: "[*Light*], [1 Armor], [1], [2],"
+    value: {name: light, rank: 1, dr: 1}
+
+  - id: armor-dr-medium
+    source: "16:43"
+    text: "[*Medium*], [2 Armor], [2], [2 or 3],"
+    value: {name: medium, rank: 2, dr: 2}
+
+  - id: armor-dr-heavy
+    source: "16:44"
+    text: "[*Heavy*], [3 Armor], [3], [3 or 4],"
+    value: {name: heavy, rank: 3, dr: 3}
+
+  - id: shield-small
+    source: "16:82"
+    text: "*Small shields (1 Shields, shield DR 1, 1 slot).*"
+    value: {name: small, rank: 1, dr: 1, slot: 1}
+
+  - id: shield-medium
+    source: "16:84"
+    text: "*Medium shields (2 Shields, shield DR 2, 2 slots).*"
+    value: {name: medium, rank: 2, dr: 2, slot: 2}
+
+  - id: shield-large
+    source: "16:86"
+    text: "*Large shields (3 Shields, shield DR 3, 3 slots, half cover).*"
+    value: {name: large, rank: 3, dr: 3, slot: 3}
+
+  - id: shield-block
+    source: "16:94"
+    text: "reducing the damage by your shield's DR"
+    value: {reaction: true, per_round: 1}
+
+  - id: shield-block-floor
+    source: "16:96"
+    text: "Shield Block cannot reduce damage below 1"
+    value: 1
+
+  - id: shield-block-example
+    source: "16:130"
+    text: "The shield's DR 1 takes the edge off the blow: 6 - 1 = 5. Then his armor's DR 3 does the rest: 5 - 3 = 2"
+    value: {raw: 6, shield_dr: 1, armor_dr: 3, final: 2}
+
+  # ------------------------------------------------------------ 08 damage
+  - id: damage-budget-novice
+    source: "08:213"
+    text: "[*Novice*], [4/6/8],"
+    value: [4, 6, 8]
+
+  - id: damage-budget-adept
+    source: "08:214"
+    text: "[*Adept*], [5/8/11],"
+    value: [5, 8, 11]
+
+  - id: damage-budget-master
+    source: "08:215"
+    text: "[*Master*], [7/10/14],"
+    value: [7, 10, 14]
+
+  - id: damage-no-roll
+    source: "08:223"
+    text: "The outcome of your attack or casting roll (Weak, Standard, or Strong) determines your damage"
+    value: "no damage roll"
+
+  - id: damage-flat
+    source: "08:231"
+    text: "Arrows, missile ammunition, thrown weapons, most spells, and all monsters use flat damage. No attribute is added."
+    value: flat
+
+  - id: damage-attribute-scaled
+    source: "08:233"
+    text: "Attribute-Scaled* damage adds the card's stated attribute to a base value, minimum 1 damage. Novice cards use the Basic-card floor (1/2/3)"
+    value: {floor: [1, 2, 3], adept_base: [2, 5, 8], master_base: [4, 7, 11], minimum: 1}
+
+  - id: healing-thresholds
+    source: "08:241"
+    text: "it takes the target's HP to a *threshold* of their maximum"
+    value: {Weak: half, Standard: full, Strong: full+rider}
+
+  - id: healing-weak
+    source: "08:243"
+    text: "*Weak:* the target's HP rises to half their maximum."
+    value: half
+
+  - id: healing-standard
+    source: "08:244"
+    text: "*Standard:* the target's HP rises to their maximum."
+    value: full
+
+  - id: healing-strong
+    source: "08:245"
+    text: "*Strong:* the target's HP rises to their maximum, plus whatever rider the card prints."
+    value: full+rider
+
+  - id: healing-round-half-up
+    source: "08:247"
+    text: "Round half of an odd maximum up"
+    value: half-round-up
+
+  - id: healing-not-ladder
+    source: "08:249"
+    text: "A healing card never climbs a row"
+    value: "no healing ladder; tiers buy reach/targets/riders"
+
+  - id: card-costs
+    source: "08:145"
+    text: "[*Novice*], [2 DP], [Level 1],"
+    value: {Novice: {dp: 2, level: 1}, Adept: {dp: 4, level: 3}, Master: {dp: 8, level: 7}}
+
+  - id: cost-structures
+    source: "08:163"
+    text: "[*Home*], [1 DP], [2 DP], [4 DP]"
+    value: {Home: [1, 2, 4], Adjacent: [2, 4, 8], Foreign: [3, 6, 12], Opposed: [4, 8, 16]}
+
+  - id: discipline-max-rank
+    source: "08:193"
+    text: "A hero's maximum in any single Discipline is 3 ranks"
+    value: 3
+
+  - id: no-prereq-basics
+    source: "08:199"
+    text: "Some basic Novice cards (basic utility skills) have *no Discipline requirement*"
+    value: {no_discipline_cards: 2, cantrips: 0}
+
+  # ------------------------------------------------------------ 10 magic
+  - id: magic-always-fires
+    source: "10:21"
+    text: "The spell goes off. The magic flows."
+    value: "no slots, no failure"
+
+  - id: casting-attributes
+    source: "10:31"
+    text: "*Arcane spells* roll 3d6 + Knowledge + relevant skill. *Divine spells* roll 3d6 + Reason + relevant skill."
+    value: {arcane: Knowledge, divine: Reason}
+
+  - id: card-tier-cost
+    source: "10:48"
+    text: "[Novice], [2 DP], [4/6/8],"
+    value: {Novice: {dp: 2, damage: [4, 6, 8]}, Adept: {dp: 4, damage: [5, 8, 11]}, Master: {dp: 8, damage: [7, 10, 14]}}
+
+  - id: recurring-total
+    source: "10:60"
+    text: "A recurring effect is budgeted on its total over the stated duration"
+    value: total-budget
+
+  - id: level-gates
+    source: "10:66"
+    text: "*Novice cards at level 1, Adept cards at level 3, Master cards at level 7.*"
+    value: {Novice: 1, Adept: 3, Master: 7}
+
+  - id: rank-three-ceiling
+    source: "10:70"
+    text: "*no single Discipline may go past rank 3.*"
+    value: 3
+
+  - id: cantrips-free
+    source: "10:80"
+    text: "Cantrips require *no Discipline prerequisites*, and they are free."
+    value: {dp: 0, disciplines: none}
+
+  - id: cantrip-damage
+    source: "10:82"
+    text: "A cantrip's damage line is 1/3/5"
+    value: [1, 3, 5]
+
+  - id: per-encounter
+    source: "10:106"
+    text: "Each Adept or Master spell card can be used once per combat"
+    value: {Adept: once-per-encounter, Master: once-per-encounter}
+
+  - id: per-session
+    source: "10:108"
+    text: "Master-tier spells are once per session"
+    value: {Master: once-per-session}
+
+  - id: concentration
+    source: "10:110"
+    text: "Holding one costs your Maneuver every turn"
+    value: {one_at_a_time: true, cost: maneuver}
+
+  - id: concentration-break
+    source: "10:120"
+    text: "[Standard], [A Fortitude check: *Standard or better* on 3d6 + Fortitude holds it.]"
+    value: {Weak: none, Standard: check, Strong: check-bane}
+
+  # ----------------------------------------------------------- 09 attacks
+  - id: basic-melee
+    source: "09:230"
+    text: "*Weak:* 1 + Brawn damage."
+    value: {name: Basic Melee, weak: 1, standard: 2, strong: 3, attribute: Brawn}
+
+  - id: basic-archery
+    source: "09:248"
+    text: "*Weak:* 1 damage."
+    value: {name: Basic Archery, weak: 1, standard: 2, strong: 3, attribute: null}
+
+  - id: basic-two-handed
+    source: "09:239"
+    text: "*Weak:* 1 + Brawn damage."
+    value: {name: Basic Two-Handed, weak: 1, standard: 2, strong: 3, attribute: Brawn}
+
+  - id: basic-unarmed
+    source: "09:266"
+    text: "*Weak:* 1 + Brawn damage."
+    value: {name: Basic Unarmed, weak: 1, standard: 1, strong: 2, attribute: Brawn}
+
+  - id: skill-bonus
+    source: "07:31"
+    text: "[*Novice*], [+1], [2 DP], [None (Level 1)],"
+    value: {Novice: 1, Adept: 2, Master: 3, dp: {Novice: 2, Adept: 4, Master: 8}, level: {Novice: 1, Adept: 3, Master: 7}}
+
+  - id: skill-not-attack
+    source: "07:114"
+    text: "His skill bonus does not enter the attack."
+    value: "weapon attacks add attribute only; skills never add to attacks"
+
+  - id: talent-stack
+    source: "09:17"
+    text: "Bonuses from different talents stack"
+    value: "different talents stack; same talent once"
+
+  # ----------------------------------------------------------- 20 bestiary
+  - id: monsters-use-hero-rules
+    source: "20:13"
+    text: "Monsters use the same rules as heroes, attributes, skills, and W/S/S damage"
+    value: "same rules; 0 HP defeated"
+
+  - id: statblock-attributes
+    source: "20:24"
+    text: "[*Attributes*], [B/F/A/G/K/R modifiers, from -2 to +2."
+    value: {range: [-2, 2], default: 0}
+
+  - id: statblock-hp
+    source: "20:25"
+    text: "[*HP*], [Health points. When this hits 0, the creature is defeated.]"
+    value: 0-is-defeated
+
+  - id: statblock-dr
+    source: "20:26"
+    text: "[*DR*], [Damage reduction. Subtract from physical damage just like hero armor.]"
+    value: physical-dr
+
+  - id: statblock-attacks
+    source: "20:27"
+    text: "[*Attacks*], [W/S/S damage per attack."
+    value: wss-per-attack
+
+  - id: statblock-abilities
+    source: "20:29"
+    text: "[*Abilities*], [Special powers. These override the normal rules, the stat block always wins.]"
+    value: abilities-override
+
+  - id: monster-creation
+    source: "20:659"
+    text: "DR cannot exceed your tier's ceiling: 3 at Novice, 4 at Adept, 6 at Master"
+    value: {ceilings: {Novice: 3, Adept: 4, Master: 6}}
+
+  - id: challenge-damage-scaling
+    source: "20:667"
+    text: "+ C1–2 (Novice): W:4 / S:6 / St:8"
+    value: {novice: [4, 6, 8], adept: [5, 8, 11], master: [7, 10, 14]}
+
+  # ------------------------------------------------------- 02/03 creation
+  - id: attributes-sum
+    source: "03:66"
+    text: "must total _exactly +3_"
+    value: 3
+
+  - id: attribute-range
+    source: "03:38"
+    text: "Attributes range from -2 to +2"
+    value: [-2, 2]
+
+  - id: hp-formula
+    source: "03:78"
+    text: "*Health Points at Level 1:* 10 + Fortitude + your class's *Health attribute*."
+    value: {base: 10, plus: [Fortitude, class-health-attribute]}
+
+  - id: hp-no-growth
+    source: "03:78"
+    text: "Your Health Points do not increase with level."
+    value: no-level-growth
+
+  - id: class-health-attributes
+    source: "03:87"
+    text: "[*Protector*], [Brawn],"
+    value: {Protector: Brawn, Blade: Agility, Arcanist: Knowledge, Shepherd: Reason, Intellect: Knowledge, Odd: choice, Leader: Guile, Unbalanced: Brawn, Shadow: Guile}
+
+  - id: background-dp
+    source: "02:117"
+    text: "You have *8 + Knowledge + Fortitude* Development Points to spend."
+    value: {base: 8, plus: [Knowledge, Fortitude]}
+
+  - id: class-dp-level-one
+    source: "02:208"
+    text: "You have *12 DP at level 1*: 8 DP of class training plus the 4 DP every hero gains at level 1"
+    value: {total: 12, class_training: 8, level_one_award: 4}
+
+  - id: creation-costs
+    source: "02:138"
+    text: "[*Skill (Novice)*], [2 DP]"
+    value: {skill: {Novice: 2, Adept: 4, Master: 8}, ability: {Novice: 2, Adept: 4, Master: 8}}
+
+  - id: ancestry-rule
+    source: "02:59"
+    text: "Choose your species. Each grants a Discipline and a trait:"
+    value: {Human: {discipline: any, trait: Versatile, dp: 1}, Elf: {discipline: Ranged, trait: Elven Grace}, Dwarf: {discipline: Melee, trait: Sturdy, hp: 2}, Halfling: {discipline: Melee, trait: Lucky}}
+
+  - id: culture-rule
+    source: "04:112"
+    text: "Each culture grants a *+1 skill bonus* and either *two specific Disciplines*"
+    value: "+1 skill and either two fixed disciplines or one free"
+
+  - id: level-dp-table
+    source: "18:47"
+    text: "[1], [4], [Class signature, Starting Disciplines],"
+    value: {1: 4, 2: 3, 3: 3, 4: 3, 5: 4, 6: 3, 7: 3, 8: 3, 9: 3, 10: 3}
+
+  - id: level-attribute-increase
+    source: "18:50"
+    text: "[4], [3], [Attribute increase (+1, max +2)],"
+    value: {levels: [4, 8], increase: 1, max: 2}
+
+  - id: discipline-progression
+    source: "18:40"
+    text: "At each level, you gain 3-4 DP"
+    value: "progression picks at levels 3, 6, 9"
+
+  # ------------------------------------------------------- class disciplines
+  - id: class-disciplines
+    source: "08:84"
+    text: "[Protector], [1 Armor + 1 Shields],"
+    value: {Protector: [Armor, Shields], Blade: [Melee, Stealth], Arcanist: [Fire, Energy], Shepherd: [Protection, Animal], Intellect: [Lore, any], Odd: [any, any], Leader: [Tactics, Shields], Unbalanced: [Fire, Water], Shadow: [Stealth, Sleight]}
+
+  - id: class-health-source
+    source: "05:61"
+    text: "*Health Points:* 10 + Fortitude + Brawn."
+    value: Protector-Brawn
+
+  - id: favored-skills
+    source: "05:65"
+    text: "*Favored Skills:* Athletics, Endurance, Survival, Perception, Persuasion, Medicine"
+    value: {Protector: [Athletics, Endurance, Survival, Perception, Persuasion, Medicine], Blade: [Acrobatics, Deception, Perception, Sleight of Hand, Stealth, Thievery], Arcanist: [Alchemy, Arcana, History, Lore, Nature], Shepherd: [Medicine, Nature, Religion, Survival], Intellect: [History, Lore, Medicine, Arcana, Perception], Odd: [Sleight of Hand, Stealth, Deception, Acrobatics, Performance], Leader: [Persuasion, Perception, Insight, Survival, Endurance], Unbalanced: [Arcana, Deception, Insight, Perception, Acrobatics], Shadow: [Stealth, Deception, Sleight of Hand, Thievery, Acrobatics, Perception]}
+
+  # --------------------------------------------------------------- modeled cards
+  - id: card-ember-lance
+    source: "11:171"
+    text: "*Weak:* 4 fire damage."
+    value: {name: Ember Lance, tier: Novice, disciplines: {Fire: 1}, kind: attack, damage: [4, 6, 8], casting: arcane, range: 30}
+
+  - id: card-force-dart
+    source: "11:350"
+    text: "*Weak:* 4 force damage; never misses"
+    value: {name: Force Dart, tier: Novice, disciplines: {Energy: 1}, kind: attack, damage: [4, 6, 8], casting: arcane, range: 60}
+
+  - id: card-brimstone-burst
+    source: "11:189"
+    text: "*Weak:* 5 fire damage to all in the radius"
+    value: {name: Brimstone Burst, tier: Adept, disciplines: {Fire: 2}, kind: attack, damage: [5, 8, 11], casting: arcane, range: 20, area: true}
+
+  - id: card-gust
+    source: "11:247"
+    text: "*Weak:* No damage; Push 5 ft."
+    value: {name: Gust, tier: Novice, disciplines: {Wind: 1}, kind: control, damage: [0, 0, 0], casting: arcane, range: 30, strong_condition: Prone}
+
+  - id: card-mending-touch
+    source: "12:98"
+    text: "*Weak:* The target's HP rises to half its maximum."
+    value: {name: Mending Touch, tier: Novice, disciplines: {Life: 1}, kind: heal, casting: divine, range: touch}
+
+  - id: card-restoration
+    source: "12:116"
+    text: "*Weak:* The target's HP rises to half its maximum."
+    value: {name: Restoration, tier: Adept, disciplines: {Life: 2}, kind: heal, casting: divine, range: 30, strong_ends_conditions: true}
+
+  - id: card-tide-of-life
+    source: "12:134"
+    text: "*Weak:* Every ally in range rises to half their maximum HP."
+    value: {name: Tide of Life, tier: Master, disciplines: {Life: 3}, kind: heal, casting: divine, range: 30, targets: allies}
+
+  - id: card-soulmend
+    source: "12:157"
+    text: "*Weak:* The target's HP rises to half its maximum."
+    value: {name: Soulmend, tier: Adept, disciplines: {Life: 2}, kind: heal, casting: divine, range: 60, strong_ends_one_condition: true}
+
+  - id: card-righteous-blow
+    source: "12:317"
+    text: "*Weak:* 4 radiant damage."
+    value: {name: Righteous Blow, tier: Novice, disciplines: {Religion: 1}, kind: attack, damage: [4, 6, 8], casting: divine, range: touch, standard_boon_next_attack: true}
+
+  - id: card-holy-strike
+    source: "12:308"
+    text: "*Weak:* 4 radiant damage."
+    value: {name: Holy Strike, tier: Novice, disciplines: {Religion: 1}, kind: attack, damage: [4, 6, 8], casting: divine, range: 30}
+
+  - id: card-sanctuary
+    source: "12:247"
+    text: "Attacks against the target have Bane for 1 turn (a Boon on the target's Defense roll)."
+    value: {name: Sanctuary, tier: Novice, disciplines: {Protection: 1}, kind: buff, casting: divine, range: 30, defense_boon: [1, 2, 3]}
+
+  - id: card-bark-skin
+    source: "12:220"
+    text: "*Effect:* +1 DR."
+    value: {name: Bark Skin, tier: Novice, disciplines: {Protection: 1}, kind: ward, ward_dr: 1, casting: divine, concentration: true}
+
+  - id: card-stone-skin
+    source: "12:256"
+    text: "*Effect:* +2 DR."
+    value: {name: Stone Skin, tier: Adept, disciplines: {Protection: 2}, kind: ward, ward_dr: 2, casting: divine, concentration: true}
+
+  - id: card-iron-skin
+    source: "12:279"
+    text: "*Effect:* +3 DR."
+    value: {name: Iron Skin, tier: Master, disciplines: {Protection: 3}, kind: ward, ward_dr: 3, casting: divine, concentration: true}
+
+  # ------------------------------------------------------- focus / requires
+  - id: focus-lower-outcome
+    source: "15:40"
+    text: "without it the spell still casts and resolves one outcome lower"
+    value: {outcome_shift: -1}
+
+  - id: equipment-tags
+    source: "15:27"
+    text: "[`weapon:one-hand`], [1 Melee], [A one-handed weapon in your hand],"
+    value: {"weapon:unarmed": 0, "weapon:one-hand": 1, "weapon:two-hand": 1, "weapon:ranged": 1, shield: 1, "focus:arcane": 0, "focus:holy": 0, "focus:primal": 0}
+
+  - id: melee-adds-brawn
+    source: "15:115"
+    text: "Melee attacks add your Brawn to the damage row on your attack ability card. Missile and thrown attacks are flat"
+    value: {melee: Brawn, missile: flat}
+
+  - id: improvised-damage
+    source: "15:117"
+    text: "deal 1/1/2 + Brawn, the Basic Unarmed floor"
+    value: [1, 1, 2]
+

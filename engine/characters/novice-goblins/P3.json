@@ -1,0 +1,128 @@
+{
+  "ancestry": "Human",
+  "armor": null,
+  "armor_dr": 0,
+  "attributes": {
+    "Agility": 0,
+    "Brawn": 0,
+    "Fortitude": 0,
+    "Guile": 0,
+    "Knowledge": 2,
+    "Reason": 1
+  },
+  "cards": [
+    "Ember Lance",
+    "Force Dart"
+  ],
+  "class": "Arcanist",
+  "culture": "Imperial",
+  "disciplines": {
+    "Earth": 1,
+    "Energy": 1,
+    "Fire": 1,
+    "Melee": 1
+  },
+  "dp": {
+    "background": 11,
+    "class": 12
+  },
+  "grit": 2,
+  "hp": 12,
+  "id": "P3",
+  "ledger": [
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Arcana Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Dodge Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Parry Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Alchemy Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "History Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "spend-down",
+      "dp": 1,
+      "item": "Earth 1",
+      "wallet": "background"
+    },
+    {
+      "detail": "equipment requirement",
+      "dp": 4,
+      "item": "Melee 1",
+      "wallet": "class"
+    },
+    {
+      "detail": "Novice card",
+      "dp": 2,
+      "item": "Ember Lance",
+      "wallet": "class"
+    },
+    {
+      "detail": "Novice card",
+      "dp": 2,
+      "item": "Force Dart",
+      "wallet": "class"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Lore Novice",
+      "wallet": "class"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Nature Novice",
+      "wallet": "class"
+    }
+  ],
+  "level": 1,
+  "name": "Sera",
+  "notes": [
+    "Fire granted twice; second grant is waste (08:99)",
+    "Energy granted twice; second grant is waste (08:99)",
+    "culture grants Persuasion +1",
+    "Fire already granted; requested rank is waste",
+    "Energy already granted; requested rank is waste",
+    "background DP 11/11 spent",
+    "auto skipped Brimstone Burst: Brimstone Burst is Adept and gates at level 3",
+    "class DP 12/12 spent",
+    "unspent DP: background 0, class 0"
+  ],
+  "shield": null,
+  "shield_dr": 0,
+  "skills": {
+    "Alchemy": 1,
+    "Arcana": 1,
+    "Dodge": 1,
+    "History": 1,
+    "Lore": 1,
+    "Nature": 1,
+    "Parry": 1,
+    "Persuasion": 1
+  },
+  "tier": "Novice",
+  "ward_dr": 0,
+  "weapon": "one-hand"
+}

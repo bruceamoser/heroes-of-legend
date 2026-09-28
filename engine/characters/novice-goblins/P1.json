@@ -1,0 +1,110 @@
+{
+  "ancestry": "Dwarf",
+  "armor": "heavy",
+  "armor_dr": 3,
+  "attributes": {
+    "Agility": -1,
+    "Brawn": 2,
+    "Fortitude": 1,
+    "Guile": 0,
+    "Knowledge": 0,
+    "Reason": 1
+  },
+  "cards": [],
+  "class": "Protector",
+  "culture": "Mountain",
+  "disciplines": {
+    "Armor": 3,
+    "Melee": 1,
+    "Shields": 3,
+    "Two-Handed": 1
+  },
+  "dp": {
+    "background": 9,
+    "class": 12
+  },
+  "grit": 2,
+  "hp": 15,
+  "id": "P1",
+  "ledger": [
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Parry Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Endurance Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Survival Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Perception Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "spend-down",
+      "dp": 1,
+      "item": "Two-Handed 1",
+      "wallet": "background"
+    },
+    {
+      "detail": "equipment requirement",
+      "dp": 2,
+      "item": "Armor 2",
+      "wallet": "class"
+    },
+    {
+      "detail": "equipment requirement",
+      "dp": 4,
+      "item": "Armor 3",
+      "wallet": "class"
+    },
+    {
+      "detail": "equipment requirement",
+      "dp": 2,
+      "item": "Shields 2",
+      "wallet": "class"
+    },
+    {
+      "detail": "equipment requirement",
+      "dp": 4,
+      "item": "Shields 3",
+      "wallet": "class"
+    }
+  ],
+  "level": 1,
+  "name": "Gorma",
+  "notes": [
+    "Melee granted twice; second grant is waste (08:99)",
+    "Armor granted twice; second grant is waste (08:99)",
+    "culture grants Athletics +1",
+    "Armor already granted; requested rank is waste",
+    "Shields already granted; requested rank is waste",
+    "background DP 9/9 spent",
+    "auto skipped Sanctuary: cannot afford Protection 1 for Sanctuary (4 DP)",
+    "class DP 12/12 spent",
+    "unspent DP: background 0, class 0"
+  ],
+  "shield": "large",
+  "shield_dr": 3,
+  "skills": {
+    "Athletics": 1,
+    "Endurance": 1,
+    "Parry": 1,
+    "Perception": 1,
+    "Survival": 1
+  },
+  "tier": "Novice",
+  "ward_dr": 0,
+  "weapon": "one-hand"
+}

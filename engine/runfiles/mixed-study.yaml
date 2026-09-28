@@ -1,0 +1,94 @@
+# Canonical mixed run: classes compared at fixed level, and the study block
+# that produces the layer-value (8.4) and healer-delta (8.5) reports across
+# every policy in this file.
+run:
+  name: mixed-study
+  seed: 20260927
+  iterations: 3000
+  round_limit: 30
+  events: first:50
+  flags: {morale: false, cover: false, terrain: false}
+
+party:
+  - id: P1
+    name: Gorma
+    class: Protector
+    level: 5
+    ancestry: Dwarf
+    culture: Mountain
+    attributes: {Brawn: 2, Fortitude: 2, Agility: -1, Guile: 0, Knowledge: 0, Reason: 0}
+    disciplines: [Armor, Shields]
+    cards: auto
+    equipment: {armor: light, shield: small}
+    policy: default
+
+  - id: P2
+    name: Vaelith
+    class: Blade
+    level: 5
+    ancestry: Elf
+    culture: Twilight Elf
+    attributes: {Brawn: 1, Fortitude: 0, Agility: 2, Guile: 1, Knowledge: -1, Reason: 0}
+    disciplines: [Melee, Stealth]
+    cards: auto
+    equipment: {armor: light, weapon: one-hand}
+    policy: default
+
+  - id: P3
+    name: Sera
+    class: Arcanist
+    level: 5
+    ancestry: Human
+    culture: Imperial
+    attributes: {Brawn: 0, Fortitude: 0, Agility: 0, Guile: 0, Knowledge: 2, Reason: 1}
+    disciplines: [Fire, Energy]
+    cards: auto
+    equipment: {armor: none, weapon: one-hand}
+    policy: default
+
+  - id: P4
+    name: Haldra
+    class: Shepherd
+    level: 5
+    ancestry: Dwarf
+    culture: Hill
+    attributes: {Brawn: -1, Fortitude: 1, Agility: 0, Guile: 1, Knowledge: 0, Reason: 2}
+    disciplines: [Protection, Animal]
+    cards: auto
+    equipment: {armor: light, weapon: one-hand}
+    policy: default
+
+opposition:
+  - creature: Knight
+    count: 2
+    challenge_override: null
+    policy: default
+  - creature: Orc
+    count: 4
+    challenge_override: null
+    policy: default
+
+policies:
+  default:
+    target_selection: focus_lowest_hp
+    maneuver_priority: [defend, catch_breath]
+    grit_at_zero: spend
+    heal_policy: at_or_below_half
+    shield_block: true
+  aggressive:
+    target_selection: focus_highest_threat
+    maneuver_priority: [catch_breath, defend]
+    grit_at_zero: spend
+    heal_policy: only_at_zero
+    shield_block: true
+  cautious:
+    target_selection: random
+    maneuver_priority: [defend]
+    grit_at_zero: stay_down
+    heal_policy: at_or_below_half
+    shield_block: true
+
+study:
+  layers: true
+  healers: true
+  iterations: 500
