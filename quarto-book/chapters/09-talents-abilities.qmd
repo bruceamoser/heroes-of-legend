@@ -280,11 +280,11 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 === Pinpoint Strike (Weapon Maneuver)
 *Disciplines:* 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Piercing, Damage
 
-*Weak:* +1 damage tier on your next weapon attack, and Piercing 1.
+*Weak:* +1 damage tier on your next weapon attack, and that attack ignores 1 point of DR.
 
-*Standard:* +1 damage tier on your next weapon attack, and Piercing 2.
+*Standard:* +1 damage tier on your next weapon attack, and that attack ignores 2 points of DR.
 
-*Strong:* +1 damage tier on your next weapon attack, and Piercing 3.
+*Strong:* +1 damage tier on your next weapon attack, and that attack ignores 3 points of DR.
 
 === Dual Strike (Weapon Maneuver)
 *Disciplines:* 1 Melee · *Action:* Action · *Range:* Melee · *Keywords:* Two attacks
@@ -327,9 +327,9 @@ A maneuver's Weak/Standard/Strong block is that card's Novice effect, on the Nov
 
 *Weak:* +1 damage tier on your next weapon attack.
 
-*Standard:* +1 damage tier on your next weapon attack.
+*Standard:* +1 damage tier on your next two weapon attacks.
 
-*Strong:* +1 damage tier on your next weapon attack.
+*Strong:* +1 damage tier on your next three weapon attacks.
 
 === Cleave (Weapon Maneuver)
 *Disciplines:* 2 Melee · *Requires:* weapon:one-hand · *Action:* Action · *Range:* Melee · *Keywords:* Chain
@@ -365,9 +365,9 @@ This DR does not stack with any other source of DR.
 
 *Weak:* +1 damage tier against a wounded target.
 
-*Standard:* +1 damage tier against a wounded target.
+*Standard:* +1 damage tier against a wounded target, and the target is at Bane on its next attack.
 
-*Strong:* +1 damage tier against a wounded target.
+*Strong:* +1 damage tier against a wounded target, and the target is at Bane on all its attacks until the end of its next turn.
 
 === Through the Blind Spot (Weapon Maneuver)
 *Disciplines:* 2 Melee · 1 Stealth · *Action:* Action · *Range:* Melee · *Keywords:* Damage, Stealth
@@ -408,11 +408,11 @@ This DR does not stack with any other source of DR.
 === Headlong Rush (Weapon Maneuver)
 *Disciplines:* 2 Two-Handed · *Action:* Action · *Range:* Melee · *Keywords:* Movement, Damage
 
-*Weak:* Move up to your Speed and make one attack at +1 damage tier.
+*Weak:* Move up to your Speed and make one attack for 4 + Brawn damage.
 
-*Standard:* Move up to your Speed and make one attack at +1 damage tier.
+*Standard:* Move up to twice your Speed and make one attack for 6 + Brawn damage.
 
-*Strong:* Move up to your Speed and make one attack at +1 damage tier.
+*Strong:* Move up to twice your Speed and make one attack for 8 + Brawn damage; if it lands, the target is knocked Prone.
 
 === Brace (Weapon Maneuver)
 *Disciplines:* 2 Two-Handed · *Action:* Reaction · *Range:* Self · *Keywords:* DR
@@ -482,11 +482,11 @@ This DR does not stack with any other source of DR.
 === Heave (Weapon Maneuver)
 *Disciplines:* 1 Ranged · *Requires:* weapon:ranged · *Action:* Action · *Range:* 30 ft · *Keywords:* Ranged
 
-*Weak:* Heave a weapon up to 30 ft at +1 damage tier.
+*Weak:* Heave a weapon up to 30 ft for 4 damage.
 
-*Standard:* Heave a weapon up to 30 ft at +1 damage tier.
+*Standard:* Heave a weapon up to 30 ft for 6 damage, and Push 5 ft.
 
-*Strong:* Heave a weapon up to 30 ft at +1 damage tier.
+*Strong:* Heave a weapon up to 30 ft for 8 damage, and Push 10 ft; the target is knocked Prone.
 
 === Dead Reckoning (Weapon Maneuver)
 *Disciplines:* 1 Ranged · *Action:* Action · *Range:* 60 ft · *Keywords:* Marked, Ranged
