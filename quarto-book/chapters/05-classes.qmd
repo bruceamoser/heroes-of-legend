@@ -206,7 +206,7 @@ The Shepherd stands as a beacon of guidance, providing moral direction and harne
 
 *Health Points:* 10 + Fortitude + Reason.
 
-*Signature, Unholy Word:* Call down divine energy that ignores armor and affects only undead creatures within your presence. Your faith burns what should not walk.
+*Signature, Unholy Word:* You gain the Turn Unholy spell for free, and its 1 Religion requirement is waived. Your faith burns what should not walk.
 
 *Favored Skills:* Medicine, Nature, Religion, Survival
 
@@ -351,7 +351,7 @@ The Leader is a beacon of courage on the battlefield, leading from the front lin
 
 *Health Points:* 10 + Fortitude + Guile.
 
-*Signature, Lead by Example:* When you land a telling blow on an enemy, grant one ally who witnessed it a Boon on their next roll. Your actions inspire greatness in others.
+*Signature, Lead by Example:* When you land a Strong hit on an enemy, grant one ally who witnessed it a Boon on their next roll. Your actions inspire greatness in others.
 
 *Favored Skills:* Persuasion, Perception, Insight, Survival, Endurance
 
