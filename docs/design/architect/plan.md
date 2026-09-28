@@ -1926,7 +1926,8 @@ the retired field, and the only instrument that also carried the retired LAW.
   Bruce. No chapter file changed this cycle, so no book build was owed.
 
 **Housekeeping.** No worktree was created (the cycle's work was the gate and the records); `/tmp` bodies were written
-  to the scratch dir and removed; the ledger sweep for rows whose STATUS still reads open returns **0 of 246**; the
+  to the scratch dir; the `rm` was guard-blocked for the second cycle running (three deletions inside 20s trips the
+  cron security scanner) and the 72h prune covers them; the ledger sweep for rows whose STATUS still reads open returns **0 of 246**; the
   five remaining open issues are all live (#802 and #805 the two analysis issues awaiting Bruce's INTENT calls, #808
   the HP-ruling follow-ups, #822 and #823 both now genuinely gated and pinned).
 
