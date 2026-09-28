@@ -22,9 +22,9 @@ When you take physical damage, subtract your Damage Reduction (DR) from the dama
 
 Your DR comes from one source at a time: your armor, a talent, or a spell. Armor's DR is set by its weight class: light 1, medium 2, heavy 3. Heavier armor is heavier in every sense. If more than one source gives you DR, use the highest. Armor, talents, and wards do not add together.
 
-*Shield DR is the exception.* DR from a shield is *shield DR*. Your shield carries a rating, and you apply it with the Shield Block reaction, never to your DR total. Shield DR does not add to the DR you carry from armor, talents, or wards, so the ceiling below is unaffected by it. Only one shield's rating ever applies: a second shield is worth nothing on top of the first.
+*A shield is not a source of DR.* A shield works on the roll, not on the damage: Shield Block grants a Boon on your Defense Roll, and the shields section below covers it. Armor, talents and wards are the only sources of DR.
 
-*There is a ceiling.* Your total DR from armor, talents, and wards cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. The ceiling is each tier's Weak damage value minus one, so it moves with the damage band (@sec-damage-budget). A hit must always be able to land for something, and the three tiers of a damage band have to stay distinct at every level. If DR could climb past that ceiling the roll would stop carrying information, and light, medium, and heavy armor would stop being three different choices. The highest source governs up to the ceiling, and no further. Shield DR is not part of this total.
+*There is a ceiling.* Your total DR from armor, talents, and wards cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. The ceiling is each tier's Weak damage value minus one, so it moves with the damage band (@sec-damage-budget). A hit must always be able to land for something, and the three tiers of a damage band have to stay distinct at every level. If DR could climb past that ceiling the roll would stop carrying information, and light, medium, and heavy armor would stop being three different choices. The highest source governs up to the ceiling, and no further.
 
 *Ranks set the size of a grant.* A DR grant requires Discipline ranks at least equal to the DR it grants: DR 2 costs 2 ranks, DR 3 costs 3. The armor table's light 1, medium 2, heavy 3 column is the same scale.
 
@@ -77,25 +77,17 @@ What you wear is worth its points in DR: light armor grants 1, medium 2, heavy 3
 
 A shield is an active defense. You're not just wearing it, you're using it. When an attack comes in, you can throw the shield in its path.
 
-Shields come in three classes. The class sets the shield DR, its slot cost, and the Discipline requirement that follows it, which is how many ranks in the Shields Discipline you need to wield it, with no exception. The full rules live in @sec-chapter-disciplines
+A shield is one item, whatever you call it. It takes one hand and 1 slot, it asks for no Discipline rank of its own, and it grants no DR. What a shield does is let you use the Shield Block reaction, and what Shields ranks buy is the cards that deepen it. The full rules live in @sec-chapter-disciplines
 
-*Small shields (1 Shields, shield DR 1, 1 slot).* A buckler, a targe, a parma. Gripped in the fist or strapped to the forearm, and light enough to keep working behind. A small shield leaves your hand free for a second weapon or a wand.
-
-*Medium shields (2 Shields, shield DR 2, 2 slots).* A heater, a kite, a round shield, a rotella. Strapped to the arm and covering shoulder to hip. This is the standard.
-
-*Large shields (3 Shields, shield DR 3, 3 slots, half cover).* An aspis, a scutum, a tower shield, a pavise. A portable wall, big enough to hide most of you behind. You move at -5 ft speed while carrying one. You can plant it as a maneuver to grant full cover to one ally directly behind you.
-
-The names are flavor, not statistics. A buckler, a targe, and a parma are all small shields, and all shield DR 1. Carry the one your character would actually carry.
-
-Speed penalties from shields do not stack: you take -5 ft once, no matter how many shields you carry or wield.
+A buckler, a targe, a parma, a heater, a kite, a round shield, a rotella, an aspis, a scutum, a tower shield and a pavise are all the same shield. The names are description: say what your hero carries, and carry the one they would actually carry. Half cover and a Speed penalty are things a card grants, never the size of the board.
 
 === Shield Block (Reaction)
 
-When an attack hits you, you may use your reaction to interpose your shield, reducing the damage by your shield's DR. You must be wielding a shield and be aware of the attack. Shield Block applies to one attack per round. Reactions in general are covered in @sec-chapter-combat
+When an attack comes at you and you can see it, you may use your reaction to put your shield in its path. Your Defense Roll for that attack is made with a Boon: Boon 1 at Novice, Boon 2 at Adept, and Boon 3 at Master. Shield Block applies to one attack per round. Reactions in general are covered in @sec-chapter-combat
 
-Shield Block cannot reduce damage below 1. It can be used against melee attacks, ranged attacks, and spell attacks, anything you can see coming.
+A Boon moves the blow up the tiers, and it never makes the attack miss: a shield turns a telling hit into a glancing one, it does not stop the blade reaching you.
 
-#quote[*DA Guidance:* Let the player declare Shield Block after hearing the damage tier result, not before. This makes shields feel active and tactical rather than just a passive DR bonus.]
+#quote[*DA Guidance:* Shield Block is declared when the attack is named, before the dice, because it changes the roll. Make the player commit the reaction to the blow they fear most, and let them hear which attack it is before they spend it.]
 
 #pagebreak()
 
@@ -123,13 +115,11 @@ Remember how this works. The DA never rolls for monsters (@sec-chapter-combat) T
 
 *Goblin 2 attacks:* "The second goblin circles wide, scimitar raised for an overhead cut. Challenge 1." Roric rolls 3d6 + 2. He rolls 1, 2, 3 = 6 + 2 = 8. *Weak.* The blow lands solid: Strong damage, 8. 8 - 3 = 5 damage. Roric doesn't flinch. He's at 5 HP now, and he's only been standing here one round.
 
-*Orc warchief attacks:* "The warchief says nothing. He doesn't need to. His greataxe comes around in a two-handed arc. Challenge 3." This is the one that matters. Roric rolls 3d6 + Brawn +2 + Parry +1 - 3 = 3d6. He rolls 4, 4, 3 = 11. *Standard.* The axe lands for Standard damage: 6.
+*Orc warchief attacks:* "The warchief says nothing. He doesn't need to. His greataxe comes around in a two-handed arc. Challenge 3." This is the one that matters. Roric's player spends the reaction here, before the dice. Roric rolls 4d6 and keeps the highest three: 6, 5, 4, 3 becomes 6, 5, 4 = 15. *Strong.* The axe lands for Weak damage: 4.
 
-*Roric's player:* "Shield Block."
+The Boon did its work before the dice ever landed. A hit that was going to land Standard for 6 lands Weak for 4 instead. His armor's DR 3 takes the rest: 4 - 3 = 1 damage. The greataxe slams into Roric's shield, ringing off the boss like a temple bell. The haft cracks at the binding, but the blade barely reaches him.
 
-He spends his reaction. The shield's DR 1 takes the edge off the blow: 6 - 1 = 5. Then his armor's DR 3 does the rest: 5 - 3 = 2 damage. The greataxe slams into Roric's shield, ringing off the boss like a temple bell. The haft cracks at the binding, but the blade barely reaches him.
-
-That is 3 + 5 + 2 = 10 damage across the round, and Roric stands at 3 HP of his 13. Without the shield he would have taken 6 - 3 = 3 from that swing instead of 2. Shield Block is what the board in his hand is for: one attack each round, paid for with his reaction.
+That is 3 + 5 + 1 = 9 damage across the round, and Roric stands at 4 HP of his 13. Without the shield he would have taken 6 - 3 = 3 from that swing instead of 1. Shield Block is what the board in his hand is for: one attack each round, paid for with his reaction.
 
 #pagebreak()
 

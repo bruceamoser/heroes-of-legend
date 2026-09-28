@@ -27,7 +27,7 @@ Every card that asks for gear names a tag in its Requires field. Here is every t
     [`weapon:one-hand`], [None], [A one-handed weapon in your hand],
     [`weapon:two-hand`], [None], [A greatsword, maul, halberd, or other weapon held in both hands],
     [`weapon:ranged`], [None], [A bow, crossbow, or thrown weapon in hand],
-    [`shield`], [1 Shields], [A shield on your arm],
+    [`shield`], [None], [A shield on your arm],
     [`focus:arcane`], [None], [A wand, staff, or orb, held for the spell's full effect],
     [`focus:holy`], [None], [A holy symbol, held for the spell's full effect],
     [`focus:primal`], [None], [A primal focus, held for the spell's full effect],
@@ -110,14 +110,14 @@ Improvised weapons (a crowbar swung as a club, a hammer in a pinch) deal 1/1/2 +
 #callout(type: "note", title: "Armament Categories", body: [
 A card's requirement names a slot: unarmed, one-handed melee, light one-handed melee, two-handed melee, reach, thrown, ranged, or a shield. The slot is what the card assumes, not a permission you need. You carry and swing whatever you like, and you decide what the weapon is.
 
-How many slots you fill at once is set by hands and carrying, not by rank: two hands hold one two-handed weapon, or two one-handed weapons, or one and a shield. A shield is the exception to the ranks, because its class sets its shield DR: wielding one takes Shields ranks by its size, 1 for a small shield, 2 for a medium one, 3 for a large one, and it takes slots on the same ladder. A card that requires a shield requires you to be wielding one.
+How many slots you fill at once is set by hands and carrying, not by rank: two hands hold one two-handed weapon, or two one-handed weapons, or one and a shield. A shield takes one of those hands and 1 slot, and it asks for no rank of its own: what Shields ranks buy is the cards that use it. A card that requires a shield requires you to be wielding one.
 ])
 
 #pagebreak()
 
 == Armor
 
-Armor is what you wear, and it is worth its points in DR: light grants 1, medium 2, heavy 3. A talent or ward does not add to that: use the higher of the two, and your tier caps the total. Shield DR is not part of that total: a shield's DR arrives through the Shield Block reaction, which applies it to one attack per round. Beyond the number, armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields A caster in heavy armor buys 3 Armor ranks at his class's rates (for each class's Discipline cost table, see @sec-chapter-classes) which is why armor is a cost and not a prohibition.
+Armor is what you wear, and it is worth its points in DR: light grants 1, medium 2, heavy 3. A talent or ward does not add to that: use the higher of the two, and your tier caps the total. No shield is part of that total either: a shield grants no DR at all, it grants a Boon on the Defense Roll through the Shield Block reaction, which applies to one attack per round. Beyond the number, armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields A caster in heavy armor buys 3 Armor ranks at his class's rates (for each class's Discipline cost table, see @sec-chapter-classes) which is why armor is a cost and not a prohibition.
 
 #figure(
   align(center)[#table(
@@ -132,7 +132,7 @@ Armor is what you wear, and it is worth its points in DR: light grants 1, medium
   outlined: false,
 )
 
-Shields come in three classes: *small* (1 Shields, shield DR 1, 1 slot), *medium* (2 Shields, shield DR 2, 2 slots), and *large* (3 Shields, shield DR 3, 3 slots, half cover, and -5 ft Speed). The names are flavor: a buckler is a small shield, a heater a medium one, and a tower shield a large one. A shield enables Parry and Shield Block. See @sec-chapter-armor-shields
+A shield is one item, whatever you describe it as: one hand, 1 slot, no DR, no size. Shield Block is where it earns its keep, granting a Boon on your Defense Roll, and a shield enables Parry. See @sec-chapter-armor-shields
 
 == Encumbrance
 

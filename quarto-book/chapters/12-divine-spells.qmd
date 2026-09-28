@@ -231,15 +231,15 @@ The primal twin of the ladder wears an animal's hide, scale, and shell: Beast Hi
 This DR does not stack with any other source of DR.
 
 === Ward of Faith (Novice Divine Spell)
-*Disciplines:* 1 Protection · *Requires:* focus:holy · *Cast:* Action · *Range:* Touch · *Keywords:* DR
+*Disciplines:* 1 Protection · *Requires:* focus:holy · *Cast:* Action · *Range:* Touch · *Keywords:* Boon
 
-*Weak:* +1 shield DR to another creature you touch, until the start of your next turn.
+*Weak:* A Boon on the target's Defense Roll, until the start of your next turn.
 
-*Standard:* +1 shield DR to another creature you touch for 1 round.
+*Standard:* A Boon on the target's Defense Roll for 1 round.
 
-*Strong:* As standard, and one ally of the target within 10 ft also gains +1 shield DR.
+*Strong:* As standard, and one ally of the target within 10 ft also gains a Boon on their Defense Roll.
 
-The ward is shield DR, not a shield: it does not enable Shield Block, Parry, or any other ability that requires a shield.
+The ward is a Boon on the roll, not a shield: it does not enable Shield Block, Parry, or any other ability that requires a shield.
 
 === Sanctuary (Novice Divine Spell)
 *Disciplines:* 1 Protection · *Requires:* focus:holy · *Cast:* Action · *Range:* 30 ft · *Keywords:* Bane
@@ -298,7 +298,7 @@ This DR does not stack with any other source of DR.
 
 This DR does not stack with any other source of DR.
 
-This DR is not shield DR: it counts against the ceiling with your other sources.
+This DR counts against the ceiling with your other sources.
 
 == Religion Spells
 

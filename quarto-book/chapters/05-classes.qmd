@@ -707,7 +707,7 @@ Every class has a list of abilities unique to it. These are the moves, spells, a
     [*Bulwark*], [Adept], [1 Armor, 1 Shields], [As an action], [You and all adjacent allies gain +2 DR until the start of your next turn.],
     [*Overrun*], [Adept], [1 Two-Handed, 1 Unarmed], [When you move and attack an enemy in the same turn], [The enemy is knocked Prone before you deal damage. Once per turn.],
     [*Ironhide*], [Adept], [2 Armor], [When you take damage], [Reduce it by your DR, then gain +1 DR until the start of your next turn.],
-    [*Interpose*], [Master], [3 Shields], [When an attack hits an ally within 5 ft], [You take the attack instead. Resolve it against your DR, and your Shield Block applies to it.],
+    [*Interpose*], [Master], [3 Shields], [When an attack is aimed at an ally within 5 ft], [You take the attack instead. Resolve it against your DR, and your Shield Block applies to it.],
     [*Hold the Line*], [Master], [2 Shields, 1 Armor], [As an action], [For 1 minute, you cannot be moved by any effect short of a deity. Enemies adjacent to you at the start of their turn cannot move until they leave your reach.],
     [*Unbreakable*], [Master], [2 Armor, 1 Shields], [When you are reduced to 0 HP], [You instead drop to 1 HP and gain 15 temporary HP. Once per session.],
   )],

@@ -561,9 +561,9 @@ This DR does not stack with any other source of DR.
 *Strong:* Deal 8 damage, Push 5 ft, and the target is Prone. Your shield lands 30 ft away and you are not wielding a shield until you pick it up.
 
 === Braced Guard (Maneuver)
-*Disciplines:* 1 Shields · *Requires:* shield · *Action:* Maneuver · *Range:* Self · *Keywords:* DR
+*Disciplines:* 1 Shields · *Requires:* shield · *Action:* Maneuver · *Range:* Self · *Keywords:* Boon
 
-*Effect:* Set your shield. Until the start of your next turn, your Shield Block reaction applies to every attack that hits you, not just one.
+*Effect:* Set your shield. Until the start of your next turn, your Shield Block reaction applies to every attack that comes at you, not just one.
 
 === Shield Press (Weapon Maneuver)
 *Disciplines:* 1 Shields · *Action:* Action · *Range:* Melee · *Keywords:* Grapple, Control
@@ -584,14 +584,14 @@ This DR does not stack with any other source of DR.
 *Strong:* Deal 8 damage and Push 5 ft; the target is Prone.
 
 === Lock Shields (Maneuver)
-*Disciplines:* 2 Shields · *Requires:* shield · *Action:* Maneuver · *Range:* 5 ft · *Keywords:* DR
+*Disciplines:* 2 Shields · *Requires:* shield · *Action:* Maneuver · *Range:* 5 ft · *Keywords:* Boon
 
-*Effect:* Choose any number of allies within 5 ft who are wielding shields, including yourself. Until the start of your next turn, each of you gains +1 shield DR.
+*Effect:* Choose any number of allies within 5 ft who are wielding shields, including yourself. Until the start of your next turn, each of you rolls their Defense Roll with Boon 2.
 
 === Interpose (Maneuver)
-*Disciplines:* 3 Shields · *Requires:* shield · *Action:* Reaction · *Range:* 5 ft · *Keywords:* DR
+*Disciplines:* 3 Shields · *Requires:* shield · *Action:* Reaction · *Range:* 5 ft · *Keywords:* Boon
 
-*Effect:* When an attack hits an ally within 5 ft, you take the attack instead. Resolve it against your DR, and your Shield Block applies to it.
+*Effect:* When an attack is aimed at an ally within 5 ft, you take the attack instead. Resolve it against your DR, and your Shield Block applies to it.
 
 === Renewal (Weapon Maneuver)
 *Disciplines:* 1 Protection · *Action:* Maneuver · *Range:* Self · *Keywords:* Healing
