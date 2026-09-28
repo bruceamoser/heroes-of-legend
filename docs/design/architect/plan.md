@@ -2060,7 +2060,9 @@ The external agents finished inside the same cycle, so the audit happened rather
 
 **Delivered:** the corrected single-path work order as the gate comment on `#862` (file set, every old->new string, the recomputed example, five gates, acceptance), and `/tmp/hol-wt-shields/.task-spec.md` re-seeded with it so the reset window is one dispatch command. **No dispatch made: the cap is a bound, not a target.**
 
-**Housekeeping.** Both audit worktrees removed and pruned; `#869`'s branch deleted on origin; `#822` closed; `/tmp/hol-wt-shields` kept as the seeded home of `#862`; the gate spec's `/tmp` copy deleted after seeding.
+**Housekeeping.** Both audit worktrees removed and pruned; `#869`'s branch deleted on origin; `#822` closed; `/tmp/hol-wt-shields` kept as the seeded home of `#862` and fast-forwarded to `main`; the gate spec's `/tmp` copy deleted after seeding. **One more worktree was found and deliberately NOT touched: `/tmp/hol-wt-hp` (`hol/hp`, commit `a9abb6f`, authored 16:56 EDT, pushed to origin) is a live external work order for the one pinned fact `#808` left unstated (ch03's reachable HP span, 6 to 14). It is in flight, not stale: its PR is incoming and is the next audit.**
+
+**A finding the audit produced for free: an external actor is committing directly to `hol/*` branches minutes before this loop ticks.** `#869` appeared at 15:55Z and `a9abb6f` at 20:56Z, both between cycles, both landing on origin without an issue-side handoff. The audit path holds; the SENSE step should read `git branch -r --sort=-committerdate` rather than only the open-PR list, or a finished-but-unpushed branch reads as nothing at all.
 
 **Queue after this cycle: #862 (ruled, dispatch-ready at the reset) > #863 (chains behind it, same file) > #805, #802 (Bruce's).** No PRs open.
 
