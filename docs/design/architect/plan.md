@@ -1771,3 +1771,39 @@ the retired field, and the only instrument that also carried the retired LAW.
 - **Next:** #822 at the 2026-09-29 00:00Z cap reset (five amplifier cards, ch09 only, rung texts pinned), then #823's
   scoping sentence, then the death-roll career measure — the only thing that ends a career and still has no
   instrument.
+
+## State at cycle 75 (2026-09-28, verified against the repo, not recalled)
+
+- **Nothing was in flight, and no agent could be sent.** 0 open PRs; 5 open issues (#802, #805, #808, #822, #823),
+  none carrying `s:working`; the wake was my own cycle-74 landing (#841 closed) and this UTC date's three
+  dispatches (#809, #807, #818) were already spent, so the reset is 2026-09-29 00:00Z. The cycle therefore took the
+  one work order that needs no dispatch — and it was the one the last three cycles kept naming as next.
+- **The career's terminus is measured.** Row 244's follow-up ("the death-roll career measure, which is now the only
+  thing that ends a career and has no instrument") is closed by `scripts/death-roll-career.py`, which joins the three
+  links the sibling instruments stopped short of: the TRIGGER (a day's drops against that tier's Grit bank — an
+  episode needs drops > Grit), the EPISODE, and the TERMINUS (the first fatal episode ends the career). Field, Grit
+  ladder and plateau are all imported; nothing is typed. Median career in days, even-spread / ceiling:
+  **Novice** Easy 72/16, Standard 54/13, Hard 10/7, Deadly 3/2; **Adept** 552/55, 269/30, 10/10, 3/2;
+  **Master** 5031/249, 1644/93, 23/20, 3/2.
+- **`death-roll-census.py`'s headline was a mis-modelled quantity, and the correction is the load-bearing number in
+  the whole economy.** It printed `1 - (1 - W - F)^n` as "dead or dead-rolling by round n", which counts a Weak
+  followed by a stabilization as a failure. The printed rule ends the rolling on Critical, Strong or Standard, so a
+  failure can only accumulate after a Weak and a Fumble is death on the spot:
+  **P(dead | episode) = F(1 + W + W²) + W³ = 2.26% / 13.22% / 31.67% / 51.14%** at 0-1 / 2 / 3 / 4+ wounds. The old
+  figure read 59.36% at 0-1 wounds — 26x the truth — and it was in the instrument the row-244 sweep had already
+  blessed. A hero carrying four Wounds who runs out of Grit dies on a coin flip.
+- **What the measurement says about the ladder, in the book's own terms.** The dial `19:55` describes is the pair
+  Easy/Standard ("one long" against "short bright"), and measured they behave almost the same: Easy/Standard is
+  **1.33x at Novice, 2.05x at Adept, 3.06x at Master**, while the step the sentence does not name, Standard -> Hard,
+  is **5.4x / 26.9x / 71.5x**. At the Standard rung the death roll is rare-to-unreachable: the trigger day is 2.8% of
+  days at Novice and 0.08% at Master, where Grit 4 absorbs a whole Standard day. This is a finding about guidance
+  PROSE, not a number, so it is recorded and not rewritten.
+- **The manuscript's last retired-field figure is gone.** The field sweep of cycle 73 named four inheriting sites;
+  the book had a **fifth**, `18:23`, printing *"A Standard fight costs about one Wound"* — the pre-#807 reading
+  (1.00 per hero against a live mid of 0.32/0.34/0.35). A grep of all 25 chapters for `about one Wound`, the six-
+  and seven-creature counts, `x1.5` and the 4.94/4.27/4.20 round figures returns this one line and one false
+  positive (`02:19`'s "about twenty minutes"). Fixed to *"costs a hero about a third of a Wound"*, `19:55`'s own
+  printed clause, and the missing subject that let the stale number survive is closed by naming the hero.
+- **Next:** #822 at the 2026-09-29 00:00Z cap reset (five amplifier cards, ch09 only, rung texts pinned), then #823's
+  scoping sentence, then #808's follow-ups. Nothing else is queued for the architect: the queue's remaining five
+  issues are two dispatchable and three measured.
