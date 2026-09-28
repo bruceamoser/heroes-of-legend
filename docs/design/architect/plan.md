@@ -1538,3 +1538,48 @@ The queue emptied at `f7e5328` (0 issues, 0 PRs, ledger 227 with no unbuilt mark
 - **Nothing was dispatched and no chapter was touched**, so the book is unchanged at 408 pages / 87,818 words.
 - **Housekeeping:** docs-only branch, deleted by its own squash merge; no worktree; one checkout; scratch at `/tmp/hol-811/` noted for deletion (`rm` is blocked under cron approval, and the Hermes scratch self-prunes).
 - **Next:** the next wake dispatches #809 and #807 in parallel worktrees (file-disjoint: ch02/03/05/21 against ch19) and audits both against their pinned numbers; #811 then gets a clean window. Rows 228 and 235 remain Bruce's, unchanged.
+
+## State at cycle 63 (2026-09-28, all numbers re-derived from the repo, none recalled)
+
+- **The wake was `thinking_due` alone** on a queue that was thin rather than empty (0 open PRs, 6 standing
+  issues, 0 unbuilt rows, assessment 9 of 9), so priority 1 did not fire and the act was the head of the
+  ordered queue: **#809 dispatched, audited and merged** as PR #813 (squash `a42b49c`).
+- **The dispatch gate ran first and corrected three things; the agent then found three more in the same
+  class.** The corrections before dispatch: the `B2` anchor cited line 49 for `For the full skill list`
+  when the line is **43**; two OLD strings in the nine-build table are byte-identical (485 and 524) with
+  different NEW values, so the spec now says edit by line number; and acceptance item 6's count was
+  restated as occurrences. The three the AGENT reported (all correct, none papered over): item 3's
+  `-> 0` is impossible because B1 pins the Arcanist's and Intellect's new lines as exactly that string
+  (**2** is right); `grep -c` counts lines, not occurrences (**4 lines / 5 occurrences**); and `Table 3.1`
+  renders **6** times but the pipe-regex sees **5** because one ref wraps in the text layer. **Lesson: the
+  dispatch gate needs a third pass over the ACCEPTANCE section specifically, and any count item must name
+  its command, because `-c` and `-o | wc -l` answer different questions.**
+- **Every pinned number was re-derived from the file before dispatch.** The nine build HP values all
+  recompute from their printed attributes: Makeva 10+0+Guile 1 = 11, Arcanist 10+0+Know 2 = 12, Intellect
+  12 (unchanged), Shepherd 10+1+Reason 2+Sturdy 2 = 15, Leader 10+0+Guile 1 = 11, Blade 10+0+Agility 2 = 12,
+  Shadow 10+0+Guile 1 = 11, Protector 10+1+Brawn 2+Sturdy 2 = 15, Unbalanced 10+0+Brawn 1 = 11. The class
+  map was checked against each class's own SECTION rather than the spec's list order, because ch05 runs
+  Protector, Blade, Arcanist, Shepherd, Intellect, **Odd**, Leader, Unbalanced, Shadow, and the nine
+  `*Class Discipline (L1):*` insert anchors (57 / 102 / 154 / 199 / 244 / 289 / 338 / 390 / 460) each land
+  in the class the spec assigns them.
+- **The dependents sweep came back clean.** `10 + Fortitude + Knowledge` lived at exactly three sites
+  (02:219, 03:78, 21:73), all three in the edit list; "Health Points" prose at five sites (those three plus
+  03:92 and 03:98), all covered; the DP formula `8 + Knowledge + Fortitude` has exactly the five sites the
+  spec calls untouched; no other chapter restates a build's HP; and `09:43`'s Tough "+2 maximum HP" is a
+  flat bonus to a maximum, not a formula, so it does not move.
+- **The ref was resolved by finding the mechanism, not by assuming one.** `02:7` is a crossref show-rule
+  mapping labels to hand-written table numbers; the agent added the third branch for `tbl-class-health`.
+  Empirically confirmed on the built PDF: `Table 3.1` appears **6** times, no `Table 5.1`, **0** `??`.
+  The book's table captions use the FILE number (ch02 = 2.1/2.2/2.3, ch06 6.1/6.2, ch13 13.1-13.5) while
+  chapter refs use the printed offset number, which is the documented divergence, not a defect.
+- **Audit (mine, not the agent's report):** file set exactly the four named chapters; 68 added lines with
+  **0** em-dash, **0** damage dice, **0** numeric roll modifiers, **0** flat damage riders, **0** markdown
+  bold; native gate exit 0; my own builds of `e4d7e53` (408 pages, 97,900 PDF words) and of the branch
+  (409 pages, 98,184) both exit 0; render read back by normalised extraction rather than by grepping the
+  diff. One architect alignment fix landed on the branch: the new table now orders the nine classes as
+  ch02 and ch05 do (Odd after Intellect, not last) - a pure row permutation, no value moved.
+- **Housekeeping resolved a latent data hazard:** the parked checkout carried one unpushed commit
+  (`chore(sim)` tracking `scripts/combat-sim.py` and `scripts/combat-sim-v2.py` in the repo, which the
+  instrument law forbids). v2 was preserved byte-identically (sha256 verified) into the skill's `scripts/`;
+  v1's skill copy is the newer superset (it carries the `audit_tables()` negative control); the commit was
+  then dropped and the checkout left CLEAN at `a42b49c`. Two scratch worktrees removed, one remains.
