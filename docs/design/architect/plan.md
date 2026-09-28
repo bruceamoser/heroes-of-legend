@@ -2041,3 +2041,26 @@ The external agents finished inside the same cycle, so the audit happened rather
 
 **Queue after this cycle: #862 (Bruce's shields ruling, unbuilt) > #822 (ch09) > #863 (ch05/ch02 signatures) > #805, #802 (Bruce's).** No PRs open.
 
+## Cycle 80 — 2026-09-28 — `d0bdacb`
+
+**The wake was a work PR landing, not a clock: `#869` (the five ch09 amplifier cards) opened at 15:55Z. Inspect first, and it earned the merge.** Audited against its order (`#822`) and merged as `d0bdacb`:
+
+- **The diff is the order, verbatim**: five cards, 13 changed lines, one file, nothing else touched. The two Weak rungs the order left alone are untouched.
+- **All four gates re-run by me on the branch, not read from the report**: `flat-rung-census.py` identical triples **4 -> 0** with the corpus steady at **161 cards** (a shrinking corpus would have read as a fix and been a broken parse); `card-vocabulary-census.py` gate sites **9 -> 6**, the three numeric `Piercing` sites gone with the six ch12 `Recurring` sites (out of scope) standing, corpus steady at **245 cards / 245 headings**; `audit-rung-monotonicity.py` **0 flagged** at 162 W/S/S cards; the rung census's own `--selftest` passes.
+- **Independent build at a detached worktree of the branch: exit 0, 407 pages**, and a second build at `origin/main` also 407: no layout regression and no page-count lie.
+- **Render verified page by page, wrapped lines included**: `that attack ignores 1/2/3 points of DR` at 162, `next two/three weapon attacks` at 163, `wounded target, and the target is at Bane on all its attacks until` (wrapped across 164, so the fragment search returned 0 and I read the page), `for 4 + Brawn` at 165, `Heave ... for 6 damage` and `Push 10 ft` at 167. Negative controls all 0: `Piercing 1`, `Piercing 3`, `one attack at +1 damage tier`, `up to 30 ft at +1 damage tier`.
+- **Conventions checked, not assumed**: `4 + Brawn` on a melee maneuver is the book's own shape (`08:229` melee adds Brawn to the row; the Basic cards print `1 + Brawn` at `09:230-243`), and Heave is flat because thrown weapons are (`08:231`). `Piercing` left in Pinpoint Strike's Keywords field is legal: it is the damage type (`13:160`), and `11:169` declares it the same way.
+- `#822` closed by the merge, its branch deleted on origin, its worktree removed.
+
+**Then the queue head, `#862`, and the cap made this a gate cycle rather than a dispatch cycle.** This UTC date's three work orders (#809, #807, #818) are spent and the reset is 00:00Z; Bruce's own work order schedules the shields ruling ahead of #822 at that reset. So the act was the dispatch gate, and it found three things that would have cost a re-run:
+
+1. **Thirteen files, not five.** The retired statistic also lives in `08:195` (which justified a shield's own rank by *its DR is a number the object carries*), `09:589` (Lock Shields' `+1 shield DR`), `13:109`/`13:124`, `20:134` (the knight's Shield Block, which needs the sign law), `21:117`/`21:143`, and `22:251`/`22:360-366`/`22:383`. Counted by grep, not recalled.
+2. **The two spells the ruling names are not in the book.** No `Mage Armor`, no spell called `Shield`: the arcane ladder is the Aegis line and is already DR, so that half of the ruling needs no edit; the shield-flavoured ward is **Ward of Faith**, the only card that prints *shield DR* and calls itself one. Mapped, flagged, reversal word named.
+3. **A Boon is rolled, so the shield moves from after the dice to before the roll.** The DA guidance at `16:98` coaches the opposite and the worked example's arithmetic changes with it; I recomputed it end to end (`6, 5, 4, 3` keeps `6, 5, 4 = 15`, Strong defense, Weak damage 4, `4 - 3 = 1`, round total `3 + 5 + 1 = 9`, Roric at **4** HP of 13, and **3** without the shield instead of **1**) so the agent transcribes numbers rather than inventing them.
+
+**Delivered:** the corrected single-path work order as the gate comment on `#862` (file set, every old->new string, the recomputed example, five gates, acceptance), and `/tmp/hol-wt-shields/.task-spec.md` re-seeded with it so the reset window is one dispatch command. **No dispatch made: the cap is a bound, not a target.**
+
+**Housekeeping.** Both audit worktrees removed and pruned; `#869`'s branch deleted on origin; `#822` closed; `/tmp/hol-wt-shields` kept as the seeded home of `#862`; the gate spec's `/tmp` copy deleted after seeding.
+
+**Queue after this cycle: #862 (ruled, dispatch-ready at the reset) > #863 (chains behind it, same file) > #805, #802 (Bruce's).** No PRs open.
+
