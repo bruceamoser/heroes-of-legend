@@ -31,22 +31,24 @@ not documentation; it is a test.
 |---|---|
 | Character creation: attributes, ancestry, class, disciplines, cards, equipment | `02`, `03`, `04`, `05`, `18` |
 | Creature stat blocks: HP, damage, attacks/round, Challenge, DR, abilities | `20` |
-| Initiative and turn order | `13` |
-| Action / Maneuver / Reaction economy, one of each per turn, one Reaction per round | `13`, `09` |
-| Attack resolution: 3d6 + Attribute + Skill − modifiers | `06` |
-| **The Defense reversal**: defender rolls 3d6 + Defense − Challenge; a Strong defense means the attacker deals **Weak** damage | `06` §Reading the Defense Result, `13` |
-| Damage bands: Novice 4/6/8, Adept 5/8/11, Master 7/10/14; cantrips 1/3/5 | `08:213`, `10:48` |
-| DR: armour 1/2/3, ward 1/2/3, **highest source governs, no stacking**, ceiling 3/4/6 by tier | `16:27`, `16:31` |
-| Shield DR 1/2/3 via **Shield Block** reaction, on top of armour, **one attack per round**, total damage never below 1 | `16:96`, `16:130` |
-| Grit 2/3/4 by tier; returns only on a respite | `13:343`, `13:355` |
-| **A Wound on every drop to 0 HP, unconditionally** | `13:345` |
-| `Catch Breath`: Maneuver, `ceil(maxHP/3)`, uses per combat = Grit | `13:69` |
-| The Wound Table: D666, extra dice = wounds carried − 1 capped at 3, keep highest three, sort ascending, hundreds digit = band | `13:391`, `13:393` |
-| The death roll with the wound-scaled Bane ladder; stabilizing resets failures | `13:359` |
-| Healing: **half / full / full + rider**, Action, touch, single target, unlimited | `12:93`, `12:111`, `12:116` |
-| Concentration: one effect at a time; sustained effects cost the Maneuver | `10:110` |
-| Cards: DP costs 2/4/8, discipline rank gates, once-per-encounter / once-per-session limits | `10:44`, `09` |
-| Conditions: applied, ticked, expired | `13:184` |
+| Initiative and turn order | `13:19`-`13:31` |
+| Action / Maneuver / Reaction economy, one of each per turn, one Reaction per round | `13:29`-`13:41`, `13:91`, `09:15` |
+| Attack resolution: 3d6 + Attribute + Skill − modifiers | `06:17`-`06:21`, `06:81`-`06:89` |
+| **The Defense reversal**: defender rolls 3d6 + Defense − Challenge; a Strong defense means the attacker deals **Weak** damage | `06:99`-`06:136` (table at `06:121`), `13:116`-`13:132`, examples `06:142`, `06:152` |
+| The Challenge itself: a stat block's positive Challenge rating is negated onto the roll, minion tier and Challenge 1 both impose −1, the rating caps at −6 | `06:111` |
+| A Defense Roll crits and fumbles like any other roll: three 6s takes the monster's **Weak** damage, three 1s takes its **Strong** | `06:136` |
+| Damage bands: Novice 4/6/8, Adept 5/8/11, Master 7/10/14; cantrips 1/3/5 | `08:213`, `10:48`, `10:82` |
+| DR: armour 1/2/3, ward 1/2/3, **highest source governs, no stacking**, ceiling 3/4/6 by tier | `16:21`-`16:31`, `13:109` |
+| Shield DR 1/2/3 via **Shield Block** reaction, on top of armour, **one attack per round**, total damage never below 1 | `16:93`-`16:96`, worked example `16:130` |
+| Grit 2/3/4 by tier; returns only on a respite | `13:352`-`13:366` (2/3/4 at `13:354`, respite at `13:366`) |
+| **A Wound on every drop to 0 HP, unconditionally** | `13:356`, `13:400` |
+| `Catch Breath`: Maneuver, `ceil(maxHP/3)`, uses per combat = Grit | `13:69`, `13:94` |
+| The Wound Table: D666, extra dice = wounds carried − 1 capped at 3, keep highest three, sort ascending, hundreds digit = band | `13:402`, `13:404`; tables `13:406`-`13:442` |
+| The death roll with the wound-scaled Bane ladder; stabilizing resets failures | `13:370`, `13:390` |
+| Healing: **half / full / full + rider**, Action, touch, single target, unlimited | law `08:238`-`08:251`; per card `12:98`, `12:116`, `12:127` |
+| Concentration: one effect at a time; sustained effects cost the Maneuver | `10:110`, `10:130` |
+| Cards: DP costs 2/4/8, discipline rank gates, once-per-encounter / once-per-session limits | `10:44`-`10:48`, `10:106`, `10:108`, `09:15` |
+| Conditions: applied, ticked, expired | `13:195`, table at `13:228` |
 
 ### 1.2 May be stubbed (declared in `NON_GOALS.md`, switchable by config)
 
@@ -100,6 +102,10 @@ not silently legalise one. Every constructed character is dumped to `characters/
 
 Level sets tier, tier sets Grit (2/3/4), DP budget and card access. **HP does not grow with level**
 (`03:78`). `level` must be validated against the tier table and a mismatch is an error, not a warning.
+
+The HP **formula** is changing: under #808/#809 it becomes `10 + Fortitude + the class's Health
+attribute`, and `03:78` is rewritten by that work order. The engine implements the post-#809 line and
+cites it, so #809 lands before the engine is built (see §14).
 
 ---
 
@@ -157,6 +163,13 @@ claims and the previous work could not tell them apart.
 Standard 9–14, Strong 15+. **On defense, high is good for the defender:** a Strong defense means the
 attacker deals **Weak** damage; a Weak defense means **Strong** damage. Verify this against the worked
 examples in `13-combat` and fail the audit if they disagree.
+
+**The Challenge is a printed rating, not an attack bonus.** A stat block's Challenge 3 imposes −3 on the
+defense roll, a Challenge ½ minion imposes −1, and the rating caps at −6 whatever the block prints
+(`06:111`). The engine reads the rating and negates it; it never invents an attack bonus for a monster.
+
+**A Defense Roll crits and fumbles like any other roll** (`06:136`): three 6s takes the monster's Weak
+damage, three 1s takes its Strong. Both outcomes are tested.
 
 **DR.** `effective = min(max(armor_dr, ward_dr), ceiling_by_tier)`; the shield's DR is added for an attack
 that used Shield Block, once per round; final damage is `max(1, damage − effective − shield)`.
@@ -228,9 +241,17 @@ hol-engine explain <runfile.yaml>        # print the constructed characters and 
 
 ## 11. Acceptance criteria — the engine is not done until all of these pass
 
-1. **Reproduces every printed worked example in the book.** All five examples in `13-combat` and the
-   resolution examples in `06` must come out with the printed numbers. This is the primary test: an engine
-   that cannot replay the book's own examples is not an engine of the book.
+1. **Reproduces the printed worked examples.** There are exactly **four** machine-checkable examples and they
+   are named here so none is invented: `06:142` (goblin, Challenge −1) and `06:152` (Knight, Challenge −3)
+   are the two Defense Roll examples, and `13:487` (A Full Combat Round) and `13:569` (The Ambush) are the
+   two combat examples. The `06` pair is written out here as fixed fixtures: dice `4,3,5` on `3d6 + 1` is
+   13, a Standard defense, so the goblin's Standard 6 less Kael's DR 1 is 5 damage; dice `2,3,2` on
+   `3d6 − 1` is 6, a Weak defense, so the Knight's Strong 11 less DR 1 is 10 damage. Reading ch13's two
+   sections for their own figures is part of the work; they are printed and are not to be estimated.
+   Because the engine rolls its own dice, this criterion is only reachable through a **scripted-roll mode**:
+   the run file or a test fixture must be able to inject an explicit dice sequence so a printed example
+   replays exactly. Acceptance is one test per example, asserting the printed totals, tiers and damage. An
+   engine that cannot replay the book's own examples is not an engine of the book.
 2. **`--audit` passes** — every cited constant matches its chapter line.
 3. **Ward-on-armour is a no-op** (equal to armour alone) — asserted in the test suite.
 4. **Shield DR never takes damage below 1.**
@@ -246,14 +267,17 @@ hol-engine explain <runfile.yaml>        # print the constructed characters and 
 
 ## 12. Deliverables
 
+Everything below lives under **`engine/`** at the repository root. Nothing is written outside that
+directory: `quarto-book/` and the repository's own `README.md` are not touched.
+
 | file | contents |
 |---|---|
-| `engine/` | the engine, in the repo's language of record |
-| `rules/citations.yaml` | every constant with its `chapter:line` |
-| `runfiles/` | at least the four canonical runs: Novice, Adept, Master, and a mixed party |
-| `NON_GOALS.md` | every unmodelled system, with a reason |
-| `tests/` | the acceptance criteria above, as tests |
-| `README.md` | the CLI, the run-file schema, and how to add a policy |
+| `engine/hol_engine/` | the engine, in **Python 3, standard library only** (every other instrument in this repository is Python, and a dependency-free engine runs anywhere the book builds) |
+| `engine/rules/citations.yaml` | every constant with its `chapter:line` |
+| `engine/runfiles/` | at least the four canonical runs: Novice, Adept, Master, and a mixed party |
+| `engine/NON_GOALS.md` | every unmodelled system, with a reason |
+| `engine/tests/` | the acceptance criteria above, as tests |
+| `engine/README.md` | the CLI, the run-file schema, and how to add a policy (**not** the repository's root `README.md`, which is the book's) |
 
 ---
 
@@ -268,3 +292,41 @@ The engine exists to answer design questions **before they reach a table**:
 - Do the classes differ from each other, or only in flavour?
 
 Each of those currently has a contested answer. The engine's job is to make them settled.
+
+---
+
+## 14. Corrections and pinned build decisions (architect, cycle 62, 2026-09-27)
+
+The specification above was checked line by line against the manuscript at `3447063` before it was released
+to an agent. **The rules it states are correct; several of its line citations were not.** A citation is a
+constant the engine implements, so a wrong one either fails `--audit` on the first run or has the agent move
+a value to match a line that says something else. Each was re-derived from the file and corrected above.
+
+| where | was | is | why |
+|---|---|---|---|
+| §1.1 initiative | `13` | `13:19`-`13:31` | the section head is `== Initiative: Who Goes First` |
+| §1.1 economy | `13`, `09` | `13:29`-`13:41`, `13:91`, `09:15` | the round table and the one-Reaction sentence; `09:15` is the card field vocabulary |
+| §1.1 attack roll | `06` | `06:17`-`06:21`, `06:81`-`06:89` | The Core Roll, and the line that makes the attack roll's tier the damage tier |
+| §1.1 reversal | `06` section, `13` | `06:99`-`06:136`, `13:116`-`13:132` | the section is `=== Reading the Defense Result` at `06:113` |
+| §1.1 Grit | `13:343`, `13:355` | `13:354`, `13:366` | `13:343` is a morale-table row; `13:355` is blank |
+| §1.1 wound trigger | `13:345` | `13:356`, `13:400` | blank at the cited line |
+| §1.1 Wound Table | `13:391`, `13:393` | `13:402`, `13:404`; tables `13:406`-`13:442` | both cited lines are blank |
+| §1.1 death roll | `13:359` | `13:370`, `13:390` | blank at the cited line |
+| §1.1 healing | `12:93`, `12:111`, `12:116` | law `08:238`-`08:251`; cards `12:98`, `12:116`, `12:127` | the healing law is the *Healing Thresholds* section (half / full / full + rider), not a card rung |
+| §1.1 conditions | `13:184` | `13:195`, table at `13:228` | the section head and Table 13.3 |
+| §1.1 cards | `10:44`, `09` | `10:44`-`10:48`, `10:106`, `10:108`, `09:15` | costs, then the per-encounter and per-session limits |
+| §11 item 1 | "all five examples in `13-combat`" | four named examples | ch13 contains **two** `== Worked Example` sections; three more would have been invented |
+
+Three things the spec left undecided are now decided. Each is veto-revertible with one word.
+
+1. **Language and dependencies.** "The repo's language of record" names nothing: this repository is a Quarto
+   book whose only executable artifacts are Python instruments. Pinned: **Python 3, standard library only**.
+2. **Where it lives.** §12's paths are relative to a new **`engine/`** directory at the repository root, and
+   the engine's README is `engine/README.md`. Written bare, the spec's `README.md` would have overwritten the
+   book's own repository README.
+3. **How acceptance 1 is reachable.** A stochastic engine cannot reproduce a printed example by re-rolling; it
+   needs the printed dice. Pinned: a scripted-roll mode, with the two `06` examples written out as fixtures.
+
+**Sequencing.** The engine encodes the HP formula, and `03:78` is being rewritten by #809. Building the engine
+first would bake the current formula into `rules/citations.yaml` and into every constructed character, so the
+order is **#809, then #807, then this**.
