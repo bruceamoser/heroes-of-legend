@@ -2066,3 +2066,5 @@ The external agents finished inside the same cycle, so the audit happened rather
 
 **Queue after this cycle: #862 (ruled, dispatch-ready at the reset) > #863 (chains behind it, same file) > #805, #802 (Bruce's).** No PRs open.
 
+**CORRECTION, added 17:20 EDT after the record merged: the shields worktree is NOT idle.** When the gate spec was re-seeded into `/tmp/hol-wt-shields`, that worktree reported three modified chapter files (`06-core-resolution.qmd`, `12-divine-spells.qmd`, `16-armor-shields.qmd`) and its `.task-spec.md` had reverted to its original 2,845 bytes: a concurrent writer is working the #862 file set right now. **Do not dispatch into `/tmp/hol-wt-shields`** - audit the commit it produces, the way #865 and #869 were audited. The gate comment on `#862` stays the authority on what the order says, and the third new ruling, `#871` (a loadout is the disciplines the class received), now queues on the same two files, so ch05/ch02 work runs strictly one at a time.
+
