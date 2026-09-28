@@ -44,7 +44,7 @@ For the full skill list, see @sec-chapter-skills
 
 A class also names its *Health attribute*, the second attribute in its Health Points (see @tbl-class-health).
 
-Each class entry lists a *Starting Loadout*: the Discipline ranks the class received. Ranks your class, ancestry, or culture already grant cost nothing, so the DP figure in a loadout line is what its remaining ranks cost at your class's rates, paid from the same Development Points that buy your cards. As you take cards, they unlock weapon and shield slots for you to describe.
+Each class entry lists a *Starting Loadout*: the Discipline ranks and the cards the class received. Ranks your class, ancestry, or culture already grant cost nothing, so the DP figure in a loadout line is what its remaining ranks cost at your class's rates, paid from the same Development Points that buy your cards. As you take cards, they unlock weapon and shield slots for you to describe.
 
 #pagebreak()
 
@@ -62,7 +62,7 @@ The Protector stands at the vanguard, using body and armor as a shield for those
 
 *Favored Skills:* Athletics, Endurance, Survival, Perception, Persuasion, Medicine
 
-*Starting Loadout:* Armor (class grant), Shields (class grant), Armor 2 and 3 (6 DP at your Home rate), which still leaves room for a card.
+*Starting Loadout:* Armor (class grant, which brings the light armor card), Shields (class grant), Armor 2 and 3 (6 DP at your Home rate, which bring the medium and heavy armor cards), which still leaves room for a card.
 
 *Discipline Costs (Rank 1 / Rank 2 / Rank 3):*
 

@@ -20,13 +20,13 @@ Shields are different. A shield is not a passive number on your sheet, it is an 
 
 When you take physical damage, subtract your Damage Reduction (DR) from the damage value. The remainder is what you actually lose from your HP. A hit always lands for at least 1 damage, no matter how much DR you have. Simple.
 
-Your DR comes from one source at a time: your armor, a talent, or a spell. Armor's DR is set by its weight class: light 1, medium 2, heavy 3. Heavier armor is heavier in every sense. If more than one source gives you DR, use the highest. Armor, talents, and wards do not add together.
+Your DR comes from one source at a time: your armor card, a talent, or a spell. Your armor card's DR is set by its weight class: light 1, medium 2, heavy 3. Heavier armor is heavier in every sense. If more than one source gives you DR, use the highest. Armor, talents, and wards do not add together.
 
 *A shield is not a source of DR.* A shield works on the roll, not on the damage: Shield Block grants a Boon on your Defense Roll, and the shields section below covers it. Armor, talents and wards are the only sources of DR.
 
 *There is a ceiling.* Your total DR from armor, talents, and wards cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. The ceiling is each tier's Weak damage value minus one, so it moves with the damage band (@sec-damage-budget). A hit must always be able to land for something, and the three tiers of a damage band have to stay distinct at every level. If DR could climb past that ceiling the roll would stop carrying information, and light, medium, and heavy armor would stop being three different choices. The highest source governs up to the ceiling, and no further.
 
-*Ranks set the size of a grant.* A DR grant requires Discipline ranks at least equal to the DR it grants: DR 2 costs 2 ranks, DR 3 costs 3. The armor table's light 1, medium 2, heavy 3 column is the same scale.
+*Ranks set the size of a grant.* A DR grant requires Discipline ranks at least equal to the DR it grants: DR 2 costs 2 ranks, DR 3 costs 3. The armor cards are that same scale: the light card asks 1 Armor, the medium card 2, the heavy card 3.
 
 *Example:* Kael wears light armor, so his armor grants DR 1. He is also under Stone Skin, which grants +2 DR. The two are sources and do not add: his DR is the higher of the two, 2. A goblin's scimitar hits him for Weak damage (4). 4 - 2 = 2, so Kael takes 2 damage. When the same goblin lands a Standard hit (6), Kael takes 4 instead of 6.
 
@@ -34,14 +34,20 @@ Your DR comes from one source at a time: your armor, a talent, or a spell. Armor
 
 == Armor Table
 
+*Armor is a card.* What you wear is fiction; the card is the mechanic. Every armor card names its weight class and the DR it grants, and no object in this book carries a DR number of its own. Your armor card's DR may not exceed your Armor rank.
+
+*The card comes with the ranks.* An armor card is not bought and it carries no level gate of its own: a hero who has the Armor ranks a card asks for has that card, and a class that grants the Armor rank hands over the card with it. A special suit, magical or otherwise, is an ordinary card: it is bought at its tier's price and it does carry that tier's level gate.
+
+*One suit, one card.* You wear one armor card at a time, and it is the card that decides what your armor does.
+
 #figure(
   align(center)[#table(
-    columns: (30.00%, 25.00%, 15.00%, 30.00%),
-    align: (auto, auto, auto, auto,),
-    table.header([Armor], [Requirement], [DR], [Slots],),
-    [*Light*], [1 Armor], [1], [2],
-    [*Medium*], [2 Armor], [2], [2 or 3],
-    [*Heavy*], [3 Armor], [3], [3 or 4],
+    columns: (40.00%, 30.00%, 30.00%),
+    align: (auto, auto, auto,),
+    table.header([Armor], [Requirement], [Slots],),
+    [*Light*], [1 Armor], [2],
+    [*Medium*], [2 Armor], [2 or 3],
+    [*Heavy*], [3 Armor], [3 or 4],
   )],
   kind: table,
   outlined: false,
@@ -69,7 +75,29 @@ Your DR comes from one source at a time: your armor, a talent, or a spell. Armor
   numbering: none,
 )
 
-What you wear is worth its points in DR: light armor grants 1, medium 2, heavy 3. Beyond that, the only other decisions are slots and how long it takes to get into.
+What you wear is worth its points in DR: the light armor card grants 1, the medium card 2, the heavy card 3. Beyond that, the only other decisions are slots and how long it takes to get into.
+
+== Armor Cards
+
+=== Light Armor (Armor Card)
+*Disciplines:* 1 Armor · *Action:* Passive · *Range:* Self · *Keywords:* DR
+
+*Novice:* DR 1. The lightest thing worth wearing into a fight. 2 slots; 1 minute to don.
+
+=== Medium Armor (Armor Card)
+*Disciplines:* 2 Armor · *Action:* Passive · *Range:* Self · *Keywords:* DR
+
+*Adept:* DR 2. A mail shirt or a breastplate, and the weight that comes with it. 2 or 3 slots; 5 minutes to don.
+
+=== Heavy Armor (Armor Card)
+*Disciplines:* 3 Armor · *Action:* Passive · *Range:* Self · *Keywords:* DR
+
+*Master:* DR 3. The best protection the mundane shelf offers. 3 or 4 slots; 10 minutes to don.
+
+=== Black Leather (Armor Card)
+*Disciplines:* 1 Armor · *Action:* Passive · *Range:* Self · *Keywords:* Boon
+
+*Novice:* A Boon on checks to hide and move unseen. This suit grants no DR. 2 slots; 1 minute to don.
 
 #pagebreak()
 
@@ -95,9 +123,9 @@ A Boon moves the blow up the tiers, and it never makes the attack miss: a shield
 
 Roric is building a dwarf Protector at Level 1. He has Brawn +2, Fortitude +1, 13 HP, and 1 Armor Discipline rank. He wants to be the party's wall, but the wall has to fit inside a pack. He has watched the ward ladder work for the party's casters: Bark Skin for +1 DR, Stone Skin for +2, each one self only and sustained by a Maneuver every round. Here's how he weighs his own options:
 
-*Leather:* Light, DR 1, 2 slots, 1 minute to don.
+*Light armor card:* DR 1, 2 slots, 1 minute to don. He pictures boiled leather.
 
-*Chain Mail:* Heavy, DR 3, 4 slots, 10 minutes to don.
+*Heavy armor card:* DR 3, 4 slots, 10 minutes to don. He pictures chain mail, and the walk to the fight starts to matter.
 
 With leather his DR is 1. The party's wards are self only, so none of them can cover him, and even if a caster could lay one on him a ward is a source, not an addition: leather plus Stone Skin would be 2, still under the steel, and it would cost a Maneuver every round to hold. With chain mail his DR is 3, the best a ward can reach, and the steel costs no Maneuver to keep. That is the real trade. Chain mail costs two more slots and takes ten minutes to don instead of one, and it never asks a caster to spend a turn on it; taking it means buying Armor ranks 2 and 3 for 6 DP at his Home rate, because his class grant already covers rank 1. Roric takes the chain mail. He would rather carry the weight than stand behind a ward that has to be paid for every round.
 
@@ -107,7 +135,7 @@ Armor is a decision about what the character can carry, what they give up, and h
 
 == Worked Example: Shield Block in Combat
 
-Roric is holding a choke point against two goblins and their orc warchief. He's wearing the chain mail he chose above, so his armor grants DR 3 all on its own. He's also carrying a shield, and the board in his hand is about to earn its keep. The goblins aren't getting through easily.
+Roric is holding a choke point against two goblins and their orc warchief. He's wearing the chain mail he chose above, so his armor card grants DR 3 all on its own. He's also carrying a shield, and the board in his hand is about to earn its keep. The goblins aren't getting through easily.
 
 Remember how this works. The DA never rolls for monsters (@sec-chapter-combat) The DA describes the attack and names the Challenge, and Roric's player makes the Defense Roll. Strong defense means the blow lands Weak, Standard means it lands Standard, Weak means it lands Strong. Roric has Parry rank 1 and a shield in hand, so he defends with 3d6 + Brawn + Parry rank - Challenge.
 
@@ -117,7 +145,7 @@ Remember how this works. The DA never rolls for monsters (@sec-chapter-combat) T
 
 *Orc warchief attacks:* "The warchief says nothing. He doesn't need to. His greataxe comes around in a two-handed arc. Challenge 3." This is the one that matters. Roric's player spends the reaction here, before the dice. Roric rolls 4d6 and keeps the highest three: 6, 5, 4, 3 becomes 6, 5, 4 = 15. *Strong.* The axe lands for Weak damage: 4.
 
-The Boon did its work before the dice ever landed. A hit that was going to land Standard for 6 lands Weak for 4 instead. His armor's DR 3 takes the rest: 4 - 3 = 1 damage. The greataxe slams into Roric's shield, ringing off the boss like a temple bell. The haft cracks at the binding, but the blade barely reaches him.
+The Boon did its work before the dice ever landed. A hit that was going to land Standard for 6 lands Weak for 4 instead. His armor card's DR 3 takes the rest: 4 - 3 = 1 damage. The greataxe slams into Roric's shield, ringing off the boss like a temple bell. The haft cracks at the binding, but the blade barely reaches him.
 
 That is 3 + 5 + 1 = 9 damage across the round, and Roric stands at 4 HP of his 13. Without the shield he would have taken 6 - 3 = 3 from that swing instead of 1. Shield Block is what the board in his hand is for: one attack each round, paid for with his reaction.
 
