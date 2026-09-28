@@ -1805,5 +1805,21 @@ the retired field, and the only instrument that also carried the retired LAW.
   positive (`02:19`'s "about twenty minutes"). Fixed to *"costs a hero about a third of a Wound"*, `19:55`'s own
   printed clause, and the missing subject that let the stale number survive is closed by naming the hero.
 - **Next:** #822 at the 2026-09-29 00:00Z cap reset (five amplifier cards, ch09 only, rung texts pinned), then #823's
-  scoping sentence, then #808's follow-ups. Nothing else is queued for the architect: the queue's remaining five
-  issues are two dispatchable and three measured.
+  scoping sentence, then #808's follow-ups.
+
+## State at cycle 75b (2026-09-28, the count corrected)
+
+- **#844 landed mid-cycle, after this section was written, and the "five issues" above was stale within
+  the hour** — the exact drift class cycle 75 spent a sentence fixing in `18:23`, so it gets corrected
+  rather than left standing. The queue is **six**: #802, #805, #808, #822, #823, #844.
+- **#844 (core-mechanics) is a real work order, and its premise was verified at `d9b7cab`** rather than
+  taken on trust: the heal gate is hardcoded at half (`combat-sim-v2.py:437`) and `HEAL_FRAC` exists
+  nowhere. Two corrections are recorded on the issue before it runs — **the gate is TWO arms, not one**
+  (`:777` runs the RULED ladder under policy `"always"`, which heals every round, and that is where the
+  published headline figures come from, so a parameter that only reaches `:437` would fix the comparison
+  arm and leave the headline arm untouched), and **the "returns almost nothing" clause is Weak-only**
+  (`_heal_amount` returns `ceil(maxhp/2)` on a Weak and `maxhp` otherwise).
+- **Next:** #844's item 1 is the next cycle's one work order (architect-owned, no agent), with item 3 in
+  the same run; then #822 and #823 at their cap reset, then #808's follow-ups. #844's item 2 is prose and
+  stays with Bruce once the numbers land.
+
