@@ -248,7 +248,7 @@ The Bane sits on the attack, so on your Defense roll it is a Boon: half cover is
 + *Background DP:* 8 + Knowledge + Fortitude. Spend all on Novice skills and abilities.
 + *Class:* Choose class. Record Class Discipline and signature ability.
 + *Class DP:* 12 DP at level 1: 8 DP of class training plus the 4 DP every hero gains at level 1, per @sec-chapter-advancement Spend all on Novice skills and abilities.
-+ *Equipment:* Take your class's starting loadout (see @sec-chapter-classes) Record weapon properties and armor slots; your Damage Reduction is the highest of your armor's DR (1 light, 2 medium, 3 heavy) and any talent or ward that grants DR. Shield DR is not part of that total: your shield carries a rating, and the Shield Block reaction applies it to one attack per round.
++ *Equipment:* Take your class's starting loadout (see @sec-chapter-classes) Record weapon slots and armor slots; your Damage Reduction is the highest of your armor's DR (1 light, 2 medium, 3 heavy) and any talent or ward that grants DR. A shield grants no DR: the Shield Block reaction grants a Boon on your Defense Roll, one attack per round.
 + *Derived Stats:* HP, Grit, Initiative, Movement, Carry Slots.
 + *Backstory:* Motivation, Trinket, Name.
 
@@ -355,15 +355,13 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 )], kind: table, numbering: none, outlined: false)
 
 #figure(align(center)[#table(
-  columns: (22.00%, 14.00%, 14.00%, 10.00%, 40.00%),
+  columns: (32.00%, 10.00%, 8.00%, 50.00%),
   align: (auto, auto, auto, auto,),
-  table.header([Shield], [Shields Req], [Shield DR], [Slots], [Grants],),
-  [Small: buckler, targe, parma], [1], [1], [1], [Parry, Shield Block; keeps your hand free],
-  [Medium: heater, kite, round, rotella], [2], [2], [2], [Parry, Shield Block],
-  [Large: aspis, scutum, tower, pavise], [3], [3], [3], [Parry, Shield Block; half cover; -5 ft speed],
+  table.header([Shield], [Requirement], [Slots], [Grants],),
+  [Any shield: buckler, targe, heater, kite, tower, a door], [None], [1], [Parry and Shield Block; Shield Block grants a Boon on your Defense Roll],
 )], kind: table, numbering: none, outlined: false)
 
-*Your Damage Reduction is the highest of your armor, a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. Shield DR is not part of that total: it is applied by the Shield Block reaction, one attack per round.* See @sec-chapter-armor-shields
+*Your Damage Reduction is the highest of your armor, a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A shield grants no DR: the Shield Block reaction grants a Boon on your Defense Roll, one attack per round.* See @sec-chapter-armor-shields
 
 #figure(align(center)[#table(
   columns: (30.00%, 70.00%),
@@ -380,7 +378,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
 
 *The weapon never changes your damage. For what a range of two numbers means, see @sec-chapter-talents-abilities For weapons in full, see @sec-chapter-equipment*
 
-*Defense summary:* Your Damage Reduction (DR) is the highest of your armor's DR (1 light, 2 medium, 3 heavy), a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. Shield DR is not part of that total: your shield carries a rating, and the Shield Block reaction applies it to one attack per round. Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields enable the Parry skill and the Shield Block reaction.
+*Defense summary:* Your Damage Reduction (DR) is the highest of your armor's DR (1 light, 2 medium, 3 heavy), a talent, or a ward, and it cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A shield grants no DR: the Shield Block reaction grants a Boon on your Defense Roll, one attack per round. Protection Value (PV) is a temporary +1 bonus to your defense roll (from Bastion or Arcane Shield). Shields enable the Parry skill and the Shield Block reaction.
 
 #figure(align(center)[#table(
   columns: (68.42%, 31.58%),

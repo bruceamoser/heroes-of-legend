@@ -106,7 +106,7 @@ Roll 3d6 + modifiers. The total determines your damage tier:
 
 That's one roll. No separate damage dice. No "did I hit?" anxiety. Roll once, read the damage, move on.
 
-Damage Reduction (DR) subtracts from the damage a hit does, but a hit always lands for at least 1 damage. Your DR is the highest of your armor's DR and any talent or ward that grants DR, and your tier caps the total. Shield DR is not part of that total: a shield's DR arrives through the Shield Block reaction, which applies it to one attack per round (@sec-chapter-armor-shields) Armor makes the blow land softer, not miss.
+Damage Reduction (DR) subtracts from the damage a hit does, but a hit always lands for at least 1 damage. Your DR is the highest of your armor's DR and any talent or ward that grants DR, and your tier caps the total. A shield grants no DR: it grants a Boon on the Defense Roll through the Shield Block reaction, which applies it to one attack per round (@sec-chapter-armor-shields) Armor makes the blow land softer, not miss.
 
 #callout(type: "note", title: "Why Always-Hit?", body: [
 
@@ -121,7 +121,7 @@ The DA never touches the dice in _Heroes of Legend_. This is not a suggestion. I
 
 When an enemy attacks you, the DA describes the attack and gives you the enemy's *Challenge* rating, a penalty to your roll. You make a *Defense Roll*. The three formulas, the outcome table, and the reversal that makes them work all live in @sec-chapter-core-resolution
 
-Parry requires a weapon or shield in hand. A shield enables Parry and Shield Block, but never adds a roll bonus.
+Parry requires a weapon or shield in hand. A shield enables Parry and Shield Block: it adds nothing to the Parry roll itself, and its value arrives as the Boon Shield Block grants.
 
 The NPC's stat block lists three damage values: Strong, Standard, and Weak, representing the attack's potential. Your defense roll determines which value applies. Roll well? The goblin barely scratches you. Roll poorly? That goblin found the gap in your armor.
 
@@ -138,6 +138,7 @@ When you attack, a high roll means you hit hard (Strong damage). When you defend
     table.header([Modifier], [Source]),
     [+Dodge rank], [*Dodge* (Agility-based)],
     [+Parry rank], [*Parry* (Brawn-based, requires a weapon or shield)],
+    [Boon], [*Shield Block* reaction (requires a shield): Boon 1 at Novice, 2 at Adept, 3 at Master],
     [Boon], [*Defend* maneuver (one round)],
     [Boon], [*Cover*: half cover],
     [Triple Boon], [*Cover*: full cover],

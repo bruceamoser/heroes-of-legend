@@ -131,7 +131,7 @@ HP 10, DR 3 (plate). Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
 
 *Longsword:* 5/8/11.
 
-*Shield Block:* reaction.
+*Shield Block:* reaction, one attack per round. One attack against the knight is at Bane (a Boon on the knight's defense).
 
 *Leadership:* allies within 10 ft have Boon on attacks (a Bane on the defender's roll). The knight holds the center of its formation and meets the strongest enemy in front of it rather than chasing a caster.
 
