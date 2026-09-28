@@ -1823,3 +1823,53 @@ the retired field, and the only instrument that also carried the retired LAW.
   the same run; then #822 and #823 at their cap reset, then #808's follow-ups. #844's item 2 is prose and
   stays with Bruce once the numbers land.
 
+## State at cycle 76 (2026-09-28, verified against the repo, not recalled)
+
+- **The wake was #844 appearing in the tracker, and this UTC date's cap was still spent** (three work orders out
+  — #809, #807, #818 — so the reset is 2026-09-29 00:00Z). #844's item 1 was already dispositioned as
+  architect-owned, so the cycle took it: **the healer's TRIGGER, the last part of the healing lane the
+  instrument had never measured and the one its own author named as the whole cost.**
+- **What was wrong.** `combat-sim-v2.py` gated the healer at `low.maxhp / 2`, which is the heal's own SET POINT —
+  a Standard or Strong heal returns the target TO half or TO full — so the healer fired on every hurt ally in the
+  fight, including at 45% where a Weak result returns a token top-up. The arms behind the published figures
+  (`1-always` in the grid, `1 healer, ruled 1/half/full` in the diagnostic) had no gate at all: they topped up
+  every round. So every "does a healer help" number in rows 235/238 described a healer that heals too early, and
+  the lane read as a liability for that reason.
+- **What changed in the instrument.** `HEAL_FRAC` is a module constant (default **0.25**) and a `--heal-frac`
+  flag, threaded through BOTH heal policies — the comparison arm and the published headline arm. `pick_heal_target`
+  takes the fraction as an argument: `gated` = the parameter, `threshold` = the superseded 50% arm, `always` = no
+  gate at all (exactly equivalent to a gate of 1.00, which is what makes the ceiling control checkable). `MODES`
+  now leads with `1-gated` / `2-gated` and KEEPS the two superseded arms in the grid, so every earlier figure
+  remains reproducible from one run rather than restated. Column labels are generated, so a header cannot
+  disagree with the parameter the run used. **New section 2d** is the sweep itself; the two-healer re-check
+  (item 3) rides at its foot.
+- **Measured** (seed 20260927, N=2000, **5,880,000 combats, 212.9s, exit 0**). 1 healer vs none, 42 cells
+  (3 tiers × Standard/Hard × 7 archetypes, light armour):
+
+  | gate | dRounds (med, range) | dWounds (med) | heal Actions a fight (med) |
+  |---|---|---|---|
+  | **25% (new default)** | **+0.17 (+0.01..+0.87)** | **−0.01** | 0.63 / 0.75 / 0.50 |
+  | 50% (superseded) | +0.63 (+0.13..+1.49) | +0.01 | 1.76 / 2.34 / 1.88 |
+  | no gate (superseded) | +0.96 (+0.16..+1.91) | +0.02 | — |
+
+  At the Standard rung alone the cost is **+0.12 rounds against +0.62 ungated**. A **second healer** costs
+  **+0.02 rounds** at the default gate against **+1.12** ungated. The price collapses between 35% and 25%, and
+  at 15% the healer stops firing altogether on the tough builds (0.02 Actions a fight at Master) — so a quarter
+  is the last fraction that keeps the lane in the fight while removing the cost.
+- **The audit grew three controls and one planted defect** (`--audit` exit 0, PASS). The good one proves the
+  parameter REACHES the gate: a gated run at the legacy fraction must reproduce the hardcoded arm cell for cell
+  (it does — heals 2.39 vs 2.39, rounds 4.13), and a gate of 1.00 must equal `always`. The monotonicity arm is
+  read **with revives OFF**, because a revive ignores the gate by design and would otherwise make the control
+  assert something the model never promised. The planted defect is the literal half gate in the model source.
+- **Records.** Row **245** is new (Bruce's directive is the ruling text; the quarter is the measurement, marked
+  veto-revertible), row **238**'s DECIDED cell carries a dated correction (its cost figures were the ungated
+  arm's), and the assessment's "The healer, corroborated independently" carries the same correction beside the
+  "0.94 to 1.02 rounds" it supersedes. **No new law and no card changed** — the ruling was Bruce's, the value is
+  the architect's, and a one-word reversal moves it.
+- **Next:** #822 and #823 at the 2026-09-29 00:00Z cap reset — both are gated and pinned and were held only for
+  the cap — then **#844 item 2**, the prose. Its home is narrower than the issue guessed: the Life lane's own
+  text is `12:89-93` (ch10 only NAMES Life as a school, `10:94`), and the sentence that has to carry a trigger is
+  `08:247`, *"the healer's Action answers the moment, not the arithmetic"* — which already says the Action
+  answers the moment and never says when the moment is. One clause there is the whole edit; it is INTENT and
+  therefore Bruce's, and the measured curve is the evidence for it.
+

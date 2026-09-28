@@ -1480,6 +1480,19 @@ adds 0.94 to 1.02 rounds, at every tier**. So healing buys the party rounds, not
 Wounds because `nothing takes one off the sheet` is law. Review item 2's claim now stands on two instruments
 that agree on direction. Whether the Life lane should be more than that is Bruce's (ledger row 235).
 
+**TRIGGER CORRECTION (cycle 76, 2026-09-28, #844).** The "0.94 to 1.02 rounds" above is the **ungated** arm:
+`combat-sim-v2.py` gated the healer at half of maximum — which is the heal's own SET POINT, so it fired on every
+hurt ally — and the arms behind the published figures topped up every round with no gate at all. Bruce ruled that
+a healer needs a trigger (#844: *"there needs to be a heal threshold and they don't heal until it's needed"*),
+the instrument now carries one (`HEAL_FRAC`, a quarter of maximum, threaded through both heal policies), and the
+same measurement over the same 42 cells gives **median +0.17 rounds and −0.01 Wounds** at the quarter gate,
+against **+0.63 / +0.01** at the half gate and **+0.96 / +0.02** ungated. At the Standard rung alone the cost is
+**+0.12 rounds against +0.62**. The direction is unchanged — the healer buys rounds, and it cannot buy Wounds —
+but the size was overstated about fivefold, and the wound penalty is now gone at Standard: the lane is close to
+free there, and what remains is concentrated on **Hard** (median +0.47 rounds) and on the low-HP build
+(+0.47 Wounds worst case at Master/Hard). A second healer costs **+0.02 rounds** at the default gate against
+**+1.12** ungated. Ledger row 245; instrument controls in `--audit`.
+
 ## Decision — #808 (cycle 61, 2026-09-27): Health Points move to the class attribute
 
 Bruce's ruling (#808, filed by him 19:47 EDT, eight minutes before this cycle's clock): `HP = 10 + Fortitude + the class's attribute`, not `+ Knowledge`. He left exactly one question to the simulation: whether the spread should also narrow. That question is a BALANCE question with a derivable answer, so it was measured and decided in the cycle rather than asked.
