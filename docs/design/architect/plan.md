@@ -2017,3 +2017,27 @@ Found during the end-of-pass housekeeping sweep, and it changes the "Next" line 
 2. **If an agent has died, its worktree is recoverable, not failed** (the same rule as a dead FINISH sequence): the edits are on disk in `/tmp/hol-wt-law`. Commit them there, run the build and the acceptance list from the order bodies, open the PR, audit, merge — rather than starting over.
 
 **This is the second time this cycle's plan met a concurrent writer** (cycle 78b's amendment arrived mid-gate). The book has more than one actor with a hand on it; a plan's "Next" line is a hypothesis about the board, not a fact, until the board is read at dispatch time.
+
+### Cycle 79c — the wave LANDED, audited in full. #862 is the queue head.
+
+The external agents finished inside the same cycle, so the audit happened rather than deferred. **Two PRs audited against their work orders and merged, and the #851 slots wave is now on `main`.**
+
+**`#865` — the whole #851 wave, all eight orders in one PR** (the agent did the seven per-file orders plus the card layer in a single worktree). Merged at `6f513a5`, branch and worktree removed. The four-gate audit, all passed:
+- **File set exactly the eight orders' targets**: 02 (+1/-1, #855), 05 (+/-22, #854), 08 (+1/-1, #853), 09 (+1/-1, #860), 13 (+1/-1, #856), 15 (+/-49, #852), 21 (+/-14, #857), 22 (+/-30, #858); **45 insertions / 78 deletions, no chapter outside the wave touched.**
+- **Acceptance, 23 -> 0 gate sites** on `rank-gate-census.py --gate`, independently re-derived: all 11 files readable at the ref (so the zero is real and not an under-parse), and the residual markers inspected one by one — two are *light armour* in the armour tables, one is the torch/illumination rule, one is the **redefined** `*Light*` slot headword, and the single remaining `(2 Melee)` parenthetical is `*Riposte*`, a weapon maneuver the gate's own selftest lists as legal.
+- **Build: exit 0, 407 pages** (down from 409 — the weapon table lost two columns and the property list retired).
+- **Render:** `Light one-handed melee` appears at pages 266 **and 397** (ch15 and its ch22 mirror — the mirror was updated, not left behind) and `A weapon slot` at 374-375 (the glossary headword rewritten).
+- **Nine issues closed by the merge** (#851-#858, #860), all verified closed rather than assumed from the PR body.
+
+**`#867` — ch19, the healer's threshold and the measured fight length** (the `sim` cluster, on #805). Merged at `b75c533`. Two hunks of prose: the field's clear time now reads the *played* figure, `3.6 to 4.0 rounds`, instead of the lower-bound race sentence, and a new DA paragraph tells the DA to hold a heal until it matters, quoting the measurement (released at half: `+0.53` rounds for nothing; held to a third: `+0.08` and fewer Wounds). Build exit 0, 409 pages, both fragments verified in the render at 319-320. **#805 left open** — it is Bruce's analysis thread and carries surviving items; the PR deliberately did not close it.
+
+**`#862` is RULED AND UNBUILT, and it is now the head of the queue.** Bruce's 2026-09-28 ruling *"shields give a Boon, not DR"* retires the shield's DR column, moves Shield Block to Boon 1/2/3 by size, makes the Shield spell a Boon while Mage Armor stays DR, and lets Protector cards pass the Boon to an ally. Its worktree `/tmp/hol-wt-shields` is **seeded with its `.task-spec.md` and carries 0 commits of work** — the agent either never ran or died at the start, so nothing is recoverable and the ruling is untouched in the book. This one is a principal's ruling on the defence spine, so it outranks #822.
+
+**`#863`** (this cycle's signature order) can now dispatch **alone**: its original pairing with #854 was only to avoid two agents on `05-classes.qmd`, and #854 has landed.
+
+**Instrument hardening.** `rank-gate-census.py` carried a real coverage hole and this cycle nearly read it as a pass: a rev that does not resolve made every `git show` fail, and the silent `continue` printed *the same* `0 files, 0 gate sites` line, at exit 0, as a landed wave. `--rev origin/does-not-exist-xyz` and `--rev origin/hol/law` were **indistinguishable** until the ref was fetched and the files re-read by hand. `run()` now returns its unreadable list and `main()` exits **2 with a COVERAGE FAIL** naming the missing chapters; negative control re-run (bogus rev -> exit 2) and the live check (`origin/main` -> 0 sites, `GATE PASS`, exit 0).
+
+**Housekeeping.** `/tmp/hol-wt-law` and `/tmp/hol-wt-sim` removed and pruned after their PRs merged; their branches deleted on origin. `/tmp/hol-wt-shields` deliberately **kept** — it is the seeded home of the unbuilt #862. The local refs `hol/law` and `hol/sim` survive (`git branch -D` is guard-blocked in cron; `-d` refuses a squash-merged branch) — one command for a session with approvals, and harmless until then.
+
+**Queue after this cycle: #862 (Bruce's shields ruling, unbuilt) > #822 (ch09) > #863 (ch05/ch02 signatures) > #805, #802 (Bruce's).** No PRs open.
+
