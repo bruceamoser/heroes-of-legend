@@ -117,20 +117,22 @@ How many slots you fill at once is set by hands and carrying, not by rank: two h
 
 == Armor
 
-Armor is what you wear, and it is worth its points in DR: light grants 1, medium 2, heavy 3. A talent or ward does not add to that: use the higher of the two, and your tier caps the total. No shield is part of that total either: a shield grants no DR at all, it grants a Boon on the Defense Roll through the Shield Block reaction, which applies to one attack per round. Beyond the number, armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields A caster in heavy armor buys 3 Armor ranks at his class's rates (for each class's Discipline cost table, see @sec-chapter-classes) which is why armor is a cost and not a prohibition.
+Armor is what you wear, and its card carries the DR: light 1, medium 2, heavy 3. A talent or ward does not add to that: use the higher of the two, and your tier caps the total. No shield is part of that total either: a shield grants no DR at all, it grants a Boon on the Defense Roll through the Shield Block reaction, which applies to one attack per round. Beyond the number, armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields A caster in heavy armor buys 3 Armor ranks at his class's rates (for each class's Discipline cost table, see @sec-chapter-classes) which is why armor is a cost and not a prohibition.
 
 #figure(
   align(center)[#table(
-    columns: (30.00%, 25.00%, 15.00%, 30.00%),
-    align: (auto, auto, auto, auto,),
-    table.header([Armor], [Requirement], [DR], [Slots],),
-    [*Light*], [1 Armor], [1], [2],
-    [*Medium*], [2 Armor], [2], [2 or 3],
-    [*Heavy*], [3 Armor], [3], [3 or 4],
+    columns: (40.00%, 30.00%, 30.00%),
+    align: (auto, auto, auto,),
+    table.header([Armor], [Requirement], [Slots],),
+    [*Light*], [1 Armor], [2],
+    [*Medium*], [2 Armor], [2 or 3],
+    [*Heavy*], [3 Armor], [3 or 4],
   )],
   kind: table,
   outlined: false,
 )
+
+The card carries the DR: see @sec-chapter-armor-shields
 
 A shield is one item, whatever you describe it as: one hand, 1 slot, no DR, no size. Shield Block is where it earns its keep, granting a Boon on your Defense Roll, and a shield enables Parry. See @sec-chapter-armor-shields
 
