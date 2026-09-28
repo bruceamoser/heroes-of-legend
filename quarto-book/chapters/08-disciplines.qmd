@@ -192,7 +192,7 @@ The same card can cost wildly different amounts depending on your class and what
 
 A card's header names the Disciplines it needs: 1 Fire, 2 Melee, 2 Shields, and so on. Hold those ranks and meet the card's level gate, and you can buy it. A hero's maximum in any single Discipline is 3 ranks, so a card never asks for more than three.
 
-Weapons, armor, and shields may list their own Discipline requirements as entry requirements: a Dagger needs 1 Melee, a Greatsword 1 Two-Handed, a Shortbow 1 Ranged, a Tower Shield 3 Shields, and heavy armor 3 Armor. For weapon and armor entry requirements see @sec-chapter-equipment For shields see @sec-chapter-armor-shields A card's tier is separate from its equipment's entry requirement.
+Weapons ask for no rank: you carry and swing whatever you like, and you decide what the weapon is. Armor and shields do list one, because their DR is a number the object carries: a Tower Shield needs 3 Shields and Plate 3 Armor. For what you carry see @sec-chapter-equipment and @sec-chapter-armor-shields A card's tier is separate from what you carry.
 
 === No-Prereq Basics
 
