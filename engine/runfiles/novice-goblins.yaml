@@ -1,0 +1,72 @@
+# Canonical Novice run: a level-1 party against a goblin pack.
+# Standard encounter budget at level 1 (20:649-652): Easy 4, Standard 6.
+run:
+  name: novice-goblins
+  seed: 20260927
+  iterations: 10000
+  round_limit: 20
+  events: first:100
+  flags: {morale: false, cover: false, terrain: false}
+
+party:
+  - id: P1
+    name: Gorma
+    class: Protector
+    level: 1
+    ancestry: Dwarf
+    culture: Mountain
+    attributes: {Brawn: 2, Fortitude: 1, Agility: -1, Guile: 0, Knowledge: 0, Reason: 1}
+    disciplines: [Armor, Shields]
+    cards: auto
+    equipment: {armor: heavy, shield: large}
+    policy: default
+
+  - id: P2
+    name: Vaelith
+    class: Blade
+    level: 1
+    ancestry: Elf
+    culture: Twilight Elf
+    attributes: {Brawn: 1, Fortitude: 0, Agility: 2, Guile: 1, Knowledge: -1, Reason: 0}
+    disciplines: [Melee, Stealth]
+    cards: auto
+    equipment: {armor: light, weapon: one-hand}
+    policy: default
+
+  - id: P3
+    name: Sera
+    class: Arcanist
+    level: 1
+    ancestry: Human
+    culture: Imperial
+    attributes: {Brawn: 0, Fortitude: 0, Agility: 0, Guile: 0, Knowledge: 2, Reason: 1}
+    disciplines: [Fire, Energy]
+    cards: auto
+    equipment: {armor: none, weapon: one-hand}
+    policy: default
+
+  - id: P4
+    name: Haldra
+    class: Shepherd
+    level: 1
+    ancestry: Dwarf
+    culture: Hill
+    attributes: {Brawn: -1, Fortitude: 1, Agility: 0, Guile: 1, Knowledge: 0, Reason: 2}
+    disciplines: [Protection, Animal]
+    cards: auto
+    equipment: {armor: light, weapon: one-hand}
+    policy: default
+
+opposition:
+  - creature: Goblin
+    count: 6
+    challenge_override: null
+    policy: default
+
+policies:
+  default:
+    target_selection: focus_lowest_hp
+    maneuver_priority: [defend, catch_breath]
+    grit_at_zero: spend
+    heal_policy: at_or_below_half
+    shield_block: true
