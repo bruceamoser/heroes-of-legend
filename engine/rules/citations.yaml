@@ -11,9 +11,8 @@ citations:
   # ---------------------------------------------------------------- 06 core
   - id: core-roll
     source: "06:21"
-    text: "3d6 + Attribute Modifier + Skill Bonus + Difficulty Modifier"
-    value: "3d6 + attribute + skill + difficulty"
-
+    text: "3d6 + Attribute Modifier + Skill Bonus"
+    value: "3d6 + attribute + skill (the DA adds a Boon or a Bane; no difficulty modifier)"
   - id: success-tier-weak
     source: "06:30"
     text: "[1-8], [*Weak*]"
@@ -162,9 +161,8 @@ citations:
 
   - id: attack-roll-modifiers
     source: "13:100"
-    text: "Roll 3d6 + modifiers. The total determines your damage tier:"
-    value: "3d6 + attribute (+ casting skill for spells)"
-
+    text: "Roll 3d6 + your attribute modifier, then apply any Boons and Banes."
+    value: "3d6 + attribute (+ casting skill for spells), then Boons and Banes"
   - id: critical-hit
     source: "13:105"
     text: "*Critical (three 6s):* Maximum Strong damage plus a bonus effect"
@@ -172,281 +170,280 @@ citations:
 
   - id: dr-one-source-highest
     source: "13:109"
-    text: "Your DR is the highest of your armor's DR and any talent or ward that grants DR"
-    value: highest
-
+    text: "Your DR is the highest of your armor card's DR and any talent or ward that grants DR"
+    value: "highest of armor card, talent, or ward; the tier caps the total"
   - id: two-weapon-tier-map
-    source: "13:293"
+    source: "13:294"
     text: "[Strong], [Standard],"
     value: {Strong: Standard, Standard: Weak, Weak: one}
 
   - id: two-weapon-example
-    source: "13:304"
+    source: "13:305"
     text: "The off-hand attack drops a tier to Weak"
     value: {primary: Standard, offhand: Weak, primary_damage: 4, offhand_damage: 3, total: 7}
 
   - id: non-lethal
-    source: "13:310"
+    source: "13:311"
     text: "A pulled blow leaves no Wound"
     value: "non-lethal melee drops target unconscious stable, no wound"
 
   - id: morale-rule
-    source: "13:323"
+    source: "13:324"
     text: "That player rolls 3d6 with no modifiers:"
     value: {dice: 3, modifier: 0}
 
   - id: morale-table
-    source: "13:330"
+    source: "13:331"
     text: "[*Strong (15+)*], [Stands firm. Gains a Boon on its next attack.]"
     value: {Strong: stands-firm, Standard: wavers, Weak: flees-or-surrenders}
 
   - id: grit-tiers
-    source: "13:354"
+    source: "13:355"
     text: "You have *Grit*: 2 at Novice, 3 at Adept, 4 at Master"
     value: {Novice: 2, Adept: 3, Master: 4, tiers: {Novice: [1, 2], Adept: [3, 6], Master: [7, 99]}}
 
   - id: wound-on-zero
-    source: "13:356"
+    source: "13:357"
     text: "When your HP reaches 0, you take a Wound and roll on the Wound Table"
     value: "unconditional wound per drop, rolled at the drop"
 
   - id: grit-spend
-    source: "13:358"
+    source: "13:359"
     text: "*Spend a Grit.* Your HP resets to its maximum and you keep fighting"
     value: {hp: maximum, cost: 1-grit}
 
   - id: stay-down
-    source: "13:360"
+    source: "13:361"
     text: "*Stay down.* You fall, and the Dying rules below apply"
     value: "dying; no grit spent; healing can revive"
 
   - id: grit-respite
-    source: "13:366"
+    source: "13:367"
     text: "Grit returns on a respite, a full night's rest. It does not return between fights"
     value: {returns: respite-only}
 
   - id: death-roll
-    source: "13:370"
+    source: "13:371"
     text: "Each round on your turn, make a death roll: 3d6 plus a Bane for the wounds you carry"
     value: {dice: 3, bane_by_wounds: {1: 0, 2: 1, 3: 2, 4: 3}}
 
   - id: death-outcome-critical
-    source: "13:377"
+    source: "13:378"
     text: "[*Critical (three 6s)*], [You snap awake at half HP."
     value: {critical: awake-half-hp}
 
   - id: death-outcome-strong
-    source: "13:378"
+    source: "13:379"
     text: "[*Strong (15+)*], [You stabilize at 1 HP."
     value: {strong: stabilize-1hp}
 
   - id: death-outcome-standard
-    source: "13:379"
+    source: "13:380"
     text: "[*Standard (9-14)*], [You remain unconscious but stable."
     value: {standard: stable}
 
   - id: death-outcome-weak
-    source: "13:380"
+    source: "13:381"
     text: "[*Weak (1-8)*], [You worsen. Mark a failure. At three failures, you die.]"
     value: {weak: failure, failures_to_die: 3}
 
   - id: death-outcome-fumble
-    source: "13:381"
+    source: "13:382"
     text: "[*Fumble (three 1s)*], [Death."
     value: {fumble: death}
 
   - id: death-triples-kept-dice
-    source: "13:388"
+    source: "13:389"
     text: "Read the triples on the three dice you keep, never on the dice you rolled"
     value: "triples read on kept dice"
 
   - id: stabilize
-    source: "13:390"
+    source: "13:391"
     text: "Stabilizing resets your failures"
     value: "reset death failures"
 
   - id: heal-revives
-    source: "13:392"
+    source: "13:393"
     text: "Healing that restores HP also ends the fall"
     value: "heal from 0 -> conscious at healed HP"
 
   - id: wound-trigger-once
-    source: "13:400"
+    source: "13:401"
     text: "It is once per drop, whether or not you spend Grit to get back up"
     value: "one wound per drop; grit and heal do not undo it"
 
   - id: wound-d666
-    source: "13:402"
+    source: "13:403"
     text: "plus one extra die for each wound you already carry beyond the first, up to three extra"
     value: {keep_highest: 3, sort: ascending, digits: lowest=hundreds/middle=tens/highest=ones}
 
   - id: wound-extra-dice
-    source: "13:404"
+    source: "13:405"
     text: "Two wounds means 4d6, three means 5d6, and four or more means 6d6"
     value: {1: 3, 2: 4, 3: 5, 4: 6, cap_extra: 3}
 
   - id: wound-row-lucky-scrape
-    source: "13:413"
+    source: "13:414"
     text: "[111], [*Lucky Scrape*]"
     value: {range: [111, 111], name: Lucky Scrape, mechanical: none}
 
   - id: wound-row-bruised-rib
-    source: "13:414"
+    source: "13:415"
     text: "[112–126], [*Bruised Rib*]"
     value: {range: [112, 126], name: Bruised Rib, mechanical: bane-next-brawn}
 
   - id: wound-row-blood-in-eyes
-    source: "13:415"
+    source: "13:416"
     text: "[133–166], [*Blood in the Eyes*]"
     value: {range: [133, 166], name: Blood in the Eyes, mechanical: bane-next-attack}
 
   - id: wound-row-unnatural-mark
-    source: "13:416"
+    source: "13:417"
     text: "[222], [*Unnatural Mark*]"
     value: {range: [222, 222], name: Unnatural Mark, mechanical: none}
 
   - id: wound-row-twisted-ankle
-    source: "13:417"
+    source: "13:418"
     text: "[223–235], [*Twisted Ankle*]"
     value: {range: [223, 235], name: Twisted Ankle, mechanical: speed-5}
 
   - id: wound-row-deep-gash
-    source: "13:418"
+    source: "13:419"
     text: "[236–266], [*Deep Gash*]"
     value: {range: [236, 266], name: Deep Gash, mechanical: bleed-1-per-turn}
 
   - id: wound-row-scarred
-    source: "13:419"
+    source: "13:420"
     text: "[333], [*Scarred*]"
     value: {range: [333, 333], name: Scarred, mechanical: none}
 
   - id: wound-row-wrenched-shoulder
-    source: "13:420"
+    source: "13:421"
     text: "[334–344], [*Wrenched Shoulder*]"
     value: {range: [334, 344], name: Wrenched Shoulder, mechanical: bane-attacks-encounter}
 
   - id: wound-row-cracked-ribs
-    source: "13:421"
+    source: "13:422"
     text: "[345–366], [*Cracked Ribs*]"
     value: {range: [345, 366], name: Cracked Ribs, mechanical: bane-physical-encounter}
 
   - id: wound-row-broken-bone
-    source: "13:435"
+    source: "13:436"
     text: "[444–446], [*Broken Bone*]"
     value: {range: [444, 446], name: Broken Bone, mechanical: limb-unusable}
 
   - id: wound-row-punctured-lung
-    source: "13:436"
+    source: "13:437"
     text: "[455–466], [*Punctured Lung*]"
     value: {range: [455, 466], name: Punctured Lung, mechanical: speech-limit}
 
   - id: wound-row-karmic-wound
-    source: "13:437"
+    source: "13:438"
     text: "[555], [*Karmic Wound*]"
     value: {range: [555, 555], name: Karmic Wound, mechanical: permanent-loss}
 
   - id: wound-row-crippling-blow
-    source: "13:438"
+    source: "13:439"
     text: "[556], [*Crippling Blow*]"
     value: {range: [556, 556], name: Crippling Blow, mechanical: permanent-limb}
 
   - id: wound-row-shattered-spirit
-    source: "13:439"
+    source: "13:440"
     text: "[566], [*Shattered Spirit*]"
     value: {range: [566, 566], name: Shattered Spirit, mechanical: bane-all-rolls}
 
   - id: wound-row-deaths-door
-    source: "13:440"
+    source: "13:441"
     text: "[666], [*Death's Door*]"
     value: {range: [666, 666], name: "Death's Door", mechanical: dying-no-stabilize}
 
   - id: wound-precedence
-    source: "13:449"
+    source: "13:450"
     text: "A roll that matches a named triple (111, 222, 333, 555, 666) always takes that row"
     value: "named triples win over ranges"
 
   - id: wound-never-heals
-    source: "13:451"
+    source: "13:452"
     text: "Wounds persist after HP is restored"
     value: "wounds are never removed by any effect"
 
   - id: wound-uncapped
-    source: "13:455"
+    source: "13:456"
     text: "There is no cap"
     value: "wounds accumulate without limit; only the death roll ends a hero"
 
   - id: condition-section
-    source: "13:195"
+    source: "13:196"
     text: "== Conditions"
     value: "conditions exist and are tracked"
 
   - id: condition-prone
-    source: "13:222"
+    source: "13:223"
     text: "[*Prone*], [Melee Boon vs you, ranged Bane"
     value: {name: Prone, defense_vs_melee: bane, ends: stand-up}
 
   - id: condition-poisoned
-    source: "13:221"
+    source: "13:222"
     text: "[*Poisoned X*], [Takes X poison damage per round and attacks at Bane]"
     value: {name: Poisoned, per_round_damage: X, attacks: bane, ends: action}
 
   - id: condition-burning
-    source: "13:206"
+    source: "13:207"
     text: "[*Burning X*], [Takes X damage per round]"
     value: {name: Burning, per_round_damage: X, ends: action}
 
   - id: condition-blinded
-    source: "13:205"
+    source: "13:206"
     text: "[*Blinded*], [Attacks at double Bane]"
     value: {name: Blinded, attacks: bane-2}
 
   - id: condition-restrained
-    source: "13:223"
+    source: "13:224"
     text: "[*Restrained*], [Speed 0, attack Bane]"
     value: {name: Restrained, attacks: bane, speed: 0}
 
   - id: condition-grappled
-    source: "13:214"
+    source: "13:215"
     text: "[*Grappled*], [Speed 0]"
     value: {name: Grappled, speed: 0}
 
   - id: condition-slowed
-    source: "13:224"
+    source: "13:225"
     text: "[*Slowed X*], [Speed reduced by X feet, cannot take Reactions]"
     value: {name: Slowed, speed: X, reactions: false}
 
   - id: condition-stunned
-    source: "13:225"
+    source: "13:226"
     text: "[*Stunned*], [Incapacitated + cannot move]"
     value: {name: Stunned, incapacitated: true}
 
   - id: condition-dazed
-    source: "13:209"
+    source: "13:210"
     text: "[*Dazed X*], [Can take only one action type per turn, for X rounds]"
     value: {name: Dazed, one_action_type: true, rounds: X}
 
   - id: condition-frightened
-    source: "13:212"
+    source: "13:213"
     text: "[*Frightened*], [Cannot approach source]"
     value: {name: Frightened, cannot_approach: true}
 
   - id: condition-unconscious
-    source: "13:226"
+    source: "13:227"
     text: "[*Unconscious*], [Incapacitated + prone + unaware]"
     value: {name: Unconscious, incapacitated: true, prone: true, unaware: true}
 
   - id: condition-incapacitated
-    source: "13:216"
+    source: "13:217"
     text: "[*Incapacitated*], [No actions]"
     value: {name: Incapacitated, no_actions: true}
 
   - id: condition-hidden
-    source: "13:215"
+    source: "13:216"
     text: "[*Hidden*], [Attacks against you have Bane"
     value: {name: Hidden, attacks_against: bane}
 
   - id: condition-charmed
-    source: "13:207"
+    source: "13:208"
     text: "[*Charmed*], [Cannot attack charmer]"
     value: {name: Charmed, cannot_attack_source: true}
 
@@ -461,11 +458,10 @@ citations:
     text: "If more than one source gives you DR, use the highest"
     value: highest
 
-  - id: shield-dr-exception
+  - id: shield-grants-no-dr
     source: "16:25"
-    text: "*Shield DR is the exception.*"
-    value: "shield DR applies only through Shield Block"
-
+    text: "*A shield is not a source of DR.*"
+    value: "a shield grants no DR; Shield Block grants a Boon on the Defense Roll"
   - id: dr-ceiling
     source: "16:27"
     text: "cannot exceed 3 at Novice, 4 at Adept, or 6 at Master"
@@ -477,51 +473,37 @@ citations:
     value: "DR N requires N ranks"
 
   - id: armor-dr-light
-    source: "16:42"
-    text: "[*Light*], [1 Armor], [1], [2],"
+    source: "16:48"
+    text: "[*Light*], [1 Armor], [2],"
     value: {name: light, rank: 1, dr: 1}
-
   - id: armor-dr-medium
-    source: "16:43"
-    text: "[*Medium*], [2 Armor], [2], [2 or 3],"
+    source: "16:49"
+    text: "[*Medium*], [2 Armor], [2 or 3],"
     value: {name: medium, rank: 2, dr: 2}
-
   - id: armor-dr-heavy
-    source: "16:44"
-    text: "[*Heavy*], [3 Armor], [3], [3 or 4],"
+    source: "16:50"
+    text: "[*Heavy*], [3 Armor], [3 or 4],"
     value: {name: heavy, rank: 3, dr: 3}
-
-  - id: shield-small
-    source: "16:82"
-    text: "*Small shields (1 Shields, shield DR 1, 1 slot).*"
-    value: {name: small, rank: 1, dr: 1, slot: 1}
-
-  - id: shield-medium
-    source: "16:84"
-    text: "*Medium shields (2 Shields, shield DR 2, 2 slots).*"
-    value: {name: medium, rank: 2, dr: 2, slot: 2}
-
-  - id: shield-large
-    source: "16:86"
-    text: "*Large shields (3 Shields, shield DR 3, 3 slots, half cover).*"
-    value: {name: large, rank: 3, dr: 3, slot: 3}
-
+  - id: shield-item
+    source: "16:108"
+    text: "A shield is one item, whatever you call it."
+    value: {slots: 1, rank: 0, dr: 0, reaction: Shield Block}
+  - id: shield-block-boons
+    source: "16:114"
+    text: "Your Defense Roll for that attack is made with a Boon: Boon 1 at Novice, Boon 2 at Adept, and Boon 3 at Master."
+    value: {novice: 1, adept: 2, master: 3, declared: "before the dice", per_round: 1}
   - id: shield-block
-    source: "16:94"
-    text: "reducing the damage by your shield's DR"
-    value: {reaction: true, per_round: 1}
-
+    source: "16:114"
+    text: "Shield Block applies to one attack per round"
+    value: {reaction: true, per_round: 1, declared: "before the dice"}
   - id: shield-block-floor
-    source: "16:96"
-    text: "Shield Block cannot reduce damage below 1"
+    source: "13:109"
+    text: "a hit always lands for at least 1 damage"
     value: 1
-
   - id: shield-block-example
-    source: "16:130"
-    text: "The shield's DR 1 takes the edge off the blow: 6 - 1 = 5. Then his armor's DR 3 does the rest: 5 - 3 = 2"
-    value: {raw: 6, shield_dr: 1, armor_dr: 3, final: 2}
-
-  # ------------------------------------------------------------ 08 damage
+    source: "16:150"
+    text: "That is 3 + 5 + 1 = 9 damage across the round, and Roric stands at 4 HP of his 13"
+    value: {raw: 6, tier_before_boon: Standard, tier_after_boon: Weak, landed: 4, armor_dr: 3, final: 1, round_total: 9, hp_after: 4}
   - id: damage-budget-novice
     source: "08:213"
     text: "[*Novice*], [4/6/8],"
@@ -665,22 +647,22 @@ citations:
 
   # ----------------------------------------------------------- 09 attacks
   - id: basic-melee
-    source: "09:230"
+    source: "09:232"
     text: "*Weak:* 1 + Brawn damage."
     value: {name: Basic Melee, weak: 1, standard: 2, strong: 3, attribute: Brawn}
 
   - id: basic-archery
-    source: "09:248"
+    source: "09:250"
     text: "*Weak:* 1 damage."
     value: {name: Basic Archery, weak: 1, standard: 2, strong: 3, attribute: null}
 
   - id: basic-two-handed
-    source: "09:239"
+    source: "09:241"
     text: "*Weak:* 1 + Brawn damage."
     value: {name: Basic Two-Handed, weak: 1, standard: 2, strong: 3, attribute: Brawn}
 
   - id: basic-unarmed
-    source: "09:266"
+    source: "09:268"
     text: "*Weak:* 1 + Brawn damage."
     value: {name: Basic Unarmed, weak: 1, standard: 1, strong: 2, attribute: Brawn}
 
@@ -690,7 +672,7 @@ citations:
     value: {Novice: 1, Adept: 2, Master: 3, dp: {Novice: 2, Adept: 4, Master: 8}, level: {Novice: 1, Adept: 3, Master: 7}}
 
   - id: skill-not-attack
-    source: "07:114"
+    source: "07:94"
     text: "His skill bonus does not enter the attack."
     value: "weapon attacks add attribute only; skills never add to attacks"
 
@@ -813,12 +795,12 @@ citations:
     value: {Protector: [Armor, Shields], Blade: [Melee, Stealth], Arcanist: [Fire, Energy], Shepherd: [Protection, Animal], Intellect: [Lore, any], Odd: [any, any], Leader: [Tactics, Shields], Unbalanced: [Fire, Water], Shadow: [Stealth, Sleight]}
 
   - id: class-health-source
-    source: "05:61"
+    source: "05:59"
     text: "*Health Points:* 10 + Fortitude + Brawn."
     value: Protector-Brawn
 
   - id: favored-skills
-    source: "05:65"
+    source: "05:63"
     text: "*Favored Skills:* Athletics, Endurance, Survival, Perception, Persuasion, Medicine"
     value: {Protector: [Athletics, Endurance, Survival, Perception, Persuasion, Medicine], Blade: [Acrobatics, Deception, Perception, Sleight of Hand, Stealth, Thievery], Arcanist: [Alchemy, Arcana, History, Lore, Nature], Shepherd: [Medicine, Nature, Religion, Survival], Intellect: [History, Lore, Medicine, Arcana, Perception], Odd: [Sleight of Hand, Stealth, Deception, Acrobatics, Performance], Leader: [Persuasion, Perception, Insight, Survival, Endurance], Unbalanced: [Arcana, Deception, Insight, Perception, Acrobatics], Shadow: [Stealth, Deception, Sleight of Hand, Thievery, Acrobatics, Perception]}
 
@@ -901,16 +883,15 @@ citations:
 
   - id: equipment-tags
     source: "15:27"
-    text: "[`weapon:one-hand`], [1 Melee], [A one-handed weapon in your hand],"
-    value: {"weapon:unarmed": 0, "weapon:one-hand": 1, "weapon:two-hand": 1, "weapon:ranged": 1, shield: 1, "focus:arcane": 0, "focus:holy": 0, "focus:primal": 0}
-
+    text: "[`weapon:one-hand`], [None], [A one-handed weapon in your hand],"
+    value: {"weapon:unarmed": 0, "weapon:one-hand": 0, "weapon:two-hand": 0, "weapon:ranged": 0, shield: 0, "focus:arcane": 0, "focus:holy": 0, "focus:primal": 0}
   - id: melee-adds-brawn
-    source: "15:115"
+    source: "15:105"
     text: "Melee attacks add your Brawn to the damage row on your attack ability card. Missile and thrown attacks are flat"
     value: {melee: Brawn, missile: flat}
 
   - id: improvised-damage
-    source: "15:117"
+    source: "15:107"
     text: "deal 1/1/2 + Brawn, the Basic Unarmed floor"
     value: [1, 1, 2]
 
