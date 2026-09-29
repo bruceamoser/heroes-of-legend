@@ -525,7 +525,7 @@ HP 14, DR 5. Solo: 56, sized for four attackers. Attributes: Brawn +2, Fortitude
 
 *Multiattack:* Storm Axe twice, or Lightning Bolt then Storm Axe.
 
-*Thunderclap (Recharge):* every creature within 30 ft must make a Fortitude check or be knocked Prone and Deafened until the end of its next turn. The giant throws it into the party's tightest knot, then closes on whoever is left standing alone.
+*Thunderclap (Recharge):* every creature within 30 ft must make a Fortitude check or be knocked Prone and Deafened until the end of its next turn. The giant prefers the party's tightest knot for the thunderclap, then closes on whoever is left standing alone.
 
 === Ogre (Challenge 2)
 
@@ -581,7 +581,7 @@ HP 14, DR 5. Solo: 56, sized for four attackers. Attributes: Brawn +2, Guile +2,
 
 *Hellfire (Recharge):* 7/10/14 fire + necrotic (30 ft radius).
 
-*Devour the Fallen:* when a creature within 30 ft drops to 0 HP, the archdemon regains 7 HP. It ignores the party's strongest hero and goes for whoever is already bleeding.
+*Devour the Fallen:* when a creature within 30 ft drops to 0 HP, the archdemon regains 7 HP. It prefers whoever is already bleeding, and leaves the party's strongest hero for last.
 
 == Oozes
 
