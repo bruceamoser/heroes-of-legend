@@ -19,8 +19,7 @@
   "disciplines": {
     "Earth": 1,
     "Energy": 1,
-    "Fire": 1,
-    "Melee": 1
+    "Fire": 1
   },
   "dp": {
     "background": 11,
@@ -67,12 +66,6 @@
       "wallet": "background"
     },
     {
-      "detail": "equipment requirement",
-      "dp": 4,
-      "item": "Melee 1",
-      "wallet": "class"
-    },
-    {
       "detail": "Novice card",
       "dp": 2,
       "item": "Ember Lance",
@@ -107,11 +100,10 @@
     "Energy already granted; requested rank is waste",
     "background DP 11/11 spent",
     "auto skipped Brimstone Burst: Brimstone Burst is Adept and gates at level 3",
-    "class DP 12/12 spent",
-    "unspent DP: background 0, class 0"
+    "class DP 8/12 spent",
+    "unspent DP: background 0, class 4"
   ],
   "shield": null,
-  "shield_dr": 0,
   "skills": {
     "Alchemy": 1,
     "Arcana": 1,

@@ -160,14 +160,13 @@ ARMOR_DATA = {
     "heavy": {"rank": 3, "dr": 3, "slots": 4},
 }
 
-SHIELD_DATA = {
-    "small": {"rank": 1, "dr": 1, "slots": 1},
-    "medium": {"rank": 2, "dr": 2, "slots": 2},
-    "large": {"rank": 3, "dr": 3, "slots": 3},
-}
+# 16:108: a shield is one item - no rank, no DR, 1 slot; what Shields ranks
+# buy is Shield Block depth (16:114).
+SHIELD_DATA = {"slots": 1}
 
-WEAPON_RANK = {"unarmed": 0, "one-hand": 1, "two-hand": 1, "ranged": 1}
-WEAPON_DISCIPLINE = {"one-hand": "Melee", "two-hand": "Two-Handed", "ranged": "Ranged", "unarmed": None}
+# 15:27: every equipment tag prints None in its Rank column, so gear asks for
+# no Discipline rank; every weapon category carries a 0 surcharge.
+WEAPON_RANK = {"unarmed": 0, "one-hand": 0, "two-hand": 0, "ranged": 0}
 
 
 class BuildError(RuntimeError):
@@ -203,7 +202,6 @@ class Character:
         self.armor = None
         self.armor_dr = 0
         self.shield = None
-        self.shield_dr = 0
         self.ward_dr = 0
         self.weapon = "one-hand"
         self.background_dp = 0
@@ -279,7 +277,6 @@ class Character:
             "armor": self.armor,
             "armor_dr": self.armor_dr,
             "shield": self.shield,
-            "shield_dr": self.shield_dr,
             "ward_dr": self.ward_dr,
             "weapon": self.weapon,
             "dp": {"background": self.background_dp, "class": self.class_dp},
@@ -510,16 +507,7 @@ class Builder:
             character.armor_dr = ARMOR_DATA[armor_key]["dr"]
         shield_key = equipment.get("shield")
         if shield_key not in (None, "none"):
-            if shield_key not in SHIELD_DATA:
-                raise BuildError(f"unknown shield {shield_key!r}")
-            required = SHIELD_DATA[shield_key]["rank"]
-            spent_class += self._require_rank(character, "Shields", required, spent_class, class_budget)
             character.shield = shield_key
-            character.shield_dr = SHIELD_DATA[shield_key]["dr"]
-        weapon_rank = WEAPON_RANK[weapon]
-        if weapon_rank:
-            discipline = WEAPON_DISCIPLINE[weapon]
-            spent_class += self._require_rank(character, discipline, 1, spent_class, class_budget)
         if equipment.get("ward_dr"):
             ward = int(equipment["ward_dr"])
             if ward < 0 or ward > 3:

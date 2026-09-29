@@ -24,7 +24,7 @@
   },
   "dp": {
     "background": 11,
-    "class": 18
+    "class": 25
   },
   "grit": 3,
   "hp": 12,
@@ -103,7 +103,7 @@
       "wallet": "class"
     }
   ],
-  "level": 3,
+  "level": 5,
   "name": "Sera",
   "notes": [
     "Fire granted twice; second grant is waste (08:99)",
@@ -112,8 +112,8 @@
     "Fire already granted; requested rank is waste",
     "Energy already granted; requested rank is waste",
     "background DP 11/11 spent",
-    "class DP 14/18 spent",
-    "unspent DP: background 0, class 4"
+    "class DP 14/25 spent",
+    "unspent DP: background 0, class 11"
   ],
   "shield": null,
   "skills": {

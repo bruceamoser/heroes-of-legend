@@ -19,7 +19,7 @@
     "Armor": 3,
     "Melee": 1,
     "Protection": 1,
-    "Shields": 3,
+    "Shields": 1,
     "Two-Handed": 1
   },
   "dp": {
@@ -73,18 +73,6 @@
       "wallet": "class"
     },
     {
-      "detail": "equipment requirement",
-      "dp": 2,
-      "item": "Shields 2",
-      "wallet": "class"
-    },
-    {
-      "detail": "equipment requirement",
-      "dp": 4,
-      "item": "Shields 3",
-      "wallet": "class"
-    },
-    {
       "detail": "prerequisite for Sanctuary",
       "dp": 4,
       "item": "Protection 1",
@@ -94,6 +82,18 @@
       "detail": "Novice card",
       "dp": 2,
       "item": "Sanctuary",
+      "wallet": "class"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Persuasion Novice",
+      "wallet": "class"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Medicine Novice",
       "wallet": "class"
     }
   ],
@@ -106,16 +106,17 @@
     "Armor already granted; requested rank is waste",
     "Shields already granted; requested rank is waste",
     "background DP 9/9 spent",
-    "class DP 18/18 spent",
-    "unspent DP: background 0, class 0"
+    "class DP 16/18 spent",
+    "unspent DP: background 0, class 2"
   ],
   "shield": "large",
-  "shield_dr": 3,
   "skills": {
     "Athletics": 1,
     "Endurance": 1,
+    "Medicine": 1,
     "Parry": 1,
     "Perception": 1,
+    "Persuasion": 1,
     "Survival": 1
   },
   "tier": "Adept",

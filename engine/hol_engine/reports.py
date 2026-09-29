@@ -357,13 +357,12 @@ def study_layers(data, rules, cardbook, iterations):
         ("light", {"armor": "light"}),
         ("medium", {"armor": "medium"}),
         ("heavy", {"armor": "heavy"}),
-        ("shield-small", {"shield": "small"}),
-        ("shield-large", {"shield": "large"}),
+        ("shield", {"shield": True}),
         ("ward-1", {"ward_dr": 1}),
         ("ward-2", {"ward_dr": 2}),
         ("ward-3", {"ward_dr": 3}),
-        ("light+shield", {"armor": "light", "shield": "large"}),
-        ("heavy+shield", {"armor": "heavy", "shield": "large"}),
+        ("light+shield", {"armor": "light", "shield": True}),
+        ("heavy+shield", {"armor": "heavy", "shield": True}),
         ("heavy+ward", {"armor": "heavy", "ward_dr": 3}),
     ]
 

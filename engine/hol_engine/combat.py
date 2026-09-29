@@ -25,11 +25,11 @@ def reverse_defense_tier(tier):
     return REVERSAL[tier]
 
 
-def damage_after_dr(raw, dr, shield=0):
-    """16:21, 16:96: subtract DR (and Shield Block DR), floor at 1."""
+def damage_after_dr(raw, dr):
+    """16:21, 13:109: subtract DR, floor at 1."""
     if raw <= 0:
         return 0
-    return max(1, raw - dr - shield)
+    return max(1, raw - dr)
 
 
 def challenge_penalty(rating):
@@ -74,7 +74,7 @@ class Combatant:
     __slots__ = (
         "key", "name", "side", "is_hero", "source", "policy",
         "attributes", "max_hp", "hp", "temp_hp", "grit", "grit_max", "tier",
-        "armor_dr", "shield_dr", "ward_dr", "challenge_penalty", "creature",
+        "armor_dr", "ward_dr", "challenge_penalty", "creature",
         "cards", "weapon", "has_shield", "shield_size",
         "conditions", "reaction_ready", "action_ready", "maneuver_ready",
         "dying", "stable", "unconscious", "dead", "deaths_door",
@@ -101,7 +101,6 @@ class Combatant:
             self.grit_max = source.grit_max
             self.tier = source.tier
             self.armor_dr = source.armor_dr
-            self.shield_dr = source.shield_dr
             self.ward_dr = source.ward_dr
             self.challenge_penalty = None
             self.cards = list(source.cards)
@@ -116,7 +115,6 @@ class Combatant:
             self.grit_max = 0
             self.tier = None
             self.armor_dr = source.dr
-            self.shield_dr = 0
             self.ward_dr = 0
             self.challenge_penalty = source.challenge_penalty
             self.cards = []
@@ -441,13 +439,7 @@ class Combat:
         raw = max(0, raw)
         hp_before = target.hp
         dr = target.effective_dr() if target.is_hero else target.armor_dr
-        shield = 0
-        if target.is_hero and target.has_shield and target.policy.shield_block and target.reaction_ready \
-                and raw > dr and target.shield_dr:
-            shield = target.shield_dr
-            target.reaction_ready = False
-            self.log(event="shield_block", actor=target.key, shield_dr=shield)
-        final = damage_after_dr(raw, dr, shield)
+        final = damage_after_dr(raw, dr)
         self._damage(actor, target, final)
         if card.standard_boon_next_attack and tier in (STANDARD, STRONG):
             actor.attack_boon_next += 1
@@ -456,7 +448,7 @@ class Combat:
         self.log(
             event="attack", actor=actor.key, target=target.key, action="attack",
             card=card.name, roll=roll.all_dice, kept=roll.kept, total=roll.total,
-            damage_tier=damage_tier.lower(), raw_damage=raw, armor_dr=dr, shield_dr=shield,
+            damage_tier=damage_tier.lower(), raw_damage=raw, armor_dr=dr,
             final_damage=final, target_hp_before=hp_before, target_hp_after=max(0, target.hp),
             critical=critical, fumble=fumble,
         )
@@ -474,6 +466,13 @@ class Combat:
         kind, defense_value = target.defense_bonus() if target.is_hero else ("raw", 0)
         boons = target.defense_boon
         banes = target.defense_bane_rounds
+        # 16:114: Shield Block is declared before the dice and Boons this roll;
+        # the first attack at the hero spends the once-per-round reaction.
+        if target.is_hero and target.has_shield and target.policy.shield_block and target.reaction_ready:
+            boon = {"Novice": 1, "Adept": 2, "Master": 3}[target.tier]
+            boons += boon
+            target.reaction_ready = False
+            self.log(event="shield_block", actor=target.key, defense_boon=boon)
         if target.defend_until_next_turn:
             boons += 1
         if target.has_condition("Prone"):
@@ -510,20 +509,14 @@ class Combat:
         raw = attack.damage[index]
         hp_before = target.hp
         dr = target.effective_dr() if target.is_hero else target.armor_dr
-        shield = 0
-        if target.is_hero and target.has_shield and target.policy.shield_block and target.reaction_ready \
-                and raw > dr and target.shield_dr:
-            shield = target.shield_dr
-            target.reaction_ready = False
-            self.log(event="shield_block", actor=target.key, shield_dr=shield)
-        final = damage_after_dr(raw, dr, shield)
+        final = damage_after_dr(raw, dr)
         self._damage(actor, target, final)
         self.log(
             event="attack", actor=actor.key, target=target.key, action="attack",
             card=attack.name,
             defense_roll=defense_roll.all_dice, defense_kept=defense_roll.kept,
             defense_total=defense_roll.total, defense_tier=defense_roll.tier.lower(),
-            damage_tier=damage_tier.lower(), raw_damage=raw, armor_dr=dr, shield_dr=shield,
+            damage_tier=damage_tier.lower(), raw_damage=raw, armor_dr=dr,
             final_damage=final, target_hp_before=hp_before,
             target_hp_after=max(0, target.hp),
             critical=defense_roll.triple6, fumble=defense_roll.triple1,
@@ -989,7 +982,7 @@ class Combat:
                     self._damage(actor, target, attack.damage[1])
                     self.log(event="attack", actor=actor.key, target=target.key, action="attack",
                              card=attack.name, damage_tier="automatic", raw_damage=attack.damage[1],
-                             armor_dr=0, shield_dr=0, final_damage=attack.damage[1],
+                             armor_dr=0, final_damage=attack.damage[1],
                              target_hp_before=target.hp + attack.damage[1], target_hp_after=target.hp)
                     continue
                 self.monster_attack(actor, target, attack, tier_bonus)

@@ -19,7 +19,7 @@
     "Armor": 3,
     "Melee": 1,
     "Protection": 1,
-    "Shields": 3
+    "Shields": 1
   },
   "dp": {
     "background": 10,
@@ -72,18 +72,6 @@
       "wallet": "class"
     },
     {
-      "detail": "equipment requirement",
-      "dp": 2,
-      "item": "Shields 2",
-      "wallet": "class"
-    },
-    {
-      "detail": "equipment requirement",
-      "dp": 4,
-      "item": "Shields 3",
-      "wallet": "class"
-    },
-    {
       "detail": "prerequisite for Sanctuary",
       "dp": 4,
       "item": "Protection 1",
@@ -111,11 +99,10 @@
     "Armor already granted; requested rank is waste",
     "Shields already granted; requested rank is waste",
     "background DP 10/10 spent",
-    "class DP 20/31 spent",
-    "unspent DP: background 0, class 11"
+    "class DP 14/31 spent",
+    "unspent DP: background 0, class 17"
   ],
   "shield": "large",
-  "shield_dr": 3,
   "skills": {
     "Athletics": 1,
     "Endurance": 1,

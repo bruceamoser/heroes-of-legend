@@ -7,7 +7,7 @@ There are exactly four machine-checkable examples in the book:
   13:569  Worked Example: The Ambush
 Two bonus fixtures the manuscript also prints:
   13:304  Two-weapon fighting example
-  16:130  Shield Block example
+  16:150  Shield Block example
 
 Each function returns a list of observations of the form
 (label, expected, actual). The test suite asserts every actual == expected.
@@ -39,7 +39,7 @@ def _row(damage, tier):
     return damage[tier]
 
 
-def defense_example(dice_values, agility, challenge, damage, dr, shield=0):
+def defense_example(dice_values, agility, challenge, damage, dr):
     """Resolve one NPC attack against a hero: defense roll, reversal, DR."""
     dice = Dice(script=[list(dice_values)])
     roll = dice.roll(agility - challenge)
@@ -52,8 +52,7 @@ def defense_example(dice_values, agility, challenge, damage, dr, shield=0):
         "damage_tier": outcome,
         "raw_damage": raw,
         "dr": dr,
-        "shield": shield,
-        "final": damage_after_dr(raw, dr, shield),
+        "final": damage_after_dr(raw, dr),
     }
 
 
@@ -100,13 +99,32 @@ def two_weapon_example():
 
 
 def shield_block_example():
-    """16:130 - warchief Standard 6, shield DR 1, armor DR 3 -> 2."""
-    raw = 6
-    shield = 1
-    armor = 3
+    """16:150 - Roric's round: 3 + 5 + 1 = 9, and the axe lands 6 -> 4 -> 1."""
+    scimitar = {WEAK: 4, STANDARD: 6, STRONG: 8}
+    axe = {STANDARD: 6, WEAK: 4}
+    dice = Dice(script=[[3, 4, 4], [1, 2, 3], [6, 5, 4, 3]])
+    first = dice.roll(modifier=2)
+    second = dice.roll(modifier=2)
+    chief = dice.roll(modifier=0, boon=1)
+    goblin_one = damage_after_dr(_row(scimitar, reverse_defense_tier(first.tier)), 3)
+    goblin_two = damage_after_dr(_row(scimitar, reverse_defense_tier(second.tier)), 3)
+    landed = _row(axe, reverse_defense_tier(chief.tier))
+    final = damage_after_dr(landed, 3)
     return [
-        Observation("16:130 after shield", 5, raw - shield),
-        Observation("16:130 final damage", 2, damage_after_dr(raw, armor, shield)),
+        Observation("16:150 goblin 1 total", 13, first.total),
+        Observation("16:150 goblin 1 tier", STANDARD, first.tier),
+        Observation("16:150 goblin 1 damage", 3, goblin_one),
+        Observation("16:150 goblin 2 total", 8, second.total),
+        Observation("16:150 goblin 2 tier", WEAK, second.tier),
+        Observation("16:150 goblin 2 damage", 5, goblin_two),
+        Observation("16:150 warchief kept", [6, 5, 4], chief.kept),
+        Observation("16:150 warchief total", 15, chief.total),
+        Observation("16:150 warchief tier", STRONG, chief.tier),
+        Observation("16:150 warchief raw", 6, _row(axe, STANDARD)),
+        Observation("16:150 warchief landed", 4, landed),
+        Observation("16:150 warchief final damage", 1, final),
+        Observation("16:150 round total", 9, goblin_one + goblin_two + final),
+        Observation("16:150 Roric HP", 4, 13 - 9),
     ]
 
 
@@ -255,7 +273,7 @@ EXAMPLES = {
     "13:304": two_weapon_example,
     "13:487": full_combat_round,
     "13:569": ambush_example,
-    "16:130": shield_block_example,
+    "16:150": shield_block_example,
 }
 
 

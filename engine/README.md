@@ -71,7 +71,7 @@ party:
     disciplines: [Armor, Shields]   # requested starting disciplines
     skills: auto          # auto | explicit list | [] for none
     cards: auto           # auto | explicit list of modelled cards
-    equipment: {armor: light|medium|heavy, shield: small|medium|large, weapon: unarmed|one-hand|two-hand|ranged, ward_dr: 0-3}
+    equipment: {armor: light|medium|heavy, shield: true, weapon: unarmed|one-hand|two-hand|ranged, ward_dr: 0-3}
     policy: default       # named policy below
     health_attribute: ... # Odd only
     odd_disciplines: [...]         # Odd only
@@ -105,7 +105,10 @@ The engine refuses an illegal character: attributes must be the six, within
 and card prerequisite is paid from the correct wallet at the class's rates,
 and the ledger is dumped for inspection. `cards: auto` spends what it can and
 records each purchase; explicit lists must be fully affordable or the run
-fails.
+fails. A shield is one item (16:108): any `shield` value other than `none`
+equips it, it asks for no Discipline rank and grants no DR, and Shield Block
+is a Boon on the Defense Roll (16:114) that spends the once-per-round
+reaction before the dice.
 
 ## Adding a policy
 
