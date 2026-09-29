@@ -1,5 +1,6 @@
 # Canonical Adept run: a level-3 party against the book's Standard example
-# encounter (20:650): 2 Knights + 2 Basilisks + 2 Green Hags, all Challenge 3.
+# encounter (20:650): 2 Knights + 2 Basilisks + 1 Green Hag, all Challenge 3
+# (1.25 x 3 x 4 = 15, five creatures).
 run:
   name: adept-standard
   seed: 20260927
@@ -67,7 +68,7 @@ opposition:
     challenge_override: null
     policy: default
   - creature: Green Hag
-    count: 2
+    count: 1
     challenge_override: null
     policy: default
 
