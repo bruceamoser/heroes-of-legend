@@ -98,7 +98,7 @@ This isn't about fairness or trust. It's about engagement. When the goblin swing
 
 === How Defense Rolls Work
 
-When an NPC or monster attacks your hero, you make a *Defense Roll*. Which formula you use depends on how you defend. When one hero attacks another, the target rolls Defense exactly as they would against a monster. When no hero is involved at all, the DA rolls the Defense on the defender's behalf using the same formula.
+When an NPC or monster attacks your hero, you make a *Defense Roll*. Which formula you use depends on how you defend. When one hero attacks another, the target rolls Defense exactly as they would against a monster. When no hero is involved at all, a player rolls the Defense on the defender's behalf using the same formula.
 
 + *No defensive skill:* *3d6 + Agility modifier − Challenge*
 + *Dodge:* *3d6 + Agility modifier + Dodge rank − Challenge*
