@@ -60,7 +60,7 @@ Boons come from clever positioning, magical aid, or a Critical effect that inspi
 
 + *Boon 1:* roll 4d6, keep the highest three. *Boon 2:* 5d6, keep the highest three. *Boon 3:* 6d6, keep the highest three.
 + *Bane 1:* roll 4d6, keep the _lowest_ three. *Bane 2:* 5d6. *Bane 3:* 6d6.
-+ Three steps is the ceiling. Potence beyond that has no further effect. This cap governs Boons and Banes alone; it is not the substitution cap, which allows only one substitution per roll (see @sec-chapter-talents-abilities).
++ Three steps is the ceiling. Potence beyond that has no further effect. This cap governs Boons and Banes alone; it is not the substitution cap, which allows only one substitution per roll (see @sec-chapter-talents-abilities)
 
 *Boons and Banes cancel.* One Boon and one Bane on the same roll is a straight 3d6 roll. Cancel them one for one, then roll whatever is left. This keeps every source of advantage and disadvantage honest: a Bane 2 against a Boon 1 leaves a single Bane, and neither source has to be tracked separately.
 
