@@ -145,6 +145,8 @@ HP 16, DR 2. Solo: 64, sized for four attackers. Attributes: Knowledge +2, Reaso
 
 *Brimstone Burst:* 5/8/11 (once per encounter).
 
+*Multiattack:* Ember Lance twice.
+
 *Counterspell:* reaction to negate a spell. The archmage keeps its distance and holds its reaction for the party's caster rather than closing to trade dagger blows.
 
 *Magical Ward:* +2 DR vs spells.
@@ -293,6 +295,8 @@ HP 17, DR 4. Solo: 68, sized for four attackers. Attributes: Knowledge +2, Reaso
 *Paralyzing Touch:* 7/10/14 cold + Paralyzed for 1 round on a Strong hit.
 
 *Disrupt Life:* 7/10/14 necrotic (30 ft radius, 1/day).
+
+*Multiattack:* Paralyzing Touch twice.
 
 *Spellcasting:* as 10th-level Arcanist.
 
@@ -494,6 +498,8 @@ HP 17, DR 4. Solo: 68, sized for four attackers. Attributes: Brawn +2, Fortitude
 
 *Rock:* 7/10/14 (range 60/240).
 
+*Multiattack:* Greatclub twice.
+
 *Stone Camouflage:* Boon on Stealth in rocky terrain.
 
 === Ogre (Challenge 2)
@@ -519,6 +525,8 @@ HP 18, DR 3. Solo: 72, sized for four attackers. Attributes: Brawn +2, Fortitude
 *Claw:* 5/8/11.
 
 *Bite:* 5/8/11.
+
+*Multiattack:* Claw + Bite.
 
 *Spores (Recharge):* all within 15 ft take 5/8/11 poison.
 
@@ -649,7 +657,7 @@ _C½ = Challenge ½ (minion-tier)._
   [Easy], [1 x 3 x 4 = 12], [4 Knights (Challenge 3 each)],
   [Standard], [1.25 x 3 x 4 = 15], [2 Knights + 2 Basilisks + 1 Green Hag (all Challenge 3) = 5 creatures],
   [Hard], [2 x 3 x 4 = 24], [4 Knights + 4 Wyrmlings (all Challenge 3) = 8 creatures],
-  [Deadly], [3 x 3 x 4 = 36], [6 Young Dragons (Challenge 6 each), or 12 Challenge 3 creatures],
+  [Deadly], [3 x 3 x 4 = 36], [4 Young Dragons (Challenge 6 each, x1.5 for Multiattack), or 12 Challenge 3 creatures],
 )], kind: table, numbering: none, outlined: false)
 
 #pagebreak()
