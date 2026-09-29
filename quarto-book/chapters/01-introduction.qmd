@@ -92,7 +92,7 @@ The rest will feel familiar. To start building, jump to @sec-chapter-character-c
 
 All right. Roll up your sleeves. This is the engine that drives everything.
 
-In _Heroes of Legend_, whenever you attempt something with risk: swinging a sword, casting a spell, talking your way past a guard, climbing a crumbling wall while something with too many teeth chases you, you reach for three six-sided dice. You roll them. You add your hero's relevant *attribute* (see @sec-chapter-attributes) You add your *skill* bonus if you have one. The DA may add or subtract a modifier for difficulty. Then you look at the total. That number tells you what happens.
+In _Heroes of Legend_, whenever you attempt something with risk: swinging a sword, casting a spell, talking your way past a guard, climbing a crumbling wall while something with too many teeth chases you, you reach for three six-sided dice. You roll them. You add your hero's relevant *attribute* (see @sec-chapter-attributes) You add your *skill* bonus if you have one. The DA may grant a Boon or impose a Bane for difficulty. Then you look at the total. That number tells you what happens.
 
 But numbers without context are just arithmetic. Here's what those totals _feel_ like at the table:
 
@@ -115,7 +115,7 @@ _Figure 2.3: Bell Curve_
 
 #callout(type: "important", title: "The Only Rule You Need to Memorize", body: [
 + *Roll 3d6* whenever you attempt something risky.
-+ *Add* your attribute modifier + skill bonus + any DA modifiers.
++ *Add* your attribute modifier + skill bonus, then apply any Boon or Bane.
 + *Check the total:* 1–8 = Weak, 9–14 = Standard, 15–18+ = Strong.
 
 That's the entire game engine. Come back to this box whenever you're unsure what to do.
@@ -166,7 +166,7 @@ _Figure 2.4: Dice_
 
 *Lyra:* "While he's distracted and everyone's staring at Kael, I want to slip behind the throne and check for anything valuable. Or explosive. Ideally both."
 
-*Morgan:* "Give me a Stealth roll. The goblins are watching Kael, so I'll say Standard difficulty, no modifier."
+*Morgan:* "Give me a Stealth roll. The goblins are watching Kael, so I'll say Standard difficulty, straight 3d6."
 
 _Lyra rolls. She doesn't shake the dice, she just drops them, casual, like she's not doing anything important._
 

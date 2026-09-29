@@ -34,13 +34,13 @@ A scene is a unit of story. It has a beginning (the party enters the throne room
 
 == Setting Difficulty
 
-The difficulty modifier is the simplest tool in your kit, and the one new DAs misuse most often. Here's how to wield it well.
+The difficulty call is the simplest tool in your kit, and the one new DAs misuse most often. Here's how to wield it well.
 
-*The baseline is +0.* Standard difficulty means the task is a fair test of the hero's abilities. Picking a standard lock. Climbing a wall with handholds. Lying to a guard who has no reason to suspect you. When the fiction says "this is what the skill was made for," the modifier is +0. Don't add penalties just because you want the roll to be harder. The bell curve makes Standard results the most common outcome, and that's intentional. Competent heroes succeed at competent tasks.
+*The baseline is a straight 3d6.* Standard difficulty means the task is a fair test of the hero's abilities. Picking a standard lock. Climbing a wall with handholds. Lying to a guard who has no reason to suspect you. When the fiction says "this is what the skill was made for," you grant nothing. Don't impose a Bane just because you want the roll to be harder. The bell curve makes Standard results the most common outcome, and that's intentional. Competent heroes succeed at competent tasks.
 
-*Add bonuses when the situation favors the hero.* The guard is distracted (+2). The lock is rusty and half-broken (+2). The wall has plenty of handholds and the hero has a rope (+4). Generous bonuses make players feel smart for setting up advantages. If the rogue spent ten minutes creating a distraction before attempting the lock, reward that. The dice should reflect the fiction, not override it.
+*Grant a Boon when the situation favors the hero.* The guard is distracted (Boon 1). The lock is rusty and half-broken (Boon 1). The wall has plenty of handholds and the hero has a rope (Boon 2). Generous Boons make players feel smart for setting up advantages. If the rogue spent ten minutes creating a distraction before attempting the lock, reward that. The dice should reflect the fiction, not override it.
 
-*Add penalties when the situation fights back.* It's pitch dark (-2). The guard just watched his partner get stabbed and he's on high alert (-2). The lock is dwarven masterwork, the wall is sheer ice, the lie is being told to the king's spymaster (-4). Penalties make the world feel dangerous without making it feel unfair. The players should know _why_ the roll is harder. "The lock is dwarven masterwork" is information. "-4 because I said so" is frustration.
+*Impose a Bane when the situation fights back.* It's pitch dark (Bane 1). The guard just watched his partner get stabbed and he's on high alert (Bane 1). The lock is dwarven masterwork, the wall is sheer ice, the lie is being told to the king's spymaster (Bane 2). Banes stack up to three, so a hero facing both the dark and the alert guard rolls a Bane 2. Banes make the world feel dangerous without making it feel unfair. The players should know _why_ the roll is harder. "The lock is dwarven masterwork" is information. "A Bane because I said so" is frustration.
 
 *The golden rule: don't call for rolls when the outcome isn't in doubt.* The brawler with Brawn +2 wants to kick down a normal wooden door? It breaks. No roll. The woodsman with Survival Adept wants to find edible berries in a temperate forest? They find them. No roll. Rolling dice when there's nothing at stake drains tension from the moments that _do_ matter. Save the dice for when the table is leaning forward, waiting to see what happens.
 
@@ -264,7 +264,7 @@ Run this as a group skill challenge. Each character makes one skill check. They 
     [Pick the safest path through the mud flats], [Survival (Fortitude)], [Standard],
     [Spot unstable ground before someone steps on it], [Perception (Reason)], [Standard],
     [Wade the flooded sections without losing gear], [Athletics (Brawn)], [Standard],
-    [Climb the collapsed riverbank to the door], [Athletics (Brawn)], [Hard (Bane if already wet)],
+    [Climb the collapsed riverbank to the door], [Athletics (Brawn)], [Hard: Bane 1 (Bane 2 if already wet)],
     [Read the flow of the new channel to find a ford], [Nature (Knowledge)], [Standard],
   )],
   kind: table,

@@ -97,7 +97,7 @@ Maneuvers beyond the basics are weapon maneuvers, gated by Disciplines rather th
 
 Attacks always hit. Say it with me: _always hit._ When you swing your weapon or hurl a spell, you connect.
 
-Roll 3d6 + modifiers. The total determines your damage tier:
+Roll 3d6 + your attribute modifier, then apply any Boons and Banes. The total determines your damage tier:
 
 - *Weak:* Glancing blow. Apply your attack card's Weak damage.
 - *Standard:* Solid hit. Apply your attack card's Standard damage.
