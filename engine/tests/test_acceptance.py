@@ -35,7 +35,7 @@ HERO_SPECS = [
     {"id": "P1", "class": "Protector", "level": 1, "ancestry": "Dwarf", "culture": "Mountain",
      "attributes": {"Brawn": 2, "Fortitude": 1, "Agility": -1, "Guile": 0, "Knowledge": 0, "Reason": 1},
      "disciplines": ["Armor", "Shields"], "cards": "auto",
-     "equipment": {"armor": "heavy", "shield": "large"}},
+     "equipment": {"armor": "heavy", "shield": True}},
     {"id": "P2", "class": "Shepherd", "level": 1, "ancestry": "Dwarf", "culture": "Hill",
      "attributes": {"Brawn": -1, "Fortitude": 1, "Agility": 0, "Guile": 1, "Knowledge": 0, "Reason": 2},
      "disciplines": ["Protection", "Animal"], "cards": "auto",
@@ -310,7 +310,7 @@ class TestMultiattack(unittest.TestCase):
             "culture": "Coastal",
             "attributes": {"Brawn": 0, "Fortitude": 0, "Agility": 0, "Guile": 2, "Knowledge": 0, "Reason": 1},
             "disciplines": ["Tactics", "Shields"], "cards": "auto",
-            "equipment": {"armor": "light", "shield": "small", "weapon": "two-hand"},
+            "equipment": {"armor": "light", "shield": True, "weapon": "two-hand"},
         }
         party = HERO_SPECS + [leader]
         combat = make_combat(party=party, opposition=[{"creature": "Ancient Dragon", "count": 1}])

@@ -19,7 +19,7 @@ party:
     attributes: {Brawn: 2, Fortitude: 2, Agility: -1, Guile: 0, Knowledge: 0, Reason: 0}
     disciplines: [Armor, Shields]
     cards: auto
-    equipment: {armor: light, shield: small}
+    equipment: {armor: light, shield: true}
     policy: default
 
   - id: P2

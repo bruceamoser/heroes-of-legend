@@ -102,7 +102,7 @@
     "class DP 14/31 spent",
     "unspent DP: background 0, class 17"
   ],
-  "shield": "large",
+  "shield": true,
   "skills": {
     "Athletics": 1,
     "Endurance": 1,
