@@ -338,7 +338,7 @@ All spells, abilities, and monster attacks use flat damage values. No damage dic
   [Easy], [1 x 3 x 4 = 12], [4 Knights (Challenge 3 each)],
   [Standard], [1.25 x 3 x 4 = 15], [2 Knights + 2 Basilisks + 1 Green Hag (all Challenge 3) = 5 creatures],
   [Hard], [2 x 3 x 4 = 24], [4 Knights + 4 Wyrmlings (all Challenge 3) = 8 creatures],
-  [Deadly], [3 x 3 x 4 = 36], [6 Young Dragons (Challenge 6 each), or 12 Challenge 3 creatures],
+  [Deadly], [3 x 3 x 4 = 36], [4 Young Dragons (Challenge 6 each, x1.5 for Multiattack), or 12 Challenge 3 creatures],
 )], kind: table, numbering: none, outlined: false)
 
 #pagebreak()
