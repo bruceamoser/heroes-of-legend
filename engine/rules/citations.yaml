@@ -694,7 +694,7 @@ citations:
 
   - id: statblock-hp
     source: "20:25"
-    text: "[*HP*], [Health points. When this hits 0, the creature is defeated.]"
+    text: "[*HP*], [Health points. When this hits 0, the creature is defeated. The printed figure is the group rate"
     value: 0-is-defeated
 
   - id: statblock-dr
@@ -713,12 +713,12 @@ citations:
     value: abilities-override
 
   - id: monster-creation
-    source: "20:659"
+    source: "20:667"
     text: "DR cannot exceed your tier's ceiling: 3 at Novice, 4 at Adept, 6 at Master"
     value: {ceilings: {Novice: 3, Adept: 4, Master: 6}}
 
   - id: challenge-damage-scaling
-    source: "20:667"
+    source: "20:675"
     text: "+ C1–2 (Novice): W:4 / S:6 / St:8"
     value: {novice: [4, 6, 8], adept: [5, 8, 11], master: [7, 10, 14]}
 
