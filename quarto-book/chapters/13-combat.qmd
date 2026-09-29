@@ -152,6 +152,8 @@ When you attack, a high roll means you hit hard (Strong damage). When you defend
   numbering: none,
 )
 
+*These pool.* Boons on your Defense roll from different sources add together, and the three-step ceiling applies to the total. In full cover the ceiling is already reached, so Shield Block and Defend add nothing there (@sec-chapter-core-resolution)
+
 #pagebreak()
 
 == Damage Types

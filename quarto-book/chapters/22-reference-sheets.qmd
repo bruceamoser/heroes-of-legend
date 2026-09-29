@@ -29,6 +29,10 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
   [*Fumble*], [Three natural 1s], [Automatic failure + complication],
 )], kind: table, numbering: none, outlined: false)
 
+*Boons and Banes:* A *Boon* is 4d6 keeping the highest three, and a *Bane* is 4d6 keeping the lowest three. Each further step adds a die: Boon 2 rolls 5d6 and Boon 3 rolls 6d6, both keeping the highest three, and three steps is the ceiling. A Boon and a Bane on the same roll cancel one for one, so a Boon 2 against a Bane 1 leaves a single Boon. See @sec-chapter-core-resolution
+
+*Casting:* An arcane spell rolls 3d6 + Knowledge + Arcana, a divine spell 3d6 + Reason + Religion, and a primal spell 3d6 + Reason + Nature. Cantrips require no Discipline and cost no DP: every caster knows their tradition's whole list, and a cantrip that matters rolls like any other spell. See @sec-chapter-magic-system
+
 #pagebreak()
 
 == Difficulty
@@ -63,6 +67,16 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 )], kind: table, numbering: none, outlined: false)
 
 *Trading:* Action → Movement or Maneuver. Never Maneuver → Action.
+
+=== Defense Rolls
+
+Every attack against you is a *Defense Roll*, and you roll it. The DA gives you the attacker's *Challenge*, its rating applied as a penalty (−1 for a minion or a Challenge 1 creature, up to −6, which is where the rating stops), and then you roll one of:
+
++ *No defensive skill:* 3d6 + Agility − Challenge
++ *Dodge:* 3d6 + Agility + Dodge rank − Challenge
++ *Parry:* 3d6 + Brawn + Parry rank − Challenge (requires a weapon or shield in hand)
+
+The result is read in reverse: *Strong* (15+) means the attack lands for the creature's *Weak* damage, *Standard* (9-14) for its *Standard* damage, and *Weak* (1-8) for its *Strong* damage. Three 6s is an automatic success and three 1s an automatic failure. Armor and shields add nothing to this roll: DR softens the damage after it lands, and a shield's value arrives as the Boon Shield Block grants. See @sec-chapter-combat
 
 === Basic Maneuvers (Everyone)
 
