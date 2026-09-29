@@ -409,6 +409,18 @@ HP 16, DR 2. Attributes: Guile +2, Reason +1, others +0.
 
 *Coven Magic:* when 3 hags are within 30 ft, they share spellcasting. The coven fights as one knot, and a hag separated from her sisters falls back to rejoin them.
 
+=== Wild Hunt Rider (Challenge 9)
+
+HP 11, DR 6. Solo: 44, sized for four attackers. Attributes: Guile +2, Agility +2, Brawn +1, others +0.
+
+*Spectral Lance:* 7/10/14 piercing (reach 10 ft).
+
+*Multiattack:* Spectral Lance twice.
+
+*Hunts the Wounded:* the rider has Boon on attacks against a creature that is below its maximum HP (a Bane on the defender's roll). It marks the party's weakest hero at the start of the fight and calls the rest of the hunt onto the same mark.
+
+*Flickering Glamour:* attacks against the rider made from more than 30 ft away deal damage one tier lower.
+
 #pagebreak()
 
 == Dragons
@@ -503,6 +515,18 @@ HP 17, DR 4. Solo: 68, sized for four attackers. Attributes: Brawn +2, Fortitude
 
 *Stone Camouflage:* Boon on Stealth in rocky terrain.
 
+=== Storm Giant (Challenge 9)
+
+HP 14, DR 5. Solo: 56, sized for four attackers. Attributes: Brawn +2, Fortitude +2, Agility +1, Knowledge +1, others +0.
+
+*Storm Axe:* 7/10/14 slashing.
+
+*Lightning Bolt:* 7/10/14 lightning (range 120 ft).
+
+*Multiattack:* Storm Axe twice, or Lightning Bolt then Storm Axe.
+
+*Thunderclap (Recharge):* every creature within 30 ft must make a Fortitude check or be knocked Prone and Deafened until the end of its next turn. The giant throws it into the party's tightest knot, then closes on whoever is left standing alone.
+
 === Ogre (Challenge 2)
 
 HP 11, DR 2 (thick hide). Attributes: Brawn +2, Fortitude +1, Agility -1, others +0.
@@ -546,6 +570,18 @@ HP 10, DR 4. Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
 *Barbed Hide:* creatures grappling or hitting with melee take 2 piercing.
 
 *Magic Resistance:* Boon on checks vs spells.
+
+=== Archdemon (Challenge 11)
+
+HP 14, DR 5. Solo: 56, sized for four attackers. Attributes: Brawn +2, Guile +2, Fortitude +1, Reason +1, others +0.
+
+*Hellblade:* 7/10/14 slashing + fire.
+
+*Multiattack:* Hellblade twice.
+
+*Hellfire (Recharge):* 7/10/14 fire + necrotic (30 ft radius).
+
+*Devour the Fallen:* when a creature within 30 ft drops to 0 HP, the archdemon regains 7 HP. It ignores the party's strongest hero and goes for whoever is already bleeding.
 
 == Oozes
 
