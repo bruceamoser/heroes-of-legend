@@ -27,9 +27,9 @@ If you've built a few heroes and you're tired of counting DP, here's your speed 
 
 + *Attributes:* Spread +2, +1, +1, +0, +0, -1 (sum = +3). Put the +2 in your class's primary attribute.
 + *Ancestry & Culture:* Pick any combo that fits your concept. Write down the Discipline and trait.
-+ *Background DP:* Take 8 + Knowledge + Fortitude DP. Buy 2-3 Novice skills and 1 Novice ability. Spend every point.
++ *Background DP:* Take 8 + Knowledge + Fortitude DP (4 at the floor, 12 at the ceiling). A Novice skill or ability is 2 DP and a Discipline's first rank is 1 DP at your Home rate, so buy in twos and close an odd point with a Home rank. The printed builds spend 3 to 5 skills and one Discipline purchase. Spend every point.
 + *Class:* Pick your class. Record the class Discipline and signature ability.
-+ *Class DP:* 12 DP at level 1 (8 DP of class training plus the 4 DP every hero gains at level 1). Buy 2-3 Novice skills or abilities. Spend every point.
++ *Class DP:* 12 DP at level 1 (8 DP of class training plus the 4 DP every hero gains at level 1). Buy the loadout ranks your class's loadout line prices first (0 to 6 DP at your own rates), then your class's Novice attack card (its flat 2 DP plus any Discipline rank it asks for that you do not hold), then Novice skills or abilities with what remains. Spend every point.
 + *Equipment:* Take your class's starting loadout (see @sec-chapter-classes) Don't optimize, the first adventure will give you better gear anyway.
 + *Name & Backstory:* Roll one Motivation and one Trinket from the tables below. Make up a name. Done.
 
@@ -589,7 +589,7 @@ Total: 12 DP. All spent.
 - Athletics Novice (2 DP, favored)
 - Medicine Novice (2 DP), she patches what the mountain breaks
 - Survival Novice (2 DP), she could live off the mountain if the hold ever fell
-- Shields Discipline, rank 1 (1 DP, Home), she learned the shield-wall before the sword
+- Two-Handed Discipline, rank 1 (1 DP, Home), she swung a smith's maul at the forge long before she carried a shield
 
 Total: 9 DP. All spent.
 
