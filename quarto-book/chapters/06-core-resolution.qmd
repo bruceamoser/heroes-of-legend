@@ -18,9 +18,9 @@ This is the chapter that makes the game work. Read it once. Bookmark it. Come ba
 
 Here it is. The whole thing:
 
-*3d6 + Attribute Modifier + Skill Bonus + Difficulty Modifier*
+*3d6 + Attribute Modifier + Skill Bonus*
 
-That's it. Roll three dice. Add the relevant number from your character sheet. Add your skill if you have one. The DA adds or subtracts for difficulty. Look at the total. Something happens. Always.
+That's it. Roll three dice. Add the relevant number from your character sheet. Add your skill if you have one. The DA applies a Boon or a Bane when the situation calls for it. Look at the total. Something happens. Always.
 
 #figure(
   align(center)[#table(
@@ -52,7 +52,7 @@ And because the roll decides _how well_ rather than _whether_, every exchange ad
 
 == Boons and Banes
 
-Some situations shift the odds without changing the modifier. A *Boon* means you roll 4d6 and keep the highest three. Your odds of a Strong result improve, your odds of a Fumble are nearly zero. A *Bane* means you roll 4d6 and keep the _lowest_ three. You're fighting the dice, and even a Standard result feels like a victory.
+Some situations shift the odds without adding a number to the roll. A *Boon* means you roll 4d6 and keep the highest three. Your odds of a Strong result improve, your odds of a Fumble are nearly zero. A *Bane* means you roll 4d6 and keep the _lowest_ three. You're fighting the dice, and even a Standard result feels like a victory.
 
 Boons come from clever positioning, magical aid, or a Critical effect that inspires an ally. Banes come from conditions, curses, and poor circumstances. The DA decides when the fiction warrants either.
 
@@ -60,7 +60,7 @@ Boons come from clever positioning, magical aid, or a Critical effect that inspi
 
 + *Boon 1:* roll 4d6, keep the highest three. *Boon 2:* 5d6, keep the highest three. *Boon 3:* 6d6, keep the highest three.
 + *Bane 1:* roll 4d6, keep the _lowest_ three. *Bane 2:* 5d6. *Bane 3:* 6d6.
-+ Three steps is the ceiling. Potence beyond that has no further effect.
++ Three steps is the ceiling. Potence beyond that has no further effect. This cap governs Boons and Banes alone; it is not the substitution cap, which allows only one substitution per roll (see @sec-chapter-talents-abilities).
 
 *Boons and Banes cancel.* One Boon and one Bane on the same roll is a straight 3d6 roll. Cancel them one for one, then roll whatever is left. This keeps every source of advantage and disadvantage honest: a Bane 2 against a Boon 1 leaves a single Bane, and neither source has to be tracked separately.
 
@@ -210,28 +210,30 @@ Fumbles are rare, about 1 in 216 rolls, same as criticals. They should be dramat
 
 #pagebreak()
 
-== Difficulty Modifiers
+== Difficulty
 
-Not every task is created equal. The DA sets a difficulty modifier based on how hard the thing you're attempting actually is:
+Not every task is created equal. The DA sets difficulty with the same scale every other part of the book uses: a Boon, a Bane, or neither.
 
 #figure(
   align(center)[#table(
     columns: (29.41%, 32.35%, 38.24%),
     align: (left, left, left,),
-    table.header([Modifier], [Difficulty], [Description],),
-    [+4], [Trivial], [You've done this a hundred times. Rolling is a formality.],
-    [+2], [Easy], [Favorable conditions. You have the high ground.],
-    [+0], [Standard], [A fair test of your abilities.],
-    [-2], [Hard], [Adverse conditions. It's dark. It's raining. The guards are alert.],
-    [-4], [Very Hard], [You're attempting something improbable. Be ready to fail.],
-    [-6], [Nearly Impossible], [The kind of thing bards write songs about, if you pull it off.],
+    table.header([Difficulty], [The Roll], [Description],),
+    [Trivial], [Boon 2], [You've done this a hundred times. Rolling is a formality.],
+    [Easy], [Boon 1], [Favorable conditions. You have the high ground.],
+    [Standard], [Straight 3d6], [A fair test of your abilities.],
+    [Hard], [Bane 1], [Adverse conditions. It's dark. It's raining. The guards are alert.],
+    [Very Hard], [Bane 2], [You're attempting something improbable. Be ready to fail.],
+    [Nearly Impossible], [Bane 3], [The kind of thing bards write songs about, if you pull it off.],
   )],
-  caption: [Table 6.2: Difficulty Modifiers],
+  caption: [Table 6.2: Difficulty],
   kind: table,
   outlined: false,
   numbering: none,
 )
-#label("tbl-difficulty-modifiers")
+#label("tbl-difficulty")
+
+*Six rungs, three steps.* Each rung is one step on the Boon and Bane scale: Boon 2 down to Bane 3, with a straight 3d6 in the middle. The ceiling of three holds at both ends, and Boons and Banes cancel one for one.
 
 #callout(type: "note", title: "When to Roll", body: [
 Only roll when failure is interesting. If the hero has time, tools, and training, they just succeed, no roll required. The dice come out when there's pressure, risk, or a genuine chance of things going sideways.
@@ -243,7 +245,7 @@ Only roll when failure is interesting. If the hero has time, tools, and training
 
 *Kael the Blade attacks the goblin chieftain.* Kael's Brawn is +1. He rolls 4+3+5=12, then adds +1=13. _Standard._ His Basic Melee card deals 2 on Standard, plus Brawn +1: 3. The chieftain's crude leather gives DR 2, so he takes 1 damage. The chieftain roars, he felt that one.
 
-*Lyra the Odd identifies an ancient rune.* Knowledge +1, no skill, difficulty −2 (it's very old and partially worn). She rolls 2+4+4=10, adds +1 for Knowledge, subtracts 2 for difficulty, total 9. _Standard._ She recognizes it as Old Elvish, a warding glyph meant to keep something _in_, not out. That's concerning.
+*Lyra the Odd identifies an ancient rune.* Knowledge +1, no skill, and the rune is very old and partially worn, so the DA calls Hard: a Bane. She rolls 4d6, 2, 4, 4, 5, and keeps the lowest three: 2+4+4 = 10. Plus 1 for Knowledge = 11. _Standard._ She recognizes it as Old Elvish, a warding glyph meant to keep something _in_, not out. That's concerning.
 
 *Roric the Protector charges the troll.* Rolls 6, 6, 6. _Critical!_ Bonus roll: 4, Second Wind, recover 6 HP. Strong damage from his greataxe: 3 + Brawn 2 = 5. The troll's tough hide (DR 3) reduces it to 2, but Roric gets his breath back. The troll's expression changes from hunger to concern.
 
@@ -251,5 +253,5 @@ Only roll when failure is interesting. If the hero has time, tools, and training
 
 *Lyra the Odd climbs a slick cliff face.* The DA grants a Boon because she took the time to rope up first. A Boon means roll 4d6 and keep the highest three. She rolls 6, 5, 5, 2, keeps 6+5+5 = 16, then adds Agility +1 = 17. _Strong._ She reaches the ledge. Had she rushed it in the rain, the DA would have called a Bane instead: 4d6, keep the lowest three.
 
-*Makeva Quickfoot, the Odd, tries to pick a lock while guards approach.* Agility +1, Thievery Novice (+1), but it's dark (−2 difficulty) and she's rushing (−2 more). Total modifier: +1+1−2−2 = −2. She rolls 3+3+5=11, minus 2 = 9. _Standard._ The lock clicks open just as the guards' torchlight rounds the corner. She slips through the door and eases it shut behind her. Close. Very close.
+*Makeva Quickfoot, the Odd, tries to pick a lock while guards approach.* Agility +1, Thievery Novice (+1), but it's dark and she's rushing. The dark is a Bane and the rush is another, so the DA calls Bane 2. She rolls 5d6, 1, 2, 4, 5, 6, and keeps the lowest three: 1+2+4 = 7. Plus 2 = 9. _Standard._ The lock clicks open just as the guards' torchlight rounds the corner. She slips through the door and eases it shut behind her. Close. Very close.
 ```

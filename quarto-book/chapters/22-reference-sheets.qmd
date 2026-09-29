@@ -16,7 +16,7 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 
 == Core Resolution
 
-*The One Rule:* 3d6 + Attribute + Skill + Modifiers
+*The One Rule:* 3d6 + Attribute + Skill, then Boons and Banes
 
 #figure(align(center)[#table(
   columns: (27.27%, 31.82%, 40.91%),
@@ -31,18 +31,18 @@ Tear these pages out. Photocopy them. Keep them behind your DA screen or next to
 
 #pagebreak()
 
-== Difficulty Modifiers
+== Difficulty
 
 #figure(align(center)[#table(
   columns: (36.67%, 33.33%, 30%),
   align: (auto, auto, auto,),
-  table.header([Difficulty], [Modifier], [Example],),
-  [Trivial], [+4], [Climbing a knotted rope],
-  [Easy], [+2], [Picking a simple lock],
-  [Standard], [+0], [Most tasks],
-  [Hard], [-2], [Lying to a suspicious guard],
-  [Very Hard], [-4], [Swimming in armor during a storm],
-  [Nearly Impossible], [-6], [Convincing the king you're his heir],
+  table.header([Difficulty], [The Roll], [Example],),
+  [Trivial], [Boon 2], [Climbing a knotted rope],
+  [Easy], [Boon 1], [Picking a simple lock],
+  [Standard], [Straight 3d6], [Most tasks],
+  [Hard], [Bane 1], [Lying to a suspicious guard],
+  [Very Hard], [Bane 2], [Swimming in armor during a storm],
+  [Nearly Impossible], [Bane 3], [Convincing the king you're his heir],
 )], kind: table, numbering: none, outlined: false)
 
 #pagebreak()

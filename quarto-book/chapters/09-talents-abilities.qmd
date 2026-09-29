@@ -74,6 +74,8 @@ The talents below are general. Any class may take any of them, though a talent t
 
 #callout(type: "note", title: "The Substitution Family", body: [
 These six talents are the substitution family. Only one substitution applies to a roll. If two would apply, the player chooses before rolling. A class feature may grant one of these cards free, so a future class gift is an instance of an existing card rather than a new rule.
+
+This cap governs these six talents alone. It is not the Boon and Bane cap: a roll can carry up to three steps of Boons or Banes, and swapping one attribute for another is not a Boon. See @sec-chapter-core-resolution
 ])
 
 === Weapon Focus (Novice Talent)
