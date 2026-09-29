@@ -115,7 +115,7 @@ Every attack connects; the roll only decides how hard. For the full rationale, a
 
 == Who Rolls: Players Make All Rolls
 
-The DA never touches the dice in _Heroes of Legend_. This is not a suggestion. It is the rules. Players roll for their attacks, their spells, their skill checks, and crucially, for their defense against every attack made against them. The full explanation is in @sec-chapter-core-resolution Here is how it works at the table.
+The DA never touches the dice in _Heroes of Legend_. This is not a suggestion. It is the rules. Players roll for their attacks, their spells, their skill checks, and crucially, for their defense against every attack made against them, and for every other die the creatures and the scene call for. The full explanation is in @sec-chapter-core-resolution Here is how it works at the table.
 
 === Defending Against NPC Attacks
 
