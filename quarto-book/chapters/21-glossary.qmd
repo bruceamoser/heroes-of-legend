@@ -234,6 +234,8 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Passive Insight:* A creature's baseline ability to detect lies and hidden threats when it is not actively looking. It is not a score to beat: a lie told to that creature carries a Challenge set by its Knowledge modifier, negated.
 
+*Multiattack:* A creature's attack routine, printed on its stat block. Every attack named on the line is made as one action, so the creature takes all of them instead of one. See @sec-chapter-bestiary
+
 *Recharge:* A monster ability usable again when a player rolls 1d6 at the start of the monster's turn and gets a 5–6.
 
 *Respite:* A full night's rest. Grit returns on a respite, and nothing shorter brings it back.
