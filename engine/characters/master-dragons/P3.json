@@ -20,8 +20,7 @@
   "disciplines": {
     "Earth": 1,
     "Energy": 1,
-    "Fire": 2,
-    "Melee": 1
+    "Fire": 2
   },
   "dp": {
     "background": 11,
@@ -66,12 +65,6 @@
       "dp": 1,
       "item": "Earth 1",
       "wallet": "background"
-    },
-    {
-      "detail": "equipment requirement",
-      "dp": 4,
-      "item": "Melee 1",
-      "wallet": "class"
     },
     {
       "detail": "Novice card",
@@ -119,11 +112,10 @@
     "Fire already granted; requested rank is waste",
     "Energy already granted; requested rank is waste",
     "background DP 11/11 spent",
-    "class DP 18/31 spent",
-    "unspent DP: background 0, class 13"
+    "class DP 14/31 spent",
+    "unspent DP: background 0, class 17"
   ],
   "shield": null,
-  "shield_dr": 0,
   "skills": {
     "Alchemy": 1,
     "Arcana": 1,

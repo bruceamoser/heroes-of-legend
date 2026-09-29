@@ -35,7 +35,7 @@ HERO_SPECS = [
     {"id": "P1", "class": "Protector", "level": 1, "ancestry": "Dwarf", "culture": "Mountain",
      "attributes": {"Brawn": 2, "Fortitude": 1, "Agility": -1, "Guile": 0, "Knowledge": 0, "Reason": 1},
      "disciplines": ["Armor", "Shields"], "cards": "auto",
-     "equipment": {"armor": "heavy", "shield": "large"}},
+     "equipment": {"armor": "heavy", "shield": True}},
     {"id": "P2", "class": "Shepherd", "level": 1, "ancestry": "Dwarf", "culture": "Hill",
      "attributes": {"Brawn": -1, "Fortitude": 1, "Agility": 0, "Guile": 1, "Knowledge": 0, "Reason": 2},
      "disciplines": ["Protection", "Animal"], "cards": "auto",
@@ -81,7 +81,7 @@ class TestPrintedExamples(unittest.TestCase):
 
     def test_all_printed_examples(self):
         report = run_all_examples()
-        self.assertEqual(set(report), {"06:142", "06:152", "13:304", "13:487", "13:569", "16:130"})
+        self.assertEqual(set(report), {"06:142", "06:152", "13:304", "13:487", "13:569", "16:150"})
         failures = []
         for name, observations in report.items():
             for observation in observations:
@@ -128,7 +128,7 @@ class TestAudit(unittest.TestCase):
 
 
 class TestDefensiveLayers(unittest.TestCase):
-    """Acceptances 3 and 4: ward-on-armour is a no-op; Shield Block floors at 1."""
+    """Acceptances 3 and 4: ward-on-armour is a no-op; Shield Block is a Boon."""
 
     def test_ward_on_armour_is_a_noop(self):
         combat = make_combat()
@@ -152,15 +152,17 @@ class TestDefensiveLayers(unittest.TestCase):
         hero.ward_dr = 6
         self.assertEqual(hero.effective_dr(), 3)
 
-    def test_shield_dr_never_below_one(self):
-        self.assertEqual(damage_after_dr(1, 0, 3), 1)
-        self.assertEqual(damage_after_dr(2, 0, 3), 1)
-        self.assertEqual(damage_after_dr(4, 0, 3), 1)
-        self.assertEqual(damage_after_dr(6, 3, 1), 2)
+    def test_dr_is_the_floor_of_one(self):
+        self.assertEqual(damage_after_dr(1, 0), 1)
+        self.assertEqual(damage_after_dr(2, 3), 1)
+        self.assertEqual(damage_after_dr(4, 3), 1)
+        self.assertEqual(damage_after_dr(6, 3), 3)
 
-    def test_shield_block_once_per_round(self):
-        # 6 initiative rolls, then two defense rolls
-        script = [[1, 1, 1], [2, 2, 2], [3, 3, 3], [5, 5, 5], [2, 2, 2], [3, 3, 3]] + [[4, 4, 4], [4, 4, 4]]
+    def test_shield_block_boon_shifts_the_damage_tier_once_per_round(self):
+        # 6 initiative rolls, then two defense rolls. The first has the shield
+        # Boon, so 1,1,1,6 keeps 6,1,1: 8 + 2 = 10 Standard, not Weak.
+        script = [[1, 1, 1], [2, 2, 2], [3, 3, 3], [5, 5, 5], [2, 2, 2], [3, 3, 3]] \
+            + [[1, 1, 1, 6], [1, 1, 1]]
         combat = make_combat(script=script)
         hero = by_key(combat, "P1")
         hero.hp = 100
@@ -168,12 +170,21 @@ class TestDefensiveLayers(unittest.TestCase):
         attack = creature.creature.attacks[0]
         combat.monster_attack(creature, hero, attack)
         self.assertFalse(hero.reaction_ready)
-        first = hero.stats["damage_taken"]
+        blocks = [e for e in combat.events if e.get("event") == "shield_block"]
+        self.assertEqual(len(blocks), 1)
+        self.assertEqual(blocks[0]["defense_boon"], 1)
+        first = [e for e in combat.events if e.get("event") == "attack"][-1]
+        # Gorma: Parry 3 + 2 - Challenge 1 = +2; heavy armor DR 3, goblin 4/6/8.
+        self.assertEqual(first["defense_tier"], "standard")
+        self.assertEqual(first["final_damage"], 3)
+        before = hero.stats["damage_taken"]
         combat.monster_attack(creature, hero, attack)
-        second = hero.stats["damage_taken"] - first
-        # Gorma: heavy DR 3, large shield DR 3, goblin Standard 6
-        self.assertEqual(first, 1)
-        self.assertEqual(second, 3)
+        second = [e for e in combat.events if e.get("event") == "attack"][-1]
+        self.assertEqual(second["defense_tier"], "weak")
+        self.assertEqual(second["final_damage"], 5)
+        self.assertEqual(hero.stats["damage_taken"] - before, 5)
+        self.assertEqual(
+            len([e for e in combat.events if e.get("event") == "shield_block"]), 1)
 
 
 class TestWounds(unittest.TestCase):
@@ -299,7 +310,7 @@ class TestMultiattack(unittest.TestCase):
             "culture": "Coastal",
             "attributes": {"Brawn": 0, "Fortitude": 0, "Agility": 0, "Guile": 2, "Knowledge": 0, "Reason": 1},
             "disciplines": ["Tactics", "Shields"], "cards": "auto",
-            "equipment": {"armor": "light", "shield": "small", "weapon": "two-hand"},
+            "equipment": {"armor": "light", "shield": True, "weapon": "two-hand"},
         }
         party = HERO_SPECS + [leader]
         combat = make_combat(party=party, opposition=[{"creature": "Ancient Dragon", "count": 1}])

@@ -13,14 +13,15 @@
   "cards": [
     "Mending Touch",
     "Righteous Blow",
-    "Bark Skin"
+    "Bark Skin",
+    "Restoration"
   ],
   "class": "Shepherd",
   "culture": "Hill",
   "disciplines": {
     "Animal": 1,
     "Armor": 1,
-    "Life": 1,
+    "Life": 2,
     "Melee": 1,
     "Plants": 1,
     "Protection": 1,
@@ -28,9 +29,9 @@
   },
   "dp": {
     "background": 9,
-    "class": 12
+    "class": 25
   },
-  "grit": 2,
+  "grit": 3,
   "hp": 15,
   "id": "P4",
   "ledger": [
@@ -93,29 +94,54 @@
       "dp": 2,
       "item": "Bark Skin",
       "wallet": "class"
+    },
+    {
+      "detail": "prerequisite for Restoration",
+      "dp": 2,
+      "item": "Life 2",
+      "wallet": "class"
+    },
+    {
+      "detail": "Adept card",
+      "dp": 4,
+      "item": "Restoration",
+      "wallet": "class"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Nature Novice",
+      "wallet": "class"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Survival Novice",
+      "wallet": "class"
     }
   ],
-  "level": 1,
+  "level": 5,
   "name": "Haldra",
   "notes": [
     "culture grants History +1",
     "Protection already granted; requested rank is waste",
     "Animal already granted; requested rank is waste",
     "background DP 9/9 spent",
-    "auto skipped Restoration: Restoration is Adept and gates at level 3",
     "auto skipped Tide of Life: Tide of Life is Master and gates at level 7",
-    "class DP 11/12 spent",
-    "unspent DP: background 0, class 1"
+    "class DP 21/25 spent",
+    "unspent DP: background 0, class 4"
   ],
   "shield": null,
   "skills": {
     "Dodge": 1,
     "History": 1,
     "Medicine": 1,
+    "Nature": 1,
     "Parry": 1,
-    "Religion": 1
+    "Religion": 1,
+    "Survival": 1
   },
-  "tier": "Novice",
+  "tier": "Adept",
   "ward_dr": 0,
   "weapon": "one-hand"
 }

@@ -23,9 +23,9 @@
   },
   "dp": {
     "background": 7,
-    "class": 12
+    "class": 25
   },
-  "grit": 2,
+  "grit": 3,
   "hp": 12,
   "id": "P2",
   "ledger": [
@@ -84,7 +84,7 @@
       "wallet": "class"
     }
   ],
-  "level": 1,
+  "level": 5,
   "name": "Vaelith",
   "notes": [
     "Melee granted twice; second grant is waste (08:99)",
@@ -92,8 +92,8 @@
     "Melee already granted; requested rank is waste",
     "Stealth already granted; requested rank is waste",
     "background DP 7/7 spent",
-    "class DP 12/12 spent",
-    "unspent DP: background 0, class 0"
+    "class DP 12/25 spent",
+    "unspent DP: background 0, class 13"
   ],
   "shield": null,
   "skills": {
@@ -106,7 +106,7 @@
     "Stealth": 1,
     "Thievery": 1
   },
-  "tier": "Novice",
+  "tier": "Adept",
   "ward_dr": 0,
   "weapon": "one-hand"
 }

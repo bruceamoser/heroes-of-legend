@@ -1,14 +1,14 @@
 {
   "ancestry": "Dwarf",
-  "armor": "heavy",
-  "armor_dr": 3,
+  "armor": "light",
+  "armor_dr": 1,
   "attributes": {
     "Agility": -1,
     "Brawn": 2,
-    "Fortitude": 1,
+    "Fortitude": 2,
     "Guile": 0,
     "Knowledge": 0,
-    "Reason": 1
+    "Reason": 0
   },
   "cards": [
     "Sanctuary"
@@ -16,18 +16,17 @@
   "class": "Protector",
   "culture": "Mountain",
   "disciplines": {
-    "Armor": 3,
+    "Armor": 1,
     "Melee": 1,
     "Protection": 1,
-    "Shields": 1,
-    "Two-Handed": 1
+    "Shields": 1
   },
   "dp": {
-    "background": 9,
-    "class": 18
+    "background": 10,
+    "class": 25
   },
   "grit": 3,
-  "hp": 15,
+  "hp": 16,
   "id": "P1",
   "ledger": [
     {
@@ -55,22 +54,10 @@
       "wallet": "background"
     },
     {
-      "detail": "spend-down",
-      "dp": 1,
-      "item": "Two-Handed 1",
-      "wallet": "background"
-    },
-    {
-      "detail": "equipment requirement",
+      "detail": "auto",
       "dp": 2,
-      "item": "Armor 2",
-      "wallet": "class"
-    },
-    {
-      "detail": "equipment requirement",
-      "dp": 4,
-      "item": "Armor 3",
-      "wallet": "class"
+      "item": "Persuasion Novice",
+      "wallet": "background"
     },
     {
       "detail": "prerequisite for Sanctuary",
@@ -87,17 +74,11 @@
     {
       "detail": "auto",
       "dp": 2,
-      "item": "Persuasion Novice",
-      "wallet": "class"
-    },
-    {
-      "detail": "auto",
-      "dp": 2,
       "item": "Medicine Novice",
       "wallet": "class"
     }
   ],
-  "level": 3,
+  "level": 5,
   "name": "Gorma",
   "notes": [
     "Melee granted twice; second grant is waste (08:99)",
@@ -105,9 +86,9 @@
     "culture grants Athletics +1",
     "Armor already granted; requested rank is waste",
     "Shields already granted; requested rank is waste",
-    "background DP 9/9 spent",
-    "class DP 16/18 spent",
-    "unspent DP: background 0, class 2"
+    "background DP 10/10 spent",
+    "class DP 8/25 spent",
+    "unspent DP: background 0, class 17"
   ],
   "shield": true,
   "skills": {
