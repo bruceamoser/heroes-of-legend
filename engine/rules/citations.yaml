@@ -708,17 +708,17 @@ citations:
     value: wss-per-attack
 
   - id: statblock-abilities
-    source: "20:29"
+    source: "20:30"
     text: "[*Abilities*], [Special powers. These override the normal rules, the stat block always wins.]"
     value: abilities-override
 
   - id: monster-creation
-    source: "20:667"
+    source: "20:668"
     text: "DR cannot exceed your tier's ceiling: 3 at Novice, 4 at Adept, 6 at Master"
     value: {ceilings: {Novice: 3, Adept: 4, Master: 6}}
 
   - id: challenge-damage-scaling
-    source: "20:675"
+    source: "20:676"
     text: "+ C1–2 (Novice): W:4 / S:6 / St:8"
     value: {novice: [4, 6, 8], adept: [5, 8, 11], master: [7, 10, 14]}
 
