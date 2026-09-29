@@ -22,7 +22,7 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
   table.header([Field], [Description],),
   [*Name*], [Creature type and challenge rating],
   [*Attributes*], [B/F/A/G/K/R modifiers, from -2 to +2. Most monsters have 0s in the attributes they don't use, so a block lists only the ones it does use and finishes with *others +0*. A block with no Attributes line uses +0 in every attribute.],
-  [*HP*], [Health points. When this hits 0, the creature is defeated.],
+  [*HP*], [Health points. When this hits 0, the creature is defeated. The printed figure is the group rate: three rounds of one attacker, which is what a creature standing in a field of five faces. A block the party may meet on its own prints its solo figure beside that number, sized for four attackers, and that is the one to use when the creature fights the whole party alone.],
   [*DR*], [Damage reduction. Subtract from physical damage just like hero armor.],
   [*Attacks*], [W/S/S damage per attack. Weak/Standard/Strong values.],
   [*Recharge*], [A one-per-encounter ability that may return. At the start of the monster's turn, roll 1d6; on a 5-6, the ability is ready again.],
@@ -137,7 +137,7 @@ HP 10, DR 3 (plate). Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
 
 === Archmage (Challenge 6)
 
-HP 16, DR 2. Attributes: Knowledge +2, Reason +1, Brawn -1, others +0.
+HP 16 (solo: 64, sized for four attackers), DR 2. Attributes: Knowledge +2, Reason +1, Brawn -1, others +0.
 
 *Dagger:* 5/8/11.
 
@@ -288,7 +288,7 @@ HP 14, DR 3 (non-magical). Attributes: Agility +2, Guile +1, others +0.
 
 === Lich (Challenge 10)
 
-HP 17, DR 4. Attributes: Knowledge +2, Reason +1, Brawn -1, others +0.
+HP 17 (solo: 68, sized for four attackers), DR 4. Attributes: Knowledge +2, Reason +1, Brawn -1, others +0.
 
 *Paralyzing Touch:* 7/10/14 cold + Paralyzed for 1 round on a Strong hit.
 
@@ -418,7 +418,7 @@ HP 14, DR 3. Attributes: Brawn +2, Fortitude +1, others +0.
 
 === Young Dragon (Challenge 6)
 
-HP 10, DR 4. Attributes: Brawn +2, Fortitude +2, others +0.
+HP 10 (solo: 40, sized for four attackers), DR 4. Attributes: Brawn +2, Fortitude +2, others +0.
 
 *Bite:* 5/8/11.
 
@@ -432,7 +432,7 @@ HP 10, DR 4. Attributes: Brawn +2, Fortitude +2, others +0.
 
 === Ancient Dragon (Challenge 12)
 
-HP 11, DR 6. Attributes: Brawn +2, Fortitude +2, Guile +1, Reason +1, others +0.
+HP 11 (solo: 44, sized for four attackers), DR 6. Attributes: Brawn +2, Fortitude +2, Guile +1, Reason +1, others +0.
 
 *Bite:* 7/10/14.
 
@@ -488,7 +488,7 @@ HP 16, DR 2. Attributes: Brawn +2, Fortitude +2, Agility -1, others +0.
 
 === Stone Giant (Challenge 7)
 
-HP 17, DR 4. Attributes: Brawn +2, Fortitude +2, Agility +1, others +0.
+HP 17 (solo: 68, sized for four attackers), DR 4. Attributes: Brawn +2, Fortitude +2, Agility +1, others +0.
 
 *Greatclub:* 7/10/14.
 
@@ -514,7 +514,7 @@ HP 11, DR 2 (thick hide). Attributes: Brawn +2, Fortitude +1, Agility -1, others
 
 === Vrock (Demon, Challenge 6)
 
-HP 18, DR 3. Attributes: Brawn +2, Fortitude +2, Agility +1, others +0.
+HP 18 (solo: 72, sized for four attackers), DR 3. Attributes: Brawn +2, Fortitude +2, Agility +1, others +0.
 
 *Claw:* 5/8/11.
 
@@ -622,7 +622,7 @@ HP 16, DR 2. Attributes: Agility +2, Reason +1, others +0.
 
 === Death Knight (Challenge 8)
 
-HP 11, DR 6 (plate + unholy). Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
+HP 11 (solo: 44, sized for four attackers), DR 6 (plate + unholy). Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
 
 *Greatsword:* 7/10/14 slashing.
 
