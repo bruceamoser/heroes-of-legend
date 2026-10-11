@@ -147,12 +147,11 @@ does not remove the class. A positive score in one required attribute cannot
 compensate for a negative score in the other. This replaces the earlier
 single-attribute requirement.
 
-**Blade requires Agility 0 and Guile 0.** Agility represents execution; Guile
-represents feints, misdirection, and exploiting openings. These are competence
-requirements, not a demand that either be the character's highest attribute.
-Six attributes provide 15 distinct unordered pairs; pairs need not be exclusive
-to one class when signatures distinguish them. Other classes' pairs will be
-agreed individually, not inferred from legacy catalogs.
+**Blade requires Agility 0 and Brawn 0.** The pair represents precise execution
+and physical power. This replaces the earlier Agility/Guile pair. These are
+competence requirements, not a demand that either be the character's highest
+attribute. Six attributes provide 15 distinct unordered pairs; pairs need not
+be exclusive to one class when signatures distinguish them.
 
 **Protector requires Fortitude 0 and Reason 0.** Fortitude represents endurance
 to withstand danger; Reason represents judgment to anticipate threats and
@@ -171,10 +170,8 @@ information; Reason turns it into deductions, plans, and solutions. Its proposed
 signature direction emphasizes understanding and preparation; individual
 signature cards remain to be designed.
 
-**Shepherd requires Fortitude 0 and Reason 0.** Fortitude represents endurance
-when supporting others through hardship; Reason represents judgment and guidance.
-Shepherd shares Protector's pair; signature cards and discipline pricing
-distinguish the divine guide from the defender.
+**Shepherd requires Reason 0 and Guile 0.** This replaces the earlier
+Fortitude/Reason pair.
 
 **Leader requires Guile 0 and Fortitude 0.** Guile represents reading and
 influencing people; Fortitude represents endurance and standing firm under
@@ -186,8 +183,8 @@ do not assume the legacy volatile-magic identity or elemental grants remain
 valid. The suggested Fortitude/Knowledge pair was not adopted.
 
 **Shadow requires Agility 0 and Guile 0.** The pair represents precise movement,
-stealth, deception, and misdirection. Shadow shares Blade's pair; its signature
-direction emphasizes access, avoiding notice, and escape, while Blade exploits
+stealth, deception, and misdirection. Its signature direction emphasizes
+access, avoiding notice, and escape, while Blade exploits
 openings to strike. Individual signature cards remain to be designed.
 
 **Odd has no attribute minimums.** It is the explicit exception to the paired
@@ -201,9 +198,9 @@ Both listed attributes must independently be at least 0 at class selection.
 | Class | Required attributes |
 |---|---|
 | Protector | Fortitude, Reason |
-| Blade | Agility, Guile |
+| Blade | Agility, Brawn |
 | Arcanist | Agility, Knowledge |
-| Shepherd | Fortitude, Reason |
+| Shepherd | Reason, Guile |
 | Intellect | Knowledge, Reason |
 | Leader | Guile, Fortitude |
 | Unbalanced | Brawn, Agility |
