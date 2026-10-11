@@ -185,6 +185,11 @@ unbridled fury and unexpected speed. These qualities guide the rebuilt class;
 do not assume the legacy volatile-magic identity or elemental grants remain
 valid. The suggested Fortitude/Knowledge pair was not adopted.
 
+**Shadow requires Agility 0 and Guile 0.** The pair represents precise movement,
+stealth, deception, and misdirection. Shadow shares Blade's pair; its signature
+direction emphasizes access, avoiding notice, and escape, while Blade exploits
+openings to strike. Individual signature cards remain to be designed.
+
 ## Provisional HP and Speed fixtures
 
 Bruce authorized initial values for testing, subject to revision. These are
