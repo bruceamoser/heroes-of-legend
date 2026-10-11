@@ -163,6 +163,11 @@ without requiring exceptional Brawn.
 magical principles; Reason represents interpreting and applying them. Neither
 is required to be the character's highest attribute.
 
+**Shepherd requires Fortitude 0 and Reason 0.** Fortitude represents endurance
+when supporting others through hardship; Reason represents judgment and guidance.
+Shepherd shares Protector's pair; signature cards and discipline pricing
+distinguish the divine guide from the defender.
+
 ## Provisional HP and Speed fixtures
 
 Bruce authorized initial values for testing, subject to revision. These are
