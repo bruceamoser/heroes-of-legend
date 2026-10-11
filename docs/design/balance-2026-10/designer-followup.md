@@ -159,6 +159,10 @@ to withstand danger; Reason represents judgment to anticipate threats and
 protect others. This supports protection through positioning and tactics
 without requiring exceptional Brawn.
 
+**Arcanist requires Knowledge 0 and Reason 0.** Knowledge represents understanding
+magical principles; Reason represents interpreting and applying them. Neither
+is required to be the character's highest attribute.
+
 ## Provisional HP and Speed fixtures
 
 Bruce authorized initial values for testing, subject to revision. These are
