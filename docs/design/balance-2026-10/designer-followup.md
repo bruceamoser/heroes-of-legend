@@ -159,9 +159,17 @@ to withstand danger; Reason represents judgment to anticipate threats and
 protect others. This supports protection through positioning and tactics
 without requiring exceptional Brawn.
 
-**Arcanist requires Knowledge 0 and Reason 0.** Knowledge represents understanding
-magical principles; Reason represents interpreting and applying them. Neither
-is required to be the character's highest attribute.
+**Arcanist requires Agility 0 and Knowledge 0.** Agility represents precise hand
+movements in spellcasting; Knowledge represents understanding magical principles.
+This replaces the previously accepted Knowledge/Reason pair. Reason is not an
+entry requirement, leaving room for brilliant but reckless Arcanists without
+requiring them to lack judgment. This class requirement does not by itself
+require gestures for every spell or change a card's printed roll attribute.
+
+**Intellect requires Knowledge 0 and Reason 0.** Knowledge supplies learned
+information; Reason turns it into deductions, plans, and solutions. Its proposed
+signature direction emphasizes understanding and preparation; individual
+signature cards remain to be designed.
 
 **Shepherd requires Fortitude 0 and Reason 0.** Fortitude represents endurance
 when supporting others through hardship; Reason represents judgment and guidance.
