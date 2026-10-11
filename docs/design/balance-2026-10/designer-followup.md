@@ -176,6 +176,15 @@ when supporting others through hardship; Reason represents judgment and guidance
 Shepherd shares Protector's pair; signature cards and discipline pricing
 distinguish the divine guide from the defender.
 
+**Leader requires Guile 0 and Fortitude 0.** Guile represents reading and
+influencing people; Fortitude represents endurance and standing firm under
+pressure. This supersedes the suggested Reason/Guile pair.
+
+**Unbalanced requires Brawn 0 and Agility 0.** Bruce defines the pairing through
+unbridled fury and unexpected speed. These qualities guide the rebuilt class;
+do not assume the legacy volatile-magic identity or elemental grants remain
+valid. The suggested Fortitude/Knowledge pair was not adopted.
+
 ## Provisional HP and Speed fixtures
 
 Bruce authorized initial values for testing, subject to revision. These are
