@@ -116,23 +116,25 @@ and well distributed. DP alone could otherwise reward a mentally gifted
 warrior while leaving a caster's actual spells indifferent to mental ability.
 
 **Accepted:** At each of level 0 and level 1, add
-max(0, Knowledge + Reason + Guile) DP to that stage's base 10 DP, using
+Knowledge + Reason + Guile DP to that stage's base 10 DP, including negative
+totals, using
 permanent creation attributes. Each pool is spend-or-lose within its own stage;
 unused level-0 DP does not carry into level 1. Level-0 discipline purchases
 remain prohibited. Later awards remain 8 + level, without an attribute bonus.
 Temporary items and curses do not change the creation calculation.
 
-| Mental attributes | Sum | Extra DP per stage | Level-0 pool | Level-1 pool |
+| Mental attributes | Sum | DP adjustment per stage | Level-0 pool | Level-1 pool |
 |---|---:|---:|---:|---:|
-| Knowledge −1, Reason −1, Guile −1 | −3 | 0 | 10 | 10 |
+| Knowledge −1, Reason −1, Guile −1 | −3 | −3 | 7 | 7 |
 | Knowledge +2, Reason 0, Guile 0 | 2 | 2 | 12 | 12 |
 | Knowledge +1, Reason +1, Guile +1 | 3 | 3 | 13 | 13 |
 | Knowledge +2, Reason +2, Guile +2 | 6 | 6 | 16 | 16 |
 
 These pools exclude separate duplicate-grant compensation. With six attributes
 totaling +3, physical +2/+2/+2 requires mental sum −3. Conversely, mental
-+2/+2/+2 requires physical sum −3. The creation bonus therefore adds 0–12 DP
-across the two stages, for 20–32 total purchase DP before duplicate compensation.
++2/+2/+2 requires physical sum −3. With the fixed +3 attribute sum, the mental sum ranges from −3 to +6.
+The creation adjustment therefore ranges from −6 to +12 DP across the two
+stages, for 14–32 total purchase DP before duplicate compensation.
 For example, mental +1/+1/+1 gives 13 DP at level 0 and a fresh 13 DP at level 1.
 It does not provide a recurring advancement advantage. Class attribute minimums
 remain an open suggestion; they have not been adopted.
