@@ -106,7 +106,7 @@ against actual cards before fixing categories.
 
 Bruce approved creation DP bonuses from Knowledge, Reason, and Guile, because physical
 attributes already supply HP, movement, capacity, and common combat rolls.
-Class attribute minimums are another suggestion, not an adopted restriction.
+Class attribute minimums are accepted as described below.
 The bonus applies at both level 0 and level 1, not at later levels.
 
 Mental attributes must also matter when using cards and defending against
@@ -136,8 +136,20 @@ totaling +3, physical +2/+2/+2 requires mental sum −3. Conversely, mental
 The creation adjustment therefore ranges from −6 to +12 DP across the two
 stages, for 14–32 total purchase DP before duplicate compensation.
 For example, mental +1/+1/+1 gives 13 DP at level 0 and a fresh 13 DP at level 1.
-It does not provide a recurring advancement advantage. Class attribute minimums
-remain an open suggestion; they have not been adopted.
+It does not provide a recurring advancement advantage.
+
+## Class attribute minimums
+
+**Accepted:** Each class specifies its attribute minimums, checked when the
+character chooses the class at level 1. The default is a minimum of 0 in one
+defining attribute. Use permanent creation attributes: equipment cannot qualify
+a character, and a later curse does not remove the class. Requirements of +1
+may be considered individually; none are established here.
+
+**Blade requires Agility 0 or higher.** A Blade with Agility 0 can compensate
+through Brawn, Fortitude, or chosen cards, while Agility −2 does not meet the
+class's baseline competence. Requirements for other classes will be agreed
+individually, not inferred from legacy catalogs.
 
 ## Provisional HP and Speed fixtures
 
@@ -179,7 +191,7 @@ character, and increasing enemy damage could disproportionately endanger the
 
 ## Work still required
 
-1. Test the accepted two-stage creation DP bonus; decide whether class minimums are needed.
+1. Test the accepted two-stage creation DP adjustment and Blade minimum; agree other class requirements individually.
 2. Apply the fixed 1-Bulk weapon rule and define recipe grants in actual crafting cards.
 3. Inventory and archive the old catalogs with a manifest; rebuild a small
    starting catalog, not hundreds of inherited cards.
