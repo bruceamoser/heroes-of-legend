@@ -152,8 +152,12 @@ represents feints, misdirection, and exploiting openings. These are competence
 requirements, not a demand that either be the character's highest attribute.
 Six attributes provide 15 distinct unordered pairs; pairs need not be exclusive
 to one class when signatures distinguish them. Other classes' pairs will be
-agreed individually, not inferred from legacy catalogs. Protector's previously
-suggested Fortitude-only requirement was not adopted.
+agreed individually, not inferred from legacy catalogs.
+
+**Protector requires Fortitude 0 and Reason 0.** Fortitude represents endurance
+to withstand danger; Reason represents judgment to anticipate threats and
+protect others. This supports protection through positioning and tactics
+without requiring exceptional Brawn.
 
 ## Provisional HP and Speed fixtures
 
