@@ -140,16 +140,20 @@ It does not provide a recurring advancement advantage.
 
 ## Class attribute minimums
 
-**Accepted:** Each class specifies its attribute minimums, checked when the
-character chooses the class at level 1. The default is a minimum of 0 in one
-defining attribute. Use permanent creation attributes: equipment cannot qualify
-a character, and a later curse does not remove the class. Requirements of +1
-may be considered individually; none are established here.
+**Accepted:** Each class requires at least 0 in each of two defining attributes,
+checked separately when the character chooses the class at level 1. Use permanent
+creation attributes: equipment cannot qualify a character, and a later curse
+does not remove the class. A positive score in one required attribute cannot
+compensate for a negative score in the other. This replaces the earlier
+single-attribute requirement.
 
-**Blade requires Agility 0 or higher.** A Blade with Agility 0 can compensate
-through Brawn, Fortitude, or chosen cards, while Agility −2 does not meet the
-class's baseline competence. Requirements for other classes will be agreed
-individually, not inferred from legacy catalogs.
+**Blade requires Agility 0 and Guile 0.** Agility represents execution; Guile
+represents feints, misdirection, and exploiting openings. These are competence
+requirements, not a demand that either be the character's highest attribute.
+Six attributes provide 15 distinct unordered pairs; pairs need not be exclusive
+to one class when signatures distinguish them. Other classes' pairs will be
+agreed individually, not inferred from legacy catalogs. Protector's previously
+suggested Fortitude-only requirement was not adopted.
 
 ## Provisional HP and Speed fixtures
 
