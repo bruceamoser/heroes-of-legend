@@ -177,10 +177,10 @@ Fortitude/Reason pair.
 influencing people; Fortitude represents endurance and standing firm under
 pressure. This supersedes the suggested Reason/Guile pair.
 
-**Unbalanced requires Brawn 0 and Agility 0.** Bruce defines the pairing through
-unbridled fury and unexpected speed. These qualities guide the rebuilt class;
-do not assume the legacy volatile-magic identity or elemental grants remain
-valid. The suggested Fortitude/Knowledge pair was not adopted.
+**Unbalanced requires Brawn 0 and Fortitude 0.** Bruce defines this as pure
+muscle: physical power and endurance. This replaces the earlier Brawn/Agility
+pair. Do not assume the legacy volatile-magic identity or elemental grants
+remain valid for the rebuilt class.
 
 **Shadow requires Agility 0 and Guile 0.** The pair represents precise movement,
 stealth, deception, and misdirection. Its signature direction emphasizes
@@ -203,7 +203,7 @@ Both listed attributes must independently be at least 0 at class selection.
 | Shepherd | Reason, Guile |
 | Intellect | Knowledge, Reason |
 | Leader | Guile, Fortitude |
-| Unbalanced | Brawn, Agility |
+| Unbalanced | Brawn, Fortitude |
 | Shadow | Agility, Guile |
 | Odd | None |
 
