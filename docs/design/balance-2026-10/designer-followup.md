@@ -140,7 +140,7 @@ It does not provide a recurring advancement advantage.
 
 ## Class attribute minimums
 
-**Accepted:** Each class requires at least 0 in each of two defining attributes,
+**Accepted:** Each class except Odd requires at least 0 in each of two defining attributes,
 checked separately when the character chooses the class at level 1. Use permanent
 creation attributes: equipment cannot qualify a character, and a later curse
 does not remove the class. A positive score in one required attribute cannot
@@ -190,6 +190,26 @@ stealth, deception, and misdirection. Shadow shares Blade's pair; its signature
 direction emphasizes access, avoiding notice, and escape, while Blade exploits
 openings to strike. Individual signature cards remain to be designed.
 
+**Odd has no attribute minimums.** It is the explicit exception to the paired
+class requirements, preserving its open-ended character concept and previously
+agreed uniform discipline pricing.
+
+### Completed class requirements
+
+Both listed attributes must independently be at least 0 at class selection.
+
+| Class | Required attributes |
+|---|---|
+| Protector | Fortitude, Reason |
+| Blade | Agility, Guile |
+| Arcanist | Agility, Knowledge |
+| Shepherd | Fortitude, Reason |
+| Intellect | Knowledge, Reason |
+| Leader | Guile, Fortitude |
+| Unbalanced | Brawn, Agility |
+| Shadow | Agility, Guile |
+| Odd | None |
+
 ## Provisional HP and Speed fixtures
 
 Bruce authorized initial values for testing, subject to revision. These are
@@ -230,7 +250,7 @@ character, and increasing enemy damage could disproportionately endanger the
 
 ## Work still required
 
-1. Test the accepted two-stage creation DP adjustment and Blade minimum; agree other class requirements individually.
+1. Test the accepted two-stage creation DP adjustment and completed class requirements.
 2. Apply the fixed 1-Bulk weapon rule and define recipe grants in actual crafting cards.
 3. Inventory and archive the old catalogs with a manifest; rebuild a small
    starting catalog, not hundreds of inherited cards.
