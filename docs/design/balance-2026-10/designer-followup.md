@@ -76,8 +76,7 @@ alone. No new simulation results are claimed by this document.
 - **Development cheat sheet:** Show level-0 grants, 10 DP, duplicate compensation,
   expenditure and expiry; then level-1 class grants/pricing, 10 DP, expenditure
   and expiry. Explicitly prohibit buying disciplines at level 0. Show banked DP
-  only from subsequent advancement. Any attribute-based DP rule must be added
-  only after its timing and formula are agreed.
+  only from subsequent advancement. Include the mental-attribute bonus below in each creation-stage pool.
 
 Equipment example: three acquired cards each require/grant a melee weapon. With
 one ordinary melee weapon already owned, later cards grant no extra weapon.
@@ -103,13 +102,12 @@ Magic, Main Action. Filter first by available action at the table; keep a small
 universal-action reference separate from the full catalog. Test vocabulary
 against actual cards before fixing categories.
 
-## Mental attributes and DP: next decision
+## Mental attributes and DP: accepted creation bonus
 
-Bruce proposes DP bonuses from Knowledge, Reason, and Guile, because physical
+Bruce approved creation DP bonuses from Knowledge, Reason, and Guile, because physical
 attributes already supply HP, movement, capacity, and common combat rolls.
 Class attribute minimums are another suggestion, not an adopted restriction.
-The need to make mental attributes valuable is accepted; the DP formula and
-award timing are not settled.
+The bonus applies at both level 0 and level 1, not at later levels.
 
 Mental attributes must also matter when using cards and defending against
 appropriate threats. A caster rolling Knowledge, Reason, or Guile already has
@@ -117,27 +115,27 @@ a reason to invest in that attribute. The catalog must make those uses explicit
 and well distributed. DP alone could otherwise reward a mentally gifted
 warrior while leaving a caster's actual spells indifferent to mental ability.
 
-**Assistant proposal for discussion:** At level 1, add
-max(0, Knowledge + Reason + Guile) DP, using permanent creation attributes.
-Apply once, with the normal level-1 spend-or-lose rule; retain level-0 10 DP
-and later 8 + level awards. This is a bounded starting experiment, not approval
-of a permanent advancement advantage. Temporary items and curses would not
-alter the calculation under this proposal.
+**Accepted:** At each of level 0 and level 1, add
+max(0, Knowledge + Reason + Guile) DP to that stage's base 10 DP, using
+permanent creation attributes. Each pool is spend-or-lose within its own stage;
+unused level-0 DP does not carry into level 1. Level-0 discipline purchases
+remain prohibited. Later awards remain 8 + level, without an attribute bonus.
+Temporary items and curses do not change the creation calculation.
 
-| Mental attributes | Sum | Proposed extra level-1 DP |
-|---|---:|---:|
-| Knowledge −1, Reason −1, Guile −1 | −3 | 0 |
-| Knowledge +2, Reason 0, Guile 0 | 2 | 2 |
-| Knowledge +1, Reason +1, Guile +1 | 3 | 3 |
-| Knowledge +2, Reason +2, Guile +2 | 6 | 6 |
+| Mental attributes | Sum | Extra DP per stage | Level-0 pool | Level-1 pool |
+|---|---:|---:|---:|---:|
+| Knowledge −1, Reason −1, Guile −1 | −3 | 0 | 10 | 10 |
+| Knowledge +2, Reason 0, Guile 0 | 2 | 2 | 12 | 12 |
+| Knowledge +1, Reason +1, Guile +1 | 3 | 3 | 13 | 13 |
+| Knowledge +2, Reason +2, Guile +2 | 6 | 6 | 16 | 16 |
 
-With six attributes totaling +3, physical +2/+2/+2 requires mental sum −3.
-Conversely, mental +2/+2/+2 requires physical sum −3. A +6 recurring bonus over
-levels 2–10 would add 54 DP beyond the existing 126 DP—about 43% more. A one-time
-bonus creates less divergence. Summing before flooring also avoids ignoring
-negative mental attributes. Whether that treatment matches Bruce's intent is
-still a design question. No class minimums are proposed for adoption until the
-card attributes and these incentives have been reviewed.
+These pools exclude separate duplicate-grant compensation. With six attributes
+totaling +3, physical +2/+2/+2 requires mental sum −3. Conversely, mental
++2/+2/+2 requires physical sum −3. The creation bonus therefore adds 0–12 DP
+across the two stages, for 20–32 total purchase DP before duplicate compensation.
+For example, mental +1/+1/+1 gives 13 DP at level 0 and a fresh 13 DP at level 1.
+It does not provide a recurring advancement advantage. Class attribute minimums
+remain an open suggestion; they have not been adopted.
 
 ## Provisional HP and Speed fixtures
 
@@ -179,7 +177,7 @@ character, and increasing enemy damage could disproportionately endanger the
 
 ## Work still required
 
-1. Agree DP bonus timing/formula, then decide whether class minimums are needed.
+1. Test the accepted two-stage creation DP bonus; decide whether class minimums are needed.
 2. Apply the fixed 1-Bulk weapon rule and define recipe grants in actual crafting cards.
 3. Inventory and archive the old catalogs with a manifest; rebuild a small
    starting catalog, not hundreds of inherited cards.
