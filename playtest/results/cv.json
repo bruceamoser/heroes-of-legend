@@ -1,0 +1,184 @@
+{
+  "reference_cv": 10,
+  "rounds_per_cv": 0.11336600985221675,
+  "holdout_mae_rounds": 0.8688037766830868,
+  "pressure_models": [
+    {
+      "count_adjusted": false,
+      "coefficient": 0.3343715106732348,
+      "holdout_mae_enemy_attacks": 5.754394909688011
+    },
+    {
+      "count_adjusted": true,
+      "coefficient": 0.21151205669407286,
+      "holdout_mae_enemy_attacks": 1.4193041109338533
+    }
+  ],
+  "rows": [
+    {
+      "id": "07708c0e1848",
+      "count": 2,
+      "hp": 8,
+      "cv": 13.333333333333334,
+      "rounds": 1.197,
+      "wound": 0.0,
+      "split": "train",
+      "predicted_rounds": 1.5115467980295567,
+      "absolute_error": 0.31454679802955665
+    },
+    {
+      "id": "9ec3316f9336",
+      "count": 2,
+      "hp": 12,
+      "cv": 20.0,
+      "rounds": 1.998,
+      "wound": 0.0,
+      "split": "train",
+      "predicted_rounds": 2.267320197044335,
+      "absolute_error": 0.26932019704433485
+    },
+    {
+      "id": "844b6c4fa27c",
+      "count": 2,
+      "hp": 16,
+      "cv": 26.666666666666668,
+      "rounds": 2.11,
+      "wound": 0.01,
+      "split": "train",
+      "predicted_rounds": 3.0230935960591134,
+      "absolute_error": 0.9130935960591136
+    },
+    {
+      "id": "3b204b02d235",
+      "count": 3,
+      "hp": 8,
+      "cv": 20.0,
+      "rounds": 2.0,
+      "wound": 0.039,
+      "split": "holdout",
+      "predicted_rounds": 2.267320197044335,
+      "absolute_error": 0.26732019704433485
+    },
+    {
+      "id": "ddb1b9b9a052",
+      "count": 3,
+      "hp": 12,
+      "cv": 30.0,
+      "rounds": 2.916,
+      "wound": 0.547,
+      "split": "holdout",
+      "predicted_rounds": 3.4009802955665025,
+      "absolute_error": 0.4849802955665026
+    },
+    {
+      "id": "da3817bc8250",
+      "count": 3,
+      "hp": 16,
+      "cv": 40.0,
+      "rounds": 3.244,
+      "wound": 0.764,
+      "split": "holdout",
+      "predicted_rounds": 4.53464039408867,
+      "absolute_error": 1.2906403940886695
+    },
+    {
+      "id": "f2ca113a2a14",
+      "count": 4,
+      "hp": 8,
+      "cv": 26.666666666666668,
+      "rounds": 2.357,
+      "wound": 0.806,
+      "split": "train",
+      "predicted_rounds": 3.0230935960591134,
+      "absolute_error": 0.6660935960591132
+    },
+    {
+      "id": "691a970c36e8",
+      "count": 4,
+      "hp": 12,
+      "cv": 40.0,
+      "rounds": 3.845,
+      "wound": 1.0,
+      "split": "train",
+      "predicted_rounds": 4.53464039408867,
+      "absolute_error": 0.6896403940886695
+    },
+    {
+      "id": "ab4420e844f7",
+      "count": 4,
+      "hp": 16,
+      "cv": 53.333333333333336,
+      "rounds": 5.017,
+      "wound": 1.0,
+      "split": "train",
+      "predicted_rounds": 6.046187192118227,
+      "absolute_error": 1.0291871921182265
+    },
+    {
+      "id": "10eaff8448d6",
+      "count": 6,
+      "hp": 8,
+      "cv": 40.0,
+      "rounds": 3.553,
+      "wound": 1.0,
+      "split": "holdout",
+      "predicted_rounds": 4.53464039408867,
+      "absolute_error": 0.9816403940886698
+    },
+    {
+      "id": "0164b4bd58ed",
+      "count": 6,
+      "hp": 12,
+      "cv": 60.0,
+      "rounds": 5.585,
+      "wound": 1.0,
+      "split": "holdout",
+      "predicted_rounds": 6.801960591133005,
+      "absolute_error": 1.216960591133005
+    },
+    {
+      "id": "dc05b3a34732",
+      "count": 6,
+      "hp": 16,
+      "cv": 80.0,
+      "rounds": 8.098,
+      "wound": 1.0,
+      "split": "holdout",
+      "predicted_rounds": 9.06928078817734,
+      "absolute_error": 0.9712807881773386
+    },
+    {
+      "id": "f9068b23c594",
+      "count": 8,
+      "hp": 8,
+      "cv": 53.333333333333336,
+      "rounds": 4.995,
+      "wound": 1.0,
+      "split": "train",
+      "predicted_rounds": 6.046187192118227,
+      "absolute_error": 1.0511871921182268
+    },
+    {
+      "id": "b7cb519d6df2",
+      "count": 8,
+      "hp": 12,
+      "cv": 80.0,
+      "rounds": 8.557,
+      "wound": 1.0,
+      "split": "train",
+      "predicted_rounds": 9.06928078817734,
+      "absolute_error": 0.512280788177339
+    },
+    {
+      "id": "0bd613be385d",
+      "count": 8,
+      "hp": 16,
+      "cv": 106.66666666666667,
+      "rounds": 14.26,
+      "wound": 1.0,
+      "split": "train",
+      "predicted_rounds": 12.092374384236454,
+      "absolute_error": 2.167625615763546
+    }
+  ]
+}

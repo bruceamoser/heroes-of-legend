@@ -1,0 +1,6 @@
+{
+  "checks": 117,
+  "scenarios": 294,
+  "trials_each": 1000,
+  "encounters": 294000
+}

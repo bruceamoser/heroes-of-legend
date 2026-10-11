@@ -1,0 +1,959 @@
+[
+  {
+    "class_name": "Intellect",
+    "ancestry": "Human",
+    "attrs": {
+      "Brawn": -1,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Guile": 0,
+      "Knowledge": 2,
+      "Reason": 2
+    },
+    "culture": [
+      "Frontier",
+      0
+    ],
+    "background": [
+      "Apprentice",
+      0
+    ],
+    "class_discs": [
+      "Lore",
+      "Craft"
+    ],
+    "traits": [
+      "Hardy",
+      "Long Stride"
+    ],
+    "ranks": {
+      "Lore": 1,
+      "Craft": 1,
+      "Armor": 1,
+      "Fire": 1
+    },
+    "cards": [
+      "forage",
+      "craft",
+      "observe",
+      "climb",
+      "social",
+      "swim",
+      "navigate",
+      "animal",
+      "derive",
+      "sig_intellect_1_0",
+      "medium",
+      "fire",
+      "potions",
+      "identify"
+    ],
+    "gear": [
+      "tools",
+      "medium"
+    ],
+    "recipes": [
+      "arrows",
+      "torches"
+    ],
+    "ledger": [
+      {
+        "level": 0,
+        "kind": "award",
+        "id": "creation",
+        "cost": -14,
+        "balance": 14
+      },
+      {
+        "level": 0,
+        "kind": "grant discipline",
+        "id": "Lore",
+        "cost": 0,
+        "balance": 14
+      },
+      {
+        "level": 0,
+        "kind": "grant card",
+        "id": "forage",
+        "cost": 0,
+        "balance": 14
+      },
+      {
+        "level": 0,
+        "kind": "grant discipline",
+        "id": "Craft",
+        "cost": 0,
+        "balance": 14
+      },
+      {
+        "level": 0,
+        "kind": "grant card",
+        "id": "craft",
+        "cost": 0,
+        "balance": 14
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "observe",
+        "cost": 2,
+        "balance": 12
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "climb",
+        "cost": 2,
+        "balance": 10
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "social",
+        "cost": 2,
+        "balance": 8
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "swim",
+        "cost": 2,
+        "balance": 6
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "navigate",
+        "cost": 2,
+        "balance": 4
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "animal",
+        "cost": 2,
+        "balance": 2
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "derive",
+        "cost": 2,
+        "balance": 0
+      },
+      {
+        "level": 0,
+        "kind": "expire",
+        "id": "unused",
+        "cost": 0,
+        "balance": 0
+      },
+      {
+        "level": 1,
+        "kind": "award",
+        "id": "creation",
+        "cost": -14,
+        "balance": 14
+      },
+      {
+        "level": 1,
+        "kind": "duplicate",
+        "id": "Lore",
+        "cost": -1,
+        "balance": 15
+      },
+      {
+        "level": 1,
+        "kind": "duplicate",
+        "id": "Craft",
+        "cost": -1,
+        "balance": 16
+      },
+      {
+        "level": 1,
+        "kind": "grant card",
+        "id": "sig_intellect_1_0",
+        "cost": 0,
+        "balance": 16
+      },
+      {
+        "level": 1,
+        "kind": "buy discipline",
+        "id": "Armor",
+        "cost": 4,
+        "rank": 1,
+        "balance": 12
+      },
+      {
+        "level": 1,
+        "kind": "buy card",
+        "id": "medium",
+        "cost": 2,
+        "balance": 10
+      },
+      {
+        "level": 1,
+        "kind": "buy discipline",
+        "id": "Fire",
+        "cost": 3,
+        "rank": 1,
+        "balance": 7
+      },
+      {
+        "level": 1,
+        "kind": "buy card",
+        "id": "fire",
+        "cost": 2,
+        "balance": 5
+      },
+      {
+        "level": 1,
+        "kind": "buy card",
+        "id": "potions",
+        "cost": 2,
+        "balance": 3
+      },
+      {
+        "level": 1,
+        "kind": "buy card",
+        "id": "identify",
+        "cost": 2,
+        "balance": 1
+      },
+      {
+        "level": 1,
+        "kind": "expire",
+        "id": "unused",
+        "cost": 1,
+        "balance": 0
+      }
+    ],
+    "pool": 0,
+    "level": 1,
+    "hp_purchases": [],
+    "expired": [
+      0,
+      1
+    ],
+    "grit": 2,
+    "hp": 17,
+    "bulk": 2,
+    "capacity": 7,
+    "encumbrance": 0,
+    "speed": 7,
+    "resistance": 2,
+    "bank": 0
+  },
+  {
+    "class_name": "Intellect",
+    "ancestry": "Human",
+    "attrs": {
+      "Brawn": -1,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Guile": 0,
+      "Knowledge": 2,
+      "Reason": 2
+    },
+    "culture": [
+      "Frontier",
+      0
+    ],
+    "background": [
+      "Apprentice",
+      0
+    ],
+    "class_discs": [
+      "Lore",
+      "Craft"
+    ],
+    "traits": [
+      "Hardy",
+      "Long Stride"
+    ],
+    "ranks": {
+      "Lore": 1,
+      "Craft": 1,
+      "Armor": 1,
+      "Fire": 1,
+      "Melee": 2,
+      "Life": 1
+    },
+    "cards": [
+      "forage",
+      "craft",
+      "observe",
+      "climb",
+      "social",
+      "swim",
+      "navigate",
+      "animal",
+      "derive",
+      "sig_intellect_1_0",
+      "medium",
+      "fire",
+      "potions",
+      "identify",
+      "strike",
+      "heal",
+      "sig_intellect_3_0",
+      "physical"
+    ],
+    "gear": [
+      "tools",
+      "medium",
+      "melee"
+    ],
+    "recipes": [
+      "arrows",
+      "torches"
+    ],
+    "ledger": [
+      {
+        "level": 0,
+        "kind": "award",
+        "id": "creation",
+        "cost": -14,
+        "balance": 14
+      },
+      {
+        "level": 0,
+        "kind": "grant discipline",
+        "id": "Lore",
+        "cost": 0,
+        "balance": 14
+      },
+      {
+        "level": 0,
+        "kind": "grant card",
+        "id": "forage",
+        "cost": 0,
+        "balance": 14
+      },
+      {
+        "level": 0,
+        "kind": "grant discipline",
+        "id": "Craft",
+        "cost": 0,
+        "balance": 14
+      },
+      {
+        "level": 0,
+        "kind": "grant card",
+        "id": "craft",
+        "cost": 0,
+        "balance": 14
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "observe",
+        "cost": 2,
+        "balance": 12
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "climb",
+        "cost": 2,
+        "balance": 10
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "social",
+        "cost": 2,
+        "balance": 8
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "swim",
+        "cost": 2,
+        "balance": 6
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "navigate",
+        "cost": 2,
+        "balance": 4
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "animal",
+        "cost": 2,
+        "balance": 2
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "derive",
+        "cost": 2,
+        "balance": 0
+      },
+      {
+        "level": 0,
+        "kind": "expire",
+        "id": "unused",
+        "cost": 0,
+        "balance": 0
+      },
+      {
+        "level": 1,
+        "kind": "award",
+        "id": "creation",
+        "cost": -14,
+        "balance": 14
+      },
+      {
+        "level": 1,
+        "kind": "duplicate",
+        "id": "Lore",
+        "cost": -1,
+        "balance": 15
+      },
+      {
+        "level": 1,
+        "kind": "duplicate",
+        "id": "Craft",
+        "cost": -1,
+        "balance": 16
+      },
+      {
+        "level": 1,
+        "kind": "grant card",
+        "id": "sig_intellect_1_0",
+        "cost": 0,
+        "balance": 16
+      },
+      {
+        "level": 1,
+        "kind": "buy discipline",
+        "id": "Armor",
+        "cost": 4,
+        "rank": 1,
+        "balance": 12
+      },
+      {
+        "level": 1,
+        "kind": "buy card",
+        "id": "medium",
+        "cost": 2,
+        "balance": 10
+      },
+      {
+        "level": 1,
+        "kind": "buy discipline",
+        "id": "Fire",
+        "cost": 3,
+        "rank": 1,
+        "balance": 7
+      },
+      {
+        "level": 1,
+        "kind": "buy card",
+        "id": "fire",
+        "cost": 2,
+        "balance": 5
+      },
+      {
+        "level": 1,
+        "kind": "buy card",
+        "id": "potions",
+        "cost": 2,
+        "balance": 3
+      },
+      {
+        "level": 1,
+        "kind": "buy card",
+        "id": "identify",
+        "cost": 2,
+        "balance": 1
+      },
+      {
+        "level": 1,
+        "kind": "expire",
+        "id": "unused",
+        "cost": 1,
+        "balance": 0
+      },
+      {
+        "level": 2,
+        "kind": "award",
+        "id": "level",
+        "cost": -10,
+        "balance": 10
+      },
+      {
+        "level": 2,
+        "kind": "buy discipline",
+        "id": "Melee",
+        "cost": 4,
+        "rank": 1,
+        "balance": 6
+      },
+      {
+        "level": 2,
+        "kind": "buy card",
+        "id": "strike",
+        "cost": 2,
+        "balance": 4
+      },
+      {
+        "level": 2,
+        "kind": "buy discipline",
+        "id": "Life",
+        "cost": 2,
+        "rank": 1,
+        "balance": 2
+      },
+      {
+        "level": 2,
+        "kind": "buy card",
+        "id": "heal",
+        "cost": 2,
+        "balance": 0
+      },
+      {
+        "level": 3,
+        "kind": "award",
+        "id": "level",
+        "cost": -11,
+        "balance": 11
+      },
+      {
+        "level": 3,
+        "kind": "grant card",
+        "id": "sig_intellect_3_0",
+        "cost": 0,
+        "balance": 11
+      },
+      {
+        "level": 3,
+        "kind": "buy discipline",
+        "id": "Melee",
+        "cost": 8,
+        "rank": 2,
+        "balance": 3
+      },
+      {
+        "level": 3,
+        "kind": "buy card",
+        "id": "physical",
+        "cost": 2,
+        "balance": 1
+      }
+    ],
+    "pool": 1,
+    "level": 3,
+    "hp_purchases": [],
+    "expired": [
+      0,
+      1
+    ],
+    "grit": 3,
+    "hp": 17,
+    "bulk": 3,
+    "capacity": 7,
+    "encumbrance": 0,
+    "speed": 7,
+    "resistance": 2,
+    "bank": 1
+  },
+  {
+    "class_name": "Intellect",
+    "ancestry": "Human",
+    "attrs": {
+      "Brawn": -1,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Guile": 0,
+      "Knowledge": 2,
+      "Reason": 2
+    },
+    "culture": [
+      "Frontier",
+      0
+    ],
+    "background": [
+      "Apprentice",
+      0
+    ],
+    "class_discs": [
+      "Lore",
+      "Craft"
+    ],
+    "traits": [
+      "Hardy",
+      "Long Stride"
+    ],
+    "ranks": {
+      "Lore": 1,
+      "Craft": 1,
+      "Armor": 1,
+      "Fire": 1,
+      "Melee": 3,
+      "Life": 1
+    },
+    "cards": [
+      "forage",
+      "craft",
+      "observe",
+      "climb",
+      "social",
+      "swim",
+      "navigate",
+      "animal",
+      "derive",
+      "sig_intellect_1_0",
+      "medium",
+      "fire",
+      "potions",
+      "identify",
+      "strike",
+      "heal",
+      "sig_intellect_3_0",
+      "physical",
+      "adept_strike",
+      "mental",
+      "sig_intellect_7_0",
+      "master_strike",
+      "grit"
+    ],
+    "gear": [
+      "tools",
+      "medium",
+      "melee"
+    ],
+    "recipes": [
+      "arrows",
+      "torches"
+    ],
+    "ledger": [
+      {
+        "level": 0,
+        "kind": "award",
+        "id": "creation",
+        "cost": -14,
+        "balance": 14
+      },
+      {
+        "level": 0,
+        "kind": "grant discipline",
+        "id": "Lore",
+        "cost": 0,
+        "balance": 14
+      },
+      {
+        "level": 0,
+        "kind": "grant card",
+        "id": "forage",
+        "cost": 0,
+        "balance": 14
+      },
+      {
+        "level": 0,
+        "kind": "grant discipline",
+        "id": "Craft",
+        "cost": 0,
+        "balance": 14
+      },
+      {
+        "level": 0,
+        "kind": "grant card",
+        "id": "craft",
+        "cost": 0,
+        "balance": 14
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "observe",
+        "cost": 2,
+        "balance": 12
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "climb",
+        "cost": 2,
+        "balance": 10
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "social",
+        "cost": 2,
+        "balance": 8
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "swim",
+        "cost": 2,
+        "balance": 6
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "navigate",
+        "cost": 2,
+        "balance": 4
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "animal",
+        "cost": 2,
+        "balance": 2
+      },
+      {
+        "level": 0,
+        "kind": "buy card",
+        "id": "derive",
+        "cost": 2,
+        "balance": 0
+      },
+      {
+        "level": 0,
+        "kind": "expire",
+        "id": "unused",
+        "cost": 0,
+        "balance": 0
+      },
+      {
+        "level": 1,
+        "kind": "award",
+        "id": "creation",
+        "cost": -14,
+        "balance": 14
+      },
+      {
+        "level": 1,
+        "kind": "duplicate",
+        "id": "Lore",
+        "cost": -1,
+        "balance": 15
+      },
+      {
+        "level": 1,
+        "kind": "duplicate",
+        "id": "Craft",
+        "cost": -1,
+        "balance": 16
+      },
+      {
+        "level": 1,
+        "kind": "grant card",
+        "id": "sig_intellect_1_0",
+        "cost": 0,
+        "balance": 16
+      },
+      {
+        "level": 1,
+        "kind": "buy discipline",
+        "id": "Armor",
+        "cost": 4,
+        "rank": 1,
+        "balance": 12
+      },
+      {
+        "level": 1,
+        "kind": "buy card",
+        "id": "medium",
+        "cost": 2,
+        "balance": 10
+      },
+      {
+        "level": 1,
+        "kind": "buy discipline",
+        "id": "Fire",
+        "cost": 3,
+        "rank": 1,
+        "balance": 7
+      },
+      {
+        "level": 1,
+        "kind": "buy card",
+        "id": "fire",
+        "cost": 2,
+        "balance": 5
+      },
+      {
+        "level": 1,
+        "kind": "buy card",
+        "id": "potions",
+        "cost": 2,
+        "balance": 3
+      },
+      {
+        "level": 1,
+        "kind": "buy card",
+        "id": "identify",
+        "cost": 2,
+        "balance": 1
+      },
+      {
+        "level": 1,
+        "kind": "expire",
+        "id": "unused",
+        "cost": 1,
+        "balance": 0
+      },
+      {
+        "level": 2,
+        "kind": "award",
+        "id": "level",
+        "cost": -10,
+        "balance": 10
+      },
+      {
+        "level": 2,
+        "kind": "buy discipline",
+        "id": "Melee",
+        "cost": 4,
+        "rank": 1,
+        "balance": 6
+      },
+      {
+        "level": 2,
+        "kind": "buy card",
+        "id": "strike",
+        "cost": 2,
+        "balance": 4
+      },
+      {
+        "level": 2,
+        "kind": "buy discipline",
+        "id": "Life",
+        "cost": 2,
+        "rank": 1,
+        "balance": 2
+      },
+      {
+        "level": 2,
+        "kind": "buy card",
+        "id": "heal",
+        "cost": 2,
+        "balance": 0
+      },
+      {
+        "level": 3,
+        "kind": "award",
+        "id": "level",
+        "cost": -11,
+        "balance": 11
+      },
+      {
+        "level": 3,
+        "kind": "grant card",
+        "id": "sig_intellect_3_0",
+        "cost": 0,
+        "balance": 11
+      },
+      {
+        "level": 3,
+        "kind": "buy discipline",
+        "id": "Melee",
+        "cost": 8,
+        "rank": 2,
+        "balance": 3
+      },
+      {
+        "level": 3,
+        "kind": "buy card",
+        "id": "physical",
+        "cost": 2,
+        "balance": 1
+      },
+      {
+        "level": 4,
+        "kind": "award",
+        "id": "level",
+        "cost": -12,
+        "balance": 13
+      },
+      {
+        "level": 4,
+        "kind": "buy card",
+        "id": "adept_strike",
+        "cost": 4,
+        "balance": 9
+      },
+      {
+        "level": 4,
+        "kind": "buy card",
+        "id": "mental",
+        "cost": 2,
+        "balance": 7
+      },
+      {
+        "level": 5,
+        "kind": "award",
+        "id": "level",
+        "cost": -13,
+        "balance": 20
+      },
+      {
+        "level": 6,
+        "kind": "award",
+        "id": "level",
+        "cost": -14,
+        "balance": 34
+      },
+      {
+        "level": 7,
+        "kind": "award",
+        "id": "level",
+        "cost": -15,
+        "balance": 49
+      },
+      {
+        "level": 7,
+        "kind": "grant card",
+        "id": "sig_intellect_7_0",
+        "cost": 0,
+        "balance": 49
+      },
+      {
+        "level": 7,
+        "kind": "buy discipline",
+        "id": "Melee",
+        "cost": 16,
+        "rank": 3,
+        "balance": 33
+      },
+      {
+        "level": 7,
+        "kind": "buy card",
+        "id": "master_strike",
+        "cost": 8,
+        "balance": 25
+      },
+      {
+        "level": 7,
+        "kind": "buy card",
+        "id": "grit",
+        "cost": 8,
+        "balance": 17
+      }
+    ],
+    "pool": 17,
+    "level": 7,
+    "hp_purchases": [],
+    "expired": [
+      0,
+      1
+    ],
+    "grit": 5,
+    "hp": 17,
+    "bulk": 3,
+    "capacity": 7,
+    "encumbrance": 0,
+    "speed": 7,
+    "resistance": 2,
+    "bank": 17
+  }
+]

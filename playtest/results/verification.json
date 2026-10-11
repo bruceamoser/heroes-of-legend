@@ -1,0 +1,13 @@
+{
+  "invalid_build_checks": 9,
+  "generated_files": 6,
+  "signature_choice_sets": 27,
+  "build_snapshots": 38,
+  "scenario_records": 462,
+  "total_encounters": 633866,
+  "input_hashes": 26,
+  "deterministic_replays": 23,
+  "local_links": 28,
+  "archived_chapters": 25,
+  "model_limitations_checked": 5
+}

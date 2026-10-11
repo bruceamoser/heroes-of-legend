@@ -1,0 +1,242 @@
+[
+  {
+    "grapplers": 1,
+    "attack_attribute": 0,
+    "force_attribute": 0,
+    "first": "target",
+    "trials": 10000,
+    "restrained_round1": 0.0966,
+    "restrained_by_round3": 0.4423,
+    "force_actions": 1.6115
+  },
+  {
+    "grapplers": 1,
+    "attack_attribute": 0,
+    "force_attribute": 0,
+    "first": "grapplers",
+    "trials": 10000,
+    "restrained_round1": 0.0894,
+    "restrained_by_round3": 0.43589999999999995,
+    "force_actions": 2.1893
+  },
+  {
+    "grapplers": 1,
+    "attack_attribute": 0,
+    "force_attribute": 2,
+    "first": "target",
+    "trials": 10000,
+    "restrained_round1": 0.092,
+    "restrained_by_round3": 0.3238,
+    "force_actions": 1.6927
+  },
+  {
+    "grapplers": 1,
+    "attack_attribute": 0,
+    "force_attribute": 2,
+    "first": "grapplers",
+    "trials": 10000,
+    "restrained_round1": 0.091,
+    "restrained_by_round3": 0.32909999999999995,
+    "force_actions": 2.3602
+  },
+  {
+    "grapplers": 1,
+    "attack_attribute": 2,
+    "force_attribute": 0,
+    "first": "target",
+    "trials": 10000,
+    "restrained_round1": 0.2654,
+    "restrained_by_round3": 0.7469,
+    "force_actions": 1.1653
+  },
+  {
+    "grapplers": 1,
+    "attack_attribute": 2,
+    "force_attribute": 0,
+    "first": "grapplers",
+    "trials": 10000,
+    "restrained_round1": 0.2638,
+    "restrained_by_round3": 0.7411,
+    "force_actions": 1.434
+  },
+  {
+    "grapplers": 1,
+    "attack_attribute": 2,
+    "force_attribute": 2,
+    "first": "target",
+    "trials": 10000,
+    "restrained_round1": 0.2699,
+    "restrained_by_round3": 0.6501,
+    "force_actions": 1.2341
+  },
+  {
+    "grapplers": 1,
+    "attack_attribute": 2,
+    "force_attribute": 2,
+    "first": "grapplers",
+    "trials": 10000,
+    "restrained_round1": 0.2679,
+    "restrained_by_round3": 0.6577999999999999,
+    "force_actions": 1.5745
+  },
+  {
+    "grapplers": 2,
+    "attack_attribute": 0,
+    "force_attribute": 0,
+    "first": "target",
+    "trials": 10000,
+    "restrained_round1": 0.9314,
+    "restrained_by_round3": 1.0,
+    "force_actions": 0.0717
+  },
+  {
+    "grapplers": 2,
+    "attack_attribute": 0,
+    "force_attribute": 0,
+    "first": "grapplers",
+    "trials": 10000,
+    "restrained_round1": 0.2816,
+    "restrained_by_round3": 0.9986,
+    "force_actions": 0.9618
+  },
+  {
+    "grapplers": 2,
+    "attack_attribute": 0,
+    "force_attribute": 2,
+    "first": "target",
+    "trials": 10000,
+    "restrained_round1": 0.9346,
+    "restrained_by_round3": 0.9998,
+    "force_actions": 0.0698
+  },
+  {
+    "grapplers": 2,
+    "attack_attribute": 0,
+    "force_attribute": 2,
+    "first": "grapplers",
+    "trials": 10000,
+    "restrained_round1": 0.2195,
+    "restrained_by_round3": 0.9969,
+    "force_actions": 0.9668
+  },
+  {
+    "grapplers": 2,
+    "attack_attribute": 2,
+    "force_attribute": 0,
+    "first": "target",
+    "trials": 10000,
+    "restrained_round1": 0.992,
+    "restrained_by_round3": 1.0,
+    "force_actions": 0.008
+  },
+  {
+    "grapplers": 2,
+    "attack_attribute": 2,
+    "force_attribute": 0,
+    "first": "grapplers",
+    "trials": 10000,
+    "restrained_round1": 0.5527,
+    "restrained_by_round3": 0.9999,
+    "force_actions": 0.7463
+  },
+  {
+    "grapplers": 2,
+    "attack_attribute": 2,
+    "force_attribute": 2,
+    "first": "target",
+    "trials": 10000,
+    "restrained_round1": 0.992,
+    "restrained_by_round3": 1.0,
+    "force_actions": 0.008
+  },
+  {
+    "grapplers": 2,
+    "attack_attribute": 2,
+    "force_attribute": 2,
+    "first": "grapplers",
+    "trials": 10000,
+    "restrained_round1": 0.4909,
+    "restrained_by_round3": 1.0,
+    "force_actions": 0.7474
+  },
+  {
+    "grapplers": 3,
+    "attack_attribute": 0,
+    "force_attribute": 0,
+    "first": "target",
+    "trials": 10000,
+    "restrained_round1": 1.0,
+    "restrained_by_round3": 1.0,
+    "force_actions": 0.0
+  },
+  {
+    "grapplers": 3,
+    "attack_attribute": 0,
+    "force_attribute": 0,
+    "first": "grapplers",
+    "trials": 10000,
+    "restrained_round1": 0.9502,
+    "restrained_by_round3": 1.0,
+    "force_actions": 0.906
+  },
+  {
+    "grapplers": 3,
+    "attack_attribute": 0,
+    "force_attribute": 2,
+    "first": "target",
+    "trials": 10000,
+    "restrained_round1": 1.0,
+    "restrained_by_round3": 1.0,
+    "force_actions": 0.0
+  },
+  {
+    "grapplers": 3,
+    "attack_attribute": 0,
+    "force_attribute": 2,
+    "first": "grapplers",
+    "trials": 10000,
+    "restrained_round1": 0.9412,
+    "restrained_by_round3": 1.0,
+    "force_actions": 0.906
+  },
+  {
+    "grapplers": 3,
+    "attack_attribute": 2,
+    "force_attribute": 0,
+    "first": "target",
+    "trials": 10000,
+    "restrained_round1": 1.0,
+    "restrained_by_round3": 1.0,
+    "force_actions": 0.0
+  },
+  {
+    "grapplers": 3,
+    "attack_attribute": 2,
+    "force_attribute": 0,
+    "first": "grapplers",
+    "trials": 10000,
+    "restrained_round1": 0.996,
+    "restrained_by_round3": 1.0,
+    "force_actions": 0.7415
+  },
+  {
+    "grapplers": 3,
+    "attack_attribute": 2,
+    "force_attribute": 2,
+    "first": "target",
+    "trials": 10000,
+    "restrained_round1": 1.0,
+    "restrained_by_round3": 1.0,
+    "force_actions": 0.0
+  },
+  {
+    "grapplers": 3,
+    "attack_attribute": 2,
+    "force_attribute": 2,
+    "first": "grapplers",
+    "trials": 10000,
+    "restrained_round1": 0.9952,
+    "restrained_by_round3": 1.0,
+    "force_actions": 0.7314
+  }
+]
