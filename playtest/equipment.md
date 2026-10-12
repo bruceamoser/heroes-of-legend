@@ -44,8 +44,11 @@ ability or waive prerequisites.
 | supply | Craft material bundle | 1 | d6, check per craft attempt |
 | food | Food bundle | 1 | d8, check per day's use |
 | light | Lighting bundle | 1 | d6, check per exploration scene of use |
-| potion | Healing bottle | 1 | d4, full HP per use |
+| potion | Healing bottle | 1 | d4 test supply; restores 6 HP (Lesser), before Life resistance |
 
 There is no automatic general equipment kit. Only explicit ability grants populate
 starting inventory. Test scenarios can separately provide named supplies, including
 potions, and must count them in Bulk. No default pricing/resale schedule is adopted.
+
+Greater and Superior potions restore 10 and 16 HP respectively. Supply die is
+independent of strength; all restore Life energy, minimum 1 after resistance.

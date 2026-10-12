@@ -1,48 +1,27 @@
-# Decision register after the autonomous pass
+# Decision register — after v0.2 refresh
 
-**Historical register from the autonomous pass:** see [revision status](revision-status.md)
-for subsequent designer decisions. Rows below retain the context of the saved tests.
+Bruce's approved changes are incorporated in the working catalog. The current
+[findings](results/findings.md) supersede the old balance conclusions; neither is a
+claim that the system is finished.
 
-These are review items, not requests blocking the work. Bruce's already agreed
-rules remain recorded in the working files. Numerical results are in
-[findings](results/findings.md).
-
-| ID | Status | Decision or next experiment |
+| ID | Status | Next step |
 |---|---|---|
-| D01 | Provisional catalog | Ordinary Novice attacks around 4/5/7, with individual profiles and riders; compare 4/4/6 and 5/6/8 rather than adopting one universal progression |
-| D02 | Provisional catalog | Basic weapon attacks 2/3/5; Strong deals 2 against resistance 3, not all resistance |
-| D03 | Finding for review | Four-round anchor has about 27% party wound chance without healing and 1–2% with it; the latter is safer than the soft goal |
-| D04 | Next tactical test | Real positions and reachable targets; compare Disengage-then-cast with casting in contact before choosing interruption rules |
-| D05 | Provisional catalog | Two ordinary starter recipes per crafting card; complete forest crafter entry route supplied |
-| D06 | Provisional catalog | HP contributions for Shepherd, Intellect, Leader, Unbalanced, Shadow, Odd; initial Protector/Blade/Arcanist values already approved as fixtures |
-| D07 | Needs tactical testing | Test distinct higher-tier signature prototypes before full class balance certification |
-| D08 | Finding for review | Unlimited summoned bodies have value outside the command limit; test placement, duration and blocking while retaining the agreed no-count-cap principle |
-| D09 | Next tactical test | Multiple grapplers with target movement after Force and allied intervention; contact-only results are intentionally adversarial |
-| D10 | Reviewed working tables; tests pending | Five complete damage-source wound tables in [wounds](wounds.md), explicit recovery/remedies, numbered decay and starred persistence; active wound penalties remain untested |
-| D11 | Provisional model | CV uses durability × threat; a body-count pressure correction improves the first holdout test, but special abilities remain unpriced; no final published encounter budgets yet |
-| D12 | Deferred economy | Coins have no denominations; equipment/recipe pricing and resale remain outside the combat test baseline |
-| D13 | Deferred rules detail | NPC healing uses the same outcome table; the test's NPC-side support roll is provisional where no player is a target |
-| D14 | Deferred geometry | Moving-group footprint and bends during pinball movement need a concrete board ruling |
+| D01 | Provisional per-card damage | Compare ordinary attack profiles; keep riders distinct |
+| D02 | Approved next-test profile | Basic 2/3/5, compare 3/4/6 against universal resistance cap 3 |
+| D03 | Revised and rerun | Fixed healing, HP cost 1/3/7, Life resistance and potion strength; evaluate outcomes |
+| D04 | Tactical test pending | Use declared maps and Disengage before choosing interruption rules |
+| D05 | Implemented | Two starter ordinary recipes; repeatable 2-DP Ordinary Recipes for two more |
+| D06 | Implemented | All class HP fixtures accepted; Protector +5 |
+| D07 | Next tactical layer | Level-1 signatures first, then levels 3/7; capped Protector signatures need redesign |
+| D08 | Tether implemented | More than 6 squares disappears, including forced movement; test nearby body blocking |
+| D09 | Vulnerability implemented | Boon per Grappled rating; test rescue/escape and attacks on grapplers on a board |
+| D10 | Reviewed tables and partial tests | Five complete wound tables, decay and treatment prototypes; mapped consequences remain unmodeled |
+| D11 | CV still provisional | Old fitted CV remains historical; calibrate after tactical tests |
+| D12 | Deferred economy | Coin prices, resale and restocking remain outside combat fixture |
+| D13 | Declared test convention | NPC self-side support roll uses Reason +1; not a new universal NPC rule |
+| D14 | Deferred geometry | Moving-group footprint and bends require board rulings |
+| D15 | Open core discussion | Perception/detection; do not invent an Observation attribute |
+| D16 | Open condition bookkeeping | Mixed starred and temporary contributions of one condition |
 
-## Agreed foundations preserved
-
-- Fixed attributes, mental sum added to both creation DP stages including negatives,
-  stage expiry, no discipline purchases at level 0, banked later DP.
-- Nine class requirement pairs including Odd's exception; no multiclassing.
-- Shared card costs, sequential discipline ranks, signatures requiring class/level.
-- Single actor roll, worst-case player AoE, individual defense against NPC AoE.
-- Weak means progress; fixed damage; typed highest-only resistance with one total
-  damage-event minimum; numbered conditions can stack.
-- Action conversion and Reaction economy, universal cards, free-attack chain limit.
-- Full HP recovery, finite Grit, permanent scars, Dying and Last Words.
-- One-Bulk ordinary melee/ranged weapons, deduplicated acquisition grants,
-  no exempt backpack, inventory dice checked after use.
-- Purchased specialist foraging/crafting/identification; recipes and cumulative
-  work; no group crafting/derivation; out-of-combat group checks.
-
-## Suggested review order
-
-Review D03 first: accept the safer healer outcome or specify the desired trade-off.
-Then D01/D02, using the actual damage tables. Next play the position cases in D04
-and D09. Catalog expansion can proceed alongside those tests, but avoid treating
-untested signatures as final. Do not begin book layout until this rules pass settles.
+Finish the baseline review, then level-1 signatures and controlled board layers.
+Layout remains deferred.

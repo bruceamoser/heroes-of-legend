@@ -55,10 +55,9 @@ Highest matching resistance applies to each damage type; do not add armor values
 Highest matching weakness offsets matching resistance. Resolve each component with
 floor 0, then apply a minimum of 1 to the entire damaging event, not each component.
 An event with no damage instruction does not gain damage from this minimum. Physical
-is one type. Example: physical 3 + fire 1 against physical resistance 4 and fire
+is one type. Example: physical 3 + fire 1 against physical resistance 3 and fire
 resistance 0 deals 1 total. Additional fire was fully responsible for that damage.
-Working resistance ceilings: 3 at levels 1–2, 4 at 3–6, 6 at 7–10; provisional balance
-ceilings, not permission to acquire those amounts without an actual card.
+Universal resistance cap: **3**, regardless of level. Actual cards still grant resistance.
 
 Bonuses of the same kind do not stack: use the highest. Boons/Banes stack by their
 own rules; numbered conditions stack when their entries permit. Different resistance
@@ -103,7 +102,8 @@ One command per summoned creature per turn; two different summons can receive th
 two commands. A summoning Main grants an immediate free Main command, counting as
 that creature's command. Unlimited summons, but no uncommanded actions/movement,
 no inherent Reactions, no summoning chains. Controller rolls. Body blocking remains
-a balance issue even for inactive summons.
+a balance issue even for inactive summons. Any summon immediately disappears when
+more than 6 squares from its controller, including forced movement of either.
 
 ## Exploration and group work — Agreed
 

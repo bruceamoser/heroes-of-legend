@@ -65,9 +65,9 @@ were superseded and are not universal rest timers.
 Required capabilities to create in the rebuilt card catalog: **Soft Tissue
 Treatment, Bone Treatment, Elemental Wound Treatment, Mental Wound Treatment,
 Radiant Wound Treatment, Life Wound Treatment**. These are broad capabilities,
-not a separate ability for each injury. Their DP, discipline, and attribute details
-remain catalog work. Existing generic treatment prototypes are not certification
-that these six capabilities have been implemented.
+not a separate ability for each injury. Their prototype cards now appear in [abilities](abilities.md). Life 1, the printed
+attributes, Novice price and one-hour interval are provisional test choices; the
+capability requirement, daily limit and 1/2/3 progress are agreed.
 
 Treatment cannot regrow a lost body part. An artificial limb or explicitly
 restorative ability specifies what it remedies. Scars remain even after functional

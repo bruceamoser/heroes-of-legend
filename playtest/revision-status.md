@@ -1,56 +1,44 @@
-# Working revision and historical test boundary
+# Working revision v0.2
 
-Issue #1125 consolidates Bruce's reviewed wound tables and condition rules from the
-October 12 discussion. It does not rerun combat or certify catalog balance.
+Issues #1127–1128 migrate the catalog and rerun experiments after the reviewed
+wound/condition pass. Catalog generation, rules, creation ledgers and simulator now
+use fixed healing and costs, resistance cap 3, condition decay, class HP values,
+recipe acquisition, grapple vulnerability and the summon tether where modeled.
 
-## Current reference
+## Agreed rules versus prototypes
 
-- [Conditions](conditions.md): end-of-turn effect then decay; numbered Paralysis;
-  duration-only blindness/deafness; starred persistence; Main Action removes 1 from
-  an appropriate condition on self/adjacent; Grappled remains maintained.
-- [Wounds](wounds.md): five complete tables, broad physical/mental activity Banes,
-  explicit treatment/remedies, permanent scars and elemental clothing consequences.
-- [Recovery](recovery.md): linked wound procedure and current fixed healing rules.
+The six treatment capabilities have [prototype cards](abilities.md). Their Life 1
+requirement, attributes and one-hour treatment interval remain provisional. The
+wound RVs, correct capability requirement, one attempt per wound per day, and 1/2/3
+progress are agreed. Field Dressing is a provisional Bleeding-removal card, replacing
+an obsolete uncosted percentage heal; it is not in the baseline combat policy.
 
-Physical/Elemental references to single-turn Dazed or Paralysis now use their
-ratings and ordinary decay. Lasting eye injuries use Blinded 1*, because Blinded 1
-no longer means partial blindness. Temporary sensory effects decay normally.
+Higher-tier healing prototypes use 5/10/15 at 3 HP and 8/16/24 at 7 HP. Cards may
+supply different benefits. Baseline policies still use learned Mend; tier-sensitive
+runs are explicit. All class HP contributions, including Protector +5, are applied.
+Ordinary Recipes costs 2 DP for two compatible new recipes and is repeatable.
 
-## Historical material — do not use as current rules
+The resistance cap makes some high-tier Protector signatures redundant with heavy
+armor. They are capped, flagged for redesign, and not silently compensated with a
+new ability. Higher signatures are not validated by chassis-only combat runs.
 
-The generated catalog, existing test scripts, board fixtures, and saved results
-remain the **version 0.1 experiment snapshot**. They include old condition removal,
-sensory severity, and healing assumptions. They have not been migrated to this
-revision. The source of generated catalog files is still tests/catalog.py; manual
-changes to those generated tables would be overwritten.
+## Reproducibility
 
-The results manifest retains the original input hashes. The old verify.py source
-hash check is expected to report changed inputs after these rule edits. Do not
-regenerate report.py merely to replace those hashes: that would misrepresent which
-rules produced the saved results. Run that experiment suite at the parent commit
-52ff73d when reproducing its historical inputs. A new experiment revision must
-update catalog/engine fixtures and produce fresh results with explicit assumptions.
+The complete original playtest tree from commit 52ff73d is preserved in
+[history/v0.1.tar.gz](history/v0.1.tar.gz), including source, assumptions and results.
+Extract outside the repository if reproducing it. Current results and their input
+hash manifest are newly generated; historical figures are never relabeled as v0.2.
+The previous CV fit is historical, not a newly calibrated encounter budget.
 
-## Other agreed follow-ups awaiting catalog/test migration
+## Current model boundary
 
-These decisions are retained here so the old fixtures cannot silently override them:
+See [test contract](tests/README.md) for the precise boundary. Ordinary encounters
+have no board. Added wound overlays model disabling/sensory conditions and activity
+Banes, but not displacement, collision follow-through, lost movement, or artificial
+limbs. Treatment sequences use explicitly purchased capabilities and safe downtime.
+Summon tether, recipe purchase and condition mechanics have local checks, not a
+claim of full tactical simulation. Level-1 signature board tests remain next.
 
-- Universal resistance cap 3; basic attacks 2/3/5 for next test, compare higher values.
-- Summons disappear immediately beyond 6 squares from their controller, including
-  forced movement of either. Forced movement should be common across the catalog.
-- Attacks gain one Boon per target Grappled rating, including grapplers.
-- Crafting acquisition grants two compatible ordinary recipes. Ordinary Recipes
-  costs 2 DP for two additional compatible recipes; repeatable, requires appropriate
-  crafting capability. Exceptional recipes remain discoveries/derivation.
-- Class HP contributions: Protector 5, Blade 4, Arcanist 2, Shepherd 3, Intellect 2,
-  Leader 4, Unbalanced 6, Shadow 3, Odd 3. Test level-1 signatures before level 3/7.
-- Fixed spell and potion healing, casting costs, and Life resistance are recorded
-  in recovery.md; percentage healing in historical cards is superseded.
-
-## Remaining boundaries
-
-The six treatment capabilities are a card-development list, not finished cards.
-Their roll attributes and purchase requirements remain to be defined. Perception
-and detection also remain a separate discussion. Mixed starred and temporary
-contributions need a tracking rule. None of these gaps authorizes importing legacy
-rules or inventing unapproved mechanics.
+Perception/detection, mixed starred/temporary condition tracking, crowded forced
+movement geometry, and exact opportunity-interruption rules remain separate design
+questions. Tests declare assumptions rather than importing legacy rules.

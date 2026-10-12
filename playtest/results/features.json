@@ -334,45 +334,6 @@
   {
     "test": "damage",
     "profile": [
-      1,
-      2,
-      4
-    ],
-    "resistance": 4,
-    "mean_at_attribute_1": 0.9999999999999999,
-    "weak": 1,
-    "standard": 1,
-    "strong": 1
-  },
-  {
-    "test": "damage",
-    "profile": [
-      1,
-      2,
-      4
-    ],
-    "resistance": 5,
-    "mean_at_attribute_1": 0.9999999999999999,
-    "weak": 1,
-    "standard": 1,
-    "strong": 1
-  },
-  {
-    "test": "damage",
-    "profile": [
-      1,
-      2,
-      4
-    ],
-    "resistance": 6,
-    "mean_at_attribute_1": 0.9999999999999999,
-    "weak": 1,
-    "standard": 1,
-    "strong": 1
-  },
-  {
-    "test": "damage",
-    "profile": [
       2,
       3,
       5
@@ -426,45 +387,6 @@
     "test": "damage",
     "profile": [
       2,
-      3,
-      5
-    ],
-    "resistance": 4,
-    "mean_at_attribute_1": 0.9999999999999999,
-    "weak": 1,
-    "standard": 1,
-    "strong": 1
-  },
-  {
-    "test": "damage",
-    "profile": [
-      2,
-      3,
-      5
-    ],
-    "resistance": 5,
-    "mean_at_attribute_1": 0.9999999999999999,
-    "weak": 1,
-    "standard": 1,
-    "strong": 1
-  },
-  {
-    "test": "damage",
-    "profile": [
-      2,
-      3,
-      5
-    ],
-    "resistance": 6,
-    "mean_at_attribute_1": 0.9999999999999999,
-    "weak": 1,
-    "standard": 1,
-    "strong": 1
-  },
-  {
-    "test": "damage",
-    "profile": [
-      2,
       4,
       6
     ],
@@ -512,45 +434,6 @@
     "weak": 1,
     "standard": 1,
     "strong": 3
-  },
-  {
-    "test": "damage",
-    "profile": [
-      2,
-      4,
-      6
-    ],
-    "resistance": 4,
-    "mean_at_attribute_1": 1.162037037037037,
-    "weak": 1,
-    "standard": 1,
-    "strong": 2
-  },
-  {
-    "test": "damage",
-    "profile": [
-      2,
-      4,
-      6
-    ],
-    "resistance": 5,
-    "mean_at_attribute_1": 0.9999999999999999,
-    "weak": 1,
-    "standard": 1,
-    "strong": 1
-  },
-  {
-    "test": "damage",
-    "profile": [
-      2,
-      4,
-      6
-    ],
-    "resistance": 6,
-    "mean_at_attribute_1": 0.9999999999999999,
-    "weak": 1,
-    "standard": 1,
-    "strong": 1
   },
   {
     "test": "damage",
@@ -608,45 +491,6 @@
     "test": "damage",
     "profile": [
       4,
-      4,
-      6
-    ],
-    "resistance": 4,
-    "mean_at_attribute_1": 1.162037037037037,
-    "weak": 1,
-    "standard": 1,
-    "strong": 2
-  },
-  {
-    "test": "damage",
-    "profile": [
-      4,
-      4,
-      6
-    ],
-    "resistance": 5,
-    "mean_at_attribute_1": 0.9999999999999999,
-    "weak": 1,
-    "standard": 1,
-    "strong": 1
-  },
-  {
-    "test": "damage",
-    "profile": [
-      4,
-      4,
-      6
-    ],
-    "resistance": 6,
-    "mean_at_attribute_1": 0.9999999999999999,
-    "weak": 1,
-    "standard": 1,
-    "strong": 1
-  },
-  {
-    "test": "damage",
-    "profile": [
-      4,
       5,
       7
     ],
@@ -694,45 +538,6 @@
     "weak": 1,
     "standard": 2,
     "strong": 4
-  },
-  {
-    "test": "damage",
-    "profile": [
-      4,
-      5,
-      7
-    ],
-    "resistance": 4,
-    "mean_at_attribute_1": 1.324074074074074,
-    "weak": 1,
-    "standard": 1,
-    "strong": 3
-  },
-  {
-    "test": "damage",
-    "profile": [
-      4,
-      5,
-      7
-    ],
-    "resistance": 5,
-    "mean_at_attribute_1": 1.162037037037037,
-    "weak": 1,
-    "standard": 1,
-    "strong": 2
-  },
-  {
-    "test": "damage",
-    "profile": [
-      4,
-      5,
-      7
-    ],
-    "resistance": 6,
-    "mean_at_attribute_1": 0.9999999999999999,
-    "weak": 1,
-    "standard": 1,
-    "strong": 1
   },
   {
     "test": "damage",
@@ -785,45 +590,6 @@
     "weak": 2,
     "standard": 3,
     "strong": 5
-  },
-  {
-    "test": "damage",
-    "profile": [
-      5,
-      6,
-      8
-    ],
-    "resistance": 4,
-    "mean_at_attribute_1": 2.1620370370370368,
-    "weak": 1,
-    "standard": 2,
-    "strong": 4
-  },
-  {
-    "test": "damage",
-    "profile": [
-      5,
-      6,
-      8
-    ],
-    "resistance": 5,
-    "mean_at_attribute_1": 1.324074074074074,
-    "weak": 1,
-    "standard": 1,
-    "strong": 3
-  },
-  {
-    "test": "damage",
-    "profile": [
-      5,
-      6,
-      8
-    ],
-    "resistance": 6,
-    "mean_at_attribute_1": 1.162037037037037,
-    "weak": 1,
-    "standard": 1,
-    "strong": 2
   },
   {
     "test": "damage",
@@ -880,45 +646,6 @@
   {
     "test": "damage",
     "profile": [
-      5,
-      7,
-      9
-    ],
-    "resistance": 4,
-    "mean_at_attribute_1": 3.0,
-    "weak": 1,
-    "standard": 3,
-    "strong": 5
-  },
-  {
-    "test": "damage",
-    "profile": [
-      5,
-      7,
-      9
-    ],
-    "resistance": 5,
-    "mean_at_attribute_1": 2.1620370370370368,
-    "weak": 1,
-    "standard": 2,
-    "strong": 4
-  },
-  {
-    "test": "damage",
-    "profile": [
-      5,
-      7,
-      9
-    ],
-    "resistance": 6,
-    "mean_at_attribute_1": 1.324074074074074,
-    "weak": 1,
-    "standard": 1,
-    "strong": 3
-  },
-  {
-    "test": "damage",
-    "profile": [
       6,
       8,
       11
@@ -967,45 +694,6 @@
     "weak": 3,
     "standard": 5,
     "strong": 8
-  },
-  {
-    "test": "damage",
-    "profile": [
-      6,
-      8,
-      11
-    ],
-    "resistance": 4,
-    "mean_at_attribute_1": 4.162037037037036,
-    "weak": 2,
-    "standard": 4,
-    "strong": 7
-  },
-  {
-    "test": "damage",
-    "profile": [
-      6,
-      8,
-      11
-    ],
-    "resistance": 5,
-    "mean_at_attribute_1": 3.1620370370370368,
-    "weak": 1,
-    "standard": 3,
-    "strong": 6
-  },
-  {
-    "test": "damage",
-    "profile": [
-      6,
-      8,
-      11
-    ],
-    "resistance": 6,
-    "mean_at_attribute_1": 2.324074074074074,
-    "weak": 1,
-    "standard": 2,
-    "strong": 5
   },
   {
     "test": "aoe_worst_target",
@@ -1180,18 +868,87 @@
   },
   {
     "test": "healing",
-    "maximum_hp": 14,
-    "expected_nominal_healing": 12.865740740740739
+    "tier": 1,
+    "resistance": 0,
+    "hp_cost": 1,
+    "expected_nominal_healing": 6.0
   },
   {
     "test": "healing",
-    "maximum_hp": 18,
-    "expected_nominal_healing": 16.541666666666664
+    "tier": 1,
+    "resistance": 1,
+    "hp_cost": 1,
+    "expected_nominal_healing": 4.999999999999999
   },
   {
     "test": "healing",
-    "maximum_hp": 25,
-    "expected_nominal_healing": 23.05555555555555
+    "tier": 1,
+    "resistance": 2,
+    "hp_cost": 1,
+    "expected_nominal_healing": 3.9999999999999996
+  },
+  {
+    "test": "healing",
+    "tier": 1,
+    "resistance": 3,
+    "hp_cost": 1,
+    "expected_nominal_healing": 3.1620370370370368
+  },
+  {
+    "test": "healing",
+    "tier": 3,
+    "resistance": 0,
+    "hp_cost": 3,
+    "expected_nominal_healing": 9.999999999999998
+  },
+  {
+    "test": "healing",
+    "tier": 3,
+    "resistance": 1,
+    "hp_cost": 3,
+    "expected_nominal_healing": 8.999999999999998
+  },
+  {
+    "test": "healing",
+    "tier": 3,
+    "resistance": 2,
+    "hp_cost": 3,
+    "expected_nominal_healing": 7.999999999999999
+  },
+  {
+    "test": "healing",
+    "tier": 3,
+    "resistance": 3,
+    "hp_cost": 3,
+    "expected_nominal_healing": 6.999999999999999
+  },
+  {
+    "test": "healing",
+    "tier": 7,
+    "resistance": 0,
+    "hp_cost": 7,
+    "expected_nominal_healing": 15.999999999999998
+  },
+  {
+    "test": "healing",
+    "tier": 7,
+    "resistance": 1,
+    "hp_cost": 7,
+    "expected_nominal_healing": 14.999999999999998
+  },
+  {
+    "test": "healing",
+    "tier": 7,
+    "resistance": 2,
+    "hp_cost": 7,
+    "expected_nominal_healing": 13.999999999999998
+  },
+  {
+    "test": "healing",
+    "tier": 7,
+    "resistance": 3,
+    "hp_cost": 7,
+    "expected_nominal_healing": 13.0
   },
   {
     "test": "isolated_death",

@@ -36,10 +36,10 @@ real protection. AoE is still disabled on the first run.
 
 1. Allow casting to provoke damage-only Basic Melee; let casters Disengage and move.
 2. Compare Strong interruption using the same map. Do not add Counterspell yet.
-3. Add an enemy Ember Beast; players may spend Main Actions extinguishing.
+3. Add an enemy Ember Beast; players may spend Main Actions reducing Burning by 1; ticks then decay.
 4. Add one grappler and let an affected character actually move after escaping.
 5. Add a second grappler; allow ally Force assistance.
-6. Add one summon card; track every occupied square including uncommanded bodies.
+6. Add one summon card; track every occupied square including uncommanded bodies; enforce the 6-square controller tether.
 7. Add Expose Enemies, with eligible adjacent allies and no free-attack chains.
 8. Use a level-3 continuation with Flame Fan; its rectangle and compulsory inclusion
    are written on the card. Do not grant an Adept card to a level-1 character.

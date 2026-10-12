@@ -4,6 +4,7 @@ import itertools,json,math
 from collections import Counter
 from catalog import ROOT
 from combat import probabilities,mean_damage,hurt_amount
+from mechanics import HEALING,healing_amount
 OUT=ROOT/'results'
 def tier_distribution(attr,net):
  p=[0.,0.,0.]
@@ -19,7 +20,7 @@ def main():
    p=tier_distribution(a,net)
    rows.append(dict(test='outcomes',attribute=a,net=net,weak=p[0],standard=p[1],strong=p[2]))
  for profile in ([1,2,4],[2,3,5],[2,4,6],[4,4,6],[4,5,7],[5,6,8],[5,7,9],[6,8,11]):
-  for r in range(7):
+  for r in range(4):
    rows.append(dict(test='damage',profile=profile,resistance=r,mean_at_attribute_1=mean_damage(profile,1,res=r),weak=max(1,profile[0]-r),standard=max(1,profile[1]-r),strong=max(1,profile[2]-r)))
  check('minimum is per mixed damage event',hurt_amount({'physical':1,'fire':1},{'physical':2,'fire':2})==1)
  check('different unresisted components add',hurt_amount({'physical':3,'fire':2},{'physical':2})==3)
@@ -66,9 +67,10 @@ def main():
  for i,d in enumerate(ladder):rows.append(dict(test='inventory',die=d,expected_total_uses=sum(ladder[:i+1])))
  check('d8 bottle expectation18',sum(ladder[:3])==18)
  for dice in range(3,6):rows.append(dict(test='wound666',dice=dice,probability=sum(math.comb(dice,k)*(1/6)**k*(5/6)**(dice-k) for k in range(3,dice+1))))
- # HP full heals are scalable by recipient, not by card rank.
- for hp in (14,18,25):
-  p=tier_distribution(1,0);rows.append(dict(test='healing',maximum_hp=hp,expected_nominal_healing=p[0]*math.ceil(hp/2)+(p[1]+p[2])*hp))
+ # Fixed healing independent of recipient maximum; effective healing caps at missing HP.
+ for level,(profile,cost) in HEALING.items():
+  for res in range(4):
+   p=tier_distribution(1,0);rows.append(dict(test='healing',tier=level,resistance=res,hp_cost=cost,expected_nominal_healing=sum(p[t]*healing_amount(profile[t],res) for t in range(3))))
  # Exact absorbing death process with Standard as a self-loop.
  for attr in range(-2,3):
   for bane in range(4):

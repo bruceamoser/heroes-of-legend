@@ -1,6 +1,6 @@
 # Tactical interaction review
 
-These are scripted rule walkthroughs and exact calculations, not Monte Carlo
+Updated for v0.2. These are scripted rule walkthroughs and exact calculations, not Monte Carlo
 encounter results. They isolate the additional features requested for later tests.
 
 ## 1. Casting under melee pressure
@@ -17,8 +17,7 @@ simulation is a stress case rather than a complete judgment on interruption.
 Constrained corridors, sufficient movement, reachable patient, and occupied squares
 must be tested on a board before choosing the default.
 
-**Finding:** movement and access may supply the desired counterplay without an
-additional spell resource. Blanket interruption has a higher risk of shutting down
+**Finding:** movement and access supplement the agreed healing HP cost. Blanket interruption has a higher risk of shutting down
 casters than opportunity damage alone. No Counterspell card is included yet.
 
 ## 2. Worst-case player AoE
@@ -43,6 +42,8 @@ retains two categories. Releasing one contributor immediately reduces target to 
 Two independent neutral Brawn-0 grapple rolls restrain with probability about 93.3%
 if the target has no intervening escape opportunity. Alternating turns can provide
 that opportunity; the probability is not a complete combat capture rate.
+
+Attacks against each creature gain Boons equal to its own Grappled rating.
 
 **Finding:** loss of the grapplers' action categories is not symmetrical with the
 stacked target's loss. Cheap bodies remain a concern. No automatic escape at rating
@@ -78,7 +79,7 @@ and grants its immediate Main command; existing bodies remain for their duration
 
 **Finding:** diminishing commanded actions does not imply diminishing board value.
 Repeated summoning adds cover or blockage even without extra attacks. Summoning before
-combat can preload bodies. The prototype's duration, placement, fragility, and allowed
+combat can preload bodies within the 6-square controller tether. The prototype's duration, placement, fragility, and allowed
 board occupancy need testing. Do not silently impose a summon-count cap; unlimited
 summons are an agreed design choice.
 
@@ -99,10 +100,9 @@ examples are claimed checked. The working rule retains that gap explicitly.
 ## 8. Burning versus direct damage
 
 Burning Hands deals 3/3/5 fire and applies Burning 0/1/2. Against fire resistance 2,
-immediate damage is 1/1/3 and the first tick for either rating is 1. A repeated
-Standard raises Burning 1 to 2 but still deals 1 per tick; another raises it to 3,
-still 1; rating 4 finally deals 2. Against no fire resistance, the first ratings
-already deal 1 and 2. Damage riders therefore cannot use one universal exchange rate.
+immediate damage is 1/1/3 and the first tick for either rating is 1. After that tick the rating decreases by 1. Repeated applications stack with the
+remaining rating, not the original rating. An appropriate Main Action reduces it
+by 1 before the tick; it no longer automatically clears the whole condition.
 
 **Finding:** conditions alter timing and actions, not only expected damage. A Main
 spent extinguishing competes with an attack or heal. Our Burning pressure test does
@@ -113,7 +113,7 @@ not make the party extinguish midfight, so it is an upper-bound for that policy.
 A character drinks their own potion with Maneuver and may still attack with Main.
 Giving it to an upright ally costs that ally's Reaction; an ally who already used
 Shield Block cannot receive it until their Reaction refreshes. At 0 HP no recipient
-Reaction is needed. Inventory decline is checked after the full heal, never before.
+Reaction is needed. Inventory decline is checked after the fixed heal, never before.
 
 **Finding:** potion access is more than a small healer substitute: it preserves Main
 Actions. Supplies must be explicit in encounter preparation and campaign economics.
@@ -121,7 +121,7 @@ No infinite bottle refill or unpriced routine restock is assumed.
 
 ## 10. Repeated healing on both sides
 
-NPC healers restore the same fraction of target maximum HP as player healers. Living
+NPC healers use the same fixed healing outcomes and 1/3/7 HP casting costs as players. Living
 NPCs can be healed; those at 0 are dead. Focused damage can remove a creature before
 its ally heals it, while players have Dying/Grit opportunities.
 
