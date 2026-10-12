@@ -1,0 +1,11 @@
+name,class_name,attributes,disciplines,learned_cards,universal_cards,duplicate_dp0,duplicate_dp1,expired_dp0,expired_dp1,capacity,bulk,encumbrance,speed
+Protector with broad utility,Protector,2/2/0/-1/0/0,4,13,11,0,0,0,0,16,8,0,6
+Fragile Arcanist,Arcanist,-2/-1/2/1/2/1,4,13,11,0,0,0,0,4,5,1,7
+Shepherd healer,Shepherd,0/1/1/-1/0/2,5,12,11,0,0,0,0,10,6,0,7
+Shadow specialist,Shadow,0/0/2/2/-1/0,4,13,11,0,0,0,0,10,8,0,8
+Odd generalist,Odd,1/0/1/0/1/0,5,12,11,0,0,0,0,13,6,0,7
+Protector buys opposed healing,Protector,2/1/0/-1/0/1,5,11,11,0,0,0,0,16,7,0,6
+Protector gets healing from background,Protector,2/1/0/-1/0/1,4,13,11,0,0,0,0,16,7,0,6
+Summoner with utility,Arcanist,-1/0/1/0/2/1,4,13,11,0,0,0,0,7,5,0,7
+Duplicate package stress test,Intellect,0/0/0/1/2/0,3,13,11,2,1,0,0,10,7,0,6
+Low Brawn ranger,Blade,-2/0/2/1/1/1,4,13,11,0,0,0,0,4,8,4,4

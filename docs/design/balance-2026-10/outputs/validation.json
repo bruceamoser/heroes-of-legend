@@ -1,0 +1,9 @@
+{
+  "checks_passed": 685,
+  "scenarios": 298,
+  "trials_per_scenario": 2000,
+  "single_encounter_trials": 596000,
+  "campaigns": 16000,
+  "seed": "SHA256 scenario name, first 8 bytes, big endian",
+  "python_standard_library_only": true
+}
