@@ -1,0 +1,41 @@
+{
+ "argument": "The kit is described as a fourth character-development pillar, but it contributes nothing to development in the shipped rules and the 10-of-188 weapon figure is not a settled design ceiling - it is the visible edge of an unfinished retrofit. Instrumented: chapter 18, the advancement chapter, contains zero occurrences of 'kit' (grep -ci 'kit' 18-advancement.qmd = 0), the kit-extension rule the design reference specifies at L3 and L7 appears nowhere in the book, and a kit's only stated growth is being re-specified for free at every town - within-tier re-optimisation, not progression. The kit therefore contributes 0 of the 32 DP and 0 rungs of the L1-L10 ladder, which is exactly the goal ('a rich character development process') it is claimed to serve. On the weapon channel, the design reference labels the card retrofit 'IN FLIGHT, SELECTIVE', and my book-wide law-4 self-test finds 37 blocks that carry a Disciplines field, name an armament in their own text, and carry no Kit field - 26 of them Weapon Maneuvers and Talents in ch09 alone. That set includes Shield Press (1 Armor; a shield grapple with no shield gate) while the book's single shield gate sits on Shield Slam, and Long Spear Rebuke (reach control, no gate). Counter-example to the diagnosis itself: the measurement is not measuring a doctrine that was chosen; it is measuring a job that was left half done. Both directions of the suspicion are therefore half-right - the doctrine does starve the weapon, and the doctrine is not yet fully implemented, so any conclusion that 'weapons are flavour' is the system's settled answer over-reads an in-flight state.",
+ "confidence": 0.8,
+ "evidence": [
+  {
+   "claim": "The advancement chapter never mentions the kit. Instrumented absence across the whole file.",
+   "quote_or_excerpt": "$ grep -ci 'kit' 18-advancement.qmd  ->  0   |   $ grep -n -i 'kit' 18-advancement.qmd  ->  (no output)",
+   "source": "quarto-book/chapters/18-advancement.qmd"
+  },
+  {
+   "claim": "The kit is claimed as a fourth development pillar with a specific development rung (extend one line at L3 and L7) that does not exist anywhere in the shipped book.",
+   "quote_or_excerpt": "the kit is a fourth character-development pillar ... At L3 and L7 extend ONE line (deeper, not wider).",
+   "source": "/home/bmoser/.hermes/councils/hol-rulebook/runs/20260915-1921/sources/design-kit-system"
+  },
+  {
+   "claim": "The card retrofit is acknowledged by its own design as selective and in flight - so the 10-gate count is a snapshot, not a designed limit.",
+   "quote_or_excerpt": "Card retrofit - IN FLIGHT, SELECTIVE. Maneuvers, talents and ranked spells gain a Kit: field only where the card's own text names or requires the kit (law 4's selectivity correction); Shield Slam becomes shield-gated.",
+   "source": "/home/bmoser/.hermes/councils/hol-rulebook/runs/20260915-1921/sources/design-kit-system"
+  },
+  {
+   "claim": "The designers' own law 4 ('a card whose text names an armament takes that weapon tag') is unmet 37 times - including 25 in ch09 alone - so the retrofit is demonstrably incomplete rather than deliberately minimal.",
+   "quote_or_excerpt": "cards w/ a *Disciplines:* field, NO *Kit:* field, armament named in own text: 37  {02-character-creation.qmd: 4, 09-talents-abilities.qmd: 25, 11-arcane-spells.qmd: 2, 17-magic-items.qmd: 6}  - ch09 names include Riposte, Power Strike, Pinpoint Strike, Disarm, Trip, Charge, Dual Strike, Breakthrough, Heel Hook, Shield Press, Hamstring Cut, Open the Guard, Long Spear Rebuke, Battering Hurl, Chokehold, Groundbreaker, Taken Alive",
+   "source": "quarto-book/chapters/*.qmd (book-wide law-4 self-test, cwd chapters/)"
+  },
+  {
+   "claim": "Concrete asymmetry: Shield Press is a shield grapple with no shield gate, while the only shield gate in the book is on Shield Slam - evidence of a partial retrofit, not a doctrine.",
+   "quote_or_excerpt": "=== Shield Press (Weapon Maneuver)\n*Disciplines:* 1 Armor * Action: Action * Range: Melee * Keywords: Grapple, Control\n*Weak:* The target is Grappled until it Escapes.  ||  === Shield Slam (Weapon Maneuver)\n*Disciplines:* 2 Armor * *Kit:* shield * Action: Maneuver * Range: Melee * Keywords: Prone, Push",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:379-384 and 262-263"
+  },
+  {
+   "claim": "The kit's only growth mechanism is a free, unconditional re-specification at towns - a within-tier optimisation, not a development rung, which is why the kit adds nothing to the 32-DP ladder.",
+   "quote_or_excerpt": "You may re-outfit at a town, and never in the field. Between towns you carry exactly what you brought and you deal with it. At a town, the whole kit is re-specified: armor, weapon, focus, and packs together, from what you carry plus whatever the local market offers.",
+   "source": "quarto-book/chapters/15-equipment.qmd:129-133"
+  }
+ ],
+ "id": "f-003",
+ "role": "contrarian",
+ "round": 1,
+ "stance": "refute",
+ "topic": "t-01"
+}

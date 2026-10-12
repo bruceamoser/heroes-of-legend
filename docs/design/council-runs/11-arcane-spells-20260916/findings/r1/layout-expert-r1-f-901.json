@@ -1,0 +1,32 @@
+{
+  "id": "f-901",
+  "round": 1,
+  "role": "layout-expert",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Chapter 11's only in-body illustration is dropped inside a school's card run instead of at the boundary every sibling block uses. The plate sits at 11-arcane-spells:271-276, after the fourth of the Wind section's five cards and before the fifth (11:278), and the break that closes it is one of only three breaks in the file. Ten comparable plates elsewhere in the book, spread over nine chapters, each sit directly in front of a level-2 heading (02:168, 04:106, 05:142, 05:373, 07:122, 13:449, 15:168, 17:35, 19:383, 20:240), which is the house pattern for a mid-chapter plate; this file is the sole exception. Convention 11 licenses the placeholder line and the figure label, not the position, and the repair costs nothing: move the plate to follow 11:285 and a section heading follows its break, as in every sibling. The conformance question is decidable from source structure alone; how the bad position falls across printed pages is a render question I cannot settle here.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "The plate interrupts one school's cards: the fourth Wind card's last outcome line is 269, the image and its caption occupy 271-275, and the fifth card's heading follows at 278.",
+      "quote_or_excerpt": "=== Wind Wall (Adept Arcane Spell)"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "A break closes the plate at 276, and the file holds only three breaks in total (11, 23, 276), so the fifth Wind card opens a fresh page while its four siblings share the preceding pages.",
+      "quote_or_excerpt": "#pagebreak()"
+    },
+    {
+      "source": "15-equipment.qmd",
+      "claim": "The house pattern for these plates is a level-2 heading straight after the break: the same construction closes at 02:168, 04:106, 05:142, 05:373, 07:122, 13:449, 15:168, 17:35, 19:383 and 20:240, ten plates in nine chapters, each followed by a section heading.",
+      "quote_or_excerpt": "== Adventuring Gear"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Structural counts taken from the registered file: 9 section headings, 68 card headings, 3 page breaks; the Wind section spans 233-286 and its card headings sit at 235, 244, 253, 262 and 278, so the plate splits that set four against one.",
+      "quote_or_excerpt": "card headings 235, 244, 253, 262, 278; plate 271-276"
+    }
+  ],
+  "confidence": 0.8,
+  "rebutting": []
+}

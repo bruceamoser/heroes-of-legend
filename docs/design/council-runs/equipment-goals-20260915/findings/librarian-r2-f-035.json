@@ -1,0 +1,186 @@
+{
+ "argument": "WHAT DRIVES DAMAGE, PROVEN AGAINST THE CORRECTED BANDS, AND WHAT THE TYPE COLUMN IS ALLOWED TO DO. Dimension 2 answered with the arithmetic shown, and typed weapon damage specified only as far as that arithmetic permits.\n\nTHE FIVE TERMS. Damage is: the card's row, chosen by the outcome tier of a single attack roll (06:89, restated at 08:224, the hit roll is the damage roll); plus the attribute the card names, Brawn on melee cards and Agility on Finesse weapons (15:200), capped at plus or minus 2 (03:38), with missile and thrown attacks flat and no attribute added at all (15:200); plus or minus tier steps, which are the book's existing weapon-side magnitude idiom (09:328, 09:346); minus DR, flat and per point, with a one point minimum (06:91), under a rank ceiling of 3/4/6 (16:25); then doubled or halved round down for a creature's vulnerability or resistance (13:154). The weapon occupies exactly two of those five terms and in neither of them is it a number: permission, which cards are legal, and type, which multiplier applies. Dimension 1 and dimension 2 are the same fact seen from two sides.\n\nTHE ARITHMETIC, CORRECTED. The live bands are Novice 4/6/8, then Adept 5/8/11, and Master 7/10/14 (08:214-216), so the Novice to Adept tier gaps are 1, 2 and 3. Any flat additive F that a weapon could carry must satisfy 4+F <= 5 at the binding tier, and that caps the ladder's entire spare capacity at one point: at F=1 a Novice weapon's Weak hit ties an Adept weapon's Weak hit, 5 against 5, and at F=2 the ladder inverts (Novice 6/8/10 against Adept 5/8/11, where Weak 6 beats Weak 5), while the same F applied to an Adept row reproduces the Master row a rank early (7/10/13 against 7/10/14, tying at Weak and Standard). That spare point is already spent. The spine's own scaled rows (1/2/3 for Novice, 2/5/8 and 4/7/11 beyond it, per 08:234) plus the maximum attribute leave residuals of 1, 2 and 3 at Novice and of exactly 1/1/1 at both Adept and Master against the live bands. So the attribute holds the ladder's single point of slack, and a weapon damage bonus would be bidding for the attribute's slack rather than for free room. That is the proof dimension 2 asks for, and its conclusion is unflattering to every weapon-magnitude answer: there is no arithmetic space to demonstrate that weapons matter with a number, because the only legal number is one point and the attribute already spends it.\n\nWHY MEMBERSHIP AND MULTIPLICATION DO NOT TOUCH THAT PROOF. The tag vocabulary specified in f-023 is membership and containment: it adds no term, so it cannot move the ladder. A type multiplier is safe on the same terms within the live bands: doubling keeps three distinct tiers trivially (8/12/16, 10/16/22, 14/20/28), and halving round down keeps them distinct on all three (4/6/8 to 2/3/4, 5/8/11 to 2/4/5, 7/10/14 to 3/5/7), which is exactly the invariant 16:25 states when it requires a damage band's three tiers to remain distinct at every level.\n\nTWO PROOF OBLIGATIONS THE ARCHITECTURE MUST PIN. First, the order of operations between the multiplier and DR is undefined in print and the difference is not cosmetic: 14 damage against DR 6 resistant yields 1 if you halve before subtracting and 4 if you subtract before halving, and 4 damage against DR 3 resistant yields 1 by the one point minimum if you halve first and 0 if you subtract first, which 06:91 forbids. The rule to print is: halve or double, then subtract DR, then apply the one point floor. Second, and sharper, the multiplier breaks the distinctness invariant on the no-attribute Basic rows: Basic Archery and Basic Thrown print 1/2/3 flat (09:185, 09:189), and halving those against a resistant target gives 0/1/1, which floors to 1/1/1 and collapses Standard into Strong. The live budget bands survive halving, and Basic Unarmed is already collapsed in print at 1/1/2 + Brawn (09:203, 09:207), but a stated invariant is still being broken in a new place by the new column. Coalition A's honest options are to scope 16:25's invariant to the budget bands by name, or to print a minimum spread for Basic attacks against resistant targets. What A must not do is ship typed weapons and leave that interaction unstated.\n\nTHE TYPE COLUMN, SPECIFIED. Give all 17 weapon rows a Type cell drawn from the printed vocabulary at 13:148, Slashing, Piercing and Bludgeoning: Unarmed Bludgeoning; Dagger Piercing; Shortsword Piercing; Longsword Slashing; Greatsword Slashing; Handaxe Slashing; Battleaxe Slashing; Greataxe Slashing; Mace Bludgeoning; Warhammer Bludgeoning; Maul Bludgeoning; Spear Piercing; Halberd Slashing; Throwing Dagger Piercing; Shortbow Piercing; Longbow Piercing; Crossbow Piercing. This is a completeness pass over the weapon table, not new machinery: the bestiary already types weapons rather than only attacks (14 typed damage lines, five of them for weapons absent from the hero table), the receiving rule already exists at 13:154, and four of those seventeen rows have printed precedent that the assignment matches (Longsword and Greataxe slashing, Shortbow and Longbow piercing). The consumer side is thin and should be said out loud: only 4 Vulnerable lines exist book-wide (area effects, bludgeoning, water, fire), 55 of the 69 bestiary damage lines carry no type at all, and the same weapon prints typed in one stat block and untyped in another (Shortbow at 20:158 and at 20:253). Typing a hero weapon is a promise that will be cashed rarely, and when it is cashed the adjudication is the DA's (13:154). That is the price of giving weapons identity without giving them numbers.\n\nCOALITION A'S STRONGEST COUNTER-ARGUMENT, STATED WITHOUT SOFTENING. A's answer to the principal's complaint is that a weapon's identity lives in permission, and the measured state of that permission surface is thin: 12 Kit fields across the 72 cards of the talents chapter, of which 10 are weapon-family, and 34 of the 40 Weapon Maneuver cards carry no Kit field at all. My spec adds seven tags and three card re-keys, so six of the seven properties arrive with a tag, a containment clause and, in four cases, no card that demands them. A player who opens the weapon table and asks what a battleaxe does that a longsword does not will still find no printed card that answers. If Coalition A claims the fourth pillar rather than the doctrine, it owes a funded re-key pass over the 34 ungated weapon maneuvers, gating each on the property its fiction actually requires. That is the real cost, and it is authoring, not arithmetic. The second-order cost is structural: typed damage is a conditional magnitude, so against a vulnerable target a weapon does change a number, which is the one thing 15:163 and 15:23 forbid in the flat case. My containment is that the multiplier is a creature state already in print which re-scales every card for that target equally, so it changes an encounter and not a build. I hold that containment, but it is a containment and not a refutation, and Coalition A should say so out loud.",
+ "confidence": 0.74,
+ "evidence": [
+  {
+   "claim": "Corrected Novice band, the row the ladder test keys off.",
+   "quote_or_excerpt": "[*Novice*], [4/6/8],",
+   "source": "quarto-book/chapters/08-disciplines.qmd:214"
+  },
+  {
+   "claim": "Corrected Adept band; the Novice to Adept tier gaps are 1, 2 and 3.",
+   "quote_or_excerpt": "[*Adept*], [5/8/11],",
+   "source": "quarto-book/chapters/08-disciplines.qmd:215"
+  },
+  {
+   "claim": "Corrected Master band, which an Adept row with F=2 reaches a rank early.",
+   "quote_or_excerpt": "[*Master*], [7/10/14],",
+   "source": "quarto-book/chapters/08-disciplines.qmd:216"
+  },
+  {
+   "claim": "The spine offsets attribute-scaled rows by minus 3, which is exactly the budget for the attribute cap and leaves a residual of 1 at the binding tier.",
+   "quote_or_excerpt": "Adept and Master cards use the budget row minus 3 (2/5/8 and 4/7/11)",
+   "source": "quarto-book/chapters/08-disciplines.qmd:234"
+  },
+  {
+   "claim": "The attribute cap of plus or minus 2 is what makes the minus 3 offset safe and leaves a single spare point.",
+   "quote_or_excerpt": "Attributes range from -2 to +2.",
+   "source": "quarto-book/chapters/03-attributes.qmd:38"
+  },
+  {
+   "claim": "The outcome tier of the attack roll is the damage tier, so no term of damage is random beyond the roll and the ladder has one point of spare capacity rather than a dice distribution.",
+   "quote_or_excerpt": "There is no separate damage roll: the outcome tier of your attack roll is your damage tier.",
+   "source": "quarto-book/chapters/06-core-resolution.qmd:89"
+  },
+  {
+   "claim": "Restated in the disciplines chapter: the hit roll is the damage roll.",
+   "quote_or_excerpt": "There is no damage roll.",
+   "source": "quarto-book/chapters/08-disciplines.qmd:224"
+  },
+  {
+   "claim": "DR subtracts flat with a one point minimum, the rule whose interaction with the type multiplier is currently undefined and which forbids a zero result.",
+   "quote_or_excerpt": "DR (Damage Reduction) subtracts from incoming damage: each point of DR negates 1 (minimum 1 damage from any hit).",
+   "source": "quarto-book/chapters/06-core-resolution.qmd:91"
+  },
+  {
+   "claim": "The DR ceiling is 3/4/6, so a Weapon-type ceiling cannot climb into the ladder the way a flat additive can.",
+   "quote_or_excerpt": "Your total DR cannot exceed 3 at Novice, 4 at Adept, or 6 at Master.",
+   "source": "quarto-book/chapters/16-armor-shields.qmd:25"
+  },
+  {
+   "claim": "The book states the distinctness invariant that the type multiplier must satisfy, and that the halved 1/2/3 Basic rows violate.",
+   "quote_or_excerpt": "the three tiers of a damage band have to stay distinct at every level",
+   "source": "quarto-book/chapters/16-armor-shields.qmd:25"
+  },
+  {
+   "claim": "The printed physical damage type vocabulary the Type column must draw from.",
+   "quote_or_excerpt": "*Physical:* Slashing, Piercing, Bludgeoning.",
+   "source": "quarto-book/chapters/13-combat.qmd:148"
+  },
+  {
+   "claim": "Resistances and vulnerabilities halve or double typed damage round down; this is a multiply-only channel that cannot add a term to the ladder.",
+   "quote_or_excerpt": "A creature vulnerable to Slashing takes double from your longsword.",
+   "source": "quarto-book/chapters/13-combat.qmd:154"
+  },
+  {
+   "claim": "The same line makes type adjudication the DA's call, which is the honest limit on what typing a weapon promises.",
+   "quote_or_excerpt": ". The DA will tell you when it matters.",
+   "source": "quarto-book/chapters/13-combat.qmd:154"
+  },
+  {
+   "claim": "The book's own justification for caring about physical types is a creature that resists piercing and burns to bludgeoning, the exact case the Type column serves.",
+   "quote_or_excerpt": "Skeletons laugh at piercing arrows but crumble under bludgeoning maces.",
+   "source": "quarto-book/chapters/13-combat.qmd:148"
+  },
+  {
+   "claim": "The receiving side already consumes typed damage: a creature can be vulnerable to a physical type for double damage.",
+   "quote_or_excerpt": "*Vulnerable: Bludgeoning (takes double bludgeoning damage).*",
+   "source": "quarto-book/chapters/20-bestiary.qmd:255"
+  },
+  {
+   "claim": "The bestiary types the weapon itself rather than only the attack, which is the precedent for a hero weapon Type column; this Shortbow is piercing.",
+   "quote_or_excerpt": "*Shortbow:* 4/6/8 piercing (range 80/320).",
+   "source": "quarto-book/chapters/20-bestiary.qmd:158"
+  },
+  {
+   "claim": "The same weapon prints untyped in a second stat block, so the type pass is uneven and the work is a completeness pass rather than new machinery.",
+   "quote_or_excerpt": "*Shortbow:* 4/6/8.",
+   "source": "quarto-book/chapters/20-bestiary.qmd:253"
+  },
+  {
+   "claim": "Printed precedent for the assignment: Longsword is slashing, which my Type column agrees with.",
+   "quote_or_excerpt": "*Longsword:* 4/6/8 slashing.",
+   "source": "quarto-book/chapters/20-bestiary.qmd:170"
+  },
+  {
+   "claim": "Printed precedent for the assignment: Longbow is piercing, which my Type column agrees with.",
+   "quote_or_excerpt": "*Longbow:* 4/6/8 piercing (range 150/600).",
+   "source": "quarto-book/chapters/20-bestiary.qmd:172"
+  },
+  {
+   "claim": "Printed precedent for the assignment: Greataxe is slashing, which my Type column agrees with.",
+   "quote_or_excerpt": "*Greataxe:* 4/6/8 slashing.",
+   "source": "quarto-book/chapters/20-bestiary.qmd:212"
+  },
+  {
+   "claim": "Basic Archery prints a flat 1 at Weak because no attribute is added to missile attacks, which is the row the multiplier collapses.",
+   "quote_or_excerpt": "*Weak:* 1 damage.",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:185"
+  },
+  {
+   "claim": "Basic Archery prints 1/2/3 flat, so halving it against a resistant target yields 0/1/1 and collapses Standard into Strong.",
+   "quote_or_excerpt": "*Strong:* 3 damage.",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:189"
+  },
+  {
+   "claim": "Basic Unarmed prints 1/1/2 + Brawn, so Weak already ties Standard in print and the floor row is degenerate before any multiplier applies.",
+   "quote_or_excerpt": "*Weak:* 1 + Brawn damage.",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:203"
+  },
+  {
+   "claim": "The Strong line of Basic Unarmed confirms the printed floor row is 1/1/2, which is why the collapse under halving is confined to rows the book already ships collapsed.",
+   "quote_or_excerpt": "*Strong:* 2 + Brawn damage.",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:207"
+  },
+  {
+   "claim": "The weapon-side magnitude idiom already in print is the tier step, which moves within the ladder rather than adding to it.",
+   "quote_or_excerpt": "*Weak:* +1 damage tier on your next weapon attack.",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:328"
+  },
+  {
+   "claim": "A second printed tier step on a thrown weapon card, confirming the idiom spans weapon maneuvers.",
+   "quote_or_excerpt": "*Weak:* Throw a weapon up to 30 ft at +1 damage tier.",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:346"
+  },
+  {
+   "claim": "Printed doctrine: the weapon never changes these numbers, and missile and thrown attacks add no attribute, which is the flat-row case the multiplier touches.",
+   "quote_or_excerpt": "The weapon never changes these numbers.",
+   "source": "quarto-book/chapters/15-equipment.qmd:200"
+  },
+  {
+   "claim": "The same line states that missile and thrown attacks are flat with no attribute, which is why the 1/2/3 rows have no attribute headroom for a multiplier to consume.",
+   "quote_or_excerpt": "Missile and thrown attacks are flat, no attribute added.",
+   "source": "quarto-book/chapters/15-equipment.qmd:200"
+  },
+  {
+   "claim": "The doctrine sentence that typed damage is in tension with, and the reason the counter-argument is stated in this finding.",
+   "quote_or_excerpt": "What a weapon does not do is decide how hard you hit.",
+   "source": "quarto-book/chapters/15-equipment.qmd:163"
+  },
+  {
+   "claim": "Worked computation: a flat additive of 1 is legal but ties the Novice Weak tier to the Adept Weak tier, and 2 inverts the ladder and reproduces the Master row one rank early, so the ladder's spare capacity is exactly one point.",
+   "quote_or_excerpt": "F=0: Novice+F=(4, 6, 8) vs Adept=(5, 8, 11) -> LEGAL | F=1: (5, 7, 9) -> LEGAL (tie at Weak) | F=2: (6, 8, 10) -> INVERSION per-tier ['>', '<=', '<='] | tier gaps Novice->Adept: [1, 2, 3] | Novice F=2 vs Master: (6, 8, 10) vs (7, 10, 14) | Adept F=2 = (7, 10, 13) vs Master (7, 10, 14) -> LEGAL (tie at Weak and Standard)",
+   "source": "terminal: python3 ladder test over the printed rows (Novice 4/6/8, Adept 5/8/11, Master 7/10/14)"
+  },
+  {
+   "claim": "Worked computation: the scaled rows plus the maximum attribute leave 1/1/1 at both Adept and Master, so the attribute already spends the ladder's single spare point and a weapon bonus would be bidding for it.",
+   "quote_or_excerpt": "Novice: scaled (1, 2, 3) + att2 = (3, 4, 5) vs row (4, 6, 8) -> residual [1, 2, 3] | Adept: scaled (2, 5, 8) + att2 = (4, 7, 10) vs row (5, 8, 11) -> residual [1, 1, 1] | Master: scaled (4, 7, 11) + att2 = (6, 9, 13) vs row (7, 10, 14) -> residual [1, 1, 1]",
+   "source": "terminal: python3 residual headroom test (scaled rows plus the attribute cap)"
+  },
+  {
+   "claim": "Worked computation: halving preserves three distinct tiers on all three live bands, and doubling does so by construction; the only collapse is the flat 1/2/3 Basic row, which violates the distinctness invariant at 16:25.",
+   "quote_or_excerpt": "Novice (4, 6, 8) half=(2, 3, 4) distinct=True | Adept (5, 8, 11) half=(2, 4, 5) distinct=True | Master (7, 10, 14) half=(3, 5, 7) distinct=True | double: (8, 12, 16) (10, 16, 22) (14, 20, 28) distinct=True | Basic-row 1/2/3 half=(0, 1, 1) -> distinct=False (Standard/Strong TIE)",
+   "source": "terminal: python3 type multiplier test (halve round down, double)"
+  },
+  {
+   "claim": "Worked computation: the undefined order of operations between the type multiplier and DR changes the result by up to 3 points and can even produce a forbidden zero, so the order must be printed as multiply, then subtract, then floor at 1.",
+   "quote_or_excerpt": "dmg 14 DR 6 resistant: halve-then-DR=1 | DR-then-halve=4 ; dmg 11 DR 3 resistant: halve-then-DR=2 | DR-then-halve=4 ; dmg 4 DR 3 resistant: halve-then-DR=1 | DR-then-halve=0",
+   "source": "terminal: python3 halve-versus-DR order test"
+  },
+  {
+   "claim": "Measured: 14 of the 69 bestiary damage lines are typed and only 4 Vulnerable lines exist book-wide, which quantifies how sparse both sides of the typed-damage channel are.",
+   "quote_or_excerpt": "typed bestiary damage lines: 14 | bestiary damage lines total: 69 | Vulnerable lines book-wide: 4",
+   "source": "terminal: grep -cE '[0-9]/[0-9]/[0-9] (slashing|piercing|bludgeoning)' 20-bestiary.qmd ; grep -cE '\\*[^*]+:\\* [0-9]/[0-9]/[0-9]' 20-bestiary.qmd ; grep -rh 'Vulnerable:' *.qmd | wc -l"
+  },
+  {
+   "claim": "Measured basis for the counter-argument: 10 weapon-family gates against 40 Weapon Maneuver cards of which 34 are ungated, which is the authoring cost A must fund or concede.",
+   "quote_or_excerpt": "2 Kit:* weapon:one-hand / 3 Kit:* weapon:ranged / 3 Kit:* weapon:two-hand / 1 Kit:* weapon:unarmed / 1 Kit:* shield ; Weapon Maneuver blocks: 40 | no Kit field: 34 ; total cards in ch09: 72 | of those with a Kit field: 12",
+   "source": "terminal: grep -ho 'Kit:\\* weapon:[a-z-]*|Kit:\\* shield' 09-talents-abilities.qmd | sort | uniq -c ; grep -c '(Weapon Maneuver)' ; card-block parse"
+  }
+ ],
+ "id": "f-035",
+ "role": "librarian",
+ "round": 2,
+ "stance": "support",
+ "topic": "t-04"
+}

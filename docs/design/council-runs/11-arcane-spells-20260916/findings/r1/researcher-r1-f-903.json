@@ -1,0 +1,42 @@
+{
+  "id": "f-903",
+  "round": 1,
+  "role": "researcher",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "Two cards make a single printed total cover three targets at once, and the total mostly will not come apart. Burning Volley prints four, six and eight fire damage across three lances; Forked Sky prints five, eight and eleven lightning damage across three arcs. Four of the five distinct figures leave a remainder when shared three ways and only the six is exact. The file never says what a caster does with a remainder, and the one division rule this chapter states halves a figure for a second body and rounds that half down, which is a two-way split rather than a three-way one. The mechanic is chapter-local besides: counting the word across every chapter returns six lines, all of them in this file, so no other chapter supplies the missing procedure. Class: MECHANICAL if the wording is wrong and each lance should carry its full row figure; SUBSTANTIVE if the printed totals have to move to multiples of three.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "Burning Volley prints its row figure on each rung and divides that figure over three lances (11-arcane-spells:180, 182, 184).",
+      "quote_or_excerpt": "4 fire damage, split across three lances."
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Forked Sky does the same over three arcs at its own row figures (11-arcane-spells:256, 258, 260).",
+      "quote_or_excerpt": "5 lightning damage, split across three arcs."
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The only instruction this chapter gives for reducing a printed figure is the halving sentence in its opening (11-arcane-spells:19), which covers a second target.",
+      "quote_or_excerpt": "Where a card prints half of a value, round down."
+    },
+    {
+      "source": "21-glossary.qmd",
+      "claim": "The damage budget lists the three live rows as novice four-six-eight, adept five-eight-eleven and master seven-ten-fourteen (21:43), and no row divides evenly at all three rungs.",
+      "quote_or_excerpt": "Novice 4/6/8, Adept 5/8/11, Master 7/10/14"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Arithmetic: four, five, eight and eleven leave remainders over three (1.33, 1.67, 2.67, 3.67) while six is exact, so five of the six printed lines cannot be shared evenly, and the rows 4/6/8, 5/8/11 and 7/10/14 all fail the same test on at least one rung.",
+      "quote_or_excerpt": "4/3=1.33 6/3=2 8/3=2.67 5/3=1.67 11/3=3.67; one line in six divides exactly"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Scope: a book-wide count for the term returns hits in this file alone, so the procedure for sharing one total among several targets is taught by no chapter of the book.",
+      "quote_or_excerpt": "git grep -c -iw split -> 11-arcane-spells.qmd:6, no other file"
+    }
+  ],
+  "confidence": 0.58,
+  "rebutting": []
+}

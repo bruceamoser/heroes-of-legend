@@ -1,0 +1,126 @@
+{
+ "argument": "A WEAPON IS A TAG SET AND A DAMAGE TYPE, AND IT CARRIES NO MAGNITUDE. That is dimension 1 in one sentence, and it is the only description of a weapon that survives contact with the printed spine: 15:163 rules that a weapon has no say in how hard you hit, 15:200 says the weapon never changes these numbers, and 15:23 confines the kit layer to one figure, the DR that its covering purchases. That leaves a weapon exactly two identity surfaces, what it lets you attempt and what it is made of. Round 1 put identity in the permission layer and named DAMAGE TYPE as its empty home. This finding makes both halves implementable and settles dimension 5 by giving every one of the seven printed properties a tag and a named consumer.\n\nTHE GAP, MEASURED. The book prints an eight-tag vocabulary at 15:25 and seven weapon properties at 15:213-219, and the two lists have never met: weapon:finesse, weapon:reach, weapon:thrown, weapon:light, weapon:versatile and weapon:loading occur zero times anywhere in the chapters. The properties are prose, the tags are strings, and the Properties column at 15:171 is neither. Three consequences are load-bearing defects, not cosmetics. First, there is no satisfaction rule: 15:25 lists tags and never states what item satisfies one. Second, weapon:ranged is one tag carrying two incompatible range envelopes, Basic Archery at 60/120 ft (09:183) and Basic Thrown at 20/60 ft (09:192), so a bow cannot use the thrown card that shares its tag and a dagger cannot use the archery card that shares its tag. Third, a legal kit can buy itself out of the floor attack: Basic Melee (09:174) requires weapon:one-hand, while the Armament line sells a Two-handed weapon for 2 of the hero's six kit points (15:40, 15:58), and 14 of the 17 weapon table rows are melee armaments that a melee floor attack should serve.\n\nTHE SPECIFICATION.\n\n1. Vocabulary, 8 tags to 15. The seven properties become seven tags. Six are new strings: weapon:finesse, weapon:reach, weapon:thrown, weapon:light, weapon:loading, weapon:versatile. The seventh, Two-Handed, already has a tag in print, weapon:two-hand, which is the most-used weapon tag in the book at three gates (09:236, 09:326, 09:335); it is promoted from an ad-hoc string to the property tag it always was. One further tag is required by the floor-attack defect: weapon:melee, meaning any armament held in one or both hands. An item's tag set is the Properties column generalized: the table already has that column, the change is that the column becomes the item's tag set.\n\n2. The satisfaction rule the vocabulary lacks. Four clauses, none of which needs new syntax. R1 membership: a card requiring tag X is legal with an item whose tag set contains X. R2 containment: weapon:melee is satisfied by any armament held in one or both hands, which covers 14 of the 17 rows (every melee weapon, excluding Shortbow, Longbow and Crossbow); weapon:two-hand is satisfied by a Two-Handed or Versatile armament; weapon:thrown is satisfied by a Thrown armament; weapon:ranged is satisfied by an armament whose Range cell is not the thrown envelope. R3 the both-ways case: a Versatile armament satisfies weapon:one-hand and weapon:two-hand, which is what 15:213 already says in prose and what nothing currently consumes. R4 conjunction, never disjunction: a card carrying more than one tag requires one wielded item satisfying every tag stated, which is why the floor attack is fixed by containment rather than by listing alternatives, and why the vocabulary stays single-valued per card with no OR grammar.\n\n3. The re-key surface is three lines. 09:174 weapon:one-hand becomes weapon:melee, which is the state 15:202 already assumes when it rules that improvised weapons deal the Basic Unarmed floor. 09:192 weapon:ranged becomes weapon:thrown, splitting the overloaded tag while 09:183 keeps weapon:ranged for the 60/120 envelope. Long Spear Rebuke (09:425) carries no Kit field today and gains weapon:reach, giving the Reach property its first card consumer.\n\n4. Dimension 5, the fate of the seven properties, each with its tag and its consumer. Finesse, weapon:finesse, consumed by the substitution the card text already assumes (15:214 and Basic Melee's parenthetical), now checkable instead of asserted. Reach, weapon:reach, consumed by Long Spear Rebuke. Thrown, weapon:thrown, consumed by Basic Thrown and the thrown envelope, replacing the prose inventory at 15:216. Light, weapon:light, converting the off-hand rule at 13:290 from a sentence into a tag requirement. Loading, weapon:loading, keying the crossbow reload Maneuver at 15:218. Two-Handed, weapon:two-hand, consumed by the three gates already in print. Versatile, weapon:versatile, consumed by the R3 containment clause; today it is the only property with no mechanical consequence beyond a slot count.\n\nWHY THIS IS ARCHITECTURE A AND NOT A COMPROMISE. Not one clause adds a number: membership and containment are permission operations, so 15:23 and 15:200 hold by construction rather than by good behaviour. The identity surface grows from eight strings and a prose column to fifteen tags, four containment clauses and one readability rule, at a cost of three card lines and zero magnitude.",
+ "confidence": 0.78,
+ "evidence": [
+  {
+   "claim": "The whole permission vocabulary is eight tags, none of them a property, and no satisfaction rule is stated anywhere in the sentence.",
+   "quote_or_excerpt": "The tags a card can require are `weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`, `shield`, `focus:arcane`, `focus:holy` and `focus:primal`.",
+   "source": "quarto-book/chapters/15-equipment.qmd:25"
+  },
+  {
+   "claim": "The weapon table already carries a Properties column, so the seven properties exist as structured identity that is not machine-readable.",
+   "quote_or_excerpt": "table.header([Weapon], [Disciplines Required], [Properties], [Range],)",
+   "source": "quarto-book/chapters/15-equipment.qmd:171"
+  },
+  {
+   "claim": "Versatile, the property assigned to the Longsword alone, has no mechanical consequence beyond a slot count.",
+   "quote_or_excerpt": "- *Versatile*, can be wielded two-handed (Longsword only)",
+   "source": "quarto-book/chapters/15-equipment.qmd:213"
+  },
+  {
+   "claim": "Finesse already implies an attribute substitution that cards assume in prose; weapon:finesse makes it checkable.",
+   "quote_or_excerpt": "- *Finesse*, use Agility instead of Brawn for attack and damage (Dagger, Shortsword, Throwing Dagger)",
+   "source": "quarto-book/chapters/15-equipment.qmd:214"
+  },
+  {
+   "claim": "Reach names two weapons and has no card that demands it, so weapon:reach needs the Long Spear Rebuke gate.",
+   "quote_or_excerpt": "- *Reach*, can attack targets 10 ft away (Spear, Halberd)",
+   "source": "quarto-book/chapters/15-equipment.qmd:215"
+  },
+  {
+   "claim": "Thrown is defined by a range envelope, which is the envelope Basic Thrown prints at 09:192.",
+   "quote_or_excerpt": "- *Thrown*, can be thrown (range 20/60 ft: Dagger, Handaxe, Spear, Throwing Dagger)",
+   "source": "quarto-book/chapters/15-equipment.qmd:216"
+  },
+  {
+   "claim": "Light names three weapons and its only rule is prose at 13:290, so weapon:light converts a sentence into a tag requirement.",
+   "quote_or_excerpt": "- *Light*, can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe)",
+   "source": "quarto-book/chapters/15-equipment.qmd:217"
+  },
+  {
+   "claim": "Loading is a rule about a Maneuver attached to exactly one weapon, the crossbow, which a tag can key.",
+   "quote_or_excerpt": "- *Loading*, requires a Maneuver to reload between shots (Crossbow only)",
+   "source": "quarto-book/chapters/15-equipment.qmd:218"
+  },
+  {
+   "claim": "Two-Handed is the one property that already has a tag, weapon:two-hand, and the line itself contrasts it with Versatile.",
+   "quote_or_excerpt": "- *Two-Handed*, must be held in both hands and takes 2 slots (Spear, Halberd, Shortbow, Longbow, Crossbow). Compare *Versatile*, which *may* be used two-handed)",
+   "source": "quarto-book/chapters/15-equipment.qmd:219"
+  },
+  {
+   "claim": "The floor attack requires weapon:one-hand, so a hero whose kit is the two-handed armament fails the attack every character is meant to have.",
+   "quote_or_excerpt": "*Disciplines:* None \u00b7 *Kit:* weapon:one-hand \u00b7 *Action:* Action \u00b7 *Range:* Melee \u00b7 *Keywords:* Damage",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:174"
+  },
+  {
+   "claim": "Basic Archery requires weapon:ranged at 60/120 ft, the bow envelope.",
+   "quote_or_excerpt": "*Disciplines:* None \u00b7 *Kit:* weapon:ranged \u00b7 *Action:* Action \u00b7 *Range:* 60/120 ft \u00b7 *Keywords:* Damage",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:183"
+  },
+  {
+   "claim": "Basic Thrown requires the same weapon:ranged tag at 20/60 ft, proving the tag carries two incompatible envelopes and must be split into weapon:thrown.",
+   "quote_or_excerpt": "*Disciplines:* None \u00b7 *Kit:* weapon:ranged \u00b7 *Action:* Action \u00b7 *Range:* 20/60 ft \u00b7 *Keywords:* Damage",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:192"
+  },
+  {
+   "claim": "The Light property is already the key of a printed rule; weapon:light makes that rule a tag requirement rather than prose.",
+   "quote_or_excerpt": "The off-hand weapon must have the *Light* property (Dagger, Shortsword, Handaxe).",
+   "source": "quarto-book/chapters/13-combat.qmd:290"
+  },
+  {
+   "claim": "Long Spear Rebuke is a Polearms maneuver with no Kit field, the cleanest place to give Reach its first card consumer.",
+   "quote_or_excerpt": "*Disciplines:* 1 Polearms \u00b7 *Action:* Action \u00b7 *Range:* Melee \u00b7 *Keywords:* Frightened, Control",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:425"
+  },
+  {
+   "claim": "The two-handed armament costs 2 of the six kit points, so the floor-attack gap is reachable by a legal, ordinary purchase.",
+   "quote_or_excerpt": "[], [Two-handed weapon], [2],",
+   "source": "quarto-book/chapters/15-equipment.qmd:40"
+  },
+  {
+   "claim": "The kit budget is six points, which fixes the price of the armament choices.",
+   "quote_or_excerpt": "You have six points to spend on your primary kit.",
+   "source": "quarto-book/chapters/15-equipment.qmd:58"
+  },
+  {
+   "claim": "Improvised weapons already deal the Basic Unarmed floor, so containment on weapon:melee matches the book's existing assumption that a melee armament gives you a melee attack.",
+   "quote_or_excerpt": "Improvised weapons (a crowbar swung as a club, a hammer in a pinch) deal 1/1/2 + Brawn, the Basic Unarmed floor.",
+   "source": "quarto-book/chapters/15-equipment.qmd:202"
+  },
+  {
+   "claim": "Printed doctrine: a weapon does not decide how hard you hit, which is the claim the tag-set definition has to satisfy.",
+   "quote_or_excerpt": "What a weapon does not do is decide how hard you hit.",
+   "source": "quarto-book/chapters/15-equipment.qmd:163"
+  },
+  {
+   "claim": "Printed doctrine: the weapon never changes these numbers, so any spec that adds a number contradicts the spine.",
+   "quote_or_excerpt": "The weapon never changes these numbers.",
+   "source": "quarto-book/chapters/15-equipment.qmd:200"
+  },
+  {
+   "claim": "The kit layer is defined as numberless except for the DR covering buys, which is the doctrinal boundary the tag vocabulary respects.",
+   "quote_or_excerpt": "A kit adds no number except the DR its covering buys.",
+   "source": "quarto-book/chapters/15-equipment.qmd:23"
+  },
+  {
+   "claim": "Measured: zero occurrences of any property tag anywhere in the chapters, so the seven properties have no tag consumer at all today.",
+   "quote_or_excerpt": "property-tag consumers book-wide: 0",
+   "source": "terminal: grep -rc 'weapon:finesse|weapon:reach|weapon:thrown|weapon:light|weapon:versatile|weapon:loading' *.qmd | grep -v ':0' | wc -l"
+  },
+  {
+   "claim": "Measured: 12 Kit fields across 72 talent cards, of which 10 are weapon-family (3 weapon:two-hand, 3 weapon:ranged, 2 weapon:one-hand, 1 weapon:unarmed, 1 shield), while 34 of the 40 Weapon Maneuver cards carry no Kit field.",
+   "quote_or_excerpt": "2 Kit:* weapon:one-hand / 3 Kit:* weapon:ranged / 3 Kit:* weapon:two-hand / 1 Kit:* weapon:unarmed / 1 Kit:* shield ; Weapon Maneuver blocks: 40 | no Kit field: 34 ; total cards in ch09: 72 | of those with a Kit field: 12",
+   "source": "terminal: grep -ho 'Kit:\\* weapon:[a-z-]*|Kit:\\* shield' 09-talents-abilities.qmd | sort | uniq -c ; grep -c '(Weapon Maneuver)' ; card-block parse"
+  },
+  {
+   "claim": "Measured: the vocabulary is exactly 8 tags and the hero weapon table has exactly 17 rows, which fixes both sides of the satisfaction rule.",
+   "quote_or_excerpt": "vocabulary tag count in 15:25: 8 ; hero weapon table rows: 17",
+   "source": "terminal: grep -o 'weapon:[a-z-]*|shield|focus:[a-z]*' 15-equipment.qmd | sort -u | wc -l ; sed -n '171,190p' 15-equipment.qmd | grep -c '^    \\['"
+  }
+ ],
+ "id": "f-034",
+ "role": "librarian",
+ "round": 2,
+ "stance": "support",
+ "topic": "t-03"
+}

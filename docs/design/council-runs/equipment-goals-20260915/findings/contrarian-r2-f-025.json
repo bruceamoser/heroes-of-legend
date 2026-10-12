@@ -1,0 +1,76 @@
+{
+ "argument": "Coalition B's fix is total if the recipe is made co-monotone with capability, and the shipped table needs 8 repairs, not the 3 my round-1 finding named. I re-ran the domination test with the Kit tags included, because a weapon's real reach is the set of cards it can actually take, not the set it can nominally satisfy. X dominates Y when all six hold: X's properties are a superset of Y's; X's costs are a subset; X's range is at least Y's; X's recipe vector is componentwise no larger; X's satisfied tags are a superset; and X's reachable card set is a superset. Over the 177-card corpus the shipped table returns 8 strict dominations: Dagger over Shortsword; Dagger over Throwing Dagger; Longsword over Greatsword; Warhammer over Maul; Spear over Halberd; Longbow over Shortbow; Shortbow over Crossbow; Longbow over Crossbow.\n\nTHE REPRICING SPEC. Give every weapon a recipe that no other weapon's recipe contains, and charge each capability to the Discipline that carries it, so the recipe vector and the property set move together: more abilities always cost at least as much. Pricing rules: (1) Thrown costs 1 Archery, everywhere and without exception: Dagger 1 Blades + 1 Archery; Handaxe 1 Axes + 1 Archery; Spear 1 Polearms + 1 Archery; Throwing Dagger 1 Archery alone. (2) A second step in the family is never free: Shortsword 1 Blades + 1 Protection; Longsword 2 Blades; Battleaxe 2 Axes; Halberd 1 Polearms. (3) The heavy weapons buy their capstone with 2 Heavy Weapon, because rank 3 Heavy Weapon opens zero cards that rank 2 does not (its only card, 09:551, also demands Tactics and Unarmed): Greatsword 2 Blades + 2 Heavy Weapon; Greataxe 2 Axes + 2 Heavy Weapon; Maul 3 Heavy Weapon; Warhammer 2 Heavy Weapon; Mace 1 Heavy Weapon. (4) The bows separate on the price of distance: Shortbow 1 Archery; Longbow 1 Archery + 2 Heavy Weapon. (5) Unarmed stays at None.\n\nTHE FULL TABLE. Unarmed None; Dagger 1 Blades + 1 Archery; Shortsword 1 Blades + 1 Protection; Longsword 2 Blades; Greatsword 2 Blades + 2 Heavy Weapon; Handaxe 1 Axes + 1 Archery; Battleaxe 2 Axes; Greataxe 2 Axes + 2 Heavy Weapon; Mace costs 1 Heavy Weapon; Warhammer costs 2 Heavy Weapon; Maul costs 3 Heavy Weapon; Halberd 1 Polearms; Spear 1 Polearms + 1 Archery; Throwing Dagger 1 Archery; Shortbow 1 Archery; Longbow 1 Archery + 2 Heavy Weapon.\n\nWHY IT REMOVES DOMINATION WITHOUT A DAMAGE NUMBER. The fourth clause is the domination engine: domination requires the dominator's recipe to be componentwise no larger, which means the better weapon must be no dearer. Every relation in the shipped table is either a same-recipe pair (Dagger and Shortsword both 1 Blades; Spear and Halberd both 1 Polearms; Shortbow and Longbow both 1 Archery) or a fake step (Longsword 2 Blades over Greatsword 2 Blades + 1 Heavy Weapon; Warhammer 2 Heavy Weapon over Maul 3 Heavy Weapon, where the third rank buys no card). Making each recipe distinct and co-monotone kills the clause at the source: no cheaper weapon is a property superset of a dearer one. Re-running the identical six-clause test on the proposed table returns zero pairs, tag-aware and in both directions, over the same corpus. Nothing in the fix is a number on a weapon; the prices are ranks, which is how the column already works, and the book's own doctrine is untouched.\n\nONE ROW DOES NOT SURVIVE. Crossbow (1 Archery, Loading/Two-Handed, 20/60 ft) has no property that is not a drawback, so Shortbow and Longbow both dominate it on an identical recipe. This is my answer to the purge question: it is the only row whose removal the arithmetic forces. Keeping it means buying it a capability no bow has, which is card authoring rather than a table edit.\n\nTWO SIDE EFFECTS, BOTH FIXES. First, the recipe column is already printed and already demands combinations of Disciplines, so the spec is a table edit inside one chapter plus the reference reprint. Second, the satisfaction rule that the recipe table needs answers the one-hand/two-hand question: a weapon satisfies weapon:one-hand when held in one hand and weapon:two-hand when it must be gripped in both; the Longsword satisfies both; and Basic Melee should lose its Kit tag so that no armament is left without a basic attack. Tested A's arithmetic, B's repricing, and the tag-blind variant of the test; the counter-examples found are recorded in f-206.",
+ "confidence": 0.74,
+ "evidence": [
+  {
+   "claim": "The Discipline requirement is already a printed column of the weapon table, so B's price is a live lever rather than a proposed one.",
+   "quote_or_excerpt": "[Weapon], [Disciplines Required], [Properties], [Range],",
+   "source": "quarto-book/chapters/15-equipment.qmd:171"
+  },
+  {
+   "claim": "The Dagger's printed row: 1 Blades, three properties, 20/60 ft.",
+   "quote_or_excerpt": "[Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft (thrown)],",
+   "source": "quarto-book/chapters/15-equipment.qmd:173"
+  },
+  {
+   "claim": "The Shortsword shares the Dagger's recipe exactly and carries one fewer property, which is domination pair one.",
+   "quote_or_excerpt": "[Shortsword], [1 Blades], [Finesse, Light], [],",
+   "source": "quarto-book/chapters/15-equipment.qmd:174"
+  },
+  {
+   "claim": "The Halberd shares the Spear's recipe; the Spear adds Thrown at no price, which is domination pair two.",
+   "quote_or_excerpt": "[Halberd], [1 Polearms], [Reach, Two-Handed], [],",
+   "source": "quarto-book/chapters/15-equipment.qmd:184"
+  },
+  {
+   "claim": "The Shortbow shares the Longbow's recipe and its properties while giving up 40 ft of range, which is domination pair three.",
+   "quote_or_excerpt": "[Shortbow], [1 Archery], [Two-Handed], [60/120 ft],",
+   "source": "quarto-book/chapters/15-equipment.qmd:186"
+  },
+  {
+   "claim": "The Longbow's row: identical recipe and properties to the Shortbow, longer range, same two slots.",
+   "quote_or_excerpt": "[Longbow], [1 Archery], [Two-Handed], [100/200 ft],",
+   "source": "quarto-book/chapters/15-equipment.qmd:187"
+  },
+  {
+   "claim": "B's fix adds no damage numbers, because the book's own architecture keeps the weapon off that axis entirely.",
+   "quote_or_excerpt": "The weapon never changes these numbers.",
+   "source": "quarto-book/chapters/15-equipment.qmd:200"
+  },
+  {
+   "claim": "The book already states the doctrine the recipe fix implements: identity is which cards the weapon opens.",
+   "quote_or_excerpt": "The cards you can reach are the fighting style you have chosen.",
+   "source": "quarto-book/chapters/15-equipment.qmd:206"
+  },
+  {
+   "claim": "The table already demands specific Discipline combinations rather than more of one Discipline, so the mechanism is in print.",
+   "quote_or_excerpt": "Weapons don't just require more of the same Discipline",
+   "source": "quarto-book/chapters/15-equipment.qmd:206"
+  },
+  {
+   "claim": "Thrown is a printed property with a fixed 20/60 ft band, so charging 1 Archery for it is a repricing, not an invention.",
+   "quote_or_excerpt": "*Thrown*, can be thrown (range 20/60 ft: Dagger, Handaxe, Spear, Throwing Dagger)",
+   "source": "quarto-book/chapters/15-equipment.qmd:216"
+  },
+  {
+   "claim": "Rank 3 Heavy Weapon opens zero cards that rank 2 does not, because its only card also demands Tactics and Unarmed; the Maul's third rank therefore cannot be what prices it.",
+   "quote_or_excerpt": "*Disciplines:* 3 Heavy Weapon \u00b7 Tactics \u00b7 Unarmed",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:551"
+  },
+  {
+   "claim": "Both Axes cards sit at rank 2 (this one and 09:335), so 1 Axes opens no rank-1 card and 2 Axes is a real step. Computed: the six-clause test over the 177-card corpus returns 8 pairs in the shipped table and 0 in the proposed table, tag-aware, both directions.",
+   "quote_or_excerpt": "*Disciplines:* 2 Axes \u00b7 *Kit:* weapon:one-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:245"
+  },
+  {
+   "claim": "The charter's binding demand on B is that no two weapons stand in a domination relation; the proposed table satisfies it by construction.",
+   "quote_or_excerpt": "no two weapons stand in a domination relation",
+   "source": "briefs/round-02/COALITION-CHARTER.md:64"
+  }
+ ],
+ "id": "f-025",
+ "role": "contrarian",
+ "round": 2,
+ "stance": "support",
+ "topic": "t-03"
+}

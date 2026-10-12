@@ -1,0 +1,37 @@
+{
+  "id": "f-902",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-02",
+  "stance": "support",
+  "argument": "Three cards announce a modifier in their header and never invoke it in any of their rungs. Silver Tongue's header carries two tags, and all three of its rungs land a Bane with no Boon appearing anywhere in the text (541 header; 543, 545, 547 rungs). March of Bones carries one tag, and its rungs do nothing but raise skeletons (438 header; 440, 442, 444 rungs). Borrowed Recollection carries two tags, and its rungs read, take and hold a memory, never using the second (604 header; 606, 608, 610 rungs). That this file treats header and text as a binding pair is established by its own neighbours: Fade pays out Boon at all three of its rungs (561, 563, 565), Dancing Lights lands its Bane at the strongest rung (47), Phantasmal Image does the same (592), and Unseen Hand lands its Restrained at the strongest rung (364). Three cards out of sixty-eight break a pattern that four cards in the same file keep. Boundary: the headers where a condition tag shows the same mismatch are already in the ledger, and the separate question whether this file's tag vocabulary is too wide is a different defect with a narrowed residue; this filing claims neither, only that these three non-condition modifiers are named in a header and never used by the card. Disposition: MECHANICAL for the minimal exit, which is striking the unmatched word from three header lines, a wording change that touches no mechanic and stays inside this file; SUBSTANTIVE for the alternative exit, which is writing the missing rider into three outcome blocks and so adding new content to three cards. I rule MECHANICAL, chapter-local, and record the alternative.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "Silver Tongue prints two tags in its header (11:541) and each of its three rungs applies the Bane only (11:543, 11:545, 11:547).",
+      "quote_or_excerpt": "*Keywords:* Bane, Boon (11:541); no rung grants Boon."
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "March of Bones prints Boon in its header (11:438) while its three rungs raise one, two and three skeletons and grant no modifier (11:440, 11:442, 11:444).",
+      "quote_or_excerpt": "*Keywords:* Boon (11:438); *Strong:* Raise 3 skeletons for 1 hour. (11:444)"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Borrowed Recollection prints Insight and Bane (11:604) and its rungs only read, take and keep a memory, so the Bane is never applied (11:606, 11:608, 11:610).",
+      "quote_or_excerpt": "*Keywords:* Insight, Bane (11:604); *Strong:* You take the memory whole (11:610)"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Four neighbouring cards in the same list pay out the modifier their header names: Fade grants Boon at every rung (11:561, 11:563, 11:565), Dancing Lights and Phantasmal Image each land a Bane at their strongest rung (11:47, 11:592), and Unseen Hand lands Restrained at its strongest (11:364).",
+      "quote_or_excerpt": "Boon on Stealth for 1 turn / 2 turns / 3 turns"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Census of the header field against each card's own rungs: three of sixty-eight cards declare a Boon or Bane that their text never invokes, against four neighbours that keep the pair.",
+      "quote_or_excerpt": "3 of 68 cards; every Keywords field checked"
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": []
+}

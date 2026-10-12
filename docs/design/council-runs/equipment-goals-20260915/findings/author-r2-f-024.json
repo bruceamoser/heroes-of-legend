@@ -1,0 +1,71 @@
+{
+ "argument": "Development choice is where Coalition B is strongest and where it must pay a bill it has not yet priced. The arc grants three Discipline ranks, one each at levels 3, 6 and 9, and every one of those gains either brings a fresh Discipline into the sheet or deepens one the hero already holds. That is the entire development channel, so the player's real decision is which ladder to enter and when, and the sheet change is legible: Vess writes Blades 2 and gains two Reactions; Kor writes Polearms 2 and gains a Maneuver and a Reaction; Halda writes Axes 2, gains one Action, and her battleaxe stops depending on the kit waiver because she now owns the rank the table asked for. The problem is the price list. The class cost tables set the DP price of a recipe, and for the Protector five of the six weapon Disciplines cost 1/2/4 while only Archery costs 2/4/8. Blades, with its eleven cards, and Axes, with its two, cost exactly the same to the same ranks, so the total cost formula cannot price the difference between them. The Blade has the same flatness across Blades, Archery and Unarmed. Making the recipe the price therefore requires repricing the class tables, and there are nine of them, one per class, twelve rows each. The second unpaid bill is the top of the ladder. Four of the six weapon Disciplines have a rank-3 card that also demands two Disciplines outside the weapon family, and Axes has no rank-3 card at all, so a spear hero who buys Polearms 3 at level 6 gets nothing that level unless he also buys Tactics and Mind, which turns one Master card into eighteen DP. The third unpaid bill is B's own legibility promise. Printing the tier on every card is not a formatting pass: no card in the abilities chapter carries a tier field, the tier is documented as a card property in a table with two rows, and fifty-nine of the chapter's seventy-two cards print no damage band at all, so a condition card's tier cannot be derived from the text and must be assigned. None of this makes B wrong. It makes B's cost honest: one repricing of nine class tables, tier assignment across the corpus, and enough new cards to give Axes a rank-1 and a rank-3 rung.",
+ "confidence": 0.74,
+ "evidence": [
+  {
+   "claim": "Level-by-level sheet deltas for the three heroes and the full cost ledger, including the DP arithmetic for a Master weapon card and the census behind the pool sizes.",
+   "quote_or_excerpt": "THREE LEVEL-1 HEROES, BUILT FROM THE BOOK'S OWN KITS.\nVESS, Blade. Class grant Blades (1) + Stealth (1) (05:29). Kit shortsword + dagger (05:104); both list 1 Blades (15:173, 15:174), so she is legal with no waiver. Signature Swift Blade uses Agility in place of Brawn (05:100). Take Agility +2. Basic Melee is 1/2/3 + attribute (09:176), so one weapon swings 3/4/5. Both her weapons are Light (15:217), so two-weapon fighting (13:290) adds an off-hand attack one tier lower: at Standard that is 4 + 3 = 7, at Strong 5 + 4 = 9. Rank-1 Blades cards she may buy: Pinpoint Strike, Dual Strike, Hamstring Cut, Open the Guard, plus Rolling Thunder if she spends 2 DP on Tactics 1 (09:514). Five options.\nHALDA, Protector. Class grant Armor (1) + 1 any Weapon (05:28); she takes 1 Axes. Kit battleaxe + chain mail + shield (05:59). The battleaxe lists 2 Axes (15:178) and she is rank 1, so she holds it only because the kit waiver releases kit gear from Discipline prerequisites (15:196). Rank-1 Axes cards available to her: ZERO. Axes carries no rank-1 card at all and only two cards in total, both rank 2. Take Brawn +2. Her Basic Melee is 3/4/5, the identical single-weapon number Vess gets. Her only other weapon-flavoured Action is Shield Press, which costs 1 Armor and no weapon tag (09:379).\nKOR, Protector, same chassis. He takes 1 Polearms and re-kits the battleaxe to a spear, which lists 1 Polearms (15:183) and carries Reach (15:184 is the Halberd pair at the same rank). Reach lets him attack targets 10 ft away (15:215), so his Basic Melee is 3/4/5 at a distance Halda cannot reach. Rank-1 Polearms cards: Long Spear Rebuke, one card (09:424). The spear is also printed Thrown, but Basic Thrown is tagged weapon:ranged (09:192) and the spear does not carry that tag, so nothing in the book lets him throw the weapon that says Thrown on it.\nTHE THREE TURNS. Vess attacks twice for 7 at Standard, or buys Restrained or Reaction-denial off her four rank-1 Blades cards. Halda attacks once for 4 and can grapple with Shield Press. Kor attacks once for 4 from 10 ft. Two of those three distinct turns come from a PROPERTY consumed by a rule outside the Discipline ladder (Light feeding 13:290, Reach feeding 15:215), not from the recipe.\nTHE LEVEL-3 TEST (rank at level 3 per 08:104 and 18:49). Vess writes Blades 2 and gains Riposte (09:217) and Parry (09:271), two Reactions on a sheet whose Reaction line was empty; she also clears the Adept gate and can buy Through the Blind Spot, which asks for 2 Blades and Stealth (09:469), both of which she has. FELT: yes. Kor writes Polearms 2 and gains Trip (09:289) and Brace (09:307); Trip at 10 ft is a sentence only the spear player gets to say. FELT: yes. Halda writes Axes 2 and gains one card, Cleave, whose rider only fires when a target drops to 0 HP and an enemy is adjacent (09:247); her second Axes card, Executioner's Cut, is gated to weapon:two-hand (09:335) and so needs a greataxe, which itself needs 2 Axes + 1 Heavy Weapon. FELT: thin at best, and Axes rank 3 contains no card at all, so her level-6 rank buys nothing.\nCOST LEDGER. Protector weapon rows: Blades 1/2/4, Axes 1/2/4, Polearms 1/2/4, Heavy Weapon 1/2/4 (05:72 to 05:76), Unarmed 1/2/4 (05:77), Archery 2/4/8 (05:75). Blade rows: Blades 1/2/4 (05:117), Archery 1/2/4 (05:120), Unarmed 1/2/4 (05:122), Polearms 2/4/8 (05:119), Axes 4/8/16 (05:118). Card depth by Discipline: Blades 11, Heavy Weapon 6, Archery 5, Polearms 4, Unarmed 4, Axes 2. Master weapon cards and their lateral demands: Harvest the Fear (3 Polearms + Tactics + Mind), Sunshot (3 Archery + Tactics + Stealth), Groundbreaker (3 Heavy Weapon + Tactics + Unarmed), Taken Alive (3 Unarmed + Tactics + Armor). Nine class cost tables exist, twelve rows each.",
+   "source": "reasoning"
+  },
+  {
+   "claim": "The whole development channel is three Discipline ranks across ten levels. Whatever a weapon route buys the player, it buys in three increments, so an empty rung is a wasted level.",
+   "quote_or_excerpt": "Total Discipline ranks gained: 3 (levels 3, 6 and 9).",
+   "source": "quarto-book/chapters/18-advancement.qmd:63"
+  },
+  {
+   "claim": "Each of those three ranks is a new Discipline or a deepening of one already held, which is exactly the choice B's architecture claims is the identity choice.",
+   "quote_or_excerpt": "At levels 3, 6, and 9, you gain one additional Discipline rank of your choice",
+   "source": "quarto-book/chapters/08-disciplines.qmd:104"
+  },
+  {
+   "claim": "Level 3 is the Adept gate, so the first rank also opens a whole card tier. For Vess it pays twice, adding Reactions and opening Through the Blind Spot.",
+   "quote_or_excerpt": "[3], [3], [Discipline rank. Adept abilities unlock.],",
+   "source": "quarto-book/chapters/18-advancement.qmd:49"
+  },
+  {
+   "claim": "The Protector pays Home cost for Axes, a Discipline with two cards and no rank-1 or rank-3 rung, which is the same price the class pays for Blades and its eleven. The price list is flat across the weapon family.",
+   "quote_or_excerpt": "    [Axes], [1/2/4], [Life], [4/8/16],",
+   "source": "quarto-book/chapters/05-classes.qmd:73"
+  },
+  {
+   "claim": "Unarmed is also Home for the Protector at 1/2/4, a third weapon Discipline at the same price with a four-card pool. Five of six weapon Disciplines share one price.",
+   "quote_or_excerpt": "    [Unarmed], [1/2/4], [Stealth], [2/4/8],",
+   "source": "quarto-book/chapters/05-classes.qmd:77"
+  },
+  {
+   "claim": "The Blade pays Home cost for Archery exactly as it does for Blades, so even the class that owns the deepest ladder cannot be steered by price toward it.",
+   "quote_or_excerpt": "    [Archery], [1/2/4], [Mind], [4/8/16],",
+   "source": "quarto-book/chapters/05-classes.qmd:120"
+  },
+  {
+   "claim": "The total cost formula is the mechanism B wants to make load-bearing. It only prices a recipe if the class tables differentiate the Disciplines inside it, and for the weapon family they do not.",
+   "quote_or_excerpt": "The total cost of a card = its flat card DP cost + the sum of the Discipline rank costs",
+   "source": "quarto-book/chapters/08-disciplines.qmd:176"
+  },
+  {
+   "claim": "A Master weapon card costs 8 DP flat and is gated to level 7, before the lateral Discipline ranks it demands are added. This is why the top of a weapon ladder is paid two or three times.",
+   "quote_or_excerpt": "    [*Master*], [8 DP], [Level 7],",
+   "source": "quarto-book/chapters/08-disciplines.qmd:148"
+  },
+  {
+   "claim": "The book documents card-level gating in a table with two rows out of a 177-card corpus, so printing the tier on every card means authoring the field, not transcribing one.",
+   "quote_or_excerpt": "[Brimstone Burst], [2 Fire], [Level 1],",
+   "source": "quarto-book/chapters/08-disciplines.qmd:121"
+  },
+  {
+   "claim": "The basic attacks carry a discipline line and a kit tag but no tier field, which is the legibility gap B promises to close.",
+   "quote_or_excerpt": "*Disciplines:* None \u00b7 *Kit:* weapon:one-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:174"
+  },
+  {
+   "claim": "The Reaction row is the most visible thing that changes on a sheet when a weapon Discipline reaches rank 2, because at level 1 the weapon hero has no Reaction at all.",
+   "quote_or_excerpt": "[*Reaction*], [1/round], [Opportunity attack, shield block, triggered abilities],",
+   "source": "quarto-book/chapters/13-combat.qmd:41"
+  }
+ ],
+ "id": "f-024",
+ "role": "author",
+ "round": 2,
+ "stance": "support",
+ "topic": "t-04"
+}

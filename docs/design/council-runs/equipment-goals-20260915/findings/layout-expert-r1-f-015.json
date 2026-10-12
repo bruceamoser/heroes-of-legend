@@ -1,0 +1,41 @@
+{
+ "argument": "I support putting weapon identity at the kit's Armament line plus the Disciplines-Required column, and keeping the 17-row catalogue as colour. That is already the layer the card layer reads, and it is the book's own stated answer: a Longsword and a Greatsword are told to differ because of the Disciplines they demand, not because one is a bigger number. Priced both ways. Direction A, flavour only: the 17-row table at 15:168-193 is duplicated at 22:367-394, so a purge removes 2 tables (the book goes from 141 tables to 139), changes 0 columns, adds 0 lookups and re-keys 0 cards, because the weapon-gated cards ask for tags like weapon:one-hand, never a weapon name, and exactly 1 of the 184 card blocks in the book names a weapon at all. The page cost is zero, for a structural reason rather than a hopeful one: the table is 18 of the 35 non-empty lines on folio 250, and the section beneath it is pinned by a pagebreak at 15:221, so the roughly 27 freed lines turn into whitespace inside a two-folio section instead of releasing a folio. No TOC entry renumbers. Direction B, mechanical identity: 9 of 25 chapter files touched; 1 to 3 new tables; 5 existing tables need a column (the 2 weapon copies plus the 3 armour copies at 15:231, 16:37 and 22:345); 3 new lookups (weapon to family, weapon to property, weapon to slot cost); 41 cards re-keyed (31 family-gated plus 10 tag-gated); and the model says plus 1 to 2 folios, because the 4-column copy in the reference chapter already spills over a folio boundary and a 5th column pushes chapter 17 past the pin at 15:221. One extra folio renumbers the 81 TOC entries at folio 251 and up; a second renumbers 19 more at folio 359 and up. The reprint is the deciding cost. Under A you delete a copy and have 1 table to keep. Under B every weapon change is 5 edits, against a reprint that has already drifted in 14 of its 17 rows: the sync is not maintained today and the direction assumes it will be.",
+ "confidence": 0.72,
+ "evidence": [
+  {
+   "claim": "The whole card-facing vocabulary is one line of eight tags, and that line is the only registry the card layer can consume; nothing joins those tags to the catalogue's weapon names.",
+   "quote_or_excerpt": "The tags a card can require are `weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`, `shield`, `focus:arcane`, `focus:holy` and `focus:primal`. A card that requires none of them carries no Kit field at all, and most cards do not. Only where the work itself needs the tool does the card ask for it.",
+   "source": "chapters/15-equipment.qmd:25"
+  },
+  {
+   "claim": "Weapon identity is already mechanical in the table's Disciplines Required column, which is the axis the ability cards are keyed to.",
+   "quote_or_excerpt": "table.header([Weapon], [Disciplines Required], [Properties], [Range],)\n    [Unarmed], [None], [], [],\n    [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft (thrown)],\n    [Longsword], [2 Blades], [Versatile], [],\n    [Greatsword], [2 Blades + 1 Heavy Weapon], [], [],\n    [Maul], [3 Heavy Weapon], [], [],\n    [Throwing Dagger], [1 Blades or 1 Archery], [Finesse, Thrown], [20/60 ft (thrown)],",
+   "source": "chapters/15-equipment.qmd:171-188"
+  },
+  {
+   "claim": "The book already declares that the difference between two weapons is the Discipline combination and explicitly not a bigger number, which is the architectural slot identity can occupy without a stat block.",
+   "quote_or_excerpt": "Weapons don't just require more of the same Discipline, they require specific combinations. A Longsword needs _2 Blades_. A Greatsword needs _2 Blades + 1 Heavy Weapon_. ... A hero with a Greatsword is a different person than a hero with a Dagger, not a bigger number.",
+   "source": "chapters/15-equipment.qmd:206"
+  },
+  {
+   "claim": "The card-side blast radius of the catalogue is 10 cards and 0 re-keys, not the 64 cards the brief implies.",
+   "quote_or_excerpt": "$ grep -rn '\\*Kit:\\*' chapters/*.qmd | wc -l  -> 64\n$ grep -rc '\\*Kit:\\*' chapters/*.qmd | grep -v ':0'  -> 09-talents-abilities:12  11-arcane-spells:30  12-divine-spells:20  19-gm-guidance:1  21-glossary:1\n$ grep -rn '\\*Kit:\\*' chapters/*.qmd | grep -i 'weapon:\\|shield' | wc -l  -> 10\npython3 parse (=== heading with *Disciplines:* within 3 lines) -> 62 of the 64 sit on card lines; the other two are the format spec at 19:549 and the glossary entry at 21:75.\n\npython3 parse over chapters/*.qmd, cards = '=== ' heading with '*Disciplines:*' within 3 lines:\n  total card blocks = 184  (09-talents-abilities:72  11-arcane-spells:65  12-divine-spells:40  17-magic-items:7)\n  gated on a weapon family = 31\n  family hit counts (a card may name two) = Blades 11, Heavy Weapon 6, Archery 5, Polearms 4, Unarmed 4, Axes 2 = 32\n  card blocks naming a specific weapon anywhere in *Disciplines:* = 1 of 184 (17-magic-items.qmd: 'Thunder Maul')",
+   "source": "chapters/*.qmd - card census and Kit-field census (commands and output recorded)"
+  },
+  {
+   "claim": "Direction A cannot move the page count, because the table already occupies about half of a full folio inside a section whose lower boundary is a hard pagebreak.",
+   "quote_or_excerpt": "$ pdfinfo _output/Heroes-of-Legend.pdf | grep -i pages  -> Pages: 386\n$ pdftotext -layout output | split on form feed | count non-empty lines per folio -> 249:32  250:35  251:28  252:31\nfolio 250 head = '\u00a7 EQ \u00a7 / Weapons' ; its 35 non-empty lines are 3 lines of doctrine + the 4-column table (header + 17 rows = 18 lines) + the Kit Gear callout + folio number\nfolio 251 = Melee Damage callout + Discipline Combinations callout + 7 property bullets + folio number\nfolio 252 head = '\u00a7 EQ \u00a7 / Armor' -> the section below Weapons is pinned by #pagebreak() at chapters/15-equipment.qmd:221",
+   "source": "_output/Heroes-of-Legend.pdf - pdfinfo plus a pdftotext -layout line census"
+  },
+  {
+   "claim": "The reference copy is not a reprint but a divergence: header wording plus 14 of 17 Range cells differ, plus 4 inserted blank rows and different column widths, so a Direction B column multiplies an already-broken sync surface.",
+   "quote_or_excerpt": "15:171  table.header([Weapon], [Disciplines Required], [Properties], [Range],)   columns: (17.02%, 44.68%, 23.40%, 14.90%)\n22:370  table.header([Weapon], [Disciplines],          [Properties], [Range],)   columns: (19.23%, 30.77%, 30.77%, 19.23%)\n15:172  [Unarmed], [None], [], []                        | 22:371  [Unarmed], [None], [], [Melee]\n15:173  [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft (thrown)]  | 22:373  [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft]\n15:174  [Shortsword], [1 Blades], [Finesse, Light], []   | 22:374  [Shortsword], [1 Blades], [Finesse, Light], [Melee]\n22:372, 377, 381, 385, 388 are blank separator rows; 15 has none.\n14 of 17 rows differ in the Range cell; 3 agree (Shortbow, Longbow, Crossbow).",
+   "source": "chapters/22-reference-sheets.qmd:367-394 compared with chapters/15-equipment.qmd:168-193 (cell diff)"
+  }
+ ],
+ "id": "f-015",
+ "role": "layout-expert",
+ "round": 1,
+ "stance": "support",
+ "topic": "t-03"
+}

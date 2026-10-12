@@ -292,8 +292,8 @@
 // Top/bottom rules: 1.2pt. Midrule after header: 0.8pt per header cell.
 // No vertical rules. No horizontal rules between data rows.
 // Tables auto-size columns to content via columns: auto (the Typst default).
-// Tables are wrapped in unbreakable blocks so they stay intact on one page.
-// Header rows repeat if a table must break across pages.
+// Tables break across pages at row level (see the breakable note on the table show-rule below),
+// and table.header() rows repeat on each fragment. Decorative rules bracket the whole table.
 
 #set table(
   stroke: none,

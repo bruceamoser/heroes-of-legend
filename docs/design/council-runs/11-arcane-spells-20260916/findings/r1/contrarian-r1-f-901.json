@@ -1,0 +1,32 @@
+{
+  "id": "f-901",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "The Ember Lance outcome block carries a second damage instance that no live row holds. Line 173 gives the target behind the primary one a figure of two, and the chapter's own rounding sentence at line 19 says a printed fraction is halved and rounded down; half of six is three, not two. Two is a member of the retired Novice row 2/4/6, which the locked conventions void everywhere in the book, while this card's own three headline figures (4/6/8, lines 171-175) all sit on the live Novice row - which is exactly why a parse that only reads the three headline numbers reports zero off-band rows and misses this. The same card's Strong line prints four for the follow-through (line 175), so the two secondary figures obey no single ratio either; and an Adept card in the same file puts its lone damage figure at one (line 476) while its Standard and Strong lines carry none. Either the two is a typo for three, or the follow-through is a flat per-instance rider, which the locked conventions retire in favour of a damage-tier step. Three independent readings, no reading that leaves the card conforming.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "Ember Lance:173 prints two fire damage against the second target, where the halving rule stated at 11-arcane-spells:19 makes half of six equal to three; two is a member of the retired 2/4/6 row.",
+      "quote_or_excerpt": "the lance passes through to one target behind for 2 fire damage"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Ember Lance:175 gives the same follow-through target four against a headline of eight, so the secondary damage rises by one third between the Standard and Strong outcomes rather than holding a ratio.",
+      "quote_or_excerpt": "8 fire damage; 4 fire damage to one target behind"
+    },
+    {
+      "source": "reasoning",
+      "claim": "A numeral sweep of every Weak/Standard/Strong line in the file finds exactly one standalone two, at 11-arcane-spells:173, so this is a single figure rather than a pattern; the live Novice figures 4, 6 and 8 are all present.",
+      "quote_or_excerpt": "scan: 2 appears once on an outcome line (line 173)"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Turn the Air:476 is an Adept card whose Weak outcome alone carries a damage figure of one while Standard and Strong carry none, and the other three options on that line are scale words rather than numbers - the residue of a pass that forced a numeral onto every Weak line.",
+      "quote_or_excerpt": "Weak: 1 cold damage"
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": []
+}

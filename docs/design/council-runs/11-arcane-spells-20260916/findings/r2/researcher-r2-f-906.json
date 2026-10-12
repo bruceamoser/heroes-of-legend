@@ -1,0 +1,57 @@
+{
+  "id": "f-906",
+  "round": 2,
+  "role": "researcher",
+  "topic": "t-03",
+  "stance": "support",
+  "argument": "Recomputed the ladder and the two paragraphs it is measured against. The ladder's three cards each ask for as many Discipline ranks as the points they hand out: one rank for one point, two for two, three for three, so the relation the owner states at 16:31 (a grant needs ranks at least equal to the points it grants) holds with exact equality on all three cards, and no ward asks fewer ranks than it pays. The ladder tops out at 3 against ceilings of 3, 4 and 6, so a ward alone never crosses a ceiling. The owner's own worked example is seeded by this ladder: it names the middle ward, gives the character light armour at 1, and settles the pair by taking the larger single number, 2, then runs the subtraction twice, 4 - 2 and 6 - 2, both of which recompute exactly. So the owner treats a ward as a source governed by the source rule rather than as something that stacks onto steel. f-008's residual question is real but bounded and lands on the owner, not here: if duration-limited grants are added instead, the same example gives 3 rather than 2, a one-point divergence, and both totals sit at or under the Novice ceiling; a talent with a duration is claimed by the source list and by the adding paragraph at once, which is the tension f-008 found. It cannot be resolved against this chapter, because each ward card carries its own line refusing to stack with another DR source (11:648, 11:655, 11:662) and the divine copies keep that line on their cards (12:166), while the five effects the owner's adding paragraph names are worth 1, 2, 2, 1 and 2 - a bucket that sums to 8, which is past the Master ceiling of 6 and far past the Novice ceiling of 3, so that paragraph cannot be read as letting all five add without the ceiling overruling it anyway. A card's own text is the specific rule, so the ward's refusal governs the ward. Finally the five names are not ward cards at all: four are class capabilities (05:581, 05:585, 05:681, 05:683) and one is a talent (09:94), none of them a spell, so no ward card is on both sides of the disagreement. I support t-03; the divergence f-008 points at is a one-point wording question owned by the armor chapter.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "Every one of the three cards asks for exactly as many Protection ranks as the points it hands out: 1/1, 2/2, 3/3, which satisfies the owner's requirement that a grant carry at least as many ranks as its size.",
+      "quote_or_excerpt": "ranks: 1/1, 2/2, 3/3 (Glass, Crystal, Adamant)"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The armor chapter requires ranks at least equal to the size of a grant and states the armor column on the same scale (16:31).",
+      "quote_or_excerpt": "DR granted by an ability for a stated duration adds"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "Its worked example names this ladder's middle ward, sets armour at 1 against the ward's 2, takes the larger single number and then subtracts it from a Weak hit and a Standard hit; my recomputation of both subtractions matches the text exactly (4 - 2 = 2 and 6 - 2 = 4), so the owner itself treats a ward as a non-adding source.",
+      "quote_or_excerpt": "his DR is the higher of the two, 2"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Recomputed ladder ceiling: the top ward's 3 equals the Novice ceiling of 3 and stays under the Adept 4 and Master 6, so no ward value can cross a ceiling on its own.",
+      "quote_or_excerpt": "ladder max 3 vs ceilings 3/4/6 -> never over"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The adding bucket in the owner's second paragraph sums to 8 at its printed values (1 + 2 + 2 + 1 + 2), which is 2 past the Master ceiling and 5 past the Novice one, so reading it as making all five add simultaneously is overruled by the chapter's own ceiling anyway; the worst divergence between the two readings is the one point f-008's example shape shows.",
+      "quote_or_excerpt": "sum 1+2+2+1+2 = 8 > 6 (Master) > 3 (Novice)"
+    },
+    {
+      "source": "05-classes.qmd",
+      "claim": "Four of the five effects the adding paragraph names are class capabilities granting DR for a stated duration: Warding Touch at +1 for one adjacent ally (05:581), Shield of Faith at +2 (05:585), Bulwark at +2 for self and adjacent allies (05:681), Ironhide at +1 (05:683). None is a spell.",
+      "quote_or_excerpt": "One adjacent ally gains +1 DR"
+    },
+    {
+      "source": "09-talents-abilities.qmd",
+      "claim": "The fifth is a Novice talent granting +2 to adjacent allies for a round (09:94), so the count across the paragraph is four capabilities plus one talent and zero ward cards.",
+      "quote_or_excerpt": "adjacent allies gain +2 DR until the start of your next turn"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Each ward card prints its own refusal to stack, so the specific text on the card governs the ward's interaction with steel and other DR sources.",
+      "quote_or_excerpt": "This DR does not stack with any other source of DR"
+    },
+    {
+      "source": "12-divine-spells.qmd",
+      "claim": "The divine copies keep the same refusal line on their cards (12:166), so the drift is confined to a preamble sentence that the arcane copy carries and the divine one does not, not to the numbers on the cards.",
+      "quote_or_excerpt": "This DR does not stack with any other source"
+    }
+  ],
+  "confidence": 0.68,
+  "rebutting": ["f-008"]
+}

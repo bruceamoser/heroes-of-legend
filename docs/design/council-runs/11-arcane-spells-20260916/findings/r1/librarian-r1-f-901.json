@@ -1,0 +1,32 @@
+{
+  "id": "f-901",
+  "round": 1,
+  "role": "librarian",
+  "topic": "t-03",
+  "stance": "support",
+  "argument": "The cantrip ladder this file inherits collides with the row it is measured against, at one rung. The magic chapter fixes the cantrip damage line at one, three and five, describes that placement as sitting deliberately beneath the Novice row, and supplies the reason: an effect that costs the caster nothing should not land as hard as one paid for with DP (10-magic-system:75-77). The weakest figure on the Novice row is four (10-magic-system:46). Three cantrips in this file cap at five on their top rung (lines 56, 101, 110), so the free ladder's best number sits one point above the paid row's worst number and the two ladders cross at exactly that point. The same ceiling question also appears on scope rather than damage: Erratum's top rung takes a written word off each copy of a page in reach (line 128), while the Master card Struck Through opens by taking a word off every page in sight (line 624) at a price of eight DP, and reach is the only separator between the two effects. Disposition: MECHANICAL, multi-file in one direction only. The file's three lines do not move, because the cantrip ladder is part of the locked convention and the Novice row is a locked value; what fails is the owning chapter's comparative clause, and a clause is a wording fix that changes no number and frees no mechanic. If the principal instead wants the comparison to hold arithmetically, that reading is SUBSTANTIVE and spreads across the run convention, three card rungs and one budget row, which no seat on this council can settle. I therefore rule MECHANICAL, name 10-magic-system:77 as the edit site, and record the wider reading as the escalation path.",
+  "evidence": [
+    {
+      "source": "10-magic-system",
+      "claim": "The owning chapter fixes the cantrip damage line at one, three and five and states that this placement is meant to sit under the Novice row, giving as its reason that a no-cost effect should not reach the weight of a purchased card (10-magic-system:75-77).",
+      "quote_or_excerpt": "A cantrip's damage line is 1/3/5, deliberately below the Novice row."
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The three cantrips that deal damage end at five on their top rung (11:56, 11:101, 11:110), while the first value on the Novice row is four, so the inherited ladder is not under the row at every rung (10-magic-system:46).",
+      "quote_or_excerpt": "5 cold damage / 5 lightning damage / 5 acid damage"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "A free cantrip's strongest rung and an eight-DP Master card's weakest rung remove the same kind of thing from the same medium, differing in reach rather than in kind (11:128 against 11:624).",
+      "quote_or_excerpt": "One word vanishes from every page you can see (11:624)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Arithmetic on the two locked ladders: four is the lowest Novice figure and five is the highest cantrip figure, so the crossing happens once, and no other cantrip rung meets a budget-row value.",
+      "quote_or_excerpt": "4 (Novice floor, 10-magic-system:46) against 5 (cantrip ceiling, 11:56, 101, 110)"
+    }
+  ],
+  "confidence": 0.68,
+  "rebutting": []
+}

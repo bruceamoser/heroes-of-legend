@@ -1,0 +1,46 @@
+{
+  "id": "f-003",
+  "round": 1,
+  "role": "editor-in-chief",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "Chapter 08 carries the book's only prose rule that turns equipment into a Discipline gate, and the two chapters it sends the reader to for that rule have no column the rule could live in. The armour tables in the equipment and armour chapters are built from item name, weight class, DR and slot count; there is no Discipline column in either, so the single value the passage prints for heavy plate is uncheckable anywhere in the book, and a reader who trusts it spends Development Points on a third Armor rank that no table requires. That is broken rather than merely incomplete: the reader acts on it and loses a scarce resource. It is also the defect the purge edit must not swallow, because this passage and the Maul rows are together the only places in the corpus that justify third ranks of Armor and Heavy Weapon. Delete the named catalog without adjudicating the passage and two purchasable ranks lose their sole consumer while the text keeps pointing at tables that never held the number. The smallest closing fix: in chapter 08 state that Disciplines gate cards and not gear, matching the kit-gear callout that already releases a class starting kit from prerequisites, and either strike the armour instance or give the armour tables in chapters 15 and 16 a real Discipline column; the rank-3 clause must be decided explicitly in the purge plan, not dropped.",
+  "evidence": [
+    {
+      "source": "08-disciplines",
+      "claim": "The disciplines chapter states that weapons, armour and shields may carry their own Discipline entry requirements, and its worked enumeration includes heavy plate at three Armor ranks, directing the reader to the equipment and armour chapters for the requirement.",
+      "quote_or_excerpt": "Plate 3 Armor"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The armour table in the armour chapter is built from armour name, weight class, DR, slots and notes only; it has no Discipline column, so no entry requirement for any armour is recorded there.",
+      "quote_or_excerpt": "[Armor], [Class], [DR], [Slots], [Notes]"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The armour table in the equipment chapter repeats the same four columns and likewise carries no Discipline requirement, so neither chapter cited by the chapter 08 rule holds the value it asserts.",
+      "quote_or_excerpt": "[Armor], [Class], [DR], [Slots]"
+    },
+    {
+      "source": "05-classes",
+      "claim": "No prerequisite cell in any class ability table asks for a third Armor rank; the highest Armor requirement stated on any card is two, so the third Armor rank has no card-level consumer.",
+      "quote_or_excerpt": "[*Ironhide*], [Adept], [2 Armor]"
+    },
+    {
+      "source": "reasoning",
+      "claim": "A full-text scan of the nine supplied chapters confirms the exhaustiveness of the only-consumer claim: the three-Armor string occurs exactly once, in the chapter 08 passage, and the three-Heavy-Weapon string occurs only on the Maul rows of the equipment and reference-sheet tables. By contrast the third rank of Energy does have a real card prerequisite, so the book does use third ranks when a card justifies one.",
+      "quote_or_excerpt": "'3 Armor' -> 1 hit, 08-disciplines:192; '3 Heavy Weapon' -> 2 hits, 15-equipment:182 and 22-reference-sheets:384; '3 Energy' -> 1 hit, 05-classes:711 (Master card Overload)"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The kit-gear callout already releases a class starting kit from Discipline prerequisites, so the chapter 08 equipment gate is a second, contradictory permission model standing beside the kit model that the same book declares to be the equipment system.",
+      "quote_or_excerpt": "use kit armor and shields regardless of Discipline prerequisites"
+    },
+    {
+      "source": "22-reference-sheets",
+      "claim": "The quick-reference register re-lists the named weapon, armour, gear, mount and vehicle tables, and its shield table is the only lookup surface in the book that tabs a Discipline requirement for a shield, so the register is asymmetric and never carries an armour equivalent of the plate value.",
+      "quote_or_excerpt": "table.header([Shield], [Protection Req], [Grants],)"
+    }
+  ],
+  "confidence": 0.84
+}

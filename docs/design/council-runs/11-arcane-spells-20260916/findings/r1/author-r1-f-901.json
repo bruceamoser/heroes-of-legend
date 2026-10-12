@@ -1,0 +1,32 @@
+{
+  "id": "f-901",
+  "round": 1,
+  "role": "author",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "The Protection trio at 643, 650 and 657 reuses three card names the divine chapter already owns at 12:161, 12:197 and 12:220, with the same Discipline counts, the same DR steps and the same upkeep sentence, so the book now ships two identically titled ladders. The family's own precedent says a later tradition gets fresh names: when the primal branch of that same ladder was written it was renamed at 12:170, 12:204 and 12:227, and nothing about the arcane trio needs the divine wording to function. The bill comes due in the armor chapter, which cites the ladder bare at 16:33, 16:102 and 16:108; a reader following those examples cannot say which chapter's card they need, and every other surface is mute: a heading sweep of all chapters returns exactly three cross-chapter card-name collisions, all three this trio (11:643 with 12:161, 11:650 with 12:197, 11:657 with 12:220), while a grep of the glossary and the reference sheets for the three names returns zero hits, so nothing downstream settles the question. Minimal fix: rename the arcane three on the primal pattern, or delete them, since a divine or primal caster already buys identical numbers at an identical price.",
+  "evidence": [
+    {
+      "source": "12-divine-spells.qmd",
+      "claim": "The divine file prints the same three card names at 12:161, 12:197 and 12:220, keyed to Protection and carrying the same values as the arcane trio at 643, 650 and 657.",
+      "quote_or_excerpt": "Bark Skin, Stone Skin, and Iron Skin"
+    },
+    {
+      "source": "12-divine-spells.qmd",
+      "claim": "When the primal version of this ladder was added it received three fresh names rather than the divine titling, at 12:170, 12:204 and 12:227.",
+      "quote_or_excerpt": "Beast Hide, Scaled Hide, and Carapace"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The armor chapter's worked examples cite the ladder with no tradition marker at 16:33, 16:102 and 16:108, so a reader cannot tell which of the two identically named cards is meant.",
+      "quote_or_excerpt": "He is also under Stone Skin"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Heading sweep of every chapter in the book returns exactly three cross-chapter card-name collisions, and all three are this trio (11:643/650/657 against 12:161/197/220); grep of 21-glossary.qmd and 22-reference-sheets.qmd for the three names returns zero hits.",
+      "quote_or_excerpt": "sweep: 3 collisions, all this trio; glossary + reference sheets: 0 hits"
+    }
+  ],
+  "confidence": 0.85,
+  "rebutting": []
+}

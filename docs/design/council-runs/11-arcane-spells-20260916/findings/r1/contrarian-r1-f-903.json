@@ -1,0 +1,32 @@
+{
+  "id": "f-903",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "The cantrip section tells the reader that every arcane caster knows the whole list and may cast without limit, every round, at no Discipline cost (11-arcane-spells:27), and then prints cards whose effects outlast the scene without ever saying how many may be live at once. A permanent mark (line 32), an illusion lasting up to an hour (line 77) and an ordinary object that goes unnoticed for a day (line 164) can therefore all be maintained simultaneously, one casting per round, by a caster who casts nothing else - and the section supplies no count, no slot and no stacking rule. The file demonstrably knows how to bound an instance: one cantrip replaces its own earlier mark and another lasts only while a coin is unspent (lines 135, 137), so the omission on the day-long concealment is a gap rather than a house style. Two further cantrips hand a creature a Bane on its next roll (lines 47 and 56), which a caster can renew every round for free. The locked 1/3/5 cantrip line is not in question here; the defect is the missing instance cap, not the printed numbers.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "Cantrip section:27 grants unlimited every-round casting with no Discipline requirement and states that all arcane casters know every card on the list.",
+      "quote_or_excerpt": "cast them as often as you like, at-will, every round"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Nothing to See:164 lets one ordinary object go unnoticed for a day with no stated limit on simultaneous objects, and no rule in the section caps how many day-long castings a caster may keep running.",
+      "quote_or_excerpt": "one ordinary object of small size draws no wandering eye"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Paperweight:135 bounds its own effect by replacing the earlier mark when a new coin is marked, proving the file writes instance caps when it wants them, while the day-long concealment at 11-arcane-spells:164 carries none.",
+      "quote_or_excerpt": "until you mark another coin"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Frost Touch:56 places a Bane on the target's next physical action as a Strong outcome, and Dancing Lights:47 keys the same tag to a creature's next attack, so a caster who only cantrips can tax a roll every round indefinitely for nothing.",
+      "quote_or_excerpt": "Target's next physical action has Bane"
+    }
+  ],
+  "confidence": 0.6,
+  "rebutting": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "contrarian-r2-f005",
+  "round": 2,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "support",
+  "argument": "Recomputation before verdict. Two rungs of this card print a derived second figure: the middle rung pairs six with two, the top rung pairs eight with four. Halving each parent gives three and four, so only the middle pair was one point short; the top pair already obeyed the rule as printed. The merged text now reads three on the middle line, which is the value my round-one arithmetic asked for, so the filing describes a line the manuscript no longer carries and should stop blocking this topic. Two supporting claims of my own fail under the same recomputation and I withdraw them rather than let them ride: the retired-row story my filing leaned on was never the operative test, because the corrected three is no live row's value either and the opener's instruction to round a halved figure down is what actually governs; and demanding one constant proportion between the two derived figures imported a rule this chapter never states, since each figure is halved from its own parent, which is why three and four are the correct pair and my old rising-by-a-third comparison measured nothing. What survives from my filing is the single point of cold on an Adept card, carried by a different finding on this topic, which I deliberately leave un-rebutted. Class: MECHANICAL, closed by the merge.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "The middle line now prints a derived figure of three against its own headline of six, which is the value my round-one arithmetic asked for at this site.",
+      "quote_or_excerpt": "passes through to one target behind for 3 fire damage"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The top line pairs a headline of eight with a derived four, so that rung obeyed the halving rule before the merge and only the middle rung moved.",
+      "quote_or_excerpt": "8 fire damage; 4 fire damage to one target behind"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Arithmetic: six divided by two is three and eight divided by two is four, so the expected derived pair is three and four; the pre-fix file printed two and four.",
+      "quote_or_excerpt": "6/2 = 3; 8/2 = 4; pre-fix printed 2 and 4"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The single point of cold on the Adept card on this topic is untouched by the merge and remains the live conformance item here.",
+      "quote_or_excerpt": "creatures starting their turn there take 1 cold damage"
+    }
+  ],
+  "confidence": 0.74,
+  "rebutting": ["f-005"]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "f-904",
+  "round": 1,
+  "role": "contrarian",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "The ward section states an absolute model of damage reduction - one source at a time, use the higher of the ward and the steel, never additive (11-arcane-spells:641) - and each of the three cards repeats that its DR never stacks with another source (lines 648, 655 and 662). The chapter that owns DR law prints a split model instead: one paragraph puts armour, talents and spells in the single-source bucket and takes the highest, a later paragraph moves DR granted by an ability for a stated duration into an adding bucket, and its own example list names five such granters (16-armor-shields.qmd:23, 16-armor-shields.qmd:29). One of those named examples is a Novice Protection talent that hands out +2 DR until the granter's next turn (09-talents-abilities.qmd:94-97), and that talent is a talent - which the first paragraph had already filed as a source. The discriminator the owner uses is duration, not card type, and the ward the arcane chapter prints is a duration-limited DR grant of the same shape, so a warded caster who is also under such a grant has two defensible totals and nothing in this file, or in the owner, chooses between them. A Novice in light armour who holds that talent sits at one point of DR under the source paragraph and three under the adding paragraph. The same ladder also has a second home: the identical three names and values are printed under the divine heading, where the copy has lost the no-add sentence entirely (12-divine-spells.qmd:159), and the book's own precedent for a third tradition is to rename the ladder rather than reuse the names (12-divine-spells.qmd:168) - so the two homes have already drifted apart and the shared names look like an oversight.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "The ward section at 11-arcane-spells:641 states that a ward never adds to armour and resolves against armour by taking the higher value, and each ladder card at 11-arcane-spells:648, 655 and 662 forbids stacking with any other source.",
+      "quote_or_excerpt": "use the higher of the ward and the steel"
+    },
+    {
+      "source": "16-armor-shields.qmd",
+      "claim": "The DR-owning chapter splits duration-granted DR out of its source rule and makes it add, naming five granters - while an earlier paragraph of the same chapter files talents and spells among the single-source group (16-armor-shields.qmd:23, 16-armor-shields.qmd:29).",
+      "quote_or_excerpt": "A temporary grant is not a source you carry: it adds"
+    },
+    {
+      "source": "09-talents-abilities.qmd",
+      "claim": "One of the grants the owner names is a Novice Protection talent that gives an adjacent ally +2 DR until the granter's next turn (09-talents-abilities.qmd:94-97), so a Novice in light armour reaches one or three DR depending on which paragraph the table reads.",
+      "quote_or_excerpt": "adjacent allies gain +2 DR until the start of your next turn"
+    },
+    {
+      "source": "12-divine-spells.qmd",
+      "claim": "The same three ward names and values are printed a second time under the divine heading with the no-add sentence removed (12-divine-spells.qmd:159), and the primal twin of the ladder is renamed (12-divine-spells.qmd:168), leaving the shared names unsupported by precedent.",
+      "quote_or_excerpt": "the primal twin of the ladder wears an animal's hide"
+    }
+  ],
+  "confidence": 0.65,
+  "rebutting": []
+}

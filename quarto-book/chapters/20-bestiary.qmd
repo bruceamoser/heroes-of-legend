@@ -21,13 +21,16 @@ Monsters use the same rules as heroes, attributes, skills, and W/S/S damage. If 
   align: (auto, auto,),
   table.header([Field], [Description],),
   [*Name*], [Creature type and challenge rating],
-  [*Attributes*], [B/F/A/G/K/R modifiers. Most monsters have 0s in attributes they don't use.],
-  [*HP*], [Health points. When this hits 0, the creature is defeated.],
+  [*Attributes*], [B/F/A/G/K/R modifiers, from -2 to +2. Most monsters have 0s in the attributes they don't use, so a block lists only the ones it does use and finishes with *others +0*. A block with no Attributes line uses +0 in every attribute.],
+  [*HP*], [Health points. When this hits 0, the creature is defeated. The printed figure is the group rate: three rounds of one attacker, which is what a creature standing in a field of five faces. A block the party may meet on its own prints its solo figure beside that number, sized for four attackers, and that is the one to use when the creature fights the whole party alone.],
   [*DR*], [Damage reduction. Subtract from physical damage just like hero armor.],
   [*Attacks*], [W/S/S damage per attack. Weak/Standard/Strong values.],
-  [*Recharge*], [A one-per-encounter ability that may return. At the start of the monster's turn, roll 1d6; on a 5-6, the ability is ready again.],
+  [*Multiattack*], [The creature's attack routine: every attack named on the line is made as one action, so a creature with this line spends its action on all of them rather than on one. A block that prints no Multiattack line attacks once.],
+  [*Recharge*], [A one-per-encounter ability that may return. At the start of the monster's turn, a player rolls 1d6; on a 5-6, the ability is ready again.],
   [*Abilities*], [Special powers. These override the normal rules, the stat block always wins.],
 )], kind: table, numbering: none, outlined: false)
+
+*The block says what it can do, not what it wants.* Its target is your call, and its abilities are the tactics to make that call with: a Recharge line, a Multiattack or a condition on a hit is the turn the creature was built for, so give it room to take it. When the fight turns, it checks morale like any other creature (@sec-morale), unless its block prints its own Morale clause, which overrides that default.
 
 #pagebreak()
 
@@ -39,7 +42,7 @@ HP 17, DR 0. Attributes: Brawn 0, Fortitude 0, Agility +1, Guile 0, Knowledge 0,
 
 *Bite:* 4/6/8.
 
-*Pack Tactics:* Boon on attacks when an ally is adjacent.
+*Pack Tactics:* Boon on attacks when an ally is adjacent (a Bane on the defender's roll).
 
 === Dire Wolf (Challenge 1)
 
@@ -47,9 +50,9 @@ HP 14, DR 1. Attributes: Brawn +1, Fortitude +1, Agility 0, Guile 0, Knowledge 0
 
 *Bite:* 4/6/8.
 
-*Pack Tactics:* Boon on attacks when an ally is adjacent.
+*Pack Tactics:* Boon on attacks when an ally is adjacent (a Bane on the defender's roll).
 
-*Knockdown:* On Strong hit, target must succeed Agility check or be knocked Prone.
+*Knockdown:* On Strong hit, target is knocked Prone.
 
 === Bear (Challenge 2)
 
@@ -65,7 +68,7 @@ HP 11, DR 2. Attributes: Brawn +2, Fortitude +1, Agility -1, Guile 0, Knowledge 
 
 HP 17, DR 0. Attributes: Brawn 0, Fortitude 0, Agility +2, Guile 0, Knowledge 0, Reason 0.
 
-*Bite:* 4/6/8 + poison (Fortitude check or Poisoned 2).
+*Bite:* 4/6/8 + Poisoned 2 on a Strong hit.
 
 *Web (Recharge):* Ranged attack that Restrains target on hit.
 
@@ -75,19 +78,19 @@ HP 17, DR 0. Attributes: Brawn -1, Fortitude 0, Agility 0, Guile 0, Knowledge -1
 
 *Bites:* Automatic 1 damage to all in space.
 
-*Immune:* Single-target attacks.
+*Swarming:* half damage from slashing, piercing, and bludgeoning attacks.
 
 *Vulnerable: Area Effects (takes double damage from area effects).*
 
 === Stirge (Challenge 1/2)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Agility +2, Brawn -2, others +0.
 
 *Proboscis:* 4/6/8 piercing + attach. On a hit, the stirge latches onto the target. While attached, it automatically deals 2 damage each round. A creature can use a Maneuver to make a Brawn check to detach the stirge. Tiny flyer, the stirge dies if it takes any damage while attached.
 
 === Dire Boar (Challenge 2)
 
-HP 11, DR 2.
+HP 11, DR 2. Attributes: Brawn +2, Fortitude +1, others +0.
 
 *Gore:* 4/6/8.
 
@@ -99,23 +102,23 @@ HP 11, DR 2.
 
 === Bandit (Challenge 1/2)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Agility +1, others +0.
 
 *Shortsword:* 4/6/8.
 
 *Shortbow:* 4/6/8.
 
-*Pack Tactics:* Boon on attacks when an ally is adjacent.
+*Pack Tactics:* Boon on attacks when an ally is adjacent (a Bane on the defender's roll).
 
 === Guard (Challenge 1/2)
 
-HP 14, DR 2 (chain shirt and a shield).
+HP 14, DR 2 (chain shirt and a shield). Attributes: Brawn +1, Fortitude +1, others +0.
 
 *Spear:* 4/6/8.
 
 === Cultist (Challenge 1/2)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Fortitude +1, Guile +1, others +0.
 
 *Dagger:* 4/6/8.
 
@@ -125,25 +128,27 @@ HP 17, DR 0.
 
 === Knight (Challenge 3)
 
-HP 10, DR 4 (plate).
+HP 10, DR 3 (plate). Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
 
 *Longsword:* 5/8/11.
 
-*Shield Block:* reaction.
+*Shield Block:* reaction, one attack per round. One attack against the knight is at Bane (a Boon on the knight's defense).
 
-*Leadership:* allies within 10 ft have Boon on attacks.
+*Leadership:* allies within 10 ft have Boon on attacks (a Bane on the defender's roll). The knight holds the center of its formation and meets the strongest enemy in front of it rather than chasing a caster.
 
 === Archmage (Challenge 6)
 
-HP 16, DR 2.
+HP 16, DR 2. Solo: 64, sized for four attackers. Attributes: Knowledge +2, Reason +1, Brawn -1, others +0.
 
 *Dagger:* 5/8/11.
 
-*Ember Lance:* 2/4/6 (at will).
+*Ember Lance:* 4/6/8 (at will).
 
-*Brimstone Burst:* 4/6/8 (once per encounter).
+*Brimstone Burst:* 5/8/11 (once per encounter).
 
-*Counterspell:* reaction to negate a spell.
+*Multiattack:* Ember Lance twice.
+
+*Counterspell:* reaction to negate a spell. The archmage keeps its distance and holds its reaction for the party's caster rather than closing to trade dagger blows.
 
 *Magical Ward:* +2 DR vs spells.
 
@@ -151,7 +156,7 @@ HP 16, DR 2.
 
 === Goblin (Challenge 1/2)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Agility +1, Brawn -1, others +0.
 
 *Scimitar:* 4/6/8 slashing.
 
@@ -165,7 +170,7 @@ HP 17, DR 0.
 
 === Hobgoblin (Challenge 1/2)
 
-HP 14, DR 1 (chain shirt).
+HP 14, DR 1 (chain shirt). Attributes: Brawn +1, Fortitude +1, others +0.
 
 *Longsword:* 4/6/8 slashing.
 
@@ -177,7 +182,7 @@ HP 14, DR 1 (chain shirt).
 
 === Bugbear (Challenge 1)
 
-HP 14, DR 1 (hide).
+HP 14, DR 1 (hide). Attributes: Brawn +2, Agility +1, others +0.
 
 *Morningstar:* 4/6/8 bludgeoning. Reach 10 ft.
 
@@ -191,7 +196,7 @@ HP 14, DR 1 (hide).
 
 === Goblin Shaman (Challenge 1)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Guile +1, Knowledge +1, others +0.
 
 *Staff:* 4/6/8 bludgeoning.
 
@@ -207,7 +212,7 @@ HP 17, DR 0.
 
 === Orc (Challenge 1/2)
 
-HP 14, DR 1 (hide).
+HP 14, DR 1 (hide). Attributes: Brawn +1, Fortitude +1, others +0.
 
 *Greataxe:* 4/6/8 slashing.
 
@@ -219,7 +224,7 @@ HP 14, DR 1 (hide).
 
 === Orc Warchief (Challenge 3)
 
-HP 10, DR 4 (plate).
+HP 10, DR 3 (plate). Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
 
 *Greataxe:* 5/8/11 slashing.
 
@@ -227,7 +232,7 @@ HP 10, DR 4 (plate).
 
 *Multiattack:* Greataxe twice.
 
-*War Cry (Recharge):* all orc allies within 30 ft gain +1 damage tier on their next attack.
+*War Cry (Recharge):* all orc allies within 30 ft gain +1 damage tier on their next attack. The warchief stays inside its warband and withdraws when the last orc beside it falls.
 
 *Relentless:* as Orc.
 
@@ -246,7 +251,7 @@ _Placeholder for final art._
 
 === Skeleton (Challenge 1/2)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Agility +1, Brawn -1, others +0.
 
 *Shortsword:* 4/6/8.
 
@@ -258,7 +263,7 @@ HP 17, DR 0.
 
 === Zombie (Challenge 1/2)
 
-HP 14, DR 1.
+HP 14, DR 1. Attributes: Brawn +1, Fortitude +1, others +0.
 
 *Slam:* 4/6/8.
 
@@ -268,31 +273,31 @@ HP 14, DR 1.
 
 === Ghoul (Challenge 1)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Agility +2, Brawn +1, others +0.
 
 *Claw:* 4/6/8.
 
 *Bite:* 4/6/8.
 
-*Paralyzing Touch:* on Strong claw hit, target must make a Fortitude check or be Paralyzed for 1 round.
+*Paralyzing Touch:* on Strong claw hit, target is Paralyzed for 1 round.
 
 === Wraith (Challenge 3)
 
-HP 14, DR 3 (non-magical).
+HP 14, DR 3 (non-magical). Attributes: Agility +2, Guile +1, others +0.
 
 *Life Drain:* 5/8/11 necrotic.
-
-*Incorporeal:* half damage from non-magical physical attacks.
 
 *Create Specter:* humanoid killed by Life Drain rises as a specter under the wraith's control at next sunset.
 
 === Lich (Challenge 10)
 
-HP 17, DR 4.
+HP 17, DR 4. Solo: 68, sized for four attackers. Attributes: Knowledge +2, Reason +1, Brawn -1, others +0.
 
-*Paralyzing Touch:* 7/10/14 cold + Paralyzed (Fortitude check).
+*Paralyzing Touch:* 7/10/14 cold + Paralyzed for 1 round on a Strong hit.
 
 *Disrupt Life:* 7/10/14 necrotic (30 ft radius, 1/day).
+
+*Multiattack:* Paralyzing Touch twice.
 
 *Spellcasting:* as 10th-level Arcanist.
 
@@ -302,7 +307,7 @@ HP 17, DR 4.
 
 === Owlbear (Challenge 2)
 
-HP 14, DR 1.
+HP 14, DR 1. Attributes: Brawn +2, Fortitude +1, Agility -1, others +0.
 
 *Claw:* 4/6/8.
 
@@ -312,7 +317,7 @@ HP 14, DR 1.
 
 === Basilisk (Challenge 3)
 
-HP 16, DR 2.
+HP 16, DR 2. Attributes: Brawn +2, Fortitude +1, others +0.
 
 *Bite:* 5/8/11 + poison.
 
@@ -320,7 +325,7 @@ HP 16, DR 2.
 
 === Chimera (Challenge 5)
 
-HP 16, DR 2.
+HP 16, DR 2. Attributes: Brawn +2, Fortitude +2, others +0.
 
 *Bite:* 5/8/11.
 
@@ -334,7 +339,7 @@ HP 16, DR 2.
 
 === Harpy (Challenge 1)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Guile +2, Agility +1, others +0.
 
 *Claw:* 4/6/8 slashing.
 
@@ -346,7 +351,7 @@ HP 17, DR 0.
 
 === Minotaur (Challenge 3)
 
-HP 16, DR 2 (natural hide).
+HP 16, DR 2 (natural hide). Attributes: Brawn +2, Fortitude +1, others +0.
 
 *Greataxe:* 5/8/11 slashing.
 
@@ -358,11 +363,11 @@ HP 16, DR 2 (natural hide).
 
 === Rust Monster (Challenge 2)
 
-HP 11, DR 2 (chitin).
+HP 11, DR 2 (chitin). Attributes: Agility +2, Brawn -1, others +0.
 
 *Bite:* 4/6/8 piercing.
 
-*Rusting Antennae:* as an action, the rust monster touches a metal weapon or suit of armor. Metal armor permanently loses 1 DR (to a minimum of 0). Metal weapons permanently deal damage one tier lower (to a minimum of Weak). If an item's DR or damage is reduced to its minimum, the item is destroyed. Non-metal items are unaffected.
+*Rusting Antennae:* as an action, the rust monster touches a metal weapon or suit of armor. A metal armor card permanently loses 1 DR (to a minimum of 0). Metal weapons permanently deal damage one tier lower (to a minimum of Weak). If a card's DR or a weapon's damage is reduced to its minimum, the item is destroyed. Non-metal items are unaffected.
 
 *Scent Metal:* the rust monster can detect the presence of metal within 60 ft.
 
@@ -372,7 +377,7 @@ HP 11, DR 2 (chitin).
 
 === Pixie (Challenge 1/2)
 
-HP 17, DR 0. Tiny.
+HP 17, DR 0. Tiny. Attributes: Agility +2, Brawn -2, Guile +1, others +0.
 
 *Invisible:* permanently invisible.
 
@@ -382,7 +387,7 @@ HP 17, DR 0. Tiny.
 
 === Dryad (Challenge 1)
 
-HP 17, DR 0.
+HP 17, DR 0. Attributes: Guile +2, others +0.
 
 *Club:* 4/6/8.
 
@@ -394,7 +399,7 @@ HP 17, DR 0.
 
 === Green Hag (Challenge 3)
 
-HP 16, DR 2.
+HP 16, DR 2. Attributes: Guile +2, Reason +1, others +0.
 
 *Claw:* 5/8/11.
 
@@ -402,7 +407,19 @@ HP 16, DR 2.
 
 *Vicious Mockery:* 5/8/11 psychic + Bane on next attack (at will).
 
-*Coven Magic:* when 3 hags are within 30 ft, they share spellcasting.
+*Coven Magic:* when 3 hags are within 30 ft, they share spellcasting. The coven fights as one knot, and a hag separated from her sisters falls back to rejoin them.
+
+=== Wild Hunt Rider (Challenge 9)
+
+HP 11, DR 6. Solo: 44, sized for four attackers. Attributes: Guile +2, Agility +2, Brawn +1, others +0.
+
+*Spectral Lance:* 7/10/14 piercing (reach 10 ft).
+
+*Multiattack:* Spectral Lance twice.
+
+*Hunts the Wounded:* the rider has Boon on attacks against a creature that is below its maximum HP (a Bane on the defender's roll). It marks the party's weakest hero at the start of the fight and calls the rest of the hunt onto the same mark.
+
+*Flickering Glamour:* attacks against the rider made from more than 30 ft away deal damage one tier lower.
 
 #pagebreak()
 
@@ -410,7 +427,7 @@ HP 16, DR 2.
 
 === Wyrmling (Challenge 3)
 
-HP 14, DR 3.
+HP 14, DR 3. Attributes: Brawn +2, Fortitude +1, others +0.
 
 *Bite:* 5/8/11.
 
@@ -418,7 +435,7 @@ HP 14, DR 3.
 
 === Young Dragon (Challenge 6)
 
-HP 10, DR 4.
+HP 10, DR 4. Solo: 40, sized for four attackers. Attributes: Brawn +2, Fortitude +2, others +0.
 
 *Bite:* 5/8/11.
 
@@ -432,7 +449,7 @@ HP 10, DR 4.
 
 === Ancient Dragon (Challenge 12)
 
-HP 11, DR 6.
+HP 11, DR 6. Solo: 44, sized for four attackers. Attributes: Brawn +2, Fortitude +2, Guile +1, Reason +1, others +0.
 
 *Bite:* 7/10/14.
 
@@ -454,7 +471,7 @@ HP 11, DR 6.
 
 === Fire Elemental (Challenge 4)
 
-HP 16, DR 2.
+HP 16, DR 2. Attributes: Agility +2, Brawn +1, others +0.
 
 *Slam:* 5/8/11 fire.
 
@@ -464,7 +481,7 @@ HP 16, DR 2.
 
 === Water Elemental (Challenge 4)
 
-HP 16, DR 2.
+HP 16, DR 2. Attributes: Brawn +2, Fortitude +1, others +0.
 
 *Slam:* 5/8/11 bludgeoning.
 
@@ -478,7 +495,7 @@ HP 16, DR 2.
 
 === Hill Giant (Challenge 5)
 
-HP 16, DR 2.
+HP 16, DR 2. Attributes: Brawn +2, Fortitude +2, Agility -1, others +0.
 
 *Greatclub:* 5/8/11.
 
@@ -488,17 +505,31 @@ HP 16, DR 2.
 
 === Stone Giant (Challenge 7)
 
-HP 17, DR 4.
+HP 17, DR 4. Solo: 68, sized for four attackers. Attributes: Brawn +2, Fortitude +2, Agility +1, others +0.
 
 *Greatclub:* 7/10/14.
 
 *Rock:* 7/10/14 (range 60/240).
 
+*Multiattack:* Greatclub twice.
+
 *Stone Camouflage:* Boon on Stealth in rocky terrain.
+
+=== Storm Giant (Challenge 9)
+
+HP 14, DR 5. Solo: 56, sized for four attackers. Attributes: Brawn +2, Fortitude +2, Agility +1, Knowledge +1, others +0.
+
+*Storm Axe:* 7/10/14 slashing.
+
+*Lightning Bolt:* 7/10/14 lightning (range 120 ft).
+
+*Multiattack:* Storm Axe twice, or Lightning Bolt then Storm Axe.
+
+*Thunderclap (Recharge):* every creature within 30 ft must make a Fortitude check or be knocked Prone and Deafened until the end of its next turn. The giant prefers the party's tightest knot for the thunderclap, then closes on whoever is left standing alone.
 
 === Ogre (Challenge 2)
 
-HP 11, DR 2 (thick hide).
+HP 11, DR 2 (thick hide). Attributes: Brawn +2, Fortitude +1, Agility -1, others +0.
 
 *Greatclub:* 4/6/8 bludgeoning. Reach 10 ft.
 
@@ -514,11 +545,13 @@ HP 11, DR 2 (thick hide).
 
 === Vrock (Demon, Challenge 6)
 
-HP 18, DR 3.
+HP 18, DR 3. Solo: 72, sized for four attackers. Attributes: Brawn +2, Fortitude +2, Agility +1, others +0.
 
 *Claw:* 5/8/11.
 
 *Bite:* 5/8/11.
+
+*Multiattack:* Claw + Bite.
 
 *Spores (Recharge):* all within 15 ft take 5/8/11 poison.
 
@@ -528,7 +561,7 @@ HP 18, DR 3.
 
 === Barbed Devil (Challenge 5)
 
-HP 10, DR 4.
+HP 10, DR 4. Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
 
 *Claw:* 5/8/11 slashing.
 
@@ -538,11 +571,23 @@ HP 10, DR 4.
 
 *Magic Resistance:* Boon on checks vs spells.
 
+=== Archdemon (Challenge 11)
+
+HP 14, DR 5. Solo: 56, sized for four attackers. Attributes: Brawn +2, Guile +2, Fortitude +1, Reason +1, others +0.
+
+*Hellblade:* 7/10/14 slashing + fire.
+
+*Multiattack:* Hellblade twice.
+
+*Hellfire (Recharge):* 7/10/14 fire + necrotic (30 ft radius).
+
+*Devour the Fallen:* when a creature within 30 ft drops to 0 HP, the archdemon regains 7 HP. It prefers whoever is already bleeding, and leaves the party's strongest hero for last.
+
 == Oozes
 
 === Gelatinous Cube (Challenge 3)
 
-HP 20, DR 1.
+HP 20, DR 1. Attributes: Brawn +2, Fortitude +2, Agility -2, others +0.
 
 *Pseudopod:* 5/8/11 acid.
 
@@ -554,7 +599,7 @@ HP 20, DR 1.
 
 === Doppelganger (Challenge 3)
 
-HP 20, DR 1.
+HP 20, DR 1. Attributes: Guile +2, Agility +1, others +0.
 
 *Slam:* 5/8/11 bludgeoning.
 
@@ -622,7 +667,7 @@ HP 16, DR 2. Attributes: Agility +2, Reason +1, others +0.
 
 === Death Knight (Challenge 8)
 
-HP 11, DR 6 (plate + unholy). Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
+HP 11, DR 6 (plate + unholy). Solo: 44, sized for four attackers. Attributes: Brawn +2, Fortitude +1, Guile +1, others +0.
 
 *Greatsword:* 7/10/14 slashing.
 
@@ -630,7 +675,7 @@ HP 11, DR 6 (plate + unholy). Attributes: Brawn +2, Fortitude +1, Guile +1, othe
 
 *Multiattack:* Greatsword twice.
 
-*Marshal Undead:* undead allies within 30 ft have Boon on attack rolls.
+*Marshal Undead:* undead allies within 30 ft have Boon on attack rolls (a Bane on the defender's roll). The death knight stands among its undead and puts the party's healer or caster first.
 
 *Unholy Resilience:* The Death Knight has Boon on all checks against spells and magical effects.
 
@@ -645,24 +690,24 @@ _C½ = Challenge ½ (minion-tier)._
 #figure(align(center)[#table(
   columns: (23.40%, 36.17%, 40.43%),
   align: (auto, auto, auto,),
-  table.header([Difficulty], [Challenge Budget], [Example (Level 3 party)],),
-  [Easy], [× party level], [6 Wolves (C½ each)],
-  [Standard], [×2 party level], [1 Knight (C3) + 6 Guards (C½ each)],
-  [Hard], [×3 party level], [1 Young Dragon (C6) + 6 Cultists (C½ each)],
-  [Deadly], [×4+ party level], [1 Ancient Dragon (C12) or 1 Lich (C10) + minions],
+  table.header([Difficulty], [Challenge Budget (party level x multiplier, per hero)], [Example (Level 3 party)],),
+  [Easy], [1 x 3 x 4 = 12], [4 Knights (Challenge 3 each)],
+  [Standard], [1.25 x 3 x 4 = 15], [2 Knights + 2 Basilisks + 1 Green Hag (all Challenge 3) = 5 creatures],
+  [Hard], [2 x 3 x 4 = 24], [4 Knights + 4 Wyrmlings (all Challenge 3) = 8 creatures],
+  [Deadly], [3 x 3 x 4 = 36], [4 Young Dragons (Challenge 6 each, x1.5 for Multiattack), or 12 Challenge 3 creatures],
 )], kind: table, numbering: none, outlined: false)
 
 #pagebreak()
 
 == Creating Monsters
 
-Assign attributes (-2 to +2), give 1–3 attacks with W/S/S damage per the damage budget (@sec-damage-budget), add 1–2 abilities. HP = 3 × (your tier's band average minus its DR), rounded to the nearest whole number; the band average is 5.67 at Novice, 7.50 at Adept, and 9.59 at Master. DR cannot exceed your tier's ceiling: 3 at Novice, 4 at Adept, 6 at Master. Adjust to taste; printed monsters are hand-tuned.
+Assign attributes (-2 to +2), give 1–3 attacks with W/S/S damage per the damage budget (@sec-damage-budget), add 1–2 abilities. HP = 3 × (your tier's band average minus its DR), rounded to the nearest whole number; the band average is 5.67 at Novice, 7.50 at Adept, and 9.59 at Master, being that tier's three values weighted by the 3d6 odds (56 in 216 Weak, 140 in 216 Standard, 20 in 216 Strong). Those three rounds are counted per attacker, so multiply the result by the number of attackers the creature faces each round: about one for a creature standing in a group, one per hero for a creature that fights the party alone. DR cannot exceed your tier's ceiling: 3 at Novice, 4 at Adept, 6 at Master. Adjust to taste; printed monsters are hand-tuned.
 
 *Quick Monster Template:*
 
 + Choose type (Beast, Undead, etc.)
 + Set Challenge (1/2–12)
-+ HP = 3 × (your tier's band average minus its DR), rounded to the nearest whole number; DR cannot exceed your tier's ceiling (3 at Novice, 4 at Adept, 6 at Master), adjust to taste
++ HP = 3 × (your tier's band average minus its DR), counted per attacker (about one in a group, one per hero for a creature that fights the party alone), rounded to the nearest whole number; DR cannot exceed your tier's ceiling (3 at Novice, 4 at Adept, 6 at Master), adjust to taste
 + Choose 1–2 attacks with W/S/S damage per the damage budget, scaled by Challenge:
   + C1–2 (Novice): W:4 / S:6 / St:8
   + C3–6 (Adept): W:5 / S:8 / St:11

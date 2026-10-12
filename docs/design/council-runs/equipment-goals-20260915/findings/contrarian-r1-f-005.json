@@ -1,0 +1,41 @@
+{
+ "argument": "Three corrections to the problem brief before two coalitions are built on it. (1) The DR invariant, which the whole t-03 fork turns on, is stated three mutually incompatible ways: the brief requires DR to stay at or under the band's Weak figure, 2 for Novice, 6 for Adept and 9 for Master, the design reference says 'the damage-band invariant of 2 / 7 / 11', and the shipped book says 3 / 4 / 6 (16:25, 20:659). The brief's rule text does not even yield its own numbers - the Weak values are 4/5/7 - and its Master figure of 9 is unsound: against the Master band 7/10/14, DR 9 leaves 1/1/5, collapsing Weak and Standard into the same number, which is the precise failure the brief forbids. The true boundary for three distinct post-subtraction tiers is DR <= Standard - 1, i.e. 4 / 6 / 8 - which agrees with the brief only at Adept. (2) The brief's own headline table does not add up: 141 rank-gated + 45 gated 'None' = 186, not 188. My independent instrument over the whole chapters directory counts 185 blocks carrying a Disciplines field (not 188), of which 62 carry a usable Kit gate (not 64) - the two extras in 64 are the ch21 glossary definition of '+Kit:+' (21:75) and the ch19 card-format demonstration line (19:549), the exact class of error section 7 of this brief warns about. The load-bearing ratio reproduces exactly: 52 focus (arcane 32, holy 18, primal 2) against 10 weapon/shield (two-hand 3, ranged 3, one-hand 2, unarmed 1, shield 1), so the conclusion survives correction and must be quoted with the corrected auxiliaries. (3) The brief's consequence list for 'which weapon?' is incomplete: it omits Weapon Focus (09:50), which grants a Boon on attack rolls with every weapon of a chosen weapon Discipline, so weapon identity also moves hit probability, not just damage - and because that Boon is free with possession of any weapon in the Discipline, it simultaneously proves the brief's point that the weapon carried matters less than the Discipline bought.",
+ "confidence": 0.9,
+ "evidence": [
+  {
+   "claim": "The brief's DR invariant formula and its numbers disagree with each other, and with the book and the design reference.",
+   "quote_or_excerpt": "three distinct tiers survive flat subtraction only while `DR <= the band's Weak value` (Novice 2 . Adept 6 . Master 9) ... a collapsed band is a **broken mechanic**, not a weak tier",
+   "source": "briefs/round-01/contrarian.json (problem_brief, section 4 law 2)"
+  },
+  {
+   "claim": "The shipped ceiling is 3/4/6, i.e. the book's own number - a third formulation, incompatible with both the brief's 2/6/9 and the design reference's 2/7/11.",
+   "quote_or_excerpt": "16:25 'Your total DR cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A hit must always be able to land for something, and the three tiers of a damage band have to stay distinct at every level.'  |  20:659 'DR cannot exceed your tier's ceiling: 3 at Novice, 4 at Adept, 6 at Master.'",
+   "source": "quarto-book/chapters/16-armor-shields.qmd:25 and 20-bestiary.qmd:659"
+  },
+  {
+   "claim": "Computed distinctness boundary, and the collapse of the brief's Master figure.",
+   "quote_or_excerpt": "Tiers stay distinct iff DR <= Standard - 1: Novice 4, Adept 6, Master 8. Check the brief's DR 9 against Master 7/10/14: 7-9 -> floor 1, 10-9 = 1, 14-9 = 5, giving 1/1/5 - Weak and Standard are the same number, so the brief's own Master figure violates the brief's own rule.",
+   "source": "reasoning"
+  },
+  {
+   "claim": "Card-level counts do not reproduce the brief's 188/64; they reproduce 185/62. Instrumented over the whole chapters directory.",
+   "quote_or_excerpt": "total === blocks: 355; blocks with *Disciplines:*: 185; blocks with Disciplines AND a Kit gate: 63 (one of which is the ch19 format-demonstration line, whose gate value parses empty); kit gate values: focus:arcane 32, focus:holy 18, weapon:ranged 3, weapon:two-hand 3, weapon:one-hand 2, focus:primal 2, weapon:unarmed 1, shield 1 -> focus 52, weapon/shield 10. The extra line in the raw grep is 21:75, the glossary definition '*Kit:* Your hero's outfit...'",
+   "source": "quarto-book/chapters/*.qmd (book-wide card census, cwd chapters/)"
+  },
+  {
+   "claim": "The two non-card lines that inflate the brief's Kit count to 64, one of which also states the no-numbers law verbatim.",
+   "quote_or_excerpt": "21:75 '*Kit:* Your hero's outfit: one option from each of the four lines, Armament, Covering, Focus, and Calling, bought with six kit points. A kit adds no numbers to your sheet. It grants permissions, the fiction of what you brought, and points left over for packs.'  |  19:549 '... then a single field line: `**Disciplines:** N Type . **Kit:** focus:arcane . **Action:** Action/Reaction/Maneuver ...`'",
+   "source": "quarto-book/chapters/21-glossary.qmd:75 and 19-gm-guidance.qmd:549"
+  },
+  {
+   "claim": "A fifth consequence of weapon identity that the brief's list of four omits: a talent that grants a Boon on attacks with a whole weapon Discipline.",
+   "quote_or_excerpt": "=== Weapon Focus (Talent)\n*Disciplines:* 1 chosen weapon Discipline * Action: Passive * Range: Self * Keywords: Damage\n*Novice:* Boon on attack rolls with weapons of the chosen weapon Discipline.",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:50-53"
+  }
+ ],
+ "id": "f-005",
+ "role": "contrarian",
+ "round": 1,
+ "stance": "refute",
+ "topic": "problem-scoping"
+}

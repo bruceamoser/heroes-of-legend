@@ -16,13 +16,15 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 == Core Mechanic Terms
 
-*3d6:* The core dice roll. Three six-sided dice, summed, plus modifiers.
+*3d6:* The core dice roll. Three six-sided dice, summed, plus your attribute and skill, then Boons and Banes.
 
 *Always Hit:* Attacks do not roll to hit, the 3d6 determines damage tier. Every attack connects. Every swing matters.
 
 *Attribute:* One of six core stats: Brawn, Fortitude, Agility, Guile, Knowledge, Reason. Ranges from -2 to +2.
 
 *Bell Curve:* The probability distribution of 3d6. Most rolls cluster around 9–12. Extreme results (3 and 18) are rare, about 0.5% each.
+
+*Card:* The printed container for a mechanical element of the game. Spells, class abilities, talents, weapon maneuvers, ancestry gifts, and magic items all print as cards; the shape differs, the container does not. A card is bought once, at its tier (2 DP Novice, 4 DP Adept, 8 DP Master), or, in the case of a magic item, found rather than bought. There is no upgrading a card in place: the Adept and Master members of a family are separate cards with their own names. A mundane item of equipment is not a card. Gear is not bought: it is granted, earned, or taken, and its properties live in @sec-chapter-equipment
 
 *Boon:* Roll 4d6 and keep the highest three. A second step rolls 5d6 kept three, a third rolls 6d6 kept three, and three steps is the ceiling. Boons and Banes cancel one for one. Halflings get a boon once per session from their Lucky trait.
 
@@ -40,11 +42,11 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Strong:* Exceptional success. Extra effect, bonus damage, additional information, or sheer style.
 
-*Damage Budget:* The master table every damaging spell, ability, and maneuver keys to. Novice 4/6/8, Adept 5/8/11, Master 7/10/14 (Weak/Standard/Strong). See @sec-damage-budget
+*Damage Budget:* The master table every damaging spell, ability, and maneuver keys to. Novice 4/6/8, Adept 5/8/11, Master 7/10/14 (Weak/Standard/Strong). See @sec-damage-budget.
 
 *Flat Damage:* Damage taken straight from the damage budget row with no attribute added. Arrows, thrown attacks, most spells, and all monsters use flat damage.
 
-*Attribute-Scaled Damage:* Damage that adds the card's stated attribute to a base value, minimum 1 damage. Novice cards use the Basic-card floor (1/2/3). Adept and Master cards use the budget row minus 3 (2/5/8 and 4/7/11). Melee attack cards add Brawn (or Agility for Finesse). Missile and thrown attacks are flat, no attribute added.
+*Attribute-Scaled Damage:* Damage that adds the card's stated attribute to a base value, minimum 1 damage. Novice cards use the Basic-card floor (1/2/3). Adept and Master cards use the budget row minus 3 (2/5/8 and 4/7/11). Melee attack cards add Brawn. A talent can substitute another attribute for Brawn when applicable. See @sec-chapter-talents-abilities Missile and thrown attacks are flat, no attribute added.
 
 #pagebreak()
 
@@ -60,23 +62,21 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Class:* Your hero's calling, Protector, Blade, Arcanist, Shepherd, Intellect, Odd, Leader, Unbalanced, or Shadow. Determines favored skills, favored Disciplines, and signature ability.
 
-*Culture:* Your upbringing within your ancestry. Grants a +1 skill bonus and either two specific Disciplines or one free Discipline.
+*Culture:* Your upbringing within your ancestry. Grants a +1 skill bonus (that skill's Novice tier, so buying Novice again gains nothing) and either two specific Disciplines or one free Discipline.
 
 *Development Points (DP):* The currency of character creation and advancement. Spent to purchase skills, abilities, and Disciplines. Skills and abilities cost a flat rate by tier (Novice 2 DP, Adept 4 DP, Master 8 DP). Disciplines cost different amounts per class depending on their cost structure (Home, Adjacent, Foreign, Opposed).
 
-*Discipline:* A prerequisite resource representing mastery of a domain. Disciplines come in types: Elemental (Fire, Earth, Wind, Water), Weapon (Blades, Axes, Polearms, Heavy Weapon, Archery, Unarmed), Defense (Protection, Armor), Primal (Animal, Plants), Arcane (Energy), Divine (Life, Religion), Esoteric (Mind, Summon, Fate), Subterfuge (Stealth, Sleight), and Knowledge (Lore, Tactics). Each class has a cost table showing the DP price for each rank in each discipline (see @sec-chapter-classes).
+*Discipline:* A prerequisite resource representing mastery of a domain. Disciplines come in types: Elemental (Fire, Earth, Wind, Water), Weapon (Melee, Two-Handed, Ranged, Unarmed), Defense (Armor, Shields, Protection), Primal (Animal, Plants), Arcane (Energy), Divine (Life, Religion), Esoteric (Mind, Summon, Fate), Subterfuge (Stealth, Sleight), and Knowledge (Lore, Tactics). Each class has a cost table showing the DP price for each rank in each discipline (see @sec-chapter-classes)
 
 *Wildcard Rank:* A single rank held by the Odd that stands in for any one Discipline. It is never assigned, it satisfies one requirement of one rank at a time, it never advances, and it costs no Development Points. See @sec-chapter-classes
 
-*HP (Health Points):* How much damage you can take before falling unconscious. Starting HP = 10 + Fortitude + Knowledge. Your HP does not increase with level; your Grit does.
+*HP (Health Points):* How much damage you can take before falling unconscious. Starting HP = 10 + Fortitude + your class's *Health attribute* (see @tbl-class-health). Your HP does not increase with level; your Grit does.
+
+*Health attribute:* The one attribute your class adds to Fortitude for Health Points: Brawn for the Protector and the Unbalanced, Agility for the Blade, Guile for the Shadow and the Leader, Knowledge for the Arcanist and the Intellect, Reason for the Shepherd, and any one of your choice for the Odd. See @tbl-class-health.
 
 *Encumbrance:* The slot system for the gear you carry. Slots are Carry Slots; one container at a time is exempt from them, and containers cannot be nested inside one another. See *Carry Slots*.
 
-*Kit:* Your hero's outfit: one option from each of the four lines, Armament, Covering, Focus, and Calling, bought with six kit points. A kit adds no numbers to your sheet. It grants permissions, the fiction of what you brought, and points left over for packs. See @sec-chapter-equipment
-
-*Kit Point:* The currency of the kit. Six at creation, plus one from a class's granted pack or from a talent that grants kit. Leftover points buy packs, one point each.
-
-*Pack:* A capability you carry, bought with a leftover kit point, such as the `climbing` pack or the `healer` pack. Every hero also has the free Adventurer's Pack. A pack is what you brought, not a shopping list.
+*Pack:* Gear you own, such as the `climbing` pack or the `healer` pack. A pack is a capability, not a shopping list. Every hero also has the free Adventurer's Pack.
 
 *Level:* Your hero's experience tier, from 1 to 10. Higher levels unlock Adept (Level 3) and Master (Level 7) abilities and grant attribute increases every 4 levels.
 
@@ -86,7 +86,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Master:* The third tier. For a skill, the +3 bonus. Flat cost: 8 DP. Unlocks at Level 7.
 
-*Rank:* A single step of a Discipline, from 1 to 3. A card names the Discipline ranks it needs, and those ranks are its own prerequisite. The card's tier sets the level it needs (Novice 1, Adept 3, Master 7). A hero's maximum in any single Discipline is 3 ranks.
+*Rank:* A single step of a Discipline, from 1 to 3. A card names the Discipline ranks it needs, and those ranks are its own prerequisite. The card's tier sets the level it needs (Novice 1, Adept 3, Master 7). A hero's maximum in any single Discipline is 3 ranks. Weapons ask no rank to carry or swing: you decide what the weapon is. Armor does list one, because an armor card's DR is capped by the Armor rank it asks for: the heavy armor card needs 3 Armor. A shield asks for no rank, because a shield carries no number: Shields ranks buy the cards that use it.
 
 *Signature Ability:* The unique power granted by your class at Level 1. Defines your class identity mechanically.
 
@@ -94,7 +94,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Skill:* A trained competency. Ranges from Novice (+1) to Master (+3). Includes physical skills (Athletics), knowledge skills (Arcana), social skills (Persuasion), and subterfuge skills (Stealth).
 
-*Talent:* A benefit purchased with DP. Most need no activation; some are activated talents, and the card's Action field says which. Examples: Tough (+2 HP), Fortune's Favor (spend a Reaction to reroll one natural 1, 2, or 3, once per session).
+*Talent:* A benefit purchased with DP. Most need no activation; some are activated talents, and the card's Action field says which. Examples: Tough (+2 HP), Fortune's Favor (spend a Reaction to reroll one die, once per session).
 
 *Trait:* An ancestry-granted special ability. Human: Versatile. Elf: Elven Grace. Dwarf: Sturdy. Halfling: Lucky.
 
@@ -104,7 +104,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Action:* The main thing you do on your turn. Attack, cast a spell, activate an ability, Dash. One per turn.
 
-*Maneuver:* A secondary resource spent on basic maneuvers (Defend, Shove) or a weapon maneuver (Riposte, Cleave), gated by Disciplines. One per turn.
+*Maneuver:* A secondary resource spent on the basic maneuvers (Defend, Shove) or on any card whose Action field reads Maneuver (on a spell card that field is the Cast field), gated by Disciplines. One per turn.
 
 *Movement:* How far you can move on your turn. Usually 30 ft. Can be broken up before and after your Action.
 
@@ -114,7 +114,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Basic Maneuver:* A combat technique available to everyone. Defend, Disengage, Aid, Shove, Grapple, Command, Catch Breath, Search, Stand Up, Use Item. Costs your Maneuver for the turn.
 
-*Damage Reduction (DR):* Subtracted from incoming physical damage, to a minimum of 1. Your armor grants it by weight class: 1 for light, 2 for medium, 3 for heavy. Talents add to that total, so Iron Skin's +2 stacks with whatever you wear. Your total cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. Shields grant no DR of their own.
+*Damage Reduction (DR):* Subtracted from incoming physical damage, to a minimum of 1. Your armor card grants it: 1 for light, 2 for medium, 3 for heavy. A talent or ward can grant it instead. DR does not stack: if more than one source grants it, use the highest. Your total from armor, talents, and wards cannot exceed 3 at Novice, 4 at Adept, or 6 at Master. A shield grants no DR: Shield Block grants a Boon on the Defense Roll, one attack per round.
 
 *Armor Weight Class:* Armor comes in three weight classes: Light (Padded, Leather, Studded Leather), Medium (Chain Shirt, Breastplate), and Heavy (Half Plate, Chain Mail, Plate). Light suits up in 1 minute, Medium in 5 minutes, Heavy in 10 minutes.
 
@@ -122,19 +122,13 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Effect:* A rider on an ability, spell, or maneuver card that does something beyond damage. Effects resolve by the roll's tier, never by a second roll. One roll resolves both damage and effect. The card text states which tiers carry which effect.
 
-*Finesse:* A weapon property. Use Agility instead of Brawn for attack and damage.
+*Reach:* A weapon slot. A card that requires the reach slot means the hero is wielding something they describe as long: a spear, a halberd, a lance, the shaft of a banner.
 
-*Versatile:* A weapon property. Can be wielded one- or two-handed (Longsword only). Not the same as the Human ancestry trait named *Versatile*; see *Trait*.
+*Thrown:* A weapon slot. A card that requires the thrown slot means the hero is holding something they describe as throwable, and it is thrown at the range printed on the card.
 
-*Reach:* A weapon property. Can attack targets 10 ft away (Spear, Halberd).
+*Light:* A weapon slot. A card that requires the light one-handed melee slot means the hero is wielding something they describe as light enough to fight with in the off-hand.
 
-*Thrown:* A weapon property. Can be thrown, at a range of 20/60 ft (Dagger, Handaxe, Spear, Throwing Dagger).
-
-*Light:* A weapon property. Can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe).
-
-*Loading:* A weapon property. Requires a Maneuver to reload between shots (Crossbow only).
-
-*Two-Handed:* A weapon property. Must be held in both hands and takes 2 slots (Spear, Halberd, Shortbow, Longbow, Crossbow). Compare *Versatile*, which may be used two-handed rather than must.
+*Two-Handed:* A weapon slot. It means the hero is wielding something held in both hands, which takes 2 carrying slots. Compare the one-handed melee slot, which leaves a hand free.
 
 *Lift X:* An effect that raises the target X feet into the air and holds them there. The target is Restrained while held.
 
@@ -146,19 +140,19 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Protection Value (PV):* A temporary +1 bonus to your defense roll from abilities such as Bastion or Arcane Shield.
 
-*Shield Block:* A reaction that reduces incoming damage by one step: Strong becomes Standard, Standard becomes Weak, and Weak becomes 1. It cannot reduce damage below 1. Requires a shield.
+*Shield Block:* A reaction that grants you a Boon on your Defense Roll when an attack comes at you: Boon 1 at Novice, Boon 2 at Adept, Boon 3 at Master. It applies to one attack per round. Requires a shield.
 
 *Opportunity Attack:* A free melee attack when an enemy leaves your reach without Disengaging.
 
-*Concentration:* Some spells require ongoing focus to maintain, and you can hold only one at a time. See *Concentration Spell* in Magic Terms for the check that keeps it.
+*Concentration:* An ongoing effect held with your Maneuver, one at a time. The rule is in @sec-chapter-magic-system
 
-*Hidden:* Concealed from an observer: attacks against you have Bane, and you are not seen until you attack or the concealment ends.
+*Hidden:* Concealed from an observer: attacks against you have Bane (a Boon on your Defense roll), and you are not seen until you attack or the concealment ends.
 
 *Concealment:* Not a condition but the fiction of not being seen: smoke, darkness, undergrowth, a doorway. Concealment is what lets you become Hidden, and heavy concealment is thick enough to hide in without needing anything else.
 
 *Escape:* The Action that frees you from Grappled or Restrained. An Agility roll against the situation rather than the grappler, with the DA setting the difficulty. A Standard result grants a Boon on your next Escape; a Strong result breaks you free and ends the condition.
 
-*Condition:* A temporary status effect. Asleep X, Blinded, Burning X, Charmed, Confused X, Dazed X, Dazzled, Deafened, Frightened, Frozen X, Grappled, Hidden, Incapacitated, Invisible, Marked, Paralyzed, Petrified, Poisoned X, Prone, Restrained, Slowed X, Stunned, Unconscious. Where a condition carries an X, the X is its level, the magnitude the effect sets. The entries below define the conditions that carry a level, and Table 13.3 in @sec-chapter-combat is the full table with what every one of them does and how it ends.
+*Condition:* A temporary status effect. Asleep X, Blinded, Burning X, Charmed, Confused X, Dazed X, Dazzled, Deafened, Frightened, Frozen X, Grappled, Hidden, Incapacitated, Invisible, Marked, Paralyzed, Petrified, Poisoned X, Prone, Restrained, Slowed X, Stunned, Unconscious. Where a condition carries an X, the X is its level, the magnitude the effect sets. The entries below define the conditions that carry a level. Table 13.3 is the full table with what every one of them does and how it ends (see @sec-chapter-combat)
 
 *Asleep X:* Unaware for X minutes. Wakes on taking damage.
 
@@ -172,7 +166,7 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Frozen X:* Incapacitated and takes X cold damage per round. Spend an action to end.
 
-*Marked:* A condition always tied to a specific creature. While Marked by a creature, you gain no benefit from Cover or Concealment against it or its allies, and its attacks against you gain a Boon. If the Mark came from a sworn naming (an oath, a judgment, a public declaration), no one who heard the naming can believe you, and no gift freely given benefits you. The Mark ends when its source says it does, when the marking creature is downed, or when you make amends.
+*Marked:* A condition always tied to a specific creature. While Marked by a creature, you gain no benefit from Cover or Concealment against it or its allies, and its attacks against you gain a Boon (a Bane on your Defense roll). If the Mark came from a sworn naming (an oath, a judgment, a public declaration), no one who heard the naming can believe you, and no gift freely given benefits you. The Mark ends when its source says it does, when the marking creature is downed, or when you make amends.
 
 *Petrified:* Turned to stone. Incapacitated, DR +5, immune to non-magical damage.
 
@@ -186,17 +180,17 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Surprise:* When one side catches the other unaware. The ambushing side acts first in the opening round, and surprised creatures take a Bane on their first roll. The ambushing side rolls Stealth against a Challenge set by the other side's awareness, and a Standard or better result means the ambush lands.
 
-*Cover:* Terrain that provides protection, in two grades. Half cover gives attackers a Bane on their roll against you. Full cover gives them triple Bane.
+*Cover:* Terrain that provides protection, in two grades. Half cover gives attackers a Bane against you, full cover a triple Bane. The Bane sits on the attack, so on your Defense roll it is a Boon: half cover is a Boon, full cover a triple Boon.
 
 *Non-Lethal Attack:* A melee attack that reduces a creature to 0 HP but leaves them unconscious and stable instead of dying.
 
-*Grit:* The number of times you can be dropped to 0 HP and get back up before you fall: 2 at Novice, 3 at Adept, 4 at Master. When your HP reaches 0, spend one Grit to reset to maximum HP and roll on the Wound Table. Returns on a respite, a full night's rest.
+*Grit:* The number of times you can choose to get back up after being dropped to 0 HP: 2 at Novice, 3 at Adept, 4 at Master. When your HP reaches 0 you take a Wound either way, and then you either spend one Grit to reset to maximum HP, or you stay down and the Dying rules apply. Returns on a respite, a full night's rest.
 
-*Dying:* At 0 HP, you fall Unconscious and roll 3d6 each turn to determine if you stabilize, worsen, or die.
+*Dying:* At 0 HP, you fall Unconscious and make a death roll each turn, 3d6 plus a Bane for the wounds you carry, to determine if you stabilize, worsen, or die.
 
 *Wounded:* Below half your maximum HP. See *Wound* for what happens when you are dropped.
 
-*Wound:* A lasting injury from combat. When you spend a point of Grit, you gain a Wound and roll on the Wound Table (see @sec-chapter-combat). Wounds linger after HP is restored and heal one per long rest (a Standard Medicine check during a rest heals one additional wound).
+*Wound:* A lasting injury from combat. When your HP reaches 0, you gain a Wound and roll on the Wound Table, rolling one extra die for each wound you carried beyond the first, up to three extra (see @sec-chapter-combat) Wounds linger after HP is restored, and nothing takes one off your sheet: not a long rest, not Medicine, not magic. Healing magic returns HP rather than Wounds, and every Wound leaves a physical mark that outlives the mechanic and belongs to the player.
 
 *Thunder:* A damage type: concussive sound and shockwaves. Part of the Elemental family alongside Fire, Cold, Lightning, Acid, and Poison.
 
@@ -212,13 +206,15 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *Cantrip:* The minor spells every caster of a tradition knows without buying them. Cantrips carry no Discipline requirement and cost no DP, and their damage line is 1/3/5, deliberately below the Novice row.
 
-*Spell Card:* A spell in the standard card format. A Novice spell card prints Weak, Standard, and Strong outcomes; an Adept or Master spell is a separate card with its own name and a single effect. There are no spell chains.
+*Spell Card:* A spell in the standard card format. A spell that deals damage prints a Weak/Standard/Strong block on its tier's budget row; a spell that grants a standing benefit instead prints a single *Effect:* line. The Adept and Master members of a spell family are separate cards with their own names: there are no spell chains, and no card is upgraded in place.
 
-*Concentration Spell:* A spell that requires ongoing focus, and you can maintain only one at a time. If you take damage while concentrating, make a Fortitude check: Standard or better on 3d6 + Fortitude holds the spell together, and you make that check again each time damage lands on you.
+*Concentration Spell:* A spell whose Duration says it must be held: *Concentration, up to 1 minute*, or *Concentration, up to 1 round* for a ward. The rule is in @sec-chapter-magic-system
 
-*Arcane Focus:* An item (wand, staff, orb) that channels arcane magic. A spell whose card carries `focus:arcane` in its Kit field requires one.
+*Arcane Focus:* An item (wand, staff, orb) that channels arcane magic. A spell whose card carries `focus:arcane` in its Requires field gets its full effect only while you hold one. Without it the spell still casts and resolves one outcome lower, Strong becomes Standard and Standard becomes Weak: at that floor a rung that deals damage deals 1 damage instead, and any other rung resolves as written but forgoes its riders.
 
-*Holy Symbol:* An item (amulet, reliquary, sacred text) that channels divine magic. A spell whose card carries `focus:holy` in its Kit field requires one.
+*Holy Symbol:* An item (amulet, reliquary, sacred text) that channels divine magic. A spell whose card carries `focus:holy` in its Requires field gets its full effect only while you hold one. Without it the spell still casts and resolves one outcome lower, Strong becomes Standard and Standard becomes Weak: at that floor a rung that deals damage deals 1 damage instead, and any other rung resolves as written but forgoes its riders.
+
+*Primal Focus:* An item (feather bundle, bone, living wood) that channels primal magic. A spell whose card carries `focus:primal` in its Requires field gets its full effect only while you hold one. Without it the spell still casts and resolves one outcome lower, Strong becomes Standard and Standard becomes Weak: at that floor a rung that deals damage deals 1 damage instead, and any other rung resolves as written but forgoes its riders.
 
 *Attunement:* The bond between a hero and a magic item. Maximum 3 attuned items at a time. Artifacts, unique items of legend beyond even Legendary rarity, don't count against this limit.
 
@@ -230,19 +226,21 @@ Every mechanical term used in this book, defined in one place. If you hit a word
 
 *DA (Dungeon Architect):* The game master. Runs the world, plays the NPCs, adjudicates the rules.
 
-*Challenge:* A penalty the DA applies to your roll when the world or an opponent opposes you. A goblin might be -1 (barely a threat) and a dragon -6 (good luck), and the DA tells you the number before you roll. A monster's stat block prints the same number as a positive rating, so a Challenge 3 knight imposes -3 on your roll. See @sec-chapter-core-resolution
+*Challenge:* A penalty the DA applies to your roll when the world or an opponent opposes you. A goblin might be -1 (barely a threat) and a dragon -6 (good luck), and the DA tells you the number before you roll. A monster's stat block prints the same number as a positive rating, so a Challenge 3 knight imposes -3 on your roll. The penalty stops at -6: a Challenge 12 dragon imposes the same -6 as a Challenge 7 stone giant. See @sec-chapter-core-resolution
 
-*Challenge ½ (C½):* The minion-tier Challenge rating. Creatures at Challenge ½ (goblins, bandits, cultists) are individually weak and meant to be fought in numbers.
+*Challenge ½ (C½):* The minion-tier Challenge rating. Creatures at Challenge ½ (goblins, bandits, cultists) are individually weak and meant to be fought in numbers. They impose -1 on your roll, the same as a Challenge 1 creature.
 
-*Difficulty Modifier:* A bonus or penalty the DA applies to a roll based on how hard the task is. Ranges from +4 (Trivial) to -6 (Nearly Impossible).
+*Difficulty:* The DA's read on how hard a task is, expressed as a Boon, a Bane, or neither. Trivial is Boon 2 and Nearly Impossible is Bane 3. See @sec-chapter-core-resolution
 
-*Passive Insight:* A creature's baseline ability to detect lies and hidden threats. Calculated as Knowledge score + 7.
+*Passive Insight:* A creature's baseline ability to detect lies and hidden threats when it is not actively looking. It is not a score to beat: a lie told to that creature carries a Challenge set by its Knowledge modifier, negated.
 
-*Recharge:* A monster ability usable again when the DA rolls 1d6 at the start of the monster's turn and gets a 5–6.
+*Multiattack:* A creature's attack routine, printed on its stat block. Every attack named on the line is made as one action, so the creature takes all of them instead of one. See @sec-chapter-bestiary
+
+*Recharge:* A monster ability usable again when a player rolls 1d6 at the start of the monster's turn and gets a 5–6.
 
 *Respite:* A full night's rest. Grit returns on a respite, and nothing shorter brings it back.
 
-*Rest:* Time taken to recover. A short rest takes 1 hour and has no default mechanical effect. A long rest takes 8 hours and provides the full recovery benefits (see @sec-chapter-gm-guidance).
+*Rest:* Time taken to recover. A short rest takes 1 hour and has no default mechanical effect. A long rest takes 8 hours and provides the full recovery benefits (see @sec-chapter-gm-guidance)
 
 *Session:* One gaming session, typically 3–4 hours. Some abilities refresh per session.
 

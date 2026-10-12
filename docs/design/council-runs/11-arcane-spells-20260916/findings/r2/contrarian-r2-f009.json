@@ -1,0 +1,37 @@
+{
+  "id": "contrarian-r2-f009",
+  "round": 2,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "The comparand offered against this filing is a cantrip, and the magic chapter exempts that whole class from the damage budget: it states that a cantrip has no tier, fixes the line at one, three and five, and places it under the Novice row on the stated ground that a free effect should never hit as hard as a card paid for with points. A card outside the ladder cannot license a figure on a card inside it, so the comparand proves nothing about a leveled card. This card is not a cantrip: it asks for two ranks and covers an area, and the same chapter states that a card of that shape is Adept and that its damage prints on the Adept row. The merge leaves the rule in place rather than loosening it, since the opener holds that whichever card deals damage keys its block to its tier's row, which leaves a point of cold on an Adept card four under that row's floor of five. Arithmetic: five minus one equals four short, and the exempt cantrip line's first value is one, which is where the printed figure came from. The refutation does not hold, and this filing stands.",
+  "evidence": [
+    {
+      "source": "12-divine-spells.qmd",
+      "claim": "The comparand's own heading files it as a cantrip, so its figures come from the exempt line rather than from any tier row.",
+      "quote_or_excerpt": "=== Virtue (Cantrip)"
+    },
+    {
+      "source": "10-magic-system.qmd",
+      "claim": "The owning chapter states that cantrips have no tier, sets their damage line below the Novice row, and gives the reason that a free effect should never hit as hard as a paid card.",
+      "quote_or_excerpt": "A cantrip's damage line is 1/3/5, deliberately below the Novice row"
+    },
+    {
+      "source": "10-magic-system.qmd",
+      "claim": "The tier rule keys a card's shape to its band: two ranks plus an area makes an Adept card, and the merged opener repeats that rule as a general statement.",
+      "quote_or_excerpt": "two Discipline ranks and covers an area is an Adept card"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The card's only damage figure is a single point of cold, printed on the weakest line of an Adept card while the other two lines carry no figure at all.",
+      "quote_or_excerpt": "creatures starting their turn there take 1 cold damage"
+    },
+    {
+      "source": "10-magic-system.qmd",
+      "claim": "Arithmetic: the owning chapter's budget table prints the Adept row as five, eight and eleven against a printed figure of one, so the shortfall is four and the printed value coincides with the exempt cantrip line's first number.",
+      "quote_or_excerpt": "[Adept], [4 DP], [5/8/11],"
+    }
+  ],
+  "confidence": 0.8,
+  "rebutting": ["f-009"]
+}

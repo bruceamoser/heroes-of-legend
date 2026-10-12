@@ -1,0 +1,37 @@
+{
+  "id": "f-903",
+  "round": 1,
+  "role": "editor-in-chief",
+  "topic": "t-03",
+  "stance": "refute",
+  "argument": "One card in the list stands on a procedure the book never supplies. Arcane Mark's duration slot reads as permanent until dispelled (11-arcane-spells:32), and a sweep of every chapter for that word and for counterspell returns four lines in the entire book: that header (11:32), the reaction named in the glossary's list (21-glossary:107), the same name repeated on the combat quick-reference (22-reference-sheets:61), and one creature talent (20-bestiary:146). No chapter states how an ongoing effect is ended by an opponent, unmade, or countered, and no arcane card grants the ability. The consequence is a dead end at the table: a caster who wants the mark gone, or a player who wants to stop an enemy's spell, is handed a word with no procedure attached, and the only place the word is explained is a monster's stat line. The chapter-local fix is to give 11:32 a duration a table can resolve without a rule that does not exist, such as until the caster casts it again or one day. The book-level fix is one sentence in the Limitations section of the casting chapter defining what ends or counters an ongoing effect - which would also give the two reaction lists something to point at.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "The cantrip at 11:32 hangs its duration on a removal procedure that no chapter in the book defines.",
+      "quote_or_excerpt": "Touch (Permanent until dispelled)"
+    },
+    {
+      "source": "21-glossary.qmd",
+      "claim": "The glossary lists counterspell as one of the reactions a character may take, which asserts that the option exists without giving it content (21-glossary:107).",
+      "quote_or_excerpt": "Opportunity attacks, Shield Block, Counterspell"
+    },
+    {
+      "source": "22-reference-sheets.qmd",
+      "claim": "The combat sheet repeats the same name in its reaction row, again with no cost, trigger or effect behind it (22-reference-sheets:61).",
+      "quote_or_excerpt": "Shield Block, opportunity attack, Counterspell, Riposte"
+    },
+    {
+      "source": "20-bestiary.qmd",
+      "claim": "The only prose in the book that says what counterspelling accomplishes belongs to a monster ability, so a player-facing definition is missing entirely (20-bestiary:146).",
+      "quote_or_excerpt": "*Counterspell:* reaction to negate a spell."
+    },
+    {
+      "source": "reasoning",
+      "claim": "Sweep command and result: git grep -niE 'dispel|counterspell' origin/main -- quarto-book/chapters/ returns four lines, at 11-arcane-spells:32, 20-bestiary:146, 21-glossary:107 and 22-reference-sheets:61, with no definition among them.",
+      "quote_or_excerpt": "4 hits: 11:32, 20:146, 21:107, 22:61"
+    }
+  ],
+  "confidence": 0.58,
+  "rebutting": []
+}

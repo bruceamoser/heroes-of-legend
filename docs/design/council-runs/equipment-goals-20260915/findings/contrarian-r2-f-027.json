@@ -1,0 +1,111 @@
+{
+ "argument": "Red team on Coalition A, argued with A's own arithmetic and not against its ideals. A's architecture is a permission layer, and the finding is that A's own numbers price A's own fix at roughly 2.5 times the bill A already calls unaffordable, and that the one magnitude A puts into the gear layer breaks the constraint A's own charter says breaks first.\n\n1. A'S FIX MULTIPLIES A'S OWN BILL. A's conceded cost is measured by the game-architect's method: ~42 more weapon-gated cards for the weapon family to match focus gate weight; ~87 for the five existing weapon tags to match the mean focus tag; ~160 to match the arcane tag alone, which is more than the entire 177-card corpus. All three numbers are computed over the five existing weapon tags, whose whole population is 10 gates (two-hand 3, ranged 3, one-hand 2, unarmed 1, shield 1). A's first build item adds seven more tags: Finesse, Reach, Thrown, Light, Loading, Two-Handed, Versatile. Count their occurrence sites in the live weapon table: Finesse 3, Thrown 4, Light 3, Versatile 1, Reach 2, Two-Handed 5, Loading 1, that is 19 sites across 17 weapon rows. Apply A's own standard, the mean focus tag at about 17 gates, to A's own seven new tags: the additional bill is about 119 weapon-gated cards, on top of the ~87 for the five existing tags and before anything is spent on the shield tag. That is about 206 cards against a 177-card corpus. A cannot retreat to partial parity while the property-tag layer is itself the largest line in the arithmetic, because a property tag with one to four consumers prices its property at the same rate the current prose already does, which is not at all; on A's own method the tag is the expense and the identity is still free.\n\n2. A'S ONE MAGNITUDE IS UNGUARDED BY A'S OWN CONSTRAINT. A adopts damage types on hero weapons and justifies them as multiplying or halving, never adding, so they cannot touch the DR invariant. The DR invariant is not the binding constraint; the charter states the binding one: what a flat additive breaks is the ladder, and it breaks at +2. The live bands are 4/6/8, 5/8/11, 7/10/14 and the legal ceiling sits at 3/4/6, so the band is safe by construction and only the ladder is live. A x2 vulnerability applied to a Novice row turns 4/6/8 into 8/12/16: the Novice row's Weak tier (8) equals the Adept row's Standard (8) and the Novice Standard (12) exceeds the Adept Master (11). That is a ladder inversion at the first tier and roughly four times the +2 increment the round-1 arithmetic was calibrated to forbid, produced by the single mechanic A sources as the safe place to put magnitude. The trigger is neither hypothetical nor rare: the doubling is already printed unconditionally, and the bestiary types its own weapons 29 times. If A adopts types as hero-side identity, A must also state the gate on vulnerability. A's available reply, that the monster sets vulnerability and not the weapon, is real, and it is precisely what makes hero-side types a tuning trap rather than a source of identity.\n\n3. A'S ARITHMETIC PRICES A POPULATION A'S OWN FIX CHANGES. A's headline defect is that the one-hand tag gates the basic attack, so a hero who buys a two-handed armament has no basic attack at all. The one-hand tag is held by exactly two cards (09:174 Basic Melee and 09:245), so any satisfaction rule that lets a two-handed armament make a basic attack deletes or wildcards one of the two members of the population over which the 10-gate split is priced. A must re-run the ~42-card arithmetic after A's first build item; as chartered, A prices a population its own fix alters.\n\nConfidence is bounded by what a red team can settle: A can retake ground by making vulnerability a bestiary-side and gated setter, and by conceding the fourth-pillar claim. Neither reply rescues the cost arithmetic, which is the point.",
+ "confidence": 0.7,
+ "evidence": [
+  {
+   "claim": "A's own coalition states the bill and the method: the weapon family needs this many more gated cards to match focus gate weight.",
+   "quote_or_excerpt": "~42 more weapon-gated cards",
+   "source": "briefs/round-02/COALITION-CHARTER.md:55"
+  },
+  {
+   "claim": "The same sentence fixes the denominator that makes A's arithmetic terminal.",
+   "quote_or_excerpt": "more than the entire 177-card corpus",
+   "source": "briefs/round-02/COALITION-CHARTER.md:55"
+  },
+  {
+   "claim": "The five existing weapon tags need about this many gates at the mean focus rate; A's first build item adds seven tags to that population.",
+   "quote_or_excerpt": "the five weapon tags need ~87",
+   "source": "briefs/round-02/COALITION-CHARTER.md:55"
+  },
+  {
+   "claim": "The retreat A is offered in its own charter, which the property-tag layer cannot fund because it is the largest line in the arithmetic.",
+   "quote_or_excerpt": "partial parity plus the property-tag layer is sufficient",
+   "source": "briefs/round-02/COALITION-CHARTER.md:55"
+  },
+  {
+   "claim": "A's first build item: promote seven properties from prose into tags in the closed vocabulary.",
+   "quote_or_excerpt": "Promote the seven weapon properties",
+   "source": "briefs/round-02/COALITION-CHARTER.md:48"
+  },
+  {
+   "claim": "The whole population A's three cost figures are computed over: 10 weapon or shield gates.",
+   "quote_or_excerpt": "two-hand 3, ranged 3, one-hand 2, unarmed 1, shield 1",
+   "source": "briefs/round-02/COALITION-CHARTER.md:25"
+  },
+  {
+   "claim": "Two-Handed names five weapons in print, so a weapon:two-hand tag would have five sites and no consumers.",
+   "quote_or_excerpt": "*Two-Handed*, must be held in both hands and takes 2 slots",
+   "source": "quarto-book/chapters/15-equipment.qmd:219"
+  },
+  {
+   "claim": "Versatile names exactly one weapon, so promoting properties to tags starts a tag family with a single site.",
+   "quote_or_excerpt": "*Versatile*, can be wielded two-handed (Longsword only)",
+   "source": "quarto-book/chapters/15-equipment.qmd:213"
+  },
+  {
+   "claim": "A's justification for the only magnitude in its plan.",
+   "quote_or_excerpt": "it cannot touch the DR invariant",
+   "source": "briefs/round-02/COALITION-CHARTER.md:53"
+  },
+  {
+   "claim": "The mechanic A adopts: types on hero weapons.",
+   "quote_or_excerpt": "damage types on hero weapons",
+   "source": "briefs/round-02/COALITION-CHARTER.md:53"
+  },
+  {
+   "claim": "The binding constraint on magnitude, in the charter's own words: the ladder, not the DR band.",
+   "quote_or_excerpt": "it breaks at +2",
+   "source": "briefs/round-02/COALITION-CHARTER.md:23"
+  },
+  {
+   "claim": "The legal ceiling sits below the band-collapse threshold, which is why the DR invariant is not the binding constraint.",
+   "quote_or_excerpt": "the legal ceiling sits at 3/4/6",
+   "source": "briefs/round-02/COALITION-CHARTER.md:22"
+  },
+  {
+   "claim": "The live damage bands against which the x2 inversion is computed.",
+   "quote_or_excerpt": "4/6/8 \u00b7 5/8/11 \u00b7 7/10/14",
+   "source": "briefs/round-02/COALITION-CHARTER.md:17"
+  },
+  {
+   "claim": "The ladder failure the round-1 arithmetic calibrated, at +2: a Novice row taking the Weak tier from an Adept row.",
+   "quote_or_excerpt": "A Novice row at 6/8/10 takes the Weak tier outright from an Adept row at 5",
+   "source": "briefs/round-02/COALITION-CHARTER.md:23"
+  },
+  {
+   "claim": "The doubling A sources as safe is printed unconditionally, so the trigger is available rather than rare.",
+   "quote_or_excerpt": "takes double from your longsword",
+   "source": "quarto-book/chapters/13-combat.qmd:154"
+  },
+  {
+   "claim": "A's headline defect: the basic attack is gated, so a two-handed armament has none.",
+   "quote_or_excerpt": "no basic attack at all",
+   "source": "briefs/round-02/COALITION-CHARTER.md:49"
+  },
+  {
+   "claim": "The vocabulary's missing rule, which A's fix must supply and which changes the gate population A prices.",
+   "quote_or_excerpt": "nothing states what satisfies a tag",
+   "source": "briefs/round-02/COALITION-CHARTER.md:49"
+  },
+  {
+   "claim": "Basic Melee is one of exactly two weapon:one-hand gates, so A's own satisfaction fix alters the population the 10-gate split is priced over.",
+   "quote_or_excerpt": "*Disciplines:* None \u00b7 *Kit:* weapon:one-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:174"
+  },
+  {
+   "claim": "The other weapon:one-hand gate, which fixes the one-hand population at two cards.",
+   "quote_or_excerpt": "*Disciplines:* 2 Axes \u00b7 *Kit:* weapon:one-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:245"
+  },
+  {
+   "claim": "A's first principle, which the type layer contradicts in kind if not in unit: the weapon carries no magnitude.",
+   "quote_or_excerpt": "A weapon carries",
+   "source": "briefs/round-02/COALITION-CHARTER.md:45"
+  }
+ ],
+ "id": "f-027",
+ "role": "contrarian",
+ "round": 2,
+ "stance": "refute",
+ "topic": "t-03"
+}

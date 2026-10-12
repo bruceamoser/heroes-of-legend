@@ -1,0 +1,57 @@
+{
+  "id": "f-009",
+  "round": 2,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "support",
+  "argument": "The standing refutes on this premise rest on two counted burdens, and both shrink when the consumers are read instead of counted. Bestiary burden: all twenty-four weapon-labelled monster attack lines print a row of the damage budget, one weapon name appears at two different rows in the same chapter, five of the names used have no catalog row anywhere, and the ranges printed for the shared bows disagree with the catalog's range column and are the numbers the DA actually reads, so that consumer is not a consumer of the catalog. Property burden: the two-slot payload of a two-handed weapon is duplicated as a category rule inside the encumbrance section, the attribute substitution is stated twice in the disciplines chapter with no item list and once credits a class feature with extending it past any single weapon, the ten-foot band is printed inline in monster stat blocks for weapons the catalog never defines, and the off-hand property has no consumer procedure anywhere in the nine chapters, so deleting it retires a tag rather than breaking a rule. What deletion genuinely costs, on my tests, is narrower than the record implies: the item-to-property map, the armour slot column, and the gear notes column. I attacked the last two on three routes each (pack tags, the encumbrance range, the reference reprint) and no route survived: the range leaves four distinct slot values across eight armours with nothing to pick one, and twenty-seven of the thirty-seven gear notes state a rule no other text carries. The case for deleting as drafted therefore holds for the weapons table and its reprint and fails for two columns, which is a smaller remediation than a blanket requirement that a destination plan precede all deletion. This advances my round-one position by abandoning its blanket form; the two families where no counter-example survived are recorded in the last evidence item.",
+  "evidence": [
+    {
+      "source": "sources/20-bestiary (24 weapon-labelled attack lines, files 20-bestiary:104-627)",
+      "claim": "Every weapon-labelled monster attack line prints one of the three damage-budget rows, and a single weapon name is printed at two different rows in the same chapter, so the damage figure tracks the monster's tier rather than any catalog entry. Test: grep for lines opening with a weapon name in italics and compare each row against the budget table in the disciplines and reference chapters.",
+      "quote_or_excerpt": "*Dagger:* 5/8/11."
+    },
+    {
+      "source": "sources/20-bestiary, sources/15-equipment, sources/22-reference-sheets",
+      "claim": "Five weapon names used in monster attacks have no row in the catalog or its reprint, and the shared bows print ranges that disagree with the catalog's range column, so the bestiary already states its own weapon figures and supersedes the surface it is said to depend on. Test: zero bracket matches for scimitar, morningstar, javelin, club and greatclub in either catalog file; nine of the twenty-four attack lines use those names.",
+      "quote_or_excerpt": "*Javelin:* 4/6/8 piercing (range 30/120)."
+    },
+    {
+      "source": "sources/20-bestiary",
+      "claim": "Close melee range is stated as an inline per-attack value inside monster stat blocks, twice at ten feet and twice at fifteen, on weapons with no catalog row, so the ten-foot band has a home that never consults the property list and survives a purge untouched.",
+      "quote_or_excerpt": "*Morningstar:* 4/6/8 bludgeoning. Reach 10 ft."
+    },
+    {
+      "source": "sources/08-disciplines",
+      "claim": "The attribute substitution is stated twice in the disciplines chapter's damage-budget section with no item list, and one of the two statements credits a class feature with extending the substitution beyond any single weapon, so the rule text outlives the catalog on its own.",
+      "quote_or_excerpt": "Melee attacks add Brawn, Finesse attacks add Agility; missile and thrown weapons are flat."
+    },
+    {
+      "source": "sources/15-equipment",
+      "claim": "The slot payload attached to the two-handed property is duplicated as a category rule in the encumbrance section, measured in slots by item type rather than by item name, so part of the property's content is already stated outside the table.",
+      "quote_or_excerpt": "Most items take 1 slot. Armor takes 2-4 slots. Two-handed weapons take 2 slots."
+    },
+    {
+      "source": "sources/15-equipment",
+      "claim": "The chapter already assigns damage to objects that never had a catalog row, at the basic floor for a swing and flat at the novice row for a throw, which is the same shape of category rule a post-deletion weapon would need, so no unhandled case is created.",
+      "quote_or_excerpt": "Improvised weapons (a crowbar swung as a club, a hammer in a pinch) deal 1/1/2 + Brawn, the Basic Unarmed floor. A thrown improvised object counts as a thrown attack: 1/2/3 flat, no attribute."
+    },
+    {
+      "source": "sources/15-equipment, sources/21-glossary, sources/*",
+      "claim": "The off-hand property has no consumer procedure in the nine chapters: the only two statements of two-weapon fighting are that property's own definitions, and the sole other mention is a charge-benefit clause, so deleting it removes a tag rather than breaking a rule a reader can follow. Test: grep for off-hand, two-weapon and second weapon across all nine files returns one definition bullet, one glossary headword and one charge clause.",
+      "quote_or_excerpt": "*Light:* A weapon property. Can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe)."
+    },
+    {
+      "source": "sources/15-equipment, sources/16-armor-shields, sources/22-reference-sheets",
+      "claim": "The armour rows are printed three times with the same four value columns, and the equipment chapter's pointer promises a wider version in the armour chapter that is not delivered there (that copy adds descriptive notes instead of the promised column), so the duplicated copy can go with nothing to migrate to.",
+      "quote_or_excerpt": "Full table with Stealth column: see @sec-chapter-armor-shields"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Counter-test record for the two families where no counter-example survived. Armour slots: the general rule gives only a range, the weight class fixes damage reduction and donning time but not slots, and the single worked consumer of a slot value is itself named content. Gear notes: the notes column carries a rule on most rows, and only five of those rules have a pack-tag twin with the same capability name, leaving the rest without a destination. Tests run on both families: (A) pack tags, (B) the encumbrance range, (C) the reference-sheet reprint, (D) the weight-class and donning rules. No migration-free route was found.",
+      "quote_or_excerpt": "Worked computation. Armour slots: distinct per-item slot values across the eight armour rows = {2,2,2,2,3,3,4,4} = 4 distinct values, not derivable from the three weight classes (light 2, medium 2 or 3, heavy 3 or 4); the only worked consumer of 2 vs 4 is the named-armour choice example. Gear notes: 37 rows, 27 note cells matching a numeric/check/effect rule (Backpack, Bedroll, Caltrops, Crowbar, Disguise Kit, Fishing Tackle, Grappling Hook, Hammer, Healer's Kit, Ink & Pen, Lantern, Manacles, Oil, Pitons, Pouch, Rations, both Ropes, Sack, Smith's Tools, Smoke Bomb, Spellbook, Spyglass, Thieves' Tools, Torch, Volatile Reagents, Waterskin); pack-tag twins exist for 5 of them (thieves, healer, smith, scribe, disguise) and not for the other 22. Conclusion: the destination plan is required by these two columns only, not by the catalog as a whole."
+    }
+  ],
+  "confidence": 0.6,
+  "rebutting": ["f-001", "f-002", "f-004", "f-005"]
+}

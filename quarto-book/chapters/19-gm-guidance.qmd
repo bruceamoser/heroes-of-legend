@@ -34,13 +34,13 @@ A scene is a unit of story. It has a beginning (the party enters the throne room
 
 == Setting Difficulty
 
-The difficulty modifier is the simplest tool in your kit, and the one new DAs misuse most often. Here's how to wield it well.
+The difficulty call is the simplest tool in your kit, and the one new DAs misuse most often. Here's how to wield it well.
 
-*The baseline is +0.* Standard difficulty means the task is a fair test of the hero's abilities. Picking a standard lock. Climbing a wall with handholds. Lying to a guard who has no reason to suspect you. When the fiction says "this is what the skill was made for," the modifier is +0. Don't add penalties just because you want the roll to be harder. The bell curve makes Standard results the most common outcome, and that's intentional. Competent heroes succeed at competent tasks.
+*The baseline is a straight 3d6.* Standard difficulty means the task is a fair test of the hero's abilities. Picking a standard lock. Climbing a wall with handholds. Lying to a guard who has no reason to suspect you. When the fiction says "this is what the skill was made for," you grant nothing. Don't impose a Bane just because you want the roll to be harder. The bell curve makes Standard results the most common outcome, and that's intentional. Competent heroes succeed at competent tasks.
 
-*Add bonuses when the situation favors the hero.* The guard is distracted (+2). The lock is rusty and half-broken (+2). The wall has plenty of handholds and the hero has a rope (+4). Generous bonuses make players feel smart for setting up advantages. If the rogue spent ten minutes creating a distraction before attempting the lock, reward that. The dice should reflect the fiction, not override it.
+*Grant a Boon when the situation favors the hero.* The guard is distracted (Boon 1). The lock is rusty and half-broken (Boon 1). The wall has plenty of handholds and the hero has a rope (Boon 2). Generous Boons make players feel smart for setting up advantages. If the rogue spent ten minutes creating a distraction before attempting the lock, reward that. The dice should reflect the fiction, not override it.
 
-*Add penalties when the situation fights back.* It's pitch dark (-2). The guard just watched his partner get stabbed and he's on high alert (-2). The lock is dwarven masterwork, the wall is sheer ice, the lie is being told to the king's spymaster (-4). Penalties make the world feel dangerous without making it feel unfair. The players should know _why_ the roll is harder. "The lock is dwarven masterwork" is information. "-4 because I said so" is frustration.
+*Impose a Bane when the situation fights back.* It's pitch dark (Bane 1). The guard just watched his partner get stabbed and he's on high alert (Bane 1). The lock is dwarven masterwork, the wall is sheer ice, the lie is being told to the king's spymaster (Bane 2). Banes stack up to three, so a hero facing both the dark and the alert guard rolls a Bane 2. Banes make the world feel dangerous without making it feel unfair. The players should know _why_ the roll is harder. "The lock is dwarven masterwork" is information. "A Bane because I said so" is frustration.
 
 *The golden rule: don't call for rolls when the outcome isn't in doubt.* The brawler with Brawn +2 wants to kick down a normal wooden door? It breaks. No roll. The woodsman with Survival Adept wants to find edible berries in a temperate forest? They find them. No roll. Rolling dice when there's nothing at stake drains tension from the moments that _do_ matter. Save the dice for when the table is leaning forward, waiting to see what happens.
 
@@ -50,11 +50,17 @@ The difficulty modifier is the simplest tool in your kit, and the one new DAs mi
 
 Balancing combat encounters is more art than science, but the numbers give you a starting point. Here's how to think about it.
 
-*The basic math:* Encounter difficulty uses a simple multiplier against party level. *Easy* encounters use a challenge budget of *×1 party level*, a quick fight that costs few resources. *Standard* encounters use *×2 party level*, the party should win while expending some resources. *Hard* encounters use *×3 party level*, expect significant resource drain and possible casualties. *Deadly* encounters use *×4+ party level*, character death is a real possibility. These are guidelines, not guarantees. Terrain, surprise, and player cleverness will swing fights further than any formula.
+*What a fight costs.* A hero's staying power between respites is HP x (Grit + 1), plus what Catch Breath returns (see @sec-chapter-combat) Read against that pool, one encounter at the field sizes below costs the party roughly: *Easy* about a third of the day, *Standard* about half, *Hard* the whole day, *Deadly* more than a day. Total encounter HP sets how long the fight runs; the number of creatures sets how fast the pool drains.
 
-*What a budget buys:* a creature's Challenge is its share of the budget, a Standard (×2) encounter for a level 1 party is roughly two Challenge 1 creatures, or one Challenge 2 and a few minions. Adjust for party size: six or more heroes fight one step harder than the table suggests, three or fewer one step easier.
+*What a fight costs in Wounds.* The pool above comes back on a respite. Wounds do not: one is taken on every drop whether or not the hero spends Grit to rise, nothing takes one off the sheet, and none of them ever comes off (see @sec-chapter-combat) Priced in that currency, one encounter at these field sizes costs the party of four about: *Easy* about a fifth of a Wound each, *Standard* about a third, *Hard* one to two, *Deadly* two or more, which at Novice spends every Grit the party has and puts the rest of the cost in Dying rather than in Wounds. There is no ceiling on Wounds, so nothing retires a hero except the death roll, and every mark they carry makes that roll worse. A table that runs a Standard fight a session reaches it far sooner than one that makes Easy its common fight. The rungs are the dial and the Wound track is the odds. Say which campaign you are running before the first fight: Standard as the baseline is a story of short bright careers, Easy as the baseline is a story of one long one, and both work.
 
-*Action economy is everything.* Four goblins (four actions per round) are more dangerous than one ogre with the same total HP (one action per round). The side with more actions controls the board. When building encounters, count actions, not just hit points. A solo boss needs legendary actions or multiattack to keep up. A swarm of minions needs low HP so they drop fast and the action economy swings back toward the party.
+*The basic math:* Encounter difficulty uses a simple multiplier against party level, applied per hero and multiplied by the number of heroes. *Easy* encounters use a challenge budget of *×1 party level per hero*, a quick fight that costs about a third of the day's staying power. *Standard* encounters use *×1.25 party level per hero*, the party should win while spending a good part of the day's staying power. *Hard* encounters use *×2 party level per hero*, expect significant resource drain and possible casualties. *Deadly* encounters use *×3 party level per hero*. Treat Deadly as a losing fight rather than a hard one: fielded against creatures of the party's own Challenge, the party is wiped four times in ten at Novice and seven times in ten at Master. Bring an exit, an objective that does not require killing everything, or a plan. These are guidelines, not guarantees. Terrain, surprise, and player cleverness will swing fights further than any formula.
+
+*What a budget buys:* a creature's Challenge is its share of the budget. A Standard encounter for a party of four at level 1 is five Challenge 1 creatures (budget 1.25 x 1 x 4 = 5), or one Challenge 2 creature with a screen of minions. Size the field at roughly one and a quarter creatures per hero: five for a party of four, at every tier. An even fight should resolve in three to four rounds, and a creature of the party's own Challenge takes about three rounds of one hero's attacks to drop, so five of them run 3.6 to 4.0 rounds for a party of four working through the field. The tier's own monster DR does the scaling: a creature is priced at its band's average minus its DR, so as the party's damage climbs the price of its opposition climbs with it and the count stays where it is. Count actions as well as creatures. A creature that attacks twice in a round is worth one and a half of its Challenge in the budget, so a field of two-attack creatures is four, not five: the same Challenge would otherwise buy two different threats at the same price, and the fight runs the same length while the party pays three to five times the Wounds.
+
+*Action economy is everything.* Four goblins (four actions per round) are more dangerous than one ogre with the same total HP (one action per round). The side with more actions controls the board. When building encounters, count actions, not just hit points. A solo boss needs multiattack to keep up. A swarm of minions needs low HP so they drop fast and the action economy swings back toward the party.
+
+*Heal on the threshold, not the top-up.* A healer's Action is worth about a quarter of the party's damage, so it has to buy something the party cannot get by attacking. Measured at the field above: a heal released on a hero at or below half their maximum HP costs the party +0.53 rounds and prevents nothing; a heal held until the hero is down to a third or a quarter costs +0.08 rounds and reduces the Wounds the fight deals. A healer held until someone is genuinely low pays for itself; a healer who heals early costs the party. Tell your healer to hold the Action until it matters, and to spend it on the enemy when nobody is low enough to need it.
 
 *Vary your encounter design.* Not every fight should be "kill all enemies." Mix in objectives: protect the ritual circle for three rounds, stop the cultist from reaching the alarm bell, escape the collapsing temple before the ceiling comes down. Objectives force players to make choices beyond "which enemy do I attack?" and those choices are where memorable combat lives.
 
@@ -101,8 +107,6 @@ Short rests take 1 hour and have no default mechanical effect. They provide narr
 *Long rest (8 hours):* A full night's sleep provides the following benefits:
 - Recover HP equal to your level.
 - Recover all spent Grit.
-- Heal 1 wound.
-- A character may attempt a Medicine check (Standard) to heal 1 additional wound (for themselves or an ally).
 - A long rest cannot be taken more than once per 24 hours.
 
 The long rest is the primary recovery mechanic in _Heroes of Legend_. Party resources, exploration pace, and adventure design all calibrate around it.
@@ -138,9 +142,9 @@ Overland travel uses a simple pace system. Each day, the party covers distance b
 
 *Navigation:* Each day, one character makes a Survival (Fortitude) roll. Standard result: stay on course. Weak result: veer off course (1d6 extra hours). Strong result: find a shortcut (-2 hours).
 
-*Random Encounters:* Roll 1d6 each day and night. On a 1, an encounter occurs. DA chooses or rolls from environment-specific tables.
+*Random Encounters:* A player rolls 1d6 each day and night. On a 1, an encounter occurs. The DA chooses the encounter, or a player rolls it on the environment-specific tables.
 
-*Camping:* A long rest follows the standard rules (see Resting above): 8 hours of rest including sleep, recovering 1 HP per level, regaining all spent Grit, and healing 1 wound (plus 1 additional wound with a Standard Medicine check). Characters on watch make Perception checks with a Bane (tired eyes).
+*Camping:* A long rest follows the standard rules (see Resting above): 8 hours of rest including sleep, recovering 1 HP per level, and regaining all spent Grit. Characters on watch make Perception checks with a Bane (tired eyes).
 
 #quote[*DA Guidance:* Travel is a pacing tool. Use it to build atmosphere, the oppressive silence of a swamp, the howling wind on a mountain pass. Skip travel entirely when the journey isn't the story. "After three days on the road, you arrive at the gates of Thornwell" is perfectly valid.]
 
@@ -202,7 +206,7 @@ Proximity to dark magic, forbidden knowledge, and horrific events can corrupt a 
 
 == Social Conflict (Extended)
 
-High-stakes negotiations, interrogations, and trials run as extended social conflicts. The full rulebook lives in the social conflict chapter (@sec-chapter-social-conflict): the Challenge on the face's roll, the tier-to-success table, first to 3 wins, and the stakes-declared rule. Point players there for the mechanics, and keep one reminder at the table: declare the stakes before the first die hits the table, or the scene never ends.
+High-stakes negotiations, interrogations, and trials run as extended social conflicts. The full rulebook lives in the social conflict chapter: the Challenge on the face's roll, the tier-to-success table, first to 3 wins, and the stakes-declared rule (@sec-chapter-social-conflict) Point players there for the mechanics, and keep one reminder at the table: declare the stakes before the first die hits the table, or the scene never ends.
 
 #pagebreak()
 
@@ -260,7 +264,7 @@ Run this as a group skill challenge. Each character makes one skill check. They 
     [Pick the safest path through the mud flats], [Survival (Fortitude)], [Standard],
     [Spot unstable ground before someone steps on it], [Perception (Reason)], [Standard],
     [Wade the flooded sections without losing gear], [Athletics (Brawn)], [Standard],
-    [Climb the collapsed riverbank to the door], [Athletics (Brawn)], [Hard (Bane if already wet)],
+    [Climb the collapsed riverbank to the door], [Athletics (Brawn)], [Hard: Bane 1 (Bane 2 if already wet)],
     [Read the flow of the new channel to find a ford], [Nature (Knowledge)], [Standard],
   )],
   kind: table,
@@ -310,7 +314,7 @@ Four *Drowned Guardians* rise from the water when the party enters the central c
 *Drowned Guardian (Challenge 1/2):* HP 14, DR 1 (rusted chain). Rusted Sword: 4/6/8 slashing. Slam: 4/6/8 bludgeoning. Waterlogged: moves at half speed on dry ground, normal speed in water. Undead Nature: immune to poison and charm. Vulnerable (Fire): takes double fire damage. Morale: mindless, fights until destroyed.
 ])
 
-*Tactics:* The guardians spread out, one per party member if possible. They're slow but relentless, they don't flank, they don't retreat, they just keep coming. If a guardian is reduced to 0 HP, it collapses into the water with a splash. On the next round, roll 1d6. On a 5-6, it rises again at 1 HP (the water heals them). The party needs to either destroy all four in quick succession or figure out that dragging a body out of the water stops the regeneration.
+*Tactics:* The guardians spread out, one per party member if possible. They're slow but relentless, they don't flank, they don't retreat, they just keep coming. If a guardian is reduced to 0 HP, it collapses into the water with a splash. On the next round, a player rolls 1d6. On a 5-6, it rises again at 1 HP (the water heals them). The party needs to either destroy all four in quick succession or figure out that dragging a body out of the water stops the regeneration.
 
 *Environmental hazard:* Any character who ends their turn in the water must make an Agility check (Standard) or the current knocks them Prone. The water is only ankle-deep, falling in it is embarrassing, not dangerous. But Prone in combat is bad. Remember that standing up costs a Maneuver (@sec-chapter-combat)
 
@@ -332,9 +336,9 @@ Beyond the main chamber, a short passage descends deeper. The water drains away 
 
 #quote[_"The sanctum is a perfect circle, maybe forty feet across. The walls rise into darkness, you can't see the ceiling. The only light comes from the floor, blue lines tracing geometric patterns that all converge on a central pedestal. The crystal on that pedestal pulses like a heartbeat. And the figure beside it, a corpse in ornate armor, wearing a circlet of tarnished silver, turns its head toward you. Water drips from its beard. Its eyes are blue glass, and they see you."_]
 
-*Kelvath, the Drowned Warden (Challenge 2):* HP 8, DR 3 (ancient plate). Warden's Blade: 4/6/8 slashing. Water Bolt: 4/6/8 cold (range 30 ft, at will). Tidal Surge (Recharge 5-6): all creatures within 15 ft take 4/6/8 cold and must make Brawn check (Standard) or be pushed 10 ft and knocked Prone. Undead Nature: immune to poison and charm. Seal-Bound: Kelvath cannot move more than 10 ft from the crystal pedestal. If the seal is broken, he loses this restriction, and his attacks deal +1 damage tier.
+*Kelvath, the Drowned Warden (Challenge 2):* HP 32 (solo: sized for four attackers), DR 3 (ancient plate). Warden's Blade: 4/6/8 slashing. Water Bolt: 4/6/8 cold (range 30 ft, at will). Tidal Surge (Recharge 5-6): all creatures within 15 ft take 4/6/8 cold and must make Brawn check (Standard) or be pushed 10 ft and knocked Prone. Undead Nature: immune to poison and charm. Seal-Bound: Kelvath cannot move more than 10 ft from the crystal pedestal. If the seal is broken, he loses this restriction, and his attacks deal +1 damage tier.
 
-*The Warding Seal:* The glowing runes around the pedestal are a magical seal, one that's been holding Kelvath here for three centuries. It's failing. The crystal is cracked. The seal will break on its own in 1d4+1 rounds (roll secretly at the start of combat). When it breaks, Kelvath's Seal-Bound restriction ends, and the sanctum begins to flood (water rises 1 ft per round thereafter).
+*The Warding Seal:* The glowing runes around the pedestal are a magical seal, one that's been holding Kelvath here for three centuries. It's failing. The crystal is cracked. The seal will break on its own in 1d4+1 rounds (a player rolls at the start of combat). When it breaks, Kelvath's Seal-Bound restriction ends, and the sanctum begins to flood (water rises 1 ft per round thereafter).
 
 *The party has options:*
 
@@ -483,7 +487,7 @@ At the end of each session, each player chooses one faction action. This represe
     [*Secure Resources*], [Gain one consumable item appropriate to the faction (healing potion from a divine order, acid vial from a thieves' guild, scroll from a mage circle).],
     [*Spread Influence*], [Improve your reputation with one related faction by +1 (max +2). The Argent Circle puts in a good word for you with the Iron Pact.],
     [*Train*], [Gain a +2 bonus to one skill for the next session only. Represents intense preparation for a specific challenge.],
-    [*Rest and Recover*], [Recover from one condition or affliction that would normally persist between sessions. The faction's healers, sages, or spiritual advisors tend to you.],
+    [*Rest and Recover*], [The faction's healers, sages, or spiritual advisors tend to you: you recover from one condition, and Corruption fades as its own recovery rule allows (see the Corruption section above).],
     [*Fortify Position*], [Improve the defenses of a location you hold for the next session. If attacked, it gains +10 temporary HP.],
   )],
   kind: table,
@@ -546,7 +550,7 @@ Most mechanical elements in _Heroes of Legend_ follow one of three card formats.
 
 Spells are the most structured. Every spell card answers the same questions in the same order.
 
-*Format:* `### Name (Cantrip | Arcane Spell | Divine Spell | Primal Spell)` then a single field line: `**Disciplines:** N Type · **Kit:** focus:arcane · **Action:** Action/Reaction/Maneuver · **Range:** Touch/30 ft/area · **Keywords:** ...` then *Weak:*, *Standard:*, *Strong:* outcomes. An Adept or Master card replaces the outcome block with a single *Effect:* line.
+*Format:* `### Name (Tier Kind)`, with the tier always leading the parenthetical: `(Cantrip)`, `(Novice Arcane Spell)`, `(Adept Divine Spell)`, `(Master Primal Spell)`. Then a single field line: `**Disciplines:** N Type · **Requires:** focus:arcane · **Cast:** Action/Reaction/Maneuver, or a stated time such as 15 minutes with what the working asks for after it · **Range:** Touch/30 ft/area · **Duration:** 1 round/1 minute/Concentration, up to 1 minute · **Keywords:** ...` then either a *Weak:* / *Standard:* / *Strong:* block or, for a spell that grants a flat benefit instead of dealing damage, a single *Effect:* line.
 
 #figure(
   align(center)[#table(
@@ -554,11 +558,12 @@ Spells are the most structured. Every spell card answers the same questions in t
     align: (auto, auto,),
     table.header([Field], [Description],),
     [*Disciplines*], [The Disciplines required to learn this spell. e.g. "1 Fire" or "2 Fire". A card's tier sets the level it needs: Novice 1, Adept 3, Master 7. Max 3 ranks per type.],
-    [*Kit*], [The gear this card assumes, e.g. "focus:arcane", "focus:holy", or "weapon:two-hand". Many published cards carry no Kit field at all.],
-    [*Action*], [What it costs from the turn economy: Action, Maneuver, or Reaction.],
+    [*Requires*], [The gear this card assumes, e.g. "focus:arcane", "focus:holy", or "weapon:two-hand". Many published cards carry no Requires field at all.],
+    [*Cast*], [What it costs from the turn economy, or how long the working takes: Action, Maneuver, or Reaction, or a stated time such as 1 minute or 15 minutes, with what the working asks for in the time it takes. A cast that names a time is a ritual: it is not a combat cast, and the fight has to wait for it.],
     [*Range*], [How far the spell reaches: Touch, 30 ft, 60 ft, Self (15-ft cone), 20-ft radius, etc.],
+    [*Duration*], [How long the card's own effect lasts: "1 round", "1 minute", "Concentration, up to 1 minute", "Concentration, up to 1 round", "Permanent". A card with no Duration field ends where its rung's own text says it ends.],
     [*Keywords*], [Mechanics the card interacts with: Bane, Boon, Prone, Slowed, Piercing, DR, and so on.],
-    [*Weak / Standard / Strong*], [What happens on each result. Damage uses the budget table (@sec-damage-budget): 4/6/8, 5/8/11, or 7/10/14 by tier.],
+    [*Weak / Standard / Strong*], [What happens on each result. Damage uses the budget table (@sec-damage-budget): 4/6/8, 5/8/11, or 7/10/14 by tier. Healing uses the healing thresholds (@sec-healing-thresholds) instead: half the target's maximum, their maximum, or their maximum plus a rider. A spell that grants a flat benefit and is never rolled replaces this block with a single *Effect:* line. So do ancestry gifts, and so does any ability that grants a standing benefit rather than an outcome.],
   )],
   kind: table,
   outlined: false,
@@ -568,10 +573,10 @@ Spells are the most structured. Every spell card answers the same questions in t
 *Example (Brimstone Burst):*
 
 #quote[*Brimstone Burst (Arcane Spell).*
-*Disciplines:* 2 Fire · *Action:* Action · *Range:* 20-ft radius · *Keywords:* Burning
-*Weak:* 4 fire damage to all in the radius (Agility or Dodge rank resists).
-*Standard:* 6 fire damage to all.
-*Strong:* 8 fire damage to all; the ground burns (Burning 4).]
+*Disciplines:* 2 Fire · *Cast:* Action · *Range:* 20-ft radius · *Keywords:* Burning
+*Weak:* 5 fire damage to all in the radius (Agility or Dodge rank resists).
+*Standard:* 8 fire damage to all.
+*Strong:* 11 fire damage to all; the ground burns (Burning 4).]
 
 #quote[_This is the spell that ends encounters and starts wars. When you cast Brimstone Burst, the battlefield changes. So does your reputation._]
 
@@ -590,7 +595,7 @@ Class abilities are more varied than spells, but they all follow a simpler forma
     [*Tier*], [Novice, Adept, or Master. Cards cost 2 DP (Novice), 4 DP (Adept), or 8 DP (Master).],
     [*Discipline Req*], [Disciplines required to purchase this ability. "No prereq" for basic utility abilities.],
     [*Trigger*], [When the ability can be used: "When you attack", "As a maneuver", "When an ally drops to 0 HP", etc.],
-    [*Effect*], [What happens. Damaging abilities key to the damage budget (@sec-damage-budget)],
+    [*Effect*], [What happens. Damaging abilities key to the damage budget (@sec-damage-budget).],
   )],
   kind: table,
   outlined: false,
@@ -615,7 +620,7 @@ Class abilities are more varied than spells, but they all follow a simpler forma
 
 Some Novice-level cards have no Discipline requirement. Basic utility skills cost the flat card price (2 DP). Cantrips are free, and every caster of a tradition knows the whole list, but they use the same card format:
 
-#quote[*Spark (Cantrip).* *Disciplines:* None · *Action:* Action · *Range:* 30 ft · *Keywords:* None. *Weak:* The object smolders. It may catch fire after 1 round if left alone. *Standard:* Immediate ignition. The object catches fire and burns normally. *Strong:* The flame leaps. Adjacent flammable objects also catch fire.]
+#quote[*Spark (Cantrip).* *Disciplines:* None · *Cast:* Action · *Range:* 30 ft · *Keywords:* None. *Weak:* The object smolders. It may catch fire after 1 round if left alone. *Standard:* Immediate ignition. The object catches fire and burns normally. *Strong:* The flame leaps. Adjacent flammable objects also catch fire.]
 
 No-prereq spell cards are Novice only. An Adept or Master spell always lists a Discipline.
 
@@ -654,7 +659,7 @@ Ancestry gifts are the simplest. They have no Discipline requirement (they're in
 )
 
 #callout(type: "tip", title: "Designing Your Own Content", body: [
-When you create a new spell, ability, or gift, start with the template. Fill in every field. If you can't fill a field, your design isn't done. Then check your damage numbers against the budget table (@sec-damage-budget) If the numbers don't match, adjust them. The table is the balance. The template is the form. Together, they ensure your creation plays well with everything else in the book.
+When you create a new spell, ability, or gift, start with the template. Fill in every field. If you can't fill a field, your design isn't done. Then check your damage numbers against the budget table (@sec-damage-budget). If the numbers don't match, adjust them. The table is the balance. The template is the form. Together, they ensure your creation plays well with everything else in the book.
 ])
 
 #pagebreak()

@@ -1,0 +1,106 @@
+{
+  "ancestry": "Dwarf",
+  "armor": "light",
+  "armor_dr": 1,
+  "attributes": {
+    "Agility": -1,
+    "Brawn": 2,
+    "Fortitude": 2,
+    "Guile": 0,
+    "Knowledge": 0,
+    "Reason": 0
+  },
+  "cards": [
+    "Sanctuary"
+  ],
+  "class": "Protector",
+  "culture": "Mountain",
+  "disciplines": {
+    "Armor": 1,
+    "Melee": 1,
+    "Protection": 1,
+    "Shields": 1
+  },
+  "dp": {
+    "background": 10,
+    "class": 25
+  },
+  "grit": 3,
+  "hp": 16,
+  "id": "P1",
+  "ledger": [
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Parry Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Endurance Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Survival Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Perception Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Persuasion Novice",
+      "wallet": "background"
+    },
+    {
+      "detail": "prerequisite for Sanctuary",
+      "dp": 4,
+      "item": "Protection 1",
+      "wallet": "class"
+    },
+    {
+      "detail": "Novice card",
+      "dp": 2,
+      "item": "Sanctuary",
+      "wallet": "class"
+    },
+    {
+      "detail": "auto",
+      "dp": 2,
+      "item": "Medicine Novice",
+      "wallet": "class"
+    }
+  ],
+  "level": 5,
+  "name": "Gorma",
+  "notes": [
+    "Melee granted twice; second grant is waste (08:99)",
+    "Armor granted twice; second grant is waste (08:99)",
+    "culture grants Athletics +1",
+    "Armor already granted; requested rank is waste",
+    "Shields already granted; requested rank is waste",
+    "background DP 10/10 spent",
+    "class DP 8/25 spent",
+    "unspent DP: background 0, class 17"
+  ],
+  "shield": true,
+  "skills": {
+    "Athletics": 1,
+    "Endurance": 1,
+    "Medicine": 1,
+    "Parry": 1,
+    "Perception": 1,
+    "Persuasion": 1,
+    "Survival": 1
+  },
+  "tier": "Adept",
+  "ward_dr": 0,
+  "weapon": "one-hand"
+}

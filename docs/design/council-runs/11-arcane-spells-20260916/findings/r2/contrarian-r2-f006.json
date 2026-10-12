@@ -1,0 +1,27 @@
+{
+  "id": "contrarian-r2-f006",
+  "round": 2,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "The Strong clause no longer names one figure twice. It now states a single reflected consequence on the striker, so the ambiguity the filing rests on, one number readable two ways with no total on the card, cannot be reconstructed from the text, and the filing should stop blocking this topic. Its second half is not cleared, and I say so rather than let the merge take credit for it: the surviving four sits three under the Master floor of seven and matches the Novice row's first value, which is the same arithmetic a second filing on this topic already carries; I leave that one un-rebutted so the chapter keeps a live blocker where one is genuinely owed. Everything else on the card is untouched and compliant: a grant of three bought with three ranks, a ceiling of six at this tier, and the non-stacking sentence its ladder siblings share. Class: MECHANICAL.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "The Strong line now names the reflected figure once, as a single consequence on the striker, so the reading that could resolve it as two instances is closed.",
+      "quote_or_excerpt": "the attacker takes 4 damage as the ward throws the blow back"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Residue arithmetic: a Master row begins at seven and the surviving figure is four, so the card remains three under its own floor and the figure equals the Novice row's first value.",
+      "quote_or_excerpt": "7 - 4 = 3 short of the Master floor"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The grant ladder and the non-stacking sentence were not touched by the merge, so the defect was confined to the Strong clause exactly as the filing scoped it.",
+      "quote_or_excerpt": "This DR does not stack with any other source of DR."
+    }
+  ],
+  "confidence": 0.7,
+  "rebutting": ["f-006"]
+}

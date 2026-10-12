@@ -1,0 +1,51 @@
+{
+ "argument": "Card-visible weapon identity already lives in the kit's armament tag, and that is where it should stay. The card header accepts a closed list of eight tags, five of them weapon or shield, so any card-level consequence of a weapon must reduce to one of those five strings; nothing else about a weapon is visible to the card layer. The named weapon's only other mechanical attachment is its Discipline entry requirement, and the book explicitly waives that for kit gear. The equipment chapter's stated intent is that weapons do not differ in the numbers they produce, and it adds that the weapon never changes those numbers. The lever for adding consequences is therefore the tag vocabulary or the property list, both of which reach the 62 gates and the combat chassis without putting a scaling figure on a gear table - the one move the DR invariant forbids. The magic-item chapter is the only place a named weapon does mechanical work, and even there the gate is attunement plus a granted Discipline rather than the weapon's shape. Practical consequence for round 2: any proposal that gives the longsword a better number than the greataxe is out of bounds by the book's own design law; a proposal that gives the longsword a different tag, a different property, or a different rule surface is not.",
+ "confidence": 0.82,
+ "evidence": [
+  {
+   "claim": "The closed eight-tag Kit vocabulary is the only channel by which a weapon can reach a card.",
+   "quote_or_excerpt": "The tags a card can require are `weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`, `shield`, `focus:arcane`, `focus:holy` and `focus:primal`. A card that requires none of them carries no Kit field at all, and most cards do not. Only where the work itself needs the tool does the card ask for it.",
+   "source": "quarto-book/chapters/15-equipment.qmd:25"
+  },
+  {
+   "claim": "Discipline entry requirements are explicitly waived for kit gear, so a named weapon's Discipline cost is not a reliable identity anchor.",
+   "quote_or_excerpt": "Your class starting kit assumes training with its gear: you can wield kit weapons and use kit armor and shields regardless of Discipline prerequisites. Attack ability cards still require their listed Disciplines, wielding a kit weapon does not grant the maneuvers that require them.",
+   "source": "quarto-book/chapters/15-equipment.qmd:196"
+  },
+  {
+   "claim": "The chapter's stated design intent: weapons do not differ in the hit they produce.",
+   "quote_or_excerpt": "Pick the weapon that fits your hero, not the one that looks best on paper. They all hit the same; you are the one doing the hitting.",
+   "source": "quarto-book/chapters/15-equipment.qmd:165"
+  },
+  {
+   "claim": "The same callout closes by stating the weapon never changes the damage numbers - the design law that forbids a better-weapon ladder.",
+   "quote_or_excerpt": "Melee attacks add your Brawn to the damage row on your attack ability card; Finesse weapons use Agility instead. Missile and thrown attacks are flat, no attribute added. See @sec-chapter-talents-abilities for the cards and @sec-chapter-combat for the basic attack. The weapon never changes these numbers.",
+   "source": "quarto-book/chapters/15-equipment.qmd:200"
+  },
+  {
+   "claim": "Weapons are listed by required Disciplines, properties and range only: the four columns are the whole mechanical surface.",
+   "quote_or_excerpt": "table.header([Weapon], [Disciplines Required], [Properties], [Range],),",
+   "source": "quarto-book/chapters/15-equipment.qmd:171"
+  },
+  {
+   "claim": "Named weapons attach to specific Discipline combinations, which is a build-cost gate, not a stat difference.",
+   "quote_or_excerpt": "Weapons don't just require more of the same Discipline, they require specific combinations. A Longsword needs _2 Blades_. A Greatsword needs _2 Blades + 1 Heavy Weapon_. Your Discipline choices describe the kind of fighter you are, and that description decides which attack ability cards you can reach. A hero with a Greatsword is a different person than a hero with a Dagger, not a bigger number. Name the style you want, then pick the combination that says it out loud. The cards you can reach are the fighting style you have chosen.",
+   "source": "quarto-book/chapters/15-equipment.qmd:206"
+  },
+  {
+   "claim": "The kit grants permission, not numbers - the invariant that constrains any weapon-identity design.",
+   "quote_or_excerpt": "A kit adds no number except the DR its covering buys. It grants no HP, no damage, and no bonus to any roll. What a kit grants is permission. It says which cards you can use, and it decides whether an attempt is fair or a long shot. If you need to know how hard you hit, look at your cards. If you need to know whether you can even try, look at your kit.",
+   "source": "quarto-book/chapters/15-equipment.qmd:23"
+  },
+  {
+   "claim": "Shields already introduce non-numeric identity (Parry/Shield Block enablement), showing the permitted shape.",
+   "quote_or_excerpt": "Shields: *Buckler* (1 Protection), *Shield* (1 Protection), *Tower Shield* (2 Protection, provides half cover). A shield enables Parry and Shield Block. See @sec-chapter-armor-shields",
+   "source": "quarto-book/chapters/15-equipment.qmd:247"
+  }
+ ],
+ "id": "f-009",
+ "role": "researcher",
+ "round": 1,
+ "stance": "support",
+ "topic": "t-03"
+}

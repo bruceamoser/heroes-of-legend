@@ -1,4 +1,4 @@
-# Equipment & Kits {#sec-chapter-equipment}
+# Equipment {#sec-chapter-equipment}
 
 ```{=typst}
 #label("sec-chapter-equipment")
@@ -12,75 +12,36 @@ _Placeholder for final art._
 
 Your hero is going to need gear. A sword, some armor, a rope, a torch, a bedroll, and probably a ten-foot pole because someone at the table has read about pit traps. Equipment is the stuff between your hero and a bad day. Choose it well.
 
-The tables in this chapter list weapons by required Disciplines, armor by weight class and slots, and adventuring gear by utility. Gear is not bought. It is granted, earned, or taken, and these lists are a reference for what a thing is, what it weighs, and what the odd ones do.
+The tables in this chapter list weapons by category, armor by weight class and slots, and adventuring gear by utility. Gear is not bought. It is granted, earned, or taken, and these lists are a reference for what a thing is, what it weighs, and what the odd ones do.
 
 #pagebreak()
 
-== Kits
-
-A kit is how you are outfitted: the arms, the tools, and the habits that say what you do and where you came from. Your class says what you are. Your Disciplines say what you trained. Your cards carry the numbers. Your kit says what you brought.
-
-A kit adds no number except the DR its covering buys. It grants no HP, no damage, and no bonus to any roll. What a kit grants is permission. It says which cards you can use, and it decides whether an attempt is fair or a long shot. If you need to know how hard you hit, look at your cards. If you need to know whether you can even try, look at your kit.
-
-The tags a card can require are `weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`, `shield`, `focus:arcane`, `focus:holy` and `focus:primal`. A card that requires none of them carries no Kit field at all, and most cards do not. Only where the work itself needs the tool does the card ask for it.
-
-=== The Four Lines
-
-Every kit is built from four lines: Armament, Covering, Focus, and Calling. Each option on a line has a price in kit points.
+Every card that asks for gear names a tag in its Requires field. Here is every tag, and the Discipline rank that using the gear asks for:
 
 #figure(
   align(center)[#table(
-    columns: (18.00%, 52.00%, 30.00%),
+    columns: (26.00%, 16.00%, 58.00%),
     align: (auto, auto, auto,),
-    table.header([Line], [Options], [Points],),
-    [*Armament*], [Unarmed], [0],
-    [], [One-handed weapon], [1],
-    [], [Ranged weapon], [1],
-    [], [One-handed weapon and shield], [2],
-    [], [Two-handed weapon], [2],
-    [*Covering*], [None], [0],
-    [], [Light armour], [1],
-    [], [Medium armour], [2],
-    [], [Heavy armour], [3],
-    [*Focus*], [None], [0],
-    [], [Holy, Arcane or Primal focus], [3],
-    [*Calling*], [Any one vocation], [1],
+    table.header([Tag], [Rank], [What it gates],),
+    [`weapon:unarmed`], [None], [Bare hands, gauntlets, and grapples],
+    [`weapon:one-hand`], [None], [A one-handed weapon in your hand],
+    [`weapon:two-hand`], [None], [A greatsword, maul, halberd, or other weapon held in both hands],
+    [`weapon:ranged`], [None], [A bow, crossbow, or thrown weapon in hand],
+    [`shield`], [None], [A shield on your arm],
+    [`focus:arcane`], [None], [A wand, staff, or orb, held for the spell's full effect],
+    [`focus:holy`], [None], [A holy symbol, held for the spell's full effect],
+    [`focus:primal`], [None], [A primal focus, held for the spell's full effect],
   )],
   kind: table,
   outlined: false,
   numbering: none,
 )
 
-You take exactly one option from each of the four lines, and the four together are your primary kit. Your calling is what you were before you started adventuring, and it is the only line you must take. Its point is counted in every row below.
+A card that requires none of these carries no Requires field at all, and most cards do not. Only where the work itself needs the tool does the card ask for it. A focus asks for no rank of its own: it is required for the spell's full effect, and without it the spell still casts and resolves one outcome lower, Strong becomes Standard and Standard becomes Weak. At that floor a rung that deals damage deals 1 damage instead, and any other rung resolves as written but forgoes its riders. Cantrips carry no focus tag at all.
 
-=== The Budget
+== Packs
 
-You have six points to spend on your primary kit. Spend them well, because the leftovers have work to do.
-
-#figure(
-  align(center)[#table(
-    columns: (34.00%, 22.00%, 44.00%),
-    align: (auto, auto, auto,),
-    table.header([A hero who...], [Spends], [Has left for packs],),
-    [Wears no armour and carries a staff], [3], [3],
-    [Wears no armour with a focus], [4], [2],
-    [Wears light armour and a one-handed weapon], [3], [3],
-    [Wears medium armour and a shield], [5], [1],
-    [Wears heavy armour and a shield], [6], [0],
-    [Wears heavy armour, a shield and a focus], [9], [impossible],
-  )],
-  kind: table,
-  outlined: false,
-  numbering: none,
-)
-
-A knight in plate with a shield has spent all six points on being hard to kill and carries nothing else. A light skirmisher with a one-handed weapon has three left, and three packs buys a great deal of capability the knight will never have. Heavy armor does not cost power, it costs kit. There is no best kit, because no kit is a superset of another at the same or lower cost. No build hands you everything, and every hero gives up something.
-
-Your covering is worth its points in DR. Light armor costs 1 point and grants 1 DR, medium costs 2 and grants 2, heavy costs 3 and grants 3. That is the whole bargain, and it is why heavier armor is not a trap.
-
-=== Packs
-
-Leftover points buy packs, one point each. A pack is a capability, not a shopping list. Carrying the pack is what having the capability means.
+A pack is gear you acquire, from a class, a culture, a talent, or off someone who no longer needs it. It is a capability, not a shopping list. Carrying the pack is what having the capability means.
 
 Every hero has the Adventurer's Pack, and it costs nothing.
 
@@ -91,7 +52,7 @@ The free pack is comfort, not capability. It carries no rope, no pitons, no pick
     columns: (24.00%, 18.00%, 58.00%),
     align: (auto, auto, auto,),
     table.header([Pack], [Tag], [What is in it],),
-    [*Adventurer's Pack*], [-], [Free with every kit: backpack, bedroll, waterskin, flint and steel, a week of rations, torches.],
+    [*Adventurer's Pack*], [-], [Free: backpack, bedroll, waterskin, flint and steel, a week of rations, torches.],
     [*Thieves' Pack*], [`thieves`], [Picks, files, a mirror on a wire, chalk, a shim.],
     [*Climber's Pack*], [`climbing`], [A hundred feet of rope, pitons, a hammer, a grapnel, crampons.],
     [*Healer's Pack*], [`healer`], [Bandages, salves, needles and gut, splints, a cautery iron.],
@@ -116,135 +77,64 @@ The free pack is comfort, not capability. It carries no rope, no pitons, no pick
 
 A favour is not something you carry, but it is something you bring to a problem, and it works like every other pack.
 
-=== Granted Kits
-
-A kit point can also arrive as a grant: from a class, a talent, an ancestry gift, a faction, a favour earned in play, or taken off someone who no longer needs it. The thief's picks come off the thief, the scribe's case comes out of the wizard's study, the spade comes off the man in the grave. Treasure stops being a number and becomes capability: you wear what you took off the people who lost.
-
-A talent that grants kit grants exactly one kit point. That point is the talent's entire payload, one point, nothing else. If the talent names a pack, the point is already spent. You are not choosing; the fiction chose. A talent that says you were a locksmith gives you the Thieves' Pack, not a free point to spend elsewhere.
-
-That limit is the whole point. Without it, a hero could buy past the budget with talents, and a budget that can be exceeded is not a budget.
-
-A class grants its signature pack at level 1. This is how the class's starting kit fits inside six points: the armor, weapon, and focus come out of the budget, and the tools of the trade arrive as the class's grant. See the class table below.
-
-=== Re-Kitting at a Town
-
-You may re-outfit at a town, and never in the field. Between towns you carry exactly what you brought and you deal with it. At a town, the whole kit is re-specified: armor, weapon, focus, and packs together, from what you carry plus whatever the local market offers.
-
-This is what makes the kit a plan rather than a footnote. Going into the sewers you bring the climbing gear and the picks. Going to court you bring the papers and the disguise. Going into the barrow you bring the spade and the lantern oil. You choose against the job in front of you, and then you live with the choice.
-
-=== Class Recommendations
-
-No class is locked to a kit, and a hybrid is often the point. But if you want the classic shape of your class, start here.
-
-#figure(
-  align(center)[#table(
-    columns: (18.00%, 42.00%, 16.00%, 24.00%),
-    align: (auto, auto, auto, auto,),
-    table.header([Class], [Typical Kit], [Points], [Granted Pack],),
-    [Protector], [One-handed and shield, heavy armour], [6], [Smith's Pack],
-    [Blade], [One-handed, light armour], [3], [Thieves' Pack],
-    [Arcanist], [Arcane focus, no armour], [4], [Scribe's Pack],
-    [Shepherd], [One-handed, light armour, holy focus], [6], [Healer's Pack],
-    [Intellect], [One-handed, light armour], [3], [Scribe's Pack],
-    [Odd], [Primal focus, no armour], [4], [Brewer's Pack],
-    [Leader], [One-handed and shield, light armour], [4], [Navigator's Pack],
-    [Unbalanced], [Two-handed, light armour], [4], [Trapper's Pack],
-    [Shadow], [Ranged, light armour], [3], [Thieves' Pack],
-  )],
-  kind: table,
-  outlined: false,
-  numbering: none,
-)
-
-The typical kit is a starting point, not a rule. Nothing stops a Protector from taking a focus and no armor, and a hybrid is often the interesting character. The table exists because "what would a Blade carry?" is a real question and a blank page is a bad answer.
-
 == Weapons
 
-A weapon is a promise your hero makes about who they are. The longsword on the hip, the twin daggers, the greataxe that will not fit through doorways, each one says something about the person carrying it. What a weapon does not do is decide how hard you hit. Discipline is permission: the Disciplines you have trained grant the attack ability cards you can take. Equipment is possession: the weapon in your hand is just the thing that happens to be there. Cards are damage: your attack ability cards carry the Weak, Standard, and Strong values (see @sec-chapter-talents-abilities), and the 3d6 attack roll decides which one you land. No separate damage dice.
+A weapon is a promise your hero makes about who they are. The longsword on the hip, the twin daggers, the greataxe that will not fit through doorways, each one says something about the person carrying it. What a weapon does not do is decide how hard you hit. Discipline is permission: a hero may use a piece of gear only while holding the Discipline ranks that item requires, bought at your class's rates (for each class's Discipline cost table, see @sec-chapter-classes) Gear adds no number beyond DR. Possession is separate: the object is one cost, granted, earned, or taken, and the rank is the other, bought with Development Points. Cards are damage: your attack ability cards carry the Weak, Standard, and Strong values (see @sec-chapter-talents-abilities) and the 3d6 attack roll decides which one you land. No separate damage dice.
 
 Pick the weapon that fits your hero, not the one that looks best on paper. They all hit the same; you are the one doing the hitting.
 
 #figure(
   align(center)[#table(
-    columns: (17.02%, 44.68%, 23.40%, 14.90%),
-    align: (auto, auto, auto, auto,),
-    table.header([Weapon], [Disciplines Required], [Properties], [Range],),
-    [Unarmed], [None], [], [],
-    [Dagger], [1 Blades], [Finesse, Light, Thrown], [20/60 ft (thrown)],
-    [Shortsword], [1 Blades], [Finesse, Light], [],
-    [Longsword], [2 Blades], [Versatile], [],
-    [Greatsword], [2 Blades + 1 Heavy Weapon], [], [],
-    [Handaxe], [1 Axes], [Light, Thrown], [20/60 ft (thrown)],
-    [Battleaxe], [2 Axes], [], [],
-    [Greataxe], [2 Axes + 1 Heavy Weapon], [], [],
-    [Mace], [1 Heavy Weapon], [], [],
-    [Warhammer], [2 Heavy Weapon], [], [],
-    [Maul], [3 Heavy Weapon], [], [],
-    [Spear], [1 Polearms], [Reach, Thrown, Two-Handed], [20/60 ft (thrown)],
-    [Halberd], [1 Polearms], [Reach, Two-Handed], [],
-    [Throwing Dagger], [1 Blades or 1 Archery], [Finesse, Thrown], [20/60 ft (thrown)],
-    [Shortbow], [1 Archery], [Two-Handed], [60/120 ft],
-    [Longbow], [1 Archery], [Two-Handed], [100/200 ft],
-    [Crossbow], [1 Archery], [Loading, Two-Handed], [20/60 ft],
+    columns: (30.00%, 70.00%),
+    align: (auto, auto,),
+    table.header([Slot], [Examples],),
+    [Unarmed], [Fists, gauntlets, grapples],
+    [One-handed melee], [Dagger, shortsword, longsword, mace, battleaxe, warhammer],
+    [Light one-handed melee], [Dagger, shortsword, handaxe],
+    [Two-handed melee], [Greatsword, greataxe, maul, spear, halberd],
+    [Reach], [Spear, halberd, lance],
+    [Thrown], [Dagger, handaxe, spear, throwing knife],
+    [Ranged], [Shortbow, longbow, crossbow],
   )],
   kind: table,
   outlined: false,
   numbering: none,
 )
 
-#callout(type: "note", title: "Kit Gear", body: [
-Your class starting kit assumes training with its gear: you can wield kit weapons and use kit armor and shields regardless of Discipline prerequisites. Attack ability cards still require their listed Disciplines, wielding a kit weapon does not grant the maneuvers that require them.
-])
-
 #callout(type: "note", title: "Melee Damage", body: [
-Melee attacks add your Brawn to the damage row on your attack ability card; Finesse weapons use Agility instead. Missile and thrown attacks are flat, no attribute added. See @sec-chapter-talents-abilities for the cards and @sec-chapter-combat for the basic attack. The weapon never changes these numbers.
+Melee attacks add your Brawn to the damage row on your attack ability card. Missile and thrown attacks are flat, no attribute added. For the cards, see @sec-chapter-talents-abilities For the basic attack, see @sec-chapter-combat The weapon never changes these numbers.
 
 Improvised weapons (a crowbar swung as a club, a hammer in a pinch) deal 1/1/2 + Brawn, the Basic Unarmed floor. A thrown improvised object counts as a thrown attack: 1/2/3 flat, no attribute.
 ])
 
-#callout(type: "note", title: "Discipline Combinations, Name Your Style", body: [
-Weapons don't just require more of the same Discipline, they require specific combinations. A Longsword needs _2 Blades_. A Greatsword needs _2 Blades + 1 Heavy Weapon_. Your Discipline choices describe the kind of fighter you are, and that description decides which attack ability cards you can reach. A hero with a Greatsword is a different person than a hero with a Dagger, not a bigger number. Name the style you want, then pick the combination that says it out loud. The cards you can reach are the fighting style you have chosen.
+#callout(type: "note", title: "Armament Categories", body: [
+A card's requirement names a slot: unarmed, one-handed melee, light one-handed melee, two-handed melee, reach, thrown, ranged, or a shield. The slot is what the card assumes, not a permission you need. You carry and swing whatever you like, and you decide what the weapon is.
 
-*Heavy Weapon* Discipline represents training with large, two-handed weapons that rely on momentum and raw force rather than finesse. It opens the heaviest attack cards.
+How many slots you fill at once is set by hands and carrying, not by rank: two hands hold one two-handed weapon, or two one-handed weapons, or one and a shield. A shield takes one of those hands and 1 slot, and it asks for no rank of its own: what Shields ranks buy is the cards that use it. A card that requires a shield requires you to be wielding one.
 ])
-
-*Properties:*
-
-- *Versatile*, can be wielded two-handed (Longsword only)
-- *Finesse*, use Agility instead of Brawn for attack and damage (Dagger, Shortsword, Throwing Dagger)
-- *Reach*, can attack targets 10 ft away (Spear, Halberd)
-- *Thrown*, can be thrown (range 20/60 ft: Dagger, Handaxe, Spear, Throwing Dagger)
-- *Light*, can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe)
-- *Loading*, requires a Maneuver to reload between shots (Crossbow only)
-- *Two-Handed*, must be held in both hands and takes 2 slots (Spear, Halberd, Shortbow, Longbow, Crossbow). Compare *Versatile*, which *may* be used two-handed)
 
 #pagebreak()
 
 == Armor
 
-Armor is what you wear, and it is worth its points in DR: light grants 1, medium 2, heavy 3. Talents add to that, and your tier caps the total. Beyond the number, armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields
+Armor is what you wear, and its card carries the DR: light 1, medium 2, heavy 3. A talent or ward does not add to that: use the higher of the two, and your tier caps the total. No shield is part of that total either: a shield grants no DR at all, it grants a Boon on the Defense Roll through the Shield Block reaction, which applies to one attack per round. Beyond the number, armor is a choice about weight, slots and donning time. See @sec-chapter-armor-shields A caster in heavy armor buys 3 Armor ranks at his class's rates (for each class's Discipline cost table, see @sec-chapter-classes) which is why armor is a cost and not a prohibition.
 
 #figure(
   align(center)[#table(
-    columns: (34.00%, 18.00%, 10.00%, 38.00%),
-    align: (auto, auto, auto, auto,),
-    table.header([Armor], [Class], [DR], [Slots],),
-    [*Padded*], [Light], [1], [2],
-    [*Leather*], [Light], [1], [2],
-    [*Studded Leather*], [Light], [1], [2],
-    [*Chain Shirt*], [Medium], [2], [2],
-    [*Breastplate*], [Medium], [2], [3],
-    [*Half Plate*], [Heavy], [3], [3],
-    [*Chain Mail*], [Heavy], [3], [4],
-    [*Plate*], [Heavy], [3], [4],
+    columns: (40.00%, 30.00%, 30.00%),
+    align: (auto, auto, auto,),
+    table.header([Armor], [Requirement], [Slots],),
+    [*Light*], [1 Armor], [2],
+    [*Medium*], [2 Armor], [2 or 3],
+    [*Heavy*], [3 Armor], [3 or 4],
   )],
   kind: table,
   outlined: false,
 )
 
-Full table with Stealth column: see @sec-chapter-armor-shields
+The card carries the DR: see @sec-chapter-armor-shields
 
-Shields: *Buckler* (1 Protection), *Shield* (1 Protection), *Tower Shield* (2 Protection, provides half cover). A shield enables Parry and Shield Block. See @sec-chapter-armor-shields
+A shield is one item, whatever you describe it as: one hand, 1 slot, no DR, no size. Shield Block is where it earns its keep, granting a Boon on your Defense Roll, and a shield enables Parry. See @sec-chapter-armor-shields
 
 == Encumbrance
 
@@ -272,7 +162,7 @@ These are the small things that separate a prepared adventurer from a corpse. Th
     columns: (30.00%, 35.00%, 35.00%),
     align: (auto, auto, auto,),
     table.header([Item], [Slots], [Notes],),
-    [*Arcane Focus*], [0], [A wand, rod, orb, or crystal that channels arcane power. Used to cast arcane spells.],
+    [*Arcane Focus*], [0], [A wand, rod, orb, or crystal that channels arcane power. Needed for the full effect of a spell that names one.],
     [*Arrows (quiver of 20)*], [1], [Ammunition for shortbows and longbows.],
     [*Backpack*], [2\*], [Holds up to 30 slots of gear. If it is your one exempt container, items stored inside don't count against your encumbrance; the backpack itself takes 2 slots on your person either way. Retrieving a stored item takes a Maneuver.],
     [*Bedroll*], [2], [A warm bedroll and blanket. Required for a long rest in the wild. Without one, you recover half the normal long rest healing, rounded down.],
@@ -285,8 +175,9 @@ These are the small things that separate a prepared adventurer from a corpse. Th
     [*Focus Pouch*], [1], [A belt pouch of the small focuses a caster relies on. Spells need no material components.],
     [*Grappling Hook*], [1], [Hooks onto ledges, branches, or battlements. Attach a rope and throw, range 30 ft. Requires a Brawn or Agility check (Standard) to set securely.],
     [*Hammer*], [1], [Drives pitons, breaks things, nails doors shut. Can be used as an improvised weapon (1/1/2 + Brawn).],
-    [*Healer's Kit*], [1], [Bandages, salves, and splints. 10 uses. When you stabilize a dying creature or restore HP during a short rest, add +1 HP per use expended. Without a kit, you can't use the Medicine skill to restore HP during rests.],
-    [*Holy Symbol*], [0], [A pendant, emblem, or reliquary that channels divine power. Used to cast divine spells.],
+    [*Healer's Kit*], [1], [Bandages, salves, and splints. 10 uses. When you stabilize a dying creature or restore HP during a short rest, add +1 HP per use expended. Without a kit, you can't use the Medicine skill to restore HP during rests. With a kit and an hour at rest, a Strong (15+) Medicine check treats one lasting injury (a 4xx effect) on a creature under your care.],
+    [*Holy Symbol*], [0], [A pendant, emblem, or reliquary that channels divine power. Needed for the full effect of a spell that names one.],
+    [*Primal Focus*], [0], [A bundle of feathers, bone, or living wood that channels primal power. Needed for the full effect of a spell that names one.],
     [*Ink & Pen*], [0], [Write letters, copy maps, forge documents. The ink lasts for roughly 20 pages. The pen is a quill, replace it when the cat gets it.],
     [*Lantern (hooded)*], [1], [Bright light 30 ft, dim light 30 ft. The hood can be closed to reduce light to a 5-ft radius, useful for stealth. Burns for 6 hours per flask of oil.],
     [*Manacles*], [1], [Restrains a creature of Small or Medium size. Escape requires an Agility check (Strong 15+) or a Brawn check (Strong 15+) to break. Without the key, they're not coming off quietly.],
@@ -299,6 +190,7 @@ These are the small things that separate a prepared adventurer from a corpse. Th
     [*Rope, Hemp (50 ft)*], [2], [Coarse, heavy, reliable. Supports 500 lbs. Can be cut with a blade (1 round) or burned through (2 rounds in fire).],
     [*Rope, Silk (50 ft)*], [1], [Lightweight and strong. Supports 700 lbs. Half the bulk of hemp rope. Quieter when uncoiled, no rough fibers scraping against stone.],
     [*Sack (large)*], [1\*], [A coarse sack that holds 1 cubic foot or 30 lbs of material. The sack takes 1 slot; if it is your one exempt container, its contents don't count, until it tears. One sharp edge and your loot is on the floor.],
+    [*Scholar's Robes*], [1], [A robe, cassock, or travelling habit. Worn over armour or under it. It carries no DR.],
     [*Shovel*], [2], [Digs graves, trenches, and latrines. Buries treasure. Unearths treasure. The shovel has seen more adventuring than most bards.],
     [*Smith's Tools*], [2], [Forge tools. Required for Craft checks to make or repair metal items.],
     [*Smoke Bomb*], [0], [Throw up to 20 ft. Creates a 10-ft radius of heavy concealment for 1 round; anyone inside is Hidden.],
@@ -315,11 +207,36 @@ These are the small things that separate a prepared adventurer from a corpse. Th
   numbering: none,
 )
 
+*Bundles:* a bundle of identical small items is priced as one item. A quiver of 20 arrows or bolts is 1 slot, and a bundle of up to six throwing weapons carried together is 1 slot, however many the bundle holds.
+
 *Containers and Encumbrance:* A pouch holds up to 50 small items slot-free. A sack holds up to 1 cubic foot before it tears. After your first dragon hoard, you'll want a wagon.
 
 #callout(type: "note", title: "Starting Gear", body: [
-New heroes take their class's starting kit (see @sec-chapter-classes); the DA may grant extra gear at campaign start.
+New heroes take their class's starting loadout (see @sec-chapter-classes) The DA may grant extra gear at campaign start.
 ])
+
+=== Primal Preparations
+#label("sec-primal-preparations")
+
+Some healing is neither miracle nor surgery. A herbalist gathers what grows nearby, brews it into something that keeps, and hands it to whoever needs it. A preparation is made during a respite, it keeps until it is used, and any character can apply one, caster or not.
+
+*Making one:* spend a respite gathering and brewing, then make a Standard (9-14) Survival or Nature check. A success yields one preparation from the table below; one check yields one preparation.
+
+#figure(
+  align(center)[#table(
+    columns: (25.00%, 10.00%, 65.00%),
+    align: (auto, auto, auto,),
+    table.header([Preparation], [Slots], [Notes],),
+    [*Styptic Poultice*], [0], [Stops one bleeding wound on a creature you touch for the rest of the encounter. The Medicine check under Deep Gash is what binds it for good.],
+    [*Bitter Tincture*], [0], [The drinker regains 2 HP at the start of each of their turns for 3 rounds, to a maximum of 6. A creature at 0 HP who receives it is stabilized.],
+    [*Bone-Knit Salve*], [0], [Rubbed into one lasting injury (a 4xx effect) and left to work over an hour's rest, it treats the injury. The patient must rest while it works.],
+  )],
+  kind: table,
+  outlined: false,
+  numbering: none,
+)
+
+*Applying one:* a Maneuver and a touch. You can hand a preparation to an ally, and they can apply it to themselves or to someone else.
 
 == Mounts & Vehicles
 
@@ -377,7 +294,7 @@ Fighting from horseback isn't just "combat but taller." It changes the geometry 
 
 The charge must be in a straight line, no zigzagging through trees. The mount must have a clear path. The target must be within reach at the end of the movement. The mount can continue moving after the attack if it has movement remaining. Only one charge benefit per attack, so the off-hand strike of a two-weapon fight does not also claim it. A warhorse at full gallop with a lance is the closest thing to a thunderbolt you'll ever ride.
 
-*Controlling a Mount:* Steering is free. A trained mount (a warhorse, or a riding horse with a rider who has Survival or Nature) follows the fiction, no roll required. To make the mount do something extra beyond its normal movement, spend the Command maneuver (see @sec-chapter-combat): the mount takes an extra move. In chaotic situations (explosions, dragon fear, the horse just took an arrow), the DA may call for a Survival or Nature check (Standard) to keep control.
+*Controlling a Mount:* Steering is free. A trained mount (a warhorse, or a riding horse with a rider who has Survival or Nature) follows the fiction, no roll required. To make the mount do something extra beyond its normal movement, spend the Command maneuver (see @sec-chapter-combat) The mount takes an extra move. In chaotic situations (explosions, dragon fear, the horse just took an arrow), the DA may call for a Survival or Nature check (Standard) to keep control.
 
 *Fighting from a Moving Mount:* Ranged attacks made from a moving mount suffer a Bane. The horse's gait throws off your aim. If you have Survival or Nature at Adept or higher, the gait is nothing to you and the Bane is dropped. At Master rank, you ignore it entirely, you could thread an arrow through a keyhole at full gallop.
 
@@ -425,7 +342,7 @@ Sometimes you need to move more than yourself. Trade goods, siege equipment, the
 *Upgrades:* Vehicles can be reinforced (+10 HP), armored (passengers have half cover), or outfitted with weapon mounts (ballista platform on a ship, crossbow mount on a wagon). Weapon mounts require a crew member to operate, and the damage comes from the attack card used to fire them.
 
 #callout(type: "tip", title: "Chases", body: [
-For vehicle vs. vehicle chases, a wagon fleeing bandits on horseback, a ship outrunning pirates, only the pursuer rolls, and the quarry's speed is the difficulty. Each round the pursuer's driver makes one roll on the core 3d6 (@sec-chapter-core-resolution), applying the Speed difference as a Boon or a Bane: a Boon if the pursuer is faster, a Bane if the quarry is. A 10 ft edge is one step, 30 ft is two, 60 ft or more is three. A Standard or Strong result closes one band of distance; a Weak result opens one. Closing three bands means the pursuer catches them, opening three means the quarry escapes, and short of that the chase simply continues, a wheel hits a rock, a sail tears, a horse stumbles, and the DA narrates the near miss.
+For vehicle vs. vehicle chases, a wagon fleeing bandits on horseback, a ship outrunning pirates, only the pursuer rolls, and the quarry's speed is the difficulty. Each round the pursuer's driver makes one roll on the core 3d6, applying the Speed difference as a Boon or a Bane: a Boon if the pursuer is faster, a Bane if the quarry is (see @sec-chapter-core-resolution) A 10 ft edge is one step, 30 ft is two, 60 ft or more is three. A Standard or Strong result closes one band of distance; a Weak result opens one. Closing three bands means the pursuer catches them, opening three means the quarry escapes, and short of that the chase simply continues, a wheel hits a rock, a sail tears, a horse stumbles, and the DA narrates the near miss.
 ])
 
 Gear is the quiet part of the story. Your players will remember the goblins, the treasure, and the horse that died in session three. They will also remember the weight of the longsword and the relief of finding oil for the lantern. Carry it well. Lose it badly. That's the adventure.

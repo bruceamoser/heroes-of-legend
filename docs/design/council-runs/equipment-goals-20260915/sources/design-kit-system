@@ -1,0 +1,198 @@
+# The Kit system - locked rulings, cost model, and the sweep
+
+## Status
+**RESOLVED.** Every structural fork is closed by Bruce: point budget; heavy armour costs more than
+light; no Uber kit; **soft** permission (a tool grants a Boon, never a hard gate); kits are never
+bought. Reasoning trail: `~/wiki/overflow/2026-09-13-kit-system-spec.md` (consolidated) plus the
+three same-day working memos.
+
+Superseded in this file: the old (a)/(b)/(c) shape question, the "signatures" naming, and the ruling
+that kits never gate combat cards (they do - see law 4 below).
+
+## The direction
+Gear carries no stat block. Weapons went first (Discipline is permission, equipment is possession,
+cards are damage); Bruce then extended it twice:
+1. **Armour joins weapons as flavour in STRUCTURE, but keeps a DR number by weight class (author
+   ruling, superseding the no-gear-DR conversion originally recorded here).** Light 1 / medium 2 /
+   heavy 3, with card DR ADDING to it: Iron Skin prints `+2/+5/+8 DR, in addition to your armor's DR`,
+   and the DR column is restored on the armour tables in ch16, ch15 and ch22. Still superseded and NOT
+   to be restored: the class column as a rules object, the spellcasting register and its "Arcanist in
+   Armor" callout, the Stealth Bane, the heavy-armour speed cut and the armour prerequisites - each of
+   those existed only to price DR that the Covering line now pays for in points, and a penalty that
+   buys back nothing is deleted. The restored column and the recomputed worked examples are the
+   SHIPPED state; do not strip them as leftovers.
+
+   **Consequence to quote, not to re-file:** pairing the natural tiers gives total DR 3 / 7 / 11
+   (Novice+light, Adept+medium, Master+heavy) against the damage-band invariant of 2 / 7 / 11 - Adept
+   and Master land exactly, Novice sits one over, so a Novice in light armour floors a Weak hit. The
+   author ruled this knowingly; report the three post-DR values and let them stand.
+2. **The kit is a fourth character-development pillar** covering weapons, armour, foci, holy symbols
+   and gear - a building mechanism, not a shopping list.
+
+## The two-layer economy (the balance mechanism)
+**Budget: 6 kit points. Price per CAPABILITY (each tag), never per line.**
+
+| Layer | Bought with | Holds |
+|---|---|---|
+| **Identity** - permanent | kit points | Armament, Covering, Focus, Calling |
+| **Utility** - what you brought | leftover points at 1 each | locks, rope, shackles, papers, favours |
+
+Armament Unarmed 0 / One-handed 1 / Ranged 1 / One-handed+Shield 2 / Two-handed 2. Covering None 0 /
+Light 1 / Medium 2 / **Heavy 3**. Focus None 0 / Holy, Arcane, Primal **3**. Calling 1 (mandatory -
+every hero was someone). At most one choice per line.
+
+**The Covering line prices itself - one kit point buys one point of DR (author ruling).** Armour
+grants DR by weight class (light 1 / medium 2 / heavy 3) and card DR ADDS to it, so Covering
+None/Light/Medium/Heavy buys 0/1/2/3 DR at 0/1/2/3 points. That closed the gap where heavy armour at
+3 points bought strictly less than light at 1, and it is why **armour needs no card gate at all**:
+cost and capability are the same ladder, so the price does the discriminating. **The one exception to
+law 1 ("kits never add numbers") is the DR a covering buys** - ch15's definition of a kit says exactly
+that ("A kit adds no number except the DR its covering buys"), and it is the sentence to quote when a
+lens pass flags the exception.
+
+The design's best sentence, and the reason heavy armour costs what it does: **a knight in plate with
+a shield has spent all six points on being hard to kill and carries nothing else, while a light
+skirmisher has three points left for the lockpicks, the rope and the forged papers.** Heavy armour
+does not cost you power, it costs you your kit.
+
+## The laws (locked)
+1. **Kits never add numbers.** Every hook pays in a Boon in a named circumstance, a permission, or a
+   card. A kit that grants numbers re-breaks the spine the way a static gear DR did.
+2. **Nothing is bought - there is no gold.** Currency is REMOVED from the game outright: no prices, no coin, no tracking, no column. Bulk gear was the last thing gold legitimately bought, and packs replaced it, so the resource goes entirely (150 lines across 8 files). **Strongholds and domains are CUT from the first edition** (121 of ch18's 231 lines), and mounts, vehicles and other high-powered options are FOUND OR GRANTED, never purchased. The design then says one thing: capability is earned, granted or taken.
+3. **There are two cost models and a budget alone is NOT one of them.** A flat budget constrains how
+   much you buy, never whether what you bought is strictly better: at a flat 6 points a 5-tag light
+   kit out-reached a 3-tag heavy kit at identical cost, which IS the Uber kit. Pricing per tag is
+   what links cost to reach. **A cheaper kit is also better off** - equal capability for less cost
+   leaves more utility points, so it is the same defect.
+4. **The card header gains a Kit field, and kits DO gate combat cards.** This corrects the old ruling.
+   Format: `*Disciplines:* 2 Blades · *Kit:* weapon:one-hand · *Action:* ...`. Disciplines say which
+   family you trained; the Kit field says how you are outfitted, and a card may require both. One kit
+   tag per card, maximum. This also repairs an existing wart: Shield Slam is currently gated by the
+   Armor Discipline when what it needs is a shield in hand.
+   **The gate is SELECTIVE, and most cards carry no Kit field at all** (Bruce's correction: "not every
+   card has a kit gate, just where flavor and logic applies"). Add one only where the card's OWN text
+   names or clearly requires the kit: a shield manoeuvre takes the shield tag, a manoeuvre whose text
+   names an armament takes that weapon tag, an attack at range takes the ranged tag, and ranked spells
+   take the FOCUS tag. Blanket gating is the failure mode - it turns the kit from characterisation into
+   a tax, and it contradicts the soft-permission policy below. Armour is gated by NOTHING: the Covering
+   price already does it (see the Covering/DR law above).
+5. **No kit may be a tag-superset of another at equal or lower cost**, and armour tags are exclusive,
+   never hierarchical - if `armour:heavy` satisfied a requirement for `armour:medium`, every heavy kit
+   would out-reach every medium one and the ladder would collapse, which is the same failure as the
+   DR ladder in a new costume. Sweep it; see the probe below.
+6. **A tag no card or rule uses is a dead tag**, and a kit whose only exclusive tag is dead is a
+   dominated kit. Every tag names at least one concrete use before it ships.
+7. **No bookkeeping.** A hook is narrative memory, not a condition track or durability counter. If it
+   needs a checkbox it is not a kit hook.
+8. **Kits re-pack at towns and are FROZEN in the field.** A settlement is where the loadout is rebuilt
+   against the job ahead; once you are out, you deal with what you brought. This is what makes the kit
+   a per-expedition decision rather than a one-time one, and it is why leftover utility points carry
+   weight: the question at the gate is not "what is on my sheet" but "what are we bringing to THIS"
+
+## The utility layer (the capability layer)
+The game previously had no way to say "you cannot do that" - every check is 3d6 + attribute + skill and
+skills are ungated. Utility tags give it that layer without adding a number.
+
+Pruned to sixteen, one line each: `thieves` locks, traps, pockets · `climbing` walls, pits, the pack ·
+`healer` wounds, the dying · `brewing` poisons, antidotes · `forgery` seals, signatures · `disguise`
+being someone else · `scribe` maps, letters, dead languages · `navigation` weather, not being lost ·
+`traps` hunting, ambush, warding camp · `cook` morale, rations, gossip · `smith` repairs, every forge a
+rumour mill · `spade` graves, burial rites, the unquiet dead · `gambling` debts and their holders ·
+`restraints` prisoners who do not stay put · `papers` an identity prepared in advance · `favour`
+someone owes you.
+
+**Prepared assets are the sharpest door this opens.** `papers` is not gear - it is something you
+brought BEFORE the problem existed, which makes the kit "what I brought to this situation" rather than
+"what is in my bag". That is the heist/expedition fantasy in one rule.
+
+## Packs, gifts and grants
+Each utility tag is realised as a **pack**: a capability you carry, never a shopping list, one kit
+point each. Sixteen packs map one-to-one onto the sixteen tags (Climber's, Healer's, Brewer's,
+Forger's, Disguise, Scribe's, Navigator's, Trapper's, Cook's, Smith's, Grave-Tender's, Gambler's,
+Restraints, Prepared Papers, A Favour Owed), plus a **free Adventurer's Pack** every hero has.
+
+The free pack is comfort, not capability - backpack, bedroll, waterskin, flint and torches, and no
+rope, pitons, picks or charts, because "we forgot the rope" has to stay possible.
+
+**The grant laws (locked):**
+- **A talent that grants kit grants exactly ONE kit point, and that is the talent's entire payload.**
+  Nothing else rides along.
+- **If the talent names a pack, the point is already spent.** The fiction chose; the player did not.
+- **A class grants its signature pack at level 1.** This is what makes the printed starting kits fit
+  the budget (below), and it is the grant channel earning its keep on day one rather than a spare idea.
+
+**Why the one-point cap matters for the sweep:** a granted pack is free reach, so stackable grants
+would let a hero buy past the budget and the "0 of 564" guarantee would stop describing the real space.
+Any new grant channel re-opens the domination sweep; re-run it.
+
+**The budget reconciliation (grep the printed builds, do not assume).** Pricing all nine class starting
+kits against the six points found TWO already over: the Protector (chain mail 3 + one-handed with
+shield 2 + calling 1 = 6, and its printed smith's tools make 7) and the Shepherd (leather 1 + one-handed
+1 + holy focus 3 + calling 1 = 6, and its healer's kit makes 7). The other seven fit with room (Blade 3,
+Arcanist 4, Intellect 3, Odd 4, Leader 4, Unbalanced 4, Shadow 3). The class-granted signature pack
+resolves both with nothing cut from the printed kits. **Whenever a budget is introduced, price every
+build the book already prints before claiming the budget works.**
+
+**Pack grants are the treasure loop.** Loot stops being coin and becomes capability: the guild thief's
+Thieves' Pack, the Scribe's Pack out of the wizard's study, the spade off the man in the grave. Every
+subsystem that used to hand out an item now hands out a pack.
+
+## The permission policy: SOFT (locked)
+A tool makes an attempt fair; its absence makes it a Bane. Hard permission is reserved for a short
+explicit list where improvisation is absurd (forging a seal, burial rites, open-sea navigation).
+**A party that left the tool at home always has an improvised path at a Bane, or an expensive
+alternative - blocked is not a design, expensive is.** This matches the book's existing shape (losing
+a focus is a Bane, not a shutdown) and prevents the session that dies because somebody forgot the rope.
+
+Consequence for the DA: **never design an obstacle with one solution.** Utility tools should let a
+character ASSIST as well as act (the whole party climbs on the one rope), or the tool-holder becomes
+the only actor in the scene.
+
+## Verified results (probe: `scripts/choice-space-sweep.py`)
+| Test | Result |
+|---|---|
+| Identity combinations affordable | 47 of 80 |
+| Kits that dominate another | **0** |
+| focus + medium armour + a weapon + a calling | **7 points - IMPOSSIBLE** |
+| Fully-loaded kit (shield + heavy + focus + calling) | 9 points vs a budget of 6 |
+| Utility tags: lightest kit vs heaviest | **3 / 0** |
+
+## What the system generates (do not author these as special cases)
+Defender 5 pts (shield / medium) · Priest 6 (two-handed / none / holy) · **Warrior Priest 6
+(one-handed / light / holy)** · Heavy wall 6 (shield / heavy) · Hedge Witch 4 (arcane, 2 utility).
+The hybrid is not authored - it is One-handed + Light + Holy.
+
+## Development
+Primary and secondary kits at creation. At **L3 and L7** extend ONE line (deeper, not wider): a new
+utility tag, or a bump to an existing one. Kits change through story, never through gold. **Re-packing at a town is the free form of this** (law 8): the budget and identity lines are permanent, but which utility tags are loaded out is chosen again at each settlement, so "what do you bring?" is asked every expedition rather than once at creation.
+
+## Open items carried as implemented defaults (veto to revert)
+1. **Class does not restrict the kit:** SHIPPED as a recommendation table in ch15 (class / typical kit /
+   its point cost / the class's granted pack), with prose saying a hybrid is often the interesting
+   character. No hard restriction.
+2. **No hard focus-vs-armour exclusivity rule** - the budget already makes focus + medium + weapon +
+   calling cost 7 against 6, so a rule would be redundant. Dropped.
+3. **Hand-occupancy rules stay** (two-handed excludes shield; ranged excludes shield) - physical
+   facts, not permission gates.
+
+## Build order (four phases, one PR each)
+1. **Armour as flavour** - DR moves to a card line (2/5/8 by Armor rank); the armour table sheds DR,
+   Stealth Bane, speed cut and prerequisites; kits lose their `(DR n)` tags. ch16, 15, 22, 21, 13,
+   09, 08, 05, 02. The DR card is **Iron Skin** (`*Disciplines:* 1 Armor · *Action:* Passive`; Novice DR 2 / Adept DR 5 / Master DR 8). It rides the existing L1/L3/L7 rungs, so the level gates tier-lock the DR with no new rule - which IS the argument for moving DR off gear, and worth stating in the PR body. **SUPERSEDED IN PART by the
+ author's later ruling: the gear-DR removal was reversed - armour grants DR 1/2/3 by weight class and
+ cards add to it, so the armour tables carry a DR column again and Iron Skin's rungs are written
+ additively. What phase 1 shipped that still stands: armour as flavour for class/Stealth/speed/prereq
+ purposes, and the kit `(DR n)` tags retired.**
+2. **The Kit system - SHIPPED.** The builder leads ch15 (chapter retitled *Equipment & Kits*): *Kits*,
+   *The Four Lines*, *The Budget*, *Packs*, *Granted Kits*, *Re-Kitting at a Town*, *Class
+   Recommendations*, each with its table specified exactly in the dispatch spec. The nine ch05
+   `*Starting Kit:*` lines cross-reference it and the ch09 talents intro notes the kit gate. The
+   weapons/armour/mount tables were deliberately left untouched in this pass.
+3. **Card retrofit - IN FLIGHT, SELECTIVE.** Maneuvers, talents and ranked spells gain a `Kit:` field
+   only where the card's own text names or requires the kit (law 4's selectivity correction); Shield
+   Slam becomes shield-gated. Armour takes no gate - Covering already prices DR.
+4. **Gold removal - SHIPPED.** Every price went (ch15 weapon/armour/mount columns, ch16, ch22, ch05,
+   ch02, ch19 treasure pacing rewritten around packs and favours), strongholds cut from ch18, mounts and
+   high-powered options became found-or-granted. **Post-sweep invariant: zero price strings in the
+   RENDERED PDF, not merely in the source** - a rebase can reintroduce swept content, and only the
+   render catches it.

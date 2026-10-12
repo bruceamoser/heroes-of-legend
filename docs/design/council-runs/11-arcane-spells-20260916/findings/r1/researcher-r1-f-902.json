@@ -1,0 +1,47 @@
+{
+  "id": "f-902",
+  "round": 1,
+  "role": "researcher",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "I read the three outcome lines of every card in the file rung by rung. Thirty-three of the sixty-eight name a time unit somewhere in those lines, and almost all of the ladders that do rise from the weak rung to the strong rung; two do not. Silver Tongue bans social checks for one scene, then two, then returns to one at its strongest rung, so on the printed evidence the card's own mechanic is widest in the middle. March of Bones raises one, two then three skeletons but switches its time unit at the top rung from scenes to hours, and the book offers no way to bridge the two: the only definition of a scene calls it a story unit, no chapter gives it a length, and the glossary's nearest entry equates an encounter with a scene or a fight without supplying a clock figure either. A reader therefore cannot tell whether the strongest March of Bones outlasts its own weaker rungs. Class: MECHANICAL (one duration word on Silver Tongue, one time unit on March of Bones).",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "Silver Tongue's weak rung grants a one-scene ban and its middle rung doubles that window to two scenes (11-arcane-spells:543, 545).",
+      "quote_or_excerpt": "The target has Bane against your social checks for 1 scene"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Its strongest rung states one scene attached to the friendly clause and gives the ban no longer window of its own (11-arcane-spells:547), so the effect shrinks at the top of the ladder.",
+      "quote_or_excerpt": "Bane against your social checks and is friendly for 1 scene"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "March of Bones counts one, two then three raised skeletons, and its time unit changes from scenes to hours at the top rung (11-arcane-spells:440, 442, 444).",
+      "quote_or_excerpt": "Raise 3 skeletons for 1 hour"
+    },
+    {
+      "source": "19-gm-guidance.qmd",
+      "claim": "The book's single definition of a scene describes it as a narrative unit with a beginning and an end, so it has no length a reader can compare with an hour (19:23).",
+      "quote_or_excerpt": "A scene is a unit of story"
+    },
+    {
+      "source": "21-glossary.qmd",
+      "claim": "The glossary's nearest entry treats an encounter as a scene or a fight and gives neither a duration (21:243), so the conversion the card needs is absent from the book.",
+      "quote_or_excerpt": "A single scene or combat"
+    },
+    {
+      "source": "21-glossary.qmd",
+      "claim": "The book defines a strong result as an exceptional success carrying an extra effect (21:41), which makes a narrowed effect on a top rung the wrong direction for the ladder.",
+      "quote_or_excerpt": "Exceptional success. Extra effect"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Enumeration: thirty-three of sixty-eight cards name a time unit in at least one outcome line, and their ladders otherwise rise (Fade, Phantasmal Image and Unseen Hand run one, two, three turns; Wind Wall one then two rounds); the two cards above are the only ladders that fail to rise or hold.",
+      "quote_or_excerpt": "non-rising: Silver Tongue 1/2/1; March of Bones scene/scene/hour"
+    }
+  ],
+  "confidence": 0.6,
+  "rebutting": []
+}

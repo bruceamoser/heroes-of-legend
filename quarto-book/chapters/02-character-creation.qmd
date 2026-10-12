@@ -4,7 +4,9 @@
 #label("sec-chapter-character-creation")
 
 #show ref: it => {
-  if it.target == <tbl-ancestries> { [Table 2.1] } else { it }
+  if it.target == <tbl-ancestries> { [Table 2.1] }
+  else if it.target == <tbl-class-health> { [Table 3.1] }
+  else { it }
 }
 
 // Rationale: Chapter opener at 80% width: establishes the character creation journey with an aspirational hero lineup that invites readers to imagine their own character.
@@ -25,10 +27,10 @@ If you've built a few heroes and you're tired of counting DP, here's your speed 
 
 + *Attributes:* Spread +2, +1, +1, +0, +0, -1 (sum = +3). Put the +2 in your class's primary attribute.
 + *Ancestry & Culture:* Pick any combo that fits your concept. Write down the Discipline and trait.
-+ *Background DP:* Take 8 + Knowledge + Fortitude DP. Buy 2-3 Novice skills and 1 Novice ability. Spend every point.
++ *Background DP:* Take 8 + Knowledge + Fortitude DP (4 at the floor, 12 at the ceiling). A Novice skill or ability is 2 DP and a Discipline's first rank is 1 DP at your Home rate, so buy in twos and close an odd point with a Home rank. The printed builds spend 3 to 5 skills and one Discipline purchase. Spend every point.
 + *Class:* Pick your class. Record the class Discipline and signature ability.
-+ *Class DP:* 8 DP. Buy 2-3 Novice skills or abilities. Spend every point.
-+ *Equipment:* Take the class starting kit. Don't optimize, the first adventure will give you better gear anyway.
++ *Class DP:* 12 DP at level 1 (8 DP of class training plus the 4 DP every hero gains at level 1). Buy the loadout ranks your class's loadout line prices first (0 to 6 DP at your own rates), then your class's Novice attack card (its flat 2 DP plus any Discipline rank it asks for that you do not hold), then Novice skills or abilities with what remains. Spend every point.
++ *Equipment:* Take your class's starting loadout (see @sec-chapter-classes) Don't optimize, the first adventure will give you better gear anyway.
 + *Name & Backstory:* Roll one Motivation and one Trinket from the tables below. Make up a name. Done.
 
 You'll have a playable, effective hero in ten minutes. The nuance, the Adept and Master cards, the weird multiclass combos, that comes with levels. For now, you just need someone who can swing a sword and survive the first session.
@@ -50,7 +52,7 @@ Assign scores to your six attributes that total _exactly +3_:
 
 *Brawn, Fortitude, Agility, Guile, Knowledge, Reason*
 
-Each starts at +0. Max +2, min -2. Drop one into the negatives to fund a strength elsewhere, but the sum across all six must be 3. See @sec-chapter-attributes for the full breakdown.
+Each starts at +0. Max +2, min -2. Drop one into the negatives to fund a strength elsewhere, but the sum across all six must be 3. For the full breakdown, see @sec-chapter-attributes
 
 === Step 3: Ancestry
 
@@ -62,9 +64,9 @@ Choose your species. Each grants a Discipline and a trait:
     align: (auto, auto, auto,),
     table.header([Ancestry], [Discipline], [Trait],),
     [*Human*], [Any one], [*Versatile:* +1 DP at Level 0],
-    [*Elf*], [Archery], [*Elven Grace:* once per session, reroll one die],
-    [*Dwarf*], [Axes], [*Sturdy:* +2 maximum HP],
-    [*Halfling*], [Blades], [*Lucky:* add one boon to any roll, once per session],
+    [*Elf*], [Ranged], [*Elven Grace:* once per session, reroll one die],
+    [*Dwarf*], [Melee], [*Sturdy:* +2 maximum HP],
+    [*Halfling*], [Melee], [*Lucky:* add one boon to any roll, once per session],
   )],
   caption: [Table 2.1: Ancestries],
   kind: table,
@@ -73,7 +75,7 @@ Choose your species. Each grants a Discipline and a trait:
 )
 #label("tbl-ancestries")
 
-See @sec-chapter-ancestries for full details.
+For full details, see @sec-chapter-ancestries
 
 === Step 4: Culture
 
@@ -86,19 +88,19 @@ Your upbringing within your ancestry. Each culture grants a +1 bonus to one skil
     table.header([Culture], [Skill Bonus], [Disciplines],),
     [*Human*], [], [],
     [Imperial], [Persuasion or History], [Any one (free)],
-    [Nomadic], [Survival or Nature], [Archery + Polearms],
-    [Coastal], [Athletics or Survival], [Polearms + Protection],
+    [Nomadic], [Survival or Nature], [Ranged + Two-Handed],
+    [Coastal], [Athletics or Survival], [Two-Handed + Shields],
     [*Elf*], [], [],
-    [High Elf], [Arcana or History], [Energy + Blades],
-    [Wood Elf], [Stealth or Nature], [Animal + Archery],
-    [Twilight Elf], [Deception or Insight], [Water + Blades],
+    [High Elf], [Arcana or History], [Energy + Melee],
+    [Wood Elf], [Stealth or Nature], [Animal + Ranged],
+    [Twilight Elf], [Deception or Insight], [Water + Melee],
     [*Dwarf*], [], [],
-    [Mountain], [Craft or Athletics], [Armor + Axes],
-    [Deep], [Endurance or Lore], [Axes + Protection],
+    [Mountain], [Craft or Athletics], [Armor + Melee],
+    [Deep], [Endurance or Lore], [Melee + Shields],
     [Hill], [History or Persuasion], [Any one (free)],
     [*Halfling*], [], [],
-    [Riverfolk], [Acrobatics or Sleight of Hand], [Blades + Archery],
-    [Burrower], [Stealth or Survival], [Protection + Blades],
+    [Riverfolk], [Acrobatics or Sleight of Hand], [Melee + Ranged],
+    [Burrower], [Stealth or Survival], [Shields + Melee],
     [Wanderer], [Insight or Performance], [Any one (free)],
   )],
   kind: table,
@@ -106,7 +108,7 @@ Your upbringing within your ancestry. Each culture grants a +1 bonus to one skil
   numbering: none,
 )
 
-See @sec-chapter-ancestries for full descriptions of each culture.
+For full descriptions of each culture, see @sec-chapter-ancestries
 
 === Step 5: Spend Background DP
 
@@ -126,7 +128,7 @@ These points represent your *entire life* before Level 1. They do not carry over
 
 At Level 1, you are a *Novice*. You cannot buy Adept or Master tier anything, those unlock later, through experience.
 
-Costs below are at *Home (Favored)* rates. Your class may change these based on the Discipline cost table in @sec-chapter-classes Cards (skills, abilities, spells) cost a flat 2/4/8 DP regardless of class. Their real gate is Discipline prerequisites.
+Costs below are at *Home (Favored)* rates. Your class may change these based on the Discipline cost table in @sec-chapter-classes Cards (skills, abilities, spells) cost a flat 2/4/8 DP regardless of class. Their real gate is Discipline prerequisites. A card's total price is its flat price plus the rank cost of any required Discipline you do not already hold, so a Novice card costs 2 DP if you hold the Discipline, 3 DP if it is new at your Home rate, 4 DP Adjacent, 5 DP Foreign, and 6 DP Opposed. See @sec-chapter-disciplines
 
 #figure(
   align(center)[#table(
@@ -135,14 +137,14 @@ Costs below are at *Home (Favored)* rates. Your class may change these based on 
     table.header([Purchase], [Base Cost], [Notes],),
     [*Skill (Novice)*], [2 DP], [+1 bonus. Adept (4 DP) at Level 3. Master (8 DP) at Level 7.],
     [*Ability (Novice)*], [2 DP], [Martial, magical, or talent. Adept at Level 3 (4 DP). Master at Level 7 (8 DP).],
-    [*Discipline (first rank)*], [per class table], [First rank in a given type. See @sec-chapter-classes for your costs.],
+    [*Discipline (first rank)*], [per class table], [First rank in a given type. For your costs, see @sec-chapter-classes],
   )],
   kind: table,
   outlined: false,
   numbering: none,
 )
 
-No-prereq Novice basics (basic utility skills) cost 2 DP with no Discipline requirement. Cantrips cost nothing: every caster knows the whole list for their tradition. See @sec-chapter-disciplines for the full rules.
+No-prereq Novice basics (basic utility skills) cost 2 DP with no Discipline requirement. Cantrips cost nothing: every caster knows the whole list for their tradition. For the full rules, see @sec-chapter-disciplines
 
 These represent everything your hero learned growing up. A farm kid might take Athletics and Nature. A temple acolyte might take Religion and Medicine. A street thief might take Stealth and Sleight of Hand. Make it make sense for your concept, the DA will notice.
 
@@ -154,9 +156,9 @@ Disciplines are not free. Every Discipline your hero possesses comes from a spec
 
 - *Culture* (Step 4): Your upbringing grants one or two Disciplines depending on your culture's traditions. See the culture table in Step 4.
 
-- *Background DP* (Step 5): You may spend Development Points to purchase additional Disciplines at rank 1, or deepen a Discipline you already have to rank 2 (2 same). Rank costs follow your class's cost structure (see @sec-chapter-classes); the Discipline rank ceiling (see @sec-chapter-disciplines) still applies. Higher ranks come from level progression, not creation. This represents skills and knowledge earned during your life before adventuring.
+- *Background DP* (Step 5): You may spend Development Points to purchase additional Disciplines at rank 1, or deepen a Discipline you already have to rank 2 (2 same). Rank costs follow your class's cost structure (see @sec-chapter-classes) The Discipline rank ceiling still applies (see @sec-chapter-disciplines) Higher ranks come from level progression, not creation. This represents skills and knowledge earned during your life before adventuring.
 
-- *Class* (Phase Two): Your class grants specific Disciplines tied to its training and traditions. See @sec-chapter-classes for each class's starting Disciplines.
+- *Class* (Phase Two): Your class grants specific Disciplines tied to its training and traditions. For each class's starting Disciplines, see @sec-chapter-classes
 
 Between ancestry, culture, and class, a starting hero typically has 4-5 Disciplines before spending a single DP. Spend your Background DP to build on that foundation.
 
@@ -180,13 +182,13 @@ Now your hero finds their calling. This is where they become exceptional.
     columns: (22.58%, 19.35%, 38.71%, 19.35%),
     align: (auto, auto, auto, auto,),
     table.header([Class], [Role], [Discipline], [Vibe],),
-    [*Protector*], [Tank, defender], [Armor + any Weapon], ["Stand behind me."],
-    [*Blade*], [Assassin, precision], [Blades + Stealth], ["Strike once. Strike true. Strike last."],
+    [*Protector*], [Tank, defender], [Armor + Shields], ["Stand behind me."],
+    [*Blade*], [Assassin, precision], [Melee + Stealth], ["Strike once. Strike true. Strike last."],
     [*Arcanist*], [Arcane caster], [Fire + Energy], ["Fire answers to me."],
     [*Shepherd*], [Divine guide], [Protection + Animal], ["The light guides my hand."],
     [*Intellect*], [Scholar, strategist], [Lore + any one], ["I've read about this."],
     [*Odd*], [Chaos wildcard], [Any two, different categories], ["I have a trick for that."],
-    [*Leader*], [Commander], [Tactics + Protection], ["Together, we are unstoppable."],
+    [*Leader*], [Commander], [Tactics + Shields], ["Together, we are unstoppable."],
     [*Unbalanced*], [High-risk power], [Fire + Water (or Earth/Wind)], ["Power has a price. I'm willing to pay."],
     [*Shadow*], [Sneak thief, infiltrator], [Stealth + Sleight], ["You never saw me."],
   )],
@@ -197,17 +199,19 @@ Now your hero finds their calling. This is where they become exceptional.
 )
 #label("tbl-classes")
 
-Record your Class Discipline (one rank) and signature ability. See @sec-chapter-classes for full writeups, including favored costs.
+Each class also names its *Health attribute*, the second attribute in your Health Points (see @tbl-class-health).
+
+Record your Class Discipline (one rank) and signature ability. For full writeups, including favored costs, see @sec-chapter-classes
 
 === Step 7: Spend Class DP
 
-You have *8 DP* for your class training. Again: spend every one. This is where you buy skills and abilities, combat techniques, spells, and talents are all just abilities with different flavors. Your class lists favored skills and a Discipline cost table; everything else follows the cost structures in @sec-chapter-classes Cards cost 2/4/8 DP regardless of class (see above). Lean into what your class does best.
+You have *12 DP at level 1*: 8 DP of class training plus the 4 DP every hero gains at level 1, per @sec-chapter-advancement Again: spend every one. This is where you buy skills and abilities, combat techniques, spells, and talents are all just abilities with different flavors. Your class lists favored skills and a Discipline cost table; everything else follows the cost structures in @sec-chapter-classes Cards cost 2/4/8 DP regardless of class (see above). A card's total price is its flat price plus the rank cost of any required Discipline you do not already hold, so a Novice card costs 2 DP if you hold the Discipline, 3 DP if it is new at your Home rate, 4 DP Adjacent, 5 DP Foreign, and 6 DP Opposed. See @sec-chapter-disciplines Lean into what your class does best.
 
 Adept-tier skills and abilities unlock at Level 3. Master-tier at Level 7. At Level 1, everything you buy is Novice. That's fine. Novice means you're trained. You'll take the higher cards later.
 
 === Step 8: Equipment
 
-Receive your class starting kit and build it from the six kit points across the four lines. Record your weapon properties and your armor's slot cost; your attack ability cards carry the Weak, Standard, and Strong damage values, and your Damage Reduction is your armor's DR plus whatever your talents add. See @sec-chapter-equipment
+Receive your class's starting loadout (see @sec-chapter-classes) Record your weapon slots and your armor's slot cost; your attack ability cards carry the Weak, Standard, and Strong damage values, and your Damage Reduction is the highest of your armor card's DR and any talent or ward that grants DR, and your tier caps the total. A shield grants no DR: it arrives as a Boon on the Defense Roll through the Shield Block reaction, which applies it to one attack per round. See @sec-chapter-equipment
 
 === Step 9: Derived Stats
 
@@ -216,7 +220,7 @@ Receive your class starting kit and build it from the six kit points across the 
     columns: (40%, 60%),
     align: (auto, auto,),
     table.header([Stat], [Formula],),
-    [*Health Points*], [10 + Fortitude + Knowledge (at Level 1)],
+    [*Health Points*], [10 + Fortitude + your class's Health attribute (at Level 1)],
     [*Grit*], [2 (Novice), 3 (Adept), 4 (Master)],
     [*Initiative*], [3d6 + Agility modifier],
     [*Movement*], [30 ft (Dwarves and halflings: 25 ft)],
@@ -228,6 +232,8 @@ Receive your class starting kit and build it from the six kit points across the 
   numbering: none,
 )
 #label("tbl-derived-stats")
+
+Your class's *Health attribute* is listed in @tbl-class-health.
 
 === Step 10: Backstory Touches
 
@@ -285,9 +291,9 @@ Let's build a character from scratch so you can see how the pieces fit together.
 
 *Step 2, Attributes (total must be +3):* Agility +1 (nimble), Guile +1 (silver tongue), Brawn +1 (can throw a punch when the talking stops). Fortitude +0, Knowledge +0, Reason +0. Sum = +3.
 
-*Step 3, Ancestry:* Halfling. Gains one Blades Discipline and the *Lucky* trait (add one boon to any roll, once per session).
+*Step 3, Ancestry:* Halfling. Gains one Melee Discipline and the *Lucky* trait (add one boon to any roll, once per session).
 
-*Step 4, Culture:* Riverfolk. +1 bonus to Acrobatics (she grew up scrambling across rigging and wet docks). Disciplines: Blades + Archery.
+*Step 4, Culture:* Riverfolk. +1 bonus to Acrobatics (she grew up scrambling across rigging and wet docks). Disciplines: Melee + Ranged.
 
 *Step 5, Background DP (8 + Knowledge 0 + Fortitude 0 = 8 DP):*
 
@@ -298,20 +304,22 @@ Let's build a character from scratch so you can see how the pieces fit together.
 
 Total: 8 DP. All spent.
 
-*Step 6, Class:* Odd. Gains 2 Disciplines from different categories (Water and Sleight). Signature: *Eccentric Spellcasting*, ignore prerequisite Disciplines for two chosen abilities (one arcane, one divine); level gates still apply.
+*Step 6, Class:* Odd. Gains 2 Disciplines from different categories (Water and Sleight). Signature: *Eccentric Spellcasting*, ignore prerequisite Disciplines for two chosen abilities (one arcane, one divine); level gates still apply. Her arcane pick is Ember Lance, bought in Step 7; her divine pick is a later purchase. Her *Health attribute* is Guile.
 
-*Step 7, Class DP (8 DP):*
+*Step 7, Class DP (12 DP):*
 
+- Loadout ranks: Armor 1 (2 DP at your Adjacent rate)
 - Improvised Solution (Novice ability, 2 DP), the Odd's own Novice ability, no prereq
 - Thievery Novice (2 DP), locks and traps, and she always has an exit
 - Persuasion Novice (2 DP), she talks her way into places she shouldn't be
-- Acrobatics Novice (2 DP)
+- Performance Novice (2 DP), a good show opens more doors than a lockpick
+- Ember Lance (Novice spell, 2 DP), her *Eccentric Spellcasting* pick: it ignores the Fire Discipline her class never grants, and she needs no arcane focus for it
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Step 8, Equipment:* Shortbow, dagger, leather armor, thieves' tools, 20 arrows.
 
-*Step 9, Derived Stats:* HP 10 (10 + Fort 0 + Know 0). Initiative +1. Movement 25 ft (halfling). Carry 15 slots.
+*Step 9, Derived Stats:* HP 11 (10 + Fort 0 + Guile 1). Initiative +1. Movement 25 ft (halfling). Carry 15 slots.
 
 *Step 10, Backstory:* Motivation, Ambition (she wants something she won't name). Trinket, a smooth stone that hums faintly at midnight.
 
@@ -336,7 +344,7 @@ The eight worked examples below show how the same system produces wildly differe
 
 *Background DP (8 + Know 2 + Fort 0 = 10 DP + 1 Versatile = 11 DP):*
 
-- Arcana Novice (2 DP, favored)
+- Craft Novice (2 DP), she builds her own apparatus to feed the flame
 - History Novice (2 DP, favored)
 - Alchemy Novice (2 DP), fire needs fuel, fuel is chemistry
 - Nature Novice (2 DP), fire is a natural force, and she studies how it behaves
@@ -347,18 +355,19 @@ Total: 11 DP. All spent.
 
 *Class:* Arcanist. Gains 1 Fire, 1 Energy. Signature: *Arcane Shield*, free action, +1 Protection Value for the round.
 
-*Class DP (8 DP):*
+*Class DP (12 DP):*
 
+- Loadout ranks: Melee 1 (4 DP at your Opposed rate)
 - Ember Lance (Novice spell, 2 DP), her first real spell
 - Burning Volley (Novice spell, 2 DP), for when they get too close
 - Arcane Feedback (Novice ability, 2 DP)
 - Perception Novice (2 DP), watching fire teaches you to notice detail
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Equipment:* Arcane focus (crystal orb), dagger, scholar's robes, focus pouch, spellbook.
 
-*Derived Stats:* HP 12. Initiative +0. Movement 30 ft. Carry 10 slots.
+*Derived Stats:* HP 12 (10 + Fort 0 + Know 2). Initiative +0. Movement 30 ft. Carry 10 slots.
 
 *Backstory:* Motivation, Knowledge (she wants to read the Book of First Flame). Trinket, a smooth stone that hums faintly at midnight. *Name:* Sera Ashvein.
 
@@ -370,14 +379,14 @@ Total: 8 DP. All spent.
 
 *Attributes (sum = +3):* Knowledge +2 (encyclopedic recall), Reason +1 (sees patterns others miss), Guile +1 (sells her plans well), Brawn -1 (books are heavy, she's not), Fortitude +0, Agility +0. Sum = +3.
 
-*Ancestry:* Elf. Archery. *Elven Grace:* once per session, reroll one die.
+*Ancestry:* Elf. Ranged. *Elven Grace:* once per session, reroll one die.
 
-*Culture:* High Elf. +1 to History (grew up in crystal libraries). Disciplines: Energy + Blades.
+*Culture:* High Elf. +1 to History (grew up in crystal libraries). Disciplines: Energy + Melee.
 
 *Background DP (8 + Know 2 + Fort 0 = 10 DP):*
 
 - Arcana Novice (2 DP, favored)
-- History Novice (2 DP, favored)
+- Insight Novice (2 DP), reading a room is just another kind of intelligence report
 - Medicine Novice (2 DP), the body is a battlefield, and she has mapped every weak point
 - Lore Novice (2 DP), every war has a library
 - Perception Novice (2 DP), she reads a battlefield the way others read a book
@@ -386,14 +395,16 @@ Total: 10 DP. All spent.
 
 *Class:* Intellect. Gains 1 Lore, 1 any (takes Tactics). Signature: *Knowledge Is Power*, Boon on all Knowledge-based skill checks.
 
-*Class DP (8 DP):*
+*Class DP (12 DP):*
 
 - Tactical Insight (Novice ability, 2 DP)
 - Persuasion Novice (2 DP), a good plan means nothing if no one follows it
 - Force Dart (Novice spell, 2 DP), it never misses, neither should a plan
 - Insight Novice (2 DP)
+- Deception Novice (2 DP), a feint on the map is still a feint
+- Survival Novice (2 DP), she has walked the ground she maps
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Equipment:* Shortsword, spellbook, scholar's robes, focus pouch, ink & pen.
 
@@ -409,34 +420,36 @@ Total: 8 DP. All spent.
 
 *Attributes (sum = +3):* Reason +2 (faith is a kind of knowledge), Fortitude +1 (carries the wounded), Guile +1 (knows what to say at the deathbed), Brawn -1 (lets others do the heavy lifting), Knowledge +0, Agility +0. Sum = +3.
 
-*Ancestry:* Dwarf. Axes. *Sturdy:* +2 maximum HP.
+*Ancestry:* Dwarf. Melee. *Sturdy:* +2 maximum HP.
 
-*Culture:* Hill. +1 to Persuasion (the dwarf who explains dwarves). Free Discipline: Protection.
+*Culture:* Hill. +1 to Persuasion (the dwarf who explains dwarves). Free Discipline: Shields.
 
 *Background DP (8 + Know 0 + Fort 1 = 9 DP):*
 
 - Medicine Novice (2 DP, favored)
 - Religion Novice (2 DP, favored)
-- Persuasion Novice (2 DP)
+- Survival Novice (2 DP), she forages the mountain herbs that fill her kit
 - Endurance Novice (2 DP)
 - Life Discipline, rank 1 (1 DP), faith before the calling
 
 Total: 9 DP. All spent.
 
-*Class:* Shepherd. Gains 1 Protection, 1 Animal. Signature: *Unholy Word*, divine energy ignores armor, affects only undead.
+*Class:* Shepherd. Gains 1 Protection, 1 Animal. Signature: *Unholy Word* (gain *Turn Unholy* free).
 
-*Class DP (8 DP):*
+*Class DP (12 DP):*
 
+- Loadout ranks: Armor 1 (4 DP at your Opposed rate)
 - Mending Touch (Novice spell, 2 DP)
 - Sanctuary (Novice spell, 2 DP)
-- Insight Novice (2 DP), she reads pain, the unspoken kind a patient hides
-- Nature Novice (2 DP), she knows what grows in shadow
+- Religion, rank 1 (1 DP, Home), the prayers her order taught her
+- Holy Strike (Novice spell, 2 DP), when mercy has run out, the light burns
+- Plants, rank 1 (1 DP, Home), what grows in shadow still grows
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
-*Equipment:* Shortsword, holy symbol, leather armor, healer's kit.
+*Equipment:* Shield, holy symbol, leather armor, healer's kit.
 
-*Derived Stats:* HP 13 (10 + Fort 1 + Know 0 + Sturdy 2). Initiative +0. Movement 25 ft (dwarf). Carry 5 slots.
+*Derived Stats:* HP 15 (10 + Fort 1 + Reason 2 + Sturdy 2). Initiative +0. Movement 25 ft (dwarf). Carry 5 slots.
 
 *Backstory:* Motivation, Protection (she lost a patient once, never again). Trinket, a key that doesn't fit any lock she's found. *Name:* Haldra Ironhymn.
 
@@ -448,33 +461,35 @@ Total: 8 DP. All spent.
 
 *Attributes (sum = +3):* Reason +2 (commands respect), Brawn +1 (leads from the front), Guile +1 (reads a room like a map), Knowledge -1 (never had time for books), Fortitude +0, Agility +0. Sum = +3.
 
-*Ancestry:* Human. Any one Discipline (takes Blades). *Versatile:* +1 DP at Level 0.
+*Ancestry:* Human. Any one Discipline (takes Melee). *Versatile:* +1 DP at Level 0.
 
-*Culture:* Coastal. +1 to Athletics (climbed rigging before she could walk). Disciplines: Polearms + Protection.
+*Culture:* Coastal. +1 to Athletics (climbed rigging before she could walk). Disciplines: Two-Handed + Shields.
 
 *Background DP (8 + Know -1 + Fort 0 = 7 DP + 1 Versatile = 8 DP):*
 
-- Blades Discipline, rank 2 (2 DP, Home), the longsword needs two, and she carries it
-- Athletics Novice (2 DP, culture bonus already applied)
+- Melee Discipline, rank 2 (2 DP, Home), she trained past the shortsword and never went back
+- Survival Novice (2 DP), she can find water and shelter in any terrain the column crosses
 - Persuasion Novice (2 DP)
 - Endurance Novice (2 DP), a captain marches at the head of the column
 
 Total: 8 DP. All spent.
 
-*Class:* Leader. Gains 1 Tactics, 1 Protection. Signature: *Lead by Example*, on a telling blow, grant one ally a Boon on their next roll.
+*Class:* Leader. Gains 1 Tactics, 1 Shields. Signature: *Lead by Example*, on a Strong hit, grant one ally a Boon on their next roll.
 
-*Class DP (8 DP):*
+*Class DP (12 DP):*
 
+- Loadout ranks: Armor 1 (2 DP at your Adjacent rate)
 - Rallying Cry (Novice ability, 2 DP)
 - Deception Novice (2 DP), war is deception, and a good captain knows every trick
-- Perception Novice (2 DP)
+- Follow My Lead (Novice maneuver, 2 DP), an order lands harder than a blade
 - Insight Novice (2 DP), reads a battlefield like a map
+- Persuasion Novice (2 DP), orders land better when they sound like a request
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Equipment:* Longsword, spear, leather armor, shield.
 
-*Derived Stats:* HP 9 (10 + Fort 0 + Know -1). Initiative +0. Movement 30 ft. Carry 15 slots.
+*Derived Stats:* HP 11 (10 + Fort 0 + Guile 1). Initiative +0. Movement 30 ft. Carry 15 slots.
 
 *Backstory:* Motivation, Redemption (she gave bad orders once). Trinket, a medallion that always lands on its edge. *Name:* Marta Shieldsworn.
 
@@ -486,9 +501,9 @@ Total: 8 DP. All spent.
 
 *Attributes (sum = +3):* Agility +2 (faster than you), Guile +1 (reads tells), Brawn +1 (follow-through), Knowledge -1 (books are for people who can't fight), Fortitude +0, Reason +0. Sum = +3.
 
-*Ancestry:* Elf. Archery. *Elven Grace:* once per session, reroll one die.
+*Ancestry:* Elf. Ranged. *Elven Grace:* once per session, reroll one die.
 
-*Culture:* Twilight Elf. +1 to Deception (grew up in the half-light). Disciplines: Water + Blades.
+*Culture:* Twilight Elf. +1 to Deception (grew up in the half-light). Disciplines: Water + Melee.
 
 *Background DP (8 + Know -1 + Fort 0 = 7 DP):*
 
@@ -499,20 +514,21 @@ Total: 8 DP. All spent.
 
 Total: 7 DP. All spent.
 
-*Class:* Blade. Gains 1 Blades, 1 Stealth. Signature: *Swift Blade*, use Agility instead of Brawn for blade attacks; exploiting an opening (a target that is Dazed, Prone, or unaware of you) deals +1 damage tier, once per scene.
+*Class:* Blade. Gains 1 Melee, 1 Stealth. Signature: *Swift Blade*, gain the Precision talent for free; exploiting an opening (a target that is Dazed, Prone, or unaware of you) deals +1 damage tier, once per scene.
 
-*Class DP (8 DP):*
+*Class DP (12 DP):*
 
+- Loadout ranks: Armor 1 (4 DP at your Opposed rate)
 - Acrobatics Novice (2 DP), footwork is everything
-- Deception Novice (2 DP), feints win duels
+- Thievery Novice (2 DP), the same hands that feint can pick a lock
 - Perception Novice (2 DP), seeing the opening before it exists
-- Sleight of Hand Novice (2 DP), a duelist's flourish is misdirection
+- Open the Guard (Novice maneuver, 2 DP), footwork opens the guard, the blade closes it
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Equipment:* Shortsword, dagger, leather armor, thieves' tools.
 
-*Derived Stats:* HP 9 (10 + Fort 0 + Know -1). Initiative +2. Movement 30 ft. Carry 15 slots.
+*Derived Stats:* HP 12 (10 + Fort 0 + Agility 2). Initiative +2. Movement 30 ft. Carry 15 slots.
 
 *Backstory:* Motivation, Glory (she wants her name in every dueling hall from here to the elven court). Trinket, a locket with a portrait of someone she's never met. *Name:* Vaelith Nightblade.
 
@@ -524,13 +540,13 @@ Total: 8 DP. All spent.
 
 *Attributes (sum = +3):* Agility +2 (vanishes like smoke), Guile +1 (becomes anyone), Brawn +0, Fortitude +0, Knowledge +0, Reason +0. Sum = +3.
 
-*Ancestry:* Halfling. Blades. *Lucky:* add one boon to any roll, once per session.
+*Ancestry:* Halfling. Melee. *Lucky:* add one boon to any roll, once per session.
 
-*Culture:* Burrower. +1 to Stealth (grew up in tunnels under the hills). Disciplines: Protection + Blades.
+*Culture:* Burrower. +1 to Stealth (grew up in tunnels under the hills). Disciplines: Shields + Melee.
 
 *Background DP (8 + Know 0 + Fort 0 = 8 DP):*
 
-- Stealth Novice (2 DP, favored, culture bonus already applied)
+- Athletics Novice (2 DP), a roof chase is just climbing at speed
 - Thievery Novice (2 DP), locks and traps
 - Sleight of Hand Novice (2 DP)
 - Deception Novice (2 DP)
@@ -539,18 +555,19 @@ Total: 8 DP. All spent.
 
 *Class:* Shadow. Gains 1 Stealth, 1 Sleight. Signature: *Vanish*, spend maneuver to turn invisible until end of next turn or until attacking.
 
-*Class DP (8 DP):*
+*Class DP (12 DP):*
 
+- Loadout ranks: Armor 1 (4 DP at your Opposed rate)
 - Sap (Novice ability, 2 DP), daze unaware targets
 - Perception Novice (2 DP, favored), she sees the guard before the guard sees her
 - Acrobatics Novice (2 DP, favored), out the window, over the wall, gone
-- Insight Novice (2 DP), she reads a mark before she picks a pocket
+- Dual Strike (Novice maneuver, 2 DP), two daggers, one motion
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Equipment:* Two daggers, throwing daggers (6), leather armor, thieves' tools, disguise kit, 50 ft silk rope, grappling hook, smoke bomb (1).
 
-*Derived Stats:* HP 10. Initiative +2. Movement 25 ft (halfling). Carry 10 slots.
+*Derived Stats:* HP 11 (10 + Fort 0 + Guile 1). Initiative +2. Movement 25 ft (halfling). Carry 10 slots.
 
 *Backstory:* Motivation, Ambition (she wants a ship, and a new name, and an island where nobody asks questions). Trinket, a key that doesn't fit any lock. Yet. *Name:* Pip Quickfoot. Makeva's cousin. The family reunions are legendary.
 
@@ -562,34 +579,34 @@ Total: 8 DP. All spent.
 
 *Attributes (sum = +3):* Brawn +2 (the wall), Fortitude +1 (the foundation), Reason +1 (knows where to stand), Agility -1 (doesn't need to dodge), Guile +0, Knowledge +0. Sum = +3.
 
-*Ancestry:* Dwarf. Axes. *Sturdy:* +2 maximum HP.
+*Ancestry:* Dwarf. Melee. *Sturdy:* +2 maximum HP.
 
-*Culture:* Mountain. +1 to Craft (forged her first shield at twelve). Disciplines: Armor + Axes.
+*Culture:* Mountain. +1 to Craft (forged her first shield at twelve). Disciplines: Armor + Melee.
 
 *Background DP (8 + Know 0 + Fort 1 = 9 DP):*
 
 - Endurance Novice (2 DP, favored)
 - Athletics Novice (2 DP, favored)
-- Craft Novice (2 DP, culture bonus already applied)
+- Medicine Novice (2 DP), she patches what the mountain breaks
 - Survival Novice (2 DP), she could live off the mountain if the hold ever fell
-- Protection Discipline, rank 1 (1 DP, Home), she learned the shield-wall before the sword
+- Two-Handed Discipline, rank 1 (1 DP, Home), she swung a smith's maul at the forge long before she carried a shield
 
 Total: 9 DP. All spent.
 
-*Class:* Protector. Gains 1 any Weapon, 1 Armor. Signature: *Bastion*, spend movement to enter defensive stance, +1 Protection Value.
+*Class:* Protector. Gains 1 Armor, 1 Shields. Signature: *Bastion*, spend movement to enter defensive stance, +1 Protection Value.
 
-*Class DP (8 DP):*
+*Class DP (12 DP):*
 
-- Interpose (Novice ability, 2 DP), take the hit for an adjacent ally
-- Persuasion Novice (2 DP), her presence ends fights before they start
-- Perception Novice (2 DP), the best shield is seeing the blow coming
+- Loadout ranks: Armor 2 and 3 (6 DP at your Home rate)
+- Shield Bash (Novice ability, 2 DP), her shield puts them on the ground
+- Open the Guard (Novice maneuver, 2 DP), her axe opens what the shield then closes
 - Parry Novice (2 DP), her shield turns aside the blows she will not dodge
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Equipment:* Battleaxe, chain mail, shield, smith's tools.
 
-*Derived Stats:* HP 13 (10 + Fort 1 + Know 0 + Sturdy 2). Initiative -1. Movement 25 ft (dwarf). Carry 20 slots.
+*Derived Stats:* HP 15 (10 + Fort 1 + Brawn 2 + Sturdy 2). Initiative -1. Movement 25 ft (dwarf). Carry 20 slots.
 
 *Backstory:* Motivation, Protection (her clan's hold fell, she's building something new). Trinket, a child's drawing of her. She doesn't recognize the child. *Name:* Gorma Anvilshield.
 
@@ -603,12 +620,12 @@ Total: 8 DP. All spent.
 
 *Ancestry:* Human. Any one Discipline (takes Fire). *Versatile:* +1 DP at Level 0.
 
-*Culture:* Nomadic. +1 to Survival (raised on the steppe). Disciplines: Archery + Polearms.
+*Culture:* Nomadic. +1 to Survival (raised on the steppe). Disciplines: Ranged + Two-Handed.
 
 *Background DP (8 + Know 1 + Fort 0 = 9 DP + 1 Versatile = 10 DP):*
 
 - Arcana Novice (2 DP)
-- Survival Novice (2 DP)
+- Perception Novice (2 DP), she tastes the ozone before the backlash lands
 - Alchemy Novice (2 DP), six vials of volatile reagents, and she knows how to make more
 - Deception Novice (2 DP), chaos wears many faces
 - Insight Novice (2 DP), knowing when the backlash is coming
@@ -617,18 +634,20 @@ Total: 10 DP. All spent.
 
 *Class:* Unbalanced. Gains 1 Fire, 1 Water. Signature: *Edge of Chaos*, on a Strong hit, deal +1 damage tier (one row up on the damage budget) but roll on the d6 Backlash Table.
 
-*Class DP (8 DP):*
+*Class DP (12 DP):*
 
 - Exploit Chaos (Novice ability, 2 DP), roll twice on backlash table
 - Ember Lance (Novice spell, 2 DP)
 - Endurance Novice (2 DP)
 - Persuasion Novice (2 DP), chaos is an easier sell when you smile
+- Lore Novice (2 DP), forbidden texts are her favorite kind
+- Medicine Novice (2 DP), she has patched herself up more than once
 
-Total: 8 DP. All spent.
+Total: 12 DP. All spent.
 
 *Equipment:* Spear, focus pouch, scholar's robes, six vials of volatile reagents (alchemist's fire).
 
-*Derived Stats:* HP 11 (10 + Fort 0 + Know 1). Initiative +0. Movement 30 ft. Carry 15 slots.
+*Derived Stats:* HP 11 (10 + Fort 0 + Brawn 1). Initiative +0. Movement 30 ft. Carry 15 slots.
 
 *Backstory:* Motivation, Knowledge (she wants to understand why the backlash table exists at all). Trinket, a locket with a portrait of someone she's never met. *Name:* Corwin Ash-Walker.
 ```

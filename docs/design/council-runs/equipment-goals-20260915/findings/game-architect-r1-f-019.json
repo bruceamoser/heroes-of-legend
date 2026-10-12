@@ -1,0 +1,41 @@
+{
+ "argument": "Weapon identity must live on the card spine - the header's Kit tag plus the card's Discipline-rank requirement - and it must carry a rule-shape, never a magnitude. The corpus already demonstrates the split, and it is inverted: every card that prints a band-legal damage row is a Weapon Maneuver carrying no kit tag (three at 4/6/8, four at 5/8/11, and the only two Master-row cards in the book, 7/10/14), while the heavily gated family is spells, and no spell prints a live band-legal Master row at all - eleven Novice spells print 2/4/6 and two Adept Religion spells print 6/9/12. Putting a number on a weapon therefore adds a fourth additive above card damage, an attribute additive and DR, and the arithmetic caps it at +1: a Novice row shifted to 5/7/9 still sits at or under the Adept row on every tier, but +2 gives a Novice card 6/8/10, a better Weak tier than an Adept card's 5. Rule-shapes do not dodge the law by being shapeless - they dodge it by direction. Effects that move down the ladder scale with level, because the rungs grow apart: Shield Block is worth 2/3/4 points by band and its Weak floor-clamp is worth 3/4/6. Effects that move up the ladder die at the top: Overchannel is a Master skill that triggers on casting a Master spell and grants 'the row one step above on the damage budget', and there is no row above Master, so its printed payload is undefined at the tier it is built for. The book also already has the third permission model on paper, and it is level-linked: gear carries Discipline entry requirements, waived when the item arrives in a class kit, so the gate exists and is only soft. Round 2 should finish that gate and re-point the existing weapon tags, not author forty-two cards.",
+ "confidence": 0.8,
+ "evidence": [
+  {
+   "claim": "The largest flat weapon additive that keeps every tier of a Novice row at or below the corresponding Adept tier is +1.",
+   "quote_or_excerpt": "Live rows: Novice 4/6/8, Adept 5/8/11, Master 7/10/14. F=1 -> Novice 5/7/9 vs Adept 5/8/11: 5<=5, 7<8, 9<11 -> legal. F=2 -> Novice 6/8/10 vs Adept 5/8/11: 6>5 on Weak -> the Novice card becomes the best Weak attack in the game. Therefore F_max=1, and at F=1 the additive is absorbed entirely by any DR>=1, which is every armored target.",
+   "source": "reasoning"
+  },
+  {
+   "claim": "The only two cards in the book that print the live Master row are Weapon Maneuvers with no kit tag, while all six kit-gated weapon/shield maneuver cards print no damage row at all.",
+   "quote_or_excerpt": "Triplet census over every chapter: (7,10,14) = 09:532 Sunshot (3 Archery, kit None), 09:568 Break the Order (2 Tactics, kit None). (5,8,11) = 09:460, 09:469, 09:487, 09:514, all kit None. (4,6,8) = 09:397, 09:433, 09:442 plus ten spells. Kit-gated maneuvers: 09:235 Cyclone (weapon:two-hand), 09:244 Cleave (weapon:one-hand), 09:325 Crushing Blow (weapon:two-hand), 09:334 Executioner's Cut (weapon:two-hand), 09:343 Throw (weapon:ranged), 09:262 Shield Slam (shield) - none prints Weak/Standard/Strong.",
+   "source": "09-talents-abilities"
+  },
+  {
+   "claim": "The focus-gated family is pinned below or at the retired ladder: eleven Novice spells print the retired Novice row 2/4/6 and two Adept Religion spells print the retired Adept row 6/9/12.",
+   "quote_or_excerpt": "2/4/6 x11: 11:168 Ember Lance, 11:195 Burning Volley, 11:206 Frostbite Shard, 11:235 Storm Javelin, 11:289 Corrosive Spit, 11:336 Venom Lance, 11:347 Force Dart, 11:401 Soul Drain, 12:197 Holy Strike, 12:206 Righteous Blow, 12:233 Radiant Beam. 6/9/12 x2: 12:215 Divine Judgment, 12:224 Pillar of Light. Live 4/6/8 on Adept spells: 11:177 Brimstone Burst, 11:186 Wall of Cinders, 11:215 Rime Storm, 11:224 Glacial Prison, 11:244 Forked Sky, 11:253 Static Field, 11:298 Caustic Mist, 11:307 Tremor, 11:356 Force Wave, 11:419 Touch of the Grave.",
+   "source": "11-arcane-spells"
+  },
+  {
+   "claim": "A Master-tier class ability is defined as 'the row one step above' a Master spell, a row that does not exist in the live table.",
+   "quote_or_excerpt": "05:544  [*Overchannel*], [Master], [2 Energy, 1 Fire], [When you cast a Master spell], [The spell deals +1 damage tier (use the row one step above on the damage budget). After casting, you gain 1 Corruption.]",
+   "source": "05-classes"
+  },
+  {
+   "claim": "Downgrade-shaped gear rules scale upward with level, and the shield is the existence proof that a piece of kit can carry real power without a damage number.",
+   "quote_or_excerpt": "16:70  *Shield Block (Reaction):* When you are hit by an attack, you may use your reaction to interpose your shield. Reduce the damage tier by one step: Strong -> Standard, Standard -> Weak, Weak -> 1 damage. 16:72  Shield Block cannot reduce damage below 1.  -- Arithmetic: Strong->Standard is worth 14-10=4 at Master, 8-6=2 at Novice; the Weak->1 clamp is worth 7-1=6 at Master, 4-1=3 at Novice. Every tier shift downward is defined at all three bands; every shift upward is undefined at Master.",
+   "source": "16-armor-shields"
+  },
+  {
+   "claim": "A rank-based gear permission model already exists in the text and is level-linked through Discipline ranks, but the armor chapter waives it for class kit, so the gate is soft rather than absent.",
+   "quote_or_excerpt": "08:196  Weapons, armor, and shields may list their own Discipline requirements as entry requirements: a Dagger needs 1 Blades, a Longsword 2 Blades, a Greatsword 2 Blades + 1 Heavy Weapon, a Tower Shield 2 Protection, and Plate 3 Armor. A card's tier is separate from its equipment's entry requirement.  16:60  The number before each shield is a Discipline requirement: you need that many ranks in the Protection Discipline to wield it, unless it came in your class starting kit (kit gear assumes training).",
+   "source": "08-disciplines"
+  }
+ ],
+ "id": "f-019",
+ "role": "game-architect",
+ "round": 1,
+ "stance": "refute",
+ "topic": "t-03"
+}

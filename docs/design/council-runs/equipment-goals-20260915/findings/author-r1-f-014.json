@@ -1,0 +1,51 @@
+{
+ "argument": "Weapon development does not widen what a hero can DO; it re-prices numbers the hero already had, and for two of the six weapon disciplines it offers nothing to buy at the rank the hero starts at. I constructed three level-1 heroes from the book's own kits and card lists. The duelist (Blade, Agility +2, shortsword) and the axe-wielding northerner (Protector, Brawn +2, battleaxe) make the identical attack: Basic Melee is 1/2/3 plus Brawn, or plus Agility with a Finesse weapon, so both print 3/4/5 at every outcome, with the same Action, the same reach and the same single Reaction. Their whole future differs only by the size of the pool behind their discipline: Blades carries ten cards, Axes carries two. Worse, Axes has no rank-1 card at all, so the axe hero cannot buy anything in his own weapon at level 1; its only two cards are rank 2, and both print the same text on all three outcomes, so neither the card nor the damage row tells the player what it costs or when they may buy it. Heavy Weapon shares the defect. Nor does the top of the ladder reward mastery: Blades' only rank-3 card, Cyclone, is gated weapon:two-hand, so a one-handed duelist reaches rank 3 and buys nothing usable, and Blades has no Master-row card at all. Where rank 2 does add new verbs (Riposte, Disarm) it also adds Power Strike, which is strictly dominated by the rank-1 Pinpoint Strike: same Action, same Range, same '+1 damage tier', minus the Piercing 1/2/3. Refute: the ladder is real in structure and hollow in play. Mastery of a weapon is a number, and for Axes, for Heavy Weapon, and for any one-handed Blades concept it is not even that.",
+ "confidence": 0.85,
+ "evidence": [
+  {
+   "claim": "Three level-1 heroes were constructed from the book's own kits and card lists. The duelist and the axe-wielding northerner resolve to the identical Weak/Standard/Strong triple and differ only in the size of the card pool behind their weapon discipline; the archer is strictly worse than both at every outcome, paying two points of damage per tier for range.",
+   "quote_or_excerpt": "DUELIST - Blade, Agility +2, shortsword (Finesse, Light). Basic Melee 1/2/3 + Agility = 3/4/5. Rank-1 Blades cards reachable: 4 (Open the Guard 4/6/8, Pinpoint Strike, Dual Strike, Hamstring Cut). Rank-3: 1 (Cyclone, Kit weapon:two-hand -> unusable one-handed). Total Blades cards: 10. | AXE NORTHERNER - Protector, Brawn +2, battleaxe. Basic Melee 1/2/3 + Brawn = 3/4/5. Rank-1 Axes cards reachable: 0. Rank-3: 0. Total Axes cards: 2 (Cleave, Executioner's Cut, both rank 2). | ARCHER - Archery 1, longbow. Basic Archery 1/2/3 flat, no attribute added = 1/2/3. Range 60/120 ft. Rank-1 Archery cards: 2. Total Archery cards: 5. | DIFF: duelist == axe northerner at every tier (3/4/5); archer is 2 points worse at every tier (1/2/3). Weapon contributes 0 damage in all three cases.",
+   "source": "reasoning"
+  },
+  {
+   "claim": "The damage identity of a melee hero is which attribute feeds Basic Melee, not which weapon is held. A Finesse weapon routes Agility where Brawn would otherwise apply; the numbers themselves are identical, so an Agility +2 duelist and a Brawn +2 axeman are the same attacker.",
+   "quote_or_excerpt": "=== Basic Melee (Basic Attack) *Disciplines:* None *Kit:* weapon:one-hand *Action:* Action *Range:* Melee *Keywords:* Damage *Weak:* 1 + Brawn damage (Agility with a Finesse weapon). *Standard:* 2 + Brawn damage (Agility with a Finesse weapon). *Strong:* 3 + Brawn damage (Agility with a Finesse weapon).",
+   "source": "09-talents-abilities"
+  },
+  {
+   "claim": "Basic Archery is flat and unmodified, so an archer is mechanically a worse melee hero with range: two points of damage behind Basic Melee at every outcome, even though melee adds an attribute and archery adds nothing.",
+   "quote_or_excerpt": "=== Basic Archery (Basic Attack) *Disciplines:* None *Kit:* weapon:ranged *Action:* Action *Range:* 60/120 ft *Weak:* 1 damage. *Standard:* 2 damage. *Strong:* 3 damage.  [cf. Basic Unarmed, also strictly worse than Basic Melee: *Weak:* 1 + Brawn, *Standard:* 1 + Brawn, *Strong:* 2 + Brawn.]",
+   "source": "09-talents-abilities"
+  },
+  {
+   "claim": "The second rank of Blades buys a strictly dominated card. Power Strike (2 Blades) has the same Action, the same Range and the same effect at all three outcomes as Pinpoint Strike (1 Blades), minus the Piercing that Pinpoint grants, and it requires a higher rank to reach. Reaching rank 2 therefore makes a Blade no more capable than a Blade who stayed at rank 1 with Pinpoint Strike.",
+   "quote_or_excerpt": "=== Pinpoint Strike (Weapon Maneuver) *Disciplines:* 1 Blades *Action:* Action *Range:* Melee *Keywords:* Piercing, Damage  *Weak:* +1 damage tier on your next weapon attack, and Piercing 1.  ||  === Power Strike (Weapon Maneuver) *Disciplines:* 2 Blades *Action:* Action *Range:* Melee *Keywords:* Damage  *Weak:* +1 damage tier on your next weapon attack. *Standard:* +1 damage tier on your next weapon attack. *Strong:* +1 damage tier on your next weapon attack.",
+   "source": "09-talents-abilities"
+  },
+  {
+   "claim": "The only rank-3 card in Blades is closed to every one-handed concept, and Blades has no Master-row card at all. A duelist who reaches the third rank of Blades can buy nothing that works with a rapier-class weapon, so the top of the discipline's ladder is a dead end for the archetype the discipline exists to serve.",
+   "quote_or_excerpt": "=== Cyclone (Weapon Maneuver) *Disciplines:* 3 Blades *Kit:* weapon:two-hand *Action:* Action *Range:* Melee *Keywords:* Area  *Weak:* Hit all adjacent enemies for 2 damage. *Standard:* Hit all adjacent enemies for 4 damage. *Strong:* Hit all adjacent enemies for 6 damage.  [Cyclone also deals less single-target damage (2/4/6) than the rank-1 Open the Guard (4/6/8), so the third rank is a damage downgrade as well as an unusable one.]",
+   "source": "09-talents-abilities"
+  },
+  {
+   "claim": "The axe-wielding northerner's entire mechanical future is two cards, and neither reveals its tier: Cleave and Executioner's Cut print identical text on all three outcomes, so no budget row can be inferred and the player cannot tell the card's price or level gate. Both are rank 2, so the discipline has no entry point at the rank a starting character holds.",
+   "quote_or_excerpt": "=== Cleave (Weapon Maneuver) *Disciplines:* 2 Axes *Kit:* weapon:one-hand ... *Weak:* Hit one target. If it drops to 0 HP, hit an adjacent enemy for the same damage. *Standard:* [identical] *Strong:* [identical]  ||  === Executioner's Cut (Weapon Maneuver) *Disciplines:* 2 Axes *Kit:* weapon:two-hand ... *Weak:* +1 damage tier against a wounded target. *Standard:* +1 damage tier against a wounded target. *Strong:* +1 damage tier against a wounded target.",
+   "source": "09-talents-abilities"
+  },
+  {
+   "claim": "COMMAND: grep -h '^\\*Disciplines:\\*' *.qmd | grep -oE '[0-3] (Blades|Axes|Polearms|Archery|Heavy Weapon|Unarmed)' | sort | uniq -c. RESULT: of 188 Disciplines fields book-wide, the six weapon disciplines hold 30 cards total. Axes has ZERO rank-1 and ZERO rank-3 cards; Heavy Weapon has ZERO rank-1 cards. Blades carries a third of all weapon content; Axes carries one fifteenth.",
+   "quote_or_excerpt": "rank1/rank2/rank3 per discipline: Blades 4/5/1 (10); Axes 0/2/0 (2); Polearms 1/2/1 (4); Archery 2/2/1 (5); Heavy Weapon 0/5/1 (6); Unarmed 1/1/1 (3). Total 30 of 188 cards. No rank-1 card exists for Axes or Heavy Weapon.",
+   "source": "chapters/*.qmd (instrumented census, entire chapters directory)"
+  },
+  {
+   "claim": "No card in the book prints its tier, although the card template defines Tier as a core field and the discipline chapter prices tiers at 2/4/8 DP against level gates 1/3/7. The rank number is printed; the price and the level gate are not, so the ladder's cost is invisible on the very surface the player reads.",
+   "quote_or_excerpt": "COMMAND: grep -rn '^\\*Tier\\*\\|Tier:\\*' *.qmd -> no matches in any chapter. The card template in 19-gm-guidance.qmd:590 defines the card's Tier field as 'Novice, Adept, or Master'; 08-disciplines.qmd:135 states 'Every card is bought once, at one tier, for one price... The card's tier sets the level you need (Novice 1, Adept 3, Master 7).'",
+   "source": "chapters/*.qmd (instrumented) + 19-gm-guidance + 08-disciplines"
+  }
+ ],
+ "id": "f-014",
+ "role": "author",
+ "round": 1,
+ "stance": "refute",
+ "topic": "t-01"
+}

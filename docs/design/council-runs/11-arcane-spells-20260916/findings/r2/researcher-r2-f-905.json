@@ -1,0 +1,57 @@
+{
+  "id": "f-905",
+  "round": 2,
+  "role": "researcher",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Recomputation run twice: once over the copy registered for this council, once over the merged revision. Rows reread at their owners: 4/6/8, 5/8/11, 7/10/14 (08:213-215, repeated at 10:46-48). A parser keyed to those rows walks the whole file and returns 68 cards, 15 cantrip plus 53 tiered; every tiered headline figure sits on its own card's row; figures falling outside their card's row number four in the registered copy and three on the merged text. Two of the three are settled by the merge, and those two are the whole of f-005's subject: Ember Lance now prints a headline of 6 with 3 carried through behind and a headline of 8 with 4 behind, so both secondary numbers are exact halves (6/2 and 8/2) under the round-down clause the introduction now carries, where the registered copy printed 2 against the 6. f-005 describes a text the book no longer has, and I rebut it. The third figure is Turn the Air's cold chip, and my numbers do not clear it. Its card is Adept, the printed number is 1, and no Adept value is 1, a shortfall of 4 against that row's floor. The comparand offered for it does not bear the weight: Virtue is a cantrip (12:58), so its row is 1/3/5 and the point at 12:63 is that row's own bottom value, an on-row number rather than proof that a tiered card may print under its floor. The book's licensed home for a repeating damage number beneath a card's row is the leveled condition, tagged bare and leveled in the text: Brimstone Burst prints Burning 4 on an Adept card (11:187 and 11:193), Hallowed Ground prints Burning 3 on a Master one (12:235 and 12:241). Where that kind of per-round figure is not a condition, the book pins it to the row, as the Adept capability at 05:584 does with 6 radiant per round, that row's Standard value. Turn the Air writes its chip in neither shape. So the intent f-009 describes does have a home and the home is the row itself: the repair is a single numeral, which makes the finding MECHANICAL rather than DESIGN. I hold t-01 refuted on this figure at moderate confidence, since the residue is one numeral on one of sixty-eight cards and every other figure in the file keys correctly. A second unlicensed figure, Ward of Iron's reflected 4 on a Master card (11:498), is also unchanged on the merged text; I record it here rather than filing a rebuttal for it, because round 1's pair on that numeral is booked as implemented and the duplication that pair read as a double count is gone.",
+  "evidence": [
+    {
+      "source": "08-disciplines.qmd",
+      "claim": "The discipline chapter prints the rows as 4/6/8 for Novice, 5/8/11 for Adept and 7/10/14 for Master (08:213-215), and the magic-system chapter repeats the same three rows (10:46-48).",
+      "quote_or_excerpt": "[*Adept*], [5/8/11], [*Master*], [7/10/14]"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Census output over the file: 68 cards split 15 cantrip and 53 tiered; zero tiered headline figures off their own row; four off-row figures in the registered copy, three in the merged text, and the three are 3 (Ember Lance), 1 (Turn the Air) and 4 (Ward of Iron).",
+      "quote_or_excerpt": "census 68 = 15 cantrip + 53 tiered; off-row 4 -> 3"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "On the merged text Ember Lance's halves are exact: a headline of six with three passed through behind, a headline of eight with four behind. Against a headline of six the registered copy printed two, which is the arithmetic f-005 rests on.",
+      "quote_or_excerpt": "the lance passes through to one target behind for 3 fire damage"
+    },
+    {
+      "source": "reasoning",
+      "claim": "f-009's arithmetic recomputes: the chip's value is 1, the card's row is 5/8/11, so the printed number sits 4 under the row's floor, and 1 appears in the live tables only as the bottom of the cantrip row and of the basic-attack row.",
+      "quote_or_excerpt": "gap 5-1 = 4; 1 is not an Adept value"
+    },
+    {
+      "source": "12-divine-spells.qmd",
+      "claim": "The comparand is on its own row: Virtue is a cantrip (12:58), so the single point printed at 12:63 is the bottom value of that card's exempt 1/3/5 row and shows nothing about a tiered card's sub-row figure.",
+      "quote_or_excerpt": "=== Virtue (Cantrip)"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The licensed shape for a sub-row damage number on a tiered card is a leveled condition: Brimstone Burst is Adept, its Keywords line carries the bare tag, and its top outcome names the level 4, four points under the Adept floor.",
+      "quote_or_excerpt": "the ground burns (Burning 4)"
+    },
+    {
+      "source": "12-divine-spells.qmd",
+      "claim": "Hallowed Ground does the same from a Master card: its Keywords line carries the bare tag and its top outcome names level 3, under that row's floor of 7.",
+      "quote_or_excerpt": "undead inside take Burning 3 radiant damage"
+    },
+    {
+      "source": "05-classes.qmd",
+      "claim": "Where a per-round area figure is not written as a condition, the book keys it to the row: the Adept capability at 05:584 deals 6 radiant per round, which is the Standard value of the Adept row, not an arbitrary small number.",
+      "quote_or_excerpt": "Undead inside take 6 radiant damage per round"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The two duration ladders round 1 questioned now hold on the merged text: Silver Tongue reads 1 scene, 2 scenes, 2 scenes where the registered copy ended at 1 scene, and March of Bones reads 1 scene, 1 scene, 3 scenes where the registered copy switched units to an hour. Neither ladder shrinks across its rungs in the merged text.",
+      "quote_or_excerpt": "merged: Silver Tongue 1/2/2"
+    }
+  ],
+  "confidence": 0.6,
+  "rebutting": ["f-005"]
+}

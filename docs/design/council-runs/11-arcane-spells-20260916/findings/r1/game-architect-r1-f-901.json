@@ -1,0 +1,27 @@
+{
+  "id": "f-901",
+  "round": 1,
+  "role": "game-architect",
+  "topic": "t-01",
+  "stance": "refute",
+  "argument": "Turn the Air is filed as an Adept card, but the one and only damage value anywhere in its three outcomes is a single point of cold (11-arcane-spells:476). The Adept row is 5/8/11, so the printed value sits four under its own row's floor. One is not a value any live row prints for a spell: it is the cantrip Weak number, exactly what Frost Touch prints at 11-arcane-spells:52. Fix path: either the Cold property carries the row's own first value, or the card declares the repeating chip as an exception the way the cantrip exemption is declared. Disposition: MECHANICAL if the value is a slip; DESIGN if a repeating per-turn area chip was intended, because that intent has no home in the band law. Arithmetic: Adept floor 5 against printed 1 gives 5 - 1 = 4 short; cantrip Weak value 1 equals the printed figure.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "The Cold property's one point of cold is the only damage figure in the card's three outcome lines (11-arcane-spells:476).",
+      "quote_or_excerpt": "creatures starting their turn there take 1 cold damage"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Adept row 5/8/11 against the printed 1: 5 - 1 = 4 below the floor, so the figure can be keyed to no Adept value (11-arcane-spells:476).",
+      "quote_or_excerpt": "5 - 1 = 4"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Frost Touch, a cantrip, prints that same single point as its Weak value, so the Adept card reuses a cantrip number (11-arcane-spells:52).",
+      "quote_or_excerpt": "1 cold damage"
+    }
+  ],
+  "confidence": 0.8,
+  "rebutting": []
+}

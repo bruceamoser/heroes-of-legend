@@ -1,0 +1,27 @@
+{
+  "id": "contrarian-r2-f021",
+  "round": 2,
+  "role": "contrarian",
+  "topic": "t-01",
+  "stance": "support",
+  "argument": "The plate is no longer inside a school's card run. In the merged text the illustration, its caption and the break that closes it all sit after the last Wind card and immediately before the next section heading, which is the arrangement the filing asked for and the same one it found at ten sites elsewhere. Structural check on the merged file: all five Wind card headings precede the plate, and the break now opens the following section instead of splitting a run of five into four and one. The plate's contents are unchanged, so its only subject was position, and position is fixed. Class: MECHANICAL, closed by the merge.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "The plate, its caption and the break now follow the fifth Wind card and directly precede the next section heading, so no card run is split by an illustration.",
+      "quote_or_excerpt": "#pagebreak() before == Earth Spells"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The last Wind card now precedes the plate rather than following it, so the school's cards print as one uninterrupted run.",
+      "quote_or_excerpt": "=== Wind Wall (Adept Arcane Spell)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Structural count of the merged file: the plate sits at the boundary between the Wind and Earth sections, which is where the other ten sibling plates sit relative to their own headings.",
+      "quote_or_excerpt": "plate sited after the fifth card, before the next heading"
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": ["f-021"]
+}

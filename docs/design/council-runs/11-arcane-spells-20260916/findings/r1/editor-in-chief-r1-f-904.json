@@ -1,0 +1,37 @@
+{
+  "id": "f-904",
+  "round": 1,
+  "role": "editor-in-chief",
+  "topic": "t-03",
+  "stance": "support",
+  "argument": "Scoped support, and it clears a lead rather than the whole chapter: the nine-section inventory and the lonely one-card Plants block are exactly what the owning chapters require, so neither is a structural defect. The chapter that owns tradition membership hands the arcane side an eight-discipline list, plants and mind included (10-magic-system:87), and states in the same passage that plants answers to both traditions, which is why a discipline can appear in both spell chapters at once (10:91). The divine chapter demonstrates the twin on the primal side with its own plant section and a plant card that requires a primal focus (12-divine-spells:368, 12:371). So the arcane Plants heading at 11:334 holding one card matches the pattern rather than signalling a deleted section, and the eight arcane section names reproduce the tradition list exactly. The file's other anatomy claims also hold under a mechanical sweep: fifteen cantrip cards and fifty-three leveled cards, which is the count the opener states (11:19), every one of the sixty-eight cards printing a Discipline header line and either a full weak/standard/strong outcome block (sixty-five cards) or a single effect line (the three ward cards, 11:643 through 11:657), with tier ranks ascending inside each section. What this clears is the section inventory and card-format completeness; the three per-card and placement defects I filed separately stand, and the ledger's existing cross-chapter items on repeated card text and armor wording are untouched by this.",
+  "evidence": [
+    {
+      "source": "10-magic-system.qmd",
+      "claim": "The tradition chapter's arcane list names eight disciplines, plants and mind among them, and the file's nine headings reproduce that set (10-magic-system:87).",
+      "quote_or_excerpt": "Fire, Wind, Water, Earth, Energy, Mind, Plants, and Protection spells"
+    },
+    {
+      "source": "10-magic-system.qmd",
+      "claim": "The same passage puts plants on both sides of the tradition divide, which is why one plant card belongs in the arcane list next to its divine twin (10-magic-system:91).",
+      "quote_or_excerpt": "one Discipline behind an arcane venom and a divine briar alike"
+    },
+    {
+      "source": "12-divine-spells.qmd",
+      "claim": "The divine chapter carries the primal-keyed counterpart under its own plant heading, so the discipline is represented in both spell chapters (12-divine-spells:368, 12:371).",
+      "quote_or_excerpt": "*Disciplines:* 2 Plants · *Requires:* focus:primal"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The opener states the same counts the file delivers, so the inventory promise is met even where other promises are not (11-arcane-spells:19).",
+      "quote_or_excerpt": "fifteen cantrips you know from the start, and fifty-three spell cards"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Mechanical sweep written and run over the source file: 68 card headings, 65 cards printing weak/standard/strong exactly once each, 3 ward cards printing a lone effect line, 0 cards missing a Discipline header line, 0 cards with a malformed outcome order, and heading levels of 9 sections plus 68 cards.",
+      "quote_or_excerpt": "totals {'Weak': 65, 'Standard': 65, 'Strong': 65, 'Effect': 3}; bad_out=[]; bad_hdr=[]"
+    }
+  ],
+  "confidence": 0.66,
+  "rebutting": []
+}

@@ -1,0 +1,36 @@
+{
+ "argument": "I support keeping the named catalogue as colour on the grounds of what richness actually costs to deliver in this book. Development richness is bought with 32 DP by level 10, and every DP is spent on a card or a Discipline rank, so the catalogue is not a development axis at all: it has no price, no rank and no upgrade path, and the system states that a kit adds no numbers. Moving weapon identity into the catalogue therefore adds zero DP decisions while adding 41 card re-keys and 5 tables that need a column. The cheap richness lever is already built and is one table wide: the kit's four lines, 12 priced options, 5 of them Armament, where the interesting cases are the two-tag option that pairs a one-handed weapon with a shield and the point-cost asymmetry between a ranged weapon and two-handed weapon. That is a single 13-row table carrying a real trade-off, against a 17-row catalogue duplicated at 2 locations that carries none. Deepening t-01 by the kit route is one table edit plus one glossary entry. Deepening it by the catalogue route is 3 lookups, 5 tables and 41 card re-keys, on a reprint that has already drifted in 14 of its 17 rows, so the same argument is stronger by roughly an order of magnitude in edit surface.",
+ "confidence": 0.68,
+ "evidence": [
+  {
+   "claim": "Development is 32 DP by level 10, spent on cards and Discipline ranks, so the weapon catalogue is outside the development economy entirely.",
+   "quote_or_excerpt": "Total DP by level 10: 32. Total Discipline ranks gained: 3 (levels 3, 6 and 9). Total attribute increases: 2.",
+   "source": "chapters/18-advancement.qmd:63"
+  },
+  {
+   "claim": "Kits and weapons grant permissions, not numbers, so no weapon-level quantity exists for development to buy.",
+   "quote_or_excerpt": "15:23  A kit adds no number except the DR its covering buys. It grants no HP, no damage, and no bonus to any roll. What a kit grants is permission.\n21:75  A kit adds no numbers to your sheet. It grants permissions, the fiction of what you brought, and points left over for packs.",
+   "source": "chapters/15-equipment.qmd:23 and 21-glossary.qmd:75"
+  },
+  {
+   "claim": "The kit is a 13-row table with 12 priced options and a real tension between cost and capability, which is the cheapest available source of development richness.",
+   "quote_or_excerpt": "table.header([Line], [Options], [Points],)\n    [*Armament*], [Unarmed], [0],   [], [One-handed weapon], [1],   [], [Ranged weapon], [1],   [], [One-handed weapon and shield], [2],   [], [Two-handed weapon], [2],\n    [*Covering*], [None], [0],   [], [Light armour], [1],   [], [Medium armour], [2],   [], [Heavy armour], [3],\n    [*Focus*], [None], [0],   [], [Holy, Arcane or Primal focus], [3],\n    [*Calling*], [Any one vocation], [1],",
+   "source": "chapters/15-equipment.qmd:32-45"
+  },
+  {
+   "claim": "The book holds 141 tables and 184 card blocks, so card and table surface is the scarce resource a richness proposal spends.",
+   "quote_or_excerpt": "$ grep -o '#table(' chapters/*.qmd | wc -l  -> 141\n$ grep -c 'kind: table' chapters/*.qmd | awk -F: '{s+=$2} END {print s}'  -> 141\npython3 parse over chapters/*.qmd, cards = '=== ' heading with '*Disciplines:*' within 3 lines:\n  total card blocks = 184  (09-talents-abilities:72  11-arcane-spells:65  12-divine-spells:40  17-magic-items:7)\n  gated on a weapon family = 31\n  family hit counts (a card may name two) = Blades 11, Heavy Weapon 6, Archery 5, Polearms 4, Unarmed 4, Axes 2 = 32\n  card blocks naming a specific weapon anywhere in *Disciplines:* = 1 of 184 (17-magic-items.qmd: 'Thunder Maul')",
+   "source": "chapters/*.qmd - table and card census"
+  },
+  {
+   "claim": "Catalogue-side richness is paid for twice, because the catalogue exists in two places that already disagree.",
+   "quote_or_excerpt": "17 rows in each copy, same order, same 4 columns; header differs ([Disciplines Required] vs [Disciplines]); 14 of 17 Range cells differ ([] vs [Melee], and [20/60 ft (thrown)] vs [20/60 ft]); 22:372/377/381/385/388 add blank separator rows; column widths differ (17.02/44.68/23.40/14.90 vs 19.23/30.77/30.77/19.23).",
+   "source": "chapters/22-reference-sheets.qmd:367-394 and chapters/15-equipment.qmd:168-193"
+  }
+ ],
+ "id": "f-018",
+ "role": "layout-expert",
+ "round": 1,
+ "stance": "support",
+ "topic": "t-01"
+}

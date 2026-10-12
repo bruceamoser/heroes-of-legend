@@ -1,0 +1,41 @@
+{
+ "argument": "Where weapon identity must live: in substitution and permission, never in addition. I attacked the additive channel and broke every version of it I tested beyond +1. Worked numbers on the printed spine (the flat bands read 4, 6 and 8 at Novice; 5, 8 and 11 at Adept; 7, 10 and 14 at Master, per 08:205-217; the melee/attribute-scaled spine is budget minus 3 plus attribute, and the attribute range is -2 to +2 per 03:38): a gear-sourced +1 leaves the Novice band at 5/7/9 - three distinct tiers, still under Adept's Strong of 11 - so +1 is survivable; +2 turns the Adept band 5/8/11 into 7/10/13, which is the Master band 7/10/14 delivered a tier early; +3 inverts the ladder (Adept 8/11/14 >= Master 7/10/14). And the scaled spine has exactly one point of headroom (-3 plus a maximum +2 attribute = budget - 1), so any gear number spends the reserve the spine keeps for attributes. The asymmetry that kills the additive design outright: kits are re-specified free at every town (15:129-133) while card values are bought with DP, so an additive weapon number is strictly cheaper than the card number it competes with - it does not dodge law 3 (card gates ARE level gates), it violates it. By contrast I could not break the substitution channel: Finesse changes the source of a term (Agility for Brawn) without changing its size, and the book's own worked example stays inside the printed spine (13:292: off-hand tier drop 2 -> 1, +Agility 2 = 3). So the mechanical content of a weapon should be what it substitutes and what it permits - Light permits the off-hand, Reach extends to 10 ft, Thrown to 20/60 ft, Two-Handed costs 2 slots, a focus/Escutcheon-class tag gates the cards - with the Damage column left untouched. Second, weaker result from the same attack: the DR invariant is not actually load-bearing as a veto, because the book already breaches it in print - the shipped ceiling is '3 at Novice, 4 at Adept, 6 at Master' (16:25, repeated at 20:659), yet ch06:154 prints the Novice example hero Kael with 'heavier steel (DR 5)' and ch06:91 prints DR 6 against which a Novice band 4/6/8 collapses to 1/1/2, and three creatures ship at DR 6 (20:435, 20:625, 20:637). A rule that its own examples violate cannot be the reason weapons must stay flavour-only.",
+ "confidence": 0.75,
+ "evidence": [
+  {
+   "claim": "The damage spine: flat bands plus a lower attribute-scaled spine that is budget minus 3, plus the explicit no-damage-roll rule.",
+   "quote_or_excerpt": "Flat: Novice 4/6/8, Adept 5/8/11, Master 7/10/14. Attribute-Scaled: Novice 1/2/3 + attribute, Adept 2/5/8 + attribute, Master 4/7/11 + attribute ... There is no damage roll: the outcome tier of your attack IS the damage.",
+   "source": "quarto-book/chapters/08-disciplines.qmd:205-217"
+  },
+  {
+   "claim": "The attribute cap is +2, which is what fixes the scaled spine's total headroom at exactly one point.",
+   "quote_or_excerpt": "Attributes range from -2 to +2. Most ordinary people sit at +0.",
+   "source": "quarto-book/chapters/03-attributes.qmd:38"
+  },
+  {
+   "claim": "Any gear-sourced number would be re-selectable free at every town, unlike a DP-bought card number - this is the asymmetry that makes an additive weapon number strictly superior to the mechanic it competes with.",
+   "quote_or_excerpt": "At a town, the whole kit is re-specified: armor, weapon, focus, and packs together, from what you carry plus whatever the local market offers.",
+   "source": "quarto-book/chapters/15-equipment.qmd:129-133"
+  },
+  {
+   "claim": "The substitution channel is band-safe and the book's own worked example stays inside the printed spine - the hypothesis I tested and could NOT break.",
+   "quote_or_excerpt": "The off-hand weapon must have the *Light* property (Dagger, Shortsword, Handaxe) ... *Example:* Kael wields a shortsword ... He rolls 3d6 and lands a Standard hit. His Basic Melee card deals 2 on Standard, plus Agility +2, for 4. The off-hand attack drops a tier to Weak: the dagger is Finesse, so it adds the same Agility +2, 1 plus 2, for 3 more. Total: 7.",
+   "source": "quarto-book/chapters/13-combat.qmd:290-292"
+  },
+  {
+   "claim": "Worked arithmetic showing the largest additive a gear number may carry and where it breaks.",
+   "quote_or_excerpt": "Adept flat band 5/8/11. Gear +1 -> 6/9/12: three distinct tiers, all still below the Master band 7/10/14, so the Novice/Adept spine survives. Gear +2 -> 7/10/13: numerically the Master band 7/10/14, delivered a whole tier early. Gear +3 -> 8/11/14: equals or exceeds the Master band on every row, so the ladder inverts. Novice 4/6/8 + 2 = 6/8/10: its Standard sits exactly on the Adept boundary and its Strong is one below Adept Strong 11. Scaled-spine headroom: (budget - 3) + max attribute +2 = budget - 1, i.e. exactly one point before the scaled row reaches the printed flat row. Verdict: +1 is the largest additive a gear number may carry; +2 already spends the spine's whole reserve.",
+   "source": "reasoning"
+  },
+  {
+   "claim": "The DR invariant cannot serve as the veto on weapon identity, because the book's own examples and stat blocks breach its ceiling - a one-sided rule that already fails in print.",
+   "quote_or_excerpt": "16:25: 'Your total DR cannot exceed 3 at Novice, 4 at Adept, or 6 at Master.' versus 06:154: 'If Kael had trained the Armor Discipline and worn heavier steel (DR 5), the Knight's Strong damage of 11 would have been cut to 6.' (Kael is the Novice example hero whose DR is 3 at 06:148) and 06:91: 'A knight in plate armor (DR 6) would only take the minimum 1.'",
+   "source": "quarto-book/chapters/06-core-resolution.qmd:91, 148, 154; 16-armor-shields.qmd:25; 20-bestiary.qmd:659"
+  }
+ ],
+ "id": "f-004",
+ "role": "contrarian",
+ "round": 1,
+ "stance": "refute",
+ "topic": "t-03"
+}

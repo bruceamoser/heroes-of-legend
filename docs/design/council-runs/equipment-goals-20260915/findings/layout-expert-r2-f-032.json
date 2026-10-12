@@ -1,0 +1,56 @@
+{
+ "argument": "BLAST RADIUS, DERIVED. Coalition A's full solution touches 6 of 25 chapter files, adds 82 lines and removes 66 (148 changed lines), costs 2 folios (386 to 388), renumbers 82 of the 206 table-of-contents rows, re-keys exactly 1 of 177 cards, removes 0 tables, changes 0 columns and adds 0 lookups. It also splits the weapon table across a page break, which is a cost no folio total shows. Every figure below is measured from a build, not estimated.\n\nMETHOD AND ORACLE. A scratch copy of quarto-book was built with no edits. Its PDF is byte-identical to the shipped book PDF (cmp reports identical, 7,794,331 bytes) and page-text identical (pdftotext -layout page diff: 0 pages differ), so the scratch tree is a valid oracle and the deltas below are derived rather than asserted. A build costs 5.0 s, which is what makes an ablation series affordable. Full A and each component were built and measured separately: core (vocabulary, satisfaction rule, pairs option, permission reconciliation), growth (core plus the kit growth channel), types (core plus damage types), full (all three). All edits live in /home/bmoser/hol-ab-* and /home/bmoser/hol-r2. No file in the book repo was modified.\n\nTOUCH SITES, per file, from a diff of the repo chapters against the staged tree: 15-equipment.qmd +26/-23; 18-advancement.qmd +21/-2; 22-reference-sheets.qmd +20/-26; 21-glossary.qmd +13/-13; 09-talents-abilities.qmd +1/-1; 13-combat.qmd +1/-1. Total 148 changed lines (82 added, 66 removed) across 6 of 25 chapters. Tables removed: 0, so round 1's two removals stand. Columns changed: 0. Lookups added: 0. Cards re-keyed: 1, and that one is not optional. Basic Melee's gate widens from weapon:one-hand to weapon:one-hand or weapon:two-hand, because the Armament line sells a one-handed weapon and shield for 2 of the hero's six kit points (15:39) and a legal kit must not be able to buy itself out of the floor attack. Round 1's \"0 of 177 cards re-keyed\" therefore survives only if that defect is left open, and the card denominator is sound: the three card chapters carry 177 card field lines (72 in talents and abilities, 65 in arcane magic, 40 in divine magic). A naive scan across every chapter returns 178 because the GM chapter prints one format legend line (19:549), which is a template and not a card. That legend is also the only reason a different parse produced 188 earlier in this run; 177 is the card corpus and I stand behind it.\n\nPAGE COST, ATTRIBUTED BY ABLATION (base 386 folios, 7,794,331 bytes): core 387; growth 388; types 387 net, 7,811,409 bytes; full 388, 7,817,415 bytes. Damage types are the instructive case: they cost no net folio yet they relocate a break, so \"0 pages moved\" would have been false for full A even though the total rose only by the growth channel. A first ablation run returned a non-monotonic set (full 387, growth 388) because of a mode-parsing bug in my staging script, where the full spec applied neither optional component; the series above is the corrected one, each variant rebuilt from a fresh tree and re-measured. I report the raw corrected counts rather than a smoothed story, which is why growth and full are equal at 388 while core and types are equal at 387.\n\nPAGE BREAKS THAT MOVE. Three anchors, checked by reading the pages: Armor is what you wear, folio 252 to 253; Total DP by level 10, folio 294 to 295; the reference-sheet restatement of the weapon rule, folio 376 to 378. The Kits block does not move: the tag vocabulary sentence, the four-line kit structure and the Armament table row all stay on folio 246, and the table of contents agrees (17.1 Kits reads 246 in both builds), because the equipment chapter absorbs its added folio downstream of them. The one structural change is the weapon table itself. The control keeps its header and all 16 weapon rows whole on folio 250. Full A puts the header and 11 rows on 250 and repeats the header with the remaining 5 rows on 251, so a table that used to be readable as one block is now split by a page turn, and the damage-type column that full A adds is what pushed it over.\n\nTOC. The table of contents parses to 206 rows: 177 numbered section rows, 25 chapter rows, 4 front-matter running-head rows. 82 rows renumber, all of them later, and they are exactly the rows whose base folio is 249 or greater: 20 shift by one folio (base 249 to 294) and 62 shift by two (base 295 and up, where the Kit Growth section lands). Method note, because this is exactly the sort of number that gets laundered: a looser measure that compared folio columns without first aligning titles reported 3 phantom rows at base folios 9 to 11, the HEROES OF LEGEND running heads, which carry no section at all. Aligned row by row, none of the 4 front-matter rows moves in either build, so 82 of 206 is the figure I stand behind here, and the parity figure in f-028 is 134 rather than the 137 that looser pass produced. Denominated honestly, round 1 claimed 0 of 172 TOC entries renumbered; the numbered row count is 177, so that denominator was five short, and the round 2 figure for the same class of rows is 74 of 177 numbered rows renumbering, the other 8 of the 82 being chapter rows.\n\nSCALE, IN ONE LINE. Solution A is a 2 folio, 6 chapter, 148 line change that renumbers 82 of 206 TOC rows and moves 3 breaks, and its single card re-key is load-bearing rather than cosmetic. The re-keying obligations that full parity with focus would add are a separate and larger bill, costed in f-028.",
+ "confidence": 0.9,
+ "evidence": [
+  {
+   "claim": "The vocabulary the solution extends is eight tags stated on one line; the six property tags the solution adds (weapon:finesse, reach, thrown, light, loading, versatile) appear zero times book-wide before the edit, which is why the tag layer is measured as an insertion rather than a rename.",
+   "quote_or_excerpt": "The tags a card can require are `weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`, `shield`, `focus:arcane`,",
+   "source": "quarto-book/chapters/15-equipment.qmd:25"
+  },
+  {
+   "claim": "The four-line kit structure the growth channel extends; this sentence and the table under it do not change folio, which is why the Kits block stays anchored at 246.",
+   "quote_or_excerpt": "Every kit is built from four lines: Armament, Covering, Focus, and Calling.",
+   "source": "quarto-book/chapters/15-equipment.qmd:29"
+  },
+  {
+   "claim": "The Armament line row that the pairs option is added to. The row is edited in place rather than replaced, which is the mechanical reason the kits block does not move.",
+   "quote_or_excerpt": "One-handed weapon and shield",
+   "source": "quarto-book/chapters/15-equipment.qmd:39"
+  },
+  {
+   "claim": "The weapon table header. Full A adds a damage-type column to this table, which is the change that splits it across folios 250 and 251 with the header repeated; the control keeps the header and all 16 rows on 250.",
+   "quote_or_excerpt": "table.header([Weapon], [Disciplines Required], [Properties], [Range],),",
+   "source": "quarto-book/chapters/15-equipment.qmd:171"
+  },
+  {
+   "claim": "Armour block anchor whose break moves from folio 252 to 253, confirmed by both page text and the TOC rows 17.3 and 17.4 reading 252 in base and 253 in full A.",
+   "quote_or_excerpt": "Armor is what you wear and what you have been through",
+   "source": "quarto-book/chapters/16-armor-shields.qmd:13"
+  },
+  {
+   "claim": "The advancement accounting the Kit Growth section is inserted after; this line moves from folio 294 to 295 and the new section lands directly beneath it.",
+   "quote_or_excerpt": "Total DP by level 10: 32.",
+   "source": "quarto-book/chapters/18-advancement.qmd:63"
+  },
+  {
+   "claim": "The reference-sheet restatement of the no-magnitude rule; the damage-type edits move it from folio 376 to 378, which is how full A moves breaks even though its net folio cost came from the growth channel.",
+   "quote_or_excerpt": "*The weapon never changes your damage.",
+   "source": "quarto-book/chapters/22-reference-sheets.qmd:396"
+  },
+  {
+   "claim": "The one card whose gate changes in full A: weapon:one-hand widens to weapon:one-hand or weapon:two-hand, because a legal kit can otherwise buy a two-handed weapon and lose the floor attack. This is the 1 in \"1 of 177 re-keyed\".",
+   "quote_or_excerpt": "*Disciplines:* None \u00b7 *Kit:* weapon:one-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:174"
+  },
+  {
+   "claim": "Base 386 folios and 7,794,331 bytes; core 387 and 7,802,300; growth 388 and 7,808,310; types 387 and 7,811,409; full 388 and 7,817,415; parity 389 and 7,826,065. The weapon table text confirms the split: \"Disciplines Required\" appears once on folio 250 in base, and on folios 250 and 251 in full A.",
+   "quote_or_excerpt": "386 pages base | 388 pages full A | 389 pages parity | weapon table split across 250 and 251 in full A only",
+   "source": "build measurement: /home/bmoser/hol-ab-{core,growth,types,full,parity}/quarto-book/_output/Heroes-of-Legend.pdf built with the book build script and measured with pdfinfo and pdftotext -layout page text against the committed oracle"
+  }
+ ],
+ "id": "f-032",
+ "role": "layout-expert",
+ "round": 2,
+ "stance": "support",
+ "topic": "t-04"
+}

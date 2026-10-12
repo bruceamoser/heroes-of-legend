@@ -18,7 +18,7 @@ Divine magic doesn't throw fireballs. It doesn't dissolve armor or dominate mind
 
 This chapter contains every divine and primal spell in the game. Shepherds use them. Some Leaders use them. Anyone who's ever knelt before something greater and felt it kneel back.
 
-_See @sec-chapter-magic-system for how spellcasting works._
+_See @sec-chapter-magic-system It explains how spellcasting works._
 
 #pagebreak()
 
@@ -29,7 +29,7 @@ Divine cantrips are minor blessings, small miracles that cost nothing and ask no
 They won't turn the tide of battle. They'll steady a shaky hand, light a dark corridor, and remind the dying that someone is still fighting for them. Sometimes that's enough.
 
 === Guidance (Cantrip)
-*Disciplines:* None · *Action:* Action · *Range:* Touch (Concentration, up to 1 minute) · *Keywords:* Boon
+*Disciplines:* None · *Cast:* Action · *Range:* Touch · *Duration:* Concentration, up to 1 minute · *Keywords:* Boon
 
 *Weak:* The target gains a Boon on the next skill check they make within 1 minute.
 
@@ -38,7 +38,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 *Strong:* Boon on the next skill check. If that check succeeds, the target also gains a Boon on their next check within the same minute, the blessing compounds.
 
 === Light (Cantrip)
-*Disciplines:* None · *Action:* Action · *Range:* Touch (1 hour) · *Keywords:* Bane
+*Disciplines:* None · *Cast:* Action · *Range:* Touch (1 hour) · *Keywords:* Bane
 
 *Weak:* Dim light in a 10-foot radius. Duration 10 minutes.
 
@@ -47,7 +47,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 *Strong:* As Standard, but undead and fiends in the bright light have Bane on attacks, the radiance burns them with its mere presence.
 
 === Gain Resistance (Cantrip)
-*Disciplines:* None · *Action:* Action · *Range:* Touch (Concentration, up to 1 minute) · *Keywords:* Resistance
+*Disciplines:* None · *Cast:* Action · *Range:* Touch · *Duration:* Concentration, up to 1 minute · *Keywords:* Resistance
 
 *Weak:* Boon on the target's next Fortitude check within 1 minute.
 
@@ -56,7 +56,7 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 *Strong:* Boon on the next Fortitude check, and the target has resistance to poison, disease, and necrotic damage for the duration. The first such damage they take is reduced by 3 further.
 
 === Virtue (Cantrip)
-*Disciplines:* None · *Action:* Action · *Range:* Touch (1 minute) · *Keywords:* None
+*Disciplines:* None · *Cast:* Action · *Range:* Touch · *Duration:* 1 minute · *Keywords:* None
 
 *Weak:* The target gains 2 temporary HP for 1 minute.
 
@@ -65,20 +65,20 @@ They won't turn the tide of battle. They'll steady a shaky hand, light a dark co
 *Strong:* 4 temporary HP for 1 minute. Attacker takes 2 radiant on contact. The target also feels a surge of confidence, and cannot be Frightened for the duration.
 
 === Thaumaturgy (Cantrip)
-*Disciplines:* None · *Action:* Action · *Range:* 30 ft (Up to 1 minute) · *Keywords:* Boon
+*Disciplines:* None · *Cast:* Action · *Range:* 30 ft · *Duration:* Up to 1 minute · *Keywords:* Boon
 
 *Weak:* One minor effect. It's obviously supernatural but not overwhelming.
 
 *Standard:* Three simultaneous effects. Your presence is unmistakably divine. Bystanders who aren't actively hostile are awed, social checks against them have Boon.
 
-*Strong:* Your display is terrifying or awe-inspiring (your choice). Hostile creatures of Novice tier or lower must make a Reason check or flee for 1 round. The ground actually shakes. The fire actually roars.
+*Strong:* Your display is terrifying or awe-inspiring (your choice). One hostile creature of Novice tier or lower that can see or hear you flees for 1 round. The ground actually shakes. The fire actually roars.
 
 == Primal Cantrips
 
 Primal cantrips are the small tricks of the wild, calling and listening rather than commanding. They require no Disciplines and cost nothing, and every primal caster knows them.
 
 === Whistlesummon (Cantrip)
-*Disciplines:* None · *Action:* Action · *Range:* 60 ft · *Keywords:* Beast
+*Disciplines:* None · *Cast:* Action · *Range:* 60 ft · *Keywords:* Beast
 
 *Weak:* A small natural animal of the area comes to your call.
 
@@ -88,65 +88,85 @@ Primal cantrips are the small tricks of the wild, calling and listening rather t
 
 == Life Spells
 
-_See @sec-chapter-magic-system for how spellcasting works._
+_See @sec-chapter-magic-system It explains how spellcasting works._
 
-=== Mending Touch (Divine Spell)
-*Disciplines:* 1 Life · *Kit:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Bane
+Life magic reaches a wound two ways: the divine hand closes it now and at a distance, and the primal hand closes it slowly, from what it gathered and brewed before the fight began.
 
-*Weak:* Restore 2 HP.
+=== Mending Touch (Novice Divine Spell)
+*Disciplines:* 1 Life · *Requires:* focus:holy · *Cast:* Action · *Range:* Touch · *Keywords:* Bane
 
-*Standard:* Restore 4 HP.
+*Weak:* The target's HP rises to half its maximum.
 
-*Strong:* Restore 6 HP, remove one Bane from the target, and the healed target gains a Boon on their next check.
+*Standard:* The target's HP rises to its maximum.
 
-=== Restoration (Divine Spell)
-*Disciplines:* 2 Life · *Kit:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Condition
+*Strong:* The target's HP rises to its maximum, the target removes one Bane, and the target gains a Boon on their next check.
 
-*Weak:* Restore 6 HP.
+=== Clotting Word (Novice Divine Spell)
+*Disciplines:* 1 Life · *Requires:* focus:holy · *Cast:* Action · *Range:* 30 ft · *Keywords:* Healing
 
-*Standard:* Restore 9 HP.
+*Weak:* The bleeding slows to a seep; the wound deals no damage at the start of the target's next turn.
 
-*Strong:* Restore 12 HP and end all conditions on the target.
+*Standard:* The bleeding stops for the rest of the encounter.
 
-=== Tide of Life (Divine Spell)
-*Disciplines:* 2 Life · *Kit:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Healing
+*Strong:* The bleeding stops for the rest of the encounter, and the wound is bound: it stays stopped.
 
-*Weak:* Restore 6 HP to each ally in range.
+=== Restoration (Adept Divine Spell)
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Cast:* Action · *Range:* 30 ft · *Keywords:* Condition
 
-*Standard:* Restore 9 HP to each ally in range.
+*Weak:* The target's HP rises to half its maximum.
 
-*Strong:* Restore 12 HP to each ally in range.
+*Standard:* The target's HP rises to its maximum.
 
-=== Flesh Renewal (Divine Spell)
-*Disciplines:* 2 Life · *Kit:* focus:holy · *Action:* Action · *Range:* Touch, 3 rounds · *Keywords:* Recurring
+*Strong:* The target's HP rises to its maximum and every condition on the target ends.
 
-*Weak:* Recurring 2 healing per round for 3 rounds (6 total).
+=== Set Bone (Adept Divine Spell)
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Cast:* 15 minutes (a patient who holds still, and a holy focus) · *Range:* Touch · *Keywords:* Healing
 
-*Standard:* Recurring 3 healing per round for 3 rounds (9 total).
+*Weak:* The injury eases its grip. The Bane it imposes lifts, and the target's HP rises to half their maximum.
 
-*Strong:* Recurring 4 healing per round for 3 rounds (12 total).
+*Standard:* The injury is treated. The bone sets and the limb works, or the lung clears and the breath comes full, and the target's HP rises to their maximum.
 
-=== Severance Undone (Divine Spell)
-*Disciplines:* 2 Life · *Kit:* focus:holy · *Action:* Action · *Range:* Touch, 3 rounds · *Keywords:* Recurring
+*Strong:* The injury is treated, and the target's HP rises to their maximum, and the target gains a Boon on their next check.
 
-*Effect:* 7/10/14 healing total over 3 rounds; regrow a limb over a day.
+=== Tide of Life (Master Divine Spell)
+*Disciplines:* 3 Life · *Requires:* focus:holy · *Cast:* Action · *Range:* 30 ft · *Keywords:* Healing
 
-=== Soulmend (Divine Spell)
-*Disciplines:* 2 Life · *Kit:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Wound
+*Weak:* Every ally in range rises to half their maximum HP.
 
-*Weak:* Restore 6 HP.
+*Standard:* Every ally in range rises to their maximum HP.
 
-*Standard:* Restore 9 HP.
+*Strong:* Every ally in range rises to their maximum HP and every condition on them ends.
 
-*Strong:* Restore 12 HP; a target at 0 HP rises to 1 HP without a Wound.
+=== Flesh Renewal (Adept Divine Spell)
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Cast:* Action · *Range:* Touch · *Duration:* 3 rounds · *Keywords:* Recurring
 
-=== Death Relented (Divine Spell)
-*Disciplines:* 2 Life · *Kit:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Wound
+*Weak:* Recurring 2 healing per round for 3 rounds, to a maximum of 5.
 
-*Effect:* Restore 7/10/14 HP; return a creature that died within the last minute to life.
+*Standard:* Recurring 3 healing per round for 3 rounds, to a maximum of 8.
 
-=== Blood Trail (Primal Spell)
-*Disciplines:* 2 Life · *Action:* Action · *Range:* 30 ft · *Keywords:* Divination
+*Strong:* Recurring 4 healing per round for 3 rounds, to a maximum of 11.
+
+=== Severance Undone (Adept Divine Spell)
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Cast:* Action · *Range:* Touch · *Duration:* 3 rounds · *Keywords:* Recurring
+
+*Effect:* 5/8/11 healing total over 3 rounds; regrow a limb over a day.
+
+=== Soulmend (Adept Divine Spell)
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Cast:* Action · *Range:* 60 ft · *Keywords:* Condition
+
+*Weak:* The target's HP rises to half its maximum.
+
+*Standard:* The target's HP rises to its maximum.
+
+*Strong:* The target's HP rises to its maximum and one condition on the target ends.
+
+=== Death Relented (Adept Divine Spell)
+*Disciplines:* 2 Life · *Requires:* focus:holy · *Cast:* Action · *Range:* Touch · *Keywords:* Healing
+
+*Effect:* Return a creature that died within the last minute to life at half its maximum HP.
+
+=== Blood Trail (Adept Primal Spell)
+*Disciplines:* 2 Life · *Requires:* focus:primal · *Cast:* Action · *Range:* 30 ft · *Keywords:* Divination
 
 *Weak:* Blood spilled within the last day glows faintly for your eyes alone.
 
@@ -154,37 +174,98 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* As standard, and the trail of that blood lights the path its owner took, up to the next running water.
 
+=== Bloodstop (Novice Primal Spell)
+*Disciplines:* 1 Life · *Requires:* focus:primal · *Cast:* Action · *Range:* Touch · *Keywords:* Healing
+
+*Weak:* The bleeding slows to a seep; the wound deals no damage at the start of the target's next turn.
+
+*Standard:* The bleeding stops for the rest of the encounter.
+
+*Strong:* The bleeding stops for the rest of the encounter, and the target cannot bleed again this encounter.
+
+=== Bitterroot (Novice Primal Spell)
+*Disciplines:* 1 Life · *Requires:* focus:primal · *Cast:* Action · *Range:* Touch · *Duration:* 3 rounds · *Keywords:* Recurring
+
+*Weak:* Recurring 2 healing per round for 3 rounds, to a maximum of 4.
+
+*Standard:* Recurring 3 healing per round for 3 rounds, to a maximum of 6.
+
+*Strong:* Recurring 4 healing per round for 3 rounds, to a maximum of 8.
+
+=== Bone Knit (Adept Primal Spell)
+*Disciplines:* 2 Life · *Requires:* focus:primal · *Cast:* 1 hour (foraged ingredients, and a patient at rest) · *Range:* Touch · *Keywords:* Healing
+
+*Weak:* The injury eases its grip. The Bane it imposes lifts, and the target's HP rises to half their maximum.
+
+*Standard:* The injury is treated. The bone sets and the limb works, or the lung clears and the breath comes full, and the target's HP rises to their maximum.
+
+*Strong:* The injury is treated, and the target's HP rises to their maximum, and the target gains a Boon on their next check.
+
+=== Wild Renewal (Master Primal Spell)
+*Disciplines:* 3 Life · *Requires:* focus:primal · *Cast:* Action · *Range:* 15 ft · *Duration:* 3 rounds · *Keywords:* Recurring
+
+*Weak:* Every ally in range regains 3 HP at the start of each of their turns for 3 rounds, to a maximum of 7 each.
+
+*Standard:* Every ally in range regains 4 HP at the start of each of their turns for 3 rounds, to a maximum of 10 each.
+
+*Strong:* Every ally in range regains 5 HP at the start of each of their turns for 3 rounds, to a maximum of 14 each.
+
 == Protection Spells
 
-=== Ward of Faith (Divine Spell)
-*Disciplines:* 1 Protection · *Kit:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* DR
+The three skin wards below are the ladder: Bark Skin, Stone Skin, and Iron Skin, DR for a caster who has none, +1 at Novice, +2 at Adept, +3 at Master. Each ward is a concentration effect, held with your Maneuver every turn, and casting it costs your Maneuver too.
 
-*Weak:* The target gains +1 DR for 1 turn.
+=== Bark Skin (Novice Divine Spell)
+*Disciplines:* 1 Protection · *Requires:* focus:holy · *Cast:* Maneuver · *Range:* Self · *Duration:* Concentration, up to 1 round · *Keywords:* DR
 
-*Standard:* The target gains +2 DR for 2 turns.
+*Effect:* +1 DR.
 
-*Strong:* The target gains +3 DR for 3 turns; an attacker that hits the target takes 2 radiant damage.
+This DR does not stack with any other source of DR.
 
-=== Sanctuary (Divine Spell)
-*Disciplines:* 1 Protection · *Kit:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Bane
+The primal twin of the ladder wears an animal's hide, scale, and shell: Beast Hide, Scaled Hide, and Carapace, the same values and the same upkeep.
 
-*Weak:* Attacks against the target have Bane for 1 turn.
+=== Beast Hide (Novice Primal Spell)
+*Disciplines:* 1 Protection · *Requires:* focus:primal · *Cast:* Maneuver · *Range:* Self · *Duration:* Concentration, up to 1 round · *Keywords:* DR
 
-*Standard:* Attacks against the target have Bane for 2 turns.
+*Effect:* +1 DR.
 
-*Strong:* Attacks against the target have Bane for 3 turns; the target cannot be targeted for 1 round, and the ward also covers one ally within 10 ft.
+This DR does not stack with any other source of DR.
 
-=== Hallowed Ground (Divine Spell)
-*Disciplines:* 2 Protection · *Kit:* focus:holy · *Action:* Action · *Range:* 20-ft radius · *Keywords:* DR, Burning
+=== Ward of Faith (Novice Divine Spell)
+*Disciplines:* 1 Protection · *Requires:* focus:holy · *Cast:* Action · *Range:* Touch · *Keywords:* Boon
 
-*Weak:* Allies inside gain +1 DR.
+*Weak:* A Boon on the target's Defense Roll, until the start of your next turn.
 
-*Standard:* Allies inside gain +2 DR.
+*Standard:* A Boon on the target's Defense Roll for 1 round.
 
-*Strong:* Allies inside gain +3 DR; undead inside take Burning 3 radiant damage.
+*Strong:* As standard, and one ally of the target within 10 ft also gains a Boon on their Defense Roll.
 
-=== Sacred Barrier (Divine Spell)
-*Disciplines:* 2 Protection · *Kit:* focus:holy · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Bane
+The ward is a Boon on the roll, not a shield: it does not enable Shield Block, Parry, or any other ability that requires a shield.
+
+=== Sanctuary (Novice Divine Spell)
+*Disciplines:* 1 Protection · *Requires:* focus:holy · *Cast:* Action · *Range:* 30 ft · *Keywords:* Bane
+
+*Weak:* Attacks against the target have Bane for 1 turn (a Boon on the target's Defense roll).
+
+*Standard:* Attacks against the target have Bane for 2 turns (a Boon on the target's Defense roll).
+
+*Strong:* Attacks against the target have Bane for 3 turns (a Boon on the target's Defense roll); the target cannot be targeted for 1 round, and the ward also covers one ally within 10 ft.
+
+=== Stone Skin (Adept Divine Spell)
+*Disciplines:* 2 Protection · *Requires:* focus:holy · *Cast:* Maneuver · *Range:* Self · *Duration:* Concentration, up to 1 round · *Keywords:* DR
+
+*Effect:* +2 DR.
+
+This DR does not stack with any other source of DR.
+
+=== Scaled Hide (Adept Primal Spell)
+*Disciplines:* 2 Protection · *Requires:* focus:primal · *Cast:* Maneuver · *Range:* Self · *Duration:* Concentration, up to 1 round · *Keywords:* DR
+
+*Effect:* +2 DR.
+
+This DR does not stack with any other source of DR.
+
+=== Sacred Barrier (Adept Divine Spell)
+*Disciplines:* 2 Protection · *Requires:* focus:holy · *Cast:* Action · *Range:* 30-ft wall · *Keywords:* Bane
 
 *Weak:* Missile attacks across the barrier have Bane.
 
@@ -192,55 +273,64 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Missile attacks are blocked for 3 rounds; creatures that touch the barrier are pushed 5 ft, and creatures passing through take 5/8/11 radiant damage.
 
+=== Iron Skin (Master Divine Spell)
+*Disciplines:* 3 Protection · *Requires:* focus:holy · *Cast:* Maneuver · *Range:* Self · *Duration:* Concentration, up to 1 round · *Keywords:* DR
+
+*Effect:* +3 DR.
+
+This DR does not stack with any other source of DR.
+
+=== Carapace (Master Primal Spell)
+*Disciplines:* 3 Protection · *Requires:* focus:primal · *Cast:* Maneuver · *Range:* Self · *Duration:* Concentration, up to 1 round · *Keywords:* DR
+
+*Effect:* +3 DR.
+
+This DR does not stack with any other source of DR.
+
+=== Hallowed Ground (Master Divine Spell)
+*Disciplines:* 3 Protection · *Requires:* focus:holy · *Cast:* Action · *Range:* Self · *Area:* 20-ft radius · *Keywords:* DR, Burning
+
+*Weak:* Allies inside gain +1 DR while inside the area and for 1 round after leaving.
+
+*Standard:* Allies inside gain +2 DR while inside the area and for 1 round after leaving.
+
+*Strong:* Allies inside gain +3 DR while inside the area and for 1 round after leaving; undead inside take Burning 3 radiant damage.
+
+This DR does not stack with any other source of DR.
+
+This DR counts against the ceiling with your other sources.
+
 == Religion Spells
 
-=== Holy Strike (Divine Spell)
-*Disciplines:* 1 Religion · *Kit:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Radiant
+=== Holy Strike (Novice Divine Spell)
+*Disciplines:* 1 Religion · *Requires:* focus:holy · *Cast:* Action · *Range:* 30 ft · *Keywords:* Radiant
 
-*Weak:* 2 radiant damage.
+*Weak:* 4 radiant damage.
 
-*Standard:* 4 radiant damage.
+*Standard:* 6 radiant damage.
 
-*Strong:* 6 radiant damage; +1 damage tier against undead.
+*Strong:* 8 radiant damage; +1 damage tier against undead.
 
-=== Righteous Blow (Divine Spell)
-*Disciplines:* 1 Religion · *Kit:* focus:holy · *Action:* Action · *Range:* Touch · *Keywords:* Boon, Bane
+=== Righteous Blow (Novice Divine Spell)
+*Disciplines:* 1 Religion · *Requires:* focus:holy · *Cast:* Action · *Range:* Touch · *Keywords:* Boon, Bane
 
-*Weak:* 2 radiant damage.
+*Weak:* 4 radiant damage.
 
-*Standard:* 4 radiant damage; Boon on your next attack.
+*Standard:* 6 radiant damage; Boon on your next attack.
 
-*Strong:* 6 radiant damage; the target has Bane on its next attack.
+*Strong:* 8 radiant damage; the target has Bane on its next attack.
 
-=== Divine Judgment (Divine Spell)
-*Disciplines:* 2 Religion · *Kit:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Radiant
+=== Radiant Beam (Novice Divine Spell)
+*Disciplines:* 1 Religion · *Requires:* focus:holy · *Cast:* Action · *Range:* 60-ft line · *Keywords:* Radiant
 
-*Weak:* 6 radiant damage.
+*Weak:* 4 radiant damage (Agility or Dodge rank resists).
 
-*Standard:* 9 radiant damage.
+*Standard:* 6 radiant damage.
 
-*Strong:* 12 radiant damage; +1 damage tier against undead and fiends.
+*Strong:* 8 radiant damage; +1 damage tier against undead.
 
-=== Pillar of Light (Divine Spell)
-*Disciplines:* 2 Religion · *Kit:* focus:holy · *Action:* Action · *Range:* 30-ft column · *Keywords:* Radiant
-
-*Weak:* 6 radiant damage (Agility or Dodge rank resists).
-
-*Standard:* 9 radiant damage.
-
-*Strong:* 12 radiant damage; allies in the light regain 3 HP and gain Boon on their next roll, and undead and fiends take double damage from the pillar.
-
-=== Radiant Beam (Divine Spell)
-*Disciplines:* 1 Religion · *Kit:* focus:holy · *Action:* Action · *Range:* 60-ft line · *Keywords:* Radiant
-
-*Weak:* 2 radiant damage (Agility or Dodge rank resists).
-
-*Standard:* 4 radiant damage.
-
-*Strong:* 6 radiant damage; +1 damage tier against undead.
-
-=== Turn Unholy (Divine Spell)
-*Disciplines:* 1 Religion · *Kit:* focus:holy · *Action:* Action · *Range:* 30-ft cone · *Keywords:* Morale check, Bane
+=== Turn Unholy (Novice Divine Spell)
+*Disciplines:* 1 Religion · *Requires:* focus:holy · *Cast:* Action · *Range:* 30-ft cone · *Keywords:* Morale check, Bane
 
 *Weak:* Undead and fiends in the cone must make a Morale check or flee for 1 turn.
 
@@ -248,8 +338,26 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Undead and fiends in the cone must make a Morale check with Bane or flee for 3 turns; undead are destroyed at 0 HP.
 
-=== Banish (Divine Spell)
-*Disciplines:* 2 Religion · *Kit:* focus:holy · *Action:* Action · *Range:* 30 ft · *Keywords:* Extraplanar
+=== Divine Judgment (Adept Divine Spell)
+*Disciplines:* 2 Religion · *Requires:* focus:holy · *Cast:* Action · *Range:* 30 ft · *Keywords:* Radiant
+
+*Weak:* 5 radiant damage.
+
+*Standard:* 8 radiant damage.
+
+*Strong:* 11 radiant damage; +1 damage tier against undead and fiends.
+
+=== Pillar of Light (Adept Divine Spell)
+*Disciplines:* 2 Religion · *Requires:* focus:holy · *Cast:* Action · *Range:* 30-ft column · *Keywords:* Radiant
+
+*Weak:* 5 radiant damage (Agility or Dodge rank resists).
+
+*Standard:* 8 radiant damage.
+
+*Strong:* 11 radiant damage; allies in the light regain 3 HP and gain Boon on their next roll, and undead and fiends take double damage from the pillar.
+
+=== Banish (Adept Divine Spell)
+*Disciplines:* 2 Religion · *Requires:* focus:holy · *Cast:* Action · *Range:* 30 ft · *Keywords:* Extraplanar
 
 *Weak:* An extraplanar target is sent away for 1 turn.
 
@@ -257,8 +365,8 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* An extraplanar target is sent away for 3 turns; it cannot return this scene.
 
-=== Name the Peace (Divine Spell)
-*Disciplines:* 2 Religion · *Action:* Action · *Range:* 30 ft · *Keywords:* Sanctuary
+=== Name the Peace (Adept Divine Spell)
+*Disciplines:* 2 Religion · *Cast:* Action · *Range:* 30 ft · *Keywords:* Sanctuary
 
 *Weak:* You name a space as sanctuary; you alone know the declaration holds, and the first blow struck within it will carry an ill name.
 
@@ -266,8 +374,8 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Every creature that can hear you knows the space holds; any creature that deals damage inside it is Marked by you and Frightened until it leaves, and no creature that heard the naming can believe the offender's denial of it.
 
-=== Forbid the Line (Divine Spell)
-*Disciplines:* 2 Religion · *Action:* Action · *Range:* 60 ft · *Keywords:* Judgment
+=== Forbid the Line (Adept Divine Spell)
+*Disciplines:* 2 Religion · *Cast:* Action · *Range:* 60 ft · *Keywords:* Judgment
 
 *Weak:* You draw a line across the ground and name one creature; that creature feels the line as a wall it has no wish to cross.
 
@@ -275,8 +383,8 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* As standard, and the creature is Marked for as long as the line holds.
 
-=== Pronounce Judgment (Divine Spell)
-*Disciplines:* 3 Religion · *Action:* Action · *Range:* 60 ft · *Keywords:* Judgment
+=== Pronounce Judgment (Master Divine Spell)
+*Disciplines:* 3 Religion · *Cast:* Action · *Range:* 60 ft · *Keywords:* Judgment
 
 *Weak:* You name a deed aloud and ask the world to weigh it against one creature; a guilty creature is Marked, and if it is innocent of that deed you are Stunned in its place.
 
@@ -284,8 +392,8 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* As weak, and a guilty creature is also Restrained where it stands for as long as the judgment holds.
 
-=== Call the Larger (Divine Spell)
-*Disciplines:* 3 Religion · *Action:* Action · *Range:* self · *Keywords:* Divination
+=== Call the Larger (Master Divine Spell)
+*Disciplines:* 3 Religion · *Cast:* Action · *Range:* self · *Keywords:* Divination
 
 *Weak:* You ask a yes-or-no question of something larger than yourself and receive a clear sign that answers it.
 
@@ -293,8 +401,8 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* As standard, and the answer shows you one thing you did not think to ask.
 
-=== Anathema (Divine Spell)
-*Disciplines:* 3 Religion · *Action:* Action · *Range:* 30 ft · *Keywords:* Judgment
+=== Anathema (Master Divine Spell)
+*Disciplines:* 3 Religion · *Cast:* Action · *Range:* 30 ft · *Keywords:* Judgment
 
 *Weak:* You declare a creature outcast before witnesses, and everyone who hears knows the declaration and what it names.
 
@@ -304,8 +412,8 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 == Animal Spells
 
-=== Beast Tongue (Divine Spell)
-*Disciplines:* 1 Animal · *Kit:* focus:primal · *Action:* Action · *Range:* 30 ft · *Keywords:* Boon
+=== Beast Tongue (Novice Primal Spell)
+*Disciplines:* 1 Animal · *Requires:* focus:primal · *Cast:* Action · *Range:* 30 ft · *Keywords:* Boon
 
 *Weak:* One beast obeys a simple command for 1 turn.
 
@@ -313,19 +421,19 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* One beast obeys a simple command for 1 scene; you gain Boon on Animal checks.
 
-== Plant Spells
+== Plants Spells
 
-=== Briar Wall (Divine Spell)
-*Disciplines:* 2 Plants · *Kit:* focus:primal · *Action:* Action · *Range:* 30-ft wall · *Keywords:* Slowed, Restrained
+=== Briar Wall (Adept Primal Spell)
+*Disciplines:* 2 Plants · *Requires:* focus:primal · *Cast:* Action · *Range:* 30-ft wall · *Keywords:* Slowed, Restrained
 
-*Weak:* Creatures passing through take 6 piercing damage.
+*Weak:* Creatures passing through take 5 piercing damage.
 
-*Standard:* Creatures passing through take 9 piercing damage and are Slowed 5.
+*Standard:* Creatures passing through take 8 piercing damage and are Slowed 5.
 
-*Strong:* Creatures passing through take 12 piercing damage and are Restrained.
+*Strong:* Creatures passing through take 11 piercing damage and are Restrained.
 
-=== Raise Cover (Primal Spell)
-*Disciplines:* 2 Plants · *Action:* Action · *Range:* 30 ft · *Keywords:* Terrain
+=== Raise Cover (Adept Primal Spell)
+*Disciplines:* 2 Plants · *Requires:* focus:primal · *Cast:* Action · *Range:* 30 ft · *Keywords:* Terrain
 
 *Weak:* A slab of earth rises to knee height from an empty space; it breaks a low line of sight and can be used as cover.
 
@@ -333,8 +441,8 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* As standard, and the slab stays standing after the spell ends until it is broken down.
 
-=== Rootgrab (Primal Spell)
-*Disciplines:* 2 Plants · *Action:* Action · *Range:* 60 ft · *Keywords:* Growth
+=== Rootgrab (Adept Primal Spell)
+*Disciplines:* 2 Plants · *Requires:* focus:primal · *Cast:* Action · *Range:* 60 ft · *Keywords:* Growth
 
 *Weak:* Roots twist up around one creature's feet; the ground is difficult, and it is at Bane on its next roll to move.
 
@@ -342,8 +450,8 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* Roots seize one creature's feet; it is Restrained until it Escapes (Standard Athletics, once per turn), and its Escapes are at Bane while the roots hold.
 
-=== Ground Refuses (Primal Spell)
-*Disciplines:* 2 Plants · *Action:* Action · *Range:* 60 ft · *Keywords:* Terrain
+=== Ground Refuses (Adept Primal Spell)
+*Disciplines:* 2 Plants · *Requires:* focus:primal · *Cast:* Action · *Range:* 60 ft · *Keywords:* Terrain
 
 *Weak:* The ground under one creature turns to loose dust; it slips and is Prone.
 
@@ -351,8 +459,8 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* As standard, and it stays Prone until it reaches stone, water, or another surface you did not name.
 
-=== Tree Remembers (Primal Spell)
-*Disciplines:* 2 Plants · *Action:* Action · *Range:* touch · *Keywords:* Divination
+=== Tree Remembers (Adept Primal Spell)
+*Disciplines:* 2 Plants · *Requires:* focus:primal · *Cast:* Action · *Range:* Touch · *Keywords:* Divination
 
 *Weak:* You touch a tree and see the last face that passed beneath it.
 
@@ -362,8 +470,8 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 == Earth Spells
 
-=== Ask the Land (Primal Spell)
-*Disciplines:* 2 Earth · *Action:* Action · *Range:* touch · *Keywords:* Divination
+=== Ask the Land (Adept Primal Spell)
+*Disciplines:* 2 Earth · *Requires:* focus:primal · *Cast:* Action · *Range:* Touch · *Keywords:* Divination
 
 *Weak:* You touch bare ground and learn the direction of the nearest settlement, water, or road.
 
@@ -371,8 +479,8 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* As standard, and the ground shows you the last creature's shape clearly enough to name its kind and its gait.
 
-=== Take the Heat (Primal Spell)
-*Disciplines:* 2 Earth · *Action:* Action · *Range:* 30 ft · *Keywords:* Fire
+=== Take the Heat (Adept Primal Spell)
+*Disciplines:* 2 Earth · *Requires:* focus:primal · *Cast:* Action · *Range:* 30 ft · *Keywords:* Fire
 
 *Weak:* A fire within range goes out, and its wood is cold to the touch.
 
@@ -382,8 +490,8 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 == Wind Spells
 
-=== Fog That Answers (Primal Spell)
-*Disciplines:* 2 Wind · *Action:* Action · *Range:* 60 ft · *Keywords:* Weather
+=== Fog That Answers (Adept Primal Spell)
+*Disciplines:* 2 Wind · *Requires:* focus:primal · *Cast:* Action · *Range:* 60 ft · *Keywords:* Weather
 
 *Weak:* You call a fog that fills the area, and you and those you name can see through it.
 
@@ -391,8 +499,8 @@ _See @sec-chapter-magic-system for how spellcasting works._
 
 *Strong:* As standard, and the fog follows you at a walking pace, keeping you at its center, until you let it go.
 
-=== River Rise (Primal Spell)
-*Disciplines:* 3 Wind · *Action:* Action · *Range:* 120 ft · *Keywords:* Water
+=== River Rise (Master Primal Spell)
+*Disciplines:* 3 Wind · *Requires:* focus:primal · *Cast:* Action · *Range:* 120 ft · *Keywords:* Water
 
 *Weak:* A river or stream within range rises over its banks; fording it becomes impossible.
 

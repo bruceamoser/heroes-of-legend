@@ -1,0 +1,39 @@
+{
+ "argument": "Combat strategy is real but it is not where the brief looks for it, and its only magnitude-bearing buff axis is level-inverted. The damage ladder is finite and three rungs tall; effects that move down it are defined at every band and grow in absolute value as the bands spread apart - Shield Block is worth two points at Novice and four at Master, and its Weak floor-clamp is worth three at Novice and six at Master - while effects that move up it run out of ladder at the top. The book's most repeated upgrade keyword is exactly that shape and it is defined against a row that does not exist: a Novice talent states the shift caps at maximum 21, which is the retired Master Strong value and appears nowhere in the live table, and a Master skill grants the row one step above a Master spell. So the upgrade axis is strongest at levels one and two and worth literal nothing for the Master-tier cards that levelling exists to unlock. What actually decides fights at every level is the defensive channel and the action economy: the DR ceiling is the only level-indexed cap in the book, and shields, Disengage and the one Reaction per round are what convert a fixed three-tier ladder into decisions. Weapon choice contributes no magnitude to any of that - measured book-wide, the word Reach never once appears in the combat chapter that resolves attacks - so weapon identity in round 2 must be built out of downward shifts, geometry and permission, and the two Master-row cards in the book already show the shape: both are ungated Weapon Maneuvers.",
+ "confidence": 0.78,
+ "evidence": [
+  {
+   "claim": "Downgrade effects are defined at all three bands and their value rises with level; upgrade effects are bounded by the ladder.",
+   "quote_or_excerpt": "16:70 Strong -> Standard, Standard -> Weak, Weak -> 1 damage. 16:72 Shield Block cannot reduce damage below 1.  Arithmetic on live rows: Strong->Standard = 14-10 = 4 (Master), 11-8 = 3 (Adept), 8-6 = 2 (Novice). Standard->Weak = 10-7 = 3, 8-5 = 3, 6-4 = 2. Weak->1 clamp = 7-1 = 6 (Master), 5-1 = 4 (Adept), 4-1 = 3 (Novice). Every one of these is defined at every band with no row above the ladder needed.",
+   "source": "16-armor-shields"
+  },
+  {
+   "claim": "An upgrade-shaped effect carries a cap of 21, a value that exists only in the retired table, and the live Master row's Strong value is 14.",
+   "quote_or_excerpt": "09:78  *Novice:* On a Critical, the attack deals +1 damage tier (one row up on the damage budget, maximum 21).  -- Live Master row is 7/10/14; the retired Master row was 9/15/21, whose Strong value is 21.",
+   "source": "09-talents-abilities"
+  },
+  {
+   "claim": "A Master ability's payload is to move one row above a Master spell, which is undefined because Master is the top row.",
+   "quote_or_excerpt": "05:544  [*Overchannel*], [Master], [2 Energy, 1 Fire], [When you cast a Master spell], [The spell deals +1 damage tier (use the row one step above on the damage budget).]",
+   "source": "05-classes"
+  },
+  {
+   "claim": "Reach has no consumer rule in the chapter that resolves attacks; the term's entire live footprint is outside combat resolution.",
+   "quote_or_excerpt": "Book-wide term count for 'Reach' across all 30 chapters: 15-equipment 3, 20-bestiary 3, 21-glossary 1, 22-reference-sheets 2, 13-combat 0. The property is printed in the equipment chapter and never referenced by the chapter that resolves attacks, so its effect on the threat envelope is UNTESTED as a rule, not established.",
+   "source": "reasoning"
+  },
+  {
+   "claim": "The action economy is where the tactical decisions actually live, and it is fixed at all levels.",
+   "quote_or_excerpt": "13:41  [*Reaction*], [1/round], [Opportunity attack, shield block, triggered abilities]. 13:64  [*Disengage*], [Move 5 ft without provoking opportunity attacks.]",
+   "source": "13-combat"
+  }
+ ],
+ "id": "f-021",
+ "rebutting": [
+  "f-301"
+ ],
+ "role": "game-architect",
+ "round": 1,
+ "stance": "refute",
+ "topic": "t-02"
+}

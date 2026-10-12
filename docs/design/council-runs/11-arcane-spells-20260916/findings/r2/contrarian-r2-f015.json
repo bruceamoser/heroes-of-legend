@@ -1,0 +1,27 @@
+{
+  "id": "contrarian-r2-f015",
+  "round": 2,
+  "role": "contrarian",
+  "topic": "t-03",
+  "stance": "support",
+  "argument": "The filed defect was a duration no reader could resolve, and the merge removes the unresolvable half: the cantrip's range slot now states a duration drawn from the shared vocabulary, so the card no longer promises a state that only a named spell could end, and no occurrence of the disputed word survives anywhere in the section. What the filing called the second row of its argument, the absence of any book-level definition for coming undone by magic, is untouched by this merge and cannot be fixed inside this chapter, because the countering rules belong to their own chapters; I record it as a carry-over rather than a blocker here. Class: MECHANICAL, closed for this chapter; one cross-chapter item outstanding.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "The cantrip's range slot now prints a duration from the shared vocabulary, and the disputed phrase that had no definition appears zero times in the merged section.",
+      "quote_or_excerpt": "*Range:* Touch (Permanent)"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Count check between the pre-fix snapshot and the merged file: one occurrence of the disputed word before, none after, while the rest of the card is byte-identical.",
+      "quote_or_excerpt": "dispelled: 1 pre-fix, 0 merged"
+    },
+    {
+      "source": "reasoning",
+      "claim": "The book-level gap the filing raised as its second row is owned by the countering and glossary chapters, not by this section's text, so it is carried rather than filed again.",
+      "quote_or_excerpt": "second row is a book-level item, not this chapter's"
+    }
+  ],
+  "confidence": 0.72,
+  "rebutting": ["f-015"]
+}

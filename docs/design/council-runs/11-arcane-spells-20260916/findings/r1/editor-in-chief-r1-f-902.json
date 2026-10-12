@@ -1,0 +1,37 @@
+{
+  "id": "f-902",
+  "round": 1,
+  "role": "editor-in-chief",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "The list can only be browsed by its nine section headings, and that axis loses a card. Twenty-one of the fifty-three leveled cards sit under the single Energy heading (11-arcane-spells:345), and three cards that demand Mind ranks are filed inside that same section: Ventriloquy (11:483), Not Yet (11:521) and The Room You Remember (11:530). The last one breaks the chapter's own filing habit. Its header leads with the Mind key and puts Energy second (11:530), while the two other mixed-key cards both lead with Energy and sit under Energy (11:483, 11:521) - yet it stays under Energy too. So a buyer browsing the Mind block (11:538, eleven cards) never meets a Master card they qualify for, and nothing near 11:530 tells them why it is filed elsewhere. The chapter holds no second route to the same information: its headings are nine sections and sixty-eight cards, with no table, index or cross-list to fall back on, so a reader who navigates by Discipline is simply short a spell. Smallest fix: move that one card under the Mind block, after 11:630, or state the filing rule and add a one-line Discipline index at 11:19.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "The Room You Remember prints its Mind requirement first and its Energy requirement second, yet it is filed inside Energy Spells, immediately before the Mind Spells heading at 11:538.",
+      "quote_or_excerpt": "*Disciplines:* 2 Mind + 1 Energy · *Action:* Action (ritual, 1 minute)"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The chapter's two other mixed-key cards both print Energy first and are filed under Energy, which is the habit the Master card breaks (11:483, 11:521).",
+      "quote_or_excerpt": "*Disciplines:* 2 Energy + 1 Mind · *Action:* Reaction"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The Energy section heading at 11:345 opens a run of twenty-one leveled cards with no subdivision inside it, so the three Mind-ranked cards buried there are not signposted.",
+      "quote_or_excerpt": "== Energy Spells"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "The Mind section runs from its heading at 11:538 to 11:637 and holds eleven cards, none of which is the Mind-led Master card described above.",
+      "quote_or_excerpt": "== Mind Spells"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Section census taken over the file: cantrips 15, Fire 4, Water 3, Wind 5, Earth 5, Plants 1, Energy 21, Mind 11, Protection 3; Energy alone therefore carries two fifths of the leveled cards, and a heading-level scan finds only nine section titles and sixty-eight card titles in the whole file, no index or table.",
+      "quote_or_excerpt": "census: 9 section headings, 68 card headings, Energy 21"
+    }
+  ],
+  "confidence": 0.6,
+  "rebutting": []
+}

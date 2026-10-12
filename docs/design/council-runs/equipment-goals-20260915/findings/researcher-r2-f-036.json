@@ -1,0 +1,176 @@
+{
+ "argument": "Dimension 5, property by property, each with the consumer that actually reads it. Round 1 established that the brief's four item list of what a weapon decides was incomplete; the round 2 brief is wrong in the other direction too. It states that rule consumers exist for every property but Versatile. Measured by grep across the 25 chapter files, only three of the seven are read by a rule outside their own definition: Finesse, Light and Two-Handed. Reach, Thrown and Loading are read by nothing, and Versatile is read by nothing but a contradiction. The librarian's f-023 assigns the tag strings; this finding establishes what each tag has to replace, and which two properties cannot earn one.\n\nFINESSE, keep and convert. It is the most read property in the book: five rule sites across four chapters, the Basic Melee card printing the substitution on its tier lines, the Melee Damage callout in the equipment chapter, the Attribute Scaled entry and two prose lines in the disciplines chapter, and the combat chapter's worked example that turns it into a final number. Re-keying implied: none in the tables, because the cells already carry the word Finesse and the tag is that word lowercased. It is the one property whose tag is free.\n\nREACH, convert and author its first consumer. Its only written effect is its own bullet and its glossary copy. No combat line grants the 10 ft attack, and the three reach notations in the bestiary (20:182, 20:503, 20:603) are monster stat block prose, not reads of the hero property. Re-keying implied: zero cells. The whole cost sits on the consumer side, because a tag nothing reads is a rename, not a rule.\n\nTHROWN, convert and re-key one card. Nothing reads the property: the closed vocabulary has no thrown tag, and Basic Thrown is gated weapon:ranged at a 20/60 ft range while each Thrown weapon's actual 20/60 ft is a Range cell. A Longbow therefore satisfies the thrown card and a Dagger's Thrown property buys it nothing. Re-keying implied: Basic Thrown moves from weapon:ranged to weapon:thrown, one line, and the Dagger, Handaxe, Spear and Throwing Dagger become its cast. The side effect is that a bow stops satisfying the thrown card, which is the defect being fixed rather than a cost.\n\nLIGHT, keep and convert. It has the strongest consumer in the book: the two-weapon rule names the property and lists its three weapons, the attack form that the gate protects resolves both weapons in one Action, the worked example reads it, and the mounted charge line excludes the off-hand strike from the charge benefit, so the property already reaches the mounted subsystem. Re-keying implied: zero cells, one kit change, priced in f-026. The rule layer is sound; what is missing is a way to buy the second weapon the rule assumes.\n\nLOADING, cut. The string reload occurs twice in the entire book, on the property's own bullet and its glossary copy; the name Loading occurs four times, two of which are table cells. The Maneuver economy it names is real, but no card, stat block or combat line implements a reload cost, so the property is a promise with no mechanic. Cutting it removes one bullet, one glossary entry and two cells, and the Crossbow keeps a distinct identity without it: it is the only two-handed weapon whose range is 20/60 ft against the Shortbow's 60/120 and the Longbow's 100/200. Nothing is lost, because nothing read it.\n\nTWO-HANDED, keep, already a tag, and finish it. It is the only property with a live tag and it has two consumer classes: three cards gate on weapon:two-hand, and the slot rule prices the grip at 2 slots. Its defect mirrors the Reach problem in reverse: Basic Melee is gated weapon:one-hand, so the Spear, Halberd, Shortbow, Longbow and Crossbow satisfy no basic attack card at all. Re-keying implied: the gate stays as written; what has to be authored is the satisfaction rule that the charter names as A's most concrete defect.\n\nVERSATILE, cut as a property and keep as a slot footnote. No rule reads it. Its one downstream consequence is the slot cost, and the book answers that question two ways: the slot rule says a two-handed weapon takes 2 slots, and the encumbrance example prices a longsword at 1 slot, even though the Longsword is the only Versatile weapon and the property exists to let it be used two-handed. The name also collides with the Human ancestry trait. Cutting it resolves the contradiction with no new column: the Longsword becomes a one-handed weapon that may be used two-handed at 2 slots, which is one sentence, not a subsystem.\n\nThe arithmetic of the trim. Cutting Loading and Versatile reduces A's platform from seven tags to five, and that matters because A's honest cost is its gate count. Across the five live weapon and shield tags the book spends exactly ten gates, a mean of 2.0 per tag, against fifty two for the three focus tags. Five new property tags at the observed mean is about ten new gate sites, which doubles the weapon gate surface while leaving focus parity untouched; seven tags would be about fourteen. Either number is affordable at roughly a quarter of the cheapest focus parity target, and the point is that it is computed from the book's own rate rather than asserted.",
+ "confidence": 0.84,
+ "evidence": [
+  {
+   "claim": "Versatile, the property of the Longsword alone, defines only a two-handed use option and names no rule consumer.",
+   "quote_or_excerpt": "*Versatile*, can be wielded two-handed (Longsword only)",
+   "source": "quarto-book/chapters/15-equipment.qmd:213"
+  },
+  {
+   "claim": "Finesse is defined as an attribute substitution, which is the shape its consumers read.",
+   "quote_or_excerpt": "*Finesse*, use Agility instead of Brawn for attack and damage (Dagger, Shortsword, Throwing Dagger)",
+   "source": "quarto-book/chapters/15-equipment.qmd:214"
+  },
+  {
+   "claim": "Reach is defined as a 10 ft attack envelope. This bullet is the only site in the book that states the effect.",
+   "quote_or_excerpt": "*Reach*, can attack targets 10 ft away (Spear, Halberd)",
+   "source": "quarto-book/chapters/15-equipment.qmd:215"
+  },
+  {
+   "claim": "Thrown is defined as a 20/60 ft throw, the same envelope the Thrown weapons already print as a Range cell.",
+   "quote_or_excerpt": "*Thrown*, can be thrown (range 20/60 ft: Dagger, Handaxe, Spear, Throwing Dagger)",
+   "source": "quarto-book/chapters/15-equipment.qmd:216"
+  },
+  {
+   "claim": "Light is defined as permission to be the off-hand weapon, and unlike Reach and Thrown it has a live consumer.",
+   "quote_or_excerpt": "*Light*, can be used as an off-hand weapon for two-weapon fighting (Dagger, Shortsword, Handaxe)",
+   "source": "quarto-book/chapters/15-equipment.qmd:217"
+  },
+  {
+   "claim": "Loading is defined as a Maneuver cost. This bullet and its glossary copy are the only two places the string reload occurs in the book.",
+   "quote_or_excerpt": "*Loading*, requires a Maneuver to reload between shots (Crossbow only)",
+   "source": "quarto-book/chapters/15-equipment.qmd:218"
+  },
+  {
+   "claim": "Two-Handed is defined as a grip requirement plus a 2 slot cost, and it is the only property that also exists as a card tag.",
+   "quote_or_excerpt": "*Two-Handed*, must be held in both hands and takes 2 slots",
+   "source": "quarto-book/chapters/15-equipment.qmd:219"
+  },
+  {
+   "claim": "Finesse consumer 1: the Basic Melee card prints the substitution on its tier lines, so the card itself changes number depending on the property.",
+   "quote_or_excerpt": "*Standard:* 2 + Brawn damage (Agility with a Finesse weapon).",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:178"
+  },
+  {
+   "claim": "Finesse consumer 2: the Melee Damage callout restates the rule in the equipment chapter.",
+   "quote_or_excerpt": "Finesse weapons use Agility instead",
+   "source": "quarto-book/chapters/15-equipment.qmd:200"
+  },
+  {
+   "claim": "Finesse consumer 3: the disciplines chapter states the Brawn and Agility split for the damage system.",
+   "quote_or_excerpt": "Melee attacks add Brawn, Finesse attacks add Agility;",
+   "source": "quarto-book/chapters/08-disciplines.qmd:236"
+  },
+  {
+   "claim": "Finesse consumer 4: the Attribute-Scaled rule states the substitution and names a class feature that extends it, which is the second-order consumer A has to preserve.",
+   "quote_or_excerpt": "Finesse weapons use Agility instead of Brawn for attack and damage; class features such as the Blade's Swift Blade can extend that substitution to other weapons",
+   "source": "quarto-book/chapters/08-disciplines.qmd:234"
+  },
+  {
+   "claim": "Finesse consumer 5: the opening fiction's worked roll reads the property, so the name is established before any table is opened.",
+   "quote_or_excerpt": "a shortsword is Finesse",
+   "source": "quarto-book/chapters/01-introduction.qmd:154"
+  },
+  {
+   "claim": "Finesse consumer 6: the worked combat example reads the property to produce a final number.",
+   "quote_or_excerpt": "the dagger is Finesse, so it adds the same Agility +2",
+   "source": "quarto-book/chapters/13-combat.qmd:292"
+  },
+  {
+   "claim": "Light consumer 1: the two-weapon rule names the property as a hard requirement, which is a real gate and not prose.",
+   "quote_or_excerpt": "The off-hand weapon must have the *Light* property (Dagger, Shortsword, Handaxe).",
+   "source": "quarto-book/chapters/13-combat.qmd:290"
+  },
+  {
+   "claim": "Light consumer 2: the two-weapon attack form that the Light gate protects, one Action resolving both weapons.",
+   "quote_or_excerpt": "When you wield a weapon in each hand, you may attack with both as a single Action.",
+   "source": "quarto-book/chapters/13-combat.qmd:274"
+  },
+  {
+   "claim": "Light consumer 3: the mounted charge rule excludes the off-hand strike, so the property also reaches the mounted subsystem.",
+   "quote_or_excerpt": "the off-hand strike of a two-weapon fight does not also claim it",
+   "source": "quarto-book/chapters/15-equipment.qmd:378"
+  },
+  {
+   "claim": "Basic Melee carries the one-hand gate. With the two-hand gates on three other cards, this is the floor-card half of the satisfaction defect.",
+   "quote_or_excerpt": "*Disciplines:* None \u00b7 *Kit:* weapon:one-hand \u00b7 *Action:* Action \u00b7 *Range:* Melee \u00b7 *Keywords:* Damage",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:174"
+  },
+  {
+   "claim": "Basic Thrown is gated on weapon:ranged, not on the Thrown property, so a bow satisfies the thrown card and a thrown weapon buys nothing with its own property.",
+   "quote_or_excerpt": "*Disciplines:* None \u00b7 *Kit:* weapon:ranged \u00b7 *Action:* Action \u00b7 *Range:* 20/60 ft \u00b7 *Keywords:* Damage",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:192"
+  },
+  {
+   "claim": "The closed vocabulary is eight tags and contains no property tag; weapon:two-hand is the only tag in the book that is also a weapon property.",
+   "quote_or_excerpt": "`weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`",
+   "source": "quarto-book/chapters/15-equipment.qmd:25"
+  },
+  {
+   "claim": "Two-Handed consumer 1: the Cyclone card gates on weapon:two-hand, the precedent A is generalizing.",
+   "quote_or_excerpt": "*Kit:* weapon:two-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:236"
+  },
+  {
+   "claim": "Two-Handed consumer 2: a second card gates on the same tag.",
+   "quote_or_excerpt": "*Kit:* weapon:two-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:326"
+  },
+  {
+   "claim": "Two-Handed consumer 3: a third card gates on the same tag, which is the book's observed rate of three card consumers per property tag.",
+   "quote_or_excerpt": "*Kit:* weapon:two-hand",
+   "source": "quarto-book/chapters/09-talents-abilities.qmd:335"
+  },
+  {
+   "claim": "Two-Handed's second consumer class: the slot rule prices the grip requirement at 2 slots.",
+   "quote_or_excerpt": "Two-handed weapons take 2 slots.",
+   "source": "quarto-book/chapters/15-equipment.qmd:253"
+  },
+  {
+   "claim": "The encumbrance example prices a longsword at 1 slot, which is the contradiction Versatile carries: the property exists to let that weapon be used two-handed, and the two-handed rule would charge it 2.",
+   "quote_or_excerpt": "A longsword (1 slot)",
+   "source": "quarto-book/chapters/15-equipment.qmd:257"
+  },
+  {
+   "claim": "Reach's glossary copy repeats the definition and adds no consumer, so the property has two statements and no reader.",
+   "quote_or_excerpt": "*Reach:* A weapon property. Can attack targets 10 ft away (Spear, Halberd).",
+   "source": "quarto-book/chapters/21-glossary.qmd:129"
+  },
+  {
+   "claim": "Loading's glossary copy repeats the definition. With the bullet at 15:218 these two lines exhaust the string reload in the whole book.",
+   "quote_or_excerpt": "*Loading:* A weapon property. Requires a Maneuver to reload between shots (Crossbow only).",
+   "source": "quarto-book/chapters/21-glossary.qmd:135"
+  },
+  {
+   "claim": "The glossary has to disambiguate Versatile against the Human ancestry trait, which is the collision a bare-name match would hit.",
+   "quote_or_excerpt": "*Versatile:* A weapon property. Can be wielded one- or two-handed (Longsword only). Not the same as the Human ancestry trait named *Versatile*; see *Trait*.",
+   "source": "quarto-book/chapters/21-glossary.qmd:127"
+  },
+  {
+   "claim": "The colliding name is printed in the character creation tables, the chapter where the player is told to record weapon properties.",
+   "quote_or_excerpt": "[*Human*], [Any one], [*Versatile:* +1 DP at Level 0],",
+   "source": "quarto-book/chapters/02-character-creation.qmd:64"
+  },
+  {
+   "claim": "Two-Handed is carried by the Longbow, which the Armament line also prices as a Ranged weapon, the double price f-026 computes.",
+   "quote_or_excerpt": "[Longbow], [1 Archery], [Two-Handed], [100/200 ft],",
+   "source": "quarto-book/chapters/15-equipment.qmd:187"
+  },
+  {
+   "claim": "After Loading is cut the Crossbow is still distinct: it is the only two-handed weapon whose range is 20/60 ft against the Shortbow's 60/120 and the Longbow's 100/200.",
+   "quote_or_excerpt": "[Crossbow], [1 Archery], [Loading, Two-Handed], [20/60 ft],",
+   "source": "quarto-book/chapters/15-equipment.qmd:188"
+  },
+  {
+   "claim": "Consumer census by property. Finesse 6 rule sites in 5 chapters, Light 3 in 2, Two-Handed 2 consumer classes in 2, Reach 0, Thrown 0, Loading 0, Versatile 0. This count falsifies the brief's claim that consumers exist for all but Versatile.",
+   "quote_or_excerpt": "$ grep -rno -E 'Finesse|Reach|Thrown|Light|Loading|Two-Handed|Versatile' *.qmd | wc -l -> 107 hits on 84 distinct lines in 14 files\n$ grep -rc 'reload' *.qmd -> 15-equipment.qmd:1  21-glossary.qmd:1  (the property bullet and its glossary copy, nothing else book-wide)\nFinesse readers: 09:176,178,180 (Basic Melee tiers) | 15:200 | 08:234 | 08:236 | 13:292 | 21:47 | 01:154\nLight readers: 13:274 | 13:290 | 13:292 (worked example) | 15:378\nTwo-Handed readers: 09:236 | 09:326 | 09:335 (weapon:two-hand gates) | 15:253\nReach readers: none. Its three reach notations at 20:182, 20:503, 20:603 are bestiary stat-block prose for monsters, not reads of the hero property.\nThrown readers: none. The vocabulary at 15:25 has no thrown tag and Basic Thrown is gated weapon:ranged at 09:192.\nLoading readers: none. Versatile readers: none.",
+   "source": "reasoning"
+  },
+  {
+   "claim": "A's honest gate cost, computed from the book's own rate. Across the five live weapon and shield tags the book spends exactly 10 gates, a mean of 2.0 per tag, against 52 for the three focus tags. Promoting 5 property tags at the observed mean is about 10 new gate sites; promoting 7 is about 14.",
+   "quote_or_excerpt": "$ grep -rn '*Kit:*' *.qmd | grep -v legend -> 62 real gates\nfocus:arcane 32 | focus:holy 18 | focus:primal 2 = 52 focus gates\nweapon:ranged 3 | weapon:two-hand 3 | weapon:one-hand 2 | weapon:unarmed 1 | shield 1 = 10 weapon/shield gates over 5 tags, mean 2.0\n5 tags x 2.0 = 10 new gate sites; 7 tags x 2.0 = 14. Focus parity needs roughly 42 to 87 by the charter's own measured figures, so the property layer costs about a quarter of the cheapest parity target.",
+   "source": "reasoning"
+  },
+  {
+   "claim": "Cutting Loading and Versatile costs nothing any rule reads, and it removes the string reload from the rule surface entirely, because both occurrences are the property's definition and its glossary copy.",
+   "quote_or_excerpt": "$ grep -rn 'Loading' *.qmd -> 15:188 (cell) | 15:218 (definition) | 21:135 (glossary) | 22:393 (cell) = 4 sites, 0 readers\n$ grep -rn 'reload' *.qmd -> 15:218 | 21:135 = 2 sites, both the definition\nDeleting the property removes 1 bullet, 1 glossary entry and 2 table cells, and changes no rule's behaviour.",
+   "source": "reasoning"
+  }
+ ],
+ "id": "f-036",
+ "role": "researcher",
+ "round": 2,
+ "stance": "support",
+ "topic": "t-03"
+}

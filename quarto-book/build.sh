@@ -32,6 +32,28 @@ echo "  Checking native-Typst structure..."
 python3 "$REPO_ROOT/check-native-typst.py"
 echo ""
 
+# ── Discipline vocabulary gate (issue #563, the collapse series) ──────────────
+# The collapse series edits one vocabulary across twelve chapters, and the
+# failure mode is a partial sweep: three chapters updated, four not. Every mode
+# runs here and prints file:line for each survivor of the old weapon-family
+# vocabulary, so no vocabulary PR can land without the whole sweep it claims.
+# Issue #575 drove the sweep to zero, so this gate is now fatal: any survivor
+# of the old weapon-family vocabulary stops the build here.
+
+echo "  Checking Discipline vocabulary..."
+python3 "$REPO_ROOT/../docs/check-discipline-vocabulary.py"
+echo ""
+
+# ── Requires field gate (issue #586) ──────────────────────────────────────────
+# The card field is `Requires:`, not `Kit:`, and the glossary terms Kit and Kit
+# Point are retired. Unlike the collapse-series sweep above, this mode is fatal:
+# nothing in the book may carry the old field name or either kit term, so any
+# reintroduction stops the build here.
+
+echo "  Checking Requires field..."
+python3 "$REPO_ROOT/../docs/check-discipline-vocabulary.py" --requires
+echo ""
+
 # ── Clean output ──────────────────────────────────────────────────────────────
 
 rm -rf "$OUTPUT_DIR"

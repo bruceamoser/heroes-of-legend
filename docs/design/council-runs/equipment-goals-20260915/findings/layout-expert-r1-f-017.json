@@ -1,0 +1,36 @@
+{
+ "argument": "I refute the assumption that combat strategy needs weapons to carry their own numbers, and I price the two ways of buying that strategy. Weapon choice already produces a different fighter without a stat block: the Disciplines-Required column gates which attack cards a hero can reach, 31 of the 184 card blocks in the book are gated on a weapon family, and the book says out loud that a Greatsword hero is a different person from a Dagger hero rather than a bigger number. Damage already sits on the cards, not on the weapon, because the kit grants permission and the cards carry the numbers. So the strategic axis is the property and discipline axis, which costs zero tables to extend: adding a property is one bullet and one cell in a table that already exists. The per-weapon catalogue costs 5 tables needing a column (2 weapon copies plus 3 armour copies), 3 new lookups and 41 card re-keys, and buys no new decision that the discipline gate does not already make. Where weapon identity is genuinely under-specified today is a cell, not a stat block. The table gives the Longsword the Versatile property, the only weapon with it, the slot rule lives in prose and says two-handed weapons take 2 slots, and the encumbrance example then prices a longsword at 1 slot. The only fix that resolves it is a slot value in the table, which is one column on the two weapon copies, not a damage or accuracy column. Layout cost of the catalogue route is visible in the reference copy: at the same four columns it already runs past a folio boundary, so a fifth column overflows chapter 17 past its hard pagebreak and shifts the 81 TOC entries at folio 251 and up.",
+ "confidence": 0.7,
+ "evidence": [
+  {
+   "claim": "The book treats the Discipline combination as the source of weapon differentiation, explicitly denying the bigger-number framing.",
+   "quote_or_excerpt": "A Longsword needs _2 Blades_. A Greatsword needs _2 Blades + 1 Heavy Weapon_. Your Discipline choices describe the kind of fighter you are, and that description decides which attack ability cards you can reach. A hero with a Greatsword is a different person than a hero with a Dagger, not a bigger number.",
+   "source": "chapters/15-equipment.qmd:206"
+  },
+  {
+   "claim": "31 of 184 card blocks are gated on a weapon family, which is where the strategic differentiation already lives; exactly 1 card block in the book names a specific weapon.",
+   "quote_or_excerpt": "python3 parse over chapters/*.qmd, cards = '=== ' heading with '*Disciplines:*' within 3 lines:\n  total card blocks = 184  (09-talents-abilities:72  11-arcane-spells:65  12-divine-spells:40  17-magic-items:7)\n  gated on a weapon family = 31\n  family hit counts (a card may name two) = Blades 11, Heavy Weapon 6, Archery 5, Polearms 4, Unarmed 4, Axes 2 = 32\n  card blocks naming a specific weapon anywhere in *Disciplines:* = 1 of 184 (17-magic-items.qmd: 'Thunder Maul')",
+   "source": "chapters/*.qmd - card census (counts and command recorded)"
+  },
+  {
+   "claim": "Numbers live on cards and never on weapons or kits, so a weapon stat column would be a second home for a number the system deliberately centralised.",
+   "quote_or_excerpt": "15:23  A kit adds no number except the DR its covering buys. It grants no HP, no damage, and no bonus to any roll. What a kit grants is permission. It says which cards you can use, and it decides whether an attempt is fair or a long shot. If you need to know how hard you hit, look at your cards.\n21:75  *Kit:* ... A kit adds no numbers to your sheet. It grants permissions, the fiction of what you brought, and points left over for packs.",
+   "source": "chapters/15-equipment.qmd:23 and 21-glossary.qmd:75"
+  },
+  {
+   "claim": "The one genuinely under-specified weapon fact is the slot cost of the only Versatile weapon, and it is a table cell that is missing rather than a stat block.",
+   "quote_or_excerpt": "15:213  - *Versatile*, can be wielded two-handed (Longsword only)\n15:253  Two-handed weapons take 2 slots.\n15:257  A hero with Brawn +1 has 15 slots. A longsword (1 slot), a backpack (2 slots), a bedroll (2), a waterskin (1), torches (1), a quiver (1), and a dagger (1) is 9 slots.",
+   "source": "chapters/15-equipment.qmd:213, 253, 257"
+  },
+  {
+   "claim": "Adding a column has a measured page cost: the 4-column weapon copy already divides across two folios, so the ch17 copy would overflow its pagebreak pin and renumber the TOC.",
+   "quote_or_excerpt": "folio 375 = weapon table rows Unarmed through Warhammer; folio 376 continues Maul, Spear, Halberd, Throwing Dagger, Shortbow, Longbow, Crossbow. The same 17 rows fit one folio in chapters/15-equipment.qmd (folio 250) at 4 columns. 81 TOC entries carry a folio of 251 or higher, so one extra folio at or before 251 renumbers all of them.",
+   "source": "chapters/22-reference-sheets.qmd:367-394 rendered in _output/Heroes-of-Legend.pdf"
+  }
+ ],
+ "id": "f-017",
+ "role": "layout-expert",
+ "round": 1,
+ "stance": "refute",
+ "topic": "t-02"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "f-001",
+  "round": 1,
+  "role": "game-architect",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "The named tables are not a second copy of the kit model. They are the only home of two value families the surviving layers cannot carry, so a purge that deletes them removes play rather than clutter, and the chapter as written must change: it needs a destination plan first. (1) Weapon properties. Five of the seven (Finesse, Reach, Thrown, Light, Loading) are unexpressible in the five Armament options and in the five card-level weapon tags; only Two-Handed survives as a kit category plus a tag, and its 2-slot cost is stated separately in the encumbrance rule. Versatile is decorative and can go: one weapon, no number. The five that die are not decoration. Losing Finesse deletes the Agility-for-Brawn substitution on the melee damage additive, so a light blade hero's damage row silently reverts to Brawn; losing Reach deletes the 10-ft melee band; losing Thrown deletes the 20/60-ft band (the improvised-thrown rule gives damage but no range); losing Light deletes the off-hand strike the charge rule already assumes exists; losing Loading deletes the reload Maneuver. Each of these is a fact about how a card resolves, so each belongs on the card's Range and Keywords fields, which the fixed card format already carries, or as priced Armament options at 1 to 2 kit points. No new surface is needed. (2) Armour slots. DR, weight class, donning time and the encumbrance formula survive untouched, because DR is a class number. Slots are not: medium holds both 2 and 3, heavy holds both 3 and 4, so no per-class rule reproduces the column, and the only worked example that consumes it turns on the 2-slot gap between leather and chain mail. Either one slot value per weight class is authored before the rows go, or the Covering line prints its own slot cost. (3) Shields: the requirement is a second, name-based gate (Protection ranks) on an object the kit already sells for 2 points, so it must be resolved with the names, and the Tower Shield's half cover, -5 ft speed and plant-for-cover, plus the Buckler's free hand, need a generic shield variant to live in. (4) Mounts and vehicles are stat blocks with no Discipline column and no permission gate: they are outside this purge's duplicate-gate class and must be preserved as written, together with the mounted-combat and chase rules, which have no other home. (5) The gear table's slot column is load-bearing; its item-level damage numbers (oil 2 fire, alchemist's fire 4 fire, caltrops 1) contradict the law that gear grants no numbers and must move to a card or be cut.",
+  "evidence": [
+    {
+      "source": "15-equipment",
+      "claim": "The kit's Armament line is pure category, and the card layer's whole weapon vocabulary is five tags, none of which names a weapon property. Five of the seven properties therefore have nowhere to be said once the named rows go.",
+      "quote_or_excerpt": "`weapon:unarmed`, `weapon:one-hand`, `weapon:two-hand`, `weapon:ranged`, `shield`"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The seven properties are defined in one prose list that pairs each property with specific items, so the definitions themselves dangle when the item names are deleted; the list states the numeric payload of each (Agility substitution, 10 ft, 20/60 ft, off-hand, one Maneuver, 2 slots).",
+      "quote_or_excerpt": "- *Reach*, can attack targets 10 ft away (Spear, Halberd)"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The named weapon table's Properties and Range columns are the only per-item carriers of those values; the rows also carry the Discipline entry requirement that the kit categories do not.",
+      "quote_or_excerpt": "[Crossbow], [1 Archery], [Loading, Two-Handed], [20/60 ft]"
+    },
+    {
+      "source": "08-disciplines",
+      "claim": "Finesse is load-bearing on the damage economy, not flavour: melee adds an attribute to the attack card's damage row, and Finesse swaps Agility in for Brawn. A category that cannot say finesse changes a hero's printed damage numbers.",
+      "quote_or_excerpt": "Finesse weapons use Agility instead of Brawn for attack and damage"
+    },
+    {
+      "source": "21-glossary",
+      "claim": "The glossary repeats all seven property definitions by naming the items that have them, giving the purge a second copy of the definitions to relocate rather than a single list.",
+      "quote_or_excerpt": "Can be thrown, at a range of 20/60 ft"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Worked count of survivors and casualties. Seven properties minus one expressible in the kit/tag vocabulary (Two-Handed) minus one that grants no number (Versatile, Longsword only) leaves five with no destination: Finesse, Reach, Thrown, Light, Loading. Recommended home for each is the card's Range or Keywords field; the alternative is priced Armament options (Finesse 1, Thrown 1, Reach 2 points).",
+      "quote_or_excerpt": "7 - 1 (Two-Handed, kit option + tag) - 1 (Versatile, decorative) = 5 orphaned properties; of 7, the survivors' canvas is 5 tags and 5 Armament options"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "Armour slot counts are item-level, not class-level: two medium rows differ (2 against 3) and two heavy rows differ (3 against 4), while the class alone fixes DR and donning time. Deleting the rows deletes the only slot source.",
+      "quote_or_excerpt": "[*Chain Shirt*], [Medium], [2], [2]"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "The only worked example that consumes the armour slot column turns on the 2-slot gap between leather and chain mail; with the named armour rows purged, the example's trade-off arithmetic loses its input, and the expected fix is a per-weight-class slot value that still yields leather 2 and chain mail 4.",
+      "quote_or_excerpt": "Chain mail costs two more kit points and two more slots"
+    },
+    {
+      "source": "16-armor-shields",
+      "claim": "Shield requirements are Discipline ranks, which makes a shield a second gate on top of its 2-point kit option; the kit grant already waives the ranks, so the requirement must be resolved with the names rather than left behind.",
+      "quote_or_excerpt": "*Buckler:* 1 Protection Discipline."
+    },
+    {
+      "source": "22-reference-sheets",
+      "claim": "The reference sheet reprints the same named tables as the lookup surface, including shield requirements and half cover, so a purge must edit this copy too or leave a stale index.",
+      "quote_or_excerpt": "[Tower Shield], [2], [Parry, Shield Block; half cover; -5 ft speed]"
+    },
+    {
+      "source": "15-equipment",
+      "claim": "Mounts and vehicles are stat blocks with HP, Speed, carry and crew values and no Discipline requirement column, so they are not gated named content; the mounted-combat and chase rules are their only home and must survive the purge.",
+      "quote_or_excerpt": "A mount is not bought."
+    },
+    {
+      "source": "15-equipment",
+      "claim": "The gear table's item notes carry flat item damage (oil 2 fire, alchemist's fire 4 fire, caltrops 1) and item-granted conditions, which contradict the chapter's own law that a kit grants no damage; the slot column is structural and the damage notes are law-breaking residue that must move to a card.",
+      "quote_or_excerpt": "Thrown as an improvised attack, 4 fire damage on hit"
+    }
+  ],
+  "confidence": 0.74
+}

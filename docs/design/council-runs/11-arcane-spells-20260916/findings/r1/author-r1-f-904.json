@@ -1,0 +1,27 @@
+{
+  "id": "f-904",
+  "round": 1,
+  "role": "author",
+  "topic": "t-02",
+  "stance": "refute",
+  "argument": "The opener at 19 promises two things about the list that follows and neither survives contact with the cards. It says each spell card shows its tier and that the result block maps onto the damage band for that tier; a parse of all sixty-eight cards finds no result line anywhere in the file naming a tier, so the first half holds only at the heading, and thirty-one of the fifty-three spell cards print no damage figure in any of their three results, so for most of the list there is no band to map onto. Still Air at 392 is typical: three results, no figure, and a header tag that names a condition instead. That is not a complaint against numberless cards, which the chapter needs; it is a complaint that the sentence as written promises a shape the list does not have, and a reader who takes it literally will hunt for figures the utility and control cards deliberately lack. The fix is a scope clause rather than a rewrite: key numbers to the band wherever a card deals damage.",
+  "evidence": [
+    {
+      "source": "11-arcane-spells",
+      "claim": "The opening paragraph at 11-arcane-spells:19 promises that every spell card shows its tier and that its result block maps onto the damage band for that tier.",
+      "quote_or_excerpt": "Every spell card prints its tier"
+    },
+    {
+      "source": "reasoning",
+      "claim": "Parse of the file's sixty-eight cards: thirty-one of the fifty-three spell cards carry no damage figure in any of their three result lines, and no result line in the file names a tier (zero hits).",
+      "quote_or_excerpt": "parse: 31/53 spells print no damage figure; 0 tier hits"
+    },
+    {
+      "source": "11-arcane-spells",
+      "claim": "Still Air's three results at 11-arcane-spells:395, 397 and 399 carry no damage figure and no tier, one of the thirty-one the parse flags.",
+      "quote_or_excerpt": "Your next word is swallowed whole"
+    }
+  ],
+  "confidence": 0.62,
+  "rebutting": []
+}
