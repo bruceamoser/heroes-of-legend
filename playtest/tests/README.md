@@ -1,4 +1,9 @@
-# Reproducing the working tests
+# Reproducing the version 0.1 tests
+
+**Historical snapshot:** these scripts and results predate the revised wounds,
+condition decay, and fixed healing rules. See [revision status](../revision-status.md).
+Run at commit `52ff73d` to reproduce the original inputs. Do not refresh result
+hashes against revised prose without migrating and rerunning the experiments.
 
 Python standard library only; run from repository root:
 

@@ -30,32 +30,58 @@ full HP. Resolve Dying explicitly first; do not erase death marks by declaring c
 over. Burning/Freezing/Bleeding may be routinely resolved when a plausible method
 and assistance are available; other conditions retain their printed duration/cure.
 
-Healing spell outcomes: restore half target maximum HP (round up) / full HP / full
-HP plus printed benefit. Default Main Action, repeatable. Potions restore full HP
-with a Maneuver, no healing roll; roll inventory die afterward. Administering to
-another costs giver Maneuver and recipient Reaction unless recipient is at 0 HP.
+## Healing reference updated during wound review
 
-Wounds are physical or mental. Treatment uses the appropriate purchased card,
-cumulative target and time. Each wound may be treated once per day; progress stays
-with the wound, including after changing healer. Completing treatment removes its
-active penalty, never its scar or contribution to later wound rolls.
+**Moser's Law of Conservation of Life Energy:** all healing spells, regardless of
+tradition, cost the caster 1/3/7 HP for Novice/Adept/Master. Pay once per casting,
+regardless of targets, before resolving it. Payment bypasses all resistance and
+must leave the caster above 0 HP. An unaffordable spell cannot be attempted and
+spends no HP. Self-healing is allowed. Default action remains Main; repeatable.
 
-## Provisional compact wound table for manual tests
+Approved next-test fixed healing profiles (individual cards may improve or vary):
 
-The legacy wound table is not imported. This compact replacement needs designer
-review before campaign claims; automated encounter tests model only scars/666
-unless explicitly stated otherwise.
+| Tier | Caster cost | Weak | Standard | Strong |
+|---|---:|---:|---:|---:|
+| Novice | 1 | 3 | 6 | 9 |
+| Adept | 3 | 5 | 10 | 15 |
+| Master | 7 | 8 | 16 | 24 |
 
-| Sorted roll | Kind / wound | Active effect | Treatment target |
-|---|---|---|---:|
-| 111–255 | Physical / bruised limb | 1 Bane on Force rolls | 3 |
-| 256–355 | Mental / shaken confidence | 1 Bane on social attempts under threat | 4 |
-| 356–455 | Physical / strained leg | Speed −1 | 5 |
-| 456–555 | Mental / recurring panic | 1 Bane on Reason defense rolls | 6 |
-| 556–665 | Physical / deep injury | 1 Bane on Brawn rolls | 8 |
-| 666 | Last Words | Final death as above | — |
+These replace percentage healing. Restore at most the target's missing HP.
+Life/Necrotic resistance reduces Life healing as well as Life damage, with a
+minimum of 1 (never exceeding maximum HP). It never reduces casting costs.
+Higher-tier spells need benefits justifying their greater cost; these are test
+profiles, not mandatory outcomes for every card.
 
-Intervals are numeric over sorted triples; impossible numbers simply never occur.
-Same named wound penalties do not add; each wound still needs its own treatment.
-These relatively mild effects deliberately avoid an untested encounter-wide death
-spiral. They are placeholders, not a complete injury catalog.
+Lesser/Greater/Superior healing potions restore **6/10/16 HP**, no outcome roll,
+using a Maneuver and an inventory roll afterward. Life/Necrotic resistance reduces
+them, minimum 1. No caster HP cost. Supply dice are separate from healing strength.
+Giving a potion costs giver Maneuver and recipient Reaction, except at 0 HP when
+swallowing is instinctive. An unwilling recipient requires an explicit delivery
+ability, not the ordinary giving maneuver.
+
+Creatures explicitly harmed by healing receive the healing result as **Life damage**,
+including potions, with applicable resistance and minimum 1 damage. Ordinary NPCs
+still die at 0 HP; this does not introduce NPC wound or revival rules.
+
+## Wounds and treatment
+
+Use the five reviewed [wound tables](wounds.md), which replace the compact
+placeholder. The type dealing most damage after resistance selects the table;
+the player chooses on a tie. All scars count regardless of table or treatment.
+
+Treatment requires the capability named by the wound. One attempt per wound per
+day contributes Weak/Standard/Strong **1/2/3 progress** toward its Recovery Value.
+Progress stays with the wound, including when the healer changes. Completion removes
+exactly the listed lasting effects, never the scar. Cosmetic-only entries need no
+roll. Permanent losses may require replacement and cannot be regrown by ordinary
+treatment. See the table's explicit remedy.
+
+Conditions and immediate consequences are separate from lasting wound penalties.
+Use [condition decay and removal](conditions.md); ending Bleeding or Burning does
+not automatically heal another penalty on the same wound. Starred conditions do
+not decay. Same named wound penalties do not add; each wound still needs its own
+treatment, and numbered condition contributions follow condition stacking rules.
+
+**Testing boundary:** saved version 0.1 simulations used the former healing model
+and compact scar-only approximation. They do not validate these tables, treatment
+capabilities, healing costs, or condition decay. See [revision status](revision-status.md).

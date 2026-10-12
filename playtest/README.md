@@ -1,6 +1,10 @@
 # Heroes of Legend working playtest
 
-Version 0.1 — October 11, 2026. Plain rules and test material, not book prose.
+Working rules updated October 12, 2026; saved experiments remain version 0.1.
+Plain rules and test material, not book prose.
+
+**Read [revision status](revision-status.md) before using catalog prototypes or
+simulation findings.** The wound and condition rules have advanced beyond those tests.
 
 **Authority:** Bruce's agreed decisions are marked **Agreed**. New catalog entries,
 numbers, timings, and implementation choices are **Provisional**, including every
@@ -14,7 +18,7 @@ this directory is the independent working reference for the redesign.
 2. [Development](development.md): attributes, creation, advancement.
 3. [Ancestry](ancestry.md), [culture/background](culture-background.md), [class](class.md).
 4. [Disciplines](discipline.md), [abilities](abilities.md), [equipment](equipment.md).
-5. [Conditions](conditions.md), [recovery](recovery.md), [crafting](crafting.md).
+5. [Conditions](conditions.md), [recovery](recovery.md), [wound tables](wounds.md), [crafting](crafting.md).
 6. [Creatures and encounter tests](creature.md).
 7. [Test procedure](tests/README.md), [findings](results/findings.md).
 8. [Decision register](decisions.md) and [board test kit](results/board-test-kit.md).
