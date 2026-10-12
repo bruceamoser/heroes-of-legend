@@ -1,5 +1,8 @@
 # Decision register after the autonomous pass
 
+**Historical register from the autonomous pass:** see [revision status](revision-status.md)
+for subsequent designer decisions. Rows below retain the context of the saved tests.
+
 These are review items, not requests blocking the work. Bruce's already agreed
 rules remain recorded in the working files. Numerical results are in
 [findings](results/findings.md).
@@ -15,7 +18,7 @@ rules remain recorded in the working files. Numerical results are in
 | D07 | Needs tactical testing | Test distinct higher-tier signature prototypes before full class balance certification |
 | D08 | Finding for review | Unlimited summoned bodies have value outside the command limit; test placement, duration and blocking while retaining the agreed no-count-cap principle |
 | D09 | Next tactical test | Multiple grapplers with target movement after Force and allied intervention; contact-only results are intentionally adversarial |
-| D10 | Provisional catalog | Compact physical/mental wound table, with explicit treatment targets; active penalties not included in campaign simulations |
+| D10 | Reviewed working tables; tests pending | Five complete damage-source wound tables in [wounds](wounds.md), explicit recovery/remedies, numbered decay and starred persistence; active wound penalties remain untested |
 | D11 | Provisional model | CV uses durability × threat; a body-count pressure correction improves the first holdout test, but special abilities remain unpriced; no final published encounter budgets yet |
 | D12 | Deferred economy | Coins have no denominations; equipment/recipe pricing and resale remain outside the combat test baseline |
 | D13 | Deferred rules detail | NPC healing uses the same outcome table; the test's NPC-side support roll is provisional where no player is a target |
