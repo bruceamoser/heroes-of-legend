@@ -36,7 +36,7 @@ and assistance are available; other conditions retain their printed duration/cur
 tradition, cost the caster 1/3/7 HP for Novice/Adept/Master. Pay once per casting,
 regardless of targets, before resolving it. Payment bypasses all resistance and
 must leave the caster above 0 HP. An unaffordable spell cannot be attempted and
-spends no HP. Self-healing is allowed. Default action remains Main; repeatable.
+spends no HP. A free hand is required. Self-healing is allowed. Default action remains Main; repeatable.
 
 Approved next-test fixed healing profiles (individual cards may improve or vary):
 
@@ -53,7 +53,7 @@ Higher-tier spells need benefits justifying their greater cost; these are test
 profiles, not mandatory outcomes for every card.
 
 Lesser/Greater/Superior healing potions restore **6/10/16 HP**, no outcome roll,
-using a Maneuver and an inventory roll afterward. Life/Necrotic resistance reduces
+using a free hand, a Maneuver, and an inventory roll afterward. Life/Necrotic resistance reduces
 them, minimum 1. No caster HP cost. Supply dice are separate from healing strength.
 Giving a potion costs giver Maneuver and recipient Reaction, except at 0 HP when
 swallowing is instinctive. An unwilling recipient requires an explicit delivery

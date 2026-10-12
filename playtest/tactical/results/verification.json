@@ -1,0 +1,155 @@
+{
+  "status": "passed",
+  "configurations": 97,
+  "encounters": 52691,
+  "source_hashes": 25,
+  "output_hashes": 3,
+  "deterministic_replays": 17,
+  "replayed_scenarios": [
+    {
+      "board": "open",
+      "hand_policy": "ignore",
+      "healing": "none",
+      "potions": false,
+      "group": "hands"
+    },
+    {
+      "board": "door",
+      "hand_policy": "ignore",
+      "healing": "none",
+      "potions": false,
+      "group": "hands"
+    },
+    {
+      "board": "open",
+      "hand_policy": "drop_weapon",
+      "healing": "one",
+      "potions": true,
+      "twohanded": true,
+      "group": "twohanded"
+    },
+    {
+      "board": "door",
+      "hand_policy": "drop_weapon",
+      "healing": "one",
+      "potions": true,
+      "twohanded": true,
+      "group": "twohanded"
+    },
+    {
+      "board": "open",
+      "hand_policy": "drop_shield",
+      "healing": "one",
+      "potions": false,
+      "opportunity": true,
+      "group": "layer",
+      "layer": "opportunity"
+    },
+    {
+      "board": "door",
+      "hand_policy": "drop_shield",
+      "healing": "one",
+      "potions": false,
+      "opportunity": true,
+      "group": "layer",
+      "layer": "opportunity"
+    },
+    {
+      "board": "open",
+      "hand_policy": "drop_shield",
+      "healing": "one",
+      "potions": false,
+      "group": "mapped_baseline"
+    },
+    {
+      "board": "door",
+      "hand_policy": "drop_shield",
+      "healing": "one",
+      "potions": false,
+      "group": "mapped_baseline"
+    },
+    {
+      "board": "rough",
+      "hand_policy": "drop_shield",
+      "healing": "one",
+      "potions": false,
+      "group": "mapped_baseline"
+    },
+    {
+      "board": "open",
+      "hand_policy": "drop_shield",
+      "healing": "one",
+      "potions": false,
+      "signatures": true,
+      "group": "signature_default"
+    },
+    {
+      "board": "open",
+      "hand_policy": "drop_shield",
+      "healing": "one",
+      "potions": false,
+      "signatures": true,
+      "signature": [
+        "Protector",
+        0
+      ],
+      "group": "signature"
+    },
+    {
+      "board": "door",
+      "hand_policy": "drop_shield",
+      "healing": "one",
+      "potions": false,
+      "signatures": true,
+      "group": "signature_default"
+    },
+    {
+      "board": "door",
+      "hand_policy": "drop_shield",
+      "healing": "one",
+      "potions": false,
+      "signatures": true,
+      "signature": [
+        "Protector",
+        0
+      ],
+      "group": "signature"
+    },
+    {
+      "board": "open",
+      "hand_policy": "drop_shield",
+      "healing": "one",
+      "potions": false,
+      "summons": true,
+      "summon_replace": false,
+      "group": "summons"
+    },
+    {
+      "board": "door",
+      "hand_policy": "drop_shield",
+      "healing": "one",
+      "potions": false,
+      "summons": true,
+      "summon_replace": false,
+      "group": "summons"
+    },
+    {
+      "board": "open",
+      "hand_policy": "drop_shield",
+      "healing": "one",
+      "potions": false,
+      "level": 3,
+      "healing_choice": "novice",
+      "group": "healing_choice"
+    },
+    {
+      "board": "door",
+      "hand_policy": "drop_shield",
+      "healing": "one",
+      "potions": false,
+      "level": 3,
+      "healing_choice": "novice",
+      "group": "healing_choice"
+    }
+  ]
+}
