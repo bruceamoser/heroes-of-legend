@@ -1,0 +1,24 @@
+# Strange but Effective
+
+- **ID:** signature-odd-strange-but-effective
+- **Status:** Proposal — fresh design; not approved or balance-tested.
+- **Type:** Signature
+- **Tier / minimum level:** 7
+- **DP:** 8
+- **Requirements to learn:** Class Odd; level 7 only
+- **Action:** Main Action
+- **Attribute:** Guile
+- **Target / range / shape:** As specified in the effect
+- **Duration:** As specified; otherwise immediate
+- **Limits:** Normal action economy; any additional limit is printed above.
+- **Equipment / acquisition:** None.
+
+## Resolution
+
+| Weak | Standard | Strong |
+|---|---|---|
+| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+
+Use Force with Guile instead of Brawn: 1/2/3 progress, grapple reduction or push. You still need a plausible means of exerting force; not remote telekinesis.
+
+[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
