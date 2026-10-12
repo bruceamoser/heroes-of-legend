@@ -30,7 +30,7 @@ if __name__=='__main__':
   rows.append(run(s,1000))
  for level,hp,policy in itertools.product([1,3,7],[24,48,80],['none','one']):
   rows.append(run(dict(level=level,composition='mixed',count=1,ehp=hp,eres=1,damage=[4,5,7],profile='new',target='focus',policy=policy,enemy_healers=1,group='solo_healing'),1000))
- for level,fire_res,policy in itertools.product([1,3,7],[0,2,4,6],['none','one']):
+ for level,fire_res,policy in itertools.product([1,3,7],[0,1,2,3],['none','one']):
   rows.append(run(dict(level=level,composition='mixed',count=4,ehp=16,eres=3,fire_res=fire_res,damage=[4,5,7],profile='new',target='spread',policy=policy,group='typed_resistance'),1000))
  (OUT/'advanced.json').write_text(json.dumps(rows,indent=2)+'\n')
  gr=[]

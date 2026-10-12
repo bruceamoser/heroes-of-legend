@@ -1,10 +1,10 @@
 # Heroes of Legend working playtest
 
-Working rules updated October 12, 2026; saved experiments remain version 0.1.
+Working rules and test catalog version 0.2 — October 12, 2026.
 Plain rules and test material, not book prose.
 
 **Read [revision status](revision-status.md) before using catalog prototypes or
-simulation findings.** The wound and condition rules have advanced beyond those tests.
+simulation findings.** Current results use version 0.2; version 0.1 is archived under history/.
 
 **Authority:** Bruce's agreed decisions are marked **Agreed**. New catalog entries,
 numbers, timings, and implementation choices are **Provisional**, including every

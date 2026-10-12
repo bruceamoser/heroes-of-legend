@@ -214,7 +214,7 @@
       0
     ],
     "grit": 2,
-    "hp": 25,
+    "hp": 24,
     "bulk": 4,
     "capacity": 13,
     "encumbrance": 0,
@@ -508,7 +508,7 @@
       0
     ],
     "grit": 3,
-    "hp": 25,
+    "hp": 24,
     "bulk": 4,
     "capacity": 13,
     "encumbrance": 0,
@@ -887,7 +887,7 @@
       0
     ],
     "grit": 5,
-    "hp": 25,
+    "hp": 24,
     "bulk": 4,
     "capacity": 13,
     "encumbrance": 0,
@@ -3023,7 +3023,7 @@
       "Quiet Step"
     ],
     "ranks": {
-      "Life": 1,
+      "Life": 2,
       "Protection": 1,
       "Armor": 1,
       "Melee": 2,
@@ -3046,7 +3046,7 @@
       "derive",
       "physical",
       "sig_shepherd_3_0",
-      "adept_strike"
+      "adept_heal"
     ],
     "gear": [
       "medium",
@@ -3275,13 +3275,21 @@
       },
       {
         "level": 3,
+        "kind": "buy discipline",
+        "id": "Life",
+        "cost": 2,
+        "rank": 2,
+        "balance": 4
+      },
+      {
+        "level": 3,
         "kind": "buy card",
-        "id": "adept_strike",
+        "id": "adept_heal",
         "cost": 4,
-        "balance": 2
+        "balance": 0
       }
     ],
-    "pool": 2,
+    "pool": 0,
     "level": 3,
     "hp_purchases": [],
     "expired": [
@@ -3295,7 +3303,7 @@
     "encumbrance": 0,
     "speed": 5,
     "resistance": 2,
-    "bank": 2
+    "bank": 0
   },
   {
     "class_name": "Shepherd",
@@ -3325,7 +3333,7 @@
       "Quiet Step"
     ],
     "ranks": {
-      "Life": 1,
+      "Life": 3,
       "Protection": 1,
       "Armor": 1,
       "Melee": 3,
@@ -3349,10 +3357,12 @@
       "derive",
       "physical",
       "sig_shepherd_3_0",
+      "adept_heal",
       "adept_strike",
       "identify",
       "potions",
       "sig_shepherd_7_0",
+      "master_heal",
       "master_strike",
       "grit"
     ],
@@ -3583,17 +3593,32 @@
       },
       {
         "level": 3,
+        "kind": "buy discipline",
+        "id": "Life",
+        "cost": 2,
+        "rank": 2,
+        "balance": 4
+      },
+      {
+        "level": 3,
         "kind": "buy card",
-        "id": "adept_strike",
+        "id": "adept_heal",
         "cost": 4,
-        "balance": 2
+        "balance": 0
       },
       {
         "level": 4,
         "kind": "award",
         "id": "level",
         "cost": -12,
-        "balance": 14
+        "balance": 12
+      },
+      {
+        "level": 4,
+        "kind": "buy card",
+        "id": "adept_strike",
+        "cost": 4,
+        "balance": 8
       },
       {
         "level": 4,
@@ -3601,49 +3626,49 @@
         "id": "Lore",
         "cost": 2,
         "rank": 1,
-        "balance": 12
+        "balance": 6
       },
       {
         "level": 4,
         "kind": "buy card",
         "id": "identify",
         "cost": 2,
-        "balance": 10
+        "balance": 4
       },
       {
         "level": 4,
         "kind": "buy card",
         "id": "potions",
         "cost": 2,
-        "balance": 8
+        "balance": 2
       },
       {
         "level": 5,
         "kind": "award",
         "id": "level",
         "cost": -13,
-        "balance": 21
+        "balance": 15
       },
       {
         "level": 6,
         "kind": "award",
         "id": "level",
         "cost": -14,
-        "balance": 35
+        "balance": 29
       },
       {
         "level": 7,
         "kind": "award",
         "id": "level",
         "cost": -15,
-        "balance": 50
+        "balance": 44
       },
       {
         "level": 7,
         "kind": "grant card",
         "id": "sig_shepherd_7_0",
         "cost": 0,
-        "balance": 50
+        "balance": 44
       },
       {
         "level": 7,
@@ -3651,24 +3676,39 @@
         "id": "Melee",
         "cost": 12,
         "rank": 3,
-        "balance": 38
+        "balance": 32
+      },
+      {
+        "level": 7,
+        "kind": "buy discipline",
+        "id": "Life",
+        "cost": 4,
+        "rank": 3,
+        "balance": 28
+      },
+      {
+        "level": 7,
+        "kind": "buy card",
+        "id": "master_heal",
+        "cost": 8,
+        "balance": 20
       },
       {
         "level": 7,
         "kind": "buy card",
         "id": "master_strike",
         "cost": 8,
-        "balance": 30
+        "balance": 12
       },
       {
         "level": 7,
         "kind": "buy card",
         "id": "grit",
         "cost": 8,
-        "balance": 22
+        "balance": 4
       }
     ],
-    "pool": 22,
+    "pool": 4,
     "level": 7,
     "hp_purchases": [],
     "expired": [
@@ -3682,7 +3722,7 @@
     "encumbrance": 0,
     "speed": 5,
     "resistance": 2,
-    "bank": 22
+    "bank": 4
   },
   {
     "class_name": "Intellect",

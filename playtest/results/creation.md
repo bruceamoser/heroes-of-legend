@@ -7,9 +7,9 @@ listed for each ancestry. No automatic travel supplies or potions are granted.
 
 | Class | Level | HP | Speed | Bulk / capacity | Cards | Bank | Creation expiry L0/L1 |
 |---|---:|---:|---:|---|---:|---:|---|
-| Protector | 1 | 25 | 5 | 4/13 | 12 | 0 | [0, 0] |
-| Protector | 3 | 25 | 5 | 4/13 | 17 | 4 | [0, 0] |
-| Protector | 7 | 25 | 5 | 4/13 | 22 | 27 | [0, 0] |
+| Protector | 1 | 24 | 5 | 4/13 | 12 | 0 | [0, 0] |
+| Protector | 3 | 24 | 5 | 4/13 | 17 | 4 | [0, 0] |
+| Protector | 7 | 24 | 5 | 4/13 | 22 | 27 | [0, 0] |
 | Blade | 1 | 19 | 8 | 4/16 | 12 | 0 | [0, 0] |
 | Blade | 3 | 19 | 8 | 5/16 | 18 | 0 | [0, 0] |
 | Blade | 7 | 19 | 8 | 5/16 | 24 | 25 | [0, 0] |
@@ -17,8 +17,8 @@ listed for each ancestry. No automatic travel supplies or potions are granted.
 | Arcanist | 3 | 16 | 8 | 2/4 | 19 | 6 | [0, 1] |
 | Arcanist | 7 | 16 | 8 | 2/4 | 22 | 40 | [0, 1] |
 | Shepherd | 1 | 18 | 5 | 3/10 | 12 | 0 | [1, 1] |
-| Shepherd | 3 | 18 | 5 | 4/10 | 17 | 2 | [1, 1] |
-| Shepherd | 7 | 18 | 5 | 4/10 | 22 | 22 | [1, 1] |
+| Shepherd | 3 | 18 | 5 | 4/10 | 17 | 0 | [1, 1] |
+| Shepherd | 7 | 18 | 5 | 4/10 | 24 | 4 | [1, 1] |
 | Intellect | 1 | 17 | 7 | 2/7 | 13 | 0 | [0, 3] |
 | Intellect | 3 | 17 | 7 | 3/7 | 17 | 1 | [0, 3] |
 | Intellect | 7 | 17 | 7 | 3/7 | 22 | 17 | [0, 3] |

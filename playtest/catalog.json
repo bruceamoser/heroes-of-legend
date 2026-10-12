@@ -133,7 +133,7 @@
         "Fortitude",
         "Reason"
       ],
-      "hp": 6,
+      "hp": 5,
       "choices": [
         "Armor",
         "Protection",
@@ -466,7 +466,7 @@
         "Magic",
         "Control"
       ],
-      "text": "Choose one adjacent visible target (single-target test version). Fire 3/3/5; Standard Burning 1, Strong Burning 2. Burning persists until removed. Repeatable. AoE is a separate test layer.",
+      "text": "Choose one adjacent visible target (single-target test version). Fire 3/3/5; Standard Burning 1, Strong Burning 2. Burning resolves then decays by 1 at turn end. Repeatable. AoE is a separate test layer.",
       "gear": [],
       "damage": [
         3,
@@ -488,7 +488,7 @@
         "Magic",
         "Control"
       ],
-      "text": "Cast from your square. Choose a cardinal direction; affect a rectangle 3 squares wide and 2 squares deep immediately ahead, centered on that direction. Include every creature with an unobstructed attack path, including allies; caster outside area. Fire 3/3/5; Standard Burning 1, Strong Burning 2 until removed. Use worst applicable Boon/Bane situation for the shared player roll. Main, repeatable. Additional tactical-test card, excluded from single-target baseline.",
+      "text": "Cast from your square. Choose a cardinal direction; affect a rectangle 3 squares wide and 2 squares deep immediately ahead, centered on that direction. Include every creature with an unobstructed attack path, including allies; caster outside area. Fire 3/3/5; Standard Burning 1, Strong Burning 2; resolve then decay by 1 at turn end. Use worst applicable Boon/Bane situation for the shared player roll. Main, repeatable. Additional tactical-test card, excluded from single-target baseline.",
       "gear": [],
       "damage": [
         3,
@@ -509,8 +509,58 @@
         "Recovery",
         "Magic"
       ],
-      "text": "One willing creature within 3, including self. Restore ceil(max HP/2)/full/full HP; Strong also ends Burning 1 level. Main, instant, repeatable. Does not restore the dead or end Last Words.",
-      "gear": []
+      "text": "One creature within 3, including self. Pay 1 HP before casting, bypassing resistance; must remain above 0. Restore 3/6/9 HP, reduced by Life resistance to minimum 1, capped at missing HP. No extra Strong benefit. Healing-harmed creatures take the result as Life damage. Main, instant, repeatable; cannot restore the dead or end Last Words.",
+      "gear": [],
+      "healing": [
+        3,
+        6,
+        9
+      ],
+      "hp_cost": 1
+    },
+    "adept_heal": {
+      "name": "Greater Mend",
+      "level": 3,
+      "cost": 4,
+      "req": {
+        "Life": 2
+      },
+      "action": "Main",
+      "attribute": "Reason",
+      "types": [
+        "Recovery",
+        "Magic"
+      ],
+      "text": "One target within 3, including self. Pay 3 HP before casting, bypassing resistance; must remain above 0. Restore 5/10/15 HP, reduced by Life resistance to minimum 1, capped at missing HP. Healing-harmed creatures take this as Life damage. Main, instant, repeatable; no revival or Last Words reversal. Proposed higher-tier baseline; other benefits require individual cards.",
+      "gear": [],
+      "healing": [
+        5,
+        10,
+        15
+      ],
+      "hp_cost": 3
+    },
+    "master_heal": {
+      "name": "Deep Restoration",
+      "level": 7,
+      "cost": 8,
+      "req": {
+        "Life": 3
+      },
+      "action": "Main",
+      "attribute": "Reason",
+      "types": [
+        "Recovery",
+        "Magic"
+      ],
+      "text": "One target within 3, including self. Pay 7 HP before casting, bypassing resistance; must remain above 0. Restore 8/16/24 HP, reduced by Life resistance to minimum 1, capped at missing HP. Healing-harmed creatures take this as Life damage. Main, instant, repeatable; no revival or Last Words reversal. Proposed higher-tier baseline; other benefits require individual cards.",
+      "gear": [],
+      "healing": [
+        8,
+        16,
+        24
+      ],
+      "hp_cost": 7
     },
     "dressing": {
       "name": "Field Dressing",
@@ -525,7 +575,7 @@
         "Recovery",
         "Skill"
       ],
-      "text": "One willing adjacent creature, including self; both hands free. Restore ceil(max HP/2)/full/full HP; Strong also reduces Bleeding by 1. Main, instant, repeatable. No spellcasting trigger. Cannot restore the dead or end Last Words. Provisional physical-healing alternative; not included in baseline simulations.",
+      "text": "Provisional nonmagical removal prototype, replacing the obsolete percentage-HP heal. Adjacent willing target or self; Main; reduce Bleeding by 1/2/3. Repeatable; does not restore HP or heal lasting wound penalties. Requires free hands. No spellcasting trigger.",
       "gear": []
     },
     "medium": {
@@ -777,7 +827,7 @@
       "gear": []
     },
     "physical": {
-      "name": "Treat Physical Wound",
+      "name": "Soft Tissue Treatment",
       "level": 1,
       "cost": 2,
       "req": {
@@ -786,13 +836,49 @@
       "action": "Main",
       "attribute": "Knowledge",
       "types": [
-        "Recovery"
+        "Recovery",
+        "Skill"
       ],
-      "text": "Treat one physical wound for one hour, once per wound per day, self or willing adjacent subject. Add 1/2/3 treatment progress. Wound target determines relief; scar remains.",
-      "gear": []
+      "text": "Requires a wound listing Soft Tissue treatment. Self or willing adjacent subject; one hour, once per wound per day across all healers. Add 1/2/3 recovery progress; reaching the printed RV removes exactly its listed lasting effects, never the scar. No HP restoration, condition extinguishing, or regrowth. Tier, Life 1 requirement, attribute, and one-hour interval are provisional test fixtures.",
+      "gear": [],
+      "treatment": "Soft Tissue"
+    },
+    "bone": {
+      "name": "Bone Treatment",
+      "level": 1,
+      "cost": 2,
+      "req": {
+        "Life": 1
+      },
+      "action": "Main",
+      "attribute": "Knowledge",
+      "types": [
+        "Recovery",
+        "Skill"
+      ],
+      "text": "Requires a wound listing Bone treatment. Self or willing adjacent subject; one hour, once per wound per day across all healers. Add 1/2/3 recovery progress; reaching the printed RV removes exactly its listed lasting effects, never the scar. No HP restoration, condition extinguishing, or regrowth. Tier, Life 1 requirement, attribute, and one-hour interval are provisional test fixtures.",
+      "gear": [],
+      "treatment": "Bone"
+    },
+    "elemental": {
+      "name": "Elemental Wound Treatment",
+      "level": 1,
+      "cost": 2,
+      "req": {
+        "Life": 1
+      },
+      "action": "Main",
+      "attribute": "Knowledge",
+      "types": [
+        "Recovery",
+        "Skill"
+      ],
+      "text": "Requires a wound listing Elemental treatment. Self or willing adjacent subject; one hour, once per wound per day across all healers. Add 1/2/3 recovery progress; reaching the printed RV removes exactly its listed lasting effects, never the scar. No HP restoration, condition extinguishing, or regrowth. Tier, Life 1 requirement, attribute, and one-hour interval are provisional test fixtures.",
+      "gear": [],
+      "treatment": "Elemental"
     },
     "mental": {
-      "name": "Treat Mental Wound",
+      "name": "Mental Wound Treatment",
       "level": 1,
       "cost": 2,
       "req": {
@@ -801,10 +887,62 @@
       "action": "Main",
       "attribute": "Guile",
       "types": [
-        "Recovery"
+        "Recovery",
+        "Skill"
       ],
-      "text": "Treat one mental wound for one hour, once per wound per day, self or willing nearby subject. Add 1/2/3 treatment progress. Wound target determines relief; scar remains.",
-      "gear": []
+      "text": "Requires a wound listing Mental treatment. Self or willing adjacent subject; one hour, once per wound per day across all healers. Add 1/2/3 recovery progress; reaching the printed RV removes exactly its listed lasting effects, never the scar. No HP restoration, condition extinguishing, or regrowth. Tier, Life 1 requirement, attribute, and one-hour interval are provisional test fixtures.",
+      "gear": [],
+      "treatment": "Mental"
+    },
+    "radiant": {
+      "name": "Radiant Wound Treatment",
+      "level": 1,
+      "cost": 2,
+      "req": {
+        "Life": 1
+      },
+      "action": "Main",
+      "attribute": "Reason",
+      "types": [
+        "Recovery",
+        "Skill"
+      ],
+      "text": "Requires a wound listing Radiant treatment. Self or willing adjacent subject; one hour, once per wound per day across all healers. Add 1/2/3 recovery progress; reaching the printed RV removes exactly its listed lasting effects, never the scar. No HP restoration, condition extinguishing, or regrowth. Tier, Life 1 requirement, attribute, and one-hour interval are provisional test fixtures.",
+      "gear": [],
+      "treatment": "Radiant"
+    },
+    "life_wound": {
+      "name": "Life Wound Treatment",
+      "level": 1,
+      "cost": 2,
+      "req": {
+        "Life": 1
+      },
+      "action": "Main",
+      "attribute": "Reason",
+      "types": [
+        "Recovery",
+        "Skill"
+      ],
+      "text": "Requires a wound listing Life treatment. Self or willing adjacent subject; one hour, once per wound per day across all healers. Add 1/2/3 recovery progress; reaching the printed RV removes exactly its listed lasting effects, never the scar. No HP restoration, condition extinguishing, or regrowth. Tier, Life 1 requirement, attribute, and one-hour interval are provisional test fixtures.",
+      "gear": [],
+      "treatment": "Life"
+    },
+    "recipes": {
+      "name": "Ordinary Recipes",
+      "level": 1,
+      "cost": 2,
+      "req": {},
+      "action": "Passive",
+      "attribute": null,
+      "types": [
+        "Crafting"
+      ],
+      "text": "Acquire two additional ordinary recipes compatible with a crafting ability already known. 2 DP, repeatable. No duplicate recipes, ingredients, or equipment granted; exceptional recipes excluded. Choices must exist in the catalog.",
+      "gear": [],
+      "repeat": true,
+      "requires_crafting": true,
+      "recipe_count": 2
     },
     "grapple": {
       "name": "Grapple",
@@ -818,7 +956,7 @@
       "types": [
         "Control"
       ],
-      "text": "Adjacent target; add Grappled 1/2/3 to target and equal own contribution. Main, instant application, persists until released or reduced. Different grapplers add on target; release own contribution free. Player defense against NPC version: Brawn.",
+      "text": "Adjacent target; add Grappled 1/2/3 to target and equal own contribution. Main, instant application, persists until released or reduced. Different grapplers add on target; release own contribution free. Attacks against any Grappled creature gain one Boon per its rating, including the grappler. Player defense against NPC version: Brawn.",
       "gear": []
     },
     "daze": {
@@ -834,7 +972,7 @@
         "Attack",
         "Control"
       ],
-      "text": "Adjacent target, melee weapon. Physical 3/4/6; Standard Dazed 1, Strong Dazed 2 until end of target next turn. Weak no Dazed. Repeatable; excluded baseline.",
+      "text": "Adjacent target, melee weapon. Physical 3/4/6; Standard Dazed 1, Strong Dazed 2; decays 1 at the end of each affected turn. Weak no Dazed. Repeatable; excluded baseline.",
       "gear": [
         "melee"
       ],
@@ -871,7 +1009,7 @@
       "types": [
         "Magic"
       ],
-      "text": "Main, no roll. Place companion in free visible square within 3: HP 6, Speed 5, resistance 0. Its Main adjacent attack uses controller Knowledge for physical 3/4/6; it may use universal Defend. Duration one combat or ten minutes. Summoning grants immediate Main command; no Reaction or summoning. See command rules.",
+      "text": "Main, no roll. Place companion in free visible square within 3: HP 6, Speed 5, resistance 0. Its Main adjacent attack uses controller Knowledge for physical 3/4/6; it may use universal Defend. Duration one combat or ten minutes. Summoning grants immediate Main command; no Reaction or summoning. Immediately disappears beyond 6 squares from controller, including forced movement of either. See command rules.",
       "gear": []
     },
     "adept_strike": {
@@ -1138,7 +1276,7 @@
         "Signature",
         "Defense"
       ],
-      "text": "While your Defend is active, you have physical resistance 4. Use the highest matching resistance, not a sum.",
+      "text": "While your Defend is active, you have physical resistance 3. Use the highest matching resistance, not a sum.",
       "gear": [],
       "class_only": "Protector"
     },
@@ -1168,7 +1306,7 @@
         "Signature",
         "Defense"
       ],
-      "text": "Before an adjacent ally suffers a physical attack, become its target if legal and use physical resistance 6 for that attack. Resolve your own defense normally. Instant.",
+      "text": "Before an adjacent ally suffers a physical attack, become its target if legal and use physical resistance 3 for that attack. Resolve your own defense normally. Instant.",
       "gear": [],
       "class_only": "Protector"
     },
@@ -1459,7 +1597,7 @@
         "Signature",
         "Recovery"
       ],
-      "text": "Your Strong healing outcome may instead end one level of Poisoned on the recipient as its benefit.",
+      "text": "Your Strong healing outcome additionally reduces Poisoned on its recipient by 1.",
       "gear": [],
       "class_only": "Shepherd"
     },
@@ -1505,9 +1643,15 @@
         "Recovery",
         "Magic"
       ],
-      "text": "One willing target within 3, including self. Restore half maximum HP rounded up/full/full. Each outcome also reduces one of Burning, Freezing, Bleeding or Poisoned by 1; Strong reduces it by 2 instead. Instant; repeatable; magical healing. No restoration of dead or Last Words.",
+      "text": "One target within 3, including self. Pay 3 HP before casting; must remain above 0; resistance cannot reduce this cost. Restore 5/10/15 HP after Life resistance, minimum 1. Each outcome also reduces one of Burning, Freezing, Bleeding or Poisoned by 1; Strong reduces it by 2 instead. Instant; repeatable; magical healing. No restoration of dead or Last Words.",
       "gear": [],
-      "class_only": "Shepherd"
+      "class_only": "Shepherd",
+      "healing": [
+        5,
+        10,
+        15
+      ],
+      "hp_cost": 3
     },
     "sig_shepherd_3_1": {
       "name": "Guiding Choir",
@@ -1551,9 +1695,15 @@
         "Recovery",
         "Magic"
       ],
-      "text": "One willing target within 3, including self. Restore half maximum HP rounded up/full/full. Each outcome also ends one of Burning, Freezing, Bleeding or Poisoned; Strong ends a second of these conditions. Repeatable; magical healing; no restoration of dead, Last Words, or scars.",
+      "text": "One target within 3, including self. Pay 7 HP before casting; must remain above 0; resistance cannot reduce this cost. Restore 8/16/24 HP after Life resistance, minimum 1. Each outcome also ends one of Burning, Freezing, Bleeding or Poisoned; Strong ends a second of these conditions. Repeatable; magical healing; no restoration of dead, Last Words, or scars.",
       "gear": [],
-      "class_only": "Shepherd"
+      "class_only": "Shepherd",
+      "healing": [
+        8,
+        16,
+        24
+      ],
+      "hp_cost": 7
     },
     "sig_shepherd_7_1": {
       "name": "Chorus of Guidance",
@@ -1612,7 +1762,7 @@
         "Signature",
         "Exploration"
       ],
-      "text": "On a Strong observation result, ask one additional question about the observed evidence; DA answers truthfully within what it can reveal.",
+      "text": "On a Strong Reason roll to examine evidence, ask one additional question about the observed evidence; DA answers truthfully within what it can reveal.",
       "gear": [],
       "class_only": "Intellect"
     },

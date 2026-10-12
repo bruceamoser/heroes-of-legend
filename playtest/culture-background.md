@@ -10,8 +10,8 @@ No discipline purchases at level 0.
 | Culture | Frontier | Lore → Forest Forage (`forage`) | Archery → Aimed Shot (`shot`) |
 | Culture | Citadel | Armor → Medium Armor Training (`medium`) | Protection → Shield Training (`shield`) |
 | Culture | Academy | Fire → Fire Dart (`fire`) | Lore → Identify Magic (`identify`) |
-| Culture | Crossroads | Stealth → Quiet Passage (`stealth`) | Life → Treat Mental Wound (`mental`) |
+| Culture | Crossroads | Stealth → Quiet Passage (`stealth`) | Life → Mental Wound Treatment (`mental`) |
 | Background | Soldier | Melee → Driving Strike (`strike`) | Armor → Medium Armor Training (`medium`) |
 | Background | Apprentice | Craft → Field Craft (`craft`) | Fire → Fire Dart (`fire`) |
-| Background | Healer | Life → Mend (`heal`) | Life → Treat Physical Wound (`physical`) |
+| Background | Healer | Life → Mend (`heal`) | Life → Soft Tissue Treatment (`physical`) |
 | Background | Scout | Archery → Aimed Shot (`shot`) | Sleight → Patient Entry (`locks`) |

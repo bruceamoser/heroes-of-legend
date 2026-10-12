@@ -1,14 +1,14 @@
 # Classes
 
 Attribute requirements are agreed; both scores must be at least 0 using permanent
-creation values. Odd has none. HP for Protector/Blade/Arcanist are approved starting
-fixtures; other HP values, discipline options/prices, and signatures are provisional.
+creation values. Odd has none. All class HP values are approved test fixtures.
+Discipline options/affinities and signatures remain provisional.
 Choose two distinct listed rank-1 disciplines at level 1. Choose one signature
 at each of levels 1, 3, 7; extra class signatures cost the shared tier price.
 
 | Class | Required attributes | HP | Choose two disciplines |
 |---|---|---|---|
-| Protector | Fortitude, Reason | 6 | Armor, Protection, Melee, Tactics |
+| Protector | Fortitude, Reason | 5 | Armor, Protection, Melee, Tactics |
 | Blade | Agility, Brawn | 4 | Melee, Archery, Stealth, Sleight |
 | Arcanist | Agility, Knowledge | 2 | Fire, Lore, Summon, Life |
 | Shepherd | Reason, Guile | 3 | Life, Protection, Lore, Tactics |

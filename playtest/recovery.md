@@ -82,6 +82,7 @@ not automatically heal another penalty on the same wound. Starred conditions do
 not decay. Same named wound penalties do not add; each wound still needs its own
 treatment, and numbered condition contributions follow condition stacking rules.
 
-**Testing boundary:** saved version 0.1 simulations used the former healing model
-and compact scar-only approximation. They do not validate these tables, treatment
-capabilities, healing costs, or condition decay. See [revision status](revision-status.md).
+**Testing boundary:** version 0.2 tests implement fixed healing, casting costs and
+condition decay. Baseline combats omit active wounds; explicitly labeled overlays
+exercise their conditions and lasting penalties without map movement/collisions.
+See [test contract](tests/README.md) and [revision status](revision-status.md).

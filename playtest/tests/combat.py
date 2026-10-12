@@ -6,6 +6,7 @@ from functools import lru_cache
 from bisect import bisect
 from pathlib import Path
 from catalog import ROOT,CARDS
+from mechanics import HEALING,resistance,healing_amount,can_pay,decay,actions,wound_tables,wound_effects
 OUT=ROOT/'results'
 @lru_cache(None)
 def probabilities(attr=0,net=0):
@@ -24,8 +25,8 @@ def sampler(attr,net):
  c[-1]=1.;return keys,c
 def roll(rng,attr=0,net=0):
  keys,c=sampler(attr,max(-3,min(3,net)));return keys[bisect(c,rng.random())]
-def hurt_amount(packet,res):return max(1,sum(max(0,v-res.get(k,0)) for k,v in packet.items()))
-def mean_damage(profile,attr=0,net=0,res=0,defense=False):return sum(p*max(1,profile[2-t if defense else t]-res) for (t,_,_),p in probabilities(attr,net))
+def hurt_amount(packet,res):return max(1,sum(max(0,v-resistance(res.get(k,0))) for k,v in packet.items()))
+def mean_damage(profile,attr=0,net=0,res=0,defense=False):return sum(p*max(1,profile[2-t if defense else t]-resistance(res)) for (t,_,_),p in probabilities(attr,net))
 def seed(name):return random.Random(int.from_bytes(hashlib.sha256(name.encode()).digest()[:8],'big'))
 @lru_cache(None)
 def fixture(level=1,composition='mixed'):
@@ -33,11 +34,11 @@ def fixture(level=1,composition='mixed'):
  names=['Protector','Blade','Arcanist','Shepherd'] if composition=='mixed' else ['Leader','Unbalanced','Shadow','Intellect']
  return [b for name in names for b in builds if b['level']==level and b['class_name']==name]
 ATTACK_CACHE={}
-def best_attack(b,enemy_res,profile='new',fire_res=0,ammo=True):
- key=(b['class_name'],b['level'],enemy_res,profile,fire_res,ammo)
+def best_attack(b,enemy_res,profile='new',fire_res=0,ammo=True,basic_profile=(2,3,5),basic_only=False):
+ key=(b['class_name'],b['level'],enemy_res,profile,fire_res,ammo,tuple(basic_profile),basic_only)
  if key in ATTACK_CACHE:return ATTACK_CACHE[key]
  choices=[]
- for id in b['cards']:
+ for id in ([] if basic_only else b['cards']):
   c=CARDS[id]
   if 'damage' not in c or id in ['hands','daze','fan'] or 'ammo' in c['gear'] and not ammo:continue
   d=c['damage'];kind='fire' if 'Magic' in c['types'] else 'physical';res=enemy_res if kind=='physical' else fire_res
@@ -46,31 +47,45 @@ def best_attack(b,enemy_res,profile='new',fire_res=0,ammo=True):
   if profile=='high':d=[5,6,8] if c['level']==1 else d
   attr=b['attrs'][c['attribute']];choices.append((mean_damage(d,attr,res=res),id,d,kind,attr))
  # All builds have an ordinary weapon; no assumed basic item grant.
- if 'melee' in b['gear']:choices.append((mean_damage([2,3,5],b['attrs']['Brawn'],res=enemy_res),'basic',[2,3,5],'physical',b['attrs']['Brawn']))
- assert choices,'no eligible attack'
+ if 'melee' in b['gear']:choices.append((mean_damage(basic_profile,b['attrs']['Brawn'],res=enemy_res),'basic',list(basic_profile),'physical',b['attrs']['Brawn']))
+ if 'ranged' in b['gear'] and ammo:choices.append((mean_damage(basic_profile,b['attrs']['Agility'],res=enemy_res),'basic_ranged',list(basic_profile),'physical',b['attrs']['Agility']))
+ if not choices:choices.append((mean_damage([1,2,4],b['attrs']['Brawn'],res=enemy_res),'unarmed',[1,2,4],'physical',b['attrs']['Brawn']))
  ATTACK_CACHE[key]=max(choices)
  return ATTACK_CACHE[key]
 def new_party(builds,s):
- return [dict(build=b,hp=b['hp'],grit=b['grit'],wounds=0,death=0,stable=False,terminal=False,defend=False,shield=False,reaction=True,bottle=4 if s.get('potions') else 0,ammo=3 if 'ammo' in b['gear'] else 0,burning=0) for b in builds]
+ return [dict(build=b,hp=b['hp'],grit=b['grit'],wounds=0,death=0,stable=False,terminal=False,defend=False,shield=False,reaction=True,bottle=4 if s.get('potions') else 0,ammo=3 if 'ammo' in b['gear'] else 0,burning=0,states={},injuries=[]) for b in builds]
 def battle(s,rng,party=None,trace=None):
  builds=fixture(s.get('level',1),s.get('composition','mixed'));pcs=party or new_party(builds,s)
- for p in pcs:p.update(defend=False,shield=False,reaction=True,burning=0)
+ for p in pcs:p.update(defend=False,shield=False,reaction=True,burning=0,states={})
  enemy=[dict(hp=s['ehp'],reaction=True) for _ in range(s['count'])]
  m=Counter();first=sum(rng.randint(1,6) for _ in range(3))>=12;defeat=0
  def terminal(p):
   if not p['terminal']:p.update(terminal=True,hp=0);m['terminal']+=1
- def wound(p):
+ def wound(p,kind):
+  ds=sorted(rng.randint(1,6) for _ in range(min(5,3+p['wounds'])))[-3:]
+  code=100*ds[0]+10*ds[1]+ds[2]
   p['wounds']+=1;m['wounds']+=1
-  if sum(rng.randint(1,6)==6 for _ in range(min(5,2+p['wounds'])))>=3:terminal(p)
- def hurt(p,n):
+  if code==666:terminal(p);return
+  if s.get('active_wounds'):
+   table='Elemental' if kind in ('fire','cold','lightning') else 'Mental' if kind=='mental' else 'Radiant' if kind=='radiant' else 'Life/Necrotic' if kind=='life' else 'Physical'
+   w=dict(wound_tables()[table][code]);w['table']=table;w['source']=kind
+   effects=wound_effects(w,kind);w['lasting']=effects['lasting'];p['injuries'].append(w)
+   for name,value in effects['temporary'].items():p['states'][name]=p['states'].get(name,0)+value
+   # This abstract model does not invent positions or collision follow-through.
+   if effects['prone']:m['wound_prone']+=1
+   if 'Push ' in w['effect'] or 'push ' in w['effect'] or 'Pull ' in w['effect']:m['unmodeled_wound_movement']+=1
+ def hurt(p,n,kind='physical'):
   if p['terminal']:return
   if p['hp']>0:
    p['hp']=max(0,p['hp']-n)
-   if p['hp']==0:p.update(stable=False,death=0);wound(p)
+   if p['hp']==0:p.update(stable=False,death=0);wound(p,kind)
   else:
-   if p['stable']:p['stable']=False;wound(p)
+   if p['stable']:p['stable']=False;wound(p,kind)
    p['death']+=1
    if p['death']>=3:terminal(p)
+ def state(p,name):
+  return p['states'].get(name,0)+max([w['lasting'].get(name,0) for w in p['injuries'] if not w['treated']]+[0])
+ def wound_banes(p,category):return max([w['lasting'].get(category,0) for w in p['injuries'] if not w['treated']]+[0])+state(p,'Poisoned')+state(p,'Frightened')
  def heal(p,n):
   if p['terminal']:return
   old=p['hp'];p.update(hp=min(p['build']['hp'],old+n),death=0,stable=False);m['healed_hp']+=p['hp']-old
@@ -78,10 +93,11 @@ def battle(s,rng,party=None,trace=None):
  def is_healer(i):return s['policy']=='all' and 'heal' in pcs[i]['build']['cards'] or s['policy']=='one' and i==3 and 'heal' in pcs[i]['build']['cards']
  def incoming(p,profile=None):
   profile=profile or s['damage']
-  if p['reaction'] and 'shield' in p['build']['gear'] and p['hp']>0 and s.get('shields',True):p.update(reaction=False,shield=True)
-  net=int(p['defend'])+int(p['shield'])-s.get('banes',0)-(3 if p['hp']==0 else 0)
+  if p['reaction'] and not state(p,'Paralyzed') and state(p,'Dazed')<2 and 'shield' in p['build']['gear'] and p['hp']>0 and s.get('shields',True):p.update(reaction=False,shield=True)
+  net=int(p['defend'])+int(p['shield'])-s.get('banes',0)-(3 if p['hp']==0 or state(p,'Paralyzed') else 0)-wound_banes(p,'physical')-(3 if state(p,'Blinded') else 0)
   t,crit,fumble=roll(rng,p['build']['attrs'][s.get('defattr','Agility')],net)
-  amt=hurt_amount({'physical':profile[2-t]},{'physical':p['build']['resistance']});hurt(p,amt);m['incoming_hp']+=amt
+  kind=s.get('enemy_type','physical');res=p['build']['resistance'] if kind=='physical' else s.get('pc_'+kind+'_res',0)
+  amt=hurt_amount({kind:profile[2-t]},{kind:res});hurt(p,amt,kind);m['incoming_hp']+=amt
   return 2-t
  def provoke(i):
   if not s.get('oa'):return False
@@ -98,39 +114,50 @@ def battle(s,rng,party=None,trace=None):
    if p['grit']:
     p['grit']-=1;m['grit']+=1;heal(p,b['hp'])
    else:
-    t,c,f=roll(rng,b['attrs']['Fortitude'])
+    t,c,f=roll(rng,b['attrs']['Fortitude'],-wound_banes(p,'physical'))
     if c:heal(p,1)
     elif t==2:p.update(stable=True,death=0)
     elif t==0:
      p['death']+=2 if f else 1
      if p['death']>=3:terminal(p)
     if p['hp']==0:return
-  maneuver=True
+  available=actions(state(p,'Dazed'),state(p,'Paralyzed'))
+  if not available:m['disabled_turns']+=1;return
+  # Policy retains Main first, then Maneuver, then Reaction.
+  p['reaction']=available>=3
+  maneuver=available>=2
   targets=candidates(i)
-  if p['bottle'] and targets:
+  if maneuver and p['bottle'] and targets:
    possible=[q for q in targets if q is p or q['hp']==0 or q['reaction']]
    if possible:
     q=min(possible,key=lambda q:q['hp']/q['build']['hp'])
     if q is not p and q['hp']>0:q['reaction']=False
-    heal(q,q['build']['hp']);m['potions']+=1;maneuver=False
+    heal(q,healing_amount(s.get('potion_healing',6),s.get('pc_life_res',0)));m['potions']+=1;maneuver=False
     if rng.randint(1,p['bottle'])==1:p['bottle']=0
   targets=candidates(i)
-  if is_healer(i) and targets:
+  profile,cost=HEALING[s.get('healing_tier',1)]
+  # Elevated tiers are only selected if the corresponding card was learned.
+  heal_id={1:'heal',3:'adept_heal',7:'master_heal'}[s.get('healing_tier',1)]
+  if heal_id not in b['cards']:profile,cost=HEALING[1]
+  if is_healer(i) and targets and can_pay(p['hp'],cost):
    if provoke(i):m['interrupted']+=1
    else:
-    q=min(targets,key=lambda q:q['hp']/q['build']['hp']);t,c,f=roll(rng,b['attrs']['Reason'])
-    heal(q,math.ceil(q['build']['hp']/2) if t==0 else q['build']['hp']);m['heals']+=1
-    if t==2:q['burning']=max(0,q['burning']-1)
+    q=min(targets,key=lambda q:q['hp']/q['build']['hp'])
+    if not can_pay(p['hp'],cost):m['unaffordable_after_oa']+=1
+    else:
+     p['hp']-=cost;m['healing_cost']+=cost
+     t,c,f=roll(rng,b['attrs']['Reason'],-wound_banes(p,'mental'))
+     heal(q,healing_amount(profile[t],s.get('pc_life_res',0)));m['heals']+=1
   else:
    alive=[j for j,e in enumerate(enemy) if e['hp']>0]
-   if alive:
+   if alive and not state(p,'Blinded'):
     target=min(alive,key=lambda j:enemy[j]['hp'])
-    _,id,profile,kind,attr=best_attack(b,s['eres'],s.get('profile','new'),s.get('fire_res',0),bool(p['ammo']))
+    _,id,profile,kind,attr=best_attack(b,s['eres'],s.get('profile','new'),s.get('fire_res',0),bool(p['ammo']),s.get('basic_profile',(2,3,5)),s.get('basic_only',False))
     interrupted=kind=='fire' and provoke(i)
     if interrupted:m['interrupted']+=1
     else:
-     t,c,f=roll(rng,attr,-s.get('enemy_defense',0));enemy[target]['hp']-=hurt_amount({kind:profile[t]},{'physical':s['eres'],'fire':s.get('fire_res',0)});m['attacks']+=1
-     if id in CARDS and 'ammo' in CARDS[id]['gear']:
+     t,c,f=roll(rng,attr,-s.get('enemy_defense',0)-wound_banes(p,'physical' if kind=='physical' else 'mental'));enemy[target]['hp']-=hurt_amount({kind:profile[t]},{'physical':s['eres'],'fire':s.get('fire_res',0)});m['attacks']+=1
+     if id=='basic_ranged' or id in CARDS and 'ammo' in CARDS[id]['gear']:
       if rng.randint(1,[0,4,6,8][p['ammo']])==1:p['ammo']-=1
       m['ammo_checks']+=1
   if p['hp']<=0:return
@@ -145,16 +172,26 @@ def battle(s,rng,party=None,trace=None):
  def pc_turn(i):
   pc_actions(i)
   p=pcs[i]
-  if p['burning'] and not p['terminal']:
-   hurt(p,p['burning']);m['burn_ticks']+=1
+  if p['burning']:p['states']['Burning']=p['states'].get('Burning',0)+p['burning'];p['burning']=0
+  # Snapshot the conditions present for this end step. Conditions inflicted by a
+  # wound during the step first deal damage on the next end step (test convention).
+  ticking={name:state(p,name) for name in ['Bleeding','Burning','Freezing']}
+  for name,x in ticking.items():
+   if x and not p['terminal']:
+    kind={'Bleeding':'physical','Burning':'fire','Freezing':'cold'}[name]
+    n=x if name=='Bleeding' else hurt_amount({kind:x},{kind:s.get('pc_'+kind+'_res',0)})
+    hurt(p,n,kind);m['condition_ticks']+=1
+    if name=='Burning':m['burn_ticks']+=1
+  decay(p['states'])
  def npc_turn(j):
   e=enemy[j];e['reaction']=True
   if j>=s['count']-s.get('enemy_healers',0):
    wounded=[q for q in enemy if 0<q['hp']<=s['ehp']*s.get('enemy_threshold',.5)]
-   if wounded:
+   profile,cost=HEALING[s.get('enemy_healing_tier',1)]
+   if wounded and can_pay(e['hp'],cost):
+    e['hp']-=cost;m['enemy_healing_cost']+=cost
     q=min(wounded,key=lambda q:q['hp']);t,_,_=roll(rng,1)
-    q['hp']=min(s['ehp'],q['hp']+(math.ceil(s['ehp']/2) if t==0 else s['ehp']));m['enemy_heals']+=1
-    # Strong ends Burning 1, but no NPC burning source in these fixtures.
+    q['hp']=min(s['ehp'],q['hp']+healing_amount(profile[t],s.get('enemy_life_res',0)));m['enemy_heals']+=1
     return
   upright=[p for p in pcs if not p['terminal'] and p['hp']>0];alive=upright or [p for p in pcs if not p['terminal']]
   if not alive:return
@@ -173,7 +210,9 @@ def battle(s,rng,party=None,trace=None):
     if not defeat:defeat=rnd
     # Routine ongoing-condition cleanup needs a conscious helper.
     if any(p['hp']>0 and not p['terminal'] for p in pcs) and s.get('reach','all')=='all':
-     for p in pcs:p['burning']=0
+     for p in pcs:
+      p['burning']=0
+      for name in ['Burning','Freezing','Bleeding']:p['states'][name]=0
     if not any(p['hp']==0 and not p['stable'] and not p['terminal'] for p in pcs):m['win']=int(any(not p['terminal'] for p in pcs));m['loss']=1-m['win'];break
    if all(p['terminal'] for p in pcs):m['loss']=1;break
    pa=[i for i,p in enumerate(pcs) if i not in pd and not p['terminal']];ea=[j for j,e in enumerate(enemy) if j not in ed and e['hp']>0]
@@ -190,7 +229,7 @@ def battle(s,rng,party=None,trace=None):
  if m['win']:
   m['cleanup_rounds']=m['rounds']-defeat;m['rounds']=defeat
   for p in pcs:
-   if not p['terminal']:p.update(hp=p['build']['hp'],death=0,stable=False,burning=0)
+   if not p['terminal']:p.update(hp=p['build']['hp'],death=0,stable=False,burning=0,states={})
  if not m['win'] and not m['loss']:m['timeout']=1
  m['any_wound']=int(m['wounds']>0);m['any_terminal']=int(m['terminal']>0)
  return m,pcs
@@ -217,12 +256,12 @@ def scenarios():
   yield d
 
 def run(s,n):
- name=json.dumps(s,sort_keys=True);rng=seed(name);total=Counter();wins=[]
+ s=dict(s,revision='v0.2');name=json.dumps(s,sort_keys=True);rng=seed(name);total=Counter();wins=[]
  for _ in range(n):
   m,_=battle(s,rng);total.update(m)
   if m['win']:wins.append(m['rounds'])
  row=dict(id=hashlib.sha256(name.encode()).hexdigest()[:12],trials=n,scenario=dict(s),**s)
- for k in ['win','loss','timeout','rounds','any_wound','wounds','any_terminal','grit','heals','healed_hp','potions','attacks','enemy_attacks','opportunities','interrupted','enemy_heals','burn_ticks']:row['potions_used' if k=='potions' else k]=total[k]/n
+ for k in ['win','loss','timeout','rounds','any_wound','wounds','any_terminal','grit','heals','healed_hp','potions','attacks','enemy_attacks','opportunities','interrupted','enemy_heals','burn_ticks','healing_cost','enemy_healing_cost','disabled_turns','unmodeled_wound_movement']:row['potions_used' if k=='potions' else k]=total[k]/n
  row['win_rounds']=sum(wins)/len(wins) if wins else None
  return row
 
@@ -232,8 +271,8 @@ def validate():
   for net in range(-3,4):
    assert abs(sum(p for _,p in probabilities(attr,net))-1)<1e-10;checks+=1
  assert abs(dict(probabilities(0,0))[(2,True,False)]-1/216)<1e-12
- assert hurt_amount({'physical':3,'fire':1},{'physical':4})==1
- assert hurt_amount({'physical':3,'fire':3},{'physical':4,'fire':4})==1
+ assert hurt_amount({'physical':3,'fire':1},{'physical':3})==1
+ assert hurt_amount({'physical':3,'fire':3},{'physical':3,'fire':3})==1
  assert mean_damage([2,3,5],2,res=3)>1
  # Independent brute-force dice oracle, including negative and positive net.
  for attr,net in [(0,0),(2,1),(-2,-1)]:

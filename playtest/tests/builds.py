@@ -34,19 +34,23 @@ def grant_disc(b,d):
  else:b['ranks'][d]=1;b['ledger'].append(dict(level=b['level'],kind='grant discipline',id=d,cost=0,balance=b['pool']))
 def eligible(b,id):
  c=CARDS[id]
- return (b['level']>=c['level'] or b['level']==0 and c['level']==1) and all(b['ranks'].get(d,0)>=r for d,r in c['req'].items()) and (not c.get('class_only') or b['class_name']==c['class_only'] and b['level']>=c['level'])
+ return (not c.get('requires_crafting') or any(CARDS[x].get('recipes') for x in b['cards'])) and (b['level']>=c['level'] or b['level']==0 and c['level']==1) and all(b['ranks'].get(d,0)>=r for d,r in c['req'].items()) and (not c.get('class_only') or b['class_name']==c['class_only'] and b['level']>=c['level'])
 def get_card(b,id,free=False):
  c=CARDS[id];assert eligible(b,id),'card prerequisite'
  if id in b['cards'] and not c.get('repeat'):
   assert free,'duplicate purchase'
   b['pool']+=1;b['ledger'].append(dict(level=b['level'],kind='duplicate',id=id,cost=-1,balance=b['pool']));return
- if c.get('repeat'):
+ if id=='hp':
   assert b['level']>=1 and b['level'] not in b['hp_purchases'],'HP purchase limit'
   b['hp_purchases'].append(b['level'])
+ if id=='recipes':
+  options=[r for card in b['cards'] for r in CARDS[card].get('recipes',[]) if r not in b['recipes']]
+  options=list(dict.fromkeys(options));assert len(options)>=2,'two eligible unlearned recipes required'
  cost=0 if free else c['cost'];assert b['pool']>=cost,'DP budget';b['pool']-=cost
  b['cards'].append(id)
  for item in c['gear']:grant_item(b,item)
- if id=='craft':b['recipes']=['arrows','torches']
+ if id=='craft':b['recipes']+= [r for r in ['arrows','torches'] if r not in b['recipes']]
+ if id=='recipes':b['recipes']+=options[:2]
  if id=='grit':b['grit']+=1
  b['ledger'].append(dict(level=b['level'],kind='grant card' if free else 'buy card',id=id,cost=cost,balance=b['pool']))
 def rank(b,d):
@@ -106,7 +110,7 @@ def build(config):
    if b['pool']<price:break
    rank(b,primary)
   attack={'Fire':('fire','adept_fire','master_fire'),'Archery':('shot','adept_shot','master_shot'),'Melee':('strike','adept_strike','master_strike')}[primary][desired-1]
-  wanted=[attack,'medium','heal','craft','derive','physical','mental','identify','potions','grit']
+  wanted=([('adept_heal' if lvl<7 else 'master_heal')] if b['class_name']=='Shepherd' and lvl>=3 else [])+[attack,'medium','heal','craft','derive','physical','mental','identify','potions','grit']
   for id in wanted:
    if id in b['cards'] or CARDS[id]['level']>lvl:continue
    for d,r in CARDS[id]['req'].items():

@@ -7,8 +7,8 @@ audit; redundant medium armor can be left behind when heavy armor is acquired.
 
 | Class | Plan | Level | HP | Resistance | Bank | Bulk / capacity |
 |---|---|---:|---:|---:|---:|---|
-| Protector | durability | 3 | 27 | 3 | 3 | 5/13 |
-| Protector | durability | 7 | 31 | 3 | 33 | 5/13 |
+| Protector | durability | 3 | 26 | 3 | 3 | 5/13 |
+| Protector | durability | 7 | 30 | 3 | 33 | 5/13 |
 | Blade | durability | 3 | 21 | 3 | 2 | 6/16 |
 | Blade | durability | 7 | 25 | 3 | 30 | 6/16 |
 | Arcanist | specialist | 3 | 16 | 2 | 13 | 1/4 |

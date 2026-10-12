@@ -24,8 +24,8 @@ All actions repeatable unless constrained by their normal action allowance.
 | Stabilize | Maneuver | Adjacent Dying PC, no roll, stable at 0, clear death marks |
 | Force | Main | Brawn, adjacent physical obstacle/creature: 1/2/3 progress, grapple reduction, or squares of push |
 
-A basic Strong 5 deals 2 against resistance 3, but only 1 against resistance 4+.
-This addresses the low-tier armor test, not a universal post-resistance floor of 2.
+A basic Strong 5 deals 2 against the universal resistance cap 3.
+Compare 3/4/6 in tests; neither profile is final balance approval.
 
 ## Driving Strike (`strike`)
 
@@ -65,7 +65,7 @@ Visible target within 6. Fire 4/5/7. Strong ignites one unattended flammable obj
 - Requires: Fire 1. Roll: Knowledge.
 - Acquisition equipment: None.
 
-Choose one adjacent visible target (single-target test version). Fire 3/3/5; Standard Burning 1, Strong Burning 2. Burning persists until removed. Repeatable. AoE is a separate test layer.
+Choose one adjacent visible target (single-target test version). Fire 3/3/5; Standard Burning 1, Strong Burning 2. Burning resolves then decays by 1 at turn end. Repeatable. AoE is a separate test layer.
 
 ## Flame Fan (`fan`)
 
@@ -73,7 +73,7 @@ Choose one adjacent visible target (single-target test version). Fire 3/3/5; Sta
 - Requires: Fire 2. Roll: Knowledge.
 - Acquisition equipment: None.
 
-Cast from your square. Choose a cardinal direction; affect a rectangle 3 squares wide and 2 squares deep immediately ahead, centered on that direction. Include every creature with an unobstructed attack path, including allies; caster outside area. Fire 3/3/5; Standard Burning 1, Strong Burning 2 until removed. Use worst applicable Boon/Bane situation for the shared player roll. Main, repeatable. Additional tactical-test card, excluded from single-target baseline.
+Cast from your square. Choose a cardinal direction; affect a rectangle 3 squares wide and 2 squares deep immediately ahead, centered on that direction. Include every creature with an unobstructed attack path, including allies; caster outside area. Fire 3/3/5; Standard Burning 1, Strong Burning 2; resolve then decay by 1 at turn end. Use worst applicable Boon/Bane situation for the shared player roll. Main, repeatable. Additional tactical-test card, excluded from single-target baseline.
 
 ## Mend (`heal`)
 
@@ -81,7 +81,23 @@ Cast from your square. Choose a cardinal direction; affect a rectangle 3 squares
 - Requires: Life 1. Roll: Reason.
 - Acquisition equipment: None.
 
-One willing creature within 3, including self. Restore ceil(max HP/2)/full/full HP; Strong also ends Burning 1 level. Main, instant, repeatable. Does not restore the dead or end Last Words.
+One creature within 3, including self. Pay 1 HP before casting, bypassing resistance; must remain above 0. Restore 3/6/9 HP, reduced by Life resistance to minimum 1, capped at missing HP. No extra Strong benefit. Healing-harmed creatures take the result as Life damage. Main, instant, repeatable; cannot restore the dead or end Last Words.
+
+## Greater Mend (`adept_heal`)
+
+- Tier level: 3; DP: 4; type: Recovery, Magic; action: Main.
+- Requires: Life 2. Roll: Reason.
+- Acquisition equipment: None.
+
+One target within 3, including self. Pay 3 HP before casting, bypassing resistance; must remain above 0. Restore 5/10/15 HP, reduced by Life resistance to minimum 1, capped at missing HP. Healing-harmed creatures take this as Life damage. Main, instant, repeatable; no revival or Last Words reversal. Proposed higher-tier baseline; other benefits require individual cards.
+
+## Deep Restoration (`master_heal`)
+
+- Tier level: 7; DP: 8; type: Recovery, Magic; action: Main.
+- Requires: Life 3. Roll: Reason.
+- Acquisition equipment: None.
+
+One target within 3, including self. Pay 7 HP before casting, bypassing resistance; must remain above 0. Restore 8/16/24 HP, reduced by Life resistance to minimum 1, capped at missing HP. Healing-harmed creatures take this as Life damage. Main, instant, repeatable; no revival or Last Words reversal. Proposed higher-tier baseline; other benefits require individual cards.
 
 ## Field Dressing (`dressing`)
 
@@ -89,7 +105,7 @@ One willing creature within 3, including self. Restore ceil(max HP/2)/full/full 
 - Requires: Life 1. Roll: Knowledge.
 - Acquisition equipment: None.
 
-One willing adjacent creature, including self; both hands free. Restore ceil(max HP/2)/full/full HP; Strong also reduces Bleeding by 1. Main, instant, repeatable. No spellcasting trigger. Cannot restore the dead or end Last Words. Provisional physical-healing alternative; not included in baseline simulations.
+Provisional nonmagical removal prototype, replacing the obsolete percentage-HP heal. Adjacent willing target or self; Main; reduce Bleeding by 1/2/3. Repeatable; does not restore HP or heal lasting wound penalties. Requires free hands. No spellcasting trigger.
 
 ## Medium Armor Training (`medium`)
 
@@ -219,21 +235,61 @@ Examine one item for 10 minutes. Weak learns whether magical and a hint of funct
 
 Examine one bottle for 10 minutes. Weak learns broad purpose; Standard full ordinary function and use requirements; Strong also reveals contamination. Does not consume bottle. No recipe learned.
 
-## Treat Physical Wound (`physical`)
+## Soft Tissue Treatment (`physical`)
 
-- Tier level: 1; DP: 2; type: Recovery; action: Main.
+- Tier level: 1; DP: 2; type: Recovery, Skill; action: Main.
 - Requires: Life 1. Roll: Knowledge.
 - Acquisition equipment: None.
 
-Treat one physical wound for one hour, once per wound per day, self or willing adjacent subject. Add 1/2/3 treatment progress. Wound target determines relief; scar remains.
+Requires a wound listing Soft Tissue treatment. Self or willing adjacent subject; one hour, once per wound per day across all healers. Add 1/2/3 recovery progress; reaching the printed RV removes exactly its listed lasting effects, never the scar. No HP restoration, condition extinguishing, or regrowth. Tier, Life 1 requirement, attribute, and one-hour interval are provisional test fixtures.
 
-## Treat Mental Wound (`mental`)
+## Bone Treatment (`bone`)
 
-- Tier level: 1; DP: 2; type: Recovery; action: Main.
+- Tier level: 1; DP: 2; type: Recovery, Skill; action: Main.
+- Requires: Life 1. Roll: Knowledge.
+- Acquisition equipment: None.
+
+Requires a wound listing Bone treatment. Self or willing adjacent subject; one hour, once per wound per day across all healers. Add 1/2/3 recovery progress; reaching the printed RV removes exactly its listed lasting effects, never the scar. No HP restoration, condition extinguishing, or regrowth. Tier, Life 1 requirement, attribute, and one-hour interval are provisional test fixtures.
+
+## Elemental Wound Treatment (`elemental`)
+
+- Tier level: 1; DP: 2; type: Recovery, Skill; action: Main.
+- Requires: Life 1. Roll: Knowledge.
+- Acquisition equipment: None.
+
+Requires a wound listing Elemental treatment. Self or willing adjacent subject; one hour, once per wound per day across all healers. Add 1/2/3 recovery progress; reaching the printed RV removes exactly its listed lasting effects, never the scar. No HP restoration, condition extinguishing, or regrowth. Tier, Life 1 requirement, attribute, and one-hour interval are provisional test fixtures.
+
+## Mental Wound Treatment (`mental`)
+
+- Tier level: 1; DP: 2; type: Recovery, Skill; action: Main.
 - Requires: Life 1. Roll: Guile.
 - Acquisition equipment: None.
 
-Treat one mental wound for one hour, once per wound per day, self or willing nearby subject. Add 1/2/3 treatment progress. Wound target determines relief; scar remains.
+Requires a wound listing Mental treatment. Self or willing adjacent subject; one hour, once per wound per day across all healers. Add 1/2/3 recovery progress; reaching the printed RV removes exactly its listed lasting effects, never the scar. No HP restoration, condition extinguishing, or regrowth. Tier, Life 1 requirement, attribute, and one-hour interval are provisional test fixtures.
+
+## Radiant Wound Treatment (`radiant`)
+
+- Tier level: 1; DP: 2; type: Recovery, Skill; action: Main.
+- Requires: Life 1. Roll: Reason.
+- Acquisition equipment: None.
+
+Requires a wound listing Radiant treatment. Self or willing adjacent subject; one hour, once per wound per day across all healers. Add 1/2/3 recovery progress; reaching the printed RV removes exactly its listed lasting effects, never the scar. No HP restoration, condition extinguishing, or regrowth. Tier, Life 1 requirement, attribute, and one-hour interval are provisional test fixtures.
+
+## Life Wound Treatment (`life_wound`)
+
+- Tier level: 1; DP: 2; type: Recovery, Skill; action: Main.
+- Requires: Life 1. Roll: Reason.
+- Acquisition equipment: None.
+
+Requires a wound listing Life treatment. Self or willing adjacent subject; one hour, once per wound per day across all healers. Add 1/2/3 recovery progress; reaching the printed RV removes exactly its listed lasting effects, never the scar. No HP restoration, condition extinguishing, or regrowth. Tier, Life 1 requirement, attribute, and one-hour interval are provisional test fixtures.
+
+## Ordinary Recipes (`recipes`)
+
+- Tier level: 1; DP: 2; type: Crafting; action: Passive.
+- Requires: Known compatible crafting ability. Roll: None.
+- Acquisition equipment: None.
+
+Acquire two additional ordinary recipes compatible with a crafting ability already known. 2 DP, repeatable. No duplicate recipes, ingredients, or equipment granted; exceptional recipes excluded. Choices must exist in the catalog.
 
 ## Grapple (`grapple`)
 
@@ -241,7 +297,7 @@ Treat one mental wound for one hour, once per wound per day, self or willing nea
 - Requires: Melee 1. Roll: Brawn.
 - Acquisition equipment: None.
 
-Adjacent target; add Grappled 1/2/3 to target and equal own contribution. Main, instant application, persists until released or reduced. Different grapplers add on target; release own contribution free. Player defense against NPC version: Brawn.
+Adjacent target; add Grappled 1/2/3 to target and equal own contribution. Main, instant application, persists until released or reduced. Different grapplers add on target; release own contribution free. Attacks against any Grappled creature gain one Boon per its rating, including the grappler. Player defense against NPC version: Brawn.
 
 ## Staggering Blow (`daze`)
 
@@ -249,7 +305,7 @@ Adjacent target; add Grappled 1/2/3 to target and equal own contribution. Main, 
 - Requires: Melee 2. Roll: Brawn.
 - Acquisition equipment: melee.
 
-Adjacent target, melee weapon. Physical 3/4/6; Standard Dazed 1, Strong Dazed 2 until end of target next turn. Weak no Dazed. Repeatable; excluded baseline.
+Adjacent target, melee weapon. Physical 3/4/6; Standard Dazed 1, Strong Dazed 2; decays 1 at the end of each affected turn. Weak no Dazed. Repeatable; excluded baseline.
 
 ## Expose Enemies (`expose`)
 
@@ -265,7 +321,7 @@ One visible enemy within 6. Weak next allied attack against it gains Boon before
 - Requires: Summon 1. Roll: None.
 - Acquisition equipment: None.
 
-Main, no roll. Place companion in free visible square within 3: HP 6, Speed 5, resistance 0. Its Main adjacent attack uses controller Knowledge for physical 3/4/6; it may use universal Defend. Duration one combat or ten minutes. Summoning grants immediate Main command; no Reaction or summoning. See command rules.
+Main, no roll. Place companion in free visible square within 3: HP 6, Speed 5, resistance 0. Its Main adjacent attack uses controller Knowledge for physical 3/4/6; it may use universal Defend. Duration one combat or ten minutes. Summoning grants immediate Main command; no Reaction or summoning. Immediately disappears beyond 6 squares from controller, including forced movement of either. See command rules.
 
 ## Sweeping Strike (`adept_strike`)
 
@@ -385,7 +441,7 @@ Before an adjacent ally is attacked, become the target if legal. Resolve normall
 - Requires: Protector. Roll: None.
 - Acquisition equipment: None.
 
-While your Defend is active, you have physical resistance 4. Use the highest matching resistance, not a sum.
+While your Defend is active, you have physical resistance 3. Use the highest matching resistance, not a sum.
 
 ## Safe Passage (`sig_protector_7_1`)
 
@@ -401,7 +457,7 @@ Each willing ally within 3 squares may immediately move up to their Speed withou
 - Requires: Protector. Roll: None.
 - Acquisition equipment: None.
 
-Before an adjacent ally suffers a physical attack, become its target if legal and use physical resistance 6 for that attack. Resolve your own defense normally. Instant.
+Before an adjacent ally suffers a physical attack, become its target if legal and use physical resistance 3 for that attack. Resolve your own defense normally. Instant.
 
 ## Footwork (`sig_blade_1_0`)
 
@@ -553,7 +609,7 @@ Before your defense roll against a magical attack, gain two Boons to that roll. 
 - Requires: Shepherd. Roll: None.
 - Acquisition equipment: None.
 
-Your Strong healing outcome may instead end one level of Poisoned on the recipient as its benefit.
+Your Strong healing outcome additionally reduces Poisoned on its recipient by 1.
 
 ## Guiding Voice (`sig_shepherd_1_1`)
 
@@ -577,7 +633,7 @@ When you Defend, one willing adjacent ally may move 1 square without provoking, 
 - Requires: Shepherd. Roll: Reason.
 - Acquisition equipment: None.
 
-One willing target within 3, including self. Restore half maximum HP rounded up/full/full. Each outcome also reduces one of Burning, Freezing, Bleeding or Poisoned by 1; Strong reduces it by 2 instead. Instant; repeatable; magical healing. No restoration of dead or Last Words.
+One target within 3, including self. Pay 3 HP before casting; must remain above 0; resistance cannot reduce this cost. Restore 5/10/15 HP after Life resistance, minimum 1. Each outcome also reduces one of Burning, Freezing, Bleeding or Poisoned by 1; Strong reduces it by 2 instead. Instant; repeatable; magical healing. No restoration of dead or Last Words.
 
 ## Guiding Choir (`sig_shepherd_3_1`)
 
@@ -601,7 +657,7 @@ You may use Reason instead of Fortitude for your death rolls. Choose before roll
 - Requires: Shepherd. Roll: Reason.
 - Acquisition equipment: None.
 
-One willing target within 3, including self. Restore half maximum HP rounded up/full/full. Each outcome also ends one of Burning, Freezing, Bleeding or Poisoned; Strong ends a second of these conditions. Repeatable; magical healing; no restoration of dead, Last Words, or scars.
+One target within 3, including self. Pay 7 HP before casting; must remain above 0; resistance cannot reduce this cost. Restore 8/16/24 HP after Life resistance, minimum 1. Each outcome also ends one of Burning, Freezing, Bleeding or Poisoned; Strong ends a second of these conditions. Repeatable; magical healing; no restoration of dead, Last Words, or scars.
 
 ## Chorus of Guidance (`sig_shepherd_7_1`)
 
@@ -633,7 +689,7 @@ Once per scene after examining a mundane obstacle for one minute, learn its cumu
 - Requires: Intellect. Roll: None.
 - Acquisition equipment: None.
 
-On a Strong observation result, ask one additional question about the observed evidence; DA answers truthfully within what it can reveal.
+On a Strong Reason roll to examine evidence, ask one additional question about the observed evidence; DA answers truthfully within what it can reveal.
 
 ## Method (`sig_intellect_1_2`)
 

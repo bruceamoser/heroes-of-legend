@@ -2,8 +2,9 @@
 
 **Agreed:** Specialist cards supply permission. Every crafted product requires a
 recipe, normally found or derived. Acquiring a crafting card grants a selection
-of compatible recipes. Recipe count is unresolved; this kit provisionally grants
-**two ordinary recipes**. Recipes are reusable and may be shared; no group crafting
+of **two compatible ordinary recipes**. Ordinary Recipes costs **2 DP** for two
+additional compatible ordinary recipes; repeatable, requires the appropriate
+crafting ability. Recipes are reusable and may be shared; no group crafting
 or derivation. Materials normally come from foraging rather than assumed carried
 stock. Carrying material bundles counts Bulk and checks their inventory die per use.
 

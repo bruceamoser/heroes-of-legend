@@ -34,7 +34,7 @@ def main():
    assert not c.get('class_only') or c['class_only']==b['class_name']
    assert c['level']<=b['level']
  counts['build_snapshots']=len(builds)
- scenarios=sum([load(OUT/n) for n in ['combat.json','refinement.json','advanced.json','healing-timing.json']],[])
+ scenarios=sum([load(OUT/n) for n in ['combat.json','refinement.json','advanced.json','healing-timing.json','revision.json']],[])
  ids=[]
  for r in scenarios:
   assert r['trials']>0
@@ -46,7 +46,7 @@ def main():
   assert 1<=r['rounds']<=40
   ids.append(r['id'])
  counts['scenario_records']=len(scenarios)
- campaign=load(OUT/'campaigns.json');manifest=load(OUT/'manifest.json')
+ campaign=load(OUT/'campaigns.json')+load(OUT/'wound-campaigns.json');manifest=load(OUT/'manifest.json')
  assert manifest['isolated_encounters']==sum(r['trials'] for r in scenarios)
  assert manifest['total_encounters']==manifest['isolated_encounters']+sum(r['reached'] for r in campaign)
  assert manifest['build_snapshots']==len(builds)
@@ -54,12 +54,14 @@ def main():
  counts['total_encounters']=manifest['total_encounters']
  for name,digest in manifest['input_sha256'].items():assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest,('changed input',name)
  counts['input_hashes']=len(manifest['input_sha256'])
+ for name,digest in manifest['output_sha256'].items():assert hashlib.sha256((OUT/name).read_bytes()).hexdigest()==digest,('changed output',name)
+ assert hashlib.sha256((ROOT/'history/v0.1.tar.gz').read_bytes()).hexdigest()==manifest['historical_archive_sha256']
  if args.replay:
   from combat import run
   output={'id','trials','win','loss','timeout','rounds','any_wound','wounds','any_terminal','grit','heals','healed_hp','potions','attacks','enemy_attacks','opportunities','interrupted','enemy_heals','burn_ticks','win_rounds'}
   selected={}
   for r in scenarios:
-   key=(r['group'],r.get('layer'),r.get('composition'))
+   key=(r['group'],r.get('layer'),r.get('composition'),r.get('case'),r.get('active_wounds'),r.get('enemy_type'))
    selected.setdefault(key,r)
   for r in selected.values():
    inputs=r['scenario']
