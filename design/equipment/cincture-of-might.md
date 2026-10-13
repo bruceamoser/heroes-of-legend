@@ -10,6 +10,8 @@
 
 Brawn +1 while worn. Does not stack with another positive Brawn item; does not change creation DP or class eligibility.
 
-Apply this item’s printed benefit only; it grants no ability or action beyond what it states. No DP purchase; found or bought for coins at a DA-set price. No special recipe is supplied by owning it.
+Apply this item’s printed benefit only; it grants no ability or action beyond what it states. No DP purchase; found or bought when the DA makes it available. No special recipe is supplied by owning it.
 
 [Equipment index](../equipment.md)
+
+**Market price:** 500 coins (special-order benchmark; availability is not guaranteed). Proposal; see [market rules](../market.md).

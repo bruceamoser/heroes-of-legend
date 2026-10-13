@@ -32,7 +32,8 @@ card chains. Receive one chosen class signature at 3 and 7; only class and level
 qualify it. No multiclassing or access to another class’s signatures.
 
 Coins are one currency. Starting coins depend on base, ancestry, background and
-class, but the exact numbers are not established here. Starting usable equipment
+class, but the exact numbers are not established here. See the [proposed market](market.md) for prices and budget comparisons; its new
+starting-outfit convention remains a proposal. Starting usable equipment
 comes from explicit card grants. Potions are not silently included in everyone’s kit.
 
 ## Ledger to copy

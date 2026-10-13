@@ -10,6 +10,8 @@
 
 Gain 1 Boon to inspecting an accessible small object while holding the glass; not distant detection.
 
-Apply this item’s printed benefit only; it grants no ability or action beyond what it states. No DP purchase; found or bought for coins at a DA-set price. No special recipe is supplied by owning it.
+Apply this item’s printed benefit only; it grants no ability or action beyond what it states. No DP purchase; found or bought when the DA makes it available. No special recipe is supplied by owning it.
 
 [Equipment index](../equipment.md)
+
+**Market price:** 100 coins (special-order benchmark; availability is not guaranteed). Proposal; see [market rules](../market.md).

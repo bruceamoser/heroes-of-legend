@@ -12,6 +12,8 @@
 
 Proposed light radius: the bearer’s square and all squares within 3 squares. Lighting or extinguishing costs a Maneuver and requires a free hand; carrying a lit torch occupies that hand. One check per hour of use. Ordinary light reveals what could be seen, not Hidden targets automatically.
 
-No DP price. Coin prices remain unassigned pending economy review.
+No DP price. Purchase does not grant training or an ability.
 
 [Equipment index](../equipment.md)
+
+**Market price:** 5 coins. Proposal; see [market rules](../market.md).
