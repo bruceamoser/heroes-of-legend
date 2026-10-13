@@ -20,7 +20,8 @@ This is an authoring draft, not a claim that every option has been approved or t
 5. [Catalog](catalog.md): all universal references, shared abilities and signatures.
 6. [Equipment](equipment.md), [recipes](recipes.md), [wounds and treatment](rules/recovery.md).
 7. [Six complete level-1 characters](characters/README.md), [earlier worked characters](starter-characters.md), and [example scenes](example-scenes.md).
-8. [Open decisions](open-decisions.md), [reference research](references.md), [coverage](coverage.md).
+8. [Bestiary](bestiary/README.md): 84 creatures, 34 separate monster abilities and 43 summon choices.
+9. [Open decisions](open-decisions.md), [reference research](references.md), [coverage](coverage.md).
 
 ## Editing
 
@@ -76,3 +77,10 @@ in the starting-coins reference.
 
 [Starting coins](starting-coins.md) now proposes contributions within the agreed
 50–70 target and completes the six characters’ paid shopping ledgers.
+
+## Bestiary draft
+
+The [creature roster](bestiary/roster.md) now supplies a complete first core selection
+for adventures and summoning. Read its [review notes](bestiary/review.md) before using
+provisional CV budgets. Monster capabilities live separately from player abilities;
+this pass does not change the 350-card character catalog.
