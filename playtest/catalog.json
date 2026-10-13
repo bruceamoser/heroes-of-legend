@@ -509,14 +509,15 @@
         "Recovery",
         "Magic"
       ],
-      "text": "One creature within 3, including self. Pay 1 HP before casting, bypassing resistance; must remain above 0. Restore 3/6/9 HP, reduced by Life resistance to minimum 1, capped at missing HP. No extra Strong benefit. Healing-harmed creatures take the result as Life damage. Main, instant, repeatable; cannot restore the dead or end Last Words.",
+      "text": "Requires a free hand. One creature within 3, including self. Pay 1 HP before casting, bypassing resistance; must remain above 0. Restore 3/6/9 HP, reduced by Life resistance to minimum 1, capped at missing HP. No extra Strong benefit. Healing-harmed creatures take the result as Life damage. Main, instant, repeatable; cannot restore the dead or end Last Words.",
       "gear": [],
       "healing": [
         3,
         6,
         9
       ],
-      "hp_cost": 1
+      "hp_cost": 1,
+      "free_hand": true
     },
     "adept_heal": {
       "name": "Greater Mend",
@@ -531,14 +532,15 @@
         "Recovery",
         "Magic"
       ],
-      "text": "One target within 3, including self. Pay 3 HP before casting, bypassing resistance; must remain above 0. Restore 5/10/15 HP, reduced by Life resistance to minimum 1, capped at missing HP. Healing-harmed creatures take this as Life damage. Main, instant, repeatable; no revival or Last Words reversal. Proposed higher-tier baseline; other benefits require individual cards.",
+      "text": "Requires a free hand. One target within 3, including self. Pay 3 HP before casting, bypassing resistance; must remain above 0. Restore 5/10/15 HP, reduced by Life resistance to minimum 1, capped at missing HP. Healing-harmed creatures take this as Life damage. Main, instant, repeatable; no revival or Last Words reversal. Proposed higher-tier baseline; other benefits require individual cards.",
       "gear": [],
       "healing": [
         5,
         10,
         15
       ],
-      "hp_cost": 3
+      "hp_cost": 3,
+      "free_hand": true
     },
     "master_heal": {
       "name": "Deep Restoration",
@@ -553,14 +555,15 @@
         "Recovery",
         "Magic"
       ],
-      "text": "One target within 3, including self. Pay 7 HP before casting, bypassing resistance; must remain above 0. Restore 8/16/24 HP, reduced by Life resistance to minimum 1, capped at missing HP. Healing-harmed creatures take this as Life damage. Main, instant, repeatable; no revival or Last Words reversal. Proposed higher-tier baseline; other benefits require individual cards.",
+      "text": "Requires a free hand. One target within 3, including self. Pay 7 HP before casting, bypassing resistance; must remain above 0. Restore 8/16/24 HP, reduced by Life resistance to minimum 1, capped at missing HP. Healing-harmed creatures take this as Life damage. Main, instant, repeatable; no revival or Last Words reversal. Proposed higher-tier baseline; other benefits require individual cards.",
       "gear": [],
       "healing": [
         8,
         16,
         24
       ],
-      "hp_cost": 7
+      "hp_cost": 7,
+      "free_hand": true
     },
     "dressing": {
       "name": "Field Dressing",
@@ -1643,7 +1646,7 @@
         "Recovery",
         "Magic"
       ],
-      "text": "One target within 3, including self. Pay 3 HP before casting; must remain above 0; resistance cannot reduce this cost. Restore 5/10/15 HP after Life resistance, minimum 1. Each outcome also reduces one of Burning, Freezing, Bleeding or Poisoned by 1; Strong reduces it by 2 instead. Instant; repeatable; magical healing. No restoration of dead or Last Words.",
+      "text": "Requires a free hand. One target within 3, including self. Pay 3 HP before casting; must remain above 0; resistance cannot reduce this cost. Restore 5/10/15 HP after Life resistance, minimum 1. Each outcome also reduces one of Burning, Freezing, Bleeding or Poisoned by 1; Strong reduces it by 2 instead. Instant; repeatable; magical healing. No restoration of dead or Last Words.",
       "gear": [],
       "class_only": "Shepherd",
       "healing": [
@@ -1651,7 +1654,8 @@
         10,
         15
       ],
-      "hp_cost": 3
+      "hp_cost": 3,
+      "free_hand": true
     },
     "sig_shepherd_3_1": {
       "name": "Guiding Choir",
@@ -1695,7 +1699,7 @@
         "Recovery",
         "Magic"
       ],
-      "text": "One target within 3, including self. Pay 7 HP before casting; must remain above 0; resistance cannot reduce this cost. Restore 8/16/24 HP after Life resistance, minimum 1. Each outcome also ends one of Burning, Freezing, Bleeding or Poisoned; Strong ends a second of these conditions. Repeatable; magical healing; no restoration of dead, Last Words, or scars.",
+      "text": "Requires a free hand. One target within 3, including self. Pay 7 HP before casting; must remain above 0; resistance cannot reduce this cost. Restore 8/16/24 HP after Life resistance, minimum 1. Each outcome also ends one of Burning, Freezing, Bleeding or Poisoned; Strong ends a second of these conditions. Repeatable; magical healing; no restoration of dead, Last Words, or scars.",
       "gear": [],
       "class_only": "Shepherd",
       "healing": [
@@ -1703,7 +1707,8 @@
         16,
         24
       ],
-      "hp_cost": 7
+      "hp_cost": 7,
+      "free_hand": true
     },
     "sig_shepherd_7_1": {
       "name": "Chorus of Guidance",

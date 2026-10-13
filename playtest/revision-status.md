@@ -42,3 +42,16 @@ claim of full tactical simulation. Level-1 signature board tests remain next.
 Perception/detection, mixed starred/temporary condition tracking, crowded forced
 movement geometry, and exact opportunity-interruption rules remain separate design
 questions. Tests declare assumptions rather than importing legacy rules.
+
+## Subsequent hand-access correction (issues #1130–1131)
+
+The catalog now explicitly requires free hands for spell/potion healing. The v0.2
+range-free simulator did not enforce that rule, so its potion and healer-access
+results are historical controls, not current access predictions. Its full source
+and results are preserved at commit fc700c1 and [history/v0.2.tar.gz](history/v0.2.tar.gz).
+The old input-hash verifier will correctly detect changed rules in this checkout;
+use the archived tree to reproduce that study rather than overwriting its hashes.
+
+Current hand/position findings and their separate provenance are under
+[tactical](tactical/README.md). That model does not certify every tactical rule;
+its contract lists unresolved collision groups and other limitations explicitly.

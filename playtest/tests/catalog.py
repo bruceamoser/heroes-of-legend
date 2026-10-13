@@ -137,6 +137,8 @@ for id,profile,cost in [('sig_shepherd_3_0',[5,10,15],3),('sig_shepherd_7_0',[8,
 # its own unwilling-recipient restriction rather than imposing willingness here.
 for c in CARDS.values():
  if 'healing' in c:
+  c['free_hand']=True
+  c['text']='Requires a free hand. '+c['text']
   c['text']=c['text'].replace('One willing creature','One creature').replace('One willing target','One target')
 CAT=dict(attributes=ATTR,disciplines=DISC,ancestries=ANCESTRY,classes=CLASSES,cards=CARDS,cultures=CULTURES,backgrounds=BACKGROUNDS)
 def render():

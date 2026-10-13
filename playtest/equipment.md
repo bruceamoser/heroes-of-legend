@@ -52,3 +52,15 @@ potions, and must count them in Bulk. No default pricing/resale schedule is adop
 
 Greater and Superior potions restore 10 and 16 HP respectively. Supply die is
 independent of strength; all restore Life energy, minimum 1 after resistance.
+
+## Free hands — Agreed
+
+Healing spells and potion use require a free hand. A bow, two-handed weapon, or
+melee weapon plus shield occupies both hands. Free a hand before use: dropping is
+free; proper stowing costs a Maneuver. A dropped weapon must be picked up with a
+Maneuver; drawing as part of an attack applies to a stowed weapon, not one on the
+ground. Potion inventory is checked after the effect: d4 has a 25% chance to empty
+after each use, including the first. Strength is intentionally powerful.
+
+The [mapped experiments](tactical/README.md) compare explicit equipment policies;
+they do not assume a free two-handed grip-release exception.

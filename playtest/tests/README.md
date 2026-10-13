@@ -1,5 +1,9 @@
 # Reproducing the v0.2 tests
 
+**Historical range-free study:** use commit fc700c1 or the v0.2 archive to reproduce
+these exact inputs. Current hand-aware tests live in [tactical](../tactical/README.md).
+Do not refresh this study’s hashes against later free-hand rules.
+
 Python standard library only; run from repository root:
 
 ```bash

@@ -81,7 +81,7 @@ Cast from your square. Choose a cardinal direction; affect a rectangle 3 squares
 - Requires: Life 1. Roll: Reason.
 - Acquisition equipment: None.
 
-One creature within 3, including self. Pay 1 HP before casting, bypassing resistance; must remain above 0. Restore 3/6/9 HP, reduced by Life resistance to minimum 1, capped at missing HP. No extra Strong benefit. Healing-harmed creatures take the result as Life damage. Main, instant, repeatable; cannot restore the dead or end Last Words.
+Requires a free hand. One creature within 3, including self. Pay 1 HP before casting, bypassing resistance; must remain above 0. Restore 3/6/9 HP, reduced by Life resistance to minimum 1, capped at missing HP. No extra Strong benefit. Healing-harmed creatures take the result as Life damage. Main, instant, repeatable; cannot restore the dead or end Last Words.
 
 ## Greater Mend (`adept_heal`)
 
@@ -89,7 +89,7 @@ One creature within 3, including self. Pay 1 HP before casting, bypassing resist
 - Requires: Life 2. Roll: Reason.
 - Acquisition equipment: None.
 
-One target within 3, including self. Pay 3 HP before casting, bypassing resistance; must remain above 0. Restore 5/10/15 HP, reduced by Life resistance to minimum 1, capped at missing HP. Healing-harmed creatures take this as Life damage. Main, instant, repeatable; no revival or Last Words reversal. Proposed higher-tier baseline; other benefits require individual cards.
+Requires a free hand. One target within 3, including self. Pay 3 HP before casting, bypassing resistance; must remain above 0. Restore 5/10/15 HP, reduced by Life resistance to minimum 1, capped at missing HP. Healing-harmed creatures take this as Life damage. Main, instant, repeatable; no revival or Last Words reversal. Proposed higher-tier baseline; other benefits require individual cards.
 
 ## Deep Restoration (`master_heal`)
 
@@ -97,7 +97,7 @@ One target within 3, including self. Pay 3 HP before casting, bypassing resistan
 - Requires: Life 3. Roll: Reason.
 - Acquisition equipment: None.
 
-One target within 3, including self. Pay 7 HP before casting, bypassing resistance; must remain above 0. Restore 8/16/24 HP, reduced by Life resistance to minimum 1, capped at missing HP. Healing-harmed creatures take this as Life damage. Main, instant, repeatable; no revival or Last Words reversal. Proposed higher-tier baseline; other benefits require individual cards.
+Requires a free hand. One target within 3, including self. Pay 7 HP before casting, bypassing resistance; must remain above 0. Restore 8/16/24 HP, reduced by Life resistance to minimum 1, capped at missing HP. Healing-harmed creatures take this as Life damage. Main, instant, repeatable; no revival or Last Words reversal. Proposed higher-tier baseline; other benefits require individual cards.
 
 ## Field Dressing (`dressing`)
 
@@ -633,7 +633,7 @@ When you Defend, one willing adjacent ally may move 1 square without provoking, 
 - Requires: Shepherd. Roll: Reason.
 - Acquisition equipment: None.
 
-One target within 3, including self. Pay 3 HP before casting; must remain above 0; resistance cannot reduce this cost. Restore 5/10/15 HP after Life resistance, minimum 1. Each outcome also reduces one of Burning, Freezing, Bleeding or Poisoned by 1; Strong reduces it by 2 instead. Instant; repeatable; magical healing. No restoration of dead or Last Words.
+Requires a free hand. One target within 3, including self. Pay 3 HP before casting; must remain above 0; resistance cannot reduce this cost. Restore 5/10/15 HP after Life resistance, minimum 1. Each outcome also reduces one of Burning, Freezing, Bleeding or Poisoned by 1; Strong reduces it by 2 instead. Instant; repeatable; magical healing. No restoration of dead or Last Words.
 
 ## Guiding Choir (`sig_shepherd_3_1`)
 
@@ -657,7 +657,7 @@ You may use Reason instead of Fortitude for your death rolls. Choose before roll
 - Requires: Shepherd. Roll: Reason.
 - Acquisition equipment: None.
 
-One target within 3, including self. Pay 7 HP before casting; must remain above 0; resistance cannot reduce this cost. Restore 8/16/24 HP after Life resistance, minimum 1. Each outcome also ends one of Burning, Freezing, Bleeding or Poisoned; Strong ends a second of these conditions. Repeatable; magical healing; no restoration of dead, Last Words, or scars.
+Requires a free hand. One target within 3, including self. Pay 7 HP before casting; must remain above 0; resistance cannot reduce this cost. Restore 8/16/24 HP after Life resistance, minimum 1. Each outcome also ends one of Burning, Freezing, Bleeding or Poisoned; Strong ends a second of these conditions. Repeatable; magical healing; no restoration of dead, Last Words, or scars.
 
 ## Chorus of Guidance (`sig_shepherd_7_1`)
 
