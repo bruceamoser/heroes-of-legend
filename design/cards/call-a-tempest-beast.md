@@ -1,5 +1,9 @@
 # Call a Tempest Beast
 
+*You raise both arms into the wind. Air coils into a beast’s outline beside you, its limbs flickering with lightning as it turns toward your command.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
 **Target / range / shape:** One free visible square within 3 squares
@@ -16,7 +20,7 @@ Creature: HP 12, Speed 6, resistance 0. Its Main attack affects one adjacent cre
 
 **Type:** Magic
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** call-a-tempest-beast · **Status:** Proposal — fresh design; not approved or balance-tested.
 

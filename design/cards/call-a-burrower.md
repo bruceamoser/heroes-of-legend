@@ -1,5 +1,9 @@
 # Call a Burrower
 
+*You tap the earth, and something eager shoulders its way into the light.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
 **Target / range / shape:** One free visible square within 3 squares
@@ -12,11 +16,11 @@ Creature: HP 5, Speed 4, resistance 0. Its Main attack affects one adjacent crea
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Calling 1
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Calling 1 and Wilderness 1
 
 **Type:** Magic
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** call-a-burrower · **Status:** Proposal — fresh design; not approved or balance-tested.
 

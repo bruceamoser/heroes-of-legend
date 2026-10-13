@@ -16,10 +16,10 @@ Make someone ask whether they saw what they think they saw. An illusory doorway 
 
 ## Give it room to grow
 
-- At level 3, [Borrowed Silhouette](../cards/borrowed-silhouette.md) opens another way to affect the scene.
-- At level 7, [A Company of Reflections](../cards/a-company-of-reflections.md) offers a larger moment.
+- At level 3, [Borrowed Silhouette](../cards/borrowed-silhouette.md) (Mind 2) opens another way to affect the scene.
+- At level 7, [A Company of Reflections](../cards/a-company-of-reflections.md) (Mind 2 and Guard 2) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Fey Envoy](fey-envoy.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

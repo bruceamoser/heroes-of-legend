@@ -1,18 +1,20 @@
 # Breath of the Wyrmling
 
-*Something ancient smiles when you open your mouth.*
+*You draw a breath that burns pleasantly in your chest, then open your mouth and breathe a stream of fire across the ground ahead.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Fortitude
 
 **Target / range / shape:** Every other creature in three contiguous squares in a straight line from you.
 
-Breathe fire. Roll once using the worst applicable situation; include allies in the line.
+Breathe fire. Make one roll using the net Boons or Banes least favorable to you among the targets; include allies in the line.
 
 - **Weak:** 3 fire damage.
 - **Standard:** 3 fire damage and Burning 1.
 - **Strong:** 5 fire damage and Burning 1.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,7 +24,7 @@ Breathe fire. Roll once using the worst applicable situation; include allies in 
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** breath-of-the-wyrmling · **Status:** Proposal for Bruce’s review.
 

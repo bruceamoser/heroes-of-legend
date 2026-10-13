@@ -1,5 +1,9 @@
 # Dawn Shard
 
+*You cast a sliver of brightness that catches your foe like sunlight on broken glass.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One visible creature within 5 squares
@@ -10,7 +14,7 @@ The light lasts until the start of your next turn; it does not reveal a target t
 - **Standard:** 3 radiant damage; mark it with visible light.
 - **Strong:** 5 radiant damage; mark it and apply Blinded 1.
 
-**Duration:** Instant
+**Duration:** Damage is immediate; light lasts until the start of your next turn. Blinded decays normally.
 
 **Equipment / acquisition:** None.
 
@@ -20,7 +24,7 @@ The light lasts until the start of your next turn; it does not reveal a target t
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** dawn-shard · **Status:** Proposal — fresh design; not approved or balance-tested.
 

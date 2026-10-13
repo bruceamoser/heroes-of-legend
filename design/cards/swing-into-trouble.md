@@ -1,6 +1,8 @@
 # Swing into Trouble
 
-*The chandelier was never just decoration.*
+*You seize the hanging rope, kick away from your support and swing toward the landing, ready to shoulder aside anyone standing beside it.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Agility
 
@@ -12,7 +14,7 @@ Requires an actual usable support. No automatic extra attack. If the rolled dist
 - **Standard:** Swing 3 squares and push one adjacent creature at the landing 1 square.
 - **Strong:** Swing 4 squares; push that creature 2 squares and knock it prone.
 
-**Duration:** As stated in the effect
+**Duration:** Immediate movement and displacement.
 
 **Equipment / acquisition:** None.
 
@@ -22,7 +24,7 @@ Requires an actual usable support. No automatic extra attack. If the rolled dist
 
 **Type:** Skill / Utility
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** swing-into-trouble · **Status:** Proposal — fresh design; not approved or balance-tested.
 

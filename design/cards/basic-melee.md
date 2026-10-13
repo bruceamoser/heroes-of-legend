@@ -1,5 +1,9 @@
 # Basic Melee
 
+*You set your feet and bring your weapon around in a practiced strike.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Brawn
 
 **Target / range / shape:** One adjacent creature
@@ -20,7 +24,7 @@ Choose your target and make the attack.
 
 **Type:** Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** basic-melee · **Status:** Agreed universal permission; damage and ranged distances are proposals.
 

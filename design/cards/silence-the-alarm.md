@@ -1,5 +1,9 @@
 # Silence the Alarm
 
+*You see the breath gathering for a shout and move before the warning comes.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Agility
 
 **Target / range / shape:** One adjacent creature.
@@ -10,7 +14,7 @@ Strike before the warning can leave its mouth. Requires melee weapon. The silenc
 - **Standard:** 4 physical damage; the target cannot speak until the end of its next turn.
 - **Strong:** 6 physical damage and the same silence.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Speech restriction lasts until the end of the target’s next turn; damage is immediate.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -20,7 +24,7 @@ Strike before the warning can leave its mouth. Requires melee weapon. The silenc
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** silence-the-alarm · **Status:** Proposal for Bruce’s review.
 

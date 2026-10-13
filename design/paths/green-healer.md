@@ -16,10 +16,10 @@ Choose who needs your strength and what else they need besides HP: less bleeding
 
 ## Give it room to grow
 
-- At level 3, [A Bough for the Fallen](../cards/a-bough-for-the-fallen.md) opens another way to affect the scene.
-- At level 7, [The Grove Gives Back](../cards/the-grove-gives-back.md) offers a larger moment.
+- At level 3, [A Bough for the Fallen](../cards/a-bough-for-the-fallen.md) (Life 2 and Wilderness 1) opens another way to affect the scene.
+- At level 7, [The Grove Gives Back](../cards/the-grove-gives-back.md) (Life 3 and Wilderness 1) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Root Keeper](root-keeper.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

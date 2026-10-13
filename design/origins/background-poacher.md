@@ -1,8 +1,10 @@
 # Poacher
 
-A forbidden boundary never made a hungry household less hungry.
+*A forbidden boundary never made a hungry household less hungry.*
 
 *Who looked the other way for you?*
+
+## Rules
 
 Choose one:
 

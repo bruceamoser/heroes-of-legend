@@ -1,8 +1,10 @@
 # Deep Halls
 
-Homes, gardens and markets fill the chambers beneath the hills; the surface is only one neighborhood.
+*Homes, gardens and markets fill the chambers beneath the hills; the surface is only one neighborhood.*
 
 *What does your home smell like after the forge fires dim?*
+
+## Rules
 
 Choose one:
 

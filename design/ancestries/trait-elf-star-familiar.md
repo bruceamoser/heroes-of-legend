@@ -1,6 +1,8 @@
 # Dream beneath the Stars
 
-*Your body rests while part of you walks old paths.*
+*You settle beneath the stars with your eyes half open, letting old memories drift through the sounds of the waking camp.*
+
+## Rules
 
 You may rest in a quiet waking reverie instead of sleeping, remaining aware of nearby ordinary sights and sounds. It grants no automatic detection, extra downtime work, shorter treatment interval or Grit recovery. Magical Asleep still works normally.
 

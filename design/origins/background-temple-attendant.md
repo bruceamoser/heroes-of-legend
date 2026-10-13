@@ -1,8 +1,10 @@
 # Temple Attendant
 
-You have swept the steps and held the hands of people whose prayers had no words left.
+*You have swept the steps and held the hands of people whose prayers had no words left.*
 
 *What promise outlasted your service?*
+
+## Rules
 
 Choose one:
 

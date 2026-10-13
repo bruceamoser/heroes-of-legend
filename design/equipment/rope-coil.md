@@ -1,5 +1,9 @@
 # Rope Coil
 
+*You shake out a loop and test the fibers between your hands.*
+
+## Rules
+
 - **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-rope-coil
 - **Bulk:** 1

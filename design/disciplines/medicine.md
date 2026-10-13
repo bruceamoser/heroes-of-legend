@@ -1,5 +1,9 @@
 # Medicine
 
+*You learn to recognize hurt, and to remain patient when the injured cannot.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-medicine.
 
 Nonmagical wound treatment and condition care.

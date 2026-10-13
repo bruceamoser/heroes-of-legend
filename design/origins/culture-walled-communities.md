@@ -1,8 +1,10 @@
 # Walled Communities
 
-Your home knows the comfort of a gate and the danger of believing it solves everything.
+*Your home knows the comfort of a gate and the danger of believing it solves everything.*
 
 *Who always greeted you from the wall?*
+
+## Rules
 
 **Type:** Culture. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
 

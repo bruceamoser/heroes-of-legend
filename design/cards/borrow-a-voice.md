@@ -1,6 +1,8 @@
 # Borrow a Voice
 
-*The guard hears his name from the empty stairwell.*
+*You whisper into your cupped hand and cast the sound toward the empty stairwell. Your words emerge from the place you point to.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
@@ -12,7 +14,7 @@ Lasts only long enough to deliver the sound. No mind control or automatic decept
 - **Standard:** Create one short phrase in your own voice.
 - **Strong:** Create one short phrase in a voice you have heard.
 
-**Duration:** As stated in the effect
+**Duration:** One brief sound or short phrase, then the effect ends.
 
 **Equipment / acquisition:** None.
 
@@ -22,7 +24,7 @@ Lasts only long enough to deliver the sound. No mind control or automatic decept
 
 **Type:** Magic / Utility
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** borrow-a-voice · **Status:** Proposal — fresh design; not approved or balance-tested.
 

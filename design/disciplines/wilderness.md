@@ -1,5 +1,9 @@
 # Wilderness
 
+*You learn to read a living landscape and find your place within it.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-wilderness.
 
 Environment-specific foraging and outdoor expertise.

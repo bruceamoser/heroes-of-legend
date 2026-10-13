@@ -1,5 +1,9 @@
 # Marksmanship
 
+*You practice until the distant mark feels connected to the movement of your hand.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-marksmanship.
 
 Ranged and thrown techniques, including precise placement.

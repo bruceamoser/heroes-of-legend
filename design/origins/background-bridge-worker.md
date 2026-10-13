@@ -1,8 +1,10 @@
 # Bridge Worker
 
-You have trusted your weight to a knot you tied yourself.
+*You have trusted your weight to a knot you tied yourself.*
 
 *Who was beside you the first time the scaffolding shook?*
+
+## Rules
 
 **Type:** Background. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
 

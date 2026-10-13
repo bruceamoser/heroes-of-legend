@@ -1,8 +1,10 @@
 # Kennel Keeper
 
-The hounds knew your footsteps and the difference between your whistle and anyone else’s.
+*The hounds knew your footsteps and the difference between your whistle and anyone else’s.*
 
 *Which companion never came back from a hunt?*
+
+## Rules
 
 Choose one:
 

@@ -1,5 +1,9 @@
 # Move
 
+*You pick your route and go, boots finding the next patch of open ground.*
+
+## Rules
+
 **Action:** Movement · **Attribute:** None — no roll
 
 **Target / range / shape:** Self
@@ -16,7 +20,7 @@ Spend up to Speed in movement squares, split around your actions. Normal terrain
 
 **Type:** Universal
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** move · **Status:** Agreed foundation; any proposal is identified in the effect.
 

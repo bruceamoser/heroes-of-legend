@@ -1,6 +1,8 @@
 # Stubborn as Bedrock
 
-*Your ancestors did not dig a home from the mountain by yielding politely.*
+*You draw a deep breath, tighten the strap over your bruised shoulder and shoulder the load again.*
+
+## Rules
 
 Maximum HP +1. Gain no additional resistance from this trait.
 

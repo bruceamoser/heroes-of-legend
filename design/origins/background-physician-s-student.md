@@ -1,8 +1,10 @@
 # Physician’s Student
 
-Bones, bruises and patient observation taught you how a body works—and where it fails.
+*Bones, bruises and patient observation taught you how a body works—and where it fails.*
 
 *Who taught you to look twice?*
+
+## Rules
 
 Choose one:
 

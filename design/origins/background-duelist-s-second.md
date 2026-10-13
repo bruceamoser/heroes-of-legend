@@ -1,8 +1,10 @@
 # Duelist’s Second
 
-You carried the spare blade, watched every mistake, and sometimes prevented the duel entirely.
+*You carried the spare blade, watched every mistake, and sometimes prevented the duel entirely.*
 
 *Which duel should never have happened?*
+
+## Rules
 
 Choose one:
 

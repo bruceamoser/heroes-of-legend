@@ -1,5 +1,9 @@
 # Smoke Flask
 
+*You seal the cloudy mixture quickly, before the first acrid curl reaches your eyes.*
+
+## Rules
+
 The useful bottle is the one you prepared before you needed it.
 
 **Recipe permission:** [Smoke in a Bottle](../cards/smoke-in-a-bottle.md).

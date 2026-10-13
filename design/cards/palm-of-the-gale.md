@@ -1,6 +1,8 @@
 # Palm of the Gale
 
-*Your stance changes, and so does the weather.*
+*You plant your feet and strike with an open palm. A gust bursts from the motion and hits your opponent with the blow.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Fortitude
 
@@ -12,7 +14,7 @@ Release the breath you have been holding through an open palm. No weapon require
 - **Standard:** 3 physical damage and push 2.
 - **Strong:** 5 physical damage and push 3.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,7 +24,7 @@ Release the breath you have been holding through an open palm. No weapon require
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** palm-of-the-gale · **Status:** Proposal for Bruce’s review.
 

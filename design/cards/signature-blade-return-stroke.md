@@ -1,23 +1,29 @@
 # Return Stroke
 
+*You let the attack slide past your guard and bring your weapon back before your opponent recovers.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** An adjacent melee attacker, after you resolve a Standard or Strong defense against its attack.
 
-After a Strong defense against an adjacent melee attacker, make a free Basic Melee attack against it. Free attacks trigger no further free attacks.
+Make one free Basic Melee attack against it, rolling Brawn and using Basic Melee’s outcomes. You need a melee weapon and must still be able to attack. A triggering free attack cannot trigger this free attack. No further free attacks arise from your return stroke.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Immediate attack after the triggering attack resolves.
 
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** Requires a melee weapon; grants one ordinary melee weapon, Bulk 1, if absent.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Blade; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Blade; minimum level 3
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Attack
 
-**ID:** signature-blade-return-stroke · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-blade-return-stroke · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

@@ -1,12 +1,16 @@
 # Through the Spearpoints
 
+*You lower your head and commit to the narrow route through the reaching weapons.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
 **Target / range / shape:** Self.
 
-Move up to 3 squares toward a visible enemy. Until your next turn, reduce physical damage from opportunity attacks against this movement by 2, after resistance, minimum 1. You still provoke and resolve each attack.
+Move up to 3 squares toward a visible enemy along a legal route. You gain 1 Boon to physical defenses against opportunity attacks triggered by this movement. You still provoke and resolve those attacks. This adds no damage reduction beyond normal resistance.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Only during the movement granted by this card.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -16,7 +20,7 @@ Move up to 3 squares toward a visible enemy. Until your next turn, reduce physic
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** through-the-spearpoints · **Status:** Proposal for Bruce’s review.
 

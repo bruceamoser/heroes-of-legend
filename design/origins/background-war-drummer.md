@@ -1,8 +1,10 @@
 # War Drummer
 
-You know how to make frightened feet move together.
+*You know how to make frightened feet move together.*
 
 *Whose pace do you still hear beneath the beat?*
+
+## Rules
 
 Choose one:
 

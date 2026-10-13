@@ -1,8 +1,10 @@
 # Bargain Keeper
 
-You agreed to something in a place where the terms were hard to read.
+*You agreed to something in a place where the terms were hard to read.*
 
 *What part of the bargain are you determined to interpret generously?*
+
+## Rules
 
 Choose one:
 

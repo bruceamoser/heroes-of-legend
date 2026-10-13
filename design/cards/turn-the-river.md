@@ -1,12 +1,16 @@
 # Turn the River
 
+*You yield just enough to feel the force pass you, then guide it somewhere else.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
 **Target / range / shape:** Self, before defending against a visible adjacent physical attacker.
 
 Use Reason for this defense. On a Strong defense, you may pull the attacker 1 square toward your previous position after moving yourself 1 square to a free square without provoking. Both destinations must be legal.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -16,7 +20,7 @@ Use Reason for this defense. On a Strong defense, you may pull the attacker 1 sq
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** turn-the-river · **Status:** Proposal for Bruce’s review.
 

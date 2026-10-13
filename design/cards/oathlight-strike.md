@@ -1,6 +1,8 @@
 # Oathlight Strike
 
-*Your promise becomes something others can stand behind.*
+*You speak your oath and bring your weapon down in a flash of light. Part of that light gathers beside a companion, catching the next threat in its glow.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
@@ -9,10 +11,10 @@
 Speak the promise that guides your hand and strike with a melee weapon.
 
 - **Weak:** 2 physical and 1 radiant damage.
-- **Standard:** 2 physical and 1 radiant damage; one adjacent ally gains 1 Boon to its next defense before your next turn.
-- **Strong:** 3 physical and 2 radiant damage; the same ally may also move 1 square without provoking.
+- **Standard:** 2 physical and 1 radiant damage; one ally adjacent to you gains 1 Boon to its next defense before the start of your next turn.
+- **Strong:** 3 physical and 2 radiant damage; one ally adjacent to you gains 1 Boon to its next defense before the start of your next turn and may move 1 square without provoking.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -22,7 +24,7 @@ Speak the promise that guides your hand and strike with a melee weapon.
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** oathlight-strike · **Status:** Proposal for Bruce’s review.
 

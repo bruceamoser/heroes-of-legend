@@ -1,6 +1,8 @@
 # A Sign against Harm
 
-*Draw a line in the air and tell the danger where it ends.*
+*You draw a bright line in front of your companion. As the blow approaches, the line spreads into a brief ward across its path.*
+
+## Rules
 
 **Action:** Reaction · **Attribute:** None — no roll
 
@@ -8,7 +10,7 @@
 
 Trace a ward against this blow. Grant 1 Boon to the defense; no damage or resistance bonus is added.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -16,9 +18,9 @@ Trace a ward against this blow. Grant 1 Boon to the defense; no damage or resist
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Guard 1
 
-**Type:** Skill
+**Type:** Magic
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-sign-against-harm · **Status:** Proposal for Bruce’s review.
 

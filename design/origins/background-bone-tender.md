@@ -1,8 +1,10 @@
 # Bone Tender
 
-You prepared the dead with care; eventually some seemed reluctant to leave your company.
+*You prepared the dead with care; eventually some seemed reluctant to leave your company.*
 
 *Who taught you that respect and fear are different things?*
+
+## Rules
 
 Choose one:
 

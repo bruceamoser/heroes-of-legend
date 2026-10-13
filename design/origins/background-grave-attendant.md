@@ -1,8 +1,10 @@
 # Grave Attendant
 
-You made sure someone remembered the names after the mourners went home.
+*You made sure someone remembered the names after the mourners went home.*
 
 *Whose grave do you still visit?*
+
+## Rules
 
 **Type:** Background. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
 

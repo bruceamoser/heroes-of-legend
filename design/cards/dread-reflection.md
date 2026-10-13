@@ -1,6 +1,8 @@
 # Dread Reflection
 
-*For a moment they see you wearing the shape of their fear.*
+*You spread your arms, and your outline twists into something your enemy dreads. They recoil as the vision presses against their thoughts.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
@@ -22,7 +24,7 @@ Proposed NPC defense attribute: Reason.
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** dread-reflection · **Status:** Proposal — fresh design; not approved or balance-tested.
 

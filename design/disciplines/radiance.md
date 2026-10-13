@@ -1,5 +1,9 @@
 # Radiance
 
+*You learn to shape brightness into something that reveals, shelters or confronts.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-radiance.
 
 Radiant attacks, illumination and revealing magic.

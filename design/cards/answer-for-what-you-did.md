@@ -1,5 +1,9 @@
 # Answer for What You Did
 
+*You tell your quarry why you came, then step in and strike to stop their retreat.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
 
 **Target / range / shape:** One adjacent creature.
@@ -8,9 +12,9 @@ Bring the pursuit to a close with a melee attack. Against a quarry you marked wi
 
 - **Weak:** 5 physical damage.
 - **Standard:** 5 physical damage and Slowed 2.
-- **Strong:** 7 physical damage and knock prone.
+- **Strong:** 7 physical damage, Slowed 2 and knock prone.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -20,7 +24,7 @@ Bring the pursuit to a close with a melee attack. Against a quarry you marked wi
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** answer-for-what-you-did · **Status:** Proposal for Bruce’s review.
 

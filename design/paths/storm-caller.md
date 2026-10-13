@@ -16,10 +16,10 @@ Watch for a crowded approach and the friend who needs a clear line through smoke
 
 ## Give it room to grow
 
-- At level 3, [A Road through Rain](../cards/a-road-through-rain.md) opens another way to affect the scene.
-- At level 7, [The Sky Comes Down](../cards/the-sky-comes-down.md) offers a larger moment.
+- At level 3, [A Road through Rain](../cards/a-road-through-rain.md) (Storm 2) opens another way to affect the scene.
+- At level 7, [The Sky Comes Down](../cards/the-sky-comes-down.md) (Storm 3) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Elemental Adept](elemental-adept.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

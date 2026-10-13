@@ -1,5 +1,9 @@
 # Lesser Healing Bottle
 
+*You keep the mixture at a patient simmer, watching for the color your teacher showed you.*
+
+## Rules
+
 The useful bottle is the one you prepared before you needed it.
 
 **Recipe permission:** [Bottled Morning](../cards/bottled-morning.md).

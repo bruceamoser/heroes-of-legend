@@ -1,14 +1,22 @@
 # Drain Warmth
 
+*You curl your fingers and watch a little color leave their face.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
 
 **Target / range / shape:** One visible creature within 4 squares
 
-Deal 2/3/5 Life damage. Grants no healing to the caster; Life resistance applies. NPC defense: Fortitude.
+Choose one creature you can see within 4 squares and make an attack using Guile. Deal Life damage as shown below; Life resistance applies. This attack does not heal you. When an NPC uses it against a player character, that character defends with Fortitude.
 
-**Duration:** As stated in the effect
+- **Weak:** 2 Life damage.
+- **Standard:** 3 Life damage.
+- **Strong:** 5 Life damage.
 
-**Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
+
+**Equipment / acquisition:** None.
 
 ---
 
@@ -16,7 +24,7 @@ Deal 2/3/5 Life damage. Grants no healing to the caster; Life resistance applies
 
 **Type:** Magic / Attack
 
-**Limits:** Once per wound per day for treatment; otherwise repeatable within the stated interval.
+**Limits:** Pay the printed action and any full activity time for each use.
 
 **ID:** drain-warmth · **Status:** Proposal — fresh design; not approved or balance-tested.
 

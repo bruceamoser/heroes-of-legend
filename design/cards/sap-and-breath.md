@@ -1,6 +1,8 @@
 # Sap and Breath
 
-*Where you kneel, crushed grass begins to rise.*
+*You kneel beside your companion and extend your hand. Green light passes from your palm into their wounds, leaving your own fingers cold.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
@@ -12,7 +14,7 @@ A green warmth passes from your palm into their hurt. Pay 1 HP first, leaving yo
 - **Standard:** Restore 5 HP and reduce temporary Bleeding by 1.
 - **Strong:** Restore 7 HP and reduce temporary Bleeding by 2.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,7 +24,7 @@ A green warmth passes from your palm into their hurt. Pay 1 HP first, leaving yo
 
 **Type:** Magic / Recovery
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** sap-and-breath · **Status:** Proposal for Bruce’s review.
 

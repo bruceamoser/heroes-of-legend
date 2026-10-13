@@ -1,5 +1,9 @@
 # Bow to the Balcony
 
+*You finish the exchange with a sweeping bow, already slipping beyond their reach.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
 
 **Target / range / shape:** One adjacent creature.
@@ -10,7 +14,7 @@ Make a melee attack, then end the exchange with a flourish. After the damage, mo
 - **Standard:** 5 physical damage; the target is pushed 1 square away before you move.
 - **Strong:** 7 physical damage; push it 2 before moving.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -20,7 +24,7 @@ Make a melee attack, then end the exchange with a flourish. After the damage, mo
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** bow-to-the-balcony · **Status:** Proposal for Bruce’s review.
 

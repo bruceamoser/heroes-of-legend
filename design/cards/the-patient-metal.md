@@ -1,8 +1,12 @@
 # The Patient Metal
 
-*Stone, rope, iron: every substance has another way it could be.*
+*You hold the damaged fitting between your fingers. The metal warms and softens just enough for you to bend it back toward its proper shape.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
+
+**Time:** One minute per attempt.
 
 **Target / range / shape:** An accessible ordinary metal item; one minute.
 
@@ -12,7 +16,7 @@ Warm and bend a small damaged fitting, fastener or edge with your fingers. You d
 - **Standard:** 2 repair progress.
 - **Strong:** 3 repair progress; leave no visible rough edge.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,9 +24,9 @@ Warm and bend a small damaged fitting, fastener or edge with your fingers. You d
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Scholarship 1
 
-**Type:** Skill
+**Type:** Magic
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-patient-metal · **Status:** Proposal for Bruce’s review.
 

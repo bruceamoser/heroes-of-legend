@@ -1,5 +1,9 @@
 # Ordinary Medium Armor
 
+*You brush a hand over the familiar surface and check the fit before setting out.*
+
+## Rules
+
 - **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-ordinary-medium-armor
 - **Bulk:** 1

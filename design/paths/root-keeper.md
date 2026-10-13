@@ -16,10 +16,10 @@ Look at where people are trying to go. Catch a pursuer, make a hedge across the 
 
 ## Give it room to grow
 
-- At level 3, [Briar Gate](../cards/briar-gate.md) opens another way to affect the scene.
-- At level 7, [The Orchard Wakes](../cards/the-orchard-wakes.md) offers a larger moment.
+- At level 3, [Briar Gate](../cards/briar-gate.md) (Wilderness 2) opens another way to affect the scene.
+- At level 7, [The Orchard Wakes](../cards/the-orchard-wakes.md) (Wilderness 3) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Beast Within](beast-within.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

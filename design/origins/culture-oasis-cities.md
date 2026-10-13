@@ -1,8 +1,10 @@
 # Oasis Cities
 
-Water is hospitality, memory and responsibility. Every caravan brings another version of the world.
+*Water is hospitality, memory and responsibility. Every caravan brings another version of the world.*
 
 *Whose well did your family help keep?*
+
+## Rules
 
 Choose one:
 

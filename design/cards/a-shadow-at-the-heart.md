@@ -1,5 +1,9 @@
 # A Shadow at the Heart
 
+*You step so close that your enemy’s certainty falters before your blade arrives.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
 
 **Target / range / shape:** One adjacent creature.
@@ -10,7 +14,7 @@ Make a melee attack from the closest, least expected angle. If you began Hidden,
 - **Standard:** 5 physical damage and Dazed 1.
 - **Strong:** 7 physical damage and Dazed 2.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -20,7 +24,7 @@ Make a melee attack from the closest, least expected angle. If you began Hidden,
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-shadow-at-the-heart · **Status:** Proposal for Bruce’s review.
 

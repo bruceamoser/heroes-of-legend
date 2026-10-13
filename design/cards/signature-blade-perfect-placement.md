@@ -1,23 +1,29 @@
 # Perfect Placement
 
+*You turn your opponent with the flat of your weapon, then step into the ground you have made them surrender.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** One target of your Standard or Strong Main Action melee attack, then self.
 
-Once per turn after a Strong Main melee attack, move its target 2 squares to a legal position by push or pull. Choose the mode; normal movement/collision rules apply.
+After resolving the attack, push the target up to 2 squares directly away from you. Then you may move up to 2 squares without provoking. Resolve both in order along legal routes; normal collision rules apply to the push.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Immediate push and personal movement.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Blade; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Blade; minimum level 7
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Control / Movement
 
-**ID:** signature-blade-perfect-placement · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Once on your turn; no benefit from free attacks.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-blade-perfect-placement · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

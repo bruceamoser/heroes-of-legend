@@ -1,14 +1,20 @@
 # Identify a Mixture
 
+*You turn the bottle toward the light and recognize a familiar cloud in the liquid.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
+
+**Time:** Ten minutes.
 
 **Target / range / shape:** One accessible potion or mixture; 10 minutes
 
 Weak: learn broad purpose. Standard: learn its use and effects. Strong: also reveal contamination or a harmful additive. Does not consume the mixture.
 
-**Duration:** As stated in the effect
+**Duration:** The result applies when the stated activity is complete; information and earned progress persist.
 
-**Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+**Equipment / acquisition:** None.
 
 ---
 
@@ -16,7 +22,7 @@ Weak: learn broad purpose. Standard: learn its use and effects. Strong: also rev
 
 **Type:** Skill / Utility
 
-**Limits:** Once per wound per day for treatment; otherwise repeatable within the stated interval.
+**Limits:** Pay the printed action and any full activity time for each use.
 
 **ID:** identify-a-mixture · **Status:** Proposal — fresh design; not approved or balance-tested.
 

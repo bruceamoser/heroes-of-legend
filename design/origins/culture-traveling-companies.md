@@ -1,8 +1,10 @@
 # Traveling Companies
 
-Home was whoever helped raise the awning when the rain began.
+*Home was whoever helped raise the awning when the rain began.*
 
 *What song announced your arrival?*
+
+## Rules
 
 **Type:** Culture. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
 

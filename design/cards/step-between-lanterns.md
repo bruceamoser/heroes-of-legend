@@ -1,6 +1,8 @@
 # Step Between Lanterns
 
-*The darkness is a route you have already learned.*
+*You wait for a lantern to turn away, then move along the strip of darkness between its light and the next.*
+
+## Rules
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
@@ -8,7 +10,7 @@
 
 Move up to 2 squares through actual dimness or concealment without provoking. If you were Hidden and the whole route conceals you, remain Hidden. This does not hide you in an exposed square.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -18,7 +20,7 @@ Move up to 2 squares through actual dimness or concealment without provoking. If
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** step-between-lanterns · **Status:** Proposal for Bruce’s review.
 

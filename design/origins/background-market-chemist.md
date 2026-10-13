@@ -1,8 +1,10 @@
 # Market Chemist
 
-You know which bottle smells like a cure and which only smells expensive.
+*You know which bottle smells like a cure and which only smells expensive.*
 
 *Which customer made you stop exaggerating?*
+
+## Rules
 
 Choose one:
 

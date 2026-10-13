@@ -1,6 +1,8 @@
 # Still the Will
 
-*Their body waits for a command their thoughts cannot finish.*
+*You fix your attention on your enemy and tighten your outstretched fingers. Their movement falters as they struggle to turn thought into action.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
@@ -22,7 +24,7 @@ Proposed NPC defense attribute: Reason.
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** still-the-will · **Status:** Proposal — fresh design; not approved or balance-tested.
 

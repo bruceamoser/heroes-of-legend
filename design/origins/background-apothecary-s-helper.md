@@ -1,8 +1,10 @@
 # Apothecary’s Helper
 
-You learned the smell of good medicine and the patience of people waiting for it.
+*You learned the smell of good medicine and the patience of people waiting for it.*
 
 *Which remedy always reminds you of someone?*
+
+## Rules
 
 **Type:** Background. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
 

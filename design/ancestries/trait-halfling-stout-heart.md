@@ -1,6 +1,8 @@
 # Bigger on the Inside
 
-*Your knees may shake. Your friends will never see you leave them.*
+*You swallow, glance at the friends beside you and step forward even while your knees shake.*
+
+## Rules
 
 Gain 1 Boon to rolls affected by Frightened. Resolve the Boon and Banes normally; you are not immune to fear.
 

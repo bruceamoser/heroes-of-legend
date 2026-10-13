@@ -1,16 +1,22 @@
 # Reveal the Threshold
 
+*You trace the edge of the strange place, watching for the seam where its magic catches the light.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
+
+**Time:** Ten minutes.
 
 **Target / range / shape:** A 3-by-3 visible area within 5 squares; 10 minutes examination
 
-Choose what you are trying to accomplish, then resolve the result below.
+If several concealments are present, the DA chooses one relevant to your stated search; all results describe that same concealment.
 
 - **Weak:** Reveal one magical concealment’s presence, if any.
 - **Standard:** Also reveal its location.
 - **Strong:** Also reveal one activation or bypass requirement.
 
-**Duration:** Instant
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** None.
 
@@ -20,7 +26,7 @@ Choose what you are trying to accomplish, then resolve the result below.
 
 **Type:** Magic
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** reveal-the-threshold · **Status:** Proposal — fresh design; not approved or balance-tested.
 

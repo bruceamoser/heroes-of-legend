@@ -1,23 +1,29 @@
 # Prepared Explanation
 
+*You give your companion a few precise words, then point out the place their next step should land.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** One ally within 3 squares that can hear and understand your Aid.
 
-Your Aid may reach an ally within 3 squares that can hear and understand your explanation.
+Your Aid can reach that ally. When you give Aid, the ally may also move 1 square without provoking before making the aided roll. This movement uses no ally action or movement allowance. Aid’s Boon and expiry are unchanged.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Movement is immediate; Aid lasts until used or the start of your next turn.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Intellect; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Intellect; minimum level 1
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Utility / Movement
 
-**ID:** signature-intellect-prepared-explanation · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** The movement benefit can be granted once on your turn.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-intellect-prepared-explanation · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

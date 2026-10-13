@@ -1,14 +1,16 @@
 # Borrow the Shadow
 
-*For one heartbeat, their shadow has an extra pair of footsteps.*
+*You wait for someone to pass the concealment, then follow close behind their movement and slip into the hidden space they leave beside them.*
+
+## Rules
 
 **Action:** Reaction · **Attribute:** None — no roll
 
 **Target / range / shape:** Self, when a visible creature within 2 squares moves past actual concealment
 
-Requires a legal route and free endpoint; movement does not provoke. Gain Hidden only if the concealment actually hides you under the universal rule. No teleport or observer-specific bookkeeping.
+After the triggering creature finishes its movement, move up to your Speed along a legal route toward the concealment it passed. Do not provoke. You may become Hidden at the endpoint only if the concealment actually hides you under the normal Hidden rule; the card does not conceal an exposed creature. No teleportation or movement through occupied standing squares.
 
-**Duration:** As stated in the effect
+**Duration:** Movement resolves immediately; Hidden follows its normal rules.
 
 **Equipment / acquisition:** None.
 
@@ -18,7 +20,7 @@ Requires a legal route and free endpoint; movement does not provoke. Gain Hidden
 
 **Type:** Skill / Utility
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** borrow-the-shadow · **Status:** Proposal — fresh design; not approved or balance-tested.
 

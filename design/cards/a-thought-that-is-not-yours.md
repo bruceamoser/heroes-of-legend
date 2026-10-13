@@ -1,6 +1,8 @@
 # A Thought That Is Not Yours
 
-*You remember a shape no window in this world could frame.*
+*You hold your enemy’s gaze and whisper the outline of an impossible shape. They flinch as the image crowds into their thoughts.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
@@ -12,7 +14,7 @@ Let a fragment of an impossible thought pass between you.
 - **Standard:** 3 mental damage and Dazed 1.
 - **Strong:** 5 mental damage and Dazed 1.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,7 +24,7 @@ Let a fragment of an impossible thought pass between you.
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-thought-that-is-not-yours · **Status:** Proposal for Bruce’s review.
 

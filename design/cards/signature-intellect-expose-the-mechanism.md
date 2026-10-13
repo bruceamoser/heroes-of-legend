@@ -1,23 +1,29 @@
 # Expose the Mechanism
 
-**Action:** Main Action · **Attribute:** None — no roll
+*You point out the repeating hesitation in the creature’s movements and call to your companions just as it happens again.*
 
-**Target / range / shape:** As specified in the effect
+## Rules
 
-Examine one visible active construct or device within 4 squares. Learn one actual resistance and one actual weakness, if present. No change to them; no secret weakness invented.
+**Action:** Maneuver · **Attribute:** None — no roll
 
-**Duration:** As specified; otherwise immediate
+**Target / range / shape:** One visible creature or active device within 5 squares; up to two allies within 5 squares that can hear you.
+
+Learn one actual resistance and one actual weakness of the target, if present, and one capability you have seen it use in this scene. The DA explains that capability’s visible trigger or limitation. Each chosen ally gains 1 Boon to its next roll against that target before the start of your next turn. No weakness is created and no resistance is reduced.
+
+**Duration:** Information persists; each Boon expires when used or the start of your next turn.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Intellect; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Intellect; minimum level 7
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Utility
 
-**ID:** signature-intellect-expose-the-mechanism · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-intellect-expose-the-mechanism · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

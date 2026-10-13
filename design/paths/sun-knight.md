@@ -16,10 +16,10 @@ Your attacks leave room for someone else to survive or advance. Put a friend bes
 
 ## Give it room to grow
 
-- At level 3, [A Shelter of Light](../cards/a-shelter-of-light.md) opens another way to affect the scene.
-- At level 7, [Carry the Sunrise](../cards/carry-the-sunrise.md) offers a larger moment.
+- At level 3, [A Shelter of Light](../cards/a-shelter-of-light.md) (Radiance 2) opens another way to affect the scene.
+- At level 7, [Carry the Sunrise](../cards/carry-the-sunrise.md) (Radiance 3) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Green Healer](green-healer.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

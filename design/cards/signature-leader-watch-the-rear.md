@@ -1,23 +1,29 @@
 # Watch the Rear
 
+*You shout a warning before the blow lands, then direct your companion out of the next attacker’s reach.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** One willing ally within 5 squares that can hear you, before its defense against an attack.
 
-Before an ally within 3 squares is attacked, it moves 1 square without provoking if able. If it remains a legal target resolve normally; otherwise the attack is spent without a replacement target. Proposal requiring timing review.
+Grant 2 Boons to that defense. After the entire attack resolves, the ally may move up to 3 squares without provoking if still able. This does not invalidate, redirect or rewind the attack.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** The triggering defense and subsequent movement.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Leader; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Leader; minimum level 7
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Defense / Movement
 
-**ID:** signature-leader-watch-the-rear · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-leader-watch-the-rear · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/leader.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

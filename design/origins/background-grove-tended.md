@@ -1,8 +1,10 @@
 # Grove Tended
 
-You learned the names of growing things before you learned the names of distant rulers.
+*You learned the names of growing things before you learned the names of distant rulers.*
 
 *What place do you consider a patient rather than a possession?*
+
+## Rules
 
 Choose one:
 

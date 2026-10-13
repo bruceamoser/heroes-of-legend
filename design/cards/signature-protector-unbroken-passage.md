@@ -1,23 +1,29 @@
 # Unbroken Passage
 
+*You put yourself at the front and guide your companions through the press, keeping each dangerous opening behind your shoulder.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** Self and up to two adjacent willing allies.
 
-Up to three willing allies within 3 squares each move up to 3 squares without provoking. Resolve one at a time; no free attacks or other actions.
+Move yourself and the chosen allies up to your Speed each without provoking, in an order you choose. Choose legal routes and separate free endpoints; the allies must finish adjacent to you. Each ally gains 1 Boon to its next defense before the start of your next turn while it remains adjacent to you and you can act. This does not carry an immobile creature or grant attacks.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Movement is immediate; each defensive Boon expires when used, adjacency is lost or your next turn starts.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Protector; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Protector; minimum level 7
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Movement / Defense
 
-**ID:** signature-protector-unbroken-passage · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-protector-unbroken-passage · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

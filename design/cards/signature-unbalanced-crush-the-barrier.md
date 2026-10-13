@@ -1,23 +1,35 @@
 # Crush the Barrier
 
-**Action:** Passive · **Attribute:** None — no roll
+*You hear the first crack, plant your feet and drive through the weak point with another heave.*
 
-**Target / range / shape:** As specified in the effect
+## Rules
 
-Your Strong Force against a mundane object adds 2 progress; no effect against creatures or grapples.
+**Action:** Main Action · **Attribute:** Brawn
 
-**Duration:** As specified; otherwise immediate
+**Target / range / shape:** One adjacent ordinary physical obstruction.
+
+Use Force to overcome the obstruction; the DA states its progress target and consequences before rolling.
+
+- **Weak:** Add 2 progress.
+- **Standard:** Add 4 progress.
+- **Strong:** Add 6 progress.
+
+If this completes the target, you may move up to 2 squares through the opened route without provoking. This affects no creature or grapple and cannot force an impossible structure.
+
+**Duration:** Progress and any completed opening persist; movement is immediate.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Unbalanced; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Unbalanced; minimum level 3
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Utility / Movement
 
-**ID:** signature-unbalanced-crush-the-barrier · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-unbalanced-crush-the-barrier · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/unbalanced.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

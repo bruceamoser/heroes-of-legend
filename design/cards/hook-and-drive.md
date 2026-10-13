@@ -2,6 +2,8 @@
 
 *Catch their guard and haul them into the place they least want to stand.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Brawn
 
 **Target / range / shape:** One adjacent creature
@@ -22,7 +24,7 @@ Choose your target and make the attack.
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** hook-and-drive · **Status:** Proposal — fresh design; not approved or balance-tested.
 

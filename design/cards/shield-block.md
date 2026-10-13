@@ -1,5 +1,9 @@
 # Shield Block
 
+*You hunker behind your shield, listening to the hard knocks against its face.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
 **Target / range / shape:** Self, before a defense against an attack the DA judges blockable
@@ -16,7 +20,7 @@ Requires a held shield; grants none. Gain 1 Boon to eligible defense rolls while
 
 **Type:** Universal
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** shield-block · **Status:** Agreed foundation; any proposal is identified in the effect.
 

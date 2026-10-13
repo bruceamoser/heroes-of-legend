@@ -16,10 +16,10 @@ Begin by changing form, then commit to claws, teeth and body weight. You carry t
 
 ## Give it room to grow
 
-- At level 3, [Pounce of the Red Claw](../cards/pounce-of-the-red-claw.md) opens another way to affect the scene.
-- At level 7, [Wear the Great Beast](../cards/wear-the-great-beast.md) offers a larger moment.
+- At level 3, [Pounce of the Red Claw](../cards/pounce-of-the-red-claw.md) (Wilderness 2 and Athletics 1) opens another way to affect the scene.
+- At level 7, [Wear the Great Beast](../cards/wear-the-great-beast.md) (Wilderness 3) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Root Keeper](root-keeper.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

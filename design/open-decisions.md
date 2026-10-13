@@ -13,8 +13,8 @@ entries at once. Start with character fantasy and a handful of representative ca
 | Summoned targets | Concrete bodies and commands | NPC-versus-summon resolution, controller death, physical size limits |
 | Collision groups | Shared movement foundation | Footprints, corners and congested endpoints |
 | Persistent conditions | Separate temporary and starred effects | Exact bookkeeping when combined |
-| Perception | Attribute named by circumstance, no invented Observation attribute | Routine awareness versus active search and Hidden |
-| Economy | Coins, grants, six recipes | Prices, starting coin contributions, rare recipes and derivation times |
+| Perception | Attribute named by circumstance, no invented Observation attribute | Routine awareness versus active search, acquisition of Hidden and the action/time for hiding |
+| Economy | Coins, grants, ten recipes | Prices, starting coin contributions, rare recipes and derivation times |
 | Tier names and icons | Numbered 1/3/7 diamond | Color choices can wait for layout |
 
 ## Rules that the draft must not change silently
@@ -45,3 +45,23 @@ Review [the 36 paths](fantasy-paths.md) as character promises first. Especially:
 
 This expansion deliberately adds no attribute advancement or generic “use your best
 attribute” rule. No path locks purchases to a class. New cards remain proposals.
+
+## After the adventure revision
+
+The approved direction is 10–15 shared passives, more ambitious higher-tier utility,
+meaningful mixed requirements, and narrative followed by precise Rules on every card.
+The [current proposal](adventure-development.md) has fourteen shared passives. Review
+the new capabilities and costs before treating individual entries as approved.
+Bruce accepts the grant-only menu of up to 35 unowned eligible shared cards as useful
+breadth. Do not reduce that count merely to make gates stricter; review distinctiveness
+and value instead.
+
+## Full card review follow-up
+
+The [455-record review](reviews/1149-full-card-review.md) identifies exact shared-rule blockers, weak signature choices, crafting caps and entry-route gaps. Its per-card ledgers distinguish review coverage from readiness. Resolve those findings before interpreting catalog completeness as permission for full VTT automation or randomized balance claims.
+
+The [81-signature revision](reviews/1153-signature-review.md) now supplies concrete
+class options and same-tier comparisons. Defiant Rescue and Watch the Rear have
+explicit timing; Unseen Passage has a self-contained sight rule. Their former local
+wording blockers are resolved in this proposal. Combined passive value, command
+burst output and the broader shared-rule questions still need playtesting.

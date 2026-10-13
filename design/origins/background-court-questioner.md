@@ -1,8 +1,10 @@
 # Court Questioner
 
-You learned that an answer can be perfectly truthful and still hide everything important.
+*You learned that an answer can be perfectly truthful and still hide everything important.*
 
 *Who once answered a question you were afraid to ask?*
+
+## Rules
 
 Choose one:
 

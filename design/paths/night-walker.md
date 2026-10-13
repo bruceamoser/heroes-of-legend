@@ -16,10 +16,10 @@ Treat the map as a pattern of light and dark. Your early movement still needs a 
 
 ## Give it room to grow
 
-- At level 3, [The Unlit Road](../cards/the-unlit-road.md) opens another way to affect the scene.
-- At level 7, [No Footfall at All](../cards/no-footfall-at-all.md) offers a larger moment.
+- At level 3, [The Unlit Road](../cards/the-unlit-road.md) (Subterfuge 2) opens another way to affect the scene.
+- At level 7, [No Footfall at All](../cards/no-footfall-at-all.md) (Subterfuge 3) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Quiet Knife](quiet-knife.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

@@ -1,8 +1,10 @@
 # Terrace Towns
 
-Gardens climb the cliffs and stairs stitch whole neighborhoods together.
+*Gardens climb the cliffs and stairs stitch whole neighborhoods together.*
 
 *Which impossible-looking route was your childhood shortcut?*
+
+## Rules
 
 Choose one:
 

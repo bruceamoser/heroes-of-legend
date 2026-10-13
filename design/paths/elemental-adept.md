@@ -16,10 +16,10 @@ Your body is how the weather enters the room. Fortitude makes the palm strike wo
 
 ## Give it room to grow
 
-- At level 3, [Walk the Thunder](../cards/walk-the-thunder.md) opens another way to affect the scene.
-- At level 7, [Four Winds at Once](../cards/four-winds-at-once.md) offers a larger moment.
+- At level 3, [Walk the Thunder](../cards/walk-the-thunder.md) (Storm 2) opens another way to affect the scene.
+- At level 7, [Four Winds at Once](../cards/four-winds-at-once.md) (Storm 2 and Athletics 2) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Storm Caller](storm-caller.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

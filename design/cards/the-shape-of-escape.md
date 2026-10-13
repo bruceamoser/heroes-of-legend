@@ -1,12 +1,16 @@
 # The Shape of Escape
 
-**Action:** Main Action · **Attribute:** None — no roll
+*You soften into a ribbon of clay and feel the narrow opening slide around you.*
 
-**Target / range / shape:** Self and a visible free adjacent square beyond a narrow opening.
+## Rules
 
-Become a ribbon of living clay long enough to pass the opening. Carried equipment goes with you; you reform immediately. You must see the endpoint; this cannot cross a sealed wall or leave you amorphous for protection. Does not provoke.
+**Action:** Maneuver · **Attribute:** None — no roll
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Target / range / shape:** Self, through one narrow opening to a visible free square within 3 squares.
+
+Become a ribbon of living clay and slip through a continuous open route to the destination. Carried equipment travels with you; reform immediately. This movement does not provoke. You cannot pass a sealed barrier, end inside an object, or remain amorphous for protection.
+
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -14,9 +18,9 @@ Become a ribbon of living clay long enough to pass the opening. Carried equipmen
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Scholarship 3
 
-**Type:** Skill
+**Type:** Magic / Movement / Utility
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-shape-of-escape · **Status:** Proposal for Bruce’s review.
 

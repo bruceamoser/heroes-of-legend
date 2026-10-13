@@ -1,8 +1,10 @@
 # Burglar
 
-Every fine house has a service door and every service door has a story.
+*Every fine house has a service door and every service door has a story.*
 
 *Which room did you leave untouched?*
+
+## Rules
 
 Choose one:
 

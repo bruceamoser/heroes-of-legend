@@ -1,8 +1,10 @@
 # Monastery Runaway
 
-You left with a discipline in your bones and an unanswered question in your chest.
+*You left with a discipline in your bones and an unanswered question in your chest.*
 
 *What did you take besides your training?*
+
+## Rules
 
 Choose one:
 
