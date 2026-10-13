@@ -14,7 +14,7 @@ Study how it moves and place a ranged shot where it will be. Requires ranged wea
 - **Standard:** 3 physical damage; learn one visible sign useful for following its trail.
 - **Strong:** 5 physical damage; gain the sign and apply Slowed 1.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** Gain one ordinary ranged weapon and one d8 ammunition bundle if absent; each Bulk 1. Check ammunition after every attack.
 
@@ -24,7 +24,7 @@ Study how it moves and place a ranged shot where it will be. Requires ranged wea
 
 **Type:** Skill / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** read-the-quarry · **Status:** Proposal for Bruce’s review.
 

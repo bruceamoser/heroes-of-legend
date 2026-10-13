@@ -20,7 +20,7 @@ Requires a held shield; grants none. Gain 1 Boon to eligible defense rolls while
 
 **Type:** Universal
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** shield-block · **Status:** Agreed foundation; any proposal is identified in the effect.
 

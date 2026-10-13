@@ -14,7 +14,7 @@ For a moment, it understands that it has been noticed.
 - **Standard:** 4 mental damage and Dazed 2.
 - **Strong:** 6 mental damage and Paralyzed 2.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +24,7 @@ For a moment, it understands that it has been noticed.
 
 **Type:** Magic / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** when-the-stars-look-back · **Status:** Proposal for Bruce’s review.
 

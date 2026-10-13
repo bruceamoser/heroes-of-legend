@@ -20,7 +20,7 @@ Move up to your Speed along a legal concealed route without provoking. One adjac
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** veiled-crossing · **Status:** Proposal — fresh design; not approved or balance-tested.
 

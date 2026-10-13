@@ -6,15 +6,17 @@
 
 **Action:** Main Action · **Attribute:** Knowledge
 
+**Time:** One hour per attempt.
+
 **Target / range / shape:** A viable forest patch; one hour
 
-Choose food or ordinary plant crafting material; one bundle only, maximum d8. Start from out if needed. DA establishes whether the patch has usable resources; no repeat harvesting of an exhausted patch.
+Choose food or ordinary plant crafting material; one bundle only, maximum d8. The first step from out creates d4; further steps raise it to d6, then d8. DA establishes whether the patch has usable resources; no repeat harvesting of an exhausted patch.
 
 - **Weak:** Raise one eligible supply by 1 step.
 - **Standard:** Raise it by 2 steps.
 - **Strong:** Raise it by 3 steps.
 
-**Duration:** Instant
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** None.
 
@@ -24,7 +26,7 @@ Choose food or ordinary plant crafting material; one bundle only, maximum d8. St
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** forage-woodland · **Status:** Proposal — fresh design; not approved or balance-tested.
 

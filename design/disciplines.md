@@ -26,6 +26,7 @@ purchases follow the agreed foundations; no ability chain is required.
 - [Hook and Drive](cards/hook-and-drive.md) — level 1; Main Action.
 - [Hurl Aside](cards/hurl-aside.md) — level 7; Main Action.
 - [Invitation to the Blade](cards/invitation-to-the-blade.md) — level 1; Main Action.
+- [Sell the Feint](cards/sell-the-feint.md) — level 1; Maneuver.
 - [Smile Before Steel](cards/smile-before-steel.md) — level 1; Main Action.
 - [Take Them Alive](cards/take-them-alive.md) — level 1; Passive.
 - [Through the Spearpoints](cards/through-the-spearpoints.md) — level 3; Maneuver.
@@ -36,8 +37,10 @@ purchases follow the agreed foundations; no ability chain is required.
 
 - [A Knot You Can Trust](cards/a-knot-you-can-trust.md) — level 1; Passive.
 - [A Line for Everyone](cards/a-line-for-everyone.md) — level 3; Main Action.
+- [Arrive under Guard](cards/arrive-under-guard.md) — level 3; Maneuver.
 - [Expert River Crossing](cards/expert-river-crossing.md) — level 1; Main Action.
 - [Four Winds at Once](cards/four-winds-at-once.md) — level 7; Main Action.
+- [Haul Them Home](cards/haul-them-home.md) — level 3; Maneuver.
 - [Pounce of the Red Claw](cards/pounce-of-the-red-claw.md) — level 3; Main Action.
 - [Ride the Falling Stone](cards/ride-the-falling-stone.md) — level 3; Reaction.
 - [Running Vault](cards/running-vault.md) — level 3; Maneuver.
@@ -107,6 +110,7 @@ purchases follow the agreed foundations; no ability chain is required.
 ## [Frost](disciplines/frost.md)
 
 - [Bridge of Winter](cards/bridge-of-winter.md) — level 3; Main Action.
+- [Ice across the Break](cards/ice-across-the-break.md) — level 3; Maneuver.
 - [Icebound Path](cards/icebound-path.md) — level 3; Main Action.
 - [Rime Grip](cards/rime-grip.md) — level 1; Main Action.
 - [Undertow Answer](cards/undertow-answer.md) — level 3; Main Action.
@@ -116,18 +120,22 @@ purchases follow the agreed foundations; no ability chain is required.
 
 - [A Company of Reflections](cards/a-company-of-reflections.md) — level 7; Main Action.
 - [A Sign against Harm](cards/a-sign-against-harm.md) — level 1; Reaction.
+- [Arrive under Guard](cards/arrive-under-guard.md) — level 3; Maneuver.
 - [Carry to Safety](cards/carry-to-safety.md) — level 7; Main Action.
 - [Circle of Old Names](cards/circle-of-old-names.md) — level 3; Main Action.
+- [Haul Them Home](cards/haul-them-home.md) — level 3; Maneuver.
 - [Hold the Passage](cards/hold-the-passage.md) — level 3; Main Action.
 - [Shielding Step](cards/shielding-step.md) — level 1; Reaction.
 - [The Ancestors Stand](cards/the-ancestors-stand.md) — level 7; Main Action.
 - [The Circle Holds](cards/the-circle-holds.md) — level 7; Main Action.
+- [The Wind Makes Room](cards/the-wind-makes-room.md) — level 7; Maneuver.
 - [Unravel the Bolt](cards/unravel-the-bolt.md) — level 3; Reaction.
 
 ## [Influence](disciplines/influence.md)
 
 - [A Place at Any Fire](cards/a-place-at-any-fire.md) — level 1; Main Action.
 - [A Verse for Courage](cards/a-verse-for-courage.md) — level 1; Maneuver.
+- [A Word Apart](cards/a-word-apart.md) — level 3; Maneuver.
 - [All Voices as One](cards/all-voices-as-one.md) — level 7; Main Action.
 - [Answer for What You Did](cards/answer-for-what-you-did.md) — level 7; Main Action.
 - [Borrowed Identity](cards/borrowed-identity.md) — level 7; Main Action.
@@ -166,6 +174,7 @@ purchases follow the agreed foundations; no ability chain is required.
 - [Pinning Shot](cards/pinning-shot.md) — level 1; Main Action.
 - [Read the Quarry](cards/read-the-quarry.md) — level 1; Main Action.
 - [Sever the Pursuit](cards/sever-the-pursuit.md) — level 7; Main Action.
+- [Take the Measure](cards/take-the-measure.md) — level 1; Maneuver.
 - [The Hunt Ends Here](cards/the-hunt-ends-here.md) — level 7; Reaction.
 
 ## [Medicine](disciplines/medicine.md)
@@ -195,6 +204,7 @@ purchases follow the agreed foundations; no ability chain is required.
 - [Behind the Hawthorn](cards/behind-the-hawthorn.md) — level 3; Reaction.
 - [Borrow a Voice](cards/borrow-a-voice.md) — level 1; Main Action.
 - [Borrowed Silhouette](cards/borrowed-silhouette.md) — level 3; Reaction.
+- [Cast through the Reflection](cards/cast-through-the-reflection.md) — level 7; Maneuver.
 - [Dance beyond the Circle](cards/dance-beyond-the-circle.md) — level 7; Main Action.
 - [Dread Reflection](cards/dread-reflection.md) — level 3; Main Action.
 - [Intrusive Echo](cards/intrusive-echo.md) — level 1; Main Action.
@@ -207,6 +217,7 @@ purchases follow the agreed foundations; no ability chain is required.
 - [A Shelter of Light](cards/a-shelter-of-light.md) — level 3; Maneuver.
 - [Carry the Sunrise](cards/carry-the-sunrise.md) — level 7; Main Action.
 - [Dawn Shard](cards/dawn-shard.md) — level 1; Main Action.
+- [Lantern in the Palm](cards/lantern-in-the-palm.md) — level 1; Maneuver.
 - [Lantern Moths](cards/lantern-moths.md) — level 1; Main Action.
 - [Noonday Judgment](cards/noonday-judgment.md) — level 7; Main Action.
 - [Oathlight Strike](cards/oathlight-strike.md) — level 1; Main Action.
@@ -216,8 +227,10 @@ purchases follow the agreed foundations; no ability chain is required.
 
 - [Anatomy of an Opening](cards/anatomy-of-an-opening.md) — level 1; Main Action.
 - [Ask the Falling Ash](cards/ask-the-falling-ash.md) — level 3; Main Action.
+- [Cast through the Reflection](cards/cast-through-the-reflection.md) — level 7; Maneuver.
 - [Catch the Spell](cards/catch-the-spell.md) — level 3; Reaction.
 - [Checkmate in Three Steps](cards/checkmate-in-three-steps.md) — level 7; Main Action.
+- [Draw the Current](cards/draw-the-current.md) — level 3; Maneuver.
 - [I Have Seen This Step](cards/i-have-seen-this-step.md) — level 1; Reaction.
 - [Identify a Mixture](cards/identify-a-mixture.md) — level 1; Main Action.
 - [Identify an Enchantment](cards/identify-an-enchantment.md) — level 1; Main Action.
@@ -228,19 +241,21 @@ purchases follow the agreed foundations; no ability chain is required.
 - [Teach Stone to Bend](cards/teach-stone-to-bend.md) — level 3; Main Action.
 - [The Moment Foretold](cards/the-moment-foretold.md) — level 7; Reaction.
 - [The Patient Metal](cards/the-patient-metal.md) — level 1; Main Action.
-- [The Shape of Escape](cards/the-shape-of-escape.md) — level 7; Main Action.
+- [The Shape of Escape](cards/the-shape-of-escape.md) — level 7; Maneuver.
 - [Translate the Fragment](cards/translate-the-fragment.md) — level 3; Main Action.
 
 ## [Storm](disciplines/storm.md)
 
 - [A Road through Rain](cards/a-road-through-rain.md) — level 3; Maneuver.
 - [A Voice across the Valley](cards/a-voice-across-the-valley.md) — level 7; Main Action.
+- [Draw the Current](cards/draw-the-current.md) — level 3; Maneuver.
 - [Forked Sky](cards/forked-sky.md) — level 7; Main Action.
 - [Four Winds at Once](cards/four-winds-at-once.md) — level 7; Main Action.
 - [Gust Hammer](cards/gust-hammer.md) — level 1; Main Action.
 - [Palm of the Gale](cards/palm-of-the-gale.md) — level 1; Main Action.
 - [Storm on a String](cards/storm-on-a-string.md) — level 3; Main Action.
 - [The Sky Comes Down](cards/the-sky-comes-down.md) — level 7; Main Action.
+- [The Wind Makes Room](cards/the-wind-makes-room.md) — level 7; Maneuver.
 - [Thunder at the Door](cards/thunder-at-the-door.md) — level 1; Main Action.
 - [Thunder Ring](cards/thunder-ring.md) — level 3; Main Action.
 - [Walk the Thunder](cards/walk-the-thunder.md) — level 3; Maneuver.
@@ -252,7 +267,8 @@ purchases follow the agreed foundations; no ability chain is required.
 - [A Lock Has a Language](cards/a-lock-has-a-language.md) — level 3; Main Action.
 - [A Shadow at the Heart](cards/a-shadow-at-the-heart.md) — level 7; Main Action.
 - [A Small and Watchful Shape](cards/a-small-and-watchful-shape.md) — level 3; Maneuver.
-- [An Impossible Theft](cards/an-impossible-theft.md) — level 7; Main Action.
+- [A Word Apart](cards/a-word-apart.md) — level 3; Maneuver.
+- [An Impossible Theft](cards/an-impossible-theft.md) — level 7; Maneuver.
 - [Borrow the Shadow](cards/borrow-the-shadow.md) — level 7; Reaction.
 - [Borrowed Clothes, Borrowed Manners](cards/borrowed-clothes-borrowed-manners.md) — level 1; Main Action.
 - [Borrowed Identity](cards/borrowed-identity.md) — level 7; Main Action.
@@ -260,6 +276,7 @@ purchases follow the agreed foundations; no ability chain is required.
 - [Live in the Mask](cards/live-in-the-mask.md) — level 3; Passive.
 - [No Footfall at All](cards/no-footfall-at-all.md) — level 7; Maneuver.
 - [Quiet Latch](cards/quiet-latch.md) — level 1; Main Action.
+- [Sell the Feint](cards/sell-the-feint.md) — level 1; Maneuver.
 - [Silence the Alarm](cards/silence-the-alarm.md) — level 3; Main Action.
 - [Step Between Lanterns](cards/step-between-lanterns.md) — level 1; Maneuver.
 - [The City Opens Its Doors](cards/the-city-opens-its-doors.md) — level 7; Main Action.
@@ -286,6 +303,7 @@ purchases follow the agreed foundations; no ability chain is required.
 - [Forage Woodland](cards/forage-woodland.md) — level 1; Main Action.
 - [Guide a Frightened Animal](cards/guide-a-frightened-animal.md) — level 1; Main Action.
 - [Guide the Crossing](cards/guide-the-crossing.md) — level 7; Main Action.
+- [Ice across the Break](cards/ice-across-the-break.md) — level 3; Maneuver.
 - [Pounce of the Red Claw](cards/pounce-of-the-red-claw.md) — level 3; Main Action.
 - [Read a Dangerous Trail](cards/read-a-dangerous-trail.md) — level 3; Main Action.
 - [Roots Remember Feet](cards/roots-remember-feet.md) — level 1; Main Action.

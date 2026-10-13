@@ -1,6 +1,6 @@
 # Road in the Blood
 
-*The horizon has never looked like a place to stop.*
+*You settle your pack higher on your shoulders and lengthen your stride toward the next rise.*
 
 ## Rules
 

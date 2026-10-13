@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Reason
 
+**Time:** Ten minutes to contact; up to one minute of exchange.
+
 **Target / range / shape:** One willing creature personally known to you within one day’s ordinary travel; ten minutes.
 
 Name the recipient and speak a message of up to twenty words. If the recipient is outside range or unwilling, learn only that no contact was made. The message conveys your identity but reveals no location. No sight or attack path is required; this is communication, not targeting for another card.

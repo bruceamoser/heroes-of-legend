@@ -10,7 +10,7 @@
 
 Use Reason for this defense. On a Strong defense, you may pull the attacker 1 square toward your previous position after moving yourself 1 square to a free square without provoking. Both destinations must be legal.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +20,7 @@ Use Reason for this defense. On a Strong defense, you may pull the attacker 1 sq
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** turn-the-river · **Status:** Proposal for Bruce’s review.
 

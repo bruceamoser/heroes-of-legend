@@ -20,7 +20,7 @@ Requires a free hand. The giver spends the Maneuver; another recipient spends a 
 
 **Type:** Universal
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** use-a-healing-potion · **Status:** Agreed foundation; any proposal is identified in the effect.
 

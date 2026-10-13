@@ -29,3 +29,15 @@ Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost
 - [Coordinated Rush](../cards/signature-leader-coordinated-rush.md)
 - [Refuse the Rout](../cards/signature-leader-refuse-the-rout.md)
 - [Watch the Rear](../cards/signature-leader-watch-the-rear.md)
+
+## Signature identity in play
+
+The revised options aim for these moments, with a deliberate advantage over shared
+cards of their tier. Each is an independent choice, not a progression chain.
+
+- **Level 1:** Signal two allies, withdraw together, or hold a paired line.
+- **Level 3:** Order a retreat, call a basic strike, or interrupt panic and shock.
+- **Level 7:** Coordinate a rush, rally a group, or cover an ally's escape.
+
+See the [full signature review](../reviews/1153-signature-review.md) for comparisons
+and remaining playtest questions. Individual effects remain proposals.

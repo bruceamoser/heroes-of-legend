@@ -20,7 +20,7 @@ Spend 2 squares of movement to stand. This spends movement, not a Maneuver.
 
 **Type:** Universal
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** stand · **Status:** Agreed foundation; any proposal is identified in the effect.
 

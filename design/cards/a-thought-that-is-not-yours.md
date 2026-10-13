@@ -14,7 +14,7 @@ Let a fragment of an impossible thought pass between you.
 - **Standard:** 3 mental damage and Dazed 1.
 - **Strong:** 5 mental damage and Dazed 1.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +24,7 @@ Let a fragment of an impossible thought pass between you.
 
 **Type:** Magic / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-thought-that-is-not-yours · **Status:** Proposal for Bruce’s review.
 

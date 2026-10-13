@@ -14,7 +14,7 @@ Your outline swells like a mountain’s shadow and your heel strikes the ground.
 - **Standard:** 3 physical damage and push 2.
 - **Strong:** 5 physical damage, push 2 and knock prone.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,9 +22,9 @@ Your outline swells like a mountain’s shadow and your heel strikes the ground.
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Armor 3
 
-**Type:** Skill / Attack
+**Type:** Magic / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** stride-of-the-giant · **Status:** Proposal for Bruce’s review.
 

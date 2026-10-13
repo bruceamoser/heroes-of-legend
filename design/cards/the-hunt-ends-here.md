@@ -14,7 +14,7 @@ Take the shot you were waiting for. Requires ranged weapon and ammunition; check
 - **Standard:** 4 physical damage and Slowed 1.
 - **Strong:** 6 physical damage and knock prone.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** Gain one ordinary ranged weapon and one d8 ammunition bundle if absent; each Bulk 1. Check ammunition after every attack.
 
@@ -24,7 +24,7 @@ Take the shot you were waiting for. Requires ranged weapon and ammunition; check
 
 **Type:** Skill / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-hunt-ends-here · **Status:** Proposal for Bruce’s review.
 

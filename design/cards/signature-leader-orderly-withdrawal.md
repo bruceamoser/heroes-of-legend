@@ -1,27 +1,29 @@
 # Orderly Withdrawal
 
-*You call the next two steps clearly enough to cut through the noise.*
+*You call a short retreat and count the steps, keeping the line together as everyone moves.*
 
 ## Rules
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Two willing allies within 4 squares that can perceive your signal.
 
-Two willing allies within 3 squares each move 1 square without provoking, one at a time.
+Each may move up to 2 squares without provoking, in an order you choose. Each may end farther from or nearer to the fight as needed; no attack is granted. Choose legal routes and free endpoints.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Immediate movement.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Leader; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Leader; minimum level 3
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Movement
 
-**ID:** signature-leader-orderly-withdrawal · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-leader-orderly-withdrawal · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/leader.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

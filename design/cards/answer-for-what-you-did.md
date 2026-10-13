@@ -12,9 +12,9 @@ Bring the pursuit to a close with a melee attack. Against a quarry you marked wi
 
 - **Weak:** 5 physical damage.
 - **Standard:** 5 physical damage and Slowed 2.
-- **Strong:** 7 physical damage and knock prone.
+- **Strong:** 7 physical damage, Slowed 2 and knock prone.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -24,7 +24,7 @@ Bring the pursuit to a close with a melee attack. Against a quarry you marked wi
 
 **Type:** Skill / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** answer-for-what-you-did · **Status:** Proposal for Bruce’s review.
 

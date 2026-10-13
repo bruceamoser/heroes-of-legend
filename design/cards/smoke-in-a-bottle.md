@@ -6,25 +6,31 @@
 
 **Action:** Main Action · **Attribute:** Knowledge
 
-**Target / range / shape:** A visible free square within 3 squares.
+**Time:** Main Action to throw; one hour per crafting attempt.
 
-Use one prepared smoke supply and check its inventory die after use. Smoke gives heavy cover across its squares; a creature inside is still targetable if an attack path exists. All created smoke lasts until the start of your next turn. Grants a reusable mixing kit (Bulk 1), the Smoke Flask and Travel Food recipes, not ingredients. This card also crafts those two recipe types using 1/2/3 progress or inventory steps.
+**Target / range / shape:** Up to 3/5/7 connected visible unoccupied ground squares, each within 3 squares.
 
-- **Weak:** Smoke fills the chosen square until the start of your next turn.
-- **Standard:** Smoke also fills one adjacent free square.
-- **Strong:** Smoke fills two adjacent free squares as well.
+**Throw the smoke — Main Action.** Use a prepared Smoke Flask supply. Roll Knowledge, then place one connected smoke area with squares joined along their edges. Check the supply’s inventory die after use; its last use still works.
 
-**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
+- **Weak:** Fill up to 3 squares.
+- **Standard:** Fill up to 5 squares.
+- **Strong:** Fill up to 7 squares.
 
-**Equipment / acquisition:** No item needed unless named above.
+Smoke provides heavy cover across these squares until the end of your next turn. It deals no damage and does not make occupants automatically Hidden.
+
+**Make the supply — one hour per attempt.** This card permits the Smoke Flask and Travel Food recipes and grants both on learning. Use the recipe’s materials, tools and supply cap. Roll Knowledge: Weak raises one supply by 1 inventory step; Standard by 2; Strong by 3. Check any carried ingredient supply after the attempt. No group crafting.
+
+**Duration:** Smoke: until the end of your next turn. Crafted supplies remain until used.
+
+**Equipment / acquisition:** One mixing kit, Bulk 1, if absent. No ingredients or finished smoke granted.
 
 ---
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Craft 1
 
-**Type:** Skill / Crafting
+**Type:** Skill / Crafting / Control / Utility
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** smoke-in-a-bottle · **Status:** Proposal for Bruce’s review.
 

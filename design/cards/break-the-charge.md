@@ -14,9 +14,9 @@ Meet the charge with a melee blow; resolve after it enters. This attack cannot t
 - **Standard:** 4 physical damage and push 1 square back the way it came.
 - **Strong:** 6 physical damage, push 2 and knock it prone.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
-**Equipment / acquisition:** No item needed unless named above.
+**Equipment / acquisition:** Requires a melee weapon; gain one ordinary melee weapon, Bulk 1, on learning if absent.
 
 ---
 
@@ -24,7 +24,7 @@ Meet the charge with a melee blow; resolve after it enters. This attack cannot t
 
 **Type:** Skill / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** break-the-charge · **Status:** Proposal for Bruce’s review.
 

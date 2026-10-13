@@ -24,7 +24,7 @@ Moser’s law of conservation of Life energy: pay 1 HP before rolling; bypass re
 
 **Type:** Magic / Recovery
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** shared-breath · **Status:** Proposal — fresh design; not approved or balance-tested.
 

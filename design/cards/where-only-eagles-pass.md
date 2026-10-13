@@ -10,9 +10,9 @@
 
 Climb a natural surface too sheer for an ordinary unaided ascent if the DA confirms that small seams, projections or cracks exist. No purchase of an earlier climbing card is required. A featureless wall, a ceiling or an impossible load remains impassable. Choose a reachable resting place within the rolled distance; if none exists, keep your initial secure position.
 
-- **Weak:** Climb up to 2 squares and keep a secure grip.
+- **Weak:** Climb up to 2 squares, capped by Speed, and keep a secure grip.
 - **Standard:** Climb up to 4 squares, capped by Speed, with one willing or unconscious companion carried with you.
-- **Strong:** Climb up to Speed with that companion; you may secure a held rope at a suitable anchor on arrival.
+- **Strong:** Climb up to your Speed, with that companion; you may secure a held rope at a suitable anchor on arrival.
 
 **Duration:** Movement resolves immediately.
 

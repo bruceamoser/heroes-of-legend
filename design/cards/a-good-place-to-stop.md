@@ -6,6 +6,8 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
+**Time:** Ten minutes of examination.
+
 **Target / range / shape:** A campsite you can examine for ten minutes.
 
 After examining a site, learn one present, observable environmental danger to camping there, if any, and one available way to shelter from it, if one exists. No roll. This does not reveal hidden creatures, create shelter or promise safety from later events.

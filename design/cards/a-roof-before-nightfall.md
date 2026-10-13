@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Knowledge
 
+**Time:** One hour per crafting attempt.
+
 **Target / range / shape:** A chosen campsite and available ordinary materials; one hour per attempt.
 
 Build a temporary shelter for yourself and up to six companions. This card grants the reusable [Camp Shelter recipe](../recipes/camp-shelter.md); use its target 4, materials, tools and one-hour attempt time. On completion it shelters the occupants from ordinary rain and wind; it is not fortification. No group crafting.

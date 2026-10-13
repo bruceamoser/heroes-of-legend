@@ -20,7 +20,7 @@ Raise a bone-shaped servant from spectral fragments; no real corpse is required.
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-bones-rise · **Status:** Proposal for Bruce’s review.
 

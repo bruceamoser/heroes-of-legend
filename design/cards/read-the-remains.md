@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Reason
 
+**Time:** Ten minutes.
+
 **Target / range / shape:** One accessible scene or object; 10 minutes
 
 Facts must be available from the evidence, never invented by the card. Correct examination reveals obvious clues without a roll; only consequential uncertainty calls for this card.
@@ -14,7 +16,7 @@ Facts must be available from the evidence, never invented by the card. Correct e
 - **Standard:** Learn two supported facts.
 - **Strong:** Learn three supported facts.
 
-**Duration:** Instant
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** None.
 
@@ -24,7 +26,7 @@ Facts must be available from the evidence, never invented by the card. Correct e
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** read-the-remains · **Status:** Proposal — fresh design; not approved or balance-tested.
 

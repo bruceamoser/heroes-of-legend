@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Reason
 
+**Time:** One hour per attempt.
+
 **Target / range / shape:** An accessible evidence set; one hour
 
 Examine an accessible evidence set. The DA names the question and sets a cumulative progress target before a consequential reconstruction; obvious deductions need no roll. On completion, obtain an evidence-supported sequence answering that question as far as the surviving evidence allows. Identify the limits of that account explicitly. Share it with companions; they need no duplicate interpretation rolls for the same facts.
@@ -14,7 +16,7 @@ Examine an accessible evidence set. The DA names the question and sets a cumulat
 - **Standard:** 2 progress, that fact, and one gap or contradiction requiring investigation.
 - **Strong:** 3 progress and both findings; identify a specific place, object or person the evidence points toward for resolving the gap, if one exists.
 
-**Duration:** Instant
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** None.
 
@@ -24,7 +26,7 @@ Examine an accessible evidence set. The DA names the question and sets a cumulat
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** reconstruct-the-event · **Status:** Proposal — fresh design; not approved or balance-tested.
 

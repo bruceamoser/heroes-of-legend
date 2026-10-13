@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Reason
 
+**Time:** Ten minutes.
+
 **Target / range / shape:** One scene or decision you can describe; ten minutes.
 
 Read a pattern in ash, water or falling leaves. Ask about a possible next step, not a guaranteed future.
@@ -14,7 +16,7 @@ Read a pattern in ash, water or falling leaves. Ask about a possible next step, 
 - **Standard:** Also names one presently available way to investigate it.
 - **Strong:** Also identifies one sign to watch for if that risk approaches.
 
-**Duration:** Until the scene ends, unless ended earlier as stated above.
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +26,7 @@ Read a pattern in ash, water or falling leaves. Ask about a possible next step, 
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** ask-the-falling-ash · **Status:** Proposal for Bruce’s review.
 

@@ -20,7 +20,7 @@ Declare before the attack. NPC remains unconscious until the scene ends or heale
 
 **Type:** Skill / Utility
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** take-them-alive · **Status:** Proposal — fresh design; not approved or balance-tested.
 

@@ -12,9 +12,9 @@ Roots gently lift the fallen. Pay 3 HP first, leaving yourself above 0; cost byp
 
 - **Weak:** Restore 5 HP.
 - **Standard:** Restore 9 HP; the target may stand without spending movement.
-- **Strong:** Restore 13 HP; stand, then move 1 square without provoking if desired.
+- **Strong:** Restore 13 HP; the target may stand without spending movement, then move 1 square without provoking.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +24,7 @@ Roots gently lift the fallen. Pay 3 HP first, leaving yourself above 0; cost byp
 
 **Type:** Magic / Recovery
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-bough-for-the-fallen · **Status:** Proposal for Bruce’s review.
 

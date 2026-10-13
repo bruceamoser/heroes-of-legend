@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Knowledge
 
+**Time:** Ten minutes.
+
 **Target / range / shape:** One ordinary fire you can touch without harm; 10 minutes
 
 The touch is safe only for this divination. Information is limited to the fire’s actual recent history, not distant events. One reading per fire per day. A missing clue cannot be invented.
@@ -24,7 +26,7 @@ The touch is safe only for this divination. Information is limited to the fire�
 
 **Type:** Magic / Utility
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** speak-with-the-hearth · **Status:** Proposal — fresh design; not approved or balance-tested.
 

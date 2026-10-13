@@ -14,7 +14,7 @@ Choose an eligible willing creature and roll Knowledge. Reduce its temporary Poi
 - **Standard:** Reduce Poisoned by 2.
 - **Strong:** Reduce Poisoned by 3.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** None.
 

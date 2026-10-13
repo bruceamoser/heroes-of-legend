@@ -1,27 +1,29 @@
 # Shared Resolve
 
-*You remind the circle why each of you chose to come this far.*
+*You gather your companions with a few familiar words, steadying one trembling voice after another until they answer together.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self and up to three willing allies within 3 squares that can hear you.
 
-Each willing ally within 3 squares may reduce temporary Frightened by 1. You may then move 2 squares without provoking. No HP restoration.
+Each recipient chooses one temporary condition from Frightened, Dazed or Poisoned and reduces it by up to 2, minimum 0. Each also gains 1 Boon to its next defense before the start of your next turn. No HP restored, no starred source removed and no spent actions returned. A recipient without those conditions still gains the defensive Boon.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Reductions are immediate; Boons expire when used or the start of your next turn.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shepherd; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shepherd; minimum level 7
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Recovery / Defense
 
-**ID:** signature-shepherd-shared-resolve · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-shepherd-shared-resolve · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

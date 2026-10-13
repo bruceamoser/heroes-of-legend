@@ -10,7 +10,7 @@
 
 Wings carry you up to 4 squares, over creatures and difficult ground, to a visible free supported square. You may cross a gap but cannot pass through barriers. This movement does not provoke; you must land immediately. No hovering or permanent flight.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +20,7 @@ Wings carry you up to 4 squares, over creatures and difficult ground, to a visib
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** wings-over-the-battle · **Status:** Proposal for Bruce’s review.
 

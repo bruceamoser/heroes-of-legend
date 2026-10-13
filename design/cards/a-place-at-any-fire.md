@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Guile
 
+**Time:** A short conversation, outside combat.
+
 **Target / range / shape:** A nonhostile gathering that can understand you; a short conversation
 
 No forced friendship or compelled service. If ordinary hospitality is freely offered, take it without a roll. DA names the objective before a consequential attempt.
@@ -14,7 +16,7 @@ No forced friendship or compelled service. If ordinary hospitality is freely off
 - **Standard:** Make 2 progress and learn a useful local custom.
 - **Strong:** Make 3 progress and gain an introduction to a willing local contact.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** None.
 
@@ -24,7 +26,7 @@ No forced friendship or compelled service. If ordinary hospitality is freely off
 
 **Type:** Skill / Utility
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-place-at-any-fire · **Status:** Proposal — fresh design; not approved or balance-tested.
 

@@ -10,7 +10,7 @@
 
 Trace the mark and feel your boots grow heavy. Until the start of your next turn, reduce the distance of a push or pull against you by 1. Use the highest such reduction, not a sum.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Until the start of your next turn.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -18,9 +18,9 @@ Trace the mark and feel your boots grow heavy. Until the start of your next turn
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Armor 1
 
-**Type:** Skill
+**Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** wake-the-iron-rune · **Status:** Proposal for Bruce’s review.
 

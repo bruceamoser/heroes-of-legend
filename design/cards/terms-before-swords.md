@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Guile
 
+**Time:** Ten minutes per attempt.
+
 **Target / range / shape:** Representatives of opposing groups who can hear and understand you; ten minutes.
 
 Offer specific terms and a reason each side might prefer negotiation. The DA first states whether any party is willing to consider them; no willing listener means no attempt. For consequential negotiation set a progress target and state binary or cumulative. On completion, willing representatives agree only to the stated terms they have authority to accept. The card does not compel obedience or stop combat.

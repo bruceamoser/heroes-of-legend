@@ -16,7 +16,7 @@ Call a crack of lightning followed by a collapsing wall of air. Make one roll us
 
 For a target standing in the center square, choose its push direction before resolving the displacement.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -26,7 +26,7 @@ For a target standing in the center square, choose its push direction before res
 
 **Type:** Magic / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-sky-comes-down · **Status:** Proposal for Bruce’s review.
 

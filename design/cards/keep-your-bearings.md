@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Reason
 
+**Time:** One minute per attempt.
+
 **Target / range / shape:** An unfamiliar place with usable landmarks; one minute
 
 Ordinary navigation is possible without the card. No routine travel roll; only consequential uncertainty. No magic compass when evidence is absent.
@@ -14,7 +16,7 @@ Ordinary navigation is possible without the card. No routine travel roll; only c
 - **Standard:** 2 progress and identify your return direction.
 - **Strong:** 3 progress and describe a recognizable landmark to companions.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** None.
 
@@ -24,7 +26,7 @@ Ordinary navigation is possible without the card. No routine travel roll; only c
 
 **Type:** Skill / Utility
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** keep-your-bearings · **Status:** Proposal — fresh design; not approved or balance-tested.
 

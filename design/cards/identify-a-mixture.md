@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Reason
 
+**Time:** Ten minutes.
+
 **Target / range / shape:** One accessible potion or mixture; 10 minutes
 
 Weak: learn broad purpose. Standard: learn its use and effects. Strong: also reveal contamination or a harmful additive. Does not consume the mixture.

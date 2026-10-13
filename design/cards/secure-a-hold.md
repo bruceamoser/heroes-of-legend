@@ -8,7 +8,13 @@
 
 **Target / range / shape:** One adjacent creature
 
-Apply Grappled 1/2/3. You suffer the same rating as your contribution; other grapplers add to the target. No damage. Maintained, no decay; freely release your contribution. Attacks gain Boons equal to target Grappled rating. NPC defense: Brawn.
+Roll Brawn.
+
+- **Weak:** Apply Grappled 1.
+- **Standard:** Apply Grappled 2.
+- **Strong:** Apply Grappled 3.
+
+ You suffer the same rating as your contribution; other grapplers add to the target. No damage. Maintained, no decay; freely release your contribution. Attacks gain Boons equal to target Grappled rating. NPC defense: Brawn.
 
 **Duration:** While the grapple is maintained; ends when its contribution is released or removed.
 

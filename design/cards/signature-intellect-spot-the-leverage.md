@@ -1,27 +1,29 @@
 # Spot the Leverage
 
-*You tap the one place where a little pressure might change everything.*
+*You study the hinges and weight of the obstacle, then point to the place where a small effort will matter most.*
 
 ## Rules
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One visible ordinary obstacle within 3 squares.
 
-Name a visible ordinary obstacle within 3 squares. Learn whether Force could make progress against it and its remaining target if applicable; no perception roll invented.
+Learn whether Force can overcome it, its remaining progress target, and one practical point at which to apply force. You or one ally who can hear your explanation gains 2 Boons to the next Force action against that obstacle before the scene ends. No permission to force an impossible obstacle is granted.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Information persists; the Boons expire when used or the scene ends.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Intellect; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Intellect; minimum level 1
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Utility
 
-**ID:** signature-intellect-spot-the-leverage · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** One application per obstacle per scene; repeated examination does not refresh spent Boons.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-intellect-spot-the-leverage · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

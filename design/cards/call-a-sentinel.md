@@ -20,7 +20,7 @@ Creature: HP 9, Speed 4, resistance 0. Its Main attack affects one adjacent crea
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** call-a-sentinel · **Status:** Proposal — fresh design; not approved or balance-tested.
 

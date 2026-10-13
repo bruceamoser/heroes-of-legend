@@ -14,7 +14,7 @@ A green warmth passes from your palm into their hurt. Pay 1 HP first, leaving yo
 - **Standard:** Restore 5 HP and reduce temporary Bleeding by 1.
 - **Strong:** Restore 7 HP and reduce temporary Bleeding by 2.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +24,7 @@ A green warmth passes from your palm into their hurt. Pay 1 HP first, leaving yo
 
 **Type:** Magic / Recovery
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** sap-and-breath · **Status:** Proposal for Bruce’s review.
 

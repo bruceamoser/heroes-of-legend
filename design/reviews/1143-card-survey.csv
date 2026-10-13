@@ -28,7 +28,7 @@ a-thought-that-is-not-yours,1,Main Action,Mind 1,combat-recovery-or-limited,"Com
 a-verse-for-courage,1,Maneuver,Influence 1,dual-use,General assistance
 a-voice-across-the-valley,7,Main Action,Mind 2 and Storm 2,noncombat-first,Adventure development
 all-voices-as-one,7,Main Action,Influence 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
-an-impossible-theft,7,Main Action,Subterfuge 3,dual-use,"Objects, light and helpers"
+an-impossible-theft,7,Maneuver,Subterfuge 3,dual-use,"Objects, light and helpers"
 an-invitation-elsewhere,1,Main Action,Mind 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
 anatomy-of-an-opening,1,Main Action,Scholarship 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
 answer-for-what-you-did,7,Main Action,Influence 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
@@ -185,7 +185,7 @@ the-otter-s-bargain,1,Maneuver,Wilderness 1,dual-use,Traversal and rescue
 the-patient-metal,1,Main Action,Scholarship 1,noncombat-first,Intrusion and objects
 the-right-small-courtesy,1,Passive,Influence 1,noncombat-first,Adventure development
 the-road-remembers,3,Main Action,Wilderness 2,noncombat-first,Travel and wilderness
-the-shape-of-escape,7,Main Action,Scholarship 3,dual-use,Traversal and rescue
+the-shape-of-escape,7,Maneuver,Scholarship 3,dual-use,Traversal and rescue
 the-sky-comes-down,7,Main Action,Storm 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
 the-tale-will-tell-of-you,7,Reaction,Influence 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
 the-unlit-road,3,Main Action,Subterfuge 2,dual-use,Traversal and rescue

@@ -12,9 +12,9 @@ Branches and roots answer together. Make one roll using the net Boons or Banes l
 
 - **Weak:** Pull each 1 square toward you.
 - **Standard:** Pull each 2 squares and apply Slowed 1.
-- **Strong:** Pull each 3 squares and knock each prone.
+- **Strong:** Pull each 3 squares, apply Slowed 1 and knock each prone.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,9 +22,9 @@ Branches and roots answer together. Make one roll using the net Boons or Banes l
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Wilderness 3
 
-**Type:** Skill
+**Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-orchard-wakes · **Status:** Proposal for Bruce’s review.
 

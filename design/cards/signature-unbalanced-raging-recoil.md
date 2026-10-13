@@ -1,27 +1,29 @@
 # Raging Recoil
 
-*You follow the pain forward, giving them no comfortable space to enjoy the blow.*
+*You snarl at the pain and shove back into the attacker, following the stumble with another aggressive step.*
 
 ## Rules
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One adjacent creature, after it damages you.
 
-After an adjacent creature damages you, push it 1 square and move 1 square toward it if free. Your movement does not provoke.
+Push it up to 2 squares directly away, then you may move up to 2 squares toward it without provoking. Choose a legal route and free endpoint. The original damage remains; this adds no attack or direct damage beyond collisions.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Immediate push and movement.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Unbalanced; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Unbalanced; minimum level 3
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Control / Movement
 
-**ID:** signature-unbalanced-raging-recoil · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-unbalanced-raging-recoil · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/unbalanced.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

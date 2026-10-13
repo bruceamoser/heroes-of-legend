@@ -20,7 +20,7 @@ Move up to 3 squares toward a visible enemy along a legal route. You gain 1 Boon
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** through-the-spearpoints · **Status:** Proposal for Bruce’s review.
 

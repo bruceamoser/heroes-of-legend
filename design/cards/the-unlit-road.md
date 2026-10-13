@@ -10,7 +10,7 @@
 
 Step from one shadow into the other: move yourself to the chosen destination without crossing intervening squares. No opaque barrier between them; teleportation does not provoke.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -18,9 +18,9 @@ Step from one shadow into the other: move yourself to the chosen destination wit
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Subterfuge 2
 
-**Type:** Skill
+**Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-unlit-road · **Status:** Proposal for Bruce’s review.
 

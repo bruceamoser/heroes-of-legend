@@ -24,7 +24,7 @@ For a player attack, work out each target’s net Boons or Banes. Make one attac
 
 **Type:** Skill / Attack
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** sever-the-pursuit · **Status:** Proposal — fresh design; not approved or balance-tested.
 

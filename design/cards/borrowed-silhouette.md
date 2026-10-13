@@ -10,7 +10,7 @@
 
 A duplicate steps where you were. Gain 1 Boon to the defense, then move 1 square without provoking after the attack resolves. The duplicate vanishes immediately; it cannot absorb another attack.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +20,7 @@ A duplicate steps where you were. Gain 1 Boon to the defense, then move 1 square
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** borrowed-silhouette · **Status:** Proposal for Bruce’s review.
 

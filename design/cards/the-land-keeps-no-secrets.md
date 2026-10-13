@@ -6,6 +6,8 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
+**Time:** Ten minutes of examination.
+
 **Target / range / shape:** A natural route visible from a vantage point; ten minutes examination.
 
 Identify one observable route hazard and an available way around it, if any. No roll. You and up to six companions who follow your chosen route gain 1 Boon each to their next consequential noncombat roll negotiating that hazard. Hidden dangers remain hidden; this neither finds absent resources nor reveals a route beyond what can be observed.

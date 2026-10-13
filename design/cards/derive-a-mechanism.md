@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Reason
 
+**Time:** Four hours per attempt.
+
 **Target / range / shape:** One accessible ordinary mechanical item; four hours
 
 Proposal: target 12 for an ordinary mechanism. Requires tools and access to the item at every attempt. Creates a recipe, not the item or permission to craft it. Special items excluded.
@@ -14,7 +16,7 @@ Proposal: target 12 for an ordinary mechanism. Requires tools and access to the 
 - **Standard:** 2 derivation progress.
 - **Strong:** 3 derivation progress.
 
-**Duration:** Instant
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** None.
 
@@ -24,7 +26,7 @@ Proposal: target 12 for an ordinary mechanism. Requires tools and access to the 
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** derive-a-mechanism · **Status:** Proposal — fresh design; not approved or balance-tested.
 

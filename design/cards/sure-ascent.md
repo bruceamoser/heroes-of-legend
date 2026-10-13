@@ -11,10 +11,10 @@
 Before rolling, agree with the DA on what you are trying to accomplish and what is at risk. The DA states how much progress completes the task and whether progress carries over between attempts. Add the progress shown by your result. If the action has no uncertain consequence, resolve it without a roll.
 
 - **Weak:** Gain 1 progress and retain a safe grip.
-- **Standard:** Gain 2 progress and bring one carried item securely.
-- **Strong:** Gain 3 progress and leave a usable handhold or rope position for an ally.
+- **Standard:** Gain 2 progress, retain your grip and bring one carried item securely.
+- **Strong:** Gain 3 progress and both benefits above; leave a usable handhold or rope position for an ally.
 
-**Duration:** Instant
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** None.
 
@@ -24,7 +24,7 @@ Before rolling, agree with the DA on what you are trying to accomplish and what 
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** sure-ascent · **Status:** Proposal — fresh design; not approved or balance-tested.
 

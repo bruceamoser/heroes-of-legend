@@ -10,6 +10,6 @@
 
 After studying for 10 minutes, gain 1 Boon to your next mundane lock attempt this scene. Further study before using it does not add another Boon from this item. Grants no lock-working permission.
 
-Additive to the appropriate underlying card only. No DP purchase; found or bought for coins at a DA-set price. No special recipe is supplied by owning it.
+Apply this item’s printed benefit only; it grants no ability or action beyond what it states. No DP purchase; found or bought for coins at a DA-set price. No special recipe is supplied by owning it.
 
 [Equipment index](../equipment.md)
