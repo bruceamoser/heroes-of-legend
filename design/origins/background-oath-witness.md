@@ -1,8 +1,10 @@
 # Oath Witness
 
-You stood beside people when they promised what they could not yet know they could bear.
+*You stood beside people when they promised what they could not yet know they could bear.*
 
 *Which broken promise still follows you?*
+
+## Rules
 
 Choose one:
 

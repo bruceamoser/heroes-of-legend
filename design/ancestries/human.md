@@ -1,6 +1,8 @@
 # Human
 
-Restless, adaptable and fiercely invested in a life that never feels long enough.
+*Restless, adaptable and fiercely invested in a life that never feels long enough.*
+
+## Rules
 
 Choose two of the five traits below. These are invitations to a familiar fantasy,
 not a required personality. Any ancestry may grow up in any culture.

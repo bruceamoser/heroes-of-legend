@@ -1,6 +1,8 @@
 # Smile Before Steel
 
-*Smile first. They should know this was your idea.*
+*You smile and feint toward one side, then strike from the other and step away as your opponent turns after you.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
@@ -12,7 +14,7 @@ Use a melee weapon, a wink and a deliberately misleading step.
 - **Standard:** 3 physical damage; move 1 square without provoking.
 - **Strong:** 5 physical damage; move 2 squares without provoking.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -22,7 +24,7 @@ Use a melee weapon, a wink and a deliberately misleading step.
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** smile-before-steel · **Status:** Proposal for Bruce’s review.
 

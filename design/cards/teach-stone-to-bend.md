@@ -1,6 +1,12 @@
 # Teach Stone to Bend
 
+*You press your palm against the stone and patiently coax a different shape from it.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
+
+**Time:** Ten minutes per attempt.
 
 **Target / range / shape:** One adjacent ordinary stone obstruction; ten minutes.
 
@@ -10,7 +16,7 @@ Persuade a small part of the stone to soften. Create passage progress toward a t
 - **Standard:** 2 progress.
 - **Strong:** 3 progress and identify whether continuing would endanger the structure.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** The result applies when the stated activity is complete; information and earned progress persist.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -18,9 +24,9 @@ Persuade a small part of the stone to soften. Create passage progress toward a t
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Scholarship 2
 
-**Type:** Skill
+**Type:** Magic
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** teach-stone-to-bend · **Status:** Proposal for Bruce’s review.
 

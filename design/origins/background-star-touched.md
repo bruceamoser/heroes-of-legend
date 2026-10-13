@@ -1,8 +1,10 @@
 # Star-Touched
 
-A night sky, an old mirror or a deep well showed you more than it should.
+*A night sky, an old mirror or a deep well showed you more than it should.*
 
 *What familiar sight now seems slightly wrong?*
+
+## Rules
 
 Choose one:
 

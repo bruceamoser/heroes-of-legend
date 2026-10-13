@@ -48,7 +48,7 @@ human-form fighting. The beast attack itself needs no weapon.
 In beast form the character keeps those 23 HP and every wound. The form’s own
 attack is available immediately. Equipment benefits fold away, and there is no
 free hand for a potion. At level 3 the character can buy Wilderness 2 at Foreign
-cost 6 and Pounce of the Red Claw for 4, within the new 11-DP award. No prior card
+cost 6 and Pounce of the Red Claw for 4, within the new 11-DP award. Athletics 1, its second requirement, was already granted at level 1. No prior card
 chain is required; it is an intentional investment in a different combat style.
 
 ## The keeper of a healing grove
@@ -69,7 +69,7 @@ Tell a Worthy Story for 2: spend 14; 1 expires. Alternatively, those last 4 DP c
 version chooses Life 2 and the story card.
 
 At level 3, buy Wilderness 2 for 4 and Briar Gate for 4, leaving 3 banked DP from
-that level’s 11. Another route buys A Bough for the Fallen for 4 using the Life 2
+that level’s 11. Another route buys A Bough for the Fallen for 4 using the Life 2 and Wilderness 1
 already owned, and saves for terrain control later. Both are recognizable nature
 characters; one leans toward rescue, the other toward controlling the approach.
 

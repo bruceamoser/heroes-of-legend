@@ -1,8 +1,12 @@
 # Speak with the Hearth
 
-*Coals remember the hands held above them.*
+*You lower your hand into the fire without being burned. Shapes gather among the coals: traces of the people and possessions that recently passed its warmth.*
+
+## Rules
 
 **Action:** Main Action Â· **Attribute:** Knowledge
+
+**Time:** Ten minutes.
 
 **Target / range / shape:** One ordinary fire you can touch without harm; 10 minutes
 
@@ -12,7 +16,7 @@ The touch is safe only for this divination. Information is limited to the fireâ€
 - **Standard:** Also learn how many people recently warmed themselves beside it.
 - **Strong:** Also glimpse one distinctive item carried by the most recent visitor.
 
-**Duration:** As stated in the effect
+**Duration:** The result applies when the stated activity is complete; information and earned progress persist.
 
 **Equipment / acquisition:** None.
 
@@ -22,7 +26,7 @@ The touch is safe only for this divination. Information is limited to the fireâ€
 
 **Type:** Magic / Utility
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** speak-with-the-hearth Â· **Status:** Proposal â€” fresh design; not approved or balance-tested.
 

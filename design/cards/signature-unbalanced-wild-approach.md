@@ -1,23 +1,29 @@
 # Wild Approach
 
+*You roar and charge into the opening, arriving with your whole weight behind the next blow.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** Self; one visible enemy.
 
-Move 2 squares toward a visible enemy; normal opportunity rules apply. Your next Main melee attack this turn gains 1 Boon.
+Move up to 3 squares toward that enemy. This movement provokes normally. Gain 1 Boon to your next Main Action melee attack this turn. You must actually move at least 1 square to gain the Boon.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Movement is immediate; Boon expires when used or this turn ends.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Unbalanced; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Unbalanced; minimum level 1
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Movement
 
-**ID:** signature-unbalanced-wild-approach · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-unbalanced-wild-approach · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/unbalanced.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

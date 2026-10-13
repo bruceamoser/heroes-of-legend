@@ -1,5 +1,9 @@
 # Calling
 
+*You learn the names and gestures that bring an answer from somewhere beyond your reach.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-calling.
 
 Summoned creatures and command techniques.

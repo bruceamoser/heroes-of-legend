@@ -1,5 +1,9 @@
 # Subterfuge
 
+*You learn to work in the space between what people notice and what they assume.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-subterfuge.
 
 Stealth, misdirection and quiet access.

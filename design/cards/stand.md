@@ -1,5 +1,9 @@
 # Stand
 
+*You draw a knee under yourself and rise to face what comes next.*
+
+## Rules
+
 **Action:** Movement · **Attribute:** None — no roll
 
 **Target / range / shape:** Self, while prone
@@ -16,7 +20,7 @@ Spend 2 squares of movement to stand. This spends movement, not a Maneuver.
 
 **Type:** Universal
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** stand · **Status:** Agreed foundation; any proposal is identified in the effect.
 

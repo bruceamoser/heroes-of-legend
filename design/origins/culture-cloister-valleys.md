@@ -1,8 +1,10 @@
 # Cloister Valleys
 
-Bells mark the day, but no two residents agree about what a disciplined life should become.
+*Bells mark the day, but no two residents agree about what a disciplined life should become.*
 
 *Which lesson did you question before you left?*
+
+## Rules
 
 Choose one:
 

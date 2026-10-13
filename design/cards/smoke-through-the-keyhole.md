@@ -2,13 +2,15 @@
 
 *Your outline frays into smoke; the lock remains untouched.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
 **Target / range / shape:** Self, through a visible small opening into a free adjacent square
 
 Move only to a visible free square. Carried equipment travels with you. No lingering gaseous immunity, flight, damage or movement through a sealed barrier. Does not provoke.
 
-**Duration:** As stated in the effect
+**Duration:** One immediate passage; you reform at the destination.
 
 **Equipment / acquisition:** None.
 
@@ -18,7 +20,7 @@ Move only to a visible free square. Carried equipment travels with you. No linge
 
 **Type:** Magic / Utility
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** smoke-through-the-keyhole · **Status:** Proposal — fresh design; not approved or balance-tested.
 

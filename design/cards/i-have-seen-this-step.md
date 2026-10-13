@@ -1,6 +1,8 @@
 # I Have Seen This Step
 
-*You have already spilled this cup in a dream.*
+*You recognize an attacker’s raised arm from a dream and shout a warning before the blow falls.*
+
+## Rules
 
 **Action:** Reaction · **Attribute:** None — no roll
 
@@ -8,7 +10,7 @@
 
 Call the warning you remember. If the ally hears you, it gains 1 Boon to this defense. No reroll after seeing dice.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -18,7 +20,7 @@ Call the warning you remember. If the ally hears you, it gains 1 Boon to this de
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** i-have-seen-this-step · **Status:** Proposal for Bruce’s review.
 

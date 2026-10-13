@@ -1,6 +1,8 @@
 # Pinning Shot
 
-*Put the shot where their next step was going to be.*
+*You aim beside your enemy’s next foothold and release, forcing them to shorten their stride as the shot strikes.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Agility
 
@@ -22,7 +24,7 @@ Choose your target and make the attack.
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** pinning-shot · **Status:** Proposal — fresh design; not approved or balance-tested.
 

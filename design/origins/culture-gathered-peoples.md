@@ -1,8 +1,10 @@
 # Gathered Peoples
 
-Displacement brought strangers together; shared work made a new home.
+*Displacement brought strangers together; shared work made a new home.*
 
 *Which old custom did your new neighbors adopt?*
+
+## Rules
 
 Choose one:
 

@@ -1,8 +1,10 @@
 # Reed Villages
 
-Raised walkways and low boats connect homes that seem to float between sky and water.
+*Raised walkways and low boats connect homes that seem to float between sky and water.*
 
 *Which channel could you navigate with your eyes closed?*
+
+## Rules
 
 Choose one:
 

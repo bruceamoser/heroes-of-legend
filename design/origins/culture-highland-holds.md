@@ -1,8 +1,10 @@
 # Highland Holds
 
-The climb is long, the welcome warm, and every tool has a place by the hearth.
+*The climb is long, the welcome warm, and every tool has a place by the hearth.*
 
 *What did your neighbors trust you to carry?*
+
+## Rules
 
 **Type:** Culture. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
 

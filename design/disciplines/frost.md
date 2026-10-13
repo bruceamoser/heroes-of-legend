@@ -1,5 +1,9 @@
 # Frost
 
+*You learn to listen to stillness and give it the shape of winter.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-frost.
 
 Cold damage, freezing and ice shaping.

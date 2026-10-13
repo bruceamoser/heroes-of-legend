@@ -1,23 +1,29 @@
 # Stand Together
 
+*You plant yourself beside a companion and turn your guard outward, making the space between you a harder place to attack.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** Self and one adjacent willing ally.
 
-An adjacent willing ally gains 1 Boon to its next defense before your next turn; repeated uses do not multiply this benefit.
+Both gain 1 Boon to defense until the start of your next turn while adjacent to one another. You must remain able to act. Reusing this card replaces your previous application; it does not multiply it.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Until the start of your next turn or adjacency is lost.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Leader; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Leader; minimum level 1
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Defense
 
-**ID:** signature-leader-stand-together · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-leader-stand-together · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/leader.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

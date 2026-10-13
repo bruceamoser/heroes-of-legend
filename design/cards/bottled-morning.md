@@ -1,26 +1,34 @@
 # Bottled Morning
 
+*You stir until the sharp smell softens, then hold the bottle up to the dawn.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
+
+**Time:** One hour per crafting attempt.
 
 **Target / range / shape:** One compatible known ordinary recipe; one hour.
 
-Your kit can now brew restorative mixtures. Grants a mixing kit if absent (Bulk 1), and the Lesser Healing Bottle and Travel Food recipes; this card crafts either. Add 1/2/3 inventory steps to one supply, maximum d4 for healing bottles. Requires consumed ingredients; brewing is not casting healing and restores no HP during the craft attempt. Potions still require their normal action and inventory check when used.
+Use the Lesser Healing Bottle or Travel Food recipe; both are learned with this card. Spend the recipe’s one-hour interval with a mixing kit and suitable ingredients, then roll Knowledge.
 
-- **Weak:** 1 inventory step.
-- **Standard:** 2 inventory steps, capped by recipe.
-- **Strong:** 3 inventory steps, capped by recipe.
+- **Weak:** Raise one matching supply by 1 inventory step.
+- **Standard:** Raise it by 2 steps.
+- **Strong:** Raise it by 3 steps.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+The first step from out creates d4. Obey the recipe cap: d4 for Lesser Healing Bottle, d8 for Travel Food. Check carried ingredients after each attempt. No group crafting. Brewing restores no HP and pays no healing spell cost; using a finished potion follows Use a Healing Potion.
 
-**Equipment / acquisition:** No item needed unless named above.
+**Duration:** Finished supplies persist until used.
+
+**Equipment / acquisition:** One mixing kit, Bulk 1, if absent; Lesser Healing Bottle and Travel Food recipes. No ingredients or finished bottles.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Craft 2
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Craft 2 and Medicine 1
 
 **Type:** Skill / Crafting
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** bottled-morning · **Status:** Proposal for Bruce’s review.
 

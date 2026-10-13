@@ -16,10 +16,10 @@ Keep your Reaction for the threat worth meeting. A small sign protects one perso
 
 ## Give it room to grow
 
-- At level 3, [Unravel the Bolt](../cards/unravel-the-bolt.md) opens another way to affect the scene.
-- At level 7, [The Circle Holds](../cards/the-circle-holds.md) offers a larger moment.
+- At level 3, [Unravel the Bolt](../cards/unravel-the-bolt.md) (Guard 2) opens another way to affect the scene.
+- At level 7, [The Circle Holds](../cards/the-circle-holds.md) (Guard 3) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Sun Knight](sun-knight.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

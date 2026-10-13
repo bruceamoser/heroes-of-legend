@@ -1,5 +1,9 @@
 # Arms
 
+*You practice until distance, timing and the turn of a weapon become familiar companions.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-arms.
 
 Practiced melee techniques; weapon appearance never determines damage.

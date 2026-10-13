@@ -1,5 +1,9 @@
 # Ordinary Shield
 
+*You slip your arm into place and feel the worn grip fit your palm.*
+
+## Rules
+
 - **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-ordinary-shield
 - **Bulk:** 1

@@ -16,10 +16,10 @@ Your Reason is visible in the way you yield and redirect. Push someone away from
 
 ## Give it room to grow
 
-- At level 3, [Turn the River](../cards/turn-the-river.md) opens another way to affect the scene.
-- At level 7, [Stillness at the Center](../cards/stillness-at-the-center.md) offers a larger moment.
+- At level 3, [Turn the River](../cards/turn-the-river.md) (Athletics 2) opens another way to affect the scene.
+- At level 7, [Stillness at the Center](../cards/stillness-at-the-center.md) (Athletics 3) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Elemental Adept](elemental-adept.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

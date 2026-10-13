@@ -1,6 +1,8 @@
 # The Mountain Remembers
 
-*You know a mason’s lie by the stone around it.*
+*You run your fingers across the stonework, stopping where an old seam has been cut anew.*
+
+## Rules
 
 Gain 1 Boon to examining stonework for an unsafe passage, concealed join or later alteration. Obvious construction clues need no roll; the trait does not reveal an untouched wall’s far side.
 

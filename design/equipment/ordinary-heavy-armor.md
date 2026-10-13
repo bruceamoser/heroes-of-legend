@@ -1,5 +1,9 @@
 # Ordinary Heavy Armor
 
+*You settle into its reassuring weight, each fastening bearing the marks of your care.*
+
+## Rules
+
 - **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-ordinary-heavy-armor
 - **Bulk:** 1

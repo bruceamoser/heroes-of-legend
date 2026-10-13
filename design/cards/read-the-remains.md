@@ -1,8 +1,12 @@
 # Read the Remains
 
-*An overturned cup and a scrape in the dust become the start of a story.*
+*You crouch beside the overturned cup and follow the scrape across the floor, piecing together what moved through the room.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Reason
+
+**Time:** Ten minutes.
 
 **Target / range / shape:** One accessible scene or object; 10 minutes
 
@@ -12,7 +16,7 @@ Facts must be available from the evidence, never invented by the card. Correct e
 - **Standard:** Learn two supported facts.
 - **Strong:** Learn three supported facts.
 
-**Duration:** Instant
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** None.
 
@@ -22,7 +26,7 @@ Facts must be available from the evidence, never invented by the card. Correct e
 
 **Type:** Skill
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** read-the-remains · **Status:** Proposal — fresh design; not approved or balance-tested.
 

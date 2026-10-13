@@ -1,6 +1,8 @@
 # Halfling
 
-Quiet feet, a generous table and courage that surprises people who judge by height.
+*Quiet feet, a generous table and courage that surprises people who judge by height.*
+
+## Rules
 
 Choose two of the five traits below. These are invitations to a familiar fantasy,
 not a required personality. Any ancestry may grow up in any culture.

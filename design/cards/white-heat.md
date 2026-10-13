@@ -1,6 +1,8 @@
 # White Heat
 
-*For an instant, your enemy is outlined in the color of a star.*
+*You draw a narrow line toward your enemy with one finger. White fire flashes around their body and leaves flames clinging where it passed.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
 
@@ -22,7 +24,7 @@ Proposed NPC defense attribute: Agility.
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** white-heat · **Status:** Proposal — fresh design; not approved or balance-tested.
 

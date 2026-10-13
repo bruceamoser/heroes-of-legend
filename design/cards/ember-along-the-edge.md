@@ -1,6 +1,8 @@
 # Ember Along the Edge
 
-*Steel carries the spark exactly where you want it.*
+*You run two fingers beside your weapon’s edge, leaving a line of fire along it, then strike with the burning blade.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
 
@@ -12,17 +14,17 @@ Run a spark along your melee weapon and strike. Its appearance remains yours to 
 - **Standard:** 2 physical and 1 fire damage; Burning 1.
 - **Strong:** 3 physical and 2 fire damage; Burning 1.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Flame 1
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Flame 1 and Arms 1
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** ember-along-the-edge · **Status:** Proposal for Bruce’s review.
 

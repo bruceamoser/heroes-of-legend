@@ -16,10 +16,10 @@ Watch one opponent closely. Invite the attack, survive it, then turn its positio
 
 ## Give it room to grow
 
-- At level 3, [Bind and Turn](../cards/bind-and-turn.md) opens another way to affect the scene.
-- At level 7, [Write the Final Line](../cards/write-the-final-line.md) offers a larger moment.
+- At level 3, [Bind and Turn](../cards/bind-and-turn.md) (Arms 2) opens another way to affect the scene.
+- At level 7, [Write the Final Line](../cards/write-the-final-line.md) (Arms 3) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Daring Scoundrel](daring-scoundrel.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

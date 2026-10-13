@@ -1,6 +1,8 @@
 # A Lifetime Ago
 
-*You remember when the old road was new.*
+*You pause beside the broken road and recall the voices of the people who laid its first stones.*
+
+## Rules
 
 Choose one place or community you knew in an earlier age. Gain 1 Boon to Knowledge or Reason rolls recalling its history, people or construction. The DA can tell you what you genuinely witnessed without a roll; memory reveals no events you never knew.
 

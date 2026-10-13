@@ -1,8 +1,10 @@
 # Pit Fighter
 
-You learned what a crowd sounds like when it decides someone will not get up.
+*You learned what a crowd sounds like when it decides someone will not get up.*
 
 *Who did you refuse to finish?*
+
+## Rules
 
 Choose one:
 

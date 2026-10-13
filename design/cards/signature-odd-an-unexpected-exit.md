@@ -1,23 +1,29 @@
 # An Unexpected Exit
 
+*You spot the half-hidden stair, haul your companion toward it and disappear from the place everyone thought had you cornered.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** Self and optionally one adjacent willing ally.
 
-Move 3 squares without provoking through a legal route; occupied-square rules apply.
+Move up to your Speed without provoking. The ally may follow along a legal route up to the same distance, spending no action, and must end in a separate free square adjacent to you. Both must be able to move; this does not cross standing occupied squares, barriers or otherwise impassable terrain.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Immediate movement.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Odd; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Odd; minimum level 7
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Movement
 
-**ID:** signature-odd-an-unexpected-exit · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Once on your turn.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-odd-an-unexpected-exit · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/odd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

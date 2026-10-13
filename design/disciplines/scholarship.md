@@ -1,5 +1,9 @@
 # Scholarship
 
+*You learn to ask the question that makes an old fact useful in a new place.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-scholarship.
 
 Interpreting evidence, languages, histories and unfamiliar devices.

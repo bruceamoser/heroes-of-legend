@@ -1,5 +1,9 @@
 # Mind
 
+*You learn to touch the uncertain border between what is there and what is perceived.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-mind.
 
 Mental attacks and temporary disabling effects.

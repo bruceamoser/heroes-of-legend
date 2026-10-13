@@ -1,6 +1,8 @@
 # A Courtesy Unanswered
 
-*One deliberate motion ends the argument before it becomes a battle.*
+*You dip your head in a courteous greeting, then bring your hidden blade up beneath your opponent’s guard.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
@@ -12,7 +14,7 @@ Hide your intent in an ordinary gesture, then make a melee attack. If you began 
 - **Standard:** 3 physical damage and Slowed 1.
 - **Strong:** 5 physical damage and Slowed 2.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -22,7 +24,7 @@ Hide your intent in an ordinary gesture, then make a melee attack. If you began 
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-courtesy-unanswered · **Status:** Proposal for Bruce’s review.
 

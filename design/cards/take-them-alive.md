@@ -1,6 +1,8 @@
 # Take Them Alive
 
-*You know exactly where to stop the blade.*
+*You turn the edge at the last instant and finish with a controlled blow, leaving your opponent unconscious instead of dead.*
+
+## Rules
 
 **Action:** Passive · **Attribute:** None — no roll
 
@@ -8,7 +10,7 @@
 
 Declare before the attack. NPC remains unconscious until the scene ends or healed; no wound inflicted by this finishing blow. This is the purchased exception to lethal attacks, not universal permission. Player characters retain their normal 0-HP rules.
 
-**Duration:** As stated in the effect
+**Duration:** Unconscious until the scene ends or the target is healed.
 
 **Equipment / acquisition:** None.
 
@@ -18,7 +20,7 @@ Declare before the attack. NPC remains unconscious until the scene ends or heale
 
 **Type:** Skill / Utility
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** take-them-alive · **Status:** Proposal — fresh design; not approved or balance-tested.
 

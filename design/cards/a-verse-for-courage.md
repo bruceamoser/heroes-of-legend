@@ -1,14 +1,16 @@
 # A Verse for Courage
 
-*You know the verse that makes people remember who they wanted to be.*
+*You sing the familiar verse just loud enough for your companion to hear. Their shoulders straighten as they turn back to the task.*
+
+## Rules
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
 **Target / range / shape:** One ally within 3 squares who hears you.
 
-Give the ally a line worth living up to. It gains 1 Boon to its next roll before your next turn; not inventory or wound dice. The same verse does not multiply through repeated uses.
+Give the ally a line worth living up to. It gains 1 Boon to its next roll before the start of your next turn; not inventory or wound dice. The same verse does not multiply through repeated uses.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -18,7 +20,7 @@ Give the ally a line worth living up to. It gains 1 Boon to its next roll before
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-verse-for-courage · **Status:** Proposal for Bruce’s review.
 

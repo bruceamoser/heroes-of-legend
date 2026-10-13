@@ -16,10 +16,10 @@ Let someone try to move you. The answer is first a stubborn step, then a flash o
 
 ## Give it room to grow
 
-- At level 3, [Stone on Your Shoulders](../cards/stone-on-your-shoulders.md) opens another way to affect the scene.
-- At level 7, [Stride of the Giant](../cards/stride-of-the-giant.md) offers a larger moment.
+- At level 3, [Stone on Your Shoulders](../cards/stone-on-your-shoulders.md) (Armor 2) opens another way to affect the scene.
+- At level 7, [Stride of the Giant](../cards/stride-of-the-giant.md) (Armor 3) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Roadside Artificer](roadside-artificer.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

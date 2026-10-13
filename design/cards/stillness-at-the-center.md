@@ -1,5 +1,9 @@
 # Stillness at the Center
 
+*You become very quiet, then touch the point their balance cannot afford to lose.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One adjacent creature.
@@ -7,10 +11,10 @@
 Touch the point where effort becomes imbalance. No weapon required.
 
 - **Weak:** 4 physical damage and Slowed 1.
-- **Standard:** 4 physical damage and Dazed 1.
-- **Strong:** 6 physical damage and Dazed 2.
+- **Standard:** 4 physical damage, Slowed 1 and Dazed 1.
+- **Strong:** 6 physical damage, Slowed 1 and Dazed 2.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +24,7 @@ Touch the point where effort becomes imbalance. No weapon required.
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** stillness-at-the-center · **Status:** Proposal for Bruce’s review.
 

@@ -1,10 +1,12 @@
 # Braced Harness
 
+*You lean into your armor and let every strap take its share of the strain.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** Fortitude
 
 **Target / range / shape:** Self, when an effect would push or pull you
-
-Choose what you are trying to accomplish, then resolve the result below.
 
 - **Weak:** Reduce that displacement by 1 square.
 - **Standard:** Reduce it by 2 squares.
@@ -20,7 +22,7 @@ Choose what you are trying to accomplish, then resolve the result below.
 
 **Type:** Skill
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** braced-harness · **Status:** Proposal — fresh design; not approved or balance-tested.
 

@@ -39,8 +39,8 @@ Tell a Worthy Story (2). Spend 12; 1 DP expires. HP is now **17**.
 
 Level 1: choose Scholarship 1 and Calling 1, no duplicates. Choose Bent Trajectory
 as the free signature. Buy Read the Remains (2), Identify an Enchantment (2),
-Identify a Mixture (2), Call a Burrower (2), A Friend Beneath the Door (2).
-Buy Hold a Conversation (2). Spend 12; 1 expires. No items are implicitly granted by these spells.
+Wilderness 1 at Foreign cost (3), Call a Burrower (2), and A Friend Beneath the Door (2).
+Spend 11; 2 expire. Calling 1 and Wilderness 1 both precede the burrower purchase. No items are implicitly granted by these spells.
 
 Picture the moment: a tiny scout wriggles through a barred doorway while the caster
 asks the dying hearth who visited last. In combat, they bend a cinder around a nearby

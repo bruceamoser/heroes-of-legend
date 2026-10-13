@@ -4,14 +4,15 @@ The draft has **36 character paths**, each with a Novice starting point and
 independent Adept and Master options. These describe different fantasies and jobs
 at the table, not new classes or mandatory upgrade chains.
 
-There are **304 action and ability entries**: 18 universal references, 205 shared
-abilities and 81 class signatures. The expansion added 108 shared cards. Each of
+There are **322 action and ability entries**: 18 universal references, 223 shared
+abilities and 81 class signatures. The fantasy expansion added 108 shared cards;
+the adventure revision adds eighteen more, including seven shared passives. Each of
 the nine HOL classes still offers three signature choices at levels 1, 3 and 7.
 
 The four ancestries retain five traits each, now rewritten around their recognizable
 fantasy identities. Cultures increased from 6 to **18**; backgrounds from 8 to
 **32**. Each origin offers two rank-and-ability pairs. Ancestry restricts neither.
-There are 22 equipment entries and 9 ordinary recipes, including mixing supplies.
+There are 22 equipment entries and 10 ordinary recipes, including mixing supplies.
 
 ## Different ways to be useful
 
@@ -41,3 +42,11 @@ A full bestiary, economy, rare recipes and more cultural voices remain future
 writing. We have broad character coverage, not every fantasy ever published.
 First review the promises and scenes in the paths, then remove or improve anything
 that still feels like filler. More cards are useful only when they create choices.
+
+## Adventure revision
+
+There are now fourteen shared passives and 28 mixed-discipline abilities, with
+single-discipline rank-3 ultimates preserved. Read [Heroes between battles](adventure-development.md)
+and the [revision survey](reviews/1143-revision-review.md) for paths, exact counts,
+purchase examples and remaining limitations. Every card record separates narrative
+from Rules; this is an authoring revision, not a finished-layout pass.

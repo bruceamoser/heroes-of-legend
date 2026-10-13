@@ -1,16 +1,22 @@
 # Icebound Path
 
+*You draw your fingers across the air, laying a pale skin of winter over the ground.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
-**Target / range / shape:** Three contiguous visible unoccupied squares within 5
+**Target / range / shape:** Up to 3/5/7 connected visible unoccupied ground squares, each within 5 squares.
 
-Only creates terrain; no automatic damage, prone or repeated entry trigger. Cannot create ice inside a creature.
+Roll Knowledge, then cover up to the indicated number of squares with ice. Place one connected area, with squares joined along their edges.
 
-- **Weak:** Create difficult terrain.
-- **Standard:** Create difficult terrain.
-- **Strong:** Create difficult terrain.
+- **Weak:** 3 squares.
+- **Standard:** 5 squares.
+- **Strong:** 7 squares.
 
-**Duration:** Until the start of your next turn
+The squares are difficult terrain until the end of your next turn. They deal no damage and do not automatically knock creatures prone.
+
+**Duration:** Until the end of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -18,9 +24,9 @@ Only creates terrain; no automatic damage, prone or repeated entry trigger. Cann
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Frost 2
 
-**Type:** Magic
+**Type:** Magic / Control
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** icebound-path · **Status:** Proposal — fresh design; not approved or balance-tested.
 

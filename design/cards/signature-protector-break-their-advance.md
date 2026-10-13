@@ -1,23 +1,29 @@
 # Break Their Advance
 
+*You absorb the hit and answer with a hard shove, stepping forward as the attacker stumbles away.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** One adjacent enemy, after it damages you.
 
-After an adjacent enemy damages you, push it 2 squares directly away. No attack roll or extra damage beyond ordinary collisions.
+Push it up to 2 squares directly away from you, then you may move 1 square toward it without provoking. Use legal routes and a free endpoint. The damage already taken remains; normal collision rules apply.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Immediate push and movement.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Protector; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Protector; minimum level 3
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Control / Movement
 
-**ID:** signature-protector-break-their-advance · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-protector-break-their-advance · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

@@ -1,12 +1,16 @@
 # Procession of the Quiet
 
+*You raise your hand, and patient bone porters assemble for another journey.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
 **Target / range / shape:** Two visible free squares within 3 squares.
 
 Call two bone porters, each HP 8, Speed 4, resistance 1 physical; each carries up to 2 Bulk. Main attack uses controller Knowledge, adjacent, physical 3/4/6. They may Move or Defend when commanded and are harmed by healing. Normal commands and tether; only one gets the immediate Main command. Last one scene. They wait for your command between turns.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Until the scene ends, unless ended earlier as stated above.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -16,7 +20,7 @@ Call two bone porters, each HP 8, Speed 4, resistance 1 physical; each carries u
 
 **Type:** Magic
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** procession-of-the-quiet · **Status:** Proposal for Bruce’s review.
 

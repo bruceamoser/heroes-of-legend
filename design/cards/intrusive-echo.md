@@ -1,6 +1,8 @@
 # Intrusive Echo
 
-*One thought rings so loudly that the battlefield slips out of focus.*
+*You speak a word that keeps repeating inside your enemy’s head. They shake their head, struggling to follow the fight through the echo.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
@@ -22,7 +24,7 @@ Proposed NPC defense attribute: Reason.
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** intrusive-echo · **Status:** Proposal — fresh design; not approved or balance-tested.
 

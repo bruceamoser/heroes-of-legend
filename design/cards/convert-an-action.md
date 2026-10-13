@@ -1,5 +1,9 @@
 # Convert an Action
 
+*You abandon the opening you were watching and throw your effort into what matters now.*
+
+## Rules
+
 **Action:** Action conversion · **Attribute:** None — no roll
 
 **Target / range / shape:** Self
@@ -16,7 +20,7 @@ Spend Main Action to gain a Maneuver; spend a Maneuver to gain another movement 
 
 **Type:** Universal
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** convert-an-action · **Status:** Agreed foundation; any proposal is identified in the effect.
 

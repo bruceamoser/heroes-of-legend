@@ -1,6 +1,12 @@
 # Ask the Falling Ash
 
+*You scatter the ash and watch for the pattern that makes your breath catch.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
+
+**Time:** Ten minutes.
 
 **Target / range / shape:** One scene or decision you can describe; ten minutes.
 
@@ -10,7 +16,7 @@ Read a pattern in ash, water or falling leaves. Ask about a possible next step, 
 - **Standard:** Also names one presently available way to investigate it.
 - **Strong:** Also identifies one sign to watch for if that risk approaches.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +26,7 @@ Read a pattern in ash, water or falling leaves. Ask about a possible next step, 
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** ask-the-falling-ash · **Status:** Proposal for Bruce’s review.
 

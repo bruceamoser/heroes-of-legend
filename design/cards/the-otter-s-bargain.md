@@ -1,6 +1,8 @@
 # The Otter’s Bargain
 
-*The tide has tried to take you before. You learned its grip.*
+*You spread your fingers and watch webbing form between them. When you enter the water, each stroke catches the current more firmly.*
+
+## Rules
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
@@ -8,7 +10,7 @@
 
 Webbing slips between your fingers for one scene. Swimming squares cost you 1 movement instead of the normal difficult-water cost where movement is otherwise possible. You still need air, and dangerous currents may still call for ordinary rolls. You do not gain land Speed or a second HP pool.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Until the scene ends, unless ended earlier as stated above.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -16,9 +18,9 @@ Webbing slips between your fingers for one scene. Swimming squares cost you 1 mo
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Wilderness 1
 
-**Type:** Skill
+**Type:** Magic
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-otter-s-bargain · **Status:** Proposal for Bruce’s review.
 

@@ -1,6 +1,8 @@
 # Invitation to the Blade
 
-*You give your enemy one opening, and it is the wrong one.*
+*You lower your guard just enough to invite a strike, then turn your blade across the opening and attack as your opponent commits.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Agility
 
@@ -9,10 +11,10 @@
 Offer a tempting line, then close it with a melee attack.
 
 - **Weak:** 3 physical damage.
-- **Standard:** 3 physical damage; gain 1 Boon to your next defense against this target before your next turn.
+- **Standard:** 3 physical damage; gain 1 Boon to your next defense against this target before the start of your next turn.
 - **Strong:** 5 physical damage and the same defensive Boon.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -22,7 +24,7 @@ Offer a tempting line, then close it with a melee attack.
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** invitation-to-the-blade · **Status:** Proposal for Bruce’s review.
 

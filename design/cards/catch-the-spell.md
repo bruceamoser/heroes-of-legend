@@ -2,17 +2,17 @@
 
 *You seize the shape of the spell and wrench it aside.*
 
-**Action:** Reaction · **Attribute:** Knowledge
+## Rules
 
-**Target / range / shape:** One visible caster within 4 squares, casting a spell with you as its sole target
+**Action:** Reaction · **Attribute:** None — no roll
 
-Countermagic proposal: resolve this card before the ordinary defense. Does not cancel the spell or change its printed damage. Cannot affect an area spell. Review the additional roll and NPC use before adoption.
+**Target / range / shape:** Self, before defending against a single-target spell from a visible caster within 4 squares.
 
-- **Weak:** Gain 1 Boon to your defense against this spell.
-- **Standard:** Gain 2 Boons to that defense.
-- **Strong:** Gain 3 Boons; after it resolves, push its caster 1 square.
+Spend your Reaction before making the spell’s normal defense roll. Gain 2 Boons to that defense. If that defense is Strong, push the caster 1 square after the spell resolves. Make no additional roll.
 
-**Duration:** As stated in the effect
+This protects against the spell; it does not cancel casting or protect against an area spell. General spell cancellation remains an open design decision.
+
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** None.
 
@@ -20,9 +20,9 @@ Countermagic proposal: resolve this card before the ordinary defense. Does not c
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Scholarship 2
 
-**Type:** Magic / Utility
+**Type:** Magic / Defense
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** catch-the-spell · **Status:** Proposal — fresh design; not approved or balance-tested.
 

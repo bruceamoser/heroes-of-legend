@@ -1,6 +1,8 @@
 # Footfall on the Leaves
 
-*Even the fallen leaves seem reluctant to betray your passing.*
+*You step between stems and over tangled roots, leaving the leaves scarcely trembling behind you.*
+
+## Rules
 
 Natural undergrowth does not increase the cost of your voluntary movement. Other difficult terrain, forced movement and occupied-square rules are unchanged.
 

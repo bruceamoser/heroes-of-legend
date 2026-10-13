@@ -1,6 +1,8 @@
 # Read the Quarry
 
-*You find the trail, choose the ground, and make the first shot count.*
+*You study the creature’s gait and fire toward the place its next step will carry it, watching for the marks that movement leaves behind.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Knowledge
 
@@ -12,7 +14,7 @@ Study how it moves and place a ranged shot where it will be. Requires ranged wea
 - **Standard:** 3 physical damage; learn one visible sign useful for following its trail.
 - **Strong:** 5 physical damage; gain the sign and apply Slowed 1.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** Gain one ordinary ranged weapon and one d8 ammunition bundle if absent; each Bulk 1. Check ammunition after every attack.
 
@@ -22,7 +24,7 @@ Study how it moves and place a ranged shot where it will be. Requires ranged wea
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** read-the-quarry · **Status:** Proposal for Bruce’s review.
 

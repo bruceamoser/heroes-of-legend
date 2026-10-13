@@ -1,8 +1,10 @@
 # Messenger
 
-You carried words that changed lives and learned when not to ask what they meant.
+*You carried words that changed lives and learned when not to ask what they meant.*
 
 *Which message did you refuse to deliver?*
+
+## Rules
 
 **Type:** Background. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
 

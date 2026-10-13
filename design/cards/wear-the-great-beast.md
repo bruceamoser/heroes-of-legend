@@ -1,12 +1,24 @@
 # Wear the Great Beast
 
+*You draw a deep breath as muscle and fur reshape your outline into something formidable.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
 **Target / range / shape:** Self.
 
-Become a mighty bear, elk or great hunting cat for the scene. Keep your HP, wounds and one-square footprint; your Speed becomes ancestry base + Agility +1 before encumbrance. Fold equipment away, losing its benefits and access to free hands. Gain physical resistance 2. Main attack: Brawn, adjacent, physical 5/5/7; Standard pushes 2, Strong pushes 3 and knocks prone. Return with a Maneuver. Does not require Borrow the Beast; use one form at a time. You cannot speak or cast spells in this form. HP loss and conditions remain yours when it ends.
+Spend a Maneuver to become a mighty bear, elk or great hunting cat for the scene. Keep your HP, wounds, attributes and one-square footprint. Speed is ancestry base + Agility + 1, reduced by encumbrance and other applicable penalties, minimum 0. Equipment folds away and provides no benefits. Gain physical resistance 2; highest matching resistance applies. You cannot speak, cast spells or use items, and have no free hands.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Claw, antler or bite — Main Action, Brawn; one adjacent creature.**
+
+- **Weak:** Deal 5 physical damage.
+- **Standard:** Deal 5 physical damage and push 2 squares.
+- **Strong:** Deal 7 physical damage, push 3 squares and knock prone.
+
+Return with a Maneuver. Another form ends this one; HP loss and conditions remain yours. No earlier form card is required.
+
+**Duration:** Until the scene ends, unless ended earlier as stated above.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -14,9 +26,9 @@ Become a mighty bear, elk or great hunting cat for the scene. Keep your HP, woun
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Wilderness 3
 
-**Type:** Skill
+**Type:** Magic
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** wear-the-great-beast · **Status:** Proposal for Bruce’s review.
 

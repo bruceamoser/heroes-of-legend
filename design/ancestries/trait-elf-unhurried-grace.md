@@ -1,6 +1,8 @@
 # Grace of the Elder Folk
 
-*Where others hurry, you seem simply to arrive.*
+*You lengthen your stride and weave past the obstacles without breaking the rhythm of your steps.*
+
+## Rules
 
 Base Speed +1. Describe whether your grace is effortless balance, long strides or a dancer’s economy.
 

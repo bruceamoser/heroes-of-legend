@@ -1,6 +1,8 @@
 # A Coal for a Promise
 
-*The ember on your tongue speaks in a voice you chose to answer.*
+*You name what your enemy fears losing, then flick a glowing coal from your fingers toward them. The ember flares as it strikes.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
@@ -12,7 +14,7 @@ Name something it stands to lose and cast a burning coal. The threat is a flouri
 - **Standard:** 3 fire damage and Frightened 1 of you.
 - **Strong:** 5 fire damage and Frightened 1 of you.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,7 +24,7 @@ Name something it stands to lose and cast a burning coal. The threat is a flouri
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-coal-for-a-promise · **Status:** Proposal for Bruce’s review.
 

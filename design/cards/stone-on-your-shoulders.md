@@ -1,12 +1,16 @@
 # Stone on Your Shoulders
 
+*You feel the rune take the weight as though a mountain had leaned against the blow.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
 **Target / range / shape:** Self, before taking physical damage.
 
 The rune takes the weight. For this damage event, gain physical resistance 3. Afterward, you may move 1 square without provoking. This does not add to existing resistance.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -14,9 +18,9 @@ The rune takes the weight. For this damage event, gain physical resistance 3. Af
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Armor 2
 
-**Type:** Skill
+**Type:** Magic
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** stone-on-your-shoulders · **Status:** Proposal for Bruce’s review.
 

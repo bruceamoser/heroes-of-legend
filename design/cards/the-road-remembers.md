@@ -1,18 +1,22 @@
 # The Road Remembers
 
-*Broken grass and cold ash tell you who hurried and who was carried.*
+*You part the grass, examine the crushed stems and touch the cold ash, following the signs of those who stopped here before you.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Reason
 
+**Time:** Ten minutes.
+
 **Target / range / shape:** A natural trail or campsite; 10 minutes
 
-Only evidence present can be read. Mundane tracking remains possible without this card; the expert gains information as well as progress. No automatic tracking through erased evidence.
+Only evidence present can be read. Mundane tracking remains possible without this card; the expert gains the information listed below. No automatic tracking through erased evidence.
 
 - **Weak:** Learn the direction of recent passage.
 - **Standard:** Also learn approximate group size.
 - **Strong:** Also identify a distinctive trace useful for following that group.
 
-**Duration:** As stated in the effect
+**Duration:** The result applies when the stated activity is complete; information and earned progress persist.
 
 **Equipment / acquisition:** None.
 
@@ -22,7 +26,7 @@ Only evidence present can be read. Mundane tracking remains possible without thi
 
 **Type:** Skill / Utility
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-road-remembers · **Status:** Proposal — fresh design; not approved or balance-tested.
 

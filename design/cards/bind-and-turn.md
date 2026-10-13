@@ -1,5 +1,9 @@
 # Bind and Turn
 
+*You catch their momentum and feel the instant when strength becomes imbalance.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** Agility
 
 **Target / range / shape:** An adjacent enemy after it attacks you.
@@ -10,7 +14,7 @@ Catch its weapon or striking limb and turn the struggle. This is a fresh maneuve
 - **Standard:** Push it 2 squares.
 - **Strong:** Push it 2 squares and knock it prone.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +24,7 @@ Catch its weapon or striking limb and turn the struggle. This is a fresh maneuve
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** bind-and-turn · **Status:** Proposal for Bruce’s review.
 

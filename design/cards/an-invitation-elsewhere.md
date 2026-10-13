@@ -1,6 +1,8 @@
 # An Invitation Elsewhere
 
-*You learned your manners at a table where every promise mattered.*
+*You bow and extend a hand as though inviting your enemy to dance. An unseen tug draws them across the ground toward you.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
@@ -12,7 +14,7 @@ Offer the impossible courtesy of a dance-step somewhere else. Magical force move
 - **Standard:** Pull it 2 squares.
 - **Strong:** Pull it 2 squares; you may move 1 square without provoking afterward.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,7 +24,7 @@ Offer the impossible courtesy of a dance-step somewhere else. Magical force move
 
 **Type:** Magic
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** an-invitation-elsewhere · **Status:** Proposal for Bruce’s review.
 

@@ -1,8 +1,10 @@
 # Confidence Artist
 
-People remember the smile long after they notice what is missing.
+*People remember the smile long after they notice what is missing.*
 
 *Who believed in you when you were finally telling the truth?*
+
+## Rules
 
 Choose one:
 

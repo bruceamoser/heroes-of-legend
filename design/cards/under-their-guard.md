@@ -1,12 +1,16 @@
 # Under Their Guard
 
+*You slip through the little space their weapon leaves behind.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
 **Target / range / shape:** One adjacent enemy and a visible free square within 2 squares.
 
 Pass along a legal route to that square without provoking from the chosen enemy. Other enemies can still react. You cannot pass through its occupied square.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -16,7 +20,7 @@ Pass along a legal route to that square without provoking from the chosen enemy.
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** under-their-guard · **Status:** Proposal for Bruce’s review.
 

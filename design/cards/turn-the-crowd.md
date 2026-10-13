@@ -1,16 +1,22 @@
 # Turn the Crowd
 
+*You find the words people begin repeating to one another before you have finished speaking.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
+
+**Time:** Ten minutes per attempt.
 
 **Target / range / shape:** An audience able to hear; 10 minutes
 
-DA declares the objective, stakes and any cumulative target before the roll. Progress is not automatic completion. No routine roll when there is no consequence.
+Address an audience able to hear and understand you. Propose one plausible collective objective, such as providing volunteers, granting access or organizing evacuation. The DA states a binary or cumulative progress target and which listeners are willing to consider it. Completion secures the stated cooperation from willing participants, not authority over everyone present; their own choices and new events still matter.
 
-- **Weak:** 1 progress toward the declared group objective.
-- **Standard:** 2 progress and identify a pivotal objection.
-- **Strong:** 3 progress and identify a willing spokesperson.
+- **Weak:** 1 progress; identify an objection voiced by the audience.
+- **Standard:** 2 progress; also identify a willing spokesperson who can explain that objection.
+- **Strong:** 3 progress; also identify willing volunteers who can organize the agreed practical next step, if such people are present.
 
-**Duration:** Instant
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** None.
 
@@ -20,7 +26,7 @@ DA declares the objective, stakes and any cumulative target before the roll. Pro
 
 **Type:** Skill
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** turn-the-crowd · **Status:** Proposal — fresh design; not approved or balance-tested.
 

@@ -1,8 +1,10 @@
 # Traveling Player
 
-You have been cheered, chased away, badly paid and invited back under a different name.
+*You have been cheered, chased away, badly paid and invited back under a different name.*
 
 *Which audience surprised you?*
+
+## Rules
 
 Choose one:
 

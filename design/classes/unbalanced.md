@@ -1,5 +1,9 @@
 # Unbalanced
 
+*You meet the obstacle with everything you are, and let it discover whether that is enough.*
+
+## Rules
+
 **Agreed:** minimum 0 in Brawn, Fortitude; HP contribution +6. No multiclassing.
 
 **Proposal:** choose two distinct rank-1 disciplines from Arms, Athletics, Armor, Storm.
@@ -25,3 +29,15 @@ Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost
 - [Scatter the Line](../cards/signature-unbalanced-scatter-the-line.md)
 - [Break Their Grip](../cards/signature-unbalanced-break-their-grip.md)
 - [Crash Down](../cards/signature-unbalanced-crash-down.md)
+
+## Signature identity in play
+
+The revised options aim for these moments, with a deliberate advantage over shared
+cards of their tier. Each is an independent choice, not a progression chain.
+
+- **Level 1:** Drive through, charge, or rise fighting.
+- **Level 3:** Break an obstruction, throw a creature, or shove back through pain.
+- **Level 7:** Scatter enemies, wrench free and retaliate, or finish a push with a knockdown.
+
+See the [full signature review](../reviews/1153-signature-review.md) for comparisons
+and remaining playtest questions. Individual effects remain proposals.

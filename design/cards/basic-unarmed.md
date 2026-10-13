@@ -1,5 +1,9 @@
 # Basic Unarmed
 
+*You close the distance with fist, heel or shoulder, putting your whole body behind the blow.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Brawn
 
 **Target / range / shape:** One adjacent creature
@@ -20,7 +24,7 @@ Choose your target and make the attack.
 
 **Type:** Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** basic-unarmed · **Status:** Agreed universal permission; damage and ranged distances are proposals.
 

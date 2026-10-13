@@ -1,18 +1,20 @@
 # Blood in the Teeth
 
-*You do not wait for the battlefield to make room. You make room.*
+*You swallow the taste of blood and drive your weapon into your opponent, leaning so far into the blow that you leave yourself exposed.*
+
+## Rules
 
 **Action:** Main Action · **Attribute:** Fortitude
 
 **Target / range / shape:** One adjacent creature.
 
-You take the hurt and turn it outward. Make a melee attack. Until your next turn, your defenses against physical attacks take 1 Bane.
+You take the hurt and turn it outward. Make a melee attack. Until the start of your next turn, your defenses against physical attacks take 1 Bane.
 
 - **Weak:** 3 physical damage.
 - **Standard:** 4 physical damage; push 1 square.
 - **Strong:** 6 physical damage; push 2 squares.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Damage and push are immediate; your defense Bane lasts until the start of your next turn.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -22,7 +24,7 @@ You take the hurt and turn it outward. Make a melee attack. Until your next turn
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** blood-in-the-teeth · **Status:** Proposal for Bruce’s review.
 

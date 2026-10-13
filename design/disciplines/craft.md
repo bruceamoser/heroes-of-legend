@@ -1,5 +1,9 @@
 # Craft
 
+*You learn to see the useful thing waiting inside the raw material.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-craft.
 
 Recipes, repairs and derivation; no group crafting.

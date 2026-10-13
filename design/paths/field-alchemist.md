@@ -16,10 +16,10 @@ Prepare before trouble, then choose when a bottle is worth the hand and action i
 
 ## Give it room to grow
 
-- At level 3, [Bottled Morning](../cards/bottled-morning.md) opens another way to affect the scene.
-- At level 7, [The Cleverest Mixture](../cards/the-cleverest-mixture.md) offers a larger moment.
+- At level 3, [Bottled Morning](../cards/bottled-morning.md) (Craft 2 and Medicine 1) opens another way to affect the scene.
+- At level 7, [The Cleverest Mixture](../cards/the-cleverest-mixture.md) (Craft 3 and Medicine 1) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Thinking Fighter](thinking-fighter.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 
