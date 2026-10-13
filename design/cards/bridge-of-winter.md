@@ -1,6 +1,6 @@
 # Bridge of Winter
 
-*The frost reaches across the chasm like fingers finding a hand.*
+*You press your palm toward the far side of the gap. Ice grows outward from both edges and joins into a pale bridge beneath drifting frost.*
 
 ## Rules
 

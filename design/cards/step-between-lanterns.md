@@ -1,6 +1,6 @@
 # Step Between Lanterns
 
-*The darkness is a route you have already learned.*
+*You wait for a lantern to turn away, then move along the strip of darkness between its light and the next.*
 
 ## Rules
 

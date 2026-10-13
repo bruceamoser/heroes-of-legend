@@ -8,7 +8,7 @@
 
 **Target / range / shape:** The trigger and recipients are specified in the rule below.
 
-Exclude one creature from your area spell before rolling. Recalculate the worst applicable situation for the remaining targets.
+Exclude one creature from your area spell before rolling. Work out the remaining targets’ net Boons or Banes and use the combination least favorable to you for the roll.
 
 **Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 

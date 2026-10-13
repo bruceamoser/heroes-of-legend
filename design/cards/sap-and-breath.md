@@ -1,6 +1,6 @@
 # Sap and Breath
 
-*Where you kneel, crushed grass begins to rise.*
+*You kneel beside your companion and extend your hand. Green light passes from your palm into their wounds, leaving your own fingers cold.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # A Door That Is Not There
 
-*The eye sees a doorway where you have left a question.*
+*You trace a doorframe in the air. An image of weathered wood and an iron latch settles into the space, convincing until a hand passes through it.*
 
 ## Rules
 

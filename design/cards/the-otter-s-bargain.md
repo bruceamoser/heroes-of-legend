@@ -1,6 +1,6 @@
 # The Otter’s Bargain
 
-*The tide has tried to take you before. You learned its grip.*
+*You spread your fingers and watch webbing form between them. When you enter the water, each stroke catches the current more firmly.*
 
 ## Rules
 

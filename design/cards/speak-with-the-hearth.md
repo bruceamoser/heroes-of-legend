@@ -1,6 +1,6 @@
 # Speak with the Hearth
 
-*Coals remember the hands held above them.*
+*You lower your hand into the fire without being burned. Shapes gather among the coals: traces of the people and possessions that recently passed its warmth.*
 
 ## Rules
 

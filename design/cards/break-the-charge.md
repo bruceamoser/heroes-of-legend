@@ -1,6 +1,6 @@
 # Break the Charge
 
-*You watch the rush approach and choose the heartbeat when courage must become steel.*
+*You plant your feet as the enemy rushes in, then strike into their advance with enough force to send them stumbling back.*
 
 ## Rules
 

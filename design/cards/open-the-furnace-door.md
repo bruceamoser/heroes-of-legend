@@ -8,7 +8,7 @@
 
 **Target / range / shape:** Every creature in a 3-wide, 2-deep rectangle immediately ahead of you.
 
-A furnace door opens for a heartbeat. One roll at the worst applicable situation; allies are included.
+A furnace door opens for a heartbeat. Include allies in the area. Work out each target’s net Boons or Banes; make one roll using the combination least favorable to you and apply it to all targets.
 
 - **Weak:** 4 fire damage and push 1.
 - **Standard:** 4 fire damage and push 2.

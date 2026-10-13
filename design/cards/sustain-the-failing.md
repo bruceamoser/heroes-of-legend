@@ -1,6 +1,6 @@
 # Sustain the Failing
 
-*You kneel beside them and give strength you will feel missing.*
+*You kneel beside your companion and hold out your hand. Strength passes into their injured body, leaving you pale and breathing hard.*
 
 ## Rules
 

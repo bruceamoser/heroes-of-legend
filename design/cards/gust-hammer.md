@@ -1,6 +1,6 @@
 # Gust Hammer
 
-*Strike with a wall of wind, sending the enemy tumbling away.*
+*You thrust your palm forward. A compressed rush of air strikes your enemy squarely and drives them backward.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Ember Along the Edge
 
-*Steel carries the spark exactly where you want it.*
+*You run two fingers beside your weapon’s edge, leaving a line of fire along it, then strike with the burning blade.*
 
 ## Rules
 

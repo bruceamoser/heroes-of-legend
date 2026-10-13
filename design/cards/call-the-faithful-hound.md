@@ -1,6 +1,6 @@
 # Call the Faithful Hound
 
-*You know the meaning of that lowered head before anyone else moves.*
+*You whistle and hold out your hand. A hound-shaped spirit pads into view, touches its nose to your fingers and lowers its head to the trail.*
 
 ## Rules
 

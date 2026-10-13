@@ -1,6 +1,6 @@
 # Rest for the Restless
 
-*You speak gently, offering the wandering thing an ending it has forgotten how to find.*
+*You extend a hand toward the restless creature and speak a quiet dismissal. A pale thread of Life energy lashes from your fingers into it.*
 
 ## Rules
 

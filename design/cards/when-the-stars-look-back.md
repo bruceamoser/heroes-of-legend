@@ -1,6 +1,6 @@
 # When the Stars Look Back
 
-*You show them a glimpse of the vast attention waiting beyond the familiar stars.*
+*You point toward your enemy and open a brief vision of the star-filled dark in their thoughts. They falter beneath the sense that something vast has noticed them.*
 
 ## Rules
 

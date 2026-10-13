@@ -1,6 +1,6 @@
 # Breath of the Wyrmling
 
-*Something ancient smiles when you open your mouth.*
+*You draw a breath that burns pleasantly in your chest, then open your mouth and breathe a stream of fire across the ground ahead.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** Every other creature in three contiguous squares in a straight line from you.
 
-Breathe fire. Roll once using the worst applicable situation; include allies in the line.
+Breathe fire. Make one roll using the net Boons or Banes least favorable to you among the targets; include allies in the line.
 
 - **Weak:** 3 fire damage.
 - **Standard:** 3 fire damage and Burning 1.

@@ -1,6 +1,6 @@
 # Cinder Cast
 
-*A fistful of embers blooms into a hungry flame.*
+*You gather glowing embers in your palm and fling them toward your enemy. They flare into flame against the target.*
 
 ## Rules
 

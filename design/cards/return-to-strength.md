@@ -1,6 +1,6 @@
 # Return to Strength
 
-*Life surges from you into a friend who was almost lost.*
+*You reach toward your injured companion and send a surge of warmth into their body. Their breathing strengthens as your own knees briefly weaken.*
 
 ## Rules
 

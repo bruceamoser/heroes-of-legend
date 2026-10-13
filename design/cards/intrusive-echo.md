@@ -1,6 +1,6 @@
 # Intrusive Echo
 
-*One thought rings so loudly that the battlefield slips out of focus.*
+*You speak a word that keeps repeating inside your enemy’s head. They shake their head, struggling to follow the fight through the echo.*
 
 ## Rules
 

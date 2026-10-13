@@ -1,6 +1,6 @@
 # Pinning Shot
 
-*Put the shot where their next step was going to be.*
+*You aim beside your enemy’s next foothold and release, forcing them to shorten their stride as the shot strikes.*
 
 ## Rules
 

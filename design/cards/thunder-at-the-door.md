@@ -1,6 +1,6 @@
 # Thunder at the Door
 
-*You raise your hand as if the sky were a sail.*
+*You raise your palm toward your enemy and close your fingers. A thunderclap bursts beside them, rattling their balance and ringing in their ears.*
 
 ## Rules
 

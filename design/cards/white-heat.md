@@ -1,6 +1,6 @@
 # White Heat
 
-*For an instant, your enemy is outlined in the color of a star.*
+*You draw a narrow line toward your enemy with one finger. White fire flashes around their body and leaves flames clinging where it passed.*
 
 ## Rules
 

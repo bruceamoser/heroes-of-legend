@@ -1,6 +1,6 @@
 # Secure a Hold
 
-*Close the distance and make the struggle yours.*
+*You step close, catch your opponent’s arm or body, and lock your weight against theirs. Holding them still leaves you committed to the same struggle.*
 
 ## Rules
 
@@ -20,7 +20,7 @@ Apply Grappled 1/2/3. You suffer the same rating as your contribution; other gra
 
 **Type:** Skill / Utility
 
-**Limits:** Once per wound per day for treatment; otherwise repeatable within the stated interval.
+**Limits:** Pay the printed action and any full activity time for each use.
 
 **ID:** secure-a-hold · **Status:** Proposal — fresh design; not approved or balance-tested.
 

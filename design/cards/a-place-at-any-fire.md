@@ -1,6 +1,6 @@
 # A Place at Any Fire
 
-*You arrive a stranger and leave with someone calling you by name.*
+*You introduce yourself, offer a little news from the road, and ask who has room beside the fire. As people answer, you watch for a face willing to welcome you.*
 
 ## Rules
 

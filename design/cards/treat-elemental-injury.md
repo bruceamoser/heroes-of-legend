@@ -8,7 +8,13 @@
 
 **Target / range / shape:** One wound listing Elemental treatment; one hour
 
-Add 1/2/3 recovery progress. Once per wound per day; relieve only printed treatable penalties. Lost clothing is not restored.
+Choose one wound that lists Elemental treatment. Spend one hour treating it, then roll Knowledge and add recovery progress:
+
+- **Weak:** Add 1 recovery progress.
+- **Standard:** Add 2 recovery progress.
+- **Strong:** Add 3 recovery progress.
+
+Keep a running total for that wound. When the total reaches its recovery value, remove only the penalties it lists as treatable by this method. The scar and accumulated wound count remain. This restores no HP, regrows no missing body part and replaces no lost equipment. The same wound may be treated only once per day, even by different healers.
 
 **Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
@@ -20,7 +26,7 @@ Add 1/2/3 recovery progress. Once per wound per day; relieve only printed treata
 
 **Type:** Recovery
 
-**Limits:** Once per wound per day for treatment; otherwise repeatable within the stated interval.
+**Limits:** Each wound can be treated only once per day across all healers.
 
 **ID:** treat-elemental-injury · **Status:** Proposal — fresh design; not approved or balance-tested.
 

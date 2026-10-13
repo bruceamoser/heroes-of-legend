@@ -1,6 +1,6 @@
 # Swing into Trouble
 
-*The chandelier was never just decoration.*
+*You seize the hanging rope, kick away from your support and swing toward the landing, ready to shoulder aside anyone standing beside it.*
 
 ## Rules
 

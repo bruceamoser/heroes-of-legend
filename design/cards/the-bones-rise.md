@@ -1,6 +1,6 @@
 # The Bones Rise
 
-*You ask the dead for one more journey, and give the bones a purpose.*
+*You lift your hand from the ground. Pale fragments gather into a skeletal servant that rises, takes up its burden and waits for your command.*
 
 ## Rules
 

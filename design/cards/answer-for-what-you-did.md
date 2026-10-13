@@ -1,6 +1,6 @@
 # Answer for What You Did
 
-*You meet their eyes. The chase is over, and your promise still stands.*
+*You tell your quarry why you came, then step in and strike to stop their retreat.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # A Company of Reflections
 
-*Familiar faces flicker beside your friends, each reflection turning to meet the coming blow.*
+*You sweep your hand past your companions, leaving a wavering double beside each one. The doubles lean into the path of approaching blows.*
 
 ## Rules
 

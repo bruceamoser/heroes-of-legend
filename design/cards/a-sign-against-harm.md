@@ -1,6 +1,6 @@
 # A Sign against Harm
 
-*Draw a line in the air and tell the danger where it ends.*
+*You draw a bright line in front of your companion. As the blow approaches, the line spreads into a brief ward across its path.*
 
 ## Rules
 

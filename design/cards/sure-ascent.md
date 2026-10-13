@@ -1,6 +1,6 @@
 # Sure Ascent
 
-*Your companions see a cliff; you see the next three handholds.*
+*You test the next handhold, shift your weight onto it and check where a rope could help the companion climbing after you.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** A climb you could ordinarily attempt
 
-DA declares the objective, stakes and any cumulative target before the roll. Progress is not automatic completion. No routine roll when there is no consequence.
+Before rolling, agree with the DA on what you are trying to accomplish and what is at risk. The DA states how much progress completes the task and whether progress carries over between attempts. Add the progress shown by your result. If the action has no uncertain consequence, resolve it without a roll.
 
 - **Weak:** Gain 1 progress and retain a safe grip.
 - **Standard:** Gain 2 progress and bring one carried item securely.

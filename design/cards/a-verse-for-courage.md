@@ -1,6 +1,6 @@
 # A Verse for Courage
 
-*You know the verse that makes people remember who they wanted to be.*
+*You sing the familiar verse just loud enough for your companion to hear. Their shoulders straighten as they turn back to the task.*
 
 ## Rules
 

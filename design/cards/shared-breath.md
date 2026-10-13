@@ -1,6 +1,6 @@
 # Shared Breath
 
-*Your breath catches as theirs steadies.*
+*You reach toward your companion and breathe out slowly. Warmth passes into their wounds while the effort catches painfully in your chest.*
 
 ## Rules
 

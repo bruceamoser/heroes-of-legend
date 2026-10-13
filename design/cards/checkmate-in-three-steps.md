@@ -1,6 +1,6 @@
 # Checkmate in Three Steps
 
-*You see the next three movements, then put your hand exactly where the last one ends.*
+*You watch how your opponent recovers from each movement, step where their balance will be weakest, and strike as their foot begins to land.*
 
 ## Rules
 

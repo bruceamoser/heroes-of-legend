@@ -1,6 +1,6 @@
 # Read the Quarry
 
-*You find the trail, choose the ground, and make the first shot count.*
+*You study the creature’s gait and fire toward the place its next step will carry it, watching for the marks that movement leaves behind.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Write the Final Line
 
-*You recognize the end of the exchange and place the finishing stroke with quiet certainty.*
+*You recognize the opening in your opponent’s recovery and drive a precise strike into it before they regain their balance.*
 
 ## Rules
 

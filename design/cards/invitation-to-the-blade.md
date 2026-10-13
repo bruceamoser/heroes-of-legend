@@ -1,6 +1,6 @@
 # Invitation to the Blade
 
-*You give your enemy one opening, and it is the wrong one.*
+*You lower your guard just enough to invite a strike, then turn your blade across the opening and attack as your opponent commits.*
 
 ## Rules
 

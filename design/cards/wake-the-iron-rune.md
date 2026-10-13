@@ -1,6 +1,6 @@
 # Wake the Iron Rune
 
-*Every mark on your armor remembers a mountain.*
+*You trace the rune on your armor. Its lines darken as a heavy pressure settles through your boots into the ground.*
 
 ## Rules
 

@@ -8,7 +8,11 @@
 
 **Target / range / shape:** One nonhostile animal able to perceive you; one minute
 
-Gain 1/2/3 progress toward a plausible calm behavior; Standard reveals an immediate source of distress, Strong also allows a willing companion to approach. No control of hostile or intelligent creatures.
+Spend one minute calming a nonhostile animal that can see or hear you. State the behavior you want, such as letting a companion approach. The DA sets a progress target for a behavior the animal could plausibly accept. Roll Guile. This card gives no control over hostile or intelligent creatures.
+
+- **Weak:** Add 1 progress toward calming the animal.
+- **Standard:** Add 2 progress and identify an immediate cause of its distress.
+- **Strong:** Add 3 progress, identify that cause, and allow one willing companion to approach without upsetting it.
 
 **Duration:** Progress toward the declared behavior persists while the situation remains applicable.
 
@@ -20,7 +24,7 @@ Gain 1/2/3 progress toward a plausible calm behavior; Standard reveals an immedi
 
 **Type:** Skill / Utility
 
-**Limits:** Once per wound per day for treatment; otherwise repeatable within the stated interval.
+**Limits:** Pay the printed action and any full activity time for each use.
 
 **ID:** guide-a-frightened-animal · **Status:** Proposal — fresh design; not approved or balance-tested.
 

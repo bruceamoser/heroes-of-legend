@@ -1,6 +1,6 @@
 # The Untroubled Hand
 
-*A quiet breath, an open hand, and all their strength goes past you.*
+*You breathe out, catch the line of your opponent’s movement with an open hand, and strike while guiding their weight past you.*
 
 ## Rules
 

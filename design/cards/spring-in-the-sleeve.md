@@ -1,6 +1,6 @@
 # Spring in the Sleeve
 
-*The contraption rattles. You insist that means it is working.*
+*You level your wrist and release the catch. A hook shoots from your bracer on a spring, striking your enemy and tugging them toward you.*
 
 ## Rules
 

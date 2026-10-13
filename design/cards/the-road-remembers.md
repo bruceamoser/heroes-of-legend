@@ -1,6 +1,6 @@
 # The Road Remembers
 
-*Broken grass and cold ash tell you who hurried and who was carried.*
+*You part the grass, examine the crushed stems and touch the cold ash, following the signs of those who stopped here before you.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Blood in the Teeth
 
-*You do not wait for the battlefield to make room. You make room.*
+*You swallow the taste of blood and drive your weapon into your opponent, leaning so far into the blow that you leave yourself exposed.*
 
 ## Rules
 

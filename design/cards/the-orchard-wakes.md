@@ -8,7 +8,7 @@
 
 **Target / range / shape:** Up to three visible grounded creatures within 5 squares.
 
-Branches and roots answer together. Roll once with the worst applicable situation. You choose targets; allies need not be included.
+Branches and roots answer together. Make one roll using the net Boons or Banes least favorable to you among the targets; apply the result to all of them. You choose targets; allies need not be included.
 
 - **Weak:** Pull each 1 square toward you.
 - **Standard:** Pull each 2 squares and apply Slowed 1.

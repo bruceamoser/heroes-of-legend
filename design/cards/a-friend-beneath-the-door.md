@@ -1,6 +1,6 @@
 # A Friend Beneath the Door
 
-*Something with bright eyes and improbable whiskers answers.*
+*You crouch and beckon with two fingers. A tiny whiskered creature appears beside you and noses toward the gap under the door.*
 
 ## Rules
 

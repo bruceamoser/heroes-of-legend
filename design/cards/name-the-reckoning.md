@@ -1,6 +1,6 @@
 # Name the Reckoning
 
-*You made a promise. Running will not release them from it.*
+*You point your weapon at your quarry, speak the promise that brought you here, and strike as you step into their path.*
 
 ## Rules
 

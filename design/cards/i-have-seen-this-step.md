@@ -1,6 +1,6 @@
 # I Have Seen This Step
 
-*You have already spilled this cup in a dream.*
+*You recognize an attacker’s raised arm from a dream and shout a warning before the blow falls.*
 
 ## Rules
 

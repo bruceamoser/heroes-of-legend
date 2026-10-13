@@ -1,6 +1,6 @@
 # Take Them Alive
 
-*You know exactly where to stop the blade.*
+*You turn the edge at the last instant and finish with a controlled blow, leaving your opponent unconscious instead of dead.*
 
 ## Rules
 

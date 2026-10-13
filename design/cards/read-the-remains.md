@@ -1,6 +1,6 @@
 # Read the Remains
 
-*An overturned cup and a scrape in the dust become the start of a story.*
+*You crouch beside the overturned cup and follow the scrape across the floor, piecing together what moved through the room.*
 
 ## Rules
 

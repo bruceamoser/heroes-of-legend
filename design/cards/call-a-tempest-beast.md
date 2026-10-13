@@ -1,6 +1,6 @@
 # Call a Tempest Beast
 
-*You call into the wind and hear a wild answer gathering inside the thunder.*
+*You raise both arms into the wind. Air coils into a beast’s outline beside you, its limbs flickering with lightning as it turns toward your command.*
 
 ## Rules
 

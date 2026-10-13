@@ -1,6 +1,6 @@
 # Winter Hold
 
-*Their breath hangs motionless as winter takes hold.*
+*You close your hand slowly. Frost thickens around your enemy’s limbs as they struggle to keep moving.*
 
 ## Rules
 

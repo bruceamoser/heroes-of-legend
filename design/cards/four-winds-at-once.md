@@ -8,7 +8,7 @@
 
 **Target / range / shape:** Every other adjacent creature.
 
-Turn with the wind at your heels. Roll once with the worst applicable situation.
+Turn with the wind at your heels. Make one roll using the net Boons or Banes least favorable to you among the targets; apply the result to all of them.
 
 - **Weak:** 3 physical damage and push 1.
 - **Standard:** 4 physical damage and push 2.

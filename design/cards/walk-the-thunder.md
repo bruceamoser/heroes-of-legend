@@ -1,6 +1,6 @@
 # Walk the Thunder
 
-*You take three impossible strides, trusting the rushing air to carry each one to the next.*
+*You run along the wall or skim the shallow water, planting each foot as a gust catches beneath it, then step back onto solid ground.*
 
 ## Rules
 

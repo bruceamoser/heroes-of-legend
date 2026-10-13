@@ -1,6 +1,6 @@
 # A Thought That Is Not Yours
 
-*You remember a shape no window in this world could frame.*
+*You hold your enemy’s gaze and whisper the outline of an impossible shape. They flinch as the image crowds into their thoughts.*
 
 ## Rules
 

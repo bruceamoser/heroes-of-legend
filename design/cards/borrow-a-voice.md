@@ -1,6 +1,6 @@
 # Borrow a Voice
 
-*The guard hears his name from the empty stairwell.*
+*You whisper into your cupped hand and cast the sound toward the empty stairwell. Your words emerge from the place you point to.*
 
 ## Rules
 

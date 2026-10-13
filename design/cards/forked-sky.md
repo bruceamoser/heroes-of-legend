@@ -1,6 +1,6 @@
 # Forked Sky
 
-*Lightning leaps between your chosen enemies.*
+*You point at the creatures you have chosen. A bolt of lightning forks through the air and leaps between them.*
 
 ## Rules
 
@@ -8,7 +8,7 @@
 
 **Target / range / shape:** Up to three visible creatures within 6 squares
 
-One player roll uses the worst applicable net Boon/Bane situation. Areas include allies unless explicitly excluded; selected targets may exclude allies. NPC attacks give each affected player its defense roll. Proposed NPC defense attribute: Fortitude.
+For a player attack, work out each target’s net Boons or Banes. Make one attack roll using the combination least favorable to you and apply that result to every target. Affect the creatures specified under Target, including allies if the area includes them. When an NPC attacks, each affected player makes a separate defense roll. Proposed NPC defense attribute: Fortitude.
 
 - **Weak:** 4 lightning damage to each.
 - **Standard:** 4 lightning damage to each; Burning 1.

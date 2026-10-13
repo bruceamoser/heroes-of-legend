@@ -1,6 +1,6 @@
 # The Patient Metal
 
-*Stone, rope, iron: every substance has another way it could be.*
+*You hold the damaged fitting between your fingers. The metal warms and softens just enough for you to bend it back toward its proper shape.*
 
 ## Rules
 

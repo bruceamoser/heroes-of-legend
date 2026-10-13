@@ -1,6 +1,6 @@
 # Make Something Useful
 
-*A broken cart becomes a brace; discarded cord becomes a way home.*
+*You pull sound pieces from the wreckage, lay them beside your tools and fit them together into something the party can use.*
 
 ## Rules
 

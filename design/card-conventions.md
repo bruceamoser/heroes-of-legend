@@ -128,3 +128,29 @@ The new named abilities and specific requirement assignments remain proposals.
 Bruce also accepts the revised grant-only menu of up to 35 eligible unowned shared
 choices as useful breadth. Evaluate their distinctness and value rather than adding
 prerequisites solely to reduce the count.
+
+## Concrete language review
+
+**Bruce’s correction, October 13, 2026:** a narrative heading and an evocative slogan
+are insufficient. Describe what the character actually does and what becomes visible,
+audible or felt. “You reach for tomorrow’s sky” leaves the action unspecified. Reaching
+through a tear in the air, pulling out a clump of weather and tossing it onto the
+ground gives the player an action to imagine. Passive expertise may instead describe
+the practiced habit or observation that produces its benefit.
+
+Read the narrative independently of the title and rules. Could a player describe
+that action to the table? Does it suggest the effect this card actually supplies?
+Avoid replacing a specific action with a promise, maxim or mysterious metaphor.
+Sensory detail should make the action clearer; it should not imply an extra power.
+
+Read the rules in the order someone uses them: choose the target, meet requirements,
+pay the action/cost, make any roll, apply the result, then track its expiry. Explain
+unusual dice operations on the card. “Lowest retained die” is not sufficient: say
+which dice are examined after Boons/Banes and whether the printed numbers or modified
+total matter. Put separate effects in separate sentences or bullets. Show Weak,
+Standard and Strong rather than compressing a whole procedure into unexplained slashes.
+
+Finally, read every field against the card’s purpose. A swimming card must not carry
+a wound-treatment limit; an area card should say which creatures it affects rather
+than recite rules for unrelated target shapes. Structural checks cannot perform this
+editorial review, and passing them must not be presented as proof that wording is clear.

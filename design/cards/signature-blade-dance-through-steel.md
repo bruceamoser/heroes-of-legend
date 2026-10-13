@@ -8,7 +8,7 @@
 
 **Target / range / shape:** The trigger and recipients are specified in the rule below.
 
-Make one Basic Melee attack against each of up to three distinct adjacent enemies. Roll once with the worst applicable Boon/Bane situation. These are granted free attacks for chaining restrictions; no specialty attacks.
+Make one Basic Melee attack against each of up to three distinct adjacent enemies. Work out each target’s net Boons or Banes; make one roll using the combination least favorable to you and apply it to all targets. These are granted free attacks for chaining restrictions; no specialty attacks.
 
 **Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 

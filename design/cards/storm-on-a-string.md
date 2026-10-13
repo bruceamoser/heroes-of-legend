@@ -1,6 +1,6 @@
 # Storm on a String
 
-*A hook of wind snatches the key before it reaches the drain.*
+*You curl a finger toward the unattended object. A thin spiral of wind catches it and draws it across the ground toward your hand.*
 
 ## Rules
 

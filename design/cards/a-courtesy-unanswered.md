@@ -1,6 +1,6 @@
 # A Courtesy Unanswered
 
-*One deliberate motion ends the argument before it becomes a battle.*
+*You dip your head in a courteous greeting, then bring your hidden blade up beneath your opponent’s guard.*
 
 ## Rules
 

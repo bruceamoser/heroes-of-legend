@@ -1,6 +1,6 @@
 # Still the Will
 
-*Their body waits for a command their thoughts cannot finish.*
+*You fix your attention on your enemy and tighten your outstretched fingers. Their movement falters as they struggle to turn thought into action.*
 
 ## Rules
 

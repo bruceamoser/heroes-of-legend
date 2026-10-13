@@ -1,6 +1,6 @@
 # A Marvel on Wheels
 
-*You unfold your contraption with a clatter and a grin. This time, you are quite sure it will work.*
+*You set your folded contraption on the ground and pull its handle. Wheels snap outward, the launcher kicks, and its shot slams toward your target before the frame folds shut again.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # A Coal for a Promise
 
-*The ember on your tongue speaks in a voice you chose to answer.*
+*You name what your enemy fears losing, then flick a glowing coal from your fingers toward them. The ember flares as it strikes.*
 
 ## Rules
 

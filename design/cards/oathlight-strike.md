@@ -1,6 +1,6 @@
 # Oathlight Strike
 
-*Your promise becomes something others can stand behind.*
+*You speak your oath and bring your weapon down in a flash of light. Part of that light gathers beside a companion, catching the next threat in its glow.*
 
 ## Rules
 

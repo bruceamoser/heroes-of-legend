@@ -1,6 +1,6 @@
 # Keep the Door Closed
 
-*The living deserve their tomorrow. The dead deserve their rest.*
+*You kneel beside your dying companion and grip their hand, keeping their attention on your voice as their breathing falters.*
 
 ## Rules
 

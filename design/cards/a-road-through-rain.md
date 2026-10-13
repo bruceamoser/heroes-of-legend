@@ -1,6 +1,6 @@
 # A Road through Rain
 
-*You draw a line through the air. For a moment, the storm seems to hold its breath.*
+*You draw your hand through the rain, dust or smoke ahead. It parts along your gesture, leaving a narrow strip of clear air through which your companions can see.*
 
 ## Rules
 

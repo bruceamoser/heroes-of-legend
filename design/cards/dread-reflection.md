@@ -1,6 +1,6 @@
 # Dread Reflection
 
-*For a moment they see you wearing the shape of their fear.*
+*You spread your arms, and your outline twists into something your enemy dreads. They recoil as the vision presses against their thoughts.*
 
 ## Rules
 

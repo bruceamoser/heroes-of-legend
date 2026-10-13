@@ -1,6 +1,6 @@
 # Smoke in a Bottle
 
-*Three bottles, two smells, and a plan nobody should breathe too deeply.*
+*You shake the prepared bottle and throw it onto the ground. It breaks with a sharp pop, spilling a thick cloud of smoke across the nearby space.*
 
 ## Rules
 

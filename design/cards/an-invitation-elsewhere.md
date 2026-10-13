@@ -1,6 +1,6 @@
 # An Invitation Elsewhere
 
-*You learned your manners at a table where every promise mattered.*
+*You bow and extend a hand as though inviting your enemy to dance. An unseen tug draws them across the ground toward you.*
 
 ## Rules
 

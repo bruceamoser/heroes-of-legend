@@ -1,6 +1,6 @@
 # The Key Changes Hands
 
-*A lock, a ledge, a dangling key: the world is full of invitations.*
+*You draw someone’s attention with a question while your other hand lifts the unattended key from the table.*
 
 ## Rules
 

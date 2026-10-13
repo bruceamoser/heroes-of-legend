@@ -1,6 +1,6 @@
 # Anatomy of an Opening
 
-*The fight happens once in your mind before your hand moves.*
+*You watch an opponent favor one leg, predict where their weight will fall, and strike the opening their next step leaves behind.*
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Smile Before Steel
 
-*Smile first. They should know this was your idea.*
+*You smile and feint toward one side, then strike from the other and step away as your opponent turns after you.*
 
 ## Rules
 

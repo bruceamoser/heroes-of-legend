@@ -1,6 +1,6 @@
 # Keep Time with Steel
 
-*Your song gives the charge a heartbeat.*
+*You sing a marching beat as you strike, then nod your companion toward the space your blow has opened.*
 
 ## Rules
 

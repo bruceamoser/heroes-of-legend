@@ -1,6 +1,6 @@
 # Borrow the Shadow
 
-*For one heartbeat, their shadow has an extra pair of footsteps.*
+*You wait for someone to pass the concealment, then follow close behind their movement and slip into the hidden space they leave beside them.*
 
 ## Rules
 

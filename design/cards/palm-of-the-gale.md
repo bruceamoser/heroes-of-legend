@@ -1,6 +1,6 @@
 # Palm of the Gale
 
-*Your stance changes, and so does the weather.*
+*You plant your feet and strike with an open palm. A gust bursts from the motion and hits your opponent with the blow.*
 
 ## Rules
 

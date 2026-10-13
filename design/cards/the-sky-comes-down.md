@@ -8,7 +8,7 @@
 
 **Target / range / shape:** Every creature in a visible 3-by-3 area within 6 squares.
 
-Call a crack of lightning followed by a collapsing wall of air. One roll with the worst applicable situation; include allies.
+Call a crack of lightning followed by a collapsing wall of air. Make one roll using the net Boons or Banes least favorable to you among the targets; include allies.
 
 - **Weak:** 4 lightning damage.
 - **Standard:** 4 lightning damage and push 1 away from the center.

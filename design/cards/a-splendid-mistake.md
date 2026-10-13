@@ -1,6 +1,6 @@
 # A Splendid Mistake
 
-*You release more magic than you meant to, then laugh as the world answers in sparks.*
+*You cup a swelling ball of magic between your hands and hurl it away before it bursts. It explodes among the gathered creatures in a rush of fire or branching lightning.*
 
 ## Rules
 
@@ -8,13 +8,15 @@
 
 **Target / range / shape:** Every creature in a visible 3-by-3 area within 5 squares.
 
-The lowest retained die decides: odd fire, even lightning. Roll once using the worst applicable situation; include allies in the area.
+Choose a 3-by-3 area you can see within 5 squares. Every creature in it is affected, including allies. Work out the net Boons or Banes for each target, then make one Guile attack roll using the combination least favorable to you. Apply that result to all targets.
 
-- **Weak:** 4 damage.
-- **Standard:** 4 damage and push each target 1 square away from the center.
-- **Strong:** 6 damage and push each 2; the center target is pushed in your chosen direction.
+Look at the smallest number on the three dice used for the result, before adding Guile. A 1, 3 or 5 makes the attack deal fire damage; a 2, 4 or 6 makes it deal lightning damage. Use this one damage type for every target. Do not make an extra roll to choose it.
 
-For a target standing in the center square, choose its push direction before resolving the displacement.
+- **Weak:** Deal 4 damage to each target.
+- **Standard:** Deal 4 damage to each target, then push each 1 square away from the center of the area.
+- **Strong:** Deal 6 damage to each target, then push each 2 squares away from the center.
+
+If a target occupies the center square, choose its push direction before moving it.
 
 **Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 

@@ -1,6 +1,6 @@
 # A Hand from Before
 
-*The people who raised you still stand at your shoulder.*
+*You call an ancestor’s name and reach toward your companion. A translucent hand appears at their shoulder, bracing them against the coming blow.*
 
 ## Rules
 

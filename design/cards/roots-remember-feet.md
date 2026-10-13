@@ -1,6 +1,6 @@
 # Roots Remember Feet
 
-*The ground has been listening. Now it answers.*
+*You press your hand toward the ground beneath your enemy. Roots rise from the soil and cracks, winding around their feet and dragging at their steps.*
 
 ## Rules
 
