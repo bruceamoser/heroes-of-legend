@@ -6,17 +6,17 @@
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One ally within 3 squares that can hear you, when it gains temporary Frightened.
 
 When an ally within 3 squares gains temporary Frightened, reduce that new contribution by 1. Must hear you; no effect on starred sources.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Leader; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Leader; minimum level 3
 
 **Type:** Signature
 

@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One ordinary object affected by your Strong Force action.
 
 Your Strong Force against a mundane object adds 2 progress; no effect against creatures or grapples.
 
@@ -16,7 +16,7 @@ Your Strong Force against a mundane object adds 2 progress; no effect against cr
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Unbalanced; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Unbalanced; minimum level 3
 
 **Type:** Signature
 

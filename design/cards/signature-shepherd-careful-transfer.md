@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One target of your healing spell that was at 0 HP before you paid its cost.
 
 After paying a healing spell’s full cost, gain 1 Boon to that spell’s roll if its target was at 0 HP before payment. No cost reduction.
 
@@ -16,7 +16,7 @@ After paying a healing spell’s full cost, gain 1 Boon to that spell’s roll i
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Shepherd; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Shepherd; minimum level 3
 
 **Type:** Signature
 

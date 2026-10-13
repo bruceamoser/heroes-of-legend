@@ -1,6 +1,6 @@
 # Dream beneath the Stars
 
-*Your body rests while part of you walks old paths.*
+*You settle beneath the stars with your eyes half open, letting old memories drift through the sounds of the waking camp.*
 
 ## Rules
 

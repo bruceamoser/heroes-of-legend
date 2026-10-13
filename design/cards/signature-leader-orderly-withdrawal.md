@@ -6,17 +6,17 @@
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Two willing allies within 3 squares that can perceive your signal.
 
 Two willing allies within 3 squares each move 1 square without provoking, one at a time.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Leader; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Leader; minimum level 3
 
 **Type:** Signature
 

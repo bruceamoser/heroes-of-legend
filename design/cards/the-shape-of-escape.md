@@ -4,13 +4,13 @@
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** Self and a visible free adjacent square beyond a narrow opening.
+**Target / range / shape:** Self, through one narrow opening to a visible free square within 3 squares.
 
-Become a ribbon of living clay long enough to pass the opening. Carried equipment goes with you; you reform immediately. You must see the endpoint; this cannot cross a sealed wall or leave you amorphous for protection. Does not provoke.
+Become a ribbon of living clay and slip through a continuous open route to the destination. Carried equipment travels with you; reform immediately. This movement does not provoke. You cannot pass a sealed barrier, end inside an object, or remain amorphous for protection.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -18,9 +18,9 @@ Become a ribbon of living clay long enough to pass the opening. Carried equipmen
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Scholarship 3
 
-**Type:** Skill
+**Type:** Magic / Movement / Utility
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-shape-of-escape · **Status:** Proposal for Bruce’s review.
 

@@ -1,6 +1,6 @@
 # Grace of the Elder Folk
 
-*Where others hurry, you seem simply to arrive.*
+*You lengthen your stride and weave past the obstacles without breaking the rhythm of your steps.*
 
 ## Rules
 

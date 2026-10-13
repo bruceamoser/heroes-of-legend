@@ -14,7 +14,7 @@ Offer the impossible courtesy of a dance-step somewhere else. Magical force move
 - **Standard:** Pull it 2 squares.
 - **Strong:** Pull it 2 squares; you may move 1 square without provoking afterward.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +24,7 @@ Offer the impossible courtesy of a dance-step somewhere else. Magical force move
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** an-invitation-elsewhere · **Status:** Proposal for Bruce’s review.
 

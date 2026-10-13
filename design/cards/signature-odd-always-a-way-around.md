@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self, after you resolve the Force action.
 
 After Force, move 1 square without provoking, once per turn.
 
@@ -16,7 +16,7 @@ After Force, move 1 square without provoking, once per turn.
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Odd; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Odd; minimum level 1
 
 **Type:** Signature
 

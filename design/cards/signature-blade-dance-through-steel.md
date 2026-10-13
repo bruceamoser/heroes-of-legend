@@ -4,19 +4,25 @@
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Brawn
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Up to three distinct adjacent enemies.
 
-Make one Basic Melee attack against each of up to three distinct adjacent enemies. Work out each target’s net Boons or Banes; make one roll using the combination least favorable to you and apply it to all targets. These are granted free attacks for chaining restrictions; no specialty attacks.
+Choose up to three distinct adjacent enemies. Make one Brawn roll using the least favorable net Boons/Banes among them, and apply Basic Melee to each:
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+- **Weak:** Deal 2 physical damage to each.
+- **Standard:** Deal 3 physical damage to each.
+- **Strong:** Deal 5 physical damage to each.
 
-**Equipment / acquisition:** None.
+These count as free attacks for the no-chaining rule. No specialty attacks.
+
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
+
+**Equipment / acquisition:** Requires a held melee weapon; grants none.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Blade; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Blade; minimum level 7
 
 **Type:** Signature
 

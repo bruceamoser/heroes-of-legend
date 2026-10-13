@@ -6,11 +6,11 @@
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** A visible enemy within 3 squares after it moves voluntarily.
+**Target / range / shape:** A visible enemy within 3 squares when it begins voluntary movement; resolve after it finishes moving.
 
 Follow up to 3 squares toward it without provoking. You must use a legal route; this does not stop its movement or grant an attack.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +20,7 @@ Follow up to 3 squares toward it without provoking. You must use a legal route; 
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** no-road-away · **Status:** Proposal for Bruce’s review.
 

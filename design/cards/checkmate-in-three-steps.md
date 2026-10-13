@@ -12,9 +12,9 @@ Name the weakness you are exploiting and make a melee or unarmed attack. You nee
 
 - **Weak:** 4 physical damage and push 1.
 - **Standard:** 4 physical damage, push 1 and knock prone.
-- **Strong:** 6 physical damage, push 2 and Dazed 1.
+- **Strong:** 6 physical damage, push 2, knock prone and apply Dazed 1.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +24,7 @@ Name the weakness you are exploiting and make a melee or unarmed attack. You nee
 
 **Type:** Skill / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** checkmate-in-three-steps · **Status:** Proposal for Bruce’s review.
 

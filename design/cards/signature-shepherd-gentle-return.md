@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One ally your healing has just raised from 0 HP.
 
 Once per turn when your healing raises an ally from 0 HP, that ally may move 1 square without provoking. It is not automatically stood up.
 
@@ -16,7 +16,7 @@ Once per turn when your healing raises an ally from 0 HP, that ally may move 1 s
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shepherd; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shepherd; minimum level 1
 
 **Type:** Signature
 

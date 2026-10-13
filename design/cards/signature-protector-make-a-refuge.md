@@ -6,17 +6,17 @@
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self and one adjacent willing ally.
 
-One adjacent ally gains the benefit of your active Defend until the start of your next turn; the same Defend benefit does not multiply.
+As part of using this Maneuver, use Defend on yourself and extend its 1 Boon to one adjacent willing ally. Both benefits last until the start of your next turn; the ally must remain adjacent while you can act. Repeating the same Defend benefit does not multiply it.
 
-**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
+**Duration:** Until the start of your next turn; the ally must remain adjacent.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Protector; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Protector; minimum level 3
 
 **Type:** Signature
 

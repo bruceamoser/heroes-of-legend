@@ -14,7 +14,7 @@ Claws or a fleeting beast-shape carry you into the leap. Move up to 2 squares, t
 - **Standard:** 4 physical damage and knock prone.
 - **Strong:** 6 physical damage and knock prone; move 1 square without provoking afterward.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,9 +22,9 @@ Claws or a fleeting beast-shape carry you into the leap. Move up to 2 squares, t
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Wilderness 2 and Athletics 1
 
-**Type:** Skill / Attack
+**Type:** Magic / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** pounce-of-the-red-claw · **Status:** Proposal for Bruce’s review.
 

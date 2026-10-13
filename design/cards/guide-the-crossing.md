@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Reason
 
+**Time:** Ten minutes per attempt.
+
 **Target / range / shape:** One noncombat natural hazard and companions; 10 minutes
 
 Prepare and lead a route through one noncombat natural hazard for yourself and up to six companions. The DA sets its progress target and confirms a physically possible method before rolling. You may attempt terrain ordinary travelers could not cross unaided if you supply the needed ropes, supports or other means. When the target is met, companions who can follow your directions and method cross without separate rolls for the same hazard. New hazards or changed circumstances are resolved separately.
@@ -24,7 +26,7 @@ Prepare and lead a route through one noncombat natural hazard for yourself and u
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** guide-the-crossing · **Status:** Proposal — fresh design; not approved or balance-tested.
 

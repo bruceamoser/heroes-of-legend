@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self, after you use Disengage.
 
 After Disengage, move 1 square without provoking. Hidden still requires actual concealment.
 
@@ -16,7 +16,7 @@ After Disengage, move 1 square without provoking. Hidden still requires actual c
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shadow; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shadow; minimum level 1
 
 **Type:** Signature
 

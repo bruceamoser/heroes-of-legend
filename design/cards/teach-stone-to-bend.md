@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Knowledge
 
+**Time:** Ten minutes per attempt.
+
 **Target / range / shape:** One adjacent ordinary stone obstruction; ten minutes.
 
 Persuade a small part of the stone to soften. Create passage progress toward a target stated by the DA; no instant destruction of a building.
@@ -22,9 +24,9 @@ Persuade a small part of the stone to soften. Create passage progress toward a t
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Scholarship 2
 
-**Type:** Skill
+**Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** teach-stone-to-bend · **Status:** Proposal for Bruce’s review.
 

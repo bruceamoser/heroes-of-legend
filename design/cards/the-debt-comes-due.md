@@ -14,7 +14,7 @@ The mark answers with heat. This attack cannot trigger further free attacks.
 - **Standard:** 3 fire damage.
 - **Strong:** 5 fire damage and Burning 1.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +24,7 @@ The mark answers with heat. This attack cannot trigger further free attacks.
 
 **Type:** Magic / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-debt-comes-due · **Status:** Proposal for Bruce’s review.
 

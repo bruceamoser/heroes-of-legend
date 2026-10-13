@@ -4,19 +4,19 @@
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One adjacent Dying player-character ally.
 
-Stabilize one adjacent Dying ally, then move that ally into a free adjacent square. No HP restoration; no opportunity from this forced movement.
+Stabilize the adjacent Dying ally, then move it up to 2 squares to a free square adjacent to you. You need a free hand and must be able to support its weight. This movement does not provoke. Restore no HP and remove no wound; Last Words cannot be interrupted.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Protector; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Protector; minimum level 3
 
 **Type:** Signature
 

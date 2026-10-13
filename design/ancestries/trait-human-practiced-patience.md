@@ -1,6 +1,6 @@
 # The Impossible Streak
 
-*Someone says it cannot be done, and you hear a challenge.*
+*You study the harder route, tighten your grip and begin with the stubborn care of someone determined to finish.*
 
 ## Rules
 

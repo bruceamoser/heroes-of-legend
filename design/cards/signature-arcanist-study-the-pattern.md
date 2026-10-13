@@ -6,17 +6,17 @@
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One visible ongoing magical effect within 5 squares.
 
 Study a visible ongoing magical effect within 5 squares. Learn its remaining stated duration; learn nothing if its source does not specify one. No roll.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Arcanist; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Arcanist; minimum level 1
 
 **Type:** Signature
 

@@ -58,3 +58,5 @@ navigation; it reads the Markdown and never rewrites card text. Run
 Read [Heroes between battles](adventure-development.md) for the new utility routes,
 fourteen shared passives, mixed requirements and worked purchase checks. Every card
 now separates narrative from Rules. New details remain proposals for review.
+
+[Full card review and per-record findings](reviews/1149-full-card-review.md) — October 13, 2026; table play, clarity and VTT readiness.

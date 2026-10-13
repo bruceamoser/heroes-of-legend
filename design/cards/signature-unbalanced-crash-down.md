@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One creature your Main Action attack has just pushed into a hard obstruction.
 
 Once per turn when your Main attack pushes a creature into a hard obstruction, also knock it prone. No additional collision damage.
 
@@ -16,7 +16,7 @@ Once per turn when your Main attack pushes a creature into a hard obstruction, a
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Unbalanced; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Unbalanced; minimum level 7
 
 **Type:** Signature
 

@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One target of your Strong Main Action melee attack, after resolving that attack.
 
 Once per turn after a Strong Main melee attack, move its target 2 squares to a legal position by push or pull. Choose the mode; normal movement/collision rules apply.
 
@@ -16,7 +16,7 @@ Once per turn after a Strong Main melee attack, move its target 2 squares to a l
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Blade; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Blade; minimum level 7
 
 **Type:** Signature
 

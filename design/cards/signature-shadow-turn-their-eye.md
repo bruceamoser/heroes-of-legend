@@ -6,7 +6,7 @@
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One adjacent willing ally, while you provide a plausible distraction.
 
 An adjacent ally gains 1 Boon to its next concealment activity before the start of your next turn if you can provide a plausible distraction.
 
@@ -16,7 +16,7 @@ An adjacent ally gains 1 Boon to its next concealment activity before the start 
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shadow; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shadow; minimum level 1
 
 **Type:** Signature
 

@@ -6,17 +6,17 @@
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One ally within 3 squares, immediately after it enters Dying and its wound is resolved.
 
 When an ally within 3 squares enters Dying, move adjacent if a legal route of up to 3 squares exists and Stabilize it. The wound still occurs; this cannot interrupt Last Words.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shepherd; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shepherd; minimum level 7
 
 **Type:** Signature
 

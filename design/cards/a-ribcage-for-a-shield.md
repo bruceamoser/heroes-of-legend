@@ -10,7 +10,7 @@
 
 A cage of spectral ribs catches the edge of the blow. Grant 1 Boon to the defense; on a Strong defense, the ally may push the adjacent attacker 1 square afterward. The ribs disappear immediately.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +20,7 @@ A cage of spectral ribs catches the edge of the blow. Grant 1 Boon to the defens
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-ribcage-for-a-shield · **Status:** Proposal for Bruce’s review.
 

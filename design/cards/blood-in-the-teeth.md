@@ -14,7 +14,7 @@ You take the hurt and turn it outward. Make a melee attack. Until the start of y
 - **Standard:** 4 physical damage; push 1 square.
 - **Strong:** 6 physical damage; push 2 squares.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Damage and push are immediate; your defense Bane lasts until the start of your next turn.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -24,7 +24,7 @@ You take the hurt and turn it outward. Make a melee attack. Until the start of y
 
 **Type:** Skill / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** blood-in-the-teeth · **Status:** Proposal for Bruce’s review.
 

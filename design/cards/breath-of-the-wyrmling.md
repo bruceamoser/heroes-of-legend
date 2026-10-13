@@ -14,7 +14,7 @@ Breathe fire. Make one roll using the net Boons or Banes least favorable to you 
 - **Standard:** 3 fire damage and Burning 1.
 - **Strong:** 5 fire damage and Burning 1.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +24,7 @@ Breathe fire. Make one roll using the net Boons or Banes least favorable to you 
 
 **Type:** Magic / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** breath-of-the-wyrmling · **Status:** Proposal for Bruce’s review.
 

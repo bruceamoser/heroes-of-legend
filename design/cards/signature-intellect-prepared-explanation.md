@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One ally within 3 squares that can hear and understand your Aid.
 
 Your Aid may reach an ally within 3 squares that can hear and understand your explanation.
 
@@ -16,7 +16,7 @@ Your Aid may reach an ally within 3 squares that can hear and understand your ex
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Intellect; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Intellect; minimum level 1
 
 **Type:** Signature
 

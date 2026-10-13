@@ -14,7 +14,7 @@ Offer your strength to the whole circle. Pay 7 HP once before rolling, bypassing
 - **Standard:** Share 16 HP.
 - **Strong:** Share 22 HP; each recipient may reduce temporary Poisoned by 1.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +24,7 @@ Offer your strength to the whole circle. Pay 7 HP once before rolling, bypassing
 
 **Type:** Magic / Recovery
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-grove-gives-back · **Status:** Proposal for Bruce’s review.
 

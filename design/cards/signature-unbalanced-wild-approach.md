@@ -6,17 +6,17 @@
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self; move toward a visible enemy.
 
 Move 2 squares toward a visible enemy; normal opportunity rules apply. Your next Main melee attack this turn gains 1 Boon.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Movement is immediate; the attack Boon expires after your next Main Action melee attack this turn or at turn end.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Unbalanced; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Unbalanced; minimum level 1
 
 **Type:** Signature
 

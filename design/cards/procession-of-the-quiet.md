@@ -20,7 +20,7 @@ Call two bone porters, each HP 8, Speed 4, resistance 1 physical; each carries u
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** procession-of-the-quiet · **Status:** Proposal for Bruce’s review.
 

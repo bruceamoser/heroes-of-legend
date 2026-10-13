@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self, after a Strong Main Action attack made from Hidden.
 
 After a Strong Main attack from Hidden, move 2 squares without provoking. The attack still ends Hidden; concealment must be established again.
 
@@ -16,7 +16,7 @@ After a Strong Main attack from Hidden, move 2 squares without provoking. The at
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Shadow; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Shadow; minimum level 3
 
 **Type:** Signature
 

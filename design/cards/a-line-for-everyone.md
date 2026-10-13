@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Brawn
 
+**Time:** Ten minutes per attempt.
+
 **Target / range / shape:** One natural climb or gap and a suitable rope; ten minutes per attempt.
 
 Establish a roped route toward a DA-declared progress target. You must reach and secure its anchors; this grants no remote placement or impossible foothold. On completion, you and up to six companions gain 1 Boon each to their next roll traversing this route while the rope remains secured.

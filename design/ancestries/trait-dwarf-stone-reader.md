@@ -1,6 +1,6 @@
 # The Mountain Remembers
 
-*You know a mason’s lie by the stone around it.*
+*You run your fingers across the stonework, stopping where an old seam has been cut anew.*
 
 ## Rules
 

@@ -6,17 +6,17 @@
 
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Up to three willing allies within 5 squares that can hear and understand you.
 
 Up to three allies who hear you within 5 squares each move 2 squares without provoking, one at a time.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Intellect; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Intellect; minimum level 7
 
 **Type:** Signature
 

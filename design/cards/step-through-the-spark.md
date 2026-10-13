@@ -10,7 +10,7 @@
 
 Follow a leaping spark to the chosen square. This is teleportation and does not provoke. You must see the destination and cannot cross an opaque barrier.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +20,7 @@ Follow a leaping spark to the chosen square. This is teleportation and does not 
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** step-through-the-spark · **Status:** Proposal for Bruce’s review.
 

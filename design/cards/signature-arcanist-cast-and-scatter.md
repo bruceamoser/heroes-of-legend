@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self, after your Main Action spell resolves.
 
 After your Main spell resolves, move up to 2 squares without provoking, once per turn.
 
@@ -16,7 +16,7 @@ After your Main spell resolves, move up to 2 squares without provoking, once per
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Arcanist; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Arcanist; minimum level 3
 
 **Type:** Signature
 

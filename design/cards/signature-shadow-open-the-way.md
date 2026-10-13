@@ -6,17 +6,25 @@
 
 **Action:** Main Action · **Attribute:** Guile
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Time:** Main Action in combat; one minute per attempt outside combat.
 
-Use lock tools on one mundane adjacent lock; Guile grants 1/2/3 progress toward its stated target. Grants missing lock tools. In combat an attempt takes Main; outside combat one minute.
+**Target / range / shape:** One adjacent ordinary lock; lock tools required.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+Use lock tools to work toward the DA’s stated opening target. An attempt takes a Main Action in combat or one minute outside combat.
 
-**Equipment / acquisition:** None.
+- **Weak:** Add 1 opening progress.
+- **Standard:** Add 2 opening progress.
+- **Strong:** Add 3 opening progress.
+
+Progress persists unless the lock’s stated challenge says otherwise.
+
+**Duration:** Opening progress persists.
+
+**Equipment / acquisition:** Lock tools required; gain one set, Bulk 1, on learning if absent.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Shadow; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Shadow; minimum level 3
 
 **Type:** Signature
 

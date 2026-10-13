@@ -6,17 +6,17 @@
 
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self; one noncombat obstacle you are attempting.
 
 During a noncombat obstacle, identify a different plausible approach with the DA. Gain 1 Boon to your next ordinary roll using that approach this scene; no automatic permission or success.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Until your next roll using that approach this scene, or until the scene ends.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Odd; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Odd; minimum level 3
 
 **Type:** Signature
 

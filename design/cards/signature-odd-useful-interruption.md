@@ -6,7 +6,7 @@
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One adjacent creature you can plausibly distract; one ally within 3 squares.
 
 Plausibly distract an adjacent creature; one ally gains 1 Boon to its next defense against it before the start of your next turn.
 
@@ -16,7 +16,7 @@ Plausibly distract an adjacent creature; one ally gains 1 Boon to its next defen
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Odd; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Odd; minimum level 1
 
 **Type:** Signature
 

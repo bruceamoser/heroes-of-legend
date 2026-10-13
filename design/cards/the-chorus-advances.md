@@ -10,7 +10,7 @@
 
 Each moves 1 square toward a visible enemy without provoking, one at a time. Their actions remain their own.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +20,7 @@ Each moves 1 square toward a visible enemy without provoking, one at a time. The
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-chorus-advances · **Status:** Proposal for Bruce’s review.
 

@@ -6,17 +6,23 @@
 
 **Action:** Main Action · **Attribute:** Brawn
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Every adjacent enemy when the action begins.
 
-Force each adjacent enemy directly away using one Brawn roll: push 2/3/4 squares. No weapon damage, normal collision damage. Worst applicable Boon/Bane situation.
+Choose every enemy adjacent when you begin. Make one Brawn roll using the least favorable net Boons/Banes among those targets.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+- **Weak:** Push each 2 squares directly away from you.
+- **Standard:** Push each 3 squares.
+- **Strong:** Push each 4 squares.
+
+Choose the order of pushes. No weapon damage; normal collision damage applies.
+
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Unbalanced; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Unbalanced; minimum level 7
 
 **Type:** Signature
 

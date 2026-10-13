@@ -6,17 +6,17 @@
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self, before defending against a visible attacker you have observed attack this combat.
 
 Before defending against a visible attacker you have already observed attack this combat, gain 1 Boon to the defense.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Intellect; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Intellect; minimum level 3
 
 **Type:** Signature
 

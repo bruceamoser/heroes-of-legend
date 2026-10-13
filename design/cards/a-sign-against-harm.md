@@ -10,7 +10,7 @@
 
 Trace a ward against this blow. Grant 1 Boon to the defense; no damage or resistance bonus is added.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -18,9 +18,9 @@ Trace a ward against this blow. Grant 1 Boon to the defense; no damage or resist
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Guard 1
 
-**Type:** Skill
+**Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-sign-against-harm · **Status:** Proposal for Bruce’s review.
 

@@ -20,7 +20,7 @@ Stabilize at 0 HP and clear death marks. No roll. This grants no HP, removes no 
 
 **Type:** Universal
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** stabilize · **Status:** Agreed foundation; any proposal is identified in the effect.
 

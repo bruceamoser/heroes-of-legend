@@ -20,7 +20,7 @@ Main grants the summon Main plus Maneuver; Maneuver grants it Maneuver plus move
 
 **Type:** Universal
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** command-a-summon · **Status:** Agreed foundation; any proposal is identified in the effect.
 

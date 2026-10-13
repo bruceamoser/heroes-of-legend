@@ -24,7 +24,7 @@ Strike before the warning can leave its mouth. Requires melee weapon. The silenc
 
 **Type:** Skill / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** silence-the-alarm · **Status:** Proposal for Bruce’s review.
 

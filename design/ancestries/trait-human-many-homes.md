@@ -1,6 +1,6 @@
 # A Foot in Two Worlds
 
-*You learned early that a stranger is sometimes only a person whose words you do not know.*
+*You greet a stranger in the words of another home, smiling as they answer in the same tongue.*
 
 ## Rules
 

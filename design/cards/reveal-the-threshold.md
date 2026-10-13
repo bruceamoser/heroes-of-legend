@@ -6,13 +6,17 @@
 
 **Action:** Main Action · **Attribute:** Reason
 
+**Time:** Ten minutes.
+
 **Target / range / shape:** A 3-by-3 visible area within 5 squares; 10 minutes examination
+
+If several concealments are present, the DA chooses one relevant to your stated search; all results describe that same concealment.
 
 - **Weak:** Reveal one magical concealment’s presence, if any.
 - **Standard:** Also reveal its location.
 - **Strong:** Also reveal one activation or bypass requirement.
 
-**Duration:** Instant
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** None.
 
@@ -22,7 +26,7 @@
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** reveal-the-threshold · **Status:** Proposal — fresh design; not approved or balance-tested.
 

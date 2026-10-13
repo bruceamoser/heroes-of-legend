@@ -6,17 +6,17 @@
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One adjacent creature, after it damages you; yourself for the following movement.
 
 After an adjacent creature damages you, push it 1 square and move 1 square toward it if free. Your movement does not provoke.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Unbalanced; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Unbalanced; minimum level 3
 
 **Type:** Signature
 

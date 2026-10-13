@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One target of your Strong damaging spell, after that spell resolves.
 
 Once per turn after a Strong damaging spell, choose one target of that spell and push it 1 square.
 
@@ -16,7 +16,7 @@ Once per turn after a Strong damaging spell, choose one target of that spell and
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Arcanist; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Arcanist; minimum level 1
 
 **Type:** Signature
 

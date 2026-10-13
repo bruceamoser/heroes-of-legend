@@ -4,19 +4,19 @@
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One visible active construct or device within 4 squares.
 
-Examine one visible active construct or device within 4 squares. Learn one actual resistance and one actual weakness, if present. No change to them; no secret weakness invented.
+Examine the visible active construct or device. Learn one actual resistance and one actual weakness, if present. Choose one ally who can hear your explanation: its next roll acting on one of these facts before the start of your next turn gains 1 Boon. No weakness is invented or resistance changed.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Information persists; the Boon lasts until used or the start of your next turn.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Intellect; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Intellect; minimum level 7
 
 **Type:** Signature
 

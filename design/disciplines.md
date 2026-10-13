@@ -228,7 +228,7 @@ purchases follow the agreed foundations; no ability chain is required.
 - [Teach Stone to Bend](cards/teach-stone-to-bend.md) — level 3; Main Action.
 - [The Moment Foretold](cards/the-moment-foretold.md) — level 7; Reaction.
 - [The Patient Metal](cards/the-patient-metal.md) — level 1; Main Action.
-- [The Shape of Escape](cards/the-shape-of-escape.md) — level 7; Main Action.
+- [The Shape of Escape](cards/the-shape-of-escape.md) — level 7; Maneuver.
 - [Translate the Fragment](cards/translate-the-fragment.md) — level 3; Main Action.
 
 ## [Storm](disciplines/storm.md)
@@ -252,7 +252,7 @@ purchases follow the agreed foundations; no ability chain is required.
 - [A Lock Has a Language](cards/a-lock-has-a-language.md) — level 3; Main Action.
 - [A Shadow at the Heart](cards/a-shadow-at-the-heart.md) — level 7; Main Action.
 - [A Small and Watchful Shape](cards/a-small-and-watchful-shape.md) — level 3; Maneuver.
-- [An Impossible Theft](cards/an-impossible-theft.md) — level 7; Main Action.
+- [An Impossible Theft](cards/an-impossible-theft.md) — level 7; Maneuver.
 - [Borrow the Shadow](cards/borrow-the-shadow.md) — level 7; Reaction.
 - [Borrowed Clothes, Borrowed Manners](cards/borrowed-clothes-borrowed-manners.md) — level 1; Main Action.
 - [Borrowed Identity](cards/borrowed-identity.md) — level 7; Main Action.

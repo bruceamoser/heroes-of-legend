@@ -6,7 +6,7 @@
 
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self.
 
 Become Invisible until the start of your next turn. No automatic Hidden; noise and physical presence remain. Magic signature, no discipline gate.
 
@@ -16,7 +16,7 @@ Become Invisible until the start of your next turn. No automatic Hidden; noise a
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shadow; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shadow; minimum level 7
 
 **Type:** Signature
 

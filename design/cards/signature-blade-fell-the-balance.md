@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One target of your Strong Main Action melee attack that would be pushed.
 
 Once per turn, replace a Strong Main melee attack’s optional push with knocking the target prone. Do not gain both riders from this substitution.
 
@@ -16,7 +16,7 @@ Once per turn, replace a Strong Main melee attack’s optional push with knockin
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Blade; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Blade; minimum level 3
 
 **Type:** Signature
 

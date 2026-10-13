@@ -6,17 +6,17 @@
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self, before a defense roll against an adjacent enemy.
 
 Before an adjacent enemy’s attack against you, gain 1 Boon to that defense. If the defense is Strong, move 1 square without provoking afterward.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Blade; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Blade; minimum level 1
 
 **Type:** Signature
 

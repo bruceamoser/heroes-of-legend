@@ -6,17 +6,17 @@
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Two willing allies within 5 squares that can hear you, when you hear an ally’s Last Words within 5 squares.
 
 Upon hearing an ally’s Last Words within 5 squares, two willing allies each move 2 squares without provoking. Once per dying ally; does not delay or prevent death.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Odd; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Odd; minimum level 7
 
 **Type:** Signature
 

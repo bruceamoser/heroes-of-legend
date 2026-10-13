@@ -24,7 +24,7 @@ Proposed NPC defense attribute: Agility.
 
 **Type:** Magic / Attack
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** cinder-cast · **Status:** Proposal — fresh design; not approved or balance-tested.
 

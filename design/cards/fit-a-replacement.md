@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Reason
 
+**Time:** Four hours per attempt.
+
 **Target / range / shape:** One patient and a suitable prosthesis; four hours
 
 Proposal: target 6. Requires an already-made correctly sized prosthesis. Relieves only the wound penalties explicitly replaceable by that prosthesis. Does not regrow the body part or erase the wound.
@@ -14,7 +16,7 @@ Proposal: target 6. Requires an already-made correctly sized prosthesis. Relieve
 - **Standard:** 2 fitting progress.
 - **Strong:** 3 fitting progress.
 
-**Duration:** Instant
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** None.
 
@@ -24,7 +26,7 @@ Proposal: target 6. Requires an already-made correctly sized prosthesis. Relieve
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** fit-a-replacement · **Status:** Proposal — fresh design; not approved or balance-tested.
 

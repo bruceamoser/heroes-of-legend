@@ -14,7 +14,7 @@ A thunderclap arrives where you point.
 - **Standard:** 3 physical damage and Deafened 1.
 - **Strong:** 5 physical damage, Deafened 1 and push 1.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +24,7 @@ A thunderclap arrives where you point.
 
 **Type:** Magic / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** thunder-at-the-door · **Status:** Proposal for Bruce’s review.
 

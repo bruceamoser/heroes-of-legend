@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One creature pushed by your Force action.
 
 Once per turn your Force push gains 1 square after its result; no extra grapple or obstacle progress.
 
@@ -16,7 +16,7 @@ Once per turn your Force push gains 1 square after its result; no extra grapple 
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Unbalanced; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Unbalanced; minimum level 1
 
 **Type:** Signature
 

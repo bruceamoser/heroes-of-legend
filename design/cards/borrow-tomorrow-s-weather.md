@@ -6,26 +6,19 @@
 
 **Action:** Main Action · **Attribute:** Guile
 
-**Target / range / shape:** A visible free square within 4 squares.
+**Target / range / shape:** Up to 3/5/7 connected visible unoccupied ground squares, each within 4 squares.
 
-Choose one unoccupied square you can see within 4 squares. Roll 3d6 + Guile, applying Boons and Banes normally.
+Before rolling, choose smoke or ice. Roll Guile, then place up to the number of squares your result allows:
 
-After Boons or Banes, you use three dice to determine your result. Look at the smallest number showing on those three dice, before adding Guile:
+- **Weak:** 3 squares.
+- **Standard:** 5 squares.
+- **Strong:** 7 squares.
 
-- **1, 3 or 5 — Smoke:** Fill the chosen square with smoke that provides heavy cover.
-- **2, 4 or 6 — Ice:** Cover the ground in the chosen square with ice. It is difficult terrain, costing 2 movement to enter.
+After the first square, each new square must share an edge with one already placed, forming one connected area. Smoke provides heavy cover across its squares. Ice makes its squares difficult terrain, costing 2 movement to enter. Neither effect deals damage or blocks movement. Both last until the end of your next turn.
 
-Use the total of the three dice plus Guile to determine how long the weather lasts:
+**Example:** On Standard, place five smoke squares across an approach or bend them around a corner, keeping every square visible and within range.
 
-- **Weak:** The weather disappears at the start of your next turn.
-- **Standard:** It disappears at the end of your next turn.
-- **Strong:** It disappears at the end of your next turn. You may also place the same weather in one unoccupied square adjacent to the first.
-
-Neither effect deals damage. Do not roll extra dice to choose the weather.
-
-**Example:** Your three dice show 2, 4 and 5, and your Guile is +1. The smallest die is 2, so you create ice. Your total is 12, a Standard result, so the ice lasts until the end of your next turn.
-
-**Duration:** Weak: until the start of your next turn. Standard/Strong: until the end of your next turn.
+**Duration:** Until the end of your next turn.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -33,9 +26,9 @@ Neither effect deals damage. Do not roll extra dice to choose the weather.
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Flame 2
 
-**Type:** Magic
+**Type:** Magic / Control / Utility
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** borrow-tomorrow-s-weather · **Status:** Proposal for Bruce’s review.
 

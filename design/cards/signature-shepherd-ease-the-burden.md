@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** The recipient of your Strong healing spell.
 
 A Strong healing spell also reduces temporary Frightened on its recipient by 1.
 
@@ -16,7 +16,7 @@ A Strong healing spell also reduces temporary Frightened on its recipient by 1.
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shepherd; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shepherd; minimum level 1
 
 **Type:** Signature
 

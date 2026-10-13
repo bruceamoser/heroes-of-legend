@@ -6,17 +6,17 @@
 
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One adjacent creature you grapple, while you still have a Main Action.
 
-Release your Grappled contribution on one adjacent target to push it that many squares, maximum 3. No roll; you lose the hold before displacement.
+You must still have a Main Action; Grappled 3 cannot use this card. Release your Grappled contribution on one adjacent target to push it that many squares, maximum 3. No roll; you lose the hold before displacement.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Unbalanced; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Unbalanced; minimum level 3
 
 **Type:** Signature
 

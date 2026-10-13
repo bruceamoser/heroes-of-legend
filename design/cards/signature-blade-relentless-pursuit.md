@@ -6,17 +6,17 @@
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self; a visible enemy within 2 squares when it begins voluntary movement.
 
-After an enemy within 2 squares moves voluntarily, move up to 3 squares toward it without provoking. No attack is granted.
+After the triggering enemy finishes moving, follow it up to your Speed without provoking. Choose a legal route and free endpoint; this does not stop its movement or grant an attack.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Blade; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Blade; minimum level 7
 
 **Type:** Signature
 

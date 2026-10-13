@@ -14,7 +14,7 @@ Choose a swim that you could ordinarily attempt. Before a consequential attempt,
 - **Standard:** Add 2 progress, keep that item dry and keep your bearings in the current.
 - **Strong:** Add 3 progress and gain both benefits above; also identify a safer nearby landing, if one is available.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** None.
 

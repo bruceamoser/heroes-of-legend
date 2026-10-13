@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self, when standing from Prone.
 
 Standing costs you 1 square of movement instead of 2.
 
@@ -16,7 +16,7 @@ Standing costs you 1 square of movement instead of 2.
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Unbalanced; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Unbalanced; minimum level 1
 
 **Type:** Signature
 

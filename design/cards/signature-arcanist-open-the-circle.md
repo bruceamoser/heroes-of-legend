@@ -4,19 +4,19 @@
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self and willing allies within 2 squares when used.
 
-Until the start of your next turn, willing allies within 2 squares gain 1 Boon to defense against spells. Repeated applications do not multiply this benefit.
+You and willing allies within 2 squares when you use this card gain 1 Boon to defenses against spells until the start of your next turn. Reapplying this card replaces your previous application.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Until the start of your next turn.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Arcanist; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Arcanist; minimum level 7
 
 **Type:** Signature
 

@@ -12,9 +12,9 @@ Roots spring from cracks or soil to catch its feet. They wither immediately afte
 
 - **Weak:** Slowed 1.
 - **Standard:** Slowed 2 and pull 1 square toward you.
-- **Strong:** Slowed 2 and knock prone.
+- **Strong:** Slowed 2, pull 1 square toward you and knock prone.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,9 +22,9 @@ Roots spring from cracks or soil to catch its feet. They wither immediately afte
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Wilderness 1
 
-**Type:** Skill
+**Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** roots-remember-feet · **Status:** Proposal for Bruce’s review.
 

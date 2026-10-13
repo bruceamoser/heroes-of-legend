@@ -20,7 +20,7 @@ For the rest of this turn, your movement makes no audible footfalls and does not
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** no-footfall-at-all · **Status:** Proposal for Bruce’s review.
 

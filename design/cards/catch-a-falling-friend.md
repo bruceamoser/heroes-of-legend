@@ -14,7 +14,7 @@ Reaction; requires a free hand and secure footing at the start. Weak and Standar
 - **Standard:** Stop its fall and keep your footing.
 - **Strong:** Stop its fall and pull it into an adjacent free safe square.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** None.
 
@@ -24,7 +24,7 @@ Reaction; requires a free hand and secure footing at the start. Weak and Standar
 
 **Type:** Skill / Utility
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** catch-a-falling-friend · **Status:** Proposal — fresh design; not approved or balance-tested.
 

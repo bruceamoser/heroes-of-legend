@@ -8,9 +8,9 @@
 
 **Target / range / shape:** One adjacent willing or unconscious creature in water.
 
-Move yourself and the target up to your Speed through water, ending side by side in free squares. This movement does not provoke; the target needs no movement or Reaction. You must choose legal endpoints first and cannot pass solid obstacles.
+You need a free hand and must be physically able to support the target’s weight, as judged by the DA. Move yourself and the target up to your Speed through water, ending side by side in free squares. This movement does not provoke; the target needs no movement or Reaction. You must choose legal endpoints first and cannot pass solid obstacles.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +20,7 @@ Move yourself and the target up to your Speed through water, ending side by side
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** carry-them-to-shore · **Status:** Proposal for Bruce’s review.
 

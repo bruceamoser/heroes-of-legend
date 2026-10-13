@@ -12,7 +12,7 @@ Proposed NPC defense attribute: Agility.
 
 - **Weak:** 3 cold damage.
 - **Standard:** 3 cold damage; Slowed 1.
-- **Strong:** 5 cold damage; Freezing 1.
+- **Strong:** 5 cold damage; Slowed 1 and Freezing 1.
 
 **Duration:** Instant
 
@@ -24,7 +24,7 @@ Proposed NPC defense attribute: Agility.
 
 **Type:** Magic / Attack
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** rime-grip · **Status:** Proposal — fresh design; not approved or balance-tested.
 

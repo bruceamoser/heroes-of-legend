@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self, before a consequential Agility roll for landing.
 
 Gain 1 Boon to a consequential Agility roll for landing; grants no immunity to falls or impossible jumps.
 
@@ -16,7 +16,7 @@ Gain 1 Boon to a consequential Agility roll for landing; grants no immunity to f
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shadow; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shadow; minimum level 1
 
 **Type:** Signature
 

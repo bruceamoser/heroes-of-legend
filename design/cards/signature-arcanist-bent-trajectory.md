@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Your single-target spell; one visible adjacent unoccupied origin square.
 
 Your single-target spell may originate from one visible adjacent unoccupied square. Check targeting from that square; range still counts from you. No casting through opaque barriers.
 
@@ -16,7 +16,7 @@ Your single-target spell may originate from one visible adjacent unoccupied squa
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Arcanist; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Arcanist; minimum level 1
 
 **Type:** Signature
 

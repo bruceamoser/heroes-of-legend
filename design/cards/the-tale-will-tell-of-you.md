@@ -10,7 +10,7 @@
 
 Your voice reaches it through the noise. If it can hear, it may immediately spend one of its own Grit to regain full HP. The wound remains. Cannot interrupt Last Words; grants no Grit and cannot be used when none remains.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +20,7 @@ Your voice reaches it through the noise. If it can hear, it may immediately spen
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-tale-will-tell-of-you · **Status:** Proposal for Bruce’s review.
 

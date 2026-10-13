@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One willing Dying ally within 2 squares that can hear your Stabilize action.
 
 Your Stabilize reaches a willing Dying ally within 2 squares that can hear you; no HP or wound removal.
 
@@ -16,7 +16,7 @@ Your Stabilize reaches a willing Dying ally within 2 squares that can hear you; 
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shepherd; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shepherd; minimum level 1
 
 **Type:** Signature
 

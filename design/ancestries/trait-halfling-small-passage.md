@@ -1,6 +1,6 @@
 # Under Their Noses
 
-*The grand folk rarely remember to look beneath the table.*
+*You duck beneath the table and draw your knees behind its legs as the hurried footsteps pass.*
 
 ## Rules
 

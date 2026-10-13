@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One ally within 3 squares that can understand your method of Aid.
 
 Your Aid can reach an ally within 3 squares who can understand your method of assistance.
 
@@ -16,7 +16,7 @@ Your Aid can reach an ally within 3 squares who can understand your method of as
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Odd; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Odd; minimum level 3
 
 **Type:** Signature
 

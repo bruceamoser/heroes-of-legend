@@ -10,7 +10,7 @@
 
 The rune takes the weight. For this damage event, gain physical resistance 3. Afterward, you may move 1 square without provoking. This does not add to existing resistance.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -18,9 +18,9 @@ The rune takes the weight. For this damage event, gain physical resistance 3. Af
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Armor 2
 
-**Type:** Skill
+**Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** stone-on-your-shoulders · **Status:** Proposal for Bruce’s review.
 

@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** The evidence you just interpreted with a Strong Reason roll.
 
 On a Strong Reason roll interpreting evidence, learn one additional evidence-supported fact, once per scene.
 
@@ -16,7 +16,7 @@ On a Strong Reason roll interpreting evidence, learn one additional evidence-sup
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Intellect; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Intellect; minimum level 1
 
 **Type:** Signature
 

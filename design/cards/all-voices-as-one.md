@@ -10,17 +10,19 @@
 
 Each makes one free Basic Melee attack. After its attack, each may move 1 square without provoking. These attacks never trigger additional free attacks.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+Each granted Basic Melee attack uses its attacker’s Brawn and Basic Melee outcomes; this card adds no separate roll beyond any roll it explicitly requires.
 
-**Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
+
+**Equipment / acquisition:** Each attacking ally needs its own melee weapon. This card grants no equipment.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Influence 3
 
-**Type:** Skill
+**Type:** Skill / Utility
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** all-voices-as-one · **Status:** Proposal for Bruce’s review.
 

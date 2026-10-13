@@ -1,6 +1,6 @@
 # A Grudge Well Kept
 
-*You remember who struck first. You intend them to remember what followed.*
+*You rub the place the blow landed, fix its giver in your gaze and step back into the fight.*
 
 ## Rules
 

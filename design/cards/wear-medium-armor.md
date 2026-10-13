@@ -20,7 +20,7 @@ While wearing the trained armor, physical resistance 2. No roll; highest matchin
 
 **Type:** Training / Passive
 
-**Limits:** Once per level for Conditioned Body; once ever for each other card.
+**Limits:** Purchase once.
 
 **ID:** wear-medium-armor · **Status:** Proposal — fresh design; not approved or balance-tested.
 

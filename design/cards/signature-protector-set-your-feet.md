@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self, when pushed or pulled while your Defend is active.
 
 While your Defend is active, reduce push or pull against you by 1 square. This reduction does not stack with another displacement reduction; use the highest.
 
@@ -16,7 +16,7 @@ While your Defend is active, reduce push or pull against you by 1 square. This r
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Protector; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Protector; minimum level 1
 
 **Type:** Signature
 

@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One ally within 3 squares that can see or hear your Aid signal.
 
 Your Aid reaches one ally within 3 squares that sees or hears your signal.
 
@@ -16,7 +16,7 @@ Your Aid reaches one ally within 3 squares that sees or hears your signal.
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Leader; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Leader; minimum level 1
 
 **Type:** Signature
 

@@ -6,17 +6,17 @@
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self and one adjacent willing ally, after an adjacent enemy’s attack resolves.
 
-After an adjacent enemy’s attack resolves, move 1 square without provoking and move a willing adjacent ally 1 square into a legal free square.
+After the triggering attack resolves, you and one willing ally adjacent to you when you use this Reaction may each move 1 square without provoking. Choose the order and legal free endpoints.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Odd; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Odd; minimum level 3
 
 **Type:** Signature
 

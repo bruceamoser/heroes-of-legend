@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Guile
 
+**Time:** A few minutes per attempt.
+
 **Target / range / shape:** A nonhostile audience; a few minutes.
 
 Tell a truthful or honestly believed story about a companion. Name a plausible introduction, audience or welcome you seek.
@@ -14,7 +16,7 @@ Tell a truthful or honestly believed story about a companion. Name a plausible i
 - **Standard:** 2 progress and learn who can grant it.
 - **Strong:** 3 progress and a willing listener offers to introduce you.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +26,7 @@ Tell a truthful or honestly believed story about a companion. Name a plausible i
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** remember-this-name · **Status:** Proposal for Bruce’s review.
 

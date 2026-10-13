@@ -1,6 +1,6 @@
 # Second Breakfast
 
-*You know how to make a small comfort last.*
+*You break the bread, tuck the smallest crumbs into the wrapping and make room beside you for a second breakfast.*
 
 ## Rules
 

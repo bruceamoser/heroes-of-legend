@@ -8,7 +8,7 @@
 
 **Target / range / shape:** A straight route of up to 3 visible squares beginning adjacent to you.
 
-Part nonmagical rain, airborne dust or smoke along that route until the start of your next turn. It removes those visibility obstructions only; solid cover and magical darkness remain. Allies gain a clear view, not free movement.
+Part nonmagical rain, airborne dust or smoke along that route until the start of your next turn. It removes those visibility obstructions only; solid cover and magical darkness remain. The cleared route improves visibility for everyone, including enemies; it grants no movement.
 
 **Duration:** Until the start of your next turn; a next-roll benefit ends when used.
 
@@ -20,7 +20,7 @@ Part nonmagical rain, airborne dust or smoke along that route until the start of
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-road-through-rain · **Status:** Proposal for Bruce’s review.
 

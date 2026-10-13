@@ -24,7 +24,7 @@ Offer a tempting line, then close it with a melee attack.
 
 **Type:** Skill / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** invitation-to-the-blade · **Status:** Proposal for Bruce’s review.
 

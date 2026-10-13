@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One creature affected by your Strong area spell, after that spell resolves.
 
 Once per turn after a Strong area spell, push or pull one affected creature 2 squares. No extra damage except collisions.
 
@@ -16,7 +16,7 @@ Once per turn after a Strong area spell, push or pull one affected creature 2 sq
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Arcanist; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Arcanist; minimum level 7
 
 **Type:** Signature
 

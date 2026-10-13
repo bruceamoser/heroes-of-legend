@@ -6,7 +6,7 @@
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One adjacent willing ally.
 
 An adjacent willing ally gains 1 Boon to its next defense before the start of your next turn; repeated uses do not multiply this benefit.
 
@@ -16,7 +16,7 @@ An adjacent willing ally gains 1 Boon to its next defense before the start of yo
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Leader; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Leader; minimum level 1
 
 **Type:** Signature
 

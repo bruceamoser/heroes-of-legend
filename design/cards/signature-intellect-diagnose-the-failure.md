@@ -6,17 +6,19 @@
 
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Time:** One minute.
 
-Examine one accessible failed mundane mechanism for one minute; learn the kind of repair needed. Does not grant tools, recipe or crafting permission.
+**Target / range / shape:** One accessible failed ordinary mechanism; examine for one minute.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+Examine the failed ordinary mechanism for one minute. Learn what failed, what repair is needed, and whether available materials could restore it. The next compatible repair attempt you or an ally makes using this diagnosis gains 1 Boon. This grants no tools, recipe or crafting permission.
+
+**Duration:** Information persists; the Boon ends when used or the mechanism changes.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Intellect; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Intellect; minimum level 3
 
 **Type:** Signature
 

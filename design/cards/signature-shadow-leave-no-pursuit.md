@@ -6,17 +6,17 @@
 
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self; your route of up to Speed squares.
 
 Move up to Speed without provoking through a legal route. Conceal ordinary tracks on that route; observers who can see you still can.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Movement is immediate; the tracks remain concealed unless new evidence exposes them.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shadow; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shadow; minimum level 7
 
 **Type:** Signature
 

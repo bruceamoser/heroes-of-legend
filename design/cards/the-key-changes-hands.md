@@ -8,13 +8,15 @@
 
 **Target / range / shape:** One adjacent visible unattended object of Bulk 0 or 1.
 
-Lift it while doing something else entirely convincing. Declare what consequence makes the theft uncertain; an unobserved accessible pickup needs no roll.
+Name the object and describe your distraction. An unobserved accessible pickup needs no roll. When discovery has consequences, roll Guile:
 
-- **Weak:** Take the object, but an observer notices immediately.
-- **Standard:** Take it without immediate notice.
-- **Strong:** Take it and leave a harmless substitute you already hold.
+- **Weak:** Draw attention aside and gain 1 Boon to your next attempt to take this object before the end of your next turn. You have not taken it yet.
+- **Standard:** Take the object into your free hand without immediate notice.
+- **Strong:** Take it without immediate notice and leave a harmless substitute you already hold.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+An observer can notice the missing object later. This takes only unattended objects, never held or worn equipment.
+
+**Duration:** Object transfer is immediate. The Weak Boon expires after your next attempt or at the end of your next turn.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +26,7 @@ Lift it while doing something else entirely convincing. Declare what consequence
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-key-changes-hands · **Status:** Proposal for Bruce’s review.
 

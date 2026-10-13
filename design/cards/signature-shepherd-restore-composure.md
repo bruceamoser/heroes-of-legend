@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** The recipient of your Strong healing spell.
 
 A Strong healing spell also reduces temporary Dazed by 1. No effect on starred wound conditions.
 
@@ -16,7 +16,7 @@ A Strong healing spell also reduces temporary Dazed by 1. No effect on starred w
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shepherd; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shepherd; minimum level 7
 
 **Type:** Signature
 

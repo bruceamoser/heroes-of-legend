@@ -14,7 +14,7 @@ Choose one creature you can see within 4 squares and make an attack using Guile.
 - **Standard:** 3 Life damage.
 - **Strong:** 5 Life damage.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** None.
 

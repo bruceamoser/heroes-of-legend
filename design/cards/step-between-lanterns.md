@@ -10,7 +10,7 @@
 
 Move up to 2 squares through actual dimness or concealment without provoking. If you were Hidden and the whole route conceals you, remain Hidden. This does not hide you in an exposed square.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +20,7 @@ Move up to 2 squares through actual dimness or concealment without provoking. If
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** step-between-lanterns · **Status:** Proposal for Bruce’s review.
 

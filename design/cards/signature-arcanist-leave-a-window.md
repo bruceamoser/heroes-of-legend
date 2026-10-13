@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One creature in your area spell, chosen before rolling.
 
 Exclude one creature from your area spell before rolling. Work out the remaining targets’ net Boons or Banes and use the combination least favorable to you for the roll.
 
@@ -16,7 +16,7 @@ Exclude one creature from your area spell before rolling. Work out the remaining
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Arcanist; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Arcanist; minimum level 3
 
 **Type:** Signature
 

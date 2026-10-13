@@ -1,6 +1,6 @@
 # Footfall on the Leaves
 
-*Even the fallen leaves seem reluctant to betray your passing.*
+*You step between stems and over tangled roots, leaving the leaves scarcely trembling behind you.*
 
 ## Rules
 

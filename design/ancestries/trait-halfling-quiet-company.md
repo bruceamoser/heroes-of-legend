@@ -1,6 +1,6 @@
 # Quiet as a Burrow
 
-*You learned to come home late without waking the household.*
+*You ease your heel onto the floor and lift the latch with the care of someone coming home to a sleeping household.*
 
 ## Rules
 

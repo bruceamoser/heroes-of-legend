@@ -6,7 +6,7 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** The evidence examined by your Strong noncombat Knowledge or Reason roll.
 
 After a Strong noncombat Knowledge or Reason roll, identify one specific piece of evidence that would disprove your current explanation, if any exists in the examined evidence.
 
@@ -16,7 +16,7 @@ After a Strong noncombat Knowledge or Reason roll, identify one specific piece o
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Intellect; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Intellect; minimum level 7
 
 **Type:** Signature
 
