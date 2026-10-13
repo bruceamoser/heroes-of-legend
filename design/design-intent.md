@@ -47,3 +47,16 @@ Use arithmetic to find dead options, contradictory costs and combinations that
 remove others’ turns. Do not flatten distinct abilities into equal expected damage.
 A bridge, a rescue, a convincing disguise and a firestorm do different jobs.
 Actual play must eventually answer whether each has a rewarding place.
+
+## A path is a promise, not a subclass
+
+A druid might become the bear that breaks the line, the healer who spends their
+strength for a friend, or the keeper whose briars change the whole approach. A
+fighter might read anatomy with Knowledge, deceive with Guile or meet force with
+Reason. Make those differences visible in actual cards, not only in introductory
+claims about customization.
+
+Read every new entry aloud before keeping it. If it sounds like a proof, replace
+the explanation with the thing the character does and the consequence at the table.
+Keep necessary distances and limits, but give them a scene to belong to. Repeated
+references and bookkeeping belong below the action rather than in its opening line.

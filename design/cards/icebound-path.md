@@ -1,24 +1,27 @@
 # Icebound Path
 
-- **ID:** icebound-path
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Magic
-- **Tier / minimum level:** 3
-- **DP:** 4
-- **Requirements to learn:** Frost 2
-- **Action:** Main Action
-- **Attribute:** Knowledge
-- **Target / range / shape:** Three contiguous visible unoccupied squares within 5
-- **Duration:** Until the start of your next turn
-- **Limits:** Repeatable within the normal action economy.
-- **Equipment / acquisition:** None.
+**Action:** Main Action · **Attribute:** Knowledge
 
-## Resolution
-
-| Weak | Standard | Strong |
-|---|---|---|
-| Create difficult terrain. | Create difficult terrain. | Create difficult terrain. |
+**Target / range / shape:** Three contiguous visible unoccupied squares within 5
 
 Only creates terrain; no automatic damage, prone or repeated entry trigger. Cannot create ice inside a creature.
+
+- **Weak:** Create difficult terrain.
+- **Standard:** Create difficult terrain.
+- **Strong:** Create difficult terrain.
+
+**Duration:** Until the start of your next turn
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Frost 2
+
+**Type:** Magic
+
+**Limits:** Repeatable within the normal action economy.
+
+**ID:** icebound-path · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

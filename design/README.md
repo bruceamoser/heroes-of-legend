@@ -15,11 +15,12 @@ This is an authoring draft, not a claim that every option has been approved or t
 
 1. [Design intent](design-intent.md): the experience each choice should create.
 2. [Foundations](rules/foundations.md) and [character development](development.md).
-3. [Ancestries](ancestry.md), [origins](culture-background.md), [classes](class.md), [disciplines](disciplines.md).
-4. [Catalog](catalog.md): all universal references, shared abilities and signatures.
-5. [Equipment](equipment.md), [recipes](recipes.md), [wounds and treatment](rules/recovery.md).
-6. [Worked characters](starter-characters.md) and [example scenes](example-scenes.md).
-7. [Open decisions](open-decisions.md), [reference research](references.md), [coverage](coverage.md).
+3. [Character paths](fantasy-paths.md): choose a fantasy and a role, then find its abilities.
+4. [Ancestries](ancestry.md), [origins](culture-background.md), [classes](class.md), [disciplines](disciplines.md).
+5. [Catalog](catalog.md): all universal references, shared abilities and signatures.
+6. [Equipment](equipment.md), [recipes](recipes.md), [wounds and treatment](rules/recovery.md).
+7. [Worked characters](starter-characters.md) and [example scenes](example-scenes.md).
+8. [Open decisions](open-decisions.md), [reference research](references.md), [coverage](coverage.md).
 
 ## Editing
 
@@ -40,3 +41,14 @@ of this authoring pass. The existing `playtest/` tree remains historical test ma
 The book’s Quarto chapters and layout are unchanged. This draft supersedes the old
 catalog only as the destination for new authoring; it does not retroactively change
 what historical experiments measured.
+
+## Expanded fantasy pass
+
+The draft now offers 36 mixable character paths, 18 cultures and 32 backgrounds.
+Ancestry traits lean into their familiar stories, and 108 new shared abilities give
+those stories somewhere to go. Read [three contrasting builds](path-examples.md)
+for a Knowledge fighter, a beast-form brawler and a healing/control nature caster.
+
+Run `python3 design/index.py` after editing names or adding entries to refresh
+navigation; it reads the Markdown and never rewrites card text. Run
+`python3 design/audit.py` for structural checks. These tools serve the writing.

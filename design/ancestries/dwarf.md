@@ -1,13 +1,14 @@
 # Dwarf
 
-**Status:** HP +4 and base Speed 5 are approved starting values. All five traits below are fresh proposals. Choose two. Culture and background are independent.
+Stone, craft, stubborn loyalty and a memory for debts both kind and cruel.
 
-- [Deep Constitution](trait-dwarf-deep-constitution.md): Maximum HP +1.
+Choose two of the five traits below. These are invitations to a familiar fantasy,
+not a required personality. Any ancestry may grow up in any culture.
 
-- [Stone Reader](trait-dwarf-stone-reader.md): Gain 1 Boon to assessing the visible safety of stonework; reveals no unseen passage automatically.
+**Starting values:** HP +4; base Speed 5. **Trait status:** revised proposals.
 
-- [Low Center](trait-dwarf-low-center.md): Gain 1 Boon to defense against forced movement while standing on solid ground.
-
-- [Maker’s Eye](trait-dwarf-maker-s-eye.md): Gain 1 Boon when appraising ordinary worked metal; grants no crafting permission.
-
-- [Carved History](trait-dwarf-carved-history.md): Describe visible clan or personal markings; flavor only, no automatic social response.
+- [Stubborn as Bedrock](trait-dwarf-deep-constitution.md) — Your ancestors did not dig a home from the mountain by yielding politely.
+- [The Mountain Remembers](trait-dwarf-stone-reader.md) — You know a mason’s lie by the stone around it.
+- [Rooted in Stone](trait-dwarf-low-center.md) — Let the storm waste its strength on you.
+- [An Honest Maker’s Hand](trait-dwarf-maker-s-eye.md) — Your thumb finds the seam; your ear knows the ring of sound metal.
+- [A Grudge Well Kept](trait-dwarf-carved-history.md) — You remember who struck first. You intend them to remember what followed.

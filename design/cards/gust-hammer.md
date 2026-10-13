@@ -2,25 +2,28 @@
 
 *Strike with a wall of wind, sending the enemy tumbling away.*
 
-- **ID:** gust-hammer
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Magic / Attack
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Storm 1
-- **Action:** Main Action
-- **Attribute:** Reason
-- **Target / range / shape:** One visible creature within 4 squares
-- **Duration:** Instant
-- **Limits:** Repeatable within the normal action economy.
-- **Equipment / acquisition:** None.
+**Action:** Main Action · **Attribute:** Reason
 
-## Resolution
-
-| Weak | Standard | Strong |
-|---|---|---|
-| 2 physical damage; push 1. | 2 physical damage; push 2. | 4 physical damage; push 3. |
+**Target / range / shape:** One visible creature within 4 squares
 
 Proposed NPC defense attribute: Fortitude.
+
+- **Weak:** 2 physical damage; push 1.
+- **Standard:** 2 physical damage; push 2.
+- **Strong:** 4 physical damage; push 3.
+
+**Duration:** Instant
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Storm 1
+
+**Type:** Magic / Attack
+
+**Limits:** Repeatable within the normal action economy.
+
+**ID:** gust-hammer · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

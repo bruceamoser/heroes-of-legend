@@ -1,15 +1,13 @@
-# Resilient
+# Second Breakfast
 
-- **ID:** trait-halfling-resilient
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Halfling; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*You know how to make a small comfort last.*
 
-Maximum HP +1.
+When sharing a food bundle with one companion during a safe meal, make one inventory check for the two of you instead of one each. Food is still required; this grants no healing, resistance or extra recovery.
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+**Ancestry:** Halfling · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 
-[Ancestry](./halfling.md)
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-halfling-resilient · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](halfling.md)

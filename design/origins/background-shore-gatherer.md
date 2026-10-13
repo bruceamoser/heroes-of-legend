@@ -1,5 +1,9 @@
 # Shore Gatherer
 
+The shore fed you if you learned when to arrive and what to leave alone.
+
+*What did the tide bring you once that it should not have?*
+
 **Type:** Background. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
 
 - Wilderness 1 and [Forage Coast](../cards/forage-coast.md).

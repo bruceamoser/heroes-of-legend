@@ -1,15 +1,13 @@
-# Light Tread
+# Footfall on the Leaves
 
-- **ID:** trait-elf-light-tread
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Elf; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*Even the fallen leaves seem reluctant to betray your passing.*
 
-Gain 1 Boon to physical activities crossing fragile natural surfaces; does not make an impossible surface safe.
+Natural undergrowth does not increase the cost of your voluntary movement. Other difficult terrain, forced movement and occupied-square rules are unchanged.
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+**Ancestry:** Elf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 
-[Ancestry](./elf.md)
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-elf-light-tread · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](elf.md)

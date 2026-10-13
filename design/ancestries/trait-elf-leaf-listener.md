@@ -1,15 +1,13 @@
-# Leaf Listener
+# The Wood Whispers
 
-- **ID:** trait-elf-leaf-listener
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Elf; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*A startled bird tells you what a shouted warning never could.*
 
-Gain 1 Boon when interpreting audible signs of weather in woodland; not general detection.
+In woodland, gain 1 Boon to a consequential roll interpreting living signs of nearby disturbance. You know the general direction, not an unseen creature’s exact square; this does not bypass Hidden.
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+**Ancestry:** Elf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 
-[Ancestry](./elf.md)
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-elf-leaf-listener · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](elf.md)

@@ -1,0 +1,23 @@
+# The Tale Will Tell of You
+
+**Action:** Reaction · **Attribute:** None — no roll
+
+**Target / range / shape:** One ally within 4 squares after it enters Dying.
+
+Your voice reaches it through the noise. If it can hear, it may immediately spend one of its own Grit to regain full HP. The wound remains. Cannot interrupt Last Words; grants no Grit and cannot be used when none remains.
+
+**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+
+**Equipment / acquisition:** No item needed unless named above.
+
+---
+
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Influence 3
+
+**Type:** Skill
+
+**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+
+**ID:** the-tale-will-tell-of-you · **Status:** Proposal for Bruce’s review.
+
+[Build this character](../paths/story-singer.md) · [Card conventions](../card-conventions.md)

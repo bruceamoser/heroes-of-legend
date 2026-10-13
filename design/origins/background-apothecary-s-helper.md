@@ -1,5 +1,9 @@
 # Apothecary’s Helper
 
+You learned the smell of good medicine and the patience of people waiting for it.
+
+*Which remedy always reminds you of someone?*
+
 **Type:** Background. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
 
 - Scholarship 1 and [Identify a Mixture](../cards/identify-a-mixture.md).

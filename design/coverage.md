@@ -1,40 +1,43 @@
-# Authoring coverage
+# What the catalog now lets us try
 
-This pass contains 196 universal/ability/signature entries, 20 ancestry
-traits, 4 ancestries, 14 paired-choice origins, 9 classes, 18 proposed disciplines,
-21 ordinary/special equipment entries and 6 ordinary recipes.
+The draft has **36 character paths**, each with a Novice starting point and
+independent Adept and Master options. These describe different fantasies and jobs
+at the table, not new classes or mandatory upgrade chains.
 
-Each class has three options at levels 1, 3 and 7: 81 signatures in total. Each
-proposed discipline has at least one shared option at each tier. That is coverage,
-not evidence that the options are equally compelling or balanced.
+There are **304 action and ability entries**: 18 universal references, 205 shared
+abilities and 81 class signatures. The expansion added 108 shared cards. Each of
+the nine HOL classes still offers three signature choices at levels 1, 3 and 7.
 
-A mechanical first pass was revised after Bruce emphasized flavor and player
-awesomeness. Scene-changing options now include scouting, impersonation, an ice
-bridge, a wind-driven retrieval, smoky passage, a hearth divination and salvage.
-Further editorial review should replace bland options, not simply keep adding cards.
+The four ancestries retain five traits each, now rewritten around their recognizable
+fantasy identities. Cultures increased from 6 to **18**; backgrounds from 8 to
+**32**. Each origin offers two rank-and-ability pairs. Ancestry restricts neither.
+There are 22 equipment entries and 9 ordinary recipes, including mixing supplies.
 
-## Still requires design review
+## Different ways to be useful
 
-- Countermagic timing and the value of a second roll.
-- New discipline boundaries, class affinity costs and signature strength.
-- Creature-specific powers and a fresh bestiary: this is the character catalog,
-  not a claim to have rebuilt every creature and adventure.
-- Special crafting recipes, coin economy and price-based acquisition.
-- Fully automated eligibility requires reading Markdown into a new validated data
-  model; do not run the old scripts against these names or assume they support them.
+- The Thinking Fighter attacks through Knowledge; the Still-Hand Adept through
+  Reason; the Daring Scoundrel through Guile. Each has an actual starting technique.
+- The Beast Within, Green Healer and Root Keeper make three nature characters with
+  different reasons to act. They can also be combined.
+- Bards, warders and ancestor-callers create opportunities for companions.
+- Illusions, transformations, devices and divination offer approaches beyond damage.
+- Companions and undead servants have specific commands and jobs; no autonomous army.
 
-Wound entries are preserved by reference because they were separately reviewed;
-they are not old ability cards. No new simulations were run for this draft.
+## Checks made
 
-## Checks completed for this draft
+Links, required fields, unique IDs, tier prices, origin prerequisites and path tier
+ordering pass the read-only authoring audit. The new three character ledgers were
+checked against actual class affinities. Neither these checks nor the number of
+cards proves that every option is exciting, balanced or equally useful.
 
-- All internal file links resolve.
-- All 196 card IDs are unique and have the required reference fields.
-- Shared/signature tier prices are 2/4/8 DP.
-- Each of nine classes has nine signature proposals: three per milestone.
-- Each of four ancestries has five proposed traits.
-- Three starter ledgers were checked manually against the proposed affinities.
+The earlier catalog remains the foundation of this fresh `design/` workspace;
+no legacy/playtest cards were consulted for this expansion. Research references
+and the parts we actually read are listed separately. No new simulations ran.
 
-These are editorial integrity checks. They do not certify every rules interaction,
-class balance, or whether players will enjoy the options. No combat simulations
-were run, and no old card data was imported into this catalog.
+## Still worth exploring
+
+Mounted companions and permanent pet advancement need their own decisions.
+A full bestiary, economy, rare recipes and more cultural voices remain future
+writing. We have broad character coverage, not every fantasy ever published.
+First review the promises and scenes in the paths, then remove or improve anything
+that still feels like filler. More cards are useful only when they create choices.

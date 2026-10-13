@@ -1,24 +1,23 @@
 # Stabilize
 
-- **ID:** stabilize
-- **Status:** Agreed foundation; any proposal is identified in the effect.
-- **Type:** Universal
-- **Tier / minimum level:** Universal
-- **DP:** Not purchased
-- **Requirements to learn:** None
-- **Action:** Maneuver
-- **Attribute:** None — no roll
-- **Target / range / shape:** One adjacent Dying player character
-- **Duration:** Instant
-- **Limits:** Repeatable within the normal action economy.
-- **Equipment / acquisition:** None.
+**Action:** Maneuver · **Attribute:** None — no roll
 
-## Resolution
-
-| Weak | Standard | Strong |
-|---|---|---|
-| No roll; apply the effect. | No roll; apply the effect. | No roll; apply the effect. |
+**Target / range / shape:** One adjacent Dying player character
 
 Stabilize at 0 HP and clear death marks. No roll. This grants no HP, removes no wound, and does not restore Grit. Taking damage while stable enters Dying again.
+
+**Duration:** Instant
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** Universal · **DP:** Not purchased · **Requirements to learn:** None
+
+**Type:** Universal
+
+**Limits:** Repeatable within the normal action economy.
+
+**ID:** stabilize · **Status:** Agreed foundation; any proposal is identified in the effect.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

@@ -2,25 +2,28 @@
 
 *Their breath hangs motionless as winter takes hold.*
 
-- **ID:** winter-hold
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Magic / Attack
-- **Tier / minimum level:** 7
-- **DP:** 8
-- **Requirements to learn:** Frost 3
-- **Action:** Main Action
-- **Attribute:** Knowledge
-- **Target / range / shape:** One visible creature within 5 squares
-- **Duration:** Instant
-- **Limits:** Repeatable within the normal action economy.
-- **Equipment / acquisition:** None.
+**Action:** Main Action · **Attribute:** Knowledge
 
-## Resolution
-
-| Weak | Standard | Strong |
-|---|---|---|
-| 4 cold damage; Freezing 1. | 4 cold damage; Freezing 2. | 6 cold damage; Freezing 2 and Paralyzed 1. |
+**Target / range / shape:** One visible creature within 5 squares
 
 Proposed NPC defense attribute: Agility.
+
+- **Weak:** 4 cold damage; Freezing 1.
+- **Standard:** 4 cold damage; Freezing 2.
+- **Strong:** 6 cold damage; Freezing 2 and Paralyzed 1.
+
+**Duration:** Instant
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Frost 3
+
+**Type:** Magic / Attack
+
+**Limits:** Repeatable within the normal action economy.
+
+**ID:** winter-hold · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

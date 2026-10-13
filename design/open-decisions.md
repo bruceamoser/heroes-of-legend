@@ -30,3 +30,18 @@ First compare three character fantasies at level 1 using the worked examples.
 Then review one class’s three signature milestones, one magic discipline, and one
 noncombat specialist route. Use what we learn to edit the rest before final layout
 or a broad randomized build test. The objective is an appealing playable catalog.
+
+## After the fantasy-path expansion
+
+Review [the 36 paths](fantasy-paths.md) as character promises first. Especially:
+
+- Do the three nature paths feel distinct, and is form-changing satisfying without
+  another HP pool or a separate monster sheet?
+- Do the Knowledge, Guile and Reason combat techniques express different expertise?
+- Are the new culture and background voices broad enough to invite a personal story?
+- Do short-duration wards, counterspells and transformations justify their actions?
+- Does the alchemist have an appealing preparation/use rhythm? The new ordinary
+  potion recipe is a proposal, not an economy balance conclusion.
+
+This expansion deliberately adds no attribute advancement or generic “use your best
+attribute” rule. No path locks purchases to a class. New cards remain proposals.

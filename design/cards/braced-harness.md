@@ -1,24 +1,27 @@
 # Braced Harness
 
-- **ID:** braced-harness
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Skill
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Armor 1
-- **Action:** Reaction
-- **Attribute:** Fortitude
-- **Target / range / shape:** Self, when an effect would push or pull you
-- **Duration:** Instant
-- **Limits:** Repeatable within the normal action economy.
-- **Equipment / acquisition:** Requires armor.
+**Action:** Reaction · **Attribute:** Fortitude
 
-## Resolution
+**Target / range / shape:** Self, when an effect would push or pull you
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Reduce that displacement by 1 square. | Reduce it by 2 squares. | Reduce it by 3 squares. |
+Choose what you are trying to accomplish, then resolve the result below.
 
+- **Weak:** Reduce that displacement by 1 square.
+- **Standard:** Reduce it by 2 squares.
+- **Strong:** Reduce it by 3 squares.
 
+**Duration:** Instant
+
+**Equipment / acquisition:** Requires armor.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Armor 1
+
+**Type:** Skill
+
+**Limits:** Repeatable within the normal action economy.
+
+**ID:** braced-harness · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

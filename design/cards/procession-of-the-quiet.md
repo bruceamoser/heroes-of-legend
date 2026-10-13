@@ -1,0 +1,23 @@
+# Procession of the Quiet
+
+**Action:** Main Action · **Attribute:** None — no roll
+
+**Target / range / shape:** Two visible free squares within 3 squares.
+
+Call two bone porters, each HP 8, Speed 4, resistance 1 physical; each carries up to 2 Bulk. Main attack uses controller Knowledge, adjacent, physical 3/4/6. They may Move or Defend when commanded and are harmed by healing. Normal commands and tether; only one gets the immediate Main command. Last one scene. They wait for your command between turns.
+
+**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+
+**Equipment / acquisition:** No item needed unless named above.
+
+---
+
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Calling 3
+
+**Type:** Magic
+
+**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+
+**ID:** procession-of-the-quiet · **Status:** Proposal for Bruce’s review.
+
+[Build this character](../paths/bone-caller.md) · [Card conventions](../card-conventions.md)

@@ -1,15 +1,13 @@
-# Far Walker
+# Road in the Blood
 
-- **ID:** trait-human-far-walker
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Human; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*The horizon has never looked like a place to stop.*
 
-Base Speed +1.
+Base Speed +1. Long journeys remain ordinary travel; this creates no exhaustion rule.
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+**Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 
-[Ancestry](./human.md)
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-human-far-walker · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](human.md)

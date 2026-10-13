@@ -1,15 +1,13 @@
-# Small Passage
+# Under Their Noses
 
-- **ID:** trait-halfling-small-passage
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Halfling; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*The grand folk rarely remember to look beneath the table.*
 
-DA may allow passage through openings suited to your actual size; occupied-square rules still apply.
+You fit through openings the DA judges suitable for your actual small size, and gain 1 Boon to hiding behind ordinary furniture that plausibly conceals you. Standing creatures still block their squares; no free movement through enemies.
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+**Ancestry:** Halfling · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 
-[Ancestry](./halfling.md)
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-halfling-small-passage · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](halfling.md)

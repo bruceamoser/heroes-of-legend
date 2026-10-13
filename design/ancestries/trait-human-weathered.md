@@ -1,15 +1,13 @@
-# Weathered
+# Never Quite Finished
 
-- **ID:** trait-human-weathered
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Human; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*There is always one more person to help, one more hill to cross.*
 
-Maximum HP +1.
+Maximum HP +1. Describe the ordinary hardship that taught you to keep going.
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+**Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 
-[Ancestry](./human.md)
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-human-weathered · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](human.md)

@@ -1,5 +1,9 @@
 # Highland Holds
 
+The climb is long, the welcome warm, and every tool has a place by the hearth.
+
+*What did your neighbors trust you to carry?*
+
 **Type:** Culture. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
 
 - Wilderness 1 and [Forage Mountains](../cards/forage-mountains.md).

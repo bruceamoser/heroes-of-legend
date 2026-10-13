@@ -1,15 +1,13 @@
-# Deep Constitution
+# Stubborn as Bedrock
 
-- **ID:** trait-dwarf-deep-constitution
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Dwarf; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*Your ancestors did not dig a home from the mountain by yielding politely.*
 
-Maximum HP +1.
+Maximum HP +1. Gain no additional resistance from this trait.
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+**Ancestry:** Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 
-[Ancestry](./dwarf.md)
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-dwarf-deep-constitution · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](dwarf.md)

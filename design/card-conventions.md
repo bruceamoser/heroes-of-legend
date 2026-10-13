@@ -12,8 +12,8 @@ only the class and level. Ordinary items and ancestry traits are not DP abilitie
 
 Declare a card before rolling. Roll 3d6 plus its one printed attribute with the
 normal Boon/Bane rules. No skill bonus, weapon damage die or extra attribute damage.
-A no-roll card applies its effect; the repeated table cells do not ask for three rolls.
-References saying “see the effect” have their full resolution immediately below.
+A no-roll card simply does what it says. Rolled cards give their Weak, Standard
+and Strong results in the text; a shared 1/2/3 progression always follows that order.
 
 Range uses squares. “Adjacent” means within one square with an actual accessible
 path. Visible targets still require an attack path. A player area/multitarget
@@ -68,3 +68,20 @@ record kinds rather than learned-card prerequisites.
 Printed layout later: numbered diamond top left, name top center, discipline icons
 top right. Type, action, range, outcomes, duration and limits remain visible. Color
 can support the tier but may never replace its number.
+
+## A different kind of expertise
+
+The attribute printed on the chosen card is the one you roll. Anatomy of an Opening
+makes Knowledge a way to fight; Smile Before Steel uses Guile; The Untroubled Hand
+uses Reason. They are distinct techniques, not permission to replace every attack’s
+attribute. When a card explicitly replaces a defense attribute, declare and pay its
+Reaction before rolling. No extra modifier is added.
+
+Beast forms keep your own HP, wounds and attributes; they are not disposable HP
+pools. Use the form’s printed actions and equipment restrictions. The new cards
+state how to enter and leave a form, so the table does not need a monster stat block.
+
+Noncombat cards should be read as things a person can do. Correct ordinary action
+still needs no roll when no consequence is at stake. An expert adds an opportunity,
+useful detail or reliability; owning the card is not a license for everyone else to
+stop thinking creatively.

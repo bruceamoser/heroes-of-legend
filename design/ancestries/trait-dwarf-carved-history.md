@@ -1,15 +1,13 @@
-# Carved History
+# A Grudge Well Kept
 
-- **ID:** trait-dwarf-carved-history
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Dwarf; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*You remember who struck first. You intend them to remember what followed.*
 
-Describe visible clan or personal markings; flavor only, no automatic social response.
+Once per combat, after a creature damages you, gain 1 Boon to your next attack against it before the end of your next turn. Choose whether to invoke the trait when the damage occurs. No damage bonus or extra attack.
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+**Ancestry:** Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 
-[Ancestry](./dwarf.md)
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-dwarf-carved-history · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](dwarf.md)

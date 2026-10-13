@@ -2,25 +2,28 @@
 
 *Throw open an invisible furnace and let the heat shove them back.*
 
-- **ID:** furnace-sweep
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Magic / Attack
-- **Tier / minimum level:** 3
-- **DP:** 4
-- **Requirements to learn:** Flame 2
-- **Action:** Main Action
-- **Attribute:** Knowledge
-- **Target / range / shape:** A 3-wide, 2-deep rectangle extending ahead from your square
-- **Duration:** Instant
-- **Limits:** Repeatable within the normal action economy.
-- **Equipment / acquisition:** None.
+**Action:** Main Action · **Attribute:** Knowledge
 
-## Resolution
-
-| Weak | Standard | Strong |
-|---|---|---|
-| 3 fire damage. | 3 fire damage; push 1 away from caster. | 5 fire damage; push 2 and Burning 1. |
+**Target / range / shape:** A 3-wide, 2-deep rectangle extending ahead from your square
 
 One player roll uses the worst applicable net Boon/Bane situation. Areas include allies unless explicitly excluded; selected targets may exclude allies. NPC attacks give each affected player its defense roll. Proposed NPC defense attribute: Agility.
+
+- **Weak:** 3 fire damage.
+- **Standard:** 3 fire damage; push 1 away from caster.
+- **Strong:** 5 fire damage; push 2 and Burning 1.
+
+**Duration:** Instant
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Flame 2
+
+**Type:** Magic / Attack
+
+**Limits:** Repeatable within the normal action economy.
+
+**ID:** furnace-sweep · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

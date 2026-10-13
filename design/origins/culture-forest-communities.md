@@ -1,5 +1,9 @@
 # Forest Communities
 
+Paths change with the season, and your neighbors know the trees by more than their timber.
+
+*Which tree marks the way home?*
+
 **Type:** Culture. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
 
 - Wilderness 1 and [Forage Woodland](../cards/forage-woodland.md).

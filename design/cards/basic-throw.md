@@ -1,24 +1,27 @@
 # Basic Throw
 
-- **ID:** basic-throw
-- **Status:** Agreed universal permission; damage and ranged distances are proposals.
-- **Type:** Attack
-- **Tier / minimum level:** Universal
-- **DP:** Not purchased
-- **Requirements to learn:** None
-- **Action:** Main Action
-- **Attribute:** Brawn
-- **Target / range / shape:** One visible creature within 3 squares
-- **Duration:** Instant
-- **Limits:** Repeatable within the normal action economy.
-- **Equipment / acquisition:** Requires a suitable carried object; grants none. The thrown object lands in the target square.
+**Action:** Main Action · **Attribute:** Brawn
 
-## Resolution
+**Target / range / shape:** One visible creature within 3 squares
 
-| Weak | Standard | Strong |
-|---|---|---|
-| 2 physical damage. | 3 physical damage. | 5 physical damage. |
+Choose your target and make the attack.
 
+- **Weak:** 2 physical damage.
+- **Standard:** 3 physical damage.
+- **Strong:** 5 physical damage.
 
+**Duration:** Instant
+
+**Equipment / acquisition:** Requires a suitable carried object; grants none. The thrown object lands in the target square.
+
+---
+
+**Tier / minimum level:** Universal · **DP:** Not purchased · **Requirements to learn:** None
+
+**Type:** Attack
+
+**Limits:** Repeatable within the normal action economy.
+
+**ID:** basic-throw · **Status:** Agreed universal permission; damage and ranged distances are proposals.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

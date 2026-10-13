@@ -38,3 +38,25 @@ This was targeted reading, not an exhaustive review of the library. The actual
 passages above support the stated design lessons. Broader claims about the three
 systems’ comparative balance are not made here. Later authoring can use the library
 for specific missing fantasies instead of adapting entire catalogs wholesale.
+
+## Fantasy-path expansion — October 12
+
+The [D&D class overview](https://www.dndbeyond.com/sources/dnd/br-2024/character-classes)
+was used as a coverage check for the twelve core class families. The path map
+contrasts recognizable subclass directions: beast-changing versus land magic,
+warrior versus scholar, shadow versus open-handed discipline, and protective versus
+pursuing devotion. These are HOL design interpretations, not feature conversions.
+Rune warriors, alchemists and other broader fantasy additions are labeled as such;
+this is not a claim that every named inspiration appeared in that public overview.
+
+The local **Symbaroum Core Rulebook**, at
+`Books/08-Warhammer-and-Grimdark/Symbaroum/Symbaroum_-_Core_Rulebook_(10538764).pdf`,
+was read at indexed PDF page 124 (printed 123), specifically **Tactician**. Its
+scholarly combat approach demonstrates that intelligence can be a practiced way of
+fighting and defending. HOL expresses that through specific cards with Knowledge
+or Reason printed on them, rather than importing Symbaroum’s attribute scale,
+initiative procedure or ability progression. No source ability text was copied.
+
+The research prompts a practical writing question: what can this character do that
+makes someone at the table say, “I want to play that”? The new paths are our answer
+in draft form, not an assertion that mechanical resemblance alone captures a game.

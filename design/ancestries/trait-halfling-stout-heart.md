@@ -1,15 +1,13 @@
-# Stout Heart
+# Bigger on the Inside
 
-- **ID:** trait-halfling-stout-heart
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Halfling; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*Your knees may shake. Your friends will never see you leave them.*
 
-Gain 1 Boon to rolls affected by Frightened; cancel Banes normally, not immunity.
+Gain 1 Boon to rolls affected by Frightened. Resolve the Boon and Banes normally; you are not immune to fear.
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+**Ancestry:** Halfling · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 
-[Ancestry](./halfling.md)
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-halfling-stout-heart · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](halfling.md)

@@ -2,8 +2,8 @@
 
 - **ID:** recipe-travel-food
 - **Status:** Proposal — ordinary recipe
-- **Permission:** Trail Workshop; the recipe alone grants no crafting permission
-- **Tools:** Craft tools
+- **Permission:** Trail Workshop, Make Something Useful, or a mixing card that explicitly grants this recipe; the recipe alone grants no crafting permission
+- **Tools:** Craft tools or the granting card’s mixing kit
 - **Materials per attempt:** Safe edible forage, obtained in the scene or one compatible carried bundle use
 - **Time per attempt:** One hour
 - **Result:** Inventory supply, maximum d8

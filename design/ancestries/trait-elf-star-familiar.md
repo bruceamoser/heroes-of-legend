@@ -1,15 +1,13 @@
-# Star Familiar
+# Dream beneath the Stars
 
-- **ID:** trait-elf-star-familiar
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Elf; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*Your body rests while part of you walks old paths.*
 
-Recognize familiar constellations and seasons without a roll when visible; unfamiliar skies need ordinary judgment.
+You may rest in a quiet waking reverie instead of sleeping, remaining aware of nearby ordinary sights and sounds. It grants no automatic detection, extra downtime work, shorter treatment interval or Grit recovery. Magical Asleep still works normally.
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+**Ancestry:** Elf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
 
-[Ancestry](./elf.md)
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-elf-star-familiar · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](elf.md)
