@@ -17,7 +17,7 @@ Your ancestors appear at the places where your friends need them. Give one compa
 ## Give it room to grow
 
 - At level 3, [Circle of Old Names](../cards/circle-of-old-names.md) (Calling 2 and Guard 1) opens another way to affect the scene.
-- At level 7, [The Ancestors Stand](../cards/the-ancestors-stand.md) (Calling 3 and Guard 1) offers a larger moment.
+- At level 7, [Summon Spirit — Master](../cards/the-ancestors-stand.md) (Calling 3 and Guard 1) offers a larger moment.
 
 These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Grave Warden](grave-warden.md). The roles describe what you enjoy,

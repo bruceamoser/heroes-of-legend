@@ -39,12 +39,12 @@ Tell a Worthy Story (2). Spend 12; 1 DP expires. HP is now **17**.
 
 Level 1: choose Scholarship 1 and Calling 1, no duplicates. Choose Bent Trajectory
 as the free signature. Buy Read the Remains (2), Identify an Enchantment (2),
-Wilderness 1 at Foreign cost (3), Call a Burrower (2), and A Friend Beneath the Door (2).
-Spend 11; 2 expire. Calling 1 and Wilderness 1 both precede the burrower purchase. No items are implicitly granted by these spells.
+Wilderness 1 at Foreign cost (3), Summon Spirit — Novice (2), and A Friend Beneath the Door (2).
+Spend 11; 2 expire. Calling 1 qualifies the summon purchase; Wilderness remains a separate choice. No items are implicitly granted by these spells.
 
 Picture the moment: a tiny scout wriggles through a barred doorway while the caster
 asks the dying hearth who visited last. In combat, they bend a cinder around a nearby
-corner and send a burrower to drag an enemy out of position. No spell slots to hoard.
+corner and direct an eligible spirit once the bestiary supplies its profile. No spell slots to hoard.
 
 ## The traveler who makes things work
 
@@ -74,3 +74,6 @@ General Novice expertise gives characters useful choices without requiring a
 level-0 discipline purchase. Each example has a combat contribution and things
 to do beyond combat. These are hand-checked authoring examples, not an exhaustive
 build-validity test or evidence that the prices are balanced.
+
+Summoning entries now select eligible bestiary profiles; earlier embedded creature
+statistics are retired. Summon-dependent examples await those profiles.

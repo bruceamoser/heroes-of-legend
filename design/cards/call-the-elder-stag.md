@@ -1,27 +1,31 @@
-# Call the Elder Stag
+# Summon Animal — Master
 
-*You bow your head as luminous antlers rise through the mist.*
+*You whistle into the still air. An answering call comes closer, and the animal you called steps into the world beside you, waiting for your direction.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** One visible free square within 3 squares.
+**Target / range / shape:** One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.
 
-Call a luminous stag: HP 12, Speed 6, resistance 1 physical. Main attack uses controller Reason, adjacent, physical 4/5/7; Standard pushes 1, Strong pushes 2. Its commanded Maneuver can instead move one adjacent willing ally 1 square without provoking. Normal summon rules, immediate free Main command and 6-square tether apply; lasts one scene. Not a mount and has no independent actions.
+Choose one bestiary entry explicitly approved for **Animal summoning** with a minimum summoning tier no higher than **7**. Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.
 
-**Duration:** Until the scene ends, unless ended earlier as stated above.
+Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. **Without a command it does nothing:** no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.
 
-**Equipment / acquisition:** No item needed unless named above.
+The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply [Command a Summon](command-a-summon.md) and the [summoning reference](../rules/summoning.md).
+
+**Duration:** One scene; ends sooner if the summon reaches 0 HP or breaks its tether.
+
+**Equipment / acquisition:** No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Calling 3
 
-**Type:** Magic
+**Type:** Magic / Summoning
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Limits:** One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.
 
-**ID:** call-the-elder-stag · **Status:** Proposal for Bruce’s review.
+**ID:** call-the-elder-stag · **Status:** Agreed category/command direction; per-card duration, requirements and selection framework are proposals. Awaiting eligible bestiary profiles; not ready for balance simulation.
 
-[Build this character](../paths/beast-companion.md) · [Card conventions](../card-conventions.md)
+[Summoning review](../reviews/1164-summoning-review.md) · [Card conventions](../card-conventions.md)
