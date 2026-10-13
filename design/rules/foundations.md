@@ -29,7 +29,8 @@ movement. Main converts to Maneuver, Maneuver to movement; never upward.
 Player attacks use one attacker roll, even against a player. NPC attacks use the
 player’s defense roll. Strong defense receives Weak attack effects, Standard
 receives Standard, Weak receives Strong. The defense itself spends no Reaction.
-NPC-versus-NPC/summon resolution needs an explicit ruling before general automation.
+Players roll their controlled creatures’ printed attack and defense attributes.
+NPC-versus-NPC without a player controller still needs a DA procedure.
 
 Damage is fixed by the card. Apply the highest resistance of each matching type,
 cap 3; do not sum matching armor. Minimum 1 damage applies to the whole damaging
@@ -69,7 +70,7 @@ Grappled while Main is retained; rating 3 needs help. Attacks gain Boons equal t
 the actual target’s Grappled rating. Greater restriction applies when combined with
 Dazed, not their sum. Prone is binary. Hidden is universal, not observer-by-observer.
 
-Mixed permanent and temporary contributions still need a bookkeeping decision.
+A mixed permanent/temporary bookkeeping proposal is recorded in the full condition reference.
 Do not let a new temporary effect become permanent merely because another is starred.
 
 ## Summons, exploration and recovery
@@ -90,3 +91,7 @@ an explicit ability permits a different outcome; grapple/restraint can capture.
 
 [Recovery boundary](recovery.md) records what is preserved and what still needs a
 complete standalone reference before this draft is used without the agreed spec.
+
+[Latest perception, timing and movement decisions](session-resolution.md) supersede
+earlier timing notes. [Full conditions](conditions.md), [wounds](wounds.md), and
+[encounter calibration](encounters.md) complete the current working references.

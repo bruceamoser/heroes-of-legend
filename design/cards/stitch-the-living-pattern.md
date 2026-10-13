@@ -31,3 +31,9 @@ The Boon modifies an ordinary spell roll, not the spell’s HP cost or an invent
 **ID:** stitch-the-living-pattern · **Status:** Proposal for Bruce’s review; not balance-tested.
 
 [Design review](../reviews/1161-warden-and-healing.md) · [Card conventions](../card-conventions.md)
+
+**Offensive healing — latest agreement:** this spell may target an unwilling
+creature harmed by healing. Resolve it as an attack using its printed attribute,
+range, action and HP cost; the HP result becomes Life damage, without beneficial
+recovery riders. This is the explicit exception to willing-only targeting above.
+Use the creature’s printed defense when a player defends; no opposed second roll.

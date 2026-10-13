@@ -13,10 +13,10 @@ of five dice; retain the highest three, sort ascending, read as a three-digit re
 Only 666 reaches the 600 band. It gives Last Words: two rounds of speech only,
 then final death. Exceptional reversal abilities are not supplied casually here.
 
-Physical, Elemental, Mental, Radiant and Life/Necrotic wound tables have already
-been authored and reviewed. They are preserved as [the approved wound reference](../../playtest/wounds.md),
-not replaced by new wounds for this catalog. The next editorial pass can move that
-reviewed content intact after its treatment labels are reconciled.
+Physical, Elemental, Mental, Radiant and Life/Necrotic wound tables are now
+consolidated in the [fresh wound reference](wounds.md), copied from the approved
+working tables without changing their 280 results. Historical playtest files remain
+unchanged. [Conditions](conditions.md) supplies the full condition reference.
 
 Treatments require the correct capability. Each wound has a recovery value and
 states exactly which penalties completing treatment relieves. Weak/Standard/Strong
@@ -25,8 +25,8 @@ Scars and accumulated wound count remain. Lost parts require an explicit replace
 or exceptional remedy; generic treatment does not regrow them.
 
 Fresh treatment cards cover Soft Tissue, Bone, Mental, Elemental, Radiant and Life
-injury. Map the approved wound’s treatment label to these capabilities during the
-editorial audit; a similar-sounding ability is not automatically interchangeable.
+injury. The treatment label map below identifies the matching cards; similar-sounding
+abilities are not automatically interchangeable.
 
 ## Death and Grit procedure
 
@@ -42,3 +42,18 @@ pending death. Last Words ends in death at the end of the second following turn.
 
 This procedure is transcribed from the agreed survival reference, not designed
 from an old card. Ordinary potion/spell healing cannot reverse Last Words.
+
+## Treatment label map
+
+| Wound label | Required card |
+|---|---|
+| Soft Tissue | [Treat Soft Tissue](../cards/treat-soft-tissue.md) |
+| Bone | [Treat Bone](../cards/treat-bone.md) |
+| Mental | [Treat Mental Trauma](../cards/treat-mental-trauma.md) |
+| Elemental | [Treat Elemental Injury](../cards/treat-elemental-injury.md) |
+| Radiant | [Treat Radiant Injury](../cards/treat-radiant-injury.md) |
+| Life | [Treat Life Injury](../cards/treat-life-injury.md) |
+
+Each attempt takes the card’s hour, once per wound per day across all healers.
+Physical prostheses follow their recipe and actual remedy; no treatment regrows
+a limb or refunds the accumulated wound count.

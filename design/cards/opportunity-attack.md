@@ -8,7 +8,7 @@
 
 **Target / range / shape:** An adjacent creature triggering an opportunity
 
-Make Basic Melee only; no specialty card. Leaving reach voluntarily provokes; casting, standing, stowing and retrieving are intended triggers. Exact interruption timing remains a decision for review. Forced movement does not provoke.
+Make Basic Melee only; no specialty card. Leaving reach voluntarily provokes; casting, standing, stowing and retrieving are intended triggers. The start of the provoking action interrupts it: resolve this attack first, then continue the original action if the actor remains capable. Damage alone does not cancel it. Forced movement does not provoke.
 
 Each granted Basic Melee attack uses its attacker’s Brawn and Basic Melee outcomes; this card adds no separate roll beyond any roll it explicitly requires.
 
