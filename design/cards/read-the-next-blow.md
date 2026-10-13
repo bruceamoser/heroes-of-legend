@@ -10,7 +10,7 @@
 
 Predict the line of a blow you can see. Use Reason instead of the attack’s printed defense attribute for this defense only. This cannot replace resistance to poison, cold, mental intrusion or another internal threat.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +20,7 @@ Predict the line of a blow you can see. Use Reason instead of the attack’s pri
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** read-the-next-blow · **Status:** Proposal for Bruce’s review.
 

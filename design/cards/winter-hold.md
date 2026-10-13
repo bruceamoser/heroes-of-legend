@@ -1,6 +1,6 @@
 # Winter Hold
 
-*Their breath hangs motionless as winter takes hold.*
+*You close your hand slowly. Frost thickens around your enemy’s limbs as they struggle to keep moving.*
 
 ## Rules
 
@@ -24,7 +24,7 @@ Proposed NPC defense attribute: Agility.
 
 **Type:** Magic / Attack
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** winter-hold · **Status:** Proposal — fresh design; not approved or balance-tested.
 

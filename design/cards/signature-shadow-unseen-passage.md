@@ -1,27 +1,31 @@
 # Unseen Passage
 
-*You let your outline fade until the light seems to pass through the place you stand.*
+*You draw the surrounding shadow across your body like a cloak and slip away while your outline fades from sight.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self.
 
-Become Invisible until the start of your next turn. No automatic Hidden; noise and physical presence remain. Magic signature, no discipline gate.
+Shroud yourself from sight, then move up to 3 squares without provoking. Until the end of your next turn, you cannot be selected as a visible target. Attacks that do not require seeing you and areas covering your square can still affect you. You remain solid and audible; this grants no passage through barriers or occupied squares.
 
-**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
+The shroud ends immediately after you make an attack, cast another spell or use a card on another creature. Your own movement does not end it. This card supplies its complete concealment effect; it does not require a separate Invisible condition or change anyone else’s detection rules.
+
+**Duration:** Until the end of your next turn, or immediately after an ending action.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shadow; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shadow; minimum level 7
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Magic / Utility / Movement
 
-**ID:** signature-shadow-unseen-passage · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-shadow-unseen-passage · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/shadow.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

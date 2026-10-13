@@ -1,27 +1,35 @@
 # Dance Through Steel
 
-*You pass from one opponent to the next without letting the rhythm break.*
+*You turn through the surrounding blades, strike each opening in a single flowing sequence and step out before the circle closes.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Agility
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Up to three distinct adjacent enemies.
 
-Make one Basic Melee attack against each of up to three distinct adjacent enemies. Roll once with the worst applicable Boon/Bane situation. These are granted free attacks for chaining restrictions; no specialty attacks.
+Choose the targets and roll Agility once using the least favorable net Boons/Banes among them.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+- **Weak:** Deal 4 physical damage to each.
+- **Standard:** Deal 4 physical damage to each; you may move up to 1 square without provoking afterward.
+- **Strong:** Deal 6 physical damage to each; you may move up to 2 squares without provoking afterward.
 
-**Equipment / acquisition:** None.
+This is one signature attack, not three free attacks. All targets are chosen before any movement.
+
+**Duration:** Damage and movement resolve immediately.
+
+**Equipment / acquisition:** Requires a melee weapon; grants one ordinary melee weapon, Bulk 1, if absent.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Blade; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Blade; minimum level 7
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Attack / Movement
 
-**ID:** signature-blade-dance-through-steel · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-blade-dance-through-steel · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

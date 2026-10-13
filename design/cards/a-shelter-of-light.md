@@ -10,7 +10,7 @@
 
 Hold your place beside them. Until the start of your next turn, that ally gains 1 Boon to defense while adjacent to you. You must remain able to act; this is one continuing benefit, not a new Boon on every use.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Until the start of your next turn, while the ally remains adjacent and you can act.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +20,7 @@ Hold your place beside them. Until the start of your next turn, that ally gains 
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-shelter-of-light · **Status:** Proposal for Bruce’s review.
 

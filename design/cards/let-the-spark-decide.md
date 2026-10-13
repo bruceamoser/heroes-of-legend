@@ -1,6 +1,6 @@
 # Let the Spark Decide
 
-*You can hold the magic. Choosing what it becomes is another matter.*
+*You snap your fingers and send a bright spark toward your target. At your gesture it blossoms into flame or scatters into a spray of frost, striking with a sudden shove.*
 
 ## Rules
 
@@ -8,13 +8,13 @@
 
 **Target / range / shape:** One visible creature within 5 squares.
 
-Let the spell find its own color. After resolving the outcome normally, if the lowest retained die is odd, damage is fire; if even, cold. No extra roll.
+Choose fire or cold before rolling. Make one Guile attack against the target.
 
-- **Weak:** 3 damage.
-- **Standard:** 3 damage and push 1 square.
-- **Strong:** 5 damage and push 2 squares.
+- **Weak:** Deal 3 damage of the chosen type.
+- **Standard:** Deal 3 damage of that type and push the target 1 square.
+- **Strong:** Deal 5 damage of that type and push the target 2 squares.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +24,7 @@ Let the spell find its own color. After resolving the outcome normally, if the l
 
 **Type:** Magic / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** let-the-spark-decide · **Status:** Proposal for Bruce’s review.
 

@@ -10,7 +10,7 @@
 
 Scales flare across your skin. Gain resistance 3 to one of those types for this event only, using the highest matching value. No stacking with armor.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +20,7 @@ Scales flare across your skin. Gain resistance 3 to one of those types for this 
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** scales-beneath-the-skin · **Status:** Proposal for Bruce’s review.
 

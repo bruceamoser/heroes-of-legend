@@ -10,6 +10,6 @@
 
 Life resistance 1 while worn. Reduces both Life damage and Life healing; minimum 1 still applies.
 
-Additive to the appropriate underlying card only. No DP purchase; found or bought for coins at a DA-set price. No special recipe is supplied by owning it.
+Apply this item’s printed benefit only; it grants no ability or action beyond what it states. No DP purchase; found or bought for coins at a DA-set price. No special recipe is supplied by owning it.
 
 [Equipment index](../equipment.md)

@@ -128,3 +128,94 @@ The new named abilities and specific requirement assignments remain proposals.
 Bruce also accepts the revised grant-only menu of up to 35 eligible unowned shared
 choices as useful breadth. Evaluate their distinctness and value rather than adding
 prerequisites solely to reduce the count.
+
+## Concrete language review
+
+**Bruce’s correction, October 13, 2026:** a narrative heading and an evocative slogan
+are insufficient. Describe what the character actually does and what becomes visible,
+audible or felt. “You reach for tomorrow’s sky” leaves the action unspecified. Reaching
+through a tear in the air, pulling out a clump of weather and tossing it onto the
+ground gives the player an action to imagine. Passive expertise may instead describe
+the practiced habit or observation that produces its benefit.
+
+Read the narrative independently of the title and rules. Could a player describe
+that action to the table? Does it suggest the effect this card actually supplies?
+Avoid replacing a specific action with a promise, maxim or mysterious metaphor.
+Sensory detail should make the action clearer; it should not imply an extra power.
+
+Read the rules in the order someone uses them: choose the target, meet requirements,
+pay the action/cost, make any roll, apply the result, then track its expiry. Explain
+unusual dice operations on the card. “Lowest retained die” is not sufficient: say
+which dice are examined after Boons/Banes and whether the printed numbers or modified
+total matter. Put separate effects in separate sentences or bullets. Show Weak,
+Standard and Strong rather than compressing a whole procedure into unexplained slashes.
+
+Finally, read every field against the card’s purpose. A swimming card must not carry
+a wound-treatment limit; an area card should say which creatures it affects rather
+than recite rules for unrelated target shapes. Structural checks cannot perform this
+editorial review, and passing them must not be presented as proof that wording is clear.
+
+## Table and VTT resolution
+
+**Review revision, October 13, 2026.** Read a card in this order: check permission
+and equipment, declare choices and targets, pay its action and costs, roll if called
+for, apply the complete outcome, then mark its duration. Choices of damage type
+are made before rolling; no ability in this revision inspects an individual die to
+select a second unrelated effect.
+
+A card's full activity time overrides its combat action label. Crafting and using
+a crafted supply are separate procedures. Do not reduce an hour of work to a Main
+Action because the action field uses that label for sorting.
+
+Outcome bullets are complete results, not cumulative instructions: apply only the
+rolled bullet. Where it says “also” or “both benefits,” apply those stated benefits
+as well. Instant damage happens once; numbered conditions then follow their own
+resolve-and-decay rules. A duration field never makes attack damage recur.
+
+For an area described as “within N squares,” every selected square must be in
+range. A connected placed area uses edge-sharing squares. Rectangles extend in a
+chosen grid direction from a square adjacent to the caster; choose their footprint
+before rolling. Include allies only where the card targets every creature. Resolve
+multiple displacements in an order the acting player chooses, using the shared
+collision rules; unresolved moving-group geometry remains a DA ruling.
+
+Use the character's existing roll for a reaction that modifies that roll. A card
+which grants Basic Melee directs its recipient to the Basic Melee card; “no separate
+roll” never makes the granted attack automatic Strong. A player attack still gets
+one roll and never causes a second player defense roll.
+
+A Boon to defense against forced movement applies to an attack's ordinary defense
+if that attack can move the defender. It never creates an extra defense against
+no-roll displacement. Cards that depend on a defense roll do nothing when the
+normal player-attacker rule supplies no such roll.
+
+VTT records should store action, full time, attribute or delegated roll, targets,
+range, shape, choices, outcomes, equipment, cost, condition rating, duration anchor,
+and use limit separately. Track a continuing benefit as one effect with its stated
+expiry, not a fresh bonus every time the token is selected. Narrative, physical
+plausibility, willing participation and DA judgments stay visible to the people
+playing; do not turn them into extra automated saves.
+
+## Class signature standard
+
+**Agreed:** signatures define their class and are slightly more powerful than shared
+cards at the same tier. Give each choice a useful, recognizable advantage: better
+action efficiency, reliability, scope, positioning or a distinctive permission.
+A vivid name alone does not establish that advantage. Compare the whole procedure,
+including costs, targets and limits, rather than only damage.
+
+Each milestone offers independent choices. Require only class and minimum level;
+never require an earlier signature. All learned signatures remain available, so
+review combinations of purchased passives as well as individual cards.
+
+The [signature review](reviews/1153-signature-review.md) and its comparison ledger
+document the proposed implementation. Signature records retain Type: Signature
+and use Tags for their functional roles; action cost remains a separate field.
+
+## Focused Maneuver development
+
+**Agreed direction:** use Maneuvers for special positioning, setup and support.
+Keep ordinary movement simple; do not introduce movement-priced ability activations
+or add variable-cost/conversion cards merely to fill a catalog category. The
+[shared Maneuver pass](reviews/1157-shared-maneuvers.md) implements this direction
+with proposed independent options across all three tiers.

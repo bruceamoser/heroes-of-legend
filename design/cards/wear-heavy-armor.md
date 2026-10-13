@@ -20,7 +20,7 @@ While wearing the trained armor, physical resistance 3. No lower-tier training p
 
 **Type:** Training / Passive
 
-**Limits:** Once per level for Conditioned Body; once ever for each other card.
+**Limits:** Purchase once.
 
 **ID:** wear-heavy-armor · **Status:** Proposal — fresh design; not approved or balance-tested.
 

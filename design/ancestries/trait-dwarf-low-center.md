@@ -1,6 +1,6 @@
 # Rooted in Stone
 
-*Let the storm waste its strength on you.*
+*You spread your boots against the stone and lean into the approaching shove.*
 
 ## Rules
 

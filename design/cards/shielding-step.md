@@ -6,9 +6,9 @@
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** An adjacent willing ally, before an attack resolves
+**Target / range / shape:** One adjacent willing ally, after a single-target attack is declared but before its roll.
 
-Become the target if legal.
+While holding a shield, replace the ally as the target if you meet the attack’s range and targeting requirements. Resolve that attack against you once, using your defense if one is called for. The ally takes none of this attack’s effects. You do not move; this cannot redirect an area attack.
 
 **Duration:** Instant
 
@@ -18,9 +18,9 @@ Become the target if legal.
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Guard 1
 
-**Type:** Skill
+**Type:** Skill / Defense
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** shielding-step · **Status:** Proposal — fresh design; not approved or balance-tested.
 

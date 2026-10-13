@@ -1,6 +1,6 @@
 # Return to Strength
 
-*Life surges from you into a friend who was almost lost.*
+*You reach toward your injured companion and send a surge of warmth into their body. Their breathing strengthens as your own knees briefly weaken.*
 
 ## Rules
 
@@ -24,7 +24,7 @@ Moser’s law of conservation of Life energy: pay 7 HP before rolling; bypass re
 
 **Type:** Magic / Recovery
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** return-to-strength · **Status:** Proposal — fresh design; not approved or balance-tested.
 

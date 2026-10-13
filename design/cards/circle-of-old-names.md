@@ -10,7 +10,7 @@
 
 Call the names of those who kept you safe. Until the start of your next turn, these allies gain 1 Boon to defense against forced movement and may reduce temporary Frightened by 1 immediately.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Remove Frightened immediately; the defensive Boon lasts until the start of your next turn.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +20,7 @@ Call the names of those who kept you safe. Until the start of your next turn, th
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** circle-of-old-names · **Status:** Proposal for Bruce’s review.
 

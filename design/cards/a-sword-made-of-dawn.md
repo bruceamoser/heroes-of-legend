@@ -12,9 +12,9 @@ Extend a blade of fire from your held melee weapon. This card supplies its reach
 
 - **Weak:** 4 fire damage.
 - **Standard:** 4 fire damage and push 2 squares.
-- **Strong:** 6 fire damage and Burning 2.
+- **Strong:** 6 fire damage, push 2 squares and Burning 2.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -24,7 +24,7 @@ Extend a blade of fire from your held melee weapon. This card supplies its reach
 
 **Type:** Magic / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-sword-made-of-dawn · **Status:** Proposal for Bruce’s review.
 

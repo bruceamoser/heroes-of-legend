@@ -4,13 +4,19 @@
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Knowledge
 
-**Target / range / shape:** Three contiguous visible unoccupied squares within 5 squares
+**Target / range / shape:** Up to 3/5/7 connected visible unoccupied ground squares, each within 5 squares.
 
-Create difficult terrain in up to three contiguous visible unoccupied squares within 5 squares. The terrain lasts until the start of your next turn. It causes no automatic damage, Prone or repeated entry effect and cannot form inside a creature. No roll.
+Roll Knowledge, then cover up to the indicated number of squares with ice. Place one connected area, with squares joined along their edges.
 
-**Duration:** Until the start of your next turn
+- **Weak:** 3 squares.
+- **Standard:** 5 squares.
+- **Strong:** 7 squares.
+
+The squares are difficult terrain until the end of your next turn. They deal no damage and do not automatically knock creatures prone.
+
+**Duration:** Until the end of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -18,9 +24,9 @@ Create difficult terrain in up to three contiguous visible unoccupied squares wi
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Frost 2
 
-**Type:** Magic
+**Type:** Magic / Control
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** icebound-path · **Status:** Proposal — fresh design; not approved or balance-tested.
 

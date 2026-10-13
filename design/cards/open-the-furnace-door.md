@@ -8,13 +8,13 @@
 
 **Target / range / shape:** Every creature in a 3-wide, 2-deep rectangle immediately ahead of you.
 
-A furnace door opens for a heartbeat. One roll at the worst applicable situation; allies are included.
+A furnace door opens for a heartbeat. Include allies in the area. Work out each target’s net Boons or Banes; make one roll using the combination least favorable to you and apply it to all targets.
 
 - **Weak:** 4 fire damage and push 1.
 - **Standard:** 4 fire damage and push 2.
 - **Strong:** 6 fire damage, push 2 and Frightened 1 of you.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +24,7 @@ A furnace door opens for a heartbeat. One roll at the worst applicable situation
 
 **Type:** Magic / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** open-the-furnace-door · **Status:** Proposal for Bruce’s review.
 

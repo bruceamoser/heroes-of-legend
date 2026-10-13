@@ -1,6 +1,6 @@
 # Walk the Thunder
 
-*You take three impossible strides, trusting the rushing air to carry each one to the next.*
+*You run along the wall or skim the shallow water, planting each foot as a gust catches beneath it, then step back onto solid ground.*
 
 ## Rules
 
@@ -10,7 +10,7 @@
 
 Run up to 3 squares along a wall or over shallow water; finish on ground that supports you. This movement does not provoke. If no legal endpoint exists, do not begin.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +20,7 @@ Run up to 3 squares along a wall or over shallow water; finish on ground that su
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** walk-the-thunder · **Status:** Proposal for Bruce’s review.
 

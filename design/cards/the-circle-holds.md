@@ -10,7 +10,7 @@
 
 Until the start of your next turn, each gains 1 Boon to defense against spells. The first forced movement against each is reduced by 2 squares. The ward is not physical cover and does not stack with another same-kind movement reduction.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Until the start of your next turn; each movement reduction is used once.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -18,9 +18,9 @@ Until the start of your next turn, each gains 1 Boon to defense against spells. 
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Guard 3
 
-**Type:** Skill
+**Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-circle-holds · **Status:** Proposal for Bruce’s review.
 

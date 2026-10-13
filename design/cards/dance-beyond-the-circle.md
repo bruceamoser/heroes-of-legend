@@ -6,11 +6,11 @@
 
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** Two willing creatures within 4 squares, including yourself.
+**Target / range / shape:** Two willing creatures within 4 squares, either of which may be yourself.
 
 Exchange their positions by teleportation. Both must be visible and each destination must fit its new occupant. No damage or attacks are granted; the movement does not provoke.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +20,7 @@ Exchange their positions by teleportation. Both must be visible and each destina
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** dance-beyond-the-circle · **Status:** Proposal for Bruce’s review.
 

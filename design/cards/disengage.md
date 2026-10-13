@@ -20,7 +20,7 @@ Your voluntary movement does not provoke opportunity attacks for the rest of thi
 
 **Type:** Universal
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** disengage · **Status:** Agreed foundation; any proposal is identified in the effect.
 

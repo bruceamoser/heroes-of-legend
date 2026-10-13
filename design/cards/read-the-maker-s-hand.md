@@ -6,6 +6,8 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
+**Time:** Ten minutes handling the object.
+
 **Target / range / shape:** An ordinary object you can handle for ten minutes.
 
 Recognize its ordinary materials and one visible construction method without a roll. When crafting a known ordinary recipe, you may reuse a suitable component from this object in place of the matching ordinary material; the component is consumed or incorporated. DA determines suitability. This grants no recipe, crafting permission, extra attempt or special material.

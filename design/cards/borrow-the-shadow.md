@@ -1,6 +1,6 @@
 # Borrow the Shadow
 
-*For one heartbeat, their shadow has an extra pair of footsteps.*
+*You wait for someone to pass the concealment, then follow close behind their movement and slip into the hidden space they leave beside them.*
 
 ## Rules
 
@@ -20,7 +20,7 @@ After the triggering creature finishes its movement, move up to your Speed along
 
 **Type:** Skill / Utility
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** borrow-the-shadow · **Status:** Proposal — fresh design; not approved or balance-tested.
 

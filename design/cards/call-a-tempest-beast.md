@@ -1,6 +1,6 @@
 # Call a Tempest Beast
 
-*You call into the wind and hear a wild answer gathering inside the thunder.*
+*You raise both arms into the wind. Air coils into a beast’s outline beside you, its limbs flickering with lightning as it turns toward your command.*
 
 ## Rules
 
@@ -20,7 +20,7 @@ Creature: HP 12, Speed 6, resistance 0. Its Main attack affects one adjacent cre
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** call-a-tempest-beast · **Status:** Proposal — fresh design; not approved or balance-tested.
 

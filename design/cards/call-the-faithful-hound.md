@@ -1,6 +1,6 @@
 # Call the Faithful Hound
 
-*You know the meaning of that lowered head before anyone else moves.*
+*You whistle and hold out your hand. A hound-shaped spirit pads into view, touches its nose to your fingers and lowers its head to the trail.*
 
 ## Rules
 
@@ -20,7 +20,7 @@ Call a hound-shaped spirit: HP 6, Speed 5, resistance 0. Main attack uses contro
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** call-the-faithful-hound · **Status:** Proposal for Bruce’s review.
 

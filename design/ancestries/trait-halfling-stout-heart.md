@@ -1,6 +1,6 @@
 # Bigger on the Inside
 
-*Your knees may shake. Your friends will never see you leave them.*
+*You swallow, glance at the friends beside you and step forward even while your knees shake.*
 
 ## Rules
 

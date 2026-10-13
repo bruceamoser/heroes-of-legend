@@ -1,6 +1,6 @@
 # Swing into Trouble
 
-*The chandelier was never just decoration.*
+*You seize the hanging rope, kick away from your support and swing toward the landing, ready to shoulder aside anyone standing beside it.*
 
 ## Rules
 
@@ -24,7 +24,7 @@ Requires an actual usable support. No automatic extra attack. If the rolled dist
 
 **Type:** Skill / Utility
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** swing-into-trouble · **Status:** Proposal — fresh design; not approved or balance-tested.
 

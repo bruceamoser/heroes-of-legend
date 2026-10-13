@@ -1,6 +1,6 @@
 # A Verse for Courage
 
-*You know the verse that makes people remember who they wanted to be.*
+*You sing the familiar verse just loud enough for your companion to hear. Their shoulders straighten as they turn back to the task.*
 
 ## Rules
 
@@ -20,7 +20,7 @@ Give the ally a line worth living up to. It gains 1 Boon to its next roll before
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-verse-for-courage · **Status:** Proposal for Bruce’s review.
 

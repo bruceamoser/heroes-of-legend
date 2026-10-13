@@ -1,27 +1,29 @@
 # Bring Them Near
 
-*You reach toward your wounded companion, showing them the way back to you.*
+*You reach toward your companion as the blow lands, calling them back along the safe route you can see.*
 
 ## Rules
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One willing ally within 4 squares, after it takes damage.
 
-After an ally within 3 squares takes damage, it may move 2 squares toward you without provoking if able to move.
+If still able to move, the ally may move up to 3 squares toward you without provoking. If it ends adjacent to you, it gains 1 Boon to its next defense before the start of your next turn. The attack already resolved; this does not undo its damage or move a Dying or restrained creature.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Movement is immediate; Boon expires when used or the start of your next turn.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Shepherd; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Shepherd; minimum level 3
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Movement / Defense
 
-**ID:** signature-shepherd-bring-them-near · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-shepherd-bring-them-near · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

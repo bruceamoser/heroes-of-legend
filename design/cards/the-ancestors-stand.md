@@ -20,7 +20,7 @@ Call three ancestor shades, each HP 1, Speed 4, no resistance and no attack. The
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-ancestors-stand · **Status:** Proposal for Bruce’s review.
 

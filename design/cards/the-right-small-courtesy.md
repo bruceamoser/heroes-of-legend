@@ -6,6 +6,8 @@
 
 **Action:** Passive · **Attribute:** None — no roll
 
+**Time:** Ten minutes of observation.
+
 **Target / range / shape:** A gathering you can observe for ten minutes.
 
 Learn one local courtesy actually demonstrated during your observation and whom it is appropriate to address first, if evident. No roll. Once in this gathering, gain 1 Boon to a Guile roll seeking hospitality or an introduction when you use that courtesy. You need a way to communicate; this grants neither a language nor friendship.

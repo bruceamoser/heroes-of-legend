@@ -1,6 +1,6 @@
 # Borrow a Voice
 
-*The guard hears his name from the empty stairwell.*
+*You whisper into your cupped hand and cast the sound toward the empty stairwell. Your words emerge from the place you point to.*
 
 ## Rules
 
@@ -24,7 +24,7 @@ Lasts only long enough to deliver the sound. No mind control or automatic decept
 
 **Type:** Magic / Utility
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** borrow-a-voice · **Status:** Proposal — fresh design; not approved or balance-tested.
 

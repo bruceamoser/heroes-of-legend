@@ -1,6 +1,6 @@
 # A Friend Beneath the Door
 
-*Something with bright eyes and improbable whiskers answers.*
+*You crouch and beckon with two fingers. A tiny whiskered creature appears beside you and noses toward the gap under the door.*
 
 ## Rules
 
@@ -20,7 +20,7 @@ HP 1, Speed 4, resistance 0, no attack. May pass small openings appropriate to i
 
 **Type:** Magic / Utility
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-friend-beneath-the-door · **Status:** Proposal — fresh design; not approved or balance-tested.
 

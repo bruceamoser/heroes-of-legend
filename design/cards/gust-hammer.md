@@ -1,6 +1,6 @@
 # Gust Hammer
 
-*Strike with a wall of wind, sending the enemy tumbling away.*
+*You thrust your palm forward. A compressed rush of air strikes your enemy squarely and drives them backward.*
 
 ## Rules
 
@@ -24,7 +24,7 @@ Proposed NPC defense attribute: Fortitude.
 
 **Type:** Magic / Attack
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** gust-hammer · **Status:** Proposal — fresh design; not approved or balance-tested.
 

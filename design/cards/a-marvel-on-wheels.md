@@ -1,6 +1,6 @@
 # A Marvel on Wheels
 
-*You unfold your contraption with a clatter and a grin. This time, you are quite sure it will work.*
+*You set your folded contraption on the ground and pull its handle. Wheels snap outward, the launcher kicks, and its shot slams toward your target before the frame folds shut again.*
 
 ## Rules
 
@@ -14,7 +14,7 @@ Unfold a wheeled launcher you learned to build; reusable, Bulk 1, granted if abs
 - **Standard:** 4 physical damage and push 2.
 - **Strong:** 6 physical damage and push 3.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +24,7 @@ Unfold a wheeled launcher you learned to build; reusable, Bulk 1, granted if abs
 
 **Type:** Skill / Attack / Crafting
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-marvel-on-wheels · **Status:** Proposal for Bruce’s review.
 

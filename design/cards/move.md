@@ -20,7 +20,7 @@ Spend up to Speed in movement squares, split around your actions. Normal terrain
 
 **Type:** Universal
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** move · **Status:** Agreed foundation; any proposal is identified in the effect.
 

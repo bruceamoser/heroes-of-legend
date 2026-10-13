@@ -1,6 +1,6 @@
 # A Door That Is Not There
 
-*The eye sees a doorway where you have left a question.*
+*You trace a doorframe in the air. An image of weathered wood and an iron latch settles into the space, convincing until a hand passes through it.*
 
 ## Rules
 
@@ -24,7 +24,7 @@ Place a silent, flat illusion of a door, window, screen or similar scene feature
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-door-that-is-not-there · **Status:** Proposal for Bruce’s review.
 

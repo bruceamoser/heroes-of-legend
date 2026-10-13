@@ -1,6 +1,6 @@
 # Name the Reckoning
 
-*You made a promise. Running will not release them from it.*
+*You point your weapon at your quarry, speak the promise that brought you here, and strike as you step into their path.*
 
 ## Rules
 
@@ -14,7 +14,7 @@ Tell them why you came as you make a melee attack. Your certainty, not your stre
 - **Standard:** 3 physical damage; mark it as your quarry until the end of your next turn.
 - **Strong:** 5 physical damage; mark it and move 1 square toward it without provoking.
 
-**Duration:** Weak: until the start of your next turn. Standard/Strong: until the end of your next turn.
+**Duration:** Damage and movement are immediate; the quarry mark lasts until the end of your next turn.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -24,7 +24,7 @@ Tell them why you came as you make a melee attack. Your certainty, not your stre
 
 **Type:** Skill / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** name-the-reckoning · **Status:** Proposal for Bruce’s review.
 

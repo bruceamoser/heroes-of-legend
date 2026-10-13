@@ -1,6 +1,6 @@
 # A Lifetime Ago
 
-*You remember when the old road was new.*
+*You pause beside the broken road and recall the voices of the people who laid its first stones.*
 
 ## Rules
 

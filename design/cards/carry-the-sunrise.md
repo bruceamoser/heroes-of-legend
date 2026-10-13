@@ -8,7 +8,7 @@
 
 **Target / range / shape:** Willing allies within 2 squares.
 
-Carry the light forward. Move up to 2 squares, then each willing ally initially in range may move up to 2 squares toward your new position without provoking. At their endpoints they gain 1 Boon to their next defense before the start of your next turn.
+Carry the light forward. Move up to 2 squares without provoking, then each willing ally initially in range may move up to 2 squares toward your new position without provoking. At their endpoints they gain 1 Boon to their next defense before the start of your next turn.
 
 **Duration:** Until the start of your next turn; a next-roll benefit ends when used.
 
@@ -20,7 +20,7 @@ Carry the light forward. Move up to 2 squares, then each willing ally initially 
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** carry-the-sunrise · **Status:** Proposal for Bruce’s review.
 

@@ -6,9 +6,11 @@
 
 **Action:** Main Action · **Attribute:** Guile
 
+**Time:** Four hours per attempt.
+
 **Target / range / shape:** An inhabited settlement where an illicit network could plausibly operate; four hours.
 
-Seek a willing contact for one specific clandestine service: an introduction, passage or a hiding place. The DA states available leads, stakes and a progress target before rolling. Completion finds a willing provider if one exists, not free service or guaranteed loyalty. The price and risk must be stated before you accept.
+Seek a willing contact for one specific clandestine service: an introduction, passage or a hiding place. The DA confirms a suitable provider could be found and states available leads, stakes and a progress target before rolling. Completion finds a willing provider if one exists, not free service or guaranteed loyalty. The price and risk must be stated before you accept.
 
 - **Weak:** 1 progress; learn one local sign or custom actually used by the network.
 - **Standard:** 2 progress; also learn one requirement a potential contact publicly or privately communicates.

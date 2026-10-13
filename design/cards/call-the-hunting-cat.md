@@ -20,7 +20,7 @@ Call a hunting cat: HP 8, Speed 6, resistance 0. Main attack uses controller Gui
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** call-the-hunting-cat · **Status:** Proposal for Bruce’s review.
 

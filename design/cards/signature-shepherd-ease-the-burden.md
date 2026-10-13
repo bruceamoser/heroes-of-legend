@@ -1,27 +1,35 @@
 # Ease the Burden
 
-*You offer warmth enough to soften the fear as well as the hurt.*
+*You kneel close, steady the trembling hands or bind the hurt, and talk your companion through the next breath.*
 
 ## Rules
 
-**Action:** Passive · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Reason
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** Self or one adjacent willing creature.
 
-A Strong healing spell also reduces temporary Frightened on its recipient by 1.
+Choose one temporary condition on the target: Bleeding, Frightened or Poisoned. Reduce only that condition, minimum 0.
 
-**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
+- **Weak:** Reduce it by 1.
+- **Standard:** Reduce it by 2.
+- **Strong:** Reduce it by 3; the target may also move 1 square without provoking if able.
+
+This restores no HP and does not remove starred sources or wound scars.
+
+**Duration:** Immediate reduction and possible movement.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shepherd; level 1 only
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shepherd; minimum level 1
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Recovery
 
-**ID:** signature-shepherd-ease-the-burden · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-shepherd-ease-the-burden · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

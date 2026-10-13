@@ -1,6 +1,6 @@
 # Rest for the Restless
 
-*You speak gently, offering the wandering thing an ending it has forgotten how to find.*
+*You extend a hand toward the restless creature and speak a quiet dismissal. A pale thread of Life energy lashes from your fingers into it.*
 
 ## Rules
 
@@ -14,7 +14,7 @@ Speak a quiet dismissal and send a thread of Life energy into the target. This i
 - **Standard:** 3 Life damage; a creature explicitly harmed by healing is also pushed 1 square.
 - **Strong:** 5 Life damage; such a creature is pushed 2 squares.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +24,7 @@ Speak a quiet dismissal and send a thread of Life energy into the target. This i
 
 **Type:** Magic / Attack / Recovery
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** rest-for-the-restless · **Status:** Proposal for Bruce’s review.
 

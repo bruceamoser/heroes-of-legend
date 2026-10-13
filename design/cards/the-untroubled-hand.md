@@ -1,6 +1,6 @@
 # The Untroubled Hand
 
-*A quiet breath, an open hand, and all their strength goes past you.*
+*You breathe out, catch the line of your opponent’s movement with an open hand, and strike while guiding their weight past you.*
 
 ## Rules
 
@@ -14,7 +14,7 @@ Strike with an empty hand, foot or shoulder. You read balance, not anatomy alone
 - **Standard:** 3 physical damage and push 1 square.
 - **Strong:** 5 physical damage and push 2 squares.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +24,7 @@ Strike with an empty hand, foot or shoulder. You read balance, not anatomy alone
 
 **Type:** Skill / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-untroubled-hand · **Status:** Proposal for Bruce’s review.
 

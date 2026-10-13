@@ -1,27 +1,29 @@
 # Leave a Window
 
-*You picture your friend inside the storm and leave a quiet space around them.*
+*You spread your fingers around a companion’s silhouette and the gathering storm parts around them.*
 
 ## Rules
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One creature in your area spell, chosen before rolling.
 
-Exclude one creature from your area spell before rolling. Recalculate the worst applicable situation for the remaining targets.
+Exclude the chosen creature from every effect of that spell. Determine the least favorable net Boons/Banes from the remaining targets and roll once as usual. This changes no range or area and grants no immunity to later effects from other sources.
 
-**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
+**Duration:** For that spell.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Arcanist; level 3 only
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Arcanist; minimum level 3
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Magic / Utility
 
-**ID:** signature-arcanist-leave-a-window · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-arcanist-leave-a-window · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/arcanist.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

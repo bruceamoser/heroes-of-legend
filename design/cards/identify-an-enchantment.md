@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Knowledge
 
+**Time:** Ten minutes.
+
 **Target / range / shape:** One accessible magical item; 10 minutes
 
 Weak: learn broad purpose. Standard: learn function and activation requirements. Strong: also reveal any curse and its activation. No recipe or waived prerequisites.
@@ -20,7 +22,7 @@ Weak: learn broad purpose. Standard: learn function and activation requirements.
 
 **Type:** Skill / Utility
 
-**Limits:** Once per wound per day for treatment; otherwise repeatable within the stated interval.
+**Limits:** Pay the printed action and any full activity time for each use.
 
 **ID:** identify-an-enchantment · **Status:** Proposal — fresh design; not approved or balance-tested.
 

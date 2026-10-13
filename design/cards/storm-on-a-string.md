@@ -1,6 +1,6 @@
 # Storm on a String
 
-*A hook of wind snatches the key before it reaches the drain.*
+*You curl a finger toward the unattended object. A thin spiral of wind catches it and draws it across the ground toward your hand.*
 
 ## Rules
 
@@ -14,7 +14,7 @@ Cannot take worn or held objects, deal impact damage, open locks or carry creatu
 - **Standard:** Pull it 3 squares.
 - **Strong:** Pull it 5 squares into your free hand if reachable.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** None.
 
@@ -24,7 +24,7 @@ Cannot take worn or held objects, deal impact damage, open locks or carry creatu
 
 **Type:** Magic / Utility
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** storm-on-a-string · **Status:** Proposal — fresh design; not approved or balance-tested.
 

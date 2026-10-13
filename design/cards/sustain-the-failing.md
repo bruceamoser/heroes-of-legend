@@ -1,6 +1,6 @@
 # Sustain the Failing
 
-*You kneel beside them and give strength you will feel missing.*
+*You kneel beside your companion and hold out your hand. Strength passes into their injured body, leaving you pale and breathing hard.*
 
 ## Rules
 
@@ -24,7 +24,7 @@ Moser’s law of conservation of Life energy: pay 3 HP before rolling; bypass re
 
 **Type:** Magic / Recovery
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** sustain-the-failing · **Status:** Proposal — fresh design; not approved or balance-tested.
 

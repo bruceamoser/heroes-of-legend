@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Knowledge
 
+**Time:** One hour per attempt; at most once per wound per day.
+
 **Target / range / shape:** Self or one willing patient; one hour
 
 Requires a wound listing Soft Tissue treatment; once per wound per day across all healers. Meet its recovery value to remove only its listed treatable penalties. The scar and accumulated wound count remain.
@@ -14,7 +16,7 @@ Requires a wound listing Soft Tissue treatment; once per wound per day across al
 - **Standard:** 2 recovery progress.
 - **Strong:** 3 recovery progress.
 
-**Duration:** Instant
+**Duration:** Recovery progress persists for that wound; completed treatment removes only its listed treatable penalties.
 
 **Equipment / acquisition:** None.
 
@@ -24,7 +26,7 @@ Requires a wound listing Soft Tissue treatment; once per wound per day across al
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** treat-soft-tissue · **Status:** Proposal — fresh design; not approved or balance-tested.
 

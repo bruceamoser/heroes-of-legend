@@ -1,6 +1,6 @@
 # The Otter’s Bargain
 
-*The tide has tried to take you before. You learned its grip.*
+*You spread your fingers and watch webbing form between them. When you enter the water, each stroke catches the current more firmly.*
 
 ## Rules
 
@@ -18,9 +18,9 @@ Webbing slips between your fingers for one scene. Swimming squares cost you 1 mo
 
 **Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Wilderness 1
 
-**Type:** Skill
+**Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-otter-s-bargain · **Status:** Proposal for Bruce’s review.
 

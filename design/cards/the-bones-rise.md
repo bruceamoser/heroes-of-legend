@@ -1,6 +1,6 @@
 # The Bones Rise
 
-*You ask the dead for one more journey, and give the bones a purpose.*
+*You lift your hand from the ground. Pale fragments gather into a skeletal servant that rises, takes up its burden and waits for your command.*
 
 ## Rules
 
@@ -20,7 +20,7 @@ Raise a bone-shaped servant from spectral fragments; no real corpse is required.
 
 **Type:** Magic
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** the-bones-rise · **Status:** Proposal for Bruce’s review.
 

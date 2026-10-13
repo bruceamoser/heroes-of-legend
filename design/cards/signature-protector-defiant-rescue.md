@@ -1,27 +1,31 @@
 # Defiant Rescue
 
-*You see the killing blow and throw yourself into its path.*
+*You see the blow gathering over your companion and charge into its path, driving them back behind your shoulder.*
 
 ## Rules
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One willing ally within 3 squares, after a single-target attack is declared against it but before any attack or defense roll.
 
-When an ally within 2 squares would enter Dying, move adjacent if a legal route exists, then become the target of the triggering attack if legal and resolve it against you instead. No duplicate damage on the ally.
+Move up to 3 squares without provoking to a free square adjacent to the ally. You must then be a legal target of that attack. Become its target and resolve it once against you; gain 1 Boon if you make a defense roll. Afterward the ally may move up to 2 squares without provoking if able. If you cannot reach a legal interception position, you cannot use this card.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+This is declared before the outcome is known. It neither transfers already-resolved damage nor redirects an area attack.
+
+**Duration:** The interception, attack and immediate ally movement.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Protector; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Protector; minimum level 7
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Defense / Movement
 
-**ID:** signature-protector-defiant-rescue · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-protector-defiant-rescue · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

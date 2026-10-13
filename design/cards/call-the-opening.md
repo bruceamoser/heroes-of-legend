@@ -8,13 +8,15 @@
 
 **Target / range / shape:** One visible enemy within 5 squares
 
-The Weak Boon expires at the start of your next turn. Free attacks never trigger additional free attacks.
+Choose willing allies that can hear your call. The Weak Boon expires at the start of your next turn. Free attacks never trigger additional free attacks.
 
 - **Weak:** One ally gains 1 Boon to its next attack on that enemy.
 - **Standard:** One ally adjacent to it makes a free Basic Melee attack.
 - **Strong:** Two distinct adjacent allies each make a free Basic Melee attack.
 
-**Duration:** Instant
+Each granted Basic Melee attack uses its attacker’s Brawn and Basic Melee outcomes; this card adds no separate roll beyond any roll it explicitly requires.
+
+**Duration:** Free attacks resolve immediately. The Weak Boon lasts until the start of your next turn or until used.
 
 **Equipment / acquisition:** None.
 
@@ -24,7 +26,7 @@ The Weak Boon expires at the start of your next turn. Free attacks never trigger
 
 **Type:** Skill
 
-**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** call-the-opening · **Status:** Proposal — fresh design; not approved or balance-tested.
 

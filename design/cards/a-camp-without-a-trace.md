@@ -6,6 +6,8 @@
 
 **Action:** Main Action · **Attribute:** Guile
 
+**Time:** One hour per attempt.
+
 **Target / range / shape:** One departed campsite used by up to six people; one hour.
 
 Conceal ordinary evidence of your camp. The DA sets a progress target for its size and disturbance. On completion, attempts to track your departure from this site take 1 Bane. This does not erase magical marks, remove witnesses or hide occupants.

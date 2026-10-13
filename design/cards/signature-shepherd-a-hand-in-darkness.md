@@ -1,27 +1,29 @@
 # A Hand in Darkness
 
-*You hurry to the fallen and answer their fading breath with your own steady voice.*
+*You hurry to the fallen voice, keep a hand against the wound and draw your companion into the shelter beside you.*
 
 ## Rules
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** The trigger and recipients are specified in the rule below.
+**Target / range / shape:** One ally within 3 squares, immediately after it enters Dying and its wound is resolved.
 
-When an ally within 3 squares enters Dying, move adjacent if a legal route of up to 3 squares exists and Stabilize it. The wound still occurs; this cannot interrupt Last Words.
+Move up to 3 squares without provoking to a free square adjacent to the ally, then Stabilize it. You may move the ally 1 square to another free square adjacent to you without provoking if you have a free hand and can support its weight. If no route reaches it, you cannot use this card. Restore no HP and remove no wound; Last Words cannot be interrupted.
 
-**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
+**Duration:** Immediate approach, stabilization and optional extraction.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shepherd; level 7 only
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Shepherd; minimum level 7
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Recovery / Movement
 
-**ID:** signature-shepherd-a-hand-in-darkness · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-shepherd-a-hand-in-darkness · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

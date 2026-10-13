@@ -1,6 +1,6 @@
 # A Coal for a Promise
 
-*The ember on your tongue speaks in a voice you chose to answer.*
+*You name what your enemy fears losing, then flick a glowing coal from your fingers toward them. The ember flares as it strikes.*
 
 ## Rules
 
@@ -14,7 +14,7 @@ Name something it stands to lose and cast a burning coal. The threat is a flouri
 - **Standard:** 3 fire damage and Frightened 1 of you.
 - **Strong:** 5 fire damage and Frightened 1 of you.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -24,7 +24,7 @@ Name something it stands to lose and cast a burning coal. The threat is a flouri
 
 **Type:** Magic / Attack
 
-**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
+**Limits:** Repeatable; pay the action and any stated costs each use.
 
 **ID:** a-coal-for-a-promise · **Status:** Proposal for Bruce’s review.
 

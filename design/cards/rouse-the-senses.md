@@ -8,9 +8,13 @@
 
 **Target / range / shape:** One adjacent willing creature
 
-Reduce temporary Dazed by 1/2/3. No effect on starred wound conditions unless that wound explicitly permits this treatment.
+Choose an eligible willing creature and roll Reason. Reduce its temporary Dazed by the amount below, to a minimum of 0. This restores no HP. A persistent condition marked with an asterisk requires the treatment or remedy stated by its source.
 
-**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
+- **Weak:** Reduce Dazed by 1.
+- **Standard:** Reduce Dazed by 2.
+- **Strong:** Reduce Dazed by 3.
+
+**Duration:** Instant. Applied conditions follow their normal duration and decay.
 
 **Equipment / acquisition:** None.
 
@@ -20,7 +24,7 @@ Reduce temporary Dazed by 1/2/3. No effect on starred wound conditions unless th
 
 **Type:** Recovery
 
-**Limits:** Once per wound per day for treatment; otherwise repeatable within the stated interval.
+**Limits:** Pay the printed action and any full activity time for each use.
 
 **ID:** rouse-the-senses · **Status:** Proposal — fresh design; not approved or balance-tested.
 

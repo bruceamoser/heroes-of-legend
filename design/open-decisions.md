@@ -55,3 +55,13 @@ the new capabilities and costs before treating individual entries as approved.
 Bruce accepts the grant-only menu of up to 35 unowned eligible shared cards as useful
 breadth. Do not reduce that count merely to make gates stricter; review distinctiveness
 and value instead.
+
+## Full card review follow-up
+
+The [455-record review](reviews/1149-full-card-review.md) identifies exact shared-rule blockers, weak signature choices, crafting caps and entry-route gaps. Its per-card ledgers distinguish review coverage from readiness. Resolve those findings before interpreting catalog completeness as permission for full VTT automation or randomized balance claims.
+
+The [81-signature revision](reviews/1153-signature-review.md) now supplies concrete
+class options and same-tier comparisons. Defiant Rescue and Watch the Rear have
+explicit timing; Unseen Passage has a self-contained sight rule. Their former local
+wording blockers are resolved in this proposal. Combined passive value, command
+burst output and the broader shared-rule questions still need playtesting.
