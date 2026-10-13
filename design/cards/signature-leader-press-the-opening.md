@@ -1,18 +1,16 @@
 # Press the Opening
 
-*You point at the brief opening and put your confidence in the companion beside it.*
+*You spot an enemy’s exposed side, shout your companion’s name and send them into the gap.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** One willing ally that can perceive your signal, adjacent to a visible enemy within 5 squares.
+**Target / range / shape:** One willing ally within 4 squares that can perceive your signal and is adjacent to an enemy.
 
-One ally adjacent to a visible enemy within 5 squares makes a free Basic Melee attack. If Strong, it may push the enemy 1 square. No attack chains.
+The ally makes one free Basic Melee attack against an adjacent enemy, using its own Brawn and Basic Melee outcomes. On Strong, it may also push the target 1 square directly away from itself. The ally needs a melee weapon and must be able to attack. Free attacks trigger no further free attacks.
 
-Each granted Basic Melee attack uses its attacker’s Brawn and Basic Melee outcomes; this card adds no separate roll beyond any roll it explicitly requires.
-
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
+**Duration:** Immediate attack.
 
 **Equipment / acquisition:** None.
 
@@ -22,8 +20,10 @@ Each granted Basic Melee attack uses its attacker’s Brawn and Basic Melee outc
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Attack
 
-**ID:** signature-leader-press-the-opening · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Once on your turn; the attack is basic, never a specialty card.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-leader-press-the-opening · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/leader.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

@@ -1,16 +1,22 @@
 # Fling the Captive
 
-*You release the hold by turning the whole struggle into a throw.*
+*You catch the struggling body, turn hard at the hips and release the whole tangle in a violent throw.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Main Action · **Attribute:** Brawn
 
-**Target / range / shape:** One adjacent creature you grapple, while you still have a Main Action.
+**Target / range / shape:** One adjacent creature, whether or not you already grapple it.
 
-You must still have a Main Action; Grappled 3 cannot use this card. Release your Grappled contribution on one adjacent target to push it that many squares, maximum 3. No roll; you lose the hold before displacement.
+Release any Grappled contribution you maintain on the target, then roll Brawn. You must have a Main Action before releasing; this card cannot be used while you are Grappled 3.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
+- **Weak:** Deal 3 physical damage and push 1 square.
+- **Standard:** Deal 4 physical damage, push 2 squares and knock prone.
+- **Strong:** Deal 6 physical damage, push 3 squares and knock prone.
+
+No prior grappling card or existing hold is required. The DA judges whether your body can plausibly throw the target; use normal collision rules.
+
+**Duration:** Immediate damage, push and Prone.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +26,10 @@ You must still have a Main Action; Grappled 3 cannot use this card. Release your
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Attack / Control
 
-**ID:** signature-unbalanced-fling-the-captive · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-unbalanced-fling-the-captive · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/unbalanced.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

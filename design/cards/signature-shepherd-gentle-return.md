@@ -1,16 +1,16 @@
 # Gentle Return
 
-*You guide their first returning movement with a hand held ready.*
+*You steady your companion as warmth returns, guiding their first step away from the place where they fell.*
 
 ## Rules
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** One ally your healing has just raised from 0 HP.
+**Target / range / shape:** One willing ally you have just restored HP to with a spell or potion.
 
-Once per turn when your healing raises an ally from 0 HP, that ally may move 1 square without provoking. It is not automatically stood up.
+That ally may stand without spending movement, then move 1 square without provoking if able. This works even if it was above 0 HP before healing. It grants no extra HP, reduces no healing payment and cannot reverse Last Words.
 
-**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
+**Duration:** Immediate stand and movement after healing.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ Once per turn when your healing raises an ally from 0 HP, that ally may move 1 s
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Recovery / Movement
 
-**ID:** signature-shepherd-gentle-return · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Once on your turn; the ally must actually regain HP.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-shepherd-gentle-return · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

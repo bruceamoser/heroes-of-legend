@@ -1,6 +1,6 @@
 # Between Them
 
-*You see the strike coming and make yourself the obstacle it must pass.*
+*You step your guard into the line of the strike and wave your companion behind you as it lands.*
 
 ## Rules
 
@@ -8,9 +8,9 @@
 
 **Target / range / shape:** One adjacent willing ally, after a single-target attack is declared against it but before rolling.
 
-Replace the ally as target if you meet the single-target attack’s range and targeting requirements. Resolve it against you once; the ally receives none of its effects. Afterward the ally may move 1 square without provoking. You do not move to intercept, and cannot redirect an area attack.
+Become the target if you meet the attack’s range and targeting requirements. Resolve the attack once against you; your ally receives none of its effects. Afterward the ally may move up to 2 squares without provoking if able. You do not move to intercept and cannot redirect an area attack.
 
-**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
+**Duration:** The triggering attack and immediate ally movement.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ Replace the ally as target if you meet the single-target attack’s range and ta
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Defense / Movement
 
-**ID:** signature-protector-between-them · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-protector-between-them · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

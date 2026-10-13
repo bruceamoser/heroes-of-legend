@@ -1,0 +1,411 @@
+{
+  "baseline_commit": "bddac75",
+  "scope": "81 revised class signatures; fingerprints identify editorial text, not balance certification",
+  "cards": [
+    {
+      "path": "design/cards/signature-arcanist-bent-trajectory.md",
+      "baseline_sha256": "40fe74338fb914806ceab9b89177119894bf073d752ba43863eb99c90b1d32da",
+      "reviewed_sha256": "90294b3c136a0f996c83496e1666c253760778ff1e214a19197ca2ae1b7a8338"
+    },
+    {
+      "path": "design/cards/signature-arcanist-deliberate-spark.md",
+      "baseline_sha256": "4c58d356ad644a149d640be4cfde01534b265a26404de1178c8306d769470f3e",
+      "reviewed_sha256": "3384b03681bc4f462d2cecadbce3148ab98c44c473f58670bfa765ad5d247ba2"
+    },
+    {
+      "path": "design/cards/signature-arcanist-study-the-pattern.md",
+      "baseline_sha256": "4e86a6df5fa6ace62b1d1628cdee77b3a0f5ee78127e105dc058f989f1305ca7",
+      "reviewed_sha256": "d3f05b86f31e9fbe593c18d26a0c3a54bb511993750de8ef0dc5c651a2299bd9"
+    },
+    {
+      "path": "design/cards/signature-arcanist-cast-and-scatter.md",
+      "baseline_sha256": "1393fed45f1c24d4f2b02f7675dc4d463eec28ad06adf23f891c816b951e7dc7",
+      "reviewed_sha256": "5001d1c7d704411f4128f4177adba919bc03b0987f2bc7c910e0ebdf05beaab7"
+    },
+    {
+      "path": "design/cards/signature-arcanist-leave-a-window.md",
+      "baseline_sha256": "2188820e7d33a4678ebc374fa4c0ee029882c53d6939bf1a6d01932ded96af32",
+      "reviewed_sha256": "da44165bf533ea021d65e8ab7a98559b7550f8b1ae6a2f088e552ab40dff11de"
+    },
+    {
+      "path": "design/cards/signature-arcanist-arcane-deflection.md",
+      "baseline_sha256": "a3640babc17bba19a0b7384614a91cf5b4fc62d29f6849a5699bab681b9f3887",
+      "reviewed_sha256": "3a5c8d0e054b7bcd7861fd3a0a5e2007952b2285703ba29898f91f21f38fc896"
+    },
+    {
+      "path": "design/cards/signature-arcanist-fold-the-distance.md",
+      "baseline_sha256": "fba64453eeff21b11072347b3618c7f6dad45062e02a36c2610729bb89b629bc",
+      "reviewed_sha256": "80b5a5a17cf51f21ba86e46b4d89abcc5730908bd971d3cad21033dfac7e98eb"
+    },
+    {
+      "path": "design/cards/signature-arcanist-choose-the-edge.md",
+      "baseline_sha256": "f738a95d1850bf0819804ff95d0bb13835353fdb015de49f57be19c787bf6f5b",
+      "reviewed_sha256": "ffbc246ffbc22eba4fb399bca78327e67fdcc9d49423349d12185ecc28b46dfa"
+    },
+    {
+      "path": "design/cards/signature-arcanist-open-the-circle.md",
+      "baseline_sha256": "065f3fe81e6c4bea334f559ccbee4a012c621b893d158bcf55c51c1d877b8848",
+      "reviewed_sha256": "5a5ba6439df1f44a0d696cfc831d4f14ad267855825c7a5a3542a8a1db182d4f"
+    },
+    {
+      "path": "design/cards/signature-blade-cut-and-turn.md",
+      "baseline_sha256": "eb098760792984a95489ee76d748a078791e41b787191033dfd0c2035ad60430",
+      "reviewed_sha256": "ebbb2b7ace6bd8ac13689d9a07cf81f3af3719483225b92927555b1ddab6d897"
+    },
+    {
+      "path": "design/cards/signature-blade-pressure-point.md",
+      "baseline_sha256": "a49ae4eed2c68367f6a11ae6bdb2159b0b5fe10a50011b5dcbf8783bddb8b8bd",
+      "reviewed_sha256": "92fc42e4ae2fd075e675dd83ac9d713b5881920eb82cc36f67da347034bfff88"
+    },
+    {
+      "path": "design/cards/signature-blade-measured-guard.md",
+      "baseline_sha256": "aceaa8bc7482c5ab09a5a35b457f24d204b6fa6cc6524626cacf32ad4bea82cc",
+      "reviewed_sha256": "20b1aaa1ad213c21a85e44f4c94817c1104bf11ab9712ea01f30d59620ee45ef"
+    },
+    {
+      "path": "design/cards/signature-blade-sweeping-entry.md",
+      "baseline_sha256": "ea0db71b24a965ee73e6b2b5a5c668f527b647d3aba1152c98d51046160dfc03",
+      "reviewed_sha256": "918ff2d155526998cd0699c6410cee25b8c0d563006dbd737ecb85bf9af4f901"
+    },
+    {
+      "path": "design/cards/signature-blade-return-stroke.md",
+      "baseline_sha256": "c5d5f52f327b6282f03d67c9dbb26796de13817a28c8d99b686052c48fa0f299",
+      "reviewed_sha256": "a9c7267d11c177ced01a0350440c18c0cc60301576955882649cc76c7a3e616f"
+    },
+    {
+      "path": "design/cards/signature-blade-fell-the-balance.md",
+      "baseline_sha256": "c5c3d5a9e63fd92a45f2b87d1040a2fa3b1a399b530e2f44c1177318da0b69e6",
+      "reviewed_sha256": "4c88b97f6c1ea4b715c083fd6a884eac41a2d2cfb22f90382fddecefba34a21a"
+    },
+    {
+      "path": "design/cards/signature-blade-dance-through-steel.md",
+      "baseline_sha256": "fd70b4c9f9f48d2b451c40f3253202e20fb9e6d6ae9bf386b1ad8471d0070ebb",
+      "reviewed_sha256": "72c1ebbdc78d10c1bd7afc00bdd541582a14ebe5be2fc3caa626e856e64aaa00"
+    },
+    {
+      "path": "design/cards/signature-blade-relentless-pursuit.md",
+      "baseline_sha256": "e36e400c88de27c14f54f06782e80731fb3443e5933d24939965ed642ab3cf91",
+      "reviewed_sha256": "a34f84af13950ad91e1cbe211dc542d3ce54f8c6cb1d93d8cd7fc53c04fa6b52"
+    },
+    {
+      "path": "design/cards/signature-blade-perfect-placement.md",
+      "baseline_sha256": "6d0a036c45c3c261a05fdd2dae32c1fcc9ba077d1f816bbc7fdcecfc7ab53ca7",
+      "reviewed_sha256": "85c38f06ed9b525ec62acc4906fea62e3ac44ea54d3ea9611acb96008eb30525"
+    },
+    {
+      "path": "design/cards/signature-intellect-spot-the-leverage.md",
+      "baseline_sha256": "50c3c9860196bb753fafd2e4dda60a6f17f192200994362ec7c4149cb686e401",
+      "reviewed_sha256": "f9a253ebfbfbc8bd1f5241f320aa79788ab46328ceb912b6626ecda1b0e77fb8"
+    },
+    {
+      "path": "design/cards/signature-intellect-make-the-connection.md",
+      "baseline_sha256": "260092832fd61b6f9a871ffd28c60417316c88348a6c86b825b7ba73d2e010e1",
+      "reviewed_sha256": "5a23f4b6cea202e58512e2c75ea7c54b99c1c657979b65f7af34ce6f923c84ba"
+    },
+    {
+      "path": "design/cards/signature-intellect-prepared-explanation.md",
+      "baseline_sha256": "bdc6d0311d5444622633c19d4449198d6b1e9518ffbbf8c950b24fdd24738220",
+      "reviewed_sha256": "40329fb658b622301dab91b908b818f738e968022e5f0e8d856cff3728e77641"
+    },
+    {
+      "path": "design/cards/signature-intellect-a-better-angle.md",
+      "baseline_sha256": "cdc2aa21f0291fa5ada3e750062b50c17acf1d2cf75d0915149fab36576fce9a",
+      "reviewed_sha256": "81c09171c6f7b376352194c09ce613a8c67c235f4b23c169ee7ca1bbcecd56e2"
+    },
+    {
+      "path": "design/cards/signature-intellect-diagnose-the-failure.md",
+      "baseline_sha256": "00cbe153706018ab821a75f2c404da060bc53494dde5348bf527a88c9827ce23",
+      "reviewed_sha256": "98eb91e07bf24b1e7bd898fcc0c75cd6aed14be2da81ca0e973709906da6959a"
+    },
+    {
+      "path": "design/cards/signature-intellect-predict-the-motion.md",
+      "baseline_sha256": "958bdf75ea2a11955a192fdf7f29b3e9bf3eed9e8746c7a4ec46994032905c08",
+      "reviewed_sha256": "4c011e5321cd00bf850d662daf0277b27ceea2f73bf4f8c93eeea644e3835d72"
+    },
+    {
+      "path": "design/cards/signature-intellect-a-route-for-everyone.md",
+      "baseline_sha256": "d60168fc6e5a28fdf7b836fd442b30d99aa7cbf919f458f2ab80eba2d5a69039",
+      "reviewed_sha256": "55e3423407d7628fbd2486986972a686d7ea2ec9b37f36b0f4a8e15c37d79645"
+    },
+    {
+      "path": "design/cards/signature-intellect-test-the-hypothesis.md",
+      "baseline_sha256": "7537bb1f515a0fdf35bf2bb36efacba30f298484bb69852b1268e0f31cec3b4c",
+      "reviewed_sha256": "868f318171a471a5f3477d9b8f67ef6e5958b6489fa6a3d6f826dacb4c1acaff"
+    },
+    {
+      "path": "design/cards/signature-intellect-expose-the-mechanism.md",
+      "baseline_sha256": "52600053b39d621609ac1ca49a85578ba62d821f5b07fd6e8b6c57eda85a3c8f",
+      "reviewed_sha256": "7f3ef7dae7805c2f7bd968e7c7fa9bb63314a96251fa019d755be43dc6c406ff"
+    },
+    {
+      "path": "design/cards/signature-leader-follow-my-signal.md",
+      "baseline_sha256": "5931b037ac582c6447747c7e9b031964ba19ecc3d01290f0974853522c4a5fb7",
+      "reviewed_sha256": "5c12ecfb0da6f73ee704fbd03a5e5209ab26c4d3fb7e279af2e55c060ce46b8b"
+    },
+    {
+      "path": "design/cards/signature-leader-lead-the-step.md",
+      "baseline_sha256": "30873c283308994281af110d11ed5994f4b38f2296bbe0f632c8409bd6fa366a",
+      "reviewed_sha256": "3bd710797f3fcf89aff993af63d22778c9321f9b147b840b6399db0f75e49a72"
+    },
+    {
+      "path": "design/cards/signature-leader-stand-together.md",
+      "baseline_sha256": "ebe06abbc5210e63929f74c70c423a7f9fdf098ddf1529fa6b519b8d8fe34c72",
+      "reviewed_sha256": "82a9b64ce7745a44fa3215de293fd631c18dff3d3ad6993ffe1af09005943dde"
+    },
+    {
+      "path": "design/cards/signature-leader-orderly-withdrawal.md",
+      "baseline_sha256": "416021b8d87923235cc563ecd9432ec2890f2a7a23ec4301280b2ee917fe1ae9",
+      "reviewed_sha256": "9ed4170ef9965f33309191b785f0e8aecce7aa1b1b9794c0b361d217455a321a"
+    },
+    {
+      "path": "design/cards/signature-leader-press-the-opening.md",
+      "baseline_sha256": "98ee8af9bb7bc381f3e204022c85ec4ca472b1816949d3959c170b2a48544011",
+      "reviewed_sha256": "63ff71035010318b164a65488b25921942636145093be4a8c2c4feeca3a85e98"
+    },
+    {
+      "path": "design/cards/signature-leader-hold-your-nerve.md",
+      "baseline_sha256": "6d10257ff2e45eb06bc8c3484d26c7e352f3f8789c029df5fbf0be38ce8e04fd",
+      "reviewed_sha256": "95f449254f7f4e5582593054bf88fe7168812474541fd6bfdbdf55bf515a96ba"
+    },
+    {
+      "path": "design/cards/signature-leader-coordinated-rush.md",
+      "baseline_sha256": "cbd02ef5b2ba7b539f5691e89d96475e9c70ba2a11dbf11f4acf99fd8dc0f8fe",
+      "reviewed_sha256": "a5c4c7bd81b8770fb820cd38048f2eef6b648b6ca0c1c896cecebd30f20e549e"
+    },
+    {
+      "path": "design/cards/signature-leader-refuse-the-rout.md",
+      "baseline_sha256": "67e83633b612d59f353f6b90f480a4ec86812bac92c7e44586967eacf7462eda",
+      "reviewed_sha256": "e73f5187109c5174e8ea5a1c7ca8b12c23655851ecfcc3d27a701d65f9feffb6"
+    },
+    {
+      "path": "design/cards/signature-leader-watch-the-rear.md",
+      "baseline_sha256": "2df18ed85726cb6b76c6c856273c663a6440b10755d64e56f37388bb9eba36bb",
+      "reviewed_sha256": "e2c2264c26c9fe5a00ffd6b46f0750efb5f41e24aed3762a58e3eaa3a4e11e27"
+    },
+    {
+      "path": "design/cards/signature-odd-sideways-thinking.md",
+      "baseline_sha256": "64621232ee01a28c6d78574a9b9aebccd091e59b32a85fa9416ea8eeff7dbc89",
+      "reviewed_sha256": "4f4e6d36046121397d901151ef0ecd8ce4b29d8f6285c1d8ae817240ba1ef5da"
+    },
+    {
+      "path": "design/cards/signature-odd-useful-interruption.md",
+      "baseline_sha256": "8f79468208a466e34474097d25c2645aaf9011dc24d81d02ca945d13018fae4b",
+      "reviewed_sha256": "74477a171c24539bc801e35a8e05728f3da114288868f538b7f6e77c9ea36567"
+    },
+    {
+      "path": "design/cards/signature-odd-always-a-way-around.md",
+      "baseline_sha256": "d285ae5f6638dfa70dc03b484a601fa49534ab4902c256a0636f8cc39eb25aa7",
+      "reviewed_sha256": "2f71cb66f6d1c1c37108e9077b1d09d7251522b6e7442a9c5e86b112d3a27696"
+    },
+    {
+      "path": "design/cards/signature-odd-unlikely-assistant.md",
+      "baseline_sha256": "a7341f36bc8d9e48747f41e91e41c42be494b9610c87ff70cdca71ea6f34f1fe",
+      "reviewed_sha256": "8ad9a481d8f84c6b0017410132fb5b422ccd571b814b2806e0a02485eacb5dc4"
+    },
+    {
+      "path": "design/cards/signature-odd-change-the-question.md",
+      "baseline_sha256": "6989e22bb5e061fa9276ace95d22cf7972a6bb30260c1cb6afe2568a4aa3be32",
+      "reviewed_sha256": "455732f53ce6775c651eed7449a0f2df4257b37810004e0d1eab68a48e9584c7"
+    },
+    {
+      "path": "design/cards/signature-odd-wrong-place-for-that.md",
+      "baseline_sha256": "1e55cb74b3538083b0cca288c99ef46bac55afb3b0bdddd34048652ff74ee5b2",
+      "reviewed_sha256": "41c545af6b8c8be916bb8529fce734f09005df923a9e56cb509a96de1463571c"
+    },
+    {
+      "path": "design/cards/signature-odd-strange-but-effective.md",
+      "baseline_sha256": "c58ba71bc22eadbf89b1caf3ebea70a0e680b83b3bf1d416e2af5a3b62788503",
+      "reviewed_sha256": "36ab3ac3dfc59fcec9b9a02a63c46b5ab44061949a1b06cf9bece937dfa27b39"
+    },
+    {
+      "path": "design/cards/signature-odd-an-unexpected-exit.md",
+      "baseline_sha256": "5751483cea37fe7e1336d41e39c96674335134af6bb987e26de3f3651210fe50",
+      "reviewed_sha256": "078979c2e318279480d7ca17ba2c9e4e3c74af9ec0ffa2f29e9c39afc5898835"
+    },
+    {
+      "path": "design/cards/signature-odd-one-last-remark.md",
+      "baseline_sha256": "0d9b4857a01a375af66cbecece5628cceedcb00bdb4063c686046405868b985a",
+      "reviewed_sha256": "51af539f69e147b6c7191496d808a8566dea60d51e73f8234f16c49762ece83d"
+    },
+    {
+      "path": "design/cards/signature-protector-between-them.md",
+      "baseline_sha256": "d7b110a66e03ca7c6423e821212702aa21dfa865a4d3173ca285dbcb041daa22",
+      "reviewed_sha256": "83a782a559044da0dc3303c168097acdf2b0bb8b2ec2ee405467fe0ed611e891"
+    },
+    {
+      "path": "design/cards/signature-protector-set-your-feet.md",
+      "baseline_sha256": "234eeda89f1bce23891fd9240adb42086c91c0470220070afee082295cae7db1",
+      "reviewed_sha256": "30521535507ae51b4f5935d964ae5946bc69856dd2560b616c21a62b9d0ee0f0"
+    },
+    {
+      "path": "design/cards/signature-protector-close-the-gap.md",
+      "baseline_sha256": "fe785c5038737fc365b85582191b341b77a0c0393396fa728b347cc4145da287",
+      "reviewed_sha256": "c8941c66fda5186ed2110795ebe14f6ec1b8ff74cc87e3d9f37d05701481d412"
+    },
+    {
+      "path": "design/cards/signature-protector-break-their-advance.md",
+      "baseline_sha256": "6bc0da9abdd47a091731fd4e03d1c4b312c82c9da92af43f72326f4d4d95aed4",
+      "reviewed_sha256": "acb7660eb8026c564e8d5a28d3d670bef79d10e2bf64d98d42e83db378776e8b"
+    },
+    {
+      "path": "design/cards/signature-protector-make-a-refuge.md",
+      "baseline_sha256": "1e0c1fa0235f89238ca9c9bfc27fe1b5a599dc91a83a9d0b67d69f74ab80696b",
+      "reviewed_sha256": "139989cbb2edad40ddf0f2d59fd4175a8f38d9ebbcb164533e0383b5906e1648"
+    },
+    {
+      "path": "design/cards/signature-protector-shelter-the-fallen.md",
+      "baseline_sha256": "61bf19534ea2f7a9314f1f061945f9bb0d68ab5db96a230da9fbf2cbaad5b68f",
+      "reviewed_sha256": "2af9f6dbbdbb4aa5bc3058d6b30da5fd18692cb81c93f456265c6d9f0f9fcd26"
+    },
+    {
+      "path": "design/cards/signature-protector-defiant-rescue.md",
+      "baseline_sha256": "8bccd9d62668b44bac6f7ca63c8b16c65373ceed29000a297bdaffb2a06b238a",
+      "reviewed_sha256": "c6a7a9526ebd206845cb94520fdfe7cdf261b741075ddf795c8f6229cf841886"
+    },
+    {
+      "path": "design/cards/signature-protector-drive-back-the-circle.md",
+      "baseline_sha256": "73866e021375bbc712949fbcaa81076e3dce19a223edac03c3c0bc356357bb9f",
+      "reviewed_sha256": "91762d36b8eb6a32c7762a487a8247d917935faebe68b5a173fc0e83dba9183f"
+    },
+    {
+      "path": "design/cards/signature-protector-unbroken-passage.md",
+      "baseline_sha256": "066bf0525533471a6b8a4ddc63c4997cc3060a4c6c8264a1e208685c5df5e7ab",
+      "reviewed_sha256": "72c7c13de37751e3c147c111053e9400580b0231fcc6f3051bb416eb2e8cdf87"
+    },
+    {
+      "path": "design/cards/signature-shadow-fade-behind.md",
+      "baseline_sha256": "0de568b1ff6525ab549ba61fd490e8ccb1ff2b7dcd078ac3fee77d758a479883",
+      "reviewed_sha256": "50d1f124aae8596815a8ac1aa6b9d17ffbb91f49aec4b014bc82860c4d488752"
+    },
+    {
+      "path": "design/cards/signature-shadow-soft-landing.md",
+      "baseline_sha256": "8dbd014b4d28ae2bdf401ccae873151c4a8aa9ad2ee332a53a73792c2b3022b2",
+      "reviewed_sha256": "0b8e378858b6b9055e6853f989beb1a34c82a33cb5edbb095a4de4943b41c7ad"
+    },
+    {
+      "path": "design/cards/signature-shadow-turn-their-eye.md",
+      "baseline_sha256": "280a7ddefe38f7eb8712d2215d872619e1da6c6be02315a7dbfcdfeac304c093",
+      "reviewed_sha256": "bde353c625022abc4af2affb4c5d5f30ff7caf79d1368dbbf2fd010ef5002978"
+    },
+    {
+      "path": "design/cards/signature-shadow-pass-the-guard.md",
+      "baseline_sha256": "570a086c145dd3bc284a23d8b2087b123341b6dccabe3a88279ae3e2d6334bb6",
+      "reviewed_sha256": "af6345007f4545ca3199575cbe031322b7dbd1ace5247ae66dc159b939478fab"
+    },
+    {
+      "path": "design/cards/signature-shadow-strike-and-vanish.md",
+      "baseline_sha256": "e4489265b09650222d4d88ef3d0c7a47e55f5aab25d82a2db650b2ee3101d287",
+      "reviewed_sha256": "da750d3fc9f1faf652f019023cc4e94dc69b9b414f11274ebb8cf1ca8f2e44ab"
+    },
+    {
+      "path": "design/cards/signature-shadow-open-the-way.md",
+      "baseline_sha256": "e9a122c069f5ee09e10e38c644e3ae64ce7a1e2088f03f2001d18ce0c8518d1f",
+      "reviewed_sha256": "c36eddba4d0b059eec0db2736d7b487f1f53cc1548ecafd2053b24cd9c50a1b2"
+    },
+    {
+      "path": "design/cards/signature-shadow-unseen-passage.md",
+      "baseline_sha256": "d0ea25a5b97412043a1b868893ffa4d3664a47bc5bd9ff64f9512e404850f345",
+      "reviewed_sha256": "2bdda8dfe52bce3b4a6d37e9f003b6da2ce319ea143ba908d48d44b27eebe11a"
+    },
+    {
+      "path": "design/cards/signature-shadow-exploit-confusion.md",
+      "baseline_sha256": "43a25bbac9453c9143e54267ed629576d8ba769810c58c4557f3fafc1805dbdd",
+      "reviewed_sha256": "eee3c974f626ce50495ae164b835c65f2692a3bcaa5272a504a6291b463793de"
+    },
+    {
+      "path": "design/cards/signature-shadow-leave-no-pursuit.md",
+      "baseline_sha256": "5607c7cab44bb26384acebf73ee7ecf2978e65b833d1e26c5557813322ee97fb",
+      "reviewed_sha256": "5e157576c0eaec6948a92c5eb51f950fd948c377da57a9140e9017d898b3e2c7"
+    },
+    {
+      "path": "design/cards/signature-shepherd-gentle-return.md",
+      "baseline_sha256": "3c5428e09599c96236200a5a8a05ae2b4bc907a1dbdb7d539b94dd32ba5898b0",
+      "reviewed_sha256": "9dd8e2eea495a214281475892e7a7ffa26e635a22181315007e385c50e7341f0"
+    },
+    {
+      "path": "design/cards/signature-shepherd-hear-me-still.md",
+      "baseline_sha256": "9e9759f9b89a668a9c617e6923ed3fe857abecd14a192defa4ef8f11dc9aaca0",
+      "reviewed_sha256": "34764efc5ea78abb689df8aa7aca02fe683c79eac51a83534eea6986e53cb816"
+    },
+    {
+      "path": "design/cards/signature-shepherd-ease-the-burden.md",
+      "baseline_sha256": "f94a4798fc3c4d980197639ad8b3eb914e10100259d425ce350e02d32a31944f",
+      "reviewed_sha256": "008115ac12c8bff00246de57fac8f6cc3e1ea572dd207bf2f0663ed445012913"
+    },
+    {
+      "path": "design/cards/signature-shepherd-quiet-the-tremor.md",
+      "baseline_sha256": "db621a73239352f5cb6aad9f449513422734dff5908654b186efa307f77dd351",
+      "reviewed_sha256": "050d4f01de264f2a3ba113f9d019271c975ca545c59017a975b527328781dc00"
+    },
+    {
+      "path": "design/cards/signature-shepherd-bring-them-near.md",
+      "baseline_sha256": "a166be5b9603240885f4113a46aee12d9c8697402a7fbd139ab093c036188463",
+      "reviewed_sha256": "de2925167c0d6eea199395084c7b1fdd73422ae72e86733b05a0984d84344270"
+    },
+    {
+      "path": "design/cards/signature-shepherd-careful-transfer.md",
+      "baseline_sha256": "1f05ad78600fc693ef271e003bae062099ccada61375d638136afd678d26f68e",
+      "reviewed_sha256": "7cccaece5537d65c7a778c0de3a99abd7da5f67248ba464fc8d49decdad498b1"
+    },
+    {
+      "path": "design/cards/signature-shepherd-a-hand-in-darkness.md",
+      "baseline_sha256": "b40842eb081aa0d7f8c56462446e93e723e5139f123df7ed43f5b6db81011f8c",
+      "reviewed_sha256": "bfa1473bedea1fd4019fdaa36345f1f9038d034be378d797119c0e57ebb13aeb"
+    },
+    {
+      "path": "design/cards/signature-shepherd-restore-composure.md",
+      "baseline_sha256": "d1a956666d396ecd44251579510b09464eadd10f542873b8e15354767abf5092",
+      "reviewed_sha256": "a8055c928b6651a731b5e99f1ea6180f28efd8c872cf58544bce222ade309f90"
+    },
+    {
+      "path": "design/cards/signature-shepherd-shared-resolve.md",
+      "baseline_sha256": "31c34840e10cb5e8d1a6eee85d369a9d6465dfae30394baeabe23a8cf2b18432",
+      "reviewed_sha256": "3a96f8ba0d06e3a3ec841361dab84e5396f7e43f3a1493ab2e9164707b829158"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-shoulder-through.md",
+      "baseline_sha256": "2611eddaa2115cbadfe57be016b765f3580a5fc17c8c061e6350bec38d72c701",
+      "reviewed_sha256": "7c32b75d66dfa58ed870bdcb8627a13732664a37a6fea032028db9314a4db69a"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-wild-approach.md",
+      "baseline_sha256": "7e6bd784031e49a4f0d57a8b7da3f70677181d8727a25f4efc79ef7b941c9648",
+      "reviewed_sha256": "5818436133adb8366d79ec68b4d10febcf29e2a195096b2675a419b6c59606ff"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-laugh-at-the-fall.md",
+      "baseline_sha256": "8e8d590c3429271d4dc02ba562198bd311a6d1cf2ca2f6705551fafd11a4e079",
+      "reviewed_sha256": "97644ce13e22ecc1d850c4a63acbbfcee37a75eed0cc1f232c2874f910b2736e"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-crush-the-barrier.md",
+      "baseline_sha256": "f9503845a8c2e84a44911228dcf34c6b4688ecd96e49a00517e0302f1587d167",
+      "reviewed_sha256": "8873498985f552660ffb70372cd0b62fa56def8a43dc9bb962cf7e211aa0d557"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-fling-the-captive.md",
+      "baseline_sha256": "b3659713a046db11efc134b05b4035be570bc3751cb561b816bc4e609ac27e9b",
+      "reviewed_sha256": "4aee5233bd214f11fdc870f1150a60eaacdc77e18b81b18a2aa5c30b2b94bc13"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-raging-recoil.md",
+      "baseline_sha256": "8f0717d44dfa63a58cc4f3a781f989359e5817d4bc6af25d9c2b687bc7be29b8",
+      "reviewed_sha256": "d4ee7e6644f679523421a87548127102e9b961ef78be723480eb1034263a561b"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-scatter-the-line.md",
+      "baseline_sha256": "e6425ff810fce75798c3777d3b8d16c1e467ecf4ed2e8cdacbdcfa2ca14d9a42",
+      "reviewed_sha256": "c15a7bf985c750ee5204962e386364ead332c9dc6021db720e0015fe74280495"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-break-their-grip.md",
+      "baseline_sha256": "801a6734136db7b8241575412dab16a5d78e4d1cf3b47c4188d4e0d0e274e49b",
+      "reviewed_sha256": "636da0da9f3994696b1228dffcaf62ec4dbdaab1f4ad000517a113a75511c9a8"
+    },
+    {
+      "path": "design/cards/signature-unbalanced-crash-down.md",
+      "baseline_sha256": "5a8ee2e9dc09db2cf26533fa6fa0ca03b7891a7ee8b64b43d1dae2809fb72e32",
+      "reviewed_sha256": "5dba7b479bf5e2c0f438eef1b557ec535cd8795b13095a96e373e80679e5285b"
+    }
+  ]
+}

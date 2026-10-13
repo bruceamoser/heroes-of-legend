@@ -1,22 +1,22 @@
 # Scatter the Line
 
-*You roar and throw your weight into the bodies hemming you in.*
+*You throw your arms wide and drive into the bodies around you, sending the whole front rank stumbling away.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Brawn
 
-**Target / range / shape:** Every adjacent enemy when the action begins.
+**Target / range / shape:** Every enemy adjacent when you begin.
 
-Choose every enemy adjacent when you begin. Make one Brawn roll using the least favorable net Boons/Banes among those targets.
+Roll Brawn once using the least favorable net Boons/Banes among the targets.
 
 - **Weak:** Push each 2 squares directly away from you.
 - **Standard:** Push each 3 squares.
-- **Strong:** Push each 4 squares.
+- **Strong:** Push each 4 squares and knock each prone.
 
-Choose the order of pushes. No weapon damage; normal collision damage applies.
+Resolve the targets in an order you choose. No direct damage; normal collisions apply.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
+**Duration:** Immediate displacement and Prone.
 
 **Equipment / acquisition:** None.
 
@@ -26,8 +26,10 @@ Choose the order of pushes. No weapon damage; normal collision damage applies.
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Control
 
-**ID:** signature-unbalanced-scatter-the-line · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-unbalanced-scatter-the-line · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/unbalanced.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

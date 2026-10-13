@@ -1,16 +1,16 @@
 # Turn Their Eye
 
-*You draw a glance away from the place your friend is about to cross.*
+*You send a glance and a tiny distracting motion toward one side while your companion slips quietly toward the other.*
 
 ## Rules
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** One adjacent willing ally, while you provide a plausible distraction.
+**Target / range / shape:** One willing ally within 3 squares that can perceive your signal.
 
-An adjacent ally gains 1 Boon to its next concealment activity before the start of your next turn if you can provide a plausible distraction.
+Provide a plausible distraction that nearby observers can see or hear. The ally may move up to 2 squares without provoking and gains 1 Boon to its next roll to remain unnoticed before the start of your next turn. The movement itself grants no Hidden in open view.
 
-**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
+**Duration:** Movement is immediate; Boon expires when used or the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ An adjacent ally gains 1 Boon to its next concealment activity before the start 
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Utility / Movement
 
-**ID:** signature-shadow-turn-their-eye · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-shadow-turn-their-eye · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/shadow.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

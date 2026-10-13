@@ -1,16 +1,16 @@
 # Unlikely Assistant
 
-*You offer an odd little suggestion that turns out to be exactly what was missing.*
+*You wedge a boot where a tool should go, offer an unexpected comparison and somehow make the work easier.*
 
 ## Rules
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** One ally within 3 squares that can understand your method of Aid.
+**Target / range / shape:** One ally within 3 squares that can understand your Aid.
 
-Your Aid can reach an ally within 3 squares who can understand your method of assistance.
+Your Aid reaches that ally and grants 2 Boons instead of 1 to the declared task’s next roll. Describe how your unusual method helps. It grants no missing specialist permission, extra crafting attempt or additional contribution to a group check.
 
-**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
+**Duration:** Until the aided roll or the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ Your Aid can reach an ally within 3 squares who can understand your method of as
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Utility
 
-**ID:** signature-odd-unlikely-assistant · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Normal Aid action and group-check restrictions apply.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-odd-unlikely-assistant · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/odd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

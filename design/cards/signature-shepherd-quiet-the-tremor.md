@@ -1,6 +1,6 @@
 # Quiet the Tremor
 
-*You match their breathing until the shaking begins to ease.*
+*You meet their unfocused gaze, name something familiar and wait for their breathing to settle.*
 
 ## Rules
 
@@ -8,9 +8,9 @@
 
 **Target / range / shape:** One willing creature within 3 squares that can hear you.
 
-Reduce temporary Frightened by 1 on one willing creature within 3 squares that hears you. No effect on starred trauma.
+Reduce its temporary Frightened or Dazed by up to 2, minimum 0. Choose one condition. The target also gains 1 Boon to its next defense before the start of your next turn. No HP restored, no starred condition removed, and no actions already spent are refunded.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
+**Duration:** Reduction is immediate; the Boon expires when used or the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ Reduce temporary Frightened by 1 on one willing creature within 3 squares that h
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Recovery / Defense
 
-**ID:** signature-shepherd-quiet-the-tremor · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Once on your turn.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-shepherd-quiet-the-tremor · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

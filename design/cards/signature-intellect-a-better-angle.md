@@ -1,16 +1,16 @@
 # A Better Angle
 
-*You point to the position your friend has not yet noticed.*
+*You call two short directions, placing your companion where they can see the opening you have found.*
 
 ## Rules
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** One willing ally within 3 squares that can hear and understand you.
+**Target / range / shape:** One willing ally within 4 squares that can hear and understand you.
 
-One willing ally within 3 squares may move 2 squares without provoking toward a visible objective you name.
+The ally may move up to 3 squares without provoking. It gains 1 Boon to its next roll before the start of your next turn if that roll acts on a visible objective you name when using this card. The ally chooses whether and how to act; this grants no attack.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
+**Duration:** Movement is immediate; Boon expires when used or the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ One willing ally within 3 squares may move 2 squares without provoking toward a 
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Utility / Movement
 
-**ID:** signature-intellect-a-better-angle · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-intellect-a-better-angle · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

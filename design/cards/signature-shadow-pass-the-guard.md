@@ -1,16 +1,16 @@
 # Pass the Guard
 
-*You pass at the edge of their attention, close enough to hear them breathe.*
+*You slip along the blind side of the struggle, ducking below a reach and stepping through the open space beyond.*
 
 ## Rules
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** Self; a legal route of up to 2 squares.
+**Target / range / shape:** Self; a legal route of up to 3 squares.
 
-Move 2 squares without provoking along a legal route. You cannot cross occupied standing squares.
+Move up to 3 squares without provoking. Ignore the extra cost of difficult terrain during this move, but do not cross standing occupied squares or barriers. The movement grants no attack or automatic Hidden.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
+**Duration:** Immediate movement.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ Move 2 squares without provoking along a legal route. You cannot cross occupied 
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Movement
 
-**ID:** signature-shadow-pass-the-guard · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-shadow-pass-the-guard · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/shadow.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

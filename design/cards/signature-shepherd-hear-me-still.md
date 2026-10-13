@@ -1,16 +1,16 @@
 # Hear Me Still
 
-*You keep speaking across the distance, giving your friend a voice to follow.*
+*You keep speaking as you move closer, giving the fading breath a familiar voice to follow.*
 
 ## Rules
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** One willing Dying ally within 2 squares that can hear your Stabilize action.
+**Target / range / shape:** One willing Dying ally within 3 squares that can hear you, when you use Stabilize.
 
-Your Stabilize reaches a willing Dying ally within 2 squares that can hear you; no HP or wound removal.
+Your Stabilize can reach that ally without touch. After stabilizing it, you may move 1 square toward it without provoking. Stabilize still costs a Maneuver, clears death marks and restores no HP. The wound remains; Last Words cannot be interrupted.
 
-**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
+**Duration:** Immediate stabilization and personal movement.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ Your Stabilize reaches a willing Dying ally within 2 squares that can hear you; 
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Magic / Recovery / Movement
 
-**ID:** signature-shepherd-hear-me-still · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-shepherd-hear-me-still · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

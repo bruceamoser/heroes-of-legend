@@ -1,16 +1,16 @@
 # Set Your Feet
 
-*You find the ground beneath you and decide that this is where you will remain.*
+*You settle your weight into the ground and draw your guard close, letting the shove spend itself against your stance.*
 
 ## Rules
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** Self, when pushed or pulled while your Defend is active.
+**Target / range / shape:** Self while your Defend is active.
 
-While your Defend is active, reduce push or pull against you by 1 square. This reduction does not stack with another displacement reduction; use the highest.
+Reduce any push or pull against you by 2 squares, minimum 0. Use the highest applicable displacement reduction, not a sum. You still need to use Defend normally; this grants no resistance to damage.
 
-**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
+**Duration:** While your Defend remains active.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ While your Defend is active, reduce push or pull against you by 1 square. This r
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Defense
 
-**ID:** signature-protector-set-your-feet · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-protector-set-your-feet · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

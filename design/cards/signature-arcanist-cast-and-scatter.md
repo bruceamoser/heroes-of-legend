@@ -1,6 +1,6 @@
 # Cast and Scatter
 
-*You are already moving when the last spark leaves your hand.*
+*Your spell bursts from your hands and you follow its recoil into a quick sidestep, robes brushing the space where you stood.*
 
 ## Rules
 
@@ -8,9 +8,9 @@
 
 **Target / range / shape:** Self, after your Main Action spell resolves.
 
-After your Main spell resolves, move up to 2 squares without provoking, once per turn.
+Move up to 2 squares without provoking. Choose a legal route and free endpoint. This uses no movement allowance and does not change the spell’s result.
 
-**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
+**Duration:** Immediate movement.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ After your Main spell resolves, move up to 2 squares without provoking, once per
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Magic / Movement
 
-**ID:** signature-arcanist-cast-and-scatter · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Once on your turn.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-arcanist-cast-and-scatter · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/arcanist.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

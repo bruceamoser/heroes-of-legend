@@ -1,6 +1,6 @@
 # Make a Refuge
 
-*You turn your guard outward to include the person at your side.*
+*You draw a companion into the shelter of your stance and meet the next threat with both of you behind your guard.*
 
 ## Rules
 
@@ -8,9 +8,9 @@
 
 **Target / range / shape:** Self and one adjacent willing ally.
 
-As part of using this Maneuver, use Defend on yourself and extend its 1 Boon to one adjacent willing ally. Both benefits last until the start of your next turn; the ally must remain adjacent while you can act. Repeating the same Defend benefit does not multiply it.
+Use Defend and extend its 1 Boon to that ally. Both benefits last until the start of your next turn; the ally must remain adjacent while you can act. Reduce the first push or pull against that ally during the ward by 1 square, minimum 0, using the highest reduction. Reusing this card replaces the ward, not its spent reduction.
 
-**Duration:** Until the start of your next turn; the ally must remain adjacent.
+**Duration:** Until the start of your next turn; adjacency is required for the ally.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ As part of using this Maneuver, use Defend on yourself and extend its 1 Boon to 
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Defense
 
-**ID:** signature-protector-make-a-refuge · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-protector-make-a-refuge · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

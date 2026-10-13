@@ -1,16 +1,16 @@
 # Choose the Edge
 
-*You catch the fading edge of your spell and give it one last turn.*
+*You turn both hands as the spell breaks, guiding its last rush of force toward the places you want emptied.*
 
 ## Rules
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** One creature affected by your Strong area spell, after that spell resolves.
+**Target / range / shape:** Up to two creatures affected by your Standard or Strong Main Action spell.
 
-Once per turn after a Strong area spell, push or pull one affected creature 2 squares. No extra damage except collisions.
+After the spell resolves, push each chosen creature up to 2 squares directly away from you. Choose the order. This adds no direct damage; use normal forced movement and collisions. The spell need not already cause displacement.
 
-**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
+**Duration:** Immediate displacement.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ Once per turn after a Strong area spell, push or pull one affected creature 2 sq
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Magic / Control
 
-**ID:** signature-arcanist-choose-the-edge · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Once on your turn; no benefit from free attacks.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-arcanist-choose-the-edge · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/arcanist.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

@@ -195,3 +195,19 @@ and use limit separately. Track a continuing benefit as one effect with its stat
 expiry, not a fresh bonus every time the token is selected. Narrative, physical
 plausibility, willing participation and DA judgments stay visible to the people
 playing; do not turn them into extra automated saves.
+
+## Class signature standard
+
+**Agreed:** signatures define their class and are slightly more powerful than shared
+cards at the same tier. Give each choice a useful, recognizable advantage: better
+action efficiency, reliability, scope, positioning or a distinctive permission.
+A vivid name alone does not establish that advantage. Compare the whole procedure,
+including costs, targets and limits, rather than only damage.
+
+Each milestone offers independent choices. Require only class and minimum level;
+never require an earlier signature. All learned signatures remain available, so
+review combinations of purchased passives as well as individual cards.
+
+The [signature review](reviews/1153-signature-review.md) and its comparison ledger
+document the proposed implementation. Signature records retain Type: Signature
+and use Tags for their functional roles; action cost remains a separate field.

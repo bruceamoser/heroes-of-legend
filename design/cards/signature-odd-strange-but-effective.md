@@ -1,22 +1,22 @@
 # Strange but Effective
 
-*You arrange the leverage with an innocent expression and let the result explain itself.*
+*You loop a strap, plant your heel against a unlikely purchase and pull with a grin as the whole problem lurches sideways.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** Guile
 
-**Target / range / shape:** An adjacent obstacle, creature, or your own grapple, as for Force.
+**Target / range / shape:** One adjacent obstacle or creature, or your own Grappled condition.
 
-Use Force with Guile instead of Brawn. Choose obstacle progress, reduction of your Grappled rating, or pushing an adjacent creature before rolling. You need a plausible way to exert force; this is not remote telekinesis.
+Choose Force’s intended result before rolling: obstacle progress, reducing your Grappled rating, or pushing a creature. Describe a plausible means of exerting force.
 
-- **Weak:** 1 progress, Grappled reduction, or square of push.
-- **Standard:** 2 progress, Grappled reduction, or squares of push.
-- **Strong:** 3 progress, Grappled reduction, or squares of push.
+- **Weak:** 2 progress, Grappled reduction, or squares of push.
+- **Standard:** 3 progress, Grappled reduction, or squares of push.
+- **Strong:** 4 progress, Grappled reduction, or squares of push.
 
-Grappled 3 leaves no Main Action to spend.
+Afterward you may move up to 2 squares without provoking if able. Grappled 3 leaves no Main Action to spend; this cannot release a fully restrained user.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
+**Duration:** Immediate progress, reduction or push, then movement.
 
 **Equipment / acquisition:** None.
 
@@ -26,8 +26,10 @@ Grappled 3 leaves no Main Action to spend.
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Control / Utility
 
-**ID:** signature-odd-strange-but-effective · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-odd-strange-but-effective · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/odd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

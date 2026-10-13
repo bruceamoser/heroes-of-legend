@@ -105,3 +105,9 @@ Each row records a reading of narrative, rules procedure, practical usefulness a
 | [Stabilize](../cards/stabilize.md) | Revised | Universal stabilization clearly clears marks but leaves zero HP and wounds; ready with shared Dying rules. |
 | [Stand](../cards/stand.md) | Decision | Standing costs two movement, not a Maneuver; opportunity timing still depends on unresolved shared ruling. |
 | [Use a Healing Potion](../cards/use-a-healing-potion.md) | Decision | Potion has full hands/action/reaction/inventory sequence; unwilling healing-harmed recipients need common targeting decision. |
+
+## Subsequent signature revision
+
+The [full signature review](1153-signature-review.md) supersedes this report’s
+signature text and findings. This report and its fingerprints preserve the earlier
+review baseline; they do not certify the later revisions.

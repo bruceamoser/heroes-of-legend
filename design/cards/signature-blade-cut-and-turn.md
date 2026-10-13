@@ -1,6 +1,6 @@
 # Cut and Turn
 
-*You follow the stroke through with your feet, turning its finish into a new position.*
+*You follow the stroke through with your feet and slip around the edge of your opponent’s guard.*
 
 ## Rules
 
@@ -8,9 +8,9 @@
 
 **Target / range / shape:** Self, after your Main Action melee attack resolves.
 
-After your Main melee attack, move 1 square without provoking, once per turn.
+Move up to 1 square without provoking. On a Standard or Strong attack, you may move up to 2 squares instead. Use a legal route and free endpoint; this grants no additional attack.
 
-**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
+**Duration:** Immediate movement.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ After your Main melee attack, move 1 square without provoking, once per turn.
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Movement
 
-**ID:** signature-blade-cut-and-turn · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Once on your turn.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-blade-cut-and-turn · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
