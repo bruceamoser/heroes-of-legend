@@ -41,3 +41,5 @@ cards of their tier. Each is an independent choice, not a progression chain.
 
 See the [full signature review](../reviews/1153-signature-review.md) for comparisons
 and remaining playtest questions. Individual effects remain proposals.
+
+**Starting coin contribution:** +4 coins (proposed allocation). See [starting coins](../starting-coins.md).

@@ -39,3 +39,5 @@ A hunter closes distance after a shot or a sword stroke. A tracker reads actual 
 Fortitude and Knowledge express endurance and understanding. Agility remains valuable to an archer, but the class does not demand one weapon or one attack attribute. +4 HP places its contribution beside Blade and Leader, below Protector and Unbalanced.
 
 [Design comparisons and healing traditions](../reviews/1161-warden-and-healing.md)
+
+**Starting coin contribution:** +2 coins (proposed allocation). See [starting coins](../starting-coins.md).

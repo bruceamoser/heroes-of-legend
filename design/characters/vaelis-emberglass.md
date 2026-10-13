@@ -2,7 +2,7 @@
 
 *The old elemental scholar with dangerous curiosity.*
 
-**Elf Arcanist · HP 17/17 · Grit 2/2 · Speed 7 squares · Bulk 0/7.**
+**Elf Arcanist · HP 17/17 · Grit 2/2 · Speed 7 squares · Bulk 7/7.**
 
 ## Attributes and ancestry
 
@@ -70,14 +70,14 @@ Fresh pool: **13 + 0 = 13 DP**. All discipline purchases below occur before card
 
 ## Equipment and derived statistics
 
-**No mechanical equipment is granted by these choices.** Ordinary appearance/clothing is descriptive; no armor, weapon, focus, tools or adventuring supplies are assumed.
+**No mechanical equipment is granted by these ability choices.** Market purchases are listed below. Ordinary appearance/clothing is descriptive; no armor, weapon, focus, tools or adventuring supplies are assumed.
 
 HP: 12 + ancestry 2 + class 2 + Fortitude 0 + trait 0 + Conditioned Body 1 = **17**.
-Capacity: 10 + 3 × Brawn (-1) = **7**. Bulk **0**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 1 + trait 0 = **7**.
+Capacity: 10 + 3 × Brawn (-1) = **7**. Granted Bulk **0** + purchased Bulk **7** = **7**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 1 + trait 0 = **7**.
 
 Physical resistance: **0**. Other resistances: **0**. Wounds and death marks: **0**. Grit: **2**. No HP or Grit has been spent during creation.
 
-Starting coins: **unassigned**; the catalog has no numeric starting-coin formula. No coin purchases, potions, additional packs, materials or finished crafted goods are invented here. Repeated compatible weapon/tool grants supply no duplicates.
+Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
 
 **Recipes:** none granted or purchased.
 
@@ -110,3 +110,23 @@ All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, B
 Its Calling 1 requirement and 2-DP cost are unchanged, so this ledger stays valid;
 actual creature selection awaits the eligible bestiary profiles. No tiny form,
 scouting sense or object-carrying ability is automatically supplied.
+
+## Starting coins and shopping — proposed allocation
+
+40 + 2 + 10 + 7 + 6 (base + ancestry + culture + background + class) = **65 coins**.
+
+One plain worn outfit is supplied by the proposed creation baseline: 0 carried Bulk, no armor benefit. All other items below are paid for.
+
+| Purchase | Coins | Bulk | Coins left |
+|---|---:|---:|---:|
+| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 62 |
+| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 58 |
+| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 55 |
+| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 46 |
+| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 41 |
+| [Rope Coil](../equipment/rope-coil.md) | 5 | 1 | 36 |
+| [Lesser Healing Bottle](../equipment/lesser-healing-bottle.md) | 20 | 1 | 16 |
+
+**Spent 49; coins carried 16; final Bulk 7/7.** No encumbrance penalty or change to HP, Speed or Grit. The pack itself is counted. The lesser bottle is d4 and restores 6 HP per use under the normal potion action.
+
+[Price list](../market.md) · [Starting-coin allocation](../starting-coins.md)

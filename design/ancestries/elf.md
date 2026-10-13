@@ -14,3 +14,5 @@ not a required personality. Any ancestry may grow up in any culture.
 - [The Wood Whispers](trait-elf-leaf-listener.md) — A startled bird tells you what a shouted warning never could.
 - [Grace of the Elder Folk](trait-elf-unhurried-grace.md) — Where others hurry, you seem simply to arrive.
 - [Dream beneath the Stars](trait-elf-star-familiar.md) — Your body rests while part of you walks old paths.
+
+**Starting coin contribution:** +2 coins (proposed allocation). See [starting coins](../starting-coins.md).

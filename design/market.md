@@ -142,12 +142,12 @@ otherwise use the printed value rather than maintaining regional multipliers.
 Record a concrete offer before buying. Exact scarcity and merchant stock remain
 adventure decisions, not a universal cap on player purchases.
 
-**Resale proposal:** intact, useful mundane equipment sells for half list price,
-rounded down, to a willing buyer. Card-granted items use the same rule, and selling
+**Agreed sale/trade rule:** intact, useful gear sells for half list price,
+rounded down, or trades for its full listed value with a willing trader. A 12-coin weapon sells for 6 coins or trades for 12 coins of goods. Pay any shortfall in coins; unused trade value is not cash change. A trade cannot be redeemed for coins, vouchers or other cash equivalents at full value. Card-granted items use the same rule, and selling
 never renews their grant. Consumables and materials with uncertain remaining supply
 have no standard resale offer. Goods freshly crafted or acquired at full supply
 may attract half-price offers, but the buyer must actually need that quantity.
-Special items require an explicit offer; treasure such as gems has its stated
+Special items still require an available willing trader; apply the same half-sale/full-trade rule to the agreed item valuation. Treasure such as gems has its stated
 trade value, without a second automatic half-price reduction.
 
 All material bundles must name their actual contents. Ordinary d6 ingredients
@@ -180,15 +180,12 @@ limitations. Sharing rope, light and camp tools is a choice, not a free group
 inventory. Card-granted items remain part of carried Bulk even though they cost
 no coins at creation.
 
-**Recommended starting range to test: 50–70 coins after card grants.** At 50, a
+**Agreed starting target: 50–70 coins after card grants.** At 50, a
 character can buy road essentials, a lesser potion and retain 6 coins; at 70 that
 same choice leaves 26 for specialist purchases or reserves. The fully equipped
 explorer with a potion costs 51, so the low end requires a small tradeoff. This
 is a proposed range, not an assigned character balance or an approved formula.
 
-Next choose contributions for **base + ancestry + culture + background + class**.
-Do not assign those values until the shopping experience is approved. Ancestry and
-class should not dictate wealth through large modifiers merely because a trope
-suggests expensive equipment; much of that equipment is already granted.
+The [proposed starting allocation](starting-coins.md) supplies base + ancestry + culture + background + class values, all within that target.
 
 [Research and six-character basket checks](reviews/1166-market-review.md)

@@ -2,7 +2,7 @@
 
 *The shield-bearing guardian who brings everyone home.*
 
-**Dwarf Protector · HP 25/25 · Grit 2/2 · Speed 5 squares · Bulk 3/13.**
+**Dwarf Protector · HP 25/25 · Grit 2/2 · Speed 5 squares · Bulk 11/13.**
 
 ## Attributes and ancestry
 
@@ -75,11 +75,11 @@ Fresh pool: **10 + 1 = 11 DP**. All discipline purchases below occur before card
 | Round shield | [Shielding Step](../cards/shielding-step.md) | 1 |
 
 HP: 12 + ancestry 4 + class 5 + Fortitude 2 + trait 1 + Conditioned Body 1 = **25**.
-Capacity: 10 + 3 × Brawn (1) = **13**. Bulk **3**, so encumbrance penalty **0**. Speed: ancestry 5 + Agility 0 + trait 0 = **5**.
+Capacity: 10 + 3 × Brawn (1) = **13**. Granted Bulk **3** + purchased Bulk **8** = **11**, so encumbrance penalty **0**. Speed: ancestry 5 + Agility 0 + trait 0 = **5**.
 
 Physical resistance: **2 while wearing the granted medium armor**. Other resistances: **0**. Wounds and death marks: **0**. Grit: **2**. No HP or Grit has been spent during creation.
 
-Starting coins: **unassigned**; the catalog has no numeric starting-coin formula. No coin purchases, potions, additional packs, materials or finished crafted goods are invented here. Repeated compatible weapon/tool grants supply no duplicates.
+Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
 
 **Recipes:** none granted or purchased.
 
@@ -104,3 +104,24 @@ These are all origin grants, purchases and the free signature; there is no equip
 - [Between Them](../cards/signature-protector-between-them.md) — Reaction; None — no roll.
 
 All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
+
+## Starting coins and shopping — proposed allocation
+
+40 + 2 + 10 + 7 + 5 (base + ancestry + culture + background + class) = **64 coins**.
+
+One plain worn outfit is supplied by the proposed creation baseline: 0 carried Bulk, no armor benefit. All other items below are paid for.
+
+| Purchase | Coins | Bulk | Coins left |
+|---|---:|---:|---:|
+| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 61 |
+| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 57 |
+| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 54 |
+| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 45 |
+| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 40 |
+| [Rope Coil](../equipment/rope-coil.md) | 5 | 1 | 35 |
+| [Small Necessities](../equipment/small-necessities.md) | 2 | 1 | 33 |
+| [Lesser Healing Bottle](../equipment/lesser-healing-bottle.md) | 20 | 1 | 13 |
+
+**Spent 51; coins carried 13; final Bulk 11/13.** No encumbrance penalty or change to HP, Speed or Grit. The pack itself is counted. The lesser bottle is d4 and restores 6 HP per use under the normal potion action.
+
+[Price list](../market.md) · [Starting-coin allocation](../starting-coins.md)

@@ -14,3 +14,5 @@ not a required personality. Any ancestry may grow up in any culture.
 - [A Foot in Two Worlds](trait-human-many-homes.md) — You learned early that a stranger is sometimes only a person whose words you do not know.
 - [Make Room at the Fire](trait-human-shared-table.md) — You can turn a cold greeting into a place at the table.
 - [The Impossible Streak](trait-human-practiced-patience.md) — Someone says it cannot be done, and you hear a challenge.
+
+**Starting coin contribution:** +1 coins (proposed allocation). See [starting coins](../starting-coins.md).

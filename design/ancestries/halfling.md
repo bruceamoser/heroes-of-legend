@@ -14,3 +14,5 @@ not a required personality. Any ancestry may grow up in any culture.
 - [Quiet as a Burrow](trait-halfling-quiet-company.md) — You learned to come home late without waking the household.
 - [A Little Luck](trait-halfling-good-cheer.md) — The latch catches your coat a heartbeat before you step into trouble.
 - [Second Breakfast](trait-halfling-resilient.md) — You know how to make a small comfort last.
+
+**Starting coin contribution:** +0 coins (proposed allocation). See [starting coins](../starting-coins.md).

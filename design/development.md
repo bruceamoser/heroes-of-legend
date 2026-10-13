@@ -31,10 +31,12 @@ purchased sequentially; no additional rank level gates. Cards have no prerequisi
 card chains. Receive one chosen class signature at 3 and 7; only class and level
 qualify it. No multiclassing or access to another class’s signatures.
 
-Coins are one currency. Starting coins depend on base, ancestry, background and
-class, but the exact numbers are not established here. See the [proposed market](market.md) for prices and budget comparisons; its new
-starting-outfit convention remains a proposal. Starting usable equipment
-comes from explicit card grants. Potions are not silently included in everyone’s kit.
+Coins are one currency. The agreed target is 50–70 starting coins after card grants.
+The [proposed allocation](starting-coins.md) is 40 + ancestry + culture + background
++ class. After resolving grants, use the [market](market.md), record purchases,
+remaining coins, carried Bulk and occupied hands. The plain worn outfit is a
+proposed universal starting baseline; packs and potions are purchased, not free.
+Gear sells for half price or trades at full value with a willing trader.
 
 ## Ledger to copy
 
