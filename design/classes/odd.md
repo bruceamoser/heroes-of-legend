@@ -29,3 +29,15 @@ Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost
 - [Strange but Effective](../cards/signature-odd-strange-but-effective.md)
 - [An Unexpected Exit](../cards/signature-odd-an-unexpected-exit.md)
 - [One Last Remark](../cards/signature-odd-one-last-remark.md)
+
+## Signature identity in play
+
+The revised options aim for these moments, with a deliberate advantage over shared
+cards of their tier. Each is an independent choice, not a progression chain.
+
+- **Level 1:** Reframe a task, distract usefully, or escape after exertion.
+- **Level 3:** Assist unusually well, uncover an alternate approach, or pull a companion out of trouble.
+- **Level 7:** Apply ingenious force, escape with a partner, or turn pain into a response.
+
+See the [full signature review](../reviews/1153-signature-review.md) for comparisons
+and remaining playtest questions. Individual effects remain proposals.

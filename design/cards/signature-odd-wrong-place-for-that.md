@@ -1,16 +1,16 @@
 # Wrong Place for That
 
-*You step aside with a companion in tow, leaving the blow to explain its own poor timing.*
+*You catch a companion by the sleeve and stumble away together, leaving the next blow aimed at suddenly empty ground.*
 
 ## Rules
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** Self and one adjacent willing ally, after an adjacent enemy’s attack resolves.
+**Target / range / shape:** Self and one adjacent willing ally, after an attack against either of you resolves.
 
-After the triggering attack resolves, you and one willing ally adjacent to you when you use this Reaction may each move 1 square without provoking. Choose the order and legal free endpoints.
+You and that ally may each move up to 2 squares without provoking. Choose the order and legal free endpoints. Each must still be able to move. The triggering attack has already resolved; this provides no retroactive protection.
 
-**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
+**Duration:** Immediate movement.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ After the triggering attack resolves, you and one willing ally adjacent to you w
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Movement
 
-**ID:** signature-odd-wrong-place-for-that · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-odd-wrong-place-for-that · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/odd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

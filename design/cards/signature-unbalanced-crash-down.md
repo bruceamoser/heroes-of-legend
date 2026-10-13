@@ -1,16 +1,16 @@
 # Crash Down
 
-*You drive them into the obstruction with enough commitment to take their feet away.*
+*You drive the target backward and finish the motion with a downward wrench that leaves them sprawled where they land.*
 
 ## Rules
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** One creature your Main Action attack has just pushed into a hard obstruction.
+**Target / range / shape:** One creature pushed by your Main Action attack or Force action.
 
-Once per turn when your Main attack pushes a creature into a hard obstruction, also knock it prone. No additional collision damage.
+After that push resolves, you may knock the target prone even if it did not strike an obstruction. Then you may move 1 square toward it without provoking if a legal free square is available. This adds no collision damage and cannot create numbered Prone.
 
-**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
+**Duration:** Immediate knockdown and step.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ Once per turn when your Main attack pushes a creature into a hard obstruction, a
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Control / Movement
 
-**ID:** signature-unbalanced-crash-down · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Once on your turn; no benefit from free attacks.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-unbalanced-crash-down · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/unbalanced.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

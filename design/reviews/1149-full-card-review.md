@@ -200,3 +200,9 @@ These are hand-worked rule checks, not simulation results.
 - **Refuge:** One Maneuver activates Defend and extends its Boon to one adjacent
   ally. It no longer requires Defend to have been activated with another Maneuver.
   An ally leaving adjacency loses that benefit; the caster's Defend remains.
+
+## Subsequent signature revision
+
+The [full signature review](1153-signature-review.md) supersedes this report’s
+signature text and findings. This report and its fingerprints preserve the earlier
+review baseline; they do not certify the later revisions.

@@ -1,16 +1,16 @@
 # Lead the Step
 
-*You fall back with a hand extended, leaving no friend to guess your intention.*
+*You give ground with one hand extended, drawing your companions after you before the enemy can separate you.*
 
 ## Rules
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** One adjacent willing ally, when you use Disengage.
+**Target / range / shape:** Up to two adjacent willing allies, when you use Disengage.
 
-When you Disengage, one adjacent willing ally may move 1 square without provoking, once per turn.
+Each chosen ally may move 1 square without provoking, in an order you choose. Your Disengage works normally. The allies spend no actions or movement allowances and must end in separate free squares.
 
-**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
+**Duration:** Immediate ally movement; your Disengage lasts for this turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ When you Disengage, one adjacent willing ally may move 1 square without provokin
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Movement
 
-**ID:** signature-leader-lead-the-step · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Once on your turn.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-leader-lead-the-step · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/leader.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

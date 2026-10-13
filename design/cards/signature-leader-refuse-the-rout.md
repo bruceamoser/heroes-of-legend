@@ -1,16 +1,16 @@
 # Refuse the Rout
 
-*You plant yourself where everyone can hear and give fear something to contend with.*
+*You stand where everyone can see you, raise your voice and turn a scattering retreat into a line that holds.*
 
 ## Rules
 
-**Action:** Main Action · **Attribute:** None — no roll
+**Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** Willing allies within 3 squares that can hear you.
+**Target / range / shape:** Self and up to three willing allies within 4 squares that can hear you.
 
-All allies within 3 squares who hear you reduce temporary Frightened by 2. Does not restore HP or actions already lost.
+Each recipient reduces temporary Frightened by up to 2, minimum 0, and gains 1 Boon to its next defense before the start of your next turn. Each may immediately move 1 square without provoking. Resolve movement in an order you choose. No effect on starred conditions, and no restoration of actions already spent.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
+**Duration:** Condition reduction and movement are immediate; Boons expire when used or the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ All allies within 3 squares who hear you reduce temporary Frightened by 2. Does 
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Recovery / Defense / Movement
 
-**ID:** signature-leader-refuse-the-rout · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Once on your turn.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-leader-refuse-the-rout · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/leader.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

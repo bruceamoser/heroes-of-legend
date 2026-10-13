@@ -1,16 +1,18 @@
 # Leave No Pursuit
 
-*You lift the bent grass behind you and choose the stones that keep no prints.*
+*You brush away the obvious prints, point out the stones that keep none and lead the party off the route their pursuers expect.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** Self; your route of up to Speed squares.
+**Time:** Ten minutes preparation, then up to one hour of guided travel.
 
-Move up to Speed without provoking through a legal route. Conceal ordinary tracks on that route; observers who can see you still can.
+**Target / range / shape:** Self and up to six willing companions following your route outside combat.
 
-**Duration:** Movement is immediate; the tracks remain concealed unless new evidence exposes them.
+Spend ten minutes preparing a departure from a campsite or other stopping place. Conceal ordinary traces of the departure and guide the group for up to one hour. Attempts to follow those ordinary tracks take 2 Banes. This does not erase magical marks, remove witnesses or conceal people from direct view. The protection ends where the party leaves your guidance or creates a conspicuous new trail.
+
+**Duration:** The concealed trail remains difficult to follow until new evidence exposes it.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +22,10 @@ Move up to Speed without provoking through a legal route. Conceal ordinary track
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Utility
 
-**ID:** signature-shadow-leave-no-pursuit · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** One application per departure; repeated preparation does not add more Banes.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-shadow-leave-no-pursuit · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/shadow.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

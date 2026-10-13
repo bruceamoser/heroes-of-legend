@@ -1,6 +1,6 @@
 # Open the Circle
 
-*You widen the sign before you until your companions stand inside its protection.*
+*You sweep a ring of light around your companions, its edge rising like a thin glass wall when magic strikes.*
 
 ## Rules
 
@@ -8,9 +8,9 @@
 
 **Target / range / shape:** Self and willing allies within 2 squares when used.
 
-You and willing allies within 2 squares when you use this card gain 1 Boon to defenses against spells until the start of your next turn. Reapplying this card replaces your previous application.
+Each recipient gains 1 Boon to defenses against spells until the start of your next turn. During that time, reduce the first push or pull against each recipient by 2 squares, minimum 0; use the highest applicable reduction, not a sum. This is a ward, not physical cover.
 
-**Duration:** Until the start of your next turn.
+**Duration:** Until the start of your next turn; mark each recipient’s displacement reduction when used.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ You and willing allies within 2 squares when you use this card gain 1 Boon to de
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Magic / Defense
 
-**ID:** signature-arcanist-open-the-circle · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Reapplying replaces your previous ward; it does not refresh a recipient’s spent displacement reduction before your next turn.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-arcanist-open-the-circle · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/arcanist.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

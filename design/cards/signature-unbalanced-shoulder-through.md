@@ -1,6 +1,6 @@
 # Shoulder Through
 
-*You drive through the shove instead of stopping where they expected.*
+*You drive your shoulder into the resistance and keep pushing after the first step gives way.*
 
 ## Rules
 
@@ -8,9 +8,9 @@
 
 **Target / range / shape:** One creature pushed by your Force action.
 
-Once per turn your Force push gains 1 square after its result; no extra grapple or obstacle progress.
+Add 1 square to your Force push, on any result. You may then move 1 square directly toward the target without provoking if the square is free. This adds no grapple reduction or obstacle progress, and grants no attack.
 
-**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
+**Duration:** Immediate additional push and following step.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ Once per turn your Force push gains 1 square after its result; no extra grapple 
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Control / Movement
 
-**ID:** signature-unbalanced-shoulder-through · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Once on your turn.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-unbalanced-shoulder-through · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/unbalanced.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

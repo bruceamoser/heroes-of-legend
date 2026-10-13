@@ -1,16 +1,20 @@
 # One Last Remark
 
-*You hear the farewell and give the living something they can still do.*
+*You answer the cry of pain with a sharp, stubborn joke, giving your companion something to do before despair catches up.*
 
 ## Rules
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** Two willing allies within 5 squares that can hear you, when you hear an ally’s Last Words within 5 squares.
+**Target / range / shape:** One willing ally within 4 squares that can hear you, after it takes damage; alternatively, when you hear an ally’s Last Words within 4 squares.
 
-Upon hearing an ally’s Last Words within 5 squares, two willing allies each move 2 squares without provoking. Once per dying ally; does not delay or prevent death.
+After damage resolves, the chosen ally may move up to 3 squares without provoking or make one free Basic Melee attack against an adjacent enemy. It must be able to take the chosen action.
 
-**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
+If triggered by Last Words instead, choose up to two other willing allies within 4 squares that can hear you; each chooses one of those benefits. The dying speaker gains no action, and its death is neither delayed nor reversed.
+
+Basic Melee uses each attacker’s Brawn, weapon and normal outcomes. Damage from a free attack cannot trigger a free attack through this card; no further free attacks arise from these attacks.
+
+**Duration:** Immediate chosen benefits.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +24,10 @@ Upon hearing an ally’s Last Words within 5 squares, two willing allies each mo
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Movement / Attack
 
-**ID:** signature-odd-one-last-remark · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Normal Reaction cost; the Last Words benefit can trigger once per dying ally.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-odd-one-last-remark · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/odd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

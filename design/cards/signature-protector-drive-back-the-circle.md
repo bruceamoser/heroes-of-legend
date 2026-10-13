@@ -1,16 +1,16 @@
 # Drive Back the Circle
 
-*You brace and surge outward, claiming breathing room for everyone behind you.*
+*You brace and surge outward, forcing the surrounding enemies back while your companions scramble into the room you have made.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** Every adjacent enemy when the action begins.
+**Target / range / shape:** Every enemy adjacent when you begin; up to two willing allies initially within 2 squares.
 
-Push every adjacent enemy 2 squares directly away. Resolve in an order you choose. Collision rules apply; moving-group geometry remains an open rule detail.
+Push each enemy 2 squares directly away from you, in an order you choose. Then each chosen ally may move up to 2 squares without provoking. The allies need legal routes and free endpoints. No direct damage; collisions resolve normally.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
+**Duration:** Immediate displacement and ally movement.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ Push every adjacent enemy 2 squares directly away. Resolve in an order you choos
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Control / Movement
 
-**ID:** signature-protector-drive-back-the-circle · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-protector-drive-back-the-circle · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

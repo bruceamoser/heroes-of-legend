@@ -1,16 +1,16 @@
 # Shared Resolve
 
-*You remind the circle why each of you chose to come this far.*
+*You gather your companions with a few familiar words, steadying one trembling voice after another until they answer together.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** Willing allies within 3 squares that can hear you, and yourself for the movement.
+**Target / range / shape:** Self and up to three willing allies within 3 squares that can hear you.
 
-Each willing ally within 3 squares may reduce temporary Frightened by 1. You may then move 2 squares without provoking. No HP restoration.
+Each recipient chooses one temporary condition from Frightened, Dazed or Poisoned and reduces it by up to 2, minimum 0. Each also gains 1 Boon to its next defense before the start of your next turn. No HP restored, no starred source removed and no spent actions returned. A recipient without those conditions still gains the defensive Boon.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
+**Duration:** Reductions are immediate; Boons expire when used or the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ Each willing ally within 3 squares may reduce temporary Frightened by 1. You may
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Recovery / Defense
 
-**ID:** signature-shepherd-shared-resolve · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-shepherd-shared-resolve · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

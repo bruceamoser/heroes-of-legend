@@ -1,16 +1,16 @@
 # Deliberate Spark
 
-*You place a final spark where your enemy was about to plant a foot.*
+*You flick a final spark into the ground beside your target’s foot, forcing a stumbling step as the spell lands.*
 
 ## Rules
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** One target of your Strong damaging spell, after that spell resolves.
+**Target / range / shape:** One creature hit by your Main Action damaging spell.
 
-Once per turn after a Strong damaging spell, choose one target of that spell and push it 1 square.
+On a Standard or Strong result, after resolving the spell, you may push one of its targets 1 square directly away from you. Use this once on your turn. It adds no direct damage; normal collision rules apply.
 
-**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
+**Duration:** Immediate push after the spell.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ Once per turn after a Strong damaging spell, choose one target of that spell and
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Magic / Control
 
-**ID:** signature-arcanist-deliberate-spark · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Once on your turn; no benefit from free attacks.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-arcanist-deliberate-spark · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/arcanist.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

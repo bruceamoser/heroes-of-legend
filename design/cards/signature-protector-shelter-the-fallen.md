@@ -1,6 +1,6 @@
 # Shelter the Fallen
 
-*You steady the fallen, then draw them away from the place where the blows are landing.*
+*You drop beside your fallen companion, steady their breathing and drag them behind your guard in one practiced motion.*
 
 ## Rules
 
@@ -8,9 +8,9 @@
 
 **Target / range / shape:** One adjacent Dying player-character ally.
 
-Stabilize the adjacent Dying ally, then move it up to 2 squares to a free square adjacent to you. You need a free hand and must be able to support its weight. This movement does not provoke. Restore no HP and remove no wound; Last Words cannot be interrupted.
+Stabilize it, then move it up to 2 squares to a free square adjacent to you without provoking. You need a free hand and must be able to support its weight. Gain Defend until the start of your next turn. This restores no HP and removes no wound; it cannot interrupt Last Words.
 
-**Duration:** Instant. Applied conditions follow their normal duration and decay.
+**Duration:** Stabilization and relocation are immediate; your Defend ends at the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ Stabilize the adjacent Dying ally, then move it up to 2 squares to a free square
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Recovery / Movement / Defense
 
-**ID:** signature-protector-shelter-the-fallen · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-protector-shelter-the-fallen · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

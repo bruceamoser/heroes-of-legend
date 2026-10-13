@@ -1,16 +1,16 @@
 # Sweeping Entry
 
-*You arrive with your weapon already describing the space you mean to claim.*
+*You rush in behind a broad sweep, using the threat of the blade to claim a better position.*
 
 ## Rules
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** Self; move toward a visible enemy.
+**Target / range / shape:** Self; a visible enemy you can approach by a legal route.
 
-Move 2 squares toward a visible enemy without provoking. Your next melee attack this turn may push its target 1 square after damage.
+Move up to 3 squares toward that enemy without provoking. Your next Main Action melee attack this turn may push one of its targets 1 square directly away after resolution, on any result.
 
-**Duration:** Movement is immediate; the push rider expires after your next melee attack this turn or at turn end.
+**Duration:** Movement is immediate; unused push benefit expires at turn end.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ Move 2 squares toward a visible enemy without provoking. Your next melee attack 
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Movement / Control
 
-**ID:** signature-blade-sweeping-entry · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-blade-sweeping-entry · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

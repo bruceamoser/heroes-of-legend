@@ -1,16 +1,16 @@
 # Expose the Mechanism
 
-*You watch the moving parts until the maker’s compromises become clear.*
+*You point out the repeating hesitation in the creature’s movements and call to your companions just as it happens again.*
 
 ## Rules
 
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** One visible active construct or device within 4 squares.
+**Target / range / shape:** One visible creature or active device within 5 squares; up to two allies within 5 squares that can hear you.
 
-Examine the visible active construct or device. Learn one actual resistance and one actual weakness, if present. Choose one ally who can hear your explanation: its next roll acting on one of these facts before the start of your next turn gains 1 Boon. No weakness is invented or resistance changed.
+Learn one actual resistance and one actual weakness of the target, if present, and one capability you have seen it use in this scene. The DA explains that capability’s visible trigger or limitation. Each chosen ally gains 1 Boon to its next roll against that target before the start of your next turn. No weakness is created and no resistance is reduced.
 
-**Duration:** Information persists; the Boon lasts until used or the start of your next turn.
+**Duration:** Information persists; each Boon expires when used or the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ Examine the visible active construct or device. Learn one actual resistance and 
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Utility
 
-**ID:** signature-intellect-expose-the-mechanism · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-intellect-expose-the-mechanism · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

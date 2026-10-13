@@ -1,16 +1,16 @@
 # Follow My Signal
 
-*You catch an ally’s eye and give the small signal they have learned to trust.*
+*You lift two fingers and catch a pair of answering glances; both companions know what comes next.*
 
 ## Rules
 
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** One ally within 3 squares that can see or hear your Aid signal.
+**Target / range / shape:** Up to two allies within 3 squares that can see or hear your Aid signal.
 
-Your Aid reaches one ally within 3 squares that sees or hears your signal.
+When you use Aid, you may assist two allies instead of one. Name the task for each and explain how your signal helps. Each gains Aid’s normal 1 Boon to its next matching roll before the start of your next turn. Outside combat, Aid still replaces your own contribution to a group roll.
 
-**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
+**Duration:** Each Boon expires when used or the start of your next turn.
 
 **Equipment / acquisition:** None.
 
@@ -20,8 +20,10 @@ Your Aid reaches one ally within 3 squares that sees or hears your signal.
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Utility
 
-**ID:** signature-leader-follow-my-signal · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** One two-recipient Aid on your turn; further Aid uses are ordinary.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-leader-follow-my-signal · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/leader.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

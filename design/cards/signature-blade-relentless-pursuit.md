@@ -1,18 +1,18 @@
 # Relentless Pursuit
 
-*You refuse to let the space between you grow comfortable.*
+*You follow the retreating shoulder through the press, keeping your blade close enough that escape becomes another opening.*
 
 ## Rules
 
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** Self; a visible enemy within 2 squares when it begins voluntary movement.
+**Target / range / shape:** A visible enemy within 2 squares when it begins voluntary movement.
 
-After the triggering enemy finishes moving, follow it up to your Speed without provoking. Choose a legal route and free endpoint; this does not stop its movement or grant an attack.
+After it finishes moving, move up to your Speed toward it without provoking. If you end adjacent, you may make one free Basic Melee attack against it using Brawn. Choose a legal route and endpoint; this does not stop or rewind its movement. If that movement was granted by a free attack, it cannot trigger this card’s free attack. No attack chains.
 
-**Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
+**Duration:** Immediate pursuit and optional attack.
 
-**Equipment / acquisition:** None.
+**Equipment / acquisition:** A melee weapon is required for the attack; grants one ordinary melee weapon, Bulk 1, if absent.
 
 ---
 
@@ -20,8 +20,10 @@ After the triggering enemy finishes moving, follow it up to your Speed without p
 
 **Type:** Signature
 
-**Limits:** Normal action economy; any additional limit is printed above.
+**Tags:** Skill / Movement / Attack
 
-**ID:** signature-blade-relentless-pursuit · **Status:** Proposal — fresh design; not approved or balance-tested.
+**Limits:** Repeatable; normal action economy applies.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**ID:** signature-blade-relentless-pursuit · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)
