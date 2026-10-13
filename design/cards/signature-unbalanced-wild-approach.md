@@ -1,12 +1,16 @@
 # Wild Approach
 
+*You see your opening and charge with the whole of your impatient heart.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Move 2 squares toward a visible enemy; normal opportunity rules apply. Your next Main melee attack this turn gains 1 Boon.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

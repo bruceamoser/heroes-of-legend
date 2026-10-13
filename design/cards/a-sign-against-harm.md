@@ -2,13 +2,15 @@
 
 *Draw a line in the air and tell the danger where it ends.*
 
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
 **Target / range / shape:** Self or one adjacent willing ally before an attack that will give the target a defense roll.
 
 Trace a ward against this blow. Grant 1 Boon to the defense; no damage or resistance bonus is added.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -18,7 +20,7 @@ Trace a ward against this blow. Grant 1 Boon to the defense; no damage or resist
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** a-sign-against-harm · **Status:** Proposal for Bruce’s review.
 

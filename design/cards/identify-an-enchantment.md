@@ -1,14 +1,18 @@
 # Identify an Enchantment
 
+*You study the object until its small strangenesses begin to form a language you understand.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** One accessible magical item; 10 minutes
 
 Weak: learn broad purpose. Standard: learn function and activation requirements. Strong: also reveal any curse and its activation. No recipe or waived prerequisites.
 
-**Duration:** As stated in the effect
+**Duration:** The result applies when the stated activity is complete; information and earned progress persist.
 
-**Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+**Equipment / acquisition:** None.
 
 ---
 

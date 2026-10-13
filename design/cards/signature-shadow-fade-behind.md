@@ -1,12 +1,16 @@
 # Fade Behind
 
+*You give ground until the space you occupied no longer seems important.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 After Disengage, move 1 square without provoking. Hidden still requires actual concealment.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

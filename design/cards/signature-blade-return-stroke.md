@@ -1,12 +1,16 @@
 # Return Stroke
 
+*You turn a successful guard into the beginning of your own blow.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 After a Strong defense against an adjacent melee attacker, make a free Basic Melee attack against it. Free attacks trigger no further free attacks.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** None.
 

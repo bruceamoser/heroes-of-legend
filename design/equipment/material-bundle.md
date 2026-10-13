@@ -1,5 +1,9 @@
 # Material Bundle
 
+*You spread out your gathered materials, already imagining what your hands will make of them.*
+
+## Rules
+
 - **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-material-bundle
 - **Bulk:** 1

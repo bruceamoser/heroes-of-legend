@@ -1,5 +1,9 @@
 # Shadow
 
+*You learn the unguarded routes through a world that rarely looks in the right direction.*
+
+## Rules
+
 **Agreed:** minimum 0 in Agility, Guile; HP contribution +3. No multiclassing.
 
 **Proposal:** choose two distinct rank-1 disciplines from Subterfuge, Marksmanship, Mind, Athletics.

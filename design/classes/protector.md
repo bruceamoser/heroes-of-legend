@@ -1,5 +1,9 @@
 # Protector
 
+*You see who needs shelter and step into the space between them and harm.*
+
+## Rules
+
 **Agreed:** minimum 0 in Fortitude, Reason; HP contribution +5. No multiclassing.
 
 **Proposal:** choose two distinct rank-1 disciplines from Armor, Guard, Arms, Medicine.

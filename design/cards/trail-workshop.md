@@ -1,5 +1,9 @@
 # Trail Workshop
 
+*You spread your tools on a cloth and turn a stopping place into a workshop.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** One known compatible ordinary recipe; recipe interval
@@ -20,7 +24,7 @@ Requires a known ordinary recipe. Grants craft tools if absent and two compatibl
 
 **Type:** Skill
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** trail-workshop · **Status:** Proposal — fresh design; not approved or balance-tested.
 

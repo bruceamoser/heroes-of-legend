@@ -1,12 +1,16 @@
 # Fell the Balance
 
+*You feel their footing fail and choose to finish the motion beneath their guard.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Once per turn, replace a Strong Main melee attack’s optional push with knocking the target prone. Do not gain both riders from this substitution.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

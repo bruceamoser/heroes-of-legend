@@ -1,5 +1,9 @@
 # Fletched Ammunition
 
+*You smooth each feather into place and sight down the finished shaft.*
+
+## Rules
+
 - **ID:** recipe-fletched-ammunition
 - **Status:** Proposal — ordinary recipe
 - **Permission:** Trail Workshop; the recipe alone grants no crafting permission

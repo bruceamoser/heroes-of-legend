@@ -1,12 +1,16 @@
 # A Hand in Darkness
 
+*You hurry to the fallen and answer their fading breath with your own steady voice.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 When an ally within 3 squares enters Dying, move adjacent if a legal route of up to 3 squares exists and Stabilize it. The wound still occurs; this cannot interrupt Last Words.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** None.
 

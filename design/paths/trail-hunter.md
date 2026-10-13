@@ -16,10 +16,10 @@ Reading tracks and reading an enemy’s next step feel like one profession. Know
 
 ## Give it room to grow
 
-- At level 3, [Cut Off the Escape](../cards/cut-off-the-escape.md) opens another way to affect the scene.
-- At level 7, [The Hunt Ends Here](../cards/the-hunt-ends-here.md) offers a larger moment.
+- At level 3, [Cut Off the Escape](../cards/cut-off-the-escape.md) (Marksmanship 2) opens another way to affect the scene.
+- At level 7, [The Hunt Ends Here](../cards/the-hunt-ends-here.md) (Marksmanship 3 and Wilderness 1) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Beast Companion](beast-companion.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

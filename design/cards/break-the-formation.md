@@ -2,6 +2,8 @@
 
 *Drive one foe backward until the enemy line becomes a pile of limbs.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Brawn
 
 **Target / range / shape:** One adjacent creature
@@ -22,7 +24,7 @@ Choose your target and make the attack.
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** break-the-formation · **Status:** Proposal — fresh design; not approved or balance-tested.
 

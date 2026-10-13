@@ -1,22 +1,26 @@
 # Scales beneath the Skin
 
+*You brace as a brief shimmer of scales catches the light across your arms.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
 **Target / range / shape:** Self, before taking fire or physical damage.
 
 Scales flare across your skin. Gain resistance 3 to one of those types for this event only, using the highest matching value. No stacking with armor.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Flame 2
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Flame 2 and Wilderness 1
 
 **Type:** Magic
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** scales-beneath-the-skin · **Status:** Proposal for Bruce’s review.
 

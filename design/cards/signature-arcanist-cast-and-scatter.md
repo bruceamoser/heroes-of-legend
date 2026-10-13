@@ -1,12 +1,16 @@
 # Cast and Scatter
 
+*You are already moving when the last spark leaves your hand.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 After your Main spell resolves, move up to 2 squares without provoking, once per turn.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

@@ -1,12 +1,16 @@
 # Quiet the Tremor
 
+*You match their breathing until the shaking begins to ease.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Reduce temporary Frightened by 1 on one willing creature within 3 squares that hears you. No effect on starred trauma.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

@@ -1,5 +1,9 @@
 # Guard
 
+*You practice being where another person needs you before they have to ask.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-guard.
 
 Shields, interception and protection of others.

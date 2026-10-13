@@ -1,12 +1,16 @@
 # Expose the Mechanism
 
+*You watch the moving parts until the maker’s compromises become clear.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Examine one visible active construct or device within 4 squares. Learn one actual resistance and one actual weakness, if present. No change to them; no secret weakness invented.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

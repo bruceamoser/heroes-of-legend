@@ -1,5 +1,9 @@
 # Open the Furnace Door
 
+*You pull an unseen latch, and heat rolls over your face like an opened forge.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
 
 **Target / range / shape:** Every creature in a 3-wide, 2-deep rectangle immediately ahead of you.
@@ -10,7 +14,7 @@ A furnace door opens for a heartbeat. One roll at the worst applicable situation
 - **Standard:** 4 fire damage and push 2.
 - **Strong:** 6 fire damage, push 2 and Frightened 1 of you.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +24,7 @@ A furnace door opens for a heartbeat. One roll at the worst applicable situation
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** open-the-furnace-door · **Status:** Proposal for Bruce’s review.
 

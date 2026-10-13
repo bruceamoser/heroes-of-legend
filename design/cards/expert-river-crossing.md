@@ -1,14 +1,18 @@
 # Expert River Crossing
 
+*You study the current, choose your line, and slip into the river without surrendering your bearings.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Brawn
 
 **Target / range / shape:** A swim you could ordinarily attempt
 
 Gain 1/2/3 progress; at every outcome keep one carried item dry. Standard also retain orientation; Strong also identify a safer nearby landing. No permission to breathe underwater.
 
-**Duration:** As stated in the effect
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
-**Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+**Equipment / acquisition:** None.
 
 ---
 

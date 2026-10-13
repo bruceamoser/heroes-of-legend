@@ -2,6 +2,8 @@
 
 *Where you kneel, crushed grass begins to rise.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One willing creature within 2 squares.
@@ -12,7 +14,7 @@ A green warmth passes from your palm into their hurt. Pay 1 HP first, leaving yo
 - **Standard:** Restore 5 HP and reduce temporary Bleeding by 1.
 - **Strong:** Restore 7 HP and reduce temporary Bleeding by 2.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,7 +24,7 @@ A green warmth passes from your palm into their hurt. Pay 1 HP first, leaving yo
 
 **Type:** Magic / Recovery
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** sap-and-breath · **Status:** Proposal for Bruce’s review.
 

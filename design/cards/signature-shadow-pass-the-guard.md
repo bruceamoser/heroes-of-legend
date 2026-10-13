@@ -1,12 +1,16 @@
 # Pass the Guard
 
+*You pass at the edge of their attention, close enough to hear them breathe.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Move 2 squares without provoking along a legal route. You cannot cross occupied standing squares.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

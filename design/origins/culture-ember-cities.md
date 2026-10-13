@@ -1,8 +1,10 @@
 # Ember Cities
 
-Kilns, glassworks and night markets make the streets glow after sundown.
+*Kilns, glassworks and night markets make the streets glow after sundown.*
 
 *What beautiful thing did you first learn to make?*
+
+## Rules
 
 Choose one:
 

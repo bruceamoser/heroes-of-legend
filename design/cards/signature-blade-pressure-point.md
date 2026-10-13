@@ -1,12 +1,16 @@
 # Pressure Point
 
+*You finish your strike where the body remembers it with every step.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Your Strong Main melee attack may additionally apply Slowed 1, once per turn.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

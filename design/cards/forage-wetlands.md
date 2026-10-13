@@ -1,14 +1,18 @@
 # Forage Wetlands
 
+*You kneel beside the reeds, finding nourishment where others see only mud.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** A viable marsh or riverside; one hour
 
 Find usable food or plant materials. Increase one bundle 1/2/3 inventory steps, maximum d8. No usable resources means no attempt.
 
-**Duration:** As stated in the effect
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
-**Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+**Equipment / acquisition:** None.
 
 ---
 

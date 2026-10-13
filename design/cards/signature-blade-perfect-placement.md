@@ -1,12 +1,16 @@
 # Perfect Placement
 
+*You guide their retreat until their next step belongs to your plan.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Once per turn after a Strong Main melee attack, move its target 2 squares to a legal position by push or pull. Choose the mode; normal movement/collision rules apply.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

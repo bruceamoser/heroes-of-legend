@@ -1,6 +1,8 @@
 # Clearing Tonic
 
-The useful bottle is the one you prepared before you needed it.
+*You crush the sharp-smelling leaves and strain the mixture until it runs clear.*
+
+## Rules
 
 **Recipe permission:** [The Cleverest Mixture](../cards/the-cleverest-mixture.md).
 **Tools:** Mixing kit. **Time:** One hour per attempt.

@@ -2,6 +2,8 @@
 
 *One deliberate motion ends the argument before it becomes a battle.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
 
 **Target / range / shape:** One adjacent creature.
@@ -12,7 +14,7 @@ Hide your intent in an ordinary gesture, then make a melee attack. If you began 
 - **Standard:** 3 physical damage and Slowed 1.
 - **Strong:** 5 physical damage and Slowed 2.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -22,7 +24,7 @@ Hide your intent in an ordinary gesture, then make a melee attack. If you began 
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** a-courtesy-unanswered · **Status:** Proposal for Bruce’s review.
 

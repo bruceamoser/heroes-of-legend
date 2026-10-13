@@ -2,6 +2,8 @@
 
 *A hook of wind snatches the key before it reaches the drain.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One visible unattended object of up to Bulk 1 within 5 squares
@@ -12,17 +14,17 @@ Cannot take worn or held objects, deal impact damage, open locks or carry creatu
 - **Standard:** Pull it 3 squares.
 - **Strong:** Pull it 5 squares into your free hand if reachable.
 
-**Duration:** As stated in the effect
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Storm 2
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Storm 1 and Craft 1
 
 **Type:** Magic / Utility
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** storm-on-a-string · **Status:** Proposal — fresh design; not approved or balance-tested.
 

@@ -1,5 +1,9 @@
 # Twisted Cord
 
+*You roll the fibers together until many small strands become something worth trusting.*
+
+## Rules
+
 - **ID:** recipe-twisted-cord
 - **Status:** Proposal — ordinary recipe
 - **Permission:** Trail Workshop; the recipe alone grants no crafting permission

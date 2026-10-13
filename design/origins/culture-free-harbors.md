@@ -1,8 +1,10 @@
 # Free Harbors
 
-Cargoes and rumors change hands faster than the tide. You learned to listen in three directions.
+*Cargoes and rumors change hands faster than the tide. You learned to listen in three directions.*
 
 *Who will always give you a berth?*
+
+## Rules
 
 Choose one:
 

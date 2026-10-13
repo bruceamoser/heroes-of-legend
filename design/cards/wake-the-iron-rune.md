@@ -2,13 +2,15 @@
 
 *Every mark on your armor remembers a mountain.*
 
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
 **Target / range / shape:** Self, wearing armor.
 
-Trace the mark and feel your boots grow heavy. Until your next turn, reduce the distance of a push or pull against you by 1. Use the highest such reduction, not a sum.
+Trace the mark and feel your boots grow heavy. Until the start of your next turn, reduce the distance of a push or pull against you by 1. Use the highest such reduction, not a sum.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -18,7 +20,7 @@ Trace the mark and feel your boots grow heavy. Until your next turn, reduce the 
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** wake-the-iron-rune · **Status:** Proposal for Bruce’s review.
 

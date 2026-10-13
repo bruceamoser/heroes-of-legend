@@ -1,5 +1,9 @@
 # Noonday Judgment
 
+*You lift your hand, and a harsh brightness gathers over the place you have chosen.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** Every creature in a visible 3-by-3 area within 6 squares
@@ -20,7 +24,7 @@ One player roll uses the worst applicable net Boon/Bane situation. Areas include
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** noonday-judgment · **Status:** Proposal — fresh design; not approved or balance-tested.
 

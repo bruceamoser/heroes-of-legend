@@ -1,12 +1,16 @@
 # A Better Angle
 
+*You point to the position your friend has not yet noticed.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 One willing ally within 3 squares may move 2 squares without provoking toward a visible objective you name.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

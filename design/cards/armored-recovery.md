@@ -1,5 +1,9 @@
 # Armored Recovery
 
+*You plant an armored fist and rise with the familiar weight settling around you.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
 **Target / range / shape:** Self, prone while wearing armor
@@ -16,7 +20,7 @@ Stand without spending movement.
 
 **Type:** Skill
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** armored-recovery · **Status:** Proposal — fresh design; not approved or balance-tested.
 

@@ -1,5 +1,9 @@
 # Enchanting Workshop
 
+*You set your tools beside the impossible ingredient and begin the work that ordinary hands cannot finish.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** One known special-item recipe; recipe interval
@@ -20,7 +24,7 @@ Requires a special recipe and its printed materials. Also permits ordinary recip
 
 **Type:** Skill
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** enchanting-workshop · **Status:** Proposal — fresh design; not approved or balance-tested.
 

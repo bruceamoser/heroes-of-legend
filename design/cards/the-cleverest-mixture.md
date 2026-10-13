@@ -1,5 +1,9 @@
 # The Cleverest Mixture
 
+*You shake the bottle once, judge the color, and offer it with the confidence of long practice.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** Knowledge
 
 **Target / range / shape:** Self or one adjacent willing creature.
@@ -10,17 +14,17 @@ Use one prepared tonic supply and a free hand; check its inventory die after use
 - **Standard:** Reduce temporary Poisoned by 2 or Dazed by 1.
 - **Strong:** Reduce temporary Poisoned by 3 or Dazed by 2.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** No item needed unless named above.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Craft 3
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Craft 3 and Medicine 1
 
 **Type:** Skill / Crafting
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** the-cleverest-mixture · **Status:** Proposal for Bruce’s review.
 

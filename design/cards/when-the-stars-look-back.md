@@ -1,5 +1,9 @@
 # When the Stars Look Back
 
+*You show them a glimpse of the vast attention waiting beyond the familiar stars.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One visible creature within 5 squares.
@@ -10,7 +14,7 @@ For a moment, it understands that it has been noticed.
 - **Standard:** 4 mental damage and Dazed 2.
 - **Strong:** 6 mental damage and Paralyzed 2.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +24,7 @@ For a moment, it understands that it has been noticed.
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** when-the-stars-look-back · **Status:** Proposal for Bruce’s review.
 

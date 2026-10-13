@@ -1,5 +1,9 @@
 # Call a Tempest Beast
 
+*You call into the wind and hear a wild answer gathering inside the thunder.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
 **Target / range / shape:** One free visible square within 3 squares
@@ -16,7 +20,7 @@ Creature: HP 12, Speed 6, resistance 0. Its Main attack affects one adjacent cre
 
 **Type:** Magic
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** call-a-tempest-beast · **Status:** Proposal — fresh design; not approved or balance-tested.
 

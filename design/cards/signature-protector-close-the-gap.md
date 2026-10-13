@@ -1,12 +1,16 @@
 # Close the Gap
 
+*You move toward the friend who needs another shoulder beside them.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Move up to 2 squares toward a visible ally. This movement does not provoke. End in a free square.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

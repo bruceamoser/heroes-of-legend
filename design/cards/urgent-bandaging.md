@@ -1,10 +1,12 @@
 # Urgent Bandaging
 
+*You tear a strip, press hard and tie the knot while the battle rages around you.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** Knowledge
 
 **Target / range / shape:** Self or one adjacent willing creature
-
-Choose what you are trying to accomplish, then resolve the result below.
 
 - **Weak:** Reduce Bleeding by 1.
 - **Standard:** Reduce Bleeding by 2.
@@ -20,7 +22,7 @@ Choose what you are trying to accomplish, then resolve the result below.
 
 **Type:** Skill
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** urgent-bandaging · **Status:** Proposal — fresh design; not approved or balance-tested.
 

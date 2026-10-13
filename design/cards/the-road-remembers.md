@@ -2,6 +2,8 @@
 
 *Broken grass and cold ash tell you who hurried and who was carried.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** A natural trail or campsite; 10 minutes
@@ -12,7 +14,7 @@ Only evidence present can be read. Mundane tracking remains possible without thi
 - **Standard:** Also learn approximate group size.
 - **Strong:** Also identify a distinctive trace useful for following that group.
 
-**Duration:** As stated in the effect
+**Duration:** The result applies when the stated activity is complete; information and earned progress persist.
 
 **Equipment / acquisition:** None.
 
@@ -22,7 +24,7 @@ Only evidence present can be read. Mundane tracking remains possible without thi
 
 **Type:** Skill / Utility
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** the-road-remembers · **Status:** Proposal — fresh design; not approved or balance-tested.
 

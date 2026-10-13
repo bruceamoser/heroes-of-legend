@@ -1,6 +1,10 @@
 # Odd
 
-**Agreed:** minimum 0 in no attributes; HP contribution +3. No multiclassing.
+*You have never fit the expected answer, and have learned to make that useful.*
+
+## Rules
+
+**Agreed:** no attribute minimums; HP contribution +3. No multiclassing.
 
 **Proposal:** choose two distinct rank-1 disciplines from Arms, Marksmanship, Armor, Guard, Athletics, Subterfuge, Influence, Scholarship, Wilderness, Craft, Medicine, Flame, Frost, Storm, Life, Radiance, Mind, Calling.
 

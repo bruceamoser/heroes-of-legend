@@ -2,15 +2,17 @@
 
 *Close the distance and make the struggle yours.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Brawn
 
 **Target / range / shape:** One adjacent creature
 
 Apply Grappled 1/2/3. You suffer the same rating as your contribution; other grapplers add to the target. No damage. Maintained, no decay; freely release your contribution. Attacks gain Boons equal to target Grappled rating. NPC defense: Brawn.
 
-**Duration:** As stated in the effect
+**Duration:** While the grapple is maintained; ends when its contribution is released or removed.
 
-**Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+**Equipment / acquisition:** None.
 
 ---
 

@@ -1,12 +1,16 @@
 # An Unexpected Exit
 
+*You spot the awkward little route no one thought worth guarding.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Move 3 squares without provoking through a legal route; occupied-square rules apply.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

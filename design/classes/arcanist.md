@@ -1,5 +1,9 @@
 # Arcanist
 
+*You study the impossible until your hands can give it a shape the world must briefly accept.*
+
+## Rules
+
 **Agreed:** minimum 0 in Agility, Knowledge; HP contribution +2. No multiclassing.
 
 **Proposal:** choose two distinct rank-1 disciplines from Flame, Frost, Storm, Scholarship, Calling.

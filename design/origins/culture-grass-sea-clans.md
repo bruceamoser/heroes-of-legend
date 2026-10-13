@@ -1,8 +1,10 @@
 # Grass Sea Clans
 
-A roof of stars, a road of grass, and neighbors who may be a day’s ride away.
+*A roof of stars, a road of grass, and neighbors who may be a day’s ride away.*
 
 *What promise brings you back to the traveling camp?*
+
+## Rules
 
 Choose one:
 

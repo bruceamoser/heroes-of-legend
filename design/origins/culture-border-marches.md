@@ -1,8 +1,10 @@
 # Border Marches
 
-Your neighbors know the difference between vigilance and fear, though keeping that distinction takes work.
+*Your neighbors know the difference between vigilance and fear, though keeping that distinction takes work.*
 
 *Who taught you to welcome a traveler and watch the road at once?*
+
+## Rules
 
 Choose one:
 

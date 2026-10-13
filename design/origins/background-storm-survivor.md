@@ -1,8 +1,10 @@
 # Storm Survivor
 
-You came back from the weather with something in your voice that was not there before.
+*You came back from the weather with something in your voice that was not there before.*
 
 *What did the storm leave behind?*
+
+## Rules
 
 Choose one:
 

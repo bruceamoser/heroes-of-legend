@@ -2,17 +2,19 @@
 
 *Three bottles, two smells, and a plan nobody should breathe too deeply.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** A visible free square within 3 squares.
 
-Use one prepared smoke supply and check its inventory die after use. Smoke gives heavy cover across its squares; a creature inside is still targetable if an attack path exists. All created smoke lasts until your next turn. Grants a reusable mixing kit (Bulk 1), the Smoke Flask and Travel Food recipes, not ingredients. This card also crafts those two recipe types using 1/2/3 progress or inventory steps.
+Use one prepared smoke supply and check its inventory die after use. Smoke gives heavy cover across its squares; a creature inside is still targetable if an attack path exists. All created smoke lasts until the start of your next turn. Grants a reusable mixing kit (Bulk 1), the Smoke Flask and Travel Food recipes, not ingredients. This card also crafts those two recipe types using 1/2/3 progress or inventory steps.
 
-- **Weak:** Smoke fills the chosen square until your next turn.
+- **Weak:** Smoke fills the chosen square until the start of your next turn.
 - **Standard:** Smoke also fills one adjacent free square.
 - **Strong:** Smoke fills two adjacent free squares as well.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,7 +24,7 @@ Use one prepared smoke supply and check its inventory die after use. Smoke gives
 
 **Type:** Skill / Crafting
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** smoke-in-a-bottle · **Status:** Proposal for Bruce’s review.
 

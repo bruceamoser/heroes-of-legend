@@ -1,12 +1,16 @@
 # Relentless Pursuit
 
+*You refuse to let the space between you grow comfortable.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 After an enemy within 2 squares moves voluntarily, move up to 3 squares toward it without provoking. No attack is granted.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** None.
 

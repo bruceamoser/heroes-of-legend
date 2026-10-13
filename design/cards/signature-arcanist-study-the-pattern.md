@@ -1,12 +1,16 @@
 # Study the Pattern
 
+*You watch the magic repeat itself and count the pulses still holding it together.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Study a visible ongoing magical effect within 5 squares. Learn its remaining stated duration; learn nothing if its source does not specify one. No roll.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

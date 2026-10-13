@@ -1,12 +1,16 @@
 # Refuse the Rout
 
+*You plant yourself where everyone can hear and give fear something to contend with.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 All allies within 3 squares who hear you reduce temporary Frightened by 2. Does not restore HP or actions already lost.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

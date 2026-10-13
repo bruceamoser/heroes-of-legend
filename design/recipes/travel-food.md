@@ -1,5 +1,9 @@
 # Travel Food
 
+*You salt, wrap and dry the ingredients, packing a little hospitality for the road.*
+
+## Rules
+
 - **ID:** recipe-travel-food
 - **Status:** Proposal — ordinary recipe
 - **Permission:** Trail Workshop, Make Something Useful, or a mixing card that explicitly grants this recipe; the recipe alone grants no crafting permission

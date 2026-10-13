@@ -1,12 +1,16 @@
 # Always a Way Around
 
+*You make something give, then find yourself standing somewhere unexpectedly useful.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 After Force, move 1 square without provoking, once per turn.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

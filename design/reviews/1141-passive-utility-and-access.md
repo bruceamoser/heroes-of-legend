@@ -285,7 +285,7 @@ I recommend changing **coverage, utility ambition and prerequisite composition f
 ## Reproducing and interpreting this review
 
 Run `python3 design/reviews/survey_1141.py` from the repository root. It reads the
-current Markdown and the [classification ledger](1141-card-survey.csv), verifies the
+historical Markdown at `9b5eb4c` and the [classification ledger](1141-card-survey.csv), verifies the
 ledger’s IDs/tier/action/requirements, and prints counts plus access witnesses as JSON.
 The ledger is an editorial snapshot: body edits require rereading the classification;
 metadata checks cannot detect changes in the meaning of prose. Signature and ancestry

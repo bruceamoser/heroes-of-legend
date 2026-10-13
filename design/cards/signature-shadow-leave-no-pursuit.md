@@ -1,12 +1,16 @@
 # Leave No Pursuit
 
+*You lift the bent grass behind you and choose the stones that keep no prints.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Move up to Speed without provoking through a legal route. Conceal ordinary tracks on that route; observers who can see you still can.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

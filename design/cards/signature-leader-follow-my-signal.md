@@ -1,12 +1,16 @@
 # Follow My Signal
 
+*You catch an ally’s eye and give the small signal they have learned to trust.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Your Aid reaches one ally within 3 squares that sees or hears your signal.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

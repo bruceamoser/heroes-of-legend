@@ -2,6 +2,8 @@
 
 *Where others hurry, you seem simply to arrive.*
 
+## Rules
+
 Base Speed +1. Describe whether your grace is effortless balance, long strides or a dancer’s economy.
 
 **Ancestry:** Elf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.

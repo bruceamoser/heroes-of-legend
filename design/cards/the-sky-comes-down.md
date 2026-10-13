@@ -1,5 +1,9 @@
 # The Sky Comes Down
 
+*You close your fist, and the air falls with the thunder.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** Every creature in a visible 3-by-3 area within 6 squares.
@@ -12,7 +16,7 @@ Call a crack of lightning followed by a collapsing wall of air. One roll with th
 
 For a target standing in the center square, choose its push direction before resolving the displacement.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,7 +26,7 @@ For a target standing in the center square, choose its push direction before res
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** the-sky-comes-down · **Status:** Proposal for Bruce’s review.
 

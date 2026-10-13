@@ -2,6 +2,8 @@
 
 *Frost climbs their limbs like fingers closing around a wrist.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** One visible creature within 5 squares
@@ -22,7 +24,7 @@ Proposed NPC defense attribute: Agility.
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** rime-grip · **Status:** Proposal — fresh design; not approved or balance-tested.
 

@@ -1,5 +1,9 @@
 # Bound Torches
 
+*You bind the dry fibers tightly, leaving a head that will take the flame evenly.*
+
+## Rules
+
 - **ID:** recipe-bound-torches
 - **Status:** Proposal — ordinary recipe
 - **Permission:** Trail Workshop; the recipe alone grants no crafting permission

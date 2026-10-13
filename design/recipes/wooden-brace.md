@@ -1,5 +1,9 @@
 # Wooden Brace
 
+*You trim the supports until they meet snugly, then bind the join against its load.*
+
+## Rules
+
 - **ID:** recipe-wooden-brace
 - **Status:** Proposal — ordinary recipe
 - **Permission:** Trail Workshop; the recipe alone grants no crafting permission

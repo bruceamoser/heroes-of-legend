@@ -2,6 +2,8 @@
 
 *Coals remember the hands held above them.*
 
+## Rules
+
 **Action:** Main Action Â· **Attribute:** Knowledge
 
 **Target / range / shape:** One ordinary fire you can touch without harm; 10 minutes
@@ -12,7 +14,7 @@ The touch is safe only for this divination. Information is limited to the fireâ€
 - **Standard:** Also learn how many people recently warmed themselves beside it.
 - **Strong:** Also glimpse one distinctive item carried by the most recent visitor.
 
-**Duration:** As stated in the effect
+**Duration:** The result applies when the stated activity is complete; information and earned progress persist.
 
 **Equipment / acquisition:** None.
 
@@ -22,7 +24,7 @@ The touch is safe only for this divination. Information is limited to the fireâ€
 
 **Type:** Magic / Utility
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** speak-with-the-hearth Â· **Status:** Proposal â€” fresh design; not approved or balance-tested.
 

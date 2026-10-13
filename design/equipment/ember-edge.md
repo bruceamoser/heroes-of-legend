@@ -1,5 +1,9 @@
 # Ember Edge
 
+*You lift the weapon and watch a red gleam travel along its working edge.*
+
+## Rules
+
 **ID:** item-ember-edge. **Status:** Proposal — special equipment. **Form:** A melee weapon. **Bulk:** 1.
 
 **Requirements:** Flame 1; understanding not required. **Action:** Passive unless the effect says otherwise.

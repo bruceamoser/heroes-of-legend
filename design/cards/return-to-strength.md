@@ -2,6 +2,8 @@
 
 *Life surges from you into a friend who was almost lost.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One willing creature within 3 squares, including self
@@ -22,7 +24,7 @@ Moser’s law of conservation of Life energy: pay 7 HP before rolling; bypass re
 
 **Type:** Magic / Recovery
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** return-to-strength · **Status:** Proposal — fresh design; not approved or balance-tested.
 

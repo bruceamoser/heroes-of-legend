@@ -2,6 +2,8 @@
 
 *Your companions see a cliff; you see the next three handholds.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Brawn
 
 **Target / range / shape:** A climb you could ordinarily attempt
@@ -22,7 +24,7 @@ DA declares the objective, stakes and any cumulative target before the roll. Pro
 
 **Type:** Skill
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** sure-ascent · **Status:** Proposal — fresh design; not approved or balance-tested.
 

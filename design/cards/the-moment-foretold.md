@@ -1,12 +1,16 @@
 # The Moment Foretold
 
+*You recognize the instant from your dream and call the warning before it is too late.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
 **Target / range / shape:** An ally within 3 squares before it makes a declared roll.
 
 If it hears your warning, grant 2 Boons to that roll. If it achieves Strong, it may move 1 square without provoking immediately afterward. No inventory rolls, no change after dice land.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -16,7 +20,7 @@ If it hears your warning, grant 2 Boons to that roll. If it achieves Strong, it 
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** the-moment-foretold · **Status:** Proposal for Bruce’s review.
 

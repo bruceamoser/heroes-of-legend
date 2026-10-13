@@ -1,5 +1,9 @@
 # Leader
 
+*You turn to your companions and give them a reason to move together.*
+
+## Rules
+
 **Agreed:** minimum 0 in Guile, Fortitude; HP contribution +4. No multiclassing.
 
 **Proposal:** choose two distinct rank-1 disciplines from Influence, Guard, Arms, Scholarship.

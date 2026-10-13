@@ -16,10 +16,10 @@ You disturb attention and certainty rather than simply choosing another color of
 
 ## Give it room to grow
 
-- At level 3, [The Angle of Unease](../cards/the-angle-of-unease.md) opens another way to affect the scene.
-- At level 7, [When the Stars Look Back](../cards/when-the-stars-look-back.md) offers a larger moment.
+- At level 3, [The Angle of Unease](../cards/the-angle-of-unease.md) (Mind 2) opens another way to affect the scene.
+- At level 7, [When the Stars Look Back](../cards/when-the-stars-look-back.md) (Mind 3) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Reader of Omens](reader-of-omens.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

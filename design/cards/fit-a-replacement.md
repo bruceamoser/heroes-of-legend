@@ -1,5 +1,9 @@
 # Fit a Replacement
 
+*You adjust the last fastening and wait beside your patient as they try their weight again.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One patient and a suitable prosthesis; four hours
@@ -20,7 +24,7 @@ Proposal: target 6. Requires an already-made correctly sized prosthesis. Relieve
 
 **Type:** Skill
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** fit-a-replacement · **Status:** Proposal — fresh design; not approved or balance-tested.
 

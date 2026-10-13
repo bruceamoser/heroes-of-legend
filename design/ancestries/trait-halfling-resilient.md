@@ -2,6 +2,8 @@
 
 *You know how to make a small comfort last.*
 
+## Rules
+
 When sharing a food bundle with one companion during a safe meal, make one inventory check for the two of you instead of one each. Food is still required; this grants no healing, resistance or extra recovery.
 
 **Ancestry:** Halfling · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.

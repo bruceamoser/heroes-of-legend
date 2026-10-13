@@ -1,5 +1,9 @@
 # Opportunity Attack
 
+*You recognize the careless instant and strike before it passes.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
 **Target / range / shape:** An adjacent creature triggering an opportunity
@@ -16,7 +20,7 @@ Make Basic Melee only; no specialty card. Leaving reach voluntarily provokes; ca
 
 **Type:** Universal
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** opportunity-attack · **Status:** Agreed foundation; any proposal is identified in the effect.
 

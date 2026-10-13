@@ -2,6 +2,8 @@
 
 *Your stance changes, and so does the weather.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Fortitude
 
 **Target / range / shape:** One adjacent creature.
@@ -12,7 +14,7 @@ Release the breath you have been holding through an open palm. No weapon require
 - **Standard:** 3 physical damage and push 2.
 - **Strong:** 5 physical damage and push 3.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,7 +24,7 @@ Release the breath you have been holding through an open palm. No weapon require
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** palm-of-the-gale · **Status:** Proposal for Bruce’s review.
 

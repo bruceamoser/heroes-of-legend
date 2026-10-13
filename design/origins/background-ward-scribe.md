@@ -1,8 +1,10 @@
 # Ward Scribe
 
-Your marks appeared over doors, cradles and caravan wheels. Sometimes they held.
+*Your marks appeared over doors, cradles and caravan wheels. Sometimes they held.*
 
 *Which mark will you never draw carelessly?*
+
+## Rules
 
 Choose one:
 

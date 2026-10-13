@@ -1,5 +1,9 @@
 # Unravel the Bolt
 
+*You catch the spell’s shape in your mind and pull at the thread that holds it straight.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** Knowledge
 
 **Target / range / shape:** One visible caster within 4 squares, before a single-target spell resolves.
@@ -10,7 +14,7 @@ Unpick part of the spell’s shape. Choose its target to receive the effect belo
 - **Standard:** Target gains 2 Boons.
 - **Strong:** Target gains 3 Boons and may move 1 square without provoking after resolution.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +24,7 @@ Unpick part of the spell’s shape. Choose its target to receive the effect belo
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** unravel-the-bolt · **Status:** Proposal for Bruce’s review.
 

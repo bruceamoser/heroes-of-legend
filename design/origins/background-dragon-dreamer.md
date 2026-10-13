@@ -1,8 +1,10 @@
 # Dragon-Dreamer
 
-You dreamed of heat, wings and a voice calling you kin. Then you woke with smoke on your breath.
+*You dreamed of heat, wings and a voice calling you kin. Then you woke with smoke on your breath.*
 
 *Was the dream a memory, a gift or an invitation?*
+
+## Rules
 
 Choose one:
 

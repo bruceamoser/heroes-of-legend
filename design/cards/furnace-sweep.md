@@ -2,6 +2,8 @@
 
 *Throw open an invisible furnace and let the heat shove them back.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** A 3-wide, 2-deep rectangle extending ahead from your square
@@ -22,7 +24,7 @@ One player roll uses the worst applicable net Boon/Bane situation. Areas include
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** furnace-sweep · **Status:** Proposal — fresh design; not approved or balance-tested.
 

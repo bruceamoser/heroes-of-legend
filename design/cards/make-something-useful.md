@@ -2,6 +2,8 @@
 
 *A broken cart becomes a brace; discarded cord becomes a way home.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** One known ordinary recipe and plausible local materials; recipe interval
@@ -12,7 +14,7 @@ Grants craft tools if absent and two ordinary recipes. For this card, equivalent
 - **Standard:** 2 progress or inventory steps.
 - **Strong:** 3 progress or inventory steps; leave the workspace ready for immediate reuse.
 
-**Duration:** As stated in the effect
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 
@@ -22,7 +24,7 @@ Grants craft tools if absent and two ordinary recipes. For this card, equivalent
 
 **Type:** Skill / Utility
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** make-something-useful · **Status:** Proposal — fresh design; not approved or balance-tested.
 

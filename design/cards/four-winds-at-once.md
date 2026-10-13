@@ -1,5 +1,9 @@
 # Four Winds at Once
 
+*You turn on your heel, breathing out as the air whirls outward with you.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Fortitude
 
 **Target / range / shape:** Every other adjacent creature.
@@ -10,17 +14,17 @@ Turn with the wind at your heels. Roll once with the worst applicable situation.
 - **Standard:** 4 physical damage and push 2.
 - **Strong:** 6 physical damage and push 2; you may move 2 squares without provoking afterward.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** No item needed unless named above.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Storm 3
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Storm 2 and Athletics 2
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** four-winds-at-once · **Status:** Proposal for Bruce’s review.
 

@@ -2,6 +2,8 @@
 
 *You learned your manners at a table where every promise mattered.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
 
 **Target / range / shape:** One visible creature within 4 squares.
@@ -12,7 +14,7 @@ Offer the impossible courtesy of a dance-step somewhere else. Magical force move
 - **Standard:** Pull it 2 squares.
 - **Strong:** Pull it 2 squares; you may move 1 square without provoking afterward.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,7 +24,7 @@ Offer the impossible courtesy of a dance-step somewhere else. Magical force move
 
 **Type:** Magic
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** an-invitation-elsewhere · **Status:** Proposal for Bruce’s review.
 

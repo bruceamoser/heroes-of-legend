@@ -2,6 +2,8 @@
 
 *Your shout breaks across the battlefield like a bell of thunder.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** Every other creature within 1 square of you
@@ -22,7 +24,7 @@ One player roll uses the worst applicable net Boon/Bane situation. Areas include
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** thunder-ring · **Status:** Proposal — fresh design; not approved or balance-tested.
 

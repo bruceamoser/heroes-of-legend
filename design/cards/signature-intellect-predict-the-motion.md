@@ -1,12 +1,16 @@
 # Predict the Motion
 
+*You recognize the movement you have seen before and prepare for its conclusion.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Before defending against a visible attacker you have already observed attack this combat, gain 1 Boon to the defense.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** None.
 

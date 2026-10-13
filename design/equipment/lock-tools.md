@@ -1,5 +1,9 @@
 # Lock Tools
 
+*You choose the slender piece that feels right for the work beneath your fingers.*
+
+## Rules
+
 - **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-lock-tools
 - **Bulk:** 1

@@ -1,5 +1,9 @@
 # Call the Opening
 
+*You see the gap before anyone else and shout the name of the friend who can reach it.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One visible enemy within 5 squares
@@ -20,7 +24,7 @@ The Weak Boon expires at the start of your next turn. Free attacks never trigger
 
 **Type:** Skill
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** call-the-opening · **Status:** Proposal — fresh design; not approved or balance-tested.
 

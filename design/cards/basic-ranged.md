@@ -1,5 +1,9 @@
 # Basic Ranged
 
+*You steady your breathing, pick your mark, and release.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Agility
 
 **Target / range / shape:** One visible creature within 8 squares
@@ -20,7 +24,7 @@ Choose your target and make the attack.
 
 **Type:** Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** basic-ranged · **Status:** Agreed universal permission; damage and ranged distances are proposals.
 

@@ -2,6 +2,8 @@
 
 *Your body rests while part of you walks old paths.*
 
+## Rules
+
 You may rest in a quiet waking reverie instead of sleeping, remaining aware of nearby ordinary sights and sounds. It grants no automatic detection, extra downtime work, shorter treatment interval or Grit recovery. Magical Asleep still works normally.
 
 **Ancestry:** Elf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.

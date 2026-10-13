@@ -2,13 +2,15 @@
 
 *The living deserve their tomorrow. The dead deserve their rest.*
 
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
 **Target / range / shape:** One adjacent Dying player character.
 
 Hold them here. Clear one death mark, without stabilizing or restoring HP. If a damage event would add the third mark, use this before that mark is added; otherwise Last Words has already begun. The wound remains. Cannot affect Last Words.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -18,7 +20,7 @@ Hold them here. Clear one death mark, without stabilizing or restoring HP. If a 
 
 **Type:** Magic / Recovery
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** keep-the-door-closed · **Status:** Proposal for Bruce’s review.
 

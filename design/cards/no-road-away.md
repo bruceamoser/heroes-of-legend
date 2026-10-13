@@ -1,12 +1,16 @@
 # No Road Away
 
+*You move when they move, keeping yourself between them and an easy escape.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
 **Target / range / shape:** A visible enemy within 3 squares after it moves voluntarily.
 
 Follow up to 3 squares toward it without provoking. You must use a legal route; this does not stop its movement or grant an attack.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -16,7 +20,7 @@ Follow up to 3 squares toward it without provoking. You must use a legal route; 
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** no-road-away · **Status:** Proposal for Bruce’s review.
 

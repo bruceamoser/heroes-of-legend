@@ -1,8 +1,10 @@
 # Island Kinships
 
-You grew up with a horizon on every side and family on more than one shore.
+*You grew up with a horizon on every side and family on more than one shore.*
 
 *What signal means home is waiting?*
+
+## Rules
 
 Choose one:
 

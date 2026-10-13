@@ -1,5 +1,9 @@
 # Winter Lining
 
+*You draw the lining close and let its quiet warmth meet the bitter air.*
+
+## Rules
+
 **ID:** item-winter-lining. **Status:** Proposal — special equipment. **Form:** Armor lining. **Bulk:** 1.
 
 **Requirements:** No discipline requirement; understanding not required. **Action:** Passive unless the effect says otherwise.

@@ -16,10 +16,10 @@ Your power sounds like a negotiation even when you are throwing fire. Its source
 
 ## Give it room to grow
 
-- At level 3, [The Debt Comes Due](../cards/the-debt-comes-due.md) opens another way to affect the scene.
-- At level 7, [Open the Furnace Door](../cards/open-the-furnace-door.md) offers a larger moment.
+- At level 3, [The Debt Comes Due](../cards/the-debt-comes-due.md) (Flame 2) opens another way to affect the scene.
+- At level 7, [Open the Furnace Door](../cards/open-the-furnace-door.md) (Flame 3) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Vow Hunter](vow-hunter.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

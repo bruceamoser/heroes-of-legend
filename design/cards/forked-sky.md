@@ -2,6 +2,8 @@
 
 *Lightning leaps between your chosen enemies.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** Up to three visible creatures within 6 squares
@@ -22,7 +24,7 @@ One player roll uses the worst applicable net Boon/Bane situation. Areas include
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** forked-sky · **Status:** Proposal — fresh design; not approved or balance-tested.
 

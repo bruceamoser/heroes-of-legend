@@ -2,6 +2,8 @@
 
 *For an instant, your enemy is outlined in the color of a star.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** One visible creature within 6 squares
@@ -22,7 +24,7 @@ Proposed NPC defense attribute: Agility.
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** white-heat · **Status:** Proposal — fresh design; not approved or balance-tested.
 

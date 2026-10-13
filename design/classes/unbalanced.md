@@ -1,5 +1,9 @@
 # Unbalanced
 
+*You meet the obstacle with everything you are, and let it discover whether that is enough.*
+
+## Rules
+
 **Agreed:** minimum 0 in Brawn, Fortitude; HP contribution +6. No multiclassing.
 
 **Proposal:** choose two distinct rank-1 disciplines from Arms, Athletics, Armor, Storm.

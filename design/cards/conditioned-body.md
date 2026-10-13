@@ -1,12 +1,16 @@
 # Conditioned Body
 
+*You remember the work that built this strength: another load, another climb, another day you kept going.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
 **Target / range / shape:** Self
 
 Maximum HP +1. At most one purchase at each level; missed purchases cannot be banked. No attribute increase.
 
-**Duration:** While requirements hold; permanent for development grants
+**Duration:** Permanent maximum HP increase for each permitted purchase.
 
 **Equipment / acquisition:** None.
 

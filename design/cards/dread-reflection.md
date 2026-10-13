@@ -2,6 +2,8 @@
 
 *For a moment they see you wearing the shape of their fear.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
 
 **Target / range / shape:** One visible creature within 5 squares
@@ -22,7 +24,7 @@ Proposed NPC defense attribute: Reason.
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** dread-reflection · **Status:** Proposal — fresh design; not approved or balance-tested.
 

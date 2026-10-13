@@ -1,5 +1,9 @@
 # Force
 
+*You set your shoulder, plant your feet and make the stubborn thing give ground.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Brawn
 
 **Target / range / shape:** An adjacent obstacle, grapple, or creature
@@ -20,7 +24,7 @@ Choose the intended result before rolling: reduce an obstacle’s remaining stre
 
 **Type:** Universal
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** force · **Status:** Agreed foundation; any proposal is identified in the effect.
 

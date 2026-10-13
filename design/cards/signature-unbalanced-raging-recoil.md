@@ -1,12 +1,16 @@
 # Raging Recoil
 
+*You follow the pain forward, giving them no comfortable space to enjoy the blow.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 After an adjacent creature damages you, push it 1 square and move 1 square toward it if free. Your movement does not provoke.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** None.
 

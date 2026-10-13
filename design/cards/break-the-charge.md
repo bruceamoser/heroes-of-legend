@@ -1,5 +1,9 @@
 # Break the Charge
 
+*You watch the rush approach and choose the heartbeat when courage must become steel.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** Fortitude
 
 **Target / range / shape:** An enemy entering an adjacent square voluntarily.
@@ -10,7 +14,7 @@ Meet the charge with a melee blow; resolve after it enters. This attack cannot t
 - **Standard:** 4 physical damage and push 1 square back the way it came.
 - **Strong:** 6 physical damage, push 2 and knock it prone.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +24,7 @@ Meet the charge with a melee blow; resolve after it enters. This attack cannot t
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** break-the-charge · **Status:** Proposal for Bruce’s review.
 

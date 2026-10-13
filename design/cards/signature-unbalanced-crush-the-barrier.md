@@ -1,12 +1,16 @@
 # Crush the Barrier
 
+*You hear the first crack and put the rest of yourself behind it.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Your Strong Force against a mundane object adds 2 progress; no effect against creatures or grapples.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

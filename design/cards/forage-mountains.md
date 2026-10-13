@@ -1,14 +1,18 @@
 # Forage Mountains
 
+*You search the sheltered cracks where the mountain keeps its small stores of life.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** Viable mountain terrain; one hour
 
 Find usable food or ordinary mineral/plant materials. Increase one bundle 1/2/3 steps, maximum d8. No automatic rare ore.
 
-**Duration:** As stated in the effect
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
-**Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+**Equipment / acquisition:** None.
 
 ---
 

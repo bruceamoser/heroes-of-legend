@@ -1,5 +1,9 @@
 # Lighting Bundle
 
+*You shelter the first small flame until it takes hold and pushes back the dark.*
+
+## Rules
+
 - **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-lighting-bundle
 - **Bulk:** 1

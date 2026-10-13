@@ -2,6 +2,8 @@
 
 *Strike with a wall of wind, sending the enemy tumbling away.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One visible creature within 4 squares
@@ -22,7 +24,7 @@ Proposed NPC defense attribute: Fortitude.
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** gust-hammer · **Status:** Proposal — fresh design; not approved or balance-tested.
 

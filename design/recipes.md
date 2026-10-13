@@ -4,6 +4,7 @@ Fresh proposals for review. Follow the printed acquisition and permission; a rec
 is knowledge, not a free finished item.
 
 - [Bound Torches](recipes/bound-torches.md)
+- [Camp Shelter](recipes/camp-shelter.md)
 - [Clearing Tonic](recipes/clearing-tonic.md)
 - [Fletched Ammunition](recipes/fletched-ammunition.md)
 - [Lesser Healing Bottle](recipes/lesser-healing-bottle.md)

@@ -1,12 +1,16 @@
 # Shoulder Through
 
+*You drive through the shove instead of stopping where they expected.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Once per turn your Force push gains 1 square after its result; no extra grapple or obstacle progress.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

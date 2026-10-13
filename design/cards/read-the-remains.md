@@ -2,6 +2,8 @@
 
 *An overturned cup and a scrape in the dust become the start of a story.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One accessible scene or object; 10 minutes
@@ -22,7 +24,7 @@ Facts must be available from the evidence, never invented by the card. Correct e
 
 **Type:** Skill
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** read-the-remains · **Status:** Proposal — fresh design; not approved or balance-tested.
 

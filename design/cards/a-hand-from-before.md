@@ -2,13 +2,15 @@
 
 *The people who raised you still stand at your shoulder.*
 
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
 **Target / range / shape:** An adjacent ally before a physical defense.
 
 A translucent hand braces your friend. Give that defense 1 Boon; afterward the ally may move 1 square toward you without provoking.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -18,7 +20,7 @@ A translucent hand braces your friend. Give that defense 1 Boon; afterward the a
 
 **Type:** Magic
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** a-hand-from-before · **Status:** Proposal for Bruce’s review.
 

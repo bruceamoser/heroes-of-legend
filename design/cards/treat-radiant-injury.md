@@ -1,14 +1,18 @@
 # Treat Radiant Injury
 
+*You shade the injured eyes and work gently around the marks the terrible light has left.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One wound listing Radiant treatment; one hour
 
 Add 1/2/3 recovery progress. Once per wound per day; relieve only printed treatable penalties.
 
-**Duration:** As stated in the effect
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
-**Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+**Equipment / acquisition:** None.
 
 ---
 

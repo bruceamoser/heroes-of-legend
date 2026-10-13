@@ -1,12 +1,16 @@
 # The Circle Holds
 
+*You trace the last arc and stand inside the promise you have made together.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
 **Target / range / shape:** Self and allies within 2 squares.
 
-Until your next turn, each gains 1 Boon to defense against spells. The first forced movement against each is reduced by 2 squares. The ward is not physical cover and does not stack with another same-kind movement reduction.
+Until the start of your next turn, each gains 1 Boon to defense against spells. The first forced movement against each is reduced by 2 squares. The ward is not physical cover and does not stack with another same-kind movement reduction.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -16,7 +20,7 @@ Until your next turn, each gains 1 Boon to defense against spells. The first for
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** the-circle-holds · **Status:** Proposal for Bruce’s review.
 

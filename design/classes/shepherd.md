@@ -1,5 +1,9 @@
 # Shepherd
 
+*You listen for the wavering voice and help it find its way back to the others.*
+
+## Rules
+
 **Agreed:** minimum 0 in Reason, Guile; HP contribution +3. No multiclassing.
 
 **Proposal:** choose two distinct rank-1 disciplines from Life, Radiance, Medicine, Wilderness.

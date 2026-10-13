@@ -2,13 +2,15 @@
 
 *You know exactly where to stop the blade.*
 
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
 **Target / range / shape:** A creature reduced to 0 HP by your melee attack
 
 Declare before the attack. NPC remains unconscious until the scene ends or healed; no wound inflicted by this finishing blow. This is the purchased exception to lethal attacks, not universal permission. Player characters retain their normal 0-HP rules.
 
-**Duration:** As stated in the effect
+**Duration:** Unconscious until the scene ends or the target is healed.
 
 **Equipment / acquisition:** None.
 
@@ -18,7 +20,7 @@ Declare before the attack. NPC remains unconscious until the scene ends or heale
 
 **Type:** Skill / Utility
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** take-them-alive · **Status:** Proposal — fresh design; not approved or balance-tested.
 

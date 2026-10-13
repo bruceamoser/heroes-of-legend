@@ -2,6 +2,8 @@
 
 *The eye sees a doorway where you have left a question.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
 
 **Target / range / shape:** A visible unoccupied square within 4 squares.
@@ -12,7 +14,7 @@ Place a silent, flat illusion of a door, window, screen or similar scene feature
 - **Standard:** The image holds while you move.
 - **Strong:** It also includes small natural movement, such as a shifting curtain.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Ten minutes, unless ended earlier as stated above.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,7 +24,7 @@ Place a silent, flat illusion of a door, window, screen or similar scene feature
 
 **Type:** Magic
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** a-door-that-is-not-there · **Status:** Proposal for Bruce’s review.
 

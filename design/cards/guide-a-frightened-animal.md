@@ -1,14 +1,18 @@
 # Guide a Frightened Animal
 
+*You lower your voice and let the animal see that your hands are quiet.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
 
 **Target / range / shape:** One nonhostile animal able to perceive you; one minute
 
 Gain 1/2/3 progress toward a plausible calm behavior; Standard reveals an immediate source of distress, Strong also allows a willing companion to approach. No control of hostile or intelligent creatures.
 
-**Duration:** As stated in the effect
+**Duration:** Progress toward the declared behavior persists while the situation remains applicable.
 
-**Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+**Equipment / acquisition:** None.
 
 ---
 

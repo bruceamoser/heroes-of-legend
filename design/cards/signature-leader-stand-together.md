@@ -1,12 +1,16 @@
 # Stand Together
 
+*You draw close enough that your companion can feel they are no longer facing this alone.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
-An adjacent willing ally gains 1 Boon to its next defense before your next turn; repeated uses do not multiply this benefit.
+An adjacent willing ally gains 1 Boon to its next defense before the start of your next turn; repeated uses do not multiply this benefit.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
 
 **Equipment / acquisition:** None.
 

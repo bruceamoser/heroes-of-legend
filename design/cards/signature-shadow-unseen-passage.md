@@ -1,12 +1,16 @@
 # Unseen Passage
 
+*You let your outline fade until the light seems to pass through the place you stand.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Become Invisible until the start of your next turn. No automatic Hidden; noise and physical presence remain. Magic signature, no discipline gate.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
 
 **Equipment / acquisition:** None.
 

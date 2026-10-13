@@ -2,6 +2,8 @@
 
 *Put the shot where their next step was going to be.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Agility
 
 **Target / range / shape:** One visible creature within 8 squares
@@ -22,7 +24,7 @@ Choose your target and make the attack.
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** pinning-shot · **Status:** Proposal — fresh design; not approved or balance-tested.
 

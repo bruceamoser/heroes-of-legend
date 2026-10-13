@@ -1,14 +1,18 @@
 # Treat Elemental Injury
 
+*You clean away the traces of the element and tend the damaged flesh beneath them.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** One wound listing Elemental treatment; one hour
 
 Add 1/2/3 recovery progress. Once per wound per day; relieve only printed treatable penalties. Lost clothing is not restored.
 
-**Duration:** As stated in the effect
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
-**Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+**Equipment / acquisition:** None.
 
 ---
 

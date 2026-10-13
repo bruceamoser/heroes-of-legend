@@ -1,8 +1,10 @@
 # Reluctant Knife
 
-Someone once paid you to make a problem disappear. You still decide what that made you.
+*Someone once paid you to make a problem disappear. You still decide what that made you.*
 
 *Which name did you cross off without taking the job?*
+
+## Rules
 
 Choose one:
 

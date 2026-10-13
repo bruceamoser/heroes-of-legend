@@ -2,6 +2,8 @@
 
 *You raise your hand as if the sky were a sail.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One visible creature within 4 squares.
@@ -12,7 +14,7 @@ A thunderclap arrives where you point.
 - **Standard:** 3 physical damage and Deafened 1.
 - **Strong:** 5 physical damage, Deafened 1 and push 1.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,7 +24,7 @@ A thunderclap arrives where you point.
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** thunder-at-the-door · **Status:** Proposal for Bruce’s review.
 

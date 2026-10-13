@@ -1,12 +1,16 @@
 # Careful Transfer
 
+*You measure what you give with desperate care, listening for the breath that answers.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 After paying a healing spell’s full cost, gain 1 Boon to that spell’s roll if its target was at 0 HP before payment. No cost reduction.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

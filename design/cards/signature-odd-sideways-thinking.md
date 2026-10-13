@@ -1,12 +1,16 @@
 # Sideways Thinking
 
+*You tilt your head and notice that the problem resembles something you know very well.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Once per scene, use Reason instead of the ordinary attribute for a plausible noncombat task; declare first. Does not override a purchased card’s attribute or grant specialist permission.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

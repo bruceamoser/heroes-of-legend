@@ -1,12 +1,16 @@
 # Test the Hypothesis
 
+*You ask yourself what would prove you wrong, and turn back to the evidence.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 After a Strong noncombat Knowledge or Reason roll, identify one specific piece of evidence that would disprove your current explanation, if any exists in the examined evidence.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

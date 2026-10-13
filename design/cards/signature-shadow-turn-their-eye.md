@@ -1,12 +1,16 @@
 # Turn Their Eye
 
+*You draw a glance away from the place your friend is about to cross.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
-An adjacent ally gains 1 Boon to its next concealment activity before your next turn if you can provide a plausible distraction.
+An adjacent ally gains 1 Boon to its next concealment activity before the start of your next turn if you can provide a plausible distraction.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
 
 **Equipment / acquisition:** None.
 

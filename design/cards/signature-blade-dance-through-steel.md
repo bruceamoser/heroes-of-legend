@@ -1,12 +1,16 @@
 # Dance Through Steel
 
+*You pass from one opponent to the next without letting the rhythm break.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Make one Basic Melee attack against each of up to three distinct adjacent enemies. Roll once with the worst applicable Boon/Bane situation. These are granted free attacks for chaining restrictions; no specialty attacks.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

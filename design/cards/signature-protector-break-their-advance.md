@@ -1,12 +1,16 @@
 # Break Their Advance
 
+*You take the hit and answer with a hard shove that says they have come far enough.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 After an adjacent enemy damages you, push it 2 squares directly away. No attack roll or extra damage beyond ordinary collisions.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** None.
 

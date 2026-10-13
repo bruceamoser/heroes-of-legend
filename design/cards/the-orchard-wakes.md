@@ -1,5 +1,9 @@
 # The Orchard Wakes
 
+*You spread your arms, and the roots answer as if the whole orchard had stirred in its sleep.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** Up to three visible grounded creatures within 5 squares.
@@ -10,7 +14,7 @@ Branches and roots answer together. Roll once with the worst applicable situatio
 - **Standard:** Pull each 2 squares and apply Slowed 1.
 - **Strong:** Pull each 3 squares and knock each prone.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +24,7 @@ Branches and roots answer together. Roll once with the worst applicable situatio
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** the-orchard-wakes · **Status:** Proposal for Bruce’s review.
 

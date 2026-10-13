@@ -1,12 +1,16 @@
 # Drive Back the Circle
 
+*You brace and surge outward, claiming breathing room for everyone behind you.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Push every adjacent enemy 2 squares directly away. Resolve in an order you choose. Collision rules apply; moving-group geometry remains an open rule detail.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

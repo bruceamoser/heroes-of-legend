@@ -1,8 +1,10 @@
 # Beast-Reared
 
-Whether raised, rescued or apprenticed among beasts, you know a world of scent and posture.
+*Whether raised, rescued or apprenticed among beasts, you know a world of scent and posture.*
 
 *Which animal behavior do you still find reassuring?*
+
+## Rules
 
 Choose one:
 

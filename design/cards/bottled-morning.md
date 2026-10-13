@@ -1,5 +1,9 @@
 # Bottled Morning
 
+*You stir until the sharp smell softens, then hold the bottle up to the dawn.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** One compatible known ordinary recipe; one hour.
@@ -10,17 +14,17 @@ Your kit can now brew restorative mixtures. Grants a mixing kit if absent (Bulk 
 - **Standard:** 2 inventory steps, capped by recipe.
 - **Strong:** 3 inventory steps, capped by recipe.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** No item needed unless named above.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Craft 2
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Craft 2 and Medicine 1
 
 **Type:** Skill / Crafting
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** bottled-morning · **Status:** Proposal for Bruce’s review.
 

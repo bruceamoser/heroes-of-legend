@@ -1,5 +1,9 @@
 # Athletics
 
+*You learn what your body can do when the easy path ends.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-athletics.
 
 Expert movement and exertion beyond ordinary Brawn or Agility tasks.

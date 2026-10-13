@@ -1,12 +1,16 @@
 # One Last Remark
 
+*You hear the farewell and give the living something they can still do.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Upon hearing an ally’s Last Words within 5 squares, two willing allies each move 2 squares without provoking. Once per dying ally; does not delay or prevent death.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** None.
 

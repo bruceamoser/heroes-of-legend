@@ -1,12 +1,16 @@
 # Between Them
 
+*You see the strike coming and make yourself the obstacle it must pass.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Before an adjacent willing ally is attacked, become the target if legal. After resolution, that ally may move 1 square without provoking.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** None.
 

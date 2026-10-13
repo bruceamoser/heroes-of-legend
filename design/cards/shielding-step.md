@@ -2,6 +2,8 @@
 
 *You are already moving before your friend sees the blow.*
 
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
 **Target / range / shape:** An adjacent willing ally, before an attack resolves
@@ -18,7 +20,7 @@ Become the target if legal.
 
 **Type:** Skill
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** shielding-step · **Status:** Proposal — fresh design; not approved or balance-tested.
 

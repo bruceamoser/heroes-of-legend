@@ -2,13 +2,15 @@
 
 *Something with bright eyes and improbable whiskers answers.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
 **Target / range / shape:** One free adjacent square
 
 HP 1, Speed 4, resistance 0, no attack. May pass small openings appropriate to its described size; cannot cross occupied standing creature squares. Can carry one incidental object, not Bulk 1 equipment, and report simple sights through gestures. Uses normal summon commands and 6-square tether. Lasts 10 minutes; immediate Main command can convert to movement.
 
-**Duration:** As stated in the effect
+**Duration:** Ten minutes; ends immediately beyond the 6-square tether.
 
 **Equipment / acquisition:** None.
 
@@ -18,7 +20,7 @@ HP 1, Speed 4, resistance 0, no attack. May pass small openings appropriate to i
 
 **Type:** Magic / Utility
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** a-friend-beneath-the-door · **Status:** Proposal — fresh design; not approved or balance-tested.
 

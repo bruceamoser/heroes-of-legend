@@ -1,5 +1,9 @@
 # Cincture of Might
 
+*You tighten the belt and feel the next burden settle more easily against your body.*
+
+## Rules
+
 **ID:** item-cincture-of-might. **Status:** Proposal — special equipment. **Form:** Belt. **Bulk:** 1.
 
 **Requirements:** No discipline requirement; understanding not required. **Action:** Passive unless the effect says otherwise.

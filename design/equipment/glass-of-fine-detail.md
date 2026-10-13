@@ -1,5 +1,9 @@
 # Glass of Fine Detail
 
+*You bring the glass close, and the tiny imperfections become a landscape.*
+
+## Rules
+
 **ID:** item-glass-of-fine-detail. **Status:** Proposal — special equipment. **Form:** Eyeglass. **Bulk:** 1.
 
 **Requirements:** No discipline requirement; understanding not required. **Action:** Passive unless the effect says otherwise.

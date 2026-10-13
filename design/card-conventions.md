@@ -60,7 +60,7 @@ Flavor never silently grants flight, telepathy, armor, a second damage type or i
 
 ## Proposed sorting types
 
-Attack, Defense, Movement, Control, Recovery, Skill, Magic, Crafting, Training and
+Attack, Defense, Movement, Control, Recovery, Utility, Skill, Magic, Crafting, Training and
 Signature are tags, not additional rules. Multiple tags are allowed. Action cost is
 indexed separately. Ancestry, Origin, Discipline, Equipment and Recipe identify
 record kinds rather than learned-card prerequisites.
@@ -85,3 +85,46 @@ Noncombat cards should be read as things a person can do. Correct ordinary actio
 still needs no roll when no consequence is at stake. An expert adds an opportunity,
 useful detail or reliability; owning the card is not a license for everyone else to
 stop thinking creatively.
+
+## Imagine it, then resolve it
+
+**Agreed October 13, 2026.** Every card begins with narrative text describing what
+using it looks, sounds or feels like. One vivid sentence is enough for a simple
+ability; a more elaborate ability may deserve more. Address the player and make
+an action or experience imaginable. This applies to universal actions, signatures,
+shared abilities and the other character, equipment and recipe records.
+
+Follow the narrative with a distinct **Rules** section. Only this section establishes
+mechanical permissions and effects. State who acts, the target, action or full time,
+attribute or no-roll instruction, prerequisites, costs, outcomes, duration and limits
+as applicable. A triggered effect states its trigger and resolution timing. A movement
+effect states its distance and legal endpoints. A benefit states its recipients and
+expiry. Do not bury any of these in the narrative.
+
+For example, “You tie the knot without looking, then test it with a tug” evokes
+experience. “While climbing, secure one held rope at a reachable suitable anchor
+without a separate action; a free hand is required” is the adjudicated rule.
+Narrative does not imply an extra sense, free item, automatic success or magical power.
+
+Keep acquisition facts in Rules too. An origin’s memory prompt belongs above Rules;
+its paired discipline/card grant belongs below. For an item, describe the experience
+of handling it, then specify its actual additive effects and use requirements.
+
+## Development breadth
+
+**Agreed direction October 13, 2026:** aim for approximately 10–15 shared Passive
+abilities, including useful enduring expertise outside combat. This count excludes
+ancestry traits and class-exclusive signatures; it is a design target, not a rule
+limiting what a character may learn. The current proposal has fourteen.
+
+Higher-tier utility should change the problems a character can tackle or the people
+they can help, rather than merely repeat ordinary 1/2/3 progress. Use mixed discipline
+requirements when both fields contribute to the technique. “A 2 and B 1” requires
+both ranks before learning; it does not require an earlier ability. Preserve strong
+single-discipline rank-3 destinations and class-and-level-only signature requirements.
+
+The new named abilities and specific requirement assignments remain proposals.
+
+Bruce also accepts the revised grant-only menu of up to 35 eligible unowned shared
+choices as useful breadth. Evaluate their distinctness and value rather than adding
+prerequisites solely to reduce the count.

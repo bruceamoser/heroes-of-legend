@@ -2,6 +2,8 @@
 
 *Something ancient smiles when you open your mouth.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Fortitude
 
 **Target / range / shape:** Every other creature in three contiguous squares in a straight line from you.
@@ -12,7 +14,7 @@ Breathe fire. Roll once using the worst applicable situation; include allies in 
 - **Standard:** 3 fire damage and Burning 1.
 - **Strong:** 5 fire damage and Burning 1.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -22,7 +24,7 @@ Breathe fire. Roll once using the worst applicable situation; include allies in 
 
 **Type:** Magic / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** breath-of-the-wyrmling · **Status:** Proposal for Bruce’s review.
 

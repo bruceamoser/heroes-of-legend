@@ -1,14 +1,14 @@
 # Icebound Path
 
-**Action:** Main Action · **Attribute:** Knowledge
+*You draw your fingers across the air, laying a pale skin of winter over the ground.*
 
-**Target / range / shape:** Three contiguous visible unoccupied squares within 5
+## Rules
 
-Only creates terrain; no automatic damage, prone or repeated entry trigger. Cannot create ice inside a creature.
+**Action:** Main Action · **Attribute:** None — no roll
 
-- **Weak:** Create difficult terrain.
-- **Standard:** Create difficult terrain.
-- **Strong:** Create difficult terrain.
+**Target / range / shape:** Three contiguous visible unoccupied squares within 5 squares
+
+Create difficult terrain in up to three contiguous visible unoccupied squares within 5 squares. The terrain lasts until the start of your next turn. It causes no automatic damage, Prone or repeated entry effect and cannot form inside a creature. No roll.
 
 **Duration:** Until the start of your next turn
 
@@ -20,7 +20,7 @@ Only creates terrain; no automatic damage, prone or repeated entry trigger. Cann
 
 **Type:** Magic
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** icebound-path · **Status:** Proposal — fresh design; not approved or balance-tested.
 

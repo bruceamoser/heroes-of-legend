@@ -1,5 +1,9 @@
 # Write the Final Line
 
+*You recognize the end of the exchange and place the finishing stroke with quiet certainty.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Agility
 
 **Target / range / shape:** One adjacent creature.
@@ -10,7 +14,7 @@ Step inside the familiar pattern and finish your melee attack before they find a
 - **Standard:** 5 physical damage and Dazed 1.
 - **Strong:** 7 physical damage and Dazed 2.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -20,7 +24,7 @@ Step inside the familiar pattern and finish your melee attack before they find a
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** write-the-final-line · **Status:** Proposal for Bruce’s review.
 

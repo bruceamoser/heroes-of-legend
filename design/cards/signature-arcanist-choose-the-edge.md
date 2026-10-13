@@ -1,12 +1,16 @@
 # Choose the Edge
 
+*You catch the fading edge of your spell and give it one last turn.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Once per turn after a Strong area spell, push or pull one affected creature 2 squares. No extra damage except collisions.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

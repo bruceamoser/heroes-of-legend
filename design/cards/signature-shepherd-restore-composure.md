@@ -1,12 +1,16 @@
 # Restore Composure
 
+*You steady their gaze as strength returns to their body.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 A Strong healing spell also reduces temporary Dazed by 1. No effect on starred wound conditions.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

@@ -1,12 +1,16 @@
 # Press the Opening
 
+*You point at the brief opening and put your confidence in the companion beside it.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 One ally adjacent to a visible enemy within 5 squares makes a free Basic Melee attack. If Strong, it may push the enemy 1 square. No attack chains.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

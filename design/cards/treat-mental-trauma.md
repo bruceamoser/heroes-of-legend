@@ -1,14 +1,18 @@
 # Treat Mental Trauma
 
+*You make a quiet place where the memory can be spoken without having to face it alone.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One willing patient’s Mental wound; one hour
 
 Add 1/2/3 recovery progress. Once per wound per day. Relieves specified wound effects, not the scar, memory or player’s agency.
 
-**Duration:** As stated in the effect
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
-**Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+**Equipment / acquisition:** None.
 
 ---
 

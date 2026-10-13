@@ -1,12 +1,16 @@
 # Watch the Rear
 
+*You shout the warning at the first glimpse of movement behind your friend.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Before an ally within 3 squares is attacked, it moves 1 square without provoking if able. If it remains a legal target resolve normally; otherwise the attack is spent without a replacement target. Proposal requiring timing review.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** None.
 

@@ -1,12 +1,16 @@
 # Crash Down
 
+*You drive them into the obstruction with enough commitment to take their feet away.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Once per turn when your Main attack pushes a creature into a hard obstruction, also knock it prone. No additional collision damage.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

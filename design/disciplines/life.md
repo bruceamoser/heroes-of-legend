@@ -1,5 +1,9 @@
 # Life
 
+*You learn to feel the fragile warmth that living things carry between one breath and the next.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-life.
 
 Healing and draining the same life energy; resistance interacts with both.

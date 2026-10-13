@@ -1,12 +1,16 @@
 # Wear Heavy Armor
 
+*You settle the last strap and feel the weight become part of the way you stand.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
 **Target / range / shape:** Self
 
 While wearing the trained armor, physical resistance 3. No lower-tier training prerequisite.
 
-**Duration:** While requirements hold; permanent for development grants
+**Duration:** While wearing the trained armor.
 
 **Equipment / acquisition:** One ordinary heavy armor, Bulk 1, if absent.
 

@@ -1,5 +1,9 @@
 # A Marvel on Wheels
 
+*You unfold your contraption with a clatter and a grin. This time, you are quite sure it will work.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** One visible creature within 6 squares.
@@ -10,17 +14,17 @@ Unfold a wheeled launcher you learned to build; reusable, Bulk 1, granted if abs
 - **Standard:** 4 physical damage and push 2.
 - **Strong:** 6 physical damage and push 3.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** No item needed unless named above.
 
 ---
 
-**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Craft 3
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Craft 3 and Marksmanship 1
 
 **Type:** Skill / Attack / Crafting
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** a-marvel-on-wheels · **Status:** Proposal for Bruce’s review.
 

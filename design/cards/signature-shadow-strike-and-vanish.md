@@ -1,12 +1,16 @@
 # Strike and Vanish
 
+*You strike from concealment and keep moving before surprise has left their face.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 After a Strong Main attack from Hidden, move 2 squares without provoking. The attack still ends Hidden; concealment must be established again.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

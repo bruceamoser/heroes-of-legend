@@ -16,10 +16,10 @@ Your confidence is a fighting technique. Use Guile to strike, create an opening 
 
 ## Give it room to grow
 
-- At level 3, [Under Their Guard](../cards/under-their-guard.md) opens another way to affect the scene.
-- At level 7, [Bow to the Balcony](../cards/bow-to-the-balcony.md) offers a larger moment.
+- At level 3, [Under Their Guard](../cards/under-their-guard.md) (Arms 2) opens another way to affect the scene.
+- At level 7, [Bow to the Balcony](../cards/bow-to-the-balcony.md) (Arms 3) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Story Singer](story-singer.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

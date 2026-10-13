@@ -1,6 +1,6 @@
 # Heroes of Legend — fresh authoring draft
 
-**October 12, 2026. Draft for Bruce’s review. Markdown is the source.**
+**Updated October 13, 2026. Draft for Bruce’s review. Markdown is the source.**
 
 Build characters people want to play, with abilities they are excited to use.
 Character creation and development can be crunchy; resolving a turn should be clear.
@@ -52,3 +52,9 @@ for a Knowledge fighter, a beast-form brawler and a healing/control nature caste
 Run `python3 design/index.py` after editing names or adding entries to refresh
 navigation; it reads the Markdown and never rewrites card text. Run
 `python3 design/audit.py` for structural checks. These tools serve the writing.
+
+## Adventure and card-writing revision
+
+Read [Heroes between battles](adventure-development.md) for the new utility routes,
+fourteen shared passives, mixed requirements and worked purchase checks. Every card
+now separates narrative from Rules. New details remain proposals for review.

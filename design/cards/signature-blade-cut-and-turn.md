@@ -1,12 +1,16 @@
 # Cut and Turn
 
+*You follow the stroke through with your feet, turning its finish into a new position.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 After your Main melee attack, move 1 square without provoking, once per turn.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

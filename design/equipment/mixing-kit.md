@@ -1,6 +1,8 @@
 # Mixing Kit
 
-Stained spoons, a little mortar and bottles whose labels only you can read.
+*Stained spoons, a little mortar and bottles whose labels only you can read.*
+
+## Rules
 
 **Bulk:** 1. **Use:** Reusable tools for a recipe that names a mixing kit.
 No inventory die; ingredients and finished mixtures have their own supply dice.

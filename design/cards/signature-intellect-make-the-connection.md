@@ -1,12 +1,16 @@
 # Make the Connection
 
+*You return to an overlooked detail, suddenly certain why it matters.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 On a Strong Reason roll interpreting evidence, learn one additional evidence-supported fact, once per scene.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

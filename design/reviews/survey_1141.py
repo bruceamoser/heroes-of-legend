@@ -1,9 +1,10 @@
-"""Read-only reproduction of issue 1141's catalog and starting-access counts.
+"""Read-only reproduction of issue 1141's catalog at historical commit 9b5eb4c.
 
 Run from any directory: python3 design/reviews/survey_1141.py
 Gameplay classifications are editorial judgments recorded in the CSV, not inferred.
 """
 import csv
+import subprocess
 import itertools
 import json
 import re
@@ -15,9 +16,17 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from index import field
 
+REF = "9b5eb4c"
+REPO = ROOT.parent
+def historical(path):
+    return subprocess.check_output(["git", "show", REF+":"+str(path.relative_to(REPO))], cwd=REPO, text=True)
+def old_files(folder):
+    paths = subprocess.check_output(["git", "ls-tree", "-r", "--name-only", REF, "design/"+folder], cwd=REPO, text=True).splitlines()
+    return [REPO/p for p in paths if p.endswith(".md")]
+
 cards = {}
-for p in sorted((ROOT / 'cards').glob('*.md')):
-    s = p.read_text()
+for p in old_files('cards'):
+    s = historical(p)
     if field(s, 'Tier / minimum level') == 'Universal' or field(s, 'Type') == 'Signature':
         continue
     cards[field(s, 'ID')] = {
@@ -50,8 +59,8 @@ for d in sorted({d for reqs in requirements.values() for d, rank in reqs}):
 # Grant-only snapshot: no DP purchases yet. A real level-1 character also has L0 buys.
 def origins(kind):
     result = []
-    for p in sorted((ROOT / 'origins').glob(kind + '-*.md')):
-        pairs = re.findall(r'^- (\w+) 1 and \[[^\]]+\]\(../cards/([^)]*)\.md\)', p.read_text().replace('**', ''), re.M)
+    for p in [p for p in old_files('origins') if p.name.startswith(kind+'-')]:
+        pairs = re.findall(r'^- (\w+) 1 and \[[^\]]+\]\(../cards/([^)]*)\.md\)', historical(p).replace('**', ''), re.M)
         assert len(pairs) == 2, p
         result.extend((d, id, p.stem) for d, id in pairs)
     return result
@@ -73,8 +82,8 @@ def eligible(ranks, known):
 
 report['origins'] = {'culture_pairs': len(cultures), 'background_pairs': len(backgrounds)}
 report['grant_only_access'] = {}
-for p in sorted((ROOT / 'classes').glob('*.md')):
-    m = re.search(r'choose two distinct rank-1 disciplines from ([^.]+)\.', p.read_text())
+for p in old_files('classes'):
+    m = re.search(r'choose two distinct rank-1 disciplines from ([^.]+)\.', historical(p))
     assert m, p
     choices = m[1].split(', ')
     low = (999, None)

@@ -1,6 +1,8 @@
 # Elf
 
-Old memory, woodland grace and a sense that the hurried world has forgotten how to listen.
+*Old memory, woodland grace and a sense that the hurried world has forgotten how to listen.*
+
+## Rules
 
 Choose two of the five traits below. These are invitations to a familiar fantasy,
 not a required personality. Any ancestry may grow up in any culture.

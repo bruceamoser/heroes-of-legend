@@ -2,6 +2,8 @@
 
 *The pursuit falters as your shots bite into its leading ranks.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Agility
 
 **Target / range / shape:** Up to three visible creatures within 8 squares
@@ -22,7 +24,7 @@ One player roll uses the worst applicable net Boon/Bane situation. Areas include
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** sever-the-pursuit · **Status:** Proposal — fresh design; not approved or balance-tested.
 

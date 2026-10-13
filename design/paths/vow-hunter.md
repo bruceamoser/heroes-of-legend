@@ -16,10 +16,10 @@ Choose the person you must reach and make pursuit part of the scene. Your words 
 
 ## Give it room to grow
 
-- At level 3, [No Road Away](../cards/no-road-away.md) opens another way to affect the scene.
-- At level 7, [Answer for What You Did](../cards/answer-for-what-you-did.md) offers a larger moment.
+- At level 3, [No Road Away](../cards/no-road-away.md) (Influence 2) opens another way to affect the scene.
+- At level 7, [Answer for What You Did](../cards/answer-for-what-you-did.md) (Influence 3) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Reader of Omens](reader-of-omens.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

@@ -1,5 +1,9 @@
 # Running Vault
 
+*You measure the gap in a glance and let your stride become a leap.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** Agility
 
 **Target / range / shape:** A visible unoccupied landing within 3 squares
@@ -20,7 +24,7 @@ Choose a landing within the rolled distance. If none is safe, remain at the orig
 
 **Type:** Skill
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** running-vault · **Status:** Proposal — fresh design; not approved or balance-tested.
 

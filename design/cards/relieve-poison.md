@@ -1,14 +1,18 @@
 # Relieve Poison
 
+*You recognize the tremor and work quickly to ease what is spreading through their body.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** Self or one adjacent willing creature
 
 Reduce temporary Poisoned by 1/2/3. A persistent poison requires the remedy on its source. Restores no HP.
 
-**Duration:** As stated in the effect
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
-**Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+**Equipment / acquisition:** None.
 
 ---
 

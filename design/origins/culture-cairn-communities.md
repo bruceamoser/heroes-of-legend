@@ -1,8 +1,10 @@
 # Cairn Communities
 
-The dead are remembered at supper and in council, while the living argue freely about their advice.
+*The dead are remembered at supper and in council, while the living argue freely about their advice.*
 
 *Whose name do you speak when courage runs short?*
+
+## Rules
 
 Choose one:
 

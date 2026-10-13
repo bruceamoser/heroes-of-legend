@@ -1,12 +1,16 @@
 # Spot the Leverage
 
+*You tap the one place where a little pressure might change everything.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Name a visible ordinary obstacle within 3 squares. Learn whether Force could make progress against it and its remaining target if applicable; no perception roll invented.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

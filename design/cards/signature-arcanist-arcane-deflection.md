@@ -1,12 +1,16 @@
 # Arcane Deflection
 
+*You feel the approaching spell tug at the air and turn that pull aside.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Before your defense against a spell, gain 1 Boon. After a Strong defense, push the visible caster 1 square if within 5 squares.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** None.
 

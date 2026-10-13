@@ -1,8 +1,10 @@
 # Itinerant Tinker
 
-Your workshop fit on your back, and your reputation traveled a village ahead.
+*Your workshop fit on your back, and your reputation traveled a village ahead.*
 
 *What repair earned you a lifelong welcome?*
+
+## Rules
 
 Choose one:
 

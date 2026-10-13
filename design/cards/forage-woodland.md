@@ -1,5 +1,9 @@
 # Forage Woodland
 
+*You leave the obvious trail and return with the forest’s quiet offerings gathered in your hands.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** A viable forest patch; one hour
@@ -20,7 +24,7 @@ Choose food or ordinary plant crafting material; one bundle only, maximum d8. St
 
 **Type:** Skill
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** forage-woodland · **Status:** Proposal — fresh design; not approved or balance-tested.
 

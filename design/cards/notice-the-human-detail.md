@@ -1,5 +1,9 @@
 # Notice the Human Detail
 
+*You notice the untouched cup, the worried glance, the detail everyone else stepped past.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** An accessible scene or person you can examine; one minute
@@ -10,7 +14,7 @@ No secret fact is invented. Obvious clues require no roll. This grants no lie de
 - **Standard:** Also identify a plausible interpretation.
 - **Strong:** Also identify a concrete way to check that interpretation.
 
-**Duration:** As specified
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 
@@ -20,7 +24,7 @@ No secret fact is invented. Obvious clues require no roll. This grants no lie de
 
 **Type:** Skill / Utility
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** notice-the-human-detail · **Status:** Proposal — fresh design; not approved or balance-tested.
 

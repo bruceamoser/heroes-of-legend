@@ -1,5 +1,9 @@
 # Simple Replacement Leg
 
+*You shape and fit the pieces around the person who will have to trust their weight to them.*
+
+## Rules
+
 - **ID:** recipe-simple-replacement-leg
 - **Status:** Proposal — ordinary recipe
 - **Permission:** Trail Workshop; the recipe alone grants no crafting permission

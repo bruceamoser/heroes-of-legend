@@ -1,12 +1,16 @@
 # Hold Your Nerve
 
+*You speak their name as though the danger has not changed who they are.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 When an ally within 3 squares gains temporary Frightened, reduce that new contribution by 1. Must hear you; no effect on starred sources.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** None.
 

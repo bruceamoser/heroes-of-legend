@@ -1,5 +1,9 @@
 # Gravebound Brooch
 
+*You fasten the cold brooch and feel its chill linger against your skin.*
+
+## Rules
+
 **ID:** item-gravebound-brooch. **Status:** Proposal — special equipment. **Form:** Brooch. **Bulk:** 1.
 
 **Requirements:** No discipline requirement; understanding not required. **Action:** Passive unless the effect says otherwise.

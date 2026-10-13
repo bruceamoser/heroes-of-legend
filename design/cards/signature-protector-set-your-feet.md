@@ -1,12 +1,16 @@
 # Set Your Feet
 
+*You find the ground beneath you and decide that this is where you will remain.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 While your Defend is active, reduce push or pull against you by 1 square. This reduction does not stack with another displacement reduction; use the highest.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

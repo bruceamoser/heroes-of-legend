@@ -1,5 +1,9 @@
 # Influence
 
+*You learn how a voice can open a door, steady a friend or turn a room.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-influence.
 
 Leadership, negotiation and credible social pressure; never mind control.

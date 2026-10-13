@@ -1,14 +1,18 @@
 # Rouse the Senses
 
+*You speak a familiar word and hold their gaze until the world begins to settle around them.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One adjacent willing creature
 
 Reduce temporary Dazed by 1/2/3. No effect on starred wound conditions unless that wound explicitly permits this treatment.
 
-**Duration:** As stated in the effect
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
-**Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+**Equipment / acquisition:** None.
 
 ---
 

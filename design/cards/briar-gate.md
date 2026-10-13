@@ -1,12 +1,16 @@
 # Briar Gate
 
+*You sweep your hand across the ground, calling a tangle of thorns into the opening.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
 **Target / range / shape:** Three contiguous visible free squares within 4 squares.
 
-Raise a waist-high briar hedge until your next turn. These squares become difficult terrain and give heavy cover across them, but remain passable and do not damage entrants. You cannot seal a creature inside its own occupied square.
+Raise a waist-high briar hedge until the start of your next turn. These squares become difficult terrain and give heavy cover across them, but remain passable and do not damage entrants. You cannot seal a creature inside its own occupied square.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -16,7 +20,7 @@ Raise a waist-high briar hedge until your next turn. These squares become diffic
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** briar-gate · **Status:** Proposal for Bruce’s review.
 

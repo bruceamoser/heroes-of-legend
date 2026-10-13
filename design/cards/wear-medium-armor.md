@@ -1,12 +1,16 @@
 # Wear Medium Armor
 
+*You roll your shoulders inside the familiar armor, ready to meet the day’s hard edges.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
 **Target / range / shape:** Self
 
 While wearing the trained armor, physical resistance 2. No roll; highest matching resistance applies.
 
-**Duration:** While requirements hold; permanent for development grants
+**Duration:** While wearing the trained armor.
 
 **Equipment / acquisition:** One ordinary medium armor, Bulk 1, if absent.
 

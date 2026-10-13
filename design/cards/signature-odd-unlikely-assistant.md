@@ -1,12 +1,16 @@
 # Unlikely Assistant
 
+*You offer an odd little suggestion that turns out to be exactly what was missing.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Your Aid can reach an ally within 3 squares who can understand your method of assistance.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

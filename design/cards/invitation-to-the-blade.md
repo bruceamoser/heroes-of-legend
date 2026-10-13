@@ -2,6 +2,8 @@
 
 *You give your enemy one opening, and it is the wrong one.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Agility
 
 **Target / range / shape:** One adjacent creature.
@@ -9,10 +11,10 @@
 Offer a tempting line, then close it with a melee attack.
 
 - **Weak:** 3 physical damage.
-- **Standard:** 3 physical damage; gain 1 Boon to your next defense against this target before your next turn.
+- **Standard:** 3 physical damage; gain 1 Boon to your next defense against this target before the start of your next turn.
 - **Strong:** 5 physical damage and the same defensive Boon.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -22,7 +24,7 @@ Offer a tempting line, then close it with a melee attack.
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** invitation-to-the-blade · **Status:** Proposal for Bruce’s review.
 

@@ -1,12 +1,16 @@
 # Orderly Withdrawal
 
+*You call the next two steps clearly enough to cut through the noise.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Two willing allies within 3 squares each move 1 square without provoking, one at a time.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

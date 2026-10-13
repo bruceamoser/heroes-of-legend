@@ -1,14 +1,18 @@
 # Drain Warmth
 
+*You curl your fingers and watch a little color leave their face.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
 
 **Target / range / shape:** One visible creature within 4 squares
 
 Deal 2/3/5 Life damage. Grants no healing to the caster; Life resistance applies. NPC defense: Fortitude.
 
-**Duration:** As stated in the effect
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
-**Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+**Equipment / acquisition:** None.
 
 ---
 

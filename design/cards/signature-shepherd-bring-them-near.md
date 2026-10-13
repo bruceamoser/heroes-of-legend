@@ -1,12 +1,16 @@
 # Bring Them Near
 
+*You reach toward your wounded companion, showing them the way back to you.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 After an ally within 3 squares takes damage, it may move 2 squares toward you without provoking if able to move.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** None.
 

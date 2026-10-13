@@ -2,6 +2,8 @@
 
 *Your arrows clear a lane for someone else to charge.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Agility
 
 **Target / range / shape:** Up to two visible creatures within 8 squares
@@ -22,7 +24,7 @@ One player roll uses the worst applicable net Boon/Bane situation. Areas include
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** driving-volley · **Status:** Proposal — fresh design; not approved or balance-tested.
 

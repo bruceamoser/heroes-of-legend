@@ -1,5 +1,9 @@
 # Ordinary Melee Weapon
 
+*You turn the weapon in your hand, remembering why you chose this shape to carry.*
+
+## Rules
+
 - **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-ordinary-melee-weapon
 - **Bulk:** 1

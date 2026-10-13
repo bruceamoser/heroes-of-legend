@@ -2,6 +2,8 @@
 
 *You seize the shape of the spell and wrench it aside.*
 
+## Rules
+
 **Action:** Reaction · **Attribute:** Knowledge
 
 **Target / range / shape:** One visible caster within 4 squares, casting a spell with you as its sole target
@@ -12,7 +14,7 @@ Countermagic proposal: resolve this card before the ordinary defense. Does not c
 - **Standard:** Gain 2 Boons to that defense.
 - **Strong:** Gain 3 Boons; after it resolves, push its caster 1 square.
 
-**Duration:** As stated in the effect
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** None.
 
@@ -22,7 +24,7 @@ Countermagic proposal: resolve this card before the ordinary defense. Does not c
 
 **Type:** Magic / Utility
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** catch-the-spell · **Status:** Proposal — fresh design; not approved or balance-tested.
 

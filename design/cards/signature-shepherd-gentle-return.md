@@ -1,12 +1,16 @@
 # Gentle Return
 
+*You guide their first returning movement with a hand held ready.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Once per turn when your healing raises an ally from 0 HP, that ally may move 1 square without provoking. It is not automatically stood up.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

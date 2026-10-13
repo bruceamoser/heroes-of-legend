@@ -1,5 +1,9 @@
 # Intellect
 
+*You see a pattern where others see only trouble, and trust your understanding enough to act.*
+
+## Rules
+
 **Agreed:** minimum 0 in Knowledge, Reason; HP contribution +2. No multiclassing.
 
 **Proposal:** choose two distinct rank-1 disciplines from Scholarship, Craft, Medicine, Mind.

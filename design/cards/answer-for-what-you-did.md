@@ -1,5 +1,9 @@
 # Answer for What You Did
 
+*You meet their eyes. The chase is over, and your promise still stands.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
 
 **Target / range / shape:** One adjacent creature.
@@ -10,7 +14,7 @@ Bring the pursuit to a close with a melee attack. Against a quarry you marked wi
 - **Standard:** 5 physical damage and Slowed 2.
 - **Strong:** 7 physical damage and knock prone.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -20,7 +24,7 @@ Bring the pursuit to a close with a melee attack. Against a quarry you marked wi
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** answer-for-what-you-did · **Status:** Proposal for Bruce’s review.
 

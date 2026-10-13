@@ -1,5 +1,9 @@
 # Food Bundle
 
+*You unwrap a little comfort from home and share the smell of a proper meal.*
+
+## Rules
+
 - **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-food-bundle
 - **Bulk:** 1

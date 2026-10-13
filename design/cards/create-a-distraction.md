@@ -1,14 +1,18 @@
 # Create a Distraction
 
+*You offer a dropped cup, a pointed remark, or a sudden flourish at exactly the right moment.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
 
 **Target / range / shape:** One creature within 3 squares that can perceive your distraction
 
-Weak: next ally gains 1 Boon to moving past it unnoticed. Standard: the Boon can instead aid an attack. Strong: two distinct allies may each use the Boon. Expires at your next turn. Does not itself grant Hidden.
+Weak: next ally gains 1 Boon to moving past it unnoticed. Standard: the Boon can instead aid an attack. Strong: two distinct allies may each use the Boon. Expires at the start of your next turn. Does not itself grant Hidden.
 
-**Duration:** As stated in the effect
+**Duration:** Until the start of your next turn or until the granted Boon is used.
 
-**Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+**Equipment / acquisition:** None.
 
 ---
 

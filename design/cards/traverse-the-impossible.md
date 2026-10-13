@@ -1,5 +1,9 @@
 # Traverse the Impossible
 
+*You look across the empty space, breathe once, and trust the leap you have practiced all your life.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Agility
 
 **Target / range / shape:** A visible unoccupied landing within 6 squares
@@ -20,7 +24,7 @@ Choose a landing within the rolled distance. If none is safe, remain at the orig
 
 **Type:** Skill
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** traverse-the-impossible · **Status:** Proposal — fresh design; not approved or balance-tested.
 

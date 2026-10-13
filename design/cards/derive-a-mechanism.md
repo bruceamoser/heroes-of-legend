@@ -1,5 +1,9 @@
 # Derive a Mechanism
 
+*You lay out the pieces and follow the maker’s thinking, one ingenious decision at a time.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One accessible ordinary mechanical item; four hours
@@ -20,7 +24,7 @@ Proposal: target 12 for an ordinary mechanism. Requires tools and access to the 
 
 **Type:** Skill
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** derive-a-mechanism · **Status:** Proposal — fresh design; not approved or balance-tested.
 

@@ -2,6 +2,8 @@
 
 *Smile first. They should know this was your idea.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
 
 **Target / range / shape:** One adjacent creature.
@@ -12,7 +14,7 @@ Use a melee weapon, a wink and a deliberately misleading step.
 - **Standard:** 3 physical damage; move 1 square without provoking.
 - **Strong:** 5 physical damage; move 2 squares without provoking.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.
 
@@ -22,7 +24,7 @@ Use a melee weapon, a wink and a deliberately misleading step.
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** smile-before-steel · **Status:** Proposal for Bruce’s review.
 

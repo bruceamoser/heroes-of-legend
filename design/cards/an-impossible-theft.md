@@ -1,5 +1,9 @@
 # An Impossible Theft
 
+*You stretch a hand toward the prize; your shadow’s fingers arrive before yours.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
 
 **Target / range / shape:** One visible unattended object of Bulk 0 or 1 within 3 squares.
@@ -10,7 +14,7 @@ Your shadow reaches where your hand cannot. The path must be open; it cannot str
 - **Standard:** Move it 2 squares toward you.
 - **Strong:** Bring it up to 3 squares into your free hand.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** No item needed unless named above.
 
@@ -20,7 +24,7 @@ Your shadow reaches where your hand cannot. The path must be open; it cannot str
 
 **Type:** Skill
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** an-impossible-theft · **Status:** Proposal for Bruce’s review.
 

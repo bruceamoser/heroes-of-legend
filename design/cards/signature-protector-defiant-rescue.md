@@ -1,12 +1,16 @@
 # Defiant Rescue
 
+*You see the killing blow and throw yourself into its path.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 When an ally within 2 squares would enter Dying, move adjacent if a legal route exists, then become the target of the triggering attack if legal and resolve it against you instead. No duplicate damage on the ally.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** None.
 

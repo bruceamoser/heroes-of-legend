@@ -2,6 +2,8 @@
 
 *The fight happens once in your mind before your hand moves.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Knowledge
 
 **Target / range / shape:** One adjacent creature.
@@ -12,7 +14,7 @@ A limp, a lifted elbow, the way the armor closes: attack what you understand. Us
 - **Standard:** 3 physical damage; learn whether it has physical resistance.
 - **Strong:** 5 physical damage; learn the physical resistance value and move 1 square without provoking.
 
-**Duration:** Immediate unless a duration is given above; conditions use normal decay.
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** Your empty hand is enough. If you prefer a weapon, this card grants one ordinary melee weapon, Bulk 1, if absent; both use the same printed damage.
 
@@ -22,7 +24,7 @@ A limp, a lifted elbow, the way the armor closes: attack what you understand. Us
 
 **Type:** Skill / Attack
 
-**Limits:** Repeatable; pay the action each time and follow any stated limit. No earlier path card is required.
+**Limits:** Pay the printed action and costs each use. No earlier path card is required; any stated daily or scene limit also applies.
 
 **ID:** anatomy-of-an-opening · **Status:** Proposal for Bruce’s review.
 

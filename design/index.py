@@ -35,7 +35,7 @@ def main():
  for p in sorted((R/'disciplines').glob('*.md')):
   d=title(p);txt+=f'## {link(p)}\n\n'
   for cp,s in cards:
-   if field(s,'Requirements to learn').startswith(d+' '):txt+=f'- {link(cp)} — level {field(s,"Tier / minimum level")}; {field(s,"Action")}.\n'
+   if re.search(r'\b'+re.escape(d)+r' [123]\b',field(s,'Requirements to learn')):txt+=f'- {link(cp)} — level {field(s,"Tier / minimum level")}; {field(s,"Action")}.\n'
   txt+='\n'
  (R/'disciplines.md').write_text(txt.rstrip()+'\n')
  for folder,name in [('recipes','Recipes'),('equipment','Equipment')]:

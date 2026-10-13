@@ -1,12 +1,16 @@
 # Useful Interruption
 
+*You ask the inconvenient question at the most inconvenient possible moment.*
+
+## Rules
+
 **Action:** Maneuver · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
-Plausibly distract an adjacent creature; one ally gains 1 Boon to its next defense against it before your next turn.
+Plausibly distract an adjacent creature; one ally gains 1 Boon to its next defense against it before the start of your next turn.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Until the start of your next turn; a next-roll benefit ends when used.
 
 **Equipment / acquisition:** None.
 

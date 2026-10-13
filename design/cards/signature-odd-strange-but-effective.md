@@ -1,12 +1,16 @@
 # Strange but Effective
 
+*You arrange the leverage with an innocent expression and let the result explain itself.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Guile
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Use Force with Guile instead of Brawn: 1/2/3 progress, grapple reduction or push. You still need a plausible means of exerting force; not remote telekinesis.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

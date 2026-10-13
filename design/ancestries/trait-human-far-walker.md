@@ -2,6 +2,8 @@
 
 *The horizon has never looked like a place to stop.*
 
+## Rules
+
 Base Speed +1. Long journeys remain ordinary travel; this creates no exhaustion rule.
 
 **Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.

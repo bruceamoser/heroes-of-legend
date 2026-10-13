@@ -1,12 +1,16 @@
 # Deliberate Spark
 
+*You place a final spark where your enemy was about to plant a foot.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Once per turn after a Strong damaging spell, choose one target of that spell and push it 1 square.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

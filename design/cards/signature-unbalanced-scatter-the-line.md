@@ -1,12 +1,16 @@
 # Scatter the Line
 
+*You roar and throw your weight into the bodies hemming you in.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Brawn
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 Force each adjacent enemy directly away using one Brawn roll: push 2/3/4 squares. No weapon damage, normal collision damage. Worst applicable Boon/Bane situation.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

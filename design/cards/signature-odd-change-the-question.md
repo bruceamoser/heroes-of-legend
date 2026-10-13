@@ -1,12 +1,16 @@
 # Change the Question
 
+*You stop struggling with their version of the problem and suggest a different one.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 During a noncombat obstacle, identify a different plausible approach with the DA. Gain 1 Boon to your next ordinary roll using that approach this scene; no automatic permission or success.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
 **Equipment / acquisition:** None.
 

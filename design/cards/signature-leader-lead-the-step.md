@@ -1,12 +1,16 @@
 # Lead the Step
 
+*You fall back with a hand extended, leaving no friend to guess your intention.*
+
+## Rules
+
 **Action:** Passive · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 When you Disengage, one adjacent willing ally may move 1 square without provoking, once per turn.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** While the printed requirements apply; resolve a triggered benefit at the timing stated above.
 
 **Equipment / acquisition:** None.
 

@@ -1,5 +1,9 @@
 # Blade
 
+*You make the hard choices in the space between one stroke and the next.*
+
+## Rules
+
 **Agreed:** minimum 0 in Agility, Brawn; HP contribution +4. No multiclassing.
 
 **Proposal:** choose two distinct rank-1 disciplines from Arms, Marksmanship, Athletics, Subterfuge.

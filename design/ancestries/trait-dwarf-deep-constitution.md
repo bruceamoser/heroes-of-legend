@@ -2,6 +2,8 @@
 
 *Your ancestors did not dig a home from the mountain by yielding politely.*
 
+## Rules
+
 Maximum HP +1. Gain no additional resistance from this trait.
 
 **Ancestry:** Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.

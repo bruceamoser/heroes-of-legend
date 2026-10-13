@@ -16,10 +16,10 @@ Give the companion a name and a manner long before describing its statistics. It
 
 ## Give it room to grow
 
-- At level 3, [Call the Hunting Cat](../cards/call-the-hunting-cat.md) opens another way to affect the scene.
-- At level 7, [Call the Elder Stag](../cards/call-the-elder-stag.md) offers a larger moment.
+- At level 3, [Call the Hunting Cat](../cards/call-the-hunting-cat.md) (Calling 2) opens another way to affect the scene.
+- At level 7, [Call the Elder Stag](../cards/call-the-elder-stag.md) (Calling 3) offers a larger moment.
 
-These are independent cards. You need the stated rank, not the earlier card.
+These are independent cards. You need every stated discipline rank, not the earlier card.
 Try combining this with [Trail Hunter](trail-hunter.md). The roles describe what you enjoy,
 not everything you may do. Class signatures add a separate personal accent.
 

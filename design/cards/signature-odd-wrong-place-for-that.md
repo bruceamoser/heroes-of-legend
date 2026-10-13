@@ -1,12 +1,16 @@
 # Wrong Place for That
 
+*You step aside with a companion in tow, leaving the blow to explain its own poor timing.*
+
+## Rules
+
 **Action:** Reaction · **Attribute:** None — no roll
 
-**Target / range / shape:** As specified in the effect
+**Target / range / shape:** The trigger and recipients are specified in the rule below.
 
 After an adjacent enemy’s attack resolves, move 1 square without provoking and move a willing adjacent ally 1 square into a legal free square.
 
-**Duration:** As specified; otherwise immediate
+**Duration:** For the triggering event; granted movement resolves immediately and conditions use normal decay.
 
 **Equipment / acquisition:** None.
 

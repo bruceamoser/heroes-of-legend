@@ -1,14 +1,18 @@
 # Treat Life Injury
 
+*You sit beside the patient and patiently coax their exhausted body back toward its own rhythm.*
+
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One wound listing Life treatment; one hour
 
 Add 1/2/3 recovery progress. Once per wound per day; this treatment grants no HP and pays no magical healing cost.
 
-**Duration:** As stated in the effect
+**Duration:** Instant; temporary conditions resolve and decay at the affected creature’s turn end.
 
-**Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+**Equipment / acquisition:** None.
 
 ---
 

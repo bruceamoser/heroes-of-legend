@@ -2,6 +2,8 @@
 
 *You kneel beside them and give strength you will feel missing.*
 
+## Rules
+
 **Action:** Main Action · **Attribute:** Reason
 
 **Target / range / shape:** One willing creature within 3 squares, including self
@@ -22,7 +24,7 @@ Moser’s law of conservation of Life energy: pay 3 HP before rolling; bypass re
 
 **Type:** Magic / Recovery
 
-**Limits:** Repeatable within the normal action economy.
+**Limits:** Pay the printed action and costs each use; any stated daily or scene limit also applies.
 
 **ID:** sustain-the-failing · **Status:** Proposal — fresh design; not approved or balance-tested.
 
