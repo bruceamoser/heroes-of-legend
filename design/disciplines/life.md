@@ -1,0 +1,19 @@
+# Life
+
+*You learn to feel the fragile warmth that living things carry between one breath and the next.*
+
+## Rules
+
+**Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-life.
+
+Healing and draining the same life energy; resistance interacts with both.
+
+Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute
+bonus, equipment or permission to use every card in this field. A card prints the
+rank required before purchase. No additional level gate applies to ranks.
+
+Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;
+Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.
+New affinities are proposals. No discipline may be bought at level 0.
+
+[Discipline index](../disciplines.md) · [Catalog](../catalog.md)
