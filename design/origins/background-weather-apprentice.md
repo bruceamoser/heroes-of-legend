@@ -1,5 +1,11 @@
 # Weather Apprentice
 
+*Your teacher watched the clouds as if reading a difficult letter.*
+
+*Which warning did you finally learn to hear?*
+
+## Rules
+
 **Type:** Background. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
 
 - Storm 1 and [Gust Hammer](../cards/gust-hammer.md).

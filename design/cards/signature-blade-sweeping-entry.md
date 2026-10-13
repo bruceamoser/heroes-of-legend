@@ -1,24 +1,29 @@
 # Sweeping Entry
 
-- **ID:** signature-blade-sweeping-entry
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 3
-- **DP:** 4
-- **Requirements to learn:** Class Blade; level 3 only
-- **Action:** Maneuver
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You rush in behind a broad sweep, using the threat of the blade to claim a better position.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Maneuver · **Attribute:** None — no roll
 
-Move 2 squares toward a visible enemy without provoking. Your next melee attack this turn may push its target 1 square after damage.
+**Target / range / shape:** Self; a visible enemy you can approach by a legal route.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+Move up to 3 squares toward that enemy without provoking. Your next Main Action melee attack this turn may push one of its targets 1 square directly away after resolution, on any result.
+
+**Duration:** Movement is immediate; unused push benefit expires at turn end.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Blade; minimum level 3
+
+**Type:** Signature
+
+**Tags:** Skill / Movement / Control
+
+**Limits:** Repeatable; normal action economy applies.
+
+**ID:** signature-blade-sweeping-entry · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

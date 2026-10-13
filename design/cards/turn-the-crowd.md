@@ -1,24 +1,33 @@
 # Turn the Crowd
 
-- **ID:** turn-the-crowd
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Skill
-- **Tier / minimum level:** 7
-- **DP:** 8
-- **Requirements to learn:** Influence 3
-- **Action:** Main Action
-- **Attribute:** Guile
-- **Target / range / shape:** An audience able to hear; 10 minutes
-- **Duration:** Instant
-- **Limits:** Repeatable within the normal action economy.
-- **Equipment / acquisition:** None.
+*You find the words people begin repeating to one another before you have finished speaking.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| 1 progress toward the declared group objective. | 2 progress and identify a pivotal objection. | 3 progress and identify a willing spokesperson. |
+**Action:** Main Action · **Attribute:** Guile
 
-DA declares the objective, stakes and any cumulative target before the roll. Progress is not automatic completion. No routine roll when there is no consequence.
+**Time:** Ten minutes per attempt.
+
+**Target / range / shape:** An audience able to hear; 10 minutes
+
+Address an audience able to hear and understand you. Propose one plausible collective objective, such as providing volunteers, granting access or organizing evacuation. The DA states a binary or cumulative progress target and which listeners are willing to consider it. Completion secures the stated cooperation from willing participants, not authority over everyone present; their own choices and new events still matter.
+
+- **Weak:** 1 progress; identify an objection voiced by the audience.
+- **Standard:** 2 progress; also identify a willing spokesperson who can explain that objection.
+- **Strong:** 3 progress; also identify willing volunteers who can organize the agreed practical next step, if such people are present.
+
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Influence 3
+
+**Type:** Skill
+
+**Limits:** Repeatable; pay the action and any stated costs each use.
+
+**ID:** turn-the-crowd · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

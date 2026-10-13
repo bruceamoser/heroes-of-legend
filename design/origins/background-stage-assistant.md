@@ -1,5 +1,11 @@
 # Stage Assistant
 
+*You made the impossible happen from behind the curtain.*
+
+*What trick did the star never learn you invented?*
+
+## Rules
+
 **Type:** Background. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
 
 - Subterfuge 1 and [Create a Distraction](../cards/create-a-distraction.md).

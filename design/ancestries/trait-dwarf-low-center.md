@@ -1,15 +1,15 @@
-# Low Center
+# Rooted in Stone
 
-- **ID:** trait-dwarf-low-center
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Dwarf; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*You spread your boots against the stone and lean into the approaching shove.*
 
-Gain 1 Boon to defense against forced movement while standing on solid ground.
+## Rules
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+While standing on solid ground, gain 1 Boon to defense against forced movement. This is not immunity and does not reduce the resulting distance separately.
 
-[Ancestry](./dwarf.md)
+**Ancestry:** Dwarf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-dwarf-low-center · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](dwarf.md)

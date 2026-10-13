@@ -1,24 +1,29 @@
 # Shelter the Fallen
 
-- **ID:** signature-protector-shelter-the-fallen
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 3
-- **DP:** 4
-- **Requirements to learn:** Class Protector; level 3 only
-- **Action:** Main Action
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You drop beside your fallen companion, steady their breathing and drag them behind your guard in one practiced motion.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Maneuver · **Attribute:** None — no roll
 
-Stabilize one adjacent Dying ally, then move that ally into a free adjacent square. No HP restoration; no opportunity from this forced movement.
+**Target / range / shape:** One adjacent Dying player-character ally.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+Stabilize it, then move it up to 2 squares to a free square adjacent to you without provoking. You need a free hand and must be able to support its weight. Gain Defend until the start of your next turn. This restores no HP and removes no wound; it cannot interrupt Last Words.
+
+**Duration:** Stabilization and relocation are immediate; your Defend ends at the start of your next turn.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Protector; minimum level 3
+
+**Type:** Signature
+
+**Tags:** Skill / Recovery / Movement / Defense
+
+**Limits:** Repeatable; normal action economy applies.
+
+**ID:** signature-protector-shelter-the-fallen · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

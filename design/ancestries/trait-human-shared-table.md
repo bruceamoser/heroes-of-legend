@@ -1,15 +1,15 @@
-# Shared Table
+# Make Room at the Fire
 
-- **ID:** trait-human-shared-table
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Human; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*You shift a bowl toward the stranger and offer a place beside the fire before asking their name.*
 
-Gain 1 Boon when a consequential conversation seeks ordinary hospitality, not money or obedience.
+## Rules
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+Once per scene, when you offer genuine food, shelter or shared work to a nonhostile person, gain 1 Boon to the next Guile roll seeking ordinary hospitality or trust from them before the scene ends. No automatic friendship or compelled response.
 
-[Ancestry](./human.md)
+**Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-human-shared-table · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](human.md)

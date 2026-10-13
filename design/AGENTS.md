@@ -18,3 +18,10 @@ Start from the player experience: flavor, clear fictional action, teamwork and
 memorable choices. Numerical consistency supports play; it is not the sole
 acceptance criterion. Reference other RPGs through the local library, cite the
 actual passage consulted, and write original HOL expressions of useful ideas.
+
+For catalog expansion, begin with character fantasies and their roles, then build
+abilities along each path. Use D&D class/subclass families as a coverage guide,
+not a class-locking scheme. Include distinctive printed attributes for techniques
+(e.g. Knowledge combat). Evocative prose is required; avoid treating an ability as
+a mathematical proof or padding tiers with generic upgrades. Ancestry traits should
+express recognizable fantasy identity without dictating personality or culture.

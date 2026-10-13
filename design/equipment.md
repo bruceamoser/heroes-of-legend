@@ -1,6 +1,7 @@
 # Equipment
 
-All named entries are fresh proposals. Coins are the only currency; no final coin prices are assigned.
+Fresh proposals for review. Follow the printed acquisition and permission; a recipe
+is knowledge, not a free finished item.
 
 - [Ammunition Bundle](equipment/ammunition-bundle.md)
 - [Book of Quiet Doors](equipment/book-of-quiet-doors.md)
@@ -15,6 +16,7 @@ All named entries are fresh proposals. Coins are the only currency; no final coi
 - [Lighting Bundle](equipment/lighting-bundle.md)
 - [Lock Tools](equipment/lock-tools.md)
 - [Material Bundle](equipment/material-bundle.md)
+- [Mixing Kit](equipment/mixing-kit.md)
 - [Ordinary Heavy Armor](equipment/ordinary-heavy-armor.md)
 - [Ordinary Medium Armor](equipment/ordinary-medium-armor.md)
 - [Ordinary Melee Weapon](equipment/ordinary-melee-weapon.md)

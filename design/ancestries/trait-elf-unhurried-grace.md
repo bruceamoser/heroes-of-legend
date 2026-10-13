@@ -1,15 +1,15 @@
-# Unhurried Grace
+# Grace of the Elder Folk
 
-- **ID:** trait-elf-unhurried-grace
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Elf; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*You lengthen your stride and weave past the obstacles without breaking the rhythm of your steps.*
 
-Base Speed +1.
+## Rules
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+Base Speed +1. Describe whether your grace is effortless balance, long strides or a dancer’s economy.
 
-[Ancestry](./elf.md)
+**Ancestry:** Elf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-elf-unhurried-grace · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](elf.md)

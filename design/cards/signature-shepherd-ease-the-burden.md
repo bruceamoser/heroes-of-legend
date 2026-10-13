@@ -1,24 +1,35 @@
 # Ease the Burden
 
-- **ID:** signature-shepherd-ease-the-burden
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Class Shepherd; level 1 only
-- **Action:** Passive
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You kneel close, steady the trembling hands or bind the hurt, and talk your companion through the next breath.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Main Action · **Attribute:** Reason
 
-A Strong healing spell also reduces temporary Frightened on its recipient by 1.
+**Target / range / shape:** Self or one adjacent willing creature.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+Choose one temporary condition on the target: Bleeding, Frightened or Poisoned. Reduce only that condition, minimum 0.
+
+- **Weak:** Reduce it by 1.
+- **Standard:** Reduce it by 2.
+- **Strong:** Reduce it by 3; the target may also move 1 square without provoking if able.
+
+This restores no HP and does not remove starred sources or wound scars.
+
+**Duration:** Immediate reduction and possible movement.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shepherd; minimum level 1
+
+**Type:** Signature
+
+**Tags:** Skill / Recovery
+
+**Limits:** Repeatable; normal action economy applies.
+
+**ID:** signature-shepherd-ease-the-burden · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

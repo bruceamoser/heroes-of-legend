@@ -1,24 +1,29 @@
 # Bent Trajectory
 
-- **ID:** signature-arcanist-bent-trajectory
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Class Arcanist; level 1 only
-- **Action:** Passive
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You incline a finger, sending your spell around the nearer edge of a pillar before it turns toward your mark.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Passive · **Attribute:** None — no roll
 
-Your single-target spell may originate from one visible adjacent unoccupied square. Check targeting from that square; range still counts from you. No casting through opaque barriers.
+**Target / range / shape:** Your single-target spell; choose one visible adjacent unoccupied origin square before rolling.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+Your single-target spell may originate from the chosen square. Determine cover and attack path from there, but measure range from you. You must still see the target and cannot cast through an opaque barrier. This changes only the spell’s origin; it adds no roll or action.
+
+**Duration:** For that spell.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Arcanist; minimum level 1
+
+**Type:** Signature
+
+**Tags:** Magic / Utility
+
+**Limits:** Repeatable; normal action economy applies.
+
+**ID:** signature-arcanist-bent-trajectory · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/arcanist.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

@@ -1,24 +1,29 @@
 # A Better Angle
 
-- **ID:** signature-intellect-a-better-angle
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 3
-- **DP:** 4
-- **Requirements to learn:** Class Intellect; level 3 only
-- **Action:** Maneuver
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You call two short directions, placing your companion where they can see the opening you have found.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Maneuver · **Attribute:** None — no roll
 
-One willing ally within 3 squares may move 2 squares without provoking toward a visible objective you name.
+**Target / range / shape:** One willing ally within 4 squares that can hear and understand you.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+The ally may move up to 3 squares without provoking. It gains 1 Boon to its next roll before the start of your next turn if that roll acts on a visible objective you name when using this card. The ally chooses whether and how to act; this grants no attack.
+
+**Duration:** Movement is immediate; Boon expires when used or the start of your next turn.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Intellect; minimum level 3
+
+**Type:** Signature
+
+**Tags:** Skill / Utility / Movement
+
+**Limits:** Repeatable; normal action economy applies.
+
+**ID:** signature-intellect-a-better-angle · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

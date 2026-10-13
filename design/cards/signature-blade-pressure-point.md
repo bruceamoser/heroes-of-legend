@@ -1,24 +1,29 @@
 # Pressure Point
 
-- **ID:** signature-blade-pressure-point
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Class Blade; level 1 only
-- **Action:** Passive
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You turn your strike across a joint or supporting limb, leaving your opponent struggling to keep pace.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Passive · **Attribute:** None — no roll
 
-Your Strong Main melee attack may additionally apply Slowed 1, once per turn.
+**Target / range / shape:** One target of your Main Action melee attack.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+After a Standard result, apply Slowed 1 to one target. After Strong, apply Slowed 2 instead. The attack otherwise resolves normally.
+
+**Duration:** Slowed uses normal decay.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Blade; minimum level 1
+
+**Type:** Signature
+
+**Tags:** Skill / Control
+
+**Limits:** Once on your turn; no benefit from free attacks.
+
+**ID:** signature-blade-pressure-point · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

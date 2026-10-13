@@ -1,5 +1,9 @@
 # Armor
 
+*You learn to carry protection as part of your own body, moving with its weight instead of against it.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-armor.
 
 Using armor and moving effectively while protected.

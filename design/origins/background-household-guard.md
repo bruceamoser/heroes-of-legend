@@ -1,5 +1,11 @@
 # Household Guard
 
+*Keeping a household safe meant knowing its people, not only its locks.*
+
+*Whose laughter could you recognize from the gate?*
+
+## Rules
+
 **Type:** Background. **Status:** Proposal. Choose one paired option; do not mix the rank from one with the card from another.
 
 - Arms 1 and [Hook and Drive](../cards/hook-and-drive.md).

@@ -1,13 +1,16 @@
 # Elf
 
-**Status:** HP +2 and base Speed 6 are approved starting values. All five traits below are fresh proposals. Choose two. Culture and background are independent.
+*Old memory, woodland grace and a sense that the hurried world has forgotten how to listen.*
 
-- [Light Tread](trait-elf-light-tread.md): Gain 1 Boon to physical activities crossing fragile natural surfaces; does not make an impossible surface safe.
+## Rules
 
-- [Age of Memory](trait-elf-age-of-memory.md): Gain 1 Boon when recalling an event personally witnessed.
+Choose two of the five traits below. These are invitations to a familiar fantasy,
+not a required personality. Any ancestry may grow up in any culture.
 
-- [Leaf Listener](trait-elf-leaf-listener.md): Gain 1 Boon when interpreting audible signs of weather in woodland; not general detection.
+**Starting values:** HP +2; base Speed 6. **Trait status:** revised proposals.
 
-- [Unhurried Grace](trait-elf-unhurried-grace.md): Base Speed +1.
-
-- [Star Familiar](trait-elf-star-familiar.md): Recognize familiar constellations and seasons without a roll when visible; unfamiliar skies need ordinary judgment.
+- [Footfall on the Leaves](trait-elf-light-tread.md) — Even the fallen leaves seem reluctant to betray your passing.
+- [A Lifetime Ago](trait-elf-age-of-memory.md) — You remember when the old road was new.
+- [The Wood Whispers](trait-elf-leaf-listener.md) — A startled bird tells you what a shouted warning never could.
+- [Grace of the Elder Folk](trait-elf-unhurried-grace.md) — Where others hurry, you seem simply to arrive.
+- [Dream beneath the Stars](trait-elf-star-familiar.md) — Your body rests while part of you walks old paths.

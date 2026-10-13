@@ -1,24 +1,29 @@
 # Perfect Placement
 
-- **ID:** signature-blade-perfect-placement
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 7
-- **DP:** 8
-- **Requirements to learn:** Class Blade; level 7 only
-- **Action:** Passive
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You turn your opponent with the flat of your weapon, then step into the ground you have made them surrender.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Passive · **Attribute:** None — no roll
 
-Once per turn after a Strong Main melee attack, move its target 2 squares to a legal position by push or pull. Choose the mode; normal movement/collision rules apply.
+**Target / range / shape:** One target of your Standard or Strong Main Action melee attack, then self.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+After resolving the attack, push the target up to 2 squares directly away from you. Then you may move up to 2 squares without provoking. Resolve both in order along legal routes; normal collision rules apply to the push.
+
+**Duration:** Immediate push and personal movement.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Blade; minimum level 7
+
+**Type:** Signature
+
+**Tags:** Skill / Control / Movement
+
+**Limits:** Once on your turn; no benefit from free attacks.
+
+**ID:** signature-blade-perfect-placement · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

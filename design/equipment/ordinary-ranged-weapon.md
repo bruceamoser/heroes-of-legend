@@ -1,5 +1,9 @@
 # Ordinary Ranged Weapon
 
+*You check your weapon with the familiar care that makes the first shot feel right.*
+
+## Rules
+
 - **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-ordinary-ranged-weapon
 - **Bulk:** 1

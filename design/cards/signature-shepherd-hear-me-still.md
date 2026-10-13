@@ -1,24 +1,29 @@
 # Hear Me Still
 
-- **ID:** signature-shepherd-hear-me-still
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Class Shepherd; level 1 only
-- **Action:** Passive
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You keep speaking as you move closer, giving the fading breath a familiar voice to follow.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Passive · **Attribute:** None — no roll
 
-Your Stabilize reaches a willing Dying ally within 2 squares that can hear you; no HP or wound removal.
+**Target / range / shape:** One willing Dying ally within 3 squares that can hear you, when you use Stabilize.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+Your Stabilize can reach that ally without touch. After stabilizing it, you may move 1 square toward it without provoking. Stabilize still costs a Maneuver, clears death marks and restores no HP. The wound remains; Last Words cannot be interrupted.
+
+**Duration:** Immediate stabilization and personal movement.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shepherd; minimum level 1
+
+**Type:** Signature
+
+**Tags:** Magic / Recovery / Movement
+
+**Limits:** Repeatable; normal action economy applies.
+
+**ID:** signature-shepherd-hear-me-still · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

@@ -1,24 +1,29 @@
 # Set Your Feet
 
-- **ID:** signature-protector-set-your-feet
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Class Protector; level 1 only
-- **Action:** Passive
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You settle your weight into the ground and draw your guard close, letting the shove spend itself against your stance.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Passive · **Attribute:** None — no roll
 
-While your Defend is active, reduce push or pull against you by 1 square. This reduction does not stack with another displacement reduction; use the highest.
+**Target / range / shape:** Self while your Defend is active.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+Reduce any push or pull against you by 2 squares, minimum 0. Use the highest applicable displacement reduction, not a sum. You still need to use Defend normally; this grants no resistance to damage.
+
+**Duration:** While your Defend remains active.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Protector; minimum level 1
+
+**Type:** Signature
+
+**Tags:** Skill / Defense
+
+**Limits:** Repeatable; normal action economy applies.
+
+**ID:** signature-protector-set-your-feet · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

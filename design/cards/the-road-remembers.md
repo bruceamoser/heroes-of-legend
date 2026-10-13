@@ -1,26 +1,33 @@
 # The Road Remembers
 
-*Broken grass and cold ash tell you who hurried and who was carried.*
+*You part the grass, examine the crushed stems and touch the cold ash, following the signs of those who stopped here before you.*
 
-- **ID:** the-road-remembers
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Skill / Utility
-- **Tier / minimum level:** 3
-- **DP:** 4
-- **Requirements to learn:** Wilderness 2
-- **Action:** Main Action
-- **Attribute:** Reason
-- **Target / range / shape:** A natural trail or campsite; 10 minutes
-- **Duration:** As stated in the effect
-- **Limits:** Repeatable within the normal action economy.
-- **Equipment / acquisition:** None.
+## Rules
 
-## Resolution
+**Action:** Main Action · **Attribute:** Reason
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Learn the direction of recent passage. | Also learn approximate group size. | Also identify a distinctive trace useful for following that group. |
+**Time:** Ten minutes.
 
-Only evidence present can be read. Mundane tracking remains possible without this card; the expert gains information as well as progress. No automatic tracking through erased evidence.
+**Target / range / shape:** A natural trail or campsite; 10 minutes
+
+Only evidence present can be read. Mundane tracking remains possible without this card; the expert gains the information listed below. No automatic tracking through erased evidence.
+
+- **Weak:** Learn the direction of recent passage.
+- **Standard:** Also learn approximate group size.
+- **Strong:** Also identify a distinctive trace useful for following that group.
+
+**Duration:** The result applies when the stated activity is complete; information and earned progress persist.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Wilderness 2
+
+**Type:** Skill / Utility
+
+**Limits:** Repeatable; pay the action and any stated costs each use.
+
+**ID:** the-road-remembers · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

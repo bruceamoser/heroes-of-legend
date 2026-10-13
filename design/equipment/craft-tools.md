@@ -1,5 +1,9 @@
 # Craft Tools
 
+*You unroll the worn cloth and set each trusted tool within reach.*
+
+## Rules
+
 - **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-craft-tools
 - **Bulk:** 1

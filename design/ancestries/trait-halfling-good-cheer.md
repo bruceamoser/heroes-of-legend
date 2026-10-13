@@ -1,15 +1,15 @@
-# Good Cheer
+# A Little Luck
 
-- **ID:** trait-halfling-good-cheer
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Halfling; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*The latch catches your coat a heartbeat before you step into trouble.*
 
-Gain 1 Boon when a consequential social activity offers sincere comfort; no wound treatment permission.
+## Rules
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+Once per day, before a roll that uses an attribute, gain 1 Boon. Describe a small piece of good fortune. No reroll after seeing the result and no effect on inventory dice.
 
-[Ancestry](./halfling.md)
+**Ancestry:** Halfling · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-halfling-good-cheer · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](halfling.md)

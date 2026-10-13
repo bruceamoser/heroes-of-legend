@@ -1,24 +1,29 @@
 # Predict the Motion
 
-- **ID:** signature-intellect-predict-the-motion
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 3
-- **DP:** 4
-- **Requirements to learn:** Class Intellect; level 3 only
-- **Action:** Reaction
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You watch the attacker’s hips and shoulders, then call the turn before the weapon follows.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Reaction · **Attribute:** None — no roll
 
-Before defending against a visible attacker you have already observed attack this combat, gain 1 Boon to the defense.
+**Target / range / shape:** Self or one willing ally within 3 squares, before defending against a visible physical attack.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+The recipient may use Reason for this defense instead of its normal attribute and gains 1 Boon to the roll. An ally must hear and understand your warning. Resolve the ordinary defense once. This does not apply to poison, internal injury or mental intrusion.
+
+**Duration:** The triggering defense only.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Intellect; minimum level 3
+
+**Type:** Signature
+
+**Tags:** Skill / Defense
+
+**Limits:** Repeatable; normal action economy applies.
+
+**ID:** signature-intellect-predict-the-motion · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

@@ -1,26 +1,31 @@
 # Pinning Shot
 
-*Put the shot where their next step was going to be.*
+*You aim beside your enemy’s next foothold and release, forcing them to shorten their stride as the shot strikes.*
 
-- **ID:** pinning-shot
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Skill / Attack
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Marksmanship 1
-- **Action:** Main Action
-- **Attribute:** Agility
-- **Target / range / shape:** One visible creature within 8 squares
-- **Duration:** Instant
-- **Limits:** Repeatable within the normal action economy.
-- **Equipment / acquisition:** Requires and grants one ordinary ranged weapon and one d8 ammunition bundle if each is absent; Bulk 1 each. Check ammunition once per attack, not per target.
+## Rules
 
-## Resolution
+**Action:** Main Action · **Attribute:** Agility
 
-| Weak | Standard | Strong |
-|---|---|---|
-| 3 physical damage. | 3 physical damage; Slowed 1. | 5 physical damage; Slowed 2. |
+**Target / range / shape:** One visible creature within 8 squares
 
+Choose your target and make the attack.
 
+- **Weak:** 3 physical damage.
+- **Standard:** 3 physical damage; Slowed 1.
+- **Strong:** 5 physical damage; Slowed 2.
+
+**Duration:** Instant
+
+**Equipment / acquisition:** Requires and grants one ordinary ranged weapon and one d8 ammunition bundle if each is absent; Bulk 1 each. Check ammunition once per attack, not per target.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Marksmanship 1
+
+**Type:** Skill / Attack
+
+**Limits:** Repeatable; pay the action and any stated costs each use.
+
+**ID:** pinning-shot · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

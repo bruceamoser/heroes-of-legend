@@ -1,24 +1,29 @@
 # Pass the Guard
 
-- **ID:** signature-shadow-pass-the-guard
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 3
-- **DP:** 4
-- **Requirements to learn:** Class Shadow; level 3 only
-- **Action:** Maneuver
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You slip along the blind side of the struggle, ducking below a reach and stepping through the open space beyond.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Maneuver · **Attribute:** None — no roll
 
-Move 2 squares without provoking along a legal route. You cannot cross occupied standing squares.
+**Target / range / shape:** Self; a legal route of up to 3 squares.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+Move up to 3 squares without provoking. Ignore the extra cost of difficult terrain during this move, but do not cross standing occupied squares or barriers. The movement grants no attack or automatic Hidden.
+
+**Duration:** Immediate movement.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Shadow; minimum level 3
+
+**Type:** Signature
+
+**Tags:** Skill / Movement
+
+**Limits:** Repeatable; normal action economy applies.
+
+**ID:** signature-shadow-pass-the-guard · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/shadow.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

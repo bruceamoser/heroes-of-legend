@@ -1,5 +1,9 @@
 # Flame
 
+*You come to know the difference between a warming ember and a fire asking to be freed.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-flame.
 
 Fire damage, heat and controlled ignition.

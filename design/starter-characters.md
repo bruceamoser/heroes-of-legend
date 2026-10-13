@@ -7,8 +7,8 @@ Prices use the proposed fresh affinities; changing those requires updating the l
 ## The bridge guard who brings everyone home
 
 Dwarf Protector. Brawn 1, Fortitude 2, Agility 0, Guile 0, Knowledge −1, Reason 1.
-Total +3; mental sum 0; both stages start with 10 DP. Choose Deep Constitution and
-Carved History. The latter is a description the player can make personal.
+Total +3; mental sum 0; both stages start with 10 DP. Choose Stubborn as Bedrock and
+A Grudge Well Kept. The grudge offers one memorable answer when an enemy hurts you.
 
 Level 0: Walled Communities grants Armor 1 and Wear Medium Armor; Household Guard
 grants Arms 1 and Hook and Drive. Buy Braced Harness (2), Take Them Alive (2) and
@@ -29,8 +29,8 @@ allows useful work after the fight without pretending the scar disappears.
 ## The keeper of dangerous little wonders
 
 Elf Arcanist. Brawn −1, Fortitude 0, Agility 1, Guile 0, Knowledge 2, Reason 1.
-Total +3; mental sum 3; each stage starts at 13 DP. Choose Age of Memory and Star
-Familiar. HP **16**, Speed **7**, capacity **7** before any later benefits.
+Total +3; mental sum 3; each stage starts at 13 DP. Choose A Lifetime Ago and Dream
+beneath the Stars. HP **16**, Speed **7**, capacity **7** before any later benefits.
 
 Level 0: Learning Houses grants Flame 1 and Cinder Cast; Stage Assistant grants
 Mind 1 and Intrusive Echo. Buy Speak with the Hearth (2), Borrow a Voice (2),
@@ -39,8 +39,8 @@ Tell a Worthy Story (2). Spend 12; 1 DP expires. HP is now **17**.
 
 Level 1: choose Scholarship 1 and Calling 1, no duplicates. Choose Bent Trajectory
 as the free signature. Buy Read the Remains (2), Identify an Enchantment (2),
-Identify a Mixture (2), Call a Burrower (2), A Friend Beneath the Door (2).
-Buy Hold a Conversation (2). Spend 12; 1 expires. No items are implicitly granted by these spells.
+Wilderness 1 at Foreign cost (3), Call a Burrower (2), and A Friend Beneath the Door (2).
+Spend 11; 2 expire. Calling 1 and Wilderness 1 both precede the burrower purchase. No items are implicitly granted by these spells.
 
 Picture the moment: a tiny scout wriggles through a barred doorway while the caster
 asks the dying hearth who visited last. In combat, they bend a cinder around a nearby
@@ -49,7 +49,7 @@ corner and send a burrower to drag an enemy out of position. No spell slots to h
 ## The traveler who makes things work
 
 Human Intellect. Brawn 0, Fortitude 0, Agility 0, Guile 0, Knowledge 2, Reason 1.
-Total +3; mental sum 3; each stage starts at 13 DP. Choose Many Homes and Far Walker.
+Total +3; mental sum 3; each stage starts at 13 DP. Choose A Foot in Two Worlds and Road in the Blood.
 HP **16**, Speed **7**, capacity **10**.
 
 Level 0: Highland Holds grants Craft 1 and Trail Workshop; Bridge Worker chooses

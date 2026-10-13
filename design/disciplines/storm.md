@@ -1,5 +1,9 @@
 # Storm
 
+*You learn the moods of moving air and the restless energy that gathers within it.*
+
+## Rules
+
 **Status:** Proposal — fresh discipline taxonomy. **ID:** discipline-storm.
 
 Lightning, thunder and wind-driven displacement.

@@ -1,24 +1,27 @@
 # Veiled Crossing
 
-- **ID:** veiled-crossing
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Skill
-- **Tier / minimum level:** 3
-- **DP:** 4
-- **Requirements to learn:** Subterfuge 2
-- **Action:** Maneuver
-- **Attribute:** None — no roll
-- **Target / range / shape:** Self, with an actual concealed route
-- **Duration:** Instant
-- **Limits:** Repeatable within the normal action economy.
-- **Equipment / acquisition:** None.
+*You wait for the shadows to join, then lead your companion along their quiet seam.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Move up to 2 squares. | Move up to 2 squares. | Move up to 2 squares. |
+**Action:** Maneuver · **Attribute:** None — no roll
 
-Preserve Hidden only while the route actually conceals you; no invisibility or permission to cross exposed space unnoticed. Movement does not provoke.
+**Target / range / shape:** Self, with an actual concealed route
+
+Move up to your Speed along a legal concealed route without provoking. One adjacent willing ally may follow that route up to the same distance, spending its Reaction and ending in a separate free square. A participant already Hidden remains Hidden only while the route continues to conceal them. A participant not Hidden gains no automatic concealment. This card does not permit movement through exposed or occupied standing squares.
+
+**Duration:** Instant
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Subterfuge 2
+
+**Type:** Skill
+
+**Limits:** Repeatable; pay the action and any stated costs each use.
+
+**ID:** veiled-crossing · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

@@ -1,15 +1,15 @@
-# Small Passage
+# Under Their Noses
 
-- **ID:** trait-halfling-small-passage
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Halfling; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*You duck beneath the table and draw your knees behind its legs as the hurried footsteps pass.*
 
-DA may allow passage through openings suited to your actual size; occupied-square rules still apply.
+## Rules
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+You fit through openings the DA judges suitable for your actual small size, and gain 1 Boon to hiding behind ordinary furniture that plausibly conceals you. Standing creatures still block their squares; no free movement through enemies.
 
-[Ancestry](./halfling.md)
+**Ancestry:** Halfling · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-halfling-small-passage · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](halfling.md)

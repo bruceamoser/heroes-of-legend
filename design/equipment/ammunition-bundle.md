@@ -1,5 +1,9 @@
 # Ammunition Bundle
 
+*You loosen the binding and feel the familiar shapes waiting for your hand.*
+
+## Rules
+
 - **Status:** Proposal; ordinary equipment principles are agreed.
 - **ID:** item-ammunition-bundle
 - **Bulk:** 1

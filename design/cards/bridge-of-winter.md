@@ -1,26 +1,27 @@
 # Bridge of Winter
 
-*The frost reaches across the chasm like fingers finding a hand.*
+*You press your palm toward the far side of the gap. Ice grows outward from both edges and joins into a pale bridge beneath drifting frost.*
 
-- **ID:** bridge-of-winter
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Magic / Utility
-- **Tier / minimum level:** 3
-- **DP:** 4
-- **Requirements to learn:** Frost 2
-- **Action:** Main Action
-- **Attribute:** None — no roll
-- **Target / range / shape:** A visible gap up to 3 squares wide within 4 squares
-- **Duration:** As stated in the effect
-- **Limits:** Repeatable within the normal action economy.
-- **Equipment / acquisition:** None.
+## Rules
 
-## Resolution
+**Action:** Main Action · **Attribute:** None — no roll
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Create a one-square-wide ice bridge. | Create a one-square-wide ice bridge. | Create a one-square-wide ice bridge. |
+**Target / range / shape:** A visible gap up to 3 squares wide within 4 squares
 
-Requires solid anchors at both ends. Holds ordinary creatures and carried equipment; lasts 10 minutes. It creates normal terrain, not slippery terrain or a damaging trap. Warn all occupants visibly during its final round; cannot dismiss early to drop someone.
+The bridge is one square wide. Requires solid anchors at both ends. Holds ordinary creatures and carried equipment; lasts 10 minutes. It creates normal terrain, not slippery terrain or a damaging trap. Warn all occupants visibly during its final round; cannot dismiss early to drop someone.
+
+**Duration:** Ten minutes; final-round warning and no early dismissal.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Frost 2
+
+**Type:** Magic / Utility
+
+**Limits:** Repeatable; pay the action and any stated costs each use.
+
+**ID:** bridge-of-winter · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

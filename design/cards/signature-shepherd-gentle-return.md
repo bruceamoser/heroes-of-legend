@@ -1,24 +1,29 @@
 # Gentle Return
 
-- **ID:** signature-shepherd-gentle-return
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Class Shepherd; level 1 only
-- **Action:** Passive
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You steady your companion as warmth returns, guiding their first step away from the place where they fell.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Passive · **Attribute:** None — no roll
 
-Once per turn when your healing raises an ally from 0 HP, that ally may move 1 square without provoking. It is not automatically stood up.
+**Target / range / shape:** One willing ally you have just restored HP to with a spell or potion.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+That ally may stand without spending movement, then move 1 square without provoking if able. This works even if it was above 0 HP before healing. It grants no extra HP, reduces no healing payment and cannot reverse Last Words.
+
+**Duration:** Immediate stand and movement after healing.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Shepherd; minimum level 1
+
+**Type:** Signature
+
+**Tags:** Skill / Recovery / Movement
+
+**Limits:** Once on your turn; the ally must actually regain HP.
+
+**ID:** signature-shepherd-gentle-return · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/shepherd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

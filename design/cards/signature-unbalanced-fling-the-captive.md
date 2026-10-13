@@ -1,24 +1,35 @@
 # Fling the Captive
 
-- **ID:** signature-unbalanced-fling-the-captive
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 3
-- **DP:** 4
-- **Requirements to learn:** Class Unbalanced; level 3 only
-- **Action:** Main Action
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You catch the struggling body, turn hard at the hips and release the whole tangle in a violent throw.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Main Action · **Attribute:** Brawn
 
-Release your Grappled contribution on one adjacent target to push it that many squares, maximum 3. No roll; you lose the hold before displacement.
+**Target / range / shape:** One adjacent creature, whether or not you already grapple it.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+Release any Grappled contribution you maintain on the target, then roll Brawn. You must have a Main Action before releasing; this card cannot be used while you are Grappled 3.
+
+- **Weak:** Deal 3 physical damage and push 1 square.
+- **Standard:** Deal 4 physical damage, push 2 squares and knock prone.
+- **Strong:** Deal 6 physical damage, push 3 squares and knock prone.
+
+No prior grappling card or existing hold is required. The DA judges whether your body can plausibly throw the target; use normal collision rules.
+
+**Duration:** Immediate damage, push and Prone.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Unbalanced; minimum level 3
+
+**Type:** Signature
+
+**Tags:** Skill / Attack / Control
+
+**Limits:** Repeatable; normal action economy applies.
+
+**ID:** signature-unbalanced-fling-the-captive · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/unbalanced.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

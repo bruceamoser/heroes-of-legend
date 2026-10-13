@@ -1,15 +1,15 @@
-# Leaf Listener
+# The Wood Whispers
 
-- **ID:** trait-elf-leaf-listener
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Elf; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*You stop talking as the birds fall quiet, turning toward the rustle that disturbed them.*
 
-Gain 1 Boon when interpreting audible signs of weather in woodland; not general detection.
+## Rules
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+In woodland, gain 1 Boon to a consequential roll interpreting living signs of nearby disturbance. The signs can indicate a general direction, not an unseen creature’s exact square; this does not bypass Hidden.
 
-[Ancestry](./elf.md)
+**Ancestry:** Elf · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-elf-leaf-listener · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](elf.md)

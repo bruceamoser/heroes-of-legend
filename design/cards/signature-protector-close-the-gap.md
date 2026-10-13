@@ -1,24 +1,29 @@
 # Close the Gap
 
-- **ID:** signature-protector-close-the-gap
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Class Protector; level 1 only
-- **Action:** Maneuver
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You hurry to a companion’s side and turn outward, ready to meet whatever followed them.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Maneuver · **Attribute:** None — no roll
 
-Move up to 2 squares toward a visible ally. This movement does not provoke. End in a free square.
+**Target / range / shape:** Self; one visible ally.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+Move up to 2 squares toward that ally without provoking. If you end adjacent to it, gain Defend’s 1 Boon to defense until the start of your next turn. This is the ordinary Defend benefit and does not multiply an existing Defend.
+
+**Duration:** Movement is immediate; Defend ends at the start of your next turn.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Protector; minimum level 1
+
+**Type:** Signature
+
+**Tags:** Skill / Movement / Defense
+
+**Limits:** Repeatable; normal action economy applies.
+
+**ID:** signature-protector-close-the-gap · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

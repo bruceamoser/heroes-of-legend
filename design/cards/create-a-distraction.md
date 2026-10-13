@@ -1,24 +1,31 @@
 # Create a Distraction
 
-- **ID:** create-a-distraction
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Skill / Utility
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Subterfuge 1
-- **Action:** Main Action
-- **Attribute:** Guile
-- **Target / range / shape:** One creature within 3 squares that can perceive your distraction
-- **Duration:** As stated in the effect
-- **Limits:** Once per wound per day for treatment; otherwise repeatable within the stated interval.
-- **Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+*You offer a dropped cup, a pointed remark, or a sudden flourish at exactly the right moment.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| See the explicit outcomes below. | See the explicit outcomes below. | See the explicit outcomes below. |
+**Action:** Main Action · **Attribute:** Guile
 
-Weak: next ally gains 1 Boon to moving past it unnoticed. Standard: the Boon can instead aid an attack. Strong: two distinct allies may each use the Boon. Expires at your next turn. Does not itself grant Hidden.
+**Target / range / shape:** One creature within 3 squares that can perceive your distraction
+
+Choose a creature within 3 squares that can see or hear your distraction. Describe what you do and roll Guile. The benefits below must be used before the start of your next turn; this does not automatically make an ally Hidden.
+
+- **Weak:** The next ally attempting to move past that creature unnoticed gains 1 Boon to that roll.
+- **Standard:** That ally may instead use the Boon on an attack against the distracted creature.
+- **Strong:** Two different allies may each use one of those benefits once.
+
+**Duration:** Until the start of your next turn or until the granted Boon is used.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Subterfuge 1
+
+**Type:** Skill / Utility
+
+**Limits:** Pay the printed action and any full activity time for each use.
+
+**ID:** create-a-distraction · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

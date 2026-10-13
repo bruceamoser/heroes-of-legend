@@ -1,24 +1,35 @@
 # Forage Coast
 
-- **ID:** forage-coast
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Skill / Utility
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Wilderness 1
-- **Action:** Main Action
-- **Attribute:** Knowledge
-- **Target / range / shape:** A viable shore; one hour
-- **Duration:** As stated in the effect
-- **Limits:** Once per wound per day for treatment; otherwise repeatable within the stated interval.
-- **Equipment / acquisition:** Grants lock or craft tools only where explicitly stated; otherwise none.
+*You read the tide line and turn over the stones the gulls have left alone.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| See the explicit outcomes below. | See the explicit outcomes below. | See the explicit outcomes below. |
+**Action:** Main Action · **Attribute:** Knowledge
 
-Find usable food or ordinary coastal materials. Increase one bundle 1/2/3 steps, maximum d8. No automatic treasure.
+**Time:** One hour per attempt.
+
+**Target / range / shape:** A viable shore; one hour
+
+Spend one hour searching a place that contains usable resources. Choose food or ordinary coastal materials, then roll Knowledge. Improve one matching supply bundle; if you have none, its first step creates a d4 supply. Further steps raise it to d6, then d8. This card cannot raise a bundle above d8.
+
+- **Weak:** Raise the bundle by 1 inventory step.
+- **Standard:** Raise it by 2 inventory steps.
+- **Strong:** Raise it by 3 inventory steps.
+
+The DA determines what resources are present. You cannot produce rare treasure or harvest a patch that has already been exhausted.
+
+**Duration:** Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Wilderness 1
+
+**Type:** Skill / Utility
+
+**Limits:** Pay the printed action and any full activity time for each use.
+
+**ID:** forage-coast · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

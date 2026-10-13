@@ -2,25 +2,30 @@
 
 *Frost climbs their limbs like fingers closing around a wrist.*
 
-- **ID:** rime-grip
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Magic / Attack
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Frost 1
-- **Action:** Main Action
-- **Attribute:** Knowledge
-- **Target / range / shape:** One visible creature within 5 squares
-- **Duration:** Instant
-- **Limits:** Repeatable within the normal action economy.
-- **Equipment / acquisition:** None.
+## Rules
 
-## Resolution
+**Action:** Main Action · **Attribute:** Knowledge
 
-| Weak | Standard | Strong |
-|---|---|---|
-| 3 cold damage. | 3 cold damage; Slowed 1. | 5 cold damage; Freezing 1. |
+**Target / range / shape:** One visible creature within 5 squares
 
 Proposed NPC defense attribute: Agility.
+
+- **Weak:** 3 cold damage.
+- **Standard:** 3 cold damage; Slowed 1.
+- **Strong:** 5 cold damage; Slowed 1 and Freezing 1.
+
+**Duration:** Instant
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Frost 1
+
+**Type:** Magic / Attack
+
+**Limits:** Repeatable; pay the action and any stated costs each use.
+
+**ID:** rime-grip · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

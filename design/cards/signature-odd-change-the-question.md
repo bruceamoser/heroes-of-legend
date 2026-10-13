@@ -1,24 +1,31 @@
 # Change the Question
 
-- **ID:** signature-odd-change-the-question
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 3
-- **DP:** 4
-- **Requirements to learn:** Class Odd; level 3 only
-- **Action:** Main Action
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You stop pulling at the locked door and look up at the hinge, then show everyone the different problem you mean to solve.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Main Action · **Attribute:** None — no roll
 
-During a noncombat obstacle, identify a different plausible approach with the DA. Gain 1 Boon to your next ordinary roll using that approach this scene; no automatic permission or success.
+**Time:** One minute.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+**Target / range / shape:** One noncombat obstacle you and your companions can examine.
+
+Spend one minute examining the obstacle and describe an alternative approach. The DA identifies one workable alternative using available people, tools or features, if one exists, and states its risks. If none exists, learn the concrete missing resource or access that prevents it. You and one ally each gain 1 Boon to the next roll pursuing that alternative this scene. This grants no automatic success or specialist permission.
+
+**Duration:** Information remains known; Boons expire when used or the scene ends.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Odd; minimum level 3
+
+**Type:** Signature
+
+**Tags:** Skill / Utility
+
+**Limits:** One examination of an obstacle per scene unless its circumstances change.
+
+**ID:** signature-odd-change-the-question · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/odd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

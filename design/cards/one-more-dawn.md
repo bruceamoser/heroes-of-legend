@@ -1,24 +1,27 @@
 # One More Dawn
 
-- **ID:** one-more-dawn
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Training / Passive
-- **Tier / minimum level:** 7
-- **DP:** 8
-- **Requirements to learn:** None
-- **Action:** Passive
-- **Attribute:** None — no roll
-- **Target / range / shape:** Self
-- **Duration:** While requirements hold; permanent for development grants
-- **Limits:** Once per level for Conditioned Body; once ever for each other card.
-- **Equipment / acquisition:** None.
+*You remember why tomorrow matters and find a last reserve you did not know you carried.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| No roll; apply the effect. | No roll; apply the effect. | No roll; apply the effect. |
+**Action:** Passive · **Attribute:** None — no roll
+
+**Target / range / shape:** Self
 
 Gain 1 additional Grit on acquisition. Purchase once ever. This does not replenish previously spent Grit.
+
+**Duration:** Gain the Grit once on acquisition; this never replenishes spent Grit.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** None
+
+**Type:** Training / Passive
+
+**Limits:** Purchase once.
+
+**ID:** one-more-dawn · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

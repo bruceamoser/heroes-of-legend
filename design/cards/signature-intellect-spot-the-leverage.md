@@ -1,24 +1,29 @@
 # Spot the Leverage
 
-- **ID:** signature-intellect-spot-the-leverage
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Class Intellect; level 1 only
-- **Action:** Maneuver
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You study the hinges and weight of the obstacle, then point to the place where a small effort will matter most.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Maneuver · **Attribute:** None — no roll
 
-Name a visible ordinary obstacle within 3 squares. Learn whether Force could make progress against it and its remaining target if applicable; no perception roll invented.
+**Target / range / shape:** One visible ordinary obstacle within 3 squares.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+Learn whether Force can overcome it, its remaining progress target, and one practical point at which to apply force. You or one ally who can hear your explanation gains 2 Boons to the next Force action against that obstacle before the scene ends. No permission to force an impossible obstacle is granted.
+
+**Duration:** Information persists; the Boons expire when used or the scene ends.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Intellect; minimum level 1
+
+**Type:** Signature
+
+**Tags:** Skill / Utility
+
+**Limits:** One application per obstacle per scene; repeated examination does not refresh spent Boons.
+
+**ID:** signature-intellect-spot-the-leverage · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/intellect.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

@@ -1,24 +1,29 @@
 # Wrong Place for That
 
-- **ID:** signature-odd-wrong-place-for-that
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 3
-- **DP:** 4
-- **Requirements to learn:** Class Odd; level 3 only
-- **Action:** Reaction
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You catch a companion by the sleeve and stumble away together, leaving the next blow aimed at suddenly empty ground.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Reaction · **Attribute:** None — no roll
 
-After an adjacent enemy’s attack resolves, move 1 square without provoking and move a willing adjacent ally 1 square into a legal free square.
+**Target / range / shape:** Self and one adjacent willing ally, after an attack against either of you resolves.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+You and that ally may each move up to 2 squares without provoking. Choose the order and legal free endpoints. Each must still be able to move. The triggering attack has already resolved; this provides no retroactive protection.
+
+**Duration:** Immediate movement.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Odd; minimum level 3
+
+**Type:** Signature
+
+**Tags:** Skill / Movement
+
+**Limits:** Repeatable; normal action economy applies.
+
+**ID:** signature-odd-wrong-place-for-that · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/odd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

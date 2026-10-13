@@ -1,24 +1,27 @@
 # Stand
 
-- **ID:** stand
-- **Status:** Agreed foundation; any proposal is identified in the effect.
-- **Type:** Universal
-- **Tier / minimum level:** Universal
-- **DP:** Not purchased
-- **Requirements to learn:** None
-- **Action:** Movement
-- **Attribute:** None — no roll
-- **Target / range / shape:** Self, while prone
-- **Duration:** Instant
-- **Limits:** Repeatable within the normal action economy.
-- **Equipment / acquisition:** None.
+*You draw a knee under yourself and rise to face what comes next.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| No roll; apply the effect. | No roll; apply the effect. | No roll; apply the effect. |
+**Action:** Movement · **Attribute:** None — no roll
+
+**Target / range / shape:** Self, while prone
 
 Spend 2 squares of movement to stand. This spends movement, not a Maneuver.
+
+**Duration:** Instant
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** Universal · **DP:** Not purchased · **Requirements to learn:** None
+
+**Type:** Universal
+
+**Limits:** Repeatable; pay the action and any stated costs each use.
+
+**ID:** stand · **Status:** Agreed foundation; any proposal is identified in the effect.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

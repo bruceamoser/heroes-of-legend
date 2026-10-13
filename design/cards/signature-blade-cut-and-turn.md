@@ -1,24 +1,29 @@
 # Cut and Turn
 
-- **ID:** signature-blade-cut-and-turn
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Class Blade; level 1 only
-- **Action:** Passive
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You follow the stroke through with your feet and slip around the edge of your opponent’s guard.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Passive · **Attribute:** None — no roll
 
-After your Main melee attack, move 1 square without provoking, once per turn.
+**Target / range / shape:** Self, after your Main Action melee attack resolves.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+Move up to 1 square without provoking. On a Standard or Strong attack, you may move up to 2 squares instead. Use a legal route and free endpoint; this grants no additional attack.
+
+**Duration:** Immediate movement.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Blade; minimum level 1
+
+**Type:** Signature
+
+**Tags:** Skill / Movement
+
+**Limits:** Once on your turn.
+
+**ID:** signature-blade-cut-and-turn · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

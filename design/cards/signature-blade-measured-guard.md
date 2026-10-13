@@ -1,24 +1,29 @@
 # Measured Guard
 
-- **ID:** signature-blade-measured-guard
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Class Blade; level 1 only
-- **Action:** Reaction
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You catch the incoming blow on your guard and turn your shoulders, stepping smoothly past its line.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Reaction · **Attribute:** None — no roll
 
-Before an adjacent enemy’s attack against you, gain 1 Boon to that defense. If the defense is Strong, move 1 square without provoking afterward.
+**Target / range / shape:** Self, before a defense against an adjacent enemy.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+Gain 1 Boon to the defense. After the attack resolves, you may move up to 2 squares without provoking, whatever the defense result. This does not prevent the attack’s damage or conditions; you must still be able to move.
+
+**Duration:** The triggering defense and immediate movement.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Blade; minimum level 1
+
+**Type:** Signature
+
+**Tags:** Skill / Defense / Movement
+
+**Limits:** Repeatable; normal action economy applies.
+
+**ID:** signature-blade-measured-guard · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

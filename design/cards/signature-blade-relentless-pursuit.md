@@ -1,24 +1,29 @@
 # Relentless Pursuit
 
-- **ID:** signature-blade-relentless-pursuit
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 7
-- **DP:** 8
-- **Requirements to learn:** Class Blade; level 7 only
-- **Action:** Reaction
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You follow the retreating shoulder through the press, keeping your blade close enough that escape becomes another opening.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Reaction · **Attribute:** None — no roll
 
-After an enemy within 2 squares moves voluntarily, move up to 3 squares toward it without provoking. No attack is granted.
+**Target / range / shape:** A visible enemy within 2 squares when it begins voluntary movement.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+After it finishes moving, move up to your Speed toward it without provoking. If you end adjacent, you may make one free Basic Melee attack against it using Brawn. Choose a legal route and endpoint; this does not stop or rewind its movement. If that movement was granted by a free attack, it cannot trigger this card’s free attack. No attack chains.
+
+**Duration:** Immediate pursuit and optional attack.
+
+**Equipment / acquisition:** A melee weapon is required for the attack; grants one ordinary melee weapon, Bulk 1, if absent.
+
+---
+
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Blade; minimum level 7
+
+**Type:** Signature
+
+**Tags:** Skill / Movement / Attack
+
+**Limits:** Repeatable; normal action economy applies.
+
+**ID:** signature-blade-relentless-pursuit · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/blade.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

@@ -1,24 +1,29 @@
 # Between Them
 
-- **ID:** signature-protector-between-them
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Class Protector; level 1 only
-- **Action:** Reaction
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You step your guard into the line of the strike and wave your companion behind you as it lands.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Reaction · **Attribute:** None — no roll
 
-Before an adjacent willing ally is attacked, become the target if legal. After resolution, that ally may move 1 square without provoking.
+**Target / range / shape:** One adjacent willing ally, after a single-target attack is declared against it but before rolling.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+Become the target if you meet the attack’s range and targeting requirements. Resolve the attack once against you; your ally receives none of its effects. Afterward the ally may move up to 2 squares without provoking if able. You do not move to intercept and cannot redirect an area attack.
+
+**Duration:** The triggering attack and immediate ally movement.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Protector; minimum level 1
+
+**Type:** Signature
+
+**Tags:** Skill / Defense / Movement
+
+**Limits:** Repeatable; normal action economy applies.
+
+**ID:** signature-protector-between-them · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/protector.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

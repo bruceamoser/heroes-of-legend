@@ -1,24 +1,27 @@
 # Carry to Safety
 
-- **ID:** carry-to-safety
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Skill
-- **Tier / minimum level:** 7
-- **DP:** 8
-- **Requirements to learn:** Guard 3
-- **Action:** Main Action
-- **Attribute:** None — no roll
-- **Target / range / shape:** One adjacent willing or unconscious ally
-- **Duration:** Instant
-- **Limits:** Repeatable within the normal action economy.
-- **Equipment / acquisition:** Requires a shield. Grants one ordinary shield, Bulk 1, if absent.
+*You take your friend’s weight and make their next few steps your responsibility.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Move together up to your Speed. | Move together up to your Speed. | Move together up to your Speed. |
+**Action:** Main Action · **Attribute:** None — no roll
 
-Move the ally through your traversed squares and place it in an adjacent free square at the end; choose a legal endpoint before beginning. No opportunity attacks from this movement. Cannot pass blocked squares or carry an unwilling target.
+**Target / range / shape:** One adjacent willing or unconscious ally
+
+Move up to your Speed with the adjacent willing or unconscious ally, then place it in a separate adjacent free square. Choose a legal route and both endpoints before moving. This movement does not provoke from either of you; the ally spends no action or movement. You need a free hand to carry or support it and must be physically capable of bearing its weight, as judged by the DA. Cannot cross blocked squares or move an unwilling target.
+
+**Duration:** Instant
+
+**Equipment / acquisition:** A free hand; no shield required or granted.
+
+---
+
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Guard 3
+
+**Type:** Skill
+
+**Limits:** Repeatable; pay the action and any stated costs each use.
+
+**ID:** carry-to-safety · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

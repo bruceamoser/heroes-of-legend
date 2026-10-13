@@ -1,13 +1,16 @@
 # Human
 
-**Status:** HP +2 and base Speed 6 are approved starting values. All five traits below are fresh proposals. Choose two. Culture and background are independent.
+*Restless, adaptable and fiercely invested in a life that never feels long enough.*
 
-- [Weathered](trait-human-weathered.md): Maximum HP +1.
+## Rules
 
-- [Far Walker](trait-human-far-walker.md): Base Speed +1.
+Choose two of the five traits below. These are invitations to a familiar fantasy,
+not a required personality. Any ancestry may grow up in any culture.
 
-- [Many Homes](trait-human-many-homes.md): Know one additional ordinary spoken language.
+**Starting values:** HP +2; base Speed 6. **Trait status:** revised proposals.
 
-- [Shared Table](trait-human-shared-table.md): Gain 1 Boon when a consequential conversation seeks ordinary hospitality, not money or obedience.
-
-- [Practiced Patience](trait-human-practiced-patience.md): Gain 1 Boon to a delicate mundane task after spending twice its normal noncombat time; grants no specialist permission.
+- [Never Quite Finished](trait-human-weathered.md) — There is always one more person to help, one more hill to cross.
+- [Road in the Blood](trait-human-far-walker.md) — The horizon has never looked like a place to stop.
+- [A Foot in Two Worlds](trait-human-many-homes.md) — You learned early that a stranger is sometimes only a person whose words you do not know.
+- [Make Room at the Fire](trait-human-shared-table.md) — You can turn a cold greeting into a place at the table.
+- [The Impossible Streak](trait-human-practiced-patience.md) — Someone says it cannot be done, and you hear a challenge.

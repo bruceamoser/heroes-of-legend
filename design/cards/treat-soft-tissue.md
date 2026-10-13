@@ -1,24 +1,33 @@
 # Treat Soft Tissue
 
-- **ID:** treat-soft-tissue
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Skill
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Medicine 1
-- **Action:** Main Action
-- **Attribute:** Knowledge
-- **Target / range / shape:** Self or one willing patient; one hour
-- **Duration:** Instant
-- **Limits:** Repeatable within the normal action economy.
-- **Equipment / acquisition:** None.
+*You wash your hands and begin the close, careful work of mending what has been torn.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| 1 recovery progress. | 2 recovery progress. | 3 recovery progress. |
+**Action:** Main Action · **Attribute:** Knowledge
+
+**Time:** One hour per attempt; at most once per wound per day.
+
+**Target / range / shape:** Self or one willing patient; one hour
 
 Requires a wound listing Soft Tissue treatment; once per wound per day across all healers. Meet its recovery value to remove only its listed treatable penalties. The scar and accumulated wound count remain.
+
+- **Weak:** 1 recovery progress.
+- **Standard:** 2 recovery progress.
+- **Strong:** 3 recovery progress.
+
+**Duration:** Recovery progress persists for that wound; completed treatment removes only its listed treatable penalties.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Medicine 1
+
+**Type:** Skill
+
+**Limits:** Repeatable; pay the action and any stated costs each use.
+
+**ID:** treat-soft-tissue · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

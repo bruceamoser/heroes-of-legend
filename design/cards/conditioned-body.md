@@ -1,24 +1,27 @@
 # Conditioned Body
 
-- **ID:** conditioned-body
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Training / Passive
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** None
-- **Action:** Passive
-- **Attribute:** None — no roll
-- **Target / range / shape:** Self
-- **Duration:** While requirements hold; permanent for development grants
-- **Limits:** Once per level for Conditioned Body; once ever for each other card.
-- **Equipment / acquisition:** None.
+*You remember the work that built this strength: another load, another climb, another day you kept going.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| No roll; apply the effect. | No roll; apply the effect. | No roll; apply the effect. |
+**Action:** Passive · **Attribute:** None — no roll
+
+**Target / range / shape:** Self
 
 Maximum HP +1. At most one purchase at each level; missed purchases cannot be banked. No attribute increase.
+
+**Duration:** Permanent maximum HP increase for each permitted purchase.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** None
+
+**Type:** Training / Passive
+
+**Limits:** At most one purchase per level; unused purchases cannot be saved.
+
+**ID:** conditioned-body · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)

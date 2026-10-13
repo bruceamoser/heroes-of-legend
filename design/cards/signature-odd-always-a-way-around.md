@@ -1,24 +1,29 @@
 # Always a Way Around
 
-- **ID:** signature-odd-always-a-way-around
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 1
-- **DP:** 2
-- **Requirements to learn:** Class Odd; level 1 only
-- **Action:** Passive
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You brace, tug or shove until something gives, then slip into the space the struggle has opened.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Passive · **Attribute:** None — no roll
 
-After Force, move 1 square without provoking, once per turn.
+**Target / range / shape:** Self, after you resolve Force.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+Move up to 2 squares without provoking after your Force action. If you reduced your own Grappled rating to 0, you may stand without spending movement before taking this move. The card does not let you use Force without a Main Action or move while still Grappled.
+
+**Duration:** Immediate stand and movement if allowed.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 1 · **DP:** 2 · **Requirements to learn:** Class Odd; minimum level 1
+
+**Type:** Signature
+
+**Tags:** Skill / Movement
+
+**Limits:** Once on your turn.
+
+**ID:** signature-odd-always-a-way-around · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/odd.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

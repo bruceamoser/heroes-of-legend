@@ -1,24 +1,29 @@
 # Fold the Distance
 
-- **ID:** signature-arcanist-fold-the-distance
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 7
-- **DP:** 8
-- **Requirements to learn:** Class Arcanist; level 7 only
-- **Action:** Maneuver
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You pinch a crease in the air and step through it, drawing a companion across with your outstretched hand.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Maneuver · **Attribute:** None — no roll
 
-Move to a visible unoccupied square within 3 squares without crossing intermediate squares. This teleport does not provoke; it cannot end inside an object.
+**Target / range / shape:** Self and optionally one adjacent willing ally; visible free destinations within 4 squares of you.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+Teleport yourself to a chosen destination. You may bring the ally to a separate free square adjacent to your destination, also within range. Both destinations must fit their occupants; no opaque barrier may separate either traveler from its destination. Neither traveler provokes, and the ally spends no action.
+
+**Duration:** Immediate teleportation.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Class Arcanist; minimum level 7
+
+**Type:** Signature
+
+**Tags:** Magic / Movement
+
+**Limits:** Repeatable; normal action economy applies.
+
+**ID:** signature-arcanist-fold-the-distance · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/arcanist.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

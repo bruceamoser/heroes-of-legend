@@ -1,0 +1,224 @@
+id,tier,action,requirements,classification,domain
+a-bough-for-the-fallen,3,Main Action,Life 2 and Wilderness 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+a-breath-beneath-the-water,3,Main Action,Wilderness 2 and Life 1,dual-use,Adventure development
+a-camp-without-a-trace,3,Main Action,Subterfuge 2 and Wilderness 1,noncombat-first,Adventure development
+a-coal-for-a-promise,1,Main Action,Flame 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+a-company-of-reflections,7,Main Action,Mind 2 and Guard 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+a-courtesy-unanswered,1,Main Action,Subterfuge 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+a-door-that-is-not-there,1,Main Action,Mind 1,dual-use,Deception and concealment
+a-friend-beneath-the-door,1,Main Action,Calling 1,dual-use,"Objects, light and helpers"
+a-good-place-to-stop,1,Passive,Wilderness 1,noncombat-first,Adventure development
+a-hand-from-before,1,Reaction,Calling 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+a-knot-you-can-trust,1,Passive,Athletics 1,dual-use,Adventure development
+a-line-for-everyone,3,Main Action,Athletics 2 and Wilderness 1,noncombat-first,Adventure development
+a-lock-has-a-language,3,Main Action,Subterfuge 2,noncombat-first,Intrusion and objects
+a-marvel-on-wheels,7,Main Action,Craft 3 and Marksmanship 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+a-place-at-any-fire,1,Main Action,Influence 1,noncombat-first,Social and identity
+a-ribcage-for-a-shield,3,Reaction,Calling 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+a-road-through-rain,3,Maneuver,Storm 2,dual-use,"Objects, light and helpers"
+a-roof-before-nightfall,3,Main Action,Wilderness 2 and Craft 1,noncombat-first,Adventure development
+a-shadow-at-the-heart,7,Main Action,Subterfuge 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+a-shelter-of-light,3,Maneuver,Radiance 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+a-sign-against-harm,1,Reaction,Guard 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+a-small-and-watchful-shape,3,Maneuver,Wilderness 2 and Subterfuge 1,dual-use,Adventure development
+a-splendid-mistake,7,Main Action,Flame 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+a-steady-hand-at-dawn,3,Passive,Medicine 2,noncombat-first,Adventure development
+a-sword-made-of-dawn,7,Main Action,Flame 3 and Arms 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+a-thought-that-is-not-yours,1,Main Action,Mind 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+a-verse-for-courage,1,Maneuver,Influence 1,dual-use,General assistance
+a-voice-across-the-valley,7,Main Action,Mind 2 and Storm 2,noncombat-first,Adventure development
+all-voices-as-one,7,Main Action,Influence 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+an-impossible-theft,7,Maneuver,Subterfuge 3,dual-use,"Objects, light and helpers"
+an-invitation-elsewhere,1,Main Action,Mind 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+anatomy-of-an-opening,1,Main Action,Scholarship 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+answer-for-what-you-did,7,Main Action,Influence 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+armored-recovery,3,Maneuver,Armor 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+ask-the-falling-ash,3,Main Action,Scholarship 2,noncombat-first,Investigation and interpretation
+behind-the-hawthorn,3,Reaction,Mind 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+bind-and-turn,3,Reaction,Arms 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+blood-in-the-teeth,1,Main Action,Arms 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+borrow-a-voice,1,Main Action,Mind 1,dual-use,Deception and concealment
+borrow-the-beast,1,Maneuver,Wilderness 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+borrow-the-shadow,7,Reaction,Subterfuge 3,dual-use,"Traversal, concealment and rescue"
+borrow-tomorrow-s-weather,3,Main Action,Flame 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+borrowed-clothes-borrowed-manners,1,Main Action,Subterfuge 1,noncombat-first,Adventure development
+borrowed-identity,7,Main Action,Subterfuge 3 and Influence 1,noncombat-first,Social and identity
+borrowed-silhouette,3,Reaction,Mind 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+bottled-morning,3,Main Action,Craft 2 and Medicine 1,noncombat-first,Craft and lasting treatment
+bow-to-the-balcony,7,Main Action,Arms 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+braced-harness,1,Reaction,Armor 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+break-the-charge,7,Reaction,Arms 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+break-the-formation,3,Main Action,Arms 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+breath-of-the-wyrmling,1,Main Action,Flame 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+briar-gate,3,Main Action,Wilderness 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+bridge-of-winter,3,Main Action,Frost 2,dual-use,Traversal and rescue
+call-a-burrower,1,Main Action,Calling 1 and Wilderness 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+call-a-sentinel,3,Main Action,Calling 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+call-a-tempest-beast,7,Main Action,Calling 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+call-the-elder-stag,7,Main Action,Calling 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+call-the-faithful-hound,1,Main Action,Calling 1,dual-use,"Objects, light and helpers"
+call-the-hunting-cat,3,Main Action,Calling 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+call-the-opening,3,Main Action,Influence 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+carry-the-sunrise,7,Main Action,Radiance 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+carry-them-to-shore,7,Main Action,Wilderness 3,dual-use,Traversal and rescue
+carry-to-safety,7,Main Action,Guard 3,dual-use,"Traversal, concealment and rescue"
+catch-a-falling-friend,1,Reaction,None,dual-use,Traversal and rescue
+catch-the-spell,3,Reaction,Scholarship 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+checkmate-in-three-steps,7,Main Action,Scholarship 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+cinder-cast,1,Main Action,Flame 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+circle-of-old-names,3,Main Action,Calling 2 and Guard 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+conditioned-body,1,Passive,None,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+create-a-distraction,1,Main Action,Subterfuge 1,dual-use,Deception and concealment
+cut-off-the-escape,3,Main Action,Marksmanship 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+dance-beyond-the-circle,7,Main Action,Mind 3,dual-use,Traversal and rescue
+dawn-shard,1,Main Action,Radiance 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+derive-a-mechanism,3,Main Action,Craft 2,noncombat-first,Craft and lasting treatment
+drain-warmth,1,Main Action,Life 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+dread-reflection,3,Main Action,Mind 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+driving-volley,3,Main Action,Marksmanship 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+ember-along-the-edge,1,Main Action,Flame 1 and Arms 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+enchanting-workshop,7,Main Action,Craft 3,noncombat-first,Craft and lasting treatment
+expert-river-crossing,1,Main Action,Athletics 1,noncombat-first,Travel and wilderness
+fit-a-replacement,7,Main Action,Medicine 3,noncombat-first,Craft and lasting treatment
+forage-coast,1,Main Action,Wilderness 1,noncombat-first,Travel and wilderness
+forage-mountains,1,Main Action,Wilderness 1,noncombat-first,Travel and wilderness
+forage-wetlands,1,Main Action,Wilderness 1,noncombat-first,Travel and wilderness
+forage-woodland,1,Main Action,Wilderness 1,noncombat-first,Travel and wilderness
+forked-sky,7,Main Action,Storm 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+four-winds-at-once,7,Main Action,Storm 2 and Athletics 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+furnace-sweep,3,Main Action,Flame 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+guide-a-frightened-animal,1,Main Action,Wilderness 1,noncombat-first,Travel and wilderness
+guide-the-crossing,7,Main Action,Wilderness 3,noncombat-first,Travel and wilderness
+gust-hammer,1,Main Action,Storm 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+hold-a-conversation,1,Main Action,None,noncombat-first,Social and identity
+hold-the-passage,3,Main Action,Guard 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+hook-and-drive,1,Main Action,Arms 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+hurl-aside,7,Main Action,Arms 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+i-have-seen-this-step,1,Reaction,Scholarship 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+icebound-path,3,Main Action,Frost 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+identify-a-mixture,1,Main Action,Scholarship 1,noncombat-first,Investigation and interpretation
+identify-an-enchantment,1,Main Action,Scholarship 1,noncombat-first,Investigation and interpretation
+intrusive-echo,1,Main Action,Mind 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+invitation-to-the-blade,1,Main Action,Arms 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+keep-the-door-closed,1,Reaction,Life 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+keep-time-with-steel,1,Main Action,Influence 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+keep-your-bearings,1,Main Action,None,noncombat-first,Travel and wilderness
+lantern-moths,1,Main Action,Radiance 1,dual-use,"Objects, light and helpers"
+let-the-spark-decide,1,Main Action,Flame 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+live-in-the-mask,3,Passive,Subterfuge 2 and Influence 1,noncombat-first,Adventure development
+make-something-useful,1,Main Action,Craft 1,noncombat-first,Craft and lasting treatment
+measured-appeal,1,Main Action,Influence 1,noncombat-first,Social and identity
+name-the-reckoning,1,Main Action,Influence 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+no-footfall-at-all,7,Maneuver,Subterfuge 3,dual-use,Deception and concealment
+no-road-away,3,Reaction,Influence 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+noonday-judgment,7,Main Action,Radiance 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+not-yet-your-name,7,Reaction,Life 3 and Medicine 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+notice-the-human-detail,1,Main Action,None,noncombat-first,Investigation and interpretation
+oathlight-strike,1,Main Action,Radiance 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+one-more-dawn,7,Passive,None,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+open-the-furnace-door,7,Main Action,Flame 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+ordinary-recipe-study,1,Passive,Craft 1; known compatible crafting card,noncombat-first,Craft and lasting treatment
+pack-with-purpose,1,Passive,None,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+palm-of-the-gale,1,Main Action,Storm 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+pinning-shot,1,Main Action,Marksmanship 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+pounce-of-the-red-claw,3,Main Action,Wilderness 2 and Athletics 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+procession-of-the-quiet,7,Main Action,Calling 3,dual-use,"Objects, light and helpers"
+quiet-latch,1,Main Action,Subterfuge 1,noncombat-first,Intrusion and objects
+read-a-dangerous-trail,3,Main Action,Wilderness 2,noncombat-first,Travel and wilderness
+read-the-maker-s-hand,3,Passive,Craft 2 and Scholarship 1,noncombat-first,Adventure development
+read-the-next-blow,3,Reaction,Scholarship 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+read-the-quarry,1,Main Action,Marksmanship 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+read-the-remains,1,Main Action,Scholarship 1,noncombat-first,Investigation and interpretation
+reconstruct-the-event,7,Main Action,Scholarship 3,noncombat-first,Investigation and interpretation
+relieve-poison,1,Main Action,Medicine 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+remember-this-name,3,Main Action,Influence 2,noncombat-first,Social and identity
+rest-for-the-restless,3,Main Action,Life 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+return-to-strength,7,Main Action,Life 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+reveal-the-threshold,3,Main Action,Radiance 2,noncombat-first,Investigation and interpretation
+ride-the-falling-stone,3,Reaction,Athletics 2,dual-use,Traversal and rescue
+rime-grip,1,Main Action,Frost 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+roots-remember-feet,1,Main Action,Wilderness 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+rouse-the-senses,1,Main Action,Medicine 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+running-vault,3,Maneuver,Athletics 2,dual-use,Traversal and rescue
+saddle-and-rein,1,Main Action,Wilderness 1,noncombat-first,Adventure development
+sap-and-breath,1,Main Action,Life 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+scales-beneath-the-skin,3,Reaction,Flame 2 and Wilderness 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+secure-a-hold,1,Main Action,Athletics 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+sever-the-pursuit,7,Main Action,Marksmanship 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+shared-breath,1,Main Action,Life 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+shielding-step,1,Reaction,Guard 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+silence-the-alarm,3,Main Action,Subterfuge 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+smile-before-steel,1,Main Action,Arms 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+smoke-in-a-bottle,1,Main Action,Craft 1,dual-use,Deception and concealment
+smoke-through-the-keyhole,3,Main Action,Flame 2,dual-use,Traversal and rescue
+speak-with-the-hearth,1,Main Action,Flame 1,noncombat-first,Investigation and interpretation
+spring-in-the-sleeve,1,Main Action,Craft 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+step-between-lanterns,1,Maneuver,Subterfuge 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+step-through-the-spark,3,Maneuver,Flame 2,dual-use,Traversal and rescue
+still-the-will,7,Main Action,Mind 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+stillness-at-the-center,7,Main Action,Athletics 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+stone-on-your-shoulders,3,Reaction,Armor 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+storm-on-a-string,3,Main Action,Storm 1 and Craft 1,dual-use,"Objects, light and helpers"
+stride-of-the-giant,7,Main Action,Armor 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+sure-ascent,1,Main Action,Athletics 1,noncombat-first,Travel and wilderness
+sustain-the-failing,3,Main Action,Life 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+swing-into-trouble,1,Main Action,Athletics 1,dual-use,Traversal and rescue
+take-them-alive,1,Passive,Arms 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+teach-stone-to-bend,3,Main Action,Scholarship 2,noncombat-first,Intrusion and objects
+tell-a-worthy-story,1,Main Action,None,noncombat-first,Social and identity
+terms-before-swords,7,Main Action,Influence 3,noncombat-first,Adventure development
+the-ancestors-stand,7,Main Action,Calling 3 and Guard 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+the-angle-of-unease,3,Main Action,Mind 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+the-bones-rise,1,Main Action,Calling 1,dual-use,"Objects, light and helpers"
+the-chorus-advances,3,Maneuver,Influence 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+the-circle-holds,7,Main Action,Guard 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+the-city-opens-its-doors,7,Main Action,Subterfuge 3,noncombat-first,Adventure development
+the-cleverest-mixture,7,Maneuver,Craft 3 and Medicine 1,dual-use,"Objects, light and helpers"
+the-debt-comes-due,3,Reaction,Flame 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+the-grove-gives-back,7,Main Action,Life 3 and Wilderness 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+the-hunt-ends-here,7,Reaction,Marksmanship 3 and Wilderness 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+the-key-changes-hands,1,Main Action,Subterfuge 1,noncombat-first,Intrusion and objects
+the-land-keeps-no-secrets,7,Passive,Wilderness 3,noncombat-first,Adventure development
+the-moment-foretold,7,Reaction,Scholarship 3,dual-use,General assistance
+the-orchard-wakes,7,Main Action,Wilderness 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+the-otter-s-bargain,1,Maneuver,Wilderness 1,dual-use,Traversal and rescue
+the-patient-metal,1,Main Action,Scholarship 1,noncombat-first,Intrusion and objects
+the-right-small-courtesy,1,Passive,Influence 1,noncombat-first,Adventure development
+the-road-remembers,3,Main Action,Wilderness 2,noncombat-first,Travel and wilderness
+the-shape-of-escape,7,Maneuver,Scholarship 3,dual-use,Traversal and rescue
+the-sky-comes-down,7,Main Action,Storm 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+the-tale-will-tell-of-you,7,Reaction,Influence 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+the-unlit-road,3,Main Action,Subterfuge 2,dual-use,Traversal and rescue
+the-untroubled-hand,1,Main Action,Athletics 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+the-walking-toolbox,3,Main Action,Craft 2 and Calling 1,dual-use,"Objects, light and helpers"
+through-the-spearpoints,3,Maneuver,Arms 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+thunder-at-the-door,1,Main Action,Storm 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+thunder-ring,3,Main Action,Storm 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+trail-workshop,1,Main Action,Craft 1,noncombat-first,Craft and lasting treatment
+translate-the-fragment,3,Main Action,Scholarship 2,noncombat-first,Investigation and interpretation
+traverse-the-impossible,7,Main Action,Athletics 3,dual-use,Traversal and rescue
+treat-bone,1,Main Action,Medicine 1,noncombat-first,Craft and lasting treatment
+treat-elemental-injury,1,Main Action,Medicine 1,noncombat-first,Craft and lasting treatment
+treat-life-injury,1,Main Action,Medicine 1,noncombat-first,Craft and lasting treatment
+treat-mental-trauma,1,Main Action,Medicine 1,noncombat-first,Craft and lasting treatment
+treat-radiant-injury,1,Main Action,Medicine 1,noncombat-first,Craft and lasting treatment
+treat-soft-tissue,1,Main Action,Medicine 1,noncombat-first,Craft and lasting treatment
+turn-the-crowd,7,Main Action,Influence 3,noncombat-first,Social and identity
+turn-the-river,3,Reaction,Athletics 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+under-their-guard,3,Maneuver,Arms 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+undertow-answer,3,Main Action,Wilderness 2 and Frost 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+unravel-the-bolt,3,Reaction,Guard 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+urgent-bandaging,3,Maneuver,Medicine 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+veiled-crossing,3,Maneuver,Subterfuge 2,dual-use,"Traversal, concealment and rescue"
+wake-the-iron-rune,1,Maneuver,Armor 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+walk-the-thunder,3,Maneuver,Storm 2,dual-use,Traversal and rescue
+wear-heavy-armor,3,Passive,Armor 2,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+wear-medium-armor,1,Passive,Armor 1,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+wear-the-great-beast,7,Maneuver,Wilderness 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+weight-of-iron,7,Reaction,Armor 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+when-the-stars-look-back,7,Main Action,Mind 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+where-only-eagles-pass,7,Main Action,Athletics 3,dual-use,Adventure development
+white-heat,7,Main Action,Flame 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+wings-over-the-battle,7,Maneuver,Flame 3,dual-use,Traversal and rescue
+winter-hold,7,Main Action,Frost 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"
+write-the-final-line,7,Main Action,Arms 3,combat-recovery-or-limited,"Combat, immediate recovery, or no distinct exploration benefit"

@@ -1,24 +1,29 @@
 # Press the Opening
 
-- **ID:** signature-leader-press-the-opening
-- **Status:** Proposal — fresh design; not approved or balance-tested.
-- **Type:** Signature
-- **Tier / minimum level:** 3
-- **DP:** 4
-- **Requirements to learn:** Class Leader; level 3 only
-- **Action:** Main Action
-- **Attribute:** None — no roll
-- **Target / range / shape:** As specified in the effect
-- **Duration:** As specified; otherwise immediate
-- **Limits:** Normal action economy; any additional limit is printed above.
-- **Equipment / acquisition:** None.
+*You spot an enemy’s exposed side, shout your companion’s name and send them into the gap.*
 
-## Resolution
+## Rules
 
-| Weak | Standard | Strong |
-|---|---|---|
-| Apply the explicit effect below. | Apply the explicit effect below. | Apply the explicit effect below. |
+**Action:** Maneuver · **Attribute:** None — no roll
 
-One ally adjacent to a visible enemy within 5 squares makes a free Basic Melee attack. If Strong, it may push the enemy 1 square. No attack chains.
+**Target / range / shape:** One willing ally within 4 squares that can perceive your signal and is adjacent to an enemy.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+The ally makes one free Basic Melee attack against an adjacent enemy, using its own Brawn and Basic Melee outcomes. On Strong, it may also push the target 1 square directly away from itself. The ally needs a melee weapon and must be able to attack. Free attacks trigger no further free attacks.
+
+**Duration:** Immediate attack.
+
+**Equipment / acquisition:** None.
+
+---
+
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Class Leader; minimum level 3
+
+**Type:** Signature
+
+**Tags:** Skill / Attack
+
+**Limits:** Once on your turn; the attack is basic, never a specialty card.
+
+**ID:** signature-leader-press-the-opening · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
+
+[Class choices](../classes/leader.md) · [Signature review](../reviews/1153-signature-review.md) · [Card conventions](../card-conventions.md)

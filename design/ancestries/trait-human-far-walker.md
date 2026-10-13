@@ -1,15 +1,15 @@
-# Far Walker
+# Road in the Blood
 
-- **ID:** trait-human-far-walker
-- **Status:** Proposal
-- **Type:** Ancestry trait
-- **Source:** Human; one of your two ancestry choices
-- **Action:** Passive
-- **Cost:** No DP
-- **Duration:** Permanent unless explicitly conditional
+*You settle your pack higher on your shoulders and lengthen your stride toward the next rise.*
 
-Base Speed +1.
+## Rules
 
-No outcome roll of its own. Boons use the normal stacking rules; numeric bonuses of the same kind use the highest.
+Base Speed +1. Long journeys remain ordinary travel; this creates no exhaustion rule.
 
-[Ancestry](./human.md)
+**Ancestry:** Human · **Choice:** one of your two traits · **Action:** Passive unless the effect says otherwise.
+
+**Duration:** While its stated circumstances apply; permanent for base statistics.
+
+**ID:** trait-human-far-walker · **Status:** Proposal for Bruce’s review. No DP cost.
+
+[Ancestry choices](human.md)
