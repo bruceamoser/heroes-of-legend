@@ -1,66 +1,40 @@
 # Goblin Scrapper
 
-*The scrapper’s coat jingles with useful junk. Their knife is sharp; their plan has several exits.*
+*A small, wiry goblin salvager with keen eyes, patched work clothes and pockets full of useful scraps. Quick hands and knowledge of the ruins compensate for modest reach.*
 
-## Rules
+**HP:** 8 · **Speed:** Ground 7 · **Footprint:** 1x1
 
-**ID:** creature-goblin-scrapper
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
 
-**Category:** Mortal · **Role:** Scavenger · **Adventure band:** 1
-
-**Habitat:** Ruin; roadside
-
-**HP:** 8 · **CV:** 7
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 7
-
-**Attributes:** Brawn +0; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +0
-
-**Resistance:** None
+**DR / resistance:** None · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Common and Goblin
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Scrap knife
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Agility · **Target defense:** Agility
+### Scrap knife — Main Action
 
-**Target:** One adjacent creature. **Spell:** No.
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
 
-- **Weak:** 2 physical damage.
-- **Standard:** 3 physical damage.
-- **Strong:** 5 physical damage.
+- **Weak defense:** 5 physical damage.
+- **Standard defense:** 3 physical damage.
+- **Strong defense:** 2 physical damage.
 
+### Stalking Step — Maneuver
 
-### Other abilities
+Move up to 2 squares, paying terrain costs from that allowance. Provokes normally; no automatic Hidden.
 
-- [Stalking Step](../../monster-abilities/stalking-step.md): Maneuver: move up to 2 squares; this may provoke.
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-### Basic melee and ordinary options
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 4, Standard 2, Strong 1 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **1/2/4 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
-
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Bright scraps are tied to trip-free routes through the rubble.
 
@@ -70,16 +44,34 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Recognize the salvage claim or trade a useful tool.
 
-**Rewards:** Melee weapon, tool scraps and 3 coins. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Ruin; roadside · **Communication:** Common and Goblin
 
-## Summoning
+**Rewards:** Melee weapon, tool scraps and 3 coins.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-goblin-scrapper
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Mortal · **Role:** Scavenger · **CV:** 7
+
+### Creature-roll reference
+
+**Attributes:** Brawn +0; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +0
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Scrap knife | Agility | None | 2 physical damage. | 3 physical damage. | 5 physical damage. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** An agile or elusive body warrants attack Banes. Ordinary attack difficulty; riders and positioning carry the threat.
 
 **Reference damage:** 2/3/5
 
@@ -91,9 +83,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 5.000; reference outgoing damage
-per turn 2.162. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.404, O=2.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [stalking step](../../monster-abilities/stalking-step.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

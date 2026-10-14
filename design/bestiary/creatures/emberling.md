@@ -1,63 +1,38 @@
 # Emberling
 
-*A coal splits and unfolds into a little figure, shedding sparks whenever it laughs.*
+*A small elemental made of glowing coals and flickering flame, with bright cracks for eyes. Warmth draws it; uncontrolled curiosity makes it dangerous around dry fuel.*
 
-## Rules
+**HP:** 8 · **Speed:** Ground 6 · **Footprint:** 1x1
 
-**ID:** creature-emberling
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
 
-**Category:** Elemental · **Role:** Fire skirmisher · **Adventure band:** 1
+**DR / resistance:** fire 3 · **Condition immunities:** Bleeding; Poisoned; Asleep
 
-**Habitat:** Hearth; volcanic field
-
-**HP:** 8 · **CV:** 7
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 6
-
-**Attributes:** Brawn +0; Fortitude +0; Agility +2; Guile +0; Knowledge -1; Reason +0
-
-**Resistance:** fire 3
-
-**Weakness:** cold 1
-
-**Condition immunity:** Bleeding; Poisoned; Asleep
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** None
+**Weakness:** Cold damage gives it 1 Bane on its next attack before its next turn (1 Boon to that player defense). Does not stack with itself.
 
 **Healing:** Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Coal touch
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Agility · **Target defense:** Agility
+### Coal touch — Main Action
 
-**Target:** One adjacent creature. **Spell:** No.
+*Heat crawls along the strike, or frost flowers across the skin where it passes.*
 
-- **Weak:** 1 fire damage.
-- **Standard:** 2 fire damage. Burning 1.
-- **Strong:** 3 fire damage. Burning 2.
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
 
-**Procedure:** [Elemental Burn](../../monster-abilities/elemental-burn.md).
+- **Weak defense:** 3 fire damage. Burning 2.
+- **Standard defense:** 2 fire damage. Burning 1.
+- **Strong defense:** 1 fire damage.
 
-### Basic melee and ordinary options
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **1/2/4 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 4, Standard 2, Strong 1 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Small footprints of soot lead out of a cold hearth.
 
@@ -67,34 +42,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Offer a safe brazier instead of chasing it through dry grass.
 
-**Rewards:** A useful clue in its hearth; no endless fuel. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Hearth; volcanic field · **Communication:** None
 
-## Summoning
+**Rewards:** A useful clue in its hearth; no endless fuel.
 
-**Eligibility:** Elemental 1
+**Summoning:** Elemental 1 — [player reference](../summons/emberling.md).
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+## Design notes — not needed during play
 
-**Carrying:** up to 1 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**ID:** creature-emberling
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
+**Category:** Elemental · **Role:** Fire skirmisher · **CV:** 8
 
-## CV worksheet
+**Difficulty rationale:** An agile or elusive body warrants attack Banes. Ordinary attack difficulty; riders and positioning carry the threat.
 
 **Reference damage:** 1/2/3
 
@@ -106,9 +68,8 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 5.000; reference outgoing damage
-per turn 2.000. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.404, O=2.000. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [elemental burn](../../monster-abilities/elemental-burn.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

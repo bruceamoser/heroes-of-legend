@@ -1,63 +1,52 @@
 # Hill Ogre
 
-*The ogre squints down at the road sign, turns it upside down, then uses it to scratch its back.*
+*A heavily built giant with thick hands, blunt features and clothing pieced together from sacks and hides. Its strength is formidable, but its needs and fears are often straightforward.*
 
-## Rules
+**HP:** 28 · **Speed:** Ground 6 · **Footprint:** 2x2
 
-**ID:** creature-hill-ogre
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Boon to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
 
-**Category:** Giant · **Role:** Brute · **Adventure band:** 3
-
-**Habitat:** Hill; ruined farm
-
-**HP:** 28 · **CV:** 18
-
-**Footprint:** 2x2 · **Stability:** 1 · **Speed:** Ground 6
-
-**Attributes:** Brawn +2; Fortitude +2; Agility -1; Guile +0; Knowledge -1; Reason +0
-
-**Resistance:** None
+**DR / resistance:** None · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Common and Giant
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Timber club
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Timber club — Main Action
 
-**Target:** One creature within 2 squares. **Spell:** No.
+*The blow lands with enough force to send its victim stumbling backward.*
 
-- **Weak:** 4 physical damage.
-- **Standard:** 5 physical damage. Push 1.
-- **Strong:** 8 physical damage. Push 2.
+**Target:** One creature within 2 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-**Procedure:** [Driving Blow](../../monster-abilities/driving-blow.md).
+- **Weak defense:** 8 physical damage. Push 2.
+- **Standard defense:** 5 physical damage. Push 1.
+- **Strong defense:** 4 physical damage.
 
-### Basic melee and ordinary options
+### Hurl aside — Main Action
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+*One broad hand sweeps the obstacle from the ogre’s path.*
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
+**Target:** One adjacent creature. **Player defense:** Brawn. **Threat:** 1 Bane to that defense.
 
-## At the table
+- **Weak defense:** 5 physical damage; push 4.
+- **Standard defense:** 3 physical damage; push 3.
+- **Strong defense:** 2 physical damage; push 1.
+
+### Threatening Roar — Maneuver
+
+One hearing creature within 3 squares gains Frightened 1 of the ogre; once per turn.
+
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+
+## Encounter cues
 
 **Signs:** Crushed fences mark a route between isolated farms.
 
@@ -67,16 +56,35 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Offer a task it can understand and a meal it does not have to steal.
 
-**Rewards:** Mismatched belongings and 18 coins; return stolen goods when practical. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Hill; ruined farm · **Communication:** Common and Giant
 
-## Summoning
+**Rewards:** Mismatched belongings and 18 coins; return stolen goods when practical.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-hill-ogre
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Giant · **Role:** Brute · **CV:** 19
+
+### Creature-roll reference
+
+**Attributes:** Brawn +2; Fortitude +2; Agility -1; Guile +0; Knowledge -1; Reason +0
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Timber club | Brawn | 1 Boon | 4 physical damage. | 5 physical damage. Push 1. | 8 physical damage. Push 2. |
+| Hurl aside | Brawn | 1 Boon | 2 physical damage; push 1. | 3 physical damage; push 3. | 5 physical damage; push 4. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** A slow or broad exposed body gives the attacker a Boon. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 4/5/8
 
@@ -88,9 +96,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 5.000; reference outgoing damage
-per turn 4.324. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=5.596, O=5.008. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [hill ogre threatening roar](../../monster-abilities/hill-ogre-threatening-roar.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

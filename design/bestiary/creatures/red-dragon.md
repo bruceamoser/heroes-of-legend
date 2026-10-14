@@ -1,82 +1,72 @@
 # Red Dragon
 
-*The dragon settles onto the broken tower with the patience of an owner taking a chair. Gold dust falls between the scales of its throat.*
+*An immense red-scaled dragon with a horned head, broad wings and a furnace-bright throat. Intelligent and deeply possessive, it treats territory, tribute and reputation as parts of the same hoard.*
 
-## Rules
+**HP:** 56 · **Speed:** Ground 7; fly 10 · **Footprint:** 3x3
 
-**ID:** creature-red-dragon
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 2 (Heavy Frame, passive grant; not derived from size).
 
-**Category:** Dragon · **Role:** Territorial sovereign · **Adventure band:** 7
-
-**Habitat:** Mountain fortress; volcanic valley
-
-**HP:** 56 · **CV:** 92
-
-**Footprint:** 3x3 · **Stability:** 2 · **Speed:** Ground 7; fly 10
-
-**Attributes:** Brawn +2; Fortitude +2; Agility +1; Guile +2; Knowledge +2; Reason +2
-
-**Resistance:** Physical 3; fire 3
+**DR / resistance:** Physical 3; fire 3 · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 1
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Common and Draconic
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Claw sweep
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Claw sweep — Main Action
 
-**Target:** Up to two creatures within 2 squares. **Spell:** No.
+*A great limb scythes across the ground, forcing everyone nearby to move.*
 
-- **Weak:** 5 physical damage.
-- **Standard:** 7 physical damage. Push each 1.
-- **Strong:** 10 physical damage. Push each 2.
+**Target:** Up to two creatures within 2 squares. **Player defense:** Agility. **Threat:** 2 Banes to that defense.
 
-**Procedure:** [Sweeping Attack](../../monster-abilities/sweeping-attack.md).
+- **Weak defense:** 10 physical damage. Push each 4.
+- **Standard defense:** 7 physical damage. Push each 2.
+- **Strong defense:** 5 physical damage.
 
-### Main — Furnace breath
+### Furnace breath — Main Action
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+*Its chest swells and light leaks between its teeth; there is one terrible instant to scatter.*
 
-**Target:** All creatures in a fan 3. **Spell:** No.
+**Target:** All creatures in a cone of 3 rows, 1/3/5 squares wide. **Player defense:** Agility. **Threat:** 2 Banes to that defense.
 
-- **Weak:** 5 fire damage.
-- **Standard:** 7 fire damage. Burning 1.
-- **Strong:** 10 fire damage. Burning 2.
+- **Weak defense:** 10 fire damage. Burning 2.
+- **Standard defense:** 7 fire damage. Burning 1.
+- **Strong defense:** 5 fire damage.
 
-**Limit:** Cannot use this named breath on its next turn after any use.
+**Limit:** Cannot use this attack on consecutive turns, regardless of result.
 
-**Procedure:** [Breath](../../monster-abilities/breath.md).
+### Crushing bite — Main Action
 
-### Other abilities
+*The dragon’s jaws close with the weight of a falling portcullis.*
 
-- [Wing Beat](../../monster-abilities/wing-beat.md): Maneuver once per turn: one adjacent creature gains Slowed 1.
-- [Breaking Roar](../../monster-abilities/breaking-roar.md): Maneuver once per turn: one hearing creature within 3 gains Frightened 1. Uses the same Maneuver budget as Wing Beat.
+**Target:** One creature within 2 squares. **Player defense:** Fortitude. **Threat:** 2 Banes to that defense.
 
-### Basic melee and ordinary options
+- **Weak defense:** 12 physical damage; Bleeding 2.
+- **Standard defense:** 8 physical damage; Bleeding 1.
+- **Strong defense:** 6 physical damage.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+### Wing Beat — Maneuver
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
+One adjacent creature gains Slowed 1; no roll or damage. Once per turn; no additional push or Blinded.
 
-## At the table
+### Breaking Roar — Maneuver
+
+One hearing creature within 3 squares gains Frightened 1 of this creature; no roll or damage. Once per turn.
+
+### Dig In — Maneuver
+
+Gain Stability 3 while on solid ground until its next turn; highest source only.
+
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 2 Banes; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+
+## Encounter cues
 
 **Signs:** Tribute wagons arrive on a schedule; the countryside knows which bells not to ring.
 
@@ -86,16 +76,36 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Spread out, contest the hoard or escape route, and bring a bargain with something it cannot simply take.
 
-**Rewards:** A single adventure hoard: propose 400 coins plus one reviewed special item, not an item on every scale. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Mountain fortress; volcanic valley · **Communication:** Common and Draconic
 
-## Summoning
+**Rewards:** A single adventure hoard: propose 400 coins plus one reviewed special item, not an item on every scale.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-red-dragon
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Dragon · **Role:** Territorial sovereign · **CV:** 95
+
+### Creature-roll reference
+
+**Attributes:** Brawn +2; Fortitude +2; Agility +1; Guile +2; Knowledge +2; Reason +2
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Claw sweep | Brawn | 2 Boons | 5 physical damage. | 7 physical damage. Push each 2. | 10 physical damage. Push each 4. |
+| Furnace breath | Brawn | 2 Boons | 5 fire damage. | 7 fire damage. Burning 1. | 10 fire damage. Burning 2. |
+| Crushing bite | Brawn | 2 Boons | 6 physical damage. | 8 physical damage; Bleeding 1. | 12 physical damage; Bleeding 2. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 5/7/10
 
@@ -107,9 +117,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 2.162; reference outgoing damage
-per turn 13.901. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=2.162, O=15.075. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [breaking roar](../../monster-abilities/breaking-roar.md), [breath](../../monster-abilities/breath.md), [red dragon dig in](../../monster-abilities/red-dragon-dig-in.md), [sweeping attack](../../monster-abilities/sweeping-attack.md), [wing beat](../../monster-abilities/wing-beat.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

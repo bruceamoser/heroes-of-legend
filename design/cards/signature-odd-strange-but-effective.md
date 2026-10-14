@@ -16,6 +16,8 @@ Choose Force’s intended result before rolling: obstacle progress, reducing you
 
 Afterward you may move up to 2 squares without provoking if able. Grappled 3 leaves no Main Action to spend; this cannot release a fully restrained user.
 
+**Stability:** apply it only to the push option, not obstacle progress or Grappled reduction.
+
 **Duration:** Immediate progress, reduction or push, then movement.
 
 **Equipment / acquisition:** None.

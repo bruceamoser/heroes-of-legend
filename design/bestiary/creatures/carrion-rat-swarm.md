@@ -1,66 +1,40 @@
 # Carrion Rat Swarm
 
-*The floor seems to ripple until a hundred small eyes catch the lantern.*
+*A dense group of oversized scavenging rats with scarred tails, dirty fur and sharp yellow teeth. The swarm behaves as a single hungry mass but occupies a definite patch of ground.*
 
-## Rules
+**HP:** 14 · **Speed:** Ground 6; climb 4 · **Footprint:** 2x2
 
-**ID:** creature-carrion-rat-swarm
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
 
-**Category:** Animal · **Role:** Swarm · **Adventure band:** 1
-
-**Habitat:** Cellar; sewer
-
-**HP:** 14 · **CV:** 11
-
-**Footprint:** 2x2 · **Stability:** 0 · **Speed:** Ground 6; climb 4
-
-**Attributes:** Brawn +0; Fortitude +1; Agility +1; Guile +0; Knowledge -2; Reason +0
-
-**Resistance:** Physical 2
+**DR / resistance:** Physical 2 · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** None
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Gnawing edge
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Gnawing edge — Main Action
 
-**Target:** One adjacent creature. **Spell:** No.
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
 
-- **Weak:** 2 physical damage.
-- **Standard:** 3 physical damage.
-- **Strong:** 4 physical damage.
+- **Weak defense:** 4 physical damage.
+- **Standard defense:** 3 physical damage.
+- **Strong defense:** 2 physical damage.
 
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-### Other abilities
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-- [Scatter Body](../../monster-abilities/scatter-body.md): Area attacks ignore its physical resistance; one HP pool, footprint and turn.
+## Passives
 
-### Basic melee and ordinary options
+**Scatter Body:** Area attacks ignore its physical DR, not other resistance. One HP pool and one turn; cannot overlap another creature at rest.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
-
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Food sacks have been opened from beneath, with no large footprints nearby.
 
@@ -70,16 +44,34 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Use an area attack or remove the food source; the swarm cannot occupy a hero’s square.
 
-**Rewards:** Spoiled stores and evidence of a breached cellar. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Cellar; sewer · **Communication:** None
 
-## Summoning
+**Rewards:** Spoiled stores and evidence of a breached cellar.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-carrion-rat-swarm
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Animal · **Role:** Swarm · **CV:** 11
+
+### Creature-roll reference
+
+**Attributes:** Brawn +0; Fortitude +1; Agility +1; Guile +0; Knowledge -2; Reason +0
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Gnawing edge | Brawn | None | 2 physical damage. | 3 physical damage. | 4 physical damage. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Ordinary attack difficulty; riders and positioning carry the threat.
 
 **Reference damage:** 2/3/4
 
@@ -91,9 +83,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 2.000. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=3.000, O=2.000. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [scatter body](../../monster-abilities/scatter-body.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

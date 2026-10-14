@@ -1,67 +1,48 @@
 # Bone Colossus
 
-*A dozen rib cages open and close inside the shape. Every step sounds like a chest of crockery dropped down stairs.*
+*A towering assembly of skulls, ribs and long bones bound into a single siege body. Many dead supplied its frame, but only one controlling purpose directs it.*
 
-## Rules
+**HP:** 38 · **Speed:** Ground 5 · **Footprint:** 3x3
 
-**ID:** creature-bone-colossus
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Boon to player attacks. · **Stability:** 2 (Heavy Frame, passive grant; not derived from size).
 
-**Category:** Undead · **Role:** Siege body · **Adventure band:** 7
-
-**Habitat:** Battlefield; necropolis
-
-**HP:** 38 · **CV:** 43
-
-**Footprint:** 3x3 · **Stability:** 2 · **Speed:** Ground 5
-
-**Attributes:** Brawn +2; Fortitude +2; Agility -1; Guile -2; Knowledge -2; Reason +0
-
-**Resistance:** Physical 2
+**DR / resistance:** Physical 2 · **Condition immunities:** Bleeding; Poisoned; Asleep
 
 **Weakness:** None
 
-**Condition immunity:** Bleeding; Poisoned; Asleep
+**Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
 
-**Evasion:** 0 · **Threat:** 0
+**Against offensive healing:** controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.
 
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
+## On its turn
 
-**Communication:** None
+**Senses:** Ordinary sight and hearing.
 
-**Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders. Life Drink restoration, if printed, is an explicit exception.
+### Ossuary sweep — Main Action
 
-**Offensive-healing defense:** Fortitude +2; used when a player rolls this creature’s defense against an NPC healing spell. A player attacker still makes only their attack roll.
+*A great limb scythes across the ground, forcing everyone nearby to move.*
 
-### Main — Ossuary sweep
+**Target:** Up to two creatures within 2 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+- **Weak defense:** 9 physical damage. Push each 4.
+- **Standard defense:** 6 physical damage. Push each 2.
+- **Strong defense:** 4 physical damage.
 
-**Target:** Up to two creatures within 2 squares. **Spell:** No.
+### Set the Frame — Maneuver
 
-- **Weak:** 4 physical damage.
-- **Standard:** 6 physical damage. Push each 1.
-- **Strong:** 9 physical damage. Push each 2.
+Gain Stability 3 until its next turn; highest source only.
 
-**Procedure:** [Sweeping Attack](../../monster-abilities/sweeping-attack.md).
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-### Other abilities
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-- [Lifeless Body](../../monster-abilities/lifeless-body.md): Does not breathe or eat. Only the printed condition immunities apply; dies at 0 HP.
+## Passives
 
-### Basic melee and ordinary options
+**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
-
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Graves stand empty in a widening circle.
 
@@ -71,34 +52,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Destroy or obscure the mark; exploit doors too small for the assembled body.
 
-**Rewards:** One command plaque; the bones carry no usable armor. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Battlefield; necropolis · **Communication:** None
 
-## Summoning
+**Rewards:** One command plaque; the bones carry no usable armor.
 
-**Eligibility:** Undead 7
+**Summoning:** Undead 7 — [player reference](../summons/bone-colossus.md).
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+## Design notes — not needed during play
 
-**Carrying:** up to 1 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**ID:** creature-bone-colossus
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
+**Category:** Undead · **Role:** Siege body · **CV:** 43
 
-## CV worksheet
+**Difficulty rationale:** A slow or broad exposed body gives the attacker a Boon. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 4/6/9
 
@@ -110,9 +78,8 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 10.324. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=3.596, O=11.901. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [bone colossus set the frame](../../monster-abilities/bone-colossus-set-the-frame.md), [lifeless body](../../monster-abilities/lifeless-body.md), [sweeping attack](../../monster-abilities/sweeping-attack.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

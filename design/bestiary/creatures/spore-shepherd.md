@@ -1,63 +1,38 @@
 # Spore Shepherd
 
-*A hood of mushrooms turns toward your breath. Spores fall in a slow golden curtain.*
+*A walking fungal body with a broad hood, soft pale limbs and golden spore sacs beneath the cap. It spreads a living network through damp abandoned places.*
 
-## Rules
+**HP:** 18 · **Speed:** Ground 4 · **Footprint:** 1x1
 
-**ID:** creature-spore-shepherd
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
 
-**Category:** Plant · **Role:** Area disabler · **Adventure band:** 3
-
-**Habitat:** Cavern; damp ruin
-
-**HP:** 18 · **CV:** 12
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 4
-
-**Attributes:** Brawn +0; Fortitude +1; Agility +0; Guile +0; Knowledge +1; Reason +2
-
-**Resistance:** None
+**DR / resistance:** None · **Condition immunities:** Bleeding; Poisoned; Asleep
 
 **Weakness:** None
 
-**Condition immunity:** Bleeding; Poisoned; Asleep
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Understands simple gestures; cannot speak
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Spore cloud
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Reason · **Target defense:** Fortitude
+### Spore cloud — Main Action
 
-**Target:** All creatures in a radius-1 burst centered within 4 squares. **Spell:** No.
+*A needle catches the skin, and a bitter numbness spreads from the puncture.*
 
-- **Weak:** 1 physical damage.
-- **Standard:** 2 physical damage. Poisoned 1.
-- **Strong:** 3 physical damage. Poisoned 2.
+**Target:** All creatures in a 3x3-square area centered within 4 squares. **Player defense:** Fortitude. **Threat:** 0 (no modifier) to that defense.
 
-**Procedure:** [Venom](../../monster-abilities/venom.md).
+- **Weak defense:** 3 physical damage. Poisoned 2.
+- **Standard defense:** 2 physical damage. Poisoned 1.
+- **Strong defense:** 1 physical damage.
 
-### Basic melee and ordinary options
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Fungal rings grow around the footprints of sleeping animals.
 
@@ -67,16 +42,34 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Cover the approach and disperse the cluster; communicate by leaving food at the edge.
 
-**Rewards:** A botanist may pay 15 coins for an intact sample, only once per site. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Cavern; damp ruin · **Communication:** Understands simple gestures; cannot speak
 
-## Summoning
+**Rewards:** A botanist may pay 15 coins for an intact sample, only once per site.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-spore-shepherd
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Plant · **Role:** Area disabler · **CV:** 12
+
+### Creature-roll reference
+
+**Attributes:** Brawn +0; Fortitude +1; Agility +0; Guile +0; Knowledge +1; Reason +2
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Spore cloud | Reason | None | 1 physical damage. | 2 physical damage. Poisoned 1. | 3 physical damage. Poisoned 2. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Ordinary attack difficulty; riders and positioning carry the threat.
 
 **Reference damage:** 1/2/3
 
@@ -88,9 +81,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 5.000; reference outgoing damage
-per turn 2.324. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=5.000, O=2.324. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [venom](../../monster-abilities/venom.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

@@ -1,68 +1,48 @@
 # Tomb Sage
 
-*The sage turns a page with a finger polished to bone. The margin already contains your name.*
+*A preserved undead scholar with ink-blackened bones, ancient robes and books maintained with obsessive care. Centuries of unfinished research have worn away concern for the living.*
 
-## Rules
+**HP:** 36 · **Speed:** Ground 6 · **Footprint:** 1x1
 
-**ID:** creature-tomb-sage
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
 
-**Category:** Undead · **Role:** Arcane villain · **Adventure band:** 7
-
-**Habitat:** Sealed library; tomb
-
-**HP:** 36 · **CV:** 41
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 6
-
-**Attributes:** Brawn +0; Fortitude +1; Agility +1; Guile +1; Knowledge +2; Reason +2
-
-**Resistance:** Physical 2; Life 2
+**DR / resistance:** Physical 2; Life 2 · **Condition immunities:** Bleeding; Poisoned; Asleep
 
 **Weakness:** None
 
-**Condition immunity:** Bleeding; Poisoned; Asleep
+**Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
 
-**Evasion:** 0 · **Threat:** 1
+**Against offensive healing:** controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.
 
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
+**Spell Screen — Reaction:** Before one spell against it resolves, impose 1 Bane on that player attack (or give its controller 1 defense Boon). For one player AoE roll, include this when choosing worst-case modifiers. Does not cancel the spell.
 
-**Communication:** Common and ancient scholarly languages
+## On its turn
 
-**Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders. Life Drink restoration, if printed, is an explicit exception.
+**Senses:** Ordinary sight and hearing.
 
-**Offensive-healing defense:** Fortitude +1; used when a player rolls this creature’s defense against an NPC healing spell. A player attacker still makes only their attack roll.
+### Unwritten memory — Main Action
 
-### Main — Unwritten memory
+*For a moment, the victim remembers a pain that has not happened yet.*
 
-**Attack attribute:** Knowledge · **Target defense:** Reason
+**Target:** One visible creature within 8 squares. **Player defense:** Reason. **Threat:** 1 Bane to that defense.
 
-**Target:** One visible creature within 8 squares. **Spell:** Yes; provokes next to an enemy.
+- **Weak defense:** 8 mental damage. Dazed 2.
+- **Standard defense:** 6 mental damage. Dazed 1.
+- **Strong defense:** 4 mental damage.
 
-- **Weak:** 4 mental damage.
-- **Standard:** 6 mental damage. Dazed 1.
-- **Strong:** 8 mental damage. Dazed 2.
+**Spell:** Provokes when cast beside an enemy.
 
-**Procedure:** [Mind Hammer](../../monster-abilities/mind-hammer.md).
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-### Other abilities
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-- [Lifeless Body](../../monster-abilities/lifeless-body.md): Does not breathe or eat. Only the printed condition immunities apply; dies at 0 HP.
-- [Spell Screen](../../monster-abilities/spell-screen.md): Reaction: impose 1 Bane on one spell attack against the sage.
+## Passives
 
-### Basic melee and ordinary options
+**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
-
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Fresh annotations appear in books sealed centuries ago.
 
@@ -72,16 +52,34 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Remove its research from the chamber or offer knowledge it cannot take by force.
 
-**Rewards:** Research, a named recipe chosen by the DA, and 150 coins; no automatic resurrection anchor. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Sealed library; tomb · **Communication:** Common and ancient scholarly languages
 
-## Summoning
+**Rewards:** Research, a named recipe chosen by the DA, and 150 coins; no automatic resurrection anchor.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-tomb-sage
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Undead · **Role:** Arcane villain · **CV:** 45
+
+### Creature-roll reference
+
+**Attributes:** Brawn +0; Fortitude +1; Agility +1; Guile +1; Knowledge +2; Reason +2
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Unwritten memory | Knowledge | 1 Boon | 4 mental damage. | 6 mental damage. Dazed 1. | 8 mental damage. Dazed 2. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** An agile or elusive body warrants attack Banes. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 4/6/8
 
@@ -93,9 +91,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 6.596. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=2.404, O=6.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [lifeless body](../../monster-abilities/lifeless-body.md), [mind hammer](../../monster-abilities/mind-hammer.md), [spell screen](../../monster-abilities/spell-screen.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

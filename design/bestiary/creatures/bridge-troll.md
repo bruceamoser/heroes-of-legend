@@ -1,67 +1,42 @@
 # Bridge Troll
 
-*The troll scratches at an old burn while demanding a toll from beneath a bridge it plainly did not build.*
+*A tall, long-armed giant with rubbery hide, a broad nose and scars where fire defeated its healing flesh. Appetite and a stubborn sense of ownership govern most of its bargains.*
 
-## Rules
+**HP:** 26 · **Speed:** Ground 6 · **Footprint:** 2x2
 
-**ID:** creature-bridge-troll
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
 
-**Category:** Giant · **Role:** Regenerating brute · **Adventure band:** 3
+**DR / resistance:** Physical 1 · **Condition immunities:** None
 
-**Habitat:** Bridge; river
-
-**HP:** 26 · **CV:** 23
-
-**Footprint:** 2x2 · **Stability:** 1 · **Speed:** Ground 6
-
-**Attributes:** Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -1; Reason +0
-
-**Resistance:** Physical 1
-
-**Weakness:** None
-
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Common and Giant
+**Weakness:** Fire damage suppresses Knit Flesh until its next recovery.
 
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Bridge club
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Bridge club — Main Action
 
-**Target:** One adjacent creature. **Spell:** No.
+*The blow lands with enough force to send its victim stumbling backward.*
 
-- **Weak:** 3 physical damage.
-- **Standard:** 5 physical damage. Push 1.
-- **Strong:** 7 physical damage. Push 2.
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-**Procedure:** [Driving Blow](../../monster-abilities/driving-blow.md).
+- **Weak defense:** 7 physical damage. Push 2.
+- **Standard defense:** 5 physical damage. Push 1.
+- **Strong defense:** 3 physical damage.
 
-### Other abilities
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-- [Knit Flesh](../../monster-abilities/knit-flesh.md): End turn above 0: recover 3 HP unless fire damage since previous turn end suppresses this recovery. Dies at 0.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-### Basic melee and ordinary options
+## Passives
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Knit Flesh:** At turn end, recover 3 HP if above 0, unless it took fire damage since its previous turn end. Dies at 0; cannot regrow from death.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Bones and carefully sorted toll coins lie beneath the span.
 
@@ -71,16 +46,34 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Bring fire, fight away from the drop, or pay a fair toll with enforceable terms.
 
-**Rewards:** 45 coins in the toll box, plus belongings that may have living owners. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Bridge; river · **Communication:** Common and Giant
 
-## Summoning
+**Rewards:** 45 coins in the toll box, plus belongings that may have living owners.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-bridge-troll
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Giant · **Role:** Regenerating brute · **CV:** 24
+
+### Creature-roll reference
+
+**Attributes:** Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -1; Reason +0
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Bridge club | Brawn | 1 Boon | 3 physical damage. | 5 physical damage. Push 1. | 7 physical damage. Push 2. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 3/5/7
 
@@ -92,9 +85,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 3
 
-Reference incoming damage per attack 4.000; reference outgoing damage
-per turn 4.000. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.000, O=4.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [knit flesh](../../monster-abilities/knit-flesh.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

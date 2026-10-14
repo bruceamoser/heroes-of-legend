@@ -1,67 +1,42 @@
 # Moon Hart
 
-*Moonlight catches on its antlers even under a roof. The creature lowers its head beside the fallen as if inviting them to stand.*
+*A luminous white hart with silver antlers and dark, thoughtful eyes. Its presence is associated with safe paths, lost travelers and the life energy spent to bring someone home.*
 
-## Rules
+**HP:** 26 · **Speed:** Ground 9 · **Footprint:** 2x2
 
-**ID:** creature-moon-hart
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Bane to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
 
-**Category:** Fey · **Role:** Rescuer · **Adventure band:** 7
-
-**Habitat:** Moonlit forest
-
-**HP:** 26 · **CV:** 24
-
-**Footprint:** 2x2 · **Stability:** 1 · **Speed:** Ground 9
-
-**Attributes:** Brawn +1; Fortitude +2; Agility +2; Guile +1; Knowledge +1; Reason +2
-
-**Resistance:** None
+**DR / resistance:** None · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Understands Common and Fey; speaks through simple images only while actively commanded
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Moonlit antlers
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Moonlit antlers — Main Action
 
-**Target:** One adjacent creature. **Spell:** No.
+*The blow lands with enough force to send its victim stumbling backward.*
 
-- **Weak:** 4 radiant damage.
-- **Standard:** 5 radiant damage. Push 1.
-- **Strong:** 7 radiant damage. Push 2.
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
 
-**Procedure:** [Driving Blow](../../monster-abilities/driving-blow.md).
+- **Weak defense:** 7 radiant damage. Push 2.
+- **Standard defense:** 5 radiant damage. Push 1.
+- **Strong defense:** 4 radiant damage.
 
-### Other abilities
+### Battle Mending — Main Action
 
-- [Battle Mending](../../monster-abilities/battle-mending.md): Main spell, adjacent living ally: pay 3 HP and remain above 0; Reason heals 5/10/15. Antlers serve as its free-hand equivalent, a specific anatomy exception. A player rolls for NPC healing too.
+One adjacent living ally; free hand (the hart’s antlers provide this). Pay 3 HP first, bypass resistance, and remain above 0. A player rolls this creature’s Reason: Weak heals 5, Standard 10, Strong 15 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target instead, use Fortitude defense: Weak takes 15, Standard 10, Strong 5 Life damage. Same cost; no healing riders.
 
-### Basic melee and ordinary options
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Silver hoof prints fade when the sun reaches them.
 
@@ -71,39 +46,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Show that someone needs rescue rather than trying to capture it.
 
-**Rewards:** A safe route or a returned lost possession. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Moonlit forest · **Communication:** Understands Common and Fey; communicates through simple images
 
-## Summoning
+**Rewards:** A safe route or a returned lost possession.
 
-**Eligibility:** Fey 7
+**Summoning:** Fey 7 — [player reference](../summons/moon-hart.md).
 
-**Healing cost while summoned — proposal:** the controller pays Battle Mending’s
-3 HP life cost, bypassing resistance and remaining above 0; do not also charge
-the hart. Applies to the immediate first command too. Ordinary damage to the hart
-is not transferred. See [life-energy rule](../summon-choices.md).
+## Design notes — not needed during play
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+**ID:** creature-moon-hart
 
-**Carrying:** up to 1 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Category:** Fey · **Role:** Rescuer · **CV:** 25
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
-
-## CV worksheet
+**Difficulty rationale:** An agile or elusive body warrants attack Banes. Ordinary attack difficulty; riders and positioning carry the threat.
 
 **Reference damage:** 4/5/7
 
@@ -115,9 +72,8 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 5.000; reference outgoing damage
-per turn 5.162. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.404, O=5.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [battle mending](../../monster-abilities/battle-mending.md), [driving blow](../../monster-abilities/driving-blow.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

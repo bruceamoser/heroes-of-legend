@@ -1,75 +1,48 @@
 # Storm Column
 
-*A pillar of rain turns sideways. Stones rise inside it and strike together like distant thunder.*
+*A turning column of rain, grit and lightning with a dimly human outline at its center. Its shape continually reforms around the pressure of the wind holding it together.*
 
-## Rules
+**HP:** 30 · **Speed:** Ground 0; fly 7 · **Footprint:** 2x2
 
-**ID:** creature-storm-column
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Bane to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
 
-**Category:** Elemental · **Role:** Area displacer · **Adventure band:** 7
-
-**Habitat:** Mountain; storm coast
-
-**HP:** 30 · **CV:** 31
-
-**Footprint:** 2x2 · **Stability:** 1 · **Speed:** Ground 0; fly 7
-
-**Attributes:** Brawn +1; Fortitude +2; Agility +2; Guile +0; Knowledge +0; Reason +1
-
-**Resistance:** lightning 3; Physical 1
+**DR / resistance:** lightning 3; Physical 1 · **Condition immunities:** Bleeding; Poisoned; Asleep
 
 **Weakness:** None
 
-**Condition immunity:** Bleeding; Poisoned; Asleep
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** None
-
 **Healing:** Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Forked flash
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Reason · **Target defense:** Agility
+### Forked flash — Main Action
 
-**Target:** One visible creature within 6 squares. **Spell:** No.
+*Heat crawls along the strike, or frost flowers across the skin where it passes.*
 
-- **Weak:** 4 lightning damage.
-- **Standard:** 6 lightning damage. Burning 1.
-- **Strong:** 8 lightning damage. Burning 2.
+**Target:** One visible creature within 6 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-**Procedure:** [Elemental Burn](../../monster-abilities/elemental-burn.md).
+- **Weak defense:** 8 lightning damage. Burning 2.
+- **Standard defense:** 6 lightning damage. Burning 1.
+- **Strong defense:** 4 lightning damage.
 
-### Main — Driving gust
+### Driving gust — Main Action
 
-**Attack attribute:** Reason · **Target defense:** Brawn
+*Dust lifts in a sheet and cloaks snap straight behind their wearers.*
 
-**Target:** All creatures in a line 6 from this creature. **Spell:** No.
+**Target:** All creatures in a line 6 from this creature. **Player defense:** Brawn. **Threat:** 1 Bane to that defense.
 
-- **Weak:** No damage. Push 1.
-- **Standard:** No damage. Push 2.
-- **Strong:** No damage. Push 3.
+- **Weak defense:** No damage. Push 3.
+- **Standard defense:** No damage. Push 2.
+- **Strong defense:** No damage. Push 1.
 
-**Procedure:** [Gust](../../monster-abilities/gust.md).
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-### Basic melee and ordinary options
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
-
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Debris forms rings around a place untouched by rain.
 
@@ -79,34 +52,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Leave the ridge and break the binding stones from sheltered ground.
 
-**Rewards:** A shattered binding ring worth 40 coins as salvage, once. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Mountain; storm coast · **Communication:** None
 
-## Summoning
+**Rewards:** A shattered binding ring worth 40 coins as salvage, once.
 
-**Eligibility:** Elemental 7
+**Summoning:** Elemental 7 — [player reference](../summons/storm-column.md).
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+## Design notes — not needed during play
 
-**Carrying:** up to 1 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**ID:** creature-storm-column
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
+**Category:** Elemental · **Role:** Area displacer · **CV:** 35
 
-## CV worksheet
+**Difficulty rationale:** An agile or elusive body warrants attack Banes. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 4/6/8
 
@@ -118,9 +78,8 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 4.000; reference outgoing damage
-per turn 6.000. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=3.404, O=6.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [elemental burn](../../monster-abilities/elemental-burn.md), [gust](../../monster-abilities/gust.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

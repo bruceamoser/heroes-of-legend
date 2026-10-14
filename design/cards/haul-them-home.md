@@ -10,6 +10,9 @@
 
 Move the creature up to 2 squares toward you along a clear route the rope can support, including upward. It need not spend movement or a Reaction, and this movement does not provoke. It cannot pass through a barrier or an occupied standing creature; finish in a free square supported by ground or the secured rope. You must have secure footing, a free hand, and be able to support its weight as judged by the DA. This cannot extract a Grappled creature or deal collision damage. Ordinary rope use remains available without this card.
 
+**Stability exception — proposed:** this willing rescue movement ignores Stability.
+It does not allow moving an unwilling target or bypassing a grapple.
+
 **Duration:** Instant.
 
 **Equipment / acquisition:** Requires a rope, supplied separately. Attaching it to the recipient is not part of this Maneuver.

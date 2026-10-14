@@ -8,7 +8,7 @@
 
 **Target / range / shape:** Self and one adjacent willing ally.
 
-Use Defend and extend its 1 Boon to that ally. Both benefits last until the start of your next turn; the ally must remain adjacent while you can act. Reduce the first push or pull against that ally during the ward by 1 square, minimum 0, using the highest reduction. Reusing this card replaces the ward, not its spent reduction.
+Use Defend and extend its 1 Boon to that ally. Both benefits last until the start of your next turn; the ally must remain adjacent while you can act. The ally gains Stability 1 for the first forced movement during the ward, including joining a collision chain. Use the highest applicable Stability, maximum 3. Consume this grant after that event even if another source was higher. Reusing this card replaces the ward, not its spent Stability grant.
 
 **Duration:** Until the start of your next turn; adjacency is required for the ally.
 

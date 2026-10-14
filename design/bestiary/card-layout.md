@@ -1,51 +1,48 @@
-# Creature-card fields
+# Creature card: organize for use
 
-A bestiary card is a DA reference, not a player ability card. Its tier is a suggested
-adventure band; it does not impose a character level gate on meeting the creature.
-Summoning has its own explicit minimum tier. Keep both labels distinct.
-
-## Text layout
+The card must give the DA everything needed to run this creature in the smallest
+practical space. Do not save words by hiding essential action rules behind links.
+Do not repeat teaching text that belongs to the core rules.
 
 ```text
-NAME                                  CV estimate / adventure band
-One short paragraph: what arrives at the table, in sight, sound and motion.
+NAME
+What the creature is: body, appearance, nature.
+HP | Speed and exceptional movement | footprint
 
-Identity: stable ID; category; role; habitats; proposal status
-Body: HP; footprint; Stability; Speed and movement modes
-Attributes: Brawn / Fortitude / Agility / Guile / Knowledge / Reason
-Defenses: resistance; weakness; condition immunities; attack/defense pressure
-Healing: compatibility; offensive-healing defense if susceptible
-Senses and communication: exact exceptional senses and limits; languages
+WHEN ATTACKED
+Evasion | Stability and its explicit source
+Physical DR / other resistance | condition immunities
+Weakness or recovery exception, if any
+Defensive Reactions: trigger, cost, effect, expiry
 
-MAIN — attack name | attack attribute → target defense | range/shape
-Weak: ...  Standard: ...  Strong: ...
-MANEUVER / REACTION / PASSIVE — named capability and exact procedure
-Opportunity: basic melee profile, not the specialty attack
+ON ITS TURN
+Exceptional senses
+Named Main Actions: targets, defense attribute, Threat
+  Weak defense / Standard defense / Strong defense
+  Spell flag and limits when applicable
+Named Maneuvers: complete immediate effect and duration
+Basic Melee / opportunity reference
+Passives with exact triggers
 
-At the table: signs, purpose, opening move, response to adversity, counterplay
-Rewards: ordinary possessions or a bounded treasure suggestion
-Summoning: category and minimum tier, or ineligible; explicit restrictions
-CV inputs: reference action, expected targets, utility adjustment
+ENCOUNTER CUES
+Signs | purpose | tactics / retreat | counterplay
+Habitat | communication | rewards
+Summon eligibility and link to its player reference
+
+DESIGN NOTES — END OF ENTRY
+Stable ID | proposal status | category | role
+Attributes / NPC-roll reference if not summonable
+CV worksheet, rationale and ability-source links
 ```
 
-## Why these fields exist
+The separate summon reference uses **Weak attack / Standard attack / Strong attack**.
+It contains the creature’s attributes, command limits and actual action rules.
+It does not force the DA to carry a duplicate attack table through every combat entry.
 
-HP, resistance and damage describe endurance and pressure. Stability and footprint
-make forced movement usable. Six attributes support attacks, defenses and ordinary
-interactions without inventing skills. Attack attributes matter when a player
-controls the creature; target-defense attributes matter when it attacks a hero.
+No adventure bands. Several Main Actions or Maneuvers provide choices within the
+same action budget. “Breath” is not an action type: Furnace Breath is a Main Action
+with a printed limitation. A monster-ability library is useful for authoring, but
+an action on the creature card must resolve without opening that library.
 
-**Evasion** is a printed number of Banes on player attacks against this creature.
-**Threat** is a printed number of Banes on player defenses against its attacks.
-These are working bestiary field names, not new bonus types: use normal Boon/Bane
-cancellation and the three-die cap. Do not also subtract creature attributes from a
-player’s roll. Both are usually 0; exceptional foes may have 1. Armor is separate.
-
-Each attack prints damage type, all outcomes, targeting and whether it is a spell.
-Every extra action has a cost. Every trigger has a limit. Persistent effects need
-an expiry or removal route. A linked monster ability defines a reusable procedure;
-the creature card supplies its values and repeats the immediate table instruction.
-
-Senses are permissions, not automatic success. Desire, retreat and counterplay are
-DA guidance unless explicitly marked Rules. Treasure is a proposal for one encounter,
-not a reward to multiply for every animal, summoned body or regenerated corpse.
+No cosmetic size reduction through tiny print is attempted here. This is editable
+Markdown; final dimensions and print layout belong to the later book/card rewrite.

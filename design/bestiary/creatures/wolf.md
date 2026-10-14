@@ -1,66 +1,56 @@
 # Wolf
 
-*The wolf never quite stops moving. When its companion lowers its head, both begin to circle.*
+*A rangy predator with dense gray fur, a narrow muzzle and long legs built for patient pursuit. Wolves live and hunt as a pack, protecting the den before risking a disabling fight.*
 
-## Rules
+**HP:** 10 · **Speed:** Ground 8 · **Footprint:** 1x1
 
-**ID:** creature-wolf
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
 
-**Category:** Animal · **Role:** Pack hunter · **Adventure band:** 1
-
-**Habitat:** Wilderness
-
-**HP:** 10 · **CV:** 8
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 8
-
-**Attributes:** Brawn +1; Fortitude +1; Agility +2; Guile +0; Knowledge -2; Reason +1
-
-**Resistance:** None
+**DR / resistance:** None · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Keen scent within 6 squares. No automatic detection of Hidden targets.
-
-**Communication:** None
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Snapping jaws
+**Senses:** Keen scent within 6 squares.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Snapping jaws — Main Action
 
-**Target:** One adjacent creature. **Spell:** No.
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
 
-- **Weak:** 2 physical damage.
-- **Standard:** 3 physical damage.
-- **Strong:** 4 physical damage.
+- **Weak defense:** 4 physical damage.
+- **Standard defense:** 3 physical damage.
+- **Strong defense:** 2 physical damage.
 
+### Pinning bite — Main Action
 
-### Other abilities
+*The wolf hangs its weight from a limb to hold the prey in place.*
 
-- [Pack Hunter](../../monster-abilities/pack-hunter.md): Pack Hunter applies when another active ally is adjacent to the target.
+**Target:** One adjacent creature. **Player defense:** Brawn. **Threat:** 0 (no modifier) to that defense.
 
-### Basic melee and ordinary options
+- **Weak defense:** 3 physical damage; Grappled 1.
+- **Standard defense:** 2 physical damage; Grappled 1.
+- **Strong defense:** 1 physical damage.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
+### Circle the Prey — Maneuver
 
-## At the table
+If another conscious, non-Paralyzed ally (not an uncommanded summon) is adjacent to an adjacent enemy, move up to 2 squares without provoking from that enemy. End adjacent to it. Other opportunity attacks and terrain costs apply.
+
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+
+## Passives
+
+**Pack Hunter:** When attacking a target adjacent to another active ally, impose 1 additional Bane on that target’s defense (or gain 1 attack Boon when controlled). Unconscious, Paralyzed and uncommanded summoned allies do not qualify.
+
+## Encounter cues
 
 **Signs:** Parallel tracks keep to the downwind side of the trail.
 
@@ -70,34 +60,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Stay together, protect the flanks, and leave a clear route back to the den.
 
-**Rewards:** A den may hold a lost traveler’s belongings; the wolf carries no coins. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Wilderness · **Communication:** None
 
-## Summoning
+**Rewards:** A den may hold a lost traveler’s belongings; the wolf carries no coins.
 
-**Eligibility:** Animal 1
+**Summoning:** Animal 1 — [player reference](../summons/wolf.md).
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+## Design notes — not needed during play
 
-**Carrying:** up to 1 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**ID:** creature-wolf
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
+**Category:** Animal · **Role:** Pack hunter · **CV:** 8
 
-## CV worksheet
+**Difficulty rationale:** An agile or elusive body warrants attack Banes. Ordinary attack difficulty; riders and positioning carry the threat.
 
 **Reference damage:** 2/3/4
 
@@ -109,9 +86,8 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 5.000; reference outgoing damage
-per turn 2.000. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.404, O=2.000. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [pack hunter](../../monster-abilities/pack-hunter.md), [wolf circle the prey](../../monster-abilities/wolf-circle-the-prey.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

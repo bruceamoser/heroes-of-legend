@@ -1,63 +1,38 @@
 # Icebound Warden
 
-*Layers of lake ice move against one another inside its chest. Each breath sounds like a pond beginning to crack.*
+*A broad elemental body of layered lake ice, with trapped bubbles for eyes and thick, blunt hands. It exists to preserve something beneath the cold rather than to spread winter indiscriminately.*
 
-## Rules
+**HP:** 22 · **Speed:** Ground 5 · **Footprint:** 1x1
 
-**ID:** creature-icebound-warden
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
 
-**Category:** Elemental · **Role:** Cold defender · **Adventure band:** 3
-
-**Habitat:** Glacier; frozen lake
-
-**HP:** 22 · **CV:** 18
-
-**Footprint:** 1x1 · **Stability:** 1 · **Speed:** Ground 5
-
-**Attributes:** Brawn +2; Fortitude +2; Agility -1; Guile +0; Knowledge +0; Reason +1
-
-**Resistance:** Physical 1; cold 3
+**DR / resistance:** Physical 1; cold 3 · **Condition immunities:** Bleeding; Poisoned; Asleep
 
 **Weakness:** None
 
-**Condition immunity:** Bleeding; Poisoned; Asleep
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** None
-
 **Healing:** Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Rime fist
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Rime fist — Main Action
 
-**Target:** One adjacent creature. **Spell:** No.
+*Heat crawls along the strike, or frost flowers across the skin where it passes.*
 
-- **Weak:** 3 cold damage.
-- **Standard:** 4 cold damage. Freezing 1.
-- **Strong:** 6 cold damage. Freezing 2.
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-**Procedure:** [Elemental Burn](../../monster-abilities/elemental-burn.md).
+- **Weak defense:** 6 cold damage. Freezing 2.
+- **Standard defense:** 4 cold damage. Freezing 1.
+- **Strong defense:** 3 cold damage.
 
-### Basic melee and ordinary options
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Frost draws a straight boundary across otherwise thawed ground.
 
@@ -67,34 +42,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Investigate what the ice contains before breaking it.
 
-**Rewards:** A preserved object beneath the ice, selected by the DA. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Glacier; frozen lake · **Communication:** None
 
-## Summoning
+**Rewards:** A preserved object beneath the ice, selected by the DA.
 
-**Eligibility:** Elemental 3
+**Summoning:** Elemental 3 — [player reference](../summons/icebound-warden.md).
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+## Design notes — not needed during play
 
-**Carrying:** up to 1 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**ID:** creature-icebound-warden
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
+**Category:** Elemental · **Role:** Cold defender · **CV:** 19
 
-## CV worksheet
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 3/4/6
 
@@ -106,9 +68,8 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 4.000; reference outgoing damage
-per turn 4.162. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.000, O=4.653. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [elemental burn](../../monster-abilities/elemental-burn.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

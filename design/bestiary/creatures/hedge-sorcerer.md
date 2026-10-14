@@ -1,67 +1,42 @@
 # Hedge Sorcerer
 
-*Sparks leap between rings on the sorcerer’s fingers. They keep the hand well away from their own cloak.*
+*A self-taught caster with scorched cuffs, an improvised focus and an uneven collection of protective charms. Talent is real; discipline and confidence are less reliable.*
 
-## Rules
+**HP:** 16 · **Speed:** Ground 6 · **Footprint:** 1x1
 
-**ID:** creature-hedge-sorcerer
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
 
-**Category:** Mortal · **Role:** Elemental caster · **Adventure band:** 3
-
-**Habitat:** Tower; settlement
-
-**HP:** 16 · **CV:** 15
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 6
-
-**Attributes:** Brawn -1; Fortitude +0; Agility +1; Guile +1; Knowledge +2; Reason +0
-
-**Resistance:** None
+**DR / resistance:** None · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Common and one scholarly language
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+**Spell Screen — Reaction:** Before one spell against it resolves, impose 1 Bane on that player attack (or give its controller 1 defense Boon). For one player AoE roll, include this when choosing worst-case modifiers. Does not cancel the spell.
 
-### Main — Cinder dart
+## On its turn
 
-**Attack attribute:** Knowledge · **Target defense:** Agility
+**Senses:** Ordinary sight and hearing.
 
-**Target:** One visible creature within 6 squares. **Spell:** Yes; provokes next to an enemy.
+### Cinder dart — Main Action
 
-- **Weak:** 3 fire damage.
-- **Standard:** 4 fire damage. Burning 1.
-- **Strong:** 6 fire damage. Burning 2.
+*Heat crawls along the strike, or frost flowers across the skin where it passes.*
 
-**Procedure:** [Elemental Burn](../../monster-abilities/elemental-burn.md).
+**Target:** One visible creature within 6 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-### Other abilities
+- **Weak defense:** 6 fire damage. Burning 2.
+- **Standard defense:** 4 fire damage. Burning 1.
+- **Strong defense:** 3 fire damage.
 
-- [Spell Screen](../../monster-abilities/spell-screen.md): Reaction before one incoming spell resolves: impose 1 Bane on its attack against this creature.
+**Spell:** Provokes when cast beside an enemy.
 
-### Basic melee and ordinary options
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Scorched practice marks cover a sheltered wall.
 
@@ -71,16 +46,34 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Close the distance or offer a way out that preserves their pride.
 
-**Rewards:** Focus, notes and 20 coins; no automatic learnable spell or recipe. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Tower; settlement · **Communication:** Common and one scholarly language
 
-## Summoning
+**Rewards:** Focus, notes and 20 coins; no automatic learnable spell or recipe.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-hedge-sorcerer
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Mortal · **Role:** Elemental caster · **CV:** 16
+
+### Creature-roll reference
+
+**Attributes:** Brawn -1; Fortitude +0; Agility +1; Guile +1; Knowledge +2; Reason +0
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Cinder dart | Knowledge | 1 Boon | 3 fire damage. | 4 fire damage. Burning 1. | 6 fire damage. Burning 2. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 3/4/6
 
@@ -92,9 +85,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 5.000; reference outgoing damage
-per turn 4.162. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=5.000, O=4.653. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [elemental burn](../../monster-abilities/elemental-burn.md), [spell screen](../../monster-abilities/spell-screen.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

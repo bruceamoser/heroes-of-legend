@@ -1,67 +1,42 @@
 # Glass Sentinel
 
-*Faces flicker inside the clear body, each watching a different doorway. Cracks ring like struck crystal.*
+*A clear humanoid construct filled with shifting reflections and seams of colored glass. It was made to watch magical boundaries and protect a specific object.*
 
-## Rules
+**HP:** 16 · **Speed:** Ground 6 · **Footprint:** 1x1
 
-**ID:** creature-glass-sentinel
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
 
-**Category:** Construct · **Role:** Spell guard · **Adventure band:** 3
-
-**Habitat:** Vault; observatory
-
-**HP:** 16 · **CV:** 14
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 6
-
-**Attributes:** Brawn +0; Fortitude +1; Agility +2; Guile -1; Knowledge +1; Reason +1
-
-**Resistance:** radiant 2
+**DR / resistance:** radiant 2 · **Condition immunities:** Bleeding; Poisoned; Asleep
 
 **Weakness:** None
 
-**Condition immunity:** Bleeding; Poisoned; Asleep
+**Healing:** Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.
 
-**Evasion:** 0 · **Threat:** 0
+**Spell Screen — Reaction:** Before one spell against it resolves, impose 1 Bane on that player attack (or give its controller 1 defense Boon). For one player AoE roll, include this when choosing worst-case modifiers. Does not cancel the spell.
 
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
+## On its turn
 
-**Communication:** Repeats its command in the maker’s language
+**Senses:** Ordinary sight and hearing.
 
-**Healing:** Repair-only: ordinary HP healing has no effect. An explicit repair ability works as printed; otherwise one uninterrupted hour in a suitable workshop with repair tools and one use of compatible ordinary materials restores full HP. Check the material inventory die afterward. Cannot repair a body destroyed at 0.
+### Cutting reflection — Main Action
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+**Target:** One visible creature within 5 squares. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
 
-### Main — Cutting reflection
+- **Weak defense:** 6 radiant damage.
+- **Standard defense:** 4 radiant damage.
+- **Strong defense:** 3 radiant damage.
 
-**Attack attribute:** Knowledge · **Target defense:** Agility
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-**Target:** One visible creature within 5 squares. **Spell:** No.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-- **Weak:** 3 radiant damage.
-- **Standard:** 4 radiant damage.
-- **Strong:** 6 radiant damage.
+## Passives
 
+**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
-### Other abilities
-
-- [Lifeless Body](../../monster-abilities/lifeless-body.md): Does not breathe or eat. Only the printed condition immunities apply; dies at 0 HP.
-- [Spell Screen](../../monster-abilities/spell-screen.md): Reaction: impose 1 Bane on one incoming spell attack against it.
-
-### Basic melee and ordinary options
-
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
-
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** A faint musical note sounds when magic crosses the threshold.
 
@@ -71,34 +46,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Move the object through a mundane route or exploit the sentinel’s literal instructions.
 
-**Rewards:** Colored glass salvage worth 12 coins from the original body. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Vault; observatory · **Communication:** Repeats its command in the maker’s language
 
-## Summoning
+**Rewards:** Colored glass salvage worth 12 coins from the original body.
 
-**Eligibility:** Construct 3
+**Summoning:** Construct 3 — [player reference](../summons/glass-sentinel.md).
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+## Design notes — not needed during play
 
-**Carrying:** up to 1 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**ID:** creature-glass-sentinel
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
+**Category:** Construct · **Role:** Spell guard · **CV:** 15
 
-## CV worksheet
+**Difficulty rationale:** An agile or elusive body warrants attack Banes. Ordinary attack difficulty; riders and positioning carry the threat.
 
 **Reference damage:** 3/4/6
 
@@ -110,9 +72,8 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 5.000; reference outgoing damage
-per turn 4.162. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.404, O=4.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [lifeless body](../../monster-abilities/lifeless-body.md), [spell screen](../../monster-abilities/spell-screen.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

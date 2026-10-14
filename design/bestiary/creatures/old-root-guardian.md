@@ -1,75 +1,52 @@
 # Old Root Guardian
 
-*An oak lifts one root from the earth. Birds leave its branches reluctantly, as if this has happened before.*
+*An ancient living tree with a broad trunk, heavy root limbs and a crown large enough to shelter birds. It is a guardian of a particular grove, capable of patience as well as immense force.*
 
-## Rules
+**HP:** 40 · **Speed:** Ground 4 · **Footprint:** 3x3
 
-**ID:** creature-old-root-guardian
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Boon to player attacks. · **Stability:** 2 (Heavy Frame, passive grant; not derived from size).
 
-**Category:** Plant · **Role:** Ancient guardian · **Adventure band:** 7
-
-**Habitat:** Ancient forest
-
-**HP:** 40 · **CV:** 52
-
-**Footprint:** 3x3 · **Stability:** 2 · **Speed:** Ground 4
-
-**Attributes:** Brawn +2; Fortitude +2; Agility -1; Guile +0; Knowledge +1; Reason +2
-
-**Resistance:** Physical 2
+**DR / resistance:** Physical 2 · **Condition immunities:** Bleeding; Asleep
 
 **Weakness:** None
 
-**Condition immunity:** Bleeding; Asleep
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Common and old woodland speech
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Branch sweep
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Branch sweep — Main Action
 
-**Target:** Up to two creatures within 3 squares. **Spell:** No.
+*A great limb scythes across the ground, forcing everyone nearby to move.*
 
-- **Weak:** 4 physical damage.
-- **Standard:** 6 physical damage. Push each 1.
-- **Strong:** 9 physical damage. Push each 2.
+**Target:** Up to two creatures within 3 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-**Procedure:** [Sweeping Attack](../../monster-abilities/sweeping-attack.md).
+- **Weak defense:** 9 physical damage. Push each 4.
+- **Standard defense:** 6 physical damage. Push each 2.
+- **Strong defense:** 4 physical damage.
 
-### Main — Root snare
+### Root snare — Main Action
 
-**Attack attribute:** Reason · **Target defense:** Agility
+*Roots punch through the ground and lace together around the trespassers’ legs.*
 
-**Target:** 5 connected visible ground squares within 6. **Spell:** Yes; provokes next to an enemy.
+**Target:** 5 connected visible ground squares within 6. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-- **Weak:** No damage. Difficult terrain until next turn.
-- **Standard:** No damage. Difficult terrain until next turn; Slowed 1.
-- **Strong:** No damage. Difficult terrain until next turn; Slowed 2.
+- **Weak defense:** No damage. Difficult terrain until next turn; Slowed 2.
+- **Standard defense:** No damage. Difficult terrain until next turn; Slowed 1.
+- **Strong defense:** No damage. Difficult terrain until next turn.
 
-**Procedure:** [Root Snare](../../monster-abilities/root-snare.md).
+**Spell:** Provokes when cast beside an enemy.
 
-### Basic melee and ordinary options
+**Limit:** Grounded creatures only. Terrain lasts until the start of this creature’s next turn; conditions decay normally. No entry damage or repeated attack.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-## At the table
+## Encounter cues
 
 **Signs:** Boundary stones are gently but repeatedly pushed back into place.
 
@@ -79,16 +56,35 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** End the logging or fire; its anger follows deeds, not the ancestry of those before it.
 
-**Rewards:** A granted branch, safe shelter, or directions to a forgotten shrine. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Ancient forest · **Communication:** Common and old woodland speech
 
-## Summoning
+**Rewards:** A granted branch, safe shelter, or directions to a forgotten shrine.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-old-root-guardian
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Plant · **Role:** Ancient guardian · **CV:** 51
+
+### Creature-roll reference
+
+**Attributes:** Brawn +2; Fortitude +2; Agility -1; Guile +0; Knowledge +1; Reason +2
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Branch sweep | Brawn | 1 Boon | 4 physical damage. | 6 physical damage. Push each 2. | 9 physical damage. Push each 4. |
+| Root snare | Reason | 1 Boon | No damage. Difficult terrain until next turn. | No damage. Difficult terrain until next turn; Slowed 1. | No damage. Difficult terrain until next turn; Slowed 2. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** A slow or broad exposed body gives the attacker a Boon. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 4/6/9
 
@@ -100,9 +96,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 10.324. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=3.596, O=11.901. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [root snare](../../monster-abilities/root-snare.md), [sweeping attack](../../monster-abilities/sweeping-attack.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

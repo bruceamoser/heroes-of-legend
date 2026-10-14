@@ -1,75 +1,50 @@
 # Chain Jailer
 
-*Hooks drag across the stone behind the jailer. Each carries a tag with someone’s name still waiting to be written.*
+*A broad fiend wrapped in hooked chains and iron identification tags. It presents captivity as collection of a debt, whether that debt is honest or manufactured.*
 
-## Rules
+**HP:** 30 · **Speed:** Ground 6 · **Footprint:** 1x1
 
-**ID:** creature-chain-jailer
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
 
-**Category:** Fiend · **Role:** Capturer · **Adventure band:** 7
-
-**Habitat:** Prison; infernal breach
-
-**HP:** 30 · **CV:** 32
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 6
-
-**Attributes:** Brawn +2; Fortitude +2; Agility +1; Guile +1; Knowledge +1; Reason +1
-
-**Resistance:** Physical 2; fire 2
+**DR / resistance:** Physical 2; fire 2 · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 1
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Common and Infernal
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Hooked chain
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Hooked chain — Main Action
 
-**Target:** One creature within 3 squares. **Spell:** No.
+*A hooked limb braces against the bank and heaves its catch toward the dark water.*
 
-- **Weak:** 4 physical damage.
-- **Standard:** 6 physical damage. Pull 1.
-- **Strong:** 8 physical damage. Pull 2.
+**Target:** One creature within 3 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-**Procedure:** [Drag Under](../../monster-abilities/drag-under.md).
+- **Weak defense:** 8 physical damage. Pull 2.
+- **Standard defense:** 6 physical damage. Pull 1.
+- **Strong defense:** 4 physical damage.
 
-### Main — Binding chain
+### Binding chain — Main Action
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+*A coil or grasping limb closes around the target and braces against its struggling weight.*
 
-**Target:** One creature within 2 squares. **Spell:** No.
+**Target:** One creature within 2 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-- **Weak:** 2 physical damage.
-- **Standard:** 3 physical damage. Grappled 1.
-- **Strong:** 5 physical damage. Grappled 2.
+- **Weak defense:** 5 physical damage. Grappled 2.
+- **Standard defense:** 3 physical damage. Grappled 1.
+- **Strong defense:** 2 physical damage.
 
-**Procedure:** [Seizing Limbs](../../monster-abilities/seizing-limbs.md).
+**Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
 
-### Basic melee and ordinary options
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Unbroken locks hang open beside empty cells.
 
@@ -79,16 +54,35 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Challenge the claimed debt, break line of sight, and keep an ally ready to use Force.
 
-**Rewards:** A prison key, debt records and 90 coins held in trust for its master. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Prison; infernal breach · **Communication:** Common and Infernal
 
-## Summoning
+**Rewards:** A prison key, debt records and 90 coins held in trust for its master.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-chain-jailer
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Fiend · **Role:** Capturer · **CV:** 32
+
+### Creature-roll reference
+
+**Attributes:** Brawn +2; Fortitude +2; Agility +1; Guile +1; Knowledge +1; Reason +1
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Hooked chain | Brawn | 1 Boon | 4 physical damage. | 6 physical damage. Pull 1. | 8 physical damage. Pull 2. |
+| Binding chain | Brawn | 1 Boon | 2 physical damage. | 3 physical damage. Grappled 1. | 5 physical damage. Grappled 2. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 4/6/8
 
@@ -100,9 +94,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 5.596. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=3.000, O=5.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [drag under](../../monster-abilities/drag-under.md), [seizing limbs](../../monster-abilities/seizing-limbs.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

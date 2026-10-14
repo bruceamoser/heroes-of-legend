@@ -1,79 +1,54 @@
 # Ash Revenant
 
-*Every joint leaks gray ash. The revenant carries a burned token in the fist it never opens.*
+*A burned walking body held together by ash, stubborn sinew and an unfinished grievance. A blackened personal token identifies the wrong that prevents it from resting.*
 
-## Rules
+**HP:** 32 · **Speed:** Ground 6 · **Footprint:** 1x1
 
-**ID:** creature-ash-revenant
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
 
-**Category:** Undead · **Role:** Relentless hunter · **Adventure band:** 7
-
-**Habitat:** Burned settlement; road
-
-**HP:** 32 · **CV:** 29
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 6
-
-**Attributes:** Brawn +2; Fortitude +2; Agility +1; Guile +0; Knowledge +0; Reason +2
-
-**Resistance:** Physical 2; fire 2
+**DR / resistance:** Physical 2; fire 2 · **Condition immunities:** Bleeding; Poisoned; Asleep; Frightened
 
 **Weakness:** None
 
-**Condition immunity:** Bleeding; Poisoned; Asleep; Frightened
+**Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
 
-**Evasion:** 0 · **Threat:** 1
+**Against offensive healing:** controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.
 
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
+## On its turn
 
-**Communication:** None
+**Senses:** Ordinary sight and hearing.
 
-**Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders. Life Drink restoration, if printed, is an explicit exception.
+### Ashen fist — Main Action
 
-**Offensive-healing defense:** Fortitude +2; used when a player rolls this creature’s defense against an NPC healing spell. A player attacker still makes only their attack roll.
+*The blow lands with enough force to send its victim stumbling backward.*
 
-### Main — Ashen fist
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+- **Weak defense:** 9 physical damage. Push 2.
+- **Standard defense:** 6 physical damage. Push 1.
+- **Strong defense:** 4 physical damage.
 
-**Target:** One adjacent creature. **Spell:** No.
+### Ashen cry — Main Action
 
-- **Weak:** 4 physical damage.
-- **Standard:** 6 physical damage. Push 1.
-- **Strong:** 9 physical damage. Push 2.
+*Its cry seems to come from somewhere behind your ribs.*
 
-**Procedure:** [Driving Blow](../../monster-abilities/driving-blow.md).
+**Target:** One hearing creature within 4 squares. **Player defense:** Reason. **Threat:** 1 Bane to that defense.
 
-### Main — Ashen cry
+- **Weak defense:** No damage; Frightened 3.
+- **Standard defense:** No damage; Frightened 2.
+- **Strong defense:** No damage; Frightened 1.
 
-**Attack attribute:** Reason · **Target defense:** Reason
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-**Target:** One hearing creature within 4 squares. **Spell:** No.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-- **Weak:** No damage; Frightened 1.
-- **Standard:** No damage; Frightened 2.
-- **Strong:** No damage; Frightened 3.
+## Passives
 
-**Procedure:** [Dread Cry](../../monster-abilities/dread-cry.md). The revenant is the fear source.
+**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
-### Other abilities
-
-- [Lifeless Body](../../monster-abilities/lifeless-body.md): Does not breathe or eat. Only the printed condition immunities apply; dies at 0 HP.
-
-### Basic melee and ordinary options
-
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
-
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Footprints leave soot even in running water.
 
@@ -83,16 +58,35 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Settle the wrong or expose who truly committed it.
 
-**Rewards:** The burned token and a clue to the old crime. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Burned settlement; road · **Communication:** None
 
-## Summoning
+**Rewards:** The burned token and a clue to the old crime.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-ash-revenant
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Undead · **Role:** Relentless hunter · **CV:** 29
+
+### Creature-roll reference
+
+**Attributes:** Brawn +2; Fortitude +2; Agility +1; Guile +0; Knowledge +0; Reason +2
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Ashen fist | Brawn | 1 Boon | 4 physical damage. | 6 physical damage. Push 1. | 9 physical damage. Push 2. |
+| Ashen cry | Reason | 1 Boon | No damage; Frightened 1. | No damage; Frightened 2. | No damage; Frightened 3. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 4/6/9
 
@@ -104,9 +98,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 5.951. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=3.000, O=5.951. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [dread cry](../../monster-abilities/dread-cry.md), [driving blow](../../monster-abilities/driving-blow.md), [lifeless body](../../monster-abilities/lifeless-body.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

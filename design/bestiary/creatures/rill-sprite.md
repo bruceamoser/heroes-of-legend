@@ -1,63 +1,38 @@
 # Rill Sprite
 
-*Water rises into a face, then collapses into laughter and splashes across the stones.*
+*A child-sized shape of clear running water, with pebbles and bubbles visible inside its body. It belongs to a particular flow and reacts strongly to blockage or contamination.*
 
-## Rules
+**HP:** 8 · **Speed:** Ground 4; swim 8 · **Footprint:** 1x1
 
-**ID:** creature-rill-sprite
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
 
-**Category:** Elemental · **Role:** Water helper · **Adventure band:** 1
-
-**Habitat:** Stream; well
-
-**HP:** 8 · **CV:** 5
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 4; swim 8
-
-**Attributes:** Brawn +0; Fortitude +1; Agility +1; Guile +0; Knowledge -1; Reason +1
-
-**Resistance:** cold 1
+**DR / resistance:** cold 1 · **Condition immunities:** Bleeding; Poisoned; Asleep
 
 **Weakness:** None
 
-**Condition immunity:** Bleeding; Poisoned; Asleep
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** None
-
 **Healing:** Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Water tug
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Reason · **Target defense:** Brawn
+### Water tug — Main Action
 
-**Target:** One visible creature within 3 squares. **Spell:** No.
+*A hooked limb braces against the bank and heaves its catch toward the dark water.*
 
-- **Weak:** 1 physical damage.
-- **Standard:** 2 physical damage. Pull 1.
-- **Strong:** 3 physical damage. Pull 2.
+**Target:** One visible creature within 3 squares. **Player defense:** Brawn. **Threat:** 0 (no modifier) to that defense.
 
-**Procedure:** [Drag Under](../../monster-abilities/drag-under.md).
+- **Weak defense:** 3 physical damage. Pull 2.
+- **Standard defense:** 2 physical damage. Pull 1.
+- **Strong defense:** 1 physical damage.
 
-### Basic melee and ordinary options
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **1/2/4 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 4, Standard 2, Strong 1 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** A trickle runs uphill to avoid a fouled pool.
 
@@ -67,34 +42,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Clear the obstruction or stop the contamination.
 
-**Rewards:** Clean water where it belongs, not a conjured stock of potions. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Stream; well · **Communication:** None
 
-## Summoning
+**Rewards:** Clean water where it belongs, not a conjured stock of potions.
 
-**Eligibility:** Elemental 1
+**Summoning:** Elemental 1 — [player reference](../summons/rill-sprite.md).
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+## Design notes — not needed during play
 
-**Carrying:** up to 1 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**ID:** creature-rill-sprite
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
+**Category:** Elemental · **Role:** Water helper · **CV:** 6
 
-## CV worksheet
+**Difficulty rationale:** An agile or elusive body warrants attack Banes. Ordinary attack difficulty; riders and positioning carry the threat.
 
 **Reference damage:** 1/2/3
 
@@ -106,9 +68,8 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 5.000; reference outgoing damage
-per turn 1.162. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.404, O=1.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [drag under](../../monster-abilities/drag-under.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

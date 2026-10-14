@@ -219,3 +219,11 @@ Keep ordinary movement simple; do not introduce movement-priced ability activati
 or add variable-cost/conversion cards merely to fill a catalog category. The
 [shared Maneuver pass](reviews/1157-shared-maneuvers.md) implements this direction
 with proposed independent options across all three tiers.
+
+## Stability and movement
+
+All pushes, pulls and throws of creatures use [Stability](rules/stability.md),
+including additional creatures struck in a collision chain. Distances on cards are
+before Stability. Other riders still apply when displacement is reduced to 0.
+Voluntary movement, projectile range, obstacle progress and grapple reduction are
+not reduced by Stability. Any exception must be explicit on the card.

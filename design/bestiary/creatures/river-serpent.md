@@ -1,75 +1,50 @@
 # River Serpent
 
-*A dark curve breaks the current upstream. It is followed by another, much farther away than you hoped.*
+*A huge freshwater serpent with a deep muscular body, blunt ridged head and powerful coils. Its size makes a narrow channel or low bank particularly dangerous.*
 
-## Rules
+**HP:** 34 · **Speed:** Ground 3; swim 9 · **Footprint:** 3x3
 
-**ID:** creature-river-serpent
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 2 (Heavy Frame, passive grant; not derived from size).
 
-**Category:** Beast · **Role:** Aquatic controller · **Adventure band:** 7
-
-**Habitat:** River; lake
-
-**HP:** 34 · **CV:** 28
-
-**Footprint:** 3x3 · **Stability:** 2 · **Speed:** Ground 3; swim 9
-
-**Attributes:** Brawn +2; Fortitude +2; Agility +1; Guile +0; Knowledge -2; Reason +1
-
-**Resistance:** Physical 1
+**DR / resistance:** Physical 1 · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** None
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — River coils
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Brawn · **Target defense:** Brawn
+### River coils — Main Action
 
-**Target:** One creature within 2 squares. **Spell:** No.
+*A hooked limb braces against the bank and heaves its catch toward the dark water.*
 
-- **Weak:** 4 physical damage.
-- **Standard:** 6 physical damage. Pull 1.
-- **Strong:** 8 physical damage. Pull 2.
+**Target:** One creature within 2 squares. **Player defense:** Brawn. **Threat:** 1 Bane to that defense.
 
-**Procedure:** [Drag Under](../../monster-abilities/drag-under.md).
+- **Weak defense:** 8 physical damage. Pull 2.
+- **Standard defense:** 6 physical damage. Pull 1.
+- **Strong defense:** 4 physical damage.
 
-### Main — Coiling grip
+### Coiling grip — Main Action
 
-**Attack attribute:** Brawn · **Target defense:** Brawn
+*A coil or grasping limb closes around the target and braces against its struggling weight.*
 
-**Target:** One adjacent creature. **Spell:** No.
+**Target:** One adjacent creature. **Player defense:** Brawn. **Threat:** 1 Bane to that defense.
 
-- **Weak:** 2 physical damage.
-- **Standard:** 3 physical damage. Grappled 1.
-- **Strong:** 4 physical damage. Grappled 2.
+- **Weak defense:** 4 physical damage. Grappled 2.
+- **Standard defense:** 3 physical damage. Grappled 1.
+- **Strong defense:** 2 physical damage.
 
-**Procedure:** [Seizing Limbs](../../monster-abilities/seizing-limbs.md).
+**Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
 
-### Basic melee and ordinary options
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Fish vanish from a deep pool; drag marks score the landing stage.
 
@@ -79,16 +54,35 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Stay on high banks and offer a route for boats away from the spawning water.
 
-**Rewards:** A wreck beneath the pool may contain a bounded cargo selected by the DA. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** River; lake · **Communication:** None
 
-## Summoning
+**Rewards:** A wreck beneath the pool may contain a bounded cargo selected by the DA.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-river-serpent
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Beast · **Role:** Aquatic controller · **CV:** 29
+
+### Creature-roll reference
+
+**Attributes:** Brawn +2; Fortitude +2; Agility +1; Guile +0; Knowledge -2; Reason +1
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| River coils | Brawn | 1 Boon | 4 physical damage. | 6 physical damage. Pull 1. | 8 physical damage. Pull 2. |
+| Coiling grip | Brawn | 1 Boon | 2 physical damage. | 3 physical damage. Grappled 1. | 4 physical damage. Grappled 2. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 4/6/8
 
@@ -100,9 +94,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 4.000; reference outgoing damage
-per turn 5.000. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.000, O=5.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [drag under](../../monster-abilities/drag-under.md), [seizing limbs](../../monster-abilities/seizing-limbs.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

@@ -1,76 +1,52 @@
 # Burrowing Maw
 
-*The furrow races toward you. A plated head erupts from the soil, throwing roots into the air.*
+*A plated burrowing predator with powerful digging limbs and broad crushing mandibles. Its segmented body is adapted to soft earth, not to tunneling through solid rock.*
 
-## Rules
+**HP:** 25 · **Speed:** Ground 5; burrow 4 · **Footprint:** 2x2
 
-**ID:** creature-burrowing-maw
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
 
-**Category:** Beast · **Role:** Ambush burrower · **Adventure band:** 3
-
-**Habitat:** Field; sandy valley
-
-**HP:** 25 · **CV:** 25
-
-**Footprint:** 2x2 · **Stability:** 1 · **Speed:** Ground 5; burrow 4
-
-**Attributes:** Brawn +2; Fortitude +2; Agility +0; Guile -2; Knowledge -2; Reason +0
-
-**Resistance:** Physical 2
+**DR / resistance:** Physical 2 · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ground vibration 6 squares on connected ground; must emerge and see a target to attack. No automatic detection of Hidden targets.
-
-**Communication:** None
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Plated jaws
+**Senses:** Ground vibration 6 squares on connected ground; must emerge and see a target to attack.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Plated jaws — Main Action
 
-**Target:** One adjacent creature. **Spell:** No.
+*A coil or grasping limb closes around the target and braces against its struggling weight.*
 
-- **Weak:** 3 physical damage.
-- **Standard:** 5 physical damage. Grappled 1.
-- **Strong:** 7 physical damage. Grappled 2.
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-**Procedure:** [Seizing Limbs](../../monster-abilities/seizing-limbs.md).
+- **Weak defense:** 7 physical damage. Grappled 2.
+- **Standard defense:** 5 physical damage. Grappled 1.
+- **Strong defense:** 3 physical damage.
 
-### Main — Closing jaws
+**Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
 
-**Attack attribute:** Brawn · **Target defense:** Fortitude
+### Closing jaws — Main Action
 
-**Target:** One adjacent 1x1 creature already Grappled by this creature. **Spell:** No.
+*The mouth opens wide enough to swallow the light behind its prey.*
 
-- **Weak:** 3 physical damage.
-- **Standard:** 5 physical damage.
-- **Strong:** 7 physical damage; Blinded 1.
+**Target:** One adjacent 1x1 creature already Grappled by this creature. **Player defense:** Fortitude. **Threat:** 1 Bane to that defense.
 
-**Procedure:** [Closing Jaws](../../monster-abilities/swallow-threat.md).
-The target remains in its square; no stomach space or extra damage tick is created.
+- **Weak defense:** 7 physical damage; Blinded 1.
+- **Standard defense:** 5 physical damage.
+- **Strong defense:** 3 physical damage.
 
-### Basic melee and ordinary options
+**Limit:** Victim stays in its square; holder keeps its Grappled restrictions. No extra damage tick or off-map stomach.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-## At the table
+## Encounter cues
 
 **Signs:** Long ridges cross the field overnight.
 
@@ -80,16 +56,35 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Stand on rock and watch the moving furrows; no attacks pass through solid earth.
 
-**Rewards:** A swallowed pack; burrowing does not generate a usable tunnel. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Field; sandy valley · **Communication:** None
 
-## Summoning
+**Rewards:** A swallowed pack; burrowing does not generate a usable tunnel.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-burrowing-maw
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Beast · **Role:** Ambush burrower · **CV:** 26
+
+### Creature-roll reference
+
+**Attributes:** Brawn +2; Fortitude +2; Agility +0; Guile -2; Knowledge -2; Reason +0
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Plated jaws | Brawn | 1 Boon | 3 physical damage. | 5 physical damage. Grappled 1. | 7 physical damage. Grappled 2. |
+| Closing jaws | Brawn | 1 Boon | 3 physical damage. | 5 physical damage. | 7 physical damage; Blinded 1. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 3/5/7
 
@@ -101,9 +96,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 4.000. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=3.000, O=4.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [seizing limbs](../../monster-abilities/seizing-limbs.md), [swallow threat](../../monster-abilities/swallow-threat.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

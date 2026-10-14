@@ -1,67 +1,42 @@
 # Animated Armor
 
-*The empty suit inclines its visor. A locking pin falls to the floor as it takes its first step in years.*
+*An empty suit of plate animated around a command plate, carrying a shield and no living occupant. The apparent knight is a literal-minded guardian, not a trained person inside armor.*
 
-## Rules
+**HP:** 20 · **Speed:** Ground 5 · **Footprint:** 1x1
 
-**ID:** creature-animated-armor
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
 
-**Category:** Construct · **Role:** Guard · **Adventure band:** 3
-
-**Habitat:** Vault; hall
-
-**HP:** 20 · **CV:** 17
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 5
-
-**Attributes:** Brawn +2; Fortitude +1; Agility +0; Guile -2; Knowledge -1; Reason +0
-
-**Resistance:** Physical 2
+**DR / resistance:** Physical 2 · **Condition immunities:** Bleeding; Poisoned; Asleep; Frightened
 
 **Weakness:** None
 
-**Condition immunity:** Bleeding; Poisoned; Asleep; Frightened
+**Healing:** Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.
 
-**Evasion:** 0 · **Threat:** 0
+**Shield Hunker — Reaction:** Before a shield-blockable attack resolves, impose 1 Bane on player attacks this shield can block until the start of its next turn. The DA judges blockability. Uses its Reaction; stacks with Defend, not another activation of itself.
 
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
+## On its turn
 
-**Communication:** Understands the maker’s language
+**Senses:** Ordinary sight and hearing.
 
-**Healing:** Repair-only: ordinary HP healing has no effect. An explicit repair ability works as printed; otherwise one uninterrupted hour in a suitable workshop with repair tools and one use of compatible ordinary materials restores full HP. Check the material inventory die afterward. Cannot repair a body destroyed at 0.
+### Steel gauntlet — Main Action
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
 
-### Main — Steel gauntlet
+- **Weak defense:** 6 physical damage.
+- **Standard defense:** 4 physical damage.
+- **Strong defense:** 3 physical damage.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-**Target:** One adjacent creature. **Spell:** No.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-- **Weak:** 3 physical damage.
-- **Standard:** 4 physical damage.
-- **Strong:** 6 physical damage.
+## Passives
 
+**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
-### Other abilities
-
-- [Lifeless Body](../../monster-abilities/lifeless-body.md): Does not breathe or eat. Only the printed condition immunities apply; dies at 0 HP.
-- [Shield Hunker](../../monster-abilities/shield-hunker.md): Reaction: shield-blockable defenses gain 1 Boon until next turn.
-
-### Basic melee and ordinary options
-
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
-
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Dust ends in a clean crescent around the display plinth.
 
@@ -71,34 +46,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Read or remove the command plate through a deliberate interaction, not an automatic combat shutdown.
 
-**Rewards:** An ordinary shield and armor shell; repairing the shell does not grant an animated servant. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Vault; hall · **Communication:** Understands the maker’s language
 
-## Summoning
+**Rewards:** An ordinary shield and armor shell; repairing the shell does not grant an animated servant.
 
-**Eligibility:** Construct 3
+**Summoning:** Construct 3 — [player reference](../summons/animated-armor.md).
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+## Design notes — not needed during play
 
-**Carrying:** up to 1 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**ID:** creature-animated-armor
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
+**Category:** Construct · **Role:** Guard · **CV:** 17
 
-## CV worksheet
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Ordinary attack difficulty; riders and positioning carry the threat.
 
 **Reference damage:** 3/4/6
 
@@ -110,9 +72,8 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 3.162. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=3.000, O=3.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [lifeless body](../../monster-abilities/lifeless-body.md), [shield hunker](../../monster-abilities/shield-hunker.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

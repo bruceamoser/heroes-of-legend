@@ -1,63 +1,48 @@
 # Ancient Mammoth
 
-*It comes through the snow like a moving hillside. The smallest members of the herd gather beneath its tusks.*
+*A towering, shaggy elephant with a domed skull, sweeping tusks and a thick trunk. Old herd leaders recognize familiar routes and threats across generations.*
 
-## Rules
+**HP:** 34 · **Speed:** Ground 6 · **Footprint:** 3x3
 
-**ID:** creature-ancient-mammoth
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Boon to player attacks. · **Stability:** 2 (Heavy Frame, passive grant; not derived from size).
 
-**Category:** Animal · **Role:** Massive guardian · **Adventure band:** 7
-
-**Habitat:** Tundra; highland
-
-**HP:** 34 · **CV:** 40
-
-**Footprint:** 3x3 · **Stability:** 2 · **Speed:** Ground 6
-
-**Attributes:** Brawn +2; Fortitude +2; Agility -1; Guile +0; Knowledge -2; Reason +2
-
-**Resistance:** Physical 2
+**DR / resistance:** Physical 2 · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** None
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Tusk sweep
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Tusk sweep — Main Action
 
-**Target:** Up to two creatures within 2 squares. **Spell:** No.
+*A great limb scythes across the ground, forcing everyone nearby to move.*
 
-- **Weak:** 4 physical damage.
-- **Standard:** 6 physical damage. Push each target 1.
-- **Strong:** 8 physical damage. Push each target 2.
+**Target:** Up to two creatures within 2 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-**Procedure:** [Sweeping Attack](../../monster-abilities/sweeping-attack.md).
+- **Weak defense:** 8 physical damage. Push each target 2.
+- **Standard defense:** 6 physical damage. Push each target 1.
+- **Strong defense:** 4 physical damage.
 
-### Basic melee and ordinary options
+### Driving tusk — Main Action
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+*A heavy tusk lifts the intruder and drives it away from the herd.*
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
+**Target:** One creature within 2 squares. **Player defense:** Brawn. **Threat:** 1 Bane to that defense.
 
-## At the table
+- **Weak defense:** 9 physical damage; push 5.
+- **Standard defense:** 6 physical damage; push 3.
+- **Strong defense:** 4 physical damage; push 1.
+
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+
+## Encounter cues
 
 **Signs:** Trees are stripped well above a person’s reach.
 
@@ -67,34 +52,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Split the encounter from the herd’s route rather than trying to overpower it.
 
-**Rewards:** Old travelers’ offerings at a traditional crossing; no automatic ivory market. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Tundra; highland · **Communication:** None
 
-## Summoning
+**Rewards:** Old travelers’ offerings at a traditional crossing; no automatic ivory market.
 
-**Eligibility:** Animal 7
+**Summoning:** Animal 7 — [player reference](../summons/ancient-mammoth.md).
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+## Design notes — not needed during play
 
-**Carrying:** up to 8 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**ID:** creature-ancient-mammoth
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
+**Category:** Animal · **Role:** Massive guardian · **CV:** 39
 
-## CV worksheet
+**Difficulty rationale:** A slow or broad exposed body gives the attacker a Boon. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 4/6/8
 
@@ -106,9 +78,8 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 10.000. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=3.596, O=11.191. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [sweeping attack](../../monster-abilities/sweeping-attack.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

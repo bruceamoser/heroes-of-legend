@@ -1,62 +1,40 @@
 # Trail Hound
 
-*Nose low, the hound passes every crossroads before choosing one with sudden certainty. It glances back to make sure you are coming.*
+*A lean, deep-chested tracking dog with a weatherproof coat, broad nose and attentive ears. Its loyalty is personal; a familiar handler matters more to it than a shouted order.*
 
-## Rules
+**HP:** 8 · **Speed:** Ground 7 · **Footprint:** 1x1
 
-**ID:** creature-trail-hound
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
 
-**Category:** Animal · **Role:** Tracker · **Adventure band:** 1
-
-**Habitat:** Wilderness
-
-**HP:** 8 · **CV:** 5
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 7
-
-**Attributes:** Brawn +0; Fortitude +1; Agility +1; Guile +0; Knowledge -2; Reason +1
-
-**Resistance:** None
+**DR / resistance:** None · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Keen scent within 6 squares; tracks by scent. No automatic detection of Hidden targets.
-
-**Communication:** None
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Warning bite
+**Senses:** Keen scent within 6 squares; tracks by scent.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Warning bite — Main Action
 
-**Target:** One adjacent creature. **Spell:** No.
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
 
-- **Weak:** 1 physical damage.
-- **Standard:** 2 physical damage.
-- **Strong:** 4 physical damage.
+- **Weak defense:** 4 physical damage.
+- **Standard defense:** 2 physical damage.
+- **Strong defense:** 1 physical damage.
 
+### Take the Scent — Maneuver
 
-### Basic melee and ordinary options
+Gain 1 Boon on its next Reason scent-tracking roll before turn end; needs a scent trail. No automatic discovery.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **1/2/4 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 4, Standard 2, Strong 1 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-## At the table
+## Encounter cues
 
 **Signs:** Claw marks beside a scent post; a bark that stops when answered.
 
@@ -66,34 +44,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** A familiar scent, food or a calm handler can stop a fight before it begins.
 
-**Rewards:** A collar can identify an owner; no automatic coin reward. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Wilderness · **Communication:** None
 
-## Summoning
+**Rewards:** A collar can identify an owner; no automatic coin reward.
 
-**Eligibility:** Animal 1
+**Summoning:** Animal 1 — [player reference](../summons/trail-hound.md).
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+## Design notes — not needed during play
 
-**Carrying:** up to 1 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**ID:** creature-trail-hound
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
+**Category:** Animal · **Role:** Tracker · **CV:** 5
 
-## CV worksheet
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Ordinary attack difficulty; riders and positioning carry the threat.
 
 **Reference damage:** 1/2/4
 
@@ -105,9 +70,8 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 5.000; reference outgoing damage
-per turn 1.324. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=5.000, O=1.324. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [trail hound take the scent](../../monster-abilities/trail-hound-take-the-scent.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

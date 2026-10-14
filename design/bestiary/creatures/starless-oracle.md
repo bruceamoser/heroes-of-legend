@@ -1,63 +1,40 @@
 # Starless Oracle
 
-*Its eyes open in the wrong order. It answers the question you were deciding not to ask.*
+*An alien, many-eyed figure with pale skin and an uneven arrangement of joints. Its attention slips between the present and possible futures, making its advice useful and dangerous.*
 
-## Rules
+**HP:** 28 · **Speed:** Ground 5 · **Footprint:** 1x1
 
-**ID:** creature-starless-oracle
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
 
-**Category:** Aberration · **Role:** Information horror · **Adventure band:** 7
-
-**Habitat:** Observatory; deep ruin
-
-**HP:** 28 · **CV:** 25
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 5
-
-**Attributes:** Brawn +0; Fortitude +1; Agility +1; Guile +2; Knowledge +2; Reason +2
-
-**Resistance:** mental 2
+**DR / resistance:** mental 2 · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 1 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Common; does not read unspoken thoughts mechanically
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Future shock
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Knowledge · **Target defense:** Reason
+### Future shock — Main Action
 
-**Target:** One visible creature within 7 squares. **Spell:** Yes; provokes next to an enemy.
+*For a moment, the victim remembers a pain that has not happened yet.*
 
-- **Weak:** 4 mental damage.
-- **Standard:** 5 mental damage. Dazed 1.
-- **Strong:** 8 mental damage. Dazed 2.
+**Target:** One visible creature within 7 squares. **Player defense:** Reason. **Threat:** 1 Bane to that defense.
 
-**Procedure:** [Mind Hammer](../../monster-abilities/mind-hammer.md).
+- **Weak defense:** 8 mental damage. Dazed 2.
+- **Standard defense:** 5 mental damage. Dazed 1.
+- **Strong defense:** 4 mental damage.
 
-### Basic melee and ordinary options
+**Spell:** Provokes when cast beside an enemy.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-## At the table
+## Encounter cues
 
 **Signs:** People independently write down the same unfamiliar constellation.
 
@@ -67,16 +44,34 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Ask verifiable questions and act on shared plans rather than private visions.
 
-**Rewards:** A true but incomplete prediction; no automatic ability theft. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Observatory; deep ruin · **Communication:** Common; does not read unspoken thoughts mechanically
 
-## Summoning
+**Rewards:** A true but incomplete prediction; no automatic ability theft.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-starless-oracle
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Aberration · **Role:** Information horror · **CV:** 26
+
+### Creature-roll reference
+
+**Attributes:** Brawn +0; Fortitude +1; Agility +1; Guile +2; Knowledge +2; Reason +2
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Future shock | Knowledge | 1 Boon | 4 mental damage. | 5 mental damage. Dazed 1. | 8 mental damage. Dazed 2. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** An agile or elusive body warrants attack Banes. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 4/5/8
 
@@ -88,9 +83,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 4.404; reference outgoing damage
-per turn 5.324. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.404, O=6.008. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [mind hammer](../../monster-abilities/mind-hammer.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

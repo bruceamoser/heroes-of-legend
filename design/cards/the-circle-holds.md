@@ -8,9 +8,9 @@
 
 **Target / range / shape:** Self and allies within 2 squares.
 
-Until the start of your next turn, each gains 1 Boon to defense against spells. The first forced movement against each is reduced by 2 squares. The ward is not physical cover and does not stack with another same-kind movement reduction.
+Until the start of your next turn, each gains 1 Boon to defense against spells. Each gains Stability 2 for the first forced movement against them, including collision chains; highest applicable Stability only, maximum 3. The grant is consumed after that event even if a higher Stability applied. The ward is not physical cover.
 
-**Duration:** Until the start of your next turn; each movement reduction is used once.
+**Duration:** Until the start of your next turn; each Stability grant is used once.
 
 **Equipment / acquisition:** No item needed unless named above.
 

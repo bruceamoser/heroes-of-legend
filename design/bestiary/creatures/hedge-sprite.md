@@ -1,62 +1,36 @@
 # Hedge Sprite
 
-*A face peers from the hawthorn blossoms, offended that you stepped over the gate instead of opening it.*
+*A tiny winged fey with thornlike features, leaf-colored clothes and a fierce sense of local etiquette. Its home may be no larger than a hedge, but its claim to it is absolute.*
 
-## Rules
+**HP:** 6 · **Speed:** Ground 4; fly 6 · **Footprint:** 1x1
 
-**ID:** creature-hedge-sprite
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
 
-**Category:** Fey · **Role:** Trickster · **Adventure band:** 1
-
-**Habitat:** Hedgerow; garden
-
-**HP:** 6 · **CV:** 4
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 4; fly 6
-
-**Attributes:** Brawn -2; Fortitude +0; Agility +2; Guile +2; Knowledge +0; Reason +1
-
-**Resistance:** None
+**DR / resistance:** None · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Common and Fey
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Thorn dart
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Guile · **Target defense:** Agility
+### Thorn dart — Main Action
 
-**Target:** One visible creature within 4 squares. **Spell:** No.
+**Target:** One visible creature within 4 squares. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
 
-- **Weak:** 1 physical damage.
-- **Standard:** 2 physical damage.
-- **Strong:** 3 physical damage.
+- **Weak defense:** 3 physical damage.
+- **Standard defense:** 2 physical damage.
+- **Strong defense:** 1 physical damage.
 
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-### Basic melee and ordinary options
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 4, Standard 2, Strong 1 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **1/2/4 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
-
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Bootlaces are tied to roots; milk disappears from a closed cup.
 
@@ -66,34 +40,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Offer a small service and ask what rule was broken.
 
-**Rewards:** A button or tiny carved key with a local story. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Hedgerow; garden · **Communication:** Common and Fey
 
-## Summoning
+**Rewards:** A button or tiny carved key with a local story.
 
-**Eligibility:** Fey 1
+**Summoning:** Fey 1 — [player reference](../summons/hedge-sprite.md).
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+## Design notes — not needed during play
 
-**Carrying:** up to 1 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**ID:** creature-hedge-sprite
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
+**Category:** Fey · **Role:** Trickster · **CV:** 5
 
-## CV worksheet
+**Difficulty rationale:** An agile or elusive body warrants attack Banes. Ordinary attack difficulty; riders and positioning carry the threat.
 
 **Reference damage:** 1/2/3
 
@@ -105,9 +66,6 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 5.000; reference outgoing damage
-per turn 1.162. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.404, O=1.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

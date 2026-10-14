@@ -1,63 +1,38 @@
 # Mire Ooze
 
-*A patch of mud crawls uphill around a discarded boot. The leather softens before it disappears.*
+*A creeping mass of mud-colored digestive slime, with partly dissolved scraps suspended inside. It has no eyes or clear front, sensing contact and nearby ground vibration instead.*
 
-## Rules
+**HP:** 16 · **Speed:** Ground 3 · **Footprint:** 1x1
 
-**ID:** creature-mire-ooze
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Boon to player attacks. · **Stability:** 0.
 
-**Category:** Ooze · **Role:** Slow controller · **Adventure band:** 1
-
-**Habitat:** Marsh; sewer
-
-**HP:** 16 · **CV:** 10
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 3
-
-**Attributes:** Brawn +1; Fortitude +2; Agility -2; Guile -2; Knowledge -2; Reason -1
-
-**Resistance:** Physical 1
+**DR / resistance:** Physical 1 · **Condition immunities:** Bleeding; Poisoned; Asleep; Blinded
 
 **Weakness:** None
 
-**Condition immunity:** Bleeding; Poisoned; Asleep; Blinded
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Touch; detects ground vibration within 3 squares only on the same connected surface. No automatic detection of Hidden targets.
-
-**Communication:** None
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Clinging sludge
+**Senses:** Touch; detects ground vibration within 3 squares only on the same connected surface.
 
-**Attack attribute:** Brawn · **Target defense:** Brawn
+### Clinging sludge — Main Action
 
-**Target:** One adjacent creature. **Spell:** No.
+*A hooked limb braces against the bank and heaves its catch toward the dark water.*
 
-- **Weak:** 2 physical damage.
-- **Standard:** 3 physical damage. Pull 1.
-- **Strong:** 4 physical damage. Pull 2.
+**Target:** One adjacent creature. **Player defense:** Brawn. **Threat:** 0 (no modifier) to that defense.
 
-**Procedure:** [Drag Under](../../monster-abilities/drag-under.md).
+- **Weak defense:** 4 physical damage. Pull 2.
+- **Standard defense:** 3 physical damage. Pull 1.
+- **Strong defense:** 2 physical damage.
 
-### Basic melee and ordinary options
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Metal objects remain where everything organic has gone.
 
@@ -67,16 +42,34 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Keep distance and cross dry elevated stone.
 
-**Rewards:** Indigestible coins: 8 coins in an established feeding hollow, not every ooze. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Marsh; sewer · **Communication:** None
 
-## Summoning
+**Rewards:** Indigestible coins: 8 coins in an established feeding hollow, not every ooze.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-mire-ooze
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Ooze · **Role:** Slow controller · **CV:** 10
+
+### Creature-roll reference
+
+**Attributes:** Brawn +1; Fortitude +2; Agility -2; Guile -2; Knowledge -2; Reason -1
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Clinging sludge | Brawn | None | 2 physical damage. | 3 physical damage. Pull 1. | 4 physical damage. Pull 2. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** A slow or broad exposed body gives the attacker a Boon. Ordinary attack difficulty; riders and positioning carry the threat.
 
 **Reference damage:** 2/3/4
 
@@ -88,9 +81,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 4.000; reference outgoing damage
-per turn 2.000. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.596, O=2.000. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [drag under](../../monster-abilities/drag-under.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)
