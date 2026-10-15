@@ -51,6 +51,10 @@ stops the group and adds 1 to remaining-budget collision damage. The original
 mover bounces one square opposite afterward if possible. Detailed group footprint
 and congested geometry remain open; no new card resolves them by fiat.
 
+All actors have [Stability](stability.md): default 0, explicit grants only, maximum
+3, highest source. It consumes forced movement once per newly struck creature,
+including through a collision chain; no protection against Prone or conditions.
+
 ## Conditions
 
 Resolve a temporary numbered condition at turn end, then reduce by 1. Burning and

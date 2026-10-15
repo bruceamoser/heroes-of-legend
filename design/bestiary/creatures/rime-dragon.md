@@ -1,81 +1,68 @@
 # Rime Dragon
 
-*Snow slides from a ledge that was not a ledge. The dragon’s first breath makes every wet surface crack.*
+*A long-bodied dragon with pale blue scales, translucent horns and wings like thin sheets of ice. It favors frozen coasts and glaciers where its memories and prey can remain preserved.*
 
-## Rules
+**HP:** 50 · **Speed:** Ground 7; fly 9; swim 7 · **Footprint:** 3x3
 
-**ID:** creature-rime-dragon
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 2 (Heavy Frame, passive grant; not derived from size).
 
-**Category:** Dragon · **Role:** Winter ambusher · **Adventure band:** 7
-
-**Habitat:** Glacier; frozen coast
-
-**HP:** 50 · **CV:** 52
-
-**Footprint:** 3x3 · **Stability:** 2 · **Speed:** Ground 7; fly 9; swim 7
-
-**Attributes:** Brawn +2; Fortitude +2; Agility +2; Guile +1; Knowledge +1; Reason +2
-
-**Resistance:** Physical 2; cold 3
+**DR / resistance:** Physical 2; cold 3 · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 1
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Common and Draconic
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Hooking talons
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Hooking talons — Main Action
 
-**Target:** One creature within 2 squares. **Spell:** No.
+*A hooked limb braces against the bank and heaves its catch toward the dark water.*
 
-- **Weak:** 5 physical damage.
-- **Standard:** 7 physical damage. Pull 1.
-- **Strong:** 9 physical damage. Pull 2.
+**Target:** One creature within 2 squares. **Player defense:** Agility. **Threat:** 2 Banes to that defense.
 
-**Procedure:** [Drag Under](../../monster-abilities/drag-under.md).
+- **Weak defense:** 9 physical damage. Pull 2.
+- **Standard defense:** 7 physical damage. Pull 1.
+- **Strong defense:** 5 physical damage.
 
-### Main — Winter breath
+### Winter breath — Main Action
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+*Its chest swells and light leaks between its teeth; there is one terrible instant to scatter.*
 
-**Target:** All creatures in a line 6. **Spell:** No.
+**Target:** All creatures in a line 6. **Player defense:** Agility. **Threat:** 2 Banes to that defense.
 
-- **Weak:** 5 cold damage.
-- **Standard:** 7 cold damage. Freezing 1.
-- **Strong:** 9 cold damage. Freezing 2.
+- **Weak defense:** 9 cold damage. Freezing 2.
+- **Standard defense:** 7 cold damage. Freezing 1.
+- **Strong defense:** 5 cold damage.
 
-**Limit:** Cannot use this named breath on its next turn after any use.
+**Limit:** Cannot use this attack on consecutive turns, regardless of result.
 
-**Procedure:** [Breath](../../monster-abilities/breath.md).
+### Ice-edged bite — Main Action
 
-### Other abilities
+*Cold spills between its teeth and crusts across the bitten armor.*
 
-- [Wing Beat](../../monster-abilities/wing-beat.md): Maneuver once per turn: one adjacent creature gains Slowed 1.
+**Target:** One creature within 2 squares. **Player defense:** Fortitude. **Threat:** 2 Banes to that defense.
 
-### Basic melee and ordinary options
+- **Weak defense:** 9 cold damage; Freezing 2.
+- **Standard defense:** 6 cold damage; Freezing 1.
+- **Strong defense:** 4 cold damage.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+### Wing Beat — Maneuver
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
+One adjacent creature gains Slowed 1; no roll or damage. Once per turn; no additional push or Blinded.
 
-## At the table
+### Ice Anchor — Maneuver
+
+Gain Stability 3 while on ice or solid ground until its next turn; highest source only.
+
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 2 Banes; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+
+## Encounter cues
 
 **Signs:** Frozen carcasses hang in sheltered clefts above the hunting ground.
 
@@ -85,16 +72,36 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Avoid the narrow ice lane and bargain over what lies preserved beneath it.
 
-**Rewards:** A single hoard: propose 300 coins and one recovered historical object with a story. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Glacier; frozen coast · **Communication:** Common and Draconic
 
-## Summoning
+**Rewards:** A single hoard: propose 300 coins and one recovered historical object with a story.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-rime-dragon
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Dragon · **Role:** Winter ambusher · **CV:** 54
+
+### Creature-roll reference
+
+**Attributes:** Brawn +2; Fortitude +2; Agility +2; Guile +1; Knowledge +1; Reason +2
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Hooking talons | Brawn | 2 Boons | 5 physical damage. | 7 physical damage. Pull 1. | 9 physical damage. Pull 2. |
+| Winter breath | Brawn | 2 Boons | 5 cold damage. | 7 cold damage. Freezing 1. | 9 cold damage. Freezing 2. |
+| Ice-edged bite | Brawn | 2 Boons | 4 cold damage. | 6 cold damage; Freezing 1. | 9 cold damage; Freezing 2. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 5/7/9
 
@@ -106,9 +113,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 6.596. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=3.000, O=7.012. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [breath](../../monster-abilities/breath.md), [drag under](../../monster-abilities/drag-under.md), [rime dragon ice anchor](../../monster-abilities/rime-dragon-ice-anchor.md), [wing beat](../../monster-abilities/wing-beat.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

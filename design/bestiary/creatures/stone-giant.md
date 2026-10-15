@@ -1,75 +1,58 @@
 # Stone Giant
 
-*The giant places a stone cairn with surprising delicacy, then picks up a boulder larger than the cairn.*
+*A towering, stone-gray person with long limbs, deliberate hands and clothing marked by carved patterns. Its home and artwork are expressions of memory rather than merely a hoard to defend.*
 
-## Rules
+**HP:** 40 · **Speed:** Ground 7 · **Footprint:** 3x3
 
-**ID:** creature-stone-giant
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Boon to player attacks. · **Stability:** 2 (Heavy Frame, passive grant; not derived from size).
 
-**Category:** Giant · **Role:** Artillery brute · **Adventure band:** 7
-
-**Habitat:** Mountain; cavern
-
-**HP:** 40 · **CV:** 34
-
-**Footprint:** 3x3 · **Stability:** 2 · **Speed:** Ground 7
-
-**Attributes:** Brawn +2; Fortitude +2; Agility +0; Guile +0; Knowledge +1; Reason +1
-
-**Resistance:** Physical 2
+**DR / resistance:** Physical 2 · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Giant and Common
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Thrown boulder
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Thrown boulder — Main Action
 
-**Target:** One visible creature within 10 squares. **Spell:** No.
+*The blow lands with enough force to send its victim stumbling backward.*
 
-- **Weak:** 5 physical damage.
-- **Standard:** 7 physical damage. Push 1.
-- **Strong:** 10 physical damage. Push 2.
+**Target:** One visible creature within 10 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-**Procedure:** [Driving Blow](../../monster-abilities/driving-blow.md).
+- **Weak defense:** 10 physical damage. Push 2.
+- **Standard defense:** 7 physical damage. Push 1.
+- **Strong defense:** 5 physical damage.
 
-### Main — Stone staff
+### Stone staff — Main Action
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+*A great limb scythes across the ground, forcing everyone nearby to move.*
 
-**Target:** Up to two creatures within 2 squares. **Spell:** No.
+**Target:** Up to two creatures within 2 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-- **Weak:** 4 physical damage.
-- **Standard:** 6 physical damage.
-- **Strong:** 8 physical damage.
+- **Weak defense:** 8 physical damage.
+- **Standard defense:** 6 physical damage.
+- **Strong defense:** 4 physical damage.
 
-**Procedure:** [Sweeping Attack](../../monster-abilities/sweeping-attack.md).
+### Clearing shove — Main Action
 
-### Basic melee and ordinary options
+*A deliberate sweep of the giant’s arm clears the ledge.*
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Target:** One creature within 2 squares. **Player defense:** Brawn. **Threat:** 1 Bane to that defense.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
+- **Weak defense:** 6 physical damage; push 5.
+- **Standard defense:** 4 physical damage; push 4.
+- **Strong defense:** 2 physical damage; push 2.
 
-## At the table
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+
+## Encounter cues
 
 **Signs:** Stone sculptures stand where no human road reaches.
 
@@ -79,16 +62,36 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Speak before entering the carved boundary and avoid damaging the art.
 
-**Rewards:** A carved stone commission or 80 coins of trade goods. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Mountain; cavern · **Communication:** Giant and Common
 
-## Summoning
+**Rewards:** A carved stone commission or 80 coins of trade goods.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-stone-giant
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Giant · **Role:** Artillery brute · **CV:** 33
+
+### Creature-roll reference
+
+**Attributes:** Brawn +2; Fortitude +2; Agility +0; Guile +0; Knowledge +1; Reason +1
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Thrown boulder | Brawn | 1 Boon | 5 physical damage. | 7 physical damage. Push 1. | 10 physical damage. Push 2. |
+| Stone staff | Brawn | 1 Boon | 4 physical damage. | 6 physical damage. | 8 physical damage. |
+| Clearing shove | Brawn | 1 Boon | 2 physical damage; push 2. | 4 physical damage; push 4. | 6 physical damage; push 5. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** A slow or broad exposed body gives the attacker a Boon. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 5/7/10
 
@@ -100,9 +103,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 6.162. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=3.596, O=6.951. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [driving blow](../../monster-abilities/driving-blow.md), [sweeping attack](../../monster-abilities/sweeping-attack.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

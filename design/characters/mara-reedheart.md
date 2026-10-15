@@ -127,3 +127,5 @@ One plain worn outfit is supplied by the proposed creation baseline: 0 carried B
 Mara uses Lantern in the Palm instead of buying lighting; its limitations still apply.
 
 [Price list](../market.md) · [Starting-coin allocation](../starting-coins.md)
+
+**Stability:** 0; no always-active Stability grant in this build. Conditional grants apply only when their cards are used.

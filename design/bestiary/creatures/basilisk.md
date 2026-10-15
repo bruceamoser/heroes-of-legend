@@ -1,74 +1,50 @@
 # Basilisk
 
-*Its eyelids slide sideways. Around it, mice lie stiff as little carvings until they begin to twitch again.*
+*A squat, many-legged reptile with a heavy jaw, pebbled hide and unsettling pale eyes. Its gaze stiffens living bodies long enough for its slow approach to become dangerous.*
 
-## Rules
+**HP:** 22 · **Speed:** Ground 4 · **Footprint:** 1x1
 
-**ID:** creature-basilisk
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
 
-**Category:** Beast · **Role:** Gaze controller · **Adventure band:** 3
-
-**Habitat:** Rocky scrub; ruin
-
-**HP:** 22 · **CV:** 19
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 4
-
-**Attributes:** Brawn +1; Fortitude +2; Agility -1; Guile +0; Knowledge -2; Reason +1
-
-**Resistance:** Physical 1
+**DR / resistance:** Physical 1 · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** None
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Heavy bite
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Heavy bite — Main Action
 
-**Target:** One adjacent creature. **Spell:** No.
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
 
-- **Weak:** 3 physical damage.
-- **Standard:** 4 physical damage.
-- **Strong:** 6 physical damage.
+- **Weak defense:** 6 physical damage.
+- **Standard defense:** 4 physical damage.
+- **Strong defense:** 3 physical damage.
 
+### Stone stare — Main Action
 
-### Main — Stone stare
+*Gray veins climb from the victim’s feet while the creature holds an unblinking stare.*
 
-**Attack attribute:** Reason · **Target defense:** Fortitude
+**Target:** One visible creature within 4 squares that can see it. **Player defense:** Fortitude. **Threat:** 0 (no modifier) to that defense.
 
-**Target:** One visible creature within 4 squares that can see it. **Spell:** Yes; provokes next to an enemy.
+- **Weak defense:** No damage. Paralyzed 1.
+- **Standard defense:** No damage. Slowed 2.
+- **Strong defense:** No damage. Slowed 1.
 
-- **Weak:** No damage. Slowed 1.
-- **Standard:** No damage. Slowed 2.
-- **Strong:** No damage. Paralyzed 1.
+**Spell:** Provokes when cast beside an enemy.
 
-**Procedure:** [Stone Stare](../../monster-abilities/stone-stare.md).
+**Limit:** The target may avert its eyes before this resolves until its next turn: this gaze cannot target it, but it has 1 Bane on attacks against this creature and defenses against its attacks. No permanent petrification.
 
-### Basic melee and ordinary options
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Animals move with stiff legs near a trail of broad clawed feet.
 
@@ -78,16 +54,35 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Avert the eyes and accept the printed Banes; use obstacles to break sight.
 
-**Rewards:** A naturalist may seek a shed scale; no automatic permanent petrification cure is required. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Rocky scrub; ruin · **Communication:** None
 
-## Summoning
+**Rewards:** A naturalist may seek a shed scale; no automatic permanent petrification cure is required.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-basilisk
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Beast · **Role:** Gaze controller · **CV:** 19
+
+### Creature-roll reference
+
+**Attributes:** Brawn +1; Fortitude +2; Agility -1; Guile +0; Knowledge -2; Reason +1
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Heavy bite | Brawn | None | 3 physical damage. | 4 physical damage. | 6 physical damage. |
+| Stone stare | Reason | None | No damage. Slowed 1. | No damage. Slowed 2. | No damage. Paralyzed 1. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Ordinary attack difficulty; riders and positioning carry the threat.
 
 **Reference damage:** 3/4/6
 
@@ -99,9 +94,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 4.000; reference outgoing damage
-per turn 3.162. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.000, O=3.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [stone stare](../../monster-abilities/stone-stare.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

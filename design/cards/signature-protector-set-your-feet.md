@@ -8,7 +8,7 @@
 
 **Target / range / shape:** Self while your Defend is active.
 
-Reduce any push or pull against you by 2 squares, minimum 0. Use the highest applicable displacement reduction, not a sum. You still need to use Defend normally; this grants no resistance to damage.
+Gain Stability 2 while your Defend is active. Use your highest applicable Stability, maximum 3. You still need to use Defend normally; this grants no resistance to damage.
 
 **Duration:** While your Defend remains active.
 

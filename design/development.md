@@ -21,6 +21,9 @@
    chosen benefits. Capacity = 10 + 3 × Brawn. Every Bulk above capacity reduces
    Speed by 1. Speed = ancestry base + Agility − that penalty, minimum 0.
 
+Record Stability 0 unless an explicit chosen trait, ability or item grants more.
+Use the highest applicable value, maximum 3; do not derive it from attributes.
+
 Grit begins at 2 at level 1, plus one at levels 3 and 7. Grit expenditure persists;
 a purchased once-only card may grant another point. There is no class-based automatic
 attribute or HP growth. Small HP purchases are explicitly limited per level.

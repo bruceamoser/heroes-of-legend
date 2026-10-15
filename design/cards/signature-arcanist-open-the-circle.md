@@ -8,9 +8,9 @@
 
 **Target / range / shape:** Self and willing allies within 2 squares when used.
 
-Each recipient gains 1 Boon to defenses against spells until the start of your next turn. During that time, reduce the first push or pull against each recipient by 2 squares, minimum 0; use the highest applicable reduction, not a sum. This is a ward, not physical cover.
+Each recipient gains 1 Boon to defenses against spells until the start of your next turn. During that time, each recipient gains Stability 2 for the first forced movement against them, including being struck in a collision chain. Use the highest applicable Stability, maximum 3. This grant expires after that forced movement even if a higher Stability applied; it never reduces distance a second time. This is a ward, not physical cover.
 
-**Duration:** Until the start of your next turn; mark each recipient’s displacement reduction when used.
+**Duration:** Until the start of your next turn; mark each recipient’s Stability grant when used.
 
 **Equipment / acquisition:** None.
 
@@ -22,7 +22,7 @@ Each recipient gains 1 Boon to defenses against spells until the start of your n
 
 **Tags:** Magic / Defense
 
-**Limits:** Reapplying replaces your previous ward; it does not refresh a recipient’s spent displacement reduction before your next turn.
+**Limits:** Reapplying replaces your previous ward; it does not refresh a recipient’s spent Stability grant before your next turn.
 
 **ID:** signature-arcanist-open-the-circle · **Status:** Revised proposal for Bruce’s review; follows the agreed signature power and identity standard. Not balance-tested.
 

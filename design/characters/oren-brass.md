@@ -132,3 +132,5 @@ One plain worn outfit is supplied by the proposed creation baseline: 0 carried B
 The material bundle contains wood, fiber and bindings suitable for Twisted Cord or Wooden Brace, not healing ingredients. It begins at d6; no finished crafted goods are assumed.
 
 [Price list](../market.md) · [Starting-coin allocation](../starting-coins.md)
+
+**Stability:** 0; no always-active Stability grant in this build. Conditional grants apply only when their cards are used.

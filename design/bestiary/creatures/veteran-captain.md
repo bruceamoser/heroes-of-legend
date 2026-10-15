@@ -1,66 +1,44 @@
 # Veteran Captain
 
-*The captain does not shout until the line starts to buckle. Then a single order puts everyone back in motion.*
+*A seasoned officer with maintained armor, visible campaign scars and a weapon worn smooth at the grip. Authority rests on experience and the ability to bring people home alive.*
 
-## Rules
+**HP:** 24 · **Speed:** Ground 6 · **Footprint:** 1x1
 
-**ID:** creature-veteran-captain
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
 
-**Category:** Mortal · **Role:** Leader · **Adventure band:** 3
-
-**Habitat:** Fort; battlefield
-
-**HP:** 24 · **CV:** 24
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 6
-
-**Attributes:** Brawn +1; Fortitude +2; Agility +1; Guile +1; Knowledge +1; Reason +1
-
-**Resistance:** Physical 2
+**DR / resistance:** Physical 2 · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 1
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Common and one regional language
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Commanding cut
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Commanding cut — Main Action
 
-**Target:** One adjacent creature. **Spell:** No.
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-- **Weak:** 4 physical damage.
-- **Standard:** 5 physical damage.
-- **Strong:** 7 physical damage.
+- **Weak defense:** 7 physical damage.
+- **Standard defense:** 5 physical damage.
+- **Strong defense:** 4 physical damage.
 
+### Rally — Maneuver
 
-### Other abilities
+One hearing ally within 3 squares either removes Frightened 1 or gains 1 Boon to its next attack before this creature’s next turn (1 additional Bane to its target’s defense if an NPC). Same named bonus does not stack; no free attack.
 
-- [Rally](../../monster-abilities/rally.md): Maneuver: one hearing ally within 3 removes Frightened 1 or gains 1 Boon on its next attack before this creature’s next turn.
+### Close the Line — Maneuver
 
-### Basic melee and ordinary options
+One willing ally within 3 squares that can hear may move 1 square immediately, ending adjacent to another ally. This voluntary movement provokes normally; once per turn.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-## At the table
+## Encounter cues
 
 **Signs:** A camp has dry powder, covered food and posted escape routes.
 
@@ -70,16 +48,34 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Cut communication or reveal that the employer has betrayed the troops.
 
-**Rewards:** Melee weapon, medium armor, order papers and 25 coins. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Fort; battlefield · **Communication:** Common and one regional language
 
-## Summoning
+**Rewards:** Melee weapon, medium armor, order papers and 25 coins.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-veteran-captain
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Mortal · **Role:** Leader · **CV:** 27
+
+### Creature-roll reference
+
+**Attributes:** Brawn +1; Fortitude +2; Agility +1; Guile +1; Knowledge +1; Reason +1
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Commanding cut | Brawn | 1 Boon | 4 physical damage. | 5 physical damage. | 7 physical damage. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** An agile or elusive body warrants attack Banes. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 4/5/7
 
@@ -91,9 +87,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 4.653. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=2.404, O=4.653. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [rally](../../monster-abilities/rally.md), [veteran captain close the line](../../monster-abilities/veteran-captain-close-the-line.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

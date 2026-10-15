@@ -13,8 +13,8 @@ a healer and 5–15% with one. A budget label alone cannot promise those results
 This implements the earlier `sqrt(E × O) × U` proposal with an explicit reference
 and a scale factor of 3. Every creature prints its inputs; the audit recomputes CV.
 
-1. Enumerate all 3d6 outcomes for a reference hero with attribute +1. Evasion adds
-   that many Banes to attacks against the creature. Retain the worst three dice;
+1. Enumerate all 3d6 outcomes for a reference hero with attribute +1. Evasion states Boons or Banes to attacks against the creature. Retain the best
+   three for Boons or worst three for Banes;
    natural 111/666 take their usual tiers. The reference hero deals **3/5/7 physical**.
 2. Apply the creature’s printed physical resistance, minimum 1 per damaging event.
    Let **I** be that expected incoming damage per attack.
@@ -22,7 +22,7 @@ and a scale factor of 3. Every creature prints its inputs; the audit recomputes 
    are an explicit seed assumption, not a combat-duration prediction. Fire can remove
    them; actual tests must record whether the party discovers and uses that counter.
 4. For **O**, reverse the +1 defender’s outcome probabilities to read the creature’s
-   reference attack. Threat supplies defense Banes. Apply reference physical resistance
+   reference attack. Threat supplies its printed defense Boons or Banes. Apply reference physical resistance
    1 against physical damage, 0 against other types, then multiply by the printed
    expected targets (1 or 2). No assumed damage from conditions is hidden in O.
 5. **CV = ceiling(3 × sqrt(E × O) × U)**, minimum 1. **U** is the printed provisional
@@ -86,7 +86,7 @@ free hands when testing, rather than invented optimized stat lines.
 | The false toll | 3 Road Bandits + 1 Bandit Bow | 36 | A blocked cart is a bluff. The bow has a tree perch; expose the bluff or reach the perch. |
 | The opened barrow | 3 Bone Sentries + 2 Bone Archers | 33 | Return the stolen burial token to stop the watch. Keep the entrance wide enough to avoid a doorway lock. |
 | Tracks around the camp | 4 Wolves | 32 | The camp blocks the route to a den. Move the camp or escort the pack past it. Pack Hunter makes isolation matter. |
-| The bridge has an owner | 1 Bridge Troll + 1 Road Bandit + 1 Bandit Bow | 41 | Toll collectors have an uneasy partnership. Fire and the drop can dominate the CV; offer another crossing. |
+| The bridge has an owner | 1 Bridge Troll + 1 Road Bandit + 1 Bandit Bow | 42 | Toll collectors have an uneasy partnership. Fire and the drop can dominate the CV; offer another crossing. |
 | The watch will not stand down | 2 Shield Soldiers + 1 Grave Cultist | 38 | Soldiers believe the cultist has legal authority. Show the forged orders; otherwise test layered defensive Boons. |
 
 Totals are checked against the roster by the audit. An encounter slightly below or

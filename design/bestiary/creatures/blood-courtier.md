@@ -1,68 +1,50 @@
 # Blood Courtier
 
-*The courtier’s smile arrives a moment before warmth returns to their face. In the mirror, the smile is absent.*
+*An elegant undead predator with cool skin, immaculate clothes and teeth easily concealed by a practiced smile. Its household and social influence protect a carefully hidden feeding arrangement.*
 
-## Rules
+**HP:** 30 · **Speed:** Ground 7; climb 6 · **Footprint:** 1x1
 
-**ID:** creature-blood-courtier
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
 
-**Category:** Undead · **Role:** Predator · **Adventure band:** 7
+**DR / resistance:** Physical 2; Life 2 · **Condition immunities:** Poisoned; Asleep
 
-**Habitat:** Manor; city
+**Weakness:** Direct sunlight ends Borrowed Face and prevents using it.
 
-**HP:** 30 · **CV:** 34
+**Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
 
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 7; climb 6
+**Against offensive healing:** controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.
 
-**Attributes:** Brawn +1; Fortitude +2; Agility +2; Guile +2; Knowledge +1; Reason +1
+## On its turn
 
-**Resistance:** Physical 2; Life 2
+**Senses:** Ordinary sight and hearing.
 
-**Weakness:** Radiant 2
+### Life-drinking bite — Main Action
 
-**Condition immunity:** Poisoned; Asleep
+*The victim pales as a stolen flush of warmth returns to the attacker’s face.*
 
-**Evasion:** 0 · **Threat:** 0
+**Target:** One adjacent creature. **Player defense:** Fortitude. **Threat:** 1 Bane to that defense.
 
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
+- **Weak defense:** 8 Life damage. Recover up to 2 HP actually drained.
+- **Standard defense:** 6 Life damage. Recover up to 1 HP actually drained.
+- **Strong defense:** 4 Life damage.
 
-**Communication:** Common and court languages
+**Limit:** Restoration cannot exceed actual HP removed or maximum HP. This is explicitly undead-compatible life theft, not ordinary healing.
 
-**Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders. Life Drink restoration, if printed, is an explicit exception.
+### Borrowed Face — Maneuver
 
-**Offensive-healing defense:** Fortitude +2; used when a player rolls this creature’s defense against an NPC healing spell. A player attacker still makes only their attack roll.
+Take the appearance and voice of a person of the same footprint, until dismissed or reduced to 0 HP. Keep statistics and equipment; gain no memories, languages or powers. Suspicious examination uses normal player Reason. Direct sunlight prevents this ability and ends the disguise.
 
-### Main — Life-drinking bite
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-**Attack attribute:** Guile · **Target defense:** Fortitude
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-**Target:** One adjacent creature. **Spell:** No.
+## Passives
 
-- **Weak:** 4 Life damage.
-- **Standard:** 6 Life damage. Recover up to 1 HP actually drained.
-- **Strong:** 8 Life damage. Recover up to 2 HP actually drained.
+**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
-**Procedure:** [Life Drink](../../monster-abilities/life-drink.md).
-
-### Other abilities
-
-- [Lifeless Body](../../monster-abilities/lifeless-body.md): Does not breathe or eat. Only the printed condition immunities apply; dies at 0 HP.
-- [Borrowed Face](../../monster-abilities/borrowed-face.md): Maneuver: change visible appearance without changing statistics or gaining memories. Direct sunlight prevents this ability and immediately ends its current disguise.
-
-### Basic melee and ordinary options
-
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
-
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Servants prepare dinner but no one ever sees the host eat.
 
@@ -72,16 +54,34 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Reveal the feeding arrangement, open the shutters, and deny private meetings.
 
-**Rewards:** Fine ordinary clothes, 100 coins and evidence of local bargains. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Manor; city · **Communication:** Common and court languages
 
-## Summoning
+**Rewards:** Fine ordinary clothes, 100 coins and evidence of local bargains.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-blood-courtier
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Undead · **Role:** Predator · **CV:** 40
+
+### Creature-roll reference
+
+**Attributes:** Brawn +1; Fortitude +2; Agility +2; Guile +2; Knowledge +1; Reason +1
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Life-drinking bite | Guile | 1 Boon | 4 Life damage. | 6 Life damage. Recover up to 1 HP actually drained. | 8 Life damage. Recover up to 2 HP actually drained. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** An agile or elusive body warrants attack Banes. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 4/6/8
 
@@ -93,9 +93,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 6.000. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=2.404, O=6.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [borrowed face](../../monster-abilities/borrowed-face.md), [life drink](../../monster-abilities/life-drink.md), [lifeless body](../../monster-abilities/lifeless-body.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

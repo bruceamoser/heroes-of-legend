@@ -14,6 +14,9 @@ Reaction; requires a free hand and secure footing at the start. Weak and Standar
 - **Standard:** Stop its fall and keep your footing.
 - **Strong:** Stop its fall and pull it into an adjacent free safe square.
 
+**Stability exception — proposed:** this willing rescue movement ignores Stability.
+It does not allow moving an unwilling target or bypassing a grapple.
+
 **Duration:** Resolve once at the stated trigger; applied conditions follow normal decay.
 
 **Equipment / acquisition:** None.

@@ -48,13 +48,12 @@ this agreement does not assign an imaginary controller to every creature.
 
 ## Stability and ordinary movement
 
-**Agreed:** every creature has Stability, normally 0; larger creatures generally
-have more. It resists forced movement. **Application proposal:** subtract Stability
-once from each push/pull distance before terrain costs, minimum 0. Use the highest
-applicable movement-reduction value rather than adding Stability to another such
-bonus. Reduce the initial target’s displacement before forming a collision group;
-secondary collision members do not repeatedly subtract Stability. That last group
-interaction requires testing and approval alongside multi-square creature geometry.
+**Stability — approved:** all characters and creatures start at 0; only an explicit
+trait, ability or item raises it, maximum 3, highest source only. It consumes forced
+movement once for the initial target and once for each new creature struck in a
+collision chain. Stop when movement is exhausted; never charge a creature twice.
+It does not resist Prone, grapples or conditions. See [Stability](stability.md) for
+a worked example and the separately identified collision-damage timing question.
 
 **Agreed:** falling deals **3 HP per 2 squares fallen**. **Rounding/damage proposal:**
 use 3 × floor(distance / 2), physical damage with ordinary physical resistance;

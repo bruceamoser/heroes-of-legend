@@ -1,121 +1,82 @@
-# Bestiary authoring review
+# Full creature review — October 13, 2026
 
-October 13, 2026. This is a complete **first core roster**, not an exhaustive catalog
-of every fantasy creature and not a finished balance certification.
+This revision supersedes the first bestiary review. It addresses Bruce’s criticism:
+the original pass was broad but not sufficiently reviewed for actual DA use.
 
-## Delivered scope
+## What changed
 
-- 84 individual editable creature cards across 15 categories: 29 in adventure
-  band 1, 31 in band 3 and 24 in band 7, with all six
-  attributes, attack/defense procedures, HP, movement, footprint, Stability,
-  resistance, condition immunities, senses and explicit summon status.
-- 34 separate monster abilities. Every ability is used by at least one creature;
-  none is silently added to the character DP catalog.
-- 43 eligible summon entries, covering all six categories at tiers 1, 3 and 7.
-- Reference notes from the five requested systems, a common text-card format,
-  command procedures, CV worksheets and five encounter scenes.
-- Narrative purpose, signs, tactics, counterplay and bounded reward suggestions
-  on every creature. Fighting is one possible encounter, not the assumed answer
-  to every animal, fey guardian or mortal adversary.
+All 84 creatures have been individually assigned a creature description and reviewed
+for defensive difficulty, offensive difficulty, action choices and table presentation.
+The [per-creature ledger](creature-review.md) records each result. The roster remains
+15 categories, with 43 separately printable player-controlled references and 49
+monster-only abilities. Twelve additional attack choices and fifteen specific
+Maneuvers give appropriate creatures alternatives within the same turn budget.
 
-## Rules preserved
+The play-facing section now puts defenses together, labels **DR / resistance**,
+reads Weak/Standard/Strong **defense** directly, and prints action costs and limits
+where used. No “Procedure: Breath” lookup is needed. Creature descriptions explain
+body and nature; action descriptions stay with actions. Adventure bands are removed.
+CV worksheets and source links are at the end, outside the DA combat reference.
+Player-controlled attacker outcomes live separately, so the DA does not mentally
+reverse a table or carry a duplicate summon sheet through every encounter.
 
-Players roll one attack or defense, never both for the same attack. Attributes do
-not become damage bonuses. Boons/Banes express difficulty, physical resistance
-never exceeds 3, and every damaging event retains the ordinary minimum. Monster
-specialty attacks are not opportunity attacks. Forced movement remains a major
-part of play; grapplers pay their own restriction too. Summons need a fresh command
-for activity and get no independent Reactions, alerts or triggered attacks.
+## Approved Stability
 
-Healing is symmetric: an NPC healer also rolls its printed attribute (a player
-handles the dice), pays life first, needs the printed free hand and can repeat only
-while it can pay and remain above 0. No automatic Standard result or private enemy
-healing rule remains. Innate regeneration is separately identified and dies at 0.
+Stability defaults to 0 for every actor. Only an explicit trait, ability or equipment
+grant increases it; highest source, maximum 3. It consumes movement once for the
+initial target and each newly struck creature in a chain. It does not prevent Prone,
+conditions or grappling. There is no Brawn, Fortitude or automatic size formula.
 
-## Working decisions made for this draft
+Six character cards now express their existing displacement protection as Stability
+grants. The dwarf’s defensive Boon and Circle of Old Names remain roll benefits,
+not Stability grants. The two willing rescue cards explicitly propose exceptions
+so a braced ally is not left dangling because of their Stability. The character
+review ledger documents these decisions and the complete keyword survey.
 
-These are explicit proposals for Bruce to review, not retroactive approvals:
+**Still a timing question:** collision damage before or after a newly struck body’s
+Stability is deducted. The approved rule consumes movement through the chain. It
+does not by itself settle that damage order. The example in the Stability reference
+labels its contact-damage interpretation as a proposal, not an approved addition.
 
-1. **Evasion / Threat** are compact labels for normal Banes, usually 0, occasionally
-   1. They invert to Boons when a player rolls on behalf of that creature. No new
-   roll modifier or target number is introduced.
-2. **Consequential NPC-versus-NPC** uses a player as the dice roller for the attacker;
-   the DA still makes NPC decisions. Unimportant contests stay in the fiction.
-3. **Large footprints** translate as a whole, use the highest entered terrain cost,
-   and use the initial target’s Stability once. A blocked group stops together.
-4. **Tethers** measure to the farthest occupied square; every part must stay within
-   six squares. Flight, burrowing, area templates and commanded hovering now have
-   explicit procedures.
-5. **Search/hide** have Main costs and progress-sensitive outcomes. This supplies a
-   usable default pending the broader perception review; clever fiction still avoids
-   needless rolls.
-6. **Condition immunities** are printed individually. No blanket damage immunity,
-   mandatory silver weapons, lost levels, permanent failed-save petrification or
-   automatic death has been introduced. The basilisk has a dangerous but recoverable
-   gaze; a truly permanent petrification threat needs a later deliberate decision.
-7. **Construct repair** is an hour in a workshop with tools and a material use,
-   unless a specific ability provides another route; destroyed constructs stay dead.
-8. **Summoned healing** charges the controller the printed life cost, rather than
-   consuming a disposable form’s HP. The Moon Hart remains a useful healer, but
-   dismissing and recasting it does not reset a free healing reservoir. This is
-   a proposed extension of Moser’s law and needs explicit review.
-9. **Weakness X** adds X to a matching positive damage component after resistance;
-   highest matching value only. This gives the field a useful, simple meaning
-   without imported damage multipliers; it is a new proposal.
-10. **CV and level budgets** have explicit seed numbers and assumptions. They are ready
-   to test after review, not evidence that encounter-duration targets are already met.
+## Inventions withdrawn from the play rules
 
-None of these revises the approved jumping rules, ancestry choices, class cards,
-DP, market prices or wound results.
+The first draft supplied unapproved general hiding outcomes, flight/falling
+interpretations, construct workshop repair, weakness arithmetic and a controller
+HP tax for summoned healing. This revision does not present those as established
+rules. Creature-specific abilities still have proposed values and explicit effects;
+that is content design, not permission to silently rewrite the core engine.
 
-## Matters to test before calling the roster balanced
+The summoned Moon Hart now pays its own spell cost under the existing rule. Recasting
+a fresh healer can therefore reset its HP pool. That is a real balance/design question
+for Bruce, not something this review resolves by assigning the cost to someone else.
+Likewise, exact multi-square tether geometry and unresolved general movement cases
+remain DA adjudication pending approval; they are not hidden card prerequisites.
 
-**Healers:** the chaplain’s CV 13 uses U=1.5 on a modest attack. That estimate is
-particularly uncertain because spending a Main to restore 3/6/9 HP is not captured
-by its staff damage. Test healer-plus-defender groups and player/enemy healer mirrors
-before relying on that number. Do not fix a bad estimate by making enemy healing
-work differently.
+## Difficulty and CV
 
-**Defensive formations:** Shield Hunker plus Defend can strongly suppress outcomes
-without raising resistance. Test their actual survival time; the utility factor is
-only a starting allowance.
+Evasion and Threat use normal Boons/Banes. Small elusive bodies can impose attack
+Banes; broad slow bodies can grant attack Boons. Dangerous attacks impose defense
+Banes; minor helper attacks can grant defense Boons. Armor remains post-outcome DR.
+The individual values are **new creature proposals**. More nonzero values is not
+itself evidence of balance, and weak creatures have not all been made difficult.
 
-**Disabling:** Dazed 2 and Paralyzed 1 are potent. Begin with one such source, then
-check whether alternating multiple sources locks a hero out of meaningful choices.
-The ghoul’s chilling attack has a full intervening-turn limit; its normal claws are
-still useful. No final-death condition is slipped into ordinary attack outcomes.
+The audit recomputes CV with those actual modifiers, including favorable player
+Boons. Its reference calculation still omits full tactics, alternate attacks,
+Stability, control loops and healing decisions. The utility factors and budget curve
+remain uncalibrated design hypotheses. No combat simulation was run in this review.
 
-**Summons:** 43 choices are permissions to playtest, not certified equal options.
-Compare combat summons against mobility/helpers, verify that spending a Main versus
-a Maneuver matters, and check tier-7 large bodies in six-square tether space.
-The caster must actively direct scouting and receive reports while commanding.
+Priorities after approval: healer groups; Defend plus Shield Hunker; repeated Dazed
+or Paralyzed; summon healing resets; large-body chain collisions; and solo dragons.
+A compact card can be complete enough to play without making its CV a tested promise.
 
-**Large solos:** a dragon has one turn, not an imported legendary action system.
-The red dragon’s high CV reflects two-target output and durability, but its control
-vulnerability and party focus fire remain unresolved in a solo encounter. Test a
-solo separately from a dragon with separately budgeted allies and objectives.
+## Verification
 
-**Terrain:** pulls at a cliff or into water are stronger than on a flat floor. Flight,
-burrowing and narrow doorways change who can participate. Neither CV nor a nominal
-adventure band compensates automatically.
+The audit checks every creature’s defensive fields, Stability cap and source,
+complete attack outcomes, exact reversed player-reference outcomes, action labels,
+links, summon category/tier coverage, CV arithmetic and published encounter sums.
+The character catalog audit checks the revised cards and links. A full diff check
+covers whitespace. These checks support the review; they do not replace it.
 
-## Editorial and integrity checks
-
-The read-only audit enumerates reference dice outcomes, recomputes all CV values,
-checks published encounter sums, links, required stats, six attributes, resistance
-caps, attack outcomes, monster-ability usage and all eighteen summon category/tier
-pairs. The existing character catalog audit remains separate. These are meaningful
-integrity checks, not a new combat simulation.
-
-The source is individual Markdown, not a saved data generator. Review a creature
-by editing its own file, then update its visible CV worksheet and indexes as needed.
-No legacy book/playtest cards were used as templates. No Quarto or final-layout
-work belongs to this pass.
-
-## Suggested first review order
-
-Read the Trail Hound, Wolf and Shield Soldier for the baseline; then the Bridge
-Troll, Sorrow Ghost and Giant Spider for distinctive mechanics; finally the Moon
-Hart, Iron Gatekeeper and Red Dragon for the most consequential summon and encounter
-questions. After that, review the full roster by habitat to judge whether it suggests
-adventures you would want to run.
+Start with [Red Dragon](creatures/red-dragon.md), [Wolf](creatures/wolf.md),
+[Shield Soldier](creatures/shield-soldier.md) and [Moon Hart](creatures/moon-hart.md)
+to compare a complex threat, a pack hunter, a defender and a summoned healer.

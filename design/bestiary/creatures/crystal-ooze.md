@@ -1,67 +1,44 @@
 # Crystal Ooze
 
-*The polished floor buckles upward. Shards of old glass turn slowly beneath its surface.*
+*A broad, transparent gel containing shards of stone and glass, easily mistaken for a clean polished surface. Its slow body is adhesive and dense rather than nimble.*
 
-## Rules
+**HP:** 24 · **Speed:** Ground 3 · **Footprint:** 2x2
 
-**ID:** creature-crystal-ooze
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Boon to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
 
-**Category:** Ooze · **Role:** Ambush hazard · **Adventure band:** 3
-
-**Habitat:** Ruin; cavern
-
-**HP:** 24 · **CV:** 22
-
-**Footprint:** 2x2 · **Stability:** 1 · **Speed:** Ground 3
-
-**Attributes:** Brawn +1; Fortitude +2; Agility -2; Guile -2; Knowledge -2; Reason +0
-
-**Resistance:** Physical 2
+**DR / resistance:** Physical 2 · **Condition immunities:** Bleeding; Poisoned; Asleep; Blinded
 
 **Weakness:** None
 
-**Condition immunity:** Bleeding; Poisoned; Asleep; Blinded
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Touch; ground vibration within 3 squares on the same surface. No automatic detection of Hidden targets.
-
-**Communication:** None
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Closing gel
+**Senses:** Touch; ground vibration within 3 squares on the same surface.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Closing gel — Main Action
 
-**Target:** One adjacent creature. **Spell:** No.
+*A coil or grasping limb closes around the target and braces against its struggling weight.*
 
-- **Weak:** 3 physical damage.
-- **Standard:** 4 physical damage. Grappled 1.
-- **Strong:** 6 physical damage. Grappled 2.
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
 
-**Procedure:** [Seizing Limbs](../../monster-abilities/seizing-limbs.md).
+- **Weak defense:** 6 physical damage. Grappled 2.
+- **Standard defense:** 4 physical damage. Grappled 1.
+- **Strong defense:** 3 physical damage.
 
-### Other abilities
+**Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
 
-- [Mimic Shell](../../monster-abilities/mimic-shell.md): While still resembles a polished stone slab; touching exposes it and grants no free attack.
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-### Basic melee and ordinary options
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+## Passives
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
+**Mimic Shell:** While still, resembles an ordinary object. Reason examination can expose it. Touching or opening it reveals the creature but grants no free attack; concealment is required to hide again.
 
-## At the table
+## Encounter cues
 
 **Signs:** Bootprints end at a patch of unusually clean stone.
 
@@ -71,16 +48,34 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Probe suspicious floors and stay beyond its reach.
 
-**Rewards:** One lost object encased in the body; no automatic gem value. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Ruin; cavern · **Communication:** None
 
-## Summoning
+**Rewards:** One lost object encased in the body; no automatic gem value.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-crystal-ooze
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Ooze · **Role:** Ambush hazard · **CV:** 20
+
+### Creature-roll reference
+
+**Attributes:** Brawn +1; Fortitude +2; Agility -2; Guile -2; Knowledge -2; Reason +0
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Closing gel | Brawn | None | 3 physical damage. | 4 physical damage. Grappled 1. | 6 physical damage. Grappled 2. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** A slow or broad exposed body gives the attacker a Boon. Ordinary attack difficulty; riders and positioning carry the threat.
 
 **Reference damage:** 3/4/6
 
@@ -92,9 +87,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 3.162. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=3.596, O=3.162. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [mimic shell](../../monster-abilities/mimic-shell.md), [seizing limbs](../../monster-abilities/seizing-limbs.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

@@ -4,6 +4,9 @@
 conversions of the old book. All creature statistics, summon permissions and CVs
 are provisional. The established player-roll and action rules remain intact.
 
+Read the [full revision review](review.md) and [per-creature ledger](creature-review.md).
+The first pass has been revised for DA use; it is not a final balance certification.
+
 Start with [using creature cards](procedure.md), then the [roster](roster.md).
 [Monster abilities](../monster-abilities/README.md) are a separate catalog: they
 have no DP price and cannot be purchased as character abilities. A creature only

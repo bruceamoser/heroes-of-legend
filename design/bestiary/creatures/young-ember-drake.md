@@ -1,76 +1,58 @@
 # Young Ember Drake
 
-*Smoke leaks from the drake’s nostrils whenever it becomes excited. It lands on the roof as though testing whether the building is food.*
+*A young, broad-winged dragon with warm red scales, a heavy jaw and smoke-darkened nostrils. Possessiveness has developed faster than judgment or experience.*
 
-## Rules
+**HP:** 28 · **Speed:** Ground 6; fly 8 · **Footprint:** 2x2
 
-**ID:** creature-young-ember-drake
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
 
-**Category:** Dragon · **Role:** Flying artillery · **Adventure band:** 3
-
-**Habitat:** Rocky hill; ruined tower
-
-**HP:** 28 · **CV:** 25
-
-**Footprint:** 2x2 · **Stability:** 1 · **Speed:** Ground 6; fly 8
-
-**Attributes:** Brawn +2; Fortitude +2; Agility +1; Guile +0; Knowledge +0; Reason +1
-
-**Resistance:** Physical 1; fire 3
+**DR / resistance:** Physical 1; fire 3 · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Understands Draconic; speaks short phrases
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Hot jaws
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+### Hot jaws — Main Action
 
-**Target:** One adjacent creature. **Spell:** No.
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-- **Weak:** 3 physical damage.
-- **Standard:** 5 physical damage.
-- **Strong:** 7 physical damage.
+- **Weak defense:** 7 physical damage.
+- **Standard defense:** 5 physical damage.
+- **Strong defense:** 3 physical damage.
 
+### Ember breath — Main Action
 
-### Main — Ember breath
+*Its chest swells and light leaks between its teeth; there is one terrible instant to scatter.*
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+**Target:** All creatures in a cone of 3 rows, 1/3/5 squares wide. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-**Target:** All creatures in a fan 3. **Spell:** No.
+- **Weak defense:** 7 fire damage. Burning 2.
+- **Standard defense:** 5 fire damage. Burning 1.
+- **Strong defense:** 3 fire damage.
 
-- **Weak:** 3 fire damage.
-- **Standard:** 5 fire damage. Burning 1.
-- **Strong:** 7 fire damage. Burning 2.
+**Limit:** Cannot use this attack on consecutive turns, regardless of result.
 
-**Limit:** Cannot use this named breath on its next turn after any use.
+### Claw rake — Main Action
 
-**Procedure:** [Breath](../../monster-abilities/breath.md).
+*The drake slashes across the target rather than committing its head.*
 
-### Basic melee and ordinary options
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+- **Weak defense:** 6 physical damage; Bleeding 2.
+- **Standard defense:** 4 physical damage; Bleeding 1.
+- **Strong defense:** 3 physical damage.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-## At the table
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+
+## Encounter cues
 
 **Signs:** Fresh scorch marks surround a pile of shiny scrap.
 
@@ -80,16 +62,36 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Spread out, use stone cover, and negotiate over a specific object it wants.
 
-**Rewards:** One shared hoard of 60 coins and ordinary trade goods. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Rocky hill; ruined tower · **Communication:** Understands Draconic; speaks short phrases
 
-## Summoning
+**Rewards:** One shared hoard of 60 coins and ordinary trade goods.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-young-ember-drake
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Dragon · **Role:** Flying artillery · **CV:** 27
+
+### Creature-roll reference
+
+**Attributes:** Brawn +2; Fortitude +2; Agility +1; Guile +0; Knowledge +0; Reason +1
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Hot jaws | Brawn | 1 Boon | 3 physical damage. | 5 physical damage. | 7 physical damage. |
+| Ember breath | Brawn | 1 Boon | 3 fire damage. | 5 fire damage. Burning 1. | 7 fire damage. Burning 2. |
+| Claw rake | Brawn | 1 Boon | 3 physical damage. | 4 physical damage; Bleeding 1. | 6 physical damage; Bleeding 2. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 3/5/7
 
@@ -101,9 +103,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 4.000; reference outgoing damage
-per turn 4.000. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.000, O=4.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [breath](../../monster-abilities/breath.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

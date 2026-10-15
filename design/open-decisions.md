@@ -31,8 +31,8 @@ They remain review decisions before claiming full closure or broad test validity
    proposes Main and explicit progress-sensitive outcomes; attribute choice is settled.
 2. Interrupted-action expenditure and when additional HP/item costs are paid.
 3. Mixed temporary/starred condition bookkeeping.
-4. Stability application to collision groups, multi-square footprints, corners and
-   obstructed bounce destinations; falling rounding and resistance.
+4. Stability 0–3 and once-per-new-creature chain consumption are approved.
+   Collision-damage timing, multi-square geometry and falling interpretation remain open.
 5. NPC-versus-NPC conflicts without a player controller; summon multi-square tether
    measurement. Creature cards must now include their actual roll attributes.
 6. Wound damage-type selection when every component reduced to zero but the event
@@ -43,7 +43,7 @@ They remain review decisions before claiming full closure or broad test validity
 
 ## Ready for catalog review
 
-The [bestiary](bestiary/README.md) now contains 84 creatures, 34 separate monster
+The [bestiary](bestiary/README.md) now contains 84 creatures, 49 separate monster
 abilities and explicit summon profiles. Its [review notes](bestiary/review.md)
 identify new decisions and the next test sequence. Structural checks pass; creature
 balance, healer CV, disabling combinations and solo action economy are not certified.

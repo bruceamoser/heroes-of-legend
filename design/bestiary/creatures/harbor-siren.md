@@ -1,63 +1,40 @@
 # Harbor Siren
 
-*The song comes from beneath the pier, where a familiar face looks up through the water.*
+*An aquatic fey with a humanlike face, webbed hands and a voice that carries clearly over water. Its relationship with a harbor may be older than the people now living there.*
 
-## Rules
+**HP:** 17 · **Speed:** Ground 5; swim 8 · **Footprint:** 1x1
 
-**ID:** creature-harbor-siren
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
 
-**Category:** Fey · **Role:** Lurer · **Adventure band:** 3
-
-**Habitat:** Harbor; sea cave
-
-**HP:** 17 · **CV:** 14
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 5; swim 8
-
-**Attributes:** Brawn +0; Fortitude +1; Agility +1; Guile +2; Knowledge +1; Reason +1
-
-**Resistance:** None
+**DR / resistance:** None · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Common and Fey
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Undertow song
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Guile · **Target defense:** Reason
+### Undertow song — Main Action
 
-**Target:** One hearing creature within 5 squares. **Spell:** Yes; provokes next to an enemy.
+*For a moment, the victim remembers a pain that has not happened yet.*
 
-- **Weak:** 2 mental damage.
-- **Standard:** 3 mental damage. Dazed 1.
-- **Strong:** 5 mental damage. Dazed 2.
+**Target:** One hearing creature within 5 squares. **Player defense:** Reason. **Threat:** 1 Bane to that defense.
 
-**Procedure:** [Mind Hammer](../../monster-abilities/mind-hammer.md).
+- **Weak defense:** 5 mental damage. Dazed 2.
+- **Standard defense:** 3 mental damage. Dazed 1.
+- **Strong defense:** 2 mental damage.
 
-### Basic melee and ordinary options
+**Spell:** Provokes when cast beside an enemy.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-## At the table
+## Encounter cues
 
 **Signs:** Sailors remember the same dream and forget the same hour.
 
@@ -67,34 +44,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Ask about the pact and stop answering every invitation alone.
 
-**Rewards:** A negotiated return of lost cargo; never automatic mind control. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Harbor; sea cave · **Communication:** Common and Fey
 
-## Summoning
+**Rewards:** A negotiated return of lost cargo; never automatic mind control.
 
-**Eligibility:** Fey 3
+**Summoning:** Fey 3 — [player reference](../summons/harbor-siren.md).
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+## Design notes — not needed during play
 
-**Carrying:** up to 1 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**ID:** creature-harbor-siren
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
+**Category:** Fey · **Role:** Lurer · **CV:** 16
 
-## CV worksheet
+**Difficulty rationale:** An agile or elusive body warrants attack Banes. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 2/3/5
 
@@ -106,9 +70,8 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 5.000; reference outgoing damage
-per turn 3.162. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.404, O=3.653. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [mind hammer](../../monster-abilities/mind-hammer.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

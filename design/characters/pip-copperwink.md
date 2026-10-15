@@ -126,3 +126,5 @@ One plain worn outfit is supplied by the proposed creation baseline: 0 carried B
 **Spent 46; coins carried 14; final Bulk 10/10.** No encumbrance penalty or change to HP, Speed or Grit. The pack itself is counted. The lesser bottle is d4 and restores 6 HP per use under the normal potion action.
 
 [Price list](../market.md) · [Starting-coin allocation](../starting-coins.md)
+
+**Stability:** 0; no always-active Stability grant in this build. Conditional grants apply only when their cards are used.

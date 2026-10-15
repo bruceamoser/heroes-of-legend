@@ -14,6 +14,8 @@ Choose the intended result before rolling: reduce an obstacle’s remaining stre
 - **Standard:** 2 progress, grapple reduction, or squares of push.
 - **Strong:** 3 progress, grapple reduction, or squares of push.
 
+**Stability:** apply it only to the push option, not obstacle progress or Grappled reduction.
+
 **Duration:** Instant
 
 **Equipment / acquisition:** None.

@@ -6,13 +6,16 @@
 
 **Action:** Reaction · **Attribute:** Fortitude
 
-**Target / range / shape:** Self, when an effect would push or pull you
+**Target / range / shape:** Self, before Stability is applied to forced movement against you, including when struck in a collision chain
 
-- **Weak:** Reduce that displacement by 1 square.
-- **Standard:** Reduce it by 2 squares.
-- **Strong:** Reduce it by 3 squares.
+- **Weak:** Gain Stability 1 for this forced movement.
+- **Standard:** Gain Stability 2 for this forced movement.
+- **Strong:** Gain Stability 3 for this forced movement.
 
-**Duration:** Instant
+Use your highest applicable Stability, maximum 3, rather than adding this grant
+to another source. Apply it once in this chain.
+
+**Duration:** This forced movement only
 
 **Equipment / acquisition:** Requires armor.
 

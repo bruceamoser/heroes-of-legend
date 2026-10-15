@@ -8,7 +8,7 @@
 
 **Target / range / shape:** Self, wearing armor.
 
-Trace the mark and feel your boots grow heavy. Until the start of your next turn, reduce the distance of a push or pull against you by 1. Use the highest such reduction, not a sum.
+Gain Stability 1 until the start of your next turn. Use your highest applicable Stability, maximum 3; this is not an additional distance reduction.
 
 **Duration:** Until the start of your next turn.
 

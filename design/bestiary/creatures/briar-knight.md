@@ -1,67 +1,44 @@
 # Briar Knight
 
-*Thorns grow through the knight’s shield. A flower opens at the shoulder when they bow.*
+*A fey guardian enclosed in barklike armor, with a thorn-grown shield and a long spear. A living blossom at the shoulder marks the promise it serves.*
 
-## Rules
+**HP:** 22 · **Speed:** Ground 6 · **Footprint:** 1x1
 
-**ID:** creature-briar-knight
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
 
-**Category:** Fey · **Role:** Defender · **Adventure band:** 3
-
-**Habitat:** Forest crossing
-
-**HP:** 22 · **CV:** 18
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 6
-
-**Attributes:** Brawn +2; Fortitude +1; Agility +1; Guile +1; Knowledge +0; Reason +1
-
-**Resistance:** Physical 2
+**DR / resistance:** Physical 2 · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Common and Fey
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+**Shield Hunker — Reaction:** Before a shield-blockable attack resolves, impose 1 Bane on player attacks this shield can block until the start of its next turn. The DA judges blockability. Uses its Reaction; stacks with Defend, not another activation of itself.
 
-### Main — Briar spear
+## On its turn
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+**Senses:** Ordinary sight and hearing.
 
-**Target:** One creature within 2 squares. **Spell:** No.
+### Briar spear — Main Action
 
-- **Weak:** 3 physical damage.
-- **Standard:** 4 physical damage. Push 1.
-- **Strong:** 6 physical damage. Push 2.
+*The blow lands with enough force to send its victim stumbling backward.*
 
-**Procedure:** [Driving Blow](../../monster-abilities/driving-blow.md).
+**Target:** One creature within 2 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-### Other abilities
+- **Weak defense:** 6 physical damage. Push 2.
+- **Standard defense:** 4 physical damage. Push 1.
+- **Strong defense:** 3 physical damage.
 
-- [Shield Hunker](../../monster-abilities/shield-hunker.md): Reaction: 1 defense Boon against shield-blockable attacks until next turn.
+### Root the Stance — Maneuver
 
-### Basic melee and ordinary options
+Gain Stability 2 while on soil until its next turn; highest source only.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-## At the table
+## Encounter cues
 
 **Signs:** A path through brambles remains exactly one traveler wide.
 
@@ -71,34 +48,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Read the promise literally; fulfilling it may be easier than defeating its keeper.
 
-**Rewards:** An oath token and ordinary thorn-carved equipment that withers if summoned. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Forest crossing · **Communication:** Common and Fey
 
-## Summoning
+**Rewards:** An oath token and ordinary thorn-carved equipment that withers if summoned.
 
-**Eligibility:** Fey 3
+**Summoning:** Fey 3 — [player reference](../summons/briar-knight.md).
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+## Design notes — not needed during play
 
-**Carrying:** up to 1 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**ID:** creature-briar-knight
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
+**Category:** Fey · **Role:** Defender · **CV:** 19
 
-## CV worksheet
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 3/4/6
 
@@ -110,9 +74,8 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 3.162. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=3.000, O=3.653. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [briar knight root the stance](../../monster-abilities/briar-knight-root-the-stance.md), [driving blow](../../monster-abilities/driving-blow.md), [shield hunker](../../monster-abilities/shield-hunker.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

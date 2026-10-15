@@ -1,81 +1,56 @@
 # Crypt Ghoul
 
-*It stops chewing when it hears your heartbeat. Long fingers scrape the floor as it comes toward the light.*
+*A gaunt, corpse-eating undead with stretched lips, long nails and flesh drawn tight over its joints. It retains enough cunning to seek an isolated victim and avoid a determined group.*
 
-## Rules
+**HP:** 18 · **Speed:** Ground 7 · **Footprint:** 1x1
 
-**ID:** creature-crypt-ghoul
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
 
-**Category:** Undead · **Role:** Disabler · **Adventure band:** 3
-
-**Habitat:** Crypt; battlefield
-
-**HP:** 18 · **CV:** 15
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 7
-
-**Attributes:** Brawn +1; Fortitude +1; Agility +2; Guile +0; Knowledge -1; Reason +1
-
-**Resistance:** None
+**DR / resistance:** None · **Condition immunities:** Poisoned; Asleep
 
 **Weakness:** None
 
-**Condition immunity:** Poisoned; Asleep
+**Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
 
-**Evasion:** 0 · **Threat:** 0
+**Against offensive healing:** controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.
 
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
+## On its turn
 
-**Communication:** None
+**Senses:** Ordinary sight and hearing.
 
-**Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders. Life Drink restoration, if printed, is an explicit exception.
+### Raking claws — Main Action
 
-**Offensive-healing defense:** Fortitude +1; used when a player rolls this creature’s defense against an NPC healing spell. A player attacker still makes only their attack roll.
+*The claws snag and drag; blood follows the withdrawing talons.*
 
-### Main — Raking claws
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+- **Weak defense:** 6 physical damage. Bleeding 2.
+- **Standard defense:** 4 physical damage. Bleeding 1.
+- **Strong defense:** 3 physical damage.
 
-**Target:** One adjacent creature. **Spell:** No.
+### Grave touch — Main Action
 
-- **Weak:** 3 physical damage.
-- **Standard:** 4 physical damage. Bleeding 1.
-- **Strong:** 6 physical damage. Bleeding 2.
+*The touch is colder than winter iron, and the limb refuses to answer.*
 
-**Procedure:** [Rending Blow](../../monster-abilities/rending-blow.md).
+**Target:** One adjacent creature. **Player defense:** Fortitude. **Threat:** 1 Bane to that defense.
 
-### Main — Grave touch
+- **Weak defense:** 4 cold damage. Paralyzed 1; cannot use this attack next turn.
+- **Standard defense:** 3 cold damage.
+- **Strong defense:** 2 cold damage.
 
-**Attack attribute:** Brawn · **Target defense:** Fortitude
+**Limit:** Cannot use this attack on consecutive turns, regardless of result.
 
-**Target:** One adjacent creature. **Spell:** No.
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-- **Weak:** 2 cold damage.
-- **Standard:** 3 cold damage.
-- **Strong:** 4 cold damage. Paralyzed 1; cannot use this attack next turn.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-**Limit:** Cannot use Grave Touch on consecutive turns, regardless of outcome.
+## Passives
 
-**Procedure:** [Grave Chill](../../monster-abilities/grave-chill.md).
+**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
-### Other abilities
-
-- [Lifeless Body](../../monster-abilities/lifeless-body.md): Does not breathe or eat. Only the printed condition immunities apply; dies at 0 HP.
-
-### Basic melee and ordinary options
-
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
-
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Bones are cracked for marrow and stacked with unnatural care.
 
@@ -85,34 +60,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Keep a rescuer beside the front line and deny isolated feeding targets.
 
-**Rewards:** The latest victim’s recoverable pack. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Crypt; battlefield · **Communication:** None
 
-## Summoning
+**Rewards:** The latest victim’s recoverable pack.
 
-**Eligibility:** Undead 3
+**Summoning:** Undead 3 — [player reference](../summons/crypt-ghoul.md).
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+## Design notes — not needed during play
 
-**Carrying:** up to 1 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**ID:** creature-crypt-ghoul
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
+**Category:** Undead · **Role:** Disabler · **CV:** 17
 
-## CV worksheet
+**Difficulty rationale:** An agile or elusive body warrants attack Banes. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 3/4/6
 
@@ -124,9 +86,8 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 5.000; reference outgoing damage
-per turn 3.162. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.404, O=3.653. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [grave chill](../../monster-abilities/grave-chill.md), [lifeless body](../../monster-abilities/lifeless-body.md), [rending blow](../../monster-abilities/rending-blow.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

@@ -1,67 +1,42 @@
 # Oath Devourer
 
-*It speaks in the voice of someone you disappointed. Its mouth opens wider when you make a promise.*
+*A lean fiend with a too-wide mouth and a face that resembles someone the observer has disappointed. It feeds its influence through broken obligations and private bargains.*
 
-## Rules
+**HP:** 34 · **Speed:** Ground 7 · **Footprint:** 1x1
 
-**ID:** creature-oath-devourer
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
 
-**Category:** Fiend · **Role:** Mental predator · **Adventure band:** 7
-
-**Habitat:** Court; crossroads
-
-**HP:** 34 · **CV:** 32
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 7
-
-**Attributes:** Brawn +1; Fortitude +2; Agility +1; Guile +2; Knowledge +2; Reason +2
-
-**Resistance:** mental 2; fire 2
+**DR / resistance:** mental 2; fire 2 · **Condition immunities:** None
 
 **Weakness:** None
 
-**Condition immunity:** None
-
-**Evasion:** 1 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Common and Infernal
-
 **Healing:** Living: ordinary HP healing applies.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+**Spell Screen — Reaction:** Before one spell against it resolves, impose 1 Bane on that player attack (or give its controller 1 defense Boon). For one player AoE roll, include this when choosing worst-case modifiers. Does not cancel the spell.
 
-### Main — Broken promise
+## On its turn
 
-**Attack attribute:** Guile · **Target defense:** Reason
+**Senses:** Ordinary sight and hearing.
 
-**Target:** One hearing creature within 6 squares. **Spell:** Yes; provokes next to an enemy.
+### Broken promise — Main Action
 
-- **Weak:** 4 mental damage.
-- **Standard:** 6 mental damage. Dazed 1.
-- **Strong:** 9 mental damage. Dazed 2.
+*For a moment, the victim remembers a pain that has not happened yet.*
 
-**Procedure:** [Mind Hammer](../../monster-abilities/mind-hammer.md).
+**Target:** One hearing creature within 6 squares. **Player defense:** Reason. **Threat:** 1 Bane to that defense.
 
-### Other abilities
+- **Weak defense:** 9 mental damage. Dazed 2.
+- **Standard defense:** 6 mental damage. Dazed 1.
+- **Strong defense:** 4 mental damage.
 
-- [Spell Screen](../../monster-abilities/spell-screen.md): Reaction: 1 Bane on an incoming spell attack against this creature.
+**Spell:** Provokes when cast beside an enemy.
 
-### Basic melee and ordinary options
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Written agreements lose a few crucial words overnight.
 
@@ -71,16 +46,34 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** State a limited promise, fulfill it openly, and deny private bargains.
 
-**Rewards:** Stolen contracts, a named secret and 100 coins; promises are not transferable character powers. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Court; crossroads · **Communication:** Common and Infernal
 
-## Summoning
+**Rewards:** Stolen contracts, a named secret and 100 coins; promises are not transferable character powers.
 
-**Eligibility:** Ineligible
+**Summoning:** Ineligible.
 
-This entry is not selected by any current category summoning card. Its category
-alone does not grant eligibility. A new summoning permission requires review.
+## Design notes — not needed during play
 
-## CV worksheet
+**ID:** creature-oath-devourer
+
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
+
+**Category:** Fiend · **Role:** Mental predator · **CV:** 33
+
+### Creature-roll reference
+
+**Attributes:** Brawn +1; Fortitude +2; Agility +1; Guile +2; Knowledge +2; Reason +2
+
+| Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
+|---|---|---|---|---|---|
+| Broken promise | Guile | 1 Boon | 4 mental damage. | 6 mental damage. Dazed 1. | 9 mental damage. Dazed 2. |
+
+The incoming attack names the defense attribute; use the six values above. Same targeting, costs and limits apply in either perspective. No opposed second roll.
+
+
+### CV worksheet
+
+**Difficulty rationale:** An agile or elusive body warrants attack Banes. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 4/6/9
 
@@ -92,9 +85,8 @@ alone does not grant eligibility. A new summoning permission requires review.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 4.404; reference outgoing damage
-per turn 6.162. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=4.404, O=6.951. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [mind hammer](../../monster-abilities/mind-hammer.md), [spell screen](../../monster-abilities/spell-screen.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

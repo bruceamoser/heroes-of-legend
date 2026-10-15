@@ -1,69 +1,50 @@
 # Sorrow Ghost
 
-*The ghost’s coat drips rain onto a dry floor. It asks the same question before every door it passes.*
+*A translucent human figure in rain-soaked clothing, its expression fixed between grief and accusation. Details of its appearance belong to the last unresolved moments of its life.*
 
-## Rules
+**HP:** 16 · **Speed:** Ground 6 · **Footprint:** 1x1
 
-**ID:** creature-sorrow-ghost
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
 
-**Category:** Spirit · **Role:** Haunter · **Adventure band:** 3
-
-**Habitat:** House; ruin
-
-**HP:** 16 · **CV:** 20
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 6
-
-**Attributes:** Brawn -1; Fortitude +0; Agility +1; Guile +1; Knowledge +1; Reason +2
-
-**Resistance:** Physical 2
+**DR / resistance:** Physical 2 · **Condition immunities:** Bleeding; Poisoned; Asleep
 
 **Weakness:** None
 
-**Condition immunity:** Bleeding; Poisoned; Asleep
-
-**Evasion:** 0 · **Threat:** 0
-
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
-
-**Communication:** Languages known in life
-
 **Healing:** Spirit: ordinary magical HP healing applies; potions cannot be swallowed.
 
-**Offensive-healing defense:** Not applicable; ordinary healing is not an attack against this creature.
+## On its turn
 
-### Main — Accusation
+**Senses:** Ordinary sight and hearing.
 
-**Attack attribute:** Reason · **Target defense:** Reason
+### Accusation — Main Action
 
-**Target:** One visible creature within 5 squares. **Spell:** Yes; provokes next to an enemy.
+*For a moment, the victim remembers a pain that has not happened yet.*
 
-- **Weak:** 2 mental damage.
-- **Standard:** 3 mental damage. Dazed 1.
-- **Strong:** 5 mental damage. Dazed 2.
+**Target:** One visible creature within 5 squares. **Player defense:** Reason. **Threat:** 1 Bane to that defense.
 
-**Procedure:** [Mind Hammer](../../monster-abilities/mind-hammer.md).
+- **Weak defense:** 5 mental damage. Dazed 2.
+- **Standard defense:** 3 mental damage. Dazed 1.
+- **Strong defense:** 2 mental damage.
 
-### Other abilities
+**Spell:** Provokes when cast beside an enemy.
 
-- [Anchor Bound](../../monster-abilities/anchor-bound.md): a rain-soaked letter in its room names the witness it seeks. Reading that letter aloud while holding it costs a Main Action; the ghost loses its physical resistance until the start of the reader’s next turn. Repeating the action renews, rather than stacks, this exposure. Resolving the underlying death may end the haunting by agreement in the fiction. The ghost still dies at 0 HP.
-- [Lifeless Body](../../monster-abilities/lifeless-body.md): Does not breathe or eat. Only the printed condition immunities apply; dies at 0 HP.
-- [Spectral Passage](../../monster-abilities/spectral-passage.md): Maneuver: move 2 squares through nonliving walls; finish visible in legal space.
+### Spectral Passage — Maneuver
 
-### Basic melee and ordinary options
+Move up to 2 squares through nonliving walls, finishing in a visible legal empty space. Cannot cross living bodies or remain in a wall. Provokes on leaving reach; does not bypass a ward expressly barring spirits.
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-## At the table
+## Passives
+
+**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
+
+**Anchor Bound:** Its rain-soaked letter identifies the witness. Reading it aloud while holding it costs Main and removes the ghost’s physical DR until the reader’s next turn. Repetition renews, not stacks. A summoned ghost has no anchor; dies at 0 normally.
+
+## Encounter cues
 
 **Signs:** One room remains cold and wet whatever the weather.
 
@@ -73,36 +54,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Find the person or evidence named in its repeated question.
 
-**Rewards:** Revealing the truth may open an inheritance or hidden cache. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** House; ruin · **Communication:** Languages known in life
 
-## Summoning
+**Rewards:** Revealing the truth may open an inheritance or hidden cache.
 
-**Eligibility:** Spirit 3
+**Summoning:** Spirit 3 — [player reference](../summons/sorrow-ghost.md).
 
-A summoned form has no letter anchor and does not receive Anchor Bound.
+## Design notes — not needed during play
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+**ID:** creature-sorrow-ghost
 
-**Carrying:** up to 1 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Category:** Spirit · **Role:** Haunter · **CV:** 23
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
-
-## CV worksheet
+**Difficulty rationale:** An agile or elusive body warrants attack Banes. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 2/3/5
 
@@ -114,9 +80,8 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 3.162. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=2.404, O=3.653. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [anchor bound](../../monster-abilities/anchor-bound.md), [lifeless body](../../monster-abilities/lifeless-body.md), [mind hammer](../../monster-abilities/mind-hammer.md), [spectral passage](../../monster-abilities/spectral-passage.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)

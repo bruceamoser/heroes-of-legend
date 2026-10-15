@@ -1,68 +1,50 @@
 # Barrow Guard
 
-*Turf hangs from the guard’s shield. Its voice is a grinding whisper of the oath carved over the tomb.*
+*An armed burial guardian in tarnished armor, with turf caught in its shield and remnants of an oath worked into its clothing. It remembers its duty more clearly than its life.*
 
-## Rules
+**HP:** 23 · **Speed:** Ground 5 · **Footprint:** 1x1
 
-**ID:** creature-barrow-guard
+## When attacked
 
-**Status:** Proposed; CV is an uncalibrated estimate.
+**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
 
-**Category:** Undead · **Role:** Defender · **Adventure band:** 3
-
-**Habitat:** Barrow; ancient road
-
-**HP:** 23 · **CV:** 21
-
-**Footprint:** 1x1 · **Stability:** 0 · **Speed:** Ground 5
-
-**Attributes:** Brawn +2; Fortitude +1; Agility +0; Guile +0; Knowledge +0; Reason +1
-
-**Resistance:** Physical 2
+**DR / resistance:** Physical 2 · **Condition immunities:** Bleeding; Poisoned; Asleep
 
 **Weakness:** None
 
-**Condition immunity:** Bleeding; Poisoned; Asleep
+**Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
 
-**Evasion:** 0 · **Threat:** 0
+**Against offensive healing:** controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.
 
-**Senses:** Ordinary sight and hearing. No automatic detection of Hidden targets.
+**Shield Hunker — Reaction:** Before a shield-blockable attack resolves, impose 1 Bane on player attacks this shield can block until the start of its next turn. The DA judges blockability. Uses its Reaction; stacks with Defend, not another activation of itself.
 
-**Communication:** None
+## On its turn
 
-**Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders. Life Drink restoration, if printed, is an explicit exception.
+**Senses:** Ordinary sight and hearing.
 
-**Offensive-healing defense:** Fortitude +1; used when a player rolls this creature’s defense against an NPC healing spell. A player attacker still makes only their attack roll.
+### Oath blade — Main Action
 
-### Main — Oath blade
+*The blow lands with enough force to send its victim stumbling backward.*
 
-**Attack attribute:** Brawn · **Target defense:** Agility
+**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
 
-**Target:** One adjacent creature. **Spell:** No.
+- **Weak defense:** 7 physical damage. Push 2.
+- **Standard defense:** 5 physical damage. Push 1.
+- **Strong defense:** 3 physical damage.
 
-- **Weak:** 3 physical damage.
-- **Standard:** 5 physical damage. Push 1.
-- **Strong:** 7 physical damage. Push 2.
+### Plant the Shield — Maneuver
 
-**Procedure:** [Driving Blow](../../monster-abilities/driving-blow.md).
+Gain Stability 2 while on solid ground until its next turn; highest source only. This does not activate Shield Hunker.
 
-### Other abilities
+**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
 
-- [Lifeless Body](../../monster-abilities/lifeless-body.md): Does not breathe or eat. Only the printed condition immunities apply; dies at 0 HP.
-- [Shield Hunker](../../monster-abilities/shield-hunker.md): Reaction: gain 1 defense Boon against blockable attacks until next turn.
+**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
 
-### Basic melee and ordinary options
+## Passives
 
-**Basic melee:** Main Action; Brawn against Agility; one adjacent creature;
-Weak/Standard/Strong **2/3/5 physical damage**, no rider.
-Uses its held melee weapon or natural strike; this explicit profile is also its
-only opportunity attack, spending Reaction. Summoned forms have no Reaction.
+**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
-Force, Defend, search, hide and feasible interaction follow the
-[creature procedure](../procedure.md). Listed special actions do not grant extra
-actions. Standard turn budgets and conversion apply.
-
-## At the table
+## Encounter cues
 
 **Signs:** Every disturbed grave has been filled in again from within.
 
@@ -72,34 +54,21 @@ actions. Standard turn budgets and conversion apply.
 
 **Counterplay and conversation:** Return stolen grave goods or show permission from the rightful heir.
 
-**Rewards:** Melee weapon, shield and burial jewelry worth 30 coins if legitimately recovered. Summoned bodies and equipment leave no permanent loot.
+**Habitat:** Barrow; ancient road · **Communication:** None
 
-## Summoning
+**Rewards:** Melee weapon, shield and burial jewelry worth 30 coins if legitimately recovered.
 
-**Eligibility:** Undead 3
+**Summoning:** Undead 3 — [player reference](../summons/barrow-guard.md).
 
-Use this entry’s HP, attributes, movement, defenses and printed Main/Maneuver
-abilities. No Reactions, opportunity attacks, Knit Flesh, automatic attacks or
-independent active effects. Lifeless Body and printed passive defenses remain;
-Pack Hunter remains only under its active-ally restriction, if listed.
+## Design notes — not needed during play
 
-**Carrying:** up to 1 Bulk, subject to anatomy; no extra inventory material
-is created. Mouths carry one object and cannot use tools. Hands may manipulate
-ordinary objects but grant no training or recipes. Abstract light/flame bodies
-cannot carry objects unless explicitly given hands in the fiction.
+**ID:** creature-barrow-guard
 
-**Commands:** a Main command supplies Main + Maneuver; a Maneuver command supplies
-Maneuver + movement. Conversion is downward only. Search or Hide costs Main;
-Defend or feasible Aid costs Maneuver. Scent tracking requires a printed tracking
-sense and uses Reason for 1/2/3 progress toward the DA’s declared task. Other
-senses do not grant tracking expertise. No activity or alerts without a command.
+**Status:** Revised proposal for Bruce’s review; not balance-certified.
 
-Condition ticks and turn-based expiries use the controller’s turn, even if not
-commanded. Six-square tether, scene duration and immediate first command follow
-[summon procedures](../summon-choices.md). An eligible form’s ordinary instincts
-do not override a paid command; a command still cannot grant an unlisted power.
+**Category:** Undead · **Role:** Defender · **CV:** 23
 
-## CV worksheet
+**Difficulty rationale:** No innate attack modifier; armor, cover and chosen actions provide its defenses. Its dangerous attack imposes defense Banes.
 
 **Reference damage:** 3/5/7
 
@@ -111,9 +80,8 @@ do not override a paid command; a command still cannot grant an unlisted power.
 
 **Regeneration per turn:** 0
 
-Reference incoming damage per attack 3.000; reference outgoing damage
-per turn 4.000. Utility covers this entry’s control, range, mobility,
-support and defensive options rather than adding their damage twice. Alternate
-attacks and terrain are not simulated. See the [worksheet assumptions](../encounters.md).
+Reference I=3.000, O=4.596. CV uses the [seed worksheet](../encounters.md); action choices, Stability and control are not simulated. Recalibration remains required.
 
-[Bestiary roster](../roster.md) · [Card procedure](../procedure.md)
+**Ability sources:** [barrow guard plant the shield](../../monster-abilities/barrow-guard-plant-the-shield.md), [driving blow](../../monster-abilities/driving-blow.md), [lifeless body](../../monster-abilities/lifeless-body.md), [shield hunker](../../monster-abilities/shield-hunker.md).
+
+[Roster](../roster.md) · [Agreed Stability](../../rules/stability.md)
