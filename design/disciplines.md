@@ -219,6 +219,7 @@ purchases follow the agreed foundations; no ability chain is required.
 - [Dawn Shard](cards/dawn-shard.md) — level 1; Main Action.
 - [Lantern in the Palm](cards/lantern-in-the-palm.md) — level 1; Maneuver.
 - [Lantern Moths](cards/lantern-moths.md) — level 1; Main Action.
+- [Mercy in the Light](cards/mercy-in-the-light.md) — level 1; Main Action.
 - [Noonday Judgment](cards/noonday-judgment.md) — level 7; Main Action.
 - [Oathlight Strike](cards/oathlight-strike.md) — level 1; Main Action.
 - [Reveal the Threshold](cards/reveal-the-threshold.md) — level 3; Main Action.
@@ -238,6 +239,7 @@ purchases follow the agreed foundations; no ability chain is required.
 - [Read the Next Blow](cards/read-the-next-blow.md) — level 3; Reaction.
 - [Read the Remains](cards/read-the-remains.md) — level 1; Main Action.
 - [Reconstruct the Event](cards/reconstruct-the-event.md) — level 7; Main Action.
+- [Stitch the Living Pattern](cards/stitch-the-living-pattern.md) — level 1; Main Action.
 - [Teach Stone to Bend](cards/teach-stone-to-bend.md) — level 3; Main Action.
 - [The Moment Foretold](cards/the-moment-foretold.md) — level 7; Reaction.
 - [The Patient Metal](cards/the-patient-metal.md) — level 1; Main Action.

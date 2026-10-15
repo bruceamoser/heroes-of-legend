@@ -11,3 +11,5 @@ Agreed attribute minimums and HP contributions; fresh discipline affinities and 
 - [Unbalanced](classes/unbalanced.md)
 - [Shadow](classes/shadow.md)
 - [Odd](classes/odd.md)
+
+- [Warden](classes/warden.md) — new proposal: wilderness guide, tracker and hunter.

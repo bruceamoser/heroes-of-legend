@@ -60,3 +60,9 @@ fourteen shared passives, mixed requirements and worked purchase checks. Every c
 now separates narrative from Rules. New details remain proposals for review.
 
 [Full card review and per-record findings](reviews/1149-full-card-review.md) — October 13, 2026; table play, clarity and VTT readiness.
+
+## Warden and healing traditions
+
+The [Warden and healing review](reviews/1161-warden-and-healing.md) adds a proposed
+tenth class and two Novice healing expressions. Existing worked characters remain
+unchanged; the review shows how Lira can become a Warden with the same budgets.
