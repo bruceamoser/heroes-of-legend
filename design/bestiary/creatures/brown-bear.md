@@ -2,51 +2,64 @@
 
 *A broad-shouldered forest bear with shaggy brown fur, curved claws and a powerful muzzle. Its bulk conceals surprising speed; food, cubs and personal space matter far more than territory on a map.*
 
-**HP:** 22 · **Speed:** Ground 6; climb 4 · **Footprint:** 2x2
+**HP:** 22 · **Speed:** 6; climb 4 · **Size:** 2 (2x2 squares) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** None · **Threat:** 1 Bane · **Stability:** 1
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Forepaw slam | 7/5/3 |
+| Crushing bite | 8/5/3 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Warning Bellow | One hearing creature within 3 squares gains Frightened 1 of the bear; once per turn. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Forepaw slam — Main Action
+## Details
+
+### Forepaw slam
 
 *It gathers itself, then arrives in a rush of claws and weight.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 7 physical damage. After an approach of 2 squares, target is Prone.
-- **Standard defense:** 5 physical damage. After an approach of 2 squares, target is Prone.
-- **Strong defense:** 3 physical damage.
+**Weak defense:** After an approach of 2 squares, target is Prone. **Standard defense:** After an approach of 2 squares, target is Prone.
 
-### Crushing bite — Main Action
+### Crushing bite
 
 *Its jaws close on the opening left by a raised shield.*
 
-**Target:** One adjacent creature. **Player defense:** Fortitude. **Threat:** 1 Bane to that defense.
+**Target:** One adjacent creature. **Player defense:** Fortitude. **Damage type:** physical.
 
-- **Weak defense:** 8 physical damage; Bleeding 1.
-- **Standard defense:** 5 physical damage.
-- **Strong defense:** 3 physical damage.
+**Weak defense:** Bleeding 1.
 
-### Warning Bellow — Maneuver
+### General details
 
-One hearing creature within 3 squares gains Frightened 1 of the bear; once per turn.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
-## Encounter cues
+**Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Split logs, shredded bark and fresh berry scat.
 
@@ -58,7 +71,7 @@ One hearing creature within 3 squares gains Frightened 1 of the bear; once per t
 
 **Habitat:** Wilderness · **Communication:** None
 
-**Rewards:** Food caches and an abandoned hunter’s trap.
+**Loot:** Food caches and an abandoned hunter’s trap.
 
 **Summoning:** Animal 3 — [player reference](../summons/brown-bear.md).
 

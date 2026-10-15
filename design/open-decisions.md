@@ -43,7 +43,7 @@ They remain review decisions before claiming full closure or broad test validity
 
 ## Ready for catalog review
 
-The [bestiary](bestiary/README.md) now contains 84 creatures, 49 separate monster
+The [bestiary](bestiary/README.md) now contains 84 creatures, 50 separate monster
 abilities and explicit summon profiles. Its [review notes](bestiary/review.md)
 identify new decisions and the next test sequence. Structural checks pass; creature
 balance, healer CV, disabling combinations and solo action economy are not certified.

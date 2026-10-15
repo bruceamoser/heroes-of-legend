@@ -2,41 +2,59 @@
 
 *A lean fiend with a too-wide mouth and a face that resembles someone the observer has disappointed. It feeds its influence through broken obligations and private bargains.*
 
-**HP:** 34 · **Speed:** Ground 7 · **Footprint:** 1x1
+**HP:** 34 · **Speed:** 7 · **Size:** 1 (medium) · **Armor DR:** 0\*
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Mental (2), Fire (2)\
+**Immunities:** None
 
-**DR / resistance:** mental 2; fire 2 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Broken promise | 9/6/4 |
 
-**Spell Screen — Reaction:** Before one spell against it resolves, impose 1 Bane on that player attack (or give its controller 1 defense Boon). For one player AoE roll, include this when choosing worst-case modifiers. Does not cancel the spell.
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-## On its turn
+| Reactions | Effect |
+|---|---|
+| Spell Screen | Impose 1 Bane on one incoming spell attack. See details. |
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-**Senses:** Ordinary sight and hearing.
+## Details
 
-### Broken promise — Main Action
+### Broken promise
 
 *For a moment, the victim remembers a pain that has not happened yet.*
 
-**Target:** One hearing creature within 6 squares. **Player defense:** Reason. **Threat:** 1 Bane to that defense.
+**Target:** One hearing creature within 6 squares. **Player defense:** Reason. **Damage type:** mental.
 
-- **Weak defense:** 9 mental damage. Dazed 2.
-- **Standard defense:** 6 mental damage. Dazed 1.
-- **Strong defense:** 4 mental damage.
+**Weak defense:** Dazed 2. **Standard defense:** Dazed 1.
 
 **Spell:** Provokes when cast beside an enemy.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### Spell Screen
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+Before one spell against it resolves, impose 1 Bane on that player attack (or give its controller 1 defense Boon). For one player AoE roll, include this when choosing worst-case modifiers. Does not cancel the spell.
 
-## Encounter cues
+### General details
+
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Written agreements lose a few crucial words overnight.
 
@@ -48,7 +66,7 @@
 
 **Habitat:** Court; crossroads · **Communication:** Common and Infernal
 
-**Rewards:** Stolen contracts, a named secret and 100 coins; promises are not transferable character powers.
+**Loot:** Stolen contracts, a named secret and 100 coins; promises are not transferable character powers.
 
 **Summoning:** Ineligible.
 

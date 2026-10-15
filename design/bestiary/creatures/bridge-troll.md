@@ -2,41 +2,58 @@
 
 *A tall, long-armed giant with rubbery hide, a broad nose and scars where fire defeated its healing flesh. Appetite and a stubborn sense of ownership govern most of its bargains.*
 
-**HP:** 26 · **Speed:** Ground 6 · **Footprint:** 2x2
+**HP:** 26 · **Speed:** 6 · **Size:** 2 (2x2 squares) · **Armor DR:** 1
 
-## When attacked
+**Evasion:** None · **Threat:** 1 Bane · **Stability:** 1
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** Fire (see details)\
+**Resistances:** Physical (1)\
+**Immunities:** None
 
-**DR / resistance:** Physical 1 · **Condition immunities:** None
+## Actions
 
-**Weakness:** Fire damage suppresses Knit Flesh until its next recovery.
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Bridge club | 7/5/3 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Bridge club — Main Action
+## Details
+
+### Bridge club
 
 *The blow lands with enough force to send its victim stumbling backward.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 7 physical damage. Push 2.
-- **Standard defense:** 5 physical damage. Push 1.
-- **Strong defense:** 3 physical damage.
+**Weak defense:** Push 2. **Standard defense:** Push 1.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Passives
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
+
+**Weakness:** Fire damage suppresses Knit Flesh until its next recovery.
 
 **Knit Flesh:** At turn end, recover 3 HP if above 0, unless it took fire damage since its previous turn end. Dies at 0; cannot regrow from death.
 
-## Encounter cues
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Bones and carefully sorted toll coins lie beneath the span.
 
@@ -48,7 +65,7 @@
 
 **Habitat:** Bridge; river · **Communication:** Common and Giant
 
-**Rewards:** 45 coins in the toll box, plus belongings that may have living owners.
+**Loot:** 45 coins in the toll box, plus belongings that may have living owners.
 
 **Summoning:** Ineligible.
 

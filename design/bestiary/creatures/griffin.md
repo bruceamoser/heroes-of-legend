@@ -2,47 +2,63 @@
 
 *A great winged predator with an eagle’s head and forequarters joined to a powerful feline body. Sharp talons and broad wings suit it to cliffs and open hunting ground.*
 
-**HP:** 30 · **Speed:** Ground 6; fly 10 · **Footprint:** 2x2
+**HP:** 30 · **Speed:** 6; fly 10 · **Size:** 2 (2x2 squares) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 1
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Diving talons | 8/6/4 |
+| Hooked beak | 8/6/4 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Diving talons — Main Action
+## Details
+
+### Diving talons
 
 *It gathers itself, then arrives in a rush of claws and weight.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 8 physical damage. After moving 2 toward target, Prone.
-- **Standard defense:** 6 physical damage. After moving 2 toward target, Prone.
-- **Strong defense:** 4 physical damage.
+**Weak defense:** After moving 2 toward target, Prone. **Standard defense:** After moving 2 toward target, Prone.
 
-### Hooked beak — Main Action
+### Hooked beak
 
 *The hooked beak finds purchase while the wings hold the creature steady.*
 
-**Target:** One adjacent creature. **Player defense:** Fortitude. **Threat:** 1 Bane to that defense.
+**Target:** One adjacent creature. **Player defense:** Fortitude. **Damage type:** physical.
 
-- **Weak defense:** 8 physical damage; Bleeding 2.
-- **Standard defense:** 6 physical damage; Bleeding 1.
-- **Strong defense:** 4 physical damage.
+**Weak defense:** Bleeding 2. **Standard defense:** Bleeding 1.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Large feathers and clean-picked hooves lie below a high ledge.
 
@@ -54,7 +70,7 @@
 
 **Habitat:** Cliff; highland · **Communication:** None
 
-**Rewards:** A nest may contain one valuable lost saddle or traveler’s pack.
+**Loot:** A nest may contain one valuable lost saddle or traveler’s pack.
 
 **Summoning:** Ineligible.
 

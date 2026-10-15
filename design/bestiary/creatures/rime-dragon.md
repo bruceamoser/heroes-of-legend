@@ -2,67 +2,76 @@
 
 *A long-bodied dragon with pale blue scales, translucent horns and wings like thin sheets of ice. It favors frozen coasts and glaciers where its memories and prey can remain preserved.*
 
-**HP:** 50 · **Speed:** Ground 7; fly 9; swim 7 · **Footprint:** 3x3
+**HP:** 50 · **Speed:** 7; fly 9; swim 7 · **Size:** 3 (3x3 squares) · **Armor DR:** 2\*
 
-## When attacked
+**Evasion:** None · **Threat:** 2 Banes · **Stability:** 2
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 2 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** Physical (2), Cold (3)\
+**Immunities:** None
 
-**DR / resistance:** Physical 2; cold 3 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Hooking talons | 9/7/5 |
+| Winter breath | 9/7/5 |
+| Ice-edged bite | 9/6/4 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Wing Beat | One adjacent creature gains Slowed 1; no roll or damage. Once per turn; no additional push or Blinded. |
+| Ice Anchor | Gain Stability 3 while on ice or solid ground until its next turn; highest source only. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Hooking talons — Main Action
+## Details
+
+### Hooking talons
 
 *A hooked limb braces against the bank and heaves its catch toward the dark water.*
 
-**Target:** One creature within 2 squares. **Player defense:** Agility. **Threat:** 2 Banes to that defense.
+**Target:** One creature within 2 squares. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 9 physical damage. Pull 2.
-- **Standard defense:** 7 physical damage. Pull 1.
-- **Strong defense:** 5 physical damage.
+**Weak defense:** Pull 2. **Standard defense:** Pull 1.
 
-### Winter breath — Main Action
+### Winter breath
 
 *Its chest swells and light leaks between its teeth; there is one terrible instant to scatter.*
 
-**Target:** All creatures in a line 6. **Player defense:** Agility. **Threat:** 2 Banes to that defense.
+**Target:** All creatures in a line 6. **Player defense:** Agility. **Damage type:** cold.
 
-- **Weak defense:** 9 cold damage. Freezing 2.
-- **Standard defense:** 7 cold damage. Freezing 1.
-- **Strong defense:** 5 cold damage.
+**Weak defense:** Freezing 2. **Standard defense:** Freezing 1.
 
 **Limit:** Cannot use this attack on consecutive turns, regardless of result.
 
-### Ice-edged bite — Main Action
+### Ice-edged bite
 
 *Cold spills between its teeth and crusts across the bitten armor.*
 
-**Target:** One creature within 2 squares. **Player defense:** Fortitude. **Threat:** 2 Banes to that defense.
+**Target:** One creature within 2 squares. **Player defense:** Fortitude. **Damage type:** cold.
 
-- **Weak defense:** 9 cold damage; Freezing 2.
-- **Standard defense:** 6 cold damage; Freezing 1.
-- **Strong defense:** 4 cold damage.
+**Weak defense:** Freezing 2. **Standard defense:** Freezing 1.
 
-### Wing Beat — Maneuver
+### General details
 
-One adjacent creature gains Slowed 1; no roll or damage. Once per turn; no additional push or Blinded.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-### Ice Anchor — Maneuver
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-Gain Stability 3 while on ice or solid ground until its next turn; highest source only.
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+**Heavy Frame — Passive:** Stability 2; an explicit creature trait, not a bonus from size.
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 2 Banes; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Healing:** Living: ordinary HP healing applies.
 
-## Encounter cues
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Frozen carcasses hang in sheltered clefts above the hunting ground.
 
@@ -74,7 +83,7 @@ Gain Stability 3 while on ice or solid ground until its next turn; highest sourc
 
 **Habitat:** Glacier; frozen coast · **Communication:** Common and Draconic
 
-**Rewards:** A single hoard: propose 300 coins and one recovered historical object with a story.
+**Loot:** A single hoard: propose 300 coins and one recovered historical object with a story.
 
 **Summoning:** Ineligible.
 

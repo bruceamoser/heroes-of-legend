@@ -2,51 +2,67 @@
 
 *An ancient living tree with a broad trunk, heavy root limbs and a crown large enough to shelter birds. It is a guardian of a particular grove, capable of patience as well as immense force.*
 
-**HP:** 40 · **Speed:** Ground 4 · **Footprint:** 3x3
+**HP:** 40 · **Speed:** 4 · **Size:** 3 (3x3 squares) · **Armor DR:** 2
 
-## When attacked
+**Evasion:** 1 Boon · **Threat:** 1 Bane · **Stability:** 2
 
-**Evasion:** 1 Boon to player attacks. · **Stability:** 2 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** Physical (2)\
+**Immunities:** Bleeding; Asleep
 
-**DR / resistance:** Physical 2 · **Condition immunities:** Bleeding; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Branch sweep | 9/6/4 |
+| Root snare | 0/0/0 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Branch sweep — Main Action
+## Details
+
+### Branch sweep
 
 *A great limb scythes across the ground, forcing everyone nearby to move.*
 
-**Target:** Up to two creatures within 3 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** Up to two creatures within 3 squares. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 9 physical damage. Push each 4.
-- **Standard defense:** 6 physical damage. Push each 2.
-- **Strong defense:** 4 physical damage.
+**Weak defense:** Push each 4. **Standard defense:** Push each 2.
 
-### Root snare — Main Action
+### Root snare
 
 *Roots punch through the ground and lace together around the trespassers’ legs.*
 
-**Target:** 5 connected visible ground squares within 6. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** 5 connected visible ground squares within 6. **Player defense:** Agility. **Damage type:** None.
 
-- **Weak defense:** No damage. Difficult terrain until next turn; Slowed 2.
-- **Standard defense:** No damage. Difficult terrain until next turn; Slowed 1.
-- **Strong defense:** No damage. Difficult terrain until next turn.
+**Weak defense:** Difficult terrain until next turn; Slowed 2. **Standard defense:** Difficult terrain until next turn; Slowed 1. **Strong defense:** Difficult terrain until next turn.
 
 **Spell:** Provokes when cast beside an enemy.
 
 **Limit:** Grounded creatures only. Terrain lasts until the start of this creature’s next turn; conditions decay normally. No entry damage or repeated attack.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Heavy Frame — Passive:** Stability 2; an explicit creature trait, not a bonus from size.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Boundary stones are gently but repeatedly pushed back into place.
 
@@ -58,7 +74,7 @@
 
 **Habitat:** Ancient forest · **Communication:** Common and old woodland speech
 
-**Rewards:** A granted branch, safe shelter, or directions to a forgotten shrine.
+**Loot:** A granted branch, safe shelter, or directions to a forgotten shrine.
 
 **Summoning:** Ineligible.
 

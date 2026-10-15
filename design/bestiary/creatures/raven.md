@@ -2,35 +2,48 @@
 
 *A large black corvid with an iridescent throat, wedge-shaped tail and keen, curious eyes. It remembers faces and treats unattended food and interesting objects as opportunities.*
 
-**HP:** 4 · **Speed:** Ground 2; fly 9 · **Footprint:** 1x1
+**HP:** 4 · **Speed:** 2; fly 9 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** 1 Boon · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 2/1/1 |
+| Peck | 2/1/1 |
+
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
+
+## Details
+
+### Peck
+
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
+
+### General details
+
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Healing:** Living: ordinary HP healing applies.
 
-## On its turn
-
 **Senses:** Ordinary sight and hearing.
-
-### Peck — Main Action
-
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Boon to that defense.
-
-- **Weak defense:** 2 physical damage.
-- **Standard defense:** 1 physical damage.
-- **Strong defense:** 1 physical damage.
-
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
-
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Boon; Weak defense 2, Standard 1, Strong 1 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
-
-## Encounter cues
 
 **Signs:** Bright objects disappear from an unattended camp.
 
@@ -42,7 +55,7 @@
 
 **Habitat:** Wilderness · **Communication:** Calls; cannot report human speech verbatim
 
-**Rewards:** A nest may hold one small lost object.
+**Loot:** A nest may hold one small lost object.
 
 **Summoning:** Animal 1 — [player reference](../summons/raven.md).
 

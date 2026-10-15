@@ -2,47 +2,63 @@
 
 *A turning column of rain, grit and lightning with a dimly human outline at its center. Its shape continually reforms around the pressure of the wind holding it together.*
 
-**HP:** 30 · **Speed:** Ground 0; fly 7 · **Footprint:** 2x2
+**HP:** 30 · **Speed:** 0; fly 7 · **Size:** 2 (2x2 squares) · **Armor DR:** 1\*
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 1
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** Lightning (3), Physical (1)\
+**Immunities:** Bleeding; Poisoned; Asleep
 
-**DR / resistance:** lightning 3; Physical 1 · **Condition immunities:** Bleeding; Poisoned; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Forked flash | 8/6/4 |
+| Driving gust | 0/0/0 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Forked flash — Main Action
+## Details
+
+### Forked flash
 
 *Heat crawls along the strike, or frost flowers across the skin where it passes.*
 
-**Target:** One visible creature within 6 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One visible creature within 6 squares. **Player defense:** Agility. **Damage type:** lightning.
 
-- **Weak defense:** 8 lightning damage. Burning 2.
-- **Standard defense:** 6 lightning damage. Burning 1.
-- **Strong defense:** 4 lightning damage.
+**Weak defense:** Burning 2. **Standard defense:** Burning 1.
 
-### Driving gust — Main Action
+### Driving gust
 
 *Dust lifts in a sheet and cloaks snap straight behind their wearers.*
 
-**Target:** All creatures in a line 6 from this creature. **Player defense:** Brawn. **Threat:** 1 Bane to that defense.
+**Target:** All creatures in a line 6 from this creature. **Player defense:** Brawn. **Damage type:** None.
 
-- **Weak defense:** No damage. Push 3.
-- **Standard defense:** No damage. Push 2.
-- **Strong defense:** No damage. Push 1.
+**Weak defense:** Push 3. **Standard defense:** Push 2. **Strong defense:** Push 1.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
+
+**Healing:** Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Debris forms rings around a place untouched by rain.
 
@@ -54,7 +70,7 @@
 
 **Habitat:** Mountain; storm coast · **Communication:** None
 
-**Rewards:** A shattered binding ring worth 40 coins as salvage, once.
+**Loot:** A shattered binding ring worth 40 coins as salvage, once.
 
 **Summoning:** Elemental 7 — [player reference](../summons/storm-column.md).
 

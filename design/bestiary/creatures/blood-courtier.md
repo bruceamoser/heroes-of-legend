@@ -2,49 +2,65 @@
 
 *An elegant undead predator with cool skin, immaculate clothes and teeth easily concealed by a practiced smile. Its household and social influence protect a carefully hidden feeding arrangement.*
 
-**HP:** 30 · **Speed:** Ground 7; climb 6 · **Footprint:** 1x1
+**HP:** 30 · **Speed:** 7; climb 6 · **Size:** 1 (medium) · **Armor DR:** 2\*
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** Sunlight (see details)\
+**Resistances:** Physical (2), Life (2)\
+**Immunities:** Poisoned; Asleep
 
-**DR / resistance:** Physical 2; Life 2 · **Condition immunities:** Poisoned; Asleep
+## Actions
+
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Life-drinking bite | 8/6/4 |
+
+| Maneuvers | Effect |
+|---|---|
+| Borrowed Face | Copy a person’s appearance and voice; keep its own statistics. See details. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
+
+## Details
+
+### Life-drinking bite
+
+*The victim pales as a stolen flush of warmth returns to the attacker’s face.*
+
+**Target:** One adjacent creature. **Player defense:** Fortitude. **Damage type:** Life.
+
+**Weak defense:** Recover up to 2 HP actually drained. **Standard defense:** Recover up to 1 HP actually drained.
+
+**Limit:** Restoration cannot exceed actual HP removed or maximum HP. This is explicitly undead-compatible life theft, not ordinary healing.
+
+### Borrowed Face
+
+Take the appearance and voice of a person of the same footprint, until dismissed or reduced to 0 HP. Keep statistics and equipment; gain no memories, languages or powers. Suspicious examination uses normal player Reason. Direct sunlight prevents this ability and ends the disguise.
+
+### General details
+
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Weakness:** Direct sunlight ends Borrowed Face and prevents using it.
+
+**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
 **Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
 
 **Against offensive healing:** controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.
 
-## On its turn
-
 **Senses:** Ordinary sight and hearing.
-
-### Life-drinking bite — Main Action
-
-*The victim pales as a stolen flush of warmth returns to the attacker’s face.*
-
-**Target:** One adjacent creature. **Player defense:** Fortitude. **Threat:** 1 Bane to that defense.
-
-- **Weak defense:** 8 Life damage. Recover up to 2 HP actually drained.
-- **Standard defense:** 6 Life damage. Recover up to 1 HP actually drained.
-- **Strong defense:** 4 Life damage.
-
-**Limit:** Restoration cannot exceed actual HP removed or maximum HP. This is explicitly undead-compatible life theft, not ordinary healing.
-
-### Borrowed Face — Maneuver
-
-Take the appearance and voice of a person of the same footprint, until dismissed or reduced to 0 HP. Keep statistics and equipment; gain no memories, languages or powers. Suspicious examination uses normal player Reason. Direct sunlight prevents this ability and ends the disguise.
-
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
-
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
-
-## Passives
-
-**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
-
-## Encounter cues
 
 **Signs:** Servants prepare dinner but no one ever sees the host eat.
 
@@ -56,7 +72,7 @@ Take the appearance and voice of a person of the same footprint, until dismissed
 
 **Habitat:** Manor; city · **Communication:** Common and court languages
 
-**Rewards:** Fine ordinary clothes, 100 coins and evidence of local bargains.
+**Loot:** Fine ordinary clothes, 100 coins and evidence of local bargains.
 
 **Summoning:** Ineligible.
 

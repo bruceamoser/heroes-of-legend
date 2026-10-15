@@ -2,39 +2,49 @@
 
 *A small, sturdy household fey with flour-dusted hair, work-worn hands and clothing made from repaired scraps. It values good workmanship, fair hospitality and respect for its chosen home.*
 
-**HP:** 8 · **Speed:** Ground 5 · **Footprint:** 1x1
+**HP:** 8 · **Speed:** 5 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** 1 Boon · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 4/2/1 |
+| Wooden spoon | 3/2/1 |
+
+| Maneuvers | Effect |
+|---|---|
+| Helping hands | Aid one adjacent ally’s plausible manual task, granting 1 Boon to its next roll before the brownie’s next turn. It has hands and may manipulate ordinary tools, but grants no crafting ability or recipe. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
+
+## Details
+
+### Wooden spoon
+
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
+
+### General details
+
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Healing:** Living: ordinary HP healing applies.
 
-## On its turn
-
 **Senses:** Ordinary sight and hearing.
-
-### Wooden spoon — Main Action
-
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Boon to that defense.
-
-- **Weak defense:** 3 physical damage.
-- **Standard defense:** 2 physical damage.
-- **Strong defense:** 1 physical damage.
-
-### Helping hands — Maneuver
-
-Aid one adjacent ally’s plausible manual task, granting 1 Boon to its next roll before the brownie’s next turn. It has hands and may manipulate ordinary tools, but grants no crafting ability or recipe.
-
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
-
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Boon; Weak defense 4, Standard 2, Strong 1 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
-
-## Encounter cues
 
 **Signs:** Small repairs appear overnight in a well-kept home.
 
@@ -46,7 +56,7 @@ Aid one adjacent ally’s plausible manual task, granting 1 Boon to its next rol
 
 **Habitat:** House; mill · **Communication:** Common and Fey
 
-**Rewards:** One useful household clue; it does not conjure supplies.
+**Loot:** One useful household clue; it does not conjure supplies.
 
 **Summoning:** Fey 1 — [player reference](../summons/hearth-brownie.md).
 

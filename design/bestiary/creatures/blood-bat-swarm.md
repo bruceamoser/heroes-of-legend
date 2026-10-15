@@ -2,41 +2,54 @@
 
 *A flock of small blood-feeding bats, recognizable by red mouths and pale bellies beneath dark wings. Their numbers protect individual bodies until a broad attack scatters them.*
 
-**HP:** 18 · **Speed:** Ground 1; fly 8 · **Footprint:** 2x2
+**HP:** 18 · **Speed:** 1; fly 8 · **Size:** 2 (2x2 squares) · **Armor DR:** 2
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** None · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Physical (2)\
+**Immunities:** None
 
-**DR / resistance:** Physical 2 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Thousand bites | 5/3/2 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Thousand bites — Main Action
+## Details
+
+### Thousand bites
 
 *The claws snag and drag; blood follows the withdrawing talons.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 5 physical damage. Bleeding 2.
-- **Standard defense:** 3 physical damage. Bleeding 1.
-- **Strong defense:** 2 physical damage.
+**Weak defense:** Bleeding 2. **Standard defense:** Bleeding 1.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Passives
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Scatter Body:** Area attacks ignore its physical DR, not other resistance. One HP pool and one turn; cannot overlap another creature at rest.
 
-## Encounter cues
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Livestock wake with shallow cuts and panic at dusk.
 
@@ -48,7 +61,7 @@
 
 **Habitat:** Cavern; pasture · **Communication:** None
 
-**Rewards:** No carried treasure.
+**Loot:** No carried treasure.
 
 **Summoning:** Ineligible.
 

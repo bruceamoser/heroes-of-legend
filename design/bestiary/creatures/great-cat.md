@@ -2,55 +2,63 @@
 
 *A long-bodied spotted cat with padded paws, heavy shoulders and a tail that balances it on high branches. A solitary hunter, it favors a short ambush over a costly struggle.*
 
-**HP:** 16 · **Speed:** Ground 8; climb 6 · **Footprint:** 1x1
+**HP:** 16 · **Speed:** 8; climb 6 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Pouncing claws | 6/4/3 |
+| Raking bite | 6/4/3 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Stalking Step | Move up to 2 squares, paying terrain costs from that allowance. Provokes normally; no automatic Hidden. |
+| Flatten into Cover | In actual concealment, gain 1 Boon to its next hiding roll before turn end. This is not a free Hide action or automatic Hidden. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Pouncing claws — Main Action
+## Details
+
+### Pouncing claws
 
 *It gathers itself, then arrives in a rush of claws and weight.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 6 physical damage. After an approach of 2 squares, Prone.
-- **Standard defense:** 4 physical damage. After an approach of 2 squares, Prone.
-- **Strong defense:** 3 physical damage.
+**Weak defense:** After an approach of 2 squares, Prone. **Standard defense:** After an approach of 2 squares, Prone.
 
-### Raking bite — Main Action
+### Raking bite
 
 *The cat grips close and tears before its prey can turn.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 6 physical damage; Bleeding 2.
-- **Standard defense:** 4 physical damage; Bleeding 1.
-- **Strong defense:** 3 physical damage.
+**Weak defense:** Bleeding 2. **Standard defense:** Bleeding 1.
 
-### Stalking Step — Maneuver
+### General details
 
-Move up to 2 squares, paying terrain costs from that allowance. Provokes normally; no automatic Hidden.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-### Flatten into Cover — Maneuver
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-In actual concealment, gain 1 Boon to its next hiding roll before turn end. This is not a free Hide action or automatic Hidden.
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+**Healing:** Living: ordinary HP healing applies.
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
-
-## Encounter cues
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** A kill has been hauled into the branches above the path.
 
@@ -62,7 +70,7 @@ In actual concealment, gain 1 Boon to its next hiding roll before turn end. This
 
 **Habitat:** Wilderness · **Communication:** None
 
-**Rewards:** Bones and objects beneath its favorite tree.
+**Loot:** Bones and objects beneath its favorite tree.
 
 **Summoning:** Animal 3 — [player reference](../summons/great-cat.md).
 

@@ -2,43 +2,54 @@
 
 *A dry skeleton equipped with a maintained bow and a small bundle of arrows. Its stillness is absolute until an intruder crosses the lane it was ordered to watch.*
 
-**HP:** 8 · **Speed:** Ground 5 · **Footprint:** 1x1
+**HP:** 8 · **Speed:** 5 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** None · **Threat:** None · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** Bleeding; Poisoned; Asleep
 
-**DR / resistance:** None · **Condition immunities:** Bleeding; Poisoned; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 4/2/1 |
+| Dusty arrow | 5/3/2 |
+
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
+
+## Details
+
+### Dusty arrow
+
+**Ammunition:** inventory d6. After each use, roll the inventory die; on 1, reduce d6 to d4, or d4 to empty. Cannot use this attack while empty.
+
+**Target:** One visible creature within 8 squares. **Player defense:** Agility. **Damage type:** physical.
+
+### General details
+
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
 **Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
 
 **Against offensive healing:** controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.
 
-## On its turn
-
 **Senses:** Dark sight 6 squares.
-
-### Dusty arrow — Main Action
-
-**Ammunition:** inventory d6. After each use, roll the inventory die; on 1, reduce d6 to d4, or d4 to empty. Cannot use this attack while empty.
-
-**Target:** One visible creature within 8 squares. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
-
-- **Weak defense:** 5 physical damage.
-- **Standard defense:** 3 physical damage.
-- **Strong defense:** 2 physical damage.
-
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
-
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 4, Standard 2, Strong 1 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
-
-## Passives
-
-**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
-
-## Encounter cues
 
 **Signs:** Arrows lie in neat bundles beneath an undisturbed layer of dust.
 
@@ -50,7 +61,7 @@
 
 **Habitat:** Crypt; fortress · **Communication:** None
 
-**Rewards:** Ranged weapon and ammunition d6 if not expended.
+**Loot:** Ranged weapon and ammunition d6 if not expended.
 
 **Summoning:** Undead 1 — [player reference](../summons/bone-archer.md).
 

@@ -2,39 +2,54 @@
 
 *An alien, many-eyed figure with pale skin and an uneven arrangement of joints. Its attention slips between the present and possible futures, making its advice useful and dangerous.*
 
-**HP:** 28 · **Speed:** Ground 5 · **Footprint:** 1x1
+**HP:** 28 · **Speed:** 5 · **Size:** 1 (medium) · **Armor DR:** 0\*
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Mental (2)\
+**Immunities:** None
 
-**DR / resistance:** mental 2 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Future shock | 8/5/4 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Future shock — Main Action
+## Details
+
+### Future shock
 
 *For a moment, the victim remembers a pain that has not happened yet.*
 
-**Target:** One visible creature within 7 squares. **Player defense:** Reason. **Threat:** 1 Bane to that defense.
+**Target:** One visible creature within 7 squares. **Player defense:** Reason. **Damage type:** mental.
 
-- **Weak defense:** 8 mental damage. Dazed 2.
-- **Standard defense:** 5 mental damage. Dazed 1.
-- **Strong defense:** 4 mental damage.
+**Weak defense:** Dazed 2. **Standard defense:** Dazed 1.
 
 **Spell:** Provokes when cast beside an enemy.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** People independently write down the same unfamiliar constellation.
 
@@ -46,7 +61,7 @@
 
 **Habitat:** Observatory; deep ruin · **Communication:** Common; does not read unspoken thoughts mechanically
 
-**Rewards:** A true but incomplete prediction; no automatic ability theft.
+**Loot:** A true but incomplete prediction; no automatic ability theft.
 
 **Summoning:** Ineligible.
 

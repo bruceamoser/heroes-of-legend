@@ -2,45 +2,57 @@
 
 *A massive iron guardian with a barred face, oversized hands and its charter engraved across the chest. Built for a particular threshold, it is difficult to displace and slow to redirect.*
 
-**HP:** 34 · **Speed:** Ground 4 · **Footprint:** 2x2
+**HP:** 34 · **Speed:** 4 · **Size:** 2 (2x2 squares) · **Armor DR:** 3
 
-## When attacked
+**Evasion:** 1 Boon · **Threat:** 1 Bane · **Stability:** 2
 
-**Evasion:** 1 Boon to player attacks. · **Stability:** 2 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** Physical (3)\
+**Immunities:** Bleeding; Poisoned; Asleep; Frightened
 
-**DR / resistance:** Physical 3 · **Condition immunities:** Bleeding; Poisoned; Asleep; Frightened
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Gate bar | 8/6/4 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Lock the Feet | Gain Stability 3 while on solid ground until its next turn; highest source only. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Gate bar — Main Action
+## Details
+
+### Gate bar
 
 *A great limb scythes across the ground, forcing everyone nearby to move.*
 
-**Target:** Up to two creatures within 2 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** Up to two creatures within 2 squares. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 8 physical damage. Push each 2.
-- **Standard defense:** 6 physical damage. Push each 1.
-- **Strong defense:** 4 physical damage.
+**Weak defense:** Push each 2. **Standard defense:** Push each 1.
 
-### Lock the Feet — Maneuver
+### General details
 
-Gain Stability 3 while on solid ground until its next turn; highest source only.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
-## Passives
+**Heavy Frame — Passive:** Stability 2; an explicit creature trait, not a bonus from size.
 
 **Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
-## Encounter cues
+**Healing:** Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** The gate’s counterweight has not moved, yet the gate opens each dawn.
 
@@ -52,7 +64,7 @@ Gain Stability 3 while on solid ground until its next turn; highest source only.
 
 **Habitat:** Fortress; city gate · **Communication:** None
 
-**Rewards:** A command seal and 50 coins of salvage from a real body; no extra suit of wearable heavy armor.
+**Loot:** A command seal and 50 coins of salvage from a real body; no extra suit of wearable heavy armor.
 
 **Summoning:** Construct 7 — [player reference](../summons/iron-gatekeeper.md).
 

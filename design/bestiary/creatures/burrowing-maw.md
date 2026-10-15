@@ -2,51 +2,67 @@
 
 *A plated burrowing predator with powerful digging limbs and broad crushing mandibles. Its segmented body is adapted to soft earth, not to tunneling through solid rock.*
 
-**HP:** 25 · **Speed:** Ground 5; burrow 4 · **Footprint:** 2x2
+**HP:** 25 · **Speed:** 5; burrow 4 · **Size:** 2 (2x2 squares) · **Armor DR:** 2
 
-## When attacked
+**Evasion:** None · **Threat:** 1 Bane · **Stability:** 1
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** Physical (2)\
+**Immunities:** None
 
-**DR / resistance:** Physical 2 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Plated jaws | 7/5/3 |
+| Closing jaws | 7/5/3 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ground vibration 6 squares on connected ground; must emerge and see a target to attack.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Plated jaws — Main Action
+## Details
+
+### Plated jaws
 
 *A coil or grasping limb closes around the target and braces against its struggling weight.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 7 physical damage. Grappled 2.
-- **Standard defense:** 5 physical damage. Grappled 1.
-- **Strong defense:** 3 physical damage.
+**Weak defense:** Grappled 2. **Standard defense:** Grappled 1.
 
 **Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
 
-### Closing jaws — Main Action
+### Closing jaws
 
 *The mouth opens wide enough to swallow the light behind its prey.*
 
-**Target:** One adjacent 1x1 creature already Grappled by this creature. **Player defense:** Fortitude. **Threat:** 1 Bane to that defense.
+**Target:** One adjacent 1x1 creature already Grappled by this creature. **Player defense:** Fortitude. **Damage type:** physical.
 
-- **Weak defense:** 7 physical damage; Blinded 1.
-- **Standard defense:** 5 physical damage.
-- **Strong defense:** 3 physical damage.
+**Weak defense:** Blinded 1.
 
 **Limit:** Victim stays in its square; holder keeps its Grappled restrictions. No extra damage tick or off-map stomach.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ground vibration 6 squares on connected ground; must emerge and see a target to attack.
 
 **Signs:** Long ridges cross the field overnight.
 
@@ -58,7 +74,7 @@
 
 **Habitat:** Field; sandy valley · **Communication:** None
 
-**Rewards:** A swallowed pack; burrowing does not generate a usable tunnel.
+**Loot:** A swallowed pack; burrowing does not generate a usable tunnel.
 
 **Summoning:** Ineligible.
 

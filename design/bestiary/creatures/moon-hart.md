@@ -2,41 +2,59 @@
 
 *A luminous white hart with silver antlers and dark, thoughtful eyes. Its presence is associated with safe paths, lost travelers and the life energy spent to bring someone home.*
 
-**HP:** 26 · **Speed:** Ground 9 · **Footprint:** 2x2
+**HP:** 26 · **Speed:** 9 · **Size:** 2 (2x2 squares) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** None · **Stability:** 1
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Moonlit antlers | 7/5/4 |
+| Battle Mending | See details |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Moonlit antlers — Main Action
+## Details
+
+### Moonlit antlers
 
 *The blow lands with enough force to send its victim stumbling backward.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** radiant.
 
-- **Weak defense:** 7 radiant damage. Push 2.
-- **Standard defense:** 5 radiant damage. Push 1.
-- **Strong defense:** 4 radiant damage.
+**Weak defense:** Push 2. **Standard defense:** Push 1.
 
-### Battle Mending — Main Action
+### Battle Mending
 
 One adjacent living ally; free hand (the hart’s antlers provide this). Pay 3 HP first, bypass resistance, and remain above 0. A player rolls this creature’s Reason: Weak heals 5, Standard 10, Strong 15 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target instead, use Fortitude defense: Weak takes 15, Standard 10, Strong 5 Life damage. Same cost; no healing riders.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Silver hoof prints fade when the sun reaches them.
 
@@ -48,7 +66,7 @@ One adjacent living ally; free hand (the hart’s antlers provide this). Pay 3 H
 
 **Habitat:** Moonlit forest · **Communication:** Understands Common and Fey; communicates through simple images
 
-**Rewards:** A safe route or a returned lost possession.
+**Loot:** A safe route or a returned lost possession.
 
 **Summoning:** Fey 7 — [player reference](../summons/moon-hart.md).
 

@@ -2,47 +2,63 @@
 
 *A preserved undead scholar with ink-blackened bones, ancient robes and books maintained with obsessive care. Centuries of unfinished research have worn away concern for the living.*
 
-**HP:** 36 · **Speed:** Ground 6 · **Footprint:** 1x1
+**HP:** 36 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 2\*
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Physical (2), Life (2)\
+**Immunities:** Bleeding; Poisoned; Asleep
 
-**DR / resistance:** Physical 2; Life 2 · **Condition immunities:** Bleeding; Poisoned; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Unwritten memory | 8/6/4 |
+
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+
+| Reactions | Effect |
+|---|---|
+| Spell Screen | Impose 1 Bane on one incoming spell attack. See details. |
+| Opportunity Attack | Basic Melee against the provoking creature. |
+
+## Details
+
+### Unwritten memory
+
+*For a moment, the victim remembers a pain that has not happened yet.*
+
+**Target:** One visible creature within 8 squares. **Player defense:** Reason. **Damage type:** mental.
+
+**Weak defense:** Dazed 2. **Standard defense:** Dazed 1.
+
+**Spell:** Provokes when cast beside an enemy.
+
+### Spell Screen
+
+Before one spell against it resolves, impose 1 Bane on that player attack (or give its controller 1 defense Boon). For one player AoE roll, include this when choosing worst-case modifiers. Does not cancel the spell.
+
+### General details
+
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
 **Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
 
 **Against offensive healing:** controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.
 
-**Spell Screen — Reaction:** Before one spell against it resolves, impose 1 Bane on that player attack (or give its controller 1 defense Boon). For one player AoE roll, include this when choosing worst-case modifiers. Does not cancel the spell.
-
-## On its turn
-
 **Senses:** Ordinary sight and hearing.
-
-### Unwritten memory — Main Action
-
-*For a moment, the victim remembers a pain that has not happened yet.*
-
-**Target:** One visible creature within 8 squares. **Player defense:** Reason. **Threat:** 1 Bane to that defense.
-
-- **Weak defense:** 8 mental damage. Dazed 2.
-- **Standard defense:** 6 mental damage. Dazed 1.
-- **Strong defense:** 4 mental damage.
-
-**Spell:** Provokes when cast beside an enemy.
-
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
-
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
-
-## Passives
-
-**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
-
-## Encounter cues
 
 **Signs:** Fresh annotations appear in books sealed centuries ago.
 
@@ -54,7 +70,7 @@
 
 **Habitat:** Sealed library; tomb · **Communication:** Common and ancient scholarly languages
 
-**Rewards:** Research, a named recipe chosen by the DA, and 150 coins; no automatic resurrection anchor.
+**Loot:** Research, a named recipe chosen by the DA, and 150 coins; no automatic resurrection anchor.
 
 **Summoning:** Ineligible.
 

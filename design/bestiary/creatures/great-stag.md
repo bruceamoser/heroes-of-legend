@@ -2,41 +2,55 @@
 
 *A tall woodland deer crowned with spreading antlers and supported by long, powerful legs. The herd follows its caution; in a rut or a crisis, that caution becomes a sudden charge.*
 
-**HP:** 18 · **Speed:** Ground 9 · **Footprint:** 2x2
+**HP:** 18 · **Speed:** 9 · **Size:** 2 (2x2 squares) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** None · **Stability:** 1
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Antler sweep | 6/4/3 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Guard the Herd | Gain Stability 2 until its next turn, while on solid ground; highest source only. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Antler sweep — Main Action
+## Details
+
+### Antler sweep
 
 *The blow lands with enough force to send its victim stumbling backward.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 6 physical damage. Push 2.
-- **Standard defense:** 4 physical damage. Push 1.
-- **Strong defense:** 3 physical damage.
+**Weak defense:** Push 2. **Standard defense:** Push 1.
 
-### Guard the Herd — Maneuver
+### General details
 
-Gain Stability 2 until its next turn, while on solid ground; highest source only.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
-## Encounter cues
+**Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Deep hoof prints cross a fence without breaking it.
 
@@ -48,7 +62,7 @@ Gain Stability 2 until its next turn, while on solid ground; highest source only
 
 **Habitat:** Wilderness · **Communication:** None
 
-**Rewards:** A naturally shed antler may serve as a story clue or craft ingredient at the DA’s discretion.
+**Loot:** A naturally shed antler may serve as a story clue or craft ingredient at the DA’s discretion.
 
 **Summoning:** Animal 3 — [player reference](../summons/great-stag.md).
 

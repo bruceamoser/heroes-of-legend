@@ -2,57 +2,70 @@
 
 *A towering, stone-gray person with long limbs, deliberate hands and clothing marked by carved patterns. Its home and artwork are expressions of memory rather than merely a hoard to defend.*
 
-**HP:** 40 · **Speed:** Ground 7 · **Footprint:** 3x3
+**HP:** 40 · **Speed:** 7 · **Size:** 3 (3x3 squares) · **Armor DR:** 2
 
-## When attacked
+**Evasion:** 1 Boon · **Threat:** 1 Bane · **Stability:** 2
 
-**Evasion:** 1 Boon to player attacks. · **Stability:** 2 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** Physical (2)\
+**Immunities:** None
 
-**DR / resistance:** Physical 2 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Thrown boulder | 10/7/5 |
+| Stone staff | 8/6/4 |
+| Clearing shove | 6/4/2 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Thrown boulder — Main Action
+## Details
+
+### Thrown boulder
 
 *The blow lands with enough force to send its victim stumbling backward.*
 
-**Target:** One visible creature within 10 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One visible creature within 10 squares. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 10 physical damage. Push 2.
-- **Standard defense:** 7 physical damage. Push 1.
-- **Strong defense:** 5 physical damage.
+**Weak defense:** Push 2. **Standard defense:** Push 1.
 
-### Stone staff — Main Action
+### Stone staff
 
 *A great limb scythes across the ground, forcing everyone nearby to move.*
 
-**Target:** Up to two creatures within 2 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** Up to two creatures within 2 squares. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 8 physical damage.
-- **Standard defense:** 6 physical damage.
-- **Strong defense:** 4 physical damage.
-
-### Clearing shove — Main Action
+### Clearing shove
 
 *A deliberate sweep of the giant’s arm clears the ledge.*
 
-**Target:** One creature within 2 squares. **Player defense:** Brawn. **Threat:** 1 Bane to that defense.
+**Target:** One creature within 2 squares. **Player defense:** Brawn. **Damage type:** physical.
 
-- **Weak defense:** 6 physical damage; push 5.
-- **Standard defense:** 4 physical damage; push 4.
-- **Strong defense:** 2 physical damage; push 2.
+**Weak defense:** push 5. **Standard defense:** push 4. **Strong defense:** push 2.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Heavy Frame — Passive:** Stability 2; an explicit creature trait, not a bonus from size.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Stone sculptures stand where no human road reaches.
 
@@ -64,7 +77,7 @@
 
 **Habitat:** Mountain; cavern · **Communication:** Giant and Common
 
-**Rewards:** A carved stone commission or 80 coins of trade goods.
+**Loot:** A carved stone commission or 80 coins of trade goods.
 
 **Summoning:** Ineligible.
 

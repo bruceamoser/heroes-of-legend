@@ -2,39 +2,53 @@
 
 *A field healer with a plain staff, practical vestments and a pouch of bandages. Exhaustion and old bloodstains show how much keeping others alive has already cost.*
 
-**HP:** 18 · **Speed:** Ground 6 · **Footprint:** 1x1
+**HP:** 18 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** None · **Threat:** None · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Staff | 5/3/2 |
+| Battle Mending | See details |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Staff — Main Action
+## Details
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+### Staff
 
-- **Weak defense:** 5 physical damage.
-- **Standard defense:** 3 physical damage.
-- **Strong defense:** 2 physical damage.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-### Battle Mending — Main Action
+### Battle Mending
 
 One adjacent living ally; free hand. Pay 1 HP first, bypass resistance, and remain above 0. A player rolls this creature’s Reason: Weak heals 3, Standard 6, Strong 9 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target instead, use Fortitude defense: Weak takes 9, Standard 6, Strong 3 Life damage. Same cost; no healing riders.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Used bandages hang beside a small field shrine.
 
@@ -46,7 +60,7 @@ One adjacent living ally; free hand. Pay 1 HP first, bypass resistance, and rema
 
 **Habitat:** Camp; temple · **Communication:** Common
 
-**Rewards:** Staff, shrine token and 12 coins.
+**Loot:** Staff, shrine token and 12 coins.
 
 **Summoning:** Ineligible.
 

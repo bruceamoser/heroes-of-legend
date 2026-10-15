@@ -2,37 +2,52 @@
 
 *A creeping mass of mud-colored digestive slime, with partly dissolved scraps suspended inside. It has no eyes or clear front, sensing contact and nearby ground vibration instead.*
 
-**HP:** 16 · **Speed:** Ground 3 · **Footprint:** 1x1
+**HP:** 16 · **Speed:** 3 · **Size:** 1 (medium) · **Armor DR:** 1
 
-## When attacked
+**Evasion:** 1 Boon · **Threat:** None · **Stability:** 0
 
-**Evasion:** 1 Boon to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Physical (1)\
+**Immunities:** Bleeding; Poisoned; Asleep; Blinded
 
-**DR / resistance:** Physical 1 · **Condition immunities:** Bleeding; Poisoned; Asleep; Blinded
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Clinging sludge | 4/3/2 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Touch; detects ground vibration within 3 squares only on the same connected surface.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Clinging sludge — Main Action
+## Details
+
+### Clinging sludge
 
 *A hooked limb braces against the bank and heaves its catch toward the dark water.*
 
-**Target:** One adjacent creature. **Player defense:** Brawn. **Threat:** 0 (no modifier) to that defense.
+**Target:** One adjacent creature. **Player defense:** Brawn. **Damage type:** physical.
 
-- **Weak defense:** 4 physical damage. Pull 2.
-- **Standard defense:** 3 physical damage. Pull 1.
-- **Strong defense:** 2 physical damage.
+**Weak defense:** Pull 2. **Standard defense:** Pull 1.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Touch; detects ground vibration within 3 squares only on the same connected surface.
 
 **Signs:** Metal objects remain where everything organic has gone.
 
@@ -44,7 +59,7 @@
 
 **Habitat:** Marsh; sewer · **Communication:** None
 
-**Rewards:** Indigestible coins: 8 coins in an established feeding hollow, not every ooze.
+**Loot:** Indigestible coins: 8 coins in an established feeding hollow, not every ooze.
 
 **Summoning:** Ineligible.
 

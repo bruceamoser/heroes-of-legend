@@ -2,37 +2,54 @@
 
 *A bear-sized forest predator with dense feathers, hooked claws and a heavy curved beak. Its powerful shoulders and keen eyes make it an effective defender of a concealed nest.*
 
-**HP:** 23 · **Speed:** Ground 7; climb 4 · **Footprint:** 2x2
+**HP:** 23 · **Speed:** 7; climb 4 · **Size:** 2 (2x2 squares) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** None · **Threat:** 1 Bane · **Stability:** 1
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Hooked rush | 7/5/3 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Hooked rush — Main Action
+## Details
+
+### Hooked rush
 
 *It gathers itself, then arrives in a rush of claws and weight.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 7 physical damage. After moving 2 toward target, Prone.
-- **Standard defense:** 5 physical damage. After moving 2 toward target, Prone.
-- **Strong defense:** 3 physical damage.
+**Weak defense:** After moving 2 toward target, Prone. **Standard defense:** After moving 2 toward target, Prone.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Trees carry both claw marks and ragged tufts of feathers.
 
@@ -44,7 +61,7 @@
 
 **Habitat:** Deep forest · **Communication:** None
 
-**Rewards:** An old traveler’s charm caught in the nest.
+**Loot:** An old traveler’s charm caught in the nest.
 
 **Summoning:** Ineligible.
 

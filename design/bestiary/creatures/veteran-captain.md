@@ -2,43 +2,50 @@
 
 *A seasoned officer with maintained armor, visible campaign scars and a weapon worn smooth at the grip. Authority rests on experience and the ability to bring people home alive.*
 
-**HP:** 24 · **Speed:** Ground 6 · **Footprint:** 1x1
+**HP:** 24 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 2
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Physical (2)\
+**Immunities:** None
 
-**DR / resistance:** Physical 2 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Commanding cut | 7/5/4 |
+
+| Maneuvers | Effect |
+|---|---|
+| Rally | One hearing ally within 3 squares either removes Frightened 1 or gains 1 Boon to its next attack before this creature’s next turn (1 additional Bane to its target’s defense if an NPC). Same named bonus does not stack; no free attack. |
+| Close the Line | One willing ally within 3 squares that can hear may move 1 square immediately, ending adjacent to another ally. This voluntary movement provokes normally; once per turn. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
+
+## Details
+
+### Commanding cut
+
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
+
+### General details
+
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Healing:** Living: ordinary HP healing applies.
 
-## On its turn
-
 **Senses:** Ordinary sight and hearing.
-
-### Commanding cut — Main Action
-
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
-
-- **Weak defense:** 7 physical damage.
-- **Standard defense:** 5 physical damage.
-- **Strong defense:** 4 physical damage.
-
-### Rally — Maneuver
-
-One hearing ally within 3 squares either removes Frightened 1 or gains 1 Boon to its next attack before this creature’s next turn (1 additional Bane to its target’s defense if an NPC). Same named bonus does not stack; no free attack.
-
-### Close the Line — Maneuver
-
-One willing ally within 3 squares that can hear may move 1 square immediately, ending adjacent to another ally. This voluntary movement provokes normally; once per turn.
-
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
-
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
-
-## Encounter cues
 
 **Signs:** A camp has dry powder, covered food and posted escape routes.
 
@@ -50,7 +57,7 @@ One willing ally within 3 squares that can hear may move 1 square immediately, e
 
 **Habitat:** Fort; battlefield · **Communication:** Common and one regional language
 
-**Rewards:** Melee weapon, medium armor, order papers and 25 coins.
+**Loot:** Melee weapon, medium armor, order papers and 25 coins.
 
 **Summoning:** Ineligible.
 

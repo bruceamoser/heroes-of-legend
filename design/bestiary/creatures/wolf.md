@@ -2,55 +2,62 @@
 
 *A rangy predator with dense gray fur, a narrow muzzle and long legs built for patient pursuit. Wolves live and hunt as a pack, protecting the den before risking a disabling fight.*
 
-**HP:** 10 · **Speed:** Ground 8 · **Footprint:** 1x1
+**HP:** 10 · **Speed:** 8 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** None · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Snapping jaws | 4/3/2 |
+| Pinning bite | 3/2/1 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Circle the Prey | If another conscious, non-Paralyzed ally (not an uncommanded summon) is adjacent to an adjacent enemy, move up to 2 squares without provoking from that enemy. End adjacent to it. Other opportunity attacks and terrain costs apply. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Keen scent within 6 squares.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Snapping jaws — Main Action
+## Details
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+### Snapping jaws
 
-- **Weak defense:** 4 physical damage.
-- **Standard defense:** 3 physical damage.
-- **Strong defense:** 2 physical damage.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-### Pinning bite — Main Action
+### Pinning bite
 
 *The wolf hangs its weight from a limb to hold the prey in place.*
 
-**Target:** One adjacent creature. **Player defense:** Brawn. **Threat:** 0 (no modifier) to that defense.
+**Target:** One adjacent creature. **Player defense:** Brawn. **Damage type:** physical.
 
-- **Weak defense:** 3 physical damage; Grappled 1.
-- **Standard defense:** 2 physical damage; Grappled 1.
-- **Strong defense:** 1 physical damage.
+**Weak defense:** Grappled 1. **Standard defense:** Grappled 1.
 
 **Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
 
-### Circle the Prey — Maneuver
+### General details
 
-If another conscious, non-Paralyzed ally (not an uncommanded summon) is adjacent to an adjacent enemy, move up to 2 squares without provoking from that enemy. End adjacent to it. Other opportunity attacks and terrain costs apply.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
-
-## Passives
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Pack Hunter:** When attacking a target adjacent to another active ally, impose 1 additional Bane on that target’s defense (or gain 1 attack Boon when controlled). Unconscious, Paralyzed and uncommanded summoned allies do not qualify.
 
-## Encounter cues
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Keen scent within 6 squares.
 
 **Signs:** Parallel tracks keep to the downwind side of the trail.
 
@@ -62,7 +69,7 @@ If another conscious, non-Paralyzed ally (not an uncommanded summon) is adjacent
 
 **Habitat:** Wilderness · **Communication:** None
 
-**Rewards:** A den may hold a lost traveler’s belongings; the wolf carries no coins.
+**Loot:** A den may hold a lost traveler’s belongings; the wolf carries no coins.
 
 **Summoning:** Animal 1 — [player reference](../summons/wolf.md).
 

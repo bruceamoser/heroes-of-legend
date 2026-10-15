@@ -2,49 +2,65 @@
 
 *A mobile knot of woody roots and hooked vines, dense enough to resemble an ordinary bramble patch. Its outer stems drag prey toward the heavy root mass at its center.*
 
-**HP:** 22 · **Speed:** Ground 4 · **Footprint:** 2x2
+**HP:** 22 · **Speed:** 4 · **Size:** 2 (2x2 squares) · **Armor DR:** 1
 
-## When attacked
+**Evasion:** 1 Boon · **Threat:** 1 Bane · **Stability:** 1
 
-**Evasion:** 1 Boon to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** Physical (1)\
+**Immunities:** Bleeding; Asleep
 
-**DR / resistance:** Physical 1 · **Condition immunities:** Bleeding; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Hooked vine | 5/4/3 |
+| Root grip | 3/2/1 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Hooked vine — Main Action
+## Details
+
+### Hooked vine
 
 *A hooked limb braces against the bank and heaves its catch toward the dark water.*
 
-**Target:** One creature within 3 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One creature within 3 squares. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 5 physical damage. Pull 2.
-- **Standard defense:** 4 physical damage. Pull 1.
-- **Strong defense:** 3 physical damage.
+**Weak defense:** Pull 2. **Standard defense:** Pull 1.
 
-### Root grip — Main Action
+### Root grip
 
 *A coil or grasping limb closes around the target and braces against its struggling weight.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 3 physical damage. Grappled 2.
-- **Standard defense:** 2 physical damage. Grappled 1.
-- **Strong defense:** 1 physical damage.
+**Weak defense:** Grappled 2. **Standard defense:** Grappled 1.
 
 **Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Animal tracks vanish into brush that grows against the season.
 
@@ -56,7 +72,7 @@
 
 **Habitat:** Forest; overgrown ruin · **Communication:** None
 
-**Rewards:** A trapped pack or a named seed sought by a gardener.
+**Loot:** A trapped pack or a named seed sought by a gardener.
 
 **Summoning:** Ineligible.
 

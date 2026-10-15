@@ -2,41 +2,55 @@
 
 *An empty suit of plate animated around a command plate, carrying a shield and no living occupant. The apparent knight is a literal-minded guardian, not a trained person inside armor.*
 
-**HP:** 20 · **Speed:** Ground 5 · **Footprint:** 1x1
+**HP:** 20 · **Speed:** 5 · **Size:** 1 (medium) · **Armor DR:** 2
 
-## When attacked
+**Evasion:** None · **Threat:** None · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Physical (2)\
+**Immunities:** Bleeding; Poisoned; Asleep; Frightened
 
-**DR / resistance:** Physical 2 · **Condition immunities:** Bleeding; Poisoned; Asleep; Frightened
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Steel gauntlet | 6/4/3 |
 
-**Shield Hunker — Reaction:** Before a shield-blockable attack resolves, impose 1 Bane on player attacks this shield can block until the start of its next turn. The DA judges blockability. Uses its Reaction; stacks with Defend, not another activation of itself.
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-## On its turn
+| Reactions | Effect |
+|---|---|
+| Shield Hunker | Before a blockable attack: impose 1 Bane on blockable attacks until its next turn. See details. |
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-**Senses:** Ordinary sight and hearing.
+## Details
 
-### Steel gauntlet — Main Action
+### Steel gauntlet
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 6 physical damage.
-- **Standard defense:** 4 physical damage.
-- **Strong defense:** 3 physical damage.
+### Shield Hunker
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+Before a shield-blockable attack resolves, impose 1 Bane on player attacks this shield can block until the start of its next turn. The DA judges blockability. Uses its Reaction; stacks with Defend, not another activation of itself.
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+### General details
 
-## Passives
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
-## Encounter cues
+**Healing:** Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Dust ends in a clean crescent around the display plinth.
 
@@ -48,7 +62,7 @@
 
 **Habitat:** Vault; hall · **Communication:** Understands the maker’s language
 
-**Rewards:** An ordinary shield and armor shell; repairing the shell does not grant an animated servant.
+**Loot:** An ordinary shield and armor shell; repairing the shell does not grant an animated servant.
 
 **Summoning:** Construct 3 — [player reference](../summons/animated-armor.md).
 

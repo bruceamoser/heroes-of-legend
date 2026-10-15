@@ -2,37 +2,52 @@
 
 *A child-sized shape of clear running water, with pebbles and bubbles visible inside its body. It belongs to a particular flow and reacts strongly to blockage or contamination.*
 
-**HP:** 8 · **Speed:** Ground 4; swim 8 · **Footprint:** 1x1
+**HP:** 8 · **Speed:** 4; swim 8 · **Size:** 1 (medium) · **Armor DR:** 0\*
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** None · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Cold (1)\
+**Immunities:** Bleeding; Poisoned; Asleep
 
-**DR / resistance:** cold 1 · **Condition immunities:** Bleeding; Poisoned; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 4/2/1 |
+| Water tug | 3/2/1 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Water tug — Main Action
+## Details
+
+### Water tug
 
 *A hooked limb braces against the bank and heaves its catch toward the dark water.*
 
-**Target:** One visible creature within 3 squares. **Player defense:** Brawn. **Threat:** 0 (no modifier) to that defense.
+**Target:** One visible creature within 3 squares. **Player defense:** Brawn. **Damage type:** physical.
 
-- **Weak defense:** 3 physical damage. Pull 2.
-- **Standard defense:** 2 physical damage. Pull 1.
-- **Strong defense:** 1 physical damage.
+**Weak defense:** Pull 2. **Standard defense:** Pull 1.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 4, Standard 2, Strong 1 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Healing:** Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** A trickle runs uphill to avoid a fouled pool.
 
@@ -44,7 +59,7 @@
 
 **Habitat:** Stream; well · **Communication:** None
 
-**Rewards:** Clean water where it belongs, not a conjured stock of potions.
+**Loot:** Clean water where it belongs, not a conjured stock of potions.
 
 **Summoning:** Elemental 1 — [player reference](../summons/rill-sprite.md).
 

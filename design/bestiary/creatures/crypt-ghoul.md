@@ -2,55 +2,67 @@
 
 *A gaunt, corpse-eating undead with stretched lips, long nails and flesh drawn tight over its joints. It retains enough cunning to seek an isolated victim and avoid a determined group.*
 
-**HP:** 18 · **Speed:** Ground 7 · **Footprint:** 1x1
+**HP:** 18 · **Speed:** 7 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** Poisoned; Asleep
 
-**DR / resistance:** None · **Condition immunities:** Poisoned; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Raking claws | 6/4/3 |
+| Grave touch | 4/3/2 |
+
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
+
+## Details
+
+### Raking claws
+
+*The claws snag and drag; blood follows the withdrawing talons.*
+
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
+
+**Weak defense:** Bleeding 2. **Standard defense:** Bleeding 1.
+
+### Grave touch
+
+*The touch is colder than winter iron, and the limb refuses to answer.*
+
+**Target:** One adjacent creature. **Player defense:** Fortitude. **Damage type:** cold.
+
+**Weak defense:** Paralyzed 1; cannot use this attack next turn.
+
+**Limit:** Cannot use this attack on consecutive turns, regardless of result.
+
+### General details
+
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
 **Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
 
 **Against offensive healing:** controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.
 
-## On its turn
-
 **Senses:** Ordinary sight and hearing.
-
-### Raking claws — Main Action
-
-*The claws snag and drag; blood follows the withdrawing talons.*
-
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
-
-- **Weak defense:** 6 physical damage. Bleeding 2.
-- **Standard defense:** 4 physical damage. Bleeding 1.
-- **Strong defense:** 3 physical damage.
-
-### Grave touch — Main Action
-
-*The touch is colder than winter iron, and the limb refuses to answer.*
-
-**Target:** One adjacent creature. **Player defense:** Fortitude. **Threat:** 1 Bane to that defense.
-
-- **Weak defense:** 4 cold damage. Paralyzed 1; cannot use this attack next turn.
-- **Standard defense:** 3 cold damage.
-- **Strong defense:** 2 cold damage.
-
-**Limit:** Cannot use this attack on consecutive turns, regardless of result.
-
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
-
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
-
-## Passives
-
-**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
-
-## Encounter cues
 
 **Signs:** Bones are cracked for marrow and stacked with unnatural care.
 
@@ -62,7 +74,7 @@
 
 **Habitat:** Crypt; battlefield · **Communication:** None
 
-**Rewards:** The latest victim’s recoverable pack.
+**Loot:** The latest victim’s recoverable pack.
 
 **Summoning:** Undead 3 — [player reference](../summons/crypt-ghoul.md).
 

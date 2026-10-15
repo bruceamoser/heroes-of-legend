@@ -2,49 +2,61 @@
 
 *A squat, many-legged reptile with a heavy jaw, pebbled hide and unsettling pale eyes. Its gaze stiffens living bodies long enough for its slow approach to become dangerous.*
 
-**HP:** 22 · **Speed:** Ground 4 · **Footprint:** 1x1
+**HP:** 22 · **Speed:** 4 · **Size:** 1 (medium) · **Armor DR:** 1
 
-## When attacked
+**Evasion:** None · **Threat:** None · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Physical (1)\
+**Immunities:** None
 
-**DR / resistance:** Physical 1 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Heavy bite | 6/4/3 |
+| Stone stare | 0/0/0 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Heavy bite — Main Action
+## Details
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+### Heavy bite
 
-- **Weak defense:** 6 physical damage.
-- **Standard defense:** 4 physical damage.
-- **Strong defense:** 3 physical damage.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-### Stone stare — Main Action
+### Stone stare
 
 *Gray veins climb from the victim’s feet while the creature holds an unblinking stare.*
 
-**Target:** One visible creature within 4 squares that can see it. **Player defense:** Fortitude. **Threat:** 0 (no modifier) to that defense.
+**Target:** One visible creature within 4 squares that can see it. **Player defense:** Fortitude. **Damage type:** None.
 
-- **Weak defense:** No damage. Paralyzed 1.
-- **Standard defense:** No damage. Slowed 2.
-- **Strong defense:** No damage. Slowed 1.
+**Weak defense:** Paralyzed 1. **Standard defense:** Slowed 2. **Strong defense:** Slowed 1.
 
 **Spell:** Provokes when cast beside an enemy.
 
 **Limit:** The target may avert its eyes before this resolves until its next turn: this gaze cannot target it, but it has 1 Bane on attacks against this creature and defenses against its attacks. No permanent petrification.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Animals move with stiff legs near a trail of broad clawed feet.
 
@@ -56,7 +68,7 @@
 
 **Habitat:** Rocky scrub; ruin · **Communication:** None
 
-**Rewards:** A naturalist may seek a shed scale; no automatic permanent petrification cure is required.
+**Loot:** A naturalist may seek a shed scale; no automatic permanent petrification cure is required.
 
 **Summoning:** Ineligible.
 

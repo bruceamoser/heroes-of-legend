@@ -2,51 +2,63 @@
 
 *A mobile foundry furnace on thick iron legs, with a bellows chest and a hinged firebox mouth. Old production orders still govern the heat and weight of its machinery.*
 
-**HP:** 30 · **Speed:** Ground 4 · **Footprint:** 2x2
+**HP:** 30 · **Speed:** 4 · **Size:** 2 (2x2 squares) · **Armor DR:** 2\*
 
-## When attacked
+**Evasion:** 1 Boon · **Threat:** 1 Bane · **Stability:** 1
 
-**Evasion:** 1 Boon to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** Physical (2), Fire (3)\
+**Immunities:** Bleeding; Poisoned; Asleep
 
-**DR / resistance:** Physical 2; fire 3 · **Condition immunities:** Bleeding; Poisoned; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Iron ram | 7/5/3 |
+| Furnace breath | 8/6/4 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Iron ram — Main Action
+## Details
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+### Iron ram
 
-- **Weak defense:** 7 physical damage.
-- **Standard defense:** 5 physical damage.
-- **Strong defense:** 3 physical damage.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-### Furnace breath — Main Action
+### Furnace breath
 
 *Its chest swells and light leaks between its teeth; there is one terrible instant to scatter.*
 
-**Target:** All creatures in a cone of 3 rows, 1/3/5 squares wide. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** All creatures in a cone of 3 rows, 1/3/5 squares wide. **Player defense:** Agility. **Damage type:** fire.
 
-- **Weak defense:** 8 fire damage. Burning 2.
-- **Standard defense:** 6 fire damage. Burning 1.
-- **Strong defense:** 4 fire damage.
+**Weak defense:** Burning 2. **Standard defense:** Burning 1.
 
 **Limit:** Cannot use this attack on consecutive turns, regardless of result.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Passives
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
 
 **Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
-## Encounter cues
+**Healing:** Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Cinders spill from heavy tracks through the foundry.
 
@@ -58,7 +70,7 @@
 
 **Habitat:** Foundry; ruin · **Communication:** None
 
-**Rewards:** Maker’s plans and 40 coins of salvage; summoned machinery yields nothing permanent.
+**Loot:** Maker’s plans and 40 coins of salvage; summoned machinery yields nothing permanent.
 
 **Summoning:** Construct 7 — [player reference](../summons/walking-furnace.md).
 

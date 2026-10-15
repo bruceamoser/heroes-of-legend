@@ -2,39 +2,49 @@
 
 *A lean, deep-chested tracking dog with a weatherproof coat, broad nose and attentive ears. Its loyalty is personal; a familiar handler matters more to it than a shouted order.*
 
-**HP:** 8 · **Speed:** Ground 7 · **Footprint:** 1x1
+**HP:** 8 · **Speed:** 7 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** None · **Threat:** None · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 4/2/1 |
+| Warning bite | 4/2/1 |
+
+| Maneuvers | Effect |
+|---|---|
+| Take the Scent | Gain 1 Boon on its next Reason scent-tracking roll before turn end; needs a scent trail. No automatic discovery. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
+
+## Details
+
+### Warning bite
+
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
+
+### General details
+
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Healing:** Living: ordinary HP healing applies.
 
-## On its turn
-
 **Senses:** Keen scent within 6 squares; tracks by scent.
-
-### Warning bite — Main Action
-
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
-
-- **Weak defense:** 4 physical damage.
-- **Standard defense:** 2 physical damage.
-- **Strong defense:** 1 physical damage.
-
-### Take the Scent — Maneuver
-
-Gain 1 Boon on its next Reason scent-tracking roll before turn end; needs a scent trail. No automatic discovery.
-
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
-
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 4, Standard 2, Strong 1 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
-
-## Encounter cues
 
 **Signs:** Claw marks beside a scent post; a bark that stops when answered.
 
@@ -46,7 +56,7 @@ Gain 1 Boon on its next Reason scent-tracking roll before turn end; needs a scen
 
 **Habitat:** Wilderness · **Communication:** None
 
-**Rewards:** A collar can identify an owner; no automatic coin reward.
+**Loot:** A collar can identify an owner; no automatic coin reward.
 
 **Summoning:** Animal 1 — [player reference](../summons/trail-hound.md).
 
