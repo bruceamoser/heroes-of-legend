@@ -12,13 +12,13 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Forked flash | 8/6/4 |
-| Driving gust | 0/0/0 |
+| Forked flash | 8 + Burning 2 / 6 + Burning 1 / 4 |
+| Driving gust | 0 + Push 3 / 0 + Push 2 / 0 + Push 1 |
 
 | Maneuvers | Effect |
 |---|---|

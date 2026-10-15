@@ -12,13 +12,13 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
 | Thorn lash | 8/6/4 |
-| Root snare | 0/0/0 |
+| Root snare | 0 + Difficult terrain until next turn; Slowed 2 / 0 + Difficult terrain until next turn; Slowed 1 / 0 + Difficult terrain until next turn |
 
 | Maneuvers | Effect |
 |---|---|

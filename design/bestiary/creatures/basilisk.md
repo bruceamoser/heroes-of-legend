@@ -12,13 +12,13 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
 | Heavy bite | 6/4/3 |
-| Stone stare | 0/0/0 |
+| Stone stare | 0 + Paralyzed 1 / 0 + Slowed 2 / 0 + Slowed 1 |
 
 | Maneuvers | Effect |
 |---|---|

@@ -12,14 +12,14 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Hooking talons | 9/7/5 |
-| Winter breath | 9/7/5 |
-| Ice-edged bite | 9/6/4 |
+| Hooking talons | 9 + Pull 2 / 7 + Pull 1 / 5 |
+| Winter breath | 9 + Freezing 2 / 7 + Freezing 1 / 5 |
+| Ice-edged bite | 9 + Freezing 2 / 6 + Freezing 1 / 4 |
 
 | Maneuvers | Effect |
 |---|---|

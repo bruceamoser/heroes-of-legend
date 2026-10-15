@@ -12,12 +12,12 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Oath blade | 7/5/3 |
+| Oath blade | 7 + Push 2 / 5 + Push 1 / 3 |
 
 | Maneuvers | Effect |
 |---|---|

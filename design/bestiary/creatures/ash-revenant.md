@@ -12,13 +12,13 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Ashen fist | 9/6/4 |
-| Ashen cry | 0/0/0 |
+| Ashen fist | 9 + Push 2 / 6 + Push 1 / 4 |
+| Ashen cry | 0 + Frightened 3 / 0 + Frightened 2 / 0 + Frightened 1 |
 
 | Maneuvers | Effect |
 |---|---|

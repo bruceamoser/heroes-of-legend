@@ -12,12 +12,12 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Briar spear | 6/4/3 |
+| Briar spear | 6 + Push 2 / 4 + Push 1 / 3 |
 
 | Maneuvers | Effect |
 |---|---|

@@ -12,13 +12,13 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Pouncing claws | 6/4/3 |
-| Raking bite | 6/4/3 |
+| Pouncing claws | 6 + After an approach of 2 squares, Prone / 4 + After an approach of 2 squares, Prone / 3 |
+| Raking bite | 6 + Bleeding 2 / 4 + Bleeding 1 / 3 |
 
 | Maneuvers | Effect |
 |---|---|

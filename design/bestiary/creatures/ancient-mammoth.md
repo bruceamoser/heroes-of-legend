@@ -12,13 +12,13 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Tusk sweep | 8/6/4 |
-| Driving tusk | 9/6/4 |
+| Tusk sweep | 8 + Push each target 2 / 6 + Push each target 1 / 4 |
+| Driving tusk | 9 + push 5 / 6 + push 3 / 4 + push 1 |
 
 | Maneuvers | Effect |
 |---|---|

@@ -12,12 +12,12 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Serrated bite | 7/5/3 |
+| Serrated bite | 7 + Bleeding 2 / 5 + Bleeding 1 / 3 |
 
 | Maneuvers | Effect |
 |---|---|

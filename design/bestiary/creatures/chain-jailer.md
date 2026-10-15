@@ -12,13 +12,13 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Hooked chain | 8/6/4 |
-| Binding chain | 5/3/2 |
+| Hooked chain | 8 + Pull 2 / 6 + Pull 1 / 4 |
+| Binding chain | 5 + Grappled 2 / 3 + Grappled 1 / 2 |
 
 | Maneuvers | Effect |
 |---|---|

@@ -12,14 +12,14 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Claw sweep | 10/7/5 |
-| Furnace breath | 10/7/5 |
-| Crushing bite | 12/8/6 |
+| Claw sweep | 10 + Push each 4 / 7 + Push each 2 / 5 |
+| Furnace breath | 10 + Burning 2 / 7 + Burning 1 / 5 |
+| Crushing bite | 12 + Bleeding 2 / 8 + Bleeding 1 / 6 |
 
 | Maneuvers | Effect |
 |---|---|
