@@ -2,6 +2,8 @@
 
 *A recognizable ancestral figure bearing the clothing and weapon of its lifetime. Its outline is spectral, but the protective purpose that holds it here is direct and personal.*
 
+**Attributes:** Brawn +1; Fortitude +1; Agility +0; Guile +0; Knowledge +1; Reason +2
+
 **HP:** 20 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 1
 
 **Evasion:** None · **Threat:** None · **Stability:** 0
@@ -14,18 +16,18 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Remembered blade | 6 + Push 2 / 4 + Push 1 / 3 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Remembered blade | Agility | 6 + Push 2 / 4 + Push 1 / 3 |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -41,9 +43,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 

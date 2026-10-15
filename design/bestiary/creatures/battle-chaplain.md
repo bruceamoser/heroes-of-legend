@@ -2,6 +2,8 @@
 
 *A field healer with a plain staff, practical vestments and a pouch of bandages. Exhaustion and old bloodstains show how much keeping others alive has already cost.*
 
+**Attributes:** Brawn +0; Fortitude +1; Agility +0; Guile +1; Knowledge +1; Reason +2
+
 **HP:** 18 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 0
 
 **Evasion:** None · **Threat:** None · **Stability:** 0
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Staff | 5/3/2 |
-| Battle Mending | See details |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Staff | Agility | 5/3/2 |
+| Battle Mending | Fortitude (if harmful) | See details |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -42,9 +44,9 @@ One adjacent living ally; free hand. Pay 1 HP first, bypass resistance, and rema
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Healing:** Living: ordinary HP healing applies.
 
@@ -73,8 +75,6 @@ One adjacent living ally; free hand. Pay 1 HP first, bypass resistance, and rema
 **Category:** Mortal · **Role:** Healer · **CV:** 13
 
 ### Creature-roll reference
-
-**Attributes:** Brawn +0; Fortitude +1; Agility +0; Guile +1; Knowledge +1; Reason +2
 
 | Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
 |---|---|---|---|---|---|

@@ -7,13 +7,14 @@ supply targeting, conditions and exceptions. Design bookkeeping comes last.
 ```text
 NAME
 Short description of the creature: body, appearance, nature.
+Brawn | Fortitude | Agility | Guile | Knowledge | Reason
 HP | Speed | Size | Armor DR (physical; always print, including 0)
 Evasion | Threat | Stability
 Weaknesses | Resistances | Immunities
 
 ACTIONS
 Damage legend: Weak / Standard / Strong player defense
-Main Actions table: name | damage and effects for each outcome
+Main Actions table: name | defense attribute | damage and effects for each outcome
 Maneuvers table: name | effect
 Reactions table: name | effect
 
@@ -31,6 +32,12 @@ CV worksheet, rationale and ability-source links
 ```
 
 ## Reading the reference
+
+- All six **Attributes** appear above HP, using the creature’s existing values.
+- The **Defense** column names the player’s defense attribute. Nonattack uses
+  show an em dash; healing that can harm undead specifies Fortitude for that use.
+- Use compact table entries: **Defend: +1 Bane** and **Opportunity Attack: Basic
+  Melee**. Their target, timing, duration and stacking rules stay in Details.
 
 - **Evasion** modifies player attacks against the creature. **Threat** modifies
   player defense against its attacks. Print “1 Bane” or “2 Boons,” never ambiguous

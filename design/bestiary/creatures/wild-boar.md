@@ -2,6 +2,8 @@
 
 *A low, heavy wild pig covered in coarse bristles, with curved tusks and a thick shield of hide over its shoulders. Usually wary, it becomes fiercely direct when cornered or defending young.*
 
+**Attributes:** Brawn +2; Fortitude +1; Agility +0; Guile -1; Knowledge -2; Reason +0
+
 **HP:** 12 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 0
 
 **Evasion:** None · **Threat:** None · **Stability:** 1
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Tusks | 5 + Push 2 / 3 + Push 1 / 2 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Tusks | Agility | 5 + Push 2 / 3 + Push 1 / 2 |
 
 | Maneuvers | Effect |
 |---|---|
 | Lower the Tusks | Gain Stability 1 until its next turn. Use the highest Stability; also gain 1 Boon on its next Tusks attack this turn (1 extra Bane on that target’s defense). |
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -42,9 +44,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
 

@@ -2,6 +2,8 @@
 
 *A massive marsh reptile with three long necks rising from one low, muscular body. The heads share a single purpose and body, whose wounds knit unless scorched by fire.*
 
+**Attributes:** Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -2; Reason +1
+
 **HP:** 48 · **Speed:** 5; swim 7 · **Size:** 3 (3x3 squares) · **Armor DR:** 2
 
 **Evasion:** 1 Boon · **Threat:** 1 Bane · **Stability:** 2
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Crossing jaws | 9/7/5 |
-| Anchoring bite | 7 + Grappled 2 / 5 + Grappled 1 / 3 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Crossing jaws | Agility | 9/7/5 |
+| Anchoring bite | Brawn | 7 + Grappled 2 / 5 + Grappled 1 / 3 |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -50,9 +52,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Heavy Frame — Passive:** Stability 2; an explicit creature trait, not a bonus from size.
 
@@ -87,8 +89,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Category:** Dragon · **Role:** Many-target brute · **CV:** 55
 
 ### Creature-roll reference
-
-**Attributes:** Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -2; Reason +1
 
 | Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
 |---|---|---|---|---|---|

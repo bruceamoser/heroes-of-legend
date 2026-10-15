@@ -2,6 +2,8 @@
 
 *An immense water predator with armored ridges, a muscular tail and jaws broad enough to seize a grown traveler. Its low silhouette is almost indistinguishable from a muddy log.*
 
+**Attributes:** Brawn +2; Fortitude +2; Agility +0; Guile +0; Knowledge -2; Reason +0
+
 **HP:** 20 · **Speed:** 4; swim 7 · **Size:** 2 (2x2 squares) · **Armor DR:** 1
 
 **Evasion:** None · **Threat:** 1 Bane · **Stability:** 1
@@ -14,20 +16,20 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Bank drag | 6 + Pull 2 / 4 + Pull 1 / 3 |
-| Locking jaws | 5 + Grappled 2 / 3 + Grappled 1 / 2 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Bank drag | Agility | 6 + Pull 2 / 4 + Pull 1 / 3 |
+| Locking jaws | Brawn | 5 + Grappled 2 / 3 + Grappled 1 / 2 |
 
 | Maneuvers | Effect |
 |---|---|
 | Brace the Tail | While touching the bed or bank, gain Stability 2 until its next turn; highest source only. |
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -53,9 +55,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
 

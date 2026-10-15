@@ -2,6 +2,8 @@
 
 *A dog-sized hunting spider with a swollen abdomen, hooked feet and pale silk glands beneath its jaws. Its web is both a trap and an extension of its senses.*
 
+**Attributes:** Brawn +1; Fortitude +1; Agility +2; Guile +0; Knowledge -2; Reason +1
+
 **HP:** 16 · **Speed:** 6; climb 6 · **Size:** 1 (medium) · **Armor DR:** 0
 
 **Evasion:** 1 Bane · **Threat:** None · **Stability:** 0
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Venomous fangs | 6 + Poisoned 2 / 4 + Poisoned 1 / 2 |
-| Web cast | 0 + Slowed 3 / 0 + Slowed 2 / 0 + Slowed 1 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Venomous fangs | Agility | 6 + Poisoned 2 / 4 + Poisoned 1 / 2 |
+| Web cast | Agility | 0 + Slowed 3 / 0 + Slowed 2 / 0 + Slowed 1 |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -52,9 +54,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Healing:** Living: ordinary HP healing applies.
 

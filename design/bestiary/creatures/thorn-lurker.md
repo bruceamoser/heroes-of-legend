@@ -2,6 +2,8 @@
 
 *A mobile knot of woody roots and hooked vines, dense enough to resemble an ordinary bramble patch. Its outer stems drag prey toward the heavy root mass at its center.*
 
+**Attributes:** Brawn +2; Fortitude +2; Agility -1; Guile -1; Knowledge -2; Reason +0
+
 **HP:** 22 · **Speed:** 4 · **Size:** 2 (2x2 squares) · **Armor DR:** 1
 
 **Evasion:** 1 Boon · **Threat:** 1 Bane · **Stability:** 1
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Hooked vine | 5 + Pull 2 / 4 + Pull 1 / 3 |
-| Root grip | 3 + Grappled 2 / 2 + Grappled 1 / 1 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Hooked vine | Agility | 5 + Pull 2 / 4 + Pull 1 / 3 |
+| Root grip | Agility | 3 + Grappled 2 / 2 + Grappled 1 / 1 |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -52,9 +54,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
 
@@ -85,8 +87,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Category:** Plant · **Role:** Ambush controller · **CV:** 17
 
 ### Creature-roll reference
-
-**Attributes:** Brawn +2; Fortitude +2; Agility -1; Guile -1; Knowledge -2; Reason +0
 
 | Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
 |---|---|---|---|---|---|

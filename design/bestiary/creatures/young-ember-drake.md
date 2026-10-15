@@ -2,6 +2,8 @@
 
 *A young, broad-winged dragon with warm red scales, a heavy jaw and smoke-darkened nostrils. Possessiveness has developed faster than judgment or experience.*
 
+**Attributes:** Brawn +2; Fortitude +2; Agility +1; Guile +0; Knowledge +0; Reason +1
+
 **HP:** 28 · **Speed:** 6; fly 8 · **Size:** 2 (2x2 squares) · **Armor DR:** 1\*
 
 **Evasion:** None · **Threat:** 1 Bane · **Stability:** 1
@@ -14,20 +16,20 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Hot jaws | 7/5/3 |
-| Ember breath | 7 + Burning 2 / 5 + Burning 1 / 3 |
-| Claw rake | 6 + Bleeding 2 / 4 + Bleeding 1 / 3 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Hot jaws | Agility | 7/5/3 |
+| Ember breath | Agility | 7 + Burning 2 / 5 + Burning 1 / 3 |
+| Claw rake | Agility | 6 + Bleeding 2 / 4 + Bleeding 1 / 3 |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -57,9 +59,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
 
@@ -90,8 +92,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Category:** Dragon · **Role:** Flying artillery · **CV:** 27
 
 ### Creature-roll reference
-
-**Attributes:** Brawn +2; Fortitude +2; Agility +1; Guile +0; Knowledge +0; Reason +1
 
 | Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
 |---|---|---|---|---|---|

@@ -2,6 +2,8 @@
 
 *A winged emissary in battered bright armor, with a steady gaze and the visible weariness of long service. Compassion and duty can conflict within it as they do in mortals.*
 
+**Attributes:** Brawn +1; Fortitude +2; Agility +1; Guile +1; Knowledge +2; Reason +2
+
 **HP:** 30 · **Speed:** 6; fly 8 · **Size:** 1 (medium) · **Armor DR:** 0\*
 
 **Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 0
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Dawn blade | 8/6/4 |
-| Battle Mending | See details |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Dawn blade | Fortitude | 8/6/4 |
+| Battle Mending | Fortitude (if harmful) | See details |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -42,9 +44,9 @@ One adjacent living ally; free hand. Pay 3 HP first, bypass resistance, and rema
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Healing:** Living: ordinary HP healing applies.
 
@@ -73,8 +75,6 @@ One adjacent living ally; free hand. Pay 3 HP first, bypass resistance, and rema
 **Category:** Celestial · **Role:** Healer champion · **CV:** 31
 
 ### Creature-roll reference
-
-**Attributes:** Brawn +1; Fortitude +2; Agility +1; Guile +1; Knowledge +2; Reason +2
 
 | Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
 |---|---|---|---|---|---|

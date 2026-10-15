@@ -2,6 +2,8 @@
 
 *A seasoned officer with maintained armor, visible campaign scars and a weapon worn smooth at the grip. Authority rests on experience and the ability to bring people home alive.*
 
+**Attributes:** Brawn +1; Fortitude +2; Agility +1; Guile +1; Knowledge +1; Reason +1
+
 **HP:** 24 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 2
 
 **Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 0
@@ -14,20 +16,20 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Commanding cut | 7/5/4 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Commanding cut | Agility | 7/5/4 |
 
 | Maneuvers | Effect |
 |---|---|
 | Rally | One hearing ally within 3 squares either removes Frightened 1 or gains 1 Boon to its next attack before this creature’s next turn (1 additional Bane to its target’s defense if an NPC). Same named bonus does not stack; no free attack. |
 | Close the Line | One willing ally within 3 squares that can hear may move 1 square immediately, ending adjacent to another ally. This voluntary movement provokes normally; once per turn. |
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -39,9 +41,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Healing:** Living: ordinary HP healing applies.
 
@@ -70,8 +72,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Category:** Mortal · **Role:** Leader · **CV:** 27
 
 ### Creature-roll reference
-
-**Attributes:** Brawn +1; Fortitude +2; Agility +1; Guile +1; Knowledge +1; Reason +1
 
 | Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
 |---|---|---|---|---|---|

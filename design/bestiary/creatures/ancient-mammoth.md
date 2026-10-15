@@ -2,6 +2,8 @@
 
 *A towering, shaggy elephant with a domed skull, sweeping tusks and a thick trunk. Old herd leaders recognize familiar routes and threats across generations.*
 
+**Attributes:** Brawn +2; Fortitude +2; Agility -1; Guile +0; Knowledge -2; Reason +2
+
 **HP:** 34 · **Speed:** 6 · **Size:** 3 (3x3 squares) · **Armor DR:** 2
 
 **Evasion:** 1 Boon · **Threat:** 1 Bane · **Stability:** 2
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Tusk sweep | 8 + Push each target 2 / 6 + Push each target 1 / 4 |
-| Driving tusk | 9 + push 5 / 6 + push 3 / 4 + push 1 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Tusk sweep | Agility | 8 + Push each target 2 / 6 + Push each target 1 / 4 |
+| Driving tusk | Brawn | 9 + push 5 / 6 + push 3 / 4 + push 1 |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -50,9 +52,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Heavy Frame — Passive:** Stability 2; an explicit creature trait, not a bonus from size.
 

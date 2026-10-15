@@ -2,6 +2,8 @@
 
 *A tall, long-armed giant with rubbery hide, a broad nose and scars where fire defeated its healing flesh. Appetite and a stubborn sense of ownership govern most of its bargains.*
 
+**Attributes:** Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -1; Reason +0
+
 **HP:** 26 · **Speed:** 6 · **Size:** 2 (2x2 squares) · **Armor DR:** 1
 
 **Evasion:** None · **Threat:** 1 Bane · **Stability:** 1
@@ -14,18 +16,18 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Bridge club | 7 + Push 2 / 5 + Push 1 / 3 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Bridge club | Agility | 7 + Push 2 / 5 + Push 1 / 3 |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -41,9 +43,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
 
@@ -78,8 +80,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Category:** Giant · **Role:** Regenerating brute · **CV:** 24
 
 ### Creature-roll reference
-
-**Attributes:** Brawn +2; Fortitude +2; Agility +0; Guile -1; Knowledge -1; Reason +0
 
 | Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
 |---|---|---|---|---|---|

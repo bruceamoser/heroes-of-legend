@@ -2,6 +2,8 @@
 
 *A small, wiry goblin salvager with keen eyes, patched work clothes and pockets full of useful scraps. Quick hands and knowledge of the ruins compensate for modest reach.*
 
+**Attributes:** Brawn +0; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +0
+
 **HP:** 8 · **Speed:** 7 · **Size:** 1 (medium) · **Armor DR:** 0
 
 **Evasion:** 1 Bane · **Threat:** None · **Stability:** 0
@@ -14,19 +16,19 @@
 
 Damage is **Weak / Standard / Strong player defense**.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 4/2/1 |
-| Scrap Knife | 5/3/2 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 4/2/1 |
+| Scrap Knife | Agility | 5/3/2 |
 
 | Maneuvers | Effect |
 |---|---|
 | Roll Away | Move up to 2 squares in a straight line without provoking opportunity attacks. |
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -34,9 +36,9 @@ Damage is **Weak / Standard / Strong player defense**.
 
 **Roll Away:** Pay normal terrain costs from the 2-square allowance; normal occupied-square restrictions apply.
 
-**Defend:** Adds to Evasion through the normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Adds to Evasion through the normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Resolves before the provoking action. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Resolves before the provoking action. That action continues if the creature remains capable.
 
 **Senses and speech:** Ordinary sight and hearing; speaks Common and Goblin.
 

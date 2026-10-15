@@ -2,6 +2,8 @@
 
 *A small, wiry goblin salvager with keen eyes, patched work clothes and pockets full of useful scraps. Quick hands and knowledge of the ruins compensate for modest reach.*
 
+**Attributes:** Brawn +0; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +0
+
 **HP:** 8 · **Speed:** 7 · **Size:** 1 (medium) · **Armor DR:** 0
 
 **Evasion:** 1 Bane · **Threat:** None · **Stability:** 0
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 4/2/1 |
-| Scrap knife | 5/3/2 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 4/2/1 |
+| Scrap knife | Agility | 5/3/2 |
 
 | Maneuvers | Effect |
 |---|---|
 | Roll Away | Move up to 2 squares in a straight line without provoking opportunity attacks. |
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -38,9 +40,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Roll Away:** Normal terrain costs and occupied-square restrictions apply.
 
@@ -71,8 +73,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Category:** Mortal · **Role:** Scavenger · **CV:** 7
 
 ### Creature-roll reference
-
-**Attributes:** Brawn +0; Fortitude +0; Agility +2; Guile +1; Knowledge +0; Reason +0
 
 | Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
 |---|---|---|---|---|---|

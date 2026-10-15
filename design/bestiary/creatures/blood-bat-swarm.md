@@ -2,6 +2,8 @@
 
 *A flock of small blood-feeding bats, recognizable by red mouths and pale bellies beneath dark wings. Their numbers protect individual bodies until a broad attack scatters them.*
 
+**Attributes:** Brawn +0; Fortitude +1; Agility +2; Guile +0; Knowledge -2; Reason +1
+
 **HP:** 18 · **Speed:** 1; fly 8 · **Size:** 2 (2x2 squares) · **Armor DR:** 2
 
 **Evasion:** 1 Bane · **Threat:** None · **Stability:** 0
@@ -14,18 +16,18 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Thousand bites | 5 + Bleeding 2 / 3 + Bleeding 1 / 2 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Thousand bites | Agility | 5 + Bleeding 2 / 3 + Bleeding 1 / 2 |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -41,9 +43,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Scatter Body:** Area attacks ignore its physical DR, not other resistance. One HP pool and one turn; cannot overlap another creature at rest.
 
@@ -74,8 +76,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Category:** Animal · **Role:** Flying swarm · **CV:** 17
 
 ### Creature-roll reference
-
-**Attributes:** Brawn +0; Fortitude +1; Agility +2; Guile +0; Knowledge -2; Reason +1
 
 | Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
 |---|---|---|---|---|---|

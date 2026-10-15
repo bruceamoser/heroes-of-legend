@@ -2,6 +2,8 @@
 
 *A small, sturdy household fey with flour-dusted hair, work-worn hands and clothing made from repaired scraps. It values good workmanship, fair hospitality and respect for its chosen home.*
 
+**Attributes:** Brawn -1; Fortitude +1; Agility +1; Guile +1; Knowledge +1; Reason +1
+
 **HP:** 8 · **Speed:** 5 · **Size:** 1 (medium) · **Armor DR:** 0
 
 **Evasion:** 1 Bane · **Threat:** 1 Boon · **Stability:** 0
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 4/2/1 |
-| Wooden spoon | 3/2/1 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 4/2/1 |
+| Wooden spoon | Agility | 3/2/1 |
 
 | Maneuvers | Effect |
 |---|---|
 | Helping hands | Aid one adjacent ally’s plausible manual task, granting 1 Boon to its next roll before the brownie’s next turn. It has hands and may manipulate ordinary tools, but grants no crafting ability or recipe. |
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -38,9 +40,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Healing:** Living: ordinary HP healing applies.
 
