@@ -1,4 +1,4 @@
-# Stone Knuckle
+# Stone Knuckle (CV 9)
 
 *A squat elemental assembled from pebbles and rough stones around a dense central core. Its blunt hands and planted feet suit it to guarding a small patch of ground.*
 

@@ -1,4 +1,4 @@
-# Briar Knight
+# Briar Knight (CV 19)
 
 *A fey guardian enclosed in barklike armor, with a thorn-grown shield and a long spear. A living blossom at the shoulder marks the promise it serves.*
 

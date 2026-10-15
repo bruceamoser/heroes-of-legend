@@ -1,4 +1,4 @@
-# Oath Flame
+# Oath Flame (CV 26)
 
 *A humanlike figure of shrine fire and bright ash, carrying a blade shaped by the oath it embodies. It has judgment within that promise, not limitless divine authority.*
 

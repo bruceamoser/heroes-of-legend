@@ -1,4 +1,4 @@
-# Bandit Bow
+# Bandit Bow (CV 9)
 
 *A lightly armored robber with a hunting bow, spare string and clothing chosen to blend into roadside cover. Their confidence depends on distance and a prepared exit.*
 

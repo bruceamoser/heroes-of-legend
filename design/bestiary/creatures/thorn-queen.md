@@ -1,4 +1,4 @@
-# Thorn Queen
+# Thorn Queen (CV 32)
 
 *A regal woodland fey with branchlike antlers and a gown of living leaves and briars. Her authority binds a particular place and its promises, not every creature of the forest.*
 

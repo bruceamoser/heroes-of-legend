@@ -1,4 +1,4 @@
-# Icebound Warden
+# Icebound Warden (CV 19)
 
 *A broad elemental body of layered lake ice, with trapped bubbles for eyes and thick, blunt hands. It exists to preserve something beneath the cold rather than to spread winter indiscriminately.*
 

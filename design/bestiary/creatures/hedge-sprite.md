@@ -1,4 +1,4 @@
-# Hedge Sprite
+# Hedge Sprite (CV 5)
 
 *A tiny winged fey with thornlike features, leaf-colored clothes and a fierce sense of local etiquette. Its home may be no larger than a hedge, but its claim to it is absolute.*
 

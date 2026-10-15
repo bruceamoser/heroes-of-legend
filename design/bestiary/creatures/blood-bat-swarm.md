@@ -1,4 +1,4 @@
-# Blood Bat Swarm
+# Blood Bat Swarm (CV 17)
 
 *A flock of small blood-feeding bats, recognizable by red mouths and pale bellies beneath dark wings. Their numbers protect individual bodies until a broad attack scatters them.*
 

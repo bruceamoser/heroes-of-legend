@@ -1,4 +1,4 @@
-# Sorrow Ghost
+# Sorrow Ghost (CV 23)
 
 *A translucent human figure in rain-soaked clothing, its expression fixed between grief and accusation. Details of its appearance belong to the last unresolved moments of its life.*
 

@@ -1,4 +1,4 @@
-# Great Cat
+# Great Cat (CV 15)
 
 *A long-bodied spotted cat with padded paws, heavy shoulders and a tail that balances it on high branches. A solitary hunter, it favors a short ambush over a costly struggle.*
 

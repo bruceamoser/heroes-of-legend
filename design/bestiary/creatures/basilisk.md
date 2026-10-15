@@ -1,4 +1,4 @@
-# Basilisk
+# Basilisk (CV 19)
 
 *A squat, many-legged reptile with a heavy jaw, pebbled hide and unsettling pale eyes. Its gaze stiffens living bodies long enough for its slow approach to become dangerous.*
 

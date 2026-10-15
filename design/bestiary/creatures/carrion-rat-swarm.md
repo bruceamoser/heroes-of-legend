@@ -1,4 +1,4 @@
-# Carrion Rat Swarm
+# Carrion Rat Swarm (CV 11)
 
 *A dense group of oversized scavenging rats with scarred tails, dirty fur and sharp yellow teeth. The swarm behaves as a single hungry mass but occupies a definite patch of ground.*
 

@@ -1,4 +1,4 @@
-# Adder
+# Adder (CV 5)
 
 *A short, thick-bodied snake patterned like leaf litter, with a triangular head and retractable venomous fangs. It prefers warm cover and an escape route to confrontation.*
 

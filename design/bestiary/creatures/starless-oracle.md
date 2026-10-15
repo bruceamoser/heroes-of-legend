@@ -1,4 +1,4 @@
-# Starless Oracle
+# Starless Oracle (CV 26)
 
 *An alien, many-eyed figure with pale skin and an uneven arrangement of joints. Its attention slips between the present and possible futures, making its advice useful and dangerous.*
 

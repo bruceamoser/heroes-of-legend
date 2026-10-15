@@ -1,4 +1,4 @@
-# Rill Sprite
+# Rill Sprite (CV 6)
 
 *A child-sized shape of clear running water, with pebbles and bubbles visible inside its body. It belongs to a particular flow and reacts strongly to blockage or contamination.*
 

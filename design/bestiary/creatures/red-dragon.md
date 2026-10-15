@@ -1,4 +1,4 @@
-# Red Dragon
+# Red Dragon (CV 95)
 
 *An immense red-scaled dragon with a horned head, broad wings and a furnace-bright throat. Intelligent and deeply possessive, it treats territory, tribute and reputation as parts of the same hoard.*
 

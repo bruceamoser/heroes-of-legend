@@ -1,4 +1,4 @@
-# Young Ember Drake
+# Young Ember Drake (CV 27)
 
 *A young, broad-winged dragon with warm red scales, a heavy jaw and smoke-darkened nostrils. Possessiveness has developed faster than judgment or experience.*
 

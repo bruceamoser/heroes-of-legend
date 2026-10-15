@@ -1,4 +1,4 @@
-# Ash Revenant
+# Ash Revenant (CV 29)
 
 *A burned walking body held together by ash, stubborn sinew and an unfinished grievance. A blackened personal token identifies the wrong that prevents it from resting.*
 

@@ -1,4 +1,4 @@
-# Chain Jailer
+# Chain Jailer (CV 32)
 
 *A broad fiend wrapped in hooked chains and iron identification tags. It presents captivity as collection of a debt, whether that debt is honest or manufactured.*
 

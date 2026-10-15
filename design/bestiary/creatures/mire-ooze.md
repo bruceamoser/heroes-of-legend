@@ -1,4 +1,4 @@
-# Mire Ooze
+# Mire Ooze (CV 10)
 
 *A creeping mass of mud-colored digestive slime, with partly dissolved scraps suspended inside. It has no eyes or clear front, sensing contact and nearby ground vibration instead.*
 

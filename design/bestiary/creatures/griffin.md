@@ -1,4 +1,4 @@
-# Griffin
+# Griffin (CV 26)
 
 *A great winged predator with an eagle’s head and forequarters joined to a powerful feline body. Sharp talons and broad wings suit it to cliffs and open hunting ground.*
 

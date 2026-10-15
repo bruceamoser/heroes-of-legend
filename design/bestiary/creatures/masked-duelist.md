@@ -1,4 +1,4 @@
-# Masked Duelist
+# Masked Duelist (CV 24)
 
 *An accomplished swordsman in light dueling clothes and a distinctive mask, carrying a finely balanced ordinary blade. Reputation, precision and control of distance define the threat.*
 

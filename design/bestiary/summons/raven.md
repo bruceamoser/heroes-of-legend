@@ -1,4 +1,4 @@
-# Raven
+# Raven (CV 4)
 
 *A large black corvid with an iridescent throat, wedge-shaped tail and keen, curious eyes. It remembers faces and treats unattended food and interesting objects as opportunities.*
 

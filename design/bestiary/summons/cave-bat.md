@@ -1,4 +1,4 @@
-# Cave Bat
+# Cave Bat (CV 4)
 
 *A small cave-dwelling bat with oversized ears, thin dark wings and tiny hooked feet. Sound guides it through darkness, while bright light and loud disturbances unsettle its roost.*
 

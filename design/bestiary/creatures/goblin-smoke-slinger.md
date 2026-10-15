@@ -1,4 +1,4 @@
-# Goblin Smoke Slinger
+# Goblin Smoke Slinger (CV 9)
 
 *A nimble goblin carrying a sling and clay smoke pots in padded loops. Soot-stained fingers and a scarf over the mouth mark a specialist in covering a crew’s retreat.*
 

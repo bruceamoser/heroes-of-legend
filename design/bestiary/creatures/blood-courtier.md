@@ -1,4 +1,4 @@
-# Blood Courtier
+# Blood Courtier (CV 40)
 
 *An elegant undead predator with cool skin, immaculate clothes and teeth easily concealed by a practiced smile. Its household and social influence protect a carefully hidden feeding arrangement.*
 

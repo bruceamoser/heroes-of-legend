@@ -1,4 +1,4 @@
-# River Serpent
+# River Serpent (CV 29)
 
 *A huge freshwater serpent with a deep muscular body, blunt ridged head and powerful coils. Its size makes a narrow channel or low bank particularly dangerous.*
 

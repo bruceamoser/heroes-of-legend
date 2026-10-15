@@ -1,4 +1,4 @@
-# Thorn Lurker
+# Thorn Lurker (CV 17)
 
 *A mobile knot of woody roots and hooked vines, dense enough to resemble an ordinary bramble patch. Its outer stems drag prey toward the heavy root mass at its center.*
 

@@ -1,4 +1,4 @@
-# Bridge Troll
+# Bridge Troll (CV 24)
 
 *A tall, long-armed giant with rubbery hide, a broad nose and scars where fire defeated its healing flesh. Appetite and a stubborn sense of ownership govern most of its bargains.*
 

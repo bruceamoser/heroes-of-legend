@@ -1,4 +1,4 @@
-# Cinder Imp
+# Cinder Imp (CV 7)
 
 *A small winged fiend with coal-dark skin, a barbed tail and quick, grasping hands. It thrives on impulsive bargains and the ordinary disasters they cause.*
 

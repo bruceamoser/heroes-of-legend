@@ -1,4 +1,4 @@
-# Battle Chaplain
+# Battle Chaplain (CV 13)
 
 *A field healer with a plain staff, practical vestments and a pouch of bandages. Exhaustion and old bloodstains show how much keeping others alive has already cost.*
 

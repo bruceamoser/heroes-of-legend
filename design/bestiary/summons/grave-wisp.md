@@ -1,4 +1,4 @@
-# Grave Wisp
+# Grave Wisp (CV 6)
 
 *A pale drifting light with the faint suggestion of a face deep inside it. The wisp is a dead person’s lingering need for a witness, not a source of useful flame.*
 

@@ -1,4 +1,4 @@
-# Stone Giant
+# Stone Giant (CV 33)
 
 *A towering, stone-gray person with long limbs, deliberate hands and clothing marked by carved patterns. Its home and artwork are expressions of memory rather than merely a hoard to defend.*
 

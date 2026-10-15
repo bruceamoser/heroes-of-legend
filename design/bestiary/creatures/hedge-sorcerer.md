@@ -1,4 +1,4 @@
-# Hedge Sorcerer
+# Hedge Sorcerer (CV 16)
 
 *A self-taught caster with scorched cuffs, an improvised focus and an uneven collection of protective charms. Talent is real; discipline and confidence are less reliable.*
 

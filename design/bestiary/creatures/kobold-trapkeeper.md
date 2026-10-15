@@ -1,4 +1,4 @@
-# Kobold Trapkeeper
+# Kobold Trapkeeper (CV 7)
 
 *A small, lightly built kobold with a dart case, tool belt and marked cords identifying safe routes. Careful preparation lets the trapkeeper defend a home against much larger intruders.*
 

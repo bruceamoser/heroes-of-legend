@@ -1,4 +1,4 @@
-# Reef Hunter
+# Reef Hunter (CV 17)
 
 *A large reef shark with a pale belly, dark back and rows of serrated teeth. It is built for swift turns in open water and cannot pursue prey onto land.*
 

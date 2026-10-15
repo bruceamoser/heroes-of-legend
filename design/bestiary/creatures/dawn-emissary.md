@@ -1,4 +1,4 @@
-# Dawn Emissary
+# Dawn Emissary (CV 31)
 
 *A winged emissary in battered bright armor, with a steady gaze and the visible weariness of long service. Compassion and duty can conflict within it as they do in mortals.*
 

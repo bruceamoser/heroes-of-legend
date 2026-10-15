@@ -1,4 +1,4 @@
-# Rime Dragon
+# Rime Dragon (CV 54)
 
 *A long-bodied dragon with pale blue scales, translucent horns and wings like thin sheets of ice. It favors frozen coasts and glaciers where its memories and prey can remain preserved.*
 

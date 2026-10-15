@@ -1,4 +1,4 @@
-# Walking Furnace
+# Walking Furnace (CV 29)
 
 *A mobile foundry furnace on thick iron legs, with a bellows chest and a hinged firebox mouth. Old production orders still govern the heat and weight of its machinery.*
 

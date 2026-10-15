@@ -1,4 +1,4 @@
-# Crystal Ooze
+# Crystal Ooze (CV 20)
 
 *A broad, transparent gel containing shards of stone and glass, easily mistaken for a clean polished surface. Its slow body is adhesive and dense rather than nimble.*
 

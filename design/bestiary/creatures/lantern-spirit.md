@@ -1,4 +1,4 @@
-# Lantern Spirit
+# Lantern Spirit (CV 6)
 
 *A small lantern-shaped spirit with legs of light and a steady, smokeless glow. It remembers a particular route with great fidelity, but knows little beyond it.*
 

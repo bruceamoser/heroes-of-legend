@@ -1,4 +1,4 @@
-# Clay Helper
+# Clay Helper (CV 5)
 
 *A rough humanoid of fired and unfired clay, with broad hands and the maker’s thumbprints still visible. It understands simple work instructions but has no independent craft training.*
 

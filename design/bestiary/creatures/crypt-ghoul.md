@@ -1,4 +1,4 @@
-# Crypt Ghoul
+# Crypt Ghoul (CV 17)
 
 *A gaunt, corpse-eating undead with stretched lips, long nails and flesh drawn tight over its joints. It retains enough cunning to seek an isolated victim and avoid a determined group.*
 
