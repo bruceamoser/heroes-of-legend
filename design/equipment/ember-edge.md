@@ -10,6 +10,8 @@
 
 Adds 1 fire damage to attacks made with it. On Strong also applies Burning 1. Cannot apply to ranged attacks.
 
-Apply this item’s printed benefit only; it grants no ability or action beyond what it states. No DP purchase; found or bought for coins at a DA-set price. No special recipe is supplied by owning it.
+Apply this item’s printed benefit only; it grants no ability or action beyond what it states. No DP purchase; found or bought when the DA makes it available. No special recipe is supplied by owning it.
 
 [Equipment index](../equipment.md)
+
+**Market price:** 400 coins (special-order benchmark; availability is not guaranteed). Proposal; see [market rules](../market.md).

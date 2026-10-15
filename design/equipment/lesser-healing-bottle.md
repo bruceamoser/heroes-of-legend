@@ -12,6 +12,8 @@
 
 Use [Use a Healing Potion](../cards/use-a-healing-potion.md): restore 6 HP before Life resistance, capped by missing HP. The giver needs a free hand and spends a Maneuver; another recipient spends a Reaction unless at 0 HP. Check the bottle’s inventory die after use; the final use still works.
 
-No DP price. Coin prices remain unassigned pending economy review.
+No DP price. Purchase does not grant training or an ability.
 
 [Equipment index](../equipment.md)
+
+**Market price:** 20 coins. Proposal; see [market rules](../market.md).

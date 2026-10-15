@@ -12,6 +12,10 @@
 
 Mark material type. One use and inventory check per crafting attempt requiring it. Incompatible material cannot substitute.
 
-No DP price. Coin prices remain unassigned pending economy review.
+No DP price. Purchase does not grant training or an ability.
 
 [Equipment index](../equipment.md)
+
+**Market price:** 12 coins. Proposal; see [market rules](../market.md).
+
+This 12-coin d6 price is for one named ordinary material type. Prepared healing ingredients cost 80 coins per d6 bundle instead; other rare materials require a DA quote. A cheap ordinary bundle cannot substitute for life salts or other specialist ingredients.

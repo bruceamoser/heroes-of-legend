@@ -66,3 +66,10 @@ now separates narrative from Rules. New details remain proposals for review.
 The [Warden and healing review](reviews/1161-warden-and-healing.md) adds a proposed
 tenth class and two Novice healing expressions. Existing worked characters remain
 unchanged; the review shows how Lira can become a Warden with the same budgets.
+
+## Coin-market draft
+
+[Market inventory and prices](market.md) supplies proposed equipment costs, services,
+restocking and resale. [Six shopping baskets](reviews/1166-market-review.md) support
+a 50–70 coin starting-range discussion; individual starting contributions are not
+yet assigned.
