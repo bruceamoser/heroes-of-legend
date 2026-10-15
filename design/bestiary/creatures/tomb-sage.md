@@ -1,4 +1,4 @@
-# Tomb Sage (CV 45)
+# Lich — Tomb Sage (CV 45)
 
 *A preserved undead scholar with ink-blackened bones, ancient robes and books maintained with obsessive care. Centuries of unfinished research have worn away concern for the living.*
 

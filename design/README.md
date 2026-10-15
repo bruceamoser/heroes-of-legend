@@ -20,7 +20,7 @@ This is an authoring draft, not a claim that every option has been approved or t
 5. [Catalog](catalog.md): all universal references, shared abilities and signatures.
 6. [Equipment](equipment.md), [recipes](recipes.md), [wounds and treatment](rules/recovery.md).
 7. [Six complete level-1 characters](characters/README.md), [earlier worked characters](starter-characters.md), and [example scenes](example-scenes.md).
-8. [Bestiary](bestiary/README.md): 84 creatures, 50 separate monster abilities and 43 summon choices.
+8. [Bestiary](bestiary/README.md): 192 creatures, 93 separate monster abilities and 73 summon choices.
 9. [Open decisions](open-decisions.md), [reference research](references.md), [coverage](coverage.md).
 
 ## Editing

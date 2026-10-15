@@ -1,4 +1,4 @@
-# Bone Archer (CV 6)
+# Skeleton Archer (CV 6)
 
 *A dry skeleton equipped with a maintained bow and a small bundle of arrows. Its stillness is absolute until an intruder crosses the lane it was ordered to watch.*
 

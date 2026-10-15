@@ -1,117 +1,112 @@
 # Summon selection
 
-**Proposed permissions:** select an entry below with a matching category card and
-minimum tier no greater than the card’s tier. These are explicit permissions,
-not inferred from creature type or CV. All eighteen category spells now have
-choices. A stronger card may still call a lower-tier helper.
+**Proposed permissions:** select a listed creature whose category matches the card
+and whose minimum tier does not exceed it. Category or CV alone grants no access.
+The expanded roster provides 73 explicit selections. All use the established
+command limits, six-square tether and disappearance rules. No uncommanded activity,
+Reactions, opportunity attacks, permanent loot or summon chains.
 
 ## Animal
 
-| Minimum card tier | Creature | Useful command |
+| Minimum card tier | Creature | Useful command role |
 |---:|---|---|
-| 1 | [Trail Hound](summons/trail-hound.md) | Tracker |
-| 1 | [Wolf](summons/wolf.md) | Pack hunter |
-| 1 | [Wild Boar](summons/wild-boar.md) | Charger |
-| 3 | [Marsh Crocodile](summons/marsh-crocodile.md) | Ambusher |
-| 3 | [Brown Bear](summons/brown-bear.md) | Brute |
-| 3 | [Great Cat](summons/great-cat.md) | Stalker |
-| 1 | [Raven](summons/raven.md) | Scout |
-| 1 | [Cave Bat](summons/cave-bat.md) | Cavern scout |
-| 3 | [Giant Spider](summons/giant-spider.md) | Controller |
 | 1 | [Adder](summons/adder.md) | Venomous nuisance |
+| 1 | [Cave Bat](summons/cave-bat.md) | Cavern scout |
+| 1 | [Giant Rat](summons/giant-rat.md) | Attrition striker |
+| 1 | [Raven](summons/raven.md) | Scout |
+| 1 | [Trail Hound](summons/trail-hound.md) | Tracker |
+| 1 | [Warhorse](summons/warhorse.md) | Displacer |
+| 1 | [Wild Boar](summons/wild-boar.md) | Charger |
+| 1 | [Wolf](summons/wolf.md) | Pack hunter |
+| 3 | [Brown Bear](summons/brown-bear.md) | Brute |
+| 3 | [Dire Wolf](summons/dire-wolf.md) | Knockdown fighter |
+| 3 | [Giant Boar](summons/giant-boar.md) | Displacer |
+| 3 | [Giant Constrictor](summons/giant-constrictor.md) | Holder |
+| 3 | [Giant Eagle](summons/giant-eagle.md) | Position hunter |
+| 3 | [Giant Octopus](summons/giant-octopus.md) | Holder |
+| 3 | [Giant Scorpion](summons/giant-scorpion.md) | Debuffer |
+| 3 | [Giant Spider](summons/giant-spider.md) | Controller |
+| 3 | [Great Cat](summons/great-cat.md) | Stalker |
 | 3 | [Great Stag](summons/great-stag.md) | Line breaker |
-| 7 | [Ancient Mammoth](summons/ancient-mammoth.md) | Massive guardian |
+| 3 | [Marsh Crocodile](summons/marsh-crocodile.md) | Ambusher |
 | 3 | [Reef Hunter](summons/reef-hunter.md) | Aquatic hunter |
+| 7 | [Ancient Mammoth](summons/ancient-mammoth.md) | Massive guardian |
 
 ## Fey
 
-| Minimum card tier | Creature | Useful command |
+| Minimum card tier | Creature | Useful command role |
 |---:|---|---|
-| 1 | [Hedge Sprite](summons/hedge-sprite.md) | Trickster |
 | 1 | [Hearth Brownie](summons/hearth-brownie.md) | Helper |
-| 3 | [Reed Piper](summons/reed-piper.md) | Distractor |
+| 1 | [Hedge Sprite](summons/hedge-sprite.md) | Trickster |
 | 3 | [Briar Knight](summons/briar-knight.md) | Defender |
-| 7 | [Moon Hart](summons/moon-hart.md) | Rescuer |
+| 3 | [Dryad](summons/dryad.md) | Holder |
 | 3 | [Harbor Siren](summons/harbor-siren.md) | Lurer |
+| 3 | [Redcap](summons/redcap.md) | Attrition striker |
+| 3 | [Reed Piper](summons/reed-piper.md) | Distractor |
+| 3 | [Satyr](summons/satyr.md) | Disabler |
+| 7 | [Moon Hart](summons/moon-hart.md) | Rescuer |
+| 7 | [Unicorn](summons/unicorn.md) | Displacer |
 
 ## Spirit
 
-| Minimum card tier | Creature | Useful command |
+| Minimum card tier | Creature | Useful command role |
 |---:|---|---|
-| 3 | [Sorrow Ghost](summons/sorrow-ghost.md) | Haunter |
-| 7 | [Mourning Bell](summons/mourning-bell.md) | Area controller |
 | 1 | [Lantern Spirit](summons/lantern-spirit.md) | Guide |
 | 3 | [Ancestor Guardian](summons/ancestor-guardian.md) | Protector |
+| 3 | [Ghost — Sorrow-bound](summons/sorrow-ghost.md) | Haunter |
+| 3 | [Poltergeist](summons/poltergeist.md) | Displacer |
+| 7 | [Mourning Bell](summons/mourning-bell.md) | Area controller |
 | 7 | [Oath Flame](summons/oath-flame.md) | Sacred champion |
 
 ## Elemental
 
-| Minimum card tier | Creature | Useful command |
+| Minimum card tier | Creature | Useful command role |
 |---:|---|---|
 | 1 | [Emberling](summons/emberling.md) | Fire skirmisher |
 | 1 | [Rill Sprite](summons/rill-sprite.md) | Water helper |
 | 1 | [Stone Knuckle](summons/stone-knuckle.md) | Small blocker |
+| 3 | [Air Elemental](summons/air-elemental.md) | Displacer |
 | 3 | [Cinder Strider](summons/cinder-strider.md) | Burning striker |
 | 3 | [Icebound Warden](summons/icebound-warden.md) | Cold defender |
+| 3 | [Water Elemental](summons/water-elemental.md) | Position hunter |
+| 7 | [Earth Elemental](summons/earth-elemental.md) | Displacer |
 | 7 | [Storm Column](summons/storm-column.md) | Area displacer |
 
 ## Undead
 
-| Minimum card tier | Creature | Useful command |
+| Minimum card tier | Creature | Useful command role |
 |---:|---|---|
-| 1 | [Bone Sentry](summons/bone-sentry.md) | Guard |
-| 1 | [Bone Archer](summons/bone-archer.md) | Artillery |
-| 1 | [Restless Corpse](summons/restless-corpse.md) | Blocker |
-| 3 | [Crypt Ghoul](summons/crypt-ghoul.md) | Disabler |
-| 3 | [Barrow Guard](summons/barrow-guard.md) | Defender |
 | 1 | [Grave Wisp](summons/grave-wisp.md) | Lurer |
-| 7 | [Bone Colossus](summons/bone-colossus.md) | Siege body |
+| 1 | [Skeleton Archer](summons/bone-archer.md) | Artillery |
+| 1 | [Skeleton Sentry](summons/bone-sentry.md) | Guard |
+| 1 | [Zombie Shambler](summons/restless-corpse.md) | Blocker |
+| 3 | [Barrow Guard](summons/barrow-guard.md) | Defender |
+| 3 | [Crypt Ghoul](summons/crypt-ghoul.md) | Disabler |
+| 3 | [Plague Zombie](summons/plague-zombie.md) | Debuffer |
+| 3 | [Shadow](summons/shadow.md) | Pursuit controller |
+| 3 | [Skeleton Champion](summons/skeleton-champion.md) | Attrition striker |
+| 3 | [Skeleton Horse](summons/skeleton-horse.md) | Displacer |
+| 3 | [Zombie Brute](summons/zombie-brute.md) | Knockdown fighter |
+| 7 | [Ghast](summons/ghast.md) | Disabler |
+| 7 | [Mummy](summons/mummy.md) | Holder |
+| 7 | [Skeleton Colossus](summons/bone-colossus.md) | Siege body |
+| 7 | [Skeleton Giant](summons/skeleton-giant.md) | Displacer |
+| 7 | [Wight](summons/wight.md) | Pursuit controller |
+| 7 | [Wraith](summons/wraith.md) | Disabler |
 
 ## Construct
 
-| Minimum card tier | Creature | Useful command |
+| Minimum card tier | Creature | Useful command role |
 |---:|---|---|
 | 1 | [Clay Helper](summons/clay-helper.md) | Laborer |
 | 1 | [Clockwork Scout](summons/clockwork-scout.md) | Surveyor |
 | 3 | [Animated Armor](summons/animated-armor.md) | Guard |
+| 3 | [Animated Statue](summons/animated-statue.md) | Displacer |
 | 3 | [Glass Sentinel](summons/glass-sentinel.md) | Spell guard |
+| 7 | [Clay Golem](summons/clay-golem.md) | Holder |
+| 7 | [Flesh Golem](summons/flesh-golem.md) | Disabler |
 | 7 | [Iron Gatekeeper](summons/iron-gatekeeper.md) | Heavy guardian |
+| 7 | [Stone Golem](summons/stone-golem.md) | Displacer |
 | 7 | [Walking Furnace](summons/walking-furnace.md) | Area artillery |
 
-## Shared command rules
-
-Use [the agreed command economy](../rules/summoning.md). Summons do nothing without
-a command; no following, lookout, alerts, attacks, labor or continuing old orders.
-A new summon’s immediate free Main command is its one command for that turn. It
-cannot receive a second paid command that turn. No independent Reactions or chains.
-All creatures vanish at 0 HP; all summons vanish when the controller is unconscious
-or dead. Other inability to command does not make them independent.
-
-The agreed tether is 6 squares. Multi-square measurement, airborne idle positioning
-and unusual anatomy use DA adjudication pending explicit core rules; the prior draft’s
-farthest-square tether and automatic hover rules are not adopted here.
-
-The form arrives with its printed attacks available. A real bow-user has the
-printed ammunition supply; a summoned bow-user has an ephemeral d6 ammunition
-supply. Roll its inventory die after each use normally; it vanishes with the form
-and cannot be passed on. Other natural attacks do not consume ammunition. No
-summon grants materials, equipment for sale, permanent crafting or free recipes.
-
-**Example:** a Novice Animal card calls a wolf in range and grants a Main command.
-The wolf converts its Maneuver to movement and then attacks. The controller cannot
-spend a second command on that wolf this turn, but may spend their remaining
-Maneuver commanding a different existing summon. On the following turn, leaving
-the wolf uncommanded means it stands still; it does not keep biting or watch for
-intruders. Its passive resistance and condition ticks still apply.
-
-Summons use the same stat line as the monster, with the explicit Reaction and
-passive restrictions on each card. Do not copy a creature’s narrative tactics into
-a standing autonomous order. Summoning is deliberately useful for scouting, fetching,
-body positioning and support, but the controller must stay close and actively direct it.
-
-## Summoned healing — unresolved balance question
-
-Use the existing rule: the healer pays its printed HP cost before healing and must
-remain above 0. The first draft’s controller-pays exception is withdrawn. A fresh
-summoned healer can reset that HP reservoir; this needs a design decision or test,
-not a silent change to who pays. The Moon Hart entry makes its actual cost explicit.
+[Command rules](../rules/summoning.md) · [Creature roster](roster.md)

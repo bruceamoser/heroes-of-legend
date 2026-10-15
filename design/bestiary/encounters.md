@@ -84,7 +84,7 @@ free hands when testing, rather than invented optimized stat lines.
 | Scene | Roster | CV total | What makes it an adventure |
 |---|---|---:|---|
 | The false toll | 3 Road Bandits + 1 Bandit Bow | 36 | A blocked cart is a bluff. The bow has a tree perch; expose the bluff or reach the perch. |
-| The opened barrow | 3 Bone Sentries + 2 Bone Archers | 33 | Return the stolen burial token to stop the watch. Keep the entrance wide enough to avoid a doorway lock. |
+| The opened barrow | 3 Skeleton Sentries + 2 Skeleton Archers | 33 | Return the stolen burial token to stop the watch. Keep the entrance wide enough to avoid a doorway lock. |
 | Tracks around the camp | 4 Wolves | 32 | The camp blocks the route to a den. Move the camp or escort the pack past it. Pack Hunter makes isolation matter. |
 | The bridge has an owner | 1 Bridge Troll + 1 Road Bandit + 1 Bandit Bow | 42 | Toll collectors have an uneasy partnership. Fire and the drop can dominate the CV; offer another crossing. |
 | The watch will not stand down | 2 Shield Soldiers + 1 Grave Cultist | 38 | Soldiers believe the cultist has legal authority. Show the forged orders; otherwise test layered defensive Boons. |

@@ -21,10 +21,10 @@ Maneuver count includes universal Defend. Alternative attacks spend the same Mai
 | [Basilisk](creatures/basilisk.md) | 0 | 0 | 2 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Battle Chaplain](creatures/battle-chaplain.md) | 0 | 0 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Blood Bat Swarm](creatures/blood-bat-swarm.md) | 1 | 0 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
-| [Blood Courtier](creatures/blood-courtier.md) | 1 | 1 | 1 | 2 | Existing attacks retained | Defend / existing maneuvers |
-| [Bone Archer](creatures/bone-archer.md) | 0 | 0 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
-| [Bone Colossus](creatures/bone-colossus.md) | -1 | 1 | 1 | 2 | Existing attacks retained | Set the Frame |
-| [Bone Sentry](creatures/bone-sentry.md) | 0 | 0 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
+| [Vampire Courtier](creatures/blood-courtier.md) | 1 | 1 | 1 | 2 | Existing attacks retained | Defend / existing maneuvers |
+| [Skeleton Archer](creatures/bone-archer.md) | 0 | 0 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
+| [Skeleton Colossus](creatures/bone-colossus.md) | -1 | 1 | 1 | 2 | Existing attacks retained | Set the Frame |
+| [Skeleton Sentry](creatures/bone-sentry.md) | 0 | 0 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Briar Knight](creatures/briar-knight.md) | 0 | 1 | 1 | 2 | Existing attacks retained | Root the Stance |
 | [Bridge Troll](creatures/bridge-troll.md) | 0 | 1 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Brown Bear](creatures/brown-bear.md) | 0 | 1 | 2 | 2 | Crushing bite | Warning Bellow |
@@ -74,13 +74,13 @@ Maneuver count includes universal Defend. Alternative attacks spend the same Mai
 | [Red Dragon](creatures/red-dragon.md) | 0 | 2 | 3 | 4 | Crushing bite | Dig In |
 | [Reed Piper](creatures/reed-piper.md) | 1 | 1 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Reef Hunter](creatures/reef-hunter.md) | 0 | 1 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
-| [Restless Corpse](creatures/restless-corpse.md) | -1 | 0 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
+| [Zombie Shambler](creatures/restless-corpse.md) | -1 | 0 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Rill Sprite](creatures/rill-sprite.md) | 1 | 0 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Rime Dragon](creatures/rime-dragon.md) | 0 | 2 | 3 | 3 | Ice-edged bite | Ice Anchor |
 | [River Serpent](creatures/river-serpent.md) | 0 | 1 | 2 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Road Bandit](creatures/road-bandit.md) | 0 | 0 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Shield Soldier](creatures/shield-soldier.md) | 0 | 0 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
-| [Sorrow Ghost](creatures/sorrow-ghost.md) | 1 | 1 | 1 | 2 | Existing attacks retained | Defend / existing maneuvers |
+| [Ghost — Sorrow-bound](creatures/sorrow-ghost.md) | 1 | 1 | 1 | 2 | Existing attacks retained | Defend / existing maneuvers |
 | [Spore Shepherd](creatures/spore-shepherd.md) | 0 | 0 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Starless Oracle](creatures/starless-oracle.md) | 1 | 1 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Stone Giant](creatures/stone-giant.md) | -1 | 1 | 3 | 1 | Clearing shove | Defend / existing maneuvers |
@@ -88,7 +88,7 @@ Maneuver count includes universal Defend. Alternative attacks spend the same Mai
 | [Storm Column](creatures/storm-column.md) | 1 | 1 | 2 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Thorn Lurker](creatures/thorn-lurker.md) | -1 | 1 | 2 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Thorn Queen](creatures/thorn-queen.md) | 1 | 1 | 2 | 1 | Existing attacks retained | Defend / existing maneuvers |
-| [Tomb Sage](creatures/tomb-sage.md) | 1 | 1 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
+| [Lich — Tomb Sage](creatures/tomb-sage.md) | 1 | 1 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Trail Hound](creatures/trail-hound.md) | 0 | 0 | 1 | 2 | Existing attacks retained | Take the Scent |
 | [Veteran Captain](creatures/veteran-captain.md) | 1 | 1 | 1 | 3 | Existing attacks retained | Close the Line |
 | [Walking Furnace](creatures/walking-furnace.md) | -1 | 1 | 2 | 1 | Existing attacks retained | Defend / existing maneuvers |
