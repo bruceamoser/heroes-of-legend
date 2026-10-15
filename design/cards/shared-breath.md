@@ -29,3 +29,9 @@ Moser’s law of conservation of Life energy: pay 1 HP before rolling; bypass re
 **ID:** shared-breath · **Status:** Proposal — fresh design; not approved or balance-tested.
 
 [Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+
+**Offensive healing — latest agreement:** this spell may target an unwilling
+creature harmed by healing. Resolve it as an attack using its printed attribute,
+range, action and HP cost; the HP result becomes Life damage, without beneficial
+recovery riders. This is the explicit exception to willing-only targeting above.
+Use the creature’s printed defense when a player defends; no opposed second roll.

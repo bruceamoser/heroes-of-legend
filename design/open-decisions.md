@@ -1,67 +1,52 @@
-# Decisions for the next review
+# Core readiness before the bestiary
 
-The catalog is a concrete draft to change, not a request to approve hundreds of
-entries at once. Start with character fantasy and a handful of representative cards.
+This list supersedes the earlier catalog-review checklist. It distinguishes
+settled direction from implementation proposals; historical reviews remain dated
+records and should not reopen decisions automatically.
 
-| Topic | Current draft | Review needed |
-|---|---|---|
-| Disciplines | Eighteen fresh fields | Names, boundaries, whether specialization is too fragmented |
-| Class pricing | First two listed Home, remainder Adjacent, others Foreign; Odd all Adjacent | Replace this explicit temporary assignment with intentional class tradeoffs; Opposed categories still available |
-| Class signatures | Three choices per milestone | Distinctiveness, comparative appeal, meaningful noncombat roles |
-| Countermagic | Catch the Spell protects only its sole target, using a Reaction and roll | Decide whether actual cancellation/reflection is desirable and affordable in table time |
-| Opportunities | Listed intended triggers, provisional timing | Before/after damage and what interrupts completion |
-| Summoned targets | Concrete bodies and commands | NPC-versus-summon resolution, controller death, physical size limits |
-| Collision groups | Shared movement foundation | Footprints, corners and congested endpoints |
-| Persistent conditions | Separate temporary and starred effects | Exact bookkeeping when combined |
-| Perception | Attribute named by circumstance, no invented Observation attribute | Routine awareness versus active search, acquisition of Hidden and the action/time for hiding |
-| Economy | Coins, grants, ten recipes | Prices, starting coin contributions, rare recipes and derivation times |
-| Tier names and icons | Numbered 1/3/7 diamond | Color choices can wait for layout |
+## Documented decisions
 
-## Rules that the draft must not change silently
+- [Session resolution](rules/session-resolution.md): Reason perception, Agility
+  concealment, opportunity attacks before the triggering action with continuation
+  if capable, player rolls using printed creature attack/defense attributes,
+  controller unconsciousness/death ends summons, Stability principle, falling rate,
+  difficult-terrain climbing/swimming, approved jumping, defensive countermagic and
+  offensive healing as an attack.
+- [Conditions](rules/conditions.md): turn-start action-category selection, no
+  retroactive loss of spent actions, temporary decay and maintained Grappled.
+- [Recovery](rules/recovery.md) and [wounds](rules/wounds.md): survival procedure,
+  all reviewed tables, treatment mapping and persistent scars in the fresh workspace.
+- [Market](market.md) and [starting coins](starting-coins.md): approved 50–70 target
+  and sale/trade rule, with explicit proposed prices/contributions.
+- [Summoning](rules/summoning.md): categories, command-only activity and eligibility
+  contract for the bestiary. No finalized eligible creature list yet.
 
-No skill bonuses or attribute growth. Weak is progress. Repeatable spells. Healing
-costs life and requires a free hand. No weapon damage tables based on appearance.
-No extra card chains, multiclassing, reaction pools or summon count caps. Finite
-Grit, persistent scars, and Last Words retain the dark edge of the game.
+## Remaining interpretation proposals
 
-## Suggested review order
+These do not prevent drafting ordinary creatures, but must be resolved before
+claiming full rules closure or running broad automated tests:
 
-First compare three character fantasies at level 1 using the worked examples.
-Then review one class’s three signature milestones, one magic discipline, and one
-noncombat specialist route. Use what we learn to edit the rest before final layout
-or a broad randomized build test. The objective is an appealing playable catalog.
+1. Hiding/searching action costs and exact outcome interpretation, especially Weak
+   concealment; attribute choice is settled.
+2. Interrupted-action expenditure and when additional HP/item costs are paid.
+3. Mixed temporary/starred condition bookkeeping.
+4. Stability application to collision groups, multi-square footprints, corners and
+   obstructed bounce destinations; falling rounding and resistance.
+5. NPC-versus-NPC conflicts without a player controller; summon multi-square tether
+   measurement. Creature cards must now include their actual roll attributes.
+6. Wound damage-type selection when every component reduced to zero but the event
+   still deals the minimum 1 damage. Existing table states this boundary explicitly.
+7. [CV estimation and encounter budgets](rules/encounters.md): proposed calculation
+   and party-size scaling exist; B(L), adjustments and multipliers need bestiary tests.
 
-## After the fantasy-path expansion
+## Ready to start
 
-Review [the 36 paths](fantasy-paths.md) as character promises first. Especially:
+Begin the bestiary with ordinary creatures, explicit senses, Stability and action
+profiles. Keep unapproved interpretations visible in test fixtures. Creature balance
+and summon eligibility are the next substantial work, not finished results.
 
-- Do the three nature paths feel distinct, and is form-changing satisfying without
-  another HP pool or a separate monster sheet?
-- Do the Knowledge, Guile and Reason combat techniques express different expertise?
-- Are the new culture and background voices broad enough to invite a personal story?
-- Do short-duration wards, counterspells and transformations justify their actions?
-- Does the alchemist have an appealing preparation/use rhythm? The new ordinary
-  potion recipe is a proposal, not an economy balance conclusion.
-
-This expansion deliberately adds no attribute advancement or generic “use your best
-attribute” rule. No path locks purchases to a class. New cards remain proposals.
-
-## After the adventure revision
-
-The approved direction is 10–15 shared passives, more ambitious higher-tier utility,
-meaningful mixed requirements, and narrative followed by precise Rules on every card.
-The [current proposal](adventure-development.md) has fourteen shared passives. Review
-the new capabilities and costs before treating individual entries as approved.
-Bruce accepts the grant-only menu of up to 35 unowned eligible shared cards as useful
-breadth. Do not reduce that count merely to make gates stricter; review distinctiveness
-and value instead.
-
-## Full card review follow-up
-
-The [455-record review](reviews/1149-full-card-review.md) identifies exact shared-rule blockers, weak signature choices, crafting caps and entry-route gaps. Its per-card ledgers distinguish review coverage from readiness. Resolve those findings before interpreting catalog completeness as permission for full VTT automation or randomized balance claims.
-
-The [81-signature revision](reviews/1153-signature-review.md) now supplies concrete
-class options and same-tier comparisons. Defiant Rescue and Watch the Rear have
-explicit timing; Unseen Passage has a self-contained sight rule. Their former local
-wording blockers are resolved in this proposal. Combined passive value, command
-burst output and the broader shared-rule questions still need playtesting.
+General TTRPG teaching, full-session examples, glossary, quick references and final
+book layout remain scheduled for the rewrite as Bruce requested. Consequence and
+Boon/Bane guidance is drafted in session resolution for review. No new exhaustion,
+opposed-roll system, skill bonus, automatic attribute growth or spell-cancellation
+subsystem is introduced.

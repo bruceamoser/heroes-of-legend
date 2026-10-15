@@ -76,13 +76,16 @@ For every eligible entry, define:
 2. HP, resistances, footprint, Speed, movement modes, senses and carrying limits.
 3. Permitted actions and their costs, including attack roll/attribute/outcomes and
    any hiding, observation, tracking, support or interaction capabilities.
-4. What the controller rolls when the summon is attacked. NPC-versus-summon
-   resolution is still an open foundation question; do not assume a fixed hit.
+4. What the controller rolls when the summon is attacked. the controlling player rolls the creature’s printed defense attribute against an NPC attack.
 5. Condition and duration anchors, healing compatibility and special restrictions.
 
 No entry has been certified by this pass. The old embedded hound, cat, stag,
 sentinel and other sample statistics are retired as selection permissions; they
 are not a finished bestiary. CV can inform review, but cannot by itself authorize
 an ability-rich monster as a player summon. Multi-square tether measurement and
-what happens when the controller becomes unable to act also need explicit rules;
+other incapacities short of unconsciousness still need explicit rules;
 until settled, neither can grant the summon independent activity.
+
+**Latest agreement:** summons disappear when their controller becomes unconscious
+or dies. Players roll their creatures’ printed attack and defense attributes;
+see [session resolution](session-resolution.md).

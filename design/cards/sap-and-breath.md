@@ -29,3 +29,9 @@ A green warmth passes from your palm into their hurt. Pay 1 HP first, leaving yo
 **ID:** sap-and-breath · **Status:** Proposal for Bruce’s review.
 
 [Build this character](../paths/green-healer.md) · [Card conventions](../card-conventions.md)
+
+**Offensive healing — latest agreement:** this spell may target an unwilling
+creature harmed by healing. Resolve it as an attack using its printed attribute,
+range, action and HP cost; the HP result becomes Life damage, without beneficial
+recovery riders. This is the explicit exception to willing-only targeting above.
+Use the creature’s printed defense when a player defends; no opposed second roll.
