@@ -1,4 +1,4 @@
-# Clockwork Scout
+# Clockwork Scout (CV 5)
 
 *A small brass surveying machine with jointed feet, a glass lens and a speaking grille. Its precise movements serve observation and reporting rather than a sustained fight.*
 

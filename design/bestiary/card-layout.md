@@ -5,7 +5,7 @@ cards use this arrangement. The top is a combat reference; the details below
 supply targeting, conditions and exceptions. Design bookkeeping comes last.
 
 ```text
-NAME
+NAME (CV value)
 Short description of the creature: body, appearance, nature.
 Brawn | Fortitude | Agility | Guile | Knowledge | Reason
 HP | Speed | Size | Armor DR (physical; always print, including 0)
@@ -68,5 +68,7 @@ Player-controlled summons keep separate attacker-facing references and their
 command restrictions. Never give a summon the DA card’s opportunity Reaction or
 ask the DA to reverse a summon damage table.
 
+The title shows the creature’s current CV, such as Great Cat (CV 15). Its full
+worksheet remains in Design notes; title placement does not imply balance validation.
 No adventure bands or CV worksheet in the combat reference. Markdown remains the
 editable source; final physical card dimensions belong to the later layout phase.

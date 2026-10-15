@@ -1,4 +1,4 @@
-# Cinder Strider
+# Cinder Strider (CV 18)
 
 *A tall, narrow fire elemental with ember-bright joints and smoke trailing from its shoulders. Its long limbs and hot surface make close pursuit dangerous.*
 

@@ -1,4 +1,4 @@
-# Giant Spider
+# Giant Spider (CV 15)
 
 *A dog-sized hunting spider with a swollen abdomen, hooked feet and pale silk glands beneath its jaws. Its web is both a trap and an extension of its senses.*
 

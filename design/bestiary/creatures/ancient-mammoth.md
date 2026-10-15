@@ -1,4 +1,4 @@
-# Ancient Mammoth
+# Ancient Mammoth (CV 39)
 
 *A towering, shaggy elephant with a domed skull, sweeping tusks and a thick trunk. Old herd leaders recognize familiar routes and threats across generations.*
 

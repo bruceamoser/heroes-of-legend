@@ -1,4 +1,4 @@
-# Oath Devourer
+# Oath Devourer (CV 33)
 
 *A lean fiend with a too-wide mouth and a face that resembles someone the observer has disappointed. It feeds its influence through broken obligations and private bargains.*
 

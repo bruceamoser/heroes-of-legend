@@ -1,4 +1,4 @@
-# Glass Sentinel
+# Glass Sentinel (CV 15)
 
 *A clear humanoid construct filled with shifting reflections and seams of colored glass. It was made to watch magical boundaries and protect a specific object.*
 

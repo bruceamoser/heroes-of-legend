@@ -1,4 +1,4 @@
-# Reed Piper
+# Reed Piper (CV 15)
 
 *A slender waterside fey with reed-colored hair, long fingers and a pipe cut from its home marsh. Music is both its craft and its means of keeping an audience close.*
 

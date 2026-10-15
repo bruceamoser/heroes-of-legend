@@ -1,4 +1,4 @@
-# Bone Colossus
+# Bone Colossus (CV 43)
 
 *A towering assembly of skulls, ribs and long bones bound into a single siege body. Many dead supplied its frame, but only one controlling purpose directs it.*
 

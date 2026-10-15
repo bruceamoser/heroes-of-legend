@@ -1,4 +1,4 @@
-# Great Stag
+# Great Stag (CV 13)
 
 *A tall woodland deer crowned with spreading antlers and supported by long, powerful legs. The herd follows its caution; in a rut or a crisis, that caution becomes a sudden charge.*
 

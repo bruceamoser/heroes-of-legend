@@ -1,4 +1,4 @@
-# Animated Armor
+# Animated Armor (CV 17)
 
 *An empty suit of plate animated around a command plate, carrying a shield and no living occupant. The apparent knight is a literal-minded guardian, not a trained person inside armor.*
 

@@ -1,4 +1,4 @@
-# Mimic Chest
+# Mimic Chest (CV 17)
 
 *A squat adhesive predator whose folded hide resembles a wooden chest, complete with false hinges and a warm brasslike latch. Teeth and gripping flesh lie beneath the disguise.*
 

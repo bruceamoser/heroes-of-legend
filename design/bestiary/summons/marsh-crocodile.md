@@ -1,4 +1,4 @@
-# Marsh Crocodile
+# Marsh Crocodile (CV 17)
 
 *An immense water predator with armored ridges, a muscular tail and jaws broad enough to seize a grown traveler. Its low silhouette is almost indistinguishable from a muddy log.*
 

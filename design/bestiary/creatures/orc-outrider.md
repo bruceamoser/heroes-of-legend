@@ -1,4 +1,4 @@
-# Orc Outrider
+# Orc Outrider (CV 12)
 
 *A strong, long-legged orc scout with weathered travel gear and a well-kept blade. This profile represents an outrider on foot, accustomed to protecting a moving caravan or border patrol.*
 

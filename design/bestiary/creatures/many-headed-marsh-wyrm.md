@@ -1,4 +1,4 @@
-# Many-headed Marsh Wyrm
+# Many-headed Marsh Wyrm (CV 55)
 
 *A massive marsh reptile with three long necks rising from one low, muscular body. The heads share a single purpose and body, whose wounds knit unless scorched by fire.*
 

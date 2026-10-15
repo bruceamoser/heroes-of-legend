@@ -1,4 +1,4 @@
-# Iron Gatekeeper
+# Iron Gatekeeper (CV 44)
 
 *A massive iron guardian with a barred face, oversized hands and its charter engraved across the chest. Built for a particular threshold, it is difficult to displace and slow to redirect.*
 

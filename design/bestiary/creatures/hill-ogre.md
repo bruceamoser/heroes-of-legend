@@ -1,4 +1,4 @@
-# Hill Ogre
+# Hill Ogre (CV 19)
 
 *A heavily built giant with thick hands, blunt features and clothing pieced together from sacks and hides. Its strength is formidable, but its needs and fears are often straightforward.*
 

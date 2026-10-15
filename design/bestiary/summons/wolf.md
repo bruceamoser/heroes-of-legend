@@ -1,4 +1,4 @@
-# Wolf
+# Wolf (CV 8)
 
 *A rangy predator with dense gray fur, a narrow muzzle and long legs built for patient pursuit. Wolves live and hunt as a pack, protecting the den before risking a disabling fight.*
 

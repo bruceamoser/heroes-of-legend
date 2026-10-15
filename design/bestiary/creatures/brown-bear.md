@@ -1,4 +1,4 @@
-# Brown Bear
+# Brown Bear (CV 17)
 
 *A broad-shouldered forest bear with shaggy brown fur, curved claws and a powerful muzzle. Its bulk conceals surprising speed; food, cubs and personal space matter far more than territory on a map.*
 

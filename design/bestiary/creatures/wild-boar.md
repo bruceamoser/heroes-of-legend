@@ -1,4 +1,4 @@
-# Wild Boar
+# Wild Boar (CV 8)
 
 *A low, heavy wild pig covered in coarse bristles, with curved tusks and a thick shield of hide over its shoulders. Usually wary, it becomes fiercely direct when cornered or defending young.*
 

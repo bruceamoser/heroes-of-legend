@@ -1,4 +1,4 @@
-# Grave Cultist
+# Grave Cultist (CV 8)
 
 *A mortal initiate in ash-stained ritual clothing, carrying burial tokens and a personal relic. The promise of reunion with the dead may make this person desperate rather than fearless.*
 

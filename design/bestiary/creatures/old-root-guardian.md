@@ -1,4 +1,4 @@
-# Old Root Guardian
+# Old Root Guardian (CV 51)
 
 *An ancient living tree with a broad trunk, heavy root limbs and a crown large enough to shelter birds. It is a guardian of a particular grove, capable of patience as well as immense force.*
 

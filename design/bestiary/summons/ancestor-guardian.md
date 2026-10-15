@@ -1,4 +1,4 @@
-# Ancestor Guardian
+# Ancestor Guardian (CV 16)
 
 *A recognizable ancestral figure bearing the clothing and weapon of its lifetime. Its outline is spectral, but the protective purpose that holds it here is direct and personal.*
 

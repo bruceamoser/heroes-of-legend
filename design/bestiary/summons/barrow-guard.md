@@ -1,4 +1,4 @@
-# Barrow Guard
+# Barrow Guard (CV 23)
 
 *An armed burial guardian in tarnished armor, with turf caught in its shield and remnants of an oath worked into its clothing. It remembers its duty more clearly than its life.*
 

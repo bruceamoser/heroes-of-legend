@@ -33,6 +33,7 @@ for p in sorted((R/'creatures').glob('*.md')):
  ident=field(s,'ID');need(ident not in ids,pre+'duplicate ID');ids.add(ident)
  try:
   hp=int(field(s,'HP'));cv=int(field(s,'CV'));st=int(re.match(r'\d+',field(s,'Stability'))[0]);ev=mod(field(s,'Evasion'))
+  need(s.splitlines()[0].endswith('(CV '+str(cv)+')'),pre+'title CV differs from worksheet')
   card_attrs=re.findall(r'(Brawn|Fortitude|Agility|Guile|Knowledge|Reason) ([+-]\d+)',field(play,'Attributes'))
   need(len(dict(card_attrs))==6 and all(-2<=int(v)<=2 for _,v in card_attrs),pre+'invalid attributes')
   need(play.index('**Attributes:**')<play.index('**HP:**'),pre+'attributes must precede HP')
@@ -93,6 +94,7 @@ for p in sorted((R/'creatures').glob('*.md')):
    m=re.match(r'(Animal|Fey|Spirit|Elemental|Undead|Construct) ([137])',ref[1]);need(bool(m),pre+'invalid category/tier')
    if m:elig.setdefault((m[1],int(m[2])),[]).append(p.stem)
    sp=R/'summons'/(p.stem+'.md');need(sp.exists(),pre+'missing player reference');ps=sp.read_text()
+   need(ps.splitlines()[0]==s.splitlines()[0],pre+'summon title differs')
    for phrase in ['No activity','no Reactions','**Attributes:**','**Defense modifier:**']:
     need(phrase.lower() in ps.lower(),pre+'player reference missing '+phrase)
    need(mod(field(ps,'Defense modifier'))==-ev,pre+'summon defense modifier wrong')

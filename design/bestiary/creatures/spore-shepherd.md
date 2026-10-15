@@ -1,4 +1,4 @@
-# Spore Shepherd
+# Spore Shepherd (CV 12)
 
 *A walking fungal body with a broad hood, soft pale limbs and golden spore sacs beneath the cap. It spreads a living network through damp abandoned places.*
 

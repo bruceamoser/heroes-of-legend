@@ -1,4 +1,4 @@
-# Emberling
+# Emberling (CV 8)
 
 *A small elemental made of glowing coals and flickering flame, with bright cracks for eyes. Warmth draws it; uncontrolled curiosity makes it dangerous around dry fuel.*
 

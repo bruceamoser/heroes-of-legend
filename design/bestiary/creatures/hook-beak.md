@@ -1,4 +1,4 @@
-# Hook-beak
+# Hook-beak (CV 17)
 
 *A bear-sized forest predator with dense feathers, hooked claws and a heavy curved beak. Its powerful shoulders and keen eyes make it an effective defender of a concealed nest.*
 

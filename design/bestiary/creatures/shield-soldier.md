@@ -1,4 +1,4 @@
-# Shield Soldier
+# Shield Soldier (CV 15)
 
 *A professional guard in serviceable armor, carrying a scarred shield and an ordinary sidearm. Training and trust in the squad make this soldier more dangerous than their equipment alone suggests.*
 

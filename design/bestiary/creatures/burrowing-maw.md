@@ -1,4 +1,4 @@
-# Burrowing Maw
+# Burrowing Maw (CV 26)
 
 *A plated burrowing predator with powerful digging limbs and broad crushing mandibles. Its segmented body is adapted to soft earth, not to tunneling through solid rock.*
 

@@ -1,4 +1,4 @@
-# Road Bandit
+# Road Bandit (CV 9)
 
 *A lightly equipped roadside robber carrying a practical weapon and a pack of mismatched necessities. Hunger, debt or coercion often explains the occupation better than loyalty to the gang.*
 

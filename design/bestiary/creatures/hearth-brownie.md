@@ -1,4 +1,4 @@
-# Hearth Brownie
+# Hearth Brownie (CV 5)
 
 *A small, sturdy household fey with flour-dusted hair, work-worn hands and clothing made from repaired scraps. It values good workmanship, fair hospitality and respect for its chosen home.*
 

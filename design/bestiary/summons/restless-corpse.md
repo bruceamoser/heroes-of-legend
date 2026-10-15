@@ -1,4 +1,4 @@
-# Restless Corpse
+# Restless Corpse (CV 8)
 
 *A swollen walking corpse with stiff joints, torn clothing and grasping hands. It has little judgment, but enough dead weight and persistence to obstruct a narrow passage.*
 

@@ -1,4 +1,4 @@
-# Goblin Scrapper
+# Goblin Scrapper (CV 7)
 
 *A small, wiry goblin salvager with keen eyes, patched work clothes and pockets full of useful scraps. Quick hands and knowledge of the ruins compensate for modest reach.*
 

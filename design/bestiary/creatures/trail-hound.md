@@ -1,4 +1,4 @@
-# Trail Hound
+# Trail Hound (CV 5)
 
 *A lean, deep-chested tracking dog with a weatherproof coat, broad nose and attentive ears. Its loyalty is personal; a familiar handler matters more to it than a shouted order.*
 

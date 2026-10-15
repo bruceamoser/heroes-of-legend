@@ -1,4 +1,4 @@
-# Veteran Captain
+# Veteran Captain (CV 27)
 
 *A seasoned officer with maintained armor, visible campaign scars and a weapon worn smooth at the grip. Authority rests on experience and the ability to bring people home alive.*
 
