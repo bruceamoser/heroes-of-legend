@@ -2,49 +2,65 @@
 
 *A huge freshwater serpent with a deep muscular body, blunt ridged head and powerful coils. Its size makes a narrow channel or low bank particularly dangerous.*
 
-**HP:** 34 · **Speed:** Ground 3; swim 9 · **Footprint:** 3x3
+**HP:** 34 · **Speed:** 3; swim 9 · **Size:** 3 (3x3 squares) · **Armor DR:** 1
 
-## When attacked
+**Evasion:** None · **Threat:** 1 Bane · **Stability:** 2
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 2 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** Physical (1)\
+**Immunities:** None
 
-**DR / resistance:** Physical 1 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| River coils | 8/6/4 |
+| Coiling grip | 4/3/2 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### River coils — Main Action
+## Details
+
+### River coils
 
 *A hooked limb braces against the bank and heaves its catch toward the dark water.*
 
-**Target:** One creature within 2 squares. **Player defense:** Brawn. **Threat:** 1 Bane to that defense.
+**Target:** One creature within 2 squares. **Player defense:** Brawn. **Damage type:** physical.
 
-- **Weak defense:** 8 physical damage. Pull 2.
-- **Standard defense:** 6 physical damage. Pull 1.
-- **Strong defense:** 4 physical damage.
+**Weak defense:** Pull 2. **Standard defense:** Pull 1.
 
-### Coiling grip — Main Action
+### Coiling grip
 
 *A coil or grasping limb closes around the target and braces against its struggling weight.*
 
-**Target:** One adjacent creature. **Player defense:** Brawn. **Threat:** 1 Bane to that defense.
+**Target:** One adjacent creature. **Player defense:** Brawn. **Damage type:** physical.
 
-- **Weak defense:** 4 physical damage. Grappled 2.
-- **Standard defense:** 3 physical damage. Grappled 1.
-- **Strong defense:** 2 physical damage.
+**Weak defense:** Grappled 2. **Standard defense:** Grappled 1.
 
 **Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Heavy Frame — Passive:** Stability 2; an explicit creature trait, not a bonus from size.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Fish vanish from a deep pool; drag marks score the landing stage.
 
@@ -56,7 +72,7 @@
 
 **Habitat:** River; lake · **Communication:** None
 
-**Rewards:** A wreck beneath the pool may contain a bounded cargo selected by the DA.
+**Loot:** A wreck beneath the pool may contain a bounded cargo selected by the DA.
 
 **Summoning:** Ineligible.
 

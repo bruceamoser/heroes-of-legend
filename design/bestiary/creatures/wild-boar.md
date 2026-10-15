@@ -2,41 +2,55 @@
 
 *A low, heavy wild pig covered in coarse bristles, with curved tusks and a thick shield of hide over its shoulders. Usually wary, it becomes fiercely direct when cornered or defending young.*
 
-**HP:** 12 · **Speed:** Ground 6 · **Footprint:** 1x1
+**HP:** 12 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** None · **Threat:** None · **Stability:** 1
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Tusks | 5/3/2 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Lower the Tusks | Gain Stability 1 until its next turn. Use the highest Stability; also gain 1 Boon on its next Tusks attack this turn (1 extra Bane on that target’s defense). |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Tusks — Main Action
+## Details
+
+### Tusks
 
 *The blow lands with enough force to send its victim stumbling backward.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 5 physical damage. Push 2.
-- **Standard defense:** 3 physical damage. Push 1.
-- **Strong defense:** 2 physical damage.
+**Weak defense:** Push 2. **Standard defense:** Push 1.
 
-### Lower the Tusks — Maneuver
+### General details
 
-Gain Stability 1 until its next turn. Use the highest Stability; also gain 1 Boon on its next Tusks attack this turn (1 extra Bane on that target’s defense).
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
-## Encounter cues
+**Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Turned soil and bark stripped from the roots of trees.
 
@@ -48,7 +62,7 @@ Gain Stability 1 until its next turn. Use the highest Stability; also gain 1 Boo
 
 **Habitat:** Wilderness · **Communication:** None
 
-**Rewards:** A hunter with the appropriate card can make use of the carcass.
+**Loot:** A hunter with the appropriate card can make use of the carcass.
 
 **Summoning:** Animal 1 — [player reference](../summons/wild-boar.md).
 

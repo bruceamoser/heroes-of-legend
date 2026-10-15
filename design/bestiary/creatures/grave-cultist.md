@@ -2,37 +2,50 @@
 
 *A mortal initiate in ash-stained ritual clothing, carrying burial tokens and a personal relic. The promise of reunion with the dead may make this person desperate rather than fearless.*
 
-**HP:** 11 · **Speed:** Ground 6 · **Footprint:** 1x1
+**HP:** 11 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** None · **Threat:** None · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Grave thread | 5/3/2 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Grave thread — Main Action
+## Details
 
-**Target:** One visible creature within 5 squares. **Player defense:** Fortitude. **Threat:** 0 (no modifier) to that defense.
+### Grave thread
 
-- **Weak defense:** 5 Life damage.
-- **Standard defense:** 3 Life damage.
-- **Strong defense:** 2 Life damage.
+**Target:** One visible creature within 5 squares. **Player defense:** Fortitude. **Damage type:** Life.
 
 **Spell:** Provokes when cast beside an enemy.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Offerings are arranged around a newly opened grave.
 
@@ -44,7 +57,7 @@
 
 **Habitat:** Crypt; abandoned shrine · **Communication:** Common
 
-**Rewards:** Ritual notes, plain focus and 9 coins.
+**Loot:** Ritual notes, plain focus and 9 coins.
 
 **Summoning:** Ineligible.
 

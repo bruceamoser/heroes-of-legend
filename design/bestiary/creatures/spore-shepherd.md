@@ -2,37 +2,52 @@
 
 *A walking fungal body with a broad hood, soft pale limbs and golden spore sacs beneath the cap. It spreads a living network through damp abandoned places.*
 
-**HP:** 18 · **Speed:** Ground 4 · **Footprint:** 1x1
+**HP:** 18 · **Speed:** 4 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** None · **Threat:** None · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** Bleeding; Poisoned; Asleep
 
-**DR / resistance:** None · **Condition immunities:** Bleeding; Poisoned; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Spore cloud | 3/2/1 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Spore cloud — Main Action
+## Details
+
+### Spore cloud
 
 *A needle catches the skin, and a bitter numbness spreads from the puncture.*
 
-**Target:** All creatures in a 3x3-square area centered within 4 squares. **Player defense:** Fortitude. **Threat:** 0 (no modifier) to that defense.
+**Target:** All creatures in a 3x3-square area centered within 4 squares. **Player defense:** Fortitude. **Damage type:** physical.
 
-- **Weak defense:** 3 physical damage. Poisoned 2.
-- **Standard defense:** 2 physical damage. Poisoned 1.
-- **Strong defense:** 1 physical damage.
+**Weak defense:** Poisoned 2. **Standard defense:** Poisoned 1.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Fungal rings grow around the footprints of sleeping animals.
 
@@ -44,7 +59,7 @@
 
 **Habitat:** Cavern; damp ruin · **Communication:** Understands simple gestures; cannot speak
 
-**Rewards:** A botanist may pay 15 coins for an intact sample, only once per site.
+**Loot:** A botanist may pay 15 coins for an intact sample, only once per site.
 
 **Summoning:** Ineligible.
 

@@ -2,39 +2,50 @@
 
 *A dense group of oversized scavenging rats with scarred tails, dirty fur and sharp yellow teeth. The swarm behaves as a single hungry mass but occupies a definite patch of ground.*
 
-**HP:** 14 · **Speed:** Ground 6; climb 4 · **Footprint:** 2x2
+**HP:** 14 · **Speed:** 6; climb 4 · **Size:** 2 (2x2 squares) · **Armor DR:** 2
 
-## When attacked
+**Evasion:** None · **Threat:** None · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Physical (2)\
+**Immunities:** None
 
-**DR / resistance:** Physical 2 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Gnawing edge | 4/3/2 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Gnawing edge — Main Action
+## Details
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+### Gnawing edge
 
-- **Weak defense:** 4 physical damage.
-- **Standard defense:** 3 physical damage.
-- **Strong defense:** 2 physical damage.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Passives
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Scatter Body:** Area attacks ignore its physical DR, not other resistance. One HP pool and one turn; cannot overlap another creature at rest.
 
-## Encounter cues
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Food sacks have been opened from beneath, with no large footprints nearby.
 
@@ -46,7 +57,7 @@
 
 **Habitat:** Cellar; sewer · **Communication:** None
 
-**Rewards:** Spoiled stores and evidence of a breached cellar.
+**Loot:** Spoiled stores and evidence of a breached cellar.
 
 **Summoning:** Ineligible.
 

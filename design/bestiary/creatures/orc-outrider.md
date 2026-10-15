@@ -2,37 +2,52 @@
 
 *A strong, long-legged orc scout with weathered travel gear and a well-kept blade. This profile represents an outrider on foot, accustomed to protecting a moving caravan or border patrol.*
 
-**HP:** 15 · **Speed:** Ground 7 · **Footprint:** 1x1
+**HP:** 15 · **Speed:** 7 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** None · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Clearing stroke | 6/4/3 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Clearing stroke — Main Action
+## Details
+
+### Clearing stroke
 
 *The blow lands with enough force to send its victim stumbling backward.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 6 physical damage. Push 2.
-- **Standard defense:** 4 physical damage. Push 1.
-- **Strong defense:** 3 physical damage.
+**Weak defense:** Push 2. **Standard defense:** Push 1.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** A watch camp has been cleared without disturbing the surrounding brush.
 
@@ -44,7 +59,7 @@
 
 **Habitat:** Steppe; border road · **Communication:** Common and Orc
 
-**Rewards:** Melee weapon, travel food d6 and 7 coins; no mount included in this profile.
+**Loot:** Melee weapon, travel food d6 and 7 coins; no mount included in this profile.
 
 **Summoning:** Ineligible.
 

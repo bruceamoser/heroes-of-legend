@@ -2,37 +2,53 @@
 
 *A professional guard in serviceable armor, carrying a scarred shield and an ordinary sidearm. Training and trust in the squad make this soldier more dangerous than their equipment alone suggests.*
 
-**HP:** 16 · **Speed:** Ground 5 · **Footprint:** 1x1
+**HP:** 16 · **Speed:** 5 · **Size:** 1 (medium) · **Armor DR:** 2
 
-## When attacked
+**Evasion:** None · **Threat:** None · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Physical (2)\
+**Immunities:** None
 
-**DR / resistance:** Physical 2 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Measured thrust | 6/4/3 |
+
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+
+| Reactions | Effect |
+|---|---|
+| Shield Hunker | Before a blockable attack: impose 1 Bane on blockable attacks until its next turn. See details. |
+| Opportunity Attack | Basic Melee against the provoking creature. |
+
+## Details
+
+### Measured thrust
+
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
+
+### Shield Hunker
+
+Before a shield-blockable attack resolves, impose 1 Bane on player attacks this shield can block until the start of its next turn. The DA judges blockability. Uses its Reaction; stacks with Defend, not another activation of itself.
+
+### General details
+
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Healing:** Living: ordinary HP healing applies.
 
-**Shield Hunker — Reaction:** Before a shield-blockable attack resolves, impose 1 Bane on player attacks this shield can block until the start of its next turn. The DA judges blockability. Uses its Reaction; stacks with Defend, not another activation of itself.
-
-## On its turn
-
 **Senses:** Ordinary sight and hearing.
-
-### Measured thrust — Main Action
-
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
-
-- **Weak defense:** 6 physical damage.
-- **Standard defense:** 4 physical damage.
-- **Strong defense:** 3 physical damage.
-
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
-
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
-
-## Encounter cues
 
 **Signs:** Boots keep the same measured spacing in the mud.
 
@@ -44,7 +60,7 @@
 
 **Habitat:** Fort; city; road · **Communication:** Common
 
-**Rewards:** Melee weapon, shield, medium armor; 8 coins.
+**Loot:** Melee weapon, shield, medium armor; 8 coins.
 
 **Summoning:** Ineligible.
 

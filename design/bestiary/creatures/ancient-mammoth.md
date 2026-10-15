@@ -2,47 +2,63 @@
 
 *A towering, shaggy elephant with a domed skull, sweeping tusks and a thick trunk. Old herd leaders recognize familiar routes and threats across generations.*
 
-**HP:** 34 · **Speed:** Ground 6 · **Footprint:** 3x3
+**HP:** 34 · **Speed:** 6 · **Size:** 3 (3x3 squares) · **Armor DR:** 2
 
-## When attacked
+**Evasion:** 1 Boon · **Threat:** 1 Bane · **Stability:** 2
 
-**Evasion:** 1 Boon to player attacks. · **Stability:** 2 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** Physical (2)\
+**Immunities:** None
 
-**DR / resistance:** Physical 2 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Tusk sweep | 8/6/4 |
+| Driving tusk | 9/6/4 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Tusk sweep — Main Action
+## Details
+
+### Tusk sweep
 
 *A great limb scythes across the ground, forcing everyone nearby to move.*
 
-**Target:** Up to two creatures within 2 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** Up to two creatures within 2 squares. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 8 physical damage. Push each target 2.
-- **Standard defense:** 6 physical damage. Push each target 1.
-- **Strong defense:** 4 physical damage.
+**Weak defense:** Push each target 2. **Standard defense:** Push each target 1.
 
-### Driving tusk — Main Action
+### Driving tusk
 
 *A heavy tusk lifts the intruder and drives it away from the herd.*
 
-**Target:** One creature within 2 squares. **Player defense:** Brawn. **Threat:** 1 Bane to that defense.
+**Target:** One creature within 2 squares. **Player defense:** Brawn. **Damage type:** physical.
 
-- **Weak defense:** 9 physical damage; push 5.
-- **Standard defense:** 6 physical damage; push 3.
-- **Strong defense:** 4 physical damage; push 1.
+**Weak defense:** push 5. **Standard defense:** push 3. **Strong defense:** push 1.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Heavy Frame — Passive:** Stability 2; an explicit creature trait, not a bonus from size.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Trees are stripped well above a person’s reach.
 
@@ -54,7 +70,7 @@
 
 **Habitat:** Tundra; highland · **Communication:** None
 
-**Rewards:** Old travelers’ offerings at a traditional crossing; no automatic ivory market.
+**Loot:** Old travelers’ offerings at a traditional crossing; no automatic ivory market.
 
 **Summoning:** Animal 7 — [player reference](../summons/ancient-mammoth.md).
 

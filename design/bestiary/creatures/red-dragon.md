@@ -2,71 +2,77 @@
 
 *An immense red-scaled dragon with a horned head, broad wings and a furnace-bright throat. Intelligent and deeply possessive, it treats territory, tribute and reputation as parts of the same hoard.*
 
-**HP:** 56 · **Speed:** Ground 7; fly 10 · **Footprint:** 3x3
+**HP:** 56 · **Speed:** 7; fly 10 · **Size:** 3 (3x3 squares) · **Armor DR:** 3\*
 
-## When attacked
+**Evasion:** None · **Threat:** 2 Banes · **Stability:** 2
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 2 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** Physical (3), Fire (3)\
+**Immunities:** None
 
-**DR / resistance:** Physical 3; fire 3 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Claw sweep | 10/7/5 |
+| Furnace breath | 10/7/5 |
+| Crushing bite | 12/8/6 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Wing Beat | One adjacent creature gains Slowed 1; no roll or damage. Once per turn; no additional push or Blinded. |
+| Breaking Roar | One hearing creature within 3 squares gains Frightened 1 of this creature; no roll or damage. Once per turn. |
+| Dig In | Gain Stability 3 while on solid ground until its next turn; highest source only. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Claw sweep — Main Action
+## Details
+
+### Claw sweep
 
 *A great limb scythes across the ground, forcing everyone nearby to move.*
 
-**Target:** Up to two creatures within 2 squares. **Player defense:** Agility. **Threat:** 2 Banes to that defense.
+**Target:** Up to two creatures within 2 squares. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 10 physical damage. Push each 4.
-- **Standard defense:** 7 physical damage. Push each 2.
-- **Strong defense:** 5 physical damage.
+**Weak defense:** Push each 4. **Standard defense:** Push each 2.
 
-### Furnace breath — Main Action
+### Furnace breath
 
 *Its chest swells and light leaks between its teeth; there is one terrible instant to scatter.*
 
-**Target:** All creatures in a cone of 3 rows, 1/3/5 squares wide. **Player defense:** Agility. **Threat:** 2 Banes to that defense.
+**Target:** All creatures in a cone of 3 rows, 1/3/5 squares wide. **Player defense:** Agility. **Damage type:** fire.
 
-- **Weak defense:** 10 fire damage. Burning 2.
-- **Standard defense:** 7 fire damage. Burning 1.
-- **Strong defense:** 5 fire damage.
+**Weak defense:** Burning 2. **Standard defense:** Burning 1.
 
 **Limit:** Cannot use this attack on consecutive turns, regardless of result.
 
-### Crushing bite — Main Action
+### Crushing bite
 
 *The dragon’s jaws close with the weight of a falling portcullis.*
 
-**Target:** One creature within 2 squares. **Player defense:** Fortitude. **Threat:** 2 Banes to that defense.
+**Target:** One creature within 2 squares. **Player defense:** Fortitude. **Damage type:** physical.
 
-- **Weak defense:** 12 physical damage; Bleeding 2.
-- **Standard defense:** 8 physical damage; Bleeding 1.
-- **Strong defense:** 6 physical damage.
+**Weak defense:** Bleeding 2. **Standard defense:** Bleeding 1.
 
-### Wing Beat — Maneuver
+### General details
 
-One adjacent creature gains Slowed 1; no roll or damage. Once per turn; no additional push or Blinded.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-### Breaking Roar — Maneuver
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-One hearing creature within 3 squares gains Frightened 1 of this creature; no roll or damage. Once per turn.
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
-### Dig In — Maneuver
+**Heavy Frame — Passive:** Stability 2; an explicit creature trait, not a bonus from size.
 
-Gain Stability 3 while on solid ground until its next turn; highest source only.
+**Healing:** Living: ordinary HP healing applies.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
-
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 2 Banes; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
-
-## Encounter cues
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Tribute wagons arrive on a schedule; the countryside knows which bells not to ring.
 
@@ -78,7 +84,7 @@ Gain Stability 3 while on solid ground until its next turn; highest source only.
 
 **Habitat:** Mountain fortress; volcanic valley · **Communication:** Common and Draconic
 
-**Rewards:** A single adventure hoard: propose 400 coins plus one reviewed special item, not an item on every scale.
+**Loot:** A single adventure hoard: propose 400 coins plus one reviewed special item, not an item on every scale.
 
 **Summoning:** Ineligible.
 

@@ -2,41 +2,54 @@
 
 *A recognizable ancestral figure bearing the clothing and weapon of its lifetime. Its outline is spectral, but the protective purpose that holds it here is direct and personal.*
 
-**HP:** 20 · **Speed:** Ground 6 · **Footprint:** 1x1
+**HP:** 20 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 1
 
-## When attacked
+**Evasion:** None · **Threat:** None · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Physical (1)\
+**Immunities:** Bleeding; Poisoned; Asleep
 
-**DR / resistance:** Physical 1 · **Condition immunities:** Bleeding; Poisoned; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Spirit: magical healing works; cannot swallow potions.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Remembered blade | 6/4/3 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Remembered blade — Main Action
+## Details
+
+### Remembered blade
 
 *The blow lands with enough force to send its victim stumbling backward.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** radiant.
 
-- **Weak defense:** 6 radiant damage. Push 2.
-- **Standard defense:** 4 radiant damage. Push 1.
-- **Strong defense:** 3 radiant damage.
+**Weak defense:** Push 2. **Standard defense:** Push 1.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Passives
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
-## Encounter cues
+**Healing:** Spirit: magical healing works; cannot swallow potions.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** A family token grows warm near danger.
 
@@ -48,7 +61,7 @@
 
 **Habitat:** Family shrine; home · **Communication:** Languages known in life
 
-**Rewards:** An inherited story, burial key or directions to a family cache.
+**Loot:** An inherited story, burial key or directions to a family cache.
 
 **Summoning:** Spirit 3 — [player reference](../summons/ancestor-guardian.md).
 

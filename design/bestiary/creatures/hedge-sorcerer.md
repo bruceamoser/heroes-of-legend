@@ -2,41 +2,59 @@
 
 *A self-taught caster with scorched cuffs, an improvised focus and an uneven collection of protective charms. Talent is real; discipline and confidence are less reliable.*
 
-**HP:** 16 · **Speed:** Ground 6 · **Footprint:** 1x1
+**HP:** 16 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** None · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Cinder dart | 6/4/3 |
 
-**Spell Screen — Reaction:** Before one spell against it resolves, impose 1 Bane on that player attack (or give its controller 1 defense Boon). For one player AoE roll, include this when choosing worst-case modifiers. Does not cancel the spell.
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-## On its turn
+| Reactions | Effect |
+|---|---|
+| Spell Screen | Impose 1 Bane on one incoming spell attack. See details. |
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-**Senses:** Ordinary sight and hearing.
+## Details
 
-### Cinder dart — Main Action
+### Cinder dart
 
 *Heat crawls along the strike, or frost flowers across the skin where it passes.*
 
-**Target:** One visible creature within 6 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One visible creature within 6 squares. **Player defense:** Agility. **Damage type:** fire.
 
-- **Weak defense:** 6 fire damage. Burning 2.
-- **Standard defense:** 4 fire damage. Burning 1.
-- **Strong defense:** 3 fire damage.
+**Weak defense:** Burning 2. **Standard defense:** Burning 1.
 
 **Spell:** Provokes when cast beside an enemy.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### Spell Screen
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+Before one spell against it resolves, impose 1 Bane on that player attack (or give its controller 1 defense Boon). For one player AoE roll, include this when choosing worst-case modifiers. Does not cancel the spell.
 
-## Encounter cues
+### General details
+
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Scorched practice marks cover a sheltered wall.
 
@@ -48,7 +66,7 @@
 
 **Habitat:** Tower; settlement · **Communication:** Common and one scholarly language
 
-**Rewards:** Focus, notes and 20 coins; no automatic learnable spell or recipe.
+**Loot:** Focus, notes and 20 coins; no automatic learnable spell or recipe.
 
 **Summoning:** Ineligible.
 

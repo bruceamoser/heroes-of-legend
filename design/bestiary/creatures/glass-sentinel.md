@@ -2,41 +2,55 @@
 
 *A clear humanoid construct filled with shifting reflections and seams of colored glass. It was made to watch magical boundaries and protect a specific object.*
 
-**HP:** 16 · **Speed:** Ground 6 · **Footprint:** 1x1
+**HP:** 16 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 0\*
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** None · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Radiant (2)\
+**Immunities:** Bleeding; Poisoned; Asleep
 
-**DR / resistance:** radiant 2 · **Condition immunities:** Bleeding; Poisoned; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Cutting reflection | 6/4/3 |
 
-**Spell Screen — Reaction:** Before one spell against it resolves, impose 1 Bane on that player attack (or give its controller 1 defense Boon). For one player AoE roll, include this when choosing worst-case modifiers. Does not cancel the spell.
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-## On its turn
+| Reactions | Effect |
+|---|---|
+| Spell Screen | Impose 1 Bane on one incoming spell attack. See details. |
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-**Senses:** Ordinary sight and hearing.
+## Details
 
-### Cutting reflection — Main Action
+### Cutting reflection
 
-**Target:** One visible creature within 5 squares. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+**Target:** One visible creature within 5 squares. **Player defense:** Agility. **Damage type:** radiant.
 
-- **Weak defense:** 6 radiant damage.
-- **Standard defense:** 4 radiant damage.
-- **Strong defense:** 3 radiant damage.
+### Spell Screen
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+Before one spell against it resolves, impose 1 Bane on that player attack (or give its controller 1 defense Boon). For one player AoE roll, include this when choosing worst-case modifiers. Does not cancel the spell.
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+### General details
 
-## Passives
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
-## Encounter cues
+**Healing:** Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** A faint musical note sounds when magic crosses the threshold.
 
@@ -48,7 +62,7 @@
 
 **Habitat:** Vault; observatory · **Communication:** Repeats its command in the maker’s language
 
-**Rewards:** Colored glass salvage worth 12 coins from the original body.
+**Loot:** Colored glass salvage worth 12 coins from the original body.
 
 **Summoning:** Construct 3 — [player reference](../summons/glass-sentinel.md).
 

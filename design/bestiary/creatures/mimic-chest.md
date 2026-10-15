@@ -2,43 +2,56 @@
 
 *A squat adhesive predator whose folded hide resembles a wooden chest, complete with false hinges and a warm brasslike latch. Teeth and gripping flesh lie beneath the disguise.*
 
-**HP:** 20 · **Speed:** Ground 3 · **Footprint:** 1x1
+**HP:** 20 · **Speed:** 3 · **Size:** 1 (medium) · **Armor DR:** 1
 
-## When attacked
+**Evasion:** None · **Threat:** None · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Physical (1)\
+**Immunities:** None
 
-**DR / resistance:** Physical 1 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Sticky jaws | 6/4/3 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Sticky jaws — Main Action
+## Details
+
+### Sticky jaws
 
 *A coil or grasping limb closes around the target and braces against its struggling weight.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 6 physical damage. Grappled 2.
-- **Standard defense:** 4 physical damage. Grappled 1.
-- **Strong defense:** 3 physical damage.
+**Weak defense:** Grappled 2. **Standard defense:** Grappled 1.
 
 **Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Passives
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Mimic Shell:** While still, resembles an ordinary object. Reason examination can expose it. Touching or opening it reveals the creature but grants no free attack; concealment is required to hide again.
 
-## Encounter cues
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** One chest in a damp cellar has no rot or dust on its hinges.
 
@@ -50,7 +63,7 @@
 
 **Habitat:** Dungeon; abandoned storehouse · **Communication:** None
 
-**Rewards:** 18 swallowed coins and one recoverable small object.
+**Loot:** 18 swallowed coins and one recoverable small object.
 
 **Summoning:** Ineligible.
 

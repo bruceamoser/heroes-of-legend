@@ -2,49 +2,59 @@
 
 *A translucent human figure in rain-soaked clothing, its expression fixed between grief and accusation. Details of its appearance belong to the last unresolved moments of its life.*
 
-**HP:** 16 · **Speed:** Ground 6 · **Footprint:** 1x1
+**HP:** 16 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 2
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Physical (2)\
+**Immunities:** Bleeding; Poisoned; Asleep
 
-**DR / resistance:** Physical 2 · **Condition immunities:** Bleeding; Poisoned; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Spirit: ordinary magical HP healing applies; potions cannot be swallowed.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Accusation | 5/3/2 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Spectral Passage | Move up to 2 squares through nonliving walls, finishing in a visible legal empty space. Cannot cross living bodies or remain in a wall. Provokes on leaving reach; does not bypass a ward expressly barring spirits. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Accusation — Main Action
+## Details
+
+### Accusation
 
 *For a moment, the victim remembers a pain that has not happened yet.*
 
-**Target:** One visible creature within 5 squares. **Player defense:** Reason. **Threat:** 1 Bane to that defense.
+**Target:** One visible creature within 5 squares. **Player defense:** Reason. **Damage type:** mental.
 
-- **Weak defense:** 5 mental damage. Dazed 2.
-- **Standard defense:** 3 mental damage. Dazed 1.
-- **Strong defense:** 2 mental damage.
+**Weak defense:** Dazed 2. **Standard defense:** Dazed 1.
 
 **Spell:** Provokes when cast beside an enemy.
 
-### Spectral Passage — Maneuver
+### General details
 
-Move up to 2 squares through nonliving walls, finishing in a visible legal empty space. Cannot cross living bodies or remain in a wall. Provokes on leaving reach; does not bypass a ward expressly barring spirits.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
-
-## Passives
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
 **Anchor Bound:** Its rain-soaked letter identifies the witness. Reading it aloud while holding it costs Main and removes the ghost’s physical DR until the reader’s next turn. Repetition renews, not stacks. A summoned ghost has no anchor; dies at 0 normally.
 
-## Encounter cues
+**Healing:** Spirit: ordinary magical HP healing applies; potions cannot be swallowed.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** One room remains cold and wet whatever the weather.
 
@@ -56,7 +66,7 @@ Move up to 2 squares through nonliving walls, finishing in a visible legal empty
 
 **Habitat:** House; ruin · **Communication:** Languages known in life
 
-**Rewards:** Revealing the truth may open an inheritance or hidden cache.
+**Loot:** Revealing the truth may open an inheritance or hidden cache.
 
 **Summoning:** Spirit 3 — [player reference](../summons/sorrow-ghost.md).
 

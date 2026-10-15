@@ -50,12 +50,12 @@ Damage is **Weak / Standard / Strong player defense**.
 
 ## Design notes — outside the creature card
 
-Layout proposal for Bruce’s review, issue #1180. This is a standalone sample; the [catalog entry](creatures/goblin-scrapper.md) remains unchanged until the layout is agreed.
+Approved layout sample, issue #1180. Applied to the [catalog entry](creatures/goblin-scrapper.md) and the full creature roster in issue #1182. The catalog is the maintained play reference.
 
 - **Armor DR** always prints physical resistance, including 0. Add an asterisk when additional resistances appear below; list those by type and value, such as Fire (1). Do not require the DA to add the header and list together.
 - **Evasion/Threat** spell out Boons or Banes rather than signed numbers. “None” means no modifier. The damage-order legend is printed once.
 - **Size 1 (medium)** follows Bruce’s example. The label does not grant Stability; standard size terminology across the catalog remains a later consistency pass.
-- **Roll Away** replaces Stalking Step in this proposal and adds Bruce’s explicit protection against opportunity attacks. It has not yet been propagated to the monster ability library or CV worksheet.
+- **Roll Away** replaces Stalking Step and adds Bruce’s explicit protection against opportunity attacks. It now has a separate monster ability entry. CV remains provisional.
 - Keep Defend and Opportunity Attack visible so the action list does not omit options the creature already has. The two Main Actions are choices, not two attacks per turn.
 - No weakness values are introduced by this layout sample. Their numerical meaning needs to be settled before populated examples are published.
 - Existing attributes and provisional CV bookkeeping remain in the linked catalog entry, outside this play reference.

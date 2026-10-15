@@ -2,41 +2,51 @@
 
 *A small, lightly built kobold with a dart case, tool belt and marked cords identifying safe routes. Careful preparation lets the trapkeeper defend a home against much larger intruders.*
 
-**HP:** 8 · **Speed:** Ground 6 · **Footprint:** 1x1
+**HP:** 8 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** None · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 4/2/1 |
+| Dart | 4/3/2 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Scatter caltrops | Choose 2 connected empty ground squares within 2 squares. They are difficult terrain until cleared with a Main Action from an adjacent square. No damage or entry attack. Once per scene. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Dart — Main Action
+## Details
+
+### Dart
 
 **Ammunition:** inventory d6. After each use, roll the inventory die; on 1, reduce d6 to d4, or d4 to empty. Cannot use this attack while empty.
 
-**Target:** One visible creature within 6 squares. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+**Target:** One visible creature within 6 squares. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 4 physical damage.
-- **Standard defense:** 3 physical damage.
-- **Strong defense:** 2 physical damage.
+### General details
 
-### Scatter caltrops — Maneuver
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-Choose 2 connected empty ground squares within 2 squares. They are difficult terrain until cleared with a Main Action from an adjacent square. No damage or entry attack. Once per scene.
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 4, Standard 2, Strong 1 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Healing:** Living: ordinary HP healing applies.
 
-## Encounter cues
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Colored knots identify safe footholds to those who know the code.
 
@@ -48,7 +58,7 @@ Choose 2 connected empty ground squares within 2 squares. They are difficult ter
 
 **Habitat:** Mine; warren · **Communication:** Common and Kobold
 
-**Rewards:** Light tools, ranged weapon and 4 coins.
+**Loot:** Light tools, ranged weapon and 4 coins.
 
 **Summoning:** Ineligible.
 

@@ -2,41 +2,52 @@
 
 *A pale drifting light with the faint suggestion of a face deep inside it. The wisp is a dead person’s lingering need for a witness, not a source of useful flame.*
 
-**HP:** 6 · **Speed:** Ground 0; fly 6 · **Footprint:** 1x1
+**HP:** 6 · **Speed:** 0; fly 6 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** None · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** Bleeding; Poisoned; Asleep
 
-**DR / resistance:** None · **Condition immunities:** Bleeding; Poisoned; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 4/2/1 |
+| Cold spark | 3/2/1 |
+
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
+
+## Details
+
+### Cold spark
+
+**Target:** One visible creature within 3 squares. **Player defense:** Fortitude. **Damage type:** cold.
+
+### General details
+
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
 **Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
 
 **Against offensive healing:** controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.
 
-## On its turn
-
 **Senses:** Dark sight 6 squares.
-
-### Cold spark — Main Action
-
-**Target:** One visible creature within 3 squares. **Player defense:** Fortitude. **Threat:** 0 (no modifier) to that defense.
-
-- **Weak defense:** 3 cold damage.
-- **Standard defense:** 2 cold damage.
-- **Strong defense:** 1 cold damage.
-
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
-
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 4, Standard 2, Strong 1 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
-
-## Passives
-
-**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
-
-## Encounter cues
 
 **Signs:** Small lights move against the wind above sunken ground.
 
@@ -48,7 +59,7 @@
 
 **Habitat:** Marsh; graveyard · **Communication:** None
 
-**Rewards:** A buried name or object, not treasure carried by the light.
+**Loot:** A buried name or object, not treasure carried by the light.
 
 **Summoning:** Undead 1 — [player reference](../summons/grave-wisp.md).
 

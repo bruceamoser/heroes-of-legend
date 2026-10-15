@@ -2,43 +2,58 @@
 
 *A broad, transparent gel containing shards of stone and glass, easily mistaken for a clean polished surface. Its slow body is adhesive and dense rather than nimble.*
 
-**HP:** 24 · **Speed:** Ground 3 · **Footprint:** 2x2
+**HP:** 24 · **Speed:** 3 · **Size:** 2 (2x2 squares) · **Armor DR:** 2
 
-## When attacked
+**Evasion:** 1 Boon · **Threat:** None · **Stability:** 1
 
-**Evasion:** 1 Boon to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** Physical (2)\
+**Immunities:** Bleeding; Poisoned; Asleep; Blinded
 
-**DR / resistance:** Physical 2 · **Condition immunities:** Bleeding; Poisoned; Asleep; Blinded
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Closing gel | 6/4/3 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Touch; ground vibration within 3 squares on the same surface.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Closing gel — Main Action
+## Details
+
+### Closing gel
 
 *A coil or grasping limb closes around the target and braces against its struggling weight.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 6 physical damage. Grappled 2.
-- **Standard defense:** 4 physical damage. Grappled 1.
-- **Strong defense:** 3 physical damage.
+**Weak defense:** Grappled 2. **Standard defense:** Grappled 1.
 
 **Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Passives
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
 
 **Mimic Shell:** While still, resembles an ordinary object. Reason examination can expose it. Touching or opening it reveals the creature but grants no free attack; concealment is required to hide again.
 
-## Encounter cues
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Touch; ground vibration within 3 squares on the same surface.
 
 **Signs:** Bootprints end at a patch of unusually clean stone.
 
@@ -50,7 +65,7 @@
 
 **Habitat:** Ruin; cavern · **Communication:** None
 
-**Rewards:** One lost object encased in the body; no automatic gem value.
+**Loot:** One lost object encased in the body; no automatic gem value.
 
 **Summoning:** Ineligible.
 

@@ -2,41 +2,51 @@
 
 *A lightly armored robber with a hunting bow, spare string and clothing chosen to blend into roadside cover. Their confidence depends on distance and a prepared exit.*
 
-**HP:** 10 · **Speed:** Ground 6 · **Footprint:** 1x1
+**HP:** 10 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** None · **Threat:** None · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Hunting arrow | 6/4/2 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Stalking Step | Move up to 2 squares, paying terrain costs from that allowance. Provokes normally; no automatic Hidden. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Hunting arrow — Main Action
+## Details
+
+### Hunting arrow
 
 **Ammunition:** inventory d6. After each use, roll the inventory die; on 1, reduce d6 to d4, or d4 to empty. Cannot use this attack while empty.
 
-**Target:** One visible creature within 8 squares. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+**Target:** One visible creature within 8 squares. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 6 physical damage.
-- **Standard defense:** 4 physical damage.
-- **Strong defense:** 2 physical damage.
+### General details
 
-### Stalking Step — Maneuver
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-Move up to 2 squares, paying terrain costs from that allowance. Provokes normally; no automatic Hidden.
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Healing:** Living: ordinary HP healing applies.
 
-## Encounter cues
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Fresh rope marks and cut branches above an ambush site.
 
@@ -48,7 +58,7 @@ Move up to 2 squares, paying terrain costs from that allowance. Provokes normall
 
 **Habitat:** Road; forest · **Communication:** Common
 
-**Rewards:** Ranged weapon; ammunition d6; 4 coins.
+**Loot:** Ranged weapon; ammunition d6; 4 coins.
 
 **Summoning:** Ineligible.
 

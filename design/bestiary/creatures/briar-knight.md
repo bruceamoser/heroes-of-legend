@@ -2,43 +2,58 @@
 
 *A fey guardian enclosed in barklike armor, with a thorn-grown shield and a long spear. A living blossom at the shoulder marks the promise it serves.*
 
-**HP:** 22 · **Speed:** Ground 6 · **Footprint:** 1x1
+**HP:** 22 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 2
 
-## When attacked
+**Evasion:** None · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Physical (2)\
+**Immunities:** None
 
-**DR / resistance:** Physical 2 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Briar spear | 6/4/3 |
 
-**Shield Hunker — Reaction:** Before a shield-blockable attack resolves, impose 1 Bane on player attacks this shield can block until the start of its next turn. The DA judges blockability. Uses its Reaction; stacks with Defend, not another activation of itself.
+| Maneuvers | Effect |
+|---|---|
+| Root the Stance | Gain Stability 2 while on soil until its next turn; highest source only. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-## On its turn
+| Reactions | Effect |
+|---|---|
+| Shield Hunker | Before a blockable attack: impose 1 Bane on blockable attacks until its next turn. See details. |
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-**Senses:** Ordinary sight and hearing.
+## Details
 
-### Briar spear — Main Action
+### Briar spear
 
 *The blow lands with enough force to send its victim stumbling backward.*
 
-**Target:** One creature within 2 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One creature within 2 squares. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 6 physical damage. Push 2.
-- **Standard defense:** 4 physical damage. Push 1.
-- **Strong defense:** 3 physical damage.
+**Weak defense:** Push 2. **Standard defense:** Push 1.
 
-### Root the Stance — Maneuver
+### Shield Hunker
 
-Gain Stability 2 while on soil until its next turn; highest source only.
+Before a shield-blockable attack resolves, impose 1 Bane on player attacks this shield can block until the start of its next turn. The DA judges blockability. Uses its Reaction; stacks with Defend, not another activation of itself.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** A path through brambles remains exactly one traveler wide.
 
@@ -50,7 +65,7 @@ Gain Stability 2 while on soil until its next turn; highest source only.
 
 **Habitat:** Forest crossing · **Communication:** Common and Fey
 
-**Rewards:** An oath token and ordinary thorn-carved equipment that withers if summoned.
+**Loot:** An oath token and ordinary thorn-carved equipment that withers if summoned.
 
 **Summoning:** Fey 3 — [player reference](../summons/briar-knight.md).
 

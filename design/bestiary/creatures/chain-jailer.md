@@ -2,49 +2,63 @@
 
 *A broad fiend wrapped in hooked chains and iron identification tags. It presents captivity as collection of a debt, whether that debt is honest or manufactured.*
 
-**HP:** 30 · **Speed:** Ground 6 · **Footprint:** 1x1
+**HP:** 30 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 2\*
 
-## When attacked
+**Evasion:** None · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Physical (2), Fire (2)\
+**Immunities:** None
 
-**DR / resistance:** Physical 2; fire 2 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Hooked chain | 8/6/4 |
+| Binding chain | 5/3/2 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Hooked chain — Main Action
+## Details
+
+### Hooked chain
 
 *A hooked limb braces against the bank and heaves its catch toward the dark water.*
 
-**Target:** One creature within 3 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One creature within 3 squares. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 8 physical damage. Pull 2.
-- **Standard defense:** 6 physical damage. Pull 1.
-- **Strong defense:** 4 physical damage.
+**Weak defense:** Pull 2. **Standard defense:** Pull 1.
 
-### Binding chain — Main Action
+### Binding chain
 
 *A coil or grasping limb closes around the target and braces against its struggling weight.*
 
-**Target:** One creature within 2 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One creature within 2 squares. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 5 physical damage. Grappled 2.
-- **Standard defense:** 3 physical damage. Grappled 1.
-- **Strong defense:** 2 physical damage.
+**Weak defense:** Grappled 2. **Standard defense:** Grappled 1.
 
 **Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Unbroken locks hang open beside empty cells.
 
@@ -56,7 +70,7 @@
 
 **Habitat:** Prison; infernal breach · **Communication:** Common and Infernal
 
-**Rewards:** A prison key, debt records and 90 coins held in trust for its master.
+**Loot:** A prison key, debt records and 90 coins held in trust for its master.
 
 **Summoning:** Ineligible.
 

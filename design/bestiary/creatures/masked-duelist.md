@@ -2,41 +2,53 @@
 
 *An accomplished swordsman in light dueling clothes and a distinctive mask, carrying a finely balanced ordinary blade. Reputation, precision and control of distance define the threat.*
 
-**HP:** 28 · **Speed:** Ground 7 · **Footprint:** 1x1
+**HP:** 28 · **Speed:** 7 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** 2 Banes · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 2 Banes to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Turning blade | 8/6/4 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Stalking Step | Move up to 2 squares, paying terrain costs from that allowance. Provokes normally; no automatic Hidden. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Turning blade — Main Action
+## Details
+
+### Turning blade
 
 *The blow lands with enough force to send its victim stumbling backward.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 8 physical damage. Push 2.
-- **Standard defense:** 6 physical damage. Push 1.
-- **Strong defense:** 4 physical damage.
+**Weak defense:** Push 2. **Standard defense:** Push 1.
 
-### Stalking Step — Maneuver
+### General details
 
-Move up to 2 squares, paying terrain costs from that allowance. Provokes normally; no automatic Hidden.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
-## Encounter cues
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** A challenge is delivered with a precise account of an old insult.
 
@@ -48,7 +60,7 @@ Move up to 2 squares, paying terrain costs from that allowance. Provokes normall
 
 **Habitat:** City; court · **Communication:** Common and court language
 
-**Rewards:** Fine but ordinary melee weapon and 40 coins.
+**Loot:** Fine but ordinary melee weapon and 40 coins.
 
 **Summoning:** Ineligible.
 

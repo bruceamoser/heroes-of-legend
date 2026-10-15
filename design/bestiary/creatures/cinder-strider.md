@@ -2,39 +2,57 @@
 
 *A tall, narrow fire elemental with ember-bright joints and smoke trailing from its shoulders. Its long limbs and hot surface make close pursuit dangerous.*
 
-**HP:** 18 · **Speed:** Ground 7 · **Footprint:** 1x1
+**HP:** 18 · **Speed:** 7 · **Size:** 1 (medium) · **Armor DR:** 0\*
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Fire (3)\
+**Immunities:** Bleeding; Poisoned; Asleep
 
-**DR / resistance:** fire 3 · **Condition immunities:** Bleeding; Poisoned; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Cinder lash | 6/4/3 |
 
-**Heated Hide — Reaction:** After an adjacent attacker deals HP damage with a non-free attack, apply Burning 1 to that attacker. Costs Reaction; no retaliation against a free attack. Summons lack this Reaction.
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-## On its turn
+| Reactions | Effect |
+|---|---|
+| Heated Hide | After an adjacent non-free attack deals HP damage: attacker gains Burning 1. See details. |
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-**Senses:** Ordinary sight and hearing.
+## Details
 
-### Cinder lash — Main Action
+### Cinder lash
 
 *Heat crawls along the strike, or frost flowers across the skin where it passes.*
 
-**Target:** One creature within 2 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One creature within 2 squares. **Player defense:** Agility. **Damage type:** fire.
 
-- **Weak defense:** 6 fire damage. Burning 2.
-- **Standard defense:** 4 fire damage. Burning 1.
-- **Strong defense:** 3 fire damage.
+**Weak defense:** Burning 2. **Standard defense:** Burning 1.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### Heated Hide
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+After an adjacent attacker deals HP damage with a non-free attack, apply Burning 1 to that attacker. Costs Reaction; no retaliation against a free attack. Summons lack this Reaction.
 
-## Encounter cues
+### General details
+
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Healing:** Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Scorch marks climb walls too high for an ordinary torch.
 
@@ -46,7 +64,7 @@
 
 **Habitat:** Volcano; forge ruin · **Communication:** None
 
-**Rewards:** A route to a volcanic deposit, not harvestable free flame.
+**Loot:** A route to a volcanic deposit, not harvestable free flame.
 
 **Summoning:** Elemental 3 — [player reference](../summons/cinder-strider.md).
 

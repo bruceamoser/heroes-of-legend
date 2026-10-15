@@ -3,7 +3,7 @@
 Original HOL creature capabilities. These are separate from learned character
 abilities: no DP, no player Discipline requirements, no automatic access from an
 animal form or a summoning category. Each creature supplies its own attack values.
-All entries are proposals for review. Shared attack templates describe attacker
+Entries are proposals unless explicitly marked approved. Shared attack templates describe attacker
 outcomes for authoring; the DA creature card prints the corresponding defense
 outcomes explicitly. The player reference prints attacker outcomes. Never ask the
 DA to convert a template’s result during play.
@@ -18,6 +18,7 @@ DA to convert a template’s result during play.
 | [Seizing Limbs](seizing-limbs.md) | Main Action |
 | [Web Cast](web-cast.md) | Main Action |
 | [Stalking Step](stalking-step.md) | Maneuver |
+| [Roll Away](roll-away.md) | Maneuver |
 | [Shield Hunker](shield-hunker.md) | Reaction |
 | [Rally](rally.md) | Maneuver |
 | [Battle Mending](battle-mending.md) | Main Action; spell |

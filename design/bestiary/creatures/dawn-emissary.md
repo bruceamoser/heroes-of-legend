@@ -2,39 +2,53 @@
 
 *A winged emissary in battered bright armor, with a steady gaze and the visible weariness of long service. Compassion and duty can conflict within it as they do in mortals.*
 
-**HP:** 30 · **Speed:** Ground 6; fly 8 · **Footprint:** 1x1
+**HP:** 30 · **Speed:** 6; fly 8 · **Size:** 1 (medium) · **Armor DR:** 0\*
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Radiant (3)\
+**Immunities:** None
 
-**DR / resistance:** radiant 3 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Dawn blade | 8/6/4 |
+| Battle Mending | See details |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Dawn blade — Main Action
+## Details
 
-**Target:** One adjacent creature. **Player defense:** Fortitude. **Threat:** 1 Bane to that defense.
+### Dawn blade
 
-- **Weak defense:** 8 radiant damage.
-- **Standard defense:** 6 radiant damage.
-- **Strong defense:** 4 radiant damage.
+**Target:** One adjacent creature. **Player defense:** Fortitude. **Damage type:** radiant.
 
-### Battle Mending — Main Action
+### Battle Mending
 
 One adjacent living ally; free hand. Pay 3 HP first, bypass resistance, and remain above 0. A player rolls this creature’s Reason: Weak heals 5, Standard 10, Strong 15 HP. Life resistance reduces healing, minimum 1. This spell provokes. Against a healing-harmed target instead, use Fortitude defense: Weak takes 15, Standard 10, Strong 5 Life damage. Same cost; no healing riders.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** The ill dream of sunrise before a stranger arrives.
 
@@ -46,7 +60,7 @@ One adjacent living ally; free hand. Pay 3 HP first, bypass resistance, and rema
 
 **Habitat:** Shrine; battlefield · **Communication:** Common and sacred languages
 
-**Rewards:** Aid, an introduction or one negotiated blessing chosen by the DA; no automatic treasure for killing it.
+**Loot:** Aid, an introduction or one negotiated blessing chosen by the DA; no automatic treasure for killing it.
 
 **Summoning:** Ineligible.
 

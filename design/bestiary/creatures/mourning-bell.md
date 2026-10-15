@@ -2,43 +2,56 @@
 
 *A bronze funeral bell suspended within a drifting shroud of mist, with no visible clapper or bearer. Its tone carries the grief of people denied a proper farewell.*
 
-**HP:** 26 · **Speed:** Ground 0; fly 5 · **Footprint:** 1x1
+**HP:** 26 · **Speed:** 0; fly 5 · **Size:** 1 (medium) · **Armor DR:** 2
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Physical (2)\
+**Immunities:** Bleeding; Poisoned; Asleep
 
-**DR / resistance:** Physical 2 · **Condition immunities:** Bleeding; Poisoned; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Spirit: magical healing works; potions cannot be swallowed.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Funeral toll | 6/4/3 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Funeral toll — Main Action
+## Details
+
+### Funeral toll
 
 *For a moment, the victim remembers a pain that has not happened yet.*
 
-**Target:** All other creatures in a 3x3-square area centered on a visible square within 5. **Player defense:** Reason. **Threat:** 1 Bane to that defense.
+**Target:** All other creatures in a 3x3-square area centered on a visible square within 5. **Player defense:** Reason. **Damage type:** mental.
 
-- **Weak defense:** 6 mental damage. Dazed 2.
-- **Standard defense:** 4 mental damage. Dazed 1.
-- **Strong defense:** 3 mental damage.
+**Weak defense:** Dazed 2. **Standard defense:** Dazed 1.
 
 **Spell:** Provokes when cast beside an enemy.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Passives
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
-## Encounter cues
+**Healing:** Spirit: magical healing works; potions cannot be swallowed.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Ash-gray ribbons hang from trees along its route.
 
@@ -50,7 +63,7 @@
 
 **Habitat:** Battlefield; marsh · **Communication:** None
 
-**Rewards:** A recovered list of the lost; a grateful community may offer 60 coins.
+**Loot:** A recovered list of the lost; a grateful community may offer 60 coins.
 
 **Summoning:** Spirit 7 — [player reference](../summons/mourning-bell.md).
 

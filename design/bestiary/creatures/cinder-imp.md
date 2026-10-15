@@ -2,37 +2,52 @@
 
 *A small winged fiend with coal-dark skin, a barbed tail and quick, grasping hands. It thrives on impulsive bargains and the ordinary disasters they cause.*
 
-**HP:** 9 · **Speed:** Ground 5; fly 7 · **Footprint:** 1x1
+**HP:** 9 · **Speed:** 5; fly 7 · **Size:** 1 (medium) · **Armor DR:** 0\*
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** None · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Fire (2)\
+**Immunities:** None
 
-**DR / resistance:** fire 2 · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Tail sting | 4/2/1 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Tail sting — Main Action
+## Details
+
+### Tail sting
 
 *A needle catches the skin, and a bitter numbness spreads from the puncture.*
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 4 physical damage. Poisoned 2.
-- **Standard defense:** 2 physical damage. Poisoned 1.
-- **Strong defense:** 1 physical damage.
+**Weak defense:** Poisoned 2. **Standard defense:** Poisoned 1.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Small fires start wherever arguments have already begun.
 
@@ -44,7 +59,7 @@
 
 **Habitat:** City; ruined shrine · **Communication:** Common and Infernal
 
-**Rewards:** One incriminating letter and 7 coins.
+**Loot:** One incriminating letter and 7 coins.
 
 **Summoning:** Ineligible.
 

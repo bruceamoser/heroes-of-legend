@@ -2,41 +2,55 @@
 
 *A nimble goblin carrying a sling and clay smoke pots in padded loops. Soot-stained fingers and a scarf over the mouth mark a specialist in covering a crew’s retreat.*
 
-**HP:** 10 · **Speed:** Ground 6 · **Footprint:** 1x1
+**HP:** 10 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** 1 Bane · **Threat:** None · **Stability:** 0
 
-**Evasion:** 1 Bane to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Sling stone | 5/3/2 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Smoke pots | Place heavy cover in up to 3 connected squares within 3 squares until its next turn. Once per scene. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Sling stone — Main Action
+## Details
+
+### Sling stone
 
 **Ammunition:** inventory d6. After each use, roll the inventory die; on 1, reduce d6 to d4, or d4 to empty. Cannot use this attack while empty.
 
-**Target:** One visible creature within 6 squares. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
+**Target:** One visible creature within 6 squares. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 5 physical damage.
-- **Standard defense:** 3 physical damage.
-- **Strong defense:** 2 physical damage.
-
-### Smoke pots — Maneuver
+### Smoke pots
 
 Place heavy cover in up to 3 connected visible squares within 3 squares until the start of this creature’s next turn. Smoke does not block movement or create damage. Creatures completely concealed cannot be individually targeted. Once per scene.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Encounter cues
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Sooty handprints and broken clay bulbs.
 
@@ -48,7 +62,7 @@ Place heavy cover in up to 3 connected visible squares within 3 squares until th
 
 **Habitat:** Ruin; settlement · **Communication:** Common and Goblin
 
-**Rewards:** Sling, 5 coins; unused smoke pots only if their scene use remains.
+**Loot:** Sling, 5 coins; unused smoke pots only if their scene use remains.
 
 **Summoning:** Ineligible.
 

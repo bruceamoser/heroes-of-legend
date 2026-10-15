@@ -2,39 +2,50 @@
 
 *A rough humanoid of fired and unfired clay, with broad hands and the maker’s thumbprints still visible. It understands simple work instructions but has no independent craft training.*
 
-**HP:** 10 · **Speed:** Ground 4 · **Footprint:** 1x1
+**HP:** 10 · **Speed:** 4 · **Size:** 1 (medium) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** 1 Boon · **Threat:** 1 Boon · **Stability:** 0
 
-**Evasion:** 1 Boon to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** Bleeding; Poisoned; Asleep
 
-**DR / resistance:** None · **Condition immunities:** Bleeding; Poisoned; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Clay palm | 3/2/1 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Clay palm — Main Action
+## Details
 
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Boon to that defense.
+### Clay palm
 
-- **Weak defense:** 3 physical damage.
-- **Standard defense:** 2 physical damage.
-- **Strong defense:** 1 physical damage.
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Boon; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Passives
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
-## Encounter cues
+**Healing:** Construct: ordinary HP healing does not repair it; destroyed at 0. Combat repair requires an explicit repair ability. Workshop repair remains a design question.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Wet clay patches mend the same pair of footprints.
 
@@ -46,7 +57,7 @@
 
 **Habitat:** Workshop; farm · **Communication:** Understands Common instructions; cannot speak
 
-**Rewards:** A maker’s mark and ordinary tools, if present; the body is not a free material supply.
+**Loot:** A maker’s mark and ordinary tools, if present; the body is not a free material supply.
 
 **Summoning:** Construct 1 — [player reference](../summons/clay-helper.md).
 

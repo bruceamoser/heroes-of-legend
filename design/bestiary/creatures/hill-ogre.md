@@ -2,51 +2,64 @@
 
 *A heavily built giant with thick hands, blunt features and clothing pieced together from sacks and hides. Its strength is formidable, but its needs and fears are often straightforward.*
 
-**HP:** 28 · **Speed:** Ground 6 · **Footprint:** 2x2
+**HP:** 28 · **Speed:** 6 · **Size:** 2 (2x2 squares) · **Armor DR:** 0
 
-## When attacked
+**Evasion:** 1 Boon · **Threat:** 1 Bane · **Stability:** 1
 
-**Evasion:** 1 Boon to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** None\
+**Immunities:** None
 
-**DR / resistance:** None · **Condition immunities:** None
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Timber club | 8/5/4 |
+| Hurl aside | 5/3/2 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Threatening Roar | One hearing creature within 3 squares gains Frightened 1 of the ogre; once per turn. |
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Timber club — Main Action
+## Details
+
+### Timber club
 
 *The blow lands with enough force to send its victim stumbling backward.*
 
-**Target:** One creature within 2 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** One creature within 2 squares. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 8 physical damage. Push 2.
-- **Standard defense:** 5 physical damage. Push 1.
-- **Strong defense:** 4 physical damage.
+**Weak defense:** Push 2. **Standard defense:** Push 1.
 
-### Hurl aside — Main Action
+### Hurl aside
 
 *One broad hand sweeps the obstacle from the ogre’s path.*
 
-**Target:** One adjacent creature. **Player defense:** Brawn. **Threat:** 1 Bane to that defense.
+**Target:** One adjacent creature. **Player defense:** Brawn. **Damage type:** physical.
 
-- **Weak defense:** 5 physical damage; push 4.
-- **Standard defense:** 3 physical damage; push 3.
-- **Strong defense:** 2 physical damage; push 1.
+**Weak defense:** push 4. **Standard defense:** push 3. **Strong defense:** push 1.
 
-### Threatening Roar — Maneuver
+### General details
 
-One hearing creature within 3 squares gains Frightened 1 of the ogre; once per turn.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
-## Encounter cues
+**Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
+
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Crushed fences mark a route between isolated farms.
 
@@ -58,7 +71,7 @@ One hearing creature within 3 squares gains Frightened 1 of the ogre; once per t
 
 **Habitat:** Hill; ruined farm · **Communication:** Common and Giant
 
-**Rewards:** Mismatched belongings and 18 coins; return stolen goods when practical.
+**Loot:** Mismatched belongings and 18 coins; return stolen goods when practical.
 
 **Summoning:** Ineligible.
 

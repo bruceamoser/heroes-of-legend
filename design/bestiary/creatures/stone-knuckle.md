@@ -2,35 +2,50 @@
 
 *A squat elemental assembled from pebbles and rough stones around a dense central core. Its blunt hands and planted feet suit it to guarding a small patch of ground.*
 
-**HP:** 12 · **Speed:** Ground 4; burrow 2 · **Footprint:** 1x1
+**HP:** 12 · **Speed:** 4; burrow 2 · **Size:** 1 (medium) · **Armor DR:** 1
 
-## When attacked
+**Evasion:** None · **Threat:** None · **Stability:** 1
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 1 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** None\
+**Resistances:** Physical (1)\
+**Immunities:** Bleeding; Poisoned; Asleep
 
-**DR / resistance:** Physical 1 · **Condition immunities:** Bleeding; Poisoned; Asleep
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Pebble fist | 4/3/2 |
+
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
+
+## Details
+
+### Pebble fist
+
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
+
+### General details
+
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
 
 **Healing:** Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.
 
-## On its turn
-
 **Senses:** Ordinary sight and hearing.
-
-### Pebble fist — Main Action
-
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 0 (no modifier) to that defense.
-
-- **Weak defense:** 4 physical damage.
-- **Standard defense:** 3 physical damage.
-- **Strong defense:** 2 physical damage.
-
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
-
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 0; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
-
-## Encounter cues
 
 **Signs:** Fresh pebbles pile around an undisturbed buried marker.
 
@@ -42,7 +57,7 @@
 
 **Habitat:** Quarry; cave · **Communication:** None
 
-**Rewards:** No gemstones are guaranteed inside it.
+**Loot:** No gemstones are guaranteed inside it.
 
 **Summoning:** Elemental 1 — [player reference](../summons/stone-knuckle.md).
 

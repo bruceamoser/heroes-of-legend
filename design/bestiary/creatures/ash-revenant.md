@@ -2,53 +2,65 @@
 
 *A burned walking body held together by ash, stubborn sinew and an unfinished grievance. A blackened personal token identifies the wrong that prevents it from resting.*
 
-**HP:** 32 · **Speed:** Ground 6 · **Footprint:** 1x1
+**HP:** 32 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 2\*
 
-## When attacked
+**Evasion:** None · **Threat:** 1 Bane · **Stability:** 0
 
-**Evasion:** 0 (no modifier) to player attacks. · **Stability:** 0.
+**Weaknesses:** None\
+**Resistances:** Physical (2), Fire (2)\
+**Immunities:** Bleeding; Poisoned; Asleep; Frightened
 
-**DR / resistance:** Physical 2; fire 2 · **Condition immunities:** Bleeding; Poisoned; Asleep; Frightened
+## Actions
 
-**Weakness:** None
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Ashen fist | 9/6/4 |
+| Ashen cry | 0/0/0 |
+
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
+
+## Details
+
+### Ashen fist
+
+*The blow lands with enough force to send its victim stumbling backward.*
+
+**Target:** One adjacent creature. **Player defense:** Agility. **Damage type:** physical.
+
+**Weak defense:** Push 2. **Standard defense:** Push 1.
+
+### Ashen cry
+
+*Its cry seems to come from somewhere behind your ribs.*
+
+**Target:** One hearing creature within 4 squares. **Player defense:** Reason. **Damage type:** None.
+
+**Weak defense:** Frightened 3. **Standard defense:** Frightened 2. **Strong defense:** Frightened 1.
+
+### General details
+
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
+
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
 **Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
 
 **Against offensive healing:** controller defends with Fortitude if this is player-controlled; a player attacking it still rolls only their attack.
 
-## On its turn
-
 **Senses:** Ordinary sight and hearing.
-
-### Ashen fist — Main Action
-
-*The blow lands with enough force to send its victim stumbling backward.*
-
-**Target:** One adjacent creature. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
-
-- **Weak defense:** 9 physical damage. Push 2.
-- **Standard defense:** 6 physical damage. Push 1.
-- **Strong defense:** 4 physical damage.
-
-### Ashen cry — Main Action
-
-*Its cry seems to come from somewhere behind your ribs.*
-
-**Target:** One hearing creature within 4 squares. **Player defense:** Reason. **Threat:** 1 Bane to that defense.
-
-- **Weak defense:** No damage; Frightened 3.
-- **Standard defense:** No damage; Frightened 2.
-- **Strong defense:** No damage; Frightened 1.
-
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
-
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
-
-## Passives
-
-**Lifeless Body:** does not breathe or eat; only the listed immunities apply.
-
-## Encounter cues
 
 **Signs:** Footprints leave soot even in running water.
 
@@ -60,7 +72,7 @@
 
 **Habitat:** Burned settlement; road · **Communication:** None
 
-**Rewards:** The burned token and a clue to the old crime.
+**Loot:** The burned token and a clue to the old crime.
 
 **Summoning:** Ineligible.
 

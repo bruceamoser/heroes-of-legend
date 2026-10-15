@@ -42,7 +42,7 @@ Maneuver count includes universal Defend. Alternative attacks spend the same Mai
 | [Emberling](creatures/emberling.md) | 1 | 0 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Giant Spider](creatures/giant-spider.md) | 1 | 0 | 2 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Glass Sentinel](creatures/glass-sentinel.md) | 1 | 0 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
-| [Goblin Scrapper](creatures/goblin-scrapper.md) | 1 | 0 | 1 | 2 | Existing attacks retained | Defend / existing maneuvers |
+| [Goblin Scrapper](creatures/goblin-scrapper.md) | 1 | 0 | 1 | 2 | Existing attacks retained | Defend / approved Roll Away (October 15) |
 | [Goblin Smoke Slinger](creatures/goblin-smoke-slinger.md) | 1 | 0 | 1 | 2 | Existing attacks retained | Defend / existing maneuvers |
 | [Grave Cultist](creatures/grave-cultist.md) | 0 | 0 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |
 | [Grave Wisp](creatures/grave-wisp.md) | 1 | 0 | 1 | 1 | Existing attacks retained | Defend / existing maneuvers |

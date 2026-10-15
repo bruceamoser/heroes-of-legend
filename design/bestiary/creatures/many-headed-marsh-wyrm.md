@@ -2,53 +2,67 @@
 
 *A massive marsh reptile with three long necks rising from one low, muscular body. The heads share a single purpose and body, whose wounds knit unless scorched by fire.*
 
-**HP:** 48 · **Speed:** Ground 5; swim 7 · **Footprint:** 3x3
+**HP:** 48 · **Speed:** 5; swim 7 · **Size:** 3 (3x3 squares) · **Armor DR:** 2
 
-## When attacked
+**Evasion:** 1 Boon · **Threat:** 1 Bane · **Stability:** 2
 
-**Evasion:** 1 Boon to player attacks. · **Stability:** 2 (Heavy Frame, passive grant; not derived from size).
+**Weaknesses:** Fire (see details)\
+**Resistances:** Physical (2)\
+**Immunities:** None
 
-**DR / resistance:** Physical 2 · **Condition immunities:** None
+## Actions
 
-**Weakness:** Fire damage suppresses Knit Flesh until its next recovery.
+Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
 
-**Healing:** Living: ordinary HP healing applies.
+| Main Actions | Damage |
+|---|---|
+| Basic Melee | 5/3/2 |
+| Crossing jaws | 9/7/5 |
+| Anchoring bite | 7/5/3 |
 
-## On its turn
+| Maneuvers | Effect |
+|---|---|
+| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
 
-**Senses:** Ordinary sight and hearing.
+| Reactions | Effect |
+|---|---|
+| Opportunity Attack | Basic Melee against the provoking creature. |
 
-### Crossing jaws — Main Action
+## Details
+
+### Crossing jaws
 
 *A great limb scythes across the ground, forcing everyone nearby to move.*
 
-**Target:** Up to two creatures within 2 squares. **Player defense:** Agility. **Threat:** 1 Bane to that defense.
+**Target:** Up to two creatures within 2 squares. **Player defense:** Agility. **Damage type:** physical.
 
-- **Weak defense:** 9 physical damage.
-- **Standard defense:** 7 physical damage.
-- **Strong defense:** 5 physical damage.
-
-### Anchoring bite — Main Action
+### Anchoring bite
 
 *One head holds the prey while the others watch its companions.*
 
-**Target:** One creature within 2 squares. **Player defense:** Brawn. **Threat:** 1 Bane to that defense.
+**Target:** One creature within 2 squares. **Player defense:** Brawn. **Damage type:** physical.
 
-- **Weak defense:** 7 physical damage; Grappled 2.
-- **Standard defense:** 5 physical damage; Grappled 1.
-- **Strong defense:** 3 physical damage.
+**Weak defense:** Grappled 2. **Standard defense:** Grappled 1.
 
 **Limit:** The holder suffers its own Grappled contribution. A new result replaces its lower contribution, not adds to it. Release freely; separation beyond reach, unconsciousness or death ends the hold.
 
-**Defend — Maneuver:** 1 additional Bane on player attacks against it until its next turn; repeated Defend does not stack.
+### General details
 
-**Basic Melee — Main Action / opportunity Reaction:** one adjacent target, Agility defense, Threat 1 Bane; Weak defense 5, Standard 3, Strong 2 physical damage. No specialty riders. An opportunity spends its Reaction before the provoking action resolves; that action continues if capable.
+**Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-## Passives
+**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+
+**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+
+**Heavy Frame — Passive:** Stability 2; an explicit creature trait, not a bonus from size.
+
+**Weakness:** Fire damage suppresses Knit Flesh until its next recovery.
 
 **Knit Flesh:** At turn end, recover 3 HP if above 0, unless it took fire damage since its previous turn end. Dies at 0; cannot regrow from death.
 
-## Encounter cues
+**Healing:** Living: ordinary HP healing applies.
+
+**Senses:** Ordinary sight and hearing.
 
 **Signs:** Several bite sizes mark the same carcass beside an immense trail.
 
@@ -60,7 +74,7 @@
 
 **Habitat:** Deep marsh; lake · **Communication:** None
 
-**Rewards:** One old wreck in its pool may hold 120 coins of recoverable cargo.
+**Loot:** One old wreck in its pool may hold 120 coins of recoverable cargo.
 
 **Summoning:** Ineligible.
 

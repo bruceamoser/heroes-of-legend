@@ -28,31 +28,50 @@ for p in sorted((R/'creatures').glob('*.md')):
  need('## Design notes — not needed during play' in s,pre+'missing terminal design section')
  need('Adventure band' not in s and '**Procedure:**' not in play,pre+'obsolete card fields')
  need('**Reference damage:**' not in play and '**Utility factor:**' not in play,pre+'worksheet in play section')
- for k in ['HP','Speed','Footprint','Evasion','Stability','DR / resistance','Condition immunities','Healing','Senses','ID','CV','Reference damage','Reference type','Expected targets','Utility factor','Regeneration per turn']:
+ for k in ['HP','Speed','Size','Evasion','Threat','Stability','Armor DR','Resistances','Weaknesses','Immunities','Healing','Senses','ID','CV','Reference damage','Reference type','Expected targets','Utility factor','Regeneration per turn']:
   need(bool(field(s,k)),pre+'missing '+k)
  ident=field(s,'ID');need(ident not in ids,pre+'duplicate ID');ids.add(ident)
  try:
   hp=int(field(s,'HP'));cv=int(field(s,'CV'));st=int(re.match(r'\d+',field(s,'Stability'))[0]);ev=mod(field(s,'Evasion'))
   need(0<=st<=3,pre+'Stability exceeds cap')
-  need(st==0 or 'passive grant' in field(s,'Stability'),pre+'Stability lacks explicit source')
-  drfield=field(s,'DR / resistance');res=re.search(r'Physical (\d+)',drfield);dr=int(res[1]) if res else 0
+  need(st==0 or '**Heavy Frame — Passive:** Stability '+str(st) in play,pre+'Stability lacks explicit source')
+  drfield=field(s,'Resistances');dr=int(re.match(r'\d+',field(s,'Armor DR'))[0])
+  res=re.search(r'Physical \((\d+)\)',drfield)
+  need((int(res[1]) if res else 0)==dr,pre+'Armor DR disagrees with Physical resistance')
+  need(0<=dr<=3,pre+'Armor DR exceeds cap')
+  extra=any(k.lower()!='physical' for k in re.findall(r'([A-Za-z]+) \(\d+\)',drfield))
+  need(('*' in field(s,'Armor DR'))==extra,pre+'Armor DR asterisk mismatch')
   need(all(int(n)<=3 for n in re.findall(r'\d+',drfield)),pre+'resistance exceeds cap')
   reference=list(map(int,field(s,'Reference damage').split('/')));typ=field(s,'Reference type')
   u=float(field(s,'Utility factor'));regen=int(field(s,'Regeneration per turn'));targets=int(field(s,'Expected targets'))
   blocks=[]
+  for title in ('| Main Actions | Damage |','| Maneuvers | Effect |','| Reactions | Effect |','## Details'):
+   need(title in play,pre+'missing '+title)
+  rows={}
+  main_table=play.split('| Main Actions | Damage |',1)[1].split('\n\n',1)[0]
+  for line in main_table.splitlines():
+   cells=[x.strip() for x in line.split('|')[1:-1]]
+   if len(cells)==2 and cells[0]!='---':rows[cells[0]]=cells[1]
+  need('Basic Melee' in rows and bool(re.fullmatch(r'\d+/\d+/\d+',rows.get('Basic Melee',''))),pre+'missing or invalid Basic Melee')
+  need(all(name=='Basic Melee' or '### '+name+'\n' in play for name in rows),pre+'Main Action missing details')
+  need(play.index('## Actions')<play.index('## Details'),pre+'action tables must precede details')
   for b in re.split(r'^### ',play,flags=re.M)[1:]:
    if '**Player defense:**' not in b:continue
-   b=b.split('\n## ')[0];name=b.splitlines()[0].split(' — ')[0]
-   need(b.splitlines()[0].endswith('— Main Action'),pre+'attack action missing')
+   name=b.splitlines()[0]
+   need(name in rows,pre+'attack missing from table '+name)
    defense=field(b,'Player defense').split('.')[0]
    need(defense in {'Brawn','Fortitude','Agility','Guile','Knowledge','Reason'},pre+'invalid defense attribute')
+   damage=rows.get(name,'').split('/')
+   need(len(damage)==3 and all(v.isdigit() for v in damage),pre+'invalid damage row '+name)
+   damage_type=field(b,'Damage type').rstrip('.')
    vals=[]
-   for t in ('Weak','Standard','Strong'):
-    m=re.search(r'- \*\*'+t+r' defense:\*\* ([^\n]+)',b)
-    need(bool(m),pre+'missing defense outcome');vals.append(m[1] if m else '')
+   for t,d in zip(('Weak','Standard','Strong'),damage):
+    m=re.search(r'\*\*'+t+r' defense:\*\* ([^\n]*?)(?= \*\*|\n|$)',b)
+    base='No damage.' if damage_type=='None' else d+' '+damage_type+' damage.'
+    vals.append(base+(' '+m[1] if m else ''))
    blocks.append((name,b,vals))
   need(bool(blocks),pre+'no attacks')
-  primary=blocks[0];th=mod(field(primary[1],'Threat'))
+  primary=blocks[0];th=mod(field(play,'Threat'))
   actual=[int(re.match(r'(\d+)',v)[1]) for v in reversed(primary[2])]
   need(actual==reference,pre+'reference differs from printed primary damage')
   inc=sum(pr*max(1,d-dr) for pr,d in zip(probabilities(ev),(3,5,7)))
@@ -77,8 +96,9 @@ for p in sorted((R/'creatures').glob('*.md')):
    need(bool(row),pre+'missing attacker reference '+name)
    if row:
     cells=[x.strip() for x in row.split('|')[1:-1]]
-    need(cells[3:]==list(reversed(vals)),pre+'perspective mismatch '+name)
-    need(mod(cells[2])==-mod(field(b,'Threat')),pre+'attack modifier mismatch '+name)
+    normalize=lambda v:re.sub(r'[.;]','',v).strip()
+    need(list(map(normalize,cells[3:]))==list(map(normalize,reversed(vals))),pre+'perspective mismatch '+name)
+    need(mod(cells[2])==-th,pre+'attack modifier mismatch '+name)
  except (ValueError,IndexError,TypeError,AttributeError) as ex:errors.append(pre+'unparseable data '+str(ex))
  used.update(re.findall(r'\.\./\.\./monster-abilities/([a-z-]+)\.md',s))
 for cat in ['Animal','Fey','Spirit','Elemental','Undead','Construct']:
