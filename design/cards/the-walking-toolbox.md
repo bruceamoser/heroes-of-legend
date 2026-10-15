@@ -1,27 +1,31 @@
-# The Walking Toolbox
+# Summon Construct — Adept
 
-*You tap the little frame, and it unfolds its legs with your tools rattling cheerfully inside.*
+*You sketch a frame in the air and close your hand. Interlocking pieces gather into the construct you called, its joints still until you direct it.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** One visible free square within 2 squares.
+**Target / range / shape:** One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.
 
-Unfold a tool-carrying construct: HP 4, Speed 4, no resistance or attack; carries 2 Bulk. Counts as a summon with normal commands, immediate command, tether and one-scene duration. With a commanded Maneuver it may pass one tool it carries to a willing adjacent ally, but never craft or grant extra crafting attempts.
+Choose one bestiary entry explicitly approved for **Construct summoning** with a minimum summoning tier no higher than **3**. Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.
 
-**Duration:** One scene; disappears immediately beyond the 6-square tether.
+Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. **Without a command it does nothing:** no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.
 
-**Equipment / acquisition:** No item needed unless named above.
+The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply [Command a Summon](command-a-summon.md) and the [summoning reference](../rules/summoning.md).
+
+**Duration:** One scene; ends sooner if the summon reaches 0 HP or breaks its tether.
+
+**Equipment / acquisition:** No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.
 
 ---
 
-**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Craft 2 and Calling 1
+**Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Calling 2
 
-**Type:** Magic / Crafting
+**Type:** Magic / Summoning
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Limits:** One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.
 
-**ID:** the-walking-toolbox · **Status:** Proposal for Bruce’s review.
+**ID:** the-walking-toolbox · **Status:** Agreed category/command direction; per-card duration, requirements and selection framework are proposals. Awaiting eligible bestiary profiles; not ready for balance simulation.
 
-[Build this character](../paths/roadside-artificer.md) · [Card conventions](../card-conventions.md)
+[Summoning review](../reviews/1164-summoning-review.md) · [Card conventions](../card-conventions.md)

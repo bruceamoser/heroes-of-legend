@@ -1,27 +1,31 @@
-# Call a Sentinel
+# Summon Spirit — Adept
 
-*You speak the watchword, and a patient guardian takes its place beside you.*
+*You speak into the hush between breaths. A pale outline gathers beside you, taking the shape of the spirit you called.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** One free visible square within 3 squares
+**Target / range / shape:** One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.
 
-Creature: HP 9, Speed 4, resistance 0. Its Main attack affects one adjacent creature: controller rolls Knowledge for physical 3/4/6. It may Move or Defend when commanded. No innate Reaction, healing or summoning. Apply universal command rules, including the immediate Main command. Disappears immediately beyond 6 squares from controller, including forced movement. Its commanded Maneuver may grant an adjacent ally 1 Boon to its next defense before the start of your next turn. It cannot provide this protection while uncommanded. NPC-versus-summon resolution remains an open foundation decision.
+Choose one bestiary entry explicitly approved for **Spirit summoning** with a minimum summoning tier no higher than **3**. Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.
 
-**Duration:** One combat or 10 minutes outside combat, whichever ends first
+Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. **Without a command it does nothing:** no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.
 
-**Equipment / acquisition:** None.
+The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply [Command a Summon](command-a-summon.md) and the [summoning reference](../rules/summoning.md).
+
+**Duration:** One scene; ends sooner if the summon reaches 0 HP or breaks its tether.
+
+**Equipment / acquisition:** No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.
 
 ---
 
 **Tier / minimum level:** 3 · **DP:** 4 · **Requirements to learn:** Calling 2
 
-**Type:** Magic
+**Type:** Magic / Summoning
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Limits:** One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.
 
-**ID:** call-a-sentinel · **Status:** Proposal — fresh design; not approved or balance-tested.
+**ID:** call-a-sentinel · **Status:** Agreed category/command direction; per-card duration, requirements and selection framework are proposals. Awaiting eligible bestiary profiles; not ready for balance simulation.
 
-[Card conventions](../card-conventions.md) · [Catalog](../catalog.md)
+[Summoning review](../reviews/1164-summoning-review.md) · [Card conventions](../card-conventions.md)

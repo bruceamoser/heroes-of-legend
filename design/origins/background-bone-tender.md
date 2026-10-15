@@ -8,7 +8,7 @@
 
 Choose one:
 
-- **Calling 1** and [The Bones Rise](../cards/the-bones-rise.md).
+- **Calling 1** and [Summon Undead — Novice](../cards/the-bones-rise.md).
 - **Life 1** and [Keep the Door Closed](../cards/keep-the-door-closed.md).
 
 **Type:** Background · **Status:** Proposal. This is a past, not a required personality or moral alignment.

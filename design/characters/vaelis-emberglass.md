@@ -60,7 +60,7 @@ Fresh pool: **13 + 0 = 13 DP**. All discipline purchases below occur before card
 | [Read the Remains](../cards/read-the-remains.md) | Scholarship 1 | 2 | 11 |
 | [Identify an Enchantment](../cards/identify-an-enchantment.md) | Scholarship 1 | 2 | 9 |
 | [A Hand from Before](../cards/a-hand-from-before.md) | Calling 1 | 2 | 7 |
-| [A Friend Beneath the Door](../cards/a-friend-beneath-the-door.md) | Calling 1 | 2 | 5 |
+| [Summon Fey — Novice](../cards/a-friend-beneath-the-door.md) | Calling 1 | 2 | 5 |
 | **Storm 1** | Adjacent; previous rank 0 | 2 | 3 |
 | [Gust Hammer](../cards/gust-hammer.md) | Storm 1 | 2 | 1 |
 
@@ -100,8 +100,13 @@ These are all origin grants, purchases and the free signature; there is no equip
 - [Read the Remains](../cards/read-the-remains.md) — Main Action; Reason.
 - [Identify an Enchantment](../cards/identify-an-enchantment.md) — Main Action; Knowledge.
 - [A Hand from Before](../cards/a-hand-from-before.md) — Reaction; None — no roll.
-- [A Friend Beneath the Door](../cards/a-friend-beneath-the-door.md) — Main Action; None — no roll.
+- [Summon Fey — Novice](../cards/a-friend-beneath-the-door.md) — Main Action; None — no roll.
 - [Gust Hammer](../cards/gust-hammer.md) — Main Action; Reason.
 - [Deliberate Spark](../cards/signature-arcanist-deliberate-spark.md) — Passive; None — no roll.
 
 All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
+
+**Summoning revision:** the former tiny-scout card is now Summon Fey — Novice.
+Its Calling 1 requirement and 2-DP cost are unchanged, so this ledger stays valid;
+actual creature selection awaits the eligible bestiary profiles. No tiny form,
+scouting sense or object-carrying ability is automatically supplied.

@@ -74,7 +74,9 @@ Do not let a new temporary effect become permanent merely because another is sta
 
 ## Summons, exploration and recovery
 
-Summons require commands; see the universal command card. No free independent
+Summons require commands; see the [summoning reference](summoning.md). Without a
+command they do nothing, including following, lookout and alerts. Old orders grant
+no continued activity; existing conditions and durations still resolve. No free independent
 turns, inherent Reactions or summon chains. No count cap. Beyond 6 squares from the
 controller they disappear, including forced movement of either participant.
 

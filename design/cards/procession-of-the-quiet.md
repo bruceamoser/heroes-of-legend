@@ -1,27 +1,31 @@
-# Procession of the Quiet
+# Summon Undead — Master
 
-*You raise your hand, and patient bone porters assemble for another journey.*
+*You draw a cold breath and beckon. A shape assembles from spectral remains, settling into the form of the undead servant you called.*
 
 ## Rules
 
 **Action:** Main Action · **Attribute:** None — no roll
 
-**Target / range / shape:** Two visible free squares within 3 squares.
+**Target / range / shape:** One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.
 
-Call two bone porters, each HP 8, Speed 4, resistance 1 physical; each carries up to 2 Bulk. Main attack uses controller Knowledge, adjacent, physical 3/4/6. They may Move or Defend when commanded and are harmed by healing. Normal commands and tether; only one gets the immediate Main command. Last one scene. They wait for your command between turns.
+Choose one bestiary entry explicitly approved for **Undead summoning** with a minimum summoning tier no higher than **7**. Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.
 
-**Duration:** Until the scene ends, unless ended earlier as stated above.
+Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. **Without a command it does nothing:** no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.
 
-**Equipment / acquisition:** No item needed unless named above.
+The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply [Command a Summon](command-a-summon.md) and the [summoning reference](../rules/summoning.md).
+
+**Duration:** One scene; ends sooner if the summon reaches 0 HP or breaks its tether.
+
+**Equipment / acquisition:** No equipment, corpse or consumable supplied or required. Summoned forms and their inherent gear provide no permanent loot or free supplies.
 
 ---
 
 **Tier / minimum level:** 7 · **DP:** 8 · **Requirements to learn:** Calling 3
 
-**Type:** Magic
+**Type:** Magic / Summoning
 
-**Limits:** Repeatable; pay the action and any stated costs each use.
+**Limits:** One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.
 
-**ID:** procession-of-the-quiet · **Status:** Proposal for Bruce’s review.
+**ID:** procession-of-the-quiet · **Status:** Agreed category/command direction; per-card duration, requirements and selection framework are proposals. Awaiting eligible bestiary profiles; not ready for balance simulation.
 
-[Build this character](../paths/bone-caller.md) · [Card conventions](../card-conventions.md)
+[Summoning review](../reviews/1164-summoning-review.md) · [Card conventions](../card-conventions.md)

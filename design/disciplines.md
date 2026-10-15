@@ -55,20 +55,27 @@ purchases follow the agreed foundations; no ability chain is required.
 
 ## [Calling](disciplines/calling.md)
 
-- [A Friend Beneath the Door](cards/a-friend-beneath-the-door.md) — level 1; Main Action.
+- [Summon Fey — Novice](cards/a-friend-beneath-the-door.md) — level 1; Main Action.
 - [A Hand from Before](cards/a-hand-from-before.md) — level 1; Reaction.
 - [A Ribcage for a Shield](cards/a-ribcage-for-a-shield.md) — level 3; Reaction.
-- [Call a Burrower](cards/call-a-burrower.md) — level 1; Main Action.
-- [Call a Sentinel](cards/call-a-sentinel.md) — level 3; Main Action.
-- [Call a Tempest Beast](cards/call-a-tempest-beast.md) — level 7; Main Action.
-- [Call the Elder Stag](cards/call-the-elder-stag.md) — level 7; Main Action.
-- [Call the Faithful Hound](cards/call-the-faithful-hound.md) — level 1; Main Action.
-- [Call the Hunting Cat](cards/call-the-hunting-cat.md) — level 3; Main Action.
+- [Summon Spirit — Novice](cards/call-a-burrower.md) — level 1; Main Action.
+- [Summon Spirit — Adept](cards/call-a-sentinel.md) — level 3; Main Action.
+- [Summon Elemental — Master](cards/call-a-tempest-beast.md) — level 7; Main Action.
+- [Summon Animal — Master](cards/call-the-elder-stag.md) — level 7; Main Action.
+- [Summon Animal — Novice](cards/call-the-faithful-hound.md) — level 1; Main Action.
+- [Summon Animal — Adept](cards/call-the-hunting-cat.md) — level 3; Main Action.
 - [Circle of Old Names](cards/circle-of-old-names.md) — level 3; Main Action.
-- [Procession of the Quiet](cards/procession-of-the-quiet.md) — level 7; Main Action.
-- [The Ancestors Stand](cards/the-ancestors-stand.md) — level 7; Main Action.
-- [The Bones Rise](cards/the-bones-rise.md) — level 1; Main Action.
-- [The Walking Toolbox](cards/the-walking-toolbox.md) — level 3; Main Action.
+- [Summon Undead — Master](cards/procession-of-the-quiet.md) — level 7; Main Action.
+- [Summon Construct — Master](cards/summon-construct-master.md) — level 7; Main Action.
+- [Summon Construct — Novice](cards/summon-construct-novice.md) — level 1; Main Action.
+- [Summon Elemental — Adept](cards/summon-elemental-adept.md) — level 3; Main Action.
+- [Summon Elemental — Novice](cards/summon-elemental-novice.md) — level 1; Main Action.
+- [Summon Fey — Adept](cards/summon-fey-adept.md) — level 3; Main Action.
+- [Summon Fey — Master](cards/summon-fey-master.md) — level 7; Main Action.
+- [Summon Undead — Adept](cards/summon-undead-adept.md) — level 3; Main Action.
+- [Summon Spirit — Master](cards/the-ancestors-stand.md) — level 7; Main Action.
+- [Summon Undead — Novice](cards/the-bones-rise.md) — level 1; Main Action.
+- [Summon Construct — Adept](cards/the-walking-toolbox.md) — level 3; Main Action.
 
 ## [Craft](disciplines/craft.md)
 
@@ -84,7 +91,6 @@ purchases follow the agreed foundations; no ability chain is required.
 - [Spring in the Sleeve](cards/spring-in-the-sleeve.md) — level 1; Main Action.
 - [Storm on a String](cards/storm-on-a-string.md) — level 3; Main Action.
 - [The Cleverest Mixture](cards/the-cleverest-mixture.md) — level 7; Maneuver.
-- [The Walking Toolbox](cards/the-walking-toolbox.md) — level 3; Main Action.
 - [Trail Workshop](cards/trail-workshop.md) — level 1; Main Action.
 
 ## [Flame](disciplines/flame.md)
@@ -126,7 +132,6 @@ purchases follow the agreed foundations; no ability chain is required.
 - [Haul Them Home](cards/haul-them-home.md) — level 3; Maneuver.
 - [Hold the Passage](cards/hold-the-passage.md) — level 3; Main Action.
 - [Shielding Step](cards/shielding-step.md) — level 1; Reaction.
-- [The Ancestors Stand](cards/the-ancestors-stand.md) — level 7; Main Action.
 - [The Circle Holds](cards/the-circle-holds.md) — level 7; Main Action.
 - [The Wind Makes Room](cards/the-wind-makes-room.md) — level 7; Maneuver.
 - [Unravel the Bolt](cards/unravel-the-bolt.md) — level 3; Reaction.
@@ -297,7 +302,6 @@ purchases follow the agreed foundations; no ability chain is required.
 - [A Small and Watchful Shape](cards/a-small-and-watchful-shape.md) — level 3; Maneuver.
 - [Borrow the Beast](cards/borrow-the-beast.md) — level 1; Maneuver.
 - [Briar Gate](cards/briar-gate.md) — level 3; Main Action.
-- [Call a Burrower](cards/call-a-burrower.md) — level 1; Main Action.
 - [Carry Them to Shore](cards/carry-them-to-shore.md) — level 7; Main Action.
 - [Forage Coast](cards/forage-coast.md) — level 1; Main Action.
 - [Forage Mountains](cards/forage-mountains.md) — level 1; Main Action.

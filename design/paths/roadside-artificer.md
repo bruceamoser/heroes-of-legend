@@ -16,7 +16,7 @@ Bring one useful contraption into the scene and explain its familiar little faul
 
 ## Give it room to grow
 
-- At level 3, [The Walking Toolbox](../cards/the-walking-toolbox.md) (Craft 2 and Calling 1) opens another way to affect the scene.
+- At level 3, [Summon Construct — Adept](../cards/the-walking-toolbox.md) (Craft 2 and Calling 1) opens another way to affect the scene.
 - At level 7, [A Marvel on Wheels](../cards/a-marvel-on-wheels.md) (Craft 3 and Marksmanship 1) offers a larger moment.
 
 These are independent cards. You need every stated discipline rank, not the earlier card.
