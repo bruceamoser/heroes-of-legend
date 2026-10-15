@@ -19,7 +19,7 @@ This is an authoring draft, not a claim that every option has been approved or t
 4. [Ancestries](ancestry.md), [origins](culture-background.md), [classes](class.md), [disciplines](disciplines.md).
 5. [Catalog](catalog.md): all universal references, shared abilities and signatures.
 6. [Equipment](equipment.md), [recipes](recipes.md), [wounds and treatment](rules/recovery.md).
-7. [Worked characters](starter-characters.md) and [example scenes](example-scenes.md).
+7. [Six complete level-1 characters](characters/README.md), [earlier worked characters](starter-characters.md), and [example scenes](example-scenes.md).
 8. [Open decisions](open-decisions.md), [reference research](references.md), [coverage](coverage.md).
 
 ## Editing
