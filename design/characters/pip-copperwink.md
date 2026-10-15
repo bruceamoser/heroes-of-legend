@@ -2,7 +2,7 @@
 
 *The charming burglar with a duelist’s smile.*
 
-**Halfling Shadow · HP 16/16 · Grit 2/2 · Speed 7 squares · Bulk 3/10.**
+**Halfling Shadow · HP 16/16 · Grit 2/2 · Speed 7 squares · Bulk 10/10.**
 
 ## Attributes and ancestry
 
@@ -75,11 +75,11 @@ Fresh pool: **11 + 1 = 12 DP**. All discipline purchases below occur before card
 | Rope coil | [A Knot You Can Trust](../cards/a-knot-you-can-trust.md) | 1 |
 
 HP: 12 + ancestry 1 + class 3 + Fortitude 0 + trait 0 + Conditioned Body 0 = **16**.
-Capacity: 10 + 3 × Brawn (0) = **10**. Bulk **3**, so encumbrance penalty **0**. Speed: ancestry 5 + Agility 2 + trait 0 = **7**.
+Capacity: 10 + 3 × Brawn (0) = **10**. Granted Bulk **3** + purchased Bulk **7** = **10**, so encumbrance penalty **0**. Speed: ancestry 5 + Agility 2 + trait 0 = **7**.
 
 Physical resistance: **0**. Other resistances: **0**. Wounds and death marks: **0**. Grit: **2**. No HP or Grit has been spent during creation.
 
-Starting coins: **unassigned**; the catalog has no numeric starting-coin formula. No coin purchases, potions, additional packs, materials or finished crafted goods are invented here. Repeated compatible weapon/tool grants supply no duplicates.
+Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
 
 **Recipes:** none granted or purchased.
 
@@ -106,3 +106,23 @@ These are all origin grants, purchases and the free signature; there is no equip
 - [Fade Behind](../cards/signature-shadow-fade-behind.md) — Passive; None — no roll.
 
 All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
+
+## Starting coins and shopping — proposed allocation
+
+40 + 0 + 10 + 7 + 3 (base + ancestry + culture + background + class) = **60 coins**.
+
+One plain worn outfit is supplied by the proposed creation baseline: 0 carried Bulk, no armor benefit. All other items below are paid for.
+
+| Purchase | Coins | Bulk | Coins left |
+|---|---:|---:|---:|
+| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 57 |
+| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 53 |
+| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 50 |
+| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 41 |
+| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 36 |
+| [Small Necessities](../equipment/small-necessities.md) | 2 | 1 | 34 |
+| [Lesser Healing Bottle](../equipment/lesser-healing-bottle.md) | 20 | 1 | 14 |
+
+**Spent 46; coins carried 14; final Bulk 10/10.** No encumbrance penalty or change to HP, Speed or Grit. The pack itself is counted. The lesser bottle is d4 and restores 6 HP per use under the normal potion action.
+
+[Price list](../market.md) · [Starting-coin allocation](../starting-coins.md)

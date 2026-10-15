@@ -2,7 +2,7 @@
 
 *The grove healer who can become the beast defending it.*
 
-**Human Shepherd · HP 18/18 · Grit 2/2 · Speed 7 squares · Bulk 0/10.**
+**Human Shepherd · HP 18/18 · Grit 2/2 · Speed 7 squares · Bulk 7/10.**
 
 ## Attributes and ancestry
 
@@ -70,14 +70,14 @@ Fresh pool: **12 + 1 = 13 DP**. All discipline purchases below occur before card
 
 ## Equipment and derived statistics
 
-**No mechanical equipment is granted by these choices.** Ordinary appearance/clothing is descriptive; no armor, weapon, focus, tools or adventuring supplies are assumed.
+**No mechanical equipment is granted by these ability choices.** Market purchases are listed below. Ordinary appearance/clothing is descriptive; no armor, weapon, focus, tools or adventuring supplies are assumed.
 
 HP: 12 + ancestry 2 + class 3 + Fortitude 1 + trait 0 + Conditioned Body 0 = **18**.
-Capacity: 10 + 3 × Brawn (0) = **10**. Bulk **0**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 0 + trait 1 = **7**.
+Capacity: 10 + 3 × Brawn (0) = **10**. Granted Bulk **0** + purchased Bulk **7** = **7**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 0 + trait 1 = **7**.
 
 Physical resistance: **0**. Other resistances: **0**. Wounds and death marks: **0**. Grit: **2**. No HP or Grit has been spent during creation.
 
-Starting coins: **unassigned**; the catalog has no numeric starting-coin formula. No coin purchases, potions, additional packs, materials or finished crafted goods are invented here. Repeated compatible weapon/tool grants supply no duplicates.
+Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
 
 **Recipes:** none granted or purchased.
 
@@ -106,3 +106,24 @@ These are all origin grants, purchases and the free signature; there is no equip
 - [Gentle Return](../cards/signature-shepherd-gentle-return.md) — Passive; None — no roll.
 
 All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
+
+## Starting coins and shopping — proposed allocation
+
+40 + 1 + 5 + 5 + 3 (base + ancestry + culture + background + class) = **54 coins**.
+
+One plain worn outfit is supplied by the proposed creation baseline: 0 carried Bulk, no armor benefit. All other items below are paid for.
+
+| Purchase | Coins | Bulk | Coins left |
+|---|---:|---:|---:|
+| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 51 |
+| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 47 |
+| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 44 |
+| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 35 |
+| [Rope Coil](../equipment/rope-coil.md) | 5 | 1 | 30 |
+| [Small Necessities](../equipment/small-necessities.md) | 2 | 1 | 28 |
+| [Lesser Healing Bottle](../equipment/lesser-healing-bottle.md) | 20 | 1 | 8 |
+
+**Spent 46; coins carried 8; final Bulk 7/10.** No encumbrance penalty or change to HP, Speed or Grit. The pack itself is counted. The lesser bottle is d4 and restores 6 HP per use under the normal potion action.
+Mara uses Lantern in the Palm instead of buying lighting; its limitations still apply.
+
+[Price list](../market.md) · [Starting-coin allocation](../starting-coins.md)

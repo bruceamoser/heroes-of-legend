@@ -14,3 +14,5 @@ not a required personality. Any ancestry may grow up in any culture.
 - [Rooted in Stone](trait-dwarf-low-center.md) — Let the storm waste its strength on you.
 - [An Honest Maker’s Hand](trait-dwarf-maker-s-eye.md) — Your thumb finds the seam; your ear knows the ring of sound metal.
 - [A Grudge Well Kept](trait-dwarf-carved-history.md) — You remember who struck first. You intend them to remember what followed.
+
+**Starting coin contribution:** +2 coins (proposed allocation). See [starting coins](../starting-coins.md).

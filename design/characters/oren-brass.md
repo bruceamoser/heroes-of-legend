@@ -2,7 +2,7 @@
 
 *The investigator-tinker who wins fights by understanding them.*
 
-**Human Intellect · HP 17/17 · Grit 2/2 · Speed 7 squares · Bulk 2/10.**
+**Human Intellect · HP 17/17 · Grit 2/2 · Speed 7 squares · Bulk 9/10.**
 
 ## Attributes and ancestry
 
@@ -79,17 +79,17 @@ Fresh pool: **13 + 2 = 15 DP**. All discipline purchases below occur before card
 | One-handed walking cane, described as a melee weapon | [Anatomy of an Opening](../cards/anatomy-of-an-opening.md) | 1 |
 
 HP: 12 + ancestry 2 + class 2 + Fortitude 0 + trait 0 + Conditioned Body 1 = **17**.
-Capacity: 10 + 3 × Brawn (0) = **10**. Bulk **2**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 0 + trait 1 = **7**.
+Capacity: 10 + 3 × Brawn (0) = **10**. Granted Bulk **2** + purchased Bulk **7** = **9**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 0 + trait 1 = **7**.
 
 Physical resistance: **0**. Other resistances: **0**. Wounds and death marks: **0**. Grit: **2**. No HP or Grit has been spent during creation.
 
-Starting coins: **unassigned**; the catalog has no numeric starting-coin formula. No coin purchases, potions, additional packs, materials or finished crafted goods are invented here. Repeated compatible weapon/tool grants supply no duplicates.
+Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
 
-**Recipes chosen:** Trail Workshop → Bound Torches and Fletched Ammunition; Make Something Useful → Travel Food and Twisted Cord; Ordinary Recipe Study → Wooden Brace and Simple Replacement Leg. All six are distinct compatible ordinary recipes. One craft tool set serves both crafting cards. Ingredients must be obtained before crafting.
+**Recipes chosen:** Trail Workshop → Bound Torches and Fletched Ammunition; Make Something Useful → Travel Food and Twisted Cord; Ordinary Recipe Study → Wooden Brace and Simple Replacement Leg. All six are distinct compatible ordinary recipes. One craft tool set serves both crafting cards. The shopping ledger supplies one compatible ordinary material bundle; other ingredients still need to be obtained.
 
 ## At the table
 
-Anatomy of an Opening uses Knowledge in a fight; Oren chooses its optional melee-weapon grant. Make the Connection turns actual evidence into a fact and follow-up lead. Crafting and identification make discoveries useful, while Medicine supports wound care. Oren begins with tools and recipe knowledge, not ingredients or finished supplies.
+Anatomy of an Opening uses Knowledge in a fight; Oren chooses its optional melee-weapon grant. Make the Connection turns actual evidence into a fact and follow-up lead. Crafting and identification make discoveries useful, while Medicine supports wound care. Oren’s card grants supply tools and recipe knowledge; his shopping ledger adds ordinary ingredients, but no finished crafted supplies.
 
 ## Complete learned-card checklist
 
@@ -111,3 +111,24 @@ These are all origin grants, purchases and the free signature; there is no equip
 - [Make the Connection](../cards/signature-intellect-make-the-connection.md) — Main Action; None — no roll.
 
 All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
+
+## Starting coins and shopping — proposed allocation
+
+40 + 1 + 7 + 10 + 8 (base + ancestry + culture + background + class) = **66 coins**.
+
+One plain worn outfit is supplied by the proposed creation baseline: 0 carried Bulk, no armor benefit. All other items below are paid for.
+
+| Purchase | Coins | Bulk | Coins left |
+|---|---:|---:|---:|
+| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 63 |
+| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 59 |
+| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 56 |
+| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 47 |
+| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 42 |
+| [Lesser Healing Bottle](../equipment/lesser-healing-bottle.md) | 20 | 1 | 22 |
+| [Material Bundle](../equipment/material-bundle.md) | 12 | 1 | 10 |
+
+**Spent 56; coins carried 10; final Bulk 9/10.** No encumbrance penalty or change to HP, Speed or Grit. The pack itself is counted. The lesser bottle is d4 and restores 6 HP per use under the normal potion action.
+The material bundle contains wood, fiber and bindings suitable for Twisted Cord or Wooden Brace, not healing ingredients. It begins at d6; no finished crafted goods are assumed.
+
+[Price list](../market.md) · [Starting-coin allocation](../starting-coins.md)

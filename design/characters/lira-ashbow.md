@@ -2,7 +2,7 @@
 
 *The woodland archer who reads a trail as readily as a target.*
 
-**Elf Blade · HP 20/20 · Grit 2/2 · Speed 8 squares · Bulk 4/10.**
+**Elf Blade · HP 20/20 · Grit 2/2 · Speed 8 squares · Bulk 10/10.**
 
 ## Attributes and ancestry
 
@@ -75,11 +75,11 @@ Fresh pool: **10 + 0 = 10 DP**. All discipline purchases below occur before card
 | Rope coil | [A Knot You Can Trust](../cards/a-knot-you-can-trust.md) | 1 |
 
 HP: 12 + ancestry 2 + class 4 + Fortitude 1 + trait 0 + Conditioned Body 1 = **20**.
-Capacity: 10 + 3 × Brawn (0) = **10**. Bulk **4**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 2 + trait 0 = **8**.
+Capacity: 10 + 3 × Brawn (0) = **10**. Granted Bulk **4** + purchased Bulk **6** = **10**, so encumbrance penalty **0**. Speed: ancestry 6 + Agility 2 + trait 0 = **8**.
 
 Physical resistance: **0**. Other resistances: **0**. Wounds and death marks: **0**. Grit: **2**. No HP or Grit has been spent during creation.
 
-Starting coins: **unassigned**; the catalog has no numeric starting-coin formula. No coin purchases, potions, additional packs, materials or finished crafted goods are invented here. Repeated compatible weapon/tool grants supply no duplicates.
+Starting coins and market purchases are resolved in the shopping ledger below. Card-granted equipment is not purchased again. Repeated compatible weapon/tool grants supply no duplicates.
 
 **Recipes:** none granted or purchased.
 
@@ -106,3 +106,22 @@ These are all origin grants, purchases and the free signature; there is no equip
 - [Measured Guard](../cards/signature-blade-measured-guard.md) — Reaction; None — no roll.
 
 All 18 [universal cards](../catalog.md) are available without DP: Basic Melee, Basic Ranged, Basic Throw, Basic Unarmed, Force, Aid, Defend, Disengage, Stabilize, Shield Block, Opportunity Attack, Move, Stand, Handle an Item, Use a Healing Potion, Reduce a Condition, Command a Summon and Convert an Action. Their equipment and situation requirements still apply.
+
+## Starting coins and shopping — proposed allocation
+
+40 + 2 + 5 + 7 + 4 (base + ancestry + culture + background + class) = **58 coins**.
+
+One plain worn outfit is supplied by the proposed creation baseline: 0 carried Bulk, no armor benefit. All other items below are paid for.
+
+| Purchase | Coins | Bulk | Coins left |
+|---|---:|---:|---:|
+| [Travel Pack](../equipment/travel-pack.md) | 3 | 1 | 55 |
+| [Sleeping Roll](../equipment/sleeping-roll.md) | 4 | 1 | 51 |
+| [Water Flask](../equipment/water-flask.md) | 3 | 1 | 48 |
+| [Food Bundle](../equipment/food-bundle.md) | 9 | 1 | 39 |
+| [Lighting Bundle](../equipment/lighting-bundle.md) | 5 | 1 | 34 |
+| [Lesser Healing Bottle](../equipment/lesser-healing-bottle.md) | 20 | 1 | 14 |
+
+**Spent 44; coins carried 14; final Bulk 10/10.** No encumbrance penalty or change to HP, Speed or Grit. The pack itself is counted. The lesser bottle is d4 and restores 6 HP per use under the normal potion action.
+
+[Price list](../market.md) · [Starting-coin allocation](../starting-coins.md)

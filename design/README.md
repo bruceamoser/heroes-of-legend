@@ -71,5 +71,8 @@ unchanged; the review shows how Lira can become a Warden with the same budgets.
 
 [Market inventory and prices](market.md) supplies proposed equipment costs, services,
 restocking and resale. [Six shopping baskets](reviews/1166-market-review.md) support
-a 50–70 coin starting-range discussion; individual starting contributions are not
-yet assigned.
+the agreed 50–70 coin starting target; the proposed allocation is now available
+in the starting-coins reference.
+
+[Starting coins](starting-coins.md) now proposes contributions within the agreed
+50–70 target and completes the six characters’ paid shopping ledgers.

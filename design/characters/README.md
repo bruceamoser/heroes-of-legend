@@ -7,12 +7,12 @@ origin pairs, ancestry traits, signature, equipment and learned-card checklist.
 
 | Character | Trope | Ancestry / class | HP | Speed | Bulk / capacity | L0 spent / pool | L1 spent / pool |
 |---|---|---|---:|---:|---:|---:|---:|
-| [Borin Bridgekeeper](borin-bridgekeeper.md) | Stalwart guardian | Dwarf Protector | 25 | 5 | 3 / 13 | 10 / 10 | 11 / 11 |
-| [Lira Ashbow](lira-ashbow.md) | Woodland archer | Elf Blade | 20 | 8 | 4 / 10 | 10 / 10 | 10 / 10 |
-| [Pip Copperwink](pip-copperwink.md) | Burglar-duelist | Halfling Shadow | 16 | 7 | 3 / 10 | 10 / 11 | 12 / 12 |
-| [Vaelis Emberglass](vaelis-emberglass.md) | Elemental scholar | Elf Arcanist | 17 | 7 | 0 / 7 | 12 / 13 | 12 / 13 |
-| [Mara Reedheart](mara-reedheart.md) | Grove healer / beast-shaper | Human Shepherd | 18 | 7 | 0 / 10 | 12 / 12 | 13 / 13 |
-| [Oren Brass](oren-brass.md) | Investigator-tinker | Human Intellect | 17 | 7 | 2 / 10 | 12 / 13 | 15 / 15 |
+| [Borin Bridgekeeper](borin-bridgekeeper.md) | Stalwart guardian | Dwarf Protector | 25 | 5 | 11 / 13 | 10 / 10 | 11 / 11 |
+| [Lira Ashbow](lira-ashbow.md) | Woodland archer | Elf Blade | 20 | 8 | 10 / 10 | 10 / 10 | 10 / 10 |
+| [Pip Copperwink](pip-copperwink.md) | Burglar-duelist | Halfling Shadow | 16 | 7 | 10 / 10 | 10 / 11 | 12 / 12 |
+| [Vaelis Emberglass](vaelis-emberglass.md) | Elemental scholar | Elf Arcanist | 17 | 7 | 7 / 7 | 12 / 13 | 12 / 13 |
+| [Mara Reedheart](mara-reedheart.md) | Grove healer / beast-shaper | Human Shepherd | 18 | 7 | 7 / 10 | 12 / 12 | 13 / 13 |
+| [Oren Brass](oren-brass.md) | Investigator-tinker | Human Intellect | 17 | 7 | 9 / 10 | 12 / 13 | 15 / 15 |
 
 All start at full HP, Grit 2, no wounds and no death marks. Unspent creation DP
 expires separately at each stage. Ancestry and culture are independent: Mara is a
@@ -59,16 +59,11 @@ Oren loses 1 at level 0. Two-DP cards and the ban on level-0 discipline purchase
 make these remainders unavoidable for the chosen shopping lists. They were not
 silently carried over.
 
-**Starting equipment is sparse by design, but expedition supplies remain a gap.**
-Vaelis and Mara have no granted mechanical equipment. They can use their magic,
-but have no assumed food, water container, rope, bedroll or potions. Oren can craft
-once materials are available; his six recipes are not six finished items. No free
-pack or invented coin budget was used to conceal this issue.
-
-**Starting coins are still unspecified.** Each sheet explicitly leaves them
-unassigned. Completing that field requires the base/ancestry/background/class
-coin values promised by the development rules. Everything with a defined numeric
-creation rule is resolved.
+**Market follow-up:** the original card grants were sparse. The new proposed
+starting allocation and paid shopping ledgers now supply road necessities and one
+lesser potion each. Oren buys an ordinary material bundle; recipe knowledge still
+does not create free stock. Starting coins are now assigned as proposals rather
+than left blank. Earlier market-review baskets remain historical comparisons.
 
 **The hand and card loads are visible.** Borin begins with weapon and shield;
 Lira uses both hands for her bow. Neither has an automatic potion hand. Each
@@ -78,3 +73,16 @@ sheet should foreground a few likely choices while keeping the rest accessible.
 
 **This is not a complete class survey.** Leader, Unbalanced and Odd are not sampled,
 and these builds do not establish comparative combat power or encounter CV.
+
+## Proposed starting purses and completed shopping
+
+| Character | Starting coins | Spent | Remaining | Final Bulk / capacity |
+|---|---:|---:|---:|---:|
+| [Borin Bridgekeeper](borin-bridgekeeper.md) | 64 | 51 | 13 | 11/13 |
+| [Lira Ashbow](lira-ashbow.md) | 58 | 44 | 14 | 10/10 |
+| [Pip Copperwink](pip-copperwink.md) | 60 | 46 | 14 | 10/10 |
+| [Vaelis Emberglass](vaelis-emberglass.md) | 65 | 49 | 16 | 7/7 |
+| [Mara Reedheart](mara-reedheart.md) | 54 | 46 | 8 | 7/10 |
+| [Oren Brass](oren-brass.md) | 66 | 56 | 10 | 9/10 |
+
+All six remain level 1. Purchases change equipment and coin totals, not their DP ledgers or learned cards.
