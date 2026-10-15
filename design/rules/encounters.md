@@ -59,3 +59,10 @@ estimate unreliable. Record uncertainty rather than publishing false precision.
 
 Until those tests exist, CV and B(L) remain uncalibrated. The procedure is ready to
 support bestiary development; numerical encounter guarantees are not.
+
+## Bestiary seed worksheet
+
+The [bestiary encounter draft](../bestiary/encounters.md) now supplies explicit
+reference attacks, enumerated probabilities, utility factors and a proposed
+B(L)=32+8L testing grid. These are authoring seeds, not the completed calibration
+described above. Every creature’s CV can be recomputed by the bestiary audit.

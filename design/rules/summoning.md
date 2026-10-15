@@ -68,23 +68,19 @@ controller’s turn. Passive defenses such as resistance remain applicable. Do n
 import automatic attacks, active auras or triggered abilities from a monster entry
 without an explicit summon-profile procedure consistent with command-only activity.
 
-## Bestiary work still required
+## Bestiary draft now available
 
-For every eligible entry, define:
+The [summon selection](../bestiary/summon-choices.md) provides 43 proposed entries,
+covering all six categories at tiers 1, 3 and 7. Each prints HP, all six attributes,
+attack and target-defense attributes, movement, footprint, senses, resistance,
+healing compatibility, command options and restrictions. These permissions await
+Bruce’s review; category or CV alone never authorizes a creature.
 
-1. Allowed summoning categories and minimum summoning tier (1, 3 or 7).
-2. HP, resistances, footprint, Speed, movement modes, senses and carrying limits.
-3. Permitted actions and their costs, including attack roll/attribute/outcomes and
-   any hiding, observation, tracking, support or interaction capabilities.
-4. What the controller rolls when the summon is attacked. the controlling player rolls the creature’s printed defense attribute against an NPC attack.
-5. Condition and duration anchors, healing compatibility and special restrictions.
-
-No entry has been certified by this pass. The old embedded hound, cat, stag,
-sentinel and other sample statistics are retired as selection permissions; they
-are not a finished bestiary. CV can inform review, but cannot by itself authorize
-an ability-rich monster as a player summon. Multi-square tether measurement and
-other incapacities short of unconsciousness still need explicit rules;
-until settled, neither can grant the summon independent activity.
+The [creature procedure](../bestiary/procedure.md) and summon selection document
+explicit working proposals for large-body tether measurement, geometry and ordinary
+command activities. The old embedded creature samples remain retired. Use the new
+entry itself, not a historical sample or a monster’s narrative tactics as a standing
+order. No activity, alerts or independent Reactions without the permitted command.
 
 **Latest agreement:** summons disappear when their controller becomes unconscious
 or dies. Players roll their creatures’ printed attack and defense attributes;
