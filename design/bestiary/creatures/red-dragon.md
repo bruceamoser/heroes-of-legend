@@ -2,6 +2,8 @@
 
 *An immense red-scaled dragon with a horned head, broad wings and a furnace-bright throat. Intelligent and deeply possessive, it treats territory, tribute and reputation as parts of the same hoard.*
 
+**Attributes:** Brawn +2; Fortitude +2; Agility +1; Guile +2; Knowledge +2; Reason +2
+
 **HP:** 56 · **Speed:** 7; fly 10 · **Size:** 3 (3x3 squares) · **Armor DR:** 3\*
 
 **Evasion:** None · **Threat:** 2 Banes · **Stability:** 2
@@ -14,23 +16,23 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Claw sweep | 10 + Push each 4 / 7 + Push each 2 / 5 |
-| Furnace breath | 10 + Burning 2 / 7 + Burning 1 / 5 |
-| Crushing bite | 12 + Bleeding 2 / 8 + Bleeding 1 / 6 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Claw sweep | Agility | 10 + Push each 4 / 7 + Push each 2 / 5 |
+| Furnace breath | Agility | 10 + Burning 2 / 7 + Burning 1 / 5 |
+| Crushing bite | Fortitude | 12 + Bleeding 2 / 8 + Bleeding 1 / 6 |
 
 | Maneuvers | Effect |
 |---|---|
 | Wing Beat | One adjacent creature gains Slowed 1; no roll or damage. Once per turn; no additional push or Blinded. |
 | Breaking Roar | One hearing creature within 3 squares gains Frightened 1 of this creature; no roll or damage. Once per turn. |
 | Dig In | Gain Stability 3 while on solid ground until its next turn; highest source only. |
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -64,9 +66,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Heavy Frame — Passive:** Stability 2; an explicit creature trait, not a bonus from size.
 
@@ -97,8 +99,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Category:** Dragon · **Role:** Territorial sovereign · **CV:** 95
 
 ### Creature-roll reference
-
-**Attributes:** Brawn +2; Fortitude +2; Agility +1; Guile +2; Knowledge +2; Reason +2
 
 | Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
 |---|---|---|---|---|---|

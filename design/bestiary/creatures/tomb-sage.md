@@ -2,6 +2,8 @@
 
 *A preserved undead scholar with ink-blackened bones, ancient robes and books maintained with obsessive care. Centuries of unfinished research have worn away concern for the living.*
 
+**Attributes:** Brawn +0; Fortitude +1; Agility +1; Guile +1; Knowledge +2; Reason +2
+
 **HP:** 36 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 2\*
 
 **Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 0
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Unwritten memory | 8 + Dazed 2 / 6 + Dazed 1 / 4 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Unwritten memory | Reason | 8 + Dazed 2 / 6 + Dazed 1 / 4 |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
 | Spell Screen | Impose 1 Bane on one incoming spell attack. See details. |
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -48,9 +50,9 @@ Before one spell against it resolves, impose 1 Bane on that player attack (or gi
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 
@@ -83,8 +85,6 @@ Before one spell against it resolves, impose 1 Bane on that player attack (or gi
 **Category:** Undead · **Role:** Arcane villain · **CV:** 45
 
 ### Creature-roll reference
-
-**Attributes:** Brawn +0; Fortitude +1; Agility +1; Guile +1; Knowledge +2; Reason +2
 
 | Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
 |---|---|---|---|---|---|

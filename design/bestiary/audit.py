@@ -28,11 +28,14 @@ for p in sorted((R/'creatures').glob('*.md')):
  need('## Design notes — not needed during play' in s,pre+'missing terminal design section')
  need('Adventure band' not in s and '**Procedure:**' not in play,pre+'obsolete card fields')
  need('**Reference damage:**' not in play and '**Utility factor:**' not in play,pre+'worksheet in play section')
- for k in ['HP','Speed','Size','Evasion','Threat','Stability','Armor DR','Resistances','Weaknesses','Immunities','Healing','Senses','ID','CV','Reference damage','Reference type','Expected targets','Utility factor','Regeneration per turn']:
+ for k in ['Attributes','HP','Speed','Size','Evasion','Threat','Stability','Armor DR','Resistances','Weaknesses','Immunities','Healing','Senses','ID','CV','Reference damage','Reference type','Expected targets','Utility factor','Regeneration per turn']:
   need(bool(field(s,k)),pre+'missing '+k)
  ident=field(s,'ID');need(ident not in ids,pre+'duplicate ID');ids.add(ident)
  try:
   hp=int(field(s,'HP'));cv=int(field(s,'CV'));st=int(re.match(r'\d+',field(s,'Stability'))[0]);ev=mod(field(s,'Evasion'))
+  card_attrs=re.findall(r'(Brawn|Fortitude|Agility|Guile|Knowledge|Reason) ([+-]\d+)',field(play,'Attributes'))
+  need(len(dict(card_attrs))==6 and all(-2<=int(v)<=2 for _,v in card_attrs),pre+'invalid attributes')
+  need(play.index('**Attributes:**')<play.index('**HP:**'),pre+'attributes must precede HP')
   need(0<=st<=3,pre+'Stability exceeds cap')
   need(st==0 or '**Heavy Frame — Passive:** Stability '+str(st) in play,pre+'Stability lacks explicit source')
   drfield=field(s,'Resistances');dr=int(re.match(r'\d+',field(s,'Armor DR'))[0])
@@ -45,14 +48,15 @@ for p in sorted((R/'creatures').glob('*.md')):
   reference=list(map(int,field(s,'Reference damage').split('/')));typ=field(s,'Reference type')
   u=float(field(s,'Utility factor'));regen=int(field(s,'Regeneration per turn'));targets=int(field(s,'Expected targets'))
   blocks=[]
-  for title in ('| Main Actions | Damage |','| Maneuvers | Effect |','| Reactions | Effect |','## Details'):
+  for title in ('| Main Actions | Defense | Damage |','| Maneuvers | Effect |','| Reactions | Effect |','## Details'):
    need(title in play,pre+'missing '+title)
-  rows={}
-  main_table=play.split('| Main Actions | Damage |',1)[1].split('\n\n',1)[0]
+  rows={};defenses={}
+  main_table=play.split('| Main Actions | Defense | Damage |',1)[1].split('\n\n',1)[0]
   for line in main_table.splitlines():
    cells=[x.strip() for x in line.split('|')[1:-1]]
-   if len(cells)==2 and cells[0]!='---':rows[cells[0]]=cells[1]
+   if len(cells)==3 and cells[0]!='---':rows[cells[0]]=cells[2];defenses[cells[0]]=cells[1]
   need('Basic Melee' in rows and bool(re.fullmatch(r'\d+/\d+/\d+',rows.get('Basic Melee',''))),pre+'missing or invalid Basic Melee')
+  need(defenses.get('Basic Melee')=='Agility',pre+'Basic Melee defense must be Agility')
   need(all(name=='Basic Melee' or '### '+name+'\n' in play for name in rows),pre+'Main Action missing details')
   need(play.index('## Actions')<play.index('## Details'),pre+'action tables must precede details')
   for b in re.split(r'^### ',play,flags=re.M)[1:]:
@@ -60,6 +64,7 @@ for p in sorted((R/'creatures').glob('*.md')):
    name=b.splitlines()[0]
    need(name in rows,pre+'attack missing from table '+name)
    defense=field(b,'Player defense').split('.')[0]
+   need(defenses.get(name)==defense,pre+'table defense mismatch '+name)
    need(defense in {'Brawn','Fortitude','Agility','Guile','Knowledge','Reason'},pre+'invalid defense attribute')
    outcome_cells=[v.strip() for v in rows.get(name,'').split('/')]
    damage=[v.split(' + ',1)[0] for v in outcome_cells]
@@ -92,6 +97,7 @@ for p in sorted((R/'creatures').glob('*.md')):
     need(phrase.lower() in ps.lower(),pre+'player reference missing '+phrase)
    need(mod(field(ps,'Defense modifier'))==-ev,pre+'summon defense modifier wrong')
    attrs=re.findall(r'(Brawn|Fortitude|Agility|Guile|Knowledge|Reason) ([+-]\d+)',field(ps,'Attributes'))
+   need(dict(attrs)==dict(card_attrs),pre+'summon attributes differ')
    need(len(dict(attrs))==6 and all(-2<=int(v)<=2 for _,v in attrs),pre+'invalid summon attributes')
   else:ps=s.split('## Design notes')[1]
   # Every attacker table must be the precise reverse of its corresponding DA outcomes.

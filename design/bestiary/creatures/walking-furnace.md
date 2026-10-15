@@ -2,6 +2,8 @@
 
 *A mobile foundry furnace on thick iron legs, with a bellows chest and a hinged firebox mouth. Old production orders still govern the heat and weight of its machinery.*
 
+**Attributes:** Brawn +2; Fortitude +2; Agility -1; Guile -2; Knowledge +0; Reason +0
+
 **HP:** 30 · **Speed:** 4 · **Size:** 2 (2x2 squares) · **Armor DR:** 2\*
 
 **Evasion:** 1 Boon · **Threat:** 1 Bane · **Stability:** 1
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Iron ram | 7/5/3 |
-| Furnace breath | 8 + Burning 2 / 6 + Burning 1 / 4 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Iron ram | Agility | 7/5/3 |
+| Furnace breath | Agility | 8 + Burning 2 / 6 + Burning 1 / 4 |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -48,9 +50,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
 

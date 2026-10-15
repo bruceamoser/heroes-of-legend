@@ -2,6 +2,8 @@
 
 *A bronze funeral bell suspended within a drifting shroud of mist, with no visible clapper or bearer. Its tone carries the grief of people denied a proper farewell.*
 
+**Attributes:** Brawn +0; Fortitude +1; Agility +1; Guile +1; Knowledge +1; Reason +2
+
 **HP:** 26 · **Speed:** 0; fly 5 · **Size:** 1 (medium) · **Armor DR:** 2
 
 **Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 0
@@ -14,18 +16,18 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Funeral toll | 6 + Dazed 2 / 4 + Dazed 1 / 3 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Funeral toll | Reason | 6 + Dazed 2 / 4 + Dazed 1 / 3 |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -43,9 +45,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Lifeless Body:** does not breathe or eat; only the listed immunities apply.
 

@@ -2,6 +2,8 @@
 
 *An ancient living tree with a broad trunk, heavy root limbs and a crown large enough to shelter birds. It is a guardian of a particular grove, capable of patience as well as immense force.*
 
+**Attributes:** Brawn +2; Fortitude +2; Agility -1; Guile +0; Knowledge +1; Reason +2
+
 **HP:** 40 · **Speed:** 4 · **Size:** 3 (3x3 squares) · **Armor DR:** 2
 
 **Evasion:** 1 Boon · **Threat:** 1 Bane · **Stability:** 2
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Branch sweep | 9 + Push each 4 / 6 + Push each 2 / 4 |
-| Root snare | 0 + Difficult terrain until next turn; Slowed 2 / 0 + Difficult terrain until next turn; Slowed 1 / 0 + Difficult terrain until next turn |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Branch sweep | Agility | 9 + Push each 4 / 6 + Push each 2 / 4 |
+| Root snare | Agility | 0 + Difficult terrain until next turn; Slowed 2 / 0 + Difficult terrain until next turn; Slowed 1 / 0 + Difficult terrain until next turn |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -54,9 +56,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Heavy Frame — Passive:** Stability 2; an explicit creature trait, not a bonus from size.
 
@@ -87,8 +89,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Category:** Plant · **Role:** Ancient guardian · **CV:** 51
 
 ### Creature-roll reference
-
-**Attributes:** Brawn +2; Fortitude +2; Agility -1; Guile +0; Knowledge +1; Reason +2
 
 | Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
 |---|---|---|---|---|---|

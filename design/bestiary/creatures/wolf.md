@@ -2,6 +2,8 @@
 
 *A rangy predator with dense gray fur, a narrow muzzle and long legs built for patient pursuit. Wolves live and hunt as a pack, protecting the den before risking a disabling fight.*
 
+**Attributes:** Brawn +1; Fortitude +1; Agility +2; Guile +0; Knowledge -2; Reason +1
+
 **HP:** 10 · **Speed:** 8 · **Size:** 1 (medium) · **Armor DR:** 0
 
 **Evasion:** 1 Bane · **Threat:** None · **Stability:** 0
@@ -14,20 +16,20 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Snapping jaws | 4/3/2 |
-| Pinning bite | 3 + Grappled 1 / 2 + Grappled 1 / 1 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Snapping jaws | Agility | 4/3/2 |
+| Pinning bite | Brawn | 3 + Grappled 1 / 2 + Grappled 1 / 1 |
 
 | Maneuvers | Effect |
 |---|---|
 | Circle the Prey | If another conscious, non-Paralyzed ally (not an uncommanded summon) is adjacent to an adjacent enemy, move up to 2 squares without provoking from that enemy. End adjacent to it. Other opportunity attacks and terrain costs apply. |
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -49,9 +51,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Pack Hunter:** When attacking a target adjacent to another active ally, impose 1 additional Bane on that target’s defense (or gain 1 attack Boon when controlled). Unconscious, Paralyzed and uncommanded summoned allies do not qualify.
 

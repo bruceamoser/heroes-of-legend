@@ -2,6 +2,8 @@
 
 *A squat elemental assembled from pebbles and rough stones around a dense central core. Its blunt hands and planted feet suit it to guarding a small patch of ground.*
 
+**Attributes:** Brawn +2; Fortitude +1; Agility -1; Guile -1; Knowledge -1; Reason +0
+
 **HP:** 12 · **Speed:** 4; burrow 2 · **Size:** 1 (medium) · **Armor DR:** 1
 
 **Evasion:** None · **Threat:** None · **Stability:** 1
@@ -14,18 +16,18 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Pebble fist | 4/3/2 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Pebble fist | Agility | 4/3/2 |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -37,9 +39,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
 

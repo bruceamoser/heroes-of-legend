@@ -2,6 +2,8 @@
 
 *A squat adhesive predator whose folded hide resembles a wooden chest, complete with false hinges and a warm brasslike latch. Teeth and gripping flesh lie beneath the disguise.*
 
+**Attributes:** Brawn +2; Fortitude +1; Agility -1; Guile +1; Knowledge -2; Reason +0
+
 **HP:** 20 · **Speed:** 3 · **Size:** 1 (medium) · **Armor DR:** 1
 
 **Evasion:** None · **Threat:** None · **Stability:** 0
@@ -14,18 +16,18 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Sticky jaws | 6 + Grappled 2 / 4 + Grappled 1 / 3 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Sticky jaws | Agility | 6 + Grappled 2 / 4 + Grappled 1 / 3 |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -43,9 +45,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Mimic Shell:** While still, resembles an ordinary object. Reason examination can expose it. Touching or opening it reveals the creature but grants no free attack; concealment is required to hide again.
 
@@ -76,8 +78,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Category:** Beast · **Role:** Ambusher · **CV:** 17
 
 ### Creature-roll reference
-
-**Attributes:** Brawn +2; Fortitude +1; Agility -1; Guile +1; Knowledge -2; Reason +0
 
 | Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
 |---|---|---|---|---|---|

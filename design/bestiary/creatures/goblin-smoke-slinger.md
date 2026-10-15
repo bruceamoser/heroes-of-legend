@@ -2,6 +2,8 @@
 
 *A nimble goblin carrying a sling and clay smoke pots in padded loops. Soot-stained fingers and a scarf over the mouth mark a specialist in covering a crew’s retreat.*
 
+**Attributes:** Brawn +0; Fortitude +0; Agility +1; Guile +2; Knowledge +1; Reason +0
+
 **HP:** 10 · **Speed:** 6 · **Size:** 1 (medium) · **Armor DR:** 0
 
 **Evasion:** 1 Bane · **Threat:** None · **Stability:** 0
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Sling stone | 5/3/2 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Sling stone | Agility | 5/3/2 |
 
 | Maneuvers | Effect |
 |---|---|
 | Smoke pots | Place heavy cover in up to 3 connected squares within 3 squares until its next turn. Once per scene. |
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -44,9 +46,9 @@ Place heavy cover in up to 3 connected visible squares within 3 squares until th
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Healing:** Living: ordinary HP healing applies.
 
@@ -75,8 +77,6 @@ Place heavy cover in up to 3 connected visible squares within 3 squares until th
 **Category:** Mortal · **Role:** Controller · **CV:** 9
 
 ### Creature-roll reference
-
-**Attributes:** Brawn +0; Fortitude +0; Agility +1; Guile +2; Knowledge +1; Reason +0
 
 | Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
 |---|---|---|---|---|---|

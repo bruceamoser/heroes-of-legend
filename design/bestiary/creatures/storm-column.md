@@ -2,6 +2,8 @@
 
 *A turning column of rain, grit and lightning with a dimly human outline at its center. Its shape continually reforms around the pressure of the wind holding it together.*
 
+**Attributes:** Brawn +1; Fortitude +2; Agility +2; Guile +0; Knowledge +0; Reason +1
+
 **HP:** 30 · **Speed:** 0; fly 7 · **Size:** 2 (2x2 squares) · **Armor DR:** 1\*
 
 **Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 1
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Forked flash | 8 + Burning 2 / 6 + Burning 1 / 4 |
-| Driving gust | 0 + Push 3 / 0 + Push 2 / 0 + Push 1 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Forked flash | Agility | 8 + Burning 2 / 6 + Burning 1 / 4 |
+| Driving gust | Brawn | 0 + Push 3 / 0 + Push 2 / 0 + Push 1 |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -50,9 +52,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
 

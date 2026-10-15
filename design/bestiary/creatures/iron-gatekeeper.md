@@ -2,6 +2,8 @@
 
 *A massive iron guardian with a barred face, oversized hands and its charter engraved across the chest. Built for a particular threshold, it is difficult to displace and slow to redirect.*
 
+**Attributes:** Brawn +2; Fortitude +2; Agility -1; Guile -2; Knowledge +0; Reason +1
+
 **HP:** 34 · **Speed:** 4 · **Size:** 2 (2x2 squares) · **Armor DR:** 3
 
 **Evasion:** 1 Boon · **Threat:** 1 Bane · **Stability:** 2
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Gate bar | 8 + Push each 2 / 6 + Push each 1 / 4 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Gate bar | Agility | 8 + Push each 2 / 6 + Push each 1 / 4 |
 
 | Maneuvers | Effect |
 |---|---|
 | Lock the Feet | Gain Stability 3 while on solid ground until its next turn; highest source only. |
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -42,9 +44,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Heavy Frame — Passive:** Stability 2; an explicit creature trait, not a bonus from size.
 

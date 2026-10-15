@@ -2,6 +2,8 @@
 
 *A tall, narrow fire elemental with ember-bright joints and smoke trailing from its shoulders. Its long limbs and hot surface make close pursuit dangerous.*
 
+**Attributes:** Brawn +1; Fortitude +1; Agility +2; Guile +0; Knowledge +0; Reason +0
+
 **HP:** 18 · **Speed:** 7 · **Size:** 1 (medium) · **Armor DR:** 0\*
 
 **Evasion:** 1 Bane · **Threat:** 1 Bane · **Stability:** 0
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Cinder lash | 6 + Burning 2 / 4 + Burning 1 / 3 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Cinder lash | Agility | 6 + Burning 2 / 4 + Burning 1 / 3 |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
 | Heated Hide | After an adjacent non-free attack deals HP damage: attacker gains Burning 1. See details. |
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -46,9 +48,9 @@ After an adjacent attacker deals HP damage with a non-free attack, apply Burning
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Healing:** Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.
 

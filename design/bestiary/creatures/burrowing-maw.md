@@ -2,6 +2,8 @@
 
 *A plated burrowing predator with powerful digging limbs and broad crushing mandibles. Its segmented body is adapted to soft earth, not to tunneling through solid rock.*
 
+**Attributes:** Brawn +2; Fortitude +2; Agility +0; Guile -2; Knowledge -2; Reason +0
+
 **HP:** 25 · **Speed:** 5; burrow 4 · **Size:** 2 (2x2 squares) · **Armor DR:** 2
 
 **Evasion:** None · **Threat:** 1 Bane · **Stability:** 1
@@ -14,19 +16,19 @@
 
 Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
-| Main Actions | Damage |
-|---|---|
-| Basic Melee | 5/3/2 |
-| Plated jaws | 7 + Grappled 2 / 5 + Grappled 1 / 3 |
-| Closing jaws | 7 + Blinded 1 / 5 / 3 |
+| Main Actions | Defense | Damage |
+|---|---|---|
+| Basic Melee | Agility | 5/3/2 |
+| Plated jaws | Agility | 7 + Grappled 2 / 5 + Grappled 1 / 3 |
+| Closing jaws | Fortitude | 7 + Blinded 1 / 5 / 3 |
 
 | Maneuvers | Effect |
 |---|---|
-| Defend | Player attacks suffer 1 additional Bane until the start of its next turn. |
+| Defend | +1 Bane |
 
 | Reactions | Effect |
 |---|---|
-| Opportunity Attack | Basic Melee against the provoking creature. |
+| Opportunity Attack | Basic Melee |
 
 ## Details
 
@@ -54,9 +56,9 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 
 **Basic Melee:** One adjacent creature; physical damage; Agility defense. Uses the printed Threat. No specialty riders.
 
-**Defend:** Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
+**Defend:** Player attacks suffer 1 additional Bane until the start of its next turn. Combines with Evasion through normal Boon/Bane rules. Repeated Defend does not stack.
 
-**Opportunity Attack:** Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
+**Opportunity Attack:** Basic Melee against the provoking creature. Spends its Reaction before the provoking action resolves. That action continues if the creature remains capable.
 
 **Heavy Frame — Passive:** Stability 1; an explicit creature trait, not a bonus from size.
 
@@ -87,8 +89,6 @@ Damage and effects are **Weak / Standard / Strong player defense**. Each slash s
 **Category:** Beast · **Role:** Ambush burrower · **CV:** 26
 
 ### Creature-roll reference
-
-**Attributes:** Brawn +2; Fortitude +2; Agility +0; Guile -2; Knowledge -2; Reason +0
 
 | Attack | Attribute | Attack modifier | Weak attack | Standard attack | Strong attack |
 |---|---|---|---|---|---|
