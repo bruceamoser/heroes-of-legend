@@ -12,13 +12,13 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Forepaw slam | 7/5/3 |
-| Crushing bite | 8/5/3 |
+| Forepaw slam | 7 + After an approach of 2 squares, target is Prone / 5 + After an approach of 2 squares, target is Prone / 3 |
+| Crushing bite | 8 + Bleeding 1 / 5 / 3 |
 
 | Maneuvers | Effect |
 |---|---|

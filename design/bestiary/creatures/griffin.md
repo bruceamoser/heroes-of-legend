@@ -12,13 +12,13 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Diving talons | 8/6/4 |
-| Hooked beak | 8/6/4 |
+| Diving talons | 8 + After moving 2 toward target, Prone / 6 + After moving 2 toward target, Prone / 4 |
+| Hooked beak | 8 + Bleeding 2 / 6 + Bleeding 1 / 4 |
 
 | Maneuvers | Effect |
 |---|---|

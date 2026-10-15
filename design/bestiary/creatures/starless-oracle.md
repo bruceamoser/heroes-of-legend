@@ -12,12 +12,12 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Future shock | 8/5/4 |
+| Future shock | 8 + Dazed 2 / 5 + Dazed 1 / 4 |
 
 | Maneuvers | Effect |
 |---|---|

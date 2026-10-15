@@ -12,13 +12,13 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Raking claws | 6/4/3 |
-| Grave touch | 4/3/2 |
+| Raking claws | 6 + Bleeding 2 / 4 + Bleeding 1 / 3 |
+| Grave touch | 4 + Paralyzed 1; cannot use this attack next turn / 3 / 2 |
 
 | Maneuvers | Effect |
 |---|---|

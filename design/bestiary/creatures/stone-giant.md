@@ -12,14 +12,14 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Thrown boulder | 10/7/5 |
+| Thrown boulder | 10 + Push 2 / 7 + Push 1 / 5 |
 | Stone staff | 8/6/4 |
-| Clearing shove | 6/4/2 |
+| Clearing shove | 6 + push 5 / 4 + push 4 / 2 + push 2 |
 
 | Maneuvers | Effect |
 |---|---|

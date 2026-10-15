@@ -12,12 +12,12 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Spore cloud | 3/2/1 |
+| Spore cloud | 3 + Poisoned 2 / 2 + Poisoned 1 / 1 |
 
 | Maneuvers | Effect |
 |---|---|

@@ -13,7 +13,7 @@ Weaknesses | Resistances | Immunities
 
 ACTIONS
 Damage legend: Weak / Standard / Strong player defense
-Main Actions table: name | damage profile
+Main Actions table: name | damage and effects for each outcome
 Maneuvers table: name | effect
 Reactions table: name | effect
 
@@ -45,8 +45,10 @@ CV worksheet, rationale and ability-source links
   Details. Highest source, maximum 3; apply the approved chain rules.
 - **Weaknesses** lists existing vulnerabilities. A situational weakness points to
   its explanation below. This layout does not invent a numerical weakness rule.
-- **Damage** is always Weak / Standard / Strong **player defense**. A 0/0/0
-  profile causes no damage; read its conditions in Details. A healing or other
+- **Damage** includes effects for each Weak / Standard / Strong **player defense**
+  outcome. Each slash separates a complete result: `6 + Bleeding 2 / 4 + Bleeding 1 / 3`.
+  A zero-damage result still lists its conditions, such as `0 + Slowed 3`.
+  Named Details repeat the effects alongside targeting and limits for adjudication. A healing or other
   nonattack action says “See details” rather than mixing healing outcomes into
   the defense-damage legend.
 - Multiple Main Actions are choices within the normal action budget. Basic Melee

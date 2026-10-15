@@ -12,12 +12,12 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 4/2/1 |
-| Coal touch | 3/2/1 |
+| Coal touch | 3 + Burning 2 / 2 + Burning 1 / 1 |
 
 | Maneuvers | Effect |
 |---|---|

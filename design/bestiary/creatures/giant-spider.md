@@ -12,13 +12,13 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Venomous fangs | 6/4/2 |
-| Web cast | 0/0/0 |
+| Venomous fangs | 6 + Poisoned 2 / 4 + Poisoned 1 / 2 |
+| Web cast | 0 + Slowed 3 / 0 + Slowed 2 / 0 + Slowed 1 |
 
 | Maneuvers | Effect |
 |---|---|

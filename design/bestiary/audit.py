@@ -61,12 +61,16 @@ for p in sorted((R/'creatures').glob('*.md')):
    need(name in rows,pre+'attack missing from table '+name)
    defense=field(b,'Player defense').split('.')[0]
    need(defense in {'Brawn','Fortitude','Agility','Guile','Knowledge','Reason'},pre+'invalid defense attribute')
-   damage=rows.get(name,'').split('/')
+   outcome_cells=[v.strip() for v in rows.get(name,'').split('/')]
+   damage=[v.split(' + ',1)[0] for v in outcome_cells]
    need(len(damage)==3 and all(v.isdigit() for v in damage),pre+'invalid damage row '+name)
    damage_type=field(b,'Damage type').rstrip('.')
    vals=[]
-   for t,d in zip(('Weak','Standard','Strong'),damage):
+   for t,d,cell in zip(('Weak','Standard','Strong'),damage,outcome_cells):
     m=re.search(r'\*\*'+t+r' defense:\*\* ([^\n]*?)(?= \*\*|\n|$)',b)
+    expected_effect=m[1].rstrip('.') if m else ''
+    printed_effect=cell.split(' + ',1)[1] if ' + ' in cell else ''
+    need(printed_effect==expected_effect,pre+'table effect mismatch '+name+' '+t)
     base='No damage.' if damage_type=='None' else d+' '+damage_type+' damage.'
     vals.append(base+(' '+m[1] if m else ''))
    blocks.append((name,b,vals))

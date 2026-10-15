@@ -12,13 +12,13 @@
 
 ## Actions
 
-Damage is **Weak / Standard / Strong player defense**. All attacks use the printed Threat unless stated otherwise.
+Damage and effects are **Weak / Standard / Strong player defense**. Each slash separates one complete outcome. All attacks use the printed Threat unless stated otherwise.
 
 | Main Actions | Damage |
 |---|---|
 | Basic Melee | 5/3/2 |
-| Plated jaws | 7/5/3 |
-| Closing jaws | 7/5/3 |
+| Plated jaws | 7 + Grappled 2 / 5 + Grappled 1 / 3 |
+| Closing jaws | 7 + Blinded 1 / 5 / 3 |
 
 | Maneuvers | Effect |
 |---|---|
