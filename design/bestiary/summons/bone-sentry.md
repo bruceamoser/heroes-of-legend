@@ -1,4 +1,4 @@
-# Bone Sentry (CV 7)
+# Skeleton Sentry (CV 7)
 
 *An articulated skeleton armed with a rusted sword and remnants of an old uniform. No appetite or fatigue distracts it from the narrow command that holds its bones together.*
 

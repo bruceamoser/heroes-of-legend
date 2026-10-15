@@ -38,3 +38,13 @@ The roster covers familiar fantasy functions: hungry animals, disciplined troops
 ambush predators, restless dead, bargains with fey, elemental hazards, made guardians,
 ruin dwellers, huge brutes and exceptional villains. Traditional names are used
 where useful; setting-specific proprietary creatures are not transplanted.
+
+## Pathfinder Second Edition family expansion — October 15, 2026
+
+The supplied PZO2102E.pdf (Bestiary 1, 2019) was used for its type and level indexes
+(printed pp. 348–357), plus Ghost (166–167), Ghoul/Ghast (168–169), the opening
+Giant entry (170), Goblin (180–181), Ogre (252–253) and Skeleton (298–299).
+The [family survey](family-survey.md) records counts, category mapping, limitations
+and the exact local path. This is coverage research and original HOL design, not
+a Pathfinder stat-block conversion. Bestiary 2 and 3 were supplied but not used
+for this pass.

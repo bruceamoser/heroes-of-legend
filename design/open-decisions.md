@@ -20,7 +20,7 @@ records and should not reopen decisions automatically.
   and sale/trade rule, with explicit proposed prices/contributions.
 - [Summoning](rules/summoning.md): categories, command-only activity and eligibility
   contract for the bestiary. The [new selection](bestiary/summon-choices.md) supplies
-  43 proposed eligible creatures; permissions await review.
+  73 proposed eligible creatures; permissions await review.
 
 ## Remaining interpretation proposals
 
@@ -43,7 +43,7 @@ They remain review decisions before claiming full closure or broad test validity
 
 ## Ready for catalog review
 
-The [bestiary](bestiary/README.md) now contains 84 creatures, 50 separate monster
+The [bestiary](bestiary/README.md) now contains 192 creatures, 93 separate monster
 abilities and explicit summon profiles. Its [review notes](bestiary/review.md)
 identify new decisions and the next test sequence. Structural checks pass; creature
 balance, healer CV, disabling combinations and solo action economy are not certified.

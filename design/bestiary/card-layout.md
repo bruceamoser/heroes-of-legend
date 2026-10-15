@@ -1,6 +1,6 @@
 # Creature card: approved compact layout
 
-Bruce approved the Goblin Scrapper sample on October 15, 2026. All 84 DA creature
+Bruce approved the Goblin Scrapper sample on October 15, 2026. All 192 DA creature
 cards use this arrangement. The top is a combat reference; the details below
 supply targeting, conditions and exceptions. Design bookkeeping comes last.
 

@@ -53,7 +53,7 @@ from Rules; this is an authoring revision, not a finished-layout pass.
 
 ## Creature coverage
 
-The first core bestiary has 84 entries in 15 categories, with 50 monster-only
-abilities and 43 explicit summon choices. These do not inflate the player ability
+The first core bestiary has 192 entries in 15 categories, with 93 monster-only
+abilities and 73 explicit summon choices. These do not inflate the player ability
 count. Numbers and new bestiary procedures remain proposals; no new combat
 simulation was run during this authoring pass.

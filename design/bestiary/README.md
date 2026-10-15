@@ -6,7 +6,10 @@ are provisional. The established player-roll and action rules remain intact.
 
 Read the [approved compact-layout migration](compact-layout-review.md),
 the [full revision review](review.md) and [per-creature ledger](creature-review.md).
-The first pass has been revised for DA use; it is not a final balance certification.
+The roster now has 192 creatures, 93 monster abilities and 73 explicit summon
+choices. Read the [Bestiary 1 coverage survey](family-survey.md), use the
+[classic family finder](families.md), and review the [108 additions](expansion-review.md).
+This remains an authoring catalog, not a balance certification.
 
 Start with [using creature cards](procedure.md), then the [roster](roster.md).
 [Monster abilities](../monster-abilities/README.md) are a separate catalog: they

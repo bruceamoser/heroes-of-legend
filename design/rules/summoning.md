@@ -70,7 +70,7 @@ without an explicit summon-profile procedure consistent with command-only activi
 
 ## Bestiary draft now available
 
-The [summon selection](../bestiary/summon-choices.md) provides 43 proposed entries,
+The [summon selection](../bestiary/summon-choices.md) provides 73 proposed entries,
 covering all six categories at tiers 1, 3 and 7. Each prints HP, all six attributes,
 attack and target-defense attributes, movement, footprint, senses, resistance,
 healing compatibility, command options and restrictions. These permissions await

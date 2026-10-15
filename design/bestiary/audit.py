@@ -113,6 +113,18 @@ for p in sorted((R/'creatures').glob('*.md')):
     need(mod(cells[2])==-th,pre+'attack modifier mismatch '+name)
  except (ValueError,IndexError,TypeError,AttributeError) as ex:errors.append(pre+'unparseable data '+str(ex))
  used.update(re.findall(r'\.\./\.\./monster-abilities/([a-z-]+)\.md',s))
+# Every authored creature must be discoverable, with matching roster numbers.
+roster_text=(R/'roster.md').read_text()
+family_text=(R/'families.md').read_text()
+for slug,cv in cs.items():
+ rows=[l for l in roster_text.splitlines() if ']('+'creatures/'+slug+'.md)' in l]
+ need(len(rows)==1,slug+': missing or duplicate roster row')
+ if rows:need(rows[0].split('|')[4].strip()==str(cv),slug+': roster CV differs')
+ need('](creatures/'+slug+'.md)' in family_text,slug+': absent from family finder')
+for p in (R/'creatures').glob('*.md'):
+ s=p.read_text();speed=field(s,'Speed')
+ if '| Wing Step |' in s:need('fly ' in speed,p.name+': Wing Step needs fly speed')
+ if '| Ride the Current |' in s:need('swim ' in speed,p.name+': Ride the Current needs swim speed')
 for cat in ['Animal','Fey','Spirit','Elemental','Undead','Construct']:
  for tier in (1,3,7):need(bool(elig.get((cat,tier))),f'no {cat} {tier} selection')
 abilities=list((R.parent/'monster-abilities').glob('*.md'))
@@ -121,6 +133,7 @@ for p in abilities:
  s=p.read_text();ident=field(s,'ID');need(ident not in ids,p.name+': duplicate ID');ids.add(ident)
  need('## Rules' in s and field(s,'Action'),p.name+': incomplete ability')
  need(p.stem in used,p.name+': unused ability')
+ need(']('+p.name+')' in (R.parent/'monster-abilities'/'README.md').read_text(),p.name+': missing from ability index')
 for p in list(R.rglob('*.md'))+abilities:
  for link in re.findall(r'\]\(([^)]+)\)',p.read_text()):
   if '://' not in link and not link.startswith('#'):need((p.parent/link.split('#')[0]).resolve().exists(),str(p)+': broken '+link)
