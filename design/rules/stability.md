@@ -29,5 +29,14 @@ create damage. **Collision timing — approved October 16, 2026:** resolve conta
 collision damage using the movement remaining on arrival, then deduct the new member’s Stability
 before further travel. This preserves an impact even when the new member stops
 the chain. Stability resists displacement; applicable resistance reduces damage.
-No occupied squares may overlap when the group stops; crowded-group placement
-remains a separate decision.
+
+## Crowded moving groups — approved October 16, 2026
+
+Move the creatures together along the forced-movement path. They must finish in
+separate legal spaces. If the group cannot fit, stop at the last position where
+everyone can fit. The DA determines the exact arrangement.
+
+Placement cannot send a creature through a wall or grant extra forward movement.
+The original mover’s one-square backward bounce still applies where possible.
+Use the existing collision damage and Stability rules; placement does not erase
+an impact. No separate formation or packing procedure is required.

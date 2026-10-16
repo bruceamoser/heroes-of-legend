@@ -62,8 +62,13 @@ Forced collisions gather movable occupants into one moving group. All take the
 collision damage using movement remaining at contact, before deducting the newly
 struck creature’s Stability. If movement remains, the group continues together.
 A hard obstruction stops the group and adds 1 to remaining-budget collision damage. The original
-mover bounces one square opposite afterward if possible. Detailed group footprint
-and congested geometry remain open; no new card resolves them by fiat.
+mover bounces one square opposite afterward if possible.
+
+**Group placement — approved October 16, 2026:** move the group along the forced
+movement path and finish in separate legal spaces. If everyone cannot fit, stop
+at the last position where they can. The DA determines the exact arrangement;
+placement cannot pass through walls or grant extra forward movement. The original
+mover’s backward bounce still applies where possible.
 
 All actors have [Stability](stability.md): default 0, explicit grants only, maximum
 3, highest source. It consumes forced movement once per newly struck creature,

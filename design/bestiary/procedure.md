@@ -39,6 +39,11 @@ Resolve contact collision damage before deducting the newly struck creature’s
 Stability; apply applicable resistance to damage. See [Stability](../rules/stability.md)
 for the approved order and worked example. Terrain consumes movement as already established.
 
+Moving groups must finish in separate legal spaces. If everyone cannot fit, stop
+at the last position where they can; the DA determines the exact arrangement.
+Placement cannot pass through walls or grant extra forward movement. The original
+mover’s one-square backward bounce still applies where possible.
+
 ## Player-controlled creatures
 
 A separate player reference prints attacker outcomes, attributes and command limits.

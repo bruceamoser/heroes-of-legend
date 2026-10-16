@@ -10,9 +10,13 @@ proposal wording. These are visible provisional table rulings only where needed.
    entry; offensive spell healing remains intact. No new potion attack is granted.
 2. If minimum damage causes a wound after all damage components were resisted,
    choose among the attack's original types (player chooses). Marked playtest ruling.
-3. Complex moving-group geometry: stop before illegal overlap and let the DA place
-   the group in the nearest legal squares along its path. Marked playtest ruling;
-   no new squeeze-through or teleport permission.
+3. **Resolved October 16, 2026:** moving groups finish in separate legal spaces.
+   If everyone cannot fit, stop at the last position where they can; the DA decides
+   the exact arrangement. Placement cannot pass through walls or grant extra forward
+   movement. The original mover’s backward bounce still applies where possible.
+   See [Stability](../rules/stability.md).
+   Replace the provisional paragraph in the next player-book revision; the published
+   v16.0.0 PDF is unchanged.
 4. **Resolved October 16, 2026:** numerical weakness adds its value to the matching
    damage component before resistance, once per damaging event. Use the highest
    applicable value of each type, normal cap 3. Special vulnerabilities retain
