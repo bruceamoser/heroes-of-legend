@@ -37,6 +37,19 @@ cap 3; do not sum matching armor. Minimum 1 damage applies to the whole damaging
 event, not each component. Physical is one type. Different resistances coexist.
 Conditions and displacement may matter more than a larger damage number.
 
+**Numerical weakness — approved October 16, 2026:** Weakness X increases the
+matching damage component by X before resistance. Apply each weakness once per
+damaging event. Use the highest applicable weakness of each type, not the sum of
+multiple sources, with a normal cap of 3. A damaging effect must include that
+type; weakness does not add an absent damage type.
+
+**Example:** Fire Weakness 2 changes 3 fire damage to 5 before resistance.
+An event dealing 4 physical and 1 fire instead becomes 4 physical and 3 fire;
+an event dealing only 4 physical is unchanged. Apply matching resistances next.
+
+Special vulnerabilities, such as fire stopping regeneration, use their printed
+procedure. They do not imply numerical weakness or extra damage unless stated.
+
 ## Movement
 
 Normal squares cost 1, difficult 2. Diagonal movement costs 1. Standing costs 2

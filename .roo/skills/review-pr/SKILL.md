@@ -22,6 +22,7 @@ description: Review a pull request for the Heroes of Legend rulebook. Use when r
 - [ ] Use the current approved design references and latest user decisions. The fresh system rolls 3d6 + one attribute; there is no numerical skill bonus.
 - [ ] Success tiers used correctly: Weak ≤8, Standard 9–14, Strong ≥15. Weak means progress, not automatic success; retained 111 adds a complication and retained 666 adds a benefit.
 - [ ] Damage values within established ranges for the content type.
+- [ ] Numerical weakness adds its value to an included matching damage component before resistance, once per event; highest same-type value only, normal cap 3. Do not infer extra damage from a narrative vulnerability.
 - [ ] Ability tier/minimum levels 1/3/7 and DP costs 2/4/8 are correct. Discipline ranks use the current class-affinity schedule and are bought sequentially; no retired card chains.
 - [ ] Discipline prerequisites valid and consistent.
 - [ ] No mechanics contradict current `design/rules/`, `design/development.md`, card conventions, or later explicit decisions. Historical documents are not newer authority.

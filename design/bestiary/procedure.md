@@ -11,6 +11,12 @@ They use normal cancellation and the three-net-dice limit; they are not new nume
 modifiers. Attacks still hit. Physical **DR** and other resistance apply after the
 outcome, using the highest matching value, cap 3, with minimum 1 damage per event.
 
+**Weakness X** adds X to the matching damage component before resistance, once
+per damaging event. Use the highest applicable weakness of each type, normal
+cap 3. The event must include that damage type. Special vulnerabilities use their
+printed procedure and grant no extra damage by implication. See the approved
+[damage foundations](../rules/foundations.md#turns-and-attacks) for examples.
+
 Each creature has the established turn budget: one Main Action, one Maneuver,
 one Reaction and movement. Several printed attacks are choices, not extra actions.
 Main converts to Maneuver, Maneuver to movement. The Reaction for an opportunity
@@ -52,8 +58,9 @@ inferred from category or CV.
 ## What is not settled by a creature card
 
 Cards define their own exceptional capabilities and area dimensions; they do not
-establish new general hiding outcomes, construct repair, falling rounding, numerical
-weakness arithmetic or universal flight incapacitation rules. The prior global
+establish new general hiding outcomes, construct repair, falling rounding or
+universal flight incapacitation rules. Numerical weakness now follows the approved
+October 16 rule above. The other prior global
 proposals are withdrawn from this play reference. Existing core rules and DA rulings
 apply until Bruce settles those boundaries.
 

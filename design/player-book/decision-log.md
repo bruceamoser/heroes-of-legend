@@ -13,9 +13,12 @@ proposal wording. These are visible provisional table rulings only where needed.
 3. Complex moving-group geometry: stop before illegal overlap and let the DA place
    the group in the nearest legal squares along its path. Marked playtest ruling;
    no new squeeze-through or teleport permission.
-4. Numerical creature weakness is not defined by the approved general references.
-   Apply a printed explicit procedure; otherwise agree with the DA before use.
-   Do not silently equate it to resistance with its sign reversed.
+4. **Resolved October 16, 2026:** numerical weakness adds its value to the matching
+   damage component before resistance, once per damaging event. Use the highest
+   applicable value of each type, normal cap 3. Special vulnerabilities retain
+   their explicit procedures. See [foundations](../rules/foundations.md#turns-and-attacks).
+   The published v16.0.0 PDF predates this decision; synchronize its teaching text
+   in the next book revision.
 5. Grit has no routine recharge in the approved sources. The book grants only its
    starting value and explicit advancement/card increases; rest does not restore it.
 6. Withdrawn global bestiary proposals (including a summoned-healer controller tax)
