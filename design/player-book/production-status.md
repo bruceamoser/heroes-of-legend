@@ -28,7 +28,10 @@ The approved Great Library palette and approved cover are used throughout.
 - [x] Full catalog and reference coverage
 - [x] Reproducible Typst build and PDF
 - [x] Page/coverage/link audits and visual review
-- [ ] Reviewable PR and delivery report
+- [x] Reviewable PR and delivery report
 
 Human review is required before merging. This proof is not a print release.
-Hourly continuation automation: complete-hol-player-book. Pause on delivery.
+Review PR: https://github.com/bruceamoser/heroes-of-legend/pull/1211
+
+Hourly continuation automation: complete-hol-player-book. Production complete;
+pause the heartbeat on delivery. Further work follows review feedback.
