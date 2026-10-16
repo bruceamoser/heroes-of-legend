@@ -103,6 +103,10 @@ to resemble and act like their creatures, not actual physical creatures brought
 into the scene. They cannot be healed and disappear at 0 HP, leaving no body.
 Ordinary unsummoned creatures retain their own healing rules.
 
+Summoned forms remain tangible: they occupy squares, block movement, take damage
+and can be pushed or grappled normally unless their card says otherwise. Their
+energy composition grants no automatic incorporeality or damage/control immunity.
+
 Summons require commands; see the [summoning reference](summoning.md). Without a
 command they do nothing, including following, lookout and alerts. Old orders grant
 no continued activity; existing conditions and durations still resolve. No free independent

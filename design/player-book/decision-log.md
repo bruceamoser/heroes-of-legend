@@ -43,5 +43,6 @@ proposal wording. These are visible provisional table rulings only where needed.
    permissions are superseded by this rule; ordinary creatures are unchanged.
    Printed harmful Life effects remain damage rather than healing. The next book
    revision must synchronize the explanation and profiles; v16.0.0 is unchanged.
-   Physical interaction with these energy forms is the next clarification to settle;
-   do not infer new intangibility or immunity rules from their nature alone.
+   **Tangibility also approved October 16:** the forms occupy squares, block movement,
+   take damage and can be pushed or grappled normally unless their card says otherwise.
+   Their nature grants no automatic incorporeality or damage/control immunity.

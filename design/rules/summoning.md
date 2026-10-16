@@ -21,6 +21,11 @@ Its HP tracks how much damage the form can sustain. At 0 HP it disappears rather
 than leaving a body. The existing duration, tether and controller-disappearance
 rules still apply.
 
+**Tangibility — approved October 16, 2026:** summoned forms occupy squares and
+block movement normally. They can take damage and be pushed or grappled normally
+unless their card explicitly says otherwise. Being made from energy does not
+automatically make a summon incorporeal or grant damage or control immunities.
+
 This restriction concerns receiving healing. A summon with a printed healing
 ability can still heal an eligible other creature, with its controller paying the
 printed cost as described below. Ordinary unsummoned creatures keep their own
