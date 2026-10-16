@@ -1,9 +1,9 @@
 {
-  "pages": 231,
-  "links": 1538,
-  "invalid_link_pages": [],
-  "bookmarks": 944,
   "text_identical_to_raw": true,
-  "bytes": 92112165,
-  "sha256": "6717c5f920b0b71738e7841e4b86ba09b745cef4a3113b1f793ad103e54568fc"
+  "bytes": 93766175,
+  "sha256": "78d0ca019da8d1952b17b30a4f2f5c8eee8e9c0d46246ee4f44ecbe6cec86f7a",
+  "pages": 234,
+  "links": 1996,
+  "invalid_link_pages": [],
+  "bookmarks": 954
 }

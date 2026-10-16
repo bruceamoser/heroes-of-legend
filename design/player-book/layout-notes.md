@@ -21,7 +21,7 @@ are reproduced. HOL uses its own system and the approved Great Library visual id
   roll immediately beneath. Narrative first; precise rule and full outcomes follow.
 - Wide tables use the full page width; table headers repeat across pages.
 - Page references and PDF links for named choices, a compact contents page and
-  alphabetical ability index. Printable sheets have white backgrounds.
+  tiered alphabetical ability indexes. Printable sheets have white backgrounds.
 - Generated interior illustrations use the approved forest, gold and ivory palette.
   All prompts are saved; original PNGs remain untouched by PDF optimization.
 - Ability, equipment, recipe and companion entries have forest headers, gold borders
@@ -62,3 +62,20 @@ numeral overlaps the lower edge of the symbol, preserving its main outline.
 Illustrations have additional lower spacing; ancestry panels have an explicit
 gap before trait cards. See `art-direction.md` for the Pathfinder reference pages
 and `art/revision-prompts.json` for the new image prompts.
+
+
+## October 16: reader-facing references and flow
+
+Class panels show all eighteen disciplines with actual DP costs for ranks 1/2/3.
+The full class-by-discipline matrix follows the discipline introduction. Affinity
+labels remain authoring data only. HP and coins are adjacent creation pages.
+
+Shared rules belong in catalog introductions; individual exceptions remain on cards.
+Four browsing tables use authored, concise effect summaries, while complete cards
+retain adjudication text. Four alphabetical end indexes show requirements and pages.
+Recipes separate grants, compatible abilities, preparation, materials and completion.
+
+The measured reading-columns compositor preserves ordered paragraph/card blocks and
+balances the final page. Short tables stay intact; long tables repeat headers. Its
+US Letter geometry matches this template and must be rechecked if page size changes.
+See https://typst.app/docs/reference/layout/columns/ for native column behavior.

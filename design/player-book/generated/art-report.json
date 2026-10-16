@@ -203,11 +203,25 @@
     "sha256": "b383631775200b932e7232d3f7493dae0a55189354e710fdbbb8e0b59bcd4c8c"
   },
   {
+    "key": "class-arcanist-cutout",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "d8874b32681ffbb943c3d242122e6720984451537f0e3ae5abe25e815b718136"
+  },
+  {
     "key": "class-arcanist",
     "width": 887,
     "height": 1774,
     "mode": "RGB",
     "sha256": "08f9bb893d059584bd4bb6c51251bfd4d076ea3b87f474513293f62f76268506"
+  },
+  {
+    "key": "class-blade-cutout",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGBA",
+    "sha256": "733efb142248b3ea09d11a17fa42116d27615ebb55cb3c4a1357b0458413f884"
   },
   {
     "key": "class-blade",
@@ -217,11 +231,25 @@
     "sha256": "ae6705b6304450d1a439a0dedfc4cca4f76764c442a0f2fb129e571870c8e668"
   },
   {
+    "key": "class-intellect-cutout",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGBA",
+    "sha256": "2c62efb7b85b32a1c4d42ca923aab3264230cb5805851123c79688a324dc0f0b"
+  },
+  {
     "key": "class-intellect",
     "width": 887,
     "height": 1774,
     "mode": "RGB",
     "sha256": "fac131462f5b02774c273f40defab051285201eb28e98738c7057e41c77f4f24"
+  },
+  {
+    "key": "class-leader-cutout",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGBA",
+    "sha256": "4b040e3e7d8251d76ee687b2c78d1327c1c9f37983ccdd609ab916e416875658"
   },
   {
     "key": "class-leader",
@@ -231,11 +259,25 @@
     "sha256": "5467f7d4e64989d5418c617777079cacaa354654a6c0a5505b804acce99bb28a"
   },
   {
+    "key": "class-odd-cutout",
+    "width": 884,
+    "height": 1780,
+    "mode": "RGBA",
+    "sha256": "53d960641f04793246d6470f12e4b86318f9f086b3c090f2f57d0bb2991ee688"
+  },
+  {
     "key": "class-odd",
     "width": 883,
     "height": 1780,
     "mode": "RGB",
     "sha256": "4065f7a46459275b5c1cef79cb2d95c98768766b5586a694c25be702193b070d"
+  },
+  {
+    "key": "class-protector-cutout",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "2083369baa2ff910e7a3f1dbc86bfcbd42486108f5886d5bd7fcd1c423be1f61"
   },
   {
     "key": "class-protector",
@@ -245,11 +287,25 @@
     "sha256": "74277a16a31c85dc35f708ef381bc9d3927fab763c92f33e90b3a34b9a746ca0"
   },
   {
+    "key": "class-shadow-cutout",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "09a8df640826fb42db763582835ac0a54db11e3b06d46bc82e698c97011fe552"
+  },
+  {
     "key": "class-shadow",
     "width": 887,
     "height": 1774,
     "mode": "RGB",
     "sha256": "0630c212dbe9cbbadc75cb2407369c8b7e79ad00bda19939f0ea73f42c65e3e9"
+  },
+  {
+    "key": "class-shepherd-cutout",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "993314eb9b9026f349af8f1d9c926952ecb67fc3baaf416f9f5a39a15e22120f"
   },
   {
     "key": "class-shepherd",
@@ -259,11 +315,25 @@
     "sha256": "4f03e173de578035a8af67ab79540cc8071f90c59c0a721d389f503c95cd5633"
   },
   {
+    "key": "class-unbalanced-cutout",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "aee969aa926b5c0c409d9ab984982bdfca4e9b87cea2c024905739509691f901"
+  },
+  {
     "key": "class-unbalanced",
     "width": 887,
     "height": 1774,
     "mode": "RGB",
     "sha256": "1fd396900e43cbb7f31763c088eae009727a457d8deca2531fa2ab47cbb2b44a"
+  },
+  {
+    "key": "class-warden-cutout",
+    "width": 885,
+    "height": 1777,
+    "mode": "RGBA",
+    "sha256": "56c3c3571431788a91c6ee9767891550604993873716c577a01e26140aed58e2"
   },
   {
     "key": "class-warden",
@@ -306,6 +376,13 @@
     "height": 887,
     "mode": "RGB",
     "sha256": "ec9413addf9433f9ebdbb99aaaf21bb7805ce9c30563ad28817b348305fb65c2"
+  },
+  {
+    "key": "discipline-instruments",
+    "width": 2172,
+    "height": 724,
+    "mode": "RGB",
+    "sha256": "35a5c4493f9825752a8de4c249ab3e470f614dd5abe7fef96076d83c11546c22"
   },
   {
     "key": "disciplines",
@@ -383,6 +460,13 @@
     "height": 1241,
     "mode": "RGBA",
     "sha256": "072a58c9a6ae56aea30ded52c2f2cb9d01442f718a25b2329c503a2231963be2"
+  },
+  {
+    "key": "hp-vitality",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "b2a1e0ebb30793abfad5292d66f840e78c1a81b7585c3e564ff00c5b86920d7f"
   },
   {
     "key": "intellect-lens",

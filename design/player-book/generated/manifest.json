@@ -10,7 +10,13 @@
       "path": "design/player-book/manuscript/02-creation.md",
       "kind": "chapter",
       "key": "s-3a383eccab13",
-      "sha256": "8c2478b7c63316cc6a6b5e5032dec4d087aafdcc4c0a7de8f66a1ddb3a5d4a38"
+      "sha256": "1e48bf960c91fbde616645fd5ad47197347be0ae3547c1b2e5e7f39564d8afb2"
+    },
+    {
+      "path": "design/starting-coins.md",
+      "kind": "market-reference",
+      "key": "s-1e0480a6a244",
+      "sha256": "a36b0c78b6acd60fd5271c16473aaeb63b6dbe39d52c7f4124eb1040cf68db4f"
     },
     {
       "path": "design/ancestries/human.md",
@@ -160,7 +166,7 @@
       "path": "design/player-book/manuscript/intro-culture.md",
       "kind": "section",
       "key": "s-c0960d42ee3d",
-      "sha256": "2cec951050341d869458e5d32f48045c601260c903e6c5ca08d15a45cab5179e"
+      "sha256": "225a54ff2513fdaeb526221f880a436f4c6917f546640def3a4f2633fc777239"
     },
     {
       "path": "design/origins/culture-border-marches.md",
@@ -274,7 +280,7 @@
       "path": "design/player-book/manuscript/intro-background.md",
       "kind": "section",
       "key": "s-a61a7dfba49e",
-      "sha256": "cd51958529fea1cd9e2f115228b8a978810cf998377270a26a7e12908d989aa4"
+      "sha256": "a24f44dd16d4a67e91cdf5736e93088ce8579506d233eb3010b5da7fdf6512f4"
     },
     {
       "path": "design/origins/background-apothecary-s-helper.md",
@@ -1072,7 +1078,7 @@
       "path": "design/player-book/manuscript/05-disciplines.md",
       "kind": "chapter",
       "key": "s-6289e7cc8d28",
-      "sha256": "fa1cc12fa60d7314d699da3b34790f3aed1566e29f86b34846eb4f9235896c6f"
+      "sha256": "90676c23390e51a885652324bfd7e9570c37a13ad69e129a10c0f46a50642854"
     },
     {
       "path": "design/disciplines/armor.md",
@@ -1234,7 +1240,7 @@
       "path": "design/player-book/manuscript/09-abilities.md",
       "kind": "chapter",
       "key": "s-354331778375",
-      "sha256": "e384bea84cd24d324fce7b2f95a866ae00eeac515ee5d9c64b40eeff524bd898"
+      "sha256": "c9dedd620121367a069d98a216c96da061408ad9afcd8bbef8112d5c278dc9ff"
     },
     {
       "path": "design/cards/aid.md",
@@ -2803,12 +2809,6 @@
       "sha256": "02509bad245969b886b3d364475414bfc2fcb86c93fe2c352872a9525525bd70"
     },
     {
-      "path": "design/starting-coins.md",
-      "kind": "market-reference",
-      "key": "s-1e0480a6a244",
-      "sha256": "a36b0c78b6acd60fd5271c16473aaeb63b6dbe39d52c7f4124eb1040cf68db4f"
-    },
-    {
       "path": "design/market.md",
       "kind": "market-reference",
       "key": "s-f49abc5a892e",
@@ -2818,7 +2818,7 @@
       "path": "design/player-book/manuscript/intro-equipment.md",
       "kind": "section",
       "key": "s-979ba41082c2",
-      "sha256": "088307e33c8fc5049aa5009ae2c16ad99b0e8c7830e5b3cf32eaaafe3610cf1e"
+      "sha256": "25a205052292c89b4f24038fb37fcd99a8c24ee577e2f222d9d326e969153a9a"
     },
     {
       "path": "design/equipment/ammunition-bundle.md",
@@ -3082,7 +3082,7 @@
       "path": "design/player-book/manuscript/intro-recipes.md",
       "kind": "section",
       "key": "s-f59a208297e9",
-      "sha256": "9fa0031e321811a56df932f89a59e911bef339b1d109649933a2da5b4fe7ccb5"
+      "sha256": "32859a813a0d08f7cccd7d80183a87cd854a8c6a77afec3134249d83f5b866a0"
     },
     {
       "path": "design/recipes/bound-torches.md",
@@ -3640,7 +3640,7 @@
       "path": "design/player-book/manuscript/14-reference.md",
       "kind": "chapter",
       "key": "s-6ae4545578f9",
-      "sha256": "048433b321bc0b19da6c03686498c8d35c9f83c3d0efb38fb99f7dfc532e3b5e"
+      "sha256": "fa3a8fdf875cfb7b4159afeb98cbbffb90d4388ebf120559eb59fe6943c96428"
     }
   ],
   "cards": [
@@ -6451,6 +6451,270 @@
       "design/player-book/manuscript/05-disciplines.md"
     ],
     [
+      "design/player-book/manuscript/02-creation.md",
+      "design/player-book/manuscript/05-disciplines.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/ancestries/human.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/ancestries/elf.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/ancestries/dwarf.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/ancestries/halfling.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/protector.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/blade.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/arcanist.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/shepherd.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/intellect.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/leader.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/shadow.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/unbalanced.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/odd.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/classes/warden.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-border-marches.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-cairn-communities.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-cloister-valleys.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-deep-halls.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-ember-cities.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-forest-communities.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-free-harbors.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-gathered-peoples.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-grass-sea-clans.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-highland-holds.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-island-kinships.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-learning-houses.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-oasis-cities.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-reed-villages.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-river-settlements.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-terrace-towns.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-traveling-companies.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/culture-walled-communities.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-apothecary-s-helper.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-bargain-keeper.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-beast-reared.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-bone-tender.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-bridge-worker.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-burglar.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-confidence-artist.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-court-questioner.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-dragon-dreamer.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-duelist-s-second.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-grave-attendant.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-grove-tended.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-household-guard.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-itinerant-tinker.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-kennel-keeper.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-market-chemist.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-messenger.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-monastery-runaway.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-oath-witness.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-physician-s-student.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-pit-fighter.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-poacher.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-reluctant-knife.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-shore-gatherer.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-stage-assistant.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-star-touched.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-storm-survivor.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-temple-attendant.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-traveling-player.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-war-drummer.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-ward-scribe.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/origins/background-weather-apprentice.md"
+    ],
+    [
+      "design/starting-coins.md",
+      "design/market.md"
+    ],
+    [
       "design/ancestries/human.md",
       "design/ancestries/trait-human-weathered.md"
     ],
@@ -7232,7 +7496,75 @@
     ],
     [
       "design/classes/protector.md",
-      "design/starting-coins.md"
+      "design/disciplines/armor.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/arms.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/athletics.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/calling.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/craft.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/flame.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/frost.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/guard.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/influence.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/life.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/marksmanship.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/medicine.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/mind.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/radiance.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/scholarship.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/storm.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/subterfuge.md"
+    ],
+    [
+      "design/classes/protector.md",
+      "design/disciplines/wilderness.md"
     ],
     [
       "design/classes/blade.md",
@@ -7272,7 +7604,75 @@
     ],
     [
       "design/classes/blade.md",
-      "design/starting-coins.md"
+      "design/disciplines/armor.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/arms.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/athletics.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/calling.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/craft.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/flame.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/frost.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/guard.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/influence.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/life.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/marksmanship.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/medicine.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/mind.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/radiance.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/scholarship.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/storm.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/subterfuge.md"
+    ],
+    [
+      "design/classes/blade.md",
+      "design/disciplines/wilderness.md"
     ],
     [
       "design/classes/arcanist.md",
@@ -7312,7 +7712,75 @@
     ],
     [
       "design/classes/arcanist.md",
-      "design/starting-coins.md"
+      "design/disciplines/armor.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/arms.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/athletics.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/calling.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/craft.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/flame.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/frost.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/guard.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/influence.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/life.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/marksmanship.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/medicine.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/mind.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/radiance.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/scholarship.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/storm.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/subterfuge.md"
+    ],
+    [
+      "design/classes/arcanist.md",
+      "design/disciplines/wilderness.md"
     ],
     [
       "design/classes/shepherd.md",
@@ -7352,7 +7820,75 @@
     ],
     [
       "design/classes/shepherd.md",
-      "design/starting-coins.md"
+      "design/disciplines/armor.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/arms.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/athletics.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/calling.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/craft.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/flame.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/frost.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/guard.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/influence.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/life.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/marksmanship.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/medicine.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/mind.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/radiance.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/scholarship.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/storm.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/subterfuge.md"
+    ],
+    [
+      "design/classes/shepherd.md",
+      "design/disciplines/wilderness.md"
     ],
     [
       "design/classes/intellect.md",
@@ -7392,7 +7928,75 @@
     ],
     [
       "design/classes/intellect.md",
-      "design/starting-coins.md"
+      "design/disciplines/armor.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/arms.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/athletics.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/calling.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/craft.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/flame.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/frost.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/guard.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/influence.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/life.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/marksmanship.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/medicine.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/mind.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/radiance.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/scholarship.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/storm.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/subterfuge.md"
+    ],
+    [
+      "design/classes/intellect.md",
+      "design/disciplines/wilderness.md"
     ],
     [
       "design/classes/leader.md",
@@ -7432,7 +8036,75 @@
     ],
     [
       "design/classes/leader.md",
-      "design/starting-coins.md"
+      "design/disciplines/armor.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/arms.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/athletics.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/calling.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/craft.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/flame.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/frost.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/guard.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/influence.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/life.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/marksmanship.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/medicine.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/mind.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/radiance.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/scholarship.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/storm.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/subterfuge.md"
+    ],
+    [
+      "design/classes/leader.md",
+      "design/disciplines/wilderness.md"
     ],
     [
       "design/classes/unbalanced.md",
@@ -7472,7 +8144,75 @@
     ],
     [
       "design/classes/unbalanced.md",
-      "design/starting-coins.md"
+      "design/disciplines/armor.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/arms.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/athletics.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/calling.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/craft.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/flame.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/frost.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/guard.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/influence.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/life.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/marksmanship.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/medicine.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/mind.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/radiance.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/scholarship.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/storm.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/subterfuge.md"
+    ],
+    [
+      "design/classes/unbalanced.md",
+      "design/disciplines/wilderness.md"
     ],
     [
       "design/classes/shadow.md",
@@ -7512,7 +8252,75 @@
     ],
     [
       "design/classes/shadow.md",
-      "design/starting-coins.md"
+      "design/disciplines/armor.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/arms.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/athletics.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/calling.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/craft.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/flame.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/frost.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/guard.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/influence.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/life.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/marksmanship.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/medicine.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/mind.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/radiance.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/scholarship.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/storm.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/subterfuge.md"
+    ],
+    [
+      "design/classes/shadow.md",
+      "design/disciplines/wilderness.md"
     ],
     [
       "design/classes/odd.md",
@@ -7552,7 +8360,75 @@
     ],
     [
       "design/classes/odd.md",
-      "design/starting-coins.md"
+      "design/disciplines/armor.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/arms.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/athletics.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/calling.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/craft.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/flame.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/frost.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/guard.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/influence.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/life.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/marksmanship.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/medicine.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/mind.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/radiance.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/scholarship.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/storm.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/subterfuge.md"
+    ],
+    [
+      "design/classes/odd.md",
+      "design/disciplines/wilderness.md"
     ],
     [
       "design/classes/warden.md",
@@ -7592,7 +8468,75 @@
     ],
     [
       "design/classes/warden.md",
-      "design/starting-coins.md"
+      "design/disciplines/armor.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/arms.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/athletics.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/calling.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/craft.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/flame.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/frost.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/guard.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/influence.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/life.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/marksmanship.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/medicine.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/mind.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/radiance.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/scholarship.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/storm.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/subterfuge.md"
+    ],
+    [
+      "design/classes/warden.md",
+      "design/disciplines/wilderness.md"
     ],
     [
       "design/paths/green-healer.md",
@@ -7643,56 +8587,36 @@
       "design/cards/checkmate-in-three-steps.md"
     ],
     [
+      "design/player-book/manuscript/09-abilities.md",
+      "design/player-book/manuscript/11-summons.md"
+    ],
+    [
       "design/cards/command-a-summon.md",
       "design/rules/summoning.md"
     ],
     [
       "design/cards/call-the-faithful-hound.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/call-the-faithful-hound.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/summon-construct-novice.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/summon-construct-novice.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/summon-elemental-novice.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/summon-elemental-novice.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/a-friend-beneath-the-door.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/a-friend-beneath-the-door.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/call-a-burrower.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/call-a-burrower.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/the-bones-rise.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/the-bones-rise.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/a-roof-before-nightfall.md",
@@ -7700,359 +8624,51 @@
     ],
     [
       "design/cards/call-the-hunting-cat.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/call-the-hunting-cat.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/the-walking-toolbox.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/the-walking-toolbox.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/summon-elemental-adept.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/summon-elemental-adept.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/summon-fey-adept.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/summon-fey-adept.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/call-a-sentinel.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/call-a-sentinel.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/summon-undead-adept.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/summon-undead-adept.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/call-the-elder-stag.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/call-the-elder-stag.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/summon-construct-master.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/summon-construct-master.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/call-a-tempest-beast.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/call-a-tempest-beast.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/summon-fey-master.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/summon-fey-master.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/the-ancestors-stand.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/the-ancestors-stand.md",
-      "design/rules/summoning.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/cards/procession-of-the-quiet.md",
-      "design/cards/command-a-summon.md"
-    ],
-    [
-      "design/cards/procession-of-the-quiet.md",
-      "design/rules/summoning.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/ancestries/human.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/ancestries/elf.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/ancestries/dwarf.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/ancestries/halfling.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/protector.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/blade.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/arcanist.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/shepherd.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/intellect.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/leader.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/shadow.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/unbalanced.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/odd.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/classes/warden.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-border-marches.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-cairn-communities.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-cloister-valleys.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-deep-halls.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-ember-cities.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-forest-communities.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-free-harbors.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-gathered-peoples.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-grass-sea-clans.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-highland-holds.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-island-kinships.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-learning-houses.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-oasis-cities.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-reed-villages.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-river-settlements.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-terrace-towns.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-traveling-companies.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/culture-walled-communities.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-apothecary-s-helper.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-bargain-keeper.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-beast-reared.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-bone-tender.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-bridge-worker.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-burglar.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-confidence-artist.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-court-questioner.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-dragon-dreamer.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-duelist-s-second.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-grave-attendant.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-grove-tended.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-household-guard.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-itinerant-tinker.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-kennel-keeper.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-market-chemist.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-messenger.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-monastery-runaway.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-oath-witness.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-physician-s-student.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-pit-fighter.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-poacher.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-reluctant-knife.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-shore-gatherer.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-stage-assistant.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-star-touched.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-storm-survivor.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-temple-attendant.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-traveling-player.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-war-drummer.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-ward-scribe.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/origins/background-weather-apprentice.md"
-    ],
-    [
-      "design/starting-coins.md",
-      "design/market.md"
+      "design/player-book/manuscript/11-summons.md"
     ],
     [
       "design/market.md",
@@ -8239,6 +8855,26 @@
       "design/cards/use-a-healing-potion.md"
     ],
     [
+      "design/recipes/bound-torches.md",
+      "design/cards/trail-workshop.md"
+    ],
+    [
+      "design/recipes/bound-torches.md",
+      "design/cards/make-something-useful.md"
+    ],
+    [
+      "design/recipes/bound-torches.md",
+      "design/cards/enchanting-workshop.md"
+    ],
+    [
+      "design/recipes/bound-torches.md",
+      "design/equipment/lighting-bundle.md"
+    ],
+    [
+      "design/recipes/camp-shelter.md",
+      "design/cards/a-roof-before-nightfall.md"
+    ],
+    [
       "design/recipes/camp-shelter.md",
       "design/cards/a-roof-before-nightfall.md"
     ],
@@ -8247,12 +8883,124 @@
       "design/cards/the-cleverest-mixture.md"
     ],
     [
+      "design/recipes/clearing-tonic.md",
+      "design/cards/the-cleverest-mixture.md"
+    ],
+    [
+      "design/recipes/clearing-tonic.md",
+      "design/cards/the-cleverest-mixture.md"
+    ],
+    [
+      "design/recipes/fletched-ammunition.md",
+      "design/cards/trail-workshop.md"
+    ],
+    [
+      "design/recipes/fletched-ammunition.md",
+      "design/cards/make-something-useful.md"
+    ],
+    [
+      "design/recipes/fletched-ammunition.md",
+      "design/cards/enchanting-workshop.md"
+    ],
+    [
+      "design/recipes/fletched-ammunition.md",
+      "design/equipment/ammunition-bundle.md"
+    ],
+    [
       "design/recipes/lesser-healing-bottle.md",
       "design/cards/bottled-morning.md"
     ],
     [
+      "design/recipes/lesser-healing-bottle.md",
+      "design/cards/bottled-morning.md"
+    ],
+    [
+      "design/recipes/lesser-healing-bottle.md",
+      "design/cards/use-a-healing-potion.md"
+    ],
+    [
+      "design/recipes/simple-replacement-leg.md",
+      "design/cards/trail-workshop.md"
+    ],
+    [
+      "design/recipes/simple-replacement-leg.md",
+      "design/cards/make-something-useful.md"
+    ],
+    [
+      "design/recipes/simple-replacement-leg.md",
+      "design/cards/enchanting-workshop.md"
+    ],
+    [
+      "design/recipes/simple-replacement-leg.md",
+      "design/cards/fit-a-replacement.md"
+    ],
+    [
       "design/recipes/smoke-flask.md",
       "design/cards/smoke-in-a-bottle.md"
+    ],
+    [
+      "design/recipes/smoke-flask.md",
+      "design/cards/smoke-in-a-bottle.md"
+    ],
+    [
+      "design/recipes/smoke-flask.md",
+      "design/cards/smoke-in-a-bottle.md"
+    ],
+    [
+      "design/recipes/travel-food.md",
+      "design/cards/trail-workshop.md"
+    ],
+    [
+      "design/recipes/travel-food.md",
+      "design/cards/make-something-useful.md"
+    ],
+    [
+      "design/recipes/travel-food.md",
+      "design/cards/enchanting-workshop.md"
+    ],
+    [
+      "design/recipes/travel-food.md",
+      "design/cards/bottled-morning.md"
+    ],
+    [
+      "design/recipes/travel-food.md",
+      "design/cards/smoke-in-a-bottle.md"
+    ],
+    [
+      "design/recipes/travel-food.md",
+      "design/cards/the-cleverest-mixture.md"
+    ],
+    [
+      "design/recipes/travel-food.md",
+      "design/equipment/food-bundle.md"
+    ],
+    [
+      "design/recipes/twisted-cord.md",
+      "design/cards/trail-workshop.md"
+    ],
+    [
+      "design/recipes/twisted-cord.md",
+      "design/cards/make-something-useful.md"
+    ],
+    [
+      "design/recipes/twisted-cord.md",
+      "design/cards/enchanting-workshop.md"
+    ],
+    [
+      "design/recipes/twisted-cord.md",
+      "design/equipment/rope-coil.md"
+    ],
+    [
+      "design/recipes/wooden-brace.md",
+      "design/cards/trail-workshop.md"
+    ],
+    [
+      "design/recipes/wooden-brace.md",
+      "design/cards/make-something-useful.md"
+    ],
+    [
+      "design/recipes/wooden-brace.md",
+      "design/cards/enchanting-workshop.md"
     ],
     [
       "design/bestiary/summon-choices.md",
@@ -9591,5 +10339,937 @@
     "recipes": 10,
     "summon": 73,
     "character": 6
+  },
+  "presentation_sources": [
+    {
+      "path": "design/player-book/ability-summaries.json",
+      "sha256": "d0aa28aa5901d5143a895cca8f20462bec52d54ec1571571fe43e75532a8d3d5"
+    },
+    {
+      "path": "design/player-book/recipe-presentation.json",
+      "sha256": "4b9275bdcc32408f4f9e58a76d5cd3c06f3d054b07b86c7ce46be49f95659f42"
+    }
+  ],
+  "class_rank_costs": {
+    "protector": {
+      "armor": [
+        1,
+        2,
+        4
+      ],
+      "arms": [
+        2,
+        4,
+        8
+      ],
+      "athletics": [
+        3,
+        6,
+        12
+      ],
+      "calling": [
+        3,
+        6,
+        12
+      ],
+      "craft": [
+        3,
+        6,
+        12
+      ],
+      "flame": [
+        3,
+        6,
+        12
+      ],
+      "frost": [
+        3,
+        6,
+        12
+      ],
+      "guard": [
+        1,
+        2,
+        4
+      ],
+      "influence": [
+        3,
+        6,
+        12
+      ],
+      "life": [
+        3,
+        6,
+        12
+      ],
+      "marksmanship": [
+        3,
+        6,
+        12
+      ],
+      "medicine": [
+        2,
+        4,
+        8
+      ],
+      "mind": [
+        3,
+        6,
+        12
+      ],
+      "radiance": [
+        3,
+        6,
+        12
+      ],
+      "scholarship": [
+        3,
+        6,
+        12
+      ],
+      "storm": [
+        3,
+        6,
+        12
+      ],
+      "subterfuge": [
+        3,
+        6,
+        12
+      ],
+      "wilderness": [
+        3,
+        6,
+        12
+      ]
+    },
+    "blade": {
+      "armor": [
+        3,
+        6,
+        12
+      ],
+      "arms": [
+        1,
+        2,
+        4
+      ],
+      "athletics": [
+        2,
+        4,
+        8
+      ],
+      "calling": [
+        3,
+        6,
+        12
+      ],
+      "craft": [
+        3,
+        6,
+        12
+      ],
+      "flame": [
+        3,
+        6,
+        12
+      ],
+      "frost": [
+        3,
+        6,
+        12
+      ],
+      "guard": [
+        3,
+        6,
+        12
+      ],
+      "influence": [
+        3,
+        6,
+        12
+      ],
+      "life": [
+        3,
+        6,
+        12
+      ],
+      "marksmanship": [
+        1,
+        2,
+        4
+      ],
+      "medicine": [
+        3,
+        6,
+        12
+      ],
+      "mind": [
+        3,
+        6,
+        12
+      ],
+      "radiance": [
+        3,
+        6,
+        12
+      ],
+      "scholarship": [
+        3,
+        6,
+        12
+      ],
+      "storm": [
+        3,
+        6,
+        12
+      ],
+      "subterfuge": [
+        2,
+        4,
+        8
+      ],
+      "wilderness": [
+        3,
+        6,
+        12
+      ]
+    },
+    "arcanist": {
+      "armor": [
+        3,
+        6,
+        12
+      ],
+      "arms": [
+        3,
+        6,
+        12
+      ],
+      "athletics": [
+        3,
+        6,
+        12
+      ],
+      "calling": [
+        2,
+        4,
+        8
+      ],
+      "craft": [
+        3,
+        6,
+        12
+      ],
+      "flame": [
+        1,
+        2,
+        4
+      ],
+      "frost": [
+        1,
+        2,
+        4
+      ],
+      "guard": [
+        3,
+        6,
+        12
+      ],
+      "influence": [
+        3,
+        6,
+        12
+      ],
+      "life": [
+        3,
+        6,
+        12
+      ],
+      "marksmanship": [
+        3,
+        6,
+        12
+      ],
+      "medicine": [
+        3,
+        6,
+        12
+      ],
+      "mind": [
+        3,
+        6,
+        12
+      ],
+      "radiance": [
+        3,
+        6,
+        12
+      ],
+      "scholarship": [
+        2,
+        4,
+        8
+      ],
+      "storm": [
+        2,
+        4,
+        8
+      ],
+      "subterfuge": [
+        3,
+        6,
+        12
+      ],
+      "wilderness": [
+        3,
+        6,
+        12
+      ]
+    },
+    "shepherd": {
+      "armor": [
+        3,
+        6,
+        12
+      ],
+      "arms": [
+        3,
+        6,
+        12
+      ],
+      "athletics": [
+        3,
+        6,
+        12
+      ],
+      "calling": [
+        3,
+        6,
+        12
+      ],
+      "craft": [
+        3,
+        6,
+        12
+      ],
+      "flame": [
+        3,
+        6,
+        12
+      ],
+      "frost": [
+        3,
+        6,
+        12
+      ],
+      "guard": [
+        3,
+        6,
+        12
+      ],
+      "influence": [
+        3,
+        6,
+        12
+      ],
+      "life": [
+        1,
+        2,
+        4
+      ],
+      "marksmanship": [
+        3,
+        6,
+        12
+      ],
+      "medicine": [
+        2,
+        4,
+        8
+      ],
+      "mind": [
+        3,
+        6,
+        12
+      ],
+      "radiance": [
+        1,
+        2,
+        4
+      ],
+      "scholarship": [
+        3,
+        6,
+        12
+      ],
+      "storm": [
+        3,
+        6,
+        12
+      ],
+      "subterfuge": [
+        3,
+        6,
+        12
+      ],
+      "wilderness": [
+        2,
+        4,
+        8
+      ]
+    },
+    "intellect": {
+      "armor": [
+        3,
+        6,
+        12
+      ],
+      "arms": [
+        3,
+        6,
+        12
+      ],
+      "athletics": [
+        3,
+        6,
+        12
+      ],
+      "calling": [
+        3,
+        6,
+        12
+      ],
+      "craft": [
+        1,
+        2,
+        4
+      ],
+      "flame": [
+        3,
+        6,
+        12
+      ],
+      "frost": [
+        3,
+        6,
+        12
+      ],
+      "guard": [
+        3,
+        6,
+        12
+      ],
+      "influence": [
+        3,
+        6,
+        12
+      ],
+      "life": [
+        3,
+        6,
+        12
+      ],
+      "marksmanship": [
+        3,
+        6,
+        12
+      ],
+      "medicine": [
+        2,
+        4,
+        8
+      ],
+      "mind": [
+        2,
+        4,
+        8
+      ],
+      "radiance": [
+        3,
+        6,
+        12
+      ],
+      "scholarship": [
+        1,
+        2,
+        4
+      ],
+      "storm": [
+        3,
+        6,
+        12
+      ],
+      "subterfuge": [
+        3,
+        6,
+        12
+      ],
+      "wilderness": [
+        3,
+        6,
+        12
+      ]
+    },
+    "leader": {
+      "armor": [
+        3,
+        6,
+        12
+      ],
+      "arms": [
+        2,
+        4,
+        8
+      ],
+      "athletics": [
+        3,
+        6,
+        12
+      ],
+      "calling": [
+        3,
+        6,
+        12
+      ],
+      "craft": [
+        3,
+        6,
+        12
+      ],
+      "flame": [
+        3,
+        6,
+        12
+      ],
+      "frost": [
+        3,
+        6,
+        12
+      ],
+      "guard": [
+        1,
+        2,
+        4
+      ],
+      "influence": [
+        1,
+        2,
+        4
+      ],
+      "life": [
+        3,
+        6,
+        12
+      ],
+      "marksmanship": [
+        3,
+        6,
+        12
+      ],
+      "medicine": [
+        3,
+        6,
+        12
+      ],
+      "mind": [
+        3,
+        6,
+        12
+      ],
+      "radiance": [
+        3,
+        6,
+        12
+      ],
+      "scholarship": [
+        2,
+        4,
+        8
+      ],
+      "storm": [
+        3,
+        6,
+        12
+      ],
+      "subterfuge": [
+        3,
+        6,
+        12
+      ],
+      "wilderness": [
+        3,
+        6,
+        12
+      ]
+    },
+    "unbalanced": {
+      "armor": [
+        2,
+        4,
+        8
+      ],
+      "arms": [
+        1,
+        2,
+        4
+      ],
+      "athletics": [
+        1,
+        2,
+        4
+      ],
+      "calling": [
+        3,
+        6,
+        12
+      ],
+      "craft": [
+        3,
+        6,
+        12
+      ],
+      "flame": [
+        3,
+        6,
+        12
+      ],
+      "frost": [
+        3,
+        6,
+        12
+      ],
+      "guard": [
+        3,
+        6,
+        12
+      ],
+      "influence": [
+        3,
+        6,
+        12
+      ],
+      "life": [
+        3,
+        6,
+        12
+      ],
+      "marksmanship": [
+        3,
+        6,
+        12
+      ],
+      "medicine": [
+        3,
+        6,
+        12
+      ],
+      "mind": [
+        3,
+        6,
+        12
+      ],
+      "radiance": [
+        3,
+        6,
+        12
+      ],
+      "scholarship": [
+        3,
+        6,
+        12
+      ],
+      "storm": [
+        2,
+        4,
+        8
+      ],
+      "subterfuge": [
+        3,
+        6,
+        12
+      ],
+      "wilderness": [
+        3,
+        6,
+        12
+      ]
+    },
+    "shadow": {
+      "armor": [
+        3,
+        6,
+        12
+      ],
+      "arms": [
+        3,
+        6,
+        12
+      ],
+      "athletics": [
+        2,
+        4,
+        8
+      ],
+      "calling": [
+        3,
+        6,
+        12
+      ],
+      "craft": [
+        3,
+        6,
+        12
+      ],
+      "flame": [
+        3,
+        6,
+        12
+      ],
+      "frost": [
+        3,
+        6,
+        12
+      ],
+      "guard": [
+        3,
+        6,
+        12
+      ],
+      "influence": [
+        3,
+        6,
+        12
+      ],
+      "life": [
+        3,
+        6,
+        12
+      ],
+      "marksmanship": [
+        1,
+        2,
+        4
+      ],
+      "medicine": [
+        3,
+        6,
+        12
+      ],
+      "mind": [
+        2,
+        4,
+        8
+      ],
+      "radiance": [
+        3,
+        6,
+        12
+      ],
+      "scholarship": [
+        3,
+        6,
+        12
+      ],
+      "storm": [
+        3,
+        6,
+        12
+      ],
+      "subterfuge": [
+        1,
+        2,
+        4
+      ],
+      "wilderness": [
+        3,
+        6,
+        12
+      ]
+    },
+    "odd": {
+      "armor": [
+        2,
+        4,
+        8
+      ],
+      "arms": [
+        2,
+        4,
+        8
+      ],
+      "athletics": [
+        2,
+        4,
+        8
+      ],
+      "calling": [
+        2,
+        4,
+        8
+      ],
+      "craft": [
+        2,
+        4,
+        8
+      ],
+      "flame": [
+        2,
+        4,
+        8
+      ],
+      "frost": [
+        2,
+        4,
+        8
+      ],
+      "guard": [
+        2,
+        4,
+        8
+      ],
+      "influence": [
+        2,
+        4,
+        8
+      ],
+      "life": [
+        2,
+        4,
+        8
+      ],
+      "marksmanship": [
+        2,
+        4,
+        8
+      ],
+      "medicine": [
+        2,
+        4,
+        8
+      ],
+      "mind": [
+        2,
+        4,
+        8
+      ],
+      "radiance": [
+        2,
+        4,
+        8
+      ],
+      "scholarship": [
+        2,
+        4,
+        8
+      ],
+      "storm": [
+        2,
+        4,
+        8
+      ],
+      "subterfuge": [
+        2,
+        4,
+        8
+      ],
+      "wilderness": [
+        2,
+        4,
+        8
+      ]
+    },
+    "warden": {
+      "armor": [
+        3,
+        6,
+        12
+      ],
+      "arms": [
+        2,
+        4,
+        8
+      ],
+      "athletics": [
+        2,
+        4,
+        8
+      ],
+      "calling": [
+        3,
+        6,
+        12
+      ],
+      "craft": [
+        3,
+        6,
+        12
+      ],
+      "flame": [
+        3,
+        6,
+        12
+      ],
+      "frost": [
+        3,
+        6,
+        12
+      ],
+      "guard": [
+        3,
+        6,
+        12
+      ],
+      "influence": [
+        3,
+        6,
+        12
+      ],
+      "life": [
+        3,
+        6,
+        12
+      ],
+      "marksmanship": [
+        1,
+        2,
+        4
+      ],
+      "medicine": [
+        3,
+        6,
+        12
+      ],
+      "mind": [
+        3,
+        6,
+        12
+      ],
+      "radiance": [
+        3,
+        6,
+        12
+      ],
+      "scholarship": [
+        3,
+        6,
+        12
+      ],
+      "storm": [
+        3,
+        6,
+        12
+      ],
+      "subterfuge": [
+        3,
+        6,
+        12
+      ],
+      "wilderness": [
+        1,
+        2,
+        4
+      ]
+    }
   }
 }

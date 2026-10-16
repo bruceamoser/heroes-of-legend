@@ -9,3 +9,8 @@ Ordinary weapon appearance is yours to describe; your attack card supplies its c
 mechanics. Special equipment adds only the effects printed here. For consumables,
 record the current inventory die and check it after the stated use. Keep frequently
 used items and occupied hands visible on your character sheet.
+
+Equipment grants no training or DP advancement. Use ordinary item-handling actions
+unless an ability says otherwise. An item may come from an explicit ability grant,
+a purchase or DA treasure; owning it supplies only its printed benefits. It does not
+also supply a crafting recipe.

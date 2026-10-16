@@ -82,7 +82,7 @@ purchase you made earlier.
 ## 5. Choose a class
 
 Choose one class. Both of its required attributes must be at least 0; Odd has no
-minimums. Record its HP contribution and discipline affinities. Choose two distinct
+minimums. Record its HP contribution and discipline prices. Choose two distinct
 rank-1 disciplines from its starting list, applying duplicate compensation where
 appropriate. Choose one of its three level-1 signature abilities.
 
@@ -96,16 +96,11 @@ compensation. Now you can purchase discipline ranks at your class's prices as we
 as eligible abilities. You must buy ranks sequentially: rank 2 requires owning
 rank 1, and rank 3 requires owning rank 2. There is no additional level gate on ranks.
 
-| Class affinity | Rank 1 | Rank 2 | Rank 3 |
-|---|---:|---:|---:|
-| Home | 1 DP | 2 DP | 4 DP |
-| Adjacent | 2 DP | 4 DP | 8 DP |
-| Foreign | 3 DP | 6 DP | 12 DP |
-| Opposed | 4 DP | 8 DP | 16 DP |
-
-Each column is the price of that rank, not a total including earlier ranks. Buying
-Home ranks 1 and 2 from nothing costs 3 DP. Rank alone grants no action or bonus;
-it qualifies you to learn abilities. Odd pays Adjacent prices for all disciplines.
+Your class entry lists the price of every discipline rank. The comparison table in
+[Disciplines and Character Paths](05-disciplines.md) shows all classes together.
+Each price buys that rank alone. For example, a Blade pays 1 DP for Arms 1 and
+2 DP for Arms 2, spending 3 DP to learn both from scratch. A rank grants no action
+or bonus by itself; it qualifies you to learn abilities.
 
 All card prerequisites must be owned **before purchase**, not merely before use.
 You can own an item whose requirements you do not meet, but cannot use the gated
@@ -117,7 +112,7 @@ Close the stage. **Unused level-1 DP expires.** Later levels allow saving DP.
 > **Example — two separate budgets.** A hero with Knowledge +1, Reason +1 and Guile −1
 > gets 11 DP at each creation stage. At level 0, five Novice purchases cost 10 and
 > the last point expires. At level 1, a duplicate class rank adds 1 to the new pool,
-> making 12. Buying a Foreign rank for 3 and four Novice cards for 8 spends 11;
+> making 12. Buying a discipline rank priced at 3 DP and four Novice cards for 8 spends 11;
 > the remaining point also expires. Nothing from the first stage was borrowed.
 
 ## 7. Resolve equipment and recipes
@@ -161,7 +156,7 @@ Record your highest resistance for each damage type, never a sum of matching arm
 ## 9. Take coins and shop
 
 Starting coins are **40 + ancestry + culture + background + class contributions**.
-The tables in Equipment give the exact additions. This produces 50–70 coins before
+The Starting Coins reference at the end of this chapter gives the exact additions. This produces 50–70 coins before
 shopping. Resolve equipment grants first. Everyone begins with a plain worn outfit;
 a pack, supplies and potion are purchases unless explicitly granted.
 

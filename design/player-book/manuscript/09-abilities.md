@@ -14,7 +14,8 @@ requirements are also written out, so you never have to identify a symbol alone.
 Universal actions are available to everyone. Their diamond reads **U** and they cost
 no DP, but they do not give you free equipment. The shared catalog follows by tier,
 alphabetically within each tier. Your class's signature choices are printed with
-that class. The alphabetical index points to every ability, wherever it appears.
+that class. Each tier opens with a quick selection table. The tiered index at the back includes
+shared and class signature abilities, with requirements and page references.
 
 ## Read the entry in play
 
@@ -35,3 +36,23 @@ range, damage and limitations. Special equipment adds its explicit effects only.
 The ordinary way to attempt an activity remains available. An expert climbing card
 can provide better results, but you can choose an ordinary climb instead. Buying
 expertise gives you new options rather than forbidding everyone else from trying.
+
+## Shared card conventions
+
+Unless a card states a limit, you may use it again by paying its action and stated
+costs. A free attack cannot trigger another free attack. An absent equipment grant
+means the ability supplies no item. Read the Gear line for specific grants and
+requirements; compatible abilities can share one item. These conventions apply to
+class signatures as well as shared abilities.
+
+Instant effects resolve once; applied conditions use their normal duration and decay.
+For an area attack, make one roll using the least favorable net Boons/Banes among
+the targets. Apply it to each affected target. When a creature attacks an area,
+each affected player instead makes a defense roll. Target lines determine inclusions.
+
+A summoning ability lets you choose an eligible profile anew each casting. Use that
+profile’s statistics and capabilities. The summon immediately receives one free Main
+command, counting as its command for that turn. Later commands cost your actions;
+without one it does nothing. It acts on your turn, has no independent Reactions,
+cannot summon, and disappears beyond 6 squares, including after forced movement.
+See [Summoned Companions](11-summons.md) for profiles and the complete procedure.

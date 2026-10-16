@@ -10,3 +10,7 @@ and its accompanying ability at level 0, and contributes to starting coins. Cult
 and background can point in the same direction or reveal different sides of your hero.
 Resolve duplicate grants before spending your level-0 DP. The
 [discipline chapter](05-disciplines.md) explains the requirements those ranks satisfy.
+
+Each duplicate grant gives **1 level-0 DP** instead of an automatic higher rank
+or a replacement choice. Spend it before closing that stage. Follow the granted
+ability’s equipment line; an item is supplied only if its grant calls for one.

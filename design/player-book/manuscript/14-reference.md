@@ -1,7 +1,7 @@
 # Table References
 
 Use these pages when the action pauses for a rule. Keep your most-used abilities
-beside your sheet, along with the conditions currently affecting you. The alphabetical
+beside your sheet, along with the conditions currently affecting you. The tiered ability
 index includes universal actions, shared abilities and class signatures.
 
 ## Your turn in order

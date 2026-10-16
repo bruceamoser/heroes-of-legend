@@ -17,7 +17,7 @@ and ivory palette and inked illustration style.
 
 Ancestry traits, cultures, backgrounds and disciplines use the same bordered card
 language as abilities, with solid headers and narrative/rules separation. Rank
-purchase rules and the affinity cost table appear once in the discipline chapter.
+purchase rules and the class cost matrix appear in the discipline chapter.
 Discipline symbols use distinct gold silhouettes, with a high-contrast numeral
 over the lower edge so their identifying contours remain visible.
 
@@ -26,3 +26,15 @@ transparent-background requests and intended roles are saved in
 `art/revision-prompts.json`; originals remain in `art/interior/`. Existing art is
 retained in source control even when no longer placed. Generated placement data
 and the PDF audit check illustration uniqueness across the whole book.
+
+
+## Transparent class portraits and reference art
+
+Each class introduction now uses a transparent cutout, preserving its established
+character, equipment and animal companion. The ten edits have real alpha channels;
+no painted rectangular landscape remains. Original scenic versions stay archived.
+Exact edit prompts and source/output paths are in art/class-cutout-prompts.json.
+
+The starting-HP reference uses a resilient oak rooted through broken stone; the
+class-discipline matrix uses a quiet courtyard of study and training. Their prompts
+are in art/reference-prompts.json. These additions follow the single-use policy.

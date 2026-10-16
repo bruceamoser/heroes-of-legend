@@ -2,170 +2,222 @@
 #chapter("1","Welcome to Heroes of Legend")
 #metadata("s-ec27fab57845")<s-ec27fab57845>
 #illustration("welcome", height: 125pt, fit: "cover")
-#twocol[
-#text("The door has held for a hundred years. Tonight, someone on the other side is knocking.") #text("Your companions look at you. You have a lantern, a scar that aches before rain, and") #text("one very bad idea that might get everyone through this alive.")
+#reading-columns(([#text("The door has held for a hundred years. Tonight, someone on the other side is knocking.") #text("Your companions look at you. You have a lantern, a scar that aches before rain, and") #text("one very bad idea that might get everyone through this alive.")
 
-#text("")#strong[#text("Heroes of Legend")]#text(" is a fantasy roleplaying game about people who become remarkable") #text("through the choices they make. You might be a scholar who reads an opponent's stance") #text("like a page, a guardian who plants a shield in the only safe doorway, or a wanderer") #text("who calls the forest to your friends' defense. Your character is built from ancestry,") #text("experience, class and learned abilities. The combinations belong to you.")
+],[#text("")#strong[#text("Heroes of Legend")]#text(" is a fantasy roleplaying game about people who become remarkable") #text("through the choices they make. You might be a scholar who reads an opponent's stance") #text("like a page, a guardian who plants a shield in the only safe doorway, or a wanderer") #text("who calls the forest to your friends' defense. Your character is built from ancestry,") #text("experience, class and learned abilities. The combinations belong to you.")
 
-#heading(level: 3)[#text("At the table")]
+],[#heading(level: 3)[#text("At the table")]
 #text("Each player speaks and acts for one hero. One participant is the ")#strong[#text("Dungeon Architect")]#text(",") #text("or ")#strong[#text("DA")]#text(": the person who describes the world, portrays the people and creatures in") #text("it, presents danger, and adjudicates uncertain situations. The DA tells you what your") #text("hero can perceive. You say what you try. Together, you discover what happens.")
 
-#text("You do not need to act in a voice, memorize this book, or find a single correct") #text("solution. Ask questions. Describe a practical approach. Listen to what your companions") #text("want to attempt. A good plan can change the situation before anyone touches a die.")
+],[#text("You do not need to act in a voice, memorize this book, or find a single correct") #text("solution. Ask questions. Describe a practical approach. Listen to what your companions") #text("want to attempt. A good plan can change the situation before anyone touches a die.")
 
-#text("You will need three six-sided dice, and ideally three more for Boons and Banes.") #text("Consumable supplies use d4, d6, d8, d10, d12 and d20 inventory dice. Bring a character") #text("sheet, your learned abilities, something to record changes, and tokens or miniatures") #text("when a scene benefits from a square grid. A virtual tabletop can do the same work.")
+],[#text("You will need three six-sided dice, and ideally three more for Boons and Banes.") #text("Consumable supplies use d4, d6, d8, d10, d12 and d20 inventory dice. Bring a character") #text("sheet, your learned abilities, something to record changes, and tokens or miniatures") #text("when a scene benefits from a square grid. A virtual tabletop can do the same work.")
 
-#heading(level: 3)[#text("The promise of the game")]
+],[#heading(level: 3)[#text("The promise of the game")]
 #text("Character development rewards planning. You choose which disciplines to study and") #text("which abilities make those studies useful. At the table, the chosen ability tells") #text("you what to do: its action, attribute, range, outcomes and limits are printed together.") #text("Your sword's appearance is yours to invent; the attack describes what it accomplishes.")
 
-#text("Attacks connect. A poor roll changes how much harm and pressure an attack creates;") #text("it does not usually erase the turn. A stronger result may push an enemy away, expose") #text("a weakness, leave them burning, or put an ally where they need to be.")
+],[#text("Attacks connect. A poor roll changes how much harm and pressure an attack creates;") #text("it does not usually erase the turn. A stronger result may push an enemy away, expose") #text("a weakness, leave them burning, or put an ally where they need to be.")
 
-#text("You recover HP after a safe breath, but wounds and spent Grit follow you. Victories") #text("can leave permanent scars. A hero who rises again is not untouched by what happened.")
+],[#text("You recover HP after a safe breath, but wounds and spent Grit follow you. Victories") #text("can leave permanent scars. A hero who rises again is not untouched by what happened.")
 
-#heading(level: 3)[#text("Learn one roll")]
+],[#heading(level: 3)[#text("Learn one roll")]
 #text("When an uncertain action has consequences, roll ")#strong[#text("3d6 + one attribute")]#text(". The six") #text("attributes are Brawn, Fortitude, Agility, Guile, Knowledge and Reason. An ability names") #text("its attribute; otherwise the DA calls for the attribute that fits the attempt.")
 
-#rule-table(3,([#text("Total")],[#text("Result")],[#text("What it means")],),(([#text("8 or less")],[#text("Weak")],[#text("Make the printed progress; you have not necessarily completed your purpose.")],),([#text("9–14")],[#text("Standard")],[#text("Apply the Standard outcome.")],),([#text("15 or more")],[#text("Strong")],[#text("Apply the Strong outcome.")],),))
+],[#rule-table(3,([#text("Total")],[#text("Result")],[#text("What it means")],),(([#text("8 or less")],[#text("Weak")],[#text("Make the printed progress; you have not necessarily completed your purpose.")],),([#text("9–14")],[#text("Standard")],[#text("Apply the Standard outcome.")],),([#text("15 or more")],[#text("Strong")],[#text("Apply the Strong outcome.")],),))
 
-#text("Three retained natural ones give Weak plus a complication. Three retained natural") #text("sixes give Strong plus a benefit. These exceptional results use the numbers on the") #text("dice, before adding your attribute.")
+],[#text("Three retained natural ones give Weak plus a complication. Three retained natural") #text("sixes give Strong plus a benefit. These exceptional results use the numbers on the") #text("dice, before adding your attribute.")
 
-#text("")#strong[#text("Boons")]#text(" help and ")#strong[#text("Banes")]#text(" hinder. Cancel one against one. Each remaining Boon adds") #text("a die; keep the highest three. Each remaining Bane adds a die; keep the lowest three.") #text("Use at most three net extra dice. Add your attribute after choosing the three dice.") #text("Difficulty changes the dice you keep, not the Weak/Standard/Strong boundaries.")
+],[#text("")#strong[#text("Boons")]#text(" help and ")#strong[#text("Banes")]#text(" hinder. Cancel one against one. Each remaining Boon adds") #text("a die; keep the highest three. Each remaining Bane adds a die; keep the lowest three.") #text("Use at most three net extra dice. Add your attribute after choosing the three dice.") #text("Difficulty changes the dice you keep, not the Weak/Standard/Strong boundaries.")
 
-#note[
+],[#note[
 #text("")#strong[#text("Example — a dangerous crossing.")]#text(" Lira has Agility +2. The DA asks for Agility") #text("to cross a crumbling beam before the pursuers arrive. The rotten surface adds") #text("1 Bane; an ally's secured rope supplies 1 Boon. They cancel. Lira rolls 2, 4, 5:") #text("11 + 2 = 13, a Standard result. She reaches the far ledge as agreed before the roll.") #text("If there were no danger or meaningful cost, the group could simply describe crossing.")
 
 ]
-#heading(level: 3)[#text("A moment of play")]
+],[#heading(level: 3)[#text("A moment of play")]
 #text("")#strong[#text("DA:")]#text(" The broken bridge ends two squares short of the far bank. Water roars below.") #text("The rider behind you is reaching for a horn.")
 
-#text("")#strong[#text("Lira:")]#text(" I have room to run. Can I jump the gap?")
+],[#text("")#strong[#text("Lira:")]#text(" I have room to run. Can I jump the gap?")
 
-#text("")#strong[#text("DA:")]#text(" Your Agility is +2, so your running broad jump reaches four squares. There is") #text("a clear landing. Spend the movement and you are across; no roll needed.")
+],[#text("")#strong[#text("DA:")]#text(" Your Agility is +2, so your running broad jump reaches four squares. There is") #text("a clear landing. Spend the movement and you are across; no roll needed.")
 
-#text("")#strong[#text("Borin:")]#text(" I cannot leave Oren behind. I plant myself between him and the rider.") #text("I use Defend and keep my Reaction ready.")
+],[#text("")#strong[#text("Borin:")]#text(" I cannot leave Oren behind. I plant myself between him and the rider.") #text("I use Defend and keep my Reaction ready.")
 
-#text("")#strong[#text("Oren:")]#text(" I use Force on the jammed bridge mechanism. Can we lower the remaining span?")
+],[#text("")#strong[#text("Oren:")]#text(" I use Force on the jammed bridge mechanism. Can we lower the remaining span?")
 
-#text("")#strong[#text("DA:")]#text(" Yes. It needs two progress. A Weak result loosens it, but the rider will have") #text("time to sound the horn. A Standard or Strong result opens it now.")
+],[#text("")#strong[#text("DA:")]#text(" Yes. It needs two progress. A Weak result loosens it, but the rider will have") #text("time to sound the horn. A Standard or Strong result opens it now.")
 
-#text("")#strong[#text("Oren:")]#text(" Brawn +0. I roll 3, 4, 5: twelve. Standard, two progress.")
+],[#text("")#strong[#text("Oren:")]#text(" Brawn +0. I roll 3, 4, 5: twelve. Standard, two progress.")
 
-#text("")#strong[#text("DA:")]#text(" The catch tears loose. The span drops with a crack, giving you a route across.") #text("The rider lowers the horn and draws a blade instead.")
+],[#text("")#strong[#text("DA:")]#text(" The catch tears loose. The span drops with a crack, giving you a route across.") #text("The rider lowers the horn and draws a blade instead.")
 
-#text("This is play: make choices in the fiction, apply the rule that fits, and let the") #text("result change what can happen next. Force is an action Oren chooses. Brawn is the") #text("attribute the action tells him to roll.")
+],[#text("This is play: make choices in the fiction, apply the rule that fits, and let the") #text("result change what can happen next. Force is an action Oren chooses. Brawn is the") #text("attribute the action tells him to roll.")
 
-#heading(level: 3)[#text("Find your way through the book")]
+],[#heading(level: 3)[#text("Find your way through the book")]
 #text("Read Create Your Hero to build from the beginning, or choose one of the six ready-to-play") #text("heroes near the back. Ancestries, origins and classes supply your first choices.") #text("Disciplines show how to qualify for learned abilities. Playing the Game explains") #text("combat; Beyond the Battlefield covers the rest of an adventurer's life.")
 
-#text("Keep your own abilities close at hand. You do not need to memorize everyone else's") #text("catalog. The universal actions are available to every character, provided they have") #text("any required equipment. A learned card does not replace the ordinary permission to") #text("try something anyone could reasonably attempt.")
+],[#text("Keep your own abilities close at hand. You do not need to memorize everyone else's") #text("catalog. The universal actions are available to every character, provided they have") #text("any required equipment. A learned card does not replace the ordinary permission to") #text("try something anyone could reasonably attempt.")
 
-#heading(level: 3)[#text("Before the first adventure")]
+],[#heading(level: 3)[#text("Before the first adventure")]
 #text("Agree on the tone of the campaign and why your heroes travel together. Discuss what") #text("kinds of danger, injury and horror people want included or left offstage. Anyone can") #text("ask to pause a scene or change an uncomfortable detail. The wound tables describe") #text("fictional injuries; their descriptions can be adjusted while retaining the rules.")
 
-#text("Choose names, something each hero wants, and a connection between companions. Decide") #text("how to share maps and record supplies. The DA should explain what your characters") #text("already know about the first destination. You can discover the rest in play.")
+],[#text("Choose names, something each hero wants, and a connection between companions. Decide") #text("how to share maps and record supplies. The DA should explain what your characters") #text("already know about the first destination. You can discover the rest in play.")
 
-#note[
+],[#note[
 #text("")#strong[#text("About this edition.")]#text(" This is the complete player-facing level 1–10 playtest") #text("manuscript. Existing design proposals were approved for inclusion. It is intended") #text("for real table feedback; numerical balance remains open to refinement. Small boxes") #text("labeled “Playtest ruling” identify newly discovered boundaries that still need review.") #text("The DA's bestiary and") #text("encounter-building book are separate.")
 
 ]
-]
+],))
 #chapter("2","Create Your Hero")
 #metadata("s-3a383eccab13")<s-3a383eccab13>
-#twocol[
-#text("Begin with a person you want to play: an armored healer, an eloquent duelist, a hunter") #text("who speaks with ghosts. Decide what they want, then choose how they pursue it.")
+#reading-columns(([#text("Begin with a person you want to play: an armored healer, an eloquent duelist, a hunter") #text("who speaks with ghosts. Decide what they want, then choose how they pursue it.")
 
-#text("Character creation has two stages. ")#strong[#text("Level 0")]#text(" is your life before choosing a class.") #text("")#strong[#text("Level 1")]#text(" is the completed adventurer you bring to the first session. Finish and") #text("close the level-0 ledger before making level-1 purchases. Both stages have their own") #text("DP pool; unused points expire separately.")
+],[#text("Character creation has two stages. ")#strong[#text("Level 0")]#text(" is your life before choosing a class.") #text("")#strong[#text("Level 1")]#text(" is the completed adventurer you bring to the first session. Finish and") #text("close the level-0 ledger before making level-1 purchases. Both stages have their own") #text("DP pool; unused points expire separately.")
 
-#text("Before making purchases, turn to ")#xref("s-6289e7cc8d28")[#text("Disciplines and Character Paths")]#text(".") #text("It explains what discipline ranks mean and how they qualify you for abilities. Keep") #text("that chapter and your intended class entry handy as you build.")
+],[#text("Before making purchases, turn to ")#xref("s-6289e7cc8d28")[#text("Disciplines and Character Paths")]#text(".") #text("It explains what discipline ranks mean and how they qualify you for abilities. Keep") #text("that chapter and your intended class entry handy as you build.")
 
-#heading(level: 3)[#text("1. Assign attributes")]
+],[#heading(level: 3)[#text("1. Assign attributes")]
 #text("Assign a value from −2 to +2 to each of the six attributes. Their total must be ")#strong[#text("+3")]#text(".") #text("A straightforward starting array is +2, +1, +1, +0, +0, −1, arranged as you choose.") #text("Check your intended class's minimums before settling the array.")
 
-#rule-table(2,([#text("Attribute")],[#text("Common uses")],),(([#text("Brawn")],[#text("Exert strength, use Force, climb and make many melee attacks.")],),([#text("Fortitude")],[#text("Endure harm, resist bodily threats and make death rolls; contributes to HP.")],),([#text("Agility")],[#text("Move deftly, remain Hidden, jump and make many ranged attacks; contributes to Speed.")],),([#text("Guile")],[#text("Deceive, misdirect, improvise and exploit an opening.")],),([#text("Knowledge")],[#text("Apply learning, recognize patterns, craft and use learned techniques.")],),([#text("Reason")],[#text("Notice details, perceive danger, judge a situation and keep your thinking clear.")],),))
+],[#rule-table(2,([#text("Attribute")],[#text("Common uses")],),(([#text("Brawn")],[#text("Exert strength, use Force, climb and make many melee attacks.")],),([#text("Fortitude")],[#text("Endure harm, resist bodily threats and make death rolls; contributes to HP.")],),([#text("Agility")],[#text("Move deftly, remain Hidden, jump and make many ranged attacks; contributes to Speed.")],),([#text("Guile")],[#text("Deceive, misdirect, improvise and exploit an opening.")],),([#text("Knowledge")],[#text("Apply learning, recognize patterns, craft and use learned techniques.")],),([#text("Reason")],[#text("Notice details, perceive danger, judge a situation and keep your thinking clear.")],),))
 
-#text("These are not exclusive lists. Roll the attribute printed on the ability you use.") #text("Some techniques deliberately use an unusual attribute, such as Knowledge for a") #text("carefully studied attack. There is no added skill rating.")
+],[#text("These are not exclusive lists. Roll the attribute printed on the ability you use.") #text("Some techniques deliberately use an unusual attribute, such as Knowledge for a") #text("carefully studied attack. There is no added skill rating.")
 
-#text("Your chosen attributes stay fixed as you gain levels. Explicit items can modify an") #text("attribute while their rules apply. Ordinary published item adjustments run no") #text("higher than +2 or lower than −2, but can move your total outside the creation range.") #text("Matching bonuses do not add together: use the largest. A curse can explicitly") #text("suppress bonuses or set a value instead. Item changes never revise your creation DP.")
+],[#text("Your chosen attributes stay fixed as you gain levels. Explicit items can modify an") #text("attribute while their rules apply. Ordinary published item adjustments run no") #text("higher than +2 or lower than −2, but can move your total outside the creation range.") #text("Matching bonuses do not add together: use the largest. A curse can explicitly") #text("suppress bonuses or set a value instead. Item changes never revise your creation DP.")
 
-#heading(level: 3)[#text("2. Choose ancestry")]
+],[#heading(level: 3)[#text("2. Choose ancestry")]
 #text("Choose Human, Elf, Dwarf or Halfling. Record the ancestry's HP contribution and base") #text("Speed, then choose ")#strong[#text("two of its five traits")]#text(". Read the exact benefits: a description") #text("of keen eyes does not grant an extra sense unless the rules say so.")
 
-#rule-table(4,([#text("Ancestry")],[#text("HP contribution")],[#text("Base Speed")],[#text("Starting coin contribution")],),(([#text("Human")],[#text("+2")],[#text("6")],[#text("+1")],),([#text("Elf")],[#text("+2")],[#text("6")],[#text("+2")],),([#text("Dwarf")],[#text("+4")],[#text("5")],[#text("+2")],),([#text("Halfling")],[#text("+1")],[#text("5")],[#text("+0")],),))
+],[#rule-table(4,([#text("Ancestry")],[#text("HP contribution")],[#text("Base Speed")],[#text("Starting coin contribution")],),(([#text("Human")],[#text("+2")],[#text("6")],[#text("+1")],),([#text("Elf")],[#text("+2")],[#text("6")],[#text("+2")],),([#text("Dwarf")],[#text("+4")],[#text("5")],[#text("+2")],),([#text("Halfling")],[#text("+1")],[#text("5")],[#text("+0")],),))
 
-#text("Any ancestry can grow up in any culture. Your ancestry is not a compulsory profession,") #text("personality or allegiance.")
+],[#text("Any ancestry can grow up in any culture. Your ancestry is not a compulsory profession,") #text("personality or allegiance.")
 
-#heading(level: 3)[#text("3. Choose culture and background")]
+],[#heading(level: 3)[#text("3. Choose culture and background")]
 #text("Your ")#strong[#text("culture")]#text(" describes the community that shaped you. Your ")#strong[#text("background")]#text(" describes") #text("part of your life or work before adventuring. Choose one of each from the origin") #text("chapter, then select ")#strong[#text("one complete paired option from each")]#text(". A pair grants a rank-1") #text("discipline and its accompanying ability. Do not take the rank from one pair and the") #text("ability from another.")
 
-#text("A granted ability supplies its stated prerequisite grants. Record the ranks before") #text("buying anything. If a grant duplicates something you already have, receive ")#strong[#text("1 DP for") #text("that stage")]#text(". It does not raise the rank, give an unrestricted replacement, or carry") #text("forward after the stage ends.")
+],[#text("A granted ability supplies its stated prerequisite grants. Record the ranks before") #text("buying anything. If a grant duplicates something you already have, receive ")#strong[#text("1 DP for") #text("that stage")]#text(". It does not raise the rank, give an unrestricted replacement, or carry") #text("forward after the stage ends.")
 
-#heading(level: 3)[#text("4. Spend level-0 DP")]
+],[#heading(level: 3)[#text("4. Spend level-0 DP")]
 #text("Your level-0 pool is ")#strong[#text("10 + Knowledge + Reason + Guile")]#text(", plus any duplicate-grant") #text("compensation. Negative attributes reduce this pool too. Buy eligible Novice abilities") #text("for 2 DP each. Their printed requirements must already be met by your origin grants.") #text("You may not buy discipline ranks at level 0.")
 
-#text("Record each purchase in order. Buy any eligible kind of ability. One or two attacks can define your fighting style,") #text("leaving room for talents useful between battles.")
+],[#text("Record each purchase in order. Buy any eligible kind of ability. One or two attacks can define your fighting style,") #text("leaving room for talents useful between battles.")
 
-#text("Close the stage. ")#strong[#text("Unused level-0 DP expires.")]#text(" Your future class cannot qualify a") #text("purchase you made earlier.")
+],[#text("Close the stage. ")#strong[#text("Unused level-0 DP expires.")]#text(" Your future class cannot qualify a") #text("purchase you made earlier.")
 
-#heading(level: 3)[#text("5. Choose a class")]
-#text("Choose one class. Both of its required attributes must be at least 0; Odd has no") #text("minimums. Record its HP contribution and discipline affinities. Choose two distinct") #text("rank-1 disciplines from its starting list, applying duplicate compensation where") #text("appropriate. Choose one of its three level-1 signature abilities.")
+],[#heading(level: 3)[#text("5. Choose a class")]
+#text("Choose one class. Both of its required attributes must be at least 0; Odd has no") #text("minimums. Record its HP contribution and discipline prices. Choose two distinct") #text("rank-1 disciplines from its starting list, applying duplicate compensation where") #text("appropriate. Choose one of its three level-1 signature abilities.")
 
-#text("Your class sets discipline prices and signature access. You can buy any eligible") #text("shared ability. There is no multiclassing.")
+],[#text("Your class sets discipline prices and signature access. You can buy any eligible") #text("shared ability. There is no multiclassing.")
 
-#heading(level: 3)[#text("6. Spend level-1 DP")]
+],[#heading(level: 3)[#text("6. Spend level-1 DP")]
 #text("Start a new pool of ")#strong[#text("10 + Knowledge + Reason + Guile")]#text(", plus level-1 duplicate") #text("compensation. Now you can purchase discipline ranks at your class's prices as well") #text("as eligible abilities. You must buy ranks sequentially: rank 2 requires owning") #text("rank 1, and rank 3 requires owning rank 2. There is no additional level gate on ranks.")
 
-#rule-table(4,([#text("Class affinity")],[#text("Rank 1")],[#text("Rank 2")],[#text("Rank 3")],),(([#text("Home")],[#text("1 DP")],[#text("2 DP")],[#text("4 DP")],),([#text("Adjacent")],[#text("2 DP")],[#text("4 DP")],[#text("8 DP")],),([#text("Foreign")],[#text("3 DP")],[#text("6 DP")],[#text("12 DP")],),([#text("Opposed")],[#text("4 DP")],[#text("8 DP")],[#text("16 DP")],),))
+],[#text("Your class entry lists the price of every discipline rank. The comparison table in") #xref("s-6289e7cc8d28")[#text("Disciplines and Character Paths")]#text(" shows all classes together.") #text("Each price buys that rank alone. For example, a Blade pays 1 DP for Arms 1 and") #text("2 DP for Arms 2, spending 3 DP to learn both from scratch. A rank grants no action") #text("or bonus by itself; it qualifies you to learn abilities.")
 
-#text("Each column is the price of that rank, not a total including earlier ranks. Buying") #text("Home ranks 1 and 2 from nothing costs 3 DP. Rank alone grants no action or bonus;") #text("it qualifies you to learn abilities. Odd pays Adjacent prices for all disciplines.")
+],[#text("All card prerequisites must be owned ")#strong[#text("before purchase")]#text(", not merely before use.") #text("You can own an item whose requirements you do not meet, but cannot use the gated") #text("capability. A flaming sword's special power does not become available simply because") #text("you found it.")
 
-#text("All card prerequisites must be owned ")#strong[#text("before purchase")]#text(", not merely before use.") #text("You can own an item whose requirements you do not meet, but cannot use the gated") #text("capability. A flaming sword's special power does not become available simply because") #text("you found it.")
+],[#text("Close the stage. ")#strong[#text("Unused level-1 DP expires.")]#text(" Later levels allow saving DP.")
 
-#text("Close the stage. ")#strong[#text("Unused level-1 DP expires.")]#text(" Later levels allow saving DP.")
-
-#note[
-#text("")#strong[#text("Example — two separate budgets.")]#text(" A hero with Knowledge +1, Reason +1 and Guile −1") #text("gets 11 DP at each creation stage. At level 0, five Novice purchases cost 10 and") #text("the last point expires. At level 1, a duplicate class rank adds 1 to the new pool,") #text("making 12. Buying a Foreign rank for 3 and four Novice cards for 8 spends 11;") #text("the remaining point also expires. Nothing from the first stage was borrowed.")
+],[#note[
+#text("")#strong[#text("Example — two separate budgets.")]#text(" A hero with Knowledge +1, Reason +1 and Guile −1") #text("gets 11 DP at each creation stage. At level 0, five Novice purchases cost 10 and") #text("the last point expires. At level 1, a duplicate class rank adds 1 to the new pool,") #text("making 12. Buying a discipline rank priced at 3 DP and four Novice cards for 8 spends 11;") #text("the remaining point also expires. Nothing from the first stage was borrowed.")
 
 ]
-#heading(level: 3)[#text("7. Resolve equipment and recipes")]
+],[#heading(level: 3)[#text("7. Resolve equipment and recipes")]
 #text("Read every acquisition line. Some learned cards grant an ordinary item when first") #text("acquired. A grant supplies the compatible basic item only if you do not already own") #text("it. Three attacks that require a melee weapon can share the same weapon; they do not") #text("generate three free weapons. The same principle applies when you learn training later.") #text("Selling an item does not reactivate its old grant.")
 
-#text("Describe your weapon now. A sword, axe or stout staff can express the same permitted") #text("melee attacks. Its ordinary appearance changes no damage. A ranged attack still") #text("requires compatible ranged equipment. Most ordinary melee and ranged weapons use") #text("")#strong[#text("1 Bulk")]#text(" each. Special items add only their printed effects.")
+],[#text("Describe your weapon now. A sword, axe or stout staff can express the same permitted") #text("melee attacks. Its ordinary appearance changes no damage. A ranged attack still") #text("requires compatible ranged equipment. Most ordinary melee and ranged weapons use") #text("")#strong[#text("1 Bulk")]#text(" each. Special items add only their printed effects.")
 
-#text("Choose any recipes explicitly granted by crafting cards. Recipe knowledge is not") #text("a free finished product or a supply of ingredients. Record tools, materials and") #text("future recipe opportunities separately.")
+],[#text("Choose any recipes explicitly granted by crafting cards. Recipe knowledge is not") #text("a free finished product or a supply of ingredients. Record tools, materials and") #text("future recipe opportunities separately.")
 
-#heading(level: 3)[#text("8. Finish your numbers")]
+],[#heading(level: 3)[#text("8. Finish your numbers")]
 #rule-table(2,([#text("Record")],[#text("Calculation")],),(([#text("Maximum HP")],[#text("12 + ancestry HP + class HP + Fortitude + explicit benefits")],),([#text("Capacity")],[#text("10 + 3 × Brawn")],),([#text("Encumbrance")],[#text("Carried Bulk above capacity, minimum 0")],),([#text("Speed")],[#text("Ancestry base + Agility − encumbrance, minimum 0")],),([#text("Stability")],[#text("0 unless an explicit grant raises it; highest source, cap 3")],),([#text("Starting Grit")],[#text("2, plus any explicitly purchased increase")],),([#text("Starting wounds / death marks")],[#text("0 / 0")],),))
 
-#text("HP does not automatically grow each level. A purchase such as Conditioned Body can") #text("increase it within that card's limits. Record current and maximum HP separately.") #text("Record your highest resistance for each damage type, never a sum of matching armor.")
+],[#text("HP does not automatically grow each level. A purchase such as Conditioned Body can") #text("increase it within that card's limits. Record current and maximum HP separately.") #text("Record your highest resistance for each damage type, never a sum of matching armor.")
 
-#note[
+],[#note[
 #text("")#strong[#text("Example — Borin's pack.")]#text(" Borin is a dwarf Protector with Fortitude +2. His base") #text("maximum HP is 12 + 4 + 5 + 2 = 23. His chosen trait and Conditioned Body each add") #text("1, giving 25. Brawn +1 gives capacity 13. His 11 Bulk fits, so Agility +0 leaves") #text("his dwarf base Speed at 5. Armor does not automatically add Stability.")
 
 ]
-#heading(level: 3)[#text("9. Take coins and shop")]
-#text("Starting coins are ")#strong[#text("40 + ancestry + culture + background + class contributions")]#text(".") #text("The tables in Equipment give the exact additions. This produces 50–70 coins before") #text("shopping. Resolve equipment grants first. Everyone begins with a plain worn outfit;") #text("a pack, supplies and potion are purchases unless explicitly granted.")
+],[#heading(level: 3)[#text("9. Take coins and shop")]
+#text("Starting coins are ")#strong[#text("40 + ancestry + culture + background + class contributions")]#text(".") #text("The Starting Coins reference at the end of this chapter gives the exact additions. This produces 50–70 coins before") #text("shopping. Resolve equipment grants first. Everyone begins with a plain worn outfit;") #text("a pack, supplies and potion are purchases unless explicitly granted.")
 
-#text("Use the market. Record coins spent, coins left, supply dice and every item's Bulk.") #text("A container does not cancel its contents' Bulk. Decide which items are held. A bow,") #text("a two-handed weapon, or weapon and shield can leave no free hand for healing.") #text("Sharing a rope or light is practical; somebody still carries it.")
+],[#text("Use the market. Record coins spent, coins left, supply dice and every item's Bulk.") #text("A container does not cancel its contents' Bulk. Decide which items are held. A bow,") #text("a two-handed weapon, or weapon and shield can leave no free hand for healing.") #text("Sharing a rope or light is practical; somebody still carries it.")
 
-#heading(level: 3)[#text("10. Put a person on the sheet")]
+],[#heading(level: 3)[#text("10. Put a person on the sheet")]
 #text("Name your hero and give them a reason to stay with the party. Put your most-used") #text("actions on your first reference page. All learned cards remain available; there is") #text("no prepared-card hand limit.")
 
-#text("Before play, check both DP ledgers, requirements, grants, Bulk, free hands and class") #text("minimums. The six complete characters near the back show every step.")
+],[#text("Before play, check both DP ledgers, requirements, grants, Bulk, free hands and class") #text("minimums. The six complete characters near the back show every step.")
 
-#heading(level: 3)[#text("Growing into a legend")]
+],[#heading(level: 3)[#text("Growing into a legend")]
 #text("The DA awards levels at milestones. At level 2 and every later level, receive") #text("")#strong[#text("8 + your new level DP")]#text(". Save these points or spend them in a place the DA agrees") #text("is safe. Mental attributes modify only the two creation pools, not these awards.")
 
-#rule-table(3,([#text("New level")],[#text("DP award")],[#text("Other universal milestone")],),(([#text("2")],[#text("10")],[#text("—")],),([#text("3")],[#text("11")],[#text("+1 Grit; choose a level-3 class signature; Adept cards available")],),([#text("4")],[#text("12")],[#text("—")],),([#text("5")],[#text("13")],[#text("—")],),([#text("6")],[#text("14")],[#text("—")],),([#text("7")],[#text("15")],[#text("+1 Grit; choose a level-7 class signature; Master cards available")],),([#text("8")],[#text("16")],[#text("—")],),([#text("9")],[#text("17")],[#text("—")],),([#text("10")],[#text("18")],[#text("—")],),))
+],[#rule-table(3,([#text("New level")],[#text("DP award")],[#text("Other universal milestone")],),(([#text("2")],[#text("10")],[#text("—")],),([#text("3")],[#text("11")],[#text("+1 Grit; choose a level-3 class signature; Adept cards available")],),([#text("4")],[#text("12")],[#text("—")],),([#text("5")],[#text("13")],[#text("—")],),([#text("6")],[#text("14")],[#text("—")],),([#text("7")],[#text("15")],[#text("+1 Grit; choose a level-7 class signature; Master cards available")],),([#text("8")],[#text("16")],[#text("—")],),([#text("9")],[#text("17")],[#text("—")],),([#text("10")],[#text("18")],[#text("—")],),))
 
-#text("Novice, Adept and Master abilities cost ")#strong[#text("2, 4 and 8 DP")]#text(" and require minimum levels") #text("")#strong[#text("1, 3 and 7")]#text(". Novice purchases are explicitly permitted during level-0 creation.") #text("Higher tiers do not require an earlier card in a chain. Mixed requirements mean you") #text("need every listed rank. Class signatures require only their class and level; extra") #text("eligible signatures can be purchased for the same tier price.")
+],[#text("Novice, Adept and Master abilities cost ")#strong[#text("2, 4 and 8 DP")]#text(" and require minimum levels") #text("")#strong[#text("1, 3 and 7")]#text(". Novice purchases are explicitly permitted during level-0 creation.") #text("Higher tiers do not require an earlier card in a chain. Mixed requirements mean you") #text("need every listed rank. Class signatures require only their class and level; extra") #text("eligible signatures can be purchased for the same tier price.")
 
-#text("Your Grit increases are universal experience, not class features. They do not refund") #text("previous expenditure. A once-only learned card can grant one additional Grit. Ordinary") #text("rest does not refresh Grit. Your abilities, scars and choices tell the story of the") #text("hero you become.")
+],[#text("Your Grit increases are universal experience, not class features. They do not refund") #text("previous expenditure. A once-only learned card can grant one additional Grit. Ordinary") #text("rest does not refresh Grit. Your abilities, scars and choices tell the story of the") #text("hero you become.")
+
+],))
+#tail-art("journeyman-kit")
+#pagebreak(weak:true)
+#heading(level:2)[Starting HP]
+#label("starting-hp")
+Your maximum HP brings together your heritage, training and endurance. Calculate it after choosing your traits and purchases; then start at that maximum.
+
+#note[#align(center)[#text(size:15pt,weight:"bold")[12 + ancestry + class + Fortitude + explicit benefits]]]
+#grid(columns:(1fr,1fr),gutter:18pt,[#heading(level: 2)[#text("Ancestry")]
+#rule-table(widths:(1fr,45pt),pad:5pt,font-size:11pt,2,([#text("Choice")],[#text("HP")],),(([#text("Human")],[#text("+2")],),([#text("Elf")],[#text("+2")],),([#text("Dwarf")],[#text("+4")],),([#text("Halfling")],[#text("+1")],),))
+
+#heading(level:3)[Fortitude and benefits]
+Add your Fortitude, including a negative value. Then add only benefits you actually chose. Deep Constitution and Conditioned Body, for example, each add 1 HP.
+
+HP does not increase automatically with level. Record current HP separately from your maximum.],[#heading(level: 2)[#text("Class")]
+#rule-table(widths:(1fr,45pt),pad:5pt,font-size:11pt,2,([#text("Choice")],[#text("HP")],),(([#text("Protector")],[#text("+5")],),([#text("Blade")],[#text("+4")],),([#text("Arcanist")],[#text("+2")],),([#text("Shepherd")],[#text("+3")],),([#text("Intellect")],[#text("+2")],),([#text("Leader")],[#text("+4")],),([#text("Unbalanced")],[#text("+6")],),([#text("Shadow")],[#text("+3")],),([#text("Odd")],[#text("+3")],),([#text("Warden")],[#text("+4")],),))
+
+])
+#v(12pt)
+#heading(level:3)[Two different beginnings]
+#grid(columns:(1fr,1fr),gutter:18pt,[*Dwarf Protector*
+
+12 + 4 ancestry + 5 class + 2 Fortitude = *23 HP*. With the dwarf’s HP trait and Conditioned Body, the total is *25*.],[*Halfling Arcanist*
+
+12 + 1 ancestry + 2 class − 1 Fortitude = *14 HP*, before any explicit benefits. Low HP need not limit the hero’s imagination or ambition.])
+#tail-art("hp-vitality")
+#pagebreak(weak: true)
+#entry("Starting coins","s-1e0480a6a244")
+#text("")#strong[#text("Starting coins = 40 + ancestry + culture + background + class.")]#text("")
+
+#text("Add these once after completing level 1. This is a starting purse, not income each level. It does not use DP or attributes. Resolve card equipment grants before shopping; there is no coin reimbursement for a duplicate or declined grant.")
+
+#text("Contributions represent what the character brings on departure: savings, community support, prior work and preparation. They are not innate ancestry wealth, a moral ranking of cultures or a continuing class stipend. The largest ancestry difference is two coins. These allocations describe preparation, not biology.")
+
+
+#grid(columns: (2fr,1fr), gutter: 10pt, [#grid(columns:(1fr,1fr),gutter:10pt,[#heading(level: 3)[#text("Ancestry")]
+#rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-e8ca137eed99")[#text("Human")]],[#text("+1")],),([#xref("s-fc06a30fc7a2")[#text("Elf")]],[#text("+2")],),([#xref("s-3462876b97b5")[#text("Dwarf")]],[#text("+2")],),([#xref("s-25bc4473d928")[#text("Halfling")]],[#text("+0")],),), pad: 2pt, font-size: 8.7pt, widths: (1fr,27pt))
+
+#heading(level: 3)[#text("Class")]
+#rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-9c75309ecffd")[#text("Protector")]],[#text("+5")],),([#xref("s-4cf3da87b3fe")[#text("Blade")]],[#text("+4")],),([#xref("s-cb5021228f43")[#text("Arcanist")]],[#text("+6")],),([#xref("s-2ec72f4532a5")[#text("Shepherd")]],[#text("+3")],),([#xref("s-5f996d5a0ee9")[#text("Intellect")]],[#text("+8")],),([#xref("s-a06f8adb7ce7")[#text("Leader")]],[#text("+6")],),([#xref("s-6a13115a845b")[#text("Shadow")]],[#text("+3")],),([#xref("s-94403698c5ab")[#text("Unbalanced")]],[#text("+0")],),([#xref("s-fe83ef834cbc")[#text("Odd")]],[#text("+0")],),([#xref("s-2ad683228880")[#text("Warden")]],[#text("+2")],),), pad: 2pt, font-size: 8.7pt, widths: (1fr,27pt))
+
+],[#heading(level: 3)[#text("Culture")]
+#rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-127f953da4b7")[#text("Border Marches")]],[#text("+7")],),([#xref("s-be7fa1ecbef6")[#text("Cairn Communities")]],[#text("+5")],),([#xref("s-caa21ce3f778")[#text("Cloister Valleys")]],[#text("+5")],),([#xref("s-3a1e85f4b5df")[#text("Deep Halls")]],[#text("+7")],),([#xref("s-d937fe8c4da9")[#text("Ember Cities")]],[#text("+10")],),([#xref("s-acfa23352088")[#text("Forest Communities")]],[#text("+5")],),([#xref("s-a6e71f5f6d42")[#text("Free Harbors")]],[#text("+10")],),([#xref("s-316eb80e4804")[#text("Gathered Peoples")]],[#text("+7")],),([#xref("s-15d48ee7e5a3")[#text("Grass Sea Clans")]],[#text("+5")],),([#xref("s-0914c4d74846")[#text("Highland Holds")]],[#text("+7")],),([#xref("s-229dc05a61db")[#text("Island Kinships")]],[#text("+7")],),([#xref("s-7353482f4751")[#text("Learning Houses")]],[#text("+10")],),([#xref("s-c60affc74aac")[#text("Oasis Cities")]],[#text("+10")],),([#xref("s-580faec05381")[#text("Reed Villages")]],[#text("+5")],),([#xref("s-18f8da6ccca9")[#text("River Settlements")]],[#text("+7")],),([#xref("s-8d8c76172885")[#text("Terrace Towns")]],[#text("+5")],),([#xref("s-64536ad9ef2c")[#text("Traveling Companies")]],[#text("+7")],),([#xref("s-56fcfca4e0da")[#text("Walled Communities")]],[#text("+10")],),), pad: 2pt, font-size: 8.7pt, widths: (1fr,27pt))
+
+])#illustration("coin-purse",height:125pt)], [#heading(level: 3)[#text("Background")]
+#rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-b90394fd9a72")[#text("Apothecary’s Helper")]],[#text("+10")],),([#xref("s-b22ea03a6a6f")[#text("Bargain Keeper")]],[#text("+7")],),([#xref("s-7091aed288e8")[#text("Beast-Reared")]],[#text("+5")],),([#xref("s-872208e28686")[#text("Bone Tender")]],[#text("+5")],),([#xref("s-f929cff2cbe3")[#text("Bridge Worker")]],[#text("+7")],),([#xref("s-7984d2b1dc16")[#text("Burglar")]],[#text("+7")],),([#xref("s-b2b73ee08ff8")[#text("Confidence Artist")]],[#text("+7")],),([#xref("s-000117b6bc8f")[#text("Court Questioner")]],[#text("+10")],),([#xref("s-a312a6907a24")[#text("Dragon-Dreamer")]],[#text("+7")],),([#xref("s-90952aa5e9c2")[#text("Duelist’s Second")]],[#text("+7")],),([#xref("s-5b31ba339916")[#text("Grave Attendant")]],[#text("+5")],),([#xref("s-7aafc8f73712")[#text("Grove Tended")]],[#text("+5")],),([#xref("s-9b1d981dbf2d")[#text("Household Guard")]],[#text("+7")],),([#xref("s-5e0e84693b23")[#text("Itinerant Tinker")]],[#text("+7")],),([#xref("s-8639541ef870")[#text("Kennel Keeper")]],[#text("+7")],),([#xref("s-5cdcc612834b")[#text("Market Chemist")]],[#text("+10")],),([#xref("s-49616a099534")[#text("Messenger")]],[#text("+7")],),([#xref("s-725a611cc900")[#text("Monastery Runaway")]],[#text("+5")],),([#xref("s-60bc23cf9581")[#text("Oath Witness")]],[#text("+10")],),([#xref("s-d0d3a4d3abbf")[#text("Physician’s Student")]],[#text("+10")],),([#xref("s-757fd34b0bb1")[#text("Pit Fighter")]],[#text("+5")],),([#xref("s-cb0efb2d07cc")[#text("Poacher")]],[#text("+7")],),([#xref("s-acb3bd269c96")[#text("Reluctant Knife")]],[#text("+5")],),([#xref("s-f10b0de9740d")[#text("Shore Gatherer")]],[#text("+5")],),([#xref("s-17b8629ba48d")[#text("Stage Assistant")]],[#text("+7")],),([#xref("s-a0a16f981f7c")[#text("Star-Touched")]],[#text("+7")],),([#xref("s-46a389be0e62")[#text("Storm Survivor")]],[#text("+5")],),([#xref("s-bf8362262d71")[#text("Temple Attendant")]],[#text("+7")],),([#xref("s-7a65a53d413e")[#text("Traveling Player")]],[#text("+7")],),([#xref("s-174ecaa5c234")[#text("War Drummer")]],[#text("+7")],),([#xref("s-00aaf0d70989")[#text("Ward Scribe")]],[#text("+10")],),([#xref("s-316d900f9ca8")[#text("Weather Apprentice")]],[#text("+7")],),), pad: 2pt, font-size: 8.7pt, widths: (1fr,27pt))
+
+])
+#note[#heading(level: 3)[#text("Examples")]
+#text("All ")#strong[#text("23,040 ancestry/culture/background/class combinations")]#text(" fall between ")#strong[#text("50 and 70 coins")]#text(", before shopping. This enumerates coin contributions only; class attribute eligibility is still checked separately.")
+
+#text("Minimum: Halfling + Forest Communities + Grove Tended + Odd = 40 + 0 + 5 + 5 + 0 = ")#strong[#text("50")]#text(". Maximum: Elf + Learning Houses + Court Questioner + Intellect = 40 + 2 + 10 + 10 + 8 = ")#strong[#text("70")]#text(".")
+
+#text("At the low end, road essentials and a lesser potion cost 44 and leave 6. At the high end, the same basket leaves 26. The ")#xref("s-f49abc5a892e")[#text("market")]#text(" lists all prices; purchases still consume Bulk and obey hand/training requirements.")
+
+#text("The ")#text("six worked characters")#text(" now include purses and actual shopping ledgers. No one receives higher-level cards, extra DP or free potions.")
 
 ]
-#tail-art("journeyman-kit")
 #chapter("3","Ancestry, Culture and Background")
 #twocol[Choose the people, places and experiences that shaped you. Choose two ancestry traits, then one complete culture pair and one complete background pair. Any ancestry may come from any culture.
 
-Your ancestry supplies inherited traits. Your culture describes a community and its traditions. Your background recalls something you did or experienced before adventuring. These choices offer connections, memories and capabilities; they do not dictate your personality.
+Your ancestry supplies inherited traits. Your culture describes a community and its traditions. Your background recalls something you did or experienced before adventuring. These choices offer connections, memories and capabilities; they do not dictate your personality. Ancestry traits are passive unless stated otherwise. Base-statistic changes are permanent; other benefits last while their stated circumstances apply.
 
 Choose each origin as a complete pair: its rank and ability belong together. Resolve all level-0 grants before making purchases. Duplicate grants add one DP to that stage rather than a higher rank or unrestricted replacement.]
 #illustration("origins", height: 330pt, fit: "cover")
@@ -206,19 +258,11 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Maximum HP +1. Describe the ordinary hardship that taught you to keep going.")
 
-#text("")#strong[#text("Ancestry:")]#text(" Human · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
-
 ]
 #catalog-card("Road in the Blood","s-96aabc1f1957", icons: [])[#emph[#text("You settle your pack higher on your shoulders and lengthen your stride toward the next rise.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Base Speed +1. Long journeys remain ordinary travel; this creates no exhaustion rule.")
-
-#text("")#strong[#text("Ancestry:")]#text(" Human · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
 #catalog-card("A Foot in Two Worlds","s-a675522046ef", icons: [])[#emph[#text("You greet a stranger in the words of another home, smiling as they answer in the same tongue.")]
@@ -226,29 +270,17 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Know two additional ordinary spoken languages. Choose the communities that taught you; this does not grant a second culture’s discipline or card.")
 
-#text("")#strong[#text("Ancestry:")]#text(" Human · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
-
 ]
 #catalog-card("Make Room at the Fire","s-ad232a649baa", icons: [])[#emph[#text("You shift a bowl toward the stranger and offer a place beside the fire before asking their name.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Once per scene, when you offer genuine food, shelter or shared work to a nonhostile person, gain 1 Boon to the next Guile roll seeking ordinary hospitality or trust from them before the scene ends. No automatic friendship or compelled response.")
 
-#text("")#strong[#text("Ancestry:")]#text(" Human · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
-
 ]
 #catalog-card("The Impossible Streak","s-641a679018d0", icons: [])[#emph[#text("You study the harder route, tighten your grip and begin with the stubborn care of someone determined to finish.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Once per day, declare before an ordinary noncombat roll that you are taking the difficult way on purpose. Gain 1 Boon. You still need a plausible method and any specialist permission; this does not change a card’s attribute.")
-
-#text("")#strong[#text("Ancestry:")]#text(" Human · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
 ]
@@ -289,19 +321,11 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Natural undergrowth does not increase the cost of your voluntary movement. Other difficult terrain, forced movement and occupied-square rules are unchanged.")
 
-#text("")#strong[#text("Ancestry:")]#text(" Elf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
-
 ]
 #catalog-card("A Lifetime Ago","s-2b108e4309ee", icons: [])[#emph[#text("You pause beside the broken road and recall the voices of the people who laid its first stones.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one place or community you knew in an earlier age. Gain 1 Boon to Knowledge or Reason rolls recalling its history, people or construction. The DA can tell you what you genuinely witnessed without a roll; memory reveals no events you never knew.")
-
-#text("")#strong[#text("Ancestry:")]#text(" Elf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
 #catalog-card("The Wood Whispers","s-f134db3a65af", icons: [])[#emph[#text("You stop talking as the birds fall quiet, turning toward the rustle that disturbed them.")]
@@ -309,29 +333,17 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("In woodland, gain 1 Boon to a consequential roll interpreting living signs of nearby disturbance. The signs can indicate a general direction, not an unseen creature’s exact square; this does not bypass Hidden.")
 
-#text("")#strong[#text("Ancestry:")]#text(" Elf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
-
 ]
 #catalog-card("Grace of the Elder Folk","s-a5627e92b3f0", icons: [])[#emph[#text("You lengthen your stride and weave past the obstacles without breaking the rhythm of your steps.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Base Speed +1. Describe whether your grace is effortless balance, long strides or a dancer’s economy.")
 
-#text("")#strong[#text("Ancestry:")]#text(" Elf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
-
 ]
 #catalog-card("Dream beneath the Stars","s-1d4075ac0c2a", icons: [])[#emph[#text("You settle beneath the stars with your eyes half open, letting old memories drift through the sounds of the waking camp.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("You may rest in a quiet waking reverie instead of sleeping, remaining aware of nearby ordinary sights and sounds. It grants no automatic detection, extra downtime work, shorter treatment interval or Grit recovery. Magical Asleep still works normally.")
-
-#text("")#strong[#text("Ancestry:")]#text(" Elf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
 ]
@@ -372,19 +384,11 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Maximum HP +1. Gain no additional resistance from this trait.")
 
-#text("")#strong[#text("Ancestry:")]#text(" Dwarf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
-
 ]
 #catalog-card("The Mountain Remembers","s-b52a6c3932b2", icons: [])[#emph[#text("You run your fingers across the stonework, stopping where an old seam has been cut anew.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Gain 1 Boon to examining stonework for an unsafe passage, concealed join or later alteration. Obvious construction clues need no roll; the trait does not reveal an untouched wall’s far side.")
-
-#text("")#strong[#text("Ancestry:")]#text(" Dwarf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
 #catalog-card("Rooted in Stone","s-c1a616ca9067", icons: [])[#emph[#text("You spread your boots against the stone and lean into the approaching shove.")]
@@ -392,29 +396,17 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("While standing on solid ground, gain 1 Boon to defense against forced movement. This is not immunity and does not reduce the resulting distance separately.")
 
-#text("")#strong[#text("Ancestry:")]#text(" Dwarf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
-
 ]
 #catalog-card("An Honest Maker’s Hand","s-db61ca98741b", icons: [])[#emph[#text("Your thumb finds the seam; your ear knows the ring of sound metal.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("After handling an ordinary metal or stone item, recognize shoddy workmanship and common material without a roll. Gain 1 Boon when a consequential inspection seeks subtler defects. This is not crafting or magical identification permission.")
 
-#text("")#strong[#text("Ancestry:")]#text(" Dwarf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
-
 ]
 #catalog-card("A Grudge Well Kept","s-3c24a1ec187b", icons: [])[#emph[#text("You rub the place the blow landed, fix its giver in your gaze and step back into the fight.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Once per combat, after a creature damages you, gain 1 Boon to your next attack against it before the end of your next turn. Choose whether to invoke the trait when the damage occurs. No damage bonus or extra attack.")
-
-#text("")#strong[#text("Ancestry:")]#text(" Dwarf · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
 ]
@@ -455,19 +447,11 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Gain 1 Boon to rolls affected by Frightened. Resolve the Boon and Banes normally; you are not immune to fear.")
 
-#text("")#strong[#text("Ancestry:")]#text(" Halfling · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
-
 ]
 #catalog-card("Under Their Noses","s-dc6cc4b66e0c", icons: [])[#emph[#text("You duck beneath the table and draw your knees behind its legs as the hurried footsteps pass.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("You fit through openings the DA judges suitable for your actual small size, and gain 1 Boon to hiding behind ordinary furniture that plausibly conceals you. Standing creatures still block their squares; no free movement through enemies.")
-
-#text("")#strong[#text("Ancestry:")]#text(" Halfling · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
 #catalog-card("Quiet as a Burrow","s-a09ec0c815d8", icons: [])[#emph[#text("You ease your heel onto the floor and lift the latch with the care of someone coming home to a sleeping household.")]
@@ -475,19 +459,11 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Gain 1 Boon to quiet movement outside combat. On a Strong result, one willing companion following your route gains 1 Boon to their next quiet-movement roll this scene. You cannot confer Hidden by walking in open view.")
 
-#text("")#strong[#text("Ancestry:")]#text(" Halfling · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
-
 ]
 #catalog-card("A Little Luck","s-b516e908bde7", icons: [])[#emph[#text("The latch catches your coat a heartbeat before you step into trouble.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Once per day, before a roll that uses an attribute, gain 1 Boon. Describe a small piece of good fortune. No reroll after seeing the result and no effect on inventory dice.")
-
-#text("")#strong[#text("Ancestry:")]#text(" Halfling · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
 #catalog-card("Second Breakfast","s-b1c26acbb3f6", icons: [])[#emph[#text("You break the bread, tuck the smallest crumbs into the wrapping and make room beside you for a second breakfast.")]
@@ -495,21 +471,18 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("When sharing a food bundle with one companion during a safe meal, make one inventory check for the two of you instead of one each. Food is still required; this grants no healing, resistance or extra recovery.")
 
-#text("")#strong[#text("Ancestry:")]#text(" Halfling · ")#strong[#text("Choice:")]#text(" one of your two traits · ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
-
-#text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
-
 ]
 ]
-#pagebreak(weak: true)
-#heading(level: 2,"Cultures")
-#twocol[
-#metadata("s-c0960d42ee3d")<s-c0960d42ee3d>
+#pagebreak(weak:true)
+#heading(level:2,"Cultures")
+#reading-columns(([#metadata("s-c0960d42ee3d")<s-c0960d42ee3d>
 #text("Your culture is the community that taught you how to live: its customs, shared") #text("knowledge and ways of meeting hardship. An elf raised among dwarven halls may know") #text("their songs and stonework; a human from a wandering company may feel at home wherever") #text("people gather around a fire. Choose a culture independently of your ancestry.")
 
 #text("Choose ")#strong[#text("one complete paired option")]#text(" from its entry. You gain the listed rank-1") #text("discipline and ability together at level 0. Its coin contribution also helps determine") #text("your starting purse. These gifts describe what you learned, not what you must believe") #text("or how you must behave. See ")#xref("s-6289e7cc8d28")[#text("Disciplines and Character Paths")]#text(" for") #text("how your new discipline opens further choices.")
 
-#catalog-card("Border Marches","s-127f953da4b7", icons: [])[#emph[#text("Your neighbors know the difference between vigilance and fear, though keeping that distinction takes work.")]
+#text("Each duplicate grant gives ")#strong[#text("1 level-0 DP")]#text(" instead of an automatic higher rank") #text("or a replacement choice. Spend it before closing that stage. Follow the granted") #text("ability’s equipment line; an item is supplied only if its grant calls for one.")
+
+],[#catalog-card("Border Marches","s-127f953da4b7", icons: [])[#emph[#text("Your neighbors know the difference between vigilance and fear, though keeping that distinction takes work.")]
 
 #emph[#text("Who taught you to welcome a traveler and watch the road at once?")]
 
@@ -524,14 +497,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Culture ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Cairn Communities","s-be7fa1ecbef6", icons: [])[#emph[#text("The dead are remembered at supper and in council, while the living argue freely about their advice.")]
+],[#catalog-card("Cairn Communities","s-be7fa1ecbef6", icons: [])[#emph[#text("The dead are remembered at supper and in council, while the living argue freely about their advice.")]
 
 #emph[#text("Whose name do you speak when courage runs short?")]
 
@@ -546,14 +515,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Culture ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Cloister Valleys","s-caa21ce3f778", icons: [])[#emph[#text("Bells mark the day, but no two residents agree about what a disciplined life should become.")]
+],[#catalog-card("Cloister Valleys","s-caa21ce3f778", icons: [])[#emph[#text("Bells mark the day, but no two residents agree about what a disciplined life should become.")]
 
 #emph[#text("Which lesson did you question before you left?")]
 
@@ -568,14 +533,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Culture ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Deep Halls","s-3a1e85f4b5df", icons: [])[#emph[#text("Homes, gardens and markets fill the chambers beneath the hills; the surface is only one neighborhood.")]
+],[#catalog-card("Deep Halls","s-3a1e85f4b5df", icons: [])[#emph[#text("Homes, gardens and markets fill the chambers beneath the hills; the surface is only one neighborhood.")]
 
 #emph[#text("What does your home smell like after the forge fires dim?")]
 
@@ -590,14 +551,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Culture ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Ember Cities","s-d937fe8c4da9", icons: [])[#emph[#text("Kilns, glassworks and night markets make the streets glow after sundown.")]
+],[#catalog-card("Ember Cities","s-d937fe8c4da9", icons: [])[#emph[#text("Kilns, glassworks and night markets make the streets glow after sundown.")]
 
 #emph[#text("What beautiful thing did you first learn to make?")]
 
@@ -612,20 +569,14 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Culture ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Forest Communities","s-acfa23352088", icons: [])[#emph[#text("Paths change with the season, and your neighbors know the trees by more than their timber.")]
+],[#catalog-card("Forest Communities","s-acfa23352088", icons: [])[#emph[#text("Paths change with the season, and your neighbors know the trees by more than their timber.")]
 
 #emph[#text("Which tree marks the way home?")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Type:")]#text(" Culture. Choose one paired option; do not mix the rank from one with the card from another.")
-
 #list(
 [#text("Wilderness 1 and ")#xref("s-a7e3126a7312")[#text("Forage Woodland")]#text(".")
 
@@ -634,12 +585,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Free Harbors","s-a6e71f5f6d42", icons: [])[#emph[#text("Cargoes and rumors change hands faster than the tide. You learned to listen in three directions.")]
+],[#catalog-card("Free Harbors","s-a6e71f5f6d42", icons: [])[#emph[#text("Cargoes and rumors change hands faster than the tide. You learned to listen in three directions.")]
 
 #emph[#text("Who will always give you a berth?")]
 
@@ -654,14 +603,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Culture ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Gathered Peoples","s-316eb80e4804", icons: [])[#emph[#text("Displacement brought strangers together; shared work made a new home.")]
+],[#catalog-card("Gathered Peoples","s-316eb80e4804", icons: [])[#emph[#text("Displacement brought strangers together; shared work made a new home.")]
 
 #emph[#text("Which old custom did your new neighbors adopt?")]
 
@@ -676,14 +621,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Culture ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Grass Sea Clans","s-15d48ee7e5a3", icons: [])[#emph[#text("A roof of stars, a road of grass, and neighbors who may be a day’s ride away.")]
+],[#catalog-card("Grass Sea Clans","s-15d48ee7e5a3", icons: [])[#emph[#text("A roof of stars, a road of grass, and neighbors who may be a day’s ride away.")]
 
 #emph[#text("What promise brings you back to the traveling camp?")]
 
@@ -698,20 +639,14 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Culture ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Highland Holds","s-0914c4d74846", icons: [])[#emph[#text("The climb is long, the welcome warm, and every tool has a place by the hearth.")]
+],[#catalog-card("Highland Holds","s-0914c4d74846", icons: [])[#emph[#text("The climb is long, the welcome warm, and every tool has a place by the hearth.")]
 
 #emph[#text("What did your neighbors trust you to carry?")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Type:")]#text(" Culture. Choose one paired option; do not mix the rank from one with the card from another.")
-
 #list(
 [#text("Wilderness 1 and ")#xref("s-1ffdfb8a8396")[#text("Forage Mountains")]#text(".")
 
@@ -720,12 +655,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Island Kinships","s-229dc05a61db", icons: [])[#emph[#text("You grew up with a horizon on every side and family on more than one shore.")]
+],[#catalog-card("Island Kinships","s-229dc05a61db", icons: [])[#emph[#text("You grew up with a horizon on every side and family on more than one shore.")]
 
 #emph[#text("What signal means home is waiting?")]
 
@@ -740,20 +673,14 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Culture ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Learning Houses","s-7353482f4751", icons: [])[#emph[#text("Debate followed you from the lesson room to supper. Curiosity was a habit before it was a profession.")]
+],[#catalog-card("Learning Houses","s-7353482f4751", icons: [])[#emph[#text("Debate followed you from the lesson room to supper. Curiosity was a habit before it was a profession.")]
 
 #emph[#text("Which question earned you trouble?")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Type:")]#text(" Culture. Choose one paired option; do not mix the rank from one with the card from another.")
-
 #list(
 [#text("Scholarship 1 and ")#xref("s-37c8bd3c7d28")[#text("Read the Remains")]#text(".")
 
@@ -762,12 +689,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Oasis Cities","s-c60affc74aac", icons: [])[#emph[#text("Water is hospitality, memory and responsibility. Every caravan brings another version of the world.")]
+],[#catalog-card("Oasis Cities","s-c60affc74aac", icons: [])[#emph[#text("Water is hospitality, memory and responsibility. Every caravan brings another version of the world.")]
 
 #emph[#text("Whose well did your family help keep?")]
 
@@ -782,14 +707,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Culture ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Reed Villages","s-580faec05381", icons: [])[#emph[#text("Raised walkways and low boats connect homes that seem to float between sky and water.")]
+],[#catalog-card("Reed Villages","s-580faec05381", icons: [])[#emph[#text("Raised walkways and low boats connect homes that seem to float between sky and water.")]
 
 #emph[#text("Which channel could you navigate with your eyes closed?")]
 
@@ -804,20 +725,14 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Culture ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("River Settlements","s-18f8da6ccca9", icons: [])[#emph[#text("The river brought work, travelers and news long before it brought you an urge to leave.")]
+],[#catalog-card("River Settlements","s-18f8da6ccca9", icons: [])[#emph[#text("The river brought work, travelers and news long before it brought you an urge to leave.")]
 
 #emph[#text("What do you miss about the sound of the docks?")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Type:")]#text(" Culture. Choose one paired option; do not mix the rank from one with the card from another.")
-
 #list(
 [#text("Athletics 1 and ")#xref("s-42514b06d0c6")[#text("Expert River Crossing")]#text(".")
 
@@ -826,12 +741,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Terrace Towns","s-8d8c76172885", icons: [])[#emph[#text("Gardens climb the cliffs and stairs stitch whole neighborhoods together.")]
+],[#catalog-card("Terrace Towns","s-8d8c76172885", icons: [])[#emph[#text("Gardens climb the cliffs and stairs stitch whole neighborhoods together.")]
 
 #emph[#text("Which impossible-looking route was your childhood shortcut?")]
 
@@ -846,20 +759,14 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Culture ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Traveling Companies","s-64536ad9ef2c", icons: [])[#emph[#text("Home was whoever helped raise the awning when the rain began.")]
+],[#catalog-card("Traveling Companies","s-64536ad9ef2c", icons: [])[#emph[#text("Home was whoever helped raise the awning when the rain began.")]
 
 #emph[#text("What song announced your arrival?")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Type:")]#text(" Culture. Choose one paired option; do not mix the rank from one with the card from another.")
-
 #list(
 [#text("Influence 1 and ")#xref("s-7a069d6648a5")[#text("Measured Appeal")]#text(".")
 
@@ -868,18 +775,14 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Walled Communities","s-56fcfca4e0da", icons: [])[#emph[#text("Your home knows the comfort of a gate and the danger of believing it solves everything.")]
+],[#catalog-card("Walled Communities","s-56fcfca4e0da", icons: [])[#emph[#text("Your home knows the comfort of a gate and the danger of believing it solves everything.")]
 
 #emph[#text("Who always greeted you from the wall?")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Type:")]#text(" Culture. Choose one paired option; do not mix the rank from one with the card from another.")
-
 #list(
 [#text("Armor 1 and ")#xref("s-30d5ca182be2")[#text("Wear Medium Armor")]#text(".")
 
@@ -888,28 +791,25 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-]
+],))
 #tail-art("cultures")
-#pagebreak(weak: true)
-#heading(level: 2,"Backgrounds")
-#twocol[
-#metadata("s-a61a7dfba49e")<s-a61a7dfba49e>
+#pagebreak(weak:true)
+#heading(level:2,"Backgrounds")
+#reading-columns(([#metadata("s-a61a7dfba49e")<s-a61a7dfba49e>
 #text("Your background is a chapter of your life before adventuring. You might have watched") #text("a gate, tended the wounded, traveled with performers or learned to survive by a quick") #text("hand and a quicker smile. Choose something that gives you a memory, a connection and") #text("a reason to leave familiar ground.")
 
 #text("Choose ")#strong[#text("one complete paired option")]#text(" from the background. It grants a rank-1 discipline") #text("and its accompanying ability at level 0, and contributes to starting coins. Culture") #text("and background can point in the same direction or reveal different sides of your hero.") #text("Resolve duplicate grants before spending your level-0 DP. The") #xref("s-6289e7cc8d28")[#text("discipline chapter")]#text(" explains the requirements those ranks satisfy.")
 
-#catalog-card("Apothecary’s Helper","s-b90394fd9a72", icons: [])[#emph[#text("You learned the smell of good medicine and the patience of people waiting for it.")]
+#text("Each duplicate grant gives ")#strong[#text("1 level-0 DP")]#text(" instead of an automatic higher rank") #text("or a replacement choice. Spend it before closing that stage. Follow the granted") #text("ability’s equipment line; an item is supplied only if its grant calls for one.")
+
+],[#catalog-card("Apothecary’s Helper","s-b90394fd9a72", icons: [])[#emph[#text("You learned the smell of good medicine and the patience of people waiting for it.")]
 
 #emph[#text("Which remedy always reminds you of someone?")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Type:")]#text(" Background. Choose one paired option; do not mix the rank from one with the card from another.")
-
 #list(
 [#text("Scholarship 1 and ")#xref("s-f6f355a9a0ce")[#text("Identify a Mixture")]#text(".")
 
@@ -918,12 +818,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Bargain Keeper","s-b22ea03a6a6f", icons: [])[#emph[#text("You agreed to something in a place where the terms were hard to read.")]
+],[#catalog-card("Bargain Keeper","s-b22ea03a6a6f", icons: [])[#emph[#text("You agreed to something in a place where the terms were hard to read.")]
 
 #emph[#text("What part of the bargain are you determined to interpret generously?")]
 
@@ -938,14 +836,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Beast-Reared","s-7091aed288e8", icons: [])[#emph[#text("Whether raised, rescued or apprenticed among beasts, you know a world of scent and posture.")]
+],[#catalog-card("Beast-Reared","s-7091aed288e8", icons: [])[#emph[#text("Whether raised, rescued or apprenticed among beasts, you know a world of scent and posture.")]
 
 #emph[#text("Which animal behavior do you still find reassuring?")]
 
@@ -960,14 +854,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Bone Tender","s-872208e28686", icons: [])[#emph[#text("You prepared the dead with care; eventually some seemed reluctant to leave your company.")]
+],[#catalog-card("Bone Tender","s-872208e28686", icons: [])[#emph[#text("You prepared the dead with care; eventually some seemed reluctant to leave your company.")]
 
 #emph[#text("Who taught you that respect and fear are different things?")]
 
@@ -982,20 +872,14 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Bridge Worker","s-f929cff2cbe3", icons: [])[#emph[#text("You have trusted your weight to a knot you tied yourself.")]
+],[#catalog-card("Bridge Worker","s-f929cff2cbe3", icons: [])[#emph[#text("You have trusted your weight to a knot you tied yourself.")]
 
 #emph[#text("Who was beside you the first time the scaffolding shook?")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Type:")]#text(" Background. Choose one paired option; do not mix the rank from one with the card from another.")
-
 #list(
 [#text("Craft 1 and ")#xref("s-55a747e1dcae")[#text("Trail Workshop")]#text(".")
 
@@ -1004,12 +888,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Burglar","s-7984d2b1dc16", icons: [])[#emph[#text("Every fine house has a service door and every service door has a story.")]
+],[#catalog-card("Burglar","s-7984d2b1dc16", icons: [])[#emph[#text("Every fine house has a service door and every service door has a story.")]
 
 #emph[#text("Which room did you leave untouched?")]
 
@@ -1024,14 +906,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Confidence Artist","s-b2b73ee08ff8", icons: [])[#emph[#text("People remember the smile long after they notice what is missing.")]
+],[#catalog-card("Confidence Artist","s-b2b73ee08ff8", icons: [])[#emph[#text("People remember the smile long after they notice what is missing.")]
 
 #emph[#text("Who believed in you when you were finally telling the truth?")]
 
@@ -1046,14 +924,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Court Questioner","s-000117b6bc8f", icons: [])[#emph[#text("You learned that an answer can be perfectly truthful and still hide everything important.")]
+],[#catalog-card("Court Questioner","s-000117b6bc8f", icons: [])[#emph[#text("You learned that an answer can be perfectly truthful and still hide everything important.")]
 
 #emph[#text("Who once answered a question you were afraid to ask?")]
 
@@ -1068,14 +942,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Dragon-Dreamer","s-a312a6907a24", icons: [])[#emph[#text("You dreamed of heat, wings and a voice calling you kin. Then you woke with smoke on your breath.")]
+],[#catalog-card("Dragon-Dreamer","s-a312a6907a24", icons: [])[#emph[#text("You dreamed of heat, wings and a voice calling you kin. Then you woke with smoke on your breath.")]
 
 #emph[#text("Was the dream a memory, a gift or an invitation?")]
 
@@ -1090,14 +960,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Duelist’s Second","s-90952aa5e9c2", icons: [])[#emph[#text("You carried the spare blade, watched every mistake, and sometimes prevented the duel entirely.")]
+],[#catalog-card("Duelist’s Second","s-90952aa5e9c2", icons: [])[#emph[#text("You carried the spare blade, watched every mistake, and sometimes prevented the duel entirely.")]
 
 #emph[#text("Which duel should never have happened?")]
 
@@ -1112,20 +978,14 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Grave Attendant","s-5b31ba339916", icons: [])[#emph[#text("You made sure someone remembered the names after the mourners went home.")]
+],[#catalog-card("Grave Attendant","s-5b31ba339916", icons: [])[#emph[#text("You made sure someone remembered the names after the mourners went home.")]
 
 #emph[#text("Whose grave do you still visit?")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Type:")]#text(" Background. Choose one paired option; do not mix the rank from one with the card from another.")
-
 #list(
 [#text("Medicine 1 and ")#xref("s-d72b8ce2ae0e")[#text("Treat Soft Tissue")]#text(".")
 
@@ -1134,12 +994,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Grove Tended","s-7aafc8f73712", icons: [])[#emph[#text("You learned the names of growing things before you learned the names of distant rulers.")]
+],[#catalog-card("Grove Tended","s-7aafc8f73712", icons: [])[#emph[#text("You learned the names of growing things before you learned the names of distant rulers.")]
 
 #emph[#text("What place do you consider a patient rather than a possession?")]
 
@@ -1154,20 +1012,14 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Household Guard","s-9b1d981dbf2d", icons: [])[#emph[#text("Keeping a household safe meant knowing its people, not only its locks.")]
+],[#catalog-card("Household Guard","s-9b1d981dbf2d", icons: [])[#emph[#text("Keeping a household safe meant knowing its people, not only its locks.")]
 
 #emph[#text("Whose laughter could you recognize from the gate?")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Type:")]#text(" Background. Choose one paired option; do not mix the rank from one with the card from another.")
-
 #list(
 [#text("Arms 1 and ")#xref("s-79bc81080a40")[#text("Hook and Drive")]#text(".")
 
@@ -1176,12 +1028,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Itinerant Tinker","s-5e0e84693b23", icons: [])[#emph[#text("Your workshop fit on your back, and your reputation traveled a village ahead.")]
+],[#catalog-card("Itinerant Tinker","s-5e0e84693b23", icons: [])[#emph[#text("Your workshop fit on your back, and your reputation traveled a village ahead.")]
 
 #emph[#text("What repair earned you a lifelong welcome?")]
 
@@ -1196,14 +1046,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Kennel Keeper","s-8639541ef870", icons: [])[#emph[#text("The hounds knew your footsteps and the difference between your whistle and anyone else’s.")]
+],[#catalog-card("Kennel Keeper","s-8639541ef870", icons: [])[#emph[#text("The hounds knew your footsteps and the difference between your whistle and anyone else’s.")]
 
 #emph[#text("Which companion never came back from a hunt?")]
 
@@ -1218,14 +1064,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Market Chemist","s-5cdcc612834b", icons: [])[#emph[#text("You know which bottle smells like a cure and which only smells expensive.")]
+],[#catalog-card("Market Chemist","s-5cdcc612834b", icons: [])[#emph[#text("You know which bottle smells like a cure and which only smells expensive.")]
 
 #emph[#text("Which customer made you stop exaggerating?")]
 
@@ -1240,20 +1082,14 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Messenger","s-49616a099534", icons: [])[#emph[#text("You carried words that changed lives and learned when not to ask what they meant.")]
+],[#catalog-card("Messenger","s-49616a099534", icons: [])[#emph[#text("You carried words that changed lives and learned when not to ask what they meant.")]
 
 #emph[#text("Which message did you refuse to deliver?")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Type:")]#text(" Background. Choose one paired option; do not mix the rank from one with the card from another.")
-
 #list(
 [#text("Marksmanship 1 and ")#xref("s-a61a3f0d1b49")[#text("Pinning Shot")]#text(".")
 
@@ -1262,12 +1098,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Monastery Runaway","s-725a611cc900", icons: [])[#emph[#text("You left with a discipline in your bones and an unanswered question in your chest.")]
+],[#catalog-card("Monastery Runaway","s-725a611cc900", icons: [])[#emph[#text("You left with a discipline in your bones and an unanswered question in your chest.")]
 
 #emph[#text("What did you take besides your training?")]
 
@@ -1282,14 +1116,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Oath Witness","s-60bc23cf9581", icons: [])[#emph[#text("You stood beside people when they promised what they could not yet know they could bear.")]
+],[#catalog-card("Oath Witness","s-60bc23cf9581", icons: [])[#emph[#text("You stood beside people when they promised what they could not yet know they could bear.")]
 
 #emph[#text("Which broken promise still follows you?")]
 
@@ -1304,14 +1134,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Physician’s Student","s-d0d3a4d3abbf", icons: [])[#emph[#text("Bones, bruises and patient observation taught you how a body works—and where it fails.")]
+],[#catalog-card("Physician’s Student","s-d0d3a4d3abbf", icons: [])[#emph[#text("Bones, bruises and patient observation taught you how a body works—and where it fails.")]
 
 #emph[#text("Who taught you to look twice?")]
 
@@ -1326,14 +1152,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Pit Fighter","s-757fd34b0bb1", icons: [])[#emph[#text("You learned what a crowd sounds like when it decides someone will not get up.")]
+],[#catalog-card("Pit Fighter","s-757fd34b0bb1", icons: [])[#emph[#text("You learned what a crowd sounds like when it decides someone will not get up.")]
 
 #emph[#text("Who did you refuse to finish?")]
 
@@ -1348,14 +1170,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Poacher","s-cb0efb2d07cc", icons: [])[#emph[#text("A forbidden boundary never made a hungry household less hungry.")]
+],[#catalog-card("Poacher","s-cb0efb2d07cc", icons: [])[#emph[#text("A forbidden boundary never made a hungry household less hungry.")]
 
 #emph[#text("Who looked the other way for you?")]
 
@@ -1370,14 +1188,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Reluctant Knife","s-acb3bd269c96", icons: [])[#emph[#text("Someone once paid you to make a problem disappear. You still decide what that made you.")]
+],[#catalog-card("Reluctant Knife","s-acb3bd269c96", icons: [])[#emph[#text("Someone once paid you to make a problem disappear. You still decide what that made you.")]
 
 #emph[#text("Which name did you cross off without taking the job?")]
 
@@ -1392,20 +1206,14 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Shore Gatherer","s-f10b0de9740d", icons: [])[#emph[#text("The shore fed you if you learned when to arrive and what to leave alone.")]
+],[#catalog-card("Shore Gatherer","s-f10b0de9740d", icons: [])[#emph[#text("The shore fed you if you learned when to arrive and what to leave alone.")]
 
 #emph[#text("What did the tide bring you once that it should not have?")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Type:")]#text(" Background. Choose one paired option; do not mix the rank from one with the card from another.")
-
 #list(
 [#text("Wilderness 1 and ")#xref("s-ae0b1a257a5d")[#text("Forage Coast")]#text(".")
 
@@ -1414,18 +1222,14 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Stage Assistant","s-17b8629ba48d", icons: [])[#emph[#text("You made the impossible happen from behind the curtain.")]
+],[#catalog-card("Stage Assistant","s-17b8629ba48d", icons: [])[#emph[#text("You made the impossible happen from behind the curtain.")]
 
 #emph[#text("What trick did the star never learn you invented?")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Type:")]#text(" Background. Choose one paired option; do not mix the rank from one with the card from another.")
-
 #list(
 [#text("Subterfuge 1 and ")#xref("s-ad0b626a10d0")[#text("Create a Distraction")]#text(".")
 
@@ -1434,12 +1238,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Star-Touched","s-a0a16f981f7c", icons: [])[#emph[#text("A night sky, an old mirror or a deep well showed you more than it should.")]
+],[#catalog-card("Star-Touched","s-a0a16f981f7c", icons: [])[#emph[#text("A night sky, an old mirror or a deep well showed you more than it should.")]
 
 #emph[#text("What familiar sight now seems slightly wrong?")]
 
@@ -1454,14 +1256,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Storm Survivor","s-46a389be0e62", icons: [])[#emph[#text("You came back from the weather with something in your voice that was not there before.")]
+],[#catalog-card("Storm Survivor","s-46a389be0e62", icons: [])[#emph[#text("You came back from the weather with something in your voice that was not there before.")]
 
 #emph[#text("What did the storm leave behind?")]
 
@@ -1476,14 +1274,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Temple Attendant","s-bf8362262d71", icons: [])[#emph[#text("You have swept the steps and held the hands of people whose prayers had no words left.")]
+],[#catalog-card("Temple Attendant","s-bf8362262d71", icons: [])[#emph[#text("You have swept the steps and held the hands of people whose prayers had no words left.")]
 
 #emph[#text("What promise outlasted your service?")]
 
@@ -1498,14 +1292,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Traveling Player","s-7a65a53d413e", icons: [])[#emph[#text("You have been cheered, chased away, badly paid and invited back under a different name.")]
+],[#catalog-card("Traveling Player","s-7a65a53d413e", icons: [])[#emph[#text("You have been cheered, chased away, badly paid and invited back under a different name.")]
 
 #emph[#text("Which audience surprised you?")]
 
@@ -1520,14 +1310,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("War Drummer","s-174ecaa5c234", icons: [])[#emph[#text("You know how to make frightened feet move together.")]
+],[#catalog-card("War Drummer","s-174ecaa5c234", icons: [])[#emph[#text("You know how to make frightened feet move together.")]
 
 #emph[#text("Whose pace do you still hear beneath the beat?")]
 
@@ -1542,14 +1328,10 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Ward Scribe","s-00aaf0d70989", icons: [])[#emph[#text("Your marks appeared over doors, cradles and caravan wheels. Sometimes they held.")]
+],[#catalog-card("Ward Scribe","s-00aaf0d70989", icons: [])[#emph[#text("Your marks appeared over doors, cradles and caravan wheels. Sometimes they held.")]
 
 #emph[#text("Which mark will you never draw carelessly?")]
 
@@ -1564,20 +1346,14 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("")#strong[#text("Type:")]#text(" Background ·")
-
-#text("Each option is a pair. Duplicate grants give 1 level-0 DP each; no automatic higher rank. Follow the card’s equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#catalog-card("Weather Apprentice","s-316d900f9ca8", icons: [])[#emph[#text("Your teacher watched the clouds as if reading a difficult letter.")]
+],[#catalog-card("Weather Apprentice","s-316d900f9ca8", icons: [])[#emph[#text("Your teacher watched the clouds as if reading a difficult letter.")]
 
 #emph[#text("Which warning did you finally learn to hear?")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Type:")]#text(" Background. Choose one paired option; do not mix the rank from one with the card from another.")
-
 #list(
 [#text("Storm 1 and ")#xref("s-4308553a40ce")[#text("Gust Hammer")]#text(".")
 
@@ -1586,15 +1362,13 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 ],
 )
-#text("Grant at level 0. Duplicate grants provide 1 stage DP each; never promote a rank automatically. No discipline purchases at level 0. Ancestry does not restrict this choice. Follow each card’s explicit equipment grant.")
-
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-]
+],))
 #tail-art("backgrounds")
 #chapter("4","Classes")
-#grid(columns:(1fr,1fr),gutter:18pt,[Choose the identity you want to bring to the company. Each class grants two starting discipline choices and a signature at levels 1, 3 and 7. Shared abilities remain open to anyone who qualifies. Signatures belong only to their class.
+#grid(columns:(1fr,1fr),gutter:18pt,[Choose the identity you want to bring to the company. Each class grants two starting discipline choices and a signature at levels 1, 3 and 7. Shared abilities remain open to anyone who qualifies. Signatures belong only to their class. Choose one free signature at each milestone; extra eligible signatures cost 2 / 4 / 8 DP. They require only your class and level, with no discipline or earlier-signature requirement.
 
 Meet both attribute minimums before choosing your class. A minimum of zero leaves room for an unconventional hero who succeeds through other strengths. Odd has no minimums and pays the same discipline prices across every field.
 
@@ -1603,20 +1377,20 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ])
 #illustration("classes", height: 350pt, fit: "cover")
-#pagebreak(weak: true)
-#grid(columns: (1fr,1fr), gutter: 18pt, [
-#entry("Protector","s-9c75309ecffd")
-#emph[#text("You see who needs shelter and step into the space between them and harm.")]
+#pagebreak(weak:true)
+#class-panel("Protector","s-9c75309ecffd")[
+#grid(columns:(1.05fr,1fr),gutter:16pt,[#emph[#text("You see who needs shelter and step into the space between them and harm.")]
 
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Fortitude, Reason; HP contribution +5.")
+#text("")#strong[#text("Attributes:")]#text(" Fortitude, Reason ≥ 0. ")#strong[#text("HP:")]#text(" +5. ")#strong[#text("Coins:")]#text(" +5.")
 
-#text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Armor, Guard, Arms, Medicine.")
+#text("")#strong[#text("Starting ranks:")]#text(" Choose two distinct rank-1 disciplines from Armor, Guard, Arms, Medicine.")
 
-#text("")#strong[#text("Discipline pricing:")]#text(" Home: Armor, Guard. Adjacent: Arms, Medicine. All others Foreign; no Opposed disciplines.")
+#heading(level: 3)[#text("Discipline costs · DP per rank")]
+#rule-table(4,([#text("Discipline")],[#text("1")],[#text("2")],[#text("3")],),(([#xref("s-d65e53332dd3")[#text("Armor")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-3665eb8edb20")[#text("Arms")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-2a0238121fdd")[#text("Athletics")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-4fab125b36fd")[#text("Calling")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-15a9aa1a27c4")[#text("Craft")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-1d771974c7da")[#text("Flame")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-1f2c78918dd5")[#text("Frost")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-aa348ec36b9e")[#text("Guard")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-4dd8bd26a8c9")[#text("Influence")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-0cae99582db5")[#text("Life")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-cf9b630681c6")[#text("Marksmanship")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-a258db36f711")[#text("Medicine")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-9a2b3a82ecb8")[#text("Mind")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9f0ff83d0f76")[#text("Radiance")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9ea1803c1690")[#text("Scholarship")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-ed652ae1b42c")[#text("Storm")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-7fab5edbf9e6")[#text("Subterfuge")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-acc9dfe97acc")[#text("Wilderness")]],[#text("3")],[#text("6")],[#text("12")],),), pad: 4pt, font-size: 10pt, widths:(1fr,33pt,33pt,33pt))
 
-#text("Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. No discipline requirements.")
-
-#heading(level: 3)[#text("Level 1 choices")]
+],[#illustration("class-protector-cutout",height:520pt)])]
+#v(8pt)
+#signature-menu[#grid(columns:(1fr,1fr,1fr),gutter:12pt,[#heading(level: 2)[#text("Level 1 choices")]
 #list(
 [#xref("s-4335e5571ac5")[#text("Between Them")]
 
@@ -1628,7 +1402,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 3 choices")]
+],[#heading(level: 2)[#text("Level 3 choices")]
 #list(
 [#xref("s-8c09ee64601e")[#text("Break Their Advance")]
 
@@ -1640,7 +1414,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 7 choices")]
+],[#heading(level: 2)[#text("Level 7 choices")]
 #list(
 [#xref("s-50c3d247c571")[#text("Unbroken Passage")]
 
@@ -1652,26 +1426,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Signature identity in play")]
-#text("Each signature is an independent choice, not a progression chain.")
-
-#list(
-[#text("")#strong[#text("Level 1:")]#text(" Intercept, anchor, or arrive ready to defend.")
-
-],
-[#text("")#strong[#text("Level 3:")]#text(" Push an attacker back, extract the fallen, or make a refuge.")
-
-],
-[#text("")#strong[#text("Level 7:")]#text(" Charge into a strike, clear the circle, or escort companions through danger.")
-
-],
-)
-#text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
-
-], [#illustration("class-protector", height: 460pt, fit: "cover")])
-#pagebreak(weak: true)
-#twocol[
-#card(icons: [],"Between Them","1","Class Protector; minimum level 1","Reaction","None — no roll","Signature / Skill / Defense / Movement","2 DP","s-4335e5571ac5")[
+])]
+#pagebreak(weak:true)
+#reading-columns(([#card(icons: [],"Between Them","1","Class Protector; minimum level 1","Reaction","None — no roll","Signature / Skill / Defense / Movement","2 DP","s-4335e5571ac5")[
 #emph[#text("You step your guard into the line of the strike and wave your companion behind you as it lands.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -1681,13 +1438,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" The triggering attack and immediate ally movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Set Your Feet","1","Class Protector; minimum level 1","Passive","None — no roll","Signature / Skill / Defense","2 DP","s-9be12b5c0ebb")[
+],[#card(icons: [],"Set Your Feet","1","Class Protector; minimum level 1","Passive","None — no roll","Signature / Skill / Defense","2 DP","s-9be12b5c0ebb")[
 #emph[#text("You settle your weight into the ground and draw your guard close, letting the shove spend itself against your stance.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -1697,13 +1450,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" While your Defend remains active.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Close the Gap","1","Class Protector; minimum level 1","Maneuver","None — no roll","Signature / Skill / Movement / Defense","2 DP","s-273733f259e6")[
+],[#card(icons: [],"Close the Gap","1","Class Protector; minimum level 1","Maneuver","None — no roll","Signature / Skill / Movement / Defense","2 DP","s-273733f259e6")[
 #emph[#text("You hurry to a companion’s side and turn outward, ready to meet whatever followed them.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -1713,13 +1462,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; Defend ends at the start of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Break Their Advance","3","Class Protector; minimum level 3","Reaction","None — no roll","Signature / Skill / Control / Movement","4 DP","s-8c09ee64601e")[
+],[#card(icons: [],"Break Their Advance","3","Class Protector; minimum level 3","Reaction","None — no roll","Signature / Skill / Control / Movement","4 DP","s-8c09ee64601e")[
 #emph[#text("You absorb the hit and answer with a hard shove, stepping forward as the attacker stumbles away.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -1729,13 +1474,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate push and movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Shelter the Fallen","3","Class Protector; minimum level 3","Maneuver","None — no roll","Signature / Skill / Recovery / Movement / Defense","4 DP","s-e21a2f248cfa")[
+],[#card(icons: [],"Shelter the Fallen","3","Class Protector; minimum level 3","Maneuver","None — no roll","Signature / Skill / Recovery / Movement / Defense","4 DP","s-e21a2f248cfa")[
 #emph[#text("You drop beside your fallen companion, steady their breathing and drag them behind your guard in one practiced motion.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -1745,13 +1486,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Stabilization and relocation are immediate; your Defend ends at the start of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Make a Refuge","3","Class Protector; minimum level 3","Maneuver","None — no roll","Signature / Skill / Defense","4 DP","s-4e90cb3fee6c")[
+],[#card(icons: [],"Make a Refuge","3","Class Protector; minimum level 3","Maneuver","None — no roll","Signature / Skill / Defense","4 DP","s-4e90cb3fee6c")[
 #emph[#text("You draw a companion into the shelter of your stance and meet the next threat with both of you behind your guard.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -1761,13 +1498,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn; adjacency is required for the ally.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Unbroken Passage","7","Class Protector; minimum level 7","Main Action","None — no roll","Signature / Skill / Movement / Defense","8 DP","s-50c3d247c571")[
+],[#card(icons: [],"Unbroken Passage","7","Class Protector; minimum level 7","Main Action","None — no roll","Signature / Skill / Movement / Defense","8 DP","s-50c3d247c571")[
 #emph[#text("You put yourself at the front and guide your companions through the press, keeping each dangerous opening behind your shoulder.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -1777,13 +1510,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; each defensive Boon expires when used, adjacency is lost or your next turn starts.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Defiant Rescue","7","Class Protector; minimum level 7","Reaction","None — no roll","Signature / Skill / Defense / Movement","8 DP","s-91f1b06884ac")[
+],[#card(icons: [],"Defiant Rescue","7","Class Protector; minimum level 7","Reaction","None — no roll","Signature / Skill / Defense / Movement","8 DP","s-91f1b06884ac")[
 #emph[#text("You see the blow gathering over your companion and charge into its path, driving them back behind your shoulder.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -1795,13 +1524,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" The interception, attack and immediate ally movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Drive Back the Circle","7","Class Protector; minimum level 7","Main Action","None — no roll","Signature / Skill / Control / Movement","8 DP","s-a314c213fd56")[
+],[#card(icons: [],"Drive Back the Circle","7","Class Protector; minimum level 7","Main Action","None — no roll","Signature / Skill / Control / Movement","8 DP","s-a314c213fd56")[
 #emph[#text("You brace and surge outward, forcing the surrounding enemies back while your companions scramble into the room you have made.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -1811,27 +1536,23 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate displacement and ally movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-]
-#pagebreak(weak: true)
-#grid(columns: (1fr,1fr), gutter: 18pt, [
-#entry("Blade","s-4cf3da87b3fe")
-#emph[#text("You make the hard choices in the space between one stroke and the next.")]
+],))
+#pagebreak(weak:true)
+#class-panel("Blade","s-4cf3da87b3fe")[
+#grid(columns:(1.05fr,1fr),gutter:16pt,[#emph[#text("You make the hard choices in the space between one stroke and the next.")]
 
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Agility, Brawn; HP contribution +4.")
+#text("")#strong[#text("Attributes:")]#text(" Agility, Brawn ≥ 0. ")#strong[#text("HP:")]#text(" +4. ")#strong[#text("Coins:")]#text(" +4.")
 
-#text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Arms, Marksmanship, Athletics, Subterfuge.")
+#text("")#strong[#text("Starting ranks:")]#text(" Choose two distinct rank-1 disciplines from Arms, Marksmanship, Athletics, Subterfuge.")
 
-#text("")#strong[#text("Discipline pricing:")]#text(" Home: Arms, Marksmanship. Adjacent: Athletics, Subterfuge. All others Foreign; no Opposed disciplines.")
+#heading(level: 3)[#text("Discipline costs · DP per rank")]
+#rule-table(4,([#text("Discipline")],[#text("1")],[#text("2")],[#text("3")],),(([#xref("s-d65e53332dd3")[#text("Armor")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-3665eb8edb20")[#text("Arms")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-2a0238121fdd")[#text("Athletics")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-4fab125b36fd")[#text("Calling")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-15a9aa1a27c4")[#text("Craft")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-1d771974c7da")[#text("Flame")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-1f2c78918dd5")[#text("Frost")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-aa348ec36b9e")[#text("Guard")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-4dd8bd26a8c9")[#text("Influence")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-0cae99582db5")[#text("Life")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-cf9b630681c6")[#text("Marksmanship")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-a258db36f711")[#text("Medicine")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9a2b3a82ecb8")[#text("Mind")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9f0ff83d0f76")[#text("Radiance")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9ea1803c1690")[#text("Scholarship")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-ed652ae1b42c")[#text("Storm")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-7fab5edbf9e6")[#text("Subterfuge")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-acc9dfe97acc")[#text("Wilderness")]],[#text("3")],[#text("6")],[#text("12")],),), pad: 4pt, font-size: 10pt, widths:(1fr,33pt,33pt,33pt))
 
-#text("Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. No discipline requirements.")
-
-#heading(level: 3)[#text("Level 1 choices")]
+],[#illustration("class-blade-cutout",height:520pt)])]
+#v(8pt)
+#signature-menu[#grid(columns:(1fr,1fr,1fr),gutter:12pt,[#heading(level: 2)[#text("Level 1 choices")]
 #list(
 [#xref("s-3f26202b388c")[#text("Cut and Turn")]
 
@@ -1843,7 +1564,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 3 choices")]
+],[#heading(level: 2)[#text("Level 3 choices")]
 #list(
 [#xref("s-1120d1e1dd74")[#text("Sweeping Entry")]
 
@@ -1855,7 +1576,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 7 choices")]
+],[#heading(level: 2)[#text("Level 7 choices")]
 #list(
 [#xref("s-75f95aa509b8")[#text("Dance Through Steel")]
 
@@ -1867,26 +1588,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Signature identity in play")]
-#text("Each signature is an independent choice, not a progression chain.")
-
-#list(
-[#text("")#strong[#text("Level 1:")]#text(" Flow through melee, hinder a target, or guard and reposition.")
-
-],
-[#text("")#strong[#text("Level 3:")]#text(" Enter decisively, counterattack, or take an opponent's footing.")
-
-],
-[#text("")#strong[#text("Level 7:")]#text(" Strike a surrounding group, pursue and strike, or dictate where the duel moves.")
-
-],
-)
-#text("")#strong[#text("Starting coin contribution:")]#text(" +4 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
-
-], [#illustration("class-blade", height: 460pt, fit: "cover")])
-#pagebreak(weak: true)
-#twocol[
-#card(icons: [],"Cut and Turn","1","Class Blade; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-3f26202b388c")[
+])]
+#pagebreak(weak:true)
+#reading-columns(([#card(icons: [],"Cut and Turn","1","Class Blade; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-3f26202b388c")[
 #emph[#text("You follow the stroke through with your feet and slip around the edge of your opponent’s guard.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -1896,13 +1600,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
-#card(icons: [],"Pressure Point","1","Class Blade; minimum level 1","Passive","None — no roll","Signature / Skill / Control","2 DP","s-d51228096429")[
+],[#card(icons: [],"Pressure Point","1","Class Blade; minimum level 1","Passive","None — no roll","Signature / Skill / Control","2 DP","s-d51228096429")[
 #emph[#text("You turn your strike across a joint or supporting limb, leaving your opponent struggling to keep pace.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -1912,13 +1614,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Slowed uses normal decay.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; no benefit from free attacks.")
 
 ]
-#card(icons: [],"Measured Guard","1","Class Blade; minimum level 1","Reaction","None — no roll","Signature / Skill / Defense / Movement","2 DP","s-4f08c7da2fe3")[
+],[#card(icons: [],"Measured Guard","1","Class Blade; minimum level 1","Reaction","None — no roll","Signature / Skill / Defense / Movement","2 DP","s-4f08c7da2fe3")[
 #emph[#text("You catch the incoming blow on your guard and turn your shoulders, stepping smoothly past its line.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -1928,13 +1628,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" The triggering defense and immediate movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Sweeping Entry","3","Class Blade; minimum level 3","Maneuver","None — no roll","Signature / Skill / Movement / Control","4 DP","s-1120d1e1dd74")[
+],[#card(icons: [],"Sweeping Entry","3","Class Blade; minimum level 3","Maneuver","None — no roll","Signature / Skill / Movement / Control","4 DP","s-1120d1e1dd74")[
 #emph[#text("You rush in behind a broad sweep, using the threat of the blade to claim a better position.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -1944,13 +1640,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; unused push benefit expires at turn end.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Return Stroke","3","Class Blade; minimum level 3","Reaction","None — no roll","Signature / Skill / Attack","4 DP","s-381ca0bbc05b")[
+],[#card(icons: [],"Return Stroke","3","Class Blade; minimum level 3","Reaction","None — no roll","Signature / Skill / Attack","4 DP","s-381ca0bbc05b")[
 #emph[#text("You let the attack slide past your guard and bring your weapon back before your opponent recovers.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -1963,10 +1655,8 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Gear:")]#text(" Requires a melee weapon; grants one ordinary melee weapon, Bulk 1, if absent.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Fell the Balance","3","Class Blade; minimum level 3","Passive","None — no roll","Signature / Skill / Control","4 DP","s-8d84d83e83eb")[
+],[#card(icons: [],"Fell the Balance","3","Class Blade; minimum level 3","Passive","None — no roll","Signature / Skill / Control","4 DP","s-8d84d83e83eb")[
 #emph[#text("You feel their weight shift, hook their footing with your own and let the strike finish the fall.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -1976,13 +1666,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Prone lasts until removed normally.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; no benefit from free attacks.")
 
 ]
-#card(icons: [],"Dance Through Steel","7","Class Blade; minimum level 7","Main Action","Agility","Signature / Skill / Attack / Movement","8 DP","s-75f95aa509b8")[
+],[#card(icons: [],"Dance Through Steel","7","Class Blade; minimum level 7","Main Action","Agility","Signature / Skill / Attack / Movement","8 DP","s-75f95aa509b8")[
 #emph[#text("You turn through the surrounding blades, strike each opening in a single flowing sequence and step out before the circle closes.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2008,10 +1696,8 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Gear:")]#text(" Requires a melee weapon; grants one ordinary melee weapon, Bulk 1, if absent.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Relentless Pursuit","7","Class Blade; minimum level 7","Reaction","None — no roll","Signature / Skill / Movement / Attack","8 DP","s-d9eab10d11e5")[
+],[#card(icons: [],"Relentless Pursuit","7","Class Blade; minimum level 7","Reaction","None — no roll","Signature / Skill / Movement / Attack","8 DP","s-d9eab10d11e5")[
 #emph[#text("You follow the retreating shoulder through the press, keeping your blade close enough that escape becomes another opening.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2024,10 +1710,8 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Gear:")]#text(" A melee weapon is required for the attack; grants one ordinary melee weapon, Bulk 1, if absent.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Perfect Placement","7","Class Blade; minimum level 7","Passive","None — no roll","Signature / Skill / Control / Movement","8 DP","s-72486f7e3bed")[
+],[#card(icons: [],"Perfect Placement","7","Class Blade; minimum level 7","Passive","None — no roll","Signature / Skill / Control / Movement","8 DP","s-72486f7e3bed")[
 #emph[#text("You turn your opponent with the flat of your weapon, then step into the ground you have made them surrender.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2037,27 +1721,25 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate push and personal movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; no benefit from free attacks.")
 
 ]
-]
-#pagebreak(weak: true)
-#grid(columns: (1fr,1fr), gutter: 18pt, [
-#entry("Arcanist","s-cb5021228f43")
-#emph[#text("You study the impossible until your hands can give it a shape the world must briefly accept.")]
+],))
+#pagebreak(weak:true)
+#class-panel("Arcanist","s-cb5021228f43")[
+#grid(columns:(1.05fr,1fr),gutter:16pt,[#emph[#text("You study the impossible until your hands can give it a shape the world must briefly accept.")]
 
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Agility, Knowledge; HP contribution +2.")
+#text("")#strong[#text("Attributes:")]#text(" Agility, Knowledge ≥ 0. ")#strong[#text("HP:")]#text(" +2. ")#strong[#text("Coins:")]#text(" +6.")
 
-#text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Flame, Frost, Storm, Scholarship, Calling.")
+#text("")#strong[#text("Starting ranks:")]#text(" Choose two distinct rank-1 disciplines from Flame, Frost, Storm, Scholarship, Calling.")
 
-#text("")#strong[#text("Discipline pricing:")]#text(" Home: Flame, Frost. Adjacent: Storm, Scholarship, Calling. All others Foreign; no Opposed disciplines.")
+#heading(level: 3)[#text("Discipline costs · DP per rank")]
+#rule-table(4,([#text("Discipline")],[#text("1")],[#text("2")],[#text("3")],),(([#xref("s-d65e53332dd3")[#text("Armor")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-3665eb8edb20")[#text("Arms")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-2a0238121fdd")[#text("Athletics")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-4fab125b36fd")[#text("Calling")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-15a9aa1a27c4")[#text("Craft")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-1d771974c7da")[#text("Flame")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-1f2c78918dd5")[#text("Frost")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-aa348ec36b9e")[#text("Guard")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-4dd8bd26a8c9")[#text("Influence")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-0cae99582db5")[#text("Life")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-cf9b630681c6")[#text("Marksmanship")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-a258db36f711")[#text("Medicine")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9a2b3a82ecb8")[#text("Mind")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9f0ff83d0f76")[#text("Radiance")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9ea1803c1690")[#text("Scholarship")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-ed652ae1b42c")[#text("Storm")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-7fab5edbf9e6")[#text("Subterfuge")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-acc9dfe97acc")[#text("Wilderness")]],[#text("3")],[#text("6")],[#text("12")],),), pad: 4pt, font-size: 10pt, widths:(1fr,33pt,33pt,33pt))
 
-#text("Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. No discipline requirements.")
-
-#heading(level: 3)[#text("Level 1 choices")]
+],[#illustration("class-arcanist-cutout",height:520pt)])]
+#v(8pt)
+#signature-menu[#grid(columns:(1fr,1fr,1fr),gutter:12pt,[#heading(level: 2)[#text("Level 1 choices")]
 #list(
 [#xref("s-a5b4dd204040")[#text("Bent Trajectory")]
 
@@ -2069,7 +1751,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 3 choices")]
+],[#heading(level: 2)[#text("Level 3 choices")]
 #list(
 [#xref("s-2d8ecd1b85ad")[#text("Cast and Scatter")]
 
@@ -2081,7 +1763,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 7 choices")]
+],[#heading(level: 2)[#text("Level 7 choices")]
 #list(
 [#xref("s-5932fc2c7bf9")[#text("Fold the Distance")]
 
@@ -2093,26 +1775,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Signature identity in play")]
-#text("Each signature is an independent choice, not a progression chain.")
-
-#list(
-[#text("")#strong[#text("Level 1:")]#text(" Bend spell angles, add a spark's shove, or read active magic.")
-
-],
-[#text("")#strong[#text("Level 3:")]#text(" Move after casting, protect one creature from an area, or turn spell pressure aside.")
-
-],
-[#text("")#strong[#text("Level 7:")]#text(" Move a companion through space, shape a spell's final displacement, or ward a circle.")
-
-],
-)
-#text("")#strong[#text("Starting coin contribution:")]#text(" +6 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
-
-], [#illustration("class-arcanist", height: 460pt, fit: "cover")])
-#pagebreak(weak: true)
-#twocol[
-#card(icons: [],"Bent Trajectory","1","Class Arcanist; minimum level 1","Passive","None — no roll","Signature / Magic / Utility","2 DP","s-a5b4dd204040")[
+])]
+#pagebreak(weak:true)
+#reading-columns(([#card(icons: [],"Bent Trajectory","1","Class Arcanist; minimum level 1","Passive","None — no roll","Signature / Magic / Utility","2 DP","s-a5b4dd204040")[
 #emph[#text("You incline a finger, sending your spell around the nearer edge of a pillar before it turns toward your mark.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2122,13 +1787,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" For that spell.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Deliberate Spark","1","Class Arcanist; minimum level 1","Passive","None — no roll","Signature / Magic / Control","2 DP","s-dfff0029aed9")[
+],[#card(icons: [],"Deliberate Spark","1","Class Arcanist; minimum level 1","Passive","None — no roll","Signature / Magic / Control","2 DP","s-dfff0029aed9")[
 #emph[#text("You flick a final spark into the ground beside your target’s foot, forcing a stumbling step as the spell lands.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2138,13 +1799,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate push after the spell.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; no benefit from free attacks.")
 
 ]
-#card(icons: [],"Study the Pattern","1","Class Arcanist; minimum level 1","Maneuver","None — no roll","Signature / Magic / Utility","2 DP","s-83fb666fdd7b")[
+],[#card(icons: [],"Study the Pattern","1","Class Arcanist; minimum level 1","Maneuver","None — no roll","Signature / Magic / Utility","2 DP","s-83fb666fdd7b")[
 #emph[#text("You trace the glowing lines in the air until you can feel which thread is holding the magic together.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2154,13 +1813,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Information remains known; the Boon ends when used or the scene ends.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One Boon from studying a given effect per scene; reexamining it does not refresh that Boon.")
 
 ]
-#card(icons: [],"Cast and Scatter","3","Class Arcanist; minimum level 3","Passive","None — no roll","Signature / Magic / Movement","4 DP","s-2d8ecd1b85ad")[
+],[#card(icons: [],"Cast and Scatter","3","Class Arcanist; minimum level 3","Passive","None — no roll","Signature / Magic / Movement","4 DP","s-2d8ecd1b85ad")[
 #emph[#text("Your spell bursts from your hands and you follow its recoil into a quick sidestep, robes brushing the space where you stood.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2170,13 +1827,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
-#card(icons: [],"Leave a Window","3","Class Arcanist; minimum level 3","Passive","None — no roll","Signature / Magic / Utility","4 DP","s-336b5136b2e5")[
+],[#card(icons: [],"Leave a Window","3","Class Arcanist; minimum level 3","Passive","None — no roll","Signature / Magic / Utility","4 DP","s-336b5136b2e5")[
 #emph[#text("You spread your fingers around a companion’s silhouette and the gathering storm parts around them.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2186,13 +1841,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" For that spell.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Arcane Deflection","3","Class Arcanist; minimum level 3","Reaction","None — no roll","Signature / Magic / Defense","4 DP","s-969275257404")[
+],[#card(icons: [],"Arcane Deflection","3","Class Arcanist; minimum level 3","Reaction","None — no roll","Signature / Magic / Defense","4 DP","s-969275257404")[
 #emph[#text("You catch the approaching spell against a spread palm and twist, sending its pressure back toward its maker.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2202,13 +1853,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" The triggering defense and immediate push.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Fold the Distance","7","Class Arcanist; minimum level 7","Maneuver","None — no roll","Signature / Magic / Movement","8 DP","s-5932fc2c7bf9")[
+],[#card(icons: [],"Fold the Distance","7","Class Arcanist; minimum level 7","Maneuver","None — no roll","Signature / Magic / Movement","8 DP","s-5932fc2c7bf9")[
 #emph[#text("You pinch a crease in the air and step through it, drawing a companion across with your outstretched hand.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2218,13 +1865,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate teleportation.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Choose the Edge","7","Class Arcanist; minimum level 7","Passive","None — no roll","Signature / Magic / Control","8 DP","s-fbac25a80193")[
+],[#card(icons: [],"Choose the Edge","7","Class Arcanist; minimum level 7","Passive","None — no roll","Signature / Magic / Control","8 DP","s-fbac25a80193")[
 #emph[#text("You turn both hands as the spell breaks, guiding its last rush of force toward the places you want emptied.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2234,13 +1877,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate displacement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; no benefit from free attacks.")
 
 ]
-#card(icons: [],"Open the Circle","7","Class Arcanist; minimum level 7","Maneuver","None — no roll","Signature / Magic / Defense","8 DP","s-301348e613df")[
+],[#card(icons: [],"Open the Circle","7","Class Arcanist; minimum level 7","Maneuver","None — no roll","Signature / Magic / Defense","8 DP","s-301348e613df")[
 #emph[#text("You sweep a ring of light around your companions, its edge rising like a thin glass wall when magic strikes.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2250,27 +1891,25 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn; mark each recipient’s Stability grant when used.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Reapplying replaces your previous ward; it does not refresh a recipient’s spent Stability grant before your next turn.")
 
 ]
-]
-#pagebreak(weak: true)
-#grid(columns: (1fr,1fr), gutter: 18pt, [
-#entry("Shepherd","s-2ec72f4532a5")
-#emph[#text("You listen for the wavering voice and help it find its way back to the others.")]
+],))
+#pagebreak(weak:true)
+#class-panel("Shepherd","s-2ec72f4532a5")[
+#grid(columns:(1.05fr,1fr),gutter:16pt,[#emph[#text("You listen for the wavering voice and help it find its way back to the others.")]
 
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Reason, Guile; HP contribution +3.")
+#text("")#strong[#text("Attributes:")]#text(" Reason, Guile ≥ 0. ")#strong[#text("HP:")]#text(" +3. ")#strong[#text("Coins:")]#text(" +3.")
 
-#text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Life, Radiance, Medicine, Wilderness.")
+#text("")#strong[#text("Starting ranks:")]#text(" Choose two distinct rank-1 disciplines from Life, Radiance, Medicine, Wilderness.")
 
-#text("")#strong[#text("Discipline pricing:")]#text(" Home: Life, Radiance. Adjacent: Medicine, Wilderness. All others Foreign; no Opposed disciplines.")
+#heading(level: 3)[#text("Discipline costs · DP per rank")]
+#rule-table(4,([#text("Discipline")],[#text("1")],[#text("2")],[#text("3")],),(([#xref("s-d65e53332dd3")[#text("Armor")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-3665eb8edb20")[#text("Arms")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-2a0238121fdd")[#text("Athletics")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-4fab125b36fd")[#text("Calling")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-15a9aa1a27c4")[#text("Craft")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-1d771974c7da")[#text("Flame")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-1f2c78918dd5")[#text("Frost")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-aa348ec36b9e")[#text("Guard")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-4dd8bd26a8c9")[#text("Influence")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-0cae99582db5")[#text("Life")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-cf9b630681c6")[#text("Marksmanship")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-a258db36f711")[#text("Medicine")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-9a2b3a82ecb8")[#text("Mind")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9f0ff83d0f76")[#text("Radiance")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-9ea1803c1690")[#text("Scholarship")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-ed652ae1b42c")[#text("Storm")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-7fab5edbf9e6")[#text("Subterfuge")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-acc9dfe97acc")[#text("Wilderness")]],[#text("2")],[#text("4")],[#text("8")],),), pad: 4pt, font-size: 10pt, widths:(1fr,33pt,33pt,33pt))
 
-#text("Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. No discipline requirements.")
-
-#heading(level: 3)[#text("Level 1 choices")]
+],[#illustration("class-shepherd-cutout",height:520pt)])]
+#v(8pt)
+#signature-menu[#grid(columns:(1fr,1fr,1fr),gutter:12pt,[#heading(level: 2)[#text("Level 1 choices")]
 #list(
 [#xref("s-1754613b54b5")[#text("Gentle Return")]
 
@@ -2282,7 +1921,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 3 choices")]
+],[#heading(level: 2)[#text("Level 3 choices")]
 #list(
 [#xref("s-b86f62a4d65f")[#text("Quiet the Tremor")]
 
@@ -2294,7 +1933,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 7 choices")]
+],[#heading(level: 2)[#text("Level 7 choices")]
 #list(
 [#xref("s-5339078db195")[#text("A Hand in Darkness")]
 
@@ -2306,26 +1945,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Signature identity in play")]
-#text("Each signature is an independent choice, not a progression chain.")
-
-#list(
-[#text("")#strong[#text("Level 1:")]#text(" Support returning movement, stabilize at range, or ease a condition.")
-
-],
-[#text("")#strong[#text("Level 3:")]#text(" Calm shock, call the wounded nearer, or transfer life carefully.")
-
-],
-[#text("")#strong[#text("Level 7:")]#text(" Reach the dying, restore health and composure, or settle a whole group's distress.")
-
-],
-)
-#text("")#strong[#text("Starting coin contribution:")]#text(" +3 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
-
-], [#illustration("class-shepherd", height: 460pt, fit: "cover")])
-#pagebreak(weak: true)
-#twocol[
-#card(icons: [],"Gentle Return","1","Class Shepherd; minimum level 1","Passive","None — no roll","Signature / Skill / Recovery / Movement","2 DP","s-1754613b54b5")[
+])]
+#pagebreak(weak:true)
+#reading-columns(([#card(icons: [],"Gentle Return","1","Class Shepherd; minimum level 1","Passive","None — no roll","Signature / Skill / Recovery / Movement","2 DP","s-1754613b54b5")[
 #emph[#text("You steady your companion as warmth returns, guiding their first step away from the place where they fell.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2335,13 +1957,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate stand and movement after healing.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; the ally must actually regain HP.")
 
 ]
-#card(icons: [],"Hear Me Still","1","Class Shepherd; minimum level 1","Passive","None — no roll","Signature / Magic / Recovery / Movement","2 DP","s-61b0734b97e4")[
+],[#card(icons: [],"Hear Me Still","1","Class Shepherd; minimum level 1","Passive","None — no roll","Signature / Magic / Recovery / Movement","2 DP","s-61b0734b97e4")[
 #emph[#text("You keep speaking as you move closer, giving the fading breath a familiar voice to follow.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2351,13 +1971,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate stabilization and personal movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Ease the Burden","1","Class Shepherd; minimum level 1","Main Action","Reason","Signature / Skill / Recovery","2 DP","s-549d51c08fac")[
+],[#card(icons: [],"Ease the Burden","1","Class Shepherd; minimum level 1","Main Action","Reason","Signature / Skill / Recovery","2 DP","s-549d51c08fac")[
 #emph[#text("You kneel close, steady the trembling hands or bind the hurt, and talk your companion through the next breath.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2380,13 +1996,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate reduction and possible movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Quiet the Tremor","3","Class Shepherd; minimum level 3","Maneuver","None — no roll","Signature / Skill / Recovery / Defense","4 DP","s-b86f62a4d65f")[
+],[#card(icons: [],"Quiet the Tremor","3","Class Shepherd; minimum level 3","Maneuver","None — no roll","Signature / Skill / Recovery / Defense","4 DP","s-b86f62a4d65f")[
 #emph[#text("You meet their unfocused gaze, name something familiar and wait for their breathing to settle.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2396,13 +2008,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Reduction is immediate; the Boon expires when used or the start of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
-#card(icons: [],"Bring Them Near","3","Class Shepherd; minimum level 3","Reaction","None — no roll","Signature / Skill / Movement / Defense","4 DP","s-8570d0c3185a")[
+],[#card(icons: [],"Bring Them Near","3","Class Shepherd; minimum level 3","Reaction","None — no roll","Signature / Skill / Movement / Defense","4 DP","s-8570d0c3185a")[
 #emph[#text("You reach toward your companion as the blow lands, calling them back along the safe route you can see.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2412,13 +2022,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; Boon expires when used or the start of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Careful Transfer","3","Class Shepherd; minimum level 3","Main Action","Reason","Signature / Magic / Recovery","4 DP","s-0569495be2d1")[
+],[#card(icons: [],"Careful Transfer","3","Class Shepherd; minimum level 3","Main Action","Reason","Signature / Magic / Recovery","4 DP","s-0569495be2d1")[
 #emph[#text("You press an open hand toward the injury and give a measured surge of your own warmth, keeping your voice steady as the effort leaves you pale.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2446,12 +2052,10 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Gear:")]#text(" A free hand; no item granted.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
 
 ]
-#card(icons: [],"A Hand in Darkness","7","Class Shepherd; minimum level 7","Reaction","None — no roll","Signature / Skill / Recovery / Movement","8 DP","s-5339078db195")[
+],[#card(icons: [],"A Hand in Darkness","7","Class Shepherd; minimum level 7","Reaction","None — no roll","Signature / Skill / Recovery / Movement","8 DP","s-5339078db195")[
 #emph[#text("You hurry to the fallen voice, keep a hand against the wound and draw your companion into the shelter beside you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2461,13 +2065,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate approach, stabilization and optional extraction.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Restore Composure","7","Class Shepherd; minimum level 7","Main Action","Reason","Signature / Magic / Recovery","8 DP","s-383c1aff42e3")[
+],[#card(icons: [],"Restore Composure","7","Class Shepherd; minimum level 7","Main Action","Reason","Signature / Magic / Recovery","8 DP","s-383c1aff42e3")[
 #emph[#text("You take their shaking hands and pour life into them, holding their gaze until the battlefield comes back into focus.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2495,12 +2095,10 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Gear:")]#text(" A free hand; no item granted.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
 
 ]
-#card(icons: [],"Shared Resolve","7","Class Shepherd; minimum level 7","Main Action","None — no roll","Signature / Skill / Recovery / Defense","8 DP","s-8b675c163f14")[
+],[#card(icons: [],"Shared Resolve","7","Class Shepherd; minimum level 7","Main Action","None — no roll","Signature / Skill / Recovery / Defense","8 DP","s-8b675c163f14")[
 #emph[#text("You gather your companions with a few familiar words, steadying one trembling voice after another until they answer together.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2510,27 +2108,23 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Reductions are immediate; Boons expire when used or the start of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-]
-#pagebreak(weak: true)
-#grid(columns: (1fr,1fr), gutter: 18pt, [
-#entry("Intellect","s-5f996d5a0ee9")
-#emph[#text("You see a pattern where others see only trouble, and trust your understanding enough to act.")]
+],))
+#pagebreak(weak:true)
+#class-panel("Intellect","s-5f996d5a0ee9")[
+#grid(columns:(1.05fr,1fr),gutter:16pt,[#emph[#text("You see a pattern where others see only trouble, and trust your understanding enough to act.")]
 
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Knowledge, Reason; HP contribution +2.")
+#text("")#strong[#text("Attributes:")]#text(" Knowledge, Reason ≥ 0. ")#strong[#text("HP:")]#text(" +2. ")#strong[#text("Coins:")]#text(" +8.")
 
-#text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Scholarship, Craft, Medicine, Mind.")
+#text("")#strong[#text("Starting ranks:")]#text(" Choose two distinct rank-1 disciplines from Scholarship, Craft, Medicine, Mind.")
 
-#text("")#strong[#text("Discipline pricing:")]#text(" Home: Scholarship, Craft. Adjacent: Medicine, Mind. All others Foreign; no Opposed disciplines.")
+#heading(level: 3)[#text("Discipline costs · DP per rank")]
+#rule-table(4,([#text("Discipline")],[#text("1")],[#text("2")],[#text("3")],),(([#xref("s-d65e53332dd3")[#text("Armor")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-3665eb8edb20")[#text("Arms")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-2a0238121fdd")[#text("Athletics")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-4fab125b36fd")[#text("Calling")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-15a9aa1a27c4")[#text("Craft")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-1d771974c7da")[#text("Flame")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-1f2c78918dd5")[#text("Frost")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-aa348ec36b9e")[#text("Guard")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-4dd8bd26a8c9")[#text("Influence")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-0cae99582db5")[#text("Life")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-cf9b630681c6")[#text("Marksmanship")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-a258db36f711")[#text("Medicine")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-9a2b3a82ecb8")[#text("Mind")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-9f0ff83d0f76")[#text("Radiance")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9ea1803c1690")[#text("Scholarship")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-ed652ae1b42c")[#text("Storm")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-7fab5edbf9e6")[#text("Subterfuge")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-acc9dfe97acc")[#text("Wilderness")]],[#text("3")],[#text("6")],[#text("12")],),), pad: 4pt, font-size: 10pt, widths:(1fr,33pt,33pt,33pt))
 
-#text("Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. No discipline requirements.")
-
-#heading(level: 3)[#text("Level 1 choices")]
+],[#illustration("class-intellect-cutout",height:520pt)])]
+#v(8pt)
+#signature-menu[#grid(columns:(1fr,1fr,1fr),gutter:12pt,[#heading(level: 2)[#text("Level 1 choices")]
 #list(
 [#xref("s-b22ada34d129")[#text("Spot the Leverage")]
 
@@ -2542,7 +2136,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 3 choices")]
+],[#heading(level: 2)[#text("Level 3 choices")]
 #list(
 [#xref("s-af63ae7d05da")[#text("A Better Angle")]
 
@@ -2554,7 +2148,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 7 choices")]
+],[#heading(level: 2)[#text("Level 7 choices")]
 #list(
 [#xref("s-c7151cad6573")[#text("A Route for Everyone")]
 
@@ -2566,26 +2160,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Signature identity in play")]
-#text("Each signature is an independent choice, not a progression chain.")
-
-#list(
-[#text("")#strong[#text("Level 1:")]#text(" Find leverage, connect evidence, or give useful directions.")
-
-],
-[#text("")#strong[#text("Level 3:")]#text(" Direct an ally, diagnose mechanisms, or predict an attack.")
-
-],
-[#text("")#strong[#text("Level 7:")]#text(" Route the party, reconstruct events, or expose a target for allies.")
-
-],
-)
-#text("")#strong[#text("Starting coin contribution:")]#text(" +8 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
-
-], [#illustration("class-intellect", height: 460pt, fit: "cover")])
-#pagebreak(weak: true)
-#twocol[
-#card(icons: [],"Spot the Leverage","1","Class Intellect; minimum level 1","Maneuver","None — no roll","Signature / Skill / Utility","2 DP","s-b22ada34d129")[
+])]
+#pagebreak(weak:true)
+#reading-columns(([#card(icons: [],"Spot the Leverage","1","Class Intellect; minimum level 1","Maneuver","None — no roll","Signature / Skill / Utility","2 DP","s-b22ada34d129")[
 #emph[#text("You study the hinges and weight of the obstacle, then point to the place where a small effort will matter most.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2595,13 +2172,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Information persists; the Boons expire when used or the scene ends.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One application per obstacle per scene; repeated examination does not refresh spent Boons.")
 
 ]
-#card(icons: [],"Make the Connection","1","Class Intellect; minimum level 1","Main Action","None — no roll","Signature / Skill / Utility","2 DP","s-a2d1a9eb1143")[
+],[#card(icons: [],"Make the Connection","1","Class Intellect; minimum level 1","Main Action","None — no roll","Signature / Skill / Utility","2 DP","s-a2d1a9eb1143")[
 #emph[#text("You set two pieces of evidence side by side and notice the small detail that makes them belong to the same story.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2613,13 +2188,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Information remains known.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One reading per question until new evidence becomes available.")
 
 ]
-#card(icons: [],"Prepared Explanation","1","Class Intellect; minimum level 1","Passive","None — no roll","Signature / Skill / Utility / Movement","2 DP","s-b12f04f5c58f")[
+],[#card(icons: [],"Prepared Explanation","1","Class Intellect; minimum level 1","Passive","None — no roll","Signature / Skill / Utility / Movement","2 DP","s-b12f04f5c58f")[
 #emph[#text("You give your companion a few precise words, then point out the place their next step should land.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2629,13 +2202,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; Aid lasts until used or the start of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" The movement benefit can be granted once on your turn.")
 
 ]
-#card(icons: [],"A Better Angle","3","Class Intellect; minimum level 3","Maneuver","None — no roll","Signature / Skill / Utility / Movement","4 DP","s-af63ae7d05da")[
+],[#card(icons: [],"A Better Angle","3","Class Intellect; minimum level 3","Maneuver","None — no roll","Signature / Skill / Utility / Movement","4 DP","s-af63ae7d05da")[
 #emph[#text("You call two short directions, placing your companion where they can see the opening you have found.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2645,13 +2216,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; Boon expires when used or the start of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Diagnose the Failure","3","Class Intellect; minimum level 3","Main Action","None — no roll","Signature / Skill / Utility","4 DP","s-7d356f4230de")[
+],[#card(icons: [],"Diagnose the Failure","3","Class Intellect; minimum level 3","Main Action","None — no roll","Signature / Skill / Utility","4 DP","s-7d356f4230de")[
 #emph[#text("You stop the turning wheel with a tool, listen to the last click and show your companions exactly where the mechanism went wrong.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2669,7 +2236,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One Boon grant per mechanism until it materially changes.")
 
 ]
-#card(icons: [],"Predict the Motion","3","Class Intellect; minimum level 3","Reaction","None — no roll","Signature / Skill / Defense","4 DP","s-70b23265ef79")[
+],[#card(icons: [],"Predict the Motion","3","Class Intellect; minimum level 3","Reaction","None — no roll","Signature / Skill / Defense","4 DP","s-70b23265ef79")[
 #emph[#text("You watch the attacker’s hips and shoulders, then call the turn before the weapon follows.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2679,13 +2246,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" The triggering defense only.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"A Route for Everyone","7","Class Intellect; minimum level 7","Main Action","None — no roll","Signature / Skill / Movement / Defense","8 DP","s-c7151cad6573")[
+],[#card(icons: [],"A Route for Everyone","7","Class Intellect; minimum level 7","Main Action","None — no roll","Signature / Skill / Movement / Defense","8 DP","s-c7151cad6573")[
 #emph[#text("You trace the route in the air and name each companion in turn, turning a crowded battlefield into a sequence of clear steps.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2695,13 +2258,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; each Boon expires when used or the start of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Test the Hypothesis","7","Class Intellect; minimum level 7","Main Action","None — no roll","Signature / Skill / Utility","8 DP","s-d4ae4f067a54")[
+],[#card(icons: [],"Test the Hypothesis","7","Class Intellect; minimum level 7","Main Action","None — no roll","Signature / Skill / Utility","8 DP","s-d4ae4f067a54")[
 #emph[#text("You arrange the evidence, explain what must have happened and ask your companions to watch while you test the part that could prove you wrong.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2713,13 +2272,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" The account and its stated limits remain known.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One account per question; new evidence permits a new examination.")
 
 ]
-#card(icons: [],"Expose the Mechanism","7","Class Intellect; minimum level 7","Maneuver","None — no roll","Signature / Skill / Utility","8 DP","s-fa4cc330b2e7")[
+],[#card(icons: [],"Expose the Mechanism","7","Class Intellect; minimum level 7","Maneuver","None — no roll","Signature / Skill / Utility","8 DP","s-fa4cc330b2e7")[
 #emph[#text("You point out the repeating hesitation in the creature’s movements and call to your companions just as it happens again.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2729,27 +2286,23 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Information persists; each Boon expires when used or the start of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-]
-#pagebreak(weak: true)
-#grid(columns: (1fr,1fr), gutter: 18pt, [
-#entry("Leader","s-a06f8adb7ce7")
-#emph[#text("You turn to your companions and give them a reason to move together.")]
+],))
+#pagebreak(weak:true)
+#class-panel("Leader","s-a06f8adb7ce7")[
+#grid(columns:(1.05fr,1fr),gutter:16pt,[#emph[#text("You turn to your companions and give them a reason to move together.")]
 
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Guile, Fortitude; HP contribution +4.")
+#text("")#strong[#text("Attributes:")]#text(" Guile, Fortitude ≥ 0. ")#strong[#text("HP:")]#text(" +4. ")#strong[#text("Coins:")]#text(" +6.")
 
-#text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Influence, Guard, Arms, Scholarship.")
+#text("")#strong[#text("Starting ranks:")]#text(" Choose two distinct rank-1 disciplines from Influence, Guard, Arms, Scholarship.")
 
-#text("")#strong[#text("Discipline pricing:")]#text(" Home: Influence, Guard. Adjacent: Arms, Scholarship. All others Foreign; no Opposed disciplines.")
+#heading(level: 3)[#text("Discipline costs · DP per rank")]
+#rule-table(4,([#text("Discipline")],[#text("1")],[#text("2")],[#text("3")],),(([#xref("s-d65e53332dd3")[#text("Armor")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-3665eb8edb20")[#text("Arms")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-2a0238121fdd")[#text("Athletics")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-4fab125b36fd")[#text("Calling")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-15a9aa1a27c4")[#text("Craft")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-1d771974c7da")[#text("Flame")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-1f2c78918dd5")[#text("Frost")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-aa348ec36b9e")[#text("Guard")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-4dd8bd26a8c9")[#text("Influence")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-0cae99582db5")[#text("Life")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-cf9b630681c6")[#text("Marksmanship")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-a258db36f711")[#text("Medicine")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9a2b3a82ecb8")[#text("Mind")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9f0ff83d0f76")[#text("Radiance")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9ea1803c1690")[#text("Scholarship")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-ed652ae1b42c")[#text("Storm")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-7fab5edbf9e6")[#text("Subterfuge")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-acc9dfe97acc")[#text("Wilderness")]],[#text("3")],[#text("6")],[#text("12")],),), pad: 4pt, font-size: 10pt, widths:(1fr,33pt,33pt,33pt))
 
-#text("Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. No discipline requirements.")
-
-#heading(level: 3)[#text("Level 1 choices")]
+],[#illustration("class-leader-cutout",height:520pt)])]
+#v(8pt)
+#signature-menu[#grid(columns:(1fr,1fr,1fr),gutter:12pt,[#heading(level: 2)[#text("Level 1 choices")]
 #list(
 [#xref("s-0f6fad7e5362")[#text("Follow My Signal")]
 
@@ -2761,7 +2314,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 3 choices")]
+],[#heading(level: 2)[#text("Level 3 choices")]
 #list(
 [#xref("s-6e50ebac724a")[#text("Press the Opening")]
 
@@ -2773,7 +2326,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 7 choices")]
+],[#heading(level: 2)[#text("Level 7 choices")]
 #list(
 [#xref("s-3d45ba1843d4")[#text("Coordinated Rush")]
 
@@ -2785,26 +2338,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Signature identity in play")]
-#text("Each signature is an independent choice, not a progression chain.")
-
-#list(
-[#text("")#strong[#text("Level 1:")]#text(" Signal two allies, withdraw together, or hold a paired line.")
-
-],
-[#text("")#strong[#text("Level 3:")]#text(" Order a retreat, call a basic strike, or interrupt panic and shock.")
-
-],
-[#text("")#strong[#text("Level 7:")]#text(" Coordinate a rush, rally a group, or cover an ally's escape.")
-
-],
-)
-#text("")#strong[#text("Starting coin contribution:")]#text(" +6 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
-
-], [#illustration("class-leader", height: 460pt, fit: "cover")])
-#pagebreak(weak: true)
-#twocol[
-#card(icons: [],"Follow My Signal","1","Class Leader; minimum level 1","Passive","None — no roll","Signature / Skill / Utility","2 DP","s-0f6fad7e5362")[
+])]
+#pagebreak(weak:true)
+#reading-columns(([#card(icons: [],"Follow My Signal","1","Class Leader; minimum level 1","Passive","None — no roll","Signature / Skill / Utility","2 DP","s-0f6fad7e5362")[
 #emph[#text("You lift two fingers and catch a pair of answering glances; both companions know what comes next.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2814,13 +2350,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Each Boon expires when used or the start of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One two-recipient Aid on your turn; further Aid uses are ordinary.")
 
 ]
-#card(icons: [],"Lead the Step","1","Class Leader; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-e50044a24182")[
+],[#card(icons: [],"Lead the Step","1","Class Leader; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-e50044a24182")[
 #emph[#text("You give ground with one hand extended, drawing your companions after you before the enemy can separate you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2830,13 +2364,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate ally movement; your Disengage lasts for this turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
-#card(icons: [],"Stand Together","1","Class Leader; minimum level 1","Maneuver","None — no roll","Signature / Skill / Defense","2 DP","s-39476eb68bda")[
+],[#card(icons: [],"Stand Together","1","Class Leader; minimum level 1","Maneuver","None — no roll","Signature / Skill / Defense","2 DP","s-39476eb68bda")[
 #emph[#text("You plant yourself beside a companion and turn your guard outward, making the space between you a harder place to attack.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2846,13 +2378,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn or adjacency is lost.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Press the Opening","3","Class Leader; minimum level 3","Maneuver","None — no roll","Signature / Skill / Attack","4 DP","s-6e50ebac724a")[
+],[#card(icons: [],"Press the Opening","3","Class Leader; minimum level 3","Maneuver","None — no roll","Signature / Skill / Attack","4 DP","s-6e50ebac724a")[
 #emph[#text("You spot an enemy’s exposed side, shout your companion’s name and send them into the gap.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2862,13 +2390,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate attack.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; the attack is basic, never a specialty card.")
 
 ]
-#card(icons: [],"Orderly Withdrawal","3","Class Leader; minimum level 3","Maneuver","None — no roll","Signature / Skill / Movement","4 DP","s-7d4b0a5ef947")[
+],[#card(icons: [],"Orderly Withdrawal","3","Class Leader; minimum level 3","Maneuver","None — no roll","Signature / Skill / Movement","4 DP","s-7d4b0a5ef947")[
 #emph[#text("You call a short retreat and count the steps, keeping the line together as everyone moves.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2878,13 +2404,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Hold Your Nerve","3","Class Leader; minimum level 3","Reaction","None — no roll","Signature / Skill / Recovery","4 DP","s-effa525784b5")[
+],[#card(icons: [],"Hold Your Nerve","3","Class Leader; minimum level 3","Reaction","None — no roll","Signature / Skill / Recovery","4 DP","s-effa525784b5")[
 #emph[#text("You call your companion’s name above the din, steadying their breath before panic or shock can take hold.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2894,13 +2416,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate reduction of the new contribution.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Coordinated Rush","7","Class Leader; minimum level 7","Main Action","None — no roll","Signature / Skill / Attack / Movement","8 DP","s-3d45ba1843d4")[
+],[#card(icons: [],"Coordinated Rush","7","Class Leader; minimum level 7","Main Action","None — no roll","Signature / Skill / Attack / Movement","8 DP","s-3d45ba1843d4")[
 #emph[#text("You signal the rush and watch two companions strike together, each arriving where the other needs them.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2910,13 +2428,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement and attacks.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Refuse the Rout","7","Class Leader; minimum level 7","Maneuver","None — no roll","Signature / Skill / Recovery / Defense / Movement","8 DP","s-bc5e21ff4153")[
+],[#card(icons: [],"Refuse the Rout","7","Class Leader; minimum level 7","Maneuver","None — no roll","Signature / Skill / Recovery / Defense / Movement","8 DP","s-bc5e21ff4153")[
 #emph[#text("You stand where everyone can see you, raise your voice and turn a scattering retreat into a line that holds.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2926,13 +2440,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Condition reduction and movement are immediate; Boons expire when used or the start of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
-#card(icons: [],"Watch the Rear","7","Class Leader; minimum level 7","Reaction","None — no roll","Signature / Skill / Defense / Movement","8 DP","s-5bd9cb02895a")[
+],[#card(icons: [],"Watch the Rear","7","Class Leader; minimum level 7","Reaction","None — no roll","Signature / Skill / Defense / Movement","8 DP","s-5bd9cb02895a")[
 #emph[#text("You shout a warning before the blow lands, then direct your companion out of the next attacker’s reach.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -2942,27 +2454,23 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" The triggering defense and subsequent movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-]
-#pagebreak(weak: true)
-#grid(columns: (1fr,1fr), gutter: 18pt, [
-#entry("Unbalanced","s-94403698c5ab")
-#emph[#text("You meet the obstacle with everything you are, and let it discover whether that is enough.")]
+],))
+#pagebreak(weak:true)
+#class-panel("Unbalanced","s-94403698c5ab")[
+#grid(columns:(1.05fr,1fr),gutter:16pt,[#emph[#text("You meet the obstacle with everything you are, and let it discover whether that is enough.")]
 
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Brawn, Fortitude; HP contribution +6.")
+#text("")#strong[#text("Attributes:")]#text(" Brawn, Fortitude ≥ 0. ")#strong[#text("HP:")]#text(" +6. ")#strong[#text("Coins:")]#text(" +0.")
 
-#text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Arms, Athletics, Armor, Storm.")
+#text("")#strong[#text("Starting ranks:")]#text(" Choose two distinct rank-1 disciplines from Arms, Athletics, Armor, Storm.")
 
-#text("")#strong[#text("Discipline pricing:")]#text(" Home: Arms, Athletics. Adjacent: Armor, Storm. All others Foreign; no Opposed disciplines.")
+#heading(level: 3)[#text("Discipline costs · DP per rank")]
+#rule-table(4,([#text("Discipline")],[#text("1")],[#text("2")],[#text("3")],),(([#xref("s-d65e53332dd3")[#text("Armor")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-3665eb8edb20")[#text("Arms")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-2a0238121fdd")[#text("Athletics")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-4fab125b36fd")[#text("Calling")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-15a9aa1a27c4")[#text("Craft")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-1d771974c7da")[#text("Flame")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-1f2c78918dd5")[#text("Frost")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-aa348ec36b9e")[#text("Guard")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-4dd8bd26a8c9")[#text("Influence")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-0cae99582db5")[#text("Life")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-cf9b630681c6")[#text("Marksmanship")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-a258db36f711")[#text("Medicine")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9a2b3a82ecb8")[#text("Mind")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9f0ff83d0f76")[#text("Radiance")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9ea1803c1690")[#text("Scholarship")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-ed652ae1b42c")[#text("Storm")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-7fab5edbf9e6")[#text("Subterfuge")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-acc9dfe97acc")[#text("Wilderness")]],[#text("3")],[#text("6")],[#text("12")],),), pad: 4pt, font-size: 10pt, widths:(1fr,33pt,33pt,33pt))
 
-#text("Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. No discipline requirements.")
-
-#heading(level: 3)[#text("Level 1 choices")]
+],[#illustration("class-unbalanced-cutout",height:520pt)])]
+#v(8pt)
+#signature-menu[#grid(columns:(1fr,1fr,1fr),gutter:12pt,[#heading(level: 2)[#text("Level 1 choices")]
 #list(
 [#xref("s-d3462890bae0")[#text("Shoulder Through")]
 
@@ -2974,7 +2482,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 3 choices")]
+],[#heading(level: 2)[#text("Level 3 choices")]
 #list(
 [#xref("s-ddb5ca797a91")[#text("Crush the Barrier")]
 
@@ -2986,7 +2494,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 7 choices")]
+],[#heading(level: 2)[#text("Level 7 choices")]
 #list(
 [#xref("s-c5fe70133bbd")[#text("Scatter the Line")]
 
@@ -2998,26 +2506,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Signature identity in play")]
-#text("Each signature is an independent choice, not a progression chain.")
-
-#list(
-[#text("")#strong[#text("Level 1:")]#text(" Drive through, charge, or rise fighting.")
-
-],
-[#text("")#strong[#text("Level 3:")]#text(" Break an obstruction, throw a creature, or shove back through pain.")
-
-],
-[#text("")#strong[#text("Level 7:")]#text(" Scatter enemies, wrench free and retaliate, or finish a push with a knockdown.")
-
-],
-)
-#text("")#strong[#text("Starting coin contribution:")]#text(" +0 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
-
-], [#illustration("class-unbalanced", height: 460pt, fit: "cover")])
-#pagebreak(weak: true)
-#twocol[
-#card(icons: [],"Shoulder Through","1","Class Unbalanced; minimum level 1","Passive","None — no roll","Signature / Skill / Control / Movement","2 DP","s-d3462890bae0")[
+])]
+#pagebreak(weak:true)
+#reading-columns(([#card(icons: [],"Shoulder Through","1","Class Unbalanced; minimum level 1","Passive","None — no roll","Signature / Skill / Control / Movement","2 DP","s-d3462890bae0")[
 #emph[#text("You drive your shoulder into the resistance and keep pushing after the first step gives way.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3027,13 +2518,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate additional push and following step.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
-#card(icons: [],"Wild Approach","1","Class Unbalanced; minimum level 1","Maneuver","None — no roll","Signature / Skill / Movement","2 DP","s-684f1a60a6ab")[
+],[#card(icons: [],"Wild Approach","1","Class Unbalanced; minimum level 1","Maneuver","None — no roll","Signature / Skill / Movement","2 DP","s-684f1a60a6ab")[
 #emph[#text("You roar and charge into the opening, arriving with your whole weight behind the next blow.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3043,13 +2532,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; Boon expires when used or this turn ends.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Laugh at the Fall","1","Class Unbalanced; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-e0dcb7aef2c3")[
+],[#card(icons: [],"Laugh at the Fall","1","Class Unbalanced; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-e0dcb7aef2c3")[
 #emph[#text("You spit out the dust, bark a laugh and surge to your feet before the enemy has finished enjoying the sight.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3059,13 +2544,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Standing cost is always changed; the Boon expires when used or this turn ends.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" The Boon can be gained once on your turn; repeated standing does not stack it.")
 
 ]
-#card(icons: [],"Crush the Barrier","3","Class Unbalanced; minimum level 3","Main Action","Brawn","Signature / Skill / Utility / Movement","4 DP","s-ddb5ca797a91")[
+],[#card(icons: [],"Crush the Barrier","3","Class Unbalanced; minimum level 3","Main Action","Brawn","Signature / Skill / Utility / Movement","4 DP","s-ddb5ca797a91")[
 #emph[#text("You hear the first crack, plant your feet and drive through the weak point with another heave.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3088,13 +2571,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Progress and any completed opening persist; movement is immediate.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Fling the Captive","3","Class Unbalanced; minimum level 3","Main Action","Brawn","Signature / Skill / Attack / Control","4 DP","s-b5b21bea0df4")[
+],[#card(icons: [],"Fling the Captive","3","Class Unbalanced; minimum level 3","Main Action","Brawn","Signature / Skill / Attack / Control","4 DP","s-b5b21bea0df4")[
 #emph[#text("You catch the struggling body, turn hard at the hips and release the whole tangle in a violent throw.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3117,13 +2596,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate damage, push and Prone.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Raging Recoil","3","Class Unbalanced; minimum level 3","Reaction","None — no roll","Signature / Skill / Control / Movement","4 DP","s-67c920babae2")[
+],[#card(icons: [],"Raging Recoil","3","Class Unbalanced; minimum level 3","Reaction","None — no roll","Signature / Skill / Control / Movement","4 DP","s-67c920babae2")[
 #emph[#text("You snarl at the pain and shove back into the attacker, following the stumble with another aggressive step.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3133,13 +2608,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate push and movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Scatter the Line","7","Class Unbalanced; minimum level 7","Main Action","Brawn","Signature / Skill / Control","8 DP","s-c5fe70133bbd")[
+],[#card(icons: [],"Scatter the Line","7","Class Unbalanced; minimum level 7","Main Action","Brawn","Signature / Skill / Control","8 DP","s-c5fe70133bbd")[
 #emph[#text("You throw your arms wide and drive into the bodies around you, sending the whole front rank stumbling away.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3162,13 +2633,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate displacement and Prone.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Break Their Grip","7","Class Unbalanced; minimum level 7","Maneuver","None — no roll","Signature / Skill / Control / Movement","8 DP","s-28b3f83e4d98")[
+],[#card(icons: [],"Break Their Grip","7","Class Unbalanced; minimum level 7","Maneuver","None — no roll","Signature / Skill / Control / Movement","8 DP","s-28b3f83e4d98")[
 #emph[#text("You wrench your shoulders free and crash back against the hands that tried to hold you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3178,13 +2645,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate release, push and possible step.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Crash Down","7","Class Unbalanced; minimum level 7","Passive","None — no roll","Signature / Skill / Control / Movement","8 DP","s-be941930d850")[
+],[#card(icons: [],"Crash Down","7","Class Unbalanced; minimum level 7","Passive","None — no roll","Signature / Skill / Control / Movement","8 DP","s-be941930d850")[
 #emph[#text("You drive the target backward and finish the motion with a downward wrench that leaves them sprawled where they land.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3194,27 +2657,25 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate knockdown and step.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; no benefit from free attacks.")
 
 ]
-]
-#pagebreak(weak: true)
-#grid(columns: (1fr,1fr), gutter: 18pt, [
-#entry("Shadow","s-6a13115a845b")
-#emph[#text("You learn the unguarded routes through a world that rarely looks in the right direction.")]
+],))
+#pagebreak(weak:true)
+#class-panel("Shadow","s-6a13115a845b")[
+#grid(columns:(1.05fr,1fr),gutter:16pt,[#emph[#text("You learn the unguarded routes through a world that rarely looks in the right direction.")]
 
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Agility, Guile; HP contribution +3.")
+#text("")#strong[#text("Attributes:")]#text(" Agility, Guile ≥ 0. ")#strong[#text("HP:")]#text(" +3. ")#strong[#text("Coins:")]#text(" +3.")
 
-#text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Subterfuge, Marksmanship, Mind, Athletics.")
+#text("")#strong[#text("Starting ranks:")]#text(" Choose two distinct rank-1 disciplines from Subterfuge, Marksmanship, Mind, Athletics.")
 
-#text("")#strong[#text("Discipline pricing:")]#text(" Home: Subterfuge, Marksmanship. Adjacent: Mind, Athletics. All others Foreign; no Opposed disciplines.")
+#heading(level: 3)[#text("Discipline costs · DP per rank")]
+#rule-table(4,([#text("Discipline")],[#text("1")],[#text("2")],[#text("3")],),(([#xref("s-d65e53332dd3")[#text("Armor")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-3665eb8edb20")[#text("Arms")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-2a0238121fdd")[#text("Athletics")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-4fab125b36fd")[#text("Calling")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-15a9aa1a27c4")[#text("Craft")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-1d771974c7da")[#text("Flame")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-1f2c78918dd5")[#text("Frost")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-aa348ec36b9e")[#text("Guard")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-4dd8bd26a8c9")[#text("Influence")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-0cae99582db5")[#text("Life")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-cf9b630681c6")[#text("Marksmanship")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-a258db36f711")[#text("Medicine")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9a2b3a82ecb8")[#text("Mind")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-9f0ff83d0f76")[#text("Radiance")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9ea1803c1690")[#text("Scholarship")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-ed652ae1b42c")[#text("Storm")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-7fab5edbf9e6")[#text("Subterfuge")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-acc9dfe97acc")[#text("Wilderness")]],[#text("3")],[#text("6")],[#text("12")],),), pad: 4pt, font-size: 10pt, widths:(1fr,33pt,33pt,33pt))
 
-#text("Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. No discipline requirements.")
-
-#heading(level: 3)[#text("Level 1 choices")]
+],[#illustration("class-shadow-cutout",height:520pt)])]
+#v(8pt)
+#signature-menu[#grid(columns:(1fr,1fr,1fr),gutter:12pt,[#heading(level: 2)[#text("Level 1 choices")]
 #list(
 [#xref("s-30c2afe19eb4")[#text("Fade Behind")]
 
@@ -3226,7 +2687,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 3 choices")]
+],[#heading(level: 2)[#text("Level 3 choices")]
 #list(
 [#xref("s-4ca2a9cc24a6")[#text("Pass the Guard")]
 
@@ -3238,7 +2699,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 7 choices")]
+],[#heading(level: 2)[#text("Level 7 choices")]
 #list(
 [#xref("s-a2279ea79d77")[#text("Unseen Passage")]
 
@@ -3250,26 +2711,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Signature identity in play")]
-#text("Each signature is an independent choice, not a progression chain.")
-
-#list(
-[#text("")#strong[#text("Level 1:")]#text(" Slip away, land quietly, or cover an ally's passage.")
-
-],
-[#text("")#strong[#text("Level 3:")]#text(" Cross difficult ground, strike and leave, or open a lock quickly.")
-
-],
-[#text("")#strong[#text("Level 7:")]#text(" Shroud an escape, exploit a companion's disabling effect, or hide a party's trail.")
-
-],
-)
-#text("")#strong[#text("Starting coin contribution:")]#text(" +3 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
-
-], [#illustration("class-shadow", height: 460pt, fit: "cover")])
-#pagebreak(weak: true)
-#twocol[
-#card(icons: [],"Fade Behind","1","Class Shadow; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-30c2afe19eb4")[
+])]
+#pagebreak(weak:true)
+#reading-columns(([#card(icons: [],"Fade Behind","1","Class Shadow; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-30c2afe19eb4")[
 #emph[#text("You give ground without a sound, using the enemy’s reaching weapon to hide the direction of your first step.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3279,13 +2723,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement; Disengage lasts for this turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
-#card(icons: [],"Soft Landing","1","Class Shadow; minimum level 1","Maneuver","None — no roll","Signature / Skill / Movement","2 DP","s-2e6ccf98e312")[
+],[#card(icons: [],"Soft Landing","1","Class Shadow; minimum level 1","Maneuver","None — no roll","Signature / Skill / Movement","2 DP","s-2e6ccf98e312")[
 #emph[#text("You vault the low rail and land on bent knees, catching your balance before a loose stone can rattle.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3295,13 +2737,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate jump.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Turn Their Eye","1","Class Shadow; minimum level 1","Maneuver","None — no roll","Signature / Skill / Utility / Movement","2 DP","s-ce1fbee7c24c")[
+],[#card(icons: [],"Turn Their Eye","1","Class Shadow; minimum level 1","Maneuver","None — no roll","Signature / Skill / Utility / Movement","2 DP","s-ce1fbee7c24c")[
 #emph[#text("You send a glance and a tiny distracting motion toward one side while your companion slips quietly toward the other.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3311,13 +2749,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; Boon expires when used or the start of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Pass the Guard","3","Class Shadow; minimum level 3","Maneuver","None — no roll","Signature / Skill / Movement","4 DP","s-4ca2a9cc24a6")[
+],[#card(icons: [],"Pass the Guard","3","Class Shadow; minimum level 3","Maneuver","None — no roll","Signature / Skill / Movement","4 DP","s-4ca2a9cc24a6")[
 #emph[#text("You slip along the blind side of the struggle, ducking below a reach and stepping through the open space beyond.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3327,13 +2761,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Strike and Vanish","3","Class Shadow; minimum level 3","Passive","None — no roll","Signature / Skill / Movement","4 DP","s-cdb380739469")[
+],[#card(icons: [],"Strike and Vanish","3","Class Shadow; minimum level 3","Passive","None — no roll","Signature / Skill / Movement","4 DP","s-cdb380739469")[
 #emph[#text("Your strike lands and you slip away on its follow-through, already looking for the next patch of cover.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3343,13 +2773,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn; no benefit from free attacks.")
 
 ]
-#card(icons: [],"Open the Way","3","Class Shadow; minimum level 3","Main Action","Guile","Signature / Skill / Utility","4 DP","s-f7ab06745db5")[
+],[#card(icons: [],"Open the Way","3","Class Shadow; minimum level 3","Main Action","Guile","Signature / Skill / Utility","4 DP","s-f7ab06745db5")[
 #emph[#text("You find the lock’s rhythm through the tool, work its stubborn point and ease it open without a click.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3375,10 +2803,8 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Gear:")]#text(" Lock tools required; grants one set, Bulk 1, if absent.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Unseen Passage","7","Class Shadow; minimum level 7","Main Action","None — no roll","Signature / Magic / Utility / Movement","8 DP","s-a2279ea79d77")[
+],[#card(icons: [],"Unseen Passage","7","Class Shadow; minimum level 7","Main Action","None — no roll","Signature / Magic / Utility / Movement","8 DP","s-a2279ea79d77")[
 #emph[#text("You draw the surrounding shadow across your body like a cloak and slip away while your outline fades from sight.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3390,13 +2816,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Until the end of your next turn, or immediately after an ending action.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Exploit Confusion","7","Class Shadow; minimum level 7","Reaction","None — no roll","Signature / Skill / Attack / Movement","8 DP","s-5a7e0c915748")[
+],[#card(icons: [],"Exploit Confusion","7","Class Shadow; minimum level 7","Reaction","None — no roll","Signature / Skill / Attack / Movement","8 DP","s-5a7e0c915748")[
 #emph[#text("You see the enemy stagger under a companion’s blow and dart in before they can gather themselves.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3409,10 +2831,8 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Gear:")]#text(" Requires a melee weapon for the attack; grants one ordinary melee weapon, Bulk 1, if absent.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Leave No Pursuit","7","Class Shadow; minimum level 7","Main Action","None — no roll","Signature / Skill / Utility","8 DP","s-d84cf605bef5")[
+],[#card(icons: [],"Leave No Pursuit","7","Class Shadow; minimum level 7","Main Action","None — no roll","Signature / Skill / Utility","8 DP","s-d84cf605bef5")[
 #emph[#text("You brush away the obvious prints, point out the stones that keep none and lead the party off the route their pursuers expect.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3424,27 +2844,25 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" The concealed trail remains difficult to follow until new evidence exposes it.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One application per departure; repeated preparation does not add more Banes.")
 
 ]
-]
-#pagebreak(weak: true)
-#grid(columns: (1fr,1fr), gutter: 18pt, [
-#entry("Odd","s-fe83ef834cbc")
-#emph[#text("You have never fit the expected answer, and have learned to make that useful.")]
+],))
+#pagebreak(weak:true)
+#class-panel("Odd","s-fe83ef834cbc")[
+#grid(columns:(1.05fr,1fr),gutter:16pt,[#emph[#text("You have never fit the expected answer, and have learned to make that useful.")]
 
-#text("")#strong[#text("Class foundations:")]#text(" no attribute minimums; HP contribution +3.")
+#text("")#strong[#text("Attributes:")]#text(" No minimums. ")#strong[#text("HP:")]#text(" +3. ")#strong[#text("Coins:")]#text(" +0.")
 
-#text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Arms, Marksmanship, Armor, Guard, Athletics, Subterfuge, Influence, Scholarship, Wilderness, Craft, Medicine, Flame, Frost, Storm, Life, Radiance, Mind, Calling.")
+#text("")#strong[#text("Starting ranks:")]#text(" Choose two distinct rank-1 disciplines the full list below.")
 
-#text("")#strong[#text("Discipline pricing:")]#text(" Adjacent for every discipline.")
+#heading(level: 3)[#text("Discipline costs · DP per rank")]
+#rule-table(4,([#text("Discipline")],[#text("1")],[#text("2")],[#text("3")],),(([#xref("s-d65e53332dd3")[#text("Armor")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-3665eb8edb20")[#text("Arms")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-2a0238121fdd")[#text("Athletics")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-4fab125b36fd")[#text("Calling")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-15a9aa1a27c4")[#text("Craft")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-1d771974c7da")[#text("Flame")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-1f2c78918dd5")[#text("Frost")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-aa348ec36b9e")[#text("Guard")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-4dd8bd26a8c9")[#text("Influence")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-0cae99582db5")[#text("Life")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-cf9b630681c6")[#text("Marksmanship")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-a258db36f711")[#text("Medicine")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-9a2b3a82ecb8")[#text("Mind")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-9f0ff83d0f76")[#text("Radiance")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-9ea1803c1690")[#text("Scholarship")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-ed652ae1b42c")[#text("Storm")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-7fab5edbf9e6")[#text("Subterfuge")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-acc9dfe97acc")[#text("Wilderness")]],[#text("2")],[#text("4")],[#text("8")],),), pad: 4pt, font-size: 10pt, widths:(1fr,33pt,33pt,33pt))
 
-#text("Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. No discipline requirements.")
-
-#heading(level: 3)[#text("Level 1 choices")]
+],[#illustration("class-odd-cutout",height:520pt)])]
+#v(8pt)
+#signature-menu[#grid(columns:(1fr,1fr,1fr),gutter:12pt,[#heading(level: 2)[#text("Level 1 choices")]
 #list(
 [#xref("s-eb5d31ce8508")[#text("Sideways Thinking")]
 
@@ -3456,7 +2874,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 3 choices")]
+],[#heading(level: 2)[#text("Level 3 choices")]
 #list(
 [#xref("s-b1469237eba4")[#text("Unlikely Assistant")]
 
@@ -3468,7 +2886,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 7 choices")]
+],[#heading(level: 2)[#text("Level 7 choices")]
 #list(
 [#xref("s-f5b1428a3a0c")[#text("Strange but Effective")]
 
@@ -3480,26 +2898,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Signature identity in play")]
-#text("Each signature is an independent choice, not a progression chain.")
-
-#list(
-[#text("")#strong[#text("Level 1:")]#text(" Reframe a task, distract usefully, or escape after exertion.")
-
-],
-[#text("")#strong[#text("Level 3:")]#text(" Assist unusually well, uncover an alternate approach, or pull a companion out of trouble.")
-
-],
-[#text("")#strong[#text("Level 7:")]#text(" Apply ingenious force, escape with a partner, or turn pain into a response.")
-
-],
-)
-#text("")#strong[#text("Starting coin contribution:")]#text(" +0 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
-
-], [#illustration("class-odd", height: 460pt, fit: "cover")])
-#pagebreak(weak: true)
-#twocol[
-#card(icons: [],"Sideways Thinking","1","Class Odd; minimum level 1","Passive","None — no roll","Signature / Skill / Utility","2 DP","s-eb5d31ce8508")[
+])]
+#pagebreak(weak:true)
+#reading-columns(([#card(icons: [],"Sideways Thinking","1","Class Odd; minimum level 1","Passive","None — no roll","Signature / Skill / Utility","2 DP","s-eb5d31ce8508")[
 #emph[#text("You turn the problem around in your hands, notice a familiar principle and begin doing something no one else thought to try.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3509,13 +2910,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" That roll only.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once per scene, declared before rolling.")
 
 ]
-#card(icons: [],"Useful Interruption","1","Class Odd; minimum level 1","Maneuver","None — no roll","Signature / Skill / Utility / Movement","2 DP","s-0fd1d5ea6ba6")[
+],[#card(icons: [],"Useful Interruption","1","Class Odd; minimum level 1","Maneuver","None — no roll","Signature / Skill / Utility / Movement","2 DP","s-0fd1d5ea6ba6")[
 #emph[#text("You interrupt with a question, a spilled drink or an absurdly well-timed cough, and your companion moves while everyone looks at you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3525,13 +2924,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; the Boon expires when used or the start of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Always a Way Around","1","Class Odd; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-6c081a245131")[
+],[#card(icons: [],"Always a Way Around","1","Class Odd; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-6c081a245131")[
 #emph[#text("You brace, tug or shove until something gives, then slip into the space the struggle has opened.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3541,13 +2936,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate stand and movement if allowed.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
-#card(icons: [],"Unlikely Assistant","3","Class Odd; minimum level 3","Passive","None — no roll","Signature / Skill / Utility","4 DP","s-b1469237eba4")[
+],[#card(icons: [],"Unlikely Assistant","3","Class Odd; minimum level 3","Passive","None — no roll","Signature / Skill / Utility","4 DP","s-b1469237eba4")[
 #emph[#text("You wedge a boot where a tool should go, offer an unexpected comparison and somehow make the work easier.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3557,13 +2950,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Until the aided roll or the start of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Normal Aid action and group-check restrictions apply.")
 
 ]
-#card(icons: [],"Change the Question","3","Class Odd; minimum level 3","Main Action","None — no roll","Signature / Skill / Utility","4 DP","s-dacb14d20957")[
+],[#card(icons: [],"Change the Question","3","Class Odd; minimum level 3","Main Action","None — no roll","Signature / Skill / Utility","4 DP","s-dacb14d20957")[
 #emph[#text("You stop pulling at the locked door and look up at the hinge, then show everyone the different problem you mean to solve.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3575,13 +2966,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Information remains known; Boons expire when used or the scene ends.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One examination of an obstacle per scene unless its circumstances change.")
 
 ]
-#card(icons: [],"Wrong Place for That","3","Class Odd; minimum level 3","Reaction","None — no roll","Signature / Skill / Movement","4 DP","s-3da2e55163a8")[
+],[#card(icons: [],"Wrong Place for That","3","Class Odd; minimum level 3","Reaction","None — no roll","Signature / Skill / Movement","4 DP","s-3da2e55163a8")[
 #emph[#text("You catch a companion by the sleeve and stumble away together, leaving the next blow aimed at suddenly empty ground.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3591,13 +2980,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"Strange but Effective","7","Class Odd; minimum level 7","Main Action","Guile","Signature / Skill / Control / Utility","8 DP","s-f5b1428a3a0c")[
+],[#card(icons: [],"Strange but Effective","7","Class Odd; minimum level 7","Main Action","Guile","Signature / Skill / Control / Utility","8 DP","s-f5b1428a3a0c")[
 #emph[#text("You loop a strap, plant your heel against a unlikely purchase and pull with a grin as the whole problem lurches sideways.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3622,13 +3007,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate progress, reduction or push, then movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Limits:")]#text(" Repeatable; normal action economy applies.")
-
 ]
-#card(icons: [],"An Unexpected Exit","7","Class Odd; minimum level 7","Maneuver","None — no roll","Signature / Skill / Movement","8 DP","s-ae834ac0cfe1")[
+],[#card(icons: [],"An Unexpected Exit","7","Class Odd; minimum level 7","Maneuver","None — no roll","Signature / Skill / Movement","8 DP","s-ae834ac0cfe1")[
 #emph[#text("You spot the half-hidden stair, haul your companion toward it and disappear from the place everyone thought had you cornered.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3638,13 +3019,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate movement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
-#card(icons: [],"One Last Remark","7","Class Odd; minimum level 7","Reaction","None — no roll","Signature / Skill / Movement / Attack","8 DP","s-e60cb2c9304a")[
+],[#card(icons: [],"One Last Remark","7","Class Odd; minimum level 7","Reaction","None — no roll","Signature / Skill / Movement / Attack","8 DP","s-e60cb2c9304a")[
 #emph[#text("You answer the cry of pain with a sharp, stubborn joke, giving your companion something to do before despair catches up.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3658,29 +3037,25 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Immediate chosen benefits.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Normal Reaction cost; the Last Words benefit can trigger once per dying ally.")
 
 ]
-]
-#pagebreak(weak: true)
-#grid(columns: (1fr,1fr), gutter: 18pt, [
-#entry("Warden","s-2ad683228880")
-#emph[#text("You read the broken fern, the distant cry and the turn of a fleeing creature. When the road ends, your companions look to you.")]
+],))
+#pagebreak(weak:true)
+#class-panel("Warden","s-2ad683228880")[
+#grid(columns:(1.05fr,1fr),gutter:16pt,[#emph[#text("You read the broken fern, the distant cry and the turn of a fleeing creature. When the road ends, your companions look to you.")]
 
-#text("")#strong[#text("Identity:")]#text(" wilderness guide, tracker and hunter. Nature magic and animal companions are optional shared purchases, not required class features.")
+#text("")#strong[#text("Attributes:")]#text(" Fortitude, Knowledge ≥ 0. ")#strong[#text("HP:")]#text(" +4. ")#strong[#text("Coins:")]#text(" +2.")
 
-#text("")#strong[#text("Class foundations:")]#text(" minimum 0 in Fortitude and Knowledge; HP contribution +4.")
+#text("")#strong[#text("Starting ranks:")]#text(" Choose two distinct rank-1 disciplines from Wilderness, Marksmanship, Arms, Athletics.")
 
-#text("")#strong[#text("Starting disciplines:")]#text(" choose two distinct rank-1 disciplines from Wilderness, Marksmanship, Arms, Athletics.")
+#heading(level: 3)[#text("Discipline costs · DP per rank")]
+#rule-table(4,([#text("Discipline")],[#text("1")],[#text("2")],[#text("3")],),(([#xref("s-d65e53332dd3")[#text("Armor")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-3665eb8edb20")[#text("Arms")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-2a0238121fdd")[#text("Athletics")]],[#text("2")],[#text("4")],[#text("8")],),([#xref("s-4fab125b36fd")[#text("Calling")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-15a9aa1a27c4")[#text("Craft")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-1d771974c7da")[#text("Flame")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-1f2c78918dd5")[#text("Frost")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-aa348ec36b9e")[#text("Guard")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-4dd8bd26a8c9")[#text("Influence")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-0cae99582db5")[#text("Life")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-cf9b630681c6")[#text("Marksmanship")]],[#text("1")],[#text("2")],[#text("4")],),([#xref("s-a258db36f711")[#text("Medicine")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9a2b3a82ecb8")[#text("Mind")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9f0ff83d0f76")[#text("Radiance")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-9ea1803c1690")[#text("Scholarship")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-ed652ae1b42c")[#text("Storm")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-7fab5edbf9e6")[#text("Subterfuge")]],[#text("3")],[#text("6")],[#text("12")],),([#xref("s-acc9dfe97acc")[#text("Wilderness")]],[#text("1")],[#text("2")],[#text("4")],),), pad: 4pt, font-size: 10pt, widths:(1fr,33pt,33pt,33pt))
 
-#text("")#strong[#text("Discipline pricing:")]#text(" Home: Wilderness, Marksmanship. Adjacent: Arms, Athletics. All others Foreign; no Opposed disciplines. Use the normal sequential rank prices.")
-
-#text("Choose one class-exclusive signature at levels 1, 3 and 7. Extra signatures cost 2/4/8 DP. Requirements are class and minimum level only; no discipline or earlier signature is required.")
-
-#heading(level: 3)[#text("Level 1 choices")]
+],[#illustration("class-warden-cutout",height:520pt)])]
+#v(8pt)
+#signature-menu[#grid(columns:(1fr,1fr,1fr),gutter:12pt,[#heading(level: 2)[#text("Level 1 choices")]
 #list(
 [#xref("s-f28a32bf04d4")[#text("Keep the Quarry Close")]
 
@@ -3692,7 +3067,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 3 choices")]
+],[#heading(level: 2)[#text("Level 3 choices")]
 #list(
 [#xref("s-5164ea0bc907")[#text("Stay on the Scent")]
 
@@ -3704,7 +3079,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Level 7 choices")]
+],[#heading(level: 2)[#text("Level 7 choices")]
 #list(
 [#xref("s-0f9422cc4ac4")[#text("Turn the Hunt")]
 
@@ -3716,17 +3091,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("The character at the table")]
-#text("A hunter closes distance after a shot or a sword stroke. A tracker reads actual evidence. A guide gives companions a route they can use now. All three approaches remain available at each milestone; there are no locked subclasses.")
-
-#text("Fortitude and Knowledge express endurance and understanding. Agility remains valuable to an archer, but the class does not demand one weapon or one attack attribute. +4 HP places its contribution beside Blade and Leader, below Protector and Unbalanced.")
-
-#text("")#strong[#text("Starting coin contribution:")]#text(" +2 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
-
-], [#illustration("class-warden", height: 460pt, fit: "cover")])
-#pagebreak(weak: true)
-#twocol[
-#card(icons: [],"Keep the Quarry Close","1","Class Warden; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-f28a32bf04d4")[
+])]
+#pagebreak(weak:true)
+#reading-columns(([#card(icons: [],"Keep the Quarry Close","1","Class Warden; minimum level 1","Passive","None — no roll","Signature / Skill / Movement","2 DP","s-f28a32bf04d4")[
 #emph[#text("You loose your shot, watch the quarry turn and run to keep its path in view.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3736,13 +3103,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Instant.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once on your turn.")
 
 ]
-#card(icons: [],"Read the Passing","1","Class Warden; minimum level 1","Main Action","None — no roll","Signature / Skill / Utility","2 DP","s-e66b2d4a9624")[
+],[#card(icons: [],"Read the Passing","1","Class Warden; minimum level 1","Main Action","None — no roll","Signature / Skill / Utility","2 DP","s-e66b2d4a9624")[
 #emph[#text("You kneel beside a bent stem, brush grit from a footprint and look toward the gap the travelers chose.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3754,13 +3119,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Information remains known; the Boon ends when used or the scene ends.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once per set of signs; new evidence permits another use.")
 
 ]
-#card(icons: [],"Follow My Footsteps","1","Class Warden; minimum level 1","Maneuver","None — no roll","Signature / Skill / Movement","2 DP","s-832b3ffd50b5")[
+],[#card(icons: [],"Follow My Footsteps","1","Class Warden; minimum level 1","Maneuver","None — no roll","Signature / Skill / Movement","2 DP","s-832b3ffd50b5")[
 #emph[#text("You test the ground with your boot and offer a hand, bringing your companion onto the firm patch beside you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3770,13 +3133,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Instant.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each participant moves once per use.")
 
 ]
-#card(icons: [],"Stay on the Scent","3","Class Warden; minimum level 3","Reaction","None — no roll","Signature / Skill / Movement","4 DP","s-5164ea0bc907")[
+],[#card(icons: [],"Stay on the Scent","3","Class Warden; minimum level 3","Reaction","None — no roll","Signature / Skill / Movement","4 DP","s-5164ea0bc907")[
 #emph[#text("You watch the first turn of their shoulders and cut toward their escape route before their footsteps fade.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3786,13 +3147,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; the Boon ends when used or at the end of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One Reaction per use; repeated uses do not multiply the unused Boon.")
 
 ]
-#card(icons: [],"Through Bramble and Stone","3","Class Warden; minimum level 3","Maneuver","None — no roll","Signature / Skill / Movement","4 DP","s-28218ee7d31b")[
+],[#card(icons: [],"Through Bramble and Stone","3","Class Warden; minimum level 3","Maneuver","None — no roll","Signature / Skill / Movement","4 DP","s-28218ee7d31b")[
 #emph[#text("You lift a thorny branch, find a foothold between the stones and turn to show your companion the way through.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3802,13 +3161,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Instant.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each participant moves once per use.")
 
 ]
-#card(icons: [],"A Watchful Rest","3","Class Warden; minimum level 3","Main Action","None — no roll","Signature / Skill / Utility","4 DP","s-2b2e175030a8")[
+],[#card(icons: [],"A Watchful Rest","3","Class Warden; minimum level 3","Main Action","None — no roll","Signature / Skill / Utility","4 DP","s-2b2e175030a8")[
 #emph[#text("You circle the camp, test the ground for water and point out the approaches before assigning the first watch.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3820,13 +3177,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Eight hours or until the group leaves.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One prepared resting place per Warden; preparing another ends the previous benefit.")
 
 ]
-#card(icons: [],"Turn the Hunt","7","Class Warden; minimum level 7","Main Action","Knowledge","Signature / Skill / Attack / Movement","8 DP","s-0f9422cc4ac4")[
+],[#card(icons: [],"Turn the Hunt","7","Class Warden; minimum level 7","Main Action","Knowledge","Signature / Skill / Attack / Movement","8 DP","s-0f9422cc4ac4")[
 #emph[#text("You read the turn of the beast’s weight and strike where its next step must fall, driving it toward the ground you chose.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3855,7 +3210,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One attack per use.")
 
 ]
-#card(icons: [],"Bring Them Through","7","Class Warden; minimum level 7","Maneuver","None — no roll","Signature / Skill / Movement","8 DP","s-c88fd560b879")[
+],[#card(icons: [],"Bring Them Through","7","Class Warden; minimum level 7","Maneuver","None — no roll","Signature / Skill / Movement","8 DP","s-c88fd560b879")[
 #emph[#text("You call out footholds and openings in a steady voice, guiding your companions through the broken ground before the enemy can close it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3865,13 +3220,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Instant.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each ally moves once per use.")
 
 ]
-#card(icons: [],"Know What You Hunt","7","Class Warden; minimum level 7","Main Action","None — no roll","Signature / Skill / Utility","8 DP","s-26c3b0a051bf")[
+],[#card(icons: [],"Know What You Hunt","7","Class Warden; minimum level 7","Main Action","None — no roll","Signature / Skill / Utility","8 DP","s-26c3b0a051bf")[
 #emph[#text("You point out the plates that overlap, the limb it favors and the moment its breath catches, telling your companions where to meet it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -3881,25 +3234,23 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Facts remain known; each Boon ends when used or the scene ends.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once per creature per scene; repeated uses do not renew spent benefits.")
 
 ]
-]
+],))
 #chapter("5","Disciplines and Character Paths")
 #metadata("s-6289e7cc8d28")<s-6289e7cc8d28>
 #grid(columns:(1fr,1fr),gutter:18pt,[#text("A discipline is a field of study. An ability is something you have learned to do") #text("with it. Your hero might study Arms to practice martial techniques, Life to restore") #text("others, or Scholarship to understand and exploit what others overlook.")
 
 #text("Ranks run from 1 to 3 and must be bought in order. There is no level gate on a rank,") #text("but the ability you want may require level 3 or 7. Read the requirements before") #text("spending: Arms 2 and Subterfuge 1 means you must own both. A rank by itself grants") #text("no action, equipment, attribute bonus or unrestricted use of that discipline's cards.")
 
-#text("Class affinity determines what a rank costs. All abilities at the same tier use the") #text("same DP price. This lets a class have a natural direction while leaving room for") #text("unexpected study. Odd uses the same Adjacent prices across the entire list.")
+#text("Your class makes some disciplines easier to develop than others. A Blade learns") #text("martial techniques readily; an Arcanist has a shorter road into elemental magic.") #text("Both can study beyond those strengths. Abilities themselves cost the same DP at") #text("each tier, whatever your class.")
 
 #heading(level: 3)[#text("Buying ranks")]
-#text("You cannot buy disciplines at level 0. After choosing your class, use its affinity") #text("for the discipline to find the price of each rank. Buy every rank in order; these") #text("are individual prices, not the total cost of reaching a rank.")
+#text("You cannot buy disciplines at level 0. After choosing your class, use the table on") #text("the following reference page or the prices in your class entry. Each cell lists the") #text("separate costs of ")#strong[#text("rank 1 / rank 2 / rank 3")]#text(", in DP. Buy them in order.")
 
-#rule-table(4,([#text("Class affinity")],[#text("Rank 1")],[#text("Rank 2")],[#text("Rank 3")],),(([#text("Home")],[#text("1 DP")],[#text("2 DP")],[#text("4 DP")],),([#text("Adjacent")],[#text("2 DP")],[#text("4 DP")],[#text("8 DP")],),([#text("Foreign")],[#text("3 DP")],[#text("6 DP")],[#text("12 DP")],),([#text("Opposed")],[#text("4 DP")],[#text("8 DP")],[#text("16 DP")],),))
+#text("A Blade learning Arms from scratch pays 1 DP for rank 1, then 2 DP for rank 2,") #text("then 4 DP for rank 3: ")#strong[#text("7 DP altogether")]#text(". That same Blade pays 3, 6 and 12 DP") #text("for Life. Odd pays ")#strong[#text("2 / 4 / 8 DP")]#text(" for every discipline.")
 
 #text("The discipline cards below describe each field. These shared purchase rules apply") #text("to all eighteen disciplines. Each symbol also appears on ability headers; the small") #text("number over its lower edge is the required rank.")
 
@@ -3911,6 +3262,14 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Keep a few abilities ready for the scenes you expect most often. You may know several") #text("attacks, but you still have only the actions you can spend. A useful Maneuver, Reaction,") #text("travel skill or social technique can matter more than another similar Main Action.")
 
 #v(10pt)#illustration("fields-of-study",height:265pt)])
+#pagebreak(weak:true)
+#heading(level:2)[Discipline costs by class]
+Each cell gives *rank 1 / rank 2 / rank 3*, in DP. These are separate purchases, not cumulative totals. Read across to compare classes or down to plan your own studies.
+
+#cost-matrix(([Discipline],[#text("Protector")],[#text("Blade")],[#text("Arcanist")],[#text("Shepherd")],[#text("Intellect")],[#text("Leader")],[#text("Unbalanced")],[#text("Shadow")],[#text("Odd")],[#text("Warden")],),(([#xref("s-d65e53332dd3")[#text("Armor")]],[1/2/4],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[2/4/8],[3/6/12],[2/4/8],[3/6/12],),([#xref("s-3665eb8edb20")[#text("Arms")]],[2/4/8],[1/2/4],[3/6/12],[3/6/12],[3/6/12],[2/4/8],[1/2/4],[3/6/12],[2/4/8],[2/4/8],),([#xref("s-2a0238121fdd")[#text("Athletics")]],[3/6/12],[2/4/8],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[1/2/4],[2/4/8],[2/4/8],[2/4/8],),([#xref("s-4fab125b36fd")[#text("Calling")]],[3/6/12],[3/6/12],[2/4/8],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[2/4/8],[3/6/12],),([#xref("s-15a9aa1a27c4")[#text("Craft")]],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[1/2/4],[3/6/12],[3/6/12],[3/6/12],[2/4/8],[3/6/12],),([#xref("s-1d771974c7da")[#text("Flame")]],[3/6/12],[3/6/12],[1/2/4],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[2/4/8],[3/6/12],),([#xref("s-1f2c78918dd5")[#text("Frost")]],[3/6/12],[3/6/12],[1/2/4],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[2/4/8],[3/6/12],),([#xref("s-aa348ec36b9e")[#text("Guard")]],[1/2/4],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[1/2/4],[3/6/12],[3/6/12],[2/4/8],[3/6/12],),([#xref("s-4dd8bd26a8c9")[#text("Influence")]],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[1/2/4],[3/6/12],[3/6/12],[2/4/8],[3/6/12],),([#xref("s-0cae99582db5")[#text("Life")]],[3/6/12],[3/6/12],[3/6/12],[1/2/4],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[2/4/8],[3/6/12],),([#xref("s-cf9b630681c6")[#text("Marksmanship")]],[3/6/12],[1/2/4],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[1/2/4],[2/4/8],[1/2/4],),([#xref("s-a258db36f711")[#text("Medicine")]],[2/4/8],[3/6/12],[3/6/12],[2/4/8],[2/4/8],[3/6/12],[3/6/12],[3/6/12],[2/4/8],[3/6/12],),([#xref("s-9a2b3a82ecb8")[#text("Mind")]],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[2/4/8],[3/6/12],[3/6/12],[2/4/8],[2/4/8],[3/6/12],),([#xref("s-9f0ff83d0f76")[#text("Radiance")]],[3/6/12],[3/6/12],[3/6/12],[1/2/4],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[2/4/8],[3/6/12],),([#xref("s-9ea1803c1690")[#text("Scholarship")]],[3/6/12],[3/6/12],[2/4/8],[3/6/12],[1/2/4],[2/4/8],[3/6/12],[3/6/12],[2/4/8],[3/6/12],),([#xref("s-ed652ae1b42c")[#text("Storm")]],[3/6/12],[3/6/12],[2/4/8],[3/6/12],[3/6/12],[3/6/12],[2/4/8],[3/6/12],[2/4/8],[3/6/12],),([#xref("s-7fab5edbf9e6")[#text("Subterfuge")]],[3/6/12],[2/4/8],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[1/2/4],[2/4/8],[3/6/12],),([#xref("s-acc9dfe97acc")[#text("Wilderness")]],[3/6/12],[3/6/12],[3/6/12],[2/4/8],[3/6/12],[3/6/12],[3/6/12],[3/6/12],[2/4/8],[1/2/4],),))
+#v(12pt)
+#grid(columns:(1fr,1fr),gutter:18pt,[Some studies come naturally to your class; others take more development. Every discipline remains available after level 0.],[A starting rank granted by your origin or class is already owned. Pay only for ranks you still need, in order. Ability prices remain 2 / 4 / 8 DP by tier.])
+#tail-art("discipline-instruments")
 #pagebreak(weak: true)
 #grid(columns:(1fr,1fr),gutter:18pt,[#catalog-card("Armor","s-d65e53332dd3", icons: [ #discipline-mark("armor","",size:28pt) ])[#emph[#text("You learn to carry protection as part of your own body, moving with its weight instead of against it.")]
 
@@ -4025,12 +3384,14 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 ])
 #pagebreak(weak: true)
 #heading(level: 2)[Character paths]
+These four example builds show how shared abilities can express familiar fantasy heroes. Use a path as a starting idea, combine it with another, or change it freely. The suggestions waive no costs or requirements; choose a few starting abilities and grow toward the rest.
+
 #twocol[
 #block(breakable: false)[
 #entry("Green Healer","s-84a8f155d166")
 #text("Where you kneel, crushed grass begins to rise.")
 
-#text("")#strong[#text("What you bring:")]#text(" Healing; recovery; sanctuary. This is a character idea, not a new class, subclass or prerequisite chain.")
+#text("")#strong[#text("What you bring:")]#text(" Healing; recovery; sanctuary.")
 
 #heading(level: 3)[#text("Begin the story")]
 #text("Learn ")#xref("s-606521a493ff")[#text("Sap and Breath")]#text(" with Life 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Life 1 can put the idea within reach at level 0.")
@@ -4047,14 +3408,14 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#text("Root Keeper")#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
+#text("Try combining this with ")#text("Root Keeper")#text(". The roles describe what you enjoy,") #text("not everything you may do.")
 
 ]
 #block(breakable: false)[
 #entry("Light-Fingered Adventurer","s-66d11332e6dc")
 #text("A lock, a ledge, a dangling key: the world is full of invitations.")
 
-#text("")#strong[#text("What you bring:")]#text(" Infiltration; object play. This is a character idea, not a new class, subclass or prerequisite chain.")
+#text("")#strong[#text("What you bring:")]#text(" Infiltration; object play.")
 
 #heading(level: 3)[#text("Begin the story")]
 #text("Learn ")#xref("s-6facfd6f6b13")[#text("The Key Changes Hands")]#text(" with Subterfuge 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Subterfuge 1 can put the idea within reach at level 0.")
@@ -4071,14 +3432,14 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#text("Roadside Artificer")#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
+#text("Try combining this with ")#text("Roadside Artificer")#text(". The roles describe what you enjoy,") #text("not everything you may do.")
 
 ]
 #block(breakable: false)[
 #entry("Spellblade","s-392e01c5c38c")
 #text("Steel carries the spark exactly where you want it.")
 
-#text("")#strong[#text("What you bring:")]#text(" Melee magic; flexible range. This is a character idea, not a new class, subclass or prerequisite chain.")
+#text("")#strong[#text("What you bring:")]#text(" Melee magic; flexible range.")
 
 #heading(level: 3)[#text("Begin the story")]
 #text("Learn ")#xref("s-d22e862d4183")[#text("Ember Along the Edge")]#text(" with Flame 1 and Arms 1. Any HOL class can buy it after meeting its") #text("requirements. At level 0, a Flame origin pair and an Arms origin pair together can qualify you; Flame alone is insufficient.")
@@ -4095,14 +3456,14 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#text("Ward Weaver")#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
+#text("Try combining this with ")#text("Ward Weaver")#text(". The roles describe what you enjoy,") #text("not everything you may do.")
 
 ]
 #block(breakable: false)[
 #entry("Thinking Fighter","s-4cdf685d9128")
 #text("The fight happens once in your mind before your hand moves.")
 
-#text("")#strong[#text("What you bring:")]#text(" Knowledge melee; prediction. This is a character idea, not a new class, subclass or prerequisite chain.")
+#text("")#strong[#text("What you bring:")]#text(" Knowledge melee; prediction.")
 
 #heading(level: 3)[#text("Begin the story")]
 #text("Learn ")#xref("s-90e6fed059dd")[#text("Anatomy of an Opening")]#text(" with Scholarship 1. Any HOL class can buy it after meeting its") #text("requirements. An origin granting Scholarship 1 can put the idea within reach at level 0.")
@@ -4119,7 +3480,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("These are independent cards. You need every stated discipline rank, not the earlier card.") #text("Try combining this with ")#text("Field Alchemist")#text(". The roles describe what you enjoy,") #text("not everything you may do. Class signatures add a separate personal accent.")
+#text("Try combining this with ")#text("Field Alchemist")#text(". The roles describe what you enjoy,") #text("not everything you may do.")
 
 ]
 ]
@@ -4127,282 +3488,279 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #chapter("6","Playing the Game")
 #metadata("s-9deeb5b74dde")<s-9deeb5b74dde>
 #illustration("combat", height: 125pt, fit: "cover")
-#twocol[
-#text("A drawn blade changes the conversation. A broken bridge changes the journey. The") #text("rules help you decide what those changes mean when timing, danger and the choices") #text("of several characters meet.")
+#reading-columns(([#text("A drawn blade changes the conversation. A broken bridge changes the journey. The") #text("rules help you decide what those changes mean when timing, danger and the choices") #text("of several characters meet.")
 
-#text("Begin with what your hero is doing. You can use a learned ability, take a universal") #text("action, or describe something the situation makes possible. The DA establishes the") #text("circumstances and calls for a roll only when uncertainty has consequences.")
+],[#text("Begin with what your hero is doing. You can use a learned ability, take a universal") #text("action, or describe something the situation makes possible. The DA establishes the") #text("circumstances and calls for a roll only when uncertainty has consequences.")
 
-#heading(level: 3)[#text("Resolve an action")]
+],[#heading(level: 3)[#text("Resolve an action")]
 #text("When you use an ability, declare it ")#strong[#text("before rolling")]#text(". Read its requirements, choose") #text("its targets and any printed options, and check range and equipment. Spend the action") #text("and any required cost. Roll its attribute if instructed, then apply the complete") #text("Weak, Standard or Strong outcome. Finally, record conditions and continuing effects.")
 
-#text("An outcome is complete: do not add the Weak damage to the Standard damage. If a") #text("Strong outcome includes an earlier benefit, it says so. Instant damage happens once;") #text("a condition applied by that damage follows the condition's own timing.")
+],[#text("An outcome is complete: do not add the Weak damage to the Standard damage. If a") #text("Strong outcome includes an earlier benefit, it says so. Instant damage happens once;") #text("a condition applied by that damage follows the condition's own timing.")
 
-#text("A no-roll ability still costs its printed action. A treatment that takes an hour") #text("cannot be completed in one combat turn merely because it is indexed as a Main Action.")
+],[#text("A no-roll ability still costs its printed action. A treatment that takes an hour") #text("cannot be completed in one combat turn merely because it is indexed as a Main Action.")
 
-#heading(level: 3)[#text("Boons, Banes and results")]
+],[#heading(level: 3)[#text("Boons, Banes and results")]
 #text("Roll three dice, plus one die for each net Boon or Bane, to a maximum of six dice.") #text("With Boons, retain the best three; with Banes, retain the worst three. Add the") #text("printed attribute once. Weak is 8 or less, Standard 9–14, and Strong 15 or more.")
 
-#rule-table(2,([#text("Circumstance")],[#text("Usual adjustment")],),(([#text("Meaningful help or obstacle")],[#text("1 Boon or Bane")],),([#text("Substantial help or a severe obstacle")],[#text("2 Boons or Banes")],),([#text("Exceptional advantage or difficulty, still possible")],[#text("3 Boons or Banes")],),))
+],[#rule-table(2,([#text("Circumstance")],[#text("Usual adjustment")],),(([#text("Meaningful help or obstacle")],[#text("1 Boon or Bane")],),([#text("Substantial help or a severe obstacle")],[#text("2 Boons or Banes")],),([#text("Exceptional advantage or difficulty, still possible")],[#text("3 Boons or Banes")],),))
 
-#text("These are guides for the DA. They do not turn an impossible attempt into a possible") #text("one. Do not count the same obstacle twice under different names. Boons and Banes") #text("from distinct valid sources stack, cancel, and then use the three-die net limit.")
+],[#text("These are guides for the DA. They do not turn an impossible attempt into a possible") #text("one. Do not count the same obstacle twice under different names. Boons and Banes") #text("from distinct valid sources stack, cancel, and then use the three-die net limit.")
 
-#note[
+],[#note[
 #text("")#strong[#text("Example — keeping the best three.")]#text(" An attack has 3 Boons and 1 Bane, leaving") #text("2 Boons. Roll five dice. On 1, 2, 4, 5, 6, retain 4, 5, 6 for 15. Brawn +1 makes") #text("16, a Strong result. If two Banes remained instead, retain 1, 2, 4 for 7; Brawn +1") #text("would give 8, a Weak result. Neither roll changes the attack's printed damage.")
 
 ]
-#text("Read retained natural 111 as Weak with an additional complication and 666 as Strong") #text("with an additional benefit. The result still makes its printed progress. The DA") #text("fits a benefit or complication to the scene; it does not silently double damage or") #text("grant another action.")
+],[#text("Read retained natural 111 as Weak with an additional complication and 666 as Strong") #text("with an additional benefit. The result still makes its printed progress. The DA") #text("fits a benefit or complication to the scene; it does not silently double damage or") #text("grant another action.")
 
-#heading(level: 3)[#text("Taking turns")]
+],[#heading(level: 3)[#text("Taking turns")]
 #text("At the start of combat, one player rolls unmodified 3d6. On 12 or more, the player") #text("side acts first. Otherwise the opposing side begins. This determines which side") #text("starts ")#strong[#text("every round of this combat")]#text("; do not roll again each round.")
 
-#text("The starting side chooses one of its characters to act. Then the other side chooses") #text("one. Alternate until everyone has taken a turn. If one side has no characters left") #text("to act, the other finishes its remaining turns. A character takes one turn each round.") #text("Each side chooses its order as it goes.")
+],[#text("The starting side chooses one of its characters to act. Then the other side chooses") #text("one. Alternate until everyone has taken a turn. If one side has no characters left") #text("to act, the other finishes its remaining turns. A character takes one turn each round.") #text("Each side chooses its order as it goes.")
 
-#text("On your turn, you have one ")#strong[#text("Main Action")]#text(", one ")#strong[#text("Maneuver")]#text(", and movement up to your") #text("")#strong[#text("Speed")]#text(". You also have one ")#strong[#text("Reaction")]#text(", available for its stated trigger. Refresh") #text("that turn's budget at the start of your turn. A defense roll does not itself spend") #text("a Reaction. Choose your retained categories at turn start if Dazed or Grappled.")
+],[#text("On your turn, you have one ")#strong[#text("Main Action")]#text(", one ")#strong[#text("Maneuver")]#text(", and movement up to your") #text("")#strong[#text("Speed")]#text(". You also have one ")#strong[#text("Reaction")]#text(", available for its stated trigger. Refresh") #text("that turn's budget at the start of your turn. A defense roll does not itself spend") #text("a Reaction. Choose your retained categories at turn start if Dazed or Grappled.")
 
-#text("You can split movement around your actions. You can convert your Main Action into") #text("a Maneuver and a Maneuver into another movement allowance. Conversion goes only") #text("in that direction. Converting your Main and original Maneuver into movement gives") #text("three total movement allowances: a full sprint.")
+],[#text("You can split movement around your actions. You can convert your Main Action into") #text("a Maneuver and a Maneuver into another movement allowance. Conversion goes only") #text("in that direction. Converting your Main and original Maneuver into movement gives") #text("three total movement allowances: a full sprint.")
 
-#note[
+],[#note[
 #text("")#strong[#text("Example — reaching an ally.")]#text(" Speed 6 lets Mara move 6 squares. She converts her") #text("Maneuver into movement for 6 more, then uses her Main Action to heal a companion.") #text("She has not gained a second Main Action, and any difficult terrain costs still apply.")
 
 ]
-#text("A Reaction resolves when its trigger says it does, including on someone else's turn.") #text("Once spent, it is unavailable until refreshed. A free attack granted by an ability") #text("spends no action and may occur more than once in a turn, but ")#strong[#text("free attacks never") #text("trigger additional free attacks")]#text(". Read the granting effect to see which attack it allows.")
+],[#text("A Reaction resolves when its trigger says it does, including on someone else's turn.") #text("Once spent, it is unavailable until refreshed. A free attack granted by an ability") #text("spends no action and may occur more than once in a turn, but ")#strong[#text("free attacks never") #text("trigger additional free attacks")]#text(". Read the granting effect to see which attack it allows.")
 
-#heading(level: 3)[#text("Attacking and defending")]
+],[#heading(level: 3)[#text("Attacking and defending")]
 #text("Players roll. When your hero attacks, roll the attack's printed attribute and read") #text("its attacker outcomes. This is true even if the target is another player character;") #text("the receiving player does not also roll a defense.")
 
-#text("When a DA-controlled creature attacks you, roll the defense attribute specified by") #text("that attack. It might be Agility to evade a blow, Fortitude to withstand a bodily") #text("assault, or another attribute named by the attack. Apply the result from its") #text("")#strong[#text("Weak defense / Standard defense / Strong defense")]#text(" columns. Weak defense is the") #text("most dangerous outcome; Strong defense is the least dangerous.")
+],[#text("When a DA-controlled creature attacks you, roll the defense attribute specified by") #text("that attack. It might be Agility to evade a blow, Fortitude to withstand a bodily") #text("assault, or another attribute named by the attack. Apply the result from its") #text("")#strong[#text("Weak defense / Standard defense / Strong defense")]#text(" columns. Weak defense is the") #text("most dangerous outcome; Strong defense is the least dangerous.")
 
-#rule-table(2,([#text("Player's defense")],[#text("Equivalent attacker outcome")],),(([#text("Weak")],[#text("Strong attack")],),([#text("Standard")],[#text("Standard attack")],),([#text("Strong")],[#text("Weak attack")],),))
+],[#rule-table(2,([#text("Player's defense")],[#text("Equivalent attacker outcome")],),(([#text("Weak")],[#text("Strong attack")],),([#text("Standard")],[#text("Standard attack")],),([#text("Strong")],[#text("Weak attack")],),))
 
-#text("Creature ")#strong[#text("Evasion")]#text(" adds its printed Boons or Banes to your attack. ")#strong[#text("Threat")]#text(" adds") #text("its printed Boons or Banes to your defense against that creature's attack. These") #text("use the ordinary dice rules; do not add them numerically to the total.")
+],[#text("Creature ")#strong[#text("Evasion")]#text(" adds its printed Boons or Banes to your attack. ")#strong[#text("Threat")]#text(" adds") #text("its printed Boons or Banes to your defense against that creature's attack. These") #text("use the ordinary dice rules; do not add them numerically to the total.")
 
-#text("If you control a summon, roll that creature's printed attributes. Its player profile") #text("already presents attack outcomes in the correct direction. Your hero's own Brawn") #text("or Reason does not replace the summon’s value.")
+],[#text("If you control a summon, roll that creature's printed attributes. Its player profile") #text("already presents attack outcomes in the correct direction. Your hero's own Brawn") #text("or Reason does not replace the summon’s value.")
 
-#heading(level: 3)[#text("Damage and resistance")]
+],[#heading(level: 3)[#text("Damage and resistance")]
 #text("Damage comes from the chosen outcome, not a weapon damage die. Your attribute has") #text("already affected the roll; do not add it again to damage. Apply each matching") #text("resistance after determining the outcome. ")#strong[#text("Armor DR is physical resistance.")]#text("")
 
-#text("Use the highest applicable resistance of each type, to a maximum of 3. Two sources") #text("of physical resistance 2 do not give 4. Physical resistance 2 and Fire resistance 1") #text("can apply together because they protect against different types.")
+],[#text("Use the highest applicable resistance of each type, to a maximum of 3. Two sources") #text("of physical resistance 2 do not give 4. Physical resistance 2 and Fire resistance 1") #text("can apply together because they protect against different types.")
 
-#text("A damaging event always deals at least ")#strong[#text("1 total damage")]#text(" after resistance. This") #text("minimum applies to the event, not separately to every component. It does not create") #text("damage for a harmless ability. Conditions, pushes and other riders still apply") #text("unless their own rules prevent them.")
+],[#text("A damaging event always deals at least ")#strong[#text("1 total damage")]#text(" after resistance. This") #text("minimum applies to the event, not separately to every component. It does not create") #text("damage for a harmless ability. Conditions, pushes and other riders still apply") #text("unless their own rules prevent them.")
 
-#note[
+],[#note[
 #text("")#strong[#text("Example — steel and flame.")]#text(" An attack deals 3 physical and 1 fire damage.") #text("Physical resistance 2 reduces the physical portion to 1. Fire resistance 1 removes") #text("the fire portion. Take 1 total damage, not one of each type. If both portions had") #text("been reduced to zero, the event would still deal its minimum 1 total damage.")
 
 ]
-#text("Physical includes impacts, sonic force and supernatural force when the attack says") #text("physical. Fire, Cold and Lightning have separate resistances even though their wounds") #text("share the Elemental table. Life resistance also reduces ordinary HP healing.")
+],[#text("Physical includes impacts, sonic force and supernatural force when the attack says") #text("physical. Fire, Cold and Lightning have separate resistances even though their wounds") #text("share the Elemental table. Life resistance also reduces ordinary HP healing.")
 
-#text("Same-kind numerical bonuses do not add together unless explicitly stated. Conditions") #text("with meaningful ratings can add; binary Prone cannot. Boons and Banes use their own") #text("stacking rules. Where a creature has a weakness, use its printed procedure; do not") #text("invent extra damage simply from a descriptive vulnerability.")
+],[#text("Same-kind numerical bonuses do not add together unless explicitly stated. Conditions") #text("with meaningful ratings can add; binary Prone cannot. Boons and Banes use their own") #text("stacking rules. Where a creature has a weakness, use its printed procedure; do not") #text("invent extra damage simply from a descriptive vulnerability.")
 
-#heading(level: 3)[#text("Shields and guarded positions")]
+],[#heading(level: 3)[#text("Shields and guarded positions")]
 #text("Defend is a universal Maneuver that gives 1 Boon to defenses until the start of your") #text("next turn. Repeating Defend does not increase that same benefit.")
 
-#text("Shield Block spends a Reaction before an eligible defense. While you use the held") #text("shield, gain 1 Boon to defenses against attacks the DA judges it can block, until") #text("the start of your next turn. Most ordinary physical attacks can be blocked. Defend") #text("and Shield Block are separate sources: together they supply 2 Boons. Creatures use") #text("shields the same way.")
+],[#text("Shield Block spends a Reaction before an eligible defense. While you use the held") #text("shield, gain 1 Boon to defenses against attacks the DA judges it can block, until") #text("the start of your next turn. Most ordinary physical attacks can be blocked. Defend") #text("and Shield Block are separate sources: together they supply 2 Boons. Creatures use") #text("shields the same way.")
 
-#heading(level: 3)[#text("Opportunity attacks")]
+],[#heading(level: 3)[#text("Opportunity attacks")]
 #text("Leaving an enemy's melee reach voluntarily, casting beside it, standing, stowing an") #text("item, or retrieving an item can provoke. The enemy may spend its Reaction to make") #text("")#strong[#text("Basic Melee")]#text(", never a specialty card. Resolve that attack ")#strong[#text("at the start of the") #text("provoking action")]#text(", before the original action takes effect.")
 
-#text("Then continue the original action if its actor is capable. Damage alone does not") #text("cancel it. An actor reduced to Dying cannot continue. Commit the action on declaration;") #text("if interrupted permanently, that action is spent. Additional HP or item costs are") #text("paid only when the action continues into resolution. An unspent potion is not drunk") #text("by an interrupted character who can no longer act.")
+],[#text("Then continue the original action if its actor is capable. Damage alone does not") #text("cancel it. An actor reduced to Dying cannot continue. Commit the action on declaration;") #text("if interrupted permanently, that action is spent. Additional HP or item costs are") #text("paid only when the action continues into resolution. An unspent potion is not drunk") #text("by an interrupted character who can no longer act.")
 
-#text("Drawing a weapon as part of attacking adds no separate action. Dropping an item is") #text("free. Stowing or picking up an item costs a Maneuver. Forced movement never provokes.") #text("An ability can explicitly allow movement without provoking.")
+],[#text("Drawing a weapon as part of attacking adds no separate action. Dropping an item is") #text("free. Stowing or picking up an item costs a Maneuver. Forced movement never provokes.") #text("An ability can explicitly allow movement without provoking.")
 
-#note[
+],[#note[
 #text("")#strong[#text("Example — a spell under pressure.")]#text(" Vaelis begins casting beside an armed foe.") #text("The foe spends its Reaction on Basic Melee. Vaelis makes the required defense and") #text("loses HP. Still conscious and otherwise capable, Vaelis continues the spell and") #text("pays any remaining printed cost. A healing spell cannot proceed if its upfront") #text("life cost would leave its caster at 0 HP.")
 
 ]
-#heading(level: 3)[#text("Distance, space and cover")]
+],[#heading(level: 3)[#text("Distance, space and cover")]
 #text("All distances use ")#strong[#text("squares")]#text(". A square is the useful unit for your map; it does not") #text("require a fixed conversion into feet or meters. A diagonal step costs one square.") #text("Normal ground costs 1 movement; difficult ground costs 2.")
 
-#text("You cannot move through an occupied square unless its occupant is Prone. That square") #text("costs 2 movement, and you cannot end there. Standing costs 2 movement. An ability") #text("that moves you without provoking still respects terrain, occupied spaces and legal") #text("endpoints unless it explicitly says otherwise.")
+],[#text("You cannot move through an occupied square unless its occupant is Prone. That square") #text("costs 2 movement, and you cannot end there. Standing costs 2 movement. An ability") #text("that moves you without provoking still respects terrain, occupied spaces and legal") #text("endpoints unless it explicitly says otherwise.")
 
-#text("A target you must see must actually be visible. An attack also needs a path to it.") #text("Partial obstruction gives ")#strong[#text("1 Bane")]#text("; heavy cover gives ")#strong[#text("3 Banes")]#text(". Heavy cover still") #text("leaves a narrow attack path, such as fighting from behind a wall or dense thicket.") #text("A solid barrier with no attack path prevents that attack. Concealment that prevents") #text("you from seeing a sight-required target is not merely heavy cover.")
+],[#text("A target you must see must actually be visible. An attack also needs a path to it.") #text("Partial obstruction gives ")#strong[#text("1 Bane")]#text("; heavy cover gives ")#strong[#text("3 Banes")]#text(". Heavy cover still") #text("leaves a narrow attack path, such as fighting from behind a wall or dense thicket.") #text("A solid barrier with no attack path prevents that attack. Concealment that prevents") #text("you from seeing a sight-required target is not merely heavy cover.")
 
-#text("For a player area attack, choose the printed range, shape, inclusion and exclusions.") #text("Roll once using the ")#strong[#text("worst applicable net Boon/Bane situation")]#text(" among its targets.") #text("Use that result for all targets; apply their resistances individually. When an NPC") #text("area attack affects several players, each player makes their own defense roll.")
+],[#text("For a player area attack, choose the printed range, shape, inclusion and exclusions.") #text("Roll once using the ")#strong[#text("worst applicable net Boon/Bane situation")]#text(" among its targets.") #text("Use that result for all targets; apply their resistances individually. When an NPC") #text("area attack affects several players, each player makes their own defense roll.")
 
-#heading(level: 3)[#text("Push, pull and throw")]
+],[#heading(level: 3)[#text("Push, pull and throw")]
 #text("A push moves a target away; a pull brings it toward the source. Follow a card's") #text("specific direction and shape. Apply ")#strong[#text("Stability")]#text(" once to the initial target, reducing") #text("the available forced movement, to a minimum of 0. Stability is normally 0; only an") #text("explicit grant increases it. Use the highest source, maximum 3.")
 
-#text("Spend the entered square's terrain cost from the movement budget. If any positive") #text("budget remains, the target enters the final square even if its cost exceeds that") #text("budget, then stops. For example, push 1 can enter one difficult square and stop.") #text("Stability does not reduce Prone, conditions, voluntary movement, projectile range,") #text("obstacle progress or the reduction of a grapple.")
+],[#text("Spend the entered square's terrain cost from the movement budget. If any positive") #text("budget remains, the target enters the final square even if its cost exceeds that") #text("budget, then stops. For example, push 1 can enter one difficult square and stop.") #text("Stability does not reduce Prone, conditions, voluntary movement, projectile range,") #text("obstacle progress or the reduction of a grapple.")
 
-#text("A collision with another movable creature forms a moving group. Apply collision") #text("damage to the participants using movement remaining on contact, then subtract the") #text("new creature's Stability once before continuing. The group moves together; do not") #text("charge the same creature's Stability twice in that movement. A hard obstruction") #text("stops the group and deals remaining-budget collision damage +1 to each member.") #text("The original mover then bounces one square in the opposite direction if possible.")
+],[#text("A collision with another movable creature forms a moving group. Apply collision") #text("damage to the participants using movement remaining on contact, then subtract the") #text("new creature's Stability once before continuing. The group moves together; do not") #text("charge the same creature's Stability twice in that movement. A hard obstruction") #text("stops the group and deals remaining-budget collision damage +1 to each member.") #text("The original mover then bounces one square in the opposite direction if possible.")
 
-#note[
+],[#note[
 #text("")#strong[#text("Example — Stability in a chain.")]#text(" Push 5 strikes Stability 1, leaving 4. After") #text("one normal square, 3 remains. The moving creature strikes a new creature with") #text("Stability 2. Resolve the contact, subtract 2, and use the remaining 1 to move the") #text("group one further normal square. If the attack also inflicted Burning, stopping") #text("the movement would not remove that condition.")
 
 ]
-#note[
+],[#note[
 #text("")#strong[#text("Playtest ruling — crowded collisions.")]#text(" Never finish with overlapping occupants.") #text("If a large moving group cannot fit, the DA stops it before illegal overlap and") #text("places its members in the nearest legal squares along the route. This is a") #text("temporary geometry ruling, not permission to pass through a wall or standing creature.")
 
 ]
-#heading(level: 3)[#text("Grappling and capture")]
+],[#heading(level: 3)[#text("Grappling and capture")]
 #text("Grappling requires a learned ability; it is not automatically granted with Basic Melee.") #text("Grappled prevents movement. At ratings 1, 2 and 3, retain respectively two, one or") #text("none of Main Action, Maneuver and Reaction, chosen at turn start. The grappler is") #text("restricted by their own contribution as well. Multiple grapplers' contributions add") #text("on the target. Attacks against a Grappled target gain Boons equal to its rating.")
 
-#text("If you still have a Main Action, Force can reduce your grapple by 1/2/3. Grappled 3") #text("needs outside help. A grappler can freely release their own contribution. A grapple") #text("is maintained and does not simply decay at turn end.")
+],[#text("If you still have a Main Action, Force can reduce your grapple by 1/2/3. Grappled 3") #text("needs outside help. A grappler can freely release their own contribution. A grapple") #text("is maintained and does not simply decay at turn end.")
 
-#text("Attacks are lethal by default. Taking a prisoner requires a printed nonlethal ability,") #text("grappling or restraint. Once a helpless captive is secured and no combat remains,") #text("return to ordinary narration. You do not need to keep taking turns to conduct a conversation.")
+],[#text("Attacks are lethal by default. Taking a prisoner requires a printed nonlethal ability,") #text("grappling or restraint. Once a helpless captive is secured and no combat remains,") #text("return to ordinary narration. You do not need to keep taking turns to conduct a conversation.")
 
-#heading(level: 3)[#text("Ending a fight")]
+],[#heading(level: 3)[#text("Ending a fight")]
 #text("A fight ends when the immediate opposition is resolved, not because everyone decides") #text("to ignore an active death roll. Resolve Dying before leaving combat timing. When it") #text("is safe to pause and companions can attend to an ordinary fire or similar immediate") #text("hazard, settle that hazard as the scene allows. Other conditions remain until their") #text("own removal, expiry or remedy. A safe breath restores HP; it does not remove wounds,") #text("refund Grit, cure every condition or reverse Last Words.")
 
-]
+],))
 #chapter("7","Beyond the Battlefield")
 #metadata("s-b32cca197003")<s-b32cca197003>
 #illustration("adventure", height: 125pt, fit: "cover")
-#twocol[
-#text("The road matters. So do the people at its end. A warm welcome, a sound bridge and") #text("a name remembered at the right moment can carry your company farther than another") #text("weapon. Your abilities include ways to navigate these scenes, but you always begin") #text("with what your hero says and does.")
+#reading-columns(([#text("The road matters. So do the people at its end. A warm welcome, a sound bridge and") #text("a name remembered at the right moment can carry your company farther than another") #text("weapon. Your abilities include ways to navigate these scenes, but you always begin") #text("with what your hero says and does.")
 
-#heading(level: 3)[#text("Explore with purpose")]
+],[#heading(level: 3)[#text("Explore with purpose")]
 #text("Tell the DA what you examine, how you approach, and what you hope to learn. If lifting") #text("the rug reveals the trapdoor, you find it by lifting the rug. No perception roll is") #text("needed to discover a fact your action plainly reveals.")
 
-#text("When searching involves uncertainty and a meaningful consequence, the DA calls for") #text("")#strong[#text("Reason")]#text(". When someone might perceive your concealed hero, roll ")#strong[#text("Agility")]#text(" to") #text("remain Hidden; the observer does not make an opposed roll. You need a plausible") #text("place to hide. Dice do not make you disappear in open view.")
+],[#text("When searching involves uncertainty and a meaningful consequence, the DA calls for") #text("")#strong[#text("Reason")]#text(". When someone might perceive your concealed hero, roll ")#strong[#text("Agility")]#text(" to") #text("remain Hidden; the observer does not make an opposed roll. You need a plausible") #text("place to hide. Dice do not make you disappear in open view.")
 
-#text("Active searching or attempting to hide in combat costs a Main Action unless an") #text("ability says otherwise. Hidden is universal, not separately tracked for each observer.") #text("Attacking or openly revealing yourself ends it. The DA judges whether movement") #text("maintains actual concealment. Invisible is different: you cannot be seen, but your") #text("location is not necessarily unknown.")
+],[#text("Active searching or attempting to hide in combat costs a Main Action unless an") #text("ability says otherwise. Hidden is universal, not separately tracked for each observer.") #text("Attacking or openly revealing yourself ends it. The DA judges whether movement") #text("maintains actual concealment. Invisible is different: you cannot be seen, but your") #text("location is not necessarily unknown.")
 
-#text("Before an unscripted roll, establish what progress means and what the consequences") #text("are. A Weak search might narrow the location without exposing the answer; a Weak") #text("concealment attempt might reach cover while leaving evidence of where you went.") #text("These examples are possibilities, not automatic effects that override the scene.")
+],[#text("Before an unscripted roll, establish what progress means and what the consequences") #text("are. A Weak search might narrow the location without exposing the answer; a Weak") #text("concealment attempt might reach cover while leaving evidence of where you went.") #text("These examples are possibilities, not automatic effects that override the scene.")
 
-#heading(level: 3)[#text("Consequences that matter")]
+],[#heading(level: 3)[#text("Consequences that matter")]
 #text("A ")#strong[#text("consequence")]#text(" is what is at stake: injury, lost time, exposure, spent supplies,") #text("a worse position or a closing opportunity. A ")#strong[#text("complication")]#text(" adds a problem while") #text("preserving any progress already earned. A ")#strong[#text("benefit")]#text(" gives a useful advantage.") #text("The DA explains the stakes before asking for the roll.")
 
-#text("If you can repeat an attempt indefinitely without cost, danger or changed circumstances,") #text("the table may be better served by describing the time and completing it. If failure") #text("would seal an escape route or alert a guard, say so before rolling. Weak always means") #text("its stated progress, not an unannounced success or an automatic failure.")
+],[#text("If you can repeat an attempt indefinitely without cost, danger or changed circumstances,") #text("the table may be better served by describing the time and completing it. If failure") #text("would seal an escape route or alert a guard, say so before rolling. Weak always means") #text("its stated progress, not an unannounced success or an automatic failure.")
 
-#heading(level: 3)[#text("Work as a group")]
+],[#heading(level: 3)[#text("Work as a group")]
 #text("Group checks occur ")#strong[#text("outside combat")]#text(". The DA sets a progress target and states") #text("whether the task is ")#strong[#text("binary")]#text(" or ")#strong[#text("cumulative")]#text(". Each participating character rolls") #text("an appropriate attribute, contributing 1 progress on Weak, 2 on Standard, or 3 on Strong.") #text("Add the contributions and compare the total to the target.")
 
-#text("For a binary task, meet the target in that attempt or the task is not completed.") #text("For a cumulative task, retain progress between attempts as the task allows. The DA") #text("states the time and consequence of each attempt. You can provide Aid or contribute") #text("your own group roll, not both to the same attempt.")
+],[#text("For a binary task, meet the target in that attempt or the task is not completed.") #text("For a cumulative task, retain progress between attempts as the task allows. The DA") #text("states the time and consequence of each attempt. You can provide Aid or contribute") #text("your own group roll, not both to the same attempt.")
 
-#note[
+],[#note[
 #text("")#strong[#text("Example — the swollen gate.")]#text(" Three heroes heave against a gate before a patrol") #text("arrives. The DA sets a binary target of 7. Weak, Strong and Strong contribute") #text("1 + 3 + 3 = 7: the gate opens. Weak, Standard and Strong would total 6; the gate") #text("would stay shut and the declared consequence would follow. Pushing a boulder") #text("uphill might instead retain those 6 progress for a later attempt.")
 
 ]
-#text("Crafting, deriving recipes and wound treatment do not use group checks. Their") #text("individual procedures and daily limits remain in force.")
+],[#text("Crafting, deriving recipes and wound treatment do not use group checks. Their") #text("individual procedures and daily limits remain in force.")
 
-#heading(level: 3)[#text("Travel and the outdoors")]
+],[#heading(level: 3)[#text("Travel and the outdoors")]
 #text("Ordinary travel does not require routine rolls, and HOL has no exhaustion track.") #text("The DA calls for a roll when weather, pursuit, a dangerous route or another specific") #text("circumstance creates a consequence. Supplies and time still matter. Decide what your") #text("company carries, shares, buys or obtains with its abilities.")
 
-#text("Foraging expertise comes from an appropriate environment card. It is not a universal") #text("permission to identify every edible mushroom. Other heroes can still inspect the") #text("land, collect something they already recognize, or help in a way the scene permits.") #text("Specialist cards provide their own outcomes and limitations.")
+],[#text("Foraging expertise comes from an appropriate environment card. It is not a universal") #text("permission to identify every edible mushroom. Other heroes can still inspect the") #text("land, collect something they already recognize, or help in a way the scene permits.") #text("Specialist cards provide their own outcomes and limitations.")
 
-#text("Climbing and swimming normally cost ")#strong[#text("2 movement per square")]#text(", like difficult terrain.") #text("This does not make a sheer unsupported wall climbable or an impassable current safe.") #text("A specialist ability can improve the activity. Roll only when the execution is") #text("uncertain and the consequence matters.")
+],[#text("Climbing and swimming normally cost ")#strong[#text("2 movement per square")]#text(", like difficult terrain.") #text("This does not make a sheer unsupported wall climbable or an impassable current safe.") #text("A specialist ability can improve the activity. Roll only when the execution is") #text("uncertain and the consequence matters.")
 
-#heading(level: 3)[#text("Jumping and falling")]
+],[#heading(level: 3)[#text("Jumping and falling")]
 #text("A running broad jump reaches ")#strong[#text("max(1, 2 + Agility) squares")]#text(". It needs two squares of") #text("approach; without that approach, halve the maximum, rounding down to a minimum of 1.") #text("A high jump reaches ")#strong[#text("max(0, 1 + floor(Agility ÷ 2)) squares")]#text(" and needs no approach.") #text("Spend movement for the distance traveled and land in a legal, supported, free square.")
 
-#rule-table(4,([#text("Agility")],[#text("Running broad jump")],[#text("Standing broad jump")],[#text("High jump")],),(([#text("−2")],[#text("1")],[#text("1")],[#text("0")],),([#text("−1")],[#text("1")],[#text("1")],[#text("0")],),([#text("0")],[#text("2")],[#text("1")],[#text("1")],),([#text("+1")],[#text("3")],[#text("1")],[#text("1")],),([#text("+2")],[#text("4")],[#text("2")],[#text("2")],),))
+],[#rule-table(4,([#text("Agility")],[#text("Running broad jump")],[#text("Standing broad jump")],[#text("High jump")],),(([#text("−2")],[#text("1")],[#text("1")],[#text("0")],),([#text("−1")],[#text("1")],[#text("1")],[#text("0")],),([#text("0")],[#text("2")],[#text("1")],[#text("1")],),([#text("+1")],[#text("3")],[#text("1")],[#text("1")],),([#text("+2")],[#text("4")],[#text("2")],[#text("2")],),))
 
-#text("Zero high-jump squares does not mean you cannot hop over a low obstacle. The grid") #text("measures large clearances. Safe jumps within your limits need no roll; a risky") #text("landing can call for Agility. Jumping does not grant extra movement or passage") #text("through a barrier.")
+],[#text("Zero high-jump squares does not mean you cannot hop over a low obstacle. The grid") #text("measures large clearances. Safe jumps within your limits need no roll; a risky") #text("landing can call for Agility. Jumping does not grant extra movement or passage") #text("through a barrier.")
 
-#text("Falling deals ")#strong[#text("3 physical damage per complete 2 squares fallen")]#text(". Round the distance") #text("down to complete pairs before multiplying; normal physical resistance applies.") #text("A fall of 5 squares deals 6 damage before resistance. A fall under 2 squares has") #text("no automatic falling damage. Exceptional surfaces and landing circumstances are DA rulings.")
+],[#text("Falling deals ")#strong[#text("3 physical damage per complete 2 squares fallen")]#text(". Round the distance") #text("down to complete pairs before multiplying; normal physical resistance applies.") #text("A fall of 5 squares deals 6 damage before resistance. A fall under 2 squares has") #text("no automatic falling damage. Exceptional surfaces and landing circumstances are DA rulings.")
 
-#heading(level: 3)[#text("Talk, bargain and persuade")]
+],[#heading(level: 3)[#text("Talk, bargain and persuade")]
 #text("Speak for your character, summarize what they say, or use a mixture of both. Explain") #text("what you want and why the other person might agree. The DA portrays their interests,") #text("knowledge and limits. A roll resolves uncertainty; it does not erase their motives.")
 
-#text("Use the attribute printed on a social ability. Without one, the DA calls for an") #text("attribute appropriate to the approach. Guile might carry a deceptive bargain;") #text("Knowledge might establish a technical argument; Reason might find the important") #text("contradiction. A useful fact or appropriate gesture can make a roll unnecessary.")
+],[#text("Use the attribute printed on a social ability. Without one, the DA calls for an") #text("attribute appropriate to the approach. Guile might carry a deceptive bargain;") #text("Knowledge might establish a technical argument; Reason might find the important") #text("contradiction. A useful fact or appropriate gesture can make a roll unnecessary.")
 
-#text("A scar's intimidation Boon or persuasion Bane applies when the scar actually") #text("influences the interaction. The DA decides that circumstance, just as they decide") #text("whether a wound affects a physical activity. Personality and allegiance remain") #text("choices, not penalties assigned by a condition table.")
+],[#text("A scar's intimidation Boon or persuasion Bane applies when the scar actually") #text("influences the interaction. The DA decides that circumstance, just as they decide") #text("whether a wound affects a physical activity. Personality and allegiance remain") #text("choices, not penalties assigned by a condition table.")
 
-#heading(level: 3)[#text("Magic in your hands")]
+],[#heading(level: 3)[#text("Magic in your hands")]
 #text("Magic is learned through abilities and disciplines. There are no spell slots or") #text("mana pools. A spell uses the same action, attribute and outcome structure as another") #text("ability, with its printed requirements and costs. An attack spell still produces") #text("its Weak result on a Weak roll; it does not simply fizzle.")
 
-#text("You choose a card before rolling. A line, rectangle or placed area must use its") #text("printed dimensions and range. Connected placed squares share edges. Decide targets") #text("and any damage-type choice before rolling. An illustration or evocative description") #text("does not silently make the area larger or add a condition.")
+],[#text("You choose a card before rolling. A line, rectangle or placed area must use its") #text("printed dimensions and range. Connected placed squares share edges. Decide targets") #text("and any damage-type choice before rolling. An illustration or evocative description") #text("does not silently make the area larger or add a condition.")
 
-#text("Defensive interference and disruption are supplied by abilities. There is no") #text("universal spell-cancellation roll. Casting beside an enemy can provoke an opportunity") #text("attack; resolve it before continuing the spell if still capable.")
+],[#text("Defensive interference and disruption are supplied by abilities. There is no") #text("universal spell-cancellation roll. Casting beside an enemy can provoke an opportunity") #text("attack; resolve it before continuing the spell if still capable.")
 
-#text("Beast forms keep your own HP, attributes and wounds. They are not replaceable HP") #text("pools. Use the form's printed actions and equipment restrictions. A form does not") #text("import an entire monster entry or grant spellcasting if its rules forbid it.")
+],[#text("Beast forms keep your own HP, attributes and wounds. They are not replaceable HP") #text("pools. Use the form's printed actions and equipment restrictions. A form does not") #text("import an entire monster entry or grant spellcasting if its rules forbid it.")
 
-#heading(level: 3)[#text("Moser's law of conservation of Life energy")]
+],[#heading(level: 3)[#text("Moser's law of conservation of Life energy")]
 #text("Healing magic transfers life energy; it does not create it freely. A Novice healing") #text("spell costs its caster ")#strong[#text("1 HP")]#text(", an Adept spell ")#strong[#text("3 HP")]#text(", and a Master spell ")#strong[#text("7 HP")]#text(".") #text("Pay the full cost before rolling. This cost bypasses all resistance and must leave") #text("the caster above 0 HP. You cannot begin a healing spell by sacrificing your last HP.") #text("The cost applies regardless of the tradition used to describe the spell.")
 
-#text("Healing requires a free hand. Restore the outcome's printed fixed HP, reduce it by") #text("the recipient's Life resistance, and restore at least 1 if HP is missing. Never") #text("exceed maximum HP. Healing does not erase wounds or reverse Last Words. Potions have") #text("their own fixed value and inventory procedure, without a spell outcome roll or caster cost.")
+],[#text("Healing requires a free hand. Restore the outcome's printed fixed HP, reduce it by") #text("the recipient's Life resistance, and restore at least 1 if HP is missing. Never") #text("exceed maximum HP. Healing does not erase wounds or reverse Last Words. Potions have") #text("their own fixed value and inventory procedure, without a spell outcome roll or caster cost.")
 
-#note[
+],[#note[
 #text("")#strong[#text("Example — energy has a price.")]#text(" A Novice healer at 5 HP pays 1 and falls to 4,") #text("then rolls the spell. If its outcome restores 4 HP to a companion with Life") #text("resistance 2, the companion regains 2. The caster cannot use the same spell at") #text("1 HP, because paying first would leave them at 0.")
 
 ]
-#text("A healing spell can attack a creature whose profile says healing harms it. Use the") #text("spell's attack attribute, range and cost. Its HP result becomes Life damage; beneficial") #text("recovery riders do not help that target. This follows the ordinary player-roll") #text("procedure, with no extra opposed save.")
+],[#text("A healing spell can attack a creature whose profile says healing harms it. Use the") #text("spell's attack attribute, range and cost. Its HP result becomes Life damage; beneficial") #text("recovery riders do not help that target. This follows the ordinary player-roll") #text("procedure, with no extra opposed save.")
 
-#heading(level: 3)[#text("Make, identify and derive")]
+],[#heading(level: 3)[#text("Make, identify and derive")]
 #text("A crafting card grants the capability to work; a ")#strong[#text("recipe")]#text(" describes the specific") #text("thing you can make. Recipes specify permission, tools, materials, time and output.") #text("Choose the recipes granted when learning your crafting ability. Ordinary Recipe Study") #text("offers additional eligible recipes through DP. Other recipes can be found or derived;") #text("they are not automatically on sale for coins.")
 
-#text("Acquire the actual ingredients. Foraged materials need not be carried indefinitely;") #text("carried bundles use their printed Bulk and inventory die. Complete the recipe's") #text("full time, roll the crafting card's attribute, and increase one existing product") #text("supply by 1/2/3 inventory steps as the recipe allows. Starting from out, the first") #text("step is d4. Never exceed the recipe's cap. Check carried material supply after use.")
+],[#text("Acquire the actual ingredients. Foraged materials need not be carried indefinitely;") #text("carried bundles use their printed Bulk and inventory die. Complete the recipe's") #text("full time, roll the crafting card's attribute, and increase one existing product") #text("supply by 1/2/3 inventory steps as the recipe allows. Starting from out, the first") #text("step is d4. Never exceed the recipe's cap. Check carried material supply after use.")
 
-#text("Derivation is reverse engineering, not the same as identification. Identification") #text("cards reveal what their outcomes say; an item may require that understanding before") #text("use. A magical sword may work at once, while a tome may remain unusable until understood.") #text("A derivation card specifies its target and work interval. Exceptional objects can") #text("require years of accumulated work. No group crafting or group derivation shortens it.")
+],[#text("Derivation is reverse engineering, not the same as identification. Identification") #text("cards reveal what their outcomes say; an item may require that understanding before") #text("use. A magical sword may work at once, while a tome may remain unusable until understood.") #text("A derivation card specifies its target and work interval. Exceptional objects can") #text("require years of accumulated work. No group crafting or group derivation shortens it.")
 
-#heading(level: 3)[#text("Rest and development")]
+],[#heading(level: 3)[#text("Rest and development")]
 #text("The DA determines whether a place is safe enough to spend saved DP. Level awards") #text("are milestones, not payment for each defeated creature. Keep a record of purchases,") #text("prerequisites, recipes and scars so your development remains clear.")
 
-#text("A wound may require repeated daily treatment even after you are ready to adventure.") #text("An inn, a friendly workshop, a healer's garden or a camp among allies can become part") #text("of the story. Rest restores what its rule says it restores. It does not refund Grit,") #text("remove a permanent scar, or refill a bottle whose inventory die is out.")
+],[#text("A wound may require repeated daily treatment even after you are ready to adventure.") #text("An inn, a friendly workshop, a healer's garden or a camp among allies can become part") #text("of the story. Rest restores what its rule says it restores. It does not refund Grit,") #text("remove a permanent scar, or refill a bottle whose inventory die is out.")
 
-]
+],))
 #chapter("8","Harm and Recovery")
 #metadata("s-3373a7bacd12")<s-3373a7bacd12>
-#twocol[
-#text("You can catch your breath after a battle. You cannot always leave the battle behind.") #text("HP measures your immediate capacity to keep going. Grit gives you a limited reserve") #text("when you fall. Wounds record the lasting cost, even when their active penalties") #text("have been treated.")
+#reading-columns(([#text("You can catch your breath after a battle. You cannot always leave the battle behind.") #text("HP measures your immediate capacity to keep going. Grit gives you a limited reserve") #text("when you fall. Wounds record the lasting cost, even when their active penalties") #text("have been treated.")
 
-#heading(level: 3)[#text("HP, healing and a safe breath")]
+],[#heading(level: 3)[#text("HP, healing and a safe breath")]
 #text("Subtract damage from current HP. Healing restores its printed amount, after any") #text("Life resistance, up to maximum HP. When the immediate danger has passed and you") #text("can safely take a breath, restore HP to full. The DA determines whether that pause") #text("is safe. A breath does not erase a wound or replenish spent Grit.")
 
-#text("Deal with immediate conditions as the fiction permits. Companions can put out an") #text("ordinary fire when no danger prevents them from doing so. Poison, persistent injuries") #text("and other unresolved conditions do not all disappear because combat ended. Use each") #text("condition's removal rule. Resolve a Dying character's situation before leaving turn timing.")
+],[#text("Deal with immediate conditions as the fiction permits. Companions can put out an") #text("ordinary fire when no danger prevents them from doing so. Poison, persistent injuries") #text("and other unresolved conditions do not all disappear because combat ended. Use each") #text("condition's removal rule. Resolve a Dying character's situation before leaving turn timing.")
 
-#heading(level: 3)[#text("When you fall")]
+],[#heading(level: 3)[#text("When you fall")]
 #text("Player characters enter ")#strong[#text("Dying")]#text(" at 0 HP. Each entry causes a new wound. A creature") #text("or ordinary NPC normally dies at 0 HP; player-character survival procedures are not") #text("a second HP pool for every opponent.")
 
-#text("Roll the new wound immediately. Roll three d6, plus one extra die for each ")#strong[#text("prior") #text("wound")]#text(", to a maximum of ")#strong[#text("five dice total")]#text(". Retain the highest three, sort them from") #text("lowest to highest, and read them as a three-digit number. Add the new scar to your") #text("wound count after determining this roll.")
+],[#text("Roll the new wound immediately. Roll three d6, plus one extra die for each ")#strong[#text("prior") #text("wound")]#text(", to a maximum of ")#strong[#text("five dice total")]#text(". Retain the highest three, sort them from") #text("lowest to highest, and read them as a three-digit number. Add the new scar to your") #text("wound count after determining this roll.")
 
-#note[
+],[#note[
 #text("")#strong[#text("Example — a second scar.")]#text(" You already have one wound, so roll four dice for") #text("the next one. On 2, 4, 4, 6, keep 4, 4, 6: result 446. Read 446 on the appropriate") #text("wound table. It is not a total of fourteen. Even after treatment, your earlier scar") #text("still adds its die to this roll.")
 
 ]
-#text("Choose the table for the damage type that dealt the most damage ")#strong[#text("after resistance")]#text(".") #text("You choose on a tie. Physical includes sonic and force. Fire, Cold and Lightning use") #text("Elemental wounds, but keep separate resistances. Mental, Radiant and Life/Necrotic") #text("have their own tables.")
+],[#text("Choose the table for the damage type that dealt the most damage ")#strong[#text("after resistance")]#text(".") #text("You choose on a tie. Physical includes sonic and force. Fire, Cold and Lightning use") #text("Elemental wounds, but keep separate resistances. Mental, Radiant and Life/Necrotic") #text("have their own tables.")
 
-#note[
+],[#note[
 #text("")#strong[#text("Playtest ruling — fully resisted components.")]#text(" If an event dealt only its minimum") #text("1 total damage because all components were reduced to zero, choose a wound table") #text("from the event's original damage types. This closes an otherwise unspecified boundary.")
 
 ]
-#text("If the listed body part is absent or the injury cannot apply, move to the next") #text("listed result until one does, such as 116 to 122. Do not reroll for a more convenient") #text("injury. The tables end at 666.")
+],[#text("If the listed body part is absent or the injury cannot apply, move to the next") #text("listed result until one does, such as 116 to 122. Do not reroll for a more convenient") #text("injury. The tables end at 666.")
 
-#heading(level: 3)[#text("Your Dying turn")]
+],[#heading(level: 3)[#text("Your Dying turn")]
 #text("At the start of your turn while Dying, choose ")#strong[#text("one Grit")]#text(" or a ")#strong[#text("death roll")]#text(". This") #text("choice stands for the turn; you cannot see the roll and then decide to spend Grit.")
 
-#text("Spend one Grit to regain full HP. You retain the wound you just suffered. Otherwise,") #text("roll Fortitude and apply the death-roll result.")
+],[#text("Spend one Grit to regain full HP. You retain the wound you just suffered. Otherwise,") #text("roll Fortitude and apply the death-roll result.")
 
-#rule-table(2,([#text("Death-roll result")],[#text("Effect")],),(([#text("Weak")],[#text("Gain 1 death mark.")],),([#text("Standard")],[#text("No change.")],),([#text("Strong")],[#text("Stabilize at 0 HP and clear death marks.")],),([#text("Retained natural 111")],[#text("Gain 2 death marks instead of the ordinary Weak result.")],),([#text("Retained natural 666")],[#text("Restore 1 HP and clear death marks.")],),))
+],[#rule-table(2,([#text("Death-roll result")],[#text("Effect")],),(([#text("Weak")],[#text("Gain 1 death mark.")],),([#text("Standard")],[#text("No change.")],),([#text("Strong")],[#text("Stabilize at 0 HP and clear death marks.")],),([#text("Retained natural 111")],[#text("Gain 2 death marks instead of the ordinary Weak result.")],),([#text("Retained natural 666")],[#text("Restore 1 HP and clear death marks.")],),))
 
-#text("At ")#strong[#text("three death marks")]#text(", enter Last Words. Damage while already Dying adds one") #text("mark per damaging event; it does not create another wound. Damage that returns a") #text("stabilized character to Dying creates a new wound and adds one death mark.")
+],[#text("At ")#strong[#text("three death marks")]#text(", enter Last Words. Damage while already Dying adds one") #text("mark per damaging event; it does not create another wound. Damage that returns a") #text("stabilized character to Dying creates a new wound and adds one death mark.")
 
-#text("A companion can use the universal ")#strong[#text("Stabilize")]#text(" Maneuver. Stabilization clears death") #text("marks and leaves you at 0 HP, unable to act. Healing above 0 clears death marks and") #text("ends HP-caused unconsciousness. It does not necessarily remove another condition") #text("that also prevents action.")
+],[#text("A companion can use the universal ")#strong[#text("Stabilize")]#text(" Maneuver. Stabilization clears death") #text("marks and leaves you at 0 HP, unable to act. Healing above 0 clears death marks and") #text("ends HP-caused unconsciousness. It does not necessarily remove another condition") #text("that also prevents action.")
 
-#heading(level: 3)[#text("Last Words")]
+],[#heading(level: 3)[#text("Last Words")]
 #text("A wound result of ")#strong[#text("666")]#text(", or reaching three death marks, begins ")#strong[#text("Last Words")]#text(". You") #text("can speak, but do nothing else. You die at the end of the second following turn.") #text("Use that time for a farewell, a warning, a promise or silence. It belongs to the player.")
 
-#text("Ordinary healing, treatment, potions and Grit cannot reverse Last Words. Only an") #text("explicit exceptional ability could say otherwise. Another character's ability may") #text("react to hearing those words without changing the finality of your death.")
+],[#text("Ordinary healing, treatment, potions and Grit cannot reverse Last Words. Only an") #text("explicit exceptional ability could say otherwise. Another character's ability may") #text("react to hearing those words without changing the finality of your death.")
 
-#heading(level: 3)[#text("Treating a wound")]
+],[#heading(level: 3)[#text("Treating a wound")]
 #text("A wound states its immediate effect, any lasting penalty, its required treatment") #text("and ")#strong[#text("Recovery Value")]#text(", or ")#strong[#text("RV")]#text(". Immediate pushes and knockdowns happen once.") #text("Temporary conditions decay under the condition rules. Lasting wound penalties") #text("remain until their stated remedy.")
 
-#text("Use the appropriate treatment card: Soft Tissue, Bone, Mental, Elemental, Radiant") #text("or Life. Each attempt takes the card's full time. A wound can receive only ")#strong[#text("one") #text("treatment attempt per day")]#text(", across all healers. Weak, Standard and Strong add") #text("")#strong[#text("1, 2 and 3 recovery progress")]#text(". Keep accumulated progress with the wound.")
+],[#text("Use the appropriate treatment card: Soft Tissue, Bone, Mental, Elemental, Radiant") #text("or Life. Each attempt takes the card's full time. A wound can receive only ")#strong[#text("one") #text("treatment attempt per day")]#text(", across all healers. Weak, Standard and Strong add") #text("")#strong[#text("1, 2 and 3 recovery progress")]#text(". Keep accumulated progress with the wound.")
 
-#text("When progress meets or exceeds RV, remove exactly the effects its remedy says it") #text("removes. The scar and accumulated wound count remain. Treatment does not regrow a") #text("missing limb. An artificial replacement or exceptional ability specifies the") #text("function it restores. Rest works as a remedy only when the wound explicitly lists it.")
+],[#text("When progress meets or exceeds RV, remove exactly the effects its remedy says it") #text("removes. The scar and accumulated wound count remain. Treatment does not regrow a") #text("missing limb. An artificial replacement or exceptional ability specifies the") #text("function it restores. Rest works as a remedy only when the wound explicitly lists it.")
 
-#note[
+],[#note[
 #text("")#strong[#text("Example — two different problems.")]#text(" Physical wound 333 applies Bleeding 1 and") #text("a lasting Bane. Bleeding resolves and decays, or can be reduced with an appropriate") #text("Main Action. It does not restart each turn because the scar exists. Soft Tissue") #text("treatment must accumulate RV 3 to remove the lasting Bane. The scar still counts") #text("on every later wound roll.")
 
 ]
-#text("A cosmetic wound can need no treatment. If treating a socially significant scar") #text("removes its intimidation Boon and persuasion Bane, remove ")#strong[#text("both")]#text(", as printed.") #text("The DA decides when broad physical or mental activity penalties apply.")
+],[#text("A cosmetic wound can need no treatment. If treating a socially significant scar") #text("removes its intimidation Boon and persuasion Bane, remove ")#strong[#text("both")]#text(", as printed.") #text("The DA decides when broad physical or mental activity penalties apply.")
 
-#heading(level: 3)[#text("Read a condition")]
+],[#heading(level: 3)[#text("Read a condition")]
 #text("A numbered condition can use its rating for severity, duration, or both. At the end") #text("of the affected character's turn, resolve its effect, then reduce its temporary") #text("rating by 1. At 0 it ends. A condition gained during that turn also decreases at") #text("that turn's end.")
 
-#text("An asterisk prevents automatic decay. ")#strong[#text("Blinded 1")]#text("* persists until its remedy;") #text("Blinded 2* would not make the blindness stronger. Record temporary and starred") #text("contributions separately. Add effective severity where relevant, but decay only") #text("the temporary part. Generic temporary reduction removes temporary rating; lasting") #text("treatment follows its source. Maintained Grappled and binary Prone have separate rules.")
+],[#text("An asterisk prevents automatic decay. ")#strong[#text("Blinded 1")]#text("* persists until its remedy;") #text("Blinded 2* would not make the blindness stronger. Record temporary and starred") #text("contributions separately. Add effective severity where relevant, but decay only") #text("the temporary part. Generic temporary reduction removes temporary rating; lasting") #text("treatment follows its source. Maintained Grappled and binary Prone have separate rules.")
 
-#text("Dazed and Grappled determine your retained action categories at ")#strong[#text("turn start")]#text(".") #text("A change during the turn does not undo actions already spent or recalculate that") #text("turn's category selection. Grappled still prevents movement while the hold exists.") #text("Paralyzed, Asleep and Unconscious impose their immediate restrictions.")
+],[#text("Dazed and Grappled determine your retained action categories at ")#strong[#text("turn start")]#text(".") #text("A change during the turn does not undo actions already spent or recalculate that") #text("turn's category selection. Grappled still prevents movement while the hold exists.") #text("Paralyzed, Asleep and Unconscious impose their immediate restrictions.")
 
-#text("You can spend a Main Action to reduce Bleeding, Burning or Freezing on yourself or") #text("an adjacent creature by 1 with a plausible method. This is not a cure for every") #text("condition. Specialized cards may remove more or use a cheaper action.")
+],[#text("You can spend a Main Action to reduce Bleeding, Burning or Freezing on yourself or") #text("an adjacent creature by 1 with a plausible method. This is not a cure for every") #text("condition. Specialized cards may remove more or use a cheaper action.")
 
-#note[
+],[#note[
 #text("")#strong[#text("Example — resolve, then decay.")]#text(" Untreated Bleeding 3 deals 3 damage at turn end,") #text("then becomes Bleeding 2. On later turns it deals 2 and then 1 before ending.") #text("Reducing it with a Main Action before the first tick changes the sequence to 2,") #text("then 1. Bleeding bypasses resistance; Burning and Freezing use matching resistance.")
 
 ]
-#text("Asleep, Paralyzed, Unconscious and Petrified impose three defense Banes. Overlapping") #text("helpless states apply that penalty once. Dazed adds no defense Banes. Grappled gives") #text("attackers one Boon per rating of the actual target. When Dazed and Grappled overlap,") #text("use the greater action restriction, not their sum.")
+],[#text("Asleep, Paralyzed, Unconscious and Petrified impose three defense Banes. Overlapping") #text("helpless states apply that penalty once. Dazed adds no defense Banes. Grappled gives") #text("attackers one Boon per rating of the actual target. When Dazed and Grappled overlap,") #text("use the greater action restriction, not their sum.")
 
-]
+],))
 #tail-art("recovery")
 #pagebreak(weak: true)
 #entry("Conditions","s-5f8f714e88ad")
@@ -4410,26 +3768,37 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #chapter("9","Abilities")
 #metadata("s-354331778375")<s-354331778375>
-#grid(columns: (1fr,1fr), gutter:18pt, [#text("An ability is a practiced technique, a spell, a talent or a reliable piece of expertise.") #text("Its first lines describe what your hero does. Its rules tell you how that moment") #text("changes the game. Declare the ability before rolling and use its printed attribute.")
+#reading-columns(([#text("An ability is a practiced technique, a spell, a talent or a reliable piece of expertise.") #text("Its first lines describe what your hero does. Its rules tell you how that moment") #text("changes the game. Declare the ability before rolling and use its printed attribute.")
 
-#text("The numbered diamond is the minimum level: ")#strong[#text("1 Novice")]#text(", ")#strong[#text("3 Adept")]#text(", or ")#strong[#text("7 Master")]#text(".") #text("Novice purchases are allowed in level-0 creation. Shared cards cost 2, 4 or 8 DP.") #text("Every listed discipline rank must be owned before learning. No earlier card is") #text("required merely because its name or theme resembles a later one. The symbols beside") #text("a card name identify its disciplines; each discipline entry shows its symbol. Full") #text("requirements are also written out, so you never have to identify a symbol alone.")
+],[#text("The numbered diamond is the minimum level: ")#strong[#text("1 Novice")]#text(", ")#strong[#text("3 Adept")]#text(", or ")#strong[#text("7 Master")]#text(".") #text("Novice purchases are allowed in level-0 creation. Shared cards cost 2, 4 or 8 DP.") #text("Every listed discipline rank must be owned before learning. No earlier card is") #text("required merely because its name or theme resembles a later one. The symbols beside") #text("a card name identify its disciplines; each discipline entry shows its symbol. Full") #text("requirements are also written out, so you never have to identify a symbol alone.")
 
-#text("Universal actions are available to everyone. Their diamond reads ")#strong[#text("U")]#text(" and they cost") #text("no DP, but they do not give you free equipment. The shared catalog follows by tier,") #text("alphabetically within each tier. Your class's signature choices are printed with") #text("that class. The alphabetical index points to every ability, wherever it appears.")
+],[#text("Universal actions are available to everyone. Their diamond reads ")#strong[#text("U")]#text(" and they cost") #text("no DP, but they do not give you free equipment. The shared catalog follows by tier,") #text("alphabetically within each tier. Your class's signature choices are printed with") #text("that class. Each tier opens with a quick selection table. The tiered index at the back includes") #text("shared and class signature abilities, with requirements and page references.")
 
-#heading(level: 3)[#text("Read the entry in play")]
+],[#heading(level: 3)[#text("Read the entry in play")]
 #text("Check the action, attribute, targets, range and equipment. Make any choices the card") #text("requires, then pay its costs. If it calls for a roll, apply just the outcome you rolled.") #text("Track duration and limits afterward. “Once per round” resets at the start of your") #text("next turn. “Scene” means one continuous situation; a brief pause does not reset it.")
 
-#text("Type tags help you find abilities; they do not add rules. A card can be Attack,") #text("Magic and Control at once. Main Action, Maneuver, Reaction, Movement and Passive") #text("are separate action labels. Passive abilities cost no action unless their text says") #text("otherwise. A long activity still takes its printed full time.")
+],[#text("Type tags help you find abilities; they do not add rules. A card can be Attack,") #text("Magic and Control at once. Main Action, Maneuver, Reaction, Movement and Passive") #text("are separate action labels. Passive abilities cost no action unless their text says") #text("otherwise. A long activity still takes its printed full time.")
 
-#text("Your equipment's appearance supplies the fiction. The attack supplies its mechanics.") #text("If you describe a cleaving strike with a stout walking stick, use the chosen card's") #text("range, damage and limitations. Special equipment adds its explicit effects only.")
+],[#text("Your equipment's appearance supplies the fiction. The attack supplies its mechanics.") #text("If you describe a cleaving strike with a stout walking stick, use the chosen card's") #text("range, damage and limitations. Special equipment adds its explicit effects only.")
 
-#text("The ordinary way to attempt an activity remains available. An expert climbing card") #text("can provide better results, but you can choose an ordinary climb instead. Buying") #text("expertise gives you new options rather than forbidding everyone else from trying.")
+],[#text("The ordinary way to attempt an activity remains available. An expert climbing card") #text("can provide better results, but you can choose an ordinary climb instead. Buying") #text("expertise gives you new options rather than forbidding everyone else from trying.")
 
-], [#illustration("learned-relics",height:530pt)])
-#pagebreak(weak: true)
-#heading(level: 2,"Universal actions")
-#twocol[
-#card(icons: [],"Aid","U","None","Maneuver","None — no roll","Universal","Universal","s-8700fcb71235")[
+],[#heading(level: 3)[#text("Shared card conventions")]
+#text("Unless a card states a limit, you may use it again by paying its action and stated") #text("costs. A free attack cannot trigger another free attack. An absent equipment grant") #text("means the ability supplies no item. Read the Gear line for specific grants and") #text("requirements; compatible abilities can share one item. These conventions apply to") #text("class signatures as well as shared abilities.")
+
+],[#text("Instant effects resolve once; applied conditions use their normal duration and decay.") #text("For an area attack, make one roll using the least favorable net Boons/Banes among") #text("the targets. Apply it to each affected target. When a creature attacks an area,") #text("each affected player instead makes a defense roll. Target lines determine inclusions.")
+
+],[#text("A summoning ability lets you choose an eligible profile anew each casting. Use that") #text("profile’s statistics and capabilities. The summon immediately receives one free Main") #text("command, counting as its command for that turn. Later commands cost your actions;") #text("without one it does nothing. It acts on your turn, has no independent Reactions,") #text("cannot summon, and disappears beyond 6 squares, including after forced movement.") #text("See ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" for profiles and the complete procedure.")
+
+],))
+#tail-art("learned-relics")
+#pagebreak(weak:true)
+#heading(level:2,"Universal actions")
+Find a useful option here, then follow its name to the complete card. Summaries help you choose; the card supplies the exact targets, costs and outcomes.
+
+#ability-directory((([#xref("s-8700fcb71235")[#text("Aid")]], [#text("None")], [#text("Maneuver")], [#text("Help an ally’s task with one Boon.")]),([#xref("s-ca4343e1c5b1")[#text("Basic Melee")]], [#text("None")], [#text("Main Action")], [#text("Strike an adjacent foe with a weapon.")]),([#xref("s-b1a8d2a1ad6f")[#text("Basic Ranged")]], [#text("None")], [#text("Main Action")], [#text("Shoot a foe with a ranged weapon.")]),([#xref("s-8b9a7554370b")[#text("Basic Throw")]], [#text("None")], [#text("Main Action")], [#text("Attack with a thrown weapon.")]),([#xref("s-d81ee1deed22")[#text("Basic Unarmed")]], [#text("None")], [#text("Main Action")], [#text("Strike without a weapon.")]),([#xref("s-6d4788c3f598")[#text("Command a Summon")]], [#text("None")], [#text("Main Action or Maneuver")], [#text("Spend your action to activate one summon.")]),([#xref("s-681a692e8efe")[#text("Convert an Action")]], [#text("None")], [#text("Action conversion")], [#text("Trade a Main Action down to movement.")]),([#xref("s-7a6665e4147c")[#text("Defend")]], [#text("None")], [#text("Maneuver")], [#text("Gain a Boon to your defense rolls.")]),([#xref("s-089277bfb75e")[#text("Disengage")]], [#text("None")], [#text("Maneuver")], [#text("Move this turn without provoking.")]),([#xref("s-8920c162aedf")[#text("Force")]], [#text("None")], [#text("Main Action")], [#text("Break obstacles, reduce a grapple or push.")]),([#xref("s-167a8784c5dc")[#text("Handle an Item")]], [#text("None")], [#text("Varies")], [#text("Draw, drop, retrieve or stow equipment.")]),([#xref("s-bc194ab16b8b")[#text("Move")]], [#text("None")], [#text("Movement")], [#text("Spend your Speed to change position.")]),([#xref("s-59de2ced60f1")[#text("Opportunity Attack")]], [#text("None")], [#text("Reaction")], [#text("Interrupt a provocation with Basic Melee.")]),([#xref("s-2cc80141c8e0")[#text("Reduce a Condition")]], [#text("None")], [#text("Main Action")], [#text("Reduce Bleeding, Burning or Freezing by 1.")]),([#xref("s-a8ca262729af")[#text("Shield Block")]], [#text("None")], [#text("Reaction")], [#text("Use a shield to improve eligible defenses.")]),([#xref("s-8d99f3d5156a")[#text("Stabilize")]], [#text("None")], [#text("Maneuver")], [#text("Stabilize a dying ally without restoring HP.")]),([#xref("s-d6add8bff129")[#text("Stand")]], [#text("None")], [#text("Movement")], [#text("Spend 2 movement to rise from prone.")]),([#xref("s-09b403375f97")[#text("Use a Healing Potion")]], [#text("None")], [#text("Maneuver")], [#text("Use a bottle’s fixed healing and check supply.")]),))
+#pagebreak(weak:true)
+#reading-columns(([#card(icons: [],"Aid","U","None","Maneuver","None — no roll","Universal","Universal","s-8700fcb71235")[
 #emph[#text("You catch the loose end, offer the missing word, or put your shoulder beside a friend’s.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4439,11 +3808,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn, or until the aided roll is made.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Basic Melee","U","None","Main Action","Brawn","Attack","Universal","s-ca4343e1c5b1")[
+],[#card(icons: [],"Basic Melee","U","None","Main Action","Brawn","Attack","Universal","s-ca4343e1c5b1")[
 #emph[#text("You set your feet and bring your weapon around in a practiced strike.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4468,7 +3835,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Basic Ranged","U","None","Main Action","Agility","Attack","Universal","s-b1a8d2a1ad6f")[
+],[#card(icons: [],"Basic Ranged","U","None","Main Action","Agility","Attack","Universal","s-b1a8d2a1ad6f")[
 #emph[#text("You steady your breathing, pick your mark, and release.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4493,7 +3860,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Basic Throw","U","None","Main Action","Brawn","Attack","Universal","s-8b9a7554370b")[
+],[#card(icons: [],"Basic Throw","U","None","Main Action","Brawn","Attack","Universal","s-8b9a7554370b")[
 #emph[#text("You feel the weight settle in your palm before sending it spinning toward your mark.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4518,7 +3885,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Basic Unarmed","U","None","Main Action","Brawn","Attack","Universal","s-d81ee1deed22")[
+],[#card(icons: [],"Basic Unarmed","U","None","Main Action","Brawn","Attack","Universal","s-d81ee1deed22")[
 #emph[#text("You close the distance with fist, heel or shoulder, putting your whole body behind the blow.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4543,7 +3910,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Command a Summon","U","None","Main Action or Maneuver","None — no roll","Universal","Universal","s-6d4788c3f598")[
+],[#card(icons: [],"Command a Summon","U","None","Main Action or Maneuver","None — no roll","Universal","Universal","s-6d4788c3f598")[
 #emph[#text("You point toward the opening and give a sharp instruction. The creature moves to carry it out, then stills when its task is done.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4559,13 +3926,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Granted actions are used immediately during your turn; none are saved for later turns.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay each command’s action cost; at most one command per summon per controller turn, including its immediate summoning command.")
 
 ]
-#card(icons: [],"Convert an Action","U","None","Action conversion","None — no roll","Universal","Universal","s-681a692e8efe")[
+],[#card(icons: [],"Convert an Action","U","None","Action conversion","None — no roll","Universal","Universal","s-681a692e8efe")[
 #emph[#text("You abandon the opening you were watching and throw your effort into what matters now.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4575,11 +3940,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Defend","U","None","Maneuver","None — no roll","Universal","Universal","s-7a6665e4147c")[
+],[#card(icons: [],"Defend","U","None","Maneuver","None — no roll","Universal","Universal","s-7a6665e4147c")[
 #emph[#text("You draw into a guarded stance, watching for the moment danger commits itself.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4589,11 +3952,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Disengage","U","None","Maneuver","None — no roll","Universal","Universal","s-089277bfb75e")[
+],[#card(icons: [],"Disengage","U","None","Maneuver","None — no roll","Universal","Universal","s-089277bfb75e")[
 #emph[#text("You give ground carefully, refusing to offer the opening your enemy is waiting for.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4603,11 +3964,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Remainder of this turn")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Force","U","None","Main Action","Brawn","Universal","Universal","s-8920c162aedf")[
+],[#card(icons: [],"Force","U","None","Main Action","Brawn","Universal","Universal","s-8920c162aedf")[
 #emph[#text("You set your shoulder, plant your feet and make the stubborn thing give ground.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4630,11 +3989,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Handle an Item","U","None","Varies","None — no roll","Universal","Universal","s-167a8784c5dc")[
+],[#card(icons: [],"Handle an Item","U","None","Varies","None — no roll","Universal","Universal","s-167a8784c5dc")[
 #emph[#text("Your hands know where each familiar piece belongs, even when you have to hurry.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4644,11 +4001,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Move","U","None","Movement","None — no roll","Universal","Universal","s-bc194ab16b8b")[
+],[#card(icons: [],"Move","U","None","Movement","None — no roll","Universal","Universal","s-bc194ab16b8b")[
 #emph[#text("You pick your route and go, boots finding the next patch of open ground.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4658,11 +4013,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Opportunity Attack","U","None","Reaction","None — no separate roll; resolve Basic Melee using Brawn","Universal","Universal","s-59de2ced60f1")[
+],[#card(icons: [],"Opportunity Attack","U","None","Reaction","None — no separate roll; resolve Basic Melee using Brawn","Universal","Universal","s-59de2ced60f1")[
 #emph[#text("You recognize the careless instant and strike before it passes.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4674,11 +4027,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Reduce a Condition","U","None","Main Action","None — no roll","Universal","Universal","s-2cc80141c8e0")[
+],[#card(icons: [],"Reduce a Condition","U","None","Main Action","None — no roll","Universal","Universal","s-2cc80141c8e0")[
 #emph[#text("You smother the flame, bind the cut or steady your breath, attending to the hurt before it worsens.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4688,11 +4039,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Shield Block","U","None","Reaction","None — no roll","Universal","Universal","s-a8ca262729af")[
+],[#card(icons: [],"Shield Block","U","None","Reaction","None — no roll","Universal","Universal","s-a8ca262729af")[
 #emph[#text("You hunker behind your shield, listening to the hard knocks against its face.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4702,11 +4051,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Stabilize","U","None","Maneuver","None — no roll","Universal","Universal","s-8d99f3d5156a")[
+],[#card(icons: [],"Stabilize","U","None","Maneuver","None — no roll","Universal","Universal","s-8d99f3d5156a")[
 #emph[#text("You press against the wound and keep your voice steady, giving your friend something to hold on to.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4716,11 +4063,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Stand","U","None","Movement","None — no roll","Universal","Universal","s-d6add8bff129")[
+],[#card(icons: [],"Stand","U","None","Movement","None — no roll","Universal","Universal","s-d6add8bff129")[
 #emph[#text("You draw a knee under yourself and rise to face what comes next.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4730,11 +4075,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Use a Healing Potion","U","None","Maneuver","None — no roll","Universal","Universal","s-09b403375f97")[
+],[#card(icons: [],"Use a Healing Potion","U","None","Maneuver","None — no roll","Universal","Universal","s-09b403375f97")[
 #emph[#text("You pull the stopper and swallow the sharp mouthful, feeling warmth return to aching limbs.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4744,15 +4087,16 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-]
-#pagebreak(weak: true)
-#heading(level: 2,"Novice abilities")
-#twocol[
-#card(icons: [#discipline-mark("flame","1")],"A Coal for a Promise","1","Flame 1","Main Action","Guile","Magic / Attack","2 DP","s-ffc06871cf7b")[
+],))
+#pagebreak(weak:true)
+#heading(level:2,"Novice abilities")
+Find a useful option here, then follow its name to the complete card. Summaries help you choose; the card supplies the exact targets, costs and outcomes.
+
+#ability-directory((([#xref("s-ffc06871cf7b")[#text("A Coal for a Promise")]], [#text("Flame 1")], [#text("Main Action")], [#text("Burn a foe and frighten it.")]),([#xref("s-f421c4a1615d")[#text("A Courtesy Unanswered")]], [#text("Subterfuge 1")], [#text("Main Action")], [#text("Make a deceptive strike that slows a foe.")]),([#xref("s-2182d2973f6d")[#text("A Door That Is Not There")]], [#text("Mind 1")], [#text("Main Action")], [#text("Create an illusory door or scene feature.")]),([#xref("s-c83ae6f25262")[#text("A Good Place to Stop")]], [#text("Wilderness 1")], [#text("Passive")], [#text("Spot a campsite danger and available shelter.")]),([#xref("s-0906f0bcb3f2")[#text("A Hand from Before")]], [#text("Calling 1")], [#text("Reaction")], [#text("Ward an ally and draw them closer.")]),([#xref("s-fa4fe64612b7")[#text("A Knot You Can Trust")]], [#text("Athletics 1")], [#text("Passive")], [#text("Secure or release a rope while climbing.")]),([#xref("s-36a77020aeb3")[#text("A Place at Any Fire")]], [#text("Influence 1")], [#text("Main Action")], [#text("Seek hospitality and local connections.")]),([#xref("s-ae7aaf153b46")[#text("A Sign against Harm")]], [#text("Guard 1")], [#text("Reaction")], [#text("Give an ally a Boon to one defense.")]),([#xref("s-714176fcf4cd")[#text("A Thought That Is Not Yours")]], [#text("Mind 1")], [#text("Main Action")], [#text("Deal mental damage and daze a foe.")]),([#xref("s-60612371376d")[#text("A Verse for Courage")]], [#text("Influence 1")], [#text("Maneuver")], [#text("Inspire an ally’s next roll.")]),([#xref("s-1849e1656b19")[#text("An Invitation Elsewhere")]], [#text("Mind 1")], [#text("Main Action")], [#text("Pull a creature with fey magic.")]),([#xref("s-90e6fed059dd")[#text("Anatomy of an Opening")]], [#text("Scholarship 1")], [#text("Main Action")], [#text("Strike with Knowledge and read resistance.")]),([#xref("s-a5a3f847b00a")[#text("Blood in the Teeth")]], [#text("Arms 1")], [#text("Main Action")], [#text("Strike harder at the cost of defense.")]),([#xref("s-0f172a62f494")[#text("Borrow a Voice")]], [#text("Mind 1")], [#text("Main Action")], [#text("Create a sound or imitate a voice.")]),([#xref("s-b14840d09558")[#text("Borrow the Beast")]], [#text("Wilderness 1")], [#text("Maneuver")], [#text("Become a beast with a claw or bite attack.")]),([#xref("s-336c3ab9f33e")[#text("Borrowed Clothes, Borrowed Manners")]], [#text("Subterfuge 1")], [#text("Main Action")], [#text("Use clothing and manners to impersonate.")]),([#xref("s-c038b0cc0ed1")[#text("Braced Harness")]], [#text("Armor 1")], [#text("Reaction")], [#text("Gain Stability against a forced movement.")]),([#xref("s-0b895818255b")[#text("Breath of the Wyrmling")]], [#text("Flame 1")], [#text("Main Action")], [#text("Breathe a line of burning fire.")]),([#xref("s-4abc65ad74a0")[#text("Catch a Falling Friend")]], [#text("None")], [#text("Reaction")], [#text("Catch a falling companion at an edge.")]),([#xref("s-d0a3ac9ce7a9")[#text("Cinder Cast")]], [#text("Flame 1")], [#text("Main Action")], [#text("Hurl fire that can leave a foe Burning.")]),([#xref("s-9185d70c2367")[#text("Conditioned Body")]], [#text("None")], [#text("Passive")], [#text("Increase maximum HP by 1.")]),([#xref("s-ad0b626a10d0")[#text("Create a Distraction")]], [#text("Subterfuge 1")], [#text("Main Action")], [#text("Distract a foe to help allies slip past or strike.")]),([#xref("s-6ccf444f6f38")[#text("Dawn Shard")]], [#text("Radiance 1")], [#text("Main Action")], [#text("Strike with radiant light and blind a foe.")]),([#xref("s-a22483224c83")[#text("Drain Warmth")]], [#text("Life 1")], [#text("Main Action")], [#text("Deal Life damage without healing yourself.")]),([#xref("s-d22e862d4183")[#text("Ember Along the Edge")]], [#text("Flame 1 and Arms 1")], [#text("Main Action")], [#text("Strike with a burning melee weapon.")]),([#xref("s-42514b06d0c6")[#text("Expert River Crossing")]], [#text("Athletics 1")], [#text("Main Action")], [#text("Swim with better control and secure gear.")]),([#xref("s-ae0b1a257a5d")[#text("Forage Coast")]], [#text("Wilderness 1")], [#text("Main Action")], [#text("Gather coastal food or ordinary materials.")]),([#xref("s-1ffdfb8a8396")[#text("Forage Mountains")]], [#text("Wilderness 1")], [#text("Main Action")], [#text("Gather mountain food or ordinary materials.")]),([#xref("s-54e2b3670bc5")[#text("Forage Wetlands")]], [#text("Wilderness 1")], [#text("Main Action")], [#text("Gather wetland food or plant materials.")]),([#xref("s-a7e3126a7312")[#text("Forage Woodland")]], [#text("Wilderness 1")], [#text("Main Action")], [#text("Gather woodland food or plant materials.")]),([#xref("s-be5d309cac2f")[#text("Guide a Frightened Animal")]], [#text("Wilderness 1")], [#text("Main Action")], [#text("Calm an animal toward a plausible behavior.")]),([#xref("s-4308553a40ce")[#text("Gust Hammer")]], [#text("Storm 1")], [#text("Main Action")], [#text("Batter and push a foe with wind.")]),([#xref("s-4ae89f9a2005")[#text("Hold a Conversation")]], [#text("None")], [#text("Main Action")], [#text("Advance a conversation and learn concerns.")]),([#xref("s-79bc81080a40")[#text("Hook and Drive")]], [#text("Arms 1")], [#text("Main Action")], [#text("Strike and pull a foe off balance.")]),([#xref("s-159a95b3baad")[#text("I Have Seen This Step")]], [#text("Scholarship 1")], [#text("Reaction")], [#text("Warn an ally of an incoming blow.")]),([#xref("s-f6f355a9a0ce")[#text("Identify a Mixture")]], [#text("Scholarship 1")], [#text("Main Action")], [#text("Discover a mixture’s purpose and hazards.")]),([#xref("s-fc3713e7daec")[#text("Identify an Enchantment")]], [#text("Scholarship 1")], [#text("Main Action")], [#text("Discover an item’s magic and any curse.")]),([#xref("s-b090d56f57fa")[#text("Intrusive Echo")]], [#text("Mind 1")], [#text("Main Action")], [#text("Deal mental damage, daze and deafen.")]),([#xref("s-57f6387c6028")[#text("Invitation to the Blade")]], [#text("Arms 1")], [#text("Main Action")], [#text("Strike while preparing your defense.")]),([#xref("s-57a8cf7ceb2c")[#text("Keep Time with Steel")]], [#text("Influence 1")], [#text("Main Action")], [#text("Strike and help an ally move safely.")]),([#xref("s-8bc286049eb3")[#text("Keep Your Bearings")]], [#text("None")], [#text("Main Action")], [#text("Navigate with landmarks and clear bearings.")]),([#xref("s-74c5c6765a91")[#text("Keep the Door Closed")]], [#text("Life 1")], [#text("Reaction")], [#text("Clear an existing death mark before another.")]),([#xref("s-2916c871443a")[#text("Lantern Moths")]], [#text("Radiance 1")], [#text("Main Action")], [#text("Create small lights you can move.")]),([#xref("s-38e4cc5379f9")[#text("Lantern in the Palm")]], [#text("Radiance 1")], [#text("Maneuver")], [#text("Carry a magical light in your hand.")]),([#xref("s-e4182074f203")[#text("Let the Spark Decide")]], [#text("Flame 1")], [#text("Main Action")], [#text("Strike with fire or cold and push.")]),([#xref("s-c1806fb50c1b")[#text("Make Something Useful")]], [#text("Craft 1")], [#text("Main Action")], [#text("Craft ordinary items from suitable salvage.")]),([#xref("s-7a069d6648a5")[#text("Measured Appeal")]], [#text("Influence 1")], [#text("Main Action")], [#text("Seek a concession through reasoned argument.")]),([#xref("s-f5add3130b03")[#text("Mercy in the Light")]], [#text("Radiance 1")], [#text("Main Action")], [#text("Heal an ally and ease temporary fear.")]),([#xref("s-42f939f3aed0")[#text("Name the Reckoning")]], [#text("Influence 1")], [#text("Main Action")], [#text("Strike with Reason and mark a quarry.")]),([#xref("s-ded249872692")[#text("Notice the Human Detail")]], [#text("None")], [#text("Main Action")], [#text("Read visible clues and test an interpretation.")]),([#xref("s-788fb7bb32b2")[#text("Oathlight Strike")]], [#text("Radiance 1")], [#text("Main Action")], [#text("Strike with radiant steel and support an ally.")]),([#xref("s-910d1a40bef2")[#text("Ordinary Recipe Study")]], [#text("Craft 1; known compatible crafting card")], [#text("Passive")], [#text("Learn two compatible ordinary recipes.")]),([#xref("s-27a35db4f523")[#text("Pack with Purpose")]], [#text("None")], [#text("Passive")], [#text("Stow an item while drawing for an attack.")]),([#xref("s-43f4bd09220f")[#text("Palm of the Gale")]], [#text("Storm 1")], [#text("Main Action")], [#text("Strike and push with an open-hand gust.")]),([#xref("s-a61a3f0d1b49")[#text("Pinning Shot")]], [#text("Marksmanship 1")], [#text("Main Action")], [#text("Shoot a foe to slow its movement.")]),([#xref("s-ddd66a510b36")[#text("Quiet Latch")]], [#text("Subterfuge 1")], [#text("Main Action")], [#text("Open a lock carefully and avoid tool marks.")]),([#xref("s-43429d322c0c")[#text("Read the Quarry")]], [#text("Marksmanship 1")], [#text("Main Action")], [#text("Shoot with Reason and read a foe’s trail.")]),([#xref("s-37c8bd3c7d28")[#text("Read the Remains")]], [#text("Scholarship 1")], [#text("Main Action")], [#text("Learn supported facts from evidence.")]),([#xref("s-3e7997d354fd")[#text("Relieve Poison")]], [#text("Medicine 1")], [#text("Main Action")], [#text("Reduce an ally’s temporary Poisoned rating.")]),([#xref("s-fe1587c3ea64")[#text("Rime Grip")]], [#text("Frost 1")], [#text("Main Action")], [#text("Freeze and slow a foe with cold.")]),([#xref("s-e16c4f638ad5")[#text("Roots Remember Feet")]], [#text("Wilderness 1")], [#text("Main Action")], [#text("Snare, pull and topple a foe with roots.")]),([#xref("s-199248a32781")[#text("Rouse the Senses")]], [#text("Medicine 1")], [#text("Main Action")], [#text("Reduce an ally’s temporary Dazed rating.")]),([#xref("s-a4dba94902f5")[#text("Saddle and Rein")]], [#text("Wilderness 1")], [#text("Main Action")], [#text("Guide a mount across an obstacle.")]),([#xref("s-606521a493ff")[#text("Sap and Breath")]], [#text("Life 1")], [#text("Main Action")], [#text("Heal an ally and reduce temporary Bleeding.")]),([#xref("s-a6fe8604c3d3")[#text("Secure a Hold")]], [#text("Athletics 1")], [#text("Main Action")], [#text("Grapple a foe, restricting both of you.")]),([#xref("s-fc048fa2af8c")[#text("Sell the Feint")]], [#text("Arms 1 and Subterfuge 1")], [#text("Maneuver")], [#text("Prepare a Boon for your next melee attack.")]),([#xref("s-a4c83899a588")[#text("Shared Breath")]], [#text("Life 1")], [#text("Main Action")], [#text("Pay 1 HP to heal another creature.")]),([#xref("s-5dc69f4dd73b")[#text("Shielding Step")]], [#text("Guard 1")], [#text("Reaction")], [#text("Take a single attack meant for an ally.")]),([#xref("s-f6bae7ebbc57")[#text("Smile Before Steel")]], [#text("Arms 1")], [#text("Main Action")], [#text("Strike with Guile, then move safely.")]),([#xref("s-2cfa9459da40")[#text("Smoke in a Bottle")]], [#text("Craft 1")], [#text("Main Action")], [#text("Brew and throw concealing smoke.")]),([#xref("s-2901bff290db")[#text("Speak with the Hearth")]], [#text("Flame 1")], [#text("Main Action")], [#text("Read a fire’s recent history.")]),([#xref("s-357292401433")[#text("Spring in the Sleeve")]], [#text("Craft 1")], [#text("Main Action")], [#text("Strike and pull with a spring-driven hook.")]),([#xref("s-2960fb94332a")[#text("Step Between Lanterns")]], [#text("Subterfuge 1")], [#text("Maneuver")], [#text("Move safely through dimness or concealment.")]),([#xref("s-85e94e582dcc")[#text("Stitch the Living Pattern")]], [#text("Scholarship 1")], [#text("Main Action")], [#text("Heal an ally and support their next spell.")]),([#xref("s-4bae3b97adcd")[#text("Summon Animal — Novice")]], [#text("Calling 1")], [#text("Main Action")], [#text("Summon a Novice animal companion.")]),([#xref("s-593a4ab3e236")[#text("Summon Construct — Novice")]], [#text("Calling 1")], [#text("Main Action")], [#text("Summon a Novice construct companion.")]),([#xref("s-98b40bc83bc9")[#text("Summon Elemental — Novice")]], [#text("Calling 1")], [#text("Main Action")], [#text("Summon a Novice elemental companion.")]),([#xref("s-e07be2e898d1")[#text("Summon Fey — Novice")]], [#text("Calling 1")], [#text("Main Action")], [#text("Summon a Novice fey companion.")]),([#xref("s-cf9d120450ce")[#text("Summon Spirit — Novice")]], [#text("Calling 1")], [#text("Main Action")], [#text("Summon a Novice spirit companion.")]),([#xref("s-9a79cc18229b")[#text("Summon Undead — Novice")]], [#text("Calling 1")], [#text("Main Action")], [#text("Summon a Novice undead companion.")]),([#xref("s-81968023986d")[#text("Sure Ascent")]], [#text("Athletics 1")], [#text("Main Action")], [#text("Climb securely and prepare an ally’s route.")]),([#xref("s-5fa88b2dc319")[#text("Swing into Trouble")]], [#text("Athletics 1")], [#text("Main Action")], [#text("Swing from a support and push at landing.")]),([#xref("s-8bf4c899b76a")[#text("Take Them Alive")]], [#text("Arms 1")], [#text("Passive")], [#text("Make a finishing attack nonlethal.")]),([#xref("s-f70404717fe6")[#text("Take the Measure")]], [#text("Marksmanship 1")], [#text("Maneuver")], [#text("Aim for a Boon to your next ranged attack.")]),([#xref("s-d2cc2f97d507")[#text("Tell a Worthy Story")]], [#text("None")], [#text("Main Action")], [#text("Engage listeners and win an introduction.")]),([#xref("s-6facfd6f6b13")[#text("The Key Changes Hands")]], [#text("Subterfuge 1")], [#text("Main Action")], [#text("Distract observers to take an unattended item.")]),([#xref("s-5566a5f3ed51")[#text("The Otter’s Bargain")]], [#text("Wilderness 1")], [#text("Maneuver")], [#text("Swim at ordinary movement cost.")]),([#xref("s-d81a1958a55c")[#text("The Patient Metal")]], [#text("Scholarship 1")], [#text("Main Action")], [#text("Repair a small damaged metal fitting.")]),([#xref("s-1f9a863cb1f5")[#text("The Right Small Courtesy")]], [#text("Influence 1")], [#text("Passive")], [#text("Learn a local courtesy for an introduction.")]),([#xref("s-e0f03cd9803f")[#text("The Untroubled Hand")]], [#text("Athletics 1")], [#text("Main Action")], [#text("Read balance to strike and push unarmed.")]),([#xref("s-8139ff39e4f2")[#text("Thunder at the Door")]], [#text("Storm 1")], [#text("Main Action")], [#text("Strike with thunder, deafening and pushing.")]),([#xref("s-55a747e1dcae")[#text("Trail Workshop")]], [#text("Craft 1")], [#text("Main Action")], [#text("Craft ordinary items and supplies.")]),([#xref("s-afd69d03fa79")[#text("Treat Bone")]], [#text("Medicine 1")], [#text("Main Action")], [#text("Add recovery progress to a Bone wound.")]),([#xref("s-09d5eb4341f2")[#text("Treat Elemental Injury")]], [#text("Medicine 1")], [#text("Main Action")], [#text("Treat an Elemental wound’s listed penalties.")]),([#xref("s-bf38cda8561d")[#text("Treat Life Injury")]], [#text("Medicine 1")], [#text("Main Action")], [#text("Treat a Life wound’s listed penalties.")]),([#xref("s-85e091071416")[#text("Treat Mental Trauma")]], [#text("Medicine 1")], [#text("Main Action")], [#text("Treat a Mental wound’s listed penalties.")]),([#xref("s-476aafa6e992")[#text("Treat Radiant Injury")]], [#text("Medicine 1")], [#text("Main Action")], [#text("Treat a Radiant wound’s listed penalties.")]),([#xref("s-d72b8ce2ae0e")[#text("Treat Soft Tissue")]], [#text("Medicine 1")], [#text("Main Action")], [#text("Add recovery progress to a Soft Tissue wound.")]),([#xref("s-d3bba3dde3ae")[#text("Wake the Iron Rune")]], [#text("Armor 1")], [#text("Maneuver")], [#text("Gain Stability 1 until your next turn.")]),([#xref("s-30d5ca182be2")[#text("Wear Medium Armor")]], [#text("Armor 1")], [#text("Passive")], [#text("Gain physical resistance 2 in trained armor.")]),))
+#pagebreak(weak:true)
+#reading-columns(([#card(icons: [#discipline-mark("flame","1")],"A Coal for a Promise","1","Flame 1","Main Action","Guile","Magic / Attack","2 DP","s-ffc06871cf7b")[
 #emph[#text("You name what your enemy fears losing, then flick a glowing coal from your fingers toward them. The ember flares as it strikes.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4771,11 +4115,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("subterfuge","1")],"A Courtesy Unanswered","1","Subterfuge 1","Main Action","Guile","Skill / Attack","2 DP","s-f421c4a1615d")[
+],[#card(icons: [#discipline-mark("subterfuge","1")],"A Courtesy Unanswered","1","Subterfuge 1","Main Action","Guile","Skill / Attack","2 DP","s-f421c4a1615d")[
 #emph[#text("You dip your head in a courteous greeting, then bring your hidden blade up beneath your opponent’s guard.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4794,13 +4136,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("mind","1")],"A Door That Is Not There","1","Mind 1","Main Action","Guile","Magic","2 DP","s-2182d2973f6d")[
+],[#card(icons: [#discipline-mark("mind","1")],"A Door That Is Not There","1","Mind 1","Main Action","Guile","Magic","2 DP","s-2182d2973f6d")[
 #emph[#text("You trace a doorframe in the air. An image of weathered wood and an iron latch settles into the space, convincing until a hand passes through it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4823,7 +4163,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","1")],"A Good Place to Stop","1","Wilderness 1","Passive","None — no roll","Skill / Utility","2 DP","s-c83ae6f25262")[
+],[#card(icons: [#discipline-mark("wilderness","1")],"A Good Place to Stop","1","Wilderness 1","Passive","None — no roll","Skill / Utility","2 DP","s-c83ae6f25262")[
 #emph[#text("You notice the dry ground beneath the roots and the way the wind bends around the rise.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4835,13 +4175,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Information learned remains known.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Ordinary activities remain available without this card. Roll only when uncertainty has consequences.")
 
 ]
-#card(icons: [#discipline-mark("calling","1")],"A Hand from Before","1","Calling 1","Reaction","None — no roll","Magic","2 DP","s-0906f0bcb3f2")[
+],[#card(icons: [#discipline-mark("calling","1")],"A Hand from Before","1","Calling 1","Reaction","None — no roll","Magic","2 DP","s-0906f0bcb3f2")[
 #emph[#text("You call an ancestor’s name and reach toward your companion. A translucent hand appears at their shoulder, bracing them against the coming blow.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4849,11 +4187,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("A translucent hand braces your friend. Give that defense 1 Boon; afterward the ally may move 1 square to a free square adjacent to you without provoking.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("athletics","1")],"A Knot You Can Trust","1","Athletics 1","Passive","None — no roll","Skill / Utility","2 DP","s-fa4fe64612b7")[
+],[#card(icons: [#discipline-mark("athletics","1")],"A Knot You Can Trust","1","Athletics 1","Passive","None — no roll","Skill / Utility","2 DP","s-fa4fe64612b7")[
 #emph[#text("You tie the knot without looking, then tug it once before trusting it with a friend’s weight.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4869,7 +4205,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" Ordinary activities remain available without this card. Roll only when uncertainty has consequences.")
 
 ]
-#card(icons: [#discipline-mark("influence","1")],"A Place at Any Fire","1","Influence 1","Main Action","Guile","Skill / Utility","2 DP","s-36a77020aeb3")[
+],[#card(icons: [#discipline-mark("influence","1")],"A Place at Any Fire","1","Influence 1","Main Action","Guile","Skill / Utility","2 DP","s-36a77020aeb3")[
 #emph[#text("You introduce yourself, offer a little news from the road, and ask who has room beside the fire. As people answer, you watch for a face willing to welcome you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4892,11 +4228,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("guard","1")],"A Sign against Harm","1","Guard 1","Reaction","None — no roll","Magic","2 DP","s-ae7aaf153b46")[
+],[#card(icons: [#discipline-mark("guard","1")],"A Sign against Harm","1","Guard 1","Reaction","None — no roll","Magic","2 DP","s-ae7aaf153b46")[
 #emph[#text("You draw a bright line in front of your companion. As the blow approaches, the line spreads into a brief ward across its path.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4904,11 +4238,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Trace a ward against this blow. Grant 1 Boon to the defense; no damage or resistance bonus is added.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("mind","1")],"A Thought That Is Not Yours","1","Mind 1","Main Action","Reason","Magic / Attack","2 DP","s-714176fcf4cd")[
+],[#card(icons: [#discipline-mark("mind","1")],"A Thought That Is Not Yours","1","Mind 1","Main Action","Reason","Magic / Attack","2 DP","s-714176fcf4cd")[
 #emph[#text("You hold your enemy’s gaze and whisper the outline of an impossible shape. They flinch as the image crowds into their thoughts.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4927,11 +4259,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("influence","1")],"A Verse for Courage","1","Influence 1","Maneuver","None — no roll","Skill","2 DP","s-60612371376d")[
+],[#card(icons: [#discipline-mark("influence","1")],"A Verse for Courage","1","Influence 1","Maneuver","None — no roll","Skill","2 DP","s-60612371376d")[
 #emph[#text("You sing the familiar verse just loud enough for your companion to hear. Their shoulders straighten as they turn back to the task.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4943,7 +4273,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("mind","1")],"An Invitation Elsewhere","1","Mind 1","Main Action","Guile","Magic","2 DP","s-1849e1656b19")[
+],[#card(icons: [#discipline-mark("mind","1")],"An Invitation Elsewhere","1","Mind 1","Main Action","Guile","Magic","2 DP","s-1849e1656b19")[
 #emph[#text("You bow and extend a hand as though inviting your enemy to dance. An unseen tug draws them across the ground toward you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4962,11 +4292,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("scholarship","1")],"Anatomy of an Opening","1","Scholarship 1","Main Action","Knowledge","Skill / Attack","2 DP","s-90e6fed059dd")[
+],[#card(icons: [#discipline-mark("scholarship","1")],"Anatomy of an Opening","1","Scholarship 1","Main Action","Knowledge","Skill / Attack","2 DP","s-90e6fed059dd")[
 #emph[#text("You watch an opponent favor one leg, predict where their weight will fall, and strike the opening their next step leaves behind.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -4985,13 +4313,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #text("")#strong[#text("Gear:")]#text(" Your empty hand is enough. If you prefer a weapon, this card grants one ordinary melee weapon, Bulk 1, if absent; both use the same printed damage.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("arms","1")],"Blood in the Teeth","1","Arms 1","Main Action","Fortitude","Skill / Attack","2 DP","s-a5a3f847b00a")[
+],[#card(icons: [#discipline-mark("arms","1")],"Blood in the Teeth","1","Arms 1","Main Action","Fortitude","Skill / Attack","2 DP","s-a5a3f847b00a")[
 #emph[#text("You swallow the taste of blood and drive your weapon into your opponent, leaning so far into the blow that you leave yourself exposed.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5016,7 +4342,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("mind","1")],"Borrow a Voice","1","Mind 1","Main Action","Guile","Magic / Utility","2 DP","s-0f172a62f494")[
+],[#card(icons: [#discipline-mark("mind","1")],"Borrow a Voice","1","Mind 1","Main Action","Guile","Magic / Utility","2 DP","s-0f172a62f494")[
 #emph[#text("You whisper into your cupped hand and cast the sound toward the empty stairwell. Your words emerge from the place you point to.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5037,11 +4363,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" One brief sound or short phrase, then the effect ends.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","1")],"Borrow the Beast","1","Wilderness 1","Maneuver","None — no roll","Magic","2 DP","s-b14840d09558")[
+],[#card(icons: [#discipline-mark("wilderness","1")],"Borrow the Beast","1","Wilderness 1","Maneuver","None — no roll","Magic","2 DP","s-b14840d09558")[
 #emph[#text("Fur rises along your arms, and the world fills with scent.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5068,7 +4392,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("subterfuge","1")],"Borrowed Clothes, Borrowed Manners","1","Subterfuge 1","Main Action","Guile","Skill / Utility","2 DP","s-336c3ab9f33e")[
+],[#card(icons: [#discipline-mark("subterfuge","1")],"Borrowed Clothes, Borrowed Manners","1","Subterfuge 1","Main Action","Guile","Skill / Utility","2 DP","s-336c3ab9f33e")[
 #emph[#text("You adjust the collar and try the little habit that will make the borrowed clothes look lived in.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5097,7 +4421,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" Ordinary activities remain available without this card. Roll only when uncertainty has consequences.")
 
 ]
-#card(icons: [#discipline-mark("armor","1")],"Braced Harness","1","Armor 1","Reaction","Fortitude","Skill","2 DP","s-c038b0cc0ed1")[
+],[#card(icons: [#discipline-mark("armor","1")],"Braced Harness","1","Armor 1","Reaction","Fortitude","Skill","2 DP","s-c038b0cc0ed1")[
 #emph[#text("You lean into your armor and let every strap take its share of the strain.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5122,7 +4446,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("flame","1")],"Breath of the Wyrmling","1","Flame 1","Main Action","Fortitude","Magic / Attack","2 DP","s-0b895818255b")[
+],[#card(icons: [#discipline-mark("flame","1")],"Breath of the Wyrmling","1","Flame 1","Main Action","Fortitude","Magic / Attack","2 DP","s-0b895818255b")[
 #emph[#text("You draw a breath that burns pleasantly in your chest, then open your mouth and breathe a stream of fire across the ground ahead.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5141,11 +4465,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Catch a Falling Friend","1","None","Reaction","Brawn","Skill / Utility","2 DP","s-4abc65ad74a0")[
+],[#card(icons: [],"Catch a Falling Friend","1","None","Reaction","Brawn","Skill / Utility","2 DP","s-4abc65ad74a0")[
 #emph[#text("You reach before you think, fingers closing as the ground drops away beneath your friend.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5166,13 +4488,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Stability exception:")]#text(" this willing rescue movement ignores Stability.") #text("It does not allow moving an unwilling target or bypassing a grapple.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("flame","1")],"Cinder Cast","1","Flame 1","Main Action","Knowledge","Magic / Attack","2 DP","s-d0a3ac9ce7a9")[
+],[#card(icons: [#discipline-mark("flame","1")],"Cinder Cast","1","Flame 1","Main Action","Knowledge","Magic / Attack","2 DP","s-d0a3ac9ce7a9")[
 #emph[#text("You gather glowing embers in your palm and fling them toward your enemy. They flare into flame against the target.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5193,11 +4511,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Conditioned Body","1","None","Passive","None — no roll","Training / Passive","2 DP","s-9185d70c2367")[
+],[#card(icons: [],"Conditioned Body","1","None","Passive","None — no roll","Training / Passive","2 DP","s-9185d70c2367")[
 #emph[#text("You remember the work that built this strength: another load, another climb, another day you kept going.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5207,13 +4523,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Permanent maximum HP increase for each permitted purchase.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" At most one purchase per level; unused purchases cannot be saved.")
 
 ]
-#card(icons: [#discipline-mark("subterfuge","1")],"Create a Distraction","1","Subterfuge 1","Main Action","Guile","Skill / Utility","2 DP","s-ad0b626a10d0")[
+],[#card(icons: [#discipline-mark("subterfuge","1")],"Create a Distraction","1","Subterfuge 1","Main Action","Guile","Skill / Utility","2 DP","s-ad0b626a10d0")[
 #emph[#text("You offer a dropped cup, a pointed remark, or a sudden flourish at exactly the right moment.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5234,13 +4548,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Until the start of your next turn or until the granted Boon is used.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
-#card(icons: [#discipline-mark("radiance","1")],"Dawn Shard","1","Radiance 1","Main Action","Reason","Magic / Attack","2 DP","s-6ccf444f6f38")[
+],[#card(icons: [#discipline-mark("radiance","1")],"Dawn Shard","1","Radiance 1","Main Action","Reason","Magic / Attack","2 DP","s-6ccf444f6f38")[
 #emph[#text("You cast a sliver of brightness that catches your foe like sunlight on broken glass.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5261,11 +4573,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Damage is immediate; light lasts until the start of your next turn. Blinded decays normally.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("life","1")],"Drain Warmth","1","Life 1","Main Action","Guile","Magic / Attack","2 DP","s-a22483224c83")[
+],[#card(icons: [#discipline-mark("life","1")],"Drain Warmth","1","Life 1","Main Action","Guile","Magic / Attack","2 DP","s-a22483224c83")[
 #emph[#text("You curl your fingers and watch a little color leave their face.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5284,15 +4594,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
-#card(icons: [#discipline-mark("flame","1")#discipline-mark("arms","1")],"Ember Along the Edge","1","Flame 1 and Arms 1","Main Action","Knowledge","Magic / Attack","2 DP","s-d22e862d4183")[
+],[#card(icons: [#discipline-mark("flame","1")#discipline-mark("arms","1")],"Ember Along the Edge","1","Flame 1 and Arms 1","Main Action","Knowledge","Magic / Attack","2 DP","s-d22e862d4183")[
 #emph[#text("You run two fingers beside your weapon’s edge, leaving a line of fire along it, then strike with the burning blade.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5311,13 +4617,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("athletics","1")],"Expert River Crossing","1","Athletics 1","Main Action","Brawn","Skill / Utility","2 DP","s-42514b06d0c6")[
+],[#card(icons: [#discipline-mark("athletics","1")],"Expert River Crossing","1","Athletics 1","Main Action","Brawn","Skill / Utility","2 DP","s-42514b06d0c6")[
 #emph[#text("You study the current, choose your line, and slip into the river without surrendering your bearings.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5338,13 +4642,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
-#card(icons: [#discipline-mark("wilderness","1")],"Forage Coast","1","Wilderness 1","Main Action","Knowledge","Skill / Utility","2 DP","s-ae0b1a257a5d")[
+],[#card(icons: [#discipline-mark("wilderness","1")],"Forage Coast","1","Wilderness 1","Main Action","Knowledge","Skill / Utility","2 DP","s-ae0b1a257a5d")[
 #emph[#text("You read the tide line and turn over the stones the gulls have left alone.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5369,13 +4671,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
-#card(icons: [#discipline-mark("wilderness","1")],"Forage Mountains","1","Wilderness 1","Main Action","Knowledge","Skill / Utility","2 DP","s-1ffdfb8a8396")[
+],[#card(icons: [#discipline-mark("wilderness","1")],"Forage Mountains","1","Wilderness 1","Main Action","Knowledge","Skill / Utility","2 DP","s-1ffdfb8a8396")[
 #emph[#text("You search the sheltered cracks where the mountain keeps its small stores of life.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5400,13 +4700,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
-#card(icons: [#discipline-mark("wilderness","1")],"Forage Wetlands","1","Wilderness 1","Main Action","Knowledge","Skill / Utility","2 DP","s-54e2b3670bc5")[
+],[#card(icons: [#discipline-mark("wilderness","1")],"Forage Wetlands","1","Wilderness 1","Main Action","Knowledge","Skill / Utility","2 DP","s-54e2b3670bc5")[
 #emph[#text("You kneel beside the reeds, finding nourishment where others see only mud.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5431,13 +4729,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
-#card(icons: [#discipline-mark("wilderness","1")],"Forage Woodland","1","Wilderness 1","Main Action","Knowledge","Skill","2 DP","s-a7e3126a7312")[
+],[#card(icons: [#discipline-mark("wilderness","1")],"Forage Woodland","1","Wilderness 1","Main Action","Knowledge","Skill","2 DP","s-a7e3126a7312")[
 #emph[#text("You leave the obvious trail and return with the forest’s quiet offerings gathered in your hands.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5460,11 +4756,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","1")],"Guide a Frightened Animal","1","Wilderness 1","Main Action","Guile","Skill / Utility","2 DP","s-be5d309cac2f")[
+],[#card(icons: [#discipline-mark("wilderness","1")],"Guide a Frightened Animal","1","Wilderness 1","Main Action","Guile","Skill / Utility","2 DP","s-be5d309cac2f")[
 #emph[#text("You lower your voice and let the animal see that your hands are quiet.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5487,13 +4781,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Progress toward the declared behavior persists while the situation remains applicable.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
-#card(icons: [#discipline-mark("storm","1")],"Gust Hammer","1","Storm 1","Main Action","Reason","Magic / Attack","2 DP","s-4308553a40ce")[
+],[#card(icons: [#discipline-mark("storm","1")],"Gust Hammer","1","Storm 1","Main Action","Reason","Magic / Attack","2 DP","s-4308553a40ce")[
 #emph[#text("You thrust your palm forward. A compressed rush of air strikes your enemy squarely and drives them backward.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5514,11 +4806,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Hold a Conversation","1","None","Main Action","Guile","Skill / Utility","2 DP","s-4ae89f9a2005")[
+],[#card(icons: [],"Hold a Conversation","1","None","Main Action","Guile","Skill / Utility","2 DP","s-4ae89f9a2005")[
 #emph[#text("You find the question that makes a stranger set aside what they were doing and listen.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5541,11 +4831,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("arms","1")],"Hook and Drive","1","Arms 1","Main Action","Brawn","Skill / Attack","2 DP","s-79bc81080a40")[
+],[#card(icons: [#discipline-mark("arms","1")],"Hook and Drive","1","Arms 1","Main Action","Brawn","Skill / Attack","2 DP","s-79bc81080a40")[
 #emph[#text("Catch their guard and haul them into the place they least want to stand.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5570,7 +4858,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("scholarship","1")],"I Have Seen This Step","1","Scholarship 1","Reaction","None — no roll","Skill","2 DP","s-159a95b3baad")[
+],[#card(icons: [#discipline-mark("scholarship","1")],"I Have Seen This Step","1","Scholarship 1","Reaction","None — no roll","Skill","2 DP","s-159a95b3baad")[
 #emph[#text("You recognize an attacker’s raised arm from a dream and shout a warning before the blow falls.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5578,11 +4866,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Call the warning you remember. If the ally hears you, it gains 1 Boon to this defense. No reroll after seeing dice.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("scholarship","1")],"Identify a Mixture","1","Scholarship 1","Main Action","Reason","Skill / Utility","2 DP","s-f6f355a9a0ce")[
+],[#card(icons: [#discipline-mark("scholarship","1")],"Identify a Mixture","1","Scholarship 1","Main Action","Reason","Skill / Utility","2 DP","s-f6f355a9a0ce")[
 #emph[#text("You turn the bottle toward the light and recognize a familiar cloud in the liquid.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5594,13 +4880,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" The result applies when the stated activity is complete; information and earned progress persist.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
-#card(icons: [#discipline-mark("scholarship","1")],"Identify an Enchantment","1","Scholarship 1","Main Action","Knowledge","Skill / Utility","2 DP","s-fc3713e7daec")[
+],[#card(icons: [#discipline-mark("scholarship","1")],"Identify an Enchantment","1","Scholarship 1","Main Action","Knowledge","Skill / Utility","2 DP","s-fc3713e7daec")[
 #emph[#text("You study the object until its small strangenesses begin to form a language you understand.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5612,13 +4896,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" The result applies when the stated activity is complete; information and earned progress persist.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
-#card(icons: [#discipline-mark("mind","1")],"Intrusive Echo","1","Mind 1","Main Action","Guile","Magic / Attack","2 DP","s-b090d56f57fa")[
+],[#card(icons: [#discipline-mark("mind","1")],"Intrusive Echo","1","Mind 1","Main Action","Guile","Magic / Attack","2 DP","s-b090d56f57fa")[
 #emph[#text("You speak a word that keeps repeating inside your enemy’s head. They shake their head, struggling to follow the fight through the echo.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5639,11 +4921,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("arms","1")],"Invitation to the Blade","1","Arms 1","Main Action","Agility","Skill / Attack","2 DP","s-57f6387c6028")[
+],[#card(icons: [#discipline-mark("arms","1")],"Invitation to the Blade","1","Arms 1","Main Action","Agility","Skill / Attack","2 DP","s-57f6387c6028")[
 #emph[#text("You lower your guard just enough to invite a strike, then turn your blade across the opening and attack as your opponent commits.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5668,7 +4948,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("influence","1")],"Keep Time with Steel","1","Influence 1","Main Action","Guile","Skill / Attack","2 DP","s-57a8cf7ceb2c")[
+],[#card(icons: [#discipline-mark("influence","1")],"Keep Time with Steel","1","Influence 1","Main Action","Guile","Skill / Attack","2 DP","s-57a8cf7ceb2c")[
 #emph[#text("You sing a marching beat as you strike, then nod your companion toward the space your blow has opened.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5687,13 +4967,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Keep Your Bearings","1","None","Main Action","Reason","Skill / Utility","2 DP","s-8bc286049eb3")[
+],[#card(icons: [],"Keep Your Bearings","1","None","Main Action","Reason","Skill / Utility","2 DP","s-8bc286049eb3")[
 #emph[#text("You pause, find a familiar angle in the unfamiliar world, and choose your way.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5716,11 +4994,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("life","1")],"Keep the Door Closed","1","Life 1","Reaction","None — no roll","Magic / Recovery","2 DP","s-74c5c6765a91")[
+],[#card(icons: [#discipline-mark("life","1")],"Keep the Door Closed","1","Life 1","Reaction","None — no roll","Magic / Recovery","2 DP","s-74c5c6765a91")[
 #emph[#text("You kneel beside your dying companion and grip their hand, keeping their attention on your voice as their breathing falters.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5728,11 +5004,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Before the new mark is added, clear one existing death mark from the target, then add the triggering mark normally. This restores no HP and does not stabilize. If the target has no marks to clear, this card has no benefit. It cannot interrupt Last Words; the wound remains.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("radiance","1")],"Lantern Moths","1","Radiance 1","Main Action","None — no roll","Magic / Utility","2 DP","s-2916c871443a")[
+],[#card(icons: [#discipline-mark("radiance","1")],"Lantern Moths","1","Radiance 1","Main Action","None — no roll","Magic / Utility","2 DP","s-2916c871443a")[
 #emph[#text("A small constellation of moths rises from your open palm.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5742,11 +5016,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Until the scene ends, unless ended earlier as stated above.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("radiance","1")],"Lantern in the Palm","1","Radiance 1","Maneuver","None — no roll","Magic / Utility","2 DP","s-38e4cc5379f9")[
+],[#card(icons: [#discipline-mark("radiance","1")],"Lantern in the Palm","1","Radiance 1","Maneuver","None — no roll","Magic / Utility","2 DP","s-38e4cc5379f9")[
 #emph[#text("You cup your hand and breathe a warm bead of light into it. The glow spills between your fingers onto the faces and stones around you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5762,7 +5034,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One active light per user. Recasting replaces it; lights grant no stacking bonus.")
 
 ]
-#card(icons: [#discipline-mark("flame","1")],"Let the Spark Decide","1","Flame 1","Main Action","Guile","Magic / Attack","2 DP","s-e4182074f203")[
+],[#card(icons: [#discipline-mark("flame","1")],"Let the Spark Decide","1","Flame 1","Main Action","Guile","Magic / Attack","2 DP","s-e4182074f203")[
 #emph[#text("You snap your fingers and send a bright spark toward your target. At your gesture it blossoms into flame or scatters into a spray of frost, striking with a sudden shove.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5781,11 +5053,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("craft","1")],"Make Something Useful","1","Craft 1","Main Action","Knowledge","Skill / Crafting / Utility","2 DP","s-c1806fb50c1b")[
+],[#card(icons: [#discipline-mark("craft","1")],"Make Something Useful","1","Craft 1","Main Action","Knowledge","Skill / Crafting / Utility","2 DP","s-c1806fb50c1b")[
 #emph[#text("You pull sound pieces from the wreckage, lay them beside your tools and fit them together into something the party can use.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5814,7 +5084,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("influence","1")],"Measured Appeal","1","Influence 1","Main Action","Guile","Skill","2 DP","s-7a069d6648a5")[
+],[#card(icons: [#discipline-mark("influence","1")],"Measured Appeal","1","Influence 1","Main Action","Guile","Skill","2 DP","s-7a069d6648a5")[
 #emph[#text("You let the room grow quiet before putting the request into words they can hear.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5837,11 +5107,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("radiance","1")],"Mercy in the Light","1","Radiance 1","Main Action","Reason","Magic / Recovery","2 DP","s-f5add3130b03")[
+],[#card(icons: [#discipline-mark("radiance","1")],"Mercy in the Light","1","Radiance 1","Main Action","Reason","Magic / Recovery","2 DP","s-f5add3130b03")[
 #emph[#text("You speak a blessing over your companion. Warm light spreads beneath your palm, easing their wounds and trembling as your own strength ebbs.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5864,15 +5132,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Healing and condition reduction are immediate.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and HP cost each time.")
 
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
 
 ]
-#card(icons: [#discipline-mark("influence","1")],"Name the Reckoning","1","Influence 1","Main Action","Guile","Skill / Attack","2 DP","s-42f939f3aed0")[
+],[#card(icons: [#discipline-mark("influence","1")],"Name the Reckoning","1","Influence 1","Main Action","Guile","Skill / Attack","2 DP","s-42f939f3aed0")[
 #emph[#text("You point your weapon at your quarry, speak the promise that brought you here, and strike as you step into their path.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5897,7 +5163,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"Notice the Human Detail","1","None","Main Action","Reason","Skill / Utility","2 DP","s-ded249872692")[
+],[#card(icons: [],"Notice the Human Detail","1","None","Main Action","Reason","Skill / Utility","2 DP","s-ded249872692")[
 #emph[#text("You notice the untouched cup, the worried glance, the detail everyone else stepped past.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5920,11 +5186,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("radiance","1")],"Oathlight Strike","1","Radiance 1","Main Action","Reason","Magic / Attack","2 DP","s-788fb7bb32b2")[
+],[#card(icons: [#discipline-mark("radiance","1")],"Oathlight Strike","1","Radiance 1","Main Action","Reason","Magic / Attack","2 DP","s-788fb7bb32b2")[
 #emph[#text("You speak your oath and bring your weapon down in a flash of light. Part of that light gathers beside a companion, catching the next threat in its glow.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5949,7 +5213,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("craft","1")],"Ordinary Recipe Study","1","Craft 1; known compatible crafting card","Passive","None — no roll","Skill / Utility","2 DP","s-910d1a40bef2")[
+],[#card(icons: [#discipline-mark("craft","1")],"Ordinary Recipe Study","1","Craft 1; known compatible crafting card","Passive","None — no roll","Skill / Utility","2 DP","s-910d1a40bef2")[
 #emph[#text("You copy the useful notes, stain the page with practice, and make the method your own.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5959,13 +5223,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" The recipes are learned permanently.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable purchase of new recipe choices.")
 
 ]
-#card(icons: [],"Pack with Purpose","1","None","Passive","None — no roll","Skill / Utility","2 DP","s-27a35db4f523")[
+],[#card(icons: [],"Pack with Purpose","1","None","Passive","None — no roll","Skill / Utility","2 DP","s-27a35db4f523")[
 #emph[#text("Your hand finds the familiar loop and makes room for the weapon you need next.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5975,11 +5237,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Once on each of your turns, when the printed weapon-switch trigger occurs.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("storm","1")],"Palm of the Gale","1","Storm 1","Main Action","Fortitude","Magic / Attack","2 DP","s-43f4bd09220f")[
+],[#card(icons: [#discipline-mark("storm","1")],"Palm of the Gale","1","Storm 1","Main Action","Fortitude","Magic / Attack","2 DP","s-43f4bd09220f")[
 #emph[#text("You plant your feet and strike with an open palm. A gust bursts from the motion and hits your opponent with the blow.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -5998,11 +5258,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("marksmanship","1")],"Pinning Shot","1","Marksmanship 1","Main Action","Agility","Skill / Attack","2 DP","s-a61a3f0d1b49")[
+],[#card(icons: [#discipline-mark("marksmanship","1")],"Pinning Shot","1","Marksmanship 1","Main Action","Agility","Skill / Attack","2 DP","s-a61a3f0d1b49")[
 #emph[#text("You aim beside your enemy’s next foothold and release, forcing them to shorten their stride as the shot strikes.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6027,7 +5285,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("subterfuge","1")],"Quiet Latch","1","Subterfuge 1","Main Action","Guile","Skill","2 DP","s-ddd66a510b36")[
+],[#card(icons: [#discipline-mark("subterfuge","1")],"Quiet Latch","1","Subterfuge 1","Main Action","Guile","Skill","2 DP","s-ddd66a510b36")[
 #emph[#text("You ease a tool into the keyway and feel each small resistance give way.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6054,7 +5312,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("marksmanship","1")],"Read the Quarry","1","Marksmanship 1","Main Action","Knowledge","Skill / Attack","2 DP","s-43429d322c0c")[
+],[#card(icons: [#discipline-mark("marksmanship","1")],"Read the Quarry","1","Marksmanship 1","Main Action","Knowledge","Skill / Attack","2 DP","s-43429d322c0c")[
 #emph[#text("You study the creature’s gait and fire toward the place its next step will carry it, watching for the marks that movement leaves behind.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6073,13 +5331,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #text("")#strong[#text("Gear:")]#text(" Gain one ordinary ranged weapon and one d8 ammunition bundle if absent; each Bulk 1. Check ammunition after every attack.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("scholarship","1")],"Read the Remains","1","Scholarship 1","Main Action","Reason","Skill","2 DP","s-37c8bd3c7d28")[
+],[#card(icons: [#discipline-mark("scholarship","1")],"Read the Remains","1","Scholarship 1","Main Action","Reason","Skill","2 DP","s-37c8bd3c7d28")[
 #emph[#text("You crouch beside the overturned cup and follow the scrape across the floor, piecing together what moved through the room.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6102,11 +5358,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("medicine","1")],"Relieve Poison","1","Medicine 1","Main Action","Knowledge","Recovery","2 DP","s-3e7997d354fd")[
+],[#card(icons: [#discipline-mark("medicine","1")],"Relieve Poison","1","Medicine 1","Main Action","Knowledge","Recovery","2 DP","s-3e7997d354fd")[
 #emph[#text("You recognize the tremor and work quickly to ease what is spreading through their body.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6125,15 +5379,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
-#card(icons: [#discipline-mark("frost","1")],"Rime Grip","1","Frost 1","Main Action","Knowledge","Magic / Attack","2 DP","s-fe1587c3ea64")[
+],[#card(icons: [#discipline-mark("frost","1")],"Rime Grip","1","Frost 1","Main Action","Knowledge","Magic / Attack","2 DP","s-fe1587c3ea64")[
 #emph[#text("Frost climbs their limbs like fingers closing around a wrist.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6154,11 +5404,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","1")],"Roots Remember Feet","1","Wilderness 1","Main Action","Reason","Magic","2 DP","s-e16c4f638ad5")[
+],[#card(icons: [#discipline-mark("wilderness","1")],"Roots Remember Feet","1","Wilderness 1","Main Action","Reason","Magic","2 DP","s-e16c4f638ad5")[
 #emph[#text("You press your hand toward the ground beneath your enemy. Roots rise from the soil and cracks, winding around their feet and dragging at their steps.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6177,11 +5425,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("medicine","1")],"Rouse the Senses","1","Medicine 1","Main Action","Reason","Recovery","2 DP","s-199248a32781")[
+],[#card(icons: [#discipline-mark("medicine","1")],"Rouse the Senses","1","Medicine 1","Main Action","Reason","Recovery","2 DP","s-199248a32781")[
 #emph[#text("You speak a familiar word and hold their gaze until the world begins to settle around them.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6200,15 +5446,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
-#card(icons: [#discipline-mark("wilderness","1")],"Saddle and Rein","1","Wilderness 1","Main Action","Guile","Skill / Utility","2 DP","s-a4dba94902f5")[
+],[#card(icons: [#discipline-mark("wilderness","1")],"Saddle and Rein","1","Wilderness 1","Main Action","Guile","Skill / Utility","2 DP","s-a4dba94902f5")[
 #emph[#text("You settle into the animal’s movement until your hands and its breathing find a rhythm.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6235,7 +5477,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" Ordinary activities remain available without this card. Roll only when uncertainty has consequences.")
 
 ]
-#card(icons: [#discipline-mark("life","1")],"Sap and Breath","1","Life 1","Main Action","Reason","Magic / Recovery","2 DP","s-606521a493ff")[
+],[#card(icons: [#discipline-mark("life","1")],"Sap and Breath","1","Life 1","Main Action","Reason","Magic / Recovery","2 DP","s-606521a493ff")[
 #emph[#text("You kneel beside your companion and extend your hand. Green light passes from your palm into their wounds, leaving your own fingers cold.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6254,13 +5496,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
 
 ]
-#card(icons: [#discipline-mark("athletics","1")],"Secure a Hold","1","Athletics 1","Main Action","Brawn","Skill / Utility","2 DP","s-a6fe8604c3d3")[
+],[#card(icons: [#discipline-mark("athletics","1")],"Secure a Hold","1","Athletics 1","Main Action","Brawn","Skill / Utility","2 DP","s-a6fe8604c3d3")[
 #emph[#text("You step close, catch your opponent’s arm or body, and lock your weight against theirs. Holding them still leaves you committed to the same struggle.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6283,13 +5523,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" While the grapple is maintained; ends when its contribution is released or removed.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Pay the printed action and any full activity time for each use.")
 
 ]
-#card(icons: [#discipline-mark("arms","1")#discipline-mark("subterfuge","1")],"Sell the Feint","1","Arms 1 and Subterfuge 1","Maneuver","None — no roll","Skill / Attack","2 DP","s-fc048fa2af8c")[
+],[#card(icons: [#discipline-mark("arms","1")#discipline-mark("subterfuge","1")],"Sell the Feint","1","Arms 1 and Subterfuge 1","Maneuver","None — no roll","Skill / Attack","2 DP","s-fc048fa2af8c")[
 #emph[#text("You show an opening with your shoulder and flick your weapon toward it, drawing their attention away from your real stroke.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6305,7 +5543,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" Repeated uses do not multiply this card’s benefit on the same recipient or prepared attack. Pay a Maneuver for each use.")
 
 ]
-#card(icons: [#discipline-mark("life","1")],"Shared Breath","1","Life 1","Main Action","Reason","Magic / Recovery","2 DP","s-a4c83899a588")[
+],[#card(icons: [#discipline-mark("life","1")],"Shared Breath","1","Life 1","Main Action","Reason","Magic / Recovery","2 DP","s-a4c83899a588")[
 #emph[#text("You reach toward your companion and breathe out slowly. Warmth passes into their wounds while the effort catches painfully in your chest.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6326,13 +5564,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
 
 ]
-#card(icons: [#discipline-mark("guard","1")],"Shielding Step","1","Guard 1","Reaction","None — no roll","Skill / Defense","2 DP","s-5dc69f4dd73b")[
+],[#card(icons: [#discipline-mark("guard","1")],"Shielding Step","1","Guard 1","Reaction","None — no roll","Skill / Defense","2 DP","s-5dc69f4dd73b")[
 #emph[#text("You are already moving before your friend sees the blow.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6346,7 +5582,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("arms","1")],"Smile Before Steel","1","Arms 1","Main Action","Guile","Skill / Attack","2 DP","s-f6bae7ebbc57")[
+],[#card(icons: [#discipline-mark("arms","1")],"Smile Before Steel","1","Arms 1","Main Action","Guile","Skill / Attack","2 DP","s-f6bae7ebbc57")[
 #emph[#text("You smile and feint toward one side, then strike from the other and step away as your opponent turns after you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6365,13 +5601,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("craft","1")],"Smoke in a Bottle","1","Craft 1","Main Action","Knowledge","Skill / Crafting / Control / Utility","2 DP","s-2cfa9459da40")[
+],[#card(icons: [#discipline-mark("craft","1")],"Smoke in a Bottle","1","Craft 1","Main Action","Knowledge","Skill / Crafting / Control / Utility","2 DP","s-2cfa9459da40")[
 #emph[#text("You shake the prepared bottle and throw it onto the ground. It breaks with a sharp pop, spilling a thick cloud of smoke across the nearby space.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6402,7 +5636,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("flame","1")],"Speak with the Hearth","1","Flame 1","Main Action","Knowledge","Magic / Utility","2 DP","s-2901bff290db")[
+],[#card(icons: [#discipline-mark("flame","1")],"Speak with the Hearth","1","Flame 1","Main Action","Knowledge","Magic / Utility","2 DP","s-2901bff290db")[
 #emph[#text("You lower your hand into the fire without being burned. Shapes gather among the coals: traces of the people and possessions that recently passed its warmth.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6425,11 +5659,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" The result applies when the stated activity is complete; information and earned progress persist.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("craft","1")],"Spring in the Sleeve","1","Craft 1","Main Action","Knowledge","Skill / Attack / Crafting","2 DP","s-357292401433")[
+],[#card(icons: [#discipline-mark("craft","1")],"Spring in the Sleeve","1","Craft 1","Main Action","Knowledge","Skill / Attack / Crafting","2 DP","s-357292401433")[
 #emph[#text("You level your wrist and release the catch. A hook shoots from your bracer on a spring, striking your enemy and tugging them toward you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6448,11 +5680,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("subterfuge","1")],"Step Between Lanterns","1","Subterfuge 1","Maneuver","None — no roll","Skill","2 DP","s-2960fb94332a")[
+],[#card(icons: [#discipline-mark("subterfuge","1")],"Step Between Lanterns","1","Subterfuge 1","Maneuver","None — no roll","Skill","2 DP","s-2960fb94332a")[
 #emph[#text("You wait for a lantern to turn away, then move along the strip of darkness between its light and the next.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6460,11 +5690,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Move up to 2 squares through actual dimness or concealment without provoking. If you were Hidden and the whole route conceals you, remain Hidden. This does not hide you in an exposed square.")
 
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("scholarship","1")],"Stitch the Living Pattern","1","Scholarship 1","Main Action","Knowledge","Magic / Recovery","2 DP","s-85e94e582dcc")[
+],[#card(icons: [#discipline-mark("scholarship","1")],"Stitch the Living Pattern","1","Scholarship 1","Main Action","Knowledge","Magic / Recovery","2 DP","s-85e94e582dcc")[
 #emph[#text("You trace fine lines of blue light above the injury, drawing the broken pattern together as a matching ache runs through your own hand.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6487,25 +5715,19 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Healing is immediate; the Strong Boon ends when used or at the end of the recipient’s next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeatable; pay the action and HP cost each time.")
 
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
 
 ]
-#card(icons: [#discipline-mark("calling","1")],"Summon Animal — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-4bae3b97adcd")[
+],[#card(icons: [#discipline-mark("calling","1")],"Summon Animal — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-4bae3b97adcd")[
 #emph[#text("You whistle into the still air. An answering call comes closer, and the animal you called steps into the world beside you, waiting for your direction.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Animal summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Animal summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -6515,17 +5737,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("calling","1")],"Summon Construct — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-593a4ab3e236")[
+],[#card(icons: [#discipline-mark("calling","1")],"Summon Construct — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-593a4ab3e236")[
 #emph[#text("You sketch a frame in the air and close your hand. Interlocking pieces gather into the construct you called, its joints still until you direct it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Construct summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Construct summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -6535,17 +5753,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("calling","1")],"Summon Elemental — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-98b40bc83bc9")[
+],[#card(icons: [#discipline-mark("calling","1")],"Summon Elemental — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-98b40bc83bc9")[
 #emph[#text("You turn your palm and gather the elements into a whirling knot. It unfolds into the elemental you called, its substance shifting as it waits.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Elemental summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Elemental summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -6555,17 +5769,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("calling","1")],"Summon Fey — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-e07be2e898d1")[
+],[#card(icons: [#discipline-mark("calling","1")],"Summon Fey — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-e07be2e898d1")[
 #emph[#text("You trace an opening in the air. A scent of strange blossoms escapes before your chosen fey steps through and waits for your word.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Fey summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Fey summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -6575,17 +5785,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("calling","1")],"Summon Spirit — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-cf9d120450ce")[
+],[#card(icons: [#discipline-mark("calling","1")],"Summon Spirit — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-cf9d120450ce")[
 #emph[#text("You speak into the hush between breaths. A pale outline gathers beside you, taking the shape of the spirit you called.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Spirit summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Spirit summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -6595,17 +5801,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("calling","1")],"Summon Undead — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-9a79cc18229b")[
+],[#card(icons: [#discipline-mark("calling","1")],"Summon Undead — Novice","1","Calling 1","Main Action","None — no roll","Magic / Summoning","2 DP","s-9a79cc18229b")[
 #emph[#text("You draw a cold breath and beckon. A shape assembles from spectral remains, settling into the form of the undead servant you called.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Undead summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Undead summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("1")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -6615,7 +5817,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("athletics","1")],"Sure Ascent","1","Athletics 1","Main Action","Brawn","Skill","2 DP","s-81968023986d")[
+],[#card(icons: [#discipline-mark("athletics","1")],"Sure Ascent","1","Athletics 1","Main Action","Brawn","Skill","2 DP","s-81968023986d")[
 #emph[#text("You test the next handhold, shift your weight onto it and check where a rope could help the companion climbing after you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6636,11 +5838,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("athletics","1")],"Swing into Trouble","1","Athletics 1","Main Action","Agility","Skill / Utility","2 DP","s-5fa88b2dc319")[
+],[#card(icons: [#discipline-mark("athletics","1")],"Swing into Trouble","1","Athletics 1","Main Action","Agility","Skill / Utility","2 DP","s-5fa88b2dc319")[
 #emph[#text("You seize the hanging rope, kick away from your support and swing toward the landing, ready to shoulder aside anyone standing beside it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6661,11 +5861,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Immediate movement and displacement.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("arms","1")],"Take Them Alive","1","Arms 1","Passive","None — no roll","Skill / Utility","2 DP","s-8bf4c899b76a")[
+],[#card(icons: [#discipline-mark("arms","1")],"Take Them Alive","1","Arms 1","Passive","None — no roll","Skill / Utility","2 DP","s-8bf4c899b76a")[
 #emph[#text("You turn the edge at the last instant and finish with a controlled blow, leaving your opponent unconscious instead of dead.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6675,11 +5873,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Unconscious until the scene ends or the target is healed.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("marksmanship","1")],"Take the Measure","1","Marksmanship 1","Maneuver","None — no roll","Skill / Attack","2 DP","s-f70404717fe6")[
+],[#card(icons: [#discipline-mark("marksmanship","1")],"Take the Measure","1","Marksmanship 1","Maneuver","None — no roll","Skill / Attack","2 DP","s-f70404717fe6")[
 #emph[#text("You hold your aim through a slow breath, watching the opening appear between your target’s movements.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6695,7 +5891,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" Repeated uses do not multiply this card’s benefit on the same recipient or prepared attack. Pay a Maneuver for each use.")
 
 ]
-#card(icons: [],"Tell a Worthy Story","1","None","Main Action","Guile","Skill / Utility","2 DP","s-d2cc2f97d507")[
+],[#card(icons: [],"Tell a Worthy Story","1","None","Main Action","Guile","Skill / Utility","2 DP","s-d2cc2f97d507")[
 #emph[#text("You begin with the detail you remember best, and the listeners lean a little closer.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6718,11 +5914,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("subterfuge","1")],"The Key Changes Hands","1","Subterfuge 1","Main Action","Guile","Skill","2 DP","s-6facfd6f6b13")[
+],[#card(icons: [#discipline-mark("subterfuge","1")],"The Key Changes Hands","1","Subterfuge 1","Main Action","Guile","Skill","2 DP","s-6facfd6f6b13")[
 #emph[#text("You draw someone’s attention with a question while your other hand lifts the unattended key from the table.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6747,7 +5941,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","1")],"The Otter’s Bargain","1","Wilderness 1","Maneuver","None — no roll","Magic","2 DP","s-5566a5f3ed51")[
+],[#card(icons: [#discipline-mark("wilderness","1")],"The Otter’s Bargain","1","Wilderness 1","Maneuver","None — no roll","Magic","2 DP","s-5566a5f3ed51")[
 #emph[#text("You spread your fingers and watch webbing form between them. When you enter the water, each stroke catches the current more firmly.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6759,7 +5953,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("scholarship","1")],"The Patient Metal","1","Scholarship 1","Main Action","Knowledge","Magic","2 DP","s-d81a1958a55c")[
+],[#card(icons: [#discipline-mark("scholarship","1")],"The Patient Metal","1","Scholarship 1","Main Action","Knowledge","Magic","2 DP","s-d81a1958a55c")[
 #emph[#text("You hold the damaged fitting between your fingers. The metal warms and softens just enough for you to bend it back toward its proper shape.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6784,7 +5978,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("influence","1")],"The Right Small Courtesy","1","Influence 1","Passive","None — no roll","Skill / Utility","2 DP","s-1f9a863cb1f5")[
+],[#card(icons: [#discipline-mark("influence","1")],"The Right Small Courtesy","1","Influence 1","Passive","None — no roll","Skill / Utility","2 DP","s-1f9a863cb1f5")[
 #emph[#text("You watch who pours first, who waits, and which little gesture makes a stranger smile.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6796,13 +5990,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Information remains known; the Boon is available until you leave the gathering.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One Boon use per gathering per scene; further observation does not refresh it.")
 
 ]
-#card(icons: [#discipline-mark("athletics","1")],"The Untroubled Hand","1","Athletics 1","Main Action","Reason","Skill / Attack","2 DP","s-e0f03cd9803f")[
+],[#card(icons: [#discipline-mark("athletics","1")],"The Untroubled Hand","1","Athletics 1","Main Action","Reason","Skill / Attack","2 DP","s-e0f03cd9803f")[
 #emph[#text("You breathe out, catch the line of your opponent’s movement with an open hand, and strike while guiding their weight past you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6821,11 +6013,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("storm","1")],"Thunder at the Door","1","Storm 1","Main Action","Reason","Magic / Attack","2 DP","s-8139ff39e4f2")[
+],[#card(icons: [#discipline-mark("storm","1")],"Thunder at the Door","1","Storm 1","Main Action","Reason","Magic / Attack","2 DP","s-8139ff39e4f2")[
 #emph[#text("You raise your palm toward your enemy and close your fingers. A thunderclap bursts beside them, rattling their balance and ringing in their ears.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6844,11 +6034,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("craft","1")],"Trail Workshop","1","Craft 1","Main Action","Knowledge","Skill / Crafting / Utility","2 DP","s-55a747e1dcae")[
+],[#card(icons: [#discipline-mark("craft","1")],"Trail Workshop","1","Craft 1","Main Action","Knowledge","Skill / Crafting / Utility","2 DP","s-55a747e1dcae")[
 #emph[#text("You spread your tools on a cloth and turn a stopping place into a workshop.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6877,7 +6065,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("medicine","1")],"Treat Bone","1","Medicine 1","Main Action","Knowledge","Recovery","2 DP","s-afd69d03fa79")[
+],[#card(icons: [#discipline-mark("medicine","1")],"Treat Bone","1","Medicine 1","Main Action","Knowledge","Recovery","2 DP","s-afd69d03fa79")[
 #emph[#text("You steady the injured limb and work with the patient care of someone who knows how much it hurts.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6902,13 +6090,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Recovery progress persists for that wound; completed treatment removes only its listed treatable penalties.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each wound can be treated only once per day across all healers.")
 
 ]
-#card(icons: [#discipline-mark("medicine","1")],"Treat Elemental Injury","1","Medicine 1","Main Action","Knowledge","Recovery","2 DP","s-09d5eb4341f2")[
+],[#card(icons: [#discipline-mark("medicine","1")],"Treat Elemental Injury","1","Medicine 1","Main Action","Knowledge","Recovery","2 DP","s-09d5eb4341f2")[
 #emph[#text("You clean away the traces of the element and tend the damaged flesh beneath them.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6933,13 +6119,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Recovery progress persists for that wound; completed treatment removes only its listed treatable penalties.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each wound can be treated only once per day across all healers.")
 
 ]
-#card(icons: [#discipline-mark("medicine","1")],"Treat Life Injury","1","Medicine 1","Main Action","Reason","Recovery","2 DP","s-bf38cda8561d")[
+],[#card(icons: [#discipline-mark("medicine","1")],"Treat Life Injury","1","Medicine 1","Main Action","Reason","Recovery","2 DP","s-bf38cda8561d")[
 #emph[#text("You sit beside the patient and patiently coax their exhausted body back toward its own rhythm.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6964,13 +6148,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Recovery progress persists for that wound; completed treatment removes only its listed treatable penalties.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each wound can be treated only once per day across all healers.")
 
 ]
-#card(icons: [#discipline-mark("medicine","1")],"Treat Mental Trauma","1","Medicine 1","Main Action","Reason","Recovery","2 DP","s-85e091071416")[
+],[#card(icons: [#discipline-mark("medicine","1")],"Treat Mental Trauma","1","Medicine 1","Main Action","Reason","Recovery","2 DP","s-85e091071416")[
 #emph[#text("You make a quiet place where the memory can be spoken without having to face it alone.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -6995,13 +6177,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Recovery progress persists for that wound; completed treatment removes only its listed treatable penalties.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each wound can be treated only once per day across all healers.")
 
 ]
-#card(icons: [#discipline-mark("medicine","1")],"Treat Radiant Injury","1","Medicine 1","Main Action","Reason","Recovery","2 DP","s-476aafa6e992")[
+],[#card(icons: [#discipline-mark("medicine","1")],"Treat Radiant Injury","1","Medicine 1","Main Action","Reason","Recovery","2 DP","s-476aafa6e992")[
 #emph[#text("You shade the injured eyes and work gently around the marks the terrible light has left.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7026,13 +6206,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Recovery progress persists for that wound; completed treatment removes only its listed treatable penalties.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each wound can be treated only once per day across all healers.")
 
 ]
-#card(icons: [#discipline-mark("medicine","1")],"Treat Soft Tissue","1","Medicine 1","Main Action","Knowledge","Skill","2 DP","s-d72b8ce2ae0e")[
+],[#card(icons: [#discipline-mark("medicine","1")],"Treat Soft Tissue","1","Medicine 1","Main Action","Knowledge","Skill","2 DP","s-d72b8ce2ae0e")[
 #emph[#text("You wash your hands and begin the close, careful work of mending what has been torn.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7055,11 +6233,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Recovery progress persists for that wound; completed treatment removes only its listed treatable penalties.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("armor","1")],"Wake the Iron Rune","1","Armor 1","Maneuver","None — no roll","Magic","2 DP","s-d3bba3dde3ae")[
+],[#card(icons: [#discipline-mark("armor","1")],"Wake the Iron Rune","1","Armor 1","Maneuver","None — no roll","Magic","2 DP","s-d3bba3dde3ae")[
 #emph[#text("You trace the rune on your armor. Its lines darken as a heavy pressure settles through your boots into the ground.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7071,7 +6247,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("armor","1")],"Wear Medium Armor","1","Armor 1","Passive","None — no roll","Training / Passive","2 DP","s-30d5ca182be2")[
+],[#card(icons: [#discipline-mark("armor","1")],"Wear Medium Armor","1","Armor 1","Passive","None — no roll","Training / Passive","2 DP","s-30d5ca182be2")[
 #emph[#text("You roll your shoulders inside the familiar armor, ready to meet the day’s hard edges.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7087,11 +6263,14 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" Purchase once.")
 
 ]
-]
-#pagebreak(weak: true)
-#heading(level: 2,"Adept abilities")
-#twocol[
-#card(icons: [#discipline-mark("life","2")#discipline-mark("wilderness","1")],"A Bough for the Fallen","3","Life 2 and Wilderness 1","Main Action","Reason","Magic / Recovery","4 DP","s-1f550d30b8a6")[
+],))
+#pagebreak(weak:true)
+#heading(level:2,"Adept abilities")
+Find a useful option here, then follow its name to the complete card. Summaries help you choose; the card supplies the exact targets, costs and outcomes.
+
+#ability-directory((([#xref("s-1f550d30b8a6")[#text("A Bough for the Fallen")]], [#text("Life 2 and Wilderness 1")], [#text("Main Action")], [#text("Heal an ally and help them stand or move.")]),([#xref("s-54fefd5e6adc")[#text("A Breath beneath the Water")]], [#text("Wilderness 2 and Life 1")], [#text("Main Action")], [#text("Let an ally breathe water and air.")]),([#xref("s-e97ab605ed17")[#text("A Camp without a Trace")]], [#text("Subterfuge 2 and Wilderness 1")], [#text("Main Action")], [#text("Conceal a campsite and hinder pursuit.")]),([#xref("s-f7700837de75")[#text("A Line for Everyone")]], [#text("Athletics 2 and Wilderness 1")], [#text("Main Action")], [#text("Prepare a roped route for companions.")]),([#xref("s-b7c0dedda6d3")[#text("A Lock Has a Language")]], [#text("Subterfuge 2")], [#text("Main Action")], [#text("Work an ordinary lock toward opening.")]),([#xref("s-0ec013bc023f")[#text("A Ribcage for a Shield")]], [#text("Calling 2")], [#text("Reaction")], [#text("Ward an ally; a strong defense can push.")]),([#xref("s-a274a52349dd")[#text("A Road through Rain")]], [#text("Storm 2")], [#text("Maneuver")], [#text("Clear a route through rain, dust or smoke.")]),([#xref("s-b602f6e1a9f1")[#text("A Roof before Nightfall")]], [#text("Wilderness 2 and Craft 1")], [#text("Main Action")], [#text("Build a shelter against ordinary weather.")]),([#xref("s-6b84ca83285d")[#text("A Shelter of Light")]], [#text("Radiance 2")], [#text("Maneuver")], [#text("Protect an ally who stays beside you.")]),([#xref("s-d6873a0ed111")[#text("A Small and Watchful Shape")]], [#text("Wilderness 2 and Subterfuge 1")], [#text("Maneuver")], [#text("Take a small animal form to explore.")]),([#xref("s-2d0cbcb3b428")[#text("A Steady Hand at Dawn")]], [#text("Medicine 2")], [#text("Passive")], [#text("Improve Weak wound-treatment progress.")]),([#xref("s-d67d39d397a8")[#text("A Word Apart")]], [#text("Influence 2 and Subterfuge 1")], [#text("Maneuver")], [#text("Share a private message and social advice.")]),([#xref("s-700933f2741d")[#text("Armored Recovery")]], [#text("Armor 2")], [#text("Maneuver")], [#text("Rise in armor and move safely.")]),([#xref("s-0cd55d6c9765")[#text("Arrive under Guard")]], [#text("Guard 2 and Athletics 1")], [#text("Maneuver")], [#text("Approach an ally and guard their defense.")]),([#xref("s-4ab7e1afe098")[#text("Ask the Falling Ash")]], [#text("Scholarship 2")], [#text("Main Action")], [#text("Read an omen about your next step.")]),([#xref("s-3dd709100098")[#text("Behind the Hawthorn")]], [#text("Mind 2")], [#text("Reaction")], [#text("Teleport a short distance in sight.")]),([#xref("s-14904e5a8167")[#text("Bind and Turn")]], [#text("Arms 2")], [#text("Reaction")], [#text("Push an attacker back, possibly prone.")]),([#xref("s-0438726e35dc")[#text("Borrow Tomorrow’s Weather")]], [#text("Flame 2")], [#text("Main Action")], [#text("Place a connected area of smoke or ice.")]),([#xref("s-89d23bd45071")[#text("Borrowed Silhouette")]], [#text("Mind 2")], [#text("Reaction")], [#text("Defend with a double, then slip away.")]),([#xref("s-b10920431af0")[#text("Bottled Morning")]], [#text("Craft 2 and Medicine 1")], [#text("Main Action")], [#text("Brew healing supplies or prepare food.")]),([#xref("s-97249b421028")[#text("Break the Formation")]], [#text("Arms 2")], [#text("Main Action")], [#text("Push a foe out of line with a strike.")]),([#xref("s-4a927c01c65e")[#text("Briar Gate")]], [#text("Wilderness 2")], [#text("Main Action")], [#text("Raise a passable hedge that hinders movement.")]),([#xref("s-0c2e039d0225")[#text("Bridge of Winter")]], [#text("Frost 2")], [#text("Main Action")], [#text("Bridge a gap with anchored ice.")]),([#xref("s-db6a1d1278ed")[#text("Call the Opening")]], [#text("Influence 2")], [#text("Main Action")], [#text("Give allies an attack Boon or free attacks.")]),([#xref("s-e622c4cb6cb7")[#text("Catch the Spell")]], [#text("Scholarship 2")], [#text("Reaction")], [#text("Defend against a spell and push its caster.")]),([#xref("s-ce1d6794bed5")[#text("Circle of Old Names")]], [#text("Calling 2 and Guard 1")], [#text("Main Action")], [#text("Guard allies against fear and forced movement.")]),([#xref("s-4f30c7d72c1c")[#text("Cut Off the Escape")]], [#text("Marksmanship 2")], [#text("Main Action")], [#text("Shoot to push and slow a fleeing foe.")]),([#xref("s-e5c039e6e9f2")[#text("Derive a Mechanism")]], [#text("Craft 2")], [#text("Main Action")], [#text("Reverse-engineer an ordinary mechanism.")]),([#xref("s-e32c1c9d4824")[#text("Draw the Current")]], [#text("Storm 2 and Scholarship 1")], [#text("Maneuver")], [#text("Add a push to your next damaging spell.")]),([#xref("s-ebf6d1d7654c")[#text("Dread Reflection")]], [#text("Mind 2")], [#text("Main Action")], [#text("Strike the mind and frighten a foe.")]),([#xref("s-327e15119125")[#text("Driving Volley")]], [#text("Marksmanship 2")], [#text("Main Action")], [#text("Shoot an area and push its occupants.")]),([#xref("s-d0c514a685fc")[#text("Furnace Sweep")]], [#text("Flame 2")], [#text("Main Action")], [#text("Sweep an area with pushing fire.")]),([#xref("s-9ba643fc50ac")[#text("Haul Them Home")]], [#text("Athletics 2 and Guard 1")], [#text("Maneuver")], [#text("Pull a willing companion along a rope.")]),([#xref("s-fe505c56a200")[#text("Hold the Passage")]], [#text("Guard 2")], [#text("Main Action")], [#text("Guard nearby allies with your shield.")]),([#xref("s-4a0938260194")[#text("Ice across the Break")]], [#text("Frost 2 and Wilderness 1")], [#text("Maneuver")], [#text("Make a temporary bridge of ice.")]),([#xref("s-47f2c1d1b4c7")[#text("Icebound Path")]], [#text("Frost 2")], [#text("Main Action")], [#text("Cover a connected area in difficult ice.")]),([#xref("s-39453f773b9a")[#text("Live in the Mask")]], [#text("Subterfuge 2 and Influence 1")], [#text("Passive")], [#text("Maintain a disguise through conversation.")]),([#xref("s-71e27d81e4b0")[#text("No Road Away")]], [#text("Influence 2")], [#text("Reaction")], [#text("Follow a departing foe without provoking.")]),([#xref("s-f47bcccc43ee")[#text("Pounce of the Red Claw")]], [#text("Wilderness 2 and Athletics 1")], [#text("Main Action")], [#text("Leap into a strike that can knock prone.")]),([#xref("s-8f3ef546d491")[#text("Read a Dangerous Trail")]], [#text("Wilderness 2")], [#text("Main Action")], [#text("Follow tracks and identify route hazards.")]),([#xref("s-c791bc3263af")[#text("Read the Maker’s Hand")]], [#text("Craft 2 and Scholarship 1")], [#text("Passive")], [#text("Recognize materials and reuse components.")]),([#xref("s-2d6d412f93b9")[#text("Read the Next Blow")]], [#text("Scholarship 2")], [#text("Reaction")], [#text("Use Reason to defend against a visible blow.")]),([#xref("s-2af6fd22810d")[#text("Remember This Name")]], [#text("Influence 2")], [#text("Main Action")], [#text("Win a welcome through a companion’s story.")]),([#xref("s-2b9d2671ca7a")[#text("Rest for the Restless")]], [#text("Life 2")], [#text("Main Action")], [#text("Deal Life damage and drive back the undead.")]),([#xref("s-ffb7d6b8c41b")[#text("Reveal the Threshold")]], [#text("Radiance 2")], [#text("Main Action")], [#text("Find and understand a magical concealment.")]),([#xref("s-9de0bb8338b1")[#text("Ride the Falling Stone")]], [#text("Athletics 2")], [#text("Reaction")], [#text("Escape collapsing footing before you fall.")]),([#xref("s-8e49205366be")[#text("Running Vault")]], [#text("Athletics 2")], [#text("Maneuver")], [#text("Jump toward a safe landing.")]),([#xref("s-84a6db46442c")[#text("Scales beneath the Skin")]], [#text("Flame 2 and Wilderness 1")], [#text("Reaction")], [#text("Resist one incoming elemental event.")]),([#xref("s-b80fb7eae64e")[#text("Silence the Alarm")]], [#text("Subterfuge 2")], [#text("Main Action")], [#text("Strike a foe and briefly prevent speech.")]),([#xref("s-baede3fc9acf")[#text("Smoke Through the Keyhole")]], [#text("Flame 2")], [#text("Main Action")], [#text("Slip through a narrow opening as smoke.")]),([#xref("s-228dce1b7b4c")[#text("Step Through the Spark")]], [#text("Flame 2")], [#text("Maneuver")], [#text("Teleport to a visible open destination.")]),([#xref("s-59180a9442ec")[#text("Stone on Your Shoulders")]], [#text("Armor 2")], [#text("Reaction")], [#text("Resist a physical hit, then step safely.")]),([#xref("s-b67c47b263c3")[#text("Storm on a String")]], [#text("Storm 1 and Craft 1")], [#text("Main Action")], [#text("Pull an unattended object with wind.")]),([#xref("s-21283cfcebd2")[#text("Summon Animal — Adept")]], [#text("Calling 2")], [#text("Main Action")], [#text("Summon an animal up to Adept tier.")]),([#xref("s-d4455bc3c4c9")[#text("Summon Construct — Adept")]], [#text("Calling 2")], [#text("Main Action")], [#text("Summon a construct up to Adept tier.")]),([#xref("s-a370b50de68a")[#text("Summon Elemental — Adept")]], [#text("Calling 2")], [#text("Main Action")], [#text("Summon an elemental up to Adept tier.")]),([#xref("s-2f1306bdc55e")[#text("Summon Fey — Adept")]], [#text("Calling 2")], [#text("Main Action")], [#text("Summon a fey up to Adept tier.")]),([#xref("s-b80492b400fd")[#text("Summon Spirit — Adept")]], [#text("Calling 2")], [#text("Main Action")], [#text("Summon a spirit up to Adept tier.")]),([#xref("s-27ceffdfffd9")[#text("Summon Undead — Adept")]], [#text("Calling 2")], [#text("Main Action")], [#text("Summon an undead up to Adept tier.")]),([#xref("s-8711502c942b")[#text("Sustain the Failing")]], [#text("Life 2")], [#text("Main Action")], [#text("Pay HP to heal and ease temporary poison.")]),([#xref("s-bfaa937e43cf")[#text("Teach Stone to Bend")]], [#text("Scholarship 2")], [#text("Main Action")], [#text("Work stone toward opening a passage.")]),([#xref("s-8f9b68c9239d")[#text("The Angle of Unease")]], [#text("Mind 2")], [#text("Main Action")], [#text("Push and frighten with mental force.")]),([#xref("s-7cf74c986db8")[#text("The Chorus Advances")]], [#text("Influence 2")], [#text("Maneuver")], [#text("Move allies toward an enemy safely.")]),([#xref("s-049ec515d5b7")[#text("The Debt Comes Due")]], [#text("Flame 2")], [#text("Reaction")], [#text("Answer a trigger with a burning attack.")]),([#xref("s-b066e3d06a02")[#text("The Road Remembers")]], [#text("Wilderness 2")], [#text("Main Action")], [#text("Read a group’s passage from its tracks.")]),([#xref("s-0fee6504a4c1")[#text("The Unlit Road")]], [#text("Subterfuge 2")], [#text("Main Action")], [#text("Teleport between visible shadows.")]),([#xref("s-8450e5fa3bd6")[#text("Through the Spearpoints")]], [#text("Arms 2")], [#text("Maneuver")], [#text("Advance with protection against opportunity attacks.")]),([#xref("s-c4ee5d3c049c")[#text("Thunder Ring")]], [#text("Storm 2")], [#text("Main Action")], [#text("Thunder around you to drive foes back.")]),([#xref("s-906625ca362d")[#text("Translate the Fragment")]], [#text("Scholarship 2")], [#text("Main Action")], [#text("Work toward understanding a written fragment.")]),([#xref("s-b63afd7b547d")[#text("Turn the River")]], [#text("Athletics 2")], [#text("Reaction")], [#text("Defend with Reason and redirect an attacker.")]),([#xref("s-e7f661a56d10")[#text("Under Their Guard")]], [#text("Arms 2")], [#text("Maneuver")], [#text("Slip past one enemy without provoking it.")]),([#xref("s-412080346fc2")[#text("Undertow Answer")]], [#text("Wilderness 2 and Frost 1")], [#text("Main Action")], [#text("Pull a foe toward existing water.")]),([#xref("s-22e6f489bade")[#text("Unravel the Bolt")]], [#text("Guard 2")], [#text("Reaction")], [#text("Help an ally defend against a single spell.")]),([#xref("s-fb4bae07a2e2")[#text("Urgent Bandaging")]], [#text("Medicine 2")], [#text("Maneuver")], [#text("Reduce temporary Bleeding in an emergency.")]),([#xref("s-fd8e0f63e005")[#text("Veiled Crossing")]], [#text("Subterfuge 2")], [#text("Maneuver")], [#text("Lead an ally along a concealed route.")]),([#xref("s-4432e6d45409")[#text("Walk the Thunder")]], [#text("Storm 2")], [#text("Maneuver")], [#text("Run briefly along a wall or shallow water.")]),([#xref("s-07696a43ba98")[#text("Wear Heavy Armor")]], [#text("Armor 2")], [#text("Passive")], [#text("Gain physical resistance 3 in trained armor.")]),))
+#pagebreak(weak:true)
+#reading-columns(([#card(icons: [#discipline-mark("life","2")#discipline-mark("wilderness","1")],"A Bough for the Fallen","3","Life 2 and Wilderness 1","Main Action","Reason","Magic / Recovery","4 DP","s-1f550d30b8a6")[
 #emph[#text("You kneel, and a cradle of roots lifts your companion as warmth drains from your hands.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7110,13 +6289,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
 
 ]
-#card(icons: [#discipline-mark("wilderness","2")#discipline-mark("life","1")],"A Breath beneath the Water","3","Wilderness 2 and Life 1","Main Action","None — no roll","Magic / Utility","4 DP","s-54fefd5e6adc")[
+],[#card(icons: [#discipline-mark("wilderness","2")#discipline-mark("life","1")],"A Breath beneath the Water","3","Wilderness 2 and Life 1","Main Action","None — no roll","Magic / Utility","4 DP","s-54fefd5e6adc")[
 #emph[#text("You touch your throat and feel the next breath come cool and easy beneath the surface.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7126,13 +6303,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" One hour; ends early if you replace it.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" No HP is restored, so this is not a healing spell and has no Life-energy payment.")
 
 ]
-#card(icons: [#discipline-mark("subterfuge","2")#discipline-mark("wilderness","1")],"A Camp without a Trace","3","Subterfuge 2 and Wilderness 1","Main Action","Guile","Skill / Utility","4 DP","s-e97ab605ed17")[
+],[#card(icons: [#discipline-mark("subterfuge","2")#discipline-mark("wilderness","1")],"A Camp without a Trace","3","Subterfuge 2 and Wilderness 1","Main Action","Guile","Skill / Utility","4 DP","s-e97ab605ed17")[
 #emph[#text("You lift the crushed leaves, scatter the cold ash and leave the place looking as though it never held a story.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7155,13 +6330,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Until new evidence exposes the departure route.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One application per departure; no stacking Banes from repeated cleanup.")
 
 ]
-#card(icons: [#discipline-mark("athletics","2")#discipline-mark("wilderness","1")],"A Line for Everyone","3","Athletics 2 and Wilderness 1","Main Action","Brawn","Skill / Utility","4 DP","s-f7700837de75")[
+],[#card(icons: [#discipline-mark("athletics","2")#discipline-mark("wilderness","1")],"A Line for Everyone","3","Athletics 2 and Wilderness 1","Main Action","Brawn","Skill / Utility","4 DP","s-f7700837de75")[
 #emph[#text("You test the line, look back at your companions and show them where to put their hands.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7190,7 +6363,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One Boon per traveler per route; rebuilding the same route does not refresh it. Existing ordinary rope use remains possible.")
 
 ]
-#card(icons: [#discipline-mark("subterfuge","2")],"A Lock Has a Language","3","Subterfuge 2","Main Action","Reason","Skill","4 DP","s-b7c0dedda6d3")[
+],[#card(icons: [#discipline-mark("subterfuge","2")],"A Lock Has a Language","3","Subterfuge 2","Main Action","Reason","Skill","4 DP","s-b7c0dedda6d3")[
 #emph[#text("You close your eyes and listen through your fingertips for the lockmaker’s last little secret.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7215,7 +6388,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("calling","2")],"A Ribcage for a Shield","3","Calling 2","Reaction","None — no roll","Magic","4 DP","s-0ec013bc023f")[
+],[#card(icons: [#discipline-mark("calling","2")],"A Ribcage for a Shield","3","Calling 2","Reaction","None — no roll","Magic","4 DP","s-0ec013bc023f")[
 #emph[#text("You call, and pale ribs close around your companion like the hands of an old guardian.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7223,11 +6396,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("A cage of spectral ribs catches the edge of the blow. Grant 1 Boon to the defense; on a Strong defense, the ally may push the adjacent attacker 1 square afterward. The ribs disappear immediately.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("storm","2")],"A Road through Rain","3","Storm 2","Maneuver","None — no roll","Magic","4 DP","s-a274a52349dd")[
+],[#card(icons: [#discipline-mark("storm","2")],"A Road through Rain","3","Storm 2","Maneuver","None — no roll","Magic","4 DP","s-a274a52349dd")[
 #emph[#text("You draw your hand through the rain, dust or smoke ahead. It parts along your gesture, leaving a narrow strip of clear air through which your companions can see.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7239,7 +6410,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","2")#discipline-mark("craft","1")],"A Roof before Nightfall","3","Wilderness 2 and Craft 1","Main Action","Knowledge","Skill / Crafting / Utility","4 DP","s-b602f6e1a9f1")[
+],[#card(icons: [#discipline-mark("wilderness","2")#discipline-mark("craft","1")],"A Roof before Nightfall","3","Wilderness 2 and Craft 1","Main Action","Knowledge","Skill / Crafting / Utility","4 DP","s-b602f6e1a9f1")[
 #emph[#text("You bend the first poles into place while your companions gather around the promise of a dry night.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7268,7 +6439,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" This card crafts only its Camp Shelter recipe. Extreme weather and hostile attack can damage the shelter; DA states visible limitations before construction.")
 
 ]
-#card(icons: [#discipline-mark("radiance","2")],"A Shelter of Light","3","Radiance 2","Maneuver","None — no roll","Magic","4 DP","s-6b84ca83285d")[
+],[#card(icons: [#discipline-mark("radiance","2")],"A Shelter of Light","3","Radiance 2","Maneuver","None — no roll","Magic","4 DP","s-6b84ca83285d")[
 #emph[#text("You stand beside your friend, holding a small brightness between them and the dark.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7280,7 +6451,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","2")#discipline-mark("subterfuge","1")],"A Small and Watchful Shape","3","Wilderness 2 and Subterfuge 1","Maneuver","None — no roll","Magic / Movement / Utility","4 DP","s-d6873a0ed111")[
+],[#card(icons: [#discipline-mark("wilderness","2")#discipline-mark("subterfuge","1")],"A Small and Watchful Shape","3","Wilderness 2 and Subterfuge 1","Maneuver","None — no roll","Magic / Movement / Utility","4 DP","s-d6873a0ed111")[
 #emph[#text("You fold into a small furred shape and find the room suddenly full of towering furniture and interesting smells.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7290,13 +6461,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Ten minutes or until you return; one form at a time.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Transform only where both forms have a legal return space; if that space would become blocked, return before entering the obstruction. No second HP pool.")
 
 ]
-#card(icons: [#discipline-mark("medicine","2")],"A Steady Hand at Dawn","3","Medicine 2","Passive","None — no roll","Skill / Utility","4 DP","s-2d0cbcb3b428")[
+],[#card(icons: [#discipline-mark("medicine","2")],"A Steady Hand at Dawn","3","Medicine 2","Passive","None — no roll","Skill / Utility","4 DP","s-2d0cbcb3b428")[
 #emph[#text("You return to the bedside with clean hands and the patience to do the small things properly.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7306,13 +6475,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" When resolving an eligible treatment.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Cannot exceed the treatment’s normal Strong recovery result or add a second treatment attempt.")
 
 ]
-#card(icons: [#discipline-mark("influence","2")#discipline-mark("subterfuge","1")],"A Word Apart","3","Influence 2 and Subterfuge 1","Maneuver","None — no roll","Skill / Utility","4 DP","s-d67d39d397a8")[
+],[#card(icons: [#discipline-mark("influence","2")#discipline-mark("subterfuge","1")],"A Word Apart","3","Influence 2 and Subterfuge 1","Maneuver","None — no roll","Skill / Utility","4 DP","s-d67d39d397a8")[
 #emph[#text("You lean close beneath the surrounding chatter, shielding your lips as you give your companion the words they need.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7322,13 +6489,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Message is immediate; the Boon ends when used or the scene ends.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" An ally can hold only one unused benefit from this card; a later use replaces its message’s task and expiry.")
 
 ]
-#card(icons: [#discipline-mark("armor","2")],"Armored Recovery","3","Armor 2","Maneuver","None — no roll","Skill / Movement","4 DP","s-700933f2741d")[
+],[#card(icons: [#discipline-mark("armor","2")],"Armored Recovery","3","Armor 2","Maneuver","None — no roll","Skill / Movement","4 DP","s-700933f2741d")[
 #emph[#text("You plant an armored fist and rise with the familiar weight settling around you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7342,7 +6507,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("guard","2")#discipline-mark("athletics","1")],"Arrive under Guard","3","Guard 2 and Athletics 1","Maneuver","None — no roll","Skill / Defense / Movement","4 DP","s-0cd55d6c9765")[
+],[#card(icons: [#discipline-mark("guard","2")#discipline-mark("athletics","1")],"Arrive under Guard","3","Guard 2 and Athletics 1","Maneuver","None — no roll","Skill / Defense / Movement","4 DP","s-0cd55d6c9765")[
 #emph[#text("You hurry to your companion’s side with your guard raised, catching their eye as you settle between them and danger.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7352,13 +6517,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Movement is immediate; defense benefit ends when used or at the start of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" A recipient can hold only one unused defense benefit from this card.")
 
 ]
-#card(icons: [#discipline-mark("scholarship","2")],"Ask the Falling Ash","3","Scholarship 2","Main Action","Reason","Skill","4 DP","s-4ab7e1afe098")[
+],[#card(icons: [#discipline-mark("scholarship","2")],"Ask the Falling Ash","3","Scholarship 2","Main Action","Reason","Skill","4 DP","s-4ab7e1afe098")[
 #emph[#text("You scatter the ash and watch for the pattern that makes your breath catch.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7383,7 +6546,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("mind","2")],"Behind the Hawthorn","3","Mind 2","Reaction","None — no roll","Magic","4 DP","s-3dd709100098")[
+],[#card(icons: [#discipline-mark("mind","2")],"Behind the Hawthorn","3","Mind 2","Reaction","None — no roll","Magic","4 DP","s-3dd709100098")[
 #emph[#text("You flinch into a scatter of leaves and emerge a few paces from where the blow found you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7391,11 +6554,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Vanish into a swirl of leaves and reappear in a visible free square within 2 squares. No opaque barrier may separate the squares. This teleport does not provoke.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("arms","2")],"Bind and Turn","3","Arms 2","Reaction","Agility","Skill","4 DP","s-14904e5a8167")[
+],[#card(icons: [#discipline-mark("arms","2")],"Bind and Turn","3","Arms 2","Reaction","Agility","Skill","4 DP","s-14904e5a8167")[
 #emph[#text("You catch their momentum and feel the instant when strength becomes imbalance.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7414,11 +6575,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("flame","2")],"Borrow Tomorrow’s Weather","3","Flame 2","Main Action","Guile","Magic / Control / Utility","4 DP","s-0438726e35dc")[
+],[#card(icons: [#discipline-mark("flame","2")],"Borrow Tomorrow’s Weather","3","Flame 2","Main Action","Guile","Magic / Control / Utility","4 DP","s-0438726e35dc")[
 #emph[#text("You reach through a rip in the air and pull back a clump of tomorrow’s weather. You toss it onto the ground, where it spreads into rolling smoke or bursts into a sheet of ice.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7445,7 +6604,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("mind","2")],"Borrowed Silhouette","3","Mind 2","Reaction","None — no roll","Magic","4 DP","s-89d23bd45071")[
+],[#card(icons: [#discipline-mark("mind","2")],"Borrowed Silhouette","3","Mind 2","Reaction","None — no roll","Magic","4 DP","s-89d23bd45071")[
 #emph[#text("You leave a flickering likeness where your enemy expects to find you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7453,11 +6612,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("A duplicate steps where you were. Gain 1 Boon to the defense, then move 1 square without provoking after the attack resolves. The duplicate vanishes immediately; it cannot absorb another attack.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("craft","2")#discipline-mark("medicine","1")],"Bottled Morning","3","Craft 2 and Medicine 1","Main Action","Knowledge","Skill / Crafting","4 DP","s-b10920431af0")[
+],[#card(icons: [#discipline-mark("craft","2")#discipline-mark("medicine","1")],"Bottled Morning","3","Craft 2 and Medicine 1","Main Action","Knowledge","Skill / Crafting","4 DP","s-b10920431af0")[
 #emph[#text("You stir until the sharp smell softens, then hold the bottle up to the dawn.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7486,7 +6643,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("arms","2")],"Break the Formation","3","Arms 2","Main Action","Brawn","Skill / Attack","4 DP","s-97249b421028")[
+],[#card(icons: [#discipline-mark("arms","2")],"Break the Formation","3","Arms 2","Main Action","Brawn","Skill / Attack","4 DP","s-97249b421028")[
 #emph[#text("Drive one foe backward until the enemy line becomes a pile of limbs.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7511,7 +6668,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","2")],"Briar Gate","3","Wilderness 2","Main Action","Reason","Magic / Control","4 DP","s-4a927c01c65e")[
+],[#card(icons: [#discipline-mark("wilderness","2")],"Briar Gate","3","Wilderness 2","Main Action","Reason","Magic / Control","4 DP","s-4a927c01c65e")[
 #emph[#text("You sweep your hand across the ground, calling a tangle of thorns into the opening.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7536,7 +6693,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("frost","2")],"Bridge of Winter","3","Frost 2","Main Action","None — no roll","Magic / Utility","4 DP","s-0c2e039d0225")[
+],[#card(icons: [#discipline-mark("frost","2")],"Bridge of Winter","3","Frost 2","Main Action","None — no roll","Magic / Utility","4 DP","s-0c2e039d0225")[
 #emph[#text("You press your palm toward the far side of the gap. Ice grows outward from both edges and joins into a pale bridge beneath drifting frost.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7546,11 +6703,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Ten minutes; final-round warning and no early dismissal.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("influence","2")],"Call the Opening","3","Influence 2","Main Action","Reason","Skill","4 DP","s-db6a1d1278ed")[
+],[#card(icons: [#discipline-mark("influence","2")],"Call the Opening","3","Influence 2","Main Action","Reason","Skill","4 DP","s-db6a1d1278ed")[
 #emph[#text("You see the gap before anyone else and shout the name of the friend who can reach it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7573,11 +6728,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Free attacks resolve immediately. The Weak Boon lasts until the start of your next turn or until used.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("scholarship","2")],"Catch the Spell","3","Scholarship 2","Reaction","None — no roll","Magic / Defense","4 DP","s-e622c4cb6cb7")[
+],[#card(icons: [#discipline-mark("scholarship","2")],"Catch the Spell","3","Scholarship 2","Reaction","None — no roll","Magic / Defense","4 DP","s-e622c4cb6cb7")[
 #emph[#text("You seize the shape of the spell and wrench it aside.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7587,13 +6740,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("This protects against the spell; it does not cancel casting or protect against an area spell. General spell cancellation remains an open design decision.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("calling","2")#discipline-mark("guard","1")],"Circle of Old Names","3","Calling 2 and Guard 1","Main Action","None — no roll","Magic","4 DP","s-ce1d6794bed5")[
+],[#card(icons: [#discipline-mark("calling","2")#discipline-mark("guard","1")],"Circle of Old Names","3","Calling 2 and Guard 1","Main Action","None — no roll","Magic","4 DP","s-ce1d6794bed5")[
 #emph[#text("You speak the names that once meant safety, and hear your companions breathe more steadily.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7605,7 +6754,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("marksmanship","2")],"Cut Off the Escape","3","Marksmanship 2","Main Action","Agility","Skill / Attack","4 DP","s-4f30c7d72c1c")[
+],[#card(icons: [#discipline-mark("marksmanship","2")],"Cut Off the Escape","3","Marksmanship 2","Main Action","Agility","Skill / Attack","4 DP","s-4f30c7d72c1c")[
 #emph[#text("You follow their glance toward freedom and send your shot to meet it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7624,13 +6773,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #text("")#strong[#text("Gear:")]#text(" Gain one ordinary ranged weapon and one d8 ammunition bundle if absent; each Bulk 1. Check ammunition after every attack.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("craft","2")],"Derive a Mechanism","3","Craft 2","Main Action","Reason","Skill","4 DP","s-e5c039e6e9f2")[
+],[#card(icons: [#discipline-mark("craft","2")],"Derive a Mechanism","3","Craft 2","Main Action","Reason","Skill","4 DP","s-e5c039e6e9f2")[
 #emph[#text("You lay out the pieces and follow the maker’s thinking, one ingenious decision at a time.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7653,11 +6800,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("storm","2")#discipline-mark("scholarship","1")],"Draw the Current","3","Storm 2 and Scholarship 1","Maneuver","None — no roll","Magic / Control","4 DP","s-e32c1c9d4824")[
+],[#card(icons: [#discipline-mark("storm","2")#discipline-mark("scholarship","1")],"Draw the Current","3","Storm 2 and Scholarship 1","Maneuver","None — no roll","Magic / Control","4 DP","s-e32c1c9d4824")[
 #emph[#text("You wind a tight ribbon of air around your casting hand and let it tug toward the place you want your enemy to stumble.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7667,13 +6812,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Until the next qualifying spell resolves or the end of this turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeated uses do not multiply this card’s benefit on the same recipient or prepared attack. Pay a Maneuver for each use.")
 
 ]
-#card(icons: [#discipline-mark("mind","2")],"Dread Reflection","3","Mind 2","Main Action","Guile","Magic / Attack","4 DP","s-ebf6d1d7654c")[
+],[#card(icons: [#discipline-mark("mind","2")],"Dread Reflection","3","Mind 2","Main Action","Guile","Magic / Attack","4 DP","s-ebf6d1d7654c")[
 #emph[#text("You spread your arms, and your outline twists into something your enemy dreads. They recoil as the vision presses against their thoughts.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7694,17 +6837,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("marksmanship","2")],"Driving Volley","3","Marksmanship 2","Main Action","Agility","Skill / Attack","4 DP","s-327e15119125")[
+],[#card(icons: [#discipline-mark("marksmanship","2")],"Driving Volley","3","Marksmanship 2","Main Action","Agility","Skill / Attack","4 DP","s-327e15119125")[
 #emph[#text("You loose shots across the enemies’ footing, driving them away from the route your companion needs.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" Up to two visible creatures within 8 squares")
-
-#text("For a player attack, work out each target’s net Boons or Banes. Make one attack roll using the combination least favorable to you and apply that result to every target. Affect the creatures specified under Target, including allies if the area includes them. When an NPC attacks, each affected player makes a separate defense roll.")
 
 #list(
 [#text("")#strong[#text("Weak:")]#text(" 3 physical damage to each.")
@@ -7723,13 +6862,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("flame","2")],"Furnace Sweep","3","Flame 2","Main Action","Knowledge","Magic / Attack","4 DP","s-d0c514a685fc")[
+],[#card(icons: [#discipline-mark("flame","2")],"Furnace Sweep","3","Flame 2","Main Action","Knowledge","Magic / Attack","4 DP","s-d0c514a685fc")[
 #emph[#text("Throw open an invisible furnace and let the heat shove them back.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" A 3-wide, 2-deep rectangle extending ahead from your square")
 
-#text("For a player attack, work out each target’s net Boons or Banes. Make one attack roll using the combination least favorable to you and apply that result to every target. Affect the creatures specified under Target, including allies if the area includes them. When an NPC attacks, each affected player makes a separate defense roll. Proposed NPC defense attribute: Agility.")
+#text("Proposed NPC defense attribute: Agility.")
 
 #list(
 [#text("")#strong[#text("Weak:")]#text(" 3 fire damage.")
@@ -7744,11 +6883,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("athletics","2")#discipline-mark("guard","1")],"Haul Them Home","3","Athletics 2 and Guard 1","Maneuver","None — no roll","Skill / Movement / Utility","4 DP","s-9ba643fc50ac")[
+],[#card(icons: [#discipline-mark("athletics","2")#discipline-mark("guard","1")],"Haul Them Home","3","Athletics 2 and Guard 1","Maneuver","None — no roll","Skill / Movement / Utility","4 DP","s-9ba643fc50ac")[
 #emph[#text("You wrap the rope across your back and lean into the pull, bringing your companion over the lip a handspan at a time.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7766,7 +6903,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" Repeatable while the rope, route and support requirements hold. Each use costs a Maneuver.")
 
 ]
-#card(icons: [#discipline-mark("guard","2")],"Hold the Passage","3","Guard 2","Main Action","None — no roll","Skill","4 DP","s-fe505c56a200")[
+],[#card(icons: [#discipline-mark("guard","2")],"Hold the Passage","3","Guard 2","Main Action","None — no roll","Skill","4 DP","s-fe505c56a200")[
 #emph[#text("You brace your shield in the narrow way and make room for your friends behind it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7780,7 +6917,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("frost","2")#discipline-mark("wilderness","1")],"Ice across the Break","3","Frost 2 and Wilderness 1","Maneuver","None — no roll","Magic / Utility","4 DP","s-4a0938260194")[
+],[#card(icons: [#discipline-mark("frost","2")#discipline-mark("wilderness","1")],"Ice across the Break","3","Frost 2 and Wilderness 1","Maneuver","None — no roll","Magic / Utility","4 DP","s-4a0938260194")[
 #emph[#text("You sweep your hand across the broken path. Ice grows from both edges and meets with a sharp crack, leaving a narrow bridge shining between them.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7790,13 +6927,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Ten minutes; announce its impending end to anyone on it.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" One active bridge per caster. Creatures cannot be enclosed or lifted by its creation.")
 
 ]
-#card(icons: [#discipline-mark("frost","2")],"Icebound Path","3","Frost 2","Main Action","Knowledge","Magic / Control","4 DP","s-47f2c1d1b4c7")[
+],[#card(icons: [#discipline-mark("frost","2")],"Icebound Path","3","Frost 2","Main Action","Knowledge","Magic / Control","4 DP","s-47f2c1d1b4c7")[
 #emph[#text("You draw your fingers across the air, laying a pale skin of winter over the ground.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7819,11 +6954,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Until the end of your next turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("subterfuge","2")#discipline-mark("influence","1")],"Live in the Mask","3","Subterfuge 2 and Influence 1","Passive","None — no roll","Skill / Utility","4 DP","s-39453f773b9a")[
+],[#card(icons: [#discipline-mark("subterfuge","2")#discipline-mark("influence","1")],"Live in the Mask","3","Subterfuge 2 and Influence 1","Passive","None — no roll","Skill / Utility","4 DP","s-39453f773b9a")[
 #emph[#text("You remember to be the borrowed person even when no one seems to be watching.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7833,13 +6966,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" While the disguise is in use.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Ordinary activities remain available without this card. Roll only when uncertainty has consequences.")
 
 ]
-#card(icons: [#discipline-mark("influence","2")],"No Road Away","3","Influence 2","Reaction","None — no roll","Skill","4 DP","s-71e27d81e4b0")[
+],[#card(icons: [#discipline-mark("influence","2")],"No Road Away","3","Influence 2","Reaction","None — no roll","Skill","4 DP","s-71e27d81e4b0")[
 #emph[#text("You move when they move, keeping yourself between them and an easy escape.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7847,11 +6978,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Follow up to 3 squares toward it without provoking. You must use a legal route; this does not stop its movement or grant an attack.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","2")#discipline-mark("athletics","1")],"Pounce of the Red Claw","3","Wilderness 2 and Athletics 1","Main Action","Agility","Magic / Attack","4 DP","s-f47bcccc43ee")[
+],[#card(icons: [#discipline-mark("wilderness","2")#discipline-mark("athletics","1")],"Pounce of the Red Claw","3","Wilderness 2 and Athletics 1","Main Action","Agility","Magic / Attack","4 DP","s-f47bcccc43ee")[
 #emph[#text("You gather yourself low and spring with a hunter’s sudden certainty.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7870,11 +6999,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","2")],"Read a Dangerous Trail","3","Wilderness 2","Main Action","Reason","Skill","4 DP","s-8f3ef546d491")[
+],[#card(icons: [#discipline-mark("wilderness","2")],"Read a Dangerous Trail","3","Wilderness 2","Main Action","Reason","Skill","4 DP","s-8f3ef546d491")[
 #emph[#text("You stop where the prints grow hurried and look ahead with a new understanding.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7897,11 +7024,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("craft","2")#discipline-mark("scholarship","1")],"Read the Maker’s Hand","3","Craft 2 and Scholarship 1","Passive","None — no roll","Skill / Utility","4 DP","s-c791bc3263af")[
+],[#card(icons: [#discipline-mark("craft","2")#discipline-mark("scholarship","1")],"Read the Maker’s Hand","3","Craft 2 and Scholarship 1","Passive","None — no roll","Skill / Utility","4 DP","s-c791bc3263af")[
 #emph[#text("You turn the old fitting over and recognize a solution worth borrowing.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7913,13 +7038,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Knowledge persists; each salvaged component can be used once.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Ordinary activities remain available without this card. Roll only when uncertainty has consequences.")
 
 ]
-#card(icons: [#discipline-mark("scholarship","2")],"Read the Next Blow","3","Scholarship 2","Reaction","None — no roll","Skill","4 DP","s-2d6d412f93b9")[
+],[#card(icons: [#discipline-mark("scholarship","2")],"Read the Next Blow","3","Scholarship 2","Reaction","None — no roll","Skill","4 DP","s-2d6d412f93b9")[
 #emph[#text("You watch the shoulder rather than the blade and move before the strike is fully formed.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7927,11 +7050,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Predict the line of a blow you can see. Use Reason instead of the attack’s printed defense attribute for this defense only. This cannot replace resistance to poison, cold, mental intrusion or another internal threat.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("influence","2")],"Remember This Name","3","Influence 2","Main Action","Guile","Skill","4 DP","s-2af6fd22810d")[
+],[#card(icons: [#discipline-mark("influence","2")],"Remember This Name","3","Influence 2","Main Action","Guile","Skill","4 DP","s-2af6fd22810d")[
 #emph[#text("You tell the room what your companion did, and watch people turn to look at them differently.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7956,7 +7077,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("life","2")],"Rest for the Restless","3","Life 2","Main Action","Reason","Magic / Attack / Recovery","4 DP","s-2b9d2671ca7a")[
+],[#card(icons: [#discipline-mark("life","2")],"Rest for the Restless","3","Life 2","Main Action","Reason","Magic / Attack / Recovery","4 DP","s-2b9d2671ca7a")[
 #emph[#text("You extend a hand toward the restless creature and speak a quiet dismissal. A pale thread of Life energy lashes from your fingers into it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -7975,11 +7096,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("radiance","2")],"Reveal the Threshold","3","Radiance 2","Main Action","Reason","Magic","4 DP","s-ffb7d6b8c41b")[
+],[#card(icons: [#discipline-mark("radiance","2")],"Reveal the Threshold","3","Radiance 2","Main Action","Reason","Magic","4 DP","s-ffb7d6b8c41b")[
 #emph[#text("You trace the edge of the strange place, watching for the seam where its magic catches the light.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8002,11 +7121,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("athletics","2")],"Ride the Falling Stone","3","Athletics 2","Reaction","Agility","Skill / Utility","4 DP","s-9de0bb8338b1")[
+],[#card(icons: [#discipline-mark("athletics","2")],"Ride the Falling Stone","3","Athletics 2","Reaction","Agility","Skill / Utility","4 DP","s-9de0bb8338b1")[
 #emph[#text("You run along the wreckage before the world catches up.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8027,11 +7144,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Immediate, before the triggering fall resolves.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("athletics","2")],"Running Vault","3","Athletics 2","Maneuver","Agility","Skill","4 DP","s-8e49205366be")[
+],[#card(icons: [#discipline-mark("athletics","2")],"Running Vault","3","Athletics 2","Maneuver","Agility","Skill","4 DP","s-8e49205366be")[
 #emph[#text("You measure the gap in a glance and let your stride become a leap.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8052,11 +7167,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("flame","2")#discipline-mark("wilderness","1")],"Scales beneath the Skin","3","Flame 2 and Wilderness 1","Reaction","None — no roll","Magic","4 DP","s-84a6db46442c")[
+],[#card(icons: [#discipline-mark("flame","2")#discipline-mark("wilderness","1")],"Scales beneath the Skin","3","Flame 2 and Wilderness 1","Reaction","None — no roll","Magic","4 DP","s-84a6db46442c")[
 #emph[#text("You brace as a brief shimmer of scales catches the light across your arms.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8064,11 +7177,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Scales flare across your skin. Gain resistance 3 to one of those types for this event only, using the highest matching value. No stacking with armor.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("subterfuge","2")],"Silence the Alarm","3","Subterfuge 2","Main Action","Agility","Skill / Attack","4 DP","s-b80fb7eae64e")[
+],[#card(icons: [#discipline-mark("subterfuge","2")],"Silence the Alarm","3","Subterfuge 2","Main Action","Agility","Skill / Attack","4 DP","s-b80fb7eae64e")[
 #emph[#text("You see the breath gathering for a shout and move before the warning comes.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8093,7 +7204,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("flame","2")],"Smoke Through the Keyhole","3","Flame 2","Main Action","None — no roll","Magic / Utility","4 DP","s-baede3fc9acf")[
+],[#card(icons: [#discipline-mark("flame","2")],"Smoke Through the Keyhole","3","Flame 2","Main Action","None — no roll","Magic / Utility","4 DP","s-baede3fc9acf")[
 #emph[#text("Your outline frays into smoke; the lock remains untouched.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8103,11 +7214,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" One immediate passage; you reform at the destination.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("flame","2")],"Step Through the Spark","3","Flame 2","Maneuver","None — no roll","Magic","4 DP","s-228dce1b7b4c")[
+],[#card(icons: [#discipline-mark("flame","2")],"Step Through the Spark","3","Flame 2","Maneuver","None — no roll","Magic","4 DP","s-228dce1b7b4c")[
 #emph[#text("You follow a skipping spark and arrive with its warmth still brushing your cheek.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8115,11 +7224,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Follow a leaping spark to the chosen square. This is teleportation and does not provoke. You must see the destination and cannot cross an opaque barrier.")
 
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("armor","2")],"Stone on Your Shoulders","3","Armor 2","Reaction","None — no roll","Magic","4 DP","s-59180a9442ec")[
+],[#card(icons: [#discipline-mark("armor","2")],"Stone on Your Shoulders","3","Armor 2","Reaction","None — no roll","Magic","4 DP","s-59180a9442ec")[
 #emph[#text("You feel the rune take the weight as though a mountain had leaned against the blow.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8127,11 +7234,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("The rune takes the weight. For this damage event, gain physical resistance 3. Afterward, you may move 1 square without provoking. This does not add to existing resistance.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("storm","1")#discipline-mark("craft","1")],"Storm on a String","3","Storm 1 and Craft 1","Main Action","Reason","Magic / Utility","4 DP","s-b67c47b263c3")[
+],[#card(icons: [#discipline-mark("storm","1")#discipline-mark("craft","1")],"Storm on a String","3","Storm 1 and Craft 1","Main Action","Reason","Magic / Utility","4 DP","s-b67c47b263c3")[
 #emph[#text("You curl a finger toward the unattended object. A thin spiral of wind catches it and draws it across the ground toward your hand.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8150,23 +7255,15 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("calling","2")],"Summon Animal — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-21283cfcebd2")[
+],[#card(icons: [#discipline-mark("calling","2")],"Summon Animal — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-21283cfcebd2")[
 #emph[#text("You whistle into the still air. An answering call comes closer, and the animal you called steps into the world beside you, waiting for your direction.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Animal summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Animal summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -8176,17 +7273,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("calling","2")],"Summon Construct — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-d4455bc3c4c9")[
+],[#card(icons: [#discipline-mark("calling","2")],"Summon Construct — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-d4455bc3c4c9")[
 #emph[#text("You sketch a frame in the air and close your hand. Interlocking pieces gather into the construct you called, its joints still until you direct it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Construct summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Construct summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -8196,17 +7289,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("calling","2")],"Summon Elemental — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-a370b50de68a")[
+],[#card(icons: [#discipline-mark("calling","2")],"Summon Elemental — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-a370b50de68a")[
 #emph[#text("You turn your palm and gather the elements into a whirling knot. It unfolds into the elemental you called, its substance shifting as it waits.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Elemental summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Elemental summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -8216,17 +7305,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("calling","2")],"Summon Fey — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-2f1306bdc55e")[
+],[#card(icons: [#discipline-mark("calling","2")],"Summon Fey — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-2f1306bdc55e")[
 #emph[#text("You trace an opening in the air. A scent of strange blossoms escapes before your chosen fey steps through and waits for your word.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Fey summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Fey summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -8236,17 +7321,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("calling","2")],"Summon Spirit — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-b80492b400fd")[
+],[#card(icons: [#discipline-mark("calling","2")],"Summon Spirit — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-b80492b400fd")[
 #emph[#text("You speak into the hush between breaths. A pale outline gathers beside you, taking the shape of the spirit you called.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Spirit summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Spirit summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -8256,17 +7337,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("calling","2")],"Summon Undead — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-27ceffdfffd9")[
+],[#card(icons: [#discipline-mark("calling","2")],"Summon Undead — Adept","3","Calling 2","Main Action","None — no roll","Magic / Summoning","4 DP","s-27ceffdfffd9")[
 #emph[#text("You draw a cold breath and beckon. A shape assembles from spectral remains, settling into the form of the undead servant you called.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Undead summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Undead summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("3")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -8276,7 +7353,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("life","2")],"Sustain the Failing","3","Life 2","Main Action","Reason","Magic / Recovery","4 DP","s-8711502c942b")[
+],[#card(icons: [#discipline-mark("life","2")],"Sustain the Failing","3","Life 2","Main Action","Reason","Magic / Recovery","4 DP","s-8711502c942b")[
 #emph[#text("You kneel beside your companion and hold out your hand. Strength passes into their injured body, leaving you pale and breathing hard.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8297,13 +7374,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
 
 ]
-#card(icons: [#discipline-mark("scholarship","2")],"Teach Stone to Bend","3","Scholarship 2","Main Action","Knowledge","Magic","4 DP","s-bfaa937e43cf")[
+],[#card(icons: [#discipline-mark("scholarship","2")],"Teach Stone to Bend","3","Scholarship 2","Main Action","Knowledge","Magic","4 DP","s-bfaa937e43cf")[
 #emph[#text("You press your palm against the stone and patiently coax a different shape from it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8328,7 +7403,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("mind","2")],"The Angle of Unease","3","Mind 2","Main Action","Reason","Magic / Attack","4 DP","s-8f9b68c9239d")[
+],[#card(icons: [#discipline-mark("mind","2")],"The Angle of Unease","3","Mind 2","Main Action","Reason","Magic / Attack","4 DP","s-8f9b68c9239d")[
 #emph[#text("You tilt your hand, and your enemy reaches for a balance the room no longer seems to offer.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8347,11 +7422,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("influence","2")],"The Chorus Advances","3","Influence 2","Maneuver","None — no roll","Skill","4 DP","s-7cf74c986db8")[
+],[#card(icons: [#discipline-mark("influence","2")],"The Chorus Advances","3","Influence 2","Maneuver","None — no roll","Skill","4 DP","s-7cf74c986db8")[
 #emph[#text("You catch the rhythm of your companions’ steps and give them the next beat.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8359,11 +7432,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Each moves 1 square toward a visible enemy without provoking, one at a time. Their actions remain their own.")
 
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("flame","2")],"The Debt Comes Due","3","Flame 2","Reaction","Guile","Magic / Attack","4 DP","s-049ec515d5b7")[
+],[#card(icons: [#discipline-mark("flame","2")],"The Debt Comes Due","3","Flame 2","Reaction","Guile","Magic / Attack","4 DP","s-049ec515d5b7")[
 #emph[#text("You touch the place they hurt you, and the mark answers in heat.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8382,11 +7453,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","2")],"The Road Remembers","3","Wilderness 2","Main Action","Reason","Skill / Utility","4 DP","s-b066e3d06a02")[
+],[#card(icons: [#discipline-mark("wilderness","2")],"The Road Remembers","3","Wilderness 2","Main Action","Reason","Skill / Utility","4 DP","s-b066e3d06a02")[
 #emph[#text("You part the grass, examine the crushed stems and touch the cold ash, following the signs of those who stopped here before you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8409,11 +7478,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" The result applies when the stated activity is complete; information and earned progress persist.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("subterfuge","2")],"The Unlit Road","3","Subterfuge 2","Main Action","None — no roll","Magic","4 DP","s-0fee6504a4c1")[
+],[#card(icons: [#discipline-mark("subterfuge","2")],"The Unlit Road","3","Subterfuge 2","Main Action","None — no roll","Magic","4 DP","s-0fee6504a4c1")[
 #emph[#text("You step into one pool of shadow and emerge from another, carrying its chill with you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8421,11 +7488,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Step from one shadow into the other: move yourself to the chosen destination without crossing intervening squares. No opaque barrier between them; teleportation does not provoke.")
 
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("arms","2")],"Through the Spearpoints","3","Arms 2","Maneuver","None — no roll","Skill","4 DP","s-8450e5fa3bd6")[
+],[#card(icons: [#discipline-mark("arms","2")],"Through the Spearpoints","3","Arms 2","Maneuver","None — no roll","Skill","4 DP","s-8450e5fa3bd6")[
 #emph[#text("You lower your head and commit to the narrow route through the reaching weapons.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8437,13 +7502,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("storm","2")],"Thunder Ring","3","Storm 2","Main Action","Reason","Magic / Attack","4 DP","s-c4ee5d3c049c")[
+],[#card(icons: [#discipline-mark("storm","2")],"Thunder Ring","3","Storm 2","Main Action","Reason","Magic / Attack","4 DP","s-c4ee5d3c049c")[
 #emph[#text("Your shout breaks across the battlefield like a bell of thunder.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" Every other creature within 1 square of you")
 
-#text("For a player attack, work out each target’s net Boons or Banes. Make one attack roll using the combination least favorable to you and apply that result to every target. Affect the creatures specified under Target, including allies if the area includes them. When an NPC attacks, each affected player makes a separate defense roll. Proposed NPC defense attribute: Fortitude.")
+#text("Proposed NPC defense attribute: Fortitude.")
 
 #list(
 [#text("")#strong[#text("Weak:")]#text(" 3 physical damage.")
@@ -8458,11 +7523,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("scholarship","2")],"Translate the Fragment","3","Scholarship 2","Main Action","Knowledge","Skill","4 DP","s-906625ca362d")[
+],[#card(icons: [#discipline-mark("scholarship","2")],"Translate the Fragment","3","Scholarship 2","Main Action","Knowledge","Skill","4 DP","s-906625ca362d")[
 #emph[#text("You recognize one familiar root in the strange writing, and the next line begins to open.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8485,11 +7548,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("athletics","2")],"Turn the River","3","Athletics 2","Reaction","None — no roll","Skill","4 DP","s-b63afd7b547d")[
+],[#card(icons: [#discipline-mark("athletics","2")],"Turn the River","3","Athletics 2","Reaction","None — no roll","Skill","4 DP","s-b63afd7b547d")[
 #emph[#text("You yield just enough to feel the force pass you, then guide it somewhere else.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8497,11 +7558,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Use Reason for this defense. On a Strong defense, you may pull the attacker 1 square toward your previous position after moving yourself 1 square to a free square without provoking. Both destinations must be legal.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("arms","2")],"Under Their Guard","3","Arms 2","Maneuver","None — no roll","Skill","4 DP","s-e7f661a56d10")[
+],[#card(icons: [#discipline-mark("arms","2")],"Under Their Guard","3","Arms 2","Maneuver","None — no roll","Skill","4 DP","s-e7f661a56d10")[
 #emph[#text("You slip through the little space their weapon leaves behind.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8509,11 +7568,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Pass along a legal route to that square without provoking from the chosen enemy. Other enemies can still react. You cannot pass through its occupied square.")
 
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","2")#discipline-mark("frost","1")],"Undertow Answer","3","Wilderness 2 and Frost 1","Main Action","Reason","Magic","4 DP","s-412080346fc2")[
+],[#card(icons: [#discipline-mark("wilderness","2")#discipline-mark("frost","1")],"Undertow Answer","3","Wilderness 2 and Frost 1","Main Action","Reason","Magic","4 DP","s-412080346fc2")[
 #emph[#text("You beckon to the water, and it reaches for the feet beside it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8532,11 +7589,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("guard","2")],"Unravel the Bolt","3","Guard 2","Reaction","None — no roll","Magic / Defense","4 DP","s-22e6f489bade")[
+],[#card(icons: [#discipline-mark("guard","2")],"Unravel the Bolt","3","Guard 2","Reaction","None — no roll","Magic / Defense","4 DP","s-22e6f489bade")[
 #emph[#text("You catch the spell’s shape in your mind and pull at the thread that holds it straight.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8544,11 +7599,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Spend your Reaction before the recipient’s normal defense roll. Grant 2 Boons to that defense. If it is Strong, the recipient may move 1 square without provoking after the spell resolves. Make no additional roll. This does not cancel the spell and cannot affect an area spell.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("medicine","2")],"Urgent Bandaging","3","Medicine 2","Maneuver","Knowledge","Skill","4 DP","s-fb4bae07a2e2")[
+],[#card(icons: [#discipline-mark("medicine","2")],"Urgent Bandaging","3","Medicine 2","Maneuver","Knowledge","Skill","4 DP","s-fb4bae07a2e2")[
 #emph[#text("You tear a strip, press hard and tie the knot while the battle rages around you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8569,11 +7622,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("subterfuge","2")],"Veiled Crossing","3","Subterfuge 2","Maneuver","None — no roll","Skill","4 DP","s-fd8e0f63e005")[
+],[#card(icons: [#discipline-mark("subterfuge","2")],"Veiled Crossing","3","Subterfuge 2","Maneuver","None — no roll","Skill","4 DP","s-fd8e0f63e005")[
 #emph[#text("You wait for the shadows to join, then lead your companion along their quiet seam.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8583,11 +7634,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("storm","2")],"Walk the Thunder","3","Storm 2","Maneuver","None — no roll","Magic","4 DP","s-4432e6d45409")[
+],[#card(icons: [#discipline-mark("storm","2")],"Walk the Thunder","3","Storm 2","Maneuver","None — no roll","Magic","4 DP","s-4432e6d45409")[
 #emph[#text("You run along the wall or skim the shallow water, planting each foot as a gust catches beneath it, then step back onto solid ground.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8595,11 +7644,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Run up to 3 squares along a wall or over shallow water; finish on ground that supports you. This movement does not provoke. If no legal endpoint exists, do not begin.")
 
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("armor","2")],"Wear Heavy Armor","3","Armor 2","Passive","None — no roll","Training / Passive","4 DP","s-07696a43ba98")[
+],[#card(icons: [#discipline-mark("armor","2")],"Wear Heavy Armor","3","Armor 2","Passive","None — no roll","Training / Passive","4 DP","s-07696a43ba98")[
 #emph[#text("You settle the last strap and feel the weight become part of the way you stand.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8615,11 +7662,14 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" Purchase once.")
 
 ]
-]
-#pagebreak(weak: true)
-#heading(level: 2,"Master abilities")
-#twocol[
-#card(icons: [#discipline-mark("mind","2")#discipline-mark("guard","2")],"A Company of Reflections","7","Mind 2 and Guard 2","Main Action","None — no roll","Magic / Defense","8 DP","s-9385ed20c73c")[
+],))
+#pagebreak(weak:true)
+#heading(level:2,"Master abilities")
+Find a useful option here, then follow its name to the complete card. Summaries help you choose; the card supplies the exact targets, costs and outcomes.
+
+#ability-directory((([#xref("s-9385ed20c73c")[#text("A Company of Reflections")]], [#text("Mind 2 and Guard 2")], [#text("Main Action")], [#text("Give allies defensive doubles.")]),([#xref("s-fc91bae7e9ab")[#text("A Marvel on Wheels")]], [#text("Craft 3 and Marksmanship 1")], [#text("Main Action")], [#text("Fire a folding launcher that pushes foes.")]),([#xref("s-2c50955d2127")[#text("A Shadow at the Heart")]], [#text("Subterfuge 3")], [#text("Main Action")], [#text("Strike from an unexpected angle and daze.")]),([#xref("s-ca1be516ae93")[#text("A Splendid Mistake")]], [#text("Flame 3")], [#text("Main Action")], [#text("Blast an area with fire or lightning.")]),([#xref("s-b0bce85feacc")[#text("A Sword Made of Dawn")]], [#text("Flame 3 and Arms 1")], [#text("Main Action")], [#text("Strike with fire, pushing and burning.")]),([#xref("s-3ee4159bbfff")[#text("A Voice across the Valley")]], [#text("Mind 2 and Storm 2")], [#text("Main Action")], [#text("Exchange distant spoken messages.")]),([#xref("s-0e3d8ad2dfbd")[#text("All Voices as One")]], [#text("Influence 3")], [#text("Main Action")], [#text("Grant allies free attacks and movement.")]),([#xref("s-0e04794c53d2")[#text("An Impossible Theft")]], [#text("Subterfuge 3")], [#text("Maneuver")], [#text("Draw an unattended object toward you.")]),([#xref("s-3dfa5567b60c")[#text("Answer for What You Did")]], [#text("Influence 3")], [#text("Main Action")], [#text("Hunt down a foe with a disabling strike.")]),([#xref("s-1b82cf6287ef")[#text("Borrow the Shadow")]], [#text("Subterfuge 3")], [#text("Reaction")], [#text("Follow movement into concealment.")]),([#xref("s-6e3ab17356cb")[#text("Borrowed Identity")]], [#text("Subterfuge 3 and Influence 1")], [#text("Main Action")], [#text("Establish a disguise for infiltration.")]),([#xref("s-51f7ce2cc800")[#text("Bow to the Balcony")]], [#text("Arms 3")], [#text("Main Action")], [#text("Strike, push and withdraw with a flourish.")]),([#xref("s-8384b54259a9")[#text("Break the Charge")]], [#text("Arms 3")], [#text("Reaction")], [#text("Strike a charging foe and drive it back.")]),([#xref("s-d71f33bfa8a5")[#text("Carry Them to Shore")]], [#text("Wilderness 3")], [#text("Main Action")], [#text("Swim a companion to safety.")]),([#xref("s-b85d10a9d18f")[#text("Carry the Sunrise")]], [#text("Radiance 3")], [#text("Main Action")], [#text("Lead allies forward under protection.")]),([#xref("s-2a9e0ff502b2")[#text("Carry to Safety")]], [#text("Guard 3")], [#text("Main Action")], [#text("Carry an ally away without provoking.")]),([#xref("s-0cc1d3ab6da1")[#text("Cast through the Reflection")]], [#text("Scholarship 3 and Mind 1")], [#text("Maneuver")], [#text("Shift where your next spell originates.")]),([#xref("s-3116911dba83")[#text("Checkmate in Three Steps")]], [#text("Scholarship 3")], [#text("Main Action")], [#text("Exploit a studied opening to disable a foe.")]),([#xref("s-cc828e18803e")[#text("Dance beyond the Circle")]], [#text("Mind 3")], [#text("Main Action")], [#text("Exchange two willing allies’ positions.")]),([#xref("s-618651fd79c9")[#text("Enchanting Workshop")]], [#text("Craft 3")], [#text("Main Action")], [#text("Craft from ordinary or special recipes.")]),([#xref("s-51be293568a2")[#text("Fit a Replacement")]], [#text("Medicine 3")], [#text("Main Action")], [#text("Fit a prosthesis to relieve eligible penalties.")]),([#xref("s-9c0b99b4a582")[#text("Forked Sky")]], [#text("Storm 3")], [#text("Main Action")], [#text("Burn several foes with lightning.")]),([#xref("s-458bcf802246")[#text("Four Winds at Once")]], [#text("Storm 2 and Athletics 2")], [#text("Main Action")], [#text("Strike around you and push foes away.")]),([#xref("s-c78c16c50ffc")[#text("Guide the Crossing")]], [#text("Wilderness 3")], [#text("Main Action")], [#text("Lead companions across a natural hazard.")]),([#xref("s-0f82c9c28574")[#text("Hurl Aside")]], [#text("Arms 3")], [#text("Main Action")], [#text("Strike, drive back and knock prone.")]),([#xref("s-5b8e938de3f2")[#text("No Footfall at All")]], [#text("Subterfuge 3")], [#text("Maneuver")], [#text("Move silently without provoking this turn.")]),([#xref("s-4262992561c1")[#text("Noonday Judgment")]], [#text("Radiance 3")], [#text("Main Action")], [#text("Blind and harm an area with radiant light.")]),([#xref("s-851cab136089")[#text("Not Yet Your Name")]], [#text("Life 3 and Medicine 1")], [#text("Reaction")], [#text("Pay HP to rescue a newly fallen ally.")]),([#xref("s-aa153c2db017")[#text("One More Dawn")]], [#text("None")], [#text("Passive")], [#text("Gain one additional Grit, once ever.")]),([#xref("s-471a4440c939")[#text("Open the Furnace Door")]], [#text("Flame 3")], [#text("Main Action")], [#text("Blast an area with fire and driving force.")]),([#xref("s-0626f70d64d5")[#text("Reconstruct the Event")]], [#text("Scholarship 3")], [#text("Main Action")], [#text("Rebuild a sequence from surviving evidence.")]),([#xref("s-44cd265b06d4")[#text("Return to Strength")]], [#text("Life 3")], [#text("Main Action")], [#text("Pay HP to restore a large amount of life.")]),([#xref("s-5eb5e0b36f9f")[#text("Sever the Pursuit")]], [#text("Marksmanship 3")], [#text("Main Action")], [#text("Damage and slow several pursuers.")]),([#xref("s-e9a3970c7f5a")[#text("Still the Will")]], [#text("Mind 3")], [#text("Main Action")], [#text("Harm the mind and daze or paralyze.")]),([#xref("s-0cef8ad23763")[#text("Stillness at the Center")]], [#text("Athletics 3")], [#text("Main Action")], [#text("Strike to slow and daze an opponent.")]),([#xref("s-b04105c60eb6")[#text("Stride of the Giant")]], [#text("Armor 3")], [#text("Main Action")], [#text("Stomp to push and topple nearby foes.")]),([#xref("s-7ebb98971bf8")[#text("Summon Animal — Master")]], [#text("Calling 3")], [#text("Main Action")], [#text("Summon an animal up to Master tier.")]),([#xref("s-9179af4bede4")[#text("Summon Construct — Master")]], [#text("Calling 3")], [#text("Main Action")], [#text("Summon a construct up to Master tier.")]),([#xref("s-afed281ab3c0")[#text("Summon Elemental — Master")]], [#text("Calling 3")], [#text("Main Action")], [#text("Summon an elemental up to Master tier.")]),([#xref("s-769489d90a89")[#text("Summon Fey — Master")]], [#text("Calling 3")], [#text("Main Action")], [#text("Summon a fey up to Master tier.")]),([#xref("s-30ea6d18db33")[#text("Summon Spirit — Master")]], [#text("Calling 3")], [#text("Main Action")], [#text("Summon a spirit up to Master tier.")]),([#xref("s-7a270d71b6b4")[#text("Summon Undead — Master")]], [#text("Calling 3")], [#text("Main Action")], [#text("Summon an undead up to Master tier.")]),([#xref("s-4504f0c673de")[#text("Terms before Swords")]], [#text("Influence 3")], [#text("Main Action")], [#text("Negotiate terms with willing representatives.")]),([#xref("s-3a9d939220fb")[#text("The Circle Holds")]], [#text("Guard 3")], [#text("Main Action")], [#text("Ward allies against spells and displacement.")]),([#xref("s-8a70a29a33a0")[#text("The City Opens Its Doors")]], [#text("Subterfuge 3")], [#text("Main Action")], [#text("Find a willing clandestine contact.")]),([#xref("s-ae692ce84411")[#text("The Cleverest Mixture")]], [#text("Craft 3 and Medicine 1")], [#text("Maneuver")], [#text("Brew and use a condition-relieving tonic.")]),([#xref("s-3a590a37bb9e")[#text("The Grove Gives Back")]], [#text("Life 3 and Wilderness 1")], [#text("Main Action")], [#text("Share a healing pool among allies.")]),([#xref("s-15951f157941")[#text("The Hunt Ends Here")]], [#text("Marksmanship 3 and Wilderness 1")], [#text("Reaction")], [#text("React with a shot that slows or topples.")]),([#xref("s-19bb38a41f5a")[#text("The Land Keeps No Secrets")]], [#text("Wilderness 3")], [#text("Passive")], [#text("Find a visible hazard and help allies cross.")]),([#xref("s-5e383055f984")[#text("The Moment Foretold")]], [#text("Scholarship 3")], [#text("Reaction")], [#text("Warn an ally for two Boons to a roll.")]),([#xref("s-cbed67fdff45")[#text("The Orchard Wakes")]], [#text("Wilderness 3")], [#text("Main Action")], [#text("Pull and slow chosen foes with roots.")]),([#xref("s-a8c6927cd77c")[#text("The Shape of Escape")]], [#text("Scholarship 3")], [#text("Maneuver")], [#text("Slip through an open route as living clay.")]),([#xref("s-e8c8af8e3cfc")[#text("The Sky Comes Down")]], [#text("Storm 3")], [#text("Main Action")], [#text("Strike an area with lightning and wind.")]),([#xref("s-89671eca320c")[#text("The Tale Will Tell of You")]], [#text("Influence 3")], [#text("Reaction")], [#text("Let a fallen ally spend Grit immediately.")]),([#xref("s-39d15c1483ee")[#text("The Wind Makes Room")]], [#text("Storm 3 and Guard 1")], [#text("Maneuver")], [#text("Move chosen allies with a guiding gust.")]),([#xref("s-02ff63c13974")[#text("Traverse the Impossible")]], [#text("Athletics 3")], [#text("Main Action")], [#text("Cross a difficult gap with a long leap.")]),([#xref("s-9acbaf4c9364")[#text("Turn the Crowd")]], [#text("Influence 3")], [#text("Main Action")], [#text("Seek practical cooperation from an audience.")]),([#xref("s-93fd456073db")[#text("Wear the Great Beast")]], [#text("Wilderness 3")], [#text("Maneuver")], [#text("Become a powerful armored beast.")]),([#xref("s-a368e279a4af")[#text("Weight of Iron")]], [#text("Armor 3")], [#text("Reaction")], [#text("Resist being knocked prone.")]),([#xref("s-9bd00bfd1c15")[#text("When the Stars Look Back")]], [#text("Mind 3")], [#text("Main Action")], [#text("Overwhelm a mind with dazing terror.")]),([#xref("s-011c2bdf7ecc")[#text("Where Only Eagles Pass")]], [#text("Athletics 3")], [#text("Main Action")], [#text("Climb a sheer surface and carry a companion.")]),([#xref("s-54458d5c4852")[#text("White Heat")]], [#text("Flame 3")], [#text("Main Action")], [#text("Scorch a foe with intense lingering fire.")]),([#xref("s-99456e127b57")[#text("Wings over the Battle")]], [#text("Flame 3")], [#text("Maneuver")], [#text("Fly briefly across obstacles to a landing.")]),([#xref("s-915606737fd5")[#text("Winter Hold")]], [#text("Frost 3")], [#text("Main Action")], [#text("Freeze and potentially paralyze a foe.")]),([#xref("s-57b9fe6da75c")[#text("Write the Final Line")]], [#text("Arms 3")], [#text("Main Action")], [#text("Finish a studied melee strike with dazing force.")]),))
+#pagebreak(weak:true)
+#reading-columns(([#card(icons: [#discipline-mark("mind","2")#discipline-mark("guard","2")],"A Company of Reflections","7","Mind 2 and Guard 2","Main Action","None — no roll","Magic / Defense","8 DP","s-9385ed20c73c")[
 #emph[#text("You sweep your hand past your companions, leaving a wavering double beside each one. The doubles lean into the path of approaching blows.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8631,7 +7681,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("craft","3")#discipline-mark("marksmanship","1")],"A Marvel on Wheels","7","Craft 3 and Marksmanship 1","Main Action","Knowledge","Skill / Attack / Crafting","8 DP","s-fc91bae7e9ab")[
+],[#card(icons: [#discipline-mark("craft","3")#discipline-mark("marksmanship","1")],"A Marvel on Wheels","7","Craft 3 and Marksmanship 1","Main Action","Knowledge","Skill / Attack / Crafting","8 DP","s-fc91bae7e9ab")[
 #emph[#text("You set your folded contraption on the ground and pull its handle. Wheels snap outward, the launcher kicks, and its shot slams toward your target before the frame folds shut again.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8650,11 +7700,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("subterfuge","3")],"A Shadow at the Heart","7","Subterfuge 3","Main Action","Guile","Skill / Attack","8 DP","s-2c50955d2127")[
+],[#card(icons: [#discipline-mark("subterfuge","3")],"A Shadow at the Heart","7","Subterfuge 3","Main Action","Guile","Skill / Attack","8 DP","s-2c50955d2127")[
 #emph[#text("You step so close that your enemy’s certainty falters before your blade arrives.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8673,13 +7721,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("flame","3")],"A Splendid Mistake","7","Flame 3","Main Action","Guile","Magic / Attack","8 DP","s-ca1be516ae93")[
+],[#card(icons: [#discipline-mark("flame","3")],"A Splendid Mistake","7","Flame 3","Main Action","Guile","Magic / Attack","8 DP","s-ca1be516ae93")[
 #emph[#text("You cup a swelling ball of magic between your hands and hurl it away before it bursts. A final twist turns the blast into a rush of fire or branching lightning.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8700,11 +7746,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("Resolve the pushes in an order you choose. For a target in the center square, choose its push direction before moving it.")
 
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("flame","3")#discipline-mark("arms","1")],"A Sword Made of Dawn","7","Flame 3 and Arms 1","Main Action","Knowledge","Magic / Attack","8 DP","s-b0bce85feacc")[
+],[#card(icons: [#discipline-mark("flame","3")#discipline-mark("arms","1")],"A Sword Made of Dawn","7","Flame 3 and Arms 1","Main Action","Knowledge","Magic / Attack","8 DP","s-b0bce85feacc")[
 #emph[#text("You lift your weapon and feel a second, burning edge reach out from its tip.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8723,13 +7767,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("mind","2")#discipline-mark("storm","2")],"A Voice across the Valley","7","Mind 2 and Storm 2","Main Action","Reason","Magic / Utility","8 DP","s-3ee4159bbfff")[
+],[#card(icons: [#discipline-mark("mind","2")#discipline-mark("storm","2")],"A Voice across the Valley","7","Mind 2 and Storm 2","Main Action","Reason","Magic / Utility","8 DP","s-3ee4159bbfff")[
 #emph[#text("You whisper into the wind and wait for the familiar answer to find its way home.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8752,13 +7794,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" The exchange lasts at most one minute after contact.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Once per recipient per day. No mind reading or ability to command the listener.")
 
 ]
-#card(icons: [#discipline-mark("influence","3")],"All Voices as One","7","Influence 3","Main Action","None — no roll","Skill / Utility","8 DP","s-0e3d8ad2dfbd")[
+],[#card(icons: [#discipline-mark("influence","3")],"All Voices as One","7","Influence 3","Main Action","None — no roll","Skill / Utility","8 DP","s-0e3d8ad2dfbd")[
 #emph[#text("You call the moment, and your companions answer with a single rush of steel.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8768,13 +7808,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Each granted Basic Melee attack uses its attacker’s Brawn and Basic Melee outcomes; this card adds no separate roll beyond any roll it explicitly requires.")
 
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #text("")#strong[#text("Gear:")]#text(" Each attacking ally needs its own melee weapon. This card grants no equipment.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("subterfuge","3")],"An Impossible Theft","7","Subterfuge 3","Maneuver","Guile","Magic / Utility","8 DP","s-0e04794c53d2")[
+],[#card(icons: [#discipline-mark("subterfuge","3")],"An Impossible Theft","7","Subterfuge 3","Maneuver","Guile","Magic / Utility","8 DP","s-0e04794c53d2")[
 #emph[#text("You stretch a hand toward the prize; your shadow’s fingers arrive before yours.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8795,11 +7833,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("If it reaches you, catch it in a free hand. Otherwise leave it in the last square reached. This causes no impact damage.")
 
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("influence","3")],"Answer for What You Did","7","Influence 3","Main Action","Guile","Skill / Attack","8 DP","s-3dfa5567b60c")[
+],[#card(icons: [#discipline-mark("influence","3")],"Answer for What You Did","7","Influence 3","Main Action","Guile","Skill / Attack","8 DP","s-3dfa5567b60c")[
 #emph[#text("You tell your quarry why you came, then step in and strike to stop their retreat.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8818,13 +7854,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("subterfuge","3")],"Borrow the Shadow","7","Subterfuge 3","Reaction","None — no roll","Skill / Utility","8 DP","s-1b82cf6287ef")[
+],[#card(icons: [#discipline-mark("subterfuge","3")],"Borrow the Shadow","7","Subterfuge 3","Reaction","None — no roll","Skill / Utility","8 DP","s-1b82cf6287ef")[
 #emph[#text("You wait for someone to pass the concealment, then follow close behind their movement and slip into the hidden space they leave beside them.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8834,11 +7868,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Movement resolves immediately; Hidden follows its normal rules.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("subterfuge","3")#discipline-mark("influence","1")],"Borrowed Identity","7","Subterfuge 3 and Influence 1","Main Action","Guile","Skill","8 DP","s-6e3ab17356cb")[
+],[#card(icons: [#discipline-mark("subterfuge","3")#discipline-mark("influence","1")],"Borrowed Identity","7","Subterfuge 3 and Influence 1","Main Action","Guile","Skill","8 DP","s-6e3ab17356cb")[
 #emph[#text("You settle into another life until even the way you wait at a doorway belongs to someone else.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8861,11 +7893,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" The prepared identity lasts until abandoned or contradicted; resolve new consequential challenges separately.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("arms","3")],"Bow to the Balcony","7","Arms 3","Main Action","Guile","Skill / Attack","8 DP","s-51f7ce2cc800")[
+],[#card(icons: [#discipline-mark("arms","3")],"Bow to the Balcony","7","Arms 3","Main Action","Guile","Skill / Attack","8 DP","s-51f7ce2cc800")[
 #emph[#text("You finish the exchange with a sweeping bow, already slipping beyond their reach.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8884,13 +7914,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("arms","3")],"Break the Charge","7","Arms 3","Reaction","Fortitude","Skill / Attack","8 DP","s-8384b54259a9")[
+],[#card(icons: [#discipline-mark("arms","3")],"Break the Charge","7","Arms 3","Reaction","Fortitude","Skill / Attack","8 DP","s-8384b54259a9")[
 #emph[#text("You plant your feet as the enemy rushes in, then strike into their advance with enough force to send them stumbling back.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8909,13 +7937,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #text("")#strong[#text("Gear:")]#text(" Requires a melee weapon; gain one ordinary melee weapon, Bulk 1, on learning if absent.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","3")],"Carry Them to Shore","7","Wilderness 3","Main Action","None — no roll","Skill","8 DP","s-d71f33bfa8a5")[
+],[#card(icons: [#discipline-mark("wilderness","3")],"Carry Them to Shore","7","Wilderness 3","Main Action","None — no roll","Skill","8 DP","s-d71f33bfa8a5")[
 #emph[#text("You lock an arm around your companion and turn toward the bank with everything you have left.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8923,11 +7949,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("You need a free hand and must be physically able to support the target’s weight, as judged by the DA. Move yourself and the target up to your Speed through water, ending side by side in free squares. This movement does not provoke; the target needs no movement or Reaction. You must choose legal endpoints first and cannot pass solid obstacles.")
 
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("radiance","3")],"Carry the Sunrise","7","Radiance 3","Main Action","None — no roll","Magic","8 DP","s-b85d10a9d18f")[
+],[#card(icons: [#discipline-mark("radiance","3")],"Carry the Sunrise","7","Radiance 3","Main Action","None — no roll","Magic","8 DP","s-b85d10a9d18f")[
 #emph[#text("You raise the light and step forward, giving your companions something bright to follow.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8939,7 +7963,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("guard","3")],"Carry to Safety","7","Guard 3","Main Action","None — no roll","Skill","8 DP","s-2a9e0ff502b2")[
+],[#card(icons: [#discipline-mark("guard","3")],"Carry to Safety","7","Guard 3","Main Action","None — no roll","Skill","8 DP","s-2a9e0ff502b2")[
 #emph[#text("You take your friend’s weight and make their next few steps your responsibility.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8953,7 +7977,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("scholarship","3")#discipline-mark("mind","1")],"Cast through the Reflection","7","Scholarship 3 and Mind 1","Maneuver","None — no roll","Magic / Utility","8 DP","s-0cc1d3ab6da1")[
+],[#card(icons: [#discipline-mark("scholarship","3")#discipline-mark("mind","1")],"Cast through the Reflection","7","Scholarship 3 and Mind 1","Maneuver","None — no roll","Magic / Utility","8 DP","s-0cc1d3ab6da1")[
 #emph[#text("You turn your palm as though tilting a mirror. A wavering image of your casting hand appears across the room, pointing toward a new angle of attack.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8963,13 +7987,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Until used or the end of this turn.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Repeated uses do not multiply this card’s benefit on the same recipient or prepared attack. Pay a Maneuver for each use.")
 
 ]
-#card(icons: [#discipline-mark("scholarship","3")],"Checkmate in Three Steps","7","Scholarship 3","Main Action","Knowledge","Skill / Attack","8 DP","s-3116911dba83")[
+],[#card(icons: [#discipline-mark("scholarship","3")],"Checkmate in Three Steps","7","Scholarship 3","Main Action","Knowledge","Skill / Attack","8 DP","s-3116911dba83")[
 #emph[#text("You watch how your opponent recovers from each movement, step where their balance will be weakest, and strike as their foot begins to land.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -8988,11 +8010,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("mind","3")],"Dance beyond the Circle","7","Mind 3","Main Action","None — no roll","Magic","8 DP","s-cc828e18803e")[
+],[#card(icons: [#discipline-mark("mind","3")],"Dance beyond the Circle","7","Mind 3","Main Action","None — no roll","Magic","8 DP","s-cc828e18803e")[
 #emph[#text("You offer your companion a hand across the room; the world turns, and your places are exchanged.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9000,11 +8020,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Exchange their positions by teleportation. Both must be visible and each destination must fit its new occupant. No damage or attacks are granted; the movement does not provoke.")
 
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("craft","3")],"Enchanting Workshop","7","Craft 3","Main Action","Knowledge","Magic / Crafting / Utility","8 DP","s-618651fd79c9")[
+],[#card(icons: [#discipline-mark("craft","3")],"Enchanting Workshop","7","Craft 3","Main Action","Knowledge","Magic / Crafting / Utility","8 DP","s-618651fd79c9")[
 #emph[#text("You set your tools beside the impossible ingredient and begin the work that ordinary hands cannot finish.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9033,7 +8051,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("medicine","3")],"Fit a Replacement","7","Medicine 3","Main Action","Reason","Skill","8 DP","s-51be293568a2")[
+],[#card(icons: [#discipline-mark("medicine","3")],"Fit a Replacement","7","Medicine 3","Main Action","Reason","Skill","8 DP","s-51be293568a2")[
 #emph[#text("You adjust the last fastening and wait beside your patient as they try their weight again.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9056,17 +8074,15 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("storm","3")],"Forked Sky","7","Storm 3","Main Action","Knowledge","Magic / Attack","8 DP","s-9c0b99b4a582")[
+],[#card(icons: [#discipline-mark("storm","3")],"Forked Sky","7","Storm 3","Main Action","Knowledge","Magic / Attack","8 DP","s-9c0b99b4a582")[
 #emph[#text("You point at the creatures you have chosen. A bolt of lightning forks through the air and leaps between them.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" Up to three visible creatures within 6 squares")
 
-#text("For a player attack, work out each target’s net Boons or Banes. Make one attack roll using the combination least favorable to you and apply that result to every target. Affect the creatures specified under Target, including allies if the area includes them. When an NPC attacks, each affected player makes a separate defense roll. Proposed NPC defense attribute: Fortitude.")
+#text("Proposed NPC defense attribute: Fortitude.")
 
 #list(
 [#text("")#strong[#text("Weak:")]#text(" 4 lightning damage to each.")
@@ -9081,11 +8097,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("storm","2")#discipline-mark("athletics","2")],"Four Winds at Once","7","Storm 2 and Athletics 2","Main Action","Fortitude","Magic / Attack","8 DP","s-458bcf802246")[
+],[#card(icons: [#discipline-mark("storm","2")#discipline-mark("athletics","2")],"Four Winds at Once","7","Storm 2 and Athletics 2","Main Action","Fortitude","Magic / Attack","8 DP","s-458bcf802246")[
 #emph[#text("You turn on your heel, breathing out as the air whirls outward with you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9104,11 +8118,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","3")],"Guide the Crossing","7","Wilderness 3","Main Action","Reason","Skill","8 DP","s-c78c16c50ffc")[
+],[#card(icons: [#discipline-mark("wilderness","3")],"Guide the Crossing","7","Wilderness 3","Main Action","Reason","Skill","8 DP","s-c78c16c50ffc")[
 #emph[#text("You study the dangerous ground until a route appears in your mind, then turn to bring everyone through.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9131,11 +8143,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Progress persists on this route; the completed crossing covers the named hazard only.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("arms","3")],"Hurl Aside","7","Arms 3","Main Action","Brawn","Skill / Attack","8 DP","s-0f82c9c28574")[
+],[#card(icons: [#discipline-mark("arms","3")],"Hurl Aside","7","Arms 3","Main Action","Brawn","Skill / Attack","8 DP","s-0f82c9c28574")[
 #emph[#text("Lift, turn, and send them crashing through the battlefield.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9160,7 +8170,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("subterfuge","3")],"No Footfall at All","7","Subterfuge 3","Maneuver","None — no roll","Skill","8 DP","s-5b8e938de3f2")[
+],[#card(icons: [#discipline-mark("subterfuge","3")],"No Footfall at All","7","Subterfuge 3","Maneuver","None — no roll","Skill","8 DP","s-5b8e938de3f2")[
 #emph[#text("You place each foot as though the floor were listening for your name.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9172,13 +8182,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("radiance","3")],"Noonday Judgment","7","Radiance 3","Main Action","Reason","Magic / Attack","8 DP","s-4262992561c1")[
+],[#card(icons: [#discipline-mark("radiance","3")],"Noonday Judgment","7","Radiance 3","Main Action","Reason","Magic / Attack","8 DP","s-4262992561c1")[
 #emph[#text("You lift your hand, and a harsh brightness gathers over the place you have chosen.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" Every creature in a visible 3-by-3 area within 6 squares")
 
-#text("For a player attack, work out each target’s net Boons or Banes. Make one attack roll using the combination least favorable to you and apply that result to every target. Affect the creatures specified under Target, including allies if the area includes them. When an NPC attacks, each affected player makes a separate defense roll. Proposed NPC defense attribute: Agility.")
+#text("Proposed NPC defense attribute: Agility.")
 
 #list(
 [#text("")#strong[#text("Weak:")]#text(" 4 radiant damage.")
@@ -9193,11 +8203,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("life","3")#discipline-mark("medicine","1")],"Not Yet Your Name","7","Life 3 and Medicine 1","Reaction","None — no roll","Magic / Recovery","8 DP","s-851cab136089")[
+],[#card(icons: [#discipline-mark("life","3")#discipline-mark("medicine","1")],"Not Yet Your Name","7","Life 3 and Medicine 1","Reaction","None — no roll","Magic / Recovery","8 DP","s-851cab136089")[
 #emph[#text("You seize your friend’s hand and give a painful measure of your own strength to keep them here.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9205,11 +8213,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Pay 7 HP first, leaving yourself above 0; the payment bypasses resistance. With a free hand, restore 8 HP before Life resistance, minimum 1. The wound still occurs. This cannot reverse Last Words. The cost makes this urgent rescue different from an ordinary large heal.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [],"One More Dawn","7","None","Passive","None — no roll","Training / Passive","8 DP","s-aa153c2db017")[
+],[#card(icons: [],"One More Dawn","7","None","Passive","None — no roll","Training / Passive","8 DP","s-aa153c2db017")[
 #emph[#text("You remember why tomorrow matters and find a last reserve you did not know you carried.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9219,13 +8225,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Gain the Grit once on acquisition; this never replenishes spent Grit.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Purchase once.")
 
 ]
-#card(icons: [#discipline-mark("flame","3")],"Open the Furnace Door","7","Flame 3","Main Action","Guile","Magic / Attack","8 DP","s-471a4440c939")[
+],[#card(icons: [#discipline-mark("flame","3")],"Open the Furnace Door","7","Flame 3","Main Action","Guile","Magic / Attack","8 DP","s-471a4440c939")[
 #emph[#text("You pull an unseen latch, and heat rolls over your face like an opened forge.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9244,11 +8248,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("scholarship","3")],"Reconstruct the Event","7","Scholarship 3","Main Action","Reason","Skill","8 DP","s-0626f70d64d5")[
+],[#card(icons: [#discipline-mark("scholarship","3")],"Reconstruct the Event","7","Scholarship 3","Main Action","Reason","Skill","8 DP","s-0626f70d64d5")[
 #emph[#text("You walk the empty scene until its scattered traces become a sequence of human choices.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9271,11 +8273,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("life","3")],"Return to Strength","7","Life 3","Main Action","Reason","Magic / Recovery","8 DP","s-44cd265b06d4")[
+],[#card(icons: [#discipline-mark("life","3")],"Return to Strength","7","Life 3","Main Action","Reason","Magic / Recovery","8 DP","s-44cd265b06d4")[
 #emph[#text("You reach toward your injured companion and send a surge of warmth into their body. Their breathing strengthens as your own knees briefly weaken.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9296,19 +8296,15 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Offensive healing:")]#text(" this spell may target an unwilling") #text("creature harmed by healing. Resolve it as an attack using its printed attribute,") #text("range, action and HP cost; the HP result becomes Life damage, without beneficial") #text("recovery riders. This is the explicit exception to willing-only targeting above.") #text("Use the creature’s printed defense when a player defends; no opposed second roll.")
 
 ]
-#card(icons: [#discipline-mark("marksmanship","3")],"Sever the Pursuit","7","Marksmanship 3","Main Action","Agility","Skill / Attack","8 DP","s-5eb5e0b36f9f")[
+],[#card(icons: [#discipline-mark("marksmanship","3")],"Sever the Pursuit","7","Marksmanship 3","Main Action","Agility","Skill / Attack","8 DP","s-5eb5e0b36f9f")[
 #emph[#text("The pursuit falters as your shots bite into its leading ranks.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" Up to three visible creatures within 8 squares")
-
-#text("For a player attack, work out each target’s net Boons or Banes. Make one attack roll using the combination least favorable to you and apply that result to every target. Affect the creatures specified under Target, including allies if the area includes them. When an NPC attacks, each affected player makes a separate defense roll.")
 
 #list(
 [#text("")#strong[#text("Weak:")]#text(" 4 physical damage to each; Slowed 1.")
@@ -9327,7 +8323,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("mind","3")],"Still the Will","7","Mind 3","Main Action","Guile","Magic / Attack","8 DP","s-e9a3970c7f5a")[
+],[#card(icons: [#discipline-mark("mind","3")],"Still the Will","7","Mind 3","Main Action","Guile","Magic / Attack","8 DP","s-e9a3970c7f5a")[
 #emph[#text("You fix your attention on your enemy and tighten your outstretched fingers. Their movement falters as they struggle to turn thought into action.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9348,11 +8344,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("athletics","3")],"Stillness at the Center","7","Athletics 3","Main Action","Reason","Skill / Attack","8 DP","s-0cef8ad23763")[
+],[#card(icons: [#discipline-mark("athletics","3")],"Stillness at the Center","7","Athletics 3","Main Action","Reason","Skill / Attack","8 DP","s-0cef8ad23763")[
 #emph[#text("You become very quiet, then touch the point their balance cannot afford to lose.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9371,11 +8365,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("armor","3")],"Stride of the Giant","7","Armor 3","Main Action","Brawn","Magic / Attack","8 DP","s-b04105c60eb6")[
+],[#card(icons: [#discipline-mark("armor","3")],"Stride of the Giant","7","Armor 3","Main Action","Brawn","Magic / Attack","8 DP","s-b04105c60eb6")[
 #emph[#text("You stamp once, your shadow swelling across the feet gathered around you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9394,21 +8386,15 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("calling","3")],"Summon Animal — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-7ebb98971bf8")[
+],[#card(icons: [#discipline-mark("calling","3")],"Summon Animal — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-7ebb98971bf8")[
 #emph[#text("You whistle into the still air. An answering call comes closer, and the animal you called steps into the world beside you, waiting for your direction.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Animal summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Animal summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -9418,17 +8404,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("calling","3")],"Summon Construct — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-9179af4bede4")[
+],[#card(icons: [#discipline-mark("calling","3")],"Summon Construct — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-9179af4bede4")[
 #emph[#text("You sketch a frame in the air and close your hand. Interlocking pieces gather into the construct you called, its joints still until you direct it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Construct summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Construct summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -9438,17 +8420,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("calling","3")],"Summon Elemental — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-afed281ab3c0")[
+],[#card(icons: [#discipline-mark("calling","3")],"Summon Elemental — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-afed281ab3c0")[
 #emph[#text("You turn your palm and gather the elements into a whirling knot. It unfolds into the elemental you called, its substance shifting as it waits.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Elemental summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Elemental summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -9458,17 +8436,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("calling","3")],"Summon Fey — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-769489d90a89")[
+],[#card(icons: [#discipline-mark("calling","3")],"Summon Fey — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-769489d90a89")[
 #emph[#text("You trace an opening in the air. A scent of strange blossoms escapes before your chosen fey steps through and waits for your word.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Fey summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Fey summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -9478,17 +8452,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("calling","3")],"Summon Spirit — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-30ea6d18db33")[
+],[#card(icons: [#discipline-mark("calling","3")],"Summon Spirit — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-30ea6d18db33")[
 #emph[#text("You speak into the hush between breaths. A pale outline gathers beside you, taking the shape of the spirit you called.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Spirit summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Spirit summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -9498,17 +8468,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("calling","3")],"Summon Undead — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-7a270d71b6b4")[
+],[#card(icons: [#discipline-mark("calling","3")],"Summon Undead — Master","7","Calling 3","Main Action","None — no roll","Magic / Summoning","8 DP","s-7a270d71b6b4")[
 #emph[#text("You draw a cold breath and beckon. A shape assembles from spectral remains, settling into the form of the undead servant you called.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Target:")]#text(" One visible unoccupied placement within 3 squares, with enough legal space to fit the chosen creature’s entire footprint.")
 
-#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Undead summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Choose anew each casting; this card does not bind you to one species. Use that entry’s summon profile for HP, resistance, size, Speed, senses and permitted abilities. Creature appearance alone grants none of these capabilities.")
-
-#text("Immediately give the new summon one free Main command: it receives a Main Action and a Maneuver, with normal downward conversions. This counts as its one command on this turn. Further activity on later turns requires a paid command. ")#strong[#text("Without a command it does nothing:")]#text(" no movement, following, attacks, aid, lookout, alerts or new ability use. An old order grants no ongoing activity.")
-
-#text("The summon acts during your turn. It disappears immediately if it goes more than 6 squares from you, including through forced movement. It cannot summon other creatures or take independent Reactions. Apply ")#xref("s-6d4788c3f598")[#text("Command a Summon")]#text(" and the ")#xref("s-e8df3b6d78cc")[#text("summoning reference")]#text(".")
+#text("Choose one bestiary entry explicitly approved for ")#strong[#text("Undead summoning")]#text(" with a minimum summoning tier no higher than ")#strong[#text("7")]#text(". Summon one instance of that creature. Use its profile in ")#xref("s-e8df3b6d78cc")[#text("Summoned Companions")]#text(" and the shared summoning procedure.")
 
 #text("")#strong[#text("Duration:")]#text(" One scene; ends sooner if the summon reaches 0 HP or breaks its tether.")
 
@@ -9518,7 +8484,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" One creature per casting; no total summon cap. No earlier summon card required. Only explicitly eligible bestiary entries can be selected; ordinary monster statistics or encounter CV alone do not establish eligibility.")
 
 ]
-#card(icons: [#discipline-mark("influence","3")],"Terms before Swords","7","Influence 3","Main Action","Guile","Skill / Utility","8 DP","s-4504f0c673de")[
+],[#card(icons: [#discipline-mark("influence","3")],"Terms before Swords","7","Influence 3","Main Action","Guile","Skill / Utility","8 DP","s-4504f0c673de")[
 #emph[#text("You walk into the silence between two angry voices and give them a reason to wait.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9541,13 +8507,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" An agreed arrangement lasts for its stated terms; participants retain agency.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" No automatic truce, command or control of player characters.")
 
 ]
-#card(icons: [#discipline-mark("guard","3")],"The Circle Holds","7","Guard 3","Main Action","None — no roll","Magic","8 DP","s-3a9d939220fb")[
+],[#card(icons: [#discipline-mark("guard","3")],"The Circle Holds","7","Guard 3","Main Action","None — no roll","Magic","8 DP","s-3a9d939220fb")[
 #emph[#text("You trace the last arc and stand inside the promise you have made together.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9559,7 +8523,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("subterfuge","3")],"The City Opens Its Doors","7","Subterfuge 3","Main Action","Guile","Skill / Utility","8 DP","s-8a70a29a33a0")[
+],[#card(icons: [#discipline-mark("subterfuge","3")],"The City Opens Its Doors","7","Subterfuge 3","Main Action","Guile","Skill / Utility","8 DP","s-8a70a29a33a0")[
 #emph[#text("You follow a familiar sign to a side entrance, and someone inside recognizes how you knock.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9582,13 +8546,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned contacts persist; their circumstances may change.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Cannot invent a network in an empty ruin or repeatedly roll without pursuing a new lead.")
 
 ]
-#card(icons: [#discipline-mark("craft","3")#discipline-mark("medicine","1")],"The Cleverest Mixture","7","Craft 3 and Medicine 1","Maneuver","Knowledge","Skill / Crafting","8 DP","s-ae692ce84411")[
+],[#card(icons: [#discipline-mark("craft","3")#discipline-mark("medicine","1")],"The Cleverest Mixture","7","Craft 3 and Medicine 1","Maneuver","Knowledge","Skill / Crafting","8 DP","s-ae692ce84411")[
 #emph[#text("You shake the bottle once, judge the color, and offer it with the confidence of long practice.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9619,7 +8581,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("life","3")#discipline-mark("wilderness","1")],"The Grove Gives Back","7","Life 3 and Wilderness 1","Main Action","Reason","Magic / Recovery","8 DP","s-3a590a37bb9e")[
+],[#card(icons: [#discipline-mark("life","3")#discipline-mark("wilderness","1")],"The Grove Gives Back","7","Life 3 and Wilderness 1","Main Action","Reason","Magic / Recovery","8 DP","s-3a590a37bb9e")[
 #emph[#text("You open your hands to the circle, feeling your own warmth flow toward your friends.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9638,11 +8600,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("marksmanship","3")#discipline-mark("wilderness","1")],"The Hunt Ends Here","7","Marksmanship 3 and Wilderness 1","Reaction","Knowledge","Skill / Attack","8 DP","s-15951f157941")[
+],[#card(icons: [#discipline-mark("marksmanship","3")#discipline-mark("wilderness","1")],"The Hunt Ends Here","7","Marksmanship 3 and Wilderness 1","Reaction","Knowledge","Skill / Attack","8 DP","s-15951f157941")[
 #emph[#text("You have watched every feint. When they finally run, your shot is already waiting.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9661,13 +8621,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #text("")#strong[#text("Gear:")]#text(" Gain one ordinary ranged weapon and one d8 ammunition bundle if absent; each Bulk 1. Check ammunition after every attack.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","3")],"The Land Keeps No Secrets","7","Wilderness 3","Passive","None — no roll","Skill / Utility","8 DP","s-19bb38a41f5a")[
+],[#card(icons: [#discipline-mark("wilderness","3")],"The Land Keeps No Secrets","7","Wilderness 3","Passive","None — no roll","Skill / Utility","8 DP","s-19bb38a41f5a")[
 #emph[#text("You look from the broken ridge to the river and understand the journey waiting between them.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9679,13 +8637,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Until the identified hazard is passed or you abandon the route.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Reexamining the same hazard does not refresh an expended Boon. No routine travel roll is introduced.")
 
 ]
-#card(icons: [#discipline-mark("scholarship","3")],"The Moment Foretold","7","Scholarship 3","Reaction","None — no roll","Skill","8 DP","s-5e383055f984")[
+],[#card(icons: [#discipline-mark("scholarship","3")],"The Moment Foretold","7","Scholarship 3","Reaction","None — no roll","Skill","8 DP","s-5e383055f984")[
 #emph[#text("You recognize the instant from your dream and call the warning before it is too late.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9697,7 +8653,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","3")],"The Orchard Wakes","7","Wilderness 3","Main Action","Reason","Magic","8 DP","s-cbed67fdff45")[
+],[#card(icons: [#discipline-mark("wilderness","3")],"The Orchard Wakes","7","Wilderness 3","Main Action","Reason","Magic","8 DP","s-cbed67fdff45")[
 #emph[#text("You spread your arms, and the roots answer as if the whole orchard had stirred in its sleep.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9716,11 +8672,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("scholarship","3")],"The Shape of Escape","7","Scholarship 3","Maneuver","None — no roll","Magic / Movement / Utility","8 DP","s-a8c6927cd77c")[
+],[#card(icons: [#discipline-mark("scholarship","3")],"The Shape of Escape","7","Scholarship 3","Maneuver","None — no roll","Magic / Movement / Utility","8 DP","s-a8c6927cd77c")[
 #emph[#text("You soften into a ribbon of clay and feel the narrow opening slide around you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9728,11 +8682,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Become a ribbon of living clay and slip through a continuous open route to the destination. Carried equipment travels with you; reform immediately. This movement does not provoke. You cannot pass a sealed barrier, end inside an object, or remain amorphous for protection.")
 
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("storm","3")],"The Sky Comes Down","7","Storm 3","Main Action","Reason","Magic / Attack","8 DP","s-e8c8af8e3cfc")[
+],[#card(icons: [#discipline-mark("storm","3")],"The Sky Comes Down","7","Storm 3","Main Action","Reason","Magic / Attack","8 DP","s-e8c8af8e3cfc")[
 #emph[#text("You close your fist, and the air falls with the thunder.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9753,11 +8705,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("For a target standing in the center square, choose its push direction before resolving the displacement.")
 
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("influence","3")],"The Tale Will Tell of You","7","Influence 3","Reaction","None — no roll","Skill","8 DP","s-89671eca320c")[
+],[#card(icons: [#discipline-mark("influence","3")],"The Tale Will Tell of You","7","Influence 3","Reaction","None — no roll","Skill","8 DP","s-89671eca320c")[
 #emph[#text("You call your companion’s name with all the certainty of someone who has not finished their story.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9765,11 +8715,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Your voice reaches it through the noise. If it can hear, it may immediately spend one of its own Grit to regain full HP. The wound remains. Cannot interrupt Last Words; grants no Grit and cannot be used when none remains.")
 
-#text("")#strong[#text("Duration:")]#text(" Resolve once at the stated trigger; applied conditions follow normal decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("storm","3")#discipline-mark("guard","1")],"The Wind Makes Room","7","Storm 3 and Guard 1","Maneuver","None — no roll","Magic / Movement","8 DP","s-39d15c1483ee")[
+],[#card(icons: [#discipline-mark("storm","3")#discipline-mark("guard","1")],"The Wind Makes Room","7","Storm 3 and Guard 1","Maneuver","None — no roll","Magic / Movement","8 DP","s-39d15c1483ee")[
 #emph[#text("You spread your arms and send a low gust sweeping around your companions’ legs, lifting their steps over the rubble.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9779,13 +8727,11 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("")#strong[#text("Duration:")]#text(" Instant.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Limits:")]#text(" Each recipient moves once per use. A further use requires another Maneuver.")
 
 ]
-#card(icons: [#discipline-mark("athletics","3")],"Traverse the Impossible","7","Athletics 3","Main Action","Agility","Skill","8 DP","s-02ff63c13974")[
+],[#card(icons: [#discipline-mark("athletics","3")],"Traverse the Impossible","7","Athletics 3","Main Action","Agility","Skill","8 DP","s-02ff63c13974")[
 #emph[#text("You look across the empty space, breathe once, and trust the leap you have practiced all your life.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9806,11 +8752,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("influence","3")],"Turn the Crowd","7","Influence 3","Main Action","Guile","Skill","8 DP","s-9acbaf4c9364")[
+],[#card(icons: [#discipline-mark("influence","3")],"Turn the Crowd","7","Influence 3","Main Action","Guile","Skill","8 DP","s-9acbaf4c9364")[
 #emph[#text("You find the words people begin repeating to one another before you have finished speaking.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9833,11 +8777,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Information and earned progress persist for the stated task; completed changes remain until circumstances alter them.")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("wilderness","3")],"Wear the Great Beast","7","Wilderness 3","Maneuver","None — no roll","Magic","8 DP","s-93fd456073db")[
+],[#card(icons: [#discipline-mark("wilderness","3")],"Wear the Great Beast","7","Wilderness 3","Maneuver","None — no roll","Magic","8 DP","s-93fd456073db")[
 #emph[#text("You draw a deep breath as muscle and fur reshape your outline into something formidable.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9864,7 +8806,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("armor","3")],"Weight of Iron","7","Armor 3","Reaction","None — no roll","Skill","8 DP","s-a368e279a4af")[
+],[#card(icons: [#discipline-mark("armor","3")],"Weight of Iron","7","Armor 3","Reaction","None — no roll","Skill","8 DP","s-a368e279a4af")[
 #emph[#text("You feel the blow travel down through your armor and into the ground beneath your feet.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9878,7 +8820,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("mind","3")],"When the Stars Look Back","7","Mind 3","Main Action","Reason","Magic / Attack","8 DP","s-9bd00bfd1c15")[
+],[#card(icons: [#discipline-mark("mind","3")],"When the Stars Look Back","7","Mind 3","Main Action","Reason","Magic / Attack","8 DP","s-9bd00bfd1c15")[
 #emph[#text("You point toward your enemy and open a brief vision of the star-filled dark in their thoughts. They falter beneath the sense that something vast has noticed them.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9897,11 +8839,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("athletics","3")],"Where Only Eagles Pass","7","Athletics 3","Main Action","Brawn","Skill / Utility","8 DP","s-011c2bdf7ecc")[
+],[#card(icons: [#discipline-mark("athletics","3")],"Where Only Eagles Pass","7","Athletics 3","Main Action","Brawn","Skill / Utility","8 DP","s-011c2bdf7ecc")[
 #emph[#text("You put your hand against the sheer face and see a way upward that no roadmaker would dare name.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9928,7 +8868,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Limits:")]#text(" The companion ends in a separate safe square or remains carried outside combat; in combat choose legal separate endpoints before moving. Carrying requires a body and load the DA judges physically supportable.")
 
 ]
-#card(icons: [#discipline-mark("flame","3")],"White Heat","7","Flame 3","Main Action","Knowledge","Magic / Attack","8 DP","s-54458d5c4852")[
+],[#card(icons: [#discipline-mark("flame","3")],"White Heat","7","Flame 3","Main Action","Knowledge","Magic / Attack","8 DP","s-54458d5c4852")[
 #emph[#text("You draw a narrow line toward your enemy with one finger. White fire flashes around their body and leaves flames clinging where it passed.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9949,11 +8889,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("flame","3")],"Wings over the Battle","7","Flame 3","Maneuver","None — no roll","Magic","8 DP","s-99456e127b57")[
+],[#card(icons: [#discipline-mark("flame","3")],"Wings over the Battle","7","Flame 3","Maneuver","None — no roll","Magic","8 DP","s-99456e127b57")[
 #emph[#text("You spread sudden wings and feel the ground drop beneath your first sweeping beat.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9961,11 +8899,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Wings carry you up to 4 squares, over creatures and difficult ground, to a visible free supported square. You may cross a gap but cannot pass through barriers. This movement does not provoke; you must land immediately. No hovering or permanent flight.")
 
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("frost","3")],"Winter Hold","7","Frost 3","Main Action","Knowledge","Magic / Attack","8 DP","s-915606737fd5")[
+],[#card(icons: [#discipline-mark("frost","3")],"Winter Hold","7","Frost 3","Main Action","Knowledge","Magic / Attack","8 DP","s-915606737fd5")[
 #emph[#text("You close your hand slowly. Frost thickens around your enemy’s limbs as they struggle to keep moving.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -9986,11 +8922,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("")#strong[#text("Duration:")]#text(" Instant")
 
-#text("")#strong[#text("Gear:")]#text(" None.")
-
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-#card(icons: [#discipline-mark("arms","3")],"Write the Final Line","7","Arms 3","Main Action","Agility","Skill / Attack","8 DP","s-57b9fe6da75c")[
+],[#card(icons: [#discipline-mark("arms","3")],"Write the Final Line","7","Arms 3","Main Action","Agility","Skill / Attack","8 DP","s-57b9fe6da75c")[
 #emph[#text("You recognize the opening in your opponent’s recovery and drive a precise strike into it before they regain their balance.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
@@ -10009,82 +8943,47 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#text("")#strong[#text("Duration:")]#text(" Instant. Applied conditions follow their normal duration and decay.")
-
 #text("")#strong[#text("Gear:")]#text(" Use one ordinary melee weapon; gain one on learning this card if you do not own one. Bulk 1.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 ]
-]
+],))
 #chapter("10","Equipment and Recipes")
 #metadata("s-ea9ded1cf3c5")<s-ea9ded1cf3c5>
-#twocol[
-#text("A coil of rope is easy to overlook until someone is hanging above a ravine. Choose") #text("equipment for the journey you expect, leave room for what you might find, and know") #text("which hand will reach your potion when the fight goes badly.")
+#reading-columns(([#text("A coil of rope is easy to overlook until someone is hanging above a ravine. Choose") #text("equipment for the journey you expect, leave room for what you might find, and know") #text("which hand will reach your potion when the fight goes badly.")
 
-#heading(level: 3)[#text("Coins and trade")]
+],[#heading(level: 3)[#text("Coins and trade")]
 #text("HOL uses one currency: ")#strong[#text("coins")]#text(". A listed price buys the described ordinary item or") #text("full supply. Training, discipline ranks and signature access are purchased through") #text("character development, not coins. Owning armor does not teach you to use its gated") #text("capabilities.")
 
-#text("Useful intact gear sells for ")#strong[#text("half its listed value")]#text(", rounded down, or trades at") #text("")#strong[#text("full value")]#text(" with a willing trader. A 12-coin weapon sells for 6 or trades for") #text("12 coins of goods. Pay any shortfall in coins; excess trade value is not cash change.") #text("A merchant does not have unlimited stock or an obligation to buy everything you make.")
+],[#text("Useful intact gear sells for ")#strong[#text("half its listed value")]#text(", rounded down, or trades at") #text("")#strong[#text("full value")]#text(" with a willing trader. A 12-coin weapon sells for 6 or trades for") #text("12 coins of goods. Pay any shortfall in coins; excess trade value is not cash change.") #text("A merchant does not have unlimited stock or an obligation to buy everything you make.")
 
-#heading(level: 3)[#text("Bulk and hands")]
+],[#heading(level: 3)[#text("Bulk and hands")]
 #text("Record each carried item's ")#strong[#text("Bulk")]#text(". Most individual equipment entries and supply") #text("bundles use 1 Bulk; the entry tells you otherwise. A pack adds its own Bulk and does") #text("not erase its contents. Capacity is 10 + 3 × Brawn. Each Bulk above capacity reduces") #text("Speed by 1, to a minimum of 0.")
 
-#text("A single compatible weapon serves all the attacks that can use it. Ordinary weapon") #text("appearance changes no mechanics. A flaming melee weapon can add its printed fire") #text("effect to a compatible attack; it cannot become a ranged weapon simply because") #text("you chose a ranged card.")
+],[#text("A single compatible weapon serves all the attacks that can use it. Ordinary weapon") #text("appearance changes no mechanics. A flaming melee weapon can add its printed fire") #text("effect to a compatible attack; it cannot become a ranged weapon simply because") #text("you chose a ranged card.")
 
-#text("Track occupied hands. Healing requires a free hand. A bow, two-handed weapon, or") #text("weapon-and-shield combination leaves none. Drawing for an attack is part of that") #text("attack, dropping is free, and proper stowing or picking up costs a Maneuver. There") #text("is no automatic free grip-change exception.")
+],[#text("Track occupied hands. Healing requires a free hand. A bow, two-handed weapon, or") #text("weapon-and-shield combination leaves none. Drawing for an attack is part of that") #text("attack, dropping is free, and proper stowing or picking up costs a Maneuver. There") #text("is no automatic free grip-change exception.")
 
-#heading(level: 3)[#text("Inventory dice")]
+],[#heading(level: 3)[#text("Inventory dice")]
 #text("A supply bundle has an inventory die instead of a counted number of uses. After") #text("using it, roll that die. On a ")#strong[#text("1")]#text(", reduce it one step. On any other result it stays") #text("where it is. The use you just completed still works.")
 
-#text("")#strong[#text("d20 → d12 → d10 → d8 → d6 → d4 → out")]#text("")
+],[#text("")#strong[#text("d20 → d12 → d10 → d8 → d6 → d4 → out")]#text("")
 
-#text("Check at the interval printed on the supply: ammunition when used, food by its") #text("person-day rule, lighting by its hour, and so on. A d4 healing bottle has a one-in-four") #text("chance of becoming empty after each use. It is not a promise of four doses.")
+],[#text("Check at the interval printed on the supply: ammunition when used, food by its") #text("person-day rule, lighting by its hour, and so on. A d4 healing bottle has a one-in-four") #text("chance of becoming empty after each use. It is not a promise of four doses.")
 
-#note[
+],[#note[
 #text("")#strong[#text("Example — the last swallow.")]#text(" You drink a lesser healing bottle and restore its") #text("6 HP, reduced by Life resistance if applicable. Then roll its d4 inventory die.") #text("A 1 empties the bottle; you still received that healing. At full HP the bottle") #text("cannot heal beyond your maximum.")
 
 ]
-#text("Recipes raise an existing supply by their permitted number of steps, up to the") #text("recipe's cap. A store refill uses the listed policy. Do not turn unknown leftovers") #text("into additional full bottles by splitting them among containers.")
+],[#text("Recipes raise an existing supply by their permitted number of steps, up to the") #text("recipe's cap. A store refill uses the listed policy. Do not turn unknown leftovers") #text("into additional full bottles by splitting them among containers.")
 
-#heading(level: 3)[#text("Special equipment and understanding")]
+],[#heading(level: 3)[#text("Special equipment and understanding")]
 #text("A special item adds only the effects it prints: damage, resistance, an ability or") #text("another explicit benefit. Apply normal nonstacking rules to matching numerical") #text("bonuses. Different damage-type resistances can coexist; use the highest of each.")
 
-#text("The item states whether understanding is required. Identification abilities reveal") #text("different kinds of information. Knowing a recipe is a separate permission from") #text("knowing what an item does. The recipe section lists tools, materials, time and what") #text("the crafting result produces; none of those are supplied by the recipe's name alone.")
+],[#text("The item states whether understanding is required. Identification abilities reveal") #text("different kinds of information. Knowing a recipe is a separate permission from") #text("knowing what an item does. The recipe section lists tools, materials, time and what") #text("the crafting result produces; none of those are supplied by the recipe's name alone.")
 
-]
+],))
 #tail-art("equipment")
-#pagebreak(weak: true)
-#entry("Starting coins","s-1e0480a6a244")
-#text("")#strong[#text("Starting coins = 40 + ancestry + culture + background + class.")]#text("")
-
-#text("Add these once after completing level 1. This is a starting purse, not income each level. It does not use DP or attributes. Resolve card equipment grants before shopping; there is no coin reimbursement for a duplicate or declined grant.")
-
-#text("Contributions represent what the character brings on departure: savings, community support, prior work and preparation. They are not innate ancestry wealth, a moral ranking of cultures or a continuing class stipend. The largest ancestry difference is two coins. These allocations describe preparation, not biology.")
-
-
-#grid(columns: (2fr,1fr), gutter: 10pt, [#grid(columns:(1fr,1fr),gutter:10pt,[#heading(level: 3)[#text("Ancestry")]
-#rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-e8ca137eed99")[#text("Human")]],[#text("+1")],),([#xref("s-fc06a30fc7a2")[#text("Elf")]],[#text("+2")],),([#xref("s-3462876b97b5")[#text("Dwarf")]],[#text("+2")],),([#xref("s-25bc4473d928")[#text("Halfling")]],[#text("+0")],),), pad: 2pt, font-size: 8.7pt, widths: (1fr,27pt))
-
-#heading(level: 3)[#text("Class")]
-#rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-9c75309ecffd")[#text("Protector")]],[#text("+5")],),([#xref("s-4cf3da87b3fe")[#text("Blade")]],[#text("+4")],),([#xref("s-cb5021228f43")[#text("Arcanist")]],[#text("+6")],),([#xref("s-2ec72f4532a5")[#text("Shepherd")]],[#text("+3")],),([#xref("s-5f996d5a0ee9")[#text("Intellect")]],[#text("+8")],),([#xref("s-a06f8adb7ce7")[#text("Leader")]],[#text("+6")],),([#xref("s-6a13115a845b")[#text("Shadow")]],[#text("+3")],),([#xref("s-94403698c5ab")[#text("Unbalanced")]],[#text("+0")],),([#xref("s-fe83ef834cbc")[#text("Odd")]],[#text("+0")],),([#xref("s-2ad683228880")[#text("Warden")]],[#text("+2")],),), pad: 2pt, font-size: 8.7pt, widths: (1fr,27pt))
-
-],[#heading(level: 3)[#text("Culture")]
-#rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-127f953da4b7")[#text("Border Marches")]],[#text("+7")],),([#xref("s-be7fa1ecbef6")[#text("Cairn Communities")]],[#text("+5")],),([#xref("s-caa21ce3f778")[#text("Cloister Valleys")]],[#text("+5")],),([#xref("s-3a1e85f4b5df")[#text("Deep Halls")]],[#text("+7")],),([#xref("s-d937fe8c4da9")[#text("Ember Cities")]],[#text("+10")],),([#xref("s-acfa23352088")[#text("Forest Communities")]],[#text("+5")],),([#xref("s-a6e71f5f6d42")[#text("Free Harbors")]],[#text("+10")],),([#xref("s-316eb80e4804")[#text("Gathered Peoples")]],[#text("+7")],),([#xref("s-15d48ee7e5a3")[#text("Grass Sea Clans")]],[#text("+5")],),([#xref("s-0914c4d74846")[#text("Highland Holds")]],[#text("+7")],),([#xref("s-229dc05a61db")[#text("Island Kinships")]],[#text("+7")],),([#xref("s-7353482f4751")[#text("Learning Houses")]],[#text("+10")],),([#xref("s-c60affc74aac")[#text("Oasis Cities")]],[#text("+10")],),([#xref("s-580faec05381")[#text("Reed Villages")]],[#text("+5")],),([#xref("s-18f8da6ccca9")[#text("River Settlements")]],[#text("+7")],),([#xref("s-8d8c76172885")[#text("Terrace Towns")]],[#text("+5")],),([#xref("s-64536ad9ef2c")[#text("Traveling Companies")]],[#text("+7")],),([#xref("s-56fcfca4e0da")[#text("Walled Communities")]],[#text("+10")],),), pad: 2pt, font-size: 8.7pt, widths: (1fr,27pt))
-
-])#illustration("coin-purse",height:125pt)], [#heading(level: 3)[#text("Background")]
-#rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-b90394fd9a72")[#text("Apothecary’s Helper")]],[#text("+10")],),([#xref("s-b22ea03a6a6f")[#text("Bargain Keeper")]],[#text("+7")],),([#xref("s-7091aed288e8")[#text("Beast-Reared")]],[#text("+5")],),([#xref("s-872208e28686")[#text("Bone Tender")]],[#text("+5")],),([#xref("s-f929cff2cbe3")[#text("Bridge Worker")]],[#text("+7")],),([#xref("s-7984d2b1dc16")[#text("Burglar")]],[#text("+7")],),([#xref("s-b2b73ee08ff8")[#text("Confidence Artist")]],[#text("+7")],),([#xref("s-000117b6bc8f")[#text("Court Questioner")]],[#text("+10")],),([#xref("s-a312a6907a24")[#text("Dragon-Dreamer")]],[#text("+7")],),([#xref("s-90952aa5e9c2")[#text("Duelist’s Second")]],[#text("+7")],),([#xref("s-5b31ba339916")[#text("Grave Attendant")]],[#text("+5")],),([#xref("s-7aafc8f73712")[#text("Grove Tended")]],[#text("+5")],),([#xref("s-9b1d981dbf2d")[#text("Household Guard")]],[#text("+7")],),([#xref("s-5e0e84693b23")[#text("Itinerant Tinker")]],[#text("+7")],),([#xref("s-8639541ef870")[#text("Kennel Keeper")]],[#text("+7")],),([#xref("s-5cdcc612834b")[#text("Market Chemist")]],[#text("+10")],),([#xref("s-49616a099534")[#text("Messenger")]],[#text("+7")],),([#xref("s-725a611cc900")[#text("Monastery Runaway")]],[#text("+5")],),([#xref("s-60bc23cf9581")[#text("Oath Witness")]],[#text("+10")],),([#xref("s-d0d3a4d3abbf")[#text("Physician’s Student")]],[#text("+10")],),([#xref("s-757fd34b0bb1")[#text("Pit Fighter")]],[#text("+5")],),([#xref("s-cb0efb2d07cc")[#text("Poacher")]],[#text("+7")],),([#xref("s-acb3bd269c96")[#text("Reluctant Knife")]],[#text("+5")],),([#xref("s-f10b0de9740d")[#text("Shore Gatherer")]],[#text("+5")],),([#xref("s-17b8629ba48d")[#text("Stage Assistant")]],[#text("+7")],),([#xref("s-a0a16f981f7c")[#text("Star-Touched")]],[#text("+7")],),([#xref("s-46a389be0e62")[#text("Storm Survivor")]],[#text("+5")],),([#xref("s-bf8362262d71")[#text("Temple Attendant")]],[#text("+7")],),([#xref("s-7a65a53d413e")[#text("Traveling Player")]],[#text("+7")],),([#xref("s-174ecaa5c234")[#text("War Drummer")]],[#text("+7")],),([#xref("s-00aaf0d70989")[#text("Ward Scribe")]],[#text("+10")],),([#xref("s-316d900f9ca8")[#text("Weather Apprentice")]],[#text("+7")],),), pad: 2pt, font-size: 8.7pt, widths: (1fr,27pt))
-
-])
-#note[#heading(level: 3)[#text("Examples")]
-#text("All ")#strong[#text("23,040 ancestry/culture/background/class combinations")]#text(" fall between ")#strong[#text("50 and 70 coins")]#text(", before shopping. This enumerates coin contributions only; class attribute eligibility is still checked separately.")
-
-#text("Minimum: Halfling + Forest Communities + Grove Tended + Odd = 40 + 0 + 5 + 5 + 0 = ")#strong[#text("50")]#text(". Maximum: Elf + Learning Houses + Court Questioner + Intellect = 40 + 2 + 10 + 10 + 8 = ")#strong[#text("70")]#text(".")
-
-#text("At the low end, road essentials and a lesser potion cost 44 and leave 6. At the high end, the same basket leaves 26. The ")#xref("s-f49abc5a892e")[#text("market")]#text(" lists all prices; purchases still consume Bulk and obey hand/training requirements.")
-
-#text("The ")#text("six worked characters")#text(" now include purses and actual shopping ledgers. No one receives higher-level cards, extra DP or free potions.")
-
-]
 #pagebreak(weak: true)
 #entry("Coins and the ordinary market","s-f49abc5a892e")
 #heading(level: 3)[#text("What a coin buys")]
@@ -10149,15 +9048,16 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 )
 #text("A spell light can replace a purchased lighting supply if the group accepts its") #text("limitations. Sharing rope, light and camp tools is a choice, not a free group") #text("inventory. Card-granted items remain part of carried Bulk even though they cost") #text("no coins at creation.")
 
-#pagebreak(weak: true)
-#heading(level: 2,"Equipment entries")
-#twocol[
-#metadata("s-979ba41082c2")<s-979ba41082c2>
+#pagebreak(weak:true)
+#heading(level:2,"Equipment entries")
+#reading-columns(([#metadata("s-979ba41082c2")<s-979ba41082c2>
 #text("These entries describe the things you can carry, buy, find and use. Each gives its") #text("Bulk, price and any special requirements or effects. Record the actual item once in") #text("your inventory, even when several learned abilities use it. Buying equipment with") #text("coins does not buy training or a discipline rank.")
 
 #text("Ordinary weapon appearance is yours to describe; your attack card supplies its combat") #text("mechanics. Special equipment adds only the effects printed here. For consumables,") #text("record the current inventory die and check it after the stated use. Keep frequently") #text("used items and occupied hands visible on your character sheet.")
 
-#catalog-card("Ammunition Bundle","s-7c3f620c41a4", icons: [])[#emph[#text("You loosen the binding and feel the familiar shapes waiting for your hand.")]
+#text("Equipment grants no training or DP advancement. Use ordinary item-handling actions") #text("unless an ability says otherwise. An item may come from an explicit ability grant,") #text("a purchase or DA treasure; owning it supplies only its printed benefits. It does not") #text("also supply a crafting recipe.")
+
+],[#catalog-card("Ammunition Bundle","s-7c3f620c41a4", icons: [])[#emph[#text("You loosen the binding and feel the familiar shapes waiting for your hand.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10165,9 +9065,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 [#text("")#strong[#text("Requirements / supply:")]#text(" Inventory d8")
-
-],
-[#text("")#strong[#text("Acquisition:")]#text(" Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.")
 
 ],
 )
@@ -10176,61 +9073,51 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 9 coins.")
 
 ]
-#catalog-card("Book of Quiet Doors","s-fabe18f9a08f", icons: [])[#emph[#text("You turn the thin pages, following diagrams whose locks seem almost to breathe.")]
+],[#catalog-card("Book of Quiet Doors","s-fabe18f9a08f", icons: [])[#emph[#text("You turn the thin pages, following diagrams whose locks seem almost to breathe.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" Scholarship 1; identification required. ")#strong[#text("Action:")]#text(" Main Action; ten minutes of study.")
 
 #text("After studying for 10 minutes, gain 1 Boon to your next mundane lock attempt this scene. Further study before using it does not add another Boon from this item. Grants no lock-working permission.")
 
-#text("Apply this item’s printed benefit only; it grants no ability or action beyond what it states. No DP purchase; found or bought when the DA makes it available. No special recipe is supplied by owning it.")
-
 #text("")#strong[#text("Market price:")]#text(" 150 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#catalog-card("Chain Coil","s-c944a083152e", icons: [])[#emph[#text("You feed the links through your hands, listening for the clear ring of sound metal.")]
+],[#catalog-card("Chain Coil","s-c944a083152e", icons: [])[#emph[#text("You feed the links through your hands, listening for the clear ring of sound metal.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 12 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A practical portable coil for securing or hauling, with length agreed with the DA when bought. No infinite reach or automatic restraint.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Cincture of Might","s-f0f4afe9c11a", icons: [])[#emph[#text("You tighten the belt and feel the next burden settle more easily against your body.")]
+],[#catalog-card("Cincture of Might","s-f0f4afe9c11a", icons: [])[#emph[#text("You tighten the belt and feel the next burden settle more easily against your body.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" No discipline requirement; understanding not required. ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
 
 #text("Brawn +1 while worn. Does not stack with another positive Brawn item; does not change creation DP or class eligibility.")
 
-#text("Apply this item’s printed benefit only; it grants no ability or action beyond what it states. No DP purchase; found or bought when the DA makes it available. No special recipe is supplied by owning it.")
-
 #text("")#strong[#text("Market price:")]#text(" 500 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#catalog-card("Clearing Tonic Supply","s-b24b63a12d55", icons: [])[#emph[#text("You lift the bottle to the light and watch its sharp green tint settle.")]
+],[#catalog-card("Clearing Tonic Supply","s-b24b63a12d55", icons: [])[#emph[#text("You lift the bottle to the light and watch its sharp green tint settle.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 30 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A d4 Clearing Tonic supply. Requires The Cleverest Mixture to administer its printed effect. Owning the bottle grants no ability or recipe. No HP restoration is implied.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Climbing Fittings","s-988dba639bcc", icons: [])[#emph[#text("You lay out the hook, harness and iron fittings, testing each before trusting your weight to it.")]
+],[#catalog-card("Climbing Fittings","s-988dba639bcc", icons: [])[#emph[#text("You lay out the hook, harness and iron fittings, testing each before trusting your weight to it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 8 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Reusable harness, hook, hammer and anchors. Rope is separate. Enables plausible anchoring; no automatic climb, Boon or specialist permission. Abandoned fittings need replacement at a DA-quoted fraction of the kit price.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Craft Tools","s-14e7cb969276", icons: [])[#emph[#text("You unroll the worn cloth and set each trusted tool within reach.")]
+],[#catalog-card("Craft Tools","s-14e7cb969276", icons: [])[#emph[#text("You unroll the worn cloth and set each trusted tool within reach.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10240,48 +9127,39 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 [#text("")#strong[#text("Requirements / supply:")]#text(" Reusable")
 
 ],
-[#text("")#strong[#text("Acquisition:")]#text(" Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.")
-
-],
 )
 #text("Required for recipes that list them; no inventory die.")
 
 #text("")#strong[#text("Market price:")]#text(" 15 coins.")
 
 ]
-#catalog-card("Digging Tools","s-d774c4e02a23", icons: [])[#emph[#text("You plant the spade and turn the first heavy clod aside.")]
+],[#catalog-card("Digging Tools","s-d774c4e02a23", icons: [])[#emph[#text("You plant the spade and turn the first heavy clod aside.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 6 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Compact shovel and pick for ordinary digging. Time and feasibility depend on the material; no combat damage profile or tunneling magic.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Disguise Clothes","s-ac4ce4cfc558", icons: [])[#emph[#text("You exchange familiar colors for another trade’s working clothes and check the fit.")]
+],[#catalog-card("Disguise Clothes","s-ac4ce4cfc558", icons: [])[#emph[#text("You exchange familiar colors for another trade’s working clothes and check the fit.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 10 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("One plausible outfit for a declared mundane role. No automatic identity, credential or Boon; a special disguise ability still follows its card.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Ember Edge","s-11382cf1237f", icons: [])[#emph[#text("You lift the weapon and watch a red gleam travel along its working edge.")]
+],[#catalog-card("Ember Edge","s-11382cf1237f", icons: [])[#emph[#text("You lift the weapon and watch a red gleam travel along its working edge.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" Flame 1; understanding not required. ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
 
 #text("Adds 1 fire damage to attacks made with it. On Strong also applies Burning 1. Cannot apply to ranged attacks.")
 
-#text("Apply this item’s printed benefit only; it grants no ability or action beyond what it states. No DP purchase; found or bought when the DA makes it available. No special recipe is supplied by owning it.")
-
 #text("")#strong[#text("Market price:")]#text(" 400 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#catalog-card("Food Bundle","s-2512ec01815d", icons: [])[#emph[#text("You unwrap a little comfort from home and share the smell of a proper meal.")]
+],[#catalog-card("Food Bundle","s-2512ec01815d", icons: [])[#emph[#text("You unwrap a little comfort from home and share the smell of a proper meal.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10291,40 +9169,33 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 [#text("")#strong[#text("Requirements / supply:")]#text(" Inventory d8")
 
 ],
-[#text("")#strong[#text("Acquisition:")]#text(" Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.")
-
-],
 )
 #text("One supply check per person-day consumed. No exhaustion subsystem is implied.")
 
 #text("")#strong[#text("Market price:")]#text(" 9 coins.")
 
 ]
-#catalog-card("Glass of Fine Detail","s-4433f2b9aa57", icons: [])[#emph[#text("You bring the glass close, and the tiny imperfections become a landscape.")]
+],[#catalog-card("Glass of Fine Detail","s-4433f2b9aa57", icons: [])[#emph[#text("You bring the glass close, and the tiny imperfections become a landscape.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" No discipline requirement; understanding not required. ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
 
 #text("Gain 1 Boon to inspecting an accessible small object while holding the glass; not distant detection.")
 
-#text("Apply this item’s printed benefit only; it grants no ability or action beyond what it states. No DP purchase; found or bought when the DA makes it available. No special recipe is supplied by owning it.")
-
 #text("")#strong[#text("Market price:")]#text(" 100 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#catalog-card("Gravebound Brooch","s-25f3a835887d", icons: [])[#emph[#text("You fasten the cold brooch and feel its chill linger against your skin.")]
+],[#catalog-card("Gravebound Brooch","s-25f3a835887d", icons: [])[#emph[#text("You fasten the cold brooch and feel its chill linger against your skin.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" No discipline requirement; understanding not required. ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
 
 #text("Life resistance 1 while worn. Reduces both Life damage and Life healing; minimum 1 still applies.")
 
-#text("Apply this item’s printed benefit only; it grants no ability or action beyond what it states. No DP purchase; found or bought when the DA makes it available. No special recipe is supplied by owning it.")
-
 #text("")#strong[#text("Market price:")]#text(" 180 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#catalog-card("Greater Healing Bottle","s-24718f30576e", icons: [])[#emph[#text("You swallow the strong draught and feel warmth spread deep into the hurt.")]
+],[#catalog-card("Greater Healing Bottle","s-24718f30576e", icons: [])[#emph[#text("You swallow the strong draught and feel warmth spread deep into the hurt.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10332,9 +9203,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 [#text("")#strong[#text("Requirements / supply:")]#text(" Inventory d4")
-
-],
-[#text("")#strong[#text("Acquisition:")]#text(" Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.")
 
 ],
 )
@@ -10343,7 +9211,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 50 coins.")
 
 ]
-#catalog-card("Lesser Healing Bottle","s-04c9ce3dbd60", icons: [])[#emph[#text("You take a bitter mouthful and wait for the familiar warmth to follow.")]
+],[#catalog-card("Lesser Healing Bottle","s-04c9ce3dbd60", icons: [])[#emph[#text("You take a bitter mouthful and wait for the familiar warmth to follow.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10353,26 +9221,21 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 [#text("")#strong[#text("Requirements / supply:")]#text(" Inventory d4")
 
 ],
-[#text("")#strong[#text("Acquisition:")]#text(" Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.")
-
-],
 )
 #text("Use ")#xref("s-09b403375f97")[#text("Use a Healing Potion")]#text(": restore 6 HP before Life resistance, capped by missing HP. The giver needs a free hand and spends a Maneuver; another recipient spends a Reaction unless at 0 HP. Check the bottle’s inventory die after use; the final use still works.")
 
 #text("")#strong[#text("Market price:")]#text(" 20 coins.")
 
 ]
-#catalog-card("Lever and Wedges","s-2532d043387e", icons: [])[#emph[#text("You work the iron tip into the seam and tap a wedge into place.")]
+],[#catalog-card("Lever and Wedges","s-2532d043387e", icons: [])[#emph[#text("You work the iron tip into the seam and tap a wedge into place.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 5 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Reusable prying bar and wedges. Provides leverage where physically possible; no automatic Force progress or bonus.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Lighting Bundle","s-9dbbdc619f37", icons: [])[#emph[#text("You shelter the first small flame until it takes hold and pushes back the dark.")]
+],[#catalog-card("Lighting Bundle","s-9dbbdc619f37", icons: [])[#emph[#text("You shelter the first small flame until it takes hold and pushes back the dark.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10382,26 +9245,21 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 [#text("")#strong[#text("Requirements / supply:")]#text(" Inventory d6")
 
 ],
-[#text("")#strong[#text("Acquisition:")]#text(" Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.")
-
-],
 )
 #text("Proposed light radius: the bearer’s square and all squares within 3 squares. Lighting or extinguishing costs a Maneuver and requires a free hand; carrying a lit torch occupies that hand. One check per hour of use. Ordinary light reveals what could be seen, not Hidden targets automatically.")
 
 #text("")#strong[#text("Market price:")]#text(" 5 coins.")
 
 ]
-#catalog-card("Local Map","s-3628d79905d2", icons: [])[#emph[#text("You trace the road with a fingertip and compare the inked ridge to the skyline.")]
+],[#catalog-card("Local Map","s-3628d79905d2", icons: [])[#emph[#text("You trace the road with a fingertip and compare the inked ridge to the skyline.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 5 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A map and protective case. Contains the publicly known routes the seller actually knows; no secret discoveries or guaranteed accuracy.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Lock Tools","s-47f3d2782279", icons: [])[#emph[#text("You choose the slender piece that feels right for the work beneath your fingers.")]
+],[#catalog-card("Lock Tools","s-47f3d2782279", icons: [])[#emph[#text("You choose the slender piece that feels right for the work beneath your fingers.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10411,16 +9269,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 [#text("")#strong[#text("Requirements / supply:")]#text(" Reusable")
 
 ],
-[#text("")#strong[#text("Acquisition:")]#text(" Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.")
-
-],
 )
 #text("Required for fine mundane lock work; no inventory die.")
 
 #text("")#strong[#text("Market price:")]#text(" 20 coins.")
 
 ]
-#catalog-card("Material Bundle","s-7f03e2e13191", icons: [])[#emph[#text("You spread out your gathered materials, already imagining what your hands will make of them.")]
+],[#catalog-card("Material Bundle","s-7f03e2e13191", icons: [])[#emph[#text("You spread out your gathered materials, already imagining what your hands will make of them.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10428,9 +9283,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 [#text("")#strong[#text("Requirements / supply:")]#text(" Inventory d6")
-
-],
-[#text("")#strong[#text("Acquisition:")]#text(" Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.")
 
 ],
 )
@@ -10441,7 +9293,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("This 12-coin d6 price is for one named ordinary material type. Prepared healing ingredients cost 80 coins per d6 bundle instead; other rare materials require a DA quote. A cheap ordinary bundle cannot substitute for life salts or other specialist ingredients.")
 
 ]
-#catalog-card("Mixing Kit","s-b06011d0f4b2", icons: [])[#emph[#text("Stained spoons, a little mortar and bottles whose labels only you can read.")]
+],[#catalog-card("Mixing Kit","s-b06011d0f4b2", icons: [])[#emph[#text("Stained spoons, a little mortar and bottles whose labels only you can read.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Bulk:")]#text(" 1. ")#strong[#text("Use:")]#text(" Reusable tools for a recipe that names a mixing kit.") #text("No inventory die; ingredients and finished mixtures have their own supply dice.") #text("An ability that grants a missing kit supplies it on acquisition, not on every use.")
@@ -10449,17 +9301,15 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 20 coins.")
 
 ]
-#catalog-card("Musical Instrument","s-6b70fa2ab5ff", icons: [])[#emph[#text("You sound a familiar note and adjust the tuning until it settles.")]
+],[#catalog-card("Musical Instrument","s-6b70fa2ab5ff", icons: [])[#emph[#text("You sound a familiar note and adjust the tuning until it settles.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 12 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("One portable ordinary instrument chosen by the owner. Enables ordinary performance, not an ability grant or social bonus.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Ordinary Heavy Armor","s-b9784698d103", icons: [])[#emph[#text("You settle into its reassuring weight, each fastening bearing the marks of your care.")]
+],[#catalog-card("Ordinary Heavy Armor","s-b9784698d103", icons: [])[#emph[#text("You settle into its reassuring weight, each fastening bearing the marks of your care.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10469,16 +9319,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 [#text("")#strong[#text("Requirements / supply:")]#text(" Requires Wear Heavy Armor to benefit")
 
 ],
-[#text("")#strong[#text("Acquisition:")]#text(" Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.")
-
-],
 )
 #text("Appearance is chosen by owner. The training card grants physical resistance 3; no additional resistance from this item.")
 
 #text("")#strong[#text("Market price:")]#text(" 90 coins.")
 
 ]
-#catalog-card("Ordinary Medium Armor","s-0b2c1b395c96", icons: [])[#emph[#text("You brush a hand over the familiar surface and check the fit before setting out.")]
+],[#catalog-card("Ordinary Medium Armor","s-0b2c1b395c96", icons: [])[#emph[#text("You brush a hand over the familiar surface and check the fit before setting out.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10488,16 +9335,13 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 [#text("")#strong[#text("Requirements / supply:")]#text(" Requires Wear Medium Armor to benefit")
 
 ],
-[#text("")#strong[#text("Acquisition:")]#text(" Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.")
-
-],
 )
 #text("Appearance is chosen by owner. The training card grants physical resistance 2; no additional resistance from this item.")
 
 #text("")#strong[#text("Market price:")]#text(" 40 coins.")
 
 ]
-#catalog-card("Ordinary Melee Weapon","s-d69517655496", icons: [])[#emph[#text("You turn the weapon in your hand, remembering why you chose this shape to carry.")]
+],[#catalog-card("Ordinary Melee Weapon","s-d69517655496", icons: [])[#emph[#text("You turn the weapon in your hand, remembering why you chose this shape to carry.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10505,9 +9349,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 [#text("")#strong[#text("Requirements / supply:")]#text(" No DP; ordinary equipment")
-
-],
-[#text("")#strong[#text("Acquisition:")]#text(" Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.")
 
 ],
 )
@@ -10516,7 +9357,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 12 coins.")
 
 ]
-#catalog-card("Ordinary Ranged Weapon","s-973e5d9f8a2e", icons: [])[#emph[#text("You check your weapon with the familiar care that makes the first shot feel right.")]
+],[#catalog-card("Ordinary Ranged Weapon","s-973e5d9f8a2e", icons: [])[#emph[#text("You check your weapon with the familiar care that makes the first shot feel right.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10524,9 +9365,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 [#text("")#strong[#text("Requirements / supply:")]#text(" No DP; ordinary equipment")
-
-],
-[#text("")#strong[#text("Acquisition:")]#text(" Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.")
 
 ],
 )
@@ -10535,7 +9373,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 18 coins.")
 
 ]
-#catalog-card("Ordinary Shield","s-41ade2ef74b5", icons: [])[#emph[#text("You slip your arm into place and feel the worn grip fit your palm.")]
+],[#catalog-card("Ordinary Shield","s-41ade2ef74b5", icons: [])[#emph[#text("You slip your arm into place and feel the worn grip fit your palm.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10545,36 +9383,29 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 [#text("")#strong[#text("Requirements / supply:")]#text(" No DP; ordinary equipment")
 
 ],
-[#text("")#strong[#text("Acquisition:")]#text(" Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.")
-
-],
 )
 #text("A held shield enables universal Shield Block. Grants no automatic resistance or defense bonus without spending its Reaction.")
 
 #text("")#strong[#text("Market price:")]#text(" 10 coins.")
 
 ]
-#catalog-card("Padlock","s-2918d6eac54e", icons: [])[#emph[#text("The shackle closes with a solid click as you turn the small key.")]
+],[#catalog-card("Padlock","s-2918d6eac54e", icons: [])[#emph[#text("The shackle closes with a solid click as you turn the small key.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 5 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A mundane lock and key for a suitable closure. The DA sets any forced-entry or lock task from the situation; the price grants no universal difficulty.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Restraints","s-43bb20e70dde", icons: [])[#emph[#text("You check the key against the lock before closing the irons.")]
+],[#catalog-card("Restraints","s-43bb20e70dde", icons: [])[#emph[#text("You check the key against the lock before closing the irons.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 8 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Reusable manacles and key. Applying to an unwilling resisting target requires first securing them under the existing restraint rules; purchase grants no grapple or attack.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Rope Coil","s-3c95ee95bf9b", icons: [])[#emph[#text("You shake out a loop and test the fibers between your hands.")]
+],[#catalog-card("Rope Coil","s-3c95ee95bf9b", icons: [])[#emph[#text("You shake out a loop and test the fibers between your hands.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10584,66 +9415,53 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 [#text("")#strong[#text("Requirements / supply:")]#text(" Reusable")
 
 ],
-[#text("")#strong[#text("Acquisition:")]#text(" Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.")
-
-],
 )
 #text("An ordinary rope; DA judges plausible length/use from the description. Does not automatically grant climbing success.")
 
 #text("")#strong[#text("Market price:")]#text(" 5 coins.")
 
 ]
-#catalog-card("Signal Kit","s-137a6b65cf72", icons: [])[#emph[#text("You lift the whistle and angle the polished mirror toward the sun.")]
+],[#catalog-card("Signal Kit","s-137a6b65cf72", icons: [])[#emph[#text("You lift the whistle and angle the polished mirror toward the sun.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 4 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Whistle, small bell and ordinary signaling mirror. Works only where sound or reflected light can reach; no magical communication, special detection or bonus.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Sleeping Roll","s-c0088cf12189", icons: [])[#emph[#text("You unroll the blanket and tuck its worn edge beneath your head.")]
+],[#catalog-card("Sleeping Roll","s-c0088cf12189", icons: [])[#emph[#text("You unroll the blanket and tuck its worn edge beneath your head.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 4 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A bedroll, blanket and ground cloth for one sleeper. Ordinary comfort and protection from damp ground, not automatic protection from dangerous cold or a safe-place ruling.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Small Necessities","s-54a713e7fd20", icons: [])[#emph[#text("You unfold a cloth of useful odds and ends: thread, chalk, soap and a flint worn smooth by use.")]
+],[#catalog-card("Small Necessities","s-54a713e7fd20", icons: [])[#emph[#text("You unfold a cloth of useful odds and ends: thread, chalk, soap and a flint worn smooth by use.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 2 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Bundle of ordinary firestarting, cleaning, sewing and marking supplies. Inventory d6; check after a scene of substantial consumption, not after every strike of the flint. Supplies no lock tools, medicine, ammo, food or crafting recipe ingredients.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Small Tent","s-32c7fdd7c096", icons: [])[#emph[#text("You pull the canvas taut and listen as the rain begins to patter above it.")]
+],[#catalog-card("Small Tent","s-32c7fdd7c096", icons: [])[#emph[#text("You pull the canvas taut and listen as the rain begins to patter above it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 12 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Shelters two resting people from ordinary weather. Needs a suitable site and ten minutes to pitch or pack. No guarantee of safe rest or weather immunity.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Smoke Supply","s-f1e2e78dbb69", icons: [])[#emph[#text("You turn the stoppered flask carefully, watching the murky liquid cling to its sides.")]
+],[#catalog-card("Smoke Supply","s-f1e2e78dbb69", icons: [])[#emph[#text("You turn the stoppered flask carefully, watching the murky liquid cling to its sides.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 15 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A d4 Smoke Flask supply. Requires the Smoke in a Bottle ability to use its printed effect; buying this supply grants no crafting recipe or ability. Check its die after use.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Superior Healing Bottle","s-d4d89fd876a0", icons: [])[#emph[#text("You break the seal and drink, feeling the powerful draught answer the deepest ache.")]
+],[#catalog-card("Superior Healing Bottle","s-d4d89fd876a0", icons: [])[#emph[#text("You break the seal and drink, feeling the powerful draught answer the deepest ache.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10653,291 +9471,283 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 [#text("")#strong[#text("Requirements / supply:")]#text(" Inventory d4")
 
 ],
-[#text("")#strong[#text("Acquisition:")]#text(" Explicit ability grant, coins, or DA treasure; no automatic extra starting kit.")
-
-],
 )
 #text("Use ")#xref("s-09b403375f97")[#text("Use a Healing Potion")]#text(": restore 16 HP before Life resistance, capped by missing HP. The giver needs a free hand and spends a Maneuver; another recipient spends a Reaction unless at 0 HP. Check the bottle’s inventory die after use; the final use still works.")
 
 #text("")#strong[#text("Market price:")]#text(" 120 coins.")
 
 ]
-#catalog-card("Trade Sack","s-a499baf9b6ed", icons: [])[#emph[#text("You knot the mouth of the sack and test whether the load will hold.")]
+],[#catalog-card("Trade Sack","s-a499baf9b6ed", icons: [])[#emph[#text("You knot the mouth of the sack and test whether the load will hold.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 1 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Reusable sack, Bulk 1 in addition to contents. It provides no extra carrying capacity. Large collections of small valuables must be bundled and counted; no infinite coin pouch.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Travel Clothes","s-5ae233e27a7e", icons: [])[#emph[#text("You pull on well-mended clothes whose seams have learned your stride.")]
+],[#catalog-card("Travel Clothes","s-5ae233e27a7e", icons: [])[#emph[#text("You pull on well-mended clothes whose seams have learned your stride.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 4 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A durable outfit with boots and cloak. One ordinary worn outfit is descriptive and contributes 0 Bulk; a carried spare is Bulk 1. Proposed creation baseline: everyone already owns one plain outfit, with no coin credit for declining it. This is the only new free starting equipment here.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Travel Pack","s-d7e5ae8c8f0b", icons: [])[#emph[#text("You tighten the straps and tuck the loose ends away before shouldering the load.")]
+],[#catalog-card("Travel Pack","s-d7e5ae8c8f0b", icons: [])[#emph[#text("You tighten the straps and tuck the loose ends away before shouldering the load.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 3 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A reusable backpack or shoulder pack. Its own Bulk is 1, even when empty. Contents retain their full Bulk; it grants no capacity increase or concealed inventory slots.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Water Flask","s-6cc71ac4a31f", icons: [])[#emph[#text("You test the stopper, listening to the water shift inside.")]
+],[#catalog-card("Water Flask","s-6cc71ac4a31f", icons: [])[#emph[#text("You test the stopper, listening to the water shift inside.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 3 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Includes a filled reusable container and one person-day of drinking water. Count days when water matters; refill freely from an accessible safe source. No inventory die for water in this first. Empty container remains Bulk 1; no exhaustion or dehydration subsystem is added.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Weather Clothes","s-a17c58bce822", icons: [])[#emph[#text("You fasten the heavy outer layer against the weather.")]
+],[#catalog-card("Weather Clothes","s-a17c58bce822", icons: [])[#emph[#text("You fasten the heavy outer layer against the weather.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 10 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("A cold- or wet-weather outfit, specified when bought. Bulk 1 even when worn over ordinary clothes. Enables plausible travel in its intended weather; grants no resistance, immunity or automatic survival.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-#catalog-card("Winter Lining","s-5565a74959ac", icons: [])[#emph[#text("You draw the lining close and let its quiet warmth meet the bitter air.")]
+],[#catalog-card("Winter Lining","s-5565a74959ac", icons: [])[#emph[#text("You draw the lining close and let its quiet warmth meet the bitter air.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" No discipline requirement; understanding not required. ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
 
 #text("Grants cold resistance 1 while worn; highest matching resistance applies, cap 3. Does not grant armor training.")
 
-#text("Apply this item’s printed benefit only; it grants no ability or action beyond what it states. No DP purchase; found or bought when the DA makes it available. No special recipe is supplied by owning it.")
-
 #text("")#strong[#text("Market price:")]#text(" 180 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#catalog-card("Writing Kit","s-af6b73697bd9", icons: [])[#emph[#text("You open the wrap and smooth a clean page beside the ink.")]
+],[#catalog-card("Writing Kit","s-af6b73697bd9", icons: [])[#emph[#text("You open the wrap and smooth a clean page beside the ink.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 6 coins. ")#strong[#text("Bulk:")]#text(" 1.")
 
 #text("Ink, paper and pen as a d6 supply. Check once per substantial writing or mapping session, not each sentence. No automatic map accuracy or scholarly knowledge.")
 
-#text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
-
 ]
-]
-#pagebreak(weak: true)
-#heading(level: 2,"Recipes")
-#twocol[
-#metadata("s-f59a208297e9")<s-f59a208297e9>
+],))
+#pagebreak(weak:true)
+#heading(level:2,"Recipes")
+#reading-columns(([#metadata("s-f59a208297e9")<s-f59a208297e9>
 #text("A recipe is the knowledge of how to make a particular thing. It tells you which") #text("crafting ability permits the work, what tools and materials you need, how long an") #text("attempt takes, and what the result produces. Knowing a recipe does not supply its") #text("ingredients or grant the ability needed to use it.")
 
 #text("Read the entry before beginning. A project may accumulate progress toward a completion") #text("target; a supply recipe may instead raise an existing inventory die. Follow the printed") #text("outcomes and limits. Starting crafting abilities provide their stated recipe choices;") #text("you can learn further compatible recipes through the appropriate ability or discover") #text("them during play.")
 
-#catalog-card("Bound Torches","s-6d543ab33e6a", icons: [])[#emph[#text("You bind the dry fibers tightly, leaving a head that will take the flame evenly.")]
+#text("")#strong[#text("Granted by")]#text(" tells you how a recipe enters your repertoire. ")#strong[#text("Used with")]#text(" lists") #text("abilities that can carry out its work. Ordinary Recipe Study grants two compatible") #text("recipes, but you must already know an ability that can use them.")
+
+#text("For every recipe, roll the crafting ability’s printed attribute at the end of an") #text("attempt. Work alone; there is no group crafting. Accumulate project progress until") #text("you meet the completion target. For supplies, the first inventory step from empty") #text("creates d4; later steps are d6, d8, d10, d12 and d20, up to the recipe’s cap.") #text("Check any carried material supply after each attempt. You must actually obtain the") #text("ingredients; recipe knowledge supplies no free stock. Recipes remain known for reuse.") #text("The plants and mixtures here are fictional game ingredients.")
+
+],[#catalog-card("Bound Torches","s-6d543ab33e6a")[#emph[#text("You bind the dry fibers tightly, leaving a head that will take the flame evenly.")]
+
+#text("")#strong[#text("Granted by:")]#text(" One ordinary recipe choice from a crafting ability below, or Ordinary Recipe Study.")
+
+#text("")#strong[#text("Used with:")]#text(" ")#xref("s-55a747e1dcae")[#text("Trail Workshop")]#text(", ")#xref("s-c1806fb50c1b")[#text("Make Something Useful")]#text(", ")#xref("s-618651fd79c9")[#text("Enchanting Workshop")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#list(
-[#text("")#strong[#text("Permission:")]#text(" Trail Workshop, Make Something Useful or Enchanting Workshop; the recipe alone grants no crafting permission")
+#rule-table(2,([#text("Preparation")],[#text("Per attempt")],),(([#text("Tools")],[#text("Craft tools")],),([#text("Time")],[#text("One hour")],),), widths:(65pt,1fr))
 
-],
-[#text("")#strong[#text("Tools:")]#text(" Craft tools")
+#text("")#strong[#text("Materials")]#text("")
 
-],
-[#text("")#strong[#text("Materials per attempt:")]#text(" Suitable wood, fiber and fat, obtained in the scene or one compatible carried bundle use")
-
-],
-[#text("")#strong[#text("Time per attempt:")]#text(" One hour")
-
-],
-[#text("")#strong[#text("Result:")]#text(" Inventory supply, maximum d6")
-
-],
-)
-#text("Roll the crafting card’s attribute. Weak raises one matching supply by 1 inventory step; Standard by 2; Strong by 3, up to the printed cap. The first step from out creates d4; later steps are d6, d8, d10, d12, d20. Check carried material supply after the attempt. No group crafting.")
-
-]
-#catalog-card("Camp Shelter","s-b8a961647b93", icons: [])[#emph[#text("You test the woven roof with a handful of water and make room beneath it for tired friends.")]
+#text("Suitable wood, fiber and fat, obtained in the scene or one compatible carried bundle use.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Permission:")]#text(" ")#xref("s-b602f6e1a9f1")[#text("A Roof before Nightfall")]#text(".") #text("")#strong[#text("Tools:")]#text(" Craft tools. ")#strong[#text("Time per attempt:")]#text(" One hour.") #text("")#strong[#text("Materials per attempt:")]#text(" Suitable supports and weatherproof covering, gathered locally or one compatible carried material-bundle use.") #text("")#strong[#text("Completion target:")]#text(" 4 progress.")
+#text("")#strong[#text("Work and completion")]#text("")
 
-#text("Roll Knowledge using the crafting card's outcomes. Add 1/2/3 progress. Inspect materials before consuming them; reject unsuitable materials without consuming the rejected portion. Check any used carried material supply after the attempt. No group crafting.")
-
-#text("On completion, the shelter accommodates the crafter and up to six companions against ordinary rain and wind. It provides no fortification or protection against extreme weather. If the completing result is Strong, it can be packed in ten minutes into one Bulk 1 bundle and erected again in one hour without a new crafting roll or new materials, while intact. Otherwise it must be rebuilt when dismantled. The DA states visible material and site limitations before the attempt.")
-
-#text("The shelter lasts until dismantled or damaged. The recipe is granted by its crafting card and may also be learned through Ordinary Recipe Study if already compatible; recipe knowledge grants no tools, ingredients or crafting permission.")
+#text("Weak / Standard / Strong: raise one matching supply by ")#strong[#text("1 / 2 / 3 inventory steps")]#text(", to a maximum of ")#strong[#text("d6")]#text(". The finished ")#xref("s-9dbbdc619f37")[#text("supply")]#text(" is Bulk 1.")
 
 ]
-#catalog-card("Clearing Tonic","s-8a9c69fe8bf8", icons: [])[#emph[#text("You crush the sharp-smelling leaves and strain the mixture until it runs clear.")]
+],[#catalog-card("Camp Shelter","s-b8a961647b93")[#emph[#text("You test the woven roof with a handful of water and make room beneath it for tired friends.")]
+
+#text("")#strong[#text("Granted by:")]#text(" ")#xref("s-b602f6e1a9f1")[#text("A Roof before Nightfall")]#text(" on learning; also Ordinary Recipe Study when compatible.")
+
+#text("")#strong[#text("Used with:")]#text(" ")#xref("s-b602f6e1a9f1")[#text("A Roof before Nightfall")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("")#strong[#text("Recipe permission:")]#text(" ")#xref("s-ae692ce84411")[#text("The Cleverest Mixture")]#text(".") #text("")#strong[#text("Tools:")]#text(" Mixing kit. ")#strong[#text("Time:")]#text(" One hour per attempt.") #text("")#strong[#text("Materials:")]#text(" Bitter starleaf, clean water and a filtering cloth; one compatible material-bundle use per attempt if carried.")
+#rule-table(2,([#text("Preparation")],[#text("Per attempt")],),(([#text("Tools")],[#text("Craft tools")],),([#text("Time")],[#text("One hour")],),), widths:(65pt,1fr))
 
-#text("Roll the crafting card’s attribute. Weak/Standard/Strong raises one bundle by 1/2/3 inventory steps, from out to d4 first, maximum d4. Check material supply after the attempt. No group crafting. Ingredients must actually be acquired.")
+#text("")#strong[#text("Materials")]#text("")
 
-#text("Tonic supply for The Cleverest Mixture; restores no HP.")
-
-#text("Each finished bundle/bottle is Bulk 1. Recipe knowledge creates no free stock. This is an ordinary recipe; the plants and salts are fictional ingredients, not real preparation instructions.")
-
-]
-#catalog-card("Fletched Ammunition","s-befbcf7e459d", icons: [])[#emph[#text("You smooth each feather into place and sight down the finished shaft.")]
+#text("Suitable supports and weatherproof covering, gathered locally or one compatible carried material-bundle use.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#list(
-[#text("")#strong[#text("Permission:")]#text(" Trail Workshop, Make Something Useful or Enchanting Workshop; the recipe alone grants no crafting permission")
+#text("")#strong[#text("Work and completion")]#text("")
 
-],
-[#text("")#strong[#text("Tools:")]#text(" Craft tools")
+#text("Weak / Standard / Strong: add ")#strong[#text("1 / 2 / 3 progress")]#text(" toward ")#strong[#text("target 4")]#text(". Reject unsuitable materials before consuming them.")
 
-],
-[#text("")#strong[#text("Materials per attempt:")]#text(" Suitable wood, feathers and binding, obtained in the scene or one compatible carried bundle use")
+#text("On completion, shelter yourself and up to ")#strong[#text("six companions")]#text(" from ordinary rain and wind. This is not fortification or protection against extreme weather. The DA states visible material and site limits before work begins.")
 
-],
-[#text("")#strong[#text("Time per attempt:")]#text(" One hour")
-
-],
-[#text("")#strong[#text("Result:")]#text(" Inventory supply, maximum d8")
-
-],
-)
-#text("Roll the crafting card’s attribute. Weak raises one matching supply by 1 inventory step; Standard by 2; Strong by 3, up to the printed cap. The first step from out creates d4; later steps are d6, d8, d10, d12, d20. Check carried material supply after the attempt. No group crafting.")
+#text("")#strong[#text("Strong completion:")]#text(" pack the intact shelter in ten minutes into one Bulk 1 bundle; erect it in one hour without another roll or materials. Otherwise, dismantling requires rebuilding. The shelter lasts until dismantled or damaged.")
 
 ]
-#catalog-card("Lesser Healing Bottle","s-abd26dc48e7d", icons: [])[#emph[#text("You keep the mixture at a patient simmer, watching for the color your teacher showed you.")]
+],[#catalog-card("Clearing Tonic","s-8a9c69fe8bf8")[#emph[#text("You crush the sharp-smelling leaves and strain the mixture until it runs clear.")]
+
+#text("")#strong[#text("Granted by:")]#text(" ")#xref("s-ae692ce84411")[#text("The Cleverest Mixture")]#text(" on learning; also Ordinary Recipe Study when compatible.")
+
+#text("")#strong[#text("Used with:")]#text(" ")#xref("s-ae692ce84411")[#text("The Cleverest Mixture")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("The useful bottle is the one you prepared before you needed it.")
+#rule-table(2,([#text("Preparation")],[#text("Per attempt")],),(([#text("Tools")],[#text("Mixing kit")],),([#text("Time")],[#text("One hour")],),), widths:(65pt,1fr))
 
-#text("")#strong[#text("Recipe permission:")]#text(" ")#xref("s-b10920431af0")[#text("Bottled Morning")]#text(".") #text("")#strong[#text("Tools:")]#text(" Mixing kit. ")#strong[#text("Time:")]#text(" One hour per attempt.") #text("")#strong[#text("Materials:")]#text(" Fresh moonmint, clean water and one measure of prepared life salts; one compatible material-bundle use per attempt if carried.")
+#text("")#strong[#text("Materials")]#text("")
 
-#text("Roll the crafting card’s attribute. Weak/Standard/Strong raises one bundle by 1/2/3 inventory steps, from out to d4 first, maximum d4. Check material supply after the attempt. No group crafting. Ingredients must actually be acquired.")
-
-#text("A Lesser Healing Bottle restoring 6 HP before Life resistance. Use the universal potion action.")
-
-#text("Each finished bundle/bottle is Bulk 1. Recipe knowledge creates no free stock. This is an ordinary recipe; the plants and salts are fictional ingredients, not real preparation instructions.")
-
-]
-#catalog-card("Simple Replacement Leg","s-ee6646e5ff37", icons: [])[#emph[#text("You shape and fit the pieces around the person who will have to trust their weight to them.")]
+#text("Bitter starleaf, clean water and a filtering cloth; one compatible material-bundle use per attempt if carried.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#list(
-[#text("")#strong[#text("Permission:")]#text(" Trail Workshop, Make Something Useful or Enchanting Workshop; the recipe alone grants no crafting permission")
+#text("")#strong[#text("Work and completion")]#text("")
 
-],
-[#text("")#strong[#text("Tools:")]#text(" Craft tools")
+#text("Weak / Standard / Strong: raise one matching supply by ")#strong[#text("1 / 2 / 3 inventory steps")]#text(", to a maximum of ")#strong[#text("d4")]#text(". Finished bottle: ")#strong[#text("Bulk 1")]#text(".")
 
-],
-[#text("")#strong[#text("Materials per attempt:")]#text(" Suitable wood, leather straps and padding, obtained in the scene or one compatible carried bundle use")
-
-],
-[#text("")#strong[#text("Time per attempt:")]#text(" One hour")
-
-],
-[#text("")#strong[#text("Result:")]#text(" Permanent prosthesis, target 8")
-
-],
-)
-#text("Roll the crafting card’s attribute. Weak adds 1 progress; Standard 2; Strong 3. Accumulate progress until the printed target is met, then receive one finished product. Check carried material supply after each attempt. No group crafting.")
-
-#text("Requires Fit a Replacement before relieving any wound effect; the wound must permit replacement. This recipe can be one of the two ordinary choices granted by Trail Workshop or Ordinary Recipe Study. It is reusable and does not grant free ingredients.")
+#text("Supplies the condition relief of ")#xref("s-ae692ce84411")[#text("The Cleverest Mixture")]#text("; restores no HP.")
 
 ]
-#catalog-card("Smoke Flask","s-01f97f094075", icons: [])[#emph[#text("You seal the cloudy mixture quickly, before the first acrid curl reaches your eyes.")]
+],[#catalog-card("Fletched Ammunition","s-befbcf7e459d")[#emph[#text("You smooth each feather into place and sight down the finished shaft.")]
+
+#text("")#strong[#text("Granted by:")]#text(" One ordinary recipe choice from a crafting ability below, or Ordinary Recipe Study.")
+
+#text("")#strong[#text("Used with:")]#text(" ")#xref("s-55a747e1dcae")[#text("Trail Workshop")]#text(", ")#xref("s-c1806fb50c1b")[#text("Make Something Useful")]#text(", ")#xref("s-618651fd79c9")[#text("Enchanting Workshop")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#text("The useful bottle is the one you prepared before you needed it.")
+#rule-table(2,([#text("Preparation")],[#text("Per attempt")],),(([#text("Tools")],[#text("Craft tools")],),([#text("Time")],[#text("One hour")],),), widths:(65pt,1fr))
 
-#text("")#strong[#text("Recipe permission:")]#text(" ")#xref("s-2cfa9459da40")[#text("Smoke in a Bottle")]#text(".") #text("")#strong[#text("Tools:")]#text(" Mixing kit. ")#strong[#text("Time:")]#text(" One hour per attempt.") #text("")#strong[#text("Materials:")]#text(" Dry puffleaf, prepared mineral dust and a stoppered bottle; one compatible material-bundle use per attempt if carried.")
+#text("")#strong[#text("Materials")]#text("")
 
-#text("Roll the crafting card’s attribute. Weak/Standard/Strong raises one bundle by 1/2/3 inventory steps, from out to d4 first, maximum d6. Check material supply after the attempt. No group crafting. Ingredients must actually be acquired.")
-
-#text("Smoke supply for Smoke in a Bottle; no damage or poison.")
-
-#text("Each finished bundle/bottle is Bulk 1. Recipe knowledge creates no free stock. This is an ordinary recipe; the plants and salts are fictional ingredients, not real preparation instructions.")
-
-]
-#catalog-card("Travel Food","s-bb64b6e91f76", icons: [])[#emph[#text("You salt, wrap and dry the ingredients, packing a little hospitality for the road.")]
+#text("Suitable wood, feathers and binding, obtained in the scene or one compatible carried bundle use.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#list(
-[#text("")#strong[#text("Permission:")]#text(" Trail Workshop, Make Something Useful, Enchanting Workshop, or a mixing card that explicitly grants this recipe; the recipe alone grants no crafting permission")
+#text("")#strong[#text("Work and completion")]#text("")
 
-],
-[#text("")#strong[#text("Tools:")]#text(" Craft tools or the granting card’s mixing kit")
-
-],
-[#text("")#strong[#text("Materials per attempt:")]#text(" Safe edible forage, obtained in the scene or one compatible carried bundle use")
-
-],
-[#text("")#strong[#text("Time per attempt:")]#text(" One hour")
-
-],
-[#text("")#strong[#text("Result:")]#text(" Inventory supply, maximum d8")
-
-],
-)
-#text("Roll the crafting card’s attribute. Weak raises one matching supply by 1 inventory step; Standard by 2; Strong by 3, up to the printed cap. The first step from out creates d4; later steps are d6, d8, d10, d12, d20. Check carried material supply after the attempt. No group crafting.")
+#text("Weak / Standard / Strong: raise one matching supply by ")#strong[#text("1 / 2 / 3 inventory steps")]#text(", to a maximum of ")#strong[#text("d8")]#text(". The finished ")#xref("s-7c3f620c41a4")[#text("supply")]#text(" is Bulk 1.")
 
 ]
-#catalog-card("Twisted Cord","s-41812d3c9ff9", icons: [])[#emph[#text("You roll the fibers together until many small strands become something worth trusting.")]
+],[#catalog-card("Lesser Healing Bottle","s-abd26dc48e7d")[#emph[#text("You keep the mixture at a patient simmer, watching for the color your teacher showed you.")]
+
+#text("")#strong[#text("Granted by:")]#text(" ")#xref("s-b10920431af0")[#text("Bottled Morning")]#text(" on learning; also Ordinary Recipe Study when compatible.")
+
+#text("")#strong[#text("Used with:")]#text(" ")#xref("s-b10920431af0")[#text("Bottled Morning")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#list(
-[#text("")#strong[#text("Permission:")]#text(" Trail Workshop, Make Something Useful or Enchanting Workshop; the recipe alone grants no crafting permission")
+#rule-table(2,([#text("Preparation")],[#text("Per attempt")],),(([#text("Tools")],[#text("Mixing kit")],),([#text("Time")],[#text("One hour")],),), widths:(65pt,1fr))
 
-],
-[#text("")#strong[#text("Tools:")]#text(" Craft tools")
+#text("")#strong[#text("Materials")]#text("")
 
-],
-[#text("")#strong[#text("Materials per attempt:")]#text(" Suitable long fibers, obtained in the scene or one compatible carried bundle use")
-
-],
-[#text("")#strong[#text("Time per attempt:")]#text(" One hour")
-
-],
-[#text("")#strong[#text("Result:")]#text(" Permanent item, target 4")
-
-],
-)
-#text("Roll the crafting card’s attribute. Weak adds 1 progress; Standard 2; Strong 3. Accumulate progress until the printed target is met, then receive one finished product. Check carried material supply after each attempt. No group crafting.")
-
-]
-#catalog-card("Wooden Brace","s-cd8056938705", icons: [])[#emph[#text("You trim the supports until they meet snugly, then bind the join against its load.")]
+#text("Fresh moonmint, clean water and one measure of prepared life salts; one compatible material-bundle use per attempt if carried.")
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
-#list(
-[#text("")#strong[#text("Permission:")]#text(" Trail Workshop, Make Something Useful or Enchanting Workshop; the recipe alone grants no crafting permission")
+#text("")#strong[#text("Work and completion")]#text("")
 
-],
-[#text("")#strong[#text("Tools:")]#text(" Craft tools")
+#text("Weak / Standard / Strong: raise one matching supply by ")#strong[#text("1 / 2 / 3 inventory steps")]#text(", to a maximum of ")#strong[#text("d4")]#text(". Finished bottle: ")#strong[#text("Bulk 1")]#text(".")
 
-],
-[#text("")#strong[#text("Materials per attempt:")]#text(" Suitable wood and bindings, obtained in the scene or one compatible carried bundle use")
-
-],
-[#text("")#strong[#text("Time per attempt:")]#text(" One hour")
-
-],
-[#text("")#strong[#text("Result:")]#text(" Permanent ordinary repair aid, target 4")
-
-],
-)
-#text("Roll the crafting card’s attribute. Weak adds 1 progress; Standard 2; Strong 3. Accumulate progress until the printed target is met, then receive one finished product. Check carried material supply after each attempt. No group crafting.")
-
-#text("The product is one ordinary support brace, Bulk 1, not a second tools grant. This recipe can be one of the two ordinary choices granted by Trail Workshop or Ordinary Recipe Study. It is reusable and does not grant free ingredients.")
+#text("Restores ")#strong[#text("6 HP")]#text(" before Life resistance when used with ")#xref("s-09b403375f97")[#text("Use a Healing Potion")]#text(".")
 
 ]
+],[#catalog-card("Simple Replacement Leg","s-ee6646e5ff37")[#emph[#text("You shape and fit the pieces around the person who will have to trust their weight to them.")]
+
+#text("")#strong[#text("Granted by:")]#text(" One ordinary recipe choice from a crafting ability below, or Ordinary Recipe Study.")
+
+#text("")#strong[#text("Used with:")]#text(" ")#xref("s-55a747e1dcae")[#text("Trail Workshop")]#text(", ")#xref("s-c1806fb50c1b")[#text("Make Something Useful")]#text(", ")#xref("s-618651fd79c9")[#text("Enchanting Workshop")]
+
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#rule-table(2,([#text("Preparation")],[#text("Per attempt")],),(([#text("Tools")],[#text("Craft tools")],),([#text("Time")],[#text("One hour")],),), widths:(65pt,1fr))
+
+#text("")#strong[#text("Materials")]#text("")
+
+#text("Suitable wood, leather straps and padding, obtained in the scene or one compatible carried bundle use.")
+
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Work and completion")]#text("")
+
+#text("Weak / Standard / Strong: add ")#strong[#text("1 / 2 / 3 progress")]#text(" toward ")#strong[#text("target 8")]#text(". On completion, receive one correctly sized prosthetic leg. The recipient still needs ")#xref("s-51be293568a2")[#text("Fit a Replacement")]#text(" before any eligible wound penalty is relieved. The wound must allow replacement.")
+
 ]
+],[#catalog-card("Smoke Flask","s-01f97f094075")[#emph[#text("You seal the cloudy mixture quickly, before the first acrid curl reaches your eyes.")]
+
+#text("")#strong[#text("Granted by:")]#text(" ")#xref("s-2cfa9459da40")[#text("Smoke in a Bottle")]#text(" on learning; also Ordinary Recipe Study when compatible.")
+
+#text("")#strong[#text("Used with:")]#text(" ")#xref("s-2cfa9459da40")[#text("Smoke in a Bottle")]
+
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#rule-table(2,([#text("Preparation")],[#text("Per attempt")],),(([#text("Tools")],[#text("Mixing kit")],),([#text("Time")],[#text("One hour")],),), widths:(65pt,1fr))
+
+#text("")#strong[#text("Materials")]#text("")
+
+#text("Dry puffleaf, prepared mineral dust and a stoppered bottle; one compatible material-bundle use per attempt if carried.")
+
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Work and completion")]#text("")
+
+#text("Weak / Standard / Strong: raise one matching supply by ")#strong[#text("1 / 2 / 3 inventory steps")]#text(", to a maximum of ")#strong[#text("d6")]#text(". Finished bottle: ")#strong[#text("Bulk 1")]#text(".")
+
+#text("Supplies the smoke effect of ")#xref("s-2cfa9459da40")[#text("Smoke in a Bottle")]#text("; no damage or poison.")
+
+]
+],[#catalog-card("Travel Food","s-bb64b6e91f76")[#emph[#text("You salt, wrap and dry the ingredients, packing a little hospitality for the road.")]
+
+#text("")#strong[#text("Granted by:")]#text(" One ordinary recipe choice from a crafting ability below, or Ordinary Recipe Study. Also learned with Bottled Morning, Smoke in a Bottle or The Cleverest Mixture.")
+
+#text("")#strong[#text("Used with:")]#text(" ")#xref("s-55a747e1dcae")[#text("Trail Workshop")]#text(", ")#xref("s-c1806fb50c1b")[#text("Make Something Useful")]#text(", ")#xref("s-618651fd79c9")[#text("Enchanting Workshop")]#text(", ")#xref("s-b10920431af0")[#text("Bottled Morning")]#text(", ")#xref("s-2cfa9459da40")[#text("Smoke in a Bottle")]#text(", ")#xref("s-ae692ce84411")[#text("The Cleverest Mixture")]
+
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#rule-table(2,([#text("Preparation")],[#text("Per attempt")],),(([#text("Tools")],[#text("Craft tools or the granting card’s mixing kit")],),([#text("Time")],[#text("One hour")],),), widths:(65pt,1fr))
+
+#text("")#strong[#text("Materials")]#text("")
+
+#text("Safe edible forage, obtained in the scene or one compatible carried bundle use.")
+
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Work and completion")]#text("")
+
+#text("Weak / Standard / Strong: raise one matching supply by ")#strong[#text("1 / 2 / 3 inventory steps")]#text(", to a maximum of ")#strong[#text("d8")]#text(". The finished ")#xref("s-2512ec01815d")[#text("supply")]#text(" is Bulk 1.")
+
+]
+],[#catalog-card("Twisted Cord","s-41812d3c9ff9")[#emph[#text("You roll the fibers together until many small strands become something worth trusting.")]
+
+#text("")#strong[#text("Granted by:")]#text(" One ordinary recipe choice from a crafting ability below, or Ordinary Recipe Study.")
+
+#text("")#strong[#text("Used with:")]#text(" ")#xref("s-55a747e1dcae")[#text("Trail Workshop")]#text(", ")#xref("s-c1806fb50c1b")[#text("Make Something Useful")]#text(", ")#xref("s-618651fd79c9")[#text("Enchanting Workshop")]
+
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#rule-table(2,([#text("Preparation")],[#text("Per attempt")],),(([#text("Tools")],[#text("Craft tools")],),([#text("Time")],[#text("One hour")],),), widths:(65pt,1fr))
+
+#text("")#strong[#text("Materials")]#text("")
+
+#text("Suitable long fibers, obtained in the scene or one compatible carried bundle use.")
+
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Work and completion")]#text("")
+
+#text("Weak / Standard / Strong: add ")#strong[#text("1 / 2 / 3 progress")]#text(" toward ")#strong[#text("target 4")]#text(". On completion, receive one ")#xref("s-3c95ee95bf9b")[#text("rope coil")]#text(".")
+
+]
+],[#catalog-card("Wooden Brace","s-cd8056938705")[#emph[#text("You trim the supports until they meet snugly, then bind the join against its load.")]
+
+#text("")#strong[#text("Granted by:")]#text(" One ordinary recipe choice from a crafting ability below, or Ordinary Recipe Study.")
+
+#text("")#strong[#text("Used with:")]#text(" ")#xref("s-55a747e1dcae")[#text("Trail Workshop")]#text(", ")#xref("s-c1806fb50c1b")[#text("Make Something Useful")]#text(", ")#xref("s-618651fd79c9")[#text("Enchanting Workshop")]
+
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#rule-table(2,([#text("Preparation")],[#text("Per attempt")],),(([#text("Tools")],[#text("Craft tools")],),([#text("Time")],[#text("One hour")],),), widths:(65pt,1fr))
+
+#text("")#strong[#text("Materials")]#text("")
+
+#text("Suitable wood and bindings, obtained in the scene or one compatible carried bundle use.")
+
+#v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
+#text("")#strong[#text("Work and completion")]#text("")
+
+#text("Weak / Standard / Strong: add ")#strong[#text("1 / 2 / 3 progress")]#text(" toward ")#strong[#text("target 4")]#text(". On completion, receive one ordinary support brace, Bulk 1; no additional tools.")
+
+]
+],))
 #tail-art("recipes")
 #chapter("11","Summoned Companions")
 #metadata("s-e8df3b6d78cc")<s-e8df3b6d78cc>
@@ -13853,7 +12663,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Fresh pool: ")#strong[#text("10 + 1 = 11 DP")]#text(". All discipline purchases below occur before cards that need them.")
 
-#rule-table(4,([#text("Purchase")],[#text("Requirements held / price basis")],[#text("DP spent")],[#text("Remaining")],),(([#xref("s-5dc69f4dd73b")[#text("Shielding Step")]],[#text("Guard 1")],[#text("2")],[#text("9")],),([#text("")#strong[#text("Medicine 1")]#text("")],[#text("Adjacent; previous rank 0")],[#text("2")],[#text("7")],),([#xref("s-d72b8ce2ae0e")[#text("Treat Soft Tissue")]],[#text("Medicine 1")],[#text("2")],[#text("5")],),([#text("")#strong[#text("Athletics 1")]#text("")],[#text("Foreign; previous rank 0")],[#text("3")],[#text("2")],),([#xref("s-81968023986d")[#text("Sure Ascent")]],[#text("Athletics 1")],[#text("2")],[#text("0")],),))
+#rule-table(4,([#text("Purchase")],[#text("Requirements held / price basis")],[#text("DP spent")],[#text("Remaining")],),(([#xref("s-5dc69f4dd73b")[#text("Shielding Step")]],[#text("Guard 1")],[#text("2")],[#text("9")],),([#text("")#strong[#text("Medicine 1")]#text("")],[#text("Class price; previous rank 0")],[#text("2")],[#text("7")],),([#xref("s-d72b8ce2ae0e")[#text("Treat Soft Tissue")]],[#text("Medicine 1")],[#text("2")],[#text("5")],),([#text("")#strong[#text("Athletics 1")]#text("")],[#text("Class price; previous rank 0")],[#text("3")],[#text("2")],),([#xref("s-81968023986d")[#text("Sure Ascent")]],[#text("Athletics 1")],[#text("2")],[#text("0")],),))
 
 #text("")#strong[#text("Spent 11; 0 DP expires. Stage closes at 0.")]#text("")
 
@@ -14103,7 +12913,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Fresh pool: ")#strong[#text("12 + 1 = 13 DP")]#text(". All discipline purchases below occur before cards that need them.")
 
-#rule-table(4,([#text("Purchase")],[#text("Requirements held / price basis")],[#text("DP spent")],[#text("Remaining")],),(([#text("")#strong[#text("Radiance 1")]#text("")],[#text("Home; previous rank 0")],[#text("1")],[#text("12")],),([#xref("s-38e4cc5379f9")[#text("Lantern in the Palm")]],[#text("Radiance 1")],[#text("2")],[#text("10")],),([#xref("s-6ccf444f6f38")[#text("Dawn Shard")]],[#text("Radiance 1")],[#text("2")],[#text("8")],),([#xref("s-d72b8ce2ae0e")[#text("Treat Soft Tissue")]],[#text("Medicine 1")],[#text("2")],[#text("6")],),([#xref("s-afd69d03fa79")[#text("Treat Bone")]],[#text("Medicine 1")],[#text("2")],[#text("4")],),([#xref("s-3e7997d354fd")[#text("Relieve Poison")]],[#text("Medicine 1")],[#text("2")],[#text("2")],),([#xref("s-199248a32781")[#text("Rouse the Senses")]],[#text("Medicine 1")],[#text("2")],[#text("0")],),))
+#rule-table(4,([#text("Purchase")],[#text("Requirements held / price basis")],[#text("DP spent")],[#text("Remaining")],),(([#text("")#strong[#text("Radiance 1")]#text("")],[#text("Class price; previous rank 0")],[#text("1")],[#text("12")],),([#xref("s-38e4cc5379f9")[#text("Lantern in the Palm")]],[#text("Radiance 1")],[#text("2")],[#text("10")],),([#xref("s-6ccf444f6f38")[#text("Dawn Shard")]],[#text("Radiance 1")],[#text("2")],[#text("8")],),([#xref("s-d72b8ce2ae0e")[#text("Treat Soft Tissue")]],[#text("Medicine 1")],[#text("2")],[#text("6")],),([#xref("s-afd69d03fa79")[#text("Treat Bone")]],[#text("Medicine 1")],[#text("2")],[#text("4")],),([#xref("s-3e7997d354fd")[#text("Relieve Poison")]],[#text("Medicine 1")],[#text("2")],[#text("2")],),([#xref("s-199248a32781")[#text("Rouse the Senses")]],[#text("Medicine 1")],[#text("2")],[#text("0")],),))
 
 #text("")#strong[#text("Spent 13; 0 DP expires. Stage closes at 0.")]#text("")
 
@@ -14241,7 +13051,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Fresh pool: ")#strong[#text("13 + 2 = 15 DP")]#text(". All discipline purchases below occur before cards that need them.")
 
-#rule-table(4,([#text("Purchase")],[#text("Requirements held / price basis")],[#text("DP spent")],[#text("Remaining")],),(([#text("")#strong[#text("Medicine 1")]#text("")],[#text("Adjacent; previous rank 0")],[#text("2")],[#text("13")],),([#xref("s-d72b8ce2ae0e")[#text("Treat Soft Tissue")]],[#text("Medicine 1")],[#text("2")],[#text("11")],),([#xref("s-afd69d03fa79")[#text("Treat Bone")]],[#text("Medicine 1")],[#text("2")],[#text("9")],),([#xref("s-85e091071416")[#text("Treat Mental Trauma")]],[#text("Medicine 1")],[#text("2")],[#text("7")],),([#xref("s-199248a32781")[#text("Rouse the Senses")]],[#text("Medicine 1")],[#text("2")],[#text("5")],),([#text("")#strong[#text("Athletics 1")]#text("")],[#text("Foreign; previous rank 0")],[#text("3")],[#text("2")],),([#xref("s-81968023986d")[#text("Sure Ascent")]],[#text("Athletics 1")],[#text("2")],[#text("0")],),))
+#rule-table(4,([#text("Purchase")],[#text("Requirements held / price basis")],[#text("DP spent")],[#text("Remaining")],),(([#text("")#strong[#text("Medicine 1")]#text("")],[#text("Class price; previous rank 0")],[#text("2")],[#text("13")],),([#xref("s-d72b8ce2ae0e")[#text("Treat Soft Tissue")]],[#text("Medicine 1")],[#text("2")],[#text("11")],),([#xref("s-afd69d03fa79")[#text("Treat Bone")]],[#text("Medicine 1")],[#text("2")],[#text("9")],),([#xref("s-85e091071416")[#text("Treat Mental Trauma")]],[#text("Medicine 1")],[#text("2")],[#text("7")],),([#xref("s-199248a32781")[#text("Rouse the Senses")]],[#text("Medicine 1")],[#text("2")],[#text("5")],),([#text("")#strong[#text("Athletics 1")]#text("")],[#text("Class price; previous rank 0")],[#text("3")],[#text("2")],),([#xref("s-81968023986d")[#text("Sure Ascent")]],[#text("Athletics 1")],[#text("2")],[#text("0")],),))
 
 #text("")#strong[#text("Spent 15; 0 DP expires. Stage closes at 0.")]#text("")
 
@@ -14372,7 +13182,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Fresh pool: ")#strong[#text("11 + 1 = 12 DP")]#text(". All discipline purchases below occur before cards that need them.")
 
-#rule-table(4,([#text("Purchase")],[#text("Requirements held / price basis")],[#text("DP spent")],[#text("Remaining")],),(([#text("")#strong[#text("Mind 1")]#text("")],[#text("Adjacent; previous rank 0")],[#text("2")],[#text("10")],),([#xref("s-0f172a62f494")[#text("Borrow a Voice")]],[#text("Mind 1")],[#text("2")],[#text("8")],),([#xref("s-2182d2973f6d")[#text("A Door That Is Not There")]],[#text("Mind 1")],[#text("2")],[#text("6")],),([#xref("s-81968023986d")[#text("Sure Ascent")]],[#text("Athletics 1")],[#text("2")],[#text("4")],),([#xref("s-fa4fe64612b7")[#text("A Knot You Can Trust")]],[#text("Athletics 1")],[#text("2")],[#text("2")],),([#xref("s-57f6387c6028")[#text("Invitation to the Blade")]],[#text("Arms 1")],[#text("2")],[#text("0")],),))
+#rule-table(4,([#text("Purchase")],[#text("Requirements held / price basis")],[#text("DP spent")],[#text("Remaining")],),(([#text("")#strong[#text("Mind 1")]#text("")],[#text("Class price; previous rank 0")],[#text("2")],[#text("10")],),([#xref("s-0f172a62f494")[#text("Borrow a Voice")]],[#text("Mind 1")],[#text("2")],[#text("8")],),([#xref("s-2182d2973f6d")[#text("A Door That Is Not There")]],[#text("Mind 1")],[#text("2")],[#text("6")],),([#xref("s-81968023986d")[#text("Sure Ascent")]],[#text("Athletics 1")],[#text("2")],[#text("4")],),([#xref("s-fa4fe64612b7")[#text("A Knot You Can Trust")]],[#text("Athletics 1")],[#text("2")],[#text("2")],),([#xref("s-57f6387c6028")[#text("Invitation to the Blade")]],[#text("Arms 1")],[#text("2")],[#text("0")],),))
 
 #text("")#strong[#text("Spent 12; 0 DP expires. Stage closes at 0.")]#text("")
 
@@ -14502,7 +13312,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Fresh pool: ")#strong[#text("13 + 0 = 13 DP")]#text(". All discipline purchases below occur before cards that need them.")
 
-#rule-table(4,([#text("Purchase")],[#text("Requirements held / price basis")],[#text("DP spent")],[#text("Remaining")],),(([#xref("s-37c8bd3c7d28")[#text("Read the Remains")]],[#text("Scholarship 1")],[#text("2")],[#text("11")],),([#xref("s-fc3713e7daec")[#text("Identify an Enchantment")]],[#text("Scholarship 1")],[#text("2")],[#text("9")],),([#xref("s-0906f0bcb3f2")[#text("A Hand from Before")]],[#text("Calling 1")],[#text("2")],[#text("7")],),([#xref("s-e07be2e898d1")[#text("Summon Fey — Novice")]],[#text("Calling 1")],[#text("2")],[#text("5")],),([#text("")#strong[#text("Storm 1")]#text("")],[#text("Adjacent; previous rank 0")],[#text("2")],[#text("3")],),([#xref("s-4308553a40ce")[#text("Gust Hammer")]],[#text("Storm 1")],[#text("2")],[#text("1")],),))
+#rule-table(4,([#text("Purchase")],[#text("Requirements held / price basis")],[#text("DP spent")],[#text("Remaining")],),(([#xref("s-37c8bd3c7d28")[#text("Read the Remains")]],[#text("Scholarship 1")],[#text("2")],[#text("11")],),([#xref("s-fc3713e7daec")[#text("Identify an Enchantment")]],[#text("Scholarship 1")],[#text("2")],[#text("9")],),([#xref("s-0906f0bcb3f2")[#text("A Hand from Before")]],[#text("Calling 1")],[#text("2")],[#text("7")],),([#xref("s-e07be2e898d1")[#text("Summon Fey — Novice")]],[#text("Calling 1")],[#text("2")],[#text("5")],),([#text("")#strong[#text("Storm 1")]#text("")],[#text("Class price; previous rank 0")],[#text("2")],[#text("3")],),([#xref("s-4308553a40ce")[#text("Gust Hammer")]],[#text("Storm 1")],[#text("2")],[#text("1")],),))
 
 #text("")#strong[#text("Spent 12; 1 DP expires. Stage closes at 0.")]#text("")
 
@@ -14586,10 +13396,9 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #chapter("14","Table References")
 #metadata("s-6ae4545578f9")<s-6ae4545578f9>
-#twocol[
-#text("Use these pages when the action pauses for a rule. Keep your most-used abilities") #text("beside your sheet, along with the conditions currently affecting you. The alphabetical") #text("index includes universal actions, shared abilities and class signatures.")
+#reading-columns(([#text("Use these pages when the action pauses for a rule. Keep your most-used abilities") #text("beside your sheet, along with the conditions currently affecting you. The tiered ability") #text("index includes universal actions, shared abilities and class signatures.")
 
-#heading(level: 3)[#text("Your turn in order")]
+],[#heading(level: 3)[#text("Your turn in order")]
 #enum(
 [#text("Resolve any start-of-turn instructions. If Dying, choose Grit or a death roll.")
 
@@ -14607,433 +13416,798 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ],
 )
-#heading(level: 3)[#text("Quick rules")]
+],[#heading(level: 3)[#text("Quick rules")]
 #rule-table(2,([#text("Situation")],[#text("Rule")],),(([#text("Ordinary roll")],[#text("3d6 + one attribute; Weak ≤8, Standard 9–14, Strong ≥15")],),([#text("Boons / Banes")],[#text("Cancel; add up to 3 net dice; keep highest / lowest 3")],),([#text("Natural 111 / 666")],[#text("Weak + complication / Strong + benefit, using retained dice")],),([#text("Initiative")],[#text("One unmodified 3d6; 12+ players first; same side begins each round")],),([#text("Action conversion")],[#text("Main → Maneuver → movement; never upward")],),([#text("Ordinary movement")],[#text("Normal 1; difficult 2; diagonal 1; stand costs 2")],),([#text("Occupied space")],[#text("Cross only if occupant Prone, cost 2; never end there")],),([#text("Cover")],[#text("Partial 1 Bane; heavy 3 Banes; no path means no attack")],),([#text("Resistance")],[#text("Highest matching type, cap 3; minimum 1 damage per event")],),([#text("Stability")],[#text("Default 0; highest explicit grant, cap 3; deduct once per new creature")],),([#text("Free attacks")],[#text("Spend no actions; never trigger more free attacks")],),([#text("Healing spell cost")],[#text("Novice 1, Adept 3, Master 7 HP; pay first, stay above 0")],),([#text("Potion")],[#text("Free hand, Maneuver; another recipient uses Reaction unless at 0 HP")],),([#text("Safe breath")],[#text("Full HP; Grit and wounds remain")],),([#text("Wound treatment")],[#text("One attempt per wound per day; 1/2/3 progress toward RV")],),([#text("Supplies")],[#text("Roll inventory die after use; on 1, step down; last use works")],),))
 
-#heading(level: 3)[#text("Glossary")]
+],[#heading(level: 3)[#text("Glossary")]
 #text("")#strong[#text("Ability.")]#text(" A learned technique, spell, talent or other capability with its own") #text("procedure. “Card” refers to that rules entry, whether printed on a card or in this book.")
 
-#text("")#strong[#text("Action.")]#text(" Something a character chooses to do. An action can call for a roll;") #text("a roll itself is not an extra action. A Main Action is a specific part of the turn budget.")
+],[#text("")#strong[#text("Action.")]#text(" Something a character chooses to do. An action can call for a roll;") #text("a roll itself is not an extra action. A Main Action is a specific part of the turn budget.")
 
-#text("")#strong[#text("Attribute.")]#text(" One of Brawn, Fortitude, Agility, Guile, Knowledge or Reason. Add only") #text("the attribute called for by the action or DA.")
+],[#text("")#strong[#text("Attribute.")]#text(" One of Brawn, Fortitude, Agility, Guile, Knowledge or Reason. Add only") #text("the attribute called for by the action or DA.")
 
-#text("")#strong[#text("Benefit.")]#text(" A useful additional advantage, including the extra consequence of a") #text("natural 666. Apply the stated Strong outcome as well.")
+],[#text("")#strong[#text("Benefit.")]#text(" A useful additional advantage, including the extra consequence of a") #text("natural 666. Apply the stated Strong outcome as well.")
 
-#text("")#strong[#text("Boon / Bane.")]#text(" An extra die that changes which three dice you retain. Boons and") #text("Banes cancel before applying their net cap.")
+],[#text("")#strong[#text("Boon / Bane.")]#text(" An extra die that changes which three dice you retain. Boons and") #text("Banes cancel before applying their net cap.")
 
-#text("")#strong[#text("Bulk.")]#text(" An item's inventory load. Capacity and carried Bulk determine encumbrance.")
+],[#text("")#strong[#text("Bulk.")]#text(" An item's inventory load. Capacity and carried Bulk determine encumbrance.")
 
-#text("")#strong[#text("Class.")]#text(" Your signature identity and discipline pricing. Choose one; there is no multiclassing.")
+],[#text("")#strong[#text("Class.")]#text(" Your signature identity and discipline pricing. Choose one; there is no multiclassing.")
 
-#text("")#strong[#text("Complication.")]#text(" An additional problem that does not erase progress already earned.")
+],[#text("")#strong[#text("Complication.")]#text(" An additional problem that does not erase progress already earned.")
 
-#text("")#strong[#text("Condition.")]#text(" A named state with defined effects and removal. A condition's rating") #text("may measure severity, duration or both.")
+],[#text("")#strong[#text("Condition.")]#text(" A named state with defined effects and removal. A condition's rating") #text("may measure severity, duration or both.")
 
-#text("")#strong[#text("Consequence.")]#text(" What is at stake in an uncertain attempt. Establish it before rolling.")
+],[#text("")#strong[#text("Consequence.")]#text(" What is at stake in an uncertain attempt. Establish it before rolling.")
 
-#text("")#strong[#text("DA.")]#text(" Dungeon Architect, the participant who presents and adjudicates the world.")
+],[#text("")#strong[#text("DA.")]#text(" Dungeon Architect, the participant who presents and adjudicates the world.")
 
-#text("")#strong[#text("Discipline.")]#text(" A ranked field of study used to qualify for learned abilities. Rank") #text("alone grants no bonus or action.")
+],[#text("")#strong[#text("Discipline.")]#text(" A ranked field of study used to qualify for learned abilities. Rank") #text("alone grants no bonus or action.")
 
-#text("")#strong[#text("DP.")]#text(" Development Points, spent on eligible ranks and abilities. Level-0 and level-1") #text("pools expire separately; later awards may be saved.")
+],[#text("")#strong[#text("DP.")]#text(" Development Points, spent on eligible ranks and abilities. Level-0 and level-1") #text("pools expire separately; later awards may be saved.")
 
-#text("")#strong[#text("DR.")]#text(" Damage reduction. Armor DR is physical resistance, applied after the attack outcome.")
+],[#text("")#strong[#text("DR.")]#text(" Damage reduction. Armor DR is physical resistance, applied after the attack outcome.")
 
-#text("")#strong[#text("Dying.")]#text(" A player character's state at 0 HP before stabilization or recovery.") #text("Entering it causes a wound; repeated damage while already Dying adds death marks.")
+],[#text("")#strong[#text("Dying.")]#text(" A player character's state at 0 HP before stabilization or recovery.") #text("Entering it causes a wound; repeated damage while already Dying adds death marks.")
 
-#text("")#strong[#text("Effect.")]#text(" A change produced by a rule. It might be immediate damage, movement,") #text("a condition or a continuing benefit. Its duration does not repeat instant damage.")
+],[#text("")#strong[#text("Effect.")]#text(" A change produced by a rule. It might be immediate damage, movement,") #text("a condition or a continuing benefit. Its duration does not repeat instant damage.")
 
-#text("")#strong[#text("Evasion / Threat.")]#text(" A creature's printed dice adjustments to player attacks /") #text("player defenses. They are Boons or Banes, not added numerical totals.")
+],[#text("")#strong[#text("Evasion / Threat.")]#text(" A creature's printed dice adjustments to player attacks /") #text("player defenses. They are Boons or Banes, not added numerical totals.")
 
-#text("")#strong[#text("Free attack.")]#text(" An attack granted by a specific rule without spending an action.") #text("It cannot trigger another free attack.")
+],[#text("")#strong[#text("Free attack.")]#text(" An attack granted by a specific rule without spending an action.") #text("It cannot trigger another free attack.")
 
-#text("")#strong[#text("Grit.")]#text(" A limited reserve that can restore a Dying hero to full HP. Ordinary rest") #text("does not replenish it; the wound remains.")
+],[#text("")#strong[#text("Grit.")]#text(" A limited reserve that can restore a Dying hero to full HP. Ordinary rest") #text("does not replenish it; the wound remains.")
 
-#text("")#strong[#text("Hidden.")]#text(" A universal concealed state, maintained by actual circumstances. Attacking") #text("or openly revealing yourself ends it.")
+],[#text("")#strong[#text("Hidden.")]#text(" A universal concealed state, maintained by actual circumstances. Attacking") #text("or openly revealing yourself ends it.")
 
-#text("")#strong[#text("HP.")]#text(" Current capacity to keep going. Record current and maximum separately.")
+],[#text("")#strong[#text("HP.")]#text(" Current capacity to keep going. Record current and maximum separately.")
 
-#text("")#strong[#text("Inventory die.")]#text(" A supply's remaining uncertainty. Roll after use; step down on 1.")
+],[#text("")#strong[#text("Inventory die.")]#text(" A supply's remaining uncertainty. Roll after use; step down on 1.")
 
-#text("")#strong[#text("Last Words.")]#text(" Speech only, then death at the end of the second following turn.") #text("Ordinary healing, potions, treatment and Grit cannot reverse it.")
+],[#text("")#strong[#text("Last Words.")]#text(" Speech only, then death at the end of the second following turn.") #text("Ordinary healing, potions, treatment and Grit cannot reverse it.")
 
-#text("")#strong[#text("Maneuver.")]#text(" A smaller action used for movement techniques, setup, support and practical tasks.")
+],[#text("")#strong[#text("Maneuver.")]#text(" A smaller action used for movement techniques, setup, support and practical tasks.")
 
-#text("")#strong[#text("Passive.")]#text(" A capability that requires no action unless its text says otherwise.")
+],[#text("")#strong[#text("Passive.")]#text(" A capability that requires no action unless its text says otherwise.")
 
-#text("")#strong[#text("Reaction.")]#text(" Your limited response to a stated trigger. An ordinary defense roll") #text("is not itself a Reaction.")
+],[#text("")#strong[#text("Reaction.")]#text(" Your limited response to a stated trigger. An ordinary defense roll") #text("is not itself a Reaction.")
 
-#text("")#strong[#text("Recovery Value.")]#text(" The accumulated treatment progress needed to remove the wound's") #text("listed lasting effects. Scar count remains after recovery.")
+],[#text("")#strong[#text("Recovery Value.")]#text(" The accumulated treatment progress needed to remove the wound's") #text("listed lasting effects. Scar count remains after recovery.")
 
-#text("")#strong[#text("Resistance.")]#text(" Reduction to a matching damage type; highest source, maximum 3.") #text("Life resistance also reduces ordinary healing.")
+],[#text("")#strong[#text("Resistance.")]#text(" Reduction to a matching damage type; highest source, maximum 3.") #text("Life resistance also reduces ordinary healing.")
 
-#text("")#strong[#text("Safe place.")]#text(" A location the DA judges suitable for spending saved DP. A safe breath") #text("is the shorter recovery pause that restores HP when immediate danger is resolved.")
+],[#text("")#strong[#text("Safe place.")]#text(" A location the DA judges suitable for spending saved DP. A safe breath") #text("is the shorter recovery pause that restores HP when immediate danger is resolved.")
 
-#text("")#strong[#text("Signature.")]#text(" A class-exclusive ability. Its prerequisites are class and minimum level,") #text("not discipline ranks or earlier signatures.")
+],[#text("")#strong[#text("Signature.")]#text(" A class-exclusive ability. Its prerequisites are class and minimum level,") #text("not discipline ranks or earlier signatures.")
 
-#text("")#strong[#text("Stability.")]#text(" Resistance to the distance of forced movement. Default 0, cap 3.") #text("It does not reduce damage, Prone or other conditions.")
+],[#text("")#strong[#text("Stability.")]#text(" Resistance to the distance of forced movement. Default 0, cap 3.") #text("It does not reduce damage, Prone or other conditions.")
 
-#text("")#strong[#text("Tier.")]#text(" Novice, Adept or Master, with minimum levels 1, 3 and 7 and prices 2, 4 and 8 DP.")
+],[#text("")#strong[#text("Tier.")]#text(" Novice, Adept or Master, with minimum levels 1, 3 and 7 and prices 2, 4 and 8 DP.")
 
-#text("")#strong[#text("Wound.")]#text(" A lasting injury record caused by entering Dying. Its active penalty may") #text("be treated; its scar continues to count for later wound rolls.")
+],[#text("")#strong[#text("Wound.")]#text(" A lasting injury record caused by entering Dying. Its active penalty may") #text("be treated; its scar continues to count for later wound rolls.")
 
-#heading(level: 3)[#text("Record useful playtest feedback")]
+],[#heading(level: 3)[#text("Record useful playtest feedback")]
 #text("Write down what happened, which abilities were used, and what slowed the table.") #text("Note a confusing phrase as well as the ruling you made. Record striking moments:") #text("a rescue, a clever use of terrain, an ability that never found a useful opportunity.") #text("Those observations help improve the game more than a bare claim that something is") #text("strong or weak.")
 
-]
+],))
 #include "../sheets.typ"
-#pagebreak(weak: true)
-#heading(level: 2)[Ability index]
-#twocol[
-#set text(size: 9pt)
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-af63ae7d05da")[#text("A Better Angle")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-af63ae7d05da")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-1f550d30b8a6")[#text("A Bough for the Fallen")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-1f550d30b8a6")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-54fefd5e6adc")[#text("A Breath beneath the Water")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-54fefd5e6adc")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-e97ab605ed17")[#text("A Camp without a Trace")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-e97ab605ed17")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-ffc06871cf7b")[#text("A Coal for a Promise")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-ffc06871cf7b")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-9385ed20c73c")[#text("A Company of Reflections")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-9385ed20c73c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-f421c4a1615d")[#text("A Courtesy Unanswered")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-f421c4a1615d")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-2182d2973f6d")[#text("A Door That Is Not There")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-2182d2973f6d")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-c83ae6f25262")[#text("A Good Place to Stop")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-c83ae6f25262")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0906f0bcb3f2")[#text("A Hand from Before")]#linebreak()#text(size: 8pt)[1 · Reaction]], align(right)[#pageref("s-0906f0bcb3f2")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-5339078db195")[#text("A Hand in Darkness")]#linebreak()#text(size: 8pt)[7 · Reaction]], align(right)[#pageref("s-5339078db195")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-fa4fe64612b7")[#text("A Knot You Can Trust")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-fa4fe64612b7")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-f7700837de75")[#text("A Line for Everyone")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-f7700837de75")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b7c0dedda6d3")[#text("A Lock Has a Language")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-b7c0dedda6d3")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-fc91bae7e9ab")[#text("A Marvel on Wheels")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-fc91bae7e9ab")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-36a77020aeb3")[#text("A Place at Any Fire")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-36a77020aeb3")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0ec013bc023f")[#text("A Ribcage for a Shield")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-0ec013bc023f")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-a274a52349dd")[#text("A Road through Rain")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-a274a52349dd")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b602f6e1a9f1")[#text("A Roof before Nightfall")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-b602f6e1a9f1")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-c7151cad6573")[#text("A Route for Everyone")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-c7151cad6573")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-2c50955d2127")[#text("A Shadow at the Heart")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-2c50955d2127")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-6b84ca83285d")[#text("A Shelter of Light")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-6b84ca83285d")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-ae7aaf153b46")[#text("A Sign against Harm")]#linebreak()#text(size: 8pt)[1 · Reaction]], align(right)[#pageref("s-ae7aaf153b46")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d6873a0ed111")[#text("A Small and Watchful Shape")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-d6873a0ed111")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-ca1be516ae93")[#text("A Splendid Mistake")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-ca1be516ae93")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-2d0cbcb3b428")[#text("A Steady Hand at Dawn")]#linebreak()#text(size: 8pt)[3 · Passive]], align(right)[#pageref("s-2d0cbcb3b428")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b0bce85feacc")[#text("A Sword Made of Dawn")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-b0bce85feacc")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-714176fcf4cd")[#text("A Thought That Is Not Yours")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-714176fcf4cd")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-60612371376d")[#text("A Verse for Courage")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-60612371376d")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-3ee4159bbfff")[#text("A Voice across the Valley")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-3ee4159bbfff")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-2b2e175030a8")[#text("A Watchful Rest")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-2b2e175030a8")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d67d39d397a8")[#text("A Word Apart")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-d67d39d397a8")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8700fcb71235")[#text("Aid")]#linebreak()#text(size: 8pt)[Universal · Maneuver]], align(right)[#pageref("s-8700fcb71235")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0e3d8ad2dfbd")[#text("All Voices as One")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-0e3d8ad2dfbd")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-6c081a245131")[#text("Always a Way Around")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-6c081a245131")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0e04794c53d2")[#text("An Impossible Theft")]#linebreak()#text(size: 8pt)[7 · Maneuver]], align(right)[#pageref("s-0e04794c53d2")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-1849e1656b19")[#text("An Invitation Elsewhere")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-1849e1656b19")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-ae834ac0cfe1")[#text("An Unexpected Exit")]#linebreak()#text(size: 8pt)[7 · Maneuver]], align(right)[#pageref("s-ae834ac0cfe1")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-90e6fed059dd")[#text("Anatomy of an Opening")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-90e6fed059dd")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-3dfa5567b60c")[#text("Answer for What You Did")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-3dfa5567b60c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-969275257404")[#text("Arcane Deflection")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-969275257404")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-700933f2741d")[#text("Armored Recovery")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-700933f2741d")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0cd55d6c9765")[#text("Arrive under Guard")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-0cd55d6c9765")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-4ab7e1afe098")[#text("Ask the Falling Ash")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-4ab7e1afe098")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-ca4343e1c5b1")[#text("Basic Melee")]#linebreak()#text(size: 8pt)[Universal · Main Action]], align(right)[#pageref("s-ca4343e1c5b1")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b1a8d2a1ad6f")[#text("Basic Ranged")]#linebreak()#text(size: 8pt)[Universal · Main Action]], align(right)[#pageref("s-b1a8d2a1ad6f")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8b9a7554370b")[#text("Basic Throw")]#linebreak()#text(size: 8pt)[Universal · Main Action]], align(right)[#pageref("s-8b9a7554370b")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d81ee1deed22")[#text("Basic Unarmed")]#linebreak()#text(size: 8pt)[Universal · Main Action]], align(right)[#pageref("s-d81ee1deed22")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-3dd709100098")[#text("Behind the Hawthorn")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-3dd709100098")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-a5b4dd204040")[#text("Bent Trajectory")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-a5b4dd204040")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-4335e5571ac5")[#text("Between Them")]#linebreak()#text(size: 8pt)[1 · Reaction]], align(right)[#pageref("s-4335e5571ac5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-14904e5a8167")[#text("Bind and Turn")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-14904e5a8167")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-a5a3f847b00a")[#text("Blood in the Teeth")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-a5a3f847b00a")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0f172a62f494")[#text("Borrow a Voice")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-0f172a62f494")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b14840d09558")[#text("Borrow the Beast")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-b14840d09558")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-1b82cf6287ef")[#text("Borrow the Shadow")]#linebreak()#text(size: 8pt)[7 · Reaction]], align(right)[#pageref("s-1b82cf6287ef")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0438726e35dc")[#text("Borrow Tomorrow’s Weather")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-0438726e35dc")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-336c3ab9f33e")[#text("Borrowed Clothes, Borrowed Manners")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-336c3ab9f33e")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-6e3ab17356cb")[#text("Borrowed Identity")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-6e3ab17356cb")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-89d23bd45071")[#text("Borrowed Silhouette")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-89d23bd45071")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b10920431af0")[#text("Bottled Morning")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-b10920431af0")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-51f7ce2cc800")[#text("Bow to the Balcony")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-51f7ce2cc800")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-c038b0cc0ed1")[#text("Braced Harness")]#linebreak()#text(size: 8pt)[1 · Reaction]], align(right)[#pageref("s-c038b0cc0ed1")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8384b54259a9")[#text("Break the Charge")]#linebreak()#text(size: 8pt)[7 · Reaction]], align(right)[#pageref("s-8384b54259a9")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-97249b421028")[#text("Break the Formation")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-97249b421028")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8c09ee64601e")[#text("Break Their Advance")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-8c09ee64601e")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-28b3f83e4d98")[#text("Break Their Grip")]#linebreak()#text(size: 8pt)[7 · Maneuver]], align(right)[#pageref("s-28b3f83e4d98")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0b895818255b")[#text("Breath of the Wyrmling")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-0b895818255b")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-4a927c01c65e")[#text("Briar Gate")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-4a927c01c65e")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0c2e039d0225")[#text("Bridge of Winter")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-0c2e039d0225")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8570d0c3185a")[#text("Bring Them Near")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-8570d0c3185a")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-c88fd560b879")[#text("Bring Them Through")]#linebreak()#text(size: 8pt)[7 · Maneuver]], align(right)[#pageref("s-c88fd560b879")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-db6a1d1278ed")[#text("Call the Opening")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-db6a1d1278ed")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0569495be2d1")[#text("Careful Transfer")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-0569495be2d1")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b85d10a9d18f")[#text("Carry the Sunrise")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-b85d10a9d18f")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d71f33bfa8a5")[#text("Carry Them to Shore")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-d71f33bfa8a5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-2a9e0ff502b2")[#text("Carry to Safety")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-2a9e0ff502b2")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-2d8ecd1b85ad")[#text("Cast and Scatter")]#linebreak()#text(size: 8pt)[3 · Passive]], align(right)[#pageref("s-2d8ecd1b85ad")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0cc1d3ab6da1")[#text("Cast through the Reflection")]#linebreak()#text(size: 8pt)[7 · Maneuver]], align(right)[#pageref("s-0cc1d3ab6da1")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-4abc65ad74a0")[#text("Catch a Falling Friend")]#linebreak()#text(size: 8pt)[1 · Reaction]], align(right)[#pageref("s-4abc65ad74a0")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-e622c4cb6cb7")[#text("Catch the Spell")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-e622c4cb6cb7")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-dacb14d20957")[#text("Change the Question")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-dacb14d20957")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-3116911dba83")[#text("Checkmate in Three Steps")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-3116911dba83")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-fbac25a80193")[#text("Choose the Edge")]#linebreak()#text(size: 8pt)[7 · Passive]], align(right)[#pageref("s-fbac25a80193")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d0a3ac9ce7a9")[#text("Cinder Cast")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-d0a3ac9ce7a9")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-ce1d6794bed5")[#text("Circle of Old Names")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-ce1d6794bed5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-273733f259e6")[#text("Close the Gap")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-273733f259e6")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-6d4788c3f598")[#text("Command a Summon")]#linebreak()#text(size: 8pt)[Universal · Main Action or Maneuver]], align(right)[#pageref("s-6d4788c3f598")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-9185d70c2367")[#text("Conditioned Body")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-9185d70c2367")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-681a692e8efe")[#text("Convert an Action")]#linebreak()#text(size: 8pt)[Universal · Action conversion]], align(right)[#pageref("s-681a692e8efe")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-3d45ba1843d4")[#text("Coordinated Rush")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-3d45ba1843d4")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-be941930d850")[#text("Crash Down")]#linebreak()#text(size: 8pt)[7 · Passive]], align(right)[#pageref("s-be941930d850")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-ad0b626a10d0")[#text("Create a Distraction")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-ad0b626a10d0")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-ddb5ca797a91")[#text("Crush the Barrier")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-ddb5ca797a91")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-3f26202b388c")[#text("Cut and Turn")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-3f26202b388c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-4f30c7d72c1c")[#text("Cut Off the Escape")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-4f30c7d72c1c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-cc828e18803e")[#text("Dance beyond the Circle")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-cc828e18803e")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-75f95aa509b8")[#text("Dance Through Steel")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-75f95aa509b8")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-6ccf444f6f38")[#text("Dawn Shard")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-6ccf444f6f38")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-7a6665e4147c")[#text("Defend")]#linebreak()#text(size: 8pt)[Universal · Maneuver]], align(right)[#pageref("s-7a6665e4147c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-91f1b06884ac")[#text("Defiant Rescue")]#linebreak()#text(size: 8pt)[7 · Reaction]], align(right)[#pageref("s-91f1b06884ac")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-dfff0029aed9")[#text("Deliberate Spark")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-dfff0029aed9")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-e5c039e6e9f2")[#text("Derive a Mechanism")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-e5c039e6e9f2")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-7d356f4230de")[#text("Diagnose the Failure")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-7d356f4230de")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-089277bfb75e")[#text("Disengage")]#linebreak()#text(size: 8pt)[Universal · Maneuver]], align(right)[#pageref("s-089277bfb75e")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-a22483224c83")[#text("Drain Warmth")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-a22483224c83")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-e32c1c9d4824")[#text("Draw the Current")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-e32c1c9d4824")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-ebf6d1d7654c")[#text("Dread Reflection")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-ebf6d1d7654c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-a314c213fd56")[#text("Drive Back the Circle")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-a314c213fd56")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-327e15119125")[#text("Driving Volley")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-327e15119125")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-549d51c08fac")[#text("Ease the Burden")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-549d51c08fac")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d22e862d4183")[#text("Ember Along the Edge")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-d22e862d4183")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-618651fd79c9")[#text("Enchanting Workshop")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-618651fd79c9")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-42514b06d0c6")[#text("Expert River Crossing")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-42514b06d0c6")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-5a7e0c915748")[#text("Exploit Confusion")]#linebreak()#text(size: 8pt)[7 · Reaction]], align(right)[#pageref("s-5a7e0c915748")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-fa4cc330b2e7")[#text("Expose the Mechanism")]#linebreak()#text(size: 8pt)[7 · Maneuver]], align(right)[#pageref("s-fa4cc330b2e7")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-30c2afe19eb4")[#text("Fade Behind")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-30c2afe19eb4")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8d84d83e83eb")[#text("Fell the Balance")]#linebreak()#text(size: 8pt)[3 · Passive]], align(right)[#pageref("s-8d84d83e83eb")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-51be293568a2")[#text("Fit a Replacement")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-51be293568a2")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b5b21bea0df4")[#text("Fling the Captive")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-b5b21bea0df4")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-5932fc2c7bf9")[#text("Fold the Distance")]#linebreak()#text(size: 8pt)[7 · Maneuver]], align(right)[#pageref("s-5932fc2c7bf9")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-832b3ffd50b5")[#text("Follow My Footsteps")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-832b3ffd50b5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0f6fad7e5362")[#text("Follow My Signal")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-0f6fad7e5362")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-ae0b1a257a5d")[#text("Forage Coast")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-ae0b1a257a5d")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-1ffdfb8a8396")[#text("Forage Mountains")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-1ffdfb8a8396")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-54e2b3670bc5")[#text("Forage Wetlands")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-54e2b3670bc5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-a7e3126a7312")[#text("Forage Woodland")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-a7e3126a7312")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8920c162aedf")[#text("Force")]#linebreak()#text(size: 8pt)[Universal · Main Action]], align(right)[#pageref("s-8920c162aedf")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-9c0b99b4a582")[#text("Forked Sky")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-9c0b99b4a582")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-458bcf802246")[#text("Four Winds at Once")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-458bcf802246")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d0c514a685fc")[#text("Furnace Sweep")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-d0c514a685fc")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-1754613b54b5")[#text("Gentle Return")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-1754613b54b5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-be5d309cac2f")[#text("Guide a Frightened Animal")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-be5d309cac2f")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-c78c16c50ffc")[#text("Guide the Crossing")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-c78c16c50ffc")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-4308553a40ce")[#text("Gust Hammer")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-4308553a40ce")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-167a8784c5dc")[#text("Handle an Item")]#linebreak()#text(size: 8pt)[Universal · Varies]], align(right)[#pageref("s-167a8784c5dc")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-9ba643fc50ac")[#text("Haul Them Home")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-9ba643fc50ac")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-61b0734b97e4")[#text("Hear Me Still")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-61b0734b97e4")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-4ae89f9a2005")[#text("Hold a Conversation")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-4ae89f9a2005")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-fe505c56a200")[#text("Hold the Passage")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-fe505c56a200")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-effa525784b5")[#text("Hold Your Nerve")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-effa525784b5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-79bc81080a40")[#text("Hook and Drive")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-79bc81080a40")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0f82c9c28574")[#text("Hurl Aside")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-0f82c9c28574")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-159a95b3baad")[#text("I Have Seen This Step")]#linebreak()#text(size: 8pt)[1 · Reaction]], align(right)[#pageref("s-159a95b3baad")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-4a0938260194")[#text("Ice across the Break")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-4a0938260194")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-47f2c1d1b4c7")[#text("Icebound Path")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-47f2c1d1b4c7")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-f6f355a9a0ce")[#text("Identify a Mixture")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-f6f355a9a0ce")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-fc3713e7daec")[#text("Identify an Enchantment")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-fc3713e7daec")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b090d56f57fa")[#text("Intrusive Echo")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-b090d56f57fa")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-57f6387c6028")[#text("Invitation to the Blade")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-57f6387c6028")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-74c5c6765a91")[#text("Keep the Door Closed")]#linebreak()#text(size: 8pt)[1 · Reaction]], align(right)[#pageref("s-74c5c6765a91")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-f28a32bf04d4")[#text("Keep the Quarry Close")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-f28a32bf04d4")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-57a8cf7ceb2c")[#text("Keep Time with Steel")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-57a8cf7ceb2c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8bc286049eb3")[#text("Keep Your Bearings")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-8bc286049eb3")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-26c3b0a051bf")[#text("Know What You Hunt")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-26c3b0a051bf")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-38e4cc5379f9")[#text("Lantern in the Palm")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-38e4cc5379f9")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-2916c871443a")[#text("Lantern Moths")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-2916c871443a")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-e0dcb7aef2c3")[#text("Laugh at the Fall")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-e0dcb7aef2c3")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-e50044a24182")[#text("Lead the Step")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-e50044a24182")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-336b5136b2e5")[#text("Leave a Window")]#linebreak()#text(size: 8pt)[3 · Passive]], align(right)[#pageref("s-336b5136b2e5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d84cf605bef5")[#text("Leave No Pursuit")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-d84cf605bef5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-e4182074f203")[#text("Let the Spark Decide")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-e4182074f203")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-39453f773b9a")[#text("Live in the Mask")]#linebreak()#text(size: 8pt)[3 · Passive]], align(right)[#pageref("s-39453f773b9a")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-4e90cb3fee6c")[#text("Make a Refuge")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-4e90cb3fee6c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-c1806fb50c1b")[#text("Make Something Useful")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-c1806fb50c1b")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-a2d1a9eb1143")[#text("Make the Connection")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-a2d1a9eb1143")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-7a069d6648a5")[#text("Measured Appeal")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-7a069d6648a5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-4f08c7da2fe3")[#text("Measured Guard")]#linebreak()#text(size: 8pt)[1 · Reaction]], align(right)[#pageref("s-4f08c7da2fe3")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-f5add3130b03")[#text("Mercy in the Light")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-f5add3130b03")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-bc194ab16b8b")[#text("Move")]#linebreak()#text(size: 8pt)[Universal · Movement]], align(right)[#pageref("s-bc194ab16b8b")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-42f939f3aed0")[#text("Name the Reckoning")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-42f939f3aed0")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-5b8e938de3f2")[#text("No Footfall at All")]#linebreak()#text(size: 8pt)[7 · Maneuver]], align(right)[#pageref("s-5b8e938de3f2")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-71e27d81e4b0")[#text("No Road Away")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-71e27d81e4b0")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-4262992561c1")[#text("Noonday Judgment")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-4262992561c1")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-851cab136089")[#text("Not Yet Your Name")]#linebreak()#text(size: 8pt)[7 · Reaction]], align(right)[#pageref("s-851cab136089")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-ded249872692")[#text("Notice the Human Detail")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-ded249872692")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-788fb7bb32b2")[#text("Oathlight Strike")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-788fb7bb32b2")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-e60cb2c9304a")[#text("One Last Remark")]#linebreak()#text(size: 8pt)[7 · Reaction]], align(right)[#pageref("s-e60cb2c9304a")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-aa153c2db017")[#text("One More Dawn")]#linebreak()#text(size: 8pt)[7 · Passive]], align(right)[#pageref("s-aa153c2db017")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-301348e613df")[#text("Open the Circle")]#linebreak()#text(size: 8pt)[7 · Maneuver]], align(right)[#pageref("s-301348e613df")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-471a4440c939")[#text("Open the Furnace Door")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-471a4440c939")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-f7ab06745db5")[#text("Open the Way")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-f7ab06745db5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-59de2ced60f1")[#text("Opportunity Attack")]#linebreak()#text(size: 8pt)[Universal · Reaction]], align(right)[#pageref("s-59de2ced60f1")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-7d4b0a5ef947")[#text("Orderly Withdrawal")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-7d4b0a5ef947")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-910d1a40bef2")[#text("Ordinary Recipe Study")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-910d1a40bef2")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-27a35db4f523")[#text("Pack with Purpose")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-27a35db4f523")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-43f4bd09220f")[#text("Palm of the Gale")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-43f4bd09220f")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-4ca2a9cc24a6")[#text("Pass the Guard")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-4ca2a9cc24a6")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-72486f7e3bed")[#text("Perfect Placement")]#linebreak()#text(size: 8pt)[7 · Passive]], align(right)[#pageref("s-72486f7e3bed")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-a61a3f0d1b49")[#text("Pinning Shot")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-a61a3f0d1b49")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-f47bcccc43ee")[#text("Pounce of the Red Claw")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-f47bcccc43ee")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-70b23265ef79")[#text("Predict the Motion")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-70b23265ef79")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b12f04f5c58f")[#text("Prepared Explanation")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-b12f04f5c58f")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-6e50ebac724a")[#text("Press the Opening")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-6e50ebac724a")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d51228096429")[#text("Pressure Point")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-d51228096429")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-ddd66a510b36")[#text("Quiet Latch")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-ddd66a510b36")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b86f62a4d65f")[#text("Quiet the Tremor")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-b86f62a4d65f")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-67c920babae2")[#text("Raging Recoil")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-67c920babae2")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8f3ef546d491")[#text("Read a Dangerous Trail")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-8f3ef546d491")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-c791bc3263af")[#text("Read the Maker’s Hand")]#linebreak()#text(size: 8pt)[3 · Passive]], align(right)[#pageref("s-c791bc3263af")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-2d6d412f93b9")[#text("Read the Next Blow")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-2d6d412f93b9")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-e66b2d4a9624")[#text("Read the Passing")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-e66b2d4a9624")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-43429d322c0c")[#text("Read the Quarry")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-43429d322c0c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-37c8bd3c7d28")[#text("Read the Remains")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-37c8bd3c7d28")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0626f70d64d5")[#text("Reconstruct the Event")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-0626f70d64d5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-2cc80141c8e0")[#text("Reduce a Condition")]#linebreak()#text(size: 8pt)[Universal · Main Action]], align(right)[#pageref("s-2cc80141c8e0")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-bc5e21ff4153")[#text("Refuse the Rout")]#linebreak()#text(size: 8pt)[7 · Maneuver]], align(right)[#pageref("s-bc5e21ff4153")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d9eab10d11e5")[#text("Relentless Pursuit")]#linebreak()#text(size: 8pt)[7 · Reaction]], align(right)[#pageref("s-d9eab10d11e5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-3e7997d354fd")[#text("Relieve Poison")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-3e7997d354fd")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-2af6fd22810d")[#text("Remember This Name")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-2af6fd22810d")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-2b9d2671ca7a")[#text("Rest for the Restless")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-2b9d2671ca7a")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-383c1aff42e3")[#text("Restore Composure")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-383c1aff42e3")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-381ca0bbc05b")[#text("Return Stroke")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-381ca0bbc05b")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-44cd265b06d4")[#text("Return to Strength")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-44cd265b06d4")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-ffb7d6b8c41b")[#text("Reveal the Threshold")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-ffb7d6b8c41b")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-9de0bb8338b1")[#text("Ride the Falling Stone")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-9de0bb8338b1")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-fe1587c3ea64")[#text("Rime Grip")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-fe1587c3ea64")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-e16c4f638ad5")[#text("Roots Remember Feet")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-e16c4f638ad5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-199248a32781")[#text("Rouse the Senses")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-199248a32781")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8e49205366be")[#text("Running Vault")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-8e49205366be")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-a4dba94902f5")[#text("Saddle and Rein")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-a4dba94902f5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-606521a493ff")[#text("Sap and Breath")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-606521a493ff")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-84a6db46442c")[#text("Scales beneath the Skin")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-84a6db46442c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-c5fe70133bbd")[#text("Scatter the Line")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-c5fe70133bbd")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-a6fe8604c3d3")[#text("Secure a Hold")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-a6fe8604c3d3")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-fc048fa2af8c")[#text("Sell the Feint")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-fc048fa2af8c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-9be12b5c0ebb")[#text("Set Your Feet")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-9be12b5c0ebb")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-5eb5e0b36f9f")[#text("Sever the Pursuit")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-5eb5e0b36f9f")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-a4c83899a588")[#text("Shared Breath")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-a4c83899a588")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8b675c163f14")[#text("Shared Resolve")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-8b675c163f14")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-e21a2f248cfa")[#text("Shelter the Fallen")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-e21a2f248cfa")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-a8ca262729af")[#text("Shield Block")]#linebreak()#text(size: 8pt)[Universal · Reaction]], align(right)[#pageref("s-a8ca262729af")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-5dc69f4dd73b")[#text("Shielding Step")]#linebreak()#text(size: 8pt)[1 · Reaction]], align(right)[#pageref("s-5dc69f4dd73b")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d3462890bae0")[#text("Shoulder Through")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-d3462890bae0")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-eb5d31ce8508")[#text("Sideways Thinking")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-eb5d31ce8508")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b80fb7eae64e")[#text("Silence the Alarm")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-b80fb7eae64e")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-f6bae7ebbc57")[#text("Smile Before Steel")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-f6bae7ebbc57")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-2cfa9459da40")[#text("Smoke in a Bottle")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-2cfa9459da40")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-baede3fc9acf")[#text("Smoke Through the Keyhole")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-baede3fc9acf")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-2e6ccf98e312")[#text("Soft Landing")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-2e6ccf98e312")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-2901bff290db")[#text("Speak with the Hearth")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-2901bff290db")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b22ada34d129")[#text("Spot the Leverage")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-b22ada34d129")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-357292401433")[#text("Spring in the Sleeve")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-357292401433")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8d99f3d5156a")[#text("Stabilize")]#linebreak()#text(size: 8pt)[Universal · Maneuver]], align(right)[#pageref("s-8d99f3d5156a")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d6add8bff129")[#text("Stand")]#linebreak()#text(size: 8pt)[Universal · Movement]], align(right)[#pageref("s-d6add8bff129")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-39476eb68bda")[#text("Stand Together")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-39476eb68bda")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-5164ea0bc907")[#text("Stay on the Scent")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-5164ea0bc907")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-2960fb94332a")[#text("Step Between Lanterns")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-2960fb94332a")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-228dce1b7b4c")[#text("Step Through the Spark")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-228dce1b7b4c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-e9a3970c7f5a")[#text("Still the Will")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-e9a3970c7f5a")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0cef8ad23763")[#text("Stillness at the Center")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-0cef8ad23763")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-85e94e582dcc")[#text("Stitch the Living Pattern")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-85e94e582dcc")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-59180a9442ec")[#text("Stone on Your Shoulders")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-59180a9442ec")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b67c47b263c3")[#text("Storm on a String")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-b67c47b263c3")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-f5b1428a3a0c")[#text("Strange but Effective")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-f5b1428a3a0c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b04105c60eb6")[#text("Stride of the Giant")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-b04105c60eb6")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-cdb380739469")[#text("Strike and Vanish")]#linebreak()#text(size: 8pt)[3 · Passive]], align(right)[#pageref("s-cdb380739469")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-83fb666fdd7b")[#text("Study the Pattern")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-83fb666fdd7b")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-21283cfcebd2")[#text("Summon Animal — Adept")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-21283cfcebd2")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-7ebb98971bf8")[#text("Summon Animal — Master")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-7ebb98971bf8")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-4bae3b97adcd")[#text("Summon Animal — Novice")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-4bae3b97adcd")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d4455bc3c4c9")[#text("Summon Construct — Adept")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-d4455bc3c4c9")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-9179af4bede4")[#text("Summon Construct — Master")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-9179af4bede4")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-593a4ab3e236")[#text("Summon Construct — Novice")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-593a4ab3e236")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-a370b50de68a")[#text("Summon Elemental — Adept")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-a370b50de68a")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-afed281ab3c0")[#text("Summon Elemental — Master")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-afed281ab3c0")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-98b40bc83bc9")[#text("Summon Elemental — Novice")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-98b40bc83bc9")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-2f1306bdc55e")[#text("Summon Fey — Adept")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-2f1306bdc55e")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-769489d90a89")[#text("Summon Fey — Master")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-769489d90a89")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-e07be2e898d1")[#text("Summon Fey — Novice")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-e07be2e898d1")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b80492b400fd")[#text("Summon Spirit — Adept")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-b80492b400fd")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-30ea6d18db33")[#text("Summon Spirit — Master")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-30ea6d18db33")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-cf9d120450ce")[#text("Summon Spirit — Novice")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-cf9d120450ce")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-27ceffdfffd9")[#text("Summon Undead — Adept")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-27ceffdfffd9")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-7a270d71b6b4")[#text("Summon Undead — Master")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-7a270d71b6b4")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-9a79cc18229b")[#text("Summon Undead — Novice")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-9a79cc18229b")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-81968023986d")[#text("Sure Ascent")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-81968023986d")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8711502c942b")[#text("Sustain the Failing")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-8711502c942b")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-1120d1e1dd74")[#text("Sweeping Entry")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-1120d1e1dd74")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-5fa88b2dc319")[#text("Swing into Trouble")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-5fa88b2dc319")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-f70404717fe6")[#text("Take the Measure")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-f70404717fe6")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8bf4c899b76a")[#text("Take Them Alive")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-8bf4c899b76a")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-bfaa937e43cf")[#text("Teach Stone to Bend")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-bfaa937e43cf")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d2cc2f97d507")[#text("Tell a Worthy Story")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-d2cc2f97d507")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-4504f0c673de")[#text("Terms before Swords")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-4504f0c673de")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d4ae4f067a54")[#text("Test the Hypothesis")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-d4ae4f067a54")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8f9b68c9239d")[#text("The Angle of Unease")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-8f9b68c9239d")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-7cf74c986db8")[#text("The Chorus Advances")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-7cf74c986db8")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-3a9d939220fb")[#text("The Circle Holds")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-3a9d939220fb")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8a70a29a33a0")[#text("The City Opens Its Doors")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-8a70a29a33a0")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-ae692ce84411")[#text("The Cleverest Mixture")]#linebreak()#text(size: 8pt)[7 · Maneuver]], align(right)[#pageref("s-ae692ce84411")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-049ec515d5b7")[#text("The Debt Comes Due")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-049ec515d5b7")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-3a590a37bb9e")[#text("The Grove Gives Back")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-3a590a37bb9e")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-15951f157941")[#text("The Hunt Ends Here")]#linebreak()#text(size: 8pt)[7 · Reaction]], align(right)[#pageref("s-15951f157941")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-6facfd6f6b13")[#text("The Key Changes Hands")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-6facfd6f6b13")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-19bb38a41f5a")[#text("The Land Keeps No Secrets")]#linebreak()#text(size: 8pt)[7 · Passive]], align(right)[#pageref("s-19bb38a41f5a")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-5e383055f984")[#text("The Moment Foretold")]#linebreak()#text(size: 8pt)[7 · Reaction]], align(right)[#pageref("s-5e383055f984")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-cbed67fdff45")[#text("The Orchard Wakes")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-cbed67fdff45")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-5566a5f3ed51")[#text("The Otter’s Bargain")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-5566a5f3ed51")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d81a1958a55c")[#text("The Patient Metal")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-d81a1958a55c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-1f9a863cb1f5")[#text("The Right Small Courtesy")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-1f9a863cb1f5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b066e3d06a02")[#text("The Road Remembers")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-b066e3d06a02")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-a8c6927cd77c")[#text("The Shape of Escape")]#linebreak()#text(size: 8pt)[7 · Maneuver]], align(right)[#pageref("s-a8c6927cd77c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-e8c8af8e3cfc")[#text("The Sky Comes Down")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-e8c8af8e3cfc")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-89671eca320c")[#text("The Tale Will Tell of You")]#linebreak()#text(size: 8pt)[7 · Reaction]], align(right)[#pageref("s-89671eca320c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0fee6504a4c1")[#text("The Unlit Road")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-0fee6504a4c1")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-e0f03cd9803f")[#text("The Untroubled Hand")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-e0f03cd9803f")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-39d15c1483ee")[#text("The Wind Makes Room")]#linebreak()#text(size: 8pt)[7 · Maneuver]], align(right)[#pageref("s-39d15c1483ee")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-28218ee7d31b")[#text("Through Bramble and Stone")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-28218ee7d31b")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8450e5fa3bd6")[#text("Through the Spearpoints")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-8450e5fa3bd6")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-8139ff39e4f2")[#text("Thunder at the Door")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-8139ff39e4f2")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-c4ee5d3c049c")[#text("Thunder Ring")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-c4ee5d3c049c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-55a747e1dcae")[#text("Trail Workshop")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-55a747e1dcae")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-906625ca362d")[#text("Translate the Fragment")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-906625ca362d")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-02ff63c13974")[#text("Traverse the Impossible")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-02ff63c13974")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-afd69d03fa79")[#text("Treat Bone")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-afd69d03fa79")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-09d5eb4341f2")[#text("Treat Elemental Injury")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-09d5eb4341f2")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-bf38cda8561d")[#text("Treat Life Injury")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-bf38cda8561d")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-85e091071416")[#text("Treat Mental Trauma")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-85e091071416")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-476aafa6e992")[#text("Treat Radiant Injury")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-476aafa6e992")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d72b8ce2ae0e")[#text("Treat Soft Tissue")]#linebreak()#text(size: 8pt)[1 · Main Action]], align(right)[#pageref("s-d72b8ce2ae0e")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-9acbaf4c9364")[#text("Turn the Crowd")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-9acbaf4c9364")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0f9422cc4ac4")[#text("Turn the Hunt")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-0f9422cc4ac4")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b63afd7b547d")[#text("Turn the River")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-b63afd7b547d")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-ce1fbee7c24c")[#text("Turn Their Eye")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-ce1fbee7c24c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-50c3d247c571")[#text("Unbroken Passage")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-50c3d247c571")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-e7f661a56d10")[#text("Under Their Guard")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-e7f661a56d10")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-412080346fc2")[#text("Undertow Answer")]#linebreak()#text(size: 8pt)[3 · Main Action]], align(right)[#pageref("s-412080346fc2")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-b1469237eba4")[#text("Unlikely Assistant")]#linebreak()#text(size: 8pt)[3 · Passive]], align(right)[#pageref("s-b1469237eba4")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-22e6f489bade")[#text("Unravel the Bolt")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-22e6f489bade")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-a2279ea79d77")[#text("Unseen Passage")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-a2279ea79d77")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-fb4bae07a2e2")[#text("Urgent Bandaging")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-fb4bae07a2e2")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-09b403375f97")[#text("Use a Healing Potion")]#linebreak()#text(size: 8pt)[Universal · Maneuver]], align(right)[#pageref("s-09b403375f97")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-0fd1d5ea6ba6")[#text("Useful Interruption")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-0fd1d5ea6ba6")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-fd8e0f63e005")[#text("Veiled Crossing")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-fd8e0f63e005")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-d3bba3dde3ae")[#text("Wake the Iron Rune")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-d3bba3dde3ae")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-4432e6d45409")[#text("Walk the Thunder")]#linebreak()#text(size: 8pt)[3 · Maneuver]], align(right)[#pageref("s-4432e6d45409")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-5bd9cb02895a")[#text("Watch the Rear")]#linebreak()#text(size: 8pt)[7 · Reaction]], align(right)[#pageref("s-5bd9cb02895a")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-07696a43ba98")[#text("Wear Heavy Armor")]#linebreak()#text(size: 8pt)[3 · Passive]], align(right)[#pageref("s-07696a43ba98")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-30d5ca182be2")[#text("Wear Medium Armor")]#linebreak()#text(size: 8pt)[1 · Passive]], align(right)[#pageref("s-30d5ca182be2")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-93fd456073db")[#text("Wear the Great Beast")]#linebreak()#text(size: 8pt)[7 · Maneuver]], align(right)[#pageref("s-93fd456073db")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-a368e279a4af")[#text("Weight of Iron")]#linebreak()#text(size: 8pt)[7 · Reaction]], align(right)[#pageref("s-a368e279a4af")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-9bd00bfd1c15")[#text("When the Stars Look Back")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-9bd00bfd1c15")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-011c2bdf7ecc")[#text("Where Only Eagles Pass")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-011c2bdf7ecc")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-54458d5c4852")[#text("White Heat")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-54458d5c4852")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-684f1a60a6ab")[#text("Wild Approach")]#linebreak()#text(size: 8pt)[1 · Maneuver]], align(right)[#pageref("s-684f1a60a6ab")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-99456e127b57")[#text("Wings over the Battle")]#linebreak()#text(size: 8pt)[7 · Maneuver]], align(right)[#pageref("s-99456e127b57")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-915606737fd5")[#text("Winter Hold")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-915606737fd5")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-57b9fe6da75c")[#text("Write the Final Line")]#linebreak()#text(size: 8pt)[7 · Main Action]], align(right)[#pageref("s-57b9fe6da75c")])]
-#block(below: 4pt, breakable: false)[#grid(columns: (1fr, 23pt), gutter: 5pt, [#xref("s-3da2e55163a8")[#text("Wrong Place for That")]#linebreak()#text(size: 8pt)[3 · Reaction]], align(right)[#pageref("s-3da2e55163a8")])]
-]
+#pagebreak(weak:true)
+#heading(level:2,"Universal action index")
+Shared abilities and class signatures are listed together. A class requirement marks an exclusive signature.
+
+#reading-columns(([#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8700fcb71235")[#strong[#text("Aid")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-8700fcb71235")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-ca4343e1c5b1")[#strong[#text("Basic Melee")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-ca4343e1c5b1")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b1a8d2a1ad6f")[#strong[#text("Basic Ranged")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-b1a8d2a1ad6f")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8b9a7554370b")[#strong[#text("Basic Throw")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-8b9a7554370b")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d81ee1deed22")[#strong[#text("Basic Unarmed")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-d81ee1deed22")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-6d4788c3f598")[#strong[#text("Command a Summon")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-6d4788c3f598")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-681a692e8efe")[#strong[#text("Convert an Action")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-681a692e8efe")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-7a6665e4147c")[#strong[#text("Defend")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-7a6665e4147c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-089277bfb75e")[#strong[#text("Disengage")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-089277bfb75e")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8920c162aedf")[#strong[#text("Force")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-8920c162aedf")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-167a8784c5dc")[#strong[#text("Handle an Item")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-167a8784c5dc")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-bc194ab16b8b")[#strong[#text("Move")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-bc194ab16b8b")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-59de2ced60f1")[#strong[#text("Opportunity Attack")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-59de2ced60f1")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-2cc80141c8e0")[#strong[#text("Reduce a Condition")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-2cc80141c8e0")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-a8ca262729af")[#strong[#text("Shield Block")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-a8ca262729af")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8d99f3d5156a")[#strong[#text("Stabilize")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-8d99f3d5156a")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d6add8bff129")[#strong[#text("Stand")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-d6add8bff129")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-09b403375f97")[#strong[#text("Use a Healing Potion")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-09b403375f97")])]
+],))
+#pagebreak(weak:true)
+#heading(level:2,"Novice ability index")
+Shared abilities and class signatures are listed together. A class requirement marks an exclusive signature.
+
+#reading-columns(([#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-ffc06871cf7b")[#strong[#text("A Coal for a Promise")]]#linebreak()#text(size:8pt)[Flame 1]],align(right)[#pageref("s-ffc06871cf7b")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-f421c4a1615d")[#strong[#text("A Courtesy Unanswered")]]#linebreak()#text(size:8pt)[Subterfuge 1]],align(right)[#pageref("s-f421c4a1615d")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-2182d2973f6d")[#strong[#text("A Door That Is Not There")]]#linebreak()#text(size:8pt)[Mind 1]],align(right)[#pageref("s-2182d2973f6d")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-c83ae6f25262")[#strong[#text("A Good Place to Stop")]]#linebreak()#text(size:8pt)[Wilderness 1]],align(right)[#pageref("s-c83ae6f25262")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0906f0bcb3f2")[#strong[#text("A Hand from Before")]]#linebreak()#text(size:8pt)[Calling 1]],align(right)[#pageref("s-0906f0bcb3f2")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-fa4fe64612b7")[#strong[#text("A Knot You Can Trust")]]#linebreak()#text(size:8pt)[Athletics 1]],align(right)[#pageref("s-fa4fe64612b7")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-36a77020aeb3")[#strong[#text("A Place at Any Fire")]]#linebreak()#text(size:8pt)[Influence 1]],align(right)[#pageref("s-36a77020aeb3")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-ae7aaf153b46")[#strong[#text("A Sign against Harm")]]#linebreak()#text(size:8pt)[Guard 1]],align(right)[#pageref("s-ae7aaf153b46")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-714176fcf4cd")[#strong[#text("A Thought That Is Not Yours")]]#linebreak()#text(size:8pt)[Mind 1]],align(right)[#pageref("s-714176fcf4cd")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-60612371376d")[#strong[#text("A Verse for Courage")]]#linebreak()#text(size:8pt)[Influence 1]],align(right)[#pageref("s-60612371376d")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-6c081a245131")[#strong[#text("Always a Way Around")]]#linebreak()#text(size:8pt)[Class Odd; minimum level 1]],align(right)[#pageref("s-6c081a245131")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-1849e1656b19")[#strong[#text("An Invitation Elsewhere")]]#linebreak()#text(size:8pt)[Mind 1]],align(right)[#pageref("s-1849e1656b19")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-90e6fed059dd")[#strong[#text("Anatomy of an Opening")]]#linebreak()#text(size:8pt)[Scholarship 1]],align(right)[#pageref("s-90e6fed059dd")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-a5b4dd204040")[#strong[#text("Bent Trajectory")]]#linebreak()#text(size:8pt)[Class Arcanist; minimum level 1]],align(right)[#pageref("s-a5b4dd204040")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-4335e5571ac5")[#strong[#text("Between Them")]]#linebreak()#text(size:8pt)[Class Protector; minimum level 1]],align(right)[#pageref("s-4335e5571ac5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-a5a3f847b00a")[#strong[#text("Blood in the Teeth")]]#linebreak()#text(size:8pt)[Arms 1]],align(right)[#pageref("s-a5a3f847b00a")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0f172a62f494")[#strong[#text("Borrow a Voice")]]#linebreak()#text(size:8pt)[Mind 1]],align(right)[#pageref("s-0f172a62f494")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b14840d09558")[#strong[#text("Borrow the Beast")]]#linebreak()#text(size:8pt)[Wilderness 1]],align(right)[#pageref("s-b14840d09558")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-336c3ab9f33e")[#strong[#text("Borrowed Clothes, Borrowed Manners")]]#linebreak()#text(size:8pt)[Subterfuge 1]],align(right)[#pageref("s-336c3ab9f33e")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-c038b0cc0ed1")[#strong[#text("Braced Harness")]]#linebreak()#text(size:8pt)[Armor 1]],align(right)[#pageref("s-c038b0cc0ed1")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0b895818255b")[#strong[#text("Breath of the Wyrmling")]]#linebreak()#text(size:8pt)[Flame 1]],align(right)[#pageref("s-0b895818255b")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-4abc65ad74a0")[#strong[#text("Catch a Falling Friend")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-4abc65ad74a0")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d0a3ac9ce7a9")[#strong[#text("Cinder Cast")]]#linebreak()#text(size:8pt)[Flame 1]],align(right)[#pageref("s-d0a3ac9ce7a9")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-273733f259e6")[#strong[#text("Close the Gap")]]#linebreak()#text(size:8pt)[Class Protector; minimum level 1]],align(right)[#pageref("s-273733f259e6")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-9185d70c2367")[#strong[#text("Conditioned Body")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-9185d70c2367")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-ad0b626a10d0")[#strong[#text("Create a Distraction")]]#linebreak()#text(size:8pt)[Subterfuge 1]],align(right)[#pageref("s-ad0b626a10d0")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-3f26202b388c")[#strong[#text("Cut and Turn")]]#linebreak()#text(size:8pt)[Class Blade; minimum level 1]],align(right)[#pageref("s-3f26202b388c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-6ccf444f6f38")[#strong[#text("Dawn Shard")]]#linebreak()#text(size:8pt)[Radiance 1]],align(right)[#pageref("s-6ccf444f6f38")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-dfff0029aed9")[#strong[#text("Deliberate Spark")]]#linebreak()#text(size:8pt)[Class Arcanist; minimum level 1]],align(right)[#pageref("s-dfff0029aed9")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-a22483224c83")[#strong[#text("Drain Warmth")]]#linebreak()#text(size:8pt)[Life 1]],align(right)[#pageref("s-a22483224c83")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-549d51c08fac")[#strong[#text("Ease the Burden")]]#linebreak()#text(size:8pt)[Class Shepherd; minimum level 1]],align(right)[#pageref("s-549d51c08fac")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d22e862d4183")[#strong[#text("Ember Along the Edge")]]#linebreak()#text(size:8pt)[Flame 1 and Arms 1]],align(right)[#pageref("s-d22e862d4183")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-42514b06d0c6")[#strong[#text("Expert River Crossing")]]#linebreak()#text(size:8pt)[Athletics 1]],align(right)[#pageref("s-42514b06d0c6")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-30c2afe19eb4")[#strong[#text("Fade Behind")]]#linebreak()#text(size:8pt)[Class Shadow; minimum level 1]],align(right)[#pageref("s-30c2afe19eb4")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-832b3ffd50b5")[#strong[#text("Follow My Footsteps")]]#linebreak()#text(size:8pt)[Class Warden; minimum level 1]],align(right)[#pageref("s-832b3ffd50b5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0f6fad7e5362")[#strong[#text("Follow My Signal")]]#linebreak()#text(size:8pt)[Class Leader; minimum level 1]],align(right)[#pageref("s-0f6fad7e5362")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-ae0b1a257a5d")[#strong[#text("Forage Coast")]]#linebreak()#text(size:8pt)[Wilderness 1]],align(right)[#pageref("s-ae0b1a257a5d")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-1ffdfb8a8396")[#strong[#text("Forage Mountains")]]#linebreak()#text(size:8pt)[Wilderness 1]],align(right)[#pageref("s-1ffdfb8a8396")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-54e2b3670bc5")[#strong[#text("Forage Wetlands")]]#linebreak()#text(size:8pt)[Wilderness 1]],align(right)[#pageref("s-54e2b3670bc5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-a7e3126a7312")[#strong[#text("Forage Woodland")]]#linebreak()#text(size:8pt)[Wilderness 1]],align(right)[#pageref("s-a7e3126a7312")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-1754613b54b5")[#strong[#text("Gentle Return")]]#linebreak()#text(size:8pt)[Class Shepherd; minimum level 1]],align(right)[#pageref("s-1754613b54b5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-be5d309cac2f")[#strong[#text("Guide a Frightened Animal")]]#linebreak()#text(size:8pt)[Wilderness 1]],align(right)[#pageref("s-be5d309cac2f")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-4308553a40ce")[#strong[#text("Gust Hammer")]]#linebreak()#text(size:8pt)[Storm 1]],align(right)[#pageref("s-4308553a40ce")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-61b0734b97e4")[#strong[#text("Hear Me Still")]]#linebreak()#text(size:8pt)[Class Shepherd; minimum level 1]],align(right)[#pageref("s-61b0734b97e4")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-4ae89f9a2005")[#strong[#text("Hold a Conversation")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-4ae89f9a2005")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-79bc81080a40")[#strong[#text("Hook and Drive")]]#linebreak()#text(size:8pt)[Arms 1]],align(right)[#pageref("s-79bc81080a40")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-159a95b3baad")[#strong[#text("I Have Seen This Step")]]#linebreak()#text(size:8pt)[Scholarship 1]],align(right)[#pageref("s-159a95b3baad")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-f6f355a9a0ce")[#strong[#text("Identify a Mixture")]]#linebreak()#text(size:8pt)[Scholarship 1]],align(right)[#pageref("s-f6f355a9a0ce")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-fc3713e7daec")[#strong[#text("Identify an Enchantment")]]#linebreak()#text(size:8pt)[Scholarship 1]],align(right)[#pageref("s-fc3713e7daec")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b090d56f57fa")[#strong[#text("Intrusive Echo")]]#linebreak()#text(size:8pt)[Mind 1]],align(right)[#pageref("s-b090d56f57fa")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-57f6387c6028")[#strong[#text("Invitation to the Blade")]]#linebreak()#text(size:8pt)[Arms 1]],align(right)[#pageref("s-57f6387c6028")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-74c5c6765a91")[#strong[#text("Keep the Door Closed")]]#linebreak()#text(size:8pt)[Life 1]],align(right)[#pageref("s-74c5c6765a91")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-f28a32bf04d4")[#strong[#text("Keep the Quarry Close")]]#linebreak()#text(size:8pt)[Class Warden; minimum level 1]],align(right)[#pageref("s-f28a32bf04d4")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-57a8cf7ceb2c")[#strong[#text("Keep Time with Steel")]]#linebreak()#text(size:8pt)[Influence 1]],align(right)[#pageref("s-57a8cf7ceb2c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8bc286049eb3")[#strong[#text("Keep Your Bearings")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-8bc286049eb3")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-38e4cc5379f9")[#strong[#text("Lantern in the Palm")]]#linebreak()#text(size:8pt)[Radiance 1]],align(right)[#pageref("s-38e4cc5379f9")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-2916c871443a")[#strong[#text("Lantern Moths")]]#linebreak()#text(size:8pt)[Radiance 1]],align(right)[#pageref("s-2916c871443a")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-e0dcb7aef2c3")[#strong[#text("Laugh at the Fall")]]#linebreak()#text(size:8pt)[Class Unbalanced; minimum level 1]],align(right)[#pageref("s-e0dcb7aef2c3")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-e50044a24182")[#strong[#text("Lead the Step")]]#linebreak()#text(size:8pt)[Class Leader; minimum level 1]],align(right)[#pageref("s-e50044a24182")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-e4182074f203")[#strong[#text("Let the Spark Decide")]]#linebreak()#text(size:8pt)[Flame 1]],align(right)[#pageref("s-e4182074f203")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-c1806fb50c1b")[#strong[#text("Make Something Useful")]]#linebreak()#text(size:8pt)[Craft 1]],align(right)[#pageref("s-c1806fb50c1b")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-a2d1a9eb1143")[#strong[#text("Make the Connection")]]#linebreak()#text(size:8pt)[Class Intellect; minimum level 1]],align(right)[#pageref("s-a2d1a9eb1143")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-7a069d6648a5")[#strong[#text("Measured Appeal")]]#linebreak()#text(size:8pt)[Influence 1]],align(right)[#pageref("s-7a069d6648a5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-4f08c7da2fe3")[#strong[#text("Measured Guard")]]#linebreak()#text(size:8pt)[Class Blade; minimum level 1]],align(right)[#pageref("s-4f08c7da2fe3")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-f5add3130b03")[#strong[#text("Mercy in the Light")]]#linebreak()#text(size:8pt)[Radiance 1]],align(right)[#pageref("s-f5add3130b03")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-42f939f3aed0")[#strong[#text("Name the Reckoning")]]#linebreak()#text(size:8pt)[Influence 1]],align(right)[#pageref("s-42f939f3aed0")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-ded249872692")[#strong[#text("Notice the Human Detail")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-ded249872692")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-788fb7bb32b2")[#strong[#text("Oathlight Strike")]]#linebreak()#text(size:8pt)[Radiance 1]],align(right)[#pageref("s-788fb7bb32b2")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-910d1a40bef2")[#strong[#text("Ordinary Recipe Study")]]#linebreak()#text(size:8pt)[Craft 1; known compatible crafting card]],align(right)[#pageref("s-910d1a40bef2")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-27a35db4f523")[#strong[#text("Pack with Purpose")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-27a35db4f523")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-43f4bd09220f")[#strong[#text("Palm of the Gale")]]#linebreak()#text(size:8pt)[Storm 1]],align(right)[#pageref("s-43f4bd09220f")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-a61a3f0d1b49")[#strong[#text("Pinning Shot")]]#linebreak()#text(size:8pt)[Marksmanship 1]],align(right)[#pageref("s-a61a3f0d1b49")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b12f04f5c58f")[#strong[#text("Prepared Explanation")]]#linebreak()#text(size:8pt)[Class Intellect; minimum level 1]],align(right)[#pageref("s-b12f04f5c58f")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d51228096429")[#strong[#text("Pressure Point")]]#linebreak()#text(size:8pt)[Class Blade; minimum level 1]],align(right)[#pageref("s-d51228096429")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-ddd66a510b36")[#strong[#text("Quiet Latch")]]#linebreak()#text(size:8pt)[Subterfuge 1]],align(right)[#pageref("s-ddd66a510b36")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-e66b2d4a9624")[#strong[#text("Read the Passing")]]#linebreak()#text(size:8pt)[Class Warden; minimum level 1]],align(right)[#pageref("s-e66b2d4a9624")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-43429d322c0c")[#strong[#text("Read the Quarry")]]#linebreak()#text(size:8pt)[Marksmanship 1]],align(right)[#pageref("s-43429d322c0c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-37c8bd3c7d28")[#strong[#text("Read the Remains")]]#linebreak()#text(size:8pt)[Scholarship 1]],align(right)[#pageref("s-37c8bd3c7d28")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-3e7997d354fd")[#strong[#text("Relieve Poison")]]#linebreak()#text(size:8pt)[Medicine 1]],align(right)[#pageref("s-3e7997d354fd")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-fe1587c3ea64")[#strong[#text("Rime Grip")]]#linebreak()#text(size:8pt)[Frost 1]],align(right)[#pageref("s-fe1587c3ea64")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-e16c4f638ad5")[#strong[#text("Roots Remember Feet")]]#linebreak()#text(size:8pt)[Wilderness 1]],align(right)[#pageref("s-e16c4f638ad5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-199248a32781")[#strong[#text("Rouse the Senses")]]#linebreak()#text(size:8pt)[Medicine 1]],align(right)[#pageref("s-199248a32781")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-a4dba94902f5")[#strong[#text("Saddle and Rein")]]#linebreak()#text(size:8pt)[Wilderness 1]],align(right)[#pageref("s-a4dba94902f5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-606521a493ff")[#strong[#text("Sap and Breath")]]#linebreak()#text(size:8pt)[Life 1]],align(right)[#pageref("s-606521a493ff")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-a6fe8604c3d3")[#strong[#text("Secure a Hold")]]#linebreak()#text(size:8pt)[Athletics 1]],align(right)[#pageref("s-a6fe8604c3d3")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-fc048fa2af8c")[#strong[#text("Sell the Feint")]]#linebreak()#text(size:8pt)[Arms 1 and Subterfuge 1]],align(right)[#pageref("s-fc048fa2af8c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-9be12b5c0ebb")[#strong[#text("Set Your Feet")]]#linebreak()#text(size:8pt)[Class Protector; minimum level 1]],align(right)[#pageref("s-9be12b5c0ebb")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-a4c83899a588")[#strong[#text("Shared Breath")]]#linebreak()#text(size:8pt)[Life 1]],align(right)[#pageref("s-a4c83899a588")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-5dc69f4dd73b")[#strong[#text("Shielding Step")]]#linebreak()#text(size:8pt)[Guard 1]],align(right)[#pageref("s-5dc69f4dd73b")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d3462890bae0")[#strong[#text("Shoulder Through")]]#linebreak()#text(size:8pt)[Class Unbalanced; minimum level 1]],align(right)[#pageref("s-d3462890bae0")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-eb5d31ce8508")[#strong[#text("Sideways Thinking")]]#linebreak()#text(size:8pt)[Class Odd; minimum level 1]],align(right)[#pageref("s-eb5d31ce8508")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-f6bae7ebbc57")[#strong[#text("Smile Before Steel")]]#linebreak()#text(size:8pt)[Arms 1]],align(right)[#pageref("s-f6bae7ebbc57")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-2cfa9459da40")[#strong[#text("Smoke in a Bottle")]]#linebreak()#text(size:8pt)[Craft 1]],align(right)[#pageref("s-2cfa9459da40")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-2e6ccf98e312")[#strong[#text("Soft Landing")]]#linebreak()#text(size:8pt)[Class Shadow; minimum level 1]],align(right)[#pageref("s-2e6ccf98e312")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-2901bff290db")[#strong[#text("Speak with the Hearth")]]#linebreak()#text(size:8pt)[Flame 1]],align(right)[#pageref("s-2901bff290db")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b22ada34d129")[#strong[#text("Spot the Leverage")]]#linebreak()#text(size:8pt)[Class Intellect; minimum level 1]],align(right)[#pageref("s-b22ada34d129")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-357292401433")[#strong[#text("Spring in the Sleeve")]]#linebreak()#text(size:8pt)[Craft 1]],align(right)[#pageref("s-357292401433")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-39476eb68bda")[#strong[#text("Stand Together")]]#linebreak()#text(size:8pt)[Class Leader; minimum level 1]],align(right)[#pageref("s-39476eb68bda")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-2960fb94332a")[#strong[#text("Step Between Lanterns")]]#linebreak()#text(size:8pt)[Subterfuge 1]],align(right)[#pageref("s-2960fb94332a")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-85e94e582dcc")[#strong[#text("Stitch the Living Pattern")]]#linebreak()#text(size:8pt)[Scholarship 1]],align(right)[#pageref("s-85e94e582dcc")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-83fb666fdd7b")[#strong[#text("Study the Pattern")]]#linebreak()#text(size:8pt)[Class Arcanist; minimum level 1]],align(right)[#pageref("s-83fb666fdd7b")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-4bae3b97adcd")[#strong[#text("Summon Animal — Novice")]]#linebreak()#text(size:8pt)[Calling 1]],align(right)[#pageref("s-4bae3b97adcd")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-593a4ab3e236")[#strong[#text("Summon Construct — Novice")]]#linebreak()#text(size:8pt)[Calling 1]],align(right)[#pageref("s-593a4ab3e236")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-98b40bc83bc9")[#strong[#text("Summon Elemental — Novice")]]#linebreak()#text(size:8pt)[Calling 1]],align(right)[#pageref("s-98b40bc83bc9")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-e07be2e898d1")[#strong[#text("Summon Fey — Novice")]]#linebreak()#text(size:8pt)[Calling 1]],align(right)[#pageref("s-e07be2e898d1")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-cf9d120450ce")[#strong[#text("Summon Spirit — Novice")]]#linebreak()#text(size:8pt)[Calling 1]],align(right)[#pageref("s-cf9d120450ce")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-9a79cc18229b")[#strong[#text("Summon Undead — Novice")]]#linebreak()#text(size:8pt)[Calling 1]],align(right)[#pageref("s-9a79cc18229b")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-81968023986d")[#strong[#text("Sure Ascent")]]#linebreak()#text(size:8pt)[Athletics 1]],align(right)[#pageref("s-81968023986d")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-5fa88b2dc319")[#strong[#text("Swing into Trouble")]]#linebreak()#text(size:8pt)[Athletics 1]],align(right)[#pageref("s-5fa88b2dc319")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-f70404717fe6")[#strong[#text("Take the Measure")]]#linebreak()#text(size:8pt)[Marksmanship 1]],align(right)[#pageref("s-f70404717fe6")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8bf4c899b76a")[#strong[#text("Take Them Alive")]]#linebreak()#text(size:8pt)[Arms 1]],align(right)[#pageref("s-8bf4c899b76a")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d2cc2f97d507")[#strong[#text("Tell a Worthy Story")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-d2cc2f97d507")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-6facfd6f6b13")[#strong[#text("The Key Changes Hands")]]#linebreak()#text(size:8pt)[Subterfuge 1]],align(right)[#pageref("s-6facfd6f6b13")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-5566a5f3ed51")[#strong[#text("The Otter’s Bargain")]]#linebreak()#text(size:8pt)[Wilderness 1]],align(right)[#pageref("s-5566a5f3ed51")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d81a1958a55c")[#strong[#text("The Patient Metal")]]#linebreak()#text(size:8pt)[Scholarship 1]],align(right)[#pageref("s-d81a1958a55c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-1f9a863cb1f5")[#strong[#text("The Right Small Courtesy")]]#linebreak()#text(size:8pt)[Influence 1]],align(right)[#pageref("s-1f9a863cb1f5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-e0f03cd9803f")[#strong[#text("The Untroubled Hand")]]#linebreak()#text(size:8pt)[Athletics 1]],align(right)[#pageref("s-e0f03cd9803f")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8139ff39e4f2")[#strong[#text("Thunder at the Door")]]#linebreak()#text(size:8pt)[Storm 1]],align(right)[#pageref("s-8139ff39e4f2")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-55a747e1dcae")[#strong[#text("Trail Workshop")]]#linebreak()#text(size:8pt)[Craft 1]],align(right)[#pageref("s-55a747e1dcae")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-afd69d03fa79")[#strong[#text("Treat Bone")]]#linebreak()#text(size:8pt)[Medicine 1]],align(right)[#pageref("s-afd69d03fa79")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-09d5eb4341f2")[#strong[#text("Treat Elemental Injury")]]#linebreak()#text(size:8pt)[Medicine 1]],align(right)[#pageref("s-09d5eb4341f2")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-bf38cda8561d")[#strong[#text("Treat Life Injury")]]#linebreak()#text(size:8pt)[Medicine 1]],align(right)[#pageref("s-bf38cda8561d")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-85e091071416")[#strong[#text("Treat Mental Trauma")]]#linebreak()#text(size:8pt)[Medicine 1]],align(right)[#pageref("s-85e091071416")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-476aafa6e992")[#strong[#text("Treat Radiant Injury")]]#linebreak()#text(size:8pt)[Medicine 1]],align(right)[#pageref("s-476aafa6e992")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d72b8ce2ae0e")[#strong[#text("Treat Soft Tissue")]]#linebreak()#text(size:8pt)[Medicine 1]],align(right)[#pageref("s-d72b8ce2ae0e")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-ce1fbee7c24c")[#strong[#text("Turn Their Eye")]]#linebreak()#text(size:8pt)[Class Shadow; minimum level 1]],align(right)[#pageref("s-ce1fbee7c24c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0fd1d5ea6ba6")[#strong[#text("Useful Interruption")]]#linebreak()#text(size:8pt)[Class Odd; minimum level 1]],align(right)[#pageref("s-0fd1d5ea6ba6")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d3bba3dde3ae")[#strong[#text("Wake the Iron Rune")]]#linebreak()#text(size:8pt)[Armor 1]],align(right)[#pageref("s-d3bba3dde3ae")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-30d5ca182be2")[#strong[#text("Wear Medium Armor")]]#linebreak()#text(size:8pt)[Armor 1]],align(right)[#pageref("s-30d5ca182be2")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-684f1a60a6ab")[#strong[#text("Wild Approach")]]#linebreak()#text(size:8pt)[Class Unbalanced; minimum level 1]],align(right)[#pageref("s-684f1a60a6ab")])]
+],))
+#pagebreak(weak:true)
+#heading(level:2,"Adept ability index")
+Shared abilities and class signatures are listed together. A class requirement marks an exclusive signature.
+
+#reading-columns(([#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-af63ae7d05da")[#strong[#text("A Better Angle")]]#linebreak()#text(size:8pt)[Class Intellect; minimum level 3]],align(right)[#pageref("s-af63ae7d05da")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-1f550d30b8a6")[#strong[#text("A Bough for the Fallen")]]#linebreak()#text(size:8pt)[Life 2 and Wilderness 1]],align(right)[#pageref("s-1f550d30b8a6")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-54fefd5e6adc")[#strong[#text("A Breath beneath the Water")]]#linebreak()#text(size:8pt)[Wilderness 2 and Life 1]],align(right)[#pageref("s-54fefd5e6adc")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-e97ab605ed17")[#strong[#text("A Camp without a Trace")]]#linebreak()#text(size:8pt)[Subterfuge 2 and Wilderness 1]],align(right)[#pageref("s-e97ab605ed17")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-f7700837de75")[#strong[#text("A Line for Everyone")]]#linebreak()#text(size:8pt)[Athletics 2 and Wilderness 1]],align(right)[#pageref("s-f7700837de75")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b7c0dedda6d3")[#strong[#text("A Lock Has a Language")]]#linebreak()#text(size:8pt)[Subterfuge 2]],align(right)[#pageref("s-b7c0dedda6d3")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0ec013bc023f")[#strong[#text("A Ribcage for a Shield")]]#linebreak()#text(size:8pt)[Calling 2]],align(right)[#pageref("s-0ec013bc023f")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-a274a52349dd")[#strong[#text("A Road through Rain")]]#linebreak()#text(size:8pt)[Storm 2]],align(right)[#pageref("s-a274a52349dd")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b602f6e1a9f1")[#strong[#text("A Roof before Nightfall")]]#linebreak()#text(size:8pt)[Wilderness 2 and Craft 1]],align(right)[#pageref("s-b602f6e1a9f1")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-6b84ca83285d")[#strong[#text("A Shelter of Light")]]#linebreak()#text(size:8pt)[Radiance 2]],align(right)[#pageref("s-6b84ca83285d")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d6873a0ed111")[#strong[#text("A Small and Watchful Shape")]]#linebreak()#text(size:8pt)[Wilderness 2 and Subterfuge 1]],align(right)[#pageref("s-d6873a0ed111")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-2d0cbcb3b428")[#strong[#text("A Steady Hand at Dawn")]]#linebreak()#text(size:8pt)[Medicine 2]],align(right)[#pageref("s-2d0cbcb3b428")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-2b2e175030a8")[#strong[#text("A Watchful Rest")]]#linebreak()#text(size:8pt)[Class Warden; minimum level 3]],align(right)[#pageref("s-2b2e175030a8")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d67d39d397a8")[#strong[#text("A Word Apart")]]#linebreak()#text(size:8pt)[Influence 2 and Subterfuge 1]],align(right)[#pageref("s-d67d39d397a8")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-969275257404")[#strong[#text("Arcane Deflection")]]#linebreak()#text(size:8pt)[Class Arcanist; minimum level 3]],align(right)[#pageref("s-969275257404")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-700933f2741d")[#strong[#text("Armored Recovery")]]#linebreak()#text(size:8pt)[Armor 2]],align(right)[#pageref("s-700933f2741d")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0cd55d6c9765")[#strong[#text("Arrive under Guard")]]#linebreak()#text(size:8pt)[Guard 2 and Athletics 1]],align(right)[#pageref("s-0cd55d6c9765")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-4ab7e1afe098")[#strong[#text("Ask the Falling Ash")]]#linebreak()#text(size:8pt)[Scholarship 2]],align(right)[#pageref("s-4ab7e1afe098")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-3dd709100098")[#strong[#text("Behind the Hawthorn")]]#linebreak()#text(size:8pt)[Mind 2]],align(right)[#pageref("s-3dd709100098")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-14904e5a8167")[#strong[#text("Bind and Turn")]]#linebreak()#text(size:8pt)[Arms 2]],align(right)[#pageref("s-14904e5a8167")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0438726e35dc")[#strong[#text("Borrow Tomorrow’s Weather")]]#linebreak()#text(size:8pt)[Flame 2]],align(right)[#pageref("s-0438726e35dc")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-89d23bd45071")[#strong[#text("Borrowed Silhouette")]]#linebreak()#text(size:8pt)[Mind 2]],align(right)[#pageref("s-89d23bd45071")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b10920431af0")[#strong[#text("Bottled Morning")]]#linebreak()#text(size:8pt)[Craft 2 and Medicine 1]],align(right)[#pageref("s-b10920431af0")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-97249b421028")[#strong[#text("Break the Formation")]]#linebreak()#text(size:8pt)[Arms 2]],align(right)[#pageref("s-97249b421028")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8c09ee64601e")[#strong[#text("Break Their Advance")]]#linebreak()#text(size:8pt)[Class Protector; minimum level 3]],align(right)[#pageref("s-8c09ee64601e")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-4a927c01c65e")[#strong[#text("Briar Gate")]]#linebreak()#text(size:8pt)[Wilderness 2]],align(right)[#pageref("s-4a927c01c65e")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0c2e039d0225")[#strong[#text("Bridge of Winter")]]#linebreak()#text(size:8pt)[Frost 2]],align(right)[#pageref("s-0c2e039d0225")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8570d0c3185a")[#strong[#text("Bring Them Near")]]#linebreak()#text(size:8pt)[Class Shepherd; minimum level 3]],align(right)[#pageref("s-8570d0c3185a")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-db6a1d1278ed")[#strong[#text("Call the Opening")]]#linebreak()#text(size:8pt)[Influence 2]],align(right)[#pageref("s-db6a1d1278ed")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0569495be2d1")[#strong[#text("Careful Transfer")]]#linebreak()#text(size:8pt)[Class Shepherd; minimum level 3]],align(right)[#pageref("s-0569495be2d1")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-2d8ecd1b85ad")[#strong[#text("Cast and Scatter")]]#linebreak()#text(size:8pt)[Class Arcanist; minimum level 3]],align(right)[#pageref("s-2d8ecd1b85ad")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-e622c4cb6cb7")[#strong[#text("Catch the Spell")]]#linebreak()#text(size:8pt)[Scholarship 2]],align(right)[#pageref("s-e622c4cb6cb7")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-dacb14d20957")[#strong[#text("Change the Question")]]#linebreak()#text(size:8pt)[Class Odd; minimum level 3]],align(right)[#pageref("s-dacb14d20957")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-ce1d6794bed5")[#strong[#text("Circle of Old Names")]]#linebreak()#text(size:8pt)[Calling 2 and Guard 1]],align(right)[#pageref("s-ce1d6794bed5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-ddb5ca797a91")[#strong[#text("Crush the Barrier")]]#linebreak()#text(size:8pt)[Class Unbalanced; minimum level 3]],align(right)[#pageref("s-ddb5ca797a91")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-4f30c7d72c1c")[#strong[#text("Cut Off the Escape")]]#linebreak()#text(size:8pt)[Marksmanship 2]],align(right)[#pageref("s-4f30c7d72c1c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-e5c039e6e9f2")[#strong[#text("Derive a Mechanism")]]#linebreak()#text(size:8pt)[Craft 2]],align(right)[#pageref("s-e5c039e6e9f2")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-7d356f4230de")[#strong[#text("Diagnose the Failure")]]#linebreak()#text(size:8pt)[Class Intellect; minimum level 3]],align(right)[#pageref("s-7d356f4230de")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-e32c1c9d4824")[#strong[#text("Draw the Current")]]#linebreak()#text(size:8pt)[Storm 2 and Scholarship 1]],align(right)[#pageref("s-e32c1c9d4824")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-ebf6d1d7654c")[#strong[#text("Dread Reflection")]]#linebreak()#text(size:8pt)[Mind 2]],align(right)[#pageref("s-ebf6d1d7654c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-327e15119125")[#strong[#text("Driving Volley")]]#linebreak()#text(size:8pt)[Marksmanship 2]],align(right)[#pageref("s-327e15119125")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8d84d83e83eb")[#strong[#text("Fell the Balance")]]#linebreak()#text(size:8pt)[Class Blade; minimum level 3]],align(right)[#pageref("s-8d84d83e83eb")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b5b21bea0df4")[#strong[#text("Fling the Captive")]]#linebreak()#text(size:8pt)[Class Unbalanced; minimum level 3]],align(right)[#pageref("s-b5b21bea0df4")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d0c514a685fc")[#strong[#text("Furnace Sweep")]]#linebreak()#text(size:8pt)[Flame 2]],align(right)[#pageref("s-d0c514a685fc")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-9ba643fc50ac")[#strong[#text("Haul Them Home")]]#linebreak()#text(size:8pt)[Athletics 2 and Guard 1]],align(right)[#pageref("s-9ba643fc50ac")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-fe505c56a200")[#strong[#text("Hold the Passage")]]#linebreak()#text(size:8pt)[Guard 2]],align(right)[#pageref("s-fe505c56a200")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-effa525784b5")[#strong[#text("Hold Your Nerve")]]#linebreak()#text(size:8pt)[Class Leader; minimum level 3]],align(right)[#pageref("s-effa525784b5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-4a0938260194")[#strong[#text("Ice across the Break")]]#linebreak()#text(size:8pt)[Frost 2 and Wilderness 1]],align(right)[#pageref("s-4a0938260194")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-47f2c1d1b4c7")[#strong[#text("Icebound Path")]]#linebreak()#text(size:8pt)[Frost 2]],align(right)[#pageref("s-47f2c1d1b4c7")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-336b5136b2e5")[#strong[#text("Leave a Window")]]#linebreak()#text(size:8pt)[Class Arcanist; minimum level 3]],align(right)[#pageref("s-336b5136b2e5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-39453f773b9a")[#strong[#text("Live in the Mask")]]#linebreak()#text(size:8pt)[Subterfuge 2 and Influence 1]],align(right)[#pageref("s-39453f773b9a")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-4e90cb3fee6c")[#strong[#text("Make a Refuge")]]#linebreak()#text(size:8pt)[Class Protector; minimum level 3]],align(right)[#pageref("s-4e90cb3fee6c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-71e27d81e4b0")[#strong[#text("No Road Away")]]#linebreak()#text(size:8pt)[Influence 2]],align(right)[#pageref("s-71e27d81e4b0")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-f7ab06745db5")[#strong[#text("Open the Way")]]#linebreak()#text(size:8pt)[Class Shadow; minimum level 3]],align(right)[#pageref("s-f7ab06745db5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-7d4b0a5ef947")[#strong[#text("Orderly Withdrawal")]]#linebreak()#text(size:8pt)[Class Leader; minimum level 3]],align(right)[#pageref("s-7d4b0a5ef947")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-4ca2a9cc24a6")[#strong[#text("Pass the Guard")]]#linebreak()#text(size:8pt)[Class Shadow; minimum level 3]],align(right)[#pageref("s-4ca2a9cc24a6")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-f47bcccc43ee")[#strong[#text("Pounce of the Red Claw")]]#linebreak()#text(size:8pt)[Wilderness 2 and Athletics 1]],align(right)[#pageref("s-f47bcccc43ee")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-70b23265ef79")[#strong[#text("Predict the Motion")]]#linebreak()#text(size:8pt)[Class Intellect; minimum level 3]],align(right)[#pageref("s-70b23265ef79")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-6e50ebac724a")[#strong[#text("Press the Opening")]]#linebreak()#text(size:8pt)[Class Leader; minimum level 3]],align(right)[#pageref("s-6e50ebac724a")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b86f62a4d65f")[#strong[#text("Quiet the Tremor")]]#linebreak()#text(size:8pt)[Class Shepherd; minimum level 3]],align(right)[#pageref("s-b86f62a4d65f")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-67c920babae2")[#strong[#text("Raging Recoil")]]#linebreak()#text(size:8pt)[Class Unbalanced; minimum level 3]],align(right)[#pageref("s-67c920babae2")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8f3ef546d491")[#strong[#text("Read a Dangerous Trail")]]#linebreak()#text(size:8pt)[Wilderness 2]],align(right)[#pageref("s-8f3ef546d491")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-c791bc3263af")[#strong[#text("Read the Maker’s Hand")]]#linebreak()#text(size:8pt)[Craft 2 and Scholarship 1]],align(right)[#pageref("s-c791bc3263af")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-2d6d412f93b9")[#strong[#text("Read the Next Blow")]]#linebreak()#text(size:8pt)[Scholarship 2]],align(right)[#pageref("s-2d6d412f93b9")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-2af6fd22810d")[#strong[#text("Remember This Name")]]#linebreak()#text(size:8pt)[Influence 2]],align(right)[#pageref("s-2af6fd22810d")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-2b9d2671ca7a")[#strong[#text("Rest for the Restless")]]#linebreak()#text(size:8pt)[Life 2]],align(right)[#pageref("s-2b9d2671ca7a")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-381ca0bbc05b")[#strong[#text("Return Stroke")]]#linebreak()#text(size:8pt)[Class Blade; minimum level 3]],align(right)[#pageref("s-381ca0bbc05b")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-ffb7d6b8c41b")[#strong[#text("Reveal the Threshold")]]#linebreak()#text(size:8pt)[Radiance 2]],align(right)[#pageref("s-ffb7d6b8c41b")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-9de0bb8338b1")[#strong[#text("Ride the Falling Stone")]]#linebreak()#text(size:8pt)[Athletics 2]],align(right)[#pageref("s-9de0bb8338b1")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8e49205366be")[#strong[#text("Running Vault")]]#linebreak()#text(size:8pt)[Athletics 2]],align(right)[#pageref("s-8e49205366be")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-84a6db46442c")[#strong[#text("Scales beneath the Skin")]]#linebreak()#text(size:8pt)[Flame 2 and Wilderness 1]],align(right)[#pageref("s-84a6db46442c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-e21a2f248cfa")[#strong[#text("Shelter the Fallen")]]#linebreak()#text(size:8pt)[Class Protector; minimum level 3]],align(right)[#pageref("s-e21a2f248cfa")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b80fb7eae64e")[#strong[#text("Silence the Alarm")]]#linebreak()#text(size:8pt)[Subterfuge 2]],align(right)[#pageref("s-b80fb7eae64e")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-baede3fc9acf")[#strong[#text("Smoke Through the Keyhole")]]#linebreak()#text(size:8pt)[Flame 2]],align(right)[#pageref("s-baede3fc9acf")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-5164ea0bc907")[#strong[#text("Stay on the Scent")]]#linebreak()#text(size:8pt)[Class Warden; minimum level 3]],align(right)[#pageref("s-5164ea0bc907")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-228dce1b7b4c")[#strong[#text("Step Through the Spark")]]#linebreak()#text(size:8pt)[Flame 2]],align(right)[#pageref("s-228dce1b7b4c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-59180a9442ec")[#strong[#text("Stone on Your Shoulders")]]#linebreak()#text(size:8pt)[Armor 2]],align(right)[#pageref("s-59180a9442ec")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b67c47b263c3")[#strong[#text("Storm on a String")]]#linebreak()#text(size:8pt)[Storm 1 and Craft 1]],align(right)[#pageref("s-b67c47b263c3")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-cdb380739469")[#strong[#text("Strike and Vanish")]]#linebreak()#text(size:8pt)[Class Shadow; minimum level 3]],align(right)[#pageref("s-cdb380739469")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-21283cfcebd2")[#strong[#text("Summon Animal — Adept")]]#linebreak()#text(size:8pt)[Calling 2]],align(right)[#pageref("s-21283cfcebd2")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d4455bc3c4c9")[#strong[#text("Summon Construct — Adept")]]#linebreak()#text(size:8pt)[Calling 2]],align(right)[#pageref("s-d4455bc3c4c9")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-a370b50de68a")[#strong[#text("Summon Elemental — Adept")]]#linebreak()#text(size:8pt)[Calling 2]],align(right)[#pageref("s-a370b50de68a")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-2f1306bdc55e")[#strong[#text("Summon Fey — Adept")]]#linebreak()#text(size:8pt)[Calling 2]],align(right)[#pageref("s-2f1306bdc55e")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b80492b400fd")[#strong[#text("Summon Spirit — Adept")]]#linebreak()#text(size:8pt)[Calling 2]],align(right)[#pageref("s-b80492b400fd")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-27ceffdfffd9")[#strong[#text("Summon Undead — Adept")]]#linebreak()#text(size:8pt)[Calling 2]],align(right)[#pageref("s-27ceffdfffd9")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8711502c942b")[#strong[#text("Sustain the Failing")]]#linebreak()#text(size:8pt)[Life 2]],align(right)[#pageref("s-8711502c942b")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-1120d1e1dd74")[#strong[#text("Sweeping Entry")]]#linebreak()#text(size:8pt)[Class Blade; minimum level 3]],align(right)[#pageref("s-1120d1e1dd74")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-bfaa937e43cf")[#strong[#text("Teach Stone to Bend")]]#linebreak()#text(size:8pt)[Scholarship 2]],align(right)[#pageref("s-bfaa937e43cf")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8f9b68c9239d")[#strong[#text("The Angle of Unease")]]#linebreak()#text(size:8pt)[Mind 2]],align(right)[#pageref("s-8f9b68c9239d")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-7cf74c986db8")[#strong[#text("The Chorus Advances")]]#linebreak()#text(size:8pt)[Influence 2]],align(right)[#pageref("s-7cf74c986db8")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-049ec515d5b7")[#strong[#text("The Debt Comes Due")]]#linebreak()#text(size:8pt)[Flame 2]],align(right)[#pageref("s-049ec515d5b7")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b066e3d06a02")[#strong[#text("The Road Remembers")]]#linebreak()#text(size:8pt)[Wilderness 2]],align(right)[#pageref("s-b066e3d06a02")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0fee6504a4c1")[#strong[#text("The Unlit Road")]]#linebreak()#text(size:8pt)[Subterfuge 2]],align(right)[#pageref("s-0fee6504a4c1")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-28218ee7d31b")[#strong[#text("Through Bramble and Stone")]]#linebreak()#text(size:8pt)[Class Warden; minimum level 3]],align(right)[#pageref("s-28218ee7d31b")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8450e5fa3bd6")[#strong[#text("Through the Spearpoints")]]#linebreak()#text(size:8pt)[Arms 2]],align(right)[#pageref("s-8450e5fa3bd6")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-c4ee5d3c049c")[#strong[#text("Thunder Ring")]]#linebreak()#text(size:8pt)[Storm 2]],align(right)[#pageref("s-c4ee5d3c049c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-906625ca362d")[#strong[#text("Translate the Fragment")]]#linebreak()#text(size:8pt)[Scholarship 2]],align(right)[#pageref("s-906625ca362d")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b63afd7b547d")[#strong[#text("Turn the River")]]#linebreak()#text(size:8pt)[Athletics 2]],align(right)[#pageref("s-b63afd7b547d")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-e7f661a56d10")[#strong[#text("Under Their Guard")]]#linebreak()#text(size:8pt)[Arms 2]],align(right)[#pageref("s-e7f661a56d10")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-412080346fc2")[#strong[#text("Undertow Answer")]]#linebreak()#text(size:8pt)[Wilderness 2 and Frost 1]],align(right)[#pageref("s-412080346fc2")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b1469237eba4")[#strong[#text("Unlikely Assistant")]]#linebreak()#text(size:8pt)[Class Odd; minimum level 3]],align(right)[#pageref("s-b1469237eba4")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-22e6f489bade")[#strong[#text("Unravel the Bolt")]]#linebreak()#text(size:8pt)[Guard 2]],align(right)[#pageref("s-22e6f489bade")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-fb4bae07a2e2")[#strong[#text("Urgent Bandaging")]]#linebreak()#text(size:8pt)[Medicine 2]],align(right)[#pageref("s-fb4bae07a2e2")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-fd8e0f63e005")[#strong[#text("Veiled Crossing")]]#linebreak()#text(size:8pt)[Subterfuge 2]],align(right)[#pageref("s-fd8e0f63e005")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-4432e6d45409")[#strong[#text("Walk the Thunder")]]#linebreak()#text(size:8pt)[Storm 2]],align(right)[#pageref("s-4432e6d45409")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-07696a43ba98")[#strong[#text("Wear Heavy Armor")]]#linebreak()#text(size:8pt)[Armor 2]],align(right)[#pageref("s-07696a43ba98")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-3da2e55163a8")[#strong[#text("Wrong Place for That")]]#linebreak()#text(size:8pt)[Class Odd; minimum level 3]],align(right)[#pageref("s-3da2e55163a8")])]
+],))
+#pagebreak(weak:true)
+#heading(level:2,"Master ability index")
+Shared abilities and class signatures are listed together. A class requirement marks an exclusive signature.
+
+#reading-columns(([#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-9385ed20c73c")[#strong[#text("A Company of Reflections")]]#linebreak()#text(size:8pt)[Mind 2 and Guard 2]],align(right)[#pageref("s-9385ed20c73c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-5339078db195")[#strong[#text("A Hand in Darkness")]]#linebreak()#text(size:8pt)[Class Shepherd; minimum level 7]],align(right)[#pageref("s-5339078db195")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-fc91bae7e9ab")[#strong[#text("A Marvel on Wheels")]]#linebreak()#text(size:8pt)[Craft 3 and Marksmanship 1]],align(right)[#pageref("s-fc91bae7e9ab")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-c7151cad6573")[#strong[#text("A Route for Everyone")]]#linebreak()#text(size:8pt)[Class Intellect; minimum level 7]],align(right)[#pageref("s-c7151cad6573")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-2c50955d2127")[#strong[#text("A Shadow at the Heart")]]#linebreak()#text(size:8pt)[Subterfuge 3]],align(right)[#pageref("s-2c50955d2127")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-ca1be516ae93")[#strong[#text("A Splendid Mistake")]]#linebreak()#text(size:8pt)[Flame 3]],align(right)[#pageref("s-ca1be516ae93")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b0bce85feacc")[#strong[#text("A Sword Made of Dawn")]]#linebreak()#text(size:8pt)[Flame 3 and Arms 1]],align(right)[#pageref("s-b0bce85feacc")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-3ee4159bbfff")[#strong[#text("A Voice across the Valley")]]#linebreak()#text(size:8pt)[Mind 2 and Storm 2]],align(right)[#pageref("s-3ee4159bbfff")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0e3d8ad2dfbd")[#strong[#text("All Voices as One")]]#linebreak()#text(size:8pt)[Influence 3]],align(right)[#pageref("s-0e3d8ad2dfbd")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0e04794c53d2")[#strong[#text("An Impossible Theft")]]#linebreak()#text(size:8pt)[Subterfuge 3]],align(right)[#pageref("s-0e04794c53d2")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-ae834ac0cfe1")[#strong[#text("An Unexpected Exit")]]#linebreak()#text(size:8pt)[Class Odd; minimum level 7]],align(right)[#pageref("s-ae834ac0cfe1")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-3dfa5567b60c")[#strong[#text("Answer for What You Did")]]#linebreak()#text(size:8pt)[Influence 3]],align(right)[#pageref("s-3dfa5567b60c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-1b82cf6287ef")[#strong[#text("Borrow the Shadow")]]#linebreak()#text(size:8pt)[Subterfuge 3]],align(right)[#pageref("s-1b82cf6287ef")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-6e3ab17356cb")[#strong[#text("Borrowed Identity")]]#linebreak()#text(size:8pt)[Subterfuge 3 and Influence 1]],align(right)[#pageref("s-6e3ab17356cb")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-51f7ce2cc800")[#strong[#text("Bow to the Balcony")]]#linebreak()#text(size:8pt)[Arms 3]],align(right)[#pageref("s-51f7ce2cc800")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8384b54259a9")[#strong[#text("Break the Charge")]]#linebreak()#text(size:8pt)[Arms 3]],align(right)[#pageref("s-8384b54259a9")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-28b3f83e4d98")[#strong[#text("Break Their Grip")]]#linebreak()#text(size:8pt)[Class Unbalanced; minimum level 7]],align(right)[#pageref("s-28b3f83e4d98")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-c88fd560b879")[#strong[#text("Bring Them Through")]]#linebreak()#text(size:8pt)[Class Warden; minimum level 7]],align(right)[#pageref("s-c88fd560b879")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b85d10a9d18f")[#strong[#text("Carry the Sunrise")]]#linebreak()#text(size:8pt)[Radiance 3]],align(right)[#pageref("s-b85d10a9d18f")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d71f33bfa8a5")[#strong[#text("Carry Them to Shore")]]#linebreak()#text(size:8pt)[Wilderness 3]],align(right)[#pageref("s-d71f33bfa8a5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-2a9e0ff502b2")[#strong[#text("Carry to Safety")]]#linebreak()#text(size:8pt)[Guard 3]],align(right)[#pageref("s-2a9e0ff502b2")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0cc1d3ab6da1")[#strong[#text("Cast through the Reflection")]]#linebreak()#text(size:8pt)[Scholarship 3 and Mind 1]],align(right)[#pageref("s-0cc1d3ab6da1")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-3116911dba83")[#strong[#text("Checkmate in Three Steps")]]#linebreak()#text(size:8pt)[Scholarship 3]],align(right)[#pageref("s-3116911dba83")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-fbac25a80193")[#strong[#text("Choose the Edge")]]#linebreak()#text(size:8pt)[Class Arcanist; minimum level 7]],align(right)[#pageref("s-fbac25a80193")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-3d45ba1843d4")[#strong[#text("Coordinated Rush")]]#linebreak()#text(size:8pt)[Class Leader; minimum level 7]],align(right)[#pageref("s-3d45ba1843d4")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-be941930d850")[#strong[#text("Crash Down")]]#linebreak()#text(size:8pt)[Class Unbalanced; minimum level 7]],align(right)[#pageref("s-be941930d850")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-cc828e18803e")[#strong[#text("Dance beyond the Circle")]]#linebreak()#text(size:8pt)[Mind 3]],align(right)[#pageref("s-cc828e18803e")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-75f95aa509b8")[#strong[#text("Dance Through Steel")]]#linebreak()#text(size:8pt)[Class Blade; minimum level 7]],align(right)[#pageref("s-75f95aa509b8")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-91f1b06884ac")[#strong[#text("Defiant Rescue")]]#linebreak()#text(size:8pt)[Class Protector; minimum level 7]],align(right)[#pageref("s-91f1b06884ac")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-a314c213fd56")[#strong[#text("Drive Back the Circle")]]#linebreak()#text(size:8pt)[Class Protector; minimum level 7]],align(right)[#pageref("s-a314c213fd56")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-618651fd79c9")[#strong[#text("Enchanting Workshop")]]#linebreak()#text(size:8pt)[Craft 3]],align(right)[#pageref("s-618651fd79c9")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-5a7e0c915748")[#strong[#text("Exploit Confusion")]]#linebreak()#text(size:8pt)[Class Shadow; minimum level 7]],align(right)[#pageref("s-5a7e0c915748")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-fa4cc330b2e7")[#strong[#text("Expose the Mechanism")]]#linebreak()#text(size:8pt)[Class Intellect; minimum level 7]],align(right)[#pageref("s-fa4cc330b2e7")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-51be293568a2")[#strong[#text("Fit a Replacement")]]#linebreak()#text(size:8pt)[Medicine 3]],align(right)[#pageref("s-51be293568a2")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-5932fc2c7bf9")[#strong[#text("Fold the Distance")]]#linebreak()#text(size:8pt)[Class Arcanist; minimum level 7]],align(right)[#pageref("s-5932fc2c7bf9")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-9c0b99b4a582")[#strong[#text("Forked Sky")]]#linebreak()#text(size:8pt)[Storm 3]],align(right)[#pageref("s-9c0b99b4a582")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-458bcf802246")[#strong[#text("Four Winds at Once")]]#linebreak()#text(size:8pt)[Storm 2 and Athletics 2]],align(right)[#pageref("s-458bcf802246")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-c78c16c50ffc")[#strong[#text("Guide the Crossing")]]#linebreak()#text(size:8pt)[Wilderness 3]],align(right)[#pageref("s-c78c16c50ffc")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0f82c9c28574")[#strong[#text("Hurl Aside")]]#linebreak()#text(size:8pt)[Arms 3]],align(right)[#pageref("s-0f82c9c28574")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-26c3b0a051bf")[#strong[#text("Know What You Hunt")]]#linebreak()#text(size:8pt)[Class Warden; minimum level 7]],align(right)[#pageref("s-26c3b0a051bf")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d84cf605bef5")[#strong[#text("Leave No Pursuit")]]#linebreak()#text(size:8pt)[Class Shadow; minimum level 7]],align(right)[#pageref("s-d84cf605bef5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-5b8e938de3f2")[#strong[#text("No Footfall at All")]]#linebreak()#text(size:8pt)[Subterfuge 3]],align(right)[#pageref("s-5b8e938de3f2")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-4262992561c1")[#strong[#text("Noonday Judgment")]]#linebreak()#text(size:8pt)[Radiance 3]],align(right)[#pageref("s-4262992561c1")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-851cab136089")[#strong[#text("Not Yet Your Name")]]#linebreak()#text(size:8pt)[Life 3 and Medicine 1]],align(right)[#pageref("s-851cab136089")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-e60cb2c9304a")[#strong[#text("One Last Remark")]]#linebreak()#text(size:8pt)[Class Odd; minimum level 7]],align(right)[#pageref("s-e60cb2c9304a")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-aa153c2db017")[#strong[#text("One More Dawn")]]#linebreak()#text(size:8pt)[None]],align(right)[#pageref("s-aa153c2db017")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-301348e613df")[#strong[#text("Open the Circle")]]#linebreak()#text(size:8pt)[Class Arcanist; minimum level 7]],align(right)[#pageref("s-301348e613df")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-471a4440c939")[#strong[#text("Open the Furnace Door")]]#linebreak()#text(size:8pt)[Flame 3]],align(right)[#pageref("s-471a4440c939")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-72486f7e3bed")[#strong[#text("Perfect Placement")]]#linebreak()#text(size:8pt)[Class Blade; minimum level 7]],align(right)[#pageref("s-72486f7e3bed")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0626f70d64d5")[#strong[#text("Reconstruct the Event")]]#linebreak()#text(size:8pt)[Scholarship 3]],align(right)[#pageref("s-0626f70d64d5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-bc5e21ff4153")[#strong[#text("Refuse the Rout")]]#linebreak()#text(size:8pt)[Class Leader; minimum level 7]],align(right)[#pageref("s-bc5e21ff4153")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d9eab10d11e5")[#strong[#text("Relentless Pursuit")]]#linebreak()#text(size:8pt)[Class Blade; minimum level 7]],align(right)[#pageref("s-d9eab10d11e5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-383c1aff42e3")[#strong[#text("Restore Composure")]]#linebreak()#text(size:8pt)[Class Shepherd; minimum level 7]],align(right)[#pageref("s-383c1aff42e3")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-44cd265b06d4")[#strong[#text("Return to Strength")]]#linebreak()#text(size:8pt)[Life 3]],align(right)[#pageref("s-44cd265b06d4")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-c5fe70133bbd")[#strong[#text("Scatter the Line")]]#linebreak()#text(size:8pt)[Class Unbalanced; minimum level 7]],align(right)[#pageref("s-c5fe70133bbd")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-5eb5e0b36f9f")[#strong[#text("Sever the Pursuit")]]#linebreak()#text(size:8pt)[Marksmanship 3]],align(right)[#pageref("s-5eb5e0b36f9f")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8b675c163f14")[#strong[#text("Shared Resolve")]]#linebreak()#text(size:8pt)[Class Shepherd; minimum level 7]],align(right)[#pageref("s-8b675c163f14")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-e9a3970c7f5a")[#strong[#text("Still the Will")]]#linebreak()#text(size:8pt)[Mind 3]],align(right)[#pageref("s-e9a3970c7f5a")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0cef8ad23763")[#strong[#text("Stillness at the Center")]]#linebreak()#text(size:8pt)[Athletics 3]],align(right)[#pageref("s-0cef8ad23763")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-f5b1428a3a0c")[#strong[#text("Strange but Effective")]]#linebreak()#text(size:8pt)[Class Odd; minimum level 7]],align(right)[#pageref("s-f5b1428a3a0c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-b04105c60eb6")[#strong[#text("Stride of the Giant")]]#linebreak()#text(size:8pt)[Armor 3]],align(right)[#pageref("s-b04105c60eb6")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-7ebb98971bf8")[#strong[#text("Summon Animal — Master")]]#linebreak()#text(size:8pt)[Calling 3]],align(right)[#pageref("s-7ebb98971bf8")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-9179af4bede4")[#strong[#text("Summon Construct — Master")]]#linebreak()#text(size:8pt)[Calling 3]],align(right)[#pageref("s-9179af4bede4")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-afed281ab3c0")[#strong[#text("Summon Elemental — Master")]]#linebreak()#text(size:8pt)[Calling 3]],align(right)[#pageref("s-afed281ab3c0")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-769489d90a89")[#strong[#text("Summon Fey — Master")]]#linebreak()#text(size:8pt)[Calling 3]],align(right)[#pageref("s-769489d90a89")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-30ea6d18db33")[#strong[#text("Summon Spirit — Master")]]#linebreak()#text(size:8pt)[Calling 3]],align(right)[#pageref("s-30ea6d18db33")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-7a270d71b6b4")[#strong[#text("Summon Undead — Master")]]#linebreak()#text(size:8pt)[Calling 3]],align(right)[#pageref("s-7a270d71b6b4")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-4504f0c673de")[#strong[#text("Terms before Swords")]]#linebreak()#text(size:8pt)[Influence 3]],align(right)[#pageref("s-4504f0c673de")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-d4ae4f067a54")[#strong[#text("Test the Hypothesis")]]#linebreak()#text(size:8pt)[Class Intellect; minimum level 7]],align(right)[#pageref("s-d4ae4f067a54")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-3a9d939220fb")[#strong[#text("The Circle Holds")]]#linebreak()#text(size:8pt)[Guard 3]],align(right)[#pageref("s-3a9d939220fb")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-8a70a29a33a0")[#strong[#text("The City Opens Its Doors")]]#linebreak()#text(size:8pt)[Subterfuge 3]],align(right)[#pageref("s-8a70a29a33a0")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-ae692ce84411")[#strong[#text("The Cleverest Mixture")]]#linebreak()#text(size:8pt)[Craft 3 and Medicine 1]],align(right)[#pageref("s-ae692ce84411")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-3a590a37bb9e")[#strong[#text("The Grove Gives Back")]]#linebreak()#text(size:8pt)[Life 3 and Wilderness 1]],align(right)[#pageref("s-3a590a37bb9e")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-15951f157941")[#strong[#text("The Hunt Ends Here")]]#linebreak()#text(size:8pt)[Marksmanship 3 and Wilderness 1]],align(right)[#pageref("s-15951f157941")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-19bb38a41f5a")[#strong[#text("The Land Keeps No Secrets")]]#linebreak()#text(size:8pt)[Wilderness 3]],align(right)[#pageref("s-19bb38a41f5a")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-5e383055f984")[#strong[#text("The Moment Foretold")]]#linebreak()#text(size:8pt)[Scholarship 3]],align(right)[#pageref("s-5e383055f984")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-cbed67fdff45")[#strong[#text("The Orchard Wakes")]]#linebreak()#text(size:8pt)[Wilderness 3]],align(right)[#pageref("s-cbed67fdff45")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-a8c6927cd77c")[#strong[#text("The Shape of Escape")]]#linebreak()#text(size:8pt)[Scholarship 3]],align(right)[#pageref("s-a8c6927cd77c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-e8c8af8e3cfc")[#strong[#text("The Sky Comes Down")]]#linebreak()#text(size:8pt)[Storm 3]],align(right)[#pageref("s-e8c8af8e3cfc")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-89671eca320c")[#strong[#text("The Tale Will Tell of You")]]#linebreak()#text(size:8pt)[Influence 3]],align(right)[#pageref("s-89671eca320c")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-39d15c1483ee")[#strong[#text("The Wind Makes Room")]]#linebreak()#text(size:8pt)[Storm 3 and Guard 1]],align(right)[#pageref("s-39d15c1483ee")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-02ff63c13974")[#strong[#text("Traverse the Impossible")]]#linebreak()#text(size:8pt)[Athletics 3]],align(right)[#pageref("s-02ff63c13974")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-9acbaf4c9364")[#strong[#text("Turn the Crowd")]]#linebreak()#text(size:8pt)[Influence 3]],align(right)[#pageref("s-9acbaf4c9364")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-0f9422cc4ac4")[#strong[#text("Turn the Hunt")]]#linebreak()#text(size:8pt)[Class Warden; minimum level 7]],align(right)[#pageref("s-0f9422cc4ac4")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-50c3d247c571")[#strong[#text("Unbroken Passage")]]#linebreak()#text(size:8pt)[Class Protector; minimum level 7]],align(right)[#pageref("s-50c3d247c571")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-a2279ea79d77")[#strong[#text("Unseen Passage")]]#linebreak()#text(size:8pt)[Class Shadow; minimum level 7]],align(right)[#pageref("s-a2279ea79d77")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-5bd9cb02895a")[#strong[#text("Watch the Rear")]]#linebreak()#text(size:8pt)[Class Leader; minimum level 7]],align(right)[#pageref("s-5bd9cb02895a")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-93fd456073db")[#strong[#text("Wear the Great Beast")]]#linebreak()#text(size:8pt)[Wilderness 3]],align(right)[#pageref("s-93fd456073db")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-a368e279a4af")[#strong[#text("Weight of Iron")]]#linebreak()#text(size:8pt)[Armor 3]],align(right)[#pageref("s-a368e279a4af")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-9bd00bfd1c15")[#strong[#text("When the Stars Look Back")]]#linebreak()#text(size:8pt)[Mind 3]],align(right)[#pageref("s-9bd00bfd1c15")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-011c2bdf7ecc")[#strong[#text("Where Only Eagles Pass")]]#linebreak()#text(size:8pt)[Athletics 3]],align(right)[#pageref("s-011c2bdf7ecc")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-54458d5c4852")[#strong[#text("White Heat")]]#linebreak()#text(size:8pt)[Flame 3]],align(right)[#pageref("s-54458d5c4852")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-99456e127b57")[#strong[#text("Wings over the Battle")]]#linebreak()#text(size:8pt)[Flame 3]],align(right)[#pageref("s-99456e127b57")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-915606737fd5")[#strong[#text("Winter Hold")]]#linebreak()#text(size:8pt)[Frost 3]],align(right)[#pageref("s-915606737fd5")])]
+],[#block(breakable:false)[#set text(size:9pt)
+#grid(columns:(1fr,23pt),gutter:5pt,[#xref("s-57b9fe6da75c")[#strong[#text("Write the Final Line")]]#linebreak()#text(size:8pt)[Arms 3]],align(right)[#pageref("s-57b9fe6da75c")])]
+],))

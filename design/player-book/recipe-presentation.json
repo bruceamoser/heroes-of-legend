@@ -1,0 +1,52 @@
+{
+  "bound-torches": {
+    "granted_by": "One ordinary recipe choice from a crafting ability below, or Ordinary Recipe Study.",
+    "used_with": "[Trail Workshop](../cards/trail-workshop.md), [Make Something Useful](../cards/make-something-useful.md), [Enchanting Workshop](../cards/enchanting-workshop.md)",
+    "completion": "Weak / Standard / Strong: raise one matching supply by **1 / 2 / 3 inventory steps**, to a maximum of **d6**. The finished [supply](../equipment/lighting-bundle.md) is Bulk 1."
+  },
+  "fletched-ammunition": {
+    "granted_by": "One ordinary recipe choice from a crafting ability below, or Ordinary Recipe Study.",
+    "used_with": "[Trail Workshop](../cards/trail-workshop.md), [Make Something Useful](../cards/make-something-useful.md), [Enchanting Workshop](../cards/enchanting-workshop.md)",
+    "completion": "Weak / Standard / Strong: raise one matching supply by **1 / 2 / 3 inventory steps**, to a maximum of **d8**. The finished [supply](../equipment/ammunition-bundle.md) is Bulk 1."
+  },
+  "travel-food": {
+    "granted_by": "One ordinary recipe choice from a crafting ability below, or Ordinary Recipe Study. Also learned with Bottled Morning, Smoke in a Bottle or The Cleverest Mixture.",
+    "used_with": "[Trail Workshop](../cards/trail-workshop.md), [Make Something Useful](../cards/make-something-useful.md), [Enchanting Workshop](../cards/enchanting-workshop.md), [Bottled Morning](../cards/bottled-morning.md), [Smoke in a Bottle](../cards/smoke-in-a-bottle.md), [The Cleverest Mixture](../cards/the-cleverest-mixture.md)",
+    "completion": "Weak / Standard / Strong: raise one matching supply by **1 / 2 / 3 inventory steps**, to a maximum of **d8**. The finished [supply](../equipment/food-bundle.md) is Bulk 1."
+  },
+  "twisted-cord": {
+    "granted_by": "One ordinary recipe choice from a crafting ability below, or Ordinary Recipe Study.",
+    "used_with": "[Trail Workshop](../cards/trail-workshop.md), [Make Something Useful](../cards/make-something-useful.md), [Enchanting Workshop](../cards/enchanting-workshop.md)",
+    "completion": "Weak / Standard / Strong: add **1 / 2 / 3 progress** toward **target 4**. On completion, receive one [rope coil](../equipment/rope-coil.md)."
+  },
+  "wooden-brace": {
+    "granted_by": "One ordinary recipe choice from a crafting ability below, or Ordinary Recipe Study.",
+    "used_with": "[Trail Workshop](../cards/trail-workshop.md), [Make Something Useful](../cards/make-something-useful.md), [Enchanting Workshop](../cards/enchanting-workshop.md)",
+    "completion": "Weak / Standard / Strong: add **1 / 2 / 3 progress** toward **target 4**. On completion, receive one ordinary support brace, Bulk 1; no additional tools."
+  },
+  "simple-replacement-leg": {
+    "granted_by": "One ordinary recipe choice from a crafting ability below, or Ordinary Recipe Study.",
+    "used_with": "[Trail Workshop](../cards/trail-workshop.md), [Make Something Useful](../cards/make-something-useful.md), [Enchanting Workshop](../cards/enchanting-workshop.md)",
+    "completion": "Weak / Standard / Strong: add **1 / 2 / 3 progress** toward **target 8**. On completion, receive one correctly sized prosthetic leg. The recipient still needs [Fit a Replacement](../cards/fit-a-replacement.md) before any eligible wound penalty is relieved. The wound must allow replacement."
+  },
+  "lesser-healing-bottle": {
+    "granted_by": "[Bottled Morning](../cards/bottled-morning.md) on learning; also Ordinary Recipe Study when compatible.",
+    "used_with": "[Bottled Morning](../cards/bottled-morning.md)",
+    "completion": "Weak / Standard / Strong: raise one matching supply by **1 / 2 / 3 inventory steps**, to a maximum of **d4**. Finished bottle: **Bulk 1**.\n\nRestores **6 HP** before Life resistance when used with [Use a Healing Potion](../cards/use-a-healing-potion.md)."
+  },
+  "smoke-flask": {
+    "granted_by": "[Smoke in a Bottle](../cards/smoke-in-a-bottle.md) on learning; also Ordinary Recipe Study when compatible.",
+    "used_with": "[Smoke in a Bottle](../cards/smoke-in-a-bottle.md)",
+    "completion": "Weak / Standard / Strong: raise one matching supply by **1 / 2 / 3 inventory steps**, to a maximum of **d6**. Finished bottle: **Bulk 1**.\n\nSupplies the smoke effect of [Smoke in a Bottle](../cards/smoke-in-a-bottle.md); no damage or poison."
+  },
+  "clearing-tonic": {
+    "granted_by": "[The Cleverest Mixture](../cards/the-cleverest-mixture.md) on learning; also Ordinary Recipe Study when compatible.",
+    "used_with": "[The Cleverest Mixture](../cards/the-cleverest-mixture.md)",
+    "completion": "Weak / Standard / Strong: raise one matching supply by **1 / 2 / 3 inventory steps**, to a maximum of **d4**. Finished bottle: **Bulk 1**.\n\nSupplies the condition relief of [The Cleverest Mixture](../cards/the-cleverest-mixture.md); restores no HP."
+  },
+  "camp-shelter": {
+    "granted_by": "[A Roof before Nightfall](../cards/a-roof-before-nightfall.md) on learning; also Ordinary Recipe Study when compatible.",
+    "used_with": "[A Roof before Nightfall](../cards/a-roof-before-nightfall.md)",
+    "completion": "Weak / Standard / Strong: add **1 / 2 / 3 progress** toward **target 4**. Reject unsuitable materials before consuming them.\n\nOn completion, shelter yourself and up to **six companions** from ordinary rain and wind. This is not fortification or protection against extreme weather. The DA states visible material and site limits before work begins.\n\n**Strong completion:** pack the intact shelter in ten minutes into one Bulk 1 bundle; erect it in one hour without another roll or materials. Otherwise, dismantling requires rebuilding. The shelter lasts until dismantled or damaged."
+  }
+}

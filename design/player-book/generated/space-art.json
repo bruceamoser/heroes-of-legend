@@ -1,82 +1,82 @@
 [
   {
-    "page": 25,
-    "x": 322.5,
-    "y": 64,
+    "page": 24,
+    "x": 49.5,
+    "y": 265,
     "width": 240,
     "height": 340,
     "asset": "protector-shield"
   },
   {
-    "page": 28,
-    "x": 322.5,
-    "y": 269,
+    "page": 27,
+    "x": 49.5,
+    "y": 303,
     "width": 240,
     "height": 340,
     "asset": "blade-sword"
   },
   {
-    "page": 31,
+    "page": 30,
     "x": 322.5,
-    "y": 64,
+    "y": 293,
     "width": 240,
     "height": 340,
     "asset": "arcanist-instruments"
   },
   {
-    "page": 33,
+    "page": 32,
     "x": 322.5,
-    "y": 488,
+    "y": 455,
     "width": 240,
-    "height": 242,
+    "height": 275,
     "asset": "shepherd-crook"
   },
   {
     "page": 36,
     "x": 322.5,
-    "y": 497,
+    "y": 274,
     "width": 240,
-    "height": 233,
+    "height": 340,
     "asset": "intellect-lens"
   },
   {
-    "page": 40,
-    "x": 322.5,
-    "y": 64,
+    "page": 39,
+    "x": 49.5,
+    "y": 265,
     "width": 240,
     "height": 340,
     "asset": "leader-standard"
   },
   {
-    "page": 43,
-    "x": 322.5,
-    "y": 269,
+    "page": 42,
+    "x": 49.5,
+    "y": 267,
     "width": 240,
     "height": 340,
     "asset": "unbalanced-maul"
   },
   {
-    "page": 46,
+    "page": 45,
     "x": 322.5,
-    "y": 331,
+    "y": 321,
     "width": 240,
     "height": 340,
     "asset": "shadow-cloak"
   },
   {
-    "page": 49,
+    "page": 48,
     "x": 322.5,
-    "y": 341,
+    "y": 331,
     "width": 240,
     "height": 340,
     "asset": "odd-curios"
   },
   {
     "page": 51,
-    "x": 322.5,
-    "y": 514,
+    "x": 49.5,
+    "y": 348,
     "width": 240,
-    "height": 216,
+    "height": 340,
     "asset": "warden-bow"
   },
   {
@@ -88,99 +88,99 @@
     "asset": "hourglass"
   },
   {
-    "page": 67,
-    "x": 49.5,
-    "y": 587,
-    "width": 240,
-    "height": 143,
-    "asset": "broken-chain"
-  },
-  {
     "page": 78,
-    "x": 49.5,
-    "y": 540,
-    "width": 240,
-    "height": 190,
-    "asset": "shadow-lantern"
-  },
-  {
-    "page": 81,
     "x": 322.5,
-    "y": 522,
+    "y": 565,
     "width": 240,
-    "height": 208,
+    "height": 165,
     "asset": "root-and-thorn"
   },
   {
-    "page": 84,
-    "x": 322.5,
-    "y": 433,
+    "page": 81,
+    "x": 49.5,
+    "y": 519,
+    "width": 240,
+    "height": 211,
+    "asset": "shadow-lantern"
+  },
+  {
+    "page": 87,
+    "x": 49.5,
+    "y": 419,
     "width": 240,
     "height": 230,
     "asset": "folded-spell"
   },
   {
-    "page": 91,
+    "page": 92,
     "x": 322.5,
-    "y": 428,
+    "y": 576,
     "width": 240,
-    "height": 230,
+    "height": 154,
     "asset": "healers-bowl"
   },
   {
-    "page": 96,
+    "page": 93,
     "x": 42,
-    "y": 534,
+    "y": 249,
     "width": 528,
-    "height": 196,
-    "asset": "mountain-pass"
-  },
-  {
-    "page": 98,
-    "x": 322.5,
-    "y": 578,
-    "width": 240,
-    "height": 152,
-    "asset": "climbing-kit"
-  },
-  {
-    "page": 109,
-    "x": 322.5,
-    "y": 555,
-    "width": 240,
-    "height": 175,
-    "asset": "elemental-stones"
-  },
-  {
-    "page": 110,
-    "x": 322.5,
-    "y": 531,
-    "width": 240,
-    "height": 199,
-    "asset": "feather-and-seal"
-  },
-  {
-    "page": 113,
-    "x": 42,
-    "y": 579,
-    "width": 528,
-    "height": 151,
+    "height": 260,
     "asset": "ruined-observatory"
   },
   {
-    "page": 125,
-    "x": 322.5,
-    "y": 257,
+    "page": 96,
+    "x": 49.5,
+    "y": 545,
     "width": 240,
-    "height": 230,
-    "asset": "healing-vials"
+    "height": 185,
+    "asset": "climbing-kit"
   },
   {
-    "page": 137,
+    "page": 100,
+    "x": 42,
+    "y": 532,
+    "width": 528,
+    "height": 198,
+    "asset": "mountain-pass"
+  },
+  {
+    "page": 113,
     "x": 322.5,
+    "y": 500,
+    "width": 240,
+    "height": 230,
+    "asset": "broken-chain"
+  },
+  {
+    "page": 114,
+    "x": 49.5,
+    "y": 566,
+    "width": 240,
+    "height": 164,
+    "asset": "feather-and-seal"
+  },
+  {
+    "page": 125,
+    "x": 186.0,
     "y": 448,
     "width": 240,
     "height": 230,
+    "asset": "elemental-stones"
+  },
+  {
+    "page": 129,
+    "x": 186.0,
+    "y": 489,
+    "width": 240,
+    "height": 230,
     "asset": "recipe-tools"
+  },
+  {
+    "page": 136,
+    "x": 49.5,
+    "y": 532,
+    "width": 240,
+    "height": 198,
+    "asset": "healing-vials"
   }
 ]

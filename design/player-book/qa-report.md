@@ -2,49 +2,54 @@
 
 ## Deliverable
 
-231-page US Letter player book for levels 1–10. PDF size: 92,112,165
-bytes (87.8 MiB). SHA-256: `6717c5f920b0b71738e7841e4b86ba09b745cef4a3113b1f793ad103e54568fc`.
-Editable Markdown and Typst sources remain in the repository.
+234-page US Letter player book for levels 1–10. PDF size: 93,766,175
+bytes (89.4 MiB). SHA-256: `78d0ca019da8d1952b17b30a4f2f5c8eee8e9c0d46246ee4f44ecbe6cec86f7a`.
+Editable Markdown, presentation data and Typst sources remain in the repository.
 
 ## Review requests completed
 
-- Bordered cards and solid headers for all 20 ancestry traits, 18 cultures,
-  32 backgrounds and 18 disciplines; narrative and rules separated visually.
-- Discipline purchase rules and the affinity price table appear in the introduction;
-  repeated rules removed from the printed individual discipline entries. Eighteen
-  entries are distributed evenly over two pages.
-- Eighteen simple gold discipline symbols replace ornate badges. Rank numerals use
-  a contrasting panel over the lower edge, leaving the identifying silhouette clear.
-- Generated 30 new object/landscape illustrations and 18 symbols. All 45 requested
-  transparent assets have alpha; three landscapes use full scenic backgrounds.
-  Exact prompts and roles are in `art/revision-prompts.json`.
-- Each placed illustration occurs once. The book contains 126 unique illustration
-  placements, including 23 carefully selected open-area placements. Functional
-  symbols and book logos intentionally repeat. Class portraits remain on their
-  introductions; relevant objects accompany signatures. No portrait filler cycle.
-- Added space after illustrations and an explicit gap before ancestry trait cards.
-- Consulted Pathfinder Core Rulebook PDF pages 288–291 for isolated object artwork,
-  tables and compact identification marks; see `art-direction.md`.
+- All ten classes have bordered introduction panels, actual rank-by-rank discipline
+  prices, concise starting choices and signature menus. Transparent portraits preserve
+  each character and companion. Shared signature instructions appear once.
+- Page 53 compares all 18 disciplines across all ten classes. Designer affinity
+  labels are replaced by actual prices and a player-facing explanation.
+- Universal, Novice, Adept and Master sections open with browsing tables: linked
+  ability, requirements, action and authored effect summary. The end indexes split
+  all 350 abilities, including signatures, into these same groups with requirements.
+- Common origin, trait, equipment and ability instructions move into introductions;
+  culture/background Type labels are removed. All 50 origin grant lists remain.
+- Starting HP and starting coins now occupy adjacent creation references, pages 8–9.
+  Character paths explain their purpose as adaptable fantasy examples.
+- All ten recipes distinguish Granted by from Used with and separate preparation,
+  materials, work and completion. Source progress targets and inventory caps remain.
+- Short tables stay together; longer tables repeat headers. Prose and catalog endings
+  balance over two columns. An orphan paragraph and near-empty last index page were fixed.
+- Twelve new illustrations include ten transparent class cutouts, an HP spot and a
+  discipline-table landscape. Exact prompts are saved in class-cutout-prompts.json
+  and reference-prompts.json. Earlier assets remain available.
 
 ## Coverage and export checks
 
 - Book audit passes: 607 source records, all 350 abilities, 486 outcome lines and
   all descriptive/effect/remedy cells for 280 wound rows.
-- All source hashes current; all 169 retained/generated art assets present.
-- No missing placeholders, repeated illustration placements or text outside checked bounds.
-- Four printable sheets occupy pages 223–226.
-- All 350 ability blocks fit the 675 pt keep-together threshold; largest is 395.1 pt.
-- 1,538 PDF links have valid page targets; 944 bookmarks remain.
+- All source and presentation hashes current; all 181 retained/generated art assets present.
+- 130 unique illustration placements, including 23 open-space placements; no repeats.
+  Functional discipline symbols and book logos intentionally repeat.
+- No missing placeholders or text outside checked bounds. All ten class portraits
+  have actual alpha transparency. Four printable sheets occupy pages 224–227.
+- All 350 ability blocks fit the 675 pt keep-together threshold; largest is 358.447 pt.
+- 1,996 PDF links have valid page targets; 954 bookmarks remain.
 - Extracted text matches exactly before and after image-stream compression.
   Source resolution and alpha masks remain intact; original art is preserved.
-- Every page inspected in overview; introductions, catalogs, actual-size symbols,
-  class art, tables and image spacing checked enlarged. Final changed placements
-  and balanced discipline pages re-rendered and checked.
+- Every final page inspected in overview. Class panels, creation references, price
+  matrix, directories, origins, recipes, short endings and indexes checked enlarged
+  during the revision. Final artwork placements re-rendered and checked.
 
 ## Review boundaries
 
-No game mechanics or source catalog prose changed. Shared discipline rules were
-moved in the reader edition; original Markdown entries remain independently useful.
-The book includes 73 summon profiles, not the separate 192-creature DA bestiary.
-This is author QA for a digital playtest edition, not independent approval, balance
-certification or a printer-ready release. Existing decision-log.md boundaries remain.
+Source catalog Markdown and game mechanics are unchanged. Reader-only presentation
+moves shared rules into introductions and adds navigation summaries; complete cards
+remain the authority for play. The book includes 73 summon profiles, not the separate
+192-creature DA bestiary. This is author QA for a digital playtest edition, not
+independent approval, balance certification or a printer-ready release. Existing
+decision-log.md boundaries remain.

@@ -88,6 +88,15 @@ Check if possible:
 
 ## Common Build Issues
 
+For the standalone `design/player-book/` edition, run its build and audit rather
+than the legacy Quarto build. After presentation changes, inspect class price
+tables, the full discipline matrix, all four ability directories and tiered end
+indexes. Verify that shared card rules remain in chapter introductions, origin
+grants survive condensation, short tables stay together, and ending columns are
+balanced. Keep `ability-summaries.json` and `recipe-presentation.json` synchronized
+with their source cards. Check transparent portrait alpha and illustration
+uniqueness, then refresh PDF navigation counts and the QA report for the final file.
+
 | Issue | Likely Cause | Fix |
 |-------|-------------|-----|
 | `undefined label` | Broken `@sec-` reference | Check `_quarto.yml` for correct label |

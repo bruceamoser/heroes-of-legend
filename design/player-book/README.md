@@ -14,6 +14,9 @@ Great Library palette. The PDF is `output/heroes-of-legend-players-book.pdf`.
 - `book.typ`, `sheets.typ`, `cover.typ`: assembly, printable sheets and approved cover.
 - `art/interior/`: generated illustrations and discipline symbols; full-resolution masters.
 - `art/interior-prompts.json` and `art/revision-prompts.json`: saved generation prompts.
+- `ability-summaries.json`: authored one-line directory descriptions, keyed by card ID.
+- `recipe-presentation.json`: reader-facing grant, crafting and completion text.
+- `art/class-cutout-prompts.json` and `art/reference-prompts.json`: latest portrait/reference prompts.
 - `icons/`: historical SVG symbol names; the book uses the simplified generated PNG silhouettes.
 - `fonts/`: bundled open-license typefaces and their OFL notices.
 - `build.py`: reads Markdown and creates the disposable `generated/body.typ` and manifest.
@@ -39,7 +42,8 @@ loaded from the repository, including the italic face used for narrative text.
 No external Typst package is required by the player book.
 
 `audit.py` checks named-record coverage, source freshness, extracted PDF ability
-outcomes and wound text, and page text bounds.
+outcomes and wound text, origin grants, presentation freshness, class transparency,
+retired boilerplate, and page text bounds.
 The two-pass export measures unused page areas before placing a finite set of relevant
 object illustrations and landscapes. Each scene, portrait or object illustration is
 used at most once; functional symbols and logos may repeat. Empty space never
@@ -73,5 +77,5 @@ production color and release notices belong to the later publication pass.
 
 ## Current proof
 
-231 pages, approximately 88 MiB. See [QA report](qa-report.md) for verified coverage and limits, and
+234 pages, approximately 89 MiB. See [QA report](qa-report.md) for verified coverage and limits, and
 [construction decisions](decision-log.md) for the small number of review items.

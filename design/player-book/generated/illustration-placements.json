@@ -16,31 +16,31 @@
     "height": 125.0
   },
   {
-    "asset": "journeyman-kit",
+    "asset": "hp-vitality",
     "page": 8,
     "x": 42.0,
-    "y": 84.7075,
+    "y": 410.8924999999999,
     "width": 528.0,
-    "height": 340.0
+    "height": 319.69500000000005
+  },
+  {
+    "asset": "coin-purse",
+    "page": 9,
+    "x": 42.0,
+    "y": 345.375,
+    "width": 345.3333333333333,
+    "height": 125.0
   },
   {
     "asset": "origins",
-    "page": 9,
+    "page": 10,
     "x": 42.0,
-    "y": 277.875,
+    "y": 300.345,
     "width": 528.0,
     "height": 330.0
   },
   {
     "asset": "ancestry-human",
-    "page": 10,
-    "x": 315.0,
-    "y": 52.0,
-    "width": 255.0,
-    "height": 245.0
-  },
-  {
-    "asset": "ancestry-elf",
     "page": 11,
     "x": 315.0,
     "y": 52.0,
@@ -48,7 +48,7 @@
     "height": 245.0
   },
   {
-    "asset": "ancestry-dwarf",
+    "asset": "ancestry-elf",
     "page": 12,
     "x": 315.0,
     "y": 52.0,
@@ -56,8 +56,16 @@
     "height": 245.0
   },
   {
-    "asset": "ancestry-halfling",
+    "asset": "ancestry-dwarf",
     "page": 13,
+    "x": 315.0,
+    "y": 52.0,
+    "width": 255.0,
+    "height": 245.0
+  },
+  {
+    "asset": "ancestry-halfling",
+    "page": 14,
     "x": 315.0,
     "y": 52.0,
     "width": 255.0,
@@ -67,113 +75,129 @@
     "asset": "cultures",
     "page": 16,
     "x": 42.0,
-    "y": 527.7554999999999,
+    "y": 615.4095,
     "width": 528.0,
-    "height": 202.83200000000008
+    "height": 115.178
   },
   {
     "asset": "backgrounds",
-    "page": 21,
+    "page": 20,
     "x": 42.0,
-    "y": 207.62949999999995,
+    "y": 171.3455,
     "width": 528.0,
     "height": 340.0
   },
   {
     "asset": "classes",
-    "page": 22,
+    "page": 21,
     "x": 42.0,
     "y": 307.895,
     "width": 528.0,
     "height": 350.0
   },
   {
-    "asset": "class-protector",
-    "page": 23,
-    "x": 315.0,
-    "y": 52.0,
-    "width": 255.0,
-    "height": 460.0
+    "asset": "class-protector-cutout",
+    "page": 22,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
   },
   {
-    "asset": "class-blade",
-    "page": 26,
-    "x": 315.0,
-    "y": 52.0,
-    "width": 255.0,
-    "height": 460.0
+    "asset": "class-blade-cutout",
+    "page": 25,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
   },
   {
-    "asset": "class-arcanist",
-    "page": 29,
-    "x": 315.0,
-    "y": 52.0,
-    "width": 255.0,
-    "height": 460.0
+    "asset": "class-arcanist-cutout",
+    "page": 28,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
   },
   {
-    "asset": "class-shepherd",
-    "page": 32,
-    "x": 315.0,
-    "y": 52.0,
-    "width": 255.0,
-    "height": 460.0
+    "asset": "class-shepherd-cutout",
+    "page": 31,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
   },
   {
-    "asset": "class-intellect",
-    "page": 35,
-    "x": 315.0,
-    "y": 52.0,
-    "width": 255.0,
-    "height": 460.0
+    "asset": "class-intellect-cutout",
+    "page": 34,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
   },
   {
-    "asset": "class-leader",
-    "page": 38,
-    "x": 315.0,
-    "y": 52.0,
-    "width": 255.0,
-    "height": 460.0
+    "asset": "class-leader-cutout",
+    "page": 37,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
   },
   {
-    "asset": "class-unbalanced",
-    "page": 41,
-    "x": 315.0,
-    "y": 52.0,
-    "width": 255.0,
-    "height": 460.0
+    "asset": "class-unbalanced-cutout",
+    "page": 40,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
   },
   {
-    "asset": "class-shadow",
-    "page": 44,
-    "x": 315.0,
-    "y": 52.0,
-    "width": 255.0,
-    "height": 460.0
+    "asset": "class-shadow-cutout",
+    "page": 43,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
   },
   {
-    "asset": "class-odd",
-    "page": 47,
-    "x": 315.0,
-    "y": 52.0,
-    "width": 255.0,
-    "height": 460.0
+    "asset": "class-odd-cutout",
+    "page": 46,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
   },
   {
-    "asset": "class-warden",
-    "page": 50,
-    "x": 315.0,
-    "y": 52.0,
-    "width": 255.0,
-    "height": 460.0
+    "asset": "class-warden-cutout",
+    "page": 49,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
   },
   {
     "asset": "fields-of-study",
-    "page": 53,
+    "page": 52,
     "x": 315.0,
     "y": 344.29,
     "width": 255.0,
     "height": 265.0
+  },
+  {
+    "asset": "discipline-instruments",
+    "page": 53,
+    "x": 42.0,
+    "y": 500.48750000000007,
+    "width": 528.0,
+    "height": 230.09999999999997
+  },
+  {
+    "asset": "paths",
+    "page": 56,
+    "x": 42.0,
+    "y": 590.4525000000001,
+    "width": 528.0,
+    "height": 140.1349999999999
   },
   {
     "asset": "combat",
@@ -195,25 +219,33 @@
     "asset": "recovery",
     "page": 63,
     "x": 42.0,
-    "y": 552.8525000000002,
+    "y": 326.41749999999996,
     "width": 528.0,
-    "height": 177.73499999999973
+    "height": 340.0
   },
   {
     "asset": "learned-relics",
     "page": 65,
-    "x": 315.0,
-    "y": 123.39999999999999,
-    "width": 255.0,
-    "height": 530.0
+    "x": 42.0,
+    "y": 473.28749999999985,
+    "width": 528.0,
+    "height": 257.3000000000001
   },
   {
-    "asset": "coin-purse",
+    "asset": "equipment",
     "page": 126,
     "x": 42.0,
-    "y": 345.375,
-    "width": 345.3333333333333,
-    "height": 125.0
+    "y": 485.3524999999999,
+    "width": 528.0,
+    "height": 245.23500000000007
+  },
+  {
+    "asset": "recipes",
+    "page": 137,
+    "x": 42.0,
+    "y": 521.4405000000002,
+    "width": 528.0,
+    "height": 209.14699999999985
   },
   {
     "asset": "summoning-ring",
@@ -817,90 +849,90 @@
   },
   {
     "asset": "heroes",
-    "page": 208,
+    "page": 209,
     "x": 42.0,
     "y": 302.305,
     "width": 528.0,
     "height": 340.0
   },
   {
-    "page": 25,
-    "x": 322.5,
-    "y": 64,
+    "page": 24,
+    "x": 49.5,
+    "y": 265,
     "width": 240,
     "height": 340,
     "asset": "protector-shield"
   },
   {
-    "page": 28,
-    "x": 322.5,
-    "y": 269,
+    "page": 27,
+    "x": 49.5,
+    "y": 303,
     "width": 240,
     "height": 340,
     "asset": "blade-sword"
   },
   {
-    "page": 31,
+    "page": 30,
     "x": 322.5,
-    "y": 64,
+    "y": 293,
     "width": 240,
     "height": 340,
     "asset": "arcanist-instruments"
   },
   {
-    "page": 33,
+    "page": 32,
     "x": 322.5,
-    "y": 488,
+    "y": 455,
     "width": 240,
-    "height": 242,
+    "height": 275,
     "asset": "shepherd-crook"
   },
   {
     "page": 36,
     "x": 322.5,
-    "y": 497,
+    "y": 274,
     "width": 240,
-    "height": 233,
+    "height": 340,
     "asset": "intellect-lens"
   },
   {
-    "page": 40,
-    "x": 322.5,
-    "y": 64,
+    "page": 39,
+    "x": 49.5,
+    "y": 265,
     "width": 240,
     "height": 340,
     "asset": "leader-standard"
   },
   {
-    "page": 43,
-    "x": 322.5,
-    "y": 269,
+    "page": 42,
+    "x": 49.5,
+    "y": 267,
     "width": 240,
     "height": 340,
     "asset": "unbalanced-maul"
   },
   {
-    "page": 46,
+    "page": 45,
     "x": 322.5,
-    "y": 331,
+    "y": 321,
     "width": 240,
     "height": 340,
     "asset": "shadow-cloak"
   },
   {
-    "page": 49,
+    "page": 48,
     "x": 322.5,
-    "y": 341,
+    "y": 331,
     "width": 240,
     "height": 340,
     "asset": "odd-curios"
   },
   {
     "page": 51,
-    "x": 322.5,
-    "y": 514,
+    "x": 49.5,
+    "y": 348,
     "width": 240,
-    "height": 216,
+    "height": 340,
     "asset": "warden-bow"
   },
   {
@@ -912,99 +944,99 @@
     "asset": "hourglass"
   },
   {
-    "page": 67,
-    "x": 49.5,
-    "y": 587,
-    "width": 240,
-    "height": 143,
-    "asset": "broken-chain"
-  },
-  {
     "page": 78,
-    "x": 49.5,
-    "y": 540,
-    "width": 240,
-    "height": 190,
-    "asset": "shadow-lantern"
-  },
-  {
-    "page": 81,
     "x": 322.5,
-    "y": 522,
+    "y": 565,
     "width": 240,
-    "height": 208,
+    "height": 165,
     "asset": "root-and-thorn"
   },
   {
-    "page": 84,
-    "x": 322.5,
-    "y": 433,
+    "page": 81,
+    "x": 49.5,
+    "y": 519,
+    "width": 240,
+    "height": 211,
+    "asset": "shadow-lantern"
+  },
+  {
+    "page": 87,
+    "x": 49.5,
+    "y": 419,
     "width": 240,
     "height": 230,
     "asset": "folded-spell"
   },
   {
-    "page": 91,
+    "page": 92,
     "x": 322.5,
-    "y": 428,
+    "y": 576,
     "width": 240,
-    "height": 230,
+    "height": 154,
     "asset": "healers-bowl"
   },
   {
-    "page": 96,
+    "page": 93,
     "x": 42,
-    "y": 534,
+    "y": 249,
     "width": 528,
-    "height": 196,
-    "asset": "mountain-pass"
-  },
-  {
-    "page": 98,
-    "x": 322.5,
-    "y": 578,
-    "width": 240,
-    "height": 152,
-    "asset": "climbing-kit"
-  },
-  {
-    "page": 109,
-    "x": 322.5,
-    "y": 555,
-    "width": 240,
-    "height": 175,
-    "asset": "elemental-stones"
-  },
-  {
-    "page": 110,
-    "x": 322.5,
-    "y": 531,
-    "width": 240,
-    "height": 199,
-    "asset": "feather-and-seal"
-  },
-  {
-    "page": 113,
-    "x": 42,
-    "y": 579,
-    "width": 528,
-    "height": 151,
+    "height": 260,
     "asset": "ruined-observatory"
   },
   {
-    "page": 125,
-    "x": 322.5,
-    "y": 257,
+    "page": 96,
+    "x": 49.5,
+    "y": 545,
     "width": 240,
-    "height": 230,
-    "asset": "healing-vials"
+    "height": 185,
+    "asset": "climbing-kit"
   },
   {
-    "page": 137,
+    "page": 100,
+    "x": 42,
+    "y": 532,
+    "width": 528,
+    "height": 198,
+    "asset": "mountain-pass"
+  },
+  {
+    "page": 113,
     "x": 322.5,
+    "y": 500,
+    "width": 240,
+    "height": 230,
+    "asset": "broken-chain"
+  },
+  {
+    "page": 114,
+    "x": 49.5,
+    "y": 566,
+    "width": 240,
+    "height": 164,
+    "asset": "feather-and-seal"
+  },
+  {
+    "page": 125,
+    "x": 186.0,
     "y": 448,
     "width": 240,
     "height": 230,
+    "asset": "elemental-stones"
+  },
+  {
+    "page": 129,
+    "x": 186.0,
+    "y": 489,
+    "width": 240,
+    "height": 230,
     "asset": "recipe-tools"
+  },
+  {
+    "page": 136,
+    "x": 49.5,
+    "y": 532,
+    "width": 240,
+    "height": 198,
+    "asset": "healing-vials"
   }
 ]

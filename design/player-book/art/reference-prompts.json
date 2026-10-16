@@ -1,0 +1,18 @@
+[
+  {
+    "key": "hp-vitality",
+    "prompt": "Original Heroes of Legend player-book spot illustration about vitality and endurance. A vigorous small oak sapling rooted through a cracked weathered stone, a few new emerald leaves and a little antique-gold sunlight on bark. Crisp hand-inked illustrative realism with restrained engraved crosshatching and soft painted forest green, antique gold, ivory and charcoal. Low wide composition, isolated on true transparent background. No people, text, labels, frame or geometric emblem. No landscape background. A strong simple silhouette, moderate detail, clearly readable at 4 inches wide. Entire sapling and stone visible with generous clear margins.",
+    "transparent_background": true,
+    "path": "design/player-book/art/interior/hp-vitality.png",
+    "transparent": true,
+    "role": "reference-illustration"
+  },
+  {
+    "key": "discipline-instruments",
+    "prompt": "Original Heroes of Legend player-book horizontal landscape vignette for a discipline study reference page. An ancient quiet library courtyard open to the sky: a reading desk with scrolls in one alcove, a practice sword on a rack, an armillary sphere, medicinal herbs growing in stone planters, distant arched doorway and warm afternoon light. No characters. Each object integrated into one inviting place of learning. Crisp hand-inked illustrative realism, restrained engraved crosshatching and soft painted forest green, antique gold, warm ivory and charcoal. Wide 3:1 panoramic composition, simple distant walls, moderate detail. No lettering, numbers, words, symbols pretending to be text, frames or logos.",
+    "transparent_background": false,
+    "path": "design/player-book/art/interior/discipline-instruments.png",
+    "transparent": false,
+    "role": "reference-illustration"
+  }
+]

@@ -22,7 +22,7 @@ def norm(s):
  s=re.sub(r'\[([^\]]+)\]\([^)]*\)',r'\1',s)
  return re.sub(r'[^a-z0-9]','',s.lower())
 n=norm(text)
-art=json.loads((B/'art/interior-prompts.json').read_text())+json.loads((B/'art/revision-prompts.json').read_text())
+art=json.loads((B/'art/interior-prompts.json').read_text())+json.loads((B/'art/revision-prompts.json').read_text())+json.loads((B/'art/class-cutout-prompts.json').read_text())+json.loads((B/'art/reference-prompts.json').read_text())
 missing_art=[x['path'] for x in art if not (R/x['path']).is_file()]
 if missing_art:errors.append(f'{len(missing_art)} missing illustration assets')
 if len([x for x in art if x['key'].startswith('symbol-')])!=18:errors.append('Expected 18 simple discipline symbols')
@@ -31,6 +31,28 @@ image_counts=collections.Counter(x['asset'] for x in placements)
 duplicated_art={k:v for k,v in image_counts.items() if v>1}
 if duplicated_art:errors.append('Repeated illustrations: '+str(duplicated_art))
 if n.count('classaffinitysetsthecostofeachrank'):errors.append('Repeated discipline purchase boilerplate remains')
+for phrase in ['Each option is a pair.', 'Class affinity', 'Home:', 'Adjacent:', 'Foreign;',
+               'one of your two traits', 'Recipe permission:', 'Type: Culture', 'Type: Background']:
+ if phrase in text:errors.append('Retired reader boilerplate: '+phrase)
+for title in ['Starting HP', 'Starting coins', 'Discipline costs by class',
+              'Universal action index', 'Novice ability index', 'Adept ability index', 'Master ability index']:
+ if norm(title) not in n:errors.append('Missing reader reference: '+title)
+summaries=json.loads((B/'ability-summaries.json').read_text())
+shared=[x for x in m['cards'] if not Path(x['path']).name.startswith('signature-')]
+if set(summaries)!={Path(x['path']).stem for x in shared}:errors.append('Ability summary coverage differs from shared catalog')
+for slug,summary in summaries.items():
+ if norm(summary) not in n:errors.append('Missing ability-directory summary: '+slug)
+if body.count('#ability-directory(')!=4:errors.append('Expected four opening ability directories')
+if body.count('#class-panel(')!=10:errors.append('Expected ten styled class introductions')
+for cp in (R/'design/origins').glob('*.md'):
+ for grant in re.findall(r'^- (\*\*[^\n]+)',cp.read_text(),re.M):
+  if norm(grant) not in n:errors.append('Origin grant missing: '+cp.stem+' '+grant)
+from PIL import Image
+for portrait in (B/'art/interior').glob('class-*-cutout.png'):
+ with Image.open(portrait) as im:
+  if im.mode!='RGBA' or im.getchannel('A').getextrema()[0]!=0:errors.append('Class portrait lacks transparency: '+portrait.stem)
+for source in m.get('presentation_sources',[]):
+ if hashlib.sha256((R/source['path']).read_bytes()).hexdigest()!=source['sha256']:errors.append('Presentation source changed: '+source['path'])
 if 'Artwork in production' in text:errors.append('Unfilled illustration placeholder in PDF')
 # Creation, the class introduction and glossary may each state the global rule.
 if n.count('nomulticlassing')!=3:errors.append('Unexpected multiclassing repetition outside the three global references')

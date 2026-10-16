@@ -1,0 +1,92 @@
+[
+  {
+    "key": "class-protector-cutout",
+    "source": "art/interior/class-protector.png",
+    "prompt": "Use case: background-extraction. Edit target: the supplied protector class illustration for Heroes of Legend. Extract this exact full-body character as a crisp transparent-background book illustration. Preserve the face, hair, pose, forest-green and antique-gold costume, armor, weapons, held objects, and intricate ink-and-watercolor rendering. Keep the complete boots and all held equipment inside the canvas with a little clear margin. Remove ALL landscape, trees, ruins, sky, ground, rocks and rectangular background.  Actual alpha transparency outside the character and specified companions; no painted white background, checkerboard, border, text or watermark. Match the existing illustrative palette and detail; do not redesign the character.",
+    "transparent_background": true,
+    "path": "design/player-book/art/interior/class-protector-cutout.png",
+    "transparent": true,
+    "role": "class-portrait"
+  },
+  {
+    "key": "class-blade-cutout",
+    "source": "art/interior/class-blade.png",
+    "prompt": "Use case: background-extraction. Edit target: the supplied blade class illustration for Heroes of Legend. Extract this exact full-body character as a crisp transparent-background book illustration. Preserve the face, hair, pose, forest-green and antique-gold costume, armor, weapons, held objects, and intricate ink-and-watercolor rendering. Keep the complete boots and all held equipment inside the canvas with a little clear margin. Remove ALL landscape, trees, ruins, sky, ground, rocks and rectangular background.  Actual alpha transparency outside the character and specified companions; no painted white background, checkerboard, border, text or watermark. Match the existing illustrative palette and detail; do not redesign the character.",
+    "transparent_background": true,
+    "path": "design/player-book/art/interior/class-blade-cutout.png",
+    "transparent": true,
+    "role": "class-portrait"
+  },
+  {
+    "key": "class-arcanist-cutout",
+    "source": "art/interior/class-arcanist.png",
+    "prompt": "Use case: background-extraction. Edit target: the supplied arcanist class illustration for Heroes of Legend. Extract this exact full-body character as a crisp transparent-background book illustration. Preserve the face, hair, pose, forest-green and antique-gold costume, armor, weapons, held objects, and intricate ink-and-watercolor rendering. Keep the complete boots and all held equipment inside the canvas with a little clear margin. Remove ALL landscape, trees, ruins, sky, ground, rocks and rectangular background.  Actual alpha transparency outside the character and specified companions; no painted white background, checkerboard, border, text or watermark. Match the existing illustrative palette and detail; do not redesign the character.",
+    "transparent_background": true,
+    "path": "design/player-book/art/interior/class-arcanist-cutout.png",
+    "transparent": true,
+    "role": "class-portrait"
+  },
+  {
+    "key": "class-shepherd-cutout",
+    "source": "art/interior/class-shepherd.png",
+    "prompt": "Use case: background-extraction. Edit target: the supplied shepherd class illustration for Heroes of Legend. Extract this exact full-body character as a crisp transparent-background book illustration. Preserve the face, hair, pose, forest-green and antique-gold costume, armor, weapons, held objects, and intricate ink-and-watercolor rendering. Keep the complete boots and all held equipment inside the canvas with a little clear margin. Remove ALL landscape, trees, ruins, sky, ground, rocks and rectangular background. Keep the dog beside the character, remove the background sheep. Actual alpha transparency outside the character and specified companions; no painted white background, checkerboard, border, text or watermark. Match the existing illustrative palette and detail; do not redesign the character.",
+    "transparent_background": true,
+    "path": "design/player-book/art/interior/class-shepherd-cutout.png",
+    "transparent": true,
+    "role": "class-portrait"
+  },
+  {
+    "key": "class-intellect-cutout",
+    "source": "art/interior/class-intellect.png",
+    "prompt": "Use case: background-extraction. Edit target: the supplied intellect class illustration for Heroes of Legend. Extract this exact full-body character as a crisp transparent-background book illustration. Preserve the face, hair, pose, forest-green and antique-gold costume, armor, weapons, held objects, and intricate ink-and-watercolor rendering. Keep the complete boots and all held equipment inside the canvas with a little clear margin. Remove ALL landscape, trees, ruins, sky, ground, rocks and rectangular background.  Actual alpha transparency outside the character and specified companions; no painted white background, checkerboard, border, text or watermark. Match the existing illustrative palette and detail; do not redesign the character.",
+    "transparent_background": true,
+    "path": "design/player-book/art/interior/class-intellect-cutout.png",
+    "transparent": true,
+    "role": "class-portrait"
+  },
+  {
+    "key": "class-leader-cutout",
+    "source": "art/interior/class-leader.png",
+    "prompt": "Use case: background-extraction. Edit target: the supplied leader class illustration for Heroes of Legend. Extract this exact full-body character as a crisp transparent-background book illustration. Preserve the face, hair, pose, forest-green and antique-gold costume, armor, weapons, held objects, and intricate ink-and-watercolor rendering. Keep the complete boots and all held equipment inside the canvas with a little clear margin. Remove ALL landscape, trees, ruins, sky, ground, rocks and rectangular background.  Actual alpha transparency outside the character and specified companions; no painted white background, checkerboard, border, text or watermark. Match the existing illustrative palette and detail; do not redesign the character.",
+    "transparent_background": true,
+    "path": "design/player-book/art/interior/class-leader-cutout.png",
+    "transparent": true,
+    "role": "class-portrait"
+  },
+  {
+    "key": "class-unbalanced-cutout",
+    "source": "art/interior/class-unbalanced.png",
+    "prompt": "Use case: background-extraction. Edit target: the supplied unbalanced class illustration for Heroes of Legend. Extract this exact full-body character as a crisp transparent-background book illustration. Preserve the face, hair, pose, forest-green and antique-gold costume, armor, weapons, held objects, and intricate ink-and-watercolor rendering. Keep the complete boots and all held equipment inside the canvas with a little clear margin. Remove ALL landscape, trees, ruins, sky, ground, rocks and rectangular background.  Actual alpha transparency outside the character and specified companions; no painted white background, checkerboard, border, text or watermark. Match the existing illustrative palette and detail; do not redesign the character.",
+    "transparent_background": true,
+    "path": "design/player-book/art/interior/class-unbalanced-cutout.png",
+    "transparent": true,
+    "role": "class-portrait"
+  },
+  {
+    "key": "class-shadow-cutout",
+    "source": "art/interior/class-shadow.png",
+    "prompt": "Use case: background-extraction. Edit target: the supplied shadow class illustration for Heroes of Legend. Extract this exact full-body character as a crisp transparent-background book illustration. Preserve the face, hair, pose, forest-green and antique-gold costume, armor, weapons, held objects, and intricate ink-and-watercolor rendering. Keep the complete boots and all held equipment inside the canvas with a little clear margin. Remove ALL landscape, trees, ruins, sky, ground, rocks and rectangular background.  Actual alpha transparency outside the character and specified companions; no painted white background, checkerboard, border, text or watermark. Match the existing illustrative palette and detail; do not redesign the character.",
+    "transparent_background": true,
+    "path": "design/player-book/art/interior/class-shadow-cutout.png",
+    "transparent": true,
+    "role": "class-portrait"
+  },
+  {
+    "key": "class-odd-cutout",
+    "source": "art/interior/class-odd.png",
+    "prompt": "Use case: background-extraction. Edit target: the supplied odd class illustration for Heroes of Legend. Extract this exact full-body character as a crisp transparent-background book illustration. Preserve the face, hair, pose, forest-green and antique-gold costume, armor, weapons, held objects, and intricate ink-and-watercolor rendering. Keep the complete boots and all held equipment inside the canvas with a little clear margin. Remove ALL landscape, trees, ruins, sky, ground, rocks and rectangular background. Keep the owl on the shoulder. Actual alpha transparency outside the character and specified companions; no painted white background, checkerboard, border, text or watermark. Match the existing illustrative palette and detail; do not redesign the character.",
+    "transparent_background": true,
+    "path": "design/player-book/art/interior/class-odd-cutout.png",
+    "transparent": true,
+    "role": "class-portrait"
+  },
+  {
+    "key": "class-warden-cutout",
+    "source": "art/interior/class-warden.png",
+    "prompt": "Use case: background-extraction. Edit target: the supplied warden class illustration for Heroes of Legend. Extract this exact full-body character as a crisp transparent-background book illustration. Preserve the face, hair, pose, forest-green and antique-gold costume, armor, weapons, held objects, and intricate ink-and-watercolor rendering. Keep the complete boots and all held equipment inside the canvas with a little clear margin. Remove ALL landscape, trees, ruins, sky, ground, rocks and rectangular background. Keep the small flying hawk. Actual alpha transparency outside the character and specified companions; no painted white background, checkerboard, border, text or watermark. Match the existing illustrative palette and detail; do not redesign the character.",
+    "transparent_background": true,
+    "path": "design/player-book/art/interior/class-warden-cutout.png",
+    "transparent": true,
+    "role": "class-portrait"
+  }
+]
