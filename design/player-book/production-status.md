@@ -15,7 +15,8 @@ The book uses 130 unique illustrations, each once. Ten new transparent class cut
 and two reference illustrations complete this revision. All 181 retained/generated
 assets and exact prompts are saved. See art-direction.md and qa-report.md.
 
-Human review is required before merging. No merge has been performed. The complete
-DA bestiary remains separate, and the prior continuation heartbeat remains paused.
+Bruce authorized committing, integrating and publishing this edition as a new major
+release on October 16, 2026. Release tracking: #1227; release notes: releases/v16.0.0.md.
+The complete DA bestiary remains separate, and the prior continuation heartbeat remains paused.
 
 Review: https://github.com/bruceamoser/heroes-of-legend/pull/1211

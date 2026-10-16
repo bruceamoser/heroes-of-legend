@@ -11,4 +11,5 @@ All twelve new art assets are saved and inspected. See qa-report.md for the PDF
 hash and validation details. Exact new prompts are in art/class-cutout-prompts.json
 and art/reference-prompts.json; prior illustration records remain intact.
 
-Independent human review remains pending. No merge has been performed.
+Bruce accepted the revision and authorized publication on October 16, 2026.
+The v16.0.0 release is tracked in #1227.
