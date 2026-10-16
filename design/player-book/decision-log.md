@@ -37,3 +37,11 @@ proposal wording. These are visible provisional table rulings only where needed.
    Voluntary and forced movement of either participant can break the tether.
    See [summoning](../rules/summoning.md). Replace the provisional measurement text
    in the next player-book revision; the published v16.0.0 PDF is unchanged.
+8. **Summoned forms clarified October 16, 2026:** summons are energy forms shaped
+   to resemble and act like creatures, not actual physical creatures. They cannot
+   be healed and disappear at 0 HP without leaving a body. Summon-profile healing
+   permissions are superseded by this rule; ordinary creatures are unchanged.
+   Printed harmful Life effects remain damage rather than healing. The next book
+   revision must synchronize the explanation and profiles; v16.0.0 is unchanged.
+   Physical interaction with these energy forms is the next clarification to settle;
+   do not infer new intangibility or immunity rules from their nature alone.

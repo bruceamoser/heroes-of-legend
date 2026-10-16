@@ -98,6 +98,11 @@ Do not let a new temporary effect become permanent merely because another is sta
 
 ## Summons, exploration and recovery
 
+**Summoned forms — approved October 16, 2026:** summons are shaped from energies
+to resemble and act like their creatures, not actual physical creatures brought
+into the scene. They cannot be healed and disappear at 0 HP, leaving no body.
+Ordinary unsummoned creatures retain their own healing rules.
+
 Summons require commands; see the [summoning reference](summoning.md). Without a
 command they do nothing, including following, lookout and alerts. Old orders grant
 no continued activity; existing conditions and durations still resolve. No free independent

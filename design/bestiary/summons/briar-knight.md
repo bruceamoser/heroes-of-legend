@@ -12,7 +12,7 @@
 
 **Weakness:** None
 
-**Healing:** Living: ordinary HP healing applies.
+**Healing:** Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.
 
 
 

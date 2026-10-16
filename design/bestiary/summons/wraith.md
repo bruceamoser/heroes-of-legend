@@ -14,7 +14,7 @@
 
 **Weakness:** In direct sunlight its attacks grant the defender 1 additional Boon (or impose 1 Bane on its attacks when player-controlled). This does not add damage or change ordinary illumination into sunlight.
 
-**Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
+**Healing:** Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
 
 **Senses:** Dark sight 6 squares; ordinary hearing.
 

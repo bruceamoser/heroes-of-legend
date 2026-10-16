@@ -28,6 +28,7 @@ description: Review a pull request for the Heroes of Legend rulebook. Use when r
 - [ ] Discipline prerequisites valid and consistent.
 - [ ] Summon tether uses ordinary grid distance between nearest occupied squares of controller and summon: 6 remains valid, beyond 6 immediately ends the summon, including forced movement. Do not measure from centers or farthest edges.
 - [ ] A summoned healer’s printed HP cost is paid once by its controller, before resolution, bypassing resistance and leaving the controller above 0 HP. Preserve the summon’s own attribute/outcomes and ordinary unsummoned healers’ self-payment.
+- [ ] Summons are energy forms, cannot receive healing, and disappear at 0 HP without a body. Keep ordinary creatures’ healing separate; do not infer new intangibility or damage/control immunities.
 - [ ] No mechanics contradict current `design/rules/`, `design/development.md`, card conventions, or later explicit decisions. Historical documents are not newer authority.
 
 ### Cross-References

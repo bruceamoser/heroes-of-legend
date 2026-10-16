@@ -14,7 +14,7 @@
 
 **Weakness:** None
 
-**Healing:** Construct: ordinary living-target healing does not repair it; a repair ability must explicitly permit constructs.
+**Healing:** Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body.
 
 **Senses:** Dark sight 6 squares; ordinary hearing.
 

@@ -14,7 +14,7 @@
 
 **Weakness:** None
 
-**Healing:** Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
+**Healing:** Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Healing-harmed: ordinary healing resolves as Life damage instead; no beneficial riders.
 
 **Senses:** Dark sight 6 squares; ordinary hearing.
 

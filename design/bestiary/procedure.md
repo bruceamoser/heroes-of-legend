@@ -46,6 +46,11 @@ mover’s one-square backward bounce still applies where possible.
 
 ## Player-controlled creatures
 
+Summons are energy forms that resemble and act like their creatures, not actual
+physical creatures brought into the scene. They cannot be healed; at 0 HP they
+disappear and leave no body. Ordinary unsummoned creatures keep their own healing
+rules. A printed harmful Life effect is damage, not healing.
+
 A separate player reference prints attacker outcomes, attributes and command limits.
 Use it when a player rolls the creature’s attack; never reverse the DA table mentally.
 The incoming attack names its defense attribute. There is only one roll per attack.

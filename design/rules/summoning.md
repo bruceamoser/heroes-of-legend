@@ -13,6 +13,19 @@ A category is an explicit bestiary tag. A ghost is not automatically selectable
 under both Spirit and Undead; its entry must say so. These are summoned forms, not
 permission to seize an existing creature or extract permanent equipment.
 
+## Summoned energy forms — approved October 16, 2026
+
+A summon is shaped from energies to resemble and act like the chosen creature;
+it is not an actual physical creature brought into the scene. It cannot be healed.
+Its HP tracks how much damage the form can sustain. At 0 HP it disappears rather
+than leaving a body. The existing duration, tether and controller-disappearance
+rules still apply.
+
+This restriction concerns receiving healing. A summon with a printed healing
+ability can still heal an eligible other creature, with its controller paying the
+printed cost as described below. Ordinary unsummoned creatures keep their own
+healing rules. A printed harmful Life effect is damage, not healing.
+
 ## Pay for activity
 
 **Agreed:** an uncommanded summon does nothing. It does not follow, keep watch,
@@ -96,7 +109,7 @@ without an explicit summon-profile procedure consistent with command-only activi
 The [summon selection](../bestiary/summon-choices.md) provides 73 proposed entries,
 covering all six categories at tiers 1, 3 and 7. Each prints HP, all six attributes,
 attack and target-defense attributes, movement, footprint, senses, resistance,
-healing compatibility, command options and restrictions. These permissions await
+the no-healing rule, command options and restrictions. These permissions await
 Bruce’s review; category or CV alone never authorizes a creature.
 
 The [creature procedure](../bestiary/procedure.md) and summon selection document

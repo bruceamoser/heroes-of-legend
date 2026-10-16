@@ -12,7 +12,7 @@
 
 **Weakness:** None
 
-**Healing:** Spirit: magical healing works; cannot swallow potions.
+**Healing:** Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Cannot swallow potions.
 
 
 **Senses:** Ordinary sight and hearing.

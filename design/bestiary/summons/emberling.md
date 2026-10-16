@@ -12,7 +12,7 @@
 
 **Weakness:** Cold damage gives it 1 Bane on its next attack before its next turn (1 Boon to that player defense). Does not stack with itself.
 
-**Healing:** Elemental: magical HP healing applies; cannot swallow potions. Printed immunities only.
+**Healing:** Summoned energy form: cannot be healed; disappears at 0 HP without leaving a body. Cannot swallow potions.
 
 
 **Senses:** Ordinary sight and hearing.
