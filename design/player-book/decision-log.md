@@ -46,3 +46,9 @@ proposal wording. These are visible provisional table rulings only where needed.
    **Tangibility also approved October 16:** the forms occupy squares, block movement,
    take damage and can be pushed or grappled normally unless their card says otherwise.
    Their nature grants no automatic incorporeality or damage/control immunity.
+9. **NPC-only resolution approved October 16, 2026:** either a player or the DA
+   assuming the player role may roll. NPC-versus-NPC attacks use the defender’s
+   printed attribute and the attacker’s defense-outcome table; consequential
+   healing/tasks use the acting NPC’s attribute and outcomes. One roll, with
+   ordinary modifiers, and no transfer of NPC control. Off-screen events may use
+   DA judgment. Add this procedure in the next reader revision; v16.0.0 is unchanged.
