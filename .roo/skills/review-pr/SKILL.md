@@ -21,6 +21,7 @@ description: Review a pull request for the Heroes of Legend rulebook. Use when r
 ### Mechanical Review
 - [ ] Use the current approved design references and latest user decisions. The fresh system rolls 3d6 + one attribute; there is no numerical skill bonus.
 - [ ] Success tiers used correctly: Weak ≤8, Standard 9–14, Strong ≥15. Weak means progress, not automatic success; retained 111 adds a complication and retained 666 adds a benefit.
+- [ ] NPC-only actions may be rolled by a player or the DA assuming the player role. NPC-versus-NPC attacks use one defender roll and the attacker’s defense-outcome table; healing/tasks use the acting NPC’s attribute. Dice handling does not transfer control.
 - [ ] Damage values within established ranges for the content type.
 - [ ] Numerical weakness adds its value to an included matching damage component before resistance, once per event; highest same-type value only, normal cap 3. Do not infer extra damage from a narrative vulnerability.
 - [ ] Collision damage uses movement remaining on contact before the newly struck creature’s Stability is deducted; apply applicable resistance to damage. Moving groups stop at the last position where everyone fits in separate legal spaces, with DA placement and no extra forward movement or passage through walls; preserve the original mover’s backward bounce where possible.

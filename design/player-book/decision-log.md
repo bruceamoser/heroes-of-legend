@@ -8,8 +8,10 @@ proposal wording. These are visible provisional table rulings only where needed.
    and asking for an unprinted attack attribute and caster HP cost. That paragraph
    conflicts with its no-roll potion rules. It is excluded from the book's potion
    entry; offensive spell healing remains intact. No new potion attack is granted.
-2. If minimum damage causes a wound after all damage components were resisted,
-   choose among the attack's original types (player chooses). Marked playtest ruling.
+2. **Resolved October 16, 2026:** if minimum damage causes a wound after all damage
+   components were resisted, the player chooses among the attack's original types.
+   See [wounds](../rules/wounds.md). Remove the provisional label in the next
+   player-book revision; the published v16.0.0 PDF is unchanged.
 3. **Resolved October 16, 2026:** moving groups finish in separate legal spaces.
    If everyone cannot fit, stop at the last position where they can; the DA decides
    the exact arrangement. Placement cannot pass through walls or grant extra forward
@@ -46,3 +48,9 @@ proposal wording. These are visible provisional table rulings only where needed.
    **Tangibility also approved October 16:** the forms occupy squares, block movement,
    take damage and can be pushed or grappled normally unless their card says otherwise.
    Their nature grants no automatic incorporeality or damage/control immunity.
+9. **NPC-only resolution approved October 16, 2026:** either a player or the DA
+   assuming the player role may roll. NPC-versus-NPC attacks use the defender’s
+   printed attribute and the attacker’s defense-outcome table; consequential
+   healing/tasks use the acting NPC’s attribute and outcomes. One roll, with
+   ordinary modifiers, and no transfer of NPC control. Off-screen events may use
+   DA judgment. Add this procedure in the next reader revision; v16.0.0 is unchanged.

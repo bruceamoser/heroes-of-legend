@@ -30,7 +30,12 @@ Player attacks use one attacker roll, even against a player. NPC attacks use the
 player’s defense roll. Strong defense receives Weak attack effects, Standard
 receives Standard, Weak receives Strong. The defense itself spends no Reaction.
 Players roll their controlled creatures’ printed attack and defense attributes.
-NPC-versus-NPC without a player controller still needs a DA procedure.
+For NPC-only actions, either a player or the DA assuming the player role rolls.
+For an NPC-versus-NPC attack, roll the defender’s printed defense attribute and
+read the attacker’s defense-outcome table. For consequential NPC healing or other
+tasks, roll the acting NPC’s printed attribute and outcomes. Apply the ordinary
+modifiers and use one roll; handling the dice does not transfer control of the NPC.
+Off-screen events may be resolved by DA judgment without simulating combat.
 
 Damage is fixed by the card. Apply the highest resistance of each matching type,
 cap 3; do not sum matching armor. Minimum 1 damage applies to the whole damaging

@@ -43,8 +43,23 @@ also cause a second player defense roll.
 
 A summon disappears when its controller becomes unconscious or dies. An
 uncommanded summon does nothing; existing effects and conditions still resolve.
-NPC-versus-NPC conflicts with no player controller still need a DA procedure;
-this agreement does not assign an imaginary controller to every creature.
+
+## NPC-only resolution — approved October 16, 2026
+
+Either a player or the DA assuming the player role can roll for NPC-only actions.
+For an NPC attacking another NPC, roll the defending NPC’s printed attribute
+named by the attack, with the applicable modifiers. Read the attacking creature’s
+Weak / Standard / Strong defense outcomes. Make only one roll, not an opposed pair.
+
+For consequential NPC healing or another task, the same choice of roller uses
+the acting NPC’s printed attribute and outcomes. This does not transfer control
+of the NPC to the person handling the dice. Existing player-character and
+player-controlled creature procedures remain unchanged.
+
+For example, when a bandit attacks an allied guard with an Agility-defense attack,
+a player or the DA rolls the guard’s Agility defense and reads the bandit’s card.
+Off-screen events may be resolved by DA judgment without rolling through unseen
+combat.
 
 ## Stability and ordinary movement
 

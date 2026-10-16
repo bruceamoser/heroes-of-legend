@@ -25,6 +25,15 @@ uses only Basic Melee; the interrupted action continues if its actor remains cap
 Area attacks against heroes give each player a defense roll. Player-controlled
 area attacks use one attack roll with the worst relevant target modifiers.
 
+## NPC-only actions — approved October 16, 2026
+
+Either a player or the DA assuming the player role may roll. For an NPC attacking
+another NPC, roll the defender’s printed attribute named by the attack, apply the
+normal modifiers, and read the attacker’s Weak / Standard / Strong defense outcomes.
+For consequential healing or another task, use the acting NPC’s printed attribute
+and outcomes. Make one roll; handling dice does not transfer control of an NPC.
+Off-screen events may be resolved by DA judgment without simulating combat.
+
 ## Stability — approved
 
 All actors have Stability 0 unless an explicit trait or card grants more. Use the

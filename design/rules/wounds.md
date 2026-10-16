@@ -13,9 +13,14 @@ lowest to highest, and read the result. There are 56 possible entries per table:
 Select the damage type that dealt the most damage **after resistance**; the player
 chooses on a tie. Physical includes sonic and force. Fire, Cold, and Lightning use
 Elemental; Mental, Radiant, and Life/Necrotic each have their own table. This shared
-Elemental table does not merge the individual elemental resistances. An eventual
-rule is still needed if minimum total damage applies after every component was
-reduced to zero; this pass does not silently assign the wound's damage type.
+Elemental table does not merge the individual elemental resistances.
+
+If every damage component is reduced to zero and the minimum 1 total damage causes
+a wound, the player chooses among the attack's original damage types.
+
+Example: an attack deals 2 Physical and 1 Fire damage, both fully resisted. Its
+minimum 1 damage drops the character to 0 HP. The player chooses the Physical or
+Elemental wound table.
 
 If the body part is absent or the injury does not apply, move down to the next
 valid listed result until an applicable entry is reached (for example 116 → 122).
