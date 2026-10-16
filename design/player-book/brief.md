@@ -12,7 +12,7 @@ Bruce's direction, October 15, 2026:
 - Preserve the crest's circular form, twin dragons, central sword, and letter motif.
 - Bruce approved the redesigned crest (v2); preserve that version.
 - Composite uses Almendra Bold for the title across the top and the simplified
-  black-background ruins. Cover composition remains a proposal for review.
+  black-background ruins. Bruce approved this complete cover composition.
 - This PDF is a layout proof; final print-resolution artwork is still needed.
 
 Reference logo: assets/images/page001-img001.png.
