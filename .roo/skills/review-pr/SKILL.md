@@ -19,15 +19,15 @@ description: Review a pull request for the Heroes of Legend rulebook. Use when r
 - [ ] Every changed line traces to the issue being worked.
 
 ### Mechanical Review
-- [ ] All rules consistent with 3d6 + attribute + skill core resolution.
-- [ ] Success tiers (Weak 1–6, Standard 7–12, Strong 13–18+) used correctly.
+- [ ] Use the current approved design references and latest user decisions. The fresh system rolls 3d6 + one attribute; there is no numerical skill bonus.
+- [ ] Success tiers used correctly: Weak ≤8, Standard 9–14, Strong ≥15. Weak means progress, not automatic success; retained 111 adds a complication and retained 666 adds a benefit.
 - [ ] Damage values within established ranges for the content type.
-- [ ] DP costs correct (Skills: 1/2/3, Talents: 1/2/4).
+- [ ] Ability tier/minimum levels 1/3/7 and DP costs 2/4/8 are correct. Discipline ranks use the current class-affinity schedule and are bought sequentially; no retired card chains.
 - [ ] Discipline prerequisites valid and consistent.
-- [ ] No mechanics contradict `docs/design/mechanics-decisions.md`.
+- [ ] No mechanics contradict current `design/rules/`, `design/development.md`, card conventions, or later explicit decisions. Historical documents are not newer authority.
 
 ### Cross-References
-- [ ] All `@sec-` references point to valid chapter IDs (check `_quarto.yml`).
+- [ ] Cross-references resolve in the affected output: Quarto IDs for Quarto chapters; Typst labels, page links and manifest coverage for the player book.
 - [ ] New content includes cross-references to related chapters.
 - [ ] No broken or circular references.
 
@@ -38,7 +38,7 @@ description: Review a pull request for the Heroes of Legend rulebook. Use when r
 - [ ] No sentence confusing on first read.
 
 ### Build
-- [ ] `cd quarto-book && ./build.sh` succeeds with no errors.
+- [ ] Build the affected artifact: `python3 design/player-book/build.py --compile` and `python3 design/player-book/audit.py` for the player book; `cd quarto-book && ./build.sh` for legacy Quarto chapter changes.
 - [ ] No new build warnings introduced.
 
 ## Review Response Template
@@ -68,9 +68,9 @@ description: Review a pull request for the Heroes of Legend rulebook. Use when r
 1. Read the PR description and linked issue.
 2. Check out the branch locally: `gh pr checkout <N>`
 3. Read all changed files in full.
-4. Run the build: `cd quarto-book && ./build.sh`
+4. Run the build and audits for the artifact actually changed (see Build above). Inspect PDF page renders when layout changes.
 5. Work through the checklist above.
-6. Post the review using the response template.
+6. Post the review using the response template. An author’s QA is not independent approval. Do not approve or merge your own changes on behalf of the human reviewer.
 7. **Create GitHub issues** for findings that won't be fixed in this PR (see [GitHub Issue Creation](#github-issue-creation) below).
 8. If approved, proceed to `squash-merge` skill.
 9. If changes needed, request them and re-review after updates.

@@ -1,0 +1,1269 @@
+[
+  {
+    "key": "abilities",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "c53fc3417d5b290e99a1a67869e62226be119e55a44b3ed5c29cf1b6a1d8e283"
+  },
+  {
+    "key": "adventure",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "fd37642a991d048af256c193a20337752819a2b76025e740ce144b6b8091e59c"
+  },
+  {
+    "key": "ancestry-dwarf",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGB",
+    "sha256": "4845b2d00569a59480a2b1eead40a64e124496889fdcb78df1436cd60e5174e5"
+  },
+  {
+    "key": "ancestry-elf",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGB",
+    "sha256": "1dcf3f56ace0fea5e1061340e408cf80a484f3807f0f902fc528e10cfb982ed1"
+  },
+  {
+    "key": "ancestry-halfling",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGB",
+    "sha256": "4fa0953d1d8ebc31e10063578ea39b839b18cb043b673ae5c39583aa2fcec198"
+  },
+  {
+    "key": "ancestry-human",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGB",
+    "sha256": "2156815861d78384c259178c0ee5453598a5b5fa498fc980bdf34b2996deff7d"
+  },
+  {
+    "key": "arcanist-instruments",
+    "width": 1145,
+    "height": 1374,
+    "mode": "RGBA",
+    "sha256": "0a312e3095edddc31a3840be88bdbe02ebeb9da34edda540f99db4b578090a4a"
+  },
+  {
+    "key": "backgrounds",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "88fae44629aeb986ffa016d01e455345c4d7206a09019e5b0922c7b454ec9350"
+  },
+  {
+    "key": "badge-armor",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "23a504470186dffc831cdf703b98dfb2d05175e5261593fb4d405881ce2e1891"
+  },
+  {
+    "key": "badge-arms",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "987a48ba7baf688ca55224b8472b9cdba10d89f624fb9cc4a4e96fafd7e9bba7"
+  },
+  {
+    "key": "badge-athletics",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "a2c0cf0e42995e9ba9c5d8ea403acfd338e8602e0a640d5c18ac1da38cea49c2"
+  },
+  {
+    "key": "badge-calling",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "2479b25bcad1efe258a833cb629aa0cd021b30aa0d0c5cb04fcd181f845c6fa0"
+  },
+  {
+    "key": "badge-craft",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "364d7b776454fbfffe113c93839233a9b2a17cfde6048a73fbe4b0dce1dfb324"
+  },
+  {
+    "key": "badge-flame",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "532c003332a51fa4b8f071809f76277eee23d9f8068dfac8748eb0d26db94be8"
+  },
+  {
+    "key": "badge-frost",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "bd1cbdf14489a9e3134c29d1b89e603421d6029fc10c87ec6817c38e04c073ec"
+  },
+  {
+    "key": "badge-guard",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "e8ceeca90400353fcd38add05b727c0b1a3aadefa60f35fc545ee569550d23dc"
+  },
+  {
+    "key": "badge-influence",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "e734159b6cc92540e8d3d66d1271c11b59b0e8edb14d0c93a06d4a06b24a0bc5"
+  },
+  {
+    "key": "badge-life",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "fb54e209b1fe2f38fa5a9251c6a3640ee099f90fcdea3daa564df22ddd331034"
+  },
+  {
+    "key": "badge-marksmanship",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "a0ce1bfd13dcfd0b346218841d473113e051d8fc2cb83ea94531664ae97dd49d"
+  },
+  {
+    "key": "badge-medicine",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "ee9fb33b122d245929b9e3ecc1db86eedf454aaa8be82c6f46c250fbee189478"
+  },
+  {
+    "key": "badge-mind",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "109954503144f8d8222eff3958f4b64461e6fff32b29bd15d409dd1de5f433d1"
+  },
+  {
+    "key": "badge-radiance",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "80aa9191402e06d8bad98c9098fc701472b1c3147c180fece74872d7320b1290"
+  },
+  {
+    "key": "badge-scholarship",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "d6fa5752a108511e9039a1d0b3ec5601d30278700cfb72576d921b603fb3655c"
+  },
+  {
+    "key": "badge-storm",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "70e1fc467845a9ff69dcb2c3d4e79ae0b8d3f0a2ea666b3701b2994e421e4751"
+  },
+  {
+    "key": "badge-subterfuge",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "a822ac6305c337a4f0123c8e39e0d227c9646d0d4f68365f3f13084b44df02e0"
+  },
+  {
+    "key": "badge-wilderness",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "eb5efa5d5ff9d39df39af34815bef089d56f276925096dec3259e9cbe2043c6a"
+  },
+  {
+    "key": "blade-sword",
+    "width": 1312,
+    "height": 1199,
+    "mode": "RGBA",
+    "sha256": "825b754d673eed45ff8f71d3c6f7f6b7ab58042391f2e985f214e11063dbabce"
+  },
+  {
+    "key": "broken-chain",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "e91eef8a70e1a4a9441e93afaf6f326242fbafb5b248e0eacbffa368d1416695"
+  },
+  {
+    "key": "camp-kettle",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "b383631775200b932e7232d3f7493dae0a55189354e710fdbbb8e0b59bcd4c8c"
+  },
+  {
+    "key": "class-arcanist-cutout",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "d8874b32681ffbb943c3d242122e6720984451537f0e3ae5abe25e815b718136"
+  },
+  {
+    "key": "class-arcanist",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGB",
+    "sha256": "08f9bb893d059584bd4bb6c51251bfd4d076ea3b87f474513293f62f76268506"
+  },
+  {
+    "key": "class-blade-cutout",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGBA",
+    "sha256": "733efb142248b3ea09d11a17fa42116d27615ebb55cb3c4a1357b0458413f884"
+  },
+  {
+    "key": "class-blade",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGB",
+    "sha256": "ae6705b6304450d1a439a0dedfc4cca4f76764c442a0f2fb129e571870c8e668"
+  },
+  {
+    "key": "class-intellect-cutout",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGBA",
+    "sha256": "2c62efb7b85b32a1c4d42ca923aab3264230cb5805851123c79688a324dc0f0b"
+  },
+  {
+    "key": "class-intellect",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGB",
+    "sha256": "fac131462f5b02774c273f40defab051285201eb28e98738c7057e41c77f4f24"
+  },
+  {
+    "key": "class-leader-cutout",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGBA",
+    "sha256": "4b040e3e7d8251d76ee687b2c78d1327c1c9f37983ccdd609ab916e416875658"
+  },
+  {
+    "key": "class-leader",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGB",
+    "sha256": "5467f7d4e64989d5418c617777079cacaa354654a6c0a5505b804acce99bb28a"
+  },
+  {
+    "key": "class-odd-cutout",
+    "width": 884,
+    "height": 1780,
+    "mode": "RGBA",
+    "sha256": "53d960641f04793246d6470f12e4b86318f9f086b3c090f2f57d0bb2991ee688"
+  },
+  {
+    "key": "class-odd",
+    "width": 883,
+    "height": 1780,
+    "mode": "RGB",
+    "sha256": "4065f7a46459275b5c1cef79cb2d95c98768766b5586a694c25be702193b070d"
+  },
+  {
+    "key": "class-protector-cutout",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "2083369baa2ff910e7a3f1dbc86bfcbd42486108f5886d5bd7fcd1c423be1f61"
+  },
+  {
+    "key": "class-protector",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGB",
+    "sha256": "74277a16a31c85dc35f708ef381bc9d3927fab763c92f33e90b3a34b9a746ca0"
+  },
+  {
+    "key": "class-shadow-cutout",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "09a8df640826fb42db763582835ac0a54db11e3b06d46bc82e698c97011fe552"
+  },
+  {
+    "key": "class-shadow",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGB",
+    "sha256": "0630c212dbe9cbbadc75cb2407369c8b7e79ad00bda19939f0ea73f42c65e3e9"
+  },
+  {
+    "key": "class-shepherd-cutout",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "993314eb9b9026f349af8f1d9c926952ecb67fc3baaf416f9f5a39a15e22120f"
+  },
+  {
+    "key": "class-shepherd",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGB",
+    "sha256": "4f03e173de578035a8af67ab79540cc8071f90c59c0a721d389f503c95cd5633"
+  },
+  {
+    "key": "class-unbalanced-cutout",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "aee969aa926b5c0c409d9ab984982bdfca4e9b87cea2c024905739509691f901"
+  },
+  {
+    "key": "class-unbalanced",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGB",
+    "sha256": "1fd396900e43cbb7f31763c088eae009727a457d8deca2531fa2ab47cbb2b44a"
+  },
+  {
+    "key": "class-warden-cutout",
+    "width": 885,
+    "height": 1777,
+    "mode": "RGBA",
+    "sha256": "56c3c3571431788a91c6ee9767891550604993873716c577a01e26140aed58e2"
+  },
+  {
+    "key": "class-warden",
+    "width": 886,
+    "height": 1776,
+    "mode": "RGB",
+    "sha256": "c95e29281e6ecc8516c31163653f3278bf0f8ffdffddaf86f247f25982d4f6df"
+  },
+  {
+    "key": "classes",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "10d896ca491610b1e8b53b140adba09f7fd5ab3bb094518756426aa58b457e90"
+  },
+  {
+    "key": "climbing-kit",
+    "width": 1312,
+    "height": 1199,
+    "mode": "RGBA",
+    "sha256": "0dbc6b39a662d2012f0cc819d3e75c987c5c4b994c1bce057a280f2e0d3492e3"
+  },
+  {
+    "key": "coin-purse",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "36006a416781cfb5d694cfb174497f86cf1e1203ad5f810047b8c52583ccf027"
+  },
+  {
+    "key": "combat",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "50f88cfdbb60c4f1daa713ce45870578f2633f91892cbc506eab01a153c95958"
+  },
+  {
+    "key": "cultures",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "ec9413addf9433f9ebdbb99aaaf21bb7805ce9c30563ad28817b348305fb65c2"
+  },
+  {
+    "key": "discipline-instruments",
+    "width": 2172,
+    "height": 724,
+    "mode": "RGB",
+    "sha256": "35a5c4493f9825752a8de4c249ab3e470f614dd5abe7fef96076d83c11546c22"
+  },
+  {
+    "key": "disciplines",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "a24e78801e685e498962a5ff2ab4dfb9a2151fb28c266b8730a77f17417d4158"
+  },
+  {
+    "key": "elemental-stones",
+    "width": 1374,
+    "height": 1145,
+    "mode": "RGBA",
+    "sha256": "d55787e79d98c7042c6ed17d2743f5ab3393265b733471a48c435f3316171b36"
+  },
+  {
+    "key": "equipment",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "6d302dc5fd88709a3297c90416cd616d9e1f36ef4c8c50a68d8186a0253fcaf7"
+  },
+  {
+    "key": "feather-and-seal",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "000ac3072deb6f6a1f0d1ccd0dea0351a90203bb35335ae762cf64d6c9826c9a"
+  },
+  {
+    "key": "fields-of-study",
+    "width": 1145,
+    "height": 1374,
+    "mode": "RGBA",
+    "sha256": "c8c9534dcd4019d23ead7c02ad25ae7f32e28973b5d1aa455a9a22fb13622e4b"
+  },
+  {
+    "key": "folded-spell",
+    "width": 1145,
+    "height": 1374,
+    "mode": "RGBA",
+    "sha256": "0abec326dc5532a9c6f381b7c9dca6aa138a89c12d538014bed5500a8f7d7731"
+  },
+  {
+    "key": "forest-sanctuary",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "637281ee39a01b5e0e79de2e711d950647a6f3cd7cbd482ed0f1f6ddd44eb6dc"
+  },
+  {
+    "key": "healers-bowl",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "ec75c0163338e6abe960c13f1c67b466d702ccca062d0106a93a6b7c547e2707"
+  },
+  {
+    "key": "healing-vials",
+    "width": 1374,
+    "height": 1145,
+    "mode": "RGBA",
+    "sha256": "447eef5e6ba11522acfd2f98e1adca8a179975e0ad689332dd5adf31a96159b9"
+  },
+  {
+    "key": "heroes",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "ce85272b68b5d571f4df372e8853a981cb4608eb4829457791d53f11e294f236"
+  },
+  {
+    "key": "hourglass",
+    "width": 1267,
+    "height": 1241,
+    "mode": "RGBA",
+    "sha256": "072a58c9a6ae56aea30ded52c2f2cb9d01442f718a25b2329c503a2231963be2"
+  },
+  {
+    "key": "hp-vitality",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "b2a1e0ebb30793abfad5292d66f840e78c1a81b7585c3e564ff00c5b86920d7f"
+  },
+  {
+    "key": "intellect-lens",
+    "width": 1312,
+    "height": 1199,
+    "mode": "RGBA",
+    "sha256": "c8169c56d179f8f87cffdcba722d6a4bba4dab792496cc17436db6a7688d638b"
+  },
+  {
+    "key": "journey",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "d5b9bc5d76e1c348b079762325d6613920ae56e619dac84656f6b89d48d1d9b2"
+  },
+  {
+    "key": "journeyman-kit",
+    "width": 1374,
+    "height": 1145,
+    "mode": "RGBA",
+    "sha256": "05aa7b188598a3f604351b4b895ee79982dce1c65bc3f39a51e3109137944f8c"
+  },
+  {
+    "key": "leader-standard",
+    "width": 1312,
+    "height": 1199,
+    "mode": "RGBA",
+    "sha256": "f079456e1d6994f6350f3f09a0e0ec2757d8a7e39ccf44e08934c55de44ac3ab"
+  },
+  {
+    "key": "learned-relics",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "e540252e6780a868b3cf971ea956c9e27c8eb8f91232c8cbc8d12fb55b15d7a2"
+  },
+  {
+    "key": "mountain-pass",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "8db700ea517e8d1e6b7663b13235f173a29ecf58833607b9e6473d5d26c55aff"
+  },
+  {
+    "key": "odd-curios",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "e6600e191846e401a2901b9ada6f23548012327b0e93613cb38d5e1eb1625672"
+  },
+  {
+    "key": "origins",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "be02360db5b6cf19bb067d494d9dfe1338a0306ee8f7cc9300887637ed4d4938"
+  },
+  {
+    "key": "paths",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "ef4a04983f86a4aafd4f140bc449f7355a69bb165aeb33ab03e0d19e2866e814"
+  },
+  {
+    "key": "protector-shield",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "2509ae0bb004c99e2a3fb622d90f6ba65863fadcb8e73d23afadc3f6be9066d8"
+  },
+  {
+    "key": "recipe-tools",
+    "width": 1333,
+    "height": 1180,
+    "mode": "RGBA",
+    "sha256": "fb7e1eee9e824a9894a20c5cbd2bfa303b1ba54b3edc61bd5596d0b447e29157"
+  },
+  {
+    "key": "recipes",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "2744dc47159cd16e82253f2cbb813535948b94f979794c6dca455605b6439711"
+  },
+  {
+    "key": "recovery",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "ba03d3e349ab0820eceb44e69bad1bb2a5b44612b3a1cb9524ef79584475479c"
+  },
+  {
+    "key": "root-and-thorn",
+    "width": 1312,
+    "height": 1199,
+    "mode": "RGBA",
+    "sha256": "1d1036c76d15de39d7fb183ae552461e44a11cf75135db56d0a2bb0f5aa1a564"
+  },
+  {
+    "key": "ruined-observatory",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "69256c772a4b4e212365c36c7f4c11040915bd05157e3cdbf0466976fca752b4"
+  },
+  {
+    "key": "shadow-cloak",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "1b67655469fcd828d2f29b5fc6da864d23c0d168d57119eb7980644fc19637a5"
+  },
+  {
+    "key": "shadow-lantern",
+    "width": 1263,
+    "height": 1246,
+    "mode": "RGBA",
+    "sha256": "d96e510044743b290be2b92ee7440c699e2b2587bf23dc452436c33686838e8b"
+  },
+  {
+    "key": "shepherd-crook",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "a2bf7ded09562530b7de53e32cb0bd4900e92894e8fdc4ba2a0702570191fc64"
+  },
+  {
+    "key": "summon-adder",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "b232e35496ee5169277e577bc41f89422be72c3373f3dd3550e5feedba345bc7"
+  },
+  {
+    "key": "summon-air-elemental",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "f5b6c68e7c5683ae5844d5fec415ff6a18ac9547f8ef1ce3b6d9afb7a34a2694"
+  },
+  {
+    "key": "summon-ancestor-guardian",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "aefb2e5c8636a766c9649a374fdf4cc87baf4447183da0877d9b21effbec7994"
+  },
+  {
+    "key": "summon-ancient-mammoth",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "6b4aa3d560fa8d8e35060bc08bec4321c24f2d4aee99b4aadeb579cdc975e9b4"
+  },
+  {
+    "key": "summon-animated-armor",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "3bd17234404aa871566cb6bec36791ec99bc0cf90cc6e7ed355e38ced0c5911d"
+  },
+  {
+    "key": "summon-animated-statue",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "47235a7a27468885b95fc10b63d94ef3a60a875a354cb2e626c0cc4a3cbc659e"
+  },
+  {
+    "key": "summon-barrow-guard",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "e8980afe63e23d4e1a65e54412654234ca5ce14e49bd063e47e79afe8dd30533"
+  },
+  {
+    "key": "summon-bone-archer",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "03589b953adf87663f23ebd9be397814d7b75066fa3211df691a39b9f90878fa"
+  },
+  {
+    "key": "summon-bone-colossus",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "4e35042f9556df408a325ad62ba1b7315306b44627901e33b5531110ae4b3ffa"
+  },
+  {
+    "key": "summon-bone-sentry",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "45cf4323933eb577398b95c1adcfcdf96d9ffc6a842a4279f08b738d4c6b695d"
+  },
+  {
+    "key": "summon-briar-knight",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "31c7be82591fbf873e1de96a162075d9cfde5ed150811cd96a846d613eb1da58"
+  },
+  {
+    "key": "summon-brown-bear",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "e965f69da6674a7c6298fd663e373b43fac6d134fce326cf58fe673ac1b04a53"
+  },
+  {
+    "key": "summon-cave-bat",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "161908d012340107dcd59943625c7106ccbd4211e801ecb94edd7b2f5700e086"
+  },
+  {
+    "key": "summon-cinder-strider",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "b08d5790a77161b8a69cfbd35f50f7a2f303914d68c8c2f4fe2c2e9d0d0fba2c"
+  },
+  {
+    "key": "summon-clay-golem",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "7da763fdeeafbaac3e6ecb862d1071c3b0fbd5ab6637c2961744ff9e0c2b043d"
+  },
+  {
+    "key": "summon-clay-helper",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "554ab23299f22d8d9560cee3fc9a508bf5a1f0fc89f602fcfee324ec48b3c51c"
+  },
+  {
+    "key": "summon-clockwork-scout",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "a41d63d045d85d13eb44dc00f1acfcb895f62e8942a7385dbe2db240a6846237"
+  },
+  {
+    "key": "summon-crypt-ghoul",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "6b3a9a59ba40274638c22babc2c01d1c25127f4f530a07e28196ef0f263cc1bb"
+  },
+  {
+    "key": "summon-dire-wolf",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "caec96cfddc79d3a8cbc7af4e8b4701d60f307c724c45ad9f59759ae712da7ec"
+  },
+  {
+    "key": "summon-dryad",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "ea3b3b69e1deaa98f22187652af73619d4b586ebcf67e4ee983194b25a62b7cd"
+  },
+  {
+    "key": "summon-earth-elemental",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "b3fb01f0cf8129e8efe06c6f32317de8c19ba6ea84a7e6fcdf70df83e6fcc68b"
+  },
+  {
+    "key": "summon-emberling",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "f321164fa89396da97b48f9722ae8e39682d6de3bd42ae385210814524d26b4c"
+  },
+  {
+    "key": "summon-flesh-golem",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "85423a395845c6b9554e9d81dedcd7fb555cf8d913352c249560ffeb3e21b3ee"
+  },
+  {
+    "key": "summon-ghast",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "6dd94d5650819088efd4d7e99eade30274c055a26637e1e416de782580c7c843"
+  },
+  {
+    "key": "summon-giant-boar",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "32dac82ef4076d8e0863cac2ab05845e97c9bfbf37011e2a8d34768ab3e6a196"
+  },
+  {
+    "key": "summon-giant-constrictor",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "f266ae6fb9dc1a78cbe9dfb9103915d4eb4e8a0df5915bc552c3fef08c0aad80"
+  },
+  {
+    "key": "summon-giant-eagle",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "9896ade7804145f875389753f8afcf883b3c129c9eddbe98ee576f36379c3f40"
+  },
+  {
+    "key": "summon-giant-octopus",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "5b0d8572dee71f65a6f7e38c0293238d048419fac84760a684d9771564545d65"
+  },
+  {
+    "key": "summon-giant-rat",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "e1d3fa6cde0dea5757f5349e90b95ddc9f1d9707aaa5548c2e5c4ed6fa801158"
+  },
+  {
+    "key": "summon-giant-scorpion",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "901e91f6037b07dd9d8a11822d6a70b82840e7829a4384b33f7f4ad108c75c2e"
+  },
+  {
+    "key": "summon-giant-spider",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "d14f3ee17369cbb845952358e269117295cf168d78e921cd33580cde4d22cc5c"
+  },
+  {
+    "key": "summon-glass-sentinel",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "283a69f30e2789d77837592c8194ef482f2aa51757ae3f7f8fe8c570735fd0a6"
+  },
+  {
+    "key": "summon-grave-wisp",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "88baa473cee3375b2367803a1493c814f19a8d4e6851694d66ce3bbbac102aae"
+  },
+  {
+    "key": "summon-great-cat",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "a74271222f0172880f523e2d542bb09426c178d551343be8493cde58834db3aa"
+  },
+  {
+    "key": "summon-great-stag",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "736a58085e838b140638ef5b352430ab185d42c1275650450f9d6cb71173809c"
+  },
+  {
+    "key": "summon-harbor-siren",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "823b8dbc1334c3d867b41ce06c7a200c02d7558c85e62f920fda0f576f0a8a9c"
+  },
+  {
+    "key": "summon-hearth-brownie",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "5fe8e261fecac9d2fa9d2d0313ca866c0e7c43db27b8f55649d0ade460652627"
+  },
+  {
+    "key": "summon-hedge-sprite",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "4a69d2737d3f386b274af9cdab19a934df7629c6a5e9fac96b533d60ea3ec434"
+  },
+  {
+    "key": "summon-icebound-warden",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "b3076603d247550dc1e9b551bda1ffe7d6ffb5c4fa608d97f01a6e3ff70dade5"
+  },
+  {
+    "key": "summon-iron-gatekeeper",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "91c830289b636a4a682cdf84da986778e0d217b8f48a44211c1f9dfdba314fe5"
+  },
+  {
+    "key": "summon-lantern-spirit",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "a37171714198a20340890ff6f8c74bb8e5ade2dbd9b384ff00fa5aff3fe81a0b"
+  },
+  {
+    "key": "summon-marsh-crocodile",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "0d26c658c862b53aa058ccbde1f1913175d59177f78701ab4c71d9288cb416c9"
+  },
+  {
+    "key": "summon-moon-hart",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "a7d67b275f996a189bef898878b619ea68f1c91f142c60966d2ba69ed588c301"
+  },
+  {
+    "key": "summon-mourning-bell",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "80d2b151837fccc233f1c56efe3120d369716549774caad039c9130c0365be66"
+  },
+  {
+    "key": "summon-mummy",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "ad43dc9e5fa11c60cac7685444cca33376648773c65564547096df57b2568481"
+  },
+  {
+    "key": "summon-oath-flame",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "597c02e305cbd6f58e1c8c8c78eeff31b2c058cc0783f74ec0e2caf0f26cc351"
+  },
+  {
+    "key": "summon-plague-zombie",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "2ab5effb71b32ddfc29b9552defbe089aacd6cabd9e062d32f36d3fdc038a8c8"
+  },
+  {
+    "key": "summon-poltergeist",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "d498ae2269105e69504e60aae30b33fda366916ce652438cfbfc532730699c8a"
+  },
+  {
+    "key": "summon-raven",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "64863f8b7dee08fca027f5a4672d9a13f27d21422fbc2c85fbba8d24ab4bead1"
+  },
+  {
+    "key": "summon-redcap",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "acbbd6b3dbcd8b76d6f16b6e6c72a8de49a3aebb72a236ee7cf0e4f5368935d9"
+  },
+  {
+    "key": "summon-reed-piper",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "0b69bd79810eee7d8f8b5b15486e2f601e1edcd5aa80a089593a192b0d4c9b98"
+  },
+  {
+    "key": "summon-reef-hunter",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "dd9b873dd55f1d6b6605a7710537330ee79aacae875c3abe3406b673ca01e084"
+  },
+  {
+    "key": "summon-restless-corpse",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "36c1b7f992ed82d01bdc0471880619c7f4a3ae3632271cde0993c59539063665"
+  },
+  {
+    "key": "summon-rill-sprite",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "ab4d008d2d538719061b8c58b6b502a6cc736cd427bee3dcb7499b7a88271ca4"
+  },
+  {
+    "key": "summon-satyr",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "dcc3dfdd49a2425cf354d9cd7630f1836e8987d46d6f91f396b2423ac2de720e"
+  },
+  {
+    "key": "summon-shadow",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "4d36a43a5d58573f96d7411b305058723b02b96d1635b74a5eaa85786d703c23"
+  },
+  {
+    "key": "summon-skeleton-champion",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "876555ebd20b36624ea6bc0dd508c38639efede758a97a5211863f1ab490d8bd"
+  },
+  {
+    "key": "summon-skeleton-giant",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "ee090c68f467e861b35f0b43e4f9bc19b642507a3fb854bfa97a9abf0352fc84"
+  },
+  {
+    "key": "summon-skeleton-horse",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "e0c9593509bf3d4d2b184b2639840456b282c30d3e6e994865dd75a722d9f28e"
+  },
+  {
+    "key": "summon-sorrow-ghost",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "b95c7765659ebb33149989be8125b78102b0a6a3db00ca7941c69f7a7ef5ace9"
+  },
+  {
+    "key": "summon-stone-golem",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "badf2d35b7e6d402365337049ac37b16ec3137113867a0db7a91b4df919afd2c"
+  },
+  {
+    "key": "summon-stone-knuckle",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "b4a3841a3827eb44b4256baaa5b5608f2ef198917ee36f92a24f44d62f5de099"
+  },
+  {
+    "key": "summon-storm-column",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "4f75e5dc16c930e2ce95e6dafa8e6ca357d40c7d31a24c871bbc2fb9486ded00"
+  },
+  {
+    "key": "summon-trail-hound",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "8fb4c13f3446cf774cba5d9b012ccf8207e76183f3817d8b8058969a292bc686"
+  },
+  {
+    "key": "summon-unicorn",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "c1e5b3a08b841444cb467e827e9332abbdce88b418e3d620d3990123d4caea96"
+  },
+  {
+    "key": "summon-walking-furnace",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "fc08a5c0127fdfec1ad890336394c772ea6f499868d8adbbeb9ad0671481a9cd"
+  },
+  {
+    "key": "summon-warhorse",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "cd6b7b21e595699bcdbc66ccf860aa758397efe8d956f69f6e306fac7c72d459"
+  },
+  {
+    "key": "summon-water-elemental",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "832b745b76e7fc8af4d153bf26a4d542465507ee4290edfb096a4dc18147d78e"
+  },
+  {
+    "key": "summon-wight",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "f59326b199c898666fd41881bc7f23e20b43a92fe66f7b21db260a6a1d06bd7b"
+  },
+  {
+    "key": "summon-wild-boar",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "04b2274aa51ecb4ad28ef1165f25a4221106622453847e6323c1e174a6a4d8c3"
+  },
+  {
+    "key": "summon-wolf",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "77b60dac60e0257284185a65d04737877a03a13f0ffc08189b32a85b7cbec44f"
+  },
+  {
+    "key": "summon-wraith",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "fe0286dbb160cef1312c09dbfb317ba285a60a644eb2a0ebf6231d8e09da5615"
+  },
+  {
+    "key": "summon-zombie-brute",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "f57d228a0557b51168ee4d7ef830c48f1786f4e1d5ff948d0f32446cee5611ff"
+  },
+  {
+    "key": "summoning-ring",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "9d7ca7cbe55840c32ed45e4cd45327cd20bdbcde1fbb301f69a844498d692694"
+  },
+  {
+    "key": "symbol-armor",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "97c57b9b33f37e0303f3dd59e8711f67ac5344fbb4ab519c6d0d6b2ea0b489e6"
+  },
+  {
+    "key": "symbol-arms",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "80ccb98ec28724f627a142194c94b13e61ef5dbdee88112135c7d264c420f2d2"
+  },
+  {
+    "key": "symbol-athletics",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "b2e92d9847c139a5e3be71ceabdb76048a243f48d5c09ee47a4432d203ad51df"
+  },
+  {
+    "key": "symbol-calling",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "0673e766aff9c0d27381f6298fe24d05e825670f825341124d11280305aa9b85"
+  },
+  {
+    "key": "symbol-craft",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "879038e69cc97c887da3629ba262ada70288d645855a19c35e2eaaf058565ece"
+  },
+  {
+    "key": "symbol-flame",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "4141ceaaa01f4a68d57a2a3707fd812f5101ea2b30e1189a3edbf6c430cb3247"
+  },
+  {
+    "key": "symbol-frost",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "298a708b92ce174bd18bbe46d39dff8972d029a7e924f7e9415ea6b7ba9cb3ff"
+  },
+  {
+    "key": "symbol-guard",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "4f7c999934b3de0a7d8e140505ae5e93cc5793d485d355ed20fd112567fba065"
+  },
+  {
+    "key": "symbol-influence",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "b32e36c597be0389205e75ba6858cfaf3a0d523937247672be948a9bf2296ff0"
+  },
+  {
+    "key": "symbol-life",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "ae5dcd6ce83301574af5b2d1ffc2cce42ac6779d8f8956bb54a609dd778970b2"
+  },
+  {
+    "key": "symbol-marksmanship",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "450b1a6e11000a99823d2d768b5d75bf2e5b607a56df8a696eff6d8878d54f44"
+  },
+  {
+    "key": "symbol-medicine",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "441c09f3fbcc670563026fbcbbd3618e54ef3c0926a67aeb68d3776ea6df0f61"
+  },
+  {
+    "key": "symbol-mind",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "def8da57766486cc88031ddbe9a09d6e4c4b31c5b71eabcb61b391ca0afd23f7"
+  },
+  {
+    "key": "symbol-radiance",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "406fe22869dcdc26ca215bd44222fe1e6f2bcd145a973b83b410632f426bb9b5"
+  },
+  {
+    "key": "symbol-scholarship",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "3b1d7e99594e2876e4aba79c1e82672633900e6b98361495e8986cb9d2529d3a"
+  },
+  {
+    "key": "symbol-storm",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "4a575440ef3fd0d06fb50a0a28ae574bd49252d52a5d4b6f8c4f08026878c8aa"
+  },
+  {
+    "key": "symbol-subterfuge",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "9f09bb08ea3093685dca1ca7b5e3f8b08b2fb484962e9437bfafa622a1560a3b"
+  },
+  {
+    "key": "symbol-wilderness",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "b6de3eb6b6f276c5ea2816c12aa91716c2e458895cfed6240147243bc614ff52"
+  },
+  {
+    "key": "unbalanced-maul",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "4a5e5539e5fbe4e23ae6d46b68de21febcc86b1ff61a237b1466f03893eb7111"
+  },
+  {
+    "key": "warden-bow",
+    "width": 1312,
+    "height": 1199,
+    "mode": "RGBA",
+    "sha256": "8a552736651feb70295d1211ea1b34dee25a2721344b8d5a2b7804cb12c84410"
+  },
+  {
+    "key": "welcome",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "69f5fecdb8c8a35362a09ae5547efac72f67947ec8d0493f27ae55ad82dc7798"
+  },
+  {
+    "key": "wounds",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "d0f1066683fb294d2cb66cbc7f4b9b5ab3c75f9f450b7eb44ebc4856bb37b39d"
+  }
+]

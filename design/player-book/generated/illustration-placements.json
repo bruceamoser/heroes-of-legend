@@ -1,0 +1,1042 @@
+[
+  {
+    "asset": "journey",
+    "page": 3,
+    "x": 42.0,
+    "y": 265.39250000000004,
+    "width": 528.0,
+    "height": 340.0
+  },
+  {
+    "asset": "welcome",
+    "page": 4,
+    "x": 42.0,
+    "y": 123.39999999999999,
+    "width": 528.0,
+    "height": 125.0
+  },
+  {
+    "asset": "hp-vitality",
+    "page": 8,
+    "x": 42.0,
+    "y": 410.8924999999999,
+    "width": 528.0,
+    "height": 319.69500000000005
+  },
+  {
+    "asset": "coin-purse",
+    "page": 9,
+    "x": 42.0,
+    "y": 345.375,
+    "width": 345.3333333333333,
+    "height": 125.0
+  },
+  {
+    "asset": "origins",
+    "page": 10,
+    "x": 42.0,
+    "y": 300.345,
+    "width": 528.0,
+    "height": 330.0
+  },
+  {
+    "asset": "ancestry-human",
+    "page": 11,
+    "x": 315.0,
+    "y": 52.0,
+    "width": 255.0,
+    "height": 245.0
+  },
+  {
+    "asset": "ancestry-elf",
+    "page": 12,
+    "x": 315.0,
+    "y": 52.0,
+    "width": 255.0,
+    "height": 245.0
+  },
+  {
+    "asset": "ancestry-dwarf",
+    "page": 13,
+    "x": 315.0,
+    "y": 52.0,
+    "width": 255.0,
+    "height": 245.0
+  },
+  {
+    "asset": "ancestry-halfling",
+    "page": 14,
+    "x": 315.0,
+    "y": 52.0,
+    "width": 255.0,
+    "height": 245.0
+  },
+  {
+    "asset": "cultures",
+    "page": 16,
+    "x": 42.0,
+    "y": 615.4095,
+    "width": 528.0,
+    "height": 115.178
+  },
+  {
+    "asset": "backgrounds",
+    "page": 20,
+    "x": 42.0,
+    "y": 171.3455,
+    "width": 528.0,
+    "height": 340.0
+  },
+  {
+    "asset": "classes",
+    "page": 21,
+    "x": 42.0,
+    "y": 307.895,
+    "width": 528.0,
+    "height": 350.0
+  },
+  {
+    "asset": "class-protector-cutout",
+    "page": 22,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
+  },
+  {
+    "asset": "class-blade-cutout",
+    "page": 25,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
+  },
+  {
+    "asset": "class-arcanist-cutout",
+    "page": 28,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
+  },
+  {
+    "asset": "class-shepherd-cutout",
+    "page": 31,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
+  },
+  {
+    "asset": "class-intellect-cutout",
+    "page": 34,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
+  },
+  {
+    "asset": "class-leader-cutout",
+    "page": 37,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
+  },
+  {
+    "asset": "class-unbalanced-cutout",
+    "page": 40,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
+  },
+  {
+    "asset": "class-shadow-cutout",
+    "page": 43,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
+  },
+  {
+    "asset": "class-odd-cutout",
+    "page": 46,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
+  },
+  {
+    "asset": "class-warden-cutout",
+    "page": 49,
+    "x": 320.0,
+    "y": 94.52499999999999,
+    "width": 240.00000000000003,
+    "height": 520.0
+  },
+  {
+    "asset": "fields-of-study",
+    "page": 52,
+    "x": 315.0,
+    "y": 344.29,
+    "width": 255.0,
+    "height": 265.0
+  },
+  {
+    "asset": "discipline-instruments",
+    "page": 53,
+    "x": 42.0,
+    "y": 500.48750000000007,
+    "width": 528.0,
+    "height": 230.09999999999997
+  },
+  {
+    "asset": "paths",
+    "page": 56,
+    "x": 42.0,
+    "y": 590.4525000000001,
+    "width": 528.0,
+    "height": 140.1349999999999
+  },
+  {
+    "asset": "combat",
+    "page": 57,
+    "x": 42.0,
+    "y": 123.39999999999999,
+    "width": 528.0,
+    "height": 125.0
+  },
+  {
+    "asset": "adventure",
+    "page": 60,
+    "x": 42.0,
+    "y": 123.39999999999999,
+    "width": 528.0,
+    "height": 125.0
+  },
+  {
+    "asset": "recovery",
+    "page": 63,
+    "x": 42.0,
+    "y": 326.41749999999996,
+    "width": 528.0,
+    "height": 340.0
+  },
+  {
+    "asset": "learned-relics",
+    "page": 65,
+    "x": 42.0,
+    "y": 473.28749999999985,
+    "width": 528.0,
+    "height": 257.3000000000001
+  },
+  {
+    "asset": "equipment",
+    "page": 126,
+    "x": 42.0,
+    "y": 485.3524999999999,
+    "width": 528.0,
+    "height": 245.23500000000007
+  },
+  {
+    "asset": "recipes",
+    "page": 137,
+    "x": 42.0,
+    "y": 521.4405000000002,
+    "width": 528.0,
+    "height": 209.14699999999985
+  },
+  {
+    "asset": "summoning-ring",
+    "page": 138,
+    "x": 315.0,
+    "y": 123.39999999999999,
+    "width": 255.0,
+    "height": 530.0
+  },
+  {
+    "asset": "forest-sanctuary",
+    "page": 139,
+    "x": 42.0,
+    "y": 461.5074999999999,
+    "width": 528.0,
+    "height": 269.0800000000001
+  },
+  {
+    "asset": "summon-adder",
+    "page": 140,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-air-elemental",
+    "page": 140,
+    "x": 361.8,
+    "y": 419.6649999999999,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-ancestor-guardian",
+    "page": 141,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-ancient-mammoth",
+    "page": 141,
+    "x": 361.8,
+    "y": 419.6649999999999,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-animated-armor",
+    "page": 142,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-animated-statue",
+    "page": 143,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-barrow-guard",
+    "page": 144,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-briar-knight",
+    "page": 145,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-brown-bear",
+    "page": 146,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-cave-bat",
+    "page": 147,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-cinder-strider",
+    "page": 147,
+    "x": 361.8,
+    "y": 419.6649999999999,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-clay-golem",
+    "page": 148,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-clay-helper",
+    "page": 149,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-clockwork-scout",
+    "page": 149,
+    "x": 361.8,
+    "y": 420.91499999999985,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-crypt-ghoul",
+    "page": 150,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-dire-wolf",
+    "page": 151,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-dryad",
+    "page": 152,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-earth-elemental",
+    "page": 153,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-emberling",
+    "page": 153,
+    "x": 361.8,
+    "y": 437.28999999999996,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-flesh-golem",
+    "page": 154,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-ghast",
+    "page": 155,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-sorrow-ghost",
+    "page": 156,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-giant-boar",
+    "page": 157,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-giant-constrictor",
+    "page": 158,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-giant-eagle",
+    "page": 159,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-giant-octopus",
+    "page": 160,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-giant-rat",
+    "page": 161,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-giant-scorpion",
+    "page": 162,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-giant-spider",
+    "page": 163,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-glass-sentinel",
+    "page": 163,
+    "x": 361.8,
+    "y": 463.83399999999995,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-grave-wisp",
+    "page": 164,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-great-cat",
+    "page": 165,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-great-stag",
+    "page": 166,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-harbor-siren",
+    "page": 166,
+    "x": 361.8,
+    "y": 446.31499999999994,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-hearth-brownie",
+    "page": 167,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-hedge-sprite",
+    "page": 167,
+    "x": 361.8,
+    "y": 455.33999999999986,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-icebound-warden",
+    "page": 168,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-iron-gatekeeper",
+    "page": 168,
+    "x": 361.8,
+    "y": 419.6649999999999,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-lantern-spirit",
+    "page": 169,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-marsh-crocodile",
+    "page": 170,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-moon-hart",
+    "page": 171,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-mourning-bell",
+    "page": 171,
+    "x": 361.8,
+    "y": 464.36499999999984,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-mummy",
+    "page": 172,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-oath-flame",
+    "page": 173,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-plague-zombie",
+    "page": 174,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-poltergeist",
+    "page": 175,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-raven",
+    "page": 176,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-redcap",
+    "page": 176,
+    "x": 361.8,
+    "y": 419.6649999999999,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-reed-piper",
+    "page": 177,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-reef-hunter",
+    "page": 177,
+    "x": 361.8,
+    "y": 419.6649999999999,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-rill-sprite",
+    "page": 178,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-satyr",
+    "page": 178,
+    "x": 361.8,
+    "y": 419.6649999999999,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-shadow",
+    "page": 179,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-bone-archer",
+    "page": 180,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-skeleton-champion",
+    "page": 181,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-bone-colossus",
+    "page": 182,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-skeleton-giant",
+    "page": 183,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-skeleton-horse",
+    "page": 184,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-bone-sentry",
+    "page": 185,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-stone-golem",
+    "page": 186,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-stone-knuckle",
+    "page": 187,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-storm-column",
+    "page": 187,
+    "x": 361.8,
+    "y": 419.6649999999999,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-trail-hound",
+    "page": 188,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-unicorn",
+    "page": 189,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-walking-furnace",
+    "page": 190,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-warhorse",
+    "page": 191,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-water-elemental",
+    "page": 191,
+    "x": 361.8,
+    "y": 437.28999999999996,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-wight",
+    "page": 192,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-wild-boar",
+    "page": 193,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-wolf",
+    "page": 194,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-wraith",
+    "page": 195,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-zombie-brute",
+    "page": 196,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "summon-restless-corpse",
+    "page": 197,
+    "x": 361.8,
+    "y": 92.22500000000001,
+    "width": 199.20000000000002,
+    "height": 165.0
+  },
+  {
+    "asset": "heroes",
+    "page": 209,
+    "x": 42.0,
+    "y": 302.305,
+    "width": 528.0,
+    "height": 340.0
+  },
+  {
+    "page": 24,
+    "x": 49.5,
+    "y": 265,
+    "width": 240,
+    "height": 340,
+    "asset": "protector-shield"
+  },
+  {
+    "page": 27,
+    "x": 49.5,
+    "y": 303,
+    "width": 240,
+    "height": 340,
+    "asset": "blade-sword"
+  },
+  {
+    "page": 30,
+    "x": 322.5,
+    "y": 293,
+    "width": 240,
+    "height": 340,
+    "asset": "arcanist-instruments"
+  },
+  {
+    "page": 32,
+    "x": 322.5,
+    "y": 455,
+    "width": 240,
+    "height": 275,
+    "asset": "shepherd-crook"
+  },
+  {
+    "page": 36,
+    "x": 322.5,
+    "y": 274,
+    "width": 240,
+    "height": 340,
+    "asset": "intellect-lens"
+  },
+  {
+    "page": 39,
+    "x": 49.5,
+    "y": 265,
+    "width": 240,
+    "height": 340,
+    "asset": "leader-standard"
+  },
+  {
+    "page": 42,
+    "x": 49.5,
+    "y": 267,
+    "width": 240,
+    "height": 340,
+    "asset": "unbalanced-maul"
+  },
+  {
+    "page": 45,
+    "x": 322.5,
+    "y": 321,
+    "width": 240,
+    "height": 340,
+    "asset": "shadow-cloak"
+  },
+  {
+    "page": 48,
+    "x": 322.5,
+    "y": 331,
+    "width": 240,
+    "height": 340,
+    "asset": "odd-curios"
+  },
+  {
+    "page": 51,
+    "x": 49.5,
+    "y": 348,
+    "width": 240,
+    "height": 340,
+    "asset": "warden-bow"
+  },
+  {
+    "page": 64,
+    "x": 186.0,
+    "y": 439,
+    "width": 240,
+    "height": 230,
+    "asset": "hourglass"
+  },
+  {
+    "page": 78,
+    "x": 322.5,
+    "y": 565,
+    "width": 240,
+    "height": 165,
+    "asset": "root-and-thorn"
+  },
+  {
+    "page": 81,
+    "x": 49.5,
+    "y": 519,
+    "width": 240,
+    "height": 211,
+    "asset": "shadow-lantern"
+  },
+  {
+    "page": 87,
+    "x": 49.5,
+    "y": 419,
+    "width": 240,
+    "height": 230,
+    "asset": "folded-spell"
+  },
+  {
+    "page": 92,
+    "x": 322.5,
+    "y": 576,
+    "width": 240,
+    "height": 154,
+    "asset": "healers-bowl"
+  },
+  {
+    "page": 93,
+    "x": 42,
+    "y": 249,
+    "width": 528,
+    "height": 260,
+    "asset": "ruined-observatory"
+  },
+  {
+    "page": 96,
+    "x": 49.5,
+    "y": 545,
+    "width": 240,
+    "height": 185,
+    "asset": "climbing-kit"
+  },
+  {
+    "page": 100,
+    "x": 42,
+    "y": 532,
+    "width": 528,
+    "height": 198,
+    "asset": "mountain-pass"
+  },
+  {
+    "page": 113,
+    "x": 322.5,
+    "y": 500,
+    "width": 240,
+    "height": 230,
+    "asset": "broken-chain"
+  },
+  {
+    "page": 114,
+    "x": 49.5,
+    "y": 566,
+    "width": 240,
+    "height": 164,
+    "asset": "feather-and-seal"
+  },
+  {
+    "page": 125,
+    "x": 186.0,
+    "y": 448,
+    "width": 240,
+    "height": 230,
+    "asset": "elemental-stones"
+  },
+  {
+    "page": 129,
+    "x": 186.0,
+    "y": 489,
+    "width": 240,
+    "height": 230,
+    "asset": "recipe-tools"
+  },
+  {
+    "page": 136,
+    "x": 49.5,
+    "y": 532,
+    "width": 240,
+    "height": 198,
+    "asset": "healing-vials"
+  }
+]

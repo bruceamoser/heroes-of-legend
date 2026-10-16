@@ -1,60 +1,66 @@
 # Heroes of Legend
 
-**A fantasy tabletop RPG built on a custom 3d6 + modifiers system with tiered success.**
+**A fantasy tabletop RPG with strategic character development and fast, card-driven play.**
 
-> *"Grab your swords. Stow your spell books. Adventure awaits."*
+> Grab your swords. Stow your spell books. Adventure awaits.
 
-Heroes of Legend is a ground-up redesign of an earlier playtest game. Characters are built from **Disciplines** (23 disciplines across 9 categories: Elemental, Weapon, Defense, Primal, Arcane, Divine, Esoteric, Subterfuge, Knowledge), with a flat damage budget, one-roll resolution, and no spell slots. Magic always fires; the dice decide how well.
+Build the hero you imagine from ancestry, culture, background, class, disciplines
+and shared abilities. At the table, roll 3d6 plus one attribute, apply Boons and
+Banes, and read the card’s Weak, Standard or Strong outcome.
 
-## Current Status
+## Player’s Book v16.0.0
 
-**Core Rules Complete** — 25 chapters, reviewed and balance-audited through the full Council pipeline (Game Architect, Author, Editor-in-Chief, Contrarian, Layout/Design Expert), building to a single PDF via Quarto + a custom Typst theme.
+The new major edition is a **234-page illustrated player book for levels 1–10**,
+using the rebuilt system and the Great Library visual style. This is a digital
+**playtest edition**, ready for table feedback.
 
-- 📕 [Latest Build (PDF)](https://github.com/bruceamoser/heroes-of-legend/releases/latest/download/Heroes-of-Legend.pdf) — 409 pages, bestiary Challenge ladder complete (2026-09-29)
-- 📖 [Original Playtest PDF (legacy reference)](source-doc/Heros%20of%20Legend-Playtest-v15.1.pdf)
-- 🎨 [Visual Style Guide](docs/visual-style-guide.md)
-- 📐 [Layout Guidelines](docs/layout-guidelines.md)
-- 🖼️ [Illustration List](docs/illustration-list.md)
-- 🤖 [Agent Instructions](.github/copilot-instructions.md) (via `AGENTS.md` pointer)
+- [Download the Player’s Book (PDF)](https://github.com/bruceamoser/heroes-of-legend/releases/latest/download/Heroes-of-Legend.pdf)
+- [v16.0.0 release and notes](https://github.com/bruceamoser/heroes-of-legend/releases/tag/v16.0.0)
+- [Editable player-book sources and build instructions](design/player-book/README.md)
+- [Validation report](design/player-book/qa-report.md)
+- [Editorial decisions and provisional rulings](design/player-book/decision-log.md)
 
-## Core Mechanics
+The book includes 4 ancestries, 18 cultures, 32 backgrounds, 10 classes,
+18 disciplines, 350 abilities, 43 equipment entries, 10 recipes, 73 summoned
+companion profiles, 280 wound results, six worked heroes and four printable sheets.
+Class cost tables, ability directories and tiered indexes help players find choices.
 
-- **Roll:** 3d6 + Attribute + Skill + Modifiers
-- **Success Tiers:** Weak (1–8) | Standard (9–14) | Strong (15–18+)
-- **Critical:** Three natural 6s | **Fumble:** Three natural 1s
-- **One-roll principle:** the hit/casting roll IS the damage roll. No damage dice.
-- **Flat damage budget:** Novice 4/6/8 · Adept 5/8/11 · Master 7/10/14 (Weak/Standard/Strong); riders sum to the row
-- **Attribute-scaled damage:** a mixture by design. Melee weapons add Brawn; missile weapons and arrows are flat; most spells are flat; some cards state a keyed attribute (e.g. 1/2/3 + Knowledge). Minimum 1 damage.
-- **Attacks always hit** — outcomes determine damage, not whether you connect
-- **No spell slots, no mana, no components** — magic always fires
-- **Discipline economy:** flat card costs (2/4/8 DP by tier), four rank-cost structures per class (1/2/4 · 2/4/8 · 3/6/12 · 4/8/16), level gates (Adept at 3, Master at 7), ~52 career DP by level 10
-- **Starting disciplines:** rank 1, two picks, distinct disciplines per class bundle
+The complete 192-creature bestiary and DA encounter-building guidance remain in
+[the design workspace](design/), for the separate Dungeon Architect book.
 
-## Quick Build
+## Current rules and source
 
-Requires [Quarto](https://quarto.org/docs/get-started/) **1.10+** (the build uses the orange-book Typst book template; a vendored template shim enforces the US-Letter theme geometry).
+The current design lives in `design/` as editable Markdown. Player-facing teaching
+chapters and the Typst book layout live in `design/player-book/`. The build reads
+catalog entries; it never overwrites them.
 
-```bash
-cd quarto-book
-./build.sh                 # Linux/macOS — or .\build.ps1 on Windows
-# Output: quarto-book/_output/Heroes-of-Legend.pdf
+The earlier Quarto book and original v15.1 playtest remain historical references.
+Their mechanics are superseded by the current design and should not be used to
+fill gaps in the new system.
+
+## Build the player book
+
+Follow [the dependency and editing guide](design/player-book/README.md). With
+Python dependencies, Typst 0.15.1 and Poppler available:
+
+```sh
+python3 -m pip install -r design/player-book/requirements.txt
+TYPST=/path/to/typst python3 design/player-book/build.py --compile
+python3 design/player-book/audit.py
 ```
 
-## Repository Layout
+Output: `design/player-book/output/heroes-of-legend-players-book.pdf`.
 
-- `quarto-book/` — book source (`chapters/*.qmd`), Quarto config (`_quarto.yml`), Typst theme (`_extensions/heroes-of-legend/`)
-- `docs/` — visual style guide, layout guidelines, illustration list, Typst package notes (`docs/design/` is dev-local and untracked)
-- `source-doc/` — original playtest PDF + extracted text reference
-- `.github/` — agent instructions and issue specifications used during development
+## Repository layout
 
-## Workflow
+- `design/`: current rules, character choices, cards, equipment and bestiary.
+- `design/player-book/`: teaching chapters, Typst layout, artwork, PDF and QA.
+- `design/layout-test/`: historical layout-tool experiments.
+- `quarto-book/`: earlier book source, retained for history.
+- `source-doc/`: original playtest reference material.
+- `.github/` and `.roo/skills/`: project workflow and editing guidance.
 
-ISSUE → BRANCH → OPencode IMPLEMENT → PR → WINSTON AUDIT → SQUASH MERGE → CLOSE.
+## Workflow and designer
 
-Large work items split into per-chapter sub-issues under an umbrella tracker, implemented by parallel worktree agents. Review passes run through the Council: Game Architect (mechanics) → Author (prose and canon) → Editor-in-Chief (completeness and the closing balance audit against the damage budget table).
-
-House style laws: **zero em-dashes** in book text, flat damage only, one roll.
-
-## Designer
-
-Bruce A. Moser: Lead designer and system architect.
+Issue → branch → implementation → PR → review → squash merge → close.
+Bruce A. Moser is the lead designer and final authority on rules and publication.

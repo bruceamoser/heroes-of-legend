@@ -1,0 +1,369 @@
+[
+  {
+    "key": "symbol-flame",
+    "path": "design/player-book/art/interior/symbol-flame.png",
+    "prompt": "Create a single bold FLAME symbol for a fantasy tabletop rulebook ability card. One unmistakable broad upright flame with three asymmetric pointed tongues, flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. The lower middle must be a solid broad gold area on which a dark rank numeral will later be typeset. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-arms",
+    "path": "design/player-book/art/interior/symbol-arms.png",
+    "prompt": "Create a single bold ARMS symbol for a fantasy tabletop rulebook ability card: a single broad medieval sword pointing straight up, prominent crossguard. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-armor",
+    "path": "design/player-book/art/interior/symbol-armor.png",
+    "prompt": "Create a single bold ARMOR symbol for a fantasy tabletop rulebook ability card: a broad sleeveless breastplate with two shoulder tabs. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-guard",
+    "path": "design/player-book/art/interior/symbol-guard.png",
+    "prompt": "Create a single bold GUARD symbol for a fantasy tabletop rulebook ability card: a solid pointed-bottom heater shield. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-athletics",
+    "path": "design/player-book/art/interior/symbol-athletics.png",
+    "prompt": "Create a single bold ATHLETICS symbol for a fantasy tabletop rulebook ability card: a winged boot in side view, clear heel and toe. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-marksmanship",
+    "path": "design/player-book/art/interior/symbol-marksmanship.png",
+    "prompt": "Create a single bold MARKSMANSHIP symbol for a fantasy tabletop rulebook ability card: a recurve bow with one arrow pointing to the right. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-subterfuge",
+    "path": "design/player-book/art/interior/symbol-subterfuge.png",
+    "prompt": "Create a single bold SUBTERFUGE symbol for a fantasy tabletop rulebook ability card: a single old-fashioned key with a large solid diamond bow and two teeth. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-influence",
+    "path": "design/player-book/art/interior/symbol-influence.png",
+    "prompt": "Create a single bold INFLUENCE symbol for a fantasy tabletop rulebook ability card: a broad five-point royal crown. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-scholarship",
+    "path": "design/player-book/art/interior/symbol-scholarship.png",
+    "prompt": "Create a single bold SCHOLARSHIP symbol for a fantasy tabletop rulebook ability card: an open book with thick broad pages. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-wilderness",
+    "path": "design/player-book/art/interior/symbol-wilderness.png",
+    "prompt": "Create a single bold WILDERNESS symbol for a fantasy tabletop rulebook ability card: a broad oak leaf with a short stem. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-craft",
+    "path": "design/player-book/art/interior/symbol-craft.png",
+    "prompt": "Create a single bold CRAFT symbol for a fantasy tabletop rulebook ability card: a solid anvil with a clear projecting horn. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-medicine",
+    "path": "design/player-book/art/interior/symbol-medicine.png",
+    "prompt": "Create a single bold MEDICINE symbol for a fantasy tabletop rulebook ability card: a pestle resting diagonally in a wide mortar. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-frost",
+    "path": "design/player-book/art/interior/symbol-frost.png",
+    "prompt": "Create a single bold FROST symbol for a fantasy tabletop rulebook ability card: a thick six-armed snowflake with short angular branch tips. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-storm",
+    "path": "design/player-book/art/interior/symbol-storm.png",
+    "prompt": "Create a single bold STORM symbol for a fantasy tabletop rulebook ability card: one bold angular lightning bolt. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-life",
+    "path": "design/player-book/art/interior/symbol-life.png",
+    "prompt": "Create a single bold LIFE symbol for a fantasy tabletop rulebook ability card: a heart with two short sprouting leaves. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-radiance",
+    "path": "design/player-book/art/interior/symbol-radiance.png",
+    "prompt": "Create a single bold RADIANCE symbol for a fantasy tabletop rulebook ability card: a sun with a broad solid disc and eight short rays. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-mind",
+    "path": "design/player-book/art/interior/symbol-mind.png",
+    "prompt": "Create a single bold MIND symbol for a fantasy tabletop rulebook ability card: an almond-shaped eye with a broad solid central iris. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "symbol-calling",
+    "path": "design/player-book/art/interior/symbol-calling.png",
+    "prompt": "Create a single bold CALLING symbol for a fantasy tabletop rulebook ability card: a curling ram horn, wide at the base, forming a clear open spiral. Flat antique-gold silhouette (#d9b86d), very slight ink-cut character on the outer edge. No ornament, no medallion, no enclosing circle, no border, no lettering, no number, no gradients, no scene. Designed to remain immediately recognizable at 25pt high. Keep a broad filled area at the lower middle for a dark rank numeral typeset later. Isolated centered symbol, fills 88% of square canvas. Truly transparent background.",
+    "transparent": true,
+    "role": "functional-symbol"
+  },
+  {
+    "key": "journeyman-kit",
+    "path": "design/player-book/art/interior/journeyman-kit.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A carefully packed travel satchel, folded green cloak, bedroll and sturdy boots, arranged as one clear still life.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "creation"
+  },
+  {
+    "key": "fields-of-study",
+    "path": "design/player-book/art/interior/fields-of-study.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A tall still life of an open study folio, antique brass compass, small crystal and a quill. No readable text.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "disciplines"
+  },
+  {
+    "key": "learned-relics",
+    "path": "design/player-book/art/interior/learned-relics.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A tall still life of a curved ceremonial blade, a polished amber spell focus and a coil of green silk, balanced as a single elegant composition.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "abilities"
+  },
+  {
+    "key": "summoning-ring",
+    "path": "design/player-book/art/interior/summoning-ring.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. An empty stone ring etched with invented abstract runes, a green crystal floating just above its center, wisps of gold light rising through it. No creature.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "summons"
+  },
+  {
+    "key": "coin-purse",
+    "path": "design/player-book/art/interior/coin-purse.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. An open leather coin pouch spilling a few unmarked antique gold coins onto a small folded green cloth. Wide low composition.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "coins"
+  },
+  {
+    "key": "protector-shield",
+    "path": "design/player-book/art/interior/protector-shield.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A battered broad shield with an ivy sprig tied to its grip and a short spear resting behind it.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "classes"
+  },
+  {
+    "key": "blade-sword",
+    "path": "design/player-book/art/interior/blade-sword.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A beautifully balanced longsword resting diagonally on a folded green sword belt, an unadorned steel blade catching warm gold light.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "classes"
+  },
+  {
+    "key": "arcanist-instruments",
+    "path": "design/player-book/art/interior/arcanist-instruments.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A brass armillary sphere holding a glowing amber crystal above a closed green leather spellbook.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "classes"
+  },
+  {
+    "key": "shepherd-crook",
+    "path": "design/player-book/art/interior/shepherd-crook.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A gnarled oak shepherd crook, a little bundle of healing herbs and an acorn charm.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "classes"
+  },
+  {
+    "key": "intellect-lens",
+    "path": "design/player-book/art/interior/intellect-lens.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. An antique magnifying lens hovering on its folding brass stand over a small broken mechanical lock.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "classes"
+  },
+  {
+    "key": "leader-standard",
+    "path": "design/player-book/art/interior/leader-standard.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A rolled green campaign banner leaning against a brass signal horn, with a simple gold star embroidered on the visible cloth.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "classes"
+  },
+  {
+    "key": "unbalanced-maul",
+    "path": "design/player-book/art/interior/unbalanced-maul.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A massive stone-headed maul with a leather-wrapped handle, resting against a cracked boulder.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "classes"
+  },
+  {
+    "key": "shadow-cloak",
+    "path": "design/player-book/art/interior/shadow-cloak.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A folded charcoal-green hooded cloak, a pair of soft leather boots and a small unmarked silver charm. Quiet travelling gear, no weapons or tools.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "classes",
+    "previous_prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. An elegant fan of steel lockpicks and a coiled dark silk cord on a narrow green leather tool roll."
+  },
+  {
+    "key": "odd-curios",
+    "path": "design/player-book/art/interior/odd-curios.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. An improbable still life of a bent silver spoon, an ornate tiny door key, a blue glass marble and a little brass bell.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "classes"
+  },
+  {
+    "key": "warden-bow",
+    "path": "design/player-book/art/interior/warden-bow.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A yew bow, three fletched arrows and an autumn oak branch arranged diagonally as a forest ranger still life.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "classes"
+  },
+  {
+    "key": "climbing-kit",
+    "path": "design/player-book/art/interior/climbing-kit.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A coil of hemp rope with an iron grappling hook, three pitons and a small leather climbing glove.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "abilities"
+  },
+  {
+    "key": "healers-bowl",
+    "path": "design/player-book/art/interior/healers-bowl.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A shallow ceramic bowl of crushed herbs beside a rolled clean bandage and a wooden spoon.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "abilities"
+  },
+  {
+    "key": "elemental-stones",
+    "path": "design/player-book/art/interior/elemental-stones.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. Three rough crystals containing ember red, frost blue and lightning gold light, arranged as a compact triangular still life.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "abilities"
+  },
+  {
+    "key": "shadow-lantern",
+    "path": "design/player-book/art/interior/shadow-lantern.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A shuttered iron lantern with a narrow beam of amber light and a dark green silk hood.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "abilities"
+  },
+  {
+    "key": "broken-chain",
+    "path": "design/player-book/art/interior/broken-chain.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A heavy iron chain with one freshly broken link, the two ends curling into a forceful diagonal composition.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "abilities"
+  },
+  {
+    "key": "root-and-thorn",
+    "path": "design/player-book/art/interior/root-and-thorn.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A crown-like tangle of living roots and bramble thorns around a small green stone.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "abilities"
+  },
+  {
+    "key": "feather-and-seal",
+    "path": "design/player-book/art/interior/feather-and-seal.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A black raven feather resting across a wax-sealed parchment scroll and an antique brass signet ring. No writing.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "abilities"
+  },
+  {
+    "key": "folded-spell",
+    "path": "design/player-book/art/interior/folded-spell.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. Several blank parchment leaves floating in a spiral above an open green leather book, connected by fine amber light. No writing.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "abilities"
+  },
+  {
+    "key": "healing-vials",
+    "path": "design/player-book/art/interior/healing-vials.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. Three unusual glass healing vials with warm amber liquid, corks and linen ties, one lying safely on its side.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "equipment"
+  },
+  {
+    "key": "camp-kettle",
+    "path": "design/player-book/art/interior/camp-kettle.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A soot-darkened travel kettle and folded wool blanket beside a small bundle of dry firewood. No fire or scene background.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "adventure"
+  },
+  {
+    "key": "recipe-tools",
+    "path": "design/player-book/art/interior/recipe-tools.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A small mortar, a curved herb knife, an amber bottle and a folded recipe parchment with abstract ink strokes, no readable text.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "equipment"
+  },
+  {
+    "key": "hourglass",
+    "path": "design/player-book/art/interior/hourglass.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook spot illustration. Crisp confident ink contours, restrained engraved hatching, softly painted forest green, antique gold, warm ivory and charcoal. Lived-in medieval craftsmanship, strong silhouette, modest detail for small print. Isolated objects on a genuinely transparent background; no rectangle, scenery, person, hands, face, lettering, caption, watermark or frame. Leave a little transparent margin around the silhouette. A squat antique brass hourglass with green glass and gold sand, one ivy leaf beside it.",
+    "transparent": true,
+    "role": "spot",
+    "scope": "recovery"
+  },
+  {
+    "key": "mountain-pass",
+    "path": "design/player-book/art/interior/mountain-pass.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook landscape. Crisp ink contours and restrained painterly color in forest green, antique gold, warm ivory and charcoal. Wide horizontal composition 2:1, readable broad shapes, no people, creatures, lettering, watermark or frame. An empty narrow mountain path and stone bridge spanning a deep gorge, distant misty peaks, early gold sunlight.",
+    "transparent": false,
+    "role": "landscape",
+    "scope": "abilities"
+  },
+  {
+    "key": "forest-sanctuary",
+    "path": "design/player-book/art/interior/forest-sanctuary.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook landscape. Crisp ink contours and restrained painterly color in forest green, antique gold, warm ivory and charcoal. Wide horizontal composition 2:1, readable broad shapes, no people, creatures, lettering, watermark or frame. An empty woodland clearing with an ancient mossy standing stone, fern banks and a still reflective pool.",
+    "transparent": false,
+    "role": "landscape",
+    "scope": "abilities"
+  },
+  {
+    "key": "ruined-observatory",
+    "path": "design/player-book/art/interior/ruined-observatory.png",
+    "prompt": "Original Heroes of Legend fantasy rulebook landscape. Crisp ink contours and restrained painterly color in forest green, antique gold, warm ivory and charcoal. Wide horizontal composition 2:1, readable broad shapes, no people, creatures, lettering, watermark or frame. An empty ruined hilltop observatory with a broken brass star sphere, weathered arches and a far green valley.",
+    "transparent": false,
+    "role": "landscape",
+    "scope": "abilities"
+  }
+]

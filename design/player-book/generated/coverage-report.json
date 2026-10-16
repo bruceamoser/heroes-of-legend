@@ -1,0 +1,40 @@
+{
+  "counts": {
+    "chapter": 10,
+    "market-reference": 2,
+    "ancestry": 4,
+    "trait": 20,
+    "section": 4,
+    "culture": 18,
+    "background": 32,
+    "class": 10,
+    "ability": 350,
+    "discipline": 18,
+    "path": 4,
+    "condition-reference": 1,
+    "equipment": 43,
+    "recipes": 10,
+    "summon-index": 1,
+    "summon": 73,
+    "wound-tables": 1,
+    "character": 6
+  },
+  "illustration_assets": 181,
+  "missing_art": [],
+  "open_space_illustrations": 23,
+  "unique_illustrations": 130,
+  "duplicate_illustrations": {},
+  "printable_sheet_pages": [
+    224,
+    225,
+    226,
+    227
+  ],
+  "ability_outcomes_checked": 486,
+  "missing_names": [],
+  "missing_outcomes": [],
+  "wound_rows": 280,
+  "missing_wound_cells": [],
+  "pages": 234,
+  "errors": []
+}
