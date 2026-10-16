@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "chapter": 10,
+    "ancestry": 4,
+    "trait": 20,
+    "culture": 18,
+    "background": 32,
+    "class": 10,
+    "ability": 350,
+    "discipline": 18,
+    "path": 36,
+    "condition-reference": 1,
+    "market-reference": 2,
+    "equipment": 43,
+    "recipes": 10,
+    "summon-index": 1,
+    "summon": 73,
+    "wound-tables": 1,
+    "character": 6
+  },
+  "ability_outcomes_checked": 486,
+  "missing_names": [],
+  "missing_outcomes": [],
+  "wound_rows": 280,
+  "missing_wound_cells": [],
+  "pages": 277,
+  "errors": []
+}
