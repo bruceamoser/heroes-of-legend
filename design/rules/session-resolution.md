@@ -53,7 +53,9 @@ trait, ability or item raises it, maximum 3, highest source only. It consumes fo
 movement once for the initial target and once for each new creature struck in a
 collision chain. Stop when movement is exhausted; never charge a creature twice.
 It does not resist Prone, grapples or conditions. See [Stability](stability.md) for
-a worked example and the separately identified collision-damage timing question.
+a worked example. **Collision timing approved October 16, 2026:** resolve contact
+collision damage from movement remaining on arrival, then deduct the new member’s
+Stability before further travel. Applicable resistance still reduces damage.
 
 **Agreed:** falling deals **3 HP per 2 squares fallen**. **Rounding/damage proposal:**
 use 3 × floor(distance / 2), physical damage with ordinary physical resistance;

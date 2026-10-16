@@ -35,8 +35,9 @@ can grant a higher value only for their printed duration.
 Deduct Stability once for the initial target and once for every new creature struck
 in the collision chain. Stop when movement runs out. Never deduct the same creature’s
 Stability twice in that movement. This does not resist Prone, grappling or conditions.
-See [Stability](../rules/stability.md) for the worked example and the remaining
-collision-damage timing question. Terrain consumes movement as already established.
+Resolve contact collision damage before deducting the newly struck creature’s
+Stability; apply applicable resistance to damage. See [Stability](../rules/stability.md)
+for the approved order and worked example. Terrain consumes movement as already established.
 
 ## Player-controlled creatures
 

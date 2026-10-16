@@ -59,8 +59,9 @@ positive remaining budget can enter the final square and stop even if that cost
 exceeds the budget.
 
 Forced collisions gather movable occupants into one moving group. All take the
-collision damage; the remaining movement continues together. A hard obstruction
-stops the group and adds 1 to remaining-budget collision damage. The original
+collision damage using movement remaining at contact, before deducting the newly
+struck creature’s Stability. If movement remains, the group continues together.
+A hard obstruction stops the group and adds 1 to remaining-budget collision damage. The original
 mover bounces one square opposite afterward if possible. Detailed group footprint
 and congested geometry remain open; no new card resolves them by fiat.
 

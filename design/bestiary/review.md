@@ -33,10 +33,10 @@ not Stability grants. The two willing rescue cards explicitly propose exceptions
 so a braced ally is not left dangling because of their Stability. The character
 review ledger documents these decisions and the complete keyword survey.
 
-**Still a timing question:** collision damage before or after a newly struck body’s
-Stability is deducted. The approved rule consumes movement through the chain. It
-does not by itself settle that damage order. The example in the Stability reference
-labels its contact-damage interpretation as a proposal, not an approved addition.
+**Resolved October 16, 2026:** Bruce approved collision damage before the newly
+struck body’s Stability is deducted. Use movement remaining at contact for damage,
+apply applicable resistance, then deduct that body’s Stability before further
+travel. The [Stability reference](../rules/stability.md) records the approved example.
 
 ## Inventions withdrawn from the play rules
 
