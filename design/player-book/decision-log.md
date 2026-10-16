@@ -8,8 +8,10 @@ proposal wording. These are visible provisional table rulings only where needed.
    and asking for an unprinted attack attribute and caster HP cost. That paragraph
    conflicts with its no-roll potion rules. It is excluded from the book's potion
    entry; offensive spell healing remains intact. No new potion attack is granted.
-2. If minimum damage causes a wound after all damage components were resisted,
-   choose among the attack's original types (player chooses). Marked playtest ruling.
+2. **Resolved October 16, 2026:** if minimum damage causes a wound after all damage
+   components were resisted, the player chooses among the attack's original types.
+   See [wounds](../rules/wounds.md). Remove the provisional label in the next
+   player-book revision; the published v16.0.0 PDF is unchanged.
 3. **Resolved October 16, 2026:** moving groups finish in separate legal spaces.
    If everyone cannot fit, stop at the last position where they can; the DA decides
    the exact arrangement. Placement cannot pass through walls or grant extra forward
