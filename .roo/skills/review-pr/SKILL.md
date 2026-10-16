@@ -45,6 +45,8 @@ description: Review a pull request for the Heroes of Legend rulebook. Use when r
 
 ### Build
 - [ ] Build the affected artifact: `python3 design/player-book/build.py --compile` and `python3 design/player-book/audit.py` for the player book; `cd quarto-book && ./build.sh` for legacy Quarto chapter changes.
+- [ ] For the DA Markdown manuscript, run `python3 design/da-book/assemble.py`, then `--check`, plus `design/audit.py` and `design/bestiary/audit.py`. Check unique catalog coverage, preserved wound rows and separate combat/design sections. Markdown assembly is not PDF layout validation or balance certification.
+- [ ] New adventure/hazard numbers are visibly proposals; existing card mechanics come from shared authored sources, not copied editable catalogs.
 - [ ] No new build warnings introduced.
 
 ## Review Response Template
