@@ -42,6 +42,13 @@
     "sha256": "2156815861d78384c259178c0ee5453598a5b5fa498fc980bdf34b2996deff7d"
   },
   {
+    "key": "arcanist-instruments",
+    "width": 1145,
+    "height": 1374,
+    "mode": "RGBA",
+    "sha256": "0a312e3095edddc31a3840be88bdbe02ebeb9da34edda540f99db4b578090a4a"
+  },
+  {
     "key": "backgrounds",
     "width": 1774,
     "height": 887,
@@ -175,6 +182,27 @@
     "sha256": "eb5efa5d5ff9d39df39af34815bef089d56f276925096dec3259e9cbe2043c6a"
   },
   {
+    "key": "blade-sword",
+    "width": 1312,
+    "height": 1199,
+    "mode": "RGBA",
+    "sha256": "825b754d673eed45ff8f71d3c6f7f6b7ab58042391f2e985f214e11063dbabce"
+  },
+  {
+    "key": "broken-chain",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "e91eef8a70e1a4a9441e93afaf6f326242fbafb5b248e0eacbffa368d1416695"
+  },
+  {
+    "key": "camp-kettle",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "b383631775200b932e7232d3f7493dae0a55189354e710fdbbb8e0b59bcd4c8c"
+  },
+  {
     "key": "class-arcanist",
     "width": 887,
     "height": 1774,
@@ -252,6 +280,20 @@
     "sha256": "10d896ca491610b1e8b53b140adba09f7fd5ab3bb094518756426aa58b457e90"
   },
   {
+    "key": "climbing-kit",
+    "width": 1312,
+    "height": 1199,
+    "mode": "RGBA",
+    "sha256": "0dbc6b39a662d2012f0cc819d3e75c987c5c4b994c1bce057a280f2e0d3492e3"
+  },
+  {
+    "key": "coin-purse",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "36006a416781cfb5d694cfb174497f86cf1e1203ad5f810047b8c52583ccf027"
+  },
+  {
     "key": "combat",
     "width": 1774,
     "height": 887,
@@ -273,11 +315,60 @@
     "sha256": "a24e78801e685e498962a5ff2ab4dfb9a2151fb28c266b8730a77f17417d4158"
   },
   {
+    "key": "elemental-stones",
+    "width": 1374,
+    "height": 1145,
+    "mode": "RGBA",
+    "sha256": "d55787e79d98c7042c6ed17d2743f5ab3393265b733471a48c435f3316171b36"
+  },
+  {
     "key": "equipment",
     "width": 1774,
     "height": 887,
     "mode": "RGB",
     "sha256": "6d302dc5fd88709a3297c90416cd616d9e1f36ef4c8c50a68d8186a0253fcaf7"
+  },
+  {
+    "key": "feather-and-seal",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "000ac3072deb6f6a1f0d1ccd0dea0351a90203bb35335ae762cf64d6c9826c9a"
+  },
+  {
+    "key": "fields-of-study",
+    "width": 1145,
+    "height": 1374,
+    "mode": "RGBA",
+    "sha256": "c8c9534dcd4019d23ead7c02ad25ae7f32e28973b5d1aa455a9a22fb13622e4b"
+  },
+  {
+    "key": "folded-spell",
+    "width": 1145,
+    "height": 1374,
+    "mode": "RGBA",
+    "sha256": "0abec326dc5532a9c6f381b7c9dca6aa138a89c12d538014bed5500a8f7d7731"
+  },
+  {
+    "key": "forest-sanctuary",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "637281ee39a01b5e0e79de2e711d950647a6f3cd7cbd482ed0f1f6ddd44eb6dc"
+  },
+  {
+    "key": "healers-bowl",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "ec75c0163338e6abe960c13f1c67b466d702ccca062d0106a93a6b7c547e2707"
+  },
+  {
+    "key": "healing-vials",
+    "width": 1374,
+    "height": 1145,
+    "mode": "RGBA",
+    "sha256": "447eef5e6ba11522acfd2f98e1adca8a179975e0ad689332dd5adf31a96159b9"
   },
   {
     "key": "heroes",
@@ -287,11 +378,60 @@
     "sha256": "ce85272b68b5d571f4df372e8853a981cb4608eb4829457791d53f11e294f236"
   },
   {
+    "key": "hourglass",
+    "width": 1267,
+    "height": 1241,
+    "mode": "RGBA",
+    "sha256": "072a58c9a6ae56aea30ded52c2f2cb9d01442f718a25b2329c503a2231963be2"
+  },
+  {
+    "key": "intellect-lens",
+    "width": 1312,
+    "height": 1199,
+    "mode": "RGBA",
+    "sha256": "c8169c56d179f8f87cffdcba722d6a4bba4dab792496cc17436db6a7688d638b"
+  },
+  {
     "key": "journey",
     "width": 1774,
     "height": 887,
     "mode": "RGB",
     "sha256": "d5b9bc5d76e1c348b079762325d6613920ae56e619dac84656f6b89d48d1d9b2"
+  },
+  {
+    "key": "journeyman-kit",
+    "width": 1374,
+    "height": 1145,
+    "mode": "RGBA",
+    "sha256": "05aa7b188598a3f604351b4b895ee79982dce1c65bc3f39a51e3109137944f8c"
+  },
+  {
+    "key": "leader-standard",
+    "width": 1312,
+    "height": 1199,
+    "mode": "RGBA",
+    "sha256": "f079456e1d6994f6350f3f09a0e0ec2757d8a7e39ccf44e08934c55de44ac3ab"
+  },
+  {
+    "key": "learned-relics",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "e540252e6780a868b3cf971ea956c9e27c8eb8f91232c8cbc8d12fb55b15d7a2"
+  },
+  {
+    "key": "mountain-pass",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "8db700ea517e8d1e6b7663b13235f173a29ecf58833607b9e6473d5d26c55aff"
+  },
+  {
+    "key": "odd-curios",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "e6600e191846e401a2901b9ada6f23548012327b0e93613cb38d5e1eb1625672"
   },
   {
     "key": "origins",
@@ -308,6 +448,20 @@
     "sha256": "ef4a04983f86a4aafd4f140bc449f7355a69bb165aeb33ab03e0d19e2866e814"
   },
   {
+    "key": "protector-shield",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "2509ae0bb004c99e2a3fb622d90f6ba65863fadcb8e73d23afadc3f6be9066d8"
+  },
+  {
+    "key": "recipe-tools",
+    "width": 1333,
+    "height": 1180,
+    "mode": "RGBA",
+    "sha256": "fb7e1eee9e824a9894a20c5cbd2bfa303b1ba54b3edc61bd5596d0b447e29157"
+  },
+  {
     "key": "recipes",
     "width": 1774,
     "height": 887,
@@ -320,6 +474,41 @@
     "height": 887,
     "mode": "RGB",
     "sha256": "ba03d3e349ab0820eceb44e69bad1bb2a5b44612b3a1cb9524ef79584475479c"
+  },
+  {
+    "key": "root-and-thorn",
+    "width": 1312,
+    "height": 1199,
+    "mode": "RGBA",
+    "sha256": "1d1036c76d15de39d7fb183ae552461e44a11cf75135db56d0a2bb0f5aa1a564"
+  },
+  {
+    "key": "ruined-observatory",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGB",
+    "sha256": "69256c772a4b4e212365c36c7f4c11040915bd05157e3cdbf0466976fca752b4"
+  },
+  {
+    "key": "shadow-cloak",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "1b67655469fcd828d2f29b5fc6da864d23c0d168d57119eb7980644fc19637a5"
+  },
+  {
+    "key": "shadow-lantern",
+    "width": 1263,
+    "height": 1246,
+    "mode": "RGBA",
+    "sha256": "d96e510044743b290be2b92ee7440c699e2b2587bf23dc452436c33686838e8b"
+  },
+  {
+    "key": "shepherd-crook",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "a2bf7ded09562530b7de53e32cb0bd4900e92894e8fdc4ba2a0702570191fc64"
   },
   {
     "key": "summon-adder",
@@ -831,6 +1020,153 @@
     "height": 1254,
     "mode": "RGBA",
     "sha256": "f57d228a0557b51168ee4d7ef830c48f1786f4e1d5ff948d0f32446cee5611ff"
+  },
+  {
+    "key": "summoning-ring",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "9d7ca7cbe55840c32ed45e4cd45327cd20bdbcde1fbb301f69a844498d692694"
+  },
+  {
+    "key": "symbol-armor",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "97c57b9b33f37e0303f3dd59e8711f67ac5344fbb4ab519c6d0d6b2ea0b489e6"
+  },
+  {
+    "key": "symbol-arms",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "80ccb98ec28724f627a142194c94b13e61ef5dbdee88112135c7d264c420f2d2"
+  },
+  {
+    "key": "symbol-athletics",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "b2e92d9847c139a5e3be71ceabdb76048a243f48d5c09ee47a4432d203ad51df"
+  },
+  {
+    "key": "symbol-calling",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "0673e766aff9c0d27381f6298fe24d05e825670f825341124d11280305aa9b85"
+  },
+  {
+    "key": "symbol-craft",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "879038e69cc97c887da3629ba262ada70288d645855a19c35e2eaaf058565ece"
+  },
+  {
+    "key": "symbol-flame",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "4141ceaaa01f4a68d57a2a3707fd812f5101ea2b30e1189a3edbf6c430cb3247"
+  },
+  {
+    "key": "symbol-frost",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "298a708b92ce174bd18bbe46d39dff8972d029a7e924f7e9415ea6b7ba9cb3ff"
+  },
+  {
+    "key": "symbol-guard",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "4f7c999934b3de0a7d8e140505ae5e93cc5793d485d355ed20fd112567fba065"
+  },
+  {
+    "key": "symbol-influence",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "b32e36c597be0389205e75ba6858cfaf3a0d523937247672be948a9bf2296ff0"
+  },
+  {
+    "key": "symbol-life",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "ae5dcd6ce83301574af5b2d1ffc2cce42ac6779d8f8956bb54a609dd778970b2"
+  },
+  {
+    "key": "symbol-marksmanship",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "450b1a6e11000a99823d2d768b5d75bf2e5b607a56df8a696eff6d8878d54f44"
+  },
+  {
+    "key": "symbol-medicine",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "441c09f3fbcc670563026fbcbbd3618e54ef3c0926a67aeb68d3776ea6df0f61"
+  },
+  {
+    "key": "symbol-mind",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "def8da57766486cc88031ddbe9a09d6e4c4b31c5b71eabcb61b391ca0afd23f7"
+  },
+  {
+    "key": "symbol-radiance",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "406fe22869dcdc26ca215bd44222fe1e6f2bcd145a973b83b410632f426bb9b5"
+  },
+  {
+    "key": "symbol-scholarship",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "3b1d7e99594e2876e4aba79c1e82672633900e6b98361495e8986cb9d2529d3a"
+  },
+  {
+    "key": "symbol-storm",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "4a575440ef3fd0d06fb50a0a28ae574bd49252d52a5d4b6f8c4f08026878c8aa"
+  },
+  {
+    "key": "symbol-subterfuge",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "9f09bb08ea3093685dca1ca7b5e3f8b08b2fb484962e9437bfafa622a1560a3b"
+  },
+  {
+    "key": "symbol-wilderness",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "b6de3eb6b6f276c5ea2816c12aa91716c2e458895cfed6240147243bc614ff52"
+  },
+  {
+    "key": "unbalanced-maul",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "4a5e5539e5fbe4e23ae6d46b68de21febcc86b1ff61a237b1466f03893eb7111"
+  },
+  {
+    "key": "warden-bow",
+    "width": 1312,
+    "height": 1199,
+    "mode": "RGBA",
+    "sha256": "8a552736651feb70295d1211ea1b34dee25a2721344b8d5a2b7804cb12c84410"
   },
   {
     "key": "welcome",

@@ -43,3 +43,22 @@ Existing active proposals were approved by Bruce on October 15, 2026. Historical
 production-status.md rather than changing hundreds of historical source statuses.
 The book is a playtest edition, not a claim of universal balance or final print art.
 Unspecified rules and editorial conflicts are recorded separately in decision-log.md.
+
+
+## October 16 follow-up: deliberate illustration placement
+
+The first illustrated proof reused portraits too aggressively. The follow-up in
+issues #1218–#1220 replaces that system: each illustration appears once, while
+functional symbols and logos may repeat. A finite set of transparent gear and
+magical-object illustrations accompanies class signatures and relevant utility
+pages. Landscapes are reserved for suitable wide spaces. There is no fallback
+portrait cycle. Class portraits appear on class introductions only.
+
+Ancestry traits, cultures, backgrounds and disciplines now share the bordered
+catalog-card styling. The eighteen discipline cards are split evenly across two
+pages, with all shared rank and price rules in the introduction. Eighteen simple
+gold silhouettes replace ornate badges on ability headers. A high-contrast rank
+numeral overlaps the lower edge of the symbol, preserving its main outline.
+Illustrations have additional lower spacing; ancestry panels have an explicit
+gap before trait cards. See `art-direction.md` for the Pathfinder reference pages
+and `art/revision-prompts.json` for the new image prompts.

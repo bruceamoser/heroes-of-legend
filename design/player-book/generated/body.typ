@@ -68,7 +68,6 @@
 
 ]
 ]
-#tail-art("journey")
 #chapter("2","Create Your Hero")
 #metadata("s-3a383eccab13")<s-3a383eccab13>
 #twocol[
@@ -162,7 +161,7 @@
 #text("Your Grit increases are universal experience, not class features. They do not refund") #text("previous expenditure. A once-only learned card can grant one additional Grit. Ordinary") #text("rest does not refresh Grit. Your abilities, scars and choices tell the story of the") #text("hero you become.")
 
 ]
-#tail-art("heroes")
+#tail-art("journeyman-kit")
 #chapter("3","Ancestry, Culture and Background")
 #twocol[Choose the people, places and experiences that shaped you. Choose two ancestry traits, then one complete culture pair and one complete background pair. Any ancestry may come from any culture.
 
@@ -200,10 +199,9 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +1 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ], [#illustration("ancestry-human", height: 245pt)])
+#v(10pt)
 #twocol[
-#block(breakable: false)[
-#entry("Never Quite Finished","s-43bc1807b902")
-#emph[#text("You wipe the sweat from your face and lift the load again, remembering the people still waiting for you.")]
+#catalog-card("Never Quite Finished","s-43bc1807b902", icons: [])[#emph[#text("You wipe the sweat from your face and lift the load again, remembering the people still waiting for you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Maximum HP +1. Describe the ordinary hardship that taught you to keep going.")
@@ -213,9 +211,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
-#block(breakable: false)[
-#entry("Road in the Blood","s-96aabc1f1957")
-#emph[#text("You settle your pack higher on your shoulders and lengthen your stride toward the next rise.")]
+#catalog-card("Road in the Blood","s-96aabc1f1957", icons: [])[#emph[#text("You settle your pack higher on your shoulders and lengthen your stride toward the next rise.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Base Speed +1. Long journeys remain ordinary travel; this creates no exhaustion rule.")
@@ -225,9 +221,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
-#block(breakable: false)[
-#entry("A Foot in Two Worlds","s-a675522046ef")
-#emph[#text("You greet a stranger in the words of another home, smiling as they answer in the same tongue.")]
+#catalog-card("A Foot in Two Worlds","s-a675522046ef", icons: [])[#emph[#text("You greet a stranger in the words of another home, smiling as they answer in the same tongue.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Know two additional ordinary spoken languages. Choose the communities that taught you; this does not grant a second culture’s discipline or card.")
@@ -237,9 +231,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
-#block(breakable: false)[
-#entry("Make Room at the Fire","s-ad232a649baa")
-#emph[#text("You shift a bowl toward the stranger and offer a place beside the fire before asking their name.")]
+#catalog-card("Make Room at the Fire","s-ad232a649baa", icons: [])[#emph[#text("You shift a bowl toward the stranger and offer a place beside the fire before asking their name.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Once per scene, when you offer genuine food, shelter or shared work to a nonhostile person, gain 1 Boon to the next Guile roll seeking ordinary hospitality or trust from them before the scene ends. No automatic friendship or compelled response.")
@@ -249,9 +241,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
-#block(breakable: false)[
-#entry("The Impossible Streak","s-641a679018d0")
-#emph[#text("You study the harder route, tighten your grip and begin with the stubborn care of someone determined to finish.")]
+#catalog-card("The Impossible Streak","s-641a679018d0", icons: [])[#emph[#text("You study the harder route, tighten your grip and begin with the stubborn care of someone determined to finish.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Once per day, declare before an ordinary noncombat roll that you are taking the difficult way on purpose. Gain 1 Boon. You still need a plausible method and any specialist permission; this does not change a card’s attribute.")
@@ -292,10 +282,9 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +2 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ], [#illustration("ancestry-elf", height: 245pt)])
+#v(10pt)
 #twocol[
-#block(breakable: false)[
-#entry("Footfall on the Leaves","s-81c322f8d567")
-#emph[#text("You step between stems and over tangled roots, leaving the leaves scarcely trembling behind you.")]
+#catalog-card("Footfall on the Leaves","s-81c322f8d567", icons: [])[#emph[#text("You step between stems and over tangled roots, leaving the leaves scarcely trembling behind you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Natural undergrowth does not increase the cost of your voluntary movement. Other difficult terrain, forced movement and occupied-square rules are unchanged.")
@@ -305,9 +294,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
-#block(breakable: false)[
-#entry("A Lifetime Ago","s-2b108e4309ee")
-#emph[#text("You pause beside the broken road and recall the voices of the people who laid its first stones.")]
+#catalog-card("A Lifetime Ago","s-2b108e4309ee", icons: [])[#emph[#text("You pause beside the broken road and recall the voices of the people who laid its first stones.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Choose one place or community you knew in an earlier age. Gain 1 Boon to Knowledge or Reason rolls recalling its history, people or construction. The DA can tell you what you genuinely witnessed without a roll; memory reveals no events you never knew.")
@@ -317,9 +304,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
-#block(breakable: false)[
-#entry("The Wood Whispers","s-f134db3a65af")
-#emph[#text("You stop talking as the birds fall quiet, turning toward the rustle that disturbed them.")]
+#catalog-card("The Wood Whispers","s-f134db3a65af", icons: [])[#emph[#text("You stop talking as the birds fall quiet, turning toward the rustle that disturbed them.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("In woodland, gain 1 Boon to a consequential roll interpreting living signs of nearby disturbance. The signs can indicate a general direction, not an unseen creature’s exact square; this does not bypass Hidden.")
@@ -329,9 +314,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
-#block(breakable: false)[
-#entry("Grace of the Elder Folk","s-a5627e92b3f0")
-#emph[#text("You lengthen your stride and weave past the obstacles without breaking the rhythm of your steps.")]
+#catalog-card("Grace of the Elder Folk","s-a5627e92b3f0", icons: [])[#emph[#text("You lengthen your stride and weave past the obstacles without breaking the rhythm of your steps.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Base Speed +1. Describe whether your grace is effortless balance, long strides or a dancer’s economy.")
@@ -341,9 +324,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
-#block(breakable: false)[
-#entry("Dream beneath the Stars","s-1d4075ac0c2a")
-#emph[#text("You settle beneath the stars with your eyes half open, letting old memories drift through the sounds of the waking camp.")]
+#catalog-card("Dream beneath the Stars","s-1d4075ac0c2a", icons: [])[#emph[#text("You settle beneath the stars with your eyes half open, letting old memories drift through the sounds of the waking camp.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("You may rest in a quiet waking reverie instead of sleeping, remaining aware of nearby ordinary sights and sounds. It grants no automatic detection, extra downtime work, shorter treatment interval or Grit recovery. Magical Asleep still works normally.")
@@ -384,10 +365,9 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +2 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ], [#illustration("ancestry-dwarf", height: 245pt)])
+#v(10pt)
 #twocol[
-#block(breakable: false)[
-#entry("Stubborn as Bedrock","s-e154271559ac")
-#emph[#text("You draw a deep breath, tighten the strap over your bruised shoulder and shoulder the load again.")]
+#catalog-card("Stubborn as Bedrock","s-e154271559ac", icons: [])[#emph[#text("You draw a deep breath, tighten the strap over your bruised shoulder and shoulder the load again.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Maximum HP +1. Gain no additional resistance from this trait.")
@@ -397,9 +377,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
-#block(breakable: false)[
-#entry("The Mountain Remembers","s-b52a6c3932b2")
-#emph[#text("You run your fingers across the stonework, stopping where an old seam has been cut anew.")]
+#catalog-card("The Mountain Remembers","s-b52a6c3932b2", icons: [])[#emph[#text("You run your fingers across the stonework, stopping where an old seam has been cut anew.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Gain 1 Boon to examining stonework for an unsafe passage, concealed join or later alteration. Obvious construction clues need no roll; the trait does not reveal an untouched wall’s far side.")
@@ -409,9 +387,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
-#block(breakable: false)[
-#entry("Rooted in Stone","s-c1a616ca9067")
-#emph[#text("You spread your boots against the stone and lean into the approaching shove.")]
+#catalog-card("Rooted in Stone","s-c1a616ca9067", icons: [])[#emph[#text("You spread your boots against the stone and lean into the approaching shove.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("While standing on solid ground, gain 1 Boon to defense against forced movement. This is not immunity and does not reduce the resulting distance separately.")
@@ -421,9 +397,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
-#block(breakable: false)[
-#entry("An Honest Maker’s Hand","s-db61ca98741b")
-#emph[#text("Your thumb finds the seam; your ear knows the ring of sound metal.")]
+#catalog-card("An Honest Maker’s Hand","s-db61ca98741b", icons: [])[#emph[#text("Your thumb finds the seam; your ear knows the ring of sound metal.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("After handling an ordinary metal or stone item, recognize shoddy workmanship and common material without a roll. Gain 1 Boon when a consequential inspection seeks subtler defects. This is not crafting or magical identification permission.")
@@ -433,9 +407,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
-#block(breakable: false)[
-#entry("A Grudge Well Kept","s-3c24a1ec187b")
-#emph[#text("You rub the place the blow landed, fix its giver in your gaze and step back into the fight.")]
+#catalog-card("A Grudge Well Kept","s-3c24a1ec187b", icons: [])[#emph[#text("You rub the place the blow landed, fix its giver in your gaze and step back into the fight.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Once per combat, after a creature damages you, gain 1 Boon to your next attack against it before the end of your next turn. Choose whether to invoke the trait when the damage occurs. No damage bonus or extra attack.")
@@ -476,10 +448,9 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +0 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ], [#illustration("ancestry-halfling", height: 245pt)])
+#v(10pt)
 #twocol[
-#block(breakable: false)[
-#entry("Bigger on the Inside","s-38b3cf69599b")
-#emph[#text("You swallow, glance at the friends beside you and step forward even while your knees shake.")]
+#catalog-card("Bigger on the Inside","s-38b3cf69599b", icons: [])[#emph[#text("You swallow, glance at the friends beside you and step forward even while your knees shake.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Gain 1 Boon to rolls affected by Frightened. Resolve the Boon and Banes normally; you are not immune to fear.")
@@ -489,9 +460,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
-#block(breakable: false)[
-#entry("Under Their Noses","s-dc6cc4b66e0c")
-#emph[#text("You duck beneath the table and draw your knees behind its legs as the hurried footsteps pass.")]
+#catalog-card("Under Their Noses","s-dc6cc4b66e0c", icons: [])[#emph[#text("You duck beneath the table and draw your knees behind its legs as the hurried footsteps pass.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("You fit through openings the DA judges suitable for your actual small size, and gain 1 Boon to hiding behind ordinary furniture that plausibly conceals you. Standing creatures still block their squares; no free movement through enemies.")
@@ -501,9 +470,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
-#block(breakable: false)[
-#entry("Quiet as a Burrow","s-a09ec0c815d8")
-#emph[#text("You ease your heel onto the floor and lift the latch with the care of someone coming home to a sleeping household.")]
+#catalog-card("Quiet as a Burrow","s-a09ec0c815d8", icons: [])[#emph[#text("You ease your heel onto the floor and lift the latch with the care of someone coming home to a sleeping household.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Gain 1 Boon to quiet movement outside combat. On a Strong result, one willing companion following your route gains 1 Boon to their next quiet-movement roll this scene. You cannot confer Hidden by walking in open view.")
@@ -513,9 +480,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
-#block(breakable: false)[
-#entry("A Little Luck","s-b516e908bde7")
-#emph[#text("The latch catches your coat a heartbeat before you step into trouble.")]
+#catalog-card("A Little Luck","s-b516e908bde7", icons: [])[#emph[#text("The latch catches your coat a heartbeat before you step into trouble.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Once per day, before a roll that uses an attribute, gain 1 Boon. Describe a small piece of good fortune. No reroll after seeing the result and no effect on inventory dice.")
@@ -525,9 +490,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Duration:")]#text(" While its stated circumstances apply; permanent for base statistics.")
 
 ]
-#block(breakable: false)[
-#entry("Second Breakfast","s-b1c26acbb3f6")
-#emph[#text("You break the bread, tuck the smallest crumbs into the wrapping and make room beside you for a second breakfast.")]
+#catalog-card("Second Breakfast","s-b1c26acbb3f6", icons: [])[#emph[#text("You break the bread, tuck the smallest crumbs into the wrapping and make room beside you for a second breakfast.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("When sharing a food bundle with one companion during a safe meal, make one inventory check for the two of you instead of one each. Food is still required; this grants no healing, resistance or extra recovery.")
@@ -546,9 +509,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #text("Choose ")#strong[#text("one complete paired option")]#text(" from its entry. You gain the listed rank-1") #text("discipline and ability together at level 0. Its coin contribution also helps determine") #text("your starting purse. These gifts describe what you learned, not what you must believe") #text("or how you must behave. See ")#xref("s-6289e7cc8d28")[#text("Disciplines and Character Paths")]#text(" for") #text("how your new discipline opens further choices.")
 
-#block(breakable: false)[
-#entry("Border Marches","s-127f953da4b7")
-#emph[#text("Your neighbors know the difference between vigilance and fear, though keeping that distinction takes work.")]
+#catalog-card("Border Marches","s-127f953da4b7", icons: [])[#emph[#text("Your neighbors know the difference between vigilance and fear, though keeping that distinction takes work.")]
 
 #emph[#text("Who taught you to welcome a traveler and watch the road at once?")]
 
@@ -570,9 +531,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Cairn Communities","s-be7fa1ecbef6")
-#emph[#text("The dead are remembered at supper and in council, while the living argue freely about their advice.")]
+#catalog-card("Cairn Communities","s-be7fa1ecbef6", icons: [])[#emph[#text("The dead are remembered at supper and in council, while the living argue freely about their advice.")]
 
 #emph[#text("Whose name do you speak when courage runs short?")]
 
@@ -594,9 +553,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Cloister Valleys","s-caa21ce3f778")
-#emph[#text("Bells mark the day, but no two residents agree about what a disciplined life should become.")]
+#catalog-card("Cloister Valleys","s-caa21ce3f778", icons: [])[#emph[#text("Bells mark the day, but no two residents agree about what a disciplined life should become.")]
 
 #emph[#text("Which lesson did you question before you left?")]
 
@@ -618,9 +575,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Deep Halls","s-3a1e85f4b5df")
-#emph[#text("Homes, gardens and markets fill the chambers beneath the hills; the surface is only one neighborhood.")]
+#catalog-card("Deep Halls","s-3a1e85f4b5df", icons: [])[#emph[#text("Homes, gardens and markets fill the chambers beneath the hills; the surface is only one neighborhood.")]
 
 #emph[#text("What does your home smell like after the forge fires dim?")]
 
@@ -642,9 +597,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Ember Cities","s-d937fe8c4da9")
-#emph[#text("Kilns, glassworks and night markets make the streets glow after sundown.")]
+#catalog-card("Ember Cities","s-d937fe8c4da9", icons: [])[#emph[#text("Kilns, glassworks and night markets make the streets glow after sundown.")]
 
 #emph[#text("What beautiful thing did you first learn to make?")]
 
@@ -666,9 +619,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Forest Communities","s-acfa23352088")
-#emph[#text("Paths change with the season, and your neighbors know the trees by more than their timber.")]
+#catalog-card("Forest Communities","s-acfa23352088", icons: [])[#emph[#text("Paths change with the season, and your neighbors know the trees by more than their timber.")]
 
 #emph[#text("Which tree marks the way home?")]
 
@@ -688,9 +639,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Free Harbors","s-a6e71f5f6d42")
-#emph[#text("Cargoes and rumors change hands faster than the tide. You learned to listen in three directions.")]
+#catalog-card("Free Harbors","s-a6e71f5f6d42", icons: [])[#emph[#text("Cargoes and rumors change hands faster than the tide. You learned to listen in three directions.")]
 
 #emph[#text("Who will always give you a berth?")]
 
@@ -712,9 +661,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Gathered Peoples","s-316eb80e4804")
-#emph[#text("Displacement brought strangers together; shared work made a new home.")]
+#catalog-card("Gathered Peoples","s-316eb80e4804", icons: [])[#emph[#text("Displacement brought strangers together; shared work made a new home.")]
 
 #emph[#text("Which old custom did your new neighbors adopt?")]
 
@@ -736,9 +683,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Grass Sea Clans","s-15d48ee7e5a3")
-#emph[#text("A roof of stars, a road of grass, and neighbors who may be a day’s ride away.")]
+#catalog-card("Grass Sea Clans","s-15d48ee7e5a3", icons: [])[#emph[#text("A roof of stars, a road of grass, and neighbors who may be a day’s ride away.")]
 
 #emph[#text("What promise brings you back to the traveling camp?")]
 
@@ -760,9 +705,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Highland Holds","s-0914c4d74846")
-#emph[#text("The climb is long, the welcome warm, and every tool has a place by the hearth.")]
+#catalog-card("Highland Holds","s-0914c4d74846", icons: [])[#emph[#text("The climb is long, the welcome warm, and every tool has a place by the hearth.")]
 
 #emph[#text("What did your neighbors trust you to carry?")]
 
@@ -782,9 +725,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Island Kinships","s-229dc05a61db")
-#emph[#text("You grew up with a horizon on every side and family on more than one shore.")]
+#catalog-card("Island Kinships","s-229dc05a61db", icons: [])[#emph[#text("You grew up with a horizon on every side and family on more than one shore.")]
 
 #emph[#text("What signal means home is waiting?")]
 
@@ -806,9 +747,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Learning Houses","s-7353482f4751")
-#emph[#text("Debate followed you from the lesson room to supper. Curiosity was a habit before it was a profession.")]
+#catalog-card("Learning Houses","s-7353482f4751", icons: [])[#emph[#text("Debate followed you from the lesson room to supper. Curiosity was a habit before it was a profession.")]
 
 #emph[#text("Which question earned you trouble?")]
 
@@ -828,9 +767,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Oasis Cities","s-c60affc74aac")
-#emph[#text("Water is hospitality, memory and responsibility. Every caravan brings another version of the world.")]
+#catalog-card("Oasis Cities","s-c60affc74aac", icons: [])[#emph[#text("Water is hospitality, memory and responsibility. Every caravan brings another version of the world.")]
 
 #emph[#text("Whose well did your family help keep?")]
 
@@ -852,9 +789,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Reed Villages","s-580faec05381")
-#emph[#text("Raised walkways and low boats connect homes that seem to float between sky and water.")]
+#catalog-card("Reed Villages","s-580faec05381", icons: [])[#emph[#text("Raised walkways and low boats connect homes that seem to float between sky and water.")]
 
 #emph[#text("Which channel could you navigate with your eyes closed?")]
 
@@ -876,9 +811,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("River Settlements","s-18f8da6ccca9")
-#emph[#text("The river brought work, travelers and news long before it brought you an urge to leave.")]
+#catalog-card("River Settlements","s-18f8da6ccca9", icons: [])[#emph[#text("The river brought work, travelers and news long before it brought you an urge to leave.")]
 
 #emph[#text("What do you miss about the sound of the docks?")]
 
@@ -898,9 +831,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Terrace Towns","s-8d8c76172885")
-#emph[#text("Gardens climb the cliffs and stairs stitch whole neighborhoods together.")]
+#catalog-card("Terrace Towns","s-8d8c76172885", icons: [])[#emph[#text("Gardens climb the cliffs and stairs stitch whole neighborhoods together.")]
 
 #emph[#text("Which impossible-looking route was your childhood shortcut?")]
 
@@ -922,9 +853,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Traveling Companies","s-64536ad9ef2c")
-#emph[#text("Home was whoever helped raise the awning when the rain began.")]
+#catalog-card("Traveling Companies","s-64536ad9ef2c", icons: [])[#emph[#text("Home was whoever helped raise the awning when the rain began.")]
 
 #emph[#text("What song announced your arrival?")]
 
@@ -944,9 +873,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Walled Communities","s-56fcfca4e0da")
-#emph[#text("Your home knows the comfort of a gate and the danger of believing it solves everything.")]
+#catalog-card("Walled Communities","s-56fcfca4e0da", icons: [])[#emph[#text("Your home knows the comfort of a gate and the danger of believing it solves everything.")]
 
 #emph[#text("Who always greeted you from the wall?")]
 
@@ -976,9 +903,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 
 #text("Choose ")#strong[#text("one complete paired option")]#text(" from the background. It grants a rank-1 discipline") #text("and its accompanying ability at level 0, and contributes to starting coins. Culture") #text("and background can point in the same direction or reveal different sides of your hero.") #text("Resolve duplicate grants before spending your level-0 DP. The") #xref("s-6289e7cc8d28")[#text("discipline chapter")]#text(" explains the requirements those ranks satisfy.")
 
-#block(breakable: false)[
-#entry("Apothecary’s Helper","s-b90394fd9a72")
-#emph[#text("You learned the smell of good medicine and the patience of people waiting for it.")]
+#catalog-card("Apothecary’s Helper","s-b90394fd9a72", icons: [])[#emph[#text("You learned the smell of good medicine and the patience of people waiting for it.")]
 
 #emph[#text("Which remedy always reminds you of someone?")]
 
@@ -998,9 +923,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Bargain Keeper","s-b22ea03a6a6f")
-#emph[#text("You agreed to something in a place where the terms were hard to read.")]
+#catalog-card("Bargain Keeper","s-b22ea03a6a6f", icons: [])[#emph[#text("You agreed to something in a place where the terms were hard to read.")]
 
 #emph[#text("What part of the bargain are you determined to interpret generously?")]
 
@@ -1022,9 +945,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Beast-Reared","s-7091aed288e8")
-#emph[#text("Whether raised, rescued or apprenticed among beasts, you know a world of scent and posture.")]
+#catalog-card("Beast-Reared","s-7091aed288e8", icons: [])[#emph[#text("Whether raised, rescued or apprenticed among beasts, you know a world of scent and posture.")]
 
 #emph[#text("Which animal behavior do you still find reassuring?")]
 
@@ -1046,9 +967,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Bone Tender","s-872208e28686")
-#emph[#text("You prepared the dead with care; eventually some seemed reluctant to leave your company.")]
+#catalog-card("Bone Tender","s-872208e28686", icons: [])[#emph[#text("You prepared the dead with care; eventually some seemed reluctant to leave your company.")]
 
 #emph[#text("Who taught you that respect and fear are different things?")]
 
@@ -1070,9 +989,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Bridge Worker","s-f929cff2cbe3")
-#emph[#text("You have trusted your weight to a knot you tied yourself.")]
+#catalog-card("Bridge Worker","s-f929cff2cbe3", icons: [])[#emph[#text("You have trusted your weight to a knot you tied yourself.")]
 
 #emph[#text("Who was beside you the first time the scaffolding shook?")]
 
@@ -1092,9 +1009,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Burglar","s-7984d2b1dc16")
-#emph[#text("Every fine house has a service door and every service door has a story.")]
+#catalog-card("Burglar","s-7984d2b1dc16", icons: [])[#emph[#text("Every fine house has a service door and every service door has a story.")]
 
 #emph[#text("Which room did you leave untouched?")]
 
@@ -1116,9 +1031,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Confidence Artist","s-b2b73ee08ff8")
-#emph[#text("People remember the smile long after they notice what is missing.")]
+#catalog-card("Confidence Artist","s-b2b73ee08ff8", icons: [])[#emph[#text("People remember the smile long after they notice what is missing.")]
 
 #emph[#text("Who believed in you when you were finally telling the truth?")]
 
@@ -1140,9 +1053,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Court Questioner","s-000117b6bc8f")
-#emph[#text("You learned that an answer can be perfectly truthful and still hide everything important.")]
+#catalog-card("Court Questioner","s-000117b6bc8f", icons: [])[#emph[#text("You learned that an answer can be perfectly truthful and still hide everything important.")]
 
 #emph[#text("Who once answered a question you were afraid to ask?")]
 
@@ -1164,9 +1075,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Dragon-Dreamer","s-a312a6907a24")
-#emph[#text("You dreamed of heat, wings and a voice calling you kin. Then you woke with smoke on your breath.")]
+#catalog-card("Dragon-Dreamer","s-a312a6907a24", icons: [])[#emph[#text("You dreamed of heat, wings and a voice calling you kin. Then you woke with smoke on your breath.")]
 
 #emph[#text("Was the dream a memory, a gift or an invitation?")]
 
@@ -1188,9 +1097,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Duelist’s Second","s-90952aa5e9c2")
-#emph[#text("You carried the spare blade, watched every mistake, and sometimes prevented the duel entirely.")]
+#catalog-card("Duelist’s Second","s-90952aa5e9c2", icons: [])[#emph[#text("You carried the spare blade, watched every mistake, and sometimes prevented the duel entirely.")]
 
 #emph[#text("Which duel should never have happened?")]
 
@@ -1212,9 +1119,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Grave Attendant","s-5b31ba339916")
-#emph[#text("You made sure someone remembered the names after the mourners went home.")]
+#catalog-card("Grave Attendant","s-5b31ba339916", icons: [])[#emph[#text("You made sure someone remembered the names after the mourners went home.")]
 
 #emph[#text("Whose grave do you still visit?")]
 
@@ -1234,9 +1139,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Grove Tended","s-7aafc8f73712")
-#emph[#text("You learned the names of growing things before you learned the names of distant rulers.")]
+#catalog-card("Grove Tended","s-7aafc8f73712", icons: [])[#emph[#text("You learned the names of growing things before you learned the names of distant rulers.")]
 
 #emph[#text("What place do you consider a patient rather than a possession?")]
 
@@ -1258,9 +1161,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Household Guard","s-9b1d981dbf2d")
-#emph[#text("Keeping a household safe meant knowing its people, not only its locks.")]
+#catalog-card("Household Guard","s-9b1d981dbf2d", icons: [])[#emph[#text("Keeping a household safe meant knowing its people, not only its locks.")]
 
 #emph[#text("Whose laughter could you recognize from the gate?")]
 
@@ -1280,9 +1181,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Itinerant Tinker","s-5e0e84693b23")
-#emph[#text("Your workshop fit on your back, and your reputation traveled a village ahead.")]
+#catalog-card("Itinerant Tinker","s-5e0e84693b23", icons: [])[#emph[#text("Your workshop fit on your back, and your reputation traveled a village ahead.")]
 
 #emph[#text("What repair earned you a lifelong welcome?")]
 
@@ -1304,9 +1203,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Kennel Keeper","s-8639541ef870")
-#emph[#text("The hounds knew your footsteps and the difference between your whistle and anyone else’s.")]
+#catalog-card("Kennel Keeper","s-8639541ef870", icons: [])[#emph[#text("The hounds knew your footsteps and the difference between your whistle and anyone else’s.")]
 
 #emph[#text("Which companion never came back from a hunt?")]
 
@@ -1328,9 +1225,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Market Chemist","s-5cdcc612834b")
-#emph[#text("You know which bottle smells like a cure and which only smells expensive.")]
+#catalog-card("Market Chemist","s-5cdcc612834b", icons: [])[#emph[#text("You know which bottle smells like a cure and which only smells expensive.")]
 
 #emph[#text("Which customer made you stop exaggerating?")]
 
@@ -1352,9 +1247,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Messenger","s-49616a099534")
-#emph[#text("You carried words that changed lives and learned when not to ask what they meant.")]
+#catalog-card("Messenger","s-49616a099534", icons: [])[#emph[#text("You carried words that changed lives and learned when not to ask what they meant.")]
 
 #emph[#text("Which message did you refuse to deliver?")]
 
@@ -1374,9 +1267,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Monastery Runaway","s-725a611cc900")
-#emph[#text("You left with a discipline in your bones and an unanswered question in your chest.")]
+#catalog-card("Monastery Runaway","s-725a611cc900", icons: [])[#emph[#text("You left with a discipline in your bones and an unanswered question in your chest.")]
 
 #emph[#text("What did you take besides your training?")]
 
@@ -1398,9 +1289,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Oath Witness","s-60bc23cf9581")
-#emph[#text("You stood beside people when they promised what they could not yet know they could bear.")]
+#catalog-card("Oath Witness","s-60bc23cf9581", icons: [])[#emph[#text("You stood beside people when they promised what they could not yet know they could bear.")]
 
 #emph[#text("Which broken promise still follows you?")]
 
@@ -1422,9 +1311,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Physician’s Student","s-d0d3a4d3abbf")
-#emph[#text("Bones, bruises and patient observation taught you how a body works—and where it fails.")]
+#catalog-card("Physician’s Student","s-d0d3a4d3abbf", icons: [])[#emph[#text("Bones, bruises and patient observation taught you how a body works—and where it fails.")]
 
 #emph[#text("Who taught you to look twice?")]
 
@@ -1446,9 +1333,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Pit Fighter","s-757fd34b0bb1")
-#emph[#text("You learned what a crowd sounds like when it decides someone will not get up.")]
+#catalog-card("Pit Fighter","s-757fd34b0bb1", icons: [])[#emph[#text("You learned what a crowd sounds like when it decides someone will not get up.")]
 
 #emph[#text("Who did you refuse to finish?")]
 
@@ -1470,9 +1355,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Poacher","s-cb0efb2d07cc")
-#emph[#text("A forbidden boundary never made a hungry household less hungry.")]
+#catalog-card("Poacher","s-cb0efb2d07cc", icons: [])[#emph[#text("A forbidden boundary never made a hungry household less hungry.")]
 
 #emph[#text("Who looked the other way for you?")]
 
@@ -1494,9 +1377,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Reluctant Knife","s-acb3bd269c96")
-#emph[#text("Someone once paid you to make a problem disappear. You still decide what that made you.")]
+#catalog-card("Reluctant Knife","s-acb3bd269c96", icons: [])[#emph[#text("Someone once paid you to make a problem disappear. You still decide what that made you.")]
 
 #emph[#text("Which name did you cross off without taking the job?")]
 
@@ -1518,9 +1399,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Shore Gatherer","s-f10b0de9740d")
-#emph[#text("The shore fed you if you learned when to arrive and what to leave alone.")]
+#catalog-card("Shore Gatherer","s-f10b0de9740d", icons: [])[#emph[#text("The shore fed you if you learned when to arrive and what to leave alone.")]
 
 #emph[#text("What did the tide bring you once that it should not have?")]
 
@@ -1540,9 +1419,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Stage Assistant","s-17b8629ba48d")
-#emph[#text("You made the impossible happen from behind the curtain.")]
+#catalog-card("Stage Assistant","s-17b8629ba48d", icons: [])[#emph[#text("You made the impossible happen from behind the curtain.")]
 
 #emph[#text("What trick did the star never learn you invented?")]
 
@@ -1562,9 +1439,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Star-Touched","s-a0a16f981f7c")
-#emph[#text("A night sky, an old mirror or a deep well showed you more than it should.")]
+#catalog-card("Star-Touched","s-a0a16f981f7c", icons: [])[#emph[#text("A night sky, an old mirror or a deep well showed you more than it should.")]
 
 #emph[#text("What familiar sight now seems slightly wrong?")]
 
@@ -1586,9 +1461,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Storm Survivor","s-46a389be0e62")
-#emph[#text("You came back from the weather with something in your voice that was not there before.")]
+#catalog-card("Storm Survivor","s-46a389be0e62", icons: [])[#emph[#text("You came back from the weather with something in your voice that was not there before.")]
 
 #emph[#text("What did the storm leave behind?")]
 
@@ -1610,9 +1483,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +5 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Temple Attendant","s-bf8362262d71")
-#emph[#text("You have swept the steps and held the hands of people whose prayers had no words left.")]
+#catalog-card("Temple Attendant","s-bf8362262d71", icons: [])[#emph[#text("You have swept the steps and held the hands of people whose prayers had no words left.")]
 
 #emph[#text("What promise outlasted your service?")]
 
@@ -1634,9 +1505,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Traveling Player","s-7a65a53d413e")
-#emph[#text("You have been cheered, chased away, badly paid and invited back under a different name.")]
+#catalog-card("Traveling Player","s-7a65a53d413e", icons: [])[#emph[#text("You have been cheered, chased away, badly paid and invited back under a different name.")]
 
 #emph[#text("Which audience surprised you?")]
 
@@ -1658,9 +1527,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("War Drummer","s-174ecaa5c234")
-#emph[#text("You know how to make frightened feet move together.")]
+#catalog-card("War Drummer","s-174ecaa5c234", icons: [])[#emph[#text("You know how to make frightened feet move together.")]
 
 #emph[#text("Whose pace do you still hear beneath the beat?")]
 
@@ -1682,9 +1549,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +7 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Ward Scribe","s-00aaf0d70989")
-#emph[#text("Your marks appeared over doors, cradles and caravan wheels. Sometimes they held.")]
+#catalog-card("Ward Scribe","s-00aaf0d70989", icons: [])[#emph[#text("Your marks appeared over doors, cradles and caravan wheels. Sometimes they held.")]
 
 #emph[#text("Which mark will you never draw carelessly?")]
 
@@ -1706,9 +1571,7 @@ Choose each origin as a complete pair: its rank and ability belong together. Res
 #text("")#strong[#text("Starting coin contribution:")]#text(" +10 coins. See ")#xref("s-1e0480a6a244")[#text("starting coins")]#text(".")
 
 ]
-#block(breakable: false)[
-#entry("Weather Apprentice","s-316d900f9ca8")
-#emph[#text("Your teacher watched the clouds as if reading a difficult letter.")]
+#catalog-card("Weather Apprentice","s-316d900f9ca8", icons: [])[#emph[#text("Your teacher watched the clouds as if reading a difficult letter.")]
 
 #emph[#text("Which warning did you finally learn to hear?")]
 
@@ -1955,7 +1818,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ]
 ]
-#tail-art("class-protector")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Blade","s-4cf3da87b3fe")
@@ -2182,7 +2044,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ]
 ]
-#tail-art("class-blade")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Arcanist","s-cb5021228f43")
@@ -2396,7 +2257,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ]
 ]
-#tail-art("class-arcanist")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Shepherd","s-2ec72f4532a5")
@@ -2657,7 +2517,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ]
 ]
-#tail-art("class-shepherd")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Intellect","s-5f996d5a0ee9")
@@ -2877,7 +2736,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ]
 ]
-#tail-art("class-intellect")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Leader","s-a06f8adb7ce7")
@@ -3091,7 +2949,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ]
 ]
-#tail-art("class-leader")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Unbalanced","s-94403698c5ab")
@@ -3344,7 +3201,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ]
 ]
-#tail-art("class-unbalanced")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Shadow","s-6a13115a845b")
@@ -3575,7 +3431,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ]
 ]
-#tail-art("class-shadow")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Odd","s-fe83ef834cbc")
@@ -3810,7 +3665,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ]
 ]
-#tail-art("class-odd")
 #pagebreak(weak: true)
 #grid(columns: (1fr,1fr), gutter: 18pt, [
 #entry("Warden","s-2ad683228880")
@@ -4034,260 +3888,141 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ]
 ]
-#tail-art("class-warden")
 #chapter("5","Disciplines and Character Paths")
 #metadata("s-6289e7cc8d28")<s-6289e7cc8d28>
-#grid(columns: (1fr,1fr), gutter:18pt, [#text("A discipline is a field of study. An ability is something you have learned to do") #text("with it. Your hero might study Arms to practice martial techniques, Life to restore") #text("others, or Scholarship to understand and exploit what others overlook.")
+#grid(columns:(1fr,1fr),gutter:18pt,[#text("A discipline is a field of study. An ability is something you have learned to do") #text("with it. Your hero might study Arms to practice martial techniques, Life to restore") #text("others, or Scholarship to understand and exploit what others overlook.")
 
 #text("Ranks run from 1 to 3 and must be bought in order. There is no level gate on a rank,") #text("but the ability you want may require level 3 or 7. Read the requirements before") #text("spending: Arms 2 and Subterfuge 1 means you must own both. A rank by itself grants") #text("no action, equipment, attribute bonus or unrestricted use of that discipline's cards.")
 
 #text("Class affinity determines what a rank costs. All abilities at the same tier use the") #text("same DP price. This lets a class have a natural direction while leaving room for") #text("unexpected study. Odd uses the same Adjacent prices across the entire list.")
 
-#heading(level: 3)[#text("Choose a direction")]
+#heading(level: 3)[#text("Buying ranks")]
+#text("You cannot buy disciplines at level 0. After choosing your class, use its affinity") #text("for the discipline to find the price of each rank. Buy every rank in order; these") #text("are individual prices, not the total cost of reaching a rank.")
+
+#rule-table(4,([#text("Class affinity")],[#text("Rank 1")],[#text("Rank 2")],[#text("Rank 3")],),(([#text("Home")],[#text("1 DP")],[#text("2 DP")],[#text("4 DP")],),([#text("Adjacent")],[#text("2 DP")],[#text("4 DP")],[#text("8 DP")],),([#text("Foreign")],[#text("3 DP")],[#text("6 DP")],[#text("12 DP")],),([#text("Opposed")],[#text("4 DP")],[#text("8 DP")],[#text("16 DP")],),))
+
+#text("The discipline cards below describe each field. These shared purchase rules apply") #text("to all eighteen disciplines. Each symbol also appears on ability headers; the small") #text("number over its lower edge is the required rank.")
+
+],[#heading(level: 3)[#text("Choose a direction")]
 #text("Imagine what you want to do for the company. A healer might protect a retreat,") #text("restore HP, treat lasting injuries, or combine all three. A nature-focused hero") #text("might become a beast, command an animal, control the ground, or guide companions") #text("through dangerous country. These are different choices even when they share a theme.")
 
 #text("The four character paths that follow show different ways to build a hero: a Thinking") #text("Fighter, Green Healer, Spellblade and Light-Fingered Adventurer. They are examples, not subclasses. Mix them freely") #text("where you meet the requirements. The listed cards do not waive DP, tier or discipline") #text("requirements, and a suggested future card is not part of your starting equipment.")
 
 #text("Keep a few abilities ready for the scenes you expect most often. You may know several") #text("attacks, but you still have only the actions you can spend. A useful Maneuver, Reaction,") #text("travel skill or social technique can matter more than another similar Main Action.")
 
-], [#illustration("class-intellect",height:530pt)])
+#v(10pt)#illustration("fields-of-study",height:265pt)])
 #pagebreak(weak: true)
-#twocol[
-#block(breakable: false)[
-#discipline-mark("armor","", size: 30pt)
-#entry("Armor","s-d65e53332dd3")
-#emph[#text("You learn to carry protection as part of your own body, moving with its weight instead of against it.")]
+#grid(columns:(1fr,1fr),gutter:18pt,[#catalog-card("Armor","s-d65e53332dd3", icons: [ #discipline-mark("armor","",size:28pt) ])[#emph[#text("You learn to carry protection as part of your own body, moving with its weight instead of against it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Using armor and moving effectively while protected.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("arms","", size: 30pt)
-#entry("Arms","s-3665eb8edb20")
-#emph[#text("You practice until distance, timing and the turn of a weapon become familiar companions.")]
+#catalog-card("Arms","s-3665eb8edb20", icons: [ #discipline-mark("arms","",size:28pt) ])[#emph[#text("You practice until distance, timing and the turn of a weapon become familiar companions.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Practiced melee techniques; weapon appearance never determines damage.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("athletics","", size: 30pt)
-#entry("Athletics","s-2a0238121fdd")
-#emph[#text("You learn what your body can do when the easy path ends.")]
+#catalog-card("Athletics","s-2a0238121fdd", icons: [ #discipline-mark("athletics","",size:28pt) ])[#emph[#text("You learn what your body can do when the easy path ends.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Expert movement and exertion beyond ordinary Brawn or Agility tasks.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("calling","", size: 30pt)
-#entry("Calling","s-4fab125b36fd")
-#emph[#text("You learn the names and gestures that bring an answer from somewhere beyond your reach.")]
+#catalog-card("Calling","s-4fab125b36fd", icons: [ #discipline-mark("calling","",size:28pt) ])[#emph[#text("You learn the names and gestures that bring an answer from somewhere beyond your reach.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Summoned creatures and command techniques.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("craft","", size: 30pt)
-#entry("Craft","s-15a9aa1a27c4")
-#emph[#text("You learn to see the useful thing waiting inside the raw material.")]
+#catalog-card("Craft","s-15a9aa1a27c4", icons: [ #discipline-mark("craft","",size:28pt) ])[#emph[#text("You learn to see the useful thing waiting inside the raw material.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Recipes, repairs and derivation; no group crafting.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("flame","", size: 30pt)
-#entry("Flame","s-1d771974c7da")
-#emph[#text("You come to know the difference between a warming ember and a fire asking to be freed.")]
+],[#catalog-card("Flame","s-1d771974c7da", icons: [ #discipline-mark("flame","",size:28pt) ])[#emph[#text("You come to know the difference between a warming ember and a fire asking to be freed.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Fire damage, heat and controlled ignition.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("frost","", size: 30pt)
-#entry("Frost","s-1f2c78918dd5")
-#emph[#text("You learn to listen to stillness and give it the shape of winter.")]
+#catalog-card("Frost","s-1f2c78918dd5", icons: [ #discipline-mark("frost","",size:28pt) ])[#emph[#text("You learn to listen to stillness and give it the shape of winter.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Cold damage, freezing and ice shaping.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("guard","", size: 30pt)
-#entry("Guard","s-aa348ec36b9e")
-#emph[#text("You practice being where another person needs you before they have to ask.")]
+#catalog-card("Guard","s-aa348ec36b9e", icons: [ #discipline-mark("guard","",size:28pt) ])[#emph[#text("You practice being where another person needs you before they have to ask.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Shields, interception and protection of others.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("influence","", size: 30pt)
-#entry("Influence","s-4dd8bd26a8c9")
-#emph[#text("You learn how a voice can open a door, steady a friend or turn a room.")]
+#catalog-card("Influence","s-4dd8bd26a8c9", icons: [ #discipline-mark("influence","",size:28pt) ])[#emph[#text("You learn how a voice can open a door, steady a friend or turn a room.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Leadership, negotiation and credible social pressure; never mind control.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("life","", size: 30pt)
-#entry("Life","s-0cae99582db5")
-#emph[#text("You learn to feel the fragile warmth that living things carry between one breath and the next.")]
+])
+#pagebreak(weak: true)
+#grid(columns:(1fr,1fr),gutter:18pt,[#catalog-card("Life","s-0cae99582db5", icons: [ #discipline-mark("life","",size:28pt) ])[#emph[#text("You learn to feel the fragile warmth that living things carry between one breath and the next.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Healing and draining the same life energy; resistance interacts with both.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("marksmanship","", size: 30pt)
-#entry("Marksmanship","s-cf9b630681c6")
-#emph[#text("You practice until the distant mark feels connected to the movement of your hand.")]
+#catalog-card("Marksmanship","s-cf9b630681c6", icons: [ #discipline-mark("marksmanship","",size:28pt) ])[#emph[#text("You practice until the distant mark feels connected to the movement of your hand.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Ranged and thrown techniques, including precise placement.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("medicine","", size: 30pt)
-#entry("Medicine","s-a258db36f711")
-#emph[#text("You learn to recognize hurt, and to remain patient when the injured cannot.")]
+#catalog-card("Medicine","s-a258db36f711", icons: [ #discipline-mark("medicine","",size:28pt) ])[#emph[#text("You learn to recognize hurt, and to remain patient when the injured cannot.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Nonmagical wound treatment and condition care.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("mind","", size: 30pt)
-#entry("Mind","s-9a2b3a82ecb8")
-#emph[#text("You learn to touch the uncertain border between what is there and what is perceived.")]
+#catalog-card("Mind","s-9a2b3a82ecb8", icons: [ #discipline-mark("mind","",size:28pt) ])[#emph[#text("You learn to touch the uncertain border between what is there and what is perceived.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Mental attacks and temporary disabling effects.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("radiance","", size: 30pt)
-#entry("Radiance","s-9f0ff83d0f76")
-#emph[#text("You learn to shape brightness into something that reveals, shelters or confronts.")]
+#catalog-card("Radiance","s-9f0ff83d0f76", icons: [ #discipline-mark("radiance","",size:28pt) ])[#emph[#text("You learn to shape brightness into something that reveals, shelters or confronts.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Radiant attacks, illumination and revealing magic.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("scholarship","", size: 30pt)
-#entry("Scholarship","s-9ea1803c1690")
-#emph[#text("You learn to ask the question that makes an old fact useful in a new place.")]
+],[#catalog-card("Scholarship","s-9ea1803c1690", icons: [ #discipline-mark("scholarship","",size:28pt) ])[#emph[#text("You learn to ask the question that makes an old fact useful in a new place.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Interpreting evidence, languages, histories and unfamiliar devices.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("storm","", size: 30pt)
-#entry("Storm","s-ed652ae1b42c")
-#emph[#text("You learn the moods of moving air and the restless energy that gathers within it.")]
+#catalog-card("Storm","s-ed652ae1b42c", icons: [ #discipline-mark("storm","",size:28pt) ])[#emph[#text("You learn the moods of moving air and the restless energy that gathers within it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Lightning, thunder and wind-driven displacement.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("subterfuge","", size: 30pt)
-#entry("Subterfuge","s-7fab5edbf9e6")
-#emph[#text("You learn to work in the space between what people notice and what they assume.")]
+#catalog-card("Subterfuge","s-7fab5edbf9e6", icons: [ #discipline-mark("subterfuge","",size:28pt) ])[#emph[#text("You learn to work in the space between what people notice and what they assume.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Stealth, misdirection and quiet access.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-#block(breakable: false)[
-#discipline-mark("wilderness","", size: 30pt)
-#entry("Wilderness","s-acc9dfe97acc")
-#emph[#text("You learn to read a living landscape and find your place within it.")]
+#catalog-card("Wilderness","s-acc9dfe97acc", icons: [ #discipline-mark("wilderness","",size:28pt) ])[#emph[#text("You learn to read a living landscape and find your place within it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("Environment-specific foraging and outdoor expertise.")
 
-#text("Ranks 1, 2 and 3 are purchased in order. Rank alone grants no action, attribute") #text("bonus, equipment or permission to use every card in this field. A card prints the") #text("rank required before purchase. No additional level gate applies to ranks.")
-
-#text("Class affinity sets the cost of each rank: Home 1/2/4 DP; Adjacent 2/4/8;") #text("Foreign 3/6/12; Opposed 4/8/16. These prices are the agreed starting scheme.") #text("No discipline may be bought at level 0.")
-
 ]
-]
+])
 #pagebreak(weak: true)
 #heading(level: 2)[Character paths]
 #twocol[
@@ -4509,7 +4244,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("A fight ends when the immediate opposition is resolved, not because everyone decides") #text("to ignore an active death roll. Resolve Dying before leaving combat timing. When it") #text("is safe to pause and companions can attend to an ordinary fire or similar immediate") #text("hazard, settle that hazard as the scene allows. Other conditions remain until their") #text("own removal, expiry or remedy. A safe breath restores HP; it does not remove wounds,") #text("refund Grit, cure every condition or reverse Last Words.")
 
 ]
-#tail-art("combat")
 #chapter("7","Beyond the Battlefield")
 #metadata("s-b32cca197003")<s-b32cca197003>
 #illustration("adventure", height: 125pt, fit: "cover")
@@ -4597,7 +4331,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("A wound may require repeated daily treatment even after you are ready to adventure.") #text("An inn, a friendly workshop, a healer's garden or a camp among allies can become part") #text("of the story. Rest restores what its rule says it restores. It does not refund Grit,") #text("remove a permanent scar, or refill a bottle whose inventory die is out.")
 
 ]
-#tail-art("adventure")
 #chapter("8","Harm and Recovery")
 #metadata("s-3373a7bacd12")<s-3373a7bacd12>
 #twocol[
@@ -4692,7 +4425,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("The ordinary way to attempt an activity remains available. An expert climbing card") #text("can provide better results, but you can choose an ordinary climb instead. Buying") #text("expertise gives you new options rather than forbidding everyone else from trying.")
 
-], [#illustration("class-odd",height:530pt)])
+], [#illustration("learned-relics",height:530pt)])
 #pagebreak(weak: true)
 #heading(level: 2,"Universal actions")
 #twocol[
@@ -10338,7 +10071,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 ],[#heading(level: 3)[#text("Culture")]
 #rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-127f953da4b7")[#text("Border Marches")]],[#text("+7")],),([#xref("s-be7fa1ecbef6")[#text("Cairn Communities")]],[#text("+5")],),([#xref("s-caa21ce3f778")[#text("Cloister Valleys")]],[#text("+5")],),([#xref("s-3a1e85f4b5df")[#text("Deep Halls")]],[#text("+7")],),([#xref("s-d937fe8c4da9")[#text("Ember Cities")]],[#text("+10")],),([#xref("s-acfa23352088")[#text("Forest Communities")]],[#text("+5")],),([#xref("s-a6e71f5f6d42")[#text("Free Harbors")]],[#text("+10")],),([#xref("s-316eb80e4804")[#text("Gathered Peoples")]],[#text("+7")],),([#xref("s-15d48ee7e5a3")[#text("Grass Sea Clans")]],[#text("+5")],),([#xref("s-0914c4d74846")[#text("Highland Holds")]],[#text("+7")],),([#xref("s-229dc05a61db")[#text("Island Kinships")]],[#text("+7")],),([#xref("s-7353482f4751")[#text("Learning Houses")]],[#text("+10")],),([#xref("s-c60affc74aac")[#text("Oasis Cities")]],[#text("+10")],),([#xref("s-580faec05381")[#text("Reed Villages")]],[#text("+5")],),([#xref("s-18f8da6ccca9")[#text("River Settlements")]],[#text("+7")],),([#xref("s-8d8c76172885")[#text("Terrace Towns")]],[#text("+5")],),([#xref("s-64536ad9ef2c")[#text("Traveling Companies")]],[#text("+7")],),([#xref("s-56fcfca4e0da")[#text("Walled Communities")]],[#text("+10")],),), pad: 2pt, font-size: 8.7pt, widths: (1fr,27pt))
 
-])#illustration("equipment",height:125pt)], [#heading(level: 3)[#text("Background")]
+])#illustration("coin-purse",height:125pt)], [#heading(level: 3)[#text("Background")]
 #rule-table(2,([#text("Choice")],[#text("Coins")],),(([#xref("s-b90394fd9a72")[#text("Apothecary’s Helper")]],[#text("+10")],),([#xref("s-b22ea03a6a6f")[#text("Bargain Keeper")]],[#text("+7")],),([#xref("s-7091aed288e8")[#text("Beast-Reared")]],[#text("+5")],),([#xref("s-872208e28686")[#text("Bone Tender")]],[#text("+5")],),([#xref("s-f929cff2cbe3")[#text("Bridge Worker")]],[#text("+7")],),([#xref("s-7984d2b1dc16")[#text("Burglar")]],[#text("+7")],),([#xref("s-b2b73ee08ff8")[#text("Confidence Artist")]],[#text("+7")],),([#xref("s-000117b6bc8f")[#text("Court Questioner")]],[#text("+10")],),([#xref("s-a312a6907a24")[#text("Dragon-Dreamer")]],[#text("+7")],),([#xref("s-90952aa5e9c2")[#text("Duelist’s Second")]],[#text("+7")],),([#xref("s-5b31ba339916")[#text("Grave Attendant")]],[#text("+5")],),([#xref("s-7aafc8f73712")[#text("Grove Tended")]],[#text("+5")],),([#xref("s-9b1d981dbf2d")[#text("Household Guard")]],[#text("+7")],),([#xref("s-5e0e84693b23")[#text("Itinerant Tinker")]],[#text("+7")],),([#xref("s-8639541ef870")[#text("Kennel Keeper")]],[#text("+7")],),([#xref("s-5cdcc612834b")[#text("Market Chemist")]],[#text("+10")],),([#xref("s-49616a099534")[#text("Messenger")]],[#text("+7")],),([#xref("s-725a611cc900")[#text("Monastery Runaway")]],[#text("+5")],),([#xref("s-60bc23cf9581")[#text("Oath Witness")]],[#text("+10")],),([#xref("s-d0d3a4d3abbf")[#text("Physician’s Student")]],[#text("+10")],),([#xref("s-757fd34b0bb1")[#text("Pit Fighter")]],[#text("+5")],),([#xref("s-cb0efb2d07cc")[#text("Poacher")]],[#text("+7")],),([#xref("s-acb3bd269c96")[#text("Reluctant Knife")]],[#text("+5")],),([#xref("s-f10b0de9740d")[#text("Shore Gatherer")]],[#text("+5")],),([#xref("s-17b8629ba48d")[#text("Stage Assistant")]],[#text("+7")],),([#xref("s-a0a16f981f7c")[#text("Star-Touched")]],[#text("+7")],),([#xref("s-46a389be0e62")[#text("Storm Survivor")]],[#text("+5")],),([#xref("s-bf8362262d71")[#text("Temple Attendant")]],[#text("+7")],),([#xref("s-7a65a53d413e")[#text("Traveling Player")]],[#text("+7")],),([#xref("s-174ecaa5c234")[#text("War Drummer")]],[#text("+7")],),([#xref("s-00aaf0d70989")[#text("Ward Scribe")]],[#text("+10")],),([#xref("s-316d900f9ca8")[#text("Weather Apprentice")]],[#text("+7")],),), pad: 2pt, font-size: 8.7pt, widths: (1fr,27pt))
 
 ])
@@ -10424,7 +10157,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Ordinary weapon appearance is yours to describe; your attack card supplies its combat") #text("mechanics. Special equipment adds only the effects printed here. For consumables,") #text("record the current inventory die and check it after the stated use. Keep frequently") #text("used items and occupied hands visible on your character sheet.")
 
-#catalog-card("Ammunition Bundle","s-7c3f620c41a4")[#emph[#text("You loosen the binding and feel the familiar shapes waiting for your hand.")]
+#catalog-card("Ammunition Bundle","s-7c3f620c41a4", icons: [])[#emph[#text("You loosen the binding and feel the familiar shapes waiting for your hand.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10443,7 +10176,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 9 coins.")
 
 ]
-#catalog-card("Book of Quiet Doors","s-fabe18f9a08f")[#emph[#text("You turn the thin pages, following diagrams whose locks seem almost to breathe.")]
+#catalog-card("Book of Quiet Doors","s-fabe18f9a08f", icons: [])[#emph[#text("You turn the thin pages, following diagrams whose locks seem almost to breathe.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" Scholarship 1; identification required. ")#strong[#text("Action:")]#text(" Main Action; ten minutes of study.")
@@ -10455,7 +10188,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 150 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#catalog-card("Chain Coil","s-c944a083152e")[#emph[#text("You feed the links through your hands, listening for the clear ring of sound metal.")]
+#catalog-card("Chain Coil","s-c944a083152e", icons: [])[#emph[#text("You feed the links through your hands, listening for the clear ring of sound metal.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 12 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10465,7 +10198,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Cincture of Might","s-f0f4afe9c11a")[#emph[#text("You tighten the belt and feel the next burden settle more easily against your body.")]
+#catalog-card("Cincture of Might","s-f0f4afe9c11a", icons: [])[#emph[#text("You tighten the belt and feel the next burden settle more easily against your body.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" No discipline requirement; understanding not required. ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -10477,7 +10210,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 500 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#catalog-card("Clearing Tonic Supply","s-b24b63a12d55")[#emph[#text("You lift the bottle to the light and watch its sharp green tint settle.")]
+#catalog-card("Clearing Tonic Supply","s-b24b63a12d55", icons: [])[#emph[#text("You lift the bottle to the light and watch its sharp green tint settle.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 30 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10487,7 +10220,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Climbing Fittings","s-988dba639bcc")[#emph[#text("You lay out the hook, harness and iron fittings, testing each before trusting your weight to it.")]
+#catalog-card("Climbing Fittings","s-988dba639bcc", icons: [])[#emph[#text("You lay out the hook, harness and iron fittings, testing each before trusting your weight to it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 8 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10497,7 +10230,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Craft Tools","s-14e7cb969276")[#emph[#text("You unroll the worn cloth and set each trusted tool within reach.")]
+#catalog-card("Craft Tools","s-14e7cb969276", icons: [])[#emph[#text("You unroll the worn cloth and set each trusted tool within reach.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10516,7 +10249,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 15 coins.")
 
 ]
-#catalog-card("Digging Tools","s-d774c4e02a23")[#emph[#text("You plant the spade and turn the first heavy clod aside.")]
+#catalog-card("Digging Tools","s-d774c4e02a23", icons: [])[#emph[#text("You plant the spade and turn the first heavy clod aside.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 6 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10526,7 +10259,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Disguise Clothes","s-ac4ce4cfc558")[#emph[#text("You exchange familiar colors for another trade’s working clothes and check the fit.")]
+#catalog-card("Disguise Clothes","s-ac4ce4cfc558", icons: [])[#emph[#text("You exchange familiar colors for another trade’s working clothes and check the fit.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 10 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10536,7 +10269,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Ember Edge","s-11382cf1237f")[#emph[#text("You lift the weapon and watch a red gleam travel along its working edge.")]
+#catalog-card("Ember Edge","s-11382cf1237f", icons: [])[#emph[#text("You lift the weapon and watch a red gleam travel along its working edge.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" Flame 1; understanding not required. ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -10548,7 +10281,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 400 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#catalog-card("Food Bundle","s-2512ec01815d")[#emph[#text("You unwrap a little comfort from home and share the smell of a proper meal.")]
+#catalog-card("Food Bundle","s-2512ec01815d", icons: [])[#emph[#text("You unwrap a little comfort from home and share the smell of a proper meal.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10567,7 +10300,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 9 coins.")
 
 ]
-#catalog-card("Glass of Fine Detail","s-4433f2b9aa57")[#emph[#text("You bring the glass close, and the tiny imperfections become a landscape.")]
+#catalog-card("Glass of Fine Detail","s-4433f2b9aa57", icons: [])[#emph[#text("You bring the glass close, and the tiny imperfections become a landscape.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" No discipline requirement; understanding not required. ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -10579,7 +10312,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 100 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#catalog-card("Gravebound Brooch","s-25f3a835887d")[#emph[#text("You fasten the cold brooch and feel its chill linger against your skin.")]
+#catalog-card("Gravebound Brooch","s-25f3a835887d", icons: [])[#emph[#text("You fasten the cold brooch and feel its chill linger against your skin.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" No discipline requirement; understanding not required. ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -10591,7 +10324,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 180 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#catalog-card("Greater Healing Bottle","s-24718f30576e")[#emph[#text("You swallow the strong draught and feel warmth spread deep into the hurt.")]
+#catalog-card("Greater Healing Bottle","s-24718f30576e", icons: [])[#emph[#text("You swallow the strong draught and feel warmth spread deep into the hurt.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10610,7 +10343,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 50 coins.")
 
 ]
-#catalog-card("Lesser Healing Bottle","s-04c9ce3dbd60")[#emph[#text("You take a bitter mouthful and wait for the familiar warmth to follow.")]
+#catalog-card("Lesser Healing Bottle","s-04c9ce3dbd60", icons: [])[#emph[#text("You take a bitter mouthful and wait for the familiar warmth to follow.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10629,7 +10362,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 20 coins.")
 
 ]
-#catalog-card("Lever and Wedges","s-2532d043387e")[#emph[#text("You work the iron tip into the seam and tap a wedge into place.")]
+#catalog-card("Lever and Wedges","s-2532d043387e", icons: [])[#emph[#text("You work the iron tip into the seam and tap a wedge into place.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 5 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10639,7 +10372,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Lighting Bundle","s-9dbbdc619f37")[#emph[#text("You shelter the first small flame until it takes hold and pushes back the dark.")]
+#catalog-card("Lighting Bundle","s-9dbbdc619f37", icons: [])[#emph[#text("You shelter the first small flame until it takes hold and pushes back the dark.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10658,7 +10391,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 5 coins.")
 
 ]
-#catalog-card("Local Map","s-3628d79905d2")[#emph[#text("You trace the road with a fingertip and compare the inked ridge to the skyline.")]
+#catalog-card("Local Map","s-3628d79905d2", icons: [])[#emph[#text("You trace the road with a fingertip and compare the inked ridge to the skyline.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 5 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10668,7 +10401,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Lock Tools","s-47f3d2782279")[#emph[#text("You choose the slender piece that feels right for the work beneath your fingers.")]
+#catalog-card("Lock Tools","s-47f3d2782279", icons: [])[#emph[#text("You choose the slender piece that feels right for the work beneath your fingers.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10687,7 +10420,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 20 coins.")
 
 ]
-#catalog-card("Material Bundle","s-7f03e2e13191")[#emph[#text("You spread out your gathered materials, already imagining what your hands will make of them.")]
+#catalog-card("Material Bundle","s-7f03e2e13191", icons: [])[#emph[#text("You spread out your gathered materials, already imagining what your hands will make of them.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10708,7 +10441,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("This 12-coin d6 price is for one named ordinary material type. Prepared healing ingredients cost 80 coins per d6 bundle instead; other rare materials require a DA quote. A cheap ordinary bundle cannot substitute for life salts or other specialist ingredients.")
 
 ]
-#catalog-card("Mixing Kit","s-b06011d0f4b2")[#emph[#text("Stained spoons, a little mortar and bottles whose labels only you can read.")]
+#catalog-card("Mixing Kit","s-b06011d0f4b2", icons: [])[#emph[#text("Stained spoons, a little mortar and bottles whose labels only you can read.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Bulk:")]#text(" 1. ")#strong[#text("Use:")]#text(" Reusable tools for a recipe that names a mixing kit.") #text("No inventory die; ingredients and finished mixtures have their own supply dice.") #text("An ability that grants a missing kit supplies it on acquisition, not on every use.")
@@ -10716,7 +10449,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 20 coins.")
 
 ]
-#catalog-card("Musical Instrument","s-6b70fa2ab5ff")[#emph[#text("You sound a familiar note and adjust the tuning until it settles.")]
+#catalog-card("Musical Instrument","s-6b70fa2ab5ff", icons: [])[#emph[#text("You sound a familiar note and adjust the tuning until it settles.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 12 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10726,7 +10459,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Ordinary Heavy Armor","s-b9784698d103")[#emph[#text("You settle into its reassuring weight, each fastening bearing the marks of your care.")]
+#catalog-card("Ordinary Heavy Armor","s-b9784698d103", icons: [])[#emph[#text("You settle into its reassuring weight, each fastening bearing the marks of your care.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10745,7 +10478,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 90 coins.")
 
 ]
-#catalog-card("Ordinary Medium Armor","s-0b2c1b395c96")[#emph[#text("You brush a hand over the familiar surface and check the fit before setting out.")]
+#catalog-card("Ordinary Medium Armor","s-0b2c1b395c96", icons: [])[#emph[#text("You brush a hand over the familiar surface and check the fit before setting out.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10764,7 +10497,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 40 coins.")
 
 ]
-#catalog-card("Ordinary Melee Weapon","s-d69517655496")[#emph[#text("You turn the weapon in your hand, remembering why you chose this shape to carry.")]
+#catalog-card("Ordinary Melee Weapon","s-d69517655496", icons: [])[#emph[#text("You turn the weapon in your hand, remembering why you chose this shape to carry.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10783,7 +10516,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 12 coins.")
 
 ]
-#catalog-card("Ordinary Ranged Weapon","s-973e5d9f8a2e")[#emph[#text("You check your weapon with the familiar care that makes the first shot feel right.")]
+#catalog-card("Ordinary Ranged Weapon","s-973e5d9f8a2e", icons: [])[#emph[#text("You check your weapon with the familiar care that makes the first shot feel right.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10802,7 +10535,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 18 coins.")
 
 ]
-#catalog-card("Ordinary Shield","s-41ade2ef74b5")[#emph[#text("You slip your arm into place and feel the worn grip fit your palm.")]
+#catalog-card("Ordinary Shield","s-41ade2ef74b5", icons: [])[#emph[#text("You slip your arm into place and feel the worn grip fit your palm.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10821,7 +10554,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 10 coins.")
 
 ]
-#catalog-card("Padlock","s-2918d6eac54e")[#emph[#text("The shackle closes with a solid click as you turn the small key.")]
+#catalog-card("Padlock","s-2918d6eac54e", icons: [])[#emph[#text("The shackle closes with a solid click as you turn the small key.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 5 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10831,7 +10564,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Restraints","s-43bb20e70dde")[#emph[#text("You check the key against the lock before closing the irons.")]
+#catalog-card("Restraints","s-43bb20e70dde", icons: [])[#emph[#text("You check the key against the lock before closing the irons.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 8 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10841,7 +10574,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Rope Coil","s-3c95ee95bf9b")[#emph[#text("You shake out a loop and test the fibers between your hands.")]
+#catalog-card("Rope Coil","s-3c95ee95bf9b", icons: [])[#emph[#text("You shake out a loop and test the fibers between your hands.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10860,7 +10593,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 5 coins.")
 
 ]
-#catalog-card("Signal Kit","s-137a6b65cf72")[#emph[#text("You lift the whistle and angle the polished mirror toward the sun.")]
+#catalog-card("Signal Kit","s-137a6b65cf72", icons: [])[#emph[#text("You lift the whistle and angle the polished mirror toward the sun.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 4 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10870,7 +10603,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Sleeping Roll","s-c0088cf12189")[#emph[#text("You unroll the blanket and tuck its worn edge beneath your head.")]
+#catalog-card("Sleeping Roll","s-c0088cf12189", icons: [])[#emph[#text("You unroll the blanket and tuck its worn edge beneath your head.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 4 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10880,7 +10613,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Small Necessities","s-54a713e7fd20")[#emph[#text("You unfold a cloth of useful odds and ends: thread, chalk, soap and a flint worn smooth by use.")]
+#catalog-card("Small Necessities","s-54a713e7fd20", icons: [])[#emph[#text("You unfold a cloth of useful odds and ends: thread, chalk, soap and a flint worn smooth by use.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 2 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10890,7 +10623,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Small Tent","s-32c7fdd7c096")[#emph[#text("You pull the canvas taut and listen as the rain begins to patter above it.")]
+#catalog-card("Small Tent","s-32c7fdd7c096", icons: [])[#emph[#text("You pull the canvas taut and listen as the rain begins to patter above it.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 12 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10900,7 +10633,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Smoke Supply","s-f1e2e78dbb69")[#emph[#text("You turn the stoppered flask carefully, watching the murky liquid cling to its sides.")]
+#catalog-card("Smoke Supply","s-f1e2e78dbb69", icons: [])[#emph[#text("You turn the stoppered flask carefully, watching the murky liquid cling to its sides.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 15 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10910,7 +10643,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Superior Healing Bottle","s-d4d89fd876a0")[#emph[#text("You break the seal and drink, feeling the powerful draught answer the deepest ache.")]
+#catalog-card("Superior Healing Bottle","s-d4d89fd876a0", icons: [])[#emph[#text("You break the seal and drink, feeling the powerful draught answer the deepest ache.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -10929,7 +10662,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 120 coins.")
 
 ]
-#catalog-card("Trade Sack","s-a499baf9b6ed")[#emph[#text("You knot the mouth of the sack and test whether the load will hold.")]
+#catalog-card("Trade Sack","s-a499baf9b6ed", icons: [])[#emph[#text("You knot the mouth of the sack and test whether the load will hold.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 1 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10939,7 +10672,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Travel Clothes","s-5ae233e27a7e")[#emph[#text("You pull on well-mended clothes whose seams have learned your stride.")]
+#catalog-card("Travel Clothes","s-5ae233e27a7e", icons: [])[#emph[#text("You pull on well-mended clothes whose seams have learned your stride.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 4 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10949,7 +10682,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Travel Pack","s-d7e5ae8c8f0b")[#emph[#text("You tighten the straps and tuck the loose ends away before shouldering the load.")]
+#catalog-card("Travel Pack","s-d7e5ae8c8f0b", icons: [])[#emph[#text("You tighten the straps and tuck the loose ends away before shouldering the load.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 3 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10959,7 +10692,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Water Flask","s-6cc71ac4a31f")[#emph[#text("You test the stopper, listening to the water shift inside.")]
+#catalog-card("Water Flask","s-6cc71ac4a31f", icons: [])[#emph[#text("You test the stopper, listening to the water shift inside.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 3 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10969,7 +10702,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Weather Clothes","s-a17c58bce822")[#emph[#text("You fasten the heavy outer layer against the weather.")]
+#catalog-card("Weather Clothes","s-a17c58bce822", icons: [])[#emph[#text("You fasten the heavy outer layer against the weather.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 10 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -10979,7 +10712,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Buying equipment grants no DP advancement, training or ability. Use normal item-handling actions unless an applicable card says otherwise.")
 
 ]
-#catalog-card("Winter Lining","s-5565a74959ac")[#emph[#text("You draw the lining close and let its quiet warmth meet the bitter air.")]
+#catalog-card("Winter Lining","s-5565a74959ac", icons: [])[#emph[#text("You draw the lining close and let its quiet warmth meet the bitter air.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Requirements:")]#text(" No discipline requirement; understanding not required. ")#strong[#text("Action:")]#text(" Passive unless the effect says otherwise.")
@@ -10991,7 +10724,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("")#strong[#text("Market price:")]#text(" 180 coins (special-order benchmark; availability is not guaranteed).")
 
 ]
-#catalog-card("Writing Kit","s-af6b73697bd9")[#emph[#text("You open the wrap and smooth a clean page beside the ink.")]
+#catalog-card("Writing Kit","s-af6b73697bd9", icons: [])[#emph[#text("You open the wrap and smooth a clean page beside the ink.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Market price:")]#text(" 6 coins. ")#strong[#text("Bulk:")]#text(" 1.")
@@ -11002,7 +10735,6 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 ]
 ]
-#tail-art("equipment")
 #pagebreak(weak: true)
 #heading(level: 2,"Recipes")
 #twocol[
@@ -11011,7 +10743,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("Read the entry before beginning. A project may accumulate progress toward a completion") #text("target; a supply recipe may instead raise an existing inventory die. Follow the printed") #text("outcomes and limits. Starting crafting abilities provide their stated recipe choices;") #text("you can learn further compatible recipes through the appropriate ability or discover") #text("them during play.")
 
-#catalog-card("Bound Torches","s-6d543ab33e6a")[#emph[#text("You bind the dry fibers tightly, leaving a head that will take the flame evenly.")]
+#catalog-card("Bound Torches","s-6d543ab33e6a", icons: [])[#emph[#text("You bind the dry fibers tightly, leaving a head that will take the flame evenly.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -11034,7 +10766,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Roll the crafting card’s attribute. Weak raises one matching supply by 1 inventory step; Standard by 2; Strong by 3, up to the printed cap. The first step from out creates d4; later steps are d6, d8, d10, d12, d20. Check carried material supply after the attempt. No group crafting.")
 
 ]
-#catalog-card("Camp Shelter","s-b8a961647b93")[#emph[#text("You test the woven roof with a handful of water and make room beneath it for tired friends.")]
+#catalog-card("Camp Shelter","s-b8a961647b93", icons: [])[#emph[#text("You test the woven roof with a handful of water and make room beneath it for tired friends.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Permission:")]#text(" ")#xref("s-b602f6e1a9f1")[#text("A Roof before Nightfall")]#text(".") #text("")#strong[#text("Tools:")]#text(" Craft tools. ")#strong[#text("Time per attempt:")]#text(" One hour.") #text("")#strong[#text("Materials per attempt:")]#text(" Suitable supports and weatherproof covering, gathered locally or one compatible carried material-bundle use.") #text("")#strong[#text("Completion target:")]#text(" 4 progress.")
@@ -11046,7 +10778,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("The shelter lasts until dismantled or damaged. The recipe is granted by its crafting card and may also be learned through Ordinary Recipe Study if already compatible; recipe knowledge grants no tools, ingredients or crafting permission.")
 
 ]
-#catalog-card("Clearing Tonic","s-8a9c69fe8bf8")[#emph[#text("You crush the sharp-smelling leaves and strain the mixture until it runs clear.")]
+#catalog-card("Clearing Tonic","s-8a9c69fe8bf8", icons: [])[#emph[#text("You crush the sharp-smelling leaves and strain the mixture until it runs clear.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("")#strong[#text("Recipe permission:")]#text(" ")#xref("s-ae692ce84411")[#text("The Cleverest Mixture")]#text(".") #text("")#strong[#text("Tools:")]#text(" Mixing kit. ")#strong[#text("Time:")]#text(" One hour per attempt.") #text("")#strong[#text("Materials:")]#text(" Bitter starleaf, clean water and a filtering cloth; one compatible material-bundle use per attempt if carried.")
@@ -11058,7 +10790,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Each finished bundle/bottle is Bulk 1. Recipe knowledge creates no free stock. This is an ordinary recipe; the plants and salts are fictional ingredients, not real preparation instructions.")
 
 ]
-#catalog-card("Fletched Ammunition","s-befbcf7e459d")[#emph[#text("You smooth each feather into place and sight down the finished shaft.")]
+#catalog-card("Fletched Ammunition","s-befbcf7e459d", icons: [])[#emph[#text("You smooth each feather into place and sight down the finished shaft.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -11081,7 +10813,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Roll the crafting card’s attribute. Weak raises one matching supply by 1 inventory step; Standard by 2; Strong by 3, up to the printed cap. The first step from out creates d4; later steps are d6, d8, d10, d12, d20. Check carried material supply after the attempt. No group crafting.")
 
 ]
-#catalog-card("Lesser Healing Bottle","s-abd26dc48e7d")[#emph[#text("You keep the mixture at a patient simmer, watching for the color your teacher showed you.")]
+#catalog-card("Lesser Healing Bottle","s-abd26dc48e7d", icons: [])[#emph[#text("You keep the mixture at a patient simmer, watching for the color your teacher showed you.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("The useful bottle is the one you prepared before you needed it.")
@@ -11095,7 +10827,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Each finished bundle/bottle is Bulk 1. Recipe knowledge creates no free stock. This is an ordinary recipe; the plants and salts are fictional ingredients, not real preparation instructions.")
 
 ]
-#catalog-card("Simple Replacement Leg","s-ee6646e5ff37")[#emph[#text("You shape and fit the pieces around the person who will have to trust their weight to them.")]
+#catalog-card("Simple Replacement Leg","s-ee6646e5ff37", icons: [])[#emph[#text("You shape and fit the pieces around the person who will have to trust their weight to them.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -11120,7 +10852,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Requires Fit a Replacement before relieving any wound effect; the wound must permit replacement. This recipe can be one of the two ordinary choices granted by Trail Workshop or Ordinary Recipe Study. It is reusable and does not grant free ingredients.")
 
 ]
-#catalog-card("Smoke Flask","s-01f97f094075")[#emph[#text("You seal the cloudy mixture quickly, before the first acrid curl reaches your eyes.")]
+#catalog-card("Smoke Flask","s-01f97f094075", icons: [])[#emph[#text("You seal the cloudy mixture quickly, before the first acrid curl reaches your eyes.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #text("The useful bottle is the one you prepared before you needed it.")
@@ -11134,7 +10866,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Each finished bundle/bottle is Bulk 1. Recipe knowledge creates no free stock. This is an ordinary recipe; the plants and salts are fictional ingredients, not real preparation instructions.")
 
 ]
-#catalog-card("Travel Food","s-bb64b6e91f76")[#emph[#text("You salt, wrap and dry the ingredients, packing a little hospitality for the road.")]
+#catalog-card("Travel Food","s-bb64b6e91f76", icons: [])[#emph[#text("You salt, wrap and dry the ingredients, packing a little hospitality for the road.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -11157,7 +10889,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Roll the crafting card’s attribute. Weak raises one matching supply by 1 inventory step; Standard by 2; Strong by 3, up to the printed cap. The first step from out creates d4; later steps are d6, d8, d10, d12, d20. Check carried material supply after the attempt. No group crafting.")
 
 ]
-#catalog-card("Twisted Cord","s-41812d3c9ff9")[#emph[#text("You roll the fibers together until many small strands become something worth trusting.")]
+#catalog-card("Twisted Cord","s-41812d3c9ff9", icons: [])[#emph[#text("You roll the fibers together until many small strands become something worth trusting.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -11180,7 +10912,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #text("Roll the crafting card’s attribute. Weak adds 1 progress; Standard 2; Strong 3. Accumulate progress until the printed target is met, then receive one finished product. Check carried material supply after each attempt. No group crafting.")
 
 ]
-#catalog-card("Wooden Brace","s-cd8056938705")[#emph[#text("You trim the supports until they meet snugly, then bind the join against its load.")]
+#catalog-card("Wooden Brace","s-cd8056938705", icons: [])[#emph[#text("You trim the supports until they meet snugly, then bind the join against its load.")]
 
 #v(3pt)#line(length: 100%, stroke: .4pt + gold)#v(3pt)
 #list(
@@ -11232,7 +10964,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 
 #text("The profiles below include only the summoned form's permitted capabilities. A") #text("monster's dramatic description does not grant its summoned form extra actions,") #text("active auras, independent attacks or skills.")
 
-], [#illustration("summon-ancestor-guardian",height:530pt)])
+], [#illustration("summoning-ring",height:530pt)])
 #pagebreak(weak: true)
 #entry("Choose a summoned companion","s-8a059e12072a")
 #text("")#strong[#text("Selection:")]#text(" select a listed creature whose category matches the card") #text("and whose minimum tier does not exceed it. Category or CV alone grants no access.") #text("The expanded roster provides 73 explicit selections. All use the established") #text("command limits, six-square tether and disappearance rules. No uncommanded activity,") #text("Reactions, opportunity attacks, permanent loot or summon chains.")
@@ -11257,7 +10989,7 @@ Choose one class; there is no multiclassing. You can still learn any shared abil
 #rule-table(3,([#text("Tier")],[#text("Creature")],[#text("Role")],),(([#text("1")],[#xref("s-c8e62ad0c568")[#text("Clay Helper")]],[#text("Laborer")],),([#text("1")],[#xref("s-69ca6e083349")[#text("Clockwork Scout")]],[#text("Surveyor")],),([#text("3")],[#xref("s-2a0dc58d4f5a")[#text("Animated Armor")]],[#text("Guard")],),([#text("3")],[#xref("s-ceed6af946d8")[#text("Animated Statue")]],[#text("Displacer")],),([#text("3")],[#xref("s-6a26fcecf81e")[#text("Glass Sentinel")]],[#text("Spell guard")],),([#text("7")],[#xref("s-0d401e9c0ff0")[#text("Clay Golem")]],[#text("Holder")],),([#text("7")],[#xref("s-b650ba5f4076")[#text("Flesh Golem")]],[#text("Disabler")],),([#text("7")],[#xref("s-347a1a70b67b")[#text("Iron Gatekeeper")]],[#text("Heavy guardian")],),([#text("7")],[#xref("s-d788d5167794")[#text("Stone Golem")]],[#text("Displacer")],),([#text("7")],[#xref("s-7a66302192c1")[#text("Walking Furnace")]],[#text("Area artillery")],),), pad: 2pt, font-size: 8.5pt, widths: (27pt, 1.3fr, 1fr))
 
 ]])
-#tail-art("summon-great-stag")
+#tail-art("forest-sanctuary")
 #companion-card("Adder","s-8a9af988caee","summon-adder")[#emph[#text("A short, thick-bodied snake patterned like leaf litter, with a triangular head and retractable venomous fangs. It prefers warm cover and an escape route to confrontation.")]
 
 #text("")#strong[#text("Attributes:")]#text(" Brawn -2; Fortitude +0; Agility +2; Guile +0; Knowledge -2; Reason +0")

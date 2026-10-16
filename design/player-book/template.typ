@@ -62,7 +62,7 @@
   #body
 ]
 #let art-files = json("generated/art-files.json")
-#let illustration(asset, width: 100%, height: 160pt, fit: "contain") = block(width: width, height: height, above: 8pt, below: 8pt)[
+#let illustration(asset, width: 100%, height: 160pt, fit: "contain") = block(width: width, height: height, above: 8pt, below: 14pt)[
   #layout(size => context { let pos=here().position(); [#metadata((asset:asset,page:pos.page,x:pos.x/1pt,y:pos.y/1pt,width:size.width/1pt,height:height/1pt)) <art-placement>] })
   #if asset in art-files {
     image("art/interior/" + asset + ".png", width: 100%, height: height, fit: fit, alt: asset.replace("-", " "))
@@ -87,15 +87,12 @@
   #place(center + horizon, rotate(45deg, square(size: 17pt, fill: forest, stroke: .7pt + gold)))
   #place(center + horizon, text(size: 9pt, fill: ivory, weight: "bold", tier))
 ]
-#let discipline-mark(name, rank, size: 25pt) = box(width: size, height: size)[
-  #if "badge-"+name in art-files {
-    place(center+horizon, image("art/interior/badge-"+name+".png",width:size,height:size,fit:"contain"))
-  } else {
-    place(center+horizon, circle(width:size,fill:forest,stroke:gold))
-  }
+#let discipline-mark(name, rank, size: 29pt) = box(width: size + 2pt, height: size)[
+  #place(center+horizon, image("art/interior/symbol-"+name+".png",width:size,height:size,fit:"contain"))
   #if rank != "" {
-    place(center+horizon, circle(width: 12pt,fill:forest.transparentize(10%),stroke:.4pt+gold))
-    place(center+horizon, text(size:10pt,weight:"bold",fill:white,rank))
+    // The offset numeral leaves each symbol's identifying upper contour visible.
+    place(right+bottom, rect(width:12pt,height:13pt,radius:2pt,fill:ivory,stroke:.5pt+forest,
+      align(center+horizon,text(size:11pt,weight:"bold",fill:forest,rank))))
   }
 ]
 #let card-heading(title, key, tier: none, icons: [], title-size: 11pt) = block(width:100%,fill:forest,inset:7pt)[
@@ -126,8 +123,8 @@
     block(breakable: height > 675pt, whole)
   })
 }
-#let catalog-card(title,key,body) = block(width:100%,stroke:.7pt+gold,radius:3pt,clip:true,fill:rgb("#fbf8ef"),above:7pt,below:5pt,breakable:false)[
-  #card-heading(title,key)
+#let catalog-card(title,key,body,icons:[]) = block(width:100%,stroke:.7pt+gold,radius:3pt,clip:true,fill:rgb("#fbf8ef"),above:7pt,below:5pt,breakable:false)[
+  #card-heading(title,key,icons:icons)
   #block(inset:7pt)[
     #set text(size:9.4pt)
     #set par(leading:.27em,spacing:.45em)

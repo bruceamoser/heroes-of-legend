@@ -37,6 +37,8 @@ def clean(p):
  s=p.read_text()
  if p.parent.name=='classes':s=s.replace(' No multiclassing.','').replace('## Rules','')
  if p.parent.name in ('cards','equipment','recipes','origins','ancestries','disciplines'):s=s.replace('## Rules','---')
+ if p.parent.name=='disciplines':
+  s=re.sub(r'Ranks 1, 2 and 3 are purchased in order\..*?(?=\n\[Discipline index)', '', s, flags=re.S)
  if p.parent.name=='equipment':s=s.replace('No DP price. Purchase does not grant training or an ability.','')
  s=s.replace('**Status:** Proposal. Choose', 'Choose')
  if p.parent==BOOK/'manuscript': return s
@@ -162,11 +164,12 @@ def record(p,kind):
 def doc(p,kind='entry',wide=False,break_before=False):
  record(p,kind);s=clean(p)
  prefix='#pagebreak(weak: true)\n' if break_before else ''
- text='#entry('+q(name(p).replace(' (CV '+str(0)+')',''))+','+q(key(p))+')\n'+render(s,p)
- if kind=='discipline': text='#discipline-mark('+q(p.stem)+',"", size: 30pt)\n'+text
- if kind in ('equipment','recipes'):
-  text='#catalog-card('+q(name(p))+','+q(key(p))+')['+render(s,p)+']\n'
- if kind in ('trait','culture','background','discipline','path'): text='#block(breakable: false)[\n'+text+']\n'
+ if kind in ('equipment','recipes','trait','culture','background','discipline'):
+  icons='[ #discipline-mark('+q(p.stem)+',"",size:28pt) ]' if kind=='discipline' else '[]'
+  text='#catalog-card('+q(name(p))+','+q(key(p))+', icons: '+icons+')['+render(s,p)+']\n'
+ else:
+  text='#entry('+q(name(p))+','+q(key(p))+')\n'+render(s,p)
+ if kind=='path': text='#block(breakable: false)[\n'+text+']\n'
  return prefix+(text if wide else '#twocol[\n'+text+']\n')
 def card(p):
  record(p,'ability');s=clean(p)
@@ -186,11 +189,14 @@ def manuscript(filename,n,title,artbrief=None):
  p=BOOK/'manuscript'/filename;record(p,'chapter')
  v='#chapter('+q(n)+','+q(title)+')\n#metadata('+q(key(p))+')'+ '<'+key(p)+'>\n'
  if artbrief:v+='#illustration('+q({'01-welcome.md':'welcome','06-playing.md':'combat','07-adventure.md':'adventure'}.get(filename,artbrief))+', height: 125pt, fit: "cover")\n'
- if filename in ('05-disciplines.md','09-abilities.md','11-summons.md'):
-  artkey={'05-disciplines.md':'class-intellect','09-abilities.md':'class-odd','11-summons.md':'summon-ancestor-guardian'}[filename]
+ if filename=='05-disciplines.md':
+  overview,directions=p.read_text().split('## Choose a direction',1)
+  v+='#grid(columns:(1fr,1fr),gutter:18pt,['+render(overview,p)+'],['+render('## Choose a direction'+directions,p)+'#v(10pt)#illustration("fields-of-study",height:265pt)])\n'
+ elif filename in ('09-abilities.md','11-summons.md'):
+  artkey={'05-disciplines.md':'fields-of-study','09-abilities.md':'learned-relics','11-summons.md':'summoning-ring'}[filename]
   v+='#grid(columns: (1fr,1fr), gutter:18pt, ['+render(p.read_text(),p)+'], [#illustration('+q(artkey)+',height:530pt)])\n'
  else:v+='#twocol[\n'+render(p.read_text(),p)+']\n'
- if filename not in ('14-reference.md','05-disciplines.md','09-abilities.md','11-summons.md'):v+='#tail-art('+q({'01-welcome.md':'journey','02-creation.md':'heroes','05-disciplines.md':'disciplines','06-playing.md':'combat','07-adventure.md':'adventure','08-recovery.md':'recovery','09-abilities.md':'abilities','10-equipment.md':'equipment','11-summons.md':'summon-ancestor-guardian'}[filename])+')\n'
+ if filename not in ('14-reference.md','05-disciplines.md','09-abilities.md','11-summons.md','06-playing.md','07-adventure.md','01-welcome.md'):v+='#tail-art('+q({'01-welcome.md':'journey','02-creation.md':'journeyman-kit','05-disciplines.md':'disciplines','06-playing.md':'combat','07-adventure.md':'adventure','08-recovery.md':'recovery','09-abilities.md':'abilities','10-equipment.md':'equipment','11-summons.md':'summon-ancestor-guardian'}[filename])+')\n'
  return v
 
 def coin_reference():
@@ -199,7 +205,7 @@ def coin_reference():
  def table(title):return render('### '+title.replace(' contribution','')+'\n'+sections[title],p,base=1)
  intro=t.split('## Ancestry')[0]
  result='#pagebreak(weak: true)\n#entry("Starting coins",'+q(key(p))+')\n'+render(intro,p)+'\n'
- result+='#grid(columns: (2fr,1fr), gutter: 10pt, [#grid(columns:(1fr,1fr),gutter:10pt,['+table('Ancestry contribution')+table('Class contribution')+'],['+table('Culture contribution')+'])#illustration("equipment",height:125pt)], ['+table('Background contribution')+'])\n'
+ result+='#grid(columns: (2fr,1fr), gutter: 10pt, [#grid(columns:(1fr,1fr),gutter:10pt,['+table('Ancestry contribution')+table('Class contribution')+'],['+table('Culture contribution')+'])#illustration("coin-purse",height:125pt)], ['+table('Background contribution')+'])\n'
  result+='#note['+render('### Examples\n'+sections['Checks and examples'],p,base=1)+']\n'
  return result
 
@@ -209,7 +215,7 @@ def summon_roster():
  def group(k):return '#block(breakable: false)['+render('## '+k+'\n'+chunks[k],p,base=1)+']'
  result='#pagebreak(weak: true)\n#entry("Choose a summoned companion",'+q(key(p))+')\n'+render(t.split('## Animal')[0],p)+'\n'
  result+='#grid(columns: (1fr,1fr,1fr), gutter: 10pt, ['+group('Animal')+group('Spirit')+'], ['+group('Undead')+group('Elemental')+'], ['+group('Fey')+group('Construct')+'])\n'
- result+='#tail-art("summon-great-stag")\n'
+ result+='#tail-art("forest-sanctuary")\n'
  return result
 
 def summon_card(p):
@@ -231,7 +237,7 @@ parts.append(manuscript('02-creation.md','2','Create Your Hero'))
 parts.append(section('3','Ancestry, Culture and Background'))
 parts.append('#twocol[Choose the people, places and experiences that shaped you. Choose two ancestry traits, then one complete culture pair and one complete background pair. Any ancestry may come from any culture.\n\nYour ancestry supplies inherited traits. Your culture describes a community and its traditions. Your background recalls something you did or experienced before adventuring. These choices offer connections, memories and capabilities; they do not dictate your personality.\n\nChoose each origin as a complete pair: its rank and ability belong together. Resolve all level-0 grants before making purchases. Duplicate grants add one DP to that stage rather than a higher rank or unrestricted replacement.]\n#illustration("origins", height: 330pt, fit: "cover")\n')
 for a in ['human','elf','dwarf','halfling']:
- parts.append('#pagebreak(weak: true)\n#grid(columns: (1fr,1fr), gutter: 18pt, [\n'+doc(DESIGN/'ancestries'/f'{a}.md','ancestry',wide=True)+'], [#illustration('+q('ancestry-'+a)+', height: 245pt)])\n')
+ parts.append('#pagebreak(weak: true)\n#grid(columns: (1fr,1fr), gutter: 18pt, [\n'+doc(DESIGN/'ancestries'/f'{a}.md','ancestry',wide=True)+'], [#illustration('+q('ancestry-'+a)+', height: 245pt)])\n#v(10pt)\n')
  parts.append('#twocol[\n'+''.join(doc(DESIGN/'ancestries'/x,'trait',wide=True) for x in re.findall(r'\]\((trait-[^)]+\.md)\)',(DESIGN/'ancestries'/f'{a}.md').read_text()))+']\n')
 for typ,title in [('culture','Cultures'),('background','Backgrounds')]:
  parts.append('#pagebreak(weak: true)\n#heading(level: 2,'+q(title)+')\n#twocol[\n')
@@ -251,11 +257,13 @@ for cname in ['protector','blade','arcanist','shepherd','intellect','leader','un
  parts.append('#pagebreak(weak: true)\n#grid(columns: (1fr,1fr), gutter: 18pt, [\n'+doc(p,'class',wide=True)+'], [#illustration('+q('class-'+cname)+', height: 460pt, fit: "cover")])\n#pagebreak(weak: true)\n#twocol[\n')
  sigs=re.findall(r'\]\(\.\./cards/(signature-[^)]+\.md)\)',p.read_text())
  for sig in sigs:parts.append(card(DESIGN/'cards'/sig))
- parts.append(']\n#tail-art('+q('class-'+cname)+')\n')
+ parts.append(']\n')
 parts.append(manuscript('05-disciplines.md','5','Disciplines and Character Paths'))
-parts.append('#pagebreak(weak: true)\n#twocol[\n')
-for p in sorted((DESIGN/'disciplines').glob('*.md'),key=name):parts.append(doc(p,'discipline',wide=True))
-parts.append(']\n#pagebreak(weak: true)\n#heading(level: 2)[Character paths]\n#twocol[\n')
+discipline_files=sorted((DESIGN/'disciplines').glob('*.md'),key=name)
+for offset in (0,9):
+ group=discipline_files[offset:offset+9]
+ parts.append('#pagebreak(weak: true)\n#grid(columns:(1fr,1fr),gutter:18pt,['+''.join(doc(p,'discipline',wide=True) for p in group[:5])+'],['+''.join(doc(p,'discipline',wide=True) for p in group[5:])+'])\n')
+parts.append('#pagebreak(weak: true)\n#heading(level: 2)[Character paths]\n#twocol[\n')
 for p in sorted((DESIGN/'paths').glob('*.md'),key=name):
  if p.stem in SELECTED_PATHS:parts.append(doc(p,'path',wide=True))
 parts.append(']\n#tail-art("paths")\n')
@@ -278,7 +286,7 @@ for folder,title in [('equipment','Equipment entries'),('recipes','Recipes')]:
  parts.append('#pagebreak(weak: true)\n#heading(level: 2,'+q(title)+')\n#twocol[\n')
  intro=BOOK/'manuscript'/('intro-'+folder+'.md');record(intro,'section');parts.append('#metadata('+q(key(intro))+')<'+key(intro)+'>\n'+render(intro.read_text(),intro))
  for p in sorted((DESIGN/folder).glob('*.md'),key=name):parts.append(doc(p,folder,wide=True))
- parts.append(']\n#tail-art('+q(folder)+')\n')
+ parts.append(']\n'+('#tail-art("recipes")\n' if folder=='recipes' else ''))
 parts.append(manuscript('11-summons.md','11','Summoned Companions'))
 parts.append(summon_roster())
 for p in sorted((DESIGN/'bestiary/summons').glob('*.md'),key=name):parts.append(summon_card(p))

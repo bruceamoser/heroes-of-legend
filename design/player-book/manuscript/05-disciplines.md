@@ -13,6 +13,23 @@ Class affinity determines what a rank costs. All abilities at the same tier use 
 same DP price. This lets a class have a natural direction while leaving room for
 unexpected study. Odd uses the same Adjacent prices across the entire list.
 
+## Buying ranks
+
+You cannot buy disciplines at level 0. After choosing your class, use its affinity
+for the discipline to find the price of each rank. Buy every rank in order; these
+are individual prices, not the total cost of reaching a rank.
+
+| Class affinity | Rank 1 | Rank 2 | Rank 3 |
+|---|---|---|---|
+| Home | 1 DP | 2 DP | 4 DP |
+| Adjacent | 2 DP | 4 DP | 8 DP |
+| Foreign | 3 DP | 6 DP | 12 DP |
+| Opposed | 4 DP | 8 DP | 16 DP |
+
+The discipline cards below describe each field. These shared purchase rules apply
+to all eighteen disciplines. Each symbol also appears on ability headers; the small
+number over its lower edge is the required rank.
+
 ## Choose a direction
 
 Imagine what you want to do for the company. A healer might protect a retreat,

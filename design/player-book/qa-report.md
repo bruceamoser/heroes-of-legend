@@ -1,53 +1,50 @@
-# Illustrated player-book QA — October 16, 2026
+# Player-book presentation QA — October 16, 2026
 
 ## Deliverable
 
-232-page US Letter player book for levels 1–10, with the approved cover, editable
-Markdown teaching chapters, source-driven catalogs and Typst layout. Final PDF:
-85,097,445 bytes (81.2 MiB). SHA-256: `9e012d11b319af7d74aeb0dea5fb0ad19386fa26d902cb39d0cdca847b0c6ad7`.
+231-page US Letter player book for levels 1–10. PDF size: 92,112,165
+bytes (87.8 MiB). SHA-256: `6717c5f920b0b71738e7841e4b86ba09b745cef4a3113b1f793ad103e54568fc`.
+Editable Markdown and Typst sources remain in the repository.
 
-## Coverage
+## Review requests completed
 
-607 source records include 350 abilities (90 signatures, 18 universal actions and
-242 shared abilities), 4 ancestries and 20 traits, 18 cultures, 32 backgrounds,
-10 classes, 18 disciplines, 4 selected character paths, 43 equipment entries,
-10 recipes, 73 player summon profiles, 280 wound rows and 6 worked heroes.
-The four printable sheets occupy pages 224–227; the ability index follows.
-The complete 192-creature DA bestiary remains outside this player book.
+- Bordered cards and solid headers for all 20 ancestry traits, 18 cultures,
+  32 backgrounds and 18 disciplines; narrative and rules separated visually.
+- Discipline purchase rules and the affinity price table appear in the introduction;
+  repeated rules removed from the printed individual discipline entries. Eighteen
+  entries are distributed evenly over two pages.
+- Eighteen simple gold discipline symbols replace ornate badges. Rank numerals use
+  a contrasting panel over the lower edge, leaving the identifying silhouette clear.
+- Generated 30 new object/landscape illustrations and 18 symbols. All 45 requested
+  transparent assets have alpha; three landscapes use full scenic backgrounds.
+  Exact prompts and roles are in `art/revision-prompts.json`.
+- Each placed illustration occurs once. The book contains 126 unique illustration
+  placements, including 23 carefully selected open-area placements. Functional
+  symbols and book logos intentionally repeat. Class portraits remain on their
+  introductions; relevant objects accompany signatures. No portrait filler cycle.
+- Added space after illustrations and an explicit gap before ancestry trait cards.
+- Consulted Pathfinder Core Rulebook PDF pages 288–291 for isolated object artwork,
+  tables and compact identification marks; see `art-direction.md`.
 
-## Requested presentation revisions
+## Coverage and export checks
 
-- Added culture, background, equipment and recipe introductions, with early discipline links.
-- Removed per-class multiclassing repetition; retained global creation, class-introduction and glossary references.
-- Selected Thinking Fighter, Green Healer, Spellblade and Light-Fingered Adventurer as the four paths.
-- Added compact forest-and-gold card headers, borders and separators to abilities, equipment, recipes and companions; removed redundant Rules headings and empty bullets.
-- Reorganized starting-coin and summon-selection tables into grouped columns.
-- Rebuilt four printable sheets for play, training, belongings/wounds and creation accounting.
-- Generated and inspected 121 original interior assets, including 18 discipline badges with text rank overlays. Prompts and full-resolution PNGs are preserved.
-- Filled clear areas with contextual illustrations, accounting for existing image rectangles and avoiding duplicate images on the same page. Writing fields and the index are excluded.
-
-## Verification
-
-- Typst 0.15.1 compilation succeeds; bundled fonts are embedded with Unicode mappings.
-- The player-book audit passes: unique source labels and hashes, all 350 ability names,
-  486 labeled outcome lines, and the descriptive/effect/remedy cells of all 280 wound rows.
-- No missing planned images, no illustration placeholders and no text outside checked bounds.
-- All 350 ability blocks fit together; largest measured block is approximately 391.1 pt,
-  below the 675 pt split threshold.
-- Final PDF contains 1,538 links with valid page targets and 943 bookmarks.
-- Extracted text is byte-for-byte identical before and after PDF image compression.
-  Embedded RGB image streams alone are compressed; original dimensions, alpha masks,
-  fonts, text and source art remain intact. A Ghostscript export that damaged ligature
-  extraction was rejected and replaced.
-- Source audit passes for 990 Markdown files and 350 cards. Bestiary audit passes for
-  192 creatures, 244 attack choices, 93 monster abilities and 73 player profiles.
-- Every page inspected in overview, with enlarged checks of introductions, card headers,
-  grouped tables, companion profiles, wound tables and all printable sheets. Final art
-  placement corrections were rendered and checked again.
+- Book audit passes: 607 source records, all 350 abilities, 486 outcome lines and
+  all descriptive/effect/remedy cells for 280 wound rows.
+- All source hashes current; all 169 retained/generated art assets present.
+- No missing placeholders, repeated illustration placements or text outside checked bounds.
+- Four printable sheets occupy pages 223–226.
+- All 350 ability blocks fit the 675 pt keep-together threshold; largest is 395.1 pt.
+- 1,538 PDF links have valid page targets; 944 bookmarks remain.
+- Extracted text matches exactly before and after image-stream compression.
+  Source resolution and alpha masks remain intact; original art is preserved.
+- Every page inspected in overview; introductions, catalogs, actual-size symbols,
+  class art, tables and image spacing checked enlarged. Final changed placements
+  and balanced discipline pages re-rendered and checked.
 
 ## Review boundaries
 
-This is author QA, not independent approval or balance certification. It is a digital
-playtest edition; print production, publication notices and professional copy editing
-remain separate. The existing decision-log.md still records the previously identified
-rule boundaries. No new game mechanics or legacy catalog content were introduced.
+No game mechanics or source catalog prose changed. Shared discipline rules were
+moved in the reader edition; original Markdown entries remain independently useful.
+The book includes 73 summon profiles, not the separate 192-creature DA bestiary.
+This is author QA for a digital playtest edition, not independent approval, balance
+certification or a printer-ready release. Existing decision-log.md boundaries remain.

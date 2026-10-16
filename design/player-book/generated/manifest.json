@@ -1072,7 +1072,7 @@
       "path": "design/player-book/manuscript/05-disciplines.md",
       "kind": "chapter",
       "key": "s-6289e7cc8d28",
-      "sha256": "8eab42b7bb352246b44a877cb6c12f846ca6bac1997b3cc567dc1f2443dfee5b"
+      "sha256": "fa1cc12fa60d7314d699da3b34790f3aed1566e29f86b34846eb4f9235896c6f"
     },
     {
       "path": "design/disciplines/armor.md",
@@ -8231,19 +8231,7 @@
       "design/cards/use-a-healing-potion.md"
     ],
     [
-      "design/equipment/greater-healing-bottle.md",
-      "design/cards/use-a-healing-potion.md"
-    ],
-    [
       "design/equipment/lesser-healing-bottle.md",
-      "design/cards/use-a-healing-potion.md"
-    ],
-    [
-      "design/equipment/lesser-healing-bottle.md",
-      "design/cards/use-a-healing-potion.md"
-    ],
-    [
-      "design/equipment/superior-healing-bottle.md",
       "design/cards/use-a-healing-potion.md"
     ],
     [
@@ -8255,28 +8243,12 @@
       "design/cards/a-roof-before-nightfall.md"
     ],
     [
-      "design/recipes/camp-shelter.md",
-      "design/cards/a-roof-before-nightfall.md"
-    ],
-    [
-      "design/recipes/clearing-tonic.md",
-      "design/cards/the-cleverest-mixture.md"
-    ],
-    [
       "design/recipes/clearing-tonic.md",
       "design/cards/the-cleverest-mixture.md"
     ],
     [
       "design/recipes/lesser-healing-bottle.md",
       "design/cards/bottled-morning.md"
-    ],
-    [
-      "design/recipes/lesser-healing-bottle.md",
-      "design/cards/bottled-morning.md"
-    ],
-    [
-      "design/recipes/smoke-flask.md",
-      "design/cards/smoke-in-a-bottle.md"
     ],
     [
       "design/recipes/smoke-flask.md",

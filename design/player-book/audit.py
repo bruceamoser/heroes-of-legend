@@ -22,10 +22,15 @@ def norm(s):
  s=re.sub(r'\[([^\]]+)\]\([^)]*\)',r'\1',s)
  return re.sub(r'[^a-z0-9]','',s.lower())
 n=norm(text)
-art=json.loads((B/'art/interior-prompts.json').read_text())
+art=json.loads((B/'art/interior-prompts.json').read_text())+json.loads((B/'art/revision-prompts.json').read_text())
 missing_art=[x['path'] for x in art if not (R/x['path']).is_file()]
 if missing_art:errors.append(f'{len(missing_art)} missing illustration assets')
-if len([x for x in art if x['key'].startswith('badge-')])!=18:errors.append('Expected 18 generated discipline badges')
+if len([x for x in art if x['key'].startswith('symbol-')])!=18:errors.append('Expected 18 simple discipline symbols')
+placements=json.loads((B/'generated/illustration-placements.json').read_text())
+image_counts=collections.Counter(x['asset'] for x in placements)
+duplicated_art={k:v for k,v in image_counts.items() if v>1}
+if duplicated_art:errors.append('Repeated illustrations: '+str(duplicated_art))
+if n.count('classaffinitysetsthecostofeachrank'):errors.append('Repeated discipline purchase boilerplate remains')
 if 'Artwork in production' in text:errors.append('Unfilled illustration placeholder in PDF')
 # Creation, the class introduction and glossary may each state the global rule.
 if n.count('nomulticlassing')!=3:errors.append('Unexpected multiclassing repetition outside the three global references')
@@ -70,7 +75,7 @@ for page_num,page in enumerate(pages,1):
 if outside:errors.append(f'{len(outside)} words outside content bounds')
 (B/'generated/layout-report.json').write_text(json.dumps({'pages':len(pages),'outside_content_bounds':outside},indent=2)+'\n')
 # These are transcription/geometry checks, not proof of play balance or visual quality.
-report={'counts':dict(c),'illustration_assets':len(art),'missing_art':missing_art,'open_space_illustrations':len(fills),'printable_sheet_pages':sheet_pages,'ability_outcomes_checked':outcomes,'missing_names':missing_names,'missing_outcomes':missing_outcomes,'wound_rows':len(wounds),'missing_wound_cells':missing_wound_cells,'pages':len(pages),'errors':errors}
+report={'counts':dict(c),'illustration_assets':len(art),'missing_art':missing_art,'open_space_illustrations':len(fills),'unique_illustrations':len(image_counts),'duplicate_illustrations':duplicated_art,'printable_sheet_pages':sheet_pages,'ability_outcomes_checked':outcomes,'missing_names':missing_names,'missing_outcomes':missing_outcomes,'wound_rows':len(wounds),'missing_wound_cells':missing_wound_cells,'pages':len(pages),'errors':errors}
 (B/'generated/coverage-report.json').write_text(json.dumps(report,indent=2,ensure_ascii=False)+'\n')
 print(json.dumps({k:v for k,v in report.items() if k not in ('missing_outcomes',)},indent=2))
 if errors:raise SystemExit(1)

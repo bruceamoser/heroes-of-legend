@@ -26,7 +26,7 @@
   The Dungeon Architect’s bestiary and encounter guidance are separate.
 
   Cover artwork was created with AI assistance and approved by Bruce. Interior
-  illustrations and discipline badges were generated to match the book’s visual style. The title and
+  illustrations and discipline symbols were generated to match the book’s visual style. The title and
   rules remain editable type. This is a digital playtest proof; final print artwork,
   production specifications and publication notices will be prepared for release.
 ]

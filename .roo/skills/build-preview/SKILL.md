@@ -26,8 +26,12 @@ Read its README for Typst, font, Poppler, Pillow and pypdf requirements.
 Output: `design/player-book/output/heroes-of-legend-players-book.pdf`.
 The build reads authored Markdown; never regenerate catalog prose from code. It
 compiles without decorative fill, identifies clear page areas, recompiles with
-contextual illustrations, and optimizes only the PDF export's raster images.
-Keep generated art masters and prompts. Do not substitute old Quarto mechanics.
+a finite set of relevant, unused illustrations, and optimizes only the PDF export's raster images.
+Keep generated art masters and prompts. Never cycle artwork to fill gaps. Check
+illustration uniqueness across the entire book, including front matter and explicit
+placements; repeating functional symbols and logos is allowed. Whitespace is better
+than unrelated portrait filler. Inspect discipline symbols with their rank numbers
+at the actual printed header size. Do not substitute old Quarto mechanics.
 
 Before delivering an illustrated revision, verify all planned art exists and no
 placeholder remains, inspect every page in overview and enlarge representative
