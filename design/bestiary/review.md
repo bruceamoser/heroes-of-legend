@@ -49,8 +49,10 @@ that is content design, not permission to silently rewrite the core engine.
 The summoned Moon Hart now pays its own spell cost under the existing rule. Recasting
 a fresh healer can therefore reset its HP pool. That is a real balance/design question
 for Bruce, not something this review resolves by assigning the cost to someone else.
-Likewise, exact multi-square tether geometry and unresolved general movement cases
-remain DA adjudication pending approval; they are not hidden card prerequisites.
+**Tether update, October 16, 2026:** Bruce approved ordinary grid distance between
+the nearest occupied squares of controller and summon. Distance 6 is valid;
+beyond 6 immediately ends the summon, including forced movement. Other unresolved
+general movement cases remain DA adjudication, not hidden card prerequisites.
 
 ## Difficulty and CV
 

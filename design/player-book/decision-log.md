@@ -27,6 +27,9 @@ proposal wording. These are visible provisional table rulings only where needed.
    starting value and explicit advancement/card increases; rest does not restore it.
 6. Withdrawn global bestiary proposals (including a summoned-healer controller tax)
    remain withdrawn. Approval of open proposals does not revive them.
-7. The six-square summon tether is established, but the measurement point for a
-   creature occupying several squares is not specified. Agree on that measurement
-   with the DA before summoning a large form; this remains a design question.
+7. **Resolved October 16, 2026:** measure the six-square summon tether between the
+   nearest occupied squares of controller and summon, using ordinary grid distance.
+   At 6 squares the summon remains present; beyond 6 it immediately disappears.
+   Voluntary and forced movement of either participant can break the tether.
+   See [summoning](../rules/summoning.md). Replace the provisional measurement text
+   in the next player-book revision; the published v16.0.0 PDF is unchanged.

@@ -63,6 +63,17 @@ conditions, durations, tether checks and already-resolved effects continue norma
 These are consequences, not permission for new activity. A previous Defend benefit
 lasts only to its printed expiry; it does not renew itself.
 
+## Six-square tether — approved October 16, 2026
+
+Measure ordinary grid distance between the nearest occupied squares of the
+controller and summon. Diagonals count normally as one square. The summon remains
+present at a distance of 6 squares; if the nearest distance exceeds 6, it immediately
+disappears. Voluntary or forced movement of either participant can break the tether.
+
+For example, a large summon remains present with its nearest square 6 squares away
+and its farthest square 7 away. If its nearest square becomes 7 squares away, it
+disappears. Neither creature’s center nor farthest occupied square sets the distance.
+
 The summon profile must anchor any “your turn” duration or condition tick to the
 controller’s turn. Passive defenses such as resistance remain applicable. Do not
 import automatic attacks, active auras or triggered abilities from a monster entry
@@ -77,8 +88,9 @@ healing compatibility, command options and restrictions. These permissions await
 Bruce’s review; category or CV alone never authorizes a creature.
 
 The [creature procedure](../bestiary/procedure.md) and summon selection document
-explicit working proposals for large-body tether measurement, geometry and ordinary
-command activities. The old embedded creature samples remain retired. Use the new
+the permitted command activities. Use the approved tether measurement above and
+the [moving-group placement rules](stability.md) where relevant. The old embedded
+creature samples remain retired. Use the new
 entry itself, not a historical sample or a monster’s narrative tactics as a standing
 order. No activity, alerts or independent Reactions without the permitted command.
 

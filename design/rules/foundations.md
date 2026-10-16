@@ -103,6 +103,9 @@ command they do nothing, including following, lookout and alerts. Old orders gra
 no continued activity; existing conditions and durations still resolve. No free independent
 turns, inherent Reactions or summon chains. No count cap. Beyond 6 squares from the
 controller they disappear, including forced movement of either participant.
+Measure between the nearest occupied squares of controller and summon, using
+ordinary grid distance; this applies to every footprint. Exactly 6 squares is
+within the tether; beyond 6 causes immediate disappearance.
 
 Ordinary travel has no routine roll and no exhaustion track. Group checks occur
 outside combat only: each participant adds 1/2/3 to a declared target. State binary

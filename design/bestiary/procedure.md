@@ -61,6 +61,11 @@ activity or alerts. No summon Reactions, opportunities or summon chains. Existin
 conditions still tick on the controller’s turn. Summon selection is explicit, not
 inferred from category or CV.
 
+Measure the six-square tether between the nearest occupied squares of controller
+and summon, using ordinary grid distance. At 6 squares it remains present; beyond
+6 it immediately disappears. Movement of either participant, including forced
+movement, can break the tether. A large footprint does not change this procedure.
+
 ## What is not settled by a creature card
 
 Cards define their own exceptional capabilities and area dimensions; they do not

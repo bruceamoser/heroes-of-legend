@@ -26,6 +26,7 @@ description: Review a pull request for the Heroes of Legend rulebook. Use when r
 - [ ] Collision damage uses movement remaining on contact before the newly struck creature’s Stability is deducted; apply applicable resistance to damage. Moving groups stop at the last position where everyone fits in separate legal spaces, with DA placement and no extra forward movement or passage through walls; preserve the original mover’s backward bounce where possible.
 - [ ] Ability tier/minimum levels 1/3/7 and DP costs 2/4/8 are correct. Discipline ranks use the current class-affinity schedule and are bought sequentially; no retired card chains.
 - [ ] Discipline prerequisites valid and consistent.
+- [ ] Summon tether uses ordinary grid distance between nearest occupied squares of controller and summon: 6 remains valid, beyond 6 immediately ends the summon, including forced movement. Do not measure from centers or farthest edges.
 - [ ] No mechanics contradict current `design/rules/`, `design/development.md`, card conventions, or later explicit decisions. Historical documents are not newer authority.
 
 ### Cross-References
